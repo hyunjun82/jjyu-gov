@@ -1227,7 +1227,7 @@ img { max-width: 100%; display: block; }
 /* 답변 박스 (SGE 추출 대상: 40~60단어 자기완결) */
 .answer-box {
   background: var(--gov-primary-bg);
-  border-left: 4px solid var(--gov-primary);
+  border: 1px solid #D0DFEF;
   border-radius: var(--radius-sm);
   padding: 16px 20px;
   margin-top: 16px;
@@ -1238,7 +1238,7 @@ img { max-width: 100%; display: block; }
 
 .answer-box-inline {
   background: var(--gov-primary-bg);
-  border-left: 4px solid var(--gov-primary);
+  border: 1px solid #D0DFEF;
   border-radius: var(--radius-sm);
   padding: 14px 18px;
   margin-bottom: 20px;
@@ -1420,8 +1420,9 @@ img { max-width: 100%; display: block; }
 
 .action-case {
   background: var(--bg);
+  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 16px;
+  padding: 20px;
 }
 
 .action-case strong {
@@ -1429,18 +1430,31 @@ img { max-width: 100%; display: block; }
   font-size: 14px;
   font-weight: 700;
   color: var(--gov-primary);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--gov-primary-bg);
 }
 
-.action-case ol {
-  padding-left: 18px;
+.action-case ul {
+  list-style: none;
+  padding: 0;
   font-size: 14px;
   line-height: 1.8;
   color: var(--text-secondary);
 }
 
 .action-case li {
-  padding: 2px 0;
+  padding: 4px 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.action-case li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--gov-primary);
+  font-weight: 700;
 }
 
 /* 출처 섹션 (페이지 하단) */
