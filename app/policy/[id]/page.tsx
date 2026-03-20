@@ -265,9 +265,10 @@ export default function PolicyDetailPage() {
 
         {/* ── 앵커 네비게이션 ── */}
         <nav className="anchor-nav" aria-label="페이지 내 이동">
-          <a href="#summary">3줄요약</a>
-          <a href="#details">상세정보</a>
+          <a href="#summary">요약</a>
+          <a href="#details">누가 얼마</a>
           <a href="#eligibility">자격확인</a>
+          <a href="#income-table">중위소득</a>
           <a href="#apply">신청방법</a>
           <a href="#faq">FAQ</a>
         </nav>
@@ -289,7 +290,7 @@ export default function PolicyDetailPage() {
 
         {/* ── 상세 정보 테이블 ── */}
         <section className="detail-card" id="details">
-          <h2 className="detail-card-head">청년도약계좌란? 한눈에 보기</h2>
+          <h2 className="detail-card-head">누가 얼마를 받나?</h2>
           <table className="info-table">
             <caption className="sr-only">{d.title} 상세 정보</caption>
             <tbody>
@@ -362,24 +363,34 @@ export default function PolicyDetailPage() {
               <div className={`elig-result ${allPass ? 'pass' : 'fail'}`}>
                 {allPass ? (
                   <>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                      <CheckCircle size={20} />
-                      {totalQ}개 조건 모두 충족. 아래 신청 방법을 확인하세요.
+                    <div className="elig-result-title">
+                      <span style={{ fontSize: 24 }}>&#127881;</span>
+                      <span>축하합니다! {totalQ}개 조건 모두 충족</span>
                     </div>
+                    <p className="elig-result-desc">
+                      소득 구간에 따라 월 최대 40만원의 정부기여금을 받을 수 있습니다.
+                      5년 만기 시 최대 5,000만원 수령이 가능합니다.
+                    </p>
                     <a
                       href={d.applyUrl}
-                      className="btn-cta"
-                      style={{ marginTop: 16, display: 'inline-flex' }}
+                      className="btn-cta btn-cta-lg"
                     >
                       지금 바로 신청하기
                     </a>
+                    <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 8 }}>
+                      은행 앱에서 3분이면 신청 완료
+                    </p>
                   </>
                 ) : (
                   <>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                       <XCircle size={20} />
-                      {failed}개 조건 불일치. 각 항목의 안내를 확인하세요.
+                      {failed}개 조건이 맞지 않습니다
                     </div>
+                    <p style={{ fontSize: 13, color: 'var(--text-secondary)', marginTop: 8 }}>
+                      위 항목에서 빨간색 안내를 확인하세요. 병역 기간 인정, 소득 기준 변경 등
+                      예외 사항이 있을 수 있습니다.
+                    </p>
                   </>
                 )}
               </div>
@@ -401,7 +412,7 @@ export default function PolicyDetailPage() {
 
         {/* ── 중위소득 기준표 ── */}
         <section className="detail-card" id="income-table">
-          <h2 className="detail-card-head">2026년 가구원수별 중위소득 기준표</h2>
+          <h2 className="detail-card-head">우리 가구 중위소득, 250% 이하인가?</h2>
           <div className="detail-card-body" style={{ padding: 0 }}>
             <div style={{ overflowX: 'auto' }}>
               <table className="income-table">
@@ -605,6 +616,18 @@ export default function PolicyDetailPage() {
               </details>
             ))}
           </div>
+        </section>
+
+        {/* ── 출처 섹션 ── */}
+        <section className="source-section" id="sources">
+          <h2 className="source-section-title">이 글의 출처</h2>
+          <ul className="source-list">
+            <li><a href="https://www.fsc.go.kr/no010101/81550" target="_blank" rel="noopener noreferrer">금융위원회 – 청년도약계좌 안내</a></li>
+            <li><a href="https://www.kinfa.or.kr" target="_blank" rel="noopener noreferrer">서민금융진흥원 – 청년도약계좌 상품안내</a></li>
+            <li><a href="https://www.bokjiro.go.kr" target="_blank" rel="noopener noreferrer">복지로 – 청년도약계좌 자격확인</a></li>
+            <li><a href="https://www.gov.kr" target="_blank" rel="noopener noreferrer">정부24 – 청년도약계좌 신청</a></li>
+          </ul>
+          <p className="source-updated">마지막 검수: 2026.03.20</p>
         </section>
 
         {/* ── 관련 정책 ── */}

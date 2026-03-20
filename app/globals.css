@@ -1219,3 +1219,324 @@ img { max-width: 100%; display: block; }
   display: none;
   content: '';
 }
+
+/* ═══════════════════════════════════
+   SGE 최적화 컴포넌트
+   ═══════════════════════════════════ */
+
+/* 답변 박스 (SGE 추출 대상: 40~60단어 자기완결) */
+.answer-box {
+  background: var(--gov-primary-bg);
+  border-left: 4px solid var(--gov-primary);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.answer-box-inline {
+  background: var(--gov-primary-bg);
+  border-left: 4px solid var(--gov-primary);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* 핵심 수치 비교 박스 */
+.highlight-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px 20px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.highlight-num-item {
+  text-align: center;
+  flex: 1;
+  max-width: 200px;
+}
+
+.highlight-num-item.primary .highlight-num-value {
+  color: var(--gov-primary);
+}
+
+.highlight-num-label {
+  display: block;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.highlight-num-value {
+  display: block;
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+}
+
+.highlight-num-sub {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.highlight-num-vs {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* 체크리스트 박스 */
+.info-checklist {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  margin-bottom: 16px;
+}
+
+.info-checklist strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+.info-checklist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-checklist li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.info-checklist li:last-child {
+  border-bottom: 0;
+}
+
+.check-icon {
+  color: var(--success);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* 주의 박스 */
+.warning-box {
+  background: #FFFBEB;
+  border: 1px solid #F59E0B;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #92400E;
+}
+
+.warning-box strong {
+  color: #B45309;
+}
+
+/* 인라인 출처 */
+.source-inline {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+.source-inline a {
+  color: var(--gov-primary-light);
+  text-decoration: none;
+}
+
+.source-inline a:hover {
+  text-decoration: underline;
+}
+
+/* 미니 테이블 */
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.mini-table thead {
+  background: var(--gov-primary);
+  color: #fff;
+}
+
+.mini-table th {
+  padding: 10px 14px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.mini-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-secondary);
+}
+
+.mini-table .text-danger {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.mini-table .text-success {
+  color: var(--success);
+  font-weight: 600;
+}
+
+/* 행동 분기 박스 */
+.action-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.action-case {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+}
+
+.action-case strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gov-primary);
+  margin-bottom: 10px;
+}
+
+.action-case ol {
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.action-case li {
+  padding: 2px 0;
+}
+
+/* 출처 섹션 (페이지 하단) */
+.source-section {
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  padding: 20px 24px;
+  margin-bottom: 16px;
+}
+
+.source-section-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.source-list {
+  list-style: none;
+  padding: 0;
+}
+
+.source-list li {
+  font-size: 13px;
+  padding: 4px 0;
+  color: var(--text-muted);
+}
+
+.source-list li::before {
+  content: '• ';
+  color: var(--gov-primary);
+}
+
+.source-list a {
+  color: var(--gov-primary-light);
+  text-decoration: none;
+}
+
+.source-list a:hover {
+  text-decoration: underline;
+}
+
+.source-updated {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-light);
+}
+
+/* 체커 결과 강화 */
+.elig-result-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.elig-result.pass .elig-result-title {
+  color: var(--success);
+}
+
+.elig-result-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  line-height: 1.7;
+}
+
+.btn-cta-lg {
+  margin-top: 16px;
+  display: inline-flex;
+  padding: 14px 32px !important;
+  font-size: 16px !important;
+  font-weight: 700;
+}
+
+/* 모바일 대응 */
+@media (max-width: 640px) {
+  .highlight-numbers {
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+  }
+
+  .highlight-num-vs {
+    font-size: 12px;
+  }
+
+  .highlight-num-value {
+    font-size: 18px;
+  }
+
+  .action-split {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
