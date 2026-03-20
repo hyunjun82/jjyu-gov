@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { organizationSchema, personSchema, toJsonLd } from '@/lib/schema';
 
 export const metadata: Metadata = {
   title: '정부지원사업 | 정부 지원금·환급금·대출 정보 포털',
@@ -14,6 +15,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+        />
+        {/* 사이트 전역 스키마: Organization + Person (E-E-A-T) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: toJsonLd(organizationSchema()) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: toJsonLd(personSchema()) }}
         />
       </head>
       <body>

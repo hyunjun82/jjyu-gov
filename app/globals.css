@@ -635,7 +635,7 @@ img { max-width: 100%; display: block; }
   line-height: 1.7;
 }
 
-/* ═══ Eligibility Checker ═══ */
+/* ═══ Eligibility Checker (Navy Theme) ═══ */
 .elig-item {
   display: flex;
   align-items: center;
@@ -647,7 +647,7 @@ img { max-width: 100%; display: block; }
   background: var(--bg);
   transition: all 0.2s;
 }
-.elig-item.pass { background: var(--success-bg); border-color: #A7F3D0; }
+.elig-item.pass { background: var(--gov-primary-bg); border-color: #B8CEE8; }
 .elig-item.fail { background: var(--danger-bg); border-color: #FECACA; }
 .elig-q { flex: 1; font-size: 14px; font-weight: 500; }
 .elig-btns { display: flex; gap: 8px; }
@@ -662,7 +662,7 @@ img { max-width: 100%; display: block; }
   font-family: inherit;
 }
 .elig-btns button:hover { border-color: var(--gov-primary-light); }
-.elig-btns button.yes-active { background: var(--success); color: #fff; border-color: var(--success); }
+.elig-btns button.yes-active { background: var(--gov-primary); color: #fff; border-color: var(--gov-primary); }
 .elig-btns button.no-active { background: var(--danger); color: #fff; border-color: var(--danger); }
 
 .elig-result {
@@ -672,8 +672,329 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   font-size: 15px;
 }
-.elig-result.pass { background: var(--success-bg); color: #065F46; border: 1px solid #A7F3D0; }
+.elig-result.pass { background: var(--gov-primary-bg); color: var(--gov-primary); border: 1px solid #B8CEE8; }
 .elig-result.fail { background: var(--danger-bg); color: #991B1B; border: 1px solid #FECACA; }
+
+/* ═══ Feedback per condition ═══ */
+.elig-feedback {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.elig-item.pass .elig-feedback { color: var(--gov-primary); }
+.elig-item.fail .elig-feedback { color: var(--danger); }
+
+/* ═══ Summary Box ═══ */
+.summary-box {
+  background: var(--gov-primary-bg);
+  border: 1px solid #B8CEE8;
+  border-radius: var(--radius);
+  padding: 24px 28px;
+}
+.summary-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.summary-box li {
+  padding: 6px 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-primary);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.6;
+}
+.summary-box li::before {
+  content: '✓';
+  color: var(--gov-primary);
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.summary-arrow {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #B8CEE8;
+  font-size: 14px;
+  color: var(--gov-primary);
+  font-weight: 600;
+}
+
+/* ═══ Income Table ═══ */
+.income-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.income-table th {
+  background: var(--gov-primary);
+  color: #fff;
+  padding: 12px 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.income-table td {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-secondary);
+}
+.income-table tr:nth-child(even) td { background: var(--bg); }
+.income-table td:last-child { font-weight: 700; color: var(--gov-primary); }
+
+/* ═══ Compare Table ═══ */
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.compare-table th {
+  padding: 14px 16px;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2px solid var(--border);
+  color: var(--text-secondary);
+  background: var(--bg);
+}
+.compare-table th.highlight {
+  background: var(--gov-primary);
+  color: #fff;
+}
+.compare-table td {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-secondary);
+}
+.compare-label {
+  text-align: left !important;
+  font-weight: 600;
+  color: var(--text-primary) !important;
+  background: var(--bg);
+}
+.compare-doyak {
+  font-weight: 600;
+  color: var(--gov-primary) !important;
+  background: var(--gov-primary-bg);
+}
+
+/* ═══ Steps ═══ */
+.step-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step;
+}
+.step-item {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+.step-item:last-child { border-bottom: none; }
+.step-num {
+  width: 32px;
+  height: 32px;
+  background: var(--gov-primary);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.step-content { flex: 1; }
+.step-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.step-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ═══ Method Tabs ═══ */
+.method-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.method-tab {
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  font-size: 14px;
+  font-weight: 600;
+  background: var(--surface);
+  color: var(--text-secondary);
+  transition: all 0.15s;
+}
+.method-tab.active {
+  background: var(--gov-primary);
+  color: #fff;
+  border-color: var(--gov-primary);
+}
+
+/* ═══ Doc List ═══ */
+.doc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+.doc-chip {
+  padding: 6px 14px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* ═══ FAQ Accordion ═══ */
+.faq-list { padding: 0; }
+.faq-item {
+  border-bottom: 1px solid var(--border-light);
+}
+.faq-item:last-child { border-bottom: none; }
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 24px;
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: left;
+  cursor: pointer;
+  gap: 12px;
+  transition: background 0.1s;
+}
+.faq-question:hover { background: var(--bg); }
+.faq-item.open .faq-question { color: var(--gov-primary); }
+.faq-answer {
+  padding: 0 24px 18px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* ═══ Policy Layout (Hub + Sidebar) ═══ */
+.policy-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+.policy-main { flex: 1; min-width: 0; }
+.policy-sidebar {
+  width: 260px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 82px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Sidebar CTA */
+.sidebar-cta {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.sidebar-cta-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: var(--gov-primary);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.sidebar-cta-btn:hover { background: var(--gov-primary-hover); }
+
+/* Sidebar Nav */
+.sidebar-nav {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.sidebar-nav-head {
+  padding: 14px 18px;
+  font-size: 15px;
+  font-weight: 800;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sidebar-nav-head::before {
+  content: '';
+  width: 3px;
+  height: 16px;
+  background: var(--gov-primary);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.sidebar-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-light);
+  transition: all 0.1s;
+}
+.sidebar-nav-item:last-child { border-bottom: none; }
+.sidebar-nav-item:hover {
+  background: var(--bg);
+  color: var(--gov-primary);
+}
+.sidebar-nav-item.active {
+  background: var(--gov-primary-bg);
+  color: var(--gov-primary);
+  font-weight: 700;
+}
+.sidebar-nav-item.hub {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.sidebar-nav-item svg { flex-shrink: 0; color: var(--text-muted); }
+.sidebar-nav-item.active svg { color: var(--gov-primary); }
+
+@media (max-width: 768px) {
+  .policy-layout { flex-direction: column; }
+  .policy-sidebar {
+    width: 100%;
+    position: static;
+  }
+}
 
 /* ═══ Related Policy ═══ */
 .related-item {
@@ -791,4 +1112,110 @@ img { max-width: 100%; display: block; }
   .card-amount { font-size: 16px; }
   .spoke-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
   .spoke-item { padding: 10px 12px; font-size: 13px; }
+}
+
+/* ═══════════════════════════════════
+   접근성 + 시멘틱 보강
+   ═══════════════════════════════════ */
+
+/* 스크린 리더 전용 (시각적으로 숨김) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* 자격확인 fieldset 초기화 */
+.elig-fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ═══════════════════════════════════
+   에디터 프로필 (E-E-A-T)
+   ═══════════════════════════════════ */
+.editor-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  padding: 10px 14px;
+  background: var(--bg);
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--border-light);
+}
+
+.editor-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gov-primary-bg);
+  color: var(--gov-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.editor-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.editor-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.editor-role {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ═══════════════════════════════════
+   FAQ 출처 링크
+   ═══════════════════════════════════ */
+.faq-source {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-light);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.faq-source a {
+  color: var(--gov-primary-light);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.faq-source a:hover {
+  text-decoration: underline;
+}
+
+/* details/summary FAQ 기본 스타일 재정의 */
+.faq-item[open] > .faq-answer {
+  display: block;
+}
+
+.faq-item > summary {
+  list-style: none;
+}
+
+.faq-item > summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item > summary::marker {
+  display: none;
+  content: '';
 }
