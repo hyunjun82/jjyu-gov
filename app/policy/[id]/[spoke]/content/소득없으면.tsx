@@ -29,42 +29,42 @@ const typeResults: Record<Exclude<UserType, null>, TypeResult> = {
     ok: true, title: '가입 가능합니다',
     desc: '4대보험 가입 근로자는 소득이 자동 신고됩니다. 총급여 7,500만원 이하면 바로 신청하세요.',
     steps: [
-      { label: '소득확인증명서 발급', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '은행 앱에서 청년도약계좌 신청', link: '/policy/1/은행별-금리', linkLabel: '은행별 금리 비교' },
+      { label: '소득확인증명서 온라인 무료 발급 (1분)', link: LINKS.hometax, linkLabel: '지금 발급받기' },
+      { label: '내 조건에 맞는 최고 금리 은행 확인', link: '/policy/1/은행별-금리', linkLabel: '금리 비교하기' },
     ],
   },
   alba4: {
     ok: true, title: '가입 가능합니다',
-    desc: '4대보험 알바는 근로소득이 국세청에 자동 신고됩니다. 소득이 적을수록 기여금 비율이 높아 오히려 유리합니다.',
+    desc: '4대보험 알바는 근로소득이 자동 신고됩니다. 소득이 적을수록 기여금 비율이 높아 오히려 유리합니다.',
     steps: [
-      { label: '소득확인증명서 발급', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '은행 앱에서 청년도약계좌 신청', link: '/policy/1/은행별-금리', linkLabel: '은행별 금리 비교' },
+      { label: '소득확인증명서 온라인 무료 발급 (1분)', link: LINKS.hometax, linkLabel: '지금 발급받기' },
+      { label: '내 조건에 맞는 최고 금리 은행 확인', link: '/policy/1/은행별-금리', linkLabel: '금리 비교하기' },
     ],
   },
   alba33: {
     ok: true, title: '가입 가능 (종소세 신고 먼저)',
     desc: '3.3% 원천징수 알바는 사업소득입니다. 5월에 홈택스에서 종합소득세 신고를 먼저 해야 합니다.',
     steps: [
-      { label: '종합소득세 신고 (5월)', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '소득확인증명서 발급 (7월 이후)', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '은행 앱에서 청년도약계좌 신청', link: '/policy/1/은행별-금리', linkLabel: '은행별 금리 비교' },
+      { label: '종합소득세 신고하기 (10분, 무료)', link: LINKS.hometax, linkLabel: '신고하러 가기' },
+      { label: '소득확인증명서 발급 (신고 후 가능)', link: LINKS.hometax, linkLabel: '발급받기' },
+      { label: '내 조건에 맞는 최고 금리 은행 확인', link: '/policy/1/은행별-금리', linkLabel: '금리 비교하기' },
     ],
   },
   freelancer: {
     ok: true, title: '가입 가능 (종소세 신고 필수)',
     desc: '프리랜서는 종합소득세 신고로 소득을 증빙합니다. 신고 안 하면 가입 불가합니다.',
     steps: [
-      { label: '종합소득세 신고 (5월)', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '소득확인증명서 발급 (7월 이후)', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '은행 앱에서 청년도약계좌 신청', link: '/policy/1/은행별-금리', linkLabel: '은행별 금리 비교' },
+      { label: '종합소득세 신고하기 (10분, 무료)', link: LINKS.hometax, linkLabel: '신고하러 가기' },
+      { label: '소득확인증명서 발급 (신고 후 가능)', link: LINKS.hometax, linkLabel: '발급받기' },
+      { label: '내 조건에 맞는 최고 금리 은행 확인', link: '/policy/1/은행별-금리', linkLabel: '금리 비교하기' },
     ],
   },
   student_income: {
     ok: true, title: '가입 가능합니다',
     desc: '알바·프리랜서 소득이 국세청에 신고되어 있으면 가입됩니다. 소득 2,400만원 이하면 기여금 6%로 가장 유리합니다.',
     steps: [
-      { label: '소득 유형 확인 (4대보험 or 3.3%)' },
-      { label: '3.3%면 종소세 신고 먼저', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
+      { label: '내 소득 신고 여부 확인', link: LINKS.hometax, linkLabel: '홈택스에서 조회' },
+      { label: '3.3% 알바면 종소세 신고 먼저 (10분)', link: LINKS.hometax, linkLabel: '신고하러 가기' },
       { label: '소득확인증명서 발급 후 은행 앱 신청' },
     ],
   },
@@ -72,27 +72,27 @@ const typeResults: Record<Exclude<UserType, null>, TypeResult> = {
     ok: false, title: '현재 가입 불가',
     desc: '소득이 0원이면 가입할 수 없습니다. 아르바이트를 시작하고 소득이 국세청에 신고된 후 가입하세요.',
     steps: [
-      { label: '아르바이트 시작 (4대보험 가입 추천)' },
-      { label: '소득 발생 후 소득확인증명서 발급', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '은행 앱에서 청년도약계좌 신청' },
+      { label: '4대보험 가입 알바를 시작하세요 (소득 자동 신고)' },
+      { label: '소득 발생 후 소득확인증명서 발급', link: LINKS.hometax, linkLabel: '발급받기' },
+      { label: '내 조건에 맞는 은행에서 신청' },
     ],
   },
   unemployed: {
     ok: false, title: '현재 가입 불가',
     desc: '국세청 소득확인증명서에 소득이 있어야 합니다. 취업 후 소득이 확정되면 가입하세요.',
     steps: [
-      { label: '취업 후 소득 확정 대기' },
-      { label: '소득확인증명서 발급', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-      { label: '은행 앱에서 청년도약계좌 신청' },
+      { label: '취업 후 소득 확정까지 대기' },
+      { label: '소득확인증명서 무료 발급 (1분)', link: LINKS.hometax, linkLabel: '발급받기' },
+      { label: '내 조건에 맞는 은행에서 신청' },
     ],
   },
   upcoming: {
     ok: false, title: '지금은 불가, 소득 확정 후 가능',
     desc: '올해 취업했다면 내년 5월 종소세 신고 후 7월부터 가능합니다. 전전년도 소득이 있으면 바로 가능합니다.',
     steps: [
-      { label: '내년 5월 종합소득세 신고', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
+      { label: '내년 5월 종합소득세 신고 (10분)', link: LINKS.hometax, linkLabel: '신고하러 가기' },
       { label: '7월 이후 소득확인증명서 발급' },
-      { label: '은행 앱에서 청년도약계좌 신청' },
+      { label: '내 조건에 맞는 은행에서 신청' },
     ],
   },
 };
@@ -155,14 +155,14 @@ function Content() {
               </p>
 
               {/* 행동 단계 (실제 링크 포함) */}
-              <div style={{ marginTop: 16, background: r.ok ? 'var(--success-bg)' : '#FFF8F0', borderRadius: 'var(--radius-sm)', padding: '16px' }}>
+              <div style={{ marginTop: 16, background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', padding: '16px' }}>
                 <div style={{ fontSize: 13, fontWeight: 700, marginBottom: 12, color: 'var(--text-primary)' }}>
                   다음 행동
                 </div>
                 {r.steps.map((step, i) => (
                   <div key={i} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '8px 0', borderBottom: i < r.steps.length - 1 ? '1px solid var(--border-light)' : 'none' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-                      <span style={{ width: 22, height: 22, borderRadius: '50%', background: r.ok ? 'var(--success)' : 'var(--text-muted)', color: '#fff', fontSize: 12, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                      <span style={{ width: 22, height: 22, borderRadius: '50%', background: 'var(--gov-primary)', color: '#fff', fontSize: 12, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
                         {i + 1}
                       </span>
                       <span style={{ fontSize: 14, color: 'var(--text-secondary)' }}>{step.label}</span>
@@ -202,9 +202,9 @@ function Content() {
           <div style={{ marginTop: 16 }}>
             <div style={{ fontSize: 14, fontWeight: 700, marginBottom: 12 }}>필요 서류</div>
             {[
-              { doc: '원천징수영수증', desc: '알바처에서 수령', link: '', linkLabel: '' },
-              { doc: '종합소득세 신고', desc: '5월 홈택스에서 10분', link: LINKS.hometax, linkLabel: '홈택스 바로가기' },
-              { doc: '소득확인증명서 (청년도약계좌용)', desc: '7월 이후 발급 가능', link: LINKS.hometax, linkLabel: '홈택스 발급' },
+              { doc: '원천징수영수증', desc: '알바처에서 수령 (없으면 사업장에 요청)', link: '', linkLabel: '' },
+              { doc: '종합소득세 신고', desc: '5월, 10분이면 끝 (무료)', link: LINKS.hometax, linkLabel: '지금 신고하기' },
+              { doc: '소득확인증명서', desc: '신고 후 온라인 무료 발급 (1분)', link: LINKS.hometax, linkLabel: '지금 발급받기' },
               { doc: '신분증', desc: '주민등록증·운전면허증·여권 중 택1', link: '', linkLabel: '' },
             ].map((item, i) => (
               <div key={i} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 0', borderBottom: '1px solid var(--border-light)' }}>
