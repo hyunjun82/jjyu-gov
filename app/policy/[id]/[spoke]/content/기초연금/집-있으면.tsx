@@ -133,7 +133,7 @@ function Content() {
 }
 
 export const 집있으면SpokeContent: SpokeData = {
-  h1: '집 있어도 기초연금 받을 수 있나? — 집값별 계산 결과',
+  h1: '집 있어도 기초연금 받을 수 있나',
   breadcrumb: '집 있으면',
   description:
     '집이 있어도 기초연금 받을 수 있습니다. 서울 아파트 3억이면 재산 소득환산 55만원. 집값별 기초연금 수급 여부를 표로 한눈에 비교합니다.',

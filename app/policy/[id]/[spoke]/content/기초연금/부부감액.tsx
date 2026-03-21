@@ -136,7 +136,7 @@ function Content() {
 }
 
 export const 부부감액SpokeContent: SpokeData = {
-  h1: '기초연금 부부감액 — 둘 다 받으면 얼마나 깎이나 (2026)',
+  h1: '기초연금 부부 둘 다 받으면 감액되나',
   breadcrumb: '부부감액',
   description:
     '기초연금 부부감액 기준을 정리합니다. 부부 둘 다 수급 시 각 20% 감액, 합산 559,520원. 한 명만 받을 때와 비교, 2027년 감액률 축소 일정까지.',
