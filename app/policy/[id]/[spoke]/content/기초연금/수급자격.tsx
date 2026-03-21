@@ -12,6 +12,13 @@ function Content() {
         </p>
       </div>
 
+      {/* [기] 서론 */}
+      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
+        나이도 됐고 소득도 많지 않은데, 진짜 내가 받을 수 있는 건지 확신이 안 서시죠?
+        조건은 딱 3가지입니다. 나이, 소득인정액, 직역연금 여부.
+        아래에서 하나씩 확인하면 1분이면 답이 나옵니다.
+      </p>
+
       {/* H2-1: 나이 조건 */}
       <section className="detail-card" id="age">
         <h2 className="detail-card-head">몇 살부터 받을 수 있나?</h2>
