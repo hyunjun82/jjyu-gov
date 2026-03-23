@@ -1,0 +1,1483 @@
+- generic [active] [ref=e1]:
+  - paragraph:
+    - link "본문으로 바로가기":
+      - /url: "#contents"
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - paragraph [ref=e7]:
+          - generic [ref=e8]: 이 누리집은 대한민국 공식 전자정부 누리집입니다.
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - link "K-공감 소식" [ref=e11] [cursor=pointer]:
+              - /url: /menu.es?mid=a12801000000
+            - link "지난호 보기" [ref=e12] [cursor=pointer]:
+              - /url: /menu.es?mid=a10301000000
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "유튜브" [ref=e15] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCsF-UNTH7fZ8olw6hKyMvoQ
+                - generic [ref=e16]: 유튜브
+            - listitem [ref=e17]:
+              - link "네이버 블로그" [ref=e18] [cursor=pointer]:
+                - /url: https://blog.naver.com/mcst_pr
+                - generic [ref=e19]: 네이버 블로그
+            - listitem [ref=e20]:
+              - link "페이스북" [ref=e21] [cursor=pointer]:
+                - /url: https://www.facebook.com/wegonggam
+                - generic [ref=e22]: 페이스북
+            - listitem [ref=e23]:
+              - link "인스타그램" [ref=e24] [cursor=pointer]:
+                - /url: https://www.instagram.com/wegonggam/?hl=ko
+                - generic [ref=e25]: 인스타그램
+            - listitem [ref=e26]:
+              - link "카카오" [ref=e27] [cursor=pointer]:
+                - /url: https://content.v.kakao.com/3094/home
+                - generic [ref=e28]: 카카오
+      - generic [ref=e29]:
+        - heading "로고 메인페이지로 이동" [level=1] [ref=e30]:
+          - link "로고 메인페이지로 이동" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - img "로고" [ref=e32]
+            - generic [ref=e33]: 메인페이지로 이동
+        - navigation [ref=e34]:
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "최신호" [ref=e37] [cursor=pointer]:
+                - /url: /pubView.es?mid=a10301000000&section=PUBC_COVER&latest=Y
+            - listitem [ref=e38]:
+              - link "정책/뉴스" [ref=e39] [cursor=pointer]:
+                - /url: /menu.es?mid=a12501000000
+              - text:     
+            - listitem [ref=e40]:
+              - link "문화/생활" [ref=e41] [cursor=pointer]:
+                - /url: /menu.es?mid=a12605000000
+              - text:     
+            - listitem [ref=e42]:
+              - link "웹툰" [ref=e43] [cursor=pointer]:
+                - /url: /menu.es?mid=a12702000000
+              - text:     
+            - listitem [ref=e44]:
+              - link "전자책" [ref=e45] [cursor=pointer]:
+                - /url: /menu.es?mid=a10301000000
+              - text:    
+        - generic [ref=e46]:
+          - button "검색창열기" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: 검색창열기
+          - button " 열기" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: 
+            - generic [ref=e52]: 열기
+        - text:                    
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - region "K-희망사다리 2026 — 모두의 정책 특집 타이틀 이미지" [ref=e55]:
+          - link "메인으로 이동" [ref=e56] [cursor=pointer]:
+            - /url: /index.es?sid=a1
+            - img [ref=e57]
+          - generic [ref=e58]:
+            - img "모두의 정책" [ref=e59]
+            - img "K-희망사다리 2026 — 모두의 정책 특집 타이틀 이미지" [ref=e60]
+            - paragraph [ref=e61]:
+              - text: 나에게 꼭 필요한 혜택부터 우리 가족을 위한 맞춤 서비스까지,
+              - text: 복잡한 정책을 알기 쉽게 전해드립니다.
+        - region "K-공감 단행본 및 유튜브 콘텐츠" [ref=e62]:
+          - generic [ref=e63]:
+            - article [ref=e64]:
+              - link "K-공감 K-희망사다리 2026 단행본 표지" [ref=e66] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2178','');
+                - img "K-공감 K-희망사다리 2026 단행본 표지" [ref=e67]
+              - generic [ref=e68]:
+                - link "PDF 다운로드" [ref=e69] [cursor=pointer]:
+                  - /url: /gonggamWeb/publication/pdf/2026_K_ladder_of_hope.pdf
+                  - text: PDF 다운로드
+                  - img [ref=e70]
+                - link "전자책 바로가기" [ref=e71] [cursor=pointer]:
+                  - /url: javascript:ecatalog('*/fcatalog','','2178','');
+                  - text: 전자책 바로가기
+                  - img [ref=e72]
+            - article [ref=e73]:
+              - paragraph [ref=e74]: 민생 정보 한눈에! '모두의 정책 K-희망사다리'
+              - iframe [ref=e76]:
+                - generic "YouTube 동영상 플레이어" [ref=f1e3]:
+                  - generic [ref=f1e5]:
+                    - link "정책주간지 K-공감의 사진 이미지" [ref=f1e8] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UCsF-UNTH7fZ8olw6hKyMvoQ?embeds_referring_euri=https%3A%2F%2Fgonggam.korea.kr%2F
+                    - link "2026 신규 민생 정책정보, 한 번에 찾는 법 👀 | 2026 K-희망사다리" [ref=f1e11] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=0Neydv-RfQE
+                    - button "공유" [ref=f1e13] [cursor=pointer]:
+                      - generic [ref=f1e14]:
+                        - img
+                      - generic [ref=f1e15]: 공유
+                  - button "재생" [ref=f1e18] [cursor=pointer]:
+                    - img
+                  - link "YouTube에서 보기" [ref=f1e19] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=0Neydv-RfQE&embeds_referring_euri=https%3A%2F%2Fgonggam.korea.kr%2F
+                    - generic [ref=f1e20]: "다음에서 보기:"
+                    - generic [ref=f1e21]:
+                      - img
+              - list "관련 태그" [ref=e77]:
+                - listitem [ref=e78]:
+                  - generic [ref=e79]: "#모두의정책"
+                - listitem [ref=e80]:
+                  - generic [ref=e81]: "#2026민생정책"
+                - listitem [ref=e82]:
+                  - generic [ref=e83]: "#숨은정부지원금찾기"
+                - listitem [ref=e84]:
+                  - generic [ref=e85]: "#국민생활지원정보"
+                - listitem [ref=e86]:
+                  - generic [ref=e87]: "#지방우대패키지"
+        - region "따뜻한 동행 모두가 행복한 사회" [ref=e88]:
+          - generic [ref=e89]:
+            - link "모두의 정책 대표 아이콘" [ref=e90] [cursor=pointer]:
+              - /url: javascript:ecatalog('*/fcatalog','','2179','');
+              - img "모두의 정책 대표 아이콘" [ref=e91]
+            - heading "따뜻한 동행 모두가 행복한 사회" [level=2] [ref=e94]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "2026 신규 민생지원 제도 아이콘 2026 신규 민생지원 제도" [ref=e98] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2180','');
+                - img "2026 신규 민생지원 제도 아이콘" [ref=e100]
+                - strong [ref=e101]: 2026 신규 민생지원 제도
+            - listitem [ref=e102]:
+              - link "지방우대패키지 아이콘 지방우대 패키지" [ref=e103] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2181','');
+                - img "지방우대패키지 아이콘" [ref=e105]
+                - strong [ref=e106]: 지방우대 패키지
+            - listitem [ref=e107]:
+              - link "숨은 정부지원금 찾기 아이콘 숨은 정부지원금 찾기" [ref=e108] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2182','');
+                - img "숨은 정부지원금 찾기 아이콘" [ref=e110]
+                - strong [ref=e111]: 숨은 정부지원금 찾기
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - button "2026년 신규 민생지원 제도 10개" [ref=e114] [cursor=pointer]:
+                - generic [ref=e115]:
+                  - text: 2026년 신규 민생지원 제도
+                  - generic [ref=e116]: 10개
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - link "01 유아 단계적 무상교육·보육" [ref=e120] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=6f1126e8-f34d-4a98-88b2-3b1f004ffc38
+                    - generic [ref=e121]: "01"
+                    - text: 유아 단계적 무상교육·보육
+                - listitem [ref=e122]:
+                  - link "02 참전유공자 등 생계지원금 지급" [ref=e123] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=38c39d94-8d4d-44cc-83c5-d5e6c900702c
+                    - generic [ref=e124]: "02"
+                    - text: 참전유공자 등 생계지원금 지급
+                - listitem [ref=e125]:
+                  - link "03 새도약기금" [ref=e126] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=10d3c298-76ae-4292-bdb6-b3d0b3a80f99
+                    - generic [ref=e127]: "03"
+                    - text: 새도약기금
+                - listitem [ref=e128]:
+                  - link "04 새도약론" [ref=e129] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=800910d4-bb57-4722-8c9f-0cf1c6cf5088
+                    - generic [ref=e130]: "04"
+                    - text: 새도약론
+                - listitem [ref=e131]:
+                  - link "05 청년미래적금" [ref=e132] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=f5807e51-334d-4354-b315-854ecb35b5fb
+                    - generic [ref=e133]: "05"
+                    - text: 청년미래적금
+                - listitem [ref=e134]:
+                  - link "06 장기간부 도약적금" [ref=e135] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=0f226a1f-bd45-45cb-aa0e-b455ac3fe78d
+                    - generic [ref=e136]: "06"
+                    - text: 장기간부 도약적금
+                - listitem [ref=e137]:
+                  - link "07 범죄피해구조금 확대" [ref=e138] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=ed441314-6c39-4f90-8864-ceef7450ed3b
+                    - generic [ref=e139]: "07"
+                    - text: 범죄피해구조금 확대
+                - listitem [ref=e140]:
+                  - link "08 범죄피해자 긴급 생활안정비" [ref=e141] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=ff98b396-4028-4107-a624-18bc927a5dfc
+                    - generic [ref=e142]: "08"
+                    - text: 범죄피해자 긴급 생활안정비
+                - listitem [ref=e143]:
+                  - link "09 중소기업 직장인 든든한 한 끼" [ref=e144] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=cc9952c9-edbb-470f-bfb6-f4a2a4348fd4
+                    - generic [ref=e145]: "09"
+                    - text: 중소기업 직장인 든든한 한 끼
+                - listitem [ref=e146]:
+                  - link "10 보호대상아동 민간후원 장학사업" [ref=e147] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=4db4a789-a8e3-4e79-a443-5e67193b6148
+                    - generic [ref=e148]: "10"
+                    - text: 보호대상아동 민간후원 장학사업
+            - generic [ref=e149]:
+              - button "지방우대 패키지 9개" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]:
+                  - text: 지방우대 패키지
+                  - generic [ref=e152]: 9개
+              - list [ref=e154]:
+                - listitem [ref=e155]:
+                  - link "01 농어촌 기본소득 시범사업 ›" [ref=e156] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=b425a7c2-5056-4864-b877-654938dc60df
+                    - generic [ref=e157]: "01"
+                    - text: 농어촌 기본소득 시범사업
+                    - generic [ref=e158]: ›
+                - listitem [ref=e159]:
+                  - link "02 고령자 계속고용 장려금 비수도권기업 지원 확대 ›" [ref=e160] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=c39acd7e-f7c5-4e3f-b2dd-75c347a01188
+                    - generic [ref=e161]: "02"
+                    - text: 고령자 계속고용 장려금 비수도권기업 지원 확대
+                    - generic [ref=e162]: ›
+                - listitem [ref=e163]:
+                  - link "03 노인 일자리 및 사회활동 지원 ›" [ref=e164] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=4dcbe9fd-cdd7-4417-b735-b1d839b5b888
+                    - generic [ref=e165]: "03"
+                    - text: 노인 일자리 및 사회활동 지원
+                    - generic [ref=e166]: ›
+                - listitem [ref=e167]:
+                  - link "04 국민내일배움카드 ›" [ref=e168] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=13a89a08-db98-4790-88ef-48c809ce264d
+                    - generic [ref=e169]: "04"
+                    - text: 국민내일배움카드
+                    - generic [ref=e170]: ›
+                - listitem [ref=e171]:
+                  - link "05 지역사랑상품권 ›" [ref=e172] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ddf29168-5207-4599-9def-94de87e73449
+                    - generic [ref=e173]: "05"
+                    - text: 지역사랑상품권
+                    - generic [ref=e174]: ›
+                - listitem [ref=e175]:
+                  - link "06 창업사업화지원(초기·도약패키지) ›" [ref=e176] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=2b097cb4-86a5-48a1-ac93-81eacbe78437
+                    - generic [ref=e177]: "06"
+                    - text: 창업사업화지원(초기·도약패키지)
+                    - generic [ref=e178]: ›
+                - listitem [ref=e179]:
+                  - link "07 중소기업 혁신바우처 지원 ›" [ref=e180] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=6893e1f8-0500-4281-9607-1eb622a4fafa
+                    - generic [ref=e181]: "07"
+                    - text: 중소기업 혁신바우처 지원
+                    - generic [ref=e182]: ›
+                - listitem [ref=e183]:
+                  - link "08 팁스(TIPS) ›" [ref=e184] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=22169f2a-86ef-4b5a-98fa-5e1eb1157585
+                    - generic [ref=e185]: "08"
+                    - text: 팁스(TIPS)
+                    - generic [ref=e186]: ›
+                - listitem [ref=e187]:
+                  - link "09 청년 일자리 도약장려금 비수도권 우대지원 ›" [ref=e188] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=d0f4f480-56e9-42aa-9638-a338ebe50455
+                    - generic [ref=e189]: "09"
+                    - text: 청년 일자리 도약장려금 비수도권 우대지원
+                    - generic [ref=e190]: ›
+            - generic [ref=e191]:
+              - button "숨은 정부지원금 찾기 17개" [ref=e192] [cursor=pointer]:
+                - generic [ref=e193]:
+                  - text: 숨은 정부지원금 찾기
+                  - generic [ref=e194]: 17개
+              - list [ref=e196]:
+                - listitem [ref=e197]:
+                  - link "01 기본형 공익직불제 ›" [ref=e198] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=001e3b6b-fe8c-430a-a471-f874f0f7876e
+                    - generic [ref=e199]: "01"
+                    - text: 기본형 공익직불제
+                    - generic [ref=e200]: ›
+                - listitem [ref=e201]:
+                  - link "02 장애수당 ›" [ref=e202] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=838fc92a-4c18-4b5d-950b-5a24ce2f43af
+                    - generic [ref=e203]: "02"
+                    - text: 장애수당
+                    - generic [ref=e204]: ›
+                - listitem [ref=e205]:
+                  - link "03 장애인연금 ›" [ref=e206] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=f354f59f-4a73-46e1-b304-7fcb86fc35c3
+                    - generic [ref=e207]: "03"
+                    - text: 장애인연금
+                    - generic [ref=e208]: ›
+                - listitem [ref=e209]:
+                  - link "04 저소득 지역가입자 보험료 지원 ›" [ref=e210] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=ed8abecb-39cc-41b2-b0d7-0242a0dddb2b
+                    - generic [ref=e211]: "04"
+                    - text: 저소득 지역가입자 보험료 지원
+                    - generic [ref=e212]: ›
+                - listitem [ref=e213]:
+                  - link "05 독거노인·장애인 응급안전안심서비스 ›" [ref=e214] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=9c31d321-3cca-423e-acff-24ea72b5c563
+                    - generic [ref=e215]: "05"
+                    - text: 독거노인·장애인 응급안전안심서비스
+                    - generic [ref=e216]: ›
+                - listitem [ref=e217]:
+                  - link "06 여성청소년 생리용품 지원 ›" [ref=e218] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=df0f9420-11d0-4116-83ac-ac31b17a5a6c
+                    - generic [ref=e219]: "06"
+                    - text: 여성청소년 생리용품 지원
+                    - generic [ref=e220]: ›
+                - listitem [ref=e221]:
+                  - link "07 청소년복지시설 퇴소청소년 자립지원수당 ›" [ref=e222] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=6a8e39bf-a3d1-451e-b321-9b6f68584596
+                    - generic [ref=e223]: "07"
+                    - text: 청소년복지시설 퇴소청소년 자립지원수당
+                    - generic [ref=e224]: ›
+                - listitem [ref=e225]:
+                  - link "08 장애아동수당 ›" [ref=e226] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=206d7263-13f1-4622-a4c6-a802a42d18d4
+                    - generic [ref=e227]: "08"
+                    - text: 장애아동수당
+                    - generic [ref=e228]: ›
+                - listitem [ref=e229]:
+                  - link "09 위기청소년 특별지원 ›" [ref=e230] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=9d3efe23-d63a-46d3-a14f-679093615d9d
+                    - generic [ref=e231]: "09"
+                    - text: 위기청소년 특별지원
+                    - generic [ref=e232]: ›
+                - listitem [ref=e233]:
+                  - link "10 고용촉진장려금 ›" [ref=e234] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=ee490be7-5d1b-4edf-9c9a-62373c4ce283
+                    - generic [ref=e235]: "10"
+                    - text: 고용촉진장려금
+                    - generic [ref=e236]: ›
+                - listitem [ref=e237]:
+                  - link "11 임신 사전건강관리 지원사업 ›" [ref=e238] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=682fa181-f3d7-4931-93b2-8cbb89a543c6
+                    - generic [ref=e239]: "11"
+                    - text: 임신 사전건강관리 지원사업
+                    - generic [ref=e240]: ›
+                - listitem [ref=e241]:
+                  - link "12 농업인 건강·연금보험료 지원 ›" [ref=e242] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=1145f0d3-f9e7-4775-8d87-79fa11d62aca
+                    - generic [ref=e243]: "12"
+                    - text: 농업인 건강·연금보험료 지원
+                    - generic [ref=e244]: ›
+                - listitem [ref=e245]:
+                  - link "13 영농도우미 지원 ›" [ref=e246] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=21c54cbe-dd5e-4b1c-a582-ced323501e22
+                    - generic [ref=e247]: "13"
+                    - text: 영농도우미 지원
+                    - generic [ref=e248]: ›
+                - listitem [ref=e249]:
+                  - link "14 저소득 청소년한부모 아동양육 및 자립지원 ›" [ref=e250] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=e82b32e9-2e2b-4ad4-b00c-c19debfbd91d
+                    - generic [ref=e251]: "14"
+                    - text: 저소득 청소년한부모 아동양육 및 자립지원
+                    - generic [ref=e252]: ›
+                - listitem [ref=e253]:
+                  - link "15 저소득 청소년부모 아동양육비 지원 ›" [ref=e254] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=cc2ba222-ddfc-4878-a806-397f7ea9cd6a
+                    - generic [ref=e255]: "15"
+                    - text: 저소득 청소년부모 아동양육비 지원
+                    - generic [ref=e256]: ›
+                - listitem [ref=e257]:
+                  - link "16 다문화가족 자녀 기초학습·진로설계·교육활동비 ›" [ref=e258] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=794cc1c5-0eb6-4cb6-bc64-f12799ae7618
+                    - generic [ref=e259]: "16"
+                    - text: 다문화가족 자녀 기초학습·진로설계·교육활동비
+                    - generic [ref=e260]: ›
+                - listitem [ref=e261]:
+                  - link "17 예술인 국민연금 보험료 지원사업 ›" [ref=e262] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_001&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=6a360ca1-97df-4946-a321-7b5485a5c6ba
+                    - generic [ref=e263]: "17"
+                    - text: 예술인 국민연금 보험료 지원사업
+                    - generic [ref=e264]: ›
+        - region "생애주기별 국민생활 서비스" [ref=e265]:
+          - generic [ref=e266]:
+            - link "생애주기별 서비스 대표 아이콘" [ref=e267] [cursor=pointer]:
+              - /url: javascript:ecatalog('*/fcatalog','','2183','');
+              - img "생애주기별 서비스 대표 아이콘" [ref=e268]
+            - heading "생애주기별 국민생활 서비스" [level=2] [ref=e271]
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - link "아동·청소년 서비스 아이콘 아동·청소년" [ref=e275] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2184','');
+                - img "아동·청소년 서비스 아이콘" [ref=e277]
+                - strong [ref=e278]: 아동·청소년
+            - listitem [ref=e279]:
+              - link "청년·대학생 서비스 아이콘 청년·대학생" [ref=e280] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2186','');
+                - img "청년·대학생 서비스 아이콘" [ref=e282]
+                - strong [ref=e283]: 청년·대학생
+            - listitem [ref=e284]:
+              - link "어르신 서비스 아이콘 어르신" [ref=e285] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2187','');
+                - img "어르신 서비스 아이콘" [ref=e287]
+                - strong [ref=e288]: 어르신
+            - listitem [ref=e289]:
+              - link "가족·여성 서비스 아이콘 가족·여성" [ref=e290] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2188','');
+                - img "가족·여성 서비스 아이콘" [ref=e292]
+                - strong [ref=e293]: 가족·여성
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - button "아동·청소년 20개" [ref=e296] [cursor=pointer]:
+                - generic [ref=e297]:
+                  - text: 아동·청소년
+                  - generic [ref=e298]: 20개
+              - list [ref=e300]:
+                - listitem [ref=e301]:
+                  - link "01 첫만남 이용권 ›" [ref=e302] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=84a4cbae-5c5f-4cd0-9e62-ecea91f37fbe
+                    - generic [ref=e303]: "01"
+                    - text: 첫만남 이용권
+                    - generic [ref=e304]: ›
+                - listitem [ref=e305]:
+                  - link "02 3~5세 유치원 학비 ›" [ref=e306] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=a92b079c-6d2a-4be0-8837-10fe7971039b
+                    - generic [ref=e307]: "02"
+                    - text: 3~5세 유치원 학비
+                    - generic [ref=e308]: ›
+                - listitem [ref=e309]:
+                  - link "03 산모·신생아 건강관리 ›" [ref=e310] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=8e96a99d-c856-44d2-a768-76d4fb1abb8e
+                    - generic [ref=e311]: "03"
+                    - text: 산모·신생아 건강관리
+                    - generic [ref=e312]: ›
+                - listitem [ref=e313]:
+                  - link "04 영유아 건강검진 ›" [ref=e314] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=4f8b9215-1b65-4e71-be73-265ea6ed6d09
+                    - generic [ref=e315]: "04"
+                    - text: 영유아 건강검진
+                    - generic [ref=e316]: ›
+                - listitem [ref=e317]:
+                  - link "05 초·중·고 학생 교육정보화 지원(PC, 인터넷 통신비) ›" [ref=e318] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=30127e7e-931f-4ae5-8d6e-4fdbec209516
+                    - generic [ref=e319]: "05"
+                    - text: 초·중·고 학생 교육정보화 지원(PC, 인터넷 통신비)
+                    - generic [ref=e320]: ›
+                - listitem [ref=e321]:
+                  - link "06 온동네 초등돌봄·교육 ›" [ref=e322] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=6eafadf6-64ef-46f0-8be0-0ff007b59c5b
+                    - generic [ref=e323]: "06"
+                    - text: 온동네 초등돌봄·교육
+                    - generic [ref=e324]: ›
+                - listitem [ref=e325]:
+                  - link "07 가족돌봄휴가 ›" [ref=e326] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=02101b6a-42df-48d4-a4d3-c650305afa5c
+                    - generic [ref=e327]: "07"
+                    - text: 가족돌봄휴가
+                    - generic [ref=e328]: ›
+                - listitem [ref=e329]:
+                  - link "08 지역 아동센터 ›" [ref=e330] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=6cec37cc-1916-4fef-a414-dce75c419885
+                    - generic [ref=e331]: "08"
+                    - text: 지역 아동센터
+                    - generic [ref=e332]: ›
+                - listitem [ref=e333]:
+                  - link "09 저소득 한부모가족 아동양육비 ›" [ref=e334] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=03c212e4-765c-4c95-bc80-6f0aeee6a49a
+                    - generic [ref=e335]: "09"
+                    - text: 저소득 한부모가족 아동양육비
+                    - generic [ref=e336]: ›
+                - listitem [ref=e337]:
+                  - link "10 그 밖의 연장형 보육료 지원 ›" [ref=e338] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=d72be785-4c2d-4b13-89d8-b0bb41cb518d
+                    - generic [ref=e339]: "10"
+                    - text: 그 밖의 연장형 보육료 지원
+                    - generic [ref=e340]: ›
+                - listitem [ref=e341]:
+                  - link "11 가족돌봄휴직 ›" [ref=e342] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=e89d4ce2-a7a1-418a-9fee-9ae9bd21619d
+                    - generic [ref=e343]: "11"
+                    - text: 가족돌봄휴직
+                    - generic [ref=e344]: ›
+                - listitem [ref=e345]:
+                  - link "12 가정 밖 청소년 지원 ›" [ref=e346] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=8172e659-4080-4984-8e61-fd5db08464de
+                    - generic [ref=e347]: "12"
+                    - text: 가정 밖 청소년 지원
+                    - generic [ref=e348]: ›
+                - listitem [ref=e349]:
+                  - link "13 학교 밖 청소년 지원 ›" [ref=e350] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=23ae1c41-bef7-4a5b-a556-31cec7648dda
+                    - generic [ref=e351]: "13"
+                    - text: 학교 밖 청소년 지원
+                    - generic [ref=e352]: ›
+                - listitem [ref=e353]:
+                  - link "14 복권기금 꿈사다리 장학사업 ›" [ref=e354] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=34e4d468-7b00-455a-b30e-50d8a8f2368b
+                    - generic [ref=e355]: "14"
+                    - text: 복권기금 꿈사다리 장학사업
+                    - generic [ref=e356]: ›
+                - listitem [ref=e357]:
+                  - link "15 드림장학금(우수고등학생 해외유학장학금) ›" [ref=e358] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=8542fef7-82f2-4685-9f45-86765d0add08
+                    - generic [ref=e359]: "15"
+                    - text: 드림장학금(우수고등학생 해외유학장학금)
+                    - generic [ref=e360]: ›
+                - listitem [ref=e361]:
+                  - link "16 고립·은둔 청소년 원스톱 패키지 지원 ›" [ref=e362] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=b0a76f4d-cd26-4a7a-85b1-718684aefed2
+                    - generic [ref=e363]: "16"
+                    - text: 고립·은둔 청소년 원스톱 패키지 지원
+                    - generic [ref=e364]: ›
+                - listitem [ref=e365]:
+                  - link "17 학교 밖 청소년 자립·취업 지원 ›" [ref=e366] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=e39d4b4a-3eb3-4c06-a8d8-38172c5b51ea
+                    - generic [ref=e367]: "17"
+                    - text: 학교 밖 청소년 자립·취업 지원
+                    - generic [ref=e368]: ›
+                - listitem [ref=e369]:
+                  - link "18 영유아보육료 ›" [ref=e370] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=e4c7ef6b-3f45-4971-8b0b-8227c7bb20dd
+                    - generic [ref=e371]: "18"
+                    - text: 영유아보육료
+                    - generic [ref=e372]: ›
+                - listitem [ref=e373]:
+                  - link "19 인구감소지역 청소년 성장지원 ›" [ref=e374] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=184b4c11-699d-4a2d-aece-a27c1a713d3a
+                    - generic [ref=e375]: "19"
+                    - text: 인구감소지역 청소년 성장지원
+                    - generic [ref=e376]: ›
+                - listitem [ref=e377]:
+                  - link "20 방과후 보육료 지원(12세 이하 초등학교 취학아동) ›" [ref=e378] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=3c4bf282-a0d3-4cff-8ad4-3b220c648e37
+                    - generic [ref=e379]: "20"
+                    - text: 방과후 보육료 지원(12세 이하 초등학교 취학아동)
+                    - generic [ref=e380]: ›
+            - generic [ref=e381]:
+              - button "청년·대학생 12개" [ref=e382] [cursor=pointer]:
+                - generic [ref=e383]:
+                  - text: 청년·대학생
+                  - generic [ref=e384]: 12개
+              - list [ref=e386]:
+                - listitem [ref=e387]:
+                  - link "01 국가장학금 지원(대학생) ›" [ref=e388] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=e2d7f9e0-7de3-4ba0-a7f5-406d5d51d67a
+                    - generic [ref=e389]: "01"
+                    - text: 국가장학금 지원(대학생)
+                    - generic [ref=e390]: ›
+                - listitem [ref=e391]:
+                  - link "02 한국형 온라인 공개강좌(K-MOOC) ›" [ref=e392] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=373b7989-c94b-4927-99f9-8915a4673fee
+                    - generic [ref=e393]: "02"
+                    - text: 한국형 온라인 공개강좌(K-MOOC)
+                    - generic [ref=e394]: ›
+                - listitem [ref=e395]:
+                  - link "03 일반상환 학자금 대출 ›" [ref=e396] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=9c31bfaf-5947-4102-8faa-93df78277bae
+                    - generic [ref=e397]: "03"
+                    - text: 일반상환 학자금 대출
+                    - generic [ref=e398]: ›
+                - listitem [ref=e399]:
+                  - link "04 햇살론유스 ›" [ref=e400] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=5ef4cc61-57cf-4ff4-8f36-dada88f9316c
+                    - generic [ref=e401]: "04"
+                    - text: 햇살론유스
+                    - generic [ref=e402]: ›
+                - listitem [ref=e403]:
+                  - link "05 해외취업지원(K-Move 스쿨) ›" [ref=e404] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=2b34ef5f-637f-4f7e-ab82-8ba318ce6ff2
+                    - generic [ref=e405]: "05"
+                    - text: 해외취업지원(K-Move 스쿨)
+                    - generic [ref=e406]: ›
+                - listitem [ref=e407]:
+                  - link "06 농촌출신대학생 학자금 대출 ›" [ref=e408] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=e36b33a6-c183-4cad-bd46-695fe794fee8
+                    - generic [ref=e409]: "06"
+                    - text: 농촌출신대학생 학자금 대출
+                    - generic [ref=e410]: ›
+                - listitem [ref=e411]:
+                  - link "07 청년창업사관학교 ›" [ref=e412] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=b9e29deb-d74a-4c72-805e-f1b9365a62a1
+                    - generic [ref=e413]: "07"
+                    - text: 청년창업사관학교
+                    - generic [ref=e414]: ›
+                - listitem [ref=e415]:
+                  - link "08 주거안정장학금 ›" [ref=e416] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=65e74164-df5f-4d69-92f6-80395869f6e5
+                    - generic [ref=e417]: "08"
+                    - text: 주거안정장학금
+                    - generic [ref=e418]: ›
+                - listitem [ref=e419]:
+                  - link "09 청년 일자리 ›" [ref=e420] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=f10f0ffd-83ac-417d-acb3-2ddd640a5f04
+                    - generic [ref=e421]: "09"
+                    - text: 청년 일자리
+                    - generic [ref=e422]: ›
+                - listitem [ref=e423]:
+                  - link "10 청년 사회·복지 ›" [ref=e424] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=e34e043d-996c-4bf7-9a5e-78f8a4db8c31
+                    - generic [ref=e425]: "10"
+                    - text: 청년 사회·복지
+                    - generic [ref=e426]: ›
+                - listitem [ref=e427]:
+                  - link "11 청년 주거지원 ›" [ref=e428] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=56f997b1-f1f7-4833-bc99-42e5fc57592e
+                    - generic [ref=e429]: "11"
+                    - text: 청년 주거지원
+                    - generic [ref=e430]: ›
+                - listitem [ref=e431]:
+                  - link "12 청년 자산형성 ›" [ref=e432] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=797a62c5-9920-4013-b2dd-a3aa989d7d38
+                    - generic [ref=e433]: "12"
+                    - text: 청년 자산형성
+                    - generic [ref=e434]: ›
+            - generic [ref=e435]:
+              - button "어르신 8개" [ref=e436] [cursor=pointer]:
+                - generic [ref=e437]:
+                  - text: 어르신
+                  - generic [ref=e438]: 8개
+              - list [ref=e440]:
+                - listitem [ref=e441]:
+                  - link "01 노인 장기요양 시설·재가서비스 ›" [ref=e442] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=d7a96b05-6b6a-492e-abda-5e8a4c79bbff
+                    - generic [ref=e443]: "01"
+                    - text: 노인 장기요양 시설·재가서비스
+                    - generic [ref=e444]: ›
+                - listitem [ref=e445]:
+                  - link "02 보훈 재가복지서비스 지원(노인) ›" [ref=e446] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=3106a469-ef2d-4718-a98a-6a722232f800
+                    - generic [ref=e447]: "02"
+                    - text: 보훈 재가복지서비스 지원(노인)
+                    - generic [ref=e448]: ›
+                - listitem [ref=e449]:
+                  - link "03 의료급여수급자 노인 틀니 지원 ›" [ref=e450] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=950d3c4b-60b0-44e5-b873-f99d4fd77182
+                    - generic [ref=e451]: "03"
+                    - text: 의료급여수급자 노인 틀니 지원
+                    - generic [ref=e452]: ›
+                - listitem [ref=e453]:
+                  - link "04 치매안심센터 ›" [ref=e454] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=29184dac-6dbd-454f-876a-0016a1acfb13
+                    - generic [ref=e455]: "04"
+                    - text: 치매안심센터
+                    - generic [ref=e456]: ›
+                - listitem [ref=e457]:
+                  - link "05 치매상담 콜센터 ›" [ref=e458] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=520398ff-b41a-4284-816c-c037f8603206
+                    - generic [ref=e459]: "05"
+                    - text: 치매상담 콜센터
+                    - generic [ref=e460]: ›
+                - listitem [ref=e461]:
+                  - link "06 노인맞춤 돌봄서비스 ›" [ref=e462] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=2ca40dbc-6366-4859-8ba8-400b8c62191d
+                    - generic [ref=e463]: "06"
+                    - text: 노인맞춤 돌봄서비스
+                    - generic [ref=e464]: ›
+                - listitem [ref=e465]:
+                  - link "07 농지이양 은퇴 직불사업 ›" [ref=e466] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=2c262f36-5fb5-4d09-8c9b-9a07dd01fe10
+                    - generic [ref=e467]: "07"
+                    - text: 농지이양 은퇴 직불사업
+                    - generic [ref=e468]: ›
+                - listitem [ref=e469]:
+                  - link "08 고령 운전자 교통안전교육 ›" [ref=e470] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=56e50f00-305d-44a8-bd9c-d518fb0702b0
+                    - generic [ref=e471]: "08"
+                    - text: 고령 운전자 교통안전교육
+                    - generic [ref=e472]: ›
+            - generic [ref=e473]:
+              - button "가족·여성 21개" [ref=e474] [cursor=pointer]:
+                - generic [ref=e475]:
+                  - text: 가족·여성
+                  - generic [ref=e476]: 21개
+              - list [ref=e478]:
+                - listitem [ref=e479]:
+                  - link "01 가정양육수당 ›" [ref=e480] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=756576ce-197d-4599-9420-b4c2cbe40a02
+                    - generic [ref=e481]: "01"
+                    - text: 가정양육수당
+                    - generic [ref=e482]: ›
+                - listitem [ref=e483]:
+                  - link "02 국민행복카드 ›" [ref=e484] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=3a19f8e4-482a-4733-9a6b-25488692d891
+                    - generic [ref=e485]: "02"
+                    - text: 국민행복카드
+                    - generic [ref=e486]: ›
+                - listitem [ref=e487]:
+                  - link "03 취약계층 아동통합서비스 (드림스타트) ›" [ref=e488] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=d6948487-3699-44cc-b431-3d796a84db10
+                    - generic [ref=e489]: "03"
+                    - text: 취약계층 아동통합서비스 (드림스타트)
+                    - generic [ref=e490]: ›
+                - listitem [ref=e491]:
+                  - link "04 아이돌봄 서비스 ›" [ref=e492] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=82476ad1-9ff4-4b88-8604-28ef36fcc5e9
+                    - generic [ref=e493]: "04"
+                    - text: 아이돌봄 서비스
+                    - generic [ref=e494]: ›
+                - listitem [ref=e495]:
+                  - link "05 여성창업보육센터 ›" [ref=e496] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=0c8bed99-d19b-4bb5-a879-ceba3b4a1224
+                    - generic [ref=e497]: "05"
+                    - text: 여성창업보육센터
+                    - generic [ref=e498]: ›
+                - listitem [ref=e499]:
+                  - link "06 여성새로일하기센터 ›" [ref=e500] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=08e3127b-78c5-4ef4-8301-55e4bb5bf2f5
+                    - generic [ref=e501]: "06"
+                    - text: 여성새로일하기센터
+                    - generic [ref=e502]: ›
+                - listitem [ref=e503]:
+                  - link "07 다함께 돌봄센터 ›" [ref=e504] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=ee428112-9aeb-43d0-993c-ee892bb52a4a
+                    - generic [ref=e505]: "07"
+                    - text: 다함께 돌봄센터
+                    - generic [ref=e506]: ›
+                - listitem [ref=e507]:
+                  - link "08 임산부 및 영유아 영양플러스 ›" [ref=e508] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=3073ab04-9032-41d1-8f1f-98244c6fd3a2
+                    - generic [ref=e509]: "08"
+                    - text: 임산부 및 영유아 영양플러스
+                    - generic [ref=e510]: ›
+                - listitem [ref=e511]:
+                  - link "09 육아휴직급여+육아기 근로시간 단축급여 ›" [ref=e512] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=f7a257f4-8982-4a49-803c-a85551e65039
+                    - generic [ref=e513]: "09"
+                    - text: 육아휴직급여+육아기 근로시간 단축급여
+                    - generic [ref=e514]: ›
+                - listitem [ref=e515]:
+                  - link "10 맘편한 임신 원스톱 서비스 ›" [ref=e516] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=157bf122-8fd2-48ac-aa90-12bf85675e16
+                    - generic [ref=e517]: "10"
+                    - text: 맘편한 임신 원스톱 서비스
+                    - generic [ref=e518]: ›
+                - listitem [ref=e519]:
+                  - link "11 행복출산 원스톱 서비스 ›" [ref=e520] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=a045eb49-e5c1-4b0d-9e35-6a8512dd315b
+                    - generic [ref=e521]: "11"
+                    - text: 행복출산 원스톱 서비스
+                    - generic [ref=e522]: ›
+                - listitem [ref=e523]:
+                  - link "12 건강보험 임산·출산 진료비 지원 ›" [ref=e524] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=a12843bc-d874-40b7-a8bd-47f59b65a644
+                    - generic [ref=e525]: "12"
+                    - text: 건강보험 임산·출산 진료비 지원
+                    - generic [ref=e526]: ›
+                - listitem [ref=e527]:
+                  - link "13 고용보험 미적용자 출산급여 지원 ›" [ref=e528] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=221a86d7-4002-4f5a-86f1-33ae8bbe730b
+                    - generic [ref=e529]: "13"
+                    - text: 고용보험 미적용자 출산급여 지원
+                    - generic [ref=e530]: ›
+                - listitem [ref=e531]:
+                  - link "14 여성가장 창업자금지원 ›" [ref=e532] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=9f199d75-a0ae-4849-91fd-9ede7ba4cc45
+                    - generic [ref=e533]: "14"
+                    - text: 여성가장 창업자금지원
+                    - generic [ref=e534]: ›
+                - listitem [ref=e535]:
+                  - link "15 부모급여 ›" [ref=e536] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=a649b1c7-7a65-469d-aa85-e069815b1a0d
+                    - generic [ref=e537]: "15"
+                    - text: 부모급여
+                    - generic [ref=e538]: ›
+                - listitem [ref=e539]:
+                  - link "16 한부모가족 복지시설 ›" [ref=e540] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=54e7cc6f-dc23-413d-b550-192b6ca33d23
+                    - generic [ref=e541]: "16"
+                    - text: 한부모가족 복지시설
+                    - generic [ref=e542]: ›
+                - listitem [ref=e543]:
+                  - link "17 가정폭력보호시설 퇴소자 자립지원금 ›" [ref=e544] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=810691c8-ccb4-44eb-8359-6fb1c1916ff2
+                    - generic [ref=e545]: "17"
+                    - text: 가정폭력보호시설 퇴소자 자립지원금
+                    - generic [ref=e546]: ›
+                - listitem [ref=e547]:
+                  - link "18 출산전후(유산·사산)휴가급여+배우자 출산휴가급여+난임치료휴가급여 ›" [ref=e548] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=45b1e820-06d3-4828-ad6d-b206e933fd64
+                    - generic [ref=e549]: "18"
+                    - text: 출산전후(유산·사산)휴가급여+배우자 출산휴가급여+난임치료휴가급여
+                    - generic [ref=e550]: ›
+                - listitem [ref=e551]:
+                  - link "19 출산육아기 고용안정장려금 ① (육아휴직 지원금, 육아기 근로시간 단축 지원금) ›" [ref=e552] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=1e0c2f0e-a10d-461c-84a0-e300b7f0e6df
+                    - generic [ref=e553]: "19"
+                    - text: 출산육아기 고용안정장려금 ① (육아휴직 지원금, 육아기 근로시간 단축 지원금)
+                    - generic [ref=e554]: ›
+                - listitem [ref=e555]:
+                  - link "20 출산육아기 고용안정장려금 ② (대체인력지원금) ›" [ref=e556] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=89f5e151-7dac-4a14-afe0-dd1be350e19a
+                    - generic [ref=e557]: "20"
+                    - text: 출산육아기 고용안정장려금 ② (대체인력지원금)
+                    - generic [ref=e558]: ›
+                - listitem [ref=e559]:
+                  - link "21 출산육아기 고용안정장려금 ③ (업무분담지원금) ›" [ref=e560] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_002&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=63f73479-3ff5-42e1-837e-bccc52aa7a1a
+                    - generic [ref=e561]: "21"
+                    - text: 출산육아기 고용안정장려금 ③ (업무분담지원금)
+                    - generic [ref=e562]: ›
+        - region "분야별 서비스" [ref=e563]:
+          - generic [ref=e564]:
+            - link "분야별 서비스 대표 아이콘" [ref=e565] [cursor=pointer]:
+              - /url: javascript:ecatalog('*/fcatalog','','2189','');
+              - img "분야별 서비스 대표 아이콘" [ref=e566]
+            - heading "분야별 서비스" [level=2] [ref=e569]
+          - list [ref=e571]:
+            - listitem [ref=e572]:
+              - link "취약계층 서비스 아이콘 취약계층" [ref=e573] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2190','');
+                - img "취약계층 서비스 아이콘" [ref=e575]
+                - strong [ref=e576]: 취약계층
+            - listitem [ref=e577]:
+              - link "장애인 서비스 아이콘 장애인" [ref=e578] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2191','');
+                - img "장애인 서비스 아이콘" [ref=e580]
+                - strong [ref=e581]: 장애인
+            - listitem [ref=e582]:
+              - link "고용·취업·창업 서비스 아이콘 고용·취업·창업" [ref=e583] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2192','');
+                - img "고용·취업·창업 서비스 아이콘" [ref=e585]
+                - strong [ref=e586]: 고용·취업·창업
+          - list [ref=e587]:
+            - listitem [ref=e588]:
+              - link "주거 서비스 아이콘 주거" [ref=e589] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2193','');
+                - img "주거 서비스 아이콘" [ref=e591]
+                - strong [ref=e592]: 주거
+            - listitem [ref=e593]:
+              - link "문화 서비스 아이콘 문화" [ref=e594] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2194','');
+                - img "문화 서비스 아이콘" [ref=e596]
+                - strong [ref=e597]: 문화
+            - listitem [ref=e598]:
+              - link "건강·안전 서비스 아이콘 건강·안전" [ref=e599] [cursor=pointer]:
+                - /url: javascript:ecatalog('*/fcatalog','','2196','');
+                - img "건강·안전 서비스 아이콘" [ref=e601]
+                - strong [ref=e602]: 건강·안전
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - button "취약계층 19개" [ref=e605] [cursor=pointer]:
+                - generic [ref=e606]:
+                  - text: 취약계층
+                  - generic [ref=e607]: 19개
+              - list [ref=e609]:
+                - listitem [ref=e610]:
+                  - link "01 근로장려금·자녀장려금 ›" [ref=e611] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=51744239-36dd-4226-bcdd-67622e55314e
+                    - generic [ref=e612]: "01"
+                    - text: 근로장려금·자녀장려금
+                    - generic [ref=e613]: ›
+                - listitem [ref=e614]:
+                  - link "02 청년내일저축계좌 ›" [ref=e615] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=3976444f-26f1-4ec1-9ae1-912bcac19e2a
+                    - generic [ref=e616]: "02"
+                    - text: 청년내일저축계좌
+                    - generic [ref=e617]: ›
+                - listitem [ref=e618]:
+                  - link "03 주택·상가건물임대차 분쟁조정위원회 ›" [ref=e619] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=45a32d79-e348-46ae-b5fb-4eeb8ad4017f
+                    - generic [ref=e620]: "03"
+                    - text: 주택·상가건물임대차 분쟁조정위원회
+                    - generic [ref=e621]: ›
+                - listitem [ref=e622]:
+                  - link "04 채무자 대리인(변호사) 무료 지원사업 ›" [ref=e623] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=0e943248-bcf6-4d83-b99b-7572207ed44e
+                    - generic [ref=e624]: "04"
+                    - text: 채무자 대리인(변호사) 무료 지원사업
+                    - generic [ref=e625]: ›
+                - listitem [ref=e626]:
+                  - link "05 무릎인공관절 지원사업 ›" [ref=e627] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=d3d62ec4-7dc5-4323-ac65-7125e65fc77d
+                    - generic [ref=e628]: "05"
+                    - text: 무릎인공관절 지원사업
+                    - generic [ref=e629]: ›
+                - listitem [ref=e630]:
+                  - link "06 재난적 의료비 지원사업 ›" [ref=e631] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=7ca93cc6-54b9-4f88-ba9d-568d8c8a1f36
+                    - generic [ref=e632]: "06"
+                    - text: 재난적 의료비 지원사업
+                    - generic [ref=e633]: ›
+                - listitem [ref=e634]:
+                  - link "07 법률구조 제도 ›" [ref=e635] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=c69aed3d-7820-46c0-970e-702cbbc47bbc
+                    - generic [ref=e636]: "07"
+                    - text: 법률구조 제도
+                    - generic [ref=e637]: ›
+                - listitem [ref=e638]:
+                  - link "08 서민금융통합지원센터 ›" [ref=e639] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=01de7efc-782d-433d-b0a8-335b4dcf2037
+                    - generic [ref=e640]: "08"
+                    - text: 서민금융통합지원센터
+                    - generic [ref=e641]: ›
+                - listitem [ref=e642]:
+                  - link "09 에너지바우처 ›" [ref=e643] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=1&b_list=9&news_id=c1a48fdc-00ac-40e6-a62d-16d9bb359e08
+                    - generic [ref=e644]: "09"
+                    - text: 에너지바우처
+                    - generic [ref=e645]: ›
+                - listitem [ref=e646]:
+                  - link "10 기초연금 ›" [ref=e647] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=a76bb990-b0ff-4c19-9a52-631bde93eebb
+                    - generic [ref=e648]: "10"
+                    - text: 기초연금
+                    - generic [ref=e649]: ›
+                - listitem [ref=e650]:
+                  - link "11 불법사금융예방대출 ›" [ref=e651] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=aa41b56c-fabe-4291-b972-5a2f696eb525
+                    - generic [ref=e652]: "11"
+                    - text: 불법사금융예방대출
+                    - generic [ref=e653]: ›
+                - listitem [ref=e654]:
+                  - link "12 기초생활수급자 생계급여 ›" [ref=e655] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=a345a5f3-069e-4eb7-9404-2b19ab4fcd86
+                    - generic [ref=e656]: "12"
+                    - text: 기초생활수급자 생계급여
+                    - generic [ref=e657]: ›
+                - listitem [ref=e658]:
+                  - link "13 디딤씨앗통장 ›" [ref=e659] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=155cf633-18b1-48d5-9715-66dd00673616
+                    - generic [ref=e660]: "13"
+                    - text: 디딤씨앗통장
+                    - generic [ref=e661]: ›
+                - listitem [ref=e662]:
+                  - link "14 모두의 카드(K-패스) ›" [ref=e663] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=288d790b-147a-42fb-ac86-d1042418f22c
+                    - generic [ref=e664]: "14"
+                    - text: 모두의 카드(K-패스)
+                    - generic [ref=e665]: ›
+                - listitem [ref=e666]:
+                  - link "15 저소득층 에너지 효율 개선사업 ›" [ref=e667] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=4dbe147f-f1c6-49f1-9939-08b92500e0ab
+                    - generic [ref=e668]: "15"
+                    - text: 저소득층 에너지 효율 개선사업
+                    - generic [ref=e669]: ›
+                - listitem [ref=e670]:
+                  - link "16 EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업 ›" [ref=e671] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5
+                    - generic [ref=e672]: "16"
+                    - text: EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업
+                    - generic [ref=e673]: ›
+                - listitem [ref=e674]:
+                  - link "17 전기요금 복지할인 대상 취약계층 고효율가전 구매지원 ›" [ref=e675] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=2b13e8a1-10a5-47b7-9716-653f34b30384
+                    - generic [ref=e676]: "17"
+                    - text: 전기요금 복지할인 대상 취약계층 고효율가전 구매지원
+                    - generic [ref=e677]: ›
+                - listitem [ref=e678]:
+                  - link "18 에너지 취약계층 고효율 조명기기 무상교체 지원 ›" [ref=e679] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=cfdb420c-2352-4be6-9e54-0f3ab2490b35
+                    - generic [ref=e680]: "18"
+                    - text: 에너지 취약계층 고효율 조명기기 무상교체 지원
+                    - generic [ref=e681]: ›
+                - listitem [ref=e682]:
+                  - link "19 전국 냉·난방비 지원기관 안내 ›" [ref=e683] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=9827df4a-f94b-46d7-9630-ffad8876edb7
+                    - generic [ref=e684]: "19"
+                    - text: 전국 냉·난방비 지원기관 안내
+                    - generic [ref=e685]: ›
+            - generic [ref=e686]:
+              - button "장애인 5개" [ref=e687] [cursor=pointer]:
+                - generic [ref=e688]:
+                  - text: 장애인
+                  - generic [ref=e689]: 5개
+              - list [ref=e691]:
+                - listitem [ref=e692]:
+                  - link "01 영유아 발달 정밀검사비 ›" [ref=e693] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=00bb0e53-c45e-4dd9-8288-0d90f4b14882
+                    - generic [ref=e694]: "01"
+                    - text: 영유아 발달 정밀검사비
+                    - generic [ref=e695]: ›
+                - listitem [ref=e696]:
+                  - link "02 장애인 보조기기 구입비 지원 ›" [ref=e697] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=c8bffb20-3cab-4c50-b418-7ad3362993d7
+                    - generic [ref=e698]: "02"
+                    - text: 장애인 보조기기 구입비 지원
+                    - generic [ref=e699]: ›
+                - listitem [ref=e700]:
+                  - link "03 장애인 자립자금 대여사업 ›" [ref=e701] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=b2f80c9c-0430-4b34-b1fc-2ed7d6606418
+                    - generic [ref=e702]: "03"
+                    - text: 장애인 자립자금 대여사업
+                    - generic [ref=e703]: ›
+                - listitem [ref=e704]:
+                  - link "04 장애인 창업점포 지원 ›" [ref=e705] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=ba595623-cb77-4912-87b2-4ca7a89851d2
+                    - generic [ref=e706]: "04"
+                    - text: 장애인 창업점포 지원
+                    - generic [ref=e707]: ›
+                - listitem [ref=e708]:
+                  - link "05 보조공학기기 지원 ›" [ref=e709] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=23eb3a90-20cd-43c9-b251-2da754550de9
+                    - generic [ref=e710]: "05"
+                    - text: 보조공학기기 지원
+                    - generic [ref=e711]: ›
+            - generic [ref=e712]:
+              - button "고용·취업·창업 41개" [ref=e713] [cursor=pointer]:
+                - generic [ref=e714]:
+                  - text: 고용·취업·창업
+                  - generic [ref=e715]: 41개
+              - list [ref=e717]:
+                - listitem [ref=e718]:
+                  - link "01 국가근로장학금 ›" [ref=e719] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=e9cb4320-c5d4-460e-b36a-f248ce70d52a
+                    - generic [ref=e720]: "01"
+                    - text: 국가근로장학금
+                    - generic [ref=e721]: ›
+                - listitem [ref=e722]:
+                  - link "02 교육급여 ›" [ref=e723] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=9fb74207-59db-4ecb-950d-3a2b26a5ee14
+                    - generic [ref=e724]: "02"
+                    - text: 교육급여
+                    - generic [ref=e725]: ›
+                - listitem [ref=e726]:
+                  - link "03 평생교육이용권 ›" [ref=e727] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=3&b_list=9&news_id=046e68a2-c4c7-45a6-ac6b-f4fe748b9050
+                    - generic [ref=e728]: "03"
+                    - text: 평생교육이용권
+                    - generic [ref=e729]: ›
+                - listitem [ref=e730]:
+                  - link "04 취업 후 상환 학자금 대출 ›" [ref=e731] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=3a3b5c30-cd48-40f7-b884-ba482aeb1320
+                    - generic [ref=e732]: "04"
+                    - text: 취업 후 상환 학자금 대출
+                    - generic [ref=e733]: ›
+                - listitem [ref=e734]:
+                  - link "05 귀농 농업창업 및 주택구입 지원사업 ›" [ref=e735] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=e5d9d1db-0998-4d18-8de4-1dc2e2d93833
+                    - generic [ref=e736]: "05"
+                    - text: 귀농 농업창업 및 주택구입 지원사업
+                    - generic [ref=e737]: ›
+                - listitem [ref=e738]:
+                  - link "06 실업크레딧 ›" [ref=e739] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=63263484-2a72-4b78-a957-373e360bb2c1
+                    - generic [ref=e740]: "06"
+                    - text: 실업크레딧
+                    - generic [ref=e741]: ›
+                - listitem [ref=e742]:
+                  - link "07 구직급여 ›" [ref=e743] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=7d2cd7e3-acfe-4e6d-9647-783926c0ece4
+                    - generic [ref=e744]: "07"
+                    - text: 구직급여
+                    - generic [ref=e745]: ›
+                - listitem [ref=e746]:
+                  - link "08 두루누리 사회보험료 ›" [ref=e747] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=4b4810ad-1150-44f6-a301-40e1c5b5dc4a
+                    - generic [ref=e748]: "08"
+                    - text: 두루누리 사회보험료
+                    - generic [ref=e749]: ›
+                - listitem [ref=e750]:
+                  - link "09 직업훈련생계비 대부 제도 ›" [ref=e751] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=8f56090b-ed8c-4f5a-8696-5b1d2ff11df8
+                    - generic [ref=e752]: "09"
+                    - text: 직업훈련생계비 대부 제도
+                    - generic [ref=e753]: ›
+                - listitem [ref=e754]:
+                  - link "10 취업촉진수당 ›" [ref=e755] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=e23e67a3-6f38-4abe-917a-7aae927ed289
+                    - generic [ref=e756]: "10"
+                    - text: 취업촉진수당
+                    - generic [ref=e757]: ›
+                - listitem [ref=e758]:
+                  - link "11 중장년내일센터 ›" [ref=e759] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=90274143-4f39-452b-83f3-7e2f515dfa2d
+                    - generic [ref=e760]: "11"
+                    - text: 중장년내일센터
+                    - generic [ref=e761]: ›
+                - listitem [ref=e762]:
+                  - link "12 신사업창업사관학교 ›" [ref=e763] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=4&b_list=9&news_id=420a5405-3493-41cf-9497-3975beacac96
+                    - generic [ref=e764]: "12"
+                    - text: 신사업창업사관학교
+                    - generic [ref=e765]: ›
+                - listitem [ref=e766]:
+                  - link "13 국가유공자 및 유가족 취업 지원 ›" [ref=e767] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=0bcdf280-6a49-48d1-8fc7-06997ace2b6f
+                    - generic [ref=e768]: "13"
+                    - text: 국가유공자 및 유가족 취업 지원
+                    - generic [ref=e769]: ›
+                - listitem [ref=e770]:
+                  - link "14 자영업자 고용보험제도 ›" [ref=e771] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=a8f4b79b-c03d-4d8f-9de1-e6b23e6dd1fe
+                    - generic [ref=e772]: "14"
+                    - text: 자영업자 고용보험제도
+                    - generic [ref=e773]: ›
+                - listitem [ref=e774]:
+                  - link "15 채용정보 검색 ›" [ref=e775] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=5f371f7c-d2c0-4ebd-9c1e-9ec5433fe0f1
+                    - generic [ref=e776]: "15"
+                    - text: 채용정보 검색
+                    - generic [ref=e777]: ›
+                - listitem [ref=e778]:
+                  - link "16 임금 체불 피해 근로자 무료 법률 지원 ›" [ref=e779] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=0d22d043-0b9e-4056-b315-0275cf1a902c
+                    - generic [ref=e780]: "16"
+                    - text: 임금 체불 피해 근로자 무료 법률 지원
+                    - generic [ref=e781]: ›
+                - listitem [ref=e782]:
+                  - link "17 재도약 지원자금 ›" [ref=e783] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=116a9c1b-8f41-4b22-9371-d1f74121355f
+                    - generic [ref=e784]: "17"
+                    - text: 재도약 지원자금
+                    - generic [ref=e785]: ›
+                - listitem [ref=e786]:
+                  - link "18 귀어창업 및 주택구입 지원(융자) ›" [ref=e787] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=f1adabb3-e4fd-478c-8f7f-ca3d815da7d0
+                    - generic [ref=e788]: "18"
+                    - text: 귀어창업 및 주택구입 지원(융자)
+                    - generic [ref=e789]: ›
+                - listitem [ref=e790]:
+                  - link "19 개인·소상공인 채무조정① (신용회복지원) ›" [ref=e791] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=ed987ae4-89fd-4b4a-87ee-33682a9b1c04
+                    - generic [ref=e792]: "19"
+                    - text: 개인·소상공인 채무조정① (신용회복지원)
+                    - generic [ref=e793]: ›
+                - listitem [ref=e794]:
+                  - link "20 개인·소상공인 채무조정② (은행권 맞춤형, 119plus) ›" [ref=e795] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=085d45c5-db67-41a9-b2e8-6ea1e3333efc
+                    - generic [ref=e796]: "20"
+                    - text: 개인·소상공인 채무조정② (은행권 맞춤형, 119plus)
+                    - generic [ref=e797]: ›
+                - listitem [ref=e798]:
+                  - link "21 개인·소상공인 채무조정③ (은행권 폐업자 지원 프로그램) ›" [ref=e799] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=5&b_list=9&news_id=5eea4acf-b118-4b64-bd76-b419647876a5
+                    - generic [ref=e800]: "21"
+                    - text: 개인·소상공인 채무조정③ (은행권 폐업자 지원 프로그램)
+                    - generic [ref=e801]: ›
+                - listitem [ref=e802]:
+                  - link "22 중장년 경력지원제 ›" [ref=e803] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=1d6bfa85-0c33-443c-bded-db30a0012f1e
+                    - generic [ref=e804]: "22"
+                    - text: 중장년 경력지원제
+                    - generic [ref=e805]: ›
+                - listitem [ref=e806]:
+                  - link "23 국민취업지원제도 ›" [ref=e807] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=d0f82d4f-497b-4aa8-8403-42dfeee05e52
+                    - generic [ref=e808]: "23"
+                    - text: 국민취업지원제도
+                    - generic [ref=e809]: ›
+                - listitem [ref=e810]:
+                  - link "24 구직자 도약보장 패키지 ›" [ref=e811] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=6ea6ed00-458e-4d32-bd59-278b492c5077
+                    - generic [ref=e812]: "24"
+                    - text: 구직자 도약보장 패키지
+                    - generic [ref=e813]: ›
+                - listitem [ref=e814]:
+                  - link "25 기업지원종합서비스 ›" [ref=e815] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=d448ea9b-7a03-44e4-ae7b-f5cc8f20efd3
+                    - generic [ref=e816]: "25"
+                    - text: 기업지원종합서비스
+                    - generic [ref=e817]: ›
+                - listitem [ref=e818]:
+                  - link "26 국가유산 산업 인턴십 지원 ›" [ref=e819] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=a759c1ab-91e3-4ecc-8531-25eec34d51c9
+                    - generic [ref=e820]: "26"
+                    - text: 국가유산 산업 인턴십 지원
+                    - generic [ref=e821]: ›
+                - listitem [ref=e822]:
+                  - link "27 미세먼지 불법배출 예방·감시 지원 ›" [ref=e823] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=aedbb5f5-e502-4d9c-94d5-c004b27c400f
+                    - generic [ref=e824]: "27"
+                    - text: 미세먼지 불법배출 예방·감시 지원
+                    - generic [ref=e825]: ›
+                - listitem [ref=e826]:
+                  - link "28 매장유산 보호 및 관리지원 ›" [ref=e827] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=d7df192d-ee6f-4401-9c5f-32d08ecab92d
+                    - generic [ref=e828]: "28"
+                    - text: 매장유산 보호 및 관리지원
+                    - generic [ref=e829]: ›
+                - listitem [ref=e830]:
+                  - link "29 하천하구 쓰레기 정화사업 ›" [ref=e831] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=665227cb-42ed-4b7b-98b1-f6a759fc72e5
+                    - generic [ref=e832]: "29"
+                    - text: 하천하구 쓰레기 정화사업
+                    - generic [ref=e833]: ›
+                - listitem [ref=e834]:
+                  - link "30 환경지킴이 ›" [ref=e835] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=6&b_list=9&news_id=bac1806b-4eaf-42fc-98ee-192332f5203d
+                    - generic [ref=e836]: "30"
+                    - text: 환경지킴이
+                    - generic [ref=e837]: ›
+                - listitem [ref=e838]:
+                  - link "31 문화예술기관 연수단원 ›" [ref=e839] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=be6c5773-72cd-49a5-b6fe-d3e47ab0bf37
+                    - generic [ref=e840]: "31"
+                    - text: 문화예술기관 연수단원
+                    - generic [ref=e841]: ›
+                - listitem [ref=e842]:
+                  - link "32 청년디자이너 인턴십 ›" [ref=e843] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=ec127fb1-1aac-469c-a5db-8512a2772ef4
+                    - generic [ref=e844]: "32"
+                    - text: 청년디자이너 인턴십
+                    - generic [ref=e845]: ›
+                - listitem [ref=e846]:
+                  - link "33 스포츠산업 인턴십 ›" [ref=e847] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=f1831291-28d6-4471-971d-7521bf064d45
+                    - generic [ref=e848]: "33"
+                    - text: 스포츠산업 인턴십
+                    - generic [ref=e849]: ›
+                - listitem [ref=e850]:
+                  - link "34 숲길등산지도사 ›" [ref=e851] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=cfb45d88-35a3-4399-a854-82f0c5261fc7
+                    - generic [ref=e852]: "34"
+                    - text: 숲길등산지도사
+                    - generic [ref=e853]: ›
+                - listitem [ref=e854]:
+                  - link "35 도시녹지관리원 ›" [ref=e855] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=dedf2d2d-d97b-4823-8726-3f06377448d7
+                    - generic [ref=e856]: "35"
+                    - text: 도시녹지관리원
+                    - generic [ref=e857]: ›
+                - listitem [ref=e858]:
+                  - link "36 학교숲코디네이터 ›" [ref=e859] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=ede24594-201c-4e04-af73-02a534af6b8b
+                    - generic [ref=e860]: "36"
+                    - text: 학교숲코디네이터
+                    - generic [ref=e861]: ›
+                - listitem [ref=e862]:
+                  - link "37 수목원코디네이터 ›" [ref=e863] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=2d565254-327f-4aee-bc56-92e09f06ac25
+                    - generic [ref=e864]: "37"
+                    - text: 수목원코디네이터
+                    - generic [ref=e865]: ›
+                - listitem [ref=e866]:
+                  - link "38 산림재난대응단 ›" [ref=e867] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=6da952bb-25de-470d-8fe9-f245cd327585
+                    - generic [ref=e868]: "38"
+                    - text: 산림재난대응단
+                    - generic [ref=e869]: ›
+                - listitem [ref=e870]:
+                  - link "39 공공산림관리단 ›" [ref=e871] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=7&b_list=9&news_id=480dfe9e-50b5-4deb-b25d-22fec3721cfd
+                    - generic [ref=e872]: "39"
+                    - text: 공공산림관리단
+                    - generic [ref=e873]: ›
+                - listitem [ref=e874]:
+                  - link "40 새일여성인턴 ›" [ref=e875] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=5587efe4-dbc7-4da3-806d-fb1d9e9ad04e
+                    - generic [ref=e876]: "40"
+                    - text: 새일여성인턴
+                    - generic [ref=e877]: ›
+                - listitem [ref=e878]:
+                  - link "41 연안안전지킴이 ›" [ref=e879] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=41dc29e4-d6df-408c-a477-1ff5221f6f3e
+                    - generic [ref=e880]: "41"
+                    - text: 연안안전지킴이
+                    - generic [ref=e881]: ›
+            - generic [ref=e882]:
+              - button "주거 8개" [ref=e883] [cursor=pointer]:
+                - generic [ref=e884]:
+                  - text: 주거
+                  - generic [ref=e885]: 8개
+              - list [ref=e887]:
+                - listitem [ref=e888]:
+                  - link "01 공공분양주택 ›" [ref=e889] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=81de56df-868f-4229-956d-06a869df0145
+                    - generic [ref=e890]: "01"
+                    - text: 공공분양주택
+                    - generic [ref=e891]: ›
+                - listitem [ref=e892]:
+                  - link "02 임대주택 ›" [ref=e893] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=56994fdd-4206-4db0-ac7c-329ec2c7957a
+                    - generic [ref=e894]: "02"
+                    - text: 임대주택
+                    - generic [ref=e895]: ›
+                - listitem [ref=e896]:
+                  - link "03 (예비)신혼부부 지원 ›" [ref=e897] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=8cff2d4b-7df6-494c-af4f-93fef57f05ed
+                    - generic [ref=e898]: "03"
+                    - text: (예비)신혼부부 지원
+                    - generic [ref=e899]: ›
+                - listitem [ref=e900]:
+                  - link "04 대학생 주거지원 ›" [ref=e901] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=f04a4561-2d93-449f-aafd-59554a5b697f
+                    - generic [ref=e902]: "04"
+                    - text: 대학생 주거지원
+                    - generic [ref=e903]: ›
+                - listitem [ref=e904]:
+                  - link "05 주거지원·임대주택 ›" [ref=e905] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=6b6ef61c-7dc9-4d66-b977-9fdc9872013c
+                    - generic [ref=e906]: "05"
+                    - text: 주거지원·임대주택
+                    - generic [ref=e907]: ›
+                - listitem [ref=e908]:
+                  - link "06 주택연금 ›" [ref=e909] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=0ab1c232-3636-49af-b703-bb48bb379f30
+                    - generic [ref=e910]: "06"
+                    - text: 주택연금
+                    - generic [ref=e911]: ›
+                - listitem [ref=e912]:
+                  - link "07 주거급여 ›" [ref=e913] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=8&b_list=9&news_id=9fbd2415-ba27-4490-b42d-d5210f379f51
+                    - generic [ref=e914]: "07"
+                    - text: 주거급여
+                    - generic [ref=e915]: ›
+                - listitem [ref=e916]:
+                  - link "08 주택개량지원 ›" [ref=e917] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=03688787-6b51-4c6a-b98f-ac27aa28d662
+                    - generic [ref=e918]: "08"
+                    - text: 주택개량지원
+                    - generic [ref=e919]: ›
+            - generic [ref=e920]:
+              - button "문화 11개" [ref=e921] [cursor=pointer]:
+                - generic [ref=e922]:
+                  - text: 문화
+                  - generic [ref=e923]: 11개
+              - list [ref=e925]:
+                - listitem [ref=e926]:
+                  - link "01 게임 과몰입 치유 프로그램 ›" [ref=e927] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=bc975f7a-c152-47a6-abaa-f47fbea8803c
+                    - generic [ref=e928]: "01"
+                    - text: 게임 과몰입 치유 프로그램
+                    - generic [ref=e929]: ›
+                - listitem [ref=e930]:
+                  - link "02 스포츠강좌이용권 ›" [ref=e931] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=214bc991-20e9-4635-a1ba-a297997d4235
+                    - generic [ref=e932]: "02"
+                    - text: 스포츠강좌이용권
+                    - generic [ref=e933]: ›
+                - listitem [ref=e934]:
+                  - link "03 예술인고용보험 ›" [ref=e935] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=ee1eedca-5341-4dfc-8196-d411d3ffd404
+                    - generic [ref=e936]: "03"
+                    - text: 예술인고용보험
+                    - generic [ref=e937]: ›
+                - listitem [ref=e938]:
+                  - link "04 나눔티켓 ›" [ref=e939] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=53871bae-a528-46dc-b311-c10dd85bd0fc
+                    - generic [ref=e940]: "04"
+                    - text: 나눔티켓
+                    - generic [ref=e941]: ›
+                - listitem [ref=e942]:
+                  - link "05 예술인 산재보험 보험료 지원사업 ›" [ref=e943] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=5cf29455-2dc7-488f-a845-ebb80c877e70
+                    - generic [ref=e944]: "05"
+                    - text: 예술인 산재보험 보험료 지원사업
+                    - generic [ref=e945]: ›
+                - listitem [ref=e946]:
+                  - link "06 예술활동준비금 지원사업 ›" [ref=e947] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=dfb2373f-f408-4280-9774-d305f3b391b5
+                    - generic [ref=e948]: "06"
+                    - text: 예술활동준비금 지원사업
+                    - generic [ref=e949]: ›
+                - listitem [ref=e950]:
+                  - link "07 근로자휴가지원사업 ›" [ref=e951] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=60a6b1e9-d284-4925-bb2e-a54abc368449
+                    - generic [ref=e952]: "07"
+                    - text: 근로자휴가지원사업
+                    - generic [ref=e953]: ›
+                - listitem [ref=e954]:
+                  - link "08 통합문화이용권(문화누리카드) ›" [ref=e955] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=9&b_list=9&news_id=16116989-a349-4af9-b9e5-5b6002463248
+                    - generic [ref=e956]: "08"
+                    - text: 통합문화이용권(문화누리카드)
+                    - generic [ref=e957]: ›
+                - listitem [ref=e958]:
+                  - link "09 문화가 있는 날 ›" [ref=e959] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=ecad88a7-5c3b-4f5d-abc2-ff47a7ba04c3
+                    - generic [ref=e960]: "09"
+                    - text: 문화가 있는 날
+                    - generic [ref=e961]: ›
+                - listitem [ref=e962]:
+                  - link "10 아름다운 이야기할머니 ›" [ref=e963] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=6c389495-90c5-4693-a10e-016987edfabe
+                    - generic [ref=e964]: "10"
+                    - text: 아름다운 이야기할머니
+                    - generic [ref=e965]: ›
+                - listitem [ref=e966]:
+                  - link "11 청년문화예술패스 ›" [ref=e967] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=092441b3-970b-4b2e-9727-a05ad8c8d3a9
+                    - generic [ref=e968]: "11"
+                    - text: 청년문화예술패스
+                    - generic [ref=e969]: ›
+            - generic [ref=e970]:
+              - button "건강·안전 15개" [ref=e971] [cursor=pointer]:
+                - generic [ref=e972]:
+                  - text: 건강·안전
+                  - generic [ref=e973]: 15개
+              - list [ref=e975]:
+                - listitem [ref=e976]:
+                  - link "01 층간소음 자가측정을 위한 소음측정기 무료대여 서비스 ›" [ref=e977] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=7075f1c4-79a1-418f-8608-001722e729bd
+                    - generic [ref=e978]: "01"
+                    - text: 층간소음 자가측정을 위한 소음측정기 무료대여 서비스
+                    - generic [ref=e979]: ›
+                - listitem [ref=e980]:
+                  - link "02 암환자 의료비 지원 ›" [ref=e981] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=2ce1dc7b-d073-43ae-91ae-8c1b33bcd240
+                    - generic [ref=e982]: "02"
+                    - text: 암환자 의료비 지원
+                    - generic [ref=e983]: ›
+                - listitem [ref=e984]:
+                  - link "03 생애주기별 국가건강검진제도 ›" [ref=e985] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=7f394d4d-6979-4cee-8e18-123d67ad0cc8
+                    - generic [ref=e986]: "03"
+                    - text: 생애주기별 국가건강검진제도
+                    - generic [ref=e987]: ›
+                - listitem [ref=e988]:
+                  - link "04 지역사회 통합 건강증진 서비스 ›" [ref=e989] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=84cbfd7e-b332-46e5-9c2e-0fe119545d12
+                    - generic [ref=e990]: "04"
+                    - text: 지역사회 통합 건강증진 서비스
+                    - generic [ref=e991]: ›
+                - listitem [ref=e992]:
+                  - link "05 생활터 금연환경 조성 ›" [ref=e993] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=e8ab619c-07f6-47b1-ab10-6644e233fc6e
+                    - generic [ref=e994]: "05"
+                    - text: 생활터 금연환경 조성
+                    - generic [ref=e995]: ›
+                - listitem [ref=e996]:
+                  - link "06 모바일 재난안전정보 포털 앱 '안전디딤돌' ›" [ref=e997] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=10&b_list=9&news_id=1f8aa465-884f-4824-a8f9-8903bd28a912
+                    - generic [ref=e998]: "06"
+                    - text: 모바일 재난안전정보 포털 앱 '안전디딤돌'
+                    - generic [ref=e999]: ›
+                - listitem [ref=e1000]:
+                  - link "07 성범죄자 신상정보 모바일고지 ›" [ref=e1001] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=6579bb06-d602-4234-8981-6fe4d6b5b779
+                    - generic [ref=e1002]: "07"
+                    - text: 성범죄자 신상정보 모바일고지
+                    - generic [ref=e1003]: ›
+                - listitem [ref=e1004]:
+                  - link "08 탄소중립포인트제 (녹색생활 실천 분야) ›" [ref=e1005] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=d33c1fe8-82f6-4c0b-a7ae-23ecfa26ed4e
+                    - generic [ref=e1006]: "08"
+                    - text: 탄소중립포인트제 (녹색생활 실천 분야)
+                    - generic [ref=e1007]: ›
+                - listitem [ref=e1008]:
+                  - link "09 안심상속 원스톱 서비스 ›" [ref=e1009] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=75888cdc-0cf2-4061-a279-a25dde78d7e6
+                    - generic [ref=e1010]: "09"
+                    - text: 안심상속 원스톱 서비스
+                    - generic [ref=e1011]: ›
+                - listitem [ref=e1012]:
+                  - link "10 폐가전 무상 방문수거 ›" [ref=e1013] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=1c10f47d-ed7d-4f06-b0ae-4f4ce8cbad70
+                    - generic [ref=e1014]: "10"
+                    - text: 폐가전 무상 방문수거
+                    - generic [ref=e1015]: ›
+                - listitem [ref=e1016]:
+                  - link "11 빈용기 보증금제도 ›" [ref=e1017] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=ddb8db29-d8cb-4bde-b16a-25c0ddd4f27e
+                    - generic [ref=e1018]: "11"
+                    - text: 빈용기 보증금제도
+                    - generic [ref=e1019]: ›
+                - listitem [ref=e1020]:
+                  - link "12 혜택알리미 ›" [ref=e1021] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=8e1d0717-08c6-4a6f-ad10-acc4aca5ff64
+                    - generic [ref=e1022]: "12"
+                    - text: 혜택알리미
+                    - generic [ref=e1023]: ›
+                - listitem [ref=e1024]:
+                  - link "13 국민비서 ›" [ref=e1025] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=4b6a6cd6-43a7-4421-96b4-288bf8504e20
+                    - generic [ref=e1026]: "13"
+                    - text: 국민비서
+                    - generic [ref=e1027]: ›
+                - listitem [ref=e1028]:
+                  - link "14 119안심콜 서비스 ›" [ref=e1029] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=3fad48fc-d666-493a-968d-029f67c71752
+                    - generic [ref=e1030]: "14"
+                    - text: 119안심콜 서비스
+                    - generic [ref=e1031]: ›
+                - listitem [ref=e1032]:
+                  - link "15 여성긴급전화 1366 ›" [ref=e1033] [cursor=pointer]:
+                    - /url: https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=11&b_list=9&news_id=b064c79c-4ee6-4746-80d8-806df2ee3187
+                    - generic [ref=e1034]: "15"
+                    - text: 여성긴급전화 1366
+                    - generic [ref=e1035]: ›
+    - contentinfo [ref=e1036]:
+      - generic [ref=e1038]:
+        - generic [ref=e1039]:
+          - generic [ref=e1040]:
+            - img "문화체육관광부 로고 이미지 입니다." [ref=e1041]
+            - generic [ref=e1042]:
+              - paragraph [ref=e1043]: (30147) 세종특별자치시 갈매로 388 정부세종청사 15동
+              - paragraph [ref=e1044]: "TEL : 044.203.3013~6"
+          - link "정책브리핑 바로가기 " [ref=e1045] [cursor=pointer]:
+            - /url: https://www.korea.kr/main.do
+            - text: 정책브리핑 바로가기
+            - generic [ref=e1046]: 
+        - generic [ref=e1047]:
+          - generic [ref=e1048]:
+            - link "개인정보처리방침" [ref=e1049] [cursor=pointer]:
+              - /url: /menu.es?mid=a10800000000
+            - link "저작권정책" [ref=e1050] [cursor=pointer]:
+              - /url: /menu.es?mid=a11100000000
+          - paragraph [ref=e1051]: © 2025. 문화체육관광부. All Rights Reserved. w1
+  - button "맨 위로 이동":
+    - img

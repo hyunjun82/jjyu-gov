@@ -1,0 +1,184 @@
+[    2917ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[    3563ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   16557ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   16984ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/9cf2bcbcb65e74ec.webpack.hot-update.json:0
+[   16984ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:347
+[   16999ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   17349ms] ModuleParseError: Module parse failed: Unexpected token (4:0)
+File was processed with these loaders:
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-css-loader.js
+You may need an additional loader to handle the result of these loaders.
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:403799)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:405546)
+    at processResult (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401241)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5650)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5879)
+    at runSyncOrAsync (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4293)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5782)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5426)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401777)
+    at eval (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:13:28858)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\build\webpack\plugins\profiling-plugin.js:179:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[   17347ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8; @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   52482ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   52559ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   52638ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   52742ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/9cf2bcbcb65e74ec.webpack.hot-update.json:0
+[   52742ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:347
+[   52787ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   53054ms] ModuleParseError: Module parse failed: Unexpected character '@' (1:0)
+File was processed with these loaders:
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-css-loader.js
+You may need an additional loader to handle the result of these loaders.
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities;
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:403799)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:405546)
+    at processResult (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401241)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5650)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5879)
+    at runSyncOrAsync (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4293)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5782)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5426)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401777)
+    at eval (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:13:28858)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\build\webpack\plugins\profiling-plugin.js:179:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[   53055ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities; @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   89536ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+character+%27%40%27+%281%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%3E+%40tailwind+base%3B%0A%7C+%40tailwind+components%3B%0A%7C+%40tailwind+utilities%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   89677ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+character+%27%40%27+%281%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%3E+%40tailwind+base%3B%0A%7C+%40tailwind+components%3B%0A%7C+%40tailwind+utilities%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   91800ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   97460ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  100392ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+character+%27%40%27+%281%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%3E+%40tailwind+base%3B%0A%7C+%40tailwind+components%3B%0A%7C+%40tailwind+utilities%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[  100732ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+character+%27%40%27+%281%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%3E+%40tailwind+base%3B%0A%7C+%40tailwind+components%3B%0A%7C+%40tailwind+utilities%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[  103297ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  103809ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  104398ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/9cf2bcbcb65e74ec.webpack.hot-update.json:0
+[  104398ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:347
+[  104558ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  105230ms] ModuleParseError: Module parse failed: Unexpected character '@' (1:0)
+File was processed with these loaders:
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-css-loader.js
+You may need an additional loader to handle the result of these loaders.
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities;
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:403799)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:405546)
+    at processResult (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401241)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5650)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5879)
+    at runSyncOrAsync (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4293)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5782)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5426)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401777)
+    at eval (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:13:28858)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\build\webpack\plugins\profiling-plugin.js:179:29)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:453:9)
+[  105233ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @tailwind base;
+| @tailwind components;
+| @tailwind utilities; @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62

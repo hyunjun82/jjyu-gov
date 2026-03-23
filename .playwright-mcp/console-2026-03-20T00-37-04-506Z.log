@@ -1,0 +1,11 @@
+[   23072ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3334/category/loan?_rsc=fuapp:0
+[   23077ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3334/category/refund?_rsc=fuapp:0
+[   23080ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3334/category/youth?_rsc=fuapp:0
+[   23083ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3334/category/fund?_rsc=fuapp:0
+[   23589ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3334/?_rsc=fuapp:0
+[   25630ms] [ERROR] Failed to fetch RSC payload for http://localhost:3334/policy/1/vs-%ED%9D%AC%EB%A7%9D%EC%A0%81%EA%B8%88. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at http://localhost:3334/_next/static/chunks/255-a2b5d907f3f1d32f.js:1:151073
+    at t (http://localhost:3334/_next/static/chunks/255-a2b5d907f3f1d32f.js:1:151566) @ http://localhost:3334/_next/static/chunks/255-a2b5d907f3f1d32f.js:0
+[   25711ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3334/_next/static/css/app/layout.css?v=1773967049410:0
+[   25840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3334/_next/static/chunks/main-app.js?v=1773967049410:0
+[   25841ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3334/_next/static/chunks/app-pages-internals.js:0

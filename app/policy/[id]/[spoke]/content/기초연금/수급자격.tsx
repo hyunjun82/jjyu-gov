@@ -112,8 +112,10 @@ function Content() {
           </ol>
           <p>
             세 가지 모두 통과한다면 행정복지센터에 신분증과 통장 사본만 가져가면 됩니다.
-            복지로(www.bokjiro.go.kr)에서 온라인 신청도 가능합니다.
           </p>
+          <a href="https://www.bokjiro.go.kr" className="btn-cta">
+            복지로에서 바로 신청하기
+          </a>
         </div>
       </section>
     </>

@@ -1,4 +1,5 @@
 'use client';
+export const runtime = 'edge';
 import Link from 'next/link';
 import { ChevronRight, ChevronDown, CheckCircle, XCircle, User } from 'lucide-react';
 import { useState } from 'react';
@@ -10,23 +11,28 @@ import {
   itemListSchema,
   toJsonLd,
 } from '@/lib/schema';
+import { 기초연금Policy, 기초연금Spokes } from '@/data/policies/기초연금';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
-const spokeList = [
-  { slug: 'vs-희망적금', title: '도약계좌 vs 희망적금 차이' },
-  { slug: '중위소득', title: '중위소득 기준표 2026' },
-  { slug: '군대-나이', title: '군대 나이 계산법' },
-  { slug: '중도해지', title: '중도해지 하면 손해인가' },
-  { slug: '소득없으면', title: '소득 없으면 가입 가능?' },
-  { slug: '은행별-금리', title: '은행별 금리 비교' },
-  { slug: '신청방법', title: '앱으로 3분 신청' },
-  { slug: '납입금액', title: '납입금액 얼마가 최적?' },
-  { slug: '기여금-계산', title: '정부기여금 계산법' },
-];
+/* ── 정책별 스포크 목록 ── */
+const spokeLists: Record<string, { slug: string; title: string }[]> = {
+  '1': [
+    { slug: 'vs-희망적금', title: '도약계좌 vs 희망적금 차이' },
+    { slug: '중위소득', title: '중위소득 기준표 2026' },
+    { slug: '군대-나이', title: '군대 나이 계산법' },
+    { slug: '중도해지', title: '중도해지 하면 손해인가' },
+    { slug: '소득없으면', title: '소득 없으면 가입 가능?' },
+    { slug: '은행별-금리', title: '은행별 금리 비교' },
+    { slug: '신청방법', title: '앱으로 3분 신청' },
+    { slug: '납입금액', title: '납입금액 얼마가 최적?' },
+    { slug: '기여금-계산', title: '정부기여금 계산법' },
+  ],
+  '2': 기초연금Spokes,
+};
 
-/* ── 더미 데이터 (API 연동 전) ── */
-const policy = {
+/* ── 청년도약계좌 데이터 (API 연동 전) ── */
+const policy1 = {
   id: '1',
   title: '2026 청년도약계좌',
   org: '금융위원회',
@@ -149,11 +155,19 @@ const policy = {
   ],
 };
 
-export default function PolicyDetailPage() {
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+const policies: Record<string, any> = {
+  '1': policy1,
+  '2': 기초연금Policy,
+};
+
+export default function PolicyDetailPage({ params }: { params: { id: string } }) {
   const [checks, setChecks] = useState<Record<string, boolean | null>>({});
   const [activeMethod, setActiveMethod] = useState<'app' | 'visit' | 'online'>('app');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
-  const d = policy;
+
+  const d = policies[params.id] || policy1;
+  const spokeList = spokeLists[params.id] || spokeLists['1'];
 
   const totalQ = d.eligibility.length;
   const answered = Object.keys(checks).length;
@@ -365,20 +379,20 @@ export default function PolicyDetailPage() {
                   <>
                     <div className="elig-result-title">
                       <span style={{ fontSize: 24 }}>&#127881;</span>
-                      <span>축하합니다! {totalQ}개 조건 모두 충족</span>
+                      <span>정부기여금 월 최대 40만원, 받을 수 있어요</span>
                     </div>
                     <p className="elig-result-desc">
-                      소득 구간에 따라 월 최대 40만원의 정부기여금을 받을 수 있습니다.
-                      5년 만기 시 최대 5,000만원 수령이 가능합니다.
+                      {totalQ}개 조건 모두 충족했습니다.
+                      5년 만기 시 최대 5,000만원까지 수령 가능합니다.
                     </p>
                     <a
                       href={d.applyUrl}
                       className="btn-cta btn-cta-lg"
                     >
-                      지금 바로 신청하기
+                      은행 앱에서 3분 만에 신청하기
                     </a>
                     <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 8 }}>
-                      은행 앱에서 3분이면 신청 완료
+                      국민·신한·하나·우리·농협 앱에서 바로 가능
                     </p>
                   </>
                 ) : (

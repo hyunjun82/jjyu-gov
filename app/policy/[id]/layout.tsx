@@ -16,6 +16,14 @@ const policyMap: Record<string, {
     amount: '최대 5,000만원',
     deadline: '2026.06.30',
   },
+  '2': {
+    title: '2026 기초연금',
+    summary:
+      '만 65세 이상이면서 소득인정액이 선정기준액 이하인 어르신에게 매월 최대 34만 9,700원을 지급하는 노후소득 보장 제도입니다.',
+    org: '보건복지부',
+    amount: '월 최대 34만 9,700원',
+    deadline: '상시',
+  },
 };
 
 export async function generateMetadata({

@@ -1,0 +1,193 @@
+[      32ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     238ms] ModuleParseError: Module parse failed: Unexpected character '@' (1:0)
+File was processed with these loaders:
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-css-loader.js
+You may need an additional loader to handle the result of these loaders.
+> @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
+| 
+| /* ═══════════════════════════════════
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:403799)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:405546)
+    at processResult (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401241)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5650)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5879)
+    at runSyncOrAsync (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4293)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5782)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5426)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401777)
+    at eval (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:13:28858)
+    at Array.<anonymous> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\build\webpack\plugins\profiling-plugin.js:179:29)
+    at runCallbacks (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:1:167959)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:1:170086)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:1:268942)
+    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read/context:68:3)
+[     235ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected character '@' (1:0)
+> @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
+| 
+| /* ═══════════════════════════════════ @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   22851ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   22871ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+character+%27%40%27+%281%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%3E+%40import+url%28%27https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Forioncactus%2Fpretendard%40v1.3.9%2Fdist%2Fweb%2Fvariable%2Fpretendardvariable-dynamic-subset.min.css%27%29%3B%0A%7C+%0A%7C+%2F*+%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   22912ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+character+%27%40%27+%281%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%3E+%40import+url%28%27https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Forioncactus%2Fpretendard%40v1.3.9%2Fdist%2Fweb%2Fvariable%2Fpretendardvariable-dynamic-subset.min.css%27%29%3B%0A%7C+%0A%7C+%2F*+%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   23302ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   23321ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/9cf2bcbcb65e74ec.webpack.hot-update.json:0
+[   23322ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:347
+[   23353ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   23543ms] ModuleParseError: Module parse failed: Unexpected token (4:0)
+File was processed with these loaders:
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-css-loader.js
+You may need an additional loader to handle the result of these loaders.
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:403799)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:405546)
+    at processResult (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401241)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5650)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5879)
+    at runSyncOrAsync (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4293)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5782)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5426)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401777)
+    at eval (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:13:28858)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\build\webpack\plugins\profiling-plugin.js:179:29)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:453:9)
+[   23542ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8; @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   38106ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   38139ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   38318ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[   38519ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[   38552ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/9cf2bcbcb65e74ec.webpack.hot-update.json:0
+[   38552ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:347
+[   38594ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   38971ms] ModuleParseError: Module parse failed: Unexpected token (4:0)
+File was processed with these loaders:
+ * ./node_modules/next/dist/build/webpack/loaders/next-flight-css-loader.js
+You may need an additional loader to handle the result of these loaders.
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+    at <unknown> (File was processed with these loaders:)
+    at handleParseError (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:403799)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:405546)
+    at processResult (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401241)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:402302)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8727)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5565)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5650)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5879)
+    at runSyncOrAsync (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4293)
+    at iterateNormalLoaders (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5782)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5426)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:28:401777)
+    at eval (file://C:\Users\user\gov-jjyu\node_modules\next\dist\compiled\webpack\bundle5.js:13:28858)
+    at <unknown> (file://C:\Users\user\gov-jjyu\node_modules\next\dist\build\webpack\plugins\profiling-plugin.js:179:29)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at runNextTicks (node:internal/process/task_queues:69:3)
+    at process.processImmediate (node:internal/timers:453:9)
+[   38971ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8; @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  136765ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:76
+[  143827ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[  144119ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/__nextjs_original-stack-frame?isServer=true&isEdgeServer=false&isAppDirectory=false&errorMessage=ModuleParseError%3A+Module+parse+failed%3A+Unexpected+token+%284%3A0%29%0AFile+was+processed+with+these+loaders%3A%0A+*+.%2Fnode_modules%2Fnext%2Fdist%2Fbuild%2Fwebpack%2Floaders%2Fnext-flight-css-loader.js%0AYou+may+need+an+additional+loader+to+handle+the+result+of+these+loaders.%0A%7C++++Design+Tokens+%E2%80%94+KRDS+Premium%0A%7C++++%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90+*%2F%0A%3E+%3Aroot+%7B%0A%7C+++--gov-primary%3A+%23003D88%3B%0A%7C+++--gov-primary-hover%3A+%23004DA8%3B&file=File+was+processed+with+these+loaders%3A&methodName=%3Cunknown%3E&arguments=&lineNumber=&column=:0
+[  144738ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62
+[  147218ms] [ERROR] ./app/globals.css
+Module parse failed: Unexpected token (4:0)
+|    Design Tokens — KRDS Premium
+|    ═══════════════════════════════════ */
+> :root {
+|   --gov-primary: #003D88;
+|   --gov-primary-hover: #004DA8;
+
+Import trace for requested module:
+./app/globals.css
+./app/layout.tsx @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/hydration-error-info.js:62

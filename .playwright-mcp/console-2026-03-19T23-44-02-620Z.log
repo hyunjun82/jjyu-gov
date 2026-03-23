@@ -1,0 +1,27 @@
+[ 3027806ms] [ERROR] ./app/policy/[id]/page.tsx
+Error:   x Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     ,-[C:\Users\user\gov-jjyu\app\policy\[id]\page.tsx:545:1]
+ 542 |       </div>
+ 543 |     </main>
+ 544 |   );
+ 545 | }
+     : ^
+     `----
+  x Expected '</', got 'jsx text (
+  |   );
+  | }
+  | )'
+     ,-[C:\Users\user\gov-jjyu\app\policy\[id]\page.tsx:543:1]
+ 540 |               ))}
+ 541 |             </div>
+ 542 |           </div>
+ 543 | ,->     </main>
+ 544 | |     );
+ 545 | `-> }
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/policy/[id]/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56

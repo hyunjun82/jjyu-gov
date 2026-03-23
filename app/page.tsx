@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 
@@ -13,7 +14,7 @@ const categories = [
 /* ── 더미 데이터 (API 연동 전) ── */
 const hotPolicies = [
   { id: '1', title: '2026 청년 도약 계좌 지원금', org: '금융위원회', cat: 'fund', badge: 'hot', deadline: '2026.06.30', amount: '최대 5,000만원', desc: '만 19~34세 청년이 5년간 월 최대 70만원 납입 시 정부기여금 포함 5,000만원 목돈 마련.' },
-  { id: '2', title: '청년 월세 특별지원 (3차)', org: '국토교통부', cat: 'fund', badge: 'new', deadline: '2026.12.31', amount: '월 20만원 (12개월)', desc: '독립 거주 청년 월세 부담 완화. 본인 소득 기준 중위 60% 이하.' },
+  { id: '2', title: '2026 기초연금', org: '보건복지부', cat: 'fund', badge: 'hot', deadline: '상시', amount: '월 최대 34만 9,700원', desc: '만 65세 이상 소득하위 70% 어르신에게 매월 최대 34만 9,700원 지급. 10명 중 7명 대상.' },
   { id: '3', title: '소상공인 경영안정자금 대출', org: '중소벤처기업부', cat: 'loan', badge: 'hot', deadline: '예산 소진 시', amount: '최대 7,000만원', desc: '소상공인·자영업자 저금리 정책자금. 연 3.0% 고정금리, 5년 분할 상환.' },
   { id: '4', title: '근로장려금 반기 신청', org: '국세청', cat: 'refund', badge: 'urgent', deadline: '2026.03.31', amount: '최대 330만원', desc: '근로소득이 있는 저소득 가구에 장려금 직접 지급. 단독가구 소득 2,200만원 미만.' },
   { id: '5', title: '서울시 청년 교통비 지원', org: '서울특별시', cat: 'refund', badge: 'new', deadline: '2026.05.15', amount: '연 10만원', desc: '서울 거주 만 19~34세 청년 대중교통비 연간 10만원 환급.' },
