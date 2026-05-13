@@ -141,9 +141,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
           </div>
           <h1 className="detail-title">{d.title}</h1>
           <div className="detail-meta">
-            <span>주관: {d.org}</span>
             <span>마감: {d.deadline}</span>
-            <span>{d.views.toLocaleString()}명 조회</span>
           </div>
 
           <div className="editor-profile">
@@ -152,7 +150,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             </div>
             <div className="editor-info">
               <span className="editor-name">정부지원사업 에디터</span>
-              <span className="editor-role">정부24·{d.org} 공식 자료 기반 · {d.dateModified?.slice(0, 10).replace(/-/g, '.')} 검수</span>
+              <span className="editor-role">{d.org} 공식 자료 기반 · {d.dateModified?.slice(0, 10).replace(/-/g, '.')} 검수</span>
             </div>
           </div>
 
@@ -248,32 +246,37 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                       </fieldset>
 
                       {allDone && (
-                        <div className={`elig-result ${allPass ? 'pass' : 'fail'}`}>
+                        <QABox label={allPass ? '진단 결과 — 자격 충족' : '진단 결과 — 일부 조건 미충족'}>
                           {allPass ? (
                             <>
-                              <div className="elig-result-title">
-                                <span style={{ fontSize: 24 }}>&#127881;</span>
-                                <span>{d.title} 자격 충족</span>
-                              </div>
-                              <p className="elig-result-desc">
-                                {totalQ}개 조건 모두 충족했습니다. 공식 채널에서 최종 자격을 확인하고 신청하세요.
+                              <p style={{ margin: '0 0 8px', fontSize: 13 }}>
+                                <Hi>{totalQ}개 조건 모두 충족</Hi>했습니다. 공식 채널에서 최종 자격을 확인하고 신청하세요.
                               </p>
-                              <a href={d.applyUrl} className="btn-cta btn-cta-lg" target="_blank" rel="noopener noreferrer">
-                                공식 안내 보기
+                              <a
+                                href={d.applyUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                  display: 'inline-block',
+                                  marginTop: 4,
+                                  padding: '8px 14px',
+                                  background: '#003D88',
+                                  color: '#fff',
+                                  borderRadius: 8,
+                                  fontSize: 12,
+                                  fontWeight: 600,
+                                  textDecoration: 'none',
+                                }}
+                              >
+                                공식 안내 보기 →
                               </a>
                             </>
                           ) : (
-                            <>
-                              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                                <XCircle size={20} />
-                                {failed}개 조건이 맞지 않습니다
-                              </div>
-                              <p style={{ fontSize: 13, color: 'var(--text-secondary)', marginTop: 8 }}>
-                                위 항목에서 빨간색 안내를 확인하세요.
-                              </p>
-                            </>
+                            <p style={{ margin: 0, fontSize: 13 }}>
+                              <Hi>{failed}개 조건이 맞지 않습니다.</Hi> 위 항목 빨간색 안내를 확인하세요.
+                            </p>
                           )}
-                        </div>
+                        </QABox>
                       )}
 
                       {answered > 0 && !allDone && (
@@ -444,7 +447,14 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                         <p>{item.a}</p>
                         {item.source && (
                           <div className="faq-source">
-                            출처: <Link href={item.sourceUrl}>{item.source}</Link>
+                            출처:{' '}
+                            {item.sourceUrl?.startsWith('http') ? (
+                              <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">
+                                {item.source}
+                              </a>
+                            ) : (
+                              <Link href={item.sourceUrl || '#'}>{item.source}</Link>
+                            )}
                           </div>
                         )}
                       </div>
