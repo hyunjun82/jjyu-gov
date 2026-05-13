@@ -3,6 +3,9 @@ import Link from 'next/link';
 import { ChevronRight, ChevronDown, CheckCircle, XCircle, User } from 'lucide-react';
 import { useState } from 'react';
 import PolicySidebar from '@/components/PolicySidebar';
+import KeyFactsBox from '@/components/KeyFactsBox';
+import CollapsibleTOC from '@/components/CollapsibleTOC';
+import QACard, { Hi, QABox, QATable } from '@/components/QACard';
 import {
   articleWithGovServiceSchema,
   breadcrumbSchema,
@@ -14,7 +17,6 @@ import { 기초연금Policy, 기초연금Spokes } from '@/data/policies/기초�
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
-/* ── 정책별 스포크 목록 ── */
 const spokeLists: Record<string, { slug: string; title: string }[]> = {
   '1': [
     { slug: 'vs-희망적금', title: '도약계좌 vs 희망적금 차이' },
@@ -30,9 +32,9 @@ const spokeLists: Record<string, { slug: string; title: string }[]> = {
   '2': 기초연금Spokes,
 };
 
-/* ── 청년도약계좌 데이터 (API 연동 전) ── */
 const policy1 = {
   id: '1',
+  type: 'savings' as const,
   title: '2026 청년도약계좌',
   org: '금융위원회',
   cat: '지원금',
@@ -46,6 +48,35 @@ const policy1 = {
   summary:
     '만 19~34세 청년이 5년간 월 최대 70만원을 납입하면, 정부가 기여금을 추가 지원하여 5,000만원까지 목돈을 마련할 수 있는 청년 자산형성 지원 제도입니다.',
   audience: '만 19~34세, 개인소득 7,500만원 이하 청년',
+
+  keyFacts: {
+    지원유형: '저축 매칭 지원 (현금 기여금 + 비과세)',
+    가입대상: '만 19~34세 청년',
+    매칭율: '정부기여금 월 최대 40만원',
+    납입한도: '월 1만원 ~ 70만원',
+    가입기간: '5년 (60개월)',
+    만기수령액: '최대 5,000만원',
+    중도해지: '정부기여금 환수',
+    세제혜택: '이자소득 비과세',
+    주관: '금융위원회',
+  },
+  keyFactsHighlights: {
+    가입대상: ['만 19~34세'],
+    매칭율: ['월 최대 40만원'],
+    만기수령액: ['5,000만원'],
+    세제혜택: ['비과세'],
+  },
+
+  qa: [
+    { q: '정부 매칭은 얼마나 받나요?', anchor: 'q-matching' },
+    { q: '누가 가입할 수 있나요?', anchor: 'q-eligibility' },
+    { q: '월 얼마까지 납입할 수 있나요?', anchor: 'q-deposit' },
+    { q: '만기에 얼마를 수령하나요?', anchor: 'q-maturity' },
+    { q: '중도해지하면 어떻게 되나요?', anchor: 'q-early-exit' },
+    { q: '세금 혜택은 무엇인가요?', anchor: 'q-tax' },
+    { q: '어떻게 가입하나요?', anchor: 'q-apply' },
+  ],
+
   details: [
     { label: '지원대상', value: '만 19~34세 청년 (병역이행기간 최대 6년 추가 인정)' },
     { label: '소득요건', value: '개인소득 7,500만원 이하, 가구소득 중위 250% 이하' },
@@ -96,22 +127,10 @@ const policy1 = {
     { members: '5인', median: '7,108,192', threshold: '17,770,480' },
   ],
   applySteps: [
-    {
-      title: '은행 앱 다운로드',
-      desc: '국민·신한·하나·우리·농협 중 하나를 선택하세요.',
-    },
-    {
-      title: '청년도약계좌 메뉴 진입',
-      desc: '앱 내 "청년도약계좌" 또는 "청년 적금" 메뉴를 찾으세요.',
-    },
-    {
-      title: '본인인증 + 소득확인',
-      desc: '신분증 촬영, 소득확인증명서 자동 연동 (홈택스 연계).',
-    },
-    {
-      title: '납입금액 설정 + 개설 완료',
-      desc: '월 1만원~70만원 사이에서 자유롭게 설정. 변경도 가능합니다.',
-    },
+    { title: '은행 앱 다운로드', desc: '국민·신한·하나·우리·농협 중 하나를 선택하세요.' },
+    { title: '청년도약계좌 메뉴 진입', desc: '앱 내 "청년도약계좌" 또는 "청년 적금" 메뉴를 찾으세요.' },
+    { title: '본인인증 + 소득확인', desc: '신분증 촬영, 소득확인증명서 자동 연동 (홈택스 연계).' },
+    { title: '납입금액 설정 + 개설 완료', desc: '월 1만원~70만원 사이에서 자유롭게 설정. 변경도 가능합니다.' },
   ],
   documents: ['신분증', '소득확인증명서', '가구원수 확인서류', '병적증명서 (해당 시)'],
   related: [
@@ -175,11 +194,9 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   const allDone = answered === totalQ;
   const allPass = allDone && passed === totalQ;
 
-  /* ── JSON-LD 스키마 (공통 유틸 사용) ── */
   const policyUrl = `${SITE_URL}/policy/${d.id}`;
 
   const schemas = [
-    // 1. Article + GovernmentService 중첩
     articleWithGovServiceSchema(
       {
         title: `${d.title} 조건·신청방법 총정리 (2026)`,
@@ -195,15 +212,12 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
         audience: d.audience,
       },
     ),
-    // 2. BreadcrumbList
     breadcrumbSchema([
       { name: '홈', url: SITE_URL },
       { name: d.cat, url: `${SITE_URL}/category/${d.catSlug}` },
       { name: d.title },
     ]),
-    // 3. FAQPage
     faqSchema(d.faq),
-    // 4. ItemList (스포크 목록)
     itemListSchema(
       `${d.title} 관련 가이드`,
       spokeList.map((s) => ({
@@ -214,8 +228,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   ];
 
   return (
-    <main className="detail">
-      {/* JSON-LD 스키마 일괄 삽입 */}
+    <main className="detail bg-gov-bg min-h-screen">
       {schemas.map((schema, i) => (
         <script
           key={i}
@@ -225,7 +238,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
       ))}
 
       <div className="container">
-        {/* ── 브레드크럼 ── */}
         <nav className="breadcrumb" aria-label="breadcrumb">
           <Link href="/">홈</Link>
           <ChevronRight size={12} />
@@ -234,7 +246,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
           <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{d.title}</span>
         </nav>
 
-        {/* ── 정책 헤더 ── */}
         <header className="detail-header">
           <div className="detail-badges">
             <span className="badge badge-fund">{d.cat}</span>
@@ -247,7 +258,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             <span>{d.views.toLocaleString()}명 조회</span>
           </div>
 
-          {/* 에디터 프로필 (E-E-A-T) */}
           <div className="editor-profile">
             <div className="editor-avatar">
               <User size={16} />
@@ -263,417 +273,420 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               <div className="cta-amount-label">지원 금액</div>
               <div className="cta-amount">{d.amount}</div>
             </div>
-            <a
-              href={d.applyUrl}
-              className="btn-cta"
-            >
+            <a href={d.applyUrl} className="btn-cta">
               신청하기
             </a>
           </div>
         </header>
 
-        {/* ── 레이아웃: 본문 + 사이드바 ── */}
         <div className="policy-layout">
-        <article className="policy-main">
+          <article className="policy-main">
 
-        {/* ── 앵커 네비게이션 ── */}
-        <nav className="anchor-nav" aria-label="페이지 내 이동">
-          <a href="#summary">요약</a>
-          <a href="#details">누가 얼마</a>
-          <a href="#eligibility">자격확인</a>
-          <a href="#income-table">중위소득</a>
-          <a href="#apply">신청방법</a>
-          <a href="#faq">FAQ</a>
-        </nav>
+            {d.qa && (
+              <CollapsibleTOC
+                items={d.qa.map((item: { q: string; anchor: string }) => ({
+                  q: item.q,
+                  anchor: item.anchor,
+                }))}
+                title="목차"
+              />
+            )}
 
-        {/* ── 3줄 요약 ── */}
-        <section className="detail-card" id="summary">
-          <h2 className="detail-card-head">3줄 요약</h2>
-          <div className="detail-card-body">
-            <div className="summary-box">
-              <ul>
-                <li>만 19~34세 청년이 월 최대 70만원을 5년간 납입하면, 정부가 기여금을 얹어줍니다</li>
-                <li>5년 만기 시 최대 5,000만원 수령 (비과세 + 이자소득 추가 지원)</li>
-                <li>개인소득 7,500만원 이하 + 가구소득 중위 250% 이하면 신청 가능</li>
-              </ul>
-              <div className="summary-arrow">↓ 아래에서 내 조건을 바로 확인하세요</div>
-            </div>
-          </div>
-        </section>
+            {d.keyFacts && (
+              <KeyFactsBox
+                facts={d.keyFacts}
+                highlights={d.keyFactsHighlights || {}}
+              />
+            )}
 
-        {/* ── 상세 정보 테이블 ── */}
-        <section className="detail-card" id="details">
-          <h2 className="detail-card-head">누가 얼마를 받나?</h2>
-          <table className="info-table">
-            <caption className="sr-only">{d.title} 상세 정보</caption>
-            <tbody>
-              {d.details.map((item, i) => (
-                <tr key={i}>
-                  <th scope="row">{item.label}</th>
-                  <td>{item.value}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </section>
+            <section className="detail-card" id="summary">
+              <h2 className="detail-card-head">3줄 요약</h2>
+              <div className="detail-card-body">
+                <div className="summary-box">
+                  <ul>
+                    <li>만 19~34세 청년이 월 최대 70만원을 5년간 납입하면, 정부가 기여금을 얹어줍니다</li>
+                    <li>5년 만기 시 최대 5,000만원 수령 (비과세 + 이자소득 추가 지원)</li>
+                    <li>개인소득 7,500만원 이하 + 가구소득 중위 250% 이하면 신청 가능</li>
+                  </ul>
+                  <div className="summary-arrow">↓ 아래에서 내 조건을 바로 확인하세요</div>
+                </div>
+              </div>
+            </section>
 
-        {/* ── 광고 슬롯 1 ── */}
-        <div className="ad-slot">광고 영역</div>
+            <QACard number={1} q="정부 매칭은 얼마나 받나요?" anchor="q-matching">
+              <p>
+                개인소득에 따라 <Hi>월 최대 40만원의 정부기여금</Hi>이 본인 납입액 위에 추가됩니다.
+                5년 만기까지 누적되어 <Hi>최대 5,000만원</Hi>까지 수령할 수 있습니다.
+              </p>
+              <QATable
+                caption="개인소득 구간별 정부기여금"
+                headers={['총급여', '월 기여금 한도', '비고']}
+                rows={[
+                  ['2,400만원 이하', '40만원', '최대 비율'],
+                  ['3,600만원 이하', '30만원', ''],
+                  ['4,800만원 이하', '25만원', ''],
+                  ['6,000만원 이하', '20만원', ''],
+                  ['7,500만원 이하', '15만원', '최소 비율'],
+                ]}
+              />
+            </QACard>
 
-        {/* ── 자격조건 체커 (시멘틱: fieldset + legend) ── */}
-        <section className="detail-card" id="eligibility">
-          <h2 className="detail-card-head">내가 신청할 수 있을까?</h2>
-          <div className="detail-card-body">
-            <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 20 }}>
-              아래 항목을 클릭하여 자격 조건 충족 여부를 확인하세요.
-            </p>
-            <fieldset className="elig-fieldset">
-              <legend className="sr-only">{d.title} 자격 조건 확인</legend>
-              {d.eligibility.map((item, i) => {
-                const val = checks[item.key];
-                const cls = val === true ? 'pass' : val === false ? 'fail' : '';
-                return (
-                  <div className={`elig-item ${cls}`} key={i} role="group" aria-labelledby={`q-${item.key}`}>
-                    <div style={{ flex: 1 }}>
-                      <span className="elig-q" id={`q-${item.key}`}>{item.q}</span>
-                      {val !== undefined && val !== null && (
-                        <div className="elig-feedback">
-                          {val ? (
-                            <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-                              <CheckCircle size={13} /> {item.passTip}
-                            </span>
-                          ) : (
-                            <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
-                              <XCircle size={13} /> {item.failTip}
-                            </span>
-                          )}
+            <div className="ad-slot">광고 영역</div>
+
+            <QACard number={2} q="누가 가입할 수 있나요?" anchor="q-eligibility">
+              <p style={{ marginBottom: 16 }}>
+                <Hi>만 19~34세 청년</Hi>으로 개인소득 7,500만원 이하, 가구소득 중위 250% 이하인 분이 가입 가능합니다.
+                아래 5개 항목으로 30초 자가진단 해보세요.
+              </p>
+
+              <fieldset className="elig-fieldset">
+                <legend className="sr-only">{d.title} 자격 조건 확인</legend>
+                {d.eligibility.map((item: typeof d.eligibility[number], i: number) => {
+                  const val = checks[item.key];
+                  const cls = val === true ? 'pass' : val === false ? 'fail' : '';
+                  return (
+                    <div className={`elig-item ${cls}`} key={i} role="group" aria-labelledby={`q-${item.key}`}>
+                      <div style={{ flex: 1 }}>
+                        <span className="elig-q" id={`q-${item.key}`}>{item.q}</span>
+                        {val !== undefined && val !== null && (
+                          <div className="elig-feedback">
+                            {val ? (
+                              <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+                                <CheckCircle size={13} /> {item.passTip}
+                              </span>
+                            ) : (
+                              <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+                                <XCircle size={13} /> {item.failTip}
+                              </span>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                      <div className="elig-btns">
+                        <button
+                          className={val === true ? 'yes-active' : ''}
+                          aria-pressed={val === true}
+                          onClick={() => setChecks((p) => ({ ...p, [item.key]: true }))}
+                        >
+                          예
+                        </button>
+                        <button
+                          className={val === false ? 'no-active' : ''}
+                          aria-pressed={val === false}
+                          onClick={() => setChecks((p) => ({ ...p, [item.key]: false }))}
+                        >
+                          아니오
+                        </button>
+                      </div>
+                    </div>
+                  );
+                })}
+              </fieldset>
+
+              {allDone && (
+                <div className={`elig-result ${allPass ? 'pass' : 'fail'}`}>
+                  {allPass ? (
+                    <>
+                      <div className="elig-result-title">
+                        <span style={{ fontSize: 24 }}>&#127881;</span>
+                        <span>정부기여금 월 최대 40만원, 받을 수 있어요</span>
+                      </div>
+                      <p className="elig-result-desc">
+                        {totalQ}개 조건 모두 충족했습니다. 5년 만기 시 최대 5,000만원까지 수령 가능합니다.
+                      </p>
+                      <a href={d.applyUrl} className="btn-cta btn-cta-lg">
+                        은행 앱에서 3분 만에 신청하기
+                      </a>
+                    </>
+                  ) : (
+                    <>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                        <XCircle size={20} />
+                        {failed}개 조건이 맞지 않습니다
+                      </div>
+                      <p style={{ fontSize: 13, color: 'var(--text-secondary)', marginTop: 8 }}>
+                        위 항목에서 빨간색 안내를 확인하세요.
+                      </p>
+                    </>
+                  )}
+                </div>
+              )}
+
+              {answered > 0 && !allDone && (
+                <div style={{ marginTop: 12, fontSize: 13, color: 'var(--text-muted)', textAlign: 'center' }}>
+                  {answered}/{totalQ}개 확인 완료
+                </div>
+              )}
+
+              <div style={{ marginTop: 20 }}>
+                <p style={{ fontSize: 12, color: 'var(--text-muted)', marginBottom: 8, fontWeight: 500 }}>
+                  가구 중위소득 250% 기준표
+                </p>
+                <QATable
+                  headers={['가구원수', '중위소득 (월)', '250% 기준 (월)']}
+                  rows={d.incomeTable.map((row: typeof d.incomeTable[number]) => [
+                    row.members,
+                    `${row.median}원`,
+                    `${row.threshold}원`,
+                  ])}
+                />
+                <p style={{ fontSize: 11, color: 'var(--text-muted)' }}>
+                  ※ 건강보험료로 간편 확인 가능. 건강보험공단(1577-1000)에 문의하세요.
+                </p>
+              </div>
+            </QACard>
+
+            <QACard number={3} q="월 얼마까지 납입할 수 있나요?" anchor="q-deposit">
+              <p>
+                월 <Hi>1만원에서 최대 70만원</Hi>까지 자유롭게 납입할 수 있습니다.
+                납입 금액은 가입 후에도 1만원 단위로 변경 가능하며, 일시 납입 중단 후 재개도 됩니다.
+              </p>
+              <QABox label="납입금액 선택 팁">
+                개인소득이 낮을수록 정부기여금 비율이 높으므로, <Hi>본인이 감당 가능한 최대 금액</Hi>으로
+                설정하는 것이 유리합니다. 단, 무리한 납입은 중도해지로 이어질 수 있으니 신중히 선택하세요.
+              </QABox>
+            </QACard>
+
+            <div className="ad-slot">광고 영역</div>
+
+            <QACard number={4} q="만기에 얼마를 수령하나요?" anchor="q-maturity">
+              <p>
+                5년 만기 시 <Hi>최대 약 5,000만원</Hi>까지 수령 가능합니다.
+                구성은 본인 납입 원금 + 정부기여금 + 비과세 이자소득입니다.
+              </p>
+              <QATable
+                caption="만기 수령액 예시 (월 70만원 5년 납입 기준)"
+                headers={['항목', '금액']}
+                rows={[
+                  ['본인 납입 원금 (월 70만원 × 60개월)', '4,200만원'],
+                  ['정부기여금 (소득구간별 차등)', '최대 약 720만원'],
+                  ['이자소득 (비과세)', '약 80~100만원'],
+                  ['합계 (최대)', '약 5,000만원'],
+                ]}
+              />
+            </QACard>
+
+            <QACard number={5} q="중도해지하면 어떻게 되나요?" anchor="q-early-exit">
+              <p>
+                일반 중도해지 시 <Hi>정부기여금은 환수</Hi>되고, 일반 적금 금리만 적용됩니다.
+                다만 아래 특별 중도해지 사유에 해당하면 정부기여금을 받을 수 있습니다.
+              </p>
+              <QABox label="특별 중도해지 사유">
+                · 사망 또는 해외이주<br />
+                · 천재지변<br />
+                · 가입자의 퇴직 또는 사업장 폐업<br />
+                · 장기치료가 필요한 질병<br />
+                · 본인 결혼 또는 출산
+              </QABox>
+            </QACard>
+
+            <QACard number={6} q="세금 혜택은 무엇인가요?" anchor="q-tax">
+              <p>
+                청년도약계좌의 이자소득은 <Hi>전액 비과세</Hi> 처리됩니다.
+                일반 적금은 15.4% 이자소득세가 부과되지만, 청년도약계좌는 만기까지 유지 시 세금이 면제됩니다.
+              </p>
+              <QABox label="비과세 혜택 추가 정보">
+                · 5년 만기까지 유지해야 비과세 혜택 적용<br />
+                · 중도해지 시 비과세 혜택 소멸<br />
+                · 금융소득종합과세 대상자는 가입 불가
+              </QABox>
+            </QACard>
+
+            <div className="ad-slot">광고 영역</div>
+
+            <QACard number={7} q="어떻게 가입하나요?" anchor="q-apply">
+              <p style={{ marginBottom: 16 }}>
+                <Hi>은행 앱</Hi>이 가장 빠르고 간단합니다. 영업점 방문이나 온라인 신청도 가능합니다.
+              </p>
+
+              <div className="method-tabs" role="tablist">
+                <button
+                  role="tab"
+                  aria-selected={activeMethod === 'app'}
+                  className={`method-tab ${activeMethod === 'app' ? 'active' : ''}`}
+                  onClick={() => setActiveMethod('app')}
+                >
+                  은행 앱 (가장 빠름)
+                </button>
+                <button
+                  role="tab"
+                  aria-selected={activeMethod === 'visit'}
+                  className={`method-tab ${activeMethod === 'visit' ? 'active' : ''}`}
+                  onClick={() => setActiveMethod('visit')}
+                >
+                  은행 방문
+                </button>
+                <button
+                  role="tab"
+                  aria-selected={activeMethod === 'online'}
+                  className={`method-tab ${activeMethod === 'online' ? 'active' : ''}`}
+                  onClick={() => setActiveMethod('online')}
+                >
+                  온라인 신청
+                </button>
+              </div>
+
+              {activeMethod === 'app' && (
+                <ol className="step-list" role="tabpanel">
+                  {d.applySteps.map((step: typeof d.applySteps[number], i: number) => (
+                    <li className="step-item" key={i}>
+                      <div className="step-num">{i + 1}</div>
+                      <div className="step-content">
+                        <div className="step-title">{step.title}</div>
+                        <div className="step-desc">{step.desc}</div>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              )}
+
+              {activeMethod === 'visit' && (
+                <ol className="step-list" role="tabpanel">
+                  <li className="step-item">
+                    <div className="step-num">1</div>
+                    <div className="step-content">
+                      <div className="step-title">가까운 은행 영업점 방문</div>
+                      <div className="step-desc">국민·신한·하나·우리·농협 영업점 어디든 가능합니다.</div>
+                    </div>
+                  </li>
+                  <li className="step-item">
+                    <div className="step-num">2</div>
+                    <div className="step-content">
+                      <div className="step-title">청년도약계좌 개설 요청</div>
+                      <div className="step-desc">신분증과 소득확인증명서를 지참하세요.</div>
+                    </div>
+                  </li>
+                  <li className="step-item">
+                    <div className="step-num">3</div>
+                    <div className="step-content">
+                      <div className="step-title">서류 제출 + 개설 완료</div>
+                      <div className="step-desc">심사 후 2~3영업일 내 개설이 완료됩니다.</div>
+                    </div>
+                  </li>
+                </ol>
+              )}
+
+              {activeMethod === 'online' && (
+                <ol className="step-list" role="tabpanel">
+                  <li className="step-item">
+                    <div className="step-num">1</div>
+                    <div className="step-content">
+                      <div className="step-title">은행 홈페이지 접속</div>
+                      <div className="step-desc">각 은행 공식 홈페이지에서 청년도약계좌 메뉴 진입.</div>
+                    </div>
+                  </li>
+                  <li className="step-item">
+                    <div className="step-num">2</div>
+                    <div className="step-content">
+                      <div className="step-title">공동인증서 로그인</div>
+                      <div className="step-desc">본인 명의 공동인증서가 필요합니다.</div>
+                    </div>
+                  </li>
+                  <li className="step-item">
+                    <div className="step-num">3</div>
+                    <div className="step-content">
+                      <div className="step-title">소득 확인 + 계좌 개설</div>
+                      <div className="step-desc">홈택스 연계로 소득이 자동 확인됩니다.</div>
+                    </div>
+                  </li>
+                </ol>
+              )}
+
+              <div style={{ marginTop: 20 }}>
+                <div style={{ fontSize: 14, fontWeight: 700, marginBottom: 8 }}>필요 서류</div>
+                <div className="doc-list">
+                  {d.documents.map((doc: string, i: number) => (
+                    <span className="doc-chip" key={i}>{doc}</span>
+                  ))}
+                </div>
+              </div>
+
+              <div style={{ marginTop: 24, textAlign: 'center' }}>
+                <a href={d.applyUrl} className="btn-cta">
+                  지금 바로 신청하기
+                </a>
+              </div>
+            </QACard>
+
+            <div className="ad-slot">광고 영역</div>
+
+            <section className="detail-card" id="faq">
+              <h2 className="detail-card-head">자주 묻는 질문</h2>
+              <div className="faq-list">
+                {d.faq.map((item: typeof d.faq[number], i: number) => (
+                  <details
+                    key={i}
+                    className={`faq-item ${openFaq === i ? 'open' : ''}`}
+                    open={openFaq === i}
+                    onToggle={(e) => {
+                      const el = e.currentTarget;
+                      if (el.open) setOpenFaq(i);
+                      else if (openFaq === i) setOpenFaq(null);
+                    }}
+                  >
+                    <summary className="faq-question">
+                      <span>Q. {item.q}</span>
+                      <ChevronDown
+                        size={18}
+                        style={{
+                          transition: 'transform 0.2s',
+                          transform: openFaq === i ? 'rotate(180deg)' : 'rotate(0)',
+                          flexShrink: 0,
+                          color: 'var(--text-muted)',
+                        }}
+                      />
+                    </summary>
+                    <div className="faq-answer">
+                      <p>{item.a}</p>
+                      {item.source && (
+                        <div className="faq-source">
+                          출처: <Link href={item.sourceUrl}>{item.source}</Link>
                         </div>
                       )}
                     </div>
-                    <div className="elig-btns">
-                      <button
-                        className={val === true ? 'yes-active' : ''}
-                        aria-pressed={val === true}
-                        onClick={() => setChecks((p) => ({ ...p, [item.key]: true }))}
-                      >
-                        예
-                      </button>
-                      <button
-                        className={val === false ? 'no-active' : ''}
-                        aria-pressed={val === false}
-                        onClick={() => setChecks((p) => ({ ...p, [item.key]: false }))}
-                      >
-                        아니오
-                      </button>
-                    </div>
-                  </div>
-                );
-              })}
-            </fieldset>
-
-            {/* 결과 */}
-            {allDone && (
-              <div className={`elig-result ${allPass ? 'pass' : 'fail'}`}>
-                {allPass ? (
-                  <>
-                    <div className="elig-result-title">
-                      <span style={{ fontSize: 24 }}>&#127881;</span>
-                      <span>정부기여금 월 최대 40만원, 받을 수 있어요</span>
-                    </div>
-                    <p className="elig-result-desc">
-                      {totalQ}개 조건 모두 충족했습니다.
-                      5년 만기 시 최대 5,000만원까지 수령 가능합니다.
-                    </p>
-                    <a
-                      href={d.applyUrl}
-                      className="btn-cta btn-cta-lg"
-                    >
-                      은행 앱에서 3분 만에 신청하기
-                    </a>
-                    <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 8 }}>
-                      국민·신한·하나·우리·농협 앱에서 바로 가능
-                    </p>
-                  </>
-                ) : (
-                  <>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                      <XCircle size={20} />
-                      {failed}개 조건이 맞지 않습니다
-                    </div>
-                    <p style={{ fontSize: 13, color: 'var(--text-secondary)', marginTop: 8 }}>
-                      위 항목에서 빨간색 안내를 확인하세요. 병역 기간 인정, 소득 기준 변경 등
-                      예외 사항이 있을 수 있습니다.
-                    </p>
-                  </>
-                )}
-              </div>
-            )}
-
-            {/* 부분 진행 상태 */}
-            {answered > 0 && !allDone && (
-              <div style={{
-                marginTop: 12,
-                fontSize: 13,
-                color: 'var(--text-muted)',
-                textAlign: 'center',
-              }}>
-                {answered}/{totalQ}개 확인 완료
-              </div>
-            )}
-          </div>
-        </section>
-
-        {/* ── 중위소득 기준표 ── */}
-        <section className="detail-card" id="income-table">
-          <h2 className="detail-card-head">우리 가구 중위소득, 250% 이하인가?</h2>
-          <div className="detail-card-body" style={{ padding: 0 }}>
-            <div style={{ overflowX: 'auto' }}>
-              <table className="income-table">
-                <caption className="sr-only">2026년 가구원수별 중위소득 및 250% 기준표</caption>
-                <thead>
-                  <tr>
-                    <th scope="col">가구원수</th>
-                    <th scope="col">중위소득 (월)</th>
-                    <th scope="col">250% 기준 (월)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {d.incomeTable.map((row, i) => (
-                    <tr key={i}>
-                      <td>{row.members}</td>
-                      <td>{row.median}원</td>
-                      <td>{row.threshold}원</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <div style={{
-              padding: '12px 20px',
-              fontSize: 12,
-              color: 'var(--text-muted)',
-              borderTop: '1px solid var(--border-light)',
-            }}>
-              ※ 건강보험료로 간편 확인 가능. 건강보험공단(1577-1000)에 문의하세요.
-            </div>
-          </div>
-        </section>
-
-        {/* ── 광고 슬롯 2 ── */}
-        <div className="ad-slot">광고 영역</div>
-
-        {/* ── 신청 방법 ── */}
-        <section className="detail-card" id="apply">
-          <h2 className="detail-card-head">어떻게 신청하나?</h2>
-          <div className="detail-card-body">
-            {/* 방법 탭 */}
-            <div className="method-tabs" role="tablist">
-              <button
-                role="tab"
-                aria-selected={activeMethod === 'app'}
-                className={`method-tab ${activeMethod === 'app' ? 'active' : ''}`}
-                onClick={() => setActiveMethod('app')}
-              >
-                은행 앱 (가장 빠름)
-              </button>
-              <button
-                role="tab"
-                aria-selected={activeMethod === 'visit'}
-                className={`method-tab ${activeMethod === 'visit' ? 'active' : ''}`}
-                onClick={() => setActiveMethod('visit')}
-              >
-                은행 방문
-              </button>
-              <button
-                role="tab"
-                aria-selected={activeMethod === 'online'}
-                className={`method-tab ${activeMethod === 'online' ? 'active' : ''}`}
-                onClick={() => setActiveMethod('online')}
-              >
-                온라인 신청
-              </button>
-            </div>
-
-            {/* 앱 신청 */}
-            {activeMethod === 'app' && (
-              <ol className="step-list" role="tabpanel">
-                {d.applySteps.map((step, i) => (
-                  <li className="step-item" key={i}>
-                    <div className="step-num">{i + 1}</div>
-                    <div className="step-content">
-                      <div className="step-title">{step.title}</div>
-                      <div className="step-desc">{step.desc}</div>
-                    </div>
-                  </li>
-                ))}
-              </ol>
-            )}
-
-            {/* 은행 방문 */}
-            {activeMethod === 'visit' && (
-              <ol className="step-list" role="tabpanel">
-                <li className="step-item">
-                  <div className="step-num">1</div>
-                  <div className="step-content">
-                    <div className="step-title">가까운 은행 영업점 방문</div>
-                    <div className="step-desc">국민·신한·하나·우리·농협 영업점 어디든 가능합니다.</div>
-                  </div>
-                </li>
-                <li className="step-item">
-                  <div className="step-num">2</div>
-                  <div className="step-content">
-                    <div className="step-title">청년도약계좌 개설 요청</div>
-                    <div className="step-desc">신분증과 소득확인증명서를 지참하세요. 현장에서 발급도 가능합니다.</div>
-                  </div>
-                </li>
-                <li className="step-item">
-                  <div className="step-num">3</div>
-                  <div className="step-content">
-                    <div className="step-title">서류 제출 + 개설 완료</div>
-                    <div className="step-desc">심사 후 2~3영업일 내 개설이 완료됩니다.</div>
-                  </div>
-                </li>
-              </ol>
-            )}
-
-            {/* 온라인 */}
-            {activeMethod === 'online' && (
-              <ol className="step-list" role="tabpanel">
-                <li className="step-item">
-                  <div className="step-num">1</div>
-                  <div className="step-content">
-                    <div className="step-title">은행 홈페이지 접속</div>
-                    <div className="step-desc">각 은행 공식 홈페이지에서 청년도약계좌 메뉴를 찾으세요.</div>
-                  </div>
-                </li>
-                <li className="step-item">
-                  <div className="step-num">2</div>
-                  <div className="step-content">
-                    <div className="step-title">공동인증서(공인인증서) 로그인</div>
-                    <div className="step-desc">본인 명의 공동인증서가 필요합니다.</div>
-                  </div>
-                </li>
-                <li className="step-item">
-                  <div className="step-num">3</div>
-                  <div className="step-content">
-                    <div className="step-title">소득 확인 + 계좌 개설</div>
-                    <div className="step-desc">홈택스 연계로 소득이 자동 확인됩니다. 납입액 설정 후 완료.</div>
-                  </div>
-                </li>
-              </ol>
-            )}
-
-            {/* 필요 서류 */}
-            <div style={{ marginTop: 20 }}>
-              <div style={{ fontSize: 14, fontWeight: 700, marginBottom: 8 }}>필요 서류</div>
-              <div className="doc-list">
-                {d.documents.map((doc, i) => (
-                  <span className="doc-chip" key={i}>{doc}</span>
+                  </details>
                 ))}
               </div>
-            </div>
+            </section>
 
-            {/* CTA */}
-            <div style={{ marginTop: 24, textAlign: 'center' }}>
-              <a
-                href={d.applyUrl}
-                className="btn-cta"
-              >
-                지금 바로 신청하기
-              </a>
-            </div>
-          </div>
-        </section>
+            <section className="source-section" id="sources">
+              <h2 className="source-section-title">이 글의 출처</h2>
+              <ul className="source-list">
+                <li><a href="https://www.fsc.go.kr/no010101/81550" target="_blank" rel="noopener noreferrer">금융위원회 – 청년도약계좌 안내</a></li>
+                <li><a href="https://www.kinfa.or.kr" target="_blank" rel="noopener noreferrer">서민금융진흥원 – 청년도약계좌 상품안내</a></li>
+                <li><a href="https://www.bokjiro.go.kr" target="_blank" rel="noopener noreferrer">복지로 – 청년도약계좌 자격확인</a></li>
+                <li><a href="https://www.gov.kr" target="_blank" rel="noopener noreferrer">정부24 – 청년도약계좌 신청</a></li>
+              </ul>
+              <p className="source-updated">마지막 검수: 2026.03.20</p>
+            </section>
 
-        {/* ── 광고 슬롯 3 ── */}
-        <div className="ad-slot">광고 영역</div>
-
-        {/* ── FAQ (시멘틱: details/summary) ── */}
-        <section className="detail-card" id="faq">
-          <h2 className="detail-card-head">자주 묻는 질문</h2>
-          <div className="faq-list">
-            {d.faq.map((item, i) => (
-              <details
-                key={i}
-                className={`faq-item ${openFaq === i ? 'open' : ''}`}
-                open={openFaq === i}
-                onToggle={(e) => {
-                  const el = e.currentTarget;
-                  if (el.open) {
-                    setOpenFaq(i);
-                  } else if (openFaq === i) {
-                    setOpenFaq(null);
-                  }
-                }}
-              >
-                <summary className="faq-question">
-                  <span>Q. {item.q}</span>
-                  <ChevronDown
-                    size={18}
-                    style={{
-                      transition: 'transform 0.2s',
-                      transform: openFaq === i ? 'rotate(180deg)' : 'rotate(0)',
-                      flexShrink: 0,
-                      color: 'var(--text-muted)',
-                    }}
-                  />
-                </summary>
-                <div className="faq-answer">
-                  <p>{item.a}</p>
-                  {item.source && (
-                    <div className="faq-source">
-                      출처: <Link href={item.sourceUrl}>{item.source}</Link>
+            <section className="detail-card" id="related">
+              <h2 className="detail-card-head">관련 정책 더보기</h2>
+              {d.related.map((r: typeof d.related[number], i: number) => (
+                <Link href={`/policy/${r.id}`} key={i} className="related-item">
+                  <div className="rel-info">
+                    <div style={{ marginBottom: 4 }}>
+                      <span className={`badge ${r.cat === '지원금' ? 'badge-fund' : 'badge-refund'}`}>
+                        {r.cat}
+                      </span>
                     </div>
-                  )}
-                </div>
-              </details>
-            ))}
-          </div>
-        </section>
+                    <div className="rel-title">{r.title}</div>
+                  </div>
+                  <ChevronRight size={16} style={{ color: 'var(--text-muted)', flexShrink: 0 }} />
+                </Link>
+              ))}
+            </section>
 
-        {/* ── 출처 섹션 ── */}
-        <section className="source-section" id="sources">
-          <h2 className="source-section-title">이 글의 출처</h2>
-          <ul className="source-list">
-            <li><a href="https://www.fsc.go.kr/no010101/81550" target="_blank" rel="noopener noreferrer">금융위원회 – 청년도약계좌 안내</a></li>
-            <li><a href="https://www.kinfa.or.kr" target="_blank" rel="noopener noreferrer">서민금융진흥원 – 청년도약계좌 상품안내</a></li>
-            <li><a href="https://www.bokjiro.go.kr" target="_blank" rel="noopener noreferrer">복지로 – 청년도약계좌 자격확인</a></li>
-            <li><a href="https://www.gov.kr" target="_blank" rel="noopener noreferrer">정부24 – 청년도약계좌 신청</a></li>
-          </ul>
-          <p className="source-updated">마지막 검수: 2026.03.20</p>
-        </section>
+          </article>
 
-        {/* ── 관련 정책 ── */}
-        <section className="detail-card" id="related">
-          <h2 className="detail-card-head">관련 정책 더보기</h2>
-          {d.related.map((r, i) => (
-            <Link href={`/policy/${r.id}`} key={i} className="related-item">
-              <div className="rel-info">
-                <div style={{ marginBottom: 4 }}>
-                  <span
-                    className={`badge ${r.cat === '지원금' ? 'badge-fund' : 'badge-refund'}`}
-                  >
-                    {r.cat}
-                  </span>
-                </div>
-                <div className="rel-title">{r.title}</div>
-              </div>
-              <ChevronRight size={16} style={{ color: 'var(--text-muted)', flexShrink: 0 }} />
-            </Link>
-          ))}
-        </section>
+          <PolicySidebar
+            policyId={d.id}
+            policyTitle={d.title.replace(/^2026\s*/, '')}
+            spokes={spokeList}
+            applyUrl={d.applyUrl}
+          />
 
-        </article>{/* /policy-main */}
-
-        {/* ── 사이드바 ── */}
-        <PolicySidebar
-          policyId={d.id}
-          policyTitle={d.title.replace(/^2026\s*/, '')}
-          spokes={spokeList}
-          applyUrl={d.applyUrl}
-        />
-
-        </div>{/* /policy-layout */}
+        </div>
       </div>
     </main>
   );
