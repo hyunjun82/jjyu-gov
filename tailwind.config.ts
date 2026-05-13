@@ -9,17 +9,17 @@ const config: Config = {
     extend: {
       colors: {
         gov: {
-          navy: "#2B3A7C",      // Q&A 카드 헤더 (진한 네이비)
-          "navy-dark": "#1F2A5C",
+          navy: "#003D88",      // KRDS 표준 정부 블루 (기존 사이트와 일치)
+          "navy-dark": "#002F6B",
+          "navy-light": "#0066CC",
+          "navy-bg": "#EEF3FB",
           orange: "#F5A623",    // 번호 배지 (주황)
-          "orange-light": "#FFD477",
           highlight: "#FFE873", // 핵심 단어 형광 (노랑)
-          bg: "#F5F6FA",        // 페이지 배경 (연한 회색)
-          text: "#2C2C2C",      // 본문 텍스트
-          muted: "#6E6E6E",     // 보조 텍스트
-          border: "#ECECEC",    // 경계선
-          danger: "#E84A4A",    // 마감임박/경고
-          success: "#0F6E56",   // 통과/성공
+          bg: "#F7F8FA",        // 페이지 배경 (KRDS 일치)
+          text: "#191F28",      // KRDS 일치
+          muted: "#8B95A1",     // KRDS 일치
+          border: "#E5E8EB",    // KRDS 일치
+          danger: "#E8344E",    // KRDS 일치
         },
       },
     },

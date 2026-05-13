@@ -587,32 +587,39 @@ img { max-width: 100%; display: block; }
   background: var(--gov-primary-bg);
 }
 
-/* ═══ Detail Card ═══ */
+/* ═══ Detail Card — 정부 카드뉴스 톤 ═══ */
 .detail-card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  margin-bottom: 16px;
+  border-radius: 16px;
+  margin-bottom: 24px;
   overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 61, 136, 0.08);
 }
 .detail-card-head {
-  padding: 18px 24px;
-  border-bottom: 1px solid var(--border-light);
-  font-size: 17px;
-  font-weight: 800;
+  padding: 22px 28px 24px;
+  background: var(--gov-primary);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  border-bottom: none;
 }
 .detail-card-head::before {
-  content: '';
-  width: 4px;
-  height: 18px;
-  background: var(--gov-primary);
-  border-radius: 2px;
-  flex-shrink: 0;
+  display: none;
 }
-.detail-card-body { padding: 24px; }
+.detail-card-body {
+  padding: 24px 28px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+@media (max-width: 640px) {
+  .detail-card-head { padding: 18px 20px; font-size: 17px; }
+  .detail-card-body { padding: 20px; }
+}
 
 /* ═══ Info Table ═══ */
 .info-table { width: 100%; border-collapse: collapse; }
@@ -938,21 +945,18 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
 }
 .sidebar-nav-head {
-  padding: 14px 18px;
-  font-size: 15px;
-  font-weight: 800;
-  border-bottom: 1px solid var(--border-light);
+  padding: 12px 18px;
+  background: var(--gov-primary);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: none;
   display: flex;
   align-items: center;
   gap: 8px;
 }
 .sidebar-nav-head::before {
-  content: '';
-  width: 3px;
-  height: 16px;
-  background: var(--gov-primary);
-  border-radius: 2px;
-  flex-shrink: 0;
+  display: none;
 }
 .sidebar-nav-list {
   list-style: none;
