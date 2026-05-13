@@ -299,20 +299,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               />
             )}
 
-            <section className="detail-card" id="summary">
-              <h2 className="detail-card-head">3줄 요약</h2>
-              <div className="detail-card-body">
-                <div className="summary-box">
-                  <ul>
-                    <li>만 19~34세 청년이 월 최대 70만원을 5년간 납입하면, 정부가 기여금을 얹어줍니다</li>
-                    <li>5년 만기 시 최대 5,000만원 수령 (비과세 + 이자소득 추가 지원)</li>
-                    <li>개인소득 7,500만원 이하 + 가구소득 중위 250% 이하면 신청 가능</li>
-                  </ul>
-                  <div className="summary-arrow">↓ 아래에서 내 조건을 바로 확인하세요</div>
-                </div>
-              </div>
-            </section>
-
             <QACard number={1} q="정부 매칭은 얼마나 받나요?" anchor="q-matching">
               <p>
                 개인소득에 따라 <Hi>월 최대 40만원의 정부기여금</Hi>이 본인 납입액 위에 추가됩니다.
