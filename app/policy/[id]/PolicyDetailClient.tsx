@@ -17,6 +17,7 @@ import { 기초연금Policy, 기초연금Spokes } from '@/data/policies/기초�
 import { 청년미래적금Policy, 청년미래적금Spokes } from '@/data/policies/청년미래적금';
 import { 부모급여Policy, 부모급여Spokes } from '@/data/policies/부모급여';
 import { firstmeetPolicy, firstmeetSpokes } from '@/data/policies/first-meet';
+import { learningcardPolicy, learningcardSpokes } from '@/data/policies/learning-card';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
@@ -25,6 +26,7 @@ const spokeLists: Record<string, { slug: string; title: string }[]> = {
   '2': 기초연금Spokes,
   '3': 부모급여Spokes,
   '4': firstmeetSpokes,
+  '5': learningcardSpokes,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -33,6 +35,7 @@ const policies: Record<string, any> = {
   '2': 기초연금Policy,
   '3': 부모급여Policy,
   '4': firstmeetPolicy,
+  '5': learningcardPolicy,
 };
 
 // ── 본문 텍스트 안 highlights 단어를 노란 형광으로 자동 강조 ──
