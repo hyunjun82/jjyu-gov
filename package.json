@@ -8,7 +8,11 @@
     "start": "next start",
     "lint": "next lint",
     "verify": "npx tsx scripts/verify-quality.ts",
-    "verify:all": "npx tsx scripts/verify-quality.ts --all"
+    "verify:all": "npx tsx scripts/verify-quality.ts --all",
+    "verify-policy": "npx tsx scripts/verify-policy.ts",
+    "gov-write": "npx tsx scripts/gov-write.ts",
+    "collect": "npx tsx scripts/collect-multi-source.ts",
+    "extract": "npx tsx scripts/extract-policy.ts"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
