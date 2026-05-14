@@ -16,6 +16,7 @@ import {
 import { 기초연금Policy, 기초연금Spokes } from '@/data/policies/기초연금';
 import { 청년미래적금Policy, 청년미래적금Spokes } from '@/data/policies/청년미래적금';
 import { 부모급여Policy, 부모급여Spokes } from '@/data/policies/부모급여';
+import { firstmeetPolicy, firstmeetSpokes } from '@/data/policies/first-meet';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
@@ -23,6 +24,7 @@ const spokeLists: Record<string, { slug: string; title: string }[]> = {
   '1': 청년미래적금Spokes,
   '2': 기초연금Spokes,
   '3': 부모급여Spokes,
+  '4': firstmeetSpokes,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -30,6 +32,7 @@ const policies: Record<string, any> = {
   '1': 청년미래적금Policy,
   '2': 기초연금Policy,
   '3': 부모급여Policy,
+  '4': firstmeetPolicy,
 };
 
 // ── 본문 텍스트 안 highlights 단어를 노란 형광으로 자동 강조 ──
@@ -159,7 +162,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               <div className="cta-amount-label">지원 금액</div>
               <div className="cta-amount">{d.amount}</div>
             </div>
-            <a href={d.applyUrl} className="btn-cta" target="_blank" rel="noopener noreferrer">
+            <a href={d.applyUrl} className="btn-cta" rel="noopener">
               신청하기
             </a>
           </div>
@@ -393,7 +396,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                         </div>
                       )}
                       <div style={{ marginTop: 24, textAlign: 'center' }}>
-                        <a href={d.applyUrl} className="btn-cta" target="_blank" rel="noopener noreferrer">
+                        <a href={d.applyUrl} className="btn-cta" rel="noopener">
                           공식 안내 보기
                         </a>
                       </div>
@@ -449,7 +452,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                           <div className="faq-source">
                             출처:{' '}
                             {item.sourceUrl?.startsWith('http') ? (
-                              <a href={item.sourceUrl} target="_blank" rel="noopener noreferrer">
+                              <a href={item.sourceUrl} rel="noopener">
                                 {item.source}
                               </a>
                             ) : (
@@ -464,25 +467,46 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               </section>
             )}
 
-            {/* 출처 섹션 */}
+            {/* 출처 섹션 — 카드뉴스 톤 */}
             {d.sources && d.sources.length > 0 && (
-              <section className="detail-card" id="sources">
-                <h2 className="detail-card-head">이 글의 출처</h2>
-                <div className="detail-card-body">
-                  <ul className="source-list">
-                    {d.sources.map((s: any, i: number) => (
-                      <li key={i}>
-                        <a href={s.url} target="_blank" rel="noopener noreferrer">
-                          {s.label}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="source-updated">
-                    마지막 검수: {d.dateModified?.slice(0, 10).replace(/-/g, '.')} · 본 페이지는 정부 공식 발표 자료를 정리한 안내이며, 실제 자격·금액은 정부 공식 채널 안내를 따릅니다.
-                  </p>
+              <QACard number={(d.qa?.length || 0) + 1} q="이 글의 출처" anchor="sources">
+                <p style={{ marginBottom: 12 }}>
+                  본 페이지는 다음 정부 공식 자료를 1:1 대조 검증해 정리했습니다.
+                </p>
+                <div style={{ display: 'grid', gap: 8 }}>
+                  {d.sources.map((s: any, i: number) => (
+                    <a
+                      key={i}
+                      href={s.url}
+                      rel="noopener"
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 10,
+                        padding: '10px 14px',
+                        background: '#F8F9FC',
+                        border: '1px solid #DDDFE8',
+                        borderRadius: 8,
+                        fontSize: 12,
+                        color: '#003D88',
+                        textDecoration: 'none',
+                        lineHeight: 1.5,
+                      }}
+                    >
+                      <span style={{ flex: 1 }}>{s.label}</span>
+                      <ChevronRight size={14} style={{ flexShrink: 0, color: '#003D88' }} />
+                    </a>
+                  ))}
                 </div>
-              </section>
+                <QABox label="검수 안내">
+                  <p style={{ margin: 0 }}>
+                    마지막 검수: <Hi>{d.dateModified?.slice(0, 10).replace(/-/g, '.')}</Hi>
+                  </p>
+                  <p style={{ margin: '6px 0 0', fontSize: 12, color: '#6E6E6E' }}>
+                    본 페이지는 정부 공식 사이트가 아니며, 정보를 정리한 안내입니다. 실제 자격·금액은 정부 공식 채널을 따릅니다.
+                  </p>
+                </QABox>
+              </QACard>
             )}
 
             {/* 관련 정책 */}
