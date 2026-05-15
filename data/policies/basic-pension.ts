@@ -3,10 +3,14 @@
  * 보조소스: 보건복지부 기초연금 제도안내, 복지로
  */
 
-export const 기초연금Policy = {
+export const basicPensionPolicy = {
   id: '2',
   title: '2026 기초연금',
-  slug: '기초연금',
+  titleKeywords: {
+      "k1": "기초연금"
+  },
+
+  slug: 'basic-pension',
   org: '보건복지부',
   cat: '지원금',
   catSlug: 'fund',

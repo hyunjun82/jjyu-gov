@@ -51,7 +51,8 @@ async function loadPolicy(name: string): Promise<PolicyData> {
   if (!fs.existsSync(filePath)) throw new Error('File not found: ' + filePath);
   const mod = await import(pathToFileURL(filePath).href);
   const baseName = name.replace(/[-_]/g, '');
-  const candidates = [name + 'Policy', baseName + 'Policy', 'default'];
+  const camelName = name.replace(/[-_](\w)/g, (_, c) => c.toUpperCase());
+  const candidates = [name + 'Policy', baseName + 'Policy', camelName + 'Policy', 'default'];
   let policy: PolicyData | undefined;
   for (const c of candidates) { if (mod[c]) { policy = mod[c]; break; } }
   if (!policy) throw new Error('Export not found (' + candidates.join(', ') + '): ' + filePath);
@@ -129,11 +130,20 @@ function verify(policy: PolicyData): CheckResult[] {
     });
   }
 
-  // Q12: speculation words ban
-  const SUSPICIOUS = ['약 ', '대략', '대략적', '정도', '쯤 ', '아마도', '추정'];
+  // Q12: speculation words ban (precise patterns to avoid false positives like 협약)
+  const SUSPICIOUS_PATTERNS: { pattern: RegExp; label: string }[] = [
+    { pattern: /약\s*\d/, label: '약 N (수치 앞 약)' },
+    { pattern: /대략/, label: '대략' },
+    { pattern: /대충/, label: '대충' },
+    { pattern: /\s정도\s/, label: '정도' },
+    { pattern: /\d+\s*쯤/, label: '쯤' },
+    { pattern: /아마도/, label: '아마도' },
+    { pattern: /추정/, label: '추정' },
+    { pattern: /예상\s*컨대/, label: '예상컨대' },
+  ];
   const allBody = qa.map((q) => (q.q || '') + ' ' + (q.intro || '')).join(' ') + ' ' +
     (policy.faq?.map((f) => (f.q || '') + ' ' + (f.a || '')).join(' ') || '');
-  const found = SUSPICIOUS.filter((w) => allBody.includes(w));
+  const found = SUSPICIOUS_PATTERNS.filter((p) => p.pattern.test(allBody)).map((p) => p.label);
   r.push({
     id: 'Q12', label: 'speculation words ban',
     pass: found.length === 0,
@@ -173,6 +183,7 @@ function printReport(name: string, policy: PolicyData, results: CheckResult[]) {
   return rate;
 }
 
+
 async function main() {
   const arg = process.argv[2];
   if (!arg) { console.error('Usage: npx tsx scripts/verify-quality.ts <name> | --all'); process.exit(1); }
@@ -180,6 +191,7 @@ async function main() {
   if (arg === '--all') {
     targets = fs.readdirSync(POLICIES_DIR)
       .filter((f) => f.endsWith('.ts') && f !== 'index.ts')
+      .filter((f) => /^[a-zA-Z0-9\-_.]+$/.test(f)) // ASCII 파일만 검증
       .map((f) => f.replace(/\.ts$/, ''));
   } else { targets = [arg]; }
   let allPass = true;
@@ -190,6 +202,15 @@ async function main() {
       const rate = printReport(name, policy, results);
       if (rate < 80) allPass = false;
     } catch (err) {
+      console.error('\n[' + name + '] verify error: ' + (err as Error).message + '\n');
+      allPass = false;
+    }
+  }
+  process.exit(allPass ? 0 : 1);
+}
+
+main();
+(err) {
       console.error('\n[' + name + '] verify error: ' + (err as Error).message + '\n');
       allPass = false;
     }

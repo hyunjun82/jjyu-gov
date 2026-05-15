@@ -12,7 +12,8 @@
     "verify-policy": "npx tsx scripts/verify-policy.ts",
     "gov-write": "npx tsx scripts/gov-write.ts",
     "collect": "npx tsx scripts/collect-multi-source.ts",
-    "extract": "npx tsx scripts/extract-policy.ts"
+    "extract": "npx tsx scripts/extract-policy.ts",
+    "batch": "npx tsx scripts/batch-gov-write.ts"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
