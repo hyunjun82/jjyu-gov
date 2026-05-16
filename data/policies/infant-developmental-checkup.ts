@@ -45,7 +45,7 @@ export const infantDevelopmentalCheckupPolicy: PolicyData = {
       source: {
         url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148920759',
         cardIndex: 1,
-        text: '영유아 검진 발달평가에서 '심화평가 권고'를 받은 영유아',
+        text: "영유아 검진 발달평가에서 '심화평가 권고'를 받은 영유아",
         verifiedAt: '2026-05-16',
       },
     },
