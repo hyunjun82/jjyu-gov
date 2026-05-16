@@ -13,30 +13,15 @@ import {
   itemListSchema,
   toJsonLd,
 } from '@/lib/schema';
-import { 기초연금Policy, 기초연금Spokes } from '@/data/policies/기초연금';
-import { 청년미래적금Policy, 청년미래적금Spokes } from '@/data/policies/청년미래적금';
-import { 부모급여Policy, 부모급여Spokes } from '@/data/policies/부모급여';
-import { firstmeetPolicy, firstmeetSpokes } from '@/data/policies/first-meet';
-import { learningcardPolicy, learningcardSpokes } from '@/data/policies/learning-card';
+import { PoliciesById, PoliciesBySlug, SpokesById, SpokesBySlug } from '@/data/policies/manifest';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
-const spokeLists: Record<string, { slug: string; title: string }[]> = {
-  '1': 청년미래적금Spokes,
-  '2': 기초연금Spokes,
-  '3': 부모급여Spokes,
-  '4': firstmeetSpokes,
-  '5': learningcardSpokes,
-};
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+const spokeLists: Record<string, any[]> = { ...SpokesById, ...SpokesBySlug };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-const policies: Record<string, any> = {
-  '1': 청년미래적금Policy,
-  '2': 기초연금Policy,
-  '3': 부모급여Policy,
-  '4': firstmeetPolicy,
-  '5': learningcardPolicy,
-};
+const policies: Record<string, any> = { ...PoliciesById, ...PoliciesBySlug };
 
 // ── 본문 텍스트 안 highlights 단어를 노란 형광으로 자동 강조 ──
 function renderWithHi(text: string, highlights: string[] = []): ReactNode {

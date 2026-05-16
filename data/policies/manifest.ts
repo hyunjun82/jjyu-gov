@@ -1,0 +1,512 @@
+/* AUTO-GENERATED policy manifest */
+import { afterSchoolChildcareFeePolicy, afterSchoolChildcareFeeSpokes } from './after-school-childcare-fee';
+import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
+import { basicPensionPolicy, 기초연금Spokes } from './basic-pension';
+import { birthCareEmploymentGrantPolicy, birthCareEmploymentGrantSpokes } from './birth-care-employment-grant';
+import { childCareServicePolicy, childCareServiceSpokes } from './child-care-service';
+import { childcareInfantEducationPolicy, childcareInfantEducationSpokes } from './childcare-infant-education';
+import { communityCareCenterPolicy, communityCareCenterSpokes } from './community-care-center';
+import { communityChildCenterPolicy, communityChildCenterSpokes } from './community-child-center';
+import { crimeVictimAidPolicy, crimeVictimAidSpokes } from './crime-victim-aid';
+import { crimeVictimStablePolicy, crimeVictimStableSpokes } from './crime-victim-stable';
+import { crisisYouthSupportPolicy, crisisYouthSupportSpokes } from './crisis-youth-support';
+import { dementiaCenterPolicy, dementiaCenterSpokes } from './dementia-center';
+import { dementiaHelplinePolicy, dementiaHelplineSpokes } from './dementia-helpline';
+import { directPaymentPolicy, directPaymentSpokes } from './direct-payment';
+import { disabilityAllowancePolicy, disabilityAllowanceSpokes } from './disability-allowance';
+import { disabilityChildAllowancePolicy, disabilityChildAllowanceSpokes } from './disability-child-allowance';
+import { disabilityPensionPolicy, disabilityPensionSpokes } from './disability-pension';
+import { dreamLadderPolicy, dreamLadderSpokes } from './dream-ladder';
+import { dreamScholarshipPolicy, dreamScholarshipSpokes } from './dream-scholarship';
+import { dreamStartPolicy, dreamStartSpokes } from './dream-start';
+import { dvShelterLeaverAidPolicy, dvShelterLeaverAidSpokes } from './dv-shelter-leaver-aid';
+import { elderlyContinueEmployPolicy, elderlyContinueEmploySpokes } from './elderly-continue-employ';
+import { elderlyDriverSafetyPolicy, elderlyDriverSafetySpokes } from './elderly-driver-safety';
+import { elderlyEmergencySafetyPolicy, elderlyEmergencySafetySpokes } from './elderly-emergency-safety';
+import { elderlyJobPolicy, elderlyJobSpokes } from './elderly-job';
+import { employmentPromotionPolicy, employmentPromotionSpokes } from './employment-promotion';
+import { extendedChildcareFeePolicy, extendedChildcareFeeSpokes } from './extended-childcare-fee';
+import { familyCareLeaveLongPolicy, familyCareLeaveLongSpokes } from './family-care-leave-long';
+import { familyCareLeavePolicy, familyCareLeaveSpokes } from './family-care-leave';
+import { farmHelperPolicy, farmHelperSpokes } from './farm-helper';
+import { farmerInsurancePolicy, farmerInsuranceSpokes } from './farmer-insurance';
+import { farmlandRetirementPaymentPolicy, farmlandRetirementPaymentSpokes } from './farmland-retirement-payment';
+import { firstmeetPolicy, firstmeetSpokes } from './first-meet';
+import { fuelSupportPolicy, fuelSupportSpokes } from './fuel-support';
+import { generalStudentLoanPolicy, generalStudentLoanSpokes } from './general-student-loan';
+import { happyBirthOnestopPolicy, happyBirthOnestopSpokes } from './happy-birth-onestop';
+import { homeChildcareAllowancePolicy, homeChildcareAllowanceSpokes } from './home-childcare-allowance';
+import { housingScholarPolicy, housingScholarSpokes } from './housing-scholar';
+import { infantChildcareFeePolicy, infantChildcareFeeSpokes } from './infant-childcare-fee';
+import { infantHealthCheckupPolicy, infantHealthCheckupSpokes } from './infant-health-checkup';
+import { infertilityTreatmentLeavePolicy, infertilityTreatmentLeaveSpokes } from './infertility-treatment-leave';
+import { isolatedYouthOnestopPolicy, isolatedYouthOnestopSpokes } from './isolated-youth-onestop';
+import { kMoocOnlinePolicy, kMoocOnlineSpokes } from './k-mooc-online';
+import { kMoveSchoolPolicy, kMoveSchoolSpokes } from './k-move-school';
+import { leapLoanPolicy, leapLoanSpokes } from './leap-loan';
+import { leapSavingsPolicy, leapSavingsSpokes } from './leap-savings';
+import { learningCardTomorrowPolicy, learningCardTomorrowSpokes } from './learning-card-tomorrow';
+import { learningcardPolicy, learningcardSpokes } from './learning-card';
+import { localGiftCardPolicy, localGiftCardSpokes } from './local-gift-card';
+import { longTermCareElderlyPolicy, longTermCareElderlySpokes } from './long-term-care-elderly';
+import { lowIncomePensionPolicy, lowIncomePensionSpokes } from './low-income-pension';
+import { lowIncomeSingleParentPolicy, lowIncomeSingleParentSpokes } from './low-income-single-parent';
+import { maternalNewbornCarePolicy, maternalNewbornCareSpokes } from './maternal-newborn-care';
+import { maternityLeavePayPolicy, maternityLeavePaySpokes } from './maternity-leave-pay';
+import { medicalAidElderlyDenturePolicy, medicalAidElderlyDentureSpokes } from './medical-aid-elderly-denture';
+import { momPregnancyOnestopPolicy, momPregnancyOnestopSpokes } from './mom-pregnancy-onestop';
+import { multiCultureChildEduPolicy, multiCultureChildEduSpokes } from './multi-culture-child-edu';
+import { nationalHappinessCardPolicy, nationalHappinessCardSpokes } from './national-happiness-card';
+import { nationalScholarPolicy, nationalScholarSpokes } from './national-scholar';
+import { newleapPolicy, newleapSpokes } from './new-leap';
+import { nutritionPlusPolicy, nutritionPlusSpokes } from './nutrition-plus';
+import { outOfHomeTeenPolicy, outOfHomeTeenSpokes } from './out-of-home-teen';
+import { outOfSchoolJobPolicy, outOfSchoolJobSpokes } from './out-of-school-job';
+import { outOfSchoolTeenPolicy, outOfSchoolTeenSpokes } from './out-of-school-teen';
+import { parentAllowancePolicy, parentAllowanceSpokes } from './parent-allowance';
+import { parentalLeavePayPolicy, parentalLeavePaySpokes } from './parental-leave-pay';
+import { parentalWorkReductionPayPolicy, parentalWorkReductionPaySpokes } from './parental-work-reduction-pay';
+import { pregnancyPreHealthPolicy, pregnancyPreHealthSpokes } from './pregnancy-pre-health';
+import { protectedChildScholarPolicy, protectedChildScholarSpokes } from './protected-child-scholar';
+import { ruralBasicIncomePolicy, ruralBasicIncomeSpokes } from './rural-basic-income';
+import { ruralStudentLoanPolicy, ruralStudentLoanSpokes } from './rural-student-loan';
+import { ruralYouthGrowthPolicy, ruralYouthGrowthSpokes } from './rural-youth-growth';
+import { seniorCustomizedCarePolicy, seniorCustomizedCareSpokes } from './senior-customized-care';
+import { singleParentFacilityPolicy, singleParentFacilitySpokes } from './single-parent-facility';
+import { smeInnovationVoucherPolicy, smeInnovationVoucherSpokes } from './sme-innovation-voucher';
+import { smeMealPolicy, smeMealSpokes } from './sme-meal';
+import { spouseBirthLeavePayPolicy, spouseBirthLeavePaySpokes } from './spouse-birth-leave-pay';
+import { startupSupportPolicy, startupSupportSpokes } from './startup-support';
+import { studentEduInfoPolicy, studentEduInfoSpokes } from './student-edu-info';
+import { sunshineYouthLoanPolicy, sunshineYouthLoanSpokes } from './sunshine-youth-loan';
+import { teenFemaleHygienePolicy, teenFemaleHygieneSpokes } from './teen-female-hygiene';
+import { teenIndependenceAidPolicy, teenIndependenceAidSpokes } from './teen-independence-aid';
+import { teenParentChildAidPolicy, teenParentChildAidSpokes } from './teen-parent-child-aid';
+import { teenSingleParentPolicy, teenSingleParentSpokes } from './teen-single-parent';
+import { tipsProgramPolicy, tipsProgramSpokes } from './tips-program';
+import { uninsuredBirthGrantPolicy, uninsuredBirthGrantSpokes } from './uninsured-birth-grant';
+import { veteranHomeCarePolicy, veteranHomeCareSpokes } from './veteran-home-care';
+import { veteranSupportPolicy, veteranSupportSpokes } from './veteran-support';
+import { wholeTownElemCarePolicy, wholeTownElemCareSpokes } from './whole-town-elem-care';
+import { womenHeadStartupLoanPolicy, womenHeadStartupLoanSpokes } from './women-head-startup-loan';
+import { womenRestartCenterPolicy, womenRestartCenterSpokes } from './women-restart-center';
+import { womenStartupCenterPolicy, womenStartupCenterSpokes } from './women-startup-center';
+import { youthAssetFormationPolicy, youthAssetFormationSpokes } from './youth-asset-formation';
+import { youthFutureSavingsPolicy, youthFutureSavingsSpokes } from './youth-future-savings';
+import { youthHousingSupportPolicy, youthHousingSupportSpokes } from './youth-housing-support';
+import { youthJobPolicy, youthJobSpokes } from './youth-job';
+import { youthLeapJobPolicy, youthLeapJobSpokes } from './youth-leap-job';
+import { youthStartupSchoolPolicy, youthStartupSchoolSpokes } from './youth-startup-school';
+import { youthWelfarePolicy, youthWelfareSpokes } from './youth-welfare';
+
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+export const PoliciesById: Record<string, any> = {
+  '80': afterSchoolChildcareFeePolicy,
+  '50': artistPensionPolicy,
+  '2': basicPensionPolicy,
+  '124': birthCareEmploymentGrantPolicy,
+  '111': childCareServicePolicy,
+  '8': childcareInfantEducationPolicy,
+  '114': communityCareCenterPolicy,
+  '67': communityChildCenterPolicy,
+  '14': crimeVictimAidPolicy,
+  '15': crimeVictimStablePolicy,
+  '40': crisisYouthSupportPolicy,
+  '103': dementiaCenterPolicy,
+  '104': dementiaHelplinePolicy,
+  '32': directPaymentPolicy,
+  '33': disabilityAllowancePolicy,
+  '39': disabilityChildAllowancePolicy,
+  '34': disabilityPensionPolicy,
+  '73': dreamLadderPolicy,
+  '74': dreamScholarshipPolicy,
+  '110': dreamStartPolicy,
+  '127': dvShelterLeaverAidPolicy,
+  '21': elderlyContinueEmployPolicy,
+  '107': elderlyDriverSafetyPolicy,
+  '36': elderlyEmergencySafetyPolicy,
+  '22': elderlyJobPolicy,
+  '42': employmentPromotionPolicy,
+  '69': extendedChildcareFeePolicy,
+  '70': familyCareLeaveLongPolicy,
+  '66': familyCareLeavePolicy,
+  '45': farmHelperPolicy,
+  '44': farmerInsurancePolicy,
+  '106': farmlandRetirementPaymentPolicy,
+  '4': firstmeetPolicy,
+  '7': fuelSupportPolicy,
+  '84': generalStudentLoanPolicy,
+  '119': happyBirthOnestopPolicy,
+  '108': homeChildcareAllowancePolicy,
+  '90': housingScholarPolicy,
+  '77': infantChildcareFeePolicy,
+  '63': infantHealthCheckupPolicy,
+  '123': infertilityTreatmentLeavePolicy,
+  '75': isolatedYouthOnestopPolicy,
+  '83': kMoocOnlinePolicy,
+  '87': kMoveSchoolPolicy,
+  '11': leapLoanPolicy,
+  '13': leapSavingsPolicy,
+  '23': learningCardTomorrowPolicy,
+  '5': learningcardPolicy,
+  '24': localGiftCardPolicy,
+  '100': longTermCareElderlyPolicy,
+  '35': lowIncomePensionPolicy,
+  '68': lowIncomeSingleParentPolicy,
+  '62': maternalNewbornCarePolicy,
+  '121': maternityLeavePayPolicy,
+  '102': medicalAidElderlyDenturePolicy,
+  '118': momPregnancyOnestopPolicy,
+  '49': multiCultureChildEduPolicy,
+  '109': nationalHappinessCardPolicy,
+  '82': nationalScholarPolicy,
+  '6': newleapPolicy,
+  '115': nutritionPlusPolicy,
+  '71': outOfHomeTeenPolicy,
+  '76': outOfSchoolJobPolicy,
+  '72': outOfSchoolTeenPolicy,
+  '3': parentAllowancePolicy,
+  '116': parentalLeavePayPolicy,
+  '117': parentalWorkReductionPayPolicy,
+  '43': pregnancyPreHealthPolicy,
+  '18': protectedChildScholarPolicy,
+  '20': ruralBasicIncomePolicy,
+  '88': ruralStudentLoanPolicy,
+  '78': ruralYouthGrowthPolicy,
+  '105': seniorCustomizedCarePolicy,
+  '126': singleParentFacilityPolicy,
+  '26': smeInnovationVoucherPolicy,
+  '16': smeMealPolicy,
+  '122': spouseBirthLeavePayPolicy,
+  '25': startupSupportPolicy,
+  '64': studentEduInfoPolicy,
+  '86': sunshineYouthLoanPolicy,
+  '37': teenFemaleHygienePolicy,
+  '38': teenIndependenceAidPolicy,
+  '48': teenParentChildAidPolicy,
+  '46': teenSingleParentPolicy,
+  '28': tipsProgramPolicy,
+  '120': uninsuredBirthGrantPolicy,
+  '101': veteranHomeCarePolicy,
+  '9': veteranSupportPolicy,
+  '65': wholeTownElemCarePolicy,
+  '125': womenHeadStartupLoanPolicy,
+  '113': womenRestartCenterPolicy,
+  '112': womenStartupCenterPolicy,
+  '99': youthAssetFormationPolicy,
+  '1': youthFutureSavingsPolicy,
+  '98': youthHousingSupportPolicy,
+  '92': youthJobPolicy,
+  '30': youthLeapJobPolicy,
+  '89': youthStartupSchoolPolicy,
+  '97': youthWelfarePolicy,
+};
+
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+export const PoliciesBySlug: Record<string, any> = {
+  'after-school-childcare-fee': afterSchoolChildcareFeePolicy,
+  'artist-pension': artistPensionPolicy,
+  'basic-pension': basicPensionPolicy,
+  'birth-care-employment-grant': birthCareEmploymentGrantPolicy,
+  'child-care-service': childCareServicePolicy,
+  'childcare-infant-education': childcareInfantEducationPolicy,
+  'community-care-center': communityCareCenterPolicy,
+  'community-child-center': communityChildCenterPolicy,
+  'crime-victim-aid': crimeVictimAidPolicy,
+  'crime-victim-stable': crimeVictimStablePolicy,
+  'crisis-youth-support': crisisYouthSupportPolicy,
+  'dementia-center': dementiaCenterPolicy,
+  'dementia-helpline': dementiaHelplinePolicy,
+  'direct-payment': directPaymentPolicy,
+  'disability-allowance': disabilityAllowancePolicy,
+  'disability-child-allowance': disabilityChildAllowancePolicy,
+  'disability-pension': disabilityPensionPolicy,
+  'dream-ladder': dreamLadderPolicy,
+  'dream-scholarship': dreamScholarshipPolicy,
+  'dream-start': dreamStartPolicy,
+  'dv-shelter-leaver-aid': dvShelterLeaverAidPolicy,
+  'elderly-continue-employ': elderlyContinueEmployPolicy,
+  'elderly-driver-safety': elderlyDriverSafetyPolicy,
+  'elderly-emergency-safety': elderlyEmergencySafetyPolicy,
+  'elderly-job': elderlyJobPolicy,
+  'employment-promotion': employmentPromotionPolicy,
+  'extended-childcare-fee': extendedChildcareFeePolicy,
+  'family-care-leave-long': familyCareLeaveLongPolicy,
+  'family-care-leave': familyCareLeavePolicy,
+  'farm-helper': farmHelperPolicy,
+  'farmer-insurance': farmerInsurancePolicy,
+  'farmland-retirement-payment': farmlandRetirementPaymentPolicy,
+  'first-meet': firstmeetPolicy,
+  'fuel-support': fuelSupportPolicy,
+  'general-student-loan': generalStudentLoanPolicy,
+  'happy-birth-onestop': happyBirthOnestopPolicy,
+  'home-childcare-allowance': homeChildcareAllowancePolicy,
+  'housing-scholar': housingScholarPolicy,
+  'infant-childcare-fee': infantChildcareFeePolicy,
+  'infant-health-checkup': infantHealthCheckupPolicy,
+  'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
+  'isolated-youth-onestop': isolatedYouthOnestopPolicy,
+  'k-mooc-online': kMoocOnlinePolicy,
+  'k-move-school': kMoveSchoolPolicy,
+  'leap-loan': leapLoanPolicy,
+  'leap-savings': leapSavingsPolicy,
+  'learning-card-tomorrow': learningCardTomorrowPolicy,
+  'learning-card': learningcardPolicy,
+  'local-gift-card': localGiftCardPolicy,
+  'long-term-care-elderly': longTermCareElderlyPolicy,
+  'low-income-pension': lowIncomePensionPolicy,
+  'low-income-single-parent': lowIncomeSingleParentPolicy,
+  'maternal-newborn-care': maternalNewbornCarePolicy,
+  'maternity-leave-pay': maternityLeavePayPolicy,
+  'medical-aid-elderly-denture': medicalAidElderlyDenturePolicy,
+  'mom-pregnancy-onestop': momPregnancyOnestopPolicy,
+  'multi-culture-child-edu': multiCultureChildEduPolicy,
+  'national-happiness-card': nationalHappinessCardPolicy,
+  'national-scholar': nationalScholarPolicy,
+  'new-leap': newleapPolicy,
+  'nutrition-plus': nutritionPlusPolicy,
+  'out-of-home-teen': outOfHomeTeenPolicy,
+  'out-of-school-job': outOfSchoolJobPolicy,
+  'out-of-school-teen': outOfSchoolTeenPolicy,
+  'parent-allowance': parentAllowancePolicy,
+  'parental-leave-pay': parentalLeavePayPolicy,
+  'parental-work-reduction-pay': parentalWorkReductionPayPolicy,
+  'pregnancy-pre-health': pregnancyPreHealthPolicy,
+  'protected-child-scholar': protectedChildScholarPolicy,
+  'rural-basic-income': ruralBasicIncomePolicy,
+  'rural-student-loan': ruralStudentLoanPolicy,
+  'rural-youth-growth': ruralYouthGrowthPolicy,
+  'senior-customized-care': seniorCustomizedCarePolicy,
+  'single-parent-facility': singleParentFacilityPolicy,
+  'sme-innovation-voucher': smeInnovationVoucherPolicy,
+  'sme-meal': smeMealPolicy,
+  'spouse-birth-leave-pay': spouseBirthLeavePayPolicy,
+  'startup-support': startupSupportPolicy,
+  'student-edu-info': studentEduInfoPolicy,
+  'sunshine-youth-loan': sunshineYouthLoanPolicy,
+  'teen-female-hygiene': teenFemaleHygienePolicy,
+  'teen-independence-aid': teenIndependenceAidPolicy,
+  'teen-parent-child-aid': teenParentChildAidPolicy,
+  'teen-single-parent': teenSingleParentPolicy,
+  'tips-program': tipsProgramPolicy,
+  'uninsured-birth-grant': uninsuredBirthGrantPolicy,
+  'veteran-home-care': veteranHomeCarePolicy,
+  'veteran-support': veteranSupportPolicy,
+  'whole-town-elem-care': wholeTownElemCarePolicy,
+  'women-head-startup-loan': womenHeadStartupLoanPolicy,
+  'women-restart-center': womenRestartCenterPolicy,
+  'women-startup-center': womenStartupCenterPolicy,
+  'youth-asset-formation': youthAssetFormationPolicy,
+  'youth-future-savings': youthFutureSavingsPolicy,
+  'youth-housing-support': youthHousingSupportPolicy,
+  'youth-job': youthJobPolicy,
+  'youth-leap-job': youthLeapJobPolicy,
+  'youth-startup-school': youthStartupSchoolPolicy,
+  'youth-welfare': youthWelfarePolicy,
+};
+
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+export const SpokesById: Record<string, any[]> = {
+  '80': afterSchoolChildcareFeeSpokes,
+  '50': artistPensionSpokes,
+  '2': 기초연금Spokes,
+  '124': birthCareEmploymentGrantSpokes,
+  '111': childCareServiceSpokes,
+  '8': childcareInfantEducationSpokes,
+  '114': communityCareCenterSpokes,
+  '67': communityChildCenterSpokes,
+  '14': crimeVictimAidSpokes,
+  '15': crimeVictimStableSpokes,
+  '40': crisisYouthSupportSpokes,
+  '103': dementiaCenterSpokes,
+  '104': dementiaHelplineSpokes,
+  '32': directPaymentSpokes,
+  '33': disabilityAllowanceSpokes,
+  '39': disabilityChildAllowanceSpokes,
+  '34': disabilityPensionSpokes,
+  '73': dreamLadderSpokes,
+  '74': dreamScholarshipSpokes,
+  '110': dreamStartSpokes,
+  '127': dvShelterLeaverAidSpokes,
+  '21': elderlyContinueEmploySpokes,
+  '107': elderlyDriverSafetySpokes,
+  '36': elderlyEmergencySafetySpokes,
+  '22': elderlyJobSpokes,
+  '42': employmentPromotionSpokes,
+  '69': extendedChildcareFeeSpokes,
+  '70': familyCareLeaveLongSpokes,
+  '66': familyCareLeaveSpokes,
+  '45': farmHelperSpokes,
+  '44': farmerInsuranceSpokes,
+  '106': farmlandRetirementPaymentSpokes,
+  '4': firstmeetSpokes,
+  '7': fuelSupportSpokes,
+  '84': generalStudentLoanSpokes,
+  '119': happyBirthOnestopSpokes,
+  '108': homeChildcareAllowanceSpokes,
+  '90': housingScholarSpokes,
+  '77': infantChildcareFeeSpokes,
+  '63': infantHealthCheckupSpokes,
+  '123': infertilityTreatmentLeaveSpokes,
+  '75': isolatedYouthOnestopSpokes,
+  '83': kMoocOnlineSpokes,
+  '87': kMoveSchoolSpokes,
+  '11': leapLoanSpokes,
+  '13': leapSavingsSpokes,
+  '23': learningCardTomorrowSpokes,
+  '5': learningcardSpokes,
+  '24': localGiftCardSpokes,
+  '100': longTermCareElderlySpokes,
+  '35': lowIncomePensionSpokes,
+  '68': lowIncomeSingleParentSpokes,
+  '62': maternalNewbornCareSpokes,
+  '121': maternityLeavePaySpokes,
+  '102': medicalAidElderlyDentureSpokes,
+  '118': momPregnancyOnestopSpokes,
+  '49': multiCultureChildEduSpokes,
+  '109': nationalHappinessCardSpokes,
+  '82': nationalScholarSpokes,
+  '6': newleapSpokes,
+  '115': nutritionPlusSpokes,
+  '71': outOfHomeTeenSpokes,
+  '76': outOfSchoolJobSpokes,
+  '72': outOfSchoolTeenSpokes,
+  '3': parentAllowanceSpokes,
+  '116': parentalLeavePaySpokes,
+  '117': parentalWorkReductionPaySpokes,
+  '43': pregnancyPreHealthSpokes,
+  '18': protectedChildScholarSpokes,
+  '20': ruralBasicIncomeSpokes,
+  '88': ruralStudentLoanSpokes,
+  '78': ruralYouthGrowthSpokes,
+  '105': seniorCustomizedCareSpokes,
+  '126': singleParentFacilitySpokes,
+  '26': smeInnovationVoucherSpokes,
+  '16': smeMealSpokes,
+  '122': spouseBirthLeavePaySpokes,
+  '25': startupSupportSpokes,
+  '64': studentEduInfoSpokes,
+  '86': sunshineYouthLoanSpokes,
+  '37': teenFemaleHygieneSpokes,
+  '38': teenIndependenceAidSpokes,
+  '48': teenParentChildAidSpokes,
+  '46': teenSingleParentSpokes,
+  '28': tipsProgramSpokes,
+  '120': uninsuredBirthGrantSpokes,
+  '101': veteranHomeCareSpokes,
+  '9': veteranSupportSpokes,
+  '65': wholeTownElemCareSpokes,
+  '125': womenHeadStartupLoanSpokes,
+  '113': womenRestartCenterSpokes,
+  '112': womenStartupCenterSpokes,
+  '99': youthAssetFormationSpokes,
+  '1': youthFutureSavingsSpokes,
+  '98': youthHousingSupportSpokes,
+  '92': youthJobSpokes,
+  '30': youthLeapJobSpokes,
+  '89': youthStartupSchoolSpokes,
+  '97': youthWelfareSpokes,
+};
+
+/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+export const SpokesBySlug: Record<string, any[]> = {
+  'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
+  'artist-pension': artistPensionSpokes,
+  'basic-pension': 기초연금Spokes,
+  'birth-care-employment-grant': birthCareEmploymentGrantSpokes,
+  'child-care-service': childCareServiceSpokes,
+  'childcare-infant-education': childcareInfantEducationSpokes,
+  'community-care-center': communityCareCenterSpokes,
+  'community-child-center': communityChildCenterSpokes,
+  'crime-victim-aid': crimeVictimAidSpokes,
+  'crime-victim-stable': crimeVictimStableSpokes,
+  'crisis-youth-support': crisisYouthSupportSpokes,
+  'dementia-center': dementiaCenterSpokes,
+  'dementia-helpline': dementiaHelplineSpokes,
+  'direct-payment': directPaymentSpokes,
+  'disability-allowance': disabilityAllowanceSpokes,
+  'disability-child-allowance': disabilityChildAllowanceSpokes,
+  'disability-pension': disabilityPensionSpokes,
+  'dream-ladder': dreamLadderSpokes,
+  'dream-scholarship': dreamScholarshipSpokes,
+  'dream-start': dreamStartSpokes,
+  'dv-shelter-leaver-aid': dvShelterLeaverAidSpokes,
+  'elderly-continue-employ': elderlyContinueEmploySpokes,
+  'elderly-driver-safety': elderlyDriverSafetySpokes,
+  'elderly-emergency-safety': elderlyEmergencySafetySpokes,
+  'elderly-job': elderlyJobSpokes,
+  'employment-promotion': employmentPromotionSpokes,
+  'extended-childcare-fee': extendedChildcareFeeSpokes,
+  'family-care-leave-long': familyCareLeaveLongSpokes,
+  'family-care-leave': familyCareLeaveSpokes,
+  'farm-helper': farmHelperSpokes,
+  'farmer-insurance': farmerInsuranceSpokes,
+  'farmland-retirement-payment': farmlandRetirementPaymentSpokes,
+  'first-meet': firstmeetSpokes,
+  'fuel-support': fuelSupportSpokes,
+  'general-student-loan': generalStudentLoanSpokes,
+  'happy-birth-onestop': happyBirthOnestopSpokes,
+  'home-childcare-allowance': homeChildcareAllowanceSpokes,
+  'housing-scholar': housingScholarSpokes,
+  'infant-childcare-fee': infantChildcareFeeSpokes,
+  'infant-health-checkup': infantHealthCheckupSpokes,
+  'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
+  'isolated-youth-onestop': isolatedYouthOnestopSpokes,
+  'k-mooc-online': kMoocOnlineSpokes,
+  'k-move-school': kMoveSchoolSpokes,
+  'leap-loan': leapLoanSpokes,
+  'leap-savings': leapSavingsSpokes,
+  'learning-card-tomorrow': learningCardTomorrowSpokes,
+  'learning-card': learningcardSpokes,
+  'local-gift-card': localGiftCardSpokes,
+  'long-term-care-elderly': longTermCareElderlySpokes,
+  'low-income-pension': lowIncomePensionSpokes,
+  'low-income-single-parent': lowIncomeSingleParentSpokes,
+  'maternal-newborn-care': maternalNewbornCareSpokes,
+  'maternity-leave-pay': maternityLeavePaySpokes,
+  'medical-aid-elderly-denture': medicalAidElderlyDentureSpokes,
+  'mom-pregnancy-onestop': momPregnancyOnestopSpokes,
+  'multi-culture-child-edu': multiCultureChildEduSpokes,
+  'national-happiness-card': nationalHappinessCardSpokes,
+  'national-scholar': nationalScholarSpokes,
+  'new-leap': newleapSpokes,
+  'nutrition-plus': nutritionPlusSpokes,
+  'out-of-home-teen': outOfHomeTeenSpokes,
+  'out-of-school-job': outOfSchoolJobSpokes,
+  'out-of-school-teen': outOfSchoolTeenSpokes,
+  'parent-allowance': parentAllowanceSpokes,
+  'parental-leave-pay': parentalLeavePaySpokes,
+  'parental-work-reduction-pay': parentalWorkReductionPaySpokes,
+  'pregnancy-pre-health': pregnancyPreHealthSpokes,
+  'protected-child-scholar': protectedChildScholarSpokes,
+  'rural-basic-income': ruralBasicIncomeSpokes,
+  'rural-student-loan': ruralStudentLoanSpokes,
+  'rural-youth-growth': ruralYouthGrowthSpokes,
+  'senior-customized-care': seniorCustomizedCareSpokes,
+  'single-parent-facility': singleParentFacilitySpokes,
+  'sme-innovation-voucher': smeInnovationVoucherSpokes,
+  'sme-meal': smeMealSpokes,
+  'spouse-birth-leave-pay': spouseBirthLeavePaySpokes,
+  'startup-support': startupSupportSpokes,
+  'student-edu-info': studentEduInfoSpokes,
+  'sunshine-youth-loan': sunshineYouthLoanSpokes,
+  'teen-female-hygiene': teenFemaleHygieneSpokes,
+  'teen-independence-aid': teenIndependenceAidSpokes,
+  'teen-parent-child-aid': teenParentChildAidSpokes,
+  'teen-single-parent': teenSingleParentSpokes,
+  'tips-program': tipsProgramSpokes,
+  'uninsured-birth-grant': uninsuredBirthGrantSpokes,
+  'veteran-home-care': veteranHomeCareSpokes,
+  'veteran-support': veteranSupportSpokes,
+  'whole-town-elem-care': wholeTownElemCareSpokes,
+  'women-head-startup-loan': womenHeadStartupLoanSpokes,
+  'women-restart-center': womenRestartCenterSpokes,
+  'women-startup-center': womenStartupCenterSpokes,
+  'youth-asset-formation': youthAssetFormationSpokes,
+  'youth-future-savings': youthFutureSavingsSpokes,
+  'youth-housing-support': youthHousingSupportSpokes,
+  'youth-job': youthJobSpokes,
+  'youth-leap-job': youthLeapJobSpokes,
+  'youth-startup-school': youthStartupSchoolSpokes,
+  'youth-welfare': youthWelfareSpokes,
+};
