@@ -28,6 +28,35 @@ import { elderlyContinueEmployPolicy, elderlyContinueEmploySpokes } from './elde
 import { elderlyDriverSafetyPolicy, elderlyDriverSafetySpokes } from './elderly-driver-safety';
 import { elderlyEmergencySafetyPolicy, elderlyEmergencySafetySpokes } from './elderly-emergency-safety';
 import { elderlyJobPolicy, elderlyJobSpokes } from './elderly-job';
+import { earnedIncomeTaxCreditPolicy, earnedIncomeTaxCreditSpokes } from './earned-income-tax-credit';
+import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
+import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
+import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
+import { elderlyKneeSurgeryPolicy, elderlyKneeSurgerySpokes } from './elderly-knee-surgery';
+import { catastrophicMedicalExpensesPolicy, catastrophicMedicalExpensesSpokes } from './catastrophic-medical-expenses';
+import { legalAidSystemPolicy, legalAidSystemSpokes } from './legal-aid-system';
+import { seominFinancialCenterPolicy, seominFinancialCenterSpokes } from './seomin-financial-center';
+import { energyVoucherPolicy, energyVoucherSpokes } from './energy-voucher';
+import { illegalLoanPreventionPolicy, illegalLoanPreventionSpokes } from './illegal-loan-prevention';
+import { basicLivelihoodAllowancePolicy, basicLivelihoodAllowanceSpokes } from './basic-livelihood-allowance';
+import { kPassPolicy, kPassSpokes } from './k-pass';
+import { energyCashbackPolicy, energyCashbackSpokes } from './energy-cashback';
+import { lowIncomeEnergyEfficiencyPolicy, lowIncomeEnergyEfficiencySpokes } from './low-income-energy-efficiency';
+import { eersGasBoilerPolicy, eersGasBoilerSpokes } from './eers-gas-boiler';
+import { efficientApplianceSupportPolicy, efficientApplianceSupportSpokes } from './efficient-appliance-support';
+import { ledLightingSupportPolicy, ledLightingSupportSpokes } from './led-lighting-support';
+import { nationwideEnergySupportGuidePolicy, nationwideEnergySupportGuideSpokes } from './nationwide-energy-support-guide';
+import { infantDevelopmentalCheckupPolicy, infantDevelopmentalCheckupSpokes } from './infant-developmental-checkup';
+import { disabilityAssistiveDevicePolicy, disabilityAssistiveDeviceSpokes } from './disability-assistive-device';
+import { disabilitySelfRelianceLoanPolicy, disabilitySelfRelianceLoanSpokes } from './disability-self-reliance-loan';
+import { disabilityStartupStorePolicy, disabilityStartupStoreSpokes } from './disability-startup-store';
+import { assistiveTechnologyDevicePolicy, assistiveTechnologyDeviceSpokes } from './assistive-technology-device';
+import { nationalWorkScholarshipPolicy, nationalWorkScholarshipSpokes } from './national-work-scholarship';
+import { educationBenefitPolicy, educationBenefitSpokes } from './education-benefit';
+import { lifelongEducationVoucherPolicy, lifelongEducationVoucherSpokes } from './lifelong-education-voucher';
+import { incomeContingentLoanPolicy, incomeContingentLoanSpokes } from './income-contingent-loan';
+import { returnFarmingStartupLoanPolicy, returnFarmingStartupLoanSpokes } from './return-farming-startup-loan';
+import { youthJobLeapIncentivePolicy, youthJobLeapIncentiveSpokes } from './youth-job-leap-incentive';
 import { employmentPromotionPolicy, employmentPromotionSpokes } from './employment-promotion';
 import { extendedChildcareFeePolicy, extendedChildcareFeeSpokes } from './extended-childcare-fee';
 import { familyCareLeaveLongPolicy, familyCareLeaveLongSpokes } from './family-care-leave-long';
@@ -132,6 +161,35 @@ export const PoliciesById: Record<string, any> = {
   '22': elderlyJobPolicy,
   '10': childDevelopmentAccountPolicy,
   '41': hypertensionMedicalFeePolicy,
+  '129': earnedIncomeTaxCreditPolicy,
+  '130': youthTomorrowSavingsPolicy,
+  '131': rentalDisputeMediationPolicy,
+  '132': debtorLawyerFreeSupportPolicy,
+  '133': elderlyKneeSurgeryPolicy,
+  '134': catastrophicMedicalExpensesPolicy,
+  '135': legalAidSystemPolicy,
+  '136': seominFinancialCenterPolicy,
+  '137': energyVoucherPolicy,
+  '138': illegalLoanPreventionPolicy,
+  '139': basicLivelihoodAllowancePolicy,
+  '140': kPassPolicy,
+  '141': energyCashbackPolicy,
+  '142': lowIncomeEnergyEfficiencyPolicy,
+  '143': eersGasBoilerPolicy,
+  '144': efficientApplianceSupportPolicy,
+  '145': ledLightingSupportPolicy,
+  '146': nationwideEnergySupportGuidePolicy,
+  '147': infantDevelopmentalCheckupPolicy,
+  '148': disabilityAssistiveDevicePolicy,
+  '149': disabilitySelfRelianceLoanPolicy,
+  '150': disabilityStartupStorePolicy,
+  '151': assistiveTechnologyDevicePolicy,
+  '152': nationalWorkScholarshipPolicy,
+  '153': educationBenefitPolicy,
+  '154': lifelongEducationVoucherPolicy,
+  '155': incomeContingentLoanPolicy,
+  '156': returnFarmingStartupLoanPolicy,
+  '157': youthJobLeapIncentivePolicy,
   '42': employmentPromotionPolicy,
   '79': disabledWomenChildcarePolicy,
   '128': pregnancyMedicalBenefitPolicy,
@@ -239,6 +297,35 @@ export const PoliciesBySlug: Record<string, any> = {
   'elderly-job': elderlyJobPolicy,
   'child-development-account': childDevelopmentAccountPolicy,
   'disabled-women-childcare': disabledWomenChildcarePolicy,
+  'earned-income-tax-credit': earnedIncomeTaxCreditPolicy,
+  'youth-tomorrow-savings': youthTomorrowSavingsPolicy,
+  'rental-dispute-mediation': rentalDisputeMediationPolicy,
+  'debtor-lawyer-free-support': debtorLawyerFreeSupportPolicy,
+  'elderly-knee-surgery': elderlyKneeSurgeryPolicy,
+  'catastrophic-medical-expenses': catastrophicMedicalExpensesPolicy,
+  'legal-aid-system': legalAidSystemPolicy,
+  'seomin-financial-center': seominFinancialCenterPolicy,
+  'energy-voucher': energyVoucherPolicy,
+  'illegal-loan-prevention': illegalLoanPreventionPolicy,
+  'basic-livelihood-allowance': basicLivelihoodAllowancePolicy,
+  'k-pass': kPassPolicy,
+  'energy-cashback': energyCashbackPolicy,
+  'low-income-energy-efficiency': lowIncomeEnergyEfficiencyPolicy,
+  'eers-gas-boiler': eersGasBoilerPolicy,
+  'efficient-appliance-support': efficientApplianceSupportPolicy,
+  'led-lighting-support': ledLightingSupportPolicy,
+  'nationwide-energy-support-guide': nationwideEnergySupportGuidePolicy,
+  'infant-developmental-checkup': infantDevelopmentalCheckupPolicy,
+  'disability-assistive-device': disabilityAssistiveDevicePolicy,
+  'disability-self-reliance-loan': disabilitySelfRelianceLoanPolicy,
+  'disability-startup-store': disabilityStartupStorePolicy,
+  'assistive-technology-device': assistiveTechnologyDevicePolicy,
+  'national-work-scholarship': nationalWorkScholarshipPolicy,
+  'education-benefit': educationBenefitPolicy,
+  'lifelong-education-voucher': lifelongEducationVoucherPolicy,
+  'income-contingent-loan': incomeContingentLoanPolicy,
+  'return-farming-startup-loan': returnFarmingStartupLoanPolicy,
+  'youth-job-leap-incentive': youthJobLeapIncentivePolicy,
   'employment-promotion': employmentPromotionPolicy,
   'hypertension-medical-fee': hypertensionMedicalFeePolicy,
   'pregnancy-medical-benefit': pregnancyMedicalBenefitPolicy,
@@ -346,6 +433,35 @@ export const SpokesById: Record<string, any[]> = {
   '22': elderlyJobSpokes,
   '10': childDevelopmentAccountSpokes,
   '41': hypertensionMedicalFeeSpokes,
+  '129': earnedIncomeTaxCreditSpokes,
+  '130': youthTomorrowSavingsSpokes,
+  '131': rentalDisputeMediationSpokes,
+  '132': debtorLawyerFreeSupportSpokes,
+  '133': elderlyKneeSurgerySpokes,
+  '134': catastrophicMedicalExpensesSpokes,
+  '135': legalAidSystemSpokes,
+  '136': seominFinancialCenterSpokes,
+  '137': energyVoucherSpokes,
+  '138': illegalLoanPreventionSpokes,
+  '139': basicLivelihoodAllowanceSpokes,
+  '140': kPassSpokes,
+  '141': energyCashbackSpokes,
+  '142': lowIncomeEnergyEfficiencySpokes,
+  '143': eersGasBoilerSpokes,
+  '144': efficientApplianceSupportSpokes,
+  '145': ledLightingSupportSpokes,
+  '146': nationwideEnergySupportGuideSpokes,
+  '147': infantDevelopmentalCheckupSpokes,
+  '148': disabilityAssistiveDeviceSpokes,
+  '149': disabilitySelfRelianceLoanSpokes,
+  '150': disabilityStartupStoreSpokes,
+  '151': assistiveTechnologyDeviceSpokes,
+  '152': nationalWorkScholarshipSpokes,
+  '153': educationBenefitSpokes,
+  '154': lifelongEducationVoucherSpokes,
+  '155': incomeContingentLoanSpokes,
+  '156': returnFarmingStartupLoanSpokes,
+  '157': youthJobLeapIncentiveSpokes,
   '42': employmentPromotionSpokes,
   '79': disabledWomenChildcareSpokes,
   '128': pregnancyMedicalBenefitSpokes,
@@ -453,6 +569,35 @@ export const SpokesBySlug: Record<string, any[]> = {
   'elderly-job': elderlyJobSpokes,
   'child-development-account': childDevelopmentAccountSpokes,
   'disabled-women-childcare': disabledWomenChildcareSpokes,
+  'earned-income-tax-credit': earnedIncomeTaxCreditSpokes,
+  'youth-tomorrow-savings': youthTomorrowSavingsSpokes,
+  'rental-dispute-mediation': rentalDisputeMediationSpokes,
+  'debtor-lawyer-free-support': debtorLawyerFreeSupportSpokes,
+  'elderly-knee-surgery': elderlyKneeSurgerySpokes,
+  'catastrophic-medical-expenses': catastrophicMedicalExpensesSpokes,
+  'legal-aid-system': legalAidSystemSpokes,
+  'seomin-financial-center': seominFinancialCenterSpokes,
+  'energy-voucher': energyVoucherSpokes,
+  'illegal-loan-prevention': illegalLoanPreventionSpokes,
+  'basic-livelihood-allowance': basicLivelihoodAllowanceSpokes,
+  'k-pass': kPassSpokes,
+  'energy-cashback': energyCashbackSpokes,
+  'low-income-energy-efficiency': lowIncomeEnergyEfficiencySpokes,
+  'eers-gas-boiler': eersGasBoilerSpokes,
+  'efficient-appliance-support': efficientApplianceSupportSpokes,
+  'led-lighting-support': ledLightingSupportSpokes,
+  'nationwide-energy-support-guide': nationwideEnergySupportGuideSpokes,
+  'infant-developmental-checkup': infantDevelopmentalCheckupSpokes,
+  'disability-assistive-device': disabilityAssistiveDeviceSpokes,
+  'disability-self-reliance-loan': disabilitySelfRelianceLoanSpokes,
+  'disability-startup-store': disabilityStartupStoreSpokes,
+  'assistive-technology-device': assistiveTechnologyDeviceSpokes,
+  'national-work-scholarship': nationalWorkScholarshipSpokes,
+  'education-benefit': educationBenefitSpokes,
+  'lifelong-education-voucher': lifelongEducationVoucherSpokes,
+  'income-contingent-loan': incomeContingentLoanSpokes,
+  'return-farming-startup-loan': returnFarmingStartupLoanSpokes,
+  'youth-job-leap-incentive': youthJobLeapIncentiveSpokes,
   'employment-promotion': employmentPromotionSpokes,
   'hypertension-medical-fee': hypertensionMedicalFeeSpokes,
   'pregnancy-medical-benefit': pregnancyMedicalBenefitSpokes,

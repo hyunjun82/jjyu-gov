@@ -231,10 +231,9 @@ export const youthFutureSavingsPolicy = {
   documents: ['신분증', '소득확인증명서 (또는 매출 증빙)', '가구원 관계증명서', '병적증명서 (해당 시)'],
 
   related: [
-    { id: '3', title: '부모급여', cat: '지원금' },
-    { id: '5', title: '서울시 청년 교통비 지원', cat: '환급금' },
-    { id: '6', title: '국민취업지원제도 (1유형)', cat: '지원금' },
-    { id: '4', title: '근로장려금 반기 신청', cat: '환급금' },
+    { id: 'youth-tomorrow-savings',   title: '청년내일저축계좌',     cat: '지원금' },
+    { id: 'earned-income-tax-credit', title: '근로장려금·자녀장려금', cat: '지원금' },
+    { id: 'k-pass',                   title: 'K-패스 (모두의 카드)', cat: '환급금' },
   ],
 
   faq: [

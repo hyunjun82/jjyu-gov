@@ -1,0 +1,503 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "메뉴 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#gnb"
+    - link "본문 바로가기" [ref=e3] [cursor=pointer]:
+      - /url: "#container"
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - heading [level=1] [ref=e9]:
+          - link [ref=e10] [cursor=pointer]:
+            - /url: /web/user/main.do
+        - generic [ref=e11]:
+          - link [ref=e12] [cursor=pointer]:
+            - /url: https://blog.naver.com/koreflove
+          - link [ref=e13] [cursor=pointer]:
+            - /url: https://www.youtube.com/@koref_official/featured
+          - generic [ref=e16]:
+            - textbox "검색어를 입력하세요" [ref=e17]
+            - button [ref=e18] [cursor=pointer]
+        - button "전체메뉴" [ref=e20] [cursor=pointer]:
+          - generic: 전체메뉴
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "재단소개" [ref=e25] [cursor=pointer]:
+            - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=c6f45ac061f14c4caeada2a9c1e3e4b4','4698037a5465469a84760ac548a93ea4','재단소개','ba1c54d2e0544003914a194ede088b48','1','///');
+        - listitem [ref=e26]:
+          - link "에너지복지" [ref=e27] [cursor=pointer]:
+            - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=f327d718d67441bd885363010c59dae2','fab1f38178a54c769ba9e108e03610a0','에너지복지','90dbc9fc60e34f5984cd03bf94c19bed','1','///');
+        - listitem [ref=e28]:
+          - link "에너지효율개선" [ref=e29] [cursor=pointer]:
+            - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=553ef5b0dbb048da98a36cb9f8e75431','b54841d3f1bc45d7a0d95891152ef3ab','에너지효율개선','eb17578b0d1842f087af423653de5534','1','///');
+        - listitem [ref=e30]:
+          - link "에너지사회공헌" [ref=e31] [cursor=pointer]:
+            - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=36b19288c8ff4b4fb2105889d0726d4f','06c9fccac89f4002bfe5a3a2a022e0a9','에너지사회공헌','0032fd6be20f43b6aac6eea14b7abb29','1','///');
+        - listitem [ref=e32]:
+          - link "에너지협력사업" [ref=e33] [cursor=pointer]:
+            - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=df83fbbf5d994f1fba3e8a646677913a','3d1a60a47c2e414a826053a1c5785186','에너지협력사업','15dba4a83d9046129564acdfd6cd46f9','1','///');
+        - listitem [ref=e34]:
+          - link "에너지알리미" [ref=e35] [cursor=pointer]:
+            - /url: javascript:goTopMenu('/web/board/boardContentsListPage.do?board_id=27','672113adc97d450288f901f436f56c9b','에너지알리미','fd20fda33e39499a93bbec362155e145','1','///');
+        - listitem [ref=e36]:
+          - link "열린혁신(전자민원)" [ref=e37] [cursor=pointer]:
+            - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=b105b43c26234a5d893b4dfca394dde4','bb39a9e034e54357ad7a55f6d1ed8ac0','열린혁신(전자민원)','15129765fede455c8e340e96787bca01','1','///');
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - group "1 / 6" [ref=e43]:
+              - link "1777000550868.png" [ref=e44] [cursor=pointer]:
+                - /url: javascript:moveUrl('1', '')
+                - img "1777000550868.png" [ref=e45]
+            - group "2 / 6" [ref=e46]:
+              - link "1747708846725.jpg" [ref=e47] [cursor=pointer]:
+                - /url: javascript:moveUrl('1', '')
+                - img "1747708846725.jpg" [ref=e48]
+            - group "3 / 6" [ref=e49]:
+              - link "1750917971467.png" [ref=e50] [cursor=pointer]:
+                - /url: javascript:moveUrl('1', '')
+                - img "1750917971467.png" [ref=e51]
+            - group "4 / 6" [ref=e52]:
+              - link "1762323941376.png" [ref=e53] [cursor=pointer]:
+                - /url: javascript:goSubMenu('https://www.koref.or.kr/web/intropage/intropageShow.do?page_id=553ef5b0dbb048da98a36cb9f8e75431','eb17578b0d1842f087af423653de5534','1','///');
+                - img "1762323941376.png" [ref=e54]
+            - group "5 / 6" [ref=e55]:
+              - link "1747881404986.jpg" [ref=e56] [cursor=pointer]:
+                - /url: javascript:moveUrl('2', 'http://solar.koref.or.kr/apply/index.do')
+                - img "1747881404986.jpg" [ref=e57]
+            - group "6 / 6" [ref=e58]:
+              - link "1775526987943.png" [ref=e59] [cursor=pointer]:
+                - /url: javascript:moveUrl('2', 'https://www.ecothon.kr')
+                - img "1775526987943.png" [ref=e60]
+          - generic [ref=e61]:
+            - button "자동재생 멈춤" [ref=e62] [cursor=pointer]
+            - button "이전 슬라이드" [ref=e63] [cursor=pointer]
+            - generic [ref=e64]:
+              - generic [ref=e65]: "1"
+              - text: /
+              - generic [ref=e66]: "6"
+            - button "다음 슬라이드" [ref=e67] [cursor=pointer]
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "에너지복지란 에너지복지란? 정부와 민간기관이 제공하는 사회적 서비스" [ref=e72] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=f327d718d67441bd885363010c59dae2','90dbc9fc60e34f5984cd03bf94c19bed','1','///');
+              - img "에너지복지란" [ref=e74]
+              - generic [ref=e75]:
+                - term [ref=e76]: 에너지복지란?
+                - definition [ref=e77]:
+                  - text: 정부와 민간기관이 제공하는
+                  - text: 사회적 서비스
+          - listitem [ref=e78]:
+            - link "에너지효율개선사업 에너지효율개선사업 저소득층의 에너지빈곤 사용 환경 개선" [ref=e79] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=553ef5b0dbb048da98a36cb9f8e75431','eb17578b0d1842f087af423653de5534','1','///');
+              - img "에너지효율개선사업" [ref=e81]
+              - generic [ref=e82]:
+                - term [ref=e83]: 에너지효율개선사업
+                - definition [ref=e84]:
+                  - text: 저소득층의 에너지빈곤
+                  - text: 사용 환경 개선
+          - listitem [ref=e85]:
+            - link "에너지사회공헌 에너지사회공헌 에너지복지 확대와 신산업 육성" [ref=e86] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=36b19288c8ff4b4fb2105889d0726d4f','0032fd6be20f43b6aac6eea14b7abb29','1','///');
+              - img "에너지사회공헌" [ref=e88]
+              - generic [ref=e89]:
+                - term [ref=e90]: 에너지사회공헌
+                - definition [ref=e91]: 에너지복지 확대와 신산업 육성
+          - listitem [ref=e92]:
+            - link "에너지협력사업 에너지협력사업 WEC 한국위원회와 대외협력" [ref=e93] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=2abd22a4e8804e7d9219a18e0267231f','63f42904da9143c78293b66a49988d94','1','///');
+              - img "에너지협력사업" [ref=e95]
+              - generic [ref=e96]:
+                - term [ref=e97]: 에너지협력사업
+                - definition [ref=e98]: WEC 한국위원회와 대외협력
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - heading "공지사항" [level=3] [ref=e103]:
+            - link "공지사항" [ref=e104] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/board/boardContentsListPage.do?board_id=27','fd20fda33e39499a93bbec362155e145','1','///');
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - link "한국에너지재단 직원 사칭 피해 주의 안내" [ref=e107] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('27','7d72d546429144a3987edd32ae002639')
+            - listitem [ref=e108]:
+              - link "2026년 에너지효율개선사업 미선정지역 시공업체 선정 결과 안내" [ref=e109] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('27','73b8c61ab1244915b447b80fe357f803')
+            - listitem [ref=e110]:
+              - link "2026년 포스코인터내셔널 햇빛드림 에너지나눔 지원사업 대상자 모집 공고" [ref=e111] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('27','2463bfef404d4701b61694c4f2d7af4f')
+            - listitem [ref=e112]:
+              - link "[수정] 2026년 에너지효율개선사업 사회복지시설(냉방/난방) 접수 및 신청 안내" [ref=e113] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('27','c34fe7ca75ab469894acc5c747fb002c')
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - heading "입찰정보" [level=3] [ref=e116]:
+              - link "입찰정보" [ref=e117] [cursor=pointer]:
+                - /url: javascript:goSubMenu('/web/board/boardContentsListPage.do?board_id=28','75cfef9badc24788a145f8836d849803','1','///');
+            - heading [level=3]
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link "2026년 연탄가구 고효율 에너지 전환사업 관리시스템 유지보수 용역" [ref=e120] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('28','3bf5a1c5288741fbacb08f7b90ac6303')
+            - listitem [ref=e121]:
+              - link "2026년 에너지효율개선사업 벽걸이/스탠드에어컨(시설용) 납품 및 설치 업체" [ref=e122] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('28','a13b75e8616f491981553cd7062e98ec')
+            - listitem [ref=e123]:
+              - link "2026년 연탄가구 고효율 에너지 전환 사업 유선상담 및 의향조사 용역" [ref=e124] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('28','88690583fbc84ad6a3b94e124dc87fda')
+            - listitem [ref=e125]:
+              - link "2026년 연탄가구 고효율 에너지 전환 사업 유선상담 및 의향조사 용역(취소공고)" [ref=e126] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('28','d8c81ec459af4a05b09cf52287f07a92')
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - heading "보도자료" [level=3] [ref=e129]:
+              - link "보도자료" [ref=e130] [cursor=pointer]:
+                - /url: javascript:goSubMenu('/web/board/boardContentsListPage.do?board_id=29','ce13ce40f41348fdb7ce706b249e1de6','1','///');
+            - heading [level=3]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "[보도자료] 2025년도 공공기관 고객만족도 2년 연속 우수기관 선정" [ref=e133] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('29','6a7f1c2272cf4d52bf81a03c24ed4ebe')
+            - listitem [ref=e134]:
+              - link "[보도자료] 저소득층 에너지효율개선사업, 추경 통해 취약계층 지원 확대" [ref=e135] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('29','0d6cfa1584c044af8bb2c653f1d2a88e')
+            - listitem [ref=e136]:
+              - link "[보도자료] 한국에너지재단, 2026년 저소득층 에너지효율개선사업 시공업체 설명회 성료" [ref=e137] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('29','868ddb8b310748968a49963f89200758')
+            - listitem [ref=e138]:
+              - link "[보도자료] 에너지 취약시설 주거환경 개선 e-안심하우스 사업 성과공유" [ref=e139] [cursor=pointer]:
+                - /url: javascript:contentsViewMain('29','0feac320813b43078116aa4c43c01144')
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - heading "에너지재단 지원사업 현황" [level=2] [ref=e144]:
+            - text: 에너지재단
+            - text: 지원사업 현황
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - button "저소득층효율개선 사업통계" [ref=e147] [cursor=pointer]:
+                - text: 저소득층효율개선
+                - text: 사업통계
+            - listitem [ref=e148]:
+              - button "민간지정기부금 사업통계" [ref=e149] [cursor=pointer]:
+                - text: 민간지정기부금
+                - text: 사업통계
+        - generic [ref=e150]:
+          - generic:
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - term [ref=e153]: 지원금액(단위/원)
+                - definition [ref=e154]: 402,923,207,717
+              - generic [ref=e155]:
+                - term [ref=e156]: 지원건수
+                - definition [ref=e157]: 311,039
+            - generic [ref=e159]:
+              - img "지도" [ref=e160]
+              - list:
+                - listitem:
+                  - img "강원지역" [ref=e161]
+                  - button "강원지역 40,554" [ref=e162] [cursor=pointer]:
+                    - strong [ref=e163]: 강원지역 40,554
+                - listitem:
+                  - img "서울" [ref=e164]
+                  - button "서울 85,387" [ref=e165] [cursor=pointer]:
+                    - strong [ref=e166]: 서울 85,387
+                - listitem:
+                  - img "수도권지역" [ref=e167]
+                  - button "수도권지역 119,472" [ref=e168] [cursor=pointer]:
+                    - strong [ref=e169]: 수도권지역 119,472
+                - listitem:
+                  - img "충청지역" [ref=e170]
+                  - button "충청지역 77,312" [ref=e171] [cursor=pointer]:
+                    - strong [ref=e172]: 충청지역 77,312
+                - listitem:
+                  - img "경상지역" [ref=e173]
+                  - button "경상지역 232,524" [ref=e174] [cursor=pointer]:
+                    - strong [ref=e175]: 경상지역 232,524
+                - listitem:
+                  - img "전라지역" [ref=e176]
+                  - button "전라지역 128,280" [ref=e177] [cursor=pointer]:
+                    - strong [ref=e178]: 전라지역 128,280
+                - listitem:
+                  - img "제주지역" [ref=e179]
+                  - button "제주지역 7,669" [ref=e180] [cursor=pointer]:
+                    - strong [ref=e181]: 제주지역 7,669
+              - generic:
+                - link "강원지역":
+                  - /url: "#map01"
+                - link "서울":
+                  - /url: "#map02"
+                - link "수도권지역":
+                  - /url: "#map03"
+                - link "충청지역":
+                  - /url: "#map04"
+                - link "경상지역":
+                  - /url: "#map05"
+                - link "전라지역":
+                  - /url: "#map06"
+                - link "제주지역":
+                  - /url: "#map07"
+      - generic [ref=e183]:
+        - heading "갤러리&영상" [level=2] [ref=e185]
+        - generic [ref=e186]:
+          - iframe [ref=e189]:
+            - generic [active] [ref=f35e1]:
+              - generic "YouTube 동영상 플레이어" [ref=f35e3]
+              - generic [ref=f35e5]:
+                - generic:
+                  - generic:
+                    - button "동영상 재생" [ref=f35e10] [cursor=pointer]
+                    - button "재생 컨트롤 숨기기" [ref=f35e12] [cursor=pointer]
+                    - generic [ref=f35e14]:
+                      - generic [ref=f35e19]:
+                        - generic [ref=f35e20]:
+                          - link "'나누는 에너지 복지, 누리는 행복 에너지' 한국에너지재단 홍보 영상" [ref=f35e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=Rc13XB522Qw
+                          - link "한국에너지재단" [ref=f35e22] [cursor=pointer]:
+                            - /url: /channel/UC9lJu8o-o8uB3Qvf4Pu-toQ
+                            - generic [ref=f35e23]: 한국에너지재단
+                        - generic [ref=f35e24]:
+                          - button [ref=f35e25] [cursor=pointer]
+                          - generic [ref=f35e27]:
+                            - generic: 한국에너지재단
+                            - generic: 구독자 214명
+                      - generic [ref=f35e28]:
+                        - button "공유" [ref=f35e31] [cursor=pointer]:
+                          - generic [ref=f35e35]:
+                            - img
+                        - link "YouTube에서 보기" [ref=f35e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=Rc13XB522Qw
+                          - generic [ref=f35e45]:
+                            - text: "다음에서 보기:"
+                            - img [ref=f35e47]:
+                              - generic [ref=f35e49]:
+                                - img
+          - generic [ref=e191]:
+            - button "사회공헌사업 홍보영상" [ref=e192] [cursor=pointer]:
+              - img "사회공헌사업 홍보영상" [ref=e193]
+            - generic "사회공헌사업 홍보영상" [ref=e194]
+        - list [ref=e197]:
+          - listitem [ref=e198]:
+            - link "한국에너지재단 - 한국노인인력개발원 업무협약 체결 한국에너지재단 - 한국노인인력개발원 업무협약 체결" [ref=e199] [cursor=pointer]:
+              - /url: javascript:contentsViewMain('30','28ce9722246e49e8b948a4aafec1d26c')
+              - img "한국에너지재단 - 한국노인인력개발원 업무협약 체결" [ref=e201]
+              - generic [ref=e202]: 한국에너지재단 - 한국노인인력개발원 업무협약 체결
+          - listitem [ref=e203]:
+            - link "한국에너지재단 - 자동차손해배상진흥원 업무협약 체결 한국에너지재단 - 자동차손해배상진흥원 업무협약 체결" [ref=e204] [cursor=pointer]:
+              - /url: javascript:contentsViewMain('30','cb377fb6e9744db2bd802b0a3e7015d3')
+              - img "한국에너지재단 - 자동차손해배상진흥원 업무협약 체결" [ref=e206]
+              - generic [ref=e207]: 한국에너지재단 - 자동차손해배상진흥원 업무협약 체결
+          - listitem [ref=e208]:
+            - link "한국에너지재단-한국에너지공단, 에너지 취약계층을 위한 원스톱 에너지지원체계 업무협약 체결 한국에너지재단-한국에너지공단, 에너지 취약계층을 위한 원스톱 에너지지원체계 업무협약 체결" [ref=e209] [cursor=pointer]:
+              - /url: javascript:contentsViewMain('30','0705ae8b066f4bcfa3f318b0f43989bc')
+              - img "한국에너지재단-한국에너지공단, 에너지 취약계층을 위한 원스톱 에너지지원체계 업무협약 체결" [ref=e211]
+              - generic [ref=e212]: 한국에너지재단-한국에너지공단, 에너지 취약계층을 위한 원스톱 에너지지원체계 업무협약 체결
+          - listitem [ref=e213]:
+            - link "한국에너지재단 - 한국가스공사, 취약계층 고효율 가스보일러 지원 업무 협약식 진행 한국에너지재단 - 한국가스공사, 취약계층 고효율 가스보일러 지원 업무 협약식 진행" [ref=e214] [cursor=pointer]:
+              - /url: javascript:contentsViewMain('30','bd4ab4df13fc4d71b5a1ddd56fdcfec2')
+              - img "한국에너지재단 - 한국가스공사, 취약계층 고효율 가스보일러 지원 업무 협약식 진행" [ref=e216]
+              - generic [ref=e217]: 한국에너지재단 - 한국가스공사, 취약계층 고효율 가스보일러 지원 업무 협약식 진행
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - heading "기금 출연 및 참여기관" [level=2] [ref=e221]
+          - paragraph [ref=e222]:
+            - text: 한국에너지재단과 함께하는 기관 및
+            - text: 기업들을 소개합니다.
+            - text: (클릭하시면 해당 사이트로 이동합니다.)
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - link "한전kps" [ref=e226] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.kps.co.kr');
+              - img "한전kps" [ref=e227]
+          - listitem [ref=e228]:
+            - link "현대오일뱅크1%나눔재단" [ref=e229] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.oilbanknanum.or.kr/');
+              - img "현대오일뱅크1%나눔재단" [ref=e230]
+          - listitem [ref=e231]:
+            - link "전력거래소" [ref=e232] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.kpx.or.kr');
+              - img "전력거래소" [ref=e233]
+          - listitem [ref=e234]:
+            - link "한국수력원자력" [ref=e235] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.khnp.co.kr');
+              - img "한국수력원자력" [ref=e236]
+          - listitem [ref=e237]:
+            - link "Knoc" [ref=e238] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.knoc.co.kr');
+              - img "Knoc" [ref=e239]
+          - listitem [ref=e240]:
+            - link "한국동서발전" [ref=e241] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.ewp.co.kr');
+              - img "한국동서발전" [ref=e242]
+          - listitem [ref=e243]:
+            - link "우정사업본부" [ref=e244] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.koreapost.go.kr');
+              - img "우정사업본부" [ref=e245]
+          - listitem [ref=e246]:
+            - link "한국남부발전" [ref=e247] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.kospo.co.kr');
+              - img "한국남부발전" [ref=e248]
+          - listitem [ref=e249]:
+            - link "GS칼텍스" [ref=e250] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.gscaltex.com');
+              - img "GS칼텍스" [ref=e251]
+          - listitem [ref=e252]:
+            - link "한국중부발전" [ref=e253] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.komipo.co.kr');
+              - img "한국중부발전" [ref=e254]
+          - listitem [ref=e255]:
+            - link "아람코" [ref=e256] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'https://korea.aramco.com/en');
+              - img "아람코" [ref=e257]
+          - listitem [ref=e258]:
+            - link "전기안전공사" [ref=e259] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.kesco.or.kr');
+              - img "전기안전공사" [ref=e260]
+          - listitem [ref=e261]:
+            - link "한국도시가스협회" [ref=e262] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.citygas.or.kr');
+              - img "한국도시가스협회" [ref=e263]
+          - listitem [ref=e264]:
+            - link "한국지역난방공사" [ref=e265] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.kdhc.co.kr');
+              - img "한국지역난방공사" [ref=e266]
+          - listitem [ref=e267]:
+            - link "한국남동발전" [ref=e268] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.koenergy.kr');
+              - img "한국남동발전" [ref=e269]
+          - listitem [ref=e270]:
+            - link "SK energy" [ref=e271] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.skenergy.com');
+              - img "SK energy" [ref=e272]
+          - listitem [ref=e273]:
+            - link "S-OIL" [ref=e274] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.s-oil.com');
+              - img "S-OIL" [ref=e275]
+          - listitem [ref=e276]:
+            - link "한국도로공사" [ref=e277] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.ex.co.kr');
+              - img "한국도로공사" [ref=e278]
+          - listitem [ref=e279]:
+            - link "한국가스공사" [ref=e280] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.kogas.or.kr');
+              - img "한국가스공사" [ref=e281]
+          - listitem [ref=e282]:
+            - link "한국광해광업공단" [ref=e283] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'https://www.komir.or.kr/');
+              - img "한국광해광업공단" [ref=e284]
+          - listitem [ref=e285]:
+            - link "한국서부발전" [ref=e286] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://www.iwest.co.kr');
+              - img "한국서부발전" [ref=e287]
+          - listitem [ref=e288]:
+            - link "한국전력공사" [ref=e289] [cursor=pointer]:
+              - /url: javascript:moveUrl('2', 'http://home.kepco.co.kr');
+              - img "한국전력공사" [ref=e290]
+      - iframe [ref=e292]:
+        - generic [ref=f36e2]:
+          - heading "대한민국 정책브리핑" [level=3] [ref=f36e3]:
+            - link "대한민국 정책브리핑" [ref=f36e4] [cursor=pointer]:
+              - /url: https://www.korea.kr/main.do?pWise=widgetMain&pWiseWid=koref
+              - generic [ref=f36e5]: 대한민국 정책브리핑
+          - list [ref=f36e7]:
+            - listitem [ref=f36e8]:
+              - link "과기정통부, 국산 AI반도체 해외실증 전폭 지원…8개 컨소시엄 선정 2026.05.15 과학기술정보통신부" [ref=f36e9] [cursor=pointer]:
+                - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964431&pWise=widget&pWiseWid=koref
+                - generic [ref=f36e11]:
+                  - strong [ref=f36e12]: 과기정통부, 국산 AI반도체 해외실증 전폭 지원…8개 컨소시엄 선정
+                  - generic [ref=f36e13]:
+                    - generic [ref=f36e14]: 2026.05.15
+                    - generic [ref=f36e15]: 과학기술정보통신부
+            - listitem [ref=f36e16]:
+              - link "'629돌 세종대왕 나신 날'…\"한글날 지정 100주년, 뜻깊은 해\" 2026.05.15 문화체육관광부" [ref=f36e17] [cursor=pointer]:
+                - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964458&pWise=widget&pWiseWid=koref
+                - generic [ref=f36e19]:
+                  - strong [ref=f36e20]: "'629돌 세종대왕 나신 날'…\"한글날 지정 100주년, 뜻깊은 해\""
+                  - generic [ref=f36e21]:
+                    - generic [ref=f36e22]: 2026.05.15
+                    - generic [ref=f36e23]: 문화체육관광부
+            - listitem [ref=f36e24]:
+              - link "전세사기 사전 예방…국토부, '안전계약 컨설팅' 사업 시행 2026.05.15 국토교통부" [ref=f36e25] [cursor=pointer]:
+                - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964446&pWise=widget&pWiseWid=koref
+                - generic [ref=f36e27]:
+                  - strong [ref=f36e28]: 전세사기 사전 예방…국토부, '안전계약 컨설팅' 사업 시행
+                  - generic [ref=f36e29]:
+                    - generic [ref=f36e30]: 2026.05.15
+                    - generic [ref=f36e31]: 국토교통부
+            - listitem [ref=f36e32]:
+              - link "'지진조기경보 더 빨라진다'…진앙 인근 주민에 3~5초 내 경보 발령 2026.05.15 기상청" [ref=f36e33] [cursor=pointer]:
+                - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964461&pWise=widget&pWiseWid=koref
+                - generic [ref=f36e35]:
+                  - strong [ref=f36e36]: "'지진조기경보 더 빨라진다'…진앙 인근 주민에 3~5초 내 경보 발령"
+                  - generic [ref=f36e37]:
+                    - generic [ref=f36e38]: 2026.05.15
+                    - generic [ref=f36e39]: 기상청
+            - listitem [ref=f36e40]:
+              - link "'오월, 다시 광장을 품다'…제46주년 5·18민주화운동 기념식 거행 2026.05.15 국가보훈부" [ref=f36e41] [cursor=pointer]:
+                - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964448&pWise=widget&pWiseWid=koref
+                - generic [ref=f36e43]:
+                  - strong [ref=f36e44]: "'오월, 다시 광장을 품다'…제46주년 5·18민주화운동 기념식 거행"
+                  - generic [ref=f36e45]:
+                    - generic [ref=f36e46]: 2026.05.15
+                    - generic [ref=f36e47]: 국가보훈부
+          - link "정책브리핑 뉴스 더보기" [ref=f36e49] [cursor=pointer]:
+            - /url: https://www.korea.kr/main.do?pWise=widgetMain&pWiseWid=koref
+            - generic [ref=f36e50]: 정책브리핑 뉴스
+            - text: 더보기
+      - list [ref=e295]:
+        - listitem [ref=e296]:
+          - link "사이버신문고 사이버신문고" [ref=e297] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=81f165f47e3f4118bca8243f1bd91a5a','1c87c24c4e394e89b8ecfb182e18d610 ','1','///');
+            - img "사이버신문고" [ref=e299]
+            - strong [ref=e300]: 사이버신문고
+        - listitem [ref=e301]:
+          - link "복지·보조금 부정신고센터 복지·보조금 부정신고센터" [ref=e302] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=43e1dea126994c9cbe8c537fc6015891','40841c709f0b4999b5bc57381e9375ea','1','///');
+            - img "복지·보조금 부정신고센터" [ref=e304]
+            - strong [ref=e305]:
+              - text: 복지·보조금
+              - text: 부정신고센터
+        - listitem [ref=e306]:
+          - link "청탁금지법안내 청탁금지법안내" [ref=e307] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=f82550f9b4534cc5ac4aa345f6cefe4c','583f3668196449afa6dab2a24da9912b','1','///');
+            - img "청탁금지법안내" [ref=e309]
+            - strong [ref=e310]: 청탁금지법안내
+        - listitem [ref=e311]:
+          - link "윤리인권자료실 윤리인권자료실" [ref=e312] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/board/boardContentsListPage.do?board_id=32','f4f400fd006f4930b77dfa81cf8d0a24','1','///');
+            - img "윤리인권자료실" [ref=e314]
+            - strong [ref=e315]: 윤리인권자료실
+    - generic [ref=e317]:
+      - generic [ref=e318]:
+        - list [ref=e320]:
+          - listitem [ref=e321]:
+            - link "이용약관" [ref=e322] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/infopage/clauseShow.do','66532170e21f4bd28b8f54da5c1b4ce5','1','///');
+          - listitem [ref=e323]:
+            - link "개인정보처리방침" [ref=e324] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/infopage/privacyShow.do','4c5810db9ca9477796162f004f1a0b16','1','///');
+          - listitem [ref=e325]:
+            - link "영상정보처리기기운영관리방침" [ref=e326] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/infopage/imgInfoShow.do','f73d3811b27a4ce39a40042befabd7af','1','///');
+        - list [ref=e328]:
+          - listitem [ref=e329]:
+            - link "찾아오시는 길" [ref=e330] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=8042f3dc855b4216ad30df5169b136e9','b3695e6983bf4816a8d0252c1cb8ee67','1','///');
+          - listitem [ref=e331]:
+            - link "재단대표번호 02-6913-2121" [ref=e332] [cursor=pointer]:
+              - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=2223e4c2f52644f0b390ae69606f6fa2', 'd54c4ac42b75434c9d9cf7a1af4dfe5f', '1','///');
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - link "에너지효율개선사업 관리시스템" [ref=e335] [cursor=pointer]:
+            - /url: http://www.kew.or.kr
+          - link "비상임이사 정보 공유" [ref=e336] [cursor=pointer]:
+            - /url: /web/board/boardContentsListPagePopup.do?board_id=43
+        - generic [ref=e337]:
+          - term [ref=e338]: 한국에너지재단
+          - definition [ref=e339]:
+            - generic [ref=e340]: 우) 04337 서울특별시 용산구 신흥로 152
+            - generic [ref=e341]: "FAX : 02-6913-2119"
+            - generic [ref=e342]: "사업자등록번호 : 107-82-11478"
+            - generic [ref=e343]: "이사장 : 김 광 식"
+        - generic [ref=e344]:
+          - text: 본 페이지에 게시된 이메일 주소가 자동수집 되는것을 거부하며 이를 위반시 정보통신법에 의해 처벌됨을 유념하시기 바랍니다.
+          - text: Copyright 2010. 한국에너지재단 All rights reserved.

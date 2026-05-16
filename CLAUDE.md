@@ -14,6 +14,16 @@
 4. **정부 슬로건/로고/캐릭터 사용 금지** — "민생에 플러스" 등 정부 표어 X
 5. **사용자 검증 후에만 푸시** — 자동 푸시 X, 반드시 사람 승인
 
+### ⚠️ 콘텐츠 오배치 방지 규칙 (2026-05 버그 재발 방지)
+
+> **배경**: 홈 카드 dummy 숫자 ID와 manifest PoliciesById 숫자 ID가 불일치해 클릭 시 엉뚱한 정책이 표시되는 치명적 버그가 발생했다. 아래 규칙을 반드시 준수할 것.
+
+6. **`app/page.tsx` FEATURED 배열에 slug + badge 만 추가** — title·org·amount·deadline 직접 하드코딩 절대 금지. 모든 정책 데이터는 `PoliciesBySlug[slug]` 에서 자동 조회됨.
+7. **`app/policy/[id]/[spoke]/SpokeClient.tsx` 직접 수정 금지** — spoke 콘텐츠·매핑을 이 파일에 추가하지 말 것. 새 spoke 추가 시 반드시 `data/spokes/registry.ts` 에만 등록.
+8. **spoke 추가 시 `data/spokes/registry.ts` 업데이트 필수** — 새 정책에 spoke 페이지를 만들 때: ① `app/policy/[id]/[spoke]/content/{policySlug}/{spokeSlug}.tsx` 생성 → ② `registry.ts` import 추가 → ③ `SpokesRegistry` 에 등록. 이 세 단계 중 하나라도 빠지면 spoke 페이지가 404.
+9. **`related` 필드에 숫자 ID 사용 금지** — `data/policies/*.ts` 의 `related` 배열에는 반드시 slug 문자열 사용. 예: `{ id: 'youth-tomorrow-savings', title: '청년내일저축계좌' }`. 숫자 id 사용 시 관련 정책 링크가 잘못된 페이지로 이동.
+10. **manifest 단일 소스 원칙** — 정책 ID·slug·title 등 메타데이터는 반드시 `data/policies/manifest.ts` 에서 조회. 앱 코드(page.tsx, Client 컴포넌트 등)에 정책명·금액·부처명 하드코딩 금지.
+
 ---
 
 ## 2. 키워드 → 페이지 자동 워크플로우

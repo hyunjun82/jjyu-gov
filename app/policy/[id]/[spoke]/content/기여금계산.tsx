@@ -1,52 +1,85 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
-import type { SpokeData } from '../page';
+import type { SpokeData } from '../SpokeClient';
 
-const RATE = 0.045;
-
-const INCOME_TIERS = [
-  { key: 'a', label: '2,400만원 이하', monthly: 33000, rate: '6.0%', note: '최고 구간' },
-  { key: 'b', label: '2,400~3,600만원', monthly: 29000, rate: '4.6%', note: '' },
-  { key: 'c', label: '3,600~4,800만원', monthly: 25000, rate: '3.7%', note: '' },
-  { key: 'd', label: '4,800~6,000만원', monthly: 21000, rate: '3.0%', note: '' },
-  { key: 'e', label: '6,000~7,500만원', monthly: 0, rate: '없음', note: '비과세만' },
+/* ── 유형별 기여금 데이터 ── */
+const TIERS = [
+  {
+    key: 'A',
+    label: '우대형 A — 소상공인 (연매출 1억 이하 + 중위 150%)',
+    rate: 12,
+    monthly: 60000,
+    note: '월 50만 × 12%',
+  },
+  {
+    key: 'B',
+    label: '우대형 B — 재직자 (총급여 3,600만원 이하 + 중위 150%)',
+    rate: 12,
+    monthly: 60000,
+    note: '월 50만 × 12%',
+  },
+  {
+    key: 'C',
+    label: '우대형 C — 신규취업 (2025년 최초취업 + 중기 + 6,000만원 이하)',
+    rate: 12,
+    monthly: 60000,
+    note: '월 50만 × 12%',
+  },
+  {
+    key: 'D',
+    label: '우대형 D — 중소기업 29개월 이상 재직',
+    rate: 12,
+    monthly: 60000,
+    note: '월 50만 × 12%',
+  },
+  {
+    key: 'E',
+    label: '일반형 A — 소상공인 (연매출 3억 이하 + 중위 200%)',
+    rate: 6,
+    monthly: 30000,
+    note: '월 50만 × 6%',
+  },
+  {
+    key: 'F',
+    label: '일반형 B — 일반 (총급여 6,000만원 이하 + 중위 200%)',
+    rate: 6,
+    monthly: 30000,
+    note: '월 50만 × 6%',
+  },
+  {
+    key: 'G',
+    label: '비과세만 — 총급여 6,000만~7,500만 + 중위 200%',
+    rate: 0,
+    monthly: 0,
+    note: '이자소득세 면제만',
+  },
 ];
 
-function calcMaturity(monthlyDeposit: number, tierIdx: number) {
-  const months = 60;
-  const contrib = INCOME_TIERS[tierIdx].monthly;
-  const totalDeposit = monthlyDeposit * months;
-  const interest = Math.round(totalDeposit * RATE * (months / 24));
-  const totalContrib = contrib * months;
-  const contribInterest = Math.round(totalContrib * RATE * (months / 48));
-  return { totalDeposit, interest, totalContrib, contribInterest, total: totalDeposit + interest + totalContrib + contribInterest };
-}
-
 function Content() {
+  const [selectedKey, setSelectedKey] = useState<string>('A');
   const [deposit, setDeposit] = useState(500000);
-  const [tierIdx, setTierIdx] = useState(0);
-  const [showResult, setShowResult] = useState(false);
 
-  const result = calcMaturity(deposit, tierIdx);
-  const tier = INCOME_TIERS[tierIdx];
+  const tier = TIERS.find((t) => t.key === selectedKey) ?? TIERS[0];
+  const monthlyContrib = Math.round((deposit * tier.rate) / 100);
+  const total3y = monthlyContrib * 36;
+  const totalDeposit3y = deposit * 36;
 
   return (
     <>
       <div className="answer-box">
         <p>
-          소득이 낮을수록 기여금 비율이 높습니다.
-          총급여 2,400만원 이하면 월 3.3만원, 5년간 약 198만원을 정부가 얹어줍니다.
-          6,000만원 넘으면 기여금 없이 비과세만 적용됩니다.
+          청년미래적금 정부기여금은 월 납입금의 6% 또는 12%입니다.
+          월 50만원 납입 기준, 일반형(6%)은 월 3만원·3년 총 108만원, 우대형(12%)은 월 6만원·3년 총 216만원을 정부가 지급합니다.
+          총급여 6,000만~7,500만원 구간은 비과세 혜택만 적용됩니다.
         </p>
       </div>
 
       {/* ── 1. 기여금 계산기 ── */}
       <section className="detail-card" id="calculator">
-        <h2 className="detail-card-head">내 소득이면 5년 후 얼마 받나?</h2>
+        <h2 className="detail-card-head">내 유형이면 3년간 기여금 얼마?</h2>
         <div className="detail-card-body">
           <p style={{ fontSize: 13, color: 'var(--text-muted)', marginBottom: 16 }}>
-            월 납입액과 소득구간을 선택하면 5년 만기 수령액을 계산합니다.
+            가입 유형과 월 납입액을 선택하면 3년 기여금 합계를 계산합니다.
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, marginBottom: 20 }}>
@@ -56,120 +89,164 @@ function Content() {
               </label>
               <select
                 value={deposit}
-                onChange={(e) => { setDeposit(Number(e.target.value)); setShowResult(false); }}
+                onChange={(e) => setDeposit(Number(e.target.value))}
                 style={{ width: '100%', padding: '10px 12px', border: '1px solid var(--border)', borderRadius: 'var(--radius-xs)', fontSize: 14 }}
               >
-                {[100000,200000,300000,400000,500000,600000,700000].map(v => (
-                  <option key={v} value={v}>{(v/10000)}만원</option>
+                {[100000, 200000, 300000, 400000, 500000].map((v) => (
+                  <option key={v} value={v}>
+                    {v / 10000}만원
+                  </option>
                 ))}
               </select>
             </div>
             <div>
               <label style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-muted)', display: 'block', marginBottom: 6 }}>
-                총급여 (세전)
+                가입 유형
               </label>
               <select
-                value={tierIdx}
-                onChange={(e) => { setTierIdx(Number(e.target.value)); setShowResult(false); }}
+                value={selectedKey}
+                onChange={(e) => setSelectedKey(e.target.value)}
                 style={{ width: '100%', padding: '10px 12px', border: '1px solid var(--border)', borderRadius: 'var(--radius-xs)', fontSize: 14 }}
               >
-                {INCOME_TIERS.map((t, i) => (
-                  <option key={i} value={i}>{t.label}</option>
+                {TIERS.map((t) => (
+                  <option key={t.key} value={t.key}>
+                    {t.rate > 0 ? `${t.rate}% — ${t.key}` : '비과세만'}
+                  </option>
                 ))}
               </select>
             </div>
           </div>
 
-          <button onClick={() => setShowResult(true)} className="btn-cta" style={{ width: '100%', marginBottom: 20 }}>
-            만기 수령액 계산하기
-          </button>
-
-          {showResult && (
-            <div style={{ borderTop: '2px solid var(--border)', paddingTop: 20 }}>
-              {/* 총 수령액 */}
-              <div style={{ textAlign: 'center', padding: '20px 0', background: 'var(--success-bg)', borderRadius: 'var(--radius-sm)' }}>
-                <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>5년 만기 예상 수령액</div>
-                <div style={{ fontSize: 32, fontWeight: 800, color: 'var(--success)', marginTop: 4 }}>
-                  약 {(result.total / 10000).toFixed(0)}만원
-                </div>
-              </div>
-
-              {/* 상세 내역 */}
-              <table className="mini-table" style={{ marginTop: 16 }}>
-                <caption className="sr-only">수령액 상세 내역</caption>
-                <tbody>
-                  <tr><td style={{fontWeight:600}}>내가 넣는 돈</td><td>{(result.totalDeposit / 10000).toFixed(0)}만원 (월 {(deposit/10000)}만 × 60개월)</td></tr>
-                  <tr><td style={{fontWeight:600}}>이자 수익</td><td>약 {(result.interest / 10000).toFixed(0)}만원 (연 4.5% 기준)</td></tr>
-                  <tr><td style={{fontWeight:600}}>정부기여금</td><td>{tier.monthly > 0 ? `${(result.totalContrib / 10000).toFixed(0)}만원 (월 ${(tier.monthly/10000).toFixed(1)}만 × 60개월)` : '해당 없음 (비과세만)'}</td></tr>
-                  <tr><td style={{fontWeight:600}}>기여금 이자</td><td>약 {(result.contribInterest / 10000).toFixed(0)}만원</td></tr>
-                  <tr><td style={{fontWeight:600}}>세금</td><td className="text-success" style={{fontWeight:600}}>0원 (비과세)</td></tr>
-                </tbody>
-              </table>
-
-              <p style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 12, textAlign: 'center' }}>
-                ※ 기본금리 4.5% 기준. 우대금리 포함 시 수령액 증가. 실제 금액은 은행에 따라 다름.
-              </p>
+          {/* 결과 */}
+          <div style={{ background: 'var(--success-bg)', borderRadius: 'var(--radius-sm)', padding: '20px', textAlign: 'center' }}>
+            <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>3년간 정부 기여금 합계</div>
+            <div style={{ fontSize: 32, fontWeight: 800, color: tier.rate > 0 ? 'var(--success)' : 'var(--text-muted)', marginTop: 4 }}>
+              {tier.rate > 0 ? `${(total3y / 10000).toFixed(0)}만원` : '0원 (비과세만)'}
             </div>
-          )}
+            <div style={{ fontSize: 14, color: 'var(--text-secondary)', marginTop: 8 }}>
+              {tier.rate > 0
+                ? `월 ${(monthlyContrib / 10000).toFixed(1)}만원 × 36개월 | 내 납입 총액 ${(totalDeposit3y / 10000).toFixed(0)}만원`
+                : '이자소득세 면제만 적용됩니다'}
+            </div>
+          </div>
+
+          <p style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 12, textAlign: 'center' }}>
+            ※ 월 납입금 기준 비율 적용. 실제 금액은 금융기관에 따라 다를 수 있습니다.
+          </p>
         </div>
       </section>
 
       <div className="ad-slot">광고 영역</div>
 
-      {/* ── 2. 소득구간별 기여금표 ── */}
+      {/* ── 2. 유형별 기여금표 ── */}
       <section className="detail-card" id="table">
-        <h2 className="detail-card-head">소득구간별 기여금, 정확히 얼마인가?</h2>
+        <h2 className="detail-card-head">유형별 기여금, 월 50만원 기준</h2>
         <div className="detail-card-body" style={{ padding: 0 }}>
           <div style={{ overflowX: 'auto' }}>
             <table className="compare-table">
-              <caption className="sr-only">소득구간별 정부기여금</caption>
+              <caption className="sr-only">청년미래적금 가입 유형별 기여금</caption>
               <thead>
                 <tr>
-                  <th scope="col">총급여</th>
-                  <th scope="col">매칭비율</th>
+                  <th scope="col">유형</th>
+                  <th scope="col">기여금 비율</th>
                   <th scope="col">월 기여금</th>
-                  <th scope="col" className="highlight">5년 합계</th>
+                  <th scope="col" className="highlight">3년 합계</th>
                 </tr>
               </thead>
               <tbody>
-                {INCOME_TIERS.map((t, i) => (
-                  <tr key={i}>
-                    <td className="compare-label">{t.label}</td>
-                    <td>{t.rate}</td>
-                    <td>{t.monthly > 0 ? `${(t.monthly/10000).toFixed(1)}만원` : '0원'}</td>
-                    <td style={{ fontWeight: 700 }}>{t.monthly > 0 ? `${(t.monthly * 60 / 10000).toFixed(0)}만원` : '비과세만'}</td>
-                  </tr>
-                ))}
+                <tr>
+                  <td className="compare-label">우대형 (4가지 중 1가지)</td>
+                  <td style={{ fontWeight: 700, color: 'var(--success)' }}>12%</td>
+                  <td>6만원</td>
+                  <td style={{ fontWeight: 700 }}>216만원</td>
+                </tr>
+                <tr>
+                  <td className="compare-label">일반형 (소상공인/일반 근로자)</td>
+                  <td style={{ fontWeight: 700 }}>6%</td>
+                  <td>3만원</td>
+                  <td style={{ fontWeight: 700 }}>108만원</td>
+                </tr>
+                <tr>
+                  <td className="compare-label">비과세만 (총급여 6,000만~7,500만)</td>
+                  <td>없음</td>
+                  <td>0원</td>
+                  <td>비과세만</td>
+                </tr>
               </tbody>
             </table>
           </div>
           <div style={{ padding: '12px 20px', fontSize: 12, color: 'var(--text-muted)', borderTop: '1px solid var(--border-light)' }}>
-            ※ 2025년 1월 개정 기준. 월 70만원 최대 납입 시.
+            ※ 월 50만원 최대 납입 기준. 출처: 금융위원회 카드뉴스 2026.04.24
           </div>
         </div>
       </section>
 
-      {/* ── 3. 유지심사 ── */}
-      <section className="detail-card" id="review">
-        <h2 className="detail-card-head">연봉 오르면 기여금이 줄어드나?</h2>
-        <div className="detail-card-body">
-          <div className="answer-box-inline">
-            네. 매년 유지심사가 있습니다.
-            소득 구간이 올라가면 기여금 비율이 낮아지고, 6,000만원 초과 시 기여금 0원입니다.
-            단, 비과세는 7,500만원까지 유지됩니다.
+      {/* ── 3. 우대형 vs 일반형 자격 상세 ── */}
+      <section className="detail-card" id="eligibility">
+        <h2 className="detail-card-head">우대형(12%) vs 일반형(6%) 자격 조건</h2>
+        <div className="detail-card-body" style={{ padding: 0 }}>
+          <div style={{ overflowX: 'auto' }}>
+            <table className="compare-table">
+              <caption className="sr-only">우대형 일반형 자격 조건 상세</caption>
+              <thead>
+                <tr>
+                  <th scope="col">구분</th>
+                  <th scope="col">대상</th>
+                  <th scope="col">소득 조건</th>
+                  <th scope="col">가구소득</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowSpan={4} style={{ fontWeight: 700, color: 'var(--success)', verticalAlign: 'middle' }}>
+                    우대형 12%
+                  </td>
+                  <td>소상공인</td>
+                  <td>연매출 1억원 이하</td>
+                  <td>중위 150% 이하</td>
+                </tr>
+                <tr>
+                  <td>재직자</td>
+                  <td>총급여 3,600만원 이하</td>
+                  <td>중위 150% 이하</td>
+                </tr>
+                <tr>
+                  <td>신규취업</td>
+                  <td>2025년 최초취업 + 중소기업 + 6,000만원 이하</td>
+                  <td>—</td>
+                </tr>
+                <tr>
+                  <td>중소기업 장기재직</td>
+                  <td>29개월 이상 재직</td>
+                  <td>—</td>
+                </tr>
+                <tr>
+                  <td rowSpan={2} style={{ fontWeight: 700, verticalAlign: 'middle' }}>
+                    일반형 6%
+                  </td>
+                  <td>소상공인</td>
+                  <td>연매출 3억원 이하</td>
+                  <td>중위 200% 이하</td>
+                </tr>
+                <tr>
+                  <td>일반 근로자</td>
+                  <td>총급여 6,000만원 이하</td>
+                  <td>중위 200% 이하</td>
+                </tr>
+                <tr>
+                  <td style={{ fontWeight: 700 }}>비과세만</td>
+                  <td>근로자</td>
+                  <td>총급여 6,000만~7,500만원</td>
+                  <td>중위 200% 이하</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <table className="mini-table">
-            <caption className="sr-only">유지심사 소득변동 시나리오</caption>
-            <thead><tr><th scope="col">상황</th><th scope="col">기여금</th><th scope="col">비과세</th></tr></thead>
-            <tbody>
-              <tr><td>소득 변동 없음</td><td className="text-success" style={{fontWeight:600}}>유지</td><td className="text-success" style={{fontWeight:600}}>유지</td></tr>
-              <tr><td>소득 증가 (구간 상승)</td><td style={{fontWeight:600}}>낮은 비율로 변경</td><td className="text-success" style={{fontWeight:600}}>유지</td></tr>
-              <tr><td>소득 6,000만원 초과</td><td className="text-danger" style={{fontWeight:600}}>0원</td><td className="text-success" style={{fontWeight:600}}>유지</td></tr>
-              <tr><td>소득 7,500만원 초과</td><td className="text-danger" style={{fontWeight:600}}>0원</td><td className="text-danger" style={{fontWeight:600}}>소멸</td></tr>
-            </tbody>
-          </table>
-          <p className="source-inline">
-            출처: <a href="https://ylaccount.kinfa.or.kr/ylt/step5" target="_blank" rel="noopener noreferrer">서민금융진흥원 유지심사</a>
+          <p className="source-inline" style={{ padding: '12px 16px' }}>
+            출처:{' '}
+            <a href="https://www.fsc.go.kr/no040101?cnId=3187" target="_blank" rel="noopener noreferrer">
+              금융위원회 카드뉴스 (2026.04.24)
+            </a>
           </p>
         </div>
       </section>
@@ -180,21 +257,47 @@ function Content() {
 }
 
 export const ContribSpokeContent: SpokeData = {
-  h1: '청년도약계좌 정부기여금, 내 소득이면 얼마 받나?',
+  h1: '청년미래적금 정부기여금, 6%·12% 내 소득이면 얼마?',
   breadcrumb: '기여금 계산',
-  description: '청년도약계좌 기여금 계산기. 소득구간·납입액별 5년 만기 수령액을 즉시 확인하세요.',
-  datePublished: '2026-02-15T09:00:00+09:00',
-  dateModified: '2026-03-20T09:00:00+09:00',
+  description: '청년미래적금 기여금 계산기. 우대형 12%·일반형 6%·비과세 유형별 자격과 3년 기여금 합계를 확인하세요.',
+  datePublished: '2026-04-24T09:00:00+09:00',
+  dateModified: '2026-05-13T09:00:00+09:00',
   Content,
   faqData: [
-    { q: '기여금은 매달 통장에 들어오나요?', a: '아닙니다. 매월 적립되지만 실제 입금은 만기 또는 해지 시 한 번에 받습니다.', source: '서민금융진흥원', sourceUrl: '/policy/1' },
-    { q: '40만원만 넣어도 기여금이 같다던데요?', a: '2024년까지는 맞았습니다. 2025년부터 매칭한도가 70만원으로 확대되어, 70만원 넣으면 3.3만원으로 늘어납니다. 40만원이면 2.4만원입니다.', source: '기여금 계산', sourceUrl: '/policy/1/기여금-계산#table' },
-    { q: '연봉 2,400만원이 세전인가요?', a: '세전 총급여 기준입니다. 원천징수영수증의 "총급여액"을 확인하세요.', source: '금융위원회', sourceUrl: '/policy/1#details' },
-    { q: '기여금에도 이자가 붙나요?', a: '네. 동일 금리가 적용됩니다. 기본금리 4.5% 기준 5년간 기여금 이자만 약 16만원 추가됩니다.', source: '금융위원회 보도자료', sourceUrl: '/policy/1' },
+    {
+      q: '기여금은 매달 통장에 들어오나요?',
+      a: '아닙니다. 매월 적립되어 만기 또는 특별 중도해지 시 한 번에 지급됩니다.',
+      source: '금융위원회 카드뉴스 (2026.04.24)',
+      sourceUrl: 'https://www.fsc.go.kr/no040101?cnId=3187',
+    },
+    {
+      q: '우대형과 일반형 중 어떻게 결정되나요?',
+      a: '가입 신청 시 제출한 소득·매출·재직 증빙 서류를 기준으로 금융기관이 판단합니다. 조건이 복수로 해당되면 가장 유리한 유형(우대형)이 적용됩니다.',
+      source: '금융위원회 카드뉴스 (2026.04.24)',
+      sourceUrl: 'https://www.fsc.go.kr/no040101?cnId=3187',
+    },
+    {
+      q: '연봉이 오르면 기여금 유형이 바뀌나요?',
+      a: '유지심사가 있을 수 있습니다. 소득 변동으로 자격 요건이 달라지면 기여금 비율이 조정될 수 있습니다.',
+      source: '금융위원회 카드뉴스 (2026.04.24)',
+      sourceUrl: 'https://www.fsc.go.kr/no040101?cnId=3187',
+    },
+    {
+      q: '비과세 구간이면 기여금이 아예 없나요?',
+      a: '총급여 6,000만~7,500만원 구간은 기여금 없이 이자소득세 면제만 적용됩니다.',
+      source: '금융위원회 카드뉴스 (2026.04.24)',
+      sourceUrl: 'https://www.fsc.go.kr/no040101?cnId=3187',
+    },
+    {
+      q: '월 50만원보다 적게 넣어도 기여금 비율은 같나요?',
+      a: '네. 기여금은 납입금의 6% 또는 12%이므로, 실제 납입액에 비율을 곱한 금액이 기여금이 됩니다.',
+      source: '금융위원회 카드뉴스 (2026.04.24)',
+      sourceUrl: 'https://www.fsc.go.kr/no040101?cnId=3187',
+    },
   ],
   sources: [
-    { name: '금융위원회 – 기여금 확대 보도자료', url: 'https://www.fsc.go.kr/no010101/83729' },
-    { name: '서민금융진흥원 – 상품안내', url: 'https://ylaccount.kinfa.or.kr/main' },
-    { name: '서민금융진흥원 – 유지심사', url: 'https://ylaccount.kinfa.or.kr/ylt/step5' },
+    { name: '금융위원회 카드뉴스 (2026.04.24)', url: 'https://www.fsc.go.kr/no040101?cnId=3187' },
+    { name: '금융위원회', url: 'https://www.fsc.go.kr' },
+    { name: '서민금융진흥원', url: 'https://www.kinfa.or.kr' },
   ],
 };

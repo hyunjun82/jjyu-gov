@@ -1,0 +1,215 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - term:
+      - strong: 바로가기 메뉴
+    - definition [ref=e3]:
+      - link "본문 바로가기":
+        - /url: "#bodyWrap"
+    - definition [ref=e4]:
+      - link "주메뉴 바로가기":
+        - /url: "#gnbWrap"
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "고객마당 이용에 불편함이 있으신가요? ... 브라우저 이용관련 공지사항 확인 GO" [ref=e9] [cursor=pointer]:
+        - /url: /cyb/heat/cmm/board/boardViewForm.do?menuCode=M020156&cntntsInnb=421
+        - img "고객마당 이용에 불편함이 있으신가요? ... 브라우저 이용관련 공지사항 확인 GO" [ref=e10]
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - heading "지역난방공사 행복마당" [level=1] [ref=e13]:
+            - generic [ref=e14] [cursor=pointer]: 지역난방공사 행복마당
+          - list [ref=e16]:
+            - listitem:
+              - generic [ref=e17] [cursor=pointer]: 열
+            - listitem [ref=e18]:
+              - generic [ref=e19] [cursor=pointer]: 전기
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "로그인" [ref=e23] [cursor=pointer]:
+                - /url: javascript:onMainLogin('heat');
+            - listitem [ref=e24]:
+              - generic [ref=e25] [cursor=pointer]: 홈페이지
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - generic [ref=e30] [cursor=pointer]: 열공급 개시 이전
+          - listitem [ref=e31]:
+            - generic [ref=e32] [cursor=pointer]: 열공급 개시 이후
+          - listitem [ref=e33]:
+            - generic [ref=e34] [cursor=pointer]: 지원사업
+          - listitem [ref=e35]:
+            - generic [ref=e36] [cursor=pointer]: 공지 및 자료실
+          - listitem [ref=e37]:
+            - generic [ref=e38] [cursor=pointer]: 고객센터
+          - listitem [ref=e39]:
+            - generic [ref=e40] [cursor=pointer]: 나의 신청현황
+        - generic [ref=e41]:
+          - link "메뉴열기" [ref=e43] [cursor=pointer]:
+            - /url: "#a;"
+            - generic [ref=e44]: 메뉴열기
+          - link "검색" [ref=e45] [cursor=pointer]:
+            - /url: "#a;"
+  - generic [ref=e46]:
+    - paragraph [ref=e49]:
+      - generic [ref=e50]: 한국지역난방공사와 함께하는
+      - text: 행복한 에너지 세상
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e54]: 지원사업
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - link "에너지복지요금 지원" [ref=e57] [cursor=pointer]:
+              - /url: javascript:onLeftMenuMove('M020116','3','P0000','TM00002')
+          - listitem [ref=e58]:
+            - link "취약계층 특별요금 지원" [ref=e59] [cursor=pointer]:
+              - /url: javascript:onLeftMenuMove('M020372','3','P0000','TM00002')
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - link "제도 안내" [ref=e63] [cursor=pointer]:
+                  - /url: javascript:onLeftMenuMove('M020376','0','P1001','TM10001')
+              - listitem [ref=e64]:
+                - link "개인 신청" [ref=e65] [cursor=pointer]:
+                  - /url: javascript:onLeftMenuMove('M020377','0','P2000','TM20000')
+              - listitem [ref=e66]:
+                - link "처리결과 확인" [ref=e67] [cursor=pointer]:
+                  - /url: javascript:onLeftMenuMove('M020381','0','P2000','TM20000')
+          - listitem [ref=e68]:
+            - link "차압유량조절밸브 지원" [ref=e69] [cursor=pointer]:
+              - /url: javascript:onLeftMenuMove('M020121','1','P0000','TM00002')
+          - listitem [ref=e70]:
+            - link "고온부보온재 교체 지원" [ref=e71] [cursor=pointer]:
+              - /url: javascript:onLeftMenuMove('M020150','2','P0000','TM00002')
+          - listitem [ref=e72]:
+            - link "자동제어 절약모드설치 지원" [ref=e73] [cursor=pointer]:
+              - /url: javascript:onLeftMenuMove('M020374','2','P0000','TM00002')
+          - listitem [ref=e74]:
+            - link "지역난방 에너지진단서비스" [ref=e75] [cursor=pointer]:
+              - /url: javascript:onLeftMenuMove('M020382','1','P0000','TM00002')
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - heading "제도 안내" [level=2] [ref=e78]
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - img "HOME" [ref=e81]
+            - listitem [ref=e82]: 열
+            - listitem [ref=e83]: 지원사업
+            - listitem [ref=e84]: 취약계층 특별요금 지원
+            - listitem [ref=e85]: 제도 안내
+          - link "인쇄" [ref=e87] [cursor=pointer]:
+            - /url: javascript:fn_print();
+        - generic [ref=e89]:
+          - heading "「취약계층 특별요금 지원제도」란 무엇인가요?" [level=3] [ref=e90]
+          - paragraph [ref=e91]:
+            - text: 한국지역난방공사는 에너지 요금의 급격한 상승으로 어려움을 겪으신 취약계층을 위하여
+            - text: 지난해에 이어 올해도 동절기 4개월간(’25.12.~’26.3.) 의 난방비 일부를 지원하는 한시적 제도입니다.
+          - paragraph [ref=e92]: 특히, 금년도 사업은 고객님의 편의를 위해 절차 및 서류가 간소화된 정액지원 방식으로 개편되었습니다. 난방비 고지서 제출이 생략됨에 따라 신속하게 지원금을 지급할 예정입니다.
+          - paragraph [ref=e93]:
+            - link "취약계층 특별요금 지원 신청·변경" [ref=e94] [cursor=pointer]:
+              - /url: /cyb/heat/fss/aply/fssAplyChooseTypeForm.do?menuCode=M020377
+          - heading "지원 대상은 어떻게 되나요?" [level=3] [ref=e95]
+          - paragraph [ref=e96]: 한국지역난방공사에서 지역난방을 공급하는 아파트, 오피스텔 등에 거주(주민등록등본 상)하는 취약계층(기초생활수급자, 차상위계층) 고객님을 대상으로 합니다.
+          - list [ref=e97]:
+            - listitem [ref=e98]:
+              - text: 한국지역난방공사 공급 지역 [클릭을 누르면 펼쳐집니다.]
+              - paragraph [ref=e99]: 표는 고객님의 이해를 돕기 위한 것으로, 해당 지역에 속하더라도 한국지역난방공사에서 지역난방을 공급하지 않는 아파트, 건물 등이 있습니다. 자세한 공급지역 여부는 고객센터(1688-2488)로 연락하시어 자세한 안내를 받으시기 바랍니다.
+            - listitem [ref=e100]:
+              - text: 지원대상 취약계층
+              - list [ref=e101]:
+                - listitem [ref=e102]: 국민기초생활보장법 제7조 제1항 제1호(생계급여), 제3호(의료급여) 수급자
+                - listitem [ref=e103]: 국민기초생활보장법 제7조 제1항 제2호(주거급여), 제4호(교육급여) 수급자
+                - listitem [ref=e104]:
+                  - text: 다음 법령에 따라 지원 받는 차상위계층 또는 차상위계층에 준하는 자로서 사업자가 인정하는 자
+                  - list [ref=e105]:
+                    - listitem [ref=e106]: ① 국민기초생활보장법 제9조 제5항
+                    - listitem [ref=e107]: ② 국민건강보험법 시행령 별표2 제3호 라목
+                    - listitem [ref=e108]: ③ 장애인복지법 제49조, 제50조
+                    - listitem [ref=e109]: ④ 한부모가족지원법 제5조
+                    - listitem [ref=e110]: ⑤ 국민기초생활보장법 시행령 제3조(舊 차상위 우선돌봄)
+          - heading "지원 내용은 어떻게 되나요?" [level=3] [ref=e111]
+          - paragraph [ref=e112]: 지원대상 고객님께서 ’25년 12월부터 ’26년 3월(’26년 1월 고지서~’26년 4월 고지서)까지 사용한 난방비 일부에 대해 에너지바우처 미수혜자의 경우 최대 29만 2천원(월 7만 3천원), 수혜자의 경우 최대 14만 4천원(월 3만 6천원)을 지원해드립니다.
+          - paragraph [ref=e113]: ※ 취약계층 세대 거주 비율이 높은 영구임대 아파트는 ’25년 12월부터 ’26년 3월까지 사용하신 요금에 대해 자동 감면을 통해 취약계층 특별요금을 지원하였으므로, 별도 특별요금 신청을 하실 필요가 없으니 신청 시 참고하시기 바랍니다.
+          - paragraph [ref=e114]: 기 감면 영구임대 아파트 목록 확인 [클릭을 누르면 펼쳐집니다.]
+          - heading "유의사항" [level=4] [ref=e115]
+          - list [ref=e116]:
+            - listitem [ref=e117]: ① 지원금액은 에너지바우처 수혜 여부와 지원 대상 기간 중 거주 기간에 따라 차등 지급됩니다.
+            - listitem [ref=e118]: ② 지역난방 공동주택 거주기간 및 자격 보유 기간에 따라 차등하여 지급하며, 월 1/2 이상 거주 및 자격 보유 시에 해당 월의 지원대상으로 인정합니다.
+          - table "요금 지원자격 및 지원금액 - 대상, 지원대상 기준, 지원금액" [ref=e120]:
+            - caption: 요금 지원자격 및 지원금액 - 대상, 지원대상 기준, 지원금액
+            - rowgroup [ref=e126]:
+              - row "대상 지원대상 기준 지원금액" [ref=e127]:
+                - columnheader "대상" [ref=e128]
+                - columnheader "지원대상 기준" [ref=e129]
+                - columnheader "지원금액" [ref=e130]
+              - row "바우처 미수혜자 바우처 수혜자" [ref=e131]:
+                - columnheader "바우처 미수혜자" [ref=e132]
+                - columnheader "바우처 수혜자" [ref=e133]
+            - rowgroup [ref=e134]:
+              - row "기초생활수급자 국민기초생활보장법에 따른 수급자 (생계·주거·의료·교육) 월 7만 3천원 월 3만 6천원" [ref=e135]:
+                - cell "기초생활수급자" [ref=e136]
+                - cell "국민기초생활보장법에 따른 수급자 (생계·주거·의료·교육)" [ref=e137]:
+                  - text: 국민기초생활보장법에 따른 수급자
+                  - text: (생계·주거·의료·교육)
+                - cell "월 7만 3천원" [ref=e138]
+                - cell "월 3만 6천원" [ref=e139]
+              - row "차상위계층 자활사업참여자, 차상위장애수당자, 한부모가족지원가정, 본인부담경감대상자차상위계층확인 (舊 차상위 우선돌봄)" [ref=e140]:
+                - cell "차상위계층" [ref=e141]
+                - cell "자활사업참여자, 차상위장애수당자, 한부모가족지원가정, 본인부담경감대상자차상위계층확인 (舊 차상위 우선돌봄)" [ref=e142]:
+                  - text: 자활사업참여자,
+                  - text: 차상위장애수당자,
+                  - text: 한부모가족지원가정,
+                  - text: 본인부담경감대상자차상위계층확인
+                  - text: (舊 차상위 우선돌봄)
+          - list [ref=e143]:
+            - listitem [ref=e144]: 주1) 에너지복지요금과 취약계층 특별요금 모두 대상자일 경우, ’25.12월~’26.3월은 상위금액인 취약계층 특별요금만 지급됩니다.
+            - listitem [ref=e145]: 주2) 금년도 사업은 정액지원이므로, 세대 난방비 자료는 제출하지 않으셔도 됩니다.
+          - heading "지원 절차와 방법은 어떻게 되나요?" [level=3] [ref=e146]
+          - heading "지원절차" [level=4] [ref=e147]
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - generic [ref=e151]:
+                - text: "[3월 16일~ 4월 30일]"
+                - text: "- 공사 홈페이지(고객마당)"
+                - text: "- 고객상담센터(1688-2488)"
+                - text: "- 우편·방문 접수"
+              - generic [ref=e153]: 신청서(구비서류 포함) 제출
+            - listitem [ref=e154]:
+              - generic [ref=e155]:
+                - text: "[4월 ~ 6월]"
+                - text: "- 신청자별 지원 자격,"
+                - text: 에너지바우처 수혜여부 및 거주기간 확인
+              - generic [ref=e157]: 신청내역 검증 절차
+            - listitem [ref=e158]:
+              - generic [ref=e159]:
+                - text: "[5월 말 이후]"
+                - text: "- 지원 .신청 시 입력하신 세대의 계좌로 순차적으로 현금 지원"
+              - generic [ref=e161]: 지원금 지급
+          - paragraph [ref=e162]: 신청기간 이후에는 특별요금 지원 신청이 불가능합니다.
+          - heading "신청방법" [level=4] [ref=e163]
+          - list [ref=e164]:
+            - listitem [ref=e165]: ① 한국지역난방공사 홈페이지(고객마당)에서 온라인 신청
+            - listitem [ref=e166]: ② 고객상담센터(1688-2488)를 통한 유선 신청
+            - listitem [ref=e167]:
+              - text: ③ 우편 및 방문(인근 지사) 신청을 통해 신청기간 내에 신청
+              - text: (우편 신청) 13487 경기도 성남시 분당구 판교로228번길 88 한국지역난방공사 고객정책부
+          - heading "신청서류" [level=4] [ref=e168]
+          - list [ref=e169]:
+            - listitem [ref=e170]: ① 특별요금 지원 신청서(온라인·고객상담센터 신청 시 미제출)
+            - listitem [ref=e171]: ② 주민등록등본, 기초생활수급 등 자격확인증명서(개인정보·고유식별정보·민감정보 수집·이용 동의 및 행정정보공동이용 사전 동의 시에 미제출)
+          - heading "지원금 지급" [level=4] [ref=e172]
+          - paragraph [ref=e173]: ’26년 4월부터 6월까지 신청 고객님의 지원자격과 거주기간 확인 등의 절차를 거친 후, ’26년 5월 말부터 지급 예정입니다.
+          - paragraph [ref=e174]: "문의처 : 한국지역난방공사 고객상담센터(1688-2488)"
+        - generic [ref=e175] [cursor=pointer]: TOP
+  - contentinfo [ref=e176]:
+    - generic [ref=e177]:
+      - list [ref=e178]:
+        - listitem [ref=e179]:
+          - link "개인정보처리방침" [ref=e180] [cursor=pointer]:
+            - /url: https://www.kdhc.co.kr/kdhc/main/contents.do?menuNo=200064
+        - listitem [ref=e181]:
+          - generic [ref=e182] [cursor=pointer]: 이메일무단수집거부
+        - listitem [ref=e183]:
+          - link "찾아오시는 길" [ref=e184] [cursor=pointer]:
+            - /url: https://www.kdhc.co.kr/kdhc/main/staticContents.do?menuNo=200177
+      - paragraph [ref=e185]: 대표전화 1688-2488
+      - generic [ref=e187]:
+        - paragraph [ref=e188]: (13585) 경기도 성남시 분당구 분당로 368
+        - paragraph [ref=e189]: Copyright ⓒ KDHC. All Rights Reserved.
+  - img [ref=e193]

@@ -1,0 +1,146 @@
+- generic [ref=e2]:
+  - link "본문 바로가기" [ref=e3] [cursor=pointer]:
+    - /url: "#container"
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - heading [level=1] [ref=e7]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: /web/user/main.do
+      - generic [ref=e9]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: https://blog.naver.com/koreflove
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://www.youtube.com/@koref_official/featured
+        - generic [ref=e14]:
+          - textbox "검색어를 입력하세요" [ref=e15]
+          - button [ref=e16] [cursor=pointer]
+      - button "전체메뉴" [ref=e18] [cursor=pointer]:
+        - generic: 전체메뉴
+    - list [ref=e21]:
+      - listitem [ref=e22]:
+        - link "재단소개" [ref=e23] [cursor=pointer]:
+          - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=c6f45ac061f14c4caeada2a9c1e3e4b4','4698037a5465469a84760ac548a93ea4','재단소개','ba1c54d2e0544003914a194ede088b48','1','///');
+      - listitem [ref=e24]:
+        - link "에너지복지" [ref=e25] [cursor=pointer]:
+          - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=f327d718d67441bd885363010c59dae2','fab1f38178a54c769ba9e108e03610a0','에너지복지','90dbc9fc60e34f5984cd03bf94c19bed','1','///');
+      - listitem [ref=e26]:
+        - link "에너지효율개선" [ref=e27] [cursor=pointer]:
+          - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=553ef5b0dbb048da98a36cb9f8e75431','b54841d3f1bc45d7a0d95891152ef3ab','에너지효율개선','eb17578b0d1842f087af423653de5534','1','///');
+      - listitem [ref=e28]:
+        - link "에너지사회공헌" [ref=e29] [cursor=pointer]:
+          - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=36b19288c8ff4b4fb2105889d0726d4f','06c9fccac89f4002bfe5a3a2a022e0a9','에너지사회공헌','0032fd6be20f43b6aac6eea14b7abb29','1','///');
+      - listitem [ref=e30]:
+        - link "에너지협력사업" [ref=e31] [cursor=pointer]:
+          - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=df83fbbf5d994f1fba3e8a646677913a','3d1a60a47c2e414a826053a1c5785186','에너지협력사업','15dba4a83d9046129564acdfd6cd46f9','1','///');
+      - listitem [ref=e32]:
+        - link "에너지알리미" [ref=e33] [cursor=pointer]:
+          - /url: javascript:goTopMenu('/web/board/boardContentsListPage.do?board_id=27','672113adc97d450288f901f436f56c9b','에너지알리미','fd20fda33e39499a93bbec362155e145','1','///');
+      - listitem [ref=e34]:
+        - link "열린혁신(전자민원)" [ref=e35] [cursor=pointer]:
+          - /url: javascript:goTopMenu('/web/intropage/intropageShow.do?page_id=b105b43c26234a5d893b4dfca394dde4','bb39a9e034e54357ad7a55f6d1ed8ac0','열린혁신(전자민원)','15129765fede455c8e340e96787bca01','1','///');
+  - article [ref=e37]:
+    - generic [ref=e38]:
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "사업소개" [ref=e44] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "- 사업배경" [ref=e47] [cursor=pointer]:
+                - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=37840ebcd7004927bbb095d0a1dd58d6','505fa8675d9946b2ac8d96bce2ec1769','1','///');
+            - listitem [ref=e48]:
+              - link "- 사업진행절차" [ref=e49] [cursor=pointer]:
+                - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=be82cc46bd884f6ebbc56f23de0ca962','ac65f14c51b846649fc8523657f1fbf9','1','///');
+            - listitem [ref=e50]:
+              - link "- 지원내용" [ref=e51] [cursor=pointer]:
+                - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=e4e304d7dcac4b4ab1dbe1123e152b5e','e0abc5fc69cc47ab81ed758626fee119','1','///');
+        - listitem [ref=e52]:
+          - link "주택에너지진단사 자격제도" [ref=e53] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e54]:
+          - link "콜센터":
+            - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=2223e4c2f52644f0b390ae69606f6fa2','d54c4ac42b75434c9d9cf7a1af4dfe5f','1','///');
+          - link "콜센터" [ref=e55] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e61]:
+        - heading "사업목적" [level=3] [ref=e62]
+        - paragraph [ref=e63]:
+          - text: 에너지 가격 인상 등으로 어려움을 겪는
+          - strong [ref=e64]: 저소득층, 사회복지시설 등
+          - text: 에 고효율 조명기기를 무상으로 교체ㆍ지원하여
+          - strong [ref=e65]: 에너지효율에서의 복지를 실현
+          - text: 하고 고효율설비ㆍ시스템 보급을 통하여 국가적 에너지절약과 전환 촉진
+        - heading "지원대상 및 내용" [level=3] [ref=e66]
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - strong [ref=e69]: "(지원품목) :"
+            - text: 『고효율 에너지 기자재 인증서를 획득한 LED 조명제품』 또는 『에너지소비효율 1등급 LED 조명제품』
+          - listitem [ref=e70]:
+            - strong [ref=e71]: "(지원대상) :"
+            - text: 저소득층·사회복지시설
+          - listitem [ref=e72]:
+            - table "지원대상 및 내용" [ref=e74]:
+              - rowgroup [ref=e78]:
+                - row "저소득층 복지시설" [ref=e79]:
+                  - columnheader "저소득층" [ref=e80]
+                  - columnheader "복지시설" [ref=e81]
+              - rowgroup [ref=e82]:
+                - row "국민기초생활 보장법 제 7조(급여의 종류) 중 생계ㆍ의료ㆍ주거ㆍ교육 급여 수급권자의 가구 및 차상위 계층 또는 공공주택 특별법 시행령 제2조(공공임대주택) 중 영구임대주택 사회복지사업법 제34조(사회복지시설의 설치)에 따라 설치ㆍ운영하는 시설" [ref=e83]:
+                  - cell "국민기초생활 보장법 제 7조(급여의 종류) 중 생계ㆍ의료ㆍ주거ㆍ교육 급여 수급권자의 가구 및 차상위 계층 또는 공공주택 특별법 시행령 제2조(공공임대주택) 중 영구임대주택" [ref=e84]
+                  - cell "사회복지사업법 제34조(사회복지시설의 설치)에 따라 설치ㆍ운영하는 시설" [ref=e85]
+          - listitem [ref=e86]:
+            - strong [ref=e87]: "(사업 주체) :"
+            - text: 지방자치단체 주관 시행
+            - text: ※ 지원 가구 및 사회복지시설 등 발굴, LED조명제품 선정 및 시공업체 계약 등
+        - heading "사업 신청 및 문의" [level=3] [ref=e88]
+        - list [ref=e89]:
+          - listitem [ref=e90]: 지원 대상 거주지 및 소재지의 지자체 관련 부서(시ㆍ군ㆍ구)
+        - paragraph [ref=e91]: < LED등기구 교체 전ㆍ후 사진 예시 >
+        - table "LED등기구 교체 전ㆍ후 사진" [ref=e93]:
+          - rowgroup [ref=e94]:
+            - row "교체 전 교체 후" [ref=e95]:
+              - columnheader "교체 전" [ref=e96]
+              - columnheader "교체 후" [ref=e97]
+          - rowgroup [ref=e98]:
+            - row "LED 등기구 교체 전1 LED 등기구 교체 후1" [ref=e99]:
+              - cell "LED 등기구 교체 전1" [ref=e100]:
+                - img "LED 등기구 교체 전1" [ref=e102]
+              - cell "LED 등기구 교체 후1" [ref=e103]:
+                - img "LED 등기구 교체 후1" [ref=e105]
+            - row "LED 등기구 교체 전2 LED 등기구 교체 후2" [ref=e106]:
+              - cell "LED 등기구 교체 전2" [ref=e107]:
+                - img "LED 등기구 교체 전2" [ref=e109]
+              - cell "LED 등기구 교체 후2" [ref=e110]:
+                - img "LED 등기구 교체 후2" [ref=e112]
+  - generic [ref=e114]:
+    - generic [ref=e115]:
+      - list [ref=e117]:
+        - listitem [ref=e118]:
+          - link "이용약관" [ref=e119] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/infopage/clauseShow.do','66532170e21f4bd28b8f54da5c1b4ce5','1','///');
+        - listitem [ref=e120]:
+          - link "개인정보처리방침" [ref=e121] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/infopage/privacyShow.do','4c5810db9ca9477796162f004f1a0b16','1','///');
+        - listitem [ref=e122]:
+          - link "영상정보처리기기운영관리방침" [ref=e123] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/infopage/imgInfoShow.do','f73d3811b27a4ce39a40042befabd7af','1','///');
+      - list [ref=e125]:
+        - listitem [ref=e126]:
+          - link "찾아오시는 길" [ref=e127] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=8042f3dc855b4216ad30df5169b136e9','b3695e6983bf4816a8d0252c1cb8ee67','1','///');
+        - listitem [ref=e128]:
+          - link "재단대표번호 02-6913-2121" [ref=e129] [cursor=pointer]:
+            - /url: javascript:goSubMenu('/web/intropage/intropageShow.do?page_id=2223e4c2f52644f0b390ae69606f6fa2', 'd54c4ac42b75434c9d9cf7a1af4dfe5f', '1','///');
+    - generic [ref=e130]:
+      - link "에너지효율개선사업 관리시스템" [ref=e132] [cursor=pointer]:
+        - /url: http://www.kew.or.kr
+      - generic [ref=e133]:
+        - term [ref=e134]: 한국에너지재단
+        - definition [ref=e135]:
+          - generic [ref=e136]: 우) 04337 서울특별시 용산구 신흥로 152
+          - generic [ref=e137]: "FAX : 02-6913-2119"
+          - generic [ref=e138]: "사업자등록번호 : 107-82-11478"
+          - generic [ref=e139]: "이사장 : 김 광 식"
+      - generic [ref=e140]:
+        - text: 본 페이지에 게시된 이메일 주소가 자동수집 되는것을 거부하며 이를 위반시 정보통신법에 의해 처벌됨을 유념하시기 바랍니다.
+        - text: Copyright 2010. 한국에너지재단 All rights reserved.

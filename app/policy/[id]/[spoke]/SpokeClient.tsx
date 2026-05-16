@@ -10,50 +10,19 @@ import {
   toJsonLd,
 } from '@/lib/schema';
 
-/* ── 스포크 콘텐츠 import: 청년도약계좌 ── */
-import { VsHopeSpokeContent } from './content/vs-희망적금';
-import { CancelSpokeContent } from './content/중도해지';
-import { ContribSpokeContent } from './content/기여금계산';
-import { NoIncomeSpokeContent } from './content/소득없으면';
+/**
+ * ── SpokeClient ──
+ *
+ * ✅ 이 파일을 직접 수정하지 마세요.
+ *
+ * 새 정책에 spoke 페이지를 추가하려면:
+ *   1. data/spokes/registry.ts 에 콘텐츠 등록
+ *   2. data/policies/{slug}.ts 의 spokes 배열에 spoke 정보 추가
+ *
+ * 정책 제목·spoke 목록은 manifest 와 레지스트리에서 자동 조회합니다.
+ */
 
-/* ── 스포크 콘텐츠 import: 기초연금 ── */
-import { 수급자격SpokeContent } from './content/기초연금/수급자격';
-import { 금액SpokeContent } from './content/기초연금/금액';
-import { 소득인정액계산SpokeContent } from './content/기초연금/소득인정액-계산';
-import { 재산기준SpokeContent } from './content/기초연금/재산기준';
-import { 집있으면SpokeContent } from './content/기초연금/집-있으면';
-import { 신청방법SpokeContent } from './content/기초연금/신청방법';
-import { 국민연금차이SpokeContent } from './content/기초연금/국민연금-차이';
-import { 부부감액SpokeContent } from './content/기초연금/부부감액';
-import { 감액기준SpokeContent } from './content/기초연금/감액기준';
-
-import { 기초연금Spokes } from '@/data/policies/기초연금';
-
-const SITE_URL = 'https://gov.jjyu.co.kr';
-
-/* ── 정책별 스포크 목록 ── */
-const spokeLists: Record<string, { slug: string; title: string }[]> = {
-  '1': [
-    { slug: 'vs-희망적금', title: '도약계좌 vs 희망적금 차이' },
-    { slug: '중위소득', title: '중위소득 기준표 2026' },
-    { slug: '군대-나이', title: '군대 나이 계산법' },
-    { slug: '중도해지', title: '중도해지 하면 손해인가' },
-    { slug: '소득없으면', title: '소득 없으면 가입 가능?' },
-    { slug: '은행별-금리', title: '은행별 금리 비교' },
-    { slug: '신청방법', title: '앱으로 3분 신청' },
-    { slug: '납입금액', title: '납입금액 얼마가 최적?' },
-    { slug: '기여금-계산', title: '정부기여금 계산법' },
-  ],
-  '2': 기초연금Spokes,
-};
-
-/* ── 정책별 타이틀 ── */
-const policyTitles: Record<string, string> = {
-  '1': '청년도약계좌',
-  '2': '기초연금',
-};
-
-/* ── 스포크 메타 + 콘텐츠 매핑 ── */
+/* ── 타입 ── */
 export interface SpokeData {
   h1: string;
   breadcrumb: string;
@@ -65,36 +34,31 @@ export interface SpokeData {
   sources: { name: string; url: string }[];
 }
 
-/* ── 정책별 스포크 콘텐츠 맵 ── */
-const spokeMaps: Record<string, Record<string, SpokeData>> = {
-  '1': {
-    'vs-희망적금': VsHopeSpokeContent,
-    '중도해지': CancelSpokeContent,
-    '기여금-계산': ContribSpokeContent,
-    '소득없으면': NoIncomeSpokeContent,
-  },
-  '2': {
-    '수급자격': 수급자격SpokeContent,
-    '금액': 금액SpokeContent,
-    '소득인정액-계산': 소득인정액계산SpokeContent,
-    '재산기준': 재산기준SpokeContent,
-    '집-있으면': 집있으면SpokeContent,
-    '신청방법': 신청방법SpokeContent,
-    '국민연금-차이': 국민연금차이SpokeContent,
-    '부부감액': 부부감액SpokeContent,
-    '감액기준': 감액기준SpokeContent,
-  },
-};
+/* ── manifest & 레지스트리 (단일 소스) ── */
+import { PoliciesById, PoliciesBySlug, SpokesById, SpokesBySlug } from '@/data/policies/manifest';
+import { SpokesRegistry } from '@/data/spokes/registry';
+
+const SITE_URL = 'https://gov.jjyu.co.kr';
 
 export default function SpokeClient({ params }: { params: { id: string; spoke: string } }) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  const slug = decodeURIComponent(params.spoke);
+  const slug     = decodeURIComponent(params.spoke);
   const policyId = params.id;
-  const spokeMap = spokeMaps[policyId] || spokeMaps['1'];
-  const spoke = spokeMap[slug];
-  const spokeList = spokeLists[policyId] || spokeLists['1'];
-  const policyTitle = policyTitles[policyId] || '정책';
+
+  /* 정책 데이터 — slug 로 먼저 조회, 없으면 숫자 id 로 fallback */
+  const policy     = PoliciesBySlug[policyId] ?? PoliciesById[policyId];
+  const policySlug = policy?.slug ?? policyId;
+  const policyTitle = policy?.title ?? '정책';
+  const applyUrl    = policy?.applyUrl ?? 'https://www.gov.kr';
+
+  /* spoke 목록 — policy 파일의 spokes 배열 사용 */
+  const spokeList: { slug: string; title: string }[] =
+    SpokesBySlug[policySlug] ?? SpokesById[policyId] ?? [];
+
+  /* spoke 콘텐츠 — 레지스트리에서 조회 */
+  const spokeMap = SpokesRegistry[policySlug] ?? {};
+  const spoke    = spokeMap[slug];
 
   if (!spoke) {
     return (
@@ -109,19 +73,19 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
     );
   }
 
-  const spokeUrl = `${SITE_URL}/policy/${policyId}/${slug}`;
+  const spokeUrl  = `${SITE_URL}/policy/${policyId}/${slug}`;
   const { Content } = spoke;
 
   const schemas = [
     articleSchema({
-      title: spoke.h1,
-      description: spoke.description,
-      url: spokeUrl,
+      title:         spoke.h1,
+      description:   spoke.description,
+      url:           spokeUrl,
       datePublished: spoke.datePublished,
-      dateModified: spoke.dateModified,
+      dateModified:  spoke.dateModified,
     }),
     breadcrumbSchema([
-      { name: '홈', url: SITE_URL },
+      { name: '홈',        url: SITE_URL },
       { name: policyTitle, url: `${SITE_URL}/policy/${policyId}` },
       { name: spoke.breadcrumb },
     ]),
@@ -164,7 +128,9 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                 </div>
                 <div className="editor-info">
                   <span className="editor-name">정부지원사업 에디터</span>
-                  <span className="editor-role">공공데이터 기반 · 2026.03.20 검수</span>
+                  <span className="editor-role">
+                    공공데이터 기반 · {spoke.dateModified?.slice(0, 10).replace(/-/g, '.')} 검수
+                  </span>
                 </div>
               </div>
             </header>
@@ -198,7 +164,7 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                           transition: 'transform 0.2s',
                           transform: openFaq === i ? 'rotate(180deg)' : 'rotate(0)',
                           flexShrink: 0,
-                          color: 'var(--text-muted)',
+                          color:      'var(--text-muted)',
                         }}
                       />
                     </summary>
@@ -227,7 +193,9 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                   </li>
                 ))}
               </ul>
-              <p className="source-updated">마지막 검수: 2026.03.20</p>
+              <p className="source-updated">
+                마지막 검수: {spoke.dateModified?.slice(0, 10).replace(/-/g, '.')}
+              </p>
             </section>
 
             {/* 허브 유도 */}
@@ -251,7 +219,7 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
             policyTitle={policyTitle}
             spokes={spokeList}
             currentSpoke={slug}
-            applyUrl={policyId === '2' ? 'https://www.bokjiro.go.kr' : 'https://www.gov.kr'}
+            applyUrl={applyUrl}
           />
         </div>
       </div>

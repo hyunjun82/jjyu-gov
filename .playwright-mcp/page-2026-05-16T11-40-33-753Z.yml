@@ -1,0 +1,18 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - heading "한국에너지재단" [level=1] [ref=e5]:
+      - generic [ref=e6]: 한국에너지재단
+    - strong [ref=e7]: 잘못된 주소이거나 일시적으로 사용할 수 없습니다.
+    - paragraph [ref=e8]:
+      - text: 찾으시는 페이지의 주소가 잘못되었거나 현재 시스템의 문제상의 문제로 인해 사용하실 수 없는 상태입니다.
+      - text: 잠시 후 접속하여 주시거나 다시 한번 확인하여 주시기 바랍니다.
+    - generic [ref=e9]:
+      - link "메인 바로가기" [ref=e10] [cursor=pointer]:
+        - /url: /web/user/main.do
+      - link "이전으로" [ref=e11] [cursor=pointer]:
+        - /url: javascript:history.back(-1)
+  - generic [ref=e12]:
+    - strong [ref=e13]: 한국에너지재단
+    - list [ref=e16]:
+      - listitem [ref=e17]: 06732) 서울시 서초구 효령로 72길 60 | TEL 02-6913-2110 FAX 02-6913-2119
+    - paragraph [ref=e18]: © Copyright 2010. 한국에너지재단 All rights reserved.

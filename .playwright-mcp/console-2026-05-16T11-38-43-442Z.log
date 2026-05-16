@@ -1,0 +1,5 @@
+[    1622ms] [LOG] M020376 @ https://www.kdhc.co.kr/cyb/heat/cont/contentsView.do?menuCode=M020376:447
+[    1623ms] [LOG] ---tabMenu--- @ https://www.kdhc.co.kr/cyb/heat/cont/contentsView.do?menuCode=M020376:451
+[    1623ms] [LOG] [] @ https://www.kdhc.co.kr/cyb/heat/cont/contentsView.do?menuCode=M020376:452
+[    1752ms] [WARNING] Failed to decode downloaded font: https://www.kdhc.co.kr/cyb/resources/service/ST00002/fonts/Montserrat/Montserrat-Bold.woff2 @ https://www.kdhc.co.kr/cyb/heat/cont/contentsView.do?menuCode=M020376:0
+[    1752ms] [WARNING] OTS parsing error: invalid sfntVersion: -2147367151 @ https://www.kdhc.co.kr/cyb/heat/cont/contentsView.do?menuCode=M020376:0

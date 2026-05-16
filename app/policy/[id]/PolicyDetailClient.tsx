@@ -58,8 +58,21 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   const [activeMethod, setActiveMethod] = useState<string>('app');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  const d = policies[params.id] || policies['1'];
-  const spokeList = spokeLists[params.id] || spokeLists['1'];
+  const d = policies[params.id];
+  const spokeList = spokeLists[params.id] || [];
+
+  if (!d) {
+    return (
+      <main className="detail bg-gov-bg min-h-screen" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ textAlign: 'center', padding: '60px 20px' }}>
+          <div style={{ fontSize: 48, marginBottom: 16 }}>🔍</div>
+          <h1 style={{ fontSize: 22, fontWeight: 700, marginBottom: 8 }}>페이지를 찾을 수 없습니다</h1>
+          <p style={{ color: 'var(--text-muted)', marginBottom: 24 }}>요청하신 정책 정보가 존재하지 않습니다.</p>
+          <a href="/" style={{ padding: '10px 24px', background: '#003D88', color: '#fff', borderRadius: 8, textDecoration: 'none', fontWeight: 600 }}>홈으로 돌아가기</a>
+        </div>
+      </main>
+    );
+  }
 
   const totalQ = d.eligibility?.length || 0;
   const answered = Object.keys(checks).length;

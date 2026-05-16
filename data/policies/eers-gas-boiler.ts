@@ -1,0 +1,313 @@
+import type { PolicyData, SpokeData } from '../../lib/policy-types';
+
+export const eersGasBoilerPolicy: PolicyData = {
+  id: '143',
+  slug: 'eers-gas-boiler',
+  type: 'service',
+  title: 'EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업',
+  org: '한국가스공사 · 한국에너지재단',
+  summary:
+    '기초생활수급자 등 취약계층 가구와 사회복지시설을 대상으로 노후 저효율 가스보일러를 고효율 가스보일러로 무상 교체해드리는 사업입니다. 6개 지역(대구·강원·경기·경북·전북·충남)은 단열·창호·도배·장판 등 열효율 개선 공사도 함께 지원합니다.',
+  tags: ['가스보일러', '보일러교체', '단열', '취약계층', '에너지복지', 'EERS', '한국가스공사'],
+
+  keyFacts: {
+    지원유형: {
+      value: '현물 지원 (고효율 가스보일러 교체 + 단열·창호·도배·장판 공사)',
+      source: {
+        url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5',
+        text: '전국 취약계층 및 사회복지시설 대상 가스보일러 교체 / 6개 지역 대상 단열, 창호, 도배·장판 등 열효율 개선 공사',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    총예산: {
+      value: '2025~2027년 3년간 150억 원 (전국 1만여 가구·시설)',
+      source: {
+        url: 'https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=41&boardIdx=46217&Key=1010202000000',
+        text: '2025년부터 2027년까지 3년 동안 150억 원을 투입해 전국 1만 여개 저소득가구와 사회복지시설에 고효율 가스보일러를 설치',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    지원대상: {
+      value: '기초생활수급자 등 취약계층 및 사회복지시설',
+      source: {
+        url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5',
+        text: '기초생활수급자 등 취약계층 및 사회복지시설',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    보일러지원지역: {
+      value: '전국',
+      source: {
+        url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5',
+        text: '전국 취약계층 및 사회복지시설 대상 가스보일러 교체',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    단열강화지역: {
+      value: '6개 지역: 대구·강원·경기·경북·전북·충남',
+      source: {
+        url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5',
+        text: '6개 지역(대구, 강원, 경기, 경북, 전북, 충남) 대상 단열, 창호, 도배·장판 등 열효율 개선 공사',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    사업주관: {
+      value: '한국가스공사 + 한국에너지재단 (2024년 12월 업무협약 체결)',
+      source: {
+        url: 'https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=41&boardIdx=46217&Key=1010202000000',
+        text: '한국가스공사(사장 최연혜)는 한국에너지재단(사무총장 주영남)과 \'취약계층 고효율 가스보일러 지원사업을 위한 업무협약\'을 체결',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    가스보일러문의: {
+      value: '전담 콜센터 ☎1670-7653',
+      source: {
+        url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5',
+        text: '가스보일러 지원사업: 전담 콜센터(☎1670-7653)',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    단열강화문의: {
+      value: '대구사회복지협의회 ☎053-965-9838',
+      source: {
+        url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148943071',
+        text: '단열강화 지원사업: 대구사회복지협의회(☎053-965-9838)',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    EERS의미: {
+      value: 'Energy Efficiency Resource Standard — 에너지 공급자 에너지효율향상 의무화 제도',
+      source: {
+        url: 'https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=41&boardIdx=46217&Key=1010202000000',
+        text: '에너지 환경이 취약한 저소득 가구 및 사회복지시설을 대상으로 노후한 저효율 가스보일러를 고효율 가스보일러로 교체함으로써 취약계층의 주거환경 개선을 지원하는 사업',
+        verifiedAt: '2026-05-16',
+      },
+    },
+  },
+
+  qa: [
+    {
+      anchor: 'target',
+      question: '이 사업의 지원 대상은 누구인가요?',
+      intro:
+        'EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업은 노후 보일러로 인한 난방비 부담이 큰 저소득 취약계층 가구와 사회복지시설을 위한 사업입니다. 별도 자격 심사 없이 기존 수급 자격을 근거로 추천·지원됩니다.',
+      highlights: ['기초생활수급자', '취약계층', '사회복지시설', '저소득 가구'],
+      box: {
+        title: '지원 대상',
+        items: [
+          '기초생활수급자 (생계·의료·주거·교육급여 수급자)',
+          '차상위계층 가구',
+          '지자체 추천 복지 사각지대 저소득 가구',
+          '지역아동센터 등 사회복지시설',
+        ],
+      },
+      sourceNote: 'K-공감 EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업 (gonggam.korea.kr)',
+    },
+    {
+      anchor: 'benefit',
+      question: '구체적으로 어떤 지원을 받을 수 있나요?',
+      intro:
+        '사업은 크게 두 가지로 나뉩니다. 전국 대상 가스보일러 교체와, 6개 지역 한정 단열·창호·도배·장판 등 열효율 개선 공사입니다. 두 사업 모두 무상 현물 지원으로 진행됩니다.',
+      highlights: ['고효율 가스보일러 교체', '단열 공사', '창호 교체', '도배·장판', '전국 지원', '6개 지역'],
+      table: {
+        headers: ['지원 항목', '지원 지역', '지원 내용'],
+        rows: [
+          ['가스보일러 교체', '전국', '노후 저효율 보일러 → 고효율 가스보일러 무상 교체'],
+          ['단열·창호·도배·장판', '대구·강원·경기·경북·전북·충남 (6개 지역)', '단열 시공, 창호 교체, 도배·장판 등 열효율 개선 공사'],
+        ],
+      },
+      box2: {
+        title: '사업 규모 (2025~2027년)',
+        items: [
+          '총 예산: 150억 원 (3년 누계)',
+          '지원 대상: 전국 1만여 가구 및 사회복지시설',
+          '주관: 한국가스공사 + 한국에너지재단',
+        ],
+      },
+      sourceNote: '한국가스공사 보도자료 (kogas.or.kr, 2024.12.30)',
+    },
+    {
+      anchor: 'region',
+      question: '단열 공사는 어느 지역에서 지원되나요?',
+      intro:
+        '단열·창호·도배·장판 등 열효율 개선 공사는 현재 6개 지역에서 시범 지원됩니다. 가스보일러 교체는 전국 모든 지역에서 신청할 수 있습니다.',
+      highlights: ['대구', '강원', '경기', '경북', '전북', '충남', '전국 보일러', '6개 지역 단열'],
+      box: {
+        title: '단열강화 지원 6개 지역',
+        items: [
+          '대구광역시',
+          '강원특별자치도',
+          '경기도',
+          '경상북도',
+          '전라북도',
+          '충청남도',
+        ],
+      },
+      sourceNote: 'K-공감 EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업 (gonggam.korea.kr)',
+    },
+    {
+      anchor: 'apply',
+      question: '어떻게 신청하나요?',
+      intro:
+        '신청은 주소지 읍·면·동 주민센터(행정복지센터)를 통해 진행합니다. 지원 대상 추천은 기초지자체 담당자가 검토하며, 이후 한국에너지재단을 통해 시공업체 방문 조사와 보일러 교체 또는 열효율 개선 공사가 진행됩니다.',
+      highlights: ['읍·면·동 주민센터', '행정복지센터', '기초지자체 추천', '한국에너지재단'],
+      box: {
+        title: '신청 절차',
+        items: [
+          '① 주소지 읍·면·동 주민센터(행정복지센터) 방문 신청',
+          '② 기초지자체 검토 및 한국에너지재단 대상자 추천',
+          '③ 시공업체 방문 조사 (보일러 상태 확인)',
+          '④ 지원 내역 승인 → 고효율 보일러 교체 또는 열효율 개선 공사',
+          '⑤ 현장점검 및 사업 완료',
+        ],
+      },
+      sourceNote: '한국가스공사·한국에너지재단 (kogas.or.kr)',
+    },
+    {
+      anchor: 'contact',
+      question: '문의는 어디에 하나요?',
+      intro:
+        '사업별로 문의처가 다릅니다. 가스보일러 교체는 전담 콜센터, 단열강화 공사는 대구사회복지협의회로 문의하세요. 지역 담당자와 연결이 필요하면 주소지 주민센터를 방문해도 됩니다.',
+      highlights: ['콜센터 1670-7653', '대구사회복지협의회 053-965-9838', '주민센터'],
+      table: {
+        headers: ['구분', '문의처', '연락처'],
+        rows: [
+          ['가스보일러 지원사업', '전담 콜센터', '☎ 1670-7653'],
+          ['단열강화 지원사업', '대구사회복지협의회', '☎ 053-965-9838'],
+          ['공통', '주소지 읍·면·동 주민센터', '행정복지센터 방문'],
+        ],
+      },
+      sourceNote: '정책브리핑 K-희망사다리 EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업 (korea.kr)',
+    },
+    {
+      anchor: 'background',
+      question: 'EERS가 무엇인지 알고 싶어요.',
+      intro:
+        'EERS는 Energy Efficiency Resource Standard(에너지 공급자 에너지효율향상 의무화 제도)의 약자입니다. 한국가스공사 등 에너지 공급 사업자가 의무적으로 에너지 절감 실적을 쌓아야 하는 제도이며, 그 일환으로 취약계층 가구의 보일러 교체·단열 공사를 지원합니다.',
+      highlights: ['EERS', '에너지효율향상 의무화', '한국가스공사', '온실가스감축'],
+      box: {
+        title: 'EERS 제도 개요',
+        items: [
+          'EERS: Energy Efficiency Resource Standard (에너지 공급자 에너지효율향상 의무화 제도)',
+          '한국가스공사 등 에너지 공급사업자가 의무적으로 에너지 절감 목표를 달성해야 하는 제도',
+          '취약계층 보일러 교체·단열 공사를 통해 에너지 절감 실적 확보 + 복지 향상 동시 달성',
+          '2010년부터 \'온누리 열효율 개선 사업\'을 통해 사회복지시설·취약계층 3,000여 곳 지원 이력',
+        ],
+      },
+      sourceNote: '한국가스공사 보도자료 (kogas.or.kr, 2024.12.30)',
+    },
+    {
+      anchor: 'tip',
+      question: '이 사업을 신청할 때 알아두면 좋은 점은?',
+      intro:
+        '자격이 되는데 혜택을 못 받는 사각지대를 없애기 위해 한국가스공사가 전국 지자체·복지기관과 협력해 대상자를 적극 발굴하고 있습니다. 주민센터에 문의하거나 복지로(bokjiro.go.kr)에서도 확인해보세요.',
+      highlights: ['복지 사각지대 발굴', '저소득층 에너지 효율 개선사업과 병행', '현물 무상 지원'],
+      box: {
+        title: '꼭 알아두세요',
+        items: [
+          '가스보일러 교체는 현물(무상 교체) 방식이며, 현금 지급이 아닙니다.',
+          '단열강화 공사는 현재 6개 지역(대구·강원·경기·경북·전북·충남)에서만 가능합니다.',
+          '저소득층 에너지 효율 개선사업(한국에너지재단)과 별개 사업이므로 중복 여부 확인 필요.',
+          '신청 자격이 되어도 모르고 지나치는 경우가 많습니다. 주민센터나 콜센터(☎1670-7653)에 적극 문의하세요.',
+        ],
+      },
+      sourceNote: '한국가스공사 보도자료 / K-공감 (kogas.or.kr)',
+    },
+  ],
+
+  eligibility: [
+    '기초생활수급자 (생계·의료·주거·교육급여 수급자)',
+    '차상위계층 가구',
+    '지자체 추천 복지 사각지대 저소득 가구',
+    '지역아동센터 등 사회복지시설',
+  ],
+
+  faq: [
+    {
+      q: '단열 공사 지원 지역이 아닌데 보일러는 교체받을 수 있나요?',
+      a: '네, 가능합니다. 가스보일러 교체 지원은 전국 대상이므로 단열강화 지원 6개 지역 외 지역도 보일러 교체는 신청할 수 있습니다.',
+      source: 'K-공감 EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업',
+      sourceUrl: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5',
+    },
+    {
+      q: '저소득층 에너지 효율 개선사업과 중복으로 신청할 수 있나요?',
+      a: '두 사업은 별개의 사업(주관기관 다름)이므로 중복 신청 가능 여부는 해당 콜센터(☎1670-7653) 또는 주민센터에 직접 문의하여 확인하세요.',
+      source: '한국에너지재단 / 한국가스공사',
+      sourceUrl: 'https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=41&boardIdx=46217&Key=1010202000000',
+    },
+    {
+      q: '이 사업은 언제까지 운영되나요?',
+      a: '한국가스공사와 한국에너지재단은 2025년부터 2027년까지 3년간 150억 원을 투입하는 협약을 체결하였습니다. 이후 연장 여부는 추후 공지됩니다.',
+      source: '한국가스공사 보도자료',
+      sourceUrl: 'https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=41&boardIdx=46217&Key=1010202000000',
+    },
+    {
+      q: '아파트에 사는 취약계층도 신청할 수 있나요?',
+      a: '가스 보일러를 개별 사용하는 주택(단독·빌라 등)이 주된 지원 대상입니다. 지역난방·중앙난방 방식 아파트는 개별 보일러가 없어 지원 대상이 아닐 수 있습니다. 정확한 확인은 콜센터(☎1670-7653)에 문의하세요.',
+      source: '한국에너지재단',
+      sourceUrl: 'https://min24.energy.or.kr/consult/info/view3_3.do',
+    },
+    {
+      q: '신청 후 얼마나 기다려야 하나요?',
+      a: '추천·조사·승인·시공 절차가 있어 신청 후 수 주~수개월 소요될 수 있습니다. 진행 상황은 해당 콜센터(☎1670-7653) 또는 담당 주민센터를 통해 확인할 수 있습니다.',
+      source: '한국에너지재단 냉난방 효율개선 지원안내센터',
+      sourceUrl: 'https://min24.energy.or.kr/consult/info/view3_3.do',
+    },
+  ],
+
+  sources: [
+    {
+      label: 'K-공감 EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업',
+      url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=ac0721d1-efb6-4a4a-867a-fff7843ac9d5',
+      publishedAt: '2026-03-03',
+    },
+    {
+      label: '정책브리핑 K-희망사다리 EERS 취약계층 가스보일러 및 단열강화 지원사업',
+      url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148943071',
+      publishedAt: '2025-05-09',
+    },
+    {
+      label: '한국가스공사 보도자료 — 취약계층 고효율 가스보일러 지원사업 협약',
+      url: 'https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=41&boardIdx=46217&Key=1010202000000',
+      publishedAt: '2024-12-30',
+    },
+  ],
+};
+
+export const eersGasBoilerSpokes: SpokeData[] = [
+  {
+    slug: 'target',
+    role: 'target',
+    title: 'EERS 가스보일러 지원사업 대상 — 기초수급자·차상위 확인',
+    content:
+      '기초생활수급자, 차상위계층, 사회복지시설이 지원 대상입니다. 전국에서 가스보일러 교체를, 6개 지역에서는 단열·창호 공사도 지원합니다.',
+  },
+  {
+    slug: 'benefit',
+    role: 'benefit',
+    title: 'EERS 가스보일러 지원사업 혜택 — 고효율 보일러 무상 교체',
+    content:
+      '노후 저효율 가스보일러를 고효율 보일러로 무상 교체해드립니다. 6개 지역(대구·강원·경기·경북·전북·충남)은 단열·창호·도배·장판 열효율 개선 공사도 함께 지원합니다.',
+  },
+  {
+    slug: 'region',
+    role: 'region',
+    title: 'EERS 단열강화 지원 지역 — 대구·강원·경기·경북·전북·충남',
+    content:
+      '단열·창호·도배·장판 열효율 개선 공사는 6개 지역(대구·강원·경기·경북·전북·충남)에서만 지원됩니다. 가스보일러 교체는 전국 지원입니다.',
+  },
+  {
+    slug: 'apply',
+    role: 'apply',
+    title: 'EERS 가스보일러 지원사업 신청 방법 — 주민센터 방문',
+    content:
+      '읍·면·동 주민센터(행정복지센터)에 방문하거나 콜센터(☎1670-7653)에 문의하여 신청합니다. 기초지자체 추천 → 한국에너지재단 심사 → 시공업체 방문 교체 순으로 진행됩니다.',
+  },
+  {
+    slug: 'tip',
+    role: 'tip',
+    title: 'EERS 가스보일러 지원사업 유의사항 — 지역·중복 확인',
+    content:
+      '가스보일러 교체는 현물(무상) 지원이며, 단열강화 공사는 6개 지역 한정입니다. 저소득층 에너지 효율 개선사업과 중복 여부를 사전 확인하세요.',
+  },
+];
