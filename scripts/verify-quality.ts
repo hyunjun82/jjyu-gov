@@ -210,12 +210,3 @@ async function main() {
 }
 
 main();
-(err) {
-      console.error('\n[' + name + '] verify error: ' + (err as Error).message + '\n');
-      allPass = false;
-    }
-  }
-  process.exit(allPass ? 0 : 1);
-}
-
-main();
