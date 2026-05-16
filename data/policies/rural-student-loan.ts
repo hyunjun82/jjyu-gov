@@ -80,11 +80,36 @@ export const ruralStudentLoanPolicy = {
     },
   ],
   faq: [
-    { q: '얼마 대출?', a: '등록금 전액. 학교·전공별 차이. 4년 누적 3,000~5,000만원.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '누가?', a: '부모 주소 농어촌(읍·면) 6개월 이상 + 본인 학부 재학.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '어떻게?', a: 'kosaf.go.kr 학기별 (1월·7월). 등록금 학교 직접 지급.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '이자는?', a: '재학 중 무이자. 졸업 후도 우대.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '일반 대출과 중복?', a: '국가장학금과는 중복 OK. 일반상환 학자금 대출과는 동일 학기 배타.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
+    {
+      q: '얼마 대출?',
+      a: '한국장학재단 농촌출신대학생 학자금 대출은 학기 등록금 전액을 한도 없이 대출해 줍니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '부모 주민등록 주소지가 농어촌 지역(읍·면) 6개월 이상이고 본인이 국내 4년제 대학·전문대 학부 재학생이면 신청 가능합니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '한국장학재단 누리집(kosaf.go.kr)에서 학기별로 신청합니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '이자는?',
+      a: '읍·면 지역이면 대부분 인정되며 광역시 산하 도서·벽지(예: 옹진·강화 일부)도 일부 인정. 부모 주소가 동(洞) 지역이면 일반적으로 제외됩니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '일반 대출과 중복?',
+      a: '졸업 후 거치기간을 유연하게 선택할 수 있는 것이 본 대출의 강점입니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
   ],
   sources: [
     { label: '한국장학재단', url: 'https://www.moe.go.kr' },

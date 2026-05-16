@@ -80,11 +80,36 @@ export const nationalScholarPolicy = {
     },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '소득분위별 학기당 최대 280만원(연 560만원). 9~10구간 제외.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '누가?', a: '국내 학부 재학생 + 가구 8구간 이하 + 평균 70점 이상.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '어떻게?', a: 'kosaf.go.kr 매 학기 2회 신청. 가구원 동의 후 자동 산정.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '대출과 차이?', a: '장학금=무상. 대출=상환 필요. 본 장학 우선, 부족분 대출 보완.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '시기 놓치면?', a: '1차+2차 둘 다 놓치면 그 학기 미지급. 다음 학기 재신청.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '교육부 국가장학금 한국장학재단 대학생 소득분위별 지원으로 가구 소득분위에 따라 학기당 최대 280만원(연 560만원)이 지급됩니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '국내 4년제 대학·2년제 전문대 학부 재학생이 대상입니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '한국장학재단 누리집(kosaf.go.kr) 또는 모바일 앱에서 학기당 2회(1차/2차) 신청. 본인이 직접 회원가입 후 가구원 동의·소득 산정 절차를 거칩니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '대출과 차이?',
+      a: '본인과 가구원(부모·배우자) 소득·재산을 종합 평가해 1~10구간으로 분류됩니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '시기 놓치면?',
+      a: '1차+2차 둘 다 놓치면 그 학기 미지급. 다음 학기 재신청.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
   ],
   sources: [
     { label: '한국장학재단', url: 'https://www.moe.go.kr' },

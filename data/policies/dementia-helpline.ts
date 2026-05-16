@@ -81,11 +81,36 @@ export const dementiaHelplinePolicy = {
     },
   ],
   faq: [
-    { q: '전화번호?', a: '국번 없이 1899-9988. 24시간 365일.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '비용은?', a: '상담은 무료. 통화료는 시내 통화료 수준 (발신자 부담).', source: '중앙치매센터', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '누가 이용?', a: '치매환자·가족·전문가·일반 국민 누구나. 익명 가능.', source: '중앙치매센터', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '야간도 되나?', a: '24시간 365일 연중무휴. 야간·주말·공휴일 모두 가능.', source: '중앙치매센터', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '안심센터와 차이?', a: '콜센터는 24시간 전화, 안심센터는 검진·교실·쉼터 오프라인.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '전화번호?',
+      a: '치매상담 콜센터(치매콜센터) 1899-9988은 보건복지부와 중앙치매센터가 운영하는 24시간 365일 무료 치매 전문 상담 전화입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '비용은?',
+      a: '치매상담콜센터는 ①치매환자 본인 ②치매환자 가족 ③요양보호사·간호사 등 전문 케어제공자 ④치매가 의심되는 일반 국민까지 누구나 이용할 수 있습니다',
+      source: '중앙치매센터',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '누가 이용?',
+      a: '치매상담콜센터는 24시간 365일 연중무휴로 운영됩니다',
+      source: '중앙치매센터',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '야간도 되나?',
+      a: '치매상담콜센터 상담사 36명은 의료(간호사·사회복지사 등) 또는 복지 현장에서 평균 4년의 경력을 쌓은 전문가로 콜센터 입사 시 2개월간 290시간의 치매 전문 교육과 1개월간의 시범 상담을 거친 후 정식 상담을 시작합니다',
+      source: '중앙치매센터',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '안심센터와 차이?',
+      a: '콜센터는 24시간 전화, 안심센터는 검진·교실·쉼터 오프라인.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부', url: 'https://www.mohw.go.kr' },

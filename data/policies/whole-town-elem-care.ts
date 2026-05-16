@@ -69,11 +69,36 @@ export const wholeTownElemCarePolicy = {
       sourceNote: '* 출처: 교육부' },
   ],
   faq: [
-    { q: '어떤 돌봄?', a: '학교 정규 시간 + 저녁·주말·일시까지 학교+지자체 통합. 식사·학습·체험·예체능 활동 포함.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '누가 우선 받나요?', a: '초등학생 자녀 가정 모두 신청 가능. 저소득·맞벌이·한부모·다자녀 우선 배정.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '어떻게 신청?', a: '자녀 학교 또는 거주지 다함께 돌봄센터·청소년수련관. 신학기 모집 + 연중 수시.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '비용은?', a: '학교 돌봄 무료 또는 매우 저렴(월 1~2만원). 거점은 저소득 무료. 식사 별도 약간.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '다른 돌봄과 중복?', a: '아이돌봄·지역 아동센터·청소년 방과후 등 모두 중복 가능. 자녀에 맞는 조합 권장.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
+    {
+      q: '어떤 돌봄?',
+      a: '학교 정규 수업 후 돌봄에 더해 저녁(18시 이후), 주말, 학기 중 일시 돌봄까지 받을 수 있는 통합 돌봄입니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '누가 우선 받나요?',
+      a: '교육부 온동네 초등돌봄 사업은 초등학생 자녀를 둔 모든 가정이 신청 가능합니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '어떻게 신청?',
+      a: '자녀가 다니는 학교를 통해 신청하거나 거주지 다함께 돌봄센터 등 지역 거점에 직접 신청할 수 있습니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '비용은?',
+      a: '학교 돌봄은 대체로 무료 또는 매우 저렴한 비용으로 운영됩니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '다른 돌봄과 중복?',
+      a: '맞벌이가 늘면서 학교 정규 시간 외에도 안전한 돌봄이 필요한 가정이 늘었습니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
   ],
   sources: [
     { label: '교육부 공식 사이트', url: 'https://www.moe.go.kr' },

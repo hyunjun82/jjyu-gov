@@ -80,11 +80,36 @@ export const youthHousingSupportPolicy = {
     },
   ],
   faq: [
-    { q: '어떤 주거 지원?', a: '월세 지원·버팀목 전세·중기청년 전세·매입임대·행복주택 등.', source: '국토교통부', sourceUrl: 'https://www.molit.go.kr' },
-    { q: '월세 지원?', a: '만 19~34세 + 부모 별도 거주 + 본인 소득 일정 이하 = 월 20만원 12개월.', source: '국토교통부', sourceUrl: 'https://www.molit.go.kr' },
-    { q: '버팀목 전세?', a: '만 19~34세 무주택 = 보증금 80% (최대 2억) 연 1.2~2.1%.', source: '국토교통부', sourceUrl: 'https://www.molit.go.kr' },
-    { q: '어디서 찾나?', a: 'myhome.go.kr 또는 1599-0001(주택금융공사), 1600-3456(LH).', source: '국토교통부', sourceUrl: 'https://www.molit.go.kr' },
-    { q: '본인 상황별?', a: '자취→월세, 전세→버팀목, 자금 X→매입임대·행복주택, 신혼→행복주택.', source: '국토교통부', sourceUrl: 'https://www.molit.go.kr' },
+    {
+      q: '어떤 주거 지원?',
+      a: '청년주거 월세지원 - 국토교통부 청년 주거지원은 본인 상황별로 4가지 사업을 골라 활용할 수 있습니다',
+      source: '국토교통부',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '월세 지원?',
+      a: '청년 월세 지원은 만 19~34세 + 부모와 별도 거주 + 본인 소득 일정 이하인 청년에게 월 최대 20만원을 최대 12개월간 본인 계좌로 지원합니다',
+      source: '국토교통부',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '버팀목 전세?',
+      a: '버팀목 청년 전세자금 대출은 만 19~34세 무주택 청년이 전세 보증금을 시중보다',
+      source: '국토교통부',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '어디서 찾나?',
+      a: '청년 매입임대주택은 LH가 시중 주택을 매입해 청년에게 시세 대비 30~50% 임대료로 빌려주는 사업, 행복주택은 정부가 청년·신혼·고령자 등을 위해 새로 지은 공공임대주택. 시세 대비 매우 저렴하며 2~6년 이상 거주 가능. 청약 경쟁률이 높으니 매년 모집 공고 확인.',
+      source: '국토교통부',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '본인 상황별?',
+      a: '월세 지원은 복지로(bokjiro.go.kr), 전세자금 대출은 한국주택금융공사 또는 협력 은행, 매입임대·행복주택은 LH 청약센터(apply.lh.or.kr) 또는 SH(서울)에서 신청. 마이홈(myhome.go.kr)에서 본인이 받을 수 있는 모든 청년 주거 사업을.',
+      source: '국토교통부',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
   ],
   sources: [
     { label: '국토교통부', url: 'https://www.molit.go.kr' },

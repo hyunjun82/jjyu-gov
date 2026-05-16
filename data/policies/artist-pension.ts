@@ -69,11 +69,36 @@ export const artistPensionPolicy = {
       sourceNote: '* 출처: 한국예술인복지재단' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '국민연금 보험료의 50%, 월 최대 4만 4천원. 연 누계 50만원 절감.', source: '문체부 + 예술인복지재단', sourceUrl: 'https://www.mcst.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '예술 활동 증명 받은 예술인 + 국민연금 지역가입자. 직장가입자는 제외.', source: '한국예술인복지재단', sourceUrl: 'https://www.mcst.go.kr' },
-    { q: '활동 증명은?', a: 'kawf.kr에서 본인 예술 실적 신고 → 재단 심사 → 발급. 본 사업 외 다른 예술인 복지의 기본 자격.', source: '한국예술인복지재단', sourceUrl: 'https://www.mcst.go.kr' },
-    { q: '어떻게 신청하나요?', a: '활동 증명 후 kawf.kr에서 본 사업 신청. 국민연금 가입 정보 자동 연동, 별도 증빙 거의 없음.', source: '한국예술인복지재단', sourceUrl: 'https://www.mcst.go.kr' },
-    { q: '다른 예술인 지원과 중복?', a: '산재보험·의료비·창작금·예술 패스 등 모두 중복 가능. 저소득 지역가입자 보험료 지원과는 동일 보험료 중복 X.', source: '한국예술인복지재단', sourceUrl: 'https://www.mcst.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '문화체육관광부 예술인 국민연금 보험료 지원은 예술인이 매월 내야 할 국민연금 보험료의 50%를 정부가 대신 납부합니다',
+      source: '문체부 + 예술인복지재단',
+      sourceUrl: 'https://www.mcst.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '예술 활동 증명 받은 예술인 + 국민연금 지역가입자. 직장가입자는 제외.',
+      source: '한국예술인복지재단',
+      sourceUrl: 'https://www.mcst.go.kr',
+    },
+    {
+      q: '활동 증명은?',
+      a: 'kawf.kr에서 본인 예술 실적 신고 → 재단 심사 → 발급. 본 사업 외 다른 예술인 복지의 기본 자격.',
+      source: '한국예술인복지재단',
+      sourceUrl: 'https://www.mcst.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '예술 활동 증명을 받은 후 한국예술인복지재단(kawf.kr)에서 본 사업 별도 신청합니다',
+      source: '한국예술인복지재단',
+      sourceUrl: 'https://www.mcst.go.kr',
+    },
+    {
+      q: '다른 예술인 지원과 중복?',
+      a: '산재보험·의료비·창작금·예술 패스 등 모두 중복 가능. 저소득 지역가입자 보험료 지원과는 동일 보험료 중복 X.',
+      source: '한국예술인복지재단',
+      sourceUrl: 'https://www.mcst.go.kr',
+    },
   ],
   sources: [
     { label: '한국예술인복지재단 (신청처)', url: 'https://www.mcst.go.kr' },

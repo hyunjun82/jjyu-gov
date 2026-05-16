@@ -81,11 +81,36 @@ export const elderlyDriverSafetyPolicy = {
     },
   ],
   faq: [
-    { q: '대상은?', a: '만 65세 이상. 75세 이상은 면허갱신 시 의무.', source: '도로교통공단', sourceUrl: 'https://www.koroad.or.kr' },
-    { q: '비용은?', a: '본인부담 0원 (전액 무료).', source: '도로교통공단', sourceUrl: 'https://www.koroad.or.kr' },
-    { q: '온라인 어디서?', a: 'trafficedu.koroad.or.kr 또는 safedriving.or.kr.', source: '도로교통공단', sourceUrl: 'https://www.koroad.or.kr' },
-    { q: '75세 이상 갱신 주기?', a: '3년. 2026년부터 생일 전후 6개월 이내.', source: '도로교통공단', sourceUrl: 'https://www.koroad.or.kr' },
-    { q: '안 받으면?', a: '면허 정지 → 추가 미이수 시 취소.', source: '도로교통공단', sourceUrl: 'https://www.koroad.or.kr' },
+    {
+      q: '고령 운전자 교통안전교육 대상은 누구인가요?',
+      a: '만 65세 이상 운전면허 소지자가 대상입니다. 75세 이상은 면허 갱신 시 의무 교육이며, 65~74세는 권장 교육입니다. 신체·인지 기능 변화를 고려한 안전운전 방법을 배웁니다.',
+      source: '도로교통공단',
+      sourceUrl: 'https://www.koroad.or.kr',
+    },
+    {
+      q: '교통안전교육 비용은 얼마인가요?',
+      a: '전액 무료입니다. 온라인 및 집합 교육 모두 본인 부담 비용이 없으며 교통비나 수강료도 발생하지 않습니다.',
+      source: '도로교통공단',
+      sourceUrl: 'https://www.koroad.or.kr',
+    },
+    {
+      q: '온라인 교육은 어디서 받을 수 있나요?',
+      a: '도로교통공단 교통안전 교육센터(trafficedu.koroad.or.kr) 또는 안전운전 통합민원(safedriving.or.kr)에서 본인 인증 후 수강할 수 있습니다. 2시간 분량의 영상·이론·평가로 구성됩니다.',
+      source: '도로교통공단',
+      sourceUrl: 'https://trafficedu.koroad.or.kr',
+    },
+    {
+      q: '75세 이상은 면허 갱신 주기가 어떻게 되나요?',
+      a: '75세 이상은 면허 갱신 주기가 5년에서 3년으로 단축됩니다. 갱신 시 인지능력 자가진단 검사와 교통안전교육 2시간이 의무 포함됩니다.',
+      source: '도로교통공단',
+      sourceUrl: 'https://www.koroad.or.kr',
+    },
+    {
+      q: '교육을 받지 않으면 어떻게 되나요?',
+      a: '75세 이상이 의무 교육을 받지 않으면 면허 갱신이 불가능합니다. 면허가 갱신되지 않으면 운전이 금지되므로 갱신 기간 내에 교육을 이수해야 합니다.',
+      source: '도로교통공단',
+      sourceUrl: 'https://www.koroad.or.kr',
+    },
   ],
   sources: [
     { label: '도로교통공단', url: 'https://www.koroad.or.kr' },

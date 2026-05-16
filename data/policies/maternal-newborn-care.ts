@@ -73,11 +73,36 @@ export const maternalNewbornCarePolicy = {
       sourceNote: '* 출처: 보건복지부' },
   ],
   faq: [
-    { q: '어떤 서비스?', a: '교육받은 건강관리사가 가정 방문해 5~25일간 산모 회복·신생아 돌봄. 산후 식사·신생아 목욕 수유·산모 케어·가사 일부.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '누가 받나요?', a: '출산 가정. 중위소득 150% 이하 우선 지원. 쌍둥이·미숙아·고위험 산모 기간 연장 + 부담 인하.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '신청 기한은?', a: '출산 후 60일 이내. 출산 예정일 40일 전부터도 신청 가능. 미숙아 등 특수 사유는 연장.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '본인 부담은?', a: '소득과 출산 유형에 따라 차등. 중위 150% 이하 가구는 본인 부담이 매우 낮음. 둘째·쌍둥이는 추가 우대.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '다른 출산 지원과 중복?', a: '첫만남 이용권·진료비·부모급여·아동수당·출산휴가 등 모두 중복 가능. 결합 활용 권장.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '어떤 서비스?',
+      a: '교육받은 건강관리사가 가정 방문해 5~25일간 산모 회복·신생아 돌봄. 산후 식사·신생아 목욕 수유·산모 케어·가사 일부.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '누가 받나요?',
+      a: '출산 가정. 중위소득 150% 이하 우선 지원. 쌍둥이·미숙아·고위험 산모 기간 연장 + 부담 인하.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '신청 기한은?',
+      a: '출산 후 60일 이내에 거주지 보건소를 방문하거나 복지로(bokjiro.go.kr) 온라인으로 신청합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '본인 부담은?',
+      a: '소득과 출산 유형에 따라 차등. 중위 150% 이하 가구는 본인 부담이 매우 낮음. 둘째·쌍둥이는 추가 우대.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '다른 출산 지원과 중복?',
+      a: '산모는 출산 직후 회복기에 충분한 휴식과 도움이 필요하고 신생아 돌봄도 부담이 큽니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부 공식 사이트', url: 'https://www.mohw.go.kr' },

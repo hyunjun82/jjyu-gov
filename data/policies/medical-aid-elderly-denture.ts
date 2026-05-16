@@ -81,11 +81,36 @@ export const medicalAidElderlyDenturePolicy = {
     },
   ],
   faq: [
-    { q: '대상은?', a: '65세 이상 의료급여 수급자 (1종 또는 2종).', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '본인부담률?', a: '1종 5%, 2종 15%. 일반 건강보험 30% 대비 매우 저렴.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '임플란트 한도?', a: '평생 2개. 어금니·앞니 모두 가능.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '틀니 주기?', a: '7년에 1회. 사후 유지관리는 3개월 이내 6회.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '사전 등록?', a: '필수. 의료급여 지정 치과에서 공단에 사전 등록 신청.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '의료급여 틀니·임플란트 지원 대상은 누구인가요?',
+      a: '65세 이상 의료급여수급자(1종·2종)가 대상입니다. 완전틀니·부분틀니·치과임플란트(평생 2개) 모두 지원하며 본인부담은 1종 5%, 2종 15%입니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '본인부담률은 얼마인가요?',
+      a: '의료급여 1종 수급자는 5%, 2종 수급자는 15%의 본인부담률이 적용됩니다. 나머지 금액은 정부가 부담하므로 실제 자부담이 매우 적습니다.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.nhis.or.kr',
+    },
+    {
+      q: '임플란트는 몇 개까지 지원받을 수 있나요?',
+      a: '65세 이상 의료급여수급자는 평생 2개까지 치과임플란트 급여 적용을 받을 수 있습니다. 2개를 초과하면 비급여로 본인이 전액 부담해야 합니다.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.nhis.or.kr',
+    },
+    {
+      q: '틀니는 얼마나 자주 교체 지원받을 수 있나요?',
+      a: '완전틀니와 부분틀니는 동일 부위 기준 7년에 1회 급여가 적용됩니다. 시술 후 3개월 이내 6회까지 사후 유지관리 비용도 지원됩니다.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.nhis.or.kr',
+    },
+    {
+      q: '사전에 등록이 필요한가요?',
+      a: '시술 받을 의료급여 지정 치과에서 직접 신청합니다. 별도 사전 등록 절차는 없으나 의료급여 지정 치과를 방문해 급여 적용 가능 여부를 확인하고 시술 계획을 세워야 합니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부', url: 'https://www.mohw.go.kr' },

@@ -68,11 +68,36 @@ export const lowIncomePensionPolicy = {
       sourceNote: '* 출처: 보건복지부' },
   ],
   faq: [
-    { q: '얼마 지원받나요?', a: '국민연금 보험료의 50%를 생애 최대 12개월간 지원. 54만원 절감.', source: '보건복지부 (2026)', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '월 소득 80만원 미만 국민연금 지역가입자. 2026년부터 납부 재개 여부 무관.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어떻게 신청하나요?', a: '국민연금공단 지사 방문 또는 nps.or.kr 온라인. 1355 콜센터 사전 상담 권장.', source: '국민연금공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '2026년 변화는?', a: '대상 19만→73만 6천명 3.8배 확대. 예산 519억→824억 305억 증액. 납부 재개 요건 폐지.', source: '보건복지부 (2026)', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '12개월 후에는?', a: '본인 부담 100% 전환. 생애 1회 한도라 재신청 불가. 가입 유지 권장.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '얼마 지원받나요?',
+      a: '국민연금 보험료의 50%를 생애 최대 12개월간 지원받습니다',
+      source: '보건복지부 (2026)',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '국민연금 지역가입자(자영업자·프리랜서·농어업인·비정규직 등) 중 월 소득이 80만원 미만인 분이 대상입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 관할 국민연금공단 지사를 방문하거나 국민연금공단 누리집(nps.or.kr)에서 신청합니다',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '2026년 변화는?',
+      a: '대상 19만→73만 6천명 3.8배 확대. 예산 519억→824억 305억 증액. 납부 재개 요건 폐지.',
+      source: '보건복지부 (2026)',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '12개월 후에는?',
+      a: '저소득 지역가입자는 보험료 부담으로 납부를 중단하기 쉽고 결국 노후에 국민연금 수령액이 적어지는 악순환이 발생합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부 정책뉴스 「저소득 지역가입자 보험료 지원」', url: 'https://www.mohw.go.kr' },

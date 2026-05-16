@@ -71,11 +71,36 @@ export const extendedChildcareFeePolicy = {
     }
   ],
   faq: [
-    { q: '얼마 지원?', a: '연장 보육료 정부 일부 지원. 유형별 차등.', source: '보건복지부', sourceUrl: 'https://www.korea.kr' },
-    { q: '누가?', a: '맞벌이·한부모·장애·다자녀 우선. 일반도 가능.', source: '보건복지부', sourceUrl: 'https://www.korea.kr' },
-    { q: '어떻게?', a: '어린이집 신청 + 행정복지센터 또는 복지로.', source: '보건복지부', sourceUrl: 'https://www.korea.kr' },
-    { q: '어디서?', a: '연장 운영 어린이집. 평일·24시간·휴일·토요.', source: '보건복지부', sourceUrl: 'https://www.korea.kr' },
-    { q: '다른 양육과 중복?', a: '아동수당·부모급여·아이돌봄 등 모두 중복.', source: '보건복지부', sourceUrl: 'https://www.korea.kr' }
+    {
+      q: '얼마 지원?',
+      a: '보건복지부 연장보육 보육료 시간연장 사업으로 연장 보육료의 일부를 정부가 지원합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '누가?',
+      a: '맞벌이·한부모·장애 부모·다자녀·다문화 가정 등 정규 시간 외 보육이 꼭 필요한 가정이 우선 대상입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '어린이집에 연장 보육 신청 후 거주지 행정복지센터나 복지로에서 본 사업 보육료 지원 신청을 합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '어디서?',
+      a: '일반 영유아 보육료는 정규 시간(7:30~19:30) 보육에 대한 지원이고 본 사업은 그 외 연장 시간에 대한 추가 지원입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '다른 양육과 중복?',
+      a: '맞벌이 가정이 늘면서 정규 시간 외에도 보육이 필요한 경우가 많아졌습니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.korea.kr',
+    },
   ],
   sources: [
     { label: '보건복지부 공식 사이트', url: 'https://www.korea.kr' },

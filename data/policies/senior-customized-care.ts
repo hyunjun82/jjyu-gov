@@ -81,11 +81,36 @@ export const seniorCustomizedCarePolicy = {
     },
   ],
   faq: [
-    { q: '신청 자격?', a: '65세 이상 + 기초수급·차상위·기초연금 + 돌봄 필요.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '본인부담?', a: '0원. 전액 국가 부담 (무상).', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '서비스 시간?', a: '중점돌봄 월 20~40시간 미만, 일반돌봄 월 16시간 미만.', source: '한국노인인력개발원', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어디서 신청?', a: '행정복지센터 또는 복지로(bokjiro.go.kr), 1661-2129.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '장기요양과 중복?', a: '불가. 장기요양 등급자는 장기요양으로 통합 관리.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '노인맞춤돌봄서비스 신청 자격은 어떻게 되나요?',
+      a: '65세 이상으로 국민기초생활수급자·차상위계층·기초연금수급자 중 하나에 해당하고 독거·조손·고령부부 가구 등 돌봄이 필요한 어르신이 대상입니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '본인 부담 비용이 있나요?',
+      a: '본인 부담이 전혀 없습니다. 안전 확인·사회 참여·생활교육·일상생활 지원 등 모든 서비스가 국가에서 전액 부담하는 무료 서비스입니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '서비스는 얼마나 자주 제공되나요?',
+      a: '대상 어르신의 돌봄 필요도에 따라 중점돌봄군(월 16시간 이상)과 일반돌봄군(월 16시간 미만)으로 나뉩니다. 안전 확인 전화는 매일 이루어지며 방문 서비스는 주 1~5회 제공됩니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어디서 신청하나요?',
+      a: '거주지 행정복지센터(읍·면·동 주민센터)에 방문 신청하거나 복지로(bokjiro.go.kr)에서 온라인 신청이 가능합니다. 본인·가족·이웃·사회복지전담공무원 누구든 신청할 수 있습니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.bokjiro.go.kr',
+    },
+    {
+      q: '장기요양서비스와 중복 이용이 가능한가요?',
+      a: '장기요양 1~5등급 판정자는 노인맞춤돌봄서비스 대신 장기요양 서비스를 이용하는 것이 원칙입니다. 다만 장기요양 등급이 없는 경우 본 서비스로 지원받을 수 있습니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부', url: 'https://www.mohw.go.kr' },

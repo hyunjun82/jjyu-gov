@@ -64,11 +64,36 @@ export const elderlyContinueEmployPolicy = {
       sourceNote: '* 출처: 고용노동부 + 일반 노동법 안내' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '사업주에게 근로자 1인당 월 30만원, 최대 3년 1,080만원. 대상은 우선지원대상기업·중견기업·사회적기업.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '누가 받나요?', a: '근로자가 아닌 사업주가 받습니다. 정년 연장(1년 이상)·정년 폐지·정년퇴직자 재고용 중 하나 이상 도입한 우선지원·중견·사회적기업.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '어떻게 신청하나요?', a: '사업주가 고용24(work24.go.kr) 또는 관할 고용센터에 신청. 취업규칙·근로계약서·근로자 명단 제출.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '비수도권 우대는?', a: '2026년부터 비수도권 기업에 대한 지원이 확대됐습니다. 별도 우대폭은 고용노동부 안내 확인.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '근로자 임금은 어떻게 되나요?', a: '본 장려금은 사업주 인건비 보조라 근로자 임금이 자동 보장되지는 않음. 정년 연장은 기존 조건 유지, 재고용은 새 계약 협의.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '사업주에게 근로자 1인당 월 30만원, 최대 3년 1,080만원. 대상은 우선지원대상기업·중견기업·사회적기업.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '누가 받나요?',
+      a: '근로자가 아닌 사업주가 받습니다. 정년 연장(1년 이상)·정년 폐지·정년퇴직자 재고용 중 하나 이상 도입한 우선지원·중견·사회적기업.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '사업주가 고용24(work24.go.kr) 또는 관할 고용센터에 신청. 취업규칙·근로계약서·근로자 명단 제출.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '비수도권 우대는?',
+      a: '2026년부터 비수도권 소재 기업에 대한 지원이 확대됐습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '근로자 임금은 어떻게 되나요?',
+      a: '본 장려금은 사업주 인건비 보조라 근로자 임금이 자동 보장되지는 않음. 정년 연장은 기존 조건 유지, 재고용은 새 계약 협의.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
   ],
   sources: [
     { label: '고용노동부 카드뉴스 「고령자 계속고용 장려금」', url: 'https://www.moel.go.kr' },

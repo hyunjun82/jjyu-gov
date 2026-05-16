@@ -69,11 +69,36 @@ export const infantHealthCheckupPolicy = {
       sourceNote: '* 출처: 국민건강보험공단' },
   ],
   faq: [
-    { q: '어떤 검진?', a: '일반 8회(키·체중·발달) + 구강 8회 = 총 16회 무료. 생후 14일부터 71개월까지.', source: '보건복지부 + 국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '누가 받나요?', a: '국민건강보험 가입된 만 6세 미만 영유아 전체. 의료급여 수급자 자녀도 동일.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어떻게 신청?', a: '별도 신청 없음. 검진 시기마다 안내장 자동 도착. 지정 의료기관 예약 후 방문.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '비용은?', a: '본인 부담 0원 완전 무료. 검진 비용 전액 건강보험 부담.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '결과 이상 시?', a: '추가 검사·전문 병원 자동 안내. 발달 지연은 영유아 발달 정밀검사로 연계 지원.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '어떤 검진?',
+      a: '일반 건강검진 8회와 구강검진 8회가 무료로 제공됩니다',
+      source: '보건복지부 + 국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '누가 받나요?',
+      a: '보건복지부 영유아 무료 건강검진은 국민건강보험에 가입된 만 6세 미만 영유아 전체가 대상입니다',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어떻게 신청?',
+      a: '별도 신청 없음. 검진 시기마다 안내장 자동 도착. 지정 의료기관 예약 후 방문.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '비용은?',
+      a: '영유아기는 성장·발달이 가장 빠른 시기로 이상이 있으면 조기 발견과 개입이 중요합니다',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '결과 이상 시?',
+      a: '추가 검사·전문 병원 자동 안내. 발달 지연은 영유아 발달 정밀검사로 연계 지원.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '국민건강보험공단 (운영기관)', url: 'https://www.mohw.go.kr' },

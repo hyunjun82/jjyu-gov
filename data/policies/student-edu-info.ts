@@ -69,11 +69,36 @@ export const studentEduInfoPolicy = {
       sourceNote: '* 출처: 교육부' },
   ],
   faq: [
-    { q: '뭘 받나요?', a: '학습용 PC(데스크톱 또는 노트북) 무상 + 인터넷 통신비 월 1만 7천원 자동 차감. 디지털 학습 인프라 통합.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '초·중·고 재학 자녀 + 기초수급·차상위·한부모 등 저소득 가구. 다자녀·조손가정 추가 우대.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 행정복지센터 또는 복지로. 자녀 재학증명서·가족관계·소득증빙 제출. 학교 사회복지사도 도움.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '졸업하면?', a: '일반적으로 반납. 일부 지자체는 일정 기간 후 소유권 이전. 보급 시 안내받기.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '다른 학생 지원과 중복?', a: '국가장학금·교육급여·꿈사다리 등 모두 중복 가능. 본 사업은 디지털 인프라 특화 보완.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
+    {
+      q: '뭘 받나요?',
+      a: '학습용 PC(데스크톱 또는 노트북) 무상 + 인터넷 통신비 월 1만 7천원 자동 차감. 디지털 학습 인프라 통합.',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '교육부 교육정보화 지원은 두 가지 조건을 모두 충족해야 합니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 읍·면·동 행정복지센터를 방문하거나 복지로(bokjiro.go.kr) 온라인으로 신청합니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '졸업하면?',
+      a: 'PC와 인터넷은 더 이상 선택이 아닌 학습 필수재가 됐습니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '다른 학생 지원과 중복?',
+      a: '본 사업으로 받은 PC는 일정 기간 무상 수리 보증이 적용되는 경우가 많습니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
   ],
   sources: [
     { label: '교육부 공식 사이트', url: 'https://www.moe.go.kr' },

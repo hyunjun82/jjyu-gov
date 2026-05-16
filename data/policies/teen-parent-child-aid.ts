@@ -76,11 +76,36 @@ export const teenParentChildAidPolicy = {
       sourceNote: '* 출처: 여성가족부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '자녀 1인당 월 25만원. 자녀가 둘이면 50만원, 셋이면 75만원.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '부부 모두 만 24세 이하 + 자녀 양육 중 + 저소득.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '청소년한부모와 다른가요?', a: '청소년부모 = 부부 둘 다, 청소년한부모 = 한 명만. 본 사업 양육비 25만원, 한부모는 35만원+학습비.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 행정복지센터 또는 한부모가족지원센터. 자녀 출생증명·소득증빙 제출.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '25세 넘으면?', a: '본 사업 종료. 일반 한부모 양육비나 다른 자녀 지원으로 전환. 사전 상담 권장.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '아동양육비 지원은 여성가족부 청소년부모 양육비로 자녀 1인당 월 25만원의 양육비가 정기 지급됩니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '24세 기준 청소년부모는 부부 모두 만 24세 이하인 경우, 청소년한부모는 양친 중 한 명만 있는 만 24세 이하 한부모입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '청소년한부모와 다른가요?',
+      a: '청소년부모 = 부부 둘 다, 청소년한부모 = 한 명만. 본 사업 양육비 25만원, 한부모는 35만원+학습비.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 읍·면·동 행정복지센터 방문 또는 한부모가족지원센터에서 신청. 신청서·신분증·가족관계증명서·자녀 출생증명서·소득증빙이 필요합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '25세 넘으면?',
+      a: '청소년 시기에 임신·출산해 부모가 된 청년 부부는 학업과 자립이 동시에 어려워지면서 자녀 양육 부담이 매우 큽니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 공식 사이트', url: 'https://www.mogef.go.kr' },

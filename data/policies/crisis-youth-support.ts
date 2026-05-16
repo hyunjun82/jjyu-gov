@@ -69,11 +69,36 @@ export const crisisYouthSupportPolicy = {
       sourceNote: '* 출처: 여성가족부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '연 650만원 범위 (생활 월 65만원, 학업 연 154만원, 의료 연 200만원 등). 항목별 차등.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '만 9~24세 위기 청소년 (가정 해체·학대·가출·은둔·자해·경제적 빈곤 등). 1388 상담 평가.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어떻게 신청하나요?', a: '1388 전화·문자·카카오톡 24시간 상담. 사례관리자가 위기 평가 후 맞춤 지원.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '비밀 보장 되나요?', a: '본인 동의 없이 외부 비공개. 가정폭력·학대 시 본인 단독 상담 가능, 부모 동의 면제.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '다른 지원과 중복?', a: '꿈사다리·국가장학금·한부모 양육비 등 중복 가능. 동일 항목(의료비 등)은 일부 조정.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '위기청소년 특별지원은 항목별로 차등 지급되어 연 합산 650만원 범위에서 지원받을 수 있습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '여성가족부 위기청소년 특별지원은 만 9~24세 위기 청소년이 대상입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '청소년상담복지센터(1388)로 본인 또는 보호자가 전화·문자·카카오톡으로 상담 신청합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '비밀 보장 되나요?',
+      a: '1388은 청소년상담복지센터의 24시간 무료 상담 전화입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '다른 지원과 중복?',
+      a: '본 사업은 현금 지원만이 아니라 통합 사례관리까지 함께 제공합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 공식 사이트', url: 'https://www.mogef.go.kr' },

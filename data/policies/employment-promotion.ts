@@ -68,11 +68,36 @@ export const employmentPromotionPolicy = {
       sourceNote: '* 출처: 고용노동부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '사업주에게 근로자 1인당 최대 720만원 (6·12개월 차 각 360만원). 1년 근속 시 전액.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '누가 대상?', a: '장애인·여성가장·고령자(55세+)·취업성공패키지 참여자 등 취업 취약계층 신규 채용 시. 사업주는 우선지원·중견·사회적기업.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '어떻게 신청?', a: '채용 전 고용24(work24.go.kr) 사전 신청. 6·12개월 근속 후 사후 청구.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '근로 조건은?', a: '주 30시간 이상 정규직 또는 무기 계약직. 4대 보험 가입 필수. 단기·일용은 제외.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '다른 장려금 중복?', a: '동일 근로자에 대해 고용창출·청년 도약장려금 등과는 중복 제한. 고용센터 사전 상담 권장.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '고용촉진장려금은 근로자 1인당 1년간 최대 720만원이 사업주에게 지급됩니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '누가 대상?',
+      a: '장애인·여성가장·고령자(55세+)·취업성공패키지 참여자 등 취업 취약계층 신규 채용 시. 사업주는 우선지원·중견·사회적기업.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '어떻게 신청?',
+      a: '채용 전에 사업주가 고용24(work24.go.kr)에서 사전 신청해야 하며 채용 후 6개월·12개월 근속 시점에 사후 청구합니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '근로 조건은?',
+      a: '채용된 근로자는 주 30시간 이상 정규직(또는 정규직에 준하는 무기 계약직)이어야 합니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '다른 장려금 중복?',
+      a: '취업이 특히 어려운 취약계층은 일반 노동시장에서 배제되기 쉽습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
   ],
   sources: [
     { label: '고용노동부 공식 사이트', url: 'https://www.moel.go.kr' },

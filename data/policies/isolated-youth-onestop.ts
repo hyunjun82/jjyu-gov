@@ -80,11 +80,36 @@ export const isolatedYouthOnestopPolicy = {
     },
   ],
   faq: [
-    { q: '어떤 지원?', a: '심리·재활·자립 통합. 단계별 무료 회복 지원.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '누가?', a: '만 9~24세 고립·은둔 청소년. 가족도 의뢰 가능.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어떻게?', a: '1388 전화·문자·카톡. 아웃리치 방식 운영. 본인이 어려우면 가족이 대신.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '비밀 보장?', a: '본인 동의 우선. 학교·직장 통보 X. 부모도 제한적 공유.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '비용?', a: '전 단계 무료. 치료 연계 시 저비용 또는 무료.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '어떤 지원?',
+      a: '고립청소년 원스톱 패키지 - 여성가족부 고립·은둔 청소년 원스톱 패키지는 사회적으로 고립되어 집에서 거의 안 나오는 청소년을 발굴해 회복 단계별로 통합 지원합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '만 9~24세 청소년 중 사회적 고립·은둔 상태에 있는 누구나 대상입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '1388(청소년상담복지센터) 24시간 전화·문자(#1388)·카카오톡으로 의뢰합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '비밀 보장?',
+      a: '본인 동의 우선. 학교·직장 통보 X. 부모도 제한적 공유.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '비용?',
+      a: '본 사업은 단순 상담을 넘어 정신건강 전문가(정신건강의학과·심리치료사)와 연계해 약물·심리치료까지 무료 또는 매우 낮은 비용으로 받을 수 있습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부', url: 'https://www.mogef.go.kr' },

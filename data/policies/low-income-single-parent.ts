@@ -79,11 +79,36 @@ export const lowIncomeSingleParentPolicy = {
     }
   ],
   faq: [
-    { q: '얼마 받나요?', a: '자녀 1인 월 23만원 + 추가 10만원 + 학용품비 연 10만원 + 생활보조 월 10만원. 2026 인상.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '누가 받나요?', a: '만 25세 이상 한부모 + 자녀 18세 미만 + 기준중위소득 65% 이하.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '어떻게 신청?', a: '거주지 행정복지센터 또는 복지로. 가족관계·자녀양육·소득증빙.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '청소년한부모와 차이?', a: '25세 기준으로 구분. 본 사업이 일반 한부모, 청소년한부모는 24세 이하 더 큰 통합 지원.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '2026 변화?', a: '추가·학용품·생활보조 인상, 소득 기준 63→65% 완화.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' }
+    {
+      q: '얼마 받나요?',
+      a: '자녀 1인 월 23만원 + 추가 10만원 + 학용품비 연 10만원 + 생활보조 월 10만원. 2026 인상.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '누가 받나요?',
+      a: '만 25세 이상 한부모가족(미혼·이혼·사별·별거)이며 만 18세 미만 자녀를 직접 양육하고 가구 소득이 기준중위소득 65% 이하여야 합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '어떻게 신청?',
+      a: '거주지 행정복지센터를 방문하거나 복지로 온라인 신청. 신청서·신분증·가족관계증명서·자녀 양육 증빙·소득증빙이 필요합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '청소년한부모와 차이?',
+      a: '청소년한부모는 만 24세 이하, 본 사업은 만 25세 이상이 대상입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '2026 변화?',
+      a: '추가아동양육비가 5~10만원에서 10만원으로 인상, 학용품비가 9.3만원에서 10만원, 생활보조금이 5만원에서 10만원으로 두 배 인상됐습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 공식 사이트', url: 'https://www.korea.kr' },

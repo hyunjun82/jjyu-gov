@@ -80,11 +80,36 @@ export const generalStudentLoanPolicy = {
     },
   ],
   faq: [
-    { q: '얼마 대출?', a: '학기 등록금 전액 + 생활비 150만원. 4년 누적 4,000~6,000만원.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '누가?', a: '국내 학부 재학생. 평균 70점+. 소득·신용 거의 무관.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '어떻게?', a: 'kosaf.go.kr 학기별. 등록금 학교 직접, 생활비 본인 계좌.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '국가장학과 차이?', a: '장학=무상, 대출=상환. 8구간 이하 장학 우선, 9~10은 대출 주력.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '재학 중 이자?', a: '무이자 (정부 부담). 졸업 후 연 2~3% 시작.', source: '한국장학재단', sourceUrl: 'https://www.moe.go.kr' },
+    {
+      q: '얼마 대출?',
+      a: '교육부 한국장학재단 일반상환 학자금 대출은 학기당 등록금 전액과 생활비 150만원까지 받을 수 있습니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '국내 4년제 대학·2년제 전문대 학부 재학생이 대상입니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: 'kosaf.go.kr 회원가입 후 학기별로 신청. 본인 인증, 가구원 동의(소득 산정), 대출 약정 등 절차를 거칩니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '국가장학과 차이?',
+      a: '국가장학금은 갚지 않는 무상 장학(8구간 이하), 본 대출은 갚아야 하는 융자(소득 무관). 본인 소득분위가 8구간 이하면 국가장학금이 우선이고 그래도 부족한 등록금·생활비는 본 대출로 보완. 9~10구간은 본 대출이 주된 수단. 본 정책은 정부 공식 자료에 기반하며 .',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '재학 중 이자?',
+      a: '재학 중에는 본 대출에 대한 이자가 정부가 부담해 본인이 내지 않습니다',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
   ],
   sources: [
     { label: '한국장학재단', url: 'https://www.moe.go.kr' },

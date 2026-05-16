@@ -81,11 +81,36 @@ export const momPregnancyOnestopPolicy = {
     },
   ],
   faq: [
-    { q: '뭘 받나?', a: '국민행복카드·엽산·철분·건강수첩·KTX/SRT 할인·지자체 사업.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '대상은?', a: '신청일 기준 임신 중 본인 (거주지에서 신청).', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '엽산·철분?', a: '엽산 임신 1~12주, 철분 20주~. 본인부담 0.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어디서 신청?', a: '정부24 또는 거주지 행정복지센터·보건소.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '행복출산과 차이?', a: '맘편한=임신 중, 행복출산=출산 후. 둘 다 활용.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '뭘 받나?',
+      a: '맘편한임신 원스톱(보건복지부) - 본 서비스는 본인이 임신 1회 신청으로 ①국민행복카드(단태아 100만/다태아 140만) ②엽산제(임신 1~12주) ③철분제(임신 20주~) ④산모·신생아 표준 건강수첩 ⑤KTX·SRT 임산부 할인 30~50% ⑥지자체별 추가 사업(임산.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '대상은?',
+      a: '임신원스톱 엽산철분 - 대상은 신청일 기준 임신 중인 본인입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '엽산·철분?',
+      a: '엽산제는 임신 1~12주(초기) 본인에게 무상 지급. 태아 신경관 결손 예방을 위해 임신 초기에 매일 복용 권장. 철분제는 임신 20주~ 본인에게 무상 지급. 임신 후반기 빈혈 예방을 위해 매일 복용. 두 보충제 모두 거주지 보건소 방문 수령 또는 택배 배송(본인이 택.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어디서 신청?',
+      a: '임산부 KTX·SRT 할인은 본인이 임신 확인 후 코레일·SRT 회원 가입 시 임산부 등록을 하면 KTX·SRT 일반실 운임 30~50% 할인을 출산 1년 후까지 적용받습니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '행복출산과 차이?',
+      a: '신청은 ①정부24(gov.kr) "맘편한 임신" 검색 → 본인 인증(공동인증서·간편인증) → 통합 신청 ②거주지 행정복지센터 방문 ③거주지 보건소 방문. 신청 시 본인 임신확인서(산부인과 발급)·신분증·통장 사본·주민등록등본 필요',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부', url: 'https://www.mohw.go.kr' },

@@ -64,11 +64,36 @@ export const tipsProgramPolicy = {
       sourceNote: '* 출처: 중기부 일반 안내' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '민간 선투자 1억 + 정부 R&D 5억 + 사업화 2억 = 한 기업당 최대 8억원. 스케일업·특정 분야는 더 큼.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '누가 받을 수 있나요?', a: 'TIPS 운영사(VC 등)로부터 1억원 이상 선투자받은 기술창업기업. 직접 신청 불가, 운영사 추천 필수.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '어떻게 신청하나요?', a: 'jointips.or.kr에서 TIPS 운영사 검색 → IR → 1억원 투자 유치 → 운영사가 정부에 추천 → 평가 → 선정.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '2026년 변화는?', a: '예산 전년 대비 45% 증액(2.2조원), R&D 3,890억원 신규 편성, 풀사이클 지원 체계로 재편.', source: '중기부 (2026)', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '스케일업 TIPS는?', a: '시리즈 A 이후 성장기 기업 대상. R&D·글로벌 진출 한도 더 크고 후기 VC가 운영사로 참여.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '민간 선투자 1억 + 정부 R&D 5억 + 사업화 2억 = 한 기업당 최대 8억원. 스케일업·특정 분야는 더 큼.',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: 'TIPS 운영사(VC 등)로부터 1억원 이상 선투자받은 기술창업기업. 직접 신청 불가, 운영사 추천 필수.',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: 'jointips.or.kr에서 TIPS 운영사 검색 → IR → 1억원 투자 유치 → 운영사가 정부에 추천 → 평가 → 선정.',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '2026년 변화는?',
+      a: 'TIPS의 핵심은 민간이 먼저 시장성을 검증하고 정부가 매칭하는 구조에 있습니다',
+      source: '중기부 (2026)',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '스케일업 TIPS는?',
+      a: '2026년 TIPS 예산은 전년 대비 45% 증액된 2.2조원 규모로 확대됐고, 3,890억원이 R&D 신규 편성됐습니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
   ],
   sources: [
     { label: '중기부 정책위키 「팁스 TIPS」', url: 'https://www.mss.go.kr' },

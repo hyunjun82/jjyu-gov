@@ -69,11 +69,36 @@ export const teenFemaleHygienePolicy = {
       sourceNote: '* 출처: 여성가족부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '연 16만원 (월 1만 3천원 안팎) 국민행복카드 바우처. 편의점·약국·온라인 지정 가맹점 사용.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '만 9~24세 여성청소년 + 기초수급·차상위·한부모가족 등 저소득 가구.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어떻게 신청하나요?', a: '복지로(bokjiro.go.kr) 온라인 또는 거주지 행정복지센터. 국민행복카드에 바우처 자동 충전.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어디에 쓰나요?', a: 'CU·GS25 등 편의점, 약국, 지정 온라인몰에서 생리용품 구매. 다른 상품 사용 불가.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '24세 넘으면?', a: '본 사업 종료. 일부 지자체 성인 여성 별도 지원 운영. 거주지 행정복지센터 확인.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '연 16만원이 국민행복카드에 바우처로 충전되어 매월 1만 3천원 안팎을 사용할 수 있습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '여성가족부 사업으로 두 가지 조건을 모두 충족해야 합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '복지로(bokjiro.go.kr) 온라인 또는 거주지 읍·면·동 행정복지센터에서 신청합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어디에 쓰나요?',
+      a: 'CU·GS25 등 편의점, 약국, 지정 온라인몰에서 생리용품 구매. 다른 상품 사용 불가.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '24세 넘으면?',
+      a: '저소득 가구 여성청소년이 생리용품 구입 비용 부담으로 위생용품을 충분히 사용하지 못하거나 휴지·천 등 부적절한 대체품을 사용하는 사례가 보고되면서 도입됐습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 - 여성청소년 생리용품 지원', url: 'https://www.mogef.go.kr' },

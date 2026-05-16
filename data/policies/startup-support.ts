@@ -64,11 +64,36 @@ export const startupSupportPolicy = {
       sourceNote: '* 출처: 중기부 일반 절차' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '예비 최대 5천만원, 초기 1억원, 도3억원. 자금 외에 멘토링·투자 연계 패키지로 함께 제공.', source: '중기부 (2026)', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '예비창업자(예비패키지), 창업 3년 이내(초기), 창업 7년 이내(도약). 사행성·유흥업 등 일부 제외.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '어떻게 신청하나요?', a: 'K-Startup 누리집(k-startup.go.kr)에서 회원가입 후 본인 단계 패키지에 온라인 지원. 사업계획서 + 발표 평가.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '딥테크 특화는?', a: 'AI·바이오·반도체·로봇 등 첨단 기술 분야 우선 지원. 한도와 R&D 연계 우대. 2026.1.6~27 모집.', source: '중기부 (2026)', sourceUrl: 'https://www.mss.go.kr' },
-    { q: 'TIPS와 중복?', a: '단계 다르면 매칭 가능. 같은 단계 사업화 패키지는 중복 제한. R&D·해외 진출은 별도 중복 가능.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '예비 최대 5천만원, 초기 1억원, 도3억원. 자금 외에 멘토링·투자 연계 패키지로 함께 제공.',
+      source: '중기부 (2026)',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '예비창업자, 창업 3년 이내 초기기업, 창업 7년 이내 도약기업이 단계별 대상입니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: 'K-Startup 누리집(k-startup.go.kr)에서 회원가입 후 본인 단계 패키지에 온라인 지원. 사업계획서 + 발표 평가.',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '딥테크 특화는?',
+      a: 'AI·바이오·반도체·로봇 등 첨단 기술 분야 우선 지원. 한도와 R&D 연계 우대. 2026.1.6~27 모집.',
+      source: '중기부 (2026)',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: 'TIPS와 중복?',
+      a: '2026년 새로 강화된 트랙으로 AI·바이오·반도체·로봇·우주 등 첨단 기술 기반 창업기업을 우선 지원합니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
   ],
   sources: [
     { label: '중기부 정책뉴스 「2026 창업지원 3조 4645억원」', url: 'https://www.mss.go.kr' },

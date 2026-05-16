@@ -72,11 +72,36 @@ export const disabilityChildAllowancePolicy = {
       sourceNote: '* 출처: 보건복지부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '중증 + 생계/의료급여: 월 22만원. 중증 + 주거/교육/차상위: 17만원. 경증: 일률 11만원. 가구 유형별 차등.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '만 18세 미만 + 등록장애아동(경증 또는 중증) + 기초수급/차상위 가구.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 행정복지센터 또는 복지로 온라인. 보호자가 신청. 장애인등록증·소득재산신고서 제출.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '아동수당과 중복?', a: '아동수당은 보편(만 8세 미만 모든 아동), 본 수당은 선별(장애 + 수급/차상위). 중복 수령 가능.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '18세 되면?', a: '자동 종료. 경증은 장애수당, 중증은 장애인연금으로 전환. 행정복지센터 사전 상담 권장.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '중증 + 생계/의료급여: 월 22만원. 중증 + 주거/교육/차상위: 17만원. 경증: 일률 11만원. 가구 유형별 차등.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '보건복지부 장애아동수당은 두 가지 조건을 모두 충족해야 합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 읍·면·동 행정복지센터 방문 또는 복지로(bokjiro.go.kr) 온라인 신청. 보호자(부모·후견인 등) 명의로 신청합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '아동수당과 중복?',
+      a: '아동수당은 만 8세 미만 모든 아동에게 월 10만원을 지급하는 보편 복지이고, 장애아동수당은 만 18세 미만 등록장애아동 중 저소득 가구에 월 11~22만원을 지급하는 선별 복지입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '18세 되면?',
+      a: '자동 종료. 경증은 장애수당, 중증은 장애인연금으로 전환. 행정복지센터 사전 상담 권장.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부 - 장애아동수당', url: 'https://www.mohw.go.kr' },

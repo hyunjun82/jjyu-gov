@@ -81,11 +81,36 @@ export const womenRestartCenterPolicy = {
     },
   ],
   faq: [
-    { q: '대상은?', a: '경력단절여성 또는 미취업 여성. 연령 제한 없음.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '본인부담?', a: '0원. 직업교육·인턴십·상담 모두 무상.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '직업교육 분야?', a: 'IT·돌봄·서비스·미용·의료 등 100여 직종.', source: '중앙새일지원센터', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어디서 신청?', a: 'saeil.mogef.go.kr 또는 거주지 새일센터, 1544-1199.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '2026 확대?', a: '예산 884억, 경력이음 50명, 예방 90개소.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '대상은?',
+      a: '새일센터 여성새로일하기(여성가족부) - 본 사업은 경력단절여성 및 미취업 여성에게 ①직업 상담 ②구인·구직 매칭 ③직업교육·훈련(IT·디지털·돌봄·서비스 등 다양 직종) ④기업 현장 인턴십 ⑤취·창업 지원 ⑥취업 후 사후관리 ⑦경력단절 예방까지 원스톱으로 통합 지원합니.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '본인부담?',
+      a: '대상은 ①결혼·임신·출산·육아·가족 돌봄 등으로 일을 그만둔 경력단절여성 ②지금까지 취업한 적 없는 미취업 여성. 연령 제한 없으며 청년 여성·중장년 여성·고령 여성 모두 가능. 본인이 새로 시작하려는 직종이 본인 과거 경력과 다른 경우에도 새일센터 직업교육으로 전환 .',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '직업교육 분야?',
+      a: '새일센터 직업교육은 본인 적성·시장 수요에 맞춰 100여 개 직종으로 진행됩니다',
+      source: '중앙새일지원센터',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어디서 신청?',
+      a: '직업교육 수료 또는 직업 상담 후 본인 적성·역량에 맞는 새일센터 협력 기업으로 인턴십(기업 현장 실습) 또는 직접 채용 매칭이 이루어집니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '2026 확대?',
+      a: '신청은 ①거주지 새일센터 방문 ②새일센터 누리집(saeil.mogef.go.kr) 온라인 ③새일센터 콜센터(1544-1199)로 가능. 신청 후 직업 상담사와 1대 1 상담을 통해 본인 적성·경력·희망 직종을 파악하고 본인에게 가장 적합한 직업교육·인턴십·채용 매칭 경.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부', url: 'https://www.mogef.go.kr' },

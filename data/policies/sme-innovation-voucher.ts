@@ -63,11 +63,36 @@ export const smeInnovationVoucherPolicy = {
       sourceNote: '* 출처: 중기부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '기업당 최대 5,000만원 바우처. 정부 70~80% + 자부담 20~30%. 비수도권은 자부담 우대.', source: '중기부 (2026)', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '제조 중소기업. 4개 유형(일반·탄소중립·중대재해예방·재기컨설팅)별 자격. 비수도권 인구감소지역 우대.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '어떻게 신청하나요?', a: '혁신바우처 플랫폼 mssmiv.com 온라인 신청. 사업자등록증·재무제표·사업계획서 제출. 1차 1월, 2차 하반기.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '바우처로 뭘 받나요?', a: '컨설팅(경영·전략), 기술지원(시제품·인증), 마케팅(브랜딩·해외전시), 탄소중립 진단, 안전관리 컨설팅 등.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '비수도권 우대는?', a: '평가 시 가점, 자부담률 낮음. 정책자금 4조 4천억 중 60% 이상 비수도권 배정.', source: '중기부 (2026)', sourceUrl: 'https://www.mss.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '기업당 최대 5,000만원 바우처. 정부 70~80% + 자부담 20~30%. 비수도권은 자부담 우대.',
+      source: '중기부 (2026)',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '제조 중소기업. 4개 유형(일반·탄소중립·중대재해예방·재기컨설팅)별 자격. 비수도권 인구감소지역 우대.',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '혁신바우처 플랫폼 mssmiv.com 온라인 신청. 사업자등록증·재무제표·사업계획서 제출. 1차 1월, 2차 하반기.',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '바우처로 뭘 받나요?',
+      a: '컨설팅(경영·전략), 기술지원(시제품·인증), 마케팅(브랜딩·해외전시), 탄소중립 진단, 안전관리 컨설팅 등.',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '비수도권 우대는?',
+      a: '비수도권 인구감소지역에 위치한 제조 중소기업은 본 사업에서 우선 선발되거나 한도가 우대됩니다',
+      source: '중기부 (2026)',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
   ],
   sources: [
     { label: '중기부 정책뉴스 「중소기업 혁신바우처 최대 5000만원」', url: 'https://www.mss.go.kr' },

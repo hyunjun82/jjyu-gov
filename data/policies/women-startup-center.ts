@@ -81,11 +81,36 @@ export const womenStartupCenterPolicy = {
     },
   ],
   faq: [
-    { q: '대상은?', a: '예비 여성창업자 또는 사업자 등록 7년 미만 여성기업.', source: '여성기업종합지원센터', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '공간은?', a: '전용 10평 내외 + 회의실·공동작업공간.', source: '여성기업종합지원센터', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '임대료는?', a: '시중 대비 매우 저렴. 1년 단위 계약.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '최대 기간?', a: '최장 20년 (연장 심사). 일반 졸업 3~5년.', source: '여성기업종합지원센터', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어디서 신청?', a: 'wbiz.or.kr 또는 거주지 여성창업보육센터.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '대상은?',
+      a: '여성창업보육 여성가족부 - 본 사업은 예비 여성창업자·창업 7년 미만 여성기업에게 ①전용 10평 내외 사무공간 ②회의실·공동 작업공간 ③시중 시세보다',
+      source: '여성기업종합지원센터',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '공간은?',
+      a: '대상은 ①예비 여성창업자(아직 사업자 등록 미완료) 또는 ②사업자 등록 후 7년 미만 여성기업입니다',
+      source: '여성기업종합지원센터',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '임대료는?',
+      a: '제공되는 사무공간은 전용 10평 내외(33㎡) 개별 사무실로 책상·의자·인터넷·전기 등 기본 인프라가 갖춰져 있습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '최대 기간?',
+      a: '입주 기업은 정기 컨설팅(월 1~2회) + 분야별 전문가 자문 + 창업 교육(법인 설립·세무·노무·마케팅·투자 유치 등)을 무상으로 받을 수 있습니다',
+      source: '여성기업종합지원센터',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어디서 신청?',
+      a: '신청은 ①여성기업종합정보포털(wbiz.or.kr) 접속 → 본인 가입 → 입주 신청 ②거주지 여성창업보육센터 직접 방문 ③기업마당(bizinfo.go.kr)에서 모집 공고 확인 후 신청. 모집 공고는 센터별로 1년에 1~4회 진행되며 신청서·사업계획서·여성기업 증빙 서.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부', url: 'https://www.mogef.go.kr' },

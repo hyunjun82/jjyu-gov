@@ -81,11 +81,36 @@ export const youthJobPolicy = {
     },
   ],
   faq: [
-    { q: '어떤 사업?', a: '내일채움공제·도전지원금·국민취업지원제도·도약장려금 등 청년 단계별 패키지.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '연령?', a: '만 15~34세. 병역 복무 시 최대 만 39세까지.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '어떻게?', a: '고용24 또는 1350 상담. 본인 상황 맞춤 사업 선택.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '본인 상황 추천?', a: '니트=도전지원금, 중기 취업=내일채움공제, 구직 활동=국민취업지원제도.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '여러 사업 중복?', a: '단계 다르면 시간 차로 결합 가능. 동시 일부 제한. 1350 사전 상담.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
+    {
+      q: '어떤 사업?',
+      a: '고용노동부 청년일자리 취업 도약 통합 패키지는 본인 상황에 따라 여러 사업을 골라 쓸 수 있습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '연령?',
+      a: '구직 단절(6개월 이상 미취업)이고 무엇을 해야 할지 모르겠다면 청년도전지원금이 가장 적합합니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '고용24(work24.go.kr) 회원가입 후 본인이 원하는 사업에 직접 신청하거나 1350에 전화해 사례관리자와 함께 본인 상황에 맞는 사업을 골라 신청할 수 있습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '본인 상황 추천?',
+      a: '청년 사업 중 동시 수령이 제한되는 경우도 있고 결합 가능한 경우도 있습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '여러 사업 중복?',
+      a: '단계 다르면 시간 차로 결합 가능. 동시 일부 제한. 1350 사전 상담.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
   ],
   sources: [
     { label: '고용노동부', url: 'https://www.moel.go.kr' },

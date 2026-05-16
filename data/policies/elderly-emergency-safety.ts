@@ -71,11 +71,36 @@ export const elderlyEmergencySafetyPolicy = {
       sourceNote: '* 출처: 보건복지부' },
   ],
   faq: [
-    { q: '비용이 드나요?', a: '독거노인·장애인은 장비·통신·유지 모두 무상. 비독거 어르신은 2024년부터 자부담 방식 도입.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '만 65세 이상 실제 독거 어르신과 장애인. 2024년부터 소득 기준 폐지로 거의 모든 홀몸 어르신.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 행정복지센터 방문 또는 중앙모니터링센터 1566-3232 전화 상담. 현장 실사 후 무상 설치.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '응급 시 작동은?', a: '활동 무감지·화재 감지·응급호출 버튼 시 자동으로 119 신고 + 보호자 알림. 24시간 모니터링.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '다른 노인 복지와 중복?', a: '노인 돌봄·치매센터·기초연금·장기요양 등 모두 중복 가능. 본 사업은 응급 대응 특화.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '비용이 드나요?',
+      a: '집 안에 화재 감지기·활동 감지 센서·응급호출 버튼 등 ICT 장비를 무상 설치해 화재·낙상·심정지·장시간 활동 무감지 등 응급 상황을 24시간 자동 감지합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '만 65세 이상 실제 독거 어르신과 장애인 가구가 대상입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '보건복지부 운영 사업으로 거주지 읍·면·동 행정복지센터 또는 지역센터에서 신청합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '응급 시 작동은?',
+      a: '2024년부터 비독거 어르신도 자부담 방식으로 이용 가능해졌습니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '다른 노인 복지와 중복?',
+      a: '활동 감지 센서가 일정 시간 이상 활동을 감지하지 못하면(예: 낙상으로 의식 잃은 경우) 자동으로 중앙모니터링센터에 알림이 갑니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부 카드뉴스 「응급안전안심서비스」', url: 'https://www.mohw.go.kr' },

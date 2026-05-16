@@ -80,11 +80,36 @@ export const teenSingleParentPolicy = {
       sourceNote: '* 출처: 여성가족부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '아동양육비 월 35만원 + 검정고시 학습비 연 154만원 + 자립촉진수당 월 10만원 + 고교 교육비 등. 연 600~800만원 수준.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '만 24세 이하 한부모 + 자녀 직접 양육 + 기준중위소득 일정 이하 저소득.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 행정복지센터 또는 청소년한부모지원센터. 미성년은 단독 신청 가능, 비밀 상담.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '일반 한부모와 차이는?', a: '청소년 = 만 24세 이하 + 추가 학습·자립 지원. 일반 = 만 25세 이상 + 양육비 중심.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '주거 지원은?', a: '한부모가족 복지시설 우선 입소, LH 공동생활가정형 매입임대 연계. 자녀와 함께 거주 가능.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '아동양육비 월 35만원 + 검정고시 학습비 연 154만원 + 자립촉진수당 월 10만원 + 고교 교육비 등. 연 600~800만원 수준.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '여성가족부 청소년한부모 사업은 만 24세 이하 한부모(미혼·이혼·사별 등)이고 본인이 자녀를 직접 양육하면서 가구 소득이 기준중위소득 일정 이하(저소득)여야 합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 읍·면·동 행정복지센터를 방문하거나 한부모가족지원센터·청소년한부모지원센터에서 신청합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '일반 한부모와 차이는?',
+      a: '청소년한부모는 만 24세 이하, 일반 한부모는 만 25세 이상으로 구분됩니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '주거 지원은?',
+      a: '청소년 시기에 임신·출산으로 한부모가 된 청년은 학업 중단·취업 차단·사회적 고립 등 복합 위기에 빠지기 쉽습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 공식 사이트', url: 'https://www.mogef.go.kr' },

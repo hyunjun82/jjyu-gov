@@ -81,11 +81,36 @@ export const homeChildcareAllowancePolicy = {
     },
   ],
   faq: [
-    { q: '얼마 받나?', a: '만 24~86개월 미만 월 10만원 (장애아동 24~36개월은 월 20만원).', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어린이집 다니면?', a: '보육료 지원으로 자동 전환. 양육수당 중단.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '아동수당과 중복?', a: '중복 OK. 월 20만원 동시 수령 가능.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어디서 신청?', a: '주민센터 또는 복지로(bokjiro.go.kr), 정부24, 129.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '부모급여 끝나면?', a: '24개월부터 자동 전환. 별도 신청 불필요.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '얼마 받나?',
+      a: '가정양육수당(어린이집미이용) 보건복지부 - 본 사업은 어린이집·유치원·종일제 아이돌봄을 이용하지 않고 가정에서 양육하는 만 24~86개월 미만 아동에게 월 10만원을 매월 본인(보호자) 계좌로 지급합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어린이집 다니면?',
+      a: '대상은 ①만 24개월 이상~86개월 미만(취학 연도 2월까지) 영유아 ②어린이집·유치원·종일제 아이돌봄을 이용하지 않고 가정에서 양육 중인 아동 ③대한민국 국적 보유. 어린이집·유치원에 다니는 아동은 보육료 또는 유아학비 지원으로 따로 전환되어 가정양육수당 미수령. 단.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '아동수당과 중복?',
+      a: '신청은 ①주민센터(읍·면·동 행정복지센터) 방문 ②복지로(bokjiro.go.kr) 온라인 ③정부24(gov.kr) 중 본인 편한 방식으로 가능. 아기 출생 신고와 동시에 부모급여·아동수당·가정양육수당을 한 번에 신청하면 출생 시점부터 자동 지급. 신청 시 신청서·본인.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어디서 신청?',
+      a: '부모급여는 0~23개월 영아에게 매월 지급되는 별도 수당으로 0~11개월 월 100만원, 12~23개월 월 50만원입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '부모급여 끝나면?',
+      a: '아동이 어린이집에 다니기 시작하면 가정양육수당 지급이 중단되고 보육료 지원(0세 56만원·1세 49만원 등 본인부담 0원)으로 자동 전환됩니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부', url: 'https://www.mohw.go.kr' },

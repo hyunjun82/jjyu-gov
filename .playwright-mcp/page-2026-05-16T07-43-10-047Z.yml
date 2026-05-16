@@ -1,0 +1,508 @@
+- generic [ref=e2]:
+  - generic "스킵내비게이션":
+    - link "주메뉴 바로가기" [ref=e3] [cursor=pointer]:
+      - /url: "#gnb-menu"
+    - link "본문 내용 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#container"
+  - banner [ref=e5]:
+    - paragraph [ref=e7]:
+      - img "eg(전자정부)" [ref=e8]
+      - text: 이 누리집은 대한민국 공식 전자정부 누리집입니다.
+    - generic [ref=e9]:
+      - link "금융위원회" [ref=e11] [cursor=pointer]:
+        - /url: /index
+        - img "금융위원회" [ref=e12]
+      - generic [ref=e13]:
+        - list:
+          - listitem [ref=e14]:
+            - link "알기쉬운 금융" [ref=e15] [cursor=pointer]:
+              - /url: /edu
+          - listitem [ref=e16]:
+            - link "ENGLISH" [ref=e17] [cursor=pointer]:
+              - /url: /eng
+          - listitem [ref=e18]:
+            - link "어린이" [ref=e19] [cursor=pointer]:
+              - /url: /kids
+      - group "검색영역" [ref=e21]:
+        - generic: 검색영역
+        - generic [ref=e23]:
+          - generic:
+            - generic: 검색어를 입력하세요
+          - textbox "검색어를 입력하세요" [ref=e24]:
+            - /placeholder: 검색어를 입력하세요.
+          - button "검색" [ref=e25] [cursor=pointer]:
+            - generic: 검색
+    - navigation [ref=e26]:
+      - generic [ref=e27]:
+        - list:
+          - listitem [ref=e28]:
+            - link "알림마당" [ref=e29] [cursor=pointer]:
+              - /url: /no010101
+              - text: 알림마당
+            - text:   
+          - listitem [ref=e31]:
+            - link "참여마당" [ref=e32] [cursor=pointer]:
+              - /url: /pa030101
+            - text:    
+          - listitem [ref=e33]:
+            - link "정책마당" [ref=e34] [cursor=pointer]:
+              - /url: /po02010101
+            - text:  
+          - listitem [ref=e35]:
+            - link "정보공개" [ref=e36] [cursor=pointer]:
+              - /url: /in010000
+            - text:  
+          - listitem [ref=e37]:
+            - link "적극행정" [ref=e38] [cursor=pointer]:
+              - /url: /ad010101
+            - text:  
+          - listitem [ref=e39]:
+            - link "금융위원회" [ref=e40] [cursor=pointer]:
+              - /url: /fsc010101
+          - listitem [ref=e41]:
+            - link "전체보기" [ref=e42] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - text: 전체보기
+            - text:             
+  - main [ref=e43]:
+    - complementary [ref=e44]:
+      - heading "알림마당" [level=2] [ref=e45]
+      - navigation [ref=e46]:
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - link "확장됨" [expanded] [ref=e49] [cursor=pointer]:
+              - /url: /no010101
+              - text: 위원회 소식
+            - list [ref=e51]:
+              - listitem [ref=e52]:
+                - link "보도자료" [ref=e53] [cursor=pointer]:
+                  - /url: /no010101
+              - listitem [ref=e54]:
+                - link "보도설명자료" [ref=e55] [cursor=pointer]:
+                  - /url: /no010102
+              - listitem [ref=e56]:
+                - link "보고영상" [ref=e57] [cursor=pointer]:
+                  - /url: /no010103
+              - listitem [ref=e58]:
+                - link "알림·채용·입찰" [ref=e59] [cursor=pointer]:
+                  - /url: /no010104
+              - listitem [ref=e60]:
+                - link "새소식" [ref=e61] [cursor=pointer]:
+                  - /url: /no010105
+              - listitem [ref=e62]:
+                - link "사진뉴스" [ref=e63] [cursor=pointer]:
+                  - /url: /no010106
+              - listitem [ref=e64]:
+                - link "정책영상" [ref=e65] [cursor=pointer]:
+                  - /url: /no010107
+          - listitem [ref=e66]:
+            - link "축소됨" [ref=e67] [cursor=pointer]:
+              - /url: /no040101
+              - text: 홍보자료
+            - text: 
+          - listitem [ref=e69]:
+            - link "축소됨" [ref=e70] [cursor=pointer]:
+              - /url: /no020101
+              - text: 의결정보
+            - text: 
+          - listitem [ref=e72]:
+            - link "축소됨" [ref=e73] [cursor=pointer]:
+              - /url: /no070101
+              - text: 자본시장 불공정거래
+          - listitem [ref=e75]:
+            - link "축소됨" [ref=e76] [cursor=pointer]:
+              - /url: /no030101
+              - text: 금융시장동향
+          - listitem [ref=e78]:
+            - link "알기쉬운금융 " [ref=e79] [cursor=pointer]:
+              - /url: /edu
+          - listitem [ref=e80]:
+            - link "축소됨" [ref=e81] [cursor=pointer]:
+              - /url: /no060101
+              - text: 해외금융기관
+          - listitem [ref=e83]:
+            - link "뉴스레터" [ref=e84] [cursor=pointer]:
+              - /url: /pa050000
+          - listitem [ref=e85]:
+            - link "축소됨" [ref=e86] [cursor=pointer]:
+              - /url: /in090101
+              - text: 자료실
+    - generic [ref=e88]:
+      - generic [ref=e90]:
+        - link "홈으로" [ref=e92] [cursor=pointer]:
+          - /url: /index
+          - generic: 홈으로
+        - link "알림마당" [ref=e94] [cursor=pointer]:
+          - /url: /no000000
+        - link "위원회 소식" [ref=e96] [cursor=pointer]:
+          - /url: /no010000
+        - link "보도자료" [ref=e98] [cursor=pointer]:
+          - /url: /no010101
+      - generic [ref=e99]:
+        - heading "보도자료" [level=3] [ref=e100]
+        - generic [ref=e101]:
+          - link "공유하기" [ref=e103] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic: 공유하기
+          - link "인쇄하기" [ref=e105] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic: 인쇄하기
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: 2026년 새해부터 달라지는 금융제도
+          - generic [ref=e110]:
+            - generic [ref=e111]: 2025-12-30
+            - generic [ref=e112]: "조회수 : 126147"
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - strong [ref=e115]: 담당부서
+              - text: 금융정책과
+            - generic [ref=e116]:
+              - strong [ref=e117]: 담당자
+              - text: 현지은 사무관
+            - generic [ref=e118]:
+              - strong [ref=e119]: 연락처
+              - text: 02-2100-2831
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - table [ref=e122]:
+              - rowgroup [ref=e123]:
+                - row "2026년 새해부터 달라지는 금융제도" [ref=e124]:
+                  - cell "2026년 새해부터 달라지는 금융제도" [ref=e125]:
+                    - paragraph [ref=e126]: 2026년 새해부터 달라지는 금융제도
+            - paragraph [ref=e127]
+            - paragraph [ref=e128]: 1. 생산적 영역으로 자금흐름의 물꼬 전환이 본격화됩니다.
+            - paragraph [ref=e129]
+            - table [ref=e130]:
+              - rowgroup [ref=e131]:
+                - row "➊ (첨단산업지원) ‘국민성장펀드’가 대한민국 미래를 이끌 첨단전략산업과 관련 생태계 전반에 연간 30조원의 자금 지원을 개시합니다. ➋ (주담대 위험가중치 조정) 부동산 시장으로의 과도한 자금 쏠림 완화 등 생산적 금융 추진을 위해 은행권 주택담보대출에 대한 위험가중치 하한을 상향(15% → 20%) 조정합니다. (‘26.1.1.) ➌(BDC 도입) 벤처‧혁신기업에 주로 투자하는 상장 공모펀드인 기업성장집합투자기구(BDC) 도입 관련 자본시장법이 시행됩니다. (‘26.3.17.) ➍(주신보 출연요율 개편) 고액 주택담보대출에 대한 관리를 강화하기 위해 현행 대출종류에 따라 차등 부과되는 주신보 출연료율을 대출금액에 따라 차등 부과하는 방식으로 개편합니다. (’26.4.1.) ➎ (지방 금융공급 확대) 지방공급 확대 목표제를 통해 비수도권 정책금융 비중을 ’26년 41.7%(’25년 40%)로 확대하여 금융이 지방균형발전을 견인합니다." [ref=e132]:
+                  - cell "➊ (첨단산업지원) ‘국민성장펀드’가 대한민국 미래를 이끌 첨단전략산업과 관련 생태계 전반에 연간 30조원의 자금 지원을 개시합니다. ➋ (주담대 위험가중치 조정) 부동산 시장으로의 과도한 자금 쏠림 완화 등 생산적 금융 추진을 위해 은행권 주택담보대출에 대한 위험가중치 하한을 상향(15% → 20%) 조정합니다. (‘26.1.1.) ➌(BDC 도입) 벤처‧혁신기업에 주로 투자하는 상장 공모펀드인 기업성장집합투자기구(BDC) 도입 관련 자본시장법이 시행됩니다. (‘26.3.17.) ➍(주신보 출연요율 개편) 고액 주택담보대출에 대한 관리를 강화하기 위해 현행 대출종류에 따라 차등 부과되는 주신보 출연료율을 대출금액에 따라 차등 부과하는 방식으로 개편합니다. (’26.4.1.) ➎ (지방 금융공급 확대) 지방공급 확대 목표제를 통해 비수도권 정책금융 비중을 ’26년 41.7%(’25년 40%)로 확대하여 금융이 지방균형발전을 견인합니다." [ref=e133]:
+                    - paragraph [ref=e134]: ➊ (첨단산업지원) ‘국민성장펀드’가 대한민국 미래를 이끌 첨단전략산업과 관련 생태계 전반에 연간 30조원의 자금 지원을 개시합니다.
+                    - paragraph [ref=e135]
+                    - paragraph [ref=e136]: ➋ (주담대 위험가중치 조정) 부동산 시장으로의 과도한 자금 쏠림 완화 등 생산적 금융 추진을 위해 은행권 주택담보대출에 대한 위험가중치 하한을 상향(15% → 20%) 조정합니다. (‘26.1.1.)
+                    - paragraph [ref=e137]
+                    - paragraph [ref=e138]: ➌(BDC 도입) 벤처‧혁신기업에 주로 투자하는 상장 공모펀드인 기업성장집합투자기구(BDC) 도입 관련 자본시장법이 시행됩니다. (‘26.3.17.)
+                    - paragraph [ref=e139]
+                    - paragraph [ref=e140]: ➍(주신보 출연요율 개편) 고액 주택담보대출에 대한 관리를 강화하기 위해 현행 대출종류에 따라 차등 부과되는 주신보 출연료율을 대출금액에 따라 차등 부과하는 방식으로 개편합니다. (’26.4.1.)
+                    - paragraph [ref=e141]
+                    - paragraph [ref=e142]: ➎ (지방 금융공급 확대) 지방공급 확대 목표제를 통해 비수도권 정책금융 비중을 ’26년 41.7%(’25년 40%)로 확대하여 금융이 지방균형발전을 견인합니다.
+            - paragraph [ref=e143]
+            - paragraph [ref=e144]: 2. 자본시장의 공정성과 투명성을 위한 제도가 개선됩니다
+            - paragraph [ref=e145]
+            - table [ref=e146]:
+              - rowgroup [ref=e147]:
+                - 'row "➊ (자기주식 공시 제도개선) 상장법인이 자기주식을 발행주식 총수의 1% 이상 보유하는 경우, 자기주식 보유현황·처리계획 등을 연 2회 공시하고 기존에 공시한 자기주식 처리계획과 실제 처리현황이 다른 경우 그 사유를 공시하게 됩니다. (‘25.12.30.) ➋ (중대재해 공시 강화) 사업보고서·반기보고서에 발생개요, 피해상황, 대응조치 및 전망 등 중대재해 발생사실에 대한 공시가 의무화됩니다. (‘25.12.30.) ➌ (임원보수 공시 강화) 임원보수 등에 대한 정보제공 강화를 위해 사업보고서·반기보고서에 총주주수익률(TSR) 및 영업이익 등 기업성과를 임원 전체 보수총액 서식에 병기합니다. (‘26.3.1.) - 또한, 임원 전체·개인별 보수공시서식에 주식기준보상도 함께 공시(미실현 주식기준보상 현금환산액 병기)합니다. * Restricted Stocks : 일정조건(가득조건) 달성시 양도제한이 해제되는 주식 → 주식이 지급되기 전까지는 보수총액(보수지급금액)에 미포함 ➍ (상장사 영문공시 확대) 영문공시 의무 대상법인이 자산 10조원 이상 등 대규모 코스피 상장사에서 자산 2조원 이상 코스피 상장사로 확대됩니다. (‘26.5.1.) ➎(손익계산서 개편) K-IFRS에 따른 기업의 손익계산서 표시방식이‘영업/영업외손익’에서‘영업/투자/재무손익’으로 변경됩니다. (‘27년부터 적용하되, ’26년 조기적용 가능) - 아울러, 영업손익 산정방식도 ‘기업의 주된 사업활동 관련 손익’에서 ‘투자·재무가 아닌 잔여개념’으로 변경됩니다." [ref=e148]':
+                  - 'cell "➊ (자기주식 공시 제도개선) 상장법인이 자기주식을 발행주식 총수의 1% 이상 보유하는 경우, 자기주식 보유현황·처리계획 등을 연 2회 공시하고 기존에 공시한 자기주식 처리계획과 실제 처리현황이 다른 경우 그 사유를 공시하게 됩니다. (‘25.12.30.) ➋ (중대재해 공시 강화) 사업보고서·반기보고서에 발생개요, 피해상황, 대응조치 및 전망 등 중대재해 발생사실에 대한 공시가 의무화됩니다. (‘25.12.30.) ➌ (임원보수 공시 강화) 임원보수 등에 대한 정보제공 강화를 위해 사업보고서·반기보고서에 총주주수익률(TSR) 및 영업이익 등 기업성과를 임원 전체 보수총액 서식에 병기합니다. (‘26.3.1.) - 또한, 임원 전체·개인별 보수공시서식에 주식기준보상도 함께 공시(미실현 주식기준보상 현금환산액 병기)합니다. * Restricted Stocks : 일정조건(가득조건) 달성시 양도제한이 해제되는 주식 → 주식이 지급되기 전까지는 보수총액(보수지급금액)에 미포함 ➍ (상장사 영문공시 확대) 영문공시 의무 대상법인이 자산 10조원 이상 등 대규모 코스피 상장사에서 자산 2조원 이상 코스피 상장사로 확대됩니다. (‘26.5.1.) ➎(손익계산서 개편) K-IFRS에 따른 기업의 손익계산서 표시방식이‘영업/영업외손익’에서‘영업/투자/재무손익’으로 변경됩니다. (‘27년부터 적용하되, ’26년 조기적용 가능) - 아울러, 영업손익 산정방식도 ‘기업의 주된 사업활동 관련 손익’에서 ‘투자·재무가 아닌 잔여개념’으로 변경됩니다." [ref=e149]':
+                    - paragraph [ref=e150]
+                    - paragraph [ref=e151]: ➊ (자기주식 공시 제도개선) 상장법인이 자기주식을 발행주식 총수의 1% 이상 보유하는 경우, 자기주식 보유현황·처리계획 등을 연 2회 공시하고 기존에 공시한 자기주식 처리계획과 실제 처리현황이 다른 경우 그 사유를 공시하게 됩니다. (‘25.12.30.)
+                    - paragraph [ref=e152]: ➋ (중대재해 공시 강화) 사업보고서·반기보고서에 발생개요, 피해상황, 대응조치 및 전망 등 중대재해 발생사실에 대한 공시가 의무화됩니다. (‘25.12.30.)
+                    - paragraph [ref=e153]
+                    - paragraph [ref=e154]: ➌ (임원보수 공시 강화) 임원보수 등에 대한 정보제공 강화를 위해 사업보고서·반기보고서에 총주주수익률(TSR) 및 영업이익 등 기업성과를 임원 전체 보수총액 서식에 병기합니다. (‘26.3.1.)
+                    - paragraph [ref=e155]
+                    - paragraph [ref=e156]: "- 또한, 임원 전체·개인별 보수공시서식에 주식기준보상도 함께 공시(미실현 주식기준보상 현금환산액 병기)합니다."
+                    - paragraph [ref=e157]
+                    - paragraph [ref=e158]:
+                      - generic [ref=e159]:
+                        - text: "* Restricted Stocks : 일정조건(가득조건) 달성시 양도제한이 해제되는 주식"
+                        - text: → 주식이 지급되기 전까지는 보수총액(보수지급금액)에 미포함
+                    - paragraph [ref=e160]
+                    - paragraph [ref=e161]: ➍ (상장사 영문공시 확대) 영문공시 의무 대상법인이 자산 10조원 이상 등 대규모 코스피 상장사에서 자산 2조원 이상 코스피 상장사로 확대됩니다. (‘26.5.1.)
+                    - paragraph [ref=e162]
+                    - paragraph [ref=e163]:
+                      - text: ➎(손익계산서 개편) K-IFRS에 따른 기업의 손익계산서 표시방식이‘영업/영업외손익’에서‘영업/투자/재무손익’으로 변경됩니다.
+                      - text: (‘27년부터 적용하되, ’26년 조기적용 가능)
+                    - paragraph [ref=e164]
+                    - paragraph [ref=e165]: "- 아울러, 영업손익 산정방식도 ‘기업의 주된 사업활동 관련 손익’에서 ‘투자·재무가 아닌 잔여개념’으로 변경됩니다."
+            - paragraph [ref=e166]
+            - paragraph [ref=e167]: 3. 서민의 금융부담은 낮추고, 소비자는 더 두텁게 보호합니다.
+            - paragraph [ref=e168]
+            - table [ref=e169]:
+              - rowgroup [ref=e170]:
+                - row [ref=e171]:
+                  - cell [ref=e172]:
+                    - paragraph [ref=e173]: ➊ (중도상환수수료 개편 확대시행) 은행 등 다른 금융회사처럼 상호금융권의 경우에도 대출 실행에 소요되는 실비용만을 반영토록 중도상환수수료 개편방안이 시행됩니다. (‘26.1.1.)
+                    - paragraph [ref=e174]
+                    - paragraph [ref=e175]: ➋ (불법사금융예방대출 개편) 실질금리를 15.9%에서 5~6%대로 대폭 완화하고, 상환방식을 만기일시상환방식(1년)에서 원리금균등분할상환방식(2년)으로 변경합니다. (‘26.1.2.)
+                    - paragraph [ref=e176]
+                    - paragraph [ref=e177]:
+                      - text: "*"
+                      - generic [ref=e178]:
+                        - text: (일반) 금리 12.5%로 인하 + 전액상환시 납부이자 50% 페이백 → 실질금리 6.3%
+                        - text: (사회적 배려대상자) 금리 9.9%로 인하 + 전액상환시 납부이자 50% 페이백 → 실질금리 5%
+                    - paragraph [ref=e179]: ➌ (햇살론 개편) 기존 정책서민금융상품 4개를 햇살론 일반·특례보증 2개로 통합하고, 취급업권을 모든 금융업권으로 확대합니다. (‘26.1.2.)
+                    - paragraph [ref=e180]
+                    - paragraph [ref=e181]:
+                      - generic [ref=e182]:
+                        - text: "* 근로자햇살론 + 햇살론뱅크 → 햇살론 일반보증"
+                        - text: 햇살론15 + 최저신용자 특례보증 → 햇살론 특례보증
+                    - paragraph [ref=e183]
+                    - paragraph [ref=e184]: "- 또한, 햇살론 특례보증 금리수준을 기존 15.9%에서 12.5%로 인하하고, 사회적 배려 대상자는 9.9%로 추가 인하합니다."
+                    - paragraph [ref=e185]
+                    - paragraph [ref=e186]: "* 기초생활수급자, 차상위계층, 자활근로자, 근로장려금 수급자, 등록 장애인, 한부모가족 및 조손가족, 다문화가족, 북한이탈주민"
+                    - paragraph [ref=e187]
+                    - paragraph [ref=e188]: ➍ (건전한 전자금융거래 환경 마련) 전자금융업자가 소비자의 선불충전금을 별도로 관리하지 않는 경우 시정명령, 영업정지, 등록취소 등 단계적 조치를 할 수 있도록 ｢전자금융거래법｣이 개정되어 소비자의 전자금융거래가 더욱 안전하게 보호됩니다. (‘25.12.16)
+                    - paragraph [ref=e189]
+                    - paragraph [ref=e190]: ➎ (사망자 명의 금융거래 신속차단) 현행 월 1회인 사망자 명단 공유주기를 일 1회로 단축하여 사망자 명의 도용에 따른 사고 및 분쟁을 사전예방하고 금융소비자 피해를 최소화합니다. (‘26.1월)
+                    - paragraph [ref=e191]
+                    - paragraph [ref=e192]: ➏ (불법사금융 피해 원스톱 종합 전담 지원) 한 번의 불법사금융 신고로 불법추심 중단, 대포통장·전화번호 차단, 수사 의뢰, 채무자대리인 선임 및 소송 구제 등이 이루어지도록 원스톱 종합 전담 지원 시스템이 구축됩니다. (‘26.1분기)
+                    - paragraph [ref=e193]
+                    - paragraph [ref=e194]: ➐(금융권 다크패턴* 가이드라인 마련) 금융소비자 결정을 왜곡 또는 침해하는 다크패턴 행위를 금지하는 가이드라인이 시행됩니다. (‘26.4월)
+                    - paragraph [ref=e195]
+                    - paragraph [ref=e196]: "* 다크패턴(dark pattern, ‘온라인 눈속임 상술’) : 온라인 환경 속 제한된 화면에서 사업자가 자신의 이익을 위해 소비자에게 비합리적인 의사결정을 내리도록 유도하는 행위"
+                    - paragraph [ref=e197]
+                    - paragraph [ref=e198]: ➑(대출금리 산정방식 개선) 은행 대출금리 산출시 각종 보증기금 출연금 등 법적비용을 가산금리에 반영하는 것이 금지됩니다. (‘26.7.1.)
+                    - paragraph [ref=e199]
+                    - paragraph [ref=e200]:
+                      - text: "* 지급준비금, 예금자보험료, 서민금융진흥원 출연금 및 개별 법률에 따른 각종 보증기금 출연금"
+                      - generic [ref=e201]: † 보증부 대출은 출연료율의 50% 이하 범위에서 대통령령으로 정하는 비율 내 반영가능
+            - paragraph [ref=e202]
+            - paragraph [ref=e203]: 4. 청년의 종잣돈 마련부터 저출산‧고령화 대비까지, 국민의 일상에 도움이 되는 금융이 되겠습니다.
+            - paragraph [ref=e204]
+            - table [ref=e205]:
+              - rowgroup [ref=e206]:
+                - row [ref=e207]:
+                  - cell [ref=e208]:
+                    - paragraph [ref=e209]: ➊ (사망보험금 유동화 全생보사 출시) 종신보험의 사망보험금을 일부 유동화하여 노후자금으로 활용할 수 있는 ｢사망보험금 유동화 상품｣을 전체 생보사(19개사)에서 출시합니다 (’26.1.2.)
+                    - paragraph [ref=e210]
+                    - paragraph [ref=e211]: ➋ (금리인하요구권 자동신청) 차주가 한번만 신청하면 마이데이터 사업자(AI Agent)가 금리인하 가능성이 있는 것으로 판단될 때마다 자동으로 금리인하를 신청해주는 서비스가 개시됩니다. (‘26.1분기)
+                    - paragraph [ref=e212]
+                    - paragraph [ref=e213]: ➌ (미성년자 결제편의 개선) 미성년자도 현금없는 결제환경을 누릴 수 있도록 카드 발급 연령·이용한도 등이 확대됩니다. (‘26.1분기)
+                    - paragraph [ref=e214]
+                    - paragraph [ref=e215]: ➍ (샌드박스 신청 지원) 사례 기반 「혁신금융서비스 신청 매뉴얼」을 배포하여 혁신금융서비스 신청에 대한 이해도를 높이고, 신청인의 시행착오를 최소화합니다. (‘26.1분기)
+                    - paragraph [ref=e216]
+                    - paragraph [ref=e217]:
+                      - text: ➎ (저출산 극복 지원) 본인 또는 배우자가 출산·육아휴직 시 보험료 부담을 경감하기 위하여
+                      - superscript [ref=e219]: ➊
+                      - text: 어린이보험 보험료 할인,
+                      - superscript [ref=e221]: ➋
+                      - text: 보험료 납입 유예,
+                      - superscript [ref=e223]: ➌
+                      - text: 보험계약대출 이자상환유예를 지원합니다 (’26.4월 예정)
+                    - paragraph [ref=e224]
+                    - paragraph [ref=e225]: ➏ (은행대리업 도입) 은행 영업점이 없는 지역에서도 우체국 등을 방문해 은행 서비스를 대면으로 이용할 수 있는 은행대리업이 도입됩니다. (‘26.2분기)
+                    - paragraph [ref=e226]
+                    - paragraph [ref=e227]: "* 전국 20여개 총괄 우체국(지역 협의 중) 내 4대 은행(KB·신한·우리·하나) 대출상품 판매를 대상으로 운영 개시"
+                    - paragraph [ref=e228]
+                    - paragraph [ref=e229]: ➐ (청년 자산형성) 청년이 저축한 금액에 정부기여금이 지급되는 비과세 적금상품인 청년미래적금이 출시됩니다. (‘26.6월)
+                    - paragraph [ref=e230]
+                    - table [ref=e231]:
+                      - rowgroup [ref=e232]:
+                        - row "※ 청년미래적금 상품구조 ⇨ 만기시 2천만원 이상 목돈 수령이 가능 ▸ (대상) 가구중위소득 200% 이하인 연소득 6,000만원(근로소득 기준) 이하 소득자 또는 연매출 3억원 이하 소상공인 * 근로소득 기준 연소득 6,000~7,500만원 소득자도 가입 가능(비과세 혜택만 적용) ▸ (만기) 3년 ▸ (납입한도) 최대 월 50만원 ▸ (정부지원비율) 6%일반형/12%우대형* * 별도 소득기준을 충족한 중소기업 재직자 및 영세 소상공인 등은 우대형 가입" [ref=e233]:
+                          - cell "※ 청년미래적금 상품구조 ⇨ 만기시 2천만원 이상 목돈 수령이 가능 ▸ (대상) 가구중위소득 200% 이하인 연소득 6,000만원(근로소득 기준) 이하 소득자 또는 연매출 3억원 이하 소상공인 * 근로소득 기준 연소득 6,000~7,500만원 소득자도 가입 가능(비과세 혜택만 적용) ▸ (만기) 3년 ▸ (납입한도) 최대 월 50만원 ▸ (정부지원비율) 6%일반형/12%우대형* * 별도 소득기준을 충족한 중소기업 재직자 및 영세 소상공인 등은 우대형 가입" [ref=e234]:
+                            - paragraph [ref=e235]: ※ 청년미래적금 상품구조 ⇨ 만기시 2천만원 이상 목돈 수령이 가능
+                            - paragraph [ref=e236]
+                            - paragraph [ref=e237]: ▸ (대상) 가구중위소득 200% 이하인 연소득 6,000만원(근로소득 기준) 이하 소득자 또는 연매출 3억원 이하 소상공인
+                            - paragraph [ref=e238]
+                            - paragraph [ref=e239]: "* 근로소득 기준 연소득 6,000~7,500만원 소득자도 가입 가능(비과세 혜택만 적용)"
+                            - paragraph [ref=e240]
+                            - paragraph [ref=e241]:
+                              - generic [ref=e242]: ▸ (만기) 3년 ▸ (납입한도) 최대 월 50만원
+                            - paragraph [ref=e243]
+                            - paragraph [ref=e244]:
+                              - text: ▸ (정부지원비율) 6%
+                              - superscript [ref=e246]: 일반형
+                              - text: /12%
+                              - superscript [ref=e248]: 우대형
+                              - text: "*"
+                            - paragraph [ref=e249]
+                            - paragraph [ref=e250]: "* 별도 소득기준을 충족한 중소기업 재직자 및 영세 소상공인 등은 우대형 가입"
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - text: 첨부파일 (2)
+              - link "첨부파일 목록" [ref=e253] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic: 첨부파일 목록
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - link "251230. 새해부터 달라지는 금융제도_FN.hwp" [ref=e256] [cursor=pointer]:
+                  - /url: /comm/getFile?srvcId=BBSTY1&upperNo=85970&fileTy=ATTACH&fileNo=7
+                  - generic [ref=e257]: 251230. 새해부터 달라지는 금융제도_FN.hwp
+                - generic [ref=e258]: (186 KB)
+                - link "파일다운로드" [ref=e260] [cursor=pointer]:
+                  - /url: /comm/getFile?srvcId=BBSTY1&upperNo=85970&fileTy=ATTACH&fileNo=7
+                  - generic: 파일다운로드
+              - generic [ref=e261]:
+                - link "251230. 새해부터 달라지는 금융제도_FN.hwpx" [ref=e262] [cursor=pointer]:
+                  - /url: /comm/getFile?srvcId=BBSTY1&upperNo=85970&fileTy=ATTACH&fileNo=8
+                  - generic [ref=e263]: 251230. 새해부터 달라지는 금융제도_FN.hwpx
+                - generic [ref=e264]: (209 KB)
+                - link "파일다운로드" [ref=e266] [cursor=pointer]:
+                  - /url: /comm/getFile?srvcId=BBSTY1&upperNo=85970&fileTy=ATTACH&fileNo=8
+                  - generic: 파일다운로드
+          - link "목록으로" [ref=e268] [cursor=pointer]:
+            - /url: /no010101?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=
+        - generic [ref=e269]:
+          - list:
+            - listitem "당정, 「보이스피싱 근절 종합대책」 추진상황 점검" [ref=e270]:
+              - generic [ref=e271]:
+                - term [ref=e272]: 이전글
+                - definition [ref=e273]:
+                  - link "당정, 「보이스피싱 근절 종합대책」 추진상황 점검" [ref=e274] [cursor=pointer]:
+                    - /url: 85959?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=
+            - listitem "신임 예금보험공사 사장 임명 제청" [ref=e275]:
+              - generic [ref=e276]:
+                - term [ref=e277]: 다음글
+                - definition [ref=e278]:
+                  - link "신임 예금보험공사 사장 임명 제청" [ref=e279] [cursor=pointer]:
+                    - /url: 85975?srchCtgry=&curPage=&srchKey=&srchText=&srchBeginDt=&srchEndDt=
+      - generic [ref=e282]:
+        - generic:
+          - term [ref=e283]: 콘텐츠 내용에 만족하셨나요?
+          - definition [ref=e284]:
+            - generic [ref=e285]:
+              - radio "매우만족" [ref=e286]
+              - generic "매우만족 선택" [ref=e287] [cursor=pointer]:
+                - generic [ref=e288]: 매우만족
+          - definition [ref=e290]:
+            - generic [ref=e291]:
+              - radio "만족" [ref=e292]
+              - generic "만족 선택" [ref=e293] [cursor=pointer]:
+                - generic [ref=e294]: 만족
+          - definition [ref=e296]:
+            - generic [ref=e297]:
+              - radio "보통" [ref=e298]
+              - generic "보통 선택" [ref=e299] [cursor=pointer]:
+                - generic [ref=e300]: 보통
+          - definition [ref=e302]:
+            - generic [ref=e303]:
+              - radio "불만족" [ref=e304]
+              - generic "불만족 선택" [ref=e305] [cursor=pointer]:
+                - generic [ref=e306]: 불만족
+          - definition [ref=e308]:
+            - generic [ref=e309]:
+              - radio "매우불만족" [ref=e310]
+              - generic "매우불만족 선택" [ref=e311] [cursor=pointer]:
+                - generic [ref=e312]: 매우불만족
+        - button "평가하기" [ref=e314] [cursor=pointer]
+  - contentinfo [ref=e315]:
+    - generic [ref=e316]:
+      - list:
+        - listitem "금융위원회 유관기관 선택하기" [ref=e317]:
+          - generic: 금융위원회 유관기관
+          - combobox "금융위원회 유관기관" [ref=e318]:
+            - option "금융위원회 유관기관" [selected]
+            - option "금융감독원"
+            - option "예금보험공사"
+            - option "한국자산관리공사(캠코)"
+            - option "산업은행"
+            - option "기업은행"
+            - option "신용보증기금"
+            - option "한국예탁결제원"
+            - option "한국거래소"
+            - option "한국주택금융공사"
+            - option "금융정보분석원"
+            - option "전국은행연합회"
+            - option "생명보험협회"
+            - option "손해보험협회"
+            - option "한국금융투자협회"
+            - option "여신금융협회"
+            - option "상호저축은행중앙회"
+            - option "신용정보협회"
+            - option "금융결제원"
+            - option "금융보안원"
+            - option "한국신용정보원"
+            - option "서민금융진흥원"
+            - option "신용회복위원회"
+            - option "한국금융연구원"
+            - option "보험개발원"
+            - option "보험연구원"
+            - option "자본시장연구원"
+            - option "한국금융연수원"
+            - option "핀테크지원센터"
+            - option "한국핀테크산업협회"
+            - option "한국화재보험협회"
+            - option "한국공인회계사회"
+            - option "한국회계기준원"
+            - option "코스콤"
+          - button "이동" [ref=e319] [cursor=pointer]
+        - listitem "금융서비스 포털모음 선택하기" [ref=e320]:
+          - generic: 금융서비스 포털모음
+          - combobox "금융서비스 포털모음" [ref=e321]:
+            - option "금융서비스 포털모음" [selected]
+            - option "파인"
+            - option "카드포인트통합조회"
+            - option "착오송금 반환지원"
+            - option "휴면금융재산조회"
+            - option "보험다모아"
+            - option "본인신용정보 열람서비스"
+            - option "페이인포"
+            - option "통합연금포털"
+            - option "ISA다모아"
+            - option "금융상품 한눈에"
+            - option "마이데이터 종합포털"
+            - option "KRX ESG포털"
+          - button "이동" [ref=e322] [cursor=pointer]
+      - list [ref=e323]:
+        - listitem [ref=e324]:
+          - generic [ref=e325]:
+            - term [ref=e326]: 이용안내
+            - definition [ref=e327]:
+              - link "금융행정서비스헌장" [ref=e328] [cursor=pointer]:
+                - /url: /ut010101
+            - definition [ref=e329]:
+              - link "개인정보처리방침" [ref=e330] [cursor=pointer]:
+                - /url: /ut020103
+            - definition [ref=e331]:
+              - link "전자우편 무단수집거부" [ref=e332] [cursor=pointer]:
+                - /url: /ut020105
+            - definition [ref=e333]:
+              - link "저작권정책" [ref=e334] [cursor=pointer]:
+                - /url: /ut020104
+            - definition [ref=e335]:
+              - link "누리집지도" [ref=e336] [cursor=pointer]:
+                - /url: /ut050101
+            - definition [ref=e337]:
+              - link "누리집 개선제안" [ref=e338] [cursor=pointer]:
+                - /url: /ut020102
+            - definition [ref=e339]:
+              - link "소식지 신청" [ref=e340] [cursor=pointer]:
+                - /url: /pa050000
+            - definition [ref=e341]:
+              - link "최신소식(RSS)서비스" [ref=e342] [cursor=pointer]:
+                - /url: /ut060101
+        - listitem [ref=e343]:
+          - generic [ref=e344]:
+            - term [ref=e345]: 금융위 문의
+            - definition [ref=e346]: 03171 서울특별시 종로구 세종대로 209 금융위원회
+            - definition [ref=e347]:
+              - text: "대표전화 :"
+              - link "02-2100-2500" [ref=e348] [cursor=pointer]:
+                - /url: tel:02-2100-2500
+            - definition [ref=e349]: "정부민원안내콜센터 국번없이 : 110(무료)"
+            - definition [ref=e350]: "금감원콜센터 : 1332(유료, 통화료는 발신자 부담)"
+        - listitem [ref=e351]:
+          - generic [ref=e352]:
+            - text: ⓒ FINANCIAL SERVICES COMMISSION.
+            - text: ALL RIGHTS RESERVED.
+          - list [ref=e353]:
+            - listitem [ref=e354]:
+              - link "페이스북" [ref=e355] [cursor=pointer]:
+                - /url: javascript:openFacebook()
+                - generic: 페이스북
+            - listitem [ref=e356]:
+              - link "네이버 블로그" [ref=e357] [cursor=pointer]:
+                - /url: javascript:openBlog()
+                - generic: 네이버 블로그
+            - listitem [ref=e358]:
+              - link "유튜브" [ref=e359] [cursor=pointer]:
+                - /url: javascript:openYoutube()
+                - generic: 유튜브
+            - listitem [ref=e360]:
+              - link "X (구)트위터" [ref=e361] [cursor=pointer]:
+                - /url: javascript:openTwiter()
+                - generic: X (구)트위터
+            - listitem [ref=e362]:
+              - link "인스타그램" [ref=e363] [cursor=pointer]:
+                - /url: javascript:openInstagram()
+                - generic: 인스타그램
+          - generic [ref=e364]:
+            - link "국가상징 알아보기" [ref=e366] [cursor=pointer]:
+              - /url: https://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do
+              - img "국가상징 알아보기" [ref=e367]
+            - link "OPEN 정보공개" [ref=e369] [cursor=pointer]:
+              - /url: https://www.kogl.or.kr/open/index.do
+              - img "OPEN 정보공개" [ref=e370]
+            - link "(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" [ref=e372] [cursor=pointer]:
+              - /url: http://www.wa.or.kr/board/list.asp?search=link_url&SearchString=www.fsc.go.kr&BoardID=0006
+              - img "(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" [ref=e373]
+  - complementary

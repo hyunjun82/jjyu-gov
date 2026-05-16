@@ -1,0 +1,732 @@
+- generic [ref=e2]:
+  - generic "스킵내비게이션":
+    - link "주메뉴 바로가기" [ref=e3] [cursor=pointer]:
+      - /url: "#gnb-menu"
+    - link "본문 내용 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#container"
+  - banner [ref=e5]:
+    - paragraph [ref=e7]:
+      - img "eg(전자정부)" [ref=e8]
+      - text: 이 누리집은 대한민국 공식 전자정부 누리집입니다.
+    - generic [ref=e9]:
+      - link "금융위원회" [ref=e11] [cursor=pointer]:
+        - /url: /index
+        - img "금융위원회" [ref=e12]
+      - generic [ref=e13]:
+        - list:
+          - listitem [ref=e14]:
+            - link "알기쉬운 금융" [ref=e15] [cursor=pointer]:
+              - /url: /edu
+          - listitem [ref=e16]:
+            - link "ENGLISH" [ref=e17] [cursor=pointer]:
+              - /url: /eng
+          - listitem [ref=e18]:
+            - link "어린이" [ref=e19] [cursor=pointer]:
+              - /url: /kids
+      - group "검색영역" [ref=e21]:
+        - generic: 검색영역
+        - generic [ref=e23]:
+          - generic:
+            - generic: 검색어를 입력하세요
+          - textbox "검색어를 입력하세요" [ref=e24]:
+            - /placeholder: 검색어를 입력하세요.
+          - button "검색" [ref=e25] [cursor=pointer]:
+            - generic: 검색
+    - navigation [ref=e26]:
+      - generic [ref=e27]:
+        - list:
+          - listitem [ref=e28]:
+            - link "알림마당" [ref=e29] [cursor=pointer]:
+              - /url: /no010101
+              - text: 알림마당
+            - text:   
+          - listitem [ref=e31]:
+            - link "참여마당" [ref=e32] [cursor=pointer]:
+              - /url: /pa030101
+            - text:    
+          - listitem [ref=e33]:
+            - link "정책마당" [ref=e34] [cursor=pointer]:
+              - /url: /po02010101
+            - text:  
+          - listitem [ref=e35]:
+            - link "정보공개" [ref=e36] [cursor=pointer]:
+              - /url: /in010000
+            - text:  
+          - listitem [ref=e37]:
+            - link "적극행정" [ref=e38] [cursor=pointer]:
+              - /url: /ad010101
+            - text:  
+          - listitem [ref=e39]:
+            - link "금융위원회" [ref=e40] [cursor=pointer]:
+              - /url: /fsc010101
+          - listitem [ref=e41]:
+            - link "전체보기" [ref=e42] [cursor=pointer]:
+              - /url: javascript:void(0);
+              - text: 전체보기
+            - text:             
+  - main [ref=e43]:
+    - complementary [ref=e44]:
+      - heading "알림마당" [level=2] [ref=e45]
+      - navigation [ref=e46]:
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - link "확장됨" [expanded] [ref=e49] [cursor=pointer]:
+              - /url: /no010101
+              - text: 위원회 소식
+            - list [ref=e51]:
+              - listitem [ref=e52]:
+                - link "보도자료" [ref=e53] [cursor=pointer]:
+                  - /url: /no010101
+              - listitem [ref=e54]:
+                - link "보도설명자료" [ref=e55] [cursor=pointer]:
+                  - /url: /no010102
+              - listitem [ref=e56]:
+                - link "보고영상" [ref=e57] [cursor=pointer]:
+                  - /url: /no010103
+              - listitem [ref=e58]:
+                - link "알림·채용·입찰" [ref=e59] [cursor=pointer]:
+                  - /url: /no010104
+              - listitem [ref=e60]:
+                - link "새소식" [ref=e61] [cursor=pointer]:
+                  - /url: /no010105
+              - listitem [ref=e62]:
+                - link "사진뉴스" [ref=e63] [cursor=pointer]:
+                  - /url: /no010106
+              - listitem [ref=e64]:
+                - link "정책영상" [ref=e65] [cursor=pointer]:
+                  - /url: /no010107
+          - listitem [ref=e66]:
+            - link "축소됨" [ref=e67] [cursor=pointer]:
+              - /url: /no040101
+              - text: 홍보자료
+            - text: 
+          - listitem [ref=e69]:
+            - link "축소됨" [ref=e70] [cursor=pointer]:
+              - /url: /no020101
+              - text: 의결정보
+            - text: 
+          - listitem [ref=e72]:
+            - link "축소됨" [ref=e73] [cursor=pointer]:
+              - /url: /no070101
+              - text: 자본시장 불공정거래
+          - listitem [ref=e75]:
+            - link "축소됨" [ref=e76] [cursor=pointer]:
+              - /url: /no030101
+              - text: 금융시장동향
+          - listitem [ref=e78]:
+            - link "알기쉬운금융 " [ref=e79] [cursor=pointer]:
+              - /url: /edu
+          - listitem [ref=e80]:
+            - link "축소됨" [ref=e81] [cursor=pointer]:
+              - /url: /no060101
+              - text: 해외금융기관
+          - listitem [ref=e83]:
+            - link "뉴스레터" [ref=e84] [cursor=pointer]:
+              - /url: /pa050000
+          - listitem [ref=e85]:
+            - link "축소됨" [ref=e86] [cursor=pointer]:
+              - /url: /in090101
+              - text: 자료실
+    - generic [ref=e88]:
+      - generic [ref=e90]:
+        - link "홈으로" [ref=e92] [cursor=pointer]:
+          - /url: /index
+          - generic: 홈으로
+        - link "알림마당" [ref=e94] [cursor=pointer]:
+          - /url: /no000000
+        - link "위원회 소식" [ref=e96] [cursor=pointer]:
+          - /url: /no010000
+        - link "보도자료" [ref=e98] [cursor=pointer]:
+          - /url: /no010101
+      - generic [ref=e99]:
+        - heading "보도자료" [level=3] [ref=e100]
+        - generic [ref=e101]:
+          - link "공유하기" [ref=e103] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic: 공유하기
+          - link "인쇄하기" [ref=e105] [cursor=pointer]:
+            - /url: javascript:void(0);
+            - generic: 인쇄하기
+      - generic [ref=e107]:
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - term [ref=e113]: 검색기간
+              - definition [ref=e114]:
+                - generic [ref=e115]:
+                  - generic [ref=e118]:
+                    - generic [ref=e119]:
+                      - generic: 검색기간 시작일
+                      - textbox "검색기간 시작일" [ref=e120]:
+                        - /placeholder: 시작일
+                      - img "날짜 선택" [ref=e121]
+                    - generic [ref=e122]: ~
+                    - generic [ref=e123]:
+                      - generic: 검색기간 종료일
+                      - textbox "검색기간 종료일" [ref=e124]:
+                        - /placeholder: 종료일
+                      - img "날짜 선택" [ref=e125]
+                  - generic [ref=e126]:
+                    - link "1개월" [ref=e127] [cursor=pointer]:
+                      - /url: "#none"
+                    - link "3개월" [ref=e128] [cursor=pointer]:
+                      - /url: "#none"
+                    - link "전체" [ref=e129] [cursor=pointer]:
+                      - /url: "#none"
+            - generic [ref=e130]:
+              - term [ref=e131]: 검색조건
+              - definition [ref=e132]:
+                - generic "검색조건 선택" [ref=e133]:
+                  - generic "YYYY-MM-DD": 검색조건 선택
+                  - combobox "검색조건 선택" [ref=e134]:
+                    - option "제목" [selected]
+                    - option "내용"
+                    - option "제목+내용"
+                    - option "담당부서"
+                    - option "담당자"
+                  - generic: 검색어입력
+                  - textbox "검색어입력" [ref=e135]:
+                    - /placeholder: 검색어를 입력해주세요.
+                    - text: 아이기금
+          - button "검색" [ref=e136] [cursor=pointer]: 검색
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - text: 전체
+            - strong [ref=e140]: "15103"
+            - text: 건
+          - generic [ref=e141]:
+            - text: 페이지
+            - strong [ref=e142]: 1/1511
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - generic [ref=e146]:
+              - generic [ref=e147]: "15103"
+              - generic [ref=e148]:
+                - link "단일종목 레버리지·인버스 상품(ETF·ETN) 도입에 따른 투자자 유의사항 안내" [ref=e150] [cursor=pointer]:
+                  - /url: /no010101/86910?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e151]:
+                  - generic [ref=e152]: "담당부서 : 자산운용과,자본시장과,공정시장과"
+                  - generic [ref=e153]: "조회수 : 2864"
+                - generic [ref=e154]:
+                  - generic [ref=e155]:
+                    - link "260515(보도참고) 단일종목 레버리지·인버스 상품(ETF·ETN) 도입에 따른 투자자 유의사항 안내.hwpx" [ref=e156] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86910&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e157]: 260515(보도참고) 단일종목 레버리지·인버스 상품(ETF·ETN) 도입에 따른 투자자 유의사항 안내.hwpx
+                    - generic [ref=e158]: (1 MB)
+                    - link "파일다운로드" [ref=e160] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86910&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e161]:
+                    - link "260515(보도참고) 단일종목 레버리지·인버스 상품(ETF·ETN) 도입에 따른 투자자 유의사항 안내.pdf" [ref=e162] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86910&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e163]: 260515(보도참고) 단일종목 레버리지·인버스 상품(ETF·ETN) 도입에 따른 투자자 유의사항 안내.pdf
+                    - generic [ref=e164]: (694 KB)
+                    - link "파일뷰어" [ref=e166] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41EA596BDD5360747E9D0A3B074ED62CDD58822DE451D366BCB7E0793330A06FB952F6397B178F9F9267F506152703BA6E9BD7AC1AE645B8AD9BDF0E500DA9B091387C5A5D1455B0E26FD6DD2971E2D2000B8D9FB0EC41068A5DA12E753D9667BB
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e168] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86910&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e169]: 2026-05-15
+          - listitem [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e172]: "15102"
+              - generic [ref=e173]:
+                - link "민·관 합동 ｢토큰증권 협의체｣ 제2차회의 개최" [ref=e175] [cursor=pointer]:
+                  - /url: /no010101/86906?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e176]:
+                  - generic [ref=e177]: "담당부서 : 자본시장과"
+                  - generic [ref=e178]: "조회수 : 3829"
+                - generic [ref=e179]:
+                  - generic [ref=e180]:
+                    - link "260515(보도자료) 민·관 합동 ｢토큰증권 협의체｣ 제2차회의 개최.hwp" [ref=e181] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e182]: 260515(보도자료) 민·관 합동 ｢토큰증권 협의체｣ 제2차회의 개최.hwp
+                    - generic [ref=e183]: (227 KB)
+                    - link "파일다운로드" [ref=e185] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e186]:
+                    - link "260515(보도자료) 민·관 합동 ｢토큰증권 협의체｣ 제2차회의 개최.pdf" [ref=e187] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e188]: 260515(보도자료) 민·관 합동 ｢토큰증권 협의체｣ 제2차회의 개최.pdf
+                    - generic [ref=e189]: (258 KB)
+                    - link "파일뷰어" [ref=e191] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41F51189A5D0D94D5C9F8A4BAD95EE6F96F8706F64B71A210F7588B0A34A99DB2839EB564A290A4C5FA787EFB45159F1D019BB9DAD6548386833F1AAA82074775D387C5A5D1455B0E26FD6DD2971E2D200362E3EB2C6739486700C8CB493B392BE
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e193] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+                  - generic [ref=e194]:
+                    - link "260515[별첨] 금융위원회 부위원장 모두발언.hwp" [ref=e195] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=3
+                      - generic [ref=e196]: 260515[별첨] 금융위원회 부위원장 모두발언.hwp
+                    - generic [ref=e197]: (28 KB)
+                    - link "파일다운로드" [ref=e199] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=3
+                      - generic: 파일다운로드
+                  - generic [ref=e200]:
+                    - link "260515[별첨] 금융위원회 부위원장 모두발언.pdf" [ref=e201] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=4
+                      - generic [ref=e202]: 260515[별첨] 금융위원회 부위원장 모두발언.pdf
+                    - generic [ref=e203]: (117 KB)
+                    - link "파일뷰어" [ref=e205] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41F51189A5D0D94D5C9F8A4BAD95EE6F96E09C990CE5CF514E5A94C5DA52A22EA2FCCEA95FD00D7C596246C3C03C23AFA1078438F2DD888D934357E3D8D8AB23AE387C5A5D1455B0E26FD6DD2971E2D200C6F2E291470CBCF524729D19E1350698
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e207] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86906&fileTy=ATTACH&fileNo=4
+                      - generic: 파일다운로드
+              - generic [ref=e208]: 2026-05-15
+          - listitem [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]: "15101"
+              - generic [ref=e212]:
+                - link "｢미래를 채우는 첫 시작, 청년미래적금 언박싱 토크콘서트｣ 개최" [ref=e214] [cursor=pointer]:
+                  - /url: /no010101/86884?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e215]:
+                  - generic [ref=e216]: "담당부서 : 청년정책과"
+                  - generic [ref=e217]: "조회수 : 7208"
+                - generic [ref=e218]:
+                  - generic [ref=e219]:
+                    - link "260514(보도자료) ｢미래를 채우는 첫 시작 청년미래적금 언박싱 토크콘서트｣ 개최.hwp" [ref=e220] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86884&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e221]: 260514(보도자료) ｢미래를 채우는 첫 시작 청년미래적금 언박싱 토크콘서트｣ 개최.hwp
+                    - generic [ref=e222]: (1 MB)
+                    - link "파일다운로드" [ref=e224] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86884&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e225]:
+                    - link "260514(보도자료) ｢미래를 채우는 첫 시작 청년미래적금 언박싱 토크콘서트｣ 개최.pdf" [ref=e226] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86884&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e227]: 260514(보도자료) ｢미래를 채우는 첫 시작 청년미래적금 언박싱 토크콘서트｣ 개최.pdf
+                    - generic [ref=e228]: (697 KB)
+                    - link "파일뷰어" [ref=e230] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41FDFE3B41AD1F38B6F90A32868BBECA48EE0311222E25F9660E48634C9523739AAC62F4EB7706C10ECA72ADB759D055BAB0AF4AA043A43BCFAB38DFE1E4721D7A387C5A5D1455B0E26FD6DD2971E2D20055D02D2E221998A62091BE3C2064470E
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e232] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86884&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e233]: 2026-05-14
+          - listitem [ref=e234]:
+            - generic [ref=e235]:
+              - generic [ref=e236]: "15100"
+              - generic [ref=e237]:
+                - link "자동차 생태계 전환 본격 지원 착수" [ref=e239] [cursor=pointer]:
+                  - /url: /no010101/86880?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e240]:
+                  - generic [ref=e241]: "담당부서 : 첨단산업1과"
+                  - generic [ref=e242]: "조회수 : 6749"
+                - generic [ref=e243]:
+                  - generic [ref=e244]:
+                    - link "260513(보도자료) 자동차 생태계 전환 본격 지원 착수.hwpx" [ref=e245] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86880&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e246]: 260513(보도자료) 자동차 생태계 전환 본격 지원 착수.hwpx
+                    - generic [ref=e247]: (260 KB)
+                    - link "파일다운로드" [ref=e249] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86880&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e250]:
+                    - link "260513(보도자료) 자동차 생태계 전환 본격 지원 착수.pdf" [ref=e251] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86880&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e252]: 260513(보도자료) 자동차 생태계 전환 본격 지원 착수.pdf
+                    - generic [ref=e253]: (412 KB)
+                    - link "파일뷰어" [ref=e255] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41B95127040A576BD81828D3DC1477089636D8148CAB69F883BFBEC6C6B2F828366C9AFF0B5AD8B961C885CE72D8B5BDC3C82119FF5324B996AB37DB5AAD333312387C5A5D1455B0E26FD6DD2971E2D20085ACD0C4F8BFC37318AA20B0DAD122A8
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e257] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86880&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e258]: 2026-05-14
+          - listitem [ref=e259]:
+            - generic [ref=e260]:
+              - generic [ref=e261]: "15099"
+              - generic [ref=e262]:
+                - link "홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치안 금융위원회 논의 경과" [ref=e264] [cursor=pointer]:
+                  - /url: /no010101/86877?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e265]:
+                  - generic [ref=e266]: "담당부서 : 금융소비자정책과"
+                  - generic [ref=e267]: "조회수 : 9231"
+                - generic [ref=e268]:
+                  - generic [ref=e269]:
+                    - link "260513(보도참고) 홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치안 금융위원회 논의 경과.hwp" [ref=e270] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86877&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e271]: 260513(보도참고) 홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치안 금융위원회 논의 경과.hwp
+                    - generic [ref=e272]: (71 KB)
+                    - link "파일다운로드" [ref=e274] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86877&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e275]:
+                    - link "260513(보도참고) 홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치안 금융위원회 논의 경과.pdf" [ref=e276] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86877&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e277]: 260513(보도참고) 홍콩 H지수 ELS 관련 은행·증권사 검사 결과 조치안 금융위원회 논의 경과.pdf
+                    - generic [ref=e278]: (82 KB)
+                    - link "파일뷰어" [ref=e280] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41136BF2818F596BEB17D09C166EECDA1EFA00CD10260AD361921A6985DE06209DFF699A0DBCEB31996A53072A4C315DBD158CD62022779E14E87DE2D96D9A5756387C5A5D1455B0E26FD6DD2971E2D20085ACD0C4F8BFC37318AA20B0DAD122A8
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e282] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86877&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e283]: 2026-05-13
+          - listitem [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]: "15098"
+              - generic [ref=e287]:
+                - link "상장폐지 개혁방안(2.12일발표) 시행을 위한 한국거래소 상장규정 개정 승인" [ref=e289] [cursor=pointer]:
+                  - /url: /no010101/86875?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e290]:
+                  - generic [ref=e291]: "담당부서 : 자본시장과"
+                  - generic [ref=e292]: "조회수 : 5748"
+                - generic [ref=e293]:
+                  - generic [ref=e294]:
+                    - link "260513(보도참고) 상장폐지 개혁방안(2.12일발표) 시행을 위한 한국거래소 상장규정 개정 승인.hwp" [ref=e295] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86875&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e296]: 260513(보도참고) 상장폐지 개혁방안(2.12일발표) 시행을 위한 한국거래소 상장규정 개정 승인.hwp
+                    - generic [ref=e297]: (243 KB)
+                    - link "파일다운로드" [ref=e299] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86875&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e300]:
+                    - link "260513(보도참고) 상장폐지 개혁방안(2.12일발표) 시행을 위한 한국거래소 상장규정 개정 승인.pdf" [ref=e301] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86875&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e302]: 260513(보도참고) 상장폐지 개혁방안(2.12일발표) 시행을 위한 한국거래소 상장규정 개정 승인.pdf
+                    - generic [ref=e303]: (259 KB)
+                    - link "파일뷰어" [ref=e305] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E4128E082DB29663CBA994D00CC6E093EBFFA94DDDAF36C10DD6D12B63E92DE0B103302BF12E3D24A3480CD0292D12E218E7C74ABD72D77068F9F36EC92626CADDA387C5A5D1455B0E26FD6DD2971E2D200054F5F965F7B53B30DBAF82A46754980
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e307] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86875&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e308]: 2026-05-13
+          - listitem [ref=e309]:
+            - generic [ref=e310]:
+              - generic [ref=e311]: "15097"
+              - generic [ref=e312]:
+                - link "재외동포 금융위임장 전자화... 국제우편 없이 바로 처리" [ref=e314] [cursor=pointer]:
+                  - /url: /no010101/86874?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e315]:
+                  - generic [ref=e316]: "담당부서 : 은행과"
+                  - generic [ref=e317]: "조회수 : 8841"
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - link "260513(보도자료) 재외동포 금융위임장 전자화...국제우편 없이 바로 처리.hwpx" [ref=e320] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86874&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e321]: 260513(보도자료) 재외동포 금융위임장 전자화...국제우편 없이 바로 처리.hwpx
+                    - generic [ref=e322]: (220 KB)
+                    - link "파일다운로드" [ref=e324] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86874&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e325]:
+                    - link "260513(보도자료) 재외동포 금융위임장 전자화...국제우편 없이 바로 처리.pdf" [ref=e326] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86874&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e327]: 260513(보도자료) 재외동포 금융위임장 전자화...국제우편 없이 바로 처리.pdf
+                    - generic [ref=e328]: (305 KB)
+                    - link "파일뷰어" [ref=e330] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E415426C6B961DD06EB6B6B2BFB570EAFB9C006799DE2D70C36CEA00F9C24705908E67E7B23739CD226A22868ACAF5EDAB38888851B2F8663D955D656D73DB6F24E387C5A5D1455B0E26FD6DD2971E2D200580F788EA959F53612BF079BC907853D
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e332] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86874&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e333]: 2026-05-13
+          - listitem [ref=e334]:
+            - generic [ref=e335]:
+              - generic [ref=e336]: "15096"
+              - generic [ref=e337]:
+                - link "상록수 장기연체채권, 카드대란 23년만에 추심과 연체이자의 고통에서 벗어난다" [ref=e339] [cursor=pointer]:
+                  - /url: /no010101/86866?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e340]:
+                  - generic [ref=e341]: "담당부서 : 서민금융과"
+                  - generic [ref=e342]: "조회수 : 10465"
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - link "260512(보도참고) 상록수 장기연체채권 카드대란 23년만에 추심과 연체이자의 고통에서 벗어난다.hwp" [ref=e345] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86866&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e346]: 260512(보도참고) 상록수 장기연체채권 카드대란 23년만에 추심과 연체이자의 고통에서 벗어난다.hwp
+                    - generic [ref=e347]: (199 KB)
+                    - link "파일다운로드" [ref=e349] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86866&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e350]:
+                    - link "260512(보도참고) 상록수 장기연체채권 카드대란 23년만에 추심과 연체이자의 고통에서 벗어난다.pdf" [ref=e351] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86866&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e352]: 260512(보도참고) 상록수 장기연체채권 카드대란 23년만에 추심과 연체이자의 고통에서 벗어난다.pdf
+                    - generic [ref=e353]: (231 KB)
+                    - link "파일뷰어" [ref=e355] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E419582995F091D6DC8F26659E33773D1693D651EB18722A645300EDBBFDDEDE88887DC8C724A53340DFB7A2F23329876B1A257DFEBE452E84B0530840EBC22FFFC387C5A5D1455B0E26FD6DD2971E2D200580F788EA959F53612BF079BC907853D
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e357] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86866&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e358]: 2026-05-13
+          - listitem [ref=e359]:
+            - generic [ref=e360]:
+              - generic [ref=e361]: "15095"
+              - generic [ref=e362]:
+                - link "금융위원회, 첨단산업과 손잡고 우리 AI의 미래를 함께 설계한다 - ‘퓨리오사 AI’ 방문 및 관련 밸류체인 기업과 간담회 개최" [ref=e364] [cursor=pointer]:
+                  - /url: /no010101/86863?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e365]:
+                  - generic [ref=e366]: "담당부서 : 첨단산업2과"
+                  - generic [ref=e367]: "조회수 : 12064"
+                - generic [ref=e368]:
+                  - generic [ref=e369]:
+                    - link "260512(보도자료) 금융위원회 첨단산업과 손잡고 우리 AI의 미래를 함께 설계한다.hwpx" [ref=e370] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e371]: 260512(보도자료) 금융위원회 첨단산업과 손잡고 우리 AI의 미래를 함께 설계한다.hwpx
+                    - generic [ref=e372]: (380 KB)
+                    - link "파일다운로드" [ref=e374] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e375]:
+                    - link "260512(보도자료) 금융위원회 첨단산업과 손잡고 우리 AI의 미래를 함께 설계한다.pdf" [ref=e376] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e377]: 260512(보도자료) 금융위원회 첨단산업과 손잡고 우리 AI의 미래를 함께 설계한다.pdf
+                    - generic [ref=e378]: (325 KB)
+                    - link "파일뷰어" [ref=e380] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41BBD8E1C527245A934A9757C7059E4278C7F931F94241A1DBC3846404E44731DD385DAA76DE91BD4CBE619531A979883EF6AD71B099D7C82353FC65518652C4A9387C5A5D1455B0E26FD6DD2971E2D20024F024A180A5F9B86670732A57BDE627
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e382] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+                  - generic [ref=e383]:
+                    - link "260512[별첨] 금융위원장 모두발언.hwpx" [ref=e384] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=3
+                      - generic [ref=e385]: 260512[별첨] 금융위원장 모두발언.hwpx
+                    - generic [ref=e386]: (30 KB)
+                    - link "파일다운로드" [ref=e388] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=3
+                      - generic: 파일다운로드
+                  - generic [ref=e389]:
+                    - link "260512[별첨] 금융위원장 모두발언.pdf" [ref=e390] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=4
+                      - generic [ref=e391]: 260512[별첨] 금융위원장 모두발언.pdf
+                    - generic [ref=e392]: (109 KB)
+                    - link "파일뷰어" [ref=e394] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E41BBD8E1C527245A934A9757C7059E42784A44B43B57967D627A385B7DD43A748FD7EDD5D171F71CB0398F18B1F8CC307577266AACB9C2E07671D0DA3F53738EB0387C5A5D1455B0E26FD6DD2971E2D2007C7195C19A467B3DDEECDD201E3784A0
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e396] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86863&fileTy=ATTACH&fileNo=4
+                      - generic: 파일다운로드
+              - generic [ref=e397]: 2026-05-12
+          - listitem [ref=e398]:
+            - generic [ref=e399]:
+              - generic [ref=e400]: "15094"
+              - generic [ref=e401]:
+                - link "국민성장펀드 투자대상 발굴 채널 다양화를 위해 ｢성장기업발굴협의체｣ 설명회의 개최" [ref=e403] [cursor=pointer]:
+                  - /url: /no010101/86861?srchCtgry=&curPage=&srchKey=title&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88&srchBeginDt=&srchEndDt=
+                - generic [ref=e404]:
+                  - generic [ref=e405]: "담당부서 : 국민성장펀드총괄과"
+                  - generic [ref=e406]: "조회수 : 12904"
+                - generic [ref=e407]:
+                  - generic [ref=e408]:
+                    - link "260512(보도참고) 국민성장펀드 투자대상 발굴 채널 다양화를 위해 ｢성장기업발굴협의체｣ 설명회의 개최.hwpx" [ref=e409] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86861&fileTy=ATTACH&fileNo=1
+                      - generic [ref=e410]: 260512(보도참고) 국민성장펀드 투자대상 발굴 채널 다양화를 위해 ｢성장기업발굴협의체｣ 설명회의 개최.hwpx
+                    - generic [ref=e411]: (157 KB)
+                    - link "파일다운로드" [ref=e413] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86861&fileTy=ATTACH&fileNo=1
+                      - generic: 파일다운로드
+                  - generic [ref=e414]:
+                    - link "260512(보도참고) 국민성장펀드 투자대상 발굴 채널 다양화를 위해 ｢성장기업발굴협의체｣ 설명회의 개최.pdf" [ref=e415] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86861&fileTy=ATTACH&fileNo=2
+                      - generic [ref=e416]: 260512(보도참고) 국민성장펀드 투자대상 발굴 채널 다양화를 위해 ｢성장기업발굴협의체｣ 설명회의 개최.pdf
+                    - generic [ref=e417]: (348 KB)
+                    - link "파일뷰어" [ref=e419] [cursor=pointer]:
+                      - /url: /ezpdfwv/customLayout.jsp?encdata=F1FAADA4F2DF569F62BDB7C8FD4679176DB7E263D350004CDFF42BC7848B1E412F7462D1D56FCAB35C0A708C9B99D3580758926ABE04A77CA1E04CC0F00125268DE0165EE031493D67E0130E519D3BAFF3D9676DB7B99299E925B9D059D044BD387C5A5D1455B0E26FD6DD2971E2D2007C7195C19A467B3DDEECDD201E3784A0
+                      - generic: 파일뷰어
+                    - link "파일다운로드" [ref=e421] [cursor=pointer]:
+                      - /url: /comm/getFile?srvcId=BBSTY1&upperNo=86861&fileTy=ATTACH&fileNo=2
+                      - generic: 파일다운로드
+              - generic [ref=e422]: 2026-05-12
+        - generic [ref=e423]:
+          - link "첫페이지 이동" [ref=e424] [cursor=pointer]:
+            - /url: "?curPage=1&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+            - generic: 첫페이지 이동
+          - link "이전페이지 이동" [ref=e425] [cursor=pointer]:
+            - /url: "#none"
+            - generic: 이전페이지 이동
+          - link "1" [ref=e426] [cursor=pointer]:
+            - /url: "#none"
+          - link "2" [ref=e427] [cursor=pointer]:
+            - /url: "?curPage=2&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "3" [ref=e428] [cursor=pointer]:
+            - /url: "?curPage=3&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "4" [ref=e429] [cursor=pointer]:
+            - /url: "?curPage=4&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "5" [ref=e430] [cursor=pointer]:
+            - /url: "?curPage=5&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "6" [ref=e431] [cursor=pointer]:
+            - /url: "?curPage=6&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "7" [ref=e432] [cursor=pointer]:
+            - /url: "?curPage=7&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "8" [ref=e433] [cursor=pointer]:
+            - /url: "?curPage=8&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "9" [ref=e434] [cursor=pointer]:
+            - /url: "?curPage=9&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "10" [ref=e435] [cursor=pointer]:
+            - /url: "?curPage=10&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+          - link "다음페이지 이동" [ref=e436] [cursor=pointer]:
+            - /url: "?curPage=11&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+            - generic: 다음페이지 이동
+          - link "마지막페이지 이동" [ref=e437] [cursor=pointer]:
+            - /url: "?curPage=1511&srchCtgry=&srchEndDt=&srchKey=title&srchBeginDt=&srchText=%EC%95%84%EC%9D%B4%EA%B8%B0%EA%B8%88"
+            - generic: 마지막페이지 이동
+      - generic [ref=e440]:
+        - generic:
+          - term [ref=e441]: 콘텐츠 내용에 만족하셨나요?
+          - definition [ref=e442]:
+            - generic [ref=e443]:
+              - radio "매우만족" [ref=e444]
+              - generic "매우만족 선택" [ref=e445] [cursor=pointer]:
+                - generic [ref=e446]: 매우만족
+          - definition [ref=e448]:
+            - generic [ref=e449]:
+              - radio "만족" [ref=e450]
+              - generic "만족 선택" [ref=e451] [cursor=pointer]:
+                - generic [ref=e452]: 만족
+          - definition [ref=e454]:
+            - generic [ref=e455]:
+              - radio "보통" [ref=e456]
+              - generic "보통 선택" [ref=e457] [cursor=pointer]:
+                - generic [ref=e458]: 보통
+          - definition [ref=e460]:
+            - generic [ref=e461]:
+              - radio "불만족" [ref=e462]
+              - generic "불만족 선택" [ref=e463] [cursor=pointer]:
+                - generic [ref=e464]: 불만족
+          - definition [ref=e466]:
+            - generic [ref=e467]:
+              - radio "매우불만족" [ref=e468]
+              - generic "매우불만족 선택" [ref=e469] [cursor=pointer]:
+                - generic [ref=e470]: 매우불만족
+        - button "평가하기" [ref=e472] [cursor=pointer]
+  - contentinfo [ref=e473]:
+    - generic [ref=e474]:
+      - list:
+        - listitem "금융위원회 유관기관 선택하기" [ref=e475]:
+          - generic: 금융위원회 유관기관
+          - combobox "금융위원회 유관기관" [ref=e476]:
+            - option "금융위원회 유관기관" [selected]
+            - option "금융감독원"
+            - option "예금보험공사"
+            - option "한국자산관리공사(캠코)"
+            - option "산업은행"
+            - option "기업은행"
+            - option "신용보증기금"
+            - option "한국예탁결제원"
+            - option "한국거래소"
+            - option "한국주택금융공사"
+            - option "금융정보분석원"
+            - option "전국은행연합회"
+            - option "생명보험협회"
+            - option "손해보험협회"
+            - option "한국금융투자협회"
+            - option "여신금융협회"
+            - option "상호저축은행중앙회"
+            - option "신용정보협회"
+            - option "금융결제원"
+            - option "금융보안원"
+            - option "한국신용정보원"
+            - option "서민금융진흥원"
+            - option "신용회복위원회"
+            - option "한국금융연구원"
+            - option "보험개발원"
+            - option "보험연구원"
+            - option "자본시장연구원"
+            - option "한국금융연수원"
+            - option "핀테크지원센터"
+            - option "한국핀테크산업협회"
+            - option "한국화재보험협회"
+            - option "한국공인회계사회"
+            - option "한국회계기준원"
+            - option "코스콤"
+          - button "이동" [ref=e477] [cursor=pointer]
+        - listitem "금융서비스 포털모음 선택하기" [ref=e478]:
+          - generic: 금융서비스 포털모음
+          - combobox "금융서비스 포털모음" [ref=e479]:
+            - option "금융서비스 포털모음" [selected]
+            - option "파인"
+            - option "카드포인트통합조회"
+            - option "착오송금 반환지원"
+            - option "휴면금융재산조회"
+            - option "보험다모아"
+            - option "본인신용정보 열람서비스"
+            - option "페이인포"
+            - option "통합연금포털"
+            - option "ISA다모아"
+            - option "금융상품 한눈에"
+            - option "마이데이터 종합포털"
+            - option "KRX ESG포털"
+          - button "이동" [ref=e480] [cursor=pointer]
+      - list [ref=e481]:
+        - listitem [ref=e482]:
+          - generic [ref=e483]:
+            - term [ref=e484]: 이용안내
+            - definition [ref=e485]:
+              - link "금융행정서비스헌장" [ref=e486] [cursor=pointer]:
+                - /url: /ut010101
+            - definition [ref=e487]:
+              - link "개인정보처리방침" [ref=e488] [cursor=pointer]:
+                - /url: /ut020103
+            - definition [ref=e489]:
+              - link "전자우편 무단수집거부" [ref=e490] [cursor=pointer]:
+                - /url: /ut020105
+            - definition [ref=e491]:
+              - link "저작권정책" [ref=e492] [cursor=pointer]:
+                - /url: /ut020104
+            - definition [ref=e493]:
+              - link "누리집지도" [ref=e494] [cursor=pointer]:
+                - /url: /ut050101
+            - definition [ref=e495]:
+              - link "누리집 개선제안" [ref=e496] [cursor=pointer]:
+                - /url: /ut020102
+            - definition [ref=e497]:
+              - link "소식지 신청" [ref=e498] [cursor=pointer]:
+                - /url: /pa050000
+            - definition [ref=e499]:
+              - link "최신소식(RSS)서비스" [ref=e500] [cursor=pointer]:
+                - /url: /ut060101
+        - listitem [ref=e501]:
+          - generic [ref=e502]:
+            - term [ref=e503]: 금융위 문의
+            - definition [ref=e504]: 03171 서울특별시 종로구 세종대로 209 금융위원회
+            - definition [ref=e505]:
+              - text: "대표전화 :"
+              - link "02-2100-2500" [ref=e506] [cursor=pointer]:
+                - /url: tel:02-2100-2500
+            - definition [ref=e507]: "정부민원안내콜센터 국번없이 : 110(무료)"
+            - definition [ref=e508]: "금감원콜센터 : 1332(유료, 통화료는 발신자 부담)"
+        - listitem [ref=e509]:
+          - generic [ref=e510]:
+            - text: ⓒ FINANCIAL SERVICES COMMISSION.
+            - text: ALL RIGHTS RESERVED.
+          - list [ref=e511]:
+            - listitem [ref=e512]:
+              - link "페이스북" [ref=e513] [cursor=pointer]:
+                - /url: javascript:openFacebook()
+                - generic: 페이스북
+            - listitem [ref=e514]:
+              - link "네이버 블로그" [ref=e515] [cursor=pointer]:
+                - /url: javascript:openBlog()
+                - generic: 네이버 블로그
+            - listitem [ref=e516]:
+              - link "유튜브" [ref=e517] [cursor=pointer]:
+                - /url: javascript:openYoutube()
+                - generic: 유튜브
+            - listitem [ref=e518]:
+              - link "X (구)트위터" [ref=e519] [cursor=pointer]:
+                - /url: javascript:openTwiter()
+                - generic: X (구)트위터
+            - listitem [ref=e520]:
+              - link "인스타그램" [ref=e521] [cursor=pointer]:
+                - /url: javascript:openInstagram()
+                - generic: 인스타그램
+          - generic [ref=e522]:
+            - link "국가상징 알아보기" [ref=e524] [cursor=pointer]:
+              - /url: https://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do
+              - img "국가상징 알아보기" [ref=e525]
+            - link "OPEN 정보공개" [ref=e527] [cursor=pointer]:
+              - /url: https://www.kogl.or.kr/open/index.do
+              - img "OPEN 정보공개" [ref=e528]
+            - link "(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" [ref=e530] [cursor=pointer]:
+              - /url: http://www.wa.or.kr/board/list.asp?search=link_url&SearchString=www.fsc.go.kr&BoardID=0006
+              - img "(사)한국장애인단체총연합회 한국웹접근성인증평가원 웹 접근성 우수사이트 인증마크(WA인증마크)" [ref=e531]
+  - complementary

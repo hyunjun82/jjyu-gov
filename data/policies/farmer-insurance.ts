@@ -69,11 +69,36 @@ export const farmerInsurancePolicy = {
       sourceNote: '* 출처: 농림축산식품부' },
   ],
   faq: [
-    { q: '얼마 지원받나요?', a: '건강보험료 최대 50% 감면 + 국민연금 보험료 월 최대 43,650원 정부 대납. 연 수십만원 절감.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '농업경영체 등록 농업인. 농지 1,000㎡ 이상 + 직접 영농 + 농업소득 있음.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '어떻게 신청하나요?', a: '농업경영체 등록 후 건강보험공단 1577-1000 + 국민연금공단 1355에 농업인 자격 신고. 자동 적용.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '농외소득 있어도 받나요?', a: '농외소득 일정 이상이면 감면율 ↓ 또는 제외. 본업 농업인 보호 취지. 1577-1000 확인.', source: '국민건강보험공단', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '다른 농업인 지원과 중복?', a: '공익직불·영농도우미·농지이양 등 모두 중복 가능. 본 사업은 사회보험료 특화 보완.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
+    {
+      q: '얼마 지원받나요?',
+      a: '농림축산식품부 농업인 건강·연금보험료 지원은 두 가지 지원이 결합됩니다',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '농업경영체 등록 농업인. 농지 1,000㎡ 이상 + 직접 영농 + 농업소득 있음.',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '농업경영체 등록 후 건강보험공단 1577-1000 + 국민연금공단 1355에 농업인 자격 신고. 자동 적용.',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '농외소득 있어도 받나요?',
+      a: '농업인 직장가입자(농업법인 소속) 또는 농업인 지역가입자에 따라 다릅니다',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '다른 농업인 지원과 중복?',
+      a: '국민연금 지역가입자인 농업인에게 최대 월 43,650원의 보험료가 정부에서 지원됩니다',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
   ],
   sources: [
     { label: '농림축산식품부 공식 사이트', url: 'https://www.mafra.go.kr' },

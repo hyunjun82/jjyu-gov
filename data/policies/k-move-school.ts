@@ -80,11 +80,36 @@ export const kMoveSchoolPolicy = {
     },
   ],
   faq: [
-    { q: '어떤 지원?', a: '어학·기술·문화 연수 전액 + 항공권 + 체재비 + 해외 일자리 매칭.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '누가?', a: '만 18~34세 청년. 대학 졸업·졸업 예정 중심. 일부 고졸 OK.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '어떻게?', a: 'worldjob.or.kr 회원가입 → 사업 선택 → 어학·서류·면접.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '어떤 국가?', a: '미국·일본·호주·중동·동남아 등. IT·간호·디자인·서비스 등 다양.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '취업 보장?', a: '100% 약속은 아니나 수요 선확보 구조라 통계 취업률 80~90%.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
+    {
+      q: '어떤 지원?',
+      a: '고용노동부 K-Move 스쿨은 해외 일자리 매칭을 전제로 한 청년 해외취업 패키지 사업입니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '만 18~34세 청년 중 해외 취업 의지가 있는 분이 대상입니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '월드잡플러스(worldjob.or.kr) 회원가입 후 사업별 모집 공고를 확인해 신청. 본인이 원하는 국가·직종에 맞는 사업을 선택하고 어학·서류·면접 단계를 거쳐 선발됩니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '어떤 국가?',
+      a: '미국·일본·호주·캐나다·싱가포르·중동(UAE·사우디 등)·동남아(베트남·인도네시아 등) 등 다양한 국가의 일자리가 있습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '취업 보장?',
+      a: '100% 약속은 아니나 수요 선확보 구조라 통계 취업률 80~90%.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
   ],
   sources: [
     { label: '월드잡플러스', url: 'https://www.moel.go.kr' },

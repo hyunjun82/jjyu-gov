@@ -68,11 +68,36 @@ export const multiCultureChildEduPolicy = {
       sourceNote: '* 출처: 여성가족부' },
   ],
   faq: [
-    { q: '어떤 지원받나요?', a: '기초학습(한국어·교과목) + 진로설계 컨설팅 + 교육활동비 통합. 자녀 연령·단계 맞춤.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '다문화가족 자녀 (결혼이민자·중도입국·외국인 부부 자녀·귀화자 가정 등). 학령기·청소년기 중심.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 가족센터(구 다문화가족지원센터) 또는 다누리콜센터 1577-1366 (14개 언어).', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '한국어가 서툴러도?', a: '오히려 핵심 대상. 단계별 한국어 교실·교과 따라잡기·또래 멘토링 제공. 부모도 함께 가능.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '다른 다문화 지원과 중복?', a: '방문교육·통번역·언어발달 등 모두 중복 가능. 아동수당·기초생활·국가장학금도 중복.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '어떤 지원받나요?',
+      a: '기초학습(한국어·교과목) + 진로설계 컨설팅 + 교육활동비 통합. 자녀 연령·단계 맞춤.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '여성가족부 다문화 교육활동비 사업은 다문화가족 자녀가 대상입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 가족센터(구 다문화가족지원센터)를 방문해 상담 신청합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '한국어가 서툴러도?',
+      a: '오히려 한국어가 서툰 자녀가 본 사업의 핵심 대상입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '다른 다문화 지원과 중복?',
+      a: '다문화가족 자녀는 언어·문화 차이로 학교 적응이 어렵거나 학력 격차가 커질 수 있고 진로 정보 부족으로 진학·취업 기회가 제한될 수 있습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 공식 사이트', url: 'https://www.mogef.go.kr' },

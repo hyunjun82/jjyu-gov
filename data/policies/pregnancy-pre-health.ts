@@ -68,11 +68,36 @@ export const pregnancyPreHealthPolicy = {
       sourceNote: '* 출처: 보건복지부' },
   ],
   faq: [
-    { q: '얼마 지원받나요?', a: '여성 13만원, 남성 5만원, 부부 합산 최대 18만원. 검사비 한도 내 환급.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '가임기 부부 또는 결혼 예정자. 혼인 신고 여부와 무관. 일부 지자체 거주 기간 요건 있을 수 있음.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 보건소 또는 e보건소(e-health.go.kr) 사전 신청. 지정 의료기관 검사 후 영수증으로 환급.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '검사 항목은?', a: '여성: 난소기능·자궁초음파·풍진항체. 남성: 정액검사·풍진항체. 기초 혈액·소변 검사 포함.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '다른 임신·출산 지원과 중복?', a: '부모급여·첫만남 이용권·진료비 지원 등 모두 중복 가능. 임신 전·중·후 단계별 활용.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '얼마 지원받나요?',
+      a: '여성은 최대 13만원, 남성은 최대 5만원이 검사비로 지원됩니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '가임기 부부 또는 결혼 예정자. 혼인 신고 여부와 무관. 일부 지자체 거주 기간 요건 있을 수 있음.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 보건소 또는 e보건소(e-health.go.kr) 사전 신청. 지정 의료기관 검사 후 영수증으로 환급.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '검사 항목은?',
+      a: '거주지 보건소를 방문하거나 e보건소(e-health.go.kr)에서 온라인 신청합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '다른 임신·출산 지원과 중복?',
+      a: '임신 전 건강 상태가 좋아야 안전한 임신·출산이 가능합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부 공식 사이트', url: 'https://www.mohw.go.kr' },

@@ -81,11 +81,36 @@ export const kMoocOnlinePolicy = {
     },
   ],
   faq: [
-    { q: '어떤 강좌?', a: '국내 주요 대학·기관 정규 수준 온라인 강좌. 수천 개. 전 분야.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '누가?', a: '연령·학력·소득 무관 누구나. 외국인도 가능.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '어떻게?', a: 'kmooc.kr 회원가입 후 즉시 수강. PC·모바일. 무료.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '수료증?', a: '수강률 80%+ 과제·시험 충족 시 발급. 일부 강좌 학점 인정.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
-    { q: '비용?', a: '전 강좌 100% 무료.', source: '교육부', sourceUrl: 'https://www.moe.go.kr' },
+    {
+      q: '어떤 강좌?',
+      a: '교육부 K-MOOC 한국형 온라인 공개강좌 무료 플랫폼은 서울대·연세대·고려대·KAIST 등 국내 주요',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '온라인강좌 K-MOOC는 연령·학력·소득 등 어떤 조건도 없습니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: 'kmooc.kr 회원가입 후 원하는 강좌를 검색·등록하면 즉시 수강 시작. PC·모바일 모두 가능하며 강의 영상, 강의 노트, 퀴즈, 토론 게시판 등이 제공됩니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '수료증?',
+      a: '강좌별로 일정 조건(수강률 80% 이상·과제·시험 등) 충족 시 \.',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '비용?',
+      a: '평생학습 시대에 누구나 양질의 교육에 접근할 수 있도록 정부가 만든 무료 플랫폼. 대학 강의를 듣고 싶지만 비용·시간·거리 등으로 어려운 사람들에게 디지털 학습 기회를 제공합니다',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
   ],
   sources: [
     { label: 'K-MOOC', url: 'https://www.moe.go.kr' },

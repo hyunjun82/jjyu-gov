@@ -289,4 +289,11 @@ export const youthFutureSavingsPolicy = {
 export const youthFutureSavingsSpokes = [
   { slug: 'vs-도약계좌', title: '미래적금 vs 도약계좌 차이' },
   { slug: '중위소득', title: '중위소득 200% 기준표' },
-  { slug: '�
+  { slug: '군대-나이', title: '병역 기간 연령 제외' },
+  { slug: '중도해지', title: '중도해지 시 기여금 환수' },
+  { slug: '소득없으면', title: '소득 없으면 가입 가능?' },
+  { slug: '은행별-금리', title: '취급 금융기관 (5월 확정)' },
+  { slug: '신청방법', title: '비대면 앱 3분 신청' },
+  { slug: '납입금액', title: '월 1만~50만원 최적 납입' },
+  { slug: '기여금-계산', title: '6% vs 12% 매칭 계산' },
+];

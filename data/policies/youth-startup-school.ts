@@ -80,11 +80,36 @@ export const youthStartupSchoolPolicy = {
     },
   ],
   faq: [
-    { q: '얼마?', a: '사업화 자금 최대 1억원(정부 70%) + 1년 입주 + 교육 + 멘토 + 투자 연계.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '누가?', a: '만 39세 이하 + 창업 3년 이내 대표. 제조·서비스·IT·바이오 등.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '어떻게?', a: 'K-Startup 1~3월 모집. 서류 + 발표 + 멘토 면접. 합격 시 17개 지역 사관학교 입주.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: 'TIPS와 차이?', a: '본 사관학교=시작 종합, TIPS=정점 투자 매칭. 단계 다르고 본 졸업 후 TIPS 연계 가능.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
-    { q: '본인 부담?', a: '사업화 자금만 30% 자부담. 입주·교육·멘토는 무료.', source: '중기부', sourceUrl: 'https://www.mss.go.kr' },
+    {
+      q: '얼마?',
+      a: '중소벤처기업진흥공단 청년창업사관학교 창업지원 사업은 사업화 자금 최대 1억원(사업비 총 70%까지 정부 지원, 본인 30% 자부담)과 함께 1년간 사무 공간 입주, 창업 전문 교육, 전담 멘토 1:1 매칭, 투자 데모데이 등 종합 패키지를 제공합니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '만 39세 이하 청년이며 창업 후 3년 이내 기업의 대표여야 합니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: 'K-Startup(k-startup.go.kr) 또는 중진공 누리집에서 매년 1~3월 모집 공고를 확인해 신청합니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: 'TIPS와 차이?',
+      a: '본 사업 합격 시 1년간 무상으로 사관학교 내 사무 공간을 사용할 수 있습니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '본인 부담?',
+      a: '청년 창업은 자금 부족·경험 부족·네트워크 부족으로 실패율이 높습니다',
+      source: '중기부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
   ],
   sources: [
     { label: '중소벤처기업진흥공단', url: 'https://www.kosmes.or.kr' },

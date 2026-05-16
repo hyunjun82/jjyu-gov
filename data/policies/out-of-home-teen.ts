@@ -78,11 +78,36 @@ export const outOfHomeTeenPolicy = {
     }
   ],
   faq: [
-    { q: '어떤 지원?', a: '쉼터 입소 + 의식주·학업·심리·자립 통합. 단계별.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '누가?', a: '만 9~24세 가정 폭력·학대·방임·가출·은둔 청소년.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '어떻게?', a: '1388 24시간 전화/문자/카톡 또는 쉼터 직접. 즉시 입소.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '부모 동의 없이?', a: '본인 보호 우선. 폭력·학대 시 부모 동의 면제.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' },
-    { q: '자립 후 지원?', a: '쉼터 → 자립지원관 → 자립지원수당 월 40만원 5년 연결.', source: '여성가족부', sourceUrl: 'https://www.korea.kr' }
+    {
+      q: '어떤 지원?',
+      a: '여성가족부 가정밖청소년 청소년쉼터 자립 통합지원 사업으로 가정 밖 청소년은 안전한 거주, 식사, 의료, 학업 지원, 정서·심리 상담, 자립 준비 등 모든 영역에서 통합 지원을 받습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '누가?',
+      a: '만 9~24세 청소년 중 가정 폭력·학대·방임·가출·은둔 등으로 안전한 거주가 어려운 경우 모두 대상입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '1388(청소년상담복지센터)로 24시간 전화·문자(#1388)·카카오톡 가능. 또는 거주지·인근 청소년 쉼터에 직접 방문. 입소 절차는 매우 빠르며 본인 안전을 위해 부모 동의 없이도 입소 가능. 비밀 보장. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '부모 동의 없이?',
+      a: '의식주 기본 보호와 함께 학업 계속, 검정고시 준비, 심리상담, 의료 지원, 친구 관계 회복, 자립 준비 등을 단계별로 진행합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
+    {
+      q: '자립 후 지원?',
+      a: '가정에서 안전이 보장되지 않는 청소년은 거리 노숙·범죄 노출·자해 등 매우 큰 위험에 처합니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.korea.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 공식 사이트', url: 'https://www.korea.kr' },

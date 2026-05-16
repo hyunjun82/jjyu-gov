@@ -81,11 +81,36 @@ export const nutritionPlusPolicy = {
     },
   ],
   faq: [
-    { q: '대상은?', a: '중위 80% 이하 임산부 또는 5세 이하 영유아 + 영양위험요인.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '본인부담?', a: '0원. 식품·교육 모두 무상.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '식품 패키지?', a: '월 1~2회 본인 가정 배송. 연령·상태별 6가지 유형.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '어디서 신청?', a: '거주지 보건소만 가능 (온라인 불가). 129 콜센터.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '지원 기간?', a: '기본 6개월. 재평가 시 연장. 임산부→출산·수유 자동 전환.', source: '보건복지부', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '대상은?',
+      a: '영양플러스 임산부영양 영유아보충식품(보건복지부) - 본 사업은 중위 80% 이하 가구의 임산부(임신·출산·수유부) 및 만 5세 이하 영유아 중 빈혈·저체중·영양 불균형 등 영양위험요인을 가진 본인에게 ①월 1~2회 보충식품 패키지(쌀·달걀·우유·과채주스·잡곡·고기·생선.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '본인부담?',
+      a: '대상은 ①기준 중위소득 80% 이하 가구 ②임산부(임신부·출산부·수유부) 또는 만 5세 이하(72개월 미만) 영유아 ③영양위험요인 보유자입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '식품 패키지?',
+      a: '제공되는 식품 패키지는 연령·상태에 따라 6가지 유형으로 본인 맞춤 구성됩니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어디서 신청?',
+      a: '영양교육은 사업 혜택 유지의 필수 조건으로 월 1회 이상 본인이 직접 참여해야 합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '지원 기간?',
+      a: '신청은 거주지 보건소만 가능하며 온라인 신청은 불가합니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부', url: 'https://www.mohw.go.kr' },

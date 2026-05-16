@@ -71,11 +71,36 @@ export const farmHelperPolicy = {
       sourceNote: '* 출처: 농림축산식품부' },
   ],
   faq: [
-    { q: '얼마 지원받나요?', a: '인건비의 70~80% 정부 지원. 일당 10만원 기준 정부 7~8만원, 본인 2~3만원 부담.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '사고·질병·임신·출산 등 영농 공백이 있는 농업경영체 등록 농업인. 일정 농지 경작면적 필요.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 농협 또는 농촌인력중개센터. 영농 공백 사유 증빙 + 농업경영체 등록증 제출.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '연 한도는?', a: '기본 연 10일. 임신·출산 등 일부 사유는 연장 가능. 농가 규모·작목별 차등.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '직접 도우미 구해도 되나요?', a: '공식 등록 도우미만 정부 지원 적용. 직접 고용 시 본인 100% 부담.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
+    {
+      q: '얼마 지원받나요?',
+      a: '농작업 도우미를 고용하는 인건비의 70~80%를 정부가 지원합니다',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '농림축산식품부 영농도우미 사업은 사고·질병·임신·출산 등으로 일시적으로 영농이 어려운 농가가 대상입니다',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 농협 또는 농촌인력중개센터. 영농 공백 사유 증빙 + 농업경영체 등록증 제출.',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '연 한도는?',
+      a: '농업인은 사고·질병으로 일시적으로 일을 못하면 그 시기 수확·관리 등 농작업이 멈춰 한 해 농사를 망칠 수 있습니다',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '직접 도우미 구해도 되나요?',
+      a: '기본 한도는 연 10일이지만 임신·출산 등 일부 사유는 연장 신청이 가능합니다',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
   ],
   sources: [
     { label: '농림축산식품부 공식 사이트', url: 'https://www.mafra.go.kr' },

@@ -70,11 +70,36 @@ export const familyCareLeavePolicy = {
       sourceNote: '* 출처: 근로기준법 + 남녀고용평등법' },
   ],
   faq: [
-    { q: '며칠 쓸 수 있나요?', a: '연 최대 10일, 1일 단위 분할 사용. 원칙 무급이지만 저소득·중소기업 근로자에게 일당 지원 보완 사업.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '누가 쓸 수 있나요?', a: '근로기준법상 근로자 모두 (정규·계약·시간제 무관). 사업주가 정당한 사유 없이 거부 X.', source: '남녀고용평등법', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '어떻게 신청?', a: '사업주에게 신청서 (2~3일 전). 거부 시 1350 또는 고용센터 진정.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '누구를 돌볼 수 있나요?', a: '배우자·부모(본인·배우자)·자녀·조부모·손자녀. 형제자매는 일반적으로 제한.', source: '남녀고용평등법', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '가족돌봄휴직과 차이는?', a: '휴가 = 연 10일 단기, 휴직 = 최대 90일 장기. 별도 권리라 연속 사용 가능.', source: '남녀고용평등법', sourceUrl: 'https://www.moel.go.kr' },
+    {
+      q: '며칠 쓸 수 있나요?',
+      a: '가족돌봄휴가는 기본적으로 1년에 최대 10일까지 1일 단위로 사용할 수 있는 단기 휴가입니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '누가 쓸 수 있나요?',
+      a: '고용노동부 가족돌봄휴가 근로기준법상 근로자(상시 1인 이상 사업장 정규직)면 누구나 신청 가능합니다',
+      source: '남녀고용평등법',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '어떻게 신청?',
+      a: '사업주에게 신청서 (2~3일 전). 거부 시 1350 또는 고용센터 진정.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '누구를 돌볼 수 있나요?',
+      a: '직계가족(부모·자녀·배우자·조부모·손자녀)의 질병·사고·노령·자녀 양육·돌봄 등 폭넓게 인정됩니다',
+      source: '남녀고용평등법',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '가족돌봄휴직과 차이는?',
+      a: '직장과 가족 돌봄 양립이 어려워 일하는 사람이 부모 간병·자녀 응급 돌봄 등으로 곤란을 겪는 경우가 많습니다',
+      source: '남녀고용평등법',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
   ],
   sources: [
     { label: '고용노동부 공식 사이트', url: 'https://www.moel.go.kr' },

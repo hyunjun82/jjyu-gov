@@ -81,11 +81,36 @@ export const womenHeadStartupLoanPolicy = {
     },
   ],
   faq: [
-    { q: '얼마?', a: '최대 1억원 (2026 확대), 연 1.5% 고정금리.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '대상은?', a: '저소득 한부모·여성가장·15년 경력단절 여성.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '신청 시기?', a: '연 2회 (상·하반기). 연초 1~3월 권장.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '한부모 우선?', a: '한부모 여성 2주 빠른 우선 심사제.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어디서 신청?', a: 'mogef.go.kr 또는 복지로, 시군구청.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '얼마?',
+      a: '여성가장창업 한부모창업(여성가족부) - 본 대출은 저소득 한부모·여성가장이 본인 창업을 통해 자립할 수 있도록 정부가 저금리로 지원하는 사업입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '대상은?',
+      a: '대상은 ①저소득 한부모 가구주 ②여성가장(가족 부양 책임 여성) ③15년 이상 경력단절 여성 ④본인이 창업을 통해 자립하려는 의지가 있는 여성. 본인 소득이 기준 중위소득 이하이면 우선 적용. 본 사업은 신용대출 형태로 본인 신용·창업계획서·사업타당성을 종합 심사. 부.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '신청 시기?',
+      a: '2026년 변화: ①한도 확대: 7천만 → 1억원(임차보증금·창업 비용 급등 반영) ②금리 인하: 연 2.0% → 연 1.5% 고정(시중 대출 4~5% 대비 매우 저렴) ③한부모 여성 우선 심사제: 일반 신청보다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '한부모 우선?',
+      a: '2026년 신설된 한부모 여성 창업 대출 신청자 우선 심사제는 한부모(이혼·사별·미혼 등) 본인이 단독으로 자녀를 부양하면서 창업을 시도할 때 일반 심사보다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어디서 신청?',
+      a: '신청은 연 2회(상·하반기)이며 ①여성가족부 누리집(mogef.go.kr) 또는 복지로(bokjiro.go.kr)에서 본인 가입 → 신청 ②거주지 시·군·구청 한부모 담당 부서 방문 ③지정 위탁 은행 접수. 신청 시 본인 신분증·사업계획서·창업 임대차계약서·소득 증빙(.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부', url: 'https://www.mogef.go.kr' },

@@ -80,11 +80,36 @@ export const youthWelfarePolicy = {
     },
   ],
   faq: [
-    { q: '어떤 복지?', a: '마음건강 바우처·의료비·자립수당·청년 주거 등 통합.', source: '국무조정실', sourceUrl: 'https://www.opm.go.kr' },
-    { q: '마음건강 바우처?', a: '만 19~34세, 3개월 10회 심리상담 무료. 우울·불안·번아웃.', source: '보건복지부', sourceUrl: 'https://www.opm.go.kr' },
-    { q: '자립수당?', a: '시설 퇴소 청년 월 40만원 5년. 아동권리보장원 운영.', source: '보건복지부', sourceUrl: 'https://www.opm.go.kr' },
-    { q: '어디서?', a: 'youthcenter.go.kr 한 곳에서 본인 맞춤 검색. 또는 1357.', source: '국무조정실', sourceUrl: 'https://www.opm.go.kr' },
-    { q: '다른 청년 사업과?', a: '일자리·자산형성·주거 등 모두 결합. 4축 활용 시 자립 빠름.', source: '국무조정실', sourceUrl: 'https://www.opm.go.kr' },
+    {
+      q: '어떤 복지?',
+      a: '국무조정실 청년복지 심리상담 의료 종합 - 청년 사회·복지는 청년이 일·자산·주거 외에 \.',
+      source: '국무조정실',
+      sourceUrl: 'https://www.opm.go.kr',
+    },
+    {
+      q: '마음건강 바우처?',
+      a: '청년 마음건강 바우처는 만 19~34세 청년에게 심리상담을 무료(또는 매우 저렴)로 제공하는 사업입니다',
+      source: '보건복지부',
+      sourceUrl: 'https://www.opm.go.kr',
+    },
+    {
+      q: '자립수당?',
+      a: '아동복지시설·위탁가정 등에서 보호받다가 퇴소(만 18세) 또는 자립을 시작하는 청년에게 월 40만원을 최장 5년간 지급. 본 사업은 \.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.opm.go.kr',
+    },
+    {
+      q: '어디서?',
+      a: '저소득 청년 또는 산재·범죄피해·시설 퇴소 청년 등 취약 청년에게 의료비를 부분 또는 전액 지원합니다',
+      source: '국무조정실',
+      sourceUrl: 'https://www.opm.go.kr',
+    },
+    {
+      q: '다른 청년 사업과?',
+      a: '온라인청년센터(youthcenter.go.kr)에서 본인 거주지·연령·상황을 입력하면 받을 수 있는 청년 사업이 모두 검색됩니다',
+      source: '국무조정실',
+      sourceUrl: 'https://www.opm.go.kr',
+    },
   ],
   sources: [
     { label: '온라인청년센터', url: 'https://www.opm.go.kr' },

@@ -81,11 +81,36 @@ export const longTermCareElderlyPolicy = {
     },
   ],
   faq: [
-    { q: '신청 자격?', a: '65세 이상 또는 65세 미만 노인성 질환자.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '신청은 어디서?', a: '거주지 국민건강보험공단 지사 또는 longtermcare.or.kr, 1577-1000.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '본인부담률?', a: '재가 15%, 시설 20% (감경 대상자는 0~12%).', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '재가 월 한도?', a: '1등급 2,005,900원 ~ 인지지원등급 597,600원.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
-    { q: '복지용구 한도?', a: '연 160만원 한도 내 본인 15%로 구입·대여.', source: '국민건강보험공단', sourceUrl: 'https://www.mohw.go.kr' },
+    {
+      q: '신청 자격?',
+      a: '노인장기요양 시설급여 - 국민건강보험공단 장기요양보험은 65세 이상 어르신 또는 65세 미만 노인성 질환자에게 등급(1~5등급·인지지원)을 부여해 본인 상태별로 시설급여(요양원), 재가급여(방문요양·방문목욕·방문간호·주야간보호·단기보호), 복지용구 대여까지 통합 지원합.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '신청은 어디서?',
+      a: '거주지 국민건강보험공단 지사 또는 longtermcare.or.kr, 1577-1000.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '본인부담률?',
+      a: '시설급여는 요양원·노인요양공동생활가정 등 장기요양시설에 입소해 24시간 돌봄을 받는 서비스로 1~2등급만 이용 가능합니다',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '재가 월 한도?',
+      a: '재가급여는 어르신이 가정에서 생활하면서 받을 수 있는 5가지 서비스입니다',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '복지용구 한도?',
+      a: '신청은 거주지 국민건강보험공단 지사 방문 또는 노인장기요양보험 누리집(longtermcare.or.kr), 노인장기요양보험 콜센터(1577-1000)로 본인·가족·사회복지전담공무원이 신청 가능합니다',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
   ],
   sources: [
     { label: '보건복지부', url: 'https://www.mohw.go.kr' },

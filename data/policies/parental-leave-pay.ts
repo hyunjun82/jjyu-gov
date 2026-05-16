@@ -81,11 +81,36 @@ export const parentalLeavePayPolicy = {
     },
   ],
   faq: [
-    { q: '얼마?', a: '1~3월 월 250만, 4~6월 200만, 7월~ 160만 (2026 인상).', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '대상은?', a: '만 8세 이하 자녀 + 고용보험 가입자 (180일 이상).', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '6+6?', a: '부부 함께 6개월간 100% 지급. 최종 6개월 차 월 450만원.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '휴직 기간?', a: '최대 1년 6개월. 부부 합산 최대 3년.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '신청은?', a: '사업주 승인 후 ei.go.kr 또는 고용센터, 1350.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
+    {
+      q: '얼마?',
+      a: '육아휴직급여 고용노동부 - 2026년부터 육아휴직급여가 큰 폭으로 인상되었습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '대상은?',
+      a: '대상은 ①만 8세 이하 자녀(또는 초등학교 2학년 이하)를 둔 ②고용보험 가입 근로자(피보험 단위 기간 180일 이상). 정규직·계약직·기간제 등 고용 형태 무관. 본인이 사업주에게 육아휴직 신청 후 승인을 받고 실제 휴직 기간 동안 본인 계좌로 매월 지급. 자영업자·.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '6+6?',
+      a: '6+6부모육아(6+6 부모함께 육아휴직)는 부부가 동시 또는 순차적으로 육아휴직을 사용할 때 첫 6개월간 월 통상임금 100%를 지급하고 상한액을 점진 인상하는 특별 제도입니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '휴직 기간?',
+      a: '육아휴직 기간은 2025년 2월부터 기존 1년에서 최대 1년 6개월로 확대되었습니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '신청은?',
+      a: '신청은 ①본인이 사업주에게 휴직 시작 30일 전까지 휴직 신청 → 사업주 승인 ②휴직 시작 후 매월 본인이 고용보험 누리집(ei.go.kr) 또는 거주지 고용센터에 급여 신청 ③본인 계좌로 매월 지급. 첫 회 신청 시 본인 신분증·통상임금 증빙·자녀 출생증명서·휴직 확.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
   ],
   sources: [
     { label: '고용노동부', url: 'https://www.moel.go.kr' },

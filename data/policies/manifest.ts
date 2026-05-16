@@ -4,6 +4,10 @@ import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
 import { basicPensionPolicy, 기초연금Spokes } from './basic-pension';
 import { birthCareEmploymentGrantPolicy, birthCareEmploymentGrantSpokes } from './birth-care-employment-grant';
 import { childCareServicePolicy, childCareServiceSpokes } from './child-care-service';
+import { childDevelopmentAccountPolicy, childDevelopmentAccountSpokes } from './child-development-account';
+import { disabledWomenChildcarePolicy, disabledWomenChildcareSpokes } from './disabled-women-childcare';
+import { hypertensionMedicalFeePolicy, hypertensionMedicalFeeSpokes } from './hypertension-medical-fee';
+import { pregnancyMedicalBenefitPolicy, pregnancyMedicalBenefitSpokes } from './pregnancy-medical-benefit';
 import { childcareInfantEducationPolicy, childcareInfantEducationSpokes } from './childcare-infant-education';
 import { communityCareCenterPolicy, communityCareCenterSpokes } from './community-care-center';
 import { communityChildCenterPolicy, communityChildCenterSpokes } from './community-child-center';
@@ -45,7 +49,6 @@ import { kMoocOnlinePolicy, kMoocOnlineSpokes } from './k-mooc-online';
 import { kMoveSchoolPolicy, kMoveSchoolSpokes } from './k-move-school';
 import { leapLoanPolicy, leapLoanSpokes } from './leap-loan';
 import { leapSavingsPolicy, leapSavingsSpokes } from './leap-savings';
-import { learningCardTomorrowPolicy, learningCardTomorrowSpokes } from './learning-card-tomorrow';
 import { learningcardPolicy, learningcardSpokes } from './learning-card';
 import { localGiftCardPolicy, localGiftCardSpokes } from './local-gift-card';
 import { longTermCareElderlyPolicy, longTermCareElderlySpokes } from './long-term-care-elderly';
@@ -67,6 +70,7 @@ import { parentAllowancePolicy, parentAllowanceSpokes } from './parent-allowance
 import { parentalLeavePayPolicy, parentalLeavePaySpokes } from './parental-leave-pay';
 import { parentalWorkReductionPayPolicy, parentalWorkReductionPaySpokes } from './parental-work-reduction-pay';
 import { pregnancyPreHealthPolicy, pregnancyPreHealthSpokes } from './pregnancy-pre-health';
+import { preschoolTuitionPolicy, preschoolTuitionSpokes } from './preschool-tuition';
 import { protectedChildScholarPolicy, protectedChildScholarSpokes } from './protected-child-scholar';
 import { ruralBasicIncomePolicy, ruralBasicIncomeSpokes } from './rural-basic-income';
 import { ruralStudentLoanPolicy, ruralStudentLoanSpokes } from './rural-student-loan';
@@ -126,7 +130,11 @@ export const PoliciesById: Record<string, any> = {
   '107': elderlyDriverSafetyPolicy,
   '36': elderlyEmergencySafetyPolicy,
   '22': elderlyJobPolicy,
+  '10': childDevelopmentAccountPolicy,
+  '41': hypertensionMedicalFeePolicy,
   '42': employmentPromotionPolicy,
+  '79': disabledWomenChildcarePolicy,
+  '128': pregnancyMedicalBenefitPolicy,
   '69': extendedChildcareFeePolicy,
   '70': familyCareLeaveLongPolicy,
   '66': familyCareLeavePolicy,
@@ -147,7 +155,6 @@ export const PoliciesById: Record<string, any> = {
   '87': kMoveSchoolPolicy,
   '11': leapLoanPolicy,
   '13': leapSavingsPolicy,
-  '23': learningCardTomorrowPolicy,
   '5': learningcardPolicy,
   '24': localGiftCardPolicy,
   '100': longTermCareElderlyPolicy,
@@ -169,6 +176,7 @@ export const PoliciesById: Record<string, any> = {
   '116': parentalLeavePayPolicy,
   '117': parentalWorkReductionPayPolicy,
   '43': pregnancyPreHealthPolicy,
+  '61': preschoolTuitionPolicy,
   '18': protectedChildScholarPolicy,
   '20': ruralBasicIncomePolicy,
   '88': ruralStudentLoanPolicy,
@@ -229,7 +237,11 @@ export const PoliciesBySlug: Record<string, any> = {
   'elderly-driver-safety': elderlyDriverSafetyPolicy,
   'elderly-emergency-safety': elderlyEmergencySafetyPolicy,
   'elderly-job': elderlyJobPolicy,
+  'child-development-account': childDevelopmentAccountPolicy,
+  'disabled-women-childcare': disabledWomenChildcarePolicy,
   'employment-promotion': employmentPromotionPolicy,
+  'hypertension-medical-fee': hypertensionMedicalFeePolicy,
+  'pregnancy-medical-benefit': pregnancyMedicalBenefitPolicy,
   'extended-childcare-fee': extendedChildcareFeePolicy,
   'family-care-leave-long': familyCareLeaveLongPolicy,
   'family-care-leave': familyCareLeavePolicy,
@@ -250,7 +262,6 @@ export const PoliciesBySlug: Record<string, any> = {
   'k-move-school': kMoveSchoolPolicy,
   'leap-loan': leapLoanPolicy,
   'leap-savings': leapSavingsPolicy,
-  'learning-card-tomorrow': learningCardTomorrowPolicy,
   'learning-card': learningcardPolicy,
   'local-gift-card': localGiftCardPolicy,
   'long-term-care-elderly': longTermCareElderlyPolicy,
@@ -272,6 +283,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'parental-leave-pay': parentalLeavePayPolicy,
   'parental-work-reduction-pay': parentalWorkReductionPayPolicy,
   'pregnancy-pre-health': pregnancyPreHealthPolicy,
+  'preschool-tuition': preschoolTuitionPolicy,
   'protected-child-scholar': protectedChildScholarPolicy,
   'rural-basic-income': ruralBasicIncomePolicy,
   'rural-student-loan': ruralStudentLoanPolicy,
@@ -332,7 +344,11 @@ export const SpokesById: Record<string, any[]> = {
   '107': elderlyDriverSafetySpokes,
   '36': elderlyEmergencySafetySpokes,
   '22': elderlyJobSpokes,
+  '10': childDevelopmentAccountSpokes,
+  '41': hypertensionMedicalFeeSpokes,
   '42': employmentPromotionSpokes,
+  '79': disabledWomenChildcareSpokes,
+  '128': pregnancyMedicalBenefitSpokes,
   '69': extendedChildcareFeeSpokes,
   '70': familyCareLeaveLongSpokes,
   '66': familyCareLeaveSpokes,
@@ -353,7 +369,6 @@ export const SpokesById: Record<string, any[]> = {
   '87': kMoveSchoolSpokes,
   '11': leapLoanSpokes,
   '13': leapSavingsSpokes,
-  '23': learningCardTomorrowSpokes,
   '5': learningcardSpokes,
   '24': localGiftCardSpokes,
   '100': longTermCareElderlySpokes,
@@ -375,6 +390,7 @@ export const SpokesById: Record<string, any[]> = {
   '116': parentalLeavePaySpokes,
   '117': parentalWorkReductionPaySpokes,
   '43': pregnancyPreHealthSpokes,
+  '61': preschoolTuitionSpokes,
   '18': protectedChildScholarSpokes,
   '20': ruralBasicIncomeSpokes,
   '88': ruralStudentLoanSpokes,
@@ -435,7 +451,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'elderly-driver-safety': elderlyDriverSafetySpokes,
   'elderly-emergency-safety': elderlyEmergencySafetySpokes,
   'elderly-job': elderlyJobSpokes,
+  'child-development-account': childDevelopmentAccountSpokes,
+  'disabled-women-childcare': disabledWomenChildcareSpokes,
   'employment-promotion': employmentPromotionSpokes,
+  'hypertension-medical-fee': hypertensionMedicalFeeSpokes,
+  'pregnancy-medical-benefit': pregnancyMedicalBenefitSpokes,
   'extended-childcare-fee': extendedChildcareFeeSpokes,
   'family-care-leave-long': familyCareLeaveLongSpokes,
   'family-care-leave': familyCareLeaveSpokes,
@@ -456,7 +476,6 @@ export const SpokesBySlug: Record<string, any[]> = {
   'k-move-school': kMoveSchoolSpokes,
   'leap-loan': leapLoanSpokes,
   'leap-savings': leapSavingsSpokes,
-  'learning-card-tomorrow': learningCardTomorrowSpokes,
   'learning-card': learningcardSpokes,
   'local-gift-card': localGiftCardSpokes,
   'long-term-care-elderly': longTermCareElderlySpokes,
@@ -478,12 +497,13 @@ export const SpokesBySlug: Record<string, any[]> = {
   'parental-leave-pay': parentalLeavePaySpokes,
   'parental-work-reduction-pay': parentalWorkReductionPaySpokes,
   'pregnancy-pre-health': pregnancyPreHealthSpokes,
+  'preschool-tuition': preschoolTuitionSpokes,
   'protected-child-scholar': protectedChildScholarSpokes,
   'rural-basic-income': ruralBasicIncomeSpokes,
   'rural-student-loan': ruralStudentLoanSpokes,
   'rural-youth-growth': ruralYouthGrowthSpokes,
   'senior-customized-care': seniorCustomizedCareSpokes,
-  'single-parent-facility': singleParentFacilitySpokes,
+    'single-parent-facility': singleParentFacilitySpokes,
   'sme-innovation-voucher': smeInnovationVoucherSpokes,
   'sme-meal': smeMealSpokes,
   'spouse-birth-leave-pay': spouseBirthLeavePaySpokes,

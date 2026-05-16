@@ -64,11 +64,36 @@ export const learningCardTomorrowPolicy = {
       sourceNote: '* 출처: 고용노동부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '기본 300만원, 최대 500만원, 취약계층 가산 시 누적 700만원까지. 5년간 유효.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '실업자·재직자·특고·자영업자(저소득)·대학생 3학년 이상. 공무원·고소득자·만 75세 이상 제외.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '어떻게 신청하나요?', a: 'HRD-Net(hrd.go.kr) 온라인 또는 고용센터 방문. 140시간 이상 훈련은 진단상담 필요.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '본인 부담은?', a: '훈련비의 10~45%. 실업자·취약계층은 0~20%, 재직자는 35~45%. 수료 시 일부 환급 가능.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
-    { q: '실업급여와 중복?', a: '중복 가능. 본인 부담 우대까지 받을 수 있어 실업 중 훈련 권장. 단 수업 빈도와 구직활동 인정 협의.', source: '고용노동부', sourceUrl: 'https://www.moel.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '기본 300만원이 카드에 충전되어 5년간 사용할 수 있고, 일정 조건을 충족하면 최대 500만원까지 확대됩니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '실업자·재직자·특고·자영업자(저소득)·대학생 3학년 이상. 공무원·고소득자·만 75세 이상 제외.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: 'HRD-Net(hrd.go.kr)에서 온라인 신청하거나 가까운 고용센터를 방문해 신청합니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '본인 부담은?',
+      a: 'IT·코딩, 디자인, 회계, 외국어, 자격증, 미용·요리, 운전 등 거의 모든 분야의 직업훈련이 가능합니다',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
+    {
+      q: '실업급여와 중복?',
+      a: '중복 가능. 본인 부담 우대까지 받을 수 있어 실업 중 훈련 권장. 단 수업 빈도와 구직활동 인정 협의.',
+      source: '고용노동부',
+      sourceUrl: 'https://www.moel.go.kr',
+    },
   ],
   sources: [
     { label: '고용노동부 정책위키 「국민내일배움카드」', url: 'https://www.moel.go.kr' },

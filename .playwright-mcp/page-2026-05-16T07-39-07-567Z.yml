@@ -1,0 +1,426 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "본문 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#main"
+    - link "메인메뉴 바로가기" [ref=e3] [cursor=pointer]:
+      - /url: "#nav"
+  - paragraph [ref=e5]:
+    - img "태극기" [ref=e6]
+    - text: 이 누리집은 대한민국 공식 전자정부 누리집입니다.
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - text: 
+      - link "대한민국 정책브리핑" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e11]: 대한민국 정책브리핑
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "뉴스" [ref=e15] [cursor=pointer]:
+            - /url: /news/policyNewsList.do
+        - listitem [ref=e16]:
+          - link "브리핑룸" [ref=e17] [cursor=pointer]:
+            - /url: /briefing/pressReleaseList.do
+        - listitem [ref=e18]:
+          - link "정책자료" [ref=e19] [cursor=pointer]:
+            - /url: /archive/ebookMainList.do
+        - listitem [ref=e20]:
+          - link "구독&참여" [ref=e21] [cursor=pointer]:
+            - /url: /etc/byulbyulList.do
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - link "청와대 소식" [ref=e24] [cursor=pointer]:
+            - /url: https://www.president.go.kr
+          - link "공직메일" [ref=e25] [cursor=pointer]:
+            - /url: https://mail.korea.kr
+          - button "알림 ON" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]:
+              - text: 알림
+              - generic [ref=e28]: "ON"
+        - button "상세검색" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: 상세검색
+        - text:                                                                                                                 
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - heading "사이트 이동경로" [level=2] [ref=e33]
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - link "홈으로" [ref=e37] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e38]: 홈으로
+        - listitem [ref=e39]:
+          - text: 
+          - link "뉴스" [ref=e40] [cursor=pointer]:
+            - /url: /news/policyNewsList.do
+            - generic [ref=e41]: 뉴스
+        - listitem [ref=e42]:
+          - text: 
+          - link "멀티미디어 뉴스" [ref=e43] [cursor=pointer]:
+            - /url: /multi/mediaNewsList.do
+            - generic [ref=e44]: 멀티미디어 뉴스
+        - listitem [ref=e45]:
+          - text: 
+          - link "카드/한컷" [ref=e46] [cursor=pointer]:
+            - /url: /multi/visualNewsList.do
+            - strong [ref=e47]:
+              - generic [ref=e48]: 카드/한컷
+    - generic [ref=e49]:
+      - heading "콘텐츠 영역" [level=2] [ref=e50]
+      - complementary [ref=e51]:
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - generic [ref=e56]:
+              - button "공유열기" [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]: 
+                - generic [ref=e59]: 공유열기
+              - text: 
+          - listitem [ref=e60]:
+            - button "공감수 3" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]:
+                - generic [ref=e63]: 
+                - generic [ref=e64]: 공감수
+              - generic [ref=e65]: "3"
+          - listitem [ref=e66]:
+            - button "댓글수(클릭시 댓글로 이동)" [ref=e67] [cursor=pointer]:
+              - generic [ref=e68]: 댓글수(클릭시 댓글로 이동)
+      - heading "[모두의 정책] K-희망사다리 2026" [level=1] [ref=e70]
+      - generic [ref=e72]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: 2026.03.04
+            - generic [ref=e77]: 문화체육관광부 국민소통실
+          - generic [ref=e78]:
+            - button "시작" [ref=e79] [cursor=pointer]:
+              - generic [ref=e80]: 시작
+            - generic [ref=e81]:
+              - button "열기" [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: 열기
+              - text: 가 가 가 가 가 
+            - link "새창으로 열림" [ref=e84] [cursor=pointer]:
+              - /url: javascript:;
+            - link "목록" [ref=e85] [cursor=pointer]:
+              - /url: "#goList"
+              - generic [ref=e86]: 목록
+        - generic [ref=e88]:
+          - figure [ref=e90]:
+            - img "[모두의 정책] K-희망사다리 2026 하단내용 참조" [ref=e92]
+          - paragraph [ref=e93]:
+            - text: 내게 필요한 정책
+            - text: 쏙쏙 담았어요.
+            - text: 쏙쏙 찾으세요.
+            - text: "- 새로 나온 지원 정책"
+            - text: "- 숨은 정부지원금 찾기"
+            - text: "- 국민생활 지원정보"
+            - text: "- 우리 가족 맞춤 서비스"
+            - text: 모두의 정책
+            - text: K-희망사다리 2026
+            - link "☞ '2026 K-희망사다리' 바로가기" [ref=e94] [cursor=pointer]:
+              - /url: https://gonggam.korea.kr/pubSpecial.es
+        - generic [ref=e95]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - link "공공누리 공공저작물 자유이용허락 4유형 출처표시, 상업적 이용금지" [ref=e100] [cursor=pointer]:
+                - /url: https://www.kogl.or.kr/info/license.do
+                - img "공공누리 공공저작물 자유이용허락 4유형 출처표시, 상업적 이용금지" [ref=e101]
+              - strong [ref=e102]: "'텍스트'에 한하여 공공누리 출처표시 및 변경을 금하는 조건으로 비상업적 이용이 가능합니다."
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: 단, 사진, 이미지, 일러스트, 동영상 등의 일부 자료는 문화체육관광부가 저작권 전부를 보유하고 있지 아니하므로, 반드시 해당 저작권자의 허락을 받으셔야 합니다.
+              - generic [ref=e105]:
+                - link "저작권정책" [ref=e106] [cursor=pointer]:
+                  - /url: /guide/copyRight.do
+                - link "담당자안내" [ref=e107] [cursor=pointer]:
+                  - /url: javascript:;
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - text: 기사 이용 시에는 출처를 반드시 표기해야 하며, 위반 시
+              - link "저작권법 제37조" [ref=e112] [cursor=pointer]:
+                - /url: "#"
+              - text: 및
+              - link "제138조" [ref=e114] [cursor=pointer]:
+                - /url: "#"
+              - text: 에 따라 처벌될 수 있습니다.
+            - generic [ref=e115]: <자료출처=정책브리핑 www.korea.kr>
+          - generic [ref=e116]:
+            - heading "이전다음기사 영역" [level=2] [ref=e117]
+            - link "이전기사 영농부산물 소각으로 인한 산불 발생 ZERO 달성!" [ref=e118] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e119]: 이전기사
+              - strong [ref=e120]: 영농부산물 소각으로 인한 산불 발생 ZERO 달성!
+            - link "다음기사 위기가구에 안부살핌과 함께 복지안전망을 배달합니다" [ref=e121] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e122]: 다음기사
+              - strong [ref=e123]: 위기가구에 안부살핌과 함께 복지안전망을 배달합니다
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - button " 공유하기 열기" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127]:
+                  - text:  공유하기
+                  - generic [ref=e128]: 열기
+              - text: 
+            - button " 좋아요 3" [ref=e129] [cursor=pointer]:
+              - generic [ref=e130]:
+                - text:  좋아요
+                - emphasis [ref=e131]: "3"
+            - button "댓글 보기" [ref=e133] [cursor=pointer]:
+              - generic [ref=e134]:
+                - text: 댓글
+                - generic [ref=e135]: 보기
+                - emphasis
+            - text:  
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - strong [ref=e139]: 관련기사
+              - generic [ref=e140]:
+                - button "전체(304)" [ref=e141] [cursor=pointer]
+                - button "#K-희망사다리(15)" [ref=e142] [cursor=pointer]
+                - button "#문화체육관광부 국민소통실(304)" [ref=e143] [cursor=pointer]
+            - generic [ref=e144]:
+              - heading "전체" [level=2] [ref=e145]
+              - list [ref=e146]:
+                - listitem [ref=e147]:
+                  - link "산사태 위험 정보, 미리 알고 대피는 빠르게" [ref=e148] [cursor=pointer]:
+                    - /url: /multi/visualNewsView.do?newsId=148964414&pWise=sub&pWiseSub=I1
+                - listitem [ref=e149]:
+                  - link "'기후 재난' 여름철 폭염 체계적 관리 시행" [ref=e150] [cursor=pointer]:
+                    - /url: /multi/visualNewsView.do?newsId=148964393&pWise=sub&pWiseSub=I1
+                - listitem [ref=e151]:
+                  - link "올여름 기상특보, 확 달라집니다!" [ref=e152] [cursor=pointer]:
+                    - /url: /multi/visualNewsView.do?newsId=148964314&pWise=sub&pWiseSub=I1
+                - listitem [ref=e153]:
+                  - link "불법사금융, 갚지 말고 신고하세요!" [ref=e154] [cursor=pointer]:
+                    - /url: /multi/visualNewsView.do?newsId=148964257&pWise=sub&pWiseSub=I1
+                - listitem [ref=e155]:
+                  - link "'민생 안정의 시작' 비정상의 정상화에 더욱 속도를" [ref=e156] [cursor=pointer]:
+                    - /url: /multi/visualNewsView.do?newsId=148964263&pWise=sub&pWiseSub=I1
+            - button "관련기사 더보기" [ref=e157] [cursor=pointer]:
+              - text: 관련기사 더보기
+              - generic [ref=e158]: 
+      - complementary [ref=e159]:
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - heading "정책 NOW" [level=3] [ref=e163]
+            - link "123대 국정과제" [ref=e164] [cursor=pointer]:
+              - /url: https://www.korea.kr/govVision/index.html?v=1&pWise=sub&pWiseSub=I1
+              - img "123대 국정과제" [ref=e165]
+            - link "정부정책 사실은 이렇습니다" [ref=e166] [cursor=pointer]:
+              - /url: https://www.korea.kr/briefing/actuallyList.do?pWise=sub&pWiseSub=I2
+              - img "정부정책 사실은 이렇습니다" [ref=e167]
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - heading "실시간 인기뉴스 05.16. 16:37 기준" [level=3] [ref=e170]:
+                - text: 실시간 인기뉴스
+                - generic [ref=e171]: 05.16. 16:37 기준
+              - list [ref=e172]:
+                - listitem [ref=e173]:
+                  - link "'청년미래적금' 금리 공개…월 50만 원씩 3년 넣으면 최대 2255만 원  순위동일" [ref=e174] [cursor=pointer]:
+                    - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964376&pWise=sub&pWiseSub=R1
+                    - generic [ref=e177]: "'청년미래적금' 금리 공개…월 50만 원씩 3년 넣으면 최대 2255만 원"
+                    - generic [ref=e179]:
+                      - text: 
+                      - generic [ref=e180]: 순위동일
+                - listitem [ref=e181]:
+                  - link "이제 연차도 '시간 단위'로 사용…노동자 휴식권 보호 강화  순위동일" [ref=e182] [cursor=pointer]:
+                    - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964090&pWise=sub&pWiseSub=R2
+                    - generic [ref=e185]: 이제 연차도 '시간 단위'로 사용…노동자 휴식권 보호 강화
+                    - generic [ref=e187]:
+                      - text: 
+                      - generic [ref=e188]: 순위동일
+                - listitem [ref=e189]:
+                  - link "고유가 피해지원금 2차 지급 18일 시작…국민 70%에 10~25만 원  단계상승 1" [ref=e190] [cursor=pointer]:
+                    - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964141&pWise=sub&pWiseSub=R3
+                    - generic [ref=e193]: 고유가 피해지원금 2차 지급 18일 시작…국민 70%에 10~25만 원
+                    - generic [ref=e194]:
+                      - generic [ref=e195]:
+                        - text: 
+                        - generic [ref=e196]: 단계상승
+                      - generic [ref=e197]: "1"
+                - listitem [ref=e198]:
+                  - link "국민참여형 국민성장펀드 판매 시작!  단계상승 1" [ref=e199] [cursor=pointer]:
+                    - /url: https://www.korea.kr/multi/visualNewsView.do?newsId=148964200&pWise=sub&pWiseSub=R4
+                    - generic [ref=e202]: 국민참여형 국민성장펀드 판매 시작!
+                    - generic [ref=e203]:
+                      - generic [ref=e204]:
+                        - text: 
+                        - generic [ref=e205]: 단계상승
+                      - generic [ref=e206]: "1"
+                - listitem [ref=e207]:
+                  - link "가장 희귀한 공무원! 대통령 임명장 쓰는 필경사 NEW" [ref=e208] [cursor=pointer]:
+                    - /url: https://www.korea.kr/multi/mediaNewsView.do?newsId=148964397&pWise=sub&pWiseSub=R5
+                    - generic [ref=e209]: 
+                    - generic [ref=e211]: 가장 희귀한 공무원! 대통령 임명장 쓰는 필경사
+                    - generic [ref=e213]: NEW
+                - listitem [ref=e214]:
+                  - link "\"신청 안 해도 필요한 복지 연결\"…정부, '적극적 복지' 체계 전환 NEW" [ref=e215] [cursor=pointer]:
+                    - /url: https://www.korea.kr/news/policyNewsView.do?newsId=148964234&pWise=sub&pWiseSub=R6
+                    - generic [ref=e218]: "\"신청 안 해도 필요한 복지 연결\"…정부, '적극적 복지' 체계 전환"
+                    - generic [ref=e220]: NEW
+            - list [ref=e222]:
+              - listitem [ref=e223]:
+                - button "인기뉴스" [ref=e224] [cursor=pointer]
+                - list [ref=e226]:
+                  - listitem [ref=e227]:
+                    - link "고유가 피해지원금 2차 지급 18일 시작…국민 70%에 10~25만 원" [ref=e228] [cursor=pointer]:
+                      - /url: /news/policyNewsView.do?newsId=148964141&pWise=mostViewNewsSub&pWiseSub=B1
+                      - generic [ref=e231]: 고유가 피해지원금 2차 지급 18일 시작…국민 70%에 10~25만 원
+                  - listitem [ref=e232]:
+                    - link "'청년미래적금' 금리 공개…월 50만 원씩 3년 넣으면 최대 2255만 원" [ref=e233] [cursor=pointer]:
+                      - /url: /news/policyNewsView.do?newsId=148964376&pWise=mostViewNewsSub&pWiseSub=B2
+                      - generic [ref=e236]: "'청년미래적금' 금리 공개…월 50만 원씩 3년 넣으면 최대 2255만 원"
+                  - listitem [ref=e237]:
+                    - link "국민참여형 국민성장펀드 판매 시작!" [ref=e238] [cursor=pointer]:
+                      - /url: /multi/visualNewsView.do?newsId=148964200&pWise=mostViewNewsSub&pWiseSub=B3
+                      - generic [ref=e241]: 국민참여형 국민성장펀드 판매 시작!
+                  - listitem [ref=e242]:
+                    - link "\"신청 안 해도 필요한 복지 연결\"…정부, '적극적 복지' 체계 전환" [ref=e243] [cursor=pointer]:
+                      - /url: /news/policyNewsView.do?newsId=148964234&pWise=mostViewNewsSub&pWiseSub=B4
+                      - generic [ref=e246]: "\"신청 안 해도 필요한 복지 연결\"…정부, '적극적 복지' 체계 전환"
+                  - listitem [ref=e247]:
+                    - link "일 잘하는 공무원 '5급 조기승진제' 도입…'부전문관' 신설" [ref=e248] [cursor=pointer]:
+                      - /url: /news/policyNewsView.do?newsId=148964168&pWise=mostViewNewsSub&pWiseSub=B5
+                      - generic [ref=e251]: 일 잘하는 공무원 '5급 조기승진제' 도입…'부전문관' 신설
+              - listitem:
+                - button "최신뉴스" [ref=e252] [cursor=pointer]
+            - generic [ref=e253]:
+              - heading "오늘의 멀티미디어" [level=3] [ref=e254]
+              - list [ref=e255]:
+                - listitem [ref=e256]:
+                  - link "KTX랑 SRT가 같이 달린다고요?" [ref=e257] [cursor=pointer]:
+                    - /url: https://www.korea.kr/multi/mediaNewsView.do?newsId=148964396&pWise=sub&pWiseSub=D1
+                    - generic [ref=e258]: 
+                    - generic [ref=e260]: KTX랑 SRT가 같이 달린다고요?
+                - listitem [ref=e261]:
+                  - link "영화 티켓 6천 원 할인받는 꿀팁" [ref=e262] [cursor=pointer]:
+                    - /url: https://www.korea.kr/video/index.html?newsId=148964254&pWise=sub&pWiseSub=D2
+                    - generic [ref=e263]: 
+                    - generic [ref=e265]: 영화 티켓 6천 원 할인받는 꿀팁
+                - listitem [ref=e266]:
+                  - link "박물관에서 이런 것도 해요?" [ref=e267] [cursor=pointer]:
+                    - /url: https://www.korea.kr/multi/visualNewsView.do?newsId=148964420&cateId=cardnews&pWise=sub&pWiseSub=D3
+                    - generic [ref=e270]: 박물관에서 이런 것도 해요?
+                - listitem [ref=e271]:
+                  - link "2026년 모내기 행사" [ref=e272] [cursor=pointer]:
+                    - /url: /multi/policyPhotoView.do?bbsKey=71393&pWise=sub&pWiseSub=D4
+                    - generic [ref=e275]: 2026년 모내기 행사
+            - generic [ref=e276]:
+              - heading "정책포커스" [level=3] [ref=e277]
+              - link "중동전쟁 위기 극복을 위한 2026 추경예산" [ref=e278] [cursor=pointer]:
+                - /url: https://www.korea.kr/news/policyFocusList.do?pkgId=49500834&pWise=sub&pWiseSub=I2
+                - img "중동전쟁 위기 극복을 위한 2026 추경예산" [ref=e279]
+    - generic [ref=e280]:
+      - heading "하단 배너 영역" [level=2] [ref=e281]
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - button "이전보기 " [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]: 이전보기
+            - text: 
+          - generic [ref=e286]:
+            - generic [ref=e287]: "1"
+            - text: /
+            - generic [ref=e288]: "4"
+          - button " 정지" [ref=e289] [cursor=pointer]
+          - button "다음보기 " [ref=e290] [cursor=pointer]:
+            - generic [ref=e291]: 다음보기
+            - text: 
+        - generic [ref=e294]:
+          - generic [ref=e297]:
+            - heading [level=3] [ref=e298]:
+              - link [ref=e299] [cursor=pointer]:
+                - /url: /news/actuallyList.do?pWise=sub&pWiseMain=F1
+                - generic [ref=e300]: 사실은 이렇습니다
+            - link [ref=e301] [cursor=pointer]:
+              - /url: https://www.korea.kr/news/actuallyView.do?newsId=148964467&pWise=sub&pWiseMain=F1
+              - generic [ref=e302]: 개인정보보호위원회
+              - strong [ref=e303]: (보도설명) 개인정보위는 자율주행차 기술 개발이 안전한 환경에서 이루어질 수 있도록 적극 지원하고 있습니다
+              - generic [ref=e304]: 2026.05.15
+          - link "요즘 정책소식을 매주 뉴스레터로 받아보세요! 구독신청하기" [ref=e308] [cursor=pointer]:
+            - /url: https://www.korea.kr/etc/newsLetterMain.do?1=1&pWise=sub&pWiseMain=F1
+            - img "요즘 정책소식을 매주 뉴스레터로 받아보세요! 구독신청하기" [ref=e309]
+          - link [ref=e313] [cursor=pointer]:
+            - /url: https://newsstand.naver.com/690
+            - img [ref=e314]
+          - link [ref=e318] [cursor=pointer]:
+            - /url: https://v.daum.net/channel/65/home
+            - img [ref=e319]
+          - generic [ref=e322]:
+            - heading [level=3] [ref=e323]:
+              - link [ref=e324] [cursor=pointer]:
+                - /url: /news/actuallyList.do?pWise=sub&pWiseMain=F1
+                - generic [ref=e325]: 사실은 이렇습니다
+            - link [ref=e326] [cursor=pointer]:
+              - /url: https://www.korea.kr/news/actuallyView.do?newsId=148964467&pWise=sub&pWiseMain=F1
+              - generic [ref=e327]: 개인정보보호위원회
+              - strong [ref=e328]: (보도설명) 개인정보위는 자율주행차 기술 개발이 안전한 환경에서 이루어질 수 있도록 적극 지원하고 있습니다
+              - generic [ref=e329]: 2026.05.15
+          - link [ref=e333] [cursor=pointer]:
+            - /url: https://www.korea.kr/etc/newsLetterMain.do?1=1&pWise=sub&pWiseMain=F1
+            - img [ref=e334]
+          - link [ref=e338] [cursor=pointer]:
+            - /url: https://newsstand.naver.com/690
+            - img [ref=e339]
+          - link [ref=e343] [cursor=pointer]:
+            - /url: https://v.daum.net/channel/65/home
+            - img [ref=e344]
+          - generic [ref=e347]:
+            - heading [level=3] [ref=e348]:
+              - link [ref=e349] [cursor=pointer]:
+                - /url: /news/actuallyList.do?pWise=sub&pWiseMain=F1
+                - generic [ref=e350]: 사실은 이렇습니다
+            - link [ref=e351] [cursor=pointer]:
+              - /url: https://www.korea.kr/news/actuallyView.do?newsId=148964467&pWise=sub&pWiseMain=F1
+              - generic [ref=e352]: 개인정보보호위원회
+              - strong [ref=e353]: (보도설명) 개인정보위는 자율주행차 기술 개발이 안전한 환경에서 이루어질 수 있도록 적극 지원하고 있습니다
+              - generic [ref=e354]: 2026.05.15
+  - contentinfo [ref=e355]:
+    - generic [ref=e356]:
+      - generic [ref=e357]:
+        - heading "공지사항" [level=3] [ref=e358]
+        - link "K-정책 헌터스 이벤트 당첨자 발표" [ref=e360] [cursor=pointer]:
+          - /url: /etc/noticeView.do?newsId=132038520&pWise=main&pWiseSub=O1
+        - link "공지사항 더보기" [ref=e361] [cursor=pointer]:
+          - /url: /etc/noticeList.do
+          - generic [ref=e362]: 공지사항
+          - text: 더보기
+      - list [ref=e363]:
+        - listitem [ref=e364]:
+          - link "개인정보처리방침" [ref=e365] [cursor=pointer]:
+            - /url: /guide/privacy.do
+        - listitem [ref=e366]:
+          - link "저작권정책" [ref=e367] [cursor=pointer]:
+            - /url: /guide/copyRight.do
+        - listitem [ref=e368]:
+          - link "이메일 수집거부" [ref=e369] [cursor=pointer]:
+            - /url: /guide/emailReject.do
+        - listitem [ref=e370]:
+          - link "자주 묻는 질문(FAQ)" [ref=e371] [cursor=pointer]:
+            - /url: /guide/faq.do
+      - generic [ref=e372]:
+        - generic [ref=e373]: (30119) 세종특별자치시 갈매로 388 정부세종청사 15동 © 문화체육관광부
+        - generic [ref=e374]:
+          - generic [ref=e375]: 전화 044-203-3555 (월~금 09:00~18:00, 공휴일 제외)
+          - generic [ref=e376]: 팩스 044-203-3488
+          - generic [ref=e377]:
+            - text: 대표메일
+            - link "webmaster@korea.kr" [ref=e378] [cursor=pointer]:
+              - /url: mailto:Webmaster@korea.kr
+      - generic [ref=e379]:
+        - button "관련사이트 " [ref=e381] [cursor=pointer]
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - link "페이스북 바로가기" [ref=e384] [cursor=pointer]:
+              - /url: https://www.facebook.com/hipolicy
+              - generic [ref=e385]: 페이스북 바로가기
+            - link "X 바로가기" [ref=e386] [cursor=pointer]:
+              - /url: https://twitter.com/hellopolicy
+              - generic [ref=e387]: X 바로가기
+            - link "네이버포스트 바로가기" [ref=e388] [cursor=pointer]:
+              - /url: https://blog.naver.com/hellopolicy
+              - generic [ref=e389]: 네이버포스트 바로가기
+            - link "유튜브 바로가기" [ref=e390] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/hipolicy
+              - generic [ref=e391]: 유튜브 바로가기
+            - link "인스타그램 바로가기" [ref=e392] [cursor=pointer]:
+              - /url: https://www.instagram.com/gov_korea
+              - generic [ref=e393]: 인스타그램 바로가기
+          - link "행정부처 바로가기" [ref=e394] [cursor=pointer]:
+            - /url: /etc/ministry.do
+            - text: 행정부처 바로가기
+            - generic [ref=e395]: 

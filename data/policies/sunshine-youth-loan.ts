@@ -80,11 +80,36 @@ export const sunshineYouthLoanPolicy = {
     },
   ],
   faq: [
-    { q: '얼마?', a: '1인 최대 1,200만원. 연 3.5% 고정. 학자금·생계·주거 자유 용도.', source: '서민금융진흥원', sourceUrl: 'https://www.fsc.go.kr' },
-    { q: '누가?', a: '만 19~34세 + 연 소득 4,500만 이하. 신용 낮아도 OK.', source: '서민금융진흥원', sourceUrl: 'https://www.fsc.go.kr' },
-    { q: '어떻게?', a: '서민금융통합지원센터 또는 협력 은행. 1397 사전 상담.', source: '서민금융진흥원', sourceUrl: 'https://www.fsc.go.kr' },
-    { q: '상환?', a: '거치 1~3년 + 분할 최장 7년. 중도상환 자유, 수수료 거의 없음.', source: '서민금융진흥원', sourceUrl: 'https://www.fsc.go.kr' },
-    { q: '다른 대출 중복?', a: '학자금·전세·디딤돌 등 모두 중복 가능. 총 부채 한계 내.', source: '서민금융진흥원', sourceUrl: 'https://www.fsc.go.kr' },
+    {
+      q: '얼마?',
+      a: '서민금융진흥원 햇살론유스는 1인당 최대 1,200만원까지 연 3.5% 고정금리로 대출 가능합니다',
+      source: '서민금융진흥원',
+      sourceUrl: 'https://www.fsc.go.kr',
+    },
+    {
+      q: '누가?',
+      a: '만 19~34세 청년 중 본인 연 소득이 4,500만원 이하인 분이 대상입니다',
+      source: '서민금융진흥원',
+      sourceUrl: 'https://www.fsc.go.kr',
+    },
+    {
+      q: '어떻게?',
+      a: '전국 서민금융통합지원센터를 방문하거나 협력 은행(KB·신한·우리·하나 등)에서 신청. 본인이 직접 방문 신청이 원칙이며 신용회복위원회 콜센터 1397에서 사전 상담 가능합니다',
+      source: '서민금융진흥원',
+      sourceUrl: 'https://www.fsc.go.kr',
+    },
+    {
+      q: '상환?',
+      a: '청년은 신용 거래 이력이 짧고 소득이 불안정해 시중은행 대출이 어렵습니다',
+      source: '서민금융진흥원',
+      sourceUrl: 'https://www.fsc.go.kr',
+    },
+    {
+      q: '다른 대출 중복?',
+      a: '학자금 대출(일반상환)은 한국장학재단이 운영하는 등록금·생활비 특화, 햇살론유스는 서민금융진흥원이 운영하는 청년 일반 자금. 학자금 대출은 재학 중 무이자, 햇살론유스는 처음부터 이자 발생하지만 시중 대비 매우 낮음.',
+      source: '서민금융진흥원',
+      sourceUrl: 'https://www.fsc.go.kr',
+    },
   ],
   sources: [
     { label: '서민금융진흥원', url: 'https://www.fsc.go.kr' },

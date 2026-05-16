@@ -64,11 +64,36 @@ export const directPaymentPolicy = {
       sourceNote: '* 출처: 농림축산식품부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '농가 평균 180만원. 총 2조 3,000억원을 128만 농가에 지급. 농지 면적·작목에 따라 차등.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '농지 1,000㎡ 이상에서 직접 농사. 농외소득 4,300만원 이하(2026 상향). 농업경영체 등록 필수.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '언제 신청하나요?', a: '2026.03.01 ~ 05.31. 비대면(스마트폰·전화) 또는 읍면동 행정복지센터 방문.', source: '농림축산식품부 (2026)', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '농지가 작으면?', a: '1,000㎡ 미만은 기본형 대상 아님. 소농직불 별도 운영, 정액 130만원. 행정복지센터 확인.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
-    { q: '준수사항은?', a: '농지 관리, 친환경 농약·비료, 농작업 기록, 매년 의무교육. 위반 시 직불금 감액. 의무교육은 비대면 가능.', source: '농림축산식품부', sourceUrl: 'https://www.mafra.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '농가 평균 180만원. 총 2조 3,000억원을 128만 농가에 지급. 농지 면적·작목에 따라 차등.',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '농지 1,000㎡ 이상에서 직접 농사. 농외소득 4,300만원 이하(2026 상향). 농업경영체 등록 필수.',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '언제 신청하나요?',
+      a: '2026.03.01 ~ 05.31. 비대면(스마트폰·전화) 또는 읍면동 행정복지센터 방문.',
+      source: '농림축산식품부 (2026)',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '농지가 작으면?',
+      a: '농외소득은 농업 외에 다른 직업·사업·임대 등으로 얻은 소득의 합계입니다',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
+    {
+      q: '준수사항은?',
+      a: '농지 관리, 친환경 농약·비료, 농작업 기록, 매년 의무교육. 위반 시 직불금 감액. 의무교육은 비대면 가능.',
+      source: '농림축산식품부',
+      sourceUrl: 'https://www.mafra.go.kr',
+    },
   ],
   sources: [
     { label: '농림축산식품부 정책뉴스 「2026 기본형 공익직불금 신청」', url: 'https://www.mafra.go.kr' },

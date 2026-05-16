@@ -1,0 +1,6 @@
+[    1850ms] [LOG] www.korea.kr?newsId=148960265 @ https://www.korea.kr/multi/visualNewsView.do?newsId=148960265&pWise=sub&pWiseSub=C1:5907
+[    2765ms] [LOG] AdBlock Off! @ https://www.korea.kr/multi/visualNewsView.do?newsId=148960265&pWise=sub&pWiseSub=C1:6554
+[    3417ms] [LOG] WARN: Check compatible with eleven Or higher, livereSeq:84 @ https://cdn-city.livere.com/js/embed.dist.js:1
+[    3418ms] [LOG] WARN: Check reply count, clientId:YdhARqKS103C4SL8qeKN @ https://cdn-city.livere.com/js/embed.dist.js:1
+[    3419ms] [LOG] WARN: livereHooks bridge: registered 8 event mappings @ https://cdn-city.livere.com/js/embed.dist.js:1
+[    3441ms] [LOG] Dable DEBUG: Error: Unknown service: korea.kr @ https://static.dable.io/dist/bundles/plugin-IFN7UNWF.js:0

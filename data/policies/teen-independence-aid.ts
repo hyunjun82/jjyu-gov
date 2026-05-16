@@ -68,11 +68,36 @@ export const teenIndependenceAidPolicy = {
       sourceNote: '* 출처: 여성가족부' },
   ],
   faq: [
-    { q: '얼마 받나요?', a: '월 40만원 × 최장 5년 = 누적 최대 2,400만원. 본인 계좌 매월 입금.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '누가 받을 수 있나요?', a: '청소년복지시설(쉼터·자립지원관 등) 보호 후 퇴소한 만 18~24세 청소년.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '어떻게 신청하나요?', a: '거주지 행정복지센터 방문 또는 1388 전화 상담. 시설 보호 증빙·퇴소 확인서 제출.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '5년 후에는?', a: '자동 종료. 청년 주거지원·기초생활보장·청년도전지원금 등 다른 지원으로 전환 신청 가능.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
-    { q: '다른 청년 지원과 중복?', a: '국민취업지원·청년도전·국가장학금 등 일반 청년 지원과 중복 가능. 자립 정착금은 조정 가능.', source: '여성가족부', sourceUrl: 'https://www.mogef.go.kr' },
+    {
+      q: '얼마 받나요?',
+      a: '여성가족부 자립지원수당은 매월 40만원이 최장 5년간 지급됩니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '누가 받을 수 있나요?',
+      a: '청소년복지시설(청소년 쉼터·자립지원관·청소년회복지원시설 등)에서 일정 기간 이상 보호 받다가 퇴소한 청소년이 대상입니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '어떻게 신청하나요?',
+      a: '거주지 행정복지센터를 방문하거나 청소년상담복지센터(1388)로 전화 상담 후 안내받을 수 있습니다',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '5년 후에는?',
+      a: '자동 종료. 청년 주거지원·기초생활보장·청년도전지원금 등 다른 지원으로 전환 신청 가능.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
+    {
+      q: '다른 청년 지원과 중복?',
+      a: '국민취업지원·청년도전·국가장학금 등 일반 청년 지원과 중복 가능. 자립 정착금은 조정 가능.',
+      source: '여성가족부',
+      sourceUrl: 'https://www.mogef.go.kr',
+    },
   ],
   sources: [
     { label: '여성가족부 공식 사이트', url: 'https://www.mogef.go.kr' },
