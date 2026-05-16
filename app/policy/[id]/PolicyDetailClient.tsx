@@ -184,10 +184,15 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               />
             )}
 
-            {/* 핵심콕콕 */}
+            {/* 핵심콕콕 — keyFacts 값이 {value,source} 객체일 수도 있어서 string으로 normalize */}
             {d.keyFacts && (
               <KeyFactsBox
-                facts={d.keyFacts}
+                facts={Object.fromEntries(
+                  Object.entries(d.keyFacts).map(([k, v]: [string, any]) => [
+                    k,
+                    typeof v === 'object' && v !== null && 'value' in v ? String(v.value) : String(v),
+                  ])
+                )}
                 highlights={d.keyFactsHighlights || {}}
               />
             )}
