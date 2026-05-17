@@ -53,6 +53,7 @@ export const rentalDisputeMediationPolicy = {
       q: '수수료가 얼마인가요?', anchor: 'q-fee',
       intro: '신청 수수료는 분쟁 금액 규모에 따라 1만원~10만원 수준입니다. 기초생활수급자, 한부모가족, 장애인 등 취약계층은 수수료가 면제되거나 감면됩니다. 소송에 비해 극히 저렴한 비용으로 전문적인 분쟁 해결 서비스를 받을 수 있습니다. 정확한 수수료 계산은 신청 기관(한국부동산원 또는 법률구조공단)에 문의하세요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['1만~10만원', '취약계층 면제·감면', '소송 대비 극소 비용', '기관 문의 확인'],
+      table: { caption: '신청 수수료 안내', headers: ['분쟁 유형', '수수료', '비고'], rows: [['일반 분쟁','1만~10만원','분쟁 금액 규모에 따라'],['기초생활수급자','면제','서류 확인 필요'],['한부모가족·장애인','면제 또는 감면','해당 기관 문의']] },
       box: { label: '수수료 기준', content: '일반: 분쟁 금액 규모에 따라 1만~10만원\n면제 대상: 기초수급자, 한부모가족, 장애인 등\n→ 정확한 금액: 해당 기관에 사전 문의' },
       sourceNote: '* 출처: 한국부동산원 임대차분쟁조정위원회',
     },
@@ -108,7 +109,4 @@ export const rentalDisputeMediationPolicy = {
 export const rentalDisputeMediationSpokes = [
   { slug: 'scope', role: 'usage', title: '보증금·임대료·계약해지 분쟁 조정', content: '소송 없이 60일 내.' },
   { slug: 'apply', role: 'apply', title: '주택: hldcc.or.kr / 상가: adrhome.reb.or.kr', content: '방문·온라인 신청.' },
-  { slug: 'period', role: 'extra', title: '60일 이내 처리, 소송보다 훨씬 빠름', content: '수수료 1~10만원.' },
-  { slug: 'effect', role: 'extra2', title: '조정 성립 = 재판상 화해 동일 효력', content: '강제집행 가능.' },
-  { slug: 'landlord', role: 'eligibility', title: '임차인·임대인 모두 신청 가능', content: '중립적 조정.' },
-];
+  { slug: 'period', role: 'extra', title: '60일 이내 처리, 소송�

@@ -146,6 +146,20 @@ import { youthLeapJobPolicy, youthLeapJobSpokes } from './youth-leap-job';
 import { youthStartupSchoolPolicy, youthStartupSchoolSpokes } from './youth-startup-school';
 import { youthWelfarePolicy, youthWelfareSpokes } from './youth-welfare';
 
+import { safeInheritanceOnestopPolicy, safeInheritanceOnestopSpokes } from './safe-inheritance-onestop';
+import { vocationalTrainingLivelihoodLoanPolicy, vocationalTrainingLivelihoodLoanSpokes } from './vocational-training-livelihood-loan';
+import { employmentIncentiveAllowancePolicy, employmentIncentiveAllowanceSpokes } from './employment-incentive-allowance';
+import { middleAgedTomorrowCenterPolicy, middleAgedTomorrowCenterSpokes } from './middle-aged-tomorrow-center';
+import { newBusinessStartupSchoolPolicy, newBusinessStartupSchoolSpokes } from './new-business-startup-school';
+import { veteranEmploymentSupportPolicy, veteranEmploymentSupportSpokes } from './veteran-employment-support';
+import { selfEmployedEmploymentInsurancePolicy, selfEmployedEmploymentInsuranceSpokes } from './self-employed-employment-insurance';
+import { wageTheftLegalSupportPolicy, wageTheftLegalSupportSpokes } from './wage-theft-legal-support';
+import { restartSupportFundPolicy, restartSupportFundSpokes } from './restart-support-fund';
+import { returnFishingStartupLoanPolicy, returnFishingStartupLoanSpokes } from './return-fishing-startup-loan';
+import { middleAgedCareerSupportPolicy, middleAgedCareerSupportSpokes } from './middle-aged-career-support';
+import { nationalEmploymentSupportPolicy, nationalEmploymentSupportSpokes } from './national-employment-support';
+import { jobSeekerLeapPackagePolicy, jobSeekerLeapPackageSpokes } from './job-seeker-leap-package';
+
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
   '80': afterSchoolChildcareFeePolicy,
@@ -430,6 +444,19 @@ export const PoliciesBySlug: Record<string, any> = {
   'youth-leap-job': youthLeapJobPolicy,
   'youth-startup-school': youthStartupSchoolPolicy,
   'youth-welfare': youthWelfarePolicy,
+  'safe-inheritance-onestop': safeInheritanceOnestopPolicy,
+  'vocational-training-livelihood-loan': vocationalTrainingLivelihoodLoanPolicy,
+  'employment-incentive-allowance': employmentIncentiveAllowancePolicy,
+  'middle-aged-tomorrow-center': middleAgedTomorrowCenterPolicy,
+  'new-business-startup-school': newBusinessStartupSchoolPolicy,
+  'veteran-employment-support': veteranEmploymentSupportPolicy,
+  'self-employed-employment-insurance': selfEmployedEmploymentInsurancePolicy,
+  'wage-theft-legal-support': wageTheftLegalSupportPolicy,
+  'restart-support-fund': restartSupportFundPolicy,
+  'return-fishing-startup-loan': returnFishingStartupLoanPolicy,
+  'middle-aged-career-support': middleAgedCareerSupportPolicy,
+  'national-employment-support': nationalEmploymentSupportPolicy,
+  'job-seeker-leap-package': jobSeekerLeapPackagePolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -707,4 +734,26 @@ export const SpokesBySlug: Record<string, any[]> = {
   'veteran-support': veteranSupportSpokes,
   'whole-town-elem-care': wholeTownElemCareSpokes,
   'women-head-startup-loan': womenHeadStartupLoanSpokes,
-  'women-restart-center': womenRest
+  'women-restart-center': womenRestartCenterSpokes,
+  'women-startup-center': womenStartupCenterSpokes,
+  'youth-asset-formation': youthAssetFormationSpokes,
+  'youth-future-savings': youthFutureSavingsSpokes,
+  'youth-housing-support': youthHousingSupportSpokes,
+  'youth-job': youthJobSpokes,
+  'youth-leap-job': youthLeapJobSpokes,
+  'youth-startup-school': youthStartupSchoolSpokes,
+  'youth-welfare': youthWelfareSpokes,
+  'safe-inheritance-onestop': safeInheritanceOnestopSpokes,
+  'vocational-training-livelihood-loan': vocationalTrainingLivelihoodLoanSpokes,
+  'employment-incentive-allowance': employmentIncentiveAllowanceSpokes,
+  'middle-aged-tomorrow-center': middleAgedTomorrowCenterSpokes,
+  'new-business-startup-school': newBusinessStartupSchoolSpokes,
+  'veteran-employment-support': veteranEmploymentSupportSpokes,
+  'self-employed-employment-insurance': selfEmployedEmploymentInsuranceSpokes,
+  'wage-theft-legal-support': wageTheftLegalSupportSpokes,
+  'restart-support-fund': restartSupportFundSpokes,
+  'return-fishing-startup-loan': returnFishingStartupLoanSpokes,
+  'middle-aged-career-support': middleAgedCareerSupportSpokes,
+  'national-employment-support': nationalEmploymentSupportSpokes,
+  'job-seeker-leap-package': jobSeekerLeapPackageSpokes,
+};
