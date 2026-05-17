@@ -200,7 +200,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             {/* Q&A 카드 generic 렌더링 */}
             {d.qa?.map((item: any, i: number) => (
               <Fragment key={item.anchor}>
-                <QACard number={i + 1} q={item.q} anchor={item.anchor}>
+                <QACard number={i + 1} q={item.q || item.question} anchor={item.anchor}>
                   {item.intro && (
                     <p style={{ marginBottom: 12 }}>
                       {renderWithHi(item.intro, item.highlights || [])}
@@ -327,15 +327,27 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                     />
                   )}
 
-                  {/* 보조 박스 */}
+                  {/* 보조 박스 — label/title, content/items 두 포맷 모두 처리 */}
                   {item.box && (
-                    <QABox label={item.box.label}>
-                      {renderBoxContent(item.box.content, item.highlights || [])}
+                    <QABox label={item.box.label || item.box.title}>
+                      {item.box.content
+                        ? renderBoxContent(item.box.content, item.highlights || [])
+                        : Array.isArray(item.box.items)
+                          ? item.box.items.map((li: string, idx: number) => (
+                              <p key={idx} style={{ margin: '4px 0' }}>{li}</p>
+                            ))
+                          : null}
                     </QABox>
                   )}
                   {item.box2 && (
-                    <QABox label={item.box2.label}>
-                      {renderBoxContent(item.box2.content, item.highlights || [])}
+                    <QABox label={item.box2.label || item.box2.title}>
+                      {item.box2.content
+                        ? renderBoxContent(item.box2.content, item.highlights || [])
+                        : Array.isArray(item.box2.items)
+                          ? item.box2.items.map((li: string, idx: number) => (
+                              <p key={idx} style={{ margin: '4px 0' }}>{li}</p>
+                            ))
+                          : null}
                     </QABox>
                   )}
 
@@ -429,7 +441,14 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               <section className="detail-card" id="faq">
                 <h2 className="detail-card-head">자주 묻는 질문</h2>
                 <div className="faq-list">
-                  {d.faq.map((item: any, i: number) => (
+                  {d.faq.map((item: any, i: number) => {
+                    // 구 포맷: {q, a, source(string), sourceUrl} / 신 포맷: {question, answer, source(object)}
+                    const faqQ = item.q || item.question;
+                    const faqA = item.a || item.answer;
+                    const faqSourceIsObj = item.source && typeof item.source === 'object';
+                    const faqSourceLabel = faqSourceIsObj ? (item.source.text || '출처 보기') : item.source;
+                    const faqSourceUrl = item.sourceUrl || (faqSourceIsObj ? item.source.url : null);
+                    return (
                     <details
                       key={i}
                       className={`faq-item ${openFaq === i ? 'open' : ''}`}
@@ -441,7 +460,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                       }}
                     >
                       <summary className="faq-question">
-                        <span>Q. {item.q}</span>
+                        <span>Q. {faqQ}</span>
                         <ChevronDown
                           size={18}
                           style={{
@@ -453,22 +472,23 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                         />
                       </summary>
                       <div className="faq-answer">
-                        <p>{item.a}</p>
-                        {item.source && (
+                        <p>{faqA}</p>
+                        {faqSourceLabel && (
                           <div className="faq-source">
                             출처:{' '}
-                            {item.sourceUrl?.startsWith('http') ? (
-                              <a href={item.sourceUrl} rel="noopener">
-                                {item.source}
+                            {faqSourceUrl?.startsWith('http') ? (
+                              <a href={faqSourceUrl} rel="noopener">
+                                {faqSourceLabel}
                               </a>
                             ) : (
-                              <Link href={item.sourceUrl || '#'}>{item.source}</Link>
+                              <Link href={faqSourceUrl || '#'}>{faqSourceLabel}</Link>
                             )}
                           </div>
                         )}
                       </div>
                     </details>
-                  ))}
+                    );
+                  })}
                 </div>
               </section>
             )}
