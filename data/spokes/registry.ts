@@ -32,6 +32,7 @@ import { 감액기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content
 
 /* ── 근로장려금 (slug: earned-income-tax-credit) ── */
 import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급일';
+import { 조회방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/조회방법';
 
 /* ──────────────────────────────────────────────
  * 레지스트리 본체
@@ -48,6 +49,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'earned-income-tax-credit': {
     '지급일': 지급일SpokeContent,
+    '조회방법': 조회방법SpokeContent,
   },
 
   'basic-pension': {
