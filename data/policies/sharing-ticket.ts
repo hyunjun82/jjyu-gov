@@ -210,4 +210,14 @@ export const sharingTicketPolicy: PolicyData = {
   related: [
     { id: 'culture-nuri-card', title: '통합문화이용권(문화누리카드)' },
     { id: 'worker-vacation-support', title: '근로자휴가지원사업' },
-    { id:
+    { id: 'national-employment-support', title: '국민취업지원제도' },
+  ],
+};
+
+export const sharingTicketSpokes = [
+  { slug: 'eligibility', label: '신청 대상' },
+  { slug: 'discount', label: '할인 혜택' },
+  { slug: 'genres', label: '공연·전시 종류' },
+  { slug: 'how-to-apply', label: '이용 방법' },
+  { slug: 'venues', label: '참여 공연장' },
+];

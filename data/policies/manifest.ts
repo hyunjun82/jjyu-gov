@@ -159,6 +159,38 @@ import { returnFishingStartupLoanPolicy, returnFishingStartupLoanSpokes } from '
 import { middleAgedCareerSupportPolicy, middleAgedCareerSupportSpokes } from './middle-aged-career-support';
 import { nationalEmploymentSupportPolicy, nationalEmploymentSupportSpokes } from './national-employment-support';
 import { jobSeekerLeapPackagePolicy, jobSeekerLeapPackageSpokes } from './job-seeker-leap-package';
+import { carbonNeutralPointPolicy, carbonNeutralPointSpokes } from './carbon-neutral-point';
+import { safeSteppingStoneAppPolicy, safeSteppingStoneAppSpokes } from './safe-stepping-stone-app';
+import { nationalSecretaryPolicy, nationalSecretarySpokes } from './national-secretary';
+import { womensEmergency1366Policy, womensEmergency1366Spokes } from './womens-emergency-1366';
+import { safecall119Policy, safecall119Spokes } from './119-safe-call';
+import { benefitNotificationServicePolicy, benefitNotificationServiceSpokes } from './benefit-notification-service';
+import { sexOffenderNotificationPolicy, sexOffenderNotificationSpokes } from './sex-offender-notification';
+import { cultureDayPolicy, cultureDaySpokes } from './culture-day';
+import { gameAddictionHealingPolicy, gameAddictionHealingSpokes } from './game-addiction-healing';
+import { emptyBottleDepositPolicy, emptyBottleDepositSpokes } from './empty-bottle-deposit';
+import { beautifulStoryGrandmaPolicy, beautifulStoryGrandmaSpokes } from './beautiful-story-grandma';
+import { noiseMeterRentalPolicy, noiseMeterRentalSpokes } from './noise-meter-rental';
+import { freeLegalAidPolicy, freeLegalAidSpokes } from './free-legal-aid';
+import { smallBizCreditRecoveryPolicy, smallBizCreditRecoverySpokes } from './small-biz-credit-recovery';
+import { enterpriseSupportPortalPolicy, enterpriseSupportPortalSpokes } from './enterprise-support-portal';
+import { nationalHeritageInternshipPolicy, nationalHeritageInternshipSpokes } from './national-heritage-internship';
+import { environmentGuardianPolicy, environmentGuardianSpokes } from './environment-guardian';
+import { culturalArtsTraineePolicy, culturalArtsTraineeSpokes } from './cultural-arts-trainee';
+import { youthDesignerInternshipPolicy, youthDesignerInternshipSpokes } from './youth-designer-internship';
+import { sportsIndustryInternshipPolicy, sportsIndustryInternshipSpokes } from './sports-industry-internship';
+import { forestTrailGuidePolicy, forestTrailGuideSpokes } from './forest-trail-guide';
+import { saeilWomenInternPolicy, saeilWomenInternSpokes } from './saeil-women-intern';
+import { coastalSafetyGuardPolicy, coastalSafetyGuardSpokes } from './coastal-safety-guard';
+import { communityHealthPromotionPolicy, communityHealthPromotionSpokes } from './community-health-promotion';
+import { smokefreeLivingEnvironmentPolicy, smokefreeLivingEnvironmentSpokes } from './smokefree-living-environment';
+import { smallBizBankDebtPolicy, smallBizBankDebtSpokes } from './small-biz-bank-debt';
+import { smallBizClosedDebtPolicy, smallBizClosedDebtSpokes } from './small-biz-closed-debt';
+import { urbanGreenManagerPolicy, urbanGreenManagerSpokes } from './urban-green-manager';
+import { schoolCoordinatorPolicy, schoolCoordinatorSpokes } from './school-coordinator';
+import { arboretumCoordinatorPolicy, arboretumCoordinatorSpokes } from './arboretum-coordinator';
+import { forestDisasterResponsePolicy, forestDisasterResponseSpokes } from './forest-disaster-response';
+import { publicForestManagerPolicy, publicForestManagerSpokes } from './public-forest-manager';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -457,6 +489,38 @@ export const PoliciesBySlug: Record<string, any> = {
   'middle-aged-career-support': middleAgedCareerSupportPolicy,
   'national-employment-support': nationalEmploymentSupportPolicy,
   'job-seeker-leap-package': jobSeekerLeapPackagePolicy,
+  'carbon-neutral-point': carbonNeutralPointPolicy,
+  'safe-stepping-stone-app': safeSteppingStoneAppPolicy,
+  'national-secretary': nationalSecretaryPolicy,
+  'womens-emergency-1366': womensEmergency1366Policy,
+  '119-safe-call': safecall119Policy,
+  'benefit-notification-service': benefitNotificationServicePolicy,
+  'sex-offender-notification': sexOffenderNotificationPolicy,
+  'culture-day': cultureDayPolicy,
+  'game-addiction-healing': gameAddictionHealingPolicy,
+  'empty-bottle-deposit': emptyBottleDepositPolicy,
+  'beautiful-story-grandma': beautifulStoryGrandmaPolicy,
+  'noise-meter-rental': noiseMeterRentalPolicy,
+  'free-legal-aid': freeLegalAidPolicy,
+  'small-biz-credit-recovery': smallBizCreditRecoveryPolicy,
+  'enterprise-support-portal': enterpriseSupportPortalPolicy,
+  'national-heritage-internship': nationalHeritageInternshipPolicy,
+  'environment-guardian': environmentGuardianPolicy,
+  'cultural-arts-trainee': culturalArtsTraineePolicy,
+  'youth-designer-internship': youthDesignerInternshipPolicy,
+  'sports-industry-internship': sportsIndustryInternshipPolicy,
+  'forest-trail-guide': forestTrailGuidePolicy,
+  'saeil-women-intern': saeilWomenInternPolicy,
+  'coastal-safety-guard': coastalSafetyGuardPolicy,
+  'community-health-promotion': communityHealthPromotionPolicy,
+  'smokefree-living-environment': smokefreeLivingEnvironmentPolicy,
+  'small-biz-bank-debt': smallBizBankDebtPolicy,
+  'small-biz-closed-debt': smallBizClosedDebtPolicy,
+  'urban-green-manager': urbanGreenManagerPolicy,
+  'school-coordinator': schoolCoordinatorPolicy,
+  'arboretum-coordinator': arboretumCoordinatorPolicy,
+  'forest-disaster-response': forestDisasterResponsePolicy,
+  'public-forest-manager': publicForestManagerPolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -756,4 +820,36 @@ export const SpokesBySlug: Record<string, any[]> = {
   'middle-aged-career-support': middleAgedCareerSupportSpokes,
   'national-employment-support': nationalEmploymentSupportSpokes,
   'job-seeker-leap-package': jobSeekerLeapPackageSpokes,
+  'carbon-neutral-point': carbonNeutralPointSpokes,
+  'safe-stepping-stone-app': safeSteppingStoneAppSpokes,
+  'national-secretary': nationalSecretarySpokes,
+  'womens-emergency-1366': womensEmergency1366Spokes,
+  '119-safe-call': safecall119Spokes,
+  'benefit-notification-service': benefitNotificationServiceSpokes,
+  'sex-offender-notification': sexOffenderNotificationSpokes,
+  'culture-day': cultureDaySpokes,
+  'game-addiction-healing': gameAddictionHealingSpokes,
+  'empty-bottle-deposit': emptyBottleDepositSpokes,
+  'beautiful-story-grandma': beautifulStoryGrandmaSpokes,
+  'noise-meter-rental': noiseMeterRentalSpokes,
+  'free-legal-aid': freeLegalAidSpokes,
+  'small-biz-credit-recovery': smallBizCreditRecoverySpokes,
+  'enterprise-support-portal': enterpriseSupportPortalSpokes,
+  'national-heritage-internship': nationalHeritageInternshipSpokes,
+  'environment-guardian': environmentGuardianSpokes,
+  'cultural-arts-trainee': culturalArtsTraineeSpokes,
+  'youth-designer-internship': youthDesignerInternshipSpokes,
+  'sports-industry-internship': sportsIndustryInternshipSpokes,
+  'forest-trail-guide': forestTrailGuideSpokes,
+  'saeil-women-intern': saeilWomenInternSpokes,
+  'coastal-safety-guard': coastalSafetyGuardSpokes,
+  'community-health-promotion': communityHealthPromotionSpokes,
+  'smokefree-living-environment': smokefreeLivingEnvironmentSpokes,
+  'small-biz-bank-debt': smallBizBankDebtSpokes,
+  'small-biz-closed-debt': smallBizClosedDebtSpokes,
+  'urban-green-manager': urbanGreenManagerSpokes,
+  'school-coordinator': schoolCoordinatorSpokes,
+  'arboretum-coordinator': arboretumCoordinatorSpokes,
+  'forest-disaster-response': forestDisasterResponseSpokes,
+  'public-forest-manager': publicForestManagerSpokes,
 };

@@ -223,4 +223,14 @@ export const artistIndustrialAccidentInsurancePolicy: PolicyData = {
   related: [
     { id: 'artist-employment-insurance', title: '예술인 고용보험' },
     { id: 'national-employment-support', title: '국민취업지원제도' },
-    { id: 'self-employed-employment-insura
+    { id: 'self-employed-employment-insurance', title: '자영업자 고용보험' },
+  ],
+};
+
+export const artistIndustrialAccidentInsuranceSpokes = [
+  { slug: 'eligibility', label: '가입 대상' },
+  { slug: 'fee', label: '보험료 안내' },
+  { slug: 'subsidy', label: '보험료 지원' },
+  { slug: 'benefit', label: '급여 종류' },
+  { slug: 'how-to-apply', label: '가입 방법' },
+];

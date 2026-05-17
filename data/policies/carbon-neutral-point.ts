@@ -1,0 +1,198 @@
+import type { PolicyData } from '@/lib/policy-types';
+
+export const carbonNeutralPointPolicy: PolicyData = {
+  id: 'carbon-neutral-point',
+  slug: 'carbon-neutral-point',
+  type: 'service',
+  title: '2026 탄소중립포인트 녹색생활실천',
+  org: '환경부 / 한국환경산업기술원',
+  cat: '생활서비스',
+  catSlug: 'service',
+  amount: '최대 연 7만원',
+  deadline: '상시',
+  applyUrl: 'https://www.cpoint.or.kr/netzero/main.do',
+  summary: '친환경 생활 실천 시 인센티브(현금·포인트)를 지원하는 제도. 전자영수증·텀블러·다회용컵 등 17개 실천항목 참여로 1인당 최대 연 7만원 지원.',
+  audience: '친환경 생활을 실천하는 전 국민',
+  views: 0,
+  datePublished: '2026-01-01',
+  dateModified: '2026-05-17',
+  keyFacts: {
+    지원유형: { value: '현금 또는 민간기업 포인트 지급', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: '현금, 민간기업 포인트 (1인당 최대 7만원 지원)', verifiedAt: '2026-05-17' } },
+    최대혜택: { value: '1인당 연 최대 7만원', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: '1인당 최대 7만원 지원', verifiedAt: '2026-05-17' } },
+    실천항목: { value: '17개 항목 (전자영수증·텀블러·다회용기·나무심기 등)', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: '전자영수증 발급, 텀블러·다회용컵 이용, 일회용컵 반환, 리필스테이션, 다회용기, 무공해차 대여, 친환경제품, 고품질재활용품, 폐휴대폰반납, 미래세대실천, 잔반제로, 공유자전거, 나무심기, 베란다태양광, 재생원료제품, 장바구니, 개인용기', verifiedAt: '2026-05-17' } },
+    신청방법: { value: 'cpoint.or.kr/netzero 회원가입 후 참여', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: '탄소중립포인트 녹색생활 실천 누리집 회원가입을 통한 참여', verifiedAt: '2026-05-17' } },
+    운영기관: { value: '한국환경산업기술원', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: '한국환경산업기술원 탄소중립실천실', verifiedAt: '2026-05-17' } },
+    '2026년예산': { value: '181억원 (전년 대비 13.1% 증가)', source: { url: 'https://me.go.kr/m/mob/board/read.do', cardIndex: 1, text: '2026년 예산을 2025년 대비 13.1% 늘어난 181억 원으로 편성', verifiedAt: '2026-05-17' } },
+    포인트유효기간: { value: '5년', source: { url: 'https://www.cpoint.or.kr/netzero/main.do', cardIndex: 1, text: '탄소중립포인트(녹색생활실천)의 유효기간은 5년', verifiedAt: '2026-05-17' } },
+    문의: { value: '1660-2030', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: 'TEL : 1660-2030', verifiedAt: '2026-05-17' } },
+  },
+  qa: [
+    {
+      anchor: 'q1-what',
+      q: '탄소중립포인트 녹색생활실천이란 무엇인가요?',
+      intro: '탄소중립포인트 녹색생활실천은 일반 국민의 탄소중립 생활 실천 문화 확산을 위해 다양한 민간기업의 친환경 활동 이용 시 이용 실적에 따라 인센티브를 지원하는 환경부 제도입니다. 전자영수증 발급, 텀블러 사용, 다회용기 이용 등 일상적인 친환경 활동을 실천하면 현금 또는 민간기업 포인트를 받을 수 있으며, 1인당 연간 최대 7만원까지 혜택을 받을 수 있습니다.',
+      highlights: ['탄소중립포인트', '친환경활동', '최대 연 7만원', '현금 또는 포인트'],
+      box: {
+        label: '참여 목적',
+        content: '일반 국민의 탄소중립 생활 실천 문화를 확산하고, 일상에서 쉽게 실천할 수 있는 친환경 행동을 인센티브로 장려하기 위한 환경부 제도입니다.',
+      },
+      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집 (cpoint.or.kr)',
+    },
+    {
+      anchor: 'q2-who',
+      q: '누가 참여할 수 있나요?',
+      intro: '일상생활 속에서 친환경 활동을 실천하는 대한민국 국민이라면 누구나 참여할 수 있습니다. 별도의 소득·나이·가구 요건이 전혀 없으며, 가족 구성원 각자가 개별 가입하여 각자의 인센티브를 받을 수 있습니다. 외국인은 참여 불가하며 대한민국 국적 보유자만 해당됩니다. 탄소중립포인트 누리집(cpoint.or.kr/netzero)에서 회원가입만 하면 바로 참여 가능하며, 참여한 민간기업의 앱·웹에서도 가입할 수 있어 매우 간편합니다.',
+      highlights: ['전 국민', '소득 요건 없음', '가족 각자 가입 가능', '외국인 불가'],
+      box: {
+        label: '참여 자격',
+        items: ['대한민국 국민 누구나', '가족 구성원 각자 개별 가입 가능', '별도 소득·연령 요건 없음', '외국인 참여 불가'],
+      },
+      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+    },
+    {
+      anchor: 'q3-items',
+      q: '어떤 활동을 하면 포인트가 쌓이나요?',
+      intro: '2026년 기준 총 17개 실천항목에서 친환경 활동을 하면 포인트가 적립됩니다. 기존 10개 항목에 2026년부터 7개 신규 항목이 추가되었습니다. 전자영수증 발급, 텀블러·다회용컵 이용, 일회용컵 반환, 리필스테이션 이용, 다회용기 이용, 무공해차 대여, 친환경제품 구매(그린카드), 고품질 재활용품 배출, 폐휴대폰 반납, 미래세대 실천행동(어린이·청소년), 잔반제로, 공유자전거, 나무 심기, 가정용 베란다 태양광 설치, 재생원료 사용제품 구매, 개인 장바구니 이용, 개인용기 식품 포장이 해당됩니다.',
+      highlights: ['17개 실천항목', '전자영수증', '텀블러', '다회용기', '나무심기', '베란다태양광'],
+      table: {
+        headers: ['실천항목', '인센티브 기준', '비고'],
+        rows: [
+          ['전자영수증 발급', '건당 포인트', '참여기업 앱에서'],
+          ['텀블러·다회용컵 이용', '회당 포인트', '카페 등 제휴매장'],
+          ['일회용컵 반환', '회당 포인트', '제휴 매장'],
+          ['리필스테이션 이용', '회당 포인트', '리필제품 구매'],
+          ['다회용기 이용', '회당 포인트', '배달앱 등'],
+          ['무공해차 대여', '회당 포인트', '렌트카 등'],
+          ['친환경제품 구매', '건당 포인트', '그린카드 이용'],
+          ['고품질 재활용품 배출', '회당 포인트', '재활용센터 등'],
+          ['폐휴대폰 반납', '회당 포인트', '통신사 등'],
+          ['나무 심기 (2026 신규)', '3,000원/회', '캠페인 참여'],
+          ['베란다 태양광 설치 (2026 신규)', '10,000원/회', '1kW 이하'],
+          ['재생원료 제품 구매 (2026 신규)', '100원/건', '참여매장'],
+          ['개인 장바구니 이용 (2026 신규)', '50원/회', '참여매장'],
+          ['개인용기 식품 포장 (2026 신규)', '500원/회', '참여매장'],
+        ],
+      },
+      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집 (2026.01 기준)',
+    },
+    {
+      anchor: 'q4-benefit',
+      q: '포인트는 얼마나 받을 수 있고 어떻게 받나요?',
+      intro: '1인당 연간 최대 7만원의 인센티브를 받을 수 있습니다. 인센티브는 현금 또는 참여 민간기업의 포인트로 지급되며, 실천항목별로 지급 금액이 다릅니다. 포인트 조회는 실시간이 아닌 실천 행동 후 다음 달 말에 조회되며, 적립된 포인트의 유효기간은 5년입니다. 한국환경산업기술원이 참여기업을 통해 정산·지급하는 구조로, 2026년 예산은 전년 대비 13.1% 증가한 181억원이 편성되었습니다.',
+      highlights: ['연 최대 7만원', '현금 또는 포인트', '다음 달 말 조회', '유효기간 5년', '181억원 예산'],
+      table: {
+        headers: ['2026 신규항목', '지급 단가', '비고'],
+        rows: [
+          ['나무 심기', '3,000원/회', '캠페인 참여'],
+          ['가정용 베란다 태양광 설치', '10,000원/회', '1kW 이하 가구'],
+          ['재생원료 사용제품 구매', '100원/건', '참여매장'],
+          ['개인 장바구니 이용', '50원/회', '참여매장'],
+          ['개인용기 식품 포장', '500원/회', '참여매장'],
+        ],
+      },
+      box: {
+        label: '포인트 지급 구조',
+        content: '참여자 → (실천행동) → 참여기업 → 한국환경산업기술원 → 현금 또는 포인트 지급',
+      },
+      box2: {
+        label: '2026년 예산',
+        content: '181억원 (2025년 대비 13.1% 증가)',
+      },
+      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+    },
+    {
+      anchor: 'q5-apply',
+      q: '어떻게 가입하고 참여하나요?',
+      intro: '탄소중립포인트 녹색생활 실천 누리집(cpoint.or.kr/netzero)에서 회원가입을 하거나, 탄소중립포인트 제도에 참여한 업체(브랜드)의 앱·웹에서도 가입할 수 있습니다. 회원가입 후 해당 참여기업에서 친환경 활동을 하면 자동으로 포인트가 적립됩니다. 별도 서류 제출이나 방문 없이 온라인으로 모든 절차가 완료됩니다. 가입 후 첫 실천행동부터 바로 포인트가 적립되며, 다음 달 말에 확인 가능합니다.',
+      highlights: ['cpoint.or.kr/netzero', '참여기업 앱에서도 가입 가능', '온라인 간편 가입'],
+      box: {
+        label: '신청 절차',
+        items: [
+          '① cpoint.or.kr/netzero 접속',
+          '② 회원가입 (본인 인증)',
+          '③ 참여기업 선택',
+          '④ 친환경 활동 실천 → 포인트 자동 적립',
+          '⑤ 다음 달 말 포인트 조회·수령',
+        ],
+      },
+      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+    },
+    {
+      anchor: 'q6-partner',
+      q: '어떤 기업이 참여하고 있나요?',
+      intro: '다양한 민간기업이 탄소중립포인트 제도에 참여하고 있으며, 참여기업 목록은 탄소중립포인트 누리집(cpoint.or.kr/netzero)의 참여기업 안내 메뉴에서 확인할 수 있습니다. 편의점·카페·통신사·배달앱·카드사 등 일상생활에서 이용하는 다양한 기업이 포함되어 있어 생활 속에서 자연스럽게 포인트를 쌓을 수 있습니다. 참여기업은 지속적으로 확대되고 있으므로 누리집에서 최신 목록을 확인하는 것이 좋습니다.',
+      highlights: ['편의점', '카페', '통신사', '배달앱', '카드사', '지속 확대'],
+      box: {
+        label: '참여기업 확인 방법',
+        content: '탄소중립포인트 누리집(cpoint.or.kr/netzero) → 참여기업 안내 메뉴에서 업종별·브랜드별 확인 가능',
+      },
+      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+    },
+    {
+      anchor: 'q7-inquiry',
+      q: '문의는 어디에 하나요?',
+      intro: '탄소중립포인트 관련 문의는 한국환경산업기술원 탄소중립실천실(☎1660-2030)로 연락하거나, 탄소중립포인트 누리집(cpoint.or.kr/netzero)의 FAQ·공지사항을 참고하실 수 있습니다. 이메일 문의는 netzero@keiti.re.kr로 보내시면 됩니다. 주소는 서울특별시 은평구 진흥로 215 한국환경산업기술원이며, 운영시간은 평일 09:00~18:00입니다.',
+      highlights: ['☎1660-2030', 'cpoint.or.kr/netzero', 'netzero@keiti.re.kr', '평일 09:00~18:00'],
+      box: {
+        label: '문의처',
+        items: [
+          '전화: 1660-2030',
+          '이메일: netzero@keiti.re.kr',
+          '누리집: cpoint.or.kr/netzero',
+          '운영시간: 평일 09:00~18:00',
+        ],
+      },
+      sourceNote: '한국환경산업기술원 탄소중립포인트 누리집 (cpoint.or.kr)',
+    },
+  ],
+  eligibility: [
+    { label: '참여 자격', value: '대한민국 국민 누구나 (나이·소득 무관)' },
+    { label: '가입 방법', value: 'cpoint.or.kr/netzero 회원가입' },
+    { label: '최대 혜택', value: '1인당 연 최대 7만원 (현금 또는 포인트)' },
+  ],
+  faq: [
+    {
+      question: '포인트는 언제 받을 수 있나요?',
+      answer: '실천 행동 후 다음 달 말에 조회·지급됩니다. 실시간 조회는 되지 않습니다.',
+      source: { url: 'https://www.cpoint.or.kr/netzero/main.do', text: '탄소중립포인트 녹색생활실천 누리집', verifiedAt: '2026-05-17' },
+    },
+    {
+      question: '포인트 유효기간이 있나요?',
+      answer: '5년입니다. 5년 내에 사용하지 않으면 소멸됩니다.',
+      source: { url: 'https://www.cpoint.or.kr/netzero/main.do', text: '탄소중립포인트 녹색생활실천 누리집', verifiedAt: '2026-05-17' },
+    },
+    {
+      question: '가족이 각자 가입해도 되나요?',
+      answer: '네, 가족 구성원이 각자 개별 가입하면 각자 인센티브를 받을 수 있습니다.',
+      source: { url: 'https://www.cpoint.or.kr/netzero/main.do', text: '탄소중립포인트 녹색생활실천 누리집', verifiedAt: '2026-05-17' },
+    },
+    {
+      question: '2026년 새로 추가된 항목은 무엇인가요?',
+      answer: '나무심기(3,000원/회), 베란다 태양광 설치(10,000원/회), 재생원료 사용제품 구매(100원/건), 개인 장바구니(50원/회), 개인용기 식품 포장(500원/회) 등 항목이 추가되었습니다.',
+      source: { url: 'https://me.go.kr/m/mob/board/read.do', text: '환경부 보도자료', verifiedAt: '2026-05-17' },
+    },
+    {
+      question: '현금과 포인트 중 선택할 수 있나요?',
+      answer: '참여기업에 따라 현금 또는 해당 기업 포인트로 지급됩니다. 가입 시 참여기업 및 지급 방식을 확인하세요.',
+      source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', text: '탄소중립포인트 제도소개', verifiedAt: '2026-05-17' },
+    },
+  ],
+  sources: [
+    { label: '탄소중립포인트 녹색생활실천 누리집 - 제도소개', url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do' },
+    { label: '탄소중립포인트 메인', url: 'https://www.cpoint.or.kr/netzero/main.do' },
+    { label: '환경부 - 탄소중립 실천에 연중 중단없는 혜택', url: 'https://me.go.kr/m/mob/board/read.do' },
+  ],
+  related: [
+    { id: 'energy-voucher', title: '에너지바우처' },
+    { id: 'low-income-energy-efficiency', title: '저소득층 에너지 효율 개선사업' },
+    { id: 'used-appliance-pickup', title: '폐가전제품 무상 방문 수거' },
+  ],
+};
+
+export const carbonNeutralPointSpokes = [
+  { label: '참여방법', path: 'how-to-join' },
+  { label: '실천항목', path: 'practice-items' },
+  { label: '포인트조회', path: 'check-points' },
+  { label: '참여기업', path: 'partner-companies' },
+  { label: '2026신규항목', path: 'new-2026' },
+];

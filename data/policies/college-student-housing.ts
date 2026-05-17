@@ -230,4 +230,9 @@ export const collegeStudentHousingPolicy: PolicyData = {
 };
 
 export const collegeStudentHousingSpokes = [
-  { slug: 'happy-house', labe
+  { slug: 'happy-house', label: '행복주택' },
+  { slug: 'dormitory', label: '기숙사형 청년주택' },
+  { slug: 'jeonse', label: '청년 전세임대' },
+  { slug: 'eligibility', label: '입주 자격' },
+  { slug: 'how-to-apply', label: '신청 방법' },
+];
