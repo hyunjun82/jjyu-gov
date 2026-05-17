@@ -73,6 +73,36 @@ import { 조회방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/근�
 import { 환수추징SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/환수추징';
 import { 신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/신청기간';
 
+/* ── 새도약기금 (slug: new-leap) ── */
+import { 신청방법SpokeContent as 새도약기금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/신청방법';
+import { 자격조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/자격조건';
+import { 채무소각SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/채무소각';
+import { 대상자조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/대상자조회';
+
+/* ── 첫만남이용권 (slug: first-meet) ── */
+import { 첫만남사용처SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/사용처';
+import { 첫만남유효기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/유효기간';
+import { 첫만남신청기한SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/신청기한';
+import { 첫만남잔액조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/잔액조회';
+
+/* ── 장애인연금 (slug: disability-pension) ── */
+import { 장애수당차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/장애수당-차이';
+import { 장애인연금금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/금액';
+import { 장애인연금3급기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/3급기준';
+import { 장애인연금2026인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/2026인상';
+
+/* ── 기초생활수급 (slug: basic-livelihood-allowance) ── */
+import { 기초수급소득기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/소득기준';
+import { 기초수급탈락조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/탈락조건';
+import { 기초수급65세이상SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/65세이상';
+import { 기초수급급여종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/급여종류';
+
+/* ── 에너지바우처 (slug: energy-voucher) ── */
+import { 에너지바우처사용처SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/사용처';
+import { 에너지바우처대상자확인SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/대상자확인';
+import { 에너지바우처자동신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/자동신청';
+import { 에너지바우처신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/신청기간';
+
 /* ──────────────────────────────────────────────
  * 레지스트리 본체
  * key: 정책 slug (data/policies/*.ts 의 slug 필드와 반드시 일치)
@@ -128,6 +158,41 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '6+6부모':   부모함께SpokeContent,
     '신청방법':  육아휴직신청방법SpokeContent,
     '회사부담':  회사부담SpokeContent,
+  },
+
+  'new-leap': {
+    '신청방법':    새도약기금신청방법SpokeContent,
+    '자격조건':    자격조건SpokeContent,
+    '채무소각':    채무소각SpokeContent,
+    '대상자조회':  대상자조회SpokeContent,
+  },
+
+  'first-meet': {
+    '사용처':    첫만남사용처SpokeContent,
+    '유효기간':  첫만남유효기간SpokeContent,
+    '신청기한':  첫만남신청기한SpokeContent,
+    '잔액조회':  첫만남잔액조회SpokeContent,
+  },
+
+  'disability-pension': {
+    '장애수당-차이': 장애수당차이SpokeContent,
+    '금액':          장애인연금금액SpokeContent,
+    '3급기준':       장애인연금3급기준SpokeContent,
+    '2026인상':      장애인연금2026인상SpokeContent,
+  },
+
+  'basic-livelihood-allowance': {
+    '소득기준': 기초수급소득기준SpokeContent,
+    '탈락조건': 기초수급탈락조건SpokeContent,
+    '65세이상': 기초수급65세이상SpokeContent,
+    '급여종류': 기초수급급여종류SpokeContent,
+  },
+
+  'energy-voucher': {
+    '사용처':      에너지바우처사용처SpokeContent,
+    '대상자확인':  에너지바우처대상자확인SpokeContent,
+    '자동신청':    에너지바우처자동신청SpokeContent,
+    '신청기간':    에너지바우처신청기간SpokeContent,
   },
 
   'basic-pension': {

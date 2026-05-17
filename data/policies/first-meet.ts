@@ -226,4 +226,9 @@ export const firstmeetPolicy = {
   ],
 };
 
-export const firstmeetSpokes = [];
+export const firstmeetSpokes = [
+  { slug: '사용처', title: '첫만남이용권 쿠팡·온라인에서 쓸 수 있다 | 전 업종 사용처 정리' },
+  { slug: '유효기간', title: '첫만남이용권 200만원, 2년 안에 다 써야 한다 | 유효기간과 잔액 소멸' },
+  { slug: '신청기한', title: '출산 후 신청을 60일 넘기면 첫만남이용권은 어떻게 되나' },
+  { slug: '잔액조회', title: '첫만남이용권 잔액 조회 방법 | 국민행복카드 앱에서 바로 확인' },
+];

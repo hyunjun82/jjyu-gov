@@ -110,4 +110,8 @@ export const disabilityPensionSpokes = [
   { slug: 'apply', role: 'apply', title: '행정복지센터 또는 복지로', content: '연중 신청.' },
   { slug: 'detail', role: 'usage', title: '기초급여 vs 부가급여', content: '가구 유형별 부가 차등.' },
   { slug: 'overlap', role: 'overlap', title: '생계급여 중복 - 기초연금 65세 전환', content: '장애수당 배타.' },
+  { slug: '장애수당-차이', role: '장애수당차이', title: '장애인연금과 장애수당, 같은 건가 다른 건가 | 중증·경증 기준 차이', content: '연금=중증 43만9700원, 수당=경증 6만원, 동시 수령 불가.' },
+  { slug: '금액', role: '금액', title: '장애인연금 기초급여 + 부가급여 | 기초수급자 합산 최대 금액', content: '기초 34만9700원, 부가 9만원, 합산 최대 43만9700원.' },
+  { slug: '3급기준', role: '3급기준', title: '3급 장애인인데 장애인연금을 못 받는다면 | 등급 기준과 대상자 확인', content: '2019년 7월 개편, 심한/심하지않은 장애 구분.' },
+  { slug: '2026인상', role: '2026인상', title: '2026년 장애인연금 기초급여 인상액 | 349,700원 확인과 신청 방법', content: '7,190원 인상, 단독 140만·부부 224만, 자동 적용.' },
 ];
