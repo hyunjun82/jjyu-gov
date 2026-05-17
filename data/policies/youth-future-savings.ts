@@ -288,6 +288,7 @@ export const youthFutureSavingsPolicy = {
 };
 
 export const youthFutureSavingsSpokes = [
+  { slug: '출시일정', title: '청년미래적금 6월 출시 언제부터 신청 가능한가요 2026 일정 총정리' },
   { slug: 'vs-도약계좌', title: '미래적금 vs 도약계좌 차이' },
   { slug: '중위소득', title: '중위소득 200% 기준표' },
   { slug: '군대-나이', title: '병역 기간 연령 제외' },

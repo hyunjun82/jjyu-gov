@@ -19,6 +19,9 @@ import { CancelSpokeContent }   from '@/app/policy/[id]/[spoke]/content/중도�
 import { ContribSpokeContent }  from '@/app/policy/[id]/[spoke]/content/기여금계산';
 import { NoIncomeSpokeContent } from '@/app/policy/[id]/[spoke]/content/소득없으면';
 
+/* ── 청년미래적금 (slug: youth-future-savings) ── */
+import { 출시일정SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/출시일정';
+
 /* ── 청년내일저축계좌 (slug: youth-tomorrow-savings) ── */
 import { 군인SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/군인';
 
@@ -47,6 +50,7 @@ import { 조회방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/근�
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'youth-future-savings': {
+    '출시일정':     출시일정SpokeContent,
     'vs-도약계좌':  VsLeapSpokeContent,
     '중도해지':     CancelSpokeContent,
     '기여금-계산':  ContribSpokeContent,
