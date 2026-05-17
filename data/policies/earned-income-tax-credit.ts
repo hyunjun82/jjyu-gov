@@ -108,6 +108,7 @@ export const earnedIncomeTaxCreditPolicy = {
 } as const;
 
 export const earnedIncomeTaxCreditSpokes = [
+  { slug: '지급일', role: 'extra', title: '2026 근로장려금 지급일 정기·반기 언제 입금되나요', content: '정기 9월·반기 6월/12월.' },
   { slug: 'amount', role: 'amount', title: '단독 165만·홑벌이 285만·맞벌이 330만원', content: '자녀 1인당 +100만원.' },
   { slug: 'eligibility', role: 'eligibility', title: '저소득 근로·사업·종교인 가구', content: '재산 2억4천 미만.' },
   { slug: 'apply', role: 'apply', title: '홈택스·ARS 1544-9944 5월 신청', content: '자동신청 동의 가능.' },

@@ -30,6 +30,9 @@ import { 국민연금차이SpokeContent }  from '@/app/policy/[id]/[spoke]/conte
 import { 부부감액SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/부부감액';
 import { 감액기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/감액기준';
 
+/* ── 근로장려금 (slug: earned-income-tax-credit) ── */
+import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급일';
+
 /* ──────────────────────────────────────────────
  * 레지스트리 본체
  * key: 정책 slug (data/policies/*.ts 의 slug 필드와 반드시 일치)
@@ -41,6 +44,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '중도해지':     CancelSpokeContent,
     '기여금-계산':  ContribSpokeContent,
     '소득없으면':   NoIncomeSpokeContent,
+  },
+
+  'earned-income-tax-credit': {
+    '지급일': 지급일SpokeContent,
   },
 
   'basic-pension': {
