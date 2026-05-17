@@ -21,12 +21,19 @@ import { NoIncomeSpokeContent } from '@/app/policy/[id]/[spoke]/content/소득�
 
 /* ── 청년미래적금 (slug: youth-future-savings) ── */
 import { 출시일정SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/출시일정';
+import { 대학생SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년미래적금/대학생';
+import { 실수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/실수령액';
+import { 이자소득세SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/이자소득세';
 
 /* ── 청년내일저축계좌 (slug: youth-tomorrow-savings) ── */
-import { 군인SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/군인';
+import { 군인SpokeContent }    from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/군인';
+import { 중도해지SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/중도해지';
+import { 신청기간SpokeContent as 내일저축신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/신청기간';
 
 /* ── 실업급여 (slug: job-seeker-benefit) ── */
 import { 자발적퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자발적퇴사';
+import { 재수급SpokeContent }    from '@/app/policy/[id]/[spoke]/content/실업급여/재수급';
+import { 알바단기SpokeContent }  from '@/app/policy/[id]/[spoke]/content/실업급여/알바단기';
 
 /* ── 기초연금 (slug: basic-pension) ── */
 import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
@@ -38,10 +45,21 @@ import { 신청방법SpokeContent }      from '@/app/policy/[id]/[spoke]/content
 import { 국민연금차이SpokeContent }  from '@/app/policy/[id]/[spoke]/content/기초연금/국민연금-차이';
 import { 부부감액SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/부부감액';
 import { 감액기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/감액기준';
+import { 금액인상SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/40만원인상';
+import { 자동지급SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/자동지급';
+import { 개인연금감액SpokeContent }  from '@/app/policy/[id]/[spoke]/content/기초연금/개인연금감액';
+
+/* ── 육아휴직급여 (slug: parental-leave-pay) ── */
+import { 급여계산SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/급여계산';
+import { 부모함께SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/6+6부모';
+import { 육아휴직신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/신청방법';
+import { 회사부담SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/회사부담';
 
 /* ── 근로장려금 (slug: earned-income-tax-credit) ── */
 import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급일';
 import { 조회방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/조회방법';
+import { 환수추징SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/환수추징';
+import { 신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/신청기간';
 
 /* ──────────────────────────────────────────────
  * 레지스트리 본체
@@ -55,19 +73,35 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '중도해지':     CancelSpokeContent,
     '기여금-계산':  ContribSpokeContent,
     '소득없으면':   NoIncomeSpokeContent,
+    '대학생':       대학생SpokeContent,
+    '실수령액':     실수령액SpokeContent,
+    '이자소득세':   이자소득세SpokeContent,
   },
 
   'earned-income-tax-credit': {
     '지급일': 지급일SpokeContent,
     '조회방법': 조회방법SpokeContent,
+    '환수추징': 환수추징SpokeContent,
+    '신청기간': 신청기간SpokeContent,
   },
 
   'youth-tomorrow-savings': {
-    '군인': 군인SpokeContent,
+    '군인':    군인SpokeContent,
+    '중도해지': 중도해지SpokeContent,
+    '신청기간': 내일저축신청기간SpokeContent,
   },
 
   'job-seeker-benefit': {
     '자발적퇴사': 자발적퇴사SpokeContent,
+    '재수급':     재수급SpokeContent,
+    '알바단기':   알바단기SpokeContent,
+  },
+
+  'parental-leave-pay': {
+    '급여계산':  급여계산SpokeContent,
+    '6+6부모':   부모함께SpokeContent,
+    '신청방법':  육아휴직신청방법SpokeContent,
+    '회사부담':  회사부담SpokeContent,
   },
 
   'basic-pension': {
@@ -80,6 +114,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '국민연금-차이':     국민연금차이SpokeContent,
     '부부감액':          부부감액SpokeContent,
     '감액기준':          감액기준SpokeContent,
+    '40만원인상':        금액인상SpokeContent,
+    '자동지급':          자동지급SpokeContent,
+    '개인연금감액':      개인연금감액SpokeContent,
   },
 
 };

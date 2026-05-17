@@ -89,7 +89,7 @@ function Content() {
       <div className="ad-slot">광고 영역</div>
 
       <section className="detail-card" id="safe">
-        <h2 className="detail-card-head">허용 가능성이 높은 알바 조건</h2>
+        <h2 className="detail-card-head">월 60시간 미만 알바, 어디까지 괜찮나</h2>
         <div className="detail-card-body">
           <div className="info-box" style={{ marginBottom: 12 }}>
             <strong>주 15시간 미만 + 월 50만원 이하:</strong> 단기·초단시간 알바로 간주되어
@@ -139,9 +139,9 @@ function Content() {
 }
 
 export const 알바단기SpokeContent: SpokeData = {
-  h1: '실업급여 받으면서 알바 단기 가능한지 신고 방법 총정리',
+  h1: '실업급여 받으면서 알바해도 되나 | 월 60시간 기준과 신고 방법',
   breadcrumb: '알바·단기',
-  description: '실업급여 수급 중 알바는 가능하지만 반드시 신고해야 합니다. 일한 날 수 × 1일 구직급여액이 차감됩니다. 신고 없이 알바하면 전액 환수 + 최대 5배 추가 징수 + 형사처벌을 받습니다.',
+  description: '실업급여 받으면서 알바해도 됩니다. 단 반드시 신고 필수. 월 60시간(주 15시간) 미만이면 급여 유지 가능하나, 일한 날 수 × 1일 구직급여액이 차감됩니다. 미신고 시 전액 환수 + 최대 5배 추가 징수 + 형사처벌.',
   datePublished: '2026-05-17T09:00:00+09:00',
   dateModified: '2026-05-17T09:00:00+09:00',
   Content,

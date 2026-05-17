@@ -298,4 +298,7 @@ export const youthFutureSavingsSpokes = [
   { slug: '신청방법', title: '비대면 앱 3분 신청' },
   { slug: '납입금액', title: '월 1만~50만원 최적 납입' },
   { slug: '기여금-계산', title: '6% vs 12% 매칭 계산' },
+  { slug: '대학생', title: '청년미래적금 대학생 재학생도 가입할 수 있나요' },
+  { slug: '실수령액', title: '청년미래적금 3년 만기 실수령액 얼마나 되나요' },
+  { slug: '이자소득세', title: '청년미래적금 이자소득세 면제 비과세 조건 총정리' },
 ];

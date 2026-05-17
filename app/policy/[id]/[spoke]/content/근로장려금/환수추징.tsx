@@ -18,7 +18,7 @@ function Content() {
       </p>
 
       <section className="detail-card" id="reason">
-        <h2 className="detail-card-head">근로장려금 환수 주요 사유</h2>
+        <h2 className="detail-card-head">근로장려금 환수되는 이유 5가지</h2>
         <div className="detail-card-body">
           <table className="compare-table">
             <thead>
@@ -154,9 +154,9 @@ function Content() {
 }
 
 export const 환수추징SpokeContent: SpokeData = {
-  h1: '근로장려금 환수 추징 조건 부정수급 패널티 총정리',
+  h1: '근로장려금 환수 통지서 받았다면 | 이유 5가지와 이의신청 방법',
   breadcrumb: '환수·추징',
-  description: '근로장려금 환수 조건과 부정수급 패널티를 정리했습니다. 소득 초과·배우자 소득 누락·중복 신청 시 전액 환수되며 가산세 + 최대 5년 자격 정지가 부과됩니다. 재산 1.7억~2.4억 구간은 50% 감액입니다.',
+  description: '근로장려금 환수 이유 5가지: 소득 초과·재산 초과·배우자 소득 누락·중복 신청·허위 신고. 환수 통지서 받으면 90일 내 이의신청 가능. 부정수급 시 전액 환수+가산세+최대 5년 자격 정지.',
   datePublished: '2026-05-17T09:00:00+09:00',
   dateModified: '2026-05-17T09:00:00+09:00',
   Content,

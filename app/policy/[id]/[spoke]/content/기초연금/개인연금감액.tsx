@@ -18,7 +18,7 @@ function Content() {
       </p>
 
       <section className="detail-card" id="private-pension-rule">
-        <h2 className="detail-card-head">개인연금이 기초연금에 미치는 영향</h2>
+        <h2 className="detail-card-head">직접 감액 vs 소득인정액 영향 — 뭐가 다른가</h2>
         <div className="detail-card-body">
           <table className="compare-table">
             <thead>
@@ -137,9 +137,9 @@ function Content() {
 }
 
 export const 개인연금감액SpokeContent: SpokeData = {
-  h1: '기초연금 개인연금 있으면 감액되나요 소득인정액 영향 총정리',
+  h1: '개인연금 받으면 기초연금 깎인다는데 | 직접 감액 아닌 소득인정액 영향 차이',
   breadcrumb: '개인연금 영향',
-  description: '개인연금(사적연금)을 받아도 기초연금이 직접 감액되지 않습니다. 다만 개인연금 수령액이 소득인정액에 포함되어 선정기준액(단독 247만원)을 초과하면 수급 자격을 잃을 수 있습니다.',
+  description: '개인연금이 있어도 기초연금이 직접 깎이지는 않습니다. 다만 개인연금 수령액이 소득인정액에 포함되어, 단독가구 기준 월 247만원을 초과하면 기초연금 수급 자격 자체를 잃을 수 있습니다. 유형별 반영 방식이 다릅니다.',
   datePublished: '2026-05-17T09:00:00+09:00',
   dateModified: '2026-05-17T09:00:00+09:00',
   Content,

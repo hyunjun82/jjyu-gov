@@ -121,9 +121,8 @@ export const parentalLeavePayPolicy = {
 } as const;
 
 export const parentalLeavePaySpokes = [
-  { slug: 'amount', role: 'amount', title: '250만 + 200만 + 160만', content: '구간별.' },
-  { slug: 'target', role: 'usage', title: '만 8세 + 고용보험', content: '180일 이상.' },
-  { slug: 'couple', role: 'usage', title: '6+6 부모함께 450만', content: '부부 함께.' },
-  { slug: 'apply', role: 'apply', title: 'ei.go.kr - 1350', content: '매월 신청.' },
-  { slug: 'change', role: 'overlap', title: '2026 사후지급 폐지', content: '100% 즉시.' },
+  { slug: '급여계산', role: 'amount',  title: '육아휴직 중 월급 얼마나 받나 | 1~3월 250만원·통상임금 비율 계산법' },
+  { slug: '6+6부모',  role: 'usage',   title: '엄마 아빠 모두 육아휴직 쓰면 6+6 급여 얼마 더 받나 | 순서별 금액' },
+  { slug: '신청방법', role: 'apply',   title: '육아휴직급여 신청 조건부터 기한까지 | 고용보험 180일 기준과 온라인 방법' },
+  { slug: '회사부담', role: 'overlap', title: '육아휴직급여는 회사가 주는 건가 정부가 주는 건가 | 고용센터 직접 신청' },
 ];

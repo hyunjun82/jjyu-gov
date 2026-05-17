@@ -115,4 +115,6 @@ export const earnedIncomeTaxCreditSpokes = [
   { slug: 'apply', role: 'apply', title: '홈택스·ARS 1544-9944 5월 신청', content: '자동신청 동의 가능.' },
   { slug: 'semi', role: 'extra', title: '반기신청: 9월·3월 2회 분할 수령', content: '근로소득자 전용.' },
   { slug: 'child', role: 'extra2', title: '자녀장려금 18세 미만 1인당 최대 100만원', content: '동시 신청.' },
+  { slug: '환수추징', role: 'extra', title: '근로장려금 환수 추징 조건 부정수급 패널티 총정리', content: '소득 초과·부정수급 시 전액 환수 + 가산세.' },
+  { slug: '신청기간', role: 'extra', title: '2026 근로장려금 신청기간 정기 반기 기한후 일정 총정리', content: '정기 5.1~6.1 / 반기 3.1~3.16 / 기한후 6.2~12.1.' },
 ];

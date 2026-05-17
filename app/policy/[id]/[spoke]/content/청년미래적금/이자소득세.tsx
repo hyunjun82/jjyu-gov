@@ -18,7 +18,7 @@ function Content() {
       </p>
 
       <section className="detail-card" id="condition">
-        <h2 className="detail-card-head">이자소득세 면제 적용 조건</h2>
+        <h2 className="detail-card-head">이자 15.4% 세금 면제, 받으려면 어떤 조건이어야 하나</h2>
         <div className="detail-card-body">
           <table className="compare-table">
             <thead>
@@ -152,9 +152,9 @@ function Content() {
 }
 
 export const 이자소득세SpokeContent: SpokeData = {
-  h1: '청년미래적금 이자소득세 면제 비과세 조건 총정리',
+  h1: '청년미래적금 이자 15.4% 세금 안 낸다는게 맞나 | 비과세 조건과 소득별 차이',
   breadcrumb: '이자소득세',
-  description: '청년미래적금 이자소득세 면제(비과세) 조건을 정리했습니다. 총급여 7,500만원 이하에서 3년 만기를 채우면 이자의 15.4% 세금을 전액 면제받습니다. 6,000~7,500만원 구간도 비과세 적용됩니다.',
+  description: '청년미래적금은 이자소득세 15.4%가 전액 면제됩니다. 단, 총급여 7,500만원 이하이고 3년 만기를 채워야 합니다. 6,000~7,500만원 구간은 정부 기여금 없이 비과세만 적용. 중도해지 시 비과세 불가.',
   datePublished: '2026-05-17T09:00:00+09:00',
   dateModified: '2026-05-17T09:00:00+09:00',
   Content,

@@ -62,7 +62,7 @@ function Content() {
       <div className="ad-slot">광고 영역</div>
 
       <section className="detail-card" id="future">
-        <h2 className="detail-card-head">앞으로는 자동 지급이 될까요?</h2>
+        <h2 className="detail-card-head">정부 자동지급 법안 — 언제 시행되나</h2>
         <div className="detail-card-body">
           <p style={{ lineHeight: 1.8 }}>
             정부는 2026년 5월 기초연금, 아동수당 등 복지급여 자동 지급 법안 6개를 개정 추진한다고 발표했습니다.
@@ -112,9 +112,9 @@ function Content() {
 }
 
 export const 자동지급SpokeContent: SpokeData = {
-  h1: '기초연금 신청 안 해도 자동지급 되나요 2026 정확한 답변',
+  h1: '기초연금 신청 안 해도 자동으로 받을 수 있나 | 자동지급 법안 추진 현황',
   breadcrumb: '자동지급',
-  description: '기초연금은 2026년 현재 반드시 직접 신청해야 받을 수 있습니다. 장애인연금 수급자가 만 65세 되면 자동 전환됩니다. 정부가 자동 지급 법안을 추진 중이나 아직 시행 전입니다.',
+  description: '2026년 5월 현재 기초연금은 신청하지 않으면 자동으로 받을 수 없습니다. 단, 장애인연금 수급자가 만 65세 되면 자동 지급 예외 적용. 정부가 기초연금·아동수당 자동지급 법안을 추진 중이며, 아직 시행 전입니다.',
   datePublished: '2026-05-17T09:00:00+09:00',
   dateModified: '2026-05-17T09:00:00+09:00',
   Content,

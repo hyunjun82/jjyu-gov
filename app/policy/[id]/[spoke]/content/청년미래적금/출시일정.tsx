@@ -18,7 +18,7 @@ function Content() {
       </p>
 
       <section className="detail-card" id="schedule">
-        <h2 className="detail-card-head">2026 청년미래적금 출시·신청 일정</h2>
+        <h2 className="detail-card-head">2026년 6월 출시 일정과 신청 방법</h2>
         <div className="detail-card-body">
           <table className="compare-table">
             <thead>
@@ -169,10 +169,10 @@ function Content() {
 }
 
 export const 출시일정SpokeContent: SpokeData = {
-  h1: '청년미래적금 6월 출시 언제부터 신청 가능한가요 2026 일정 총정리',
+  h1: '2026년 6월 청년미래적금 출시 | 신청 방법·최대 7~8% 금리·취급기관 15곳',
   breadcrumb: '출시일정',
   description:
-    '청년미래적금 6월 출시 일정을 정리했습니다. 금융위원회 공식 기준으로 2026년 6월 출시, 정확한 신청일은 5월 말 발표 예정(예상 6월 중순). 취급 은행 6곳, 미리 준비할 것 4가지도 안내합니다.',
+    '청년미래적금 2026년 6월 출시 예정. 기본금리 5% + 기관별 우대금리 2~3%p = 최대 7~8%. 총 15개 취급기관, 비대면 앱 신청. 월 50만원씩 3년 납입 시 최대 2,255만원 수령 가능.',
   datePublished: '2026-05-17T09:00:00+09:00',
   dateModified: '2026-05-17T09:00:00+09:00',
   Content,

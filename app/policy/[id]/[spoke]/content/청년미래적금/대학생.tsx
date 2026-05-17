@@ -136,4 +136,6 @@ export const 대학생SpokeContent: SpokeData = {
   ],
   sources: [
     { name: '금융위원회 청년미래적금 카드뉴스 (2026.04.24)', url: 'https://www.fsc.go.kr/no040101?cnId=3187' },
-    { name: '경기도일자리포털 잡아바 청년미래적�
+    { name: '경기도일자리포털 잡아바 청년미래적금 총정리', url: 'https://job.gg.go.kr/thema/exprcDtl' },
+  ],
+};

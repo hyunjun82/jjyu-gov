@@ -108,6 +108,8 @@ export const youthTomorrowSavingsPolicy = {
 
 export const youthTomorrowSavingsSpokes = [
   { slug: '군인', role: 'extra', title: '청년내일저축계좌 군인 현역 복무 중에도 가입할 수 있나요', content: '직업군인 가능·병사 조건부.' },
+  { slug: '중도해지', role: 'extra', title: '청년내일저축계좌 중도해지 패널티 정부지원금 환수 총정리', content: '중도해지 시 정부지원금 전액 환수.' },
+  { slug: '신청기간', role: 'apply', title: '청년내일저축계좌 2026 신청기간 신청방법 복지로 총정리', content: '5월 4일~20일, 복지로 온라인 신청.' },
   { slug: 'amount', role: 'amount', title: '정부 월 30만원 × 36개월 = 1,080만원', content: '만기 총 1,440만원+.' },
   { slug: 'eligibility', role: 'eligibility', title: '만 15~39세, 중위소득 50% 이하', content: '월 소득 10만원 이상 必.' },
   { slug: 'apply', role: 'apply', title: '5월 4~20일 복지로·행정복지센터', content: '근로증빙 지참.' },

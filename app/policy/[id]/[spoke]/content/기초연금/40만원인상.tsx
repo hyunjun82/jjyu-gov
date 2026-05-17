@@ -84,7 +84,7 @@ function Content() {
       <div className="ad-slot">광고 영역</div>
 
       <section className="detail-card" id="low-income-40">
-        <h2 className="detail-card-head">2026년 저소득 어르신 40만원 — 누가 받나요?</h2>
+        <h2 className="detail-card-head">40만원 받으려면 어떤 조건이어야 하나</h2>
         <div className="detail-card-body">
           <p style={{ lineHeight: 1.8 }}>
             2026년에 월 40만원을 받는 어르신은 <strong>기초생활수급자(생계급여 수급 대상)</strong>이면서
@@ -132,9 +132,9 @@ function Content() {
 }
 
 export const 금액인상SpokeContent: SpokeData = {
-  h1: '기초연금 2026 얼마 40만원 언제부터 인상 로드맵 총정리',
+  h1: '2026년 기초연금 40만원 누가 먼저 받나 | 저소득 우선 지급과 2027년 전체 확대',
   breadcrumb: '인상 금액',
-  description: '2026년 기초연금은 기준연금액 349,700원이며, 생계급여 수급 저소득 어르신은 40만원입니다. 2027년 전체 수급자 40만원 확대 예정. 기초연금 60만원은 아직 확정된 계획이 없습니다.',
+  description: '2026년 기초연금 40만원은 생계급여 수급 저소득 어르신부터 우선 지급됩니다. 일반 수급자는 349,700원. 2027년에 소득 하위 70% 전체로 40만원 확대 예정. 60만원 인상은 현재 확정 계획 없음.',
   datePublished: '2026-05-17T09:00:00+09:00',
   dateModified: '2026-05-17T09:00:00+09:00',
   Content,
