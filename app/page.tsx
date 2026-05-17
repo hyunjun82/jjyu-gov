@@ -224,4 +224,9 @@ export default function Home() {
                 <span className="notice-date">{n.date}</span>
               </div>
             ))}
-         
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
