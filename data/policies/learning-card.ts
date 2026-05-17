@@ -230,4 +230,9 @@ export const learningcardPolicy = {
   ],
 };
 
-export const learningcardSpokes = [];
+export const learningcardSpokes = [
+  { slug: '지원금액',    role: 'amount',  title: '내일배움카드 300만원에서 500만원까지 | 추가 지원 조건과 자기부담금 15~55%' },
+  { slug: '사용처',      role: 'usage',   title: '내일배움카드 사용처 어디까지 되나 | AI·자격증·외국어 가능, 운전면허는 안 돼' },
+  { slug: '재직자조건',  role: 'apply',   title: '재직자도 내일배움카드 받을 수 있나 | 공무원 제외 목록과 재직자·실업자 차이' },
+  { slug: '실업급여병행', role: 'overlap', title: '실업급여 받는 중에 내일배움카드 쓰면 구직활동으로 인정되나' },
+];

@@ -255,11 +255,8 @@ export const parentAllowancePolicy = {
 };
 
 export const parentAllowanceSpokes = [
-  { slug: '0세-100만원', title: '0세 100만원 지급 상세' },
-  { slug: '1세-50만원', title: '1세 50만원 지급 상세' },
-  { slug: '어린이집-차액', title: '어린이집 이용 시 차액 계산' },
-  { slug: '신청방법', title: '복지로 온라인 신청법' },
-  { slug: '소급-60일', title: '60일 이내 소급 신청' },
-  { slug: '아이돌봄-중복', title: '아이돌봄과 중복 신청' },
-  { slug: '출생신고-원스톱', title: '출생신고 원스톱 신청' },
+  { slug: '지급금액',    role: 'amount',  title: '2026년 부모급여 0세 100만원·1세 50만원 | 아동수당 10만원 중복 받는 방법' },
+  { slug: '어린이집전환', role: 'usage',   title: '어린이집 보내면 부모급여 못 받나 | 보육료 차액 계산과 전환 기준' },
+  { slug: '신청지급일',  role: 'apply',   title: '부모급여 신청 방법과 지급일 | 출생 후 60일 기한 놓치면 소급 안 된다' },
+  { slug: '육아휴직중복', role: 'overlap', title: '육아휴직급여 받으면서 부모급여도 받을 수 있나 | 중복 수급 정리' },
 ];

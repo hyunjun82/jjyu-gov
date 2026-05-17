@@ -49,6 +49,18 @@ import { 금액인상SpokeContent }      from '@/app/policy/[id]/[spoke]/content
 import { 자동지급SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/자동지급';
 import { 개인연금감액SpokeContent }  from '@/app/policy/[id]/[spoke]/content/기초연금/개인연금감액';
 
+/* ── 부모급여 (slug: parent-allowance) ── */
+import { 부모급여지급금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/부모급여/지급금액';
+import { 어린이집전환SpokeContent }       from '@/app/policy/[id]/[spoke]/content/부모급여/어린이집전환';
+import { 부모급여신청지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/부모급여/신청지급일';
+import { 육아휴직중복SpokeContent }       from '@/app/policy/[id]/[spoke]/content/부모급여/육아휴직중복';
+
+/* ── 국민내일배움카드 (slug: learning-card) ── */
+import { 지원금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/내일배움카드/지원금액';
+import { 사용처SpokeContent }     from '@/app/policy/[id]/[spoke]/content/내일배움카드/사용처';
+import { 재직자조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/재직자조건';
+import { 실업급여병행SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/실업급여병행';
+
 /* ── 육아휴직급여 (slug: parental-leave-pay) ── */
 import { 급여계산SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/급여계산';
 import { 부모함께SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/6+6부모';
@@ -95,6 +107,20 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '자발적퇴사': 자발적퇴사SpokeContent,
     '재수급':     재수급SpokeContent,
     '알바단기':   알바단기SpokeContent,
+  },
+
+  'parent-allowance': {
+    '지급금액':    부모급여지급금액SpokeContent,
+    '어린이집전환': 어린이집전환SpokeContent,
+    '신청지급일':  부모급여신청지급일SpokeContent,
+    '육아휴직중복': 육아휴직중복SpokeContent,
+  },
+
+  'learning-card': {
+    '지원금액':    지원금액SpokeContent,
+    '사용처':      사용처SpokeContent,
+    '재직자조건':  재직자조건SpokeContent,
+    '실업급여병행': 실업급여병행SpokeContent,
   },
 
   'parental-leave-pay': {
