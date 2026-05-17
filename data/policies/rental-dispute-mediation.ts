@@ -109,4 +109,7 @@ export const rentalDisputeMediationPolicy = {
 export const rentalDisputeMediationSpokes = [
   { slug: 'scope', role: 'usage', title: '보증금·임대료·계약해지 분쟁 조정', content: '소송 없이 60일 내.' },
   { slug: 'apply', role: 'apply', title: '주택: hldcc.or.kr / 상가: adrhome.reb.or.kr', content: '방문·온라인 신청.' },
-  { slug: 'period', role: 'extra', title: '60일 이내 처리, 소송�
+  { slug: 'period', role: 'extra', title: '60일 이내 처리, 소송보다 훨씬 빠름', content: '수수료 1~10만원.' },
+  { slug: 'effect', role: 'extra2', title: '조정 성립 = 재판상 화해 동일 효력', content: '강제집행 가능.' },
+  { slug: 'landlord', role: 'eligibility', title: '임차인·임대인 모두 신청 가능', content: '중립적 조정.' },
+];

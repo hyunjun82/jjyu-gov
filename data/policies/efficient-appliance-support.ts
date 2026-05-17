@@ -321,4 +321,6 @@ export const efficientApplianceSupportSpokes: SpokeData[] = [
     role: 'prerequisite',
     title: '전기요금 복지할인 신청 방법 — 주민센터·한전 지사',
     content:
-      '전기요금 복지할인은 읍·면·동 주민센터나 한전 지사에서 신청.
+      '전기요금 복지할인은 읍·면·동 주민센터나 한전 지사에서 신청. 복지할인이 전기요금에 반영된 후 고효율가전 구매지원도 신청 가능합니다.',
+  },
+];

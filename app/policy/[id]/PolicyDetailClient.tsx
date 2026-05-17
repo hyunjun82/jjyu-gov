@@ -525,4 +525,47 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                   ))}
                 </div>
                 <QABox label="검수 안내">
-                  <p style={{ margin: 0
+                  <p style={{ margin: 0 }}>
+                    마지막 검수: <Hi>{d.dateModified?.slice(0, 10).replace(/-/g, '.')}</Hi>
+                  </p>
+                  <p style={{ margin: '6px 0 0', fontSize: 12, color: '#6E6E6E' }}>
+                    본 페이지는 정부 공식 사이트가 아니며, 정보를 정리한 안내입니다. 실제 자격·금액은 정부 공식 채널을 따릅니다.
+                  </p>
+                </QABox>
+              </QACard>
+            )}
+
+            {/* 관련 정책 */}
+            {d.related && d.related.length > 0 && (
+              <section className="detail-card" id="related">
+                <h2 className="detail-card-head">관련 정책 더보기</h2>
+                {d.related.map((r: any, i: number) => (
+                  <Link href={`/policy/${r.id}`} key={i} className="related-item">
+                    <div className="rel-info">
+                      <div style={{ marginBottom: 4 }}>
+                        <span className={`badge ${r.cat === '지원금' ? 'badge-fund' : 'badge-refund'}`}>
+                          {r.cat}
+                        </span>
+                      </div>
+                      <div className="rel-title">{r.title}</div>
+                    </div>
+                    <ChevronRight size={16} style={{ color: 'var(--text-muted)', flexShrink: 0 }} />
+                  </Link>
+                ))}
+              </section>
+            )}
+
+          </article>
+
+          <PolicySidebar
+            policyId={d.id}
+            policyTitle={d.title.replace(/^2026\s*/, '')}
+            spokes={spokeList}
+            applyUrl={d.applyUrl}
+          />
+
+        </div>
+      </div>
+    </main>
+  );
+}

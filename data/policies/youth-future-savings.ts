@@ -295,4 +295,6 @@ export const youthFutureSavingsSpokes = [
   { slug: '소득없으면', title: '소득 없으면 가입 가능?' },
   { slug: '은행별-금리', title: '취급 금융기관 (5월 확정)' },
   { slug: '신청방법', title: '비대면 앱 3분 신청' },
-  { slug: '납입금액', title: '월 1만~50만원 최�
+  { slug: '납입금액', title: '월 1만~50만원 최적 납입' },
+  { slug: '기여금-계산', title: '6% vs 12% 매칭 계산' },
+];
