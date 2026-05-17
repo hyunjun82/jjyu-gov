@@ -13,7 +13,9 @@
     "gov-write": "npx tsx scripts/gov-write.ts",
     "collect": "npx tsx scripts/collect-multi-source.ts",
     "extract": "npx tsx scripts/extract-policy.ts",
-    "batch": "npx tsx scripts/batch-gov-write.ts"
+    "batch": "npx tsx scripts/batch-gov-write.ts",
+    "check": "python3 scripts/check-quality.py",
+    "check:all": "python3 scripts/check-quality.py"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

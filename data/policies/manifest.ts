@@ -39,6 +39,19 @@ import { seominFinancialCenterPolicy, seominFinancialCenterSpokes } from './seom
 import { energyVoucherPolicy, energyVoucherSpokes } from './energy-voucher';
 import { illegalLoanPreventionPolicy, illegalLoanPreventionSpokes } from './illegal-loan-prevention';
 import { basicLivelihoodAllowancePolicy, basicLivelihoodAllowanceSpokes } from './basic-livelihood-allowance';
+import { jobSeekerBenefitPolicy, jobSeekerBenefitSpokes } from './job-seeker-benefit';
+import { unemploymentCreditPolicy, unemploymentCreditSpokes } from './unemployment-credit';
+import { durunuriSocialInsurancePolicy, durunuriSocialInsuranceSpokes } from './durunuri-social-insurance';
+import { housingBenefitPolicy, housingBenefitSpokes } from './housing-benefit';
+import { homeEquityPensionPolicy, homeEquityPensionSpokes } from './home-equity-pension';
+import { publicHousingSalePolicy, publicHousingSaleSpokes } from './public-housing-sale';
+import { publicRentalHousingPolicy, publicRentalHousingSpokes } from './public-rental-housing';
+import { homeImprovementSupportPolicy, homeImprovementSupportSpokes } from './home-improvement-support';
+import { sportsClassVoucherPolicy, sportsClassVoucherSpokes } from './sports-class-voucher';
+import { artistActivityGrantPolicy, artistActivityGrantSpokes } from './artist-activity-grant';
+import { youthCultureArtsPassPolicy, youthCultureArtsPassSpokes } from './youth-culture-arts-pass';
+import { cancerPatientMedicalAidPolicy, cancerPatientMedicalAidSpokes } from './cancer-patient-medical-aid';
+import { usedAppliancePickupPolicy, usedAppliancePickupSpokes } from './used-appliance-pickup';
 import { kPassPolicy, kPassSpokes } from './k-pass';
 import { energyCashbackPolicy, energyCashbackSpokes } from './energy-cashback';
 import { lowIncomeEnergyEfficiencyPolicy, lowIncomeEnergyEfficiencySpokes } from './low-income-energy-efficiency';
@@ -79,6 +92,7 @@ import { kMoveSchoolPolicy, kMoveSchoolSpokes } from './k-move-school';
 import { leapLoanPolicy, leapLoanSpokes } from './leap-loan';
 import { leapSavingsPolicy, leapSavingsSpokes } from './leap-savings';
 import { learningcardPolicy, learningcardSpokes } from './learning-card';
+import { learningCardTomorrowPolicy, learningCardTomorrowSpokes } from './learning-card-tomorrow';
 import { localGiftCardPolicy, localGiftCardSpokes } from './local-gift-card';
 import { longTermCareElderlyPolicy, longTermCareElderlySpokes } from './long-term-care-elderly';
 import { lowIncomePensionPolicy, lowIncomePensionSpokes } from './low-income-pension';
@@ -308,6 +322,19 @@ export const PoliciesBySlug: Record<string, any> = {
   'energy-voucher': energyVoucherPolicy,
   'illegal-loan-prevention': illegalLoanPreventionPolicy,
   'basic-livelihood-allowance': basicLivelihoodAllowancePolicy,
+  'job-seeker-benefit': jobSeekerBenefitPolicy,
+  'unemployment-credit': unemploymentCreditPolicy,
+  'durunuri-social-insurance': durunuriSocialInsurancePolicy,
+  'housing-benefit': housingBenefitPolicy,
+  'home-equity-pension': homeEquityPensionPolicy,
+  'public-housing-sale': publicHousingSalePolicy,
+  'public-rental-housing': publicRentalHousingPolicy,
+  'home-improvement-support': homeImprovementSupportPolicy,
+  'sports-class-voucher': sportsClassVoucherPolicy,
+  'artist-activity-grant': artistActivityGrantPolicy,
+  'youth-culture-arts-pass': youthCultureArtsPassPolicy,
+  'cancer-patient-medical-aid': cancerPatientMedicalAidPolicy,
+  'used-appliance-pickup': usedAppliancePickupPolicy,
   'k-pass': kPassPolicy,
   'energy-cashback': energyCashbackPolicy,
   'low-income-energy-efficiency': lowIncomeEnergyEfficiencyPolicy,
@@ -350,6 +377,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'leap-loan': leapLoanPolicy,
   'leap-savings': leapSavingsPolicy,
   'learning-card': learningcardPolicy,
+  'learning-card-tomorrow': learningCardTomorrowPolicy,
   'local-gift-card': localGiftCardPolicy,
   'long-term-care-elderly': longTermCareElderlyPolicy,
   'low-income-pension': lowIncomePensionPolicy,
@@ -580,6 +608,19 @@ export const SpokesBySlug: Record<string, any[]> = {
   'energy-voucher': energyVoucherSpokes,
   'illegal-loan-prevention': illegalLoanPreventionSpokes,
   'basic-livelihood-allowance': basicLivelihoodAllowanceSpokes,
+  'job-seeker-benefit': jobSeekerBenefitSpokes,
+  'unemployment-credit': unemploymentCreditSpokes,
+  'durunuri-social-insurance': durunuriSocialInsuranceSpokes,
+  'housing-benefit': housingBenefitSpokes,
+  'home-equity-pension': homeEquityPensionSpokes,
+  'public-housing-sale': publicHousingSaleSpokes,
+  'public-rental-housing': publicRentalHousingSpokes,
+  'home-improvement-support': homeImprovementSupportSpokes,
+  'sports-class-voucher': sportsClassVoucherSpokes,
+  'artist-activity-grant': artistActivityGrantSpokes,
+  'youth-culture-arts-pass': youthCultureArtsPassSpokes,
+  'cancer-patient-medical-aid': cancerPatientMedicalAidSpokes,
+  'used-appliance-pickup': usedAppliancePickupSpokes,
   'k-pass': kPassSpokes,
   'energy-cashback': energyCashbackSpokes,
   'low-income-energy-efficiency': lowIncomeEnergyEfficiencySpokes,
@@ -622,6 +663,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'leap-loan': leapLoanSpokes,
   'leap-savings': leapSavingsSpokes,
   'learning-card': learningcardSpokes,
+  'learning-card-tomorrow': learningCardTomorrowSpokes,
   'local-gift-card': localGiftCardSpokes,
   'long-term-care-elderly': longTermCareElderlySpokes,
   'low-income-pension': lowIncomePensionSpokes,
@@ -665,13 +707,4 @@ export const SpokesBySlug: Record<string, any[]> = {
   'veteran-support': veteranSupportSpokes,
   'whole-town-elem-care': wholeTownElemCareSpokes,
   'women-head-startup-loan': womenHeadStartupLoanSpokes,
-  'women-restart-center': womenRestartCenterSpokes,
-  'women-startup-center': womenStartupCenterSpokes,
-  'youth-asset-formation': youthAssetFormationSpokes,
-  'youth-future-savings': youthFutureSavingsSpokes,
-  'youth-housing-support': youthHousingSupportSpokes,
-  'youth-job': youthJobSpokes,
-  'youth-leap-job': youthLeapJobSpokes,
-  'youth-startup-school': youthStartupSchoolSpokes,
-  'youth-welfare': youthWelfareSpokes,
-};
+  'women-restart-center': womenRest
