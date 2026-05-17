@@ -107,6 +107,7 @@ export const youthTomorrowSavingsPolicy = {
 } as const;
 
 export const youthTomorrowSavingsSpokes = [
+  { slug: '군인', role: 'extra', title: '청년내일저축계좌 군인 현역 복무 중에도 가입할 수 있나요', content: '직업군인 가능·병사 조건부.' },
   { slug: 'amount', role: 'amount', title: '정부 월 30만원 × 36개월 = 1,080만원', content: '만기 총 1,440만원+.' },
   { slug: 'eligibility', role: 'eligibility', title: '만 15~39세, 중위소득 50% 이하', content: '월 소득 10만원 이상 必.' },
   { slug: 'apply', role: 'apply', title: '5월 4~20일 복지로·행정복지센터', content: '근로증빙 지참.' },

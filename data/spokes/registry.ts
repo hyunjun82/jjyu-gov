@@ -19,6 +19,9 @@ import { CancelSpokeContent }   from '@/app/policy/[id]/[spoke]/content/중도�
 import { ContribSpokeContent }  from '@/app/policy/[id]/[spoke]/content/기여금계산';
 import { NoIncomeSpokeContent } from '@/app/policy/[id]/[spoke]/content/소득없으면';
 
+/* ── 청년내일저축계좌 (slug: youth-tomorrow-savings) ── */
+import { 군인SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/군인';
+
 /* ── 실업급여 (slug: job-seeker-benefit) ── */
 import { 자발적퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자발적퇴사';
 
@@ -53,6 +56,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'earned-income-tax-credit': {
     '지급일': 지급일SpokeContent,
     '조회방법': 조회방법SpokeContent,
+  },
+
+  'youth-tomorrow-savings': {
+    '군인': 군인SpokeContent,
   },
 
   'job-seeker-benefit': {
