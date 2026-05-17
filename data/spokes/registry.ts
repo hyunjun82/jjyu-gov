@@ -19,6 +19,9 @@ import { CancelSpokeContent }   from '@/app/policy/[id]/[spoke]/content/중도�
 import { ContribSpokeContent }  from '@/app/policy/[id]/[spoke]/content/기여금계산';
 import { NoIncomeSpokeContent } from '@/app/policy/[id]/[spoke]/content/소득없으면';
 
+/* ── 실업급여 (slug: job-seeker-benefit) ── */
+import { 자발적퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자발적퇴사';
+
 /* ── 기초연금 (slug: basic-pension) ── */
 import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
 import { 금액SpokeContent }         from '@/app/policy/[id]/[spoke]/content/기초연금/금액';
@@ -50,6 +53,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'earned-income-tax-credit': {
     '지급일': 지급일SpokeContent,
     '조회방법': 조회방법SpokeContent,
+  },
+
+  'job-seeker-benefit': {
+    '자발적퇴사': 자발적퇴사SpokeContent,
   },
 
   'basic-pension': {

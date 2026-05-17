@@ -245,6 +245,7 @@ export const jobSeekerBenefitPolicy: PolicyData = {
 };
 
 export const jobSeekerBenefitSpokes = [
+  { slug: '자발적퇴사', title: '자발적 퇴사도 실업급여 받을 수 있나요 권고사직 기준' },
   { slug: 'eligibility', title: '수급자격 확인' },
   { slug: 'benefit-amount', title: '수급액 계산기' },
   { slug: 'apply', title: '신청 방법' },
