@@ -508,4 +508,21 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                       style={{
                         display: 'flex',
                         alignItems: 'center',
-                     
+                        gap: 10,
+                        padding: '10px 14px',
+                        background: '#F8F9FC',
+                        border: '1px solid #DDDFE8',
+                        borderRadius: 8,
+                        fontSize: 12,
+                        color: '#003D88',
+                        textDecoration: 'none',
+                        lineHeight: 1.5,
+                      }}
+                    >
+                      <span style={{ flex: 1 }}>{s.label}</span>
+                      <ChevronRight size={14} style={{ flexShrink: 0, color: '#003D88' }} />
+                    </a>
+                  ))}
+                </div>
+                <QABox label="검수 안내">
+                  <p style={{ margin: 0

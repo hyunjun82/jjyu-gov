@@ -190,4 +190,38 @@ export default function Home() {
                     <span className={`badge ${catBadge(p.cat)}`}>{catLabel(p.cat)}</span>
                     <span className="badge-dday">D-{p.dDay}</span>
                   </div>
-                  <div className="card-title"
+                  <div className="card-title">{p.title}</div>
+                  <div className="card-org">{p.org}</div>
+                </div>
+                <div className="card-right">
+                  <div
+                    className="card-deadline"
+                    style={{
+                      color:      p.dDay <= 3 ? '#E8344E' : undefined,
+                      fontWeight: p.dDay <= 3 ? 700       : undefined,
+                    }}
+                  >
+                    {p.dDay <= 3 ? '마감 임박!' : `마감까지 ${p.dDay}일`}
+                  </div>
+                  <span className="btn-primary">신청하기</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ══════ 공지사항 ══════ */}
+      <section className="section">
+        <div className="container">
+          <div className="section-head">
+            <h2>공지사항</h2>
+          </div>
+          <div className="notice-list">
+            {notices.map((n, i) => (
+              <div key={i} className="notice-item">
+                <span className="notice-title">{n.title}</span>
+                <span className="notice-date">{n.date}</span>
+              </div>
+            ))}
+         
