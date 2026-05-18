@@ -126,4 +126,8 @@ export const nationalHappinessCardSpokes = [
   { slug: 'use', role: 'usage', title: '요양기관 진료비', content: '임산부+영유아.' },
   { slug: 'apply', role: 'apply', title: '5개 카드사 - 우체국', content: '본인 명의.' },
   { slug: 'overlap', role: 'overlap', title: '첫만남·부모급여 중복 OK', content: '모두 합산.' },
-  {
+  { slug: '발급조건카드사신청', role: 'apply', title: '국민행복카드 발급 조건과 5개 카드사 신청 방법, 임신 후 즉시 신청 가능', content: '5개 카드사 선택 신청.' },
+  { slug: '23종바우처사용처잔액조회', role: 'usage', title: '국민행복카드 23종 바우처 사용처와 잔액 조회 방법 총정리', content: '23종 사용처·잔액조회.' },
+  { slug: '임신확인후발급순서', role: 'apply', title: '국민행복카드 임신 확인 후 발급 순서, 임신확인서부터 카드 수령까지', content: '임신확인서→카드 수령.' },
+  { slug: '남편명의부부중누가신청', role: 'usage', title: '국민행복카드 남편 명의로 신청 가능한지, 부부 중 누가 신청해야 하나', content: '임신부 본인 명의 원칙.' },
+];

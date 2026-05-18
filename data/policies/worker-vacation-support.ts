@@ -223,9 +223,8 @@ export const workerVacationSupportPolicy: PolicyData = {
 };
 
 export const workerVacationSupportSpokes = [
-  { slug: 'eligibility', label: '참여 대상' },
-  { slug: 'subsidy', label: '지원금 구조' },
-  { slug: 'usage', label: '포인트 사용처' },
-  { slug: 'how-to-apply', label: '신청 방법' },
-  { slug: 'tips', label: '활용 팁' },
+  { slug: '2026선착순10만명신청기간', title: '2026 선착순 10만명 신청 기간' },
+  { slug: '정부10기업10근로자20총40사용법', title: '정부10+기업10+근로자20=40만원 사용법' },
+  { slug: '중소기업재직자신청자격확인', title: '중소기업 재직자 신청 자격 확인' },
+  { slug: '휴가샵국내여행사용처환불조건', title: '휴가샵 국내여행 사용처·환불 조건' },
 ];

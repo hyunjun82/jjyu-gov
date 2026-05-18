@@ -219,10 +219,9 @@ export const newlywedHousingSupportPolicy: PolicyData = {
   ],
 };
 
-export const newlywedHousingSupportSpokes: SpokeList = [
-  { slug: 'eligibility',   label: '신청자격' },
-  { slug: 'amount',        label: '지원금액' },
-  { slug: 'how-to-apply',  label: '신청방법' },
-  { slug: 'documents',     label: '필요서류' },
-  { slug: 'faq',           label: '자주묻는질문' },
+export const newlywedHousingSupportSpokes = [
+  { slug: 'LH매입임대1순위소득자산최장14년', title: 'LH 매입임대 1순위 소득·자산 기준' },
+  { slug: '신생아특례전세대출vsLH전세임대', title: '신생아특례 vs LH 전세임대 비교' },
+  { slug: '월임대료보증금임대보증금5%', title: '월임대료·임대보증금 5% 계산법' },
+  { slug: '전세임대1자격혼인7년신청방법', title: '전세임대I 혼인 7년 이내 신청법' },
 ];

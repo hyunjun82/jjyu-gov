@@ -118,4 +118,8 @@ export const maternalNewbornCareSpokes = [
   { slug: 'apply', role: 'apply', title: '보건소 또는 복지로 - 출산 후 60일', content: '예정일 40일 전부터 가능.' },
   { slug: 'burden', role: 'usage', title: '본인 부담 - 소득·출산 유형별 차등', content: '둘째·다태아 추가 우대.' },
   { slug: 'overlap', role: 'overlap', title: '모든 출산 지원과 중복', content: '결합 활용 권장.' },
-  {
+  { slug: '2026본인부담금중위소득별', role: 'amount', title: '2026 산모신생아 건강관리 본인부담금, 중위소득별 지원 비율 총정리', content: '기초수급 전액, 150% 이하 50% 부담.' },
+  { slug: '신청기간출산후60일절차', role: 'apply', title: '산모신생아 건강관리 신청 기간, 출산 전 40일부터 출산 후 60일 이내', content: '출산 예정일 40일 전~출산 후 60일.' },
+  { slug: '쌍둥이희귀질환예외지원', role: 'eligibility', title: '산모신생아 건강관리 쌍둥이·희귀질환 예외 지원, 소득 기준 초과해도 가능', content: '쌍둥이·셋째·희귀질환 소득 기준 예외.' },
+  { slug: '산후도우미산후조리원비용비교', role: 'usage', title: '산후도우미와 산후조리원 비용 비교, 정부 지원과 사비 차이', content: '산후도우미 바우처 vs 산후조리원 사비.' },
+];

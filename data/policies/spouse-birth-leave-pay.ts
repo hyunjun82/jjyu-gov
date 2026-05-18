@@ -126,4 +126,8 @@ export const spouseBirthLeavePaySpokes = [
   { slug: 'company', role: 'usage', title: '중소 고용보험·대기업 회사', content: '20일 전기간.' },
   { slug: 'apply', role: 'apply', title: 'ei.go.kr - 1350', content: '12개월 내.' },
   { slug: 'compare', role: 'overlap', title: '육아휴직과 연속', content: '본인 선택.' },
-  {
+  { slug: '배우자출산휴가급여20일유급기준', role: 'amount', title: '배우자 출산휴가 20일 전부 유급, 통상임금 100% 지급 기준과 신청 방법', content: '20일 유급, 월 최대 160만원.' },
+  { slug: '회사지급정부지원구분', role: 'usage', title: '배우자 출산휴가 급여 회사가 부담하는지 정부가 지원하는지 구분 방법', content: '우선지원대상기업 정부, 대기업 회사.' },
+  { slug: '급여상한액우선지원신청', role: 'apply', title: '배우자 출산휴가 급여 상한액과 우선지원대상기업 기준, 고용24 신청까지', content: '상한 160만원, 고용24 신청.' },
+  { slug: '120일분할신청기한', role: 'usage', title: '배우자 출산휴가 120일 이내 3회 분할 사용, 신청 기한 놓치면 못 받는 이유', content: '120일 이내 3회, 12개월 신청기한.' },
+];

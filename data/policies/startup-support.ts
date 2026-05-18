@@ -104,9 +104,8 @@ export const startupSupportPolicy = {
 } as const;
 
 export const startupSupportSpokes = [
-  { slug: 'amount', role: 'amount', title: '단계별 5천만~3억원 - 예비/초기/도약', content: '창업 단계에 따른 차등.' },
-  { slug: 'eligibility', role: 'eligibility', title: '예비창업자~창업 7년 이내', content: '단계 자격 다름.' },
-  { slug: 'apply', role: 'apply', title: 'K-Startup 누리집 - 사업계획서 + 발표', content: '1~3월 모집 집중.' },
-  { slug: 'deeptech', role: 'usage', title: '딥테크 특화 - AI 바이오 반도체', content: '2026.1.6~27 모집.' },
-  { slug: 'overlap', role: 'overlap', title: 'TIPS와 단계별 매칭 - 사업별 중복', content: 'K-Startup 통합 확인.' },
+  { slug: '단계별비교예창패초기도약차이', title: '예창패·초기·도약 단계별 비교' },
+  { slug: '예비창업패키지최대8000만신청자격', title: '예비창업패키지 최대 8000만 자격' },
+  { slug: '창업도약패키지업력3~7년최대2억', title: '창업도약패키지 업력 3~7년 최대 2억' },
+  { slug: '청년창업사관학교만39세1억평균7천', title: '청년창업사관학교 만 39세 평균 7천' },
 ];

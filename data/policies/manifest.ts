@@ -191,6 +191,8 @@ import { schoolCoordinatorPolicy, schoolCoordinatorSpokes } from './school-coord
 import { arboretumCoordinatorPolicy, arboretumCoordinatorSpokes } from './arboretum-coordinator';
 import { forestDisasterResponsePolicy, forestDisasterResponseSpokes } from './forest-disaster-response';
 import { publicForestManagerPolicy, publicForestManagerSpokes } from './public-forest-manager';
+import { workerVacationSupportPolicy, workerVacationSupportSpokes } from './worker-vacation-support';
+import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -521,6 +523,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'arboretum-coordinator': arboretumCoordinatorPolicy,
   'forest-disaster-response': forestDisasterResponsePolicy,
   'public-forest-manager': publicForestManagerPolicy,
+  'worker-vacation-support': workerVacationSupportPolicy,
+  'newlywed-housing-support': newlywedHousingSupportPolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -852,4 +856,6 @@ export const SpokesBySlug: Record<string, any[]> = {
   'arboretum-coordinator': arboretumCoordinatorSpokes,
   'forest-disaster-response': forestDisasterResponseSpokes,
   'public-forest-manager': publicForestManagerSpokes,
+  'worker-vacation-support': workerVacationSupportSpokes,
+  'newlywed-housing-support': newlywedHousingSupportSpokes,
 };

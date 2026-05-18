@@ -308,4 +308,828 @@ import { 케이패스청년환급률30퍼센트신청방법SpokeContent } from '
 import { 케이패스2026환급률일반청년저소득SpokeContent }   from '@/app/policy/[id]/[spoke]/content/케이패스/2026환급률일반청년저소득';
 
 /* ── 주거급여 (slug: housing-benefit) ── */
-import { 주거급여1인�
+import { 주거급여1인가구소득기준임차급여SpokeContent }    from '@/app/policy/[id]/[spoke]/content/주거급여/1인가구소득기준임차급여';
+import { 주거급여기초수급자임차급여신청SpokeContent }     from '@/app/policy/[id]/[spoke]/content/주거급여/기초수급자임차급여신청';
+import { 주거급여중위소득48이하신청기준SpokeContent }     from '@/app/policy/[id]/[spoke]/content/주거급여/중위소득48이하신청기준';
+import { 주거급여임차수선유지급여비교SpokeContent }       from '@/app/policy/[id]/[spoke]/content/주거급여/임차수선유지급여비교';
+
+/* ── 배우자출산휴가급여 (slug: spouse-birth-leave-pay) ── */
+import { 배우자출산휴가급여배우자출산휴가급여20일유급기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/배우자출산휴가급여20일유급기준';
+import { 배우자출산휴가급여회사지급정부지원구분SpokeContent }           from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/회사지급정부지원구분';
+import { 배우자출산휴가급여급여상한액우선지원신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/급여상한액우선지원신청';
+import { 배우자출산휴가급여120일분할신청기한SpokeContent }             from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/120일분할신청기한';
+
+/* ── 주택연금 (slug: home-equity-pension) ── */
+import { 주택연금55세가입조건신청방법SpokeContent }   from '@/app/policy/[id]/[spoke]/content/주택연금/55세가입조건신청방법';
+import { 주택연금3억6억10억월수령액SpokeContent }    from '@/app/policy/[id]/[spoke]/content/주택연금/3억6억10억월수령액';
+import { 주택연금기초연금중복감액여부SpokeContent }  from '@/app/policy/[id]/[spoke]/content/주택연금/기초연금중복감액여부';
+import { 주택연금해지단점주의사항SpokeContent }      from '@/app/policy/[id]/[spoke]/content/주택연금/해지단점주의사항';
+
+/* ── 국민행복카드 (slug: national-happiness-card) ── */
+import { 국민행복카드발급조건카드사신청SpokeContent }       from '@/app/policy/[id]/[spoke]/content/국민행복카드/발급조건카드사신청';
+import { 국민행복카드23종바우처사용처잔액조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드/23종바우처사용처잔액조회';
+import { 국민행복카드임신확인후발급순서SpokeContent }       from '@/app/policy/[id]/[spoke]/content/국민행복카드/임신확인후발급순서';
+import { 국민행복카드남편명의부부중누가신청SpokeContent }   from '@/app/policy/[id]/[spoke]/content/국민행복카드/남편명의부부중누가신청';
+
+/* ── 재난적의료비 (slug: catastrophic-medical-expenses) ── */
+import { 재난적의료비중위소득100이하신청자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/재난적의료비/중위소득100이하신청자격';
+import { 재난적의료비지원금액본인부담50퍼센트SpokeContent }   from '@/app/policy/[id]/[spoke]/content/재난적의료비/지원금액본인부담50퍼센트';
+import { 재난적의료비암뇌혈관희귀질환신청SpokeContent }       from '@/app/policy/[id]/[spoke]/content/재난적의료비/암뇌혈관희귀질환신청';
+import { 재난적의료비본인부담상한제중복가능여부SpokeContent } from '@/app/policy/[id]/[spoke]/content/재난적의료비/본인부담상한제중복가능여부';
+
+/* ── 산모신생아건강관리 (slug: maternal-newborn-care) ── */
+import { 산모신생아건강관리2026본인부담금중위소득별SpokeContent }     from '@/app/policy/[id]/[spoke]/content/산모신생아건강관리/2026본인부담금중위소득별';
+import { 산모신생아건강관리신청기간출산후60일절차SpokeContent }       from '@/app/policy/[id]/[spoke]/content/산모신생아건강관리/신청기간출산후60일절차';
+import { 산모신생아건강관리쌍둥이희귀질환예외지원SpokeContent }       from '@/app/policy/[id]/[spoke]/content/산모신생아건강관리/쌍둥이희귀질환예외지원';
+import { 산모신생아건강관리산후도우미산후조리원비용비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/산모신생아건강관리/산후도우미산후조리원비용비교';
+
+/* ── 노인 무릎인공관절 수술 지원사업 (slug: elderly-knee-surgery) ── */
+import { 노인무릎인공관절신청자격만60세저소득기준SpokeContent }     from '@/app/policy/[id]/[spoke]/content/노인무릎인공관절/신청자격만60세저소득기준';
+import { 노인무릎인공관절수술비지원금액한쪽120만양쪽240만SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인무릎인공관절/수술비지원금액한쪽120만양쪽240만';
+import { 노인무릎인공관절신청방법보건소접수절차SpokeContent }       from '@/app/policy/[id]/[spoke]/content/노인무릎인공관절/신청방법보건소접수절차';
+import { 노인무릎인공관절건강보험후국가지원본인부담금SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인무릎인공관절/건강보험후국가지원본인부담금';
+
+/* ── 법률구조제도 (slug: legal-aid-system) ── */
+import { 법률구조제도중위소득125이하지원대상SpokeContent }           from '@/app/policy/[id]/[spoke]/content/법률구조제도/중위소득125이하지원대상';
+import { 법률구조제도무료상담신청방법전화방문온라인SpokeContent }   from '@/app/policy/[id]/[spoke]/content/법률구조제도/무료상담신청방법전화방문온라인';
+import { 법률구조제도소송대리비용무료변호사지원범위SpokeContent }   from '@/app/policy/[id]/[spoke]/content/법률구조제도/소송대리비용무료변호사지원범위';
+import { 법률구조제도법률구조공단vs법률홈닥터vs마을변호사SpokeContent } from '@/app/policy/[id]/[spoke]/content/법률구조제도/법률구조공단vs법률홈닥터vs마을변호사';
+
+/* ── 서민금융통합지원센터 (slug: seomin-financial-center) ── */
+import { 서민금융통합지원센터이용대상신청자격SpokeContent }         from '@/app/policy/[id]/[spoke]/content/서민금융통합지원센터/이용대상신청자격';
+import { 서민금융통합지원센터예약방법앱전화온라인SpokeContent }     from '@/app/policy/[id]/[spoke]/content/서민금융통합지원센터/예약방법앱전화온라인';
+import { 서민금융통합지원센터대출종류한도서민금융상품SpokeContent } from '@/app/policy/[id]/[spoke]/content/서민금융통합지원센터/대출종류한도서민금융상품';
+import { 서민금융통합지원센터신용회복위원회채무조정비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/서민금융통합지원센터/신용회복위원회채무조정비교';
+
+/* ── 불법사금융예방대출 (slug: illegal-loan-prevention) ── */
+import { 불법사금융예방대출신청자격신용평점하위20기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/불법사금융예방대출/신청자격신용평점하위20기준';
+import { 불법사금융예방대출금리한도연9912퍼센트조건SpokeContent }   from '@/app/policy/[id]/[spoke]/content/불법사금융예방대출/금리한도연9912퍼센트조건';
+import { 불법사금융예방대출신청방법앱센터방문당일대출SpokeContent } from '@/app/policy/[id]/[spoke]/content/불법사금융예방대출/신청방법앱센터방문당일대출';
+import { 불법사금융예방대출햇살론비교신용낮은사람유리상품SpokeContent } from '@/app/policy/[id]/[spoke]/content/불법사금융예방대출/햇살론비교신용낮은사람유리상품';
+
+/* ── 가정양육수당 (slug: home-childcare-allowance) ── */
+import { 가정양육수당어린이집보내면중단보육료전환SpokeContent } from '@/app/policy/[id]/[spoke]/content/가정양육수당/어린이집보내면중단보육료전환';
+import { 가정양육수당신청방법복지로주민센터절차SpokeContent }   from '@/app/policy/[id]/[spoke]/content/가정양육수당/신청방법복지로주민센터절차';
+import { 가정양육수당부모급여종료후자동전환기준SpokeContent }   from '@/app/policy/[id]/[spoke]/content/가정양육수당/부모급여종료후자동전환기준';
+
+/* ── 에너지캐시백 (slug: energy-cashback) ── */
+import { 에너지캐시백신청방법한전홈페이지절차SpokeContent }       from '@/app/policy/[id]/[spoke]/content/에너지캐시백/신청방법한전홈페이지절차';
+import { 에너지캐시백캐시백금액계산3퍼센트절감기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지캐시백/캐시백금액계산3퍼센트절감기준';
+import { 에너지캐시백신청대상주민등록주택용기준SpokeContent }     from '@/app/policy/[id]/[spoke]/content/에너지캐시백/신청대상주민등록주택용기준';
+import { 에너지캐시백에너지바우처절전요금할인비교SpokeContent }   from '@/app/policy/[id]/[spoke]/content/에너지캐시백/에너지바우처절전요금할인비교';
+
+/* ── 암환자의료비지원 (slug: cancer-patient-medical-aid) ── */
+import { 암환자의료비지원성인중위소득120이하300만원SpokeContent }     from '@/app/policy/[id]/[spoke]/content/암환자의료비지원/성인중위소득120이하300만원';
+import { 암환자의료비지원소아암3000만원18세까지조건SpokeContent }     from '@/app/policy/[id]/[spoke]/content/암환자의료비지원/소아암3000만원18세까지조건';
+import { 암환자의료비지원신청방법보건소접수서류절차SpokeContent }     from '@/app/policy/[id]/[spoke]/content/암환자의료비지원/신청방법보건소접수서류절차';
+import { 암환자의료비지원산정특례건강보험중복지원여부SpokeContent }   from '@/app/policy/[id]/[spoke]/content/암환자의료비지원/산정특례건강보험중복지원여부';
+
+/* ── 영유아건강검진 (slug: infant-health-checkup) ── */
+import { 영유아건강검진검진시기8회차수표SpokeContent }           from '@/app/policy/[id]/[spoke]/content/영유아건강검진/검진시기8회차수표';
+import { 영유아건강검진발달이상의심시정밀검사연계SpokeContent } from '@/app/policy/[id]/[spoke]/content/영유아건강검진/발달이상의심시정밀검사연계';
+import { 영유아건강검진예약방법지정기관찾기SpokeContent }       from '@/app/policy/[id]/[spoke]/content/영유아건강검진/예약방법지정기관찾기';
+import { 영유아건강검진시기놓치면어떻게되나SpokeContent }       from '@/app/policy/[id]/[spoke]/content/영유아건강검진/시기놓치면어떻게되나';
+
+/* ── 노인틀니임플란트 (slug: medical-aid-elderly-denture) ── */
+import { 노인틀니임플란트1종2종본인부담5퍼15퍼비교SpokeContent }       from '@/app/policy/[id]/[spoke]/content/노인틀니임플란트/1종2종본인부담5퍼15퍼비교';
+import { 노인틀니임플란트임플란트평생2개신청방법SpokeContent }         from '@/app/policy/[id]/[spoke]/content/노인틀니임플란트/임플란트평생2개신청방법';
+import { 노인틀니임플란트틀니7년주기사후유지관리SpokeContent }         from '@/app/policy/[id]/[spoke]/content/노인틀니임플란트/틀니7년주기사후유지관리';
+import { 노인틀니임플란트완전틀니부분틀니임플란트종류비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인틀니임플란트/완전틀니부분틀니임플란트종류비교';
+
+/* ── 육아기근로시간단축급여 (slug: parental-work-reduction-pay) ── */
+import { 육아기근로시간단축급여급여계산10시간250만나머지160만SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아기근로시간단축급여/급여계산10시간250만나머지160만';
+import { 육아기근로시간단축급여신청방법eiGovKr절차SpokeContent }           from '@/app/policy/[id]/[spoke]/content/육아기근로시간단축급여/신청방법eiGovKr절차';
+import { 육아기근로시간단축급여육아휴직과차이출근하면서단축SpokeContent }   from '@/app/policy/[id]/[spoke]/content/육아기근로시간단축급여/육아휴직과차이출근하면서단축';
+import { 육아기근로시간단축급여자녀만12세초등6학년대상기간SpokeContent }   from '@/app/policy/[id]/[spoke]/content/육아기근로시간단축급여/자녀만12세초등6학년대상기간';
+
+/* ── 교육급여 (slug: education-benefit) ── */
+import { 교육급여초중고교육활동지원비금액표SpokeContent }     from '@/app/policy/[id]/[spoke]/content/교육급여/초중고교육활동지원비금액표';
+import { 교육급여중위소득50이하신청자격확인SpokeContent }     from '@/app/policy/[id]/[spoke]/content/교육급여/중위소득50이하신청자격확인';
+import { 교육급여신청방법복지로원클릭학교신청SpokeContent }   from '@/app/policy/[id]/[spoke]/content/교육급여/신청방법복지로원클릭학교신청';
+import { 교육급여고교학비무상교육과중복여부SpokeContent }     from '@/app/policy/[id]/[spoke]/content/교육급여/고교학비무상교육과중복여부';
+
+/* ── 영유아보육료 (slug: infant-childcare-fee) ── */
+import { 영유아보육료연령별월51만45만38만지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/영유아보육료/연령별월51만45만38만지원금액';
+import { 영유아보육료신청방법복지로행정복지센터절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/영유아보육료/신청방법복지로행정복지센터절차';
+import { 영유아보육료가정양육수당어린이집보육료차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/영유아보육료/가정양육수당어린이집보육료차이';
+import { 영유아보육료누리과정3세5세유아학비비교SpokeContent }   from '@/app/policy/[id]/[spoke]/content/영유아보육료/누리과정3세5세유아학비비교';
+
+/* ── 국민취업지원제도 (slug: national-employment-support) ── */
+import { 국민취업지원제도구직촉진수당월60만6개월조건SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/구직촉진수당월60만6개월조건';
+import { 국민취업지원제도1유형2유형자격차이신청방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/1유형2유형자격차이신청방법';
+import { 국민취업지원제도취업성공수당150만원조건SpokeContent }         from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/취업성공수당150만원조건';
+import { 국민취업지원제도국민취업지원실업급여차이비교SpokeContent }   from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/국민취업지원실업급여차이비교';
+
+/* ── 가족돌봄휴가 (slug: family-care-leave) ── */
+import { 가족돌봄휴가연10일무급유급차이신청방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/연10일무급유급차이신청방법';
+import { 가족돌봄휴가사업주거부하면어떻게하나SpokeContent }       from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/사업주거부하면어떻게하나';
+import { 가족돌봄휴가돌봄가족범위부모자녀배우자SpokeContent }     from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/돌봄가족범위부모자녀배우자';
+import { 가족돌봄휴가가족돌봄휴직과휴가차이장기단기SpokeContent } from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/가족돌봄휴직과휴가차이장기단기';
+
+/* ── 장애인활동지원 (slug: disability-activity-support) ── */
+import { 장애인활동지원신청자격만6세65세미만등록장애인SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/신청자격만6세65세미만등록장애인';
+import { 장애인활동지원급여시간2026단가월한도기준SpokeContent }       from '@/app/policy/[id]/[spoke]/content/장애인활동지원/급여시간2026단가월한도기준';
+import { 장애인활동지원노인장기요양65세이후서비스전환차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/노인장기요양65세이후서비스전환차이';
+import { 장애인활동지원신청절차주민센터수급자격결정단계SpokeContent }   from '@/app/policy/[id]/[spoke]/content/장애인활동지원/신청절차주민센터수급자격결정단계';
+
+/* ── 긴급복지지원 (slug: emergency-welfare-support) ── */
+import { 긴급복지지원생계지원금2026가구원수별금액표SpokeContent }     from '@/app/policy/[id]/[spoke]/content/긴급복지지원/생계지원금2026가구원수별금액표';
+import { 긴급복지지원신청자격실직폐업질병위기상황확인SpokeContent }   from '@/app/policy/[id]/[spoke]/content/긴급복지지원/신청자격실직폐업질병위기상황확인';
+import { 긴급복지지원신청방법주민센터129복지로절차SpokeContent }       from '@/app/policy/[id]/[spoke]/content/긴급복지지원/신청방법주민센터129복지로절차';
+import { 긴급복지지원의료주거지원생계비외추가혜택종류SpokeContent }   from '@/app/policy/[id]/[spoke]/content/긴급복지지원/의료주거지원생계비외추가혜택종류';
+
+/* ── 아동급식카드 (slug: child-meal-card) ── */
+import { 아동급식카드지원대상결식우려아동기준중위소득SpokeContent } from '@/app/policy/[id]/[spoke]/content/아동급식카드/지원대상결식우려아동기준중위소득';
+import { 아동급식카드신청방법복지로주민센터절차서류SpokeContent }   from '@/app/policy/[id]/[spoke]/content/아동급식카드/신청방법복지로주민센터절차서류';
+import { 아동급식카드사용처편의점가맹점하루지원금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/아동급식카드/사용처편의점가맹점하루지원금액';
+import { 아동급식카드방학중지원학기중차이이용방법주의SpokeContent } from '@/app/policy/[id]/[spoke]/content/아동급식카드/방학중지원학기중차이이용방법주의';
+
+/* ── 청년월세지원 (slug: youth-monthly-rent) ── */
+import { 청년월세지원신청자격만19세34세무주택독립거주SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년월세지원/신청자격만19세34세무주택독립거주';
+import { 청년월세지원지원금액월20만최대24개월480만조건SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년월세지원/지원금액월20만최대24개월480만조건';
+import { 청년월세지원신청방법복지로서울주거포털상시신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세지원/신청방법복지로서울주거포털상시신청';
+import { 청년월세지원청년주거급여중복불가유리한선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세지원/청년주거급여중복불가유리한선택기준';
+
+/* ── 자활사업 (slug: self-sufficiency-program) ── */
+import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
+import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
+import { 자활사업종류자활근로자활기업취업지원비교SpokeContent }           from '@/app/policy/[id]/[spoke]/content/자활사업/종류자활근로자활기업취업지원비교';
+import { 자활사업참여하면기초생활수급탈락소득인정유지SpokeContent }       from '@/app/policy/[id]/[spoke]/content/자활사업/참여하면기초생활수급탈락소득인정유지';
+
+/* ── 청년내일채움공제 (slug: youth-tomorrow-filling) ── */
+import { 청년내일채움공제신청자격제조건설업중소기업청년조건SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년내일채움공제/신청자격제조건설업중소기업청년조건';
+import { 청년내일채움공제지원금액2년1200만본인기업정부적립구조SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일채움공제/지원금액2년1200만본인기업정부적립구조';
+import { 청년내일채움공제중도해지퇴사적립금환급기준손해여부SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년내일채움공제/중도해지퇴사적립금환급기준손해여부';
+import { 청년내일채움공제청년도약계좌동시가입가능여부차이점SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년내일채움공제/청년도약계좌동시가입가능여부차이점';
+
+/* ── 소상공인희망리턴패키지 (slug: small-biz-hope-return) ── */
+import { 소상공인희망리턴패키지신청자격폐업소상공인60일운영조건확인SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인희망리턴패키지/신청자격폐업소상공인60일운영조건확인';
+import { 소상공인희망리턴패키지점포철거비2026최대600만조건절차신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인희망리턴패키지/점포철거비2026최대600만조건절차신청';
+import { 소상공인희망리턴패키지취업지원전직장려수당100만원받는방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인희망리턴패키지/취업지원전직장려수당100만원받는방법';
+import { 소상공인희망리턴패키지재창업지원법률채무조정컨설팅원스톱SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인희망리턴패키지/재창업지원법률채무조정컨설팅원스톱';
+
+/* ── 노인보청기지원 (slug: elderly-hearing-aid) ── */
+import { 노인보청기지원건강보험장애인보조기기급여131만조건SpokeContent }   from '@/app/policy/[id]/[spoke]/content/노인보청기지원/건강보험장애인보조기기급여131만조건';
+import { 노인보청기지원신청절차청각장애등록급여지급단계SpokeContent }     from '@/app/policy/[id]/[spoke]/content/노인보청기지원/신청절차청각장애등록급여지급단계';
+import { 노인보청기지원본인부담건강보험의료급여1종2종차이비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인보청기지원/본인부담건강보험의료급여1종2종차이비교';
+import { 노인보청기지원지자체추가혜택지역별117만신청방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/노인보청기지원/지자체추가혜택지역별117만신청방법';
+
+/* ── 임산부친환경농산물 (slug: pregnant-eco-farm) ── */
+import { 임산부친환경농산물지원대상임신중출산후1년이내신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/지원대상임신중출산후1년이내신청자격';
+import { 임산부친환경농산물지원금액연48만정부80보조꾸러미구성SpokeContent }   from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/지원금액연48만정부80보조꾸러미구성';
+import { 임산부친환경농산물신청방법에코몰주민센터자격검증절차SpokeContent }   from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/신청방법에코몰주민센터자격검증절차';
+import { 임산부친환경농산물산모신생아건강관리중복수령가능여부SpokeContent }   from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/산모신생아건강관리중복수령가능여부';
+
+/* ── 특수형태근로자고용보험 (slug: platform-worker-insurance) ── */
+import { 특수형태근로자고용보험적용직종12개월보수80만기준해당여부SpokeContent } from '@/app/policy/[id]/[spoke]/content/특수형태근로자고용보험/적용직종12개월보수80만기준해당여부';
+import { 특수형태근로자고용보험보험료사업주절반부담두루누리지원율SpokeContent } from '@/app/policy/[id]/[spoke]/content/특수형태근로자고용보험/보험료사업주절반부담두루누리지원율';
+import { 특수형태근로자고용보험실업급여가입후받는조건금액신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/특수형태근로자고용보험/실업급여가입후받는조건금액신청방법';
+import { 특수형태근로자고용보험적용제외신청원하지않으면빠지는방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/특수형태근로자고용보험/적용제외신청원하지않으면빠지는방법';
+
+/* ──────────────────────────────────────────────
+ * 레지스트리 본체
+ * key: 정책 slug (data/policies/*.ts 의 slug 필드와 반드시 일치)
+ * ────────────────────────────────────────────── */
+
+/* ── 자영업자고용보험 (slug: self-employed-employment-insurance) ── */
+import { 자영업자고용보험7등급보험료율50~80지원기준SpokeContent }    from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/7등급보험료율50~80지원기준';
+import { 자영업자고용보험가입방법근로복지공단온라인SpokeContent }     from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/가입방법근로복지공단온라인';
+import { 자영업자고용보험직원있는사업주vs1인자영업차이SpokeContent }  from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/직원있는사업주vs1인자영업차이';
+import { 자영업자고용보험폐업후실업급여1년가입조건SpokeContent }     from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/폐업후실업급여1년가입조건';
+
+/* ── 여성새로일하기센터 (slug: saeil-women-intern) ── */
+import { 여성새로일하기센터WUP경력단절예방프로그램신청SpokeContent }  from '@/app/policy/[id]/[spoke]/content/여성새로일하기센터/WUP경력단절예방프로그램신청';
+import { 여성새로일하기센터가까운센터찾기이용절차SpokeContent }      from '@/app/policy/[id]/[spoke]/content/여성새로일하기센터/가까운센터찾기이용절차';
+import { 여성새로일하기센터경력단절직업훈련무료취업연계SpokeContent } from '@/app/policy/[id]/[spoke]/content/여성새로일하기센터/경력단절직업훈련무료취업연계';
+import { 여성새로일하기센터새일여성인턴기간급여채용연계SpokeContent } from '@/app/policy/[id]/[spoke]/content/여성새로일하기센터/새일여성인턴기간급여채용연계';
+
+/* ── 한부모가족지원 (slug: low-income-single-parent) ── */
+import { 한부모가족지원고등학교학비지원22세연장조건SpokeContent }    from '@/app/policy/[id]/[spoke]/content/한부모가족지원/고등학교학비지원22세연장조건';
+import { 한부모가족지원아동양육비월23만원소득기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/한부모가족지원/아동양육비월23만원소득기준';
+import { 한부모가족지원중복수급기초수급동시가능여부SpokeContent }    from '@/app/policy/[id]/[spoke]/content/한부모가족지원/중복수급기초수급동시가능여부';
+import { 한부모가족지원청소년한부모월37만원24세이하SpokeContent }    from '@/app/policy/[id]/[spoke]/content/한부모가족지원/청소년한부모월37만원24세이하';
+
+/* ── 근로자휴가지원 (slug: worker-vacation-support) ── */
+import { 근로자휴가지원2026선착순10만명신청기간SpokeContent }       from '@/app/policy/[id]/[spoke]/content/근로자휴가지원/2026선착순10만명신청기간';
+import { 근로자휴가지원정부10기업10근로자20총40사용법SpokeContent }  from '@/app/policy/[id]/[spoke]/content/근로자휴가지원/정부10기업10근로자20총40사용법';
+import { 근로자휴가지원중소기업재직자신청자격확인SpokeContent }      from '@/app/policy/[id]/[spoke]/content/근로자휴가지원/중소기업재직자신청자격확인';
+import { 근로자휴가지원휴가샵국내여행사용처환불조건SpokeContent }    from '@/app/policy/[id]/[spoke]/content/근로자휴가지원/휴가샵국내여행사용처환불조건';
+
+/* ── 학자금대출 (slug: income-contingent-loan) ── */
+import { 학자금대출2026금리1점7취업후상환소득폐지SpokeContent }     from '@/app/policy/[id]/[spoke]/content/학자금대출/2026금리1점7취업후상환소득폐지';
+import { 학자금대출상환기준소득3037만초과상환방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/학자금대출/상환기준소득3037만초과상환방법';
+import { 학자금대출생활비학기당200만신청방법SpokeContent }         from '@/app/policy/[id]/[spoke]/content/학자금대출/생활비학기당200만신청방법';
+import { 학자금대출일반vs취업후상환어떤걸선택SpokeContent }        from '@/app/policy/[id]/[spoke]/content/학자금대출/일반vs취업후상환어떤걸선택';
+
+/* ── 신혼부부주거지원 (slug: newlywed-housing-support) ── */
+import { 신혼부부주거지원LH매입임대1순위소득자산최장14년SpokeContent } from '@/app/policy/[id]/[spoke]/content/신혼부부주거지원/LH매입임대1순위소득자산최장14년';
+import { 신혼부부주거지원신생아특례전세대출vsLH전세임대SpokeContent } from '@/app/policy/[id]/[spoke]/content/신혼부부주거지원/신생아특례전세대출vsLH전세임대';
+import { 신혼부부주거지원월임대료보증금임대보증금5SpokeContent }     from '@/app/policy/[id]/[spoke]/content/신혼부부주거지원/월임대료보증금임대보증금5%';
+import { 신혼부부주거지원전세임대1자격혼인7년신청방법SpokeContent }  from '@/app/policy/[id]/[spoke]/content/신혼부부주거지원/전세임대1자격혼인7년신청방법';
+
+/* ── 창업지원 (slug: startup-support) ── */
+import { 창업지원단계별비교예창패초기도약차이SpokeContent }         from '@/app/policy/[id]/[spoke]/content/창업지원/단계별비교예창패초기도약차이';
+import { 창업지원예비창업패키지최대8000만신청자격SpokeContent }    from '@/app/policy/[id]/[spoke]/content/창업지원/예비창업패키지최대8000만신청자격';
+import { 창업지원창업도약패키지업력3~7년최대2억SpokeContent }     from '@/app/policy/[id]/[spoke]/content/창업지원/창업도약패키지업력3~7년최대2억';
+import { 창업지원청년창업사관학교만39세1억평균7천SpokeContent }    from '@/app/policy/[id]/[spoke]/content/창업지원/청년창업사관학교만39세1억평균7천';
+
+export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+
+  'youth-future-savings': {
+    '출시일정':     출시일정SpokeContent,
+    'vs-도약계좌':  VsLeapSpokeContent,
+    '중도해지':     CancelSpokeContent,
+    '기여금-계산':  ContribSpokeContent,
+    '소득없으면':   NoIncomeSpokeContent,
+    '대학생':       대학생SpokeContent,
+    '실수령액':     실수령액SpokeContent,
+    '이자소득세':   이자소득세SpokeContent,
+  },
+
+  'earned-income-tax-credit': {
+    '지급일': 지급일SpokeContent,
+    '조회방법': 조회방법SpokeContent,
+    '환수추징': 환수추징SpokeContent,
+    '신청기간': 신청기간SpokeContent,
+  },
+
+  'youth-tomorrow-savings': {
+    '군인':    군인SpokeContent,
+    '중도해지': 중도해지SpokeContent,
+    '신청기간': 내일저축신청기간SpokeContent,
+  },
+
+  'job-seeker-benefit': {
+    '자발적퇴사': 자발적퇴사SpokeContent,
+    '재수급':     재수급SpokeContent,
+    '알바단기':   알바단기SpokeContent,
+  },
+
+  'parent-allowance': {
+    '지급금액':    부모급여지급금액SpokeContent,
+    '어린이집전환': 어린이집전환SpokeContent,
+    '신청지급일':  부모급여신청지급일SpokeContent,
+    '육아휴직중복': 육아휴직중복SpokeContent,
+  },
+
+  'learning-card': {
+    '지원금액':    지원금액SpokeContent,
+    '사용처':      사용처SpokeContent,
+    '재직자조건':  재직자조건SpokeContent,
+    '실업급여병행': 실업급여병행SpokeContent,
+  },
+
+  'parental-leave-pay': {
+    '급여계산':  급여계산SpokeContent,
+    '6+6부모':   부모함께SpokeContent,
+    '신청방법':  육아휴직신청방법SpokeContent,
+    '회사부담':  회사부담SpokeContent,
+  },
+
+  'new-leap': {
+    '신청방법':    새도약기금신청방법SpokeContent,
+    '자격조건':    자격조건SpokeContent,
+    '채무소각':    채무소각SpokeContent,
+    '대상자조회':  대상자조회SpokeContent,
+  },
+
+  'first-meet': {
+    '사용처':    첫만남사용처SpokeContent,
+    '유효기간':  첫만남유효기간SpokeContent,
+    '신청기한':  첫만남신청기한SpokeContent,
+    '잔액조회':  첫만남잔액조회SpokeContent,
+  },
+
+  'disability-pension': {
+    '장애수당-차이': 장애수당차이SpokeContent,
+    '금액':          장애인연금금액SpokeContent,
+    '3급기준':       장애인연금3급기준SpokeContent,
+    '2026인상':      장애인연금2026인상SpokeContent,
+  },
+
+  'basic-livelihood-allowance': {
+    '소득기준': 기초수급소득기준SpokeContent,
+    '탈락조건': 기초수급탈락조건SpokeContent,
+    '65세이상': 기초수급65세이상SpokeContent,
+    '급여종류': 기초수급급여종류SpokeContent,
+  },
+
+  'energy-voucher': {
+    '사용처':      에너지바우처사용처SpokeContent,
+    '대상자확인':  에너지바우처대상자확인SpokeContent,
+    '자동신청':    에너지바우처자동신청SpokeContent,
+    '신청기간':    에너지바우처신청기간SpokeContent,
+  },
+
+  'after-school-childcare-fee': {
+    '신청방법':      방과후보육료신청방법SpokeContent,
+    '초등어린이집':  초등어린이집SpokeContent,
+    '연장보육료중복': 연장보육료중복SpokeContent,
+    '장애아대상':    장애아대상SpokeContent,
+  },
+
+  'artist-pension': {
+    '신청자격기간':  예술인연금신청자격SpokeContent,
+    '신청절차':      예술인연금신청절차SpokeContent,
+    '지역가입자':    예술인연금지역가입자SpokeContent,
+    '두루누리중복':  예술인연금두루누리SpokeContent,
+  },
+
+  'birth-care-employment-grant': {
+    '사업주신청':  출산장려금사업주신청SpokeContent,
+    '대체인력':    출산장려금대체인력SpokeContent,
+    '중복수령':    출산장려금중복수령SpokeContent,
+    '복직후지급':  출산장려금복직후지급SpokeContent,
+  },
+
+  'child-care-service': {
+    '본인부담금':    아이돌봄본인부담금SpokeContent,
+    '소득기준':      아이돌봄소득기준SpokeContent,
+    '맞벌이신청':    아이돌봄맞벌이신청SpokeContent,
+    '시간제종합형':  아이돌봄시간제종합형SpokeContent,
+  },
+
+  'child-development-account': {
+    '매칭신청':      디딤씨앗매칭신청SpokeContent,
+    '가입자격':      디딤씨앗가입자격SpokeContent,
+    '가정위탁신청':  디딤씨앗가정위탁SpokeContent,
+    '해지조건':      디딤씨앗해지조건SpokeContent,
+  },
+
+  'disabled-women-childcare': {
+    '우선입소신청':      여성장애인우선입소신청SpokeContent,
+    '정원초과우선입소':  여성장애인정원초과우선입소SpokeContent,
+    '보육료비교':        여성장애인보육료비교SpokeContent,
+    '장애아보육료기준':  여성장애인장애아보육료기준SpokeContent,
+  },
+
+  'hypertension-medical-fee': {
+    '신청절차':      고혈압당뇨신청절차SpokeContent,
+    '진료비절감':    고혈압당뇨진료비절감SpokeContent,
+    '참여지역확인':  고혈압당뇨참여지역확인SpokeContent,
+    '2026변경조건':  고혈압당뇨2026변경조건SpokeContent,
+  },
+
+  'pregnancy-medical-benefit': {
+    '지원금액신청':  임신출산지원금액신청SpokeContent,
+    '다태아지원':    임신출산다태아지원SpokeContent,
+    '잔액사용기간':  임신출산잔액사용기간SpokeContent,
+    '사용처범위':    임신출산사용처범위SpokeContent,
+  },
+
+  'childcare-infant-education': {
+    '기관별지원금':    유아무상교육기관별지원금SpokeContent,
+    '사립유치원4세':   유아무상교육사립유치원4세SpokeContent,
+    '어린이집4세확대': 유아무상교육어린이집4세확대SpokeContent,
+    '연도별일정':      유아무상교육연도별일정SpokeContent,
+  },
+
+  'community-care-center': {
+    '신청이용료':    다함께돌봄신청이용료SpokeContent,
+    '방학운영':      다함께돌봄방학운영SpokeContent,
+    '아이돌봄비교':  다함께돌봄아이돌봄비교SpokeContent,
+    '대기대안':      다함께돌봄대기대안SpokeContent,
+  },
+
+  'community-child-center': {
+    '우리동네찾기':      지역아동센터우리동네찾기SpokeContent,
+    '맞벌이돌봄서비스':  지역아동센터맞벌이돌봄서비스SpokeContent,
+    '다함께돌봄중복':    지역아동센터다함께돌봄중복SpokeContent,
+    '2026변경사항':      지역아동센터2026변경사항SpokeContent,
+  },
+
+  'crime-victim-aid': {
+    '지급금액자격':  범죄피해구조금지급금액자격SpokeContent,
+    '유족신청':      범죄피해구조금유족신청SpokeContent,
+    '2026증액기준':  범죄피해구조금2026증액기준SpokeContent,
+    '가해자있을때':  범죄피해구조금가해자있을때SpokeContent,
+  },
+
+  'crime-victim-stable': {
+    '350만원신청':    범죄피해자생활안정비350만원신청SpokeContent,
+    '5주이상치료':    범죄피해자생활안정비5주이상치료SpokeContent,
+    '구조금중복신청': 범죄피해자생활안정비구조금중복신청SpokeContent,
+    '생계위기소득기준': 범죄피해자생활안정비생계위기소득기준SpokeContent,
+  },
+
+  'crisis-youth-support': {
+    '신청자격금액':    위기청소년신청자격금액SpokeContent,
+    '보호자없는청소년': 위기청소년보호자없는청소년SpokeContent,
+    '학교밖청소년':    위기청소년학교밖청소년SpokeContent,
+    '8개분야지원':     위기청소년8개분야지원SpokeContent,
+  },
+
+  'dementia-center': {
+    '무료검사서비스':  치매안심센터무료검사서비스SpokeContent,
+    '치매증상절차':    치매안심센터치매증상절차SpokeContent,
+    '검사결과정상':    치매안심센터검사결과정상SpokeContent,
+    '2026무료서비스':  치매안심센터2026무료서비스SpokeContent,
+  },
+
+  'dementia-helpline': {
+    '의심증상전화':    치매상담콜센터의심증상전화SpokeContent,
+    '상담범위대상':    치매상담콜센터상담범위대상SpokeContent,
+    '가족돌봄스트레스': 치매상담콜센터가족돌봄스트레스SpokeContent,
+    '가족전화상담':    치매상담콜센터가족전화상담SpokeContent,
+  },
+
+  'direct-payment': {
+    '2026변경기준':  공익직불제2026변경기준SpokeContent,
+    '신청준비사항':  공익직불제신청준비사항SpokeContent,
+    '신청절차서류':  공익직불제신청절차서류SpokeContent,
+    '농외소득기준':  공익직불제농외소득기준SpokeContent,
+  },
+
+  'disability-allowance': {
+    '장애수당연금차이': 장애수당장애수당연금차이SpokeContent,
+    '성인수급자자격':   장애수당성인수급자자격SpokeContent,
+    '성인아동금액비교': 장애수당성인아동금액비교SpokeContent,
+    '차상위추가지원':   장애수당차상위추가지원SpokeContent,
+  },
+
+  'disability-child-allowance': {
+    '중증경증금액확인': 장애아동수당중증경증금액확인SpokeContent,
+    '18세이후전환':     장애아동수당18세이후전환SpokeContent,
+    '대상조건금액':     장애아동수당대상조건금액SpokeContent,
+    '아동연금차이':     장애아동수당아동연금차이SpokeContent,
+  },
+
+  'dream-start': {
+    '무료서비스내용':    드림스타트무료서비스내용SpokeContent,
+    '신청자격7대영역':   드림스타트신청자격7대영역SpokeContent,
+    '일반가구신청':      드림스타트일반가구신청SpokeContent,
+    '지역아동센터비교':  드림스타트지역아동센터비교SpokeContent,
+  },
+
+  'dv-shelter-leaver-aid': {
+    '퇴소후자립금조건':  가정폭력자립지원금퇴소후자립금조건SpokeContent,
+    '퇴소전챙길항목':    가정폭력자립지원금퇴소전챙길항목SpokeContent,
+    '유자녀추가지원':    가정폭력자립지원금유자녀추가지원SpokeContent,
+    '입소퇴소지원비교':  가정폭력자립지원금입소퇴소지원비교SpokeContent,
+  },
+
+  'elderly-continue-employ': {
+    '정년후사업주지원금': 계속고용장려금정년후사업주지원금SpokeContent,
+    '월30만원3년기준':    계속고용장려금월30만원3년기준SpokeContent,
+    '재고용신청방법':     계속고용장려금재고용신청방법SpokeContent,
+    '세가지고용방법차이': 계속고용장려금세가지고용방법차이SpokeContent,
+  },
+
+  'elderly-emergency-safety': {
+    '무료신청대상장비':   응급안전안심서비스무료신청대상장비SpokeContent,
+    '부모님응급신청절차': 응급안전안심서비스부모님응급신청절차SpokeContent,
+    '소득기준자격확인':   응급안전안심서비스소득기준자격확인SpokeContent,
+    'ICT무상설치이유':    응급안전안심서비스ICT무상설치이유SpokeContent,
+  },
+
+  'elderly-job': {
+    '2026유형별월급비교':    노인일자리2026유형별월급비교SpokeContent,
+    '60세일하고싶다면':      노인일자리60세일하고싶다면SpokeContent,
+    '공익활동사회서비스비교': 노인일자리공익활동사회서비스비교SpokeContent,
+    '노인일자리취업알선차이': 노인일자리노인일자리취업알선차이SpokeContent,
+  },
+
+  'employment-promotion': {
+    '사전신청먼저이유':      고용촉진장려금사전신청먼저이유SpokeContent,
+    '취약계층유형별지원금':  고용촉진장려금취약계층유형별지원금SpokeContent,
+    '채용지원금중복차이':    고용촉진장려금채용지원금중복차이SpokeContent,
+    '사전신청필수절차':      고용촉진장려금사전신청필수절차SpokeContent,
+  },
+
+  'dream-ladder': {
+    '저소득초중고선발기준': 꿈사다리장학사업저소득초중고선발기준SpokeContent,
+    '초등대학연계지원조건': 꿈사다리장학사업초등대학연계지원조건SpokeContent,
+    '신청자격사용처안내':   꿈사다리장학사업신청자격사용처안내SpokeContent,
+    '대학생연계여부확인':   꿈사다리장학사업대학생연계여부확인SpokeContent,
+  },
+
+  'dream-scholarship': {
+    '저소득고교해외유학조건': 드림장학금저소득고교해외유학조건SpokeContent,
+    '기초수급차상위우수학생': 드림장학금기초수급차상위우수학생SpokeContent,
+    '신청자격학업장려비':     드림장학금신청자격학업장려비SpokeContent,
+    '꿈사다리드림장학금비교': 드림장학금꿈사다리드림장학금비교SpokeContent,
+  },
+
+  'elderly-driver-safety': {
+    '65세75세교육차이':    고령운전자교통안전교육65세75세교육차이SpokeContent,
+    '면허갱신75세의무확인': 고령운전자교통안전교육면허갱신75세의무확인SpokeContent,
+    '2026온라인이수방법':   고령운전자교통안전교육2026온라인이수방법SpokeContent,
+    '65세무료75세의무비교': 고령운전자교통안전교육65세무료75세의무비교SpokeContent,
+  },
+
+  'rental-dispute-mediation': {
+    '소송없이60일분쟁해결': 임대차분쟁조정위원회소송없이60일분쟁해결SpokeContent,
+    '보증금반환조정신청':   임대차분쟁조정위원회보증금반환조정신청SpokeContent,
+    '신청자격조정절차안내': 임대차분쟁조정위원회신청자격조정절차안내SpokeContent,
+    '소송분쟁조정비교':     임대차분쟁조정위원회소송분쟁조정비교SpokeContent,
+  },
+
+  'debtor-lawyer-free-support': {
+    '불법추심변호사무료신청':      채무자대리인무료지원불법추심변호사무료신청SpokeContent,
+    '불법사금융피해자신청':        채무자대리인무료지원불법사금융피해자신청SpokeContent,
+    '신청대상최고금리초과':        채무자대리인무료지원신청대상최고금리초과SpokeContent,
+    '채무자대리인일반변호사비교':  채무자대리인무료지원채무자대리인일반변호사비교SpokeContent,
+  },
+
+  'maternity-leave-pay': {
+    '2026우선지원대상기업기준': 출산전후휴가급여2026우선지원대상기업기준SpokeContent,
+    '회사정부급여구간분리':     출산전후휴가급여회사정부급여구간분리SpokeContent,
+    '신청방법비과세계산':       출산전후휴가급여신청방법비과세계산SpokeContent,
+    '우선지원대규모기업비교':   출산전후휴가급여우선지원대규모기업비교SpokeContent,
+  },
+
+  'long-term-care-elderly': {
+    '신청대상등급기준서비스':   노인장기요양보험신청대상등급기준서비스SpokeContent,
+    '2026등급1인지지원기준':    노인장기요양보험2026등급1인지지원기준SpokeContent,
+    '치매부모장기요양신청절차': 노인장기요양보험치매부모장기요양신청절차SpokeContent,
+    '시설재가본인부담금비교':   노인장기요양보험시설재가본인부담금비교SpokeContent,
+  },
+
+  'durunuri-social-insurance': {
+    '지원대상10인미만소득기준': 두루누리사회보험지원대상10인미만소득기준SpokeContent,
+    '10인미만80%지원신청':      두루누리사회보험10인미만80퍼센트지원신청SpokeContent,
+    '2026신규가입36개월기준':   두루누리사회보험2026신규가입36개월기준SpokeContent,
+    '고용보험국민연금절감신청': 두루누리사회보험고용보험국민연금절감신청SpokeContent,
+  },
+
+  'k-pass': {
+    '신청등록카드사비교':       케이패스신청등록카드사비교SpokeContent,
+    '모두의카드환급형비교':     케이패스모두의카드환급형비교SpokeContent,
+    '청년환급률30%신청방법':    케이패스청년환급률30퍼센트신청방법SpokeContent,
+    '2026환급률일반청년저소득': 케이패스2026환급률일반청년저소득SpokeContent,
+  },
+
+  'housing-benefit': {
+    '1인가구소득기준임차급여':  주거급여1인가구소득기준임차급여SpokeContent,
+    '기초수급자임차급여신청':   주거급여기초수급자임차급여신청SpokeContent,
+    '중위소득48이하신청기준':   주거급여중위소득48이하신청기준SpokeContent,
+    '임차수선유지급여비교':     주거급여임차수선유지급여비교SpokeContent,
+  },
+
+  'spouse-birth-leave-pay': {
+    '배우자출산휴가급여20일유급기준': 배우자출산휴가급여배우자출산휴가급여20일유급기준SpokeContent,
+    '회사지급정부지원구분':           배우자출산휴가급여회사지급정부지원구분SpokeContent,
+    '급여상한액우선지원신청':         배우자출산휴가급여급여상한액우선지원신청SpokeContent,
+    '120일분할신청기한':             배우자출산휴가급여120일분할신청기한SpokeContent,
+  },
+
+  'home-equity-pension': {
+    '55세가입조건신청방법': 주택연금55세가입조건신청방법SpokeContent,
+    '3억6억10억월수령액':   주택연금3억6억10억월수령액SpokeContent,
+    '기초연금중복감액여부': 주택연금기초연금중복감액여부SpokeContent,
+    '해지단점주의사항':     주택연금해지단점주의사항SpokeContent,
+  },
+
+  'national-happiness-card': {
+    '발급조건카드사신청':       국민행복카드발급조건카드사신청SpokeContent,
+    '23종바우처사용처잔액조회': 국민행복카드23종바우처사용처잔액조회SpokeContent,
+    '임신확인후발급순서':       국민행복카드임신확인후발급순서SpokeContent,
+    '남편명의부부중누가신청':   국민행복카드남편명의부부중누가신청SpokeContent,
+  },
+
+  'catastrophic-medical-expenses': {
+    '중위소득100이하신청자격':     재난적의료비중위소득100이하신청자격SpokeContent,
+    '지원금액본인부담50퍼센트':   재난적의료비지원금액본인부담50퍼센트SpokeContent,
+    '암뇌혈관희귀질환신청':       재난적의료비암뇌혈관희귀질환신청SpokeContent,
+    '본인부담상한제중복가능여부': 재난적의료비본인부담상한제중복가능여부SpokeContent,
+  },
+
+  'maternal-newborn-care': {
+    '2026본인부담금중위소득별':     산모신생아건강관리2026본인부담금중위소득별SpokeContent,
+    '신청기간출산후60일절차':       산모신생아건강관리신청기간출산후60일절차SpokeContent,
+    '쌍둥이희귀질환예외지원':       산모신생아건강관리쌍둥이희귀질환예외지원SpokeContent,
+    '산후도우미산후조리원비용비교': 산모신생아건강관리산후도우미산후조리원비용비교SpokeContent,
+  },
+
+  'elderly-knee-surgery': {
+    '신청자격만60세저소득기준':         노인무릎인공관절신청자격만60세저소득기준SpokeContent,
+    '수술비지원금액한쪽120만양쪽240만': 노인무릎인공관절수술비지원금액한쪽120만양쪽240만SpokeContent,
+    '신청방법보건소접수절차':           노인무릎인공관절신청방법보건소접수절차SpokeContent,
+    '건강보험후국가지원본인부담금':     노인무릎인공관절건강보험후국가지원본인부담금SpokeContent,
+  },
+
+  'legal-aid-system': {
+    '중위소득125이하지원대상':           법률구조제도중위소득125이하지원대상SpokeContent,
+    '무료상담신청방법전화방문온라인':   법률구조제도무료상담신청방법전화방문온라인SpokeContent,
+    '소송대리비용무료변호사지원범위':   법률구조제도소송대리비용무료변호사지원범위SpokeContent,
+    '법률구조공단vs법률홈닥터vs마을변호사': 법률구조제도법률구조공단vs법률홈닥터vs마을변호사SpokeContent,
+  },
+
+  'seomin-financial-center': {
+    '이용대상신청자격':         서민금융통합지원센터이용대상신청자격SpokeContent,
+    '예약방법앱전화온라인':     서민금융통합지원센터예약방법앱전화온라인SpokeContent,
+    '대출종류한도서민금융상품': 서민금융통합지원센터대출종류한도서민금융상품SpokeContent,
+    '신용회복위원회채무조정비교': 서민금융통합지원센터신용회복위원회채무조정비교SpokeContent,
+  },
+
+  'illegal-loan-prevention': {
+    '신청자격신용평점하위20기준': 불법사금융예방대출신청자격신용평점하위20기준SpokeContent,
+    '금리한도연9912퍼센트조건':   불법사금융예방대출금리한도연9912퍼센트조건SpokeContent,
+    '신청방법앱센터방문당일대출': 불법사금융예방대출신청방법앱센터방문당일대출SpokeContent,
+    '햇살론비교신용낮은사람유리상품': 불법사금융예방대출햇살론비교신용낮은사람유리상품SpokeContent,
+  },
+
+  'basic-pension': {
+    '수급자격':          수급자격SpokeContent,
+    '금액':              금액SpokeContent,
+    '소득인정액-계산':   소득인정액계산SpokeContent,
+    '재산기준':          재산기준SpokeContent,
+    '집-있으면':         집있으면SpokeContent,
+    '신청방법':          신청방법SpokeContent,
+    '국민연금-차이':     국민연금차이SpokeContent,
+    '부부감액':          부부감액SpokeContent,
+    '감액기준':          감액기준SpokeContent,
+    '40만원인상':        금액인상SpokeContent,
+    '자동지급':          자동지급SpokeContent,
+    '개인연금감액':      개인연금감액SpokeContent,
+  },
+
+  'home-childcare-allowance': {
+    '어린이집보내면중단보육료전환': 가정양육수당어린이집보내면중단보육료전환SpokeContent,
+    '신청방법복지로주민센터절차':   가정양육수당신청방법복지로주민센터절차SpokeContent,
+    '부모급여종료후자동전환기준':   가정양육수당부모급여종료후자동전환기준SpokeContent,
+  },
+
+  'energy-cashback': {
+    '신청방법한전홈페이지절차':       에너지캐시백신청방법한전홈페이지절차SpokeContent,
+    '캐시백금액계산3퍼센트절감기준': 에너지캐시백캐시백금액계산3퍼센트절감기준SpokeContent,
+    '신청대상주민등록주택용기준':     에너지캐시백신청대상주민등록주택용기준SpokeContent,
+    '에너지바우처절전요금할인비교':   에너지캐시백에너지바우처절전요금할인비교SpokeContent,
+  },
+
+  'cancer-patient-medical-aid': {
+    '성인중위소득120이하300만원':   암환자의료비지원성인중위소득120이하300만원SpokeContent,
+    '소아암3000만원18세까지조건':   암환자의료비지원소아암3000만원18세까지조건SpokeContent,
+    '신청방법보건소접수서류절차':   암환자의료비지원신청방법보건소접수서류절차SpokeContent,
+    '산정특례건강보험중복지원여부': 암환자의료비지원산정특례건강보험중복지원여부SpokeContent,
+  },
+
+  'infant-health-checkup': {
+    '검진시기8회차수표':         영유아건강검진검진시기8회차수표SpokeContent,
+    '발달이상의심시정밀검사연계': 영유아건강검진발달이상의심시정밀검사연계SpokeContent,
+    '예약방법지정기관찾기':       영유아건강검진예약방법지정기관찾기SpokeContent,
+    '시기놓치면어떻게되나':       영유아건강검진시기놓치면어떻게되나SpokeContent,
+  },
+
+  'medical-aid-elderly-denture': {
+    '1종2종본인부담5퍼15퍼비교':       노인틀니임플란트1종2종본인부담5퍼15퍼비교SpokeContent,
+    '임플란트평생2개신청방법':         노인틀니임플란트임플란트평생2개신청방법SpokeContent,
+    '틀니7년주기사후유지관리':         노인틀니임플란트틀니7년주기사후유지관리SpokeContent,
+    '완전틀니부분틀니임플란트종류비교': 노인틀니임플란트완전틀니부분틀니임플란트종류비교SpokeContent,
+  },
+
+  'parental-work-reduction-pay': {
+    '급여계산10시간250만나머지160만': 육아기근로시간단축급여급여계산10시간250만나머지160만SpokeContent,
+    '신청방법eiGovKr절차':           육아기근로시간단축급여신청방법eiGovKr절차SpokeContent,
+    '육아휴직과차이출근하면서단축':   육아기근로시간단축급여육아휴직과차이출근하면서단축SpokeContent,
+    '자녀만12세초등6학년대상기간':   육아기근로시간단축급여자녀만12세초등6학년대상기간SpokeContent,
+  },
+
+  'education-benefit': {
+    '초중고교육활동지원비금액표':   교육급여초중고교육활동지원비금액표SpokeContent,
+    '중위소득50이하신청자격확인':   교육급여중위소득50이하신청자격확인SpokeContent,
+    '신청방법복지로원클릭학교신청': 교육급여신청방법복지로원클릭학교신청SpokeContent,
+    '고교학비무상교육과중복여부':   교육급여고교학비무상교육과중복여부SpokeContent,
+  },
+
+  'infant-childcare-fee': {
+    '연령별월51만45만38만지원금액':   영유아보육료연령별월51만45만38만지원금액SpokeContent,
+    '신청방법복지로행정복지센터절차': 영유아보육료신청방법복지로행정복지센터절차SpokeContent,
+    '가정양육수당어린이집보육료차이': 영유아보육료가정양육수당어린이집보육료차이SpokeContent,
+    '누리과정3세5세유아학비비교':     영유아보육료누리과정3세5세유아학비비교SpokeContent,
+  },
+
+  'national-employment-support': {
+    '구직촉진수당월60만6개월조건':   국민취업지원제도구직촉진수당월60만6개월조건SpokeContent,
+    '1유형2유형자격차이신청방법':     국민취업지원제도1유형2유형자격차이신청방법SpokeContent,
+    '취업성공수당150만원조건':         국민취업지원제도취업성공수당150만원조건SpokeContent,
+    '국민취업지원실업급여차이비교':   국민취업지원제도국민취업지원실업급여차이비교SpokeContent,
+  },
+
+  'family-care-leave': {
+    '연10일무급유급차이신청방법':     가족돌봄휴가연10일무급유급차이신청방법SpokeContent,
+    '사업주거부하면어떻게하나':       가족돌봄휴가사업주거부하면어떻게하나SpokeContent,
+    '돌봄가족범위부모자녀배우자':     가족돌봄휴가돌봄가족범위부모자녀배우자SpokeContent,
+    '가족돌봄휴직과휴가차이장기단기': 가족돌봄휴가가족돌봄휴직과휴가차이장기단기SpokeContent,
+  },
+
+  'disability-activity-support': {
+    '신청자격만6세65세미만등록장애인':   장애인활동지원신청자격만6세65세미만등록장애인SpokeContent,
+    '급여시간2026단가월한도기준':         장애인활동지원급여시간2026단가월한도기준SpokeContent,
+    '노인장기요양65세이후서비스전환차이': 장애인활동지원노인장기요양65세이후서비스전환차이SpokeContent,
+    '신청절차주민센터수급자격결정단계':   장애인활동지원신청절차주민센터수급자격결정단계SpokeContent,
+  },
+
+  'emergency-welfare-support': {
+    '생계지원금2026가구원수별금액표':   긴급복지지원생계지원금2026가구원수별금액표SpokeContent,
+    '신청자격실직폐업질병위기상황확인': 긴급복지지원신청자격실직폐업질병위기상황확인SpokeContent,
+    '신청방법주민센터129복지로절차':   긴급복지지원신청방법주민센터129복지로절차SpokeContent,
+    '의료주거지원생계비외추가혜택종류': 긴급복지지원의료주거지원생계비외추가혜택종류SpokeContent,
+  },
+
+  'child-meal-card': {
+    '지원대상결식우려아동기준중위소득': 아동급식카드지원대상결식우려아동기준중위소득SpokeContent,
+    '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
+    '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
+    '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'youth-monthly-rent': {
+    '신청자격만19세34세무주택독립거주':   청년월세지원신청자격만19세34세무주택독립거주SpokeContent,
+    '지원금액월20만최대24개월480만조건':   청년월세지원지원금액월20만최대24개월480만조건SpokeContent,
+    '신청방법복지로서울주거포털상시신청': 청년월세지원신청방법복지로서울주거포털상시신청SpokeContent,
+    '청년주거급여중복불가유리한선택기준': 청년월세지원청년주거급여중복불가유리한선택기준SpokeContent,
+  },
+
+  'self-sufficiency-program': {
+    '참여자격조건부수급자차상위계층신청':         자활사업참여자격조건부수급자차상위계층신청SpokeContent,
+    '급여2026근로유지형사회서비스형시장진입형': 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent,
+    '종류자활근로자활기업취업지원비교':           자활사업종류자활근로자활기업취업지원비교SpokeContent,
+    '참여하면기초생활수급탈락소득인정유지':       자활사업참여하면기초생활수급탈락소득인정유지SpokeContent,
+  },
+
+  'youth-tomorrow-filling': {
+    '신청자격제조건설업중소기업청년조건':   청년내일채움공제신청자격제조건설업중소기업청년조건SpokeContent,
+    '지원금액2년1200만본인기업정부적립구조': 청년내일채움공제지원금액2년1200만본인기업정부적립구조SpokeContent,
+    '중도해지퇴사적립금환급기준손해여부':   청년내일채움공제중도해지퇴사적립금환급기준손해여부SpokeContent,
+    '청년도약계좌동시가입가능여부차이점':   청년내일채움공제청년도약계좌동시가입가능여부차이점SpokeContent,
+  },
+
+  'small-biz-hope-return': {
+    '신청자격폐업소상공인60일운영조건확인': 소상공인희망리턴패키지신청자격폐업소상공인60일운영조건확인SpokeContent,
+    '점포철거비2026최대600만조건절차신청': 소상공인희망리턴패키지점포철거비2026최대600만조건절차신청SpokeContent,
+    '취업지원전직장려수당100만원받는방법': 소상공인희망리턴패키지취업지원전직장려수당100만원받는방법SpokeContent,
+    '재창업지원법률채무조정컨설팅원스톱': 소상공인희망리턴패키지재창업지원법률채무조정컨설팅원스톱SpokeContent,
+  },
+
+  'elderly-hearing-aid': {
+    '건강보험장애인보조기기급여131만조건':   노인보청기지원건강보험장애인보조기기급여131만조건SpokeContent,
+    '신청절차청각장애등록급여지급단계':       노인보청기지원신청절차청각장애등록급여지급단계SpokeContent,
+    '본인부담건강보험의료급여1종2종차이비교': 노인보청기지원본인부담건강보험의료급여1종2종차이비교SpokeContent,
+    '지자체추가혜택지역별117만신청방법':     노인보청기지원지자체추가혜택지역별117만신청방법SpokeContent,
+  },
+
+  'pregnant-eco-farm': {
+    '지원대상임신중출산후1년이내신청자격': 임산부친환경농산물지원대상임신중출산후1년이내신청자격SpokeContent,
+    '지원금액연48만정부80보조꾸러미구성': 임산부친환경농산물지원금액연48만정부80보조꾸러미구성SpokeContent,
+    '신청방법에코몰주민센터자격검증절차': 임산부친환경농산물신청방법에코몰주민센터자격검증절차SpokeContent,
+    '산모신생아건강관리중복수령가능여부': 임산부친환경농산물산모신생아건강관리중복수령가능여부SpokeContent,
+  },
+
+  'platform-worker-insurance': {
+    '적용직종12개월보수80만기준해당여부': 특수형태근로자고용보험적용직종12개월보수80만기준해당여부SpokeContent,
+    '보험료사업주절반부담두루누리지원율': 특수형태근로자고용보험보험료사업주절반부담두루누리지원율SpokeContent,
+    '실업급여가입후받는조건금액신청방법': 특수형태근로자고용보험실업급여가입후받는조건금액신청방법SpokeContent,
+    '적용제외신청원하지않으면빠지는방법': 특수형태근로자고용보험적용제외신청원하지않으면빠지는방법SpokeContent,
+  },
+
+
+  'self-employed-employment-insurance': {
+    '7등급보험료율50~80지원기준':  자영업자고용보험7등급보험료율50~80지원기준SpokeContent,
+    '가입방법근로복지공단온라인':   자영업자고용보험가입방법근로복지공단온라인SpokeContent,
+    '직원있는사업주vs1인자영업차이': 자영업자고용보험직원있는사업주vs1인자영업차이SpokeContent,
+    '폐업후실업급여1년가입조건':    자영업자고용보험폐업후실업급여1년가입조건SpokeContent,
+  },
+
+  'saeil-women-intern': {
+    'WUP경력단절예방프로그램신청':  여성새로일하기센터WUP경력단절예방프로그램신청SpokeContent,
+    '가까운센터찾기이용절차':       여성새로일하기센터가까운센터찾기이용절차SpokeContent,
+    '경력단절직업훈련무료취업연계':  여성새로일하기센터경력단절직업훈련무료취업연계SpokeContent,
+    '새일여성인턴기간급여채용연계':  여성새로일하기센터새일여성인턴기간급여채용연계SpokeContent,
+  },
+
+  'low-income-single-parent': {
+    '고등학교학비지원22세연장조건':  한부모가족지원고등학교학비지원22세연장조건SpokeContent,
+    '아동양육비월23만원소득기준':    한부모가족지원아동양육비월23만원소득기준SpokeContent,
+    '중복수급기초수급동시가능여부':  한부모가족지원중복수급기초수급동시가능여부SpokeContent,
+    '청소년한부모월37만원24세이하':  한부모가족지원청소년한부모월37만원24세이하SpokeContent,
+  },
+
+  'worker-vacation-support': {
+    '2026선착순10만명신청기간':       근로자휴가지원2026선착순10만명신청기간SpokeContent,
+    '정부10기업10근로자20총40사용법': 근로자휴가지원정부10기업10근로자20총40사용법SpokeContent,
+    '중소기업재직자신청자격확인':     근로자휴가지원중소기업재직자신청자격확인SpokeContent,
+    '휴가샵국내여행사용처환불조건':   근로자휴가지원휴가샵국내여행사용처환불조건SpokeContent,
+  },
+
+  'income-contingent-loan': {
+    '2026금리1점7취업후상환소득폐지':  학자금대출2026금리1점7취업후상환소득폐지SpokeContent,
+    '상환기준소득3037만초과상환방법':   학자금대출상환기준소득3037만초과상환방법SpokeContent,
+    '생활비학기당200만신청방법':        학자금대출생활비학기당200만신청방법SpokeContent,
+    '일반vs취업후상환어떤걸선택':       학자금대출일반vs취업후상환어떤걸선택SpokeContent,
+  },
+
+  'newlywed-housing-support': {
+    'LH매입임대1순위소득자산최장14년': 신혼부부주거지원LH매입임대1순위소득자산최장14년SpokeContent,
+    '신생아특례전세대출vsLH전세임대':  신혼부부주거지원신생아특례전세대출vsLH전세임대SpokeContent,
+    '월임대료보증금임대보증금5%':      신혼부부주거지원월임대료보증금임대보증금5SpokeContent,
+    '전세임대1자격혼인7년신청방법':    신혼부부주거지원전세임대1자격혼인7년신청방법SpokeContent,
+  },
+
+  'startup-support': {
+    '단계별비교예창패초기도약차이':       창업지원단계별비교예창패초기도약차이SpokeContent,
+    '예비창업패키지최대8000만신청자격':   창업지원예비창업패키지최대8000만신청자격SpokeContent,
+    '창업도약패키지업력3~7년최대2억':    창업지원창업도약패키지업력3~7년최대2억SpokeContent,
+    '청년창업사관학교만39세1억평균7천':  창업지원청년창업사관학교만39세1억평균7천SpokeContent,
+  },
+};

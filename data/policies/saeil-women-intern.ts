@@ -112,7 +112,8 @@ export const saeilWomenInternPolicy: PolicyData = {
 };
 
 export const saeilWomenInternSpokes = [
-  { slug: 'eligibility', label: '신청 자격', icon: '✅' },
-  { slug: 'apply-method', label: '신청 방법', icon: '📋' },
-  { slug: 'benefit-amount', label: '지원 내용', icon: '💰' },
+  { slug: 'WUP경력단절예방프로그램신청', title: 'W-UP클래스 경력단절 예방 신청' },
+  { slug: '가까운센터찾기이용절차', title: '가까운 센터 찾기·이용 절차' },
+  { slug: '경력단절직업훈련무료취업연계', title: '직업훈련 무료·취업 연계 과정' },
+  { slug: '새일여성인턴기간급여채용연계', title: '새일인턴 기간·급여·채용 연계' },
 ];

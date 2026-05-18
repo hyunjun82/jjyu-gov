@@ -119,9 +119,8 @@ export const lowIncomeSingleParentPolicy = {
 } as const;
 
 export const lowIncomeSingleParentSpokes = [
-  { slug: 'amount', role: 'amount', title: '저소득 한부모가족 아동양육비 핵심', content: '만 25세 이상 한부모가족 중 기준중위소득 65% 이하 가구에 자녀 1인당 월 23만원의 아동양육비를 지급하는 여성가족부 사업. 추가아동양육비 ' },
-  { slug: 'eligibility', role: 'eligibility', title: '저소득 한부모가족 아동양육비 자격', content: '만 25세 이상 한부모 + 자녀 + 기준중위소득 65% 이하' },
-  { slug: 'apply', role: 'apply', title: '저소득 한부모가족 아동양육비 신청', content: '거주지 행정복지센터' },
-  { slug: 'use', role: 'usage', title: '저소득 한부모가족 아동양육비 사용', content: '서비스 활용 안내' },
-  { slug: 'overlap', role: 'overlap', title: '저소득 한부모가족 아동양육비 중복', content: '다른 사업과 중복' },
+  { slug: '고등학교학비지원22세연장조건', title: '고등학교 학비지원 22세 연장 조건' },
+  { slug: '아동양육비월23만원소득기준', title: '아동양육비 월 23만원 소득 기준' },
+  { slug: '중복수급기초수급동시가능여부', title: '기초수급자 중복수급 가능 여부' },
+  { slug: '청소년한부모월37만원24세이하', title: '청소년한부모 월 37만원 신청' },
 ];

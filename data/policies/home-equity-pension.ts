@@ -258,4 +258,9 @@ export const homeEquityPensionSpokes: SpokeList = [
   { slug: 'eligibility',            label: '가입조건' },
   { slug: 'amount',                 label: '수령액' },
   { slug: 'how-to-apply',           label: '신청방법' },
-  { slug: 'faq',                    la
+  { slug: 'faq',                    label: '자주묻는질문' },
+  { slug: '55세가입조건신청방법',   label: '55세 가입조건·신청방법' },
+  { slug: '3억6억10억월수령액',     label: '3억·6억·10억 월수령액' },
+  { slug: '기초연금중복감액여부',   label: '기초연금 중복 여부' },
+  { slug: '해지단점주의사항',       label: '해지 단점·주의사항' },
+];

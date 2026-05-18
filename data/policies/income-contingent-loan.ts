@@ -310,68 +310,9 @@ export const incomeContingentLoanPolicy: PolicyData = {
   relatedPolicies: ['152', '84', '86'],
 };
 
-export const incomeContingentLoanSpokes: SpokeData[] = [
-  {
-    slug: 'eligibility',
-    role: 'eligibility',
-    title: '신청 자격 — 2026년 소득요건 폐지, 모든 대학생 가능',
-    content:
-      '등록금 대출: 2026년부터 소득 요건 없음, 재학 중 모든 대학·대학원생 신청 가능. 생활비: 학부 8구간 이하, 대학원 6구간 이하. 학점 C0 이상·12학점 이상 이수 필요 (장애학생 면제).',
-  },
-  {
-    slug: 'interest-rate',
-    role: 'amount',
-    title: '금리 — 연 1.7%, 6년 연속 동결',
-    content:
-      '2026학년도 금리 연 1.7%로 6년 연속 동결. 저소득층 이자 면제: 기초수급자·차상위·다자녀·5구간 이하 (2026년 7월부터 6구간 이하 확대).',
-  },
-  {
-    slug: 'loan-limit',
-    role: 'amount',
-    title: '대출 한도 — 등록금 전액 + 생활비 학기당 200만 원',
-    content:
-      '등록금 대출: 실납부 등록금 전액. 생활비 대출: 학기당 200만 원, 연간 최대 400만 원. 생활비는 학부 8구간·대학원 6구간 이하만 가능.',
-  },
-  {
-    slug: 'how-to-apply',
-    role: 'how-to-apply',
-    title: '신청 방법 — kosaf.go.kr 온라인 신청',
-    content:
-      'kosaf.go.kr 접속 또는 모바일 앱 스마트 장학금 → 학자금대출 → 취업 후 상환 선택 → 신청서 작성 → 제출. 학기별 신청 기간 확인 필수. ☎1599-2000.',
-  },
-  {
-    slug: 'repayment',
-    role: 'detail',
-    title: '상환 방식 — 소득 초과 시 국세청 자동 원천징수',
-    content:
-      '재학 중 원금 유예, 졸업 후 소득이 상환기준소득 초과 시 의무상환 시작. 국세청 원천징수 자동 방식. 자발적 조기상환 가능 (중도상환 수수료 없음).',
-  },
-  {
-    slug: 'interest-exemption',
-    role: 'detail',
-    title: '이자 면제 — 저소득층 재학 중 이자 전액 면제',
-    content:
-      '기초생활수급자, 차상위계층, 다자녀 가구, 학자금 지원 5구간 이하 학생은 재학 중 이자 전액 면제. 2026년 7월부터 6구간 이하로 확대.',
-  },
-  {
-    slug: 'vs-general',
-    role: 'detail',
-    title: '일반대출 vs 취업후상환 비교',
-    content:
-      '일반 학자금 대출: 재학 중부터 이자 납부, 졸업 후 원금 분할상환. 취업 후 상환: 소득 발생 전까지 원금 유예, 소득 기준 초과 시 자동상환. 소득 없을 때 부담 최소화.',
-  },
-  {
-    slug: 'contact',
-    role: 'contact',
-    title: '문의처 — 한국장학재단 ☎1599-2000',
-    content:
-      '한국장학재단 고객센터: ☎1599-2000 / 공식 누리집: kosaf.go.kr / ICL 전용: icl.go.kr / 운영: 평일 09:00~18:00.',
-  },
-  {
-    slug: 'precautions',
-    role: 'precaution',
-    title: '유의사항 — 학기별 신청 기간 준수·학점 요건',
-    content:
-      '학기별 신청 기간이 정해져 있으므로 기간 내 신청 필수. 직전 학기 C0 이상·12학점 이상 이수 요건 확인. 장학금 수혜 후 부족분 대출 원칙.',
-  },
+export const incomeContingentLoanSpokes = [
+  { slug: '2026금리1점7취업후상환소득폐지', title: '2026 금리 1.7% 소득조건 폐지' },
+  { slug: '상환기준소득3037만초과상환방법', title: '상환기준소득 2851만원 초과 상환' },
+  { slug: '생활비학기당200만신청방법', title: '생활비 학기당 200만원 신청' },
+  { slug: '일반vs취업후상환어떤걸선택', title: '일반 vs 취업후상환 선택 기준' },
 ];
