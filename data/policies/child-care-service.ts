@@ -126,4 +126,8 @@ export const childCareServiceSpokes = [
   { slug: 'type', role: 'usage', title: '시간제 vs 영아종일제', content: '본인 상황.' },
   { slug: 'apply', role: 'apply', title: 'idolbom.go.kr - 1577-2514', content: '매칭.' },
   { slug: 'cost', role: 'overlap', title: '본인 부담 15~90%', content: '4단계 차등.' },
+  { slug: '본인부담금', title: '아이돌봄서비스 소득 구간별 본인부담금 | 시간제 기준' },
+  { slug: '소득기준', title: '아이돌봄서비스 소득 기준 | 중위소득 75%~200% 4단계 지원' },
+  { slug: '맞벌이신청', title: '맞벌이 가구 아이돌봄서비스 신청 | 소득 합산 계산 방식' },
+  { slug: '시간제종합형', title: '아이돌봄서비스 시간제 vs 종합형 — 차이와 선택 기준' },
 ];

@@ -113,4 +113,8 @@ export const childDevelopmentAccountSpokes = [
   { slug: 'apply', role: 'apply', title: '주민센터 또는 복지로 신청', content: '신분증·통장 지참.' },
   { slug: 'maturity', role: 'usage', title: '만 18세 수령, 만 24세까지 계좌 유지', content: '학자금·주거비·창업 사용.' },
   { slug: 'donation', role: 'extra', title: '친인척·기업 후원 가능, 1:2 매칭 동일', content: '기부금 영수증 발급.' },
+  { slug: '매칭신청', title: '디딤씨앗통장 1:2 정부 매칭 구조와 신청 방법' },
+  { slug: '가입자격', title: '디딤씨앗통장 가입 자격 | 기초수급·차상위·보호대상아동 대상' },
+  { slug: '가정위탁신청', title: '가정위탁 아동 디딤씨앗통장 신청 자격과 방법' },
+  { slug: '해지조건', title: '디딤씨앗통장 중도 해지 조건 | 정부 매칭금 반환 여부' },
 ];

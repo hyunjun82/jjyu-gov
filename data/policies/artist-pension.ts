@@ -114,4 +114,8 @@ export const artistPensionSpokes = [
   { slug: 'cert', role: 'apply', title: 'kawf.kr 예술 활동 증명 발급', content: '여러 복지 기본 자격.' },
   { slug: 'change', role: 'usage', title: '직장가입 전환 시 종료', content: '재취업 시 재신청.' },
   { slug: 'overlap', role: 'overlap', title: '산재·의료비·창작금 모두 중복', content: '저소득 보험료와는 배타.' },
+  { slug: '신청자격기간', title: '예술인 국민연금 보험료 지원 | 월 최대 37,950원 · 신청 자격과 기간' },
+  { slug: '신청절차', title: '예술활동증명 완료 후 신청하는 예술인 국민연금 보험료 지원 절차' },
+  { slug: '지역가입자', title: '프리랜서 작가인데 국민연금 지역가입자라면 예술인 보험료 지원 신청 가능한가' },
+  { slug: '두루누리중복', title: '예술인 국민연금 지원과 두루누리 사회보험료 지원, 중복 신청이 되나' },
 ];

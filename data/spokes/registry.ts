@@ -103,6 +103,36 @@ import { 에너지바우처대상자확인SpokeContent } from '@/app/policy/[id]
 import { 에너지바우처자동신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/자동신청';
 import { 에너지바우처신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/신청기간';
 
+/* ── 방과후보육료 (slug: after-school-childcare-fee) ── */
+import { 방과후보육료신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/방과후보육료/신청방법';
+import { 초등어린이집SpokeContent }         from '@/app/policy/[id]/[spoke]/content/방과후보육료/초등어린이집';
+import { 연장보육료중복SpokeContent }       from '@/app/policy/[id]/[spoke]/content/방과후보육료/연장보육료중복';
+import { 장애아대상SpokeContent }           from '@/app/policy/[id]/[spoke]/content/방과후보육료/장애아대상';
+
+/* ── 예술인국민연금 (slug: artist-pension) ── */
+import { 예술인연금신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/예술인국민연금/신청자격기간';
+import { 예술인연금신청절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/예술인국민연금/신청절차';
+import { 예술인연금지역가입자SpokeContent } from '@/app/policy/[id]/[spoke]/content/예술인국민연금/지역가입자';
+import { 예술인연금두루누리SpokeContent }   from '@/app/policy/[id]/[spoke]/content/예술인국민연금/두루누리중복';
+
+/* ── 출산육아기장려금 (slug: birth-care-employment-grant) ── */
+import { 출산장려금사업주신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/출산육아기장려금/사업주신청';
+import { 출산장려금대체인력SpokeContent }   from '@/app/policy/[id]/[spoke]/content/출산육아기장려금/대체인력';
+import { 출산장려금중복수령SpokeContent }   from '@/app/policy/[id]/[spoke]/content/출산육아기장려금/중복수령';
+import { 출산장려금복직후지급SpokeContent } from '@/app/policy/[id]/[spoke]/content/출산육아기장려금/복직후지급';
+
+/* ── 아이돌봄서비스 (slug: child-care-service) ── */
+import { 아이돌봄본인부담금SpokeContent }   from '@/app/policy/[id]/[spoke]/content/아이돌봄서비스/본인부담금';
+import { 아이돌봄소득기준SpokeContent }     from '@/app/policy/[id]/[spoke]/content/아이돌봄서비스/소득기준';
+import { 아이돌봄맞벌이신청SpokeContent }   from '@/app/policy/[id]/[spoke]/content/아이돌봄서비스/맞벌이신청';
+import { 아이돌봄시간제종합형SpokeContent } from '@/app/policy/[id]/[spoke]/content/아이돌봄서비스/시간제종합형';
+
+/* ── 디딤씨앗통장 (slug: child-development-account) ── */
+import { 디딤씨앗매칭신청SpokeContent }  from '@/app/policy/[id]/[spoke]/content/디딤씨앗통장/매칭신청';
+import { 디딤씨앗가입자격SpokeContent }  from '@/app/policy/[id]/[spoke]/content/디딤씨앗통장/가입자격';
+import { 디딤씨앗가정위탁SpokeContent }  from '@/app/policy/[id]/[spoke]/content/디딤씨앗통장/가정위탁신청';
+import { 디딤씨앗해지조건SpokeContent }  from '@/app/policy/[id]/[spoke]/content/디딤씨앗통장/해지조건';
+
 /* ──────────────────────────────────────────────
  * 레지스트리 본체
  * key: 정책 slug (data/policies/*.ts 의 slug 필드와 반드시 일치)
@@ -193,6 +223,41 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '대상자확인':  에너지바우처대상자확인SpokeContent,
     '자동신청':    에너지바우처자동신청SpokeContent,
     '신청기간':    에너지바우처신청기간SpokeContent,
+  },
+
+  'after-school-childcare-fee': {
+    '신청방법':      방과후보육료신청방법SpokeContent,
+    '초등어린이집':  초등어린이집SpokeContent,
+    '연장보육료중복': 연장보육료중복SpokeContent,
+    '장애아대상':    장애아대상SpokeContent,
+  },
+
+  'artist-pension': {
+    '신청자격기간':  예술인연금신청자격SpokeContent,
+    '신청절차':      예술인연금신청절차SpokeContent,
+    '지역가입자':    예술인연금지역가입자SpokeContent,
+    '두루누리중복':  예술인연금두루누리SpokeContent,
+  },
+
+  'birth-care-employment-grant': {
+    '사업주신청':  출산장려금사업주신청SpokeContent,
+    '대체인력':    출산장려금대체인력SpokeContent,
+    '중복수령':    출산장려금중복수령SpokeContent,
+    '복직후지급':  출산장려금복직후지급SpokeContent,
+  },
+
+  'child-care-service': {
+    '본인부담금':    아이돌봄본인부담금SpokeContent,
+    '소득기준':      아이돌봄소득기준SpokeContent,
+    '맞벌이신청':    아이돌봄맞벌이신청SpokeContent,
+    '시간제종합형':  아이돌봄시간제종합형SpokeContent,
+  },
+
+  'child-development-account': {
+    '매칭신청':      디딤씨앗매칭신청SpokeContent,
+    '가입자격':      디딤씨앗가입자격SpokeContent,
+    '가정위탁신청':  디딤씨앗가정위탁SpokeContent,
+    '해지조건':      디딤씨앗해지조건SpokeContent,
   },
 
   'basic-pension': {

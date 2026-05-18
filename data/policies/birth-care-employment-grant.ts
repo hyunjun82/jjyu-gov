@@ -126,4 +126,8 @@ export const birthCareEmploymentGrantSpokes = [
   { slug: 'leave', role: 'usage', title: '육아휴직 월 30만 + 남성 10만', content: '최대 720만.' },
   { slug: 'apply', role: 'apply', title: 'ei.go.kr - 1350', content: '본인 회사 계좌.' },
   { slug: '2026', role: 'overlap', title: '10시 출근제 30만 신설', content: '본인 임금 100%.' },
+  { slug: '사업주신청', title: '직원이 육아휴직 썼을 때 사업주가 신청하는 출산육아기 고용안정장려금 정리' },
+  { slug: '대체인력', title: '육아휴직 대체인력 채용 사업주 지원금 | 월 최대 120만원 조건과 절차' },
+  { slug: '중복수령', title: '출산육아기 고용안정장려금 · 대체인력지원금 중복 수령 가능 여부' },
+  { slug: '복직후지급', title: '출산육아기 고용안정장려금 복직 후 지급 — 조건과 신청 시기' },
 ];
