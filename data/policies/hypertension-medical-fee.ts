@@ -112,4 +112,8 @@ export const hypertensionMedicalFeeSpokes = [
   { slug: 'apply', role: 'apply', title: '보건소 또는 참여 의원 방문 신청', content: '진단서 지참.' },
   { slug: 'region', role: 'extra', title: '참여 지역 확인 필수', content: '보건소 문의.' },
   { slug: 'service', role: 'usage', title: '무료 교육·상담·리콜 리마인더', content: '합병증 예방.' },
+  { slug: '신청절차', title: '고혈압 당뇨 등록관리사업 신청부터 진료비 약제비 지원받기까지' },
+  { slug: '진료비절감', title: '보건소에 고혈압 당뇨 환자로 등록하면 진료비가 얼마나 줄어드나' },
+  { slug: '참여지역확인', title: '고혈압 당뇨 등록관리사업 내 사는 지역이 참여 지역인지 확인하려면' },
+  { slug: '2026변경조건', title: '65세 제한 없어진 고혈압 당뇨 등록관리사업, 2026년 달라진 신청 조건' },
 ];

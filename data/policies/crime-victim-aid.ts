@@ -110,4 +110,8 @@ export const crimeVictimAidSpokes = [
   { slug: 'apply', role: 'apply', title: '지방검찰청 피해자보호실 신청 1577-2584', content: '서류 간소화 + 산정 내역 제공.' },
   { slug: 'vs-stable', role: 'overlap', title: '범죄피해구조금 vs 긴급 생활안정비', content: '사망 = 구조금, 5주 이상 부상 = 생활안정비.' },
   { slug: 'deadline', role: 'usage', title: '신청 기한 - 사건 인지 3년 / 발생 10년', content: '기한 도과 시 청구권 소멸 주의.' },
+  { slug: '지급금액자격', role: 'amount', title: '범죄피해자 구조금 신청 자격과 사망 장해 중상해별 지급 금액' },
+  { slug: '유족신청', role: 'eligibility', title: '피해자 본인이 아닌 유족이라면 범죄피해 구조금을 신청할 수 있는지' },
+  { slug: '2026증액기준', role: 'usage', title: '2026년 범죄피해 구조금 증액, 달라진 금액 기준과 신청 방법 정리' },
+  { slug: '가해자있을때', role: 'overlap', title: '가해자가 있는데도 국가에서 범죄피해 구조금을 받을 수 있는 경우와 없는 경우' },
 ];

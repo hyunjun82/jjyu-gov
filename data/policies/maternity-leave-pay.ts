@@ -126,4 +126,8 @@ export const maternityLeavePaySpokes = [
   { slug: 'company', role: 'usage', title: '중소 전기간·대기업 분담', content: '60일+30일.' },
   { slug: 'apply', role: 'apply', title: 'ei.go.kr - 1350', content: '12개월 내.' },
   { slug: 'compare', role: 'overlap', title: '휴가→휴직 연속', content: '본인 선택.' },
+  { slug: '2026우선지원대상기업기준', role: 'amount', title: '2026 출산전후휴가급여 우선지원대상기업 월 최대 210만원 지급 기준', content: '우선지원대상기업 기준.' },
+  { slug: '회사정부급여구간분리', role: 'usage', title: '출산휴가 90일 중 회사가 주는 구간과 정부가 지원하는 구간 어떻게 나뉘나', content: '구간 분리 안내.' },
+  { slug: '신청방법비과세계산', role: 'apply', title: '출산전후휴가급여 신청 방법과 비과세 여부, 급여 계산 방법 정리', content: '신청 방법·비과세.' },
+  { slug: '우선지원대규모기업비교', role: 'overlap', title: '우선지원대상기업과 대규모기업, 출산전후휴가급여 지급 범위 어떻게 다른가', content: '기업별 비교.' },
 ];

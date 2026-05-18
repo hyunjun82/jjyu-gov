@@ -126,4 +126,8 @@ export const longTermCareElderlySpokes = [
   { slug: 'facility', role: 'usage', title: '시설급여 - 1~2등급 요양원', content: '24시간 돌봄.' },
   { slug: 'apply', role: 'apply', title: '공단 지사 - 1577-1000', content: '30일 등급 판정.' },
   { slug: 'discount', role: 'overlap', title: '감경 대상 - 기초·차상위 0~8%', content: '자동 적용.' },
+  { slug: '신청대상등급기준서비스', role: 'apply', title: '노인장기요양보험 신청 대상과 등급 판정 기준, 집에서 받을 수 있는 서비스', content: '신청 대상 안내.' },
+  { slug: '2026등급1인지지원기준', role: 'amount', title: '2026 노인장기요양 등급 기준, 1등급부터 인지지원등급까지 한눈에', content: '등급 기준 정리.' },
+  { slug: '치매부모장기요양신청절차', role: 'apply', title: '부모님 치매 진단 받았다면 장기요양 신청부터 등급 판정까지 절차', content: '신청 절차 안내.' },
+  { slug: '시설재가본인부담금비교', role: 'amount', title: '노인장기요양 본인부담금 얼마인가, 시설급여 20%, 재가급여 15% 기준', content: '본인부담금 비교.' },
 ];

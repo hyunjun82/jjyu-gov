@@ -117,4 +117,8 @@ export const disabilityChildAllowanceSpokes = [
   { slug: 'apply', role: 'apply', title: '행정복지센터 또는 복지로', content: '보호자 명의 신청.' },
   { slug: 'vs', role: 'usage', title: '아동수당과 차이 - 중복 가능', content: '보편 vs 선별.' },
   { slug: 'transition', role: 'overlap', title: '18세 전환 - 장애수당/연금', content: '사전 상담 권장.' },
+  { slug: '중증경증금액확인', role: 'amount', title: '장애아동수당 중증과 경증 월 지급액 차이, 우리 아이 받는 금액 확인하는 방법' },
+  { slug: '18세이후전환', role: 'overlap', title: '아이가 18세가 되면 장애아동수당이 끊기는지, 성인 수당으로 어떻게 바뀌는지' },
+  { slug: '대상조건금액', role: 'eligibility', title: '2026년 장애아동수당 대상 조건과 중증·경증·소득별 월 지급액 전체 정리' },
+  { slug: '아동연금차이', role: 'overlap', title: '장애아동수당과 장애인연금, 기초수급자 가구 아동이 받을 수 있는 게 무엇인지' },
 ];

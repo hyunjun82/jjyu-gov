@@ -126,4 +126,8 @@ export const dreamStartSpokes = [
   { slug: 'case', role: 'usage', title: '1대 1 사례관리사', content: '가정 방문.' },
   { slug: 'apply', role: 'apply', title: '시군구 드림스타트 - 129', content: '가정 사정.' },
   { slug: 'compare', role: 'overlap', title: '지역아동센터와 보완', content: '함께 활용.' },
+  { slug: '무료서비스내용', role: 'usage', title: '기초수급 가정의 0세에서 12세 아이라면 드림스타트에서 받을 수 있는 무료 서비스' },
+  { slug: '신청자격7대영역', role: 'eligibility', title: '드림스타트 아동통합서비스 신청 자격과 건강 학습 사회성 7대 영역 지원 내용' },
+  { slug: '일반가구신청', role: 'eligibility', title: '취약계층 아동 드림스타트, 일반 가구 아이도 신청할 수 있는 경우와 없는 경우' },
+  { slug: '지역아동센터비교', role: 'overlap', title: '드림스타트가 지역아동센터와 다른 점, 두 곳을 동시에 이용할 수 있는지' },
 ];

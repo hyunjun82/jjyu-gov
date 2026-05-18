@@ -109,4 +109,8 @@ export const disabilityAllowanceSpokes = [
   { slug: 'apply', role: 'apply', title: '행정복지센터 또는 복지로', content: '연중 상시 신청.' },
   { slug: 'child', role: 'usage', title: '장애아동수당 - 18세 미만 최대 22만원', content: '18세 도달 시 전환.' },
   { slug: 'overlap', role: 'overlap', title: '생계급여 중복 - 장애인연금 배타', content: '기초연금 일부 조정.' },
+  { slug: '장애수당연금차이', role: 'overlap', title: '경증 장애수당과 장애인연금, 어떻게 다르고 중복 신청이 되는지' },
+  { slug: '성인수급자자격', role: 'eligibility', title: '경증 등록장애인인데 기초수급자라면 장애수당 신청 자격과 월 지급액 확인' },
+  { slug: '성인아동금액비교', role: 'amount', title: '2026년 장애수당 성인과 장애아동수당 지급 금액 비교와 신청 방법' },
+  { slug: '차상위추가지원', role: 'usage', title: '장애수당이 월 6만원인 이유와 차상위계층 장애인이 받을 수 있는 추가 지원' },
 ];

@@ -126,4 +126,4 @@ export const spouseBirthLeavePaySpokes = [
   { slug: 'company', role: 'usage', title: '중소 고용보험·대기업 회사', content: '20일 전기간.' },
   { slug: 'apply', role: 'apply', title: 'ei.go.kr - 1350', content: '12개월 내.' },
   { slug: 'compare', role: 'overlap', title: '육아휴직과 연속', content: '본인 선택.' },
-];
+  {

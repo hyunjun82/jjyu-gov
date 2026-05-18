@@ -125,4 +125,8 @@ export const communityChildCenterSpokes = [
   { slug: 'apply', role: 'apply', title: '지역 아동센터 신청', content: '거주지 행정복지센터' },
   { slug: 'use', role: 'usage', title: '지역 아동센터 사용', content: '서비스 활용 안내' },
   { slug: 'overlap', role: 'overlap', title: '지역 아동센터 중복', content: '다른 사업과 중복' },
+  { slug: '우리동네찾기', role: 'usage', title: '우리 동네 지역아동센터 찾는 방법과 이용 신청 조건' },
+  { slug: '맞벌이돌봄서비스', role: 'usage', title: '초등학생 자녀가 있는 맞벌이라면 지역아동센터에서 받을 수 있는 돌봄 서비스' },
+  { slug: '다함께돌봄중복', role: 'overlap', title: '지역아동센터와 다함께돌봄센터, 같은 아이가 두 곳을 동시에 이용할 수 있는지' },
+  { slug: '2026변경사항', role: 'usage', title: '2026년 지역아동센터 이용 대상과 지원 내용이 달라진 점' },
 ];

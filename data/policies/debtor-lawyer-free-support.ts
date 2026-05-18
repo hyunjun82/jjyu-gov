@@ -293,4 +293,8 @@ export const debtorLawyerFreeSupportSpokes: SpokeData[] = [
     title: '지원 기간 6개월 (1회 연장)',
     content: '기본 6개월 지원, 상황에 따라 1회 연장 가능. 변호사 선임 즉시 채권자 직접 연락 금지.',
   },
+  { slug: '불법추심변호사무료신청', role: 'apply', title: '불법 추심 당하고 있다면 채무자대리인 변호사 무료 신청으로 대응하는 방법' },
+  { slug: '불법사금융피해자신청', role: 'eligibility', title: '불법 사금융 피해자라면 채무자대리인 무료 지원 신청으로 변호사 받는 방법' },
+  { slug: '신청대상최고금리초과', role: 'amount', title: '채무자대리인 무료 지원 신청 대상, 법정 최고금리 연 20% 초과 여부 확인' },
+  { slug: '채무자대리인일반변호사비교', role: 'overlap', title: '채무자대리인 무료 지원 vs 일반 변호사, 비용·대상·업무 범위 어떻게 다른가' },
 ];

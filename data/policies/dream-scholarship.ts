@@ -123,4 +123,8 @@ export const dreamScholarshipSpokes = [
   { slug: 'apply', role: 'apply', title: '신청', content: '행정복지센터' },
   { slug: 'use', role: 'usage', title: '활용', content: '서비스' },
   { slug: 'overlap', role: 'overlap', title: '중복', content: '다른 사업' },
+  { slug: '저소득고교해외유학조건', role: 'eligibility', title: '드림장학금, 저소득 고등학생이 해외유학을 갈 수 있는 조건과 지원 내용' },
+  { slug: '기초수급차상위우수학생', role: 'amount', title: '기초수급·차상위 고2~3 우수 학생이라면 드림장학금으로 해외유학 가능' },
+  { slug: '신청자격학업장려비', role: 'apply', title: '드림장학금 신청 자격부터 월 학업장려비 금액과 멘토링 지원까지' },
+  { slug: '꿈사다리드림장학금비교', role: 'overlap', title: '꿈사다리 장학금과 드림장학금 어떻게 다른가, 학년과 대상 기준 비교' },
 ];

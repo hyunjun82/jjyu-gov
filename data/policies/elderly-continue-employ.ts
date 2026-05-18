@@ -109,4 +109,8 @@ export const elderlyContinueEmploySpokes = [
   { slug: 'apply', role: 'apply', title: '사업주가 고용24 신청', content: '취업규칙 + 근로자 명단.' },
   { slug: 'nonseoul', role: 'usage', title: '비수도권 2026 확대', content: '추가 우대 적용.' },
   { slug: 'worker', role: 'overlap', title: '근로자 영향 - 정년 후 고용 연장', content: '인사팀에 본 제도 활용 문의.' },
+  { slug: '정년후사업주지원금', role: 'amount', title: '고령자 계속고용장려금, 정년 지난 직원 계속 쓰면 사업주가 받는 지원금' },
+  { slug: '월30만원3년기준', role: 'usage', title: '월 30만원 최대 3년, 계속고용장려금 지원 기간과 금액 기준' },
+  { slug: '재고용신청방법', role: 'apply', title: '정년 도달한 직원 재고용 고민된다면 계속고용장려금 신청 방법' },
+  { slug: '세가지고용방법차이', role: 'overlap', title: '정년 연장, 정년 폐지, 재고용 세 가지 계속고용 방법 어떻게 다른가' },
 ];

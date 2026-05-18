@@ -268,4 +268,8 @@ export const housingBenefitSpokes: SpokeList = [
   { slug: 'amount',         label: '지원금액' },
   { slug: 'how-to-apply',   label: '신청방법' },
   { slug: 'faq',            label: '자주묻는질문' },
+  { slug: '1인가구소득기준임차급여',  label: '1인가구 임차급여' },
+  { slug: '기초수급자임차급여신청',   label: '기초수급 임차급여' },
+  { slug: '중위소득48이하신청기준',   label: '중위소득 48% 기준' },
+  { slug: '임차수선유지급여비교',     label: '임차·수선 비교' },
 ];

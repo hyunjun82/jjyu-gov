@@ -112,4 +112,8 @@ export const rentalDisputeMediationSpokes = [
   { slug: 'period', role: 'extra', title: '60일 이내 처리, 소송보다 훨씬 빠름', content: '수수료 1~10만원.' },
   { slug: 'effect', role: 'extra2', title: '조정 성립 = 재판상 화해 동일 효력', content: '강제집행 가능.' },
   { slug: 'landlord', role: 'eligibility', title: '임차인·임대인 모두 신청 가능', content: '중립적 조정.' },
+  { slug: '소송없이60일분쟁해결', role: 'usage', title: '임대차 분쟁조정위원회, 소송 없이 60일 내 전세·상가 분쟁 해결하는 방법' },
+  { slug: '보증금반환조정신청', role: 'apply', title: '전세 보증금 못 받았다면 임대차 분쟁조정위원회 조정 신청으로 해결' },
+  { slug: '신청자격조정절차안내', role: 'eligibility', title: '임대차 분쟁조정위원회 신청 자격, 수수료, 조정 절차 한눈에 정리' },
+  { slug: '소송분쟁조정비교', role: 'overlap', title: '임대차 분쟁 소송과 조정 중 어떤 게 더 유리한가, 비용·기간·효력 비교' },
 ];

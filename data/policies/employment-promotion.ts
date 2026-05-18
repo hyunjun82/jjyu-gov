@@ -113,4 +113,8 @@ export const employmentPromotionSpokes = [
   { slug: 'apply', role: 'apply', title: '고용24 채용 전 사전 신청', content: '6/12개월 사후 청구.' },
   { slug: 'quit', role: 'usage', title: '중도 퇴사 - 6개월 미만 미지급', content: '1차 후 퇴사 1회만.' },
   { slug: 'overlap', role: 'overlap', title: '동일 근로자 다른 장려금과 제한', content: '고용센터 사전 상담.' },
+  { slug: '사전신청먼저이유', role: 'apply', title: '취약계층 채용 계획 있다면 고용촉진장려금 사전 신청이 먼저인 이유' },
+  { slug: '취약계층유형별지원금', role: 'amount', title: '고용촉진장려금 지원 대상과 금액, 취약계층 유형별 1인당 얼마나 나오나' },
+  { slug: '채용지원금중복차이', role: 'overlap', title: '고용장려금, 고용촉진장려금, 채용지원금 어떻게 다르고 중복 신청 되나' },
+  { slug: '사전신청필수절차', role: 'usage', title: '취약계층 채용 장려금 사전 신청이 필수인 이유와 신청 절차' },
 ];

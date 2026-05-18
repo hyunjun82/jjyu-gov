@@ -126,4 +126,8 @@ export const elderlyDriverSafetySpokes = [
   { slug: 'online', role: 'usage', title: '온라인 2시간', content: 'trafficedu.' },
   { slug: 'apply', role: 'apply', title: 'safedriving.or.kr - 1577-1120', content: '예약.' },
   { slug: 'return', role: 'overlap', title: '자진반납 10만 인센티브', content: '본인 선택.' },
+  { slug: '65세75세교육차이', role: 'eligibility', title: '고령운전자 교통안전교육, 65세와 75세 이상 의무·권장 차이와 예약 방법' },
+  { slug: '면허갱신75세의무확인', role: 'apply', title: '운전면허 갱신 앞둔 75세 이상이라면 고령운전자 교육 이수 의무 확인' },
+  { slug: '2026온라인이수방법', role: 'usage', title: '2026 고령운전자 교통안전교육 온라인으로 이수하는 방법과 대상 기준' },
+  { slug: '65세무료75세의무비교', role: 'overlap', title: '65세 무료 권장 vs 75세 의무, 고령운전자 교통안전교육 어떻게 다른가' },
 ];

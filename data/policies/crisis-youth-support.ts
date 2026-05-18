@@ -114,4 +114,8 @@ export const crisisYouthSupportSpokes = [
   { slug: 'apply', role: 'apply', title: '1388 - 24시간 무료 상담', content: '전화·문자·카톡 가능.' },
   { slug: 'service', role: 'usage', title: '현금 + 심리상담 + 법률 자문 통합', content: '시설 연계까지.' },
   { slug: 'privacy', role: 'overlap', title: '비밀 보장 - 본인 단독 상담', content: '학대 시 부모 동의 면제.' },
+  { slug: '신청자격금액', role: 'amount', title: '위기청소년 특별지원 신청 자격과 생활비 학업지원비 8개 분야 금액 정리' },
+  { slug: '보호자없는청소년', role: 'eligibility', title: '보호자가 없거나 가출한 청소년이라면 위기청소년 특별지원을 신청하는 방법' },
+  { slug: '학교밖청소년', role: 'eligibility', title: '학교를 다니지 않는 청소년도 위기청소년 특별지원 대상에 해당하는지' },
+  { slug: '8개분야지원', role: 'usage', title: '위기청소년이 받을 수 있는 생활지원부터 법률지원까지 8개 분야 지원 내용' },
 ];

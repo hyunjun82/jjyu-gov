@@ -126,4 +126,8 @@ export const dvShelterLeaverAidSpokes = [
   { slug: 'child', role: 'usage', title: '유자녀 월 6만 18세까지', content: '자녀당.' },
   { slug: 'apply', role: 'apply', title: '1366 24시간 - 1644-6621', content: '비밀 보호.' },
   { slug: 'job', role: 'overlap', title: '새일센터·창업자금 연계', content: '완전 자립.' },
+  { slug: '퇴소후자립금조건', role: 'amount', title: '가정폭력 보호시설 퇴소 후 받는 자립지원금 금액과 신청 조건' },
+  { slug: '퇴소전챙길항목', role: 'apply', title: '보호시설 퇴소 앞두고 있다면 챙겨야 할 자립지원금 항목' },
+  { slug: '유자녀추가지원', role: 'usage', title: '퇴소자 지원금 신청 전 알아야 할 유자녀 추가 지원 여부' },
+  { slug: '입소퇴소지원비교', role: 'overlap', title: '가정폭력 피해자 지원금, 입소 중 받는 것과 퇴소 후 받는 것 어떻게 다른가' },
 ];

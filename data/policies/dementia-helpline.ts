@@ -126,4 +126,8 @@ export const dementiaHelplineSpokes = [
   { slug: 'hour', role: 'usage', title: '야간·주말·공휴일', content: '응급 우선.' },
   { slug: 'apply', role: 'apply', title: '전화 누르면 끝', content: '예약 불필요.' },
   { slug: 'compare', role: 'overlap', title: '안심센터와 보완', content: '콜+오프라인.' },
+  { slug: '의심증상전화', role: 'usage', title: '부모님이 치매가 의심될 때 바로 전화할 수 있는 무료 상담 번호와 이용 방법' },
+  { slug: '상담범위대상', role: 'usage', title: '치매상담콜센터 1899-9988에서 받을 수 있는 상담 종류와 이용 대상 범위' },
+  { slug: '가족돌봄스트레스', role: 'usage', title: '치매 가족 돌봄 스트레스를 해소하려면 콜센터 상담이 최우선 선택인 이유' },
+  { slug: '가족전화상담', role: 'usage', title: '치매 환자 본인이 아닌 가족이 전화해도 되는지, 어떤 내용을 상담할 수 있는지' },
 ];

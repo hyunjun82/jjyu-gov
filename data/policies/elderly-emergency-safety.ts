@@ -116,4 +116,8 @@ export const elderlyEmergencySafetySpokes = [
   { slug: 'apply', role: 'apply', title: '행정복지센터 또는 1566-3232', content: '현장 실사 후 무상 설치.' },
   { slug: 'emergency', role: 'usage', title: '응급 자동 감지 → 119 자동 신고', content: '낙상·화재·실신 등.' },
   { slug: 'overlap', role: 'overlap', title: '노인 복지 모두 중복 가능', content: '응급 대응 특화 보완.' },
+  { slug: '무료신청대상장비', role: 'amount', title: '독거노인 응급안전안심서비스 무료 신청 대상과 설치 장비 종류' },
+  { slug: '부모님응급신청절차', role: 'apply', title: '혼자 사는 부모님 응급상황 걱정된다면 신청 절차와 비용 확인' },
+  { slug: '소득기준자격확인', role: 'eligibility', title: '소득기준 없이 누구나 되나, 2026 응급안전안심서비스 자격 기준' },
+  { slug: 'ICT무상설치이유', role: 'usage', title: 'ICT 장비 무상 설치에 사용료까지 없는 이유와 신청 방법' },
 ];

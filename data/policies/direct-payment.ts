@@ -109,4 +109,8 @@ export const directPaymentSpokes = [
   { slug: 'apply', role: 'apply', title: '3.1~5.31 비대면 또는 행정복지센터', content: '기한 엄수 필수.' },
   { slug: 'small', role: 'usage', title: '소농직불 별도 - 정액 130만원', content: '1,000㎡ 미만 대안.' },
   { slug: 'rule', role: 'overlap', title: '준수사항 전면 시행 - 위반 시 감액', content: '의무교육 비대면 가능.' },
+  { slug: '2026변경기준', role: 'usage', title: '2026년 공익직불금 신청 대상과 농외소득 기준이 달라진 점 정리' },
+  { slug: '신청준비사항', role: 'usage', title: '농지 1,000㎡ 이상에서 직접 농사 짓는다면 공익직불금 신청 전 확인할 것들' },
+  { slug: '신청절차서류', role: 'apply', title: '기본형 공익직불금 신청부터 지급까지 농가가 준비할 서류와 절차' },
+  { slug: '농외소득기준', role: 'eligibility', title: '농외 소득이 있어도 공익직불금을 받을 수 있는지, 2026년 기준은 얼마인지' },
 ];

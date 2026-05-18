@@ -296,4 +296,4 @@ export const catastrophicMedicalExpensesSpokes: SpokeData[] = [
     title: '실손보험 차감·미용·간병비 제외',
     content: '실손보험금·지자체 지원금 차감 후 지원. 미용·성형·간병비·도수치료 등은 지원 제외.',
   },
-];
+  {

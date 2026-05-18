@@ -108,6 +108,13 @@ export const disabledWomenChildcarePolicy = {
 } as const;
 
 export const disabledWomenChildcareSpokes = [
+  { slug: '우선입소신청', title: '장애인 부모 자녀라면 어린이집 우선 입소가 되나, 1순위 자격과 신청 방법' },
+  { slug: '정원초과우선입소', title: '어린이집 정원이 다 찼는데 장애인 부모 자녀면 먼저 들어갈 수 있나' },
+  { slug: '보육료비교', title: '장애아동 보육료와 일반보육료, 지원 금액과 자격 조건이 어떻게 다른가' },
+  { slug: '장애아보육료기준', title: '장애아동 종일반 63.4만원 방과후 31.7만원, 소득과 관계없이 지원되나' },
+];
+
+export const disabledWomenChildcareSpokes = [
   { slug: 'benefit', role: 'amount', title: '우선입소 1순위 + 보육료 63.4만원', content: '소득 무관.' },
   { slug: 'eligibility', role: 'eligibility', title: '장애인 부모 자녀 또는 장애아동', content: '장애인복지카드 또는 진단서.' },
   { slug: 'apply', role: 'apply', title: '아이사랑 포털 또는 주민센터', content: '복지로 보육료 신청.' },

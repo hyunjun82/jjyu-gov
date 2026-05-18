@@ -118,4 +118,4 @@ export const maternalNewbornCareSpokes = [
   { slug: 'apply', role: 'apply', title: '보건소 또는 복지로 - 출산 후 60일', content: '예정일 40일 전부터 가능.' },
   { slug: 'burden', role: 'usage', title: '본인 부담 - 소득·출산 유형별 차등', content: '둘째·다태아 추가 우대.' },
   { slug: 'overlap', role: 'overlap', title: '모든 출산 지원과 중복', content: '결합 활용 권장.' },
-];
+  {

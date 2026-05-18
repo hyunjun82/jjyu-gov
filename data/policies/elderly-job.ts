@@ -108,4 +108,8 @@ export const elderlyJobSpokes = [
   { slug: 'apply', role: 'apply', title: '행정복지센터 또는 work24 신청', content: '연중 수시 모집.' },
   { slug: 'boomer', role: 'usage', title: '베이비붐 1955~1963생 67% 확대', content: '3만 7천개 신규.' },
   { slug: 'overlap', role: 'overlap', title: '기초연금 중복 OK - 일부 소득 반영', content: '행정복지센터 사전 확인.' },
+  { slug: '2026유형별월급비교', role: 'amount', title: '2026 노인일자리 유형별 월급 비교, 공익활동에서 시장형까지' },
+  { slug: '60세일하고싶다면', role: 'apply', title: '60세 넘겼는데 일하고 싶다면 노인일자리 신청 방법과 절차' },
+  { slug: '공익활동사회서비스비교', role: 'usage', title: '노인일자리 공익활동 월 29만원, 사회서비스형 월 76만원 누가 받나' },
+  { slug: '노인일자리취업알선차이', role: 'overlap', title: '노인일자리 vs 시니어 취업알선, 어떻게 다르고 어디 신청해야 하나' },
 ];

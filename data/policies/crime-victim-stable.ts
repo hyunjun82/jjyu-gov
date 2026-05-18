@@ -108,4 +108,8 @@ export const crimeVictimStableSpokes = [
   { slug: 'apply', role: 'apply', title: '검찰청 피해자보호실 또는 1577-2584', content: '진단서 + 사건 증빙 + 소득 증빙 제출.' },
   { slug: 'vs-aid', role: 'overlap', title: '구조금과 비교 - 사망 vs 부상', content: '같은 사건에서 각각 신청 가능.' },
   { slug: 'deadline', role: 'usage', title: '사건 인지 3년 내 - 가능한 빨리', content: '치료 종료 후 너무 늦으면 생계위기 입증 어려움.' },
+  { slug: '350만원신청', role: 'amount', title: '2026년 신설된 범죄피해자 긴급생활안정비 350만원 받는 조건과 신청 절차' },
+  { slug: '5주이상치료', role: 'eligibility', title: '5주 이상 치료가 필요한 범죄피해자라면 생계비를 따로 받을 수 있는지' },
+  { slug: '구조금중복신청', role: 'overlap', title: '범죄피해자 긴급생활안정비와 구조금, 같은 사건으로 두 가지를 함께 신청하는 방법' },
+  { slug: '생계위기소득기준', role: 'eligibility', title: '긴급생활안정비 대상이 되는 생계위기 기준, 소득 조건이 있는지 없는지' },
 ];

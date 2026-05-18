@@ -255,8 +255,7 @@ export const homeEquityPensionPolicy: PolicyData = {
 };
 
 export const homeEquityPensionSpokes: SpokeList = [
-  { slug: 'eligibility',    label: '가입조건' },
-  { slug: 'amount',         label: '수령액' },
-  { slug: 'how-to-apply',   label: '신청방법' },
-  { slug: 'faq',            label: '자주묻는질문' },
-];
+  { slug: 'eligibility',            label: '가입조건' },
+  { slug: 'amount',                 label: '수령액' },
+  { slug: 'how-to-apply',           label: '신청방법' },
+  { slug: 'faq',                    la

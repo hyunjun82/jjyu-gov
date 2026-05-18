@@ -123,4 +123,8 @@ export const dreamLadderSpokes = [
   { slug: 'apply', role: 'apply', title: '신청', content: '행정복지센터' },
   { slug: 'use', role: 'usage', title: '활용', content: '서비스' },
   { slug: 'overlap', role: 'overlap', title: '중복', content: '다른 사업' },
+  { slug: '저소득초중고선발기준', role: 'eligibility', title: '꿈사다리 장학금, 저소득층 초중고생 3,000명 선발 기준과 신청 방법' },
+  { slug: '초등대학연계지원조건', role: 'amount', title: '초등 5학년부터 대학까지 연계 지원한다면 꿈사다리 장학금 지원 조건' },
+  { slug: '신청자격사용처안내', role: 'apply', title: '복권기금 꿈사다리 장학금 신청 자격부터 학업장려비 사용처까지' },
+  { slug: '대학생연계여부확인', role: 'usage', title: '꿈사다리 장학금 대학생도 받을 수 있나, 초·중·고 선발부터 대학 연계까지' },
 ];

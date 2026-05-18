@@ -113,4 +113,8 @@ export const pregnancyMedicalBenefitSpokes = [
   { slug: 'apply', role: 'apply', title: '공단 지사 또는 협약 카드사 신청', content: '국민행복카드 발급.' },
   { slug: 'usage', role: 'usage', title: '병원·약국·영유아 2년 진료', content: '쇼핑 사용 불가.' },
   { slug: 'multiple', role: 'extra', title: '다태아 2태아 200만원·3태아 300만원', content: '임신 20주 이상 조건.' },
+  { slug: '지원금액신청', title: '국민행복카드 임신 출산 진료비, 일태아 100만원 다태아 140만원 신청 방법' },
+  { slug: '다태아지원', title: '쌍둥이 임신이면 국민행복카드를 더 받는다, 다태아 추가 지원 기준과 금액' },
+  { slug: '잔액사용기간', title: '임신 중 쓰고 남은 국민행복카드 잔액, 출산 후 아이 진료비로도 쓸 수 있나' },
+  { slug: '사용처범위', title: '국민행복카드 사용처, 약국과 한방 비급여 항목까지 되는 건가' },
 ];

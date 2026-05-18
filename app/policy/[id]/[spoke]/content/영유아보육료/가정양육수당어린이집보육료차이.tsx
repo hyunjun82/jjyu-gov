@@ -1,0 +1,133 @@
+import type { SpokeData } from '../../page';
+
+function Content() {
+  return (
+    <>
+      <div className="answer-box">
+        <p>
+          영유아보육료는 <strong>어린이집을 이용하는</strong> 영유아에게 정부가 보육료를 어린이집에 직접 지급하는 제도이고,
+          가정양육수당은 <strong>어린이집을 이용하지 않고 가정에서 키우는</strong> 영유아 부모에게
+          현금으로 지원하는 제도입니다.
+          두 가지를 동시에 받는 것은 불가능하며, 어린이집 이용 여부에 따라 하나만 받습니다.
+        </p>
+      </div>
+
+      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
+        어린이집에 입소하면 보육료로 자동 전환되며, 퇴소하면 가정양육수당으로 전환 신청이 필요합니다.
+        두 제도 모두 소득·재산 조건이 없는 보편 지원입니다.
+      </p>
+
+      <section className="detail-card" id="compare">
+        <h2 className="detail-card-head">영유아보육료 vs 가정양육수당 비교</h2>
+        <div className="detail-card-body">
+          <table className="compare-table">
+            <thead>
+              <tr><th>항목</th><th>영유아보육료</th><th>가정양육수당</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>대상</strong></td><td>어린이집 이용 영유아</td><td>어린이집 미이용 (가정 보육)</td></tr>
+              <tr><td><strong>지급 방식</strong></td><td>어린이집에 직접 지급</td><td>부모 계좌 현금 지급</td></tr>
+              <tr><td><strong>금액 (만 0세)</strong></td><td>월 51만원</td><td>월 20만원</td></tr>
+              <tr><td><strong>금액 (만 1세)</strong></td><td>월 45만원</td><td>월 15만원</td></tr>
+              <tr><td><strong>금액 (만 2세)</strong></td><td>월 38만원</td><td>월 10만원</td></tr>
+              <tr><td><strong>동시 수령</strong></td><td colSpan={2} style={{ textAlign: 'center' }}>불가 (어느 한 쪽만)</td></tr>
+              <tr><td><strong>소득 조건</strong></td><td>없음</td><td>없음</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="detail-card" id="switch">
+        <h2 className="detail-card-head">전환 방법</h2>
+        <div className="detail-card-body">
+          <div className="info-box" style={{ marginBottom: 12 }}>
+            <strong>어린이집 입소 시 (수당 → 보육료):</strong> 어린이집 등록 후 보육료 신청 → 수당 자동 중단
+          </div>
+          <div className="info-box" style={{ marginBottom: 12 }}>
+            <strong>어린이집 퇴소 시 (보육료 → 수당):</strong> 퇴소 후 주민센터 또는 복지로에서 가정양육수당 신청 (자동 전환 아님)
+          </div>
+          <div className="info-box">
+            <strong>주의:</strong> 어린이집 퇴소 후 수당 미신청 기간에는 어떤 지원도 받지 못함 — 퇴소 직후 바로 신청 권장
+          </div>
+        </div>
+      </section>
+
+      <div className="ad-slot">광고 영역</div>
+
+      <section className="detail-card" id="choice">
+        <h2 className="detail-card-head">선택 가이드</h2>
+        <div className="detail-card-body">
+          <div className="info-box" style={{ marginBottom: 12 }}>
+            <strong>어린이집 이용:</strong> 영유아보육료 신청 — 보육료 전액 정부 부담, 부모 기본 보육비 없음
+          </div>
+          <div className="info-box" style={{ marginBottom: 12 }}>
+            <strong>가정 직접 보육:</strong> 가정양육수당 신청 — 현금으로 수령, 보육 방식 자유
+          </div>
+          <div className="info-box">
+            <strong>병행 불가:</strong> 어린이집 등록 중 가정양육수당 수령 불가 — 중복 지급 시 환수됨
+          </div>
+        </div>
+      </section>
+
+      <div className="ad-slot">광고 영역</div>
+
+      <section className="detail-card" id="hub">
+        <div className="detail-card-body" style={{ textAlign: 'center' }}>
+          <p style={{ marginBottom: 16 }}>
+            연령별 금액, 신청 방법, 누리과정까지<br />
+            전체 정보는 아래에서 확인하세요.
+          </p>
+          <a href="/policy/infant-childcare-fee" className="btn-cta">
+            영유아보육료 전체 정보 보기 →
+          </a>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export const 영유아보육료가정양육수당어린이집보육료차이SpokeContent: SpokeData = {
+  h1: '영유아보육료 vs 가정양육수당 차이, 어린이집 이용 여부에 따른 선택 기준',
+  breadcrumb: '가정양육수당어린이집보육료차이',
+  description:
+    '영유아보육료(어린이집 이용)와 가정양육수당(가정 보육) 비교: 동시 수령 불가, 어린이집 이용 여부로 구분. 0세 기준 보육료 51만 vs 수당 20만원. 어린이집 퇴소 후 수당은 별도 신청 필수.',
+  datePublished: '2026-05-18T09:00:00+09:00',
+  dateModified: '2026-05-18T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '일주일에 2~3일만 어린이집에 보내면 어떤 지원을 받나요?',
+      a: '어린이집에 등록되어 있으면(일부 이용이라도) 영유아보육료가 적용됩니다. 가정양육수당은 어린이집에 등록되지 않은 경우에만 받을 수 있으므로, 등록 상태이면 보육료를 받게 됩니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어린이집을 중간에 그만두면 수당은 얼마나 빨리 신청해야 하나요?',
+      a: '어린이집 퇴소 즉시 신청하는 것이 좋습니다. 보육료는 퇴소일 다음 달부터 지급이 중단되므로, 그 이전에 수당을 신청해야 공백 없이 지원을 이어받을 수 있습니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '어린이집 대기 중인데 수당을 받을 수 있나요?',
+      a: '네. 어린이집에 실제로 등록되지 않은 상태(대기 중 포함)이면 가정양육수당을 신청할 수 있습니다. 어린이집에 입소하게 되면 그때 보육료로 전환하면 됩니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '조부모가 키우는 경우 수당을 받을 수 있나요?',
+      a: '가정양육수당은 부모뿐 아니라 실제로 가정에서 양육하는 경우 신청할 수 있습니다. 부모 대신 조부모가 양육하는 경우에도 신청이 가능하므로 주민센터에서 상담받으세요.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+    {
+      q: '보육료와 수당 중 어느 것이 더 유리한가요?',
+      a: '어린이집을 이용하면 보육료가 훨씬 많습니다(0세 기준 보육료 51만 vs 수당 20만원). 다만 어린이집에 다닐 경우 식대·특별활동비 등 자부담이 있어 순수 이득은 상황에 따라 다릅니다.',
+      source: '보건복지부',
+      sourceUrl: 'https://www.mohw.go.kr',
+    },
+  ],
+  sources: [
+    { name: '보건복지부 영유아보육료', url: 'https://www.mohw.go.kr' },
+    { name: '복지로', url: 'https://www.bokjiro.go.kr' },
+  ],
+};

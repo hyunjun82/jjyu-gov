@@ -126,4 +126,8 @@ export const communityCareCenterSpokes = [
   { slug: 'hour', role: 'usage', title: '학기 6h + 방학 9h', content: '야간 연장.' },
   { slug: 'apply', role: 'apply', title: 'dadol.or.kr - 거주지', content: '우선순위 배정.' },
   { slug: 'compare', role: 'overlap', title: '지역아동센터와 보편 vs 취약', content: '본인 선택.' },
+  { slug: '신청이용료', title: '다함께돌봄센터 신청 방법부터 이용료 월 10만원 이내 운영 시간까지' },
+  { slug: '방학운영', title: '방학에도 다함께돌봄센터를 이용할 수 있나, 학기 중과 방학 운영 시간 비교' },
+  { slug: '아이돌봄비교', title: '아이돌봄서비스와 다함께돌봄센터, 초등학생 맞벌이 가구는 어디를 신청해야 하나' },
+  { slug: '대기대안', title: '다함께돌봄센터 대기가 길면 쓸 수 있는 초등돌봄 대안 서비스' },
 ];

@@ -126,4 +126,8 @@ export const dementiaCenterSpokes = [
   { slug: 'cognitive', role: 'usage', title: '인지강화 주 3회', content: '2026 확대.' },
   { slug: 'apply', role: 'apply', title: '보건소 - 1899-9988', content: '즉시 검진.' },
   { slug: 'family', role: 'overlap', title: '가족 자조모임·쉼터', content: '본인 0원.' },
+  { slug: '무료검사서비스', role: 'usage', title: '치매안심센터에서 받을 수 있는 무료 검사와 지원 서비스 종류' },
+  { slug: '치매증상절차', role: 'usage', title: '부모님이 치매 증상 보인다면 치매안심센터에 가야 하는 이유와 절차' },
+  { slug: '검사결과정상', role: 'usage', title: '치매안심센터 치매 검사 결과 정상으로 나오면 추가 지원은 받을 수 없는지' },
+  { slug: '2026무료서비스', role: 'usage', title: '2026년 치매안심센터 서비스, 비용 없이 이용할 수 있는 항목과 신청 방법' },
 ];
