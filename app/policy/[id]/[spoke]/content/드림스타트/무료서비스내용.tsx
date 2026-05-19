@@ -75,7 +75,7 @@ function Content() {
       <div className="ad-slot">광고 영역</div>
 
       <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</html>
+        <h2 className="detail-card-head">신청 방법</h2>
         <div className="detail-card-body">
           <div className="info-box" style={{ marginBottom: 12 }}>
             <strong>신청처:</strong> 시·군·구 드림스타트 사업단 또는 정부24
