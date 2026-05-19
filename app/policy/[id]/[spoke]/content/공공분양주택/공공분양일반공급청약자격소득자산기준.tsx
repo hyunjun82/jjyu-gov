@@ -70,14 +70,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '공공분양일반공급청약자격소득자산기준',
+export const 공공분양주택공공분양일반공급청약자격소득자산기준SpokeContent: SpokeData = {
+  h1: '공공분양 일반공급 청약자격 — 소득·자산 기준',
   breadcrumb: '공공분양일반공급청약자격소득자산기준',
-  title: '공공분양 일반공급 청약자격 — 소득·자산 기준',
   description: '공공분양주택 일반공급 신청 자격인 소득 100% 기준, 부동산·자동차 자산 한도를 가구원수별로 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '공공분양 일반공급 소득 기준은 얼마인가요?',
+      a: '전년도 도시근로자 가구원수별 월평균 소득 100%(4인 가구 기준 약 810만 원) 이하입니다. 신혼부부·생애최초 특별공급은 별도 기준이 적용됩니다.',
+      source: '국토교통부 공공주택 공급 규정',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '자산 기준은 어떻게 되나요?',
+      a: '부동산 2억 1,550만 원 이하, 자동차 3,708만 원 이하가 기준입니다. 2026년 기준이며 공고마다 확인이 필요합니다.',
+      source: '공공주택 특별법 시행규칙',
+      sourceUrl: 'https://www.law.go.kr',
+    },
+    {
+      q: '청약저축 납입 횟수 조건은 있나요?',
+      a: '네. 수도권은 12회 이상, 비수도권은 6회 이상 납입해야 1순위 자격이 됩니다. 납입 금액과 기간도 가점에 반영됩니다.',
+      source: '청약홈',
+      sourceUrl: 'https://www.applyhome.co.kr',
+    },
+    {
+      q: '공공분양 가점 항목은 무엇인가요?',
+      a: '무주택 기간(최대 32점), 부양가족 수(최대 35점), 청약통장 가입 기간(최대 17점)으로 총 84점 만점입니다.',
+      source: '청약홈 가점 안내',
+      sourceUrl: 'https://www.applyhome.co.kr',
+    },
+    {
+      q: '소득·자산이 기준 초과면 특별공급만 노려야 하나요?',
+      a: '일반공급은 불가하지만, 일부 특별공급(신혼·생애최초 등)은 소득 기준이 130~160%로 더 넓습니다. 자신의 상황에 맞는 유형을 확인하세요.',
+      source: '국토교통부 청약 제도 안내',
+      sourceUrl: 'https://www.molit.go.kr',
+    }
+  ],
+  sources: [
+    { name: 'LH청약플러스·청약홈', url: 'https://apply.lh.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 공공분양주택공공분양일반공급청약자격소득자산기준SpokeContent };

@@ -55,14 +55,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '공공분양당첨후계약입주일정절차',
+export const 공공분양주택공공분양당첨후계약입주일정절차SpokeContent: SpokeData = {
+  h1: '공공분양 당첨 후 계약·입주까지 일정과 절차',
   breadcrumb: '공공분양당첨후계약입주일정절차',
-  title: '공공분양 당첨 후 계약·입주까지 일정과 절차',
   description: '공공분양 당첨 후 서류 제출, 계약금·중도금·잔금 납부, 입주까지의 전체 일정과 절차를 단계별로 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '당첨 후 계약까지 얼마나 걸리나요?',
+      a: '당첨자 발표 후 통상 2~4주 내 계약 체결이 진행됩니다. 계약 일정과 장소는 공고문에 명시됩니다.',
+      source: 'LH청약플러스',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '계약금은 얼마인가요?',
+      a: '분양가의 10%가 일반적입니다. 중도금 납부 일정과 잔금 납부 기한은 공고별로 다르니 공고문을 반드시 확인하세요.',
+      source: 'LH청약플러스',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '입주 전까지 중도금은 어떻게 납부하나요?',
+      a: '집단 중도금 대출을 통해 은행에서 대출받아 납부하는 것이 일반적입니다. LH는 별도 중도금 이자 유예 혜택을 제공하기도 합니다.',
+      source: 'LH청약플러스',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '입주 지정 기간 내에 입주 못 하면 어떻게 되나요?',
+      a: '입주 지연 시 지연 이자가 발생합니다. 정당한 사유 없이 장기 미입주 시 계약 해제 대상이 될 수 있습니다.',
+      source: 'LH 입주 안내',
+      sourceUrl: 'https://www.lh.or.kr',
+    },
+    {
+      q: '실거주 의무는 얼마나 되나요?',
+      a: '분양가에 따라 2~5년 실거주 의무가 부과됩니다. 의무 기간 내 전세·임대 등 임대 행위는 금지되며 위반 시 계약 해제·환매 청구가 됩니다.',
+      source: '공공주택 특별법',
+      sourceUrl: 'https://www.law.go.kr',
+    }
+  ],
+  sources: [
+    { name: 'LH청약플러스·청약홈', url: 'https://apply.lh.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 공공분양주택공공분양당첨후계약입주일정절차SpokeContent };

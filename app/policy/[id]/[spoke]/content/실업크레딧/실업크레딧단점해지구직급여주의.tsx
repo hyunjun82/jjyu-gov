@@ -10,14 +10,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '실업크레딧단점해지구직급여주의',
+export const 실업크레딧실업크레딧단점해지구직급여주의SpokeContent: SpokeData = {
+  h1: '실업크레딧 단점·해지 — 구직급여와 함께 신청할 때 주의사항',
   breadcrumb: '실업크레딧단점해지구직급여주의',
-  title: '실업크레딧 단점·해지 — 구직급여와 함께 신청할 때 주의사항',
   description: '실업크레딧의 단점, 자동 해지 조건, 구직급여 수급 종료 시 처리 방법을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '실업크레딧의 단점은 무엇인가요?',
+      a: '생애 최대 12개월만 적용됩니다. 또한 재취업 후 다시 실직해도 12개월 한도 내에서만 사용 가능합니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '실업크레딧 도중 재취업하면 어떻게 되나요?',
+      a: '재취업 시 실업크레딧 지원이 자동 중단됩니다. 이후 직장 국민연금으로 전환됩니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '구직급여와 실업크레딧을 함께 신청할 때 주의사항은?',
+      a: '구직활동 요건을 성실히 이행해야 구직급여가 유지됩니다. 구직급여가 중단되면 실업크레딧도 함께 종료됩니다.',
+      source: '고용노동부·국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '보험료를 한 달이라도 미납하면 어떻게 되나요?',
+      a: '미납 월은 가입 기간으로 인정되지 않습니다. 이후 납부 재개 시 그 달부터 다시 인정됩니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '국민연금 가입 기간이 짧아도 실업크레딧이 의미 있나요?',
+      a: '가입 기간 10년을 채우기 위해 실업 기간에도 납부하는 것이 유리합니다. 10년 미만이면 노령연금을 못 받을 수 있습니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    }
+  ],
+  sources: [
+    { name: '국민연금공단', url: 'https://www.nps.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 실업크레딧실업크레딧단점해지구직급여주의SpokeContent };

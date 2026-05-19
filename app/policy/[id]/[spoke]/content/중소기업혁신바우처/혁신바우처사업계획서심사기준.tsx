@@ -10,14 +10,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '혁신바우처사업계획서심사기준',
+export const 중소기업혁신바우처혁신바우처사업계획서심사기준SpokeContent: SpokeData = {
+  h1: '혁신바우처 사업계획서 핵심 항목과 심사 기준',
   breadcrumb: '혁신바우처사업계획서심사기준',
-  title: '혁신바우처 사업계획서 핵심 항목과 심사 기준',
   description: '혁신바우처 신청 시 제출하는 사업계획서 구성 항목, 심사 배점, 고득점 작성 요령을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '사업계획서에 무엇을 써야 하나요?',
+      a: '현재 기업의 문제점, 바우처 서비스를 통한 해결 방안, 기대 성과, 서비스 활용 계획 등을 구체적으로 기술합니다.',
+      source: '중소벤처기업부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '심사 항목은 무엇인가요?',
+      a: '사업 타당성, 성장 가능성, 서비스 선택의 적절성, 자금 집행 계획 등이 주요 심사 항목입니다.',
+      source: '중소벤처기업부 혁신바우처',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    },
+    {
+      q: '사업계획서를 잘 쓰면 가산점이 있나요?',
+      a: '심사 평가에서 좋은 점수를 받아 선정 가능성이 높아집니다. 구체적·정량적으로 목표를 기술하는 것이 유리합니다.',
+      source: '중소기업 혁신바우처 플랫폼',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    },
+    {
+      q: '외부 컨설팅 업체의 도움을 받아 써도 되나요?',
+      a: '가능하지만, 허위 내용 기재 시 선정 취소 및 환수 처분이 될 수 있습니다. 실제 기업 현황에 맞게 작성해야 합니다.',
+      source: '중소벤처기업부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '탈락 후 재신청이 가능한가요?',
+      a: '다음 공고에 재신청이 가능합니다. 탈락 사유를 확인하고 사업계획서를 보완하는 것이 좋습니다.',
+      source: '중소기업 혁신바우처 플랫폼',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    }
+  ],
+  sources: [
+    { name: '중소기업 혁신바우처 플랫폼', url: 'https://voucher.smtech.go.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 중소기업혁신바우처혁신바우처사업계획서심사기준SpokeContent };

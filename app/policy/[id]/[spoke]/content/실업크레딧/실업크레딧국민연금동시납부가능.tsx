@@ -10,14 +10,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '실업크레딧국민연금동시납부가능',
+export const 실업크레딧실업크레딧국민연금동시납부가능SpokeContent: SpokeData = {
+  h1: '실업크레딧 받으면서 국민연금도 따로 납부되나',
   breadcrumb: '실업크레딧국민연금동시납부가능',
-  title: '실업크레딧 받으면서 국민연금도 따로 납부되나',
   description: '실업크레딧 수급 중 국민연금 보험료가 어떻게 처리되는지, 별도 납부와의 관계를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '실업크레딧과 국민연금을 동시에 납부할 수 있나요?',
+      a: '실업크레딧 자체가 국민연금 보험료를 납부하는 제도입니다. 본인 부담 25%를 납부하면 국민연금 가입 기간이 인정됩니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '임의가입 방식으로 추가 납부도 가능한가요?',
+      a: '실업크레딧 외에 추가로 임의가입 방식 납부는 불가합니다. 실업크레딧으로 인정되는 가입 기간 외 연금 공백을 후납 제도로 채울 수 있습니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '실업크레딧 기간에 연금 가입 기간이 어떻게 계산되나요?',
+      a: '실업크레딧 보험료를 납부한 월수 기준으로 국민연금 가입 기간에 1:1로 인정됩니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '부부가 동시에 실업크레딧을 받을 수 있나요?',
+      a: '각자 구직급여 수급자격이 있으면 각자 신청 가능합니다. 부부라도 별개로 심사됩니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    },
+    {
+      q: '실업크레딧으로 받은 기간이 연금 수령에 어떤 영향을 주나요?',
+      a: '가입 기간이 늘어나 노후 연금 수령액이 증가합니다. 10년 이상 가입 기간이 되어야 연금을 받을 수 있어, 기간 채우기에도 도움이 됩니다.',
+      source: '국민연금공단',
+      sourceUrl: 'https://www.nps.or.kr',
+    }
+  ],
+  sources: [
+    { name: '국민연금공단', url: 'https://www.nps.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 실업크레딧실업크레딧국민연금동시납부가능SpokeContent };

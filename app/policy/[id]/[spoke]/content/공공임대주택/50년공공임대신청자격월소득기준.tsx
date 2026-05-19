@@ -78,14 +78,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '50년공공임대신청자격월소득기준',
+export const 공공임대주택50년공공임대신청자격월소득기준SpokeContent: SpokeData = {
+  h1: '50년 공공임대 신청자격 — 월소득 기준 얼마까지',
   breadcrumb: '50년공공임대신청자격월소득기준',
-  title: '50년 공공임대 신청자격 — 월소득 기준 얼마까지',
   description: '국민임대·통합공공임대 신청을 위한 가구원수별 월소득 70% 기준과 자산 기준을 2026년 최신 수치로 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '50년 공공임대 소득 기준은 몇 % 이하인가요?',
+      a: '도시근로자 가구원수별 월평균 소득의 70% 이하입니다. 맞벌이 세대는 90%까지 완화됩니다. 통합공공임대는 유형에 따라 100~150% 기준이 적용됩니다.',
+      source: 'LH 국민임대 입주자격 안내',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '자산 기준도 충족해야 하나요?',
+      a: '네. 총자산 3억 4,500만 원 이하, 자동차 3,708만 원 이하 기준을 동시에 만족해야 합니다. 부동산·금융자산·자동차가 모두 포함됩니다.',
+      source: 'LH 국민임대 입주자격 안내',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '무주택 기간은 얼마나 되어야 하나요?',
+      a: '입주자모집공고일 현재 세대 구성원 전원이 무주택이어야 합니다. 무주택 기간은 최초 무주택이 된 날부터 계산하며 청약 가점에 영향을 줍니다.',
+      source: 'LH 청약플러스',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '국민임대와 통합공공임대의 차이는 무엇인가요?',
+      a: '국민임대는 소득 70%(맞벌이 90%) 기준으로 최장 30년 거주 가능합니다. 통합공공임대는 2023년 이후 공급되는 신유형으로 소득 기준이 150% 이하까지 확대되었습니다.',
+      source: 'LH 공공임대 유형 안내',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '소득 기준 초과 시 어떻게 되나요?',
+      a: '청약 신청 자체가 불가하며, 당첨 후 소득 초과가 확인되면 계약이 취소됩니다. 입주 후 소득이 기준을 초과하면 임대료가 올라가거나 계약 갱신이 거절될 수 있습니다.',
+      source: 'LH 국민임대 운영 기준',
+      sourceUrl: 'https://apply.lh.or.kr',
+    }
+  ],
+  sources: [
+    { name: 'LH청약플러스', url: 'https://apply.lh.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 공공임대주택50년공공임대신청자격월소득기준SpokeContent };

@@ -11,14 +11,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '새도약론신청자격대상자확인',
+export const 새도약론새도약론신청자격대상자확인SpokeContent: SpokeData = {
+  h1: '새도약론 신청자격 — 대상자 여부 확인 방법',
   breadcrumb: '새도약론신청자격대상자확인',
-  title: '새도약론 신청자격 — 대상자 여부 확인 방법',
   description: '새도약론 신청 자격(2018년 이전 연체, 채무조정 이행 중)과 대상자 여부 확인 방법을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '새도약론 신청 자격은 어떻게 되나요?',
+      a: '새도약기금에서 채무 조정을 받은 차주가 재기 자금 목적으로 신청하는 대출입니다. 일반 신용 대출과 다르게 새출발기금·새도약기금 수혜자가 대상입니다.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '새도약론과 새출발기금의 차이는 무엇인가요?',
+      a: '새출발기금은 코로나 피해 자영업자·소상공인 채무조정 전용입니다. 새도약론은 조정 후 재기를 위한 대출 상품입니다.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '신청은 어디서 하나요?',
+      a: '새도약기금 홈페이지(saedoyak.or.kr) 또는 취급 금융기관 창구에서 신청 가능합니다.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '신청 자격 여부를 온라인으로 확인할 수 있나요?',
+      a: '새도약기금 홈페이지에서 자격 조회 서비스를 제공합니다. 공인인증서 로그인 후 본인 해당 여부를 확인하세요.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '채무조정 중인데 새도약론도 받을 수 있나요?',
+      a: '채무조정이 완료된 이후 재기 자금 용도로 신청 가능합니다. 진행 중에는 신청이 어렵습니다.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    }
+  ],
+  sources: [
+    { name: '새도약기금', url: 'https://www.saedoyak.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 새도약론새도약론신청자격대상자확인SpokeContent };

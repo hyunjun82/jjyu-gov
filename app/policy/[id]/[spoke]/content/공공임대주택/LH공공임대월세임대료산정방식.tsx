@@ -68,14 +68,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: 'LH공공임대월세임대료산정방식',
+export const 공공임대주택LH공공임대월세임대료산정방식SpokeContent: SpokeData = {
+  h1: 'LH 공공임대 월세 임대료 어떻게 산정되나',
   breadcrumb: 'LH공공임대월세임대료산정방식',
-  title: 'LH 공공임대 월세 임대료 어떻게 산정되나',
   description: 'LH 공공임대주택 임대료가 시세의 몇 %인지, 보증금-월세 전환 방식과 인상 한도를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: 'LH 공공임대 월 임대료는 어떻게 정해지나요?',
+      a: '임대보증금과 월임대료는 인근 시세의 30~80% 수준에서 유형별로 결정됩니다. 국민임대는 시세 60~80%, 영구임대는 30% 내외입니다.',
+      source: 'LH 임대주택 임대료 안내',
+      sourceUrl: 'https://www.lh.or.kr',
+    },
+    {
+      q: '임대료 산정 기준이 되는 인근 시세는 어떻게 확인하나요?',
+      a: '한국부동산원의 시세조사 자료를 기준으로 하며, LH가 매년 조사·적용합니다. 마이홈포털에서 단지별 임대조건을 조회할 수 있습니다.',
+      source: '마이홈포털',
+      sourceUrl: 'https://www.myhome.go.kr',
+    },
+    {
+      q: '임대보증금을 월세로 전환할 수 있나요?',
+      a: '전환이 가능하며, 전환율은 연 2.5%(월 0.208%) 수준입니다. 보증금을 줄이고 월세를 늘리거나, 반대로 전환할 수 있습니다.',
+      source: 'LH 임대주택 운영 규정',
+      sourceUrl: 'https://www.lh.or.kr',
+    },
+    {
+      q: '임대료 인상에 상한선이 있나요?',
+      a: '네. 임대료 인상률은 연 5% 이내로 제한됩니다. 계약 갱신 시마다 이 기준 안에서 조정됩니다.',
+      source: '공공주택 특별법 시행령',
+      sourceUrl: 'https://www.law.go.kr',
+    },
+    {
+      q: '소득이 낮으면 임대료 할인을 받을 수 있나요?',
+      a: '수급자·차상위계층·장애인·고령자 등은 임대료 감면 혜택이 있습니다. 단지·유형마다 다르므로 해당 LH지역본부에 문의하세요.',
+      source: 'LH 임대주택 감면 안내',
+      sourceUrl: 'https://www.lh.or.kr',
+    }
+  ],
+  sources: [
+    { name: 'LH청약플러스', url: 'https://apply.lh.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 공공임대주택LH공공임대월세임대료산정방식SpokeContent };

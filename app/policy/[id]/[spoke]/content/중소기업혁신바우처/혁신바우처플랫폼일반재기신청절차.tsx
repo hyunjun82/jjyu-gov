@@ -10,14 +10,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '혁신바우처플랫폼일반재기신청절차',
+export const 중소기업혁신바우처혁신바우처플랫폼일반재기신청절차SpokeContent: SpokeData = {
+  h1: '혁신바우처 플랫폼 등록 — 일반·재기바우처 신청 절차',
   breadcrumb: '혁신바우처플랫폼일반재기신청절차',
-  title: '혁신바우처 플랫폼 등록 — 일반·재기바우처 신청 절차',
   description: '혁신플랫폼(mssmiv.com) 수요기업 등록부터 일반바우처·재기바우처 신청까지 단계별 절차를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '플랫폼 등록 절차는 어떻게 되나요?',
+      a: '혁신바우처 플랫폼(voucher.smtech.go.kr) 회원가입 → 기업 정보 등록 → 공고 신청 → 서류 업로드 → 심사 순서입니다.',
+      source: '중소기업 혁신바우처 플랫폼',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    },
+    {
+      q: '일반바우처와 재기바우처의 차이는 무엇인가요?',
+      a: '일반바우처는 성장 단계 중소기업 대상, 재기바우처는 폐업 후 재창업·재기 중소기업 대상입니다. 지원 금액과 자격 기준이 다릅니다.',
+      source: '중소벤처기업부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '신청 후 선정까지 얼마나 걸리나요?',
+      a: '공고 마감 후 서류 심사·발표까지 통상 1~2개월 소요됩니다.',
+      source: '중소기업 혁신바우처 플랫폼',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    },
+    {
+      q: '자부담금은 언제 납부하나요?',
+      a: '선정 후 협약 체결 시 자부담금(30%)을 플랫폼 내 가상계좌로 납부합니다.',
+      source: '중소벤처기업부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '바우처 사용 기간은 얼마인가요?',
+      a: '협약일로부터 통상 6개월~1년 이내에 사용해야 합니다. 기간 내 미사용 잔액은 반환해야 합니다.',
+      source: '중소기업 혁신바우처 플랫폼',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    }
+  ],
+  sources: [
+    { name: '중소기업 혁신바우처 플랫폼', url: 'https://voucher.smtech.go.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 중소기업혁신바우처혁신바우처플랫폼일반재기신청절차SpokeContent };

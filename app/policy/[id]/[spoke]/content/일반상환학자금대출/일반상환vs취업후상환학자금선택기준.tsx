@@ -44,14 +44,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '일반상환vs취업후상환학자금선택기준',
+export const 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent: SpokeData = {
+  h1: '일반상환 vs 취업후상환 — 어떤 유형이 나에게 유리한가',
   breadcrumb: '일반상환vs취업후상환학자금선택기준',
-  title: '일반상환 vs 취업후상환 — 어떤 유형이 나에게 유리한가',
   description: '일반상환과 취업후상환 학자금대출의 금리·상환 방식·전환 가능 여부를 비교해 선택 기준을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '일반상환과 취업후상환 중 어떤 게 유리한가요?',
+      a: '졸업 후 바로 취업해 소득이 생기면 일반상환(금리 1.7%)이 유리합니다. 취업이 불확실하거나 소득이 낮을 것 같으면 취업후상환(연 3,037만 원 이상일 때만 상환)이 안전합니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '두 유형을 동시에 받을 수 있나요?',
+      a: '취업후상환 한도 내에서 일반상환을 병행할 수 있습니다. 대출 가능 한도는 학기당 생활비+등록금 기준입니다.',
+      source: '한국장학재단 학자금대출 안내',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '취업후상환 대출은 소득이 없으면 안 갚아도 되나요?',
+      a: '네. 연 소득이 3,037만 원(2026년 상환 기준 소득) 미만이면 상환 의무가 없습니다. 소득이 넘으면 초과분의 20%를 자동 납부합니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '일반상환 대출은 졸업 후 바로 상환해야 하나요?',
+      a: '졸업 또는 중퇴 후 2년(거치기간)까지 원금 상환을 미룰 수 있습니다. 거치기간 중 이자는 납부해야 합니다.',
+      source: '한국장학재단 학자금대출 안내',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '신용점수에 영향을 주나요?',
+      a: '상환을 성실히 하면 영향 없습니다. 하지만 연체 시 신용점수가 하락합니다. 취업후상환은 자동 징수 방식이라 연체 위험이 낮습니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    }
+  ],
+  sources: [
+    { name: '한국장학재단 학자금대출', url: 'https://www.kstudy.com' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent };

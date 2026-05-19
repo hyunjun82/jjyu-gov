@@ -10,14 +10,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '새도약론새도약기금새출발기금차이',
+export const 새도약론새도약론새도약기금새출발기금차이SpokeContent: SpokeData = {
+  h1: '새도약론·새도약기금·새출발기금 — 헷갈리는 세 제도 차이',
   breadcrumb: '새도약론새도약기금새출발기금차이',
-  title: '새도약론·새도약기금·새출발기금 — 헷갈리는 세 제도 차이',
   description: '새도약론(저금리 대출), 새도약기금(채권 매입·소각), 새출발기금(코로나 피해자 지원) 세 제도의 차이를 명확히 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '이 정책의 신청 방법은 무엇인가요?',
+      a: '정부24(gov.kr) 또는 해당 기관 홈페이지에서 신청 가능합니다.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '지원 대상 기준은 어떻게 되나요?',
+      a: '소득·자산·나이 기준을 충족한 신청자가 대상입니다. 자세한 기준은 해당 기관에 문의하세요.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '지원 금액은 얼마인가요?',
+      a: '개인 상황에 따라 다릅니다. 담당 기관에 문의하거나 홈페이지에서 확인하세요.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '다른 지원과 중복 수혜가 가능한가요?',
+      a: '일부 지원과 중복이 제한됩니다. 개별 공고를 확인하세요.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '신청 기간은 언제인가요?',
+      a: '연간 공고를 통해 신청 기간이 안내됩니다. 해당 기관 홈페이지를 확인하세요.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    }
+  ],
+  sources: [
+    { name: '새도약기금', url: 'https://www.saedoyak.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 새도약론새도약론새도약기금새출발기금차이SpokeContent };

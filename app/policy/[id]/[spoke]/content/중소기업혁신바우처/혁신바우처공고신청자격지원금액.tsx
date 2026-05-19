@@ -10,14 +10,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '혁신바우처공고신청자격지원금액',
+export const 중소기업혁신바우처혁신바우처공고신청자격지원금액SpokeContent: SpokeData = {
+  h1: '혁신바우처 2·3차 공고 신청자격과 지원 금액',
   breadcrumb: '혁신바우처공고신청자격지원금액',
-  title: '혁신바우처 2·3차 공고 신청자격과 지원 금액',
   description: '중소기업혁신바우처 2026년 2·3차 공고 일정, 신청 자격, 최대 5,000만 원 지원 내용을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '혁신바우처 신청 자격은 어떻게 되나요?',
+      a: '중소기업기본법상 중소기업으로서 업력, 매출 등 공고별 기준을 충족해야 합니다. 일반형·재기형으로 나뉘며 자격 기준이 다릅니다.',
+      source: '중소벤처기업부·중소기업통합정보',
+      sourceUrl: 'https://www.smes.go.kr',
+    },
+    {
+      q: '지원 금액은 얼마인가요?',
+      a: '일반형은 최대 3,000만 원(정부 70% 지원), 재기형은 최대 1,500만 원입니다. 기업 자부담이 필요합니다.',
+      source: '중소벤처기업부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '공고는 어디서 확인하나요?',
+      a: '중소기업 혁신바우처 플랫폼(voucher.smtech.go.kr) 또는 중소기업통합정보(smes.go.kr)에서 확인하세요.',
+      source: '중소기업 혁신바우처 플랫폼',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    },
+    {
+      q: '연간 몇 차례 공고가 나나요?',
+      a: '통상 연 2~3회 공고됩니다. 예산 소진 시 조기 마감되므로 공고 첫날 신청을 권장합니다.',
+      source: '중소벤처기업부',
+      sourceUrl: 'https://www.mss.go.kr',
+    },
+    {
+      q: '지원금을 어떤 서비스에 사용할 수 있나요?',
+      a: '마케팅·컨설팅·기술개발·인력관리·정보화 등 경영 혁신 서비스에 사용 가능합니다. 공급기업 목록에서 선택해야 합니다.',
+      source: '중소기업 혁신바우처 플랫폼',
+      sourceUrl: 'https://voucher.smtech.go.kr',
+    }
+  ],
+  sources: [
+    { name: '중소기업 혁신바우처 플랫폼', url: 'https://voucher.smtech.go.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 중소기업혁신바우처혁신바우처공고신청자격지원금액SpokeContent };

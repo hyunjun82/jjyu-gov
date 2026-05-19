@@ -59,14 +59,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '공공임대청약공고신청순서서류',
+export const 공공임대주택공공임대청약공고신청순서서류SpokeContent: SpokeData = {
+  h1: '공공임대 청약 공고 뜨면 신청 순서와 서류',
   breadcrumb: '공공임대청약공고신청순서서류',
-  title: '공공임대 청약 공고 뜨면 신청 순서와 서류',
   description: '공공임대주택 청약 공고가 열렸을 때 신청 단계, 필요 서류, 주의사항을 한번에 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '공공임대 청약 공고는 어디서 확인하나요?',
+      a: 'LH청약플러스(apply.lh.or.kr), 마이홈포털(myhome.go.kr), SH서울주택도시공사(i-sh.co.kr) 등에서 지역별 공고를 확인하세요.',
+      source: 'LH청약플러스',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '청약 신청 시 필요한 서류는 무엇인가요?',
+      a: '주민등록등본, 가족관계증명서, 건강보험료 납부확인서(소득 증빙), 무주택 확인서, 자동차가액 확인서 등이 기본입니다. 유형·공고마다 추가 서류가 있습니다.',
+      source: 'LH 청약 서류 안내',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '신청 후 당첨까지 얼마나 걸리나요?',
+      a: '청약 마감 → 서류 심사 → 당첨자 발표까지 보통 1~3개월 소요됩니다. 계약 체결까지는 발표 후 2~4주가 추가됩니다.',
+      source: 'LH 청약 일정 안내',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '1순위와 2순위의 차이는 무엇인가요?',
+      a: '1순위는 수급자·한부모·장애인 등 우선공급 대상입니다. 일반 무주택자는 대부분 2순위로 입주 기간, 지역 거주 여부, 가점 등으로 순위가 결정됩니다.',
+      source: 'LH 순위제 안내',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '온라인 신청이 안 되는 경우 어떻게 하나요?',
+      a: '방문 신청도 가능합니다. 공고문에 명시된 LH지역본부 또는 위탁 관리소에 직접 방문하면 됩니다. 장애인·고령자 등은 대리 신청도 허용됩니다.',
+      source: 'LH 고객센터 1600-1004',
+      sourceUrl: 'https://apply.lh.or.kr',
+    }
+  ],
+  sources: [
+    { name: 'LH청약플러스', url: 'https://apply.lh.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 공공임대주택공공임대청약공고신청순서서류SpokeContent };

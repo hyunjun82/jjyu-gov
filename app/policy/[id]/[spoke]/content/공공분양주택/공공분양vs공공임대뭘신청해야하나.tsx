@@ -53,14 +53,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '공공분양vs공공임대뭘신청해야하나',
+export const 공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent: SpokeData = {
+  h1: '공공분양 vs 공공임대 — 뭘 신청해야 하나',
   breadcrumb: '공공분양vs공공임대뭘신청해야하나',
-  title: '공공분양 vs 공공임대 — 뭘 신청해야 하나',
   description: '소유와 임차의 차이, 초기 자금·소득 기준·자산 형성 관점에서 공공분양과 공공임대 중 어떤 게 나에게 맞는지 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '공공분양과 공공임대 중 무엇을 선택해야 하나요?',
+      a: '자산이 있고 내 집 마련이 목표라면 공공분양, 당장 저렴한 주거지가 필요하고 이동 가능성이 있다면 공공임대가 유리합니다.',
+      source: '마이홈포털',
+      sourceUrl: 'https://www.myhome.go.kr',
+    },
+    {
+      q: '소득이 낮으면 공공분양도 신청 가능한가요?',
+      a: '가능합니다. 소득이 도시근로자 월평균의 100% 이하라면 일반공급 신청이 가능하고, 더 낮으면 우선공급 대상이 될 수 있습니다.',
+      source: '국토교통부 공공분양 기준',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '공공분양에 당첨되면 자동으로 공공임대 자격이 없어지나요?',
+      a: '공공분양 당첨·입주 후 주택을 소유하면 공공임대 신청 자격이 상실됩니다. 무주택 세대구성원 기준이 핵심입니다.',
+      source: '공공주택 특별법',
+      sourceUrl: 'https://www.law.go.kr',
+    },
+    {
+      q: '공공임대에 살면서 공공분양 청약이 가능한가요?',
+      a: '가능합니다. 무주택자 신분이므로 청약 신청에 제한이 없습니다. 분양 당첨 후 임대 계약 해지 절차가 필요합니다.',
+      source: '청약홈',
+      sourceUrl: 'https://www.applyhome.co.kr',
+    },
+    {
+      q: '공공분양 당첨 후 미입주하면 어떻게 되나요?',
+      a: '계약 포기 시 계약금을 잃고, 일정 기간 청약 제한이 생깁니다. 부적격 당첨으로 처리되면 향후 청약에 불이익이 있습니다.',
+      source: 'LH청약플러스 공지사항',
+      sourceUrl: 'https://apply.lh.or.kr',
+    }
+  ],
+  sources: [
+    { name: 'LH청약플러스·청약홈', url: 'https://apply.lh.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent };

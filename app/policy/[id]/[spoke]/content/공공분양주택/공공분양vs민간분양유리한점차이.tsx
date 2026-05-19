@@ -54,14 +54,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '공공분양vs민간분양유리한점차이',
+export const 공공분양주택공공분양vs민간분양유리한점차이SpokeContent: SpokeData = {
+  h1: '공공분양 vs 민간분양 — 어떤 게 나에게 유리한가',
   breadcrumb: '공공분양vs민간분양유리한점차이',
-  title: '공공분양 vs 민간분양 — 어떤 게 나에게 유리한가',
   description: '공공분양과 민간분양의 분양가·자격·전매제한을 비교하고 내 상황에 맞는 선택 기준을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '공공분양의 가장 큰 장점은 무엇인가요?',
+      a: '분양가가 시세의 70~80% 수준으로 저렴합니다. 전매 제한이 있지만, 입주 시 즉시 시세 차익이 발생하는 경우가 많습니다.',
+      source: '국토교통부 공공분양 안내',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '민간분양이 유리한 경우는 언제인가요?',
+      a: '소득·자산 기준 초과자, 입지·브랜드를 중시하는 경우, 전매 제한 없이 빠른 매도를 원하는 경우에 민간분양이 유리합니다.',
+      source: '청약홈',
+      sourceUrl: 'https://www.applyhome.co.kr',
+    },
+    {
+      q: '공공분양 전매 제한 기간은 얼마나 되나요?',
+      a: '수도권은 3~10년, 비수도권은 1~4년입니다. 분양가와 입지에 따라 달라지며, 위반 시 계약 취소 및 환매 청구가 됩니다.',
+      source: '공공주택 특별법 시행령',
+      sourceUrl: 'https://www.law.go.kr',
+    },
+    {
+      q: '공공분양 마감 후 미분양은 어떻게 되나요?',
+      a: '계약 취소분·미계약분은 잔여 세대로 선착순 분양됩니다. LH청약플러스에서 잔여 세대 공고를 확인하세요.',
+      source: 'LH청약플러스',
+      sourceUrl: 'https://apply.lh.or.kr',
+    },
+    {
+      q: '공공분양과 민간분양 중 어떤 게 실거주에 유리한가요?',
+      a: '공공분양은 실거주 의무(2~5년)가 있어 장기 거주 계획자에게 유리합니다. 민간분양은 실거주 의무 없이 전세를 놓거나 이주가 자유롭습니다.',
+      source: '국토교통부 실거주 의무 안내',
+      sourceUrl: 'https://www.molit.go.kr',
+    }
+  ],
+  sources: [
+    { name: 'LH청약플러스·청약홈', url: 'https://apply.lh.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 공공분양주택공공분양vs민간분양유리한점차이SpokeContent };

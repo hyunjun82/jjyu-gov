@@ -43,14 +43,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '국가장학금소득분위지급금액',
+export const 국가장학금국가장학금소득분위지급금액SpokeContent: SpokeData = {
+  h1: '국가장학금 소득분위 몇 분위까지 얼마 받나',
   breadcrumb: '국가장학금소득분위지급금액',
-  title: '국가장학금 소득분위 몇 분위까지 얼마 받나',
   description: '2026년 국가장학금 소득분위(1~9구간)별 1학기 최대 지원 금액표를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '소득분위별 국가장학금은 얼마인가요?',
+      a: '2026년 기준: 1~3분위 최대 570만 원, 4~6분위 최대 420만 원, 7분위 최대 350만 원, 8분위 최대 350만 원입니다. 9~10분위는 지원 없음입니다.',
+      source: '한국장학재단 국가장학금 안내',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '소득분위는 어떻게 결정되나요?',
+      a: '가구의 소득과 재산을 합산한 소득인정액을 기준으로 1~10분위로 나눕니다. 건강보험료 납부액이 핵심 지표입니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '등록금보다 장학금이 많으면 어떻게 되나요?',
+      a: '등록금 한도 내에서만 지급됩니다. 등록금을 초과하는 금액은 지급되지 않습니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '다른 장학금과 중복으로 받을 수 있나요?',
+      a: '국가장학금은 대학 자체 장학금과 중복 수혜가 가능하지만, 등록금 총액을 초과할 수 없습니다. 일부 외부 장학금과는 제한이 있을 수 있습니다.',
+      source: '한국장학재단 중복 수혜 안내',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '대학원생도 국가장학금을 받을 수 있나요?',
+      a: '국가장학금Ⅰ·Ⅱ유형은 학부생 대상입니다. 대학원생은 국가우수장학금(석·박사)이나 대학혁신지원사업 장학금 등을 별도로 확인하세요.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    }
+  ],
+  sources: [
+    { name: '한국장학재단', url: 'https://www.kstudy.com' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 국가장학금국가장학금소득분위지급금액SpokeContent };

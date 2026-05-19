@@ -41,14 +41,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '국가장학금F학점성적기준미달',
+export const 국가장학금국가장학금F학점성적기준미달SpokeContent: SpokeData = {
+  h1: '국가장학금 F학점·성적 기준 — 미달 시 어떻게 되나',
   breadcrumb: '국가장학금F학점성적기준미달',
-  title: '국가장학금 F학점·성적 기준 — 미달 시 어떻게 되나',
   description: '국가장학금 성적 기준(70점 이상, 12학점 이상)과 F학점이 있을 때 지원이 어떻게 달라지는지 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: 'F학점이 있으면 국가장학금을 못 받나요?',
+      a: 'F학점이 있어도 직전 학기 12학점 이상 이수에 평균 C학점(2.0/4.5) 이상이면 수혜 가능합니다. F학점 자체가 금지 기준은 아닙니다.',
+      source: '한국장학재단 성적 기준',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '성적 미달로 장학금이 중단되면 어떻게 하나요?',
+      a: '다음 학기에 성적 기준을 충족하면 다시 신청·수혜 가능합니다. 한 학기 미달로 영구 박탈되지는 않습니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '1학년 1학기생은 성적 기준이 면제되나요?',
+      a: '네. 신입생 첫 학기는 성적 기준 없이 소득분위만으로 심사합니다. 2학기부터 직전 학기 성적이 반영됩니다.',
+      source: '한국장학재단 신입생 안내',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: 'C 평점 미달인데 이의신청이 가능한가요?',
+      a: '학사 처리 오류 등 특수한 사정이 있으면 대학에 이의신청 후 한국장학재단에 소명할 수 있습니다. 질병·재해 등 불가피한 사유도 소명 대상입니다.',
+      source: '한국장학재단 고객센터 1599-2000',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '이수 학점 기준은 12학점이 맞나요?',
+      a: '네. 직전 학기 12학점 이상 이수가 원칙입니다. 단, 마지막 학기 학점 부족(졸업예정자), 장애·질병 등 예외가 인정됩니다.',
+      source: '한국장학재단 수혜 기준',
+      sourceUrl: 'https://www.kstudy.com',
+    }
+  ],
+  sources: [
+    { name: '한국장학재단', url: 'https://www.kstudy.com' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 국가장학금국가장학금F학점성적기준미달SpokeContent };

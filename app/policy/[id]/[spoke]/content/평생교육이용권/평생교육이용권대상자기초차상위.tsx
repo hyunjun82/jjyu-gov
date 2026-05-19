@@ -33,14 +33,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '평생교육이용권대상자기초차상위',
+export const 평생교육이용권평생교육이용권대상자기초차상위SpokeContent: SpokeData = {
+  h1: '평생교육이용권 대상자 — 기초·차상위 외 받을 수 있나',
   breadcrumb: '평생교육이용권대상자기초차상위',
-  title: '평생교육이용권 대상자 — 기초·차상위 외 받을 수 있나',
   description: '평생교육이용권의 수급 자격이 기초생활수급자·차상위 외에 일반 저소득층도 해당되는지 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '평생교육이용권 대상자 기준은 무엇인가요?',
+      a: '기초생활수급자 또는 차상위계층(중위소득 50% 이하)이 기본 대상입니다. 장애인, 한부모가족 구성원도 포함됩니다.',
+      source: '교육부·국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    },
+    {
+      q: '기초·차상위 외 일반 저소득층도 받을 수 있나요?',
+      a: '예산 범위 내에서 장애인·다문화·북한이탈주민 등으로 확대되기도 합니다. 공고 시 대상을 확인하세요.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    },
+    {
+      q: '신청 자격을 어떻게 확인하나요?',
+      a: '주민센터에서 기초·차상위 인정 여부를 먼저 확인하고, 국가평생교육진흥원 또는 시·군·구청 평생학습 담당 부서에 문의하면 됩니다.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    },
+    {
+      q: '이용권 지원 금액은 얼마인가요?',
+      a: '기본 35만 원 상당의 이용권이 제공됩니다. 우수 이용자로 선정되면 추가 70만 원까지 지원됩니다.',
+      source: '교육부',
+      sourceUrl: 'https://www.moe.go.kr',
+    },
+    {
+      q: '이용권은 어떤 학습에 사용할 수 있나요?',
+      a: '국가평생교육진흥원 지정 기관에서 운영하는 문화·직업·기초 소양 강좌에 사용 가능합니다. 음식·자격증·어학 등 다양한 분야가 포함됩니다.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    }
+  ],
+  sources: [
+    { name: '국가평생교육진흥원', url: 'https://www.nile.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 평생교육이용권평생교육이용권대상자기초차상위SpokeContent };

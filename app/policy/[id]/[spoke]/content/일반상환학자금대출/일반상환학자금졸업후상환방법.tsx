@@ -43,14 +43,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '일반상환학자금졸업후상환방법',
+export const 일반상환학자금대출일반상환학자금졸업후상환방법SpokeContent: SpokeData = {
+  h1: '일반상환학자금 졸업 후 상환기간과 분할납부 방법',
   breadcrumb: '일반상환학자금졸업후상환방법',
-  title: '일반상환학자금 졸업 후 상환기간과 분할납부 방법',
   description: '일반상환학자금대출 졸업 후 원리금 상환 방법, 조기상환, 유예 신청 절차를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '졸업 후 언제부터 원금을 갚아야 하나요?',
+      a: '졸업 후 최대 2년의 거치기간이 끝나면 원금 상환이 시작됩니다. 거치기간을 짧게 설정했다면 더 일찍 시작됩니다.',
+      source: '한국장학재단 학자금대출',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '분할 납부 기간은 얼마나 되나요?',
+      a: '최대 10년(120개월) 원리금 균등 분할 납부가 가능합니다. 상환 기간을 늘리면 월 납부액이 줄지만 총 이자가 늘어납니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '상환 계좌는 어디서 관리하나요?',
+      a: '한국장학재단 홈페이지(kstudy.com)에서 상환 계좌 등록, 상환 일정 조회, 자동이체 설정이 가능합니다.',
+      source: '한국장학재단',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '실직·소득 없으면 상환 유예가 가능한가요?',
+      a: '한국장학재단에 납부 유예를 신청할 수 있습니다. 실직, 출산, 군 복무 등 사유가 인정되면 최대 3년까지 유예됩니다.',
+      source: '한국장학재단 납부유예 안내',
+      sourceUrl: 'https://www.kstudy.com',
+    },
+    {
+      q: '조기 상환 시 수수료가 있나요?',
+      a: '없습니다. 중도상환 수수료 없이 언제든 전액 또는 일부를 상환할 수 있습니다.',
+      source: '한국장학재단 학자금대출',
+      sourceUrl: 'https://www.kstudy.com',
+    }
+  ],
+  sources: [
+    { name: '한국장학재단 학자금대출', url: 'https://www.kstudy.com' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 일반상환학자금대출일반상환학자금졸업후상환방법SpokeContent };

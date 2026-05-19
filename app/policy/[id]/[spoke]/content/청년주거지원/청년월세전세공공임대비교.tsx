@@ -38,14 +38,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '청년월세전세공공임대비교',
+export const 청년주거지원청년월세전세공공임대비교SpokeContent: SpokeData = {
+  h1: '청년 월세보조 vs 전세대출 vs 공공임대 뭐 먼저 신청할까',
   breadcrumb: '청년월세전세공공임대비교',
-  title: '청년 월세보조 vs 전세대출 vs 공공임대 뭐 먼저 신청할까',
   description: '청년 주거지원 3가지(월세지원·전세자금대출·공공임대)의 조건·혜택·신청 우선순위를 비교합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '청년 월세보조·전세대출·공공임대 중 무엇이 먼저인가요?',
+      a: '당장 살 곳이 필요하면 공공임대 신청이 우선입니다. 이미 전세·월세로 거주 중이라면 버팀목 전세 대출이나 청년월세 특별지원을 활용하세요.',
+      source: '국토교통부',
+      sourceUrl: 'https://www.molit.go.kr',
+    },
+    {
+      q: '전세 대출과 월세 보조 중복 수혜가 가능한가요?',
+      a: '버팀목 전세 대출과 청년월세 특별지원은 중복 신청이 불가합니다. 둘 중 더 유리한 것을 선택해야 합니다.',
+      source: '주택도시기금',
+      sourceUrl: 'https://nhuf.molit.go.kr',
+    },
+    {
+      q: '소득이 낮을수록 어떤 지원이 유리한가요?',
+      a: '소득이 매우 낮아 수급자·차상위라면 공공임대(시세 30~50%)가 가장 유리합니다. 중간 소득층은 버팀목 전세 대출 활용이 현실적입니다.',
+      source: '마이홈포털',
+      sourceUrl: 'https://www.myhome.go.kr',
+    },
+    {
+      q: '공공임대 당첨 확률이 낮으면 대안은?',
+      a: '행복주택 대기 등록 후 청년 전용 버팀목 전세 대출로 전세를 구하는 방법이 현실적입니다.',
+      source: '마이홈포털',
+      sourceUrl: 'https://www.myhome.go.kr',
+    },
+    {
+      q: '청년 주거 지원 통합 안내처는 어디인가요?',
+      a: '마이홈포털(myhome.go.kr) 또는 마이홈 앱에서 본인 상황에 맞는 지원 유형 비교 상담이 가능합니다.',
+      source: '마이홈포털',
+      sourceUrl: 'https://www.myhome.go.kr',
+    }
+  ],
+  sources: [
+    { name: '국토교통부·마이홈포털', url: 'https://www.myhome.go.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 청년주거지원청년월세전세공공임대비교SpokeContent };

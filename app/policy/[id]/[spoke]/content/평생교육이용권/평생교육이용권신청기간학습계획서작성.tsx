@@ -37,14 +37,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '평생교육이용권신청기간학습계획서작성',
+export const 평생교육이용권평생교육이용권신청기간학습계획서작성SpokeContent: SpokeData = {
+  h1: '평생교육이용권 신청기간과 학습계획서 작성 방법',
   breadcrumb: '평생교육이용권신청기간학습계획서작성',
-  title: '평생교육이용권 신청기간과 학습계획서 작성 방법',
   description: '평생교육이용권 신청 시기(연 1~2회), 학습계획서 작성 요령과 심사 기준을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '신청 기간은 언제인가요?',
+      a: '통상 연초(1~3월)에 공고되며 선착순으로 마감됩니다. 국가평생교육진흥원 공식 홈페이지에서 공고를 확인하세요.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    },
+    {
+      q: '학습계획서란 무엇인가요?',
+      a: '이용권을 어떤 강좌에 어떻게 활용할지 기술하는 서류입니다. 학습 목표, 수강 예정 강좌, 기대 효과 등을 적습니다.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    },
+    {
+      q: '학습계획서를 잘 못 쓰면 탈락하나요?',
+      a: '심사 기준 중 하나이므로 구체적으로 작성할수록 유리합니다. 직업 연계, 자기계발 목표 등을 명확히 서술하세요.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    },
+    {
+      q: '신청은 온라인으로 할 수 있나요?',
+      a: '평생학습계좌제 홈페이지(llip.nile.or.kr)에서 온라인 신청이 가능합니다. 신분증과 기초·차상위 증빙 서류가 필요합니다.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    },
+    {
+      q: '선착순이면 일찍 신청해야 하나요?',
+      a: '네. 예산 소진 시 조기 마감됩니다. 공고 첫날 신청을 추천합니다.',
+      source: '국가평생교육진흥원',
+      sourceUrl: 'https://www.nile.or.kr',
+    }
+  ],
+  sources: [
+    { name: '국가평생교육진흥원', url: 'https://www.nile.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 평생교육이용권평생교육이용권신청기간학습계획서작성SpokeContent };

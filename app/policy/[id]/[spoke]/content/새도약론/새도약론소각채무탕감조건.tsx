@@ -10,14 +10,46 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '새도약론소각채무탕감조건',
+export const 새도약론새도약론소각채무탕감조건SpokeContent: SpokeData = {
+  h1: '새도약론 소각 의미 — 실제 채무 탕감 조건',
   breadcrumb: '새도약론소각채무탕감조건',
-  title: '새도약론 소각 의미 — 실제 채무 탕감 조건',
   description: '새도약기금의 채무 소각(탕감) 조건, 5% 이행 시 나머지 감면 내용, 소각 대상 채권을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    {
+      q: '새도약론에서 채무 소각이 가능한가요?',
+      a: '새도약론 자체는 대출 상품이므로 소각 개념이 없습니다. 채무 소각(탕감)은 새출발기금의 채무조정 과정에서 이루어집니다.',
+      source: '금융위원회',
+      sourceUrl: 'https://www.fsc.go.kr',
+    },
+    {
+      q: '새출발기금에서 채무가 탕감되는 조건은 무엇인가요?',
+      a: '연체 기간, 채무 규모, 상환 능력 등을 심사하여 원금의 일부(30~60% 수준)를 감면 또는 소각합니다.',
+      source: '새출발기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '채무 탕감 후 남은 빚은 어떻게 갚나요?',
+      a: '조정된 잔여 채무를 분할 상환합니다. 상환 기간과 금리가 완화된 조건으로 재설정됩니다.',
+      source: '새출발기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '새출발기금 채무조정을 신청하면 추심이 중단되나요?',
+      a: '신청 접수 후 추심 행위가 일시 중단됩니다. 조정이 확정되면 추심이 완전 종료됩니다.',
+      source: '새출발기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    },
+    {
+      q: '채무 소각 후 대출이 가능한가요?',
+      a: '신용 회복 기간 동안 신규 대출이 어렵습니다. 새도약론은 조정 완료 후 일정 기간이 지나야 신청 가능합니다.',
+      source: '새도약기금',
+      sourceUrl: 'https://www.saedoyak.or.kr',
+    }
+  ],
+  sources: [
+    { name: '새도약기금', url: 'https://www.saedoyak.or.kr' },
+  ],
 };
-
-export default spokeData;
-export { spokeData as 새도약론새도약론소각채무탕감조건SpokeContent };
