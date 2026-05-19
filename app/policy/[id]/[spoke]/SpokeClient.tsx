@@ -1,8 +1,10 @@
 'use client';
 import Link from 'next/link';
 import { ChevronRight, ChevronDown, User } from 'lucide-react';
-import { useState } from 'react';
+import { Fragment, ReactNode, useState } from 'react';
 import PolicySidebar from '@/components/PolicySidebar';
+import KeyFactsBox from '@/components/KeyFactsBox';
+import QACard, { Hi, QABox, QATable } from '@/components/QACard';
 import {
   articleSchema,
   breadcrumbSchema,
@@ -23,15 +25,43 @@ import {
  */
 
 /* ── 타입 ── */
+/* ── QA 아이템 (허브 PolicyData 와 동일 구조) ── */
+export interface SpokeQAItem {
+  q: string;
+  anchor?: string;
+  intro?: string;
+  highlights?: string[];
+  table?: { headers: string[]; rows: string[][] };
+  box?: { label?: string; title?: string; content: string };
+  box2?: { label?: string; title?: string; content: string };
+  list?: string[];
+}
+
 export interface SpokeData {
   h1: string;
   breadcrumb: string;
   description: string;
   datePublished: string;
   dateModified: string;
-  Content: React.ComponentType;
+  Content?: React.ComponentType;          // 기존 JSX 방식 (옵셔널)
+  qa?: SpokeQAItem[];                     // 데이터 방식 (허브와 동일)
+  keyFacts?: Record<string, string>;      // 핵심콕콕 박스 (옵셔널)
+  keyFactsHighlights?: Record<string, string[]>;
   faqData: { q: string; a: string; source: string; sourceUrl: string }[];
   sources: { name: string; url: string }[];
+}
+
+/* ── 텍스트 내 highlights 단어를 형광으로 강조 ── */
+function renderWithHi(text: string, highlights: string[] = []): ReactNode {
+  if (!text) return null;
+  if (!highlights.length) return text;
+  const sorted = [...highlights].sort((a, b) => b.length - a.length);
+  const escaped = sorted.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  const pattern = new RegExp(\`(\${escaped.join('|')})\`, 'g');
+  const parts = text.split(pattern);
+  return parts.map((part, idx) =>
+    highlights.includes(part) ? <Hi key={idx}>{part}</Hi> : <Fragment key={idx}>{part}</Fragment>
+  );
 }
 
 /* ── manifest & 레지스트리 (단일 소스) ── */
@@ -77,7 +107,6 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   }
 
   const spokeUrl  = `${SITE_URL}/policy/${policyId}/${slug}`;
-  const { Content } = spoke;
 
   const schemas = [
     articleSchema({
@@ -138,8 +167,56 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
               </div>
             </header>
 
-            {/* 스포크별 고유 콘텐츠 */}
-            <Content />
+            {/* 핵심콕콕 — keyFacts 있을 때 */}
+            {spoke.keyFacts && (
+              <KeyFactsBox
+                facts={spoke.keyFacts}
+                highlights={spoke.keyFactsHighlights || {}}
+              />
+            )}
+
+            {/* QA 카드 방식 (데이터 기반, 허브와 동일 렌더링) */}
+            {spoke.qa && spoke.qa.map((item, i) => (
+              <QACard
+                key={i}
+                number={i + 1}
+                q={item.q}
+                anchor={item.anchor || `q${i + 1}`}
+              >
+                {item.intro && (
+                  <p style={{ fontSize: 15, lineHeight: 1.8, marginBottom: 16 }}>
+                    {renderWithHi(item.intro, item.highlights)}
+                  </p>
+                )}
+                {item.table && (
+                  <QATable
+                    headers={item.table.headers}
+                    rows={item.table.rows}
+                    highlights={item.highlights}
+                  />
+                )}
+                {item.box && (
+                  <QABox label={item.box.label || item.box.title || ''}>
+                    {renderWithHi(item.box.content, item.highlights)}
+                  </QABox>
+                )}
+                {item.box2 && (
+                  <QABox label={item.box2.label || item.box2.title || ''}>
+                    {renderWithHi(item.box2.content, item.highlights)}
+                  </QABox>
+                )}
+                {item.list && (
+                  <ul style={{ paddingLeft: 20, lineHeight: 1.9 }}>
+                    {item.list.map((li, j) => (
+                      <li key={j}>{renderWithHi(li, item.highlights)}</li>
+                    ))}
+                  </ul>
+                )}
+              </QACard>
+            ))}
+
+            {/* 기존 JSX 방식 (Content 있을 때) */}
+            {spoke.Content && <spoke.Content />}
 
             {/* 광고 */}
             <div className="ad-slot">광고 영역</div>

@@ -539,6 +539,65 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               </QACard>
             )}
 
+            {/* 상세 가이드 스포크 카드 */}
+            {spokeList.length > 0 && (
+              <section className="detail-card" id="spoke-guides" style={{ marginBottom: 24 }}>
+                <h2 className="detail-card-head">📋 상세 가이드</h2>
+                <div className="detail-card-body" style={{ padding: '20px 24px' }}>
+                  <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16, lineHeight: 1.6 }}>
+                    아래 주제별 상세 가이드를 클릭하면 더 자세한 내용을 확인할 수 있습니다.
+                  </p>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 12 }}>
+                    {spokeList.map((s: any, i: number) => (
+                      <Link
+                        key={i}
+                        href={`/policy/${d.id}/${s.slug}`}
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: 10,
+                          padding: '14px 16px',
+                          background: 'var(--bg-secondary, #F7F8FA)',
+                          border: '1.5px solid var(--border)',
+                          borderRadius: 10,
+                          textDecoration: 'none',
+                          color: 'var(--text-primary)',
+                          fontSize: 14,
+                          fontWeight: 500,
+                          lineHeight: 1.4,
+                          transition: 'border-color 0.15s, background 0.15s',
+                        }}
+                        onMouseEnter={e => {
+                          (e.currentTarget as HTMLElement).style.borderColor = 'var(--gov-primary)';
+                          (e.currentTarget as HTMLElement).style.background = '#EEF3FB';
+                        }}
+                        onMouseLeave={e => {
+                          (e.currentTarget as HTMLElement).style.borderColor = 'var(--border)';
+                          (e.currentTarget as HTMLElement).style.background = 'var(--bg-secondary, #F7F8FA)';
+                        }}
+                      >
+                        <span style={{
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          width: 26,
+                          height: 26,
+                          borderRadius: '50%',
+                          background: 'var(--gov-primary)',
+                          color: '#fff',
+                          fontSize: 12,
+                          fontWeight: 700,
+                          flexShrink: 0,
+                        }}>{i + 1}</span>
+                        <span style={{ flex: 1 }}>{s.title ?? s.label ?? s.slug}</span>
+                        <ChevronRight size={14} style={{ color: 'var(--text-muted)', flexShrink: 0 }} />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            )}
+
             {/* 관련 정책 */}
             {d.related && d.related.length > 0 && (
               <section className="detail-card" id="related">
