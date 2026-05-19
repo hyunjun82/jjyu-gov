@@ -254,8 +254,8 @@ export const publicHousingSalePolicy: PolicyData = {
 };
 
 export const publicHousingSaleSpokes: SpokeList = [
-  { slug: 'eligibility',    label: '청약자격' },
-  { slug: 'amount',         label: '분양가' },
-  { slug: 'how-to-apply',   label: '청약방법' },
-  { slug: 'faq',            label: '자주묻는질문' },
+  { slug: '공공분양일반공급청약자격소득자산기준', label: '일반공급자격' },
+  { slug: '공공분양vs민간분양유리한점차이',       label: '공공vs민간' },
+  { slug: '공공분양vs공공임대뭘신청해야하나',     label: '공공분양vs임대' },
+  { slug: '공공분양당첨후계약입주일정절차',       label: '당첨후절차' },
 ];

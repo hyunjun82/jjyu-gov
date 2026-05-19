@@ -188,9 +188,8 @@ export const unemploymentCreditPolicy: PolicyData = {
 };
 
 export const unemploymentCreditSpokes = [
-  { slug: 'eligibility', title: '지원 대상 확인' },
-  { slug: 'benefit-amount', title: '지원금 계산' },
-  { slug: 'apply', title: '신청 방법' },
-  { slug: 'pension-effect', title: '연금 증가 효과' },
-  { slug: 'faq', title: '자주 묻는 질문' },
+  { slug: '실업크레딧이득안하면어떻게',     label: '이득vs안하면' },
+  { slug: '실업크레딧퇴사후신청방법시기',   label: '퇴사후신청' },
+  { slug: '실업크레딧국민연금동시납부가능', label: '국민연금동시납부' },
+  { slug: '실업크레딧단점해지구직급여주의', label: '단점해지주의' },
 ];

@@ -225,9 +225,8 @@ export const leapLoanPolicy = {
 } as const;
 
 export const leapLoanSpokes = [
-  { slug: 'amount', role: 'amount', title: '이행기간별 한도·금리 4단계', content: '6~11개월 300만원 4.0%, 12~23개월 1,000만원 3.8%, 24~35개월 1,500만원 3.5%, 36개월+ 1,500만원 3.0%.' },
-  { slug: 'eligibility', role: 'eligibility', title: '2018.6.19 이전 연체 + 채무조정 6개월 이상', content: '세 조건 모두 충족 필요.' },
-  { slug: 'apply', role: 'apply', title: '서민금융통합지원센터 신청 + 콜센터 1600-5500', content: '사전 예약 후 방문. 필요 서류 안내.' },
-  { slug: 'vs-fund', role: 'overlap', title: '새도약론 vs 새도약기금 비교', content: '도약론 = 저금리 대출, 도약기금 = 채권 매입 소각.' },
-  { slug: 'special', role: 'usage', title: '특별 채무조정 - 원금 30~80% 감면', content: '5년 이상 연체 + 중위소득 125% 이하 추가 제도.' },
+  { slug: '새도약론신청자격대상자확인',       label: '신청자격확인' },
+  { slug: '새도약론취급기관대부업체목록',     label: '취급기관목록' },
+  { slug: '새도약론새도약기금새출발기금차이', label: '세제도차이' },
+  { slug: '새도약론소각채무탕감조건',         label: '소각탕감조건' },
 ];

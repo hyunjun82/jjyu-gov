@@ -532,6 +532,66 @@ import { 창업지원단계별비교예창패초기도약차이SpokeContent }   
 import { 창업지원예비창업패키지최대8000만신청자격SpokeContent }    from '@/app/policy/[id]/[spoke]/content/창업지원/예비창업패키지최대8000만신청자격';
 import { 창업지원창업도약패키지업력3~7년최대2억SpokeContent }     from '@/app/policy/[id]/[spoke]/content/창업지원/창업도약패키지업력3~7년최대2억';
 import { 창업지원청년창업사관학교만39세1억평균7천SpokeContent }    from '@/app/policy/[id]/[spoke]/content/창업지원/청년창업사관학교만39세1억평균7천';
+/* ── 공공임대주택 (slug: public-rental-housing) ── */
+import { 공공임대주택50년공공임대신청자격월소득기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공임대주택/50년공공임대신청자격월소득기준';
+import { 공공임대주택LH공공임대월세임대료산정방식SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공임대주택/LH공공임대월세임대료산정방식';
+import { 공공임대주택공공임대입주단점실거주자SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공임대주택/공공임대입주단점실거주자';
+import { 공공임대주택공공임대청약공고신청순서서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공임대주택/공공임대청약공고신청순서서류';
+
+/* ── 공공분양주택 (slug: public-housing-sale) ── */
+import { 공공분양주택공공분양일반공급청약자격소득자산기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공분양주택/공공분양일반공급청약자격소득자산기준';
+import { 공공분양주택공공분양vs민간분양유리한점차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공분양주택/공공분양vs민간분양유리한점차이';
+import { 공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공분양주택/공공분양vs공공임대뭘신청해야하나';
+import { 공공분양주택공공분양당첨후계약입주일정절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공분양주택/공공분양당첨후계약입주일정절차';
+
+/* ── 국가장학금 (slug: national-scholar) ── */
+import { 국가장학금국가장학금2차신청기간2026SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금2차신청기간2026';
+import { 국가장학금국가장학금소득분위지급금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금소득분위지급금액';
+import { 국가장학금국가장학금F학점성적기준미달SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금F학점성적기준미달';
+import { 국가장학금국가장학금지급일통장입금시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금지급일통장입금시기';
+
+/* ── 일반상환학자금대출 (slug: general-student-loan) ── */
+import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
+import { 일반상환학자금대출일반상환학자금2026금리이자SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환학자금2026금리이자';
+import { 일반상환학자금대출일반상환학자금거치기간최대선택SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환학자금거치기간최대선택';
+import { 일반상환학자금대출일반상환학자금졸업후상환방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환학자금졸업후상환방법';
+
+/* ── 청년주거지원 (slug: youth-housing-support) ── */
+import { 청년주거지원청년월세지원신청조건나이소득2026SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년주거지원/청년월세지원신청조건나이소득2026';
+import { 청년주거지원청년주거급여분리지급조건금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년주거지원/청년주거급여분리지급조건금액';
+import { 청년주거지원청년주거지원정책문제점못받는경우SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년주거지원/청년주거지원정책문제점못받는경우';
+import { 청년주거지원청년월세전세공공임대비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년주거지원/청년월세전세공공임대비교';
+
+/* ── 평생교육이용권 (slug: lifelong-education-voucher) ── */
+import { 평생교육이용권평생교육이용권사용가능기관강좌확인SpokeContent } from '@/app/policy/[id]/[spoke]/content/평생교육이용권/평생교육이용권사용가능기관강좌확인';
+import { 평생교육이용권평생교육이용권지원금우수이용자70만원SpokeContent } from '@/app/policy/[id]/[spoke]/content/평생교육이용권/평생교육이용권지원금우수이용자70만원';
+import { 평생교육이용권평생교육이용권신청기간학습계획서작성SpokeContent } from '@/app/policy/[id]/[spoke]/content/평생교육이용권/평생교육이용권신청기간학습계획서작성';
+import { 평생교육이용권평생교육이용권대상자기초차상위SpokeContent } from '@/app/policy/[id]/[spoke]/content/평생교육이용권/평생교육이용권대상자기초차상위';
+
+/* ── 실업크레딧 (slug: unemployment-credit) ── */
+import { 실업크레딧실업크레딧이득안하면어떻게SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업크레딧/실업크레딧이득안하면어떻게';
+import { 실업크레딧실업크레딧퇴사후신청방법시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업크레딧/실업크레딧퇴사후신청방법시기';
+import { 실업크레딧실업크레딧국민연금동시납부가능SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업크레딧/실업크레딧국민연금동시납부가능';
+import { 실업크레딧실업크레딧단점해지구직급여주의SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업크레딧/실업크레딧단점해지구직급여주의';
+
+/* ── 중소기업혁신바우처 (slug: sme-innovation-voucher) ── */
+import { 중소기업혁신바우처혁신바우처공고신청자격지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/중소기업혁신바우처/혁신바우처공고신청자격지원금액';
+import { 중소기업혁신바우처혁신바우처공급기업수행기관선택SpokeContent } from '@/app/policy/[id]/[spoke]/content/중소기업혁신바우처/혁신바우처공급기업수행기관선택';
+import { 중소기업혁신바우처혁신바우처사업계획서심사기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/중소기업혁신바우처/혁신바우처사업계획서심사기준';
+import { 중소기업혁신바우처혁신바우처플랫폼일반재기신청절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/중소기업혁신바우처/혁신바우처플랫폼일반재기신청절차';
+
+/* ── 새도약론 (slug: leap-loan) ── */
+import { 새도약론새도약론신청자격대상자확인SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약론/새도약론신청자격대상자확인';
+import { 새도약론새도약론취급기관대부업체목록SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약론/새도약론취급기관대부업체목록';
+import { 새도약론새도약론새도약기금새출발기금차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약론/새도약론새도약기금새출발기금차이';
+import { 새도약론새도약론소각채무탕감조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약론/새도약론소각채무탕감조건';
+
+/* ── 팁스TIPS (slug: tips-program) ── */
+import { 팁스TIPS팁스지원자격스타트업단계기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/팁스TIPS/팁스지원자격스타트업단계기준';
+import { 팁스TIPS팁스운영사선정매칭절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/팁스TIPS/팁스운영사선정매칭절차';
+import { 팁스TIPS팁스창업사업화RD지원금SpokeContent } from '@/app/policy/[id]/[spoke]/content/팁스TIPS/팁스창업사업화RD지원금';
+import { 팁스TIPS팁스프로그램종류트랙차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/팁스TIPS/팁스프로그램종류트랙차이';
+
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
@@ -1131,5 +1191,75 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '예비창업패키지최대8000만신청자격':   창업지원예비창업패키지최대8000만신청자격SpokeContent,
     '창업도약패키지업력3~7년최대2억':    창업지원창업도약패키지업력3~7년최대2억SpokeContent,
     '청년창업사관학교만39세1억평균7천':  창업지원청년창업사관학교만39세1억평균7천SpokeContent,
+  },
+
+  'public-rental-housing': {
+    '50년공공임대신청자격월소득기준':   공공임대주택50년공공임대신청자격월소득기준SpokeContent,
+    'LH공공임대월세임대료산정방식':     공공임대주택LH공공임대월세임대료산정방식SpokeContent,
+    '공공임대입주단점실거주자':          공공임대주택공공임대입주단점실거주자SpokeContent,
+    '공공임대청약공고신청순서서류':      공공임대주택공공임대청약공고신청순서서류SpokeContent,
+  },
+
+  'public-housing-sale': {
+    '공공분양일반공급청약자격소득자산기준': 공공분양주택공공분양일반공급청약자격소득자산기준SpokeContent,
+    '공공분양vs민간분양유리한점차이':     공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
+    '공공분양vs공공임대뭘신청해야하나':   공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
+    '공공분양당첨후계약입주일정절차':     공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'national-scholar': {
+    '국가장학금2차신청기간2026':   국가장학금국가장학금2차신청기간2026SpokeContent,
+    '국가장학금소득분위지급금액':   국가장학금국가장학금소득분위지급금액SpokeContent,
+    '국가장학금F학점성적기준미달':  국가장학금국가장학금F학점성적기준미달SpokeContent,
+    '국가장학금지급일통장입금시기': 국가장학금국가장학금지급일통장입금시기SpokeContent,
+  },
+
+  'general-student-loan': {
+    '일반상환vs취업후상환학자금선택기준': 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent,
+    '일반상환학자금2026금리이자':        일반상환학자금대출일반상환학자금2026금리이자SpokeContent,
+    '일반상환학자금거치기간최대선택':     일반상환학자금대출일반상환학자금거치기간최대선택SpokeContent,
+    '일반상환학자금졸업후상환방법':       일반상환학자금대출일반상환학자금졸업후상환방법SpokeContent,
+  },
+
+  'youth-housing-support': {
+    '청년월세지원신청조건나이소득2026':     청년주거지원청년월세지원신청조건나이소득2026SpokeContent,
+    '청년주거급여분리지급조건금액':          청년주거지원청년주거급여분리지급조건금액SpokeContent,
+    '청년주거지원정책문제점못받는경우':      청년주거지원청년주거지원정책문제점못받는경우SpokeContent,
+    '청년월세전세공공임대비교':              청년주거지원청년월세전세공공임대비교SpokeContent,
+  },
+
+  'lifelong-education-voucher': {
+    '평생교육이용권사용가능기관강좌확인':    평생교육이용권평생교육이용권사용가능기관강좌확인SpokeContent,
+    '평생교육이용권지원금우수이용자70만원':  평생교육이용권평생교육이용권지원금우수이용자70만원SpokeContent,
+    '평생교육이용권신청기간학습계획서작성':  평생교육이용권평생교육이용권신청기간학습계획서작성SpokeContent,
+    '평생교육이용권대상자기초차상위':        평생교육이용권평생교육이용권대상자기초차상위SpokeContent,
+  },
+
+  'unemployment-credit': {
+    '실업크레딧이득안하면어떻게':      실업크레딧실업크레딧이득안하면어떻게SpokeContent,
+    '실업크레딧퇴사후신청방법시기':    실업크레딧실업크레딧퇴사후신청방법시기SpokeContent,
+    '실업크레딧국민연금동시납부가능':  실업크레딧실업크레딧국민연금동시납부가능SpokeContent,
+    '실업크레딧단점해지구직급여주의':  실업크레딧실업크레딧단점해지구직급여주의SpokeContent,
+  },
+
+  'sme-innovation-voucher': {
+    '혁신바우처공고신청자격지원금액':    중소기업혁신바우처혁신바우처공고신청자격지원금액SpokeContent,
+    '혁신바우처공급기업수행기관선택':    중소기업혁신바우처혁신바우처공급기업수행기관선택SpokeContent,
+    '혁신바우처사업계획서심사기준':      중소기업혁신바우처혁신바우처사업계획서심사기준SpokeContent,
+    '혁신바우처플랫폼일반재기신청절차':  중소기업혁신바우처혁신바우처플랫폼일반재기신청절차SpokeContent,
+  },
+
+  'leap-loan': {
+    '새도약론신청자격대상자확인':          새도약론새도약론신청자격대상자확인SpokeContent,
+    '새도약론취급기관대부업체목록':        새도약론새도약론취급기관대부업체목록SpokeContent,
+    '새도약론새도약기금새출발기금차이':    새도약론새도약론새도약기금새출발기금차이SpokeContent,
+    '새도약론소각채무탕감조건':            새도약론새도약론소각채무탕감조건SpokeContent,
+  },
+
+  'tips-program': {
+    '팁스지원자격스타트업단계기준': 팁스TIPS팁스지원자격스타트업단계기준SpokeContent,
+    '팁스운영사선정매칭절차':       팁스TIPS팁스운영사선정매칭절차SpokeContent,
+    '팁스창업사업화RD지원금':       팁스TIPS팁스창업사업화RD지원금SpokeContent,
+    '팁스프로그램종류트랙차이':     팁스TIPS팁스프로그램종류트랙차이SpokeContent,
   },
 };

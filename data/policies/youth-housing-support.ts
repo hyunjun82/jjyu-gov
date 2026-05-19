@@ -120,9 +120,8 @@ export const youthHousingSupportPolicy = {
 } as const;
 
 export const youthHousingSupportSpokes = [
-  { slug: 'amount', role: 'amount', title: '월세 20만 + 전세 2억 + 매입임대', content: '4대 사업.' },
-  { slug: 'rent', role: 'usage', title: '월세 지원 - 월 20만 12개월', content: '복지로 신청.' },
-  { slug: 'loan', role: 'usage', title: '버팀목 전세 - 2억 1.2~2.1%', content: '주택금융공사.' },
-  { slug: 'apply', role: 'apply', title: 'myhome.go.kr - 통합 검색', content: '본인 자격 확인.' },
-  { slug: 'situation', role: 'overlap', title: '본인 상황별 - 자취/전세/자금', content: '맞춤 선택.' },
+  { slug: '청년월세지원신청조건나이소득2026',   label: '청년월세지원조건' },
+  { slug: '청년주거급여분리지급조건금액',        label: '주거급여분리지급' },
+  { slug: '청년주거지원정책문제점못받는경우',    label: '정책문제점' },
+  { slug: '청년월세전세공공임대비교',            label: '월세전세임대비교' },
 ];

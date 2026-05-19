@@ -120,9 +120,8 @@ export const generalStudentLoanPolicy = {
 } as const;
 
 export const generalStudentLoanSpokes = [
-  { slug: 'amount', role: 'amount', title: '등록금 전액 + 생활비 150만', content: '재학 무이자.' },
-  { slug: 'eligibility', role: 'eligibility', title: '학부 + 70점 - 소득 무관', content: '신용 거의 무관.' },
-  { slug: 'apply', role: 'apply', title: 'kosaf.go.kr 학기별', content: '등록금 학교 직접.' },
-  { slug: 'interest', role: 'usage', title: '재학 무이자 - 졸업 후 2~3%', content: '정부 부담.' },
-  { slug: 'vs', role: 'overlap', title: '국가장학 vs 본 대출', content: '장학 우선, 대출 보완.' },
+  { slug: '일반상환vs취업후상환학자금선택기준', label: '일반vs취업후상환' },
+  { slug: '일반상환학자금2026금리이자',         label: '금리이자' },
+  { slug: '일반상환학자금거치기간최대선택',     label: '거치기간' },
+  { slug: '일반상환학자금졸업후상환방법',       label: '졸업후상환' },
 ];

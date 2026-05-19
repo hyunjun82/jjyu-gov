@@ -255,8 +255,8 @@ export const publicRentalHousingPolicy: PolicyData = {
 };
 
 export const publicRentalHousingSpokes: SpokeList = [
-  { slug: 'eligibility',    label: '신청자격' },
-  { slug: 'amount',         label: '임차료' },
-  { slug: 'how-to-apply',   label: '신청방법' },
-  { slug: 'faq',            label: '자주묻는질문' },
+  { slug: '50년공공임대신청자격월소득기준',   label: '50년공공임대신청자격' },
+  { slug: 'LH공공임대월세임대료산정방식',     label: 'LH임대료산정' },
+  { slug: '공공임대입주단점실거주자',          label: '입주단점' },
+  { slug: '공공임대청약공고신청순서서류',      label: '청약공고신청' },
 ];

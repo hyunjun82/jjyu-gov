@@ -103,9 +103,8 @@ export const smeInnovationVoucherPolicy = {
 } as const;
 
 export const smeInnovationVoucherSpokes = [
-  { slug: 'amount', role: 'amount', title: '최대 5,000만원 바우처 - 정부 70~80%', content: '자부담 20~30%.' },
-  { slug: 'type', role: 'eligibility', title: '4개 유형 - 일반/탄소중립/중대재해/재기', content: '본인 상황 맞춰 선택.' },
-  { slug: 'apply', role: 'apply', title: 'mssmiv.com 온라인 신청', content: '1차 1월 / 2차 하반기.' },
-  { slug: 'nonseoul', role: 'usage', title: '비수도권 인구감소 우대', content: '평가 가점 + 자부담 ↓.' },
-  { slug: 'overlap', role: 'overlap', title: 'R&D 해외진출 중복 가능', content: '같은 컨설팅 바우처는 제한.' },
+  { slug: '혁신바우처공고신청자격지원금액',   label: '공고신청자격' },
+  { slug: '혁신바우처공급기업수행기관선택',   label: '공급기업선택' },
+  { slug: '혁신바우처사업계획서심사기준',     label: '사업계획서' },
+  { slug: '혁신바우처플랫폼일반재기신청절차', label: '플랫폼신청절차' },
 ];

@@ -104,9 +104,8 @@ export const tipsProgramPolicy = {
 } as const;
 
 export const tipsProgramSpokes = [
-  { slug: 'amount', role: 'amount', title: '민간 1억 + 정부 7억 = 최대 8억원', content: 'R&D 5억 + 사업화 2억 매칭.' },
-  { slug: 'eligibility', role: 'eligibility', title: '운영사 1억 선투자 필수 - 직접 신청 X', content: 'VC가 시장 검증.' },
-  { slug: 'apply', role: 'apply', title: 'jointips.or.kr - 운영사 IR', content: '투자 → 추천 → 평가.' },
-  { slug: 'scaleup', role: 'usage', title: '스케일업 TIPS - 시리즈 A 이후', content: '한도 더 큼.' },
-  { slug: 'change', role: 'overlap', title: '2026 예산 45% 증액 - 풀사이클', content: '특정 분야 별도 트랙.' },
+  { slug: '팁스지원자격스타트업단계기준', label: '지원자격기준' },
+  { slug: '팁스운영사선정매칭절차',       label: '운영사매칭' },
+  { slug: '팁스창업사업화RD지원금',       label: 'RD지원금' },
+  { slug: '팁스프로그램종류트랙차이',     label: '트랙종류' },
 ];

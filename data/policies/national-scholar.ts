@@ -120,9 +120,8 @@ export const nationalScholarPolicy = {
 } as const;
 
 export const nationalScholarSpokes = [
-  { slug: 'amount', role: 'amount', title: '학기 최대 280만 - 연 560만', content: '소득분위별 차등.' },
-  { slug: 'eligibility', role: 'eligibility', title: '학부 + 8구간 이하 + 70점', content: '대학원 제외.' },
-  { slug: 'apply', role: 'apply', title: 'kosaf.go.kr 학기 2회', content: '본인 매 학기 신청.' },
-  { slug: 'bracket', role: 'usage', title: '소득분위 1~10', content: '가구원 동의 자동 산정.' },
-  { slug: 'vs', role: 'overlap', title: '장학 vs 대출 - 무상 vs 상환', content: '장학 우선, 대출 보완.' },
+  { slug: '국가장학금2차신청기간2026',   label: '2차신청기간' },
+  { slug: '국가장학금소득분위지급금액',   label: '소득분위금액' },
+  { slug: '국가장학금F학점성적기준미달',  label: 'F학점성적기준' },
+  { slug: '국가장학금지급일통장입금시기', label: '지급일' },
 ];

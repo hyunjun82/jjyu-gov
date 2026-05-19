@@ -329,68 +329,9 @@ export const lifelongEducationVoucherPolicy: PolicyData = {
   relatedPolicies: ['153', '152', '83'],
 };
 
-export const lifelongEducationVoucherSpokes: SpokeData[] = [
-  {
-    slug: 'eligibility',
-    role: 'eligibility',
-    title: '신청 자격 — 이용권 유형별 연령·소득 기준',
-    content:
-      '일반(지역특화): 2007.12.31 이전 출생 + 기초수급·차상위 등 소득요건 충족. AI·디지털: 1996.12.31 이전 출생(만 30세↑), 소득무관. 노인: 1961.12.31 이전 출생(만 65세↑), 소득무관.',
-  },
-  {
-    slug: 'amount',
-    role: 'amount',
-    title: '지원 금액 — 연 35만 원, 우수이용자 최대 70만 원',
-    content:
-      '기본 지원금 1인당 연 35만 원(350,000원) 바우처 지급. 성실 학습 참여 우수이용자 선발 시 최대 70만 원까지 지원. 미사용액 연말 소멸, 이월·현금화 불가.',
-  },
-  {
-    slug: 'how-to-apply',
-    role: 'how-to-apply',
-    title: '신청 방법 — lllcard.kr 지역 누리집 온라인 신청',
-    content:
-      'lllcard.kr 접속 → 거주 지역 선택 → 약관 동의 → 본인 인증 → 자격 검증 → 신청서 작성 → 이용자 서약 → 신청 완료. 지역별 모집 기간 상이, 모집공고 메뉴 확인 필수.',
-  },
-  {
-    slug: 'types',
-    role: 'detail',
-    title: '이용권 3종 비교 — 일반·AI디지털·노인',
-    content:
-      '①일반(지역특화): 기초수급·차상위 대상 소득요건 충족 성인. ②AI·디지털: 만 30세 이상 소득무관, 디지털 역량 강화 특화. ③노인: 만 65세 이상 소득무관, 어르신 특화 강좌.',
-  },
-  {
-    slug: 'usage',
-    role: 'detail',
-    title: '이용 방법 — 등록 평생교육기관에서 수강',
-    content:
-      'lllcard.kr [사용기관 안내]에 등록된 평생교육기관에서만 사용 가능. 어학·문화예술·인문교양·직업능력·AI·디지털 등 다양한 분야 강좌 수강. 미등록 기관 사용 불인정.',
-  },
-  {
-    slug: 'deadline',
-    role: 'deadline',
-    title: '사용 기간 — 해당 연도 12월 31일까지',
-    content:
-      '지급된 이용권은 신청 연도 12월 31일까지 사용해야 하며, 기간 종료 후 미사용 잔액은 자동 소멸됩니다. 차년도 이월 및 현금화 불가.',
-  },
-  {
-    slug: 'contact',
-    role: 'contact',
-    title: '문의처 — 중앙콜센터 및 지역별 상담센터',
-    content:
-      '중앙콜센터: ☎1600-3005 / 기술지원: ☎1660-0065 (평일 09:00~18:00). 지역별: 서울 1551-4777, 경기 1544-6500, 부산 051-120 등 lllcard.kr 상담센터 메뉴 확인.',
-  },
-  {
-    slug: 'excellent-user',
-    role: 'detail',
-    title: '우수 이용자 — 최대 70만 원 추가 지원',
-    content:
-      '성실하게 학습에 참여해 우수한 학습 성과를 낸 이용자를 우수 이용자로 선발. 선발된 경우 기본 35만 원에 추가 지원을 받아 최대 70만 원까지 지원됩니다.',
-  },
-  {
-    slug: 'precautions',
-    role: 'precaution',
-    title: '유의사항 — 이월·현금화·양도 불가',
-    content:
-      '이용권은 본인만 사용 가능하며 타인 양도 금지. 미사용 잔액은 12월 31일 이후 소멸, 차년도 이월 및 현금 환급 불가. 반드시 등록된 평생교육기관에서만 결제해야 합니다.',
-  },
+export const lifelongEducationVoucherSpokes = [
+  { slug: '평생교육이용권사용가능기관강좌확인',   label: '사용기관강좌' },
+  { slug: '평생교육이용권지원금우수이용자70만원', label: '지원금우수이용자' },
+  { slug: '평생교육이용권신청기간학습계획서작성', label: '신청학습계획서' },
+  { slug: '평생교육이용권대상자기초차상위',       label: '대상자기준' },
 ];
