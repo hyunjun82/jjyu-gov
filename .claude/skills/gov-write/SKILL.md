@@ -221,3 +221,52 @@ git push
 ```
 
 pre-push hook이 check-quality.py 자동 실행 → FAIL이면 push 차단.
+
+---
+
+## 스포크 작성 워크플로우 (gov-write 확장)
+
+### ⚠️ 스포크 품질 기준 (check-spoke-quality.sh 자동 검증)
+
+| 기준 | 조건 | 게이트 |
+|------|------|--------|
+| qa[] 개수 | ≥ 7개 | pre-push 차단 |
+| 각 intro | ≥ 200자 | 작성 중 확인 |
+| faqData[] | ≥ 5개 | pre-push 차단 |
+| sources[] | ≥ 3개 | 작성 중 확인 |
+| 전체 q: 개수 | ≥ 12개 (qa 7 + faqData 5) | pre-push 차단 |
+
+**미달 파일은 `npm run verify:spokes` 또는 git push 시 자동 차단됨.**
+
+### 스포크 파일 생성 순서
+
+```
+1. 검색 키워드 수집 (Google PAA + Naver 연관검색어)
+2. 타이틀 4개 확정 (사용자 승인 후)
+3. 템플릿: .claude/skills/gov-write/templates/spoke-template.tsx 복사
+4. {PLACEHOLDER} 채우기 — qa 7개 필수, 각 intro 200자 이상
+5. faqData 5개 작성 (실제 PAA/검색 쿼리 기반)
+6. sources 3개 이상 (정부 1차 출처)
+7. registry.ts import + SpokesRegistry 등록
+8. data/policies/{slug}.ts spokes[] 배열 업데이트
+9. npm run verify:spokes → PASS 확인 후 사용자 승인 요청
+```
+
+### 자가 점검 (파일 저장 전 필수)
+
+```
+[ ] qa[] 개수: __개  (≥7)
+[ ] 가장 짧은 intro: __자  (≥200)
+[ ] faqData[] 개수: __개  (≥5)
+[ ] sources[] 개수: __개  (≥3)
+[ ] 각 qa에 table 또는 box 있음
+[ ] highlights 총합: __개  (≥15 권장)
+```
+
+6개 모두 ✓ 이후에만 저장.
+
+### 배치 작업 한도
+
+- 1 세션 = 최대 4개 정책 × 4 스포크 = 16파일
+- 16파일 작성 후 npm run verify:spokes PASS → 사용자 승인 → push
+- push 후 다음 배치 시작

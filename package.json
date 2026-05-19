@@ -8,14 +8,15 @@
     "start": "next start",
     "lint": "next lint",
     "verify": "npx tsx scripts/verify-quality.ts",
-    "verify:all": "npx tsx scripts/verify-quality.ts --all",
+    "verify:all": "bash scripts/check-spoke-quality.sh && npm run verify",
     "verify-policy": "npx tsx scripts/verify-policy.ts",
     "gov-write": "npx tsx scripts/gov-write.ts",
     "collect": "npx tsx scripts/collect-multi-source.ts",
     "extract": "npx tsx scripts/extract-policy.ts",
     "batch": "npx tsx scripts/batch-gov-write.ts",
     "check": "python3 scripts/check-quality.py",
-    "check:all": "python3 scripts/check-quality.py"
+    "check:all": "python3 scripts/check-quality.py",
+    "verify:spokes": "bash scripts/check-spoke-quality.sh"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
