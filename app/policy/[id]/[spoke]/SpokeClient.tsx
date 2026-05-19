@@ -57,7 +57,7 @@ function renderWithHi(text: string, highlights: string[] = []): ReactNode {
   if (!highlights.length) return text;
   const sorted = [...highlights].sort((a, b) => b.length - a.length);
   const escaped = sorted.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-  const pattern = new RegExp(\`(\${escaped.join('|')})\`, 'g');
+  const pattern = new RegExp(`(${escaped.join('|')})`, 'g');
   const parts = text.split(pattern);
   return parts.map((part, idx) =>
     highlights.includes(part) ? <Hi key={idx}>{part}</Hi> : <Fragment key={idx}>{part}</Fragment>
