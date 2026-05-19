@@ -132,7 +132,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
         <nav className="breadcrumb" aria-label="breadcrumb">
           <Link href="/">홈</Link>
           <ChevronRight size={12} />
-          <Link href={`/category/${d.catSlug}`}>{d.cat}</Link>
+          <Link href={`/category/${d.catSlug ?? 'fund'}`}>{d.cat ?? '지원금'}</Link>
           <ChevronRight size={12} />
           <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{d.title}</span>
         </nav>
@@ -563,4 +563,13 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
 
           <PolicySidebar
             policyId={d.id}
-            policyTitle={d.title.replace(/^2026\s*/, 
+            policyTitle={d.title.replace(/^2026\s*/, '')}
+            spokes={spokeList}
+            applyUrl={d.applyUrl}
+          />
+
+        </div>
+      </div>
+    </main>
+  );
+}

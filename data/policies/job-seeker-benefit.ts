@@ -254,4 +254,5 @@ export const jobSeekerBenefitSpokes = [
   { slug: 'benefit-days', title: '수급일수 조회' },
   { slug: 'appeal', title: '불인정 이의신청' },
   { slug: '재수급', title: '실업급여 재수급 조건 2026 반복수급 감액 횟수별 총정리' },
-  { slug: '알바단기', title: '실업급여 받으면서 알바 단기 가능한지 신고 �
+  { slug: '알바단기', title: '실업급여 받으면서 알바 단기 가능한지 신고 방법 총정리' },
+];
