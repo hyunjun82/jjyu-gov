@@ -5,6 +5,8 @@ export const catastrophicMedicalExpensesPolicy: PolicyData = {
   type: 'service',
   slug: 'catastrophic-medical-expenses',
   title: '재난적 의료비 지원사업',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '보건복지부 · 국민건강보험공단',
   summary: '과도한 의료비 지출로 경제적 어려움을 겪는 국민에게 건강보험이 보장하지 않는 부분의 의료비를 연간 최대 5,000만 원까지 지원하는 사업입니다.',
   tags: ['재난적의료비', '비급여지원', '의료비지원', '중위소득', '건강보험공단', '중증질환'],

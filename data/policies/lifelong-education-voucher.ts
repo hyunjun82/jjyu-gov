@@ -4,6 +4,8 @@ export const lifelongEducationVoucherPolicy: PolicyData = {
   id: '154',
   type: 'service',
   title: '2026 평생교육이용권',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '교육부 / 국가평생교육진흥원',
   badge: '평생학습 바우처',
   slug: 'lifelong-education-voucher',

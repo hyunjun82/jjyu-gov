@@ -4,6 +4,8 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
   id: '152',
   type: 'service',
   title: '2026 국가근로장학금',
+  cat: '청년',
+  catSlug: 'youth',
   org: '교육부 / 한국장학재단',
   badge: '근로장학금',
   slug: 'national-work-scholarship',

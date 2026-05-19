@@ -4,6 +4,8 @@ export const infantDevelopmentalCheckupPolicy: PolicyData = {
   id: '147',
   type: 'service',
   title: '2026 영유아 발달 정밀검사비 지원',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '보건복지부',
   slug: 'infant-developmental-checkup',
 

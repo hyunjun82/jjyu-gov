@@ -5,6 +5,8 @@ export const employmentIncentiveAllowancePolicy: PolicyData = {
   slug: 'employment-incentive-allowance',
   type: 'cash',
   title: '취업촉진수당',
+  cat: '지원금',
+  catSlug: 'fund',
   org: '고용노동부',
   summary: '실업급여 수급자의 조기 취업을 장려하기 위해 조기재취업수당·직업능력개발수당·광역구직활동비·이주비 4가지 수당을 지급하는 고용보험 제도',
   badge: '현금',

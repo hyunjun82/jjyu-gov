@@ -5,6 +5,8 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
   slug: 'self-employed-employment-insurance',
   type: 'cash',
   title: '자영업자 고용보험',
+  cat: '지원금',
+  catSlug: 'fund',
   org: '고용노동부',
   summary: '1년 이상 고용보험에 가입한 자영업자가 매출 감소 등 불가피한 사유로 폐업 시 구직급여(기준보수 60% × 120~210일)를 지급하는 제도',
   badge: '기준보수 60%',

@@ -4,6 +4,8 @@ export const assistiveTechnologyDevicePolicy: PolicyData = {
   id: '151',
   type: 'service',
   title: '2026 보조공학기기 지원',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '고용노동부 / 한국장애인고용공단',
   badge: '직업생활 지원',
   slug: 'assistive-technology-device',

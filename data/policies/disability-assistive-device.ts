@@ -4,6 +4,8 @@ export const disabilityAssistiveDevicePolicy: PolicyData = {
   id: '148',
   type: 'service',
   title: '2026 장애인 보조기기 구입비 지원',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '보건복지부 / 국민건강보험공단',
   slug: 'disability-assistive-device',
 

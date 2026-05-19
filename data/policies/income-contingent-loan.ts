@@ -4,6 +4,8 @@ export const incomeContingentLoanPolicy: PolicyData = {
   id: '155',
   type: 'loan',
   title: '2026 취업 후 상환 학자금 대출',
+  cat: '대출',
+  catSlug: 'loan',
   org: '교육부 / 한국장학재단',
   badge: '대학생 학자금 대출',
   slug: 'income-contingent-loan',

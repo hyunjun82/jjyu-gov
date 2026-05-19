@@ -4,6 +4,8 @@ export const illegalLoanPreventionPolicy: PolicyData = {
   id: '138',
   type: 'loan',
   slug: 'illegal-loan-prevention',
+  cat: '대출',
+  catSlug: 'loan',
   org: '서민금융진흥원 (금융위원회 산하)',
   title: '2026 불법사금융예방대출',
   summary:

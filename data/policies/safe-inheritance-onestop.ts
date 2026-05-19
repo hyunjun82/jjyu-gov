@@ -5,6 +5,8 @@ export const safeInheritanceOnestopPolicy: PolicyData = {
   slug: 'safe-inheritance-onestop',
   type: 'service',
   title: '안심상속 원스톱 서비스',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '행정안전부 · 정부24',
   summary: '사망자의 금융내역·토지·건축물·자동차·국세·지방세·연금 등을 한 번에 통합 조회할 수 있는 서비스로, 상속인이 개별 기관을 일일이 방문하지 않아도 됩니다.',
   tags: ['안심상속', '상속재산조회', '사망신고', '원스톱서비스', '정부24'],

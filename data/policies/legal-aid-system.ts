@@ -4,6 +4,8 @@ export const legalAidSystemPolicy: PolicyData = {
   id: '135',
   type: 'service',
   slug: 'legal-aid-system',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '대한법률구조공단 (법무부 산하)',
   title: '2026 법률구조 제도',
   summary:

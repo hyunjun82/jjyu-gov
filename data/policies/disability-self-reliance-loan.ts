@@ -4,6 +4,8 @@ export const disabilitySelfRelianceLoanPolicy: PolicyData = {
   id: '149',
   type: 'loan',
   title: '2026 장애인 자립자금 대여사업',
+  cat: '대출',
+  catSlug: 'loan',
   org: '보건복지부',
   badge: '저리 대출',
   slug: 'disability-self-reliance-loan',

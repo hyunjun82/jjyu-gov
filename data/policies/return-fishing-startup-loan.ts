@@ -5,6 +5,8 @@ export const returnFishingStartupLoanPolicy: PolicyData = {
   slug: 'return-fishing-startup-loan',
   type: 'loan',
   title: '귀어 창업 및 주택구입 지원(융자)',
+  cat: '대출',
+  catSlug: 'loan',
   org: '해양수산부 / 지방자치단체',
   summary: '도시민이 어촌지역에 정착해 어업·양식업 등을 창업할 수 있도록 창업자금 최대 3억원, 주택구입 자금 최대 7,500만원을 연 1.5% 저금리로 융자 지원합니다.',
   badges: ['이차보전 융자', '연 1.5% 저금리', '창업+주택 동시 지원'],

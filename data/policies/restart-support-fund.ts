@@ -5,6 +5,8 @@ export const restartSupportFundPolicy: PolicyData = {
   slug: 'restart-support-fund',
   type: 'loan',
   title: '소상공인 재도전 특별자금 (재도약)',
+  cat: '대출',
+  catSlug: 'loan',
   org: '중소벤처기업부 / 소상공인시장진흥공단',
   summary: '폐업 또는 경영 위기를 겪은 소상공인이 재창업·재기할 수 있도록 저금리 융자를 지원하는 제도입니다. 희망형·일반형·도약형 3가지 유형으로 운영되며 최대 7천만원을 융자합니다.',
   badges: ['직접대출', '재창업 지원', '2026년 운영'],

@@ -5,6 +5,8 @@ export const lowIncomeEnergyEfficiencyPolicy: PolicyData = {
   slug: 'low-income-energy-efficiency',
   type: 'service',
   title: '저소득층 에너지 효율 개선사업',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '한국에너지재단 (산업통상자원부)',
   summary:
     '기초생활수급자·차상위계층 등 저소득층과 사회복지시설을 대상으로 단열 시공, 창호·바닥 공사, 고효율 보일러 교체, 고효율 에어컨 보급 등 냉·난방 에너지 효율 개선을 무상 지원하는 사업입니다. 가구당 최대 330만 원, 시설당 최대 1,100만 원까지 지원합니다.',

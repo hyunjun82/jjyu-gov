@@ -5,6 +5,8 @@ export const middleAgedTomorrowCenterPolicy: PolicyData = {
   slug: 'middle-aged-tomorrow-center',
   type: 'service',
   title: '중장년내일센터',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '고용노동부',
   summary: '40세 이상 중장년층 재직자·퇴직(예정)자에게 생애경력설계·전직지원·재취업 지원 서비스를 무료 제공하는 고용노동부 지원 센터',
   badge: '무료',

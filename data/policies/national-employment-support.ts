@@ -5,6 +5,8 @@ export const nationalEmploymentSupportPolicy: PolicyData = {
   slug: 'national-employment-support',
   type: 'service',
   title: '국민취업지원제도',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '고용노동부',
   summary: '취업을 원하는 국민에게 1:1 상담·직업훈련·일경험 등 통합 취업지원 서비스를 1년간 제공하고, 저소득층에게는 구직촉진수당 월 60만원을 6개월간 지급합니다. 고용보험 미가입자도 참여 가능합니다.',
   badges: ['고용보험 미가입자 가능', '월 60만원 수당', '최대 150만원 취업성공수당'],

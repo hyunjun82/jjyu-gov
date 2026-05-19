@@ -5,6 +5,8 @@ export const eersGasBoilerPolicy: PolicyData = {
   slug: 'eers-gas-boiler',
   type: 'service',
   title: 'EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '한국가스공사 · 한국에너지재단',
   summary:
     '기초생활수급자 등 취약계층 가구와 사회복지시설을 대상으로 노후 저효율 가스보일러를 고효율 가스보일러로 무상 교체해드리는 사업입니다. 6개 지역(대구·강원·경기·경북·전북·충남)은 단열·창호·도배·장판 등 열효율 개선 공사도 함께 지원합니다.',

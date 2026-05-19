@@ -4,6 +4,8 @@ export const energyVoucherPolicy: PolicyData = {
   id: '137',
   type: 'service',
   slug: 'energy-voucher',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '한국에너지공단 (보건복지부 위탁)',
   title: '2025 에너지바우처',
   summary:

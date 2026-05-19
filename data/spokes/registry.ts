@@ -592,6 +592,65 @@ import { 팁스TIPS팁스운영사선정매칭절차SpokeContent } from '@/app/p
 import { 팁스TIPS팁스창업사업화RD지원금SpokeContent } from '@/app/policy/[id]/[spoke]/content/팁스TIPS/팁스창업사업화RD지원금';
 import { 팁스TIPS팁스프로그램종류트랙차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/팁스TIPS/팁스프로그램종류트랙차이';
 
+/* ── 국가건강검진 (slug: national-health-checkup) ── */
+import { 국가건강검진국가건강검진대상자짝수홀수출생연도SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가건강검진/국가건강검진대상자짝수홀수출생연도';
+import { 국가건강검진국가건강검진예약방법지정병원SpokeContent }         from '@/app/policy/[id]/[spoke]/content/국가건강검진/국가건강검진예약방법지정병원';
+import { 국가건강검진국가건강검진연령별항목검사목록SpokeContent }       from '@/app/policy/[id]/[spoke]/content/국가건강검진/국가건강검진연령별항목검사목록';
+import { 국가건강검진국가건강검진안하면불이익의무여부SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국가건강검진/국가건강검진안하면불이익의무여부';
+
+/* ── 새출발기금 (slug: small-biz-bank-debt) ── */
+import { 새출발기금새출발기금신청자격부실차주기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금신청자격부실차주기준';
+import { 새출발기금새출발기금원금탕감감면조건SpokeContent }     from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금원금탕감감면조건';
+import { 새출발기금새출발기금단점주의사항신청전SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금단점주의사항신청전';
+import { 새출발기금새출발기금희망리턴패키지차이SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금희망리턴패키지차이';
+
+/* ── 폐업소상공인채무조정 (slug: small-biz-closed-debt) ── */
+import { 폐업소상공인채무조정폐업소상공인채무조정신청방법절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/폐업소상공인채무조정신청방법절차';
+import { 폐업소상공인채무조정폐업소상공인점포철거비지원금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/폐업소상공인점포철거비지원금액';
+import { 폐업소상공인채무조정희망리턴패키지폐업재기지원총정리SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/희망리턴패키지폐업재기지원총정리';
+import { 폐업소상공인채무조정폐업소상공인지원새출발기금차이SpokeContent }   from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/폐업소상공인지원새출발기금차이';
+
+/* ── 소상공인신용회복 (slug: small-biz-credit-recovery) ── */
+import { 소상공인신용회복소상공인신용회복신청자격연체기준SpokeContent }       from '@/app/policy/[id]/[spoke]/content/소상공인신용회복/소상공인신용회복신청자격연체기준';
+import { 소상공인신용회복소상공인신속신용사면탕감신청방법SpokeContent }       from '@/app/policy/[id]/[spoke]/content/소상공인신용회복/소상공인신속신용사면탕감신청방법';
+import { 소상공인신용회복소상공인신용회복후신용점수회복SpokeContent }         from '@/app/policy/[id]/[spoke]/content/소상공인신용회복/소상공인신용회복후신용점수회복';
+import { 소상공인신용회복소상공인신용회복위원회새출발기금비교SpokeContent }   from '@/app/policy/[id]/[spoke]/content/소상공인신용회복/소상공인신용회복위원회새출발기금비교';
+
+/* ── 대학생주거지원 (slug: college-student-housing) ── */
+import { 대학생주거지원행복기숙사신청자격비용LH공공기숙사SpokeContent }       from '@/app/policy/[id]/[spoke]/content/대학생주거지원/행복기숙사신청자격비용LH공공기숙사';
+import { 대학생주거지원대학생기숙사비지원한국장학재단SpokeContent }           from '@/app/policy/[id]/[spoke]/content/대학생주거지원/대학생기숙사비지원한국장학재단';
+import { 대학생주거지원서울대학생공공기숙사종류신청방법SpokeContent }         from '@/app/policy/[id]/[spoke]/content/대학생주거지원/서울대학생공공기숙사종류신청방법';
+import { 대학생주거지원희망하우징행복기숙사대학생비교SpokeContent }           from '@/app/policy/[id]/[spoke]/content/대학생주거지원/희망하우징행복기숙사대학생비교';
+
+/* ── 무료법률구조 (slug: free-legal-aid) ── */
+import { 무료법률구조무료법률구조신청자격소득기준중위125SpokeContent }         from '@/app/policy/[id]/[spoke]/content/무료법률구조/무료법률구조신청자격소득기준중위125';
+import { 무료법률구조무료법률구조대상사건민사가사형사종류SpokeContent }         from '@/app/policy/[id]/[spoke]/content/무료법률구조/무료법률구조대상사건민사가사형사종류';
+import { 무료법률구조무료법률구조신청방법132번온라인방문SpokeContent }         from '@/app/policy/[id]/[spoke]/content/무료법률구조/무료법률구조신청방법132번온라인방문';
+import { 무료법률구조법률상담무료기준소송구조차이전액면제SpokeContent }         from '@/app/policy/[id]/[spoke]/content/무료법률구조/법률상담무료기준소송구조차이전액면제';
+
+/* ── 국가근로장학금 (slug: national-work-scholarship) ── */
+import { 국가근로장학금국가근로장학금시간당단가교내교외2026SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국가근로장학금/국가근로장학금시간당단가교내교외2026';
+import { 국가근로장학금국가근로장학금신청자격소득분위기준SpokeContent }       from '@/app/policy/[id]/[spoke]/content/국가근로장학금/국가근로장학금신청자격소득분위기준';
+import { 국가근로장학금국가근로장학금신청방법한국장학재단SpokeContent }       from '@/app/policy/[id]/[spoke]/content/국가근로장학금/국가근로장학금신청방법한국장학재단';
+import { 국가근로장학금국가근로장학금교내교외장학금중복가능SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국가근로장학금/국가근로장학금교내교외장학금중복가능';
+
+/* ── 가족돌봄휴가 추가 4개 (slug: family-care-leave) ── */
+import { 가족돌봄휴가가족돌봄휴가시간단위분할사용방법SpokeContent }           from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/가족돌봄휴가시간단위분할사용방법';
+import { 가족돌봄휴가가족돌봄휴가급여없음무급재난특례지원SpokeContent }       from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/가족돌봄휴가급여없음무급재난특례지원';
+import { 가족돌봄휴가가족돌봄휴가신청서류증빙서류회사승인SpokeContent }       from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/가족돌봄휴가신청서류증빙서류회사승인';
+import { 가족돌봄휴가가족돌봄휴가연장조건20일초과가능한가SpokeContent }       from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/가족돌봄휴가연장조건20일초과가능한가';
+
+/* ── 청년일자리도약장려금 (slug: youth-job-leap-incentive) ── */
+import { 청년일자리도약장려금청년일자리도약장려금지원금액수도권비수도권차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년일자리도약장려금/청년일자리도약장려금지원금액수도권비수도권차이';
+import { 청년일자리도약장려금청년일자리도약장려금신청자격기업조건SpokeContent }           from '@/app/policy/[id]/[spoke]/content/청년일자리도약장려금/청년일자리도약장려금신청자격기업조건';
+import { 청년일자리도약장려금청년일자리도약장려금신청방법work24SpokeContent }             from '@/app/policy/[id]/[spoke]/content/청년일자리도약장려금/청년일자리도약장려금신청방법work24';
+import { 청년일자리도약장려금청년일자리도약장려금고용유지기간조건SpokeContent }           from '@/app/policy/[id]/[spoke]/content/청년일자리도약장려금/청년일자리도약장려금고용유지기간조건';
+
+/* ── 저소득에너지효율개선 (slug: low-income-energy-efficiency) ── */
+import { 저소득에너지효율개선저소득에너지효율개선신청자격기초수급차상위SpokeContent }         from '@/app/policy/[id]/[spoke]/content/저소득에너지효율개선/저소득에너지효율개선신청자격기초수급차상위';
+import { 저소득에너지효율개선저소득에너지효율개선지원항목단열창호보일러에어컨SpokeContent }   from '@/app/policy/[id]/[spoke]/content/저소득에너지효율개선/저소득에너지효율개선지원항목단열창호보일러에어컨';
+import { 저소득에너지효율개선저소득에너지효율개선신청방법주민센터절차SpokeContent }           from '@/app/policy/[id]/[spoke]/content/저소득에너지효율개선/저소득에너지효율개선신청방법주민센터절차';
+import { 저소득에너지효율개선저소득에너지효율개선지원금액가구당243만원SpokeContent }         from '@/app/policy/[id]/[spoke]/content/저소득에너지효율개선/저소득에너지효율개선지원금액가구당243만원';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
@@ -1067,10 +1126,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'family-care-leave': {
-    '연10일무급유급차이신청방법':     가족돌봄휴가연10일무급유급차이신청방법SpokeContent,
-    '사업주거부하면어떻게하나':       가족돌봄휴가사업주거부하면어떻게하나SpokeContent,
-    '돌봄가족범위부모자녀배우자':     가족돌봄휴가돌봄가족범위부모자녀배우자SpokeContent,
-    '가족돌봄휴직과휴가차이장기단기': 가족돌봄휴가가족돌봄휴직과휴가차이장기단기SpokeContent,
+    '연10일무급유급차이신청방법':       가족돌봄휴가연10일무급유급차이신청방법SpokeContent,
+    '사업주거부하면어떻게하나':         가족돌봄휴가사업주거부하면어떻게하나SpokeContent,
+    '돌봄가족범위부모자녀배우자':       가족돌봄휴가돌봄가족범위부모자녀배우자SpokeContent,
+    '가족돌봄휴직과휴가차이장기단기':   가족돌봄휴가가족돌봄휴직과휴가차이장기단기SpokeContent,
+    '가족돌봄휴가시간단위분할사용방법': 가족돌봄휴가가족돌봄휴가시간단위분할사용방법SpokeContent,
+    '가족돌봄휴가급여없음무급재난특례지원': 가족돌봄휴가가족돌봄휴가급여없음무급재난특례지원SpokeContent,
+    '가족돌봄휴가신청서류증빙서류회사승인': 가족돌봄휴가가족돌봄휴가신청서류증빙서류회사승인SpokeContent,
+    '가족돌봄휴가연장조건20일초과가능한가': 가족돌봄휴가가족돌봄휴가연장조건20일초과가능한가SpokeContent,
   },
 
   'disability-activity-support': {
@@ -1136,130 +1199,74 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '산모신생아건강관리중복수령가능여부': 임산부친환경농산물산모신생아건강관리중복수령가능여부SpokeContent,
   },
 
-  'platform-worker-insurance': {
-    '적용직종12개월보수80만기준해당여부': 특수형태근로자고용보험적용직종12개월보수80만기준해당여부SpokeContent,
-    '보험료사업주절반부담두루누리지원율': 특수형태근로자고용보험보험료사업주절반부담두루누리지원율SpokeContent,
-    '실업급여가입후받는조건금액신청방법': 특수형태근로자고용보험실업급여가입후받는조건금액신청방법SpokeContent,
-    '적용제외신청원하지않으면빠지는방법': 특수형태근로자고용보험적용제외신청원하지않으면빠지는방법SpokeContent,
-  },
-
-
-  'self-employed-employment-insurance': {
-    '7등급보험료율50~80지원기준':  자영업자고용보험7등급보험료율50~80지원기준SpokeContent,
-    '가입방법근로복지공단온라인':   자영업자고용보험가입방법근로복지공단온라인SpokeContent,
-    '직원있는사업주vs1인자영업차이': 자영업자고용보험직원있는사업주vs1인자영업차이SpokeContent,
-    '폐업후실업급여1년가입조건':    자영업자고용보험폐업후실업급여1년가입조건SpokeContent,
-  },
-
-  'saeil-women-intern': {
-    'WUP경력단절예방프로그램신청':  여성새로일하기센터WUP경력단절예방프로그램신청SpokeContent,
-    '가까운센터찾기이용절차':       여성새로일하기센터가까운센터찾기이용절차SpokeContent,
-    '경력단절직업훈련무료취업연계':  여성새로일하기센터경력단절직업훈련무료취업연계SpokeContent,
-    '새일여성인턴기간급여채용연계':  여성새로일하기센터새일여성인턴기간급여채용연계SpokeContent,
-  },
-
-  'low-income-single-parent': {
-    '고등학교학비지원22세연장조건':  한부모가족지원고등학교학비지원22세연장조건SpokeContent,
-    '아동양육비월23만원소득기준':    한부모가족지원아동양육비월23만원소득기준SpokeContent,
-    '중복수급기초수급동시가능여부':  한부모가족지원중복수급기초수급동시가능여부SpokeContent,
-    '청소년한부모월37만원24세이하':  한부모가족지원청소년한부모월37만원24세이하SpokeContent,
-  },
-
-  'worker-vacation-support': {
-    '2026선착순10만명신청기간':       근로자휴가지원2026선착순10만명신청기간SpokeContent,
-    '정부10기업10근로자20총40사용법': 근로자휴가지원정부10기업10근로자20총40사용법SpokeContent,
-    '중소기업재직자신청자격확인':     근로자휴가지원중소기업재직자신청자격확인SpokeContent,
-    '휴가샵국내여행사용처환불조건':   근로자휴가지원휴가샵국내여행사용처환불조건SpokeContent,
-  },
-
-  'income-contingent-loan': {
-    '2026금리1점7취업후상환소득폐지':  학자금대출2026금리1점7취업후상환소득폐지SpokeContent,
-    '상환기준소득3037만초과상환방법':   학자금대출상환기준소득3037만초과상환방법SpokeContent,
-    '생활비학기당200만신청방법':        학자금대출생활비학기당200만신청방법SpokeContent,
-    '일반vs취업후상환어떤걸선택':       학자금대출일반vs취업후상환어떤걸선택SpokeContent,
-  },
-
-  'newlywed-housing-support': {
-    'LH매입임대1순위소득자산최장14년': 신혼부부주거지원LH매입임대1순위소득자산최장14년SpokeContent,
-    '신생아특례전세대출vsLH전세임대':  신혼부부주거지원신생아특례전세대출vsLH전세임대SpokeContent,
-    '월임대료보증금임대보증금5%':      신혼부부주거지원월임대료보증금임대보증금5SpokeContent,
-    '전세임대1자격혼인7년신청방법':    신혼부부주거지원전세임대1자격혼인7년신청방법SpokeContent,
-  },
-
-  'startup-support': {
-    '단계별비교예창패초기도약차이':       창업지원단계별비교예창패초기도약차이SpokeContent,
-    '예비창업패키지최대8000만신청자격':   창업지원예비창업패키지최대8000만신청자격SpokeContent,
-    '창업도약패키지업력3~7년최대2억':    창업지원창업도약패키지업력3~7년최대2억SpokeContent,
-    '청년창업사관학교만39세1억평균7천':  창업지원청년창업사관학교만39세1억평균7천SpokeContent,
-  },
-
-  'public-rental-housing': {
-    '50년공공임대신청자격월소득기준':   공공임대주택50년공공임대신청자격월소득기준SpokeContent,
-    'LH공공임대월세임대료산정방식':     공공임대주택LH공공임대월세임대료산정방식SpokeContent,
-    '공공임대입주단점실거주자':          공공임대주택공공임대입주단점실거주자SpokeContent,
-    '공공임대청약공고신청순서서류':      공공임대주택공공임대청약공고신청순서서류SpokeContent,
-  },
-
-  'public-housing-sale': {
-    '공공분양일반공급청약자격소득자산기준': 공공분양주택공공분양일반공급청약자격소득자산기준SpokeContent,
-    '공공분양vs민간분양유리한점차이':     공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
-    '공공분양vs공공임대뭘신청해야하나':   공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
-    '공공분양당첨후계약입주일정절차':     공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
-  },
-
-  'national-scholar': {
-    '국가장학금2차신청기간2026':   국가장학금국가장학금2차신청기간2026SpokeContent,
-    '국가장학금소득분위지급금액':   국가장학금국가장학금소득분위지급금액SpokeContent,
-    '국가장학금F학점성적기준미달':  국가장학금국가장학금F학점성적기준미달SpokeContent,
-    '국가장학금지급일통장입금시기': 국가장학금국가장학금지급일통장입금시기SpokeContent,
-  },
-
-  'general-student-loan': {
-    '일반상환vs취업후상환학자금선택기준': 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent,
-    '일반상환학자금2026금리이자':        일반상환학자금대출일반상환학자금2026금리이자SpokeContent,
-    '일반상환학자금거치기간최대선택':     일반상환학자금대출일반상환학자금거치기간최대선택SpokeContent,
-    '일반상환학자금졸업후상환방법':       일반상환학자금대출일반상환학자금졸업후상환방법SpokeContent,
-  },
-
-  'youth-housing-support': {
-    '청년월세지원신청조건나이소득2026':     청년주거지원청년월세지원신청조건나이소득2026SpokeContent,
-    '청년주거급여분리지급조건금액':          청년주거지원청년주거급여분리지급조건금액SpokeContent,
-    '청년주거지원정책문제점못받는경우':      청년주거지원청년주거지원정책문제점못받는경우SpokeContent,
-    '청년월세전세공공임대비교':              청년주거지원청년월세전세공공임대비교SpokeContent,
-  },
-
-  'lifelong-education-voucher': {
-    '평생교육이용권사용가능기관강좌확인':    평생교육이용권평생교육이용권사용가능기관강좌확인SpokeContent,
-    '평생교육이용권지원금우수이용자70만원':  평생교육이용권평생교육이용권지원금우수이용자70만원SpokeContent,
-    '평생교육이용권신청기간학습계획서작성':  평생교육이용권평생교육이용권신청기간학습계획서작성SpokeContent,
-    '평생교육이용권대상자기초차상위':        평생교육이용권평생교육이용권대상자기초차상위SpokeContent,
-  },
-
-  'unemployment-credit': {
-    '실업크레딧이득안하면어떻게':      실업크레딧실업크레딧이득안하면어떻게SpokeContent,
-    '실업크레딧퇴사후신청방법시기':    실업크레딧실업크레딧퇴사후신청방법시기SpokeContent,
-    '실업크레딧국민연금동시납부가능':  실업크레딧실업크레딧국민연금동시납부가능SpokeContent,
-    '실업크레딧단점해지구직급여주의':  실업크레딧실업크레딧단점해지구직급여주의SpokeContent,
-  },
-
-  'sme-innovation-voucher': {
-    '혁신바우처공고신청자격지원금액':    중소기업혁신바우처혁신바우처공고신청자격지원금액SpokeContent,
-    '혁신바우처공급기업수행기관선택':    중소기업혁신바우처혁신바우처공급기업수행기관선택SpokeContent,
-    '혁신바우처사업계획서심사기준':      중소기업혁신바우처혁신바우처사업계획서심사기준SpokeContent,
-    '혁신바우처플랫폼일반재기신청절차':  중소기업혁신바우처혁신바우처플랫폼일반재기신청절차SpokeContent,
-  },
-
-  'leap-loan': {
-    '새도약론신청자격대상자확인':          새도약론새도약론신청자격대상자확인SpokeContent,
-    '새도약론취급기관대부업체목록':        새도약론새도약론취급기관대부업체목록SpokeContent,
-    '새도약론새도약기금새출발기금차이':    새도약론새도약론새도약기금새출발기금차이SpokeContent,
-    '새도약론소각채무탕감조건':            새도약론새도약론소각채무탕감조건SpokeContent,
-  },
-
   'tips-program': {
     '팁스지원자격스타트업단계기준': 팁스TIPS팁스지원자격스타트업단계기준SpokeContent,
     '팁스운영사선정매칭절차':       팁스TIPS팁스운영사선정매칭절차SpokeContent,
     '팁스창업사업화RD지원금':       팁스TIPS팁스창업사업화RD지원금SpokeContent,
     '팁스프로그램종류트랙차이':     팁스TIPS팁스프로그램종류트랙차이SpokeContent,
   },
+
+  'national-health-checkup': {
+    '국가건강검진대상자짝수홀수출생연도': 국가건강검진국가건강검진대상자짝수홀수출생연도SpokeContent,
+    '국가건강검진예약방법지정병원':       국가건강검진국가건강검진예약방법지정병원SpokeContent,
+    '국가건강검진연령별항목검사목록':     국가건강검진국가건강검진연령별항목검사목록SpokeContent,
+    '국가건강검진안하면불이익의무여부':   국가건강검진국가건강검진안하면불이익의무여부SpokeContent,
+  },
+
+  'small-biz-bank-debt': {
+    '새출발기금신청자격부실차주기준': 새출발기금새출발기금신청자격부실차주기준SpokeContent,
+    '새출발기금원금탕감감면조건':     새출발기금새출발기금원금탕감감면조건SpokeContent,
+    '새출발기금단점주의사항신청전':   새출발기금새출발기금단점주의사항신청전SpokeContent,
+    '새출발기금희망리턴패키지차이':   새출발기금새출발기금희망리턴패키지차이SpokeContent,
+  },
+
+  'small-biz-closed-debt': {
+    '폐업소상공인채무조정신청방법절차':       폐업소상공인채무조정폐업소상공인채무조정신청방법절차SpokeContent,
+    '폐업소상공인점포철거비지원금액':         폐업소상공인채무조정폐업소상공인점포철거비지원금액SpokeContent,
+    '희망리턴패키지폐업재기지원총정리':       폐업소상공인채무조정희망리턴패키지폐업재기지원총정리SpokeContent,
+    '폐업소상공인지원새출발기금차이':         폐업소상공인채무조정폐업소상공인지원새출발기금차이SpokeContent,
+  },
+
+  'small-biz-credit-recovery': {
+    '소상공인신용회복신청자격연체기준':       소상공인신용회복소상공인신용회복신청자격연체기준SpokeContent,
+    '소상공인신속신용사면탕감신청방법':       소상공인신용회복소상공인신속신용사면탕감신청방법SpokeContent,
+    '소상공인신용회복후신용점수회복':         소상공인신용회복소상공인신용회복후신용점수회복SpokeContent,
+    '소상공인신용회복위원회새출발기금비교':   소상공인신용회복소상공인신용회복위원회새출발기금비교SpokeContent,
+  },
+
+  'college-student-housing': {
+    '행복기숙사신청자격비용LH공공기숙사':   대학생주거지원행복기숙사신청자격비용LH공공기숙사SpokeContent,
+    '대학생기숙사비지원한국장학재단':       대학생주거지원대학생기숙사비지원한국장학재단SpokeContent,
+    '서울대학생공공기숙사종류신청방법':     대학생주거지원서울대학생공공기숙사종류신청방법SpokeContent,
+    '희망하우징행복기숙사대학생비교':       대학생주거지원희망하우징행복기숙사대학생비교SpokeContent,
+  },
+
+  'free-legal-aid': {
+    '무료법률구조신청자격소득기준중위125': 무료법률구조무료법률구조신청자격소득기준중위125SpokeContent,
+    '무료법률구조대상사건민사가사형사종류': 무료법률구조무료법률구조대상사건민사가사형사종류SpokeContent,
+    '무료법률구조신청방법132번온라인방문': 무료법률구조무료법률구조신청방법132번온라인방문SpokeContent,
+    '법률상담무료기준소송구조차이전액면제': 무료법률구조법률상담무료기준소송구조차이전액면제SpokeContent,
+  },
+
+  'national-work-scholarship': {
+    '국가근로장학금시간당단가교내교외2026': 국가근로장학금국가근로장학금시간당단가교내교외2026SpokeContent,
+    '국가근로장학금신청자격소득분위기준':   국가근로장학금국가근로장학금신청자격소득분위기준SpokeContent,
+    '국가근로장학금신청방법한국장학재단':   국가근로장학금국가근로장학금신청방법한국장학재단SpokeContent,
+    '국가근로장학금교내교외장학금중복가능': 국가근로장학금국가근로장학금교내교외장학금중복가능SpokeContent,
+  },
+
+  'youth-job-leap-incentive': {
+    '청년일자리도약장려금지원금액수도권비수도권차이': 청년일자리도약장려금청년일자리도약장려금지원금액수도권비수도권차이SpokeContent,
+    '청년일자리도약장려금신청자격기업조건':           청년일자리도약장려금청년일자리도약장려금신청자격기업조건SpokeContent,
+    '청년일자리도약장려금신청방법work24':             청년일자리도약장려금청년일자리도약장려금신청방법work24SpokeContent,
+    '청년일자리도약장려금고용유지기간조건':           청년일자리도약장려금청년일자리도약장려금고용유지기간조건SpokeContent,
+  },
+
+  'low-income-energy-efficiency': {
+    '저소득에너지효율개선신청자격기초수급차상위':         저소득에너지효율개선저소득에너지효율개선신청자격기초수급차상위SpokeContent,
+    '저소득에너지효율개선지원항목단열창호보일러에어컨':   저소득에너지효율개선저소득에너지효율개선지원항목단열창호보일러에어컨SpokeContent,
+    '저소득에너지효율개선신청방법주민센터절차':           저소득에너지효율개선저소득에너지효율개선신청방법주민센터절차SpokeContent,
+    '저소득에너지효율개선지원금액가구당243만원':         저소득에너지효율개선저소득에너지효율개선지원금액가구당243만원SpokeContent,
+  },
+
 };

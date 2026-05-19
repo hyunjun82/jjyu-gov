@@ -5,6 +5,8 @@ export const durunuriSocialInsurancePolicy: PolicyData = {
   slug: 'durunuri-social-insurance',
   type: 'training',
   title: '두루누리 사회보험료 지원 — 소규모 사업장 고용·연금보험료 80% 지원',
+  cat: '지원금',
+  catSlug: 'fund',
   org: '고용노동부',
 
   keyFacts: {

@@ -5,6 +5,8 @@ export const unemploymentCreditPolicy: PolicyData = {
   slug: 'unemployment-credit',
   type: 'training',
   title: '실업크레딧 — 구직급여 수급 중 국민연금 보험료 지원',
+  cat: '지원금',
+  catSlug: 'fund',
   org: '보건복지부·국민연금공단',
 
   keyFacts: {

@@ -4,6 +4,8 @@ export const basicLivelihoodAllowancePolicy: PolicyData = {
   id: '139',
   type: 'cash',
   slug: 'basic-livelihood-allowance',
+  cat: '지원금',
+  catSlug: 'fund',
   org: '보건복지부 (읍·면·동 주민센터 신청)',
   title: '2026 기초생활수급자 생계급여',
   summary:

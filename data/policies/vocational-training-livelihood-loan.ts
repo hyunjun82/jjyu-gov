@@ -5,6 +5,8 @@ export const vocationalTrainingLivelihoodLoanPolicy: PolicyData = {
   slug: 'vocational-training-livelihood-loan',
   type: 'loan',
   title: '직업훈련 생계비 대부',
+  cat: '대출',
+  catSlug: 'loan',
   org: '고용노동부 · 근로복지공단',
   summary: '140시간 이상 직업훈련 참여자에게 생계비를 연 1% 저금리로 최대 1,000만 원 융자 지원',
   badge: '융자',

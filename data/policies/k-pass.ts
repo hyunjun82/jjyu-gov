@@ -4,6 +4,8 @@ export const kPassPolicy: PolicyData = {
   id: '140',
   type: 'service',
   slug: 'k-pass',
+  cat: '환급금',
+  catSlug: 'refund',
   org: '국토교통부 대도시권광역교통위원회',
   title: '2026 모두의 카드 (K-패스)',
   summary:

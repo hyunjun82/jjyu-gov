@@ -4,6 +4,8 @@ export const returnFarmingStartupLoanPolicy: PolicyData = {
   id: '156',
   type: 'loan',
   title: '2026 귀농 농업창업 및 주택구입 지원사업',
+  cat: '대출',
+  catSlug: 'loan',
   org: '농림축산식품부',
   badge: '귀농 창업 융자',
   slug: 'return-farming-startup-loan',

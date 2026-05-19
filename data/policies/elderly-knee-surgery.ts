@@ -5,6 +5,8 @@ export const elderlyKneeSurgeryPolicy: PolicyData = {
   type: 'service',
   slug: 'elderly-knee-surgery',
   title: '노인 무릎인공관절 수술 지원사업',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '보건복지부 · 노인의료나눔재단',
   summary: '경제적 사정으로 무릎인공관절 수술을 받지 못하는 저소득 노인에게 수술비를 최대 240만 원까지 지원하는 사업입니다.',
   tags: ['인공관절', '노인의료', '수술비지원', '저소득노인', '무릎관절증', '기초수급자'],

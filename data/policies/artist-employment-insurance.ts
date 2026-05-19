@@ -5,6 +5,8 @@ export const artistEmploymentInsurancePolicy: PolicyData = {
   slug: 'artist-employment-insurance',
   type: 'service',
   title: '예술인 고용보험',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '고용노동부 · 한국예술인복지재단',
   summary: '문화예술용역 계약으로 일하는 예술인의 실업·출산 급여를 보장하는 사회보험제도. 보험료의 최대 80%를 두루누리로 국가가 지원합니다.',
   tags: ['예술인', '고용보험', '실업급여', '두루누리', '문화예술'],

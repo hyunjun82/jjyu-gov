@@ -5,6 +5,8 @@ export const artistIndustrialAccidentInsurancePolicy: PolicyData = {
   slug: 'artist-industrial-accident-insurance',
   type: 'service',
   title: '예술인 산재보험 보험료 지원사업',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '한국예술인복지재단 · 근로복지공단',
   summary: '프리랜서 예술인이 산재보험에 가입할 수 있도록 보험사무를 대행하고, 납부 보험료의 50~90%를 환급 지원하는 사업입니다.',
   tags: ['예술인', '산재보험', '보험료지원', '프리랜서', '업무재해'],

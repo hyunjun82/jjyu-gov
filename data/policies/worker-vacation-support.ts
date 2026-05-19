@@ -5,6 +5,8 @@ export const workerVacationSupportPolicy: PolicyData = {
   slug: 'worker-vacation-support',
   type: 'service',
   title: '근로자휴가지원사업',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '문화체육관광부 · 한국관광공사',
   summary: '중소기업·소상공인 근로자가 20만원을 납입하면 정부·기업이 각 10만원씩 보조해 총 40만원의 국내여행 포인트를 지원하는 사업입니다.',
   tags: ['근로자휴가', '국내여행', '휴가지원', '중소기업', '한국관광공사'],

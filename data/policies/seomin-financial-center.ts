@@ -4,6 +4,8 @@ export const seominFinancialCenterPolicy: PolicyData = {
   id: '136',
   type: 'service',
   slug: 'seomin-financial-center',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '서민금융진흥원 (금융위원회 산하)',
   title: '2026 서민금융통합지원센터',
   summary:

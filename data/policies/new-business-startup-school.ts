@@ -5,6 +5,8 @@ export const newBusinessStartupSchoolPolicy: PolicyData = {
   slug: 'new-business-startup-school',
   type: 'training',
   title: '신사업창업사관학교',
+  cat: '지원금',
+  catSlug: 'fund',
   org: '중소벤처기업부 · 소상공인시장진흥공단',
   summary: '창의·혁신적인 아이템을 보유한 예비 소상공인에게 약 5개월 교육과 사업화 자금 최대 4,000만 원을 지원하는 창업 지원 프로그램',
   badge: '최대 4,000만원',

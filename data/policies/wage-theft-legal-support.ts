@@ -5,6 +5,8 @@ export const wageTheftLegalSupportPolicy: PolicyData = {
   slug: 'wage-theft-legal-support',
   type: 'service',
   title: '임금 체불 피해 근로자 무료 법률 지원',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '고용노동부 / 대한법률구조공단',
   summary: '체불근로자가 소송을 통해 임금채권을 행사할 수 있도록 대한법률구조공단에서 소송대리·소장 작성 등 법률구조 서비스를 무료로 제공합니다. 소요 비용은 고용노동부가 부담합니다.',
   badges: ['무료 소송 지원', '외국인 포함', '임금채권보장법 제19조'],

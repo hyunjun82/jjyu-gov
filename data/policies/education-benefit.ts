@@ -4,6 +4,8 @@ export const educationBenefitPolicy: PolicyData = {
   id: '153',
   type: 'service',
   title: '2026 교육급여',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '교육부 / 보건복지부',
   badge: '교육비 지원',
   slug: 'education-benefit',

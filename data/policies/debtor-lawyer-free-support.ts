@@ -5,6 +5,8 @@ export const debtorLawyerFreeSupportPolicy: PolicyData = {
   type: 'service',
   slug: 'debtor-lawyer-free-support',
   title: '채무자 대리인(변호사) 무료 지원사업',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '금융감독원 · 대한법률구조공단',
   summary: '불법사금융 피해자에게 대한법률구조공단 소속 변호사를 무료로 연결해 불법추심 대응·소송까지 지원하는 제도입니다.',
   tags: ['불법추심', '채무자대리인', '무료변호사', '불법사금융', '개인회생', '파산'],

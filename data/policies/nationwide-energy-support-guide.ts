@@ -4,6 +4,8 @@ export const nationwideEnergySupportGuidePolicy: PolicyData = {
   id: '146',
   type: 'service',
   title: '2026 전국 냉·난방비 지원기관 안내',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '문화체육관광부 국민소통실',
   slug: 'nationwide-energy-support-guide',
 

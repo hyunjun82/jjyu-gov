@@ -5,6 +5,8 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
   slug: 'veteran-employment-support',
   type: 'service',
   title: '국가유공자 및 유가족 취업 지원',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '국가보훈부',
   summary: '국가유공자 본인과 유가족에게 보훈특별고용·공무원 특별채용·채용 가점을 통해 자립 능력과 생활 안정을 강화하는 취업 지원 제도',
   badge: '취업가점 5~10%',

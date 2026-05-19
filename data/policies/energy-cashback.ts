@@ -4,6 +4,8 @@ export const energyCashbackPolicy: PolicyData = {
   id: '141',
   type: 'service',
   slug: 'energy-cashback',
+  cat: '환급금',
+  catSlug: 'refund',
   org: '한국전력공사 (산업통상자원부 산하)',
   title: '2026 주택용 에너지캐시백',
   summary:

@@ -4,6 +4,8 @@ export const disabilityStartupStorePolicy: PolicyData = {
   id: '150',
   type: 'service',
   title: '2026 장애인 창업점포 지원',
+  cat: '복지',
+  catSlug: 'welfare',
   org: '중소벤처기업부 / (재)장애인기업종합지원센터',
   badge: '창업 공간 지원',
   slug: 'disability-startup-store',
