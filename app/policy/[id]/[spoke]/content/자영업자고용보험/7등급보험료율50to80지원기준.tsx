@@ -8,7 +8,7 @@ function Content() {
         <p>
           자영업자 고용보험 보험료율은 <strong>2.25%</strong>이며, 선택한 등급에 따라
           월 40,950원(1등급)~76,050원(7등급)입니다.
-          정부 지원율은 <strong>등급에 따라 50-80%</strong>로 차등 적용됩니다.
+          정부 지원율은 <strong>등급에 따라 50to80%</strong>로 차등 적용됩니다.
           <strong>1~2등급은 80% 지원</strong>, 3~4등급은 60%, 5~7등급은 50%이며,
           최대 5년(60개월) 동안 지원됩니다.
         </p>
@@ -89,7 +89,7 @@ function Content() {
 
       {/* H2-2: 등급별 정부 지원율 */}
       <section className="detail-card" id="support-rate">
-        <h2 className="detail-card-head">등급별 정부 지원율 50-80%</h2>
+        <h2 className="detail-card-head">등급별 정부 지원율 50to80%</h2>
         <div className="detail-card-body">
           <table className="compare-table">
             <thead>
@@ -222,9 +222,9 @@ function Content() {
   );
 }
 
-export const 자영업자고용보험7등급보험료율50-80지원기준SpokeContent: SpokeData = {
-  h1: '자영업자고용보험 7등급 보험료·50-80% 지원 기준 (2026)',
-  breadcrumb: '7등급보험료율50-80지원기준',
+export const 자영업자고용보험7등급보험료율50to80지원기준SpokeContent: SpokeData = {
+  h1: '자영업자고용보험 7등급 보험료·50to80% 지원 기준 (2026)',
+  breadcrumb: '7등급보험료율50to80지원기준',
   description:
     '자영업자 고용보험 1~7등급별 월 보험료(보험료율 2.25%)와 정부 지원율을 정리합니다. 1~2등급 80% 지원, 3~4등급 60%, 5~7등급 50%. 최대 5년간 지원, 1등급 실부담 월 8,190원.',
   datePublished: '2026-05-19T09:00:00+09:00',

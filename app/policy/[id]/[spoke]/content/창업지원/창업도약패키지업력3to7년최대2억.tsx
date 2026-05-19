@@ -99,9 +99,9 @@ function Content() {
   );
 }
 
-export const 창업지원창업도약패키지업력3-7년최대2억SpokeContent: SpokeData = {
+export const 창업지원창업도약패키지업력3to7년최대2억SpokeContent: SpokeData = {
   h1: '창업도약패키지 2026, 업력 3-7년 기업 최대 2억원 신청법',
-  breadcrumb: '창업도약패키지업력3-7년최대2억',
+  breadcrumb: '창업도약패키지업력3to7년최대2억',
   description:
     '창업도약패키지: 업력 3-7년 창업기업, 최대 2억원(평균 1.2억원). 재도전형(폐업 후 재창업 7년, 평균 6,700만원), 딥테크형(최대 3억원, 평균 1.7억원) 운영. K-스타트업 신청, 민간 투자 연계 가능.',
   datePublished: '2026-05-19T09:00:00+09:00',

@@ -492,7 +492,7 @@ import { 특수형태근로자고용보험적용제외신청원하지않으면�
  * ────────────────────────────────────────────── */
 
 /* ── 자영업자고용보험 (slug: self-employed-employment-insurance) ── */
-import { 자영업자고용보험7등급보험료율50-80지원기준SpokeContent }    from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/7등급보험료율50-80지원기준';
+import { 자영업자고용보험7등급보험료율50to80지원기준SpokeContent }    from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/7등급보험료율50to80지원기준';
 import { 자영업자고용보험가입방법근로복지공단온라인SpokeContent }     from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/가입방법근로복지공단온라인';
 import { 자영업자고용보험직원있는사업주vs1인자영업차이SpokeContent }  from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/직원있는사업주vs1인자영업차이';
 import { 자영업자고용보험폐업후실업급여1년가입조건SpokeContent }     from '@/app/policy/[id]/[spoke]/content/자영업자고용보험/폐업후실업급여1년가입조건';
@@ -530,7 +530,7 @@ import { 신혼부부주거지원전세임대1자격혼인7년신청방법SpokeC
 /* ── 창업지원 (slug: startup-support) ── */
 import { 창업지원단계별비교예창패초기도약차이SpokeContent }         from '@/app/policy/[id]/[spoke]/content/창업지원/단계별비교예창패초기도약차이';
 import { 창업지원예비창업패키지최대8000만신청자격SpokeContent }    from '@/app/policy/[id]/[spoke]/content/창업지원/예비창업패키지최대8000만신청자격';
-import { 창업지원창업도약패키지업력3-7년최대2억SpokeContent }     from '@/app/policy/[id]/[spoke]/content/창업지원/창업도약패키지업력3-7년최대2억';
+import { 창업지원창업도약패키지업력3to7년최대2억SpokeContent }     from '@/app/policy/[id]/[spoke]/content/창업지원/창업도약패키지업력3to7년최대2억';
 import { 창업지원청년창업사관학교만39세1억평균7천SpokeContent }    from '@/app/policy/[id]/[spoke]/content/창업지원/청년창업사관학교만39세1억평균7천';
 /* ── 공공임대주택 (slug: public-rental-housing) ── */
 import { 공공임대주택50년공공임대신청자격월소득기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/공공임대주택/50년공공임대신청자격월소득기준';
@@ -1272,7 +1272,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
 
   'self-employed-employment-insurance': {
-    '7등급보험료율50-80지원기준':      자영업자고용보험7등급보험료율50-80지원기준SpokeContent,
+    '7등급보험료율50to80지원기준':      자영업자고용보험7등급보험료율50to80지원기준SpokeContent,
     '가입방법근로복지공단온라인':      자영업자고용보험가입방법근로복지공단온라인SpokeContent,
     '직원있는사업주vs1인자영업차이':   자영업자고용보험직원있는사업주vs1인자영업차이SpokeContent,
     '폐업후실업급여1년가입조건':       자영업자고용보험폐업후실업급여1년가입조건SpokeContent,
@@ -1316,7 +1316,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'startup-support': {
     '단계별비교예창패초기도약차이':          창업지원단계별비교예창패초기도약차이SpokeContent,
     '예비창업패키지최대8000만신청자격':      창업지원예비창업패키지최대8000만신청자격SpokeContent,
-    '창업도약패키지업력3-7년최대2억':        창업지원창업도약패키지업력3-7년최대2억SpokeContent,
+    '창업도약패키지업력3to7년최대2억':        창업지원창업도약패키지업력3to7년최대2억SpokeContent,
     '청년창업사관학교만39세1억평균7천':      창업지원청년창업사관학교만39세1억평균7천SpokeContent,
   },
 
