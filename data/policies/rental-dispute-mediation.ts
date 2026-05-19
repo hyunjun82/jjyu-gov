@@ -4,7 +4,7 @@ export const rentalDisputeMediationPolicy = {
   title: '2026 주택·상가건물임대차 분쟁조정위원회',
   titleKeywords: { k1: '임대차분쟁조정', k2: '전세보증금분쟁', k3: '상가임대차', k4: '소송없이해결' },
   slug: 'rental-dispute-mediation', org: '법무부·한국부동산원', cat: '법률지원', catSlug: 'legal',
-  amount: '신청 수수료 1만~10만원 (면제 대상 있음), 소송 없이 60일 내 조정',
+  amount: '수수료 1만~10만원 (면제 대상 있음)',
   deadline: '연중', views: 0,
   applyUrl: 'https://adrhome.reb.or.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',

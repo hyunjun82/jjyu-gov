@@ -4,7 +4,7 @@ export const earnedIncomeTaxCreditPolicy = {
   title: '2026 근로장려금·자녀장려금',
   titleKeywords: { k1: '근로장려금', k2: '자녀장려금', k3: 'EITC', k4: '국세청' },
   slug: 'earned-income-tax-credit', org: '국세청', cat: '지원금', catSlug: 'fund',
-  amount: '단독 최대 165만원 / 홑벌이 285만원 / 맞벌이 330만원 + 자녀 1인당 최대 100만원',
+  amount: '단독 165만·홑벌이 285만·맞벌이 330만원',
   deadline: '2026-06-01', views: 0,
   applyUrl: 'https://www.hometax.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',

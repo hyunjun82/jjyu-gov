@@ -4,7 +4,7 @@ export const outOfSchoolTeenPolicy = {
   title: '2026 학교 밖 청소년 지원',
   titleKeywords: { k1: '학교밖청소년', k2: '꿈드림', k3: '검정고시', k4: '여성가족부' },
   slug: 'out-of-school-teen', org: '여성가족부', cat: '지원금', catSlug: 'fund',
-  amount: '학교를 다니지 않는 만 9~24세 청소년에게 학습·검정고시·진로·취업·심리상담을 통합 지원', deadline: '연중', views: 0,
+  amount: '학습·진로·취업 통합 지원', deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
   summary: '학교를 다니지 않는 만 9~24세 청소년에게 학습·검정고시·진로·취업·심리상담을 통합 지원하는 여성가족부 사업. 전국 200여 개 꿈드림센터(학교밖청소년지원센터)에서 운영. 청소년이 직접 1388 또는 꿈드림센터에 연락하면 무료로 다양한 프로그램에 참여 가능.', audience: '만 9~24세 학교 밖 청소년',

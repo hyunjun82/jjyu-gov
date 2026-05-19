@@ -10,7 +10,7 @@ export const basicPensionPolicy = {
   org: '보건복지부',
   cat: '지원금',
   catSlug: 'fund',
-  amount: '월 최대 40만원 (소득하위 50%) / 월 34만 9,700원 (기준연금액)',
+  amount: '월 최대 40만원 (소득하위 50%)',
   deadline: '상시 (만 65세 생일 1개월 전부터 신청 가능)',
   views: 312850,
   applyUrl: 'https://www.bokjiro.go.kr',

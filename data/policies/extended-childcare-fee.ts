@@ -4,7 +4,7 @@ export const extendedChildcareFeePolicy = {
   title: '2026 그 밖의 연장형 보육료 지원',
   titleKeywords: { k1: '연장보육', k2: '보육료', k3: '시간연장', k4: '보건복지부' },
   slug: 'extended-childcare-fee', org: '보건복지부', cat: '지원금', catSlug: 'fund',
-  amount: '어린이집 정규 연장보육 보육료 시간연장 지원 - 어린이집 정규 보육 시간(평일 7:30~19:30) 외의 연장 보육에 대한 보육료를 정부가', deadline: '연중', views: 0,
+  amount: '시간연장보육료 정부 지원', deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
   summary: '어린이집 정규 보육 시간(평일 7:30~19:30) 외의 연장 보육에 대한 보육료를 정부가 추가 지원하는 보건복지부 사업. 야간·24시간·휴일·토요 등 다양한 연장 형태에 따라 차등 지원되며 맞벌이·한부모·장애 부모 등이 우선 대상.', audience: '어린이집 연장 보육 이용 영유아 가구',

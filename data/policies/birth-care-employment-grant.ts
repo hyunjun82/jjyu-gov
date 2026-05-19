@@ -4,7 +4,7 @@ export const birthCareEmploymentGrantPolicy = {
   title: '2026 출산육아기 고용안정장려금',
   titleKeywords: { k1: '고용안정장려금', k2: '대체인력', k3: '업무분담', k4: '고용노동부' },
   slug: 'birth-care-employment-grant', org: '고용노동부', cat: '지원금', catSlug: 'fund',
-  amount: '대체인력 월 최대 140만·육아휴직 월 30만·업무분담 월 20만 (사업주 지원)',
+  amount: '대체인력 월 최대 140만원 (사업주 지원)',
   deadline: '연중',
   views: 0,
   applyUrl: 'https://www.moel.go.kr',

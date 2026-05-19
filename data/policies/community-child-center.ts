@@ -4,7 +4,7 @@ export const communityChildCenterPolicy = {
   title: '2026 지역 아동센터',
   titleKeywords: { k1: '지역아동센터', k2: '돌봄', k3: '학습', k4: '보건복지부' },
   slug: 'community-child-center', org: '보건복지부', cat: '지원금', catSlug: 'fund',
-  amount: '저소득 가구 만 18세 미만 아동에게 방과후 돌봄·학습·식사·문화 활동을 통합 제공하는 보', deadline: '연중', views: 0,
+  amount: '돌봄·학습·식사·문화 통합 지원', deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
   summary: '저소득 가구 만 18세 미만 아동에게 방과후 돌봄·학습·식사·문화 활동을 통합 제공하는 보건복지부 지정 시설. 전국 4,400개 운영 중이며 거주지 또는 학교 인근 센터에서 무료 또는 매우 낮은 비용으로 이용 가능. 기초수급·차상위·한부모 우선.',

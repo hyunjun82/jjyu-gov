@@ -4,7 +4,7 @@ export const parentalLeavePayPolicy = {
   title: '2026 육아휴직급여',
   titleKeywords: { k1: '육아휴직급여', k2: '육아휴직', k3: '6+6부모육아', k4: '고용노동부' },
   slug: 'parental-leave-pay', org: '고용노동부', cat: '지원금', catSlug: 'fund',
-  amount: '1~3월 월 최대 250만원·4~6월 200만원·7월~ 160만원 (최대 1년 6개월)',
+  amount: '월 최대 250만원 (최대 1년 6개월)',
   deadline: '연중',
   views: 0,
   applyUrl: 'https://www.moel.go.kr',

@@ -4,7 +4,7 @@ export const disabledWomenChildcarePolicy = {
   title: '2026 여성장애인 보육 특례 지원',
   titleKeywords: { k1: '여성장애인', k2: '보육특례', k3: '어린이집우선입소', k4: '장애부모자녀' },
   slug: 'disabled-women-childcare', org: '보건복지부', cat: '보육', catSlug: 'childcare',
-  amount: '어린이집 우선 입소 + 장애아보육료 63.4만원(종일)/31.7만원(방과후)',
+  amount: '장애아보육료 63.4만원(종일)/31.7만원(방과후)',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.childcare.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',

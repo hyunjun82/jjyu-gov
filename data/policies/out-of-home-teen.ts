@@ -4,7 +4,7 @@ export const outOfHomeTeenPolicy = {
   title: '2026 가정 밖 청소년 지원',
   titleKeywords: { k1: '가정밖청소년', k2: '청소년쉼터', k3: '자립', k4: '여성가족부' },
   slug: 'out-of-home-teen', org: '여성가족부', cat: '지원금', catSlug: 'fund',
-  amount: '가정 폭력·가출·방임 등으로 가정 밖에 머무는 만 9~24세 청소년에게 청소년 쉼터 입소·', deadline: '연중', views: 0,
+  amount: '청소년 쉼터 입소·생활 지원', deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
   summary: '가정 폭력·가출·방임 등으로 가정 밖에 머무는 만 9~24세 청소년에게 청소년 쉼터 입소·생활 지원·자립 준비 등 통합 지원을 제공하는 여성가족부 사업. 청소년상담복지센터(1388) 또는 청소년 쉼터를 통해 즉시 안전 보호와 회복 단계별 자립 지원이 제공된다.', audience: '만 9~24세 가정 밖 청소년',

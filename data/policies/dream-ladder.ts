@@ -4,7 +4,7 @@ export const dreamLadderPolicy = {
   title: '2026 복권기금 꿈사다리 장학사업',
   titleKeywords: { k1: '꿈사다리', k2: '복권기금', k3: '장학금', k4: '교육부' },
   slug: 'dream-ladder', org: '교육부', cat: '지원금', catSlug: 'fund',
-  amount: '저소득 가구 초·중·고 학생 3,000명을 조기 발굴해 학용품비·교육활동비·멘토링·진로', deadline: '연중', views: 0,
+  amount: '학용품비·교육활동비·멘토링 지원', deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
   summary: '저소득 가구 초·중·고 학생 3,000명을 조기 발굴해 학용품비·교육활동비·멘토링·진로 코칭을 대학 진학까지 제공하는 교육부 사업. 복권기금으로 운영되며 초등 1,000명·중고 2,000명에게 매월 일정 활동비와 맞춤형 프로그램이 주어진다. 학교 추천 + 본인 신청.', audience: '저소득 가구 초·중·고 학생 (학교 추천)',
