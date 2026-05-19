@@ -52,9 +52,12 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   const policyTitle = policy?.title ?? '정책';
   const applyUrl    = policy?.applyUrl ?? 'https://www.gov.kr';
 
-  /* spoke 목록 — policy 파일의 spokes 배열 사용 */
+  /* spoke 목록 — policy 파일의 spokes 배열 사용 (label/title 모두 처리) */
   const spokeList: { slug: string; title: string }[] =
-    SpokesBySlug[policySlug] ?? SpokesById[policyId] ?? [];
+    (SpokesBySlug[policySlug] ?? SpokesById[policyId] ?? []).map((s: any) => ({
+      slug: s.slug,
+      title: s.title ?? s.label ?? s.slug,
+    }));
 
   /* spoke 콘텐츠 — 레지스트리에서 조회 */
   const spokeMap = SpokesRegistry[policySlug] ?? {};

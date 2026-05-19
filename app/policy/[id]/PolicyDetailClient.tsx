@@ -564,7 +564,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
           <PolicySidebar
             policyId={d.id}
             policyTitle={d.title.replace(/^2026\s*/, '')}
-            spokes={spokeList}
+            spokes={spokeList.map((s: any) => ({ slug: s.slug, title: s.title ?? s.label ?? s.slug }))}
             applyUrl={d.applyUrl}
           />
 
