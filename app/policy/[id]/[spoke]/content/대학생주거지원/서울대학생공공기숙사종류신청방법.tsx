@@ -45,14 +45,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '서울대학생공공기숙사종류신청방법',
+export const 대학생주거지원서울대학생공공기숙사종류신청방법SpokeContent: SpokeData = {
+  h1: '서울 대학생 공공기숙사 종류와 신청 방법',
   breadcrumb: '서울대학생공공기숙사종류신청방법',
-  title: '서울 대학생 공공기숙사 종류와 신청 방법',
   description: '서울 희망하우징(SH)과 행복기숙사 종류, 자격 조건, 신청 시기와 방법을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: '대학생 기숙사형 청년주택은 어디서 신청하나요?', a: '한국장학재단(kosaf.go.kr) 또는 LH청약센터(apply.lh.or.kr)에서 신청할 수 있으며, 학교별 안내 공고를 반드시 확인하세요.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '지원 대상 소득 기준이 어떻게 되나요?', a: '주거장학금은 소득분위 1~3구간 기준 학생이 우선 지원됩니다. 기숙사 배정은 학교별·사업별 자체 기준이 적용됩니다.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '주거비 지원 금액은 얼마인가요?', a: '주거장학금은 월 최대 20만 원(지역별 상이)이 지원되며, 기숙사형은 시세 대비 40~60% 수준의 임대료로 입주할 수 있습니다.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '재학생만 신청 가능한가요?', a: '재학생뿐만 아니라 입학 예정자·복학 예정자도 신청 가능한 경우가 있습니다. 사업별 공고를 확인하세요.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '신청 후 대기가 길면 어떻게 되나요?', a: '수요 대비 공급이 부족한 지역은 대기 기간이 발생할 수 있습니다. 순번이 되면 개별 연락이 오며, 거절 시 다음 순번으로 넘어갑니다.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+  ],
+  sources: [{ name: '한국장학재단·LH공사 공식 안내', url: 'https://www.kosaf.go.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 대학생주거지원서울대학생공공기숙사종류신청방법SpokeContent };

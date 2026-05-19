@@ -62,14 +62,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '청년일자리도약장려금지원금액수도권비수도권차이',
+export const 청년일자리도약장려금청년일자리도약장려금지원금액수도권비수도권차이SpokeContent: SpokeData = {
+  h1: '청년일자리도약장려금 지원 금액 수도권 720만원 비수도권 1440만원 차이',
   breadcrumb: '청년일자리도약장려금지원금액수도권비수도권차이',
-  title: '청년일자리도약장려금 지원 금액 수도권 720만원 비수도권 1440만원 차이',
   description: '청년일자리도약장려금 수도권 720만 원, 비수도권 1,440만 원 지역별 지원 금액 차이와 지급 구조를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: '청년일자리도약장려금은 어떤 기업에 지급되나요?', a: '5인 이상 우선지원대상기업(중소기업)에서 취업 취약 청년(6개월 이상 실업, 고졸 이하, NEET 등)을 정규직으로 채용한 경우 지원합니다.', source: '고용노동부 공식 안내', sourceUrl: 'https://www.moel.go.kr' },
+    { q: '지원 금액은 얼마인가요?', a: '채용 청년 1인당 최대 월 60만 원씩, 최대 2년(24개월) 동안 지원됩니다. 총 최대 1,440만 원까지 받을 수 있습니다.', source: '고용노동부 공식 안내', sourceUrl: 'https://www.moel.go.kr' },
+    { q: '신청은 어디서 하나요?', a: '고용24(work24.go.kr) 또는 관할 고용센터를 통해 기업이 직접 신청합니다. 채용 후 6개월 이내에 신청해야 합니다.', source: '고용노동부 공식 안내', sourceUrl: 'https://www.moel.go.kr' },
+    { q: '채용 후 바로 신청이 가능한가요?', a: '정규직 채용일로부터 6개월이 지난 후 지원 요건을 충족한 경우에 신청합니다. 6개월 고용 유지가 지급 요건입니다.', source: '고용노동부 공식 안내', sourceUrl: 'https://www.moel.go.kr' },
+    { q: '지원금 수령 중 청년이 퇴사하면 어떻게 되나요?', a: '청년이 퇴사하면 해당 월부터 지원이 중단됩니다. 일정 기간 내 재채용하거나 다른 취약청년을 채용하면 계속 지원받을 수 있는 경우가 있습니다.', source: '고용노동부 공식 안내', sourceUrl: 'https://www.moel.go.kr' },
+  ],
+  sources: [{ name: '고용노동부 공식 안내', url: 'https://www.moel.go.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 청년일자리도약장려금청년일자리도약장려금지원금액수도권비수도권차이SpokeContent };

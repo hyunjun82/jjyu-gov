@@ -52,14 +52,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '폐업소상공인지원새출발기금차이',
+export const 폐업소상공인채무조정폐업소상공인지원새출발기금차이SpokeContent: SpokeData = {
+  h1: '폐업 소상공인 지원 새출발기금 대상과 내용 차이',
   breadcrumb: '폐업소상공인지원새출발기금차이',
-  title: '폐업 소상공인 지원 새출발기금 대상과 내용 차이',
   description: '희망리턴패키지(폐업지원)와 새출발기금(금융채무조정)의 목적·대상·원금감면·중복신청 여부를 비교합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: '폐업한 소상공인도 채무 조정을 받을 수 있나요?', a: '폐업 후에도 신용회복위원회(ccrs.or.kr) 또는 새출발기금(saechulbal.or.kr)을 통해 채무 조정을 신청할 수 있습니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
+    { q: '채무 조정 신청 시 최소 연체 기간이 있나요?', a: '신용회복위원회는 연체 3개월 이상이 기준이며, 새출발기금은 90일 이상 연체 또는 폐업 소상공인이면 신청 가능합니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
+    { q: '원금 감면은 얼마나 받을 수 있나요?', a: '상황에 따라 원금의 최대 60~90%까지 감면이 가능합니다. 이자·연체이자는 전액 감면되는 경우가 많습니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
+    { q: '채무 조정 중 생계를 유지할 수 있나요?', a: '조정 후 분할 상환 기간이 최대 10년까지 가능하며, 월 상환액을 소득 수준에 맞게 조정해 생계를 유지할 수 있도록 설계됩니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
+    { q: '재창업을 준비 중인데 채무 조정을 받으면 불이익이 있나요?', a: '채무 조정 이력은 신용정보에 등록되어 일시적으로 신용 점수에 영향을 줍니다. 다만 연체 상태보다는 채무 조정이 장기 신용 회복에 유리합니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
+  ],
+  sources: [{ name: '신용회복위원회·새출발기금 공식 안내', url: 'https://www.saechulbal.or.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 폐업소상공인채무조정폐업소상공인지원새출발기금차이SpokeContent };

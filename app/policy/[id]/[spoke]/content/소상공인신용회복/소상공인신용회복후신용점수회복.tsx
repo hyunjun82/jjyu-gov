@@ -52,14 +52,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '소상공인신용회복후신용점수회복',
+export const 소상공인신용회복소상공인신용회복후신용점수회복SpokeContent: SpokeData = {
+  h1: '소상공인 신용회복 후 신용점수 몇 점 오르나',
   breadcrumb: '소상공인신용회복후신용점수회복',
-  title: '소상공인 신용회복 후 신용점수 몇 점 오르나',
   description: '소상공인 신용회복 후 KCB 평균 39점 상승. 카드 발급 기준(591점)과 대출 재이용 가능 여부를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: '소상공인 신용회복 지원은 어디서 신청하나요?', a: '신용회복위원회(ccrs.or.kr) 홈페이지 또는 전화(☎1600-5500), 전국 지부 방문을 통해 신청할 수 있습니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '최대 채무 감면율이 얼마인가요?', a: '채무 유형과 상환 능력에 따라 다르지만, 원금의 최대 70~90%까지 감면이 가능한 경우가 있습니다. 이자는 전액 감면되는 경우도 많습니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '신청 자격은 어떻게 되나요?', a: '총 채무액 15억 원 이하인 소상공인으로, 연체 기간 3개월 이상이거나 폐업 상태인 분이 주 대상입니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '신용회복 후 새로운 대출을 받을 수 있나요?', a: '채무 조정 기간 중에는 신규 대출이 제한됩니다. 성실 상환 후 조정 완료 시 신용이 점차 회복되며 금융 거래가 정상화됩니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '사업을 계속하면서도 신청할 수 있나요?', a: '폐업하지 않고 영업 중인 소상공인도 신청 가능합니다. 다만 현재 영업 상황과 채무 규모 등을 종합적으로 검토합니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
+  ],
+  sources: [{ name: '신용회복위원회 공식 안내', url: 'https://www.ccrs.or.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 소상공인신용회복소상공인신용회복후신용점수회복SpokeContent };

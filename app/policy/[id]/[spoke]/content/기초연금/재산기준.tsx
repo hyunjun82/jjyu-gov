@@ -209,6 +209,8 @@ export const 재산기준SpokeContent: SpokeData = {
       source: '보건복지부 기초연금 FAQ',
       sourceUrl: 'https://basicpension.mohw.go.kr',
     },
+    { q: '재산 기준은 어떻게 계산하나요?', a: '토지·건물·금융재산·자동차 등 가구원 전체 재산에서 기본공제(지역별 상이)를 제외한 금액으로 소득인정액을 산출합니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '재산이 기준 초과면 아예 받을 수 없나요?', a: '소득인정액이 선정기준액을 초과하면 수급이 불가합니다. 단, 부채 차감 등을 반영하면 기준 이하가 되는 경우도 있으니 주민센터에 문의하세요.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

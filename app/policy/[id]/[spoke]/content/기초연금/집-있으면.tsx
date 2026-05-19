@@ -153,6 +153,8 @@ export const 집있으면SpokeContent: SpokeData = {
       source: '보건복지부 기초연금 제도안내',
       sourceUrl: 'https://basicpension.mohw.go.kr',
     },
+    { q: '집 한 채가 있어도 기초연금을 받을 수 있나요?', a: '집이 있어도 소득인정액이 선정기준액 이하이면 기초연금 수급이 가능합니다. 자가 주택은 재산 환산 후 소득인정액에 포함됩니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '고가 주택 보유자도 받을 수 있나요?', a: '고가 주택은 재산 환산액이 커서 소득인정액을 높여 수급에서 탈락할 수 있습니다. 주민센터에서 정확한 판정을 받아야 합니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

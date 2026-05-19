@@ -185,6 +185,8 @@ export const 금액SpokeContent: SpokeData = {
       source: 'K-공감 기초연금 안내',
       sourceUrl: 'https://gonggam.korea.kr',
     },
+    { q: '기초연금 금액은 매년 바뀌나요?', a: '기초연금액은 물가 상승률 등을 반영해 매년 1월에 인상됩니다. 2026년 기준 단독 최대 약 34만 원대입니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '부부가 함께 받으면 금액이 줄어드나요?', a: '부부 모두 기초연금을 받는 경우 각자 20%씩 감액됩니다. 즉 개인 수령액의 80%씩 받게 됩니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

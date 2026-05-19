@@ -171,6 +171,8 @@ export const 감액기준SpokeContent: SpokeData = {
       source: '보건복지부 기초연금 FAQ',
       sourceUrl: 'https://basicpension.mohw.go.kr',
     },
+    { q: '기초연금이 감액되는 주요 이유는 무엇인가요?', a: '국민연금 수령액이 기준연금액의 150%를 초과하거나, 부부가 함께 수급하거나, 고소득·고재산의 경우 감액될 수 있습니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '감액 후에도 최소 지급 금액이 있나요?', a: '부부 2인 수급 감액은 각 20%이며, 국민연금 연계 감액은 최대 50%까지 적용됩니다. 최소 지급 하한선은 별도 없지만 0원으로는 감액되지 않습니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

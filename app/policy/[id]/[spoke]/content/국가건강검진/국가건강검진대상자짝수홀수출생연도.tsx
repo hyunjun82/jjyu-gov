@@ -65,14 +65,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '국가건강검진대상자짝수홀수출생연도',
+export const 국가건강검진국가건강검진대상자짝수홀수출생연도SpokeContent: SpokeData = {
+  h1: '2026 국가건강검진 대상자 짝수 홀수 출생연도 확인',
   breadcrumb: '국가건강검진대상자짝수홀수출생연도',
-  title: '2026 국가건강검진 대상자 짝수 홀수 출생연도 확인',
   description: '2026년 국가건강검진 대상자는 짝수 연도 출생자입니다. 비사무직은 매년 가능. 대상 확인 방법과 주의사항을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: '국가건강검진 대상자인지 어떻게 확인하나요?', a: '국민건강보험 홈페이지(nhis.or.kr) 또는 건강iN(hi.nhis.or.kr)에서 본인 인증 후 건강검진 대상 여부를 확인할 수 있습니다.', source: '국민건강보험공단 공식 안내', sourceUrl: 'https://www.nhis.or.kr' },
+    { q: '건강검진을 받지 않으면 불이익이 있나요?', a: '직장 가입자의 경우 검진 미수검 시 과태료(최대 10만 원)가 부과될 수 있습니다. 지역가입자·피부양자는 과태료가 없으나 건강 관리를 위해 적극 권장됩니다.', source: '국민건강보험공단 공식 안내', sourceUrl: 'https://www.nhis.or.kr' },
+    { q: '건강검진 비용이 따로 드나요?', a: '국가건강검진은 본인 부담 없이 무료로 받을 수 있습니다. 다만 암 검진의 일부 항목은 10% 본인 부담이 발생할 수 있습니다.', source: '국민건강보험공단 공식 안내', sourceUrl: 'https://www.nhis.or.kr' },
+    { q: '건강검진 결과는 언제, 어떻게 받나요?', a: '검진 후 약 2~4주 이내에 우편 또는 건강iN 앱으로 결과를 받을 수 있습니다. 이상 소견이 있을 경우 해당 병원에서 직접 안내합니다.', source: '국민건강보험공단 공식 안내', sourceUrl: 'https://www.nhis.or.kr' },
+    { q: '1년에 한 번씩 받을 수 있나요?', a: '일반건강검진은 직장 가입자는 매년, 지역 가입자·피부양자는 2년에 1회 실시됩니다. 홀수·짝수 출생연도에 따라 검진 연도가 나뉩니다.', source: '국민건강보험공단 공식 안내', sourceUrl: 'https://www.nhis.or.kr' },
+  ],
+  sources: [{ name: '국민건강보험공단 공식 안내', url: 'https://www.nhis.or.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 국가건강검진국가건강검진대상자짝수홀수출생연도SpokeContent };

@@ -149,6 +149,8 @@ export const 수급자격SpokeContent: SpokeData = {
       source: '소득인정액 계산법 가이드',
       sourceUrl: '/policy/2/소득인정액-계산',
     },
+    { q: '만 65세 생일 당월에 신청해야 하나요?', a: '만 65세 생일이 속한 달의 1개월 전부터 신청 가능합니다. 생일 전날까지는 수급 자격이 인정되지 않습니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '외국 국적을 취득하면 기초연금을 받을 수 없나요?', a: '대한민국 국적자로서 국내에 거주하는 경우만 수급 가능합니다. 외국 국적 취득 시 수급 자격을 상실합니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

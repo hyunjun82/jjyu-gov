@@ -63,14 +63,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '국가근로장학금시간당단가교내교외2026',
+export const 국가근로장학금국가근로장학금시간당단가교내교외2026SpokeContent: SpokeData = {
+  h1: '국가근로장학금 시간당 단가 교내 교외 2026년 기준',
   breadcrumb: '국가근로장학금시간당단가교내교외2026',
-  title: '국가근로장학금 시간당 단가 교내 교외 2026년 기준',
   description: '2026년 국가근로장학금 시간당 단가 교내 10,320원 교외 12,790원, 근무 시간 한도와 지급 방식을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: '국가근로장학금은 어디서 신청하나요?', a: '한국장학재단 홈페이지(kosaf.go.kr) 또는 모바일 앱에서 신청할 수 있습니다. 매 학기 시작 전 신청 기간에 맞춰 접수해야 합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '근무 시간은 얼마나 되나요?', a: '월 최대 60시간 이내이며, 학업에 지장이 없는 범위에서 교내 또는 교외 기관에서 근무합니다. 시간당 급여는 최저임금 이상이어야 합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '국가근로장학금을 받으면 다른 장학금도 받을 수 있나요?', a: '국가근로장학금은 성적·소득 연계 장학금(국가장학금 1·2유형)과 중복 수혜가 가능합니다. 다만 학교별 자체 규정을 반드시 확인하세요.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '소득분위 기준이 어떻게 되나요?', a: '소득분위 1~8구간 학생이 신청 가능합니다. 학자금 지원 소득분위는 금융정보·재산 등 가구 소득을 바탕으로 한국장학재단이 산정합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '근무지는 학교 안에서만 가능한가요?', a: '교내 근무 외에도 교외 공공기관, 비영리단체, 지역사회 서비스 기관 등에서도 근무할 수 있습니다. 교외 근무지는 재단 승인이 필요합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+  ],
+  sources: [{ name: '한국장학재단 공식 안내', url: 'https://www.kosaf.go.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 국가근로장학금국가근로장학금시간당단가교내교외2026SpokeContent };

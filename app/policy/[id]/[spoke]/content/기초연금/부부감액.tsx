@@ -162,6 +162,8 @@ export const 부부감액SpokeContent: SpokeData = {
       source: '보건복지부 기초연금 FAQ',
       sourceUrl: 'https://basicpension.mohw.go.kr',
     },
+    { q: '부부 중 한 명만 기초연금을 받아도 감액되나요?', a: '부부 중 한 명만 수급하는 경우에는 부부 감액(20%)이 적용되지 않습니다. 둘 다 수급할 때만 각 20% 감액됩니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '부부 감액 기준은 어떻게 계산하나요?', a: '기준연금액의 20%를 각각 감액합니다. 예를 들어 월 34만 원 기준이면 부부 각자 27만 2천 원씩 받게 됩니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

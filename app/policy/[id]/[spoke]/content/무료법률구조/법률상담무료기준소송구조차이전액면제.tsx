@@ -66,14 +66,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '법률상담무료기준소송구조차이전액면제',
+export const 무료법률구조법률상담무료기준소송구조차이전액면제SpokeContent: SpokeData = {
+  h1: '법률 상담 무료 기준과 소송구조 차이 전액 면제 조건',
   breadcrumb: '법률상담무료기준소송구조차이전액면제',
-  title: '법률 상담 무료 기준과 소송구조 차이 전액 면제 조건',
   description: '법률 상담(누구나 무료)과 소송구조(소득 기준 심사)의 차이, 전액 면제 대상, 법원 소송구조와의 비교를 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: '무료법률구조는 누구나 받을 수 있나요?', a: '소득이 최저생계비 125% 이하인 분, 농어업인, 장애인, 한부모 등 취약계층이 주 대상입니다. 사건 종류와 소득 기준에 따라 무료·감액 지원 범위가 다릅니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
+    { q: '법률구조 신청은 어떻게 하나요?', a: '대한법률구조공단(klac.or.kr) 홈페이지, 전화(☎132), 또는 전국 지부·출장소를 방문해 신청할 수 있습니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
+    { q: '어떤 사건을 지원받을 수 있나요?', a: '민사·가사·형사·행정 사건에 대한 소송 대리, 법률 상담, 서류 작성 등을 지원합니다. 단, 일부 사건 유형은 지원 제외될 수 있습니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
+    { q: '변호사 비용은 얼마인가요?', a: '무료법률구조 대상자는 변호사 비용·소송 비용을 공단이 대신 납부합니다. 승소 후 상대방으로부터 비용을 회수하는 경우에는 공단에 반환합니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
+    { q: '법률 상담만 받을 수도 있나요?', a: '소송까지 진행하지 않더라도 무료 법률 상담만 받는 것이 가능합니다. 방문·전화·온라인 상담 모두 가능합니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
+  ],
+  sources: [{ name: '대한법률구조공단 공식 안내', url: 'https://www.klac.or.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 무료법률구조법률상담무료기준소송구조차이전액면제SpokeContent };

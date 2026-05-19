@@ -171,6 +171,8 @@ export const 신청방법SpokeContent: SpokeData = {
       source: '복지로 기초연금 FAQ',
       sourceUrl: 'https://www.bokjiro.go.kr',
     },
+    { q: '온라인으로 기초연금 신청이 가능한가요?', a: '복지로(bokjiro.go.kr) 또는 정부24(gov.kr)에서 온라인 신청이 가능합니다. 공인인증서(공동인증서)가 필요합니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '대리인이 신청할 수 있나요?', a: '거동이 불편한 경우 가족 등 대리인이 위임장을 지참해 주민센터에서 대신 신청할 수 있습니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

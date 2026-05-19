@@ -133,6 +133,8 @@ export const 소득인정액계산SpokeContent: SpokeData = {
       source: '보건복지부 기초연금 제도안내',
       sourceUrl: 'https://basicpension.mohw.go.kr',
     },
+    { q: '소득인정액 계산에서 부채는 차감되나요?', a: '일정 요건을 갖춘 부채(금융기관 대출 등)는 재산에서 차감될 수 있습니다. 다만 모든 부채가 차감되는 것은 아닙니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '소득인정액 모의계산을 할 수 있나요?', a: '복지로(bokjiro.go.kr) 또는 주민센터에서 소득인정액 모의계산 서비스를 제공합니다. 정확한 결과는 공단 심사를 통해 확정됩니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

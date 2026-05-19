@@ -201,6 +201,8 @@ export const 국민연금차이SpokeContent: SpokeData = {
       source: 'K-공감 기초연금 안내',
       sourceUrl: 'https://gonggam.korea.kr',
     },
+    { q: '국민연금과 기초연금을 동시에 받을 수 있나요?', a: '원칙적으로 동시 수령이 가능하지만, 국민연금 수령액이 일정 금액을 초과하면 기초연금이 감액됩니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
+    { q: '기초연금 수급에 국민연금 가입이 영향을 미치나요?', a: '국민연금 가입 이력과 수령액이 기초연금 감액 여부를 결정하는 핵심 기준입니다. 국민연금 수령액이 높을수록 기초연금이 줄어들 수 있습니다.', source: '보건복지부·국민연금공단 공식 안내', sourceUrl: 'https://www.mohw.go.kr' },
   ],
   sources: [
     { name: 'K-공감 기초연금 안내 (2026.03.03)', url: 'https://gonggam.korea.kr' },

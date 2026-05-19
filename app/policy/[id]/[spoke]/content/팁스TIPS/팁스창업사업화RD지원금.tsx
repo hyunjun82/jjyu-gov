@@ -10,14 +10,19 @@ function Content() {
   );
 }
 
-const spokeData: SpokeData = {
-  slug: '팁스창업사업화RD지원금',
+export const 팁스TIPS팁스창업사업화RD지원금SpokeContent: SpokeData = {
+  h1: 'TIPS 창업사업화 R&D 지원금 얼마나 받나',
   breadcrumb: '팁스창업사업화RD지원금',
-  title: 'TIPS 창업사업화 R&D 지원금 얼마나 받나',
   description: 'TIPS 프로그램에서 정부가 매칭하는 R&D·창업사업화 지원금 규모와 사용 조건을 정리합니다.',
-  lastUpdated: '2026-05-19',
-  content: <Content />,
+  datePublished: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-19T09:00:00+09:00',
+  Content,
+  faqData: [
+    { q: 'TIPS 프로그램 신청 자격은 어떻게 되나요?', a: '창업 7년 이내 기술 기반 스타트업이 대상입니다. TIPS 운영사(엔젤투자자·벤처캐피털)로부터 투자를 받은 경우에 한해 추천 신청이 가능합니다.', source: '중소벤처기업부·TIPS운영사 공식 안내', sourceUrl: 'https://www.jointips.or.kr' },
+    { q: 'TIPS 선정 시 지원 금액은 얼마인가요?', a: '운영사 투자금 1억 원 매칭 시 R&D 자금 최대 5억 원이 지원됩니다. 창업사업화·해외마케팅 자금 최대 1억 원이 추가 지원됩니다.', source: '중소벤처기업부·TIPS운영사 공식 안내', sourceUrl: 'https://www.jointips.or.kr' },
+    { q: '신청은 어디서 하나요?', a: 'TIPS 공식 홈페이지(jointips.or.kr)에서 운영사 목록 확인 후, 관심 운영사에 직접 IR을 진행해 투자 유치를 통해 신청합니다.', source: '중소벤처기업부·TIPS운영사 공식 안내', sourceUrl: 'https://www.jointips.or.kr' },
+    { q: 'R&D 자금 사용 제한이 있나요?', a: '인건비(연구원·개발자), 재료비, 외주개발비, 지식재산권 취득비 등 R&D 관련 비용에만 사용 가능합니다. 사용 내역을 분기별로 보고해야 합니다.', source: '중소벤처기업부·TIPS운영사 공식 안내', sourceUrl: 'https://www.jointips.or.kr' },
+    { q: 'TIPS 선정 후 의무사항이 있나요?', a: '선정 후 2년간 연구개발을 수행하고 정기적으로 성과를 보고해야 합니다. 중도 포기 시 지원금 일부를 반환해야 할 수 있습니다.', source: '중소벤처기업부·TIPS운영사 공식 안내', sourceUrl: 'https://www.jointips.or.kr' },
+  ],
+  sources: [{ name: '중소벤처기업부·TIPS운영사 공식 안내', url: 'https://www.jointips.or.kr' }],
 };
-
-export default spokeData;
-export { spokeData as 팁스TIPS팁스창업사업화RD지원금SpokeContent };
