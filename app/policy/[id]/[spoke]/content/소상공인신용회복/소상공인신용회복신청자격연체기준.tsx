@@ -1,69 +1,70 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          소상공인 신용회복 지원은 <strong>신용회복위원회</strong>를 통해 신청합니다.
-          연체가 있는 소상공인과 폐업 후 재기를 원하는 소상공인 모두 신청할 수 있으며,
-          채무 이자 감면·분할 상환·상환 유예를 지원합니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="target">
-        <h2 className="detail-card-head">신청 자격</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>요건</th><th>내용</th></tr></thead>
-            <tbody>
-              <tr><td>사업자 형태</td><td>개인사업자 (휴·폐업자 포함), 법인 소상공인</td></tr>
-              <tr><td>채무 조건</td><td>금융권 사업자 대출 보유</td></tr>
-              <tr><td>소득 기준</td><td>중위소득 125% 이하 or 연 매출 2억 원 이하 소상공인</td></tr>
-              <tr><td>폐업자</td><td>폐업 후 채무 상환 어려운 경우도 신청 가능</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            신속 신용회복 지원(2025~2026년 시행): 2020년 1월~2025년 8월 중 소액(5천만 원 이하) 연체 후
-            2025년 12월 31일까지 전액 상환한 경우 신용 정보 해제 대상이 될 수 있습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="content">
-        <h2 className="detail-card-head">지원 내용</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>지원 항목</th><th>내용</th></tr></thead>
-            <tbody>
-              <tr><td>이자 감면</td><td>연체 이자 감면 또는 면제</td></tr>
-              <tr><td>이자율 조정</td><td>높은 금리 → 낮은 금리로 조정</td></tr>
-              <tr><td>상환 기간 연장</td><td>분할 상환 기간 연장</td></tr>
-              <tr><td>상환 유예</td><td>일정 기간 상환 유예 후 분할 상환</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            신청 문의: ☎1600-5500 (신용회복위원회) / 온라인: www.ccrs.or.kr
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 소상공인신용회복소상공인신용회복신청자격연체기준SpokeContent: SpokeData = {
   h1: '소상공인 신용회복 신청 자격 연체 기준과 소득 조건',
   breadcrumb: '소상공인신용회복신청자격연체기준',
-  description: '소상공인 신용회복 신청 자격: 중위소득 125% 이하 또는 연매출 2억 이하. 이자 감면·상환 유예 내용을 정리합니다.',
+  description: '소상공인 신용회복 신청 자격: 중위소득 125% 이하 또는 연매출 2억 이하. 이자 감면·상환 유예 지원 내용을 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
-  faqData: [
-    { q: '소상공인 신용회복 지원은 어디서 신청하나요?', a: '신용회복위원회(ccrs.or.kr) 홈페이지 또는 전화(☎1600-5500), 전국 지부 방문을 통해 신청할 수 있습니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
-    { q: '최대 채무 감면율이 얼마인가요?', a: '채무 유형과 상환 능력에 따라 다르지만, 원금의 최대 70~90%까지 감면이 가능한 경우가 있습니다. 이자는 전액 감면되는 경우도 많습니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
-    { q: '신청 자격은 어떻게 되나요?', a: '총 채무액 15억 원 이하인 소상공인으로, 연체 기간 3개월 이상이거나 폐업 상태인 분이 주 대상입니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
-    { q: '신용회복 후 새로운 대출을 받을 수 있나요?', a: '채무 조정 기간 중에는 신규 대출이 제한됩니다. 성실 상환 후 조정 완료 시 신용이 점차 회복되며 금융 거래가 정상화됩니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
-    { q: '사업을 계속하면서도 신청할 수 있나요?', a: '폐업하지 않고 영업 중인 소상공인도 신청 가능합니다. 다만 현재 영업 상황과 채무 규모 등을 종합적으로 검토합니다.', source: '신용회복위원회 공식 안내', sourceUrl: 'https://www.ccrs.or.kr' },
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '신청 기관': '신용회복위원회 (☎1600-5500, ccrs.or.kr)',
+    '사업자 형태': '개인사업자 (휴·폐업자 포함), 법인 소상공인',
+    '소득 기준': '중위소득 125% 이하 또는 연 매출 2억 원 이하',
+    '채무 조건': '금융권 사업자 대출 보유',
+    '지원 내용': '이자 감면·금리 조정·상환 기간 연장·상환 유예',
+  },
+  keyFactsHighlights: {
+    '소득 기준': ['중위소득 125% 이하', '연 매출 2억 원 이하'],
+    '지원 내용': ['이자 감면', '상환 유예'],
+  },
+  qa: [
+    {
+      q: '소상공인 신용회복 신청 자격은 무엇인가요?',
+      anchor: 'target',
+      intro: '소상공인 신용회복 지원은 신용회복위원회를 통해 신청합니다. 연체가 있는 소상공인과 폐업 후 재기를 원하는 소상공인 모두 신청할 수 있으며, 채무 이자 감면·분할 상환·상환 유예를 지원합니다.',
+      highlights: ['폐업 후 재기', '이자 감면', '분할 상환', '상환 유예'],
+      table: {
+        headers: ['요건', '내용'],
+        rows: [
+          ['사업자 형태', '개인사업자 (휴·폐업자 포함), 법인 소상공인'],
+          ['채무 조건', '금융권 사업자 대출 보유'],
+          ['소득 기준', '중위소득 125% 이하 or 연 매출 2억 원 이하 소상공인'],
+          ['폐업자', '폐업 후 채무 상환이 어려운 경우도 신청 가능'],
+        ],
+      },
+      box: {
+        label: '신속 신용회복 특례 (2025~2026년)',
+        content: '2020년 1월~2025년 8월 중 소액(5천만 원 이하) 연체 후 2025년 12월 31일까지 전액 상환한 경우 신용 정보 해제 대상이 될 수 있습니다.',
+      },
+    },
+    {
+      q: '신용회복 지원 내용은 어떻게 되나요?',
+      anchor: 'content',
+      intro: '신용회복위원회는 이자 감면, 금리 인하, 상환 기간 연장, 상환 유예 등 다양한 방식으로 채무 부담을 줄여줍니다. 상황에 따라 지원 내용이 달라지므로 상담을 통해 확인해야 합니다.',
+      highlights: ['이자 감면', '금리 조정', '상환 유예'],
+      table: {
+        headers: ['지원 항목', '내용'],
+        rows: [
+          ['이자 감면', '연체 이자 감면 또는 면제'],
+          ['이자율 조정', '높은 금리 → 낮은 금리로 조정'],
+          ['상환 기간 연장', '분할 상환 기간 연장'],
+          ['상환 유예', '일정 기간 상환 유예 후 분할 상환'],
+        ],
+      },
+      box: {
+        label: '신청 방법',
+        content: '☎1600-5500 (신용회복위원회) 전화 상담 또는 www.ccrs.or.kr 온라인 신청',
+      },
+    },
   ],
-  sources: [{ name: '신용회복위원회 공식 안내', url: 'https://www.ccrs.or.kr' }],
+  faqData: [
+    { q: '신용회복위원회 신청은 어디서 하나요?', a: '신용회복위원회(ccrs.or.kr) 홈페이지 또는 전화 ☎1600-5500, 전국 지부 방문을 통해 신청합니다.', source: '신용회복위원회', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '폐업한 소상공인도 신청할 수 있나요?', a: '네. 폐업 후 채무 상환이 어려운 경우에도 신청 가능합니다. 폐업일 기준 채무 현황을 확인해 신청하세요.', source: '신용회복위원회', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '이자가 전액 면제되는 경우가 있나요?', a: '상황에 따라 연체 이자가 전액 면제되는 경우도 있습니다. 채무 규모와 상환 능력에 따라 달라집니다.', source: '신용회복위원회', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '신청 후 추심 전화가 멈추나요?', a: '신청 접수 후 해당 금융사의 추심 행위가 중단됩니다. 조정 확정 후에는 완전 종료됩니다.', source: '신용회복위원회', sourceUrl: 'https://www.ccrs.or.kr' },
+    { q: '연 매출 2억 원 이상인 소상공인은 신청이 안 되나요?', a: '일반 신청 기준(중위소득 125% 이하 or 연매출 2억 이하)에 해당하지 않아도 예외 기준이 있을 수 있습니다. 개별 상담을 통해 확인하세요.', source: '신용회복위원회', sourceUrl: 'https://www.ccrs.or.kr' },
+  ],
+  sources: [
+    { name: '신용회복위원회', url: 'https://www.ccrs.or.kr' },
+  ],
 };

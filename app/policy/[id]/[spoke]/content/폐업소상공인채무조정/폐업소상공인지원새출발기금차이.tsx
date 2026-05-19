@@ -1,70 +1,69 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          폐업 소상공인 지원(희망리턴패키지)과 새출발기금은 목적이 다릅니다.
-          희망리턴패키지는 <strong>폐업 과정 지원</strong>이고,
-          새출발기금은 <strong>금융 채무 조정</strong>입니다.
-          두 프로그램을 동시에 이용하는 것이 가능합니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">핵심 차이 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>구분</th><th>희망리턴패키지 (폐업지원)</th><th>새출발기금 (채무조정)</th></tr></thead>
-            <tbody>
-              <tr><td>주관</td><td>중소벤처기업부·소진공</td><td>금융위원회·캠코·신복위</td></tr>
-              <tr><td>목적</td><td>폐업 부담 완화, 재기 지원</td><td>금융 채무 원금 감면·기간 연장</td></tr>
-              <tr><td>대상 채무</td><td>소진공 정책자금 (분할 상환 조정)</td><td>금융권 사업자 대출 전반</td></tr>
-              <tr><td>원금 감면</td><td>없음 (상환 유예·분할만 가능)</td><td>최대 90% 감면 (부실차주 한정)</td></tr>
-              <tr><td>점포 지원</td><td>철거비 최대 600만원</td><td>없음</td></tr>
-              <tr><td>재기 지원</td><td>교육·취업·재창업 연계</td><td>취창업 프로그램 연계 가능</td></tr>
-              <tr><td>신청처</td><td>sbiz.or.kr / ☎1357</td><td>새출발기금.kr / ☎1800-8180</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            희망리턴패키지의 채무조정 메뉴에서 새출발기금·신용회복위원회로 연계가 가능합니다.
-            두 제도를 함께 이용하면 폐업 과정과 채무 정리를 동시에 처리할 수 있습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="when">
-        <h2 className="detail-card-head">상황별 선택 가이드</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>상황</th><th>먼저 신청할 것</th></tr></thead>
-            <tbody>
-              <tr><td>점포 철거가 급하다</td><td>희망리턴패키지 (철거비 600만원)</td></tr>
-              <tr><td>금융권 채무 연체 3개월 이상</td><td>새출발기금 (원금 감면)</td></tr>
-              <tr><td>재취업·재창업을 준비 중</td><td>희망리턴패키지 (교육·취업 연계)</td></tr>
-              <tr><td>둘 다 해당</td><td>동시 신청 가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 폐업소상공인채무조정폐업소상공인지원새출발기금차이SpokeContent: SpokeData = {
   h1: '폐업 소상공인 지원 새출발기금 대상과 내용 차이',
   breadcrumb: '폐업소상공인지원새출발기금차이',
   description: '희망리턴패키지(폐업지원)와 새출발기금(금융채무조정)의 목적·대상·원금감면·중복신청 여부를 비교합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
-  faqData: [
-    { q: '폐업한 소상공인도 채무 조정을 받을 수 있나요?', a: '폐업 후에도 신용회복위원회(ccrs.or.kr) 또는 새출발기금(saechulbal.or.kr)을 통해 채무 조정을 신청할 수 있습니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
-    { q: '채무 조정 신청 시 최소 연체 기간이 있나요?', a: '신용회복위원회는 연체 3개월 이상이 기준이며, 새출발기금은 90일 이상 연체 또는 폐업 소상공인이면 신청 가능합니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
-    { q: '원금 감면은 얼마나 받을 수 있나요?', a: '상황에 따라 원금의 최대 60~90%까지 감면이 가능합니다. 이자·연체이자는 전액 감면되는 경우가 많습니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
-    { q: '채무 조정 중 생계를 유지할 수 있나요?', a: '조정 후 분할 상환 기간이 최대 10년까지 가능하며, 월 상환액을 소득 수준에 맞게 조정해 생계를 유지할 수 있도록 설계됩니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
-    { q: '재창업을 준비 중인데 채무 조정을 받으면 불이익이 있나요?', a: '채무 조정 이력은 신용정보에 등록되어 일시적으로 신용 점수에 영향을 줍니다. 다만 연체 상태보다는 채무 조정이 장기 신용 회복에 유리합니다.', source: '신용회복위원회·새출발기금 공식 안내', sourceUrl: 'https://www.saechulbal.or.kr' },
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '희망리턴패키지': '폐업 과정 지원 — 철거비·재교육·취업 연계',
+    '새출발기금': '금융 채무 조정 — 원금 최대 90% 감면',
+    '동시 신청': '두 제도 동시 신청 가능',
+    '희망리턴': 'sbiz.or.kr / ☎1357',
+    '새출발기금': '새출발기금.kr / ☎1800-8180',
+  },
+  keyFactsHighlights: {
+    '새출발기금': ['원금 최대 90% 감면'],
+    '동시 신청': ['동시 신청 가능'],
+  },
+  qa: [
+    {
+      q: '희망리턴패키지와 새출발기금 어떻게 다른가요?',
+      anchor: 'compare',
+      intro: '희망리턴패키지는 폐업 과정 지원이고, 새출발기금은 금융 채무 조정입니다. 둘은 목적이 달라 동시에 신청하는 것이 가능합니다.',
+      highlights: ['폐업 과정 지원', '금융 채무 조정', '동시 신청'],
+      table: {
+        headers: ['구분', '희망리턴패키지 (폐업지원)', '새출발기금 (채무조정)'],
+        rows: [
+          ['주관', '중소벤처기업부·소진공', '금융위원회·캠코·신복위'],
+          ['목적', '폐업 부담 완화, 재기 지원', '금융 채무 원금 감면·기간 연장'],
+          ['원금 감면', '없음 (상환 유예·분할만)', '최대 90% 감면 (부실차주 한정)'],
+          ['점포 지원', '철거비 최대 600만원', '없음'],
+          ['재기 지원', '교육·취업·재창업 연계', '취창업 프로그램 연계 가능'],
+          ['신청처', 'sbiz.or.kr / ☎1357', '새출발기금.kr / ☎1800-8180'],
+        ],
+      },
+      box: {
+        label: '희망리턴패키지 채무조정 메뉴',
+        content: '희망리턴패키지의 채무조정 메뉴에서 새출발기금·신용회복위원회로 연계가 가능합니다. 두 제도를 함께 이용하면 폐업 과정과 채무 정리를 동시에 처리할 수 있습니다.',
+      },
+    },
+    {
+      q: '내 상황에서 어떤 제도를 먼저 신청해야 하나요?',
+      anchor: 'when',
+      intro: '점포 철거가 급하면 희망리턴패키지, 금융권 채무 연체가 문제라면 새출발기금을 먼저 신청합니다. 두 제도가 모두 해당되면 동시 신청이 가능합니다.',
+      highlights: ['점포 철거', '채무 연체', '동시 신청'],
+      table: {
+        headers: ['상황', '먼저 신청할 것'],
+        rows: [
+          ['점포 철거가 급하다', '희망리턴패키지 (철거비 600만원)'],
+          ['금융권 채무 연체 3개월 이상', '새출발기금 (원금 감면)'],
+          ['재취업·재창업을 준비 중', '희망리턴패키지 (교육·취업 연계)'],
+          ['둘 다 해당', '동시 신청 가능'],
+        ],
+      },
+    },
   ],
-  sources: [{ name: '신용회복위원회·새출발기금 공식 안내', url: 'https://www.saechulbal.or.kr' }],
+  faqData: [
+    { q: '두 제도를 동시에 신청해도 되나요?', a: '네. 목적이 달라 동시 신청이 가능합니다.', source: '소진공·금융위원회', sourceUrl: 'https://www.saechulbal.or.kr' },
+    { q: '희망리턴패키지에서 원금 감면도 되나요?', a: '희망리턴패키지 자체에서는 원금 감면이 없습니다. 채무조정 메뉴를 통해 새출발기금(원금 최대 90% 감면)으로 연계됩니다.', source: '소진공', sourceUrl: 'https://www.sbc.or.kr' },
+    { q: '새출발기금은 코로나 채무만 되나요?', a: '주로 코로나19 피해 기간(2020년 4월~2025년) 중 발생한 대출이 대상입니다.', source: '금융위원회·캠코', sourceUrl: 'https://www.saechulbal.or.kr' },
+    { q: '폐업 후 재창업 자금도 지원받을 수 있나요?', a: '희망리턴패키지를 통해 재도전특별자금과 연계가 가능합니다. sbiz.or.kr에서 확인하세요.', source: '소진공', sourceUrl: 'https://www.sbc.or.kr' },
+    { q: '법인도 신청할 수 있나요?', a: '희망리턴패키지는 개인사업자와 일부 법인 소상공인이 대상입니다. 새출발기금 채무조정은 주로 개인사업자 대상입니다.', source: '소진공·금융위원회', sourceUrl: 'https://www.saechulbal.or.kr' },
+  ],
+  sources: [
+    { name: '소상공인진흥공단 희망리턴패키지', url: 'https://www.sbc.or.kr' },
+    { name: '금융위원회·캠코 새출발기금', url: 'https://www.saechulbal.or.kr' },
+  ],
 };

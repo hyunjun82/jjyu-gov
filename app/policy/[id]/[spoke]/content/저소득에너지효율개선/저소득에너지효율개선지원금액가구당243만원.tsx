@@ -1,83 +1,87 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          저소득층 에너지효율 개선사업의 가구당 평균 지원 금액은 <strong>약 243만 원</strong>입니다.
-          지원금은 현금이 아닌 <strong>무상 시공</strong> 형태로 제공되며, 지원 항목과 규모에 따라 달라집니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">지원 금액 수준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>항목</th><th>내용</th></tr></thead>
-            <tbody>
-              <tr><td>가구당 평균 지원액</td><td>약 243만 원 (시공비 기준)</td></tr>
-              <tr><td>지원 형태</td><td>현금 지급 아님, 무상 시공</td></tr>
-              <tr><td>본인 부담</td><td>없음 (전액 무상)</td></tr>
-              <tr><td>재료비·인건비</td><td>한국에너지재단이 시공 업체에 직접 지급</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            243만 원은 평균값입니다. 단열·창호·보일러·에어컨 등 시공 항목 수와 주택 규모에 따라
-            실제 지원 금액은 더 많거나 적을 수 있습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="byitem">
-        <h2 className="detail-card-head">항목별 시공 비용 (참고)</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>시공 항목</th><th>비용 수준</th></tr></thead>
-            <tbody>
-              <tr><td>보일러 교체</td><td>70~120만 원 수준</td></tr>
-              <tr><td>창호 교체</td><td>창 크기·수량에 따라 상이</td></tr>
-              <tr><td>단열재 시공</td><td>주택 면적에 따라 상이</td></tr>
-              <tr><td>에어컨 설치</td><td>30~70만 원 수준</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            위 금액은 참고용이며, 실제 시공 범위와 자재는 현장 조사 후 결정됩니다.
-            수혜자가 원하는 항목을 임의로 선택할 수 없습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="contact">
-        <h2 className="detail-card-head">신청 및 문의</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>채널</th><th>연락처</th></tr></thead>
-            <tbody>
-              <tr><td>한국에너지재단 콜센터</td><td>☎ 1670-7653</td></tr>
-              <tr><td>홈페이지</td><td>kew.or.kr</td></tr>
-              <tr><td>방문 신청</td><td>거주지 읍·면·동 주민센터</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 저소득에너지효율개선저소득에너지효율개선지원금액가구당243만원SpokeContent: SpokeData = {
   h1: '저소득 에너지효율 개선 지원 금액 가구당 평균 243만원',
   breadcrumb: '저소득에너지효율개선지원금액가구당243만원',
   description: '저소득층 에너지효율 개선사업 가구당 평균 지원 금액 243만 원, 무상 시공 방식, 항목별 비용 수준을 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
-  faqData: [
-    { q: '저소득층 에너지효율 개선 사업 신청 대상은 누구인가요?', a: '기초생활수급자, 차상위계층, 에너지 바우처 수급자 등 저소득 취약계층 가구가 주 대상입니다. 노후 주택에 거주하는 경우 우선 지원됩니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '어떤 공사를 지원받을 수 있나요?', a: '단열재 보강, 창호 교체, 고효율 보일러·LED 교체, 단열 창문 시공 등 에너지 절감에 효과적인 공사를 지원합니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '신청은 어디서 하나요?', a: '한국에너지공단(kemco.or.kr) 또는 주민센터(읍면동사무소)를 통해 신청할 수 있습니다. 지자체별 별도 접수처가 있는 경우도 있습니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '본인 부담금이 있나요?', a: '지원 대상에 따라 전액 무료 또는 일부 자부담이 발생할 수 있습니다. 기초수급자는 전액 무료가 원칙이며, 차상위계층은 일부 자부담이 있을 수 있습니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '임차인도 신청할 수 있나요?', a: '임차인도 신청 가능하지만, 공사 진행을 위해 집주인 동의가 필요한 경우가 많습니다. 주민센터에서 사전 상담을 받으시기 바랍니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '가구당 평균': '약 243만 원 (시공비 기준)',
+    '지원 형태': '현금 지급 아님, 무상 시공',
+    '본인 부담': '없음 (전액 무상)',
+    '보일러 교체': '70~120만 원 수준',
+    '에어컨 설치': '30~70만 원 수준',
+    '문의처': '한국에너지재단 ☎ 1670-7653',
+  },
+  keyFactsHighlights: {
+    '가구당 평균': ['약 243만 원'],
+    '지원 형태': ['무상 시공'],
+    '본인 부담': ['없음', '전액 무상'],
+  },
+  qa: [
+    {
+      q: '얼마나 지원받을 수 있나요?',
+      anchor: 'amount',
+      intro: '저소득층 에너지효율 개선사업의 가구당 평균 지원 금액은 약 243만 원입니다. 지원금은 현금이 아닌 무상 시공 형태로 제공되며, 지원 항목과 규모에 따라 달라집니다.',
+      highlights: ['243만 원', '무상 시공', '현금 지급 아님'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['가구당 평균 지원액', '약 243만 원 (시공비 기준)'],
+          ['지원 형태', '현금 지급 아님, 무상 시공'],
+          ['본인 부담', '없음 (전액 무상)'],
+          ['재료비·인건비', '한국에너지재단이 시공 업체에 직접 지급'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '243만 원은 평균값입니다. 단열·창호·보일러·에어컨 등 시공 항목 수와 주택 규모에 따라 실제 지원 금액은 더 많거나 적을 수 있습니다.',
+      },
+    },
+    {
+      q: '항목별로 비용은 어느 정도인가요?',
+      anchor: 'byitem',
+      intro: '시공 항목에 따라 비용이 다릅니다. 보일러 교체는 70~120만 원, 에어컨 설치는 30~70만 원 수준입니다.',
+      highlights: ['보일러 교체', '에어컨 설치', '현장 조사'],
+      table: {
+        headers: ['시공 항목', '비용 수준'],
+        rows: [
+          ['보일러 교체', '70~120만 원 수준'],
+          ['창호 교체', '창 크기·수량에 따라 상이'],
+          ['단열재 시공', '주택 면적에 따라 상이'],
+          ['에어컨 설치', '30~70만 원 수준'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '위 금액은 참고용이며, 실제 시공 범위와 자재는 현장 조사 후 결정됩니다. 수혜자가 원하는 항목을 임의로 선택할 수 없습니다.',
+      },
+    },
+    {
+      q: '신청 및 문의처는?',
+      anchor: 'contact',
+      intro: '한국에너지재단 콜센터 또는 주민센터를 통해 신청하고 문의할 수 있습니다.',
+      highlights: ['☎ 1670-7653', 'kew.or.kr'],
+      table: {
+        headers: ['채널', '연락처'],
+        rows: [
+          ['한국에너지재단 콜센터', '☎ 1670-7653'],
+          ['홈페이지', 'kew.or.kr'],
+          ['방문 신청', '거주지 읍·면·동 주민센터'],
+        ],
+      },
+    },
   ],
-  sources: [{ name: '한국에너지공단 공식 안내', url: 'https://www.kemco.or.kr' }],
+  faqData: [
+    { q: '지원금을 현금으로 받을 수 있나요?', a: '현금 지급이 아닌 무상 시공 방식입니다. 시공 업체에 직접 비용이 지급되며, 수혜자는 비용을 부담하지 않습니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '243만 원보다 많이 받을 수도 있나요?', a: '예, 주택 규모와 노후도에 따라 지원 금액이 달라집니다. 현장 조사 후 필요한 항목이 결정되므로 평균보다 더 많이 지원받는 경우도 있습니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '원하는 항목을 직접 선택할 수 있나요?', a: '수혜자가 임의로 선택할 수 없습니다. 한국에너지재단 직원의 현장 조사 결과에 따라 지원 항목이 결정됩니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '차상위계층도 전액 무상인가요?', a: '원칙적으로 전액 무상이지만, 일부 지자체나 특정 항목에서 자부담이 발생할 수 있습니다. 신청 전 주민센터에서 확인하세요.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '시공이 완료되면 사후 점검도 해주나요?', a: '예, 공사 완료 후 완공 확인 및 사후 점검이 이루어집니다. 시공 불량이 발견되면 보수를 요청할 수 있습니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+  ],
+  sources: [
+    { name: '한국에너지재단 공식 안내', url: 'https://www.kew.or.kr' },
+    { name: '한국에너지공단 에너지효율개선', url: 'https://www.kemco.or.kr' },
+  ],
 };

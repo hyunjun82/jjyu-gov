@@ -1,63 +1,64 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          서울에는 <strong>희망하우징(SH)</strong>과 <strong>행복(공공)기숙사</strong> 두 가지 공공기숙사가 있습니다.
-          희망하우징은 SH공사가 운영하는 원룸형 기숙사이고,
-          행복기숙사는 여러 대학 학생이 함께 사용하는 연합형 공공기숙사입니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="types">
-        <h2 className="detail-card-head">서울 대학생 공공기숙사 종류</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>종류</th><th>운영</th><th>특징</th><th>신청처</th></tr></thead>
-            <tbody>
-              <tr><td>희망하우징</td><td>SH 서울주택도시공사</td><td>원룸형, 기숙사형. 대학생 전용 공공임대</td><td>i-sh.co.kr</td></tr>
-              <tr><td>행복(공공)기숙사</td><td>서울시·한국사학진흥재단</td><td>여러 대학 연합. 월세 저렴</td><td>housing.seoul.go.kr</td></tr>
-              <tr><td>동소문·홍제 행복기숙사</td><td>한국사학진흥재단</td><td>시내 위치. 월 10만원대 수준</td><td>happydorm.or.kr</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법 및 자격</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>프로그램</th><th>자격</th><th>신청 시기</th></tr></thead>
-            <tbody>
-              <tr><td>희망하우징</td><td>서울 소재 대학 재학생, 소득 기준 충족</td><td>공고 시 (SH 홈페이지)</td></tr>
-              <tr><td>행복기숙사</td><td>해당 협약 대학 재학생, 학교 추천</td><td>학기 초 (대학별 공고)</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            희망하우징은 i-sh.co.kr에서 공고를 확인하고 온라인 청약으로 신청합니다.
-            행복기숙사는 소속 대학의 기숙사 담당 부서를 통해 신청하세요.
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 대학생주거지원서울대학생공공기숙사종류신청방법SpokeContent: SpokeData = {
   h1: '서울 대학생 공공기숙사 종류와 신청 방법',
   breadcrumb: '서울대학생공공기숙사종류신청방법',
   description: '서울 희망하우징(SH)과 행복기숙사 종류, 자격 조건, 신청 시기와 방법을 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
-  faqData: [
-    { q: '대학생 기숙사형 청년주택은 어디서 신청하나요?', a: '한국장학재단(kosaf.go.kr) 또는 LH청약센터(apply.lh.or.kr)에서 신청할 수 있으며, 학교별 안내 공고를 반드시 확인하세요.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '지원 대상 소득 기준이 어떻게 되나요?', a: '주거장학금은 소득분위 1~3구간 기준 학생이 우선 지원됩니다. 기숙사 배정은 학교별·사업별 자체 기준이 적용됩니다.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '주거비 지원 금액은 얼마인가요?', a: '주거장학금은 월 최대 20만 원(지역별 상이)이 지원되며, 기숙사형은 시세 대비 40~60% 수준의 임대료로 입주할 수 있습니다.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '재학생만 신청 가능한가요?', a: '재학생뿐만 아니라 입학 예정자·복학 예정자도 신청 가능한 경우가 있습니다. 사업별 공고를 확인하세요.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '신청 후 대기가 길면 어떻게 되나요?', a: '수요 대비 공급이 부족한 지역은 대기 기간이 발생할 수 있습니다. 순번이 되면 개별 연락이 오며, 거절 시 다음 순번으로 넘어갑니다.', source: '한국장학재단·LH공사 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '희망하우징': 'SH 운영, 원룸형·기숙사형, i-sh.co.kr에서 신청',
+    '행복기숙사': '서울시·한국사학진흥재단 운영, 월 10만원대',
+    '동소문·홍제': '한국사학진흥재단 연합형, happydorm.or.kr',
+    '신청 자격': '서울 소재 대학 재학생, 소득 기준 충족',
+    '신청 시기': '공고 시 (SH 홈페이지) / 학기 초 (대학별 공고)',
+  },
+  keyFactsHighlights: {
+    '희망하우징': ['i-sh.co.kr'],
+    '행복기숙사': ['월 10만원대'],
+  },
+  qa: [
+    {
+      q: '서울 대학생 공공기숙사 종류는 무엇이 있나요?',
+      anchor: 'types',
+      intro: '서울에는 SH(서울주택도시공사)가 운영하는 희망하우징과 서울시·한국사학진흥재단이 운영하는 행복기숙사 두 종류가 있습니다.',
+      highlights: ['희망하우징', '행복기숙사', '동소문', '홍제'],
+      table: {
+        headers: ['종류', '운영', '특징', '신청처'],
+        rows: [
+          ['희망하우징', 'SH 서울주택도시공사', '원룸형, 기숙사형. 대학생 전용 공공임대', 'i-sh.co.kr'],
+          ['행복(공공)기숙사', '서울시·한국사학진흥재단', '여러 대학 연합. 월세 저렴', 'housing.seoul.go.kr'],
+          ['동소문·홍제 행복기숙사', '한국사학진흥재단', '시내 위치. 월 10만원대 수준', 'happydorm.or.kr'],
+        ],
+      },
+    },
+    {
+      q: '어떻게 신청하나요?',
+      anchor: 'apply',
+      intro: '희망하우징은 SH 홈페이지 공고 시 온라인 청약으로 신청합니다. 행복기숙사는 소속 대학의 기숙사 담당 부서를 통해 신청하세요.',
+      highlights: ['i-sh.co.kr', '학교 추천', '온라인 청약'],
+      table: {
+        headers: ['프로그램', '자격', '신청 시기'],
+        rows: [
+          ['희망하우징', '서울 소재 대학 재학생, 소득 기준 충족', '공고 시 (SH 홈페이지)'],
+          ['행복기숙사', '해당 협약 대학 재학생, 학교 추천', '학기 초 (대학별 공고)'],
+        ],
+      },
+      box: {
+        label: '신청 방법',
+        content: '희망하우징은 i-sh.co.kr에서 공고를 확인하고 온라인 청약으로 신청합니다. 행복기숙사는 소속 대학의 기숙사 담당 부서를 통해 신청하세요.',
+      },
+    },
   ],
-  sources: [{ name: '한국장학재단·LH공사 공식 안내', url: 'https://www.kosaf.go.kr' }],
+  faqData: [
+    { q: '희망하우징 신청 자격은 어떻게 되나요?', a: '서울 소재 대학교·전문대 재학생으로 소득 기준을 충족해야 합니다. 공고마다 기준이 다를 수 있으므로 i-sh.co.kr 공고를 확인하세요.', source: 'SH 서울주택도시공사 공식 안내', sourceUrl: 'https://www.i-sh.co.kr' },
+    { q: '행복기숙사는 어느 대학생이 신청할 수 있나요?', a: '한국사학진흥재단과 협약한 대학의 재학생이 신청 가능합니다. 소속 대학 기숙사 담당 부서 또는 happydorm.or.kr에서 협약 여부를 확인하세요.', source: '한국사학진흥재단 공식 안내', sourceUrl: 'https://www.happydorm.or.kr' },
+    { q: '희망하우징 임대료는 얼마인가요?', a: '단지별로 다르며 월 79,000~145,300원 수준입니다. 보증금은 1,090,000원입니다(일부 제외).', source: 'SH 서울주택도시공사 공식 안내', sourceUrl: 'https://www.i-sh.co.kr' },
+    { q: '공공기숙사에서 최대 몇 년 거주할 수 있나요?', a: '희망하우징은 최초 2년 계약 후 재계약 2회(회당 2년)로 최장 6년 거주 가능합니다. 행복기숙사는 기숙사·학교별로 다릅니다.', source: 'SH 서울주택도시공사 공식 안내', sourceUrl: 'https://www.i-sh.co.kr' },
+    { q: '기초수급자·장애학생은 우선 선발되나요?', a: '행복기숙사는 사회적 배려자(기초수급자, 장애학생, 한부모가정 자녀 등)를 전체 정원의 8% 이상 우선 선발합니다.', source: '한국사학진흥재단 공식 안내', sourceUrl: 'https://www.happydorm.or.kr' },
+  ],
+  sources: [
+    { name: 'SH 서울주택도시공사 희망하우징', url: 'https://www.i-sh.co.kr' },
+    { name: '한국사학진흥재단 행복기숙사', url: 'https://www.happydorm.or.kr' },
+  ],
 };

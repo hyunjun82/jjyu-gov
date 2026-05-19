@@ -1,86 +1,78 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          국가근로장학금은 <strong>국가장학금 유형 I·II와 동시에 받을 수 있습니다.</strong>
-          단, 교내 근로와 교외 근로는 같은 학기에 중복 신청이 불가하고,
-          성적우수 장학금 등 학교 장학금과의 중복은 학교 규정에 따라 다릅니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="compat">
-        <h2 className="detail-card-head">중복 수혜 가능 여부</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>장학금 종류</th><th>중복 가능 여부</th></tr></thead>
-            <tbody>
-              <tr><td>국가장학금 유형 I</td><td>가능</td></tr>
-              <tr><td>국가장학금 유형 II</td><td>가능</td></tr>
-              <tr><td>푸른등대 기부장학금</td><td>가능</td></tr>
-              <tr><td>교내 성적우수 장학금</td><td>학교 규정에 따라 상이</td></tr>
-              <tr><td>교내 근로 + 교외 근로</td><td>동일 학기 중복 불가</td></tr>
-              <tr><td>타 교내 근로 프로그램</td><td>중복 불가</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            학교에서 자체 운영하는 교내 근로 장학금과 국가근로장학금을 동시에 받는 것은 불가합니다.
-            학교 장학처에 중복 수혜 가능 여부를 반드시 확인하세요.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="inside-outside">
-        <h2 className="detail-card-head">교내 근로 vs 교외 근로 차이</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>구분</th><th>교내 근로</th><th>교외 근로</th></tr></thead>
-            <tbody>
-              <tr><td>근무 장소</td><td>소속 대학 내 부서</td><td>공공기관·사회적기업 등</td></tr>
-              <tr><td>시간당 단가</td><td>10,320원</td><td>12,790원</td></tr>
-              <tr><td>배정 방식</td><td>학교에서 부서 배정</td><td>한재단이 기관 연결</td></tr>
-              <tr><td>동시 신청</td><td colspan={2} style={{textAlign:'center'}}>불가 (둘 중 하나만 선택)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="tip">
-        <h2 className="detail-card-head">중복 수혜 전략</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>상황</th><th>추천</th></tr></thead>
-            <tbody>
-              <tr><td>학교 생활과 병행 편의</td><td>교내 근로 선택 (이동 시간 절약)</td></tr>
-              <tr><td>시간당 수입 극대화</td><td>교외 근로 선택 (12,790원)</td></tr>
-              <tr><td>국가장학금 미수혜</td><td>국가장학금 + 국가근로장학금 동시 신청</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            학기당 수령 가능한 국가근로장학금은 최대 시간 한도에 따라 결정됩니다.
-            국가장학금과 함께 신청하면 등록금 부담을 추가로 줄일 수 있습니다.
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 국가근로장학금국가근로장학금교내교외장학금중복가능SpokeContent: SpokeData = {
-  h1: '국가근로장학금 교내 교외 다른 장학금과 중복 가능한가',
+  h1: '국가근로장학금 교내 교외 장학금 중복 수혜 가능 여부',
   breadcrumb: '국가근로장학금교내교외장학금중복가능',
-  description: '국가근로장학금과 국가장학금 유형 I·II 중복 수혜 여부, 교내·교외 근로 동시 신청 불가 기준을 정리합니다.',
+  description: '국가근로장학금과 교내장학금·국가장학금 중복 수혜 가능 여부, 교내·교외 동시 참여 제한 기준을 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
-  faqData: [
-    { q: '국가근로장학금은 어디서 신청하나요?', a: '한국장학재단 홈페이지(kosaf.go.kr) 또는 모바일 앱에서 신청할 수 있습니다. 매 학기 시작 전 신청 기간에 맞춰 접수해야 합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '근무 시간은 얼마나 되나요?', a: '월 최대 60시간 이내이며, 학업에 지장이 없는 범위에서 교내 또는 교외 기관에서 근무합니다. 시간당 급여는 최저임금 이상이어야 합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '국가근로장학금을 받으면 다른 장학금도 받을 수 있나요?', a: '국가근로장학금은 성적·소득 연계 장학금(국가장학금 1·2유형)과 중복 수혜가 가능합니다. 다만 학교별 자체 규정을 반드시 확인하세요.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '소득분위 기준이 어떻게 되나요?', a: '소득분위 1~8구간 학생이 신청 가능합니다. 학자금 지원 소득분위는 금융정보·재산 등 가구 소득을 바탕으로 한국장학재단이 산정합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '근무지는 학교 안에서만 가능한가요?', a: '교내 근무 외에도 교외 공공기관, 비영리단체, 지역사회 서비스 기관 등에서도 근무할 수 있습니다. 교외 근무지는 재단 승인이 필요합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '국가장학금 I·II형': '중복 수혜 가능',
+    '교내장학금': '중복 수혜 가능 (단, 대학별 규정 확인)',
+    '교내+교외 동시': '동시 참여 불가',
+    '교내 시급': '10,320원',
+    '교외 시급': '12,790원',
+    '문의처': '한국장학재단 ☎ 1599-2000',
+  },
+  keyFactsHighlights: {
+    '국가장학금 I·II형': ['중복 수혜 가능'],
+    '교내+교외 동시': ['동시 참여 불가'],
+    '교내 시급': ['10,320원'],
+    '교외 시급': ['12,790원'],
+  },
+  qa: [
+    {
+      q: '국가장학금·교내장학금과 중복으로 받을 수 있나요?',
+      anchor: 'overlap',
+      intro: '국가근로장학금은 국가장학금 I형·II형, 교내장학금과 중복 수혜가 가능합니다. 단, 교내 근로와 교외 근로는 동시에 참여할 수 없습니다.',
+      highlights: ['중복 수혜 가능', '동시에 참여할 수 없습니다'],
+      table: {
+        headers: ['장학금 종류', '중복 가능 여부'],
+        rows: [
+          ['국가장학금 I형', '중복 가능'],
+          ['국가장학금 II형', '중복 가능'],
+          ['교내장학금', '중복 가능 (대학별 규정 확인)'],
+          ['교내 근로 + 교외 근로 동시', '불가'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '교내 근로와 교외 근로는 동시에 참여할 수 없습니다. 둘 중 하나를 선택해야 하며, 교외 근로의 시급이 더 높습니다.',
+      },
+    },
+    {
+      q: '교내 근로와 교외 근로의 차이는 무엇인가요?',
+      anchor: 'diff',
+      intro: '교내 근로는 재학 대학 내 부서에서 근무하며 시급 10,320원, 교외 근로는 외부 기관·기업에서 근무하며 시급 12,790원입니다.',
+      highlights: ['10,320원', '12,790원', '교내', '교외'],
+      table: {
+        headers: ['구분', '근무지', '시급', '주요 특징'],
+        rows: [
+          ['교내 근로', '재학 대학 내 부서', '10,320원', '학업과 병행 유리'],
+          ['교외 근로', '외부 기관·기업', '12,790원', '현장 경험 취득'],
+        ],
+      },
+    },
+    {
+      q: '중복 수혜 시 소득분위 기준은 달라지나요?',
+      anchor: 'income',
+      intro: '국가근로장학금 자체는 소득 8분위 이하가 기준이며, 다른 장학금과 중복 시 소득분위 기준이 별도로 변경되지는 않습니다.',
+      highlights: ['8분위 이하'],
+      box: {
+        label: '확인 방법',
+        content: '한국장학재단 홈페이지(kosaf.go.kr) → 장학금 → 국가근로장학금에서 본인 소득분위 및 중복 가능 여부를 확인할 수 있습니다.',
+      },
+    },
   ],
-  sources: [{ name: '한국장학재단 공식 안내', url: 'https://www.kosaf.go.kr' }],
+  faqData: [
+    { q: '교내 근로 중 교외 근로로 바꿀 수 있나요?', a: '학기 중 변경은 어렵습니다. 다음 학기에 지원 유형을 변경할 수 있으며, 한국장학재단에 문의하세요.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '국가근로장학금과 성적우수장학금을 같이 받을 수 있나요?', a: '대학별 규정에 따라 다릅니다. 국가근로장학금은 원칙적으로 중복이 허용되지만 대학 자체 장학금 규정을 확인해야 합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '교외 근로 시급이 더 높은 이유는?', a: '교외 근로는 외부 기관 이동 등 추가 부담이 있어 시급이 더 높게 책정됩니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '교내 교외 동시 지원 시 어떻게 되나요?', a: '교내와 교외 근로를 동시에 신청해도 한 곳만 선정됩니다. 동시 참여는 허용되지 않습니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '대출을 받으면 국가근로장학금을 못 받나요?', a: '학자금 대출 수혜 여부와 국가근로장학금은 별개입니다. 소득분위 기준만 충족하면 대출과 무관하게 신청 가능합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+  ],
+  sources: [
+    { name: '한국장학재단 공식 안내', url: 'https://www.kosaf.go.kr' },
+    { name: '한국장학재단 국가근로장학금', url: 'https://www.kosaf.go.kr/ko/scholarship.do?pg=PG00000005' },
+  ],
 };

@@ -1,81 +1,77 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          2026년 국가근로장학금 시간당 단가는 <strong>교내 근로 10,320원, 교외 근로 12,790원</strong>입니다.
-          학기 중 주 20시간, 방학 중 주 40시간 이내로 근무할 수 있습니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="rate">
-        <h2 className="detail-card-head">2026년 시간당 단가</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>근로 유형</th><th>시간당 단가</th><th>지급 주체</th></tr></thead>
-            <tbody>
-              <tr><td>교내 근로</td><td>10,320원</td><td>한국장학재단</td></tr>
-              <tr><td>교외 근로 (일반)</td><td>12,790원</td><td>한국장학재단</td></tr>
-              <tr><td>교외 근로 (사회적기업 등)</td><td>12,790원</td><td>한국장학재단</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            2026년 최저임금(10,030원)보다 높은 수준으로 책정됩니다.
-            시간당 단가는 매년 최저임금 인상에 맞춰 조정됩니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="hours">
-        <h2 className="detail-card-head">근무 시간 한도</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>기간</th><th>주당 근무 한도</th><th>월 최대 예상 수령</th></tr></thead>
-            <tbody>
-              <tr><td>학기 중</td><td>주 20시간 이내</td><td>약 825,600원 (교내 기준)</td></tr>
-              <tr><td>방학 중</td><td>주 40시간 이내</td><td>약 1,651,200원 (교내 기준)</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            학기당 지원 한도(시간)가 별도로 설정됩니다. 초과 근무분은 장학금으로 지급되지 않습니다.
-            실제 근무 시간은 학교와 협의해 결정됩니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="payment">
-        <h2 className="detail-card-head">지급 방식</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>항목</th><th>내용</th></tr></thead>
-            <tbody>
-              <tr><td>지급 시기</td><td>매월 근무 실적 확인 후 익월 지급</td></tr>
-              <tr><td>지급 방법</td><td>본인 계좌 직접 입금</td></tr>
-              <tr><td>세금</td><td>비과세 (소득세 미부과)</td></tr>
-              <tr><td>확인처</td><td>kosaf.go.kr → 장학금 → 국가근로장학금</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 국가근로장학금국가근로장학금시간당단가교내교외2026SpokeContent: SpokeData = {
-  h1: '국가근로장학금 시간당 단가 교내 교외 2026년 기준',
+  h1: '2026 국가근로장학금 시간당 단가 교내 10,320원 교외 12,790원',
   breadcrumb: '국가근로장학금시간당단가교내교외2026',
-  description: '2026년 국가근로장학금 시간당 단가 교내 10,320원 교외 12,790원, 근무 시간 한도와 지급 방식을 정리합니다.',
+  description: '2026년 국가근로장학금 교내 시급 10,320원, 교외 시급 12,790원, 학기 중·방학 중 근로 시간 한도를 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
-  faqData: [
-    { q: '국가근로장학금은 어디서 신청하나요?', a: '한국장학재단 홈페이지(kosaf.go.kr) 또는 모바일 앱에서 신청할 수 있습니다. 매 학기 시작 전 신청 기간에 맞춰 접수해야 합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '근무 시간은 얼마나 되나요?', a: '월 최대 60시간 이내이며, 학업에 지장이 없는 범위에서 교내 또는 교외 기관에서 근무합니다. 시간당 급여는 최저임금 이상이어야 합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '국가근로장학금을 받으면 다른 장학금도 받을 수 있나요?', a: '국가근로장학금은 성적·소득 연계 장학금(국가장학금 1·2유형)과 중복 수혜가 가능합니다. 다만 학교별 자체 규정을 반드시 확인하세요.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '소득분위 기준이 어떻게 되나요?', a: '소득분위 1~8구간 학생이 신청 가능합니다. 학자금 지원 소득분위는 금융정보·재산 등 가구 소득을 바탕으로 한국장학재단이 산정합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
-    { q: '근무지는 학교 안에서만 가능한가요?', a: '교내 근무 외에도 교외 공공기관, 비영리단체, 지역사회 서비스 기관 등에서도 근무할 수 있습니다. 교외 근무지는 재단 승인이 필요합니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '교내 시급': '10,320원',
+    '교외 시급': '12,790원',
+    '학기 중 근로': '주 20시간 이내',
+    '방학 중 근로': '주 40시간 이내',
+    '소득세': '비과세 (근로소득세 면제)',
+    '문의처': '한국장학재단 ☎ 1599-2000',
+  },
+  keyFactsHighlights: {
+    '교내 시급': ['10,320원'],
+    '교외 시급': ['12,790원'],
+    '학기 중 근로': ['주 20시간'],
+    '방학 중 근로': ['주 40시간'],
+    '소득세': ['비과세'],
+  },
+  qa: [
+    {
+      q: '2026년 교내·교외 시간당 단가는 얼마인가요?',
+      anchor: 'wage',
+      intro: '2026년 국가근로장학금 시급은 교내 근로 10,320원, 교외 근로 12,790원입니다. 최저임금 이상으로 매년 조정됩니다.',
+      highlights: ['10,320원', '12,790원'],
+      table: {
+        headers: ['근로 유형', '시간당 단가', '근무지'],
+        rows: [
+          ['교내 근로', '10,320원', '재학 대학 내 부서'],
+          ['교외 근로', '12,790원', '외부 기관·기업'],
+        ],
+      },
+    },
+    {
+      q: '학기 중과 방학 중 근로 시간 한도는?',
+      anchor: 'hours',
+      intro: '학기 중에는 주 20시간 이내, 방학 중에는 주 40시간 이내로 근무할 수 있습니다.',
+      highlights: ['주 20시간', '주 40시간', '학기 중', '방학 중'],
+      table: {
+        headers: ['기간', '주간 근로 한도'],
+        rows: [
+          ['학기 중', '주 20시간 이내'],
+          ['방학 중', '주 40시간 이내'],
+        ],
+      },
+      box: {
+        label: '급여 계산 예시',
+        content: '교외 근로 기준: 주 20시간 × 12,790원 = 주 255,800원 / 방학 중 주 40시간 × 12,790원 = 주 511,600원',
+      },
+    },
+    {
+      q: '근로 소득에 세금이 붙나요?',
+      anchor: 'tax',
+      intro: '국가근로장학금은 근로소득세가 비과세 처리됩니다. 받은 금액 그대로 수령합니다.',
+      highlights: ['비과세'],
+      box: {
+        label: '비과세 기준',
+        content: '국가근로장학금은 장학금으로 분류되어 근로소득세가 부과되지 않습니다. 단, 개인 상황에 따라 다를 수 있으니 한국장학재단(☎ 1599-2000)에 문의하세요.',
+      },
+    },
   ],
-  sources: [{ name: '한국장학재단 공식 안내', url: 'https://www.kosaf.go.kr' }],
+  faqData: [
+    { q: '시급은 매년 바뀌나요?', a: '최저임금 인상에 따라 매년 조정됩니다. 2026년 교내 10,320원, 교외 12,790원입니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '초과 근무를 하면 어떻게 되나요?', a: '주간 근로 한도(학기 중 20시간, 방학 중 40시간)를 초과하면 초과분은 지급되지 않습니다. 한도 내에서만 인정됩니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '근로 시간은 어떻게 관리되나요?', a: '근무처에서 출퇴근 기록을 관리하고 한국장학재단에 제출합니다. 허위 근무 기록 시 장학금 환수 처분을 받을 수 있습니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '교외 근로의 교통비는 별도 지급되나요?', a: '교통비는 별도 지급되지 않습니다. 교외 시급(12,790원)이 교내보다 높게 책정된 이유 중 하나입니다.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '급여는 언제 지급되나요?', a: '근무처 및 대학 일정에 따라 다르며, 보통 월별로 지급됩니다. 정확한 지급일은 근무처 또는 학교에 확인하세요.', source: '한국장학재단 공식 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+  ],
+  sources: [
+    { name: '한국장학재단 공식 안내', url: 'https://www.kosaf.go.kr' },
+    { name: '한국장학재단 국가근로장학금', url: 'https://www.kosaf.go.kr/ko/scholarship.do?pg=PG00000005' },
+  ],
 };

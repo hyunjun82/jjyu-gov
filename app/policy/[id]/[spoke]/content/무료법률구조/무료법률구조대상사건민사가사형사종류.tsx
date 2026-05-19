@@ -1,93 +1,80 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          대한법률구조공단은 <strong>민사·가사·형사·행정</strong> 사건 모두를 지원합니다.
-          다만 사건 종류와 상대방 유형에 따라 지원 가능 여부가 달라지므로 132번으로 먼저 확인하세요.
-        </p>
-      </div>
-
-      <section className="detail-card" id="civil">
-        <h2 className="detail-card-head">민사 사건 지원 범위</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>사건 유형</th><th>예시</th></tr></thead>
-            <tbody>
-              <tr><td>금전 분쟁</td><td>임금체불, 전세보증금 미반환, 대여금 청구</td></tr>
-              <tr><td>부동산</td><td>명도소송, 경매, 소유권 분쟁</td></tr>
-              <tr><td>계약 분쟁</td><td>매매계약 해제, 손해배상 청구</td></tr>
-              <tr><td>소비자 분쟁</td><td>하자담보책임, 불법행위 손해배상</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="family">
-        <h2 className="detail-card-head">가사 사건 지원 범위</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>사건 유형</th><th>예시</th></tr></thead>
-            <tbody>
-              <tr><td>이혼 관련</td><td>이혼소송, 재산분할, 위자료 청구</td></tr>
-              <tr><td>자녀 관련</td><td>친권·양육권 지정, 면접교섭권, 양육비 청구</td></tr>
-              <tr><td>상속</td><td>유류분 청구, 유언 효력 분쟁</td></tr>
-              <tr><td>가정폭력</td><td>피해자 보호명령, 접근금지 신청</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            가정폭력·성폭력 피해자는 소득 기준 없이 무료 지원을 받습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="criminal">
-        <h2 className="detail-card-head">형사·행정 사건 지원 범위</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>사건 유형</th><th>내용</th></tr></thead>
-            <tbody>
-              <tr><td>형사 피해자</td><td>고소장 작성, 수사·재판 지원 (피해자 한정)</td></tr>
-              <tr><td>국선변호</td><td>국선변호 대상자 형사 변호 (법원 선정과 별도)</td></tr>
-              <tr><td>행정 불복</td><td>행정심판·행정소송 (복지급여 삭감·취소 등)</td></tr>
-              <tr><td>헌법소원</td><td>기본권 침해 관련 헌법소원 지원</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            형사 피의자(피고인)에 대한 변호는 원칙적으로 지원하지 않습니다.
-            피해자 지위에서 고소·손해배상 청구를 지원합니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="exclude">
-        <h2 className="detail-card-head">지원 제외 사건</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>제외 유형</th><th>이유</th></tr></thead>
-            <tbody>
-              <tr><td>사업자 간 상사 분쟁</td><td>영리 목적 사건은 지원 대상 제외</td></tr>
-              <tr><td>승소 가능성 없는 사건</td><td>법률구조 심사에서 탈락</td></tr>
-              <tr><td>상대방이 국가·지자체인 일부</td><td>유형별 별도 심사 필요</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 무료법률구조무료법률구조대상사건민사가사형사종류SpokeContent: SpokeData = {
   h1: '무료법률구조 대상 사건 민사 가사 형사 행정 종류',
   breadcrumb: '무료법률구조대상사건민사가사형사종류',
   description: '대한법률구조공단이 지원하는 민사·가사·형사·행정 사건 유형과 지원 제외 사건을 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '민사 지원': '임금체불·보증금 미반환·손해배상 등',
+    '가사 지원': '이혼·친권·양육비·상속·가정폭력',
+    '형사 지원': '피해자 고소장 작성·수사·재판 지원',
+    '행정 지원': '행정심판·행정소송 (복지급여 삭감 등)',
+    '가정폭력 피해자': '소득 기준 없이 무료 지원',
+    '문의': '대한법률구조공단 ☎ 132',
+  },
+  keyFactsHighlights: {
+    '가정폭력 피해자': ['소득 기준 없이 무료'],
+    '형사 지원': ['피해자 고소장'],
+  },
+  qa: [
+    {
+      q: '민사 사건은 어떤 유형을 지원하나요?',
+      anchor: 'civil',
+      intro: '대한법률구조공단은 민사·가사·형사·행정 사건 모두를 지원합니다. 사건 종류와 상대방 유형에 따라 지원 가능 여부가 달라지므로 132번으로 먼저 확인하세요.',
+      highlights: ['민사', '가사', '형사', '행정', '132번'],
+      table: {
+        headers: ['사건 유형', '예시'],
+        rows: [
+          ['금전 분쟁', '임금체불, 전세보증금 미반환, 대여금 청구'],
+          ['부동산', '명도소송, 경매, 소유권 분쟁'],
+          ['계약 분쟁', '매매계약 해제, 손해배상 청구'],
+          ['소비자 분쟁', '하자담보책임, 불법행위 손해배상'],
+        ],
+      },
+    },
+    {
+      q: '가사 사건은 어떤 유형을 지원하나요?',
+      anchor: 'family',
+      intro: '이혼·친권·양육비·상속·가정폭력 등 가사 사건을 지원합니다. 가정폭력·성폭력 피해자는 소득 기준 없이 무료 지원을 받습니다.',
+      highlights: ['이혼', '친권', '양육비', '가정폭력', '소득 기준 없이'],
+      table: {
+        headers: ['사건 유형', '예시'],
+        rows: [
+          ['이혼 관련', '이혼소송, 재산분할, 위자료 청구'],
+          ['자녀 관련', '친권·양육권 지정, 면접교섭권, 양육비 청구'],
+          ['상속', '유류분 청구, 유언 효력 분쟁'],
+          ['가정폭력', '피해자 보호명령, 접근금지 신청'],
+        ],
+      },
+      box: {
+        label: '우선 지원',
+        content: '가정폭력·성폭력 피해자는 소득 기준 없이 무료 지원을 받습니다.',
+      },
+    },
+    {
+      q: '형사·행정 사건은 어떻게 지원하나요?',
+      anchor: 'criminal',
+      intro: '형사 사건은 피해자 지원이 원칙이며, 행정 불복 사건도 지원합니다.',
+      highlights: ['피해자', '고소장', '행정심판', '행정소송'],
+      table: {
+        headers: ['사건 유형', '내용'],
+        rows: [
+          ['형사 피해자', '고소장 작성, 수사·재판 지원 (피해자 한정)'],
+          ['국선변호', '국선변호 대상자 형사 변호 (법원 선정과 별도)'],
+          ['행정 불복', '행정심판·행정소송 (복지급여 삭감·취소 등)'],
+          ['헌법소원', '기본권 침해 관련 헌법소원 지원'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '형사 피의자(피고인)에 대한 변호는 원칙적으로 지원하지 않습니다. 피해자 지위에서 고소·손해배상 청구를 지원합니다.',
+      },
+    },
+  ],
   faqData: [
-    { q: '무료법률구조는 누구나 받을 수 있나요?', a: '소득이 최저생계비 125% 이하인 분, 농어업인, 장애인, 한부모 등 취약계층이 주 대상입니다. 사건 종류와 소득 기준에 따라 무료·감액 지원 범위가 다릅니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
+    { q: '무료법률구조는 누구나 받을 수 있나요?', a: '소득이 중위소득 125% 이하인 분, 농어업인, 장애인, 한부모 등 취약계층이 주 대상입니다. 사건 종류와 소득 기준에 따라 무료·감액 지원 범위가 다릅니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
     { q: '법률구조 신청은 어떻게 하나요?', a: '대한법률구조공단(klac.or.kr) 홈페이지, 전화(☎132), 또는 전국 지부·출장소를 방문해 신청할 수 있습니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
     { q: '어떤 사건을 지원받을 수 있나요?', a: '민사·가사·형사·행정 사건에 대한 소송 대리, 법률 상담, 서류 작성 등을 지원합니다. 단, 일부 사건 유형은 지원 제외될 수 있습니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },
     { q: '변호사 비용은 얼마인가요?', a: '무료법률구조 대상자는 변호사 비용·소송 비용을 공단이 대신 납부합니다. 승소 후 상대방으로부터 비용을 회수하는 경우에는 공단에 반환합니다.', source: '대한법률구조공단 공식 안내', sourceUrl: 'https://www.klac.or.kr' },

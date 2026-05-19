@@ -1,86 +1,67 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          국가장학금 계속 수급을 위해서는 직전 학기 <strong>성적 70점(B0) 이상</strong>,
-          <strong>12학점 이상 이수</strong>가 필요합니다.
-          F학점이 있어도 평균 70점 이상이면 받을 수 있지만, 미달 시 다음 학기 지원이 중단됩니다.
-        </p>
-      </div>
-      <section className="detail-card" id="grade">
-        <h2 className="detail-card-head">성적 기준 상세</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>항목</th><th>기준</th><th>예외</th></tr></thead>
-            <tbody>
-              <tr><td>평점</td><td>직전학기 70점(B0) 이상</td><td>신입생 첫 학기·편입생·장애학생 제외</td></tr>
-              <tr><td>이수학점</td><td>직전학기 12학점 이상</td><td>장애학생·졸업학기는 완화</td></tr>
-              <tr><td>F학점</td><td>평균에 반영됨</td><td>평균 70점 이상이면 F 있어도 수급 가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-      <section className="detail-card" id="fail">
-        <h2 className="detail-card-head">성적 미달 시 어떻게 되나</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>상황</th><th>결과</th></tr></thead>
-            <tbody>
-              <tr><td>처음 성적 미달</td><td>다음 학기 지원 중단 (경고 1회)</td></tr>
-              <tr><td>다음 학기 성적 회복</td><td>지원 재개 가능</td></tr>
-              <tr><td>연속 2회 미달</td><td>일정 기간 지원 불가 (심화 제재)</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>신입생·편입생은 첫 학기 성적 기준 없이 지원받고, 이후 학기부터 성적 기준이 적용됩니다.</div>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 국가장학금국가장학금F학점성적기준미달SpokeContent: SpokeData = {
   h1: '국가장학금 F학점·성적 기준 — 미달 시 어떻게 되나',
   breadcrumb: '국가장학금F학점성적기준미달',
   description: '국가장학금 성적 기준(70점 이상, 12학점 이상)과 F학점이 있을 때 지원이 어떻게 달라지는지 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '성적 기준': '직전학기 70점(B0) 이상',
+    '이수 학점': '직전학기 12학점 이상',
+    'F학점': '평균에 반영 (평균 70점 이상이면 수급 가능)',
+    '첫 학기 특례': '신입생·편입생 첫 학기 성적 기준 면제',
+    '미달 시': '다음 학기 지원 중단 (경고 1회)',
+    '회복 시': '성적 충족 후 재개 가능',
+  },
+  keyFactsHighlights: {
+    '성적 기준': ['70점', 'B0'],
+    '이수 학점': ['12학점'],
+    '첫 학기 특례': ['신입생', '편입생', '면제'],
+    '미달 시': ['지원 중단'],
+  },
+  qa: [
+    {
+      q: '성적 기준은 어떻게 되나요?',
+      anchor: 'grade',
+      intro: '국가장학금 계속 수급을 위해서는 직전 학기 성적 70점(B0) 이상, 12학점 이상 이수가 필요합니다. F학점이 있어도 평균 70점 이상이면 받을 수 있습니다.',
+      highlights: ['70점', 'B0', '12학점', 'F학점'],
+      table: {
+        headers: ['항목', '기준', '예외'],
+        rows: [
+          ['평점', '직전학기 70점(B0) 이상', '신입생 첫 학기·편입생·장애학생 제외'],
+          ['이수학점', '직전학기 12학점 이상', '장애학생·졸업학기는 완화'],
+          ['F학점', '평균에 반영됨', '평균 70점 이상이면 F 있어도 수급 가능'],
+        ],
+      },
+    },
+    {
+      q: '성적 미달 시 어떻게 되나요?',
+      anchor: 'fail',
+      intro: '성적 기준 미달 시 다음 학기 지원이 중단됩니다. 이후 성적을 회복하면 다시 신청해 수혜받을 수 있습니다.',
+      highlights: ['성적 미달', '지원 중단', '회복'],
+      table: {
+        headers: ['상황', '결과'],
+        rows: [
+          ['처음 성적 미달', '다음 학기 지원 중단 (경고 1회)'],
+          ['다음 학기 성적 회복', '지원 재개 가능'],
+          ['연속 2회 미달', '일정 기간 지원 불가 (심화 제재)'],
+        ],
+      },
+      box: {
+        label: '신입생·편입생 특례',
+        content: '신입생·편입생은 첫 학기 성적 기준 없이 지원받고, 이후 학기부터 성적 기준이 적용됩니다.',
+      },
+    },
+  ],
   faqData: [
-    {
-      q: 'F학점이 있으면 국가장학금을 못 받나요?',
-      a: 'F학점이 있어도 직전 학기 12학점 이상 이수에 평균 C학점(2.0/4.5) 이상이면 수혜 가능합니다. F학점 자체가 금지 기준은 아닙니다.',
-      source: '한국장학재단 성적 기준',
-      sourceUrl: 'https://www.kstudy.com',
-    },
-    {
-      q: '성적 미달로 장학금이 중단되면 어떻게 하나요?',
-      a: '다음 학기에 성적 기준을 충족하면 다시 신청·수혜 가능합니다. 한 학기 미달로 영구 박탈되지는 않습니다.',
-      source: '한국장학재단',
-      sourceUrl: 'https://www.kstudy.com',
-    },
-    {
-      q: '1학년 1학기생은 성적 기준이 면제되나요?',
-      a: '네. 신입생 첫 학기는 성적 기준 없이 소득분위만으로 심사합니다. 2학기부터 직전 학기 성적이 반영됩니다.',
-      source: '한국장학재단 신입생 안내',
-      sourceUrl: 'https://www.kstudy.com',
-    },
-    {
-      q: 'C 평점 미달인데 이의신청이 가능한가요?',
-      a: '학사 처리 오류 등 특수한 사정이 있으면 대학에 이의신청 후 한국장학재단에 소명할 수 있습니다. 질병·재해 등 불가피한 사유도 소명 대상입니다.',
-      source: '한국장학재단 고객센터 1599-2000',
-      sourceUrl: 'https://www.kstudy.com',
-    },
-    {
-      q: '이수 학점 기준은 12학점이 맞나요?',
-      a: '네. 직전 학기 12학점 이상 이수가 원칙입니다. 단, 마지막 학기 학점 부족(졸업예정자), 장애·질병 등 예외가 인정됩니다.',
-      source: '한국장학재단 수혜 기준',
-      sourceUrl: 'https://www.kstudy.com',
-    }
+    { q: 'F학점이 있으면 국가장학금을 못 받나요?', a: 'F학점이 있어도 직전 학기 12학점 이상 이수에 평균 70점(B0) 이상이면 수혜 가능합니다. F학점 자체가 금지 기준은 아닙니다.', source: '한국장학재단 성적 기준', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '성적 미달로 장학금이 중단되면 어떻게 하나요?', a: '다음 학기에 성적 기준을 충족하면 다시 신청·수혜 가능합니다. 한 학기 미달로 영구 박탈되지는 않습니다.', source: '한국장학재단', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '1학년 1학기생은 성적 기준이 면제되나요?', a: '네. 신입생 첫 학기는 성적 기준 없이 소득분위만으로 심사합니다. 2학기부터 직전 학기 성적이 반영됩니다.', source: '한국장학재단 신입생 안내', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: 'C 평점 미달인데 이의신청이 가능한가요?', a: '학사 처리 오류 등 특수한 사정이 있으면 대학에 이의신청 후 한국장학재단에 소명할 수 있습니다. 질병·재해 등 불가피한 사유도 소명 대상입니다.', source: '한국장학재단 고객센터 1599-2000', sourceUrl: 'https://www.kosaf.go.kr' },
+    { q: '이수 학점 기준은 12학점이 맞나요?', a: '네. 직전 학기 12학점 이상 이수가 원칙입니다. 단, 마지막 학기 학점 부족(졸업예정자), 장애·질병 등 예외가 인정됩니다.', source: '한국장학재단 수혜 기준', sourceUrl: 'https://www.kosaf.go.kr' },
   ],
   sources: [
-    { name: '한국장학재단', url: 'https://www.kstudy.com' },
+    { name: '한국장학재단', url: 'https://www.kosaf.go.kr' },
   ],
 };

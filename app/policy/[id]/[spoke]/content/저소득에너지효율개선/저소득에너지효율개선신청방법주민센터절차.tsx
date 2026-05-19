@@ -1,83 +1,88 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          저소득층 에너지효율 개선사업은 <strong>주민센터(읍·면·동) 방문 신청</strong>이 기본입니다.
-          한국에너지재단 콜센터(☎ 1670-7653) 전화 신청도 가능합니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="step">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>단계</th><th>내용</th></tr></thead>
-            <tbody>
-              <tr><td>1단계</td><td>주민센터 방문 또는 ☎ 1670-7653 전화 신청</td></tr>
-              <tr><td>2단계</td><td>기초수급·차상위 자격 확인 (공단 연계 자동 조회)</td></tr>
-              <tr><td>3단계</td><td>한국에너지재단 담당자 현장 방문 조사</td></tr>
-              <tr><td>4단계</td><td>지원 항목·시공 계획 결정 및 통보</td></tr>
-              <tr><td>5단계</td><td>시공 업체 방문 → 공사 진행</td></tr>
-              <tr><td>6단계</td><td>완공 확인 및 사후 점검</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">준비 서류</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>서류</th><th>비고</th></tr></thead>
-            <tbody>
-              <tr><td>신분증</td><td>주민등록증 또는 운전면허증</td></tr>
-              <tr><td>수급자 증명서</td><td>기초생활수급자 증명서 또는 차상위 확인서</td></tr>
-              <tr><td>주택 서류</td><td>자가: 등기부등본 / 임차: 임대차계약서 + 집주인 동의서</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            수급자 증명서는 주민센터에서 즉시 발급받을 수 있습니다.
-            임차 가구는 집주인 동의서 없이 신청이 불가합니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="timing">
-        <h2 className="detail-card-head">신청 시기</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead><tr><th>항목</th><th>내용</th></tr></thead>
-            <tbody>
-              <tr><td>신청 기간</td><td>연중 수시 (예산 소진 시 조기 마감)</td></tr>
-              <tr><td>시공 시기</td><td>신청 후 수개월 내 (대기 순번에 따라 상이)</td></tr>
-              <tr><td>난방 공사</td><td>동절기 이전 시공 우선 배정</td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{marginTop:12}}>
-            예산 소진 전에 빨리 신청할수록 해당 연도 내 시공 가능성이 높아집니다.
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 저소득에너지효율개선저소득에너지효율개선신청방법주민센터절차SpokeContent: SpokeData = {
   h1: '저소득 에너지효율 개선 신청 방법 주민센터 절차와 서류',
   breadcrumb: '저소득에너지효율개선신청방법주민센터절차',
   description: '저소득층 에너지효율 개선사업 주민센터 방문 신청 절차, 준비 서류, 신청 시기를 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
-  faqData: [
-    { q: '저소득층 에너지효율 개선 사업 신청 대상은 누구인가요?', a: '기초생활수급자, 차상위계층, 에너지 바우처 수급자 등 저소득 취약계층 가구가 주 대상입니다. 노후 주택에 거주하는 경우 우선 지원됩니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '어떤 공사를 지원받을 수 있나요?', a: '단열재 보강, 창호 교체, 고효율 보일러·LED 교체, 단열 창문 시공 등 에너지 절감에 효과적인 공사를 지원합니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '신청은 어디서 하나요?', a: '한국에너지공단(kemco.or.kr) 또는 주민센터(읍면동사무소)를 통해 신청할 수 있습니다. 지자체별 별도 접수처가 있는 경우도 있습니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '본인 부담금이 있나요?', a: '지원 대상에 따라 전액 무료 또는 일부 자부담이 발생할 수 있습니다. 기초수급자는 전액 무료가 원칙이며, 차상위계층은 일부 자부담이 있을 수 있습니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
-    { q: '임차인도 신청할 수 있나요?', a: '임차인도 신청 가능하지만, 공사 진행을 위해 집주인 동의가 필요한 경우가 많습니다. 주민센터에서 사전 상담을 받으시기 바랍니다.', source: '한국에너지공단 공식 안내', sourceUrl: 'https://www.kemco.or.kr' },
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '신청처': '주민센터(읍·면·동) 또는 ☎ 1670-7653',
+    '주요 서류': '신분증 + 수급자 증명서 + 주택 서류',
+    '임차 가구': '집주인 동의서 필수',
+    '신청 기간': '연중 수시 (예산 소진 시 조기 마감)',
+    '시공 시기': '신청 후 수개월 내 (대기 순번에 따라 상이)',
+    '난방 우선': '동절기 이전 시공 우선 배정',
+  },
+  keyFactsHighlights: {
+    '신청처': ['☎ 1670-7653'],
+    '임차 가구': ['집주인 동의서 필수'],
+    '신청 기간': ['예산 소진 시 조기 마감'],
+  },
+  qa: [
+    {
+      q: '신청 절차는 어떻게 되나요?',
+      anchor: 'step',
+      intro: '저소득층 에너지효율 개선사업은 주민센터(읍·면·동) 방문 신청이 기본입니다. 한국에너지재단 콜센터(☎ 1670-7653) 전화 신청도 가능합니다.',
+      highlights: ['주민센터', '☎ 1670-7653', '현장 방문 조사'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '주민센터 방문 또는 ☎ 1670-7653 전화 신청'],
+          ['2단계', '기초수급·차상위 자격 확인 (공단 연계 자동 조회)'],
+          ['3단계', '한국에너지재단 담당자 현장 방문 조사'],
+          ['4단계', '지원 항목·시공 계획 결정 및 통보'],
+          ['5단계', '시공 업체 방문 → 공사 진행'],
+          ['6단계', '완공 확인 및 사후 점검'],
+        ],
+      },
+    },
+    {
+      q: '준비 서류는 무엇인가요?',
+      anchor: 'docs',
+      intro: '신청 시 신분증, 수급자 증명서, 주택 서류를 준비해야 합니다. 임차 가구는 집주인 동의서가 추가로 필요합니다.',
+      highlights: ['수급자 증명서', '등기부등본', '집주인 동의서'],
+      table: {
+        headers: ['서류', '비고'],
+        rows: [
+          ['신분증', '주민등록증 또는 운전면허증'],
+          ['수급자 증명서', '기초생활수급자 증명서 또는 차상위 확인서'],
+          ['주택 서류', '자가: 등기부등본 / 임차: 임대차계약서 + 집주인 동의서'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '수급자 증명서는 주민센터에서 즉시 발급받을 수 있습니다. 임차 가구는 집주인 동의서 없이 신청이 불가합니다.',
+      },
+    },
+    {
+      q: '언제 신청하면 좋나요?',
+      anchor: 'timing',
+      intro: '신청은 연중 수시로 가능하지만 예산이 소진되면 조기 마감됩니다. 난방 관련 공사는 동절기 이전 시공이 우선 배정됩니다.',
+      highlights: ['예산 소진', '동절기 이전'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['신청 기간', '연중 수시 (예산 소진 시 조기 마감)'],
+          ['시공 시기', '신청 후 수개월 내 (대기 순번에 따라 상이)'],
+          ['난방 공사', '동절기 이전 시공 우선 배정'],
+        ],
+      },
+      box: {
+        label: '빠를수록 유리',
+        content: '예산 소진 전에 빨리 신청할수록 해당 연도 내 시공 가능성이 높아집니다.',
+      },
+    },
   ],
-  sources: [{ name: '한국에너지공단 공식 안내', url: 'https://www.kemco.or.kr' }],
+  faqData: [
+    { q: '온라인으로 신청할 수 있나요?', a: '현재는 주민센터 방문 또는 ☎ 1670-7653 전화 신청만 가능합니다. 온라인 신청은 지원되지 않습니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '신청 후 얼마나 기다려야 시공이 되나요?', a: '대기 순번과 예산 상황에 따라 수개월이 걸릴 수 있습니다. 난방 관련 공사는 동절기 이전에 우선 배정됩니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '집주인이 동의를 안 하면 어떻게 되나요?', a: '임차 가구는 집주인 동의서가 없으면 신청 자체가 불가합니다. 집주인 설득이 어려운 경우 주민센터 담당자에게 상담을 요청하세요.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '신청 후 자격 미달로 탈락할 수 있나요?', a: '자격 조회 결과 기초수급자·차상위계층에 해당하지 않으면 지원이 어렵습니다. 주민센터에서 사전 자격 확인 후 신청하는 것을 권장합니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+    { q: '임차 가구도 전액 무상으로 지원받나요?', a: '기초생활수급자이면 임차 가구도 전액 무상이 원칙입니다. 단, 집주인 동의서가 필수이며 일부 공사는 집주인과 비용을 분담할 수 있습니다.', source: '한국에너지재단 공식 안내', sourceUrl: 'https://www.kew.or.kr' },
+  ],
+  sources: [
+    { name: '한국에너지재단 공식 안내', url: 'https://www.kew.or.kr' },
+    { name: '한국에너지공단 에너지효율개선', url: 'https://www.kemco.or.kr' },
+  ],
 };

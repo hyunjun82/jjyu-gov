@@ -1,55 +1,95 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box"><p>이름이 비슷해 헷갈리지만 세 제도는 완전히 다릅니다. <strong>새도약론 = 저금리 대출</strong>, <strong>새도약기금 = 장기연체 채권 매입·소각</strong>, <strong>새출발기금 = 코로나 피해 채무 조정</strong>입니다.</p></div>
-      <section className="detail-card" id="compare"><h2 className="detail-card-head">세 제도 핵심 비교</h2><div className="detail-card-body"><table className="compare-table"><thead><tr><th>항목</th><th>새도약론</th><th>새도약기금</th><th>새출발기금</th></tr></thead><tbody><tr><td>성격</td><td>저금리 특례 대출</td><td>채권 일괄 매입·소각</td><td>코로나 피해 채무조정</td></tr><tr><td>대상</td><td>채무조정 이행 중인 분</td><td>장기 연체자(자동 매입)</td><td>코로나 피해 자영업자·소상공인</td></tr><tr><td>신청 방식</td><td>본인 직접 신청</td><td>별도 신청 없음 (자동)</td><td>본인 신청</td></tr><tr><td>주관 기관</td><td>서민금융진흥원</td><td>새도약기금(newleap.or.kr)</td><td>새출발기금(newstartfund.or.kr)</td></tr><tr><td>주요 혜택</td><td>연 3~4% 대출</td><td>원금 감면·소각</td><td>원금 감면·분할 상환</td></tr></tbody></table></div></section>
-      <section className="detail-card" id="choose"><h2 className="detail-card-head">내 상황에 맞는 제도는?</h2><div className="detail-card-body"><table className="compare-table"><thead><tr><th>상황</th><th>해당 제도</th></tr></thead><tbody><tr><td>채무조정 이행 중, 생활자금 필요</td><td>새도약론</td></tr><tr><td>7년 이상 장기 연체 중</td><td>새도약기금 (자동 매입 대기)</td></tr><tr><td>코로나로 인해 대출 연체 발생</td><td>새출발기금</td></tr></tbody></table></div></section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 새도약론새도약론새도약기금새출발기금차이SpokeContent: SpokeData = {
   h1: '새도약론·새도약기금·새출발기금 — 헷갈리는 세 제도 차이',
   breadcrumb: '새도약론새도약기금새출발기금차이',
-  description: '새도약론(저금리 대출), 새도약기금(채권 매입·소각), 새출발기금(코로나 피해자 지원) 세 제도의 차이를 명확히 정리합니다.',
+  description: '새도약론(저금리 대출), 새도약기금(채권 매입·소각), 새출발기금(코로나 피해자 채무조정) 세 제도의 차이를 명확히 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
+  dateModified:  '2026-05-19T09:00:00+09:00',
+  keyFacts: {
+    '새도약론': '저금리 특례 대출 (채무조정 이행 중인 분 대상)',
+    '새도약기금': '장기연체 채권 일괄 매입·소각 (자동 대상)',
+    '새출발기금': '코로나 피해 자영업자·소상공인 채무조정',
+    '새도약론 주관': '서민금융진흥원 (1600-5500)',
+    '새도약기금 확인': 'newleap.or.kr',
+    '새출발기금 확인': 'newstartfund.or.kr',
+  },
+  keyFactsHighlights: {
+    '새도약론': ['저금리 특례 대출'],
+    '새도약기금': ['채권 일괄 매입·소각'],
+    '새출발기금': ['코로나 피해'],
+  },
+  qa: [
+    {
+      q: '새도약론·새도약기금·새출발기금 어떻게 다른가요?',
+      anchor: 'compare',
+      intro: '이름이 비슷해 헷갈리지만 세 제도는 완전히 다릅니다. 새도약론은 저금리 대출, 새도약기금은 장기연체 채권 매입·소각, 새출발기금은 코로나 피해 채무조정 제도입니다.',
+      highlights: ['새도약론', '새도약기금', '새출발기금'],
+      table: {
+        headers: ['항목', '새도약론', '새도약기금', '새출발기금'],
+        rows: [
+          ['성격', '저금리 특례 대출', '채권 일괄 매입·소각', '코로나 피해 채무조정'],
+          ['대상', '채무조정 이행 중인 분', '7년 이상 장기 연체자 (자동)', '코로나 피해 자영업자·소상공인'],
+          ['신청 방식', '본인 직접 신청', '별도 신청 없음 (자동)', '본인 신청'],
+          ['주관 기관', '서민금융진흥원', '새도약기금(newleap.or.kr)', '새출발기금(newstartfund.or.kr)'],
+          ['주요 혜택', '연 3~4% 대출', '원금 감면·소각', '원금 감면·분할 상환'],
+        ],
+      },
+    },
+    {
+      q: '내 상황에는 어떤 제도를 이용해야 하나요?',
+      anchor: 'choose',
+      intro: '상황에 따라 해당 제도가 다릅니다. 채무조정 이행 중에 생활자금이 필요하면 새도약론, 7년 이상 장기 연체 중이면 새도약기금(자동 매입 대기), 코로나로 인해 연체가 발생했다면 새출발기금을 확인하세요.',
+      highlights: ['채무조정 이행 중', '7년 이상 장기 연체', '코로나'],
+      table: {
+        headers: ['상황', '해당 제도'],
+        rows: [
+          ['채무조정 이행 중, 생활자금 필요', '새도약론'],
+          ['5~7년 이상 장기 연체 중', '새도약기금 (자동 매입 대기)'],
+          ['코로나로 인해 대출 연체 발생', '새출발기금'],
+        ],
+      },
+      box: {
+        label: '모르겠다면',
+        content: '서민금융콜센터 1600-5500에 전화하면 상담원이 내 상황에 맞는 제도를 안내해줍니다.',
+      },
+    },
+  ],
   faqData: [
     {
-      q: '이 정책의 신청 방법은 무엇인가요?',
-      a: '정부24(gov.kr) 또는 해당 기관 홈페이지에서 신청 가능합니다.',
-      source: '새도약기금',
-      sourceUrl: 'https://www.saedoyak.or.kr',
+      q: '새도약론은 어디서 신청하나요?',
+      a: '서민금융진흥원(kinfa.or.kr) 또는 서민금융통합지원센터 방문, 전화 1600-5500으로 신청합니다.',
+      source: '서민금융진흥원',
+      sourceUrl: 'https://www.kinfa.or.kr',
     },
     {
-      q: '지원 대상 기준은 어떻게 되나요?',
-      a: '소득·자산·나이 기준을 충족한 신청자가 대상입니다. 자세한 기준은 해당 기관에 문의하세요.',
+      q: '새도약기금은 별도로 신청해야 하나요?',
+      a: '아닙니다. 장기 연체 채권을 새도약기금이 자동으로 매입합니다. 별도 신청 없이 기금에서 통보합니다.',
       source: '새도약기금',
-      sourceUrl: 'https://www.saedoyak.or.kr',
+      sourceUrl: 'https://newleap.or.kr',
     },
     {
-      q: '지원 금액은 얼마인가요?',
-      a: '개인 상황에 따라 다릅니다. 담당 기관에 문의하거나 홈페이지에서 확인하세요.',
-      source: '새도약기금',
-      sourceUrl: 'https://www.saedoyak.or.kr',
+      q: '새출발기금은 코로나 외 연체도 가능한가요?',
+      a: '새출발기금은 코로나19 피해 자영업자·소상공인이 대상입니다. 코로나와 무관한 연체는 신용회복위원회 채무조정을 이용하세요.',
+      source: '새출발기금',
+      sourceUrl: 'https://newstartfund.or.kr',
     },
     {
-      q: '다른 지원과 중복 수혜가 가능한가요?',
-      a: '일부 지원과 중복이 제한됩니다. 개별 공고를 확인하세요.',
-      source: '새도약기금',
-      sourceUrl: 'https://www.saedoyak.or.kr',
+      q: '세 제도를 동시에 이용할 수 있나요?',
+      a: '대상이 다르므로 중복 이용은 원칙적으로 어렵습니다. 상담을 통해 본인에게 가장 유리한 제도를 선택하세요.',
+      source: '서민금융진흥원',
+      sourceUrl: 'https://www.kinfa.or.kr',
     },
     {
-      q: '신청 기간은 언제인가요?',
-      a: '연간 공고를 통해 신청 기간이 안내됩니다. 해당 기관 홈페이지를 확인하세요.',
-      source: '새도약기금',
-      sourceUrl: 'https://www.saedoyak.or.kr',
-    }
+      q: '채무 소각 후 신용점수 회복은 얼마나 걸리나요?',
+      a: '채무조정 완료 후 최대 5년 이내에 신용 회복이 이루어집니다. 기간 동안 성실 이행이 중요합니다.',
+      source: '신용회복위원회',
+      sourceUrl: 'https://www.ccrs.or.kr',
+    },
   ],
   sources: [
-    { name: '새도약기금', url: 'https://www.saedoyak.or.kr' },
+    { name: '서민금융진흥원', url: 'https://www.kinfa.or.kr' },
+    { name: '새도약기금', url: 'https://newleap.or.kr' },
+    { name: '새출발기금', url: 'https://newstartfund.or.kr' },
   ],
 };
