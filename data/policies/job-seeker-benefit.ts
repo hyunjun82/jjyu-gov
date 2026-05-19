@@ -4,7 +4,9 @@ export const jobSeekerBenefitPolicy: PolicyData = {
   id: 'job-seeker-benefit',
   slug: 'job-seeker-benefit',
   type: 'training',
-  title: '2026 구직급여(실업급여) 완전 가이드',
+  title: '2026 구직급여(실업급여)',
+  cat: '지원금',
+  catSlug: 'fund',
   org: '고용노동부',
 
   keyFacts: {
@@ -226,19 +228,19 @@ export const jobSeekerBenefitPolicy: PolicyData = {
 
   sources: [
     {
-      title: '찾기쉬운 생활법령정보 — 구직급여 수급자격',
+      label: '찾기쉬운 생활법령정보 — 구직급여 수급자격',
       url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=1&cnpClsNo=1',
     },
     {
-      title: '찾기쉬운 생활법령정보 — 구직급여 수급일수',
+      label: '찾기쉬운 생활법령정보 — 구직급여 수급일수',
       url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=3&cnpClsNo=1',
     },
     {
-      title: '찾기쉬운 생활법령정보 — 구직급여 수급액',
+      label: '찾기쉬운 생활법령정보 — 구직급여 수급액',
       url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=3&cnpClsNo=2',
     },
     {
-      title: '찾기쉬운 생활법령정보 — 실업의 신고(수급신청)',
+      label: '찾기쉬운 생활법령정보 — 실업의 신고(수급신청)',
       url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=1',
     },
   ],
@@ -252,5 +254,4 @@ export const jobSeekerBenefitSpokes = [
   { slug: 'benefit-days', title: '수급일수 조회' },
   { slug: 'appeal', title: '불인정 이의신청' },
   { slug: '재수급', title: '실업급여 재수급 조건 2026 반복수급 감액 횟수별 총정리' },
-  { slug: '알바단기', title: '실업급여 받으면서 알바 단기 가능한지 신고 방법 총정리' },
-];
+  { slug: '알바단기', title: '실업급여 받으면서 알바 단기 가능한지 신고 �

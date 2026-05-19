@@ -140,8 +140,12 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
         {/* 정책 헤더 */}
         <header className="detail-header">
           <div className="detail-badges">
-            <span className="badge badge-fund">{d.cat}</span>
-            <span className="badge badge-hot">인기</span>
+            {d.cat && (
+              <span className={`badge ${
+                d.catSlug === 'loan'   ? 'badge-loan'   :
+                d.catSlug === 'refund' ? 'badge-refund' : 'badge-fund'
+              }`}>{d.cat}</span>
+            )}
           </div>
           <h1 className="detail-title">{d.title}</h1>
           <div className="detail-meta">
@@ -519,7 +523,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                         lineHeight: 1.5,
                       }}
                     >
-                      <span style={{ flex: 1 }}>{s.label}</span>
+                      <span style={{ flex: 1 }}>{s.label || s.title}</span>
                       <ChevronRight size={14} style={{ flexShrink: 0, color: '#003D88' }} />
                     </a>
                   ))}
@@ -559,13 +563,4 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
 
           <PolicySidebar
             policyId={d.id}
-            policyTitle={d.title.replace(/^2026\s*/, '')}
-            spokes={spokeList}
-            applyUrl={d.applyUrl}
-          />
-
-        </div>
-      </div>
-    </main>
-  );
-}
+            policyTitle={d.title.replace(/^2026\s*/, 
