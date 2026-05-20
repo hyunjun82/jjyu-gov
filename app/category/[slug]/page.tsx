@@ -10,6 +10,8 @@ const CATEGORY_LABELS: Record<string, string> = {
   welfare: '복지',
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return Object.keys(CATEGORY_LABELS).map((slug) => ({ slug }));
 }
