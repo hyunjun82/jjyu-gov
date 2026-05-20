@@ -1,101 +1,101 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          배우자 출산휴가는 <strong>20일 전부 유급</strong>이며,
-          급여는 <strong>통상임금 100%</strong>로 지급됩니다.
-          우선지원대상기업 근로자는 <strong>고용보험에서 전액 지원</strong>되며,
-          상한액은 <strong>월 약 168만원</strong>입니다.
-          신청은 <strong>고용24(work24.go.kr)</strong>에서 합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        2025년 2월부터 5일에서 20일로 확대된 배우자 출산휴가 급여를
-        빠짐없이 받으려면 지급 기준과 신청 방법을 미리 파악하세요.
-      </p>
-
-      <section className="detail-card" id="basic">
-        <h2 className="detail-card-head">배우자 출산휴가 기본 정보</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>휴가 일수</strong></td><td>20일 (유급)</td></tr>
-              <tr><td><strong>급여 기준</strong></td><td>통상임금 100%</td></tr>
-              <tr><td><strong>지급 상한</strong></td><td>월 약 168만원</td></tr>
-              <tr><td><strong>사용 기한</strong></td><td>출산일로부터 120일 이내</td></tr>
-              <tr><td><strong>분할 사용</strong></td><td>3회까지 분할 가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">급여 신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 고용24(work24.go.kr) 온라인 또는 고용센터 방문
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 가능 시점:</strong> 휴가 시작 후 1개월부터
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 기한:</strong> 휴가 종료일 이후 12개월 이내
-          </div>
-          <div className="info-box">
-            <strong>자격 요건:</strong> 고용보험 피보험 단위기간 180일 이상
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="support">
-        <h2 className="detail-card-head">기업 규모별 지급 주체</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>지급 주체</th><th>상한액</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>우선지원대상기업</strong></td><td>고용보험(정부) 전액 지원</td><td>월 약 168만원</td></tr>
-              <tr><td><strong>대규모기업</strong></td><td>사업주 부담 (정부 미지원)</td><td>통상임금 100%</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            회사·정부 구간 분리, 비과세 여부, 출산전후휴가급여와 차이까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/spouse-birth-leave-pay" className="btn-cta">
-            배우자 출산휴가급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 배우자출산휴가급여배우자출산휴가급여20일유급기준SpokeContent: SpokeData = {
   h1: '배우자 출산휴가 20일 전부 유급, 통상임금 100% 지급 기준과 신청 방법',
   breadcrumb: '배우자출산휴가급여20일유급기준',
   description:
     '배우자 출산휴가 20일 전부 유급, 통상임금 100% 월 최대 168만원. 우선지원대상기업 고용보험 전액 지원. 출산일 120일 이내 3회 분할. 고용24(work24.go.kr) 신청, 180일 이상 피보험 필수.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '휴가 일수': '20일 (전부 유급)',
+    '급여 기준': '통상임금 100%',
+    '지급 상한': '월 약 168만원',
+    '사용 기한': '출산일로부터 120일 이내',
+    '분할 사용': '3회까지 분할 가능',
+  },
+  keyFactsHighlights: {
+    '휴가 일수': ['20일', '전부 유급'],
+    '급여 기준': ['통상임금 100%'],
+    '지급 상한': ['월 약 168만원'],
+  },
+  qa: [
+    {
+      q: '배우자 출산휴가 20일은 언제부터 적용되었나요?',
+      anchor: 'history',
+      intro:
+        '2025년 2월 23일부터 기존 10일에서 20일로 확대되었습니다. 2026년 기준으로도 20일이 적용됩니다. 20일 전부가 유급이며, 통상임금 100%가 지급됩니다. 이전에는 5일(2019년 이전) → 10일(2019~2025년 2월) 순으로 확대되어 왔으며, 2025년 2월부터 현재의 20일 기준이 적용됩니다.',
+      highlights: ['2025년 2월 23일부터', '20일 유급', '통상임금 100%'],
+      table: {
+        headers: ['기간', '배우자 출산휴가 일수'],
+        rows: [
+          ['2019년 이전', '5일'],
+          ['2019년~2025년 2월', '10일'],
+          ['2025년 2월 23일 이후', '20일 (현행)'],
+        ],
+      },
+    },
+    {
+      q: '배우자 출산휴가 20일이 전부 유급인가요?',
+      anchor: 'paid',
+      intro:
+        '네, 20일 전부가 유급입니다. 통상임금 100%가 지급되며, 우선지원대상기업 근로자는 고용보험(정부)에서 전액 지원됩니다. 상한액은 월 약 168만원이며, 통상임금이 이보다 낮으면 통상임금 전액을 받습니다. 대규모기업의 경우에도 사업주가 유급으로 처리해야 하며, 이를 이행하지 않으면 근로기준법 위반입니다.',
+      highlights: ['20일 전부 유급', '통상임금 100%', '고용보험 전액 지원'],
+      table: {
+        headers: ['구분', '지급 주체', '상한액'],
+        rows: [
+          ['우선지원대상기업', '고용보험(정부) 전액 지원', '월 약 168만원'],
+          ['대규모기업', '사업주 부담 (정부 미지원)', '통상임금 100%'],
+        ],
+      },
+    },
+    {
+      q: '배우자 출산휴가급여 신청 방법은 어떻게 되나요?',
+      anchor: 'apply',
+      intro:
+        '우선지원대상기업 근로자는 고용24(work24.go.kr)에서 온라인 신청하거나 고용센터를 방문해 신청합니다. 휴가 시작 후 1개월부터 신청 가능하며, 휴가 종료일 이후 12개월 이내에 신청해야 합니다. 고용보험 피보험 단위기간 180일 이상이어야 신청 자격이 됩니다. 분할 사용 시 각 구간마다 별도로 신청해야 합니다.',
+      highlights: ['고용24 온라인', '종료 후 12개월 이내', '180일 이상 피보험'],
+      box: { label: '신청 방법', content: '신청처: 고용24(work24.go.kr) / 신청 가능 시점: 휴가 시작 후 1개월부터 / 신청 기한: 휴가 종료일 이후 12개월 이내' },
+    },
+    {
+      q: '20일을 한 번에 쉬지 않아도 되나요?',
+      anchor: 'split',
+      intro:
+        '출산일로부터 120일 이내에 최대 3회까지 분할해 사용할 수 있습니다. 최소 사용 일수 제한은 없으므로 1일씩 나눠 사용해도 됩니다. 단 총 20일을 초과할 수 없으며, 모든 사용 구간이 출산일 120일 이내에 완료되어야 합니다. 분할 사용 시 각 구간의 급여 신청도 구간마다 별도로 해야 합니다.',
+      highlights: ['3회까지 분할', '120일 이내', '1일씩 사용 가능'],
+      box: { label: '분할 사용 규칙', content: '출산일 120일 이내 / 최대 3회 분할 / 최소 사용 일수 없음 / 총 20일 한도' },
+    },
+    {
+      q: '고용보험 미가입 사업장이면 급여를 받을 수 없나요?',
+      anchor: 'no-insurance',
+      intro:
+        '고용보험 미가입 사업장의 근로자는 정부(고용보험)에서 급여를 받을 수 없습니다. 그러나 사업주는 근로기준법에 따라 배우자 출산휴가를 유급으로 처리해야 할 의무가 있습니다. 사업주가 유급 처리를 거부하면 고용노동부(☎1350)에 신고할 수 있습니다. 고용보험에 가입하지 않은 사업장은 고용보험 가입 의무 위반이기도 하므로 함께 신고할 수 있습니다.',
+      highlights: ['정부 급여 불가', '사업주 유급 의무', '고용노동부 신고 가능'],
+      box: { label: '미가입 사업장 대응', content: '사업주는 유급 처리 의무가 있습니다. 급여 거부 시 고용노동부(☎1350) 신고.' },
+    },
+    {
+      q: '배우자 출산휴가를 쓰지 않으면 급여도 못 받나요?',
+      anchor: 'no-leave',
+      intro:
+        '배우자 출산휴가급여는 실제 휴가를 사용한 일수만큼만 지급됩니다. 휴가를 사용하지 않으면 급여를 받을 수 없습니다. 출산일 120일 이내라면 언제든 휴가를 사용할 수 있으므로, 출산 직후가 아니더라도 기한 내에 사용하는 것이 좋습니다. 회사가 휴가 사용을 거부하거나 방해하면 고용노동부에 신고할 수 있습니다.',
+      highlights: ['휴가 사용 일수 기준 지급', '미사용 시 급여 불가'],
+      box: { label: '주의사항', content: '급여는 실제 사용한 휴가 일수 기준으로 지급됩니다. 휴가 미사용 시 급여 신청 불가.' },
+    },
+    {
+      q: '배우자 출산휴가와 육아휴직을 동시에 사용할 수 있나요?',
+      anchor: 'both',
+      intro:
+        '배우자 출산휴가와 육아휴직은 별개의 제도이므로 순차적으로 사용할 수 있습니다. 배우자 출산휴가(20일) 사용 후 육아휴직(최대 1년)을 이어서 사용하는 방식이 가능합니다. 동시에 두 제도를 중복으로 사용하는 것은 불가능합니다. 육아휴직 급여는 별도의 기준과 신청 절차가 있으므로 고용24 또는 고용노동부에서 확인하세요.',
+      highlights: ['순차 사용 가능', '동시 중복 불가', '육아휴직 별도 신청'],
+      table: {
+        headers: ['제도', '기간', '급여'],
+        rows: [
+          ['배우자 출산휴가', '20일', '통상임금 100% (상한 168만원)'],
+          ['육아휴직', '최대 1년', '별도 기준 (통상임금 80% 등)'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '배우자 출산휴가 20일은 언제부터 적용됐나요?',
@@ -117,7 +117,7 @@ export const 배우자출산휴가급여배우자출산휴가급여20일유급�
     },
     {
       q: '상한액 168만원 초과분은 어떻게 되나요?',
-      a: '정부 지원 상한(월 약 168만원)을 초과하는 부분은 사업주가 지급할 의무가 없습니다. 통상임금이 높다면 차액 지급은 회사 재량입니다.',
+      a: '정부 지원 상한(월 약 168만원)을 초과하는 부분은 사업주가 지급할 의무가 없습니다.',
       source: '고용노동부',
       sourceUrl: 'https://work24.go.kr',
     },

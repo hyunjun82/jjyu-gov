@@ -1,98 +1,97 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          고령운전자 교통안전교육은 <strong>65세 이상은 권장(무료)</strong>,
-          <strong>75세 이상은 의무(면허 갱신 필수)</strong>로 구분됩니다.
-          65세는 도로교통공단 교육장 오프라인 교육만 가능하며,
-          75세 이상은 <strong>온라인·오프라인 모두 이수 가능</strong>합니다.
-          무료 교육이므로 수수료 부담 없이 받을 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        65세와 75세 이상의 교육 방식과 의무 여부가 다릅니다.
-        본인 나이에 맞는 교육 방법을 확인하세요.
-      </p>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">65세 vs 75세 이상 교육 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>65세 이상</th><th>75세 이상</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>교육 구분</strong></td><td>권장 (임의)</td><td>의무 (면허갱신 필수)</td></tr>
-              <tr><td><strong>교육 방식</strong></td><td>오프라인 교육만</td><td>온라인 + 오프라인</td></tr>
-              <tr><td><strong>교육 내용</strong></td><td>운전 특성 진단 + 안전운전 교육</td><td>인지기능 측정 + 교통안전교육</td></tr>
-              <tr><td><strong>비용</strong></td><td>무료</td><td>무료</td></tr>
-              <tr><td><strong>면허 갱신 연계</strong></td><td>미연계</td><td>이수 후 적성검사와 연계</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="reservation">
-        <h2 className="detail-card-head">예약 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인 예약:</strong> 도로교통공단 안전운전 통합민원(safedriving.or.kr)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>이러닝 이수:</strong> 도로교통공단 이러닝센터 (75세 이상만 가능)
-          </div>
-          <div className="info-box">
-            <strong>방문 교육:</strong> 전국 도로교통공단 교육장 예약 후 방문
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="content">
-        <h2 className="detail-card-head">교육 내용</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>운전능력 자가진단:</strong> 개인별 인지·반응 능력 점검
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>위험상황 대처:</strong> 고령 운전자 특성을 고려한 위험 상황 교육
-          </div>
-          <div className="info-box">
-            <strong>자동차 특성:</strong> 안전운전에 필요한 차량 특성 및 지식
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            고령운전자 면허 갱신 절차, 온라인 이수 방법, 교육장 안내까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-driver-safety" className="btn-cta">
-            고령운전자 교통안전교육 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 고령운전자교통안전교육65세75세교육차이SpokeContent: SpokeData = {
   h1: '고령운전자 교통안전교육, 65세와 75세 이상 의무·권장 차이와 예약 방법',
   breadcrumb: '65세75세교육차이',
-  description:
-    '고령운전자 교통안전교육: 65세 이상 권장(무료·오프라인만), 75세 이상 의무(면허갱신 필수·온·오프라인 가능). 도로교통공단 안전운전 통합민원 예약. 운전능력 자가진단 포함. 무료 교육.',
+  description: '고령운전자 교통안전교육: 65세 이상 권장(무료·오프라인만), 75세 이상 의무(면허갱신 필수·온·오프라인 가능). 도로교통공단 안전운전 통합민원 예약. 운전능력 자가진단 포함. 무료 교육.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '65세 이상': '권장 (임의, 오프라인만)',
+    '75세 이상': '의무 (면허갱신 필수)',
+    '교육비': '두 구간 모두 무료',
+    '75세 이상 이수 방식': '온라인 + 오프라인',
+    '예약처': 'safedriving.or.kr',
+  },
+  keyFactsHighlights: {
+    '65세 이상': ['권장', '오프라인만'],
+    '75세 이상': ['의무'],
+    '교육비': ['무료'],
+  },
+  qa: [
+    {
+      q: '65세와 75세 이상 교육의 차이는 무엇인가?',
+      anchor: 'compare',
+      intro: '고령운전자 교통안전교육은 65세 이상은 권장(무료), 75세 이상은 의무(면허 갱신 필수)로 구분됩니다. 65세는 도로교통공단 교육장 오프라인 교육만 가능하며, 75세 이상은 온라인·오프라인 모두 이수 가능합니다. 무료 교육이므로 수수료 부담 없이 받을 수 있습니다.',
+      highlights: ['65세 권장', '75세 의무', '모두 무료'],
+      table: {
+        headers: ['항목', '65세 이상', '75세 이상'],
+        rows: [
+          ['교육 구분', '권장 (임의)', '의무 (면허갱신 필수)'],
+          ['교육 방식', '오프라인 교육만', '온라인 + 오프라인'],
+          ['교육 내용', '운전 특성 진단 + 안전운전 교육', '인지기능 측정 + 교통안전교육'],
+          ['비용', '무료', '무료'],
+          ['면허 갱신 연계', '미연계', '이수 후 적성검사와 연계'],
+        ],
+      },
+    },
+    {
+      q: '예약은 어떻게 하나?',
+      anchor: 'reservation',
+      intro: '도로교통공단 안전운전 통합민원(safedriving.or.kr)에서 온라인 예약 또는 전국 도로교통공단 교육장을 방문 예약할 수 있습니다. 75세 이상은 도로교통공단 이러닝센터에서 온라인 이수도 가능합니다.',
+      highlights: ['safedriving.or.kr 예약', '이러닝센터 온라인 (75세+)'],
+      box: { label: '예약처', content: '온라인: safedriving.or.kr / 이러닝: trafficedu.koroad.or.kr (75세+만) / 방문: 전국 도로교통공단 교육장' },
+    },
+    {
+      q: '교육 내용은 무엇인가?',
+      anchor: 'content',
+      intro: '운전능력 자가진단(개인별 인지·반응 능력 점검), 위험상황 대처(고령 운전자 특성을 고려한 위험 상황 교육), 자동차 특성(안전운전에 필요한 차량 특성 및 지식)이 포함됩니다. 75세 이상은 인지기능 측정이 추가됩니다.',
+      highlights: ['운전능력 자가진단', '위험상황 대처', '인지기능 측정 (75세+)'],
+      table: {
+        headers: ['교육 내용', '65세 이상', '75세 이상'],
+        rows: [
+          ['운전능력 자가진단', '포함', '포함'],
+          ['위험상황 대처', '포함', '포함'],
+          ['자동차 특성', '포함', '포함'],
+          ['인지기능 측정', '미포함', '포함'],
+        ],
+      },
+    },
+    {
+      q: '65세가 교육을 받으면 어떤 효과가 있나?',
+      anchor: 'effect-65',
+      intro: '65세 이상 권장 교육은 면허에 영향을 주지 않지만, 개인별 운전 능력을 점검하고 안전운전 습관을 개선할 수 있습니다. 무료이므로 부담 없이 이용 가능합니다. 가족이 고령 부모님의 운전 안전성을 걱정한다면 권장 교육을 제안하는 것도 좋은 방법입니다.',
+      highlights: ['면허에 영향 없음', '운전 능력 점검', '안전운전 개선'],
+      box: { label: '안내', content: '65세 이상 권장 교육: 무료. 면허 갱신 불필요. 안전운전 점검 목적으로 자발적으로 이용.' },
+    },
+    {
+      q: '75세 이상이 교육을 받지 않으면 어떻게 되나?',
+      anchor: 'consequence-75',
+      intro: '75세 이상은 교통안전교육 미이수 시 면허 갱신(적성검사)이 불가합니다. 갱신 기간(생일 전후 6개월)을 초과하면 면허 효력이 정지될 수 있습니다. 반드시 갱신 기간 내에 교육을 이수하고 적성검사를 받아야 합니다.',
+      highlights: ['미이수 시 갱신 불가', '갱신 기간 생일 전후 6개월'],
+      box: { label: '주의', content: '75세 이상: 교육 미이수 시 면허 갱신 불가. 갱신 기간 초과 시 면허 효력 정지.' },
+    },
+    {
+      q: '면허 갱신 주기는 어떻게 되나?',
+      anchor: 'renewal-cycle',
+      intro: '65세~75세 미만은 5년마다, 75세 이상은 3년마다 면허 갱신(적성검사)이 필요합니다. 갱신 기간은 생일 전후 6개월 이내입니다.',
+      highlights: ['65~75세 5년마다', '75세 이상 3년마다', '생일 전후 6개월'],
+      table: {
+        headers: ['연령', '갱신 주기', '갱신 기간'],
+        rows: [
+          ['65세 ~ 75세 미만', '5년마다', '생일 전후 6개월'],
+          ['75세 이상', '3년마다', '생일 전후 6개월'],
+        ],
+      },
+    },
+    {
+      q: '교육 예약 시 주의사항은?',
+      anchor: 'reservation-caution',
+      intro: '교육장 예약은 인기 시간대에 조기 마감될 수 있습니다. 갱신 기간 내에 여유 있게 예약하는 것을 권장합니다. 75세 이상이라면 온라인 이수도 고려해 보세요.',
+      highlights: ['조기 마감 가능', '여유 있게 예약', '온라인 이수 대안'],
+      box: { label: '권장', content: '갱신 기간 시작 즉시 예약 권장. 교육장 포화 시 75세+는 온라인 이수(trafficedu.koroad.or.kr) 이용.' },
+    },
+  ],
   faqData: [
     {
       q: '65세가 넘었는데 교통안전교육을 꼭 받아야 하나요?',

@@ -1,75 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          임산부 친환경농산물은 <strong>에코몰(ecoemall.com) 온라인</strong> 또는
-          <strong>주민센터(읍·면·동) 방문</strong>으로 신청할 수 있습니다.
-          비대면 자격검증 시스템을 통해 서류 제출이 간소화되었으며,
-          신청 → 자격 확인 → 꾸러미 주문 → 배송 순서로 진행됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        에코몰 온라인 신청이 가장 빠르고 편리합니다.
-        자격 검증 완료 후 에코몰에서 직접 꾸러미를 주문하며, 배송까지 보통 3~7일 소요됩니다.
-      </p>
-
-      <section className="detail-card" id="process">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>내용</th><th>방법</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1단계</strong></td><td>신청</td><td>에코몰 온라인 또는 주민센터 방문</td></tr>
-              <tr><td><strong>2단계</strong></td><td>자격 확인</td><td>비대면 자격검증 시스템 (서류 간소화)</td></tr>
-              <tr><td><strong>3단계</strong></td><td>꾸러미 주문</td><td>에코몰에서 업체 선택 후 주문</td></tr>
-              <tr><td><strong>4단계</strong></td><td>배송</td><td>자택으로 친환경 농산물 꾸러미 배송</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="channel">
-        <h2 className="detail-card-head">신청 채널별 비교</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>에코몰(온라인):</strong> ecoemall.com 접속 → 회원가입 → 임산부 신청 → 자격검증 → 주문
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>주민센터(방문):</strong> 읍·면·동 행정복지센터 방문 → 신청서 작성 → 서류 제출 → 에코몰 계정 발급
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>서류:</strong> 임신확인서·출생증명서·산모수첩 중 1개 (비대면 간소화 적용)
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> 에코몰 고객센터 또는 거주 지자체 농업 담당 부서
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 자격, 지원 금액, 산모신생아 중복 여부까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/pregnant-eco-farm" className="btn-cta">
-            임산부친환경농산물 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 임산부친환경농산물신청방법에코몰주민센터자격검증절차SpokeContent: SpokeData = {
   h1: '임산부 친환경농산물 신청방법, 에코몰·주민센터·자격검증 절차 안내',
@@ -77,38 +6,107 @@ export const 임산부친환경농산물신청방법에코몰주민센터자격�
   description:
     '임산부 친환경농산물 신청: 에코몰(ecoemall.com) 온라인 또는 주민센터 방문. 비대면 자격검증 서류 간소화. 신청→자격확인→꾸러미 주문→배송 4단계 절차.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '온라인 신청': '에코몰 ecoemall.com (회원가입 후 자격 인증)',
+    '오프라인 신청': '거주지 주민센터(읍·면·동) 방문',
+    '필요 서류': '임신확인서·출생증명서·산모수첩 중 1개',
+    '자격검증': '비대면 간소화 절차 (에코몰 내 처리)',
+    '신청 절차': '회원가입 → 자격인증 → 꾸러미 주문 → 배송',
+  },
+  keyFactsHighlights: {
+    '온라인 신청': ['ecoemall.com'],
+    '필요 서류': ['임신확인서', '출생증명서', '산모수첩'],
+  },
+  qa: [
+    {
+      q: '에코몰에서 신청하는 방법은 어떻게 되나요?',
+      anchor: 'ecoemall',
+      intro: '에코몰(ecoemall.com)에 접속하여 회원가입을 완료한 후 임산부 자격 인증을 진행합니다. 자격 인증에는 임신확인서, 출생증명서, 산모수첩 중 하나를 제출합니다. 인증 완료 후 지원 혜택이 적용된 친환경 꾸러미를 주문하면 배송을 받을 수 있습니다.',
+      highlights: ['ecoemall.com', '회원가입', '자격 인증'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', 'ecoemall.com 접속 → 회원가입'],
+          ['2단계', '임산부 자격 인증 (서류 제출)'],
+          ['3단계', '지원 꾸러미 선택 및 주문'],
+          ['4단계', '배송 받기 (정부 보조 가격 적용)'],
+        ],
+      },
+    },
+    {
+      q: '주민센터에서도 신청할 수 있나요?',
+      anchor: 'center',
+      intro: '온라인 신청이 어려운 경우 거주지 읍·면·동 주민센터(행정복지센터)를 방문해 신청할 수 있습니다. 신분증과 임신 증명 서류(임신확인서·출생증명서·산모수첩 중 하나)를 지참하면 됩니다.',
+      highlights: ['주민센터 방문 가능', '신분증 지참'],
+      box: { label: '방문 신청', content: '거주지 주민센터(행정복지센터) 방문 → 신분증 + 임신 증명 서류 → 신청 접수' },
+    },
+    {
+      q: '자격검증 서류는 무엇이 필요한가요?',
+      anchor: 'documents',
+      intro: '임산부 자격 인증을 위해 임신확인서, 출생증명서, 산모수첩 중 하나를 제출합니다. 임신 초기에는 산부인과에서 임신확인서를 발급받아 제출할 수 있습니다. 출산 후 신청하는 경우 출생증명서로 대체 가능합니다.',
+      highlights: ['임신확인서', '출생증명서', '산모수첩'],
+      box: { label: '필요 서류', content: '임신확인서 OR 출생증명서 OR 산모수첩 중 1개 제출 (중복 불필요)' },
+    },
+    {
+      q: '에코몰 회원가입은 무료인가요?',
+      anchor: 'membership',
+      intro: '에코몰(ecoemall.com) 회원가입은 무료입니다. 임산부 자격을 인증받으면 정부 지원 혜택이 적용된 꾸러미를 구매할 수 있습니다. 자부담 20%만 결제하면 되며, 정부가 80%를 지원합니다.',
+      highlights: ['회원가입 무료', '자부담 20%'],
+      box: { label: '비용', content: '에코몰 회원가입: 무료 / 꾸러미 구매: 자부담 20%(정부 80% 지원)' },
+    },
+    {
+      q: '주문 후 배송까지 얼마나 걸리나요?',
+      anchor: 'delivery',
+      intro: '배송 기간은 꾸러미 종류와 지역에 따라 다를 수 있습니다. 에코몰에서 주문 후 배송 일정을 확인할 수 있습니다. 월 1~4회 주문이 가능하며 최소 주문 단위가 있을 수 있습니다.',
+      highlights: ['월 1~4회 주문', '배송 일정 확인'],
+      box: { label: '배송', content: '주문 후 배송 일정은 에코몰(ecoemall.com)에서 확인. 지역별 상이' },
+    },
+    {
+      q: '임신 초기에 신청할 수 있나요?',
+      anchor: 'early',
+      intro: '임신확인서를 발급받을 수 있다면 임신 초기에도 신청 가능합니다. 산부인과에서 임신 확인 후 임신확인서를 발급받아 에코몰 또는 주민센터에 제출하면 됩니다. 지자체별 인원 제한이 있어 임신 확인 후 빠르게 신청하는 것이 유리합니다.',
+      highlights: ['임신 초기 가능', '임신확인서 발급 후'],
+      box: { label: '권장', content: '임신 확인 즉시 산부인과에서 임신확인서 발급 → 에코몰 신청' },
+    },
+    {
+      q: '신청 후 언제부터 꾸러미를 받을 수 있나요?',
+      anchor: 'when',
+      intro: '자격 인증이 완료된 후 꾸러미를 주문하면 배송이 시작됩니다. 지자체별 인원 제한이 있는 경우 대기가 발생할 수 있습니다. 정확한 수령 일정은 에코몰 또는 주민센터에서 확인하세요.',
+      highlights: ['인증 후 즉시 주문', '대기 발생 가능'],
+      box: { label: '수령', content: '자격 인증 완료 → 꾸러미 주문 → 배송. 인원 초과 시 대기 가능' },
+    },
+  ],
   faqData: [
     {
       q: '에코몰 회원가입은 무료인가요?',
-      a: '에코몰(ecoemall.com) 회원가입은 무료입니다. 임산부 자격을 인증받으면 정부 지원 혜택이 적용된 꾸러미를 주문할 수 있습니다.',
-      source: '농림축산식품부',
+      a: '에코몰(ecoemall.com) 회원가입은 무료입니다.',
+      source: '농림축산식품부 임산부 친환경농산물',
       sourceUrl: 'https://www.mafra.go.kr',
     },
     {
-      q: '주민센터에서 신청하면 에코몰을 따로 가입해야 하나요?',
-      a: '주민센터 방문 신청 시 에코몰 계정을 발급받을 수 있습니다. 이후 에코몰에서 꾸러미를 직접 주문해야 배송이 시작됩니다.',
-      source: '농림축산식품부',
+      q: '주민센터에서도 신청할 수 있나요?',
+      a: '네. 거주지 주민센터(행정복지센터)를 방문해 신청할 수 있습니다.',
+      source: '농림축산식품부 임산부 친환경농산물',
       sourceUrl: 'https://www.mafra.go.kr',
     },
     {
-      q: '자격검증이 완료되는 데 얼마나 걸리나요?',
-      a: '비대면 자격검증 시스템을 통해 통상 1~3 영업일 내에 처리됩니다. 서류 이상이나 추가 확인이 필요한 경우 시간이 더 소요될 수 있습니다.',
-      source: '농림축산식품부',
+      q: '자격검증 서류는 무엇이 필요한가요?',
+      a: '임신확인서, 출생증명서, 산모수첩 중 하나를 제출합니다.',
+      source: '농림축산식품부 임산부 친환경농산물',
       sourceUrl: 'https://www.mafra.go.kr',
     },
     {
-      q: '신청 후 꾸러미 업체를 변경할 수 있나요?',
-      a: '에코몰에서 등록된 업체 중 원하는 곳을 선택해 주문할 수 있으며, 주문마다 업체를 변경하는 것도 가능합니다. 단, 이미 진행 중인 주문은 취소 후 재주문해야 합니다.',
-      source: '농림축산식품부',
+      q: '임신 초기에도 신청할 수 있나요?',
+      a: '임신확인서를 발급받을 수 있다면 임신 초기에도 신청 가능합니다.',
+      source: '농림축산식품부 임산부 친환경농산물',
       sourceUrl: 'https://www.mafra.go.kr',
     },
     {
-      q: '신청 기간이 따로 있나요?',
-      a: '에코몰 신청은 연중 가능하지만 지자체 예산 한도 내에서 선착순으로 운영됩니다. 지역마다 예산 소진 시기가 다르므로 임신·출산 후 가능한 빨리 신청하는 것이 좋습니다.',
-      source: '농림축산식품부',
-      sourceUrl: 'https://www.mafra.go.kr',
+      q: '배송은 얼마나 걸리나요?',
+      a: '배송 일정은 에코몰(ecoemall.com)에서 확인할 수 있습니다. 지역별로 상이합니다.',
+      source: '에코몰(ecoemall.com)',
+      sourceUrl: 'https://www.ecoemall.com',
     },
   ],
   sources: [

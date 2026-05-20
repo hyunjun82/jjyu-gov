@@ -1,99 +1,120 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          2026년 장애인활동지원 급여 단가는 <strong>시간당 17,270원</strong>이며,
-          서비스 지원 종합조사 결과에 따라 월 기본 급여 시간이 결정됩니다.
-          독거·취약 가구는 <strong>가산급여 최대 258시간</strong>을 추가로 받을 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        본인부담금은 소득 수준에 따라 차등 부과되며, 2026년 기준 상한액은 월 216,200원입니다.
-        기초생활수급자·차상위계층은 본인부담금이 면제되거나 대폭 감면됩니다.
-      </p>
-
-      <section className="detail-card" id="rate">
-        <h2 className="detail-card-head">2026년 급여 단가 및 가산급여</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>단가 / 시간</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>활동보조</strong></td><td>17,270원/시간</td><td>일상생활·이동 보조</td></tr>
-              <tr><td><strong>방문목욕</strong></td><td>별도 수가 적용</td><td>이동목욕차량 이용 시 상이</td></tr>
-              <tr><td><strong>방문간호</strong></td><td>별도 수가 적용</td><td>간호사·간호조무사 파견</td></tr>
-              <tr><td><strong>가산급여 (2026)</strong></td><td>최대 258시간/월</td><td>독거·취약·심야 추가 지원</td></tr>
-              <tr><td><strong>본인부담 상한</strong></td><td>월 216,200원</td><td>2026년 기준</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="copay">
-        <h2 className="detail-card-head">소득 구간별 본인부담금</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기초생활수급자:</strong> 본인부담금 면제 (0원)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>차상위계층:</strong> 본인부담금 대폭 감면 (최저 수준)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>중간 소득 구간:</strong> 소득인정액에 비례하여 부과 (구간별 차등)
-          </div>
-          <div className="info-box">
-            <strong>상위 소득 구간:</strong> 월 최대 216,200원 (2026년 상한액)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="increase">
-        <h2 className="detail-card-head">2026년 주요 변경사항</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>단가 인상:</strong> 활동지원 단가 17,270원으로 인상 (최저임금 연동)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>가산급여 확대:</strong> 205시간 → 258시간으로 확대 (독거·취약 가구)
-          </div>
-          <div className="info-box">
-            <strong>본인부담 상한 조정:</strong> 2026년 기준 월 216,200원 적용
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청자격, 노인장기요양 전환, 신청 절차까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-activity-support" className="btn-cta">
-            장애인활동지원 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애인활동지원급여시간2026단가월한도기준SpokeContent: SpokeData = {
   h1: '장애인활동지원 급여 시간, 2026년 시간당 17,270원과 월 한도 기준',
   breadcrumb: '급여시간2026단가월한도기준',
   description:
     '2026년 장애인활동지원 단가 17,270원/시간. 가산급여 최대 258시간(독거·취약). 본인부담 상한 월 216,200원. 기초수급자 면제. 최저임금 연동 단가 인상.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '2026년 활동보조 단가': '시간당 17,270원',
+    '가산급여 최대': '독거·취약 가구 월 258시간',
+    '본인부담 상한': '월 216,200원 (2026년 기준)',
+    '기초수급자 본인부담': '면제 (0원)',
+    '단가 연동': '최저임금 연동 매년 인상',
+  },
+  keyFactsHighlights: {
+    '2026년 활동보조 단가': ['17,270원'],
+    '가산급여 최대': ['258시간'],
+    '기초수급자 본인부담': ['면제'],
+  },
+  qa: [
+    {
+      q: '2026년 장애인활동지원 급여 단가는 얼마인가요?',
+      anchor: 'rate',
+      intro: '2026년 장애인활동지원 활동보조 급여 단가는 시간당 17,270원입니다. 이 단가는 최저임금과 연동되어 매년 인상됩니다. 방문목욕과 방문간호는 활동보조와 별도 수가가 적용됩니다.',
+      highlights: ['17,270원', '최저임금 연동'],
+      table: {
+        headers: ['구분', '단가 / 시간', '비고'],
+        rows: [
+          ['활동보조', '17,270원/시간', '일상생활·이동 보조'],
+          ['방문목욕', '별도 수가 적용', '이동목욕차량 이용 시 상이'],
+          ['방문간호', '별도 수가 적용', '간호사·간호조무사 파견'],
+          ['가산급여 (2026)', '최대 258시간/월', '독거·취약·심야 추가 지원'],
+          ['본인부담 상한', '월 216,200원', '2026년 기준'],
+        ],
+      },
+    },
+    {
+      q: '본인부담금은 얼마인가요?',
+      anchor: 'copay',
+      intro: '본인부담금은 소득 수준에 따라 차등 부과됩니다. 기초생활수급자는 면제(0원), 차상위계층은 대폭 감면, 일반 소득 구간은 소득인정액에 비례하여 부과됩니다. 상한액은 월 216,200원(2026년 기준)입니다.',
+      highlights: ['기초수급자 면제', '차상위 감면', '상한 216,200원'],
+      box: {
+        label: '소득 구간별 본인부담금',
+        content: '기초생활수급자: 면제 (0원)
+차상위계층: 대폭 감면 (최저 수준)
+중간 소득 구간: 소득인정액 비례 부과
+상위 소득 구간: 월 최대 216,200원 (2026년 상한)',
+      },
+    },
+    {
+      q: '가산급여란 무엇이고 최대 몇 시간인가요?',
+      anchor: 'extra-time',
+      intro: '가산급여는 독거, 취약 가구, 심야 등 특수 상황에 처한 수급자에게 기본 급여 시간에 추가로 지원되는 시간입니다. 2026년 기준 가산급여는 최대 258시간으로 확대됐습니다(2025년 205시간에서 증가). 가산급여 대상인지 여부는 국민연금공단 종합조사 결과와 담당 기관 확인을 통해 알 수 있습니다.',
+      highlights: ['가산급여 258시간', '독거·취약 가구', '확대'],
+      table: {
+        headers: ['연도', '가산급여 최대', '주요 변화'],
+        rows: [
+          ['2025년', '205시간', '-'],
+          ['2026년', '258시간', '+53시간 확대'],
+        ],
+      },
+    },
+    {
+      q: '2026년 주요 변경사항은 무엇인가요?',
+      anchor: 'changes',
+      intro: '2026년에는 활동지원 단가가 17,270원으로 인상됐고, 가산급여가 205시간에서 258시간으로 확대됐습니다. 본인부담 상한도 조정됐습니다. 이 변경사항들은 최저임금 인상과 취약계층 지원 강화 정책을 반영한 것입니다.',
+      highlights: ['단가 인상', '가산급여 확대', '258시간'],
+      box: {
+        label: '2026년 주요 변경사항',
+        content: '단가 인상: 활동지원 단가 17,270원으로 인상 (최저임금 연동)
+가산급여 확대: 205시간 → 258시간 (독거·취약 가구)
+본인부담 상한 조정: 2026년 기준 월 216,200원',
+      },
+    },
+    {
+      q: '급여 시간이 부족하면 어떻게 하나요?',
+      anchor: 'insufficient',
+      intro: '가산급여 대상(독거·취약 등)이라면 추가 시간을 신청할 수 있습니다. 또한 재조사를 신청하면 급여 구간이 올라갈 수도 있습니다. 담당 활동지원기관 또는 주민센터에 문의하세요.',
+      highlights: ['가산급여 신청', '재조사', '급여 구간 상향'],
+      table: {
+        headers: ['상황', '방법'],
+        rows: [
+          ['가산급여 대상 조건 충족', '추가 시간 신청 (담당 기관 문의)'],
+          ['급여 구간 재조사 희망', '국민연금공단 재조사 신청'],
+          ['긴급 상황', '긴급활동지원 신청 (☎1350)'],
+        ],
+      },
+    },
+    {
+      q: '방문목욕·방문간호 단가는 얼마인가요?',
+      anchor: 'other-rates',
+      intro: '방문목욕과 방문간호는 활동보조와 별도 수가로 적용됩니다. 정확한 금액은 보건복지부 고시 또는 국민연금공단(☎1355)에서 확인하세요.',
+      highlights: ['방문목욕', '방문간호', '별도 수가', '☎1355'],
+      box: {
+        label: '방문목욕·방문간호 문의',
+        content: '국민연금공단: ☎1355
+보건복지부 장애인활동지원 고시 확인
+담당 활동지원기관에도 문의 가능',
+      },
+    },
+    {
+      q: '월 급여 시간을 초과하면 어떻게 되나요?',
+      anchor: 'excess',
+      intro: '기본 급여 시간 초과분은 본인이 전액 부담해야 합니다. 초과 사용이 반복된다면 재조사를 신청하여 급여 구간 상향을 시도하거나, 가산급여 대상 여부를 확인하는 것이 좋습니다.',
+      highlights: ['초과분 전액 부담', '재조사 신청', '가산급여 확인'],
+      table: {
+        headers: ['상황', '처리 방법'],
+        rows: [
+          ['기본 급여 내 이용', '본인부담금만 납부'],
+          ['기본 급여 초과', '초과분 전액 본인 부담'],
+          ['반복 초과', '급여 구간 재조사 신청 권장'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '활동지원 시간이 부족하면 추가 신청할 수 있나요?',
@@ -115,19 +136,19 @@ export const 장애인활동지원급여시간2026단가월한도기준SpokeCont
     },
     {
       q: '활동지원사 단가와 수급자가 받는 급여는 같은 건가요?',
-      a: '활동지원 단가(17,270원/시간)는 기관에 지급되는 급여 단가이며, 활동지원사 급여는 기관이 단가에서 운영비를 제한 금액으로 지급합니다. 수급자는 이 단가에서 본인부담분을 제외한 만큼 서비스를 받을 수 있습니다.',
+      a: '활동지원 단가(17,270원/시간)는 기관에 지급되는 급여 단가이며, 활동지원사 급여는 기관이 단가에서 운영비를 제한 금액으로 지급합니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
     {
       q: '방문목욕·방문간호 단가는 얼마인가요?',
-      a: '방문목욕·방문간호는 활동보조와 별도 수가로 적용됩니다. 정확한 금액은 보건복지부 고시 또는 국민연금공단(국번없이 1355)에서 확인하세요.',
+      a: '방문목욕·방문간호는 활동보조와 별도 수가로 적용됩니다. 정확한 금액은 보건복지부 고시 또는 국민연금공단(☎1355)에서 확인하세요.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
   ],
   sources: [
     { name: '보건복지부 장애인활동지원', url: 'https://www.mohw.go.kr/menu.es?mid=a10710040700' },
-    { name: '2026년 활동지원 급여 단가 (엔젤시터)', url: 'https://angelsitter.co.kr/board.view.php?board=bbs2&no=602' },
+    { name: '2026년 활동지원 급여 단가', url: 'https://angelsitter.co.kr/board.view.php?board=bbs2&no=602' },
   ],
 };

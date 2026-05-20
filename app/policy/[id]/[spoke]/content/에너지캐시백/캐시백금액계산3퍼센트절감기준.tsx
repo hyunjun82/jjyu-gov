@@ -1,129 +1,139 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          에너지캐시백은 <strong>직전 2개년 동월 평균 전기 사용량 대비 3% 이상 절감</strong>해야
-          지급됩니다. 캐시백 금액은 <strong>절감량(kWh) × 절감률 구간별 단가(30~100원/kWh)</strong>로
-          계산하며, 다음 달 전기요금에서 자동 차감됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        절감률이 높을수록 단가가 올라갑니다. 20% 이상 줄이면 1kWh당 100원(최대 단가)을 받으며,
-        참여 가구 연평균 혜택은 약 4만 9,000원입니다.
-      </p>
-
-      <section className="detail-card" id="rate">
-        <h2 className="detail-card-head">절감률 구간별 캐시백 단가</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>절감률 구간</th><th>캐시백 단가 (1kWh당)</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>3% 이상 5% 미만</strong></td><td>30원/kWh</td></tr>
-              <tr><td><strong>5% 이상 10% 미만</strong></td><td>60원/kWh</td></tr>
-              <tr><td><strong>10% 이상 20% 미만</strong></td><td>80원/kWh</td></tr>
-              <tr><td><strong>20% 이상</strong></td><td>100원/kWh (최대)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="example">
-        <h2 className="detail-card-head">캐시백 계산 예시</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기준:</strong> 직전 2개년 7월 평균 사용량 300kWh
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>이번 달 사용:</strong> 260kWh → 절감량 40kWh / 절감률 13.3%
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>적용 단가:</strong> 10~20% 구간 → 80원/kWh
-          </div>
-          <div className="info-box">
-            <strong>캐시백:</strong> 40kWh × 80원 = <strong>3,200원</strong> 다음 달 전기요금 차감
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="criteria">
-        <h2 className="detail-card-head">3% 기준 핵심 정리</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>비교 기준:</strong> 동일 월 직전 2개년 평균 (예: 26년 7월 → 24·25년 7월 평균)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>최소 절감률:</strong> 3% 미만이면 캐시백 미지급
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사용 이력 조건:</strong> 직전 2개년 중 최소 1개년 사용 이력 필요
-          </div>
-          <div className="info-box">
-            <strong>지급 방식:</strong> 현금 아님 — 다음 달 전기요금에서 자동 차감
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 방법, 신청 자격, 에너지바우처 비교까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/energy-cashback" className="btn-cta">
-            에너지캐시백 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 에너지캐시백캐시백금액계산3퍼센트절감기준SpokeContent: SpokeData = {
   h1: '에너지캐시백 캐시백 금액 계산법, 직전 2개년 대비 3% 절감 기준과 단가표',
-  breadcrumb: '캐시백금액계산3퍼센트절감기준',
+  breadcrumb: '에너지캐시백 > 캐시백금액계산3퍼센트절감기준',
   description:
     '에너지캐시백 계산: 직전 2개년 동월 평균 대비 3% 이상 절감 시 지급. 절감률 구간별 단가 30~100원/kWh (3~5%=30원, 5~10%=60원, 10~20%=80원, 20%↑=100원). 다음 달 전기요금 자동 차감.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '최소 절감률': '3% 이상 (미달 시 캐시백 미지급)',
+    '비교 기준': '동일 월 직전 2개년 평균 사용량',
+    '최대 단가': '100원/kWh (20% 이상 절감 시)',
+    '지급 방식': '다음 달 전기요금에서 자동 차감',
+    '참여 가구 연평균': '약 4만 9,000원',
+  },
+  keyFactsHighlights: {
+    '최소 절감률': ['3% 이상'],
+    '최대 단가': ['100원/kWh'],
+    '참여 가구 연평균': ['4만 9,000원'],
+  },
+  qa: [
+    {
+      q: '에너지캐시백을 받으려면 얼마나 줄여야 하나요?',
+      anchor: 'min-reduction',
+      intro: '에너지캐시백은 직전 2개년 동월 평균 전기 사용량 대비 3% 이상 절감해야 지급됩니다. 3% 미만이면 캐시백이 지급되지 않습니다. 직전 2개년이란 예를 들어 2026년 7월은 2024년·2025년 7월 평균을 기준으로 합니다. 300kWh 사용 기준으로 3%는 9kWh이므로 에어컨 설정 온도를 1~2℃ 올리거나 대기전력을 줄이는 것만으로도 달성할 수 있습니다.',
+      highlights: ['3% 이상 절감 시 캐시백 지급', '동일 월 직전 2개년 평균 비교', '3% 미만이면 지급 없음'],
+      table: {
+        headers: ['절감률 구간', '캐시백 단가 (1kWh당)'],
+        rows: [
+          ['3% 이상 5% 미만', '30원/kWh'],
+          ['5% 이상 10% 미만', '60원/kWh'],
+          ['10% 이상 20% 미만', '80원/kWh'],
+          ['20% 이상', '100원/kWh (최대)'],
+        ],
+      },
+      box: { label: '핵심', content: '절감률이 높을수록 단가가 올라갑니다. 20% 이상 절감 시 최대 100원/kWh를 받습니다.' },
+    },
+    {
+      q: '캐시백 금액은 어떻게 계산하나요?',
+      anchor: 'calculation',
+      intro: '캐시백 금액은 절감량(kWh) × 절감률 구간별 단가로 계산합니다. 예를 들어 직전 2개년 7월 평균이 300kWh이고 이번 달 260kWh를 사용했다면, 절감량은 40kWh이고 절감률은 13.3%입니다. 10~20% 구간 단가 80원/kWh를 적용하면 40kWh × 80원 = 3,200원이 다음 달 전기요금에서 차감됩니다.',
+      highlights: ['절감량 × 단가로 계산', '다음 달 전기요금 자동 차감', '실시간으로 en-ter.co.kr 확인 가능'],
+      table: {
+        headers: ['계산 예시', '수치'],
+        rows: [
+          ['직전 2개년 7월 평균', '300kWh'],
+          ['이번 달 사용량', '260kWh'],
+          ['절감량', '40kWh'],
+          ['절감률', '13.3% (10~20% 구간)'],
+          ['적용 단가', '80원/kWh'],
+          ['캐시백', '40 × 80 = 3,200원'],
+        ],
+      },
+      box: { label: '계산 공식', content: '캐시백 = 절감량(kWh) × 구간별 단가(30/60/80/100원/kWh)' },
+    },
+    {
+      q: '비교 기준이 되는 직전 2개년이란 정확히 무엇인가요?',
+      anchor: 'base-period',
+      intro: '비교 기준은 동일 월의 직전 2개년 평균 사용량입니다. 예를 들어 2026년 7월 사용량은 2024년 7월과 2025년 7월 사용량의 평균과 비교합니다. 1월은 전년도·전전년도 1월 평균이 기준이고, 계절마다 독립적으로 계산됩니다. 직전 2개년 중 최소 1개년 이상 전기 사용 이력이 있어야 신청이 가능합니다.',
+      highlights: ['동일 월 직전 2개년 평균과 비교', '계절마다 독립 계산', '2개년 중 1개년 이상 이력 필요'],
+      table: {
+        headers: ['비교 월', '기준'],
+        rows: [
+          ['2026년 1월', '2024년 1월 + 2025년 1월 평균'],
+          ['2026년 7월', '2024년 7월 + 2025년 7월 평균'],
+          ['2026년 12월', '2024년 12월 + 2025년 12월 평균'],
+        ],
+      },
+      box: { label: '참고', content: '겨울과 여름 전기 사용량이 다르므로, 계절별로 기준이 달라집니다. 계절마다 독립적으로 평가됩니다.' },
+    },
+    {
+      q: '절감률 3%를 달성하기 어렵지 않나요?',
+      anchor: 'achieve-3percent',
+      intro: '300kWh 기준으로 3%는 9kWh 절감에 해당합니다. 에어컨 설정 온도 1℃ 올리기, LED 조명 교체, 대기전력 차단, 냉장고 적정 온도 유지 등 간단한 절약 행동으로도 달성 가능합니다. en-ter.co.kr의 스마트 모니터링 기능을 활용하면 현재 절감률과 목표 달성 여부를 실시간으로 확인할 수 있습니다.',
+      highlights: ['300kWh 기준 9kWh 절감으로 3% 달성', '에어컨 온도 조절·LED 교체로 가능', 'en-ter.co.kr 실시간 모니터링'],
+      box: { label: '절약 팁', content: '에어컨 1℃ 올리면 약 7% 절감, 대기전력 차단으로 5~11% 절감 효과가 있습니다.' },
+    },
+    {
+      q: '캐시백이 전기요금보다 많으면 어떻게 되나요?',
+      anchor: 'over-bill',
+      intro: '캐시백이 해당 달 전기요금을 초과하면 나머지는 소멸됩니다. 이월이나 현금 환급은 되지 않습니다. 따라서 절감량이 매우 크다면 캐시백이 전기요금을 초과할 수 있다는 점을 미리 알아두세요.',
+      highlights: ['초과 캐시백은 소멸', '이월·현금 환급 불가', '전기요금 내에서만 차감'],
+      box: { label: '주의', content: '캐시백이 전기요금보다 많으면 초과분은 소멸됩니다. 이월이나 현금 환급은 되지 않습니다.' },
+    },
+    {
+      q: '새 아파트라서 이력이 없으면 신청할 수 없나요?',
+      anchor: 'no-history',
+      intro: '직전 2개년 중 최소 1개년 이상 전기 사용 이력이 있어야 신청이 가능합니다. 새 아파트에 처음 입주해서 이력이 전혀 없다면 신청이 어렵습니다. 1년 이상 거주 후 신청하거나, en-ter.co.kr 신청 화면에서 자격 여부를 먼저 확인해 보세요.',
+      highlights: ['1개년 이상 이력 필요', '신규 입주 시 신청 어려울 수 있음', '1년 거주 후 신청 권장'],
+      box: { label: '신규 입주 시', content: '새 아파트 입주 후 1년 이상 거주한 뒤 에너지캐시백을 신청하세요.' },
+    },
+    {
+      q: '참여 가구 연평균 4만 9,000원은 어떻게 계산된 건가요?',
+      anchor: 'avg-cashback',
+      intro: '에너지캐시백 참여 가구의 연평균 혜택은 약 4만 9,000원입니다. 이는 월평균 약 4,083원에 해당합니다. 여름(7~8월)과 겨울(12~2월)에 전기 사용량이 많은 달에 캐시백도 함께 커지므로, 실제로는 특정 달에 집중되는 경향이 있습니다. 절감률이 높을수록 캐시백도 커집니다.',
+      highlights: ['연평균 약 4만 9,000원', '월평균 약 4,083원', '여름·겨울에 집중되는 경향'],
+      table: {
+        headers: ['지표', '수치'],
+        rows: [
+          ['연평균 혜택', '약 4만 9,000원'],
+          ['월평균', '약 4,083원'],
+          ['최대 단가 월', '여름·겨울 (사용량 많은 달)'],
+        ],
+      },
+      box: { label: '참고', content: '절감 목표를 달성하면 여름과 겨울에 더 많은 캐시백을 받을 수 있습니다.' },
+    },
+  ],
   faqData: [
     {
       q: '절감률 3%를 달성하기 어렵지 않나요?',
-      a: '300kWh 기준으로는 9kWh만 줄이면 3%가 됩니다. 에어컨 설정 온도 1℃ 올리거나 LED로 교체하는 것만으로도 달성할 수 있습니다. en-ter.co.kr의 스마트 모니터링으로 목표 달성률을 실시간 확인할 수 있습니다.',
+      a: '300kWh 기준으로 9kWh만 줄이면 됩니다. 에어컨 온도 1℃ 올리거나 LED 교체로도 달성 가능합니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/apply/info/info.do',
     },
     {
       q: '캐시백이 전기요금보다 많으면 남은 금액은 환급되나요?',
-      a: '아닙니다. 캐시백이 해당 달 전기요금을 초과하면 나머지는 소멸됩니다. 이월이나 현금 환급은 되지 않으므로 캐시백 금액이 크게 나올 가능성이 있다면 미리 참고하세요.',
+      a: '아닙니다. 초과분은 소멸됩니다. 이월이나 현금 환급은 되지 않습니다.',
       source: 'KEPCO 웹진',
       sourceUrl: 'https://en-ter.co.kr/ec/apply/info/info.do',
     },
     {
       q: '직전 2개년 평균이 없는 새 아파트면 신청이 안 되나요?',
-      a: '직전 2개년 중 최소 1개년 사용 이력이 있어야 신청이 가능합니다. 새 아파트에 처음 입주해서 이력이 전혀 없다면 신청이 어렵고, 1년 이상 거주 후 신청하는 것이 좋습니다.',
+      a: '직전 2개년 중 최소 1개년 이상 이력이 필요합니다. 이력이 없으면 신청이 어렵습니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/main/main.do',
     },
     {
-      q: '여름(7월)이 기준이면 겨울(1월)은 다른 기준인가요?',
-      a: '네. 매월 동일 월 직전 2개년 평균과 비교합니다. 1월은 전년도·전전년도 1월 평균, 7월은 7월 평균이 각각 기준이 됩니다. 계절마다 독립적으로 계산됩니다.',
+      q: '여름이 기준이면 겨울은 다른 기준인가요?',
+      a: '네. 매월 동일 월 직전 2개년 평균과 비교합니다. 계절마다 독립적으로 계산됩니다.',
       source: 'KEPCO 웹진',
       sourceUrl: 'https://en-ter.co.kr/ec/apply/info/info.do',
     },
     {
       q: '세대당 연평균 4만 9,000원이면 월평균 얼마인가요?',
-      a: '연평균 약 4만 9,000원이면 월평균 약 4,083원입니다. 여름·겨울 전기 사용량이 많은 달에 캐시백도 함께 커지므로 실제로는 특정 달에 집중되는 경향이 있습니다.',
+      a: '연평균 약 4만 9,000원이면 월평균 약 4,083원입니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/apply/info/info.do',
     },

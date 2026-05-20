@@ -1,94 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          주거급여는 <strong>소득인정액이 기준 중위소득 48% 이하</strong>이면 신청할 수 있습니다.
-          <strong>부양의무자 기준이 없어</strong> 부모·자녀 재산에 관계없이 본인 가구 기준으로만 판단하며,
-          <strong>복지로(bokjiro.go.kr)</strong> 또는 주민센터에서 신청할 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        중위소득 48% 기준이 가구 규모별로 어떻게 달라지는지,
-        소득인정액 계산 방법은 무엇인지 확인하세요.
-      </p>
-
-      <section className="detail-card" id="income">
-        <h2 className="detail-card-head">2026년 가구원별 중위소득 48% 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>가구원 수</th><th>월 소득인정액 기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1인</strong></td><td>1,114,166원</td></tr>
-              <tr><td><strong>2인</strong></td><td>1,841,305원</td></tr>
-              <tr><td><strong>3인</strong></td><td>2,357,329원</td></tr>
-              <tr><td><strong>4인</strong></td><td>2,864,957원</td></tr>
-              <tr><td><strong>5인</strong></td><td>3,347,868원</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>※ 정확한 기준은 복지로 또는 주민센터에서 확인하세요.</p>
-        </div>
-      </section>
-
-      <section className="detail-card" id="formula">
-        <h2 className="detail-card-head">소득인정액 계산 방식</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소득인정액 =</strong> 실제 소득 + 재산의 소득 환산액
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>실제 소득:</strong> 근로소득, 사업소득, 이전소득 등
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>재산 환산:</strong> 부동산·금융자산을 소득으로 환산 (기본재산액 공제 후)
-          </div>
-          <div className="info-box">
-            <strong>모의계산:</strong> 복지로(bokjiro.go.kr)에서 사전 확인 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 복지로 모의계산으로 수급 가능성 확인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 복지로(bokjiro.go.kr) 온라인 신청 또는 주민센터 방문
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 소득·재산 조사 (담당 공무원이 확인)
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 수급자 선정 후 다음 달부터 지급
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지역별 임차급여 금액, 자가 수선유지급여, 임차·수선 급여 차이까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/housing-benefit" className="btn-cta">
-            주거급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 주거급여중위소득48이하신청기준SpokeContent: SpokeData = {
   h1: '중위소득 48% 이하라면 주거급여 탈락 없이 신청할 수 있는 기준과 절차',
@@ -96,8 +6,154 @@ export const 주거급여중위소득48이하신청기준SpokeContent: SpokeData
   description:
     '주거급여 신청 기준: 중위소득 48% 이하(1인 월 111만원·2인 184만원·4인 286만원). 부양의무자 기준 없음. 소득인정액=실제소득+재산환산액. 복지로(bokjiro.go.kr) 신청.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '소득 기준': '기준 중위소득 48% 이하',
+    '1인 가구': '월 1,114,166원 이하',
+    '2인 가구': '월 1,841,305원 이하',
+    '4인 가구': '월 2,864,957원 이하',
+    '부양의무자 기준': '없음 (2021년 폐지)',
+  },
+  keyFactsHighlights: {
+    '소득 기준': ['중위소득 48% 이하'],
+    '1인 가구': ['1,114,166원'],
+    '4인 가구': ['2,864,957원'],
+    '부양의무자 기준': ['없음'],
+  },
+  qa: [
+    {
+      q: '주거급여 소득 기준은 어떻게 되나요?',
+      anchor: 'income',
+      intro: '주거급여는 소득인정액이 기준 중위소득 48% 이하이면 신청할 수 있습니다. 2026년 기준 가구원 수별 소득인정액 기준은 1인 가구 월 1,114,166원, 2인 가구 1,841,305원, 3인 가구 2,357,329원, 4인 가구 2,864,957원입니다. 부양의무자 기준은 2021년부터 폐지되어 부모·자녀 소득·재산과 무관하게 본인 가구 기준으로만 판단합니다.',
+      highlights: ['중위소득 48%', '부양의무자 없음', '1,114,166원', '2,864,957원'],
+      table: {
+        headers: ['가구원 수', '월 소득인정액 기준'],
+        rows: [
+          ['1인', '1,114,166원'],
+          ['2인', '1,841,305원'],
+          ['3인', '2,357,329원'],
+          ['4인', '2,864,957원'],
+          ['5인', '3,347,868원'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '2026년 기준. 정확한 기준은 복지로(bokjiro.go.kr) 또는 주민센터에서 확인하세요.',
+      },
+    },
+    {
+      q: '소득인정액은 어떻게 계산하나요?',
+      anchor: 'income-calc',
+      intro: '소득인정액은 실제 소득과 재산의 소득 환산액을 합산한 금액입니다. 실제 소득에는 근로소득, 사업소득, 이전소득(각종 급여·연금)이 포함됩니다. 재산은 부동산·금융자산을 일정 환산율로 소득으로 변환하며, 지역별 기본재산액을 공제한 뒤 환산합니다. 복지로(bokjiro.go.kr)에서 모의계산이 가능합니다.',
+      highlights: ['실제 소득 + 재산 환산액', '기본재산액 공제', '복지로 모의계산'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['실제 소득', '근로소득 + 사업소득 + 이전소득'],
+          ['재산 환산', '(재산 - 기본재산액) × 환산율'],
+          ['소득인정액', '실제 소득 + 재산 환산액'],
+          ['모의계산', 'bokjiro.go.kr'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '복지로에서 모의계산 후 주민센터 신청 권장. 모의계산은 참고용이며 최종 결정은 공식 조사로.',
+      },
+    },
+    {
+      q: '부양의무자 기준이 없다는 게 무슨 뜻인가요?',
+      anchor: 'no-obligation',
+      intro: '2021년부터 주거급여에서 부양의무자(자녀·부모 등) 기준이 폐지되었습니다. 과거에는 자녀나 부모 등 부양의무자의 소득·재산도 수급 여부 판단에 반영되었으나, 현재는 신청 가구 본인의 소득인정액만으로 판단합니다. 즉 자녀가 많은 소득을 받더라도 부모 본인의 소득인정액이 기준 이하면 주거급여를 받을 수 있습니다.',
+      highlights: ['부양의무자 기준 폐지', '본인 소득인정액만', '2021년부터'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['부양의무자 기준', '2021년부터 폐지'],
+          ['판단 기준', '신청 가구 본인의 소득인정액만'],
+          ['자녀 소득', '반영 안 함'],
+          ['부모 재산', '반영 안 함'],
+        ],
+      },
+      box: {
+        label: '핵심',
+        content: '주거급여는 부양의무자 기준 없음. 본인 가구 소득인정액만으로 결정.',
+      },
+    },
+    {
+      q: '신청은 어떻게 하나요?',
+      anchor: 'apply',
+      intro: '온라인으로는 복지로(bokjiro.go.kr)에서 신청할 수 있고, 오프라인으로는 주민등록지 읍·면·동 주민센터를 방문하면 됩니다. 신청 후 담당 공무원이 소득·재산 조사를 진행하며, 통상 30일 이내에 결과가 통보됩니다. 수급자로 선정되면 다음 달부터 급여가 지급됩니다.',
+      highlights: ['복지로(bokjiro.go.kr)', '주민센터', '30일 이내'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '복지로 모의계산으로 수급 가능성 확인'],
+          ['2단계', '복지로 온라인 신청 또는 주민센터 방문'],
+          ['3단계', '소득·재산 조사 (담당 공무원 확인)'],
+          ['4단계', '수급자 선정 후 다음 달부터 지급'],
+        ],
+      },
+      box: {
+        label: '신청처',
+        content: '복지로(bokjiro.go.kr) 또는 주민센터 방문. 문의: 1600-0777',
+      },
+    },
+    {
+      q: '재산이 있으면 수급이 어려운가요?',
+      anchor: 'property',
+      intro: '재산은 소득인정액 산정 시 일정 방식으로 소득으로 환산됩니다. 지역별 기본재산액 공제 후 남은 재산에 환산율을 적용합니다. 따라서 재산이 있더라도 기본재산액 이하라면 소득인정액에 영향이 없을 수 있습니다. 복지로에서 모의계산을 해보는 것이 좋습니다.',
+      highlights: ['기본재산액 공제', '모의계산 권장'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['기본재산액', '지역별 공제 (예: 서울 6,900만원, 경기 4,200만원 등)'],
+          ['재산 환산율', '월 4.17% (부동산), 월 6.26% (금융자산 등)'],
+          ['재산이 기본재산액 이하', '소득인정액에 재산 환산액 없음'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '재산이 있어도 기본재산액 이하면 영향 없을 수 있습니다. 복지로 모의계산 필수.',
+      },
+    },
+    {
+      q: '수급 중 소득이 늘면 어떻게 되나요?',
+      anchor: 'income-change',
+      intro: '수급 중 소득이 기준을 초과하게 되면 주민센터에 신고 의무가 있습니다. 신고하지 않으면 과지급으로 환수될 수 있습니다. 소득 증가가 일시적(취업 등)인 경우에도 신고 후 재조사를 통해 수급 유지 또는 중단이 결정됩니다.',
+      highlights: ['변동 신고 의무', '미신고 시 환수', '재조사'],
+      table: {
+        headers: ['상황', '처리'],
+        rows: [
+          ['소득 증가 신고', '재조사 후 수급 유지 또는 중단'],
+          ['미신고 과지급', '환수 조치'],
+          ['일시적 소득 증가', '신고 후 상황에 따라 처리'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '소득·재산 변동 시 반드시 주민센터에 신고하세요. 미신고 시 환수됩니다.',
+      },
+    },
+    {
+      q: '주거급여와 다른 복지 급여를 동시에 받을 수 있나요?',
+      anchor: 'overlap',
+      intro: '주거급여는 기초생활보장 급여 중 하나로, 생계급여·의료급여·교육급여 등 다른 급여와 동시에 수급이 가능합니다. 단, 각 급여별로 소득 기준이 다르므로 주거급여를 받는다고 해서 반드시 다른 급여도 받는 것은 아닙니다. 각 급여별 기준을 복지로나 주민센터에서 개별 확인해야 합니다.',
+      highlights: ['생계급여 동시 가능', '의료급여 동시 가능', '교육급여 동시 가능'],
+      table: {
+        headers: ['급여 종류', '소득 기준 (중위소득)', '주거급여와 중복'],
+        rows: [
+          ['생계급여', '32% 이하', '동시 수급 가능'],
+          ['의료급여', '40% 이하', '동시 수급 가능'],
+          ['주거급여', '48% 이하', '-'],
+          ['교육급여', '50% 이하', '동시 수급 가능'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '각 급여별 기준이 다릅니다. 주민센터 또는 복지로에서 개별 확인.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '재산이 조금 있는데 소득인정액이 기준을 넘을 수 있나요?',

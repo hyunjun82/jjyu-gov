@@ -1,100 +1,93 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          서민금융통합지원센터는 <strong>채무·신용 문제로 어려움을 겪고 있거나
-          제도권 금융에서 적절한 서비스를 받기 어려운 분</strong>이라면 누구나 이용할 수 있습니다.
-          소득·신용 조건이 따로 없으며, 상담부터 시작하면 됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        금융 상품을 몰라서 못 쓰는 경우, 고금리 대출로 힘든 경우, 채무 연체로 신용거래가
-        중단된 경우 등 다양한 상황에서 이용할 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="who">
-        <h2 className="detail-card-head">이용 가능한 사람</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>어려움 유형</th><th>이용 가능 서비스</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>적합한 대출 상품을 모름</strong></td><td>서민금융 상품 비교·안내</td></tr>
-              <tr><td><strong>저소득·저신용으로 대출 불가</strong></td><td>미소금융·햇살론 등 연계</td></tr>
-              <tr><td><strong>고금리 대출로 부담</strong></td><td>바꿔드림론·채무조정 연계</td></tr>
-              <tr><td><strong>채무 연체·장기 연체</strong></td><td>개인워크아웃·프리워크아웃·법원 연계</td></tr>
-              <tr><td><strong>취업 정보 필요</strong></td><td>일자리 상담·취업지원 연계</td></tr>
-              <tr><td><strong>신용·재무 진단 필요</strong></td><td>1:1 재무상태 진단·컨설팅</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="service">
-        <h2 className="detail-card-head">4가지 원스톱 서비스</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>자금지원:</strong> 미소금융·햇살론·바꿔드림론 등 서민금융 상품 연계
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>채무조정:</strong> 개인워크아웃·프리워크아웃·법원 개인회생·파산 연계
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>고용·복지 연계:</strong> 일자리 상담·취업안내·복지서비스
-          </div>
-          <div className="info-box">
-            <strong>종합상담:</strong> 신용·재무진단·노후설계·창업 컨설팅
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="contact">
-        <h2 className="detail-card-head">이용 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>전화 상담:</strong> 국번없이 1397 (평일 09:00~18:00, 야간 18:00~20:00, 통화료 무료)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>센터 방문:</strong> 전국 주요 도시 서민금융통합지원센터 방문
-          </div>
-          <div className="info-box">
-            <strong>앱 이용:</strong> '서민금융 잇다' 앱 → 가까운 센터 검색 및 온라인 신청
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            대출 종류, 채무조정 방법, 1397 전화 이용법까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/seomin-financial-center" className="btn-cta">
-            서민금융통합지원센터 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 서민금융통합지원센터이용대상신청자격SpokeContent: SpokeData = {
   h1: '서민금융통합지원센터 이용 대상, 어떤 사람이 신청할 수 있나',
   breadcrumb: '이용대상신청자격',
   description:
     '서민금융통합지원센터: 채무·신용 문제, 저소득·저신용, 고금리 대출, 장기 연체자 등 누구나 이용. 자금지원·채무조정·고용복지 원스톱. ☎1397 (통화료 무료). 서민금융 잇다 앱.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '이용 대상': '채무·신용 문제 누구나',
+    '소득 기준': '없음',
+    '4대 서비스': '자금지원·채무조정·고용복지·종합상담',
+    '상담 전화': '☎1397 (통화료 무료)',
+    '앱': '서민금융 잇다',
+  },
+  keyFactsHighlights: {
+    '이용 대상': ['누구나'],
+    '소득 기준': ['없음'],
+    '상담 전화': ['☎1397', '통화료 무료'],
+  },
+  qa: [
+    {
+      q: '서민금융통합지원센터는 어떤 사람이 이용할 수 있나요?',
+      anchor: 'who',
+      intro: '서민금융통합지원센터는 채무·신용 문제로 어려움을 겪고 있거나 제도권 금융에서 적절한 서비스를 받기 어려운 분이라면 누구나 이용할 수 있습니다. 소득·신용 조건이 따로 없으며, 상담부터 시작하면 됩니다.',
+      highlights: ['누구나 이용 가능', '소득·신용 조건 없음', '상담부터'],
+      table: {
+        headers: ['어려움 유형', '이용 가능 서비스'],
+        rows: [
+          ['적합한 대출 상품을 모름', '서민금융 상품 비교·안내'],
+          ['저소득·저신용으로 대출 불가', '미소금융·햇살론 등 연계'],
+          ['고금리 대출로 부담', '바꿔드림론·채무조정 연계'],
+          ['채무 연체·장기 연체', '개인워크아웃·프리워크아웃·법원 연계'],
+          ['취업 정보 필요', '일자리 상담·취업지원 연계'],
+          ['신용·재무 진단 필요', '1:1 재무상태 진단·컨설팅'],
+        ],
+      },
+    },
+    {
+      q: '4대 원스톱 서비스는 무엇인가요?',
+      anchor: 'service',
+      intro: '서민금융통합지원센터는 자금지원, 채무조정, 고용·복지 연계, 종합상담 네 가지 서비스를 한 곳에서 제공합니다. 자금지원은 미소금융·햇살론·바꿔드림론 등 서민금융 상품 연계, 채무조정은 개인워크아웃·프리워크아웃·법원 개인회생·파산 연계, 고용복지는 일자리 상담·취업안내·복지서비스, 종합상담은 신용·재무진단·노후설계·창업 컨설팅입니다.',
+      highlights: ['자금지원', '채무조정', '고용·복지 연계', '종합상담'],
+      box: { label: '4대 서비스', content: '자금지원: 미소금융·햇살론·바꿔드림론 연계\n채무조정: 개인워크아웃·프리워크아웃·법원 연계\n고용·복지: 일자리 상담·취업지원·복지서비스\n종합상담: 재무진단·노후설계·창업 컨설팅' },
+    },
+    {
+      q: '소득이 있어도 이용할 수 있나요?',
+      anchor: 'income',
+      intro: '소득이 있어도 이용 가능합니다. 서민금융통합지원센터는 소득 기준 없이 채무·신용 문제로 어려운 분이라면 누구나 상담받을 수 있습니다. 고금리 대출로 어려운 분, 신용 문제가 있는 분, 재무 진단이 필요한 분 모두 이용 대상입니다.',
+      highlights: ['소득 있어도 이용 가능', '소득 기준 없음', '누구나 상담'],
+      box: { label: '이용 자격 요약', content: '소득 기준: 없음\n신용 기준: 없음\n나이 제한: 없음\n채무·신용·금융 문제가 있는 분이라면 누구나' },
+    },
+    {
+      q: '대출 거절을 많이 받았는데도 상담받을 수 있나요?',
+      anchor: 'rejected',
+      intro: '오히려 이런 분들을 위한 센터입니다. 일반 금융에서 대출이 어려운 저신용·저소득자에게 맞는 서민금융 상품(미소금융, 햇살론, 불법사금융예방대출 등)을 안내합니다. 대출 거절 후 좌절하지 말고 ☎1397이나 센터를 방문해 맞춤 안내를 받으세요.',
+      highlights: ['저신용·저소득자 맞춤', '미소금융', '햇살론', '☎1397'],
+      box: { label: '대출 거절 후 대안', content: '불법사금융예방대출: 신용 최하위(하위 20%)도 가능\n미소금융: 창업·생계 소액 대출\n햇살론: 저신용·저소득자 보증부 대출\n채무조정: 연체가 있는 경우 개인워크아웃 검토' },
+    },
+    {
+      q: '자영업자도 이용할 수 있나요?',
+      anchor: 'self-employed',
+      intro: '자영업자도 이용 가능합니다. 창업·운영 컨설팅, 소상공인 특례 햇살론 카드 등 자영업자를 위한 서비스도 제공합니다. 폐업 후 재기를 준비하는 분들도 이용할 수 있습니다.',
+      highlights: ['자영업자 이용 가능', '창업·운영 컨설팅', '소상공인 특례'],
+      box: { label: '자영업자 이용 가능 서비스', content: '창업·운영자금: 미소금융 (소액)\n소상공인 특례 햇살론\n폐업 후 재기 지원 컨설팅\n채무조정: 사업 채무 관련 상담' },
+    },
+    {
+      q: '청년·대학생도 이용할 수 있나요?',
+      anchor: 'youth',
+      intro: '청년·대학생도 이용 가능합니다. 햇살론유스 등 청년 맞춤형 서민금융 상품과 청년 재무상담 서비스를 받을 수 있습니다. 취업 지원과 금융 교육도 제공합니다.',
+      highlights: ['청년·대학생 가능', '햇살론유스', '청년 재무상담'],
+      box: { label: '청년 대상 서비스', content: '햇살론유스: 청년 맞춤 저금리 대출\n청년 재무상담: 1:1 맞춤 재무 컨설팅\n취업 지원: 일자리 연계·직업훈련 안내' },
+    },
+    {
+      q: '1397에 전화하면 어떤 도움을 받을 수 있나요?',
+      anchor: 'call-1397',
+      intro: '자신에게 맞는 서민금융 상품과 제도를 안내받고, 신용회복위원회·국민행복기금·한국자산관리공사 등 유관기관 콜센터로 즉시 연결받을 수 있습니다. 상담은 통화료 무료로 평일 09:00~20:00(야간 포함)에 이용할 수 있습니다.',
+      highlights: ['맞춤 상품 안내', '유관기관 즉시 연결', '통화료 무료', '평일 09:00~20:00'],
+      table: {
+        headers: ['이용 방법', '내용'],
+        rows: [
+          ['전화 상담', '☎1397 (국번 없이, 통화료 무료)'],
+          ['운영 시간', '평일 09:00~20:00 (야간 18:00~20:00 포함)'],
+          ['제공 서비스', '맞춤 상품 안내, 유관기관 즉시 연결'],
+          ['앱', '서민금융 잇다 앱 (상시 이용)'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '소득이 있어도 이용할 수 있나요?',

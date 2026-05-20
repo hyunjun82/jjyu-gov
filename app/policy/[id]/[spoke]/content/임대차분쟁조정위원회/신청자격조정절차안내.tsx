@@ -1,113 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          임대차 분쟁조정위원회는 <strong>주택·상가 임대차 계약 당사자라면 누구나</strong>
-          신청할 수 있습니다.
-          신청 방법은 <strong>온라인(adrhome.reb.or.kr / hldcc.or.kr)</strong> 또는
-          <strong>방문 신청</strong>이며, 수수료는 <strong>1만~10만원</strong>
-          (취약계층 면제)입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        임대차 분쟁이 발생했지만 소송은 부담스럽다면, 조정 신청 자격과 절차를
-        먼저 확인하세요.
-      </p>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>신청 기관</th><th>신청 대상</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>주택 임대차</strong></td>
-                <td>대한법률구조공단</td>
-                <td>주택 임대차 계약 당사자</td>
-              </tr>
-              <tr>
-                <td><strong>상가 임대차</strong></td>
-                <td>한국부동산원</td>
-                <td>상가 임대차 계약 당사자</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>신청 가능 분쟁:</strong> 보증금 반환, 임대료 증감, 계약갱신, 원상복구, 권리금, 손해배상
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="howto">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>주택 온라인:</strong> 대한법률구조공단 임대차분쟁조정위원회 (adrhome.reb.or.kr)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>상가 온라인:</strong> 한국부동산원 상가건물임대차분쟁조정위원회 (hldcc.or.kr)
-          </div>
-          <div className="info-box">
-            <strong>방문:</strong> 전국 지부 방문 신청 (신분증 + 계약서 지참)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="fee">
-        <h2 className="detail-card-head">수수료 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>수수료</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>일반 신청인</strong></td><td>1만원~10만원 (분쟁 금액 비례)</td></tr>
-              <tr><td><strong>기초수급자·차상위</strong></td><td>면제</td></tr>
-              <tr><td><strong>장애인·한부모·국가유공자</strong></td><td>면제</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="timeline">
-        <h2 className="detail-card-head">조정 진행 기간</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>원칙:</strong> 신청일로부터 60일 이내 처리
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>연장:</strong> 부득이한 경우 최대 90일까지 연장 가능
-          </div>
-          <div className="info-box">
-            <strong>효력:</strong> 조정 성립 시 재판상 화해와 동일 (강제집행 가능)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            보증금 반환 조정, 소송 vs 조정 비교, 분쟁 해결 사례까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/rental-dispute-mediation" className="btn-cta">
-            임대차 분쟁조정위원회 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 임대차분쟁조정위원회신청자격조정절차안내SpokeContent: SpokeData = {
   h1: '임대차 분쟁조정위원회 신청 자격, 수수료, 조정 절차 한눈에 정리',
@@ -115,12 +6,88 @@ export const 임대차분쟁조정위원회신청자격조정절차안내SpokeCo
   description:
     '임대차분쟁조정위원회 신청 자격: 주택(adrhome.reb.or.kr)·상가(hldcc.or.kr) 임대차 계약 당사자. 수수료 1만~10만원(취약계층 면제). 60일 내 처리. 보증금반환·임대료·계약갱신 등 조정 가능.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청 자격': '임대차 계약 당사자 (임차인·임대인 모두)',
+    '수수료': '1만~10만원 (취약계층 면제)',
+    '처리 기간': '60일 이내 (최대 90일)',
+    '주택 신청처': 'adrhome.reb.or.kr',
+    '상가 신청처': 'hldcc.or.kr',
+  },
+  keyFactsHighlights: {
+    '신청 자격': ['임차인·임대인 모두'],
+    '처리 기간': ['60일 이내'],
+  },
+  qa: [
+    {
+      q: '신청 자격은 누구에게 있나요?',
+      anchor: 'who',
+      intro: '임대차 계약 당사자(임차인·임대인 모두) 신청이 가능합니다. 임차인이 보증금 반환 문제로 신청하는 경우가 많지만, 임대인도 임대료 미납이나 원상복구 문제 등으로 신청할 수 있습니다. 계약서가 존재하는 임대차 계약이라면 신청 가능합니다.',
+      highlights: ['임차인·임대인 모두', '계약서 필요'],
+      table: {
+        headers: ['신청자', '주요 분쟁 유형'],
+        rows: [
+          ['임차인', '보증금 반환, 임대료 과다 청구, 계약갱신 거절'],
+          ['임대인', '임대료 미납, 원상복구, 무단 전대'],
+        ],
+      },
+    },
+    {
+      q: '수수료는 어떻게 되나요?',
+      anchor: 'fee',
+      intro: '신청 수수료는 분쟁 금액에 따라 1만원에서 10만원입니다. 기초생활수급자, 차상위계층, 장애인, 한부모가족, 국가유공자 등 취약계층은 수수료가 전액 면제됩니다. 취약계층 해당 여부는 신청 시 확인이 필요합니다.',
+      highlights: ['1만~10만원', '취약계층 면제'],
+      box: { label: '수수료 면제 대상', content: '기초생활수급자·차상위계층·장애인·한부모가족·국가유공자 → 전액 면제' },
+    },
+    {
+      q: '조정 절차는 단계별로 어떻게 진행되나요?',
+      anchor: 'steps',
+      intro: '조정 절차는 신청·접수, 사건 배정, 조정 기일 지정, 양측 의견 청취, 조정안 제시, 동의 여부 확인, 조정 성립 또는 불성립으로 진행됩니다. 신청 후 60일 이내 처리가 원칙이며, 양 당사자가 모두 동의해야 성립됩니다.',
+      highlights: ['60일 이내', '양측 동의', '조정 성립'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '온라인(adrhome.reb.or.kr) 또는 방문 신청'],
+          ['2단계', '수수료 납부 후 사건 배정'],
+          ['3단계', '조정 기일 통보 및 양측 의견 청취'],
+          ['4단계', '위원회 조정안 제시'],
+          ['5단계', '쌍방 동의 → 성립 / 거부 → 불성립'],
+        ],
+      },
+    },
+    {
+      q: '조정 기일에 직접 참석해야 하나요?',
+      anchor: 'attendance',
+      intro: '조정 기일에는 당사자 또는 대리인이 참석해야 합니다. 대리인은 법정대리인이나 위임장을 받은 사람이 가능합니다. 부득이한 사정이 있는 경우 기일 변경 신청이 가능하므로 사전에 기관에 연락하세요.',
+      highlights: ['직접 참석', '대리인 가능', '기일 변경 신청'],
+      box: { label: '참석', content: '당사자 또는 대리인(위임장 필요) 참석. 불참 시 조정 진행 불가' },
+    },
+    {
+      q: '조정 기간이 60일이면 언제 결과를 받을 수 있나요?',
+      anchor: 'timeline',
+      intro: '신청일로부터 60일 이내 처리가 원칙이며, 복잡한 사안은 최대 90일까지 연장될 수 있습니다. 조정 기일 일정은 신청 후 기관에서 통보합니다. 양측 일정 조율이 필요하여 실제로는 수 주 내에 첫 기일이 잡히는 경우가 많습니다.',
+      highlights: ['60일 원칙', '90일 최대'],
+      box: { label: '처리 기간', content: '신청 후 60일 이내 처리 원칙. 복잡 사안 최대 90일 연장 가능' },
+    },
+    {
+      q: '임대인도 조정을 신청할 수 있나요?',
+      anchor: 'landlord',
+      intro: '네, 임대인도 조정을 신청할 수 있습니다. 임대료 미납, 원상복구 비용 분쟁, 무단 전대 문제 등으로 임대인이 신청하는 경우도 있습니다. 임대차 계약 당사자라면 임차인과 동일한 절차로 신청 가능합니다.',
+      highlights: ['임대인도 신청 가능', '임대료 미납', '원상복구'],
+      box: { label: '임대인 신청 사례', content: '임대료 미납·원상복구·무단 전대 등 임대인도 조정 신청 가능' },
+    },
+    {
+      q: '조정 불성립 후 어떻게 해야 하나요?',
+      anchor: 'after-fail',
+      intro: '조정이 불성립되면 법원에 소송을 제기해야 합니다. 조정에서 제출한 서류와 조정 경위는 향후 소송에서 참고 자료로 활용될 수 있습니다. 법률 지원이 필요한 경우 대한법률구조공단의 법률 구조 서비스를 신청할 수 있습니다.',
+      highlights: ['불성립 후 소송', '법률구조공단'],
+      box: { label: '불성립 후', content: '법원 소송 제기 또는 대한법률구조공단 법률 구조 신청 (법원 소송 비용 지원)' },
+    },
+  ],
   faqData: [
     {
       q: '임대인도 조정을 신청할 수 있나요?',
-      a: '네. 임대차 분쟁조정위원회는 임차인뿐 아니라 임대인도 신청할 수 있습니다. 임대차 계약 당사자라면 누구나 가능합니다.',
+      a: '네. 임대차 분쟁조정위원회는 임차인뿐 아니라 임대인도 신청할 수 있습니다.',
       source: '대한법률구조공단',
       sourceUrl: 'https://adrhome.reb.or.kr',
     },

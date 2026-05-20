@@ -1,101 +1,96 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          법률구조공단의 소송대리는 무료 대상자(기초수급자·임금체불 피해근로자·농어민 등)에게
-          <strong>변호사 비용 전액</strong>을 지원합니다.
-          유료 대상자(중위소득 125% 이하)는 대법원규칙 기준 변호사 비용의
-          <strong>약 30% 수준</strong>만 납부하면 됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        공단 소송구조 사건의 90% 이상이 무료 법률구조 대상자 사건이며,
-        전액 본인 부담 사례는 전체의 9.8%에 불과합니다.
-      </p>
-
-      <section className="detail-card" id="cost">
-        <h2 className="detail-card-head">소송대리 비용 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>대상</th><th>본인 부담 비용</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>무료 구조</strong></td><td>기초수급자, 임금체불 근로자, 농·어민 등</td><td>전액 무료 (인지대·변호사비 출연기관 부담)</td></tr>
-              <tr><td><strong>유료 구조</strong></td><td>중위소득 125% 이하</td><td>변호사 비용 30% + 인지대·송달료</td></tr>
-              <tr><td><strong>소액사건</strong></td><td>소송가액 1천만 원 이하</td><td>소송서류 무료 작성 지원</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="range">
-        <h2 className="detail-card-head">소송대리 지원 범위</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>민사사건:</strong> 임대차·손해배상·계약·임금·부동산 등
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>가사사건:</strong> 이혼·양육권·상속·친권 등
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>형사사건:</strong> 피의자·피고인 변호 (형사 고소 대리는 제외)
-          </div>
-          <div className="info-box">
-            <strong>제외:</strong> 승소금액 3억 원 초과 고액사건은 무료 법률구조 제외
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="procedure">
-        <h2 className="detail-card-head">소송대리 신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 국번없이 132 또는 klac.or.kr에서 상담 예약
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 공단 방문 → 법률상담 (구조 대상·승소가능성 검토)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 법률구조 사건 접수 → 사건 조사
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 공단 소속 변호사가 소송 대리 → 승소 시 강제집행까지 지원
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 대상, 상담 방법, 지원 사건 종류까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/legal-aid-system" className="btn-cta">
-            법률구조 제도 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 법률구조제도소송대리비용무료변호사지원범위SpokeContent: SpokeData = {
   h1: '법률구조공단 소송대리 비용, 무료 변호사 선임 어디까지 지원되나',
   breadcrumb: '소송대리비용무료변호사지원범위',
   description:
     '법률구조공단 소송대리: 무료 대상(기초수급자·임금체불·농어민) 전액 무료. 유료 대상(중위소득 125% 이하) 변호사 비용 30% 수준. 민사·가사·형사 지원. 전체 90% 이상 무료 처리.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '무료 대상': '기초수급자, 임금체불 근로자, 농어민 등 → 전액 무료',
+    '유료 대상': '중위소득 125% 이하 → 변호사 비용 30% 수준',
+    '무료 비율': '전체 사건의 90% 이상 무료 처리',
+    '지원 사건 유형': '민사, 가사, 형사 (승소금액 3억 초과 제외)',
+    '소액사건': '소송가액 1천만원 이하 소송서류 무료 작성',
+  },
+  keyFactsHighlights: {
+    '무료 비율': ['90% 이상 무료'],
+    '유료 대상': ['변호사 비용 30%'],
+  },
+  qa: [
+    {
+      q: '법률구조공단 소송대리 비용은 얼마인가요?',
+      anchor: 'cost',
+      intro:
+        '무료 대상자(기초수급자·임금체불 피해근로자·농어민 등)는 변호사 비용 전액을 지원받습니다. 유료 대상자(중위소득 125% 이하)는 대법원규칙 기준 변호사 비용의 약 30% 수준만 납부하면 됩니다. 공단 소송구조 사건의 90% 이상이 무료 법률구조 대상자 사건이며, 전액 본인 부담 사례는 전체의 9.8%에 불과합니다.',
+      highlights: ['무료 대상: 전액 무료', '유료 대상: 30% 수준', '90% 이상 무료 처리'],
+      table: {
+        headers: ['구분', '대상', '본인 부담 비용'],
+        rows: [
+          ['무료 구조', '기초수급자, 임금체불 근로자, 농·어민 등', '전액 무료 (인지대·변호사비 출연기관 부담)'],
+          ['유료 구조', '중위소득 125% 이하', '변호사 비용 30% + 인지대·송달료'],
+          ['소액사건', '소송가액 1천만원 이하', '소송서류 무료 작성 지원'],
+        ],
+      },
+    },
+    {
+      q: '소송대리를 받을 수 있는 사건 유형은 무엇인가요?',
+      anchor: 'case-types',
+      intro:
+        '민사사건(임대차·손해배상·계약·임금·부동산 등), 가사사건(이혼·양육권·상속·친권 등), 형사사건(피의자·피고인 변호)에 대해 소송대리를 지원합니다. 단, 형사 고소 대리는 법률구조 업무에 포함되지 않습니다. 승소금액 3억 원을 초과하는 고액사건은 무료 법률구조 대상에서 제외됩니다.',
+      highlights: ['민사·가사·형사 지원', '형사고소 대리 제외', '고액 사건 제외'],
+      table: {
+        headers: ['사건 유형', '지원 여부', '비고'],
+        rows: [
+          ['민사사건 (임대차·손해배상 등)', '지원', '-'],
+          ['가사사건 (이혼·양육권 등)', '지원', '-'],
+          ['형사사건 (피의자·피고인 변호)', '지원', '형사고소 대리는 제외'],
+          ['승소금액 3억 초과', '미지원', '무료 법률구조 제외'],
+        ],
+      },
+    },
+    {
+      q: '소액사건(1천만원 이하)은 변호사 없이 소송서류만 도움받을 수 있나요?',
+      anchor: 'small-case',
+      intro:
+        '소송가액 1천만원 이하의 소액사건은 소장 등 소송서류를 무료로 작성해드립니다. 소송대리 없이 서류 작성만 지원받는 것도 가능합니다. 소액사건은 원칙적으로 변호사 없이 본인이 직접 소송을 진행할 수 있어, 서류 작성 지원만으로도 도움이 됩니다. 공단(☎132)에 상담하면 소액사건 서류 작성 지원을 안내받을 수 있습니다.',
+      highlights: ['소액사건 서류 무료 작성', '1천만원 이하'],
+      box: { label: '소액사건 지원', content: '소송가액 1천만원 이하: 소장 등 소송서류 무료 작성. 소송대리 없이 서류만 지원 가능.' },
+    },
+    {
+      q: '소송대리를 신청하는 절차는 어떻게 되나요?',
+      anchor: 'procedure',
+      intro:
+        '국번없이 132 또는 klac.or.kr에서 상담 예약을 합니다. 공단을 방문해 법률상담을 받으면 구조 대상 여부와 승소 가능성을 검토합니다. 법률구조 사건으로 접수되면 사건 조사를 거쳐 공단 소속 변호사가 소송을 대리합니다. 승소 시 강제집행까지 지원됩니다.',
+      highlights: ['132 예약', '구조 결정 후 소송 대리', '강제집행까지 지원'],
+      box: { label: '소송대리 절차', content: '① 132 또는 klac.or.kr 상담 예약 → ② 방문 법률상담 → ③ 법률구조 사건 접수 → ④ 사건 조사 → ⑤ 공단 변호사 소송 대리 → ⑥ 승소 시 강제집행' },
+    },
+    {
+      q: '소송에서 패소하면 비용을 추가로 내야 하나요?',
+      anchor: 'loss',
+      intro:
+        '패소 시 상대방의 변호사 비용 등 소송비용을 부담할 수 있습니다. 이 점을 반드시 유념하고 소송 신청 시 공단 담당자와 사전에 충분히 상의해야 합니다. 소송 결과에 따라 비용 부담이 달라질 수 있으므로, 승소 가능성을 공단 담당자와 함께 검토하는 것이 중요합니다.',
+      highlights: ['패소 시 소송비용 부담 가능', '담당자와 사전 상의 필수'],
+      box: { label: '패소 위험', content: '패소 시 상대방 소송비용 부담 가능. 신청 전 공단 담당자와 승소 가능성 충분히 상의 필요.' },
+    },
+    {
+      q: '임금체불 피해자는 무료로 소송대리를 받을 수 있나요?',
+      anchor: 'wage-theft',
+      intro:
+        '임금·퇴직금 등을 체불당한 피해근로자는 소득 기준과 무관하게 무료 법률구조 대상입니다. 임금체불 사건은 공단에서 특별히 우선 처리하는 분야입니다. 고용노동부(☎1350) 또는 공단(☎132)에 연락하면 임금체불 피해에 대한 법률 지원을 받을 수 있습니다.',
+      highlights: ['임금체불: 소득 무관 무료', '우선 처리 분야'],
+      box: { label: '임금체불 피해자', content: '임금·퇴직금 체불 피해근로자: 소득 기준 없이 무료 법률구조 대상. ☎132 또는 ☎1350.' },
+    },
+    {
+      q: '승소 후 상대방이 소송비용을 부담하면 실제 내는 돈이 줄어드나요?',
+      anchor: 'win',
+      intro:
+        '승소하면 상대방이 소송비용을 부담하는 경우 실제 본인 부담이 줄어들 수 있습니다. 유료 구조(변호사 비용 30% 납부) 대상자도 승소 후 상대방으로부터 소송비용을 일부 받을 수 있습니다. 구체적인 내용은 공단 담당자와 상담하세요.',
+      highlights: ['승소 시 상대방 소송비용 부담', '실제 부담 감소 가능'],
+      box: { label: '승소 시 혜택', content: '승소하면 상대방이 소송비용 일부 부담. 실제 본인 부담이 줄어들 수 있음. 담당자 상담 권장.' },
+    },
+  ],
   faqData: [
     {
       q: '변호사 비용의 30%가 실제로 얼마 정도 되나요?',
@@ -117,7 +112,7 @@ export const 법률구조제도소송대리비용무료변호사지원범위Spok
     },
     {
       q: '소액사건이면 변호사 없이 소송서류만 도움받을 수 있나요?',
-      a: '소송가액 1천만 원 이하의 소액사건은 소장 등 소송서류를 무료로 작성해드립니다. 소송대리 없이 서류 작성만 지원받는 것도 가능합니다.',
+      a: '소송가액 1천만원 이하의 소액사건은 소장 등 소송서류를 무료로 작성해드립니다. 소송대리 없이 서류 작성만 지원받는 것도 가능합니다.',
       source: '대한법률구조공단',
       sourceUrl: 'https://www.klac.or.kr/legalstruct/outlineOfLitigationStruct.do',
     },

@@ -1,89 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          드림장학금 소득 기준은 <strong>신청일 기준 기초생활수급자 또는 차상위계층</strong>입니다.
-          과거에는 기초·차상위 기간이 3년 이상이어야 했지만,
-          <strong>기준이 완화되어 신청일 현재 해당하면 신청 가능</strong>합니다.
-          기초·차상위 고2~3학년 성적 우수 학생이라면 지원을 검토해 보세요.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        소득 기준이 완화된 덕분에 최근 기초·차상위 가정이 된 학생도 지원이 가능해졌습니다.
-        신청일 기준으로 소득 기준을 충족하면 됩니다.
-      </p>
-
-      <section className="detail-card" id="income">
-        <h2 className="detail-card-head">소득 기준 변화</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>이전 기준</strong></td><td>기초생활수급자 또는 차상위계층 기간 3년 이상</td></tr>
-              <tr><td><strong>현행 기준</strong></td><td>신청일 기준 기초생활수급자 또는 차상위계층이면 가능</td></tr>
-              <tr><td><strong>완화 효과</strong></td><td>최근 기초·차상위 편입 가정도 신청 가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="condition">
-        <h2 className="detail-card-head">지원 대상 요건</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>학년:</strong> 고등학교 2학년 또는 3학년
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소득:</strong> 신청일 기준 기초생활수급자 또는 차상위계층
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>학업:</strong> 성적 우수 + 학업 의지·열정
-          </div>
-          <div className="info-box">
-            <strong>국적:</strong> 대한민국 국적 학생
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="proof">
-        <h2 className="detail-card-head">소득 증명 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기초생활수급자:</strong> 수급자 증명서 (주민센터 발급)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>차상위계층:</strong> 차상위계층 확인서 (주민센터 발급)
-          </div>
-          <div className="info-box">
-            <strong>발급처:</strong> 거주지 주민센터·복지로(bokjiro.go.kr)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            드림장학금 지원 내용, 월 학업장려비 금액, 신청 절차까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/dream-scholarship" className="btn-cta">
-            드림장학금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 드림장학금기초수급차상위우수학생SpokeContent: SpokeData = {
   h1: '기초수급·차상위 고2~3 우수 학생이라면 드림장학금으로 해외유학 가능',
@@ -91,12 +6,81 @@ export const 드림장학금기초수급차상위우수학생SpokeContent: Spoke
   description:
     '드림장학금 소득 기준: 신청일 기준 기초생활수급자 또는 차상위계층(기존 3년 이상 조건 완화). 대상: 고2~3 성적 우수 학생. 월 50~70만원 학업장려비 + 멘토링 + 유학 상담. 한국장학재단 신청.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '소득 기준': '신청일 기준 기초생활수급자 또는 차상위계층',
+    '기존 조건': '3년 이상 → 완화 (신청일 기준)',
+    '대상 학년': '고등학교 2~3학년',
+    '학업장려비': '월 50~70만원',
+    '신청처': '한국장학재단 kosaf.go.kr',
+  },
+  keyFactsHighlights: {
+    '학업장려비': ['월 50~70만원'],
+    '소득 기준': ['기초생활수급자', '차상위계층'],
+  },
+  qa: [
+    {
+      q: '드림장학금 소득 기준은 어떻게 되나요?',
+      anchor: '소득기준',
+      intro: '드림장학금 소득 기준은 신청일 기준 기초생활수급자 또는 차상위계층입니다. 과거에는 기초·차상위 기간이 3년 이상이어야 했지만, 기준이 완화되어 신청일 현재 해당하면 신청 가능합니다. 최근 기초·차상위 가정이 된 학생도 지원을 검토해 보세요.',
+      highlights: ['신청일 기준', '기초생활수급자', '차상위계층', '3년 조건 완화'],
+      table: {
+        headers: ['구분', '기준'],
+        rows: [
+          ['이전 기준', '기초생활수급자 또는 차상위계층 기간 3년 이상'],
+          ['현행 기준', '신청일 기준 기초생활수급자 또는 차상위계층이면 가능'],
+          ['완화 효과', '최근 기초·차상위 편입 가정도 신청 가능'],
+        ],
+      },
+      box: { label: '소득 기준', content: '신청일 기준 기초수급 또는 차상위이면 OK. 기존 3년 이상 조건 폐지.' },
+    },
+    {
+      q: '최근에 기초수급자가 됐는데 신청할 수 있나요?',
+      anchor: '최근기초수급',
+      intro: '네. 기존에는 기초·차상위 기간이 3년 이상이어야 했지만, 기준이 완화되어 신청일 기준으로 기초생활수급자 또는 차상위계층이면 신청 가능합니다. 최근에 기초수급·차상위 가정이 된 경우에도 동일하게 신청할 수 있습니다.',
+      highlights: ['최근 기초수급 가능', '3년 조건 없음', '신청일 기준'],
+      box: { label: '안내', content: '3년 기준 폐지. 신청일 현재 기초수급·차상위이면 최근 편입 가정도 신청 가능.' },
+    },
+    {
+      q: '소득 증명 서류는 어디서 발급받나요?',
+      anchor: '소득증명서류',
+      intro: '기초생활수급자는 수급자 증명서, 차상위계층은 차상위계층 확인서를 거주지 주민센터(행정복지센터) 또는 복지로(bokjiro.go.kr)에서 발급받을 수 있습니다.',
+      highlights: ['수급자 증명서', '차상위계층 확인서', '주민센터', 'bokjiro.go.kr'],
+      box: { label: '서류 발급', content: '주민센터 또는 복지로(bokjiro.go.kr)에서 수급자 증명서 또는 차상위 확인서 발급.' },
+    },
+    {
+      q: '성적이 어느 정도 되어야 하나요?',
+      anchor: '성적기준',
+      intro: '구체적인 성적 커트라인보다는 학업 의지·열정과 종합적인 역량을 평가합니다. 정확한 선발 기준은 매년 한국장학재단 공고문에서 확인해야 합니다. 성적 외에 자기소개서, 추천서 등도 중요합니다.',
+      highlights: ['성적 + 학업 의지', '매년 공고 확인', 'kosaf.go.kr'],
+      box: { label: '선발 기준', content: '성적 + 학업 의지·열정 종합 평가. 정확한 기준은 매년 kosaf.go.kr 공고 확인.' },
+    },
+    {
+      q: '차상위계층도 기초수급자와 동일하게 신청할 수 있나요?',
+      anchor: '차상위신청',
+      intro: '네. 기초생활수급자와 차상위계층 모두 동일하게 드림장학금 신청 대상입니다. 소득 기준 서류만 다를 뿐 지원 내용과 선발 기준은 동일합니다.',
+      highlights: ['차상위 동일 대상', '기초수급과 동일'],
+      box: { label: '차상위', content: '기초수급자와 차상위계층 모두 동일하게 신청 가능. 지원 내용 동일.' },
+    },
+    {
+      q: '고3도 신청할 수 있나요?',
+      anchor: '고3신청',
+      intro: '네. 고등학교 2학년과 3학년 모두 신청 대상입니다. 단, 신청 당시 재학 중이어야 합니다. 졸업 후에는 신청할 수 없습니다.',
+      highlights: ['고2·고3 모두 가능', '재학 중 신청'],
+      box: { label: '대상 학년', content: '고2·고3 모두 신청 가능. 신청 시 재학 중이어야 함.' },
+    },
+    {
+      q: '신청은 언제, 어디서 하나요?',
+      anchor: '신청안내',
+      intro: '드림장학금은 매년 3~4월경 한국장학재단 누리집(kosaf.go.kr)에서 공고가 나고 신청을 받습니다. 공고 기간 내에 온라인으로 신청하면 됩니다. 필요 서류는 성적 증명서, 소득 증명서(수급자 또는 차상위 확인서), 자기소개서 등입니다.',
+      highlights: ['매년 3~4월 공고', 'kosaf.go.kr', '온라인 신청'],
+      box: { label: '신청', content: 'kosaf.go.kr에서 매년 3~4월 공고 확인 후 온라인 신청.' },
+    },
+  ],
   faqData: [
     {
       q: '최근에 기초수급자가 됐는데 신청할 수 있나요?',
-      a: '네. 기존에는 기초·차상위 기간이 3년 이상이어야 했지만, 기준이 완화되어 신청일 기준으로 기초생활수급자 또는 차상위계층이면 신청 가능합니다.',
+      a: '네. 기존에는 3년 이상이어야 했지만 기준이 완화되어 신청일 기준으로 기초수급·차상위이면 신청 가능합니다.',
       source: '교육부·한국장학재단',
       sourceUrl: 'https://www.kosaf.go.kr',
     },
@@ -120,7 +104,7 @@ export const 드림장학금기초수급차상위우수학생SpokeContent: Spoke
     },
     {
       q: '고3도 신청할 수 있나요?',
-      a: '네. 고등학교 2학년과 3학년 모두 신청 대상입니다. 단, 신청 당시 재학 중이어야 합니다.',
+      a: '네. 고등학교 2학년과 3학년 모두 신청 대상입니다.',
       source: '교육부·한국장학재단',
       sourceUrl: 'https://www.kosaf.go.kr',
     },

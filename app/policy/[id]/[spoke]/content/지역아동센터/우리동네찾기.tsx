@@ -1,127 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          <strong>icareinfo.go.kr</strong> 또는 복지로(bokjiro.go.kr)에서 지역·지도로 검색할 수 있습니다.
-          전국 <strong>4,400개</strong> 센터 중 가장 가까운 곳을 찾은 뒤 해당 센터에 직접 신청하거나
-          주민센터를 통해 신청하면 됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "지역아동센터가 어디에 있는지 모르겠어요. 어떻게 찾고 신청하나요?"
-        위치 찾는 방법과 신청 조건을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="find">
-        <h2 className="detail-card-head">지역아동센터 위치 찾는 방법</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>방법</th><th>경로</th><th>특징</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>온라인 지도 검색</strong></td>
-                <td>icareinfo.go.kr → 지역아동센터 찾기</td>
-                <td>시도·시군구별 지도 검색</td>
-              </tr>
-              <tr>
-                <td><strong>복지로</strong></td>
-                <td>bokjiro.go.kr → 서비스 신청 → 아동</td>
-                <td>온라인 신청 연계 가능</td>
-              </tr>
-              <tr>
-                <td><strong>주민센터</strong></td>
-                <td>거주지 읍·면·동 주민센터 방문</td>
-                <td>서류 지참 후 신청</td>
-              </tr>
-              <tr>
-                <td><strong>보건복지상담센터</strong></td>
-                <td>☎ 129</td>
-                <td>센터 위치·문의 전화 안내</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="condition">
-        <h2 className="detail-card-head">이용 신청 조건</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기본 대상:</strong> 만 18세 미만 아동이면 누구나 신청할 수 있습니다.
-            단, 정원이 있어 우선순위에 따라 배정됩니다.
-          </div>
-          <table className="compare-table" style={{ marginBottom: 12 }}>
-            <thead>
-              <tr><th>우선순위</th><th>대상</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>1순위</strong></td>
-                <td>기초생활수급 가구, 차상위계층 아동</td>
-              </tr>
-              <tr>
-                <td><strong>2순위</strong></td>
-                <td>한부모·조손가족, 다문화가족 아동</td>
-              </tr>
-              <tr>
-                <td><strong>3순위</strong></td>
-                <td>다자녀 가구, 맞벌이 가구 아동</td>
-              </tr>
-              <tr>
-                <td><strong>4순위</strong></td>
-                <td>그 외 돌봄이 필요한 아동</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box">
-            <strong>이용료:</strong> 저소득 가구는 무료, 일반 가구는 월 0~3만원 수준입니다.
-            센터별로 차이가 있으므로 해당 센터에 문의하세요.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 센터 찾기</strong> → icareinfo.go.kr 또는 복지로에서 가까운 센터 확인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 서류 준비</strong> → 신청서, 건강보험료 납부 확인서 (우선 대상은 수급자 증명서 추가)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>③ 신청</strong> → 해당 센터 방문 또는 주민센터 경유 신청
-          </div>
-          <div className="info-box">
-            <strong>④ 배정</strong> → 우선순위 심사 후 이용 개시
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            이용료, 프로그램, 운영 시간 등<br />
-            지역아동센터 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/community-child-center" className="btn-cta">
-            지역아동센터 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 지역아동센터우리동네찾기SpokeContent: SpokeData = {
   h1: '우리 동네 지역아동센터 찾는 방법과 이용 신청 조건',
@@ -129,8 +6,153 @@ export const 지역아동센터우리동네찾기SpokeContent: SpokeData = {
   description:
     '지역아동센터 위치는 icareinfo.go.kr 또는 복지로에서 지도 검색. 만 18세 미만 아동 신청 가능, 저소득 우선. 비용 저소득 무료 일반 월 0~3만원.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '위치 검색': 'icareinfo.go.kr 또는 복지로(bokjiro.go.kr)',
+    '전국 센터 수': '약 4,400개',
+    '신청 대상': '만 18세 미만 아동',
+    '전화 문의': '보건복지상담센터 129',
+    '이용 비용': '저소득 무료 / 일반 월 0~3만원',
+  },
+  keyFactsHighlights: {
+    '위치 검색': ['icareinfo.go.kr'],
+    '전국 센터 수': ['4,400개'],
+    '신청 대상': ['만 18세 미만'],
+    '전화 문의': ['129'],
+  },
+  qa: [
+    {
+      q: '지역아동센터 위치는 어디서 찾나요?',
+      anchor: 'find',
+      intro: '가장 빠른 방법은 지역아동센터중앙지원단 홈페이지(icareinfo.go.kr)에서 시도·시군구별 지도로 검색하는 것입니다. 복지로(bokjiro.go.kr)에서도 검색 및 온라인 신청이 가능합니다. 보건복지상담센터(129)에 전화하면 가까운 센터 위치와 연락처를 안내받을 수 있습니다.',
+      highlights: ['icareinfo.go.kr', 'bokjiro.go.kr', '129'],
+      table: {
+        headers: ['방법', '경로', '특징'],
+        rows: [
+          ['온라인 지도 검색', 'icareinfo.go.kr → 지역아동센터 찾기', '시도·시군구별 지도 검색'],
+          ['복지로', 'bokjiro.go.kr → 서비스 신청 → 아동', '온라인 신청 연계 가능'],
+          ['주민센터', '거주지 읍·면·동 주민센터 방문', '서류 지참 후 신청'],
+          ['전화', '보건복지상담센터 129', '센터 위치·연락처 안내'],
+        ],
+      },
+      box: {
+        label: '가장 빠른 방법',
+        content: 'icareinfo.go.kr에서 지역 선택 후 지도로 가까운 센터 검색.',
+      },
+    },
+    {
+      q: '신청 자격은 어떻게 되나요?',
+      anchor: 'eligibility',
+      intro: '만 18세 미만 아동이면 누구나 신청할 수 있습니다. 단, 정원이 있어 우선순위에 따라 배정됩니다. 기초생활수급 가구·차상위계층 아동이 1순위, 한부모·다문화가족 아동이 2순위, 맞벌이·다자녀 가구가 3순위, 그 외 돌봄 필요 아동이 4순위입니다.',
+      highlights: ['만 18세 미만', '저소득 1순위', '우선 배정'],
+      table: {
+        headers: ['우선순위', '대상'],
+        rows: [
+          ['1순위', '기초생활수급 가구, 차상위계층 아동'],
+          ['2순위', '한부모·조손가족, 다문화가족 아동'],
+          ['3순위', '다자녀 가구, 맞벌이 가구 아동'],
+          ['4순위', '그 외 돌봄이 필요한 아동'],
+        ],
+      },
+      box: {
+        label: '핵심',
+        content: '만 18세 미만이면 신청 가능. 정원에 따라 저소득 가구 우선 배정.',
+      },
+    },
+    {
+      q: '신청 절차는 어떻게 되나요?',
+      anchor: 'apply',
+      intro: 'icareinfo.go.kr 또는 복지로에서 가까운 센터를 확인한 뒤, 해당 센터에 직접 방문하거나 주민센터를 통해 신청합니다. 신청 서류로 신청서와 건강보험료 납부 확인서(우선 대상은 수급자 증명서 추가)를 준비해야 합니다.',
+      highlights: ['센터 방문', '주민센터 경유', '건강보험료 납부 확인서'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['① 센터 찾기', 'icareinfo.go.kr 또는 복지로에서 가까운 센터 확인'],
+          ['② 서류 준비', '신청서, 건강보험료 납부 확인서 (수급자는 증명서 추가)'],
+          ['③ 신청', '해당 센터 방문 또는 주민센터 경유 신청'],
+          ['④ 배정', '우선순위 심사 후 이용 개시'],
+        ],
+      },
+      box: {
+        label: '신청처',
+        content: '해당 지역아동센터 직접 방문 또는 주민센터. 문의: 129',
+      },
+    },
+    {
+      q: '이용 비용은 얼마인가요?',
+      anchor: 'cost',
+      intro: '기초생활수급 가구는 무료입니다. 일반 가구는 월 0~3만원 수준이며, 센터마다 다를 수 있습니다. 급식(간식·석식)은 대부분 이용료에 포함되어 있습니다.',
+      highlights: ['저소득 무료', '일반 월 0~3만원', '급식 포함'],
+      table: {
+        headers: ['가구 유형', '이용 비용'],
+        rows: [
+          ['기초수급자·차상위', '무료'],
+          ['일반 가구', '월 0~3만원 (센터별 상이)'],
+          ['급식', '대부분 포함 (간식·석식)'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '이용 비용은 센터별로 다를 수 있습니다. 해당 센터에 직접 문의하세요.',
+      },
+    },
+    {
+      q: '전국에 몇 개나 있나요?',
+      anchor: 'count',
+      intro: '2026년 기준 전국 약 4,400개 지역아동센터가 운영 중입니다. 전국 대부분의 읍·면·동에 센터가 있어 가까운 곳을 찾을 수 있습니다.',
+      highlights: ['약 4,400개', '전국'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['전국 센터 수', '약 4,400개 (2026년 기준)'],
+          ['운영 주체', '민간 법인·개인이 운영, 국가 지원'],
+          ['위치 확인', 'icareinfo.go.kr'],
+        ],
+      },
+      box: {
+        label: '찾기',
+        content: 'icareinfo.go.kr에서 가까운 센터 지도 검색 가능.',
+      },
+    },
+    {
+      q: '대기가 생기면 어떻게 하나요?',
+      anchor: 'waitlist',
+      intro: '정원 초과로 이용하지 못할 경우 대기 등록을 할 수 있습니다. 대기 순서는 우선순위에 따라 결정됩니다. 인근 다른 센터에 추가 신청하거나 다함께돌봄센터(소득 무관, 초등학생) 등 다른 돌봄 서비스를 이용하는 방법도 있습니다.',
+      highlights: ['대기 등록 가능', '다른 센터 추가 신청', '다함께돌봄센터 대안'],
+      table: {
+        headers: ['상황', '대응 방법'],
+        rows: [
+          ['대기 발생', '대기 등록 후 자리 나면 연락'],
+          ['인근 센터', '다른 지역아동센터에 추가 신청'],
+          ['대안 서비스', '다함께돌봄센터 (소득 무관, 초등학생)'],
+          ['찾기', 'icareinfo.go.kr에서 인근 센터 검색'],
+        ],
+      },
+      box: {
+        label: '대안',
+        content: '대기 중에는 다함께돌봄센터(초등학생 소득 무관) 또는 인근 다른 센터 이용 검토.',
+      },
+    },
+    {
+      q: '온라인으로 신청할 수 있나요?',
+      anchor: 'online',
+      intro: '복지로(bokjiro.go.kr)에서 온라인 신청이 가능합니다. 단, 일부 센터는 직접 방문 신청만 받는 경우도 있어, 먼저 해당 센터 또는 주민센터에 문의하는 것이 좋습니다.',
+      highlights: ['복지로 온라인 신청', '센터 방문 신청도 가능'],
+      table: {
+        headers: ['신청 방법', '내용'],
+        rows: [
+          ['온라인', '복지로(bokjiro.go.kr) → 서비스 신청 → 지역아동센터'],
+          ['방문', '해당 센터 직접 방문'],
+          ['주민센터', '주민등록지 읍·면·동 주민센터 경유'],
+          ['문의', '보건복지상담센터 129'],
+        ],
+      },
+      box: {
+        label: '신청',
+        content: '복지로(bokjiro.go.kr)에서 온라인 신청 또는 주민센터 방문 신청.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '지역아동센터는 누구나 이용할 수 있나요?',

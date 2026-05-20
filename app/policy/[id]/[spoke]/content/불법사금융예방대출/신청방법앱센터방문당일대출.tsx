@@ -1,105 +1,100 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          불법사금융예방대출은 <strong>최초 신청 시 전국 50개 서민금융통합지원센터를 반드시 방문</strong>해야 합니다.
-          방문 전 <strong>☎1397로 사전 예약</strong>이 필수이며,
-          금융교육 이수 또는 복지멤버십 가입 후 방문하면 당일 심사·지급도 가능합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        추가대출과 재대출은 <strong>서민금융 잇다 앱</strong>으로도 신청할 수 있어 방문 없이 처리됩니다.
-        최초 신청만 센터 방문이 필요합니다.
-      </p>
-
-      <section className="detail-card" id="process">
-        <h2 className="detail-card-head">신청 절차 단계별 안내</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>내용</th><th>방법</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1단계</strong></td><td>사전 준비</td><td>금융교육 이수(서금원 포털 3과목 중 1과목) 또는 복지멤버십 가입</td></tr>
-              <tr><td><strong>2단계</strong></td><td>예약</td><td>☎1397 전화 또는 서민금융 잇다 앱으로 가까운 센터 예약</td></tr>
-              <tr><td><strong>3단계</strong></td><td>서류 준비</td><td>신분증, 소득증빙, 사회적배려대상자는 추가 증빙서류</td></tr>
-              <tr><td><strong>4단계</strong></td><td>센터 방문</td><td>예약 시간에 맞춰 전국 50개 서민금융통합지원센터 방문</td></tr>
-              <tr><td><strong>5단계</strong></td><td>심사·지급</td><td>자격 확인 후 심사 통과 시 당일 지급 가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">필요 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>공통 서류:</strong> 신분증(주민등록증·운전면허증), 소득증빙(근로소득 원천징수영수증·사업소득 확인서 등)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>금융교육 이수 증빙:</strong> 서민금융진흥원 금융교육 이수증 (포털에서 출력)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>복지멤버십 가입 증빙:</strong> 복지멤버십 가입 확인서 (복지로 발급)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>연체자 추가서류(의료·주거·교육비):</strong> 해당 지출 증빙서류 (진료비 영수증, 임차계약서, 등록금 영수증 등)
-          </div>
-          <div className="info-box">
-            <strong>사회적배려대상자 추가서류:</strong> 수급자증명서·장애인등록증·한부모가족증명서 등 해당 증빙
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="app">
-        <h2 className="detail-card-head">앱으로 신청 가능한 경우</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>최초 신청:</strong> 센터 방문 필수 (앱 불가)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>추가대출:</strong> 서민금융 잇다 앱으로 신청 가능
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>재대출(완제자 우대):</strong> 서민금융 잇다 앱으로 신청 가능
-          </div>
-          <div className="info-box">
-            <strong>앱 다운로드:</strong> 구글플레이·애플 앱스토어에서 "서민금융 잇다" 검색
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 자격, 금리·한도, 사회적배려대상자 서류까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/illegal-loan-prevention" className="btn-cta">
-            불법사금융예방대출 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 불법사금융예방대출신청방법앱센터방문당일대출SpokeContent: SpokeData = {
   h1: '불법사금융예방대출 신청 방법, 앱·센터 방문 예약부터 당일 대출까지',
   breadcrumb: '신청방법앱센터방문당일대출',
   description:
     '불법사금융예방대출 최초 신청은 전국 50개 서민금융통합지원센터 방문 필수. ☎1397 사전 예약 후 금융교육 이수 또는 복지멤버십 가입 증빙 지참. 추가·재대출은 서민금융 잇다 앱으로 신청 가능.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '최초 신청': '서민금융통합지원센터 방문 필수',
+    '사전 예약': '☎1397 또는 서민금융 잇다 앱',
+    '추가·재대출': '서민금융 잇다 앱 신청 가능',
+    '당일 대출': '사전 준비 완료 시 당일 가능',
+    '전국 센터': '50개 서민금융통합지원센터',
+  },
+  keyFactsHighlights: {
+    '최초 신청': ['방문 필수'],
+    '사전 예약': ['☎1397'],
+    '당일 대출': ['당일 가능'],
+  },
+  qa: [
+    {
+      q: '불법사금융예방대출은 어떻게 신청하나요?',
+      anchor: 'process',
+      intro: '최초 신청 시 전국 50개 서민금융통합지원센터를 반드시 방문해야 합니다. 방문 전 ☎1397로 사전 예약이 필수이며, 금융교육 이수 또는 복지멤버십 가입 후 방문하면 당일 심사·지급도 가능합니다. 추가대출과 재대출은 서민금융 잇다 앱으로도 신청할 수 있어 방문 없이 처리됩니다.',
+      highlights: ['방문 필수', '☎1397 사전 예약', '당일 심사·지급', '앱으로도 신청'],
+      table: {
+        headers: ['단계', '내용', '방법'],
+        rows: [
+          ['1단계', '사전 준비', '금융교육 이수(서금원 포털 3과목 중 1과목) 또는 복지멤버십 가입'],
+          ['2단계', '예약', '☎1397 또는 서민금융 잇다 앱으로 센터 예약'],
+          ['3단계', '서류 준비', '신분증, 소득증빙, 사회적배려대상자 추가 증빙'],
+          ['4단계', '센터 방문', '예약 시간에 전국 50개 서민금융통합지원센터 방문'],
+          ['5단계', '심사·지급', '자격 확인 후 당일 지급 가능'],
+        ],
+      },
+    },
+    {
+      q: '당일 대출을 받으려면 어떻게 준비해야 하나요?',
+      anchor: 'same-day',
+      intro: '당일 대출을 받으려면 방문 전 금융교육 이수 또는 복지멤버십 가입이 완료되어 있어야 합니다. 필요 서류(신분증, 소득증빙, 교육 이수증)를 모두 지참하고 ☎1397로 사전 예약을 해야 합니다. 이 세 가지가 완료되면 센터 방문 당일 심사 후 대출 지급이 가능합니다. 준비가 미흡하면 재방문이 필요할 수 있습니다.',
+      highlights: ['금융교육 이수 완료', '서류 모두 지참', '사전 예약', '당일 지급'],
+      box: { label: '당일 대출 체크리스트', content: '☑ 금융교육 이수 또는 복지멤버십 가입 완료\n☑ ☎1397 사전 예약 완료\n☑ 신분증 + 소득증빙 + 교육이수증 지참' },
+    },
+    {
+      q: '필요한 서류는 무엇인가요?',
+      anchor: 'docs',
+      intro: '공통 서류는 신분증(주민등록증·운전면허증)과 소득증빙(근로소득 원천징수영수증·사업소득 확인서 등)입니다. 금융교육 이수 증빙 또는 복지멤버십 가입 확인서도 필요합니다. 연체자는 의료·주거·교육비 지출 증빙서류(진료비 영수증, 임차계약서, 등록금 영수증 등)를 추가로 준비해야 합니다. 사회적배려대상자는 수급자증명서·장애인등록증·한부모가족증명서 등 해당 증빙을 지참하세요.',
+      highlights: ['신분증', '소득증빙', '교육이수증', '수급자증명서'],
+      table: {
+        headers: ['구분', '필요 서류'],
+        rows: [
+          ['공통', '신분증, 소득증빙'],
+          ['금융교육 이수자', '교육 이수증 (서금원 포털 출력)'],
+          ['복지멤버십 가입자', '복지멤버십 가입 확인서 (복지로 발급)'],
+          ['연체자 추가', '의료·주거·교육비 지출 증빙'],
+          ['사회적배려대상자', '수급자증명서·장애인등록증·한부모가족증명서 등'],
+        ],
+      },
+    },
+    {
+      q: '금융교육은 어디서 어떻게 받나요?',
+      anchor: 'education',
+      intro: '서민금융진흥원 홈페이지(kinfa.or.kr) 내 금융교육포털에서 온라인으로 이수할 수 있습니다. 불법사금융예방대출 관련 교육 3과목 중 1과목을 선택해 이수하면 됩니다. 이수 후 이수증을 출력해 센터 방문 시 지참하면 됩니다. 복지멤버십(복지로 가입)을 대신 이용하는 것도 가능합니다.',
+      highlights: ['kinfa.or.kr', '3과목 중 1과목', '이수증 출력', '복지멤버십 대안'],
+      box: { label: '금융교육 vs 복지멤버십', content: '금융교육: kinfa.or.kr → 금융교육포털 → 1과목 이수 → 이수증 출력\n복지멤버십: bokjiro.go.kr 또는 행정복지센터에서 가입\n(둘 중 하나만 선택)' },
+    },
+    {
+      q: '앱으로 신청할 수 있는 경우는 언제인가요?',
+      anchor: 'app',
+      intro: '최초 신청은 반드시 센터를 방문해야 합니다. 추가대출(금융권 연체자가 기본 50만원 이용 후 추가 50만원 신청)과 재대출(완제자 우대 연 4.5%)은 서민금융 잇다 앱으로 신청이 가능합니다. 앱은 구글플레이·애플 앱스토어에서 "서민금융 잇다"를 검색해 설치합니다.',
+      highlights: ['최초 신청은 방문 필수', '추가·재대출은 앱 가능', '서민금융 잇다'],
+      table: {
+        headers: ['구분', '신청 방법'],
+        rows: [
+          ['최초 신청', '서민금융통합지원센터 방문 필수 (앱 불가)'],
+          ['추가대출', '서민금융 잇다 앱으로 신청 가능'],
+          ['재대출 (완제자 우대)', '서민금융 잇다 앱으로 신청 가능'],
+        ],
+      },
+    },
+    {
+      q: '가까운 서민금융통합지원센터는 어디서 찾나요?',
+      anchor: 'center',
+      intro: '☎1397로 문의하거나 서민금융 잇다 앱의 센터 찾기 기능을 이용하면 가장 가까운 서민금융통합지원센터를 찾을 수 있습니다. 전국 50개 센터가 운영 중이며 평일 09:00~18:00에 운영됩니다. 서민금융진흥원 홈페이지(kinfa.or.kr)에서도 센터 위치를 확인할 수 있습니다.',
+      highlights: ['☎1397', '서민금융 잇다 앱', '전국 50개', '평일 09:00~18:00'],
+      box: { label: '센터 찾기', content: '☎1397 문의 (평일 09:00~18:00, 야간 18:00~20:00)\n서민금융 잇다 앱 → 센터 찾기\nkinfa.or.kr 홈페이지 센터 찾기' },
+    },
+    {
+      q: '추가대출은 얼마까지 받을 수 있나요?',
+      anchor: 'extra-loan',
+      intro: '금융권 연체자로 기본대출 50만원을 받은 경우 추가대출 50만원을 신청해 합계 최대 100만원까지 가능합니다. 추가대출은 서민금융 잇다 앱으로도 신청이 가능합니다. 비연체자와 의료·주거·교육비 증빙 연체자는 처음부터 기본대출 100만원이 가능해 추가대출 개념이 없습니다.',
+      highlights: ['추가대출 50만원', '합계 최대 100만원', '앱으로도 신청'],
+      box: { label: '추가대출 조건', content: '대상: 금융권 연체자로 기본대출 50만원을 이미 받은 자\n한도: 추가 50만원 (총 100만원)\n신청: 서민금융 잇다 앱 또는 센터 방문' },
+    },
+  ],
   faqData: [
     {
       q: '당일 대출이 가능한가요?',

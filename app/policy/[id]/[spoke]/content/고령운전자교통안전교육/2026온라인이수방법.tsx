@@ -1,97 +1,87 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          <strong>2026년 기준 75세 이상</strong> 고령운전자는
-          도로교통공단 이러닝센터에서 <strong>온라인으로 교통안전교육을 이수</strong>할 수 있습니다.
-          65세 이상 권장 대상자는 오프라인 교육장만 이용 가능합니다.
-          온라인 교육은 <strong>무료</strong>이며 본인 명의 공동인증서로 로그인하면 됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        거동이 불편하거나 교육장 방문이 어렵다면 온라인 이수를 활용하세요.
-        2026년 기준 온라인 이수 가능 대상과 절차를 안내합니다.
-      </p>
-
-      <section className="detail-card" id="online-target">
-        <h2 className="detail-card-head">온라인 이수 가능 대상</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>연령</th><th>온라인 이수</th><th>오프라인 이수</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>65세 이상 (권장)</strong></td><td>불가</td><td>가능 (교육장 방문)</td></tr>
-              <tr><td><strong>75세 이상 (의무)</strong></td><td>가능</td><td>가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="online-steps">
-        <h2 className="detail-card-head">온라인 이수 절차 (75세 이상)</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 도로교통공단 이러닝센터 접속 (trafficedu.koroad.or.kr)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 공동인증서 또는 간편 인증으로 로그인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> '고령운전자 교통안전교육' 과정 선택 후 수강
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 수강 완료 후 이수증 출력 → 적성검사 시 제출
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="offline">
-        <h2 className="detail-card-head">오프라인 교육장 이용 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>예약:</strong> 도로교통공단 안전운전 통합민원(safedriving.or.kr) 온라인 예약
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문:</strong> 전국 도로교통공단 교육장 (신분증 지참)
-          </div>
-          <div className="info-box">
-            <strong>이수 시간:</strong> 공고별 교육 시간 확인 후 방문
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            65세·75세 이상 교육 차이, 면허 갱신 절차, 예약 방법까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-driver-safety" className="btn-cta">
-            고령운전자 교통안전교육 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 고령운전자교통안전교육2026온라인이수방법SpokeContent: SpokeData = {
   h1: '2026 고령운전자 교통안전교육 온라인으로 이수하는 방법과 대상 기준',
   breadcrumb: '2026온라인이수방법',
-  description:
-    '2026 고령운전자 교통안전교육 온라인 이수: 75세 이상만 가능(65세는 오프라인만). 도로교통공단 이러닝센터(trafficedu.koroad.or.kr)에서 공동인증서 로그인 후 수강, 무료. 이수증 출력 후 적성검사 제출.',
+  description: '2026 고령운전자 교통안전교육 온라인 이수: 75세 이상만 가능(65세는 오프라인만). 도로교통공단 이러닝센터(trafficedu.koroad.or.kr)에서 공동인증서 로그인 후 수강, 무료. 이수증 출력 후 적성검사 제출.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '온라인 이수 대상': '75세 이상 (65세는 오프라인만)',
+    '온라인 이수 사이트': '도로교통공단 이러닝센터',
+    '사이트 주소': 'trafficedu.koroad.or.kr',
+    '로그인 방법': '공동인증서 또는 간편 인증',
+    '비용': '무료',
+  },
+  keyFactsHighlights: {
+    '온라인 이수 대상': ['75세 이상'],
+    '비용': ['무료'],
+  },
+  qa: [
+    {
+      q: '2026년 기준 온라인으로 교육 이수가 가능한 대상은?',
+      anchor: 'online-target',
+      intro: '2026년 기준 75세 이상 고령운전자는 도로교통공단 이러닝센터에서 온라인으로 교통안전교육을 이수할 수 있습니다. 65세 이상 권장 대상자는 오프라인 교육장만 이용 가능합니다. 온라인 교육은 무료이며 본인 명의 공동인증서로 로그인하면 됩니다.',
+      highlights: ['75세 이상 온라인 가능', '65세는 오프라인만', '무료'],
+      table: {
+        headers: ['연령', '온라인 이수', '오프라인 이수'],
+        rows: [
+          ['65세 이상 (권장)', '불가', '가능 (교육장 방문)'],
+          ['75세 이상 (의무)', '가능', '가능'],
+        ],
+      },
+    },
+    {
+      q: '온라인 이수 절차는 어떻게 되나?',
+      anchor: 'online-steps',
+      intro: '도로교통공단 이러닝센터(trafficedu.koroad.or.kr)에 접속하여 공동인증서 또는 간편 인증으로 로그인한 후, 고령운전자 교통안전교육 과정을 선택해 수강합니다. 수강 완료 후 이수증을 출력하여 적성검사 시 제출합니다.',
+      highlights: ['이러닝센터 접속', '공동인증서 로그인', '이수증 출력'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '도로교통공단 이러닝센터 접속 (trafficedu.koroad.or.kr)'],
+          ['2단계', '공동인증서 또는 간편 인증으로 로그인'],
+          ['3단계', "'고령운전자 교통안전교육' 과정 선택 후 수강"],
+          ['4단계', '수강 완료 후 이수증 출력 → 적성검사 시 제출'],
+        ],
+      },
+    },
+    {
+      q: '오프라인 교육장은 어떻게 이용하나?',
+      anchor: 'offline',
+      intro: '도로교통공단 안전운전 통합민원(safedriving.or.kr)에서 온라인 예약 후 전국 도로교통공단 교육장을 방문하면 됩니다. 방문 시 신분증을 지참해야 합니다. 교육 시간은 공고별로 다르므로 예약 후 확인하세요.',
+      highlights: ['safedriving.or.kr 예약', '신분증 지참', '전국 교육장'],
+      box: { label: '절차', content: 'safedriving.or.kr 온라인 예약 → 전국 도로교통공단 교육장 방문 (신분증 지참).' },
+    },
+    {
+      q: '공동인증서가 없으면 로그인이 안 되나?',
+      anchor: 'auth',
+      intro: '도로교통공단 이러닝센터는 공동인증서 외에 간편 인증 방식도 지원합니다. 정확한 인증 방법은 이러닝센터 안내를 확인하세요.',
+      highlights: ['공동인증서', '간편 인증 지원'],
+      box: { label: '안내', content: '공동인증서 없는 경우 간편 인증(카카오, PASS 등) 이용 가능. 이러닝센터 안내 확인.' },
+    },
+    {
+      q: '온라인 교육 소요 시간은 어느 정도인가?',
+      anchor: 'duration',
+      intro: '교육 시간은 이러닝센터 공고를 확인하세요. 일반적으로 2시간 내외이며 중간 이탈 시 처음부터 다시 이수해야 합니다. 충분한 시간을 확보한 후 이수하는 것을 권장합니다.',
+      highlights: ['2시간 내외', '중간 이탈 시 처음부터'],
+      box: { label: '주의', content: '중간 이탈 시 처음부터 다시 이수. 안정적인 인터넷 환경에서 이수 권장.' },
+    },
+    {
+      q: '이수증을 어떻게 활용하나?',
+      anchor: 'certificate',
+      intro: '이수증을 출력하여 운전면허 적성검사 시 제출합니다. 적성검사 통과 후 면허 갱신이 완료됩니다. 이수증은 이러닝센터에서 수강 완료 후 출력할 수 있습니다.',
+      highlights: ['이수증 출력', '적성검사 제출', '면허 갱신'],
+      box: { label: '절차', content: '이수증 출력 → 운전면허시험장 또는 경찰서 방문 → 적성검사 → 면허 갱신.' },
+    },
+    {
+      q: '교육을 받지 않으면 어떻게 되나?',
+      anchor: 'no-edu',
+      intro: '75세 이상은 교통안전교육 미이수 시 면허 갱신(적성검사)이 불가합니다. 갱신 기간(생일 전후 6개월)을 초과하면 면허 효력이 정지될 수 있습니다. 65세 이상 권장 대상자는 이수하지 않아도 면허에 영향은 없습니다.',
+      highlights: ['75세 이상 미이수 시 갱신 불가', '65세는 임의'],
+      box: { label: '주의', content: '75세 이상: 교육 미이수 시 면허 갱신 불가. 갱신 기간 초과 시 면허 효력 정지.' },
+    },
+  ],
   faqData: [
     {
       q: '온라인으로 교육을 받으려면 어느 사이트에 접속해야 하나요?',

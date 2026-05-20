@@ -1,139 +1,101 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          새도약기금은 <strong>별도 신청 절차가 없습니다</strong>.
-          정부(캠코)가 협약 금융회사로부터 대상 채무를 <strong>일괄 매입</strong>하고,
-          심사 후 결과를 채무자에게 개별 통보합니다.
-          본인이 대상인지 확인하려면 <strong>newleap.or.kr</strong> 또는
-          상담센터 <strong>1660-0705</strong>로 문의하면 됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "신청하러 가야 하나요?" 갈 필요 없습니다. 새도약기금은 본인이 신청하는 구조가 아닙니다.
-        일반 채무조정 프로그램과 어떻게 다른지, 통보 이후 절차는 어떻게 되는지 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="structure">
-        <h2 className="detail-card-head">일반 채무조정과 새도약기금 — 신청 방식 차이</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>일반 채무조정</th><th>새도약기금</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>신청 주체</td>
-                <td>채무자 본인이 직접 신청</td>
-                <td><strong>별도 신청 없음</strong></td>
-              </tr>
-              <tr>
-                <td>매입 방식</td>
-                <td>신청 후 심사·협상</td>
-                <td><strong>정부 일괄 매입</strong></td>
-              </tr>
-              <tr>
-                <td>추심 중단</td>
-                <td>협의 이후</td>
-                <td><strong>매입 즉시 중단</strong></td>
-              </tr>
-              <tr>
-                <td>결과 통보</td>
-                <td>신청 후 진행 안내</td>
-                <td><strong>정부가 개별 통보</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="warning-box" style={{ marginTop: 12 }}>
-            <strong>주의:</strong> "새도약기금 신청을 도와준다"는 접근은 사기입니다.
-            별도 신청 절차가 없으므로 제3자에게 신청 대행을 맡길 필요가 없습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="flow">
-        <h2 className="detail-card-head">통보 이후 절차 — 받은 통보서에서 확인할 것</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1단계</td>
-                <td>캠코가 협약 금융회사로부터 대상 채무 일괄 매입</td>
-              </tr>
-              <tr>
-                <td>2단계</td>
-                <td>추심 즉시 중단 (매입과 동시)</td>
-              </tr>
-              <tr>
-                <td>3단계</td>
-                <td>정부 행정데이터 기반 상환능력 심사</td>
-              </tr>
-              <tr>
-                <td>4단계</td>
-                <td>결과 개별 통보 — 소각 또는 채무조정 안내</td>
-              </tr>
-              <tr>
-                <td>5단계</td>
-                <td>유관기관 연계 금융·주거·고용 재기 지원</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            소각 대상이면 1년 이내 5천만원 한도 소각, 채무조정 대상이면
-            신용회복위원회 30~80% 감면 후 최장 10년 분할상환이 진행됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="confirm">
-        <h2 className="detail-card-head">본인 대상 여부 확인 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 온라인 조회:</strong> newleap.or.kr → 채무현황 조회 메뉴에서 본인 인증 후 확인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 전화 상담:</strong> 1660-0705 (평일 09:00~18:00)
-          </div>
-          <div className="info-box">
-            <strong>③ 한국자산관리공사(캠코) 직접 문의:</strong> 캠코 지사 방문 또는 대표 전화
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            자격 조건, 소각 기준, 대상자 조회 등<br />
-            새도약기금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/new-leap" className="btn-cta">
-            새도약기금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 신청방법SpokeContent: SpokeData = {
   h1: '새도약기금 신청 방법 | 별도 신청 없이 일괄 매입되는 구조',
   breadcrumb: '신청방법',
   description:
     '새도약기금은 채무자가 별도로 신청하지 않습니다. 정부(캠코)가 협약 금융회사에서 대상 채무를 일괄 매입하고 상환능력 심사 후 결과를 개별 통보합니다. 본인 대상 여부는 newleap.or.kr 또는 1660-0705에서 확인.',
-  datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청 여부': '별도 신청 없음',
+    '처리 주체': '정부(캠코) 일괄 매입',
+    '결과 통보': '정부가 개별 통보',
+    '대상 확인': 'newleap.or.kr 또는 1660-0705',
+    '추심 중단': '채권 매입 즉시',
+  },
+  keyFactsHighlights: {
+    '신청 여부': ['별도 신청 없음'],
+    '추심 중단': ['매입 즉시'],
+    '대상 확인': ['newleap.or.kr'],
+  },
+  qa: [
+    {
+      q: '새도약기금은 어떻게 신청하나요?',
+      anchor: 'structure',
+      intro: '새도약기금은 별도 신청 절차가 없습니다. 정부(캠코)가 협약 금융회사로부터 대상 채무를 일괄 매입하고, 심사 후 결과를 채무자에게 개별 통보합니다. 본인이 대상인지 확인하려면 newleap.or.kr 또는 상담센터 1660-0705로 문의하면 됩니다.',
+      highlights: ['별도 신청 없음', '일괄 매입', '개별 통보', 'newleap.or.kr'],
+      table: {
+        headers: ['구분', '일반 채무조정', '새도약기금'],
+        rows: [
+          ['신청 주체', '채무자 본인이 직접 신청', '별도 신청 없음'],
+          ['매입 방식', '신청 후 심사·협상', '정부 일괄 매입'],
+          ['추심 중단', '협의 이후', '매입 즉시 중단'],
+          ['결과 통보', '신청 후 진행 안내', '정부가 개별 통보'],
+        ],
+      },
+      box: { label: '사기 주의', content: '"새도약기금 신청을 도와드립니다" = 사기\n별도 신청 절차가 없으므로 제3자 신청 대행 불필요' },
+    },
+    {
+      q: '통보 이후 절차는 어떻게 진행되나요?',
+      anchor: 'flow',
+      intro: '캠코가 협약 금융회사로부터 대상 채무를 일괄 매입합니다. 매입과 동시에 추심이 즉시 중단됩니다. 이후 정부 행정데이터 기반 상환능력 심사가 진행되고, 소각 또는 채무조정 결과가 개별 통보됩니다. 소각 대상이면 1년 이내 소각, 채무조정 대상이면 신용회복위원회 연계가 이루어집니다.',
+      highlights: ['추심 즉시 중단', '상환능력 심사', '1년 이내 소각', '신용회복위원회 연계'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '캠코가 협약 금융회사에서 대상 채무 일괄 매입'],
+          ['2단계', '추심 즉시 중단 (매입과 동시)'],
+          ['3단계', '정부 행정데이터 기반 상환능력 심사'],
+          ['4단계', '결과 개별 통보 — 소각 또는 채무조정 안내'],
+          ['5단계', '유관기관 연계 금융·주거·고용 재기 지원'],
+        ],
+      },
+    },
+    {
+      q: '신청서를 제출할 필요가 없나요?',
+      anchor: 'no-form',
+      intro: '별도 신청 서류나 신청서가 필요 없습니다. 정부가 금융회사로부터 채무를 일괄 매입한 후 채무자에게 개별 통보합니다. 본인이 해야 할 일은 대상 여부를 확인하고 통보 내용에 따라 다음 단계를 진행하는 것입니다.',
+      highlights: ['신청서 불필요', '일괄 매입 후 통보', '확인만 하면 됨'],
+      box: { label: '채무자가 할 일', content: '1. newleap.or.kr 또는 1660-0705로 대상 여부 확인\n2. 통보서 수령 후 내용 확인\n3. 소각 → 대기 / 채무조정 → 신용회복위원회(1600-5500) 연락' },
+    },
+    {
+      q: '본인 대상 여부는 어떻게 확인하나요?',
+      anchor: 'confirm',
+      intro: 'newleap.or.kr에서 채무현황 조회(공동인증서 또는 간편인증)로 확인하거나, 상담센터 1660-0705(평일 09:00~18:00)로 전화하면 됩니다. 한국자산관리공사(캠코) 지사를 직접 방문해 문의할 수도 있습니다.',
+      highlights: ['newleap.or.kr', '1660-0705', '공동인증서', '캠코 방문'],
+      box: { label: '대상 확인 방법', content: '① newleap.or.kr → 채무현황 조회 (공동인증서 또는 간편인증)\n② ☎1660-0705 (평일 09:00~18:00)\n③ 한국자산관리공사(캠코) 지사 방문' },
+    },
+    {
+      q: '소각과 채무조정 중 어떤 것을 받게 되는지 미리 알 수 있나요?',
+      anchor: 'result',
+      intro: '상환능력 심사 결과에 따라 결정되므로 사전에 정확히 알 수 없습니다. 중위소득 60% 이하이고 생계형 재산 외 보유재산이 없으며 최근 5년간 출입국이 2회 이하이면 소각 대상이 될 가능성이 높습니다. 이 중 하나라도 미달이면 채무조정으로 결정됩니다. 심사 완료 후 통보서로 확인할 수 있습니다.',
+      highlights: ['중위소득 60% 이하', '보유재산 없음', '출입국 2회 이하', '통보서 확인'],
+      table: {
+        headers: ['심사 기준', '소각 조건'],
+        rows: [
+          ['소득', '중위소득 60% 이하'],
+          ['재산', '생계형 재산 외 보유재산 없음'],
+          ['출입국', '최근 5년간 2회 이하'],
+        ],
+      },
+      box: { label: '결과 판정', content: '3가지 기준 모두 충족 → 채무 소각 (1년 이내)\n1가지라도 미달 → 채무조정 (30~80% 감면, 최장 10년 분할)' },
+    },
+    {
+      q: '추심이 계속 오는데 새도약기금 대상인지 어떻게 알 수 있나요?',
+      anchor: 'still-collected',
+      intro: 'newleap.or.kr에서 채무현황을 조회하거나 1660-0705 상담센터에 전화하면 대상 여부와 현재 진행 상황을 확인할 수 있습니다. 추심이 계속 온다면 아직 채권 매입이 완료되지 않은 단계일 수 있습니다. 채권 매입이 완료되면 즉시 추심이 중단됩니다.',
+      highlights: ['1660-0705 확인', '매입 완료 전', '매입 즉시 중단'],
+      box: { label: '추심 계속 시 대응', content: 'newleap.or.kr → 채무현황 조회로 매입 단계 확인\n또는 ☎1660-0705 → 현재 처리 단계 문의\n(매입 완료 시 추심 즉시 중단됨)' },
+    },
+    {
+      q: '통보서를 받은 후 아무것도 하지 않아도 되나요?',
+      anchor: 'after-notice',
+      intro: '통보 내용에 따라 다릅니다. 소각 통보를 받으면 별도 조치 없이 1년 이내 소각이 진행됩니다. 채무조정 통보를 받으면 신용회복위원회(1600-5500)를 통해 조정 절차를 진행해야 합니다. 통보서에 안내된 내용을 꼼꼼히 확인하세요.',
+      highlights: ['소각 → 별도 조치 불필요', '채무조정 → 신용회복위원회 절차', '통보서 확인'],
+      box: { label: '통보 유형별 다음 단계', content: '소각 통보: 별도 조치 불필요, 1년 이내 소각 완료 대기\n채무조정 통보: 신용회복위원회 ☎1600-5500 연락, 조정 절차 진행' },
+    },
+  ],
   faqData: [
     {
       q: '새도약기금은 어디에 신청하나요?',

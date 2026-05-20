@@ -1,97 +1,96 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          배우자 출산휴가 급여는 <strong>우선지원대상기업 근로자는 정부(고용보험)</strong>가 지원하고,
-          <strong>대규모기업 근로자는 사업주</strong>가 부담합니다.
-          두 경우 모두 <strong>통상임금 100% 유급</strong>이며,
-          정부 지원 상한은 <strong>월 약 168만원</strong>입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        내가 다니는 회사가 어느 유형인지에 따라 급여를 신청하는 곳이 달라집니다.
-        본인 상황을 먼저 확인하세요.
-      </p>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">기업 규모별 급여 부담 주체 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>우선지원대상기업</th><th>대규모기업</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>급여 지급 주체</strong></td><td>고용보험(정부)</td><td>사업주(회사)</td></tr>
-              <tr><td><strong>지급 상한</strong></td><td>월 약 168만원</td><td>통상임금 100%</td></tr>
-              <tr><td><strong>근로자 신청</strong></td><td>고용24에서 직접 신청</td><td>신청 없음 (회사가 지급)</td></tr>
-              <tr><td><strong>해당 기업</strong></td><td>업종별 일정 인원 이하</td><td>우선지원대상 외 기업</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="criteria">
-        <h2 className="detail-card-head">우선지원대상기업 업종별 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>업종</th><th>상시 근로자 수</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>제조업</strong></td><td>500인 이하</td></tr>
-              <tr><td><strong>광업·건설·운수·통신</strong></td><td>300인 이하</td></tr>
-              <tr><td><strong>도소매·서비스업 등</strong></td><td>100인 이하</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">우선지원대상기업 근로자 신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인:</strong> 고용24(work24.go.kr) → 배우자 출산휴가급여 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문:</strong> 가까운 고용센터
-          </div>
-          <div className="info-box">
-            <strong>신청 기한:</strong> 휴가 종료 후 12개월 이내
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            20일 유급 기준, 분할 사용 방법, 비과세 여부까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/spouse-birth-leave-pay" className="btn-cta">
-            배우자 출산휴가급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 배우자출산휴가급여회사지급정부지원구분SpokeContent: SpokeData = {
   h1: '배우자 출산휴가 급여 회사가 부담하는지 정부가 지원하는지 구분 방법',
   breadcrumb: '회사지급정부지원구분',
   description:
     '배우자 출산휴가급여: 우선지원대상기업(정부 전액·월 168만원 상한) vs 대규모기업(사업주 부담). 제조업 500인·건설 300인·서비스 100인 이하 우선지원대상. 고용24(work24.go.kr) 신청.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '우선지원대상기업': '고용보험(정부) 전액 지원, 월 약 168만원 상한',
+    '대규모기업': '사업주(회사) 전액 부담',
+    '제조업 기준': '상시 500인 이하',
+    '서비스업 기준': '상시 100인 이하',
+    '근로자 신청': '우선지원대상기업만 고용24에서 직접 신청',
+  },
+  keyFactsHighlights: {
+    '우선지원대상기업': ['정부 전액 지원'],
+    '대규모기업': ['사업주 전액 부담'],
+  },
+  qa: [
+    {
+      q: '배우자 출산휴가 급여는 회사가 주나요, 정부가 주나요?',
+      anchor: 'who-pays',
+      intro:
+        '근로자가 근무하는 기업의 규모에 따라 달라집니다. 우선지원대상기업(중소기업) 근로자는 고용보험(정부)에서 급여를 전액 지원받습니다. 대규모기업 근로자는 사업주(회사)가 급여를 부담합니다. 두 경우 모두 통상임금 100% 유급이며, 우선지원대상기업 정부 지원 상한은 월 약 168만원입니다.',
+      highlights: ['우선지원대상기업: 정부 지원', '대규모기업: 사업주 부담'],
+      table: {
+        headers: ['항목', '우선지원대상기업', '대규모기업'],
+        rows: [
+          ['급여 지급 주체', '고용보험(정부)', '사업주(회사)'],
+          ['지급 상한', '월 약 168만원', '통상임금 100%'],
+          ['근로자 신청', '고용24에서 직접 신청', '신청 없음 (회사가 지급)'],
+          ['해당 기업', '업종별 일정 인원 이하', '우선지원대상 외 기업'],
+        ],
+      },
+    },
+    {
+      q: '우선지원대상기업 기준은 업종별로 어떻게 다른가요?',
+      anchor: 'criteria',
+      intro:
+        '우선지원대상기업 기준은 업종별로 다릅니다. 제조업은 상시 근로자 500인 이하, 광업·건설업·운수·통신업은 300인 이하, 도소매·서비스업 등은 100인 이하가 해당됩니다. 대부분의 스타트업이나 소규모 회사는 우선지원대상기업에 해당합니다. 정확한 해당 여부는 고용24(work24.go.kr) 또는 고용센터(☎1350)에서 확인할 수 있습니다.',
+      highlights: ['제조업 500인 이하', '건설업 300인 이하', '서비스업 100인 이하'],
+      table: {
+        headers: ['업종', '상시 근로자 수'],
+        rows: [
+          ['제조업', '500인 이하'],
+          ['광업·건설·운수·통신', '300인 이하'],
+          ['도소매·서비스업 등', '100인 이하'],
+        ],
+      },
+    },
+    {
+      q: '우선지원대상기업 근로자는 어떻게 급여를 받나요?',
+      anchor: 'priority-apply',
+      intro:
+        '우선지원대상기업 근로자는 고용24(work24.go.kr)에서 직접 급여를 신청합니다. 고용센터를 방문해 신청하는 방법도 있습니다. 신청 기한은 휴가 종료 후 12개월 이내이며, 고용보험 피보험 단위기간 180일 이상이어야 신청 자격이 됩니다. 신청 후 심사 완료 시 14일 이내 계좌로 입금됩니다.',
+      highlights: ['고용24 직접 신청', '종료 후 12개월 이내', '피보험 180일 이상'],
+      box: { label: '우선지원대상기업 신청 절차', content: '고용24(work24.go.kr) → 배우자 출산휴가급여 신청 → 서류 첨부 → 심사 14일 내 지급' },
+    },
+    {
+      q: '대규모기업 근로자는 정부 급여를 하나도 받을 수 없나요?',
+      anchor: 'large-no-gov',
+      intro:
+        '대규모기업 근로자에 대한 배우자 출산휴가급여는 사업주 부담이 원칙입니다. 출산전후휴가와 달리 배우자 출산휴가는 대규모기업 근로자에 대한 정부 구간 분리 지원이 없습니다. 그러나 사업주는 근로기준법에 따라 반드시 유급으로 처리해야 합니다. 회사가 유급 처리를 거부하면 고용노동부(☎1350)에 신고할 수 있습니다.',
+      highlights: ['정부 지원 없음', '사업주 유급 의무', '고용노동부 신고 가능'],
+      box: { label: '대규모기업 대응', content: '사업주가 유급 처리 의무를 지킵니다. 미이행 시 고용노동부(☎1350) 신고.' },
+    },
+    {
+      q: '사업주가 대위 신청을 할 수도 있나요?',
+      anchor: 'delegation',
+      intro:
+        '우선지원대상기업의 사업주가 근로자 대신 급여를 먼저 지급한 뒤 고용보험에서 환급받는 방식을 대위 신청이라고 합니다. 이 경우 사업주가 고용24에서 대위 신청을 하면 됩니다. 근로자 입장에서는 회사가 급여를 지급하고 사후 정부에서 환급받는 방식이므로 급여를 빠르게 받을 수 있습니다. 대위 신청 절차는 고용24 또는 고용센터에서 안내받을 수 있습니다.',
+      highlights: ['대위 신청', '사업주가 먼저 지급 후 환급'],
+      box: { label: '대위 신청', content: '사업주가 급여 선지급 후 고용24에서 환급 신청. 근로자는 급여를 빠르게 수령 가능.' },
+    },
+    {
+      q: '회사가 급여를 지급하지 않으면 어떻게 하나요?',
+      anchor: 'not-paid',
+      intro:
+        '배우자 출산휴가는 유급 의무가 있습니다. 우선지원대상기업은 정부(고용보험)에서 지원을 받으므로 사실상 회사 부담이 없습니다. 대규모기업의 경우 사업주가 전액 부담해야 합니다. 급여를 지급하지 않는 사업주는 고용노동부에 진정을 제기할 수 있습니다. 고용노동부 상담 전화는 ☎1350입니다.',
+      highlights: ['유급 의무', '고용노동부 신고', '☎1350'],
+      box: { label: '미지급 시 대응', content: '고용노동부(☎1350)에 진정 제기. 근로기준법 위반으로 처리됩니다.' },
+    },
+    {
+      q: '내가 다니는 회사가 우선지원대상기업인지 어떻게 확인하나요?',
+      anchor: 'check',
+      intro:
+        '우선지원대상기업 해당 여부는 고용24(work24.go.kr) 또는 고용센터(☎1350)에서 사업장 정보를 조회해 확인할 수 있습니다. 업종과 상시 근로자 수를 기준으로 판단하므로, 본인의 회사 규모와 업종을 먼저 파악하면 대략 예측할 수 있습니다. 서비스업 100인 이하, 제조업 500인 이하라면 대부분 해당됩니다.',
+      highlights: ['고용24 조회', '고용센터 ☎1350'],
+      box: { label: '확인 방법', content: '고용24(work24.go.kr) 또는 고용센터(☎1350)에서 사업장 우선지원대상기업 해당 여부 조회 가능.' },
+    },
+  ],
   faqData: [
     {
       q: '대규모기업 근로자는 정부 급여를 하나도 못 받나요?',

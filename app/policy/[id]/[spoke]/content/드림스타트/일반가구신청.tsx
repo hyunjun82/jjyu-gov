@@ -1,98 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          드림스타트는 기초수급자·차상위계층이 기본 대상이지만,
-          <strong>학대·방임·한부모·조손 등 위기 가구</strong>라면
-          소득 기준을 충족하지 않아도 사례관리사 판단에 따라 포함될 수 있습니다.
-          순수 일반 가구(소득 기준 초과)는 원칙적으로 <strong>대상 외</strong>입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "우리 집은 기초수급자도 차상위도 아닌데, 드림스타트를 받을 수 있나요?"
-        일반 가구의 신청 가능 여부를 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="eligibility-detail">
-        <h2 className="detail-card-head">가구 유형별 신청 가능 여부</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>가구 유형</th><th>신청 가능 여부</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>기초수급자 가구</strong></td>
-                <td>가능 (원칙적 대상)</td>
-              </tr>
-              <tr>
-                <td><strong>차상위계층 가구</strong></td>
-                <td>가능 (원칙적 대상)</td>
-              </tr>
-              <tr>
-                <td><strong>학대·방임 피해 아동 가구</strong></td>
-                <td>소득 무관 가능 (사례관리사 판단)</td>
-              </tr>
-              <tr>
-                <td><strong>한부모·조손 가구</strong></td>
-                <td>소득 무관 가능 (위기 가구 해당 시)</td>
-              </tr>
-              <tr>
-                <td><strong>일반 가구 (소득 기준 초과)</strong></td>
-                <td>원칙적으로 대상 외</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="crisis-household">
-        <h2 className="detail-card-head">위기 가구 해당 여부 확인 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            소득 기준이 초과되더라도 아동이 학대·방임·가정폭력·보호자 부재 등 위기 상황에 있다면
-            거주지 드림스타트 사업단에 문의해 사례관리사 판단을 받을 수 있습니다.
-          </div>
-          <div className="info-box">
-            <strong>문의처:</strong> 시·군·구 드림스타트 사업단 또는 보건복지부 상담
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="alternatives">
-        <h2 className="detail-card-head">일반 가구가 이용할 수 있는 유사 서비스</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>지역아동센터:</strong> 소득 기준 완화, 일반 가구 아동도 일부 이용 가능 (지역별 상이)
-          </div>
-          <div className="info-box">
-            <strong>방과후학교·돌봄교실:</strong> 소득 무관 이용 가능한 학교 기반 돌봄 서비스
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            드림스타트 7대 서비스, 신청 자격 등<br />
-            드림스타트 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/dream-start" className="btn-cta">
-            드림스타트 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 드림스타트일반가구신청SpokeContent: SpokeData = {
   h1: '취약계층 아동 드림스타트, 일반 가구 아이도 신청할 수 있는 경우와 없는 경우',
@@ -100,8 +6,79 @@ export const 드림스타트일반가구신청SpokeContent: SpokeData = {
   description:
     '드림스타트 원칙적 대상: 기초수급·차상위. 학대·방임·한부모·조손 등 위기 가구는 소득 무관 포함 가능. 일반 가구는 원칙적 대상 외. 대안: 지역아동센터·방과후학교.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '기본 대상': '기초수급자, 차상위계층',
+    '위기 가구': '학대·방임·한부모·조손 (소득 무관 가능)',
+    '일반 가구': '원칙적 대상 외',
+    '대안 서비스': '지역아동센터, 방과후학교',
+    '문의처': '시·군·구 드림스타트 사업단',
+  },
+  keyFactsHighlights: {
+    '일반 가구': ['원칙적 대상 외'],
+    '위기 가구': ['소득 무관 가능'],
+  },
+  qa: [
+    {
+      q: '일반 가구도 드림스타트를 이용할 수 있나요?',
+      anchor: '일반가구',
+      intro: '기초수급자·차상위계층이 아닌 일반 가구는 원칙적으로 드림스타트 대상이 아닙니다. 다만 학대·방임·한부모·조손 등 위기 가구는 사례관리사 판단에 따라 소득 기준과 무관하게 포함될 수 있습니다. 순수 일반 가구(소득 기준 초과, 위기 상황 아님)는 드림스타트 이용이 어렵습니다.',
+      highlights: ['일반 가구 원칙 제외', '위기 가구 예외', '사례관리사 판단'],
+      table: {
+        headers: ['가구 유형', '신청 가능 여부'],
+        rows: [
+          ['기초수급자 가구', '가능 (원칙적 대상)'],
+          ['차상위계층 가구', '가능 (원칙적 대상)'],
+          ['학대·방임 피해 아동 가구', '소득 무관 가능 (사례관리사 판단)'],
+          ['한부모·조손 가구', '소득 무관 가능 (위기 가구 해당 시)'],
+          ['일반 가구 (소득 기준 초과)', '원칙적으로 대상 외'],
+        ],
+      },
+      box: { label: '핵심', content: '일반 가구는 원칙 제외. 위기 가구(학대·방임 등)는 소득 무관 가능. 사업단 문의 권장.' },
+    },
+    {
+      q: '한부모 가구인데 소득이 기준을 초과해도 신청할 수 있나요?',
+      anchor: '한부모소득초과',
+      intro: '위기 가구 여부는 드림스타트 사례관리사가 판단합니다. 한부모 가구라도 소득이 기준을 초과하면 자동으로 포함되지 않지만, 위기 상황이 인정되면 포함될 수 있습니다. 일단 거주지 드림스타트 사업단에 상담을 신청해 보세요.',
+      highlights: ['사례관리사 판단', '사업단 상담 권장'],
+      box: { label: '안내', content: '한부모라도 소득 초과 시 자동 포함 아님. 사업단에 상담 신청 후 사례관리사 판단.' },
+    },
+    {
+      q: '아이가 학대 피해를 받았는데 드림스타트를 신청할 수 있나요?',
+      anchor: '학대피해',
+      intro: '학대·방임은 위기 상황으로 인정되어 사례관리사 판단에 따라 소득 기준과 무관하게 포함될 수 있습니다. 가정폭력, 보호자 부재, 방임 상황도 마찬가지입니다. 거주지 드림스타트 사업단이나 아동보호전문기관에 문의하면 안내를 받을 수 있습니다.',
+      highlights: ['학대·방임 위기 인정', '소득 무관 가능', '아동보호전문기관'],
+      box: { label: '위기 가구', content: '학대·방임·가정폭력·보호자 부재 = 위기 가구. 소득 무관 포함 가능. 사업단 상담.' },
+    },
+    {
+      q: '드림스타트를 받지 못하는 일반 가구 아이가 이용할 수 있는 서비스가 있나요?',
+      anchor: '대안서비스',
+      intro: '지역아동센터, 방과후학교, 돌봄교실 등이 소득 무관 또는 완화된 기준으로 이용 가능합니다. 지역아동센터는 일부 일반 가구 아동도 이용 가능하며, 방과후학교와 돌봄교실은 소득 기준 없이 초등학생이라면 이용할 수 있습니다.',
+      highlights: ['지역아동센터', '방과후학교', '돌봄교실', '소득 무관'],
+      box: { label: '대안', content: '지역아동센터·방과후학교·돌봄교실은 소득 무관 또는 완화된 기준. 일반 가구도 이용 가능.' },
+    },
+    {
+      q: '드림스타트 신청 문의는 어디서 하나요?',
+      anchor: '문의',
+      intro: '거주 지역 시·군·구 드림스타트 사업단 또는 정부24(gov.kr)에서 문의하거나 신청할 수 있습니다. 사업단 담당자에게 가구 상황을 설명하면 신청 가능 여부를 안내받을 수 있습니다.',
+      highlights: ['시·군·구 사업단', '정부24'],
+      box: { label: '문의처', content: '시·군·구 드림스타트 사업단 또는 정부24(gov.kr). 가구 상황 설명 후 자격 여부 확인.' },
+    },
+    {
+      q: '조손 가구(할머니·할아버지가 키우는 경우)도 드림스타트를 신청할 수 있나요?',
+      anchor: '조손가구',
+      intro: '조손 가구는 위기 가구로 인정될 수 있어 소득 기준을 초과해도 사례관리사 판단에 따라 포함될 수 있습니다. 부모가 없거나 돌볼 수 없는 상황에서 조부모가 양육하는 경우가 해당됩니다. 드림스타트 사업단에 상담을 요청하세요.',
+      highlights: ['조손 가구 위기 가구 인정 가능', '사업단 상담'],
+      box: { label: '조손 가구', content: '조손 가구는 위기 가구로 인정 가능. 소득 초과해도 사업단 상담 후 포함 가능.' },
+    },
+    {
+      q: '드림스타트는 소득 조사를 하나요?',
+      anchor: '소득조사',
+      intro: '드림스타트 신청 시 기초수급·차상위 자격 여부 확인을 위해 소득 조사가 이루어집니다. 이미 기초수급·차상위 대상자로 등록된 경우에는 별도 조사 없이 자격 확인이 가능합니다. 위기 가구로 신청하는 경우 가구 상황 조사가 이루어질 수 있습니다.',
+      highlights: ['소득 조사', '기초수급·차상위 자동 확인', '위기 가구 상황 조사'],
+      box: { label: '조사 방식', content: '기초수급·차상위는 기존 등록 확인. 위기 가구는 가구 상황 조사 후 판단.' },
+    },
+  ],
   faqData: [
     {
       q: '일반 가구도 드림스타트를 이용할 수 있나요?',
@@ -111,7 +88,7 @@ export const 드림스타트일반가구신청SpokeContent: SpokeData = {
     },
     {
       q: '한부모 가구인데 소득이 기준을 초과해도 신청할 수 있나요?',
-      a: '위기 가구 여부는 드림스타트 사례관리사가 판단합니다. 일단 거주지 드림스타트 사업단에 문의해 보세요.',
+      a: '위기 가구 여부는 드림스타트 사례관리사가 판단합니다. 거주지 드림스타트 사업단에 문의해 보세요.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

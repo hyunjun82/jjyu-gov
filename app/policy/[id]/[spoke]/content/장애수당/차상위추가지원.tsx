@@ -1,111 +1,117 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          차상위계층 경증 장애인은 장애수당 <strong>월 6만원</strong> 외에
-          차상위 건강보험료 경감, 통신비 감면 등 추가 혜택도 받을 수 있습니다.
-          장애수당은 기초수급자와 차상위계층 모두 동일한 금액이 지급됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "차상위계층 경증 장애인인데 장애수당 외에 더 받을 수 있는 지원이 있나요?"
-        차상위계층 장애인이 받을 수 있는 추가 지원을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="extra-support">
-        <h2 className="detail-card-head">차상위계층 장애인 추가 지원 항목</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>지원 항목</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>장애수당</strong></td>
-                <td>월 6만원 (차상위계층 포함 동일)</td>
-              </tr>
-              <tr>
-                <td><strong>건강보험료 경감</strong></td>
-                <td>차상위 건강보험료 50~100% 경감</td>
-              </tr>
-              <tr>
-                <td><strong>통신비 감면</strong></td>
-                <td>장애인 통신요금 감면 (이동통신사 신청)</td>
-              </tr>
-              <tr>
-                <td><strong>장애인 활동지원</strong></td>
-                <td>중증 대상이나 경증도 일부 조건 충족 시 신청 가능</td>
-              </tr>
-              <tr>
-                <td><strong>에너지바우처</strong></td>
-                <td>차상위계층 해당 시 신청 가능 (매년 신청)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="compare-sugeup">
-        <h2 className="detail-card-head">기초수급자 vs 차상위계층 장애수당 차이</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기초수급자 경증:</strong> 장애수당 월 6만원 + 기초수급 급여 (생계·의료·주거·교육) 별도 수급
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>차상위계층 경증:</strong> 장애수당 월 6만원 + 차상위 건강보험료 경감 등 차상위 혜택
-          </div>
-          <div className="info-box">
-            <strong>장애수당 금액:</strong> 두 계층 모두 동일하게 월 6만원
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>장애수당:</strong> 거주지 읍·면·동 행정복지센터 또는 복지로
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>통신비 감면:</strong> 이동통신사 고객센터 또는 대리점
-          </div>
-          <div className="info-box">
-            <strong>에너지바우처:</strong> 매년 신청 기간에 읍·면·동 행정복지센터
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            장애수당 자격, 장애인연금과의 차이 등<br />
-            장애수당 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-allowance" className="btn-cta">
-            장애수당 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애수당차상위추가지원SpokeContent: SpokeData = {
   h1: '장애수당이 월 6만원인 이유와 차상위계층 장애인이 받을 수 있는 추가 지원',
   breadcrumb: '차상위추가지원',
   description:
     '차상위계층 경증 장애인 장애수당 월 6만원(수급자 동일). 추가 지원: 건강보험료 경감·통신비 감면·에너지바우처·장애인 활동지원. 복지로·행정복지센터 신청.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '장애수당': '기초수급자·차상위 동일 월 6만원',
+    '건강보험료 경감': '차상위 건강보험료 50~100% 감면',
+    '통신비 감면': '이동통신사 고객센터·대리점 신청',
+    '에너지바우처': '매년 신청 기간에 행정복지센터 신청',
+    '장애인 활동지원': '중증 대상이나 경증도 일부 조건 충족 시 가능',
+  },
+  keyFactsHighlights: {
+    '장애수당': ['6만원'],
+    '건강보험료 경감': ['50~100% 감면'],
+  },
+  qa: [
+    {
+      q: '차상위계층 경증 장애인이 받을 수 있는 지원을 모두 알려주세요',
+      anchor: 'all-support',
+      intro: '차상위계층 경증 장애인은 장애수당 월 6만원 외에도 차상위 건강보험료 경감, 통신비 감면, 에너지바우처, 장애인 활동지원(조건 충족 시) 등 다양한 추가 지원을 받을 수 있습니다. 각 지원은 별도 신청이 필요하며, 행정복지센터에서 종합 상담을 받으면 받을 수 있는 모든 지원을 한번에 안내받을 수 있습니다.',
+      highlights: ['장애수당', '건강보험료 경감', '통신비 감면', '에너지바우처'],
+      table: {
+        headers: ['지원 항목', '내용'],
+        rows: [
+          ['장애수당', '월 6만원 (차상위계층 포함 동일)'],
+          ['건강보험료 경감', '차상위 건강보험료 50~100% 경감'],
+          ['통신비 감면', '장애인 통신요금 감면 (이동통신사 신청)'],
+          ['장애인 활동지원', '중증 대상이나 경증도 일부 조건 충족 시 신청 가능'],
+          ['에너지바우처', '차상위계층 해당 시 신청 가능 (매년 신청)'],
+        ],
+      },
+    },
+    {
+      q: '장애수당이 월 6만원밖에 안 되는 이유는 무엇인가요?',
+      anchor: 'why-low',
+      intro: '장애수당은 경증 장애인을 위한 소액 보조 수당으로, 중증 장애인 대상 장애인연금(최대 43만 9,700원)과는 별도로 설계된 제도입니다. 경증 장애인은 일상생활 자립이 비교적 가능하다는 전제 하에 소액 보조금 성격으로 지급됩니다. 추가로 받을 수 있는 지원을 모두 활용하면 실질적인 혜택을 높일 수 있습니다.',
+      highlights: ['경증 보조 수당', '소액', '장애인연금과 별도'],
+      box: {
+        label: '장애 지원 체계',
+        content: '경증 장애수당: 월 6만원 (소액 보조)
+중증 장애인연금: 월 최대 43만 9,700원 (생활 보장)
+→ 중증·경증 구분에 따라 지원 수준이 다름',
+      },
+    },
+    {
+      q: '기초수급자와 차상위계층 장애수당 금액이 같은가요?',
+      anchor: 'same-amount',
+      intro: '네, 장애수당은 기초수급자와 차상위계층 모두 동일하게 월 6만원입니다. 단, 기초수급자는 장애수당 외에 생계급여, 의료급여, 주거급여 등 기초수급 급여가 추가로 지급됩니다. 차상위계층은 기초수급 급여 대신 건강보험료 경감 등 차상위 전용 혜택을 받습니다.',
+      highlights: ['동일 6만원', '기초수급자', '차상위계층'],
+      table: {
+        headers: ['구분', '장애수당', '추가 지원'],
+        rows: [
+          ['기초수급자 경증', '월 6만원', '생계·의료·주거·교육급여 별도'],
+          ['차상위계층 경증', '월 6만원', '건강보험료 경감·통신비 감면 등'],
+        ],
+      },
+    },
+    {
+      q: '건강보험료 경감은 어떻게 신청하나요?',
+      anchor: 'health-insurance',
+      intro: '차상위 건강보험료 경감은 국민건강보험공단(☎1577-1000)에 신청하거나 거주지 행정복지센터에서 차상위계층 확인서를 발급받아 공단에 제출하면 됩니다. 경감 수준은 가구 상황에 따라 50%~100%까지 다양합니다.',
+      highlights: ['건강보험료 경감', '차상위 확인서', '☎1577-1000'],
+      box: {
+        label: '건강보험료 경감 신청',
+        content: '신청처: 국민건강보험공단(☎1577-1000) 또는 행정복지센터
+필요 서류: 차상위계층 확인서
+경감 수준: 50~100% (가구 상황에 따라)',
+      },
+    },
+    {
+      q: '통신비 감면은 어떻게 신청하나요?',
+      anchor: 'telecom',
+      intro: '이동통신사 고객센터나 대리점에서 장애인등록증을 제출하면 통신비 감면을 신청할 수 있습니다. 장애인 요금제 또는 감면 적용을 요청하면 됩니다. SKT·KT·LGU+ 등 각 통신사마다 감면 수준이 다를 수 있으므로 직접 확인하세요.',
+      highlights: ['통신비 감면', '장애인등록증', '이동통신사'],
+      table: {
+        headers: ['신청 방법', '내용'],
+        rows: [
+          ['이동통신사 고객센터', '전화 또는 앱에서 신청'],
+          ['이동통신사 대리점', '장애인등록증 지참 방문'],
+          ['필요 서류', '장애인등록증 또는 복지카드'],
+        ],
+      },
+    },
+    {
+      q: '에너지바우처도 자동으로 받을 수 있나요?',
+      anchor: 'energy',
+      intro: '에너지바우처는 매년 신청 기간에 별도로 신청해야 합니다. 자동 지급이 아닙니다. 거주지 읍·면·동 행정복지센터에서 신청하면 되며, 신청 기간이 정해져 있으므로 매년 확인하여 기간 내에 신청하세요.',
+      highlights: ['에너지바우처', '매년 신청', '자동 지급 아님'],
+      box: {
+        label: '에너지바우처 신청',
+        content: '신청 시기: 매년 신청 기간 내 (연 1회)
+신청처: 거주지 읍·면·동 행정복지센터
+대상: 기초수급자 또는 차상위계층 중 에너지 취약계층
+주의: 자동 지급 아님 — 매년 별도 신청 필요',
+      },
+    },
+    {
+      q: '경증 장애인도 장애인 활동지원을 받을 수 있나요?',
+      anchor: 'activity-support',
+      intro: '장애인 활동지원은 원칙적으로 중증(심한 장애인) 대상이지만, 경증이라도 일정 조건(일상생활 어려움 등)을 충족하면 신청이 가능한 경우가 있습니다. 거주지 행정복지센터 또는 국민연금공단(☎1355)에서 상담을 받아보세요.',
+      highlights: ['경증 활동지원', '조건 충족 시', '☎1355'],
+      box: {
+        label: '경증 활동지원 가능 여부',
+        content: '원칙: 중증(심한 장애인) 대상
+경증 예외: 종합조사 결과에 따라 일부 가능
+문의: 국민연금공단(☎1355) 또는 행정복지센터',
+      },
+    },
+  ],
   faqData: [
     {
       q: '차상위계층 경증 장애인도 장애수당을 받나요?',

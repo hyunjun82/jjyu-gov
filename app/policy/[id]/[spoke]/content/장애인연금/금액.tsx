@@ -1,137 +1,117 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          2026년 장애인연금은 기초급여 <strong>월 34만 9,700원</strong> +
-          부가급여 <strong>월 최대 9만원</strong>으로 합산 <strong>월 최대 43만 9,700원</strong>입니다.
-          기초급여는 2025년 소비자물가변동률 2.1%를 반영해 7,190원 인상됐습니다.
-          부가급여는 기초생활수급 여부와 가구 유형에 따라 달라집니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "기초급여와 부가급여를 합치면 얼마인가요?"
-        기초수급자 기준 최대 금액과 유형별 금액을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">장애인연금 기초급여 + 부가급여 | 기초수급자 합산 최대 금액</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>월 지급액</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>기초급여</td>
-                <td><strong>34만 9,700원</strong></td>
-                <td>2026년 2.1% 인상 (7,190원↑)</td>
-              </tr>
-              <tr>
-                <td>부가급여 (기초수급자 기준)</td>
-                <td><strong>9만원</strong></td>
-                <td>가구 유형별 차등</td>
-              </tr>
-              <tr>
-                <td>합산 최대</td>
-                <td><strong>43만 9,700원</strong></td>
-                <td>기초수급자 + 중증장애 기준</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            정확한 부가급여 금액은 기초생활 수급 여부, 가구 유형, 연령(18~64세 vs 65세+)에 따라
-            달라집니다. 거주지 행정복지센터에서 본인 금액을 확인하세요.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="rise">
-        <h2 className="detail-card-head">2026년 인상 — 기초급여 7,190원 올랐다</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>연도</th><th>기초급여</th><th>인상폭</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>2025년</td>
-                <td>34만 2,510원</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>2026년</td>
-                <td><strong>34만 9,700원</strong></td>
-                <td><strong>+7,190원 (2.1%)</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            기초급여는 전년도 소비자물가변동률을 반영해 매년 조정됩니다.
-            2026년은 2025년 소비자물가변동률 2.1%를 적용했습니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">수령을 위한 소득 기준 — 선정기준액</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>가구 유형</th><th>2025년</th><th>2026년</th><th>인상폭</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>단독가구</td>
-                <td>138만원</td>
-                <td><strong>140만원</strong></td>
-                <td>+2만원</td>
-              </tr>
-              <tr>
-                <td>부부가구</td>
-                <td>220만 8천원</td>
-                <td><strong>224만원</strong></td>
-                <td>+3만 2천원</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            소득인정액(소득 + 재산 환산액)이 기준 이하인 경우에만 수령할 수 있습니다.
-            신청 시 행정복지센터에서 자동 산정됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            장애수당 차이, 3급 기준, 신청방법 등<br />
-            장애인연금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-pension" className="btn-cta">
-            장애인연금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애인연금금액SpokeContent: SpokeData = {
   h1: '장애인연금 기초급여 + 부가급여 | 기초수급자 합산 최대 금액',
   breadcrumb: '지급금액',
   description:
     '2026년 장애인연금 기초급여 월 34만 9,700원(2.1% 인상) + 부가급여 최대 9만원 = 합산 최대 43만 9,700원. 수령 자격: 소득인정액 단독 140만원·부부 224만원 이하. 부가급여는 기초수급 여부에 따라 다름.',
-  datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '기초급여 (2026)': '월 34만 9,700원',
+    '부가급여 (기초수급자)': '월 최대 9만원',
+    '합산 최대': '월 43만 9,700원',
+    '단독가구 소득 기준': '140만원 이하',
+    '부부가구 소득 기준': '224만원 이하',
+  },
+  keyFactsHighlights: {
+    '기초급여 (2026)': ['34만 9,700원'],
+    '합산 최대': ['43만 9,700원'],
+    '부가급여 (기초수급자)': ['9만원'],
+  },
+  qa: [
+    {
+      q: '2026년 장애인연금 기초급여와 부가급여를 합치면 얼마인가요?',
+      anchor: 'total',
+      intro: '2026년 장애인연금은 기초급여 월 34만 9,700원 + 부가급여 최대 9만원으로, 합산 최대 43만 9,700원입니다. 기초급여는 2025년(34만 2,510원) 대비 7,190원(2.1%) 인상됐으며, 부가급여는 기초생활 수급 여부와 가구 유형에 따라 달라집니다.',
+      highlights: ['34만 9,700원', '9만원', '43만 9,700원'],
+      table: {
+        headers: ['항목', '월 지급액', '비고'],
+        rows: [
+          ['기초급여', '34만 9,700원', '2026년 2.1% 인상 (7,190원↑)'],
+          ['부가급여 (기초수급자 기준)', '9만원', '가구 유형별 차등'],
+          ['합산 최대', '43만 9,700원', '기초수급자 + 중증장애 기준'],
+        ],
+      },
+    },
+    {
+      q: '기초급여는 어떻게 결정되나요?',
+      anchor: 'basic',
+      intro: '기초급여는 전년도 소비자물가변동률을 반영하여 매년 조정됩니다. 2026년에는 2025년 소비자물가변동률 2.1%를 반영하여 7,190원 인상됐습니다. 소득인정액이 선정기준액 이하인 중증 장애인에게 지급됩니다.',
+      highlights: ['소비자물가변동률', '2.1%', '7,190원'],
+      table: {
+        headers: ['연도', '기초급여', '인상폭'],
+        rows: [
+          ['2025년', '34만 2,510원', '-'],
+          ['2026년', '34만 9,700원', '+7,190원 (2.1%)'],
+        ],
+      },
+    },
+    {
+      q: '부가급여는 어떻게 결정되나요?',
+      anchor: 'additional',
+      intro: '부가급여는 기초생활 수급 여부, 가구 유형(단독·부부), 연령(18~64세 / 65세 이상) 등에 따라 차등 지급됩니다. 기초수급자 기준 최대 9만원이며, 차상위계층이나 소득 기준 초과자는 다른 금액이 적용됩니다. 정확한 부가급여는 행정복지센터에서 확인하세요.',
+      highlights: ['부가급여 최대 9만원', '가구 유형', '기초수급자'],
+      box: {
+        label: '부가급여 결정 요소',
+        content: '기초생활 수급 여부 (생계·의료급여 등)
+가구 유형 (단독/부부)
+연령 (18~64세 / 65세 이상)
+→ 정확한 금액은 행정복지센터에서 확인',
+      },
+    },
+    {
+      q: '소득인정액이 얼마 이하여야 받을 수 있나요?',
+      anchor: 'income-limit',
+      intro: '2026년 기준 소득인정액이 단독가구 140만원, 부부가구 224만원 이하여야 합니다. 소득인정액은 근로소득·사업소득 등 실제 소득과 재산을 소득으로 환산한 금액의 합산액입니다. 신청 시 행정복지센터에서 자동 산정됩니다.',
+      highlights: ['단독 140만원', '부부 224만원', '소득인정액'],
+      table: {
+        headers: ['가구 유형', '2025년', '2026년'],
+        rows: [
+          ['단독가구', '138만원', '140만원'],
+          ['부부가구', '220만 8천원', '224만원'],
+        ],
+      },
+    },
+    {
+      q: '부부가 둘 다 장애인연금을 받을 수 있나요?',
+      anchor: 'couple',
+      intro: '부부 모두 중증 장애인이고 소득 기준을 충족하면 각각 받을 수 있지만, 부부 모두 받는 경우 기초급여는 각각 20% 감액됩니다. 정확한 금액은 가구 상황에 따라 다르므로 행정복지센터에서 확인하세요.',
+      highlights: ['부부 모두 가능', '20% 감액'],
+      box: {
+        label: '부부 동시 수급',
+        content: '부부 모두 중증 + 소득 기준 이하 → 각각 수급 가능
+단, 부부 모두 받는 경우 기초급여 각각 20% 감액
+정확한 금액: 행정복지센터에서 확인',
+      },
+    },
+    {
+      q: '만 65세가 되면 장애인연금이 어떻게 바뀌나요?',
+      anchor: 'age65',
+      intro: '만 65세가 되면 장애인연금 기초급여 대신 기초연금으로 전환됩니다. 기초연금이 장애인연금 기초급여보다 낮은 경우에는 차액을 보전받을 수 있습니다. 65세 도달 전에 거주지 행정복지센터에서 재상담을 받는 것을 권장합니다.',
+      highlights: ['65세', '기초연금 전환', '차액 보전'],
+      table: {
+        headers: ['연령', '해당 제도', '비고'],
+        rows: [
+          ['18~64세', '장애인연금 (기초급여+부가급여)', '현재'],
+          ['65세 이상', '기초연금 전환', '차액 보전 가능'],
+        ],
+      },
+    },
+    {
+      q: '신청 방법은 어떻게 되나요?',
+      anchor: 'apply',
+      intro: '거주지 읍·면·동 행정복지센터를 방문하거나 복지로(bokjiro.go.kr)에서 온라인으로 신청합니다. 신청 후 약 2~4주 자격 심사를 거쳐 자격이 확인되면 다음 달부터 지급됩니다.',
+      highlights: ['행정복지센터', '복지로', '2~4주'],
+      box: {
+        label: '신청 안내',
+        content: '방문: 거주지 읍·면·동 행정복지센터
+온라인: 복지로(bokjiro.go.kr)
+준비 서류: 장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서
+심사 기간: 약 2~4주',
+      },
+    },
+  ],
   faqData: [
     {
       q: '2026년 장애인연금 기초급여는 얼마인가요?',

@@ -1,101 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          임신 중 쓰고 남은 국민행복카드 잔액은 <strong>출산 후에도 계속 사용</strong>할 수 있습니다.
-          사용 기간은 <strong>신청일부터 출산일(또는 분만예정일) 후 2년까지</strong>입니다.
-          남은 잔액은 출생한 아이의 진료비·약제비에도 쓸 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "임신 때 국민행복카드를 다 못 썼는데, 출산 후 아이 병원비로 쓸 수 있나요?"
-        잔액 사용 기간과 사용 대상을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="period">
-        <h2 className="detail-card-head">사용 기간 정리</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>사용 가능 기간</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>임산부 본인 진료</strong></td>
-                <td>신청일 ~ 출산일 후 2년</td>
-              </tr>
-              <tr>
-                <td><strong>영유아(아이) 진료</strong></td>
-                <td>출생일 ~ 2년 이내</td>
-              </tr>
-              <tr>
-                <td><strong>유산·사산</strong></td>
-                <td>유산·사산일 기준 (공단 확인)</td>
-              </tr>
-              <tr>
-                <td><strong>잔액</strong></td>
-                <td>기간 만료 시 자동 소멸 (환불 불가)</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            잔액은 기간이 지나면 자동으로 소멸되므로, 만료 전에 모두 사용하는 것이 좋습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="baby-use">
-        <h2 className="detail-card-head">출생 후 아이 진료비로 사용하는 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            출생일로부터 2년 이내 영유아의 <strong>진료비와 처방 약제비</strong>에 사용할 수 있습니다.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            병원에서 카드를 제시하면 자동으로 바우처에서 차감됩니다. 별도 전환 신청 없이 사용 가능합니다.
-          </div>
-          <div className="info-box">
-            아이 이름으로 처방전이 발행된 경우에도 부모의 국민행복카드로 결제됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="usage-tips">
-        <h2 className="detail-card-head">잔액 소진 방법 (기간 내)</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>산후조리원:</strong> 일부 산후조리원은 국민행복카드 결제 가능 (확인 필요)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>한방 의료기관:</strong> 건강보험 적용 한방 진료 및 처방약에 사용 가능
-          </div>
-          <div className="info-box">
-            <strong>조산원:</strong> 건강보험이 적용되는 조산원 출산 비용에 사용 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 금액, 신청 방법, 사용처 범위 등<br />
-            임신·출산 진료비 지원 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/pregnancy-medical-benefit" className="btn-cta">
-            임신·출산 진료비 지원 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 임신출산잔액사용기간SpokeContent: SpokeData = {
   h1: '임신 중 쓰고 남은 국민행복카드 잔액, 출산 후 아이 진료비로도 쓸 수 있나',
@@ -103,8 +6,69 @@ export const 임신출산잔액사용기간SpokeContent: SpokeData = {
   description:
     '국민행복카드 사용 기간: 신청일~출산 후 2년. 출생일~2년 이내 영유아 진료비에도 사용 가능. 잔액은 기간 만료 시 자동 소멸. 별도 전환 신청 없이 병원 카드 결제로 차감.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '사용 기간': '신청일 ~ 출산일 후 2년',
+    '영유아 사용': '출생일로부터 2년 이내 진료비 가능',
+    '잔액 소멸': '기간 만료 시 자동 소멸',
+    '전환 신청': '불필요 (영유아 진료비 자동 포함)',
+    '사용 방법': '의료기관 카드 단말기 결제',
+  },
+  keyFactsHighlights: {
+    '사용 기간': ['출산일 후 2년'],
+    '잔액 소멸': ['자동 소멸'],
+  },
+  qa: [
+    {
+      q: '국민행복카드 사용 기간은 언제까지인가요?',
+      anchor: 'period',
+      intro: '국민행복카드는 카드 신청일부터 출산일 후 2년까지 사용할 수 있습니다. 예를 들어 2024년 1월 출산이라면 2026년 1월까지 사용 가능합니다. 기간이 만료되면 남은 잔액은 자동으로 소멸되므로 기간 내에 모두 사용하는 것이 좋습니다.',
+      highlights: ['출산 후 2년', '기간 만료 시 소멸'],
+      box: { label: '사용 기간', content: '신청일 ~ 출산일로부터 2년. 기간 만료 후 잔액 자동 소멸' },
+    },
+    {
+      q: '임신 중 남은 잔액을 아이 진료비로 쓸 수 있나요?',
+      anchor: 'baby',
+      intro: '네, 임신 중 쓰고 남은 잔액은 출생일로부터 2년 이내 영유아 진료비에도 사용할 수 있습니다. 별도 전환 신청 없이 아이 진료 시 국민행복카드로 결제하면 됩니다. 소아과, 예방접종, 영유아 건강검진 비용 등에 활용할 수 있습니다.',
+      highlights: ['영유아 진료비 가능', '별도 신청 불필요'],
+      box: { label: '영유아 사용', content: '별도 신청 없이 아이 진료 시 국민행복카드로 결제. 출생일로부터 2년 이내' },
+    },
+    {
+      q: '잔액이 소멸되기 전에 알림을 받을 수 있나요?',
+      anchor: 'notification',
+      intro: '카드사 앱 또는 SMS 알림 서비스를 설정하면 잔액 만료 전 알림을 받을 수 있습니다. 카드사별로 알림 서비스 제공 여부와 설정 방법이 다르므로 신청한 카드사에 문의하거나 앱에서 확인하세요.',
+      highlights: ['카드사 앱 알림', 'SMS 설정'],
+      box: { label: '알림 설정', content: '카드사 앱에서 잔액 만료 알림 설정. 카드사 고객센터에 문의' },
+    },
+    {
+      q: '사용 기간이 지난 잔액을 다시 받을 수 있나요?',
+      anchor: 'expired',
+      intro: '기간이 만료된 잔액은 복구가 불가능합니다. 사용 기간 내에 소진하지 못한 금액은 자동으로 소멸됩니다. 이를 방지하려면 영유아 진료비(소아과·예방접종 등)에 적극적으로 활용하는 것을 권장합니다.',
+      highlights: ['복구 불가', '기간 내 소진 권장'],
+      box: { label: '주의', content: '기간 만료 후 잔액 복구 불가. 아이 소아과·예방접종 비용에 미리 활용할 것' },
+    },
+    {
+      q: '쌍둥이라면 사용 기간이 달라지나요?',
+      anchor: 'twins',
+      intro: '쌍둥이(다태아)라도 사용 기간은 동일하게 출산일 후 2년까지입니다. 다만 지원 금액이 더 크므로(2태아 200만원, 3태아 300만원), 영유아 진료비를 두 아이에게 활용하면 잔액을 더 효과적으로 사용할 수 있습니다.',
+      highlights: ['출산 후 2년 동일', '두 아이 모두 사용 가능'],
+      box: { label: '다태아', content: '사용 기간 동일(출산 후 2년). 두 아이 진료비 모두 활용 가능' },
+    },
+    {
+      q: '유산·사산한 경우 사용 기간은 어떻게 되나요?',
+      anchor: 'miscarriage',
+      intro: '유산·사산 시에는 카드사에 연락하여 잔액 처리 방법을 안내받아야 합니다. 일반적으로 유산·사산 이후 일정 기간 내 의료기관 진료비로 사용이 가능하지만, 세부 규정은 카드사 및 건강보험 규정에 따라 다를 수 있습니다.',
+      highlights: ['카드사 문의 필요', '의료비 사용 가능'],
+      box: { label: '유산·사산', content: '카드사 고객센터에 연락하여 잔액 처리 안내 받기' },
+    },
+    {
+      q: '잔액은 어떻게 확인하나요?',
+      anchor: 'check',
+      intro: '잔액은 카드사 앱, 홈페이지, ARS 전화를 통해 확인할 수 있습니다. 의료기관 결제 시 영수증에 잔액이 표시되기도 합니다. 정확한 확인 방법은 신청한 카드사(KB·신한·롯데·우리·하나)에 문의하세요.',
+      highlights: ['카드사 앱', '홈페이지', 'ARS'],
+      box: { label: '잔액 확인', content: '카드사 앱·홈페이지·ARS. 결제 후 영수증에서도 확인 가능' },
+    },
+  ],
   faqData: [
     {
       q: '출산 후에도 국민행복카드 잔액을 쓸 수 있나요?',
@@ -113,26 +77,26 @@ export const 임신출산잔액사용기간SpokeContent: SpokeData = {
       sourceUrl: 'https://www.nhis.or.kr',
     },
     {
-      q: '아이 이름으로 된 처방전에도 국민행복카드로 결제가 되나요?',
-      a: '네, 출생일 후 2년 이내 영유아의 진료비라면 부모의 국민행복카드로 결제할 수 있습니다.',
+      q: '잔액이 소멸되면 어떻게 되나요?',
+      a: '기간 만료 후 잔액은 자동으로 소멸됩니다. 복구가 불가능합니다.',
       source: '국민건강보험공단',
       sourceUrl: 'https://www.nhis.or.kr',
     },
     {
-      q: '잔액이 남으면 환불이 되나요?',
-      a: '아니요, 기간 만료 시 자동으로 소멸됩니다. 환불은 되지 않으므로 기간 내에 모두 사용하는 것이 좋습니다.',
-      source: '국민건강보험공단',
-      sourceUrl: 'https://www.nhis.or.kr',
-    },
-    {
-      q: '산후조리원에서도 사용할 수 있나요?',
-      a: '일부 산후조리원이 국민행복카드 결제가 가능하지만, 모든 곳이 해당되지는 않습니다. 이용 예정 산후조리원에 미리 확인하세요.',
+      q: '영유아 진료비로 전환하려면 별도 신청이 필요한가요?',
+      a: '별도 신청 없이 아이 진료 시 국민행복카드로 결제하면 됩니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
     {
-      q: '유산한 경우 잔액은 어떻게 되나요?',
-      a: '유산·사산의 경우에도 사용 기간이 설정되며, 정확한 기간은 국민건강보험공단에 문의하세요.',
+      q: '잔액은 어디서 확인하나요?',
+      a: '카드사 앱, 홈페이지, ARS에서 확인 가능합니다.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.nhis.or.kr',
+    },
+    {
+      q: '쌍둥이면 두 아이 모두 진료비로 쓸 수 있나요?',
+      a: '네, 두 아이 모두 출생일로부터 2년 이내 진료비에 사용 가능합니다.',
       source: '국민건강보험공단',
       sourceUrl: 'https://www.nhis.or.kr',
     },

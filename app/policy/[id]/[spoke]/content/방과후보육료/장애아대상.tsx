@@ -1,107 +1,101 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          <strong>장애아동은 소득 기준과 무관하게</strong> 방과후 보육료 지원 대상입니다.
-          차상위 초과 가구여도 장애아동으로 등록된 경우 어린이집을
-          <strong>일일 4시간 이상</strong> 이용하면 장애아보육료의
-          <strong>50%(최대 317,000원)</strong>을 지원받을 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "차상위 기준은 안 넘는데 장애아동이면 방과후 보육료 대상인가요?"
-        장애아동은 별도 소득 기준이 없습니다. 조건과 지원 내용을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="disability">
-        <h2 className="detail-card-head">차상위 기준은 안 넘는데 장애아동이면 방과후 보육료 대상인가</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>소득 기준</th><th>지원 금액</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>일반아동</strong></td>
-                <td>차상위 이하 (법정 저소득층)</td>
-                <td>월 100,000원</td>
-              </tr>
-              <tr>
-                <td><strong>장애아동</strong></td>
-                <td><strong>소득 기준 없음</strong></td>
-                <td>장애아보육료의 50%<br />(최대 317,000원)</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            장애아동은 소득과 관계없이 지원됩니다. 단, 만 12세 이하 초등 취학아동이어야 하고
-            방과후 어린이집을 일일 4시간 이상 이용해야 합니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="disability-conditions">
-        <h2 className="detail-card-head">장애아동 방과후 보육료 지원 조건</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 장애 등록:</strong> 「장애인복지법」에 따른 장애인으로 등록된 아동
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 연령:</strong> 만 12세 이하 초등 취학아동
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>③ 이용 시간:</strong> 방과후 어린이집 일일 4시간 이상 이용
-          </div>
-          <div className="info-box">
-            <strong>④ 교사 비율:</strong> 어린이집이 교사 대 아동 비율(1:3)을 준수해야
-            장애아보육료 50% 지원 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인:</strong> 복지로(bokjiro.go.kr) → 복지서비스 신청 → 방과후보육료
-          </div>
-          <div className="info-box">
-            <strong>방문:</strong> 거주지 읍·면·동 행정복지센터(주민센터) 방문 신청
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            일반아동 조건, 연장보육료 중복 여부 등<br />
-            방과후 보육료 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/after-school-childcare-fee" className="btn-cta">
-            방과후 보육료 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애아대상SpokeContent: SpokeData = {
   h1: '차상위 기준은 안 넘는데 장애아동이면 방과후 보육료 대상인가',
   breadcrumb: '장애아대상',
   description:
     '장애아동은 소득 기준 없이 방과후 보육료 지원 대상. 만 12세 이하 초등 취학, 일일 4시간 이상 이용 조건 충족 시 장애아보육료의 50%(최대 317,000원) 지원. 교사 대 아동 비율(1:3) 준수 어린이집에 한함.',
-  datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '장애아동 소득 기준': '없음 (소득 기준과 무관하게 지원)',
+    '지원 금액': '장애아보육료의 50% (최대 317,000원)',
+    '연령 조건': '만 12세 이하 초등 취학아동',
+    '이용 조건': '방과후 어린이집 일일 4시간 이상',
+    '교사 비율': '교사 대 아동 1:3 준수 어린이집',
+  },
+  keyFactsHighlights: {
+    '장애아동 소득 기준': ['없음'],
+    '지원 금액': ['최대 317,000원'],
+  },
+  qa: [
+    {
+      q: '장애아동이면 소득과 상관없이 방과후 보육료를 받을 수 있나요?',
+      anchor: 'disability-eligibility',
+      intro:
+        '네, 장애아동은 소득 기준과 무관하게 방과후 보육료 지원 대상입니다. 차상위 초과 가구의 장애아동도 방과후 어린이집을 일일 4시간 이상 이용하면 장애아보육료의 50%를 지원받을 수 있습니다. 단, 만 12세 이하 초등 취학아동이어야 하며, 장애인복지법에 따라 등록된 장애아동이어야 합니다. 장애 등록이 되어 있지 않은 경우에는 장애아동 기준이 아닌 일반아동 기준(차상위 이하)이 적용됩니다.',
+      highlights: ['소득 기준 없음', '장애 등록 필수', '만 12세 이하', '4시간 이상'],
+      table: {
+        headers: ['구분', '소득 기준', '지원 금액'],
+        rows: [
+          ['일반아동', '차상위 이하 (법정 저소득층)', '월 100,000원'],
+          ['장애아동', '소득 기준 없음', '장애아보육료의 50% (최대 317,000원)'],
+        ],
+      },
+      box: { label: '장애아동 핵심 조건', content: '① 장애인복지법 등록 장애아동 ② 만 12세 이하 초등 취학 ③ 일일 4시간 이상 이용 ④ 교사 대 아동 비율 1:3 준수 어린이집' },
+    },
+    {
+      q: '장애아동 방과후 보육료 지원 금액은 얼마인가요?',
+      anchor: 'disability-amount',
+      intro:
+        '장애아동은 장애아보육료의 50%가 지원됩니다. 어린이집이 교사 대 아동 비율(1:3)을 준수할 경우 최대 317,000원이 지원됩니다. 비율을 준수하지 않는 어린이집은 지원 금액이 달라질 수 있습니다. 지원금은 어린이집에 직접 지급되며, 가정에서는 식대 등 실비만 부담합니다. 방학 중 일일 8시간 이상 이용 시 추가 지원도 적용됩니다.',
+      highlights: ['장애아보육료 50%', '최대 317,000원', '교사 1:3 비율'],
+      table: {
+        headers: ['교사 대 아동 비율', '지원 내용'],
+        rows: [
+          ['1:3 준수', '장애아보육료의 50% (최대 317,000원)'],
+          ['비율 미준수', '지원 금액 상이 (공단 확인 필요)'],
+        ],
+      },
+    },
+    {
+      q: '교사 대 아동 비율(1:3) 조건은 어떻게 확인하나요?',
+      anchor: 'teacher-ratio',
+      intro:
+        '교사 대 아동 비율은 어린이집이 장애아동 3명당 교사 1명 이상의 비율을 유지해야 하는 요건입니다. 이 비율은 어린이집이 관리하며, 어린이집에서 자체적으로 신고합니다. 이용하려는 어린이집이 해당 비율을 준수하는지는 어린이집에 직접 문의하거나 임신육아종합포털 아이사랑(childcare.go.kr)에서 확인할 수 있습니다. 비율 준수 어린이집은 장애아동 전담 반을 별도 운영합니다.',
+      highlights: ['장애아동 3명당 교사 1명', '어린이집 확인 필요'],
+      box: { label: '비율 확인 방법', content: '이용 어린이집에 직접 문의하거나 아이사랑(childcare.go.kr)에서 어린이집 정보를 확인하세요.' },
+    },
+    {
+      q: '장애 등록을 아직 못 했는데도 신청할 수 있나요?',
+      anchor: 'not-registered',
+      intro:
+        '장애아동 방과후 보육료는 장애인복지법에 따라 등록된 장애아동에게 지원됩니다. 장애 등록이 되어 있지 않은 경우 장애아동 기준으로는 신청이 불가합니다. 다만 차상위 이하 소득 기준에 해당한다면 일반아동으로 월 100,000원 지원을 받을 수 있습니다. 장애 등록 후 장애아동 기준으로 다시 신청하면 더 높은 지원액을 받을 수 있으므로, 장애 등록 절차를 먼저 진행하는 것이 좋습니다.',
+      highlights: ['장애 등록 필수', '미등록 시 일반아동 기준 적용'],
+      box: { label: '등록 전 대안', content: '차상위 이하라면 장애 등록 전에도 일반아동으로 월 10만원 지원 신청 가능. 장애 등록 후 재신청 권장.' },
+    },
+    {
+      q: '장애아동도 일일 4시간 이상 이용해야 하나요?',
+      anchor: 'hours-disability',
+      intro:
+        '네, 장애아동도 방과후 어린이집을 일일 4시간 이상 이용해야 지원 대상이 됩니다. 이 조건은 일반아동과 동일하게 적용됩니다. 4시간 미만 이용일은 지원에서 제외됩니다. 방학 중에는 일일 8시간 이상 이용 시 추가 지원이 적용되며, 이 역시 일반아동과 동일한 기준입니다.',
+      highlights: ['4시간 이상', '일반아동과 동일 조건'],
+      table: {
+        headers: ['이용 시간', '지원 여부'],
+        rows: [
+          ['일일 4시간 이상', '지원'],
+          ['일일 4시간 미만', '미지원'],
+          ['방학 중 8시간 이상', '추가 지원'],
+        ],
+      },
+    },
+    {
+      q: '장애아동 방과후 보육료는 어디서 신청하나요?',
+      anchor: 'apply',
+      intro:
+        '복지로(bokjiro.go.kr)에서 온라인 신청하거나, 거주지 읍·면·동 행정복지센터(주민센터)를 방문해 신청할 수 있습니다. 신청 시 장애인등록증 또는 장애인복지카드가 필요합니다. 어린이집 이용 시작 전 또는 이용 중 상시 신청이 가능합니다. 보건복지부 129번으로 전화해 절차를 안내받을 수도 있습니다.',
+      highlights: ['복지로', '주민센터', '장애인등록증 필요'],
+      box: { label: '신청 방법', content: '온라인: 복지로(bokjiro.go.kr) / 방문: 읍·면·동 주민센터 / 준비 서류: 장애인등록증 또는 장애인복지카드' },
+    },
+    {
+      q: '장애아동 방과후 보육료 외 다른 지원도 받을 수 있나요?',
+      anchor: 'other-support',
+      intro:
+        '장애아동은 방과후 보육료 외에도 장애아동 가족 지원, 발달재활서비스, 언어발달지원사업 등 다양한 지원을 받을 수 있습니다. 이러한 지원은 각 부처에서 별도로 운영되며 중복 지원이 가능한 경우도 있습니다. 복지로(bokjiro.go.kr)에서 장애아동 관련 지원 제도를 통합 조회할 수 있습니다. 거주지 주민센터나 장애인복지관에 문의하면 개인별 맞춤 지원 안내를 받을 수 있습니다.',
+      highlights: ['발달재활서비스', '언어발달지원', '중복 지원 가능'],
+      box: { label: '추가 지원 문의', content: '복지로(bokjiro.go.kr)에서 장애아동 관련 지원 통합 조회 가능. 주민센터 또는 장애인복지관 상담.' },
+    },
+  ],
   faqData: [
     {
       q: '소득이 차상위를 넘어도 장애아동이면 방과후 보육료를 받을 수 있나요?',
@@ -117,7 +111,7 @@ export const 장애아대상SpokeContent: SpokeData = {
     },
     {
       q: '교사 대 아동 비율(1:3) 조건은 뭔가요?',
-      a: '어린이집이 장애아동 3명당 교사 1명 이상의 비율을 유지해야 장애아보육료 50% 지원이 가능합니다. 비율 미준수 어린이집은 지원 금액이 달라질 수 있습니다.',
+      a: '어린이집이 장애아동 3명당 교사 1명 이상의 비율을 유지해야 장애아보육료 50% 지원이 가능합니다.',
       source: '임신육아종합포털 아이사랑',
       sourceUrl: 'https://www.childcare.go.kr',
     },

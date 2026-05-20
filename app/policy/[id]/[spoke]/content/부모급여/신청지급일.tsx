@@ -1,130 +1,88 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          부모급여는 <strong>출생일 포함 60일 이내</strong>에 신청하면 출생월부터 소급해서 받을 수 있습니다.
-          60일이 지나 신청하면 <strong>신청한 달부터만 지급</strong>됩니다.
-          신청 창구는 행정복지센터(주민센터), 복지로(bokjiro.go.kr), 정부24(gov.kr) 세 곳입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "언제까지 신청해야 하나요?" 출생 후 60일 이내가 핵심입니다.
-        이 기한을 넘기면 그 달 급여를 소급받을 수 없습니다. 신청 방법과 지급일을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="deadline">
-        <h2 className="detail-card-head">출생 후 60일 기한 — 놓치면 소급 안 된다</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>신청 시기</th><th>지급 시작 시점</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>출생일부터 60일 이내 신청</td>
-                <td><strong>출생월부터 소급 지급</strong></td>
-              </tr>
-              <tr>
-                <td>출생 61일 이후 신청</td>
-                <td><strong>신청한 달부터만 지급</strong> (소급 불가)</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="warning-box" style={{ marginTop: 12 }}>
-            <strong>예시:</strong> 3월 1일 출생, 4월 30일 신청 → 3월분부터 소급 지급 OK (60일 이내)
-            <br />3월 1일 출생, 5월 2일 신청 → 5월분부터만 지급 (61일 초과, 3~4월분 소급 불가)
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="how-to">
-        <h2 className="detail-card-head">신청 방법 — 온라인·방문 3가지 창구</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 행정복지센터 방문:</strong> 출생 신고 시 행정복지센터(주민센터)에서
-            부모급여를 함께 신청할 수 있습니다. 출생신고와 원스톱으로 처리 가능합니다.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 복지로 온라인:</strong> bokjiro.go.kr → 서비스 신청 → 부모급여 신청
-            (공동인증서 또는 간편인증 필요)
-          </div>
-          <div className="info-box">
-            <strong>③ 정부24 온라인:</strong> gov.kr → 출생신고 원스톱 서비스에서 함께 신청 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="payment">
-        <h2 className="detail-card-head">지급일과 입금 계좌</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>지급일</th><th>방식</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>가정 양육 (어린이집 미이용)</td>
-                <td><strong>매월 25일</strong></td>
-                <td>보호자 계좌 현금 입금</td>
-              </tr>
-              <tr>
-                <td>어린이집 이용 (차액)</td>
-                <td><strong>익월 20일</strong></td>
-                <td>보육료 제외 차액 현금 입금</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            지급 계좌는 신청 시 등록한 보호자 명의 계좌입니다.
-            계좌 변경은 복지로 또는 행정복지센터에서 가능합니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">신청 시 준비물</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문 신청:</strong> 신분증, 지급 계좌 통장 사본 (보호자 명의)
-          </div>
-          <div className="info-box">
-            <strong>온라인 신청:</strong> 공동인증서 또는 카카오·네이버 간편인증
-            (별도 서류 업로드 불필요)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지급금액, 어린이집 전환, 육아휴직 중복 등<br />
-            부모급여 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/parent-allowance" className="btn-cta">
-            부모급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 부모급여신청지급일SpokeContent: SpokeData = {
   h1: '부모급여 신청 방법과 지급일 | 출생 후 60일 기한 놓치면 소급 안 된다',
   breadcrumb: '신청·지급일',
   description:
     '부모급여는 출생 후 60일 이내 신청 시 출생월부터 소급 지급됩니다. 61일 이후 신청하면 신청월부터만 지급. 신청처: 행정복지센터·복지로·정부24. 가정양육 지급일 매월 25일, 어린이집 차액은 익월 20일.',
-  datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청 기한': '출생 후 60일 이내',
+    '소급 지급': '60일 이내 신청 시 출생월부터',
+    '지급일(가정양육)': '매월 25일',
+    '지급일(어린이집)': '익월 20일 (차액)',
+    '신청처': '복지로·정부24·행정복지센터',
+  },
+  keyFactsHighlights: {
+    '신청 기한': ['60일 이내'],
+    '소급 지급': ['출생월부터'],
+    '지급일(가정양육)': ['매월 25일'],
+  },
+  qa: [
+    {
+      q: '출생 후 60일 기한이란 무엇인가요?',
+      anchor: 'deadline',
+      intro: '부모급여는 출생일 포함 60일 이내에 신청하면 출생월부터 소급해서 받을 수 있습니다. 60일이 지나 신청하면 신청한 달부터만 지급됩니다. 예를 들어 3월 1일 출생 아이를 4월 30일에 신청하면 3월분부터 소급 OK이지만, 5월 2일에 신청하면 5월분부터만 지급됩니다. 기한을 하루라도 넘기면 그 달 이전 급여는 소급 불가입니다. 출생신고와 동시에 신청하는 것이 가장 안전합니다.',
+      highlights: ['60일 이내', '출생월부터', '소급', '신청한 달부터만'],
+      table: {
+        headers: ['신청 시기', '지급 시작 시점'],
+        rows: [
+          ['출생일부터 60일 이내 신청', '출생월부터 소급 지급'],
+          ['출생 61일 이후 신청', '신청한 달부터만 지급 (소급 불가)'],
+        ],
+      },
+      box: { label: '예시', content: '3월 1일 출생 → 4월 30일 신청: 3월분부터 소급 OK\n3월 1일 출생 → 5월 2일 신청: 5월분부터만 지급, 3~4월 소급 불가' },
+    },
+    {
+      q: '부모급여를 어디서 신청하나요?',
+      anchor: 'how-to-apply',
+      intro: '부모급여는 행정복지센터(주민센터) 방문, 복지로(bokjiro.go.kr) 온라인, 정부24(gov.kr) 온라인 세 곳에서 신청할 수 있습니다. 출생 신고 시 행정복지센터에서 원스톱으로 함께 신청할 수 있어 가장 편리합니다. 복지로와 정부24는 공동인증서 또는 카카오·네이버 간편인증으로 24시간 온라인 신청이 가능합니다. 별도 서류 업로드 없이 본인 인증만으로 신청이 완료됩니다.',
+      highlights: ['행정복지센터', '복지로', '정부24', '원스톱'],
+      box: { label: '신청처 3곳', content: '① 행정복지센터(주민센터) — 출생신고와 동시 신청\n② 복지로(bokjiro.go.kr) — 공동인증서 또는 간편인증\n③ 정부24(gov.kr) — 출생신고 원스톱 서비스 내 신청' },
+    },
+    {
+      q: '부모급여 지급일은 언제인가요?',
+      anchor: 'payment-date',
+      intro: '가정에서 양육하는 경우 매월 25일에 지정 계좌로 현금이 입금됩니다. 25일이 주말·공휴일이면 직전 평일에 지급됩니다. 어린이집을 이용하는 경우 보육료를 제외한 차액이 익월 20일에 지급됩니다. 지급 계좌는 신청 시 등록한 보호자 명의 계좌이며, 계좌 변경은 복지로 또는 행정복지센터에서 가능합니다.',
+      highlights: ['매월 25일', '익월 20일', '직전 평일'],
+      table: {
+        headers: ['구분', '지급일', '방식'],
+        rows: [
+          ['가정 양육 (어린이집 미이용)', '매월 25일', '보호자 계좌 현금 입금'],
+          ['어린이집 이용 (차액)', '익월 20일', '보육료 제외 차액 현금 입금'],
+        ],
+      },
+    },
+    {
+      q: '신청할 때 어떤 서류가 필요한가요?',
+      anchor: 'documents',
+      intro: '방문 신청 시에는 신분증과 지급 계좌 통장 사본(보호자 명의)을 지참하면 됩니다. 온라인 신청은 공동인증서 또는 카카오·네이버 간편인증으로 본인 인증만 하면 되며 별도 서류 업로드가 필요 없습니다. 출생신고와 동시에 신청하면 출생 관련 서류 없이도 행정 데이터로 자동 처리됩니다. 계좌 정보만 준비하면 신청이 완료됩니다.',
+      highlights: ['신분증', '통장 사본', '간편인증', '별도 서류 불필요'],
+      box: { label: '준비물', content: '방문 신청: 신분증 + 보호자 명의 통장 사본\n온라인 신청: 공동인증서 또는 간편인증 (서류 업로드 불필요)' },
+    },
+    {
+      q: '계좌 변경은 어떻게 하나요?',
+      anchor: 'account-change',
+      intro: '부모급여 지급 계좌를 변경하려면 복지로(bokjiro.go.kr) 또는 행정복지센터에서 변경 신청을 하면 됩니다. 변경 신청은 지급일 이전에 완료해야 해당 월부터 새 계좌로 지급됩니다. 지급일 이후 변경하면 다음 달부터 적용됩니다. 계좌는 반드시 보호자 본인 명의여야 합니다. 타인 명의 계좌로는 변경이 불가합니다.',
+      highlights: ['복지로', '행정복지센터', '지급일 이전', '보호자 본인 명의'],
+      box: { label: '계좌 변경 방법', content: '복지로(bokjiro.go.kr) → 마이페이지 → 계좌 변경\n또는 행정복지센터 방문 변경 신청' },
+    },
+    {
+      q: '신청 후 얼마나 걸려 지급되나요?',
+      anchor: 'processing-time',
+      intro: '부모급여 신청 후 처리는 보통 1~2주 이내에 완료됩니다. 출생 신고 시 동시 신청한 경우 더 빨리 처리될 수 있습니다. 최초 지급은 신청 승인 후 다음 지급일(매월 25일)에 이루어집니다. 60일 이내 신청이면 출생월부터 소급 계산되어 첫 지급 시 소급분이 함께 입금됩니다. 승인 여부는 복지로 앱 또는 홈페이지에서 확인할 수 있습니다.',
+      highlights: ['1~2주', '다음 지급일', '소급분 함께 입금'],
+      box: { label: '처리 흐름', content: '신청 → 1~2주 심사 → 승인 → 다음 25일 지급 (60일 이내 신청 시 소급분 포함)' },
+    },
+    {
+      q: '아이가 어린이집에 다니면 신청 방법이 달라지나요?',
+      anchor: 'daycare-apply',
+      intro: '어린이집 이용 여부와 관계없이 부모급여 신청 방법은 동일합니다. 행정복지센터·복지로·정부24에서 동일하게 신청합니다. 어린이집 입소 신청을 하면 보육료 바우처로 자동 전환되고 차액이 익월 20일에 현금으로 지급됩니다. 별도로 전환 신청을 할 필요가 없습니다. 어린이집 퇴소 후 가정 양육으로 전환하면 다시 전액 현금 25일 지급으로 자동 변경됩니다.',
+      highlights: ['동일한 신청 방법', '자동 전환', '익월 20일', '자동 변경'],
+      box: { label: '어린이집 이용 시', content: '부모급여 신청 → 어린이집 입소 시 보육료 자동 전환 → 차액 익월 20일 지급\n어린이집 퇴소 → 전액 25일 지급으로 자동 전환' },
+    },
+  ],
   faqData: [
     {
       q: '부모급여 언제까지 신청해야 하나요?',

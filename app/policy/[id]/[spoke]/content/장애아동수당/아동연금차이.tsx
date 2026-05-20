@@ -1,112 +1,120 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          <strong>장애아동수당</strong>은 만 18세 미만 경증·중증 장애아동에게 월 11만~22만원,
-          <strong>장애인연금</strong>은 만 18세 이상 중증 장애인에게 월 최대 43만 9,700원을 지급합니다.
-          두 제도는 연령과 장애 정도에 따라 구분되며 <strong>중복 수급이 불가</strong>합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "기초수급자 가구 아동이 장애아동수당과 장애인연금 중 무엇을 받을 수 있나요?"
-        두 제도의 차이와 해당 대상을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">장애아동수당 vs 장애인연금 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>장애아동수당</th><th>장애인연금</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>연령</strong></td>
-                <td>만 18세 미만</td>
-                <td>만 18세 이상 성인</td>
-              </tr>
-              <tr>
-                <td><strong>장애 정도</strong></td>
-                <td>경증·중증 모두</td>
-                <td>중증만 해당</td>
-              </tr>
-              <tr>
-                <td><strong>소득 조건</strong></td>
-                <td>기초수급자·차상위</td>
-                <td>소득인정액 기준 이하</td>
-              </tr>
-              <tr>
-                <td><strong>월 지급액</strong></td>
-                <td>11만~22만원</td>
-                <td>최대 43만 9,700원</td>
-              </tr>
-              <tr>
-                <td><strong>중복 수급</strong></td>
-                <td colSpan={2}>불가 (연령·장애 정도에 따라 하나만 적용)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="who-gets">
-        <h2 className="detail-card-head">기초수급자 가구 아동이 받을 수 있는 지원</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>18세 미만 + 중증:</strong> 장애아동수당 월 22만원 (생계·의료급여 기준)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>18세 미만 + 경증:</strong> 장애아동수당 월 11만원
-          </div>
-          <div className="info-box">
-            <strong>18세 이상 + 중증:</strong> 장애인연금 (최대 월 43만 9,700원)으로 전환
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>장애아동수당:</strong> 거주지 읍·면·동 행정복지센터 또는 복지로(bokjiro.go.kr)
-          </div>
-          <div className="info-box">
-            <strong>신청자:</strong> 보호자(부모·후견인) 명의 신청
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            중증·경증 금액, 18세 이후 전환 등<br />
-            장애아동수당 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-child-allowance" className="btn-cta">
-            장애아동수당 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애아동수당아동연금차이SpokeContent: SpokeData = {
   h1: '장애아동수당과 장애인연금, 기초수급자 가구 아동이 받을 수 있는 게 무엇인지',
   breadcrumb: '아동연금차이',
   description:
     '장애아동수당(18세 미만 경증·중증 11~22만원) vs 장애인연금(18세 이상 중증 최대 43만 9,700원). 중복 불가. 기초수급 아동은 연령·장애 정도로 구분. 복지로 신청.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '장애아동수당 대상': '만 18세 미만 경증·중증',
+    '장애아동수당 금액': '월 11만~22만원',
+    '장애인연금 대상': '만 18세 이상 중증',
+    '장애인연금 금액': '월 최대 43만 9,700원',
+    '중복 수급': '불가 (연령·장애 정도로 자동 구분)',
+  },
+  keyFactsHighlights: {
+    '장애아동수당 금액': ['11만~22만원'],
+    '장애인연금 금액': ['43만 9,700원'],
+    '중복 수급': ['불가'],
+  },
+  qa: [
+    {
+      q: '장애아동수당과 장애인연금은 어떻게 다른가요?',
+      anchor: 'compare',
+      intro: '장애아동수당은 만 18세 미만 경증·중증 장애아동에게 월 11만~22만원, 장애인연금은 만 18세 이상 중증 장애인에게 월 최대 43만 9,700원을 지급합니다. 두 제도는 연령과 장애 정도에 따라 구분되며, 중복 수급은 불가합니다.',
+      highlights: ['18세 미만', '18세 이상', '11만~22만원', '43만 9,700원'],
+      table: {
+        headers: ['항목', '장애아동수당', '장애인연금'],
+        rows: [
+          ['연령', '만 18세 미만', '만 18세 이상 성인'],
+          ['장애 정도', '경증·중증 모두', '중증만 해당'],
+          ['소득 조건', '기초수급자·차상위', '소득인정액 기준 이하'],
+          ['월 지급액', '11만~22만원', '최대 43만 9,700원'],
+          ['중복 수급', '불가 (연령·장애 정도에 따라 하나만)', '불가'],
+        ],
+      },
+    },
+    {
+      q: '기초수급자 가구 아동은 어떤 지원을 받을 수 있나요?',
+      anchor: 'recipient-child',
+      intro: '기초수급자 가구 아동 중 18세 미만이면 장애아동수당 대상입니다. 중증 아동이 생계·의료급여 수급 가구라면 월 22만원으로 가장 높은 금액을 받습니다. 18세가 되면 장애아동수당이 종료되고 성인 대상 제도(장애수당 또는 장애인연금)로 전환됩니다.',
+      highlights: ['18세 미만', '22만원', '생계·의료급여'],
+      box: {
+        label: '기초수급 아동 지원 정리',
+        content: '18세 미만 + 중증 + 생계·의료급여: 월 22만원
+18세 미만 + 중증 + 주거·교육급여: 월 17만원
+18세 미만 + 경증: 월 11만원 (소득 구분 무관)
+18세 이상 → 성인 제도로 전환',
+      },
+    },
+    {
+      q: '18세 미만 중증 장애아동이 장애인연금을 신청할 수 있나요?',
+      anchor: 'under18-pension',
+      intro: '아니요, 장애인연금은 만 18세 이상 성인 중증 장애인만 신청할 수 있습니다. 18세 미만은 장애아동수당이 해당됩니다. 18세가 되면 장애아동수당이 종료되고 장애인연금을 새로 신청해야 합니다.',
+      highlights: ['18세 미만 장애인연금 불가', '장애아동수당 해당'],
+      box: {
+        label: '연령별 해당 제도',
+        content: '만 18세 미만 → 장애아동수당
+만 18세 이상 경증 → 장애수당 (수급자·차상위 조건)
+만 18세 이상 중증 → 장애인연금',
+      },
+    },
+    {
+      q: '동시에 두 제도를 받을 수 있나요?',
+      anchor: 'no-duplicate',
+      intro: '동시 수급이 불가합니다. 연령과 장애 정도에 따라 하나만 적용됩니다. 18세 미만이면 장애아동수당, 18세 이상이면 장애수당 또는 장애인연금 중 하나만 받을 수 있습니다.',
+      highlights: ['동시 수급 불가', '하나만 적용'],
+      table: {
+        headers: ['연령', '장애 정도', '해당 제도'],
+        rows: [
+          ['18세 미만', '경증', '장애아동수당 (11만원)'],
+          ['18세 미만', '중증', '장애아동수당 (17~22만원)'],
+          ['18세 이상', '경증', '장애수당 (6만원)'],
+          ['18세 이상', '중증', '장애인연금 (최대 43만 9,700원)'],
+        ],
+      },
+    },
+    {
+      q: '경증 아동은 장애인연금을 받을 수 없나요?',
+      anchor: 'mild-pension',
+      intro: '장애인연금은 중증 장애인만 해당합니다. 경증 아동은 18세 미만이면 장애아동수당(월 11만원), 18세 이상이 되면 장애수당(수급자·차상위 조건 시 월 6만원)을 받습니다.',
+      highlights: ['경증 연금 불가', '장애아동수당 11만원', '장애수당 6만원'],
+      box: {
+        label: '경증 아동 지원 경로',
+        content: '18세 미만 경증: 장애아동수당 월 11만원
+18세 이상 경증 + 수급자·차상위: 장애수당 월 6만원
+18세 이상 경증 + 기준 초과: 현금 지원 없음',
+      },
+    },
+    {
+      q: '신청은 어디서 하나요?',
+      anchor: 'apply',
+      intro: '거주지 읍·면·동 행정복지센터 방문 또는 복지로(bokjiro.go.kr)에서 보호자 명의로 신청합니다. 신청 서류는 장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서입니다.',
+      highlights: ['행정복지센터', '복지로', '보호자 명의'],
+      table: {
+        headers: ['신청 방법', '내용'],
+        rows: [
+          ['방문', '거주지 읍·면·동 행정복지센터'],
+          ['온라인', '복지로(bokjiro.go.kr)'],
+          ['신청자', '보호자(부모·후견인) 명의'],
+        ],
+      },
+    },
+    {
+      q: '아동이 시설에 입소해 있어도 신청할 수 있나요?',
+      anchor: 'facility',
+      intro: '장애인 거주시설에 입소해 있는 경우 장애아동수당 신청이 제한될 수 있습니다. 입소 시설에서 이미 서비스를 제공받고 있기 때문입니다. 정확한 수급 가능 여부는 시설 담당자 또는 행정복지센터에서 확인하세요.',
+      highlights: ['시설 입소', '제한 가능', '담당자 확인'],
+      box: {
+        label: '시설 입소 시 주의',
+        content: '장애인 거주시설 입소 중: 수당 제한 가능
+단기·임시 입소: 제한 여부 행정복지센터 확인
+퇴소 후: 정상적으로 신청 가능',
+      },
+    },
+  ],
   faqData: [
     {
       q: '18세 미만 중증 장애아동이 장애인연금을 신청할 수 있나요?',

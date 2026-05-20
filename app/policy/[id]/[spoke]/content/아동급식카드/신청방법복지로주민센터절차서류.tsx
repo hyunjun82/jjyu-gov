@@ -1,86 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          아동급식카드는 <strong>주민센터(읍·면·동) 방문</strong> 또는
-          <strong>복지로(bokjiro.go.kr) 온라인</strong>으로 신청할 수 있습니다.
-          연중 상시 신청이 가능하며, 자격 확인 후 카드를 발급받아 바로 사용할 수 있습니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="channel">
-        <h2 className="detail-card-head">신청 채널 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>채널</th><th>방법</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>주민센터</strong></td><td>읍·면·동 행정복지센터 방문 신청</td><td>상담·서류 확인 편리</td></tr>
-              <tr><td><strong>복지로</strong></td><td>bokjiro.go.kr 온라인 신청</td><td>공동인증서 필요</td></tr>
-              <tr><td><strong>정부24</strong></td><td>gov.kr에서 신청 가능</td><td>일부 지자체 연동</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="step">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 주민센터 방문 또는 복지로 온라인 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 담당자 소득·자격 조회 및 결식 우려 판단
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 아동급식카드 발급 (지역별 BC카드·지역사랑상품권 등)
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 지정 가맹점에서 사용 (편의점·식당 등)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">필요 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청인 신분증:</strong> 보호자의 주민등록증 또는 운전면허증
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>가족관계 확인:</strong> 가족관계증명서 (주민센터 전산 확인으로 대체 가능)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소득 증빙:</strong> 건강보험료 납부 확인서 등 (수급자격 자동 확인 가능 시 생략)
-          </div>
-          <div className="info-box">
-            <strong>기타:</strong> 결식 우려 소명 자료 (해당 시) — 담당자 안내에 따름
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원대상, 사용처, 방학 중 지원 안내까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/child-meal-card" className="btn-cta">
-            아동급식카드 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 아동급식카드신청방법복지로주민센터절차서류SpokeContent: SpokeData = {
   h1: '아동급식카드 신청방법, 복지로·주민센터 신청 절차와 서류 안내',
@@ -88,8 +6,94 @@ export const 아동급식카드신청방법복지로주민센터절차서류Spok
   description:
     '아동급식카드 신청: 주민센터 방문·복지로 온라인·정부24. 연중 상시 신청. 서류: 신분증·가족관계증명서. 자격 확인 후 카드 발급 → 가맹점 즉시 사용.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청 채널': '주민센터 방문·복지로(bokjiro.go.kr)·정부24',
+    '신청 기간': '연중 상시',
+    '주요 서류': '신분증·가족관계증명서',
+    '소득 확인': '사회보장정보시스템 전산 조회 (서류 생략 가능)',
+    '카드 발급': '자격 확인 후 보통 1~2주 내 발급',
+  },
+  keyFactsHighlights: {
+    '신청 채널': ['복지로', '주민센터'],
+    '신청 기간': ['연중 상시'],
+    '카드 발급': ['1~2주'],
+  },
+  qa: [
+    {
+      q: '아동급식카드 신청 방법은 어떻게 되나요?',
+      anchor: 'channel',
+      intro:
+        '주민센터(읍·면·동) 방문, 복지로(bokjiro.go.kr) 온라인, 또는 정부24(gov.kr)에서 신청할 수 있습니다. 연중 상시 신청이 가능합니다. 주민센터 방문이 상담과 서류 확인에 가장 편리하며, 온라인 신청도 가능합니다.',
+      highlights: ['주민센터', 'bokjiro.go.kr'],
+      table: {
+        headers: ['채널', '방법', '비고'],
+        rows: [
+          ['주민센터', '읍·면·동 행정복지센터 방문 신청', '상담·서류 확인 편리'],
+          ['복지로', 'bokjiro.go.kr 온라인 신청', '공동인증서 필요'],
+          ['정부24', 'gov.kr에서 신청 가능', '일부 지자체 연동'],
+        ],
+      },
+    },
+    {
+      q: '신청 절차는 어떻게 되나요?',
+      anchor: 'step',
+      intro:
+        '주민센터 방문 또는 복지로 온라인 신청 → 담당자 소득·자격 조회 및 결식 우려 판단 → 카드 발급 → 지정 가맹점에서 사용의 4단계로 진행됩니다.',
+      highlights: ['자격 조회', '카드 발급'],
+      list: [
+        '1단계: 주민센터 방문 또는 복지로 온라인 신청',
+        '2단계: 담당자 소득·자격 조회 및 결식 우려 판단',
+        '3단계: 아동급식카드 발급 (지역별 BC카드·지역사랑상품권 등)',
+        '4단계: 지정 가맹점에서 사용 (편의점·식당 등)',
+      ],
+    },
+    {
+      q: '필요 서류는 무엇인가요?',
+      anchor: 'docs',
+      intro:
+        '신청인 신분증(보호자), 가족관계증명서가 기본 서류입니다. 소득 증빙은 사회보장정보시스템으로 전산 조회되어 생략 가능한 경우가 많습니다. 결식 우려 소명이 필요한 경우 담당자 안내에 따릅니다.',
+      highlights: ['신분증', '가족관계증명서'],
+      list: [
+        '신청인 신분증: 보호자의 주민등록증 또는 운전면허증',
+        '가족관계증명서: 주민센터 전산 확인으로 대체 가능',
+        '소득 증빙: 건강보험료 납부 확인서 등 (전산 조회 가능 시 생략)',
+        '기타: 결식 우려 소명 자료 (해당 시) — 담당자 안내에 따름',
+      ],
+    },
+    {
+      q: '카드 발급까지 얼마나 걸리나요?',
+      anchor: 'time',
+      intro:
+        '자격 확인 후 보통 1~2주 이내에 카드가 발급됩니다. 지역에 따라 다소 차이가 있으니 주민센터에서 확인하세요.',
+      highlights: ['1~2주'],
+      box: { label: '안내', content: '카드 발급 후 지정 가맹점(편의점·식당 등)에서 바로 사용할 수 있습니다.' },
+    },
+    {
+      q: '다른 지역으로 이사하면 다시 신청해야 하나요?',
+      anchor: 'move',
+      intro:
+        '주소지가 변경되면 새로운 주소지 관할 주민센터에 변경 신고를 해야 합니다. 카드도 지역에 따라 재발급이 필요할 수 있습니다.',
+      highlights: ['변경 신고'],
+      box: { label: '주의', content: '이사 시 새 주소지 주민센터에 변경 신고 필수. 카드 재발급 필요 여부 확인.' },
+    },
+    {
+      q: '소득 증빙 서류를 준비하기 어려운데 어떻게 하나요?',
+      anchor: 'income-doc',
+      intro:
+        '주민센터에서는 사회보장정보시스템으로 소득·재산을 전산 조회합니다. 별도 서류가 필요하지 않은 경우도 많으니 먼저 방문해서 상담받으세요.',
+      highlights: ['전산 조회'],
+      box: { label: '안내', content: '소득 증빙 서류 없이도 전산 조회로 확인 가능. 주민센터 방문 상담 먼저 하세요.' },
+    },
+    {
+      q: '카드를 잃어버리면 어떻게 하나요?',
+      anchor: 'lost',
+      intro:
+        '카드 분실 시 주민센터 또는 해당 카드사에 연락하여 재발급을 신청할 수 있습니다. 재발급 시까지 사용이 중단될 수 있으니 빠르게 신고하세요.',
+      highlights: ['분실 신고', '재발급'],
+      box: { label: '긴급', content: '카드 분실 즉시 주민센터 또는 카드사에 신고 → 정지 후 재발급 신청.' },
+    },
+  ],
   faqData: [
     {
       q: '신청 후 카드 발급까지 얼마나 걸리나요?',

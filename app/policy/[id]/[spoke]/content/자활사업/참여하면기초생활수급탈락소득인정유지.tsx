@@ -1,97 +1,116 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          자활사업 참여로 발생한 소득은 일정 부분 <strong>소득공제</strong>가 적용되어
-          수급 자격이 바로 탈락되지 않도록 보호됩니다.
-          단, 소득인정액이 선정 기준을 넘으면 수급에서 제외될 수 있으므로
-          담당자와 사전에 확인하는 것이 중요합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        자활사업의 목적 자체가 수급자의 자립이므로 초기에는 소득 일부를 공제하여
-        수급 유지를 돕습니다. 소득이 지속적으로 늘면 단계적으로 급여가 조정됩니다.
-      </p>
-
-      <section className="detail-card" id="deduct">
-        <h2 className="detail-card-head">자활 소득 공제 구조</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>근로·자활 소득 공제:</strong> 자활사업 소득의 30%를 공제 후 나머지를 소득인정액에 반영
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>자활급여특례:</strong> 자활사업 참여 후 소득이 선정 기준 초과 시 일정 기간 의료급여 특례 유지 가능
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>탈락 기준:</strong> 소득인정액이 급여 선정 기준을 초과하면 해당 급여 수급 중단
-          </div>
-          <div className="info-box">
-            <strong>재신청:</strong> 소득 감소로 다시 기준 이하가 되면 재신청 가능
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="special">
-        <h2 className="detail-card-head">자활급여특례·이행급여특례</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>자활급여특례:</strong> 자활사업 참여 소득이 기준 초과 시 1년간 의료급여 유지
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>이행급여특례:</strong> 탈수급 후 취업 성공 시 일정 기간 의료급여 등 유지
-          </div>
-          <div className="info-box">
-            <strong>희망저축계좌 연계:</strong> 적립 중에는 해당 저축액 소득인정 제외
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="tip">
-        <h2 className="detail-card-head">수급 유지를 위한 체크리스트</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>매월 소득 신고:</strong> 자활근로 소득을 주민센터에 신고 (누락 시 과오지급 발생 가능)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>추가 소득 발생 시:</strong> 즉시 담당자에게 신고하여 수급 조정
-          </div>
-          <div className="info-box">
-            <strong>탈락 예고 시:</strong> 이의신청 또는 자활급여특례 연계 요청
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            참여자격, 급여 단가, 사업 종류까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/self-sufficiency-program" className="btn-cta">
-            자활사업 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 자활사업참여하면기초생활수급탈락소득인정유지SpokeContent: SpokeData = {
   h1: '자활사업 참여하면 기초생활수급 탈락되나, 소득 인정과 수급 유지',
   breadcrumb: '참여하면기초생활수급탈락소득인정유지',
   description:
     '자활사업 소득 30% 공제 후 소득인정액 반영. 기준 초과 시 해당 급여 중단. 자활급여특례로 1년간 의료급여 유지 가능. 매월 소득 신고 필수.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '소득 공제율': '자활근로 소득의 30% 공제 후 반영',
+    '자활급여특례': '소득 초과 시 1년간 의료급여 유지',
+    '이행급여특례': '탈수급 후 취업 성공 시 일정 기간 급여 유지',
+    '소득 신고': '매월 주민센터에 자활근로 소득 신고 필수',
+    '재신청': '소득 감소로 기준 이하 되면 재신청 가능',
+  },
+  keyFactsHighlights: {
+    '소득 공제율': ['30% 공제'],
+    '자활급여특례': ['1년간 의료급여'],
+    '소득 신고': ['매월', '필수'],
+  },
+  qa: [
+    {
+      q: '자활사업에 참여하면 소득이 어떻게 계산되나요?',
+      anchor: 'income-calc',
+      intro: '자활사업 소득의 30%를 공제한 나머지를 소득인정액에 반영합니다. 예를 들어 사회서비스형 월 급여 약 118만원이라면 30% 공제 후 약 82만원이 소득인정액에 반영됩니다. 생계급여는 소득인정액이 늘어난 만큼 감액되어 지급되므로 실제로 받는 총 금액(자활급여+생계급여)은 늘어납니다.',
+      highlights: ['30% 공제', '소득인정액', '생계급여 감액'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['소득 공제율', '자활근로 소득의 30%'],
+          ['반영 금액', '나머지 70%를 소득인정액에 반영'],
+          ['생계급여 영향', '소득인정액 증가분만큼 생계급여 감액'],
+          ['총 수령액', '자활급여 + 감액된 생계급여 = 이전보다 증가'],
+        ],
+      },
+    },
+    {
+      q: '소득이 너무 늘면 수급에서 탈락하나요?',
+      anchor: 'dropout',
+      intro: '소득인정액이 해당 급여의 선정 기준을 초과하면 그 급여 수급이 중단됩니다. 생계급여보다 의료급여 기준이 높으므로, 생계급여는 탈락해도 의료급여는 유지되는 경우가 있습니다. 자활급여특례 제도를 통해 소득 초과 후에도 1년간 의료급여를 유지할 수 있습니다.',
+      highlights: ['선정 기준 초과', '급여 중단', '자활급여특례', '1년'],
+      box: {
+        label: '탈락 기준 및 특례',
+        content: '소득인정액 > 선정 기준 → 해당 급여 중단
+자활급여특례: 자활 참여로 소득 초과 시 1년간 의료급여 유지
+이행급여특례: 취업 성공 시 일정 기간 의료급여 등 유지',
+      },
+    },
+    {
+      q: '자활급여특례란 무엇인가요?',
+      anchor: 'special-benefit',
+      intro: '자활사업 참여 소득이 기준을 초과할 경우 1년간 의료급여를 유지받을 수 있는 제도입니다. 갑작스러운 의료 공백을 방지하기 위한 안전망입니다. 담당 공무원에게 자활급여특례 신청을 요청해야 하며, 자동 적용되지 않으므로 반드시 확인하세요.',
+      highlights: ['자활급여특례', '1년간', '의료급여', '자동 적용 안 됨'],
+      table: {
+        headers: ['특례 유형', '내용', '기간'],
+        rows: [
+          ['자활급여특례', '자활 참여로 소득 초과 시 의료급여 유지', '1년'],
+          ['이행급여특례', '취업 성공으로 탈수급 시 급여 유지', '별도 기간'],
+        ],
+      },
+    },
+    {
+      q: '매월 소득을 신고해야 하나요?',
+      anchor: 'income-report',
+      intro: '자활근로 소득은 매월 주민센터에 신고해야 합니다. 누락 시 나중에 과오지급 환수가 발생할 수 있어 금전적 부담이 생깁니다. 추가 소득(아르바이트 등)이 발생하면 즉시 담당자에게 알려야 합니다.',
+      highlights: ['매월 신고', '과오지급', '환수', '추가 소득'],
+      box: {
+        label: '수급 유지를 위한 체크리스트',
+        content: '매월 소득 신고: 자활근로 소득을 주민센터에 신고
+추가 소득 발생 시: 즉시 담당자에게 신고하여 수급 조정
+탈락 예고 시: 이의신청 또는 자활급여특례 연계 요청',
+      },
+    },
+    {
+      q: '다시 수입이 줄면 수급을 재신청할 수 있나요?',
+      anchor: 'reapply',
+      intro: '소득인정액이 다시 선정 기준 이하로 떨어지면 재신청이 가능합니다. 주민센터에서 변경된 소득 자료를 제출하고 재신청하면 심사 후 급여가 재개됩니다. 재신청 시에는 최근 소득 증빙자료(급여명세서, 소득신고서 등)를 준비하세요.',
+      highlights: ['재신청', '기준 이하', '급여 재개'],
+      table: {
+        headers: ['상황', '방법'],
+        rows: [
+          ['소득 감소로 기준 이하', '주민센터 재신청'],
+          ['의료 공백 우려', '자활급여특례 신청'],
+          ['탈락 이의 있음', '결정일로부터 90일 이내 이의신청'],
+        ],
+      },
+    },
+    {
+      q: '가족 중 한 명만 자활사업에 참여해도 전체 수급에 영향이 있나요?',
+      anchor: 'family-impact',
+      intro: '자활사업 참여자의 소득은 해당 가구의 소득인정액에 반영되므로 가구 전체 수급에 영향을 줍니다. 가구원 모두의 소득·재산 합산액이 선정 기준과 비교되므로, 가구원 상황을 담당자와 미리 상담하는 것이 중요합니다.',
+      highlights: ['가구 소득인정액', '가구 전체', '합산'],
+      box: {
+        label: '가구 소득인정액 영향',
+        content: '참여자 소득 → 가구 소득인정액에 반영
+가구 전체 급여 수준 조정 가능
+미리 담당자와 상담하여 영향 범위 확인',
+      },
+    },
+    {
+      q: '자활사업 소득 외 아르바이트를 하면 신고해야 하나요?',
+      anchor: 'side-job',
+      intro: '자활사업 참여 중 추가로 발생하는 모든 소득은 담당 공무원에게 신고해야 합니다. 미신고 시 나중에 과오지급 환수가 발생할 수 있습니다. 추가 아르바이트로 인한 소득은 자활사업 소득과 별도로 소득인정액에 반영됩니다.',
+      highlights: ['모든 소득 신고', '과오지급 환수', '아르바이트'],
+      box: {
+        label: '추가 소득 신고 원칙',
+        content: '모든 추가 소득(아르바이트·부업 등) 즉시 신고
+미신고 시 나중에 환수 처분 발생
+신고 방법: 주민센터 방문 또는 담당자 연락',
+      },
+    },
+  ],
   faqData: [
     {
       q: '자활근로 소득이 생기면 생계급여가 바로 줄어드나요?',
@@ -119,7 +138,7 @@ export const 자활사업참여하면기초생활수급탈락소득인정유지S
     },
     {
       q: '가족 중 한 명만 자활사업에 참여해도 가구 전체 수급에 영향이 있나요?',
-      a: '자활사업 참여자의 소득은 해당 가구의 소득인정액에 반영되므로 가구 전체 수급에 영향을 줍니다. 가구원 상황을 담당자와 미리 상담하세요.',
+      a: '자활사업 참여자의 소득은 해당 가구의 소득인정액에 반영되므로 가구 전체 수급에 영향을 줍니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

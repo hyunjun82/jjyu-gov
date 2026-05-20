@@ -1,95 +1,91 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          산모신생아 건강관리(산후도우미) 지원사업은 <strong>정부 바우처로 본인부담을 낮춘 국가 지원 서비스</strong>이며,
-          산후조리원은 <strong>별도 사비 부담</strong>이 원칙입니다.
-          두 서비스는 동시 이용이 제한되며, 산후조리원 퇴소 후 산후도우미를 이용하는 것이 일반적입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        비용과 혜택을 비교해 본인 상황에 맞는 선택을 하세요.
-      </p>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">산후도우미 vs 산후조리원 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>산후도우미(정부 지원)</th><th>산후조리원</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>비용</strong></td><td>본인부담 0~50% (소득 따라)</td><td>전액 사비 (평균 200~400만원)</td></tr>
-              <tr><td><strong>서비스 장소</strong></td><td>자택 방문</td><td>시설 입소</td></tr>
-              <tr><td><strong>기간</strong></td><td>5~15일 (출산 유형별)</td><td>보통 2~4주</td></tr>
-              <tr><td><strong>지원 여부</strong></td><td>정부 바우처</td><td>별도 지원 없음 (일부 지자체 예외)</td></tr>
-              <tr><td><strong>동시 이용</strong></td><td colSpan={2}>산후조리원 재원 중 산후도우미 이용 불가</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="cost">
-        <h2 className="detail-card-head">산후도우미 실제 비용 예시</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기초수급자:</strong> 본인부담 없음 (전액 정부 지원)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>중위소득 80% 가구:</strong> 본인부담 30% (나머지 70% 정부 지원)
-          </div>
-          <div className="info-box">
-            <strong>중위소득 120% 가구:</strong> 본인부담 50% (예외 대상 해당 시)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="strategy">
-        <h2 className="detail-card-head">합리적 이용 전략</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>추천 순서:</strong> 산후조리원(1~2주) → 귀가 후 산후도우미 이용
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>출산 후 90일 이내:</strong> 귀가 후에도 90일 이내면 산후도우미 이용 가능
-          </div>
-          <div className="info-box">
-            <strong>출산 후 바로 귀가 시:</strong> 출산 당일부터 산후도우미 이용 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            본인부담금, 신청 기간, 쌍둥이 예외 지원까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/maternal-newborn-care" className="btn-cta">
-            산모신생아 건강관리 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 산모신생아건강관리산후도우미산후조리원비용비교SpokeContent: SpokeData = {
   h1: '산후도우미와 산후조리원 비용 비교, 정부 지원과 사비 차이',
   breadcrumb: '산후도우미산후조리원비용비교',
   description:
     '산후도우미(산모신생아 지원): 정부 바우처 본인부담 0~50%, 자택 방문 5~15일. 산후조리원: 전액 사비 평균 200~400만원. 산후조리원 퇴소 후 산후도우미 순차 이용 전략 추천.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '산후도우미 본인부담': '0~50% (소득 따라)',
+    '산후조리원 비용': '전액 사비 (평균 200~400만원)',
+    '산후도우미 서비스': '자택 방문 5~15일',
+    '동시 이용': '불가 (순차 이용 권장)',
+    '이용 기한': '출산일로부터 90일 이내',
+  },
+  keyFactsHighlights: {
+    '산후도우미 본인부담': ['0~50%'],
+    '산후조리원 비용': ['200~400만원'],
+    '이용 기한': ['90일 이내'],
+  },
+  qa: [
+    {
+      q: '산후도우미와 산후조리원의 비용 차이는 어느 정도인가요?',
+      anchor: 'compare',
+      intro: '산모신생아 건강관리(산후도우미) 지원사업은 정부 바우처로 본인부담을 낮춘 국가 지원 서비스이며, 산후조리원은 별도 사비 부담이 원칙입니다. 두 서비스는 동시 이용이 제한되며, 산후조리원 퇴소 후 산후도우미를 이용하는 것이 일반적입니다.',
+      highlights: ['정부 바우처', '전액 사비', '동시 이용 제한', '순차 이용'],
+      table: {
+        headers: ['항목', '산후도우미(정부 지원)', '산후조리원'],
+        rows: [
+          ['비용', '본인부담 0~50% (소득 따라)', '전액 사비 (평균 200~400만원)'],
+          ['서비스 장소', '자택 방문', '시설 입소'],
+          ['기간', '5~15일 (출산 유형별)', '보통 2~4주'],
+          ['지원 여부', '정부 바우처', '별도 지원 없음 (일부 지자체 예외)'],
+          ['동시 이용', '산후조리원 재원 중 산후도우미 이용 불가', '-'],
+        ],
+      },
+    },
+    {
+      q: '소득별 산후도우미 실제 비용은 얼마인가요?',
+      anchor: 'cost',
+      intro: '기초수급자는 본인부담금 없이 전액 정부 지원을 받습니다. 중위소득 80% 가구는 본인부담 30%(나머지 70% 정부 지원), 중위소득 120% 가구는 본인부담 50%가 적용됩니다. 실제 금액은 서비스 제공 기간과 기본형·종일형 선택에 따라 달라집니다.',
+      highlights: ['기초수급자 본인부담 없음', '중위소득 80% 30%', '중위소득 120% 50%'],
+      box: { label: '소득별 본인부담 예시', content: '기초수급자: 본인부담 없음 (전액 정부 지원)\n중위소득 40% 이하: 10%\n중위소득 80% 수준: 30%\n중위소득 150% 수준: 50%' },
+    },
+    {
+      q: '산후도우미와 산후조리원 중 어떤 선택이 합리적인가요?',
+      anchor: 'strategy',
+      intro: '가장 합리적인 전략은 산후조리원(1~2주)을 이용한 후 귀가해 산후도우미를 이용하는 순차 이용입니다. 출산 후 90일 이내이면 귀가 후에도 산후도우미 서비스 이용이 가능합니다. 출산 후 바로 귀가한다면 출산 당일부터 산후도우미를 이용할 수 있습니다. 소득이 낮을수록 산후도우미 정부 지원 비율이 높아 비용 부담이 적습니다.',
+      highlights: ['산후조리원 → 귀가 → 산후도우미', '90일 이내', '출산 당일부터 가능'],
+      box: { label: '합리적 이용 전략', content: '순차 이용: 산후조리원(1~2주) → 귀가 후 산후도우미 이용 (90일 이내)\n바로 귀가: 출산 당일부터 산후도우미 이용 가능\n소득 낮을수록 정부 지원 비율 높아 부담 감소' },
+    },
+    {
+      q: '산후도우미가 어떤 서비스를 제공하나요?',
+      anchor: 'service',
+      intro: '산후도우미는 산모 돌봄과 신생아 돌봄을 함께 제공합니다. 산모 돌봄에는 산후 회복 지원, 모유수유 지원이 포함됩니다. 신생아 돌봄에는 목욕, 수유 지원이 포함됩니다. 청소·세탁 등 가사 보조도 포함되어 산모가 회복에 집중할 수 있도록 지원합니다.',
+      highlights: ['산모 돌봄', '신생아 돌봄', '모유수유 지원', '가사 보조'],
+      table: {
+        headers: ['서비스 분류', '내용'],
+        rows: [
+          ['산모 돌봄', '산후 회복 지원, 모유수유 지원'],
+          ['신생아 돌봄', '목욕, 수유 지원, 신생아 관리'],
+          ['가사 보조', '청소, 세탁, 식사 준비 등'],
+        ],
+      },
+    },
+    {
+      q: '산후조리원 비용에 정부 지원이 있나요?',
+      anchor: 'subsidy',
+      intro: '현재 산후조리원에 대한 직접 국비 지원은 없습니다. 일부 지방자치단체에서 별도 지원금을 제공하는 경우가 있으므로 거주 지역 주민센터에 문의하세요. 의료보험 적용도 되지 않아 전액 사비입니다. 대신 산모신생아 건강관리(산후도우미) 서비스를 정부 지원으로 이용할 수 있습니다.',
+      highlights: ['직접 국비 지원 없음', '일부 지자체 예외', '전액 사비', '산후도우미는 정부 지원'],
+      box: { label: '산후조리원 지원 확인', content: '거주 지역 주민센터 문의 (지자체 지원금 여부)\n또는 해당 시·군·구청 출산지원팀 문의' },
+    },
+    {
+      q: '산후조리원 이용 후 남은 기간에 산후도우미를 쓸 수 있나요?',
+      anchor: 'after-postpartum',
+      intro: '출산 후 90일 이내라면 산후조리원 퇴소 후에도 산후도우미 서비스를 이용할 수 있습니다. 산후조리원에 2주 입소한 후 퇴소해도 출산일로부터 90일 이내이면 남은 서비스 일수를 이용할 수 있습니다. 단, 신청은 출산 후 60일 이내에 해야 합니다.',
+      highlights: ['90일 이내', '퇴소 후에도 가능', '신청은 60일 이내'],
+      box: { label: '순차 이용 예시', content: '1월 1일 출산 → 산후조리원 2주 입소 (1.1~1.14) → 퇴소 후 귀가\n→ 산후도우미 신청·이용 (3월 31일까지, 출산 90일 이내)' },
+    },
+    {
+      q: '제공 기관은 어디서 찾나요?',
+      anchor: 'find-provider',
+      intro: '사회서비스 전자바우처(socialservice.or.kr)에서 가까운 제공 기관을 검색할 수 있습니다. 신청 후 바우처 카드(국민행복카드)를 받고 제공 기관과 일정을 협의하면 됩니다. 복지로(bokjiro.go.kr) 또는 주민센터에서도 안내를 받을 수 있습니다.',
+      highlights: ['socialservice.or.kr', '국민행복카드', '복지로', '주민센터'],
+      box: { label: '제공 기관 찾기', content: '사회서비스 전자바우처: socialservice.or.kr\n복지로: bokjiro.go.kr\n주민센터 방문 문의' },
+    },
+  ],
   faqData: [
     {
       q: '산후조리원 비용에 정부 지원이 있나요?',

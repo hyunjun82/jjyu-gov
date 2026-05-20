@@ -1,117 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          2026년 지역아동센터는 전국 <strong>4,400개</strong> 시설로 운영됩니다.
-          이용 대상은 만 18세 미만 아동이며, 저소득·한부모·다문화·다자녀 가구가 우선 배정됩니다.
-          비용은 저소득 가구 무료, 일반 가구 월 0~3만원입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "2026년에 지역아동센터 이용 조건이 달라졌나요? 혜택이 늘었나요?"
-        2026년 기준 지역아동센터 대상과 지원 내용을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="target">
-        <h2 className="detail-card-head">2026년 이용 대상 및 우선순위</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>우선순위</th><th>대상</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>1순위</strong></td>
-                <td>기초생활수급 가구, 차상위계층 아동</td>
-              </tr>
-              <tr>
-                <td><strong>2순위</strong></td>
-                <td>한부모·조손가족, 다문화가족, 장애인 가구 아동</td>
-              </tr>
-              <tr>
-                <td><strong>3순위</strong></td>
-                <td>다자녀 가구, 맞벌이 가구 아동</td>
-              </tr>
-              <tr>
-                <td><strong>4순위</strong></td>
-                <td>그 외 돌봄이 필요한 아동 (만 18세 미만)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="service2026">
-        <h2 className="detail-card-head">2026년 지원 내용</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>운영 시설</strong></td>
-                <td>전국 4,400개</td>
-              </tr>
-              <tr>
-                <td><strong>이용 비용</strong></td>
-                <td>저소득 무료 / 일반 월 0~3만원</td>
-              </tr>
-              <tr>
-                <td><strong>학기 중 시간</strong></td>
-                <td>14:00 ~ 19:00 (주 5일)</td>
-              </tr>
-              <tr>
-                <td><strong>방학 중 시간</strong></td>
-                <td>09:00 ~ 18:00 (주 5일)</td>
-              </tr>
-              <tr>
-                <td><strong>제공 서비스</strong></td>
-                <td>보호·교육·문화·정서지원·급식·지역사회 연계</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="program">
-        <h2 className="detail-card-head">프로그램 구성</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>5대 안전의무교육:</strong> 교통안전, 실종유괴예방, 약물오남용예방,
-            재난대비, 성폭력예방 교육이 포함됩니다.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>학업 지원:</strong> 숙제지도, 학교생활 관리, 기초학력 지원
-          </div>
-          <div className="info-box">
-            <strong>문화·정서:</strong> 체험활동, 놀이, 예체능 프로그램, 또래 관계 형성 지원
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 방법, 위치 찾기, 비용 등<br />
-            지역아동센터 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/community-child-center" className="btn-cta">
-            지역아동센터 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 지역아동센터2026변경사항SpokeContent: SpokeData = {
   h1: '2026년 지역아동센터 이용 대상과 지원 내용이 달라진 점',
@@ -119,8 +6,154 @@ export const 지역아동센터2026변경사항SpokeContent: SpokeData = {
   description:
     '2026년 지역아동센터 전국 4,400개 운영. 만 18세 미만 대상 저소득 우선. 비용 저소득 무료 일반 월 0~3만원. 학기중 14~19시 방학중 9~18시.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '전국 시설 수': '약 4,400개',
+    '이용 대상': '만 18세 미만 아동 (저소득 우선)',
+    '이용 비용': '저소득 무료 / 일반 월 0~3만원',
+    '학기 중 운영': '14:00~19:00 (주 5일)',
+    '방학 중 운영': '09:00~18:00 (주 5일)',
+  },
+  keyFactsHighlights: {
+    '전국 시설 수': ['4,400개'],
+    '이용 비용': ['무료', '0~3만원'],
+    '학기 중 운영': ['14:00~19:00'],
+    '방학 중 운영': ['09:00~18:00'],
+  },
+  qa: [
+    {
+      q: '2026년 지역아동센터 이용 대상은 누구인가요?',
+      anchor: 'target',
+      intro: '지역아동센터 이용 대상은 만 18세 미만 아동입니다. 누구나 신청할 수 있지만, 정원이 있어 우선순위에 따라 배정됩니다. 기초생활수급 가구·차상위계층 아동이 1순위이며, 한부모·조손·다문화가족 아동이 2순위, 다자녀·맞벌이 가구가 3순위, 그 외 돌봄이 필요한 아동이 4순위입니다.',
+      highlights: ['만 18세 미만', '저소득 1순위', '우선 배정'],
+      table: {
+        headers: ['우선순위', '대상'],
+        rows: [
+          ['1순위', '기초생활수급 가구, 차상위계층 아동'],
+          ['2순위', '한부모·조손가족, 다문화가족, 장애인 가구 아동'],
+          ['3순위', '다자녀 가구, 맞벌이 가구 아동'],
+          ['4순위', '그 외 돌봄이 필요한 아동 (만 18세 미만)'],
+        ],
+      },
+      box: {
+        label: '핵심',
+        content: '만 18세 미만이면 신청 가능. 정원에 따라 저소득 가구 우선 배정.',
+      },
+    },
+    {
+      q: '2026년 이용 비용은 얼마인가요?',
+      anchor: 'cost',
+      intro: '기초생활수급 가구·차상위계층 아동은 무료입니다. 일반 가구는 월 0~3만원 수준이며, 센터마다 다를 수 있습니다. 급식(간식·석식)은 대부분 포함되어 있습니다.',
+      highlights: ['저소득 무료', '일반 월 0~3만원'],
+      table: {
+        headers: ['구분', '이용 비용'],
+        rows: [
+          ['기초수급자·차상위', '무료'],
+          ['일반 가구', '월 0~3만원 (센터별 상이)'],
+          ['급식', '대부분 포함 (간식·석식)'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '이용 비용은 센터별로 다를 수 있습니다. 해당 센터에 직접 문의하세요.',
+      },
+    },
+    {
+      q: '2026년 운영 시간은 어떻게 되나요?',
+      anchor: 'hours',
+      intro: '학기 중에는 오후 2시부터 7시까지(14:00~19:00), 방학 중에는 오전 9시부터 오후 6시까지(09:00~18:00) 주 5일 운영합니다. 방학 중에는 하루 종일 돌봄이 가능하여 맞벌이 가구에 유용합니다.',
+      highlights: ['학기 중 14~19시', '방학 중 9~18시', '주 5일'],
+      table: {
+        headers: ['구분', '운영 시간', '비고'],
+        rows: [
+          ['학기 중', '14:00~19:00', '주 5일 운영'],
+          ['방학 중', '09:00~18:00', '하루 종일 돌봄 가능'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '방학 중에는 오전 9시부터 이용 가능. 맞벌이 가구의 방학 돌봄 공백 해소.',
+      },
+    },
+    {
+      q: '어떤 서비스를 제공하나요?',
+      anchor: 'services',
+      intro: '지역아동센터는 보호, 교육, 문화, 정서지원, 지역사회 연계, 급식의 6개 분야 서비스를 제공합니다. 숙제지도·기초학력 지원 등 학업 지원과 함께 5대 안전의무교육(교통안전, 실종유괴예방, 약물오남용예방, 재난대비, 성폭력예방)도 포함됩니다.',
+      highlights: ['보호·교육·문화·정서지원', '5대 안전의무교육', '급식'],
+      table: {
+        headers: ['분야', '내용'],
+        rows: [
+          ['보호', '안전한 공간, 생활관리, 5대 안전의무교육'],
+          ['교육', '숙제지도, 학교생활 관리, 기초학력 지원'],
+          ['문화', '체험활동, 놀이, 예체능 프로그램'],
+          ['정서지원', '상담, 심리지원, 또래 관계 형성'],
+          ['지역사회 연계', '학교·지역기관 연계, 가족 지원'],
+          ['급식', '방과 후 간식 및 석식 (센터별 상이)'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '5대 안전의무교육: 교통안전, 실종유괴예방, 약물오남용예방, 재난대비, 성폭력예방.',
+      },
+    },
+    {
+      q: '고등학생도 이용할 수 있나요?',
+      anchor: 'highschool',
+      intro: '만 18세 미만이면 이용할 수 있으므로 고등학생도 해당됩니다. 그러나 정원에 따라 초등학생 저학년이 우선 배정될 수 있어 고등학생의 경우 대기가 발생할 수 있습니다.',
+      highlights: ['만 18세 미만', '고등학생 가능', '초등학생 우선'],
+      table: {
+        headers: ['대상', '이용 가능 여부'],
+        rows: [
+          ['초등학생', '가능 (우선 배정)'],
+          ['중학생', '가능'],
+          ['고등학생 (만 18세 미만)', '가능 (대기 발생 가능)'],
+          ['만 18세 이상', '불가'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '정원이 있으므로 고등학생은 대기가 발생할 수 있습니다. 해당 센터에 문의.',
+      },
+    },
+    {
+      q: '위치는 어디서 찾을 수 있나요?',
+      anchor: 'location',
+      intro: '가까운 지역아동센터는 지역아동센터중앙지원단 홈페이지(icareinfo.go.kr) 또는 복지로(bokjiro.go.kr)에서 지도로 검색할 수 있습니다. 보건복지상담센터(129)에 전화해도 안내를 받을 수 있습니다.',
+      highlights: ['icareinfo.go.kr', 'bokjiro.go.kr', '129'],
+      table: {
+        headers: ['방법', '내용'],
+        rows: [
+          ['온라인 검색', 'icareinfo.go.kr → 지역아동센터 찾기'],
+          ['복지로', 'bokjiro.go.kr → 서비스 신청 → 아동'],
+          ['전화', '보건복지상담센터 129'],
+          ['방문', '주민등록지 읍·면·동 주민센터'],
+        ],
+      },
+      box: {
+        label: '찾기',
+        content: 'icareinfo.go.kr에서 지역별 지도 검색 가능.',
+      },
+    },
+    {
+      q: '신청은 어떻게 하나요?',
+      anchor: 'apply',
+      intro: '가까운 지역아동센터를 icareinfo.go.kr 또는 복지로에서 찾은 뒤 해당 센터에 직접 신청하거나, 주민등록지 읍·면·동 주민센터를 통해 신청합니다. 신청 서류는 신청서, 건강보험료 납부 확인서(우선 대상은 수급자 증명서 추가)를 준비하면 됩니다.',
+      highlights: ['센터 직접 신청', '주민센터 경유', '수급자 증명서'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['① 센터 찾기', 'icareinfo.go.kr 또는 복지로에서 가까운 센터 확인'],
+          ['② 서류 준비', '신청서, 건강보험료 납부 확인서 (수급자는 증명서 추가)'],
+          ['③ 신청', '해당 센터 방문 또는 주민센터 경유'],
+          ['④ 배정', '우선순위 심사 후 이용 개시'],
+        ],
+      },
+      box: {
+        label: '신청처',
+        content: '해당 지역아동센터 또는 주민센터. 문의: 보건복지상담센터 129.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '2026년 지역아동센터 이용 비용은 얼마인가요?',

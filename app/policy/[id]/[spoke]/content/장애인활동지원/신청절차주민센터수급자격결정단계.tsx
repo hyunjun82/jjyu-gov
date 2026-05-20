@@ -1,98 +1,121 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          장애인활동지원 신청은 <strong>주민센터(읍·면·동) 방문 신청</strong>으로 시작하며,
-          국민연금공단 종합조사 → 수급자격 결정 → 기관 선택 순으로 진행됩니다.
-          신청부터 서비스 시작까지 보통 <strong>1~2개월</strong>이 소요됩니다.
-        </p>
-      </div>
-
-      <section className="detail-card" id="step">
-        <h2 className="detail-card-head">신청 절차 단계별 안내</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>내용</th><th>처리 기관</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1단계</strong></td><td>주민센터 방문 신청 (서비스 신청서·개인정보 동의서 제출)</td><td>읍·면·동 주민센터</td></tr>
-              <tr><td><strong>2단계</strong></td><td>국민연금공단 서비스 지원 종합조사 (방문 평가)</td><td>국민연금공단 지사</td></tr>
-              <tr><td><strong>3단계</strong></td><td>시·군·구 수급자격심의위원회 심의</td><td>시·군·구청</td></tr>
-              <tr><td><strong>4단계</strong></td><td>수급자격 결정 통보 (구간 1~15 + 월 급여 시간)</td><td>시·군·구청</td></tr>
-              <tr><td><strong>5단계</strong></td><td>활동지원기관 선택 및 계약 체결</td><td>수급자 직접 선택</td></tr>
-              <tr><td><strong>6단계</strong></td><td>서비스 이용 시작</td><td>활동지원기관</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">필요 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>필수:</strong> 서비스 신청서, 개인정보 수집·이용·제공 동의서
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신분 확인:</strong> 신청인 신분증 (본인 또는 대리인)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>장애 확인:</strong> 장애인등록증 또는 복지카드 (주민센터 전산 확인 가능)
-          </div>
-          <div className="info-box">
-            <strong>대리 신청:</strong> 법정대리인의 경우 위임장 + 대리인 신분증
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="period">
-        <h2 className="detail-card-head">소요 기간 및 문의처</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>종합조사:</strong> 신청 후 약 2~4주 (국민연금공단 방문 일정 잡기)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>수급자격 결정:</strong> 조사 완료 후 약 2주
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기관 계약~서비스 시작:</strong> 수급 결정 후 1~2주
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> ☎1350 (보건복지상담) / ☎1355 (국민연금공단) / 주민센터 담당자
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청자격, 급여 단가, 장기요양 전환 기준까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-activity-support" className="btn-cta">
-            장애인활동지원 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애인활동지원신청절차주민센터수급자격결정단계SpokeContent: SpokeData = {
   h1: '장애인활동지원 신청 절차, 주민센터 방문부터 수급자격 결정까지',
   breadcrumb: '신청절차주민센터수급자격결정단계',
   description:
     '장애인활동지원 신청: 주민센터 신청 → 국민연금공단 종합조사 → 수급자격 결정 → 기관 계약. 총 1~2개월 소요. ☎1350·1355 문의. 필요 서류: 신분증·장애인등록증.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청처': '주소지 읍·면·동 주민센터',
+    '조사 기관': '국민연금공단 지사 (방문 평가)',
+    '총 소요 기간': '약 1~2개월',
+    '문의': '☎1350 (복지상담) / ☎1355 (국민연금공단)',
+    '온라인 신청': '복지로(bokjiro.go.kr)',
+  },
+  keyFactsHighlights: {
+    '총 소요 기간': ['1~2개월'],
+    '문의': ['☎1350', '☎1355'],
+  },
+  qa: [
+    {
+      q: '장애인활동지원 신청 절차는 어떻게 되나요?',
+      anchor: 'procedure',
+      intro: '장애인활동지원 신청은 주민센터(읍·면·동) 방문 신청으로 시작하며, 국민연금공단 종합조사 → 수급자격 결정 → 기관 선택 순으로 진행됩니다. 신청부터 서비스 시작까지 보통 1~2개월이 소요됩니다.',
+      highlights: ['주민센터', '종합조사', '1~2개월'],
+      table: {
+        headers: ['단계', '내용', '처리 기관'],
+        rows: [
+          ['1단계', '주민센터 방문 신청 (서비스 신청서·개인정보 동의서)', '읍·면·동 주민센터'],
+          ['2단계', '국민연금공단 서비스 지원 종합조사 (방문 평가)', '국민연금공단 지사'],
+          ['3단계', '시·군·구 수급자격심의위원회 심의', '시·군·구청'],
+          ['4단계', '수급자격 결정 통보 (구간 1~15 + 월 급여 시간)', '시·군·구청'],
+          ['5단계', '활동지원기관 선택 및 계약 체결', '수급자 직접 선택'],
+          ['6단계', '서비스 이용 시작', '활동지원기관'],
+        ],
+      },
+    },
+    {
+      q: '신청 시 필요한 서류는 무엇인가요?',
+      anchor: 'documents',
+      intro: '서비스 신청서, 개인정보 수집·이용·제공 동의서가 필수이며, 신분증과 장애인등록증(또는 복지카드)이 필요합니다. 대리 신청 시에는 법정대리인의 위임장과 대리인 신분증이 추가로 필요합니다.',
+      highlights: ['신청서', '신분증', '장애인등록증', '위임장'],
+      box: {
+        label: '필요 서류',
+        content: '필수: 서비스 신청서, 개인정보 수집·이용·제공 동의서
+신분 확인: 신청인 신분증 (본인 또는 대리인)
+장애 확인: 장애인등록증 또는 복지카드
+대리 신청 시: 위임장 + 대리인 신분증',
+      },
+    },
+    {
+      q: '온라인으로도 신청할 수 있나요?',
+      anchor: 'online',
+      intro: '복지로(bokjiro.go.kr)에서 온라인 신청도 가능합니다. 다만 종합조사는 국민연금공단이 직접 가정을 방문하므로 일정 조율이 필요합니다.',
+      highlights: ['복지로', '온라인 신청', '방문 조사'],
+      box: {
+        label: '온라인 신청 방법',
+        content: '복지로(bokjiro.go.kr) → 서비스 신청 → 장애인활동지원
+공동인증서 또는 간편인증 필요
+종합조사는 온라인 신청 후에도 국민연금공단 방문 진행',
+      },
+    },
+    {
+      q: '종합조사는 집에 직접 오나요?',
+      anchor: 'home-visit',
+      intro: '국민연금공단 직원이 신청인 가정을 직접 방문하여 일상생활 기능 상태 등을 평가합니다. 방문 일정은 신청 후 공단에서 연락이 옵니다. 조사 시 신청인이 가정에 있어야 하며, 불가한 경우 일정을 재조율할 수 있습니다.',
+      highlights: ['가정 방문', '국민연금공단', '일정 조율'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['신청 완료 후', '국민연금공단에서 방문 일정 연락'],
+          ['방문 당일', '기능 상태·생활환경 종합 평가'],
+          ['평가 후', '급여 구간 및 월 급여 시간 결정'],
+        ],
+      },
+    },
+    {
+      q: '수급자격을 받지 못하면 이의신청을 할 수 있나요?',
+      anchor: 'appeal',
+      intro: '수급자격 탈락 또는 급여 구간에 이의가 있으면 결정 통보 후 90일 이내 이의신청을 할 수 있습니다. 주민센터 또는 시·군·구청에 문의하거나 행정심판을 청구할 수 있습니다.',
+      highlights: ['90일 이내', '이의신청', '행정심판'],
+      box: {
+        label: '이의신청 방법',
+        content: '결정 통보 후 90일 이내 이의신청 가능
+신청처: 주민센터 또는 시·군·구청
+행정심판 청구도 가능
+문의: ☎1350 (보건복지상담)',
+      },
+    },
+    {
+      q: '신청 후 서비스 시작까지 너무 오래 걸리면 어떻게 하나요?',
+      anchor: 'urgent',
+      intro: '긴급 상황이라면 긴급활동지원 신청을 통해 수급자격 결정 전에 임시로 서비스를 이용할 수 있습니다. 주민센터나 ☎1350에 긴급 상황임을 알리세요.',
+      highlights: ['긴급활동지원', '임시 서비스', '☎1350'],
+      box: {
+        label: '긴급 상황 대응',
+        content: '긴급활동지원 신청 → 임시 서비스 이용 가능
+신청처: 주민센터 또는 ☎1350
+적용 기간: 수급자격 결정 전까지 임시 이용',
+      },
+    },
+    {
+      q: '소요 기간과 문의처는 어떻게 되나요?',
+      anchor: 'timeline',
+      intro: '종합조사는 신청 후 약 2~4주, 수급자격 결정은 조사 완료 후 약 2주, 기관 계약~서비스 시작은 수급 결정 후 1~2주가 소요됩니다. 문의는 ☎1350(보건복지상담), ☎1355(국민연금공단), 주민센터 담당자에게 할 수 있습니다.',
+      highlights: ['2~4주', '☎1350', '☎1355'],
+      table: {
+        headers: ['단계', '소요 기간'],
+        rows: [
+          ['종합조사', '신청 후 약 2~4주'],
+          ['수급자격 결정', '조사 완료 후 약 2주'],
+          ['기관 계약~서비스 시작', '수급 결정 후 1~2주'],
+          ['총 소요 기간', '약 1~2개월'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '온라인으로도 신청할 수 있나요?',

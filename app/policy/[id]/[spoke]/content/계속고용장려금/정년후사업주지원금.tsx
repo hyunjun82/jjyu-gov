@@ -1,102 +1,98 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          정년을 지난 직원을 계속 고용하면 사업주가 <strong>1인당 월 30만원</strong>을
-          최대 <strong>3년(총 1,080만원)</strong>까지 지원받습니다.
-          우선지원대상기업·중견기업·사회적기업이 대상이며
-          정년 연장·정년 폐지·재고용 중 하나 이상을 도입하면 신청할 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        고령자 계속고용장려금은 사업주가 받는 인건비 보조 제도입니다.
-        정년 이후에도 직원을 계속 고용하면 정부가 인건비를 직접 지원해 사업주의 부담을 줄여줍니다.
-      </p>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">사업주가 받는 지원금 규모</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>기간</th><th>지원금</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>매월</strong></td><td>30만원</td><td>근로자 1인당</td></tr>
-              <tr><td><strong>연간</strong></td><td>360만원</td><td>12개월 × 30만원</td></tr>
-              <tr><td><strong>최대 3년</strong></td><td>1,080만원</td><td>1인당 최대 누적</td></tr>
-              <tr><td><strong>2026 비수도권</strong></td><td>추가 우대</td><td>고용노동부 별도 안내</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">사업주 신청 자격</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기업 유형:</strong> 우선지원대상기업 또는 중견기업 또는 사회적기업
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>제외:</strong> 대기업, 공기업
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>계속고용 방법:</strong> 정년 연장(1년 이상) 또는 정년 폐지 또는 정년퇴직자 재고용 중 1가지 이상
-          </div>
-          <div className="info-box">
-            <strong>근로자 요건:</strong> 계속고용제도 시행일부터 5년 이내 정년 도달자
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="effect">
-        <h2 className="detail-card-head">근로자 입장에서의 효과</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>지원금 수령자:</strong> 사업주 (근로자 직접 수령 아님)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>효과:</strong> 사업주의 인건비 부담 감소 → 정년 후 고용 연장 기회 증가
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>근로자 확인:</strong> 회사 인사팀에 본 장려금 활용 여부 문의
-          </div>
-          <div className="info-box">
-            <strong>신청처:</strong> 사업주가 고용24(work24.go.kr) 또는 관할 고용센터
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            정년 연장·폐지·재고용 차이, 비수도권 우대, 중복 장려금 여부까지<br />
-            계속고용장려금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-continue-employ" className="btn-cta">
-            고령자 계속고용장려금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 계속고용장려금정년후사업주지원금SpokeContent: SpokeData = {
   h1: '고령자 계속고용장려금, 정년 지난 직원 계속 쓰면 사업주가 받는 지원금',
   breadcrumb: '정년후사업주지원금',
-  description:
-    '고령자 계속고용장려금: 정년 지난 직원 계속 고용 시 1인당 월 30만원, 최대 3년 1,080만원. 우선지원대상기업·중견기업·사회적기업 대상. 정년 연장·폐지·재고용 중 1가지 이상 도입 필수.',
+  description: '고령자 계속고용장려금: 정년 지난 직원 계속 고용 시 1인당 월 30만원, 최대 3년 1,080만원. 우선지원대상기업·중견기업·사회적기업 대상. 정년 연장·폐지·재고용 중 1가지 이상 도입 필수.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '월 지원금': '1인당 월 30만원',
+    '최대 지원': '3년 총 1,080만원',
+    '신청 대상 기업': '우선지원대상기업·중견기업·사회적기업',
+    '제외 기업': '대기업, 공기업',
+    '계속고용 방법': '정년 연장·폐지·재고용 중 1가지 이상',
+  },
+  keyFactsHighlights: {
+    '월 지원금': ['월 30만원'],
+    '최대 지원': ['1,080만원'],
+    '제외 기업': ['대기업', '공기업'],
+  },
+  qa: [
+    {
+      q: '사업주가 받는 지원금 규모는 얼마인가?',
+      anchor: 'amount',
+      intro: '정년을 지난 직원을 계속 고용하면 사업주가 1인당 월 30만원을 최대 3년(총 1,080만원)까지 지원받습니다. 우선지원대상기업·중견기업·사회적기업이 대상이며 정년 연장·정년 폐지·재고용 중 하나 이상을 도입하면 신청할 수 있습니다.',
+      highlights: ['1인당 월 30만원', '최대 3년', '총 1,080만원'],
+      table: {
+        headers: ['기간', '지원금', '비고'],
+        rows: [
+          ['매월', '30만원', '근로자 1인당'],
+          ['연간', '360만원', '12개월 × 30만원'],
+          ['최대 3년', '1,080만원', '1인당 최대 누적'],
+          ['2026 비수도권', '추가 우대', '고용노동부 별도 안내'],
+        ],
+      },
+    },
+    {
+      q: '사업주 신청 자격은 무엇인가?',
+      anchor: 'eligibility',
+      intro: '우선지원대상기업, 중견기업, 사회적기업이 신청 가능합니다. 대기업과 공기업은 제외됩니다. 계속고용 방법으로 정년 연장(1년 이상), 정년 폐지, 정년퇴직자 재고용 중 하나 이상을 도입해야 합니다. 근로자는 계속고용제도 시행일부터 5년 이내 정년 도달자여야 합니다.',
+      highlights: ['우선지원대상기업', '중견기업', '사회적기업', '대기업 제외'],
+      table: {
+        headers: ['기업 유형', '신청 가능'],
+        rows: [
+          ['우선지원대상기업', '가능'],
+          ['중견기업', '가능'],
+          ['사회적기업', '가능'],
+          ['대기업', '불가'],
+          ['공기업', '불가'],
+        ],
+      },
+    },
+    {
+      q: '근로자 입장에서 이 장려금의 효과는?',
+      anchor: 'worker-effect',
+      intro: '지원금 수령자는 사업주이고, 근로자가 직접 받는 것이 아닙니다. 사업주의 인건비 부담이 감소하여 정년 후 고용 연장 기회가 늘어납니다. 근로자는 회사 인사팀에 본 장려금 활용 여부를 문의할 수 있습니다.',
+      highlights: ['사업주 수령', '인건비 부담 감소', '고용 연장 기회'],
+      box: { label: '안내', content: '장려금은 사업주 수령. 근로자는 회사 인사팀에 "계속고용장려금 신청 여부" 문의 가능.' },
+    },
+    {
+      q: '신청 방법과 절차는?',
+      anchor: 'apply',
+      intro: '사업주가 고용24(work24.go.kr) 또는 관할 고용센터에 신청합니다. 취업규칙 또는 단체협약에 계속고용 규정을 명시한 후 신청해야 합니다. 분기 단위로 신청하여 지급받습니다.',
+      highlights: ['고용24 신청', '취업규칙 명시', '분기 단위 지급'],
+      box: { label: '신청처', content: '고용24(work24.go.kr) 또는 관할 고용센터. 사전 상담: 1350.' },
+    },
+    {
+      q: '비수도권 기업은 추가 혜택이 있나?',
+      anchor: 'rural',
+      intro: '2026년부터 비수도권 기업에 대한 지원이 확대됐습니다. 정확한 우대 내용은 고용노동부 또는 관할 고용센터에서 확인해야 합니다.',
+      highlights: ['비수도권 우대', '2026년 확대'],
+      box: { label: '안내', content: '비수도권 우대 내용: 고용노동부(1350) 또는 관할 고용센터에 문의.' },
+    },
+    {
+      q: '정년 연장·폐지·재고용 중 어떤 것을 선택해야 하나?',
+      anchor: 'which',
+      intro: '세 가지 중 하나 이상을 도입하면 신청 가능합니다. 숙련 인력을 기존 조건 그대로 유지하고 싶으면 정년 연장, 장기적으로 연령 제한 없이 운영하고 싶으면 정년 폐지, 임금·시간을 조정하고 싶으면 재고용이 적합합니다.',
+      highlights: ['정년 연장', '정년 폐지', '재고용', '1가지 이상'],
+      table: {
+        headers: ['상황', '추천'],
+        rows: [
+          ['숙련 인력 기존 조건 유지', '정년 연장'],
+          ['임금·시간 조정 필요', '재고용'],
+          ['연령 제한 없애기', '정년 폐지'],
+        ],
+      },
+    },
+    {
+      q: '장려금을 받기 위해 필요한 서류는?',
+      anchor: 'docs',
+      intro: '취업규칙 또는 단체협약(계속고용 규정 명시), 근로계약서(재고용 시), 근로자 명단, 사업자등록증 등이 필요합니다. 정확한 서류는 관할 고용센터 안내를 따르는 것이 좋습니다.',
+      highlights: ['취업규칙', '근로계약서', '근로자 명단'],
+      box: { label: '서류', content: '취업규칙/단체협약(명시), 근로계약서, 근로자 명단, 사업자등록증. 고용센터에서 추가 서류 안내.' },
+    },
+  ],
   faqData: [
     {
       q: '계속고용장려금은 얼마나 받나요?',

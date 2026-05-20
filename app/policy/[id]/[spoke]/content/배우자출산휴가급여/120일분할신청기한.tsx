@@ -1,96 +1,109 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          배우자 출산휴가는 출산일로부터 <strong>120일 이내</strong>에 사용해야 하며,
-          <strong>3회까지 분할</strong> 사용할 수 있습니다.
-          급여 신청 기한은 <strong>휴가 종료일 이후 12개월 이내</strong>이며,
-          이 기한을 넘기면 급여를 받을 수 없습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        분할 사용 방법과 각 구간별 신청 기한을 정확히 파악하면
-        바쁜 중에도 급여를 빠짐없이 챙길 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="period">
-        <h2 className="detail-card-head">사용 기간과 분할 규정</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>사용 가능 기간</strong></td><td>출산일로부터 120일 이내</td></tr>
-              <tr><td><strong>분할 횟수</strong></td><td>최대 3회</td></tr>
-              <tr><td><strong>최소 사용 일수</strong></td><td>없음 (1일도 가능)</td></tr>
-              <tr><td><strong>총 사용 일수</strong></td><td>20일 (합산 기준)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="deadline">
-        <h2 className="detail-card-head">급여 신청 기한</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 가능 시점:</strong> 각 휴가 구간 시작 후 1개월부터
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 마감:</strong> 각 구간 종료일로부터 12개월 이내
-          </div>
-          <div className="info-box">
-            <strong>주의:</strong> 기한 초과 시 해당 구간 급여 지급 불가
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="example">
-        <h2 className="detail-card-head">분할 사용 예시</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1차:</strong> 출산 직후 10일 사용 → 1개월 후부터 고용24 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2차:</strong> 출산 후 60일째 5일 사용 → 구간 종료 후 신청
-          </div>
-          <div className="info-box">
-            <strong>3차:</strong> 출산 후 100일째 5일 사용 → 120일 이내 완료
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            급여 상한액, 우선지원대상기업 여부, 신청 서류까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/spouse-birth-leave-pay" className="btn-cta">
-            배우자 출산휴가급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 배우자출산휴가급여120일분할신청기한SpokeContent: SpokeData = {
   h1: '배우자 출산휴가 120일 이내 3회 분할 사용, 신청 기한 놓치면 못 받는 이유',
   breadcrumb: '120일분할신청기한',
   description:
     '배우자 출산휴가 출산일 120일 이내 사용, 최대 3회 분할 가능. 각 구간 종료 후 12개월 이내 고용24 신청 필수. 기한 초과 시 해당 구간 급여 불가. 통상임금 100% 월 최대 168만원.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '사용 기한': '출산일로부터 120일 이내',
+    '분할 횟수': '최대 3회',
+    '총 사용 일수': '20일',
+    '급여 신청 기한': '각 구간 종료 후 12개월 이내',
+    '신청처': '고용24(work24.go.kr)',
+  },
+  keyFactsHighlights: {
+    '사용 기한': ['120일 이내'],
+    '급여 신청 기한': ['12개월 이내'],
+  },
+  qa: [
+    {
+      q: '배우자 출산휴가는 출산 후 언제까지 사용해야 하나요?',
+      anchor: 'deadline',
+      intro:
+        '배우자 출산휴가는 출산일로부터 120일 이내에 모두 사용해야 합니다. 출산일 기준이며, 출산 예정일 기준이 아닙니다. 120일이 지난 후에는 잔여 휴가를 사용할 수 없습니다. 총 20일의 휴가를 최대 3회까지 분할해 사용할 수 있으며, 각 분할 구간을 120일 이내에 완료해야 합니다. 회사가 분할 사용을 거부하는 것은 근로기준법 위반이므로 거부 시 고용노동부에 신고할 수 있습니다.',
+      highlights: ['출산일 120일 이내', '최대 3회 분할', '총 20일'],
+      table: {
+        headers: ['항목', '기준'],
+        rows: [
+          ['사용 가능 기간', '출산일로부터 120일 이내'],
+          ['분할 횟수', '최대 3회'],
+          ['최소 사용 일수', '없음 (1일도 가능)'],
+          ['총 사용 일수', '20일 (합산 기준)'],
+        ],
+      },
+      box: { label: '주의사항', content: '120일 기준일은 출산일(실제 출산일)입니다. 출산 예정일 기준이 아닙니다.' },
+    },
+    {
+      q: '급여 신청 기한을 놓치면 정말 못 받나요?',
+      anchor: 'apply-deadline',
+      intro:
+        '네, 고용보험법에 따라 신청 기한을 초과하면 해당 구간의 급여를 받을 수 없습니다. 각 휴가 구간 종료일로부터 12개월 이내에 고용24(work24.go.kr)에 신청해야 합니다. 분할 사용의 경우 각 구간마다 별도로 신청해야 하며, 한 구간의 기한을 넘기면 그 구간 급여만 불가능합니다. 신청 가능 시점은 각 구간 시작 후 1개월부터입니다.',
+      highlights: ['12개월 이내', '구간별 별도 신청', '기한 초과 시 불가'],
+      table: {
+        headers: ['신청 가능 시점', '신청 마감'],
+        rows: [
+          ['각 구간 시작 후 1개월부터', '각 구간 종료일로부터 12개월 이내'],
+        ],
+      },
+      box: { label: '기한 주의', content: '기한 초과 시 해당 구간 급여 지급 불가. 분할 사용 시 각 구간마다 별도로 12개월 이내 신청 필수.' },
+    },
+    {
+      q: '3회 분할 사용은 어떻게 하나요?',
+      anchor: 'split-use',
+      intro:
+        '최대 3회까지 분할 사용이 가능하며, 최소 사용 일수 제한이 없어 1일만 사용해도 됩니다. 다만 총 20일을 초과할 수는 없습니다. 예를 들어 출산 직후 10일, 출산 후 60일째 5일, 출산 후 100일째 5일 방식으로 분할할 수 있습니다. 각 구간은 모두 120일 이내에 완료해야 합니다. 분할 신청은 회사에 미리 알리고 진행하면 됩니다.',
+      highlights: ['최대 3회', '1일 단위 가능', '총 20일 한도'],
+      box: { label: '분할 사용 예시', content: '1차: 출산 직후 10일 → 2차: 출산 후 60일째 5일 → 3차: 출산 후 100일째 5일 (모두 120일 이내 완료)' },
+    },
+    {
+      q: '분할 사용 시 급여도 여러 번 신청해야 하나요?',
+      anchor: 'split-apply',
+      intro:
+        '분할 사용 시 각 사용 구간마다 급여 신청이 필요합니다. 고용24(work24.go.kr)에서 온라인 신청하거나 고용센터를 방문해 신청할 수 있습니다. 각 구간 종료 후 12개월 이내에 신청하면 됩니다. 서류는 매 구간마다 다시 제출해야 하므로 신청 기한 관리가 중요합니다. 분할 구간별로 급여 심사가 이루어지며 각각 계좌로 입금됩니다.',
+      highlights: ['구간별 별도 신청', '고용24 신청', '12개월 이내'],
+      box: { label: '분할 신청 절차', content: '각 휴가 구간 종료 후 → 고용24(work24.go.kr) 또는 고용센터 방문 → 12개월 이내 신청 완료' },
+    },
+    {
+      q: '출산일이 언제인지에 따라 120일 계산이 달라지나요?',
+      anchor: 'date',
+      intro:
+        '출산일 기준으로 120일을 계산합니다. 예정일보다 일찍 태어나도, 늦게 태어나도 실제 출산일을 기준으로 합니다. 다태아(쌍둥이 등)의 경우에도 배우자 출산휴가의 사용 기한(120일)은 동일합니다. 출산 후 바로 쉬지 않고 나중에 사용할 계획이라면 120일 내에 신청하도록 미리 계획을 세워야 합니다.',
+      highlights: ['실제 출산일 기준', '다태아도 동일'],
+      table: {
+        headers: ['상황', '120일 계산 기준'],
+        rows: [
+          ['조기 출산', '실제 출산일부터 120일'],
+          ['예정일보다 늦은 출산', '실제 출산일부터 120일'],
+          ['쌍둥이 출산', '실제 출산일부터 120일 (동일)'],
+        ],
+      },
+    },
+    {
+      q: '회사가 배우자 출산휴가 분할 사용을 거부할 수 있나요?',
+      anchor: 'refusal',
+      intro:
+        '사업주는 근로자가 청구한 시기에 배우자 출산휴가를 부여해야 합니다. 정당한 이유 없는 거부는 근로기준법 위반에 해당하므로 고용노동부에 신고할 수 있습니다. 단, 회사의 정상적인 운영에 중대한 지장이 있는 경우 사업주가 시기를 협의할 수 있습니다. 이 경우에도 출산일 120일 이내에 사용할 수 있도록 보장해야 합니다.',
+      highlights: ['거부 불가', '근로기준법 위반', '고용노동부 신고 가능'],
+      box: { label: '거부 시 대응', content: '정당한 이유 없는 거부는 근로기준법 위반. 고용노동부(☎1350) 또는 고용24(work24.go.kr)에 신고.' },
+    },
+    {
+      q: '배우자 출산휴가 120일 기한과 급여 신청 기한을 한눈에 정리해주세요.',
+      anchor: 'summary',
+      intro:
+        '배우자 출산휴가 관련 기한은 두 가지로 나뉩니다. 첫째, 휴가 사용 기한은 출산일로부터 120일 이내에 20일을 모두 사용해야 합니다. 둘째, 급여 신청 기한은 각 사용 구간 종료일로부터 12개월 이내에 고용24에 신청해야 합니다. 이 두 기한을 모두 지켜야 급여를 받을 수 있습니다. 분할 사용 시에는 각 구간마다 별도로 신청 기한을 관리해야 합니다.',
+      highlights: ['휴가 사용: 120일', '급여 신청: 12개월'],
+      table: {
+        headers: ['기한 종류', '기준', '주의사항'],
+        rows: [
+          ['휴가 사용 기한', '출산일로부터 120일 이내', '기한 초과 시 잔여 휴가 사용 불가'],
+          ['급여 신청 기한', '각 구간 종료일로부터 12개월', '기한 초과 시 해당 구간 급여 불가'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '출산일 기준인가요, 출산 예정일 기준인가요?',
@@ -112,7 +125,7 @@ export const 배우자출산휴가급여120일분할신청기한SpokeContent: Sp
     },
     {
       q: '배우자가 쌍둥이를 낳았을 때 120일 기준이 달라지나요?',
-      a: '다태아라도 배우자 출산휴가의 사용 기한(120일)은 동일합니다. 다만 출산전후휴가는 다태아 기준이 별도입니다.',
+      a: '다태아라도 배우자 출산휴가의 사용 기한(120일)은 동일합니다.',
       source: '고용노동부',
       sourceUrl: 'https://www.moel.go.kr',
     },

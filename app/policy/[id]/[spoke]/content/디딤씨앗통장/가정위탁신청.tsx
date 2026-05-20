@@ -1,106 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          가정위탁 아동도 디딤씨앗통장 가입 대상입니다.
-          위탁아동은 <strong>일반 위탁아동과 기초수급 위탁아동 모두</strong> 가입할 수 있으며,
-          신청은 <strong>위탁 가정의 주소지 읍·면·동 주민센터</strong>에서 합니다.
-          시설 아동과 동일하게 <strong>정부 1:2 매칭</strong>이 적용됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "위탁가정에서 아이를 키우고 있는데 디딤씨앗통장을 신청할 수 있나요?"
-        가정위탁 아동의 신청 자격과 방법을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="foster-eligibility">
-        <h2 className="detail-card-head">가정위탁 아동 디딤씨앗통장 신청 자격과 방법</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>가정위탁 아동</th><th>시설 아동</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>가입 자격</td>
-                <td>✅ 가능 (위탁아동 전체)</td>
-                <td>✅ 가능 (시설 보호아동 전체)</td>
-              </tr>
-              <tr>
-                <td>정부 매칭</td>
-                <td>1:2 (월 최대 10만원)</td>
-                <td>1:2 (월 최대 10만원)</td>
-              </tr>
-              <tr>
-                <td>신청처</td>
-                <td>위탁 가정 주소지 주민센터</td>
-                <td>시설 담당자 통해 신청</td>
-              </tr>
-              <tr>
-                <td>통장 명의</td>
-                <td>아동 본인 명의</td>
-                <td>아동 본인 명의</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply-documents">
-        <h2 className="detail-card-head">신청 시 필요 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 가정위탁 확인서:</strong> 아동권리보장원 또는 지자체에서 발급한 위탁 결정 서류
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 아동 기본증명서:</strong> 주민등록 또는 가족관계증명서
-          </div>
-          <div className="info-box">
-            <strong>③ 위탁 보호자 신분증:</strong> 위탁부모 신분증 지참
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="usage">
-        <h2 className="detail-card-head">만기 후 자립 지원금 사용 범위</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>주거:</strong> 전세·월세 보증금, 주택 구입
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>교육:</strong> 대학 등록금, 직업훈련비
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>의료:</strong> 본인 및 가족 의료비
-          </div>
-          <div className="info-box">
-            <strong>창업:</strong> 사업 초기 비용
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            매칭 구조, 가입 자격, 해지 조건 등<br />
-            디딤씨앗통장 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/child-development-account" className="btn-cta">
-            디딤씨앗통장 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 디딤씨앗가정위탁SpokeContent: SpokeData = {
   h1: '가정위탁 아동 디딤씨앗통장 신청 자격과 방법',
@@ -108,8 +6,78 @@ export const 디딤씨앗가정위탁SpokeContent: SpokeData = {
   description:
     '가정위탁 아동도 디딤씨앗통장 가입 가능. 시설 아동과 동일하게 1:2 정부 매칭(월 최대 10만원) 적용. 위탁 가정 주소지 주민센터에서 가정위탁 확인서 등 서류 지참 신청. 만 18세까지 유지.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '가정위탁 아동': '디딤씨앗통장 가입 가능',
+    '정부 매칭': '1:2 (월 최대 10만원)',
+    '신청처': '위탁 가정 주소지 주민센터',
+    '필요 서류': '가정위탁 확인서, 아동 기본증명서, 위탁부모 신분증',
+    '유지 기간': '만 18세까지',
+  },
+  keyFactsHighlights: {
+    '정부 매칭': ['1:2', '월 최대 10만원'],
+    '가정위탁 아동': ['가입 가능'],
+  },
+  qa: [
+    {
+      q: '위탁 가정 아동도 디딤씨앗통장을 신청할 수 있나요?',
+      anchor: '가정위탁자격',
+      intro: '가정위탁 아동은 시설 아동과 동일하게 디딤씨앗통장에 가입할 수 있습니다. 동일한 1:2 정부 매칭이 적용되며, 위탁 가정의 주소지 읍·면·동 주민센터에서 신청합니다.',
+      highlights: ['가정위탁 가입 가능', '시설 아동과 동일', '1:2 매칭'],
+      table: {
+        headers: ['구분', '가정위탁 아동', '시설 아동'],
+        rows: [
+          ['가입 자격', '가능 (위탁아동 전체)', '가능 (시설 보호아동 전체)'],
+          ['정부 매칭', '1:2 (월 최대 10만원)', '1:2 (월 최대 10만원)'],
+          ['신청처', '위탁 가정 주소지 주민센터', '시설 담당자 통해 신청'],
+          ['통장 명의', '아동 본인 명의', '아동 본인 명의'],
+        ],
+      },
+      box: { label: '핵심', content: '가정위탁 아동도 시설 아동과 동일하게 1:2 매칭 적용. 주소지 주민센터 신청.' },
+    },
+    {
+      q: '신청 시 필요한 서류는 무엇인가요?',
+      anchor: '필요서류',
+      intro: '가정위탁 아동의 디딤씨앗통장 신청 시 필요한 서류는 가정위탁 확인서, 아동 기본증명서(주민등록 또는 가족관계증명서), 위탁부모 신분증입니다. 가정위탁 확인서는 아동권리보장원 또는 지자체에서 발급한 위탁 결정 서류입니다.',
+      highlights: ['가정위탁 확인서', '아동 기본증명서', '위탁부모 신분증'],
+      box: { label: '필요 서류', content: '① 가정위탁 확인서 ② 아동 기본증명서 ③ 위탁부모 신분증 지참.' },
+    },
+    {
+      q: '가정위탁 확인서는 어디서 받나요?',
+      anchor: '확인서발급',
+      intro: '가정위탁 확인서는 아동권리보장원 또는 거주 지자체 아동복지 담당부서에서 발급받을 수 있습니다. 위탁 결정 시 발급되는 서류이므로 이미 갖고 있는 경우가 많습니다.',
+      highlights: ['아동권리보장원', '지자체 아동복지', '위탁 결정 서류'],
+      box: { label: '발급처', content: '아동권리보장원 또는 거주 지자체 아동복지 담당부서에서 발급.' },
+    },
+    {
+      q: '위탁이 해제되면 통장은 어떻게 되나요?',
+      anchor: '위탁해제',
+      intro: '위탁이 해제되고 아동이 시설로 이동하거나 가정복귀하더라도 기존 가입된 디딤씨앗통장은 만 18세까지 유지됩니다. 상황 변경 시 담당 주민센터 또는 아동권리보장원에 알리는 것이 좋습니다.',
+      highlights: ['위탁 해제 후 통장 유지', '만 18세까지', '상황 변경 신고'],
+      box: { label: '위탁 해제 후', content: '통장은 만 18세까지 유지. 상황 변경 시 주민센터 또는 ☎02-6905-0900에 알릴 것.' },
+    },
+    {
+      q: '만기 후 자립 지원금은 어디에 쓸 수 있나요?',
+      anchor: '만기사용처',
+      intro: '만 18세 보호 종료 후 자립 목적으로만 사용할 수 있습니다. 주거(전세·월세 보증금, 주택 구입), 교육(대학 등록금, 직업훈련비), 의료비, 창업 비용 등이 해당됩니다.',
+      highlights: ['주거', '교육', '의료', '창업'],
+      box: { label: '사용처', content: '주거(전·월세 보증금·주택 구입), 교육(등록금·직업훈련), 의료비, 창업 비용. 증빙 서류 필요.' },
+    },
+    {
+      q: '정부 매칭금은 언제 받을 수 있나요?',
+      anchor: '매칭금수령',
+      intro: '정부 매칭금은 만 18세 보호 종료 후 자립 목적으로 사용할 수 있습니다. 만기 전에는 임의로 인출할 수 없으며, 중도 해지 시 정부 매칭금은 반환됩니다.',
+      highlights: ['만 18세 이후 수령', '만기 전 인출 불가', '중도 해지 반환'],
+      box: { label: '매칭금 수령', content: '만 18세 보호 종료 후 자립 목적으로 사용. 중도 해지 시 매칭금 반환.' },
+    },
+    {
+      q: '월 저축을 잠시 못 하면 통장이 해지되나요?',
+      anchor: '저축중단',
+      intro: '저축을 하지 않아도 통장이 자동 해지되지는 않습니다. 단, 저축하지 않은 달에는 정부 매칭금이 지급되지 않습니다. 저축을 재개하면 그달부터 다시 매칭금이 적립됩니다.',
+      highlights: ['저축 중단 해지 없음', '해당 월 매칭 미지급', '재개 시 다시 적립'],
+      box: { label: '저축 중단', content: '통장 자동 해지 없음. 저축 중단 월은 매칭 미지급. 재개 시 다시 매칭 시작.' },
+    },
+  ],
   faqData: [
     {
       q: '위탁 가정 아동도 디딤씨앗통장을 신청할 수 있나요?',
@@ -131,7 +99,7 @@ export const 디딤씨앗가정위탁SpokeContent: SpokeData = {
     },
     {
       q: '위탁 해제 후 통장은 어떻게 되나요?',
-      a: '위탁이 해제되고 아동이 시설로 이동하거나 가정복귀하더라도 기존 가입된 디딤씨앗통장은 만 18세까지 유지됩니다. 담당 주민센터에 상황 변경을 알리세요.',
+      a: '위탁이 해제되어도 기존 가입된 디딤씨앗통장은 만 18세까지 유지됩니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

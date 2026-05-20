@@ -1,108 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          아이돌봄서비스 소득 기준은 <strong>가구 소득이 기준 중위소득 200% 이하</strong>인 가구입니다.
-          중위소득 75% 이하(가형)부터 200% 이하(라형)까지 4단계로 지원하며,
-          200% 초과 가구도 서비스는 이용할 수 있지만 <strong>정부 지원 없이 전액 자부담</strong>입니다.
-          소득 판정은 <strong>건강보험료 납부액</strong>을 기준으로 합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "아이돌봄서비스를 신청하려는데 소득 기준이 어떻게 되나요?"
-        소득 기준과 판정 방법을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="income-table">
-        <h2 className="detail-card-head">아이돌봄서비스 소득 기준 | 중위소득 75%~200% 4단계 지원</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>유형</th><th>소득 기준 (중위소득)</th><th>정부 지원율</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>가형</strong></td>
-                <td>75% 이하</td>
-                <td>85% 지원</td>
-              </tr>
-              <tr>
-                <td><strong>나형</strong></td>
-                <td>75% 초과 ~ 120% 이하</td>
-                <td>40% 지원</td>
-              </tr>
-              <tr>
-                <td><strong>다형</strong></td>
-                <td>120% 초과 ~ 150% 이하</td>
-                <td>20% 지원</td>
-              </tr>
-              <tr>
-                <td><strong>라형</strong></td>
-                <td>150% 초과 ~ 200% 이하</td>
-                <td>10% 지원</td>
-              </tr>
-              <tr>
-                <td><strong>지원 없음</strong></td>
-                <td>200% 초과</td>
-                <td>전액 자부담</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="income-check">
-        <h2 className="detail-card-head">소득 판정 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>판정 기준:</strong> 가구 건강보험료 납부액 (직장 또는 지역가입자 기준)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>가구원 범위:</strong> 주민등록상 가구원 전체 (맞벌이 가구는 낮은 소득자의 25% 차감 후 합산)
-          </div>
-          <div className="info-box">
-            <strong>확인 방법:</strong> 주민센터 방문 시 공적 자료로 조회하거나, 복지로(bokjiro.go.kr)에서 모의 계산 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="special-cases">
-        <h2 className="detail-card-head">소득 기준 예외 — 자동으로 가형 적용되는 경우</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>장애인 아동:</strong> 장애인복지법상 등록 장애아동은 가형으로 자동 분류
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>한부모 가족:</strong> 한부모가족지원법상 한부모 가구는 가형 적용
-          </div>
-          <div className="info-box">
-            <strong>기초생활수급자:</strong> 국민기초생활보장법상 수급자는 가형 적용
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            본인부담금, 맞벌이 신청 방법 등<br />
-            아이돌봄서비스 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/child-care-service" className="btn-cta">
-            아이돌봄서비스 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 아이돌봄소득기준SpokeContent: SpokeData = {
   h1: '아이돌봄서비스 소득 기준 | 중위소득 75%~200% 4단계 지원',
@@ -110,8 +6,98 @@ export const 아이돌봄소득기준SpokeContent: SpokeData = {
   description:
     '아이돌봄서비스 소득 기준: 기준 중위소득 200% 이하 가구 지원. 가형(75%이하)~라형(150~200%) 4단계. 200% 초과 가구도 이용 가능(전액 자부담). 건강보험료 납부액으로 소득 판정.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '지원 기준': '기준 중위소득 200% 이하 (4단계)',
+    '소득 판정 기준': '건강보험료 납부액',
+    '가형 (최대 지원)': '중위소득 75% 이하 → 정부 85% 지원',
+    '라형 (최소 지원)': '중위소득 150~200% → 정부 10% 지원',
+    '자동 가형 적용': '기초수급자·한부모가족·장애아동',
+  },
+  keyFactsHighlights: {
+    '지원 기준': ['중위소득 200% 이하'],
+    '가형 (최대 지원)': ['정부 85% 지원'],
+    '자동 가형 적용': ['기초수급자', '한부모가족', '장애아동'],
+  },
+  qa: [
+    {
+      q: '아이돌봄서비스 소득 기준은 어떻게 되나요?',
+      anchor: 'income',
+      intro:
+        '아이돌봄서비스는 기준 중위소득 200% 이하 가구에게 정부 지원을 제공합니다. 75% 이하(가형)부터 150~200%(라형)까지 4단계로 나뉘어 지원합니다. 200% 초과 가구도 서비스 이용은 가능하지만 정부 지원 없이 전액 자부담입니다.',
+      highlights: ['중위소득 200% 이하', '4단계'],
+      table: {
+        headers: ['유형', '소득 기준 (중위소득)', '정부 지원율'],
+        rows: [
+          ['가형', '75% 이하', '85% 지원'],
+          ['나형', '75% 초과~120% 이하', '40% 지원'],
+          ['다형', '120% 초과~150% 이하', '20% 지원'],
+          ['라형', '150% 초과~200% 이하', '10% 지원'],
+          ['지원 없음', '200% 초과', '전액 자부담'],
+        ],
+      },
+    },
+    {
+      q: '소득은 어떻게 판정하나요?',
+      anchor: 'judge',
+      intro:
+        '가구의 건강보험료 납부액을 기준으로 판정합니다. 가구원 범위는 주민등록상 가구원 전체입니다. 맞벌이 가구는 낮은 소득자의 25%를 차감한 후 합산합니다. 복지로(bokjiro.go.kr)에서 모의 계산이 가능합니다.',
+      highlights: ['건강보험료 납부액', '25% 차감'],
+      list: [
+        '판정 기준: 가구 건강보험료 납부액 (직장 또는 지역가입자)',
+        '가구원 범위: 주민등록상 가구원 전체',
+        '맞벌이: 낮은 소득자의 25% 차감 후 합산',
+        '확인: 복지로(bokjiro.go.kr) 모의 계산 또는 주민센터 방문',
+      ],
+    },
+    {
+      q: '소득과 무관하게 가형으로 자동 분류되는 경우는 무엇인가요?',
+      anchor: 'auto-a',
+      intro:
+        '기초생활수급자, 한부모가족지원법상 한부모 가구, 장애인복지법상 등록 장애아동 가구는 소득 기준과 관계없이 가형으로 자동 분류되어 최대 85% 정부 지원을 받습니다.',
+      highlights: ['기초생활수급자', '한부모 가구', '장애아동'],
+      list: [
+        '장애인 아동: 장애인복지법상 등록 장애아동 → 가형 자동 분류',
+        '한부모 가족: 한부모가족지원법상 한부모 가구 → 가형 적용',
+        '기초생활수급자: 국민기초생활보장법상 수급자 → 가형 적용',
+      ],
+    },
+    {
+      q: '중위소득 200%를 넘어도 이용할 수 있나요?',
+      anchor: 'over-200',
+      intro:
+        '이용은 가능하지만 정부 지원이 없어 시간당 12,790원 전액을 본인이 부담해야 합니다.',
+      highlights: ['전액 자부담', '12,790원'],
+      box: { label: '안내', content: '중위소득 200% 초과도 이용 가능. 단, 정부 지원 없이 시간당 12,790원 전액 자부담.' },
+    },
+    {
+      q: '내 소득이 어느 유형에 해당하는지 어떻게 알 수 있나요?',
+      anchor: 'check',
+      intro:
+        '복지로(bokjiro.go.kr)의 복지서비스 모의계산 기능을 이용하거나, 주민센터를 방문해 상담받을 수 있습니다.',
+      highlights: ['복지로 모의계산'],
+      box: { label: '확인', content: '복지로(bokjiro.go.kr) → 복지서비스 모의계산 이용. 또는 주민센터 방문 상담.' },
+    },
+    {
+      q: '신청 방법은 어떻게 되나요?',
+      anchor: 'apply',
+      intro:
+        '아이돌봄서비스 홈페이지(idolbom.go.kr) 또는 복지로(bokjiro.go.kr)에서 온라인 신청하거나, 거주지 주민센터를 방문해 신청할 수 있습니다.',
+      highlights: ['idolbom.go.kr'],
+      list: [
+        '온라인: 아이돌봄서비스(idolbom.go.kr) 또는 복지로(bokjiro.go.kr)',
+        '방문: 거주지 읍·면·동 주민센터',
+      ],
+    },
+    {
+      q: '소득 구간이 변경되면 지원도 바뀌나요?',
+      anchor: 'change',
+      intro:
+        '소득 변동으로 인해 구간이 바뀌면 지원 내용도 변경됩니다. 연 1회 소득 재조사가 이루어지며, 변동 사항은 주민센터 또는 아이돌봄서비스 콜센터(☎1577-2514)에 신고해야 합니다.',
+      highlights: ['연 1회 소득 재조사'],
+      box: { label: '주의', content: '소득 변동 시 주민센터 또는 ☎1577-2514에 신고 필요. 미신고 시 부정수급 처리될 수 있습니다.' },
+    },
+  ],
   faqData: [
     {
       q: '아이돌봄서비스 소득 기준은 어떻게 되나요?',

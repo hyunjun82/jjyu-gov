@@ -1,90 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          주거급여 1인 가구는 <strong>중위소득 48% 이하</strong>이면 신청할 수 있습니다.
-          임차급여(월세 지원)는 거주 지역에 따라 <strong>서울 34만 1,000원</strong>부터
-          <strong>농어촌 18만 8,000원</strong>까지 지원됩니다.
-          <strong>부양의무자 기준은 적용되지 않습니다.</strong>
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        1인 가구 기준 소득 조건과 지역별 임차급여 금액을 확인하고
-        본인이 받을 수 있는 금액을 파악하세요.
-      </p>
-
-      <section className="detail-card" id="income">
-        <h2 className="detail-card-head">1인 가구 소득 기준 (2026년)</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>기준</th><th>금액</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1인 가구 중위소득 48%</strong></td><td>월 1,114,166원</td></tr>
-              <tr><td><strong>소득인정액 기준</strong></td><td>실제 소득 + 재산 환산액</td></tr>
-              <tr><td><strong>부양의무자 기준</strong></td><td>적용 없음 (폐지)</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>※ 정확한 소득 기준은 복지로(bokjiro.go.kr)에서 확인하세요.</p>
-        </div>
-      </section>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">1인 가구 지역별 임차급여 기준임대료</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>급지</th><th>지역</th><th>1인 가구</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1급지</strong></td><td>서울</td><td>341,000원</td></tr>
-              <tr><td><strong>2급지</strong></td><td>경기·인천</td><td>268,000원</td></tr>
-              <tr><td><strong>3급지</strong></td><td>광역시·세종·수도권 외</td><td>216,000원</td></tr>
-              <tr><td><strong>4급지</strong></td><td>그 외 지역</td><td>188,000원</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>※ 실제 임차료가 기준임대료보다 낮으면 실제 임차료 지급</p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인:</strong> 복지로(bokjiro.go.kr) → 서비스 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문:</strong> 주민등록지 읍·면·동 주민센터
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> 주거급여 콜센터 1600-0777
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            자가 수선유지급여, 신청 절차, 수급 조건 전체 내용까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/housing-benefit" className="btn-cta">
-            주거급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 주거급여1인가구소득기준임차급여SpokeContent: SpokeData = {
   h1: '주거급여 1인 가구 소득 기준과 임차급여 금액 지역별 정리',
@@ -92,8 +6,154 @@ export const 주거급여1인가구소득기준임차급여SpokeContent: SpokeDa
   description:
     '주거급여 1인 가구: 중위소득 48%(월 약 111만원) 이하. 임차급여 서울 341,000원·경기인천 268,000원·광역시 216,000원·농어촌 188,000원. 부양의무자 기준 없음. 복지로(bokjiro.go.kr) 신청.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '1인 가구 소득 기준': '월 소득인정액 1,114,166원 이하 (중위소득 48%)',
+    '서울 임차급여': '월 341,000원',
+    '경기·인천 임차급여': '월 268,000원',
+    '광역시·세종 임차급여': '월 216,000원',
+    '부양의무자 기준': '없음 (폐지)',
+  },
+  keyFactsHighlights: {
+    '1인 가구 소득 기준': ['1,114,166원', '중위소득 48%'],
+    '서울 임차급여': ['341,000원'],
+    '경기·인천 임차급여': ['268,000원'],
+    '부양의무자 기준': ['없음'],
+  },
+  qa: [
+    {
+      q: '1인 가구 주거급여 소득 기준은 얼마인가요?',
+      anchor: 'income-standard',
+      intro: '2026년 기준 1인 가구 주거급여 신청 가능 소득인정액은 월 1,114,166원 이하입니다. 이는 기준 중위소득 48%에 해당합니다. 소득인정액은 실제 소득에 재산을 소득으로 환산한 금액을 더한 값으로, 단순 월급과 다를 수 있습니다. 부양의무자 기준은 2021년부터 폐지되어 부모·자녀의 소득·재산과 무관하게 본인 가구 기준으로만 판단합니다.',
+      highlights: ['1,114,166원', '중위소득 48%', '부양의무자 기준 폐지'],
+      table: {
+        headers: ['기준', '금액/내용'],
+        rows: [
+          ['1인 가구 중위소득 48%', '월 1,114,166원'],
+          ['소득인정액 산정', '실제 소득 + 재산 환산액'],
+          ['부양의무자 기준', '없음 (폐지)'],
+          ['확인 방법', '복지로(bokjiro.go.kr) 모의계산'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '2026년 기준. 정확한 소득인정액은 복지로 모의계산 또는 주민센터 상담 권장.',
+      },
+    },
+    {
+      q: '1인 가구 지역별 임차급여는 얼마인가요?',
+      anchor: 'regional-amount',
+      intro: '임차급여(기준임대료)는 거주 지역에 따라 4개 급지로 나뉩니다. 서울(1급지)은 1인 가구 월 341,000원, 경기·인천(2급지)은 268,000원, 광역시·세종·수도권 외(3급지)는 216,000원, 그 외 지역(4급지)은 188,000원입니다. 실제 임차료가 기준임대료보다 낮으면 실제 임차료가 지급됩니다.',
+      highlights: ['서울 341,000원', '경기·인천 268,000원', '216,000원', '188,000원'],
+      table: {
+        headers: ['급지', '지역', '1인 가구 기준임대료'],
+        rows: [
+          ['1급지', '서울', '341,000원'],
+          ['2급지', '경기·인천', '268,000원'],
+          ['3급지', '광역시·세종·수도권 외', '216,000원'],
+          ['4급지', '그 외 지역', '188,000원'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '실제 월세가 기준임대료보다 낮으면 실제 월세만 지급됩니다.',
+      },
+    },
+    {
+      q: '소득인정액은 어떻게 계산하나요?',
+      anchor: 'income-calc',
+      intro: '소득인정액은 실제 소득과 재산의 소득 환산액을 합산한 금액입니다. 실제 소득에는 근로소득, 사업소득, 이전소득(각종 급여)이 포함됩니다. 재산은 부동산, 금융자산 등을 일정 방식으로 소득으로 환산하며, 지역별 기본재산액을 공제합니다. 복지로(bokjiro.go.kr)에서 모의계산이 가능합니다.',
+      highlights: ['실제 소득', '재산 환산액', '기본재산액 공제', '복지로 모의계산'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['실제 소득', '근로소득 + 사업소득 + 이전소득'],
+          ['재산 환산', '(재산 - 기본재산액) × 환산율'],
+          ['소득인정액', '실제 소득 + 재산 환산액'],
+          ['모의계산', 'bokjiro.go.kr'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '복지로에서 모의계산 후 주민센터에 신청하면 정확한 결과를 확인할 수 있습니다.',
+      },
+    },
+    {
+      q: '전세도 임차급여를 받을 수 있나요?',
+      anchor: 'jeonse',
+      intro: '전세(보증금 방식)도 임차급여 대상입니다. 보증금은 월 환산하여 임차료에 포함시켜 계산합니다. 보증부 월세(보증금 + 월세)도 모두 임차급여 대상이며, 임대차계약서를 지참하여 신청하면 됩니다.',
+      highlights: ['전세 가능', '보증부 월세 가능', '임대차계약서'],
+      table: {
+        headers: ['거주 형태', '임차급여 가능 여부'],
+        rows: [
+          ['월세', '가능'],
+          ['전세', '가능 (보증금 월 환산)'],
+          ['보증부 월세', '가능'],
+          ['무상 거주 (계약 없음)', '원칙적 불가, 주민센터 확인'],
+        ],
+      },
+      box: {
+        label: '준비 서류',
+        content: '임대차계약서, 신분증, 통장 사본을 준비하여 주민센터에 신청.',
+      },
+    },
+    {
+      q: '부모 재산이 많아도 1인 가구 자녀가 신청할 수 있나요?',
+      anchor: 'no-obligation',
+      intro: '주거급여는 2021년부터 부양의무자 기준이 폐지되었습니다. 부모님이나 자녀의 소득·재산과 관계없이 신청 가구 본인의 소득인정액 기준으로만 판단합니다. 즉, 부모님이 재산이 많더라도 1인 가구 자녀가 소득인정액 기준을 충족하면 주거급여를 받을 수 있습니다.',
+      highlights: ['부양의무자 기준 폐지', '본인 가구 기준', '부모 재산 무관'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['부양의무자 기준', '2021년부터 폐지'],
+          ['판단 기준', '신청 가구 본인의 소득인정액만'],
+          ['부모·자녀 소득·재산', '반영 안 함'],
+        ],
+      },
+      box: {
+        label: '핵심',
+        content: '주거급여는 부양의무자 기준이 없습니다. 본인 가구 소득인정액만 확인.',
+      },
+    },
+    {
+      q: '신청 방법은 어떻게 되나요?',
+      anchor: 'apply',
+      intro: '온라인으로는 복지로(bokjiro.go.kr)에서 서비스 신청 메뉴를 통해 주거급여를 신청할 수 있습니다. 오프라인으로는 주민등록지 읍·면·동 주민센터를 방문하여 신청합니다. 임대차계약서, 신분증, 통장 사본을 준비해야 합니다. 문의는 주거급여 콜센터 1600-0777로 하면 됩니다.',
+      highlights: ['복지로(bokjiro.go.kr)', '주민센터', '1600-0777'],
+      table: {
+        headers: ['신청 방법', '내용'],
+        rows: [
+          ['온라인', '복지로(bokjiro.go.kr) → 서비스 신청'],
+          ['방문', '주민등록지 읍·면·동 주민센터'],
+          ['준비 서류', '임대차계약서, 신분증, 통장 사본'],
+          ['문의', '주거급여 콜센터 1600-0777'],
+        ],
+      },
+      box: {
+        label: '신청처',
+        content: '복지로(bokjiro.go.kr) 또는 주민센터 방문. 문의: 1600-0777',
+      },
+    },
+    {
+      q: '신청 후 얼마나 걸려 지급되나요?',
+      anchor: 'timeline',
+      intro: '신청 후 소득·재산 조사를 거쳐 통상 30일 이내에 결과가 통보됩니다. 수급자로 선정되면 다음 달부터 지급이 시작됩니다. 소득이 기준을 초과하게 되면 주민센터에 신고해야 하며, 신고하지 않으면 과지급으로 환수될 수 있습니다.',
+      highlights: ['30일 이내', '다음 달부터 지급', '변동 신고 의무'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['신청', '복지로 또는 주민센터'],
+          ['소득·재산 조사', '담당 공무원 확인 (약 30일)'],
+          ['결과 통보', '선정 또는 탈락'],
+          ['급여 지급', '수급자 선정 다음 달부터'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '소득 변동 시 주민센터에 반드시 신고. 미신고 시 과지급액 환수.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '소득인정액이 중위소득 48%를 조금 넘으면 아예 못 받나요?',
@@ -114,7 +174,7 @@ export const 주거급여1인가구소득기준임차급여SpokeContent: SpokeDa
       sourceUrl: 'https://www.molit.go.kr',
     },
     {
-      q: '2급지(경기·인천) 기준으로 서울 소재 직장인이 경기도에 거주하면 어느 급지인가요?',
+      q: '2급지(경기·인천) 기준으로 경기도에 거주하면 어느 급지인가요?',
       a: '주거급여 급지는 실제 거주지 기준으로 결정됩니다. 경기도에 거주하면 2급지(268,000원) 기준이 적용됩니다.',
       source: '국토교통부',
       sourceUrl: 'https://www.molit.go.kr',

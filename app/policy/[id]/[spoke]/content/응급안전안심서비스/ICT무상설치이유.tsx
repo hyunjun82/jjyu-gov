@@ -1,94 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          독거노인과 장애인 가구에 ICT 장비 설치비·통신비·유지관리비까지 모두 무상인 이유는
-          <strong>보건복지부가 전액 예산을 지원</strong>하기 때문입니다.
-          정부가 취약 1인 가구의 응급 공백을 직접 메우는 공공 안전망이므로 본인 부담이 없습니다.
-          신청은 <strong>1566-3232</strong> 또는 <strong>행정복지센터</strong>에서 하면 됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "ICT 장비를 설치해 주면서 왜 돈을 안 받지?"라고 궁금해하는 분들이 많습니다.
-        이 서비스가 완전 무상인 이유와 신청 방법을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="why-free">
-        <h2 className="detail-card-head">무상인 이유 — 정부 사업 구조</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>예산 주체:</strong> 보건복지부 + 지방자치단체 공동 부담
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사업 성격:</strong> 취약 1인 가구 응급 공백 해소를 위한 공공 안전망
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>목적:</strong> 독거노인·장애인의 고독사·응급 방치 예방
-          </div>
-          <div className="info-box">
-            <strong>운영:</strong> 중앙모니터링센터(1566-3232) 24시간 365일 전문 운영
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="cost-breakdown">
-        <h2 className="detail-card-head">무상 범위 상세</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>독거노인·장애인</th><th>비독거 어르신</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>장비 설치비</strong></td><td>무상</td><td>자부담</td></tr>
-              <tr><td><strong>통신비 (LTE 등)</strong></td><td>무상</td><td>자부담</td></tr>
-              <tr><td><strong>유지관리비</strong></td><td>무상</td><td>자부담</td></tr>
-              <tr><td><strong>장비 고장 수리</strong></td><td>무상 (1566-3232 신고)</td><td>자부담</td></tr>
-              <tr><td><strong>전기료</strong></td><td>본인 부담 (매우 소액)</td><td>본인 부담</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>전화:</strong> 1566-3232 (중앙모니터링센터, 24시간) — 상담 후 신청 접수
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문:</strong> 거주지 읍·면·동 행정복지센터
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>절차:</strong> 신청 → 현장 실사 → 장비 선정 → 무상 설치 → 모니터링 시작
-          </div>
-          <div className="info-box">
-            <strong>장비 고장:</strong> 1566-3232 신고 → 무상 수리·교체
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 자격, 장비 종류, 응급 감지 방식, 다른 복지와 중복 여부까지<br />
-            응급안전안심서비스 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-emergency-safety" className="btn-cta">
-            독거노인·장애인 응급안전안심서비스 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 응급안전안심서비스ICT무상설치이유SpokeContent: SpokeData = {
   h1: 'ICT 장비 무상 설치에 사용료까지 없는 이유와 신청 방법',
@@ -96,12 +6,82 @@ export const 응급안전안심서비스ICT무상설치이유SpokeContent: Spoke
   description:
     '응급안전안심서비스 완전 무상 이유: 보건복지부+지자체 예산 전액 지원, 취약 독거 가구 응급 공백 해소 공공 안전망. 설치비·통신비·유지관리비·고장 수리 모두 무상. 전기료만 본인 부담.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '예산 주체': '보건복지부 + 지방자치단체 공동 부담',
+    '사업 성격': '독거노인·장애인 응급 공백 해소 공공 안전망',
+    '무상 범위': '설치비·통신비·유지관리비·고장 수리',
+    '본인 부담': '전기료만 (매우 소액)',
+    '운영': '중앙모니터링센터 1566-3232, 24시간 365일',
+  },
+  keyFactsHighlights: {
+    '무상 범위': ['설치비', '통신비', '유지관리비'],
+    '본인 부담': ['전기료만'],
+  },
+  qa: [
+    {
+      q: 'ICT 장비 설치가 완전 무상인 이유는 무엇인가요?',
+      anchor: 'why-free',
+      intro: '응급안전안심서비스의 장비 설치비·통신비·유지관리비가 모두 무상인 이유는 보건복지부와 지방자치단체가 예산을 전액 지원하는 공공 안전망 사업이기 때문입니다. 독거노인과 장애인의 고독사·응급 방치를 예방하기 위한 목적으로 정부가 직접 취약 가구의 응급 공백을 메우는 사업입니다.',
+      highlights: ['전액 정부 지원', '공공 안전망', '고독사 예방'],
+      table: {
+        headers: ['항목', '독거노인·장애인', '비독거 어르신'],
+        rows: [
+          ['장비 설치비', '무상', '자부담'],
+          ['통신비 (LTE 등)', '무상', '자부담'],
+          ['유지관리비', '무상', '자부담'],
+          ['고장 수리', '무상 (1566-3232 신고)', '자부담'],
+          ['전기료', '본인 부담 (소액)', '본인 부담'],
+        ],
+      },
+    },
+    {
+      q: '누가 비용을 실제로 부담하나요?',
+      anchor: 'who-pays',
+      intro: '장비 설치비와 운영 비용은 보건복지부 예산과 지방자치단체 예산을 합산하여 조달합니다. 중앙모니터링센터(1566-3232) 운영 비용도 정부 예산으로 충당됩니다. 독거노인·장애인 가구는 어떤 비용도 부담하지 않으며, 오직 전기료만 본인이 지불합니다.',
+      highlights: ['보건복지부', '지자체', '전기료만 본인'],
+      box: { label: '비용 구조', content: '설치비 + 통신비 + 관리비 = 보건복지부 + 지자체 부담 / 전기료만 가구 부담 (월 수백 원 수준)' },
+    },
+    {
+      q: '장비가 고장 나면 수리비는 누가 내나요?',
+      anchor: 'repair',
+      intro: '장비 고장 시 1566-3232에 신고하면 수리 및 교체도 무상으로 처리됩니다. 정상 사용 중 발생한 고장에 대해서는 별도 비용이 없습니다. 다만 고의적 파손이나 분실의 경우는 별도 문의가 필요합니다.',
+      highlights: ['고장 수리 무상', '1566-3232'],
+      box: { label: '고장 신고', content: '1566-3232 (중앙모니터링센터, 24시간) → 무상 수리·교체 처리' },
+    },
+    {
+      q: '통신비는 어떻게 무상이 가능한가요?',
+      anchor: 'comms-cost',
+      intro: '장비가 사용하는 LTE 등 통신 요금은 서비스 운영 예산 안에 포함되어 있어 가구가 별도로 납부하지 않습니다. 통신사와 정부 간 계약을 통해 처리되는 방식입니다. 독거노인·장애인 가구는 데이터 사용에 따른 추가 비용 발생이 없습니다.',
+      highlights: ['LTE 통신비 포함', '가구 추가 비용 없음'],
+      box: { label: '참고', content: '통신비는 정부 예산으로 처리. 가구가 납부할 통신료 없음' },
+    },
+    {
+      q: '신청은 어떻게 하나요?',
+      anchor: 'apply',
+      intro: '1566-3232(중앙모니터링센터, 24시간)에 전화하거나 거주지 읍·면·동 행정복지센터를 방문하여 신청합니다. 신청 후 현장 실사를 거쳐 적합 장비를 선정하고 무상 설치가 이루어집니다. 설치 후 중앙모니터링센터의 24시간 자동 모니터링이 시작됩니다.',
+      highlights: ['1566-3232', '행정복지센터', '현장 실사'],
+      box: { label: '신청 절차', content: '1566-3232 전화 또는 행정복지센터 방문 → 신청서 작성 → 현장 실사 → 무상 설치 → 모니터링 개시' },
+    },
+    {
+      q: '장비가 설치된 후 사용 중단하면 어떻게 되나요?',
+      anchor: 'cancel',
+      intro: '서비스 이용 중단을 원하면 1566-3232 또는 행정복지센터에 연락하여 철거를 신청할 수 있습니다. 철거도 무상으로 처리됩니다. 자격이 변경되어 더 이상 대상이 아닌 경우(예: 시설 입소)에는 자동으로 서비스가 종료됩니다.',
+      highlights: ['중단 가능', '철거 무상'],
+      box: { label: '중단 방법', content: '1566-3232 또는 행정복지센터 연락 → 철거 신청 → 무상 처리' },
+    },
+    {
+      q: '응급안전안심서비스와 다른 복지 서비스를 함께 받을 수 있나요?',
+      anchor: 'overlap',
+      intro: '응급안전안심서비스는 기초연금, 노인맞춤 돌봄서비스, 치매안심센터, 노인장기요양보험, 장애인활동지원 등 모든 노인·장애인 복지 서비스와 중복 이용이 가능합니다. 별도 제한 없이 필요한 서비스를 함께 신청하면 됩니다.',
+      highlights: ['중복 이용 가능', '기초연금', '장기요양'],
+      box: { label: '중복 가능 서비스', content: '기초연금·노인맞춤 돌봄·치매안심센터·장기요양·장애인활동지원 등과 중복 이용 가능' },
+    },
+  ],
   faqData: [
     {
       q: '왜 ICT 장비 설치비를 받지 않나요?',
-      a: '보건복지부와 지방자치단체가 예산을 전액 지원하는 공공 안전망 사업이기 때문입니다. 독거노인·장애인의 고독사와 응급 방치를 막기 위한 목적으로 운영됩니다.',
+      a: '보건복지부와 지방자치단체가 예산을 전액 지원하는 공공 안전망 사업이기 때문입니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
@@ -119,13 +99,13 @@ export const 응급안전안심서비스ICT무상설치이유SpokeContent: Spoke
     },
     {
       q: '전기료는 많이 나오나요?',
-      a: '장비가 사용하는 전력은 매우 소액입니다. 사실상 부담이 없다고 보시면 됩니다.',
+      a: '장비가 사용하는 전력은 매우 소액입니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
     {
       q: '신청은 어떻게 하나요?',
-      a: '1566-3232(중앙모니터링센터, 24시간)에 전화하거나 거주지 행정복지센터를 방문해 신청합니다. 신청 후 현장 실사를 거쳐 무상 설치가 이뤄집니다.',
+      a: '1566-3232(중앙모니터링센터, 24시간)에 전화하거나 거주지 행정복지센터를 방문해 신청합니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

@@ -1,113 +1,154 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          예술활동증명 완료 후 예술인 국민연금 보험료 지원을 신청하려면
-          <strong>예술인경력정보시스템(kawfartist.kr)</strong>에서 온라인 접수합니다.
-          소득금액증명원, 표준계약서 사본, 보험료 납부 증빙을 준비해야 하며,
-          신청 기간은 <strong>매년 2월말~8월말</strong>입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        예술활동증명을 완료했는데 국민연금 보험료 지원 신청은 어디서, 어떻게 하나요?
-        단계별 절차를 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="steps">
-        <h2 className="detail-card-head">예술활동증명 완료 후 신청하는 예술인 국민연금 보험료 지원 절차</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>1단계</strong></td>
-                <td>예술활동증명 완료 확인 (kawfartist.kr 로그인 → 증명 현황 조회)</td>
-              </tr>
-              <tr>
-                <td><strong>2단계</strong></td>
-                <td>표준계약서 사용 이력 확인 (문화예술용역 계약 시 표준계약서 체결)</td>
-              </tr>
-              <tr>
-                <td><strong>3단계</strong></td>
-                <td>서류 준비: 소득금액증명원, 표준계약서 사본, 국민연금 보험료 납부 증빙</td>
-              </tr>
-              <tr>
-                <td><strong>4단계</strong></td>
-                <td>kawfartist.kr 로그인 → 복지지원 → 예술인국민연금보험료지원 → 온라인 신청</td>
-              </tr>
-              <tr>
-                <td><strong>5단계</strong></td>
-                <td>심사 후 지원금 지급 (전년도 3분기~당해 2분기 납부 보험료 기준)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="documents">
-        <h2 className="detail-card-head">필요 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 소득금액증명원:</strong> 국세청 홈택스(hometax.go.kr) 또는 주민센터 발급
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 표준계약서 사본:</strong> 문화예술 관련 계약 시 작성한 표준계약서
-          </div>
-          <div className="info-box">
-            <strong>③ 국민연금 보험료 납부 증빙:</strong> 국민연금공단에서 발급받은 납부 확인서
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="period-note">
-        <h2 className="detail-card-head">신청 기간 및 주의사항</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 기간:</strong> 매년 2월말~8월말 (연 1회, 예산 소진 시 조기 마감)
-          </div>
-          <div className="warning-box" style={{ marginBottom: 12 }}>
-            <strong>조기 마감 주의:</strong> 예산이 소진되면 기간 내라도 접수가 마감됩니다.
-            공고 직후 빠르게 신청하는 것을 권장합니다.
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> 한국예술인복지재단 사회보험팀 02-3668-0200
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 자격, 지원 금액, 중복 여부 등<br />
-            예술인 국민연금 보험료 지원 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/artist-pension" className="btn-cta">
-            예술인 국민연금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 예술인연금신청절차SpokeContent: SpokeData = {
   h1: '예술활동증명 완료 후 신청하는 예술인 국민연금 보험료 지원 절차',
-  breadcrumb: '신청절차',
-  description:
-    '예술인 국민연금 보험료 지원 신청: kawfartist.kr 온라인 접수. 필요 서류: 소득금액증명원, 표준계약서 사본, 보험료 납부 증빙. 신청 기간 매년 2월말~8월말, 예산 소진 시 조기 마감.',
+  breadcrumb: '예술인국민연금 > 신청절차',
+  description: '예술인 국민연금 보험료 지원 신청: kawfartist.kr 온라인 접수. 필요 서류: 소득금액증명원, 표준계약서 사본, 보험료 납부 증빙. 신청 기간 매년 2월말~8월말, 예산 소진 시 조기 마감.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청처': '예술인경력정보시스템(kawfartist.kr)',
+    '필요 서류 1': '소득금액증명원 (홈택스 또는 주민센터 발급)',
+    '필요 서류 2': '표준계약서 사본',
+    '필요 서류 3': '국민연금 보험료 납부 증빙',
+    '문의': '한국예술인복지재단 사회보험팀 02-3668-0200',
+  },
+  keyFactsHighlights: {
+    '신청처': ['kawfartist.kr'],
+    '필요 서류 1': ['소득금액증명원'],
+    '문의': ['02-3668-0200'],
+  },
+  qa: [
+    {
+      q: '신청 절차는 어떻게 되나요?',
+      anchor: 'steps',
+      intro: '예술활동증명 완료 후 국민연금 보험료 지원을 신청하려면 예술인경력정보시스템(kawfartist.kr)에서 온라인으로 접수합니다. 소득금액증명원, 표준계약서 사본, 보험료 납부 증빙을 준비해야 하며, 신청 기간은 매년 2월말~8월말입니다.',
+      highlights: ['kawfartist.kr', '예술활동증명', '소득금액증명원', '2월말~8월말'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '예술활동증명 완료 확인 (kawfartist.kr → 증명 현황 조회)'],
+          ['2단계', '표준계약서 사용 이력 확인'],
+          ['3단계', '서류 준비: 소득금액증명원, 표준계약서 사본, 납부 증빙'],
+          ['4단계', 'kawfartist.kr 로그인 → 복지지원 → 예술인국민연금보험료지원 신청'],
+          ['5단계', '심사 후 지원금 지급'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '예산 소진 시 조기 마감됩니다. 공고 직후 빠르게 신청하세요.',
+      },
+    },
+    {
+      q: '소득금액증명원은 어디서 발급받나요?',
+      anchor: 'income-proof',
+      intro: '소득금액증명원은 국세청 홈택스(hometax.go.kr)에서 온라인 발급하거나 가까운 세무서·주민센터에서 발급할 수 있습니다. 홈택스 온라인 발급이 가장 빠르고 편리합니다. 발급 후 PDF나 출력물로 제출할 수 있습니다.',
+      highlights: ['홈택스', 'hometax.go.kr', '세무서', '주민센터'],
+      table: {
+        headers: ['발급 방법', '내용'],
+        rows: [
+          ['홈택스 온라인', 'hometax.go.kr → 민원증명 → 소득금액증명원'],
+          ['세무서 방문', '가까운 세무서에서 즉시 발급'],
+          ['주민센터 방문', '가까운 주민센터에서 발급 가능'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '홈택스(hometax.go.kr)에서 가장 빠르게 온라인 발급할 수 있습니다.',
+      },
+    },
+    {
+      q: '납부 증빙은 어디서 발급받나요?',
+      anchor: 'payment-proof',
+      intro: '국민연금 보험료 납부 증빙은 국민연금공단(nps.or.kr) 또는 고객센터(☎1355)에서 납부 확인서를 발급받을 수 있습니다. 내연금 사이트에서도 납부 이력을 확인할 수 있습니다.',
+      highlights: ['nps.or.kr', '☎1355', '납부 확인서'],
+      table: {
+        headers: ['방법', '내용'],
+        rows: [
+          ['국민연금공단 온라인', 'nps.or.kr → 내연금 → 납부 확인서 발급'],
+          ['전화', '☎1355 → 납부 확인서 요청'],
+          ['방문', '가까운 국민연금공단 지사 방문'],
+        ],
+      },
+      box: {
+        label: '안내',
+        content: '국민연금공단(nps.or.kr) 또는 ☎1355에서 납부 확인서를 발급받으세요.',
+      },
+    },
+    {
+      q: '표준계약서가 없으면 어떻게 하나요?',
+      anchor: 'no-contract',
+      intro: '표준계약서 체결이 지원 요건 중 하나입니다. 과거 계약에서 표준계약서를 사용하지 않았다면 해당 기간의 지원이 어려울 수 있습니다. 한국예술인복지재단에서 표준계약서 양식을 제공하므로 앞으로의 계약에서는 반드시 표준계약서를 사용하세요. 자세한 사항은 사회보험팀(02-3668-0200)에 문의하세요.',
+      highlights: ['표준계약서', '한국예술인복지재단', '02-3668-0200'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['표준계약서 양식', '한국예술인복지재단(kawf.kr) 다운로드'],
+          ['없는 경우', '해당 기간 지원 어려울 수 있음'],
+          ['문의', '사회보험팀 02-3668-0200'],
+        ],
+      },
+      box: {
+        label: '안내',
+        content: '표준계약서 양식은 kawf.kr에서 다운로드하세요. 앞으로의 계약에서는 반드시 표준계약서를 사용하세요.',
+      },
+    },
+    {
+      q: '신청 후 얼마 만에 지원금이 입금되나요?',
+      anchor: 'payment-timing',
+      intro: '심사 후 지원금이 지급됩니다. 정확한 지급 일정은 해당 연도 공고를 확인하거나 사회보험팀(02-3668-0200)에 문의하세요. 심사 기간이 다소 걸릴 수 있으므로 신청 후 결과를 기다리세요.',
+      highlights: ['심사 후 지급', '02-3668-0200', '공고 확인'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['신청 접수', '온라인 또는 방문'],
+          ['심사', '서류 검토 및 자격 확인'],
+          ['지급', '심사 완료 후 지원금 입금'],
+          ['문의', '02-3668-0200'],
+        ],
+      },
+      box: {
+        label: '문의',
+        content: '지급 일정은 해당 연도 공고를 확인하거나 02-3668-0200에 문의하세요.',
+      },
+    },
+    {
+      q: '신청이 거부되면 어떻게 하나요?',
+      anchor: 'rejection',
+      intro: '신청이 거부되었다면 사유를 확인하고 보완해 재신청하거나 이의를 제기할 수 있습니다. 한국예술인복지재단 사회보험팀(02-3668-0200)에 연락해 거부 사유와 해결 방법을 상담받으세요.',
+      highlights: ['거부 사유 확인', '재신청', '02-3668-0200'],
+      table: {
+        headers: ['상황', '대처'],
+        rows: [
+          ['서류 미비', '서류 보완 후 재신청'],
+          ['자격 미충족', '자격 충족 후 다음 연도 신청'],
+          ['이의 신청', '사회보험팀(02-3668-0200) 문의'],
+        ],
+      },
+      box: {
+        label: '문의',
+        content: '거부 사유 확인 및 이의 신청은 사회보험팀 02-3668-0200으로 문의하세요.',
+      },
+    },
+    {
+      q: '매년 신청해야 하나요, 아니면 한 번만 하면 되나요?',
+      anchor: 'annual',
+      intro: '예술인 국민연금 보험료 지원은 연 1회 신청합니다. 매년 신청 기간(2월말~8월말)에 신청해야 하며, 한 번 신청했다고 자동으로 다음 해에도 지급되지 않습니다. 매년 공고를 확인하고 기간 내에 신청하세요.',
+      highlights: ['연 1회 신청', '매년 신청 필요', '자동 지급 아님'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['신청 주기', '연 1회 (매년 신청 필요)'],
+          ['신청 기간', '매년 2월말~8월말'],
+          ['자동 갱신', '없음 (매년 별도 신청)'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '자동 지급이 아닙니다. 매년 공고 시 신청 기간에 신청해야 합니다.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '신청은 어디서 하나요?',
@@ -123,7 +164,7 @@ export const 예술인연금신청절차SpokeContent: SpokeData = {
     },
     {
       q: '표준계약서가 없으면 신청이 안 되나요?',
-      a: '표준계약서 체결이 지원 요건 중 하나입니다. 문화예술용역 관련 계약 시 표준계약서를 사용해야 합니다. 한국예술인복지재단에서 표준계약서 양식을 제공합니다.',
+      a: '표준계약서 체결이 지원 요건 중 하나입니다. 한국예술인복지재단에서 표준계약서 양식을 제공합니다.',
       source: '한국예술인복지재단',
       sourceUrl: 'https://www.kawf.kr',
     },

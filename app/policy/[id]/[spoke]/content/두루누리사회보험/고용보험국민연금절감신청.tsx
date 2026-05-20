@@ -1,89 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          두루누리 지원을 받으면 <strong>고용보험과 국민연금 보험료를 80%</strong> 절감할 수 있습니다.
-          신청은 사업주가 <strong>insurancesupport.or.kr</strong> 또는
-          <strong>근로복지공단(1588-0075)</strong>을 통해 하며,
-          승인되면 다음 달 보험료 고지서부터 자동 차감됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        고용보험과 국민연금을 얼마나 절감할 수 있는지, 지원 이력은 어디서 조회하는지
-        확인하세요.
-      </p>
-
-      <section className="detail-card" id="saving">
-        <h2 className="detail-card-head">보험료 절감 효과</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>보험 종류</th><th>사업주 절감</th><th>근로자 절감</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>고용보험</strong></td><td>월 최대 57,780원</td><td>월 최대 52,560원</td></tr>
-              <tr><td><strong>국민연금</strong></td><td>월 최대 59,710원</td><td>월 최대 59,740원</td></tr>
-              <tr><td><strong>합계</strong></td><td>월 최대 117,490원</td><td>월 최대 112,300원</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 및 조회 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청:</strong> insurancesupport.or.kr 또는 근로복지공단(1588-0075)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청자:</strong> 사업주 (근로자 대신 일괄 신청)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>지원 이력 조회:</strong> insurancesupport.or.kr → 지원 내역 확인
-          </div>
-          <div className="info-box">
-            <strong>적용 시점:</strong> 신청 승인 후 다음 달 보험료부터 차감
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="condition">
-        <h2 className="detail-card-head">지원 받기 위한 조건 요약</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사업장:</strong> 근로자 수 10인 미만
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>근로자:</strong> 월평균 보수 270만원 미만
-          </div>
-          <div className="info-box">
-            <strong>가입 형태:</strong> 고용보험 + 국민연금 동시 가입 필수
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신규가입자 36개월 기준, 지원 대상, 제외 사유까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/durunuri-social-insurance" className="btn-cta">
-            두루누리 사회보험 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 두루누리사회보험고용보험국민연금절감신청SpokeContent: SpokeData = {
   h1: '고용보험 국민연금 80% 절감, 두루누리 지원금 신청 방법과 조회 방법',
@@ -91,8 +6,86 @@ export const 두루누리사회보험고용보험국민연금절감신청SpokeCo
   description:
     '두루누리 고용보험·국민연금 80% 절감: 사업주 월 최대 117,490원·근로자 112,300원. insurancesupport.or.kr 신청·조회. 10인 미만 사업장, 월 270만원 미만 근로자 대상.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '사업주 절감': '월 최대 117,490원',
+    '근로자 절감': '월 최대 112,300원',
+    '지원율': '80%',
+    '신청처': 'insurancesupport.or.kr',
+    '대상': '10인 미만 사업장, 월 270만원 미만',
+  },
+  keyFactsHighlights: {
+    '사업주 절감': ['월 최대 117,490원'],
+    '근로자 절감': ['월 최대 112,300원'],
+  },
+  qa: [
+    {
+      q: '두루누리 지원 시 보험료 절감 효과는 얼마인가요?',
+      anchor: '절감효과',
+      intro: '두루누리 지원을 받으면 고용보험과 국민연금 보험료를 80% 절감할 수 있습니다. 사업주는 월 최대 117,490원(고용보험 57,780원 + 국민연금 59,710원), 근로자는 월 최대 112,300원(고용보험 52,560원 + 국민연금 59,740원)을 절감할 수 있습니다.',
+      highlights: ['80% 절감', '사업주 월 117,490원', '근로자 112,300원'],
+      table: {
+        headers: ['보험 종류', '사업주 절감', '근로자 절감'],
+        rows: [
+          ['고용보험', '월 최대 57,780원', '월 최대 52,560원'],
+          ['국민연금', '월 최대 59,710원', '월 최대 59,740원'],
+          ['합계', '월 최대 117,490원', '월 최대 112,300원'],
+        ],
+      },
+      box: { label: '절감 효과', content: '사업주 최대 월 117,490원 + 근로자 최대 월 112,300원 절감. 두 보험 동시 신청 필수.' },
+    },
+    {
+      q: '고용보험과 국민연금 중 하나만 신청할 수 있나요?',
+      anchor: '동시신청',
+      intro: '두루누리 지원은 고용보험과 국민연금을 동시에 신청해야 합니다. 한 가지만 선택해서 신청하는 것은 불가능합니다. 두 보험 모두 가입되어 있어야 지원 대상이 됩니다.',
+      highlights: ['동시 신청 필수', '둘 다 가입 필요', '단독 신청 불가'],
+      box: { label: '주의', content: '고용보험 + 국민연금 동시 신청 필수. 하나만 선택 불가.' },
+    },
+    {
+      q: '지원 이력은 어디서 조회할 수 있나요?',
+      anchor: '이력조회',
+      intro: 'insurancesupport.or.kr에서 사업자등록번호 또는 근로자 주민번호로 지원 이력과 잔여 기간을 확인할 수 있습니다. 사업주는 전체 직원의 지원 현황도 조회할 수 있습니다.',
+      highlights: ['insurancesupport.or.kr', '주민번호 조회', '지원 현황 확인'],
+      box: { label: '조회 방법', content: 'insurancesupport.or.kr 접속 → 지원 이력 조회 메뉴. 주민번호 또는 사업자번호로 조회.' },
+    },
+    {
+      q: '신청하지 않으면 보험료가 자동 할인되지 않나요?',
+      anchor: '자동적용여부',
+      intro: '두루누리 지원은 자동으로 적용되지 않습니다. 사업주가 직접 신청해야 다음 달부터 고지서에 차감이 적용됩니다. 요건을 충족하더라도 신청하지 않으면 전액 납부해야 합니다.',
+      highlights: ['자동 적용 없음', '사업주 직접 신청', '신청 후 다음 달'],
+      box: { label: '주의', content: '자동 적용 없음. 반드시 사업주가 직접 신청해야 합니다.' },
+    },
+    {
+      q: '근로자가 퇴사하면 지원이 어떻게 되나요?',
+      anchor: '퇴사후',
+      intro: '퇴사 시 해당 근로자에 대한 지원은 자동 종료됩니다. 새 근로자를 채용하면 해당 근로자의 지원 요건을 다시 확인해 신청해야 합니다. 퇴사한 근로자의 지원이 새 채용자에게 자동 이전되지 않습니다.',
+      highlights: ['퇴사 시 자동 종료', '새 채용자 별도 신청'],
+      box: { label: '안내', content: '퇴사 시 해당 근로자 지원 자동 종료. 새 채용자는 별도 요건 확인 후 재신청.' },
+    },
+    {
+      q: '지원 적용 방식은 어떻게 되나요?',
+      anchor: '적용방식',
+      intro: '신청 승인 후 다음 달 보험료 고지서에서 80%가 자동 차감됩니다. 별도 현금 지급이 아니라 납부해야 할 금액 자체가 줄어드는 방식입니다. 고지서를 받으면 두루누리 차감 내역을 확인할 수 있습니다.',
+      highlights: ['고지서 자동 차감', '다음 달부터', '현금 지급 아님'],
+      box: { label: '적용 방식', content: '신청 승인 → 다음 달 고지서에서 80% 자동 차감. 현금 지급 아님.' },
+    },
+    {
+      q: '지원 조건 요약은 어떻게 되나요?',
+      anchor: '지원조건요약',
+      intro: '지원 조건은 세 가지입니다. 사업장 근로자 수가 10인 미만이어야 하고, 지원 대상 근로자의 월평균 보수가 270만원 미만이어야 합니다. 또한 고용보험과 국민연금에 동시에 가입되어 있어야 합니다. 신규가입자(직전 6개월 고용보험 미가입자)는 80%를 최대 36개월 지원받습니다.',
+      highlights: ['10인 미만', '270만원 미만', '고용보험+국민연금 동시 가입'],
+      table: {
+        headers: ['조건', '기준'],
+        rows: [
+          ['사업장 규모', '근로자 10인 미만'],
+          ['근로자 소득', '월평균 보수 270만원 미만'],
+          ['보험 가입', '고용보험+국민연금 동시 가입'],
+          ['지원 기간', '신규가입자 최대 36개월'],
+        ],
+      },
+      box: { label: '조건 요약', content: '10인 미만 + 월 270만원 미만 + 고용보험·국민연금 동시 가입 = 80% 지원 36개월.' },
+    },
+  ],
   faqData: [
     {
       q: '고용보험과 국민연금 중 하나만 신청할 수 있나요?',
@@ -114,13 +107,13 @@ export const 두루누리사회보험고용보험국민연금절감신청SpokeCo
     },
     {
       q: '근로자가 퇴사하면 지원이 어떻게 되나요?',
-      a: '퇴사 시 해당 근로자에 대한 지원은 자동 종료됩니다. 새 근로자를 채용하면 해당 근로자의 지원 요건을 다시 확인해 신청해야 합니다.',
+      a: '퇴사 시 해당 근로자에 대한 지원은 자동 종료됩니다.',
       source: '근로복지공단',
       sourceUrl: 'https://insurancesupport.or.kr',
     },
     {
       q: '지원받은 사실을 모르고 전액 납부했는데 환급받을 수 있나요?',
-      a: '소급 적용은 되지 않습니다. 신청 후 다음 달부터 차감이 시작되므로, 이미 납부한 보험료는 환급되지 않습니다.',
+      a: '소급 적용은 되지 않습니다. 이미 납부한 보험료는 환급되지 않으므로 빨리 신청하는 것이 중요합니다.',
       source: '근로복지공단',
       sourceUrl: 'https://insurancesupport.or.kr',
     },

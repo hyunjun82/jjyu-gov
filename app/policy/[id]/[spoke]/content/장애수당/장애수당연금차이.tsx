@@ -1,117 +1,124 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          <strong>장애수당</strong>은 경증 등록장애인(수급자·차상위) 대상 월 6만원이고,
-          <strong>장애인연금</strong>은 중증 등록장애인 대상 월 최대 43만 9,700원입니다.
-          두 제도는 <strong>중복 수급이 불가</strong>하며, 장애 정도에 따라 해당 제도가 자동으로 결정됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "장애수당과 장애인연금이 어떻게 다른가요? 둘 다 신청할 수 있나요?"
-        두 제도의 차이와 중복 여부를 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">장애수당 vs 장애인연금 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>장애수당</th><th>장애인연금</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>대상</strong></td>
-                <td>경증 등록장애인</td>
-                <td>중증 등록장애인</td>
-              </tr>
-              <tr>
-                <td><strong>소득 조건</strong></td>
-                <td>수급자 또는 차상위계층</td>
-                <td>소득인정액 기준 이하</td>
-              </tr>
-              <tr>
-                <td><strong>연령</strong></td>
-                <td>만 18세 이상 성인</td>
-                <td>만 18세 이상 성인</td>
-              </tr>
-              <tr>
-                <td><strong>월 지급액</strong></td>
-                <td>월 6만원</td>
-                <td>최대 월 43만 9,700원</td>
-              </tr>
-              <tr>
-                <td><strong>중복 수급</strong></td>
-                <td colSpan={2}>중복 불가 (장애 정도에 따라 하나만 적용)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="who-gets-what">
-        <h2 className="detail-card-head">어떤 사람이 어떤 제도를 받나</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>경증 장애인:</strong> 장애수당 (월 6만원) — 수급자·차상위 조건 필요
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>중증 장애인:</strong> 장애인연금 (월 최대 43만 9,700원) — 소득인정액 기준 이하
-          </div>
-          <div className="info-box">
-            <strong>18세 미만 아동:</strong> 장애아동수당 (월 11만~22만원) — 별도 제도
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 거주지 읍·면·동 행정복지센터 또는 복지로(bokjiro.go.kr)
-          </div>
-          <div className="info-box">
-            <strong>준비 서류:</strong> 장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            장애수당 신청 자격, 지급 금액, 신청 방법 등<br />
-            장애수당 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-allowance" className="btn-cta">
-            장애수당 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애수당장애수당연금차이SpokeContent: SpokeData = {
   h1: '경증 장애수당과 장애인연금, 어떻게 다르고 중복 신청이 되는지',
   breadcrumb: '장애수당연금차이',
   description:
     '장애수당(경증·수급자·월 6만원) vs 장애인연금(중증·월 최대 43만 9,700원). 중복 수급 불가. 경증은 수당, 중증은 연금. 18세 미만은 장애아동수당 별도. 복지로 신청.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '장애수당 대상': '경증 등록장애인 (수급자·차상위)',
+    '장애수당 금액': '월 6만원',
+    '장애인연금 대상': '중증 등록장애인',
+    '장애인연금 금액': '월 최대 43만 9,700원',
+    '중복 수급': '불가 (경증·중증 대상이 달라)',
+  },
+  keyFactsHighlights: {
+    '장애수당 금액': ['6만원'],
+    '장애인연금 금액': ['43만 9,700원'],
+    '중복 수급': ['불가'],
+  },
+  qa: [
+    {
+      q: '장애수당과 장애인연금은 어떻게 다른가요?',
+      anchor: 'difference',
+      intro: '장애수당은 경증 등록장애인(수급자·차상위) 대상으로 월 6만원, 장애인연금은 중증 등록장애인 대상으로 월 최대 43만 9,700원을 지급합니다. 두 제도는 장애 정도에 따라 대상이 달라 중복 수급이 불가능합니다. 장애 정도가 심한 중증이면 연금, 심하지 않은 경증이면 수당에 해당합니다.',
+      highlights: ['경증 6만원', '중증 43만 9,700원', '중복 불가'],
+      table: {
+        headers: ['항목', '장애수당', '장애인연금'],
+        rows: [
+          ['대상', '경증 등록장애인', '중증 등록장애인'],
+          ['소득 조건', '수급자 또는 차상위계층', '소득인정액 기준 이하'],
+          ['연령', '만 18세 이상 성인', '만 18세 이상 성인'],
+          ['월 지급액', '월 6만원', '최대 월 43만 9,700원'],
+          ['중복 수급', '불가 (장애 정도에 따라 하나만)', '불가'],
+        ],
+      },
+    },
+    {
+      q: '두 제도를 동시에 받을 수 있나요?',
+      anchor: 'duplicate',
+      intro: '중복 수급이 불가합니다. 장애인연금은 중증장애인만, 장애수당은 경증장애인만 신청 대상이므로 같은 사람이 두 제도를 동시에 받는 것은 불가능합니다. 자신의 장애 정도(심한 장애/심하지 않은 장애)에 따라 해당하는 제도 하나만 신청하면 됩니다.',
+      highlights: ['중복 불가', '경증', '중증', '하나만'],
+      box: {
+        label: '어떤 사람이 어떤 제도를 받나',
+        content: '경증 장애인: 장애수당 (6만원) — 수급자·차상위 조건 필요
+중증 장애인: 장애인연금 (월 최대 43만 9,700원) — 소득인정액 기준 이하
+18세 미만 아동: 장애아동수당 (월 11만~22만원) — 별도 제도',
+      },
+    },
+    {
+      q: '경증인지 중증인지 어떻게 판단하나요?',
+      anchor: 'severity',
+      intro: '장애인등록증에 기재된 내용으로 확인합니다. "장애 정도가 심한 장애인"이면 중증으로 장애인연금 대상, "장애 정도가 심하지 않은 장애인"이면 경증으로 장애수당 대상입니다. 2019년 7월 등급제 개편 이후 이 두 가지 분류가 사용됩니다.',
+      highlights: ['심한 장애인', '심하지 않은 장애인', '2019년 개편'],
+      table: {
+        headers: ['장애인등록증 표기', '분류', '해당 제도'],
+        rows: [
+          ['장애 정도가 심한 장애인', '중증', '장애인연금'],
+          ['장애 정도가 심하지 않은 장애인', '경증', '장애수당'],
+        ],
+      },
+    },
+    {
+      q: '경증 장애인인데 소득이 없으면 장애인연금을 받을 수 있나요?',
+      anchor: 'income-exception',
+      intro: '아니요, 장애인연금은 중증 등록장애인만 신청할 수 있습니다. 소득 수준과 관계없이 경증이면 장애인연금 대상이 아닙니다. 경증이면서 기초수급자·차상위계층 조건을 충족하면 장애수당(월 6만원) 신청이 가능합니다.',
+      highlights: ['경증은 연금 불가', '장애수당 신청'],
+      box: {
+        label: '경증 장애인 지원 정리',
+        content: '경증 + 기초수급자·차상위: 장애수당 월 6만원
+경증 + 소득 기준 초과: 장애 관련 현금 지원 없음
+경증이라도 활동지원, 통신비 감면 등 다른 서비스는 가능',
+      },
+    },
+    {
+      q: '장애인연금과 장애수당 신청 방법은 같나요?',
+      anchor: 'apply',
+      intro: '두 제도 모두 거주지 읍·면·동 행정복지센터 방문 또는 복지로(bokjiro.go.kr)에서 신청합니다. 준비 서류도 동일하게 장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서가 필요합니다.',
+      highlights: ['행정복지센터', '복지로'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['신청처', '거주지 읍·면·동 행정복지센터 또는 복지로'],
+          ['준비 서류', '장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서'],
+          ['신청 시기', '연중 상시 신청 가능'],
+        ],
+      },
+    },
+    {
+      q: '18세 미만 아동은 어떤 지원을 받나요?',
+      anchor: 'child',
+      intro: '18세 미만 장애아동은 장애아동수당 대상입니다. 중증 아동은 가구 소득에 따라 월 17만~22만원, 경증 아동은 월 11만원을 받습니다. 장애수당·장애인연금은 18세 이상 성인 대상이므로 아동에게는 해당하지 않습니다.',
+      highlights: ['18세 미만', '장애아동수당', '17만~22만원', '11만원'],
+      box: {
+        label: '장애아동수당 금액',
+        content: '중증 + 생계·의료급여: 월 22만원
+중증 + 주거·교육급여·차상위: 월 17만원
+경증: 월 11만원 (소득 구분 무관)',
+      },
+    },
+    {
+      q: '장애인연금을 받다가 경증으로 재판정되면 어떻게 되나요?',
+      anchor: 'downgrade',
+      intro: '재판정 결과 경증으로 판정되면 장애인연금 수급이 중단되고 장애수당(수급자·차상위 조건 충족 시)으로 전환됩니다. 재판정은 주기적으로 또는 신청에 의해 이루어지며, 결과에 이의가 있으면 이의신청을 할 수 있습니다.',
+      highlights: ['재판정', '경증 판정', '수급 중단', '이의신청'],
+      table: {
+        headers: ['상황', '처리'],
+        rows: [
+          ['중증→경증 재판정', '연금 중단 → 장애수당 신청 필요'],
+          ['판정 결과 이의 있음', '결정일로부터 90일 이내 이의신청'],
+          ['경증 상태 악화', '재판정 신청으로 중증 전환 가능'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '장애수당과 장애인연금을 동시에 받을 수 있나요?',
-      a: '아니요, 중복 수급이 불가합니다. 경증 장애인은 장애수당, 중증 장애인은 장애인연금만 받습니다.',
-      source: '보건복지부',
+      a: '아니요, 중복 수급이 불가합니다. 장애인연금은 중증장애인, 장애수당은 경증장애인 대상으로 대상 자체가 달라 동시 수령이 안 됩니다.',
+      source: '보건복지부 장애인연금 안내',
       sourceUrl: 'https://www.mohw.go.kr',
     },
     {

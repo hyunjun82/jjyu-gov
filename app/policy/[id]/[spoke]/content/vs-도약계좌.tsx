@@ -1,194 +1,4 @@
-import type { SpokeData } from '../SpokeClient';
-
-const comparison = [
-  { label: '가입 기간', future: '3년', leap: '5년' },
-  { label: '월 납입 한도', future: '최대 50만원', leap: '최대 70만원' },
-  { label: '정부 지원 방식', future: '기여금 6% / 12%', leap: '소득구간별 매칭' },
-  { label: '소득 기준 (가구)', future: '중위소득 200% 이하', leap: '중위소득 250% 이하' },
-  { label: '개인 소득 기준', future: '총급여 7,500만원 이하', leap: '총급여 7,500만원 이하' },
-  { label: '비과세', future: '이자소득세 면제', leap: '이자소득세 면제' },
-  { label: '신청 방식', future: '비대면 앱 전용', leap: '비대면 앱 전용' },
-  { label: '모집 시기', future: '연 2회 (6월·12월)', leap: '2025.12 신규 가입 종료' },
-  { label: '갈아타기', future: '도약계좌→미래적금: 2026.6 특별 허용', leap: '미래적금으로 이동 가능' },
-  { label: '취급 기관 수', future: '15개 금융기관', leap: '기존 참여 은행' },
-];
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          청년미래적금은 3년 만기·월 50만원·기여금 6% 또는 12% 방식이고,
-          청년도약계좌는 5년 만기·월 70만원·소득구간별 매칭 방식입니다.
-          도약계좌는 2025년 12월 신규 가입이 종료되었으며, 2026년 6월에 한해 미래적금으로 갈아타기가 허용됩니다.
-        </p>
-      </div>
-
-      {/* ── 1. 핵심 수치 비교 ── */}
-      <section className="detail-card" id="comparison">
-        <h2 className="detail-card-head">핵심 조건 비교 한눈에</h2>
-        <div className="detail-card-body" style={{ padding: 0 }}>
-          <div className="highlight-numbers">
-            <div className="highlight-num-item primary">
-              <span className="highlight-num-label">청년미래적금</span>
-              <span className="highlight-num-value">3년 만기</span>
-              <span className="highlight-num-sub">월 50만원 · 기여금 6%/12% · 비과세</span>
-            </div>
-            <div className="highlight-num-vs">vs</div>
-            <div className="highlight-num-item">
-              <span className="highlight-num-label">청년도약계좌</span>
-              <span className="highlight-num-value">5년 만기</span>
-              <span className="highlight-num-sub">월 70만원 · 소득구간 매칭 · 비과세</span>
-            </div>
-          </div>
-          <div style={{ overflowX: 'auto' }}>
-            <table className="compare-table">
-              <caption className="sr-only">청년미래적금과 청년도약계좌 상세 비교표</caption>
-              <thead>
-                <tr>
-                  <th scope="col">항목</th>
-                  <th scope="col" className="highlight">청년미래적금</th>
-                  <th scope="col">청년도약계좌</th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparison.map((row, i) => (
-                  <tr key={i}>
-                    <td className="compare-label">{row.label}</td>
-                    <td style={{ fontWeight: 600 }}>{row.future}</td>
-                    <td>{row.leap}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="source-inline" style={{ padding: '12px 16px' }}>
-            출처:{' '}
-            <a href="https://www.fsc.go.kr/no040101?cnId=3187" target="_blank" rel="noopener noreferrer">
-              금융위원회 카드뉴스 (2026.04.24)
-            </a>
-          </p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      {/* ── 2. 갈아타기 상세 ── */}
-      <section className="detail-card" id="transfer">
-        <h2 className="detail-card-head">도약계좌 → 미래적금, 갈아타기 조건은?</h2>
-        <div className="detail-card-body">
-          <div className="answer-box-inline">
-            2026년 6월에 한해, 청년도약계좌를 특별 중도해지하고 청년미래적금으로 이동할 수 있습니다.
-            갈아타기 시에도 기여금과 비과세 혜택이 유지됩니다.
-          </div>
-          <div className="info-checklist">
-            <strong>갈아타기 주요 조건</strong>
-            <ul>
-              <li><span className="check-icon">&#10003;</span> 2026년 6월 모집 기간에 한해 허용</li>
-              <li><span className="check-icon">&#10003;</span> 도약계좌 특별 중도해지 후 미래적금 신규 가입</li>
-              <li><span className="check-icon">&#10003;</span> 기여금 및 이자소득세 비과세 혜택 유지</li>
-              <li><span className="check-icon">&#10003;</span> 청년미래적금 자격 조건 동시 충족 필요</li>
-            </ul>
-          </div>
-          <div className="warning-box">
-            <strong>주의:</strong> 2026년 6월 이후에는 갈아타기 특례가 종료됩니다.
-            도약계좌 유지 중이라면 6월 모집 일정을 반드시 확인하세요.
-          </div>
-          <p className="source-inline">
-            출처:{' '}
-            <a href="https://www.fsc.go.kr/no040101?cnId=3187" target="_blank" rel="noopener noreferrer">
-              금융위원회 카드뉴스 (2026.04.24)
-            </a>
-          </p>
-        </div>
-      </section>
-
-      {/* ── 3. 중복 가입 여부 ── */}
-      <section className="detail-card" id="overlap">
-        <h2 className="detail-card-head">둘 다 동시에 가입할 수 있나?</h2>
-        <div className="detail-card-body">
-          <div className="answer-box-inline">
-            청년미래적금과 청년도약계좌 동시 가입은 불가합니다.
-            도약계좌를 유지 중이면 갈아타기를 통해 미래적금으로 이동하거나, 도약계좌 만기 후 미래적금에 가입하는 방식이 가능합니다.
-          </div>
-          <table className="mini-table">
-            <caption className="sr-only">동시 가입 가능 여부 정리</caption>
-            <thead>
-              <tr>
-                <th scope="col">상황</th>
-                <th scope="col">가능 여부</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>도약계좌 유지 중 + 미래적금 신규</td>
-                <td className="text-danger" style={{ fontWeight: 600 }}>불가</td>
-              </tr>
-              <tr>
-                <td>2026.6 갈아타기 특례 (도약→미래적금)</td>
-                <td className="text-success" style={{ fontWeight: 600 }}>가능 (6월 한정)</td>
-              </tr>
-              <tr>
-                <td>도약계좌 만기 후 미래적금 신규 가입</td>
-                <td className="text-success" style={{ fontWeight: 600 }}>가능 (자격 충족 시)</td>
-              </tr>
-              <tr>
-                <td>미래적금 + 청년내일저축계좌 동시</td>
-                <td className="text-success" style={{ fontWeight: 600 }}>가능</td>
-              </tr>
-            </tbody>
-          </table>
-          <p className="source-inline">
-            출처:{' '}
-            <a href="https://www.fsc.go.kr/no040101?cnId=3187" target="_blank" rel="noopener noreferrer">
-              금융위원회 카드뉴스 (2026.04.24)
-            </a>
-          </p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      {/* ── 4. 어느 쪽이 더 유리한가 ── */}
-      <section className="detail-card" id="which">
-        <h2 className="detail-card-head">내 상황엔 어느 쪽이 유리한가?</h2>
-        <div className="detail-card-body">
-          <div className="answer-box-inline">
-            기간이 짧을수록 미래적금, 납입 여력이 크고 장기 자산 형성이 목표면 도약계좌가 유리합니다.
-            단, 도약계좌는 2025년 12월 이후 신규 모집이 종료된 상태입니다.
-          </div>
-          <table className="mini-table">
-            <caption className="sr-only">상황별 추천 상품</caption>
-            <thead>
-              <tr>
-                <th scope="col">상황</th>
-                <th scope="col">추천</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>3년 이내에 목돈이 필요하다</td>
-                <td style={{ fontWeight: 600, color: 'var(--gov-primary)' }}>청년미래적금</td>
-              </tr>
-              <tr>
-                <td>5년 장기 자산 형성 목표 (도약계좌 미가입)</td>
-                <td style={{ fontWeight: 600 }}>청년미래적금 (6월 신청)</td>
-              </tr>
-              <tr>
-                <td>도약계좌 유지 중, 3년으로 줄이고 싶다</td>
-                <td style={{ fontWeight: 600, color: 'var(--gov-primary)' }}>2026.6 갈아타기 검토</td>
-              </tr>
-              <tr>
-                <td>우대형 기여금(12%) 자격 해당</td>
-                <td style={{ fontWeight: 600, color: 'var(--gov-primary)' }}>청년미래적금 (유리)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const VsLeapSpokeContent: SpokeData = {
   h1: '청년미래적금 vs 청년도약계좌, 뭐가 다를까?',
@@ -196,7 +6,102 @@ export const VsLeapSpokeContent: SpokeData = {
   description: '청년미래적금과 청년도약계좌의 가입 기간·정부 지원 방식·갈아타기 조건 등 10가지를 비교합니다.',
   datePublished: '2026-04-24T09:00:00+09:00',
   dateModified: '2026-05-13T09:00:00+09:00',
-  Content,
+  keyFacts: {
+    '청년미래적금 만기': '3년',
+    '청년도약계좌 만기': '5년',
+    '청년미래적금 월 한도': '최대 50만원',
+    '청년도약계좌 월 한도': '최대 70만원',
+    '동시 가입': '불가',
+  },
+  keyFactsHighlights: {
+    '동시 가입': ['불가'],
+  },
+  qa: [
+    {
+      q: '청년미래적금과 청년도약계좌, 핵심 조건이 어떻게 다른가?',
+      anchor: 'comparison',
+      intro: '청년미래적금은 3년 만기에 월 최대 50만원 납입, 정부 기여금은 일반형 6%·우대형 12%입니다. 청년도약계좌는 5년 만기에 월 최대 70만원 납입, 소득구간별 매칭 방식으로 정부가 지원합니다. 가구 소득 기준도 차이가 있습니다. 미래적금은 중위소득 200% 이하, 도약계좌는 250% 이하가 기준이며 개인 소득(총급여 7,500만원 이하)은 동일합니다. 비과세 혜택은 두 제품 모두 적용되며, 신청은 모두 비대면 앱으로만 가능합니다. 도약계좌는 2025년 12월 신규 가입이 종료되었고 2026년 6월에 한해 미래적금으로 갈아타기가 허용됩니다.',
+      highlights: ['3년 만기', '5년 만기', '기여금 6%', '기여금 12%', '중위소득 200%'],
+      table: {
+        headers: ['항목', '청년미래적금', '청년도약계좌'],
+        rows: [
+          ['가입 기간', '3년', '5년'],
+          ['월 납입 한도', '최대 50만원', '최대 70만원'],
+          ['정부 지원 방식', '기여금 6% / 12%', '소득구간별 매칭'],
+          ['소득 기준 (가구)', '중위소득 200% 이하', '중위소득 250% 이하'],
+          ['비과세', '이자소득세 면제', '이자소득세 면제'],
+          ['신청 방식', '비대면 앱 전용', '비대면 앱 전용'],
+          ['모집 시기', '연 2회 (6월·12월)', '2025.12 신규 가입 종료'],
+        ],
+      },
+      box: { label: '출처', content: '금융위원회 카드뉴스 (2026.04.24) https://www.fsc.go.kr/no040101?cnId=3187' },
+    },
+    {
+      q: '도약계좌에서 미래적금으로 갈아타기 조건은 무엇인가?',
+      anchor: 'transfer',
+      intro: '2026년 6월에 한해, 청년도약계좌를 특별 중도해지하고 청년미래적금으로 이동할 수 있습니다. 갈아타기 시에도 기여금과 비과세 혜택이 유지됩니다. 2026년 6월 이후에는 갈아타기 특례가 종료되므로 도약계좌를 유지 중이라면 6월 모집 일정을 반드시 확인해야 합니다. 일반 중도해지 후 신규 가입하는 경우에는 혜택이 소멸되므로 반드시 특별 중도해지 방식을 이용해야 합니다. 갈아타기를 위해서는 청년미래적금 자격 조건(나이·소득·가구 중위소득 200% 이하)을 동시에 충족해야 합니다.',
+      highlights: ['2026년 6월', '특별 중도해지', '기여금 보전', '비과세 유지'],
+      box: { label: '주의', content: '2026년 6월 이후에는 갈아타기 특례가 종료됩니다. 도약계좌 유지 중이라면 6월 모집 일정을 반드시 확인하세요.' },
+    },
+    {
+      q: '두 계좌를 동시에 가입할 수 있나?',
+      anchor: 'overlap',
+      intro: '청년미래적금과 청년도약계좌 동시 가입은 불가합니다. 도약계좌를 유지 중이면 2026년 6월 갈아타기 특례를 통해 미래적금으로 이동하거나, 도약계좌 만기 후 미래적금에 가입하는 방식이 가능합니다. 다만 청년미래적금과 청년내일저축계좌는 동시 가입이 가능합니다. 도약계좌를 중도해지하고 미래적금을 신규 가입하는 것도 가능하지만 이 경우 도약계좌 기여금과 비과세 혜택이 소멸됩니다.',
+      highlights: ['동시 가입 불가', '갈아타기 특례', '청년내일저축계좌 동시 가능'],
+      table: {
+        headers: ['상황', '가능 여부'],
+        rows: [
+          ['도약계좌 유지 중 + 미래적금 신규', '불가'],
+          ['2026.6 갈아타기 특례 (도약→미래적금)', '가능 (6월 한정)'],
+          ['도약계좌 만기 후 미래적금 신규 가입', '가능 (자격 충족 시)'],
+          ['미래적금 + 청년내일저축계좌 동시', '가능'],
+        ],
+      },
+    },
+    {
+      q: '내 상황엔 어느 쪽이 더 유리한가?',
+      anchor: 'which',
+      intro: '기간이 짧을수록 미래적금이 유리하고, 납입 여력이 크고 장기 자산 형성이 목표면 도약계좌가 유리합니다. 단, 도약계좌는 2025년 12월 이후 신규 모집이 종료된 상태입니다. 우대형 기여금(12%) 자격이 되는 경우에는 청년미래적금이 더 유리합니다. 도약계좌를 유지 중이라면 3년으로 기간을 줄이고 싶을 때 2026년 6월 갈아타기를 검토할 수 있습니다.',
+      highlights: ['3년 이내 목돈', '우대형 12%', '갈아타기'],
+      table: {
+        headers: ['상황', '추천'],
+        rows: [
+          ['3년 이내에 목돈이 필요하다', '청년미래적금'],
+          ['5년 장기 자산 형성 목표 (도약계좌 미가입)', '청년미래적금 (6월 신청)'],
+          ['도약계좌 유지 중, 3년으로 줄이고 싶다', '2026.6 갈아타기 검토'],
+          ['우대형 기여금(12%) 자격 해당', '청년미래적금 (유리)'],
+        ],
+      },
+    },
+    {
+      q: '갈아타기 후 기여금은 어떻게 되나?',
+      anchor: 'transfer-contrib',
+      intro: '2026년 6월 갈아타기 특례를 이용하면 기여금과 비과세 혜택이 그대로 유지됩니다. 일반 중도해지 후 신규 가입하는 경우에는 기여금이 환수되고 비과세 혜택도 소멸됩니다. 갈아타기 특례는 특별 중도해지로 인정되어 기여금 보전이 가능합니다. 도약계좌에서 미래적금으로 갈아타는 경우 미래적금 자격 조건(나이·소득 등)을 동시에 충족해야 합니다.',
+      highlights: ['기여금 보전', '비과세 유지', '특별 중도해지'],
+      box: { label: '주의', content: '일반 중도해지 후 신규 가입은 기여금 환수 + 비과세 소멸. 갈아타기 특례만 기여금 보전 가능합니다.' },
+    },
+    {
+      q: '소득 기준이 미래적금이 더 엄격한 이유는?',
+      anchor: 'income-standard',
+      intro: '가구 소득 기준이 도약계좌(중위 250%)에서 미래적금(중위 200%)으로 낮아졌습니다. 개인 소득 기준(총급여 7,500만원)은 동일합니다. 더 낮은 소득 계층에 집중 지원하는 방향으로 조정되었습니다. 미래적금은 3년 단기 상품으로 우대형 기여금(12%)이 도약계좌의 최고 매칭 비율보다 높아 저소득층에게 더 유리하도록 설계되었습니다. 가구 소득이 중위 200% 초과 250% 이하라면 미래적금에는 가입할 수 없고 도약계좌(만기 전까지)만 가능했습니다.',
+      highlights: ['중위소득 200%', '중위소득 250%', '총급여 7,500만원'],
+      table: {
+        headers: ['기준', '미래적금', '도약계좌'],
+        rows: [
+          ['개인 소득', '총급여 7,500만원 이하', '총급여 7,500만원 이하'],
+          ['가구 소득', '중위소득 200% 이하', '중위소득 250% 이하'],
+          ['비과세', '이자소득세 면제', '이자소득세 면제'],
+        ],
+      },
+    },
+    {
+      q: '도약계좌 만기 후 미래적금 가입이 가능한가?',
+      anchor: 'after-leap',
+      intro: '도약계좌 만기 후 미래적금 자격(나이·소득·가구 중위소득 200% 이하)을 충족하면 6월 또는 12월 모집 기간에 신청할 수 있습니다. 도약계좌 만기 후 미래적금에 가입하는 경우 일반 신규 가입 절차를 밟습니다. 만기 수령금을 미래적금 첫 달 납입금으로 활용하는 것도 가능합니다. 미래적금의 모집 시기가 연 2회(6월·12월)이므로 만기 후 다음 모집 기간까지 대기해야 합니다.',
+      highlights: ['도약계좌 만기 후', '6월·12월 모집', '나이·소득 조건 충족'],
+      box: { label: '안내', content: '도약계좌 만기 후 미래적금 가입 시 일반 신규 가입 절차 적용. 연 2회(6월·12월) 모집 일정 확인 필수.' },
+    },
+  ],
   faqData: [
     {
       q: '미래적금이 도약계좌보다 왜 더 유리한가요?',
@@ -224,7 +129,7 @@ export const VsLeapSpokeContent: SpokeData = {
     },
     {
       q: '소득 기준이 왜 더 엄격해졌나요?',
-      a: '가구 소득 기준이 도약계좌(중위 250%)에서 미래적금(중위 200%)으로 낮아졌습니다. 개인 소득 기준(총급여 7,500만원)은 동일합니다. 더 낮은 소득 계층에 집중 지원하는 방향으로 조정되었습니다.',
+      a: '가구 소득 기준이 도약계좌(중위 250%)에서 미래적금(중위 200%)으로 낮아졌습니다. 개인 소득 기준(총급여 7,500만원)은 동일합니다.',
       source: '금융위원회 카드뉴스 (2026.04.24)',
       sourceUrl: 'https://www.fsc.go.kr/no040101?cnId=3187',
     },

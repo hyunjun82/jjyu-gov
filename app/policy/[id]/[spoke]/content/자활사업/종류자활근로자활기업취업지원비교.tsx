@@ -1,91 +1,119 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          자활사업은 크게 <strong>자활근로</strong>(일자리 참여) ·
-          <strong>자활기업</strong>(공동 창업) ·
-          <strong>취업지원</strong>(취업성공패키지 연계) 세 가지로 나뉩니다.
-          단기 소득이 필요하면 자활근로, 창업을 원하면 자활기업, 취업이 목표라면 취업지원을 선택하세요.
-        </p>
-      </div>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">자활사업 유형 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>유형</th><th>내용</th><th>특징</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>자활근로</strong></td><td>지역자활센터 참여 일자리</td><td>즉시 소득 발생, 단계별 급여</td></tr>
-              <tr><td><strong>자활기업</strong></td><td>2인 이상 공동 창업 지원</td><td>사업주 전환, 자립 목표</td></tr>
-              <tr><td><strong>국민취업지원 연계</strong></td><td>취업성공패키지로 취업 연계</td><td>취업 목표 집중 지원</td></tr>
-              <tr><td><strong>자산형성지원</strong></td><td>희망저축계좌 연계</td><td>3년 후 목돈 마련</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="work">
-        <h2 className="detail-card-head">자활근로 — 가장 많이 이용하는 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>참여 방식:</strong> 지역자활센터 프로그램에 배치되어 일하고 급여 수령
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>업무 예시:</strong> 환경 청소·간병 보조·집수리·도시락 배달 등
-          </div>
-          <div className="info-box">
-            <strong>급여:</strong> 유형에 따라 일 29,940원~62,080원 (2026년)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="company">
-        <h2 className="detail-card-head">자활기업 — 창업을 원한다면</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>조건:</strong> 2인 이상 자활사업 참여자가 공동 창업
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>지원:</strong> 운영비·창업비·사업자금 융자, 컨설팅
-          </div>
-          <div className="info-box">
-            <strong>목표:</strong> 일반 사업체로 성장하여 시장에서 자립
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            참여자격, 급여 단가, 수급 유지 기준까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/self-sufficiency-program" className="btn-cta">
-            자활사업 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 자활사업종류자활근로자활기업취업지원비교SpokeContent: SpokeData = {
   h1: '자활사업 종류, 자활근로·자활기업·취업지원 무엇이 나에게 맞나',
   breadcrumb: '종류자활근로자활기업취업지원비교',
   description:
     '자활사업 유형: 자활근로(즉시 소득·일자리) / 자활기업(2인 이상 공동창업) / 국민취업지원 연계(취업 집중) / 자산형성(희망저축계좌). 단기 소득·창업·취업 목표별 선택.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '자활근로': '지역자활센터 배치 일자리, 즉시 소득 발생',
+    '자활기업': '2인 이상 공동 창업, 시장 자립 목표',
+    '국민취업지원 연계': '취업성공패키지 연계, 취업 집중 지원',
+    '자산형성지원': '희망저축계좌 연계, 3년 만기 목돈',
+    '신청처': '주민센터 또는 지역자활센터',
+  },
+  keyFactsHighlights: {
+    '자활근로': ['즉시 소득'],
+    '자활기업': ['2인 이상'],
+    '자산형성지원': ['3년 만기'],
+  },
+  qa: [
+    {
+      q: '자활사업에는 어떤 종류가 있나요?',
+      anchor: 'types',
+      intro: '자활사업은 크게 자활근로(일자리 참여), 자활기업(공동 창업 지원), 국민취업지원 연계(취업 집중), 자산형성지원(희망저축계좌)의 네 가지 유형으로 나뉩니다. 단기 소득이 필요하면 자활근로, 창업을 원하면 자활기업, 취업이 목표라면 취업지원, 중장기 자산 형성이 목적이라면 희망저축계좌를 선택하세요.',
+      highlights: ['자활근로', '자활기업', '국민취업지원', '희망저축계좌'],
+      table: {
+        headers: ['유형', '내용', '특징'],
+        rows: [
+          ['자활근로', '지역자활센터 참여 일자리', '즉시 소득 발생, 단계별 급여'],
+          ['자활기업', '2인 이상 공동 창업 지원', '사업주 전환, 자립 목표'],
+          ['국민취업지원 연계', '취업성공패키지로 취업 연계', '취업 목표 집중 지원'],
+          ['자산형성지원', '희망저축계좌 연계', '3년 후 목돈 마련'],
+        ],
+      },
+    },
+    {
+      q: '자활근로는 어떤 방식으로 참여하나요?',
+      anchor: 'self-work',
+      intro: '자활근로는 지역자활센터의 프로그램에 배치되어 일하고 급여를 받는 방식입니다. 유형에 따라 근로유지형(단순 환경 정비), 사회서비스형(간병·보육 보조), 시장진입형(창업 연계)으로 구분됩니다. 2026년 기준 일 급여는 근로유지형 29,940원, 사회서비스형 53,840원, 시장진입형 62,080원입니다.',
+      highlights: ['근로유지형', '사회서비스형', '시장진입형', '급여'],
+      box: {
+        label: '자활근로 업무 예시',
+        content: '근로유지형: 환경 청소·마을 정비·행정 보조
+사회서비스형: 간병·보육보조·집수리·도시락 배달
+시장진입형: 자활기업 창업 연계·시장 진입 준비',
+      },
+    },
+    {
+      q: '자활기업은 어떻게 만드나요?',
+      anchor: 'self-company',
+      intro: '자활기업은 자활사업 참여자 2인 이상이 공동으로 창업하여 운영하는 사업체입니다. 운영비·창업비·사업자금 융자와 컨설팅을 지원받을 수 있으며, 궁극적으로 일반 사업체로 성장하여 시장에서 자립하는 것을 목표로 합니다. 혼자서는 설립이 불가하며, 반드시 2인 이상이 참여해야 합니다.',
+      highlights: ['2인 이상', '공동 창업', '운영비', '융자', '자립'],
+      table: {
+        headers: ['지원 항목', '내용'],
+        rows: [
+          ['운영비', '사업 운영에 필요한 비용 지원'],
+          ['창업비', '초기 창업 비용 일부 지원'],
+          ['사업자금 융자', '자활기업 전용 저금리 융자'],
+          ['컨설팅', '사업 운영 전반 전문가 자문'],
+        ],
+      },
+    },
+    {
+      q: '국민취업지원 연계는 어떤 경우에 선택하나요?',
+      anchor: 'employment',
+      intro: '취업이 주요 목표인 경우 국민취업지원제도(취업성공패키지)와 연계하여 취업 준비에 집중할 수 있습니다. 자활근로에 참여하면서 취업 훈련을 병행할 수 있는 경우도 있으므로 지역자활센터에서 상담받으세요. 취업 후 일정 기간 의료급여 특례 등 지원이 유지될 수 있습니다.',
+      highlights: ['취업성공패키지', '취업 훈련', '병행', '특례'],
+      box: {
+        label: '국민취업지원 연계 절차',
+        content: '지역자활센터 상담 → 취업지원 프로그램 연계
+직업훈련·이력서 작성·면접 준비 등 지원
+취업 성공 시 이행급여특례로 의료급여 유지 가능',
+      },
+    },
+    {
+      q: '희망저축계좌는 무엇이고 어떻게 연계되나요?',
+      anchor: 'savings',
+      intro: '자활사업 참여자가 매월 일정액을 저축하면 정부가 추가로 적립해주는 자산 형성 지원 제도입니다. 3년 만기 시 목돈을 마련하여 자립 기반을 만들 수 있습니다. 자활사업 참여 중 저축액은 소득인정액에서 제외되어 수급 자격 유지에 유리합니다.',
+      highlights: ['희망저축계좌', '3년 만기', '정부 적립', '소득인정액 제외'],
+      box: {
+        label: '희망저축계좌 핵심',
+        content: '매월 본인 저축 → 정부 추가 적립
+3년 만기 시 목돈 수령
+저축액은 소득인정액 제외 (수급 유지에 유리)',
+      },
+    },
+    {
+      q: '자활사업 중 원하는 업무가 없으면 어떻게 하나요?',
+      anchor: 'no-match',
+      intro: '지역자활센터마다 운영하는 사업이 다릅니다. 인근 다른 자활센터 프로그램을 신청하거나, 국민취업지원제도로 연계하여 취업 목표 훈련을 받을 수 있습니다. 복지로(bokjiro.go.kr)에서 전국 지역자활센터 위치와 운영 프로그램을 확인할 수 있습니다.',
+      highlights: ['인근 자활센터', '국민취업지원', '복지로'],
+      table: {
+        headers: ['상황', '대안'],
+        rows: [
+          ['원하는 업무 없음', '인근 다른 자활센터 문의'],
+          ['취업 목표', '국민취업지원제도 연계'],
+          ['창업 희망', '자활기업 설립 상담'],
+          ['자산 형성 필요', '희망저축계좌 연계 신청'],
+        ],
+      },
+    },
+    {
+      q: '자활기업이 성공하면 수급 자격은 어떻게 되나요?',
+      anchor: 'graduation',
+      intro: '자활기업 운영 후 소득이 늘면 수급 자격에서 벗어날 수 있으며, 이것이 자활의 목표이기도 합니다. 탈수급 후 일정 기간은 의료급여 이행급여특례 등으로 지원이 이어질 수 있습니다. 소득 증가 시 단계적으로 급여가 조정되므로 담당자와 사전에 충분히 상담하는 것이 좋습니다.',
+      highlights: ['탈수급', '의료급여 특례', '소득 조정'],
+      box: {
+        label: '탈수급 후 지원',
+        content: '이행급여특례: 탈수급 후 취업 성공 시 일정 기간 의료급여 유지
+자활급여특례: 소득 초과 시 1년간 의료급여 특례
+재신청: 소득 감소 시 기준 이하 되면 재신청 가능',
+      },
+    },
+  ],
   faqData: [
     {
       q: '자활기업은 혼자서도 만들 수 있나요?',
@@ -120,6 +148,6 @@ export const 자활사업종류자활근로자활기업취업지원비교SpokeCo
   ],
   sources: [
     { name: '보건복지부 자활사업', url: 'https://www.mohw.go.kr' },
-    { name: '2026년 자활사업 안내 PDF', url: 'https://angelsitter.co.kr/board.view.php?board=bbs&no=2038' },
+    { name: '2026년 자활사업 안내', url: 'https://angelsitter.co.kr/board.view.php?board=bbs&no=2038' },
   ],
 };

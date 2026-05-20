@@ -1,102 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          다함께돌봄센터 기본 이용료는 <strong>아동 1인당 월 10만원 이내</strong>입니다.
-          학기 중 오후 2~8시, 방학 중 오전 9시~오후 6시에 운영하며,
-          만 6~12세 초등학생이라면 소득과 무관하게 신청할 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "다함께돌봄센터는 어떻게 신청하고, 이용료는 얼마인가요?"
-        신청 방법부터 이용료, 운영 시간까지 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="fee">
-        <h2 className="detail-card-head">이용료 구조</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>금액</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>기본 이용료</strong></td>
-                <td><strong>월 10만원 이내</strong></td>
-                <td>센터별 차등 적용</td>
-              </tr>
-              <tr>
-                <td><strong>특별활동비</strong></td>
-                <td>별도 수익자 부담</td>
-                <td>악기·체육·외국어 등</td>
-              </tr>
-              <tr>
-                <td><strong>급간식비</strong></td>
-                <td>별도 부담</td>
-                <td>제공 시</td>
-              </tr>
-              <tr>
-                <td><strong>기초·차상위</strong></td>
-                <td>지자체별 감면·면제</td>
-                <td>지자체 문의</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="hours">
-        <h2 className="detail-card-head">운영 시간</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>학기 중 (평일):</strong> 오후 2시 ~ 오후 8시 (6시간)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방학 중 (평일):</strong> 오전 9시 ~ 오후 6시 (9시간)
-          </div>
-          <div className="info-box">
-            <strong>야간 연장 (일부):</strong> ~ 오후 10시 (KB금융 협력 센터)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인:</strong> 다함께돌봄사업 누리집(dadol.or.kr) 또는 정부24(gov.kr)에서 거주지 센터 검색 후 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문:</strong> 거주지 다함께돌봄센터 직접 방문 신청
-          </div>
-          <div className="info-box">
-            <strong>필요 서류:</strong> 신청서, 아동 신분증, 우선순위 증빙(맞벌이·한부모 등)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            방학 운영, 아이돌봄서비스 비교, 대기 대안 등<br />
-            다함께돌봄센터 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/community-care-center" className="btn-cta">
-            다함께돌봄센터 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 다함께돌봄신청이용료SpokeContent: SpokeData = {
   h1: '다함께돌봄센터 신청 방법부터 이용료 월 10만원 이내 운영 시간까지',
@@ -104,8 +6,86 @@ export const 다함께돌봄신청이용료SpokeContent: SpokeData = {
   description:
     '다함께돌봄센터: 기본 이용료 월 10만원 이내, 학기 14~20시, 방학 9~18시. 만 6~12세 초등학생, 소득 무관. dadol.or.kr 또는 정부24 신청. 기초·차상위 감면 가능.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '기본 이용료': '월 10만원 이내',
+    '대상': '만 6~12세 초등학생 (소득 무관)',
+    '학기 중 운영': '오후 2시 ~ 8시',
+    '방학 운영': '오전 9시 ~ 오후 6시',
+    '신청처': 'dadol.or.kr 또는 정부24',
+  },
+  keyFactsHighlights: {
+    '기본 이용료': ['월 10만원 이내'],
+    '대상': ['소득 무관'],
+  },
+  qa: [
+    {
+      q: '다함께돌봄센터 이용료는 얼마인가요?',
+      anchor: '이용료',
+      intro: '다함께돌봄센터 기본 이용료는 아동 1인당 월 10만원 이내입니다. 센터별로 이용료가 다를 수 있으며 특별활동비(악기·체육·외국어 등)와 급간식비는 별도로 부담합니다. 기초생활수급자·차상위계층 가구 아동은 지자체별로 이용료 감면이나 면제 혜택을 받을 수 있습니다.',
+      highlights: ['월 10만원 이내', '특별활동비 별도', '기초·차상위 감면'],
+      table: {
+        headers: ['항목', '금액', '비고'],
+        rows: [
+          ['기본 이용료', '월 10만원 이내', '센터별 차등 적용'],
+          ['특별활동비', '별도 수익자 부담', '악기·체육·외국어 등'],
+          ['급간식비', '별도 부담', '제공 시'],
+          ['기초·차상위', '지자체별 감면·면제', '지자체 문의'],
+        ],
+      },
+      box: { label: '이용료', content: '기본 월 10만원 이내. 기초·차상위 감면 가능. 특별활동비·급간식비 별도.' },
+    },
+    {
+      q: '소득 기준이 있나요?',
+      anchor: '소득기준',
+      intro: '소득 기준이 없습니다. 만 6~12세 초등학생이라면 소득과 무관하게 신청할 수 있습니다. 다만 맞벌이·한부모·다자녀·저소득 가정은 우선 배정 혜택이 있습니다. 대기가 길어질 수 있으므로 이른 시기에 신청하는 것이 좋습니다.',
+      highlights: ['소득 무관', '만 6~12세', '우선 배정 기준'],
+      box: { label: '자격', content: '소득 무관. 만 6~12세 초등학생이면 신청 가능. 맞벌이·한부모·저소득 우선 배정.' },
+    },
+    {
+      q: '운영 시간은 어떻게 되나요?',
+      anchor: '운영시간',
+      intro: '학기 중에는 평일 오후 2시~8시(6시간), 방학 중에는 오전 9시~오후 6시(9시간)로 운영됩니다. 일부 센터는 야간 연장(~오후 10시)도 운영합니다. 토요일 운영은 센터별로 다르므로 이용 예정 센터에 확인해야 합니다.',
+      highlights: ['학기 14~20시', '방학 9~18시', '야간 연장 일부'],
+      table: {
+        headers: ['기간', '운영 시간', '총 시간'],
+        rows: [
+          ['학기 중 (평일)', '오후 2시 ~ 오후 8시', '6시간'],
+          ['방학 중 (평일)', '오전 9시 ~ 오후 6시', '9시간'],
+          ['야간 연장 (일부)', '~ 오후 10시', 'KB금융 협력 센터'],
+        ],
+      },
+      box: { label: '운영 시간', content: '학기 14~20시, 방학 9~18시. 야간 연장은 일부 센터만.' },
+    },
+    {
+      q: '어떻게 신청하나요?',
+      anchor: '신청방법',
+      intro: '온라인 신청은 다함께돌봄사업 누리집(dadol.or.kr) 또는 정부24(gov.kr)에서 거주지 센터를 검색해 신청합니다. 방문 신청은 거주지 다함께돌봄센터를 직접 방문해 신청서를 작성합니다. 필요 서류는 신청서, 아동 신분증, 우선순위 증빙 서류(맞벌이·한부모 확인서 등)입니다.',
+      highlights: ['dadol.or.kr', '정부24', '방문 신청', '우선순위 서류'],
+      box: { label: '신청', content: 'dadol.or.kr 또는 정부24 온라인 신청. 또는 센터 직접 방문. 맞벌이·한부모 서류 지참.' },
+    },
+    {
+      q: '기초생활수급자는 이용료가 줄어드나요?',
+      anchor: '수급자감면',
+      intro: '기초생활수급자·차상위계층 가구 아동은 지자체별로 이용료 감면 또는 면제 혜택을 받을 수 있습니다. 감면 내용은 지자체마다 다를 수 있으므로 거주지 센터 또는 주민센터에 문의해 정확한 감면 내용을 확인하세요.',
+      highlights: ['기초수급·차상위 감면', '지자체별 상이', '주민센터 문의'],
+      box: { label: '감면', content: '기초수급·차상위 가구는 지자체별 감면·면제. 정확한 내용은 거주지 센터 또는 주민센터 문의.' },
+    },
+    {
+      q: '특별활동비는 얼마인가요?',
+      anchor: '특별활동비',
+      intro: '특별활동비는 악기, 체육, 외국어 등 프로그램에 따라 다르며 별도로 수익자가 부담합니다. 금액은 센터별, 프로그램별로 상이하므로 이용 예정 센터에서 직접 확인해야 합니다. 특별활동 참여는 선택 사항이며 참여하지 않아도 기본 서비스 이용에는 문제가 없습니다.',
+      highlights: ['별도 부담', '선택 참여', '센터별 상이'],
+      box: { label: '안내', content: '특별활동(악기·체육·외국어 등)은 선택 사항. 별도 비용 센터별 상이.' },
+    },
+    {
+      q: '대기가 길면 어떻게 해야 하나요?',
+      anchor: '대기',
+      intro: '대기가 길 경우 여러 센터에 동시 신청하거나, 아이돌봄서비스·방과후 돌봄교실 등 대안 서비스를 병행 신청하는 것이 좋습니다. dadol.or.kr에서 인근 여러 센터를 검색해 복수 신청이 가능합니다. 맞벌이·한부모 등 우선 배정 서류를 제출하면 배정 순위가 올라갈 수 있습니다.',
+      highlights: ['복수 센터 신청', '대안 서비스 병행', '우선 배정 서류'],
+      box: { label: '팁', content: '대기 중 아이돌봄서비스(idolbom.go.kr) 또는 학교 방과후 돌봄교실 병행 신청 권장.' },
+    },
+  ],
   faqData: [
     {
       q: '다함께돌봄센터 이용료는 얼마인가요?',
@@ -115,7 +95,7 @@ export const 다함께돌봄신청이용료SpokeContent: SpokeData = {
     },
     {
       q: '어떻게 신청하나요?',
-      a: '다함께돌봄사업 누리집(dadol.or.kr) 또는 정부24(gov.kr)에서 거주지 센터를 검색해 신청하거나, 센터를 직접 방문해 신청합니다.',
+      a: 'dadol.or.kr 또는 정부24에서 거주지 센터를 검색해 신청하거나, 센터를 직접 방문해 신청합니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
@@ -127,7 +107,7 @@ export const 다함께돌봄신청이용료SpokeContent: SpokeData = {
     },
     {
       q: '기초생활수급자는 이용료가 줄어드나요?',
-      a: '기초생활수급자·차상위계층 가구 아동은 지자체별로 이용료 감면·면제 혜택을 받을 수 있습니다. 거주지 센터 또는 주민센터에 문의하세요.',
+      a: '기초수급·차상위계층 가구 아동은 지자체별로 이용료 감면·면제 혜택을 받을 수 있습니다. 거주지 센터 또는 주민센터에 문의하세요.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

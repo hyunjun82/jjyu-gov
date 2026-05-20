@@ -1,99 +1,109 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          배우자 출산휴가급여 상한액은 <strong>월 약 168만원</strong>입니다.
-          우선지원대상기업 근로자는 고용보험에서 지원받으며,
-          신청은 <strong>고용24(work24.go.kr)</strong>에서 합니다.
-          고용보험 피보험 단위기간 <strong>180일 이상</strong>이어야 신청 가능합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        상한액 기준과 우선지원대상기업 자격, 신청 절차를 미리 확인하면
-        급여를 빠짐없이 받을 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="limit">
-        <h2 className="detail-card-head">급여 상한액과 지급 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>지급 기준</strong></td><td>통상임금 100%</td></tr>
-              <tr><td><strong>상한액</strong></td><td>월 약 168만원 (정부 지원 한도)</td></tr>
-              <tr><td><strong>하한액</strong></td><td>통상임금이 낮으면 통상임금 전액</td></tr>
-              <tr><td><strong>지급 대상</strong></td><td>우선지원대상기업 근로자 (고용보험 적용)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격 요건</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>피보험 기간:</strong> 휴가 종료일 이전 고용보험 180일 이상
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사업장 조건:</strong> 우선지원대상기업 소속 근로자
-          </div>
-          <div className="info-box">
-            <strong>휴가 조건:</strong> 실제 배우자 출산휴가를 사용한 경우
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">고용24 신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 고용24(work24.go.kr) 로그인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 배우자 출산휴가급여 신청 메뉴 선택
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 출산 증빙 서류 첨부 (출생증명서 등)
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 신청 완료 후 심사·지급 (통상 14일 내)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            회사·정부 부담 구분, 20일 유급 계산, 분할 사용까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/spouse-birth-leave-pay" className="btn-cta">
-            배우자 출산휴가급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 배우자출산휴가급여급여상한액우선지원신청SpokeContent: SpokeData = {
   h1: '배우자 출산휴가 급여 상한액과 우선지원대상기업 기준, 고용24 신청까지',
   breadcrumb: '급여상한액우선지원신청',
   description:
     '배우자 출산휴가급여 상한액 월 약 168만원. 통상임금 100% 지급. 우선지원대상기업 고용보험 지원, 피보험 180일 이상 필수. 고용24(work24.go.kr) 온라인 신청, 휴가 종료 후 12개월 이내.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '급여 기준': '통상임금 100%',
+    '상한액': '월 약 168만원 (정부 지원 한도)',
+    '지원 대상': '우선지원대상기업 근로자',
+    '신청 자격': '고용보험 피보험 단위기간 180일 이상',
+    '신청처': '고용24(work24.go.kr)',
+  },
+  keyFactsHighlights: {
+    '상한액': ['월 약 168만원'],
+    '신청 자격': ['180일 이상'],
+  },
+  qa: [
+    {
+      q: '배우자 출산휴가급여 상한액은 얼마인가요?',
+      anchor: 'limit',
+      intro:
+        '배우자 출산휴가급여의 상한액은 월 약 168만원입니다. 통상임금 100%가 지급되며, 상한액은 정부 지원의 최대 한도입니다. 통상임금이 168만원보다 낮은 경우 통상임금 전액이 지급됩니다. 상한액 초과분은 우선지원대상기업의 경우 정부에서 지원하지 않으며, 사업주가 추가 지급할 수 있습니다. 우선지원대상기업이 아닌 대규모기업은 사업주가 전액 부담합니다.',
+      highlights: ['월 약 168만원', '통상임금 100%', '상한액 초과분은 정부 미지원'],
+      table: {
+        headers: ['항목', '기준'],
+        rows: [
+          ['지급 기준', '통상임금 100%'],
+          ['상한액', '월 약 168만원 (정부 지원 한도)'],
+          ['하한액', '통상임금이 낮으면 통상임금 전액'],
+          ['지급 대상', '우선지원대상기업 근로자 (고용보험 적용)'],
+        ],
+      },
+    },
+    {
+      q: '우선지원대상기업이 무엇인지, 해당 여부는 어떻게 확인하나요?',
+      anchor: 'priority-company',
+      intro:
+        '우선지원대상기업은 업종별 일정 인원 이하의 중소기업으로, 고용보험에서 급여를 지원받는 기업입니다. 제조업은 500인 이하, 광업·건설·운수·통신은 300인 이하, 도소매·서비스업 등은 100인 이하가 해당됩니다. 우선지원대상기업에 해당하면 근로자가 고용24에서 직접 급여를 신청할 수 있습니다. 해당 여부는 고용24(work24.go.kr) 또는 고용센터(☎1350)에서 확인할 수 있습니다.',
+      highlights: ['제조업 500인 이하', '서비스업 100인 이하', '고용24에서 직접 신청'],
+      table: {
+        headers: ['업종', '상시 근로자 수'],
+        rows: [
+          ['제조업', '500인 이하'],
+          ['광업·건설·운수·통신', '300인 이하'],
+          ['도소매·서비스업 등', '100인 이하'],
+        ],
+      },
+    },
+    {
+      q: '고용보험 피보험 180일이란 어떻게 계산하나요?',
+      anchor: 'insurance-180',
+      intro:
+        '고용보험 피보험 단위기간은 실제 근무한 날수 기준입니다. 현재 직장뿐만 아니라 이직 전 직장의 피보험 기간도 합산됩니다. 단, 이직 전 직장에서 실업급여를 수령한 기간은 제외될 수 있습니다. 피보험 기간 180일은 배우자 출산휴가 종료일 이전에 충족되어야 합니다. 정확한 피보험 기간은 고용24(work24.go.kr) 또는 고용센터에서 조회할 수 있습니다.',
+      highlights: ['실제 근무 날수 기준', '이전 직장 합산', '180일 = 약 6개월'],
+      box: { label: '피보험 기간 계산', content: '고용보험 피보험 단위기간 = 실제 근무 날수. 이전 직장 기간 합산 가능. 고용24에서 조회.' },
+    },
+    {
+      q: '고용24에서 급여를 신청하는 절차는 어떻게 되나요?',
+      anchor: 'apply-process',
+      intro:
+        '고용24(work24.go.kr)에서 온라인으로 신청하거나 고용센터를 방문해 신청할 수 있습니다. 신청 시 배우자 출산휴가급여 신청서, 출산 증빙 서류(출생증명서 또는 가족관계증명서), 휴가 확인서 등이 필요합니다. 심사 완료 후 통상 14일 이내에 신청인 계좌로 입금됩니다. 분할 사용 시 각 구간마다 신청해야 하며, 각 구간 종료 후 12개월 이내에 신청해야 합니다.',
+      highlights: ['고용24 온라인', '14일 이내 입금', '분할 시 구간별 신청'],
+      box: { label: '신청 절차', content: '① 고용24(work24.go.kr) 로그인 → ② 배우자 출산휴가급여 신청 → ③ 출산 증빙 서류 첨부 → ④ 심사 후 14일 이내 지급' },
+    },
+    {
+      q: '신청에 필요한 서류는 무엇인가요?',
+      anchor: 'documents',
+      intro:
+        '배우자 출산휴가급여 신청 시 필요한 서류는 배우자 출산휴가급여 신청서, 출산 사실 증명 서류(출생증명서 또는 가족관계증명서), 휴가 확인서입니다. 신청서는 고용24에서 작성하거나 고용센터에서 받을 수 있습니다. 고용24 온라인 신청 시 일부 서류는 자동 조회됩니다. 정확한 서류 목록은 신청 시기에 따라 다를 수 있으므로 고용24 또는 고용센터(☎1350)에서 확인하세요.',
+      highlights: ['출산휴가급여 신청서', '출생증명서', '휴가 확인서'],
+      table: {
+        headers: ['서류', '비고'],
+        rows: [
+          ['배우자 출산휴가급여 신청서', '고용24 작성 또는 고용센터 수령'],
+          ['출산 증빙 서류', '출생증명서 또는 가족관계증명서'],
+          ['휴가 확인서', '사업주 확인 서류'],
+        ],
+      },
+    },
+    {
+      q: '통상임금이 상한액보다 낮으면 얼마를 받나요?',
+      anchor: 'below-limit',
+      intro:
+        '통상임금 전액을 받습니다. 상한액(월 약 168만원)은 최대 한도이므로, 통상임금이 이보다 낮으면 통상임금 전액이 지급됩니다. 예를 들어 통상임금이 월 120만원이라면 120만원 전액을 받게 됩니다. 상한액보다 높은 통상임금을 받는 경우, 168만원 한도까지만 정부가 지원하고 초과분은 우선지원대상기업이라도 정부 미지원입니다.',
+      highlights: ['통상임금 전액 지급', '상한액은 최대 한도'],
+      table: {
+        headers: ['통상임금 수준', '받는 급여'],
+        rows: [
+          ['168만원 이하', '통상임금 전액'],
+          ['168만원 초과', '월 약 168만원 (상한액 한도)'],
+        ],
+      },
+    },
+    {
+      q: '대규모기업 근로자도 배우자 출산휴가급여를 받을 수 있나요?',
+      anchor: 'large-company',
+      intro:
+        '대규모기업 근로자는 정부(고용보험)에서 급여를 받는 것이 아니라 사업주가 전액 부담합니다. 즉, 배우자 출산휴가 20일은 모두 유급이지만 급여 지급 주체가 회사입니다. 대규모기업 근로자는 고용24에 별도 신청을 하지 않아도 됩니다. 회사가 지급하지 않으면 고용노동부에 신고할 수 있습니다.',
+      highlights: ['대규모기업은 사업주 부담', '고용24 신청 불필요'],
+      box: { label: '기업 규모별 차이', content: '우선지원대상기업: 고용보험(정부) 지원 → 근로자가 고용24에 신청. 대규모기업: 사업주 전액 부담 → 별도 신청 없음.' },
+    },
+  ],
   faqData: [
     {
       q: '통상임금이 168만원보다 낮으면 얼마 받나요?',

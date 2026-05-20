@@ -1,133 +1,100 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          새도약기금은 <strong>세 가지 조건을 모두 충족</strong>해야 합니다.
-          ① 금융회사별 <strong>7년 이상 연체 중</strong>인 개인,
-          ② <strong>무담보 채무</strong>만 해당,
-          ③ 원금 합계 <strong>5천만원 이하</strong>.
-          세 조건 중 하나라도 미달이면 대상에서 제외됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "7년 이상 연체 중인데 내가 대상인지 모르겠다"는 분들이 많습니다.
-        담보 여부와 원금 기준이 핵심입니다. 조건별로 정확하게 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="conditions">
-        <h2 className="detail-card-head">새도약기금 자격 조건 3가지 — 모두 충족해야 대상</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>조건</th><th>기준</th><th>주의사항</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>① 연체 기간</td>
-                <td><strong>금융회사별 7년 이상</strong></td>
-                <td>2018년 6월 19일 이전 연체 시작</td>
-              </tr>
-              <tr>
-                <td>② 채무 종류</td>
-                <td><strong>무담보 채무만</strong></td>
-                <td>부동산 담보 대출 등 담보 채무 제외</td>
-              </tr>
-              <tr>
-                <td>③ 원금 합계</td>
-                <td><strong>5천만원 이하</strong></td>
-                <td>5천만원 초과 시 대안 프로그램 안내</td>
-              </tr>
-              <tr>
-                <td>대상자</td>
-                <td>개인 (개인사업자 포함)</td>
-                <td>법인 제외</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="warning-box" style={{ marginTop: 12 }}>
-            <strong>담보가 섞여 있는 경우:</strong> 담보 채무는 새도약기금 대상에서 제외됩니다.
-            무담보 채무만 별도로 5천만원 이하여야 합니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="screening">
-        <h2 className="detail-card-head">대상자 확정 후 상환능력 심사 — 소각 vs 채무조정 결정</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>심사 기준</th><th>소각 조건</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>소득 기준</td>
-                <td>중위소득 60% 이하</td>
-              </tr>
-              <tr>
-                <td>재산 기준</td>
-                <td>생계형 재산 외 보유재산 없음</td>
-              </tr>
-              <tr>
-                <td>출입국 기록</td>
-                <td>최근 5년간 2회 이하</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            세 기준 모두 충족 → <strong>채무 소각</strong> (1년 이내 5천만원 한도)<br />
-            하나라도 미달 → <strong>채무조정</strong> (30~80% 감면, 최장 10년 분할)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="excluded">
-        <h2 className="detail-card-head">대상에서 제외되는 경우</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>연체 7년 미만:</strong> 아직 새도약기금 대상이 아닙니다.
-            신용회복위원회 개인 워크아웃 또는 법원 개인회생을 검토하세요.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>담보 채무:</strong> 부동산·보증 등 담보가 있는 채무는 대상 제외.
-          </div>
-          <div className="info-box">
-            <strong>원금 5천만원 초과:</strong> 신용회복위원회 개인 워크아웃,
-            법원 개인회생·파산면책 등 대안 프로그램 이용 가능.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 방법, 채무 소각 기준, 대상자 조회 등<br />
-            새도약기금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/new-leap" className="btn-cta">
-            새도약기금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 자격조건SpokeContent: SpokeData = {
   h1: '7년 이상 장기 연체 중이면 새도약기금 대상이 될 수 있다 | 자격 조건 확인',
   breadcrumb: '자격조건',
   description:
     '새도약기금 자격 조건은 ① 금융회사별 7년 이상 연체, ② 무담보 채무만, ③ 원금 합계 5천만원 이하. 세 가지를 모두 충족해야 합니다. 대상 확정 후 상환능력 심사(중위소득 60% 이하 등)로 소각 또는 채무조정이 결정됩니다.',
-  datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '연체 기간': '금융회사별 7년 이상',
+    '채무 종류': '무담보 채무만 해당',
+    '원금 한도': '5천만원 이하',
+    '대상자': '개인 (개인사업자 포함)',
+    '소각 기준': '중위소득 60% 이하 + 무재산',
+  },
+  keyFactsHighlights: {
+    '연체 기간': ['7년 이상'],
+    '채무 종류': ['무담보'],
+    '원금 한도': ['5천만원 이하'],
+    '소각 기준': ['중위소득 60% 이하'],
+  },
+  qa: [
+    {
+      q: '새도약기금 자격 조건 3가지는 무엇인가요?',
+      anchor: 'conditions',
+      intro: '새도약기금은 세 가지 조건을 모두 충족해야 합니다. 첫째, 금융회사별 7년 이상 연체 중인 개인이어야 합니다. 둘째, 무담보 채무만 해당되며 부동산 담보 대출은 제외됩니다. 셋째, 원금 합계가 5천만원 이하여야 합니다. 세 조건 중 하나라도 미달이면 대상에서 제외됩니다.',
+      highlights: ['7년 이상 연체', '무담보 채무만', '5천만원 이하', '세 조건 모두'],
+      table: {
+        headers: ['조건', '기준', '주의사항'],
+        rows: [
+          ['① 연체 기간', '금융회사별 7년 이상', '2018년 6월 19일 이전 연체 시작'],
+          ['② 채무 종류', '무담보 채무만', '부동산 담보 대출 등 담보 채무 제외'],
+          ['③ 원금 합계', '5천만원 이하', '5천만원 초과 시 대안 프로그램 안내'],
+          ['대상자', '개인 (개인사업자 포함)', '법인 제외'],
+        ],
+      },
+      box: { label: '담보가 섞인 경우', content: '담보 채무는 새도약기금 대상에서 제외됩니다.\n무담보 채무만 별도로 5천만원 이하여야 합니다.' },
+    },
+    {
+      q: '소각 vs 채무조정, 어떻게 결정되나요?',
+      anchor: 'screening',
+      intro: '대상자로 확정된 후 상환능력 심사가 진행됩니다. 중위소득 60% 이하이고 생계형 재산 외 보유재산이 없으며 최근 5년간 출입국이 2회 이하이면 채무 소각이 결정됩니다. 이 중 하나라도 미달이면 채무조정(30~80% 감면, 최장 10년 분할)이 적용됩니다.',
+      highlights: ['중위소득 60% 이하', '보유재산 없음', '출입국 2회 이하', '채무 소각'],
+      table: {
+        headers: ['심사 기준', '소각 조건'],
+        rows: [
+          ['소득 기준', '중위소득 60% 이하'],
+          ['재산 기준', '생계형 재산 외 보유재산 없음'],
+          ['출입국 기록', '최근 5년간 2회 이하'],
+        ],
+      },
+      box: { label: '결과 판정', content: '세 기준 모두 충족 → 채무 소각 (1년 이내 5천만원 한도)\n하나라도 미달 → 채무조정 (30~80% 감면, 최장 10년 분할)' },
+    },
+    {
+      q: '연체 7년 미만이면 어떤 대안이 있나요?',
+      anchor: 'alternatives',
+      intro: '연체 7년 미만이라면 새도약기금 대상이 아닙니다. 대신 신용회복위원회 개인 워크아웃, 법원 개인회생, 또는 프리워크아웃을 검토할 수 있습니다. 서민금융통합지원센터(☎1397)에서 상황에 맞는 채무조정 방법을 안내받을 수 있습니다.',
+      highlights: ['새도약기금 대상 아님', '개인 워크아웃', '개인회생', '☎1397'],
+      box: { label: '7년 미만 연체자 대안', content: '신용회복위원회 개인 워크아웃 (☎1600-5500)\n법원 개인회생 또는 파산면책\n프리워크아웃 (연체 전 사전 조정)\n서민금융통합지원센터 ☎1397 상담' },
+    },
+    {
+      q: '담보 채무와 무담보 채무가 섞여 있으면 어떻게 되나요?',
+      anchor: 'mixed',
+      intro: '담보 채무는 새도약기금 대상에서 제외됩니다. 무담보 채무만 별도로 5천만원 이하여야 합니다. 담보 채무와 무담보 채무를 합산한 금액이 아닌, 무담보 채무 원금만 기준입니다. 담보 채무는 별도 채무조정 프로그램을 통해 처리해야 합니다.',
+      highlights: ['담보 채무 제외', '무담보 채무만 기준', '합산 아님'],
+      box: { label: '혼합 채무 기준', content: '무담보 채무 원금만 5천만원 이하 기준\n담보 채무는 별도 처리 필요\n(신용회복위원회 또는 법원 개인회생)' },
+    },
+    {
+      q: '원금이 5천만원을 넘으면 어떻게 되나요?',
+      anchor: 'over-limit',
+      intro: '새도약기금 대상에서 제외됩니다. 신용회복위원회 개인 워크아웃, 법원 개인회생, 법원 파산면책 중 상황에 맞는 프로그램을 이용할 수 있습니다. 서민금융통합지원센터(☎1397)에서 맞춤 안내를 받을 수 있습니다.',
+      highlights: ['대상에서 제외', '개인 워크아웃', '개인회생', '파산면책'],
+      box: { label: '5천만원 초과 시 대안', content: '신용회복위원회 개인 워크아웃 → ☎1600-5500\n법원 개인회생 신청\n법원 파산·면책 신청\n서민금융통합지원센터 ☎1397 맞춤 상담' },
+    },
+    {
+      q: '개인사업자도 새도약기금 대상인가요?',
+      anchor: 'self-employed',
+      intro: '개인사업자도 대상입니다. 법인은 제외되고 개인(개인사업자 포함)만 대상입니다. 개인사업자로 발생한 무담보 채무가 7년 이상 연체이고 원금 5천만원 이하이면 자격 조건을 충족합니다.',
+      highlights: ['개인사업자 가능', '법인 제외', '개인 사업 채무도 해당'],
+      box: { label: '대상자 범위', content: '대상: 개인 + 개인사업자\n제외: 법인\n(개인사업 관련 무담보 채무도 조건 충족 시 대상)' },
+    },
+    {
+      q: '소각 후 신용기록은 어떻게 되나요?',
+      anchor: 'credit-after',
+      intro: '소각 완료 후 신용정보 등록 해제 절차가 진행됩니다. 신용회복위원회(1600-5500)에 연계되어 신용회복 지원을 받을 수 있습니다. 소각 후 서민금융·저금리 대출 연계도 가능합니다. 신용기록 해제는 소각 완료 후 별도 절차가 필요합니다.',
+      highlights: ['신용정보 등록 해제', '신용회복위원회', '서민금융 연계', '별도 절차'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['신용정보 등록', '소각 완료 후 해제 절차 진행'],
+          ['신용회복 지원', '신용회복위원회(1600-5500) 연계 안내'],
+          ['금융 재기', '소각 후 서민금융·저금리 대출 연계 가능'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '연체가 7년 됐는데 새도약기금 대상인가요?',

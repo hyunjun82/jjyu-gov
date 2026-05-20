@@ -1,115 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          지역아동센터는 학기 중 오후 2시~7시, 방학 중 오전 9시~오후 6시 운영합니다.
-          보호·교육·문화 활동과 급식을 제공해 <strong>맞벌이 가구의 방과 후 공백</strong>을
-          채워주는 돌봄 기관입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "맞벌이라 아이 학교 끝나고 갈 곳이 없어요. 지역아동센터에서 무엇을 해주나요?"
-        맞벌이 가구가 알아야 할 지역아동센터 돌봄 서비스를 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="hours">
-        <h2 className="detail-card-head">운영 시간</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>운영 시간</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>학기 중</strong></td>
-                <td>14:00 ~ 19:00</td>
-                <td>주 5일 운영</td>
-              </tr>
-              <tr>
-                <td><strong>방학 중</strong></td>
-                <td>09:00 ~ 18:00</td>
-                <td>하루 종일 돌봄 가능</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="service">
-        <h2 className="detail-card-head">제공하는 돌봄 서비스</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>분야</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>보호</strong></td>
-                <td>안전한 공간 제공, 생활관리, 5대 안전의무교육</td>
-              </tr>
-              <tr>
-                <td><strong>교육</strong></td>
-                <td>숙제지도, 학교생활 관리, 기초학력 지원</td>
-              </tr>
-              <tr>
-                <td><strong>문화</strong></td>
-                <td>체험활동, 놀이, 예체능 프로그램</td>
-              </tr>
-              <tr>
-                <td><strong>정서지원</strong></td>
-                <td>상담, 심리지원, 또래 관계 형성</td>
-              </tr>
-              <tr>
-                <td><strong>지역사회 연계</strong></td>
-                <td>보호자·학교·지역기관 연계, 가족 지원</td>
-              </tr>
-              <tr>
-                <td><strong>급식</strong></td>
-                <td>방과 후 간식 및 석식 제공 (센터별 상이)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="cost">
-        <h2 className="detail-card-head">맞벌이 가구 비용</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>저소득 가구:</strong> 기초생활수급, 차상위계층은 <strong>무료</strong>입니다.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>일반 맞벌이 가구:</strong> 월 0~3만원 수준입니다. 센터별 자체 규정에 따라 다를 수 있습니다.
-          </div>
-          <div className="info-box">
-            <strong>우선 배정 조건:</strong> 맞벌이 가구는 우선순위 3순위에 해당합니다.
-            저소득·한부모 가구 이후 배정되므로 대기가 생길 수 있습니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 방법, 찾기, 우선순위 등<br />
-            지역아동센터 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/community-child-center" className="btn-cta">
-            지역아동센터 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 지역아동센터맞벌이돌봄서비스SpokeContent: SpokeData = {
   h1: '초등학생 자녀가 있는 맞벌이라면 지역아동센터에서 받을 수 있는 돌봄 서비스',
@@ -117,8 +6,152 @@ export const 지역아동센터맞벌이돌봄서비스SpokeContent: SpokeData =
   description:
     '지역아동센터 학기중 14~19시 방학중 9~18시 운영. 보호·교육·문화·정서지원·급식 제공. 저소득 무료 일반 월 0~3만원. 맞벌이 3순위 우선배정.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '맞벌이 우선순위': '3순위 (저소득·한부모 이후)',
+    '학기 중 운영': '14:00~19:00 (주 5일)',
+    '방학 중 운영': '09:00~18:00 (주 5일)',
+    '맞벌이 비용': '월 0~3만원 (저소득은 무료)',
+    '급식': '간식 및 석식 제공 (센터별 상이)',
+  },
+  keyFactsHighlights: {
+    '맞벌이 우선순위': ['3순위'],
+    '학기 중 운영': ['14:00~19:00'],
+    '방학 중 운영': ['09:00~18:00'],
+    '맞벌이 비용': ['0~3만원'],
+  },
+  qa: [
+    {
+      q: '맞벌이 가구는 지역아동센터를 이용할 수 있나요?',
+      anchor: 'can-use',
+      intro: '맞벌이 가구의 자녀도 지역아동센터를 이용할 수 있습니다. 다만 정원에 따라 우선순위 3순위로 배정됩니다. 1순위(기초수급·차상위), 2순위(한부모·다문화) 다음 순서입니다. 대기가 발생할 수 있으므로 미리 가까운 센터에 문의하는 것이 좋습니다.',
+      highlights: ['이용 가능', '3순위', '대기 가능'],
+      table: {
+        headers: ['우선순위', '대상'],
+        rows: [
+          ['1순위', '기초생활수급 가구, 차상위계층 아동'],
+          ['2순위', '한부모·조손가족, 다문화가족, 장애인 가구 아동'],
+          ['3순위 (맞벌이)', '다자녀 가구, 맞벌이 가구 아동'],
+          ['4순위', '그 외 돌봄이 필요한 아동'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '대기가 발생할 수 있습니다. 미리 가까운 센터에 문의 후 대기 등록을 권장합니다.',
+      },
+    },
+    {
+      q: '운영 시간이 맞벌이에 적합한가요?',
+      anchor: 'hours',
+      intro: '학기 중에는 오후 2시부터 7시까지, 방학 중에는 오전 9시부터 오후 6시까지 운영합니다. 학교 수업이 끝나는 오후 1~2시부터 돌봄을 받을 수 있어 맞벌이 가구의 방과 후 공백을 해소할 수 있습니다. 방학 중에는 하루 종일 돌봄이 가능합니다.',
+      highlights: ['학기 중 14~19시', '방학 중 9~18시', '방과 후 공백 해소'],
+      table: {
+        headers: ['구분', '운영 시간', '비고'],
+        rows: [
+          ['학기 중', '14:00~19:00', '주 5일 운영'],
+          ['방학 중', '09:00~18:00', '하루 종일 돌봄 가능'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '방학 중 9시부터 이용 가능. 맞벌이 가구의 방학 돌봄 공백 해소에 적합.',
+      },
+    },
+    {
+      q: '어떤 돌봄 서비스를 받을 수 있나요?',
+      anchor: 'services',
+      intro: '지역아동센터는 보호, 교육, 문화, 정서지원, 지역사회 연계, 급식의 6가지 서비스를 제공합니다. 숙제지도와 기초학력 지원이 포함되어 학교 생활 지원이 가능하고, 급식(간식·석식)도 대부분 제공합니다.',
+      highlights: ['보호·교육·문화', '급식 포함', '숙제지도'],
+      table: {
+        headers: ['분야', '내용'],
+        rows: [
+          ['보호', '안전한 공간, 생활관리, 5대 안전의무교육'],
+          ['교육', '숙제지도, 학교생활 관리, 기초학력 지원'],
+          ['문화', '체험활동, 놀이, 예체능 프로그램'],
+          ['정서지원', '상담, 심리지원, 또래 관계 형성'],
+          ['지역사회 연계', '보호자·학교·지역기관 연계'],
+          ['급식', '방과 후 간식 및 석식 (센터별 상이)'],
+        ],
+      },
+      box: {
+        label: '핵심',
+        content: '숙제지도+급식+정서지원까지 종합 돌봄. 맞벌이 가구가 안심할 수 있는 환경.',
+      },
+    },
+    {
+      q: '맞벌이 가구 이용 비용은 얼마인가요?',
+      anchor: 'cost',
+      intro: '맞벌이 가구의 경우 소득에 따라 다릅니다. 기초수급자·차상위계층은 무료이며, 일반 맞벌이 가구는 월 0~3만원 수준입니다. 센터별로 차이가 있을 수 있으므로 해당 센터에 확인하세요.',
+      highlights: ['저소득 무료', '일반 맞벌이 월 0~3만원'],
+      table: {
+        headers: ['가구 유형', '이용 비용'],
+        rows: [
+          ['기초수급자·차상위', '무료'],
+          ['일반 맞벌이 가구', '월 0~3만원 (센터별 상이)'],
+          ['급식', '대부분 포함'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '이용 비용은 센터마다 다를 수 있습니다. 해당 센터에 직접 문의하세요.',
+      },
+    },
+    {
+      q: '급식도 제공되나요?',
+      anchor: 'meal',
+      intro: '대부분의 지역아동센터에서 방과 후 간식과 석식을 제공합니다. 급식 제공 여부와 내용은 센터마다 다를 수 있으므로 해당 센터에 확인하세요. 맞벌이 부모가 퇴근 전에 자녀의 저녁 식사를 해결할 수 있어 실질적인 도움이 됩니다.',
+      highlights: ['간식 및 석식', '센터별 상이'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['간식', '방과 후 간식 제공 (대부분)'],
+          ['석식', '저녁 식사 제공 (대부분)'],
+          ['급식 비용', '이용료에 포함 또는 별도 (센터별 상이)'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '급식 제공 여부와 내용은 센터별로 다릅니다. 해당 센터에 확인하세요.',
+      },
+    },
+    {
+      q: '방학 중에도 돌봄이 가능한가요?',
+      anchor: 'vacation',
+      intro: '방학 중에는 오전 9시부터 오후 6시까지 운영하여 하루 종일 돌봄이 가능합니다. 학기 중보다 운영 시간이 길어 맞벌이 가구에 특히 유용합니다.',
+      highlights: ['방학 중 9~18시', '하루 종일 돌봄'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['방학 중 운영 시간', '09:00~18:00'],
+          ['학기 중 운영 시간', '14:00~19:00'],
+          ['방학 중 급식', '아침·점심·간식 등 (센터별 상이)'],
+        ],
+      },
+      box: {
+        label: '맞벌이 팁',
+        content: '방학 중 하루 종일 돌봄 가능. 방학 돌봄 공백 해소에 최적.',
+      },
+    },
+    {
+      q: '신청은 어떻게 하나요?',
+      anchor: 'apply',
+      intro: 'icareinfo.go.kr 또는 복지로(bokjiro.go.kr)에서 가까운 센터를 찾은 뒤 해당 센터에 직접 방문하거나 주민센터를 통해 신청합니다. 맞벌이 가구는 3순위이므로 대기가 발생할 수 있어 미리 신청하는 것이 좋습니다.',
+      highlights: ['icareinfo.go.kr', '복지로', '미리 신청 권장'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['① 센터 찾기', 'icareinfo.go.kr 또는 복지로에서 가까운 센터 검색'],
+          ['② 서류 준비', '신청서, 건강보험료 납부 확인서'],
+          ['③ 신청', '해당 센터 방문 또는 주민센터 경유'],
+          ['④ 배정', '우선순위 심사 후 이용 개시'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '맞벌이는 3순위. 대기 줄이기 위해 미리 신청하세요.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '방학에도 지역아동센터를 이용할 수 있나요?',

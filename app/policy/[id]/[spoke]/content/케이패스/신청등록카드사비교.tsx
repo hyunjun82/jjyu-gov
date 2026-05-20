@@ -1,104 +1,137 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          K-패스는 <strong>korea-pass.kr</strong>에서 회원가입 후 참여 카드사의 K-패스 카드를 발급받으면 됩니다.
-          월 <strong>15회 이상</strong> 대중교통 이용 시 일반 <strong>20%</strong>,
-          청년 <strong>30%</strong>, 저소득층 <strong>53.3%</strong>를 다음 달에 환급받습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        어느 카드사를 선택하느냐에 따라 추가 혜택이 달라집니다.
-        신청 절차와 카드사별 혜택을 비교하세요.
-      </p>
-
-      <section className="detail-card" id="how">
-        <h2 className="detail-card-head">K-패스 신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> korea-pass.kr 또는 K-패스 앱에서 회원 가입
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 참여 카드사 선택 후 K-패스 카드 발급 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 카드 수령 후 교통카드로 등록
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 월 15회 이상 이용 시 다음 달 환급
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="card">
-        <h2 className="detail-card-head">참여 카드사 현황</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>카드사</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>신한카드</strong></td><td>K-패스 신한카드</td></tr>
-              <tr><td><strong>우리카드</strong></td><td>K-패스 우리카드</td></tr>
-              <tr><td><strong>하나카드</strong></td><td>K-패스 하나카드</td></tr>
-              <tr><td><strong>현대카드</strong></td><td>K-패스 현대카드</td></tr>
-              <tr><td><strong>BC카드</strong></td><td>K-패스 BC카드</td></tr>
-              <tr><td><strong>KB국민카드</strong></td><td>K-패스 KB카드</td></tr>
-              <tr><td><strong>DGB유페이</strong></td><td>선불형 K-패스</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>※ 참여 카드사는 변경될 수 있으므로 korea-pass.kr에서 최신 정보를 확인하세요.</p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="refund">
-        <h2 className="detail-card-head">환급률 요약</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>대상</th><th>환급률</th><th>월 한도</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>일반</strong></td><td>20%</td><td>월 60회</td></tr>
-              <tr><td><strong>청년 (만 19~34세)</strong></td><td>30%</td><td>월 60회</td></tr>
-              <tr><td><strong>저소득층</strong></td><td>53.3%</td><td>월 60회</td></tr>
-              <tr><td><strong>65세 이상</strong></td><td>30%</td><td>월 60회</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            환급률 계산 방법, 모두의 카드와 차이, 지역별 대중교통 적용 범위까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/k-pass" className="btn-cta">
-            K-패스 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 케이패스신청등록카드사비교SpokeContent: SpokeData = {
   h1: 'K-패스 교통카드 신청 방법, 등록 절차, 카드사별 혜택 비교 정리',
-  breadcrumb: '신청등록카드사비교',
+  breadcrumb: 'K-패스 > 신청등록카드사비교',
   description:
     'K-패스 신청: korea-pass.kr 회원가입 → 참여 카드사 카드 발급. 월 15회 이상 이용 시 일반 20%·청년 30%·저소득 53.3% 환급. 신한·우리·하나·현대·BC·KB·DGB유페이 참여.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청 채널': 'korea-pass.kr 또는 K-패스 앱',
+    '참여 카드사': '신한·우리·하나·현대·BC·KB·DGB유페이 등',
+    '신청 방식': '신규 K-패스 전용 카드 발급 (기존 카드 전환 불가)',
+    '환급 시작': '월 15회 이상 이용 후 다음 달',
+    '한 명당 카드': '1개만 등록 가능',
+  },
+  keyFactsHighlights: {
+    '신청 채널': ['korea-pass.kr'],
+    '신청 방식': ['신규 발급', '전환 불가'],
+    '환급 시작': ['월 15회 이상', '다음 달'],
+  },
+  qa: [
+    {
+      q: 'K-패스 신청 절차는 어떻게 되나요?',
+      anchor: 'apply-process',
+      intro: 'K-패스 신청은 총 4단계로 진행됩니다. 먼저 korea-pass.kr 공식 홈페이지 또는 K-패스 앱에서 회원가입(본인 명의 휴대폰 인증)을 합니다. 이후 참여 카드사 목록에서 원하는 카드사를 선택해 K-패스 전용 카드를 신청합니다. 카드 수령 후 교통카드로 등록하면 사용이 가능합니다. 이후 월 15회 이상 이용한 달에 다음 달 환급이 지급됩니다.',
+      highlights: ['korea-pass.kr 또는 앱 가입', '참여 카드사 선택', '교통카드 등록', '15회 이상 이용 후 다음 달 환급'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', 'korea-pass.kr 또는 K-패스 앱에서 회원가입'],
+          ['2단계', '참여 카드사 선택 후 K-패스 카드 발급 신청'],
+          ['3단계', '카드 수령 후 교통카드로 등록'],
+          ['4단계', '월 15회 이상 이용 시 다음 달 환급 지급'],
+        ],
+      },
+      box: { label: '주의', content: '기존에 사용하던 카드를 K-패스로 전환하는 것은 불가합니다. K-패스 전용 신규 카드를 발급받아야 합니다.' },
+    },
+    {
+      q: '참여 카드사는 어디어디인가요?',
+      anchor: 'participating-cards',
+      intro: '2026년 기준 K-패스 참여 카드사는 신한카드·우리카드·하나카드·현대카드·BC카드·KB국민카드·DGB유페이 등이 있습니다. 각 카드사는 K-패스 기본 환급 혜택 외에 추가 포인트·할인 혜택을 별도로 제공하기도 합니다. 참여 카드사 목록은 운영 정책에 따라 변경될 수 있으므로 신청 전 korea-pass.kr에서 최신 목록을 확인하세요.',
+      highlights: ['신한·우리·하나·현대·BC·KB·DGB유페이', 'korea-pass.kr에서 최신 목록 확인'],
+      table: {
+        headers: ['카드사', '카드 종류', '비고'],
+        rows: [
+          ['신한카드', 'K-패스 신한카드', '신용·체크 선택'],
+          ['우리카드', 'K-패스 우리카드', '신용·체크 선택'],
+          ['하나카드', 'K-패스 하나카드', '신용·체크 선택'],
+          ['현대카드', 'K-패스 현대카드', '신용·체크 선택'],
+          ['BC카드', 'K-패스 BC카드', '신용·체크 선택'],
+          ['KB국민카드', 'K-패스 KB카드', '신용·체크 선택'],
+          ['DGB유페이', '선불형 K-패스', '선불 충전식'],
+        ],
+      },
+      box: { label: '확인', content: '참여 카드사별 추가 혜택이 다르므로 카드사 홈페이지 또는 korea-pass.kr에서 비교 후 선택하세요.' },
+    },
+    {
+      q: '한 명이 여러 K-패스 카드를 발급받을 수 있나요?',
+      anchor: 'one-per-person',
+      intro: '한 명당 하나의 K-패스 카드만 등록하여 사용할 수 있습니다. 여러 카드사의 K-패스 카드를 동시에 발급받는 것은 가능하지만, 실제 K-패스 혜택(환급)은 등록된 1개의 카드에만 적용됩니다. 카드사를 변경하고 싶다면 기존 K-패스 카드 사용을 해지한 후 새로운 카드사의 K-패스 카드를 신청해야 합니다.',
+      highlights: ['1인 1카드 등록', '카드사 변경 시 기존 해지 후 재신청'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['1인 발급 한도', '복수 카드사 발급 가능하나 등록은 1개만'],
+          ['카드 변경', '기존 카드 해지 후 새 카드 신청'],
+          ['동시 혜택', '등록된 1개 카드에만 환급 적용'],
+        ],
+      },
+      box: { label: '팁', content: '카드사별 혜택을 비교한 후 신중하게 선택하는 것이 좋습니다.' },
+    },
+    {
+      q: '환급은 언제 어떻게 받나요?',
+      anchor: 'refund-method',
+      intro: '전월 이용 실적을 기준으로 다음 달에 카드 청구서 할인 또는 현금 환급 방식으로 지급됩니다. 예를 들어 5월에 K-패스로 15회 이상 버스·지하철을 이용했다면 6월에 환급이 이루어집니다. 카드사마다 환급 방식(청구 할인 또는 현금 입금)과 지급 시점이 다를 수 있으니, 사용하는 카드사의 안내를 확인하세요.',
+      highlights: ['다음 달 환급', '청구 할인 또는 현금 입금', '카드사별 방식 상이'],
+      table: {
+        headers: ['이용 월', '환급 월', '환급 방식'],
+        rows: [
+          ['5월', '6월', '청구 할인 또는 현금 환급 (카드사별 상이)'],
+          ['6월', '7월', '동일'],
+        ],
+      },
+      box: { label: '확인', content: '환급 방식(청구 할인 vs 현금)은 각 카드사 고객센터 또는 korea-pass.kr에서 확인하세요.' },
+    },
+    {
+      q: '지하철, 버스 외에 KTX도 환급 대상인가요?',
+      anchor: 'applicable-transport',
+      intro: 'K-패스 환급은 시내버스·광역버스·지하철(도시철도) 이용에 적용됩니다. KTX·SRT 등 고속철도와 택시는 환급 대상에서 제외됩니다. 공항철도는 적용 여부를 korea-pass.kr에서 확인하세요. 대중교통 환승 시 각 이용 건이 별도로 집계되며, 환급 대상 교통수단을 이용한 건만 횟수에 포함됩니다.',
+      highlights: ['시내버스·지하철 적용', 'KTX·택시 미적용'],
+      table: {
+        headers: ['교통 수단', 'K-패스 환급 적용'],
+        rows: [
+          ['시내버스·광역버스', '적용'],
+          ['지하철(도시철도)', '적용'],
+          ['KTX·SRT', '미적용'],
+          ['택시', '미적용'],
+        ],
+      },
+      box: { label: '확인', content: '지역별 적용 대중교통 범위가 다를 수 있으니 korea-pass.kr에서 최신 정보를 확인하세요.' },
+    },
+    {
+      q: '청년·저소득층 인증은 어떻게 하나요?',
+      anchor: 'type-verification',
+      intro: '청년(만 19~34세) 자격은 korea-pass.kr 회원가입 시 본인 명의 휴대폰 인증으로 생년월일이 자동 확인됩니다. 저소득층(기초생활수급자·차상위계층)은 행정정보 공동이용 동의를 통해 자동 조회되거나, 해당 증빙 서류를 제출해야 합니다. 65세 이상 노인 자격도 본인 인증으로 자동 적용됩니다. 별도 서류 제출이 필요한 경우 korea-pass.kr에서 안내를 확인하세요.',
+      highlights: ['청년: 본인 인증으로 자동 확인', '저소득: 행정정보 조회 또는 서류 제출', '65세 이상: 자동 적용'],
+      table: {
+        headers: ['대상', '확인 방법'],
+        rows: [
+          ['청년(19~34세)', '휴대폰 본인 인증으로 연령 자동 확인'],
+          ['저소득층', '행정정보 공동이용 또는 증빙 서류 제출'],
+          ['65세 이상', '본인 인증으로 자동 적용'],
+        ],
+      },
+      box: { label: '팁', content: '가입 시 행정정보 공동이용 동의를 하면 서류 제출 없이 자동으로 자격이 확인됩니다.' },
+    },
+    {
+      q: 'K-패스 환급률 요약과 신청 시 주의사항은 무엇인가요?',
+      anchor: 'summary-caution',
+      intro: 'K-패스 환급률은 일반 20%, 청년(19~34세) 30%, 65세 이상 30%, 저소득층(기초·차상위) 53.3%입니다. 모두 월 15회 이상 이용 조건과 월 60회 한도가 동일하게 적용됩니다. 신청 시 유의사항으로는 기존 카드 전환 불가(신규 발급 필수), 1인 1카드 등록, 그리고 환급 대상은 버스·지하철이며 KTX·택시는 제외된다는 점입니다.',
+      highlights: ['일반 20%', '청년 30%', '저소득 53.3%', '신규 발급 필수', '버스·지하철만 해당'],
+      table: {
+        headers: ['대상', '환급률', '월 한도'],
+        rows: [
+          ['일반', '20%', '월 60회'],
+          ['청년 (만 19~34세)', '30%', '월 60회'],
+          ['저소득층', '53.3%', '월 60회'],
+          ['65세 이상', '30%', '월 60회'],
+        ],
+      },
+      box: { label: '주의', content: '신청 전 카드사별 추가 혜택을 비교하고, korea-pass.kr에서 최신 참여 카드사 목록을 확인하세요.' },
+    },
+  ],
   faqData: [
     {
       q: 'K-패스 카드는 반드시 신규 발급해야 하나요?',

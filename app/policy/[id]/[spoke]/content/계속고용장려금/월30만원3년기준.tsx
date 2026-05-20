@@ -1,106 +1,101 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          계속고용장려금은 근로자 <strong>1인당 월 30만원</strong>을
-          <strong>최대 3년간</strong> 지원합니다.
-          3년을 모두 채우면 <strong>1인당 총 1,080만원</strong>이 사업주에게 지급됩니다.
-          지원 기간은 최초로 계속 고용된 날부터 최대 3년이며,
-          2020년 1월 1일 이전 계속 고용된 경우 2020년 1월 1일부터 산정합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        계속고용장려금의 지원 기간과 금액을 헷갈리는 경우가 많습니다.
-        아래에서 월별·연도별·최대 누적액을 한눈에 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="amount-table">
-        <h2 className="detail-card-head">지원 기간별 금액 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>기간</th><th>금액</th><th>산정 방식</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>월</strong></td><td>30만원</td><td>근로자 1인당, 일할 계산 적용</td></tr>
-              <tr><td><strong>1년</strong></td><td>360만원</td><td>30만원 × 12개월</td></tr>
-              <tr><td><strong>2년</strong></td><td>720만원</td><td>30만원 × 24개월</td></tr>
-              <tr><td><strong>3년 (최대)</strong></td><td>1,080만원</td><td>30만원 × 36개월</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="period-rules">
-        <h2 className="detail-card-head">지원 기간 산정 규칙</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>시작일:</strong> 근로자가 최초로 계속 고용된 날부터
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>최대 기간:</strong> 근로자 1인당 최대 3년 (36개월)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소급 기준:</strong> 2020년 1월 1일 이전 계속 고용된 경우 → 2020년 1월 1일부터 산정
-          </div>
-          <div className="info-box">
-            <strong>일할 계산:</strong> 월 중간 입사·퇴직 시 일할 계산하여 지급
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply-timing">
-        <h2 className="detail-card-head">신청 방법과 지급 주기</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 주체:</strong> 사업주
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 고용24(work24.go.kr) 또는 관할 고용센터
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>지급 주기:</strong> 분기 단위 신청 후 지급
-          </div>
-          <div className="info-box">
-            <strong>필요 서류:</strong> 취업규칙, 단체협약, 근로자 명단 등
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 자격, 정년 연장·폐지·재고용 차이, 비수도권 우대까지<br />
-            계속고용장려금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-continue-employ" className="btn-cta">
-            고령자 계속고용장려금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 계속고용장려금월30만원3년기준SpokeContent: SpokeData = {
   h1: '월 30만원 최대 3년, 계속고용장려금 지원 기간과 금액 기준',
   breadcrumb: '월30만원3년기준',
-  description:
-    '계속고용장려금 금액: 근로자 1인당 월 30만원, 1년 360만원, 최대 3년 1,080만원. 최초 계속 고용일부터 산정. 2020년 1월 1일 이전 계속 고용 시 2020년 1월 1일부터 기산. 분기 단위 지급.',
+  description: '계속고용장려금 금액: 근로자 1인당 월 30만원, 1년 360만원, 최대 3년 1,080만원. 최초 계속 고용일부터 산정. 2020년 1월 1일 이전 계속 고용 시 2020년 1월 1일부터 기산. 분기 단위 지급.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '월 지원금': '근로자 1인당 월 30만원',
+    '1년 합계': '360만원',
+    '최대 3년 합계': '1,080만원',
+    '지원 기간 시작': '최초 계속 고용일부터',
+    '지급 주기': '분기 단위 신청 후 지급',
+  },
+  keyFactsHighlights: {
+    '월 지원금': ['월 30만원'],
+    '최대 3년 합계': ['1,080만원'],
+  },
+  qa: [
+    {
+      q: '계속고용장려금은 월 얼마를 받나?',
+      anchor: 'monthly',
+      intro: '계속고용장려금은 근로자 1인당 월 30만원이 사업주에게 지급됩니다. 월 중간에 입사·퇴직한 경우 일할 계산합니다. 3년을 모두 채우면 1인당 총 1,080만원이 지급됩니다.',
+      highlights: ['1인당 월 30만원', '일할 계산', '최대 1,080만원'],
+      table: {
+        headers: ['기간', '금액', '산정 방식'],
+        rows: [
+          ['월', '30만원', '근로자 1인당, 일할 계산 적용'],
+          ['1년', '360만원', '30만원 × 12개월'],
+          ['2년', '720만원', '30만원 × 24개월'],
+          ['3년 (최대)', '1,080만원', '30만원 × 36개월'],
+        ],
+      },
+    },
+    {
+      q: '지원 기간은 언제부터 계산하나?',
+      anchor: 'period',
+      intro: '최초로 계속 고용된 날부터 최대 3년입니다. 2020년 1월 1일 이전에 계속 고용된 경우에는 2020년 1월 1일부터 산정합니다. 월 중간 입사·퇴직 시 일할 계산하여 지급합니다.',
+      highlights: ['최초 계속 고용일부터', '최대 3년', '2020년 1월 1일 소급'],
+      box: { label: '기산 기준', content: '2020년 1월 1일 이전 계속 고용: 2020년 1월 1일부터 기산. 이후 계속 고용: 최초 계속 고용일부터.' },
+    },
+    {
+      q: '신청 방법과 지급 주기는 어떻게 되나?',
+      anchor: 'apply',
+      intro: '사업주가 고용24(work24.go.kr) 또는 관할 고용센터에 분기 단위로 신청합니다. 취업규칙, 단체협약, 근로자 명단 등이 필요합니다. 분기 단위로 신청 후 지급받습니다.',
+      highlights: ['고용24 신청', '분기 단위', '취업규칙 필요'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['신청 주체', '사업주'],
+          ['신청처', '고용24(work24.go.kr) 또는 관할 고용센터'],
+          ['지급 주기', '분기 단위 신청 후 지급'],
+          ['필요 서류', '취업규칙, 단체협약, 근로자 명단 등'],
+        ],
+      },
+    },
+    {
+      q: '여러 명 동시에 지원금을 받을 수 있나?',
+      anchor: 'multiple',
+      intro: '네. 계속 고용 요건을 갖춘 근로자 각각에 대해 1인당 월 30만원씩 지원됩니다. 예를 들어 5명을 계속 고용하면 월 150만원이 지급됩니다. 각 근로자별로 최대 3년간 지원받을 수 있습니다.',
+      highlights: ['근로자별 월 30만원', '5명이면 월 150만원', '각각 최대 3년'],
+      box: { label: '예시', content: '계속 고용 근로자 5명: 월 30만원 × 5명 = 월 150만원. 각 근로자별 최대 3년.' },
+    },
+    {
+      q: '비수도권 기업은 추가 혜택이 있나?',
+      anchor: 'rural',
+      intro: '2026년부터 비수도권 기업에 대한 지원이 확대됐습니다. 정확한 우대 내용은 고용노동부 또는 관할 고용센터에서 확인해야 합니다.',
+      highlights: ['비수도권 우대', '2026년 확대'],
+      box: { label: '안내', content: '비수도권 기업 우대 내용: 고용노동부(1350) 또는 관할 고용센터에 문의.' },
+    },
+    {
+      q: '신청 자격이 있는 기업은 어디인가?',
+      anchor: 'eligibility',
+      intro: '우선지원대상기업, 중견기업, 사회적기업이 신청 가능합니다. 대기업과 공기업은 제외됩니다. 계속고용제도 시행일부터 5년 이내에 정년 도달하는 근로자가 대상입니다.',
+      highlights: ['우선지원대상기업', '중견기업', '사회적기업', '대기업 제외'],
+      table: {
+        headers: ['기업 유형', '신청 가능 여부'],
+        rows: [
+          ['우선지원대상기업', '가능'],
+          ['중견기업', '가능'],
+          ['사회적기업', '가능'],
+          ['대기업', '불가'],
+          ['공기업', '불가'],
+        ],
+      },
+    },
+    {
+      q: '일할 계산은 어떻게 하나?',
+      anchor: 'prorated',
+      intro: '월 중간에 계속 고용이 시작되거나 퇴직이 발생한 경우, 해당 월의 실제 근무 일수를 기준으로 일할 계산하여 지급합니다. 예를 들어 16일부터 계속 고용이 시작되면 해당 월은 15~16일분의 비율로 지급됩니다.',
+      highlights: ['실제 근무 일수', '비율 계산'],
+      box: { label: '안내', content: '월 중간 시작·퇴직 시 일할 계산 적용. 정확한 계산은 고용24 또는 고용센터에서 확인.' },
+    },
+  ],
   faqData: [
     {
-      q: '계속고용장려금은 월 얼마를 받나요?',
+      q: '계속고용장려금은 월 얼마나 받나요?',
       a: '근로자 1인당 월 30만원이 사업주에게 지급됩니다. 월 중간에 입사·퇴직한 경우 일할 계산합니다.',
       source: '고용노동부',
       sourceUrl: 'https://www.moel.go.kr',

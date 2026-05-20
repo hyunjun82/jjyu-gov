@@ -1,87 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          주택연금을 해지하면 그동안 받은 <strong>연금 총액과 이자를 전액 상환</strong>해야
-          주택 소유권을 돌려받을 수 있습니다.
-          해지 자체는 가능하지만, <strong>상환 자금이 없으면 주택을 처분</strong>해야 할 수 있어
-          신중한 결정이 필요합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        해지 후 불이익과 단점을 미리 파악해 주택연금 가입 여부를 결정하세요.
-      </p>
-
-      <section className="detail-card" id="termination">
-        <h2 className="detail-card-head">해지 시 핵심 사항</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>해지 가능 여부</strong></td><td>언제든 가능 (본인 신청)</td></tr>
-              <tr><td><strong>상환 금액</strong></td><td>받은 연금 총액 + 대출이자 + 보증료</td></tr>
-              <tr><td><strong>주택 소유권 회복</strong></td><td>상환 완료 후 근저당권 말소 → 소유권 회복</td></tr>
-              <tr><td><strong>상환 불가 시</strong></td><td>주택 임의경매로 상환 처리</td></tr>
-              <tr><td><strong>재가입 가능 여부</strong></td><td>가능 (단 가입 시점의 조건 적용)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="disadvantages">
-        <h2 className="detail-card-head">주택연금의 주요 단점</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>상속 제한:</strong> 사망 후 주택을 상속인에게 남기기 어렵고, 잔여 가치는 차감 후 정산
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>주택 가격 상승 혜택 미반영:</strong> 가입 후 주택 가격이 올라도 수령액 변화 없음
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>리모델링·매각 제한:</strong> 주택 담보 특성상 매각·대규모 공사 시 사전 동의 필요
-          </div>
-          <div className="info-box">
-            <strong>이자 누적:</strong> 장기 수령 시 대출이자가 주택 가치를 초과할 수도 있음 (초과분은 HF가 부담)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="after-death">
-        <h2 className="detail-card-head">사망 후 처리 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>잔여 가치 있을 때:</strong> 주택 처분 → 대출 상환 → 남은 금액 상속인에게 지급
-          </div>
-          <div className="info-box">
-            <strong>잔여 가치 없을 때:</strong> 초과분 HF 부담 (상속인에게 청구 없음)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            가입 조건, 월 수령액, 기초연금 중복 여부까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/home-equity-pension" className="btn-cta">
-            주택연금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 주택연금해지단점주의사항SpokeContent: SpokeData = {
   h1: '주택연금 해지하면 어떻게 되나, 단점과 해지 시 주의사항 총정리',
@@ -89,8 +6,153 @@ export const 주택연금해지단점주의사항SpokeContent: SpokeData = {
   description:
     '주택연금 해지 시 받은 연금 총액+이자 전액 상환 후 소유권 회복. 상환 불가 시 주택 임의경매. 주택 가격 상승 혜택 없음, 상속 제한 등 단점 확인 후 가입 결정 필요.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '해지 가능 여부': '언제든 가능 (본인 신청)',
+    '해지 시 상환': '받은 연금 총액 + 대출이자 + 보증료',
+    '소유권 회복': '상환 완료 후 근저당권 말소',
+    '상환 불가 시': '주택 임의경매로 상환 처리',
+    '재가입 가능': '해지 후 재가입 가능 (시점 조건 적용)',
+  },
+  keyFactsHighlights: {
+    '해지 시 상환': ['받은 연금 총액 + 이자'],
+    '소유권 회복': ['상환 완료 후'],
+    '상환 불가 시': ['임의경매'],
+    '재가입 가능': ['가능'],
+  },
+  qa: [
+    {
+      q: '주택연금을 해지하면 어떻게 되나요?',
+      anchor: 'termination',
+      intro: '주택연금은 언제든지 해지할 수 있습니다. 그러나 해지하려면 그동안 받은 연금 총액과 대출이자, 보증료를 전액 상환해야 합니다. 상환이 완료되면 근저당권이 말소되고 주택 소유권이 완전히 회복됩니다. 상환 자금이 없으면 주택을 처분하여 상환해야 할 수 있습니다.',
+      highlights: ['언제든 해지 가능', '연금 총액+이자 전액 상환', '상환 후 소유권 회복'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['해지 가능 여부', '언제든 가능 (본인 신청)'],
+          ['상환 금액', '받은 연금 총액 + 대출이자 + 보증료'],
+          ['주택 소유권 회복', '상환 완료 후 근저당권 말소 → 소유권 회복'],
+          ['상환 불가 시', '주택 임의경매로 상환 처리'],
+          ['재가입 가능 여부', '가능 (단 가입 시점의 조건 적용)'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '해지 시 상환 자금 없으면 주택 매각 필요. 해지 전 충분히 검토하세요.',
+      },
+    },
+    {
+      q: '주택연금의 주요 단점은 무엇인가요?',
+      anchor: 'disadvantages',
+      intro: '주택연금의 주요 단점으로는 상속 제한, 주택 가격 상승 혜택 미반영, 리모델링·매각 제한, 장기 이자 누적 등이 있습니다. 주택을 자녀에게 상속하고 싶거나, 주택 가격 상승으로 큰 이익을 기대한다면 주택연금이 불리할 수 있습니다.',
+      highlights: ['상속 제한', '가격 상승 혜택 없음', '이자 누적'],
+      table: {
+        headers: ['단점', '내용'],
+        rows: [
+          ['상속 제한', '사망 후 주택을 상속인에게 남기기 어려움, 잔여가치 정산'],
+          ['가격 상승 혜택 없음', '가입 후 주택 가격 올라도 수령액 변화 없음'],
+          ['리모델링·매각 제한', '대규모 공사 시 HF 사전 동의 필요'],
+          ['이자 누적', '장기 수령 시 대출이자가 주택 가치를 초과할 수 있음'],
+        ],
+      },
+      box: {
+        label: '검토 권장',
+        content: '주택 상속을 원하거나 가격 상승 수혜를 기대한다면 주택연금 외 다른 방법도 비교하세요.',
+      },
+    },
+    {
+      q: '사망 후 주택은 어떻게 처리되나요?',
+      anchor: 'after-death',
+      intro: '주택연금 수급자가 사망하면 주택을 처분하여 그동안 지급된 연금(대출금)과 이자를 상환합니다. 잔여 가치가 있으면 상속인에게 지급되고, 주택 가치가 지급된 연금 총액보다 적으면 초과분은 HF가 부담하며 상속인에게 청구하지 않습니다.',
+      highlights: ['주택 처분', '잔여액 상속인 지급', '초과분 HF 부담'],
+      table: {
+        headers: ['상황', '처리'],
+        rows: [
+          ['잔여 가치 있을 때', '주택 처분 → 대출 상환 → 남은 금액 상속인 지급'],
+          ['잔여 가치 없을 때', '초과분 HF 부담 (상속인에게 청구 없음)'],
+        ],
+      },
+      box: {
+        label: '핵심 보장',
+        content: '연금이 주택 가치를 초과해도 상속인에게 추가 청구 없음. HF가 초과분 부담.',
+      },
+    },
+    {
+      q: '해지 후 재가입할 수 있나요?',
+      anchor: 'rejoin',
+      intro: '해지 후 재가입은 가능합니다. 단, 재가입 시점의 연령과 주택 공시가격을 기준으로 새로운 수령액이 산정됩니다. 해지 후 나이가 더 많아졌거나 주택 가격이 변했다면 수령액이 달라질 수 있습니다.',
+      highlights: ['재가입 가능', '재가입 시점 조건 적용', '수령액 변동 가능'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['재가입 가능 여부', '가능'],
+          ['수령액 산정', '재가입 시점 연령·공시가격 기준으로 새로 산정'],
+          ['유리할 수 있는 경우', '나이 증가로 수령액 증가'],
+          ['불리할 수 있는 경우', '주택 공시가격 하락으로 수령액 감소'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '재가입 시 수령액이 이전보다 유리하거나 불리할 수 있습니다. HF에 사전 시뮬레이션 요청.',
+      },
+    },
+    {
+      q: '이자는 매달 내야 하나요?',
+      anchor: 'interest',
+      intro: '주택연금은 이자를 매달 납부하지 않습니다. 이자는 누적되어 해지하거나 수급자가 사망할 때 주택 처분 후 정산됩니다. 장기간 수령하면 누적 이자가 상당히 커질 수 있으며, 주택 가치를 초과하면 초과분은 HF가 부담합니다.',
+      highlights: ['이자 매달 납부 없음', '해지·사망 시 정산', 'HF 초과 부담'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['이자 납부 시점', '해지 또는 사망 시 정산'],
+          ['이자 누적', '수령 기간이 길수록 누적 이자 증가'],
+          ['초과분 처리', 'HF가 부담 (상속인 청구 없음)'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '이자를 매달 내지 않아도 됩니다. 이자는 해지 또는 사망 시 일괄 정산.',
+      },
+    },
+    {
+      q: '리모델링이나 매각이 제한되나요?',
+      anchor: 'restrictions',
+      intro: '주택연금 가입 주택은 담보로 설정되어 있어 대규모 공사(구조 변경 등)나 매각 시 HF의 사전 동의가 필요합니다. 소규모 수선은 가능하지만, 임의로 매각하거나 담보를 훼손하면 기한이익상실 사유가 될 수 있습니다.',
+      highlights: ['대규모 공사 HF 동의 필요', '임의 매각 불가', '소규모 수선 가능'],
+      table: {
+        headers: ['행위', '가능 여부'],
+        rows: [
+          ['소규모 수선 (인테리어 등)', '가능'],
+          ['대규모 구조 변경', 'HF 사전 동의 필요'],
+          ['임의 매각', '불가 (HF 동의 필수)'],
+          ['담보 훼손', '기한이익상실 사유'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '대규모 공사나 매각 시 반드시 HF(1688-8114)에 사전 문의.',
+      },
+    },
+    {
+      q: '주택연금 가입 전 꼭 확인해야 할 것은?',
+      anchor: 'checklist',
+      intro: '주택연금 가입 전에 기초연금 영향(국민연금공단 1355 시뮬레이션), 상속 계획(자녀에게 주택 상속 의사 유무), 주택 가격 전망, 해지 시 상환 능력, 배우자 보호 여부 등을 충분히 검토해야 합니다. HF 콜센터(1688-8114) 또는 HF 지사를 방문하여 전문 상담을 받는 것이 좋습니다.',
+      highlights: ['기초연금 영향', '상속 계획', '해지 상환 능력', 'HF 상담'],
+      table: {
+        headers: ['확인 항목', '확인 기관'],
+        rows: [
+          ['기초연금 영향', '국민연금공단 1355'],
+          ['수령액 시뮬레이션', 'HF 홈페이지 hf.go.kr 또는 1688-8114'],
+          ['상속·세금 문제', '세무사 또는 법무사 상담'],
+          ['배우자 보호', 'HF 지사 방문 상담'],
+        ],
+      },
+      box: {
+        label: '상담',
+        content: '가입 전 HF 콜센터(1688-8114) 또는 지사 방문 상담 권장.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '해지 후 다시 주택연금에 가입할 수 있나요?',

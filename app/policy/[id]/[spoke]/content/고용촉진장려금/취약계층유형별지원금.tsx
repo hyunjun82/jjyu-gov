@@ -1,101 +1,106 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          고용촉진장려금은 취약계층 근로자 <strong>1인당 최대 720만원</strong>이
-          사업주에게 지급됩니다.
-          <strong>6개월 근속 시 360만원</strong>, <strong>12개월 근속 시 360만원</strong>
-          두 차례로 나뉘어 지급됩니다.
-          대상이 되는 취약계층은 장애인·고령자·여성가장·취업지원 참여자 등입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        취약계층 유형별로 지원 대상 조건을 확인하고, 채용 계획에 맞는 장려금 수령액을 계산해 보세요.
-      </p>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">지원 금액 구조</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>시점</th><th>지급액</th><th>조건</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>6개월 근속</strong></td><td>360만원</td><td>1차 지급</td></tr>
-              <tr><td><strong>12개월 근속</strong></td><td>360만원</td><td>2차 지급</td></tr>
-              <tr><td><strong>1년 합계</strong></td><td>720만원</td><td>1인당 최대</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="target-types">
-        <h2 className="detail-card-head">취약계층 유형별 대상 조건</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>유형</th><th>조건</th><th>확인 서류</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>장애인</strong></td><td>등록 장애인</td><td>장애인 등록증</td></tr>
-              <tr><td><strong>고령자</strong></td><td>만 55세 이상</td><td>주민등록증</td></tr>
-              <tr><td><strong>여성가장</strong></td><td>한부모 등</td><td>한부모가족 증명서</td></tr>
-              <tr><td><strong>취업성공패키지</strong></td><td>참여자</td><td>참여증</td></tr>
-              <tr><td><strong>국민취업지원제도</strong></td><td>참여자</td><td>참여 증빙</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="conditions">
-        <h2 className="detail-card-head">근로 조건 — 이것을 충족해야 지급</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>근로시간:</strong> 주 30시간 이상
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>고용 형태:</strong> 정규직 또는 무기 계약직
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>4대 보험:</strong> 가입 필수
-          </div>
-          <div className="info-box">
-            <strong>제외:</strong> 단기 계약직, 주 30시간 미만 시간제, 일용직
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            사전 신청 방법, 중도 퇴사 처리, 다른 장려금과 중복 여부까지<br />
-            고용촉진장려금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/employment-promotion" className="btn-cta">
-            고용촉진장려금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 고용촉진장려금취약계층유형별지원금SpokeContent: SpokeData = {
   h1: '고용촉진장려금 지원 대상과 금액, 취약계층 유형별 1인당 얼마나 나오나',
   breadcrumb: '취약계층유형별지원금',
-  description:
-    '고용촉진장려금: 취약계층 1인당 최대 720만원(6개월 360만원+12개월 360만원). 대상: 장애인, 고령자(55세+), 여성가장, 취업성공패키지·국민취업지원제도 참여자. 주 30시간 이상 정규직 필수.',
+  description: '고용촉진장려금: 취약계층 1인당 최대 720만원(6개월 360만원+12개월 360만원). 대상: 장애인, 고령자(55세+), 여성가장, 취업성공패키지·국민취업지원제도 참여자. 주 30시간 이상 정규직 필수.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '1차 지급': '6개월 근속 시 360만원',
+    '2차 지급': '12개월 근속 시 360만원',
+    '1년 합계': '최대 720만원',
+    '근로 조건': '주 30시간 이상 정규직',
+    '대기업': '신청 불가',
+  },
+  keyFactsHighlights: {
+    '1년 합계': ['720만원'],
+    '대기업': ['신청 불가'],
+  },
+  qa: [
+    {
+      q: '지원 금액 구조는 어떻게 되나?',
+      anchor: 'amount',
+      intro: '고용촉진장려금은 취약계층 근로자 1인당 최대 720만원이 사업주에게 지급됩니다. 6개월 근속 시 360만원, 12개월 근속 시 360만원 두 차례로 나뉘어 지급됩니다.',
+      highlights: ['6개월 후 360만원', '12개월 후 360만원', '총 720만원'],
+      table: {
+        headers: ['시점', '지급액', '조건'],
+        rows: [
+          ['6개월 근속', '360만원', '1차 지급'],
+          ['12개월 근속', '360만원', '2차 지급'],
+          ['1년 합계', '720만원', '1인당 최대'],
+        ],
+      },
+    },
+    {
+      q: '취약계층 유형별 대상 조건은?',
+      anchor: 'target-types',
+      intro: '장애인(등록장애인), 고령자(만 55세 이상), 여성가장(한부모 등), 취업성공패키지 참여자, 국민취업지원제도 참여자가 해당합니다.',
+      highlights: ['등록장애인', '만 55세 이상', '여성가장', '취업지원 참여자'],
+      table: {
+        headers: ['유형', '조건', '확인 서류'],
+        rows: [
+          ['장애인', '등록 장애인', '장애인 등록증'],
+          ['고령자', '만 55세 이상', '주민등록증'],
+          ['여성가장', '한부모 등', '한부모가족 증명서'],
+          ['취업성공패키지', '참여자', '참여증'],
+          ['국민취업지원제도', '참여자', '참여 증빙'],
+        ],
+      },
+    },
+    {
+      q: '근로 조건은 무엇을 충족해야 하나?',
+      anchor: 'conditions',
+      intro: '취약계층 근로자를 주 30시간 이상 정규직 또는 무기 계약직으로 채용해야 합니다. 4대 보험 가입이 필수이며, 단기 계약직이나 주 30시간 미만 시간제, 일용직은 제외됩니다.',
+      highlights: ['주 30시간 이상', '정규직·무기계약직', '4대보험 가입 필수'],
+      table: {
+        headers: ['조건', '내용'],
+        rows: [
+          ['근로시간', '주 30시간 이상'],
+          ['고용 형태', '정규직 또는 무기 계약직'],
+          ['4대 보험', '가입 필수'],
+          ['제외', '단기 계약직, 주 30시간 미만 시간제, 일용직'],
+        ],
+      },
+    },
+    {
+      q: '여러 명 취약계층을 채용하면 여러 명 분 장려금을 받나?',
+      anchor: 'multiple',
+      intro: '네. 각 취약계층 근로자마다 1인당 최대 720만원씩 지급됩니다. 예를 들어 취약계층 3명을 채용하면 최대 2,160만원을 받을 수 있습니다.',
+      highlights: ['1인당 최대 720만원', '3명이면 2,160만원'],
+      box: { label: '예시', content: '취약계층 3명 채용: 720만원 × 3명 = 최대 2,160만원. 각 근로자 6개월·12개월 근속 조건 충족 필요.' },
+    },
+    {
+      q: '대기업도 신청할 수 있나?',
+      anchor: 'large-company',
+      intro: '아니요. 우선지원대상기업, 중견기업, 사회적기업만 신청 가능합니다. 대기업은 제외됩니다.',
+      highlights: ['우선지원대상기업', '중견기업', '사회적기업', '대기업 제외'],
+      table: {
+        headers: ['기업 유형', '신청 가능'],
+        rows: [
+          ['우선지원대상기업', '가능'],
+          ['중견기업', '가능'],
+          ['사회적기업', '가능'],
+          ['대기업', '불가'],
+          ['공기업', '불가'],
+        ],
+      },
+    },
+    {
+      q: '6개월 전 퇴사하면 장려금이 환수되나?',
+      anchor: 'early-exit',
+      intro: '6개월 미만 퇴사 시 1차 지급 전이므로 장려금이 전혀 지급되지 않습니다. 이미 받은 장려금은 환수되지 않으며, 6개월 이상 12개월 미만 퇴사 시에는 1차분(360만원)만 받을 수 있습니다.',
+      highlights: ['6개월 미만 무지급', '6~12개월 1차만', '기지급분 환수 없음'],
+      box: { label: '안내', content: '6개월 미만 퇴사: 장려금 0원. 6개월 이상 12개월 미만 퇴사: 1차(360만원)만. 12개월 이상: 720만원.' },
+    },
+    {
+      q: '신청은 어디서 하나?',
+      anchor: 'apply',
+      intro: '고용24(work24.go.kr)에서 온라인으로 신청하거나 관할 고용센터를 방문하면 됩니다. 반드시 채용 전에 사전 신청해야 합니다. 사전 상담은 1350 콜센터에서 받을 수 있습니다.',
+      highlights: ['고용24 온라인', '채용 전 사전 신청 필수', '1350 상담'],
+      box: { label: '신청처', content: '고용24(work24.go.kr) / 관할 고용센터. 사전 상담: 1350. 반드시 채용 전 사전 신청.' },
+    },
+  ],
   faqData: [
     {
       q: '고용촉진장려금은 1인당 얼마나 받나요?',

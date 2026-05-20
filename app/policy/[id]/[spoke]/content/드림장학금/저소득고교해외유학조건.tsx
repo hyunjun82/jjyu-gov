@@ -1,91 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          드림장학금(우수고등학생 해외유학 장학금)은
-          <strong>저소득층 고등학교 2~3학년</strong> 성적 우수 학생에게
-          해외유학 기회를 지원하는 교육부 사업입니다.
-          선발되면 <strong>월 50~70만원의 학업장려비</strong>와
-          개인별 1:1 멘토링, 해외 대사관 협업 유학 설명회 참석 기회가 제공됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        경제적 여건 때문에 해외유학을 포기했다면 드림장학금을 확인하세요.
-        저소득 가정의 우수 고등학생에게 실질적인 해외유학 경로를 열어주는 제도입니다.
-      </p>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">지원 조건</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>대상 학년</strong></td><td>고등학교 2~3학년</td></tr>
-              <tr><td><strong>소득 기준</strong></td><td>신청일 기준 기초생활수급자 또는 차상위계층</td></tr>
-              <tr><td><strong>학업 기준</strong></td><td>성적 우수 + 학업 의지·열정 보유</td></tr>
-              <tr><td><strong>주관</strong></td><td>교육부·한국장학재단</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="support">
-        <h2 className="detail-card-head">지원 내용</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>학업장려비:</strong> 월 50~70만원 지급
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>멘토링:</strong> 개인별 1:1 맞춤 멘토 연결
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>유학 정보:</strong> 대사관 협업 유학 설명회 참석 기회
-          </div>
-          <div className="info-box">
-            <strong>유학 상담:</strong> 맞춤형 해외유학 진로 상담
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 안내</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 한국장학재단 누리집(kosaf.go.kr)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 시기:</strong> 매년 3~4월 공고 (연 1회)
-          </div>
-          <div className="info-box">
-            <strong>서류:</strong> 성적 증명서, 소득 증명서, 자기소개서 등
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            드림장학금 신청 자격, 학업장려비 금액, 멘토링 안내까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/dream-scholarship" className="btn-cta">
-            드림장학금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 드림장학금저소득고교해외유학조건SpokeContent: SpokeData = {
   h1: '드림장학금, 저소득 고등학생이 해외유학을 갈 수 있는 조건과 지원 내용',
@@ -93,18 +6,88 @@ export const 드림장학금저소득고교해외유학조건SpokeContent: Spoke
   description:
     '드림장학금: 저소득(기초·차상위) 고2~3 성적 우수 학생 대상. 월 50~70만원 학업장려비 + 1:1 멘토링 + 대사관 협업 유학 설명회. 한국장학재단 매년 3~4월 공고. 해외유학 기회 지원.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '지원 목적': '저소득층 고등학생 해외유학 기회 제공',
+    '대상': '기초·차상위 고2~3 성적 우수 학생',
+    '학업장려비': '월 50~70만원',
+    '추가 지원': '1:1 멘토링, 대사관 협업 유학 설명회',
+    '신청': '한국장학재단 kosaf.go.kr 매년 3~4월',
+  },
+  keyFactsHighlights: {
+    '학업장려비': ['월 50~70만원'],
+    '지원 목적': ['해외유학'],
+  },
+  qa: [
+    {
+      q: '드림장학금은 어떤 학생이 받을 수 있나요?',
+      anchor: '대상학생',
+      intro: '드림장학금(우수고등학생 해외유학 장학금)은 저소득층 고등학교 2~3학년 성적 우수 학생에게 해외유학 기회를 지원하는 교육부 사업입니다. 기초생활수급자 또는 차상위계층 가정의 고2~3 학생 중 성적이 우수하고 학업 의지·열정이 있는 학생이 대상입니다.',
+      highlights: ['저소득층 고2~3', '기초·차상위', '성적 우수', '해외유학'],
+      table: {
+        headers: ['항목', '기준'],
+        rows: [
+          ['대상 학년', '고등학교 2~3학년'],
+          ['소득 기준', '신청일 기준 기초생활수급자 또는 차상위계층'],
+          ['학업 기준', '성적 우수 + 학업 의지·열정 보유'],
+          ['주관', '교육부·한국장학재단'],
+        ],
+      },
+      box: { label: '대상', content: '기초·차상위 고2~3 성적 우수 학생. 해외유학 목표 있는 학생에게 적합.' },
+    },
+    {
+      q: '매달 얼마를 받나요?',
+      anchor: '학업장려비금액',
+      intro: '선발되면 월 50~70만원의 학업장려비가 지급됩니다. 정확한 금액은 해당 연도 공고에서 확인하세요. 현금으로 지급되며 해외유학 준비, 어학 학습, 생활비 등에 활용할 수 있습니다.',
+      highlights: ['월 50~70만원', '현금 지급', '해당 연도 공고 확인'],
+      box: { label: '금액', content: '월 50~70만원 현금 지급. 정확한 금액은 kosaf.go.kr 공고 확인.' },
+    },
+    {
+      q: '해외 대사관 협업 유학 설명회는 어떤 내용인가요?',
+      anchor: '유학설명회',
+      intro: '드림장학금 장학생은 해외 대사관과 협업한 유학 설명회에 참석할 기회를 얻습니다. 미국, 영국, 캐나다 등 주요 유학 대상국의 입학 요건, 장학금 정보, 현지 생활 등을 안내받을 수 있습니다. 유학을 처음 준비하는 저소득층 학생에게 실질적인 정보를 제공하는 비현금 지원입니다.',
+      highlights: ['대사관 협업', '유학 정보 제공', '비현금 지원'],
+      box: { label: '유학 설명회', content: '해외 대사관 협업 유학 설명회 참석 기회. 입학 요건·장학금·현지 생활 안내.' },
+    },
+    {
+      q: '고등학교 1학년도 신청할 수 있나요?',
+      anchor: '고1신청',
+      intro: '드림장학금 대상은 고등학교 2~3학년입니다. 고1은 대상에 해당하지 않습니다. 고1 학생은 다음 해에 고2가 되면 신청하거나, 꿈사다리 장학금을 신청해 볼 수 있습니다.',
+      highlights: ['고2~3만 대상', '고1 해당 없음'],
+      box: { label: '학년 기준', content: '고2·고3만 대상. 고1은 내년 고2가 되면 신청 가능.' },
+    },
+    {
+      q: '해외유학을 가지 않아도 학업장려비를 받을 수 있나요?',
+      anchor: '유학안가도',
+      intro: '드림장학금은 해외유학을 준비하는 저소득 우수 학생을 지원하는 제도입니다. 학업장려비를 수령하면서 해외유학 준비를 진행합니다. 실제 유학 여부와 학업장려비 수령 조건의 관계는 해당 연도 공고를 확인하세요.',
+      highlights: ['유학 준비 지원', '공고 확인 필요'],
+      box: { label: '안내', content: '해외유학 준비 목적의 장학금. 수령 조건과 실제 유학 여부 관계는 공고 확인.' },
+    },
+    {
+      q: '신청은 어디서 하나요?',
+      anchor: '신청처',
+      intro: '한국장학재단 누리집(kosaf.go.kr)에서 신청합니다. 매년 3~4월경 공고가 나므로 공고를 주의 깊게 확인하세요. 필요 서류는 성적 증명서, 소득 증명서(수급자 또는 차상위 확인서), 자기소개서 등입니다.',
+      highlights: ['kosaf.go.kr', '매년 3~4월', '성적·소득 증명서'],
+      box: { label: '신청', content: 'kosaf.go.kr → 매년 3~4월 공고 확인 → 온라인 신청. 성적·소득 증명서 지참.' },
+    },
+    {
+      q: '드림장학금 외에 해외유학을 위한 다른 지원도 있나요?',
+      anchor: '다른지원',
+      intro: '드림장학금 외에도 한국장학재단의 국가우수장학금(이공계), 글로벌코리아장학금 등 해외 유학 관련 장학금이 있습니다. 또한 각 대학에서 제공하는 해외 교환학생 프로그램, 정부 초청 장학금 등도 활용할 수 있습니다. kosaf.go.kr에서 다양한 장학금 정보를 검색해 보세요.',
+      highlights: ['다양한 장학금', '글로벌코리아장학금', 'kosaf.go.kr 검색'],
+      box: { label: '기타 장학금', content: '한국장학재단 kosaf.go.kr에서 다양한 유학 장학금 정보 검색 가능.' },
+    },
+  ],
   faqData: [
     {
       q: '드림장학금은 어떤 학생이 받을 수 있나요?',
-      a: '기초생활수급자 또는 차상위계층 가정의 고등학교 2~3학년 성적 우수 학생이 대상입니다. 학업 의지와 열정도 평가에 반영됩니다.',
+      a: '기초생활수급자 또는 차상위계층 가정의 고등학교 2~3학년 성적 우수 학생이 대상입니다.',
       source: '교육부·한국장학재단',
       sourceUrl: 'https://www.kosaf.go.kr',
     },
     {
       q: '매달 얼마를 받나요?',
-      a: '선발되면 월 50~70만원의 학업장려비가 지급됩니다. 정확한 금액은 해당 연도 공고에서 확인하세요.',
+      a: '선발되면 월 50~70만원의 학업장려비가 지급됩니다.',
       source: '교육부·한국장학재단',
       sourceUrl: 'https://www.kosaf.go.kr',
     },
@@ -116,7 +99,7 @@ export const 드림장학금저소득고교해외유학조건SpokeContent: Spoke
     },
     {
       q: '해외유학을 가지 않아도 학업장려비를 받을 수 있나요?',
-      a: '드림장학금은 해외유학을 준비하는 저소득 우수 학생을 지원하는 제도입니다. 학업장려비를 수령하면서 해외유학 준비를 진행합니다. 자세한 사항은 공고를 확인하세요.',
+      a: '드림장학금은 해외유학을 준비하는 저소득 우수 학생을 지원하는 제도입니다. 자세한 사항은 공고를 확인하세요.',
       source: '교육부·한국장학재단',
       sourceUrl: 'https://www.kosaf.go.kr',
     },

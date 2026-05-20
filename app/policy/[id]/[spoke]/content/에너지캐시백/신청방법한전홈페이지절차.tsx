@@ -1,136 +1,133 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          에너지캐시백은 <strong>에너지캐시백 공식 홈페이지(en-ter.co.kr)</strong> 온라인 신청 또는
-          <strong>가까운 한전 지사 방문</strong>으로 신청할 수 있습니다.
-          신청일이 속하는 달부터 바로 적용되며, 별도 서류 없이 회원가입 후 온라인으로 5분 안에 완료됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        신청 후에는 직전 2개년 평균 전기 사용량 대비 3% 이상 절감하면 캐시백이 자동으로 계산되어
-        다음 달 전기요금에서 차감됩니다. 한전ON 앱에서도 신청 및 절감 현황 확인이 가능합니다.
-      </p>
-
-      <section className="detail-card" id="steps">
-        <h2 className="detail-card-head">온라인 신청 절차 5단계</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>내용</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1단계</strong></td><td>사이트 접속</td><td>en-ter.co.kr/ec/main/main.do</td></tr>
-              <tr><td><strong>2단계</strong></td><td>회원가입 또는 로그인</td><td>한전통합회원 계정 사용 가능</td></tr>
-              <tr><td><strong>3단계</strong></td><td>에너지캐시백 신청 클릭</td><td>상단 메뉴 → 에너지캐시백 신청</td></tr>
-              <tr><td><strong>4단계</strong></td><td>주소 확인 + 동의</td><td>주민등록 주소 자동 확인, 필수 약관 동의</td></tr>
-              <tr><td><strong>5단계</strong></td><td>신청 완료</td><td>당월부터 절감량 자동 집계 시작</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="channels">
-        <h2 className="detail-card-head">신청 채널 비교</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인 홈페이지:</strong> en-ter.co.kr/ec/main/main.do — 가장 빠르고 간편
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>한전ON 앱:</strong> 모바일 앱에서도 신청·절감 현황 확인 가능
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>한전 지사 방문:</strong> 신분증 지참 후 가까운 한전 지사에서 신청
-          </div>
-          <div className="info-box">
-            <strong>신청 시기:</strong> 연중 상시 신청 가능 (신청 당월부터 적용)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="after">
-        <h2 className="detail-card-head">신청 후 확인 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>실시간 절감 현황:</strong> en-ter.co.kr 로그인 → 나의 캐시백 조회
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>캐시백 예상 금액:</strong> 월별 절감률·절감량 확인 후 예상 캐시백 계산
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>지급 확인:</strong> 전기요금 청구서 캐시백 차감 내역 확인
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> 한국전력 고객센터 ☎123
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            캐시백 금액 계산, 신청 자격, 에너지바우처 비교까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/energy-cashback" className="btn-cta">
-            에너지캐시백 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 에너지캐시백신청방법한전홈페이지절차SpokeContent: SpokeData = {
   h1: '에너지캐시백 신청 방법, 한전 홈페이지 en-ter.co.kr 5단계 절차',
-  breadcrumb: '신청방법한전홈페이지절차',
+  breadcrumb: '에너지캐시백 > 신청방법한전홈페이지절차',
   description:
     '에너지캐시백 신청: en-ter.co.kr/ec/main/main.do 접속 → 회원가입 → 신청 → 당월부터 적용. 한전ON 앱·한전 지사 방문 신청도 가능. 연중 상시 신청. 신청 후 실시간 절감 현황 확인.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '온라인 신청': 'en-ter.co.kr/ec/main/main.do',
+    '앱 신청': '한전ON 앱에서도 신청 가능',
+    '방문 신청': '가까운 한전 지사 방문',
+    '신청 시기': '연중 상시 (신청 당월부터 적용)',
+    '확인': '실시간 절감 현황 en-ter.co.kr 로그인 후 조회',
+  },
+  keyFactsHighlights: {
+    '온라인 신청': ['en-ter.co.kr'],
+    '신청 시기': ['연중 상시', '당월부터 적용'],
+  },
+  qa: [
+    {
+      q: '에너지캐시백 온라인 신청은 어떻게 하나요?',
+      anchor: 'online-apply',
+      intro: '에너지캐시백 온라인 신청은 en-ter.co.kr/ec/main/main.do에 접속하여 5단계로 완료됩니다. 먼저 사이트에 접속한 뒤 회원가입 또는 로그인을 합니다. 상단 메뉴에서 에너지캐시백 신청을 클릭하고, 주소를 확인한 뒤 필수 약관에 동의합니다. 신청 완료 후 당월부터 절감량 집계가 시작됩니다. 한전통합회원 계정이 있으면 별도 가입 없이 바로 로그인할 수 있습니다.',
+      highlights: ['en-ter.co.kr에서 5단계 완료', '당월부터 즉시 적용', '한전 통합회원 계정 사용 가능'],
+      table: {
+        headers: ['단계', '내용', '비고'],
+        rows: [
+          ['1단계', '사이트 접속', 'en-ter.co.kr/ec/main/main.do'],
+          ['2단계', '회원가입 또는 로그인', '한전통합회원 계정 사용 가능'],
+          ['3단계', '에너지캐시백 신청 클릭', '상단 메뉴 → 에너지캐시백 신청'],
+          ['4단계', '주소 확인 + 동의', '주민등록 주소 자동 확인, 필수 약관 동의'],
+          ['5단계', '신청 완료', '당월부터 절감량 자동 집계 시작'],
+        ],
+      },
+      box: { label: '팁', content: '신청은 약 5분 내에 완료됩니다. 별도 서류 제출 없이 온라인으로만 신청 가능합니다.' },
+    },
+    {
+      q: '한전ON 앱으로도 신청할 수 있나요?',
+      anchor: 'app-apply',
+      intro: '한전ON 앱에서도 에너지캐시백 신청이 가능합니다. 앱 내 에너지캐시백 메뉴를 통해 신청할 수 있으며, 절감 현황도 실시간으로 앱에서 확인할 수 있습니다. 한전ON 앱과 en-ter.co.kr 홈페이지 신청 결과는 동일합니다. 모바일 환경에서 더 편리하게 이용하려면 한전ON 앱을 활용하세요.',
+      highlights: ['한전ON 앱에서 신청 가능', '절감 현황 앱 실시간 확인', '홈페이지와 동일 결과'],
+      box: { label: '앱 설치', content: '한전ON 앱은 앱스토어(iOS) 또는 구글 플레이(Android)에서 무료로 다운로드할 수 있습니다.' },
+    },
+    {
+      q: '한전 지사 방문으로도 신청할 수 있나요?',
+      anchor: 'visit-apply',
+      intro: '온라인 신청이 어려운 경우 가까운 한국전력 지사를 방문해 신청할 수 있습니다. 방문 시 신분증을 지참하면 됩니다. 한전 지사 위치는 한국전력 홈페이지(kepco.co.kr) 또는 ☎123에서 확인할 수 있습니다.',
+      highlights: ['한전 지사 방문 신청 가능', '신분증 지참 필요', '☎123으로 지사 위치 확인'],
+      box: { label: '지사 찾기', content: '한국전력 홈페이지(kepco.co.kr) 또는 고객센터 ☎123에서 가까운 지사 위치를 확인하세요.' },
+    },
+    {
+      q: '신청하면 얼마나 빨리 적용되나요?',
+      anchor: 'apply-timing',
+      intro: '에너지캐시백은 신청일이 속하는 달부터 즉시 적용됩니다. 예를 들어 5월에 신청하면 5월 사용량부터 직전 2개년 평균과 비교해 절감량이 집계됩니다. 캐시백은 절감이 확인된 다음 달 전기요금에서 자동으로 차감됩니다.',
+      highlights: ['신청 당월부터 적용', '다음 달 전기요금에서 자동 차감', '별도 청구 불필요'],
+      table: {
+        headers: ['시점', '내용'],
+        rows: [
+          ['신청 당월', '절감량 집계 시작'],
+          ['다음 달', '캐시백 금액 전기요금에서 자동 차감'],
+        ],
+      },
+      box: { label: '예시', content: '5월 신청 → 5월 사용량부터 집계 → 6월 전기요금에서 캐시백 차감.' },
+    },
+    {
+      q: '이사를 가면 재신청해야 하나요?',
+      anchor: 'move-reapply',
+      intro: '이사 후 새 주소지에서 다시 신청해야 합니다. 새 주소지의 직전 2개년 사용 이력을 기준으로 새로 산정되며, 이전 주소지의 실적은 인계되지 않습니다. en-ter.co.kr에서 신청 취소 후 새 주소지로 재신청하면 됩니다.',
+      highlights: ['이사 후 새 주소지로 재신청 필요', '이전 주소지 실적 인계 안 됨', 'en-ter.co.kr에서 취소 후 재신청'],
+      box: { label: '이사 시 절차', content: '① en-ter.co.kr에서 기존 신청 취소 → ② 이사 완료 후 새 주소지로 재신청' },
+    },
+    {
+      q: '신청 후 절감 현황은 어떻게 확인하나요?',
+      anchor: 'check-progress',
+      intro: '신청 후 절감 현황은 en-ter.co.kr에 로그인하여 '나의 캐시백' 메뉴에서 확인할 수 있습니다. 월별 절감률·절감량과 예상 캐시백 금액을 실시간으로 볼 수 있습니다. 한전ON 앱에서도 동일하게 확인할 수 있습니다. 전기요금 청구서의 캐시백 차감 내역도 확인하세요.',
+      highlights: ['en-ter.co.kr 나의 캐시백 메뉴', '월별 절감률·금액 실시간 확인', '전기요금 청구서에서도 확인'],
+      table: {
+        headers: ['확인 방법', '경로'],
+        rows: [
+          ['홈페이지', 'en-ter.co.kr 로그인 → 나의 캐시백 조회'],
+          ['앱', '한전ON 앱 → 에너지캐시백 현황'],
+          ['청구서', '전기요금 청구서 캐시백 차감 내역'],
+        ],
+      },
+      box: { label: '문의', content: '에너지캐시백 관련 문의는 한국전력 고객센터 ☎123으로 하세요.' },
+    },
+    {
+      q: '신청 취소도 가능한가요?',
+      anchor: 'cancel',
+      intro: 'en-ter.co.kr 홈페이지에 로그인한 후 신청 취소가 가능합니다. 취소 후에는 절감량 집계가 중단되며, 재신청 시 신청일 기준으로 다시 적용됩니다. 이사 시에도 기존 신청을 취소한 뒤 새 주소지로 재신청해야 합니다.',
+      highlights: ['en-ter.co.kr에서 취소 가능', '취소 후 집계 중단', '재신청 시 새 기준으로 적용'],
+      box: { label: '취소 절차', content: 'en-ter.co.kr 로그인 → 나의 캐시백 → 신청 취소. 취소 후 재신청 시 신청일부터 다시 집계.' },
+    },
+  ],
   faqData: [
     {
       q: '신청하면 얼마나 빨리 적용되나요?',
-      a: '신청일이 속하는 달부터 즉시 적용됩니다. 예를 들어 5월에 신청하면 5월 사용량부터 직전 2개년 평균과 비교해 절감량이 집계됩니다.',
+      a: '신청일이 속하는 달부터 즉시 적용됩니다. 5월 신청 시 5월 사용량부터 집계됩니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/main/main.do',
     },
     {
       q: '한전ON 앱으로 신청하면 홈페이지와 동일한가요?',
-      a: '네. 한전ON 앱과 en-ter.co.kr 모두 동일한 에너지캐시백 신청이며, 절감 현황도 앱에서 실시간으로 확인할 수 있습니다.',
+      a: '네. 동일한 에너지캐시백 신청이며, 절감 현황도 앱에서 실시간 확인 가능합니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/main/main.do',
     },
     {
       q: '이사를 가면 재신청해야 하나요?',
-      a: '네. 이사 후 새 주소지에서 다시 신청해야 합니다. 새 주소지의 직전 2개년 사용 이력을 기준으로 새로 산정되며, 이전 주소지의 실적은 인계되지 않습니다.',
+      a: '네. 이사 후 새 주소지에서 다시 신청해야 합니다. 이전 주소지의 실적은 인계되지 않습니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/main/main.do',
     },
     {
       q: '신청 취소도 가능한가요?',
-      a: '네. en-ter.co.kr 홈페이지 로그인 후 신청 취소가 가능합니다. 취소 후에는 절감량 집계가 중단되며, 재신청 시 신청일 기준으로 다시 적용됩니다.',
+      a: 'en-ter.co.kr 홈페이지 로그인 후 신청 취소가 가능합니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/main/main.do',
     },
     {
       q: '세입자도 신청할 수 있나요?',
-      a: '네. 신청 주소지에 주민등록이 되어 있으면 세입자도 신청 가능합니다. 임대인(집주인)이 아닌 실제 거주하며 전기요금을 내는 사람이 신청하면 됩니다.',
+      a: '신청 주소지에 주민등록이 되어 있으면 세입자도 신청 가능합니다.',
       source: '한국전력공사 에너지캐시백',
       sourceUrl: 'https://en-ter.co.kr/ec/main/main.do',
     },
   ],
   sources: [
     { name: '한국전력공사 에너지캐시백 공식 사이트', url: 'https://en-ter.co.kr/ec/main/main.do' },
-    { name: '정책브리핑 에너지캐시백 신청기', url: 'https://www.korea.kr/news/reporterView.do?newsId=148916204' },
+    { name: '정책브리핑 에너지캐시백', url: 'https://www.korea.kr/news/reporterView.do?newsId=148916204' },
   ],
 };

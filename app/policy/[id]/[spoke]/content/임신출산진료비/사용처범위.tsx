@@ -1,106 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          국민행복카드는 건강보험이 적용되는 <strong>모든 요양기관(병원·의원·한방 의료기관·조산원)과 약국</strong>에서 사용할 수 있습니다.
-          비급여 항목(산전 비급여 검사 등)에도 일부 사용 가능하지만, 일반 마트·쇼핑몰에는 사용할 수 없습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "국민행복카드를 약국과 한방 병원에서도 쓸 수 있나요? 어디서는 안 되나요?"
-        사용 가능한 곳과 불가한 곳을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="usable">
-        <h2 className="detail-card-head">사용 가능한 곳</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>사용 가능 여부</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>병원·의원</strong></td>
-                <td>✓ 가능</td>
-                <td>임산부 및 영유아 진료 포함</td>
-              </tr>
-              <tr>
-                <td><strong>약국</strong></td>
-                <td>✓ 가능</td>
-                <td>처방 약제·치료재료 포함</td>
-              </tr>
-              <tr>
-                <td><strong>한방 의료기관</strong></td>
-                <td>✓ 가능</td>
-                <td>건강보험 적용 항목</td>
-              </tr>
-              <tr>
-                <td><strong>조산원</strong></td>
-                <td>✓ 가능</td>
-                <td>출산 비용 포함</td>
-              </tr>
-              <tr>
-                <td><strong>비급여 산전 검사</strong></td>
-                <td>✓ 일부 가능</td>
-                <td>요양기관에서 제공하는 비급여</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="not-usable">
-        <h2 className="detail-card-head">사용 불가한 곳</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>일반 마트·슈퍼마켓:</strong> 사용 불가
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인 쇼핑몰:</strong> 사용 불가
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>산후조리원:</strong> 일부만 가능 (사전 확인 필요)
-          </div>
-          <div className="info-box">
-            <strong>건강보험 미적용 비급여 전체:</strong> 일부 항목은 사용 불가 (요양기관 문의)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="baby">
-        <h2 className="detail-card-head">영유아 진료비 사용</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            출생일로부터 2년 이내 영유아의 진료비와 처방 약제비에도 사용 가능합니다.
-          </div>
-          <div className="info-box">
-            병원에서 카드를 제시하면 바우처에서 자동 차감됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 금액, 잔액 사용 기간, 다태아 지원 등<br />
-            임신·출산 진료비 지원 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/pregnancy-medical-benefit" className="btn-cta">
-            임신·출산 진료비 지원 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 임신출산사용처범위SpokeContent: SpokeData = {
   h1: '국민행복카드 사용처, 약국과 한방 비급여 항목까지 되는 건가',
@@ -108,36 +6,108 @@ export const 임신출산사용처범위SpokeContent: SpokeData = {
   description:
     '국민행복카드 사용 가능: 병원·의원·약국·한방 의료기관·조산원, 비급여 산전 검사 일부. 사용 불가: 마트·쇼핑몰. 출생일~2년 이내 영유아 진료비도 사용 가능.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '사용 가능': '병원·의원·약국·한방 의료기관·조산원',
+    '비급여 사용': '산전 검사 일부 비급여 항목 가능',
+    '사용 불가': '마트·쇼핑몰·비의료기관',
+    '영유아 진료비': '출생일로부터 2년 이내 진료비 가능',
+    '결제 방법': '의료기관 카드 단말기 결제',
+  },
+  keyFactsHighlights: {
+    '영유아 진료비': ['2년 이내'],
+    '사용 불가': ['마트', '쇼핑몰'],
+  },
+  qa: [
+    {
+      q: '국민행복카드를 어디서 쓸 수 있나요?',
+      anchor: 'where',
+      intro: '국민행복카드(임신·출산 진료비 바우처)는 건강보험 적용 의료기관에서 사용할 수 있습니다. 병원·의원, 약국, 한방 의료기관, 조산원에서 사용 가능하며, 산전 검사 관련 비급여 항목 일부도 포함됩니다. 마트, 쇼핑몰, 비의료기관에서는 사용할 수 없습니다.',
+      highlights: ['병원·의원·약국', '한방 의료기관', '비의료기관 불가'],
+      table: {
+        headers: ['구분', '사용 가능 여부'],
+        rows: [
+          ['종합병원·병원·의원', '가능'],
+          ['약국', '가능'],
+          ['한방 의료기관', '가능 (건강보험 적용 항목)'],
+          ['조산원', '가능'],
+          ['산전 검사 비급여 일부', '가능'],
+          ['마트·쇼핑몰', '불가'],
+          ['비의료기관', '불가'],
+        ],
+      },
+    },
+    {
+      q: '한방 병원에서도 국민행복카드를 쓸 수 있나요?',
+      anchor: 'herbal',
+      intro: '네, 건강보험이 적용되는 한방 의료기관에서 사용 가능합니다. 다만 비급여 한방 치료 항목의 경우 의료기관에서 국민행복카드 사용 가능 여부를 사전에 확인하세요. 급여 항목은 일반적으로 사용이 가능합니다.',
+      highlights: ['한방 의료기관 가능', '비급여 항목 확인 필요'],
+      box: { label: '주의', content: '한방 비급여 항목은 의료기관에 사전 확인 필요. 급여 항목은 일반적으로 가능' },
+    },
+    {
+      q: '비급여 산전 검사에도 사용할 수 있나요?',
+      anchor: 'nonbenefit',
+      intro: '임신·출산과 관련된 비급여 산전 검사 일부에 사용할 수 있습니다. 다운증후군 검사, 기형아 검사 등 임신과 직접 관련된 검사가 포함됩니다. 미용·피부·성형 등 임신과 무관한 비급여 진료에는 사용이 불가합니다.',
+      highlights: ['산전 검사 비급여 일부 가능', '미용·성형 불가'],
+      box: { label: '비급여 사용 가능', content: '다운증후군·기형아 검사 등 임신 관련 비급여 산전 검사 가능. 미용·피부·성형은 불가' },
+    },
+    {
+      q: '출산 후 아이 진료비에도 쓸 수 있나요?',
+      anchor: 'baby',
+      intro: '네, 출생일로부터 2년 이내 영유아의 진료비에도 사용할 수 있습니다. 임신 중 쓰고 남은 잔액이 있다면 아이의 소아과 진료비, 예방접종 비용 등에 사용 가능합니다. 별도 전환 신청 없이 카드 결제 방식으로 사용하면 됩니다.',
+      highlights: ['출생 후 2년 이내', '소아과 진료비', '별도 신청 불필요'],
+      box: { label: '영유아 사용', content: '출생일로부터 2년 이내 영유아 진료비 사용 가능. 별도 전환 신청 없이 결제' },
+    },
+    {
+      q: '임신 관련 검사를 약국에서 받은 약값에 쓸 수 있나요?',
+      anchor: 'pharmacy',
+      intro: '네, 약국에서 처방전에 의해 조제된 약제비에 사용할 수 있습니다. 임신 중 처방받은 영양제, 철분제, 엽산제 등도 처방전이 있다면 사용 가능합니다. 처방전 없이 구매하는 일반의약품은 사용이 제한될 수 있습니다.',
+      highlights: ['약국 처방 약제비 가능', '처방전 필요'],
+      box: { label: '약국 사용', content: '처방전 있는 조제 약제비 가능. 처방전 없는 일반의약품 구매는 제한' },
+    },
+    {
+      q: '카드 사용 방법은 어떻게 되나요?',
+      anchor: 'how-to-use',
+      intro: '국민행복카드는 의료기관 카드 단말기에서 일반 신용카드처럼 결제합니다. 별도 바우처 번호를 입력하거나 특별한 절차가 없으며, 잔액 범위 내에서 자동으로 바우처 금액이 먼저 차감됩니다. 잔액이 부족하면 초과금액은 본인 카드 결제로 처리됩니다.',
+      highlights: ['카드 단말기 결제', '자동 차감', '초과 시 본인 결제'],
+      box: { label: '사용 방법', content: '의료기관 카드 단말기 → 국민행복카드 카드 결제 → 바우처 잔액 자동 차감 → 초과분 본인 결제' },
+    },
+    {
+      q: '잔액은 어디서 확인할 수 있나요?',
+      anchor: 'balance',
+      intro: '국민행복카드 잔액은 카드사 앱, 홈페이지, 또는 ARS 전화로 확인할 수 있습니다. 결제 시마다 영수증에 잔액이 표시되기도 합니다. 정확한 잔액 확인 방법은 신청한 카드사(KB·신한·롯데·우리·하나)에 문의하세요.',
+      highlights: ['카드사 앱 확인', '홈페이지 확인'],
+      box: { label: '잔액 확인', content: '카드사 앱·홈페이지·ARS에서 확인 가능. 카드사 고객센터에도 문의 가능' },
+    },
+  ],
   faqData: [
     {
       q: '한방 병원에서도 국민행복카드를 쓸 수 있나요?',
       a: '네, 건강보험이 적용되는 한방 의료기관에서 사용 가능합니다. 비급여 항목은 요양기관에서 확인하세요.',
-      source: '사회서비스 전자바우처',
-      sourceUrl: 'https://www.socialservice.or.kr',
-    },
-    {
-      q: '약국에서 처방전 없이 사는 약도 카드로 결제되나요?',
-      a: '아니요, 처방전에 기반한 처방 약제와 치료재료에만 사용 가능합니다. 일반 상비약 구입에는 사용할 수 없습니다.',
       source: '국민건강보험공단',
       sourceUrl: 'https://www.nhis.or.kr',
     },
     {
-      q: '마트에서 산후 음식 재료를 사면 안 되나요?',
-      a: '국민행복카드는 의료기관·약국 등 요양기관에서만 사용 가능합니다. 마트나 온라인 쇼핑몰 구매에는 사용할 수 없습니다.',
+      q: '약국에서도 사용할 수 있나요?',
+      a: '처방전에 의한 조제 약제비에 사용할 수 있습니다.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.nhis.or.kr',
+    },
+    {
+      q: '아이 진료비에도 쓸 수 있나요?',
+      a: '출생일로부터 2년 이내 영유아 진료비에도 사용할 수 있습니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
     {
-      q: '산후조리원에서도 쓸 수 있나요?',
-      a: '일부 산후조리원에서 사용 가능하지만, 모든 곳이 해당되지는 않습니다. 이용 예정 산후조리원에 미리 확인하세요.',
-      source: '보건복지부',
-      sourceUrl: 'https://www.mohw.go.kr',
+      q: '마트에서도 사용할 수 있나요?',
+      a: '아닙니다. 마트, 쇼핑몰 등 비의료기관에서는 사용할 수 없습니다.',
+      source: '국민건강보험공단',
+      sourceUrl: 'https://www.nhis.or.kr',
     },
     {
-      q: '아이가 태어난 후에도 병원에서 국민행복카드로 결제할 수 있나요?',
-      a: '네, 출생일로부터 2년 이내 영유아의 진료비와 처방 약제비에도 사용할 수 있습니다.',
+      q: '잔액은 어디서 확인하나요?',
+      a: '카드사 앱, 홈페이지, ARS에서 확인할 수 있습니다.',
       source: '국민건강보험공단',
       sourceUrl: 'https://www.nhis.or.kr',
     },

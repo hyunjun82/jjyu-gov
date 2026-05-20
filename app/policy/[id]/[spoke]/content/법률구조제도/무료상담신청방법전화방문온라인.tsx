@@ -1,100 +1,97 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          대한법률구조공단 법률상담은 <strong>국번없이 132 전화상담</strong>,
-          공단 지부·출장소 <strong>방문 면접상담</strong>, 홈페이지(klac.or.kr)를 통한
-          <strong>사이버·채팅·화상상담</strong> 등 5가지 방법으로 이용할 수 있습니다.
-          모두 평일 09:00~18:00에 운영됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        전화상담(132)은 통화료가 발신자 부담이며, 상담 예약 후 방문하면
-        대기 시간을 줄일 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="methods">
-        <h2 className="detail-card-head">상담 방법 5가지</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>상담 유형</th><th>방법</th><th>운영 시간</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>전화상담</strong></td><td>국번없이 132</td><td>평일 09:00~18:00</td></tr>
-              <tr><td><strong>면접상담</strong></td><td>예약 또는 비예약 방문</td><td>평일 09:00~18:00</td></tr>
-              <tr><td><strong>화상상담</strong></td><td>예약 후 화상 연결</td><td>예약 일시</td></tr>
-              <tr><td><strong>채팅상담</strong></td><td>홈페이지·132 전화</td><td>평일 10:00~17:00</td></tr>
-              <tr><td><strong>사이버상담</strong></td><td>홈페이지 신청</td><td>상시 (답변 수령)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="visit">
-        <h2 className="detail-card-head">방문 상담 예약 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>전화 예약:</strong> 국번없이 132로 전화 → 가까운 지부·출장소 예약
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인 예약:</strong> klac.or.kr 홈페이지 챗봇으로 예약
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>비예약 방문:</strong> 예약 없이도 방문 상담 가능 (대기 발생)
-          </div>
-          <div className="info-box">
-            <strong>주의:</strong> 예약 후 노쇼(취소 없이 미방문) 시 1개월간 예약 제한
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="special">
-        <h2 className="detail-card-head">특수 상황 상담</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>거동불편자:</strong> 화상상담 우선 이용 가능
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>수화통역:</strong> ☎110으로 연결 후 상담
-          </div>
-          <div className="info-box">
-            <strong>점심시간:</strong> 12:00~13:00 전화상담 불가 (방문 상담은 가능)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 대상, 소송대리 비용, 지원 가능 사건 종류까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/legal-aid-system" className="btn-cta">
-            법률구조 제도 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 법률구조제도무료상담신청방법전화방문온라인SpokeContent: SpokeData = {
   h1: '대한법률구조공단 무료 상담 신청 방법, 전화·방문·온라인 예약 절차',
   breadcrumb: '무료상담신청방법전화방문온라인',
   description:
     '대한법률구조공단 상담: 전화(국번없이 132), 면접(방문), 화상, 채팅, 사이버상담 5가지. 평일 09:00~18:00 운영. klac.or.kr 온라인 예약 가능. 수화통역 ☎110.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '전화 상담': '국번없이 132 (평일 09:00~18:00)',
+    '방문 상담': '공단 지부·출장소 방문 (예약 또는 비예약)',
+    '온라인 예약': 'klac.or.kr 홈페이지 챗봇',
+    '화상·채팅상담': '예약 후 이용 가능',
+    '수화통역': '☎110',
+  },
+  keyFactsHighlights: {
+    '전화 상담': ['국번없이 132'],
+    '온라인 예약': ['klac.or.kr'],
+  },
+  qa: [
+    {
+      q: '대한법률구조공단 법률상담을 받는 방법은 몇 가지인가요?',
+      anchor: 'methods',
+      intro:
+        '대한법률구조공단 법률상담은 전화상담, 면접상담(방문), 화상상담, 채팅상담, 사이버상담 5가지 방법으로 이용할 수 있습니다. 전화상담은 국번없이 132로 전화하면 되며 평일 09:00~18:00에 운영합니다. 면접상담은 공단 지부·출장소를 직접 방문해 상담받는 방법입니다. 화상상담, 채팅상담, 사이버상담은 klac.or.kr 홈페이지를 통해 이용할 수 있습니다.',
+      highlights: ['5가지 상담 방법', '국번없이 132', 'klac.or.kr'],
+      table: {
+        headers: ['상담 유형', '방법', '운영 시간'],
+        rows: [
+          ['전화상담', '국번없이 132', '평일 09:00~18:00'],
+          ['면접상담', '예약 또는 비예약 방문', '평일 09:00~18:00'],
+          ['화상상담', '예약 후 화상 연결', '예약 일시'],
+          ['채팅상담', '홈페이지·132 전화', '평일 10:00~17:00'],
+          ['사이버상담', '홈페이지 신청', '상시 (답변 수령)'],
+        ],
+      },
+    },
+    {
+      q: '전화상담(132)은 무료인가요?',
+      anchor: 'phone',
+      intro:
+        '법률상담 자체는 무료이지만 통화료는 발신자(본인)가 부담합니다. 국번없이 132로 전화하면 됩니다. 전화상담 시간은 평일 09:00~18:00이며, 점심시간(12:00~13:00)에는 전화상담이 중단됩니다. 점심시간에는 방문 상담은 가능합니다. 1회 상담은 약 20분 이내로 진행됩니다.',
+      highlights: ['통화료 발신자 부담', '상담 자체는 무료', '점심시간 전화 불가'],
+      box: { label: '전화상담 안내', content: '국번없이 132 / 평일 09:00~18:00 / 점심시간(12:00~13:00) 전화 중단 / 통화료 발신자 부담' },
+    },
+    {
+      q: '방문 상담은 예약 없이 갈 수 있나요?',
+      anchor: 'visit',
+      intro:
+        '예약 없이도 방문 상담이 가능합니다. 단, 예약 없이 방문하면 대기 시간이 발생할 수 있습니다. 예약은 전화(132)로 하거나 klac.or.kr 홈페이지 챗봇을 통해 할 수 있습니다. 예약 후 노쇼(취소 없이 미방문) 시 1개월간 예약이 제한됩니다. 방문이 어렵다면 하루 전까지 반드시 취소해야 합니다.',
+      highlights: ['비예약 방문 가능', '대기 발생', '노쇼 시 1개월 예약 제한'],
+      box: { label: '방문 예약 방법', content: '전화 예약: 국번없이 132 / 온라인 예약: klac.or.kr 챗봇 / 취소 없이 미방문 시 1개월간 예약 제한' },
+    },
+    {
+      q: '화상상담이나 채팅상담은 어떻게 이용하나요?',
+      anchor: 'online',
+      intro:
+        '화상상담과 채팅상담은 klac.or.kr 홈페이지 또는 132 전화를 통해 예약할 수 있습니다. 화상상담은 예약 후 약정된 일시에 화상으로 연결합니다. 채팅상담은 평일 10:00~17:00에 이용 가능합니다. 사이버상담은 홈페이지에 질문을 등록하면 답변을 받는 방식으로 상시 운영됩니다. 거동이 불편한 분은 화상상담을 우선적으로 이용하는 것이 좋습니다.',
+      highlights: ['화상상담 예약 필요', '채팅상담 10:00~17:00', '거동불편자 화상 우선'],
+      table: {
+        headers: ['상담 방식', '운영 시간', '예약'],
+        rows: [
+          ['화상상담', '예약 일시', '필수'],
+          ['채팅상담', '평일 10:00~17:00', '불필요'],
+          ['사이버상담', '상시', '불필요'],
+        ],
+      },
+    },
+    {
+      q: '가까운 공단 위치는 어떻게 찾나요?',
+      anchor: 'location',
+      intro:
+        'klac.or.kr 홈페이지 챗봇에서 가까운 공단 지부·출장소 위치를 확인할 수 있습니다. 또는 132로 전화해 안내를 받을 수도 있습니다. 전국에 지부와 출장소가 설치되어 있으며, 거주지 또는 사건 발생지에서 가까운 곳을 선택하면 됩니다.',
+      highlights: ['klac.or.kr 위치 확인', '132 안내'],
+      box: { label: '공단 위치 확인', content: 'klac.or.kr 홈페이지 챗봇에서 가까운 지부·출장소 검색. 또는 ☎132로 안내 요청.' },
+    },
+    {
+      q: '상담만 받고 소송 지원은 안 받아도 되나요?',
+      anchor: 'consult-only',
+      intro:
+        '네, 법률상담만 받고 소송 지원은 신청하지 않아도 됩니다. 상담 자체는 무료이며, 소송 구조 여부는 상담 후 공단 담당자 검토를 통해 별도로 결정됩니다. 상담 후 소송이 필요하다고 판단되면 구조 신청을 진행하면 됩니다. 상담 후 바로 귀가해도 아무런 문제가 없습니다.',
+      highlights: ['상담만 가능', '소송 구조 별도 신청'],
+      box: { label: '상담 후 선택', content: '상담만 받고 귀가해도 무방. 소송 필요 시 공단 담당자와 구조 신청 진행.' },
+    },
+    {
+      q: '수화통역이 필요한 경우 어떻게 상담받나요?',
+      anchor: 'sign-language',
+      intro:
+        '수화통역이 필요한 경우 ☎110으로 연결 후 법률구조공단 상담을 요청하면 됩니다. 거동이 불편한 경우에는 화상상담을 먼저 이용하는 것을 추천합니다. 장애인 대상 특별 법률 지원 제도도 있으므로 132 또는 klac.or.kr에서 구체적인 지원 방법을 확인하세요.',
+      highlights: ['수화통역: ☎110', '거동불편: 화상상담'],
+      box: { label: '특수 상황', content: '수화통역 ☎110 / 거동불편자 화상상담 우선 / 점심시간(12~13시) 전화상담 불가, 방문 가능' },
+    },
+  ],
   faqData: [
     {
       q: '132 전화는 무료인가요?',

@@ -1,145 +1,101 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          전년도에 에너지바우처를 받았고 올해도 자격을 충족하며
-          <strong>정보 변동이 없으면 자동으로 신청</strong>됩니다.
-          단, 처음 신청하거나 수급 자격·세대원 정보가 바뀐 경우에는
-          <strong>읍·면·동 행정복지센터에서 신규 신청</strong>해야 합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "기초수급자인데 에너지바우처 신청을 따로 해야 하나요?" 전년도 수급 여부와
-        정보 변동에 따라 다릅니다. 자동신청 대상 기준을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="auto-criteria">
-        <h2 className="detail-card-head">기초수급자인데 에너지바우처 신청을 따로 해야 하나 | 자동신청 대상 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>조건</th><th>신청 방법</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>자동 신청</strong></td>
-                <td>
-                  전년도 에너지바우처 수급 + 올해도 자격 충족 +
-                  수급자격·세대원·주소 정보 변동 없음
-                </td>
-                <td>별도 신청 불필요 (자동 처리)</td>
-              </tr>
-              <tr>
-                <td><strong>신규 신청 필요</strong></td>
-                <td>
-                  처음 신청 / 전년도 미수급 / 수급 자격 변동 /
-                  세대원 변동 / 주소 변동
-                </td>
-                <td>읍·면·동 행정복지센터 방문 신청</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="warning-box" style={{ marginTop: 12 }}>
-            <strong>기초수급자 전체가 자동신청 대상은 아닙니다.</strong>
-            소득기준(기초수급) + 세대원 특성기준(노인·영유아·장애인 등)을 모두 충족해야
-            에너지바우처 지원 대상이 되며, 그 중 전년도 수급자에 한해 자동신청이 됩니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">에너지바우처 대상자 2가지 기준 — 모두 충족해야</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>기준</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>① 소득 기준</td>
-                <td>기초생활수급자 (생계·의료·주거·교육급여 수급자)</td>
-              </tr>
-              <tr>
-                <td>② 세대원 특성 기준 (하나 이상)</td>
-                <td>
-                  노인(1960.12.31 이전 출생) / 영유아(2018.01.01 이후 출생) /
-                  장애인 / 임산부 / 중증질환자 / 한부모가족 / 소년소녀가정 / 다자녀세대
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            두 기준 모두 충족해야 합니다. 기초수급자이더라도
-            세대원 특성 기준에 해당하는 사람이 없으면 지원 대상에서 제외됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="how-to-check">
-        <h2 className="detail-card-head">내가 자동신청 대상인지 확인하는 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① energyv.or.kr:</strong> 에너지바우처 공식 홈페이지 → 신청대상 조회
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 콜센터:</strong> 1600-3190 (평일 09:00~18:00, 점심 12~13시 제외)
-          </div>
-          <div className="info-box">
-            <strong>③ 읍·면·동 행정복지센터 방문:</strong> 자동신청 여부 및 정보 변동 확인
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="new-apply">
-        <h2 className="detail-card-head">신규 신청 방법 — 방문·대리 신청</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문 신청:</strong> 거주지 읍·면·동 행정복지센터(주민센터) 직접 방문
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>대리 신청:</strong> 거동이 불편한 경우 친족이 대리 신청 가능
-          </div>
-          <div className="info-box">
-            <strong>신청 기간:</strong> 신청 기간 내 방문 필수 — 기간 외 신청 불가
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            사용처, 지원금액, 신청 기간 등<br />
-            에너지바우처 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/energy-voucher" className="btn-cta">
-            에너지바우처 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 에너지바우처자동신청SpokeContent: SpokeData = {
   h1: '기초수급자인데 에너지바우처 신청을 따로 해야 하나 | 자동신청 대상 기준',
-  breadcrumb: '자동신청',
+  breadcrumb: '에너지바우처 > 자동신청',
   description:
     '에너지바우처 자동신청: 전년도 수급자이고 올해도 자격 충족 + 정보변동 없으면 자동 처리. 처음 신청하거나 세대원·주소 변동 있으면 읍·면·동 행정복지센터 방문 신청. 자동신청 여부는 energyv.or.kr 또는 1600-3190 확인.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '자동신청 조건': '전년도 수급 + 올해 자격 충족 + 정보변동 없음',
+    '신규 신청 필요': '처음 신청 / 세대원·주소 변동 있음',
+    '신청처': '읍·면·동 행정복지센터 방문',
+    '자동신청 확인': 'energyv.or.kr 또는 1600-3190',
+    '대리 신청': '거동 불편 시 친족 대리 신청 가능',
+  },
+  keyFactsHighlights: {
+    '자동신청 조건': ['자동 처리'],
+    '자동신청 확인': ['energyv.or.kr', '1600-3190'],
+  },
+  qa: [
+    {
+      q: '기초수급자이면 에너지바우처를 자동으로 받을 수 있나요?',
+      anchor: 'auto-basics',
+      intro: '기초수급자이더라도 자동으로 에너지바우처를 받는 것은 아닙니다. 에너지바우처 자동신청은 전년도에 이미 에너지바우처를 받았고, 올해도 자격을 충족하며, 수급자격·세대원·주소 정보에 변동이 없는 경우에만 해당됩니다. 처음 신청하거나 정보에 변동이 있으면 읍·면·동 행정복지센터(주민센터)에서 직접 신청해야 합니다. 또한 기초수급자라도 세대원 특성 기준(노인·영유아·장애인 등)을 충족해야 에너지바우처 대상이 됩니다.',
+      highlights: ['기초수급자 전체가 자동신청 대상 아님', '전년도 수급자 + 정보변동 없음 조건', '세대원 특성 기준도 충족 필요'],
+      table: {
+        headers: ['구분', '조건', '신청 방법'],
+        rows: [
+          ['자동 신청', '전년도 수급 + 올해 자격 + 정보변동 없음', '별도 신청 불필요'],
+          ['신규 신청 필요', '처음 / 전년도 미수급 / 수급자격·세대원·주소 변동', '읍·면·동 행정복지센터 방문'],
+        ],
+      },
+      box: { label: '핵심', content: '기초수급자 전체가 자동신청 대상은 아닙니다. 전년도 수급자 중 정보변동이 없는 경우만 자동 처리됩니다.' },
+    },
+    {
+      q: '자동신청 여부는 어떻게 확인하나요?',
+      anchor: 'auto-check',
+      intro: '자동신청 여부는 energyv.or.kr(에너지바우처 공식 홈페이지)에서 신청대상 조회 메뉴를 통해 확인할 수 있습니다. 전화로는 콜센터 1600-3190(평일 09:00~18:00, 점심 12~13시 제외)에 문의하면 됩니다. 거주지 읍·면·동 행정복지센터(주민센터)를 방문해 자동신청 여부와 정보 변동 여부를 확인하는 방법도 있습니다.',
+      highlights: ['energyv.or.kr 온라인 확인', '1600-3190 전화 문의', '주민센터 방문 확인'],
+      table: {
+        headers: ['확인 방법', '경로', '운영 시간'],
+        rows: [
+          ['온라인', 'energyv.or.kr → 신청대상 조회', '24시간'],
+          ['전화', '1600-3190', '평일 09:00~18:00 (점심 12~13시 제외)'],
+          ['방문', '읍·면·동 행정복지센터', '평일 09:00~18:00'],
+        ],
+      },
+      box: { label: '팁', content: '자동신청 여부와 함께 신청 상태·지원 금액도 energyv.or.kr에서 동시에 확인할 수 있습니다.' },
+    },
+    {
+      q: '작년에 받았는데 주소가 바뀌었어요. 자동신청이 되나요?',
+      anchor: 'address-change',
+      intro: '주소(세대원) 변동이 있으면 자동신청에서 제외됩니다. 이사 후 새 거주지 읍·면·동 행정복지센터에서 신규 신청해야 합니다. 이사 시 지원이 중단되지 않도록 이사 전후 빠른 시일 내에 신청하는 것이 좋습니다.',
+      highlights: ['주소 변동 시 자동신청 제외', '새 거주지 주민센터에서 신규 신청 필요', '이사 후 빠른 신청 권장'],
+      box: { label: '이사 시 절차', content: '이사 후 새 거주지 읍·면·동 행정복지센터를 방문해 에너지바우처 신규 신청을 하세요.' },
+    },
+    {
+      q: '세대원이 변동되면 어떻게 하나요?',
+      anchor: 'member-change',
+      intro: '세대원이 변동(출생·사망·이사 등)되면 자동신청에서 제외됩니다. 세대원 특성 기준(노인·영유아·장애인 등)에 변동이 생겼다면 자격 자체가 바뀔 수 있으므로, 새로 자격 여부를 확인하고 읍·면·동 행정복지센터에서 신규 신청해야 합니다.',
+      highlights: ['세대원 변동 시 자동신청 제외', '자격 여부 재확인 필요', '주민센터 신규 신청'],
+      box: { label: '변동 시 절차', content: '세대원 변동 후 1600-3190 또는 주민센터에서 자격 여부를 먼저 확인하고 신청하세요.' },
+    },
+    {
+      q: '처음 신청하는 경우 어떻게 해야 하나요?',
+      anchor: 'first-apply',
+      intro: '에너지바우처를 처음 신청하는 경우 거주지 읍·면·동 행정복지센터(주민센터)를 신청 기간 내에 방문해 신청합니다. 신청 시 수급자 확인서, 세대원 특성 증빙 서류(장애인등록증·임산부확인서 등), 신분증을 지참하면 됩니다. 정확한 필요 서류는 방문 전 주민센터나 1600-3190에 문의하세요.',
+      highlights: ['읍·면·동 행정복지센터 방문 신청', '신청 기간 내 방문 필수', '필요 서류 사전 확인 권장'],
+      table: {
+        headers: ['필요 서류 (예시)', '내용'],
+        rows: [
+          ['신분증', '주민등록증 또는 운전면허증'],
+          ['수급자 확인서', '기초생활수급자 증빙'],
+          ['세대원 특성 증빙', '장애인등록증·임산부확인서·의료비 명세서 등 해당 서류'],
+        ],
+      },
+      box: { label: '사전 문의', content: '방문 전 주민센터나 1600-3190에 전화해 필요 서류를 확인하면 헛걸음을 줄일 수 있습니다.' },
+    },
+    {
+      q: '거동이 불편해 직접 신청하기 어려우면 어떻게 하나요?',
+      anchor: 'mobility-issue',
+      intro: '거동이 불편한 경우 친족이 대리 신청할 수 있습니다. 대리 신청 시 위임장, 대리인 신분증, 신청인 신분증이 필요할 수 있으니 주민센터에 사전 문의하세요. 일부 지자체는 찾아가는 신청 서비스를 운영하기도 합니다.',
+      highlights: ['친족 대리 신청 가능', '위임장 필요할 수 있음', '찾아가는 서비스 운영 지자체 있음'],
+      box: { label: '대리 신청', content: '거동이 불편하다면 주민센터에 전화해 대리 신청 방법 또는 찾아가는 서비스 여부를 먼저 확인하세요.' },
+    },
+    {
+      q: '자동신청이 완료됐는지 확인하려면 어떻게 하나요?',
+      anchor: 'confirm-auto',
+      intro: '자동신청 처리 여부는 energyv.or.kr에서 신청 현황을 조회하거나, 콜센터 1600-3190에 전화해 확인할 수 있습니다. 자동신청이 완료된 경우 별도 통보 없이 자동 처리되므로, 6월 이후 에너지바우처가 실제로 적용됐는지 사용 내역을 확인해 보세요.',
+      highlights: ['energyv.or.kr에서 신청 현황 조회', '1600-3190 전화 확인', '실제 적용 여부 사용 내역으로 확인'],
+      box: { label: '확인 방법', content: 'energyv.or.kr 로그인 → 나의 신청 현황 조회 또는 1600-3190 전화 문의.' },
+    },
+  ],
   faqData: [
     {
       q: '기초수급자이면 에너지바우처를 자동으로 받나요?',
-      a: '기초수급자라도 세대원 특성기준(노인·영유아·장애인·임산부 등)을 충족해야 에너지바우처 대상입니다. 그 중 전년도에 받았고 정보변동이 없으면 자동신청됩니다.',
+      a: '기초수급자라도 세대원 특성기준을 충족해야 대상입니다. 그 중 전년도에 받았고 정보변동이 없으면 자동신청됩니다.',
       source: '에너지바우처 신청안내',
       sourceUrl: 'https://www.energyv.or.kr/info/apl_info.do',
     },
@@ -157,7 +113,7 @@ export const 에너지바우처자동신청SpokeContent: SpokeData = {
     },
     {
       q: '내가 자동신청 대상인지 어떻게 알 수 있나요?',
-      a: 'energyv.or.kr에서 조회하거나, 콜센터 1600-3190(평일 09:00~18:00) 또는 주민센터에 문의하면 됩니다.',
+      a: 'energyv.or.kr에서 조회하거나, 1600-3190(평일 09:00~18:00) 또는 주민센터에 문의하면 됩니다.',
       source: '에너지바우처 홈',
       sourceUrl: 'https://www.energyv.or.kr',
     },

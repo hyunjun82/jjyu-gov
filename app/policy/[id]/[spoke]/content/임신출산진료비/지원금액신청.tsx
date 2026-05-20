@@ -1,104 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          임신·출산 진료비 지원(국민행복카드)은 임신 1회당
-          <strong>일태아 100만원, 다태아 140만원(기본)</strong>의 바우처를 지급합니다.
-          분만취약지역 거주자는 20만원이 추가됩니다.
-          건강보험공단 지사 방문 또는 협약 카드사에서 신청합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "국민행복카드로 얼마를 받을 수 있고, 어떻게 신청하나요?"
-        지원 금액과 신청 방법을 한눈에 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">지원 금액 (태아 수·지역별)</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>기본 지원</th><th>분만취약지 추가</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>일태아(단태아)</strong></td>
-                <td><strong>100만원</strong></td>
-                <td>120만원</td>
-              </tr>
-              <tr>
-                <td><strong>2태아</strong></td>
-                <td><strong>200만원</strong> (140+60 추가)</td>
-                <td>220만원</td>
-              </tr>
-              <tr>
-                <td><strong>3태아 이상</strong></td>
-                <td><strong>300만원</strong> (140+160 추가)</td>
-                <td>320만원</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            다태아 추가 지원은 2024년 1월 1일 이후 임신한 경우로, 임신 20주 이상을 유지하거나 다태아 출산 시 지급됩니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>카드사 신청:</strong> KB국민·신한·롯데·우리·하나카드 등 협약 카드사에 직접 발급 신청 (가장 간편)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>공단 방문:</strong> 국민건강보험공단 지사 방문 후 카드사 연계 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기존 카드:</strong> 해당 협약 카드사 카드 보유 시 앱·전화로 바우처 전환 신청
-          </div>
-          <div className="info-box">
-            <strong>필요 서류:</strong> 임신확인서(의사 진단서) 또는 산모수첩, 신분증
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>대상:</strong> 건강보험 가입자 또는 피부양자로 임신·출산(유산·사산 포함)한 분
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소득 조건:</strong> 없음. 건강보험 가입자라면 모두 해당됩니다.
-          </div>
-          <div className="info-box">
-            <strong>의료급여 수급자:</strong> 별도 임신출산진료비 제도 이용 (보건소 문의)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            사용처, 잔액 사용 기간, 다태아 추가 지원 등<br />
-            임신·출산 진료비 지원 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/pregnancy-medical-benefit" className="btn-cta">
-            임신·출산 진료비 지원 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 임신출산지원금액신청SpokeContent: SpokeData = {
   h1: '국민행복카드 임신 출산 진료비, 일태아 100만원 다태아 140만원 신청 방법',
@@ -106,8 +6,85 @@ export const 임신출산지원금액신청SpokeContent: SpokeData = {
   description:
     '임신·출산 진료비(국민행복카드): 일태아 100만원, 다태아 기본 140만원+추가(2태아 200만원, 3태아 300만원). 분만취약지 +20만원. KB·신한·롯데·우리·하나카드 신청.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '일태아': '100만원',
+    '2태아 (쌍둥이)': '200만원 (기본 140+추가 60)',
+    '3태아 이상': '300만원 (기본 140+추가 160)',
+    '분만취약지': '+20만원 추가',
+    '신청처': 'KB·신한·롯데·우리·하나카드 중 1곳',
+  },
+  keyFactsHighlights: {
+    '일태아': ['100만원'],
+    '2태아 (쌍둥이)': ['200만원'],
+    '3태아 이상': ['300만원'],
+  },
+  qa: [
+    {
+      q: '임신·출산 진료비는 얼마를 받나요?',
+      anchor: 'amount',
+      intro: '임신·출산 진료비(국민행복카드 바우처)는 일태아 100만원, 다태아 기본 140만원을 지원합니다. 다태아의 경우 2태아(쌍둥이)는 총 200만원(140+60), 3태아 이상은 총 300만원(140+160)입니다. 분만취약지 거주자에게는 20만원이 추가 지원됩니다.',
+      highlights: ['일태아 100만원', '쌍둥이 200만원', '삼둥이 300만원'],
+      table: {
+        headers: ['대상', '지원금액'],
+        rows: [
+          ['일태아', '100만원'],
+          ['2태아 (쌍둥이)', '200만원 (기본 140+추가 60)'],
+          ['3태아 이상', '300만원 (기본 140+추가 160)'],
+          ['분만취약지', '위 금액 + 20만원 추가'],
+        ],
+      },
+    },
+    {
+      q: '국민행복카드는 어디서 신청하나요?',
+      anchor: 'apply',
+      intro: 'KB국민카드, 신한카드, 롯데카드, 우리카드, 하나카드 중 한 곳에서 신청합니다. 카드사 앱·홈페이지에서 온라인으로 신청하거나, 카드사 지점을 방문해 신청할 수 있습니다. 임신확인서를 지참해야 합니다.',
+      highlights: ['KB·신한·롯데·우리·하나카드', '임신확인서 필요'],
+      box: { label: '신청처', content: 'KB국민·신한·롯데·우리·하나카드 중 1곳 선택. 온라인(앱·홈페이지) 또는 지점 방문 신청' },
+    },
+    {
+      q: '국민건강보험 홈페이지에서도 신청할 수 있나요?',
+      anchor: 'nhis',
+      intro: '국민행복카드는 국민건강보험공단에서 직접 발급하지 않습니다. 위에 안내된 5개 카드사 중 한 곳에서만 신청이 가능합니다. 국민건강보험공단(nhis.or.kr)에서는 신청 방법 안내와 자격 확인만 가능합니다.',
+      highlights: ['카드사에서만 신청', '건강보험 직접 발급 아님'],
+      box: { label: '주의', content: '국민건강보험공단은 발급 불가. KB·신한·롯데·우리·하나카드에서만 신청 가능' },
+    },
+    {
+      q: '신청 조건은 무엇인가요?',
+      anchor: 'condition',
+      intro: '임신확인서를 제출하고 건강보험 가입자(피부양자 포함)이면 신청이 가능합니다. 의료급여 수급자도 별도 절차로 신청할 수 있습니다. 다태아 추가 지원은 임신 20주 이상 확인이 필요합니다.',
+      highlights: ['임신확인서', '건강보험 가입자', '다태아 20주 이상'],
+      table: {
+        headers: ['대상', '조건'],
+        rows: [
+          ['건강보험 가입자', '임신확인서 제출'],
+          ['의료급여 수급자', '별도 절차 (주민센터 문의)'],
+          ['다태아 추가 지원', '임신 20주 이상 확인'],
+        ],
+      },
+    },
+    {
+      q: '신청 후 언제 카드를 받을 수 있나요?',
+      anchor: 'when',
+      intro: '카드사에서 심사 후 보통 1~2주 내에 카드를 받을 수 있습니다. 온라인 신청 시 카드사 앱에서 가승인 후 즉시 임시 번호로 사용이 가능한 경우도 있습니다. 정확한 수령 기간은 카드사별로 다르므로 확인하세요.',
+      highlights: ['1~2주 이내', '임시 번호 즉시 사용'],
+      box: { label: '수령 기간', content: '카드사 심사 후 1~2주 내 수령. 일부 카드사는 앱에서 임시 번호로 즉시 사용 가능' },
+    },
+    {
+      q: '카드를 받은 후 바우처는 어떻게 충전되나요?',
+      anchor: 'charge',
+      intro: '카드 발급 후 건강보험공단에서 자동으로 바우처 금액이 충전됩니다. 별도 신청 없이 카드 수령 후 의료기관에서 바로 사용할 수 있습니다. 다태아 추가 금액은 임신 20주 이상 확인 후 별도 충전됩니다.',
+      highlights: ['자동 충전', '별도 신청 불필요', '다태아 별도 충전'],
+      box: { label: '충전', content: '카드 발급 후 자동 충전. 다태아 추가금액은 임신 20주 이상 확인 후 충전' },
+    },
+    {
+      q: '분만취약지가 어디인지 어떻게 알 수 있나요?',
+      anchor: 'rural-area',
+      intro: '분만취약지는 보건복지부가 공식 지정한 지역으로, 산부인과나 분만 시설 접근이 어려운 농어촌 지역입니다. 보건복지부 또는 국민건강보험공단 홈페이지에서 확인하거나, 거주지 주민센터에서 해당 여부를 확인할 수 있습니다.',
+      highlights: ['보건복지부 지정', '주민센터 확인'],
+      box: { label: '확인', content: '분만취약지 해당 여부: 보건복지부(mohw.go.kr) 또는 주민센터 문의' },
+    },
+  ],
   faqData: [
     {
       q: '임신·출산 진료비는 얼마를 받나요?',
@@ -117,25 +94,25 @@ export const 임신출산지원금액신청SpokeContent: SpokeData = {
     },
     {
       q: '어디서 신청하나요?',
-      a: 'KB국민·신한·롯데·우리·하나카드 등 협약 카드사에서 국민행복카드를 발급받거나, 국민건강보험공단 지사를 방문해 신청합니다.',
+      a: 'KB국민·신한·롯데·우리·하나카드 중 한 곳에서 신청합니다.',
       source: '국민건강보험공단',
       sourceUrl: 'https://www.nhis.or.kr',
     },
     {
-      q: '소득 기준이 있나요?',
-      a: '없습니다. 건강보험 가입자 또는 피부양자로 임신·출산한 분이라면 모두 신청할 수 있습니다.',
+      q: '신청 조건이 있나요?',
+      a: '임신확인서를 제출하고 건강보험 가입자(피부양자 포함)이면 신청 가능합니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
     {
-      q: '임신확인서가 없으면 신청이 안 되나요?',
-      a: '임신확인서(의사 진단서) 또는 산모수첩이 필요합니다. 병원에서 발급받아 신청 시 제출하면 됩니다.',
+      q: '카드 발급 후 언제 사용할 수 있나요?',
+      a: '카드 발급 후 바우처가 자동 충전되어 즉시 사용할 수 있습니다.',
       source: '국민건강보험공단',
       sourceUrl: 'https://www.nhis.or.kr',
     },
     {
-      q: '유산한 경우에도 받을 수 있나요?',
-      a: '네, 유산·사산의 경우에도 지원 대상입니다. 사용 기간은 공단에서 확인하세요.',
+      q: '다태아 추가 금액은 언제 충전되나요?',
+      a: '임신 20주 이상 확인 후 별도 충전됩니다. 카드사에 연락하여 신청하세요.',
       source: '국민건강보험공단',
       sourceUrl: 'https://www.nhis.or.kr',
     },

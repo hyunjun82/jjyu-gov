@@ -1,94 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          주택연금은 <strong>부부 중 1명이 만 55세 이상</strong>이고,
-          <strong>공시가격 12억원 이하</strong> 주택을 소유한 경우 신청할 수 있습니다.
-          실거주 중인 주택을 담보로 맡기고 <strong>평생 월 연금을 수령</strong>하는 국가 보증 상품입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        가입 조건과 신청 절차를 정확히 파악하면 노후 소득을 안정적으로 확보할 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="condition">
-        <h2 className="detail-card-head">가입 조건</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>연령</strong></td><td>부부 중 1명 만 55세 이상</td></tr>
-              <tr><td><strong>주택 공시가격</strong></td><td>12억원 이하</td></tr>
-              <tr><td><strong>주택 유형</strong></td><td>단독주택·아파트·다세대·연립 등 일반 주택</td></tr>
-              <tr><td><strong>거주 요건</strong></td><td>실제 거주 중인 주택 (주민등록 기준)</td></tr>
-              <tr><td><strong>주택 수</strong></td><td>1주택자 또는 보유 주택 합산 공시가 12억원 이하</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 한국주택금융공사(HF) 홈페이지 또는 콜센터(1688-8114) 상담
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 가입 신청서 작성 및 주택 감정평가 의뢰
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 공사 심사 → 보증서 발급
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 협약 금융기관에서 대출약정 체결 → 월 연금 수령 시작
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="monthly">
-        <h2 className="detail-card-head">월 수령액 예시</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>가입 연령</th><th>주택 공시가</th><th>월 수령액(정액형)</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>70세</td><td>3억원</td><td>약 92만 3천원</td></tr>
-              <tr><td>70세</td><td>6억원</td><td>약 184만 6천원</td></tr>
-              <tr><td>60세</td><td>3억원</td><td>약 64만원</td></tr>
-              <tr><td>55세</td><td>3억원</td><td>약 47만원</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>
-            ※ 정액형 기준, 실제 수령액은 HF 홈페이지 모의계산기로 확인
-          </p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            월 수령액 계산, 기초연금 중복, 해지 시 주의사항까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/home-equity-pension" className="btn-cta">
-            주택연금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 주택연금55세가입조건신청방법SpokeContent: SpokeData = {
   h1: '주택연금 가입 조건, 55세 이상 공시가 12억 이하 주택 소유자 신청 방법',
@@ -96,12 +6,160 @@ export const 주택연금55세가입조건신청방법SpokeContent: SpokeData = 
   description:
     '주택연금 가입 조건: 부부 중 1명 만 55세 이상, 공시가 12억원 이하 주택 실거주. HF 상담→감정평가→보증서→월 연금 수령. 70세 3억 주택 기준 월 약 92만3천원.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '연령 조건': '부부 중 1명 만 55세 이상',
+    '주택 기준': '공시가격 12억원 이하',
+    '거주 요건': '실제 거주 중인 주택 (주민등록 기준)',
+    '신청처': '한국주택금융공사(HF) 1688-8114',
+    '소요 기간': '신청부터 연금 수령까지 통상 3~4주',
+  },
+  keyFactsHighlights: {
+    '연령 조건': ['만 55세 이상'],
+    '주택 기준': ['12억원 이하'],
+    '신청처': ['1688-8114'],
+    '소요 기간': ['3~4주'],
+  },
+  qa: [
+    {
+      q: '주택연금 가입 조건은 무엇인가요?',
+      anchor: 'conditions',
+      intro: '주택연금 가입을 위해서는 부부 중 1명이 만 55세 이상이어야 하고, 공시가격 12억원 이하의 주택을 소유하여 실제 거주 중이어야 합니다. 1주택자가 원칙이지만, 2주택자라도 합산 공시가격이 12억원 이하면 가입할 수 있습니다(3년 내 1주택 처분 조건). 주민등록상 주소지와 실제 거주지가 같아야 합니다.',
+      highlights: ['만 55세 이상', '공시가 12억원 이하', '실제 거주', '주민등록'],
+      table: {
+        headers: ['항목', '기준'],
+        rows: [
+          ['연령', '부부 중 1명 만 55세 이상'],
+          ['주택 공시가격', '12억원 이하'],
+          ['주택 유형', '단독주택·아파트·다세대·연립 등'],
+          ['거주 요건', '실제 거주 중 (주민등록 기준)'],
+          ['주택 수', '1주택자 또는 합산 공시가 12억원 이하'],
+        ],
+      },
+      box: {
+        label: '핵심 조건',
+        content: '만 55세 이상 + 공시가 12억원 이하 + 실거주. 부양의무자 기준이나 소득 기준은 없습니다.',
+      },
+    },
+    {
+      q: '신청 절차는 어떻게 되나요?',
+      anchor: 'apply-process',
+      intro: '주택연금 신청은 HF 홈페이지 또는 콜센터(1688-8114) 상담 → 가입 신청서 제출 및 주택 감정평가 → 보증서 발급 → 협약 금융기관에서 대출약정 체결 → 월 연금 수령 시작 순서로 진행됩니다. 신청부터 연금 수령까지 통상 3~4주가 소요됩니다.',
+      highlights: ['1688-8114', '감정평가', '보증서 발급', '3~4주'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', 'HF 홈페이지(hf.go.kr) 또는 콜센터(1688-8114) 상담'],
+          ['2단계', '가입 신청서 작성 및 주택 감정평가 의뢰'],
+          ['3단계', '공사 심사 → 보증서 발급'],
+          ['4단계', '협약 금융기관 대출약정 → 월 연금 수령 시작'],
+        ],
+      },
+      box: {
+        label: '신청처',
+        content: 'HF 콜센터: 1688-8114 / 홈페이지: hf.go.kr',
+      },
+    },
+    {
+      q: '55세 기준은 부부 중 누구 나이인가요?',
+      anchor: 'age-criteria',
+      intro: '부부 중 1명이 만 55세 이상이면 됩니다. 연장자(나이 많은 쪽) 기준이 아니라, 부부 중 어느 한 명이라도 만 55세 이상이면 신청 가능합니다. 단, 수령액 산정 시에는 부부 중 연소자(나이 적은 쪽)를 기준으로 합니다. 나이 적은 배우자 기준으로 수령액이 산정되어 더 보수적으로 계산됩니다.',
+      highlights: ['부부 중 1명 만 55세 이상', '수령액 산정 시 연소자 기준'],
+      table: {
+        headers: ['구분', '기준'],
+        rows: [
+          ['가입 자격', '부부 중 1명 만 55세 이상'],
+          ['수령액 산정', '부부 중 연소자(나이 적은 쪽) 기준'],
+          ['이유', '연소자 기준으로 더 오래 지급 가정 → 보수적 산정'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '가입은 부부 중 1명 55세 이상이면 되지만, 수령액은 연소자 기준으로 산정됩니다.',
+      },
+    },
+    {
+      q: '오피스텔도 주택연금에 가입할 수 있나요?',
+      anchor: 'officetel',
+      intro: '전용 85㎡ 이하 오피스텔로 실제 거주하고 있다면 가입이 가능합니다. 단, 업무용으로 등록된 오피스텔은 제외됩니다. 주거용으로 등록되고 실제 거주 중인 경우에 한합니다.',
+      highlights: ['전용 85㎡ 이하', '주거용', '업무용 제외'],
+      table: {
+        headers: ['주택 유형', '가입 가능 여부'],
+        rows: [
+          ['단독주택', '가능'],
+          ['아파트', '가능'],
+          ['다세대·연립', '가능'],
+          ['주거용 오피스텔 (전용 85㎡ 이하)', '가능'],
+          ['업무용 오피스텔', '불가'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '오피스텔 가입 여부는 HF 콜센터(1688-8114)에 사전 문의 권장.',
+      },
+    },
+    {
+      q: '2주택자도 신청할 수 있나요?',
+      anchor: 'two-house',
+      intro: '2주택자도 신청 가능합니다. 단, 두 주택의 합산 공시가격이 12억원 이하여야 하며, 주택연금 가입 후 3년 이내에 비거주 주택 1채를 처분해야 하는 조건이 있습니다. 3년 내 처분하지 않으면 주택연금이 해지될 수 있습니다.',
+      highlights: ['합산 12억원 이하', '3년 내 1채 처분', '미처분 시 해지 가능'],
+      table: {
+        headers: ['상황', '내용'],
+        rows: [
+          ['2주택 합산 12억원 이하', '가입 가능 (3년 내 1채 처분 조건)'],
+          ['2주택 합산 12억원 초과', '가입 불가'],
+          ['처분 기한 미준수', '주택연금 해지 가능'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '2주택 가입 시 3년 내 비거주 주택 처분 의무. 미이행 시 해지 위험.',
+      },
+    },
+    {
+      q: '소득이나 자산 기준이 있나요?',
+      anchor: 'no-income-limit',
+      intro: '주택연금은 소득이나 자산 기준이 없습니다. 연금이나 근로소득이 있어도 가입 가능하며, 국민연금이나 기초연금과도 동시에 수령할 수 있습니다. 단, 주택연금 수령액이 기초연금 소득 인정액에 포함될 수 있어 기초연금 수급 여부에 영향을 줄 수 있습니다.',
+      highlights: ['소득 기준 없음', '자산 기준 없음', '기초연금 소득 인정액 영향'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['소득 기준', '없음 (소득 무관 가입 가능)'],
+          ['자산 기준', '없음'],
+          ['국민연금과 중복', '가능'],
+          ['기초연금과 중복', '가능 (단, 소득 인정액 영향 확인 필요)'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '기초연금 수급자는 주택연금 가입 전 소득 인정액 영향을 국민연금공단(1355)에서 확인 권장.',
+      },
+    },
+    {
+      q: '신청에 필요한 서류는 무엇인가요?',
+      anchor: 'documents',
+      intro: '주택연금 신청 시 필요한 서류는 신분증(주민등록증·운전면허증), 주민등록등본, 가족관계증명서, 건물등기사항증명서, 토지등기사항증명서, 건축물대장 등입니다. HF 지사 방문 또는 전화 상담(1688-8114)을 통해 정확한 서류 목록을 확인하는 것이 좋습니다.',
+      highlights: ['신분증', '주민등록등본', '등기사항증명서', '1688-8114'],
+      table: {
+        headers: ['서류', '내용'],
+        rows: [
+          ['신분증', '주민등록증 또는 운전면허증'],
+          ['주민등록등본', '최근 3개월 이내 발급'],
+          ['가족관계증명서', '부부 관계 확인'],
+          ['건물·토지 등기사항증명서', '주택 소유권 확인'],
+          ['건축물대장', '주택 유형·면적 확인'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '정확한 서류 목록은 HF 콜센터(1688-8114) 또는 가까운 HF 지사에 문의.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '55세 기준은 부부 중 누구 나이인가요?',
-      a: '부부 중 연장자(나이 많은 쪽) 기준이 아니라, 주택 소유자 또는 부부 중 1명이 만 55세 이상이면 됩니다.',
+      a: '부부 중 1명 만 55세 이상이면 됩니다.',
       source: '한국주택금융공사',
       sourceUrl: 'https://www.hf.go.kr',
     },

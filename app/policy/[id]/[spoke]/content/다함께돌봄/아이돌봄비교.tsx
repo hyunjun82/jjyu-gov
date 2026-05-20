@@ -1,107 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          맞벌이 초등학생 가구라면 상황에 따라 선택이 달라집니다.
-          <strong>다함께돌봄센터</strong>는 월 10만원 이내로 정해진 시간에 기관에서 돌봄을 받고,
-          <strong>아이돌봄서비스</strong>는 집으로 돌봄 선생님이 방문해 유연하게 이용할 수 있지만 시간당 본인부담금이 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "아이돌봄서비스와 다함께돌봄센터, 맞벌이 가구는 어디를 신청하는 게 유리한가요?"
-        두 서비스를 비교 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">아이돌봄서비스 vs 다함께돌봄센터 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>다함께돌봄센터</th><th>아이돌봄서비스</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>대상</strong></td>
-                <td>만 6~12세 초등학생</td>
-                <td>만 12세 이하 (영유아~초등)</td>
-              </tr>
-              <tr>
-                <td><strong>장소</strong></td>
-                <td>센터(기관)</td>
-                <td>가정 방문</td>
-              </tr>
-              <tr>
-                <td><strong>비용</strong></td>
-                <td>월 10만원 이내</td>
-                <td>시간당 1,918~12,790원 (소득별)</td>
-              </tr>
-              <tr>
-                <td><strong>시간</strong></td>
-                <td>학기 14~20시 / 방학 9~18시</td>
-                <td>유연 (필요한 시간)</td>
-              </tr>
-              <tr>
-                <td><strong>주관</strong></td>
-                <td>보건복지부</td>
-                <td>여성가족부</td>
-              </tr>
-              <tr>
-                <td><strong>중복 이용</strong></td>
-                <td colSpan={2}>가능 (두 서비스 동시 이용 가능)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="which-to-choose">
-        <h2 className="detail-card-head">어떤 경우에 어디를 선택할까</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>다함께돌봄센터가 유리한 경우:</strong><br />
-            학교 수업 후 일정 시간(오후 2~8시) 돌봄이 필요한 경우. 월정액(10만원 이내)으로 비용 예측이 쉽고 단체 프로그램도 제공됩니다.
-          </div>
-          <div className="info-box">
-            <strong>아이돌봄서비스가 유리한 경우:</strong><br />
-            야간 야근·교대 근무로 불규칙한 시간에 돌봄이 필요하거나, 영아~초등 다양한 연령 자녀를 함께 돌봄 받아야 하는 경우.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="overlap">
-        <h2 className="detail-card-head">두 서비스 동시 이용</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            아이돌봄서비스와 다함께돌봄센터는 <strong>중복 이용이 가능</strong>합니다.
-          </div>
-          <div className="info-box">
-            예를 들어 평일에는 다함께돌봄센터를 이용하고, 부모 야근이나 긴급 상황에는 아이돌봄서비스를 활용하는 방식으로 조합할 수 있습니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            이용료, 신청 방법, 운영 시간 등<br />
-            다함께돌봄센터 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/community-care-center" className="btn-cta">
-            다함께돌봄센터 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 다함께돌봄아이돌봄비교SpokeContent: SpokeData = {
   h1: '아이돌봄서비스와 다함께돌봄센터, 초등학생 맞벌이 가구는 어디를 신청해야 하나',
@@ -109,8 +6,80 @@ export const 다함께돌봄아이돌봄비교SpokeContent: SpokeData = {
   description:
     '다함께돌봄센터(기관, 월 10만원 이내, 학기 14~20시)와 아이돌봄서비스(가정방문, 시간당 소득별 부담) 비교. 중복 이용 가능. 맞벌이 가구 상황에 따라 선택.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '다함께돌봄 대상': '만 6~12세 초등학생',
+    '다함께돌봄 비용': '월 10만원 이내',
+    '아이돌봄 대상': '만 12세 이하',
+    '아이돌봄 비용': '시간당 1,918~12,790원 (소득별)',
+    '중복 이용': '가능',
+  },
+  keyFactsHighlights: {
+    '다함께돌봄 비용': ['월 10만원 이내'],
+    '중복 이용': ['가능'],
+  },
+  qa: [
+    {
+      q: '아이돌봄서비스와 다함께돌봄센터의 차이는?',
+      anchor: '두서비스비교',
+      intro: '맞벌이 초등학생 가구라면 상황에 따라 선택이 달라집니다. 다함께돌봄센터는 월 10만원 이내로 정해진 시간에 기관에서 돌봄을 받는 방식이고, 아이돌봄서비스는 집으로 돌봄 선생님이 방문해 유연하게 이용할 수 있지만 시간당 본인부담금이 있습니다. 두 서비스의 주관 부처도 다릅니다.',
+      highlights: ['다함께돌봄 월 10만원', '아이돌봄 시간당 소득별', '기관 vs 가정방문'],
+      table: {
+        headers: ['항목', '다함께돌봄센터', '아이돌봄서비스'],
+        rows: [
+          ['대상', '만 6~12세 초등학생', '만 12세 이하 (영유아~초등)'],
+          ['장소', '센터(기관)', '가정 방문'],
+          ['비용', '월 10만원 이내', '시간당 1,918~12,790원 (소득별)'],
+          ['시간', '학기 14~20시 / 방학 9~18시', '유연 (필요한 시간)'],
+          ['주관', '보건복지부', '여성가족부'],
+          ['중복 이용', '가능 (두 서비스 동시 이용 가능)', ''],
+        ],
+      },
+      box: { label: '핵심 차이', content: '다함께돌봄: 기관 방문형, 월정액. 아이돌봄: 가정 방문형, 시간당 소득별. 중복 이용 가능.' },
+    },
+    {
+      q: '어떤 경우에 다함께돌봄센터가 유리한가요?',
+      anchor: '다함께돌봄유리',
+      intro: '다함께돌봄센터는 학교 수업 후 일정 시간(오후 2~8시) 돌봄이 필요한 경우에 특히 유리합니다. 월정액(10만원 이내)으로 비용 예측이 쉽고, 학습 지원·놀이·체험 등 다양한 프로그램도 포함되어 있습니다. 방학에는 오전 9시부터 운영해 종일 돌봄이 가능합니다.',
+      highlights: ['월정액 예측 가능', '프로그램 포함', '방학 종일 돌봄'],
+      box: { label: '다함께돌봄 추천', content: '학기 중 일정한 시간 돌봄 + 비용 예측 중요 + 프로그램 원하는 경우에 유리.' },
+    },
+    {
+      q: '어떤 경우에 아이돌봄서비스가 유리한가요?',
+      anchor: '아이돌봄유리',
+      intro: '야간 야근·교대 근무 등 불규칙한 시간에 돌봄이 필요하거나, 영아~초등 다양한 연령 자녀를 함께 돌봄 받아야 하는 경우에 아이돌봄서비스가 유리합니다. 가정 방문형으로 유연한 시간 조정이 가능하며, 소득이 낮을수록 시간당 부담이 줄어듭니다. 가형(중위 75% 이하)은 시간당 1,918원입니다.',
+      highlights: ['불규칙 근무', '가정 방문', '유연한 시간', '소득별 부담'],
+      box: { label: '아이돌봄 추천', content: '야간·불규칙 근무, 영아 포함 가구, 유연한 시간 필요한 경우에 유리.' },
+    },
+    {
+      q: '두 서비스를 동시에 이용할 수 있나요?',
+      anchor: '동시이용',
+      intro: '아이돌봄서비스와 다함께돌봄센터는 중복 이용이 가능합니다. 예를 들어 평일에는 다함께돌봄센터를 이용하고, 부모 야근이나 긴급 상황에는 아이돌봄서비스를 활용하는 방식으로 조합할 수 있습니다. 두 서비스를 조합하면 비용 효율성과 시간 유연성을 동시에 확보할 수 있습니다.',
+      highlights: ['중복 이용 가능', '조합 전략', '평일 센터 + 긴급 아이돌봄'],
+      box: { label: '조합 예시', content: '평일 정규 돌봄 → 다함께돌봄센터. 야근·긴급 상황 → 아이돌봄서비스. 두 서비스 중복 이용 가능.' },
+    },
+    {
+      q: '초등학생도 아이돌봄서비스를 이용할 수 있나요?',
+      anchor: '초등아이돌봄',
+      intro: '아이돌봄서비스는 만 12세 이하라면 이용 가능합니다. 초등학생도 대상에 포함되므로, 다함께돌봄센터 대기 중이거나 야간 돌봄이 필요한 경우 아이돌봄서비스를 신청할 수 있습니다. idolbom.go.kr에서 신청하면 됩니다.',
+      highlights: ['만 12세 이하', '초등학생 포함', 'idolbom.go.kr'],
+      box: { label: '신청', content: 'idolbom.go.kr에서 신청. 만 12세 이하 초등학생도 이용 가능.' },
+    },
+    {
+      q: '비용 면에서 어느 쪽이 더 저렴한가요?',
+      anchor: '비용비교',
+      intro: '다함께돌봄센터는 월 10만원 이내 정액이라 장시간 이용 시 유리합니다. 아이돌봄서비스는 소득이 낮을수록 시간당 부담이 줄어들어 가형(중위 75% 이하)은 시간당 1,918원으로 저렴하지만, 하루 몇 시간씩 매일 이용하면 월 비용이 높아질 수 있습니다. 이용 시간과 소득 수준에 따라 유불리가 달라집니다.',
+      highlights: ['다함께돌봄 월정액', '아이돌봄 소득별', '이용 시간 비교'],
+      box: { label: '비교', content: '장시간 이용 → 다함께돌봄 월정액 유리. 단시간·불규칙 이용 → 아이돌봄 유리(소득별 차등).' },
+    },
+    {
+      q: '신청은 어디서 하나요?',
+      anchor: '신청처',
+      intro: '다함께돌봄센터는 dadol.or.kr 또는 정부24에서 신청합니다. 아이돌봄서비스는 idolbom.go.kr(아이돌봄 홈페이지)에서 신청합니다. 두 서비스 모두 온라인으로 신청할 수 있으며, 방문 신청도 가능합니다.',
+      highlights: ['dadol.or.kr', 'idolbom.go.kr', '정부24'],
+      box: { label: '신청처', content: '다함께돌봄: dadol.or.kr / 정부24. 아이돌봄: idolbom.go.kr.' },
+    },
+  ],
   faqData: [
     {
       q: '다함께돌봄센터와 아이돌봄서비스를 동시에 이용할 수 있나요?',
@@ -120,7 +89,7 @@ export const 다함께돌봄아이돌봄비교SpokeContent: SpokeData = {
     },
     {
       q: '비용 면에서 어느 쪽이 더 저렴한가요?',
-      a: '다함께돌봄센터는 월 10만원 이내 정액이라 장시간 이용 시 유리합니다. 아이돌봄서비스는 소득이 낮을수록 시간당 부담이 줄어들어 가형(중위 75% 이하)은 시간당 1,918원으로 저렴합니다.',
+      a: '다함께돌봄센터는 월 10만원 이내 정액이라 장시간 이용 시 유리합니다. 아이돌봄서비스는 소득이 낮으면 시간당 1,918원(가형)으로 저렴하지만 매일 이용 시 월 비용이 올라갑니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

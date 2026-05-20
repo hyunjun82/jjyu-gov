@@ -1,115 +1,151 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          프리랜서 작가·음악가 등 국민연금 <strong>지역가입자</strong>라면
-          예술인 국민연금 보험료 지원 신청이 가능합니다.
-          예술활동증명 완료, 표준계약서 체결, 중위소득 120% 이내 소득 조건을 충족하면
-          <strong>월 최대 37,950원</strong>을 지원받을 수 있습니다.
-          단, <strong>직장가입자는 대상에서 제외</strong>됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "프리랜서 작가인데 국민연금 지역가입자입니다. 예술인 보험료 지원 신청이 가능한가요?"
-        가입 유형별 지원 여부를 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="type-comparison">
-        <h2 className="detail-card-head">프리랜서 작가인데 국민연금 지역가입자라면 예술인 보험료 지원 신청 가능한가</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>국민연금 가입 유형</th><th>지원 여부</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>지역가입자</strong></td>
-                <td>✅ 가능</td>
-                <td>프리랜서·자영업 예술인</td>
-              </tr>
-              <tr>
-                <td><strong>임의가입자</strong></td>
-                <td>✅ 가능</td>
-                <td>소득 없어도 자발적 가입자</td>
-              </tr>
-              <tr>
-                <td><strong>직장가입자</strong></td>
-                <td>❌ 불가</td>
-                <td>회사에 재직 중인 경우</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            프리랜서 작가·음악가·미술가 등 고용관계 없이 활동하는 예술인은
-            대부분 지역가입자에 해당해 지원 대상입니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="requirements">
-        <h2 className="detail-card-head">지역가입자 예술인이 추가로 충족해야 할 조건</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 예술활동증명 유효:</strong> 신청일 기준 예술활동증명이 완료된 상태
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 표준계약서 체결:</strong> 문화예술용역 계약 시 표준계약서 사용 이력
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>③ 소득 기준:</strong> 연소득 기준 중위소득 120% 이내
-          </div>
-          <div className="info-box">
-            <strong>④ 납부 이력:</strong> 전년도 3분기~당해 2분기 보험료 실제 납부
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply-info">
-        <h2 className="detail-card-head">신청 방법과 문의처</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 예술인경력정보시스템 kawfartist.kr → 복지지원 → 예술인국민연금보험료지원
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 기간:</strong> 매년 2월말~8월말 (예산 소진 시 조기 마감)
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> 한국예술인복지재단 사회보험팀 02-3668-0200
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 금액, 신청 절차, 두루누리 중복 여부 등<br />
-            예술인 국민연금 보험료 지원 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/artist-pension" className="btn-cta">
-            예술인 국민연금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 예술인연금지역가입자SpokeContent: SpokeData = {
   h1: '프리랜서 작가인데 국민연금 지역가입자라면 예술인 보험료 지원 신청 가능한가',
-  breadcrumb: '지역가입자',
-  description:
-    '국민연금 지역가입자·임의가입자 예술인은 예술인 국민연금 보험료 지원 신청 가능. 직장가입자는 제외. 예술활동증명+표준계약서+중위소득 120% 이내 조건 충족 시 월 최대 37,950원 지원.',
+  breadcrumb: '예술인국민연금 > 지역가입자',
+  description: '국민연금 지역가입자·임의가입자 예술인은 예술인 국민연금 보험료 지원 신청 가능. 직장가입자는 제외. 예술활동증명+표준계약서+중위소득 120% 이내 조건 충족 시 월 최대 37,950원 지원.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '지역가입자': '지원 가능 (프리랜서·자영업 예술인)',
+    '임의가입자': '지원 가능 (소득 없어도 자발적 가입자)',
+    '직장가입자': '지원 불가 (회사 재직 중)',
+    '지원 금액': '월 최대 37,950원',
+    '추가 조건': '예술활동증명 + 표준계약서 + 중위소득 120% 이내',
+  },
+  keyFactsHighlights: {
+    '지역가입자': ['지원 가능'],
+    '직장가입자': ['지원 불가'],
+    '지원 금액': ['37,950원'],
+  },
+  qa: [
+    {
+      q: '지역가입자 예술인은 지원을 신청할 수 있나요?',
+      anchor: 'local-eligible',
+      intro: '프리랜서 작가·음악가·미술가 등 고용관계 없이 활동하는 예술인은 대부분 지역가입자에 해당해 지원 대상입니다. 지역가입자이면서 예술활동증명 완료, 표준계약서 체결, 중위소득 120% 이내 소득 조건을 충족하면 월 최대 37,950원을 지원받을 수 있습니다.',
+      highlights: ['지역가입자', '프리랜서', '37,950원', '중위소득 120%'],
+      table: {
+        headers: ['국민연금 가입 유형', '지원 여부', '비고'],
+        rows: [
+          ['지역가입자', '가능', '프리랜서·자영업 예술인'],
+          ['임의가입자', '가능', '소득 없어도 자발적 가입자'],
+          ['직장가입자', '불가', '회사에 재직 중인 경우'],
+        ],
+      },
+      box: {
+        label: '핵심',
+        content: '지역가입자·임의가입자 → 예술인 국민연금 지원 신청 가능. 직장가입자 → 두루누리 신청.',
+      },
+    },
+    {
+      q: '내가 지역가입자인지 어떻게 확인하나요?',
+      anchor: 'check-type',
+      intro: '국민연금공단 고객센터(☎1355) 또는 내연금(nps.or.kr)에서 가입 유형을 확인할 수 있습니다. 고용관계 없이 프리랜서로 활동하면 지역가입자인 경우가 대부분입니다. 직장에 재직 중이면 직장가입자로 분류됩니다.',
+      highlights: ['☎1355', 'nps.or.kr', '프리랜서 → 지역가입자', '직장 재직 → 직장가입자'],
+      table: {
+        headers: ['확인 방법', '내용'],
+        rows: [
+          ['국민연금공단 전화', '☎1355'],
+          ['내연금 온라인', 'nps.or.kr → 내연금 → 가입 이력 조회'],
+          ['간단 판단', '프리랜서 활동 → 대부분 지역가입자'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '가입 유형 확인은 ☎1355 또는 nps.or.kr에서 하세요.',
+      },
+    },
+    {
+      q: '지역가입자 예술인이 추가로 충족해야 할 조건은 무엇인가요?',
+      anchor: 'additional-conditions',
+      intro: '지역가입자 외에 예술활동증명 유효, 표준계약서 체결, 연소득 기준 중위소득 120% 이내, 전년도 3분기~당해 2분기 보험료 실제 납부 등 조건을 충족해야 합니다. 이 조건들을 모두 충족해야 신청할 수 있습니다.',
+      highlights: ['예술활동증명', '표준계약서', '중위소득 120%', '납부 이력'],
+      table: {
+        headers: ['조건', '내용'],
+        rows: [
+          ['① 예술활동증명 유효', '신청일 기준 예술활동증명 완료 상태'],
+          ['② 표준계약서 체결', '문화예술용역 계약 시 표준계약서 사용 이력'],
+          ['③ 소득 기준', '연소득 기준 중위소득 120% 이내'],
+          ['④ 납부 이력', '전년도 3분기~당해 2분기 보험료 실제 납부'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '네 가지 조건을 모두 충족해야 신청 가능합니다.',
+      },
+    },
+    {
+      q: '임의가입자도 신청할 수 있나요?',
+      anchor: 'voluntary',
+      intro: '임의가입자도 지원 대상입니다. 소득이 없어도 자발적으로 국민연금에 가입한 경우 신청할 수 있습니다. 다른 조건(예술활동증명, 표준계약서, 소득 기준, 납부 이력)을 충족해야 합니다.',
+      highlights: ['임의가입자', '소득 없어도', '자발적 가입'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['임의가입자 정의', '소득 없어도 자발적으로 국민연금에 가입한 자'],
+          ['지원 여부', '가능 (다른 조건 충족 시)'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '임의가입자도 예술활동증명, 표준계약서 등 다른 조건을 충족하면 신청 가능합니다.',
+      },
+    },
+    {
+      q: '직장에 다니면서 예술 활동도 하는 경우는 어떻게 되나요?',
+      anchor: 'dual-activity',
+      intro: '직장가입자이면 예술인 국민연금 보험료 지원 대상에서 제외됩니다. 퇴직 후 지역가입자로 전환되면 신청 가능합니다. 직장에 다니면서 예술 활동을 병행하는 경우에는 두루누리 사회보험료 지원(10인 미만 사업장 해당 시)을 신청할 수 있습니다.',
+      highlights: ['직장가입자 제외', '퇴직 후 가능', '두루누리'],
+      table: {
+        headers: ['상황', '받을 수 있는 지원'],
+        rows: [
+          ['직장 재직 중 + 예술 병행 (직장가입자)', '예술인 국민연금 지원 불가, 두루누리 가능'],
+          ['퇴직 후 프리랜서 (지역가입자 전환)', '예술인 국민연금 지원 신청 가능'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '직장가입자 상태에서는 예술인 국민연금 지원을 받을 수 없습니다.',
+      },
+    },
+    {
+      q: '지역가입자로 전환된 지 얼마 안 됐는데 신청할 수 있나요?',
+      anchor: 'recent-switch',
+      intro: '지역가입자로 전환된 후 전년도 3분기~당해 2분기 기간의 보험료 납부 이력이 있어야 합니다. 전환된 지 얼마 안 됐다면 납부 이력이 부족할 수 있으므로, 납부 기간을 확인하고 다음 신청 기간에 신청하는 것이 더 나을 수 있습니다.',
+      highlights: ['납부 이력', '전환 후 기간', '다음 신청 기간'],
+      table: {
+        headers: ['상황', '대처'],
+        rows: [
+          ['납부 이력 충분', '신청 기간에 신청 가능'],
+          ['납부 이력 부족', '다음 연도 신청 기간에 신청'],
+          ['확인 방법', '☎1355 또는 02-3668-0200 문의'],
+        ],
+      },
+      box: {
+        label: '안내',
+        content: '납부 이력 충족 여부는 ☎1355 또는 사회보험팀(02-3668-0200)에 문의하세요.',
+      },
+    },
+    {
+      q: '지역가입자 예술인이 신청하는 방법은 무엇인가요?',
+      anchor: 'apply-method',
+      intro: '예술인경력정보시스템(kawfartist.kr)에 로그인 후 복지지원 메뉴에서 예술인국민연금보험료지원을 선택해 신청합니다. 신청 기간은 매년 2월말~8월말입니다. 필요 서류는 소득금액증명원, 표준계약서 사본, 국민연금 보험료 납부 증빙입니다.',
+      highlights: ['kawfartist.kr', '2월말~8월말', '소득금액증명원', '납부 증빙'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['신청처', 'kawfartist.kr 로그인 → 복지지원 → 예술인국민연금보험료지원'],
+          ['신청 기간', '매년 2월말~8월말 (예산 소진 시 조기 마감)'],
+          ['필요 서류', '소득금액증명원, 표준계약서 사본, 납부 증빙'],
+          ['문의', '사회보험팀 02-3668-0200'],
+        ],
+      },
+      box: {
+        label: '신청',
+        content: 'kawfartist.kr에서 온라인으로 신청하세요. 문의는 02-3668-0200.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '프리랜서 예술인이면 지역가입자인가요?',

@@ -1,98 +1,90 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          불법사금융예방대출은 <strong>신용평점 하위 20%</strong>이면서
-          <strong>연소득 3,500만 원 이하</strong>인 분이 신청할 수 있습니다.
-          여기에 더해 금융교육 이수 또는 복지멤버십 가입이 필수 조건입니다.
-          연체가 있어도 신청 가능합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        대부업조차 이용이 어려운 최저 신용등급의 분들을 위한 상품으로,
-        불법 사채를 쓰지 않아도 되도록 설계되었습니다.
-      </p>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격 요건</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>기본대출</th><th>추가대출</th><th>합계</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>비연체자</strong></td><td>100만 원</td><td>-</td><td>100만 원</td></tr>
-              <tr><td><strong>금융권 연체자</strong></td><td>50만 원</td><td>50만 원</td><td>최대 100만 원</td></tr>
-              <tr><td><strong>의료·주거·교육비 증빙 연체자</strong></td><td>100만 원</td><td>-</td><td>100만 원</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="requirements">
-        <h2 className="detail-card-head">공통 필수 조건</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신용평점:</strong> 신용평점 하위 20% 이하
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소득:</strong> 연소득 3,500만 원 이하
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>필수 이수:</strong> 금융교육 이수 (서금원 포털, 3과목 중 1과목) OR 복지멤버십 가입 중 택 1
-          </div>
-          <div className="info-box">
-            <strong>신청처:</strong> 전국 50개 서민금융통합지원센터 방문 (사전 예약 ☎1397 필수)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="social">
-        <h2 className="detail-card-head">사회적배려대상자 우대</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>일반 금리:</strong> 연 12.5%
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사회적배려대상자 금리:</strong> 연 9.9%
-          </div>
-          <div className="info-box">
-            <strong>해당 대상:</strong> 기초수급자·차상위·자활근로자·근로장려금 수급자·등록 장애인·한부모가족·다문화가족·북한이탈주민
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            금리·한도 상세, 신청 방법, 완제자 인센티브까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/illegal-loan-prevention" className="btn-cta">
-            불법사금융예방대출 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 불법사금융예방대출신청자격신용평점하위20기준SpokeContent: SpokeData = {
   h1: '불법사금융예방대출 신청 자격, 신용평점 하위 20% 이하 기준 확인',
   breadcrumb: '신청자격신용평점하위20기준',
   description:
     '불법사금융예방대출 신청 자격: 신용평점 하위 20% + 연소득 3,500만 원 이하. 금융교육 이수 또는 복지멤버십 가입 필수. 연체자도 신청 가능(한도 조정). 사회적배려대상자 연 9.9%.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신용 기준': '신용평점 하위 20% 이하',
+    '소득 기준': '연소득 3,500만원 이하',
+    '필수 조건': '금융교육 이수 또는 복지멤버십 가입',
+    '연체자 신청': '가능 (한도 조정)',
+    '사회적배려대상자': '연 9.9% 우대금리',
+  },
+  keyFactsHighlights: {
+    '신용 기준': ['하위 20% 이하'],
+    '소득 기준': ['3,500만원 이하'],
+    '연체자 신청': ['가능'],
+  },
+  qa: [
+    {
+      q: '불법사금융예방대출 신청 자격은 무엇인가요?',
+      anchor: 'eligibility',
+      intro: '불법사금융예방대출은 신용평점 하위 20% 이하이면서 연소득 3,500만원 이하인 분이 신청할 수 있습니다. 여기에 더해 금융교육 이수 또는 복지멤버십 가입이 필수 조건입니다. 연체가 있어도 신청 가능합니다. 대부업조차 이용이 어려운 최저 신용등급의 분들을 위한 상품으로, 불법 사채를 쓰지 않아도 되도록 설계되었습니다.',
+      highlights: ['신용평점 하위 20%', '연소득 3,500만원 이하', '연체가 있어도 신청 가능'],
+      table: {
+        headers: ['조건', '기준'],
+        rows: [
+          ['신용평점', '하위 20% 이하'],
+          ['소득', '연소득 3,500만원 이하'],
+          ['필수 이수', '금융교육 이수 OR 복지멤버십 가입 중 택 1'],
+          ['신청처', '전국 50개 서민금융통합지원센터 방문 (☎1397 예약 필수)'],
+        ],
+      },
+    },
+    {
+      q: '연체가 있어도 신청할 수 있나요?',
+      anchor: 'with-overdue',
+      intro: '연체가 있어도 신청이 가능합니다. 다만 연체 유형에 따라 한도가 조정됩니다. 비연체자는 기본 100만원, 금융권 연체자는 기본 50만원(추가 50만원 신청 가능)입니다. 의료·주거·교육비 지출로 인한 연체자는 증빙서류 제출 시 기본 100만원이 가능합니다.',
+      highlights: ['연체가 있어도 가능', '한도 조정', '기본 50만원', '의료·주거·교육비 증빙'],
+      table: {
+        headers: ['구분', '기본대출', '추가대출', '합계'],
+        rows: [
+          ['비연체자', '100만원', '-', '100만원'],
+          ['금융권 연체자', '50만원', '50만원', '최대 100만원'],
+          ['의료·주거·교육비 증빙 연체자', '100만원', '-', '100만원'],
+        ],
+      },
+    },
+    {
+      q: '신용평점 하위 20%인지 어떻게 확인하나요?',
+      anchor: 'check-credit',
+      intro: '서민금융통합지원센터 방문 또는 서민금융 잇다 앱에서 자격조회를 통해 확인할 수 있습니다. 방문 전 ☎1397로 문의해도 됩니다. 신용평점 하위 20%는 KCB 또는 NICE 평점 기준으로 결정되며, 정확한 기준은 센터에서 안내합니다. 본인의 신용점수는 카카오뱅크·토스 등 앱에서 무료로 조회할 수 있습니다.',
+      highlights: ['서민금융 잇다 앱', '☎1397', '신용점수 무료 조회'],
+      box: { label: '신용평점 확인 방법', content: '서민금융 잇다 앱 → 자격조회\n☎1397 전화 문의\n카카오뱅크·토스 등에서 본인 신용점수 무료 조회' },
+    },
+    {
+      q: '사회적배려대상자는 누가 해당되나요?',
+      anchor: 'social-care',
+      intro: '사회적배려대상자는 기초수급자, 차상위계층, 자활근로자, 근로장려금 수급자, 등록 장애인, 한부모가족, 다문화가족, 북한이탈주민이 해당됩니다. 이 대상에 해당하면 일반 금리(연 12.5%)보다 낮은 연 9.9%가 적용됩니다. 증빙서류를 센터 방문 시 지참해야 합니다.',
+      highlights: ['기초수급자', '등록 장애인', '한부모가족', '연 9.9%'],
+      box: { label: '사회적배려대상자 목록 및 증빙', content: '기초생활수급자 → 수급자증명서\n차상위계층 → 차상위계층 확인서\n등록 장애인 → 장애인등록증\n한부모가족 → 한부모가족증명서\n다문화가족·북한이탈주민 → 해당 확인서' },
+    },
+    {
+      q: '온라인으로 신청할 수 있나요?',
+      anchor: 'online',
+      intro: '최초 신청은 전국 50개 서민금융통합지원센터를 직접 방문해야 합니다. 온라인이나 앱으로 최초 신청은 불가능합니다. 단, 추가대출이나 재대출은 서민금융 잇다 앱으로도 신청이 가능합니다. 방문 전 ☎1397로 사전 예약을 해야 합니다.',
+      highlights: ['방문 필수', '앱은 추가·재대출만', '☎1397 예약'],
+      box: { label: '신청 방법 요약', content: '최초 신청: 센터 방문 필수 (☎1397 예약 후)\n추가대출: 서민금융 잇다 앱 또는 센터 방문\n재대출 (완제자): 서민금융 잇다 앱 또는 센터 방문' },
+    },
+    {
+      q: '대부업 이용 중에도 신청할 수 있나요?',
+      anchor: 'with-moneylender',
+      intro: '신청 가능합니다. 신용평점 하위 20%이면서 연소득 3,500만원 이하면 신청할 수 있습니다. 다만 기존 금융권에 연체가 있는 경우 기본 한도가 50만원이 됩니다. 대부업 이용 자체가 결격 사유는 아닙니다.',
+      highlights: ['신청 가능', '연체 시 기본 50만원', '결격 사유 아님'],
+      box: { label: '대부업 이용 중 신청 시', content: '신용평점 하위 20% + 연소득 3,500만원 이하면 신청 가능\n금융권 연체가 있으면 기본한도 50만원 (추가 50만원 신청 가능)' },
+    },
+    {
+      q: '근로소득이 없는 경우도 신청 가능한가요?',
+      anchor: 'no-income',
+      intro: '소득이 없거나 비정규직·일용직 등 소득이 불규칙한 경우도 연소득 3,500만원 이하 조건을 충족하면 신청이 가능합니다. 소득 증빙은 근로소득 원천징수영수증 외에 사업소득 확인서, 국민연금·건강보험료 납부 내역 등 다양한 방법으로 가능합니다. 소득이 전혀 없는 경우 자격 심사에서 불리할 수 있으므로 센터에서 상담받는 것이 좋습니다.',
+      highlights: ['3,500만원 이하면 가능', '소득 증빙 다양', '센터 상담 권장'],
+      box: { label: '소득 증빙 종류', content: '근로자: 근로소득 원천징수영수증\n사업자: 사업소득 확인서\n기타: 국민연금·건강보험료 납부 내역, 금융거래 확인서 등' },
+    },
+  ],
   faqData: [
     {
       q: '신용평점 하위 20%인지 어떻게 확인하나요?',

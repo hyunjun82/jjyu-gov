@@ -1,99 +1,85 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          서민금융통합지원센터와 신용회복위원회는 <strong>같은 곳에서 함께 이용</strong>할 수 있습니다.
-          센터 내에 신용회복위원회 창구가 함께 운영되므로,
-          한 번 방문으로 <strong>자금지원과 채무조정 상담을 동시에</strong> 받을 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        연체 전이라면 프리워크아웃, 연체 후라면 개인워크아웃, 상황이 더 심각하면
-        법원 개인회생·파산 절차로 연계됩니다. 어떤 경우든 먼저 상담을 받아보세요.
-      </p>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">채무조정 유형별 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>유형</th><th>기관</th><th>대상</th><th>특징</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>프리워크아웃</strong></td><td>신용회복위원회</td><td>연체 전 사전 조정 희망자</td><td>연체 전 선제적 채무 조정</td></tr>
-              <tr><td><strong>개인워크아웃</strong></td><td>신용회복위원회</td><td>연체 채무 보유자</td><td>원금 감면·이자 면제 가능</td></tr>
-              <tr><td><strong>개인회생</strong></td><td>법원 (연계 지원)</td><td>채무 과다, 법원 절차 필요</td><td>법원 인가 후 3~5년 분할 상환</td></tr>
-              <tr><td><strong>개인파산</strong></td><td>법원 (연계 지원)</td><td>상환 능력 없는 경우</td><td>법원 면책 결정 후 채무 소멸</td></tr>
-              <tr><td><strong>국민행복기금 조정</strong></td><td>국민행복기금</td><td>국민행복기금 채무 보유자</td><td>별도 채무조정 프로그램</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="center">
-        <h2 className="detail-card-head">서민금융통합지원센터 vs 신용회복위원회 차이</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>서민금융통합지원센터:</strong> 자금지원·채무조정·고용복지 원스톱 종합 창구
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신용회복위원회:</strong> 개인워크아웃·프리워크아웃 채무조정 전문 기관
-          </div>
-          <div className="info-box">
-            <strong>핵심:</strong> 센터 내에 신용회복위원회 창구가 함께 운영되므로 별도로 방문할 필요 없음
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="flow">
-        <h2 className="detail-card-head">채무조정 신청 흐름</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>연체 전:</strong> 프리워크아웃 → 신용회복위원회 (센터 내 창구)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>연체 후:</strong> 개인워크아웃 → 신용회복위원회 (센터 내 창구)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>채무 과다:</strong> 개인회생·파산 → 법원 절차 연계 지원
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> ☎1397 또는 신용회복위원회 ☎1600-5500
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            이용 대상, 대출 종류, 1397 이용법까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/seomin-financial-center" className="btn-cta">
-            서민금융통합지원센터 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 서민금융통합지원센터신용회복위원회채무조정비교SpokeContent: SpokeData = {
   h1: '서민금융통합지원센터 vs 신용회복위원회, 채무조정 어디서 받아야 하나',
   breadcrumb: '신용회복위원회채무조정비교',
   description:
     '서민금융통합지원센터 내 신용회복위원회 창구 함께 운영. 프리워크아웃(연체 전), 개인워크아웃(연체 후), 개인회생·파산 법원 연계까지 원스톱. ☎1397 또는 ☎1600-5500 문의.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '프리워크아웃': '연체 전 사전 조정',
+    '개인워크아웃': '연체 후 채무조정',
+    '개인회생·파산': '법원 연계 지원',
+    '원스톱 처리': '센터 내 신복위 창구 운영',
+    '문의': '☎1397 또는 ☎1600-5500',
+  },
+  keyFactsHighlights: {
+    '프리워크아웃': ['연체 전'],
+    '개인워크아웃': ['연체 후'],
+    '원스톱 처리': ['원스톱'],
+    '문의': ['☎1397', '☎1600-5500'],
+  },
+  qa: [
+    {
+      q: '서민금융통합지원센터와 신용회복위원회의 차이는 무엇인가요?',
+      anchor: 'center',
+      intro: '서민금융통합지원센터는 자금지원·채무조정·고용복지 원스톱 종합 창구이고, 신용회복위원회는 개인워크아웃·프리워크아웃 채무조정 전문 기관입니다. 핵심은 센터 내에 신용회복위원회 창구가 함께 운영되므로 별도로 방문할 필요가 없다는 점입니다.',
+      highlights: ['원스톱 종합 창구', '채무조정 전문', '별도 방문 불필요'],
+      box: { label: '두 기관의 관계', content: '서민금융통합지원센터: 종합 창구 (자금지원+채무조정+고용복지)\n신용회복위원회: 채무조정 전문 기관\n→ 센터 내에 신복위 창구 함께 운영 (한 곳에서 처리 가능)' },
+    },
+    {
+      q: '채무조정 유형은 어떻게 나뉘나요?',
+      anchor: 'compare',
+      intro: '채무조정은 연체 전 프리워크아웃, 연체 후 개인워크아웃으로 나뉩니다. 채무 과다 시 법원 개인회생이나 개인파산으로 연계됩니다. 국민행복기금 채무자는 별도 채무조정 프로그램을 이용합니다.',
+      highlights: ['프리워크아웃', '개인워크아웃', '개인회생', '개인파산'],
+      table: {
+        headers: ['유형', '기관', '대상', '특징'],
+        rows: [
+          ['프리워크아웃', '신용회복위원회', '연체 전 사전 조정 희망자', '연체 전 선제적 채무 조정'],
+          ['개인워크아웃', '신용회복위원회', '연체 채무 보유자', '원금 감면·이자 면제 가능'],
+          ['개인회생', '법원 (연계 지원)', '채무 과다, 법원 절차 필요', '법원 인가 후 3~5년 분할 상환'],
+          ['개인파산', '법원 (연계 지원)', '상환 능력 없는 경우', '법원 면책 결정 후 채무 소멸'],
+          ['국민행복기금 조정', '국민행복기금', '국민행복기금 채무 보유자', '별도 채무조정 프로그램'],
+        ],
+      },
+    },
+    {
+      q: '연체 전에 미리 채무조정을 받을 수 있나요?',
+      anchor: 'pre-workout',
+      intro: '프리워크아웃은 연체가 발생하기 전에 사전적으로 채무를 조정하는 제도입니다. 현재 연체는 없지만 상환이 어렵다고 판단될 때 미리 신청하면 신용 기록에 덜 불리하게 채무를 조정할 수 있습니다. 서민금융통합지원센터 내 신용회복위원회 창구에서 신청합니다.',
+      highlights: ['연체 전 신청', '신용 기록 덜 불리', '프리워크아웃'],
+      box: { label: '프리워크아웃 신청 방법', content: '서민금융통합지원센터 방문 → 신용회복위원회 창구\n또는 신용회복위원회 직접 방문 ☎1600-5500\n(연체 발생 전 신청 권장)' },
+    },
+    {
+      q: '이미 연체가 발생했는데 채무조정을 받을 수 있나요?',
+      anchor: 'after-overdue',
+      intro: '연체가 발생한 경우 개인워크아웃(신용회복위원회)을 통해 채무조정을 받을 수 있습니다. 원금 감면과 이자 면제가 가능하며, 서민금융통합지원센터 내 신용회복위원회 창구에서 한 번에 처리할 수 있습니다.',
+      highlights: ['개인워크아웃', '원금 감면', '이자 면제', '센터 내 신복위 창구'],
+      box: { label: '연체 후 채무조정 흐름', content: '서민금융통합지원센터 방문 → 신용회복위원회 창구 연계\n개인워크아웃 신청 → 원금 감면·이자 면제 협상\n또는 ☎1600-5500 직접 문의' },
+    },
+    {
+      q: '신용회복위원회에 직접 가야 하나요, 센터에 가도 되나요?',
+      anchor: 'where',
+      intro: '서민금융통합지원센터 내에 신용회복위원회 창구가 함께 운영됩니다. 센터를 방문하면 별도로 신용회복위원회를 찾아갈 필요 없이 한 곳에서 처리할 수 있습니다. 물론 신용회복위원회에 직접 방문해도 됩니다.',
+      highlights: ['센터 내 창구 운영', '별도 방문 불필요', '직접 방문도 가능'],
+      box: { label: '문의 창구', content: '서민금융통합지원센터 방문 → 내부 신복위 창구\n신용회복위원회 직접 방문 가능\n전화: ☎1397 (서민금융통합지원센터)\n전화: ☎1600-5500 (신용회복위원회)' },
+    },
+    {
+      q: '채무조정 신청 흐름은 어떻게 되나요?',
+      anchor: 'flow',
+      intro: '연체 전이면 프리워크아웃, 연체 후이면 개인워크아웃, 채무가 너무 많으면 법원 개인회생·파산 연계를 검토합니다. ☎1397 또는 신용회복위원회 ☎1600-5500으로 문의하면 상황에 맞는 방법을 안내받을 수 있습니다.',
+      highlights: ['연체 전: 프리워크아웃', '연체 후: 개인워크아웃', '과다: 개인회생·파산'],
+      box: { label: '상황별 채무조정 경로', content: '연체 전 → 프리워크아웃 → 신용회복위원회\n연체 후 → 개인워크아웃 → 신용회복위원회\n채무 과다 → 개인회생·파산 → 법원 연계\n☎1397 또는 ☎1600-5500으로 상담' },
+    },
+    {
+      q: '채무조정 중에도 대출 신청이 가능한가요?',
+      anchor: 'during-adjustment',
+      intro: '채무조정 진행 중에는 신규 대출이 어렵습니다. 채무조정 완료 후 신용회복 단계에 따라 서민금융 상품 이용이 가능해집니다. 정확한 상황은 ☎1397 또는 신용회복위원회에 문의해 확인하세요.',
+      highlights: ['신규 대출 어려움', '조정 완료 후 가능', '☎1397 문의'],
+      box: { label: '채무조정 중 대출 여부', content: '채무조정 진행 중: 신규 대출 어려움\n채무조정 완료 후: 서민금융 상품 순차 이용 가능\n정확한 상황: ☎1397 또는 ☎1600-5500 문의' },
+    },
+  ],
   faqData: [
     {
       q: '이미 연체가 발생했는데 채무조정을 받을 수 있나요?',

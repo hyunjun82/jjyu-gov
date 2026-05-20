@@ -1,122 +1,84 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          새도약기금 대상자 여부는 <strong>newleap.or.kr</strong>에서 채무현황 조회로 확인하거나,
-          상담센터 <strong>1660-0705</strong>(평일 09:00~18:00)로 문의하면 됩니다.
-          정부가 대상자에게 <strong>개별 통보</strong>를 보내며,
-          진행 상황도 같은 방법으로 확인할 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "내가 대상인지 어떻게 아나요?" 통보를 기다리는 것 외에 직접 확인하는 방법이 있습니다.
-        대상자 조회 경로와 진행 상황 확인 방법을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="check">
-        <h2 className="detail-card-head">2026년 새도약기금 대상자 조회 방법 3가지</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① newleap.or.kr 채무현황 조회:</strong><br />
-            새도약기금 공식 홈페이지 → 채무현황 조회 메뉴 → 본인 인증(공동인증서 또는 간편인증) →
-            대상 여부 및 진행 상황 확인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 상담센터 전화:</strong><br />
-            1660-0705 (평일 09:00~18:00) → 본인 확인 후 대상 여부 및 현재 처리 단계 안내
-          </div>
-          <div className="info-box">
-            <strong>③ 개별 통보 수령:</strong><br />
-            정부가 대상자에게 우편·문자 등으로 개별 통보. 통보서에 소각 또는 채무조정 결과와
-            이후 절차가 안내됩니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="status">
-        <h2 className="detail-card-head">진행 단계별 상태 — 어느 단계인지 확인하는 법</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>상태</th><th>확인 방법</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>채권 매입 전</td>
-                <td>대상 채무 심사 중</td>
-                <td>홈페이지 조회 또는 전화</td>
-              </tr>
-              <tr>
-                <td>채권 매입 완료</td>
-                <td><strong>추심 즉시 중단</strong></td>
-                <td>통보서 수령 또는 홈페이지</td>
-              </tr>
-              <tr>
-                <td>상환능력 심사 중</td>
-                <td>소각·조정 결정 대기</td>
-                <td>홈페이지 조회 또는 전화</td>
-              </tr>
-              <tr>
-                <td>소각 결정</td>
-                <td><strong>1년 이내 소각 예정</strong></td>
-                <td>개별 통보서 확인</td>
-              </tr>
-              <tr>
-                <td>채무조정 결정</td>
-                <td>신용회복위원회 연계</td>
-                <td>개별 통보서 + 1600-5500</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="scam">
-        <h2 className="detail-card-head">주의 — 사기 연락을 구별하는 방법</h2>
-        <div className="detail-card-body">
-          <div className="warning-box" style={{ marginBottom: 12 }}>
-            <strong>사기 패턴:</strong> "새도약기금 신청을 도와드립니다", "먼저 수수료를 내시면 신청해드립니다"
-            → 새도약기금은 별도 신청 절차가 없습니다. 이런 연락은 사기입니다.
-          </div>
-          <div className="info-box">
-            <strong>공식 연락처만 이용:</strong><br />
-            홈페이지: newleap.or.kr<br />
-            상담전화: 1660-0705 (평일 09:00~18:00)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            자격 조건, 신청 방법, 채무 소각 기준 등<br />
-            새도약기금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/new-leap" className="btn-cta">
-            새도약기금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 대상자조회SpokeContent: SpokeData = {
   h1: '2026년 새도약기금 대상자 조회와 진행 상황 확인 방법',
   breadcrumb: '대상자 조회',
   description:
     '새도약기금 대상자 여부는 newleap.or.kr 채무현황 조회 또는 1660-0705 상담센터로 확인합니다. 채권 매입 즉시 추심 중단, 이후 상환능력 심사로 소각 또는 채무조정이 결정됩니다. 신청 대행을 권유하는 연락은 사기입니다.',
-  datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '온라인 조회': 'newleap.or.kr 채무현황 조회',
+    '전화 상담': '1660-0705 (평일 09:00~18:00)',
+    '개별 통보': '정부가 우편·문자 발송',
+    '추심 중단': '채권 매입 즉시 중단',
+    '사기 주의': '신청 대행 권유는 100% 사기',
+  },
+  keyFactsHighlights: {
+    '온라인 조회': ['newleap.or.kr'],
+    '전화 상담': ['1660-0705'],
+    '사기 주의': ['100% 사기'],
+  },
+  qa: [
+    {
+      q: '새도약기금 대상자 조회 방법은 무엇인가요?',
+      anchor: 'check',
+      intro: '새도약기금 대상자 여부는 세 가지 방법으로 확인할 수 있습니다. 첫째, newleap.or.kr에서 채무현황 조회로 확인합니다. 둘째, 상담센터 1660-0705(평일 09:00~18:00)로 전화합니다. 셋째, 정부가 대상자에게 개별 통보(우편·문자)를 보냅니다. 통보를 기다리지 않고 직접 조회할 수도 있습니다.',
+      highlights: ['newleap.or.kr', '1660-0705', '개별 통보'],
+      box: { label: '대상자 확인 3가지 방법', content: '① newleap.or.kr → 채무현황 조회 → 본인 인증\n② ☎1660-0705 (평일 09:00~18:00)\n③ 정부 개별 통보(우편·문자) 수령' },
+    },
+    {
+      q: '진행 단계별 상태는 어떻게 확인하나요?',
+      anchor: 'status',
+      intro: '채권 매입 전에는 심사 중 상태입니다. 채권 매입이 완료되면 추심이 즉시 중단됩니다. 상환능력 심사 후 소각 또는 채무조정 결정이 통보서로 안내됩니다. 채무조정 결정 시에는 신용회복위원회(1600-5500)와 연계됩니다. 단계별 현황은 홈페이지 또는 전화로 확인할 수 있습니다.',
+      highlights: ['추심 즉시 중단', '소각', '채무조정', '1600-5500'],
+      table: {
+        headers: ['단계', '상태', '확인 방법'],
+        rows: [
+          ['채권 매입 전', '대상 채무 심사 중', '홈페이지 조회 또는 전화'],
+          ['채권 매입 완료', '추심 즉시 중단', '통보서 수령 또는 홈페이지'],
+          ['상환능력 심사 중', '소각·조정 결정 대기', '홈페이지 조회 또는 전화'],
+          ['소각 결정', '1년 이내 소각 예정', '개별 통보서 확인'],
+          ['채무조정 결정', '신용회복위원회 연계', '개별 통보서 + 1600-5500'],
+        ],
+      },
+    },
+    {
+      q: '통보를 아직 받지 못했는데 어떻게 해야 하나요?',
+      anchor: 'no-notice',
+      intro: 'newleap.or.kr 채무현황 조회 또는 1660-0705 전화로 현재 처리 단계를 직접 확인할 수 있습니다. 통보 발송에 시간이 걸릴 수 있으므로 직접 조회하는 것이 더 빠릅니다. 채권 매입이 완료되면 추심이 즉시 중단되므로, 추심이 계속된다면 아직 매입 전 단계일 가능성이 있습니다.',
+      highlights: ['직접 조회', '추심이 계속된다면 매입 전', '1660-0705'],
+      box: { label: '통보 미수령 시 확인 방법', content: 'newleap.or.kr → 채무현황 조회 (본인 인증 필요)\n또는 ☎1660-0705 전화 상담 (평일 09:00~18:00)\n→ 채권 매입 완료 여부 및 단계 확인' },
+    },
+    {
+      q: '"새도약기금 신청해준다"는 연락을 받았는데 어떻게 해야 하나요?',
+      anchor: 'scam',
+      intro: '새도약기금은 별도 신청 절차가 없습니다. 신청을 도와준다는 접근은 100% 사기입니다. 공식 상담은 newleap.or.kr 또는 1660-0705만 이용하세요. 개인정보나 금전을 요구하는 연락은 즉시 차단하고 신고하세요.',
+      highlights: ['별도 신청 없음', '100% 사기', 'newleap.or.kr', '1660-0705'],
+      box: { label: '사기 주의', content: '사기 패턴: "새도약기금 신청 도와드립니다", "수수료만 내시면 됩니다"\n새도약기금은 별도 신청 절차 없음 → 이런 연락은 100% 사기\n공식 채널: newleap.or.kr / ☎1660-0705' },
+    },
+    {
+      q: '채권 매입이 됐는지 어떻게 아나요?',
+      anchor: 'acquisition',
+      intro: '채권 매입이 완료되면 추심이 즉시 중단됩니다. 홈페이지(newleap.or.kr) 채무현황 조회에서도 매입 완료 여부를 확인할 수 있습니다. 추심이 계속 오고 있다면 아직 매입 전이거나 해당 채무가 대상이 아닐 수 있습니다.',
+      highlights: ['추심 즉시 중단', '홈페이지 확인', '추심 계속 = 매입 전'],
+      box: { label: '매입 완료 확인', content: 'newleap.or.kr → 채무현황 조회\n또는 ☎1660-0705 전화 확인\n→ 추심 중단 여부로도 간접 확인 가능' },
+    },
+    {
+      q: '소각 결정이 나면 얼마나 기다려야 하나요?',
+      anchor: 'cancellation-time',
+      intro: '소각 결정 후 1년 이내에 소각이 완료됩니다. 진행 상황은 newleap.or.kr 또는 1660-0705로 확인할 수 있습니다. 소각이 완료되기 전에도 채권 매입 후 추심은 즉시 중단되므로 독촉·추심을 받지 않습니다.',
+      highlights: ['1년 이내 소각', '추심은 즉시 중단', '진행 상황 확인'],
+      box: { label: '소각 후 흐름', content: '소각 결정 → 1년 이내 소각 완료\n소각 완료 후 신용정보 해제 절차 → 신용회복위원회(1600-5500) 연계' },
+    },
+    {
+      q: '대상자 조회 시 본인 인증은 어떻게 하나요?',
+      anchor: 'authentication',
+      intro: 'newleap.or.kr에서 채무현황 조회 시 공동인증서 또는 간편인증(카카오·네이버)으로 본인 인증을 합니다. 전화 상담(1660-0705)은 상담원이 본인 확인 후 안내합니다. 별도 회원가입 없이 인증만으로 조회할 수 있습니다.',
+      highlights: ['공동인증서', '간편인증', '회원가입 불필요'],
+      box: { label: '본인 인증 방법', content: 'newleap.or.kr: 공동인증서 또는 카카오·네이버 간편인증\n☎1660-0705 전화: 상담원 본인 확인 후 안내\n(별도 회원가입 불필요)' },
+    },
+  ],
   faqData: [
     {
       q: '내가 새도약기금 대상인지 어떻게 확인하나요?',
@@ -144,7 +106,7 @@ export const 대상자조회SpokeContent: SpokeData = {
     },
     {
       q: '"새도약기금 신청해준다"는 문자를 받았는데 신뢰할 수 있나요?',
-      a: '사기입니다. 새도약기금은 별도 신청 절차가 없습니다. 공식 상담은 newleap.or.kr 또는 1660-0705만 이용하세요.',
+      a: '사기입니다. 새도약기금은 별도 신청 절차가 없으므로 신청을 대행해준다는 접근은 사기입니다. 공식 상담은 newleap.or.kr 또는 1660-0705로만 하세요.',
       source: '새도약기금 공식 안내',
       sourceUrl: 'https://www.newleap.or.kr',
     },

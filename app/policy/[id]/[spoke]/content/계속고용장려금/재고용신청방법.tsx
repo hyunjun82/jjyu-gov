@@ -1,115 +1,97 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          정년 도달 직원을 재고용하려면 먼저 <strong>취업규칙이나 단체협약에 재고용 규정</strong>을 명시한 후
-          고용24(work24.go.kr) 또는 관할 고용센터에 계속고용장려금을 신청합니다.
-          재고용 후 사업주가 <strong>1인당 월 30만원</strong>을 최대 3년간 지원받습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        정년 도달 직원을 재고용하면 숙련 인력을 유지하면서 동시에 정부 인건비 지원까지 받을 수 있습니다.
-        아래 절차를 순서대로 따라하면 신청이 어렵지 않습니다.
-      </p>
-
-      <section className="detail-card" id="steps">
-        <h2 className="detail-card-head">재고용을 통한 장려금 신청 단계</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 취업규칙·단체협약에 정년퇴직자 재고용 규정 추가 (노사 합의)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 정년 도달 예정 근로자 확인 (계속고용제도 시행일부터 5년 이내)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 정년 도달 후 재고용 계약 체결 (새 근로계약서 작성)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>4단계:</strong> 고용24(work24.go.kr) 또는 관할 고용센터에 장려금 신청
-          </div>
-          <div className="info-box">
-            <strong>5단계:</strong> 분기 단위 장려금 지급 (월 30만원)
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="reemploy-vs-extend">
-        <h2 className="detail-card-head">재고용 시 임금·근로 조건은?</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>방법</th><th>임금 기준</th><th>근로 조건</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>정년 연장</strong></td>
-                <td>기존 조건 유지가 원칙</td>
-                <td>기존 근로 조건 그대로</td>
-              </tr>
-              <tr>
-                <td><strong>정년 폐지</strong></td>
-                <td>기존 조건 유지</td>
-                <td>정년 없이 계속 근무</td>
-              </tr>
-              <tr>
-                <td><strong>재고용</strong></td>
-                <td>새 계약으로 협의 가능</td>
-                <td>임금·시간 협의 (일부 조정 가능)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">필요 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>취업규칙 또는 단체협약:</strong> 재고용 규정이 명시된 개정본
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>근로계약서:</strong> 재고용 체결 근로계약서
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>근로자 명단:</strong> 계속 고용 대상 근로자 정보
-          </div>
-          <div className="info-box">
-            <strong>사업장 등록 서류:</strong> 사업자등록증 등 (고용센터 안내에 따름)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 금액, 비수도권 우대, 다른 장려금과의 중복 여부까지<br />
-            계속고용장려금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-continue-employ" className="btn-cta">
-            고령자 계속고용장려금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 계속고용장려금재고용신청방법SpokeContent: SpokeData = {
   h1: '정년 도달한 직원 재고용 고민된다면 계속고용장려금 신청 방법',
   breadcrumb: '재고용신청방법',
-  description:
-    '정년퇴직자 재고용 시 계속고용장려금 신청 방법: 취업규칙에 재고용 규정 추가 → 재고용 계약 체결 → 고용24 신청 → 월 30만원 최대 3년. 재고용 시 임금·근로조건은 새 계약으로 협의 가능.',
+  description: '정년퇴직자 재고용 시 계속고용장려금 신청 방법: 취업규칙에 재고용 규정 추가 → 재고용 계약 체결 → 고용24 신청 → 월 30만원 최대 3년. 재고용 시 임금·근로조건은 새 계약으로 협의 가능.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '장려금 지급 금액': '1인당 월 30만원',
+    '최대 지원 기간': '3년 (총 1,080만원)',
+    '신청 시기': '재고용 계약 체결 후',
+    '신청처': '고용24(work24.go.kr) 또는 관할 고용센터',
+    '임금 조건': '재고용 시 새 계약으로 협의 가능',
+  },
+  keyFactsHighlights: {
+    '장려금 지급 금액': ['월 30만원'],
+    '최대 지원 기간': ['3년', '1,080만원'],
+  },
+  qa: [
+    {
+      q: '재고용을 통한 계속고용장려금 신청 절차는?',
+      anchor: 'steps',
+      intro: '정년 도달 직원을 재고용하려면 먼저 취업규칙이나 단체협약에 재고용 규정을 명시한 후 고용24(work24.go.kr) 또는 관할 고용센터에 계속고용장려금을 신청합니다. 재고용 후 사업주가 1인당 월 30만원을 최대 3년간 지원받습니다.',
+      highlights: ['취업규칙에 재고용 규정', '고용24 신청', '월 30만원 최대 3년'],
+      table: {
+        headers: ['단계', '내용', '시점'],
+        rows: [
+          ['1단계', '취업규칙·단체협약에 정년퇴직자 재고용 규정 추가 (노사 합의)', '재고용 전'],
+          ['2단계', '정년 도달 예정 근로자 확인 (계속고용제도 시행일부터 5년 이내)', '재고용 전'],
+          ['3단계', '정년 도달 후 재고용 계약 체결 (새 근로계약서 작성)', '재고용 시'],
+          ['4단계', '고용24(work24.go.kr) 또는 관할 고용센터에 장려금 신청', '재고용 후'],
+          ['5단계', '분기 단위 장려금 지급 (월 30만원)', '지속'],
+        ],
+      },
+    },
+    {
+      q: '재고용 시 임금·근로 조건은 어떻게 되나?',
+      anchor: 'salary',
+      intro: '재고용은 새 근로계약을 체결하는 방식이라 임금·근로시간을 새로 협의할 수 있습니다. 정년 연장과 달리 일부 조정이 가능합니다. 단, 최저임금 이상은 보장해야 하며 근로자의 동의가 필요합니다. 정년 연장은 기존 조건 유지가 원칙이고, 정년 폐지도 기존 조건 유지입니다.',
+      highlights: ['새 계약으로 협의', '최저임금 이상 보장', '근로자 동의 필요'],
+      table: {
+        headers: ['방법', '임금 기준', '근로 조건'],
+        rows: [
+          ['정년 연장', '기존 조건 유지가 원칙', '기존 근로 조건 그대로'],
+          ['정년 폐지', '기존 조건 유지', '정년 없이 계속 근무'],
+          ['재고용', '새 계약으로 협의 가능', '임금·시간 협의 (일부 조정 가능)'],
+        ],
+      },
+    },
+    {
+      q: '신청에 필요한 서류는 무엇인가?',
+      anchor: 'docs',
+      intro: '취업규칙 또는 단체협약 개정본(재고용 규정 명시), 재고용 근로계약서, 계속 고용 대상 근로자 명단, 사업자등록증 등이 필요합니다. 정확한 서류는 관할 고용센터 안내를 따르는 것이 좋습니다.',
+      highlights: ['취업규칙 개정본', '재고용 근로계약서', '근로자 명단'],
+      table: {
+        headers: ['서류', '내용'],
+        rows: [
+          ['취업규칙 또는 단체협약', '재고용 규정이 명시된 개정본'],
+          ['근로계약서', '재고용 체결 근로계약서'],
+          ['근로자 명단', '계속 고용 대상 근로자 정보'],
+          ['사업장 등록 서류', '사업자등록증 등 (고용센터 안내에 따름)'],
+        ],
+      },
+    },
+    {
+      q: '취업규칙을 반드시 바꿔야 하나?',
+      anchor: 'rule-change',
+      intro: '네. 취업규칙 또는 단체협약에 정년퇴직자 재고용 규정을 명시한 후 장려금을 신청해야 합니다. 규정 없이 비공식적으로 재고용하면 장려금 신청이 불가합니다. 취업규칙 개정은 근로자 과반수(노동조합)의 동의를 받아야 합니다.',
+      highlights: ['취업규칙 명시 필수', '비공식 재고용 불인정', '근로자 과반수 동의'],
+      box: { label: '주의', content: '취업규칙에 재고용 규정 없이 신청하면 불인정. 규정 명시 후 관할 고용센터에서 미리 확인 권장.' },
+    },
+    {
+      q: '재고용 후 얼마나 지나야 장려금을 받나?',
+      anchor: 'timing',
+      intro: '분기 단위로 신청하여 지급받습니다. 재고용 후 매분기마다 신청하면 월 30만원씩 지급됩니다. 처음 신청은 재고용 후 첫 분기가 지난 후입니다.',
+      highlights: ['분기 단위 신청', '월 30만원 지급'],
+      box: { label: '안내', content: '재고용 후 첫 분기 종료 → 고용24 또는 고용센터에 신청 → 심사 후 지급.' },
+    },
+    {
+      q: '재고용 후 근로자가 퇴직하면 장려금은 어떻게 되나?',
+      anchor: 'early-exit',
+      intro: '근로자가 지원 기간 중 퇴직하면 해당 월부터 장려금 지급이 중단됩니다. 이미 받은 장려금은 환수되지 않으며, 새 근로자를 채용해도 장려금은 이어지지 않습니다. 정확한 처리 방법은 관할 고용센터에서 확인해야 합니다.',
+      highlights: ['퇴직 시 지급 중단', '기지급분 환수 없음'],
+      box: { label: '안내', content: '중도 퇴직 시 해당 월부터 지급 중단. 새 채용자에게 장려금 승계 불가.' },
+    },
+    {
+      q: '신청은 어디서 하나?',
+      anchor: 'apply',
+      intro: '고용24(work24.go.kr) 온라인 신청 또는 관할 고용센터를 방문하면 됩니다. 사전에 1350 콜센터 또는 고용센터 상담을 받고 신청하는 것을 권장합니다.',
+      highlights: ['고용24 온라인', '관할 고용센터', '1350 사전 상담'],
+      box: { label: '신청처', content: '고용24(work24.go.kr) 또는 관할 고용센터. 사전 상담: 1350.' },
+    },
+  ],
   faqData: [
     {
       q: '정년퇴직자를 재고용하면 계속고용장려금을 받을 수 있나요?',

@@ -1,93 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          주택연금 월 수령액은 <strong>가입 연령과 주택 공시가격</strong>에 따라 결정됩니다.
-          70세 기준 공시가 3억원 주택은 <strong>월 약 92만 3천원</strong>,
-          6억원은 <strong>월 약 184만 6천원</strong>,
-          10억원은 <strong>월 약 307만원</strong>이 지급됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        주택연금 수령액은 가입 당시 조건에 따라 평생 확정되므로
-        내 주택 가격과 나이로 미리 계산해보는 것이 중요합니다.
-      </p>
-
-      <section className="detail-card" id="table-age">
-        <h2 className="detail-card-head">연령별·주택 공시가별 월 수령액 (정액형)</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>가입 연령</th><th>3억원</th><th>6억원</th><th>10억원</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>55세</strong></td><td>약 47만원</td><td>약 94만원</td><td>약 157만원</td></tr>
-              <tr><td><strong>60세</strong></td><td>약 64만원</td><td>약 128만원</td><td>약 213만원</td></tr>
-              <tr><td><strong>65세</strong></td><td>약 77만원</td><td>약 154만원</td><td>약 257만원</td></tr>
-              <tr><td><strong>70세</strong></td><td>약 92만 3천원</td><td>약 184만 6천원</td><td>약 307만원</td></tr>
-              <tr><td><strong>75세</strong></td><td>약 113만원</td><td>약 226만원</td><td>약 377만원</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>
-            ※ 정액형 기준 (2026년 기준), HF 홈페이지 모의계산기로 정확한 금액 확인 권장
-          </p>
-        </div>
-      </section>
-
-      <section className="detail-card" id="types">
-        <h2 className="detail-card-head">지급 유형별 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>유형</th><th>특징</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>정액형</strong></td><td>매월 동일 금액 평생 수령 (가장 일반적)</td></tr>
-              <tr><td><strong>초기증액형</strong></td><td>초기 일정 기간 더 많이, 이후 적게 수령</td></tr>
-              <tr><td><strong>정기증가형</strong></td><td>매 3년마다 일정 비율 증가</td></tr>
-              <tr><td><strong>대출상환형</strong></td><td>주택담보대출 상환 후 나머지 연금 수령</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="calc">
-        <h2 className="detail-card-head">수령액 계산 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>공시가격 확인:</strong> 국토교통부 부동산공시가격알리미(realtyprice.kr)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>모의계산:</strong> HF 홈페이지 → 주택연금 → 월지급금 모의계산
-          </div>
-          <div className="info-box">
-            <strong>상담 신청:</strong> 콜센터 1688-8114 또는 가까운 HF 지사 방문
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            가입 조건, 기초연금 중복, 해지 주의사항까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/home-equity-pension" className="btn-cta">
-            주택연금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 주택연금3억6억10억월수령액SpokeContent: SpokeData = {
   h1: '주택연금 월 수령액 계산, 3억·6억·10억 주택 연령별 실수령액 비교',
@@ -95,8 +6,153 @@ export const 주택연금3억6억10억월수령액SpokeContent: SpokeData = {
   description:
     '주택연금 월 수령액: 70세 3억→월 약 92만3천원, 6억→약 184만6천원, 10억→약 307만원. 정액형·초기증액형·정기증가형·대출상환형 선택. HF 모의계산기로 내 수령액 확인.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '70세·3억 주택': '월 약 92만 3천원 (정액형)',
+    '70세·6억 주택': '월 약 184만 6천원 (정액형)',
+    '70세·10억 주택': '월 약 307만원 (정액형)',
+    '지급 유형': '정액형·초기증액형·정기증가형·대출상환형',
+    '모의계산': 'HF 홈페이지(hf.go.kr) 제공',
+  },
+  keyFactsHighlights: {
+    '70세·3억 주택': ['92만 3천원'],
+    '70세·6억 주택': ['184만 6천원'],
+    '70세·10억 주택': ['307만원'],
+    '모의계산': ['hf.go.kr'],
+  },
+  qa: [
+    {
+      q: '주택연금 월 수령액은 어떻게 결정되나요?',
+      anchor: 'how-determined',
+      intro: '주택연금 월 수령액은 가입 당시 연령과 주택 공시가격에 따라 결정됩니다. 나이가 많을수록, 주택 공시가격이 높을수록 월 수령액이 커집니다. 가입 후에는 수령액이 변동되지 않으며(정액형 기준), 주택 가격이 올라도 수령액은 그대로입니다. 정확한 수령액은 HF 홈페이지(hf.go.kr) 모의계산기에서 확인할 수 있습니다.',
+      highlights: ['가입 연령', '주택 공시가격', '가입 후 고정', 'hf.go.kr'],
+      table: {
+        headers: ['가입 연령', '3억원', '6억원', '10억원'],
+        rows: [
+          ['55세', '약 47만원', '약 94만원', '약 157만원'],
+          ['60세', '약 64만원', '약 128만원', '약 213만원'],
+          ['65세', '약 77만원', '약 154만원', '약 257만원'],
+          ['70세', '약 92만 3천원', '약 184만 6천원', '약 307만원'],
+          ['75세', '약 113만원', '약 226만원', '약 377만원'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '정액형 기준 (2026년). 정확한 금액은 HF 홈페이지 모의계산기(hf.go.kr)로 확인 권장.',
+      },
+    },
+    {
+      q: '지급 유형에는 어떤 것이 있나요?',
+      anchor: 'types',
+      intro: '주택연금은 정액형, 초기증액형, 정기증가형, 대출상환형의 4가지 지급 유형이 있습니다. 정액형은 매월 동일 금액을 평생 받는 가장 일반적인 방식입니다. 초기증액형은 일정 기간 더 많이 받다가 이후 줄어드는 방식이고, 정기증가형은 3년마다 일정 비율로 증가합니다. 대출상환형은 주택담보대출을 먼저 상환한 뒤 나머지 연금을 받는 방식입니다.',
+      highlights: ['정액형', '초기증액형', '정기증가형', '대출상환형'],
+      table: {
+        headers: ['유형', '특징'],
+        rows: [
+          ['정액형', '매월 동일 금액 평생 수령 (가장 일반적)'],
+          ['초기증액형', '초기 일정 기간 더 많이, 이후 적게 수령'],
+          ['정기증가형', '매 3년마다 일정 비율 증가'],
+          ['대출상환형', '주택담보대출 상환 후 나머지 연금 수령'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '지급 유형 선택 후 변경은 원칙적으로 불가. 가입 전 충분히 검토하세요.',
+      },
+    },
+    {
+      q: '공시가격과 시세는 어떻게 다른가요?',
+      anchor: 'price-diff',
+      intro: '주택연금 수령액은 시세가 아닌 공시가격(공동주택 공시가격) 기준으로 산정됩니다. 공시가격은 일반적으로 시세보다 낮습니다. 공시가격은 국토교통부 부동산공시가격알리미(realtyprice.kr)에서 확인할 수 있습니다.',
+      highlights: ['공시가격 기준', '시세보다 낮음', 'realtyprice.kr'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['공시가격', '주택연금 수령액 산정 기준'],
+          ['시세', '실제 거래 가격 (주택연금 기준 아님)'],
+          ['공시가격 확인', '부동산공시가격알리미(realtyprice.kr)'],
+          ['일반적 관계', '공시가격 < 시세 (보통 60~80% 수준)'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '공시가격 확인: 부동산공시가격알리미(realtyprice.kr)',
+      },
+    },
+    {
+      q: '배우자가 먼저 사망하면 수령액이 줄어드나요?',
+      anchor: 'spouse-death',
+      intro: '주택연금은 부부 중 1명이 사망해도 생존 배우자가 동일 금액을 평생 수령합니다. 감액되지 않습니다. 이 점이 주택연금의 핵심 장점 중 하나로, 배우자 사망 후에도 안정적인 노후 소득이 보장됩니다.',
+      highlights: ['동일 금액 지속', '감액 없음', '생존 배우자 보장'],
+      table: {
+        headers: ['상황', '수령액'],
+        rows: [
+          ['부부 모두 생존', '동일 금액 수령'],
+          ['배우자 사망', '생존 배우자 동일 금액 계속 수령'],
+          ['수급자 사망', '배우자 동일 금액 계속 수령'],
+        ],
+      },
+      box: {
+        label: '핵심',
+        content: '배우자 사망 후에도 수령액 감액 없이 평생 동일 금액 지급.',
+      },
+    },
+    {
+      q: '주택 가격이 오르면 수령액도 올라가나요?',
+      anchor: 'price-increase',
+      intro: '주택연금 수령액은 가입 당시 공시가격 기준으로 확정됩니다. 가입 후 주택 가격이 올라도 수령액은 변하지 않습니다. 이는 주택연금의 단점 중 하나입니다. 반면 주택 가격이 하락해도 수령액이 줄어들지 않는 장점도 있습니다.',
+      highlights: ['가입 당시 확정', '가격 변동 영향 없음'],
+      table: {
+        headers: ['상황', '수령액 변동'],
+        rows: [
+          ['주택 가격 상승', '변동 없음 (가입 시 확정)'],
+          ['주택 가격 하락', '변동 없음 (감액도 없음)'],
+          ['물가 상승', '정액형 기준 변동 없음'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '주택 가격 상승 혜택을 받으려면 주택을 직접 매각하는 것이 유리할 수 있습니다.',
+      },
+    },
+    {
+      q: '공시가 12억원을 넘으면 가입할 수 없나요?',
+      anchor: 'over-12',
+      intro: '공시가격 12억원 초과 주택은 주택연금 가입 대상이 아닙니다. 12억원을 기준으로 상한이 설정되어 있으며, 2주택자의 경우 두 주택 합산 공시가격이 12억원 이하여야 합니다.',
+      highlights: ['12억원 이하', '합산 기준', '초과 시 가입 불가'],
+      table: {
+        headers: ['구분', '가입 가능 여부'],
+        rows: [
+          ['공시가 12억원 이하 (1주택)', '가능'],
+          ['2주택 합산 12억원 이하', '가능 (3년 내 1주택 처분 조건)'],
+          ['공시가 12억원 초과', '가입 불가'],
+        ],
+      },
+      box: {
+        label: '상담',
+        content: '공시가 12억원 근접한 경우 HF 콜센터(1688-8114)에 사전 상담 권장.',
+      },
+    },
+    {
+      q: '수령액을 미리 계산하는 방법은 무엇인가요?',
+      anchor: 'calc',
+      intro: '한국주택금융공사(HF) 홈페이지(hf.go.kr)에서 월지급금 모의계산기를 제공합니다. 나이와 주택 공시가격을 입력하면 지급 유형별 예상 수령액을 확인할 수 있습니다. 더 자세한 상담은 HF 콜센터(1688-8114) 또는 가까운 HF 지사를 방문하면 됩니다.',
+      highlights: ['hf.go.kr 모의계산', '1688-8114'],
+      table: {
+        headers: ['확인 방법', '내용'],
+        rows: [
+          ['모의계산기', 'hf.go.kr → 주택연금 → 월지급금 모의계산'],
+          ['공시가격 확인', 'realtyprice.kr (부동산공시가격알리미)'],
+          ['전화 상담', 'HF 콜센터 1688-8114'],
+          ['방문 상담', '가까운 HF 지사'],
+        ],
+      },
+      box: {
+        label: '모의계산',
+        content: 'HF 홈페이지(hf.go.kr) → 주택연금 → 월지급금 모의계산기 이용.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '공시가격과 시세 중 어느 것 기준인가요?',
@@ -118,7 +174,7 @@ export const 주택연금3억6억10억월수령액SpokeContent: SpokeData = {
     },
     {
       q: '공시가 12억원을 초과하면 어떻게 되나요?',
-      a: '공시가 12억원 초과 주택은 주택연금 가입 대상이 아닙니다. 단 12억원 상당의 한도 내에서 수령액을 산정하는 방식은 없으며 가입 자체가 불가합니다.',
+      a: '공시가 12억원 초과 주택은 주택연금 가입 대상이 아닙니다.',
       source: '한국주택금융공사',
       sourceUrl: 'https://www.hf.go.kr',
     },

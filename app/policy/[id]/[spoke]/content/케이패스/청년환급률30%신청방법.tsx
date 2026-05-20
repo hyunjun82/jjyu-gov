@@ -1,100 +1,133 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          만 19~34세 청년이 K-패스로 월 15회 이상 대중교통을 이용하면
-          이용 금액의 <strong>30%</strong>를 다음 달에 환급받습니다.
-          <strong>korea-pass.kr</strong>에서 회원가입 후 참여 카드사의 K-패스 카드를 발급받으면 됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        청년 환급률 30%가 적용되는 조건과 신청 방법을 확인하세요.
-        같은 이용 금액이라도 일반(20%)보다 50% 더 환급됩니다.
-      </p>
-
-      <section className="detail-card" id="condition">
-        <h2 className="detail-card-head">청년 30% 환급 적용 조건</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>연령</strong></td><td>만 19세 이상 ~ 만 34세 이하</td></tr>
-              <tr><td><strong>월 이용 횟수</strong></td><td>15회 이상 (15회부터 환급 시작)</td></tr>
-              <tr><td><strong>환급 한도</strong></td><td>월 60회까지 환급 대상</td></tr>
-              <tr><td><strong>환급 방식</strong></td><td>다음 달 카드 청구 할인 또는 현금 환급</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="how">
-        <h2 className="detail-card-head">청년 K-패스 신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> korea-pass.kr에서 회원가입 (본인 명의 휴대폰 인증)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 청년 대상 선택 후 참여 카드사 K-패스 카드 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 카드 수령 후 교통카드로 등록
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 월 15회 이상 이용 → 다음 달 30% 환급
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="example">
-        <h2 className="detail-card-head">환급액 계산 예시</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>월 이용 금액</th><th>일반(20%)</th><th>청년(30%)</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>50,000원</td><td>10,000원</td><td>15,000원</td></tr>
-              <tr><td>80,000원</td><td>16,000원</td><td>24,000원</td></tr>
-              <tr><td>100,000원</td><td>20,000원</td><td>30,000원</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>※ 월 60회까지의 이용 금액 기준</p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            카드사별 혜택 비교, 모두의 카드 차이, 저소득층 53.3% 환급까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/k-pass" className="btn-cta">
-            K-패스 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 케이패스청년환급률30퍼센트신청방법SpokeContent: SpokeData = {
   h1: '대중교통 매달 15회 이상 탄다면 K-패스 청년 환급률 30% 받는 방법',
-  breadcrumb: '청년환급률30%신청방법',
+  breadcrumb: 'K-패스 > 청년환급률30%신청방법',
   description:
     'K-패스 청년 30% 환급: 만 19~34세, 월 15회 이상 이용. korea-pass.kr 회원가입 → 카드 발급. 월 60회 한도. 월 이용 80,000원 시 24,000원 환급. 다음 달 청구 할인·현금 환급.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '청년 기준': '만 19세 이상 ~ 만 34세 이하',
+    '청년 환급률': '30%',
+    '이용 조건': '월 15회 이상 (월 60회 한도)',
+    '환급 방식': '다음 달 청구 할인 또는 현금 환급',
+    '신청 채널': 'korea-pass.kr 또는 K-패스 앱',
+  },
+  keyFactsHighlights: {
+    '청년 기준': ['만 19세', '만 34세'],
+    '청년 환급률': ['30%'],
+    '이용 조건': ['15회 이상', '60회 한도'],
+  },
+  qa: [
+    {
+      q: 'K-패스 청년 30% 환급을 받으려면 어떤 조건이 필요한가요?',
+      anchor: 'youth-conditions',
+      intro: 'K-패스 청년 환급률 30%는 만 19세 이상 만 34세 이하인 경우에 적용됩니다. 나이 조건과 함께 월 15회 이상 대중교통(버스·지하철)을 이용한 달에 한해 환급이 이루어집니다. 일반 환급률(20%)보다 10%포인트 높아, 같은 이용 금액에서 50% 더 많은 금액을 환급받을 수 있습니다. 청년이면서 저소득층(기초·차상위)에 해당한다면 더 높은 53.3%가 적용됩니다.',
+      highlights: ['만 19~34세', '월 15회 이상', '30% 환급', '일반보다 50% 더 환급'],
+      table: {
+        headers: ['항목', '기준'],
+        rows: [
+          ['연령', '만 19세 이상 ~ 만 34세 이하'],
+          ['월 이용 횟수', '15회 이상 (15회부터 환급 시작)'],
+          ['환급 한도', '월 60회까지 환급 대상'],
+          ['환급 방식', '다음 달 카드 청구 할인 또는 현금 환급'],
+        ],
+      },
+      box: { label: '참고', content: '청년이면서 저소득층(기초·차상위)이면 더 높은 53.3% 환급률이 적용됩니다.' },
+    },
+    {
+      q: '청년 K-패스 신청 방법은 어떻게 되나요?',
+      anchor: 'apply-steps',
+      intro: '청년 K-패스 신청은 korea-pass.kr 공식 홈페이지 또는 K-패스 앱에서 회원가입 후 참여 카드사의 K-패스 카드를 신청하는 방식입니다. 회원가입 시 본인 명의 휴대폰 인증을 통해 연령이 자동 확인되므로 별도의 청년 인증 서류를 제출할 필요가 없습니다. 카드 발급 후 교통카드로 등록하면 다음 달부터 실적이 집계됩니다.',
+      highlights: ['korea-pass.kr 또는 앱 가입', '본인 인증으로 연령 자동 확인', '서류 제출 불필요'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', 'korea-pass.kr에서 회원가입 (본인 명의 휴대폰 인증)'],
+          ['2단계', '청년 대상 확인 후 참여 카드사 K-패스 카드 신청'],
+          ['3단계', '카드 수령 후 교통카드로 등록'],
+          ['4단계', '월 15회 이상 이용 → 다음 달 30% 환급'],
+        ],
+      },
+      box: { label: '팁', content: '가입 시 행정정보 공동이용 동의를 하면 연령 등이 자동 확인됩니다.' },
+    },
+    {
+      q: '청년 기준으로 월 이용 금액별 환급액은 얼마인가요?',
+      anchor: 'refund-calculation',
+      intro: '청년 환급률 30%를 기준으로 하면, 월 이용 금액이 5만원일 때 1만5천원, 8만원일 때 2만4천원, 10만원일 때 3만원을 환급받습니다. 같은 이용 금액에서 일반(20%)보다 50% 더 많은 금액을 돌려받는 구조입니다. 월 60회를 초과한 이용분에는 환급이 적용되지 않으며, 60회 이내 이용 금액 전체에 30%가 계산됩니다.',
+      highlights: ['80,000원 이용 시 24,000원 환급', '100,000원 이용 시 30,000원 환급', '60회 초과 환급 없음'],
+      table: {
+        headers: ['월 이용 금액', '일반(20%)', '청년(30%)'],
+        rows: [
+          ['50,000원', '10,000원', '15,000원'],
+          ['80,000원', '16,000원', '24,000원'],
+          ['100,000원', '20,000원', '30,000원'],
+        ],
+      },
+      box: { label: '참고', content: '월 60회까지의 이용 금액 기준. 60회 초과분은 환급 없음.' },
+    },
+    {
+      q: '만 35세가 되면 환급률이 어떻게 바뀌나요?',
+      anchor: 'age-out',
+      intro: '만 35세가 되면 청년 30% 환급률 적용이 종료되고 일반 20% 환급률로 자동 전환됩니다. 카드 재신청이나 별도 변경 신청이 필요 없이 나이에 따라 자동으로 변경됩니다. 단, 65세가 되면 다시 30% 환급률(노인)이 적용되므로, 중간 일반 기간에는 20%가 적용됩니다.',
+      highlights: ['35세부터 일반 20% 적용', '자동 전환', '65세부터 다시 30%'],
+      table: {
+        headers: ['연령대', '환급률'],
+        rows: [
+          ['만 19~34세 (청년)', '30%'],
+          ['만 35~64세 (일반)', '20%'],
+          ['만 65세 이상 (노인)', '30%'],
+        ],
+      },
+      box: { label: '참고', content: '환급률 변경은 자동으로 이루어지며, 카드 재발급이나 별도 신청이 필요 없습니다.' },
+    },
+    {
+      q: '한 달에 14회 이용했는데 다음 달에 15회 이용하면 환급이 되나요?',
+      anchor: 'monthly-reset',
+      intro: '이용 횟수는 달별로 별도 집계됩니다. 이번 달 14회 이용했다면 이번 달은 환급이 없고, 다음 달에 15회 이상 이용하면 다음 달 이용분에 대해 환급이 적용됩니다. 전월 미달 횟수가 이월되거나 합산되지 않습니다. 매달 독립적으로 15회 이상 조건을 충족해야 환급이 발생합니다.',
+      highlights: ['달별 독립 집계', '이월 없음', '매달 15회 이상 충족 필요'],
+      table: {
+        headers: ['월', '이용 횟수', '환급 여부'],
+        rows: [
+          ['5월', '14회', '환급 없음 (기준 미달)'],
+          ['6월', '16회', '환급 발생 (7월에 지급)'],
+        ],
+      },
+      box: { label: '참고', content: '15회는 해당 월 이용 건 기준이며, 전월 이용 횟수는 이월되지 않습니다.' },
+    },
+    {
+      q: '청년이면서 저소득층이면 어느 환급률을 받나요?',
+      anchor: 'youth-low-income',
+      intro: '청년(30%)이면서 저소득층(기초생활수급자·차상위계층, 53.3%) 두 조건을 동시에 충족하면 더 높은 53.3% 환급률이 적용됩니다. 두 환급률이 합산되는 것이 아니라 더 유리한 쪽을 선택하는 방식입니다. korea-pass.kr 가입 시 소득 자격이 확인되면 자동으로 53.3%가 적용됩니다.',
+      highlights: ['청년+저소득 → 53.3% 적용', '합산이 아닌 더 높은 쪽 선택'],
+      table: {
+        headers: ['조건', '적용 환급률'],
+        rows: [
+          ['청년만 해당', '30%'],
+          ['저소득만 해당', '53.3%'],
+          ['청년 + 저소득 동시 해당', '53.3% (더 높은 쪽 적용)'],
+        ],
+      },
+      box: { label: '확인', content: '저소득 자격 확인은 가입 시 행정정보 공동이용 동의를 통해 자동 조회됩니다.' },
+    },
+    {
+      q: 'K-패스로 택시를 타면 환급이 되나요?',
+      anchor: 'taxi-excluded',
+      intro: 'K-패스 환급은 버스(시내버스·광역버스)와 지하철(도시철도) 이용분에만 적용됩니다. 택시는 대중교통으로 분류되지 않아 K-패스 환급 대상에서 제외됩니다. KTX·SRT 등 고속철도도 환급 대상이 아닙니다. 환급 대상 교통수단을 이용한 건만 이용 횟수(15회 기준)에 포함됩니다.',
+      highlights: ['버스·지하철만 환급', '택시·KTX 제외'],
+      table: {
+        headers: ['교통 수단', '환급 적용'],
+        rows: [
+          ['시내버스·광역버스', '적용'],
+          ['지하철(도시철도)', '적용'],
+          ['택시', '미적용'],
+          ['KTX·SRT', '미적용'],
+        ],
+      },
+      box: { label: '확인', content: '지역별로 적용 대중교통 범위가 다를 수 있습니다. korea-pass.kr에서 확인하세요.' },
+    },
+  ],
   faqData: [
     {
       q: '만 34세 생일이 지나면 환급률이 바뀌나요?',

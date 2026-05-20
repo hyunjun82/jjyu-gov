@@ -1,90 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          근로자 10인 미만 사업장에서 월 270만원 미만 급여를 받는다면
-          <strong>고용보험·국민연금 보험료의 80%</strong>를 지원받을 수 있습니다.
-          사업주가 <strong>4대보험 EDI 또는 근로복지공단(1588-0075)</strong>을 통해 신청하며,
-          지원금은 <strong>보험료 고지서에서 자동 차감</strong>됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        80% 지원이 적용되면 사업주와 근로자 모두 보험료 부담이 크게 줄어듭니다.
-        신청 방법과 지원 적용 방식을 확인하세요.
-      </p>
-
-      <section className="detail-card" id="how">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인:</strong> 4대보험 EDI(edi.kcomwel.or.kr) → 두루누리 지원 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>전화:</strong> 근로복지공단 고객센터 1588-0075
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>방문:</strong> 가까운 근로복지공단 지사
-          </div>
-          <div className="info-box">
-            <strong>신청자:</strong> 사업주 (근로자 대신 사업주가 일괄 신청)
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply-result">
-        <h2 className="detail-card-head">지원 적용 방식</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>지원율</strong></td><td>보험료의 80% (신규가입자 기준)</td></tr>
-              <tr><td><strong>적용 방법</strong></td><td>월 보험료 고지서에서 자동 차감</td></tr>
-              <tr><td><strong>지원 기간</strong></td><td>최대 36개월</td></tr>
-              <tr><td><strong>조회</strong></td><td>insurancesupport.or.kr에서 지원 여부 확인 가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="tip">
-        <h2 className="detail-card-head">신청 전 체크리스트</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사업장 인원 확인:</strong> 신청 시점 근로자 수 10인 미만 여부
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>근로자 보수 확인:</strong> 월평균 보수 270만원 미만 여부
-          </div>
-          <div className="info-box">
-            <strong>이전 지원 이력:</strong> 근로자별 36개월 초과 여부 확인
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 대상 요건, 지원 기간, 신규가입자 기준까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/durunuri-social-insurance" className="btn-cta">
-            두루누리 사회보험 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 두루누리사회보험10인미만80퍼센트지원신청SpokeContent: SpokeData = {
   h1: '직원 월급 270만원 미만에 10명 미만 사업장이라면 두루누리 80% 지원 받는 방법',
@@ -92,8 +6,86 @@ export const 두루누리사회보험10인미만80퍼센트지원신청SpokeCont
   description:
     '두루누리 80% 지원 신청: 10인 미만 사업장 사업주가 4대보험 EDI 또는 근로복지공단(1588-0075) 신청. 고용보험+국민연금 80% 자동 차감. 월 270만원 미만 근로자 대상.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '지원율': '고용보험·국민연금 80%',
+    '사업장 요건': '10인 미만',
+    '소득 요건': '월 270만원 미만',
+    '신청자': '사업주',
+    '신청처': '4대보험 EDI 또는 근로복지공단 1588-0075',
+  },
+  keyFactsHighlights: {
+    '지원율': ['80%'],
+    '신청자': ['사업주'],
+  },
+  qa: [
+    {
+      q: '두루누리 80% 지원은 어떻게 신청하나요?',
+      anchor: '신청방법',
+      intro: '두루누리 지원은 사업주가 신청합니다. 온라인으로는 4대보험 EDI(edi.kcomwel.or.kr)에서 두루누리 지원을 신청할 수 있습니다. 전화로는 근로복지공단 고객센터 1588-0075로 문의하거나 신청할 수 있습니다. 가까운 근로복지공단 지사를 방문해 방문 신청도 가능합니다. 신청 후 승인되면 다음 달 보험료 고지서부터 80%가 자동 차감됩니다.',
+      highlights: ['사업주 신청', '4대보험 EDI', '☎1588-0075', '다음 달부터 차감'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['지원율', '보험료의 80% (신규가입자 기준)'],
+          ['적용 방법', '월 보험료 고지서에서 자동 차감'],
+          ['지원 기간', '최대 36개월'],
+          ['신청처', 'edi.kcomwel.or.kr / ☎1588-0075 / 근로복지공단 지사'],
+        ],
+      },
+      box: { label: '핵심', content: '사업주가 EDI 또는 ☎1588-0075로 신청. 다음 달 고지서에서 80% 자동 차감.' },
+    },
+    {
+      q: '신청 후 언제부터 지원이 적용되나요?',
+      anchor: '적용시점',
+      intro: '신청 후 승인되면 다음 달부터 보험료 고지서에 지원금이 반영됩니다. 소급 적용은 되지 않으므로, 요건이 충족된다면 빨리 신청할수록 유리합니다. 예를 들어 5월에 신청해 승인되면 6월 보험료부터 80% 차감이 적용됩니다.',
+      highlights: ['다음 달부터 적용', '소급 없음', '빨리 신청'],
+      box: { label: '주의', content: '소급 적용 없음. 신청 승인 다음 달부터 적용. 빨리 신청할수록 유리.' },
+    },
+    {
+      q: '근로자 본인이 직접 신청할 수 있나요?',
+      anchor: '근로자신청',
+      intro: '두루누리 지원은 사업주가 신청합니다. 근로자는 직접 신청할 수 없으며, 사업주에게 신청을 요청하면 됩니다. 근로자 입장에서는 사업주가 두루누리를 신청했는지 insurancesupport.or.kr에서 확인하거나 ☎1588-0075로 조회해 볼 수 있습니다.',
+      highlights: ['사업주만 신청', '근로자는 사업주에 요청', 'insurancesupport.or.kr 확인'],
+      box: { label: '안내', content: '신청 주체는 사업주. 근로자는 사업주에 요청. insurancesupport.or.kr에서 지원 여부 확인 가능.' },
+    },
+    {
+      q: '4대보험 EDI가 무엇인가요?',
+      anchor: 'EDI',
+      intro: '4대보험 EDI(edi.kcomwel.or.kr)는 근로복지공단에서 운영하는 4대 사회보험 통합 신고·관리 시스템입니다. 사업주가 두루누리 신청을 포함한 보험 관련 업무를 처리할 수 있습니다. 공인인증서(또는 금융인증서)가 필요하며, 사업주 명의로 로그인해 사용합니다.',
+      highlights: ['edi.kcomwel.or.kr', '통합 신고 시스템', '공인인증서 필요'],
+      box: { label: 'EDI 신청', content: 'edi.kcomwel.or.kr 접속 → 로그인 → 두루누리 지원 신청. 공인인증서 필요.' },
+    },
+    {
+      q: '사업장 근로자가 10명이 넘으면 지원이 중단되나요?',
+      anchor: '인원초과',
+      intro: '근로자 수가 10인 이상이 되면 해당 월부터 지원이 중단됩니다. 다시 10인 미만이 되더라도 기존 36개월 이력은 누적됩니다. 매월 고지서 반영 시점의 근로자 수를 기준으로 판단합니다.',
+      highlights: ['10인 이상 중단', '36개월 이력 누적', '매월 인원 기준'],
+      box: { label: '주의', content: '10인 이상이 되면 해당 월부터 지원 중단. 다시 줄어도 이력은 누적됨.' },
+    },
+    {
+      q: '신청 전 체크해야 할 사항이 있나요?',
+      anchor: '체크리스트',
+      intro: '신청 전 세 가지를 확인해야 합니다. 첫째, 신청 시점 근로자 수가 10인 미만인지 확인합니다. 둘째, 지원 대상 근로자의 월평균 보수가 270만원 미만인지 확인합니다. 셋째, 해당 근로자의 두루누리 지원 이력이 36개월을 초과하지 않았는지 insurancesupport.or.kr에서 확인합니다.',
+      highlights: ['10인 미만 확인', '270만원 미만', '36개월 이력 확인'],
+      table: {
+        headers: ['확인 항목', '기준'],
+        rows: [
+          ['사업장 인원', '신청 시점 근로자 수 10인 미만'],
+          ['근로자 보수', '월평균 보수 270만원 미만'],
+          ['지원 이력', '근로자별 36개월 초과 여부'],
+        ],
+      },
+      box: { label: '체크리스트', content: '① 10인 미만 확인 → ② 월 270만원 미만 확인 → ③ 36개월 이력 확인 → 신청.' },
+    },
+    {
+      q: '지원받은 사실을 모르고 전액 납부했는데 환급받을 수 있나요?',
+      anchor: '환급',
+      intro: '소급 적용은 되지 않습니다. 신청 후 다음 달부터 차감이 시작되므로, 이미 납부한 보험료는 환급되지 않습니다. 그러므로 요건을 충족한다면 가능한 빨리 신청하는 것이 중요합니다. 이미 오랫동안 납부해 왔다면 아쉽더라도 앞으로의 절감 효과를 위해 즉시 신청하세요.',
+      highlights: ['소급 없음', '환급 불가', '즉시 신청 권장'],
+      box: { label: '주의', content: '소급 적용·환급 없음. 요건 충족 시 즉시 신청해 앞으로의 보험료를 절감하세요.' },
+    },
+  ],
   faqData: [
     {
       q: '근로자 본인이 직접 신청할 수 있나요?',
@@ -115,13 +107,13 @@ export const 두루누리사회보험10인미만80퍼센트지원신청SpokeCont
     },
     {
       q: '사업장 근로자가 10명이 넘으면 지원이 중단되나요?',
-      a: '근로자 수가 10인 이상이 되면 해당 월부터 지원이 중단됩니다. 다시 10인 미만이 되어도 기존 36개월 이력이 누적됩니다.',
+      a: '근로자 수가 10인 이상이 되면 해당 월부터 지원이 중단됩니다.',
       source: '근로복지공단',
       sourceUrl: 'https://insurancesupport.or.kr',
     },
     {
       q: '4대보험 EDI가 무엇인가요?',
-      a: '4대보험 EDI(edi.kcomwel.or.kr)는 근로복지공단에서 운영하는 4대 사회보험 통합 신고·관리 시스템입니다. 사업주가 두루누리 신청을 포함한 보험 관련 업무를 처리할 수 있습니다.',
+      a: '4대보험 EDI(edi.kcomwel.or.kr)는 근로복지공단에서 운영하는 4대 사회보험 통합 신고·관리 시스템으로 두루누리 신청도 여기서 할 수 있습니다.',
       source: '근로복지공단',
       sourceUrl: 'https://insurancesupport.or.kr',
     },

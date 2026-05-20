@@ -1,106 +1,119 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          장애수당을 받으려면 <strong>만 18세 이상 경증 등록장애인</strong>이면서
-          <strong>기초생활 수급자 또는 차상위계층</strong>이어야 합니다.
-          세 조건을 모두 충족하면 월 <strong>6만원</strong>이 지급됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "경증 장애인인데 기초수급자입니다. 장애수당을 신청할 수 있나요?"
-        신청 자격 3가지 조건을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="conditions">
-        <h2 className="detail-card-head">자격 3대 조건</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>조건</th><th>기준</th><th>제외 대상</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>연령</strong></td>
-                <td>만 18세 이상</td>
-                <td>18세 미만 → 장애아동수당</td>
-              </tr>
-              <tr>
-                <td><strong>장애 등록</strong></td>
-                <td>경증 등록장애인</td>
-                <td>중증 → 장애인연금</td>
-              </tr>
-              <tr>
-                <td><strong>소득·재산</strong></td>
-                <td>기초수급자 또는 차상위계층</td>
-                <td>초과 시 대상 제외</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">지급 금액</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>성인 경증 장애수당:</strong> 월 6만원 (수급자·차상위 모두 동일)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>지급 방식:</strong> 매월 정기 계좌 입금
-          </div>
-          <div className="info-box">
-            <strong>중증 장애인연금:</strong> 월 최대 43만 9,700원 (별도 제도)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 거주지 읍·면·동 행정복지센터 (연중 신청 가능)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인:</strong> 복지로(bokjiro.go.kr) 신청
-          </div>
-          <div className="info-box">
-            <strong>준비 서류:</strong> 장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            장애수당과 장애인연금 차이, 아동수당 등<br />
-            장애수당 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-allowance" className="btn-cta">
-            장애수당 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애수당성인수급자자격SpokeContent: SpokeData = {
   h1: '경증 등록장애인인데 기초수급자라면 장애수당 신청 자격과 월 지급액 확인',
   breadcrumb: '성인수급자자격',
   description:
     '장애수당 자격: 만 18세 이상 + 경증 등록장애인 + 기초수급자·차상위계층. 월 6만원 지급. 중증은 장애인연금(월 최대 43만 9,700원). 복지로·행정복지센터 신청.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '자격 연령': '만 18세 이상 성인',
+    '장애 등급': '경증 등록장애인',
+    '소득 조건': '기초수급자 또는 차상위계층',
+    '월 지급액': '6만원',
+    '신청처': '행정복지센터 또는 복지로(bokjiro.go.kr)',
+  },
+  keyFactsHighlights: {
+    '월 지급액': ['6만원'],
+    '장애 등급': ['경증'],
+    '소득 조건': ['기초수급자', '차상위계층'],
+  },
+  qa: [
+    {
+      q: '장애수당 신청 자격 3가지 조건은 무엇인가요?',
+      anchor: 'conditions',
+      intro: '장애수당을 받으려면 만 18세 이상, 경증 등록장애인, 기초수급자 또는 차상위계층 세 가지 조건을 모두 충족해야 합니다. 18세 미만은 장애아동수당, 중증 장애인은 장애인연금 대상입니다. 세 조건을 모두 만족하면 월 6만원이 정기 지급됩니다.',
+      highlights: ['만 18세 이상', '경증 등록장애인', '기초수급자', '차상위계층', '6만원'],
+      table: {
+        headers: ['조건', '기준', '제외 대상'],
+        rows: [
+          ['연령', '만 18세 이상', '18세 미만 → 장애아동수당'],
+          ['장애 등록', '경증 등록장애인', '중증 → 장애인연금'],
+          ['소득·재산', '기초수급자 또는 차상위계층', '초과 시 대상 제외'],
+        ],
+      },
+    },
+    {
+      q: '장애수당은 매달 얼마를 받나요?',
+      anchor: 'amount',
+      intro: '성인 경증 장애수당은 수급자·차상위계층 모두 동일하게 월 6만원이 지급됩니다. 매월 정기적으로 계좌로 입금됩니다. 중증 장애인이 받는 장애인연금(월 최대 43만 9,700원)과는 별개의 제도로, 두 제도를 동시에 수령하는 것은 불가능합니다.',
+      highlights: ['월 6만원', '정기 입금', '장애인연금과 중복 불가'],
+      table: {
+        headers: ['구분', '월 지급액', '비고'],
+        rows: [
+          ['성인 경증 장애수당', '6만원', '수급자·차상위 동일'],
+          ['중증 장애인연금', '최대 43만 9,700원', '별도 제도'],
+          ['18세 미만 장애아동수당', '11만~22만원', '별도 제도'],
+        ],
+      },
+    },
+    {
+      q: '경증인지 중증인지 어떻게 확인하나요?',
+      anchor: 'severity-check',
+      intro: '장애인등록증 또는 장애 정도 판정 결과에서 확인할 수 있습니다. 등록증에 "장애 정도가 심한 장애인"이라고 적혀 있으면 중증(장애인연금 대상), "장애 정도가 심하지 않은 장애인"이라고 적혀 있으면 경증(장애수당 대상)입니다. 모르는 경우 행정복지센터에서 안내받을 수 있습니다.',
+      highlights: ['장애인등록증', '심한 장애인', '심하지 않은 장애인'],
+      box: {
+        label: '장애 정도 확인 방법',
+        content: '장애인등록증에 표기된 내용 확인:
+- "장애 정도가 심한 장애인" → 중증 → 장애인연금
+- "장애 정도가 심하지 않은 장애인" → 경증 → 장애수당
+모르면 행정복지센터 문의',
+      },
+    },
+    {
+      q: '차상위계층도 장애수당을 받을 수 있나요?',
+      anchor: 'near-poor',
+      intro: '기초수급자와 차상위계층 모두 동일하게 월 6만원을 받습니다. 차상위계층이란 소득인정액이 중위소득 50% 이하이지만 기초수급자 기준을 충족하지 못하는 분들을 의미합니다. 소득 수준에 따라 장애수당 외에 추가로 받을 수 있는 혜택이 다를 수 있습니다.',
+      highlights: ['차상위계층', '동일 6만원', '중위소득 50%'],
+      box: {
+        label: '수급자·차상위 장애수당 비교',
+        content: '기초수급자 경증: 장애수당 6만원 + 기초수급 급여(생계·의료 등) 별도
+차상위계층 경증: 장애수당 6만원 + 차상위 건강보험료 경감 등
+장애수당 금액은 두 계층 모두 동일(월 6만원)',
+      },
+    },
+    {
+      q: '신청 방법은 어떻게 되나요?',
+      anchor: 'apply',
+      intro: '거주지 읍·면·동 행정복지센터를 방문하거나 복지로(bokjiro.go.kr)에서 온라인으로 신청할 수 있습니다. 연중 상시 신청 가능하며, 자격 확인 후 다음 달부터 매월 정기 지급됩니다.',
+      highlights: ['행정복지센터', '복지로', '연중 신청', '다음 달부터'],
+      table: {
+        headers: ['신청 방법', '내용'],
+        rows: [
+          ['방문 신청', '거주지 읍·면·동 행정복지센터'],
+          ['온라인 신청', '복지로(bokjiro.go.kr)'],
+          ['준비 서류', '장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서'],
+          ['지급 시기', '자격 확인 후 다음 달부터 매월'],
+        ],
+      },
+    },
+    {
+      q: '장애수당 신청 후 지급까지 얼마나 걸리나요?',
+      anchor: 'timeline',
+      intro: '신청 후 소득·재산 조사 및 자격 확인 과정이 이루어지며, 통상 2~4주 내에 결과가 통보됩니다. 자격이 확인되면 다음 달부터 매월 정기 지급됩니다. 궁금한 사항은 ☎129(보건복지상담)에서 문의할 수 있습니다.',
+      highlights: ['2~4주', '다음 달 지급', '☎129'],
+      box: {
+        label: '신청 후 일정',
+        content: '신청 → 소득·재산 조사(2~4주) → 자격 결정 통보 → 다음 달부터 정기 지급
+문의: ☎129(보건복지상담) 또는 행정복지센터',
+      },
+    },
+    {
+      q: '장애수당과 장애인연금은 동시에 받을 수 있나요?',
+      anchor: 'duplicate',
+      intro: '동시 수급이 불가합니다. 장애수당은 경증 장애인, 장애인연금은 중증 장애인 대상으로 대상 자체가 달라 중복 수령이 되지 않습니다. 경증과 중증 구분은 장애 정도에 따라 자동으로 결정되므로 해당되는 제도 하나만 신청하면 됩니다.',
+      highlights: ['동시 수급 불가', '경증', '중증', '장애 정도'],
+      table: {
+        headers: ['제도', '대상', '월 금액'],
+        rows: [
+          ['장애수당', '경증 등록장애인 (수급자·차상위)', '6만원'],
+          ['장애인연금', '중증 등록장애인', '최대 43만 9,700원'],
+          ['장애아동수당', '18세 미만 등록장애아동', '11만~22만원'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '경증 장애인이면서 기초수급자인데 장애수당을 받을 수 있나요?',

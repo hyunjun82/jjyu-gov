@@ -1,102 +1,89 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          보호시설 퇴소 후에도 자녀가 있다면 <strong>자녀 1명당 월 6만원</strong>의
-          유자녀 자립지원금이 자녀가 <strong>만 18세가 되는 달까지</strong> 지급됩니다.
-          자녀가 2명이면 월 12만원, 3명이면 월 18만원을 받습니다.
-          이 지원금은 한부모·아동수당 등 다른 복지와 <strong>중복 수령</strong>이 가능합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        자립지원금 신청 전 반드시 확인해야 할 유자녀 추가 지원 내용을 정리했습니다.
-        자녀가 있다면 주거·생계 지원 외에 자녀 수에 따라 추가 지원금이 누적됩니다.
-      </p>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">유자녀 자립지원금 금액표</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>자녀 수</th><th>월 지원금</th><th>지급 기간</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>자녀 1명</strong></td><td>월 6만원</td><td>자녀 만 18세까지</td></tr>
-              <tr><td><strong>자녀 2명</strong></td><td>월 12만원 (각각 6만원)</td><td>각 자녀 만 18세까지</td></tr>
-              <tr><td><strong>자녀 3명</strong></td><td>월 18만원 (각각 6만원)</td><td>각 자녀 만 18세까지</td></tr>
-              <tr><td><strong>지급 방식</strong></td><td>본인 계좌 매월 입금</td><td>퇴소 후에도 계속</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">유자녀 지원금 신청 요건</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>본인:</strong> 가정폭력·성폭력 보호시설 이용(입소·퇴소) 피해자
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>자녀:</strong> 보호시설 이용 당시 함께한 자녀 (만 18세 미만)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>퇴소 후:</strong> 퇴소 후에도 자녀가 만 18세 미만이면 계속 수령
-          </div>
-          <div className="info-box">
-            <strong>신청처:</strong> 시·군·구청 여성가족 부서 또는 1366 연계 후 안내
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="overlap">
-        <h2 className="detail-card-head">함께 받을 수 있는 다른 자녀 지원</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>아동수당:</strong> 만 8세 미만 자녀, 월 10만원 (중복 OK)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>부모급여:</strong> 만 0~1세 자녀 (중복 OK)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>한부모가족 아동양육비:</strong> 만 18세 미만 자녀, 월 21만원 (중복 OK)
-          </div>
-          <div className="info-box">
-            <strong>가정양육수당:</strong> 어린이집 미이용 영유아 (중복 OK)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            주거지원시설 입주 조건, 취업 훈련 연계, 전체 신청 절차까지<br />
-            자립지원금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/dv-shelter-leaver-aid" className="btn-cta">
-            가정폭력 보호시설 퇴소자 자립지원금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 가정폭력자립지원금유자녀추가지원SpokeContent: SpokeData = {
   h1: '퇴소자 지원금 신청 전 알아야 할 유자녀 추가 지원 여부',
   breadcrumb: '유자녀추가지원',
-  description:
-    '가정폭력 보호시설 퇴소자 유자녀 자립지원금: 자녀 1명당 월 6만원, 만 18세까지. 자녀 2명이면 월 12만원. 아동수당·부모급여·한부모가족 아동양육비와 중복 수령 가능.',
+  description: '가정폭력 보호시설 퇴소자 유자녀 자립지원금: 자녀 1명당 월 6만원, 만 18세까지. 자녀 2명이면 월 12만원. 아동수당·부모급여·한부모가족 아동양육비와 중복 수령 가능.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '자녀 1명 월 지원금': '월 6만원',
+    '자녀 2명 월 지원금': '월 12만원',
+    '지급 기간': '자녀 만 18세까지',
+    '지급 방식': '본인 계좌 매월 입금',
+    '다른 수당과 중복': '가능',
+  },
+  keyFactsHighlights: {
+    '자녀 1명 월 지원금': ['6만원'],
+    '다른 수당과 중복': ['가능'],
+  },
+  qa: [
+    {
+      q: '유자녀 자립지원금은 얼마나 받나?',
+      anchor: 'amount',
+      intro: '보호시설 퇴소 후에도 자녀가 있다면 자녀 1명당 월 6만원의 유자녀 자립지원금이 자녀가 만 18세가 되는 달까지 지급됩니다. 자녀가 2명이면 월 12만원, 3명이면 월 18만원을 받습니다. 이 지원금은 한부모·아동수당 등 다른 복지와 중복 수령이 가능합니다. 지급 방식은 본인 계좌로 매월 입금됩니다.',
+      highlights: ['자녀 1명당 월 6만원', '만 18세까지', '중복 수령 가능'],
+      table: {
+        headers: ['자녀 수', '월 지원금', '지급 기간'],
+        rows: [
+          ['자녀 1명', '월 6만원', '자녀 만 18세까지'],
+          ['자녀 2명', '월 12만원 (각각 6만원)', '각 자녀 만 18세까지'],
+          ['자녀 3명', '월 18만원 (각각 6만원)', '각 자녀 만 18세까지'],
+          ['지급 방식', '본인 계좌 매월 입금', '퇴소 후에도 계속'],
+        ],
+      },
+    },
+    {
+      q: '유자녀 지원금 신청 요건은 무엇인가?',
+      anchor: 'eligibility',
+      intro: '가정폭력·성폭력 보호시설 이용(입소·퇴소) 피해자로서, 보호시설 이용 당시 함께한 자녀(만 18세 미만)가 있어야 합니다. 퇴소 후에도 자녀가 만 18세 미만이면 계속 수령 가능합니다. 신청처는 시·군·구청 여성가족 부서 또는 1366 연계 후 안내를 받을 수 있습니다.',
+      highlights: ['보호시설 이용 피해자', '만 18세 미만 자녀', '퇴소 후도 계속'],
+      box: { label: '신청처', content: '시·군·구청 여성가족 부서 또는 1366(여성긴급전화, 24시간)으로 연락하면 신청 절차 안내.' },
+    },
+    {
+      q: '아동수당, 부모급여와 함께 받을 수 있나?',
+      anchor: 'overlap',
+      intro: '유자녀 자립지원금은 아동수당(만 8세 미만 월 10만원), 부모급여(만 0~1세), 한부모가족 아동양육비(만 18세 미만 월 21만원), 가정양육수당 등과 모두 중복 수령이 가능합니다. 여러 복지 지원을 함께 받아 자립 기반을 강화할 수 있습니다.',
+      highlights: ['아동수당 중복 가능', '한부모 아동양육비 중복', '부모급여 중복'],
+      table: {
+        headers: ['지원 종류', '대상', '금액', '중복 여부'],
+        rows: [
+          ['아동수당', '만 8세 미만 자녀', '월 10만원', '중복 OK'],
+          ['부모급여', '만 0~1세 자녀', '별도 확인', '중복 OK'],
+          ['한부모가족 아동양육비', '만 18세 미만 자녀', '월 21만원', '중복 OK'],
+          ['가정양육수당', '어린이집 미이용 영유아', '별도 확인', '중복 OK'],
+        ],
+      },
+    },
+    {
+      q: '퇴소 후에도 자녀 지원금을 계속 받을 수 있나?',
+      anchor: 'after-exit',
+      intro: '네. 퇴소 후에도 자녀가 만 18세 미만이면 계속 수령합니다. 퇴소 전 또는 퇴소 직후 즉시 신청하면 지원 공백 없이 받을 수 있습니다. 퇴소 후에 신청을 시작하면 지원이 끊기는 기간이 생길 수 있으므로 입소 중에 미리 준비하는 것이 중요합니다.',
+      highlights: ['퇴소 후도 지속', '퇴소 전 신청 권장', '지원 공백 없음'],
+      box: { label: '권장', content: '퇴소 전 시·군·구청 여성가족 부서에 신청 완료해 두면 퇴소 직후부터 지급 시작.' },
+    },
+    {
+      q: '자녀가 성인이 되면 지원금이 끊기나?',
+      anchor: 'age-limit',
+      intro: '자녀가 만 18세가 되는 달까지 지급됩니다. 자녀가 만 18세가 되면 해당 자녀에 대한 유자녀 자립지원금은 종료됩니다. 자녀가 여러 명인 경우 각 자녀마다 만 18세가 되는 시점에 해당 자녀 분 지원금이 종료됩니다. 예를 들어 자녀 2명 중 1명이 만 18세가 되면 그 자녀분 6만원은 종료되고 나머지 1명분 6만원은 계속 지급됩니다.',
+      highlights: ['만 18세 되는 달까지', '각 자녀별 종료 시점 다름'],
+      box: { label: '안내', content: '자녀 2명이면 각각 만 18세까지 각 6만원 지급. 한 명이 만 18세 되어도 나머지 자녀 분은 계속.' },
+    },
+    {
+      q: '신청은 어디서 어떻게 하나?',
+      anchor: 'apply',
+      intro: '거주지 시·군·구청 여성가족 부서 또는 1366(여성긴급전화, 24시간)으로 연락하면 신청 절차를 안내받을 수 있습니다. 복지로(bokjiro.go.kr)에서도 온라인 신청이 가능합니다. 퇴소 전 또는 퇴소 직후 즉시 신청하는 것을 권장합니다.',
+      highlights: ['시군구청 여성가족 부서', '1366 연락', '복지로 온라인'],
+      box: { label: '신청처', content: '① 시군구청 여성가족 부서 ② 1366 (여성긴급전화, 24시간) ③ 복지로 (bokjiro.go.kr)' },
+    },
+    {
+      q: '외국인 피해자도 유자녀 지원금을 받을 수 있나?',
+      anchor: 'foreigner',
+      intro: '체류 자격에 관계없이 일부 지원이 가능합니다. 정확한 지원 범위는 1366 또는 거주지 시군구청 여성가족 부서에 문의해야 합니다. 보호시설 이용 자격은 외국인 피해자에게도 적용될 수 있습니다.',
+      highlights: ['체류 자격 무관 일부 지원', '1366 문의'],
+      box: { label: '안내', content: '외국인 피해자는 1366 또는 시군구청 여성가족 부서에 개별 문의 필요.' },
+    },
+  ],
   faqData: [
     {
       q: '유자녀 자립지원금은 얼마나 받나요?',

@@ -1,147 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          엄마·아빠가 모두 육아휴직을 쓰면
-          <strong>6+6 부모함께 육아휴직</strong>이 적용됩니다.
-          부부가 동시 또는 순차로 첫 6개월 동안 각자 통상임금 100%를 받으며,
-          상한액이 6개월째에 <strong>월 450만원</strong>까지 단계적으로 올라갑니다.
-          부모 각자에게 적용되므로 합산하면 최대 900만원 수준입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "남편도 같이 쓰면 더 받는다는데 얼마나 더 받나요?"
-        순서별·개월별 금액과 조건을 구체적으로 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">6+6 부모함께 — 개월별 상한액 (부모 각자 기준)</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>개월 차</th><th>통상임금 비율</th><th>월 상한액 (각자)</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>1개월</td><td>100%</td><td><strong>월 250만원</strong></td></tr>
-              <tr><td>2개월</td><td>100%</td><td><strong>월 250만원</strong></td></tr>
-              <tr><td>3개월</td><td>100%</td><td><strong>월 300만원</strong></td></tr>
-              <tr><td>4개월</td><td>100%</td><td><strong>월 350만원</strong></td></tr>
-              <tr><td>5개월</td><td>100%</td><td><strong>월 400만원</strong></td></tr>
-              <tr><td>6개월</td><td>100%</td><td><strong>월 450만원</strong></td></tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>부부 합산:</strong> 6개월 차에 각자 최대 450만원 = 합산 최대 900만원.
-            이 상한액은 통상임금이 상한보다 높을 때 적용됩니다.
-            통상임금이 낮으면 통상임금 전액을 받습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="condition">
-        <h2 className="detail-card-head">6+6 적용 조건 — 동시·순차 모두 가능한가</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>조건</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>대상 자녀</td>
-                <td>생후 18개월 이내 자녀 (2024년 이후 출생 자녀부터 적용)</td>
-              </tr>
-              <tr>
-                <td>사용 방식</td>
-                <td>동시 사용 또는 순차 사용 모두 가능</td>
-              </tr>
-              <tr>
-                <td>엄마·아빠 각자</td>
-                <td>각자 첫 6개월에 대해 단계 상한 적용</td>
-              </tr>
-              <tr>
-                <td>일반 육아휴직과 차이</td>
-                <td>일반 육아휴직보다 상한액이 높음 (예: 3개월째 일반 250만 → 6+6 300만)</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>주의:</strong> 6+6 부모함께 육아휴직은 <strong>생후 18개월 이내 자녀</strong>가 있을 때 적용됩니다.
-            만 8세 이하라도 생후 18개월 초과이면 일반 육아휴직 급여가 적용됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="compare">
-        <h2 className="detail-card-head">일반 육아휴직 vs 6+6 부모함께 — 3개월 차 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>일반 육아휴직</th><th>6+6 부모함께</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1개월 상한</td>
-                <td>250만원</td>
-                <td>250만원 (동일)</td>
-              </tr>
-              <tr>
-                <td>3개월 상한</td>
-                <td>250만원</td>
-                <td><strong>300만원</strong></td>
-              </tr>
-              <tr>
-                <td>5개월 상한</td>
-                <td>200만원 (4~6월 구간)</td>
-                <td><strong>400만원</strong></td>
-              </tr>
-              <tr>
-                <td>6개월 상한</td>
-                <td>200만원</td>
-                <td><strong>450만원</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#666', marginTop: 8 }}>
-            ※ 6+6 부모함께는 부모 각자에게 위 상한이 적용됩니다. 부부 합산 시 효과 배가.
-          </p>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">6+6 신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>별도 신청 불필요:</strong> 육아휴직급여 신청 시 고용보험 시스템이 자동으로
-            6+6 적용 여부를 판단합니다. 배우자가 같은 자녀로 육아휴직을 사용했거나 사용 중이면 자동 적용됩니다.
-          </div>
-          <div className="info-box">
-            <strong>신청 창구:</strong> 고용보험 누리집(ei.go.kr) 또는 가까운 고용센터
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            1~3월 급여 계산법, 신청 조건, 회사 부담 여부 등<br />
-            육아휴직급여 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/parental-leave-pay" className="btn-cta">
-            육아휴직급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 부모함께SpokeContent: SpokeData = {
   h1: '엄마 아빠 모두 육아휴직 쓰면 6+6 급여 얼마 더 받나 | 순서별 금액',
@@ -149,8 +6,87 @@ export const 부모함께SpokeContent: SpokeData = {
   description:
     '6+6 부모함께 육아휴직은 부부가 동시·순차로 육아휴직을 쓸 때 각자 첫 6개월간 통상임금 100%에 단계별 상한을 적용합니다. 6개월 차 상한은 각자 월 450만원. 생후 18개월 이내 자녀에게 적용. 별도 신청 없이 고용보험 시스템이 자동 판단합니다.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '제도명': '6+6 부모함께 육아휴직',
+    '적용 조건': '생후 18개월 이내 자녀, 부부 모두 육아휴직',
+    '급여율': '각자 통상임금 100% (첫 6개월)',
+    '6개월 차 상한': '각자 월 450만원 (합산 최대 900만원)',
+    '별도 신청': '불필요 — 고용보험 시스템 자동 적용',
+  },
+  keyFactsHighlights: {
+    '6개월 차 상한': ['450만원', '900만원'],
+    '급여율': ['100%'],
+  },
+  qa: [
+    {
+      q: '6+6 부모함께 육아휴직이란 무엇인가요?',
+      anchor: '6plus6-intro',
+      intro: '6+6 부모함께 육아휴직은 부부가 같은 자녀를 이유로 동시 또는 순차적으로 육아휴직을 사용할 때, 각자 첫 6개월간 통상임금 100%를 지급하고 월 상한액을 단계적으로 올려주는 제도입니다. 일반 육아휴직보다 상한이 높아 실질 수령액이 증가합니다. 생후 18개월 이내 자녀에게 적용되며, 별도 신청 없이 고용보험 시스템이 배우자 사용 이력을 확인해 자동 적용합니다.',
+      highlights: ['6+6', '통상임금 100%', '자동 적용', '생후 18개월'],
+      box: { label: '핵심', content: '부부가 같은 자녀로 육아휴직 사용 시 → 각자 첫 6개월 통상임금 100% + 단계별 상한 적용' },
+    },
+    {
+      q: '6+6 적용 시 개월별 상한액이 얼마인가요?',
+      anchor: '6plus6-amount',
+      intro: '6+6 부모함께 육아휴직의 상한액은 매월 단계적으로 올라갑니다. 1~2개월 차에는 각자 월 250만원, 3개월 차 300만원, 4개월 차 350만원, 5개월 차 400만원, 6개월 차에는 각자 최대 450만원까지 받습니다. 통상임금이 상한보다 낮으면 통상임금 전액이 지급됩니다. 부부 합산 시 6개월 차에 최대 900만원 수준입니다.',
+      highlights: ['450만원', '900만원', '단계별'],
+      table: {
+        headers: ['개월 차', '통상임금 비율', '월 상한액 (각자)'],
+        rows: [
+          ['1~2개월', '100%', '월 250만원'],
+          ['3개월', '100%', '월 300만원'],
+          ['4개월', '100%', '월 350만원'],
+          ['5개월', '100%', '월 400만원'],
+          ['6개월', '100%', '월 450만원'],
+        ],
+      },
+      box: { label: '참고', content: '통상임금이 상한보다 낮으면 상한 대신 실제 통상임금 전액 지급' },
+    },
+    {
+      q: '6+6은 동시에 사용해야 하나요, 순차로도 되나요?',
+      anchor: '6plus6-order',
+      intro: '6+6 부모함께 육아휴직은 동시 사용과 순차 사용 모두 가능합니다. 부부가 같은 자녀에 대해 육아휴직을 사용한 이력이 있으면 시간 차이와 무관하게 적용됩니다. 다만 자녀 연령이 생후 18개월 이내여야 하므로, 배우자가 늦게 육아휴직을 시작할 경우 자녀 연령 조건을 반드시 확인해야 합니다.',
+      highlights: ['동시 사용', '순차 사용', '생후 18개월'],
+      box: { label: '조건', content: '부부 모두 같은 자녀 대상 + 자녀 생후 18개월 이내 = 6+6 자동 적용' },
+    },
+    {
+      q: '일반 육아휴직과 6+6 부모함께는 어떻게 다른가요?',
+      anchor: '6plus6-compare',
+      intro: '일반 육아휴직급여는 1~3개월 상한 250만원, 4~6개월 상한 200만원, 7개월 이후 160만원(통상임금 80%)으로 적용됩니다. 반면 6+6 부모함께는 첫 6개월이 모두 통상임금 100%이며, 3개월 차부터 상한이 일반보다 높습니다. 특히 5~6개월 차의 차이가 크며 이 기간 혜택이 집중됩니다.',
+      highlights: ['250만원', '200만원', '160만원'],
+      table: {
+        headers: ['구간', '일반 육아휴직 상한', '6+6 상한 (각자)'],
+        rows: [
+          ['1개월', '250만원', '250만원 (동일)'],
+          ['3개월', '250만원', '300만원 (+50)'],
+          ['5개월', '200만원', '400만원 (+200)'],
+          ['6개월', '200만원', '450만원 (+250)'],
+        ],
+      },
+    },
+    {
+      q: '6+6 부모함께를 별도로 신청해야 하나요?',
+      anchor: '6plus6-apply',
+      intro: '6+6 부모함께 육아휴직은 별도 신청이 필요 없습니다. 육아휴직급여를 신청하면 고용보험 시스템이 자동으로 배우자의 육아휴직 사용 이력을 확인하여 6+6 적용 여부를 판단합니다. 신청 창구는 고용보험 누리집(ei.go.kr) 또는 가까운 고용센터이며, 매월 1회 신청하면 됩니다.',
+      highlights: ['별도 신청 불필요', 'ei.go.kr', '자동 판단'],
+      box: { label: '신청 방법', content: 'ei.go.kr 접속 → 육아휴직급여 신청 → 시스템이 6+6 자동 판단 → 해당 상한 적용' },
+    },
+    {
+      q: '6+6 적용이 안 되면 어떻게 확인하나요?',
+      anchor: '6plus6-check',
+      intro: '6+6이 자동 적용되지 않는 경우, 신청한 고용센터에 문의하면 됩니다. 배우자가 같은 자녀 대상으로 육아휴직을 사용했음을 확인할 수 있는 서류(배우자 육아휴직 확인서 등)를 제출하면 소급 적용 여부를 검토받을 수 있습니다. 고용노동부 고객상담센터(1350)에 문의해도 됩니다.',
+      highlights: ['고용센터 문의', '소급 적용', '1350'],
+      box: { label: '문의처', content: '고용노동부 고객상담센터: 1350 / 고용보험 누리집: ei.go.kr' },
+    },
+    {
+      q: '6+6과 기타 육아지원제도를 동시에 받을 수 있나요?',
+      anchor: '6plus6-overlap',
+      intro: '6+6 부모함께 육아휴직급여는 육아기 근로시간 단축급여, 출산전후휴가급여 등과 중복 적용이 제한됩니다. 같은 기간에 육아휴직급여와 육아기 근로시간 단축급여를 동시에 받을 수는 없습니다. 단, 부모급여(영아수당)·아동수당·첫만남이용권 등 현금성 급여와는 중복 수령이 가능합니다.',
+      highlights: ['부모급여 중복 OK', '근로시간 단축 동시 불가'],
+      box: { label: '중복 정리', content: '중복 가능: 부모급여·아동수당·첫만남이용권 / 중복 불가: 육아기 근로시간 단축급여(같은 기간)' },
+    },
+  ],
   faqData: [
     {
       q: '6+6 부모함께 육아휴직이란 무엇인가요?',

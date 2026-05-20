@@ -1,150 +1,103 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          실업급여를 받으면서 단기 알바는 <strong>가능합니다. 단, 반드시 신고해야 합니다.</strong>
-          알바를 한 날 수만큼 구직급여가 차감됩니다 (시급 기준 아님, 일수 기준).
-          신고하지 않으면 전액 환수 + 최대 5배 추가 징수 + 형사처벌까지 받을 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "실업급여 받으면서 용돈벌이로 알바해도 되나요?"
-        결론: 가능하지만 반드시 신고해야 합니다. 신고하면 일한 날만큼 차감되고,
-        신고 안 하면 부정수급으로 훨씬 큰 손실이 생깁니다.
-      </p>
-
-      <section className="detail-card" id="rule">
-        <h2 className="detail-card-head">실업급여 수급 중 알바 핵심 규칙</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>알바 가능 여부</td>
-                <td>✅ 가능 (근로 자체는 불법 아님)</td>
-              </tr>
-              <tr>
-                <td>신고 의무</td>
-                <td>✅ 필수 (고용센터에 알바 일수·소득 신고)</td>
-              </tr>
-              <tr>
-                <td>급여 차감 기준</td>
-                <td>일한 날 수 × 1일 구직급여액 (시급 무관, 일수 기준)</td>
-              </tr>
-              <tr>
-                <td>미신고 시 처벌</td>
-                <td>전액 환수 + 최대 5배 추가 징수 + 형사처벌</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>핵심:</strong> 시급이 낮아도 하루만 일해도 그날의 구직급여는 나오지 않습니다.
-            반드시 실업급여 신고 시 알바 일수를 정확히 기재하세요.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="deduction">
-        <h2 className="detail-card-head">알바 시 구직급여 차감 계산 예시</h2>
-        <div className="detail-card-body">
-          <p style={{ lineHeight: 1.8, marginBottom: 12 }}>
-            예를 들어 하루 구직급여가 66,000원이고 한 달에 5일 알바를 했다면:
-          </p>
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>금액</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1일 구직급여액</td>
-                <td>66,000원</td>
-              </tr>
-              <tr>
-                <td>알바 일수</td>
-                <td>5일</td>
-              </tr>
-              <tr>
-                <td>차감액</td>
-                <td>330,000원 (= 66,000 × 5)</td>
-              </tr>
-              <tr>
-                <td>실 지급 구직급여</td>
-                <td>해당 월 구직급여 - 330,000원</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>중요:</strong> 알바 시급이 최저임금이든 높은 시급이든 차감 기준은 동일합니다.
-            시급이 아니라 <strong>근무 일수</strong>만 봅니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="safe">
-        <h2 className="detail-card-head">월 60시간 미만 알바, 어디까지 괜찮나</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>주 15시간 미만 + 월 50만원 이하:</strong> 단기·초단시간 알바로 간주되어
-            구직급여가 유지될 가능성이 높습니다. 단, 반드시 신고해야 합니다.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>고용보험 미가입 일용직:</strong> 하루짜리 단기 알바 중 고용보험 미가입 일용직은
-            실업급여 수급에 영향이 없는 경우가 많습니다.
-          </div>
-          <div className="warning-box">
-            <strong>주당 18시간 초과 또는 일액 이상 소득 발생 시:</strong>
-            해당 일은 구직급여를 받지 못하며, 취업 신고를 해야 합니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="report">
-        <h2 className="detail-card-head">알바 신고 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 고용24:</strong> work24.go.kr → 실업급여 신청 → 취업(알바) 신고
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 고용센터 방문·전화:</strong> 관할 고용센터 방문 또는 1350 전화로 신고
-          </div>
-          <div className="info-box">
-            <strong>③ 실업인정 신청 시 기재:</strong> 2주마다 실업인정 신청 때 알바 일수와 소득을 기재
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            수급 기간, 재수급, 자발적 퇴사 기준 등<br />
-            실업급여 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/job-seeker-benefit" className="btn-cta">
-            실업급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 알바단기SpokeContent: SpokeData = {
   h1: '실업급여 받으면서 알바해도 되나 | 월 60시간 기준과 신고 방법',
   breadcrumb: '알바·단기',
   description: '실업급여 받으면서 알바해도 됩니다. 단 반드시 신고 필수. 월 60시간(주 15시간) 미만이면 급여 유지 가능하나, 일한 날 수 × 1일 구직급여액이 차감됩니다. 미신고 시 전액 환수 + 최대 5배 추가 징수 + 형사처벌.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '알바 가능 여부': '가능 (단, 반드시 신고 필수)',
+    '급여 차감 기준': '일한 날 수 × 1일 구직급여액 (시급 무관)',
+    '미신고 시 처벌': '전액 환수 + 최대 5배 추가 징수 + 형사처벌',
+    '신고 방법': '고용24(work24.go.kr) 또는 고용센터 ☎1350',
+    '초단시간 기준': '주 15시간 미만 + 월 50만원 이하',
+  },
+  keyFactsHighlights: {
+    '알바 가능 여부': ['반드시 신고 필수'],
+    '미신고 시 처벌': ['전액 환수', '최대 5배'],
+    '초단시간 기준': ['주 15시간 미만'],
+  },
+  qa: [
+    {
+      q: '실업급여 받으면서 알바를 해도 되나요?',
+      anchor: 'possible',
+      intro:
+        '실업급여(구직급여)를 받으면서 알바를 하는 것은 가능합니다. 근로 자체는 불법이 아니지만, 반드시 고용센터에 알바 일수와 소득을 신고해야 합니다. 신고하면 일한 날만큼 구직급여가 차감됩니다. 신고하지 않으면 부정수급으로 처리되어 훨씬 큰 불이익을 받습니다.',
+      highlights: ['반드시 신고', '부정수급'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['알바 가능 여부', '가능 (근로 자체는 불법 아님)'],
+          ['신고 의무', '필수 (고용센터에 알바 일수·소득 신고)'],
+          ['급여 차감 기준', '일한 날 수 × 1일 구직급여액 (시급 무관, 일수 기준)'],
+          ['미신고 시 처벌', '전액 환수 + 최대 5배 추가 징수 + 형사처벌'],
+        ],
+      },
+      box: { label: '핵심', content: '시급이 낮아도 하루만 일해도 그날의 구직급여는 나오지 않습니다. 반드시 실업급여 신고 시 알바 일수를 정확히 기재하세요.' },
+    },
+    {
+      q: '알바하면 구직급여가 얼마나 깎이나요?',
+      anchor: 'deduction',
+      intro:
+        '알바한 날 수 × 1일 구직급여액이 차감됩니다. 시급이 최저임금이든 높은 시급이든 차감 기준은 동일하게 근무 일수만 봅니다. 예를 들어 1일 구직급여가 66,000원이고 한 달에 5일 알바를 했다면 330,000원(=66,000 × 5)이 차감됩니다.',
+      highlights: ['1일 구직급여액', '근무 일수'],
+      table: {
+        headers: ['항목', '금액'],
+        rows: [
+          ['1일 구직급여액 예시', '66,000원'],
+          ['알바 일수', '5일'],
+          ['차감액', '330,000원 (= 66,000 × 5)'],
+          ['실 지급 구직급여', '해당 월 구직급여 - 330,000원'],
+        ],
+      },
+      box: { label: '중요', content: '알바 시급이 아니라 근무 일수만 봅니다. 시급이 높아도 낮아도 차감 기준은 동일.' },
+    },
+    {
+      q: '주 15시간 미만 알바는 실업급여에 영향이 없나요?',
+      anchor: 'short',
+      intro:
+        '주 15시간 미만, 월 50만원 이하의 단기·초단시간 알바는 구직급여가 유지될 가능성이 높습니다. 단, 반드시 신고해야 합니다. 신고 여부가 핵심이며, 미신고는 어떤 경우에도 부정수급입니다. 고용보험 미가입 일용직 하루짜리 알바는 실업급여 수급에 영향이 없는 경우가 많습니다.',
+      highlights: ['주 15시간 미만', '월 50만원 이하', '반드시 신고'],
+      box: { label: '핵심', content: '주 15시간 미만이라도 반드시 신고해야 합니다. 미신고는 어떤 경우에도 부정수급.' },
+    },
+    {
+      q: '미신고하면 어떤 처벌을 받나요?',
+      anchor: 'penalty',
+      intro:
+        '알바를 신고하지 않으면 부정수급으로 처리됩니다. 수령한 금액 전액 반환 + 최대 5배 추가 징수 + 형사처벌(징역 또는 벌금)을 받을 수 있습니다. 고용보험법 제62조에 따른 처벌입니다. 부정수급 적발 시 향후 실업급여 수급 자격이 제한될 수도 있습니다.',
+      highlights: ['전액 반환', '최대 5배 추가 징수', '형사처벌'],
+      box: { label: '경고', content: '미신고 = 부정수급. 전액 환수 + 최대 5배 추가 징수 + 형사처벌. 절대 신고 누락 금지.' },
+    },
+    {
+      q: '알바 신고는 어떻게 하나요?',
+      anchor: 'report',
+      intro:
+        '2주마다 실업인정 신청 시 알바 일수와 소득을 기재하면 됩니다. 고용24(work24.go.kr) 온라인으로 신고하거나 고용센터를 방문(☎1350)해 신고할 수 있습니다.',
+      highlights: ['고용24', '☎1350'],
+      list: [
+        '고용24(work24.go.kr): 실업급여 신청 → 취업(알바) 신고',
+        '고용센터 방문 또는 ☎1350 전화 신고',
+        '실업인정 신청 시(2주마다) 알바 일수와 소득 기재',
+      ],
+    },
+    {
+      q: '주당 18시간 초과 알바는 취업 신고를 해야 하나요?',
+      anchor: 'over18',
+      intro:
+        '주당 18시간 초과 또는 일일 소득이 구직급여 일액 이상 발생하면 취업 신고를 해야 합니다. 해당 일은 구직급여를 받지 못합니다. 단순 단기 알바의 차감(일수 기준)과 달리 취업으로 간주될 수 있으므로 주의가 필요합니다.',
+      highlights: ['주당 18시간 초과', '취업 신고'],
+      box: { label: '주의', content: '주당 18시간 초과 알바는 취업 신고 필요. 해당 일 구직급여 미지급.' },
+    },
+    {
+      q: '실업급여 수급 중 알바 소득이 많으면 수급 자격을 잃나요?',
+      anchor: 'income',
+      intro:
+        '알바 소득이 일정 수준 이상이면 취업으로 간주되어 구직급여 수급 자격을 잃을 수 있습니다. 정확한 기준은 고용24(work24.go.kr) 또는 고용센터(☎1350)에 확인하세요. 소득과 근무 일수 모두 정확하게 신고하는 것이 중요합니다.',
+      highlights: ['취업으로 간주', '수급 자격'],
+      box: { label: '확인', content: '알바 소득 기준은 고용24(work24.go.kr) 또는 ☎1350에서 확인하세요.' },
+    },
+  ],
   faqData: [
     {
       q: '실업급여 받으면서 알바해도 되나요?',

@@ -1,163 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          2026년 육아휴직급여는 <strong>1~3개월 월 250만원(통상임금 100%)</strong>,
-          4~6개월 월 200만원(통상임금 100%),
-          7개월 이후 월 160만원(통상임금 80%)입니다.
-          기존 사후지급금(25%) 제도는 2026년부터 폐지되어
-          <strong>휴직 기간 중 100% 전액 지급</strong>됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "통상임금이 뭔지 모르겠어요. 내가 실제로 얼마를 받는 건가요?"
-        구간별 급여율과 상한액을 기준으로 내 급여를 계산하는 방법을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">구간별 급여 — 1~3월·4~6월·7월 이후 얼마인가</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>기간</th><th>통상임금 비율</th><th>월 상한액</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1~3개월</td>
-                <td>100%</td>
-                <td><strong>월 250만원</strong></td>
-              </tr>
-              <tr>
-                <td>4~6개월</td>
-                <td>100%</td>
-                <td><strong>월 200만원</strong></td>
-              </tr>
-              <tr>
-                <td>7~18개월</td>
-                <td>80%</td>
-                <td><strong>월 160만원</strong></td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>핵심:</strong> 상한액은 통상임금의 100%(또는 80%)와 상한액 중 낮은 금액이 지급됩니다.
-            통상임금이 상한액보다 낮으면 통상임금 전액을 받습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="calculate">
-        <h2 className="detail-card-head">내 급여 계산 — 통상임금 기준 실제 수령액</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>통상임금(월)</th><th>1~3월 수령</th><th>4~6월 수령</th><th>7월~ 수령</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>200만원</td>
-                <td>200만원 (100%)</td>
-                <td>200만원 (100%)</td>
-                <td>160만원 (80%)</td>
-              </tr>
-              <tr>
-                <td>250만원</td>
-                <td><strong>250만원</strong> (상한)</td>
-                <td>200만원 (상한)</td>
-                <td>160만원 (상한)</td>
-              </tr>
-              <tr>
-                <td>300만원</td>
-                <td><strong>250만원</strong> (상한)</td>
-                <td><strong>200만원</strong> (상한)</td>
-                <td><strong>160만원</strong> (상한)</td>
-              </tr>
-              <tr>
-                <td>400만원 이상</td>
-                <td><strong>250만원</strong> (상한)</td>
-                <td><strong>200만원</strong> (상한)</td>
-                <td><strong>160만원</strong> (상한)</td>
-              </tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#666', marginTop: 8 }}>
-            ※ 통상임금이 상한액을 초과하면 상한액이 지급됩니다. 통상임금이 낮으면 실제 통상임금×비율을 받습니다.
-          </p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="after-pay">
-        <h2 className="detail-card-head">2026년 사후지급금 폐지 — 뭐가 달라졌나</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>2025년 이전</th><th>2026년 이후</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>휴직 중 지급</td>
-                <td>75% (75%만 수령)</td>
-                <td><strong>100% 전액</strong></td>
-              </tr>
-              <tr>
-                <td>사후지급금(25%)</td>
-                <td>복직 후 6개월 근무 시 지급</td>
-                <td><strong>폐지</strong></td>
-              </tr>
-              <tr>
-                <td>미복직 시 손실</td>
-                <td>25% 미지급 → 손실</td>
-                <td><strong>없음</strong> (이미 전액 수령)</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>2026년 핵심 변경:</strong> 사후지급금 제도가 폐지되어 육아휴직 기간 중 급여를 100% 받습니다.
-            복직하지 않아도 이미 받은 급여를 돌려줄 필요가 없습니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="note">
-        <h2 className="detail-card-head">급여 계산 시 주의사항</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>통상임금 기준:</strong> 기본급 + 고정 수당(직책수당·자격증수당 등)이 통상임금입니다.
-            성과급·상여금·식비·교통비 등 변동 수당은 통상임금에 포함되지 않습니다.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>분할 사용 시:</strong> 육아휴직을 분할 사용하면 각 회차 1~3개월 기준이 초기화되지 않습니다.
-            전체 누적 기간 기준으로 구간이 적용됩니다.
-          </div>
-          <div className="warning-box">
-            <strong>자영업자·프리랜서:</strong> 고용보험 미가입 사업주나 프리랜서는 본 급여 대상이 아닙니다.
-            별도 출산·양육 지원 사업을 확인하세요.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            6+6 부모함께 육아휴직, 신청 방법, 회사 부담 여부 등<br />
-            육아휴직급여 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/parental-leave-pay" className="btn-cta">
-            육아휴직급여 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 급여계산SpokeContent: SpokeData = {
   h1: '육아휴직 중 월급 얼마나 받나 | 1~3월 250만원·통상임금 비율 계산법',
@@ -165,8 +6,83 @@ export const 급여계산SpokeContent: SpokeData = {
   description:
     '2026년 육아휴직급여는 1~3월 월 최대 250만원(통상임금 100%), 4~6월 200만원, 7월~ 160만원(80%)입니다. 사후지급금(25%) 제도가 폐지되어 휴직 중 100% 전액 지급. 통상임금이 상한액보다 낮으면 실제 통상임금×비율로 계산됩니다.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '1~3개월': '통상임금 100%, 월 상한 250만원',
+    '4~6개월': '통상임금 100%, 월 상한 200만원',
+    '7개월 이후': '통상임금 80%, 월 상한 160만원',
+    '사후지급금': '2026년 폐지 → 휴직 중 100% 전액 지급',
+    '통상임금': '기본급 + 고정수당 (성과급·상여 제외)',
+  },
+  keyFactsHighlights: {
+    '1~3개월': ['250만원', '100%'],
+    '사후지급금': ['폐지'],
+  },
+  qa: [
+    {
+      q: '육아휴직급여 구간별 금액이 얼마인가요?',
+      anchor: 'amount-table',
+      intro: '2026년 기준 육아휴직급여는 기간에 따라 세 구간으로 나뉩니다. 1~3개월은 통상임금 100%에 월 상한 250만원, 4~6개월은 통상임금 100%에 월 상한 200만원, 7개월 이후는 통상임금 80%에 월 상한 160만원입니다. 통상임금이 상한보다 낮으면 통상임금×비율이 실제 지급액입니다.',
+      highlights: ['250만원', '200만원', '160만원', '통상임금 100%', '통상임금 80%'],
+      table: {
+        headers: ['기간', '통상임금 비율', '월 상한액'],
+        rows: [
+          ['1~3개월', '100%', '월 250만원'],
+          ['4~6개월', '100%', '월 200만원'],
+          ['7개월~', '80%', '월 160만원'],
+        ],
+      },
+      box: { label: '참고', content: '통상임금이 상한보다 낮으면 상한 대신 통상임금×비율 지급' },
+    },
+    {
+      q: '통상임금이 무엇이고 어떻게 계산하나요?',
+      anchor: 'ordinary-wage',
+      intro: '통상임금은 기본급과 고정적으로 지급되는 수당(직책수당·자격증수당 등)의 합계입니다. 성과급·상여금·식비·교통비 등 변동 항목은 통상임금에 포함되지 않습니다. 예를 들어 기본급 250만원 + 직책수당 30만원이면 통상임금은 280만원이며, 1~3개월 급여 상한(250만원)을 적용하면 250만원을 받게 됩니다.',
+      highlights: ['기본급', '고정 수당', '성과급 제외'],
+      box: { label: '계산 예시', content: '기본급 200만원 + 직책수당 20만원 = 통상임금 220만원 → 1~3개월 지급액: 220만원 (상한 250만원 미만)' },
+    },
+    {
+      q: '2026년에 사후지급금 25% 제도가 폐지된 게 맞나요?',
+      anchor: 'no-deferred',
+      intro: '맞습니다. 기존에는 육아휴직급여의 25%를 복직 후 6개월 근무 후 지급하는 사후지급금 제도가 있었습니다. 2026년부터 이 제도가 폐지되어 매월 급여 100%를 휴직 기간 중 직접 지급받게 됩니다. 복직 여부와 무관하게 전액을 지급받을 수 있어 실질 혜택이 개선됐습니다.',
+      highlights: ['사후지급금 폐지', '100% 전액', '복직 무관'],
+      box: { label: '변경 전후', content: '변경 전: 75% 지급 + 25% 복직 후 지급 / 변경 후(2026~): 100% 휴직 중 전액 지급' },
+    },
+    {
+      q: '육아휴직 중 소득세는 어떻게 되나요?',
+      anchor: 'tax',
+      intro: '육아휴직급여는 비과세 소득입니다. 근로소득세가 부과되지 않아 수령액이 곧 실수령액입니다. 다만 건강보험료·국민연금 보험료는 별도 규정에 따라 처리됩니다. 건강보험료는 직장가입자 자격이 유지되나 보험료가 감면되고, 국민연금은 육아휴직 기간 납부를 면제받거나 크레딧을 적용받을 수 있습니다.',
+      highlights: ['비과세', '건강보험 감면', '국민연금 크레딧'],
+      box: { label: '세금', content: '육아휴직급여 = 비과세. 근로소득세 없음. 건강보험료는 감면, 국민연금은 육아휴직 크레딧 적용 가능' },
+    },
+    {
+      q: '육아휴직을 1년 이상 사용할 수 있나요?',
+      anchor: 'duration',
+      intro: '육아휴직은 자녀 1명당 최대 1년(12개월)을 사용할 수 있으며, 부모 각자 1년씩 사용 가능합니다. 2024년부터는 한부모·중증장애아동 부모에 한해 최대 1년 6개월(18개월)까지 가능합니다. 급여는 1년을 기준으로 지급되며, 18개월 사용 시 추가 6개월은 무급이 될 수 있어 별도 확인이 필요합니다.',
+      highlights: ['최대 1년', '한부모 18개월', '각자 사용'],
+      table: {
+        headers: ['대상', '최대 육아휴직 기간'],
+        rows: [
+          ['일반 근로자', '자녀 1명당 1년 (12개월)'],
+          ['한부모·중증장애아동 부모', '최대 1년 6개월 (18개월)'],
+        ],
+      },
+    },
+    {
+      q: '육아휴직급여는 언제 입금되나요?',
+      anchor: 'payment-schedule',
+      intro: '육아휴직급여는 매월 1회 신청하면 신청 후 약 14일 이내 본인 계좌로 입금됩니다. 신청은 육아휴직 시작 1개월 후부터 가능하며, 고용보험 누리집(ei.go.kr) 온라인 또는 고용센터 방문으로 할 수 있습니다. 신청을 늦게 할수록 입금도 늦어지므로 매월 빠르게 신청하는 것이 좋습니다.',
+      highlights: ['14일 이내', '매월 신청', 'ei.go.kr'],
+      box: { label: '신청 방법', content: 'ei.go.kr(고용보험 누리집) 또는 고용센터 방문 → 매월 1회 신청 → 약 14일 이내 입금' },
+    },
+    {
+      q: '복직 후 다시 육아휴직을 쓸 수 있나요?',
+      anchor: 'reuse',
+      intro: '같은 자녀에 대한 육아휴직은 최대 2회까지 분할 사용이 가능합니다. 예를 들어 처음 6개월 사용 후 복직하고, 이후 나머지 6개월을 다시 사용할 수 있습니다. 단, 합산 기간이 1년(한부모의 경우 18개월)을 초과할 수 없습니다.',
+      highlights: ['2회 분할 사용', '합산 1년 한도'],
+      box: { label: '분할 사용', content: '같은 자녀 대상 최대 2회 분할 사용 가능. 합산 1년(한부모·중증장애아동 부모는 18개월) 초과 불가' },
+    },
+  ],
   faqData: [
     {
       q: '육아휴직 1~3개월에 얼마나 받나요?',
@@ -176,19 +92,19 @@ export const 급여계산SpokeContent: SpokeData = {
     },
     {
       q: '4~6개월 급여는 얼마인가요?',
-      a: '통상임금의 100%이며 월 200만원이 상한입니다. 상한이 줄어드는 이유는 정책 지원 구조상 초기 집중 지원 이후 단계적으로 조정되기 때문입니다.',
+      a: '통상임금의 100%이며 월 200만원이 상한입니다.',
       source: '고용노동부 육아휴직급여 안내',
       sourceUrl: 'https://www.moel.go.kr',
     },
     {
       q: '7개월 이후에는 얼마인가요?',
-      a: '통상임금의 80%이며 월 160만원이 상한입니다. 최대 18개월(1년 6개월)까지 사용할 수 있습니다.',
+      a: '통상임금의 80%이며 월 160만원이 상한입니다.',
       source: '고용노동부 육아휴직급여 안내',
       sourceUrl: 'https://www.moel.go.kr',
     },
     {
       q: '2026년에 사후지급금이 폐지됐다는 게 무슨 뜻인가요?',
-      a: '기존에는 급여의 25%를 복직 후 6개월 근무 시 지급했습니다. 2026년부터 이 제도가 폐지되어 휴직 기간 중 100%를 받습니다. 복직 여부와 무관합니다.',
+      a: '기존에는 급여의 25%를 복직 후 6개월 근무 시 지급했습니다. 2026년부터 이 제도가 폐지되어 휴직 기간 중 100%를 받습니다.',
       source: '고용노동부 2026년 육아휴직급여 개편',
       sourceUrl: 'https://www.moel.go.kr',
     },

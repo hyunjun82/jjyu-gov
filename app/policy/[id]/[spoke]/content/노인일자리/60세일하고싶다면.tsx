@@ -1,102 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          60세 이상이라면 <strong>사회서비스형, 시장형, 취업알선형</strong> 노인일자리를 신청할 수 있습니다.
-          65세 이상이면 <strong>공익활동</strong>까지 포함해 4가지 유형 모두 가능합니다.
-          거주지 <strong>행정복지센터, 노인복지관</strong> 방문 또는
-          <strong>work24(고용24)</strong> 온라인 신청으로 연중 수시 접수합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        60세 이상이라면 지금 당장 노인일자리에 신청할 수 있습니다.
-        본인 건강 상태와 희망 근무 시간에 맞는 유형을 선택해 신청하는 방법을 안내합니다.
-      </p>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">연령별 신청 가능 유형</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>연령</th><th>신청 가능 유형</th><th>소득 조건</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>만 60세 이상</strong></td>
-                <td>사회서비스형, 시장형, 취업알선형</td>
-                <td>소득 무관</td>
-              </tr>
-              <tr>
-                <td><strong>만 65세 이상</strong></td>
-                <td>공익활동 + 위 3가지 모두</td>
-                <td>공익활동: 기초연금 수급자 중심</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="apply-steps">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 유형 선택 — 공익활동·사회서비스·시장형·취업알선형 중 선택
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 거주지 행정복지센터 또는 노인복지관 방문 (또는 work24 온라인)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 신청서 + 신분증 + 소득 증빙 (공익활동의 경우) 제출
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>4단계:</strong> 자격 확인 후 사업단 배정
-          </div>
-          <div className="info-box">
-            <strong>5단계:</strong> 활동 시작 (보통 1~2월 집중 모집, 연중 수시 신규 자리)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="tips">
-        <h2 className="detail-card-head">신청 시 알아두면 좋은 점</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>모집 시기:</strong> 1~2월에 집중 모집, 연중 수시로 빈자리 생김
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기초연금 영향:</strong> 공익활동 수당은 기초연금 소득 산정에 큰 영향 없음
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>활동 중 보험:</strong> 모든 참여자 단체 상해보험 자동 가입
-          </div>
-          <div className="info-box">
-            <strong>베이비붐세대:</strong> 1955~1963년생은 2026년 신규 일자리 3만 7,000개 우선 확인
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            유형별 월 수당 비교, 기초연금과 중복 여부, 활동 중 사고 보상까지<br />
-            노인일자리 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-job" className="btn-cta">
-            노인 일자리 및 사회활동 지원 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 노인일자리60세일하고싶다면SpokeContent: SpokeData = {
   h1: '60세 넘겼는데 일하고 싶다면 노인일자리 신청 방법과 절차',
@@ -104,8 +6,157 @@ export const 노인일자리60세일하고싶다면SpokeContent: SpokeData = {
   description:
     '60세 이상: 사회서비스형(월 76만원), 시장형, 취업알선형 신청 가능. 65세 이상: 공익활동(월 29만원) 추가. 행정복지센터·노인복지관 방문 또는 work24 온라인 신청. 연중 수시 접수.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    만60세이상: '사회서비스형·시장형·취업알선형 신청 가능',
+    만65세이상: '공익활동(월 29만원) 추가 신청 가능 — 기초연금 수급자 중심',
+    신청처: '거주지 행정복지센터, 노인복지관, work24.go.kr 온라인',
+    모집시기: '1~2월 집중 모집 — 연중 수시 빈자리 접수',
+    단체보험: '모든 참여자 단체 상해보험 자동 가입',
+  },
+  keyFactsHighlights: {
+    만60세이상: ['사회서비스형', '시장형', '취업알선형'],
+    만65세이상: ['공익활동', '월 29만원'],
+    신청처: ['행정복지센터', 'work24.go.kr'],
+    모집시기: ['1~2월 집중 모집', '연중 수시'],
+    단체보험: ['단체 상해보험 자동 가입'],
+  },
+  qa: [
+    {
+      q: '만 60세면 어떤 유형의 노인일자리를 신청할 수 있나요?',
+      anchor: 'age-60-types',
+      intro:
+        '만 60세 이상이면 사회서비스형, 시장형, 취업알선형을 신청할 수 있습니다. 공익활동은 만 65세 이상 기초연금 수급자를 중심으로 운영됩니다. 만 65세 이상이 되면 4가지 유형 모두 신청 가능합니다.',
+      highlights: ['만 60세: 3가지 유형', '만 65세: 공익활동 추가 4가지 모두'],
+      table: {
+        headers: ['연령', '신청 가능 유형', '소득 조건'],
+        rows: [
+          ['만 60세 이상', '사회서비스형, 시장형, 취업알선형', '소득 무관'],
+          ['만 65세 이상', '공익활동 + 위 3가지 모두', '공익활동: 기초연금 수급자 중심'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '만 60세에 신청 가능한 유형 중 사회서비스형이 월 76만원으로 수당이 가장 높습니다.',
+      },
+    },
+    {
+      q: '신청 절차는 어떻게 되나요?',
+      anchor: 'apply-steps',
+      intro:
+        '노인일자리 신청은 유형을 선택하고, 거주지 행정복지센터 또는 노인복지관을 방문하거나 work24(고용24) 온라인으로 신청합니다. 신청서와 신분증을 제출하고, 자격 확인 후 사업단에 배정됩니다. 보통 1~2월에 집중 모집이 이뤄지지만 연중 수시로 빈 자리가 생깁니다.',
+      highlights: ['행정복지센터 방문 또는 온라인', '신분증 지참', '1~2월 집중 모집'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '유형 선택 — 공익활동·사회서비스·시장형·취업알선형 중 선택'],
+          ['2단계', '거주지 행정복지센터·노인복지관 방문 또는 work24 온라인'],
+          ['3단계', '신청서 + 신분증 + 소득 증빙 (공익활동의 경우) 제출'],
+          ['4단계', '자격 확인 후 사업단 배정'],
+          ['5단계', '활동 시작 (보통 1~2월 집중 모집, 연중 수시 신규 자리)'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '1~2월에 집중 모집이 이뤄지므로 연초에 신청하는 것이 유리합니다.',
+      },
+    },
+    {
+      q: '어디서 신청해야 하나요?',
+      anchor: 'where-to-apply',
+      intro:
+        '거주지 행정복지센터, 노인복지관, 시군구 노인일자리 전담기관에서 방문 신청하거나, work24(고용24) 또는 노인일자리 통합 누리집(seniorro.or.kr)에서 온라인으로 신청할 수 있습니다.',
+      highlights: ['행정복지센터', 'work24.go.kr', 'seniorro.or.kr'],
+      table: {
+        headers: ['신청 방법', '접근 경로'],
+        rows: [
+          ['방문 신청', '거주지 행정복지센터, 노인복지관'],
+          ['온라인 신청 1', 'work24.go.kr (고용24)'],
+          ['온라인 신청 2', 'seniorro.or.kr (노인일자리 통합 누리집)'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '언제든지 행정복지센터에 방문해 상담을 받을 수 있습니다. 방문 전 전화로 먼저 문의하면 더 편리합니다.',
+      },
+    },
+    {
+      q: '일하다가 다치면 어떻게 되나요?',
+      anchor: 'accident-coverage',
+      intro:
+        '모든 참여자는 단체 상해보험에 자동 가입됩니다. 활동 중 사고 발생 시 즉시 사업단 담당자에게 알리고 의료기관 진료 후 보험금 청구 절차를 안내받으면 됩니다.',
+      highlights: ['단체 상해보험 자동 가입', '사고 즉시 담당자 신고'],
+      table: {
+        headers: ['상황', '처리 방법'],
+        rows: [
+          ['활동 중 사고 발생', '즉시 사업단 담당자에게 신고'],
+          ['의료기관 진료', '진료 후 보험금 청구 절차 안내'],
+          ['보험 청구', '단체 상해보험으로 처리'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '모든 참여자는 활동 시작과 동시에 단체 상해보험에 자동 가입됩니다. 별도 가입 절차가 필요 없습니다.',
+      },
+    },
+    {
+      q: '기초연금을 받으면서 노인일자리도 할 수 있나요?',
+      anchor: 'basic-pension-overlap',
+      intro:
+        '기초연금과 노인일자리 수당은 중복 수령이 가능합니다. 공익활동 수당은 기초연금 소득 산정에 큰 영향을 주지 않습니다.',
+      highlights: ['기초연금과 중복 가능', '공익활동 영향 미미'],
+      table: {
+        headers: ['상황', '가능 여부'],
+        rows: [
+          ['기초연금 + 공익활동 수당', '중복 수령 가능'],
+          ['기초연금 + 사회서비스형 수당', '중복 가능 (소득 영향 확인 권장)'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '기초연금에 미치는 영향이 궁금하다면 국민연금공단(☎1355)에 사전 문의하세요.',
+      },
+    },
+    {
+      q: '베이비붐세대는 어떤 유형이 좋은가요?',
+      anchor: 'babyboom-recommendation',
+      intro:
+        '1955~1963년생 베이비붐세대는 2026년에 신규 일자리가 3만 7,000개(전년 대비 67%) 확대됐습니다. 직장 경험을 활용할 수 있는 사회서비스형, 시장형, 취업알선형이 추천됩니다.',
+      highlights: ['베이비붐세대 3만 7,000개 신규', '직장 경험 활용 가능'],
+      table: {
+        headers: ['추천 유형', '이유'],
+        rows: [
+          ['사회서비스형', '전문 경험 활용 가능, 월 76만원'],
+          ['취업알선형', '직장 경험 살려 기업 재취업'],
+          ['시장형', '사업 경험 활용 가능'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '베이비붐세대(1955~1963년생)를 위한 사회서비스형, 취업알선형 신규 일자리가 대폭 확대됐습니다. 연초에 빠르게 신청하세요.',
+      },
+    },
+    {
+      q: '신청 시기와 선발 기준은 어떻게 되나요?',
+      anchor: 'timing-criteria',
+      intro:
+        '1~2월에 집중 모집이 이뤄지지만 연중 수시로 빈 자리가 생깁니다. 공익활동은 기초연금 수급자, 저소득 어르신 등을 우선 선발합니다. 사회서비스형은 해당 분야 경험자나 관련 자격증 보유자를 우대할 수 있습니다.',
+      highlights: ['1~2월 집중 모집', '연중 수시 접수', '공익활동 기초연금 수급자 우선'],
+      table: {
+        headers: ['유형', '모집 시기', '선발 우선순위'],
+        rows: [
+          ['공익활동', '1~2월 집중, 연중 수시', '기초연금 수급자, 저소득자 우선'],
+          ['사회서비스형', '1~2월 집중, 연중 수시', '관련 경험·자격증 보유자 우대'],
+          ['시장형', '1~2월 집중, 연중 수시', '사업단 자체 기준'],
+          ['취업알선형', '연중 수시', '기업 요구 조건'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '연초에 신청하면 원하는 유형과 지역의 자리를 확보하기 유리합니다.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '60세면 노인일자리를 신청할 수 있나요?',

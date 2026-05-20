@@ -1,104 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          2024년 개선 이후 독거노인은 <strong>소득 기준이 완전히 폐지</strong>되어
-          만 65세 이상 실제 독거 어르신이라면 소득·재산과 관계없이 신청할 수 있습니다.
-          기존에는 소득·재산 제한이 있어 신청하지 못했던 분들도 지금은 신청이 가능합니다.
-          장애인은 <strong>거주 여건을 고려</strong>해 대상을 선정합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        2026 응급안전안심서비스의 자격 기준을 소득·연령·거주 형태별로 정리했습니다.
-        이전에 소득 기준으로 탈락한 경험이 있다면 지금 다시 신청하면 됩니다.
-      </p>
-
-      <section className="detail-card" id="criteria">
-        <h2 className="detail-card-head">대상별 자격 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>대상</th><th>연령</th><th>소득 기준</th><th>거주 조건</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>독거노인</strong></td>
-                <td>만 65세 이상</td>
-                <td>폐지 (2024~)</td>
-                <td>실제 독거 (주민등록 무관)</td>
-              </tr>
-              <tr>
-                <td><strong>장애인</strong></td>
-                <td>연령 무관</td>
-                <td>거주 여건 고려</td>
-                <td>장애인 등록 + 거주 여건</td>
-              </tr>
-              <tr>
-                <td><strong>비독거 어르신</strong></td>
-                <td>만 65세 이상</td>
-                <td>자부담 방식</td>
-                <td>가족 동거 가능 (2024 확대)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="before-after">
-        <h2 className="detail-card-head">2024 개선 전후 비교</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2023년까지:</strong> 독거노인 소득·재산 기준 충족자만 무상 이용 가능
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2024년부터:</strong> 독거노인 소득 기준 완전 폐지 → 만 65세+ 실제 독거이면 누구나
-          </div>
-          <div className="info-box">
-            <strong>추가 확대:</strong> 비독거 어르신도 자부담 방식으로 이용 가능 (낮 시간 혼자 있는 경우 등)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="check">
-        <h2 className="detail-card-head">자격 확인 — 이런 경우도 신청 가능</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>주민등록상 자녀 동거:</strong> 실제로는 혼자 산다면 신청 가능 (현장 실사로 확인)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>아파트 거주:</strong> 주거 형태와 무관하게 신청 가능
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>이전 탈락:</strong> 2023년 이전 소득 기준으로 탈락했다면 지금 재신청 가능
-          </div>
-          <div className="info-box">
-            <strong>장기요양 등급자:</strong> 등급 유무와 관계없이 중복 신청 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            설치 장비 종류, 응급 감지 방식, 신청 절차까지<br />
-            응급안전안심서비스 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-emergency-safety" className="btn-cta">
-            독거노인·장애인 응급안전안심서비스 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 응급안전안심서비스소득기준자격확인SpokeContent: SpokeData = {
   h1: '소득기준 없이 누구나 되나, 2026 응급안전안심서비스 자격 기준',
@@ -106,8 +6,76 @@ export const 응급안전안심서비스소득기준자격확인SpokeContent: Sp
   description:
     '2024년부터 독거노인 소득 기준 완전 폐지. 만 65세 이상 실제 독거 어르신이면 소득·재산 무관하게 신청 가능. 주민등록상 동거 가족이 있어도 실제 독거이면 OK. 장기요양 등급자도 중복 신청 가능.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '소득 기준': '2024년부터 완전 폐지 (소득·재산 무관)',
+    '연령 조건': '만 65세 이상 (독거노인)',
+    '거주 조건': '실제 독거 (주민등록 무관)',
+    '2024년 확대': '비독거 어르신도 자부담 방식 이용 가능',
+    '이전 탈락자': '재신청 가능 (소득 기준 폐지)',
+  },
+  keyFactsHighlights: {
+    '소득 기준': ['완전 폐지'],
+    '이전 탈락자': ['재신청 가능'],
+  },
+  qa: [
+    {
+      q: '2026년 기준 소득이 높아도 신청할 수 있나요?',
+      anchor: 'income',
+      intro: '네, 2024년부터 독거노인 소득·재산 기준이 완전히 폐지됐습니다. 소득이나 재산이 많더라도 만 65세 이상 실제 독거 어르신이면 무상으로 신청할 수 있습니다. 이전에 소득 기준으로 탈락한 경험이 있다면 지금 다시 신청하면 됩니다.',
+      highlights: ['소득 기준 폐지', '재신청 가능'],
+      table: {
+        headers: ['대상', '연령', '소득 기준', '거주 조건'],
+        rows: [
+          ['독거노인', '만 65세 이상', '폐지 (2024~)', '실제 독거 (주민등록 무관)'],
+          ['장애인', '연령 무관', '거주 여건 고려', '장애인 등록 + 거주 여건'],
+          ['비독거 어르신', '만 65세 이상', '자부담 방식', '가족 동거 가능 (2024 확대)'],
+        ],
+      },
+    },
+    {
+      q: '2024년 이전에 소득 기준으로 탈락했는데 다시 신청할 수 있나요?',
+      anchor: 'reapply',
+      intro: '2024년부터 소득·재산 기준이 폐지됐으므로 이전에 탈락한 분들도 지금 바로 재신청이 가능합니다. 1566-3232 또는 행정복지센터에 연락하여 신청하면 됩니다. 별도 심사 없이 연령과 실제 거주 여건만 확인하면 됩니다.',
+      highlights: ['재신청 가능', '1566-3232'],
+      box: { label: '재신청', content: '1566-3232 전화 또는 행정복지센터 방문 → 소득 서류 불필요 → 연령·거주 확인 후 진행' },
+    },
+    {
+      q: '주민등록상 자녀가 같은 집에 있어도 신청할 수 있나요?',
+      anchor: 'register',
+      intro: '주민등록상 동거 가족이 있어도 실제로 혼자 거주하고 있다면 신청이 가능합니다. 현장 실사를 통해 실제 거주 여건을 확인합니다. 자녀가 타지에 거주하거나 출퇴근하여 실질적으로 혼자 생활하는 경우 인정될 수 있습니다.',
+      highlights: ['실제 독거 기준', '현장 실사'],
+      box: { label: '판단 기준', content: '주민등록 기준이 아닌 실제 거주 여건으로 판단. 현장 실사 후 결정' },
+    },
+    {
+      q: '장기요양 등급을 받은 분도 신청할 수 있나요?',
+      anchor: 'care-grade',
+      intro: '노인장기요양보험 등급 유무와 관계없이 신청할 수 있습니다. 응급안전안심서비스와 장기요양서비스는 성격이 달라 중복 이용이 가능합니다. 장기요양 등급을 받아 재가서비스를 이용하는 중에도 응급 ICT 장비를 별도로 설치할 수 있습니다.',
+      highlights: ['장기요양 중복 가능', '별도 서비스'],
+      box: { label: '중복', content: '노인장기요양보험(재가·시설) + 응급안전안심서비스 = 중복 이용 가능' },
+    },
+    {
+      q: '아파트에 사는 독거노인도 신청할 수 있나요?',
+      anchor: 'apartment',
+      intro: '주거 형태와 관계없이 신청 가능합니다. 아파트, 단독주택, 연립주택, 다세대주택 등 어떤 형태에 거주하더라도 신청할 수 있습니다. 장비 설치가 어려운 구조의 경우 현장 실사에서 대체 방안을 검토합니다.',
+      highlights: ['주거 형태 무관', '아파트 가능'],
+      box: { label: '참고', content: '아파트·단독·연립·다세대 등 모든 주거 형태에서 신청 가능' },
+    },
+    {
+      q: '비독거 어르신은 어떻게 이용할 수 있나요?',
+      anchor: 'non-alone',
+      intro: '2024년부터 가족과 함께 거주하는 어르신도 자부담 방식으로 서비스를 이용할 수 있게 됐습니다. 예를 들어 낮 시간 혼자 계시는 경우도 이용 가능합니다. 자부담 금액은 지역별로 다를 수 있으므로 1566-3232 또는 행정복지센터에 문의하세요.',
+      highlights: ['2024년 확대', '낮 시간 혼자도 가능', '자부담'],
+      box: { label: '비독거 이용', content: '2024년부터 비독거 어르신도 자부담으로 이용 가능. 금액은 1566-3232 문의' },
+    },
+    {
+      q: '자격 요건을 정리해 주세요.',
+      anchor: 'summary',
+      intro: '응급안전안심서비스 무상 이용 요건은 두 가지입니다: 만 65세 이상일 것, 실제 독거 생활을 할 것. 소득·재산 기준은 2024년부터 폐지됐습니다. 장애인은 연령 무관하게 거주 여건을 고려하여 대상이 됩니다. 이전에 탈락하거나 신청하지 않았더라도 지금 신청 가능합니다.',
+      highlights: ['만 65세 이상', '실제 독거', '소득 기준 없음'],
+      box: { label: '핵심 요건 정리', content: '① 만 65세 이상 ② 실제 독거 ③ 소득·재산 무관 (2024~) → 세 조건 중 ①②만 충족하면 신청 가능' },
+    },
+  ],
   faqData: [
     {
       q: '소득이 높아도 응급안전안심서비스를 신청할 수 있나요?',
@@ -117,7 +85,7 @@ export const 응급안전안심서비스소득기준자격확인SpokeContent: Sp
     },
     {
       q: '2023년 이전에 소득 기준으로 탈락했는데 다시 신청할 수 있나요?',
-      a: '네. 2024년부터 소득 기준이 폐지됐으므로 지금 다시 신청하면 됩니다. 1566-3232 또는 행정복지센터에서 상담하세요.',
+      a: '네. 2024년부터 소득 기준이 폐지됐으므로 지금 다시 신청하면 됩니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },
@@ -129,7 +97,7 @@ export const 응급안전안심서비스소득기준자격확인SpokeContent: Sp
     },
     {
       q: '노인장기요양보험 등급을 받은 분도 신청할 수 있나요?',
-      a: '네. 장기요양 등급 유무와 관계없이 신청할 수 있습니다. 두 서비스는 성격이 달라 중복 이용이 가능합니다.',
+      a: '네. 장기요양 등급 유무와 관계없이 신청할 수 있습니다. 두 서비스는 중복 이용이 가능합니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

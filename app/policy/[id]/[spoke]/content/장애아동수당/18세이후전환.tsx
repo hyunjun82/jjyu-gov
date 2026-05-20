@@ -1,101 +1,119 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          아이가 <strong>만 18세가 되면 장애아동수당은 자동 종료</strong>됩니다.
-          이후 경증이면 <strong>장애수당</strong>(월 6만원),
-          중증이면 <strong>장애인연금</strong>(월 최대 43만 9,700원)을
-          별도로 신청해야 합니다. 자동 전환은 되지 않습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "아이가 곧 18세인데 장애아동수당은 계속 나오나요? 성인이 되면 어떤 수당을 받나요?"
-        18세 이후 전환 과정을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="transition">
-        <h2 className="detail-card-head">18세 도달 시 전환 경로</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>장애 정도</th><th>18세 미만</th><th>18세 이후</th><th>월 지급액</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>경증</strong></td>
-                <td>장애아동수당 (11만원)</td>
-                <td>장애수당 신청</td>
-                <td>6만원</td>
-              </tr>
-              <tr>
-                <td><strong>중증</strong></td>
-                <td>장애아동수당 (17~22만원)</td>
-                <td>장애인연금 신청</td>
-                <td>최대 43만 9,700원</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="timing">
-        <h2 className="detail-card-head">전환 시 주의 사항</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>자동 전환 없음:</strong> 18세 도달 후 성인 수당·연금을 직접 신청해야 합니다.
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청 시기:</strong> 18세 생일이 속한 달 또는 이후에 행정복지센터에 신청
-          </div>
-          <div className="info-box">
-            <strong>공백 방지:</strong> 아동수당 종료 전에 미리 성인 수당 신청 일정을 확인하면 수급 공백을 줄일 수 있습니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="adult-apply">
-        <h2 className="detail-card-head">성인 수당 신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>장애수당(경증):</strong> 거주지 읍·면·동 행정복지센터 또는 복지로(bokjiro.go.kr)
-          </div>
-          <div className="info-box">
-            <strong>장애인연금(중증):</strong> 거주지 읍·면·동 행정복지센터 또는 복지로(bokjiro.go.kr)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지급 금액, 중증·경증 차이, 신청 방법 등<br />
-            장애아동수당 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-child-allowance" className="btn-cta">
-            장애아동수당 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애아동수당18세이후전환SpokeContent: SpokeData = {
   h1: '아이가 18세가 되면 장애아동수당이 끊기는지, 성인 수당으로 어떻게 바뀌는지',
   breadcrumb: '18세이후전환',
   description:
     '장애아동수당 18세 도달 시 자동 종료. 경증→장애수당(월 6만원), 중증→장애인연금(최대 43만 9,700원) 별도 신청 필요. 자동 전환 없음. 복지로·행정복지센터 신청.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '18세 도달 시': '장애아동수당 자동 종료',
+    '자동 전환': '없음 — 별도 신청 필요',
+    '경증 전환': '장애수당 (월 6만원) 신청',
+    '중증 전환': '장애인연금 (최대 43만 9,700원) 신청',
+    '신청처': '행정복지센터 또는 복지로(bokjiro.go.kr)',
+  },
+  keyFactsHighlights: {
+    '자동 전환': ['없음'],
+    '경증 전환': ['6만원'],
+    '중증 전환': ['43만 9,700원'],
+  },
+  qa: [
+    {
+      q: '18세가 되면 장애아동수당이 자동으로 끊기나요?',
+      anchor: 'auto-end',
+      intro: '만 18세 도달 시 장애아동수당은 자동으로 종료됩니다. 이후 성인 대상 수당(장애수당 또는 장애인연금)을 별도로 신청해야 합니다. 자동 전환은 되지 않으므로 18세 생일이 속하는 달 전에 미리 성인 제도 신청을 준비하는 것이 좋습니다.',
+      highlights: ['자동 종료', '자동 전환 없음', '별도 신청'],
+      table: {
+        headers: ['장애 정도', '18세 미만', '18세 이후', '월 지급액'],
+        rows: [
+          ['경증', '장애아동수당 (11만원)', '장애수당 신청', '6만원'],
+          ['중증', '장애아동수당 (17~22만원)', '장애인연금 신청', '최대 43만 9,700원'],
+        ],
+      },
+    },
+    {
+      q: '경증 아동이 18세가 되면 어떤 절차로 전환하나요?',
+      anchor: 'mild-transition',
+      intro: '경증 아동은 18세 생일이 속한 달 이후 장애수당 신청이 가능합니다. 거주지 행정복지센터를 방문하거나 복지로(bokjiro.go.kr)에서 신청하면 됩니다. 기초수급자 또는 차상위계층 조건이 유지되어야 월 6만원을 받을 수 있습니다.',
+      highlights: ['장애수당 신청', '18세 생일 이후', '6만원'],
+      box: {
+        label: '경증 아동 전환 절차',
+        content: '18세 생일이 속한 달 이후 → 장애수당 신청
+신청처: 거주지 행정복지센터 또는 복지로
+필요 조건: 기초수급자 또는 차상위계층
+지급액: 월 6만원',
+      },
+    },
+    {
+      q: '중증 아동이 18세가 되면 어떤 절차로 전환하나요?',
+      anchor: 'severe-transition',
+      intro: '중증 아동은 18세 생일이 속한 달 이후 장애인연금 신청이 가능합니다. 장애인연금은 소득인정액이 단독가구 140만원, 부부가구 224만원 이하여야 합니다. 2026년 기준 기초급여 34만 9,700원 + 부가급여 최대 9만원으로 합산 최대 43만 9,700원입니다.',
+      highlights: ['장애인연금 신청', '140만원 이하', '43만 9,700원'],
+      box: {
+        label: '중증 아동 전환 절차',
+        content: '18세 생일이 속한 달 이후 → 장애인연금 신청
+소득 조건: 소득인정액 단독 140만원, 부부 224만원 이하
+지급액: 기초급여 34만 9,700원 + 부가급여 (최대 43만 9,700원)',
+      },
+    },
+    {
+      q: '수급 공백을 최소화하려면 언제 신청해야 하나요?',
+      anchor: 'timing',
+      intro: '장애아동수당이 종료되기 전에 미리 성인 수당 신청 일정을 확인하면 수급 공백을 줄일 수 있습니다. 18세 생일이 속한 달 이후에 신청이 가능하므로, 해당 월에 바로 신청하는 것이 좋습니다. 신청 후 자격 심사에 2~4주가 소요되므로 서비스 시작 시점이 다소 늦어질 수 있습니다.',
+      highlights: ['수급 공백', '18세 생일 속한 달', '2~4주 심사'],
+      table: {
+        headers: ['단계', '시기', '할 일'],
+        rows: [
+          ['18세 생일 전', '생일 1~2개월 전', '행정복지센터에서 전환 상담'],
+          ['18세 생일 당월', '생일이 속한 달', '성인 수당 신청'],
+          ['신청 후', '2~4주', '자격 심사 완료'],
+          ['결정 후', '다음 달부터', '성인 수당 지급 시작'],
+        ],
+      },
+    },
+    {
+      q: '성인 수당 신청 시 필요한 서류는 무엇인가요?',
+      anchor: 'documents',
+      intro: '장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서가 필요합니다. 장애수당과 장애인연금 모두 동일한 서류입니다. 행정복지센터에서 신청 서류 목록을 미리 확인하거나, 복지로 온라인 신청 시 안내에 따라 진행하면 됩니다.',
+      highlights: ['장애인등록증', '신분증', '소득재산신고서', '금융정보 동의서'],
+      box: {
+        label: '신청 서류',
+        content: '장애인등록증 (또는 복지카드)
+신분증 (본인 또는 대리인)
+소득재산신고서
+금융정보 수집·이용·제공 동의서
+→ 행정복지센터 방문 또는 복지로 온라인 신청',
+      },
+    },
+    {
+      q: '장애 정도가 18세 이후 다시 평가받나요?',
+      anchor: 'reassessment',
+      intro: '장애 정도는 주기적으로 또는 신청에 의해 재심사를 받을 수 있습니다. 18세 전환 시점에 별도의 자동 재심사가 이루어지지는 않지만, 성인 수당 신청 과정에서 자격 확인이 이루어집니다. 장애 상태가 변화했다면 재심사를 신청하여 장애 정도를 업데이트하는 것이 좋습니다.',
+      highlights: ['주기적 재심사', '상태 변화', '재심사 신청'],
+      box: {
+        label: '장애 정도 재심사',
+        content: '주기적 재심사: 판정 기관이 정한 주기에 따라 자동 안내
+자발적 신청: 장애 상태 변화 시 행정복지센터에서 재심사 신청 가능
+재심사 결과에 따라 수급 제도 변경될 수 있음',
+      },
+    },
+    {
+      q: '18세 이후에도 장애아동수당을 계속 받을 수 있는 예외가 있나요?',
+      anchor: 'exception',
+      intro: '만 18세 이상이 되면 장애아동수당 수급 자격이 종료됩니다. 예외 없이 적용되며, 학교 재학 여부와 관계없이 18세 도달 시 종료됩니다. 이후에는 성인 대상 제도(장애수당 또는 장애인연금)로 전환해야 합니다.',
+      highlights: ['예외 없음', '재학 여부 무관', '성인 제도 전환'],
+      table: {
+        headers: ['상황', '장애아동수당 지속 여부'],
+        rows: [
+          ['18세 도달 (학교 재학 중)', '종료 — 예외 없음'],
+          ['18세 도달 (비재학)', '종료 — 예외 없음'],
+          ['18세 도달 후', '성인 수당·연금으로 별도 신청'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '18세가 되면 장애아동수당이 자동으로 끊기나요?',

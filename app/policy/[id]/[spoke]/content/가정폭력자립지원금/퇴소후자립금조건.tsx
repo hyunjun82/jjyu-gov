@@ -1,103 +1,89 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          가정폭력·성폭력 보호시설 퇴소자는 <strong>주거지원시설 입주</strong>,
-          유자녀 <strong>월 6만원</strong> 자립지원금, 취업 훈련, 심리·법률 상담,
-          긴급 생계비까지 5대 지원을 받을 수 있습니다.
-          <strong>여성가족부</strong>가 운영하며 1366(여성긴급전화) 또는 시·군·구청 여성가족 부서에서 신청합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        보호시설을 퇴소하면 주거·생계·취업을 동시에 해결해야 합니다.
-        퇴소 전 미리 자립지원금 신청 요건을 확인해 두면 퇴소 직후부터 끊김 없이 지원을 받을 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="items">
-        <h2 className="detail-card-head">퇴소 후 받을 수 있는 5대 지원 항목</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>지원</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>주거지원시설 입주</strong></td><td>자립·자활 의지 있는 퇴소자 우선 (장기 보호 퇴소 포함)</td></tr>
-              <tr><td><strong>유자녀 자립지원금</strong></td><td>월 6만원 × 자녀당, 자녀 만 18세까지</td></tr>
-              <tr><td><strong>취업 훈련</strong></td><td>여성새로일하기센터(113) 직업교육·취업 알선</td></tr>
-              <tr><td><strong>심리·법률 상담</strong></td><td>퇴소 후 심리·법률·양육 상담 지속 제공</td></tr>
-              <tr><td><strong>긴급 생계·의료</strong></td><td>긴급 생계비·의료비 지원</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격 — 누가 받을 수 있나</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>대상:</strong> 가정폭력·성폭력 보호시설(쉼터·일시지원·장기 보호) 입소자 및 퇴소자
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>조건:</strong> 자립·자활 의지가 있는 본인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>동반 자녀:</strong> 함께 지원 가능 (유자녀 자립지원금 추가)
-          </div>
-          <div className="info-box">
-            <strong>외국인:</strong> 체류 자격 무관하게 일부 지원 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 위기 시 1366(여성긴급전화) 24시간 즉시 상담
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 거주지 시·군·구청 여성가족 부서 또는 복지로(bokjiro.go.kr)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 임시 보호 → 보호시설 입소 → 자립지원금 신청
-          </div>
-          <div className="info-box">
-            <strong>비밀 보호:</strong> 본인 정보가 가해자에게 노출되지 않도록 최우선 보호
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            주거지원시설 입주 조건, 취업 훈련 연계, 중복 수령 가능 여부까지<br />
-            자립지원금 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/dv-shelter-leaver-aid" className="btn-cta">
-            가정폭력 보호시설 퇴소자 자립지원금 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 가정폭력자립지원금퇴소후자립금조건SpokeContent: SpokeData = {
   h1: '가정폭력 보호시설 퇴소 후 받는 자립지원금 금액과 신청 조건',
   breadcrumb: '퇴소후자립금조건',
-  description:
-    '가정폭력·성폭력 보호시설 퇴소자 5대 지원: 주거지원시설 입주, 유자녀 월 6만원(만 18세까지), 취업 훈련, 심리·법률 상담, 긴급 생계비. 1366 또는 시군구청 여성가족 부서에서 신청.',
+  description: '가정폭력·성폭력 보호시설 퇴소자 5대 지원: 주거지원시설 입주, 유자녀 월 6만원(만 18세까지), 취업 훈련, 심리·법률 상담, 긴급 생계비. 1366 또는 시군구청 여성가족 부서에서 신청.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '주거 지원': '주거지원시설 최대 2~4년',
+    '유자녀 지원금': '자녀당 월 6만원 (만 18세까지)',
+    '취업 훈련': '새일센터(113) 연계',
+    '상담': '심리·법률·양육 상담 지속',
+    '긴급 생계': '긴급 생계·의료비 지원',
+  },
+  keyFactsHighlights: {
+    '유자녀 지원금': ['월 6만원'],
+    '주거 지원': ['최대 2~4년'],
+  },
+  qa: [
+    {
+      q: '퇴소 후 받을 수 있는 5대 지원 항목은?',
+      anchor: 'items',
+      intro: '가정폭력·성폭력 보호시설 퇴소자는 주거지원시설 입주, 유자녀 자립지원금(자녀당 월 6만원), 취업 훈련, 심리·법률 상담, 긴급 생계·의료비 지원까지 5가지를 받을 수 있습니다. 여성가족부가 운영하며 1366(여성긴급전화) 또는 시·군·구청 여성가족 부서에서 신청합니다.',
+      highlights: ['주거지원시설', '유자녀 월 6만원', '취업 훈련', '심리·법률 상담', '긴급 생계·의료비'],
+      table: {
+        headers: ['지원', '내용'],
+        rows: [
+          ['주거지원시설 입주', '자립·자활 의지 있는 퇴소자 우선 (장기 보호 퇴소 포함)'],
+          ['유자녀 자립지원금', '월 6만원 × 자녀당, 자녀 만 18세까지'],
+          ['취업 훈련', '여성새로일하기센터(113) 직업교육·취업 알선'],
+          ['심리·법률 상담', '퇴소 후 심리·법률·양육 상담 지속 제공'],
+          ['긴급 생계·의료', '긴급 생계비·의료비 지원'],
+        ],
+      },
+    },
+    {
+      q: '신청 자격 — 누가 받을 수 있나?',
+      anchor: 'eligibility',
+      intro: '가정폭력·성폭력 보호시설(쉼터·일시지원·장기 보호) 입소자 및 퇴소자로서 자립·자활 의지가 있는 본인이면 신청 가능합니다. 동반 자녀도 함께 지원 가능하며 유자녀 자립지원금이 추가됩니다. 외국인 피해자도 체류 자격에 관계없이 일부 지원이 가능합니다.',
+      highlights: ['보호시설 입소·퇴소자', '자립·자활 의지', '외국인 일부 가능'],
+      box: { label: '자격', content: '가정폭력·성폭력 보호시설 입소·퇴소자 + 자립·자활 의지. 외국인 피해자도 일부 지원.' },
+    },
+    {
+      q: '신청 방법은 어떻게 되나?',
+      anchor: 'apply',
+      intro: '위기 시 1366(여성긴급전화) 24시간 즉시 상담이 가능합니다. 거주지 시·군·구청 여성가족 부서 또는 복지로(bokjiro.go.kr)에서도 신청할 수 있습니다. 임시 보호 → 보호시설 입소 → 자립지원금 신청 순서로 진행됩니다. 본인 정보가 가해자에게 노출되지 않도록 최우선으로 보호됩니다.',
+      highlights: ['1366 24시간', '시군구청 여성가족 부서', '복지로', '비밀 보호'],
+      box: { label: '신청처', content: '① 1366(24시간) ② 시군구청 여성가족 부서 ③ 복지로(bokjiro.go.kr)' },
+    },
+    {
+      q: '유자녀 자립지원금은 얼마인가?',
+      anchor: 'child-support',
+      intro: '자녀 1명당 월 6만원이며, 자녀가 만 18세가 되는 달까지 매월 지급됩니다. 자녀가 2명이면 월 12만원, 3명이면 월 18만원을 받습니다. 아동수당·한부모가족 아동양육비·부모급여 등과 중복 수령이 가능합니다.',
+      highlights: ['자녀 1명당 월 6만원', '만 18세까지', '중복 수령 가능'],
+      table: {
+        headers: ['자녀 수', '월 지원금'],
+        rows: [
+          ['자녀 1명', '월 6만원'],
+          ['자녀 2명', '월 12만원'],
+          ['자녀 3명', '월 18만원'],
+        ],
+      },
+    },
+    {
+      q: '주거지원시설 입주 조건은 무엇인가?',
+      anchor: 'housing',
+      intro: '자립·자활 의지가 있는 보호시설 퇴소자가 신청할 수 있습니다. 최대 2~4년 무상 거주가 가능하며, 거주 중 취업 훈련·심리 상담을 병행할 수 있습니다. 단기 쉼터, 장기 보호시설, 일시지원시설 퇴소자 모두 신청 가능합니다.',
+      highlights: ['자립·자활 의지', '최대 2~4년 무상 거주', '모든 시설 퇴소자'],
+      box: { label: '안내', content: '주거지원시설: 퇴소 2~4주 전 시군구청 여성가족 부서에 미리 신청하면 퇴소 직후 입주 가능.' },
+    },
+    {
+      q: '본인 정보가 가해자에게 노출될 우려가 있나?',
+      anchor: 'privacy',
+      intro: '비밀 보호가 최우선입니다. 1366은 24시간 운영되며 본인 정보가 가해자에게 노출되지 않도록 안전 조치가 적용됩니다. 보호시설 위치와 입소자 정보는 철저히 보호됩니다.',
+      highlights: ['비밀 보호 최우선', '정보 노출 방지', '1366 24시간'],
+      box: { label: '안전', content: '본인 정보 및 시설 위치는 가해자에게 절대 노출되지 않도록 보호됩니다.' },
+    },
+    {
+      q: '외국인 피해자도 지원을 받을 수 있나?',
+      anchor: 'foreigner',
+      intro: '외국인 피해자도 체류 자격에 관계없이 일부 지원이 가능합니다. 정확한 지원 범위는 1366 또는 거주지 시군구청 여성가족 부서에 문의해야 합니다. 보호시설 이용 자격은 외국인 피해자에게도 적용될 수 있습니다.',
+      highlights: ['외국인 일부 지원', '체류 자격 무관', '1366 문의'],
+      box: { label: '안내', content: '외국인 피해자: 1366 또는 시군구청 여성가족 부서에 개별 문의 필요.' },
+    },
+  ],
   faqData: [
     {
       q: '퇴소 후 받을 수 있는 지원이 어떤 것이 있나요?',

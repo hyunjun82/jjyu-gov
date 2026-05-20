@@ -1,106 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          드림스타트 신청 자격은 <strong>0세(임산부)~12세 취약계층 아동</strong>으로,
-          기초수급자·차상위계층 또는 사례관리사가 필요하다고 판단한 위기 가구도 포함됩니다.
-          7대 영역의 통합 서비스가 <strong>본인부담 없이 무료</strong>로 제공됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "드림스타트 신청 자격이 어떻게 되나요? 어떤 서비스를 받을 수 있는지도 알고 싶어요."
-        신청 자격과 7대 서비스 영역을 함께 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>조건</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>연령</strong></td>
-                <td>0세(임산부) ~ 만 12세 (초등학교 재학 중 포함)</td>
-              </tr>
-              <tr>
-                <td><strong>소득</strong></td>
-                <td>기초수급자, 차상위계층</td>
-              </tr>
-              <tr>
-                <td><strong>특례</strong></td>
-                <td>학대·방임·한부모·조손 등 위기 가구는 소득 무관 포함 가능</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="services">
-        <h2 className="detail-card-head">7대 서비스 영역 요약</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사례관리:</strong> 1대1 전담 사례관리사, 아동별 맞춤 계획
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>건강:</strong> 영양·예방접종·건강검진
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기초학습:</strong> 읽기·쓰기·수학
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>사회성:</strong> 또래 관계·정서 발달
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>부모교육:</strong> 양육 코칭
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>가족 지지:</strong> 상담·경제 지원 연계
-          </div>
-          <div className="info-box">
-            <strong>자원 연계:</strong> 지역 복지 자원 연결
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 시·군·구 드림스타트 사업단 또는 정부24
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>운영:</strong> 전국 229개 시·군·구 드림스타트 사업단
-          </div>
-          <div className="info-box">
-            <strong>비용:</strong> 본인부담 없음 (전액 국가 부담)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            일반 가구 신청 조건, 지역아동센터와의 차이 등<br />
-            드림스타트 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/dream-start" className="btn-cta">
-            드림스타트 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 드림스타트신청자격7대영역SpokeContent: SpokeData = {
   h1: '드림스타트 아동통합서비스 신청 자격과 건강 학습 사회성 7대 영역 지원 내용',
@@ -108,12 +6,81 @@ export const 드림스타트신청자격7대영역SpokeContent: SpokeData = {
   description:
     '드림스타트 자격: 0세(임산부)~12세 취약계층(수급·차상위·위기 가구). 7대 영역: 사례관리·건강·학습·사회성·부모교육·가족지지·자원연계. 전국 229개 사업단. 무료.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '대상 연령': '0세(임산부) ~ 만 12세',
+    '소득 기준': '기초수급자, 차상위계층',
+    '위기 가구': '학대·방임·한부모·조손 (소득 무관)',
+    '서비스': '7대 영역 통합 무료',
+    '신청처': '시·군·구 드림스타트 사업단, 정부24',
+  },
+  keyFactsHighlights: {
+    '소득 기준': ['기초수급자', '차상위계층'],
+    '위기 가구': ['소득 무관'],
+  },
+  qa: [
+    {
+      q: '드림스타트 신청 자격은 어떻게 되나요?',
+      anchor: '신청자격',
+      intro: '드림스타트 신청 자격은 0세(임산부)~만 12세 취약계층 아동으로, 기초수급자·차상위계층이 기본 대상입니다. 학대·방임·한부모·조손 등 위기 가구는 소득 기준을 충족하지 않아도 사례관리사 판단에 따라 포함될 수 있습니다. 초등학교에 재학 중인 아동도 포함됩니다.',
+      highlights: ['0세~만 12세', '기초수급자', '차상위계층', '위기 가구 소득 무관'],
+      table: {
+        headers: ['조건', '기준'],
+        rows: [
+          ['연령', '0세(임산부) ~ 만 12세 (초등학교 재학 중 포함)'],
+          ['소득', '기초수급자, 차상위계층'],
+          ['특례', '학대·방임·한부모·조손 등 위기 가구는 소득 무관 포함 가능'],
+        ],
+      },
+      box: { label: '자격 요약', content: '0세~만 12세 기초수급·차상위. 위기 가구(학대·방임 등)는 소득 무관 가능.' },
+    },
+    {
+      q: '7대 서비스 영역은 무엇인가요?',
+      anchor: '7대영역',
+      intro: '드림스타트는 사례관리, 건강, 기초학습, 사회성, 부모교육, 가족 지지, 자원 연계의 7대 영역을 통합 제공합니다. 사례관리는 1대1 전담 사례관리사가 아동별 맞춤 계획을 수립하는 핵심 서비스입니다. 건강은 영양·예방접종·건강검진, 기초학습은 읽기·쓰기·수학, 사회성은 또래 관계·정서 발달을 지원합니다.',
+      highlights: ['사례관리', '건강', '기초학습', '사회성', '부모교육', '가족지지', '자원연계'],
+      box: { label: '7대 영역', content: '사례관리·건강·기초학습·사회성·부모교육·가족지지·자원연계. 모두 무료.' },
+    },
+    {
+      q: '만 12세 초과한 아동도 신청할 수 있나요?',
+      anchor: '연령초과',
+      intro: '만 12세 초과 아동은 원칙적으로 대상이 아닙니다. 다만 초등학교에 재학 중이라면 만 12세를 초과해도 포함될 수 있습니다. 정확한 자격 여부는 거주지 드림스타트 사업단에 문의해 확인하는 것이 좋습니다.',
+      highlights: ['만 12세 초과 원칙 제외', '초등 재학 중 예외 가능'],
+      box: { label: '연령 기준', content: '만 12세 초과 시 원칙적 제외. 초등 재학 중이면 예외 가능 — 사업단 문의.' },
+    },
+    {
+      q: '위기 가구는 소득에 상관없이 신청 가능한가요?',
+      anchor: '위기가구',
+      intro: '학대·방임·가정폭력·보호자 부재 등 위기 상황에 있는 아동은 소득 기준을 초과해도 사례관리사 판단에 따라 포함될 수 있습니다. 한부모, 조손 가구도 위기 가구로 인정될 수 있습니다. 먼저 거주지 드림스타트 사업단에 상담을 신청해 보세요.',
+      highlights: ['학대·방임', '한부모·조손', '소득 무관 가능', '사례관리사 판단'],
+      box: { label: '위기 가구', content: '학대·방임·한부모·조손 등 위기 가구는 소득 기준 초과해도 신청 가능. 사업단 상담 필요.' },
+    },
+    {
+      q: '신청 방법은 어떻게 되나요?',
+      anchor: '신청방법',
+      intro: '시·군·구 드림스타트 사업단 또는 정부24(gov.kr)에서 신청할 수 있습니다. 전국 229개 시·군·구에서 운영 중이며, 거주 지역 시·군·구청에 문의하면 사업단 연락처를 안내받을 수 있습니다.',
+      highlights: ['시·군·구 사업단', '정부24', '229개'],
+      box: { label: '신청', content: '시·군·구 드림스타트 사업단 방문 또는 정부24(gov.kr) 신청. 거주지 시·군·구청에 문의.' },
+    },
+    {
+      q: '드림스타트 비용은 얼마인가요?',
+      anchor: '비용',
+      intro: '드림스타트의 모든 서비스는 본인부담 없이 무료로 제공됩니다. 전액 국가가 부담하는 통합 아동 복지 서비스입니다.',
+      highlights: ['무료', '본인부담 없음'],
+      box: { label: '비용', content: '모든 서비스 본인부담 없음. 전액 국가 부담.' },
+    },
+    {
+      q: '드림스타트와 다른 복지 서비스를 함께 받을 수 있나요?',
+      anchor: '중복이용',
+      intro: '드림스타트는 다른 복지 서비스와 중복 이용이 원칙적으로 가능합니다. 지역아동센터, 방과후 돌봄교실, 아이돌봄서비스 등과 함께 이용할 수 있습니다. 드림스타트의 자원 연계 서비스를 통해 다른 복지 서비스와 연결하는 것도 가능합니다.',
+      highlights: ['중복 이용 가능', '지역아동센터 병행', '자원 연계'],
+      box: { label: '중복', content: '지역아동센터, 방과후 프로그램 등 다른 복지 서비스와 중복 이용 가능.' },
+    },
+  ],
   faqData: [
     {
       q: '드림스타트 신청 자격이 어떻게 되나요?',
-      a: '0세(임산부)~만 12세 아동(초등 재학 포함) 중 기초수급자·차상위계층 가구가 기본 대상입니다. 학대·방임·한부모·조손 등 위기 가구는 소득과 무관하게 포함될 수 있습니다.',
+      a: '0세(임산부)~만 12세 아동(초등 재학 포함) 중 기초수급자·차상위계층 가구가 기본 대상입니다. 학대·방임·한부모·조손 등 위기 가구는 소득 무관 포함 가능합니다.',
       source: '보건복지부',
       sourceUrl: 'https://www.mohw.go.kr',
     },

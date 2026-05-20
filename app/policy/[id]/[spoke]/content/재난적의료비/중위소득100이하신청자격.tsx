@@ -1,90 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          재난적의료비 지원은 <strong>기준 중위소득 100% 이하</strong> 가구가 대상입니다.
-          중위소득 100%를 초과해도 <strong>소득 대비 의료비 부담이 일정 수준을 넘으면</strong>
-          개별 심사를 통해 지원받을 수 있습니다.
-          지원 대상 질환은 <strong>암·뇌혈관·심장·희귀·중증난치·중증화상</strong>입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        신청 자격과 지원 금액을 미리 확인하면 큰 의료비 부담을 줄일 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="income">
-        <h2 className="detail-card-head">소득 기준 및 가구별 중위소득 100%</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>가구원 수</th><th>기준 중위소득 100% (월)</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1인</strong></td><td>약 228만 5천원</td></tr>
-              <tr><td><strong>2인</strong></td><td>약 385만원</td></tr>
-              <tr><td><strong>3인</strong></td><td>약 497만원</td></tr>
-              <tr><td><strong>4인</strong></td><td>약 609만원</td></tr>
-              <tr><td><strong>5인</strong></td><td>약 716만원</td></tr>
-            </tbody>
-          </table>
-          <p style={{ fontSize: 13, color: '#8B95A1', marginTop: 8 }}>
-            ※ 2026년 기준, 건강보험료 기준으로 소득 확인
-          </p>
-        </div>
-      </section>
-
-      <section className="detail-card" id="disease">
-        <h2 className="detail-card-head">지원 대상 질환</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>입원:</strong> 모든 질환 입원 진료 (중위소득 100% 이하)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>외래:</strong> 암·뇌혈관·심장·희귀·중증난치·중증화상 질환에 한해 외래 지원
-          </div>
-          <div className="info-box">
-            <strong>개별 심사:</strong> 중위소득 100% 초과 ~ 200% 이하이나 의료비 부담이 과중한 경우
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 퇴원 병원 의료사회복지사 또는 가까운 국민건강보험공단 지사
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인:</strong> 국민건강보험공단 홈페이지(nhis.or.kr) → 재난적의료비 신청
-          </div>
-          <div className="info-box">
-            <strong>신청 기한:</strong> 퇴원일(외래 종료일)로부터 180일 이내
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원 금액, 암·뇌혈관 질환 신청, 본인부담상한제 중복 여부까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/catastrophic-medical-expenses" className="btn-cta">
-            재난적의료비 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 재난적의료비중위소득100이하신청자격SpokeContent: SpokeData = {
   h1: '재난적의료비 신청 자격, 중위소득 100% 이하 기준과 대상 질환',
@@ -92,8 +6,152 @@ export const 재난적의료비중위소득100이하신청자격SpokeContent: Sp
   description:
     '재난적의료비 지원 자격: 기준 중위소득 100% 이하(4인 가구 월 약 609만원). 입원 전 질환·외래 6개 중증질환 대상. 중위소득 200% 이하 과중 부담 시 개별 심사. 퇴원 후 180일 이내 신청.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '기본 소득 기준': '기준 중위소득 100% 이하',
+    '1인 가구 기준': '월 약 228만 5천원',
+    '4인 가구 기준': '월 약 609만원',
+    '개별 심사 범위': '중위소득 100~200% 이하 (과중 부담 시)',
+    '신청 기한': '퇴원일로부터 180일 이내',
+  },
+  keyFactsHighlights: {
+    '기본 소득 기준': ['중위소득 100% 이하'],
+    '4인 가구 기준': ['월 약 609만원'],
+    '개별 심사 범위': ['100~200% 이하'],
+    '신청 기한': ['180일 이내'],
+  },
+  qa: [
+    {
+      q: '재난적의료비 신청 자격은 어떻게 되나요?',
+      anchor: 'eligibility',
+      intro: '재난적의료비 지원은 기준 중위소득 100% 이하 가구가 기본 대상입니다. 소득 기준은 건강보험료 납부액을 기준으로 확인합니다. 입원의 경우 모든 질환이 해당되며, 외래는 암·뇌혈관·심장·희귀·중증난치·중증화상 6개 중증질환에 한합니다. 중위소득 100%를 초과하더라도 소득 대비 의료비 부담이 일정 수준을 넘으면 개별 심사를 통해 지원을 받을 수 있습니다.',
+      highlights: ['중위소득 100% 이하', '건강보험료', '6개 중증질환', '개별 심사'],
+      table: {
+        headers: ['가구원 수', '기준 중위소득 100% (월)'],
+        rows: [
+          ['1인', '약 228만 5천원'],
+          ['2인', '약 385만원'],
+          ['3인', '약 497만원'],
+          ['4인', '약 609만원'],
+          ['5인', '약 716만원'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '2026년 기준. 건강보험료 기준으로 소득 확인. 정확한 기준은 국민건강보험공단 1577-1000 또는 nhis.or.kr에서 확인.',
+      },
+    },
+    {
+      q: '중위소득 100%를 넘어도 신청할 수 있나요?',
+      anchor: 'over-100',
+      intro: '중위소득 100%를 초과해도 200% 이하이고 소득 대비 의료비 부담이 과중한 경우 개별 심사를 통해 지원받을 수 있습니다. 개별 심사는 해당 연도 의료비가 소득의 일정 비율(통상 15% 이상)을 초과하는 경우 심사 대상이 됩니다. 심사 결과에 따라 지원 여부와 금액이 결정됩니다.',
+      highlights: ['200% 이하', '개별 심사', '소득의 15% 이상'],
+      table: {
+        headers: ['소득 구간', '신청 가능 여부'],
+        rows: [
+          ['중위소득 100% 이하', '기본 지원 대상'],
+          ['중위소득 100~200% 이하', '개별 심사 (과중 부담 시)'],
+          ['중위소득 200% 초과', '지원 불가'],
+        ],
+      },
+      box: {
+        label: '팁',
+        content: '소득이 100%를 약간 초과해도 의료비 부담이 크다면 개별 심사를 신청해보세요.',
+      },
+    },
+    {
+      q: '입원과 외래 지원 대상 질환이 다른가요?',
+      anchor: 'inpatient-outpatient',
+      intro: '입원의 경우 모든 질환에 대해 재난적의료비 지원이 가능합니다. 단, 외래 진료는 암·뇌혈관질환·심장질환·희귀질환·중증난치질환·중증화상의 6개 중증질환에 한해서만 지원됩니다. 일반 외래 진료(감기, 고혈압 등)는 외래 지원 대상에 포함되지 않습니다.',
+      highlights: ['입원: 모든 질환', '외래: 6개 중증질환'],
+      table: {
+        headers: ['구분', '지원 대상 질환'],
+        rows: [
+          ['입원', '모든 질환 (중위소득 100% 이하)'],
+          ['외래', '암, 뇌혈관, 심장, 희귀, 중증난치, 중증화상 6개'],
+          ['일반 외래 (감기, 고혈압 등)', '지원 불가'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '외래는 6개 중증질환만 지원. 일반 외래 진료는 재난적의료비 신청 불가.',
+      },
+    },
+    {
+      q: '소득 기준은 건강보험료로 확인하나요?',
+      anchor: 'income-check',
+      intro: '재난적의료비 지원의 소득 기준은 건강보험료 납부액을 기준으로 확인합니다. 직장가입자와 지역가입자 기준이 다르며, 피부양자는 세대주의 보험료를 기준으로 합니다. 정확한 소득 구간은 신청 시 공단에서 직권 조회합니다. 사전에 국민건강보험공단(1577-1000)에 문의하면 자신의 소득 구간을 확인할 수 있습니다.',
+      highlights: ['건강보험료', '직권 조회', '1577-1000'],
+      table: {
+        headers: ['구분', '소득 확인 기준'],
+        rows: [
+          ['직장가입자', '월 건강보험료 (직장보험료)'],
+          ['지역가입자', '월 건강보험료 (지역보험료)'],
+          ['피부양자', '세대주의 건강보험료'],
+          ['확인 방법', '건강보험공단 1577-1000 또는 nhis.or.kr'],
+        ],
+      },
+      box: {
+        label: '확인',
+        content: '소득 구간 사전 확인: 국민건강보험공단 1577-1000',
+      },
+    },
+    {
+      q: '신청 기한은 얼마나 되나요?',
+      anchor: 'deadline',
+      intro: '재난적의료비 지원 신청은 퇴원일(외래의 경우 외래 진료 종료일)로부터 180일 이내에 해야 합니다. 기한을 넘기면 지원받기 어렵습니다. 가능하면 퇴원 즉시 또는 의료사회복지사를 통해 빠르게 신청하는 것을 권장합니다.',
+      highlights: ['180일 이내', '퇴원일', '외래 종료일'],
+      table: {
+        headers: ['구분', '신청 기한'],
+        rows: [
+          ['입원 (퇴원 후)', '퇴원일로부터 180일 이내'],
+          ['외래 진료', '외래 종료일로부터 180일 이내'],
+          ['기한 초과 시', '지원 불가'],
+        ],
+      },
+      box: {
+        label: '주의',
+        content: '퇴원 즉시 신청을 권장합니다. 180일 기한을 놓치지 마세요.',
+      },
+    },
+    {
+      q: '신청 방법은 어떻게 되나요?',
+      anchor: 'how-to-apply',
+      intro: '재난적의료비 지원은 입원 중 병원 의료사회복지사를 통하거나, 퇴원 후 국민건강보험공단 지사 방문 또는 nhis.or.kr 온라인으로 신청할 수 있습니다. 준비 서류는 의료비 납입 영수증, 진료비 세부 내역서, 건강보험료 납부 확인서, 신분증 등입니다.',
+      highlights: ['의료사회복지사', 'nhis.or.kr', '건강보험공단 지사'],
+      table: {
+        headers: ['신청 방법', '내용'],
+        rows: [
+          ['병원 내', '의료사회복지사 상담·신청'],
+          ['공단 방문', '국민건강보험공단 지사'],
+          ['온라인', 'nhis.or.kr → 재난적의료비 신청'],
+          ['준비 서류', '영수증, 진료비 세부 내역서, 건보료 납부 확인서'],
+        ],
+      },
+      box: {
+        label: '문의',
+        content: '국민건강보험공단 1577-1000 / 복지로 129',
+      },
+    },
+    {
+      q: '같은 해에 여러 번 입원해도 지원받을 수 있나요?',
+      anchor: 'multiple-times',
+      intro: '연간 지원 한도(최대 2,000만원, 중증질환 특례 5,000만원) 범위 내에서 여러 번 신청이 가능합니다. 단, 같은 해 이미 지원을 받았다면 잔여 한도 내에서 추가 지원이 이루어집니다. 한도가 소진된 경우 같은 해 추가 지원은 어렵습니다.',
+      highlights: ['연간 2,000만원', '특례 5,000만원', '여러 번 신청 가능'],
+      table: {
+        headers: ['구분', '연간 한도'],
+        rows: [
+          ['일반 입원', '최대 2천만원'],
+          ['중증질환 특례', '최대 5천만원'],
+          ['복수 입원', '한도 내에서 합산 지원'],
+        ],
+      },
+      box: {
+        label: '참고',
+        content: '연간 한도 내에서 복수 입원 모두 신청 가능. 한도 소진 후 추가 지원은 불가.',
+      },
+    },
+  ],
   faqData: [
     {
       q: '건강보험료로 소득을 확인하나요?',

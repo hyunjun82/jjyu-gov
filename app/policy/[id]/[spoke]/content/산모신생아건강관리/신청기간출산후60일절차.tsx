@@ -1,94 +1,90 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          산모신생아 건강관리 지원 신청은 <strong>출산 예정일 40일 전부터</strong> 가능하며,
-          늦어도 <strong>출산 후 60일 이내</strong>에 완료해야 합니다.
-          서비스는 신청 승인 후 출산일로부터 <strong>90일 이내</strong>에 이용해야 합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        신청 기한을 놓치면 서비스를 받을 수 없으므로, 출산 전에 미리 신청하는 것을 권장합니다.
-      </p>
-
-      <section className="detail-card" id="period">
-        <h2 className="detail-card-head">신청 기간 요약</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>신청 시작</strong></td><td>출산 예정일 40일 전부터</td></tr>
-              <tr><td><strong>신청 마감</strong></td><td>출산 후 60일 이내</td></tr>
-              <tr><td><strong>서비스 이용 기한</strong></td><td>출산일로부터 90일 이내</td></tr>
-              <tr><td><strong>권장 신청 시점</strong></td><td>출산 예정일 1~2개월 전 (서비스 제공자 연결 여유 확보)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="process">
-        <h2 className="detail-card-head">신청 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>1단계:</strong> 복지로(bokjiro.go.kr) 또는 주민센터에서 신청서 제출
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>2단계:</strong> 소득 기준 심사 (건강보험료 기준)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>3단계:</strong> 바우처 카드 발급 (국민행복카드로 통합 발급)
-          </div>
-          <div className="info-box">
-            <strong>4단계:</strong> 제공 기관 선택 후 서비스 이용 (출산 후 90일 이내)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">필요 서류</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>출산 전 신청:</strong> 산모수첩(임신확인서), 신분증, 건강보험증
-          </div>
-          <div className="info-box">
-            <strong>출산 후 신청:</strong> 출생증명서, 신분증, 건강보험증
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            본인부담금, 쌍둥이 예외 지원, 산후도우미 비용 비교까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/maternal-newborn-care" className="btn-cta">
-            산모신생아 건강관리 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 산모신생아건강관리신청기간출산후60일절차SpokeContent: SpokeData = {
   h1: '산모신생아 건강관리 신청 기간, 출산 전 40일부터 출산 후 60일 이내',
   breadcrumb: '신청기간출산후60일절차',
   description:
     '산모신생아 건강관리 신청 기간: 출산 예정일 40일 전~출산 후 60일 이내. 서비스 이용은 출산일로부터 90일 이내. 복지로(bokjiro.go.kr) 또는 주민센터 신청. 국민행복카드 바우처로 지급.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청 시작': '출산 예정일 40일 전',
+    '신청 마감': '출산 후 60일 이내',
+    '서비스 이용 기한': '출산일로부터 90일 이내',
+    '신청처': '복지로·주민센터',
+    '바우처 방식': '국민행복카드',
+  },
+  keyFactsHighlights: {
+    '신청 시작': ['40일 전'],
+    '신청 마감': ['60일 이내'],
+    '서비스 이용 기한': ['90일 이내'],
+  },
+  qa: [
+    {
+      q: '신청 기간은 언제부터 언제까지인가요?',
+      anchor: 'period',
+      intro: '산모신생아 건강관리 지원 신청은 출산 예정일 40일 전부터 가능하며, 늦어도 출산 후 60일 이내에 완료해야 합니다. 서비스는 신청 승인 후 출산일로부터 90일 이내에 이용해야 합니다. 신청 기한을 놓치면 서비스를 받을 수 없으므로 출산 전에 미리 신청하는 것을 권장합니다.',
+      highlights: ['40일 전부터', '60일 이내', '90일 이내', '미리 신청 권장'],
+      table: {
+        headers: ['항목', '기준'],
+        rows: [
+          ['신청 시작', '출산 예정일 40일 전부터'],
+          ['신청 마감', '출산 후 60일 이내'],
+          ['서비스 이용 기한', '출산일로부터 90일 이내'],
+          ['권장 신청 시점', '출산 예정일 1~2개월 전 (서비스 제공자 연결 여유 확보)'],
+        ],
+      },
+    },
+    {
+      q: '신청 절차는 어떻게 되나요?',
+      anchor: 'process',
+      intro: '복지로(bokjiro.go.kr) 온라인 또는 주민센터에서 신청서를 제출합니다. 소득 기준 심사(건강보험료 기준)를 거쳐 바우처 카드(국민행복카드)가 발급됩니다. 이후 제공 기관을 선택해 서비스를 이용하면 됩니다. 출산 전 신청 시 바우처는 출산 후 활성화됩니다.',
+      highlights: ['복지로 온라인', '주민센터', '국민행복카드', '출산 후 활성화'],
+      box: { label: '신청 절차', content: '1단계: 복지로 또는 주민센터 신청서 제출\n2단계: 소득 기준 심사 (건강보험료 기준)\n3단계: 국민행복카드 바우처 발급\n4단계: 제공 기관 선택 후 서비스 이용 (출산 후 90일 이내)' },
+    },
+    {
+      q: '출산 전 미리 신청해도 서비스를 받을 수 있나요?',
+      anchor: 'pre-birth',
+      intro: '출산 예정일 40일 전부터 신청 가능합니다. 바우처는 출산 후 활성화되므로 출산 전 신청해도 서비스는 출산 후에 이용합니다. 미리 신청하면 서비스 제공 기관을 여유 있게 선택하고 일정을 협의할 수 있어 더 편리합니다.',
+      highlights: ['40일 전 신청 가능', '출산 후 활성화', '미리 신청 권장'],
+      box: { label: '미리 신청의 장점', content: '제공 기관을 여유 있게 선택\n출산 직후 바로 서비스 이용 가능\n출산 후 60일 기한에 쫓기지 않음' },
+    },
+    {
+      q: '신청 시 필요한 서류는 무엇인가요?',
+      anchor: 'docs',
+      intro: '출산 전 신청 시 산모수첩(임신확인서), 신분증, 건강보험증이 필요합니다. 출산 후 신청 시 출생증명서, 신분증, 건강보험증이 필요합니다. 온라인 신청(복지로)은 공동인증서 또는 간편인증으로 진행합니다.',
+      highlights: ['산모수첩', '출생증명서', '건강보험증', '공동인증서'],
+      table: {
+        headers: ['신청 시점', '필요 서류'],
+        rows: [
+          ['출산 전 신청', '산모수첩(임신확인서), 신분증, 건강보험증'],
+          ['출산 후 신청', '출생증명서, 신분증, 건강보험증'],
+          ['온라인 신청', '공동인증서 또는 카카오·네이버 간편인증'],
+        ],
+      },
+    },
+    {
+      q: '출산 후 60일이 지나면 신청이 불가한가요?',
+      anchor: 'after-60',
+      intro: '원칙적으로 출산 후 60일 이내에 신청해야 합니다. 기한을 초과하면 지원을 받을 수 없으므로 출산 전 미리 신청하는 것을 강력히 권장합니다. 예외적인 상황(산모·신생아 입원 등)이 있는 경우 담당 기관에 문의해 확인하세요.',
+      highlights: ['60일 이내 필수', '기한 초과 시 지원 불가', '예외적 상황 문의'],
+      box: { label: '기한 초과 시 대응', content: '원칙적으로 지원 불가\n예외 상황(산모·신생아 입원 등): 주민센터에 사전 문의\n미리 신청이 최선의 방법' },
+    },
+    {
+      q: '산후조리원 입소 중에 서비스를 이용할 수 있나요?',
+      anchor: 'during-postpartum',
+      intro: '산후조리원 재원 중에는 서비스 이용이 불가합니다. 산후조리원을 퇴소하고 귀가한 후 출산일로부터 90일 이내에 이용해야 합니다. 산후조리원 이용 중에도 신청은 가능하므로 제공 기관 선택과 일정 협의를 미리 진행할 수 있습니다.',
+      highlights: ['재원 중 이용 불가', '귀가 후 90일 이내', '신청은 가능'],
+      box: { label: '산후조리원과 이용 순서', content: '산후조리원 재원 중 신청 → 퇴소 후 귀가 → 서비스 이용\n(출산일로부터 90일 이내 이용 완료)' },
+    },
+    {
+      q: '유산·사산의 경우에도 신청할 수 있나요?',
+      anchor: 'miscarriage',
+      intro: '임신 기간 16주 이상 유산·사산의 경우에도 지원 대상에 포함될 수 있습니다. 주민센터 또는 사회서비스 포털에 문의하면 자세한 안내를 받을 수 있습니다. 해당 경우에는 의사 소견서 등 관련 서류를 지참해 신청합니다.',
+      highlights: ['16주 이상 유산·사산', '지원 대상 포함', '주민센터 문의'],
+      box: { label: '유산·사산 신청 방법', content: '임신 16주 이상 유산·사산 → 주민센터 또는 복지로 문의\n의사 소견서 등 관련 서류 지참' },
+    },
+  ],
   faqData: [
     {
       q: '출산 후 60일이 지나면 신청이 불가한가요?',

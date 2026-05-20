@@ -1,98 +1,94 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          법률구조 제도는 원칙적으로 <strong>기준 중위소득 125% 이하</strong>의 국민과
-          국내 거주 외국인이 소송대리 지원을 받을 수 있습니다.
-          기초생활수급자·임금체불 피해근로자·농어민 등은 소송비용 <strong>전액 무료</strong>이며,
-          공단 소송구조 사건의 <strong>90% 이상이 무료</strong> 대상입니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        소득 기준이 넘어도 장애인·범죄피해자 등 특정 취약계층은 별도 기준으로 지원받을 수 있습니다.
-        먼저 132로 전화해 본인의 지원 자격을 확인하세요.
-      </p>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">소득 유형별 지원 내용</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>소득 유형</th><th>대상</th><th>비용</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>무료 구조</strong></td><td>기초수급자, 임금체불 근로자, 농·어민 등</td><td>전액 무료 (출연기관 부담)</td></tr>
-              <tr><td><strong>유료 구조</strong></td><td>중위소득 125% 이하</td><td>변호사 비용 30% + 소송실비</td></tr>
-              <tr><td><strong>소득 무관</strong></td><td>장애인·범죄피해자 등 취약계층</td><td>별도 확인 필요</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="free">
-        <h2 className="detail-card-head">무료 법률구조 주요 대상</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기초생활수급자:</strong> 생계·주거·의료·교육급여 수급자
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>임금체불 피해근로자:</strong> 사업주로부터 임금 등을 체불당한 근로자
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>농·어민:</strong> 농업·임업·어업에 종사하는 분
-          </div>
-          <div className="info-box">
-            <strong>공통:</strong> 승소금액 3억 원 초과 고액사건은 무료 법률구조 제외
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="cost">
-        <h2 className="detail-card-head">유료 구조 비용 수준</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>변호사 비용:</strong> 대법원규칙이 정한 변호사 비용의 약 30% 수준
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소송실비:</strong> 법원에 납부하는 인지대·송달료 등 본인 부담
-          </div>
-          <div className="info-box">
-            <strong>참고:</strong> 전체 사건 중 전액 본인 부담 비율은 9.8%에 불과 (2016년 기준 평균 17만 원)
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            상담 방법, 소송대리 절차, 지원 가능 사건 종류까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/legal-aid-system" className="btn-cta">
-            법률구조 제도 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 법률구조제도중위소득125이하지원대상SpokeContent: SpokeData = {
   h1: '법률구조 제도 지원 대상, 중위소득 125% 이하 기준 누가 해당되나',
   breadcrumb: '중위소득125이하지원대상',
   description:
     '법률구조 제도: 기준 중위소득 125% 이하 소송대리 지원. 기초수급자·임금체불·농어민 전액 무료. 전체 사건 90% 이상 무료 처리. 유료 대상도 변호사 비용 30% 수준. 국번없이 132.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '소송대리 기준': '기준 중위소득 125% 이하',
+    '무료 대상': '기초수급자, 임금체불 근로자, 농어민 등 → 전액 무료',
+    '유료 대상': '중위소득 125% 이하 → 변호사 비용 30% 수준',
+    '외국인': '국내 거주 외국인도 중위소득 125% 이하라면 지원',
+    '제외': '승소금액 3억 초과 고액사건',
+  },
+  keyFactsHighlights: {
+    '소송대리 기준': ['중위소득 125% 이하'],
+    '무료 대상': ['전액 무료'],
+  },
+  qa: [
+    {
+      q: '법률구조 소송대리를 받을 수 있는 소득 기준은 무엇인가요?',
+      anchor: 'income-standard',
+      intro:
+        '법률구조 제도는 원칙적으로 기준 중위소득 125% 이하의 국민과 국내 거주 외국인이 소송대리 지원을 받을 수 있습니다. 기초생활수급자·임금체불 피해근로자·농어민 등은 소송비용 전액이 무료이며, 공단 소송구조 사건의 90% 이상이 무료 대상입니다. 중위소득 125%를 초과하더라도 장애인·범죄피해자 등 특정 취약계층은 별도 기준으로 지원받을 수 있습니다.',
+      highlights: ['중위소득 125% 이하', '기초수급자 전액 무료', '90% 이상 무료'],
+      table: {
+        headers: ['소득 유형', '대상', '비용'],
+        rows: [
+          ['무료 구조', '기초수급자, 임금체불 근로자, 농·어민 등', '전액 무료 (출연기관 부담)'],
+          ['유료 구조', '중위소득 125% 이하', '변호사 비용 30% + 소송실비'],
+          ['소득 무관', '장애인·범죄피해자 등 취약계층', '별도 확인 필요'],
+        ],
+      },
+    },
+    {
+      q: '무료 법률구조 주요 대상은 누구인가요?',
+      anchor: 'free-targets',
+      intro:
+        '기초생활수급자(생계·주거·의료·교육급여 수급자), 임금체불 피해근로자(사업주로부터 임금·퇴직금을 체불당한 근로자), 농업·임업·어업에 종사하는 농어민이 주요 무료 대상입니다. 이들은 소득 기준과 무관하게 소송비용 전액이 무료입니다. 단, 승소금액 3억 원을 초과하는 고액사건은 무료 법률구조에서 제외됩니다.',
+      highlights: ['기초수급자', '임금체불 근로자', '농어민', '고액 사건 제외'],
+      box: { label: '무료 법률구조 주요 대상', content: '기초생활수급자 / 임금체불 피해근로자 / 농·임·어업 종사자 / 소득 무관 전액 무료 (승소금액 3억 초과 제외)' },
+    },
+    {
+      q: '중위소득 125%는 어떻게 확인하나요?',
+      anchor: 'how-to-check',
+      intro:
+        '대한법률구조공단(☎132 또는 klac.or.kr)에 문의하면 소득 기준 해당 여부를 안내받을 수 있습니다. 건강보험료 납부액 등을 기준으로 판단합니다. 공단 방문 상담 시 담당자가 소득 기준 확인을 도와줍니다. 온라인으로는 klac.or.kr 홈페이지에서도 자가 확인이 가능합니다.',
+      highlights: ['132 문의', '건강보험료 기준', 'klac.or.kr 확인'],
+      box: { label: '중위소득 확인 방법', content: '대한법률구조공단 ☎132 문의 또는 klac.or.kr 홈페이지 확인. 건강보험료 납부액 기준 판단.' },
+    },
+    {
+      q: '외국인도 법률구조를 받을 수 있나요?',
+      anchor: 'foreigner',
+      intro:
+        '네, 국내에 거주하는 외국인도 기준 중위소득 125% 이하라면 법률구조를 신청할 수 있습니다. 체류 자격이나 국적과 관계없이 국내에 거주하며 소득 기준을 충족하면 신청할 수 있습니다. 외국인 대상 법률구조에 대한 자세한 안내는 공단(☎132)에서 받을 수 있습니다.',
+      highlights: ['외국인 신청 가능', '국내 거주 + 중위소득 125% 이하'],
+      box: { label: '외국인 신청', content: '국내 거주 외국인도 중위소득 125% 이하라면 법률구조 신청 가능. ☎132 문의.' },
+    },
+    {
+      q: '소득 기준이 초과되어도 도움받을 방법이 있나요?',
+      anchor: 'exceed',
+      intro:
+        '소득 기준 초과 시에도 법률홈닥터, 마을변호사, 법원 법률구조 프로그램 등 다른 무료 법률 지원 제도를 활용할 수 있습니다. 또한 장애인, 범죄피해자 등 특정 취약계층은 소득 기준과 별도로 지원받을 수 있으므로 132로 전화해 확인해보세요. 법률홈닥터나 마을변호사는 소득 기준 없이 이용 가능한 상담 서비스입니다.',
+      highlights: ['법률홈닥터', '마을변호사', '취약계층 별도 기준'],
+      box: { label: '소득 초과 대안', content: '법률홈닥터 (찾아가는 상담) / 마을변호사 (지역 자문) / 장애인·범죄피해자 별도 기준 확인 ☎132' },
+    },
+    {
+      q: '임금체불 피해자는 소득에 관계없이 무료인가요?',
+      anchor: 'wage-theft',
+      intro:
+        '네, 임금·퇴직금 등을 체불당한 피해근로자는 소득 기준과 무관하게 무료 법률구조 대상입니다. 임금체불 사건은 공단에서 우선적으로 처리하며, 고용노동부(☎1350) 연계도 가능합니다. 단, 승소금액이 3억 원을 초과하면 무료 법률구조 대상에서 제외될 수 있으므로, 정확한 지원 여부는 공단(☎132)에서 확인하세요.',
+      highlights: ['임금체불: 소득 무관 무료', '고용노동부 ☎1350 연계'],
+      box: { label: '임금체불 피해', content: '임금·퇴직금 체불 피해근로자: 소득 기준 없이 무료 법률구조. ☎132 또는 고용노동부 ☎1350.' },
+    },
+    {
+      q: '승소금액 3억 초과 사건은 왜 제외되나요?',
+      anchor: 'large-amount',
+      intro:
+        '무료 법률구조는 소득이 낮아 법률 서비스를 받기 어려운 취약계층을 지원하는 제도입니다. 승소금액이 3억 원을 초과하는 사건은 사실상 재산 분쟁이 큰 사건으로, 취약계층 지원이라는 제도 취지에 맞지 않아 제외됩니다. 이 경우에는 사적 법률 서비스(변호사 개인 선임)를 이용해야 합니다.',
+      highlights: ['3억 초과 무료 제외', '취약계층 지원 취지'],
+      table: {
+        headers: ['승소금액', '무료 법률구조'],
+        rows: [
+          ['3억 이하', '무료 법률구조 가능 (소득 기준 충족 시)'],
+          ['3억 초과', '무료 법률구조 제외'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '중위소득 125%는 어떻게 확인하나요?',

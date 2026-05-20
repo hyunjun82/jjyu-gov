@@ -1,107 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          드림스타트는 0세(임산부)~12세 취약계층 아동에게
-          <strong>본인부담 없이 무료</strong>로 사례관리·건강·학습·사회성·부모교육·
-          가족 지지·자원 연계 <strong>7대 영역</strong>을 통합 제공합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "드림스타트에서 어떤 서비스를 무료로 받을 수 있나요? 어떤 내용인지 구체적으로 알고 싶어요."
-        7대 영역별 서비스 내용을 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="services">
-        <h2 className="detail-card-head">드림스타트 7대 서비스 영역</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>영역</th><th>서비스 내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>사례관리</strong></td>
-                <td>아동별 맞춤 서비스 계획 수립, 1대1 전담 사례관리사 배정</td>
-              </tr>
-              <tr>
-                <td><strong>건강</strong></td>
-                <td>영양 관리, 예방접종, 건강검진, 의료 연계</td>
-              </tr>
-              <tr>
-                <td><strong>기초학습</strong></td>
-                <td>읽기·쓰기·수학 등 기초 학력 지원</td>
-              </tr>
-              <tr>
-                <td><strong>사회성</strong></td>
-                <td>또래 관계·정서 발달 프로그램</td>
-              </tr>
-              <tr>
-                <td><strong>부모교육</strong></td>
-                <td>양육 코칭, 부모 역량 강화 교육</td>
-              </tr>
-              <tr>
-                <td><strong>가족 지지</strong></td>
-                <td>가족 상담, 경제적 지원 연계</td>
-              </tr>
-              <tr>
-                <td><strong>자원 연계</strong></td>
-                <td>지역 사회 복지 자원 연결</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="cost">
-        <h2 className="detail-card-head">비용 및 운영</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>본인부담:</strong> 없음 (전액 국가 부담)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>운영 기관:</strong> 전국 229개 시·군·구 드림스타트 사업단
-          </div>
-          <div className="info-box">
-            <strong>사례관리:</strong> 1대1 전담 사례관리사가 아동별 맞춤 계획 수립
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 시·군·구 드림스타트 사업단 또는 정부24
-          </div>
-          <div className="info-box">
-            <strong>문의:</strong> 보건복지부 또는 거주 지역 드림스타트 사업단
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청 자격, 일반 가구 이용 조건 등<br />
-            드림스타트 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/dream-start" className="btn-cta">
-            드림스타트 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 드림스타트무료서비스내용SpokeContent: SpokeData = {
   h1: '기초수급 가정의 0세에서 12세 아이라면 드림스타트에서 받을 수 있는 무료 서비스',
@@ -109,8 +6,82 @@ export const 드림스타트무료서비스내용SpokeContent: SpokeData = {
   description:
     '드림스타트 7대 영역: 사례관리·건강·기초학습·사회성·부모교육·가족지지·자원연계. 0~12세 취약계층 아동 무료. 전국 229개 사업단, 1대1 전담 사례관리사.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '대상': '0세(임산부) ~ 만 12세 취약계층 아동',
+    '비용': '본인부담 없음 (전액 국가 부담)',
+    '서비스 영역': '7대 영역',
+    '운영 기관': '전국 229개 시·군·구 드림스타트 사업단',
+    '사례관리': '1대1 전담 사례관리사',
+  },
+  keyFactsHighlights: {
+    '비용': ['본인부담 없음'],
+    '서비스 영역': ['7대 영역'],
+    '운영 기관': ['229개'],
+  },
+  qa: [
+    {
+      q: '드림스타트에서 받을 수 있는 무료 서비스는?',
+      anchor: '7대서비스',
+      intro: '드림스타트는 0세(임산부)~12세 취약계층 아동에게 본인부담 없이 무료로 사례관리·건강·기초학습·사회성·부모교육·가족 지지·자원 연계 7대 영역을 통합 제공합니다. 아동 1명당 전담 사례관리사가 배정되어 개인 맞춤 서비스 계획을 수립합니다. 전국 229개 시·군·구에서 운영 중입니다.',
+      highlights: ['무료', '7대 영역', '1대1 전담 사례관리사', '229개 사업단'],
+      table: {
+        headers: ['영역', '서비스 내용'],
+        rows: [
+          ['사례관리', '아동별 맞춤 서비스 계획 수립, 1대1 전담 사례관리사 배정'],
+          ['건강', '영양 관리, 예방접종, 건강검진, 의료 연계'],
+          ['기초학습', '읽기·쓰기·수학 등 기초 학력 지원'],
+          ['사회성', '또래 관계·정서 발달 프로그램'],
+          ['부모교육', '양육 코칭, 부모 역량 강화 교육'],
+          ['가족 지지', '가족 상담, 경제적 지원 연계'],
+          ['자원 연계', '지역 사회 복지 자원 연결'],
+        ],
+      },
+      box: { label: '핵심', content: '7대 영역 무료 통합 서비스. 1대1 전담 사례관리사 배정. 전국 229개 사업단 운영.' },
+    },
+    {
+      q: '드림스타트는 모두 무료인가요?',
+      anchor: '무료여부',
+      intro: '드림스타트는 모든 서비스가 본인부담 없이 전액 국가가 부담합니다. 사례관리, 건강검진 연계, 학습 지원, 사회성 프로그램, 부모교육, 가족 상담, 자원 연계 모두 별도 비용 없이 이용할 수 있습니다.',
+      highlights: ['전액 무료', '본인부담 없음', '국가 부담'],
+      box: { label: '비용', content: '드림스타트 모든 서비스 = 본인부담 0원. 전액 국가 부담.' },
+    },
+    {
+      q: '1대1 사례관리사가 배정되나요?',
+      anchor: '사례관리사',
+      intro: '드림스타트는 아동 1명당 전담 사례관리사가 배정됩니다. 사례관리사는 아동과 가정의 상황을 파악해 맞춤형 서비스 계획을 수립하고 각 영역의 서비스를 연결해 줍니다. 가정 방문도 이루어지므로 직접 센터를 방문하지 않아도 서비스를 받을 수 있습니다.',
+      highlights: ['1대1 전담 배정', '맞춤 서비스 계획', '가정 방문'],
+      box: { label: '사례관리', content: '아동 1명당 전담 사례관리사 1명 배정. 가정 방문 + 사업단 방문 병행.' },
+    },
+    {
+      q: '임산부도 드림스타트를 이용할 수 있나요?',
+      anchor: '임산부',
+      intro: '드림스타트는 임산부(0세)부터 만 12세 아동까지 대상입니다. 임신 중에도 서비스를 받을 수 있어 출산 전부터 아동의 건강과 발달을 지원합니다. 임산부 영양 관리, 의료 연계 등이 포함됩니다.',
+      highlights: ['임산부 포함', '출산 전부터 지원', '0세부터'],
+      box: { label: '대상 연령', content: '0세(임산부) ~ 만 12세. 임신 중에도 서비스 이용 가능.' },
+    },
+    {
+      q: '드림스타트는 전국 어디서나 이용할 수 있나요?',
+      anchor: '전국운영',
+      intro: '전국 229개 시·군·구에 드림스타트 사업단이 운영 중입니다. 거주 지역 시·군·구청에 문의하거나 정부24(gov.kr)에서 거주지 사업단 연락처를 안내받을 수 있습니다.',
+      highlights: ['전국 229개', '시·군·구청 문의', '정부24'],
+      box: { label: '신청', content: '시·군·구 드림스타트 사업단 또는 정부24에서 거주지 사업단 연락처 확인 후 신청.' },
+    },
+    {
+      q: '기초학습 지원은 어떤 내용인가요?',
+      anchor: '기초학습',
+      intro: '드림스타트의 기초학습 지원은 읽기, 쓰기, 수학 등 기초 학력 향상을 위한 프로그램입니다. 학교 수업을 따라가기 어려운 아동에게 맞춤형 학습 지원이 이루어집니다. 사례관리사가 아동의 학습 수준을 파악해 적절한 지원 프로그램을 연결합니다.',
+      highlights: ['읽기·쓰기·수학', '기초 학력', '맞춤 학습'],
+      box: { label: '기초학습', content: '읽기·쓰기·수학 기초 학력 지원. 아동 수준에 맞춘 개인별 맞춤 지원.' },
+    },
+    {
+      q: '자원 연계 서비스는 무엇인가요?',
+      anchor: '자원연계',
+      intro: '자원 연계는 지역 사회의 다양한 복지 자원을 아동과 가정에 연결하는 서비스입니다. 지역 내 장학금, 의료비 지원, 식품 지원, 문화 활동 등 다양한 자원을 아동 가정의 필요에 맞게 연결해 줍니다. 사례관리사가 지역 자원을 파악하고 있어 맞춤형 연결이 가능합니다.',
+      highlights: ['복지 자원 연결', '장학금·의료비·식품 지원', '사례관리사 연결'],
+      box: { label: '자원 연계', content: '지역 복지 자원(장학금·의료비·식품·문화 등)을 아동 가정 필요에 맞게 연결.' },
+    },
+  ],
   faqData: [
     {
       q: '드림스타트에서 제공하는 서비스는 모두 무료인가요?',

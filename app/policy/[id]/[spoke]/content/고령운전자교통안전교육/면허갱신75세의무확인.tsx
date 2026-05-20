@@ -1,97 +1,102 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          <strong>만 75세 이상</strong> 운전자는 면허 갱신(적성검사) 시
-          <strong>고령운전자 교통안전교육을 의무적으로 이수</strong>해야 합니다.
-          교육 미이수 시 면허 갱신이 불가합니다.
-          갱신 주기는 <strong>생일 전후 6개월</strong> 이내이며,
-          교육은 무료로 제공됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        운전면허 갱신 시기가 다가온 75세 이상이라면 교통안전교육을 먼저 예약하세요.
-        교육 이수 후 적성검사와 연계하여 면허 갱신을 완료할 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="renewal">
-        <h2 className="detail-card-head">75세 이상 면허 갱신 절차</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>1단계</strong></td><td>교통안전교육 예약 (온라인 또는 방문)</td></tr>
-              <tr><td><strong>2단계</strong></td><td>교통안전교육 이수 (온라인 또는 교육장)</td></tr>
-              <tr><td><strong>3단계</strong></td><td>적성검사 (신체·인지 기능 확인)</td></tr>
-              <tr><td><strong>4단계</strong></td><td>면허증 갱신 발급</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="period">
-        <h2 className="detail-card-head">면허 갱신 기간</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>갱신 기간:</strong> 생일 전후 6개월 이내 (생일 기준 ±6개월)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>갱신 주기:</strong> 3년마다 (75세 이상 기준)
-          </div>
-          <div className="info-box">
-            <strong>기간 초과 시:</strong> 면허 효력 정지 → 재취득 필요
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="education">
-        <h2 className="detail-card-head">교육 이수 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>온라인 이수:</strong> 도로교통공단 이러닝센터 (trafficedu.koroad.or.kr)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>오프라인 이수:</strong> 전국 도로교통공단 교육장 방문 예약
-          </div>
-          <div className="info-box">
-            <strong>비용:</strong> 무료
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            고령운전자 교육 65세·75세 차이, 온라인 이수 방법, 예약 안내까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/elderly-driver-safety" className="btn-cta">
-            고령운전자 교통안전교육 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 고령운전자교통안전교육면허갱신75세의무확인SpokeContent: SpokeData = {
   h1: '운전면허 갱신 앞둔 75세 이상이라면 고령운전자 교육 이수 의무 확인',
   breadcrumb: '면허갱신75세의무확인',
-  description:
-    '75세 이상 고령운전자 교통안전교육 의무: 면허 갱신(적성검사) 시 교육 이수 필수. 갱신 주기 3년, 생일 전후 6개월 내. 절차: 교육 예약→이수→적성검사→면허 갱신. 온라인(이러닝) 또는 오프라인, 무료.',
+  description: '75세 이상 고령운전자 교통안전교육 의무: 면허 갱신(적성검사) 시 교육 이수 필수. 갱신 주기 3년, 생일 전후 6개월 내. 절차: 교육 예약→이수→적성검사→면허 갱신. 온라인(이러닝) 또는 오프라인, 무료.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '면허 갱신 조건': '교통안전교육 이수 필수',
+    '갱신 주기': '3년마다',
+    '갱신 기간': '생일 전후 6개월 이내',
+    '기간 초과 시': '면허 효력 정지',
+    '교육비': '무료',
+  },
+  keyFactsHighlights: {
+    '면허 갱신 조건': ['교육 이수 필수'],
+    '기간 초과 시': ['면허 효력 정지'],
+    '교육비': ['무료'],
+  },
+  qa: [
+    {
+      q: '75세 이상 면허 갱신 절차는 어떻게 되나?',
+      anchor: 'renewal',
+      intro: '만 75세 이상 운전자는 면허 갱신(적성검사) 시 고령운전자 교통안전교육을 의무적으로 이수해야 합니다. 교육 미이수 시 면허 갱신이 불가합니다. 갱신 주기는 생일 전후 6개월 이내이며, 교육은 무료로 제공됩니다.',
+      highlights: ['교통안전교육 의무 이수', '교육 미이수 갱신 불가', '무료'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['1단계', '교통안전교육 예약 (온라인 또는 방문)'],
+          ['2단계', '교통안전교육 이수 (온라인 또는 교육장)'],
+          ['3단계', '적성검사 (신체·인지 기능 확인)'],
+          ['4단계', '면허증 갱신 발급'],
+        ],
+      },
+    },
+    {
+      q: '면허 갱신 기간은 언제까지인가?',
+      anchor: 'period',
+      intro: '생일 전후 6개월 이내에 갱신해야 합니다. 75세 이상은 3년마다 갱신이 필요합니다. 기간을 초과하면 면허 효력이 정지되고 재취득 절차가 필요할 수 있습니다.',
+      highlights: ['생일 전후 6개월', '3년마다', '기간 초과 면허 정지'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['갱신 기간', '생일 전후 6개월 이내 (생일 기준 ±6개월)'],
+          ['갱신 주기', '3년마다 (75세 이상 기준)'],
+          ['기간 초과 시', '면허 효력 정지 → 재취득 필요'],
+        ],
+      },
+    },
+    {
+      q: '교육 이수 방법은 어떻게 되나?',
+      anchor: 'education',
+      intro: '도로교통공단 이러닝센터(trafficedu.koroad.or.kr)에서 온라인으로 이수하거나, 전국 도로교통공단 교육장에서 오프라인으로 이수할 수 있습니다. 두 가지 모두 무료입니다.',
+      highlights: ['온라인 이러닝센터', '오프라인 교육장', '모두 무료'],
+      table: {
+        headers: ['방법', '접속/예약처', '비용'],
+        rows: [
+          ['온라인 이수', 'trafficedu.koroad.or.kr', '무료'],
+          ['오프라인 이수', 'safedriving.or.kr 예약 후 방문', '무료'],
+        ],
+      },
+    },
+    {
+      q: '교육 이수 후 바로 면허 갱신이 되나?',
+      anchor: 'after-edu',
+      intro: '교육 이수 후 적성검사를 받아야 면허 갱신이 완료됩니다. 적성검사는 신체·인지 기능을 확인하는 절차입니다. 이수증을 출력하여 적성검사 시 제출해야 합니다.',
+      highlights: ['적성검사 필요', '이수증 출력', '신체·인지 기능 확인'],
+      box: { label: '절차', content: '교육 이수 → 이수증 출력 → 운전면허시험장 또는 경찰서 방문 → 적성검사 → 면허 갱신.' },
+    },
+    {
+      q: '교육을 받지 않으면 어떻게 되나?',
+      anchor: 'no-edu',
+      intro: '75세 이상은 고령운전자 교통안전교육 이수가 면허 갱신(적성검사)의 필수 조건입니다. 교육 미이수 시 면허 갱신이 불가합니다. 갱신 기간(생일 전후 6개월)을 초과하면 면허 효력이 정지됩니다.',
+      highlights: ['교육 미이수 갱신 불가', '기간 초과 면허 정지'],
+      box: { label: '주의', content: '75세 이상: 교육 미이수 = 면허 갱신 불가. 갱신 기간 초과 시 면허 효력 정지 + 재취득 필요.' },
+    },
+    {
+      q: '면허 갱신 시 필요한 서류는?',
+      anchor: 'docs',
+      intro: '이수증(교통안전교육 이수 후 출력), 신분증, 신체검사 결과(필요 시)가 필요합니다. 정확한 서류는 운전면허시험장 또는 경찰서에서 확인하세요.',
+      highlights: ['이수증', '신분증', '신체검사 결과'],
+      box: { label: '서류', content: '① 이수증 (이러닝센터 출력) ② 신분증 ③ 신체검사 결과 (필요 시). 운전면허시험장에서 확인 권장.' },
+    },
+    {
+      q: '65세 이상 권장 교육과 75세 이상 의무 교육의 차이는?',
+      anchor: 'diff',
+      intro: '65세 이상 권장 교육은 자율 이수로 면허에 영향 없습니다. 75세 이상 의무 교육은 면허 갱신의 필수 조건입니다. 두 구간 모두 무료이며, 75세 이상은 온라인·오프라인 모두 이수 가능합니다.',
+      highlights: ['65세 자율', '75세 의무', '모두 무료'],
+      table: {
+        headers: ['구분', '65세 이상', '75세 이상'],
+        rows: [
+          ['의무 여부', '자율 (권장)', '의무'],
+          ['면허 영향', '없음', '미이수 시 갱신 불가'],
+          ['이수 방식', '오프라인만', '온라인 + 오프라인'],
+        ],
+      },
+    },
+  ],
   faqData: [
     {
       q: '교통안전교육을 받지 않으면 면허를 갱신할 수 없나요?',

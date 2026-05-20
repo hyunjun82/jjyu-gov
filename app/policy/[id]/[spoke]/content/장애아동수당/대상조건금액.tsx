@@ -1,114 +1,120 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          장애아동수당은 <strong>만 18세 미만 등록장애아동</strong> 중
-          기초생활수급자 또는 차상위계층 가구에 지급됩니다.
-          중증은 월 <strong>17만~22만원</strong>, 경증은 월 <strong>11만원</strong>이며
-          소득 구분에 따라 금액이 달라집니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        "장애아동수당 신청 자격은 어떻게 되고 중증과 경증은 얼마나 받나요?"
-        대상 조건과 지급 금액을 한 번에 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격 3가지</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>조건</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>연령</strong></td>
-                <td>만 18세 미만</td>
-              </tr>
-              <tr>
-                <td><strong>장애 등록</strong></td>
-                <td>경증 또는 중증 등록장애아동</td>
-              </tr>
-              <tr>
-                <td><strong>소득·재산</strong></td>
-                <td>기초수급자(생계·의료·주거·교육) 또는 차상위계층</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="amount">
-        <h2 className="detail-card-head">2026년 지급 금액 (월)</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>장애 정도</th><th>생계·의료급여</th><th>주거·교육급여</th><th>차상위</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>중증</strong></td>
-                <td>22만원</td>
-                <td>17만원</td>
-                <td>17만원</td>
-              </tr>
-              <tr>
-                <td><strong>경증</strong></td>
-                <td>11만원</td>
-                <td>11만원</td>
-                <td>11만원</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="apply">
-        <h2 className="detail-card-head">신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청처:</strong> 거주지 읍·면·동 행정복지센터 방문 또는 복지로(bokjiro.go.kr) 온라인
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>신청자:</strong> 보호자(부모·후견인) 명의로 신청
-          </div>
-          <div className="info-box">
-            <strong>준비 서류:</strong> 장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            18세 이후 전환, 성인 수당과의 차이 등<br />
-            장애아동수당 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/disability-child-allowance" className="btn-cta">
-            장애아동수당 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 장애아동수당대상조건금액SpokeContent: SpokeData = {
   h1: '2026년 장애아동수당 대상 조건과 중증·경증·소득별 월 지급액 전체 정리',
   breadcrumb: '대상조건금액',
   description:
     '장애아동수당 자격: 만 18세 미만 + 등록장애아동 + 수급자·차상위. 2026년 금액: 중증 생계·의료 22만원, 주거·교육·차상위 17만원, 경증 11만원. 복지로 신청.',
-  datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '자격 연령': '만 18세 미만',
+    '장애 요건': '경증 또는 중증 등록장애아동',
+    '소득 요건': '기초수급자(생계·의료·주거·교육) 또는 차상위계층',
+    '중증 최대': '월 22만원 (생계·의료급여 기준)',
+    '경증': '월 11만원 (소득 구분 무관)',
+  },
+  keyFactsHighlights: {
+    '중증 최대': ['22만원'],
+    '경증': ['11만원'],
+    '소득 요건': ['기초수급자', '차상위계층'],
+  },
+  qa: [
+    {
+      q: '장애아동수당 신청 자격 3가지 조건은 무엇인가요?',
+      anchor: 'eligibility',
+      intro: '장애아동수당은 만 18세 미만 등록장애아동이면서 기초생활수급자 또는 차상위계층 가구에 해당해야 합니다. 장애 등록은 경증과 중증 모두 가능하며, 장애 정도와 가구 소득 구분에 따라 지급 금액이 달라집니다.',
+      highlights: ['만 18세 미만', '등록장애아동', '기초수급자', '차상위계층'],
+      table: {
+        headers: ['조건', '기준'],
+        rows: [
+          ['연령', '만 18세 미만'],
+          ['장애 등록', '경증 또는 중증 등록장애아동'],
+          ['소득·재산', '기초수급자(생계·의료·주거·교육급여) 또는 차상위계층'],
+        ],
+      },
+    },
+    {
+      q: '2026년 장애아동수당 월 지급액은 얼마인가요?',
+      anchor: 'amount',
+      intro: '2026년 기준 장애아동수당은 장애 정도와 소득 구분에 따라 다릅니다. 중증 아동 중 생계·의료급여 수급 가구는 월 22만원으로 가장 높고, 경증 아동은 소득 구분과 관계없이 월 11만원입니다. 중증 주거·교육급여 수급자와 차상위계층 중증은 월 17만원입니다.',
+      highlights: ['22만원', '17만원', '11만원'],
+      table: {
+        headers: ['장애 정도', '생계·의료급여', '주거·교육급여', '차상위'],
+        rows: [
+          ['중증', '22만원', '17만원', '17만원'],
+          ['경증', '11만원', '11만원', '11만원'],
+        ],
+      },
+    },
+    {
+      q: '경증인지 중증인지 어떻게 확인하나요?',
+      anchor: 'severity',
+      intro: '장애인등록증에 "장애 정도가 심한 장애인"이라고 기재되어 있으면 중증, "장애 정도가 심하지 않은 장애인"이라고 기재되어 있으면 경증입니다. 확인이 어려운 경우 행정복지센터에서 안내받을 수 있습니다.',
+      highlights: ['장애인등록증', '심한 장애인', '심하지 않은 장애인'],
+      box: {
+        label: '장애 정도 확인 방법',
+        content: '"장애 정도가 심한 장애인" → 중증 → 최대 22만원
+"장애 정도가 심하지 않은 장애인" → 경증 → 11만원
+모르면 행정복지센터(읍·면·동) 문의',
+      },
+    },
+    {
+      q: '신청은 보호자가 해야 하나요?',
+      anchor: 'guardian',
+      intro: '장애아동수당은 아동의 보호자(부모·후견인) 명의로 신청해야 합니다. 거주지 읍·면·동 행정복지센터를 방문하거나 복지로(bokjiro.go.kr)에서 온라인으로 신청할 수 있습니다.',
+      highlights: ['보호자 명의', '부모', '후견인'],
+      table: {
+        headers: ['신청 방법', '내용'],
+        rows: [
+          ['방문 신청', '거주지 읍·면·동 행정복지센터'],
+          ['온라인 신청', '복지로(bokjiro.go.kr)'],
+          ['신청자', '보호자(부모·후견인) 명의'],
+          ['준비 서류', '장애인등록증, 신분증, 소득재산신고서, 금융정보 동의서'],
+        ],
+      },
+    },
+    {
+      q: '장애 등록을 하지 않은 아이도 신청할 수 있나요?',
+      anchor: 'registration',
+      intro: '아니요, 반드시 장애인 등록(경증 또는 중증)이 완료된 아동이어야 합니다. 장애인 등록은 거주지 행정복지센터에서 신청할 수 있으며, 지역 내 장애인 등록 심사기관(의료기관)에서 진단을 받아야 합니다.',
+      highlights: ['장애인 등록 필수', '등록 완료 후 신청'],
+      box: {
+        label: '장애인 등록 절차',
+        content: '행정복지센터에 장애인 등록 신청
+지정 의료기관에서 장애 진단
+장애 정도 심사 (국민연금공단)
+장애인등록증 발급 후 수당 신청 가능',
+      },
+    },
+    {
+      q: '매년 재심사가 있나요?',
+      anchor: 'annual-review',
+      intro: '매년 자격 재심사가 이루어집니다. 소득·재산 변화로 인해 자격이 변동될 수 있으므로, 변경 사항이 발생하면 즉시 행정복지센터에 신고해야 합니다. 재심사 결과에 따라 지급 금액이 달라질 수 있습니다.',
+      highlights: ['매년 재심사', '소득·재산 변화', '즉시 신고'],
+      table: {
+        headers: ['상황', '할 일'],
+        rows: [
+          ['소득 변화', '즉시 행정복지센터에 신고'],
+          ['장애 정도 변화', '장애 재심사 신청'],
+          ['주소 변경', '이사한 지역 행정복지센터에 신고'],
+        ],
+      },
+    },
+    {
+      q: '장애아동수당과 다른 아동 복지 혜택을 동시에 받을 수 있나요?',
+      anchor: 'duplicate',
+      intro: '장애아동수당은 아동수당(0~95개월 모든 아동에게 지급)과 중복 수급이 가능합니다. 또한 기초수급 급여(생계·의료·주거·교육)와도 중복 수급이 가능합니다. 단, 장애수당·장애인연금과는 중복 불가합니다(연령 기준 자체가 다름).',
+      highlights: ['아동수당과 중복 가능', '기초수급 급여와 중복 가능'],
+      box: {
+        label: '중복 수급 가능 여부',
+        content: '아동수당(0~95개월): 중복 가능
+기초수급 급여(생계·의료 등): 중복 가능
+장애수당: 불가 (18세 이상 대상이라 연령 충돌)
+장애인연금: 불가 (18세 이상 대상이라 연령 충돌)',
+      },
+    },
+  ],
   faqData: [
     {
       q: '장애아동수당 신청 자격이 어떻게 되나요?',

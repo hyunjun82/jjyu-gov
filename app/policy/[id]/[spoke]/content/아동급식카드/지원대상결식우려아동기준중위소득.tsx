@@ -1,88 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          아동급식카드는 <strong>18세 미만 취학·미취학 아동</strong> 중 보호자가 식사를 제공하기 어려운
-          결식 우려 아동이 대상입니다. <strong>기준 중위소득 52% 이하</strong> 가구나
-          기초생활수급자, 한부모가족, 차상위계층 아동이 해당됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        아동급식카드(지역에 따라 '꿈나무카드' 등으로 불림)는 결식 우려 아동에게
-        학기 중 토·공휴일과 방학 중 중식을 지원합니다. 지역별로 지원 금액과 카드 이름이 다를 수 있습니다.
-      </p>
-
-      <section className="detail-card" id="target">
-        <h2 className="detail-card-head">지원 대상 기준</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>대상</th><th>세부 기준</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>국민기초생활수급자</strong></td><td>생계·의료·주거·교육급여 수급 아동</td></tr>
-              <tr><td><strong>차상위계층</strong></td><td>중위소득 50% 이하 비수급자</td></tr>
-              <tr><td><strong>한부모가족</strong></td><td>한부모가족지원법 지원 대상 아동</td></tr>
-              <tr><td><strong>긴급복지 대상</strong></td><td>긴급복지지원 수급 가구 아동</td></tr>
-              <tr><td><strong>중위소득 52% 이하</strong></td><td>소득인정액이 기준 중위소득 52% 이하</td></tr>
-              <tr><td><strong>그 외</strong></td><td>담당자 판단으로 결식 우려 인정 시 지원 가능</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="age">
-        <h2 className="detail-card-head">연령 기준</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>기본 대상:</strong> 18세 미만 아동 (취학·미취학 모두 포함)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>고등학생:</strong> 고등학교 재학 중이라면 18세 이상도 지원 가능 (학교 졸업 전까지)
-          </div>
-          <div className="info-box">
-            <strong>영유아:</strong> 보육시설 미이용 영유아도 결식 우려 시 지원 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="exclude">
-        <h2 className="detail-card-head">지원 제외 대상</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>학교 급식 이용 아동:</strong> 학기 중 학교에서 급식 제공받는 경우 중복 불가 (학기 중 평일)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>소득·재산 기준 초과:</strong> 중위소득 52% 초과 가구
-          </div>
-          <div className="info-box">
-            <strong>기관 입소 아동:</strong> 아동복지시설 등 급식이 제공되는 시설 거주 아동
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            신청방법, 사용처, 방학 중 이용 안내까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/child-meal-card" className="btn-cta">
-            아동급식카드 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 아동급식카드지원대상결식우려아동기준중위소득SpokeContent: SpokeData = {
   h1: '아동급식카드 지원대상, 결식우려 아동 기준과 중위소득 52% 기준',
@@ -90,8 +6,100 @@ export const 아동급식카드지원대상결식우려아동기준중위소득S
   description:
     '아동급식카드 대상: 18세 미만 결식우려 아동. 기초수급·차상위·한부모·긴급복지·중위소득 52% 이하. 학기 중 학교급식 이용 아동은 평일 중복 불가. 복지로·주민센터 신청.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '기본 대상': '18세 미만 결식우려 아동 (취학·미취학)',
+    '소득 기준': '기준 중위소득 52% 이하',
+    '자동 포함': '기초수급자·차상위·한부모·긴급복지 대상 아동',
+    '학기 중 평일': '학교급식 이용 중복 불가',
+    '신청처': '주민센터·복지로(bokjiro.go.kr)',
+  },
+  keyFactsHighlights: {
+    '기본 대상': ['18세 미만'],
+    '소득 기준': ['중위소득 52% 이하'],
+    '자동 포함': ['기초수급자', '차상위', '한부모'],
+  },
+  qa: [
+    {
+      q: '아동급식카드 지원 대상은 누구인가요?',
+      anchor: 'target',
+      intro:
+        '아동급식카드는 18세 미만 취학·미취학 아동 중 보호자가 식사를 제공하기 어려운 결식 우려 아동이 대상입니다. 기준 중위소득 52% 이하 가구, 기초생활수급자, 차상위계층, 한부모가족, 긴급복지 대상 아동이 해당됩니다. 담당자 판단으로 결식 우려가 인정되는 경우에도 지원이 가능합니다.',
+      highlights: ['18세 미만', '중위소득 52% 이하', '결식 우려'],
+      table: {
+        headers: ['대상', '세부 기준'],
+        rows: [
+          ['국민기초생활수급자', '생계·의료·주거·교육급여 수급 아동'],
+          ['차상위계층', '중위소득 50% 이하 비수급자'],
+          ['한부모가족', '한부모가족지원법 지원 대상 아동'],
+          ['긴급복지 대상', '긴급복지지원 수급 가구 아동'],
+          ['중위소득 52% 이하', '소득인정액이 기준 중위소득 52% 이하'],
+          ['그 외', '담당자 판단으로 결식 우려 인정 시'],
+        ],
+      },
+    },
+    {
+      q: '연령 기준과 예외는 어떻게 되나요?',
+      anchor: 'age',
+      intro:
+        '기본 대상은 18세 미만 아동이지만, 고등학교 재학 중이라면 18세 이상도 졸업 전까지 지원 가능합니다. 영유아는 보육시설을 이용하지 않는 결식 우려 영유아도 지원 가능합니다.',
+      highlights: ['18세 미만', '고등학교 재학', '영유아'],
+      list: [
+        '기본 대상: 18세 미만 아동 (취학·미취학 모두 포함)',
+        '고등학생: 18세 이상도 졸업 전까지 지원 가능',
+        '영유아: 보육시설 미이용 결식 우려 영유아 지원 가능',
+      ],
+    },
+    {
+      q: '지원에서 제외되는 경우는 어떤 경우인가요?',
+      anchor: 'exclude',
+      intro:
+        '학기 중 학교에서 급식을 제공받는 경우 평일에는 급식카드와 중복 이용이 불가합니다. 소득·재산이 중위소득 52%를 초과하는 가구와 아동복지시설 등 급식이 제공되는 시설 거주 아동도 제외됩니다.',
+      highlights: ['중위소득 52% 초과', '학교 급식 중복 불가'],
+      list: [
+        '학교 급식 이용 아동: 학기 중 평일 중복 사용 불가',
+        '소득·재산 기준 초과: 중위소득 52% 초과 가구',
+        '기관 입소 아동: 급식 제공 시설(아동복지시설 등) 거주 아동',
+      ],
+    },
+    {
+      q: '중위소득 52%는 얼마인가요?',
+      anchor: 'income',
+      intro:
+        '2026년 기준 4인 가구 중위소득 52%는 약 299만원 수준입니다. 정확한 기준은 매년 변동되므로 주민센터 또는 복지로에서 확인하세요. 소득인정액은 근로소득, 재산소득 등을 합산해 산정합니다.',
+      highlights: ['4인 가구 약 299만원'],
+      box: { label: '확인', content: '정확한 소득 기준은 매년 변동. 주민센터 방문 또는 복지로(bokjiro.go.kr) 모의 계산으로 확인하세요.' },
+    },
+    {
+      q: '소득은 괜찮은데 부모가 방임 상태라면 지원받을 수 있나요?',
+      anchor: 'neglect',
+      intro:
+        '소득·재산 기준 외에도 담당자 판단으로 결식 우려가 인정되면 지원 가능합니다. 방임, 학대, 가정 기능 붕괴 등 특수한 상황은 주민센터에서 상담을 받으세요.',
+      highlights: ['담당자 판단', '결식 우려'],
+      box: { label: '상담', content: '특수한 상황(방임·학대 등)은 주민센터 담당자와 상담 후 개별 판단.' },
+    },
+    {
+      q: '어린이집에 다니면 급식카드를 받을 수 있나요?',
+      anchor: 'daycare',
+      intro:
+        '어린이집 이용 아동은 보육료 지원을 통해 급식이 제공됩니다. 어린이집을 다니지 않는 결식 우려 아동은 급식카드 신청이 가능합니다.',
+      highlights: ['어린이집 미이용'],
+      box: { label: '안내', content: '어린이집 이용 아동은 급식 이미 제공. 미이용 결식우려 아동은 급식카드 신청 가능.' },
+    },
+    {
+      q: '신청은 어떻게 하나요?',
+      anchor: 'apply',
+      intro:
+        '주민센터(읍·면·동) 방문 또는 복지로(bokjiro.go.kr) 온라인으로 신청할 수 있습니다. 연중 상시 신청이 가능하며, 자격 확인 후 카드를 발급받아 바로 사용할 수 있습니다. 필요 서류는 신분증, 가족관계증명서이며 소득 증빙은 전산 조회로 대체 가능한 경우도 있습니다.',
+      highlights: ['주민센터', 'bokjiro.go.kr'],
+      list: [
+        '주민센터 방문 또는 복지로(bokjiro.go.kr) 온라인 신청',
+        '담당자 소득·자격 조회 및 결식 우려 판단',
+        '아동급식카드 발급 (지역별 BC카드·지역사랑상품권 등)',
+        '지정 가맹점에서 사용 (편의점·식당 등)',
+      ],
+    },
+  ],
   faqData: [
     {
       q: '중위소득 52%가 얼마인가요?',

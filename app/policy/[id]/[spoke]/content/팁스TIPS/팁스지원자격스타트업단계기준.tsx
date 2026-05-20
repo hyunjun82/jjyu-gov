@@ -1,142 +1,137 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          TIPS는 <strong>창업자가 직접 신청할 수 없는 프로그램</strong>입니다.
-          반드시 <strong>TIPS 운영사(VC·액셀러레이터)로부터 1억 원 이상 투자</strong>를 받은 뒤
-          운영사가 추천해야만 신청이 가능합니다. 창업 업력은 <strong>7년 이내</strong>가 기본이며,
-          딥테크·AI·바이오 등 기술 기반 분야에서 우대됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0', color: 'var(--text-secondary)' }}>
-        "TIPS를 신청하고 싶은데 어떤 단계의 스타트업이어야 하나요?" — 가장 많이 받는 질문입니다.
-        TIPS는 단계별 트랙이 구분되어 있어서, 내 회사 상황에 맞는 트랙을 먼저 파악해야 합니다.
-      </p>
-
-      <section className="detail-card" id="req">
-        <h2 className="detail-card-head">TIPS 신청 자격 요건 전체 정리</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>항목</th><th>기준</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>운영사 투자</strong></td>
-                <td>TIPS 운영사가 <strong>1억 원 이상</strong> 투자 또는 투자 약정</td>
-                <td>투자 없으면 신청 불가</td>
-              </tr>
-              <tr>
-                <td><strong>창업 업력</strong></td>
-                <td>법인 설립일 기준 <strong>7년 이내</strong></td>
-                <td>예비창업자 일부 가능</td>
-              </tr>
-              <tr>
-                <td><strong>기술 분야</strong></td>
-                <td>딥테크·AI·바이오·소재·ICT 등 기술 기반</td>
-                <td>일반 서비스업 제외</td>
-              </tr>
-              <tr>
-                <td><strong>신청 방식</strong></td>
-                <td>운영사를 통한 추천 신청만 가능</td>
-                <td>직접 신청 불가</td>
-              </tr>
-              <tr>
-                <td><strong>기업 형태</strong></td>
-                <td>국내 법인 (중소기업 기준)</td>
-                <td>개인사업자 불가</td>
-              </tr>
-              <tr>
-                <td><strong>중복 수혜</strong></td>
-                <td>동일 과제로 타 정부 R&D 수행 중 불가</td>
-                <td>사전 확인 필수</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="track">
-        <h2 className="detail-card-head">단계별 TIPS 트랙 비교</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>트랙</th><th>대상 단계</th><th>R&D 지원</th><th>사업화 지원</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>일반 TIPS</strong></td>
-                <td>초기 스타트업 (시드~Pre-A)</td>
-                <td>최대 <strong>5억 원</strong> / 2년</td>
-                <td>최대 <strong>2억 원</strong> / 2년</td>
-              </tr>
-              <tr>
-                <td><strong>딥테크 TIPS</strong></td>
-                <td>딥테크 특화 (AI·바이오·소재)</td>
-                <td>최대 <strong>10억 원</strong> / 3년</td>
-                <td>별도 한도</td>
-              </tr>
-              <tr>
-                <td><strong>포스트 TIPS</strong></td>
-                <td>TIPS 졸업 후 성장 단계</td>
-                <td>최대 <strong>10억 원</strong></td>
-                <td>추가 지원</td>
-              </tr>
-              <tr>
-                <td><strong>글로벌 TIPS</strong></td>
-                <td>해외 진출 준비 단계</td>
-                <td>R&D + 해외마케팅</td>
-                <td>최대 <strong>1억 원</strong> 해외비용</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="process">
-        <h2 className="detail-card-head">TIPS 선정까지 단계별 절차</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>단계</th><th>주체</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>①</td><td>스타트업</td><td>운영사 목록 파악 → IR 덱 준비 → 미팅 요청</td></tr>
-              <tr><td>②</td><td>운영사</td><td>스타트업 심사 → 투자 결정 → 투자 계약</td></tr>
-              <tr><td>③</td><td>운영사</td><td>TIPS 운영사 시스템(jointips.or.kr)에 추천 등록</td></tr>
-              <tr><td>④</td><td>주관기관</td><td>서면 심사 → 발표 심사 (2~3개월 소요)</td></tr>
-              <tr><td>⑤</td><td>중기부</td><td>최종 선정 통보 → 협약 체결 → 지원금 지급 시작</td></tr>
-            </tbody>
-          </table>
-
-          <div className="info-box" style={{ marginTop: 16 }}>
-            <strong>핵심 포인트:</strong> TIPS 선정까지 운영사 투자 협상 + 심사 기간 포함
-            평균 <strong>3~6개월</strong>이 걸립니다. 선정 후 협약까지 1~2개월 추가 소요됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="warning-box" style={{ marginTop: 0 }}>
-        <strong>⚠️ 주의: 직접 신청 사기 주의</strong><br />
-        "TIPS 신청을 도와주겠다"며 수수료를 요구하는 브로커·컨설팅 업체가 있습니다.
-        TIPS는 운영사만 추천할 수 있으며, <strong>수수료를 받고 신청을 대행해주는 제도가 아닙니다.</strong>
-        jointips.or.kr에서 공식 운영사 목록을 직접 확인하세요.
-      </div>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 팁스TIPS팁스지원자격스타트업단계기준SpokeContent: SpokeData = {
   h1: 'TIPS 지원자격 — 스타트업 단계별 신청 기준 총정리',
-  breadcrumb: '팁스지원자격스타트업단계기준',
+  breadcrumb: 'TIPS > 팁스지원자격스타트업단계기준',
   description: 'TIPS 프로그램 신청 자격(업력·기술분야·운영사 투자 조건)과 일반·딥테크·포스트·글로벌 트랙별 차이를 정리합니다.',
-  datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
-  Content,
+  datePublished: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '신청 방식': '운영사 추천만 가능 (직접 신청 불가)',
+    '창업 업력': '법인 설립일 기준 7년 이내',
+    '운영사 투자': '1억원 이상 투자 또는 투자 약정 필수',
+    '기술 분야': '딥테크·AI·바이오·ICT 등 기술 기반',
+    '기업 형태': '국내 법인 (중소기업 기준, 개인사업자 불가)',
+  },
+  keyFactsHighlights: {
+    '신청 방식': ['직접 신청 불가'],
+    '창업 업력': ['7년 이내'],
+    '운영사 투자': ['1억원 이상'],
+  },
+  qa: [
+    {
+      q: 'TIPS 신청 자격 요건 전체를 알려주세요.',
+      anchor: 'all-requirements',
+      intro: 'TIPS는 창업자가 직접 신청할 수 없는 프로그램입니다. 반드시 TIPS 운영사(VC·액셀러레이터)로부터 1억 원 이상 투자를 받은 뒤 운영사가 추천해야만 신청이 가능합니다. 창업 업력은 법인 설립일 기준 7년 이내가 기본이며, 딥테크·AI·바이오 등 기술 기반 분야에서 우대됩니다. 국내 법인이어야 하며 개인사업자는 신청이 불가합니다.',
+      highlights: ['직접 신청 불가', '운영사 1억원 이상 투자 필수', '7년 이내 창업', '개인사업자 불가'],
+      table: {
+        headers: ['항목', '기준', '비고'],
+        rows: [
+          ['운영사 투자', '1억 원 이상 투자 또는 투자 약정', '투자 없으면 신청 불가'],
+          ['창업 업력', '법인 설립일 기준 7년 이내', '예비창업자 일부 가능'],
+          ['기술 분야', '딥테크·AI·바이오·소재·ICT 등', '일반 서비스업 제외'],
+          ['신청 방식', '운영사를 통한 추천 신청만 가능', '직접 신청 불가'],
+          ['기업 형태', '국내 법인 (중소기업 기준)', '개인사업자 불가'],
+          ['중복 수혜', '동일 과제로 타 정부 R&D 수행 중 불가', '사전 확인 필수'],
+        ],
+      },
+      box: { label: '주의', content: '"TIPS 신청을 도와주겠다"며 수수료를 요구하는 브로커·컨설팅 업체를 주의하세요. TIPS는 운영사만 추천 가능합니다.' },
+    },
+    {
+      q: '단계별 TIPS 트랙 비교, 어떤 트랙이 내게 맞나요?',
+      anchor: 'track-comparison',
+      intro: 'TIPS는 일반·딥테크·포스트·글로벌 등 여러 트랙으로 구성됩니다. 초기 스타트업은 일반 TIPS(R&D 최대 5억 원, 2년), 딥테크 기술 기업은 딥테크 TIPS(R&D 최대 10억 원, 3년), TIPS 졸업 기업은 포스트 TIPS(최대 10억 원), 해외 진출 준비 기업은 글로벌 TIPS를 고려할 수 있습니다. 복수 트랙 동시 신청은 불가합니다.',
+      highlights: ['일반: 5억/2년', '딥테크: 10억/3년', '포스트: 졸업 후 10억', '복수 트랙 동시 신청 불가'],
+      table: {
+        headers: ['트랙', '대상 단계', 'R&D 지원', '사업화 지원', '기간'],
+        rows: [
+          ['일반 TIPS', '초기 스타트업 (시드~Pre-A)', '최대 5억 원', '최대 2억 원', '2년'],
+          ['딥테크 TIPS', 'AI·바이오·소재 딥테크', '최대 10억 원', '별도 한도', '3년'],
+          ['포스트 TIPS', 'TIPS 졸업 후 성장 단계', '최대 10억 원', '추가 지원', '2년'],
+          ['글로벌 TIPS', '해외 진출 준비 단계', '최대 5억 원', '해외마케팅 강화', '2년'],
+        ],
+      },
+      box: { label: '주의', content: '한 번 선정된 트랙은 변경 불가합니다. 운영사와 충분히 협의 후 신중하게 선택하세요.' },
+    },
+    {
+      q: 'TIPS 선정까지 단계별 절차는 어떻게 진행되나요?',
+      anchor: 'selection-process',
+      intro: 'TIPS 선정은 스타트업의 운영사 리서치 → 운영사 심사 및 투자 결정 → 운영사의 TIPS 추천 등록 → 주관기관 서면 심사 → PT 발표 심사 → 중기부 최종 선정의 순서로 진행됩니다. 운영사 투자 협상부터 최종 선정까지 평균 3~6개월이 소요되며, 선정 후 협약 체결까지 1~2개월이 추가로 필요합니다.',
+      highlights: ['운영사 투자가 전제', '서면+발표 이중 심사', '평균 3~6개월'],
+      table: {
+        headers: ['단계', '주체', '내용'],
+        rows: [
+          ['①', '스타트업', '운영사 목록 파악 → IR 덱 준비 → 미팅 요청'],
+          ['②', '운영사', '스타트업 심사 → 투자 결정 → 투자 계약'],
+          ['③', '운영사', 'jointips.or.kr에 추천 등록'],
+          ['④', '주관기관', '서면 심사 → 발표 심사 (2~3개월 소요)'],
+          ['⑤', '중기부', '최종 선정 → 협약 체결 → 지원금 지급'],
+        ],
+      },
+      box: { label: '소요 기간', content: '운영사 투자 협상 + 심사 기간 포함 평균 3~6개월. 선정 후 협약까지 1~2개월 추가.' },
+    },
+    {
+      q: '창업한 지 7년이 넘었는데 TIPS를 받을 수 있나요?',
+      anchor: 'over-7-years',
+      intro: '일반 TIPS는 창업 7년 이내가 기본 요건입니다. 7년을 초과하면 일반 트랙 신청이 불가합니다. 다만 딥테크 TIPS, 포스트 TIPS, 글로벌 TIPS 등 일부 트랙은 요건이 다를 수 있으니 해당 연도 공고를 확인하세요. 포스트 TIPS는 일반 TIPS 졸업 기업을 대상으로 하므로 별도 기준이 있습니다.',
+      highlights: ['일반 TIPS는 7년 이내 기본 요건', '딥테크·포스트·글로벌은 요건 상이', '공고 확인 필수'],
+      table: {
+        headers: ['창업 업력', '신청 가능 트랙'],
+        rows: [
+          ['7년 이내', '일반·딥테크·글로벌 TIPS 모두 검토 가능'],
+          ['7년 초과', '일반 TIPS 불가, 포스트·딥테크 등 공고 확인'],
+          ['TIPS 졸업 기업', '포스트 TIPS 신청 가능'],
+        ],
+      },
+      box: { label: '확인', content: '연도별 TIPS 운영 공고에서 트랙별 업력 요건이 변경될 수 있으니 jointips.or.kr에서 최신 공고를 확인하세요.' },
+    },
+    {
+      q: '운영사 투자 없이 TIPS에 선정된 사례가 있나요?',
+      anchor: 'no-investment',
+      intro: '운영사의 투자는 TIPS 신청의 절대적 전제 조건입니다. 투자 없이 TIPS에 선정된 사례는 없습니다. 투자 약정(LOI) 단계에서도 추천이 가능하지만, 실제 투자 집행이 확인되어야 최종 선정됩니다. TIPS 혜택을 노리고 수수료를 받고 신청을 대행해주겠다는 업체는 모두 사기이므로 주의하세요.',
+      highlights: ['투자 없이 선정 사례 없음', '투자 약정(LOI)은 가능하나 실제 집행 필요', '수수료 대행 업체 주의'],
+      table: {
+        headers: ['상황', '가능 여부'],
+        rows: [
+          ['운영사 투자 완료 후 추천', '가능'],
+          ['투자 약정(LOI)만 체결 후 추천', '가능하나 실제 집행 확인 필요'],
+          ['투자 없이 직접 신청', '불가'],
+        ],
+      },
+      box: { label: '주의', content: 'TIPS 신청 대행 수수료 업체는 모두 사기입니다. jointips.or.kr에서 공식 운영사 목록을 직접 확인하세요.' },
+    },
+    {
+      q: '딥테크 TIPS는 어떤 분야에 우대되나요?',
+      anchor: 'deeptech-fields',
+      intro: '딥테크 TIPS는 AI·바이오·소재·우주·양자 등 특정 딥테크 분야에 특화된 트랙입니다. 원천기술과 기술 혁신성을 중심으로 심사하며, R&D 지원금이 최대 10억 원으로 일반 TIPS의 두 배입니다. 지원 기간도 2년이 아닌 3년으로 더 길어 장기 연구개발이 필요한 분야에 유리합니다. 딥테크 전문 운영사를 통해 추천받아야 합니다.',
+      highlights: ['AI·바이오·소재·우주·양자', '최대 10억/3년', '원천기술·혁신성 중점 심사'],
+      table: {
+        headers: ['항목', '일반 TIPS', '딥테크 TIPS'],
+        rows: [
+          ['R&D 지원금', '최대 5억 원', '최대 10억 원'],
+          ['지원 기간', '2년', '3년'],
+          ['대상 분야', '기술 기반 전반', 'AI·바이오·소재·우주·양자 등'],
+          ['심사 기준', '기술성·사업성 균형', '기술 혁신성·원천기술 강화'],
+        ],
+      },
+      box: { label: '참고', content: '딥테크 TIPS는 정부 우선 지원 트랙으로 2026년 전체 TIPS 예산의 약 45%가 배정되었습니다.' },
+    },
+    {
+      q: '다른 정부 R&D 과제를 수행 중이어도 TIPS에 신청할 수 있나요?',
+      anchor: 'duplicate-rd',
+      intro: '동일 과제와 중복되는 경우에는 TIPS 신청이 불가합니다. 단, 별도 과제(다른 연구 주제)라면 중복 수혜가 가능할 수 있으나 사전에 주관기관에 확인이 필요합니다. 중복 여부 확인 없이 신청했다가 선정 후 취소되는 사례도 있으므로, 신청 전 반드시 현재 수행 중인 R&D 과제 목록과 중복 여부를 확인하세요.',
+      highlights: ['동일 과제 중복 불가', '별도 과제는 가능할 수 있음', '사전 확인 필수'],
+      table: {
+        headers: ['상황', '신청 가능 여부'],
+        rows: [
+          ['동일 과제로 타 정부 R&D 수행 중', '신청 불가'],
+          ['별도 과제로 타 정부 R&D 수행 중', '가능할 수 있음 (사전 확인 필요)'],
+          ['과제 수행 이력 없음', '신청 가능'],
+        ],
+      },
+      box: { label: '주의', content: '중복 여부는 주관기관에 사전 문의하세요. 선정 후 중복 확인 시 선정이 취소될 수 있습니다.' },
+    },
+  ],
   faqData: [
     {
       q: 'TIPS를 창업자가 직접 신청할 수 있나요?',
