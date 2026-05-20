@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node --require ./self-polyfill.cjs ./node_modules/.bin/next build",
     "start": "next start",
     "lint": "next lint",
     "verify": "npx tsx scripts/verify-quality.ts",
