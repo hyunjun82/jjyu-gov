@@ -1386,4 +1386,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'platform-worker-insurance': {
     '적용직종12개월보수80만기준해당여부':         특수형태근로자고용보험적용직종12개월보수80만기준해당여부SpokeContent,
     '보험료사업주절반부담두루누리지원율':          특수형태근로자고용보험보험료사업주절반부담두루누리지원율SpokeContent,
-    '실업급여가입후받는조건금액신청방법':          특수형태근로자고용보험실업급여가입후받는조건금액신청방�
+    '실업급여가입후받는조건금액신청방법':          특수형태근로자고용보험실업급여가입후받는조건금액신청방법SpokeContent,
+    '적용제외신청원하지않으면빠지는방법':          특수형태근로자고용보험적용제외신청원하지않으면빠지는방법SpokeContent,
+  },
+
+};
