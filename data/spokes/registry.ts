@@ -56,10 +56,10 @@ import { 부모급여신청지급일SpokeContent } from '@/app/policy/[id]/[spok
 import { 육아휴직중복SpokeContent }       from '@/app/policy/[id]/[spoke]/content/부모급여/육아휴직중복';
 
 /* ── 국민내일배움카드 (slug: learning-card) ── */
-import { 지원금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/내일배움카드/지원금액';
-import { 사용처SpokeContent }     from '@/app/policy/[id]/[spoke]/content/내일배움카드/사용처';
-import { 재직자조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/재직자조건';
-import { 실업급여병행SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/실업급여병행';
+import { 내일배움카드지원금액SpokeContent as 지원금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/내일배움카드/지원금액';
+import { 내일배움카드사용처SpokeContent as 사용처SpokeContent }     from '@/app/policy/[id]/[spoke]/content/내일배움카드/사용처';
+import { 내일배움카드재직자조건SpokeContent as 재직자조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/재직자조건';
+import { 내일배움카드실업급여병행SpokeContent as 실업급여병행SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/실업급여병행';
 
 /* ── 육아휴직급여 (slug: parental-leave-pay) ── */
 import { 급여계산SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/급여계산';
@@ -1386,8 +1386,4 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'platform-worker-insurance': {
     '적용직종12개월보수80만기준해당여부':         특수형태근로자고용보험적용직종12개월보수80만기준해당여부SpokeContent,
     '보험료사업주절반부담두루누리지원율':          특수형태근로자고용보험보험료사업주절반부담두루누리지원율SpokeContent,
-    '실업급여가입후받는조건금액신청방법':          특수형태근로자고용보험실업급여가입후받는조건금액신청방법SpokeContent,
-    '적용제외신청원하지않으면빠지는방법':          특수형태근로자고용보험적용제외신청원하지않으면빠지는방법SpokeContent,
-  },
-
-};
+    '실업급여가입후받는조건금액신청방법':          특수형태근로자고용보험실업급여가입후받는조건금액신청방�
