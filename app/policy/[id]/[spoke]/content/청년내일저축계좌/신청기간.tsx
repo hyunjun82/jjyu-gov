@@ -1,234 +1,176 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          2026년 청년내일저축계좌 신청기간은{' '}
-          <strong>2026년 5월 4일(월) ~ 5월 20일(수) 23시 59분 59초</strong>까지입니다.
-          온라인은 복지로(bokjiro.go.kr), 오프라인은 주소지 관할
-          읍·면·동 행정복지센터에서 신청합니다.
-          <strong>마감일 23시 59분 59초까지 제출 완료</strong>된 신청서만 접수됩니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        신청 기간이 5월 20일로 마감됩니다. 온라인 신청이 편하고 24시간 가능하지만,
-        마감일 자정까지 '제출 완료' 상태여야 한다는 점을 꼭 확인하세요.
-        아래에서 신청 방법, 준비 서류, 자격 확인까지 순서대로 정리했습니다.
-      </p>
-
-      <section className="detail-card" id="period">
-        <h2 className="detail-card-head">2026년 신청 기간 및 방법</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>구분</th><th>내용</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>신청 기간</td>
-                <td><strong>2026. 5. 4(월) ~ 5. 20(수)</strong></td>
-              </tr>
-              <tr>
-                <td>온라인 마감</td>
-                <td>2026. 5. 20(수) <strong>23시 59분 59초</strong>까지 제출 완료 필수</td>
-              </tr>
-              <tr>
-                <td>온라인 신청</td>
-                <td>복지로(www.bokjiro.go.kr) → 서비스 신청</td>
-              </tr>
-              <tr>
-                <td>방문 신청</td>
-                <td>주소지 관할 읍·면·동 행정복지센터 (동주민센터)</td>
-              </tr>
-              <tr>
-                <td>신청 대상</td>
-                <td>만 15~39세, 기준 중위소득 50% 이하, 월 소득 10만원 이상 청년</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="warning-box" style={{ marginTop: 12 }}>
-            <strong>주의:</strong> 신청서 '저장' 상태는 접수 아닙니다. 반드시 <strong>'제출 완료'</strong>까지
-            해야 신청이 완료됩니다. 마감 직전 트래픽 집중으로 오류가 날 수 있으니 여유 있게 신청하세요.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="how">
-        <h2 className="detail-card-head">온라인 신청 방법 (복지로)</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 복지로 접속:</strong> www.bokjiro.go.kr → 로그인 (공동인증서 또는 간편인증)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 서비스 신청:</strong> 상단 메뉴 '복지서비스 신청' → '복지급여 신청' → 청년내일저축계좌 검색
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>③ 자가진단:</strong> 신청 전 '자가진단표'로 가입 자격 확인 (복지로 제공)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>④ 정보 입력:</strong> 가구원 정보, 소득·재산 정보, 근로·사업소득 증빙 첨부
-          </div>
-          <div className="info-box">
-            <strong>⑤ 제출 완료:</strong> '신청하기' 클릭 후 접수번호 확인 → 완료
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">신청 시 필요 서류</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>서류</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>신분증</td>
-                <td>주민등록증, 운전면허증 등</td>
-              </tr>
-              <tr>
-                <td>근로(사업)소득 확인 서류</td>
-                <td>근로계약서, 급여명세서, 사업소득 확인서 등</td>
-              </tr>
-              <tr>
-                <td>건강보험료 납부확인서</td>
-                <td>가구 소득·재산 확인용 (국민건강보험공단 발급)</td>
-              </tr>
-              <tr>
-                <td>통장 사본</td>
-                <td>본인 명의 통장</td>
-              </tr>
-              <tr>
-                <td>가족관계증명서</td>
-                <td>가구원 확인용 (필요 시)</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>온라인 신청 시:</strong> 서류를 스캔 또는 사진으로 첨부합니다.
-            방문 신청 시에는 원본 지참 또는 복지관에서 출력 가능합니다.
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="eligibility">
-        <h2 className="detail-card-head">신청 자격 요약</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>조건</th><th>기준</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>연령</td>
-                <td>신청 당시 만 15세 이상 ~ 만 39세 이하</td>
-              </tr>
-              <tr>
-                <td>소득</td>
-                <td>기준 중위소득 50% 이하 (가구 규모별 상이)</td>
-              </tr>
-              <tr>
-                <td>근로·사업소득</td>
-                <td>월 10만원 이상 근로 또는 사업소득 발생 필수</td>
-              </tr>
-              <tr>
-                <td>수급 자격</td>
-                <td>기초생활수급자, 차상위계층, 저소득 근로 청년</td>
-              </tr>
-            </tbody>
-          </table>
-          <div className="info-box" style={{ marginTop: 12 }}>
-            <strong>2026년 신규 변경:</strong> 기준 중위소득 50% 초과~100% 이하 청년은 2026년부터
-            신규 가입이 중단됩니다. 기존 가입자는 만기까지 계속 유지됩니다.
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="process">
-        <h2 className="detail-card-head">신청 후 처리 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>① 신청 접수:</strong> 5월 4~20일 복지로 온라인 또는 행정복지센터
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>② 자격 심사:</strong> 시·군·구에서 소득·재산 확인 (약 1~2개월 소요)
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>③ 결과 통보:</strong> 복지로 문자 또는 행정복지센터 개별 통보
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>④ 계좌 개설:</strong> 자격 확인 후 계좌 개설 안내 (우체국·농협 등)
-          </div>
-          <div className="info-box">
-            <strong>⑤ 저축 시작:</strong> 매월 10만원 이상 납입 시 정부 월 30만원 자동 적립
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            지원금 금액, 중도해지 패널티, 군인 가입 조건 등<br />
-            청년내일저축계좌 전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/youth-tomorrow-savings" className="btn-cta">
-            청년내일저축계좌 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 신청기간SpokeContent: SpokeData = {
   h1: '2026년 청년내일저축계좌 신청기간 | 복지로 온라인 신청부터 서류·결과 통보까지',
-  breadcrumb: '신청기간',
+  breadcrumb: '청년내일저축계좌 > 신청기간',
   description: '2026년 청년내일저축계좌 신청기간은 5월 4일(월)~5월 20일(수) 23:59:59까지입니다. 복지로(bokjiro.go.kr) 온라인 또는 읍·면·동 행정복지센터 방문 신청. 만 15~39세, 기준 중위소득 50% 이하, 월 소득 10만원 이상 청년 대상.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-17T09:00:00+09:00',
-  Content,
-  faqData: [
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '2026년 신청 기간': '2026년 5월 4일(월) ~ 5월 20일(수) 23:59:59',
+    '온라인 신청': '복지로(www.bokjiro.go.kr)',
+    '방문 신청': '주소지 관할 읍·면·동 행정복지센터',
+    '신청 대상': '만 15~39세, 중위소득 50% 이하, 월 소득 10만원 이상',
+    '자격 심사': '약 1~2개월 소요',
+  },
+  keyFactsHighlights: {
+    '2026년 신청 기간': ['5월 4일', '5월 20일'],
+    '온라인 신청': ['복지로'],
+    '신청 대상': ['중위소득 50% 이하', '월 소득 10만원'],
+  },
+  qa: [
     {
       q: '2026년 청년내일저축계좌 신청 기간은 언제인가요?',
-      a: '2026년 5월 4일(월)부터 5월 20일(수) 23시 59분 59초까지입니다. 마감일 자정까지 제출 완료된 신청서만 접수됩니다.',
-      source: '복지로 청년내일저축계좌 신청 안내 2026',
-      sourceUrl: 'https://www.bokjiro.go.kr',
+      anchor: 'period',
+      intro: '2026년 청년내일저축계좌 신청 기간은 2026년 5월 4일(월)부터 5월 20일(수) 23시 59분 59초까지입니다. 온라인 신청은 복지로(www.bokjiro.go.kr)에서 가능하며, 방문 신청은 주소지 관할 읍·면·동 행정복지센터에서 할 수 있습니다. 마감일 23시 59분 59초까지 제출 완료 상태여야 합니다. 신청서를 저장만 하고 제출하지 않으면 접수가 되지 않습니다.',
+      highlights: ['5월 4일~5월 20일', '23시 59분 59초 마감', '제출 완료 필수'],
+      table: {
+        headers: ['구분', '내용'],
+        rows: [
+          ['신청 기간', '2026. 5. 4(월) ~ 5. 20(수)'],
+          ['온라인 마감', '2026. 5. 20(수) 23시 59분 59초까지 제출 완료 필수'],
+          ['온라인 신청', '복지로(www.bokjiro.go.kr) → 서비스 신청'],
+          ['방문 신청', '주소지 관할 읍·면·동 행정복지센터 (동주민센터)'],
+          ['신청 대상', '만 15~39세, 기준 중위소득 50% 이하, 월 소득 10만원 이상 청년'],
+        ],
+      },
+      box: { label: '주의', content: '신청서 저장 상태는 접수가 아닙니다. 반드시 제출 완료까지 해야 신청이 완료됩니다.' },
     },
     {
-      q: '청년내일저축계좌 어디서 신청하나요?',
-      a: '복지로(www.bokjiro.go.kr) 온라인 신청 또는 주소지 관할 읍·면·동 행정복지센터(동주민센터) 방문 신청이 가능합니다.',
-      source: '복지로 공식 안내',
-      sourceUrl: 'https://www.bokjiro.go.kr',
+      q: '복지로에서 온라인으로 어떻게 신청하나요?',
+      anchor: 'online-how',
+      intro: '복지로 온라인 신청 방법을 단계별로 안내합니다. 복지로(www.bokjiro.go.kr)에 접속해 로그인합니다. 공동인증서 또는 카카오·네이버 등 간편인증을 이용할 수 있습니다. 복지서비스 신청 메뉴에서 청년내일저축계좌를 찾아 신청 버튼을 클릭합니다. 신청 전 자가진단표로 가입 자격을 먼저 확인하는 것을 권장합니다. 가구원 정보·소득·재산 정보·근로소득 증빙 서류를 첨부하고 신청하기를 클릭합니다.',
+      highlights: ['복지로 로그인', '간편인증 가능', '자가진단 먼저', '접수번호 확인'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['① 접속', '복지로(www.bokjiro.go.kr) → 로그인 (공동인증서 또는 간편인증)'],
+          ['② 메뉴', '복지서비스 신청 → 복지급여 신청 → 청년내일저축계좌 검색'],
+          ['③ 자가진단', '신청 전 자가진단표로 가입 자격 확인'],
+          ['④ 정보 입력', '가구원 정보, 소득·재산 정보, 근로소득 증빙 첨부'],
+          ['⑤ 제출 완료', '신청하기 클릭 후 접수번호 확인'],
+        ],
+      },
+      box: { label: '자가진단', content: '신청 전 복지로 자가진단표로 자격 여부를 먼저 확인하세요.' },
     },
     {
-      q: '신청 자격이 되는지 어떻게 확인하나요?',
-      a: '복지로 사이트에서 제공하는 자가진단표를 통해 사전에 자격을 확인할 수 있습니다. 만 15~39세, 기준 중위소득 50% 이하, 월 근로·사업소득 10만원 이상이 기본 조건입니다.',
-      source: '복지로 청년내일저축계좌 자가진단',
-      sourceUrl: 'https://www.bokjiro.go.kr',
+      q: '신청 시 어떤 서류가 필요한가요?',
+      anchor: 'documents',
+      intro: '청년내일저축계좌 신청에 필요한 서류는 다섯 가지입니다. 신분증(주민등록증, 운전면허증 등), 근로(사업)소득 확인 서류(근로계약서, 급여명세서 등), 건강보험료 납부확인서(국민건강보험공단 발급), 통장 사본(본인 명의), 가족관계증명서(가구원 확인용, 필요 시)입니다.',
+      highlights: ['근로소득 확인 서류', '건강보험료 납부확인서', '통장 사본'],
+      table: {
+        headers: ['서류', '비고'],
+        rows: [
+          ['신분증', '주민등록증, 운전면허증 등'],
+          ['근로(사업)소득 확인 서류', '근로계약서, 급여명세서, 사업소득 확인서 등'],
+          ['건강보험료 납부확인서', '가구 소득·재산 확인용 (국민건강보험공단 발급)'],
+          ['통장 사본', '본인 명의 통장'],
+          ['가족관계증명서', '가구원 확인용 (필요 시)'],
+        ],
+      },
+      box: { label: '온라인 첨부', content: '온라인 신청 시에는 서류를 스캔 또는 사진으로 첨부합니다. 방문 신청 시에는 원본을 지참하세요.' },
     },
     {
-      q: '온라인 신청 시 어떤 서류가 필요한가요?',
-      a: '근로(사업)소득 확인 서류(급여명세서·근로계약서 등), 건강보험료 납부확인서, 통장 사본, 가족관계증명서(필요 시)를 스캔 또는 사진으로 첨부합니다.',
-      source: '복지로 청년내일저축계좌 신청 안내',
-      sourceUrl: 'https://www.bokjiro.go.kr',
+      q: '신청 자격을 어떻게 확인하나요?',
+      anchor: 'eligibility',
+      intro: '청년내일저축계좌 신청 자격은 네 가지 조건입니다. 연령은 만 15세 이상 만 39세 이하, 소득은 기준 중위소득 50% 이하, 근로·사업소득은 월 10만원 이상이어야 합니다. 2026년부터 기준 중위소득 50% 초과~100% 이하 청년은 신규 가입이 중단됩니다. 복지로 자가진단으로 자격 여부를 먼저 확인하는 것을 권장합니다.',
+      highlights: ['만 15~39세', '중위소득 50% 이하', '월 10만원 이상 소득', '2026년 변경'],
+      table: {
+        headers: ['조건', '기준'],
+        rows: [
+          ['연령', '신청 당시 만 15세 이상 ~ 만 39세 이하'],
+          ['소득', '기준 중위소득 50% 이하 (가구 규모별 상이)'],
+          ['근로·사업소득', '월 10만원 이상 근로 또는 사업소득 발생 필수'],
+          ['수급 자격', '기초생활수급자, 차상위계층, 저소득 근로 청년'],
+        ],
+      },
+      box: { label: '2026년 변경', content: '기준 중위소득 50% 초과~100% 이하 청년은 2026년부터 신규 가입이 중단됩니다. 기존 가입자는 만기까지 유지됩니다.' },
     },
     {
-      q: '신청하면 언제 결과를 알 수 있나요?',
-      a: '자격 심사는 시·군·구에서 약 1~2개월 소요됩니다. 결과는 복지로 문자 또는 행정복지센터 개별 통보로 안내됩니다.',
+      q: '신청 후 결과는 언제 알 수 있나요?',
+      anchor: 'result',
+      intro: '5월 4일~20일 신청 접수 후, 시·군·구에서 소득·재산 확인 심사가 진행됩니다. 자격 심사는 약 1~2개월 소요됩니다. 심사 결과는 복지로 문자 또는 행정복지센터 개별 통보로 안내됩니다. 자격 확인 후 계좌 개설 안내가 발송되며, 우체국·농협 등 취급 기관에서 계좌를 개설합니다.',
+      highlights: ['심사 약 1~2개월', '문자 또는 개별 통보', '계좌 개설 안내'],
+      table: {
+        headers: ['단계', '내용', '기간'],
+        rows: [
+          ['신청 접수', '5월 4~20일 복지로 온라인 또는 행정복지센터', '-'],
+          ['자격 심사', '시·군·구에서 소득·재산 확인', '약 1~2개월'],
+          ['결과 통보', '복지로 문자 또는 행정복지센터 개별 통보', '-'],
+          ['계좌 개설', '자격 확인 후 우체국·농협 등에서 개설', '-'],
+          ['저축 시작', '매월 10만원 이상 납입 시 정부 월 30만원 적립', '-'],
+        ],
+      },
+      box: { label: '저축 구조', content: '본인이 매월 10만원 이상 납입하면 정부에서 월 30만원을 자동 적립합니다. 3년 만기 시 최대 1,440만원.' },
+    },
+    {
+      q: '방문 신청과 온라인 신청의 차이는 무엇인가요?',
+      anchor: 'online-vs-visit',
+      intro: '온라인 신청과 방문 신청의 처리 속도와 결과는 동일합니다. 온라인 신청(복지로)은 24시간 가능하고 집에서 신청할 수 있어 편리하지만, 공동인증서나 간편인증이 필요합니다. 방문 신청(행정복지센터)은 인증서 없이 서류를 직접 제출할 수 있어 온라인이 어려운 분들에게 적합합니다.',
+      highlights: ['온라인: 24시간 편리', '방문: 인증서 불필요', '처리 결과 동일'],
+      table: {
+        headers: ['구분', '온라인 (복지로)', '방문 (행정복지센터)'],
+        rows: [
+          ['가능 시간', '24시간', '운영 시간 내'],
+          ['인증서 필요', '필요', '불필요'],
+          ['서류 제출', '스캔·사진 파일 첨부', '원본 지참'],
+          ['담당자 안내', '없음', '직접 안내 가능'],
+          ['처리 기간', '동일', '동일'],
+        ],
+      },
+      box: { label: '온라인 권장', content: '마감일에 가까울수록 행정복지센터가 혼잡합니다. 온라인 신청을 권장합니다.' },
+    },
+    {
+      q: '재산 기준은 어떻게 계산하나요?',
+      anchor: 'asset-criteria',
+      intro: '청년내일저축계좌의 가구 재산 기준은 가구원 전체의 재산을 합산해 판단합니다. 2026년 기준 대도시(특별시·광역시)는 3.5억원 이하, 중소도시는 2억원 이하, 농어촌은 1.7억원 이하입니다. 재산에는 부동산, 금융재산(예금·적금·주식 등), 자동차 등이 포함됩니다. 정확한 재산 기준 충족 여부는 복지로 자가진단 또는 주민센터에서 확인하세요.',
+      highlights: ['대도시 3.5억', '중소도시 2억', '가구원 전체 합산'],
+      table: {
+        headers: ['지역', '재산 기준'],
+        rows: [
+          ['대도시 (특별시·광역시)', '3.5억원 이하'],
+          ['중소도시', '2억원 이하'],
+          ['농어촌', '1.7억원 이하'],
+        ],
+      },
+      box: { label: '재산 산정', content: '부동산, 금융재산, 자동차 등을 합산합니다. 금융재산에서 부채를 차감할 수 있으며, 주거용 부동산은 기준가액 공제가 적용됩니다.' },
+    },
+  ],
+  faqData: [
+    {
+      q: '2026년 청년내일저축계좌 신청 기간은 언제까지인가요?',
+      a: '2026년 5월 4일(월)부터 5월 20일(수) 23시 59분 59초까지입니다. 마감일 직전 온라인 접속 폭주에 대비해 미리 신청하는 것을 권장합니다.',
       source: '보건복지부 청년내일저축계좌 안내',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://www.bokjiro.go.kr',
+    },
+    {
+      q: '신청 후 심사 결과가 나오기까지 얼마나 걸리나요?',
+      a: '자격 심사는 약 1~2개월 소요됩니다. 심사 결과는 복지로 문자 또는 행정복지센터 개별 통보로 안내됩니다.',
+      source: '보건복지부 청년내일저축계좌 안내',
+      sourceUrl: 'https://www.bokjiro.go.kr',
+    },
+    {
+      q: '자가진단에서 자격이 된다고 나왔는데 탈락할 수도 있나요?',
+      a: '자가진단은 참고용이며 최종 자격은 시·군·구 공식 심사를 거쳐 결정됩니다. 자가진단 결과가 긍정적이더라도 실제 서류 심사에서 탈락할 수 있습니다.',
+      source: '보건복지부 청년내일저축계좌 안내',
+      sourceUrl: 'https://www.bokjiro.go.kr',
+    },
+    {
+      q: '마감일 이후에도 신청할 수 있나요?',
+      a: '불가합니다. 5월 20일 23시 59분 59초 이후에는 신청이 완전히 마감됩니다. 다음 모집 공고를 기다려야 합니다.',
+      source: '보건복지부 청년내일저축계좌 안내',
+      sourceUrl: 'https://www.bokjiro.go.kr',
+    },
+    {
+      q: '청년내일저축계좌 계좌는 어느 은행에서 개설하나요?',
+      a: '자격 심사 통과 후 우체국, 농협, 신한은행 등 지정 취급 기관에서 계좌를 개설합니다. 취급 기관 목록은 심사 통과 통보 시 안내됩니다.',
+      source: '보건복지부 청년내일저축계좌 안내',
+      sourceUrl: 'https://www.bokjiro.go.kr',
     },
   ],
   sources: [
-    { name: '복지로 청년내일저축계좌 신청 안내 (bokjiro.go.kr)', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000060' },
-    { name: '보건복지부 청년내일저축계좌 공식 안내 (mohw.go.kr)', url: 'https://www.mohw.go.kr' },
-    { name: '화성시청 2026 청년내일저축계좌 안내', url: 'https://www.hscity.go.kr' },
+    { name: '보건복지부 청년내일저축계좌 안내', url: 'https://www.bokjiro.go.kr' },
+    { name: '복지로 자가진단', url: 'https://www.bokjiro.go.kr/svc/wel/advise/advise.do' },
+    { name: '읍·면·동 행정복지센터', url: 'https://www.mois.go.kr' },
   ],
 };

@@ -1,162 +1,105 @@
-import Link from 'next/link';
-import type { SpokeData } from '../page';
-
-const comparison = [
-  { label: '가입 나이', doyak: '만 19~34세', hope: '만 19~34세' },
-  { label: '납입 기간', doyak: '5년', hope: '2년' },
-  { label: '월 납입 한도', doyak: '최대 70만원', hope: '최대 50만원' },
-  { label: '만기 수령액', doyak: '최대 5,000만원', hope: '최대 1,260만원' },
-  { label: '정부 지원', doyak: '기여금 월 최대 40만원', hope: '이자 지원 (저축장려금)' },
-  { label: '비과세', doyak: '이자소득 비과세', hope: '이자소득 비과세' },
-  { label: '소득 조건', doyak: '7,500만원 이하', hope: '3,600만원 이하' },
-  { label: '중복 가입', doyak: '동시 불가', hope: '동시 불가' },
-  { label: '신청 상태', doyak: '2026년 신청 가능', hope: '2024년 만기 종료' },
-];
-
-function Content() {
-  return (
-    <>
-      {/* 답변 박스 */}
-      <div className="answer-box">
-        <p>
-          청년도약계좌는 5년간 월 70만원을 납입해 최대 5,000만원을 만드는 제도이고,
-          청년희망적금은 2년간 월 50만원으로 최대 1,260만원을 만드는 제도였습니다.
-          희망적금은 2024년 만기 종료. 현재 신청 가능한 건 도약계좌뿐입니다.
-        </p>
-      </div>
-
-      {/* H2-1 */}
-      <section className="detail-card" id="comparison">
-        <h2 className="detail-card-head">만기 수령액, 얼마나 차이 나나?</h2>
-        <div className="detail-card-body" style={{ padding: 0 }}>
-          <div className="highlight-numbers">
-            <div className="highlight-num-item primary">
-              <span className="highlight-num-label">청년도약계좌</span>
-              <span className="highlight-num-value">최대 5,000만원</span>
-              <span className="highlight-num-sub">5년 · 월 70만원 · 기여금 포함</span>
-            </div>
-            <div className="highlight-num-vs">vs</div>
-            <div className="highlight-num-item">
-              <span className="highlight-num-label">청년희망적금</span>
-              <span className="highlight-num-value">최대 1,260만원</span>
-              <span className="highlight-num-sub">2년 · 월 50만원 · 이자지원</span>
-            </div>
-          </div>
-          <div style={{ overflowX: 'auto' }}>
-            <table className="compare-table">
-              <caption className="sr-only">청년도약계좌와 청년희망적금 9개 항목 비교표</caption>
-              <thead>
-                <tr>
-                  <th scope="col">항목</th>
-                  <th scope="col" className="highlight">청년도약계좌</th>
-                  <th scope="col">청년희망적금</th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparison.map((row, i) => (
-                  <tr key={i}>
-                    <td className="compare-label">{row.label}</td>
-                    <td className="compare-doyak">{row.doyak}</td>
-                    <td className="compare-hope">{row.hope}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      {/* H2-2 */}
-      <section className="detail-card" id="transfer">
-        <h2 className="detail-card-head">희망적금 끝났는데 도약계좌로 갈아탈 수 있나?</h2>
-        <div className="detail-card-body">
-          <div className="answer-box-inline">
-            가능합니다. 희망적금 만기 후 2개월 안에 도약계좌로 전환 신청하면 됩니다.
-            만기금을 도약계좌에 일시납입할 수도 있습니다.
-          </div>
-          <div className="info-checklist">
-            <strong>갈아타기 조건 3가지</strong>
-            <ul>
-              <li><span className="check-icon">&#10003;</span> 희망적금 만기 완료 (중도해지는 해당 없음)</li>
-              <li><span className="check-icon">&#10003;</span> 도약계좌 자격 조건 충족 (나이 만 19~34세, 소득 7,500만원 이하)</li>
-              <li><span className="check-icon">&#10003;</span> 만기일로부터 2개월 이내 전환 신청</li>
-            </ul>
-          </div>
-          <div className="warning-box">
-            <strong>주의:</strong> 2개월 기한을 넘기면 전환이 아닌 일반 신규 가입 절차를 밟아야 합니다.
-          </div>
-          <p className="source-inline">
-            출처: <a href="https://www.korea.kr/multi/visualNewsView.do?newsId=148925112" target="_blank" rel="noopener noreferrer">정책브리핑 – 갈아타기 총정리</a>
-          </p>
-        </div>
-      </section>
-
-      {/* H2-3 */}
-      <section className="detail-card" id="overlap">
-        <h2 className="detail-card-head">도약계좌와 희망적금, 동시 가입은 안 되나?</h2>
-        <div className="detail-card-body">
-          <div className="answer-box-inline">
-            동시 가입은 불가합니다. 희망적금 만기 후 순차 가입, 중도해지 후 신규 가입은 가능합니다.
-          </div>
-          <table className="mini-table">
-            <caption className="sr-only">중복가입 가능 여부 정리</caption>
-            <thead><tr><th scope="col">상황</th><th scope="col">가능 여부</th></tr></thead>
-            <tbody>
-              <tr><td>희망적금 유지 중 + 도약계좌 신규</td><td className="text-danger">불가</td></tr>
-              <tr><td>희망적금 만기 후 → 도약계좌 전환</td><td className="text-success">가능 (2개월 내)</td></tr>
-              <tr><td>희망적금 중도해지 후 → 도약계좌 신규</td><td className="text-success">가능</td></tr>
-              <tr><td>도약계좌 + 청년미래적금 동시</td><td className="text-danger">불가 (예정)</td></tr>
-            </tbody>
-          </table>
-          <p className="source-inline">
-            출처: <a href="https://www.fsc.go.kr/no010101/81550" target="_blank" rel="noopener noreferrer">금융위원회 FAQ</a>
-          </p>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      {/* H2-4 */}
-      <section className="detail-card" id="action">
-        <h2 className="detail-card-head">지금 뭘 해야 하나?</h2>
-        <div className="detail-card-body">
-          <div className="action-split">
-            <div className="action-case">
-              <strong>희망적금 만기자라면</strong>
-              <ul>
-                <li>은행 앱에서 만기일 확인</li>
-                <li>만기 후 2개월 내 전환 신청</li>
-                <li>만기금 일시납입 여부 결정</li>
-              </ul>
-            </div>
-            <div className="action-case">
-              <strong>처음 가입하는 청년이라면</strong>
-              <ul>
-                <li>나이·소득 조건 확인</li>
-                <li>은행 앱 설치 후 신청</li>
-                <li>소득확인증명서 홈택스 발급</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const VsHopeSpokeContent: SpokeData = {
   h1: '청년도약계좌 vs 청년희망적금, 뭐가 다를까?',
   breadcrumb: 'vs 희망적금 차이',
   description: '청년도약계좌와 청년희망적금의 만기수령액·납입한도·정부지원 9가지를 비교합니다.',
   datePublished: '2026-01-20T09:00:00+09:00',
-  dateModified: '2026-03-20T09:00:00+09:00',
-  Content,
+  dateModified: '2026-05-20T09:00:00+09:00',
+  keyFacts: {
+    '청년도약계좌 만기 수령액': '최대 5,000만원',
+    '청년희망적금 만기 수령액': '최대 1,260만원',
+    '청년도약계좌 납입 기간': '5년',
+    '청년희망적금 납입 기간': '2년 (2024년 만기 종료)',
+    '희망적금→도약계좌 전환': '만기 후 2개월 이내',
+  },
+  keyFactsHighlights: {
+    '청년도약계좌 만기 수령액': ['5,000만원'],
+    '희망적금→도약계좌 전환': ['2개월 이내'],
+  },
+  qa: [
+    {
+      q: '청년도약계좌와 청년희망적금 만기 수령액 차이는?',
+      anchor: 'comparison',
+      intro: '청년도약계좌는 5년간 월 최대 70만원을 납입해 최대 5,000만원을 만들 수 있고, 청년희망적금은 2년간 월 최대 50만원으로 최대 1,260만원을 목표로 했습니다. 희망적금은 2024년 만기가 완료되어 현재 신규 신청이 불가합니다. 정부 지원 방식도 다릅니다. 도약계좌는 소득구간별 정부기여금이 월 최대 40만원까지 직접 지급되고, 희망적금은 이자 보조 방식의 저축장려금이었습니다. 두 상품 모두 이자소득 비과세 혜택이 있었으며, 가입 나이 기준(만 19~34세)과 소득 조건도 비슷했습니다.',
+      highlights: ['최대 5,000만원', '최대 1,260만원', '5년', '2년', '비과세'],
+      table: {
+        headers: ['항목', '청년도약계좌', '청년희망적금'],
+        rows: [
+          ['납입 기간', '5년', '2년'],
+          ['월 납입 한도', '최대 70만원', '최대 50만원'],
+          ['만기 수령액', '최대 5,000만원', '최대 1,260만원'],
+          ['정부 지원', '기여금 월 최대 40만원', '이자 지원 (저축장려금)'],
+          ['비과세', '이자소득 비과세', '이자소득 비과세'],
+          ['소득 조건', '7,500만원 이하', '3,600만원 이하'],
+          ['신청 상태', '2026년 신청 가능', '2024년 만기 종료'],
+        ],
+      },
+    },
+    {
+      q: '희망적금 만기 후 도약계좌로 갈아탈 수 있나?',
+      anchor: 'transfer',
+      intro: '가능합니다. 희망적금 만기 후 2개월 안에 도약계좌로 전환 신청하면 됩니다. 만기금을 도약계좌에 일시납입할 수도 있습니다. 2개월 기한을 넘기면 전환이 아닌 일반 신규 가입 절차를 밟아야 합니다. 단, 도약계좌 자격 조건(나이 만 19~34세, 소득 7,500만원 이하)을 충족해야 전환 가능합니다. 중도해지는 전환 특례에 해당하지 않으므로 반드시 만기 완료 후 신청해야 합니다.',
+      highlights: ['만기 후 2개월', '일시납입 가능', '자격 조건 충족 필수'],
+      box: { label: '주의', content: '2개월 기한을 넘기면 전환이 아닌 일반 신규 가입 절차를 밟아야 합니다.' },
+    },
+    {
+      q: '도약계좌와 희망적금을 동시에 가입할 수 있나?',
+      anchor: 'overlap',
+      intro: '동시 가입은 불가합니다. 희망적금 만기 후 순차 가입, 중도해지 후 신규 가입은 가능합니다. 도약계좌와 청년미래적금도 동시 가입이 불가합니다. 희망적금 만기 후 2개월 이내에 도약계좌로 전환하면 일시납입도 가능합니다.',
+      highlights: ['동시 가입 불가', '만기 후 순차 가입'],
+      table: {
+        headers: ['상황', '가능 여부'],
+        rows: [
+          ['희망적금 유지 중 + 도약계좌 신규', '불가'],
+          ['희망적금 만기 후 → 도약계좌 전환', '가능 (2개월 내)'],
+          ['희망적금 중도해지 후 → 도약계좌 신규', '가능'],
+          ['도약계좌 + 청년미래적금 동시', '불가'],
+        ],
+      },
+    },
+    {
+      q: '희망적금 중도해지 후 도약계좌 가입이 가능한가?',
+      anchor: 'early-exit',
+      intro: '가능합니다. 희망적금을 중도해지한 경우에도 도약계좌 자격 조건(나이·소득)만 충족하면 신규 가입됩니다. 다만 중도해지 시 희망적금의 저축장려금은 돌려받지 못합니다. 2개월 전환 특례도 만기 완료자에게만 적용되므로, 중도해지 후에는 일반 신규 가입 절차를 밟아야 합니다.',
+      highlights: ['중도해지 후 신규 가입 가능', '저축장려금 미지급'],
+      box: { label: '안내', content: '희망적금 중도해지 시 저축장려금은 반환되지 않습니다. 중도해지 후에는 일반 신규 가입 절차 이용.' },
+    },
+    {
+      q: '만기 수령액이 왜 4배나 차이 나나?',
+      anchor: 'amount-diff',
+      intro: '납입 기간(5년 vs 2년)과 한도(월 70만원 vs 50만원)가 다릅니다. 정부기여금 방식도 이자 보조에서 직접 지급으로 바뀌어 차이가 더 벌어집니다. 도약계좌는 5년 동안 최대 월 70만원 납입에 정부가 매칭 기여금을 더해 목돈이 크게 불어납니다. 희망적금은 2년 단기 상품으로 이자 보조 방식이어서 원금 증대 효과가 상대적으로 작았습니다.',
+      highlights: ['납입 기간', '정부기여금', '이자 보조'],
+      table: {
+        headers: ['요소', '도약계좌', '희망적금'],
+        rows: [
+          ['납입 기간', '5년', '2년'],
+          ['월 납입 한도', '70만원', '50만원'],
+          ['정부 지원 방식', '기여금 직접 지급', '이자 보조'],
+        ],
+      },
+    },
+    {
+      q: '지금 신청 가능한 상품은 무엇인가?',
+      anchor: 'now',
+      intro: '청년희망적금은 2024년 만기가 완료되어 현재 신규 신청이 불가합니다. 현재 신청 가능한 청년 자산 형성 상품은 청년도약계좌와 청년미래적금(2026년 6월 첫 모집)입니다. 청년도약계좌는 5년 만기, 청년미래적금은 3년 만기입니다. 두 상품 모두 비과세 혜택이 적용됩니다. 가입 조건과 정부 지원 방식이 다르므로 본인 상황에 맞는 상품을 선택해야 합니다.',
+      highlights: ['청년도약계좌', '청년미래적금', '2026년 6월'],
+      box: { label: '안내', content: '청년희망적금은 2024년 만기 종료. 현재 신청 가능한 상품: 청년도약계좌, 청년미래적금(2026.6 첫 모집).' },
+    },
+    {
+      q: '희망적금 만기금을 도약계좌에 일시납입할 수 있나?',
+      anchor: 'lump-sum',
+      intro: '희망적금 전환 신청 시 가능합니다. 만기 수령액 범위 내에서 일시납입하며, 만기 후 2개월 이내에 해야 합니다. 일시납입한 금액도 도약계좌 월 납입 한도(최대 70만원) 내에서 처리됩니다. 정확한 일시납입 방법과 금액은 해당 금융기관에 문의해야 합니다. 2개월 기한을 초과하면 일시납입 특례도 적용되지 않습니다.',
+      highlights: ['일시납입 가능', '만기 후 2개월 이내', '70만원 한도'],
+      box: { label: '안내', content: '만기 후 2개월 이내 전환 신청 시 일시납입 가능. 방법은 해당 금융기관 앱에서 확인.' },
+    },
+  ],
   faqData: [
     { q: '희망적금 중도해지 후에도 도약계좌에 가입할 수 있나요?', a: '가능합니다. 자격 조건(나이·소득)만 충족하면 신규 가입됩니다. 다만 저축장려금은 돌려받지 못합니다.', source: '청년도약계좌 자격확인', sourceUrl: '/policy/1#eligibility' },
     { q: '만기 수령액이 왜 4배나 차이 나나요?', a: '납입 기간(5년 vs 2년)과 한도(70만원 vs 50만원)가 다릅니다. 정부기여금 방식도 이자 보조에서 직접 지급으로 바뀌어 차이가 더 벌어집니다.', source: '정부기여금 계산법', sourceUrl: '/policy/1/기여금-계산' },
     { q: '희망적금 만기금을 도약계좌에 일시납입할 수 있나요?', a: '전환 신청 시 가능합니다. 만기 수령액 범위 내에서 일시납입하며, 만기 후 2개월 내에 해야 합니다.', source: '청년도약계좌 전체 정보', sourceUrl: '/policy/1' },
+    { q: '청년희망적금이 이미 만기됐는데 지금 청년미래적금에 가입할 수 있나요?', a: '청년희망적금은 이미 만기 종료된 상품이므로 신규 가입이 불가합니다. 청년미래적금은 2026년 6월 출시 예정이며, 자격 요건(나이·소득)을 충족하면 신청할 수 있습니다.', source: '금융위원회 청년미래적금 안내', sourceUrl: 'https://www.fsc.go.kr' },
+    { q: '청년도약계좌와 청년미래적금을 동시에 가입할 수 있나요?', a: '불가합니다. 청년도약계좌와 청년미래적금(또는 청년희망적금)은 중복 가입이 제한됩니다. 두 상품 중 하나를 선택해야 합니다.', source: '금융위원회 청년미래적금 안내', sourceUrl: 'https://www.fsc.go.kr' },
   ],
   sources: [
     { name: '금융위원회 – 청년도약계좌 안내', url: 'https://www.fsc.go.kr/no010101/81550' },
