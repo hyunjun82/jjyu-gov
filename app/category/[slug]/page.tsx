@@ -16,8 +16,8 @@ export function generateStaticParams() {
   return Object.keys(CATEGORY_LABELS).map((slug) => ({ slug }));
 }
 
-export default function CategoryPage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   const label = CATEGORY_LABELS[slug] ?? slug;
 
   const policies = Object.values(PoliciesBySlug).filter(
@@ -27,7 +27,6 @@ export default function CategoryPage({ params }: { params: { slug: string } }) {
   return (
     <main>
       <div className="container" style={{ paddingTop: 32, paddingBottom: 48 }}>
-        {/* 브레드크럼 */}
         <nav className="breadcrumb" style={{ marginBottom: 20 }}>
           <Link href="/">홈</Link>
           <ChevronRight size={12} />
