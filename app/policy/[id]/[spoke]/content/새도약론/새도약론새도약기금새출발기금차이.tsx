@@ -75,8 +75,7 @@ export const 새도약론새도약론새도약기금새출발기금차이SpokeCo
       highlights: ['newleap.or.kr', '자동 매입'],
       box: {
         label: '확인 방법',
-        content: 'newleap.or.kr 접속 → 채무자 조회 → 매입 여부 확인
-또는 1600-5500 전화 문의',
+        content: 'newleap.or.kr 접속 → 채무자 조회 → 매입 여부 확인 또는 1600-5500 전화 문의',
       },
     },
     {

@@ -1,6 +1,6 @@
 import type { SpokeData } from '../../SpokeClient';
 
-export const 청년버팀목전세자금대출금리연1점3~4점3우대금리조건SpokeContent: SpokeData = {
+export const 청년버팀목전세자금대출금리우대금리조건SpokeContent: SpokeData = {
   h1: '청년버팀목전세자금대출 금리 연 2.2~3.3%, 우대금리 조건 정리',
   breadcrumb: '금리연1점3~4점3우대금리조건',
   description: '청년버팀목전세자금대출 기본금리는 소득에 따라 연 2.2~3.3%(변동금리). 기초수급·차상위 1.0%p, 만 25세 미만 단독세대주 0.3%p, 중소기업취업청년 0.3%p 등 우대 시 최저 연 1.0%.',

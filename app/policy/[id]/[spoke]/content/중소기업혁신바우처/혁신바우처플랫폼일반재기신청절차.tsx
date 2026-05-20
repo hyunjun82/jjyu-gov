@@ -62,8 +62,7 @@ export const 중소기업혁신바우처혁신바우처플랫폼일반재기신�
       highlights: ['사전 자격 진단 가능', 'mssmiv.com', '1357'],
       box: {
         label: '사전 확인 방법',
-        content: 'mssmiv.com → 수요기업 로그인 → 기업 진단 메뉴
-또는 중소기업통합콜센터 1357 문의',
+        content: 'mssmiv.com → 수요기업 로그인 → 기업 진단 메뉴 또는 중소기업통합콜센터 1357 문의',
       },
     },
     {

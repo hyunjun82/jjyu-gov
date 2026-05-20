@@ -57,8 +57,7 @@ export const 새도약론새도약론취급기관대부업체목록SpokeContent:
       highlights: ['전국 50여 곳', 'kinfa.or.kr'],
       box: {
         label: '센터 찾기',
-        content: 'kinfa.or.kr → 지점 안내 → 가까운 센터 검색
-또는 1600-5500 전화 문의',
+        content: 'kinfa.or.kr → 지점 안내 → 가까운 센터 검색 또는 1600-5500 전화 문의',
       },
     },
     {
