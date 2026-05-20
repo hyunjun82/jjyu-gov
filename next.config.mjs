@@ -14,6 +14,14 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  webpack: (config, { isServer, webpack }) => {
+    if (isServer) {
+      config.plugins.push(
+        new webpack.DefinePlugin({ self: 'globalThis' })
+      );
+    }
+    return config;
+  },
 };
 
 export default nextConfig;
