@@ -1,91 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          국민행복카드로 이용할 수 있는 바우처는 <strong>23종</strong>이며,
-          임신출산진료비, 청소년산모 의료비, 첫만남이용권, 아이돌봄 등
-          임신·출산·양육 관련 주요 서비스를 통합 지원합니다.
-          잔액 조회는 <strong>바우처 포털(voucher.go.kr)</strong>에서 가능합니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        카드 1장으로 여러 바우처를 사용할 수 있지만, 바우처마다 사용처와 유효기간이 다릅니다.
-        반드시 확인 후 이용하세요.
-      </p>
-
-      <section className="detail-card" id="major">
-        <h2 className="detail-card-head">주요 바우처 종류와 지원 금액</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>바우처명</th><th>지원 금액</th><th>유효기간</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>임신출산진료비</strong></td><td>단태아 100만원 / 다태아 140만원</td><td>분만 예정일 +1년</td></tr>
-              <tr><td><strong>청소년산모 의료비</strong></td><td>120만원</td><td>분만 예정일 +1년</td></tr>
-              <tr><td><strong>첫만남이용권</strong></td><td>첫째 200만원 / 둘째 이상 300만원</td><td>출생일 +1년</td></tr>
-              <tr><td><strong>아이돌봄 서비스</strong></td><td>소득 기준별 차등</td><td>연간 단위</td></tr>
-              <tr><td><strong>에너지바우처</strong></td><td>최대 연 31만 3천원</td><td>해당 연도</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="detail-card" id="where">
-        <h2 className="detail-card-head">사용처 확인 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>임신출산진료비:</strong> 전국 요양기관(병·의원, 약국) 사용 가능
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>첫만남이용권:</strong> 백화점·대형마트·온라인쇼핑몰 등 일반 가맹점
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>아이돌봄:</strong> 지정 아이돌봄 서비스 제공 기관
-          </div>
-          <div className="info-box">
-            <strong>사용처 검색:</strong> voucher.go.kr → 가맹점 찾기
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="balance">
-        <h2 className="detail-card-head">잔액 조회 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>PC:</strong> 바우처 포털(voucher.go.kr) → 로그인 → 잔액조회
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>모바일:</strong> 복지로 앱(bokjiro.go.kr) → 바우처 잔액 확인
-          </div>
-          <div className="info-box">
-            <strong>카드사 앱:</strong> 각 카드사 앱에서도 바우처 잔액 조회 가능
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            발급 조건, 카드사 신청, 임신 후 발급 순서까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/national-happiness-card" className="btn-cta">
-            국민행복카드 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 국민행복카드23종바우처사용처잔액조회SpokeContent: SpokeData = {
   h1: '국민행복카드 23종 바우처 사용처와 잔액 조회 방법 총정리',
@@ -94,7 +7,141 @@ export const 국민행복카드23종바우처사용처잔액조회SpokeContent: 
     '국민행복카드 23종 바우처: 임신출산진료비 100만원(다태아 140), 첫만남이용권 200~300만원, 청소년산모 의료비 120만원 등. 사용처·잔액은 voucher.go.kr 또는 복지로 앱에서 조회.',
   datePublished: '2026-05-18T09:00:00+09:00',
   dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  keyFacts: {
+    바우처종류: { value: '23종 (임신출산진료비, 첫만남이용권, 아이돌봄, 에너지바우처 등)', source: '보건복지부' },
+    임신출산진료비: { value: '단태아 100만원 / 다태아 140만원 (분만 예정일 +1년)', source: '보건복지부' },
+    첫만남이용권: { value: '첫째 200만원 / 둘째 이상 300만원 (출생일 +1년)', source: '보건복지부' },
+    청소년산모의료비: { value: '120만원 (분만 예정일 +1년)', source: '보건복지부' },
+    잔액조회: { value: 'voucher.go.kr 또는 복지로 앱에서 조회 가능', source: '보건복지부' },
+  },
+  keyFactsHighlights: {
+    바우처종류: ['23종'],
+    임신출산진료비: ['단태아 100만원', '다태아 140만원'],
+    첫만남이용권: ['첫째 200만원', '둘째 이상 300만원'],
+    청소년산모의료비: ['120만원'],
+    잔액조회: ['voucher.go.kr', '복지로 앱'],
+  },
+  qa: [
+    {
+      q: '국민행복카드로 이용할 수 있는 바우처는 어떤 것들이 있나요?',
+      anchor: 'voucher-types',
+      intro:
+        '국민행복카드는 1장으로 최대 23종의 정부 바우처를 통합해 이용할 수 있는 카드입니다. 주요 바우처로는 임신출산진료비(단태아 100만원·다태아 140만원), 첫만남이용권(첫째 200만원·둘째 이상 300만원), 청소년산모 의료비(120만원), 아이돌봄 서비스, 에너지바우처 등이 있습니다. 단, 바우처마다 대상과 신청 조건이 다르며 자동 적립되지 않는 경우도 있습니다.',
+      highlights: ['23종 바우처 통합', '임신출산진료비 최대 140만원', '첫만남이용권 최대 300만원'],
+      table: {
+        headers: ['바우처명', '지원 금액', '유효기간'],
+        rows: [
+          ['임신출산진료비', '단태아 100만원 / 다태아 140만원', '분만 예정일 +1년'],
+          ['청소년산모 의료비', '120만원', '분만 예정일 +1년'],
+          ['첫만남이용권', '첫째 200만원 / 둘째 이상 300만원', '출생일 +1년'],
+          ['아이돌봄 서비스', '소득 기준별 차등', '연간 단위'],
+          ['에너지바우처', '최대 연 31만 3천원', '해당 연도'],
+        ],
+      },
+      box: { label: '주의', content: '바우처마다 사용처와 유효기간이 다릅니다. 임신출산진료비는 요양기관 전용, 첫만남이용권은 일반 가맹점에서도 사용 가능합니다.' },
+    },
+    {
+      q: '임신출산진료비는 어디서 사용할 수 있나요?',
+      anchor: 'maternity-usage',
+      intro:
+        '임신출산진료비 바우처는 전국 요양기관(병원·의원·약국)에서 사용 가능합니다. 산부인과 진료, 초음파, 태아 검사, 처방전 약 구입 등 임신과 출산 관련 의료 서비스에 폭넓게 활용됩니다. 유효기간은 분만 예정일로부터 1년이며, 기간 내에 남은 잔액은 소멸됩니다.',
+      highlights: ['전국 요양기관 사용 가능', '분만 예정일 +1년', '잔액 소멸 주의'],
+      table: {
+        headers: ['사용처', '비고'],
+        rows: [
+          ['병원·의원 (산부인과 포함)', '전국 요양기관'],
+          ['약국', '처방약 구매 가능'],
+          ['검사기관', '태아 검사 등'],
+          ['일반 쇼핑몰', '사용 불가 (첫만남이용권과 다름)'],
+        ],
+      },
+      box: { label: '핵심', content: '임신출산진료비는 의료 목적으로만 사용 가능합니다. 첫만남이용권처럼 쇼핑몰 등 일반 가맹점에서는 사용할 수 없습니다.' },
+    },
+    {
+      q: '첫만남이용권은 어디서 사용할 수 있나요?',
+      anchor: 'first-meeting-usage',
+      intro:
+        '첫만남이용권은 신생아 출생 후 제공되는 바우처로, 백화점·대형마트·온라인쇼핑몰 등 일반 가맹점에서 폭넓게 사용 가능합니다. 첫째 출생 시 200만원, 둘째 이상 출생 시 300만원이 지급됩니다. 출생일로부터 1년 이내에 사용해야 하며, 사용처는 voucher.go.kr 가맹점 검색에서 확인할 수 있습니다.',
+      highlights: ['첫째 200만원', '둘째 이상 300만원', '출생일 +1년', '일반 가맹점 사용 가능'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['지원 금액', '첫째 200만원 / 둘째 이상 300만원'],
+          ['유효기간', '출생일로부터 1년'],
+          ['사용 가능처', '백화점·마트·온라인쇼핑몰 등 일반 가맹점'],
+          ['사용 불가', '유흥업소, 사행성 업종 등'],
+        ],
+      },
+      box: { label: '안내', content: '첫만남이용권은 임신출산진료비보다 사용처가 넓습니다. 단, 유흥·사행성 업종에서는 사용이 제한됩니다.' },
+    },
+    {
+      q: '잔액은 어떻게 조회하나요?',
+      anchor: 'balance-check',
+      intro:
+        '국민행복카드 바우처 잔액은 여러 방법으로 쉽게 조회할 수 있습니다. PC에서는 바우처 포털(voucher.go.kr)에 로그인 후 잔액조회 메뉴를 이용하면 되며, 모바일에서는 복지로 앱(bokjiro.go.kr) 또는 각 카드사 앱에서 확인할 수 있습니다. 바우처 종류마다 잔액이 별도로 표시되므로, 어떤 바우처가 얼마나 남았는지 확인 후 사용하세요.',
+      highlights: ['voucher.go.kr', '복지로 앱', '카드사 앱'],
+      table: {
+        headers: ['방법', '경로'],
+        rows: [
+          ['PC 조회', 'voucher.go.kr → 로그인 → 잔액조회'],
+          ['모바일 조회', '복지로 앱(bokjiro.go.kr) → 바우처 잔액'],
+          ['카드사 앱', '각 카드사 앱에서 바우처 잔액 확인'],
+        ],
+      },
+      box: { label: '주의', content: '바우처 잔액은 현금 환급이 불가합니다. 유효기간 내에 지정 사용처에서 소진해야 합니다.' },
+    },
+    {
+      q: '23종 바우처를 모두 자동으로 받을 수 있나요?',
+      anchor: 'auto-credit',
+      intro:
+        '바우처마다 대상과 신청 조건이 다릅니다. 임신출산진료비는 카드 발급과 동시에 자동 적립되지만, 아이돌봄 등은 별도로 신청해야 합니다. 각 바우처의 대상 여부를 먼저 확인하고, 별도 신청이 필요한 경우 기간을 놓치지 않도록 주의하세요.',
+      highlights: ['임신출산진료비 자동 적립', '아이돌봄 별도 신청 필요', '바우처별 조건 상이'],
+      table: {
+        headers: ['바우처', '적립 방식'],
+        rows: [
+          ['임신출산진료비', '카드 발급 후 자동 적립'],
+          ['청소년산모 의료비', '별도 신청 필요'],
+          ['첫만남이용권', '출생 신고 후 적립'],
+          ['아이돌봄 서비스', '별도 신청 필요'],
+          ['에너지바우처', '별도 신청 필요'],
+        ],
+      },
+      box: { label: '확인', content: '내가 받을 수 있는 바우처 목록은 voucher.go.kr 또는 복지로(bokjiro.go.kr)에서 확인할 수 있습니다.' },
+    },
+    {
+      q: '바우처 잔액이 남으면 현금으로 돌려받을 수 있나요?',
+      anchor: 'refund-policy',
+      intro:
+        '국민행복카드 바우처 잔액은 현금 환급이 불가합니다. 유효기간 내에 지정된 사용처에서만 사용할 수 있으며, 기간이 지나면 잔액은 소멸됩니다. 따라서 유효기간과 사용처를 미리 파악하고, 계획적으로 사용하는 것이 중요합니다.',
+      highlights: ['현금 환급 불가', '유효기간 내 소진 필요', '기간 만료 시 소멸'],
+      table: {
+        headers: ['상황', '처리'],
+        rows: [
+          ['유효기간 내 잔액', '지정 사용처에서 계속 사용 가능'],
+          ['유효기간 만료 잔액', '자동 소멸'],
+          ['현금 환급 요청', '불가'],
+        ],
+      },
+      box: { label: '팁', content: '임신출산진료비는 분만 예정일로부터 1년이 유효기간입니다. 출산 후 병·의원 진료 시 남은 잔액을 소진하세요.' },
+    },
+    {
+      q: '바우처가 적립됐는데 결제가 안 되는 이유는 무엇인가요?',
+      anchor: 'payment-fail',
+      intro:
+        '바우처 종류마다 이용 가능한 가맹점이 다릅니다. 예를 들어 임신출산진료비는 요양기관에서만 사용 가능하고, 첫만남이용권은 일반 가맹점에서 사용 가능합니다. 가맹점이 아닌 곳에서는 결제가 거부됩니다. voucher.go.kr 가맹점 검색으로 사용 가능한 곳을 먼저 확인한 후 결제하세요.',
+      highlights: ['바우처별 사용 가맹점 상이', 'voucher.go.kr 가맹점 검색'],
+      table: {
+        headers: ['바우처', '사용 가능 장소'],
+        rows: [
+          ['임신출산진료비', '전국 요양기관(병·의원·약국) 전용'],
+          ['첫만남이용권', '일반 가맹점 (백화점·마트·온라인 등)'],
+          ['아이돌봄', '지정 아이돌봄 서비스 제공 기관'],
+          ['에너지바우처', '한국에너지공단 지정 가맹점'],
+        ],
+      },
+      box: { label: '해결 방법', content: 'voucher.go.kr → 가맹점 찾기에서 지역·업종별 검색 후 해당 바우처 사용 가능 여부를 먼저 확인하세요.' },
+    },
+  ],
   faqData: [
     {
       q: '23종 바우처를 모두 자동으로 받을 수 있나요?',

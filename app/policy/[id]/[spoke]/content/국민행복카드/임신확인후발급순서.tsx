@@ -1,91 +1,4 @@
-import type { SpokeData } from '../../page';
-
-function Content() {
-  return (
-    <>
-      <div className="answer-box">
-        <p>
-          국민행복카드는 <strong>임신 확인 → 임신확인서 발급 → 카드사 신청 → 카드 수령</strong>
-          순서로 진행됩니다.
-          임신 확인 후 최대한 빨리 신청해야 임신출산진료비를
-          진료 초기부터 사용할 수 있습니다.
-        </p>
-      </div>
-
-      <p style={{ fontSize: 15, lineHeight: 1.8, margin: '20px 0' }}>
-        카드 수령까지 1~2주 소요되므로 임신 확인 직후 바로 신청하는 것을 권장합니다.
-      </p>
-
-      <section className="detail-card" id="steps">
-        <h2 className="detail-card-head">발급 단계별 절차</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>Step 1. 산부인과 방문</strong> — 임신 확인 및 임신확인서(또는 산모수첩) 발급
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>Step 2. 카드사 선택</strong> — 국민·신한·우리·하나·롯데 중 1개 선택
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>Step 3. 신청</strong> — 카드사 앱·홈페이지 온라인 신청 또는 영업점 방문 신청
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>Step 4. 카드 수령</strong> — 우편 수령(통상 7~14일) 또는 영업점 직접 수령
-          </div>
-          <div className="info-box">
-            <strong>Step 5. 바우처 적립 확인</strong> — voucher.go.kr에서 잔액 확인 후 사용
-          </div>
-        </div>
-      </section>
-
-      <section className="detail-card" id="docs">
-        <h2 className="detail-card-head">필요 서류</h2>
-        <div className="detail-card-body">
-          <table className="compare-table">
-            <thead>
-              <tr><th>서류</th><th>비고</th></tr>
-            </thead>
-            <tbody>
-              <tr><td><strong>임신확인서</strong></td><td>산부인과 발급, 분만 예정일 명시 필수</td></tr>
-              <tr><td><strong>신분증</strong></td><td>주민등록증·운전면허증·여권 중 1개</td></tr>
-              <tr><td><strong>건강보험증</strong></td><td>직장·지역 건강보험 가입 확인용 (온라인 신청 시 생략 가능)</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="online">
-        <h2 className="detail-card-head">온라인 신청 방법</h2>
-        <div className="detail-card-body">
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>복지로:</strong> www.bokjiro.go.kr → 서비스 신청 → 국민행복카드
-          </div>
-          <div className="info-box" style={{ marginBottom: 12 }}>
-            <strong>정부24:</strong> www.gov.kr → 국민행복카드 검색 → 신청
-          </div>
-          <div className="info-box">
-            <strong>카드사 앱:</strong> 각 카드사 앱에서 국민행복카드 신청 메뉴 이용
-          </div>
-        </div>
-      </section>
-
-      <div className="ad-slot">광고 영역</div>
-
-      <section className="detail-card" id="hub">
-        <div className="detail-card-body" style={{ textAlign: 'center' }}>
-          <p style={{ marginBottom: 16 }}>
-            23종 바우처 사용처, 잔액 조회, 남편 명의 신청까지<br />
-            전체 정보는 아래에서 확인하세요.
-          </p>
-          <a href="/policy/national-happiness-card" className="btn-cta">
-            국민행복카드 전체 정보 보기 →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+import type { SpokeData } from '../../SpokeClient';
 
 export const 국민행복카드임신확인후발급순서SpokeContent: SpokeData = {
   h1: '국민행복카드 임신 확인 후 발급 순서, 임신확인서부터 카드 수령까지',
@@ -94,7 +7,140 @@ export const 국민행복카드임신확인후발급순서SpokeContent: SpokeDat
     '국민행복카드 발급 순서: 산부인과 임신확인서 발급 → 5개 카드사 중 선택 신청 → 카드 수령(7~14일). 온라인(복지로·정부24·카드사 앱) 신청 가능. 임신 확인 직후 즉시 신청 권장.',
   datePublished: '2026-05-18T09:00:00+09:00',
   dateModified: '2026-05-18T09:00:00+09:00',
-  Content,
+  keyFacts: {
+    발급절차: { value: '임신확인 → 임신확인서 → 카드사 선택 신청 → 카드 수령 → 잔액 확인', source: '보건복지부' },
+    소요기간: { value: '카드 수령까지 통상 7~14일(영업일 기준)', source: '보건복지부' },
+    온라인신청: { value: '복지로(bokjiro.go.kr), 정부24(gov.kr), 카드사 앱에서 신청 가능', source: '보건복지부' },
+    필요서류: { value: '임신확인서(분만 예정일 명시) + 신분증', source: '보건복지부' },
+    잔액확인: { value: 'voucher.go.kr 또는 복지로 앱에서 확인 가능', source: '보건복지부' },
+  },
+  keyFactsHighlights: {
+    발급절차: ['5단계 절차'],
+    소요기간: ['7~14일'],
+    온라인신청: ['복지로', '정부24', '카드사 앱'],
+    필요서류: ['임신확인서', '신분증'],
+    잔액확인: ['voucher.go.kr'],
+  },
+  qa: [
+    {
+      q: '임신 후 국민행복카드를 발급받으려면 어떤 순서로 진행하나요?',
+      anchor: 'application-steps',
+      intro:
+        '국민행복카드 발급은 총 5단계로 진행됩니다. 산부인과에서 임신을 확인하고 임신확인서를 발급받은 후, 5개 카드사(국민·신한·우리·하나·롯데) 중 1개를 선택하여 온라인 또는 영업점에서 신청합니다. 카드 수령 후 바우처 포털(voucher.go.kr)에서 잔액을 확인하면 즉시 사용할 수 있습니다. 임신 확인 직후 빠르게 신청할수록 초기 진료비부터 바우처를 활용할 수 있어 유리합니다.',
+      highlights: ['임신확인서 발급 → 카드사 선택 → 신청 → 수령 → 잔액 확인', '7~14일 소요', '즉시 신청 권장'],
+      table: {
+        headers: ['단계', '내용'],
+        rows: [
+          ['Step 1. 산부인과 방문', '임신 확인 및 임신확인서(분만 예정일 명시) 발급'],
+          ['Step 2. 카드사 선택', '국민·신한·우리·하나·롯데 중 1개 선택'],
+          ['Step 3. 신청', '카드사 앱·홈페이지 온라인 신청 또는 영업점 방문'],
+          ['Step 4. 카드 수령', '우편 수령(7~14일) 또는 영업점 직접 수령'],
+          ['Step 5. 잔액 확인', 'voucher.go.kr에서 잔액 확인 후 사용 시작'],
+        ],
+      },
+      box: { label: '핵심', content: '임신 확인 직후 신청할수록 더 많은 진료비를 지원받을 수 있습니다. 카드 수령까지 1~2주 소요됩니다.' },
+    },
+    {
+      q: '임신확인서는 어디서 발급받고, 무엇이 필요한가요?',
+      anchor: 'pregnancy-certificate',
+      intro:
+        '임신확인서는 산부인과(산부인과 전문병원, 종합병원 산부인과 등)를 방문해 임신 확인 후 발급받을 수 있습니다. 반드시 분만 예정일이 명시된 임신확인서여야 합니다. 임신을 확인하는 진료를 받으면 의사가 발급해 주며, 국민행복카드 신청용임을 미리 알리면 필요한 형식으로 발급받을 수 있습니다.',
+      highlights: ['산부인과에서 발급', '분만 예정일 명시 필수'],
+      table: {
+        headers: ['항목', '내용'],
+        rows: [
+          ['발급 기관', '산부인과 (전문병원·종합병원 산부인과)'],
+          ['필수 기재 사항', '분만 예정일(출산 예정일)'],
+          ['발급 비용', '통상 병원 진료 시 무료 또는 소정의 비용'],
+          ['유효 기간', '발급일로부터 일정 기간 (카드사 확인)'],
+        ],
+      },
+      box: { label: '팁', content: '산부인과 방문 시 "국민행복카드 신청용 임신확인서"를 요청하세요. 분만 예정일이 반드시 기재되어야 합니다.' },
+    },
+    {
+      q: '온라인으로 신청하면 어떻게 진행되나요?',
+      anchor: 'online-process',
+      intro:
+        '온라인 신청은 복지로(bokjiro.go.kr), 정부24(gov.kr), 또는 각 카드사 공식 앱·홈페이지에서 가능합니다. 공인인증서 또는 간편 인증으로 본인 확인 후 임신확인서 사진을 업로드하고 신청합니다. 카드는 신청 후 7~14일 내 등록된 주소로 우편 발송됩니다. 일부 카드사는 영업점 방문 수령도 지원합니다.',
+      highlights: ['복지로·정부24·카드사 앱', '임신확인서 사진 업로드', '7~14일 우편 발송'],
+      table: {
+        headers: ['신청 방법', '경로'],
+        rows: [
+          ['복지로', 'bokjiro.go.kr → 서비스 신청 → 국민행복카드'],
+          ['정부24', 'gov.kr → 국민행복카드 검색 → 신청'],
+          ['카드사 앱', '각 카드사 공식 앱에서 국민행복카드 신청 메뉴'],
+          ['영업점 방문', '5개 카드사 영업점 직접 방문 신청'],
+        ],
+      },
+      box: { label: '안내', content: '온라인 신청이 가장 빠르고 편리합니다. 임신확인서 사진을 미리 준비해 두세요.' },
+    },
+    {
+      q: '카드 수령 후 바우처를 어떻게 확인하나요?',
+      anchor: 'after-receipt',
+      intro:
+        '카드를 받은 후 voucher.go.kr(사회서비스 전자바우처) 또는 복지로 앱에서 적립된 바우처 잔액을 확인할 수 있습니다. 임신출산진료비 바우처가 자동으로 적립되어 있으며, 잔액 확인 후 전국 요양기관(병·의원·약국)에서 즉시 사용 가능합니다. 카드사 앱에서도 바우처 잔액을 조회할 수 있습니다.',
+      highlights: ['voucher.go.kr 잔액 확인', '자동 적립', '전국 요양기관 사용 가능'],
+      table: {
+        headers: ['확인 방법', '경로'],
+        rows: [
+          ['PC 잔액 조회', 'voucher.go.kr → 로그인 → 잔액조회'],
+          ['모바일 앱', '복지로 앱 → 바우처 잔액'],
+          ['카드사 앱', '각 카드사 앱 → 국민행복카드 잔액'],
+        ],
+      },
+      box: { label: '첫 사용', content: '카드 수령 후 voucher.go.kr에서 잔액 확인 → 산부인과 방문 시 카드 제시 → 바우처로 진료비 결제' },
+    },
+    {
+      q: '임신 몇 주 차부터 신청할 수 있나요?',
+      anchor: 'gestational-week',
+      intro:
+        '임신 주 수와 무관하게 임신 확인 후 즉시 신청 가능합니다. 초기 임신(6~7주 이후)에 산부인과에서 심장 박동 확인 등으로 임신을 확인받으면 임신확인서를 발급받아 바로 신청할 수 있습니다. 초기에 신청할수록 카드 발급 후 더 오랜 기간 바우처를 활용할 수 있습니다.',
+      highlights: ['주 수 무관', '임신 확인 즉시 신청 가능', '초기 신청일수록 유리'],
+      table: {
+        headers: ['임신 시점', '신청 가능 여부'],
+        rows: [
+          ['임신 초기 (6주~)', '가능 (임신확인서 발급 후 신청)'],
+          ['임신 중반 (14주~)', '가능'],
+          ['임신 말기 (36주~)', '가능 (단, 사용 기간 짧음)'],
+          ['출산 후', '신청 불가 (출산 전 신청 필수)'],
+        ],
+      },
+      box: { label: '권장', content: '임신 초기에 산부인과를 방문해 임신을 확인받은 즉시 신청하세요. 출산 후에는 신청이 불가합니다.' },
+    },
+    {
+      q: '여러 카드사에 중복 신청하거나 나중에 카드사를 바꿀 수 있나요?',
+      anchor: 'card-change',
+      intro:
+        '국민행복카드는 1인당 1개만 발급됩니다. 여러 카드사에 중복 신청은 불가하며, 반드시 1개 카드사만 선택해야 합니다. 발급 완료 후 카드사 변경도 불가하므로, 신청 전 카드사를 신중하게 선택해야 합니다. 발급 전 신청을 취소하고 다른 카드사로 재신청하는 것은 가능하나 절차가 복잡합니다.',
+      highlights: ['1인당 1개만 발급', '중복 신청 불가', '발급 후 카드사 변경 불가'],
+      table: {
+        headers: ['상황', '처리'],
+        rows: [
+          ['여러 카드사 동시 신청', '불가 (1개 카드사만 선택)'],
+          ['발급 전 카드사 변경', '가능 (기존 신청 취소 후 재신청)'],
+          ['발급 완료 후 카드사 변경', '불가'],
+          ['2회 이상 임신 시', '새 임신에 대해 재발급 가능'],
+        ],
+      },
+      box: { label: '주의', content: '발급 완료 후 카드사 변경은 불가합니다. 신청 전 카드사별 혜택을 꼼꼼히 비교하세요.' },
+    },
+    {
+      q: '카드 수령 전에도 진료비를 지원받을 수 있나요?',
+      anchor: 'before-receipt',
+      intro:
+        '카드가 발급되기 전에는 바우처 사용이 불가합니다. 카드 수령 후 바우처가 적립되면 그때부터 진료비를 지원받을 수 있습니다. 카드 발급 전 부담한 진료비는 소급 지원이 되지 않으므로, 임신 확인 직후 신청하는 것이 가장 효율적입니다.',
+      highlights: ['카드 수령 전 사용 불가', '소급 지원 불가', '조기 신청이 유리'],
+      table: {
+        headers: ['상황', '처리'],
+        rows: [
+          ['카드 발급 전 진료비', '소급 지원 불가 (전액 본인 부담)'],
+          ['카드 발급 후 진료비', '바우처로 결제 가능'],
+          ['발급 전 납부한 진료비', '환급 불가'],
+        ],
+      },
+      box: { label: '안내', content: '카드 발급 전 납부한 진료비는 환급받을 수 없습니다. 임신 확인 즉시 신청해 카드를 빠르게 수령하세요.' },
+    },
+  ],
   faqData: [
     {
       q: '임신 몇 주 차부터 신청할 수 있나요?',
