@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node --require ./self-polyfill.cjs node_modules/next/dist/bin/next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "verify": "npx tsx scripts/verify-quality.ts",
-    "verify:all": "bash scripts/check-spoke-quality.sh && npm run verify",
+    "verify:all": "bash scripts/check-spoke-quality.sh && npx tsx scripts/verify-quality.ts --all",
     "verify-policy": "npx tsx scripts/verify-policy.ts",
     "gov-write": "npx tsx scripts/gov-write.ts",
     "collect": "npx tsx scripts/collect-multi-source.ts",
