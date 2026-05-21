@@ -52,13 +52,14 @@ export interface SpokeData {
 }
 
 /* ── 텍스트 내 highlights 단어를 형광으로 강조 ── */
-function renderWithHi(text: string, highlights: string[] = []): ReactNode {
-  if (!text) return null;
-  if (!highlights.length) return text;
+function renderWithHi(text: any, highlights: string[] = []): ReactNode {
+  if (text == null || text === '') return null;
+  const safe = typeof text === 'string' ? text : String(text);
+  if (!highlights.length) return safe;
   const sorted = [...highlights].sort((a, b) => b.length - a.length);
   const escaped = sorted.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
   const pattern = new RegExp(`(${escaped.join('|')})`, 'g');
-  const parts = text.split(pattern);
+  const parts = safe.split(pattern);
   return parts.map((part, idx) =>
     highlights.includes(part) ? <Hi key={idx}>{part}</Hi> : <Fragment key={idx}>{part}</Fragment>
   );

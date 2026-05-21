@@ -4,10 +4,19 @@
 import { Fragment } from 'react';
 
 interface Props {
-  facts: Record<string, string>;
+  facts: Record<string, string | { value: string; source?: any }>;
   highlights?: Record<string, string[]>;
   title?: string;
   brand?: string;
+}
+
+// 값이 { value, source } 객체 형식이거나 문자열인 경우를 모두 처리
+function toStringValue(v: any): string {
+  if (v == null) return '';
+  if (typeof v === 'string') return v;
+  if (typeof v === 'number' || typeof v === 'boolean') return String(v);
+  if (typeof v === 'object' && typeof v.value === 'string') return v.value;
+  return String(v);
 }
 
 export default function KeyFactsBox({
@@ -16,7 +25,9 @@ export default function KeyFactsBox({
   title = '핵심콕콕',
   brand = '한눈에 보는 정책 요약',
 }: Props) {
-  const entries = Object.entries(facts);
+  const entries = Object.entries(facts).map(
+    ([k, v]) => [k, toStringValue(v)] as [string, string]
+  );
 
   return (
     <div
@@ -84,6 +95,7 @@ export default function KeyFactsBox({
 }
 
 function renderWithHighlights(text: string, words: string[]) {
+  if (typeof text !== 'string') return String(text ?? '');
   if (!words.length) return text;
 
   const sortedWords = [...words].sort((a, b) => b.length - a.length);
