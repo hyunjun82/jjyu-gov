@@ -1,3 +1,4 @@
+import path from 'path';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -11,6 +12,13 @@ const nextConfig = {
   },
   typescript: {
     ignoreBuildErrors: true,
+  },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...(config.resolve.alias || {}),
+      '@': __dirname,
+    };
+    return config;
   },
 };
 
