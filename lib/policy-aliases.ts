@@ -44,6 +44,33 @@ export function getKoAliasForSlug(policySlug: string): string | null {
  * 정책 데이터의 spokes 배열(영문 slug) 무시하고 registry(한글 키) 단일 소스로 사용
  * 사이드바·목차의 모든 spoke 링크가 한글 slug → 절대 404 안 남
  */
+/**
+ * policySlug → 영문 spoke slug → 한글 spoke 키 자동 매핑 (인덱스 기반)
+ * 정책 파일의 spokes 배열(영문)을 SpokesRegistry 한글 키와 순서대로 짝지움
+ * 영문 URL(`/policy/138/interest-rate`)도 살리기 위해
+ */
+export const SpokeEnAliases: Record<string, Record<string, string>> = {};
+for (const [policySlug, policy] of Object.entries(PoliciesBySlug)) {
+  const enSpokes = (policy as AnyPolicy)?.spokes ?? [];
+  const koMap = SpokesRegistry?.[policySlug] ?? {};
+  const koKeys = Object.keys(koMap);
+  const aliases: Record<string, string> = {};
+  enSpokes.forEach((s: AnyPolicy, i: number) => {
+    if (s?.slug && koKeys[i] && !koMap[s.slug]) {
+      aliases[s.slug] = koKeys[i];
+    }
+  });
+  if (Object.keys(aliases).length > 0) {
+    SpokeEnAliases[policySlug] = aliases;
+  }
+}
+
+/** 영문/한글 spoke slug 둘 다 받아서 SpokesRegistry의 실제 한글 키로 변환 */
+export function resolveSpokeKey(policySlug: string, spokeKey: string): string {
+  if (SpokesRegistry?.[policySlug]?.[spokeKey]) return spokeKey;
+  return SpokeEnAliases?.[policySlug]?.[spokeKey] ?? spokeKey;
+}
+
 export function getSpokeListForPolicy(policyKey: string): { slug: string; title: string }[] {
   // policyKey는 영문 slug, 숫자 ID, 또는 한글 별칭 가능
   let policySlug: string | null = null;

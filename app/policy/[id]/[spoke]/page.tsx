@@ -1,6 +1,6 @@
 import { SpokesRegistry } from '@/data/spokes/registry';
 import { PoliciesBySlug } from '@/data/policies/manifest';
-import { getKoAliasForSlug } from '@/lib/policy-aliases';
+import { getKoAliasForSlug, SpokeEnAliases } from '@/lib/policy-aliases';
 import SpokeClient from './SpokeClient';
 
 export async function generateStaticParams() {
@@ -22,6 +22,18 @@ export async function generateStaticParams() {
         }
         if (koAlias) {
           params.push({ id: koAlias, spoke: spokeKey });
+        }
+      }
+
+      // 영문 alias spoke 도 정적 등록 (/policy/138/interest-rate 같은 영문 URL 살리기)
+      const enAliases = SpokeEnAliases?.[policySlug] ?? {};
+      for (const enSlug of Object.keys(enAliases)) {
+        params.push({ id: policySlug, spoke: enSlug });
+        if (policy?.id) {
+          params.push({ id: String(policy.id), spoke: enSlug });
+        }
+        if (koAlias) {
+          params.push({ id: koAlias, spoke: enSlug });
         }
       }
     }
