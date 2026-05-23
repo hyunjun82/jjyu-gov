@@ -1,3 +1,0 @@
-[     479ms] [ERROR] Failed to load resource: the server responded with a status of 404 (404) @ https://www.koref.or.kr/web/user/project/projectDetail.do?projectCd=3:0
-[     490ms] [WARNING] The key "target-densitydpi" is not supported. @ https://www.koref.or.kr/web/user/project/projectDetail.do?projectCd=3:10
-[     714ms] [ERROR] Failed to load resource: the server responded with a status of 404 (404) @ https://www.koref.or.kr/css//images/web/front/error/logo.png:0

@@ -1,6 +1,0 @@
-[    2629ms] [WARNING] The value "nom" for key "user-scalable" is invalid, and has been ignored. @ https://gg24.kr/:12
-[    2696ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://gg24.kr/wp-content/plugins/home/gg24/htdocs/gg24.kr/wp-content/themes/hello-elementor/tax-calculator.css?ver=1.0.0:0
-[    4478ms] TypeError: Cannot read properties of null (reading 'addEventListener')
-    at https://gg24.kr/:3679:39
-[    4480ms] TypeError: Cannot read properties of null (reading 'addEventListener')
-    at https://gg24.kr/:3708:39

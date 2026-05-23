@@ -1,6 +1,0 @@
-[    1028ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/category/fund?_rsc=1wtp7:0
-[    1129ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/category/refund?_rsc=1wtp7:0
-[    1132ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/category/loan?_rsc=1wtp7:0
-[    1133ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/category/youth?_rsc=1wtp7:0
-[    1138ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/category/welfare?_rsc=1wtp7:0
-[    1387ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
