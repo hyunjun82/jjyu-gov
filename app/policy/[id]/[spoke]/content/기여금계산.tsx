@@ -5,7 +5,7 @@ export const ContribSpokeContent: SpokeData = {
   breadcrumb: '기여금 계산',
   description: '청년미래적금 기여금 계산기. 우대형 12%·일반형 6%·비과세 유형별 자격과 3년 기여금 합계를 확인하세요.',
   datePublished: '2026-04-24T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '우대형 기여금 비율': '12%',
     '일반형 기여금 비율': '6%',

@@ -6,7 +6,7 @@ export const 여성장애인우선입소신청SpokeContent: SpokeData = {
   description:
     '장애인 부모 자녀는 영유아보육법 제28조에 따라 어린이집 1순위(100점) 우선 입소 대상. 부모 모두 취업 시 200점. 아이사랑 포털(childcare.go.kr) 또는 어린이집 방문 신청. 소득 무관.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '법적 근거': '영유아보육법 제28조',
     '입소 순위': '1순위 (100점)',

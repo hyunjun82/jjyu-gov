@@ -9,6 +9,8 @@ export const usedAppliancePickupPolicy: PolicyData = {
   amount: '무상 (비용 없음)',
   deadline: '상시',
   summary: '대형 폐가전(냉장고·세탁기·TV 등)을 가정에서 무료로 수거해 가는 서비스. 1599-0903 또는 홈페이지로 신청.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     서비스: {

@@ -14,7 +14,7 @@ export const beautifulStoryGrandmaPolicy: PolicyData = {
   audience: '55세 이상 이야기 전달에 관심 있는 어르신',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     지원대상: { value: '만 55세 이상 어르신 (성별 무관)', source: { url: 'https://www.grandma.or.kr', cardIndex: 1, text: '만 55세 이상 어르신 대상', verifiedAt: '2026-05-17' } },
     주관기관: { value: '한국국학진흥원 (문화체육관광부 지원)', source: { url: 'https://www.grandma.or.kr', cardIndex: 1, text: '한국국학진흥원 운영, 문화체육관광부 지원', verifiedAt: '2026-05-17' } },

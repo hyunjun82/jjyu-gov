@@ -9,6 +9,8 @@ export const employmentIncentiveAllowancePolicy: PolicyData = {
   catSlug: 'fund',
   org: '고용노동부',
   summary: '실업급여 수급자의 조기 취업을 장려하기 위해 조기재취업수당·직업능력개발수당·광역구직활동비·이주비 4가지 수당을 지급하는 고용보험 제도',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   badge: '현금',
   tags: ['취업촉진수당', '조기재취업수당', '직업능력개발수당', '광역구직활동비', '이주비', '고용보험', '실업급여'],
 

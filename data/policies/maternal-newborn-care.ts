@@ -7,7 +7,7 @@ export const maternalNewbornCarePolicy = {
   amount: '건강관리사 5~25일 정부 바우처',
   deadline: '출산 후 60일 이내 신청', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '출산 가정에 산모·신생아 건강관리사를 가정 방문 형태로 파견해 산모 회복과 신생아 돌봄을 돕는 보건복지부 사업. 표준 5~25일 서비스가 가구 소득·다태아 여부에 따라 정부 바우처로 차등 지원. 출산 후 60일 이내(미숙아·쌍둥이 등은 연장) 거주지 보건소 또는 복지로에서 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '출산 가정 (소득·다태아 여부에 따라 차등 지원)',
   keyFacts: {

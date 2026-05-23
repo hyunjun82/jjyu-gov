@@ -9,6 +9,8 @@ export const middleAgedCareerSupportPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '고용노동부 / 중장년내일센터',
   summary: '퇴직 후 자격을 취득하거나 직업훈련을 이수한 50대 이상 중장년에게 기업에서 1~3개월간 실무 일경험 기회를 제공하고, 참여수당 월 최대 150만원을 지원합니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   badges: ['50대 이상', '월 최대 150만원', '1~3개월 일경험'],
   lastVerified: '2026-05-17',
 

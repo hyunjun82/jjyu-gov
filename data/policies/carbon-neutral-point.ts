@@ -15,7 +15,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
   audience: '친환경 생활을 실천하는 전 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     지원유형: { value: '현금 또는 민간기업 포인트 지급', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: '현금, 민간기업 포인트 (1인당 최대 7만원 지원)', verifiedAt: '2026-05-17' } },
     최대혜택: { value: '1인당 연 최대 7만원', source: { url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do', cardIndex: 1, text: '1인당 최대 7만원 지원', verifiedAt: '2026-05-17' } },

@@ -9,6 +9,8 @@ export const workerVacationSupportPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '문화체육관광부 · 한국관광공사',
   summary: '중소기업·소상공인 근로자가 20만원을 납입하면 정부·기업이 각 10만원씩 보조해 총 40만원의 국내여행 포인트를 지원하는 사업입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   tags: ['근로자휴가', '국내여행', '휴가지원', '중소기업', '한국관광공사'],
   badge: '여행지원',
   lastVerified: '2026-05-17',

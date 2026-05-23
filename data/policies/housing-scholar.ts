@@ -7,7 +7,7 @@ export const housingScholarPolicy = {
   amount: '학기당 100~200만원 주거비',
   deadline: '학기별', views: 0,
   applyUrl: 'https://www.moe.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '저소득·지방 출신 대학생 중 본인이 살던 지역을 벗어나 타지에서 자취·하숙 등 주거 부담을 지는 학생에게 학기당 100~200만원의 주거비를 지원하는 한국장학재단 사업. 등록금 외 주거비 부담을 직접 경감해 학업 안정을 도모. kosaf.go.kr 학기별 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '저소득·지방 출신 + 타지 거주 대학생',
   keyFacts: {

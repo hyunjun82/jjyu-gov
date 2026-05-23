@@ -7,7 +7,7 @@ export const startupSupportPolicy = {
   amount: '예비 5천만원·초기 1억원·도3억원',
   deadline: '2026.01 모집 시작', views: 0,
   applyUrl: 'https://www.k-startup.go.kr',
-  datePublished: '2026-01-06T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-06T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '중소벤처기업부가 2026년 창업지원 예산 3조 4,645억원을 투입해 예비·초기·도약 단계별 창업패키지를 운영하는 사업. 사업화 자금, 멘토링, 시장 진입, 투자 유치 연계까지 맞춤형으로 지원하며 초기창업패키지는 최대 1억원, 예비창업패키지는 최대 5천만원이 지급됩니다. 신청은 K-Startup(k-startup.go.kr)에서. 본 정책은 정부 공식 자료에 기반하며 신청 자격과 지원 금액은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '예비창업자·창업 3년 이내 초기기업·창업 7년 이내 도약기업',
   keyFacts: {

@@ -9,6 +9,8 @@ export const youthJobLeapIncentivePolicy: PolicyData = {
   org: '고용노동부',
   slug: 'youth-job-leap-incentive',
   summary: '5인 이상 우선지원대상기업이 취업애로청년(수도권) 또는 청년(비수도권)을 정규직으로 채용하고 6개월 이상 고용유지 시 최대 720만원을 지원. 비수도권은 기업 지원 외에 청년 장기근속인센티브(최대 720만원) 추가 지원.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     지원유형: {

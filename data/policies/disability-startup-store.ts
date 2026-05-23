@@ -13,6 +13,8 @@ export const disabilityStartupStorePolicy: PolicyData = {
 
   summary:
     '장애인 예비창업자·재창업자(업종전환)·초기창업자(창업 3년 미만)에게 창업점포 전·월세 보증금을 최대 1억 3천만 원 한도로 최장 5년간 지원하는 사업입니다. (재)장애인기업종합지원센터가 명의로 점포를 임차해 제공하며, 연 1~3회 모집합니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     지원내용: {

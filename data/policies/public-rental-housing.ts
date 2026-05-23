@@ -9,6 +9,8 @@ export const publicRentalHousingPolicy: PolicyData = {
   amount: '시세 30~80% 임차료',
   deadline: '공고별 상이',
   summary: '저소득·서민 가구에 시세보다 저렴한 임차료로 장기 거주를 제공하는 공공임대아파트.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     유형: {
@@ -121,7 +123,7 @@ export const publicRentalHousingPolicy: PolicyData = {
         caption: '공공임대주택 유형별 임차료 수준',
         headers: ['유형', '임차료 수준 (시세 대비)', '비고'],
         rows: [
-          ['영구임대', '약 30%', '최저소득 계층 대상'],
+          ['영구임대', '30%', '최저소득 계층 대상'],
           ['국민임대', '약 60~70%', '30년 장기'],
           ['행복주택', '약 60~80%', '청년·신혼 우대'],
           ['통합공공임대', '약 35~90%', '소득에 따라 차등'],

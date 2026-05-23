@@ -10,6 +10,8 @@ export const culturalArtsTraineePolicy: PolicyData = {
   amount: '월 180~220만원 (연수 수당)',
   deadline: '연 1회 모집 (상반기)',
   summary: '공연·전시·미술관 등 문화예술기관에서 청년이 실무를 익히는 연수단원 파견 프로그램입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '만 18~34세 청년',
     '문화예술 관련 전공자 또는 활동 경력 보유자',

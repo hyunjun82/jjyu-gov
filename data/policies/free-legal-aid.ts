@@ -10,6 +10,8 @@ export const freeLegalAidPolicy: PolicyData = {
   amount: '무료 (소송비용 지원)',
   deadline: '상시',
   summary: '경제적으로 어려운 국민에게 법률 상담·소송 대리·심판 청구를 무료로 지원합니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '기초생활수급자, 차상위계층',
     '월평균 소득 기준 이하 가구 (사건별 상이)',

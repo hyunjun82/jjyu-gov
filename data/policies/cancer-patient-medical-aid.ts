@@ -9,6 +9,8 @@ export const cancerPatientMedicalAidPolicy: PolicyData = {
   amount: '성인 연 최대 300만원, 소아 연 최대 3,000만원',
   deadline: '상시',
   summary: '저소득층 암환자에게 의료비를 지원하는 제도. 성인 연 최대 300만원(3년), 소아 연 최대 3,000만원(18세까지) 지원.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     성인지원: {

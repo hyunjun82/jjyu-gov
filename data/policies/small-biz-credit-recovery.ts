@@ -10,6 +10,8 @@ export const smallBizCreditRecoveryPolicy: PolicyData = {
   amount: '채무 조정 (이자 감면·분할 상환)',
   deadline: '상시',
   summary: '폐업·경영 위기 소상공인의 채무를 조정하여 재기를 지원하는 제도입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '사업 운영 중 또는 폐업 후 1년 이내 소상공인',
     '금융권 채무 보유자',

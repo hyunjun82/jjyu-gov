@@ -7,7 +7,7 @@ export const nationalScholarPolicy = {
   amount: '소득분위별 학기당 최대 280만원',
   deadline: '학기별 신청', views: 0,
   applyUrl: 'https://www.kosaf.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '교육부와 한국장학재단이 대학생에게 가구 소득분위별로 학비를 지원하는 대표 장학금. 기초~3구간은 학기당 최대 280만원(연 560만원) 등록금 전액 또는 일부, 4~8구간은 차등 지급. 매 학기 신청해야 하며 한국장학재단 누리집에서 온라인 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '국내 대학·전문대 재학생 (4년제·2년제 학부 모두)',
   keyFacts: {

@@ -7,7 +7,7 @@ export const infantChildcareFeePolicy = {
   amount: '연령별 월 30~50만원 정부 지원',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '어린이집에 다니는 만 0~5세 영유아에게 연령별 정부 보육료를 직접 어린이집에 지급하는 보건복지부 사업. 만 0세 51만원, 1세 45만원, 2세 38만원, 3~5세 누리과정으로 별도 지원. 부모는 별도 비용 없이 무료 또는 매우 저렴하게 어린이집 이용. 거주지 행정복지센터 또는 복지로 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '어린이집 다니는 만 0~5세 영유아',
   keyFacts: {

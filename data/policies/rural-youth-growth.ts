@@ -7,7 +7,7 @@ export const ruralYouthGrowthPolicy = {
   amount: '학습·문화체험·진로 통합 지원',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.mogef.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '인구감소지역 89개 시군에 거주하는 만 9~24세 청소년에게 학습·문화체험·진로 컨설팅 등 성장 기회를 통합 지원하는 여성가족부 사업. 도시 청소년 대비 부족한 학습·문화 기회를 메우고 지역 청소년 정착을 돕는 정책. 거주지 청소년상담복지센터 또는 청소년수련관에서 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '인구감소지역 89개 시군 거주 만 9~24세 청소년',
   keyFacts: {

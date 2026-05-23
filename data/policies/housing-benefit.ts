@@ -9,6 +9,8 @@ export const housingBenefitPolicy: PolicyData = {
   amount: '최대 월 57만 1,000원',
   deadline: '상시',
   summary: '중위소득 48% 이하 저소득 가구에 임차료(월세) 또는 자가 수선비를 지원하는 주거복지 급여.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     지원유형: {

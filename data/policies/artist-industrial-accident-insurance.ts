@@ -9,6 +9,8 @@ export const artistIndustrialAccidentInsurancePolicy: PolicyData = {
   catSlug: 'welfare',
   org: '한국예술인복지재단 · 근로복지공단',
   summary: '프리랜서 예술인이 산재보험에 가입할 수 있도록 보험사무를 대행하고, 납부 보험료의 50~90%를 환급 지원하는 사업입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   tags: ['예술인', '산재보험', '보험료지원', '프리랜서', '업무재해'],
   badge: '사회보험',
   lastVerified: '2026-05-17',
@@ -192,7 +194,7 @@ export const artistIndustrialAccidentInsurancePolicy: PolicyData = {
     },
     {
       question: '어떤 등급으로 가입하는 게 좋나요?',
-      answer: '등급이 높을수록 월 보험료가 높지만 휴업급여, 간병비 등 급여 혜택도 커집니다. 자신의 소득 수준과 리스크를 고려해 선택하세요. 보험료 50% 지원을 받으면 1등급 기준 실부담 약 7,935원(월)부터 시작됩니다.',
+      answer: '등급이 높을수록 월 보험료가 높지만 휴업급여, 간병비 등 급여 혜택도 커집니다. 자신의 소득 수준과 리스크를 고려해 선택하세요. 보험료 50% 지원을 받으면 1등급 기준 실부담 7,935원(월)부터 시작됩니다.',
     },
     {
       question: '가입 후 해지는 언제든지 가능한가요?',

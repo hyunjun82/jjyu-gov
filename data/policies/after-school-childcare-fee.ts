@@ -7,7 +7,7 @@ export const afterSchoolChildcareFeePolicy = {
   amount: '초등학교 취학 아동 어린이집 방과후 보육료',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '초등학교(12세 이하) 취학 아동이 어린이집 방과후 과정을 이용하는 경우 보육료를 정부가 어린이집에 직접 지급하는 보건복지부 사업. 초등 저학년의 방과후 돌봄 공백을 메우기 위한 정책. 거주지 행정복지센터 또는 복지로 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '12세 이하 초등학교 취학 아동 (어린이집 방과후 이용)',
   keyFacts: {

@@ -8,7 +8,7 @@ export const medicalAidElderlyDenturePolicy = {
   deadline: '연중',
   views: 0,
   applyUrl: 'https://www.mohw.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '보건복지부가 운영하는 65세 이상 의료급여수급자(1종·2종) 대상 치과 보철 지원 사업. 완전틀니(레진상·금속상)·부분틀니(클라스프)·치과임플란트(평생 2개)를 본인부담 1종 5%·2종 15%로 시술. 7년에 1회 적용 원칙이며 시술 전 사전 등록 필수. 무상수리 3개월 이내 6회 가능. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '65세 이상 의료급여수급자 (1종 또는 2종)',
   keyFacts: {

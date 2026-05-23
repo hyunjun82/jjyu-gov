@@ -9,6 +9,8 @@ export const artistActivityGrantPolicy: PolicyData = {
   amount: '1인 300만원',
   deadline: '공고별 상이',
   summary: '예술활동증명을 완료한 저소득 예술인에게 1인 300만원의 예술활동준비금을 일시 지급하는 제도.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     대상: {
@@ -60,7 +62,7 @@ export const artistActivityGrantPolicy: PolicyData = {
       },
     },
     소득기준4인: {
-      value: '4인 가구 기준 중위소득 120% = 약 779만원 이하',
+      value: '4인 가구 기준 중위소득 120% = 779만원 이하',
       source: {
         url: 'https://www.arko.or.kr/artspld/artspld01.do',
         text: '기준 중위소득 120% 이하 (4인 가구 기준)',
@@ -103,11 +105,11 @@ export const artistActivityGrantPolicy: PolicyData = {
         caption: '2026년 가구원수별 기준 중위소득 120% (예술활동준비금 소득 기준)',
         headers: ['가구원 수', '기준 중위소득 120%'],
         rows: [
-          ['1인', '약 3,077,086원'],
-          ['2인', '약 5,039,176원'],
-          ['3인', '약 6,433,343원'],
-          ['4인', '약 7,793,686원'],
-          ['5인', '약 9,089,046원'],
+          ['1인', '3,077,086원'],
+          ['2인', '5,039,176원'],
+          ['3인', '6,433,343원'],
+          ['4인', '7,793,686원'],
+          ['5인', '9,089,046원'],
         ],
       },
       sourceNote: '* 출처: 한국문화예술위원회 예술활동준비금 안내 (arko.or.kr, 2026-05-17 기준)',

@@ -14,7 +14,7 @@ export const gameAddictionHealingPolicy: PolicyData = {
   audience: '게임 과몰입 청소년(만 5~24세) 및 가족',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     대상: { value: '만 5~24세 게임 과몰입 청소년 및 가족', source: { url: 'https://www.kocca.kr', cardIndex: 1, text: '게임 과몰입 청소년(만 5~24세) 및 가족 대상', verifiedAt: '2026-05-17' } },
     이용료: { value: '무료', source: { url: 'https://www.kocca.kr', cardIndex: 1, text: '게임 과몰입 치유 프로그램 무료 제공', verifiedAt: '2026-05-17' } },

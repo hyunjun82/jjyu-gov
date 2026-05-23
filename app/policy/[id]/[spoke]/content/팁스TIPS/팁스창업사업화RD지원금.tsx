@@ -5,7 +5,7 @@ export const 팁스TIPS팁스창업사업화RD지원금SpokeContent: SpokeData =
   breadcrumb: 'TIPS > 팁스창업사업화RD지원금',
   description: 'TIPS 프로그램에서 정부가 지원하는 R&D(최대 5억)·창업사업화(1억)·해외마케팅(1억) 지원금 구조와 사용 기준을 정리합니다.',
   datePublished: '2026-05-20T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     'R&D 지원금': '최대 5억 원 / 2년 (일반 TIPS 기준)',
     '창업사업화 지원금': '최대 1억 원 / 2년',
@@ -135,7 +135,7 @@ export const 팁스TIPS팁스창업사업화RD지원금SpokeContent: SpokeData =
   faqData: [
     {
       q: 'TIPS 선정되면 지원금을 바로 받을 수 있나요?',
-      a: '선정 후 협약 체결까지 1~2개월이 소요됩니다. 협약 후 1개월 이내에 연간 지원금의 약 50%가 먼저 지급되고, 중간 점검 통과 후 나머지가 지급됩니다.',
+      a: '선정 후 협약 체결까지 1~2개월이 소요됩니다. 협약 후 1개월 이내에 연간 지원금의 50%가 먼저 지급되고, 중간 점검 통과 후 나머지가 지급됩니다.',
       source: '중소벤처기업부 TIPS 운영 공고',
       sourceUrl: 'https://www.jointips.or.kr',
     },

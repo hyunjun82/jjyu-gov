@@ -7,7 +7,7 @@ export const kMoocOnlinePolicy = {
   amount: '대학 수준 온라인 강좌 무료',
   deadline: '연중 수강', views: 0,
   applyUrl: 'https://www.kmooc.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '교육부와 국가평생교육진흥원이 운영하는 무료 온라인 공개강좌 플랫폼. 국내 주요 대학·기관의 정규 수준 강좌를 누구나 무료로 수강할 수 있고 일부 강좌는 학점 인정·수료증 발급도 가능. 평생학습·진로 전환·취업 준비·재교육에 활용. kmooc.kr 회원가입 후 즉시 수강. 본 정책은 정부 공식 자료에 기반하며 자세한 사항은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '연령·학력 무관 누구나',
   keyFacts: {

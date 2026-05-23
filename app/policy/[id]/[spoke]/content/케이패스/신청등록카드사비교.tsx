@@ -6,7 +6,7 @@ export const 케이패스신청등록카드사비교SpokeContent: SpokeData = {
   description:
     'K-패스 신청: korea-pass.kr 회원가입 → 참여 카드사 카드 발급. 월 15회 이상 이용 시 일반 20%·청년 30%·저소득 53.3% 환급. 신한·우리·하나·현대·BC·KB·DGB유페이 참여.',
   datePublished: '2026-05-20T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '신청 채널': 'korea-pass.kr 또는 K-패스 앱',
     '참여 카드사': '신한·우리·하나·현대·BC·KB·DGB유페이 등',

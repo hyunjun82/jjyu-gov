@@ -26,7 +26,7 @@ export const childcareInfantEducationPolicy = {
   views: 0,
   applyUrl: 'https://www.korea.kr/news/policyNewsView.do?newsId=148957493',
   datePublished: '2026-03-03T09:00:00+09:00',
-  dateModified: '2026-05-15T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   summary:
     '2025년 7월부터 5세 유아를 대상으로 시행하던 무상교육·보육을 2026년 3월부터 어린이집·유치원에 다니는 4~5세 유아까지 확대하는 교육부 사업. 지원 인원은 27.8만 명에서 50.3만 명으로, 예산은 1289억 원에서 4703억 원으로 늘었으며, 별도 신청 없이 학부모가 매월 납부하는 비용에서 자동 차감됩니다.',
   audience: '어린이집·유치원에 다니는 4~5세 유아 (학부모 부담분)',

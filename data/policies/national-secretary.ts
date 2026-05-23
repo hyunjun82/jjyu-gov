@@ -15,7 +15,7 @@ export const nationalSecretaryPolicy: PolicyData = {
   audience: '행정 알림을 받고 싶은 전 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     이용료: { value: '무료', source: { url: 'https://www.gov.kr/portal/service/serviceInfo/PTR000052055', cardIndex: 1, text: '국민비서 서비스 무료 이용', verifiedAt: '2026-05-17' } },
     주관부처: { value: '행정안전부', source: { url: 'https://www.gov.kr/portal/service/serviceInfo/PTR000052055', cardIndex: 1, text: '행정안전부 주관', verifiedAt: '2026-05-17' } },

@@ -5,7 +5,7 @@ export const 조회방법SpokeContent: SpokeData = {
   breadcrumb: '근로장려금 > 조회 방법',
   description: '2026년 근로장려금 신청 결과, 심사 현황, 지급 금액을 홈택스·손택스·ARS로 조회하는 방법을 국세청 공식 자료 기반으로 안내합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '홈택스 조회': 'hometax.go.kr → 장려금 신청결과',
     '손택스 조회': '손택스 앱 → 장려금',

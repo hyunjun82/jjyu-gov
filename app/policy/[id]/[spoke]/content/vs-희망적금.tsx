@@ -5,7 +5,7 @@ export const VsHopeSpokeContent: SpokeData = {
   breadcrumb: 'vs 희망적금 차이',
   description: '청년도약계좌와 청년희망적금의 만기수령액·납입한도·정부지원 9가지를 비교합니다.',
   datePublished: '2026-01-20T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '청년도약계좌 만기 수령액': '최대 5,000만원',
     '청년희망적금 만기 수령액': '최대 1,260만원',

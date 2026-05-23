@@ -7,7 +7,7 @@ export const youthWelfarePolicy = {
   amount: '심리상담·의료비·자립지원 통합',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.opm.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '국무조정실 청년정책에서 운영하는 만 19~34세 청년의 사회·복지 통합 지원. 심리상담(마음건강 바우처), 의료비 지원, 자립지원수당, 청년 안심 주거 등 청년 단계별 사회·복지 안전망. 온라인청년센터(youthcenter.go.kr)에서 본인 맞춤 검색·신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '만 19~34세 청년',
   keyFacts: {

@@ -6,7 +6,7 @@ export const 여성새로일하기센터가까운센터찾기이용절차SpokeCo
   description:
     '전국 158개 새일센터를 saeil.mogef.go.kr에서 찾는 방법과 초기 상담부터 취업 후 사후 관리까지 5단계 이용 절차를 안내합니다. 모든 서비스 무료.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '전국 센터 수': '158개소',
     '홈페이지': 'saeil.mogef.go.kr',

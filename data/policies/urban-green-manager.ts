@@ -10,6 +10,8 @@ export const urbanGreenManagerPolicy: PolicyData = {
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1~2회 모집',
   summary: '도시 내 공원·가로수·녹지를 관리하며 쾌적한 생활 환경을 만드는 공공일자리입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '만 18세 이상',
     '조경·원예·임업 관련 자격증 우대',

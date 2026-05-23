@@ -15,7 +15,7 @@ export const safeSteppingStoneAppPolicy: PolicyData = {
   audience: '스마트폰을 이용하는 전 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     이용료: { value: '무료', source: { url: 'https://www.gov.kr/portal/service/serviceInfo/PTR000052059', cardIndex: 1, text: '안전디딤돌 앱 무료 제공', verifiedAt: '2026-05-17' } },
     주관부처: { value: '행정안전부', source: { url: 'https://www.gov.kr/portal/service/serviceInfo/PTR000052059', cardIndex: 1, text: '행정안전부 주관', verifiedAt: '2026-05-17' } },

@@ -5,7 +5,7 @@ export const 예술인연금신청절차SpokeContent: SpokeData = {
   breadcrumb: '예술인국민연금 > 신청절차',
   description: '예술인 국민연금 보험료 지원 신청: kawfartist.kr 온라인 접수. 필요 서류: 소득금액증명원, 표준계약서 사본, 보험료 납부 증빙. 신청 기간 매년 2월말~8월말, 예산 소진 시 조기 마감.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '신청처': '예술인경력정보시스템(kawfartist.kr)',
     '필요 서류 1': '소득금액증명원 (홈택스 또는 주민센터 발급)',

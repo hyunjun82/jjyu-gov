@@ -7,7 +7,7 @@ export const teenSingleParentPolicy = {
   amount: '아동양육비 월 35만원 + 자립지원 등',
   deadline: '연중 신청', views: 0,
   applyUrl: 'https://www.mogef.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '만 24세 이하 청소년한부모 가구에 자녀 1인당 월 35만원의 아동양육비와 검정고시 학습비·고교생 교육비·자립촉진수당 등 자립 지원을 통합 제공하는 여성가족부 사업. 거주지 행정복지센터 또는 청소년한부모지원센터 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '만 24세 이하 청소년한부모 + 자녀 + 저소득 가구',
   keyFacts: {

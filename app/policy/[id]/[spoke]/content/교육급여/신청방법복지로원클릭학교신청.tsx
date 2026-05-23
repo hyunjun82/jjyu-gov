@@ -6,7 +6,7 @@ export const 교육급여신청방법복지로원클릭학교신청SpokeContent:
   description:
     '교육급여 신청: 복지로(bokjiro.go.kr), 교육비 원클릭(oneclick.neis.go.kr), 읍면동 주민센터 방문 3가지 채널. 매년 3~4월 안내, 연중 수시 신청 가능. ☎1544-9654.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '신청 채널': '복지로 / 교육비 원클릭 / 읍·면·동 주민센터 방문',
     '신청 기간': '매년 3~4월 (연중 수시 신청 가능)',

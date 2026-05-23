@@ -7,7 +7,7 @@ export const sunshineYouthLoanPolicy = {
   amount: '1인당 최대 1,200만원, 연 3.5%',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.fsc.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '만 19~34세 청년 중 학자금·생계비·주거비 등이 필요한 저소득·신용도 낮은 청년에게 1인당 최대 1,200만원을 연 3.5% 저금리로 대출하는 서민금융진흥원 사업. 햇살론 시리즈 중 청년 특화 상품. 서민금융통합지원센터 또는 협력 은행에서 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '만 19~34세 청년 (저소득·신용 어려움)',
   keyFacts: {

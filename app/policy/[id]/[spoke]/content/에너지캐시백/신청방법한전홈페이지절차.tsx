@@ -6,7 +6,7 @@ export const 에너지캐시백신청방법한전홈페이지절차SpokeContent:
   description:
     '에너지캐시백 신청: en-ter.co.kr/ec/main/main.do 접속 → 회원가입 → 신청 → 당월부터 적용. 한전ON 앱·한전 지사 방문 신청도 가능. 연중 상시 신청. 신청 후 실시간 절감 현황 확인.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '온라인 신청': 'en-ter.co.kr/ec/main/main.do',
     '앱 신청': '한전ON 앱에서도 신청 가능',

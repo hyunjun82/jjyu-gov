@@ -9,6 +9,8 @@ export const publicHousingSalePolicy: PolicyData = {
   amount: '시세 대비 70~80% 수준 분양가',
   deadline: '공고별 상이',
   summary: '무주택 세대구성원에게 시세보다 저렴하게 공급하는 공공분양아파트. LH·SH 청약플러스에서 신청.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     대상: {

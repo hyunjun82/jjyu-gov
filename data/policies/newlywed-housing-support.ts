@@ -10,6 +10,8 @@ export const newlywedHousingSupportPolicy: PolicyData = {
   amount: '최대 3.2억원 대출 + 임대주택 특별공급',
   deadline: '상시 신청',
   summary: '신혼부부·예비신혼부부를 위한 행복주택, 전세임대, 디딤돌대출, 버팀목대출 등 종합 주거지원. 혼인기간 7년 이내 무주택 세대주 대상.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://apply.lh.or.kr',
   sources: [
     {

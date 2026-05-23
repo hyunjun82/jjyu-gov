@@ -5,7 +5,7 @@ export const 육아기근로시간단축급여신청방법eiGovKr절차SpokeCont
   breadcrumb: '육아기근로시간단축급여 > 신청 방법',
   description: '육아기 근로시간 단축급여 신청 방법을 5단계로 안내합니다. 사업주 서면 승인부터 고용보험 홈페이지(ei.go.kr) 급여 신청까지 절차를 확인하세요.',
   datePublished: '2026-05-20T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '신청처': 'ei.go.kr 또는 전화 ☎1350',
     '사업주 승인': '서면 승인 필수 (구두 승인 효력 없음)',

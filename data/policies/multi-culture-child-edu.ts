@@ -7,7 +7,7 @@ export const multiCultureChildEduPolicy = {
   amount: '기초학습 + 진로설계 + 교육활동비 통합',
   deadline: '연중 신청', views: 0,
   applyUrl: 'https://www.mogef.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '다문화가족 자녀의 학습·진로·자아 형성을 위해 기초학습 지원, 진로설계 컨설팅, 교육활동비를 통합 지원하는 여성가족부 사업. 거주지 가족센터(구 다문화가족지원센터)에서 신청. 한국어 보조, 학교 적응, 진학·취업 진로 지도까지 연결. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '다문화가족 자녀 (학령기·청소년기)',
   keyFacts: {

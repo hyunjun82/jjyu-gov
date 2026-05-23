@@ -7,7 +7,7 @@ export const employmentPromotionPolicy = {
   amount: '근로자 1인당 최대 720만원 (1년)',
   deadline: '연중 신청', views: 0,
   applyUrl: 'https://www.work24.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '취업이 특히 어려운 취약계층(장애인·고령자·여성가장·취업성공패키지 참여자 등)을 신규 채용한 사업주에게 1인당 최대 720만원을 1년간 분할 지원하는 고용노동부 사업. 우선지원대상기업은 6개월 차에 1차 지급, 12개월 차 2차 지급. 고용24(work24)에서 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '취업 취약계층 신규 채용 사업주 (우선지원·중견·사회적기업)',
   keyFacts: {

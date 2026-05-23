@@ -10,6 +10,8 @@ export const coastalSafetyGuardPolicy: PolicyData = {
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1회 모집 (상반기)',
   summary: '해안가·항포구 등 연안 위험 지역을 순찰하며 익수 사고 예방과 안전 안내를 담당하는 공공일자리입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '만 18세 이상',
     '수상인명구조원 자격증 또는 생활체육 지도사 자격 보유 우대',

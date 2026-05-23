@@ -7,7 +7,7 @@ export const crimeVictimStablePolicy = {
   amount: '350만원 1회 지급',
   deadline: '2026.01.01 시행', views: 0,
   applyUrl: 'https://www.moj.go.kr',
-  datePublished: '2026-02-13T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-02-13T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '범죄로 5주 이상 치료가 필요한 생계위기 피해자에게 도시일용근로자 월 평균임금 상당액인 350만원을 1회에 한해 지급하는 법무부 사업. 병원 치료·심리 상담·수사·재판 참여 등으로 경제활동이 중단되는 생계 공백을 메우는 긴급 지원입니다. 2026년 1월 1일 시행.',
   audience: '범죄로 5주 이상 치료 필요한 생계위기 피해자',
   keyFacts: {

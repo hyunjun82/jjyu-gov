@@ -6,7 +6,7 @@ export const dreamScholarshipPolicy = {
   slug: 'dream-scholarship', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '해외 유학·국내 명문대 장학금 지원', deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '저소득 가구 우수 고등학생에게 해외 유학 또는 국내 명문 대학 진학을 위한 장학금과 멘토링·어학연수를 지원하는 교육부 사업. 한국장학재단 운영. 매년 일정 규모 선발해 고교 2~3학년부터 대학까지 다년간 지원하며 글로벌 인재 육성이 목표.', audience: '저소득 가구 우수 고등학생',
   keyFacts: {
     '지원유형': { value: '해외 유학 또는 국내 대학 장학금', source: { url: 'https://www.korea.kr', text: '드림 장학금', verifiedAt: '2026-05-15' } },

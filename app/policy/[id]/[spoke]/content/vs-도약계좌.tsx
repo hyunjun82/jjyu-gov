@@ -5,7 +5,7 @@ export const VsLeapSpokeContent: SpokeData = {
   breadcrumb: 'vs 도약계좌 차이',
   description: '청년미래적금과 청년도약계좌의 가입 기간·정부 지원 방식·갈아타기 조건 등 10가지를 비교합니다.',
   datePublished: '2026-04-24T09:00:00+09:00',
-  dateModified: '2026-05-13T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '청년미래적금 만기': '3년',
     '청년도약계좌 만기': '5년',
@@ -105,7 +105,7 @@ export const VsLeapSpokeContent: SpokeData = {
   faqData: [
     {
       q: '미래적금이 도약계좌보다 왜 더 유리한가요?',
-      a: '3년으로 기간이 짧고, 우대형 기여금이 12%로 도약계좌 최고 매칭(약 6%)보다 높습니다. 소상공인·신규취업자 등 우대형 자격이 되면 더욱 유리합니다.',
+      a: '3년으로 기간이 짧고, 우대형 기여금이 12%로 도약계좌 최고 매칭(6%)보다 높습니다. 소상공인·신규취업자 등 우대형 자격이 되면 더욱 유리합니다.',
       source: '금융위원회 카드뉴스 (2026.04.24)',
       sourceUrl: 'https://www.fsc.go.kr/no040101?cnId=3187',
     },

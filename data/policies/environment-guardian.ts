@@ -10,6 +10,8 @@ export const environmentGuardianPolicy: PolicyData = {
   amount: '월 180~220만원 (공공근로 수당)',
   deadline: '연 1~2회 모집',
   summary: '하천·산림·공원 등 환경 현장에서 환경 감시·정화 활동을 수행하는 공공근로 일자리입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '만 18세 이상 취업 취약 계층 (실업자·저소득층 우선)',
     '청년(만 18~34세) 특별 전형 별도 운영',

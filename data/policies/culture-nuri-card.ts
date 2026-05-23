@@ -9,6 +9,8 @@ export const cultureNuriCardPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '문화체육관광부 · 한국문화예술위원회',
   summary: '기초생활수급자·차상위계층에게 연간 15만원(생애주기 추가 1만원)의 문화누리카드를 지원하여 도서·공연·여행·스포츠 등 다양한 문화생활을 즐길 수 있도록 돕습니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   tags: ['문화누리카드', '통합문화이용권', '기초수급자', '차상위계층', '문화생활'],
   badge: '문화지원',
   lastVerified: '2026-05-17',

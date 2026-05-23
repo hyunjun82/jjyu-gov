@@ -7,7 +7,7 @@ export const disabledWomenChildcarePolicy = {
   amount: '장애아보육료 63.4만원(종일)/31.7만원(방과후)',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.childcare.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '장애인 부모(특히 여성장애인)의 자녀는 영유아보육법 제28조에 따라 어린이집 우선 입소 대상이 되며, 자녀가 장애아동인 경우 종일 보육료 63.4만원, 방과후 보육료 31.7만원을 정부가 지원합니다. 소득 수준에 관계없이 지원되며 아이사랑 포털(childcare.go.kr) 또는 거주지 주민센터에서 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '장애인 부모(여성장애인 포함)의 자녀 또는 장애아동',
   keyFacts: {

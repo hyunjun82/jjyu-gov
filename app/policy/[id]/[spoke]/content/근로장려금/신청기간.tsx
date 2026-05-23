@@ -5,7 +5,7 @@ export const 신청기간SpokeContent: SpokeData = {
   breadcrumb: '근로장려금 > 신청 기간',
   description: '2026년 근로장려금 정기신청·반기신청·기한 후 신청 기간, 마감일, 놓쳤을 때 대처 방법을 국세청 공식 자료 기반으로 안내합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '정기신청': '2026년 5월 1일~6월 1일',
     '반기신청 상반기': '2026년 9월 1일~15일',

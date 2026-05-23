@@ -14,7 +14,7 @@ export const cultureDayPolicy: PolicyData = {
   audience: '문화 생활을 즐기려는 전 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     시행일: { value: '매월 마지막 주 수요일', source: { url: 'https://www.culture.go.kr/wday/', cardIndex: 1, text: '매월 마지막 주 수요일', verifiedAt: '2026-05-17' } },
     주관부처: { value: '문화체육관광부', source: { url: 'https://www.culture.go.kr/wday/', cardIndex: 1, text: '문화체육관광부 주관', verifiedAt: '2026-05-17' } },

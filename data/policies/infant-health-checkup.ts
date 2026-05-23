@@ -7,7 +7,7 @@ export const infantHealthCheckupPolicy = {
   amount: '무료 (국민건강보험 부담)',
   deadline: '시기별 정기', views: 0,
   applyUrl: 'https://www.nhis.or.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '만 6세 미만 영유아의 성장과 발달 상태를 점검하고 질병을 조기 발견하기 위해 8회 일반 건강검진 + 8회 구강검진을 무료로 제공하는 보건복지부 사업. 국민건강보험 가입 자녀라면 보호자에게 검진 안내장이 자동 발송되고 지정 의료기관에서 무료 검진. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '만 6세 미만 영유아 (건강보험 가입자)',
   keyFacts: {

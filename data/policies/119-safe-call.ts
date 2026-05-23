@@ -15,7 +15,7 @@ export const safecall119Policy: PolicyData = {
   audience: '만성질환자·응급상황 대비가 필요한 전 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     서비스명: { value: '119안심콜', source: { url: 'https://www.119.go.kr/m/sub5/5_11.jsp', cardIndex: 1, text: '119안심콜 서비스', verifiedAt: '2026-05-17' } },
     주관부처: { value: '소방청', source: { url: 'https://www.119.go.kr/m/sub5/5_11.jsp', cardIndex: 1, text: '소방청 운영', verifiedAt: '2026-05-17' } },

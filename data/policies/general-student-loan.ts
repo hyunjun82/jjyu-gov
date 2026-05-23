@@ -7,7 +7,7 @@ export const generalStudentLoanPolicy = {
   amount: '등록금 전액 + 생활비 학기당 150만원',
   deadline: '학기 시작 전', views: 0,
   applyUrl: 'https://www.moe.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '한국장학재단이 운영하는 대학생 학자금 대출. 등록금 전액과 학기당 생활비 150만원까지 대출 가능하며 재학 중 무이자, 졸업 후 분할상환. 가구 소득분위 9~10구간 등 국가장학금 미수혜자도 신청 가능. kosaf.go.kr에서 학기별 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '국내 대학·전문대 재학생',
   keyFacts: {

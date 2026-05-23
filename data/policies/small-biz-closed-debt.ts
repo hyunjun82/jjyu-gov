@@ -10,6 +10,8 @@ export const smallBizClosedDebtPolicy: PolicyData = {
   amount: '채무 조정 + 재기 지원금 최대 200만원',
   deadline: '상시',
   summary: '폐업한 소상공인의 사업 관련 채무를 조정하고, 재창업·취업 등 재기를 위한 종합 지원 서비스를 제공합니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '폐업 소상공인 (폐업 후 3년 이내)',
     '사업 관련 금융 채무 보유자',

@@ -5,7 +5,7 @@ export const 팁스TIPS팁스운영사선정매칭절차SpokeContent: SpokeData 
   breadcrumb: 'TIPS > 팁스운영사선정매칭절차',
   description: 'TIPS 프로그램 운영사 유형별 특징과 IR 미팅 요청부터 투자 협상, TIPS 추천·심사 통과까지 전체 절차를 정리합니다.',
   datePublished: '2026-05-20T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '운영사 수': '약 70~80개 활동 운영사',
     '운영사 유형': 'VC·액셀러레이터·기업형 CVC·전문투자조합',

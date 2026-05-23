@@ -10,6 +10,8 @@ export const youthDesignerInternshipPolicy: PolicyData = {
   amount: '월 180~220만원 (인턴 수당)',
   deadline: '연 1~2회 모집',
   summary: '디자인 전공 청년을 공공기관·공기업에 인턴으로 파견하여 실무 역량과 취업 경쟁력을 높이는 프로그램입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '만 18~34세 청년',
     '디자인 관련 전공 졸업(예정)자',

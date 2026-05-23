@@ -5,7 +5,7 @@ export const 환수추징SpokeContent: SpokeData = {
   breadcrumb: '근로장려금 > 환수·추징',
   description: '근로장려금 환수·추징 사유, 반환 금액 기준, 분납 방법, 가산세 여부를 국세청 공식 자료 기반으로 안내합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
-  dateModified: '2026-05-19T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '환수 사유': '소득·재산 과소 신고, 자격 미달 등',
     '반환 방법': '자진 납부 또는 고지서 납부',

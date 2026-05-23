@@ -10,6 +10,8 @@ export const basicLivelihoodAllowancePolicy: PolicyData = {
   title: '2026 기초생활수급자 생계급여',
   summary:
     '소득인정액이 기준 중위소득 32% 이하인 가구에 생계에 필요한 현금을 지급해 최저 생활을 보장하는 공공부조 제도. 생계급여액 = 생계급여 선정기준 - 소득인정액',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   tags: ['기초생활수급자', '생계급여', '공공부조', '최저생계', '기준중위소득', '저소득층', '복지급여'],
 
   keyFacts: {

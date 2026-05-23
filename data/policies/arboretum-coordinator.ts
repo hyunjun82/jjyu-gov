@@ -10,6 +10,8 @@ export const arboretumCoordinatorPolicy: PolicyData = {
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1회 모집 (상반기)',
   summary: '국립수목원 및 공립 수목원에서 방문자 안내, 식물 해설, 교육 프로그램 진행을 담당하는 공공일자리입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '만 18세 이상',
     '식물학·원예학·임학 관련 전공 우대',

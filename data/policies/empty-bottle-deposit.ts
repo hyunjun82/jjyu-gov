@@ -14,7 +14,7 @@ export const emptyBottleDepositPolicy: PolicyData = {
   audience: '빈 유리병을 반납하려는 전 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     환불금액: { value: '용기당 70~350원 (병 종류에 따라 상이)', source: { url: 'https://www.recyclebc.kr', cardIndex: 1, text: '빈 유리병 보증금 70~350원', verifiedAt: '2026-05-17' } },
     주관부처: { value: '환경부', source: { url: 'https://www.recyclebc.kr', cardIndex: 1, text: '환경부 주관 빈용기 보증금 제도', verifiedAt: '2026-05-17' } },

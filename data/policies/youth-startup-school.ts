@@ -7,7 +7,7 @@ export const youthStartupSchoolPolicy = {
   amount: '사업화 자금 최대 1억원 + 입주·교육·멘토링',
   deadline: '연 1회 모집 (1~3월)', views: 0,
   applyUrl: 'https://www.mss.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '중소벤처기업진흥공단이 운영하는 만 39세 이하 청년 창업자 종합 지원 사관학교 사업. 사업화 자금 최대 1억원과 1년간 사무 공간(입주), 창업 교육, 전담 멘토링, 투자 연계까지 통합 제공. 전국 17개 지역 사관학교에서 운영되며 K-Startup(k-startup.go.kr)에서 1~3월 모집 시기에 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '만 39세 이하 + 창업 후 3년 이내 기업 대표',
   keyFacts: {

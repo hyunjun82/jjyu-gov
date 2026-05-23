@@ -6,7 +6,7 @@ export const familyCareLeaveLongPolicy = {
   slug: 'family-care-leave-long', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '최대 90일 가족돌봄휴가', deadline: '연중', views: 0,
   applyUrl: 'https://www.bokjiro.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '가족의 질병·사고·노령 등으로 장기 돌봄이 필요한 경우 근로자가 최대 90일까지 사용할 수 있는 장기 휴직 제도. 1년 단위로 분할 사용 가능하며 30일 이상 단위로 분할. 무급 원칙이지만 일부 지원 사업도 운영. 사업주가 정당한 사유 없이 거부 불가.', audience: '근로자 (장기 가족 돌봄 사유 발생 시)',
   keyFacts: {
     '지원유형': { value: '장기 휴직 (무급 원칙)', source: { url: 'https://www.korea.kr', text: '장기 휴직', verifiedAt: '2026-05-15' } },

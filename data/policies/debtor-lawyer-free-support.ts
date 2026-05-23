@@ -9,6 +9,8 @@ export const debtorLawyerFreeSupportPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '금융감독원 · 대한법률구조공단',
   summary: '불법사금융 피해자에게 대한법률구조공단 소속 변호사를 무료로 연결해 불법추심 대응·소송까지 지원하는 제도입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   tags: ['불법추심', '채무자대리인', '무료변호사', '불법사금융', '개인회생', '파산'],
 
   keyFacts: {

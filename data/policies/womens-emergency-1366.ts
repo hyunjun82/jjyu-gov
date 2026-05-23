@@ -15,7 +15,7 @@ export const womensEmergency1366Policy: PolicyData = {
   audience: '가정폭력·성폭력·성매매 피해 여성 및 가족',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     전화번호: { value: '☎1366 (365일 24시간)', source: { url: 'https://www.mogef.go.kr/sp/yhs/sp_yhs_f001.do', cardIndex: 1, text: '1366 - 365일 24시간 운영', verifiedAt: '2026-05-17' } },
     운영시간: { value: '365일 24시간 연중무휴', source: { url: 'https://www.mogef.go.kr/sp/yhs/sp_yhs_f001.do', cardIndex: 1, text: '365일 24시간 언제든지 이용 가능', verifiedAt: '2026-05-17' } },

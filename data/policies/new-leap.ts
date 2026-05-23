@@ -16,7 +16,7 @@ export const newleapPolicy = {
   views: 215000,
   applyUrl: 'https://www.newleap.or.kr',
   datePublished: '2026-01-01T09:00:00+09:00',
-  dateModified: '2026-05-15T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   summary:
     '7년 이상 연체된 무담보 채무 원금 5천만원 이하 개인의 채권을 정부가 일괄 매입해 즉시 추심 중단하고, 상환능력 심사 결과에 따라 소각 또는 강화된 채무조정을 지원하는 종합재기 프로그램. 별도 신청 없이 정부가 개별 통보합니다.',
   audience: '7년 이상 연체 중인 무담보 채무 원금 5천만원 이하 개인(개인사업자 포함)',

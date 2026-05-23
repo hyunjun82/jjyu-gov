@@ -10,6 +10,8 @@ export const smallBizBankDebtPolicy: PolicyData = {
   amount: '채무 최대 90% 감면 가능',
   deadline: '상시',
   summary: '코로나·경영 위기로 부실화된 소상공인의 은행권 대출 채무를 최대 90%까지 감면하여 재기를 지원하는 새출발기금 제도입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [
     '코로나19 피해 소상공인 (2020.4.1~2022.9.24 대출 보유)',
     '현재 또는 폐업 소상공인',

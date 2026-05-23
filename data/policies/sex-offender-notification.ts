@@ -14,7 +14,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
   audience: '아동·청소년 보호자, 관련 기관 종사자',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     고지대상: { value: '아동·청소년 대상 성범죄자', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '아동·청소년 대상 성범죄자 신상정보 고지', verifiedAt: '2026-05-17' } },
     열람방법: { value: '인터넷(sexoffender.go.kr) 또는 주소지 관할 경찰서', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '인터넷 열람 및 주소지 경찰서 방문 열람', verifiedAt: '2026-05-17' } },

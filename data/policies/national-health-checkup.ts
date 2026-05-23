@@ -10,6 +10,8 @@ export const nationalHealthCheckupPolicy: PolicyData = {
   amount: '전액 무료 (공단 전액 부담)',
   deadline: '매년 1월 1일 ~ 12월 31일',
   summary: '만 20세 이상 건강보험 가입자·의료급여 수급자에게 2년마다 무료 건강검진 제공. 일반검진+암검진+생애전환기검진 통합 운영.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do',
   sources: [
     {

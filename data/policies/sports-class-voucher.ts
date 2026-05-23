@@ -9,6 +9,8 @@ export const sportsClassVoucherPolicy: PolicyData = {
   amount: '월 최대 10만 5,000원',
   deadline: '2026.12.31',
   summary: '저소득층 아동·청소년(5~18세)에게 수영·태권도 등 스포츠 강좌 이용 바우처를 월 최대 10만 5,000원 지원.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     대상연령: {

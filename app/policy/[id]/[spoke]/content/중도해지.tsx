@@ -5,7 +5,7 @@ export const CancelSpokeContent: SpokeData = {
   breadcrumb: '중도해지',
   description: '청년미래적금 중도해지 시 정부기여금 전액 환수·비과세 소멸. 특별 중도해지 사유 5가지와 갈아타기 조건.',
   datePublished: '2026-04-24T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '일반 중도해지 기여금': '전액 환수',
     '일반 중도해지 이자': '15.4% 과세',

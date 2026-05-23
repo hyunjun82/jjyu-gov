@@ -9,6 +9,8 @@ export const sharingTicketPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '문화체육관광부 · 나눔티켓사무국',
   summary: '기초생활수급자·차상위계층·학생 등에게 공연·전시 티켓을 50~80% 할인된 가격으로 제공하는 문화향유 지원사업입니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   tags: ['나눔티켓', '공연할인', '문화향유', '기초생활수급자', '차상위계층'],
   badge: '문화지원',
   lastVerified: '2026-05-17',

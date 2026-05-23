@@ -15,7 +15,7 @@ export const benefitNotificationServicePolicy: PolicyData = {
   audience: '복지급여·지원 서비스 정보가 필요한 전 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     서비스명: { value: '복지로 혜택알리미', source: { url: 'https://www.bokjiro.go.kr', cardIndex: 1, text: '복지로 혜택알리미 서비스', verifiedAt: '2026-05-17' } },
     주관부처: { value: '보건복지부', source: { url: 'https://www.bokjiro.go.kr', cardIndex: 1, text: '보건복지부 주관 복지로 서비스', verifiedAt: '2026-05-17' } },

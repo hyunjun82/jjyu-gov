@@ -7,7 +7,7 @@ export const kMoveSchoolPolicy = {
   amount: '해외 취업 연수비 전액 + 항공권·체재비',
   deadline: '연중', views: 0,
   applyUrl: 'https://www.moel.go.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '고용노동부와 한국산업인력공단이 운영하는 청년 해외취업 연수 사업. 미국·일본·호주·중동·동남아 등 다양한 국가의 해외 일자리에 맞춰 어학·기술·문화 연수를 무료로 받고 항공권·체재비도 지원. 만 18~34세 청년이 대상이며 월드잡플러스(worldjob.or.kr) 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '만 18~34세 청년 (해외 취업 희망)',
   keyFacts: {

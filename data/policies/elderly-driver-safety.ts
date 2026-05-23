@@ -8,7 +8,7 @@ export const elderlyDriverSafetyPolicy = {
   deadline: '면허갱신일 기준 (생일 전후 6개월)',
   views: 0,
   applyUrl: 'https://www.koroad.or.kr',
-  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-15T09:00:00+09:00',
+  datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '도로교통공단이 운영하는 만 65세 이상 고령 운전자 대상 교통안전교육 사업. 만 75세 이상은 면허갱신(적성검사) 시 의무 이수, 만 65~74세는 권장 이수. 교육은 자연스러운 노화에 따른 신체·인지 기능 변화를 고려한 안전운전 방법을 학습. 본인부담 없이 무료이며 온라인(trafficedu.koroad.or.kr) 또는 도로교통공단 운전면허시험장 집합 교육으로 이수 가능. 2026년부터 면허갱신 시기가 생일 전후 6개월로 변경. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   audience: '만 65세 이상 운전면허 소지자',
   keyFacts: {

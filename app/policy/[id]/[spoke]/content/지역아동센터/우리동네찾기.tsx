@@ -6,7 +6,7 @@ export const 지역아동센터우리동네찾기SpokeContent: SpokeData = {
   description:
     '지역아동센터 위치는 icareinfo.go.kr 또는 복지로에서 지도 검색. 만 18세 미만 아동 신청 가능, 저소득 우선. 비용 저소득 무료 일반 월 0~3만원.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '위치 검색': 'icareinfo.go.kr 또는 복지로(bokjiro.go.kr)',
     '전국 센터 수': '약 4,400개',

@@ -12,6 +12,8 @@ export const incomeContingentLoanPolicy: PolicyData = {
 
   summary:
     '재학 중에는 이자만 납부하고 졸업 후 소득이 생길 때 상환하는 학자금 대출. 2026년부터 등록금 대출의 소득 요건이 폐지되어 모든 대학·대학원생이 신청 가능. 금리 연 1.7% (6년 연속 동결).',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
 
   keyFacts: {
     금리: {

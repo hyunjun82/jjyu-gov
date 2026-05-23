@@ -9,6 +9,8 @@ export const collegeStudentHousingPolicy: PolicyData = {
   catSlug: 'youth',
   org: '국토교통부 · 한국토지주택공사(LH)',
   summary: '대학생을 위한 행복주택·기숙사형 청년주택·청년 전세임대 등 저렴한 공공임대주택 지원. 주변 시세 대비 40~80% 수준으로 입주 가능합니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   tags: ['대학생', '주거지원', '행복주택', '기숙사형청년주택', '공공임대'],
   badge: '주거지원',
   lastVerified: '2026-05-17',

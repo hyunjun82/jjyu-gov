@@ -9,7 +9,7 @@ export const preschoolTuitionPolicy = {
   views: 0,
   applyUrl: 'https://www.moe.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00',
-  dateModified: '2026-05-16T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   summary: '만 3~5세 아동이 유치원에 다닐 경우 국가에서 교육비(누리과정 지원금)를 지원하는 제도입니다. 공립유치원은 사실상 무상, 사립유치원은 정부지원금 적용 후 학부모 부담이 크게 줄어들며 2026년부터 지원이 확대되었습니다.',
   audience: '만 3~5세 유아 (유치원 재원 중인 아동)',
 

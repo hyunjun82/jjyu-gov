@@ -14,7 +14,7 @@ export const noiseMeterRentalPolicy: PolicyData = {
   audience: '생활 소음 피해를 받는 국민',
   views: 0,
   datePublished: '2026-01-01',
-  dateModified: '2026-05-17',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     대여료: { value: '무료', source: { url: 'https://www.eco.go.kr', cardIndex: 1, text: '소음 측정기 무료 대여', verifiedAt: '2026-05-17' } },
     주관기관: { value: '환경부 / 한국환경공단', source: { url: 'https://www.eco.go.kr', cardIndex: 1, text: '환경부·한국환경공단 운영', verifiedAt: '2026-05-17' } },

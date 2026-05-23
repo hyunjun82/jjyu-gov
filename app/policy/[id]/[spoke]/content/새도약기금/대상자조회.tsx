@@ -6,7 +6,7 @@ export const 대상자조회SpokeContent: SpokeData = {
   description:
     '새도약기금 대상자 여부는 newleap.or.kr 채무현황 조회 또는 1660-0705 상담센터로 확인합니다. 채권 매입 즉시 추심 중단, 이후 상환능력 심사로 소각 또는 채무조정이 결정됩니다. 신청 대행을 권유하는 연락은 사기입니다.',
   datePublished: '2026-05-20T09:00:00+09:00',
-  dateModified: '2026-05-20T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     '온라인 조회': 'newleap.or.kr 채무현황 조회',
     '전화 상담': '1660-0705 (평일 09:00~18:00)',

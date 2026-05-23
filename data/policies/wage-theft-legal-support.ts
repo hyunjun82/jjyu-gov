@@ -9,6 +9,8 @@ export const wageTheftLegalSupportPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '고용노동부 / 대한법률구조공단',
   summary: '체불근로자가 소송을 통해 임금채권을 행사할 수 있도록 대한법률구조공단에서 소송대리·소장 작성 등 법률구조 서비스를 무료로 제공합니다. 소요 비용은 고용노동부가 부담합니다.',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-05-23T09:00:00+09:00',
   badges: ['무료 소송 지원', '외국인 포함', '임금채권보장법 제19조'],
   lastVerified: '2026-05-17',
 
