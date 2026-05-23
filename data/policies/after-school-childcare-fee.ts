@@ -120,11 +120,6 @@ export const afterSchoolChildcareFeePolicy = {
 } as const;
 
 export const afterSchoolChildcareFeeSpokes = [
-  { slug: 'amount', role: 'amount', title: '어린이집 직접 지급 - 본인 부담 ↓', content: '식대만 자부담.' },
-  { slug: 'eligibility', role: 'eligibility', title: '12세 이하 초등 취학', content: '소득 무관.' },
-  { slug: 'apply', role: 'apply', title: '행정복지센터 또는 복지로', content: '어린이집 등록 필수.' },
-  { slug: 'program', role: 'usage', title: '식사·숙제·놀이·예체능', content: '초등 눈높이.' },
-  { slug: 'overlap', role: 'overlap', title: '학교 방과후·온동네 등 모두 중복', content: '시간대별 결합.' },
   { slug: '신청방법', title: '방과후 보육료 지원 | 일반아동 10만원 · 장애아 31만원 신청 방법' },
   { slug: '초등어린이집', title: '초등학교 다니는 아이를 어린이집에 보내도 방과후 보육료 지원이 되나' },
   { slug: '연장보육료중복', title: '방과후 보육료와 연장보육료, 중복 신청이 가능한가 | 조건 정리' },
