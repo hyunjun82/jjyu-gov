@@ -32,8 +32,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-// 레지스트리에 없는 spoke 경로 → 404
-export const dynamicParams = false;
+// 레지스트리에 없는 spoke 도 런타임에 처리 (SpokeClient 내부에서 fallback 렌더)
+export const dynamicParams = true;
 
 export default async function SpokePage(props: {
   params: Promise<{ id: string; spoke: string }>;
