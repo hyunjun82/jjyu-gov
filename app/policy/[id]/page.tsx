@@ -21,7 +21,7 @@ export function generateStaticParams() {
   return params;
 }
 
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 export default async function PolicyDetailPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;

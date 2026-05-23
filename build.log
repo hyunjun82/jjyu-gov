@@ -1,0 +1,36 @@
+
+> gov-jjyu-hub@2.0.0 build
+> next build
+
+   ▲ Next.js 15.5.13
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./app/policy/[id]/PolicyDetailClient.tsx
+Module not found: Can't resolve '@/components/PolicySidebar'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/policy/[id]/PolicyDetailClient.tsx
+Module not found: Can't resolve '@/components/KeyFactsBox'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/policy/[id]/PolicyDetailClient.tsx
+Module not found: Can't resolve '@/components/CollapsibleTOC'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/policy/[id]/PolicyDetailClient.tsx
+Module not found: Can't resolve '@/components/QACard'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/policy/[id]/PolicyDetailClient.tsx
+Module not found: Can't resolve '@/lib/schema'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors

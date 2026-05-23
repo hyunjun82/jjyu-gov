@@ -3,37 +3,37 @@ import { PoliciesBySlug } from '@/data/policies/manifest';
 import { getKoAliasForSlug } from '@/lib/policy-aliases';
 import SpokeClient from './SpokeClient';
 
-// Edge runtime 제거 → 정적 생성 활성화
-// (Edge runtime이 있으면 Cloudflare Workers 3 MiB 한도 초과)
-
 export async function generateStaticParams() {
-  const params: { id: string; spoke: string }[] = [];
+  try {
+    const params: { id: string; spoke: string }[] = [];
+    const registry = SpokesRegistry ?? {};
 
-  for (const [policySlug, spokes] of Object.entries(SpokesRegistry)) {
-    const policy = PoliciesBySlug[policySlug];
-    const koAlias = getKoAliasForSlug(policySlug);
+    for (const [policySlug, spokes] of Object.entries(registry)) {
+      if (!spokes || typeof spokes !== 'object') continue;
 
-    for (const spokeKey of Object.keys(spokes)) {
-      // slug 기반 URL (/policy/basic-pension/수급자격)
-      params.push({ id: policySlug, spoke: spokeKey });
+      const policy = PoliciesBySlug?.[policySlug];
+      let koAlias: string | null = null;
+      try { koAlias = getKoAliasForSlug(policySlug); } catch { koAlias = null; }
 
-      // 숫자 id 기반 URL (/policy/2/수급자격) — 홈 페이지 링크 형식
-      if (policy?.id) {
-        params.push({ id: String(policy.id), spoke: spokeKey });
-      }
-
-      // 한글 정책 slug + 한글 spoke 조합 (/policy/기초연금/수급자격)
-      if (koAlias) {
-        params.push({ id: koAlias, spoke: spokeKey });
+      for (const spokeKey of Object.keys(spokes)) {
+        params.push({ id: policySlug, spoke: spokeKey });
+        if (policy?.id) {
+          params.push({ id: String(policy.id), spoke: spokeKey });
+        }
+        if (koAlias) {
+          params.push({ id: koAlias, spoke: spokeKey });
+        }
       }
     }
-  }
 
-  return params;
+    return params;
+  } catch (e) {
+    console.error('[generateStaticParams spoke] error:', e);
+    return [];
+  }
 }
 
-// 레지스트리에 없는 spoke 도 런타임에 처리 (SpokeClient 내부에서 fallback 렌더)
-export const dynamicParams = true;
+export const dynamicParams = false;
 
 export default async function SpokePage(props: {
   params: Promise<{ id: string; spoke: string }>;
