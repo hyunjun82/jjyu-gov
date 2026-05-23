@@ -6,7 +6,7 @@
  *
  * generateStaticParams 와 클라이언트 lookup 양쪽에서 사용.
  */
-import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
+import { PoliciesById, PoliciesBySlug, SpokesBySlug } from '@/data/policies/manifest';
 import { SpokesRegistry } from '@/data/spokes/registry';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -50,8 +50,9 @@ export function getKoAliasForSlug(policySlug: string): string | null {
  * 영문 URL(`/policy/138/interest-rate`)도 살리기 위해
  */
 export const SpokeEnAliases: Record<string, Record<string, string>> = {};
-for (const [policySlug, policy] of Object.entries(PoliciesBySlug)) {
-  const enSpokes = (policy as AnyPolicy)?.spokes ?? [];
+for (const policySlug of Object.keys(PoliciesBySlug)) {
+  // 정책 데이터 spokes 배열은 SpokesBySlug 에 별도 export 되어있음 (정책 객체 .spokes 가 아님!)
+  const enSpokes = (SpokesBySlug?.[policySlug] ?? []) as AnyPolicy[];
   const koMap = SpokesRegistry?.[policySlug] ?? {};
   const koKeys = Object.keys(koMap);
   const aliases: Record<string, string> = {};
