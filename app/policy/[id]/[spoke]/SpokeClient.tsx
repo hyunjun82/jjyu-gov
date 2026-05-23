@@ -67,6 +67,7 @@ function renderWithHi(text: any, highlights: string[] = []): ReactNode {
 
 /* ── manifest & 레지스트리 (단일 소스) ── */
 import { PoliciesById, PoliciesBySlug, SpokesById, SpokesBySlug } from '@/data/policies/manifest';
+import { PoliciesByKoAlias } from '@/lib/policy-aliases';
 import { SpokesRegistry } from '@/data/spokes/registry';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
@@ -75,10 +76,10 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const slug     = decodeURIComponent(params.spoke);
-  const policyId = params.id;
+  const policyId = decodeURIComponent(params.id);
 
-  /* 정책 데이터 — slug 로 먼저 조회, 없으면 숫자 id 로 fallback */
-  const policy     = PoliciesBySlug[policyId] ?? PoliciesById[policyId];
+  /* 정책 데이터 — slug → 숫자 id → 한글 별칭 순으로 조회 */
+  const policy     = PoliciesBySlug[policyId] ?? PoliciesById[policyId] ?? PoliciesByKoAlias[policyId];
   const policySlug = policy?.slug ?? policyId;
   const policyTitle = policy?.title ?? '정책';
   const applyUrl    = policy?.applyUrl ?? 'https://www.gov.kr';

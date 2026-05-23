@@ -14,14 +14,19 @@ import {
   toJsonLd,
 } from '@/lib/schema';
 import { PoliciesById, PoliciesBySlug, SpokesById, SpokesBySlug } from '@/data/policies/manifest';
+import { PoliciesByKoAlias, PolicyKoAliasBySlug } from '@/lib/policy-aliases';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 const spokeLists: Record<string, any[]> = { ...SpokesById, ...SpokesBySlug };
+// 한글 별칭에도 같은 spoke 목록 매핑
+for (const [slug, ko] of Object.entries(PolicyKoAliasBySlug)) {
+  if (SpokesBySlug[slug]) spokeLists[ko] = SpokesBySlug[slug];
+}
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-const policies: Record<string, any> = { ...PoliciesById, ...PoliciesBySlug };
+const policies: Record<string, any> = { ...PoliciesById, ...PoliciesBySlug, ...PoliciesByKoAlias };
 
 // ── 본문 텍스트 안 highlights 단어를 노란 형광으로 자동 강조 ──
 function renderWithHi(text: string, highlights: string[] = []): ReactNode {
