@@ -1,5 +1,5 @@
 import { SpokesRegistry } from '@/data/spokes/registry';
-import { PoliciesBySlug } from '@/data/policies/manifest';
+import { PoliciesBySlug, SpokesBySlug } from '@/data/policies/manifest';
 import { getKoAliasForSlug, SpokeEnAliases } from '@/lib/policy-aliases';
 import SpokeClient from './SpokeClient';
 
@@ -34,6 +34,19 @@ export async function generateStaticParams() {
         }
         if (koAlias) {
           params.push({ id: koAlias, spoke: enSlug });
+        }
+      }
+
+      // 정책 데이터 spokes 배열의 모든 영문 slug 무조건 등록 (매핑 안 되더라도 SpokeClient fallback)
+      const policySpokes = (SpokesBySlug?.[policySlug] ?? []) as { slug?: string }[];
+      for (const ps of policySpokes) {
+        if (!ps?.slug || enAliases[ps.slug]) continue; // 이미 등록된 건 skip
+        params.push({ id: policySlug, spoke: ps.slug });
+        if (policy?.id) {
+          params.push({ id: String(policy.id), spoke: ps.slug });
+        }
+        if (koAlias) {
+          params.push({ id: koAlias, spoke: ps.slug });
         }
       }
     }

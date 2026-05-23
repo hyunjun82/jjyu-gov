@@ -193,6 +193,12 @@ import { forestDisasterResponsePolicy, forestDisasterResponseSpokes } from './fo
 import { publicForestManagerPolicy, publicForestManagerSpokes } from './public-forest-manager';
 import { workerVacationSupportPolicy, workerVacationSupportSpokes } from './worker-vacation-support';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
+import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
+import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
+import { collegeStudentHousingPolicy, collegeStudentHousingSpokes } from './college-student-housing';
+import { cultureNuriCardPolicy, cultureNuriCardSpokes } from './culture-nuri-card';
+import { nationalHealthCheckupPolicy, nationalHealthCheckupSpokes } from './national-health-checkup';
+import { sharingTicketPolicy, sharingTicketSpokes } from './sharing-ticket';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -525,6 +531,12 @@ export const PoliciesBySlug: Record<string, any> = {
   'public-forest-manager': publicForestManagerPolicy,
   'worker-vacation-support': workerVacationSupportPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
+  'artist-employment-insurance': artistEmploymentInsurancePolicy,
+  'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
+  'college-student-housing': collegeStudentHousingPolicy,
+  'culture-nuri-card': cultureNuriCardPolicy,
+  'national-health-checkup': nationalHealthCheckupPolicy,
+  'sharing-ticket': sharingTicketPolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -858,4 +870,10 @@ export const SpokesBySlug: Record<string, any[]> = {
   'public-forest-manager': publicForestManagerSpokes,
   'worker-vacation-support': workerVacationSupportSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
+  'artist-employment-insurance': artistEmploymentInsuranceSpokes,
+  'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
+  'college-student-housing': collegeStudentHousingSpokes,
+  'culture-nuri-card': cultureNuriCardSpokes,
+  'national-health-checkup': nationalHealthCheckupSpokes,
+  'sharing-ticket': sharingTicketSpokes,
 };

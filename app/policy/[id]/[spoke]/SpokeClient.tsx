@@ -93,13 +93,18 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   const spoke    = spokeMap[resolvedKey];
 
   if (!spoke) {
+    // 매핑 안 된 영문 spoke URL — 자동으로 정책 메인으로 이동 (404 0건 보장)
+    if (typeof window !== 'undefined') {
+      window.location.replace(`/policy/${policyId}/`);
+    }
     return (
       <main className="detail">
         <div className="container" style={{ padding: '60px 20px', textAlign: 'center' }}>
-          <h1 style={{ fontSize: 20, marginBottom: 12 }}>페이지를 찾을 수 없습니다</h1>
-          <Link href={`/policy/${policyId}`} style={{ color: 'var(--gov-primary)' }}>
-            ← {policyTitle} 전체 정보로 돌아가기
+          <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 16 }}>이동 중...</p>
+          <Link href={`/policy/${policyId}/`} style={{ color: 'var(--gov-primary)' }}>
+            {policyTitle} 전체 정보 보기
           </Link>
+          <meta httpEquiv="refresh" content={`0; url=/policy/${policyId}/`} />
         </div>
       </main>
     );

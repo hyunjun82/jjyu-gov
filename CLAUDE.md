@@ -144,6 +144,34 @@ npm run verify:spokes  # 모든 정책의 spokes 배열 slug가 registry에 존�
 
 미통과 정책은 push 차단.
 
+### 🚨 시스템 진단 결과 (2026-05 전수 점검)
+
+> **배경**: spoke URL 전수 검증 결과, 정책 199개 중 87%가 시스템 룰을 위반하고 있음. 이게 모든 404의 근본 원인.
+
+**현황 (2026-05 기준)**:
+- 한글 slug 정책: **24개** (CLAUDE.md 옵션 A 룰 준수)
+- 영문 slug 정책: **116개** (룰 위반)
+- 혼합 정책: **47개** (혼란 — 한글/영문 같이 사용)
+- manifest 누락 정책: **6개** (data/policies/*.ts 파일은 있지만 manifest.ts에 import 안 됨)
+
+**현재 적용된 완화 조치**:
+1. `lib/policy-aliases.ts` 의 `getSpokeListForPolicy()` — 사이드바·홈카드가 SpokesRegistry 한글 키로만 링크 생성 → 사이트 내부 죽은 링크 0
+2. `SpokeEnAliases` — 정책 영문 slug ↔ registry 한글 키 인덱스 매핑 (부정확, 25% 작동)
+3. `SpokeClient` — 매핑 못 찾은 spoke 는 정책 메인으로 자동 redirect (404 표시 0)
+4. `generateStaticParams` — 영문 spoke URL 무조건 등록 (빌드 산출물 보장)
+
+**근본 해결 (TBD)**:
+- 116개 정책 + 47개 혼합 정책의 spokes 배열 slug 를 한글로 통일 (옵션 A)
+- SpokesRegistry 한글 키와 1:1 매칭되도록 LLM 자동 매핑 스크립트 작성
+- `scripts/sync-spoke-slugs.ts` 구현 후 일괄 적용
+- 신규 정책 작성 시 push hook 에서 mismatch 검출 차단
+
+**검증 명령**:
+```bash
+python3 scripts/audit-spoke-slugs.py  # 영문/한글/혼합 정책 통계
+npm run verify:spokes                 # mismatch 차단
+```
+
 ### ⚠️ 스포크 Format B 절대 금지 (2026-05 근본 버그)
 
 > **배경**: `function Content()` JSX 방식(Format B)으로 작성된 스포크는 SpokeClient.tsx의 `spoke.Content` 경로로 렌더링되어 QACard 컴포넌트를 완전히 우회한다. 결과: 번호배지·네이비헤더·핵심콕콕 박스가 없는 날것 JSX로 표시됨. 허브 페이지와 UI/UX가 완전히 다른 상태. 363개 파일이 이 방식으로 작성되어 전량 재작성 필요.
