@@ -66,8 +66,8 @@ function renderWithHi(text: any, highlights: string[] = []): ReactNode {
 }
 
 /* ── manifest & 레지스트리 (단일 소스) ── */
-import { PoliciesById, PoliciesBySlug, SpokesById, SpokesBySlug } from '@/data/policies/manifest';
-import { PoliciesByKoAlias } from '@/lib/policy-aliases';
+import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
+import { PoliciesByKoAlias, getSpokeListForPolicy } from '@/lib/policy-aliases';
 import { SpokesRegistry } from '@/data/spokes/registry';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
@@ -84,12 +84,8 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   const policyTitle = policy?.title ?? '정책';
   const applyUrl    = policy?.applyUrl ?? 'https://www.gov.kr';
 
-  /* spoke 목록 — policy 파일의 spokes 배열 사용 (label/title 모두 처리) */
-  const spokeList: { slug: string; title: string }[] =
-    (SpokesBySlug[policySlug] ?? SpokesById[policyId] ?? []).map((s: any) => ({
-      slug: s.slug,
-      title: s.title ?? s.label ?? s.slug,
-    }));
+  /* spoke 목록 — SpokesRegistry 단일 소스 (한글 slug 링크만 생성, 영문 404 방지) */
+  const spokeList: { slug: string; title: string }[] = getSpokeListForPolicy(policyId);
 
   /* spoke 콘텐츠 — 레지스트리에서 조회 */
   const spokeMap = SpokesRegistry[policySlug] ?? {};

@@ -13,17 +13,10 @@ import {
   itemListSchema,
   toJsonLd,
 } from '@/lib/schema';
-import { PoliciesById, PoliciesBySlug, SpokesById, SpokesBySlug } from '@/data/policies/manifest';
-import { PoliciesByKoAlias, PolicyKoAliasBySlug } from '@/lib/policy-aliases';
+import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
+import { PoliciesByKoAlias, getSpokeListForPolicy } from '@/lib/policy-aliases';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
-
-/* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-const spokeLists: Record<string, any[]> = { ...SpokesById, ...SpokesBySlug };
-// 한글 별칭에도 같은 spoke 목록 매핑
-for (const [slug, ko] of Object.entries(PolicyKoAliasBySlug)) {
-  if (SpokesBySlug[slug]) spokeLists[ko] = SpokesBySlug[slug];
-}
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 const policies: Record<string, any> = { ...PoliciesById, ...PoliciesBySlug, ...PoliciesByKoAlias };
@@ -64,7 +57,8 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const d = policies[params.id];
-  const spokeList = spokeLists[params.id] || [];
+  // SpokesRegistry 단일 소스 — 사이드바·목차 한글 slug 링크 생성 (영문 slug 404 방지)
+  const spokeList = getSpokeListForPolicy(params.id);
 
   if (!d) {
     return (

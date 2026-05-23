@@ -14,6 +14,136 @@
 4. **정부 슬로건/로고/캐릭터 사용 금지** — "민생에 플러스" 등 정부 표어 X
 5. **사용자 검증 후에만 푸시** — 자동 푸시 X, 반드시 사람 승인
 
+---
+
+## 🚨 404 진단 절대 규칙 (2026-05 4시간 헛수고 재발 방지)
+
+> **배경**: 한글 spoke URL 404 사건. 7번 추측으로 헛다리만 짚어 4시간 낭비. 진짜 원인은 단순한 빌드 설정 누락이었음. 다음에 비슷한 404 발생 시 아래 순서를 무조건 지킬 것.
+
+### ❌ 절대 하지 말 것
+- 코드만 보고 원인 추측 → 추측은 99% 빗나간다
+- "한글 URL이라서", "Cloudflare WAF라서" 등 가설 만들고 fix 시도
+- `output: 'export'`, `dynamicParams` 같은 설정을 검증 없이 토글
+- 한 번에 여러 변경 합쳐 push → 어떤 변경이 작동했는지 분간 불가
+- 사용자에게 "이번이 마지막" 약속 → 약속 깨면 신뢰만 잃음
+
+### ✅ 무조건 이 순서대로
+**0단계: 사실 수집 (추측 X)**
+```bash
+# (1) 실제 응답 코드
+curl -sI "https://gov.jjyu.co.kr/<문제URL>" | head -5
+# (2) cf-cache-status 확인 — DYNAMIC=SSR, HIT/MISS=정적
+# (3) 빌드 ID — 새 배포 반영됐는지
+curl -s "https://gov.jjyu.co.kr/" | grep -oE '"b":"[^"]+"'
+# (4) 정상 페이지의 _next/chunks 경로 — 어떤 라우트가 빌드됐는지
+curl -s "https://gov.jjyu.co.kr/" | grep -oE 'static/chunks/app/[^"]+'
+```
+
+**1단계: 빌드 로그 직접 보기 — 진짜 답은 여기 있다**
+- Cloudflare 대시보드 → Deployments → 최신 배포 "자세히 보기" → 빌드 로그
+- 또는 로컬 `cd C:\Users\user\gov-jjyu && set NODE_OPTIONS=--max-old-space-size=8192 && npm run build > build.log 2>&1`
+- 로그 끝부분 `Route (app)` 표 확인 — 각 라우트별 generate된 path 개수
+- **이 표 보기 전엔 코드 한 줄도 고치지 말 것**
+
+**2단계: 변경은 1개씩, 푸시 후 즉시 검증**
+- 1개 변경 → push → 5분 대기 → curl로 응답 확인
+- 효과 없으면 되돌리고 다른 가설
+- 절대 여러 변경 합치지 말 것
+
+### 🎯 이 프로젝트의 빌드/배포 단일 정답
+**한 번이라도 만지면 아래 4개 모두 정확히 이 상태여야 함.** 어느 하나라도 빠지면 404 폭발.
+
+1. **`next.config.mjs`** — 정확히 이 5개 옵션
+   ```js
+   const nextConfig = {
+     output: 'export',                    // ← Cloudflare Pages는 SSR 어댑터 없음. 정적 export 필수
+     trailingSlash: true,                 // ← 한글 URL 일관성
+     images: { unoptimized: true },       // ← export 모드 필수
+     eslint: { ignoreDuringBuilds: true },
+     typescript: { ignoreBuildErrors: true },
+     webpack: (config) => {
+       config.resolve.alias = { ...(config.resolve.alias || {}), '@': __dirname };
+       return config;
+     },
+   };
+   ```
+
+2. **`tsconfig.json`** — `baseUrl` 반드시 명시
+   ```json
+   {
+     "compilerOptions": {
+       "baseUrl": ".",                    // ← 이거 없으면 @/ import 전부 실패. 404의 진짜 원인이었음
+       "paths": { "@/*": ["./*"] }
+     }
+   }
+   ```
+
+3. **`wrangler.toml`** (루트) — Cloudflare에 출력 디렉토리 강제 지정
+   ```toml
+   name = "jjyu-gov"
+   compatibility_date = "2024-09-23"
+   pages_build_output_dir = "./out"     # ← 대시보드 설정 무시하고 강제로 out/ 서빙
+   ```
+
+4. **dynamic route 설정** — `output:'export'` 모드와 호환
+   - `app/policy/[id]/page.tsx`: `dynamicParams = false`
+   - `app/policy/[id]/[spoke]/page.tsx`: `dynamicParams = false` + `generateStaticParams`에 try-catch 안전가드
+   - `generateStaticParams`가 빈 배열 반환하면 라우트 전체가 404 → try-catch 필수
+
+5. **`.gitignore`** — 빌드 산출물 절대 git에 들어가면 안 됨
+   ```
+   /.next/
+   /out/
+   tsconfig.tsbuildinfo
+   *.tsbuildinfo
+   .playwright-mcp/
+   ```
+
+### 📋 404 발생 시 체크리스트 (순서대로)
+- [ ] curl로 실제 응답 코드 + cf-cache-status 확인 (DYNAMIC이면 SSR 모드 = next.config 잘못됨)
+- [ ] git log로 최신 commit이 push됐는지 확인 (origin/main 매칭)
+- [ ] Cloudflare 대시보드에서 최신 배포 status (녹색 ✓, 빨간 ✗, 노란 회전)
+- [ ] 위 단일 정답 5개 항목과 현재 코드 비교 — 어느 것 빠졌는지
+- [ ] **로컬 빌드 1번 끝까지 돌려서 Route 표 확인**
+- [ ] Cloudflare 빌드 로그 끝부분 Route 표 확인
+- [ ] 그래도 모르면 사용자에게 빌드 로그 캡처 요청 (이걸 안 보면 평생 추측만 함)
+
+### 💡 이번에 실제 일어났던 404 원인 7가지 (전부 빌드 산출물 누락이 진짜 이유)
+1. ~~한글 URL slug 등록 안 됨~~ (틀림 — slug 등록과 무관)
+2. ~~Cloudflare WAF가 한글 차단~~ (틀림 — 400은 curl raw 때만, 브라우저는 인코딩)
+3. ~~tsbuildinfo 캐시 stale~~ (부분 정답 — 청소는 필요했지만 직접 원인은 아님)
+4. ~~dynamicParams=false 때문~~ (틀림 — true로 바꿔도 그대로)
+5. ~~output:export가 spoke 깨뜨림~~ (틀림 — 오히려 export가 정답이었음)
+6. ~~SpokesRegistry import 누락~~ (틀림 — 425개 다 정상)
+7. **`tsconfig.json`에 `baseUrl` 누락 → `@/components/*` 등 모든 import 해석 실패 → 빌드 부분 실패 → spoke 라우트 산출물에서 누락** (이게 진짜)
+8. **`wrangler.toml` 없음 → Cloudflare가 `out/` 폴더를 자동 인식 못함** (이것도 진짜)
+
+**교훈**: 404의 진짜 원인은 99% 빌드/배포 설정. 콘텐츠나 URL slug가 아니다. 다음에는 무조건 빌드 로그부터 봐라.
+
+### ⚠️ spoke slug 영문/한글 mismatch 룰 (2026-05 발견)
+
+> **배경**: 빌드 설정 다 고치고 한글 spoke URL은 살아남(`/policy/basic-pension/수급자격/` = 200)에도 영문 spoke URL은 404(`/policy/138/interest-rate`). 진짜 원인은 정책 데이터의 spokes 배열과 SpokesRegistry 키의 이름 mismatch.
+
+**현 상태 (정합성 깨짐)**:
+- `data/policies/*.ts`의 `spokes` 배열: **영문 slug** (예: `'interest-rate'`, `'eligibility'`)
+- `data/spokes/registry.ts`의 등록 키: **한글** (예: `'금리한도연9912퍼센트조건'`)
+
+**결과**: 정책 메인 페이지의 사이드바·관련 링크가 정책 데이터의 영문 slug로 URL 생성 → 그 URL은 registry에 없음 → **사이트 내부 모든 영문 spoke 링크가 죽은 링크 (404)**
+
+**룰**:
+1. **새 정책 작성 시 반드시 둘 중 하나로 통일**:
+   - 옵션 A (권장): 둘 다 한글 slug로 통일 — registry의 키 그대로 정책 spokes 배열에 사용
+   - 옵션 B: 둘 다 영문 slug로 통일 — 정책 데이터의 spokes 배열 slug를 registry 키로도 사용
+2. **기존 정책 수정 시 자동 동기화 스크립트 사용** (TBD `scripts/sync-spoke-slugs.ts`)
+3. **PolicySidebar·관련 링크 생성 시점에 mismatch 자동 검출** 후 build warning
+
+**검증 명령** (구현 예정):
+```bash
+npm run verify:spokes  # 모든 정책의 spokes 배열 slug가 registry에 존재하는지 검사
+```
+
+미통과 정책은 push 차단.
+
 ### ⚠️ 스포크 Format B 절대 금지 (2026-05 근본 버그)
 
 > **배경**: `function Content()` JSX 방식(Format B)으로 작성된 스포크는 SpokeClient.tsx의 `spoke.Content` 경로로 렌더링되어 QACard 컴포넌트를 완전히 우회한다. 결과: 번호배지·네이비헤더·핵심콕콕 박스가 없는 날것 JSX로 표시됨. 허브 페이지와 UI/UX가 완전히 다른 상태. 363개 파일이 이 방식으로 작성되어 전량 재작성 필요.
