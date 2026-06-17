@@ -4,8 +4,16 @@ import Link from 'next/link';
 import { organizationSchema, personSchema, toJsonLd } from '@/lib/schema';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://gov.jjyu.co.kr'),
   title: '정부지원사업 | 정부 지원금·환급금·대출 정보 포털',
   description: '정부에서 지원하는 보조금, 환급금, 대출 정보를 한눈에. 매일 업데이트되는 최신 정책 정보를 정부지원사업에서 확인하세요.',
+  verification: {
+    // 구글 서치콘솔 — content 값 받으면 채울 것
+    // google: '구글_content_값',
+    other: {
+      'naver-site-verification': '59fd84b2f0382456245f147e707581a8a3e8be91',
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
