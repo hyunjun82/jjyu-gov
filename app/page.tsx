@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { PoliciesBySlug } from '@/data/policies/manifest';
+import AdSense from '@/components/AdSense';
 
 /* ── 카테고리 ── */
 const categories = [
@@ -171,9 +172,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ══════ 광고 ══════ */}
+      {/* ══════ 광고 gov1 ══════ */}
       <div className="container">
-        <div className="ad-slot">광고 영역 (인피드 네이티브 Ad)</div>
+        <div className="ad-slot" style={{ margin: '20px 0' }}>
+          <AdSense slot="7082828373" />
+        </div>
       </div>
 
       {/* ══════ 곧 만료되는 지원금 ══════ */}

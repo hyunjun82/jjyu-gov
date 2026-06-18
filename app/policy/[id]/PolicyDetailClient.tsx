@@ -209,12 +209,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             {/* Q&A 카드 generic 렌더링 */}
             {d.qa?.map((item: any, i: number) => (
               <Fragment key={item.anchor}>
-                {/* 광고 gov2 — Q&A 중간 (3번째 카드 뒤) */}
-                {i === 3 && (
-                  <div className="ad-slot" style={{ margin: '20px 0' }}>
-                    <AdSense slot="1375998717" />
-                  </div>
-                )}
                 <QACard number={i + 1} q={item.q || item.question} anchor={item.anchor}>
                   {item.intro && (
                     <p style={{ marginBottom: 12 }}>
@@ -444,9 +438,11 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                   )}
                 </QACard>
 
-                {/* 광고 슬롯 (Q1·Q3·Q5 다음) */}
-                {(i === 0 || i === 2 || i === 4) && (
-                  <div className="ad-slot">광고 영역</div>
+                {/* 광고 gov2 — Q3 다음 (본문 중간) */}
+                {i === 2 && (
+                  <div className="ad-slot" style={{ margin: '20px 0' }}>
+                    <AdSense slot="1375998717" />
+                  </div>
                 )}
               </Fragment>
             ))}
@@ -633,11 +629,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                 ))}
               </section>
             )}
-
-            {/* 광고 gov4 — 본문 최하단 */}
-            <div className="ad-slot" style={{ margin: '20px 0' }}>
-              <AdSense slot="5769746708" />
-            </div>
 
           </article>
 

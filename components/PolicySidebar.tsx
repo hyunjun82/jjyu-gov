@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
+import AdSense from '@/components/AdSense';
 
 interface SpokeLink {
   slug: string;
@@ -62,8 +63,10 @@ export default function PolicySidebar({
         </ul>
       </div>
 
-      {/* 광고 */}
-      <div className="ad-slot" style={{ minHeight: 250 }}>광고 영역</div>
+      {/* 광고 gov4 — 사이드바 (전 페이지 공통) */}
+      <div className="ad-slot" style={{ minHeight: 250 }}>
+        <AdSense slot="5769746708" format="vertical" />
+      </div>
     </aside>
   );
 }
