@@ -2,7 +2,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 export const 학자금대출상환기준소득3037만초과상환방법SpokeContent: SpokeData = {
   h1: '취업후상환 학자금대출 상환기준소득 2851만원 초과 시 상환 방법',
-  breadcrumb: '학자금대출 > 상환기준소득3037만초과상환방법',
+  breadcrumb: '학자금대출 > 상환기준소득 2,851만원 초과 상환방법',
   description:
     '2026년 취업후상환 학자금대출 상환기준소득(연 2,851만원)과 초과분 20% 의무상환, 임의상환으로 이자를 절감하는 방법을 안내합니다.',
   datePublished: '2026-05-20T09:00:00+09:00',
