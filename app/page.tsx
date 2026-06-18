@@ -48,7 +48,7 @@ const FEATURED: {
   {
     slug: 'basic-livelihood-allowance',
     badge: 'hot',
-    desc: '중위소득 32% 이하 가구에 생계급여 매월 지급. 1인 가구 최대 76만 5,444원.',
+    desc: '중위소득 32% 이하 가구에 생계급여 매월 지급. 1인 가구 최대 82만 556원.',
   },
   {
     slug: 'k-pass',
