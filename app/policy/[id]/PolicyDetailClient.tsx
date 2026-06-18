@@ -6,6 +6,7 @@ import PolicySidebar from '@/components/PolicySidebar';
 import KeyFactsBox from '@/components/KeyFactsBox';
 import CollapsibleTOC from '@/components/CollapsibleTOC';
 import QACard, { Hi, QABox, QATable } from '@/components/QACard';
+import AdSense from '@/components/AdSense';
 import {
   articleWithGovServiceSchema,
   breadcrumbSchema,
@@ -200,9 +201,20 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               />
             )}
 
+            {/* 광고 gov1 — 본문 진입부 */}
+            <div className="ad-slot" style={{ margin: '20px 0' }}>
+              <AdSense slot="7082828373" />
+            </div>
+
             {/* Q&A 카드 generic 렌더링 */}
             {d.qa?.map((item: any, i: number) => (
               <Fragment key={item.anchor}>
+                {/* 광고 gov2 — Q&A 중간 (3번째 카드 뒤) */}
+                {i === 3 && (
+                  <div className="ad-slot" style={{ margin: '20px 0' }}>
+                    <AdSense slot="1375998717" />
+                  </div>
+                )}
                 <QACard number={i + 1} q={item.q || item.question} anchor={item.anchor}>
                   {item.intro && (
                     <p style={{ marginBottom: 12 }}>
@@ -538,6 +550,11 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               </QACard>
             )}
 
+            {/* 광고 gov3 — 출처 섹션 아래 */}
+            <div className="ad-slot" style={{ margin: '20px 0' }}>
+              <AdSense slot="4660679163" />
+            </div>
+
             {/* 상세 가이드 스포크 카드 */}
             {spokeList.length > 0 && (
               <section className="detail-card" id="spoke-guides" style={{ marginBottom: 24 }}>
@@ -616,6 +633,11 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                 ))}
               </section>
             )}
+
+            {/* 광고 gov4 — 본문 최하단 */}
+            <div className="ad-slot" style={{ margin: '20px 0' }}>
+              <AdSense slot="5769746708" />
+            </div>
 
           </article>
 

@@ -5,6 +5,7 @@ import { Fragment, ReactNode, useState } from 'react';
 import PolicySidebar from '@/components/PolicySidebar';
 import KeyFactsBox from '@/components/KeyFactsBox';
 import QACard, { Hi, QABox, QATable } from '@/components/QACard';
+import AdSense from '@/components/AdSense';
 import {
   articleSchema,
   breadcrumbSchema,
@@ -222,8 +223,10 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
             {/* 기존 JSX 방식 (Content 있을 때) */}
             {spoke.Content && <spoke.Content />}
 
-            {/* 광고 */}
-            <div className="ad-slot">광고 영역</div>
+            {/* 광고 gov1 — 본문 아래 */}
+            <div className="ad-slot" style={{ margin: '20px 0' }}>
+              <AdSense slot="7082828373" />
+            </div>
 
             {/* FAQ */}
             <section className="detail-card" id="faq">
@@ -265,7 +268,10 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
               </div>
             </section>
 
-            <div className="ad-slot">광고 영역</div>
+            {/* 광고 gov3 — FAQ 아래 */}
+            <div className="ad-slot" style={{ margin: '20px 0' }}>
+              <AdSense slot="4660679163" />
+            </div>
 
             {/* 출처 */}
             <section className="source-section" id="sources">

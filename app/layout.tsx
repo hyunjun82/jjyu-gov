@@ -24,6 +24,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
         />
+        {/* 구글 애드센스 로더 (사이트 전역 1회) */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121"
+          crossOrigin="anonymous"
+        />
         {/* 사이트 전역 스키마: Organization + Person (E-E-A-T) */}
         <script
           type="application/ld+json"
