@@ -187,11 +187,11 @@ export const youthFutureSavingsPolicy = {
   ],
 
   incomeTable: [
-    { members: '1인', median: '2,392,013', threshold: '4,784,026' },
-    { members: '2인', median: '3,932,658', threshold: '7,865,316' },
-    { members: '3인', median: '5,025,353', threshold: '10,050,706' },
-    { members: '4인', median: '6,097,773', threshold: '12,195,546' },
-    { members: '5인', median: '7,108,192', threshold: '14,216,384' },
+    { members: '1인', median: '2,564,238', threshold: '5,128,476' },
+    { members: '2인', median: '4,199,292', threshold: '8,398,584' },
+    { members: '3인', median: '5,359,036', threshold: '10,718,072' },
+    { members: '4인', median: '6,494,738', threshold: '12,989,476' },
+    { members: '5인', median: '7,556,719', threshold: '15,113,438' },
   ],
 
   applySteps: [
