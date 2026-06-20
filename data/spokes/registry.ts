@@ -76,6 +76,10 @@ import { 회사부담SpokeContent }     from '@/app/policy/[id]/[spoke]/content/
 import { 육아휴직한부모SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/한부모';
 import { 육아휴직건강보험료SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/건강보험료';
 import { 육아휴직분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/분할';
+import { 육아휴직복직SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/복직';
+import { 육아휴직연차SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/연차';
+import { 육아휴직퇴직금SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/퇴직금';
+import { 육아휴직남편SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/남편';
 
 /* ── 근로장려금 (slug: earned-income-tax-credit) ── */
 import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급일';
@@ -725,6 +729,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '한부모':    육아휴직한부모SpokeContent,
     '건강보험료': 육아휴직건강보험료SpokeContent,
     '분할':      육아휴직분할SpokeContent,
+    '복직':      육아휴직복직SpokeContent,
+    '연차':      육아휴직연차SpokeContent,
+    '퇴직금':    육아휴직퇴직금SpokeContent,
+    '남편':      육아휴직남편SpokeContent,
   },
 
   'new-leap': {

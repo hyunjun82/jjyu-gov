@@ -128,4 +128,8 @@ export const parentalLeavePaySpokes = [
   { slug: '한부모',   role: 'amount',  title: '한부모 근로자 육아휴직 급여 특례, 첫 3개월 월 300만원' },
   { slug: '건강보험료', role: 'overlap', title: '육아휴직 건강보험료, 휴직 중 납부유예와 복직 후 정산' },
   { slug: '분할',     role: 'usage',   title: '육아휴직 분할 횟수, 3회까지 나눠 쓰는 법' },
+  { slug: '복직',     role: 'overlap', title: '육아휴직 후 복직, 원래 자리 보장과 불이익 금지' },
+  { slug: '연차',     role: 'overlap', title: '육아휴직 기간 연차 발생, 출근 간주와 연차수당' },
+  { slug: '퇴직금',   role: 'overlap', title: '육아휴직 퇴직금, 근속기간 포함과 평균임금 산정' },
+  { slug: '남편',     role: 'amount',  title: '남편 육아휴직 급여, 6+6 쓰면 부부가 더 받는 법' },
 ];
