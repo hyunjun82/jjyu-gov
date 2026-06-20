@@ -24,6 +24,7 @@ import { 출시일정SpokeContent } from '@/app/policy/[id]/[spoke]/content/청�
 import { 대학생SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년미래적금/대학생';
 import { 실수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/실수령액';
 import { 이자소득세SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/이자소득세';
+import { 미래적금군인SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/군인';
 
 /* ── 청년내일저축계좌 (slug: youth-tomorrow-savings) ── */
 import { 군인SpokeContent }    from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/군인';
@@ -664,6 +665,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '대학생':       대학생SpokeContent,
     '실수령액':     실수령액SpokeContent,
     '이자소득세':   이자소득세SpokeContent,
+    '군인':         미래적금군인SpokeContent,
   },
 
   'earned-income-tax-credit': {
