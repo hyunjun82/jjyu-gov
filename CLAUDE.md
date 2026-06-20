@@ -13,6 +13,8 @@
 3. **1:1 대조 검증 통과 전 푸시 금지** — `scripts/verify-policy.ts` PASS 필수
 4. **정부 슬로건/로고/캐릭터 사용 금지** — "민생에 플러스" 등 정부 표어 X
 5. **사용자 검증 후에만 푸시** — 자동 푸시 X, 반드시 사람 승인
+6. **타이틀은 무조건 실제 검색어로** — 모든 신규 허브·스포크 타이틀은 **네이버+구글 실제 사용자 검색어**(자동완성·연관검색어·PAA)를 **Playwright로 직접 수집**해 그 문자열을 기반으로 작성한다. 머릿속으로 지어내거나 KB식 스타일만 흉내 내는 것 **금지**. 두 포털 교차 확인 필수. (상세: §2-B)
+7. **모든 정보는 공식 홈페이지 Playwright 직접 대조** — 해당 사업의 **공식 홈페이지/보도자료를 Playwright로 일일이 열어** 수치·조건·일정을 1:1 대조한 뒤에만 작성한다. 블로그·언론 2차 출처를 1차처럼 인용 **금지**. 검증 못 한 수치는 쓰지 말고 "공식 채널 확인"으로 안내. 품질 오차 0이 목표.
 
 ---
 
@@ -238,19 +240,35 @@ export const XxxSpokeContent: SpokeData = { Content, faqData: [...] };
 ```
 사용자: "기초연금 스포크 써줘" 또는 "장애인연금 스포크 4개"
    ↓
-[Step 1] Chrome — Google 검색: {키워드}
-         수집: 자동완성 / PAA 질문 / 하단 관련검색어 8개 / 상위 블로그 제목
-[Step 2] Chrome — Naver 검색: {키워드}
-         수집: 연관검색어 / VIEW 상위 글 제목 / 지식iN 질문 제목
-[Step 3] 수집된 실제 검색어 → 6개 패턴으로 타이틀 4개 작성
-         ※ 패턴 F(시점+범위형) 최대 2개, 동일 패턴 연속 금지
-         ※ 연도(2026)는 맨 앞에만 또는 생략
-         ※ "총정리" 등 금지어 없음
-[Step 4] 타이틀 사용자 확인 후 → 스포크 tsx 파일 4개 작성
-[Step 5] registry.ts import + SpokesRegistry 등록
-[Step 6] data/policies/{slug}.ts spokes 배열 업데이트
-[Step 7] 사용자 git push --no-verify origin main
+[Step 0] 공식 출처 확정 — 해당 사업 공식 홈페이지/보도자료 URL 확보 (Playwright로 연다)
+[Step 1] Playwright — Google 자동완성 수집 (절대규칙 6)
+         · suggestqueries.google.com/complete/search?client=firefox&hl=ko&q={씨앗어}
+           를 하위 주제 씨앗어마다 fetch → 실제 자동완성 문자열 확보
+         · google.com/search 결과의 "관련 질문(PAA)" + 하단 관련검색어
+[Step 2] Playwright — 네이버 자동완성 수집 (절대규칙 6)
+         · naver.com 검색창(#query)에 씨앗어 입력→input 이벤트 발생→
+           드롭다운 li 텍스트 읽기 (ac.search.naver.com 직접 fetch는 CORS로 막힘)
+         · VIEW/지식iN 상위 질문 제목
+[Step 3] Google·네이버 교차 확인된 실제 검색어 → 타이틀 작성
+         ※ 타이틀 문자열은 수집한 자동완성 키워드 조합을 그대로 반영
+         ※ KB생각 스타일: 질문 일색 X, "~방법/~기준/~차이" 등 서술·명사형 다수 + 질문 일부
+         ※ 구분선("|") 최대 1개, 양쪽 다 완결된 절 — 키워드 조각 갖다붙이기 금지
+         ※ 연도(2026)는 맨 앞에만 또는 생략 / "총정리" 등 금지어 없음
+[Step 4] 공식 홈페이지 Playwright 1:1 대조 (절대규칙 7) — 타이틀별 수치·조건 검증
+         ※ 검증 못 한 수치는 본문에 쓰지 말고 "공식 채널(콜센터) 확인"으로 안내
+[Step 5] 타이틀 사용자 확인 후 → 스포크 tsx 파일 작성 (Format A, 아래 품질 게이트 충족)
+[Step 6] registry.ts import(고유 export명) + SpokesRegistry 등록
+[Step 7] data/policies/{slug}.ts spokes 배열 업데이트
+[Step 8] 빌드(npm run build) + check-spoke-quality.sh 통과 확인 → 사용자 승인 → push
 ```
+
+### 🚨 신규 스포크 작성 시 필수 통과 게이트 (이거 어기면 push 차단/빌드 실패 — 실제로 당함)
+1. **스포크당 `qa[]` ≥ 7개**, 그리고 `q:` 총합 ≥ 12개(qa 7 + faqData 5). `scripts/check-spoke-quality.sh`가 pre-push에서 검사. **5개로 만들면 push 차단된다.**
+2. **Format A 필수** — `qa: [{ q, anchor, intro, highlights, table?/box? }]` 구조. `function Content()`(Format B) 금지.
+3. **export 이름 고유** — registry에 이미 있는 이름과 충돌 금지(예: `군인SpokeContent` 중복 → `미래적금군인SpokeContent`처럼 접두사).
+4. **manifest id 채번** — `PoliciesById`의 최대 숫자 +1. 4개 맵 모두 등록(ById/BySlug × Policies/Spokes).
+5. **수치 내부 정합성** — 같은 값이 허브·스포크에 반복될 때 전수 일치(검색: `grep -rn "<수치>"`). 금리·기여금·수령액 계산이 서로 모순되지 않게.
+6. **한글 slug 통일**(옵션 A) — 정책 spokes 배열 slug = registry 키 = content 폴더/파일명.
 
 ### 연관 키워드 묶음 규칙
 같은 검색에서 함께 등장하는 유사 정책은 한 타이틀에 묶는다.
