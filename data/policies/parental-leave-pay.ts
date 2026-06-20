@@ -132,4 +132,8 @@ export const parentalLeavePaySpokes = [
   { slug: '연차',     role: 'overlap', title: '육아휴직 기간 연차 발생, 출근 간주와 연차수당' },
   { slug: '퇴직금',   role: 'overlap', title: '육아휴직 퇴직금, 근속기간 포함과 평균임금 산정' },
   { slug: '남편',     role: 'amount',  title: '남편 육아휴직 급여, 6+6 쓰면 부부가 더 받는 법' },
+  { slug: '계약직',   role: 'eligibility', title: '계약직 육아휴직, 계약 끝나면 급여는 어떻게 되나' },
+  { slug: '퇴사',     role: 'overlap', title: '육아휴직 후 퇴사, 받은 급여 환수와 퇴직금·실업급여' },
+  { slug: '국민연금', role: 'overlap', title: '육아휴직 국민연금, 납부예외와 추후납부로 채우기' },
+  { slug: '12세',     role: 'usage',   title: '육아휴직 12세 확대, 공무원·교사와 일반 근로자 차이' },
 ];
