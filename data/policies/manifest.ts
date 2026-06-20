@@ -199,9 +199,11 @@ import { collegeStudentHousingPolicy, collegeStudentHousingSpokes } from './coll
 import { cultureNuriCardPolicy, cultureNuriCardSpokes } from './culture-nuri-card';
 import { nationalHealthCheckupPolicy, nationalHealthCheckupSpokes } from './national-health-checkup';
 import { sharingTicketPolicy, sharingTicketSpokes } from './sharing-ticket';
+import { nationalPensionReductionPolicy, nationalPensionReductionSpokes } from './national-pension-reduction';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
+  '158': nationalPensionReductionPolicy,
   '80': afterSchoolChildcareFeePolicy,
   '50': artistPensionPolicy,
   '2': basicPensionPolicy,
@@ -338,6 +340,7 @@ export const PoliciesById: Record<string, any> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesBySlug: Record<string, any> = {
+  'national-pension-reduction': nationalPensionReductionPolicy,
   'after-school-childcare-fee': afterSchoolChildcareFeePolicy,
   'artist-pension': artistPensionPolicy,
   'basic-pension': basicPensionPolicy,
@@ -541,6 +544,7 @@ export const PoliciesBySlug: Record<string, any> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesById: Record<string, any[]> = {
+  '158': nationalPensionReductionSpokes,
   '80': afterSchoolChildcareFeeSpokes,
   '50': artistPensionSpokes,
   '2': 기초연금Spokes,
@@ -677,6 +681,7 @@ export const SpokesById: Record<string, any[]> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesBySlug: Record<string, any[]> = {
+  'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
   'artist-pension': artistPensionSpokes,
   'basic-pension': 기초연금Spokes,

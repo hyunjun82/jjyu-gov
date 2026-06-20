@@ -29,6 +29,11 @@ const FEATURED: {
   desc?: string; // summary 가 없거나 너무 길 때만 짧게 직접 입력
 }[] = [
   {
+    slug: 'national-pension-reduction',
+    badge: 'new',
+    desc: '국민연금 받으며 일해도 월 519만원 미만이면 안 깎인다. 2026.6.17 감액 기준 상향, 2025년분 자동 환급.',
+  },
+  {
     slug: 'basic-pension',
     badge: 'hot',
     desc: '만 65세 이상 소득하위 70% 어르신 매월 최대 34만 9,700원. 10명 중 7명 대상.',

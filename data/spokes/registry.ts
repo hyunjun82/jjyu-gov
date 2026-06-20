@@ -26,6 +26,12 @@ import { 실수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/청�
 import { 이자소득세SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/이자소득세';
 import { 미래적금군인SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/군인';
 
+/* ── 노령연금 감액 기준 상향 (slug: national-pension-reduction) ── */
+import { 노령연금감액기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/감액기준';
+import { 노령연금환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/환급';
+import { 노령연금감액계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/감액계산';
+import { 노령연금부양가족연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/부양가족연금';
+
 /* ── 청년내일저축계좌 (slug: youth-tomorrow-savings) ── */
 import { 군인SpokeContent }    from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/군인';
 import { 중도해지SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/중도해지';
@@ -666,6 +672,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '실수령액':     실수령액SpokeContent,
     '이자소득세':   이자소득세SpokeContent,
     '군인':         미래적금군인SpokeContent,
+  },
+
+  'national-pension-reduction': {
+    '감액기준':     노령연금감액기준SpokeContent,
+    '환급':         노령연금환급SpokeContent,
+    '감액계산':     노령연금감액계산SpokeContent,
+    '부양가족연금': 노령연금부양가족연금SpokeContent,
   },
 
   'earned-income-tax-credit': {
