@@ -127,4 +127,5 @@ export const parentalLeavePaySpokes = [
   { slug: '회사부담', role: 'overlap', title: '육아휴직급여는 회사가 주는 건가 정부가 주는 건가 | 고용센터 직접 신청' },
   { slug: '한부모',   role: 'amount',  title: '한부모 근로자 육아휴직 급여 특례, 첫 3개월 월 300만원' },
   { slug: '건강보험료', role: 'overlap', title: '육아휴직 건강보험료, 휴직 중 납부유예와 복직 후 정산' },
+  { slug: '분할',     role: 'usage',   title: '육아휴직 분할 횟수, 3회까지 나눠 쓰는 법' },
 ];
