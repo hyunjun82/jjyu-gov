@@ -74,6 +74,7 @@ import { 부모함께SpokeContent }     from '@/app/policy/[id]/[spoke]/content/
 import { 육아휴직신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/신청방법';
 import { 회사부담SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/회사부담';
 import { 육아휴직한부모SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/한부모';
+import { 육아휴직건강보험료SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/건강보험료';
 
 /* ── 근로장려금 (slug: earned-income-tax-credit) ── */
 import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급일';
@@ -721,6 +722,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법':  육아휴직신청방법SpokeContent,
     '회사부담':  회사부담SpokeContent,
     '한부모':    육아휴직한부모SpokeContent,
+    '건강보험료': 육아휴직건강보험료SpokeContent,
   },
 
   'new-leap': {
