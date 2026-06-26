@@ -6,7 +6,7 @@ const CCRS = 'https://www.ccrs.or.kr';
 
 export const 새출발기금vs신복위SpokeContent: SpokeData = {
   h1: '새출발기금과 신용회복위원회, 어디로 채무조정 받나',
-  breadcrumb: 'vs신복위',
+  breadcrumb: '신용회복위 비교',
   description: '새출발기금(캠코)은 소상공인·자영업자의 사업자 대출 채무조정 전문이고, 신용회복위원회(신복위)는 일반 개인의 가계 채무조정을 다룹니다. 사업자 대출 부담이 크면 새출발기금, 개인 신용대출·카드빚 중심이면 신용회복위원회가 출발점입니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',

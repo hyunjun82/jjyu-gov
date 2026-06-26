@@ -6,7 +6,7 @@ const CCRS = 'https://www.ccrs.or.kr';
 
 export const 새출발기금직장인SpokeContent: SpokeData = {
   h1: '직장인·근로소득자도 새출발기금 받을 수 있나',
-  breadcrumb: '직장인',
+  breadcrumb: '직장인 가입',
   description: '새출발기금은 소상공인·자영업자의 사업자 대출 채무를 조정하는 제도입니다. 순수 근로소득자(직장인)의 개인 신용대출·카드빚은 대상이 아니며, 이 경우 신용회복위원회가 출발점입니다. 다만 직장인이라도 사업자 대출을 보유했거나 폐업 후 취업한 경우는 대상이 될 수 있습니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',

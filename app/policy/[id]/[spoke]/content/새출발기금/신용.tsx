@@ -6,7 +6,7 @@ const CCRS = 'https://www.ccrs.or.kr';
 
 export const 새출발기금신용SpokeContent: SpokeData = {
   h1: '새출발기금 받으면 신용점수·신용카드 어떻게 되나',
-  breadcrumb: '신용',
+  breadcrumb: '신용점수·카드',
   description: '새출발기금 채무조정을 신청하면 그 사실이 신용정보에 일정 기간 기록되고, 이용 중에는 신규 대출·신용카드 발급이 제한될 수 있습니다. 다만 성실히 상환하면 기록이 해제되고 신용이 회복됩니다. 연체를 방치하는 것보다 채무조정으로 정상화하는 편이 회복에 유리합니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',

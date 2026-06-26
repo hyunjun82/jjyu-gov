@@ -5,7 +5,7 @@ const NSF = 'https://www.newstartfund.or.kr';
 
 export const 새출발기금감면율SpokeContent: SpokeData = {
   h1: '새출발기금 감면율 왜 줄었나, 투자자산까지 본다',
-  breadcrumb: '감면율',
+  breadcrumb: '감면율 변경',
   description: '새출발기금 원금 감면은 보유 자산을 초과하는 순부채에만 적용됩니다. 2026년 들어 심사 시 투자자산까지 확인해 변제능력이 높으면 감면율을 낮추고, 최소감면율은 30% 수준입니다. 일반 부실차주는 0~80%, 취약계층은 순부채 최대 90% 조정됩니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',

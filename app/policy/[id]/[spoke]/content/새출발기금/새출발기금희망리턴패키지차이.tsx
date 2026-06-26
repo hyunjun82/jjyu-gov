@@ -2,7 +2,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 export const 새출발기금새출발기금희망리턴패키지차이SpokeContent: SpokeData = {
   h1: '새출발기금과 희망리턴패키지, 뭐가 다르고 중복되나?',
-  breadcrumb: 'vs희망리턴',
+  breadcrumb: '희망리턴 비교',
   description: '새출발기금(채무 조정)과 희망리턴패키지(폐업·재기 지원)의 차이점, 각 프로그램의 지원 내용, 중복 신청 가능 여부를 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',

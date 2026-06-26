@@ -5,7 +5,7 @@ const NSF = 'https://www.newstartfund.or.kr';
 
 export const 새출발기금상환유예SpokeContent: SpokeData = {
   h1: '새출발기금 거치기간과 상환유예, 상환 못 할 때',
-  breadcrumb: '상환유예',
+  breadcrumb: '거치·상환유예',
   description: '새출발기금은 채무조정 후 거치기간(0~12개월, 부동산담보 0~36개월, 취약계층 최대 3년)을 둔 뒤 장기 분할상환합니다. 거치기간 동안 원금 상환 부담을 미룰 수 있고, 상환이 어려워지면 콜센터(1660-1378)에 먼저 상담해야 약정 해지를 피할 수 있습니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',

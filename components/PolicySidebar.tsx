@@ -35,7 +35,7 @@ export default function PolicySidebar({
       {/* 스포크 네비게이션 */}
       <div className="sidebar-nav">
         <div className="sidebar-nav-head">
-          관련 가이드
+          이 제도 자세히 알아보기
         </div>
         <ul className="sidebar-nav-list">
           {/* 허브 링크 */}

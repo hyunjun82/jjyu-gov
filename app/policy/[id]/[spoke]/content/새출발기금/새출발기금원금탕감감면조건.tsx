@@ -2,7 +2,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 export const 새출발기금새출발기금원금탕감감면조건SpokeContent: SpokeData = {
   h1: '새출발기금 원금 얼마나 깎이나? 탕감 조건과 감면율 0~80%',
-  breadcrumb: '원금탕감',
+  breadcrumb: '원금 탕감 조건',
   description: '새출발기금 원금 감면(탕감) 조건, 감면율 기준, 잔여 채무 상환 방식까지 구체적으로 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
