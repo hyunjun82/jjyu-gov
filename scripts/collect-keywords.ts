@@ -34,6 +34,15 @@ interface CollectedKeywords {
       confirm: string[];    // 확인형: ~조회, ~확인, ~가능
       question: string[];   // 질문형 (PAA): ~인가요?, ~할 수 있나요?
     };
+    // 주제 분류 (docs/title-style-24.md §3 — 24개 정본 그룹)
+    byTheme: {
+      A_condition: string[]; // 조건·자격·사유
+      B_amount: string[];    // 금액·기간·계산
+      C_apply: string[];     // 신청·절차·서류
+      D_caution: string[];   // 수급 중 주의 (부정수급·중복·환수·페널티)
+      E_target: string[];    // 대상별·특수 (계약직·자영·고령·특고·세금·보험료)
+      F_compare: string[];   // 비교·중복·차이
+    };
   };
 }
 
@@ -47,6 +56,17 @@ function classifyIntent(kw: string): string {
   if (/조회|확인|가능|받을 수|대상자|해당/.test(kw)) return 'confirm';
   if (/[?？]|나요|한가요|될까|인가|는지/.test(kw)) return 'question';
   return 'info'; // 기본값
+}
+
+/* ── 주제 분류 (A~F) — 타이틀 라인업용 ── */
+function classifyTheme(kw: string): string {
+  if (/차이|vs|비교|중복|다른|뭐가|같이|동시/.test(kw)) return 'F_compare';
+  if (/부정수급|환수|추징|반환|감액|반복|벌금|처벌|불이익|신고|페널티|아르바이트|알바|투잡/.test(kw)) return 'D_caution';
+  if (/계약직|일용|자영업|특고|예술인|노무|외국인|고령|65세|장애|세금|건강보험|국민연금|보험료|군인|공무원|대학생/.test(kw)) return 'E_target';
+  if (/신청|방법|서류|절차|단계|기간|언제|어디서|증빙|접수|기한/.test(kw)) return 'C_apply';
+  if (/얼마|금액|계산|상한|하한|일수|며칠|수령|모의|월급|지급액|한도|일당/.test(kw)) return 'B_amount';
+  if (/자격|조건|사유|대상|요건|되나|될까|받을 수|받나|인정|이하|이상|제외/.test(kw)) return 'A_condition';
+  return 'A_condition'; // 기본값
 }
 
 /* ── 네이버 자동완성 ── */
@@ -271,6 +291,14 @@ async function main() {
     byIntent[intent].push(kw);
   }
 
+  // 주제 분류 (A~F)
+  const byTheme: Record<string, string[]> = {
+    A_condition: [], B_amount: [], C_apply: [], D_caution: [], E_target: [], F_compare: [],
+  };
+  for (const kw of allMerged) {
+    byTheme[classifyTheme(kw)].push(kw);
+  }
+
   const result: CollectedKeywords = {
     seed: KEYWORD,
     synonyms,
@@ -279,7 +307,11 @@ async function main() {
     google: googleResult,
     bing: bingResult,
     daum: daumResult,
-    merged: { all: allMerged, byIntent: byIntent as CollectedKeywords['merged']['byIntent'] },
+    merged: {
+      all: allMerged,
+      byIntent: byIntent as CollectedKeywords['merged']['byIntent'],
+      byTheme: byTheme as CollectedKeywords['merged']['byTheme'],
+    },
   };
 
   // 저장
@@ -299,7 +331,16 @@ async function main() {
   for (const [intent, kws] of Object.entries(byIntent)) {
     if (kws.length > 0) console.log(`     ${intent}: ${kws.length}개`);
   }
+  const themeLabel: Record<string, string> = {
+    A_condition: 'A 조건·자격·사유', B_amount: 'B 금액·기간', C_apply: 'C 신청·절차',
+    D_caution: 'D 수급 중 주의', E_target: 'E 대상별·특수', F_compare: 'F 비교·중복',
+  };
+  console.log(`\n   주제별 (타이틀 라인업용 — docs/title-style-24.md):`);
+  for (const [theme, kws] of Object.entries(byTheme)) {
+    if (kws.length > 0) console.log(`     ${themeLabel[theme]}: ${kws.length}개`);
+  }
   console.log(`\n   저장: ${outPath}`);
+  console.log(`   → 다음: byTheme 그룹별로 24식 자연 롱테일 타이틀 합성 후 사용자 승인 (CLAUDE.md §2-B)`);
 }
 
 main().catch(console.error);

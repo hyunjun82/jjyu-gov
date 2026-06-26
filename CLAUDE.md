@@ -248,25 +248,29 @@ export const XxxSpokeContent: SpokeData = { Content, faqData: [...] };
 사용자: "기초연금 스포크 써줘" 또는 "장애인연금 스포크 4개"
    ↓
 [Step 0] 공식 출처 확정 — 해당 사업 공식 홈페이지/보도자료 URL 확보 (Playwright로 연다)
-[Step 1] Playwright — Google 자동완성 수집 (절대규칙 6)
-         · suggestqueries.google.com/complete/search?client=firefox&hl=ko&q={씨앗어}
-           를 하위 주제 씨앗어마다 fetch → 실제 자동완성 문자열 확보
-         · google.com/search 결과의 "관련 질문(PAA)" + 하단 관련검색어
-[Step 2] Playwright — 네이버 자동완성 수집 (절대규칙 6)
-         · naver.com 검색창(#query)에 씨앗어 입력→input 이벤트 발생→
-           드롭다운 li 텍스트 읽기 (ac.search.naver.com 직접 fetch는 CORS로 막힘)
-         · VIEW/지식iN 상위 질문 제목
-[Step 3] Google·네이버 교차 확인된 실제 검색어 → 타이틀 작성
-         ※ 타이틀 문자열은 수집한 자동완성 키워드 조합을 그대로 반영
-         ※ KB생각 스타일: 질문 일색 X, "~방법/~기준/~차이" 등 서술·명사형 다수 + 질문 일부
-         ※ 구분선("|") 최대 1개, 양쪽 다 완결된 절 — 키워드 조각 갖다붙이기 금지
-         ※ 연도(2026)는 맨 앞에만 또는 생략 / "총정리" 등 금지어 없음
-[Step 4] 공식 홈페이지 Playwright 1:1 대조 (절대규칙 7) — 타이틀별 수치·조건 검증
+[Step 1] 🔴 실제 포털 검색어 수집 (작성 전 필수 — 생략 금지)
+         · npx tsx scripts/collect-keywords.ts "{허브키워드}"
+           → 네이버·구글·빙·다음 자동완성 + 구글 PAA + 연관검색어를
+             scripts/output/{키워드}.json 으로 저장. byTheme(A~F) 자동 분류.
+         · 하위 주제가 부족하면 씨앗어를 바꿔 재수집(예: "{키워드} 자격", "{키워드} 얼마").
+         · MCP 브라우저로 보완: google.com 컨텍스트에서
+           suggestqueries.google.com/complete/search?client=firefox&hl=ko&q={씨앗어} fetch,
+           네이버는 #query 입력→드롭다운 li 읽기(ac.search.naver.com 직접 fetch는 CORS).
+[Step 2] 타이틀 합성 — docs/title-style-24.md 정본 스타일 (절대규칙 6)
+         · byTheme 그룹(A 조건·B 금액·C 신청·D 주의·E 대상별·F 비교)별로 라인업.
+         · 구조 = [핵심 질문 or 주제] + [구체 디테일·혜택·숫자].
+           질문?+서술 / 쉼표+~까지 / 콜론(:) 결합. 숫자+단위(180일·만50세·7일) 적극.
+         · 허용: "총정리"·"~까지"·콜론·물음표 (24개 정본 기준 — 기존 '금지' 규칙 폐기).
+         · 지양: 키워드 조각 "|" 갖다붙이기, 구분기호 2개 이상, 본문 미수록 내용 약속.
+         · 반드시 수집한 실제 검색어 문자열을 반영 — 머릿속 창작 금지.
+[Step 3] 공식 홈페이지 Playwright 1:1 대조 (절대규칙 7) — 타이틀별 수치·조건 검증
          ※ 검증 못 한 수치는 본문에 쓰지 말고 "공식 채널(콜센터) 확인"으로 안내
-[Step 5] 타이틀 사용자 확인 후 → 스포크 tsx 파일 작성 (Format A, 아래 품질 게이트 충족)
-[Step 6] registry.ts import(고유 export명) + SpokesRegistry 등록
-[Step 7] data/policies/{slug}.ts spokes 배열 업데이트
-[Step 8] 빌드(npm run build) + check-spoke-quality.sh 통과 확인 → 사용자 승인 → push
+[Step 4] 타이틀 사용자 확인 후 → 스포크 tsx 파일 작성 (Format A, 아래 품질 게이트 충족)
+         ※ 🔴 타이틀 ↔ 본문 일치: 타이틀이 약속한 키워드·숫자·묶은 주제를
+           본문 qa[].q·intro에서 그대로 다룬다 (docs/title-style-24.md §4).
+[Step 5] registry.ts import(고유 export명) + SpokesRegistry 등록
+[Step 6] data/policies/{slug}.ts spokes 배열 업데이트
+[Step 7] 빌드 + check-spoke-quality.sh + check-title-body-match.sh 통과 → 사용자 승인 → push
 ```
 
 ### 🚨 신규 스포크 작성 시 필수 통과 게이트 (이거 어기면 push 차단/빌드 실패 — 실제로 당함)
@@ -276,14 +280,16 @@ export const XxxSpokeContent: SpokeData = { Content, faqData: [...] };
 4. **manifest id 채번** — `PoliciesById`의 최대 숫자 +1. 4개 맵 모두 등록(ById/BySlug × Policies/Spokes).
 5. **수치 내부 정합성** — 같은 값이 허브·스포크에 반복될 때 전수 일치(검색: `grep -rn "<수치>"`). 금리·기여금·수령액 계산이 서로 모순되지 않게.
 6. **한글 slug 통일**(옵션 A) — 정책 spokes 배열 slug = registry 키 = content 폴더/파일명.
+7. **타이틀 ↔ 본문 일치** — 타이틀의 핵심 키워드·숫자(특히 `[숫자]`)와 쉼표·콜론으로 묶은 주제를 본문 qa[].q·intro에서 그대로 다룬다. 검증: `bash scripts/check-title-body-match.sh {정책폴더}`. `[숫자]` 경고는 반드시 해소(타이틀·본문 수치 표기 통일 포함).
+8. **타이틀은 실제 포털 검색어 기반** — `scripts/collect-keywords.ts` 수집 결과(byTheme) 없이 머릿속으로 타이틀 짓기 금지. 스타일은 `docs/title-style-24.md` 정본.
 
 ### 연관 키워드 묶음 규칙
 같은 검색에서 함께 등장하는 유사 정책은 한 타이틀에 묶는다.
-- 장애인연금 ↔ 장애수당 → "장애인연금 vs 장애수당, 어떻게 다르고 중복 되나"
+- 장애인연금 ↔ 장애수당 → "장애인연금 vs 장애수당, 어떻게 다르고 중복되나"
 - 근로장려금 ↔ 자녀장려금 → "근로장려금 받는데 자녀장려금도 같이 신청되나"
-- 실업급여 ↔ 알바 → "실업급여 받으면서 알바 하면 신고해야 하나 | 소득 기준"
+- 실업급여 ↔ 알바 → "실업급여 받으면서 아르바이트해도 될까? 신고 안 하면 부정수급"
 
-상세 패턴은 `docs/spoke-title-guide.md` 참조.
+상세 패턴·정본 스타일 24개는 `docs/title-style-24.md` 참조 (`docs/spoke-title-guide.md`는 보조).
 
 ---
 
