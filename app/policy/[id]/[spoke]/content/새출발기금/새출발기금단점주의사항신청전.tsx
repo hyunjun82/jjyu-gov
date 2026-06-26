@@ -1,8 +1,8 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 새출발기금새출발기금단점주의사항신청전SpokeContent: SpokeData = {
-  h1: '새출발기금 단점과 주의사항 신청 전 반드시 확인',
-  breadcrumb: '새출발기금단점주의사항신청전',
+  h1: '새출발기금 단점은 없을까? 신청 전 꼭 따져볼 주의사항',
+  breadcrumb: '단점·주의사항',
   description: '새출발기금의 단점, 신청 전 확인해야 할 주의사항, 불이익, 제한 사항을 신청 전에 꼭 확인하세요.',
   datePublished: '2026-05-19T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',

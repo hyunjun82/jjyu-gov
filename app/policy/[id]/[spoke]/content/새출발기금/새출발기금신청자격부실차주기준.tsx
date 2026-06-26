@@ -1,8 +1,8 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 새출발기금새출발기금신청자격부실차주기준SpokeContent: SpokeData = {
-  h1: '새출발기금 신청 자격 부실차주 부실우려차주 기준 완전 정리',
-  breadcrumb: '새출발기금신청자격부실차주기준',
+  h1: '새출발기금 부실차주 부실우려차주, 나는 어디에 해당할까?',
+  breadcrumb: '신청자격',
   description: '새출발기금 신청 자격을 부실차주(3개월 연체)와 부실우려차주로 구분하여 각각의 기준, 신청 경로, 감면율, 제외 대상까지 완전 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
