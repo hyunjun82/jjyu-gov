@@ -128,6 +128,9 @@ import { 에너지바우처사용처SpokeContent } from '@/app/policy/[id]/[spok
 import { 에너지바우처대상자확인SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/대상자확인';
 import { 에너지바우처자동신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/자동신청';
 import { 에너지바우처신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/신청기간';
+import { 에너지바우처잔액SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/잔액조회';
+import { 에너지바우처당겨쓰기SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/당겨쓰기';
+import { 에너지바우처전기할인SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/전기요금할인';
 
 /* ── 방과후보육료 (slug: after-school-childcare-fee) ── */
 import { 방과후보육료신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/방과후보육료/신청방법';
@@ -797,6 +800,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '대상자확인':  에너지바우처대상자확인SpokeContent,
     '자동신청':    에너지바우처자동신청SpokeContent,
     '신청기간':    에너지바우처신청기간SpokeContent,
+    '잔액조회':    에너지바우처잔액SpokeContent,
+    '당겨쓰기':    에너지바우처당겨쓰기SpokeContent,
+    '전기요금할인': 에너지바우처전기할인SpokeContent,
   },
 
   'after-school-childcare-fee': {
