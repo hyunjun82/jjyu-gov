@@ -91,6 +91,10 @@ import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로�
 import { 조회방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/조회방법';
 import { 환수추징SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/환수추징';
 import { 신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/신청기간';
+import { 자녀장려금SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/자녀장려금';
+import { 장려금모의계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/모의계산';
+import { 장려금자동신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/자동신청';
+import { 장려금지급제외SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급제외';
 
 /* ── 새도약기금 (slug: new-leap) ── */
 import { 신청방법SpokeContent as 새도약기금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/신청방법';
@@ -704,6 +708,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '조회방법': 조회방법SpokeContent,
     '환수추징': 환수추징SpokeContent,
     '신청기간': 신청기간SpokeContent,
+    '자녀장려금': 자녀장려금SpokeContent,
+    '모의계산': 장려금모의계산SpokeContent,
+    '자동신청': 장려금자동신청SpokeContent,
+    '지급제외': 장려금지급제외SpokeContent,
   },
 
   'youth-tomorrow-savings': {

@@ -117,4 +117,8 @@ export const earnedIncomeTaxCreditSpokes = [
   { slug: 'child', role: 'extra2', title: '자녀장려금 18세 미만 1인당 최대 100만원', content: '동시 신청.' },
   { slug: '환수추징', role: 'extra', title: '근로장려금 환수 추징 조건 부정수급 패널티 총정리', content: '소득 초과·부정수급 시 전액 환수 + 가산세.' },
   { slug: '신청기간', role: 'extra', title: '2026 근로장려금 신청기간 정기 반기 기한후 일정 총정리', content: '정기 5.1~6.1 / 반기 3.1~3.16 / 기한후 6.2~12.1.' },
+  { slug: '자녀장려금', role: 'extra2', title: '자녀장려금 소득 7천만원까지, 근로장려금 못 받아도 받나?', content: '1인당 50~100만원.' },
+  { slug: '모의계산', role: 'amount', title: '근로장려금 나는 얼마 받나? 소득별 지급액 계산법', content: '점증·평탄·점감.' },
+  { slug: '자동신청', role: 'apply', title: '근로장려금 자동신청, 한 번 동의하면 2년 자동 입금?', content: '2025 전연령 확대.' },
+  { slug: '지급제외', role: 'extra', title: '근로장려금 왜 안 들어오지? 지급제외·감액 사유 정리', content: '재산 2.4억·전문직 제외.' },
 ];
