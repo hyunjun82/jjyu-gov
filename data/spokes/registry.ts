@@ -45,6 +45,11 @@ import { 신청기간SpokeContent as 내일저축신청기간SpokeContent } from
 import { 자발적퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자발적퇴사';
 import { 재수급SpokeContent }    from '@/app/policy/[id]/[spoke]/content/실업급여/재수급';
 import { 알바단기SpokeContent }  from '@/app/policy/[id]/[spoke]/content/실업급여/알바단기';
+import { 실업급여수급자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급자격';
+import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
+import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
+import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
+import { 실업급여모의계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/모의계산';
 
 /* ── 기초연금 (slug: basic-pension) ── */
 import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
@@ -733,6 +738,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '자발적퇴사': 자발적퇴사SpokeContent,
     '재수급':     재수급SpokeContent,
     '알바단기':   알바단기SpokeContent,
+    '수급자격':   실업급여수급자격SpokeContent,
+    '상한하한액': 실업급여상한하한SpokeContent,
+    '수령액계산': 실업급여수령액SpokeContent,
+    '소정급여일수': 실업급여소정일수SpokeContent,
+    '모의계산':   실업급여모의계산SpokeContent,
   },
 
   'parent-allowance': {

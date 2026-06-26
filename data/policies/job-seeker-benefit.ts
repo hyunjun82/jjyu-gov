@@ -248,11 +248,11 @@ export const jobSeekerBenefitPolicy: PolicyData = {
 
 export const jobSeekerBenefitSpokes = [
   { slug: '자발적퇴사', title: '자발적 퇴사도 실업급여 받을 수 있나요 권고사직 기준' },
-  { slug: 'eligibility', title: '수급자격 확인' },
-  { slug: 'benefit-amount', title: '수급액 계산기' },
-  { slug: 'apply', title: '신청 방법' },
-  { slug: 'benefit-days', title: '수급일수 조회' },
-  { slug: 'appeal', title: '불인정 이의신청' },
+  { slug: '수급자격', title: '실업급여 수급자격, 고용보험 180일 가입기간 계산하는 법' },
+  { slug: '상한하한액', title: '2026 실업급여 상한액·하한액, 하루 최대 얼마까지 받나' },
+  { slug: '수령액계산', title: '실업급여 얼마 받나, 평균임금 60% 월급별 1일 수령액' },
+  { slug: '소정급여일수', title: '실업급여 며칠 받나, 나이·고용보험 가입기간별 소정급여일수' },
+  { slug: '모의계산', title: '실업급여 모의계산, 고용24·계산기로 예상액 1분에 확인' },
   { slug: '재수급', title: '실업급여 재수급 조건 2026 반복수급 감액 횟수별 총정리' },
   { slug: '알바단기', title: '실업급여 받으면서 알바 단기 가능한지 신고 방법 총정리' },
 ];
