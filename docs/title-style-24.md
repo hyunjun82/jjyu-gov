@@ -108,10 +108,14 @@
 ## 5. 신규 글 작성 전 순서 (요약)
 
 ```
-0. npx tsx scripts/collect-keywords.ts "{허브키워드}"   ← 실제 포털 검색어 수집(필수)
-1. output/{키워드}.json 의 byTheme(A~F) 확인 → 부족하면 하위 씨앗어로 재수집
+0a. npx tsx scripts/collect-keywords.ts "{허브키워드}"   ← 자동완성 대량(suggest API) + byTheme
+0b. 실브라우저(MCP Playwright)로 네이버·구글 SERP 열어 PAA·연관검색어 수확  ← 질문형 금쪽
+    · 네이버 .related_srch .keyword / 구글 PAA [jsname][role=heading] + 하단 관련검색어
+1. 0a+0b 합쳐 byTheme(A~F) 확인 → 부족하면 하위 씨앗어로 재수집
 2. 위 §2 패턴으로 24식 자연 롱테일 타이틀 합성 (그룹별)
 3. 사용자 승인
 4. 작성 — §4 타이틀↔본문 일치 지키며 Format A 작성
 5. check-spoke-quality.sh + check-title-body-match.sh 통과 → 승인 → push
 ```
+
+> ⚠️ 자동완성(API)은 prefix만 준다. **PAA·연관검색어(질문형)는 반드시 실브라우저로 SERP를 열어 수확**한다. (10회 테스트로 검증: 헤드리스 스크래핑은 PAA·연관 0, 실브라우저는 둘 다 수확 성공.)

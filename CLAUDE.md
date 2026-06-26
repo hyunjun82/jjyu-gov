@@ -248,14 +248,23 @@ export const XxxSpokeContent: SpokeData = { Content, faqData: [...] };
 사용자: "기초연금 스포크 써줘" 또는 "장애인연금 스포크 4개"
    ↓
 [Step 0] 공식 출처 확정 — 해당 사업 공식 홈페이지/보도자료 URL 확보 (Playwright로 연다)
-[Step 1] 🔴 실제 포털 검색어 수집 (작성 전 필수 — 생략 금지)
-         · npx tsx scripts/collect-keywords.ts "{허브키워드}"
-           → 네이버·구글·빙·다음 자동완성 + 구글 PAA + 연관검색어를
-             scripts/output/{키워드}.json 으로 저장. byTheme(A~F) 자동 분류.
-         · 하위 주제가 부족하면 씨앗어를 바꿔 재수집(예: "{키워드} 자격", "{키워드} 얼마").
-         · MCP 브라우저로 보완: google.com 컨텍스트에서
-           suggestqueries.google.com/complete/search?client=firefox&hl=ko&q={씨앗어} fetch,
-           네이버는 #query 입력→드롭다운 li 읽기(ac.search.naver.com 직접 fetch는 CORS).
+[Step 1] 🔴 실제 포털 검색어 수집 (작성 전 필수 — 생략 금지) — 2개 소스 병행
+   ① 자동완성 대량 = 스크립트(suggest API, 견고)
+      · npx tsx scripts/collect-keywords.ts "{허브키워드}"
+        → 네이버·구글 suggest API 직접 fetch + 주제 씨앗어 16종 → 수백 개 자동완성.
+          byTheme(A~F) 자동 분류. scripts/output/{키워드}.json 저장.
+        (※ 헤드리스 SERP 스크래핑은 PAA·연관검색어가 0 — 그래서 아래 ②가 필수.)
+   ② PAA·연관검색어 = 🔴 실제 브라우저로 SERP 직접 수확 (타이틀 금쪽, 생략 금지)
+      자동완성(prefix)엔 없는 "질문형" 검색어는 SERP를 사람처럼 열어야 나온다.
+      MCP Playwright(실브라우저)로 네이버·구글 둘 다:
+      · 네이버: search.naver.com/search.naver?query={kw} 열고 evaluate —
+        document.querySelectorAll('.related_srch .keyword') → 질문형 연관검색어
+        (예: "실업급여 부정수급 시 받게 되는 처벌은 무엇인가요").
+      · 구글: google.com/search?q={kw}&hl=ko 열고 evaluate —
+        PAA: [jsname][role="heading"] 중 물음표/~나요 포함 텍스트
+        (예: "퇴사 후 바로 실업급여를 신청할 수 있나요?").
+        관련검색어: 하단 .y6Uyqe / .AuVD.
+      · 차단되면 접근 폴백 위계(절대규칙 7) — Claude in Chrome.
 [Step 2] 타이틀 합성 — docs/title-style-24.md 정본 스타일 (절대규칙 6)
          · byTheme 그룹(A 조건·B 금액·C 신청·D 주의·E 대상별·F 비교)별로 라인업.
          · 구조 = [핵심 질문 or 주제] + [구체 디테일·혜택·숫자].

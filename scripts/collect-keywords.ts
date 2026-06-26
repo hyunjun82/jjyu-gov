@@ -1,8 +1,13 @@
 /**
- * 키워드 수집기 — 네이버/구글/빙/다음 자동완성 + 구글 PAA
+ * 키워드 수집기 — 자동완성(네이버·구글 suggest API) + byTheme(A~F) 분류
  *
  * 사용법: npx tsx scripts/collect-keywords.ts "기초연금"
  * 출력: scripts/output/{keyword}.json
+ *
+ * 구조: ① 네이버·구글 suggest API 직접 fetch(견고) + 주제 씨앗어 16종 → 수백 개 자동완성
+ *       ② 브라우저(빙·다음·구글/네이버 SERP)는 best-effort(크래시해도 ① 보존)
+ * ※ PAA·연관검색어(질문형)는 헤드리스로 안 잡힌다 → 작성 시 실브라우저(MCP Playwright)로
+ *   SERP 직접 수확(CLAUDE.md §2-B Step1②, docs/title-style-24.md §5). 10회 테스트로 검증.
  */
 
 import { chromium, type Page } from 'playwright';
@@ -224,48 +229,95 @@ function generateSynonyms(keyword: string): string[] {
   return synonymMap[keyword] || [];
 }
 
+/* ── 자동완성 API 직접 fetch (Node, CORS 무관 — DOM 스크래핑보다 견고) ── */
+async function fetchGoogleSuggest(kw: string): Promise<string[]> {
+  try {
+    const url = `https://suggestqueries.google.com/complete/search?client=firefox&hl=ko&q=${encodeURIComponent(kw)}`;
+    const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+    const j: any = await r.json();
+    return Array.isArray(j?.[1]) ? j[1].filter((x: any) => typeof x === 'string') : [];
+  } catch { return []; }
+}
+
+async function fetchNaverSuggest(kw: string): Promise<string[]> {
+  try {
+    const url = `https://ac.search.naver.com/nx/ac?q=${encodeURIComponent(kw)}&con=1&frm=nv&ans=2&r_format=json&r_enc=UTF-8&r_unicode=0&t_koreng=1&run=2&rev=4&q_enc=UTF-8&st=100`;
+    const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0', Referer: 'https://search.naver.com/' } });
+    const j: any = await r.json();
+    const out: string[] = [];
+    for (const group of j?.items || []) {
+      if (!Array.isArray(group)) continue;
+      for (const pair of group) {
+        if (Array.isArray(pair) && typeof pair[0] === 'string') out.push(pair[0]);
+      }
+    }
+    return out;
+  } catch { return []; }
+}
+
+// 주제(A~F)별 하위 씨앗어 — 자동완성 API에 붙여 롱테일을 풍성하게 수집
+const THEME_SEEDS = ['자격', '조건', '대상', '얼마', '계산', '금액', '신청', '방법', '기간', '서류', '부정수급', '중복', '계약직', '자영업', '세금', '비교'];
+
 /* ── 메인 ── */
 async function main() {
   console.log(`\n🔍 "${KEYWORD}" 검색어 수집 시작...\n`);
 
-  const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    locale: 'ko-KR',
-  });
-
-  const page = await context.newPage();
   const synonyms = generateSynonyms(KEYWORD);
   const allKeywords = [KEYWORD, ...synonyms];
 
-  // 각 포털 수집
   let naverResult = { autocomplete: [] as string[], related: [] as string[] };
   let googleResult = { autocomplete: [] as string[], paa: [] as string[], related: [] as string[] };
   let bingResult = { autocomplete: [] as string[] };
   let daumResult = { autocomplete: [] as string[] };
 
-  for (const kw of allKeywords) {
-    console.log(`  [네이버] "${kw}" 수집 중...`);
-    const n = await collectNaver(page, kw);
-    naverResult.autocomplete.push(...n.autocomplete);
-    naverResult.related.push(...n.related);
-
-    console.log(`  [구글] "${kw}" 수집 중...`);
-    const g = await collectGoogle(page, kw);
-    googleResult.autocomplete.push(...g.autocomplete);
-    googleResult.paa.push(...g.paa);
-    googleResult.related.push(...g.related);
-
-    console.log(`  [빙] "${kw}" 수집 중...`);
-    const b = await collectBing(page, kw);
-    bingResult.autocomplete.push(...b.autocomplete);
-
-    console.log(`  [다음] "${kw}" 수집 중...`);
-    const d = await collectDaum(page, kw);
-    daumResult.autocomplete.push(...d.autocomplete);
+  // ① 자동완성 API 직접 수집 (Node fetch — 브라우저 불필요, 가장 견고한 1차 소스)
+  //    기본 키워드 + 동의어 + 주제 하위 씨앗어로 롱테일 확보
+  const apiSeeds = [
+    ...allKeywords,
+    ...allKeywords.flatMap((k) => THEME_SEEDS.map((s) => `${k} ${s}`)),
+  ];
+  console.log(`  [API] 자동완성 직접 수집 (${apiSeeds.length}개 씨앗어)...`);
+  for (const seed of apiSeeds) {
+    const [g, n] = await Promise.all([fetchGoogleSuggest(seed), fetchNaverSuggest(seed)]);
+    googleResult.autocomplete.push(...g);
+    naverResult.autocomplete.push(...n);
   }
 
-  await browser.close();
+  // ② 브라우저 SERP 수집 (빙·다음 자동완성 + 구글/네이버 연관·PAA) — best-effort.
+  //    헤드리스가 크래시·차단돼도 위 ① API 결과는 보존된다.
+  //    ※ PAA·연관검색어는 실브라우저가 더 잘 잡힘 — 작성 시 MCP Playwright로 보강(CLAUDE.md §2-B Step1②).
+  try {
+    const browser = await chromium.launch({ headless: true });
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      locale: 'ko-KR',
+    });
+    const page = await context.newPage();
+
+    for (const kw of allKeywords) {
+      console.log(`  [네이버] "${kw}" 수집 중...`);
+      const n = await collectNaver(page, kw);
+      naverResult.autocomplete.push(...n.autocomplete);
+      naverResult.related.push(...n.related);
+
+      console.log(`  [구글] "${kw}" 수집 중...`);
+      const g = await collectGoogle(page, kw);
+      googleResult.autocomplete.push(...g.autocomplete);
+      googleResult.paa.push(...g.paa);
+      googleResult.related.push(...g.related);
+
+      console.log(`  [빙] "${kw}" 수집 중...`);
+      const b = await collectBing(page, kw);
+      bingResult.autocomplete.push(...b.autocomplete);
+
+      console.log(`  [다음] "${kw}" 수집 중...`);
+      const d = await collectDaum(page, kw);
+      daumResult.autocomplete.push(...d.autocomplete);
+    }
+    await browser.close();
+  } catch (e) {
+    console.warn(`  [브라우저] 수집 건너뜀 (API 결과는 보존): ${(e as Error).message}`);
+  }
 
   // 중복 제거 + 병합
   const dedup = (arr: string[]) => [...new Set(arr.map(s => s.trim()).filter(Boolean))];
