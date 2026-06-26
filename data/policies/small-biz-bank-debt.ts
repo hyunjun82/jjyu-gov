@@ -116,4 +116,9 @@ export const smallBizBankDebtSpokes = [
   { slug: 'eligibility', label: '신청 자격', icon: '✅' },
   { slug: 'apply-method', label: '신청 방법', icon: '📋' },
   { slug: 'benefit-amount', label: '감면 내용', icon: '💰' },
+  { slug: '감면율', label: '감면율 왜 줄었나', icon: '📉' },
+  { slug: '상환유예', label: '거치·상환유예', icon: '⏳' },
+  { slug: '신용', label: '신용점수·카드', icon: '💳' },
+  { slug: 'vs신복위', label: 'vs 신용회복위원회', icon: '⚖️' },
+  { slug: '직장인', label: '직장인도 되나', icon: '🧑‍💼' },
 ];

@@ -621,6 +621,11 @@ import { 새출발기금새출발기금신청자격부실차주기준SpokeConten
 import { 새출발기금새출발기금원금탕감감면조건SpokeContent }     from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금원금탕감감면조건';
 import { 새출발기금새출발기금단점주의사항신청전SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금단점주의사항신청전';
 import { 새출발기금새출발기금희망리턴패키지차이SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금희망리턴패키지차이';
+import { 새출발기금감면율SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/감면율';
+import { 새출발기금상환유예SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/상환유예';
+import { 새출발기금신용SpokeContent }     from '@/app/policy/[id]/[spoke]/content/새출발기금/신용';
+import { 새출발기금vs신복위SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/vs신복위';
+import { 새출발기금직장인SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/직장인';
 
 /* ── 폐업소상공인채무조정 (slug: small-biz-closed-debt) ── */
 import { 폐업소상공인채무조정폐업소상공인채무조정신청방법절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/폐업소상공인채무조정신청방법절차';
@@ -1256,6 +1261,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '새출발기금원금탕감감면조건':     새출발기금새출발기금원금탕감감면조건SpokeContent,
     '새출발기금단점주의사항신청전':   새출발기금새출발기금단점주의사항신청전SpokeContent,
     '새출발기금희망리턴패키지차이':   새출발기금새출발기금희망리턴패키지차이SpokeContent,
+    '감면율':     새출발기금감면율SpokeContent,
+    '상환유예':   새출발기금상환유예SpokeContent,
+    '신용':       새출발기금신용SpokeContent,
+    'vs신복위':   새출발기금vs신복위SpokeContent,
+    '직장인':     새출발기금직장인SpokeContent,
   },
 
   'small-biz-closed-debt': {
