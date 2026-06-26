@@ -150,6 +150,20 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
           </span>
         </nav>
 
+        {/* 상단 허브 이동 버튼 (모든 스포크 공통) */}
+        <Link
+          href={`/policy/${policyId}`}
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: 6,
+            margin: '2px 0 18px', padding: '9px 16px',
+            fontSize: 13, fontWeight: 700,
+            color: 'var(--gov-primary)', background: '#fff',
+            border: '1px solid var(--gov-border, #E5E8EB)', borderRadius: 999,
+          }}
+        >
+          ← {policyTitle} 전체보기
+        </Link>
+
         <div className="policy-layout">
           <article className="policy-main">
 
