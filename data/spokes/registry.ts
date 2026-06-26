@@ -26,6 +26,9 @@ import { 실수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/청�
 import { 이자소득세SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/이자소득세';
 import { 미래적금군인SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/군인';
 import { 미래적금은행별SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/은행별비교';
+import { 미래적금갈아타기SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/갈아타기';
+import { 미래적금우대형SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/우대형';
+import { 미래적금심사일정SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/심사일정';
 
 /* ── 노령연금 감액 기준 상향 (slug: national-pension-reduction) ── */
 import { 노령연금감액기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/감액기준';
@@ -694,6 +697,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '이자소득세':   이자소득세SpokeContent,
     '군인':         미래적금군인SpokeContent,
     '은행별비교':   미래적금은행별SpokeContent,
+    '갈아타기':     미래적금갈아타기SpokeContent,
+    '우대형':       미래적금우대형SpokeContent,
+    '심사일정':     미래적금심사일정SpokeContent,
   },
 
   'national-pension-reduction': {
