@@ -74,34 +74,31 @@ function classifyTheme(kw: string): string {
   return 'A_condition'; // 기본값
 }
 
-/* ── 네이버 자동완성 ── */
+/* ── 네이버 연관검색어 (SERP, 실측 셀렉터) ── */
 async function collectNaver(page: Page, keyword: string): Promise<{ autocomplete: string[]; related: string[] }> {
-  const autocomplete: string[] = [];
+  const autocomplete: string[] = []; // 자동완성은 API가 담당 — 여기선 SERP 연관검색어 수확
   const related: string[] = [];
 
   try {
-    await page.goto(`https://search.naver.com/search.naver?query=${encodeURIComponent(keyword)}`, { waitUntil: 'domcontentloaded', timeout: 15000 });
-    await page.waitForTimeout(2000);
-
-    // 연관검색어
-    const relatedEls = await page.$$('.related_srch .keyword');
-    for (const el of relatedEls) {
-      const text = await el.textContent();
-      if (text?.trim()) related.push(text.trim());
-    }
-
-    // 자동완성: 검색창 클릭 후 수집
-    const searchInput = page.locator('#nx_query');
-    await searchInput.click();
+    await page.goto(`https://search.naver.com/search.naver?query=${encodeURIComponent(keyword)}`, { waitUntil: 'domcontentloaded', timeout: 20000 });
     await page.waitForTimeout(1500);
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
+    await page.waitForTimeout(1000);
 
-    const acEls = await page.$$('.ac_list .acw');
-    for (const el of acEls) {
-      const text = await el.textContent();
-      if (text?.trim()) autocomplete.push(text.trim());
-    }
+    const rel = await page.evaluate(() => {
+      const out: string[] = [];
+      // 실측: .related_srch .keyword 가 질문형 연관검색어를 담음 (+ 폴백 셀렉터)
+      ['.related_srch .keyword', '.lst_related_srch .keyword', '[class*=related] .keyword', '.api_subject_bx ._keyword'].forEach((s) => {
+        document.querySelectorAll(s).forEach((e) => {
+          const t = e.textContent?.trim();
+          if (t && t.length > 1) out.push(t);
+        });
+      });
+      return out;
+    });
+    related.push(...rel);
   } catch (e) {
-    console.warn('[네이버] 수집 실패:', (e as Error).message);
+    console.warn('[네이버] 연관 수집 실패:', (e as Error).message);
   }
 
   return { autocomplete, related };
@@ -114,46 +111,29 @@ async function collectGoogle(page: Page, keyword: string): Promise<{ autocomplet
   const related: string[] = [];
 
   try {
-    // 검색 결과 페이지에서 PAA + 연관검색어 수집
-    await page.goto(`https://www.google.com/search?q=${encodeURIComponent(keyword)}&hl=ko`, { waitUntil: 'domcontentloaded', timeout: 15000 });
+    // 검색 결과 페이지에서 PAA(People Also Ask) + 관련검색어 수집 (실측 셀렉터)
+    await page.goto(`https://www.google.com/search?q=${encodeURIComponent(keyword)}&hl=ko`, { waitUntil: 'domcontentloaded', timeout: 20000 });
     await page.waitForTimeout(2000);
-
-    // PAA (People Also Ask)
-    const paaEls = await page.$$('[data-sgrd] [role="heading"], .related-question-pair [role="heading"], div[jsname] span.CSkcDe');
-    for (const el of paaEls) {
-      const text = await el.textContent();
-      if (text?.trim() && text.length > 5) paa.push(text.trim());
-    }
-
-    // 대안: aria-label에서 PAA 추출
-    if (paa.length === 0) {
-      const altPaa = await page.$$('div[data-q]');
-      for (const el of altPaa) {
-        const q = await el.getAttribute('data-q');
-        if (q?.trim()) paa.push(q.trim());
-      }
-    }
-
-    // 연관검색어
-    const relEls = await page.$$('.k8XOCe .s75CSd, .brs_col .nVcaUb');
-    for (const el of relEls) {
-      const text = await el.textContent();
-      if (text?.trim()) related.push(text.trim());
-    }
-
-    // 자동완성: 새 탭에서 수집
-    await page.goto('https://www.google.com/?hl=ko', { waitUntil: 'domcontentloaded', timeout: 10000 });
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
     await page.waitForTimeout(1000);
-    const gInput = page.locator('textarea[name="q"], input[name="q"]').first();
-    await gInput.click();
-    await gInput.fill(keyword);
-    await page.waitForTimeout(2000);
 
-    const acEls = await page.$$('ul[role="listbox"] li span, .OBMEnb .wM6W7d span');
-    for (const el of acEls) {
-      const text = await el.textContent();
-      if (text?.trim() && text.length > 2) autocomplete.push(text.trim());
-    }
+    const res = await page.evaluate(() => {
+      const paa: string[] = [];
+      const related: string[] = [];
+      // PAA: heading 역할 요소 중 질문형(물음표·나요·까요…) + 이모지 위젯 제외
+      document.querySelectorAll('[jsname][role="heading"], .related-question-pair span, div[data-q]').forEach((e: any) => {
+        const t = (e.getAttribute && e.getAttribute('data-q')) || e.textContent?.trim();
+        if (t && t.length > 6 && /[?]|나요|까요|있나|되나|얼마|어떻게|언제|무엇|몇/.test(t) && !/[💡🔎📌▶]/.test(t)) paa.push(t);
+      });
+      // 관련검색어 (하단): 실측 .y6Uyqe / .AuVD
+      document.querySelectorAll('.y6Uyqe, .AuVD, .k8XOCe .s75CSd').forEach((e) => {
+        const t = e.textContent?.trim();
+        if (t && t.length > 2) related.push(t);
+      });
+      return { paa, related };
+    });
+    paa.push(...res.paa);
+    related.push(...res.related);
   } catch (e) {
     console.warn('[구글] 수집 실패:', (e as Error).message);
   }
@@ -287,7 +267,11 @@ async function main() {
   //    헤드리스가 크래시·차단돼도 위 ① API 결과는 보존된다.
   //    ※ PAA·연관검색어는 실브라우저가 더 잘 잡힘 — 작성 시 MCP Playwright로 보강(CLAUDE.md §2-B Step1②).
   try {
-    const browser = await chromium.launch({ headless: true });
+    // 브라우저 SERP 수집은 best-effort 보너스(빙·다음 등). 기본 헤드리스.
+    // ※ 구글 PAA·연관검색어는 자동화 브라우저가 consent/봇차단으로 못 긁고, 네이버 연관도 세션·AB로 불안정 →
+    //   이 부분은 작성 시 MCP 실브라우저로 수확(CLAUDE.md §2-B Step1②). 자동완성(API)이 수집 backbone.
+    // HEADFUL=1 로 헤드풀 시도 가능(되는 세션에선 일부 잡힐 수 있음).
+    const browser = await chromium.launch({ headless: process.env.HEADFUL !== '1', channel: process.env.HEADFUL === '1' ? 'chrome' : undefined });
     const context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
       locale: 'ko-KR',
