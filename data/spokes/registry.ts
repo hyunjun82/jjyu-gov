@@ -62,6 +62,12 @@ import { 실업급여부정수급SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실업급여세금SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/세금';
 import { 실업급여퇴직금SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/퇴직금';
 import { 실업급여조기재취업SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/조기재취업';
+import { 실업급여일용직SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/일용직';
+import { 실업급여자영업자SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자영업자';
+import { 실업급여65세SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/65세';
+import { 실업급여예술인SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/예술인특고';
+import { 실업급여건보연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/건보국민연금';
+import { 실업급여상병급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상병급여';
 
 /* ── 기초연금 (slug: basic-pension) ── */
 import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
@@ -767,6 +773,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '세금':       실업급여세금SpokeContent,
     '퇴직금':     실업급여퇴직금SpokeContent,
     '조기재취업': 실업급여조기재취업SpokeContent,
+    '일용직':     실업급여일용직SpokeContent,
+    '자영업자':   실업급여자영업자SpokeContent,
+    '65세':       실업급여65세SpokeContent,
+    '예술인특고': 실업급여예술인SpokeContent,
+    '건보국민연금': 실업급여건보연금SpokeContent,
+    '상병급여':   실업급여상병급여SpokeContent,
   },
 
   'parent-allowance': {
