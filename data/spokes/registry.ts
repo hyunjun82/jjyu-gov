@@ -40,6 +40,11 @@ import { 노령연금부양가족연금SpokeContent } from '@/app/policy/[id]/[s
 import { 군인SpokeContent }    from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/군인';
 import { 중도해지SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/중도해지';
 import { 신청기간SpokeContent as 내일저축신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/신청기간';
+import { 청년내일저축가입자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/가입자격';
+import { 청년내일저축만기SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/만기수령액';
+import { 청년내일저축유지SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/유지조건';
+import { 청년내일저축비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/비교';
+import { 청년내일저축신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년내일저축계좌/신청방법';
 
 /* ── 실업급여 (slug: job-seeker-benefit) ── */
 import { 자발적퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자발적퇴사';
@@ -778,6 +783,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '군인':    군인SpokeContent,
     '중도해지': 중도해지SpokeContent,
     '신청기간': 내일저축신청기간SpokeContent,
+    '가입자격': 청년내일저축가입자격SpokeContent,
+    '만기수령액': 청년내일저축만기SpokeContent,
+    '유지조건': 청년내일저축유지SpokeContent,
+    '비교':    청년내일저축비교SpokeContent,
+    '신청방법': 청년내일저축신청SpokeContent,
   },
 
   'job-seeker-benefit': {
