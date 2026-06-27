@@ -172,6 +172,12 @@ import { 효율가전에어컨SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 냉난방비냉방SpokeContent } from '@/app/policy/[id]/[spoke]/content/냉난방비안내/냉방비';
 import { 냉난방비난방SpokeContent } from '@/app/policy/[id]/[spoke]/content/냉난방비안내/난방비';
 import { 냉난방비문의SpokeContent } from '@/app/policy/[id]/[spoke]/content/냉난방비안내/문의처';
+/* ── 노인맞춤 돌봄서비스 (slug: senior-customized-care) ── */
+import { 노인맞춤돌봄신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인맞춤돌봄/신청자격';
+import { 노인맞춤돌봄서비스SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인맞춤돌봄/서비스내용';
+import { 노인맞춤돌봄신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인맞춤돌봄/신청방법';
+import { 노인맞춤돌봄특화SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인맞춤돌봄/특화서비스';
+import { 노인맞춤돌봄생활지원사SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인맞춤돌봄/생활지원사';
 
 /* ── 방과후보육료 (slug: after-school-childcare-fee) ── */
 import { 방과후보육료신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/방과후보육료/신청방법';
@@ -893,6 +899,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '냉방비':     냉난방비냉방SpokeContent,
     '난방비':     냉난방비난방SpokeContent,
     '문의처':     냉난방비문의SpokeContent,
+  },
+
+  'senior-customized-care': {
+    '신청자격':   노인맞춤돌봄신청자격SpokeContent,
+    '서비스내용': 노인맞춤돌봄서비스SpokeContent,
+    '신청방법':   노인맞춤돌봄신청방법SpokeContent,
+    '특화서비스': 노인맞춤돌봄특화SpokeContent,
+    '생활지원사': 노인맞춤돌봄생활지원사SpokeContent,
   },
 
   'after-school-childcare-fee': {
