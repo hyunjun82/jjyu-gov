@@ -235,4 +235,12 @@ export const learningcardSpokes = [
   { slug: '사용처',      role: 'usage',   title: '내일배움카드 사용처 어디까지 되나 | AI·자격증·외국어 가능, 운전면허는 안 돼' },
   { slug: '재직자조건',  role: 'apply',   title: '재직자도 내일배움카드 받을 수 있나 | 공무원 제외 목록과 재직자·실업자 차이' },
   { slug: '실업급여병행', role: 'overlap', title: '실업급여 받는 중에 내일배움카드 쓰면 구직활동으로 인정되나' },
+  { slug: '신청방법',    role: 'apply',   title: '내일배움카드 신청 방법과 발급, 고용24로 한 번에' },
+  { slug: '유효기간',    role: 'period',  title: '내일배움카드 유효기간 5년, 만료되면 재발급 되나요' },
+  { slug: '자영업자',    role: 'target',  title: '자영업자도 내일배움카드 되나, 연매출 4억 미만이면 신청' },
+  { slug: '자격증',      role: 'usage',   title: '내일배움카드로 자격증 따기, 어떤 과정·학원 들을 수 있나' },
+  { slug: '훈련장려금',  role: 'benefit', title: '내일배움카드 훈련장려금 월 11만6천원, 누가 얼마 받나' },
+  { slug: '대상제외',    role: 'target',  title: '내일배움카드 안 되는 사람? 공무원·대학생·고소득 발급 제외' },
+  { slug: '국취제',      role: 'overlap', title: '국민취업지원제도와 내일배움카드 같이 받나, 훈련 연계' },
+  { slug: '자비부담',    role: 'amount',  title: '내일배움카드 자비부담 얼마? 무료 과정과 중복 수강 정리' },
 ];

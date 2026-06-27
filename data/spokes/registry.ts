@@ -94,6 +94,14 @@ import { 내일배움카드지원금액SpokeContent as 지원금액SpokeContent 
 import { 내일배움카드사용처SpokeContent as 사용처SpokeContent }     from '@/app/policy/[id]/[spoke]/content/내일배움카드/사용처';
 import { 내일배움카드재직자조건SpokeContent as 재직자조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/재직자조건';
 import { 내일배움카드실업급여병행SpokeContent as 실업급여병행SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/실업급여병행';
+import { 내일배움카드신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/신청방법';
+import { 내일배움카드유효기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/유효기간';
+import { 내일배움카드자영업자SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/자영업자';
+import { 내일배움카드자격증SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/자격증';
+import { 내일배움카드장려금SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/훈련장려금';
+import { 내일배움카드대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/대상제외';
+import { 내일배움카드국취제SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/국취제';
+import { 내일배움카드자비부담SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/자비부담';
 
 /* ── 육아휴직급여 (slug: parental-leave-pay) ── */
 import { 급여계산SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/급여계산';
@@ -807,6 +815,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '사용처':      사용처SpokeContent,
     '재직자조건':  재직자조건SpokeContent,
     '실업급여병행': 실업급여병행SpokeContent,
+    '신청방법':    내일배움카드신청SpokeContent,
+    '유효기간':    내일배움카드유효기간SpokeContent,
+    '자영업자':    내일배움카드자영업자SpokeContent,
+    '자격증':      내일배움카드자격증SpokeContent,
+    '훈련장려금':  내일배움카드장려금SpokeContent,
+    '대상제외':    내일배움카드대상SpokeContent,
+    '국취제':      내일배움카드국취제SpokeContent,
+    '자비부담':    내일배움카드자비부담SpokeContent,
   },
 
   'parental-leave-pay': {
