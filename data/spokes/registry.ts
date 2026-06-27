@@ -127,6 +127,11 @@ import { 육아휴직12세SpokeContent } from '@/app/policy/[id]/[spoke]/content
 
 /* ── 근로장려금 (slug: earned-income-tax-credit) ── */
 import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급일';
+import { 근로장려금신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/신청자격';
+import { 근로장려금반기신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/반기신청';
+import { 근로장려금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/신청방법';
+import { 근로장려금이의신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/이의신청';
+import { 근로장려금가구구분SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/가구구분';
 import { 조회방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/조회방법';
 import { 환수추징SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/환수추징';
 import { 신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/신청기간';
@@ -806,6 +811,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '모의계산': 장려금모의계산SpokeContent,
     '자동신청': 장려금자동신청SpokeContent,
     '지급제외': 장려금지급제외SpokeContent,
+    '신청자격': 근로장려금신청자격SpokeContent,
+    '반기신청': 근로장려금반기신청SpokeContent,
+    '신청방법': 근로장려금신청방법SpokeContent,
+    '이의신청': 근로장려금이의신청SpokeContent,
+    '가구구분': 근로장려금가구구분SpokeContent,
   },
 
   'youth-tomorrow-savings': {
