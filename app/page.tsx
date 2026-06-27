@@ -29,6 +29,11 @@ const FEATURED: {
   desc?: string; // summary 가 없거나 너무 길 때만 짧게 직접 입력
 }[] = [
   {
+    slug: 'property-tax',
+    badge: 'urgent',
+    desc: '주택 재산세 1기 납부 7월 16일~31일. 1세대 1주택 특례세율, 위택스 카드납부 무이자·분납까지 총정리.',
+  },
+  {
     slug: 'national-pension-reduction',
     badge: 'new',
     desc: '국민연금 받으며 일해도 월 519만원 미만이면 안 깎인다. 2026.6.17 감액 기준 상향, 2025년분 자동 환급.',

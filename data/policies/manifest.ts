@@ -29,6 +29,7 @@ import { elderlyDriverSafetyPolicy, elderlyDriverSafetySpokes } from './elderly-
 import { elderlyEmergencySafetyPolicy, elderlyEmergencySafetySpokes } from './elderly-emergency-safety';
 import { elderlyJobPolicy, elderlyJobSpokes } from './elderly-job';
 import { earnedIncomeTaxCreditPolicy, earnedIncomeTaxCreditSpokes } from './earned-income-tax-credit';
+import { propertyTaxPolicy, propertyTaxSpokes } from './property-tax';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -275,6 +276,7 @@ export const PoliciesById: Record<string, any> = {
   '119': happyBirthOnestopPolicy,
   '108': homeChildcareAllowancePolicy,
   '90': housingScholarPolicy,
+  '159': propertyTaxPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -425,6 +427,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'happy-birth-onestop': happyBirthOnestopPolicy,
   'home-childcare-allowance': homeChildcareAllowancePolicy,
   'housing-scholar': housingScholarPolicy,
+  'property-tax': propertyTaxPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -616,6 +619,7 @@ export const SpokesById: Record<string, any[]> = {
   '119': happyBirthOnestopSpokes,
   '108': homeChildcareAllowanceSpokes,
   '90': housingScholarSpokes,
+  '159': propertyTaxSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -766,6 +770,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'happy-birth-onestop': happyBirthOnestopSpokes,
   'home-childcare-allowance': homeChildcareAllowanceSpokes,
   'housing-scholar': housingScholarSpokes,
+  'property-tax': propertyTaxSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

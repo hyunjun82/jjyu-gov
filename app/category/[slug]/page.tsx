@@ -8,6 +8,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   loan:    '대출',
   youth:   '청년',
   welfare: '복지',
+  tax:     '세금',
 };
 
 export const dynamicParams = false;

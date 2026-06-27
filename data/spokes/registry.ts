@@ -650,6 +650,13 @@ import { 국가장학금가구원동의SpokeContent } from '@/app/policy/[id]/[s
 import { 국가장학금이의신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/이의신청';
 import { 국가장학금휴학복학SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/휴학복학';
 import { 국가장학금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/신청방법';
+/* ── 재산세 (slug: property-tax) ── */
+import { 재산세납부기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/납부기간';
+import { 재산세조회납부SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/조회납부';
+import { 재산세카드혜택SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/카드혜택';
+import { 재산세특례세율SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/특례세율';
+import { 재산세분납SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/분납';
+import { 재산세감면SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/감면';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1548,6 +1555,15 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '공공분양vs민간분양유리한점차이':         공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
     '공공분양vs공공임대뭘신청해야하나':       공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
     '공공분양당첨후계약입주일정절차':         공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'property-tax': {
+    '납부기간': 재산세납부기간SpokeContent,
+    '조회납부': 재산세조회납부SpokeContent,
+    '카드혜택': 재산세카드혜택SpokeContent,
+    '특례세율': 재산세특례세율SpokeContent,
+    '분납':     재산세분납SpokeContent,
+    '감면':     재산세감면SpokeContent,
   },
 
   'national-scholar': {
