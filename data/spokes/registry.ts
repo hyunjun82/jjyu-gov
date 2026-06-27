@@ -668,6 +668,12 @@ import { 국민연금보험료상한하한액SpokeContent } from '@/app/policy/[
 import { 국민연금보험료계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/보험료계산';
 import { 국민연금보험료가입자종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/가입자종류';
 import { 국민연금보험료납부SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/납부';
+/* ── 의료급여 (slug: medical-benefit) ── */
+import { 의료급여1종2종SpokeContent } from '@/app/policy/[id]/[spoke]/content/의료급여/1종2종';
+import { 의료급여본인부담금SpokeContent } from '@/app/policy/[id]/[spoke]/content/의료급여/본인부담금';
+import { 의료급여수급자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/의료급여/수급자격';
+import { 의료급여건강생활유지비SpokeContent } from '@/app/policy/[id]/[spoke]/content/의료급여/건강생활유지비';
+import { 의료급여신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/의료급여/신청방법';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1571,6 +1577,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '공공분양vs민간분양유리한점차이':         공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
     '공공분양vs공공임대뭘신청해야하나':       공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
     '공공분양당첨후계약입주일정절차':         공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'medical-benefit': {
+    '1종2종':       의료급여1종2종SpokeContent,
+    '본인부담금':   의료급여본인부담금SpokeContent,
+    '수급자격':     의료급여수급자격SpokeContent,
+    '건강생활유지비': 의료급여건강생활유지비SpokeContent,
+    '신청방법':     의료급여신청방법SpokeContent,
   },
 
   'national-pension-premium': {

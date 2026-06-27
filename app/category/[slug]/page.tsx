@@ -9,6 +9,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   youth:   '청년',
   welfare: '복지',
   tax:     '세금',
+  medical: '의료',
 };
 
 export const dynamicParams = false;
