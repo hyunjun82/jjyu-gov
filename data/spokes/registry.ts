@@ -435,6 +435,10 @@ import { 에너지캐시백신청방법한전홈페이지절차SpokeContent }   
 import { 에너지캐시백캐시백금액계산3퍼센트절감기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지캐시백/캐시백금액계산3퍼센트절감기준';
 import { 에너지캐시백신청대상주민등록주택용기준SpokeContent }     from '@/app/policy/[id]/[spoke]/content/에너지캐시백/신청대상주민등록주택용기준';
 import { 에너지캐시백에너지바우처절전요금할인비교SpokeContent }   from '@/app/policy/[id]/[spoke]/content/에너지캐시백/에너지바우처절전요금할인비교';
+import { 에너지캐시백하반기SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지캐시백/하반기확대';
+import { 에너지캐시백아파트SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지캐시백/아파트';
+import { 에너지캐시백조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지캐시백/조회확인';
+import { 에너지캐시백단점SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지캐시백/단점';
 
 /* ── 암환자의료비지원 (slug: cancer-patient-medical-aid) ── */
 import { 암환자의료비지원성인중위소득120이하300만원SpokeContent }     from '@/app/policy/[id]/[spoke]/content/암환자의료비지원/성인중위소득120이하300만원';
@@ -1199,6 +1203,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '캐시백금액계산3퍼센트절감기준': 에너지캐시백캐시백금액계산3퍼센트절감기준SpokeContent,
     '신청대상주민등록주택용기준':     에너지캐시백신청대상주민등록주택용기준SpokeContent,
     '에너지바우처절전요금할인비교':   에너지캐시백에너지바우처절전요금할인비교SpokeContent,
+    '하반기확대': 에너지캐시백하반기SpokeContent,
+    '아파트':     에너지캐시백아파트SpokeContent,
+    '조회확인':   에너지캐시백조회SpokeContent,
+    '단점':       에너지캐시백단점SpokeContent,
   },
 
   'cancer-patient-medical-aid': {
