@@ -614,6 +614,11 @@ import { 한부모가족지원고등학교학비지원22세연장조건SpokeCont
 import { 한부모가족지원아동양육비월23만원소득기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/한부모가족지원/아동양육비월23만원소득기준';
 import { 한부모가족지원중복수급기초수급동시가능여부SpokeContent }    from '@/app/policy/[id]/[spoke]/content/한부모가족지원/중복수급기초수급동시가능여부';
 import { 한부모가족지원청소년한부모월37만원24세이하SpokeContent }    from '@/app/policy/[id]/[spoke]/content/한부모가족지원/청소년한부모월37만원24세이하';
+import { 한부모증명서SpokeContent }   from '@/app/policy/[id]/[spoke]/content/한부모가족지원/증명서';
+import { 한부모기준SpokeContent }     from '@/app/policy/[id]/[spoke]/content/한부모가족지원/기준';
+import { 한부모혜택SpokeContent }     from '@/app/policy/[id]/[spoke]/content/한부모가족지원/혜택';
+import { 한부모신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/한부모가족지원/신청방법';
+import { 한부모지원센터SpokeContent } from '@/app/policy/[id]/[spoke]/content/한부모가족지원/지원센터';
 
 /* ── 근로자휴가지원 (slug: worker-vacation-support) ── */
 import { 근로자휴가지원2026선착순10만명신청기간SpokeContent }       from '@/app/policy/[id]/[spoke]/content/근로자휴가지원/2026선착순10만명신청기간';
@@ -1551,6 +1556,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '아동양육비월23만원소득기준':     한부모가족지원아동양육비월23만원소득기준SpokeContent,
     '중복수급기초수급동시가능여부':   한부모가족지원중복수급기초수급동시가능여부SpokeContent,
     '청소년한부모월37만원24세이하':   한부모가족지원청소년한부모월37만원24세이하SpokeContent,
+    '증명서':     한부모증명서SpokeContent,
+    '기준':       한부모기준SpokeContent,
+    '혜택':       한부모혜택SpokeContent,
+    '신청방법':   한부모신청방법SpokeContent,
+    '지원센터':   한부모지원센터SpokeContent,
   },
 
   'worker-vacation-support': {
