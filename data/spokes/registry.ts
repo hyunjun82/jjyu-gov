@@ -690,6 +690,12 @@ import { 차상위기초수급차이SpokeContent } from '@/app/policy/[id]/[spok
 import { 차상위세부유형SpokeContent } from '@/app/policy/[id]/[spoke]/content/차상위계층/세부유형';
 import { 차상위혜택SpokeContent } from '@/app/policy/[id]/[spoke]/content/차상위계층/혜택';
 import { 차상위확인서SpokeContent } from '@/app/policy/[id]/[spoke]/content/차상위계층/확인서';
+/* ── 긴급복지지원 (slug: emergency-welfare-support) ── */
+import { 긴급복지위기사유SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/위기사유';
+import { 긴급복지생계지원금SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/생계지원금';
+import { 긴급복지소득재산기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/소득재산기준';
+import { 긴급복지신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/신청방법';
+import { 긴급복지지원종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/지원종류';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1603,6 +1609,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '공공분양vs민간분양유리한점차이':         공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
     '공공분양vs공공임대뭘신청해야하나':       공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
     '공공분양당첨후계약입주일정절차':         공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'emergency-welfare-support': {
+    '위기사유':     긴급복지위기사유SpokeContent,
+    '생계지원금':   긴급복지생계지원금SpokeContent,
+    '소득재산기준': 긴급복지소득재산기준SpokeContent,
+    '신청방법':     긴급복지신청방법SpokeContent,
+    '지원종류':     긴급복지지원종류SpokeContent,
   },
 
   'near-poor': {
