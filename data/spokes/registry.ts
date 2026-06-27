@@ -58,6 +58,10 @@ import { 실업급여신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실업급여신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/신청기간';
 import { 실업급여구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/구직활동';
 import { 실업급여입금일SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/입금일';
+import { 실업급여부정수급SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/부정수급';
+import { 실업급여세금SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/세금';
+import { 실업급여퇴직금SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/퇴직금';
+import { 실업급여조기재취업SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/조기재취업';
 
 /* ── 기초연금 (slug: basic-pension) ── */
 import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
@@ -759,6 +763,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청기간':   실업급여신청기간SpokeContent,
     '구직활동':   실업급여구직활동SpokeContent,
     '입금일':     실업급여입금일SpokeContent,
+    '부정수급':   실업급여부정수급SpokeContent,
+    '세금':       실업급여세금SpokeContent,
+    '퇴직금':     실업급여퇴직금SpokeContent,
+    '조기재취업': 실업급여조기재취업SpokeContent,
   },
 
   'parent-allowance': {
