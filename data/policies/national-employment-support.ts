@@ -267,9 +267,13 @@ export const nationalEmploymentSupportPolicy: PolicyData = {
 };
 
 export const nationalEmploymentSupportSpokes = [
-  { slug: 'overview', label: '제도 개요' },
-  { slug: 'types', label: '1·2유형 비교' },
-  { slug: 'allowance', label: '수당 안내' },
-  { slug: 'procedure', label: '신청 절차' },
-  { slug: 'faq', label: '자주 묻는 질문' },
+  { slug: '구직촉진수당월60만6개월조건', label: '구직촉진수당 월 60만원' },
+  { slug: '1유형2유형자격차이신청방법', label: '1·2유형 자격 차이' },
+  { slug: '취업성공수당150만원조건', label: '취업성공수당 150만원' },
+  { slug: '국민취업지원실업급여차이비교', label: '실업급여와 차이' },
+  { slug: '신청방법', label: '신청 방법·기간' },
+  { slug: '중복', label: '내일배움카드·청년수당 중복' },
+  { slug: '부정수급', label: '부정수급·처벌' },
+  { slug: '재참여', label: '재참여 기간' },
+  { slug: '구직활동', label: '구직활동 의무' },
 ];

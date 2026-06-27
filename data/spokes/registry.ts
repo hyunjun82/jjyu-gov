@@ -504,6 +504,11 @@ import { 국민취업지원제도구직촉진수당월60만6개월조건SpokeCon
 import { 국민취업지원제도1유형2유형자격차이신청방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/1유형2유형자격차이신청방법';
 import { 국민취업지원제도취업성공수당150만원조건SpokeContent }         from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/취업성공수당150만원조건';
 import { 국민취업지원제도국민취업지원실업급여차이비교SpokeContent }   from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/국민취업지원실업급여차이비교';
+import { 국취신청SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/신청방법';
+import { 국취중복SpokeContent }     from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/중복';
+import { 국취부정수급SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/부정수급';
+import { 국취재참여SpokeContent }   from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/재참여';
+import { 국취구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/구직활동';
 
 /* ── 가족돌봄휴가 (slug: family-care-leave) ── */
 import { 가족돌봄휴가연10일무급유급차이신청방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/연10일무급유급차이신청방법';
@@ -1306,6 +1311,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '1유형2유형자격차이신청방법':     국민취업지원제도1유형2유형자격차이신청방법SpokeContent,
     '취업성공수당150만원조건':         국민취업지원제도취업성공수당150만원조건SpokeContent,
     '국민취업지원실업급여차이비교':   국민취업지원제도국민취업지원실업급여차이비교SpokeContent,
+    '신청방법':   국취신청SpokeContent,
+    '중복':       국취중복SpokeContent,
+    '부정수급':   국취부정수급SpokeContent,
+    '재참여':     국취재참여SpokeContent,
+    '구직활동':   국취구직활동SpokeContent,
   },
 
   'family-care-leave': {
