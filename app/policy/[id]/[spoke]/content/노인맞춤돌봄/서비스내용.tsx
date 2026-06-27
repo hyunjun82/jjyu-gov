@@ -3,7 +3,7 @@ import type { SpokeData } from '../../SpokeClient';
 const MOHW = 'https://www.mohw.go.kr';
 
 export const 노인맞춤돌봄서비스SpokeContent: SpokeData = {
-  h1: '노인맞춤돌봄 서비스 내용, 안부확인부터 가사·병원동행까지',
+  h1: '노인맞춤돌봄 서비스 내용, 안부 확인부터 가사·병원동행까지',
   breadcrumb: '서비스 내용',
   description: '노인맞춤 돌봄서비스는 안전·안부 확인, 사회 참여, 생활교육, 일상생활 지원, 연계 서비스의 5대 서비스를 무상 제공합니다. 돌봄 필요도에 따라 중점돌봄군은 월 20~40시간 미만, 일반돌봄군은 월 16시간 미만의 직접서비스를 받습니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
