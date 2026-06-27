@@ -154,6 +154,12 @@ import { 에너지바우처신청기간SpokeContent } from '@/app/policy/[id]/[s
 import { 에너지바우처잔액SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/잔액조회';
 import { 에너지바우처당겨쓰기SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/당겨쓰기';
 import { 에너지바우처전기할인SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/전기요금할인';
+/* ── 고효율가전 (slug: efficient-appliance-support) ── */
+import { 효율가전대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/대상';
+import { 효율가전환급률SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/환급률';
+import { 효율가전품목SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/품목';
+import { 효율가전신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/신청방법';
+import { 효율가전에어컨SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/에어컨';
 
 /* ── 방과후보육료 (slug: after-school-childcare-fee) ── */
 import { 방과후보육료신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/방과후보육료/신청방법';
@@ -849,6 +855,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '잔액조회':    에너지바우처잔액SpokeContent,
     '당겨쓰기':    에너지바우처당겨쓰기SpokeContent,
     '전기요금할인': 에너지바우처전기할인SpokeContent,
+  },
+
+  'efficient-appliance-support': {
+    '대상':       효율가전대상SpokeContent,
+    '환급률':     효율가전환급률SpokeContent,
+    '품목':       효율가전품목SpokeContent,
+    '신청방법':   효율가전신청SpokeContent,
+    '에어컨':     효율가전에어컨SpokeContent,
   },
 
   'after-school-childcare-fee': {
