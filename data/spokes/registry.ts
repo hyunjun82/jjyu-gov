@@ -160,6 +160,10 @@ import { 효율가전환급률SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 효율가전품목SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/품목';
 import { 효율가전신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/신청방법';
 import { 효율가전에어컨SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/에어컨';
+/* ── 냉난방비 지원기관 안내 (slug: nationwide-energy-support-guide) ── */
+import { 냉난방비냉방SpokeContent } from '@/app/policy/[id]/[spoke]/content/냉난방비안내/냉방비';
+import { 냉난방비난방SpokeContent } from '@/app/policy/[id]/[spoke]/content/냉난방비안내/난방비';
+import { 냉난방비문의SpokeContent } from '@/app/policy/[id]/[spoke]/content/냉난방비안내/문의처';
 
 /* ── 방과후보육료 (slug: after-school-childcare-fee) ── */
 import { 방과후보육료신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/방과후보육료/신청방법';
@@ -867,6 +871,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '품목':       효율가전품목SpokeContent,
     '신청방법':   효율가전신청SpokeContent,
     '에어컨':     효율가전에어컨SpokeContent,
+  },
+
+  'nationwide-energy-support-guide': {
+    '냉방비':     냉난방비냉방SpokeContent,
+    '난방비':     냉난방비난방SpokeContent,
+    '문의처':     냉난방비문의SpokeContent,
   },
 
   'after-school-childcare-fee': {
