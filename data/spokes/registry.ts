@@ -645,6 +645,11 @@ import { 국가장학금국가장학금2차신청기간2026SpokeContent } from '
 import { 국가장학금국가장학금소득분위지급금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금소득분위지급금액';
 import { 국가장학금국가장학금F학점성적기준미달SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금F학점성적기준미달';
 import { 국가장학금국가장학금지급일통장입금시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금지급일통장입금시기';
+import { 국가장학금다자녀SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/다자녀';
+import { 국가장학금가구원동의SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/가구원동의';
+import { 국가장학금이의신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/이의신청';
+import { 국가장학금휴학복학SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/휴학복학';
+import { 국가장학금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/신청방법';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1550,6 +1555,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '국가장학금소득분위지급금액':    국가장학금국가장학금소득분위지급금액SpokeContent,
     '국가장학금F학점성적기준미달':   국가장학금국가장학금F학점성적기준미달SpokeContent,
     '국가장학금지급일통장입금시기':  국가장학금국가장학금지급일통장입금시기SpokeContent,
+    '다자녀':     국가장학금다자녀SpokeContent,
+    '가구원동의': 국가장학금가구원동의SpokeContent,
+    '이의신청':   국가장학금이의신청SpokeContent,
+    '휴학복학':   국가장학금휴학복학SpokeContent,
+    '신청방법':   국가장학금신청방법SpokeContent,
   },
 
   'general-student-loan': {
