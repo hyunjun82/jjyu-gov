@@ -509,6 +509,12 @@ import { 국취중복SpokeContent }     from '@/app/policy/[id]/[spoke]/content/
 import { 국취부정수급SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/부정수급';
 import { 국취재참여SpokeContent }   from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/재참여';
 import { 국취구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/구직활동';
+/* ── 주거안정장학금 (slug: housing-scholar) ── */
+import { 주거안정장학금지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/주거안정장학금/지원금액';
+import { 주거안정장학금신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/주거안정장학금/신청자격';
+import { 주거안정장학금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/주거안정장학금/신청방법';
+import { 주거안정장학금중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/주거안정장학금/중복';
+import { 주거안정장학금신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/주거안정장학금/신청기간';
 
 /* ── 가족돌봄휴가 (slug: family-care-leave) ── */
 import { 가족돌봄휴가연10일무급유급차이신청방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/연10일무급유급차이신청방법';
@@ -922,6 +928,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법':   노인맞춤돌봄신청방법SpokeContent,
     '특화서비스': 노인맞춤돌봄특화SpokeContent,
     '생활지원사': 노인맞춤돌봄생활지원사SpokeContent,
+  },
+
+  'housing-scholar': {
+    '지원금액':   주거안정장학금지원금액SpokeContent,
+    '신청자격':   주거안정장학금신청자격SpokeContent,
+    '신청방법':   주거안정장학금신청방법SpokeContent,
+    '중복':       주거안정장학금중복SpokeContent,
+    '신청기간':   주거안정장학금신청기간SpokeContent,
   },
 
   'after-school-childcare-fee': {
