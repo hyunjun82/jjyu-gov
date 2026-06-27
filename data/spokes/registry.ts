@@ -657,6 +657,12 @@ import { 재산세카드혜택SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 재산세특례세율SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/특례세율';
 import { 재산세분납SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/분납';
 import { 재산세감면SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/감면';
+/* ── 국민연금 보험료 (slug: national-pension-premium) ── */
+import { 국민연금보험료기준소득월액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/기준소득월액';
+import { 국민연금보험료상한하한액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/상한하한액';
+import { 국민연금보험료계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/보험료계산';
+import { 국민연금보험료가입자종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/가입자종류';
+import { 국민연금보험료납부SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/납부';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1555,6 +1561,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '공공분양vs민간분양유리한점차이':         공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
     '공공분양vs공공임대뭘신청해야하나':       공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
     '공공분양당첨후계약입주일정절차':         공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'national-pension-premium': {
+    '기준소득월액': 국민연금보험료기준소득월액SpokeContent,
+    '상한하한액':   국민연금보험료상한하한액SpokeContent,
+    '보험료계산':   국민연금보험료계산SpokeContent,
+    '가입자종류':   국민연금보험료가입자종류SpokeContent,
+    '납부':         국민연금보험료납부SpokeContent,
   },
 
   'property-tax': {

@@ -34,6 +34,11 @@ const FEATURED: {
     desc: '주택 재산세 1기 납부 7월 16일~31일. 1세대 1주택 특례세율, 위택스 카드납부 무이자·분납까지 총정리.',
   },
   {
+    slug: 'national-pension-premium',
+    badge: 'new',
+    desc: '7월 기준소득월액 정기결정으로 국민연금 보험료 변경. 상한 637→659만·하한 40→41만원, 최대 월 593,100원.',
+  },
+  {
     slug: 'national-pension-reduction',
     badge: 'new',
     desc: '국민연금 받으며 일해도 월 519만원 미만이면 안 깎인다. 2026.6.17 감액 기준 상향, 2025년분 자동 환급.',
