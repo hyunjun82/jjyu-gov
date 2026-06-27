@@ -54,6 +54,10 @@ import { 실업급여권고사직SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실업급여계약만료SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/계약만료';
 import { 실업급여이직확인서SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/이직확인서';
 import { 실업급여임신질병SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/임신질병';
+import { 실업급여신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/신청방법';
+import { 실업급여신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/신청기간';
+import { 실업급여구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/구직활동';
+import { 실업급여입금일SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/입금일';
 
 /* ── 기초연금 (slug: basic-pension) ── */
 import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
@@ -751,6 +755,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '계약만료':   실업급여계약만료SpokeContent,
     '이직확인서': 실업급여이직확인서SpokeContent,
     '임신질병':   실업급여임신질병SpokeContent,
+    '신청방법':   실업급여신청방법SpokeContent,
+    '신청기간':   실업급여신청기간SpokeContent,
+    '구직활동':   실업급여구직활동SpokeContent,
+    '입금일':     실업급여입금일SpokeContent,
   },
 
   'parent-allowance': {
