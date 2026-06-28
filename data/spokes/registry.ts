@@ -633,6 +633,24 @@ import { 청년미래이음한도금리SpokeContent } from '@/app/policy/[id]/[s
 import { 청년미래이음유스비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/유스비교';
 import { 청년미래이음상환구조SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/상환구조';
 import { 청년미래이음신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/신청방법';
+/* ── 햇살론유스 (slug: sunshine-youth-loan) ── */
+import { 햇살론유스대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론유스/대상자격';
+import { 햇살론유스한도용도SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론유스/한도용도';
+import { 햇살론유스금리상환SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론유스/금리상환';
+import { 햇살론유스청년대출비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론유스/청년대출비교';
+import { 햇살론유스신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론유스/신청방법';
+/* ── 소상공인 특례 햇살론카드 (slug: sme-sunshine-card) ── */
+import { 소상공인햇살론카드대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인햇살론카드/대상자격';
+import { 소상공인햇살론카드보증한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인햇살론카드/보증한도';
+import { 소상공인햇살론카드교육컨설팅SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인햇살론카드/교육컨설팅';
+import { 소상공인햇살론카드카드사업종SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인햇살론카드/카드사업종';
+import { 소상공인햇살론카드신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인햇살론카드/신청방법';
+/* ── 금융취약계층 생계자금 (slug: vulnerable-livelihood-loan) ── */
+import { 금융취약계층생계자금대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/대상자격';
+import { 금융취약계층생계자금한도금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/한도금리';
+import { 금융취약계층생계자금추가요건SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/추가요건';
+import { 금융취약계층생계자금청년비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/청년비교';
+import { 금융취약계층생계자금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/신청방법';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1528,6 +1546,30 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'sunshine-youth-loan': {
+    '대상자격':     햇살론유스대상자격SpokeContent,
+    '한도용도':     햇살론유스한도용도SpokeContent,
+    '금리상환':     햇살론유스금리상환SpokeContent,
+    '청년대출비교': 햇살론유스청년대출비교SpokeContent,
+    '신청방법':     햇살론유스신청방법SpokeContent,
+  },
+
+  'sme-sunshine-card': {
+    '대상자격':   소상공인햇살론카드대상자격SpokeContent,
+    '보증한도':   소상공인햇살론카드보증한도SpokeContent,
+    '교육컨설팅': 소상공인햇살론카드교육컨설팅SpokeContent,
+    '카드사업종': 소상공인햇살론카드카드사업종SpokeContent,
+    '신청방법':   소상공인햇살론카드신청방법SpokeContent,
+  },
+
+  'vulnerable-livelihood-loan': {
+    '대상자격': 금융취약계층생계자금대상자격SpokeContent,
+    '한도금리': 금융취약계층생계자금한도금리SpokeContent,
+    '추가요건': 금융취약계층생계자금추가요건SpokeContent,
+    '청년비교': 금융취약계층생계자금청년비교SpokeContent,
+    '신청방법': 금융취약계층생계자금신청방법SpokeContent,
   },
 
   'sunshine-loan-general': {

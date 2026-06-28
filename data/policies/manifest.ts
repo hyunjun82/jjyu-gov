@@ -53,6 +53,8 @@ import { sunshineLoanSpecialPolicy, sunshineLoanSpecialSpokes } from './sunshine
 import { sunshineLoanCardPolicy, sunshineLoanCardSpokes } from './sunshine-loan-card';
 import { sunshineLoan119Policy, sunshineLoan119Spokes } from './sunshine-loan-119';
 import { youthFutureLinkLoanPolicy, youthFutureLinkLoanSpokes } from './youth-future-link-loan';
+import { smeSunshineCardPolicy, smeSunshineCardSpokes } from './sme-sunshine-card';
+import { vulnerableLivelihoodLoanPolicy, vulnerableLivelihoodLoanSpokes } from './vulnerable-livelihood-loan';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -323,6 +325,8 @@ export const PoliciesById: Record<string, any> = {
   '180': sunshineLoanCardPolicy,
   '181': sunshineLoan119Policy,
   '182': youthFutureLinkLoanPolicy,
+  '183': smeSunshineCardPolicy,
+  '184': vulnerableLivelihoodLoanPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -497,6 +501,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'sunshine-loan-card': sunshineLoanCardPolicy,
   'sunshine-loan-119': sunshineLoan119Policy,
   'youth-future-link-loan': youthFutureLinkLoanPolicy,
+  'sme-sunshine-card': smeSunshineCardPolicy,
+  'vulnerable-livelihood-loan': vulnerableLivelihoodLoanPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -712,6 +718,8 @@ export const SpokesById: Record<string, any[]> = {
   '180': sunshineLoanCardSpokes,
   '181': sunshineLoan119Spokes,
   '182': youthFutureLinkLoanSpokes,
+  '183': smeSunshineCardSpokes,
+  '184': vulnerableLivelihoodLoanSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -886,6 +894,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'sunshine-loan-card': sunshineLoanCardSpokes,
   'sunshine-loan-119': sunshineLoan119Spokes,
   'youth-future-link-loan': youthFutureLinkLoanSpokes,
+  'sme-sunshine-card': smeSunshineCardSpokes,
+  'vulnerable-livelihood-loan': vulnerableLivelihoodLoanSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
