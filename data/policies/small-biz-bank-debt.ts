@@ -125,4 +125,8 @@ export const smallBizBankDebtSpokes = [
   { slug: '직장인', label: '직장인도 되나', icon: '🧑‍💼' },
   { slug: '새출발기금단점주의사항신청전', label: '단점·주의사항', icon: '⚠️' },
   { slug: '새출발기금희망리턴패키지차이', label: 'vs 희망리턴패키지', icon: '🔄' },
+  { slug: '재산심사', label: '재산심사(가상자산)', icon: '🔍' },
+  { slug: '모의감면계산', label: '모의 감면 계산', icon: '🧮' },
+  { slug: '부실우려차주금리조정', label: '부실우려 금리조정', icon: '📊' },
+  { slug: '보이스피싱주의', label: '사칭·보이스피싱 주의', icon: '🛡️' },
 ];

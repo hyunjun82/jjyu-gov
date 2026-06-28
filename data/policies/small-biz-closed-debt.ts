@@ -122,4 +122,7 @@ export const smallBizClosedDebtSpokes = [
   { slug: '폐업소상공인점포철거비지원금액', label: '점포철거비 600만원', icon: '🏚️' },
   { slug: '폐업소상공인채무조정신청방법절차', label: '채무조정 신청방법', icon: '📋' },
   { slug: '폐업소상공인지원새출발기금차이', label: 'vs 새출발기금', icon: '⚖️' },
+  { slug: '재기사업화자금', label: '재기사업화 자금 2천만', icon: '💰' },
+  { slug: '전직장려수당', label: '전직장려수당 100만', icon: '🧑‍💼' },
+  { slug: '사업정리컨설팅', label: '사업정리컨설팅·법률', icon: '🧾' },
 ];

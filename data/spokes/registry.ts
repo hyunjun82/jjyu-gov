@@ -790,6 +790,10 @@ import { 새출발기금새출발기금원금탕감감면조건SpokeContent }   
 import { 새출발기금새출발기금단점주의사항신청전SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금단점주의사항신청전';
 import { 새출발기금새출발기금희망리턴패키지차이SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/새출발기금희망리턴패키지차이';
 import { 새출발기금감면율SpokeContent }   from '@/app/policy/[id]/[spoke]/content/새출발기금/감면율';
+import { 새출발기금재산심사SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/재산심사';
+import { 새출발기금모의감면계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/모의감면계산';
+import { 새출발기금부실우려차주금리조정SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/부실우려차주금리조정';
+import { 새출발기금보이스피싱주의SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/보이스피싱주의';
 import { 새출발기금상환유예SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/상환유예';
 import { 새출발기금신용SpokeContent }     from '@/app/policy/[id]/[spoke]/content/새출발기금/신용';
 import { 새출발기금vs신복위SpokeContent } from '@/app/policy/[id]/[spoke]/content/새출발기금/vs신복위';
@@ -797,6 +801,9 @@ import { 새출발기금직장인SpokeContent }   from '@/app/policy/[id]/[spoke
 
 /* ── 폐업소상공인채무조정 (slug: small-biz-closed-debt) ── */
 import { 폐업소상공인채무조정폐업소상공인채무조정신청방법절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/폐업소상공인채무조정신청방법절차';
+import { 폐업소상공인채무조정재기사업화자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/재기사업화자금';
+import { 폐업소상공인채무조정전직장려수당SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/전직장려수당';
+import { 폐업소상공인채무조정사업정리컨설팅SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/사업정리컨설팅';
 import { 폐업소상공인채무조정폐업소상공인점포철거비지원금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/폐업소상공인점포철거비지원금액';
 import { 폐업소상공인채무조정희망리턴패키지폐업재기지원총정리SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/희망리턴패키지폐업재기지원총정리';
 import { 폐업소상공인채무조정폐업소상공인지원새출발기금차이SpokeContent }   from '@/app/policy/[id]/[spoke]/content/폐업소상공인채무조정/폐업소상공인지원새출발기금차이';
@@ -1540,6 +1547,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'small-biz-bank-debt': {
+    '재산심사':             새출발기금재산심사SpokeContent,
+    '모의감면계산':         새출발기금모의감면계산SpokeContent,
+    '부실우려차주금리조정': 새출발기금부실우려차주금리조정SpokeContent,
+    '보이스피싱주의':       새출발기금보이스피싱주의SpokeContent,
     '새출발기금신청자격부실차주기준': 새출발기금새출발기금신청자격부실차주기준SpokeContent,
     '새출발기금원금탕감감면조건':     새출발기금새출발기금원금탕감감면조건SpokeContent,
     '새출발기금단점주의사항신청전':   새출발기금새출발기금단점주의사항신청전SpokeContent,
@@ -1556,6 +1567,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '폐업소상공인점포철거비지원금액':         폐업소상공인채무조정폐업소상공인점포철거비지원금액SpokeContent,
     '희망리턴패키지폐업재기지원총정리':       폐업소상공인채무조정희망리턴패키지폐업재기지원총정리SpokeContent,
     '폐업소상공인지원새출발기금차이':         폐업소상공인채무조정폐업소상공인지원새출발기금차이SpokeContent,
+    '재기사업화자금':                         폐업소상공인채무조정재기사업화자금SpokeContent,
+    '전직장려수당':                           폐업소상공인채무조정전직장려수당SpokeContent,
+    '사업정리컨설팅':                         폐업소상공인채무조정사업정리컨설팅SpokeContent,
   },
 
   'small-biz-credit-recovery': {
