@@ -603,6 +603,36 @@ import { 중기청전세한도보증금SpokeContent } from '@/app/policy/[id]/[s
 import { 중기청전세금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/금리';
 import { 중기청전세기간연장SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/기간연장';
 import { 중기청전세신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/신청방법';
+/* ── 햇살론일반 (slug: sunshine-loan-general) ── */
+import { 햇살론일반대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론일반/대상자격';
+import { 햇살론일반한도금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론일반/한도금리';
+import { 햇살론일반보증료우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론일반/보증료우대';
+import { 햇살론일반햇살론비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론일반/햇살론비교';
+import { 햇살론일반신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론일반/신청방법';
+/* ── 햇살론특례 (slug: sunshine-loan-special) ── */
+import { 햇살론특례대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론특례/대상자격';
+import { 햇살론특례한도금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론특례/한도금리';
+import { 햇살론특례일반비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론특례/일반비교';
+import { 햇살론특례대부업대안SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론특례/대부업대안';
+import { 햇살론특례신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론특례/신청방법';
+/* ── 햇살론카드 (slug: sunshine-loan-card) ── */
+import { 햇살론카드대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론카드/대상자격';
+import { 햇살론카드보증한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론카드/보증한도';
+import { 햇살론카드필수교육SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론카드/필수교육';
+import { 햇살론카드카드사혜택SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론카드/카드사혜택';
+import { 햇살론카드신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론카드/신청방법';
+/* ── 햇살론119 (slug: sunshine-loan-119) ── */
+import { 햇살론119대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론119/대상자격';
+import { 햇살론119한도금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론119/한도금리';
+import { 햇살론119채무조정연계SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론119/채무조정연계';
+import { 햇살론119햇살론비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론119/햇살론비교';
+import { 햇살론119신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/햇살론119/신청방법';
+/* ── 청년 미래이음 대출 (slug: youth-future-link-loan) ── */
+import { 청년미래이음대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/대상자격';
+import { 청년미래이음한도금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/한도금리';
+import { 청년미래이음유스비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/유스비교';
+import { 청년미래이음상환구조SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/상환구조';
+import { 청년미래이음신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래이음/신청방법';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1498,6 +1528,46 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'sunshine-loan-general': {
+    '대상자격':   햇살론일반대상자격SpokeContent,
+    '한도금리':   햇살론일반한도금리SpokeContent,
+    '보증료우대': 햇살론일반보증료우대SpokeContent,
+    '햇살론비교': 햇살론일반햇살론비교SpokeContent,
+    '신청방법':   햇살론일반신청방법SpokeContent,
+  },
+
+  'sunshine-loan-special': {
+    '대상자격':   햇살론특례대상자격SpokeContent,
+    '한도금리':   햇살론특례한도금리SpokeContent,
+    '일반비교':   햇살론특례일반비교SpokeContent,
+    '대부업대안': 햇살론특례대부업대안SpokeContent,
+    '신청방법':   햇살론특례신청방법SpokeContent,
+  },
+
+  'sunshine-loan-card': {
+    '대상자격':   햇살론카드대상자격SpokeContent,
+    '보증한도':   햇살론카드보증한도SpokeContent,
+    '필수교육':   햇살론카드필수교육SpokeContent,
+    '카드사혜택': 햇살론카드카드사혜택SpokeContent,
+    '신청방법':   햇살론카드신청방법SpokeContent,
+  },
+
+  'sunshine-loan-119': {
+    '대상자격':     햇살론119대상자격SpokeContent,
+    '한도금리':     햇살론119한도금리SpokeContent,
+    '채무조정연계': 햇살론119채무조정연계SpokeContent,
+    '햇살론비교':   햇살론119햇살론비교SpokeContent,
+    '신청방법':     햇살론119신청방법SpokeContent,
+  },
+
+  'youth-future-link-loan': {
+    '대상자격':   청년미래이음대상자격SpokeContent,
+    '한도금리':   청년미래이음한도금리SpokeContent,
+    '유스비교':   청년미래이음유스비교SpokeContent,
+    '상환구조':   청년미래이음상환구조SpokeContent,
+    '신청방법':   청년미래이음신청방법SpokeContent,
   },
 
   'sme-youth-jeonse-loan': {
