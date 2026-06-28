@@ -118,4 +118,6 @@ export const nationalPensionReductionSpokes = [
   { slug: '환급', role: 'usage', title: '이미 깎인 노령연금 돌려받나 2025년분 자동 환급', content: '신청 불필요.' },
   { slug: '감액계산', role: 'amount', title: '노령연금 감액 얼마나 되나 초과소득 구간별 계산', content: '최대 50% 한도.' },
   { slug: '부양가족연금', role: 'overlap', title: '감액 빠지면 부양가족연금도 같이 받나', content: '환급 시 자동 지급.' },
+  { slug: '감액기간', role: 'usage', title: '노령연금 감액 기간, 수급개시 후 5년만 적용', content: '수급개시 후 5년간만, 이후 소득 무관 전액.' },
+  { slug: '감액회피', role: 'usage', title: '노령연금 감액 피하는 법, 연기연금 소득조절', content: '연기연금(1년 7.2%↑)·소득조절·일부연기로 회피.' },
 ];

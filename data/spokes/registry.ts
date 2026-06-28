@@ -32,6 +32,8 @@ import { 미래적금심사일정SpokeContent } from '@/app/policy/[id]/[spoke]/
 
 /* ── 노령연금 감액 기준 상향 (slug: national-pension-reduction) ── */
 import { 노령연금감액기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/감액기준';
+import { 노령연금감액기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/감액기간';
+import { 노령연금감액회피SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/감액회피';
 import { 노령연금환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/환급';
 import { 노령연금감액계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/감액계산';
 import { 노령연금부양가족연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금감액/부양가족연금';
@@ -76,6 +78,7 @@ import { 실업급여상병급여SpokeContent } from '@/app/policy/[id]/[spoke]/
 
 /* ── 기초연금 (slug: basic-pension) ── */
 import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
+import { 기초연금이의신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/이의신청';
 import { 금액SpokeContent }         from '@/app/policy/[id]/[spoke]/content/기초연금/금액';
 import { 소득인정액계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/소득인정액-계산';
 import { 재산기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/재산기준';
@@ -700,6 +703,8 @@ import { 국민연금보험료수령액SpokeContent } from '@/app/policy/[id]/[s
 import { 국민연금보험료가입기간추납SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/가입기간추납';
 import { 국민연금보험료조기노령연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/조기노령연금';
 import { 국민연금보험료연기연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/연기연금';
+import { 국민연금보험료유족연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/유족연금';
+import { 국민연금보험료분할연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/분할연금';
 import { 국민연금보험료상한하한액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/상한하한액';
 import { 국민연금보험료계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/보험료계산';
 import { 국민연금보험료가입자종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/가입자종류';
@@ -885,6 +890,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '환급':         노령연금환급SpokeContent,
     '감액계산':     노령연금감액계산SpokeContent,
     '부양가족연금': 노령연금부양가족연금SpokeContent,
+    '감액기간':     노령연금감액기간SpokeContent,
+    '감액회피':     노령연금감액회피SpokeContent,
   },
 
   'earned-income-tax-credit': {
@@ -1366,6 +1373,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'basic-pension': {
     '수급자격':          수급자격SpokeContent,
+    '이의신청':          기초연금이의신청SpokeContent,
     '금액':              금액SpokeContent,
     '소득인정액-계산':   소득인정액계산SpokeContent,
     '재산기준':          재산기준SpokeContent,
@@ -1764,6 +1772,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '가입기간추납': 국민연금보험료가입기간추납SpokeContent,
     '조기노령연금': 국민연금보험료조기노령연금SpokeContent,
     '연기연금':     국민연금보험료연기연금SpokeContent,
+    '유족연금':     국민연금보험료유족연금SpokeContent,
+    '분할연금':     국민연금보험료분할연금SpokeContent,
     '기준소득월액': 국민연금보험료기준소득월액SpokeContent,
     '상한하한액':   국민연금보험료상한하한액SpokeContent,
     '보험료계산':   국민연금보험료계산SpokeContent,
