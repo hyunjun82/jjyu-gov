@@ -40,6 +40,7 @@ import { industrialAccidentInsurancePolicy, industrialAccidentInsuranceSpokes } 
 import { jeonseFraudVictimPolicy, jeonseFraudVictimSpokes } from './jeonse-fraud-victim';
 import { youthMonthlyRentPolicy, youthMonthlyRentSpokes } from './youth-monthly-rent';
 import { smallBizPolicyFundPolicy, smallBizPolicyFundSpokes } from './small-biz-policy-fund';
+import { cardFeeSupportPolicy, cardFeeSupportSpokes } from './card-fee-support';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -297,6 +298,7 @@ export const PoliciesById: Record<string, any> = {
   '167': jeonseFraudVictimPolicy,
   '168': youthMonthlyRentPolicy,
   '169': smallBizPolicyFundPolicy,
+  '170': cardFeeSupportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -458,6 +460,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'jeonse-fraud-victim': jeonseFraudVictimPolicy,
   'youth-monthly-rent': youthMonthlyRentPolicy,
   'small-biz-policy-fund': smallBizPolicyFundPolicy,
+  'card-fee-support': cardFeeSupportPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -660,6 +663,7 @@ export const SpokesById: Record<string, any[]> = {
   '167': jeonseFraudVictimSpokes,
   '168': youthMonthlyRentSpokes,
   '169': smallBizPolicyFundSpokes,
+  '170': cardFeeSupportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -821,6 +825,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'jeonse-fraud-victim': jeonseFraudVictimSpokes,
   'youth-monthly-rent': youthMonthlyRentSpokes,
   'small-biz-policy-fund': smallBizPolicyFundSpokes,
+  'card-fee-support': cardFeeSupportSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

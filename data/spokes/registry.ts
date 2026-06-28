@@ -552,6 +552,12 @@ import { 정책자금일반경영안정자금SpokeContent } from '@/app/policy/[
 import { 정책자금지역신용보증재단SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/지역신용보증재단';
 import { 정책자금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/신청방법';
 import { 정책자금대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/대상자격';
+/* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
+import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
+import { 카드수수료대상선정SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/대상선정';
+import { 카드수수료수수료환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/수수료환급';
+import { 카드수수료매출세액공제SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/매출세액공제';
+import { 카드수수료지자체지원조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/지자체지원조회';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1430,6 +1436,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'card-fee-support': {
+    '우대수수료율':   카드수수료우대수수료율SpokeContent,
+    '대상선정':       카드수수료대상선정SpokeContent,
+    '수수료환급':     카드수수료수수료환급SpokeContent,
+    '매출세액공제':   카드수수료매출세액공제SpokeContent,
+    '지자체지원조회': 카드수수료지자체지원조회SpokeContent,
   },
 
   'small-biz-policy-fund': {
