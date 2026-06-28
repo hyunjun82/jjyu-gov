@@ -579,6 +579,12 @@ import { 연말정산간소화서비스SpokeContent } from '@/app/policy/[id]/[s
 import { 연말정산공제종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/공제종류';
 import { 연말정산환급전략SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/환급전략';
 import { 연말정산경정청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/경정청구';
+/* ── 신생아 특례대출 (slug: newborn-special-loan) ── */
+import { 신생아특례대출대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/대상조건';
+import { 신생아특례대출디딤돌구입SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/디딤돌구입';
+import { 신생아특례대출버팀목전세SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/버팀목전세';
+import { 신생아특례대출금리우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/금리우대';
+import { 신생아특례대출신청대환SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/신청대환';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1474,6 +1480,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'newborn-special-loan': {
+    '대상조건':   신생아특례대출대상조건SpokeContent,
+    '디딤돌구입': 신생아특례대출디딤돌구입SpokeContent,
+    '버팀목전세': 신생아특례대출버팀목전세SpokeContent,
+    '금리우대':   신생아특례대출금리우대SpokeContent,
+    '신청대환':   신생아특례대출신청대환SpokeContent,
   },
 
   'year-end-tax': {
