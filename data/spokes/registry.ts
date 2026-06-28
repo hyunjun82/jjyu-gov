@@ -540,11 +540,18 @@ import { 아동급식카드신청방법복지로주민센터절차서류SpokeCon
 import { 아동급식카드사용처편의점가맹점하루지원금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/아동급식카드/사용처편의점가맹점하루지원금액';
 import { 아동급식카드방학중지원학기중차이이용방법주의SpokeContent } from '@/app/policy/[id]/[spoke]/content/아동급식카드/방학중지원학기중차이이용방법주의';
 
-/* ── 청년월세지원 (slug: youth-monthly-rent) ── */
-import { 청년월세지원신청자격만19세34세무주택독립거주SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년월세지원/신청자격만19세34세무주택독립거주';
-import { 청년월세지원지원금액월20만최대24개월480만조건SpokeContent }   from '@/app/policy/[id]/[spoke]/content/청년월세지원/지원금액월20만최대24개월480만조건';
-import { 청년월세지원신청방법복지로서울주거포털상시신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세지원/신청방법복지로서울주거포털상시신청';
-import { 청년월세지원청년주거급여중복불가유리한선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세지원/청년주거급여중복불가유리한선택기준';
+/* ── 청년월세 특별지원 (slug: youth-monthly-rent) ── */
+import { 청년월세신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세/신청자격';
+import { 청년월세소득재산기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세/소득재산기준';
+import { 청년월세지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세/지원금액';
+import { 청년월세신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세/신청방법';
+import { 청년월세주거급여중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년월세/주거급여중복';
+/* ── 소상공인 정책자금·지역 육성자금 (slug: small-biz-policy-fund) ── */
+import { 정책자금자금종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/자금종류';
+import { 정책자금일반경영안정자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일반경영안정자금';
+import { 정책자금지역신용보증재단SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/지역신용보증재단';
+import { 정책자금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/신청방법';
+import { 정책자금대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/대상자격';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1425,11 +1432,20 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
   },
 
+  'small-biz-policy-fund': {
+    '자금종류':         정책자금자금종류SpokeContent,
+    '일반경영안정자금': 정책자금일반경영안정자금SpokeContent,
+    '지역신용보증재단': 정책자금지역신용보증재단SpokeContent,
+    '신청방법':         정책자금신청방법SpokeContent,
+    '대상자격':         정책자금대상자격SpokeContent,
+  },
+
   'youth-monthly-rent': {
-    '신청자격만19세34세무주택독립거주':   청년월세지원신청자격만19세34세무주택독립거주SpokeContent,
-    '지원금액월20만최대24개월480만조건':   청년월세지원지원금액월20만최대24개월480만조건SpokeContent,
-    '신청방법복지로서울주거포털상시신청': 청년월세지원신청방법복지로서울주거포털상시신청SpokeContent,
-    '청년주거급여중복불가유리한선택기준': 청년월세지원청년주거급여중복불가유리한선택기준SpokeContent,
+    '신청자격':     청년월세신청자격SpokeContent,
+    '소득재산기준': 청년월세소득재산기준SpokeContent,
+    '지원금액':     청년월세지원금액SpokeContent,
+    '신청방법':     청년월세신청방법SpokeContent,
+    '주거급여중복': 청년월세주거급여중복SpokeContent,
   },
 
   'self-sufficiency-program': {
