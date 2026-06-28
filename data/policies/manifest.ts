@@ -43,6 +43,7 @@ import { smallBizPolicyFundPolicy, smallBizPolicyFundSpokes } from './small-biz-
 import { cardFeeSupportPolicy, cardFeeSupportSpokes } from './card-fee-support';
 import { smallBizOnlineSalesPolicy, smallBizOnlineSalesSpokes } from './small-biz-online-sales';
 import { livingStabilityLoanPolicy, livingStabilityLoanSpokes } from './living-stability-loan';
+import { yearEndTaxPolicy, yearEndTaxSpokes } from './year-end-tax';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -303,6 +304,7 @@ export const PoliciesById: Record<string, any> = {
   '170': cardFeeSupportPolicy,
   '171': smallBizOnlineSalesPolicy,
   '172': livingStabilityLoanPolicy,
+  '173': yearEndTaxPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -467,6 +469,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'card-fee-support': cardFeeSupportPolicy,
   'small-biz-online-sales': smallBizOnlineSalesPolicy,
   'living-stability-loan': livingStabilityLoanPolicy,
+  'year-end-tax': yearEndTaxPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -672,6 +675,7 @@ export const SpokesById: Record<string, any[]> = {
   '170': cardFeeSupportSpokes,
   '171': smallBizOnlineSalesSpokes,
   '172': livingStabilityLoanSpokes,
+  '173': yearEndTaxSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -836,6 +840,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'card-fee-support': cardFeeSupportSpokes,
   'small-biz-online-sales': smallBizOnlineSalesSpokes,
   'living-stability-loan': livingStabilityLoanSpokes,
+  'year-end-tax': yearEndTaxSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

@@ -570,6 +570,12 @@ import { 생활안정자금한도금리SpokeContent } from '@/app/policy/[id]/[s
 import { 생활안정자금주택제한SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/주택제한';
 import { 생활안정자금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/신청방법';
 import { 생활안정자금서민금융비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/서민금융비교';
+/* ── 연말정산 (slug: year-end-tax) ── */
+import { 연말정산일정절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/일정절차';
+import { 연말정산간소화서비스SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/간소화서비스';
+import { 연말정산공제종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/공제종류';
+import { 연말정산환급전략SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/환급전략';
+import { 연말정산경정청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/경정청구';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1455,6 +1461,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'year-end-tax': {
+    '일정절차':     연말정산일정절차SpokeContent,
+    '간소화서비스': 연말정산간소화서비스SpokeContent,
+    '공제종류':     연말정산공제종류SpokeContent,
+    '환급전략':     연말정산환급전략SpokeContent,
+    '경정청구':     연말정산경정청구SpokeContent,
   },
 
   'living-stability-loan': {
