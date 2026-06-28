@@ -585,6 +585,12 @@ import { 신생아특례대출디딤돌구입SpokeContent } from '@/app/policy/[
 import { 신생아특례대출버팀목전세SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/버팀목전세';
 import { 신생아특례대출금리우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/금리우대';
 import { 신생아특례대출신청대환SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/신청대환';
+/* ── 디딤돌 대출 (slug: didimdol-loan) ── */
+import { 디딤돌대출대상소득SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/대상소득';
+import { 디딤돌대출한도주택가액SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/한도주택가액';
+import { 디딤돌대출금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/금리';
+import { 디딤돌대출생애최초신혼우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/생애최초신혼우대';
+import { 디딤돌대출신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/신청';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1480,6 +1486,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'didimdol-loan': {
+    '대상소득':         디딤돌대출대상소득SpokeContent,
+    '한도주택가액':     디딤돌대출한도주택가액SpokeContent,
+    '금리':             디딤돌대출금리SpokeContent,
+    '생애최초신혼우대': 디딤돌대출생애최초신혼우대SpokeContent,
+    '신청':             디딤돌대출신청SpokeContent,
   },
 
   'newborn-special-loan': {

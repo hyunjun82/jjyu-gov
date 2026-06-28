@@ -45,6 +45,7 @@ import { smallBizOnlineSalesPolicy, smallBizOnlineSalesSpokes } from './small-bi
 import { livingStabilityLoanPolicy, livingStabilityLoanSpokes } from './living-stability-loan';
 import { yearEndTaxPolicy, yearEndTaxSpokes } from './year-end-tax';
 import { newbornSpecialLoanPolicy, newbornSpecialLoanSpokes } from './newborn-special-loan';
+import { didimdolLoanPolicy, didimdolLoanSpokes } from './didimdol-loan';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -307,6 +308,7 @@ export const PoliciesById: Record<string, any> = {
   '172': livingStabilityLoanPolicy,
   '173': yearEndTaxPolicy,
   '174': newbornSpecialLoanPolicy,
+  '175': didimdolLoanPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -473,6 +475,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'living-stability-loan': livingStabilityLoanPolicy,
   'year-end-tax': yearEndTaxPolicy,
   'newborn-special-loan': newbornSpecialLoanPolicy,
+  'didimdol-loan': didimdolLoanPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -680,6 +683,7 @@ export const SpokesById: Record<string, any[]> = {
   '172': livingStabilityLoanSpokes,
   '173': yearEndTaxSpokes,
   '174': newbornSpecialLoanSpokes,
+  '175': didimdolLoanSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -846,6 +850,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'living-stability-loan': livingStabilityLoanSpokes,
   'year-end-tax': yearEndTaxSpokes,
   'newborn-special-loan': newbornSpecialLoanSpokes,
+  'didimdol-loan': didimdolLoanSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
