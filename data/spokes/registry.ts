@@ -533,11 +533,6 @@ import { 가족돌봄휴가돌봄가족범위부모자녀배우자SpokeContent }
 import { 가족돌봄휴가가족돌봄휴직과휴가차이장기단기SpokeContent } from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/가족돌봄휴직과휴가차이장기단기';
 
 
-/* ── 긴급복지지원 (slug: emergency-welfare-support) ── */
-import { 긴급복지지원생계지원금2026가구원수별금액표SpokeContent }     from '@/app/policy/[id]/[spoke]/content/긴급복지지원/생계지원금2026가구원수별금액표';
-import { 긴급복지지원신청자격실직폐업질병위기상황확인SpokeContent }   from '@/app/policy/[id]/[spoke]/content/긴급복지지원/신청자격실직폐업질병위기상황확인';
-import { 긴급복지지원신청방법주민센터129복지로절차SpokeContent }       from '@/app/policy/[id]/[spoke]/content/긴급복지지원/신청방법주민센터129복지로절차';
-import { 긴급복지지원의료주거지원생계비외추가혜택종류SpokeContent }   from '@/app/policy/[id]/[spoke]/content/긴급복지지원/의료주거지원생계비외추가혜택종류';
 
 /* ── 아동급식카드 (slug: child-meal-card) ── */
 import { 아동급식카드지원대상결식우려아동기준중위소득SpokeContent } from '@/app/policy/[id]/[spoke]/content/아동급식카드/지원대상결식우려아동기준중위소득';
@@ -697,6 +692,18 @@ import { 장애인활동지원종합조사SpokeContent } from '@/app/policy/[id]
 import { 장애인활동지원본인부담금SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/본인부담금';
 import { 장애인활동지원신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/신청방법';
 import { 장애인활동지원65세전환SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/65세전환';
+/* ── 버팀목 전세자금대출 (slug: beotimok-jeonse-loan) ── */
+import { 버팀목자격조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/버팀목전세대출/자격조건';
+import { 버팀목한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/버팀목전세대출/한도';
+import { 버팀목금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/버팀목전세대출/금리';
+import { 버팀목청년버팀목SpokeContent } from '@/app/policy/[id]/[spoke]/content/버팀목전세대출/청년버팀목';
+import { 버팀목신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/버팀목전세대출/신청방법';
+/* ── 산재보험 (slug: industrial-accident-insurance) ── */
+import { 산재보험급여종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/보험급여종류';
+import { 산재휴업급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/휴업급여';
+import { 산재업무상재해SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/업무상재해';
+import { 산재신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/신청방법';
+import { 산재회사처리SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/회사처리';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1405,13 +1412,6 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '가족돌봄휴가연장조건20일초과가능한가': 가족돌봄휴가가족돌봄휴가연장조건20일초과가능한가SpokeContent,
   },
 
-  'emergency-welfare-support': {
-    '생계지원금2026가구원수별금액표':   긴급복지지원생계지원금2026가구원수별금액표SpokeContent,
-    '신청자격실직폐업질병위기상황확인': 긴급복지지원신청자격실직폐업질병위기상황확인SpokeContent,
-    '신청방법주민센터129복지로절차':   긴급복지지원신청방법주민센터129복지로절차SpokeContent,
-    '의료주거지원생계비외추가혜택종류': 긴급복지지원의료주거지원생계비외추가혜택종류SpokeContent,
-  },
-
   'child-meal-card': {
     '지원대상결식우려아동기준중위소득': 아동급식카드지원대상결식우려아동기준중위소득SpokeContent,
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
@@ -1603,6 +1603,22 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '공공분양vs민간분양유리한점차이':         공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
     '공공분양vs공공임대뭘신청해야하나':       공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
     '공공분양당첨후계약입주일정절차':         공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'industrial-accident-insurance': {
+    '보험급여종류': 산재보험급여종류SpokeContent,
+    '휴업급여':     산재휴업급여SpokeContent,
+    '업무상재해':   산재업무상재해SpokeContent,
+    '신청방법':     산재신청방법SpokeContent,
+    '회사처리':     산재회사처리SpokeContent,
+  },
+
+  'beotimok-jeonse-loan': {
+    '자격조건':   버팀목자격조건SpokeContent,
+    '한도':       버팀목한도SpokeContent,
+    '금리':       버팀목금리SpokeContent,
+    '청년버팀목': 버팀목청년버팀목SpokeContent,
+    '신청방법':   버팀목신청방법SpokeContent,
   },
 
   'disability-activity-support': {
