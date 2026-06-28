@@ -34,6 +34,7 @@ import { nationalPensionPremiumPolicy, nationalPensionPremiumSpokes } from './na
 import { medicalBenefitPolicy, medicalBenefitSpokes } from './medical-benefit';
 import { nearPoorPolicy, nearPoorSpokes } from './near-poor';
 import { emergencyWelfareSupportPolicy, emergencyWelfareSupportSpokes } from './emergency-welfare-support';
+import { disabilityActivitySupportPolicy, disabilityActivitySupportSpokes } from './disability-activity-support';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -285,6 +286,7 @@ export const PoliciesById: Record<string, any> = {
   '161': medicalBenefitPolicy,
   '162': nearPoorPolicy,
   '163': emergencyWelfareSupportPolicy,
+  '164': disabilityActivitySupportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -440,6 +442,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'medical-benefit': medicalBenefitPolicy,
   'near-poor': nearPoorPolicy,
   'emergency-welfare-support': emergencyWelfareSupportPolicy,
+  'disability-activity-support': disabilityActivitySupportPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -636,6 +639,7 @@ export const SpokesById: Record<string, any[]> = {
   '161': medicalBenefitSpokes,
   '162': nearPoorSpokes,
   '163': emergencyWelfareSupportSpokes,
+  '164': disabilityActivitySupportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -791,6 +795,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'medical-benefit': medicalBenefitSpokes,
   'near-poor': nearPoorSpokes,
   'emergency-welfare-support': emergencyWelfareSupportSpokes,
+  'disability-activity-support': disabilityActivitySupportSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

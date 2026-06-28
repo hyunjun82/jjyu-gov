@@ -532,11 +532,6 @@ import { 가족돌봄휴가사업주거부하면어떻게하나SpokeContent }   
 import { 가족돌봄휴가돌봄가족범위부모자녀배우자SpokeContent }     from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/돌봄가족범위부모자녀배우자';
 import { 가족돌봄휴가가족돌봄휴직과휴가차이장기단기SpokeContent } from '@/app/policy/[id]/[spoke]/content/가족돌봄휴가/가족돌봄휴직과휴가차이장기단기';
 
-/* ── 장애인활동지원 (slug: disability-activity-support) ── */
-import { 장애인활동지원신청자격만6세65세미만등록장애인SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/신청자격만6세65세미만등록장애인';
-import { 장애인활동지원급여시간2026단가월한도기준SpokeContent }       from '@/app/policy/[id]/[spoke]/content/장애인활동지원/급여시간2026단가월한도기준';
-import { 장애인활동지원노인장기요양65세이후서비스전환차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/노인장기요양65세이후서비스전환차이';
-import { 장애인활동지원신청절차주민센터수급자격결정단계SpokeContent }   from '@/app/policy/[id]/[spoke]/content/장애인활동지원/신청절차주민센터수급자격결정단계';
 
 /* ── 긴급복지지원 (slug: emergency-welfare-support) ── */
 import { 긴급복지지원생계지원금2026가구원수별금액표SpokeContent }     from '@/app/policy/[id]/[spoke]/content/긴급복지지원/생계지원금2026가구원수별금액표';
@@ -696,6 +691,12 @@ import { 긴급복지생계지원금SpokeContent } from '@/app/policy/[id]/[spok
 import { 긴급복지소득재산기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/소득재산기준';
 import { 긴급복지신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/신청방법';
 import { 긴급복지지원종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급복지/지원종류';
+/* ── 장애인 활동지원서비스 (slug: disability-activity-support) ── */
+import { 장애인활동지원대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/대상자격';
+import { 장애인활동지원종합조사SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/종합조사';
+import { 장애인활동지원본인부담금SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/본인부담금';
+import { 장애인활동지원신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/신청방법';
+import { 장애인활동지원65세전환SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인활동지원/65세전환';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1404,13 +1405,6 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '가족돌봄휴가연장조건20일초과가능한가': 가족돌봄휴가가족돌봄휴가연장조건20일초과가능한가SpokeContent,
   },
 
-  'disability-activity-support': {
-    '신청자격만6세65세미만등록장애인':   장애인활동지원신청자격만6세65세미만등록장애인SpokeContent,
-    '급여시간2026단가월한도기준':         장애인활동지원급여시간2026단가월한도기준SpokeContent,
-    '노인장기요양65세이후서비스전환차이': 장애인활동지원노인장기요양65세이후서비스전환차이SpokeContent,
-    '신청절차주민센터수급자격결정단계':   장애인활동지원신청절차주민센터수급자격결정단계SpokeContent,
-  },
-
   'emergency-welfare-support': {
     '생계지원금2026가구원수별금액표':   긴급복지지원생계지원금2026가구원수별금액표SpokeContent,
     '신청자격실직폐업질병위기상황확인': 긴급복지지원신청자격실직폐업질병위기상황확인SpokeContent,
@@ -1609,6 +1603,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '공공분양vs민간분양유리한점차이':         공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
     '공공분양vs공공임대뭘신청해야하나':       공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
     '공공분양당첨후계약입주일정절차':         공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'disability-activity-support': {
+    '대상자격':     장애인활동지원대상자격SpokeContent,
+    '종합조사':     장애인활동지원종합조사SpokeContent,
+    '본인부담금':   장애인활동지원본인부담금SpokeContent,
+    '신청방법':     장애인활동지원신청방법SpokeContent,
+    '65세전환':     장애인활동지원65세전환SpokeContent,
   },
 
   'emergency-welfare-support': {
