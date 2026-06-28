@@ -591,6 +591,12 @@ import { 디딤돌대출한도주택가액SpokeContent } from '@/app/policy/[id]
 import { 디딤돌대출금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/금리';
 import { 디딤돌대출생애최초신혼우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/생애최초신혼우대';
 import { 디딤돌대출신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/신청';
+/* ── 보금자리론 (slug: bogeumjari-loan) ── */
+import { 보금자리론대상소득SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/대상소득';
+import { 보금자리론한도주택가액SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/한도주택가액';
+import { 보금자리론금리우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/금리우대';
+import { 보금자리론디딤돌비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/디딤돌비교';
+import { 보금자리론신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/신청';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1486,6 +1492,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'bogeumjari-loan': {
+    '대상소득':       보금자리론대상소득SpokeContent,
+    '한도주택가액':   보금자리론한도주택가액SpokeContent,
+    '금리우대':       보금자리론금리우대SpokeContent,
+    '디딤돌비교':     보금자리론디딤돌비교SpokeContent,
+    '신청':           보금자리론신청SpokeContent,
   },
 
   'didimdol-loan': {

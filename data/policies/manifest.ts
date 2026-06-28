@@ -46,6 +46,7 @@ import { livingStabilityLoanPolicy, livingStabilityLoanSpokes } from './living-s
 import { yearEndTaxPolicy, yearEndTaxSpokes } from './year-end-tax';
 import { newbornSpecialLoanPolicy, newbornSpecialLoanSpokes } from './newborn-special-loan';
 import { didimdolLoanPolicy, didimdolLoanSpokes } from './didimdol-loan';
+import { bogeumjariLoanPolicy, bogeumjariLoanSpokes } from './bogeumjari-loan';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -309,6 +310,7 @@ export const PoliciesById: Record<string, any> = {
   '173': yearEndTaxPolicy,
   '174': newbornSpecialLoanPolicy,
   '175': didimdolLoanPolicy,
+  '176': bogeumjariLoanPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -476,6 +478,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'year-end-tax': yearEndTaxPolicy,
   'newborn-special-loan': newbornSpecialLoanPolicy,
   'didimdol-loan': didimdolLoanPolicy,
+  'bogeumjari-loan': bogeumjariLoanPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -684,6 +687,7 @@ export const SpokesById: Record<string, any[]> = {
   '173': yearEndTaxSpokes,
   '174': newbornSpecialLoanSpokes,
   '175': didimdolLoanSpokes,
+  '176': bogeumjariLoanSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -851,6 +855,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'year-end-tax': yearEndTaxSpokes,
   'newborn-special-loan': newbornSpecialLoanSpokes,
   'didimdol-loan': didimdolLoanSpokes,
+  'bogeumjari-loan': bogeumjariLoanSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
