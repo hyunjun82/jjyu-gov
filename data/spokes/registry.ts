@@ -564,6 +564,12 @@ import { 판로지원라이브커머스SpokeContent } from '@/app/policy/[id]/[s
 import { 판로지원쇼핑몰입점SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/쇼핑몰입점';
 import { 판로지원신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/신청방법';
 import { 판로지원대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/대상자격';
+/* ── 중저신용자 생활안정자금 (slug: living-stability-loan) ── */
+import { 생활안정자금대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/대상조건';
+import { 생활안정자금한도금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/한도금리';
+import { 생활안정자금주택제한SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/주택제한';
+import { 생활안정자금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/신청방법';
+import { 생활안정자금서민금융비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/서민금융비교';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1442,6 +1448,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'living-stability-loan': {
+    '대상조건':     생활안정자금대상조건SpokeContent,
+    '한도금리':     생활안정자금한도금리SpokeContent,
+    '주택제한':     생활안정자금주택제한SpokeContent,
+    '신청방법':     생활안정자금신청방법SpokeContent,
+    '서민금융비교': 생활안정자금서민금융비교SpokeContent,
   },
 
   'small-biz-online-sales': {

@@ -42,6 +42,7 @@ import { youthMonthlyRentPolicy, youthMonthlyRentSpokes } from './youth-monthly-
 import { smallBizPolicyFundPolicy, smallBizPolicyFundSpokes } from './small-biz-policy-fund';
 import { cardFeeSupportPolicy, cardFeeSupportSpokes } from './card-fee-support';
 import { smallBizOnlineSalesPolicy, smallBizOnlineSalesSpokes } from './small-biz-online-sales';
+import { livingStabilityLoanPolicy, livingStabilityLoanSpokes } from './living-stability-loan';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -301,6 +302,7 @@ export const PoliciesById: Record<string, any> = {
   '169': smallBizPolicyFundPolicy,
   '170': cardFeeSupportPolicy,
   '171': smallBizOnlineSalesPolicy,
+  '172': livingStabilityLoanPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -464,6 +466,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'small-biz-policy-fund': smallBizPolicyFundPolicy,
   'card-fee-support': cardFeeSupportPolicy,
   'small-biz-online-sales': smallBizOnlineSalesPolicy,
+  'living-stability-loan': livingStabilityLoanPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -668,6 +671,7 @@ export const SpokesById: Record<string, any[]> = {
   '169': smallBizPolicyFundSpokes,
   '170': cardFeeSupportSpokes,
   '171': smallBizOnlineSalesSpokes,
+  '172': livingStabilityLoanSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -831,6 +835,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'small-biz-policy-fund': smallBizPolicyFundSpokes,
   'card-fee-support': cardFeeSupportSpokes,
   'small-biz-online-sales': smallBizOnlineSalesSpokes,
+  'living-stability-loan': livingStabilityLoanSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
