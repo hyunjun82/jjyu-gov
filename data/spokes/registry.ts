@@ -695,6 +695,11 @@ import { 재산세분납SpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { 재산세감면SpokeContent } from '@/app/policy/[id]/[spoke]/content/재산세/감면';
 /* ── 국민연금 보험료 (slug: national-pension-premium) ── */
 import { 국민연금보험료기준소득월액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/기준소득월액';
+import { 국민연금보험료수령나이SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/수령나이';
+import { 국민연금보험료수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/수령액';
+import { 국민연금보험료가입기간추납SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/가입기간추납';
+import { 국민연금보험료조기노령연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/조기노령연금';
+import { 국민연금보험료연기연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/연기연금';
 import { 국민연금보험료상한하한액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/상한하한액';
 import { 국민연금보험료계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/보험료계산';
 import { 국민연금보험료가입자종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/가입자종류';
@@ -1754,6 +1759,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'national-pension-premium': {
+    '수령나이':     국민연금보험료수령나이SpokeContent,
+    '수령액':       국민연금보험료수령액SpokeContent,
+    '가입기간추납': 국민연금보험료가입기간추납SpokeContent,
+    '조기노령연금': 국민연금보험료조기노령연금SpokeContent,
+    '연기연금':     국민연금보험료연기연금SpokeContent,
     '기준소득월액': 국민연금보험료기준소득월액SpokeContent,
     '상한하한액':   국민연금보험료상한하한액SpokeContent,
     '보험료계산':   국민연금보험료계산SpokeContent,

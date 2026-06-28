@@ -89,6 +89,11 @@ export const nationalPensionPremiumPolicy = {
 } as const;
 
 export const nationalPensionPremiumSpokes = [
+  { slug: '수령나이', role: 'usage', title: '국민연금 수령 나이, 출생연도별 61~65세', content: '1961~64년생 63세, 1969년생 이후 65세. 가입 10년↑.' },
+  { slug: '수령액', role: 'amount', title: '국민연금 수령액, 가입기간 소득으로 결정 예상조회', content: '가입기간·소득·A값(2026 319만)으로 산정. 내 연금 알아보기.' },
+  { slug: '가입기간추납', role: 'eligibility', title: '국민연금 가입기간 10년, 추납 임의가입으로 채우기', content: '최소 10년(120개월), 추납·임의가입·임의계속가입(65세).' },
+  { slug: '조기노령연금', role: 'usage', title: '조기노령연금, 최대 5년 일찍 1년당 6% 감액', content: '최대 5년 일찍, 1년 6%↓(최대 30%), 소득 기준 미만.' },
+  { slug: '연기연금', role: 'usage', title: '연기연금, 최대 5년 늦게 1년당 7.2% 가산', content: '최대 5년 늦게, 1년 7.2%↑(최대 36%), 전부·일부 연기.' },
   { slug: '기준소득월액', role: 'eligibility', title: '국민연금 기준소득월액이란, 7월 정기결정으로 보험료 변경', content: '신고 소득월액 천원 미만 절사, 7월 결정 다음해 6월 적용.' },
   { slug: '상한하한액', role: 'amount', title: '국민연금 상한액 하한액, 2026년 659만원 41만원으로 인상', content: '637→659만, 40→41만(2026.7~2027.6), 평균소득 연동.' },
   { slug: '보험료계산', role: 'amount', title: '국민연금 보험료 계산, 기준소득월액 9% 최대 월 59만원', content: '×9%, 최고 593,100원·최저 36,900원.' },
