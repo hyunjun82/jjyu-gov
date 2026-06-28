@@ -255,9 +255,9 @@ export const jobSeekerLeapPackagePolicy: PolicyData = {
 };
 
 export const jobSeekerLeapPackageSpokes = [
-  { slug: 'overview', label: '서비스 개요' },
-  { slug: 'target', label: '참여 대상' },
-  { slug: 'career-types', label: '경력유형 진단' },
-  { slug: 'procedure', label: '신청 절차' },
-  { slug: 'faq', label: '자주 묻는 질문' },
+  { slug: '서비스개요', label: '서비스 개요' },
+  { slug: '참여대상', label: '참여 대상' },
+  { slug: 'AI잡케어', label: 'AI 잡케어 진단' },
+  { slug: '경력유형', label: '경력유형 진단' },
+  { slug: '신청방법', label: '신청 절차' },
 ];

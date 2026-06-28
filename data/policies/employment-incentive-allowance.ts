@@ -272,9 +272,9 @@ export const employmentIncentiveAllowancePolicy: PolicyData = {
 };
 
 export const employmentIncentiveAllowanceSpokes = [
-  { slug: 'early-reemployment-allowance', label: '조기재취업수당' },
-  { slug: 'vocational-development-allowance', label: '직업능력개발수당' },
-  { slug: 'wide-area-job-search-allowance', label: '광역구직활동비' },
-  { slug: 'relocation-allowance', label: '이주비' },
-  { slug: 'how-to-apply', label: '신청방법' },
+  { slug: '조기재취업수당', label: '조기재취업수당' },
+  { slug: '직업능력개발수당', label: '직업능력개발수당' },
+  { slug: '광역구직활동비이주비', label: '광역구직활동비·이주비' },
+  { slug: '신청방법', label: '신청방법' },
+  { slug: '국민취업비교', label: '국민취업지원제도와 비교' },
 ];

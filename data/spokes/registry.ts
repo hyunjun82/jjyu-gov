@@ -651,6 +651,18 @@ import { 금융취약계층생계자금한도금리SpokeContent } from '@/app/po
 import { 금융취약계층생계자금추가요건SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/추가요건';
 import { 금융취약계층생계자금청년비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/청년비교';
 import { 금융취약계층생계자금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/금융취약계층생계자금/신청방법';
+/* ── 취업촉진수당 (slug: employment-incentive-allowance) ── */
+import { 취업촉진수당조기재취업수당SpokeContent } from '@/app/policy/[id]/[spoke]/content/취업촉진수당/조기재취업수당';
+import { 취업촉진수당직업능력개발수당SpokeContent } from '@/app/policy/[id]/[spoke]/content/취업촉진수당/직업능력개발수당';
+import { 취업촉진수당광역구직활동비이주비SpokeContent } from '@/app/policy/[id]/[spoke]/content/취업촉진수당/광역구직활동비이주비';
+import { 취업촉진수당신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/취업촉진수당/신청방법';
+import { 취업촉진수당국민취업비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/취업촉진수당/국민취업비교';
+/* ── 구직자 도약보장 패키지 (slug: job-seeker-leap-package) ── */
+import { 구직자도약보장서비스개요SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/서비스개요';
+import { 구직자도약보장참여대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/참여대상';
+import { 구직자도약보장AI잡케어SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/AI잡케어';
+import { 구직자도약보장경력유형SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/경력유형';
+import { 구직자도약보장신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/신청방법';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1546,6 +1558,22 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'employment-incentive-allowance': {
+    '조기재취업수당':       취업촉진수당조기재취업수당SpokeContent,
+    '직업능력개발수당':     취업촉진수당직업능력개발수당SpokeContent,
+    '광역구직활동비이주비': 취업촉진수당광역구직활동비이주비SpokeContent,
+    '신청방법':             취업촉진수당신청방법SpokeContent,
+    '국민취업비교':         취업촉진수당국민취업비교SpokeContent,
+  },
+
+  'job-seeker-leap-package': {
+    '서비스개요': 구직자도약보장서비스개요SpokeContent,
+    '참여대상':   구직자도약보장참여대상SpokeContent,
+    'AI잡케어':   구직자도약보장AI잡케어SpokeContent,
+    '경력유형':   구직자도약보장경력유형SpokeContent,
+    '신청방법':   구직자도약보장신청방법SpokeContent,
   },
 
   'sunshine-youth-loan': {
