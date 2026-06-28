@@ -37,6 +37,7 @@ import { emergencyWelfareSupportPolicy, emergencyWelfareSupportSpokes } from './
 import { disabilityActivitySupportPolicy, disabilityActivitySupportSpokes } from './disability-activity-support';
 import { beotimokJeonseLoanPolicy, beotimokJeonseLoanSpokes } from './beotimok-jeonse-loan';
 import { industrialAccidentInsurancePolicy, industrialAccidentInsuranceSpokes } from './industrial-accident-insurance';
+import { jeonseFraudVictimPolicy, jeonseFraudVictimSpokes } from './jeonse-fraud-victim';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -291,6 +292,7 @@ export const PoliciesById: Record<string, any> = {
   '164': disabilityActivitySupportPolicy,
   '165': beotimokJeonseLoanPolicy,
   '166': industrialAccidentInsurancePolicy,
+  '167': jeonseFraudVictimPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -449,6 +451,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'disability-activity-support': disabilityActivitySupportPolicy,
   'beotimok-jeonse-loan': beotimokJeonseLoanPolicy,
   'industrial-accident-insurance': industrialAccidentInsurancePolicy,
+  'jeonse-fraud-victim': jeonseFraudVictimPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -648,6 +651,7 @@ export const SpokesById: Record<string, any[]> = {
   '164': disabilityActivitySupportSpokes,
   '165': beotimokJeonseLoanSpokes,
   '166': industrialAccidentInsuranceSpokes,
+  '167': jeonseFraudVictimSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -806,6 +810,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'disability-activity-support': disabilityActivitySupportSpokes,
   'beotimok-jeonse-loan': beotimokJeonseLoanSpokes,
   'industrial-accident-insurance': industrialAccidentInsuranceSpokes,
+  'jeonse-fraud-victim': jeonseFraudVictimSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

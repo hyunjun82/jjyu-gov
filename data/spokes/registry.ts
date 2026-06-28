@@ -704,6 +704,12 @@ import { 산재휴업급여SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 산재업무상재해SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/업무상재해';
 import { 산재신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/신청방법';
 import { 산재회사처리SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/회사처리';
+/* ── 전세사기 피해자 지원 (slug: jeonse-fraud-victim) ── */
+import { 전세사기피해자요건SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/피해자요건';
+import { 전세사기지원내용SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/지원내용';
+import { 전세사기우선매수권SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/우선매수권';
+import { 전세사기긴급주거SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/긴급주거';
+import { 전세사기신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/신청방법';
 
 /* ── 일반상환학자금대출 (slug: general-student-loan) ── */
 import { 일반상환학자금대출일반상환vs취업후상환학자금선택기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반상환학자금대출/일반상환vs취업후상환학자금선택기준';
@@ -1603,6 +1609,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '공공분양vs민간분양유리한점차이':         공공분양주택공공분양vs민간분양유리한점차이SpokeContent,
     '공공분양vs공공임대뭘신청해야하나':       공공분양주택공공분양vs공공임대뭘신청해야하나SpokeContent,
     '공공분양당첨후계약입주일정절차':         공공분양주택공공분양당첨후계약입주일정절차SpokeContent,
+  },
+
+  'jeonse-fraud-victim': {
+    '피해자요건':   전세사기피해자요건SpokeContent,
+    '지원내용':     전세사기지원내용SpokeContent,
+    '우선매수권':   전세사기우선매수권SpokeContent,
+    '긴급주거':     전세사기긴급주거SpokeContent,
+    '신청방법':     전세사기신청방법SpokeContent,
   },
 
   'industrial-accident-insurance': {
