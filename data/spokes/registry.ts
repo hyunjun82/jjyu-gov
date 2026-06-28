@@ -558,6 +558,12 @@ import { 카드수수료대상선정SpokeContent } from '@/app/policy/[id]/[spok
 import { 카드수수료수수료환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/수수료환급';
 import { 카드수수료매출세액공제SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/매출세액공제';
 import { 카드수수료지자체지원조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/지자체지원조회';
+/* ── 소상공인 온라인 판로지원 (slug: small-biz-online-sales) ── */
+import { 판로지원지원내용SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/지원내용';
+import { 판로지원라이브커머스SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/라이브커머스';
+import { 판로지원쇼핑몰입점SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/쇼핑몰입점';
+import { 판로지원신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/신청방법';
+import { 판로지원대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/대상자격';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1436,6 +1442,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'small-biz-online-sales': {
+    '지원내용':     판로지원지원내용SpokeContent,
+    '라이브커머스': 판로지원라이브커머스SpokeContent,
+    '쇼핑몰입점':   판로지원쇼핑몰입점SpokeContent,
+    '신청방법':     판로지원신청방법SpokeContent,
+    '대상자격':     판로지원대상자격SpokeContent,
   },
 
   'card-fee-support': {
