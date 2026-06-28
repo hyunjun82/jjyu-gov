@@ -597,6 +597,12 @@ import { 보금자리론한도주택가액SpokeContent } from '@/app/policy/[id]
 import { 보금자리론금리우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/금리우대';
 import { 보금자리론디딤돌비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/디딤돌비교';
 import { 보금자리론신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/보금자리론/신청';
+/* ── 중기청 전세대출 (slug: sme-youth-jeonse-loan) ── */
+import { 중기청전세대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/대상자격';
+import { 중기청전세한도보증금SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/한도보증금';
+import { 중기청전세금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/금리';
+import { 중기청전세기간연장SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/기간연장';
+import { 중기청전세신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/중기청전세/신청방법';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1492,6 +1498,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'sme-youth-jeonse-loan': {
+    '대상자격':   중기청전세대상자격SpokeContent,
+    '한도보증금': 중기청전세한도보증금SpokeContent,
+    '금리':       중기청전세금리SpokeContent,
+    '기간연장':   중기청전세기간연장SpokeContent,
+    '신청방법':   중기청전세신청방법SpokeContent,
   },
 
   'bogeumjari-loan': {
