@@ -682,6 +682,12 @@ import { 경기도청년복지포인트지원금액SpokeContent } from '@/app/po
 import { 경기도청년복지포인트신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/신청방법';
 import { 경기도청년복지포인트사용처SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/사용처';
 import { 경기도청년복지포인트통장비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/통장비교';
+/* ── 청년 복지포인트 전국 비교 (slug: youth-welfare-point-compare) ── */
+import { 청년복지포인트비교지역별비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/지역별비교';
+import { 청년복지포인트비교인천재직청년SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/인천재직청년';
+import { 청년복지포인트비교공통대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/공통대상';
+import { 청년복지포인트비교지급형태SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/지급형태';
+import { 청년복지포인트비교우리지역찾기SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/우리지역찾기';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1578,6 +1584,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'youth-welfare-point-compare': {
+    '지역별비교':   청년복지포인트비교지역별비교SpokeContent,
+    '인천재직청년': 청년복지포인트비교인천재직청년SpokeContent,
+    '공통대상':     청년복지포인트비교공통대상SpokeContent,
+    '지급형태':     청년복지포인트비교지급형태SpokeContent,
+    '우리지역찾기': 청년복지포인트비교우리지역찾기SpokeContent,
   },
 
   'gyeonggi-youth-welfare-point': {

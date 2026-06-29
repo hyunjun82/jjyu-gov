@@ -57,6 +57,7 @@ import { smeSunshineCardPolicy, smeSunshineCardSpokes } from './sme-sunshine-car
 import { vulnerableLivelihoodLoanPolicy, vulnerableLivelihoodLoanSpokes } from './vulnerable-livelihood-loan';
 import { childSexCrimeReportRewardPolicy, childSexCrimeReportRewardSpokes } from './child-sex-crime-report-reward';
 import { gyeonggiYouthWelfarePointPolicy, gyeonggiYouthWelfarePointSpokes } from './gyeonggi-youth-welfare-point';
+import { youthWelfarePointComparePolicy, youthWelfarePointCompareSpokes } from './youth-welfare-point-compare';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -330,6 +331,7 @@ export const PoliciesById: Record<string, any> = {
   '184': vulnerableLivelihoodLoanPolicy,
   '185': childSexCrimeReportRewardPolicy,
   '186': gyeonggiYouthWelfarePointPolicy,
+  '187': youthWelfarePointComparePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -508,6 +510,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'vulnerable-livelihood-loan': vulnerableLivelihoodLoanPolicy,
   'child-sex-crime-report-reward': childSexCrimeReportRewardPolicy,
   'gyeonggi-youth-welfare-point': gyeonggiYouthWelfarePointPolicy,
+  'youth-welfare-point-compare': youthWelfarePointComparePolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -726,6 +729,7 @@ export const SpokesById: Record<string, any[]> = {
   '184': vulnerableLivelihoodLoanSpokes,
   '185': childSexCrimeReportRewardSpokes,
   '186': gyeonggiYouthWelfarePointSpokes,
+  '187': youthWelfarePointCompareSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -904,6 +908,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'vulnerable-livelihood-loan': vulnerableLivelihoodLoanSpokes,
   'child-sex-crime-report-reward': childSexCrimeReportRewardSpokes,
   'gyeonggi-youth-welfare-point': gyeonggiYouthWelfarePointSpokes,
+  'youth-welfare-point-compare': youthWelfarePointCompareSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
