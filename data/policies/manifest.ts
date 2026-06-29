@@ -118,7 +118,6 @@ import { kMoveSchoolPolicy, kMoveSchoolSpokes } from './k-move-school';
 import { leapLoanPolicy, leapLoanSpokes } from './leap-loan';
 import { leapSavingsPolicy, leapSavingsSpokes } from './leap-savings';
 import { learningcardPolicy, learningcardSpokes } from './learning-card';
-import { learningCardTomorrowPolicy, learningCardTomorrowSpokes } from './learning-card-tomorrow';
 import { localGiftCardPolicy, localGiftCardSpokes } from './local-gift-card';
 import { longTermCareElderlyPolicy, longTermCareElderlySpokes } from './long-term-care-elderly';
 import { lowIncomePensionPolicy, lowIncomePensionSpokes } from './low-income-pension';
@@ -512,7 +511,6 @@ export const PoliciesBySlug: Record<string, any> = {
   'leap-loan': leapLoanPolicy,
   'leap-savings': leapSavingsPolicy,
   'learning-card': learningcardPolicy,
-  'learning-card-tomorrow': learningCardTomorrowPolicy,
   'local-gift-card': localGiftCardPolicy,
   'long-term-care-elderly': longTermCareElderlyPolicy,
   'low-income-pension': lowIncomePensionPolicy,
@@ -905,7 +903,6 @@ export const SpokesBySlug: Record<string, any[]> = {
   'leap-loan': leapLoanSpokes,
   'leap-savings': leapSavingsSpokes,
   'learning-card': learningcardSpokes,
-  'learning-card-tomorrow': learningCardTomorrowSpokes,
   'local-gift-card': localGiftCardSpokes,
   'long-term-care-elderly': longTermCareElderlySpokes,
   'low-income-pension': lowIncomePensionSpokes,
