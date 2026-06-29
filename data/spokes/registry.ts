@@ -180,6 +180,7 @@ import { 에너지바우처신청기간SpokeContent } from '@/app/policy/[id]/[s
 import { 에너지바우처잔액SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/잔액조회';
 import { 에너지바우처당겨쓰기SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/당겨쓰기';
 import { 에너지바우처전기할인SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/전기요금할인';
+import { 에너지바우처냉방지원금SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/냉방지원금';
 /* ── 고효율가전 (slug: efficient-appliance-support) ── */
 import { 효율가전대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/대상';
 import { 효율가전환급률SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/환급률';
@@ -1140,6 +1141,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '잔액조회':    에너지바우처잔액SpokeContent,
     '당겨쓰기':    에너지바우처당겨쓰기SpokeContent,
     '전기요금할인': 에너지바우처전기할인SpokeContent,
+    '냉방지원금':   에너지바우처냉방지원금SpokeContent,
   },
 
   'efficient-appliance-support': {
