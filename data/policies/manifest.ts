@@ -55,6 +55,7 @@ import { sunshineLoan119Policy, sunshineLoan119Spokes } from './sunshine-loan-11
 import { youthFutureLinkLoanPolicy, youthFutureLinkLoanSpokes } from './youth-future-link-loan';
 import { smeSunshineCardPolicy, smeSunshineCardSpokes } from './sme-sunshine-card';
 import { vulnerableLivelihoodLoanPolicy, vulnerableLivelihoodLoanSpokes } from './vulnerable-livelihood-loan';
+import { childSexCrimeReportRewardPolicy, childSexCrimeReportRewardSpokes } from './child-sex-crime-report-reward';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -326,6 +327,7 @@ export const PoliciesById: Record<string, any> = {
   '182': youthFutureLinkLoanPolicy,
   '183': smeSunshineCardPolicy,
   '184': vulnerableLivelihoodLoanPolicy,
+  '185': childSexCrimeReportRewardPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -502,6 +504,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'youth-future-link-loan': youthFutureLinkLoanPolicy,
   'sme-sunshine-card': smeSunshineCardPolicy,
   'vulnerable-livelihood-loan': vulnerableLivelihoodLoanPolicy,
+  'child-sex-crime-report-reward': childSexCrimeReportRewardPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -718,6 +721,7 @@ export const SpokesById: Record<string, any[]> = {
   '182': youthFutureLinkLoanSpokes,
   '183': smeSunshineCardSpokes,
   '184': vulnerableLivelihoodLoanSpokes,
+  '185': childSexCrimeReportRewardSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -894,6 +898,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'youth-future-link-loan': youthFutureLinkLoanSpokes,
   'sme-sunshine-card': smeSunshineCardSpokes,
   'vulnerable-livelihood-loan': vulnerableLivelihoodLoanSpokes,
+  'child-sex-crime-report-reward': childSexCrimeReportRewardSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

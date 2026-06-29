@@ -669,6 +669,12 @@ import { 생리용품바우처지원금액SpokeContent } from '@/app/policy/[id]
 import { 생리용품바우처국민행복카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/국민행복카드';
 import { 생리용품바우처신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/신청방법';
 import { 생리용품바우처사용처SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/사용처';
+/* ── 아동·청소년 성범죄 신고포상금 제도 (slug: child-sex-crime-report-reward) ── */
+import { 신고포상금제도개요SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/제도개요';
+import { 신고포상금대상범죄SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/대상범죄';
+import { 신고포상금신고방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/신고방법';
+import { 신고포상금포상금신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/포상금신청';
+import { 신고포상금신고자보호SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/신고자보호';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1564,6 +1570,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'child-sex-crime-report-reward': {
+    '제도개요':   신고포상금제도개요SpokeContent,
+    '대상범죄':   신고포상금대상범죄SpokeContent,
+    '신고방법':   신고포상금신고방법SpokeContent,
+    '포상금신청': 신고포상금포상금신청SpokeContent,
+    '신고자보호': 신고포상금신고자보호SpokeContent,
   },
 
   'teen-female-hygiene': {
