@@ -676,6 +676,12 @@ import { 신고포상금대상범죄SpokeContent } from '@/app/policy/[id]/[spok
 import { 신고포상금신고방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/신고방법';
 import { 신고포상금포상금신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/포상금신청';
 import { 신고포상금신고자보호SpokeContent } from '@/app/policy/[id]/[spoke]/content/신고포상금/신고자보호';
+/* ── 경기도 청년 복지포인트 (slug: gyeonggi-youth-welfare-point) ── */
+import { 경기도청년복지포인트대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/대상자격';
+import { 경기도청년복지포인트지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/지원금액';
+import { 경기도청년복지포인트신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/신청방법';
+import { 경기도청년복지포인트사용처SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/사용처';
+import { 경기도청년복지포인트통장비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/경기도청년복지포인트/통장비교';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1572,6 +1578,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'gyeonggi-youth-welfare-point': {
+    '대상자격': 경기도청년복지포인트대상자격SpokeContent,
+    '지원금액': 경기도청년복지포인트지원금액SpokeContent,
+    '신청방법': 경기도청년복지포인트신청방법SpokeContent,
+    '사용처':   경기도청년복지포인트사용처SpokeContent,
+    '통장비교': 경기도청년복지포인트통장비교SpokeContent,
   },
 
   'child-sex-crime-report-reward': {
