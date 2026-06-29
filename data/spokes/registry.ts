@@ -691,6 +691,12 @@ import { 청년복지포인트비교인천재직청년SpokeContent } from '@/app
 import { 청년복지포인트비교공통대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/공통대상';
 import { 청년복지포인트비교지급형태SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/지급형태';
 import { 청년복지포인트비교우리지역찾기SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년복지포인트비교/우리지역찾기';
+/* ── 전기요금 복지할인 (slug: electric-welfare-discount) ── */
+import { 전기요금복지할인대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/전기요금복지할인/대상자격';
+import { 전기요금복지할인할인금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/전기요금복지할인/할인금액';
+import { 전기요금복지할인신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/전기요금복지할인/신청방법';
+import { 전기요금복지할인다자녀출산SpokeContent } from '@/app/policy/[id]/[spoke]/content/전기요금복지할인/다자녀출산';
+import { 전기요금복지할인중복비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/전기요금복지할인/중복비교';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1590,6 +1596,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'electric-welfare-discount': {
+    '대상자격': 전기요금복지할인대상자격SpokeContent,
+    '할인금액': 전기요금복지할인할인금액SpokeContent,
+    '신청방법': 전기요금복지할인신청방법SpokeContent,
+    '다자녀출산': 전기요금복지할인다자녀출산SpokeContent,
+    '중복비교': 전기요금복지할인중복비교SpokeContent,
   },
 
   'youth-welfare-point-compare': {
