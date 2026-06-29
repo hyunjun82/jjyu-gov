@@ -663,6 +663,12 @@ import { 구직자도약보장참여대상SpokeContent } from '@/app/policy/[id]
 import { 구직자도약보장AI잡케어SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/AI잡케어';
 import { 구직자도약보장경력유형SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/경력유형';
 import { 구직자도약보장신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/구직자도약보장/신청방법';
+/* ── 여성청소년 생리용품 바우처 (slug: teen-female-hygiene) ── */
+import { 생리용품바우처대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/대상자격';
+import { 생리용품바우처지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/지원금액';
+import { 생리용품바우처국민행복카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/국민행복카드';
+import { 생리용품바우처신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/신청방법';
+import { 생리용품바우처사용처SpokeContent } from '@/app/policy/[id]/[spoke]/content/생리용품바우처/사용처';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1558,6 +1564,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법복지로주민센터절차서류':   아동급식카드신청방법복지로주민센터절차서류SpokeContent,
     '사용처편의점가맹점하루지원금액':   아동급식카드사용처편의점가맹점하루지원금액SpokeContent,
     '방학중지원학기중차이이용방법주의': 아동급식카드방학중지원학기중차이이용방법주의SpokeContent,
+  },
+
+  'teen-female-hygiene': {
+    '대상자격':     생리용품바우처대상자격SpokeContent,
+    '지원금액':     생리용품바우처지원금액SpokeContent,
+    '국민행복카드': 생리용품바우처국민행복카드SpokeContent,
+    '신청방법':     생리용품바우처신청방법SpokeContent,
+    '사용처':       생리용품바우처사용처SpokeContent,
   },
 
   'employment-incentive-allowance': {
