@@ -52,6 +52,39 @@ function renderBoxContent(content: string, highlights: string[] = []): ReactNode
   return renderWithHi(content, highlights);
 }
 
+// ── 긴 intro를 2문장씩 문단으로 분할, 말미 출처 문구는 회색 작게 ──
+function renderIntro(intro: any, highlights: string[] = []): ReactNode {
+  if (intro == null || intro === '') return null;
+  const safe = String(intro);
+  let note: string | null = null;
+  let body = safe;
+  const m = safe.match(/본\s*(내용|정책)은/);
+  if (m && m.index !== undefined && m.index > 0) {
+    note = safe.slice(m.index).trim();
+    body = safe.slice(0, m.index).trim();
+  }
+  const sentences = body
+    .replace(/(?<![0-9])([.!?])\s+(?=[가-힣"'(])/g, '$1\n')
+    .split('\n')
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const paras: string[] = [];
+  for (let i = 0; i < sentences.length; i += 2) paras.push(sentences.slice(i, i + 2).join(' '));
+  if (!paras.length && body) paras.push(body);
+  return (
+    <>
+      {paras.map((p, pi) => (
+        <p key={pi} style={{ fontSize: 15.5, lineHeight: 1.85, marginBottom: 12, color: '#2d3540' }}>
+          {renderWithHi(p, highlights)}
+        </p>
+      ))}
+      {note && (
+        <p style={{ fontSize: 13, lineHeight: 1.7, marginBottom: 16, color: '#8B95A1' }}>{note}</p>
+      )}
+    </>
+  );
+}
+
 export default function PolicyDetailClient({ params }: { params: { id: string } }) {
   const [checks, setChecks] = useState<Record<string, boolean | null>>({});
   const [activeMethod, setActiveMethod] = useState<string>('app');
@@ -210,11 +243,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             {d.qa?.map((item: any, i: number) => (
               <Fragment key={item.anchor}>
                 <QACard number={i + 1} q={item.q || item.question} anchor={item.anchor}>
-                  {item.intro && (
-                    <p style={{ marginBottom: 12 }}>
-                      {renderWithHi(item.intro, item.highlights || [])}
-                    </p>
-                  )}
+                  {item.intro && renderIntro(item.intro, item.highlights || [])}
 
                   {/* 자격 체커 (Q2 또는 hasEligibilityChecker = true) */}
                   {item.hasEligibilityChecker && d.eligibility && (

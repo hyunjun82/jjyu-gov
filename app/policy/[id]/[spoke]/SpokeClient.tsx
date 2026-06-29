@@ -66,6 +66,46 @@ function renderWithHi(text: any, highlights: string[] = []): ReactNode {
   );
 }
 
+/* 긴 intro를 문장 단위로 끊어 문단으로 분할 (소수점·날짜는 보존) */
+function splitSentences(text: string): string[] {
+  // 마침표/물음표/느낌표 + 공백이고, 앞이 숫자가 아니며(소수점·날짜 보호) 뒤가 한글/따옴표일 때만 문장 경계로 본다
+  const marked = text.replace(/(?<![0-9])([.!?])\s+(?=[가-힣"'(])/g, '$1');
+  return marked.split('').map((s) => s.trim()).filter(Boolean);
+}
+
+/* intro를 2문장씩 묶어 문단으로, 말미 출처 문구는 회색 작은 글씨로 분리 렌더 */
+function renderIntro(intro: any, highlights: string[] = []): ReactNode {
+  if (intro == null || intro === '') return null;
+  const safe = String(intro);
+  let note: string | null = null;
+  let body = safe;
+  const m = safe.match(/본\s*(내용|정책)은/);
+  if (m && m.index !== undefined && m.index > 0) {
+    note = safe.slice(m.index).trim();
+    body = safe.slice(0, m.index).trim();
+  }
+  const sentences = body
+    .replace(/(?<![0-9])([.!?])\s+(?=[가-힣"'(])/g, '$1\n')
+    .split('\n')
+    .map((s) => s.trim())
+    .filter(Boolean);
+  const paras: string[] = [];
+  for (let i = 0; i < sentences.length; i += 2) paras.push(sentences.slice(i, i + 2).join(' '));
+  if (!paras.length && body) paras.push(body);
+  return (
+    <>
+      {paras.map((p, pi) => (
+        <p key={pi} style={{ fontSize: 15.5, lineHeight: 1.85, marginBottom: 12, color: '#2d3540' }}>
+          {renderWithHi(p, highlights)}
+        </p>
+      ))}
+      {note && (
+        <p style={{ fontSize: 13, lineHeight: 1.7, marginBottom: 16, color: '#8B95A1' }}>{note}</p>
+      )}
+    </>
+  );
+}
+
 /* ── manifest & 레지스트리 (단일 소스) ── */
 import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
 import { PoliciesByKoAlias, getSpokeListForPolicy, resolveSpokeKey } from '@/lib/policy-aliases';
@@ -202,11 +242,7 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                 q={item.q}
                 anchor={item.anchor || `q${i + 1}`}
               >
-                {item.intro && (
-                  <p style={{ fontSize: 15, lineHeight: 1.8, marginBottom: 16 }}>
-                    {renderWithHi(item.intro, item.highlights)}
-                  </p>
-                )}
+                {item.intro && renderIntro(item.intro, item.highlights)}
                 {item.table && (
                   <QATable
                     headers={item.table.headers}
