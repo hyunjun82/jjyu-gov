@@ -67,6 +67,7 @@ import { noranUmbrellaPolicy, noranUmbrellaSpokes } from './noran-umbrella';
 import { closedBizRepaymentReliefPolicy, closedBizRepaymentReliefSpokes } from './closed-biz-repayment-relief';
 import { childSupportAdvancePolicy, childSupportAdvanceSpokes } from './child-support-advance';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
+import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -350,6 +351,7 @@ export const PoliciesById: Record<string, any> = {
   '194': closedBizRepaymentReliefPolicy,
   '195': childSupportAdvancePolicy,
   '196': highwayTollDiscountPolicy,
+  '197': pregnantEcoFoodPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -538,6 +540,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'closed-biz-repayment-relief': closedBizRepaymentReliefPolicy,
   'child-support-advance': childSupportAdvancePolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
+  'pregnant-eco-food': pregnantEcoFoodPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -766,6 +769,7 @@ export const SpokesById: Record<string, any[]> = {
   '194': closedBizRepaymentReliefSpokes,
   '195': childSupportAdvanceSpokes,
   '196': highwayTollDiscountSpokes,
+  '197': pregnantEcoFoodSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -954,6 +958,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'closed-biz-repayment-relief': closedBizRepaymentReliefSpokes,
   'child-support-advance': childSupportAdvanceSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
+  'pregnant-eco-food': pregnantEcoFoodSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

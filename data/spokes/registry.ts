@@ -769,6 +769,11 @@ import { 고속도로통행료감면신청등록SpokeContent } from '@/app/polic
 /* ── 난임치료휴가급여 확대 (slug: infertility-treatment-leave) ── */
 import { 난임치료휴가급여확대SpokeContent } from '@/app/policy/[id]/[spoke]/content/난임치료휴가급여/휴가확대';
 
+/* ── 임산부 친환경농산물 지원 (slug: pregnant-eco-food) ── */
+import { 임산부친환경농산물지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/지원금액';
+import { 임산부친환경농산물대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/대상';
+import { 임산부친환경농산물신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/신청방법';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -793,11 +798,6 @@ import { 노인보청기지원신청절차청각장애등록급여지급단계Sp
 import { 노인보청기지원본인부담건강보험의료급여1종2종차이비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인보청기지원/본인부담건강보험의료급여1종2종차이비교';
 import { 노인보청기지원지자체추가혜택지역별117만신청방법SpokeContent }     from '@/app/policy/[id]/[spoke]/content/노인보청기지원/지자체추가혜택지역별117만신청방법';
 
-/* ── 임산부친환경농산물 (slug: pregnant-eco-farm) ── */
-import { 임산부친환경농산물지원대상임신중출산후1년이내신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/지원대상임신중출산후1년이내신청자격';
-import { 임산부친환경농산물지원금액연48만정부80보조꾸러미구성SpokeContent }   from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/지원금액연48만정부80보조꾸러미구성';
-import { 임산부친환경농산물신청방법에코몰주민센터자격검증절차SpokeContent }   from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/신청방법에코몰주민센터자격검증절차';
-import { 임산부친환경농산물산모신생아건강관리중복수령가능여부SpokeContent }   from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/산모신생아건강관리중복수령가능여부';
 
 /* ── 특수형태근로자고용보험 (slug: platform-worker-insurance) ── */
 import { 특수형태근로자고용보험적용직종12개월보수80만기준해당여부SpokeContent } from '@/app/policy/[id]/[spoke]/content/특수형태근로자고용보험/적용직종12개월보수80만기준해당여부';
@@ -1744,6 +1744,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '휴가확대': 난임치료휴가급여확대SpokeContent,
   },
 
+  'pregnant-eco-food': {
+    '지원금액': 임산부친환경농산물지원금액SpokeContent,
+    '대상': 임산부친환경농산물대상SpokeContent,
+    '신청방법': 임산부친환경농산물신청방법SpokeContent,
+  },
+
   'climate-card-refund': {
     '받는방법': 기후동행카드환급받는방법SpokeContent,
     '신청기간': 기후동행카드환급신청기간SpokeContent,
@@ -1975,13 +1981,6 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청절차청각장애등록급여지급단계':       노인보청기지원신청절차청각장애등록급여지급단계SpokeContent,
     '본인부담건강보험의료급여1종2종차이비교': 노인보청기지원본인부담건강보험의료급여1종2종차이비교SpokeContent,
     '지자체추가혜택지역별117만신청방법':     노인보청기지원지자체추가혜택지역별117만신청방법SpokeContent,
-  },
-
-  'pregnant-eco-farm': {
-    '지원대상임신중출산후1년이내신청자격': 임산부친환경농산물지원대상임신중출산후1년이내신청자격SpokeContent,
-    '지원금액연48만정부80보조꾸러미구성': 임산부친환경농산물지원금액연48만정부80보조꾸러미구성SpokeContent,
-    '신청방법에코몰주민센터자격검증절차': 임산부친환경농산물신청방법에코몰주민센터자격검증절차SpokeContent,
-    '산모신생아건강관리중복수령가능여부': 임산부친환경농산물산모신생아건강관리중복수령가능여부SpokeContent,
   },
 
   'tips-program': {
