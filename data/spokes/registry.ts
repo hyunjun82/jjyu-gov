@@ -698,6 +698,18 @@ import { 전기요금복지할인신청방법SpokeContent } from '@/app/policy/[
 import { 전기요금복지할인다자녀출산SpokeContent } from '@/app/policy/[id]/[spoke]/content/전기요금복지할인/다자녀출산';
 import { 전기요금복지할인중복비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/전기요금복지할인/중복비교';
 
+/* ── 기후동행카드 환급 (slug: climate-card-refund) ── */
+import { 기후동행카드환급받는방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/받는방법';
+import { 기후동행카드환급신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/신청기간';
+import { 기후동행카드환급조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/조건';
+import { 기후동행카드환급대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/대상';
+import { 기후동행카드환급금SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/환급금';
+import { 기후동행카드환급후불카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/후불카드';
+import { 기후동행카드환급청년권종SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/청년권종';
+import { 기후동행카드환급신청오류SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/신청오류';
+import { 기후동행카드환급모두의카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/모두의카드';
+import { 기후동행카드환급페이백차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/페이백차이';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -1604,6 +1616,19 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법': 전기요금복지할인신청방법SpokeContent,
     '다자녀출산': 전기요금복지할인다자녀출산SpokeContent,
     '중복비교': 전기요금복지할인중복비교SpokeContent,
+  },
+
+  'climate-card-refund': {
+    '받는방법': 기후동행카드환급받는방법SpokeContent,
+    '신청기간': 기후동행카드환급신청기간SpokeContent,
+    '조건': 기후동행카드환급조건SpokeContent,
+    '대상': 기후동행카드환급대상SpokeContent,
+    '환급금': 기후동행카드환급금SpokeContent,
+    '후불카드': 기후동행카드환급후불카드SpokeContent,
+    '청년권종': 기후동행카드환급청년권종SpokeContent,
+    '신청오류': 기후동행카드환급신청오류SpokeContent,
+    '모두의카드': 기후동행카드환급모두의카드SpokeContent,
+    '페이백차이': 기후동행카드환급페이백차이SpokeContent,
   },
 
   'youth-welfare-point-compare': {

@@ -59,6 +59,7 @@ import { childSexCrimeReportRewardPolicy, childSexCrimeReportRewardSpokes } from
 import { gyeonggiYouthWelfarePointPolicy, gyeonggiYouthWelfarePointSpokes } from './gyeonggi-youth-welfare-point';
 import { youthWelfarePointComparePolicy, youthWelfarePointCompareSpokes } from './youth-welfare-point-compare';
 import { electricWelfareDiscountPolicy, electricWelfareDiscountSpokes } from './electric-welfare-discount';
+import { climateCardRefundPolicy, climateCardRefundSpokes } from './climate-card-refund';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -334,6 +335,7 @@ export const PoliciesById: Record<string, any> = {
   '186': gyeonggiYouthWelfarePointPolicy,
   '187': youthWelfarePointComparePolicy,
   '188': electricWelfareDiscountPolicy,
+  '189': climateCardRefundPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -514,6 +516,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'gyeonggi-youth-welfare-point': gyeonggiYouthWelfarePointPolicy,
   'youth-welfare-point-compare': youthWelfarePointComparePolicy,
   'electric-welfare-discount': electricWelfareDiscountPolicy,
+  'climate-card-refund': climateCardRefundPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -734,6 +737,7 @@ export const SpokesById: Record<string, any[]> = {
   '186': gyeonggiYouthWelfarePointSpokes,
   '187': youthWelfarePointCompareSpokes,
   '188': electricWelfareDiscountSpokes,
+  '189': climateCardRefundSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -914,6 +918,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'gyeonggi-youth-welfare-point': gyeonggiYouthWelfarePointSpokes,
   'youth-welfare-point-compare': youthWelfarePointCompareSpokes,
   'electric-welfare-discount': electricWelfareDiscountSpokes,
+  'climate-card-refund': climateCardRefundSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
