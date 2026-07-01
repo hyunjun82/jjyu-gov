@@ -710,6 +710,17 @@ import { 기후동행카드환급신청오류SpokeContent } from '@/app/policy/[
 import { 기후동행카드환급모두의카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/모두의카드';
 import { 기후동행카드환급페이백차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행카드환급/페이백차이';
 
+/* ── 국민행복카드 베팡 (slug: happiness-card-bebang) ── */
+import { 국민행복카드베팡몰비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/몰비교';
+import { 국민행복카드베팡카드사혜택SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/카드사혜택';
+import { 국민행복카드베팡신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/신청방법';
+import { 국민행복카드베팡바우처등록SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/바우처등록';
+import { 국민행복카드베팡추천인사은품SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/추천인사은품';
+import { 국민행복카드베팡임신출산바우처SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/임신출산바우처';
+import { 국민행복카드베팡기저귀바우처SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/기저귀바우처';
+import { 국민행복카드베팡바우처종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/바우처종류';
+import { 국민행복카드베팡혜택총정리SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/혜택총정리';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -1616,6 +1627,18 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법': 전기요금복지할인신청방법SpokeContent,
     '다자녀출산': 전기요금복지할인다자녀출산SpokeContent,
     '중복비교': 전기요금복지할인중복비교SpokeContent,
+  },
+
+  'happiness-card-bebang': {
+    '몰비교': 국민행복카드베팡몰비교SpokeContent,
+    '카드사혜택': 국민행복카드베팡카드사혜택SpokeContent,
+    '신청방법': 국민행복카드베팡신청방법SpokeContent,
+    '바우처등록': 국민행복카드베팡바우처등록SpokeContent,
+    '추천인사은품': 국민행복카드베팡추천인사은품SpokeContent,
+    '임신출산바우처': 국민행복카드베팡임신출산바우처SpokeContent,
+    '기저귀바우처': 국민행복카드베팡기저귀바우처SpokeContent,
+    '바우처종류': 국민행복카드베팡바우처종류SpokeContent,
+    '혜택총정리': 국민행복카드베팡혜택총정리SpokeContent,
   },
 
   'climate-card-refund': {

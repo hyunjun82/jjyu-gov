@@ -60,6 +60,7 @@ import { gyeonggiYouthWelfarePointPolicy, gyeonggiYouthWelfarePointSpokes } from
 import { youthWelfarePointComparePolicy, youthWelfarePointCompareSpokes } from './youth-welfare-point-compare';
 import { electricWelfareDiscountPolicy, electricWelfareDiscountSpokes } from './electric-welfare-discount';
 import { climateCardRefundPolicy, climateCardRefundSpokes } from './climate-card-refund';
+import { happinessCardBebangPolicy, happinessCardBebangSpokes } from './happiness-card-bebang';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -336,6 +337,7 @@ export const PoliciesById: Record<string, any> = {
   '187': youthWelfarePointComparePolicy,
   '188': electricWelfareDiscountPolicy,
   '189': climateCardRefundPolicy,
+  '190': happinessCardBebangPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -517,6 +519,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'youth-welfare-point-compare': youthWelfarePointComparePolicy,
   'electric-welfare-discount': electricWelfareDiscountPolicy,
   'climate-card-refund': climateCardRefundPolicy,
+  'happiness-card-bebang': happinessCardBebangPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -738,6 +741,7 @@ export const SpokesById: Record<string, any[]> = {
   '187': youthWelfarePointCompareSpokes,
   '188': electricWelfareDiscountSpokes,
   '189': climateCardRefundSpokes,
+  '190': happinessCardBebangSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -919,6 +923,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'youth-welfare-point-compare': youthWelfarePointCompareSpokes,
   'electric-welfare-discount': electricWelfareDiscountSpokes,
   'climate-card-refund': climateCardRefundSpokes,
+  'happiness-card-bebang': happinessCardBebangSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
