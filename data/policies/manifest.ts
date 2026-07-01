@@ -61,6 +61,7 @@ import { youthWelfarePointComparePolicy, youthWelfarePointCompareSpokes } from '
 import { electricWelfareDiscountPolicy, electricWelfareDiscountSpokes } from './electric-welfare-discount';
 import { climateCardRefundPolicy, climateCardRefundSpokes } from './climate-card-refund';
 import { happinessCardBebangPolicy, happinessCardBebangSpokes } from './happiness-card-bebang';
+import { samsungOnnuriRefundPolicy, samsungOnnuriRefundSpokes } from './samsung-onnuri-refund';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -338,6 +339,7 @@ export const PoliciesById: Record<string, any> = {
   '188': electricWelfareDiscountPolicy,
   '189': climateCardRefundPolicy,
   '190': happinessCardBebangPolicy,
+  '191': samsungOnnuriRefundPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -520,6 +522,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'electric-welfare-discount': electricWelfareDiscountPolicy,
   'climate-card-refund': climateCardRefundPolicy,
   'happiness-card-bebang': happinessCardBebangPolicy,
+  'samsung-onnuri-refund': samsungOnnuriRefundPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -742,6 +745,7 @@ export const SpokesById: Record<string, any[]> = {
   '188': electricWelfareDiscountSpokes,
   '189': climateCardRefundSpokes,
   '190': happinessCardBebangSpokes,
+  '191': samsungOnnuriRefundSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -924,6 +928,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'electric-welfare-discount': electricWelfareDiscountSpokes,
   'climate-card-refund': climateCardRefundSpokes,
   'happiness-card-bebang': happinessCardBebangSpokes,
+  'samsung-onnuri-refund': samsungOnnuriRefundSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

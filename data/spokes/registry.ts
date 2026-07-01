@@ -721,6 +721,16 @@ import { 국민행복카드베팡기저귀바우처SpokeContent } from '@/app/po
 import { 국민행복카드베팡바우처종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/바우처종류';
 import { 국민행복카드베팡혜택총정리SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민행복카드베팡/혜택총정리';
 
+/* ── 삼성전자 온누리 환급 (slug: samsung-onnuri-refund) ── */
+import { 삼성전자온누리환급방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/환급방법';
+import { 삼성전자온누리환급기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/환급기간';
+import { 삼성전자온누리환급액SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/환급액';
+import { 삼성전자온누리환급한도대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/한도대상';
+import { 삼성전자온누리환급참여처SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/참여처';
+import { 삼성전자온누리환급K히어로SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/K히어로';
+import { 삼성전자온누리환급디지털온누리사용SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/디지털온누리사용';
+import { 삼성전자온누리환급주의사항SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/주의사항';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -1627,6 +1637,17 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법': 전기요금복지할인신청방법SpokeContent,
     '다자녀출산': 전기요금복지할인다자녀출산SpokeContent,
     '중복비교': 전기요금복지할인중복비교SpokeContent,
+  },
+
+  'samsung-onnuri-refund': {
+    '환급방법': 삼성전자온누리환급방법SpokeContent,
+    '환급기간': 삼성전자온누리환급기간SpokeContent,
+    '환급액': 삼성전자온누리환급액SpokeContent,
+    '한도대상': 삼성전자온누리환급한도대상SpokeContent,
+    '참여처': 삼성전자온누리환급참여처SpokeContent,
+    'K히어로': 삼성전자온누리환급K히어로SpokeContent,
+    '디지털온누리사용': 삼성전자온누리환급디지털온누리사용SpokeContent,
+    '주의사항': 삼성전자온누리환급주의사항SpokeContent,
   },
 
   'happiness-card-bebang': {
