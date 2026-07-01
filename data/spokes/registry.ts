@@ -417,6 +417,7 @@ import { 배우자출산휴가급여배우자출산휴가급여20일유급기준
 import { 배우자출산휴가급여회사지급정부지원구분SpokeContent }           from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/회사지급정부지원구분';
 import { 배우자출산휴가급여급여상한액우선지원신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/급여상한액우선지원신청';
 import { 배우자출산휴가급여120일분할신청기한SpokeContent }             from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/120일분할신청기한';
+import { 배우자출산휴가급여확대SpokeContent }                        from '@/app/policy/[id]/[spoke]/content/배우자출산휴가급여/배우자휴가확대';
 
 /* ── 주택연금 (slug: home-equity-pension) ── */
 import { 주택연금55세가입조건신청방법SpokeContent }   from '@/app/policy/[id]/[spoke]/content/주택연금/55세가입조건신청방법';
@@ -752,6 +753,21 @@ import { 폐업소상공인정책자금대상SpokeContent } from '@/app/policy/[
 import { 폐업소상공인정책자금상환연장SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인정책자금/상환연장';
 import { 폐업소상공인정책자금금리감면SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인정책자금/금리감면';
 import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인정책자금/신청재기';
+
+/* ── 양육비 선지급제 (slug: child-support-advance) ── */
+import { 양육비선지급소득기준폐지SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/소득기준폐지';
+import { 양육비선지급대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/대상조건';
+import { 양육비선지급금액지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/금액지급일';
+import { 양육비선지급신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/신청방법';
+import { 양육비선지급회수SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/회수';
+
+/* ── 고속도로 통행료 감면 (slug: highway-toll-discount) ── */
+import { 고속도로통행료감면장애인유공자SpokeContent } from '@/app/policy/[id]/[spoke]/content/고속도로통행료감면/장애인유공자';
+import { 고속도로통행료감면다자녀SpokeContent } from '@/app/policy/[id]/[spoke]/content/고속도로통행료감면/다자녀';
+import { 고속도로통행료감면신청등록SpokeContent } from '@/app/policy/[id]/[spoke]/content/고속도로통행료감면/신청등록';
+
+/* ── 난임치료휴가급여 확대 (slug: infertility-treatment-leave) ── */
+import { 난임치료휴가급여확대SpokeContent } from '@/app/policy/[id]/[spoke]/content/난임치료휴가급여/휴가확대';
 
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
@@ -1491,6 +1507,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '회사지급정부지원구분':           배우자출산휴가급여회사지급정부지원구분SpokeContent,
     '급여상한액우선지원신청':         배우자출산휴가급여급여상한액우선지원신청SpokeContent,
     '120일분할신청기한':             배우자출산휴가급여120일분할신청기한SpokeContent,
+    '휴가확대':                     배우자출산휴가급여확대SpokeContent,
   },
 
   'home-equity-pension': {
@@ -1707,6 +1724,24 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '상환연장': 폐업소상공인정책자금상환연장SpokeContent,
     '금리감면': 폐업소상공인정책자금금리감면SpokeContent,
     '신청재기': 폐업소상공인정책자금신청재기SpokeContent,
+  },
+
+  'child-support-advance': {
+    '소득기준폐지': 양육비선지급소득기준폐지SpokeContent,
+    '대상조건': 양육비선지급대상조건SpokeContent,
+    '금액지급일': 양육비선지급금액지급일SpokeContent,
+    '신청방법': 양육비선지급신청방법SpokeContent,
+    '회수': 양육비선지급회수SpokeContent,
+  },
+
+  'highway-toll-discount': {
+    '장애인유공자': 고속도로통행료감면장애인유공자SpokeContent,
+    '다자녀': 고속도로통행료감면다자녀SpokeContent,
+    '신청등록': 고속도로통행료감면신청등록SpokeContent,
+  },
+
+  'infertility-treatment-leave': {
+    '휴가확대': 난임치료휴가급여확대SpokeContent,
   },
 
   'climate-card-refund': {

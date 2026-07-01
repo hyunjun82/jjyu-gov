@@ -126,4 +126,5 @@ export const infertilityTreatmentLeaveSpokes = [
   { slug: 'period', role: 'usage', title: '1일 단위 자유 분할', content: '거부 X.' },
   { slug: 'apply', role: 'apply', title: 'ei.go.kr - 1350', content: '의사 진단서.' },
   { slug: 'privacy', role: 'overlap', title: '본인 정보 보호', content: '불이익 X.' },
+  { slug: '휴가확대', role: 'amount', title: '난임치료휴가급여 확대 11월 27일, 유급 급여 4일로 늘어난다', content: '2026.11.27 급여 지원 2일→4일 확대.' },
 ];

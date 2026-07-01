@@ -65,6 +65,8 @@ import { samsungOnnuriRefundPolicy, samsungOnnuriRefundSpokes } from './samsung-
 import { dosuTherapyPolicy, dosuTherapySpokes } from './dosu-therapy';
 import { noranUmbrellaPolicy, noranUmbrellaSpokes } from './noran-umbrella';
 import { closedBizRepaymentReliefPolicy, closedBizRepaymentReliefSpokes } from './closed-biz-repayment-relief';
+import { childSupportAdvancePolicy, childSupportAdvanceSpokes } from './child-support-advance';
+import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -346,6 +348,8 @@ export const PoliciesById: Record<string, any> = {
   '192': dosuTherapyPolicy,
   '193': noranUmbrellaPolicy,
   '194': closedBizRepaymentReliefPolicy,
+  '195': childSupportAdvancePolicy,
+  '196': highwayTollDiscountPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -532,6 +536,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'dosu-therapy': dosuTherapyPolicy,
   'noran-umbrella': noranUmbrellaPolicy,
   'closed-biz-repayment-relief': closedBizRepaymentReliefPolicy,
+  'child-support-advance': childSupportAdvancePolicy,
+  'highway-toll-discount': highwayTollDiscountPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -758,6 +764,8 @@ export const SpokesById: Record<string, any[]> = {
   '192': dosuTherapySpokes,
   '193': noranUmbrellaSpokes,
   '194': closedBizRepaymentReliefSpokes,
+  '195': childSupportAdvanceSpokes,
+  '196': highwayTollDiscountSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -944,6 +952,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'dosu-therapy': dosuTherapySpokes,
   'noran-umbrella': noranUmbrellaSpokes,
   'closed-biz-repayment-relief': closedBizRepaymentReliefSpokes,
+  'child-support-advance': childSupportAdvanceSpokes,
+  'highway-toll-discount': highwayTollDiscountSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
