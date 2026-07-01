@@ -10,7 +10,11 @@ const CATEGORY_LABELS: Record<string, string> = {
   welfare: '복지',
   tax:     '세금',
   medical: '의료',
+  life:    '생활정보',
 };
+
+/* 정부지원금이 아닌(생활정보·지식·FAQ) 카테고리 — h1 접미사·설명을 다르게 */
+const NON_SUBSIDY_CATS = new Set(['life']);
 
 export const dynamicParams = false;
 
@@ -36,12 +40,12 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         </nav>
 
         <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 24 }}>
-          {label} 정부지원금
+          {NON_SUBSIDY_CATS.has(slug) ? label : `${label} 정부지원금`}
         </h1>
 
         {policies.length === 0 ? (
           <p style={{ color: 'var(--text-muted)' }}>
-            해당 카테고리에 등록된 정책이 없습니다.
+            해당 카테고리에 등록된 글이 없습니다.
           </p>
         ) : (
           <div className="policy-list">

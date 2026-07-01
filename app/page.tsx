@@ -10,6 +10,7 @@ const categories = [
   { id: 'loan',   label: '대출',   icon: '🏦', href: '/category/loan' },
   { id: 'youth',  label: '청년',   icon: '👤', href: '/category/youth' },
   { id: 'welfare',label: '복지',   icon: '❤️', href: '/category/welfare' },
+  { id: 'life',   label: '생활정보', icon: '🩺', href: '/category/life' },
 ];
 
 /* ──────────────────────────────────────────────────

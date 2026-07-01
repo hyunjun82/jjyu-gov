@@ -63,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/category/refund">환급금</Link>
               <Link href="/category/loan">대출</Link>
               <Link href="/category/youth">청년</Link>
+              <Link href="/category/life">생활정보</Link>
             </nav>
 
             <div className="header-search">

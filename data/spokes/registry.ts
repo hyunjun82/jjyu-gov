@@ -732,6 +732,13 @@ import { 삼성전자온누리환급K히어로SpokeContent } from '@/app/policy/
 import { 삼성전자온누리환급디지털온누리사용SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/디지털온누리사용';
 import { 삼성전자온누리환급주의사항SpokeContent } from '@/app/policy/[id]/[spoke]/content/삼성전자온누리환급/주의사항';
 
+/* ── 도수치료 가격·이용기준 (slug: dosu-therapy) ── */
+import { 도수치료가격SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/가격';
+import { 도수치료실비SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/실비';
+import { 도수치료관리급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/관리급여';
+import { 도수치료횟수SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/횟수';
+import { 도수치료물리치료비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/물리치료비교';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -1662,6 +1669,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '기저귀바우처': 국민행복카드베팡기저귀바우처SpokeContent,
     '바우처종류': 국민행복카드베팡바우처종류SpokeContent,
     '혜택총정리': 국민행복카드베팡혜택총정리SpokeContent,
+  },
+
+  'dosu-therapy': {
+    '가격': 도수치료가격SpokeContent,
+    '실비': 도수치료실비SpokeContent,
+    '관리급여': 도수치료관리급여SpokeContent,
+    '횟수': 도수치료횟수SpokeContent,
+    '물리치료비교': 도수치료물리치료비교SpokeContent,
   },
 
   'climate-card-refund': {
