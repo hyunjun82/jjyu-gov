@@ -739,6 +739,19 @@ import { 도수치료관리급여SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 도수치료횟수SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/횟수';
 import { 도수치료물리치료비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/물리치료비교';
 
+/* ── 노란우산공제 납입한도 확대 (slug: noran-umbrella) ── */
+import { 노란우산공제납입한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/노란우산공제/납입한도';
+import { 노란우산공제소득공제SpokeContent } from '@/app/policy/[id]/[spoke]/content/노란우산공제/소득공제';
+import { 노란우산공제가입방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/노란우산공제/가입방법';
+import { 노란우산공제대출SpokeContent } from '@/app/policy/[id]/[spoke]/content/노란우산공제/대출';
+import { 노란우산공제해지SpokeContent } from '@/app/policy/[id]/[spoke]/content/노란우산공제/해지';
+
+/* ── 폐업 소상공인 정책자금 상환부담 완화 (slug: closed-biz-repayment-relief) ── */
+import { 폐업소상공인정책자금대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인정책자금/대상';
+import { 폐업소상공인정책자금상환연장SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인정책자금/상환연장';
+import { 폐업소상공인정책자금금리감면SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인정책자금/금리감면';
+import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/policy/[id]/[spoke]/content/폐업소상공인정책자금/신청재기';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -1677,6 +1690,21 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '관리급여': 도수치료관리급여SpokeContent,
     '횟수': 도수치료횟수SpokeContent,
     '물리치료비교': 도수치료물리치료비교SpokeContent,
+  },
+
+  'noran-umbrella': {
+    '납입한도': 노란우산공제납입한도SpokeContent,
+    '소득공제': 노란우산공제소득공제SpokeContent,
+    '가입방법': 노란우산공제가입방법SpokeContent,
+    '대출': 노란우산공제대출SpokeContent,
+    '해지': 노란우산공제해지SpokeContent,
+  },
+
+  'closed-biz-repayment-relief': {
+    '대상': 폐업소상공인정책자금대상SpokeContent,
+    '상환연장': 폐업소상공인정책자금상환연장SpokeContent,
+    '금리감면': 폐업소상공인정책자금금리감면SpokeContent,
+    '신청재기': 폐업소상공인정책자금신청재기SpokeContent,
   },
 
   'climate-card-refund': {
