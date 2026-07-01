@@ -128,6 +128,7 @@ import { 육아휴직계약직SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 육아휴직퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/퇴사';
 import { 육아휴직국민연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/국민연금';
 import { 육아휴직12세SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/12세';
+import { 육아휴직단기SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/단기육아휴직';
 
 /* ── 근로장려금 (slug: earned-income-tax-credit) ── */
 import { 지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로장려금/지급일';
@@ -1161,6 +1162,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '퇴사':      육아휴직퇴사SpokeContent,
     '국민연금':  육아휴직국민연금SpokeContent,
     '12세':      육아휴직12세SpokeContent,
+    '단기육아휴직': 육아휴직단기SpokeContent,
   },
 
   'new-leap': {

@@ -136,4 +136,5 @@ export const parentalLeavePaySpokes = [
   { slug: '퇴사',     role: 'overlap', title: '육아휴직 후 퇴사, 받은 급여 환수와 퇴직금·실업급여' },
   { slug: '국민연금', role: 'overlap', title: '육아휴직 국민연금, 납부예외와 추후납부로 채우기' },
   { slug: '12세',     role: 'usage',   title: '육아휴직 12세 확대, 공무원·교사와 일반 근로자 차이' },
+  { slug: '단기육아휴직', role: 'usage', title: '단기 육아휴직 8월 20일 시행, 1주·2주 유급 급여·신청 조건' },
 ];
