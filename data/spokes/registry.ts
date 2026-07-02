@@ -779,6 +779,11 @@ import { 층간소음기준SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 층간소음신고상담SpokeContent } from '@/app/policy/[id]/[spoke]/content/층간소음/신고상담';
 import { 층간소음해결방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/층간소음/해결방법';
 
+/* ── 해외여행 면세 한도 (slug: travel-duty-free) ── */
+import { 해외여행면세면세한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/해외여행면세/면세한도';
+import { 해외여행면세술담배향수SpokeContent } from '@/app/policy/[id]/[spoke]/content/해외여행면세/술담배향수';
+import { 해외여행면세자진신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/해외여행면세/자진신고';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -1759,6 +1764,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '기준': 층간소음기준SpokeContent,
     '신고상담': 층간소음신고상담SpokeContent,
     '해결방법': 층간소음해결방법SpokeContent,
+  },
+
+  'travel-duty-free': {
+    '면세한도': 해외여행면세면세한도SpokeContent,
+    '술담배향수': 해외여행면세술담배향수SpokeContent,
+    '자진신고': 해외여행면세자진신고SpokeContent,
   },
 
   'climate-card-refund': {
