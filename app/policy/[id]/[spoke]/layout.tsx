@@ -1,9 +1,10 @@
 import { Metadata } from 'next';
 import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
+import { PoliciesByKoAlias } from '@/lib/policy-aliases';
 import { SpokesRegistry } from '@/data/spokes/registry';
 
 function lookupPolicy(idOrSlug: string) {
-  return PoliciesById[idOrSlug] || PoliciesBySlug[idOrSlug];
+  return PoliciesById[idOrSlug] || PoliciesBySlug[idOrSlug] || PoliciesByKoAlias[idOrSlug];
 }
 
 export async function generateMetadata({
@@ -28,17 +29,19 @@ export async function generateMetadata({
     };
   }
 
+  const canonical = `https://gov.jjyu.co.kr/policy/${policySlug}/${encodeURIComponent(spoke)}/`;
   const title = `${spokeData.h1} | 정부지원사업`;
   const description = spokeData.description;
 
   return {
     title,
     description,
+    alternates: { canonical },
     openGraph: {
       title,
       description,
       type: 'article',
-      url: `https://gov.jjyu.co.kr/policy/${id}/${spoke}`,
+      url: canonical,
       siteName: '정부지원사업',
     },
   };
