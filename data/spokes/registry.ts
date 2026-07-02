@@ -67,6 +67,8 @@ import { 퇴직금대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 퇴직금중간정산SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/중간정산';
 import { 퇴직금퇴직연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/퇴직연금';
 import { 퇴직금청구권SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/청구권';
+import { 퇴직금일용직SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/일용직';
+import { 퇴직금세금SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/세금';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2324,6 +2326,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '중간정산': 퇴직금중간정산SpokeContent,
     '퇴직연금': 퇴직금퇴직연금SpokeContent,
     '청구권': 퇴직금청구권SpokeContent,
+    '일용직': 퇴직금일용직SpokeContent,
+    '세금': 퇴직금세금SpokeContent,
   },
 
 };
