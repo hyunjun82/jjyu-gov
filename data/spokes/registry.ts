@@ -69,6 +69,11 @@ import { 퇴직금퇴직연금SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 퇴직금청구권SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/청구권';
 import { 퇴직금일용직SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/일용직';
 import { 퇴직금세금SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/세금';
+import { 채무조정개인회생자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인회생자격';
+import { 채무조정개인파산면책SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인파산면책';
+import { 채무조정워크아웃SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/워크아웃';
+import { 채무조정차이비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/차이비교';
+import { 채무조정변제변경SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/변제변경';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2328,6 +2333,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '청구권': 퇴직금청구권SpokeContent,
     '일용직': 퇴직금일용직SpokeContent,
     '세금': 퇴직금세금SpokeContent,
+  },
+
+  'debt-restructuring': {
+    '개인회생자격': 채무조정개인회생자격SpokeContent,
+    '개인파산면책': 채무조정개인파산면책SpokeContent,
+    '워크아웃': 채무조정워크아웃SpokeContent,
+    '차이비교': 채무조정차이비교SpokeContent,
+    '변제변경': 채무조정변제변경SpokeContent,
   },
 
 };
