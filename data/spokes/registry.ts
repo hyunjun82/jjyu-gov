@@ -55,6 +55,12 @@ import { 재수급SpokeContent }    from '@/app/policy/[id]/[spoke]/content/실�
 import { 알바단기SpokeContent }  from '@/app/policy/[id]/[spoke]/content/실업급여/알바단기';
 import { 실업급여수급자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급자격';
 import { 실업급여수급유예SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급유예';
+import { 실업급여해외여행SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/해외여행';
+import { 실업급여자격증구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자격증구직활동';
+import { 실업급여임금체불SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/임금체불';
+import { 실업급여동거친족SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/동거친족';
+import { 실업급여국민취업지원중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/국민취업지원중복';
+import { 실업급여실업크레딧SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/실업크레딧';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -1150,6 +1156,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '건보국민연금': 실업급여건보연금SpokeContent,
     '상병급여':   실업급여상병급여SpokeContent,
     '수급유예':   실업급여수급유예SpokeContent,
+    '해외여행':   실업급여해외여행SpokeContent,
+    '자격증구직활동': 실업급여자격증구직활동SpokeContent,
+    '임금체불':   실업급여임금체불SpokeContent,
+    '동거친족':   실업급여동거친족SpokeContent,
+    '국민취업지원중복': 실업급여국민취업지원중복SpokeContent,
+    '실업크레딧': 실업급여실업크레딧SpokeContent,
   },
 
   'parent-allowance': {
