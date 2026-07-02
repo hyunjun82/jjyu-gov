@@ -61,6 +61,12 @@ import { 실업급여임금체불SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실업급여동거친족SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/동거친족';
 import { 실업급여국민취업지원중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/국민취업지원중복';
 import { 실업급여실업크레딧SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/실업크레딧';
+import { 퇴직금계산법SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/계산법';
+import { 퇴직금지급기한SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/지급기한';
+import { 퇴직금대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/대상조건';
+import { 퇴직금중간정산SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/중간정산';
+import { 퇴직금퇴직연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/퇴직연금';
+import { 퇴직금청구권SpokeContent } from '@/app/policy/[id]/[spoke]/content/퇴직금/청구권';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2309,6 +2315,15 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '보험료사업주절반부담두루누리지원율':          특수형태근로자고용보험보험료사업주절반부담두루누리지원율SpokeContent,
     '실업급여가입후받는조건금액신청방법':          특수형태근로자고용보험실업급여가입후받는조건금액신청방법SpokeContent,
     '적용제외신청원하지않으면빠지는방법':          특수형태근로자고용보험적용제외신청원하지않으면빠지는방법SpokeContent,
+  },
+
+  'severance-pay': {
+    '계산법': 퇴직금계산법SpokeContent,
+    '지급기한': 퇴직금지급기한SpokeContent,
+    '대상조건': 퇴직금대상조건SpokeContent,
+    '중간정산': 퇴직금중간정산SpokeContent,
+    '퇴직연금': 퇴직금퇴직연금SpokeContent,
+    '청구권': 퇴직금청구권SpokeContent,
   },
 
 };
