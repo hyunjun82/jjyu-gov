@@ -88,6 +88,10 @@ import { 상속분할법정상속분SpokeContent } from '@/app/policy/[id]/[spok
 import { 상속분할상속재산분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속분할/상속재산분할';
 import { 상속분할유류분SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속분할/유류분';
 import { 상속분할상속세SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속분할/상속세';
+import { 전세대항력SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/대항력우선변제권';
+import { 전세사기예방SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/전세사기예방';
+import { 전세보증금반환SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/보증금반환';
+import { 전세계약갱신SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/계약갱신증액';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2375,6 +2379,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '상속재산분할': 상속분할상속재산분할SpokeContent,
     '유류분': 상속분할유류분SpokeContent,
     '상속세': 상속분할상속세SpokeContent,
+  },
+
+  'jeonse-protection': {
+    '대항력우선변제권': 전세대항력SpokeContent,
+    '전세사기예방': 전세사기예방SpokeContent,
+    '보증금반환': 전세보증금반환SpokeContent,
+    '계약갱신증액': 전세계약갱신SpokeContent,
   },
 
 };
