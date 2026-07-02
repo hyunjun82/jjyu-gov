@@ -54,6 +54,7 @@ import { 자발적퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { 재수급SpokeContent }    from '@/app/policy/[id]/[spoke]/content/실업급여/재수급';
 import { 알바단기SpokeContent }  from '@/app/policy/[id]/[spoke]/content/실업급여/알바단기';
 import { 실업급여수급자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급자격';
+import { 실업급여수급유예SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급유예';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -1148,6 +1149,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '예술인특고': 실업급여예술인SpokeContent,
     '건보국민연금': 실업급여건보연금SpokeContent,
     '상병급여':   실업급여상병급여SpokeContent,
+    '수급유예':   실업급여수급유예SpokeContent,
   },
 
   'parent-allowance': {
