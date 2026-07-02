@@ -16,7 +16,8 @@
     "batch": "npx tsx scripts/batch-gov-write.ts",
     "check": "python3 scripts/check-quality.py",
     "check:all": "python3 scripts/check-quality.py",
-    "verify:spokes": "bash scripts/check-spoke-quality.sh"
+    "verify:spokes": "bash scripts/check-spoke-quality.sh",
+    "verify:integrity": "npx tsx scripts/verify-integrity.ts"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

@@ -240,6 +240,12 @@ import { cultureNuriCardPolicy, cultureNuriCardSpokes } from './culture-nuri-car
 import { nationalHealthCheckupPolicy, nationalHealthCheckupSpokes } from './national-health-checkup';
 import { sharingTicketPolicy, sharingTicketSpokes } from './sharing-ticket';
 import { nationalPensionReductionPolicy, nationalPensionReductionSpokes } from './national-pension-reduction';
+import { childMealCardPolicy, childMealCardSpokes } from './child-meal-card';
+import { selfSufficiencyProgramPolicy, selfSufficiencyProgramSpokes } from './self-sufficiency-program';
+import { youthTomorrowFillingPolicy, youthTomorrowFillingSpokes } from './youth-tomorrow-filling';
+import { smallBizHopeReturnPolicy, smallBizHopeReturnSpokes } from './small-biz-hope-return';
+import { elderlyHearingAidPolicy, elderlyHearingAidSpokes } from './elderly-hearing-aid';
+import { platformWorkerInsurancePolicy, platformWorkerInsuranceSpokes } from './platform-worker-insurance';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -356,6 +362,12 @@ export const PoliciesById: Record<string, any> = {
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
   '199': travelDutyFreePolicy,
+  '200': childMealCardPolicy,
+  '201': selfSufficiencyProgramPolicy,
+  '202': youthTomorrowFillingPolicy,
+  '203': smallBizHopeReturnPolicy,
+  '204': elderlyHearingAidPolicy,
+  '205': platformWorkerInsurancePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -547,6 +559,12 @@ export const PoliciesBySlug: Record<string, any> = {
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
   'travel-duty-free': travelDutyFreePolicy,
+  'child-meal-card': childMealCardPolicy,
+  'self-sufficiency-program': selfSufficiencyProgramPolicy,
+  'youth-tomorrow-filling': youthTomorrowFillingPolicy,
+  'small-biz-hope-return': smallBizHopeReturnPolicy,
+  'elderly-hearing-aid': elderlyHearingAidPolicy,
+  'platform-worker-insurance': platformWorkerInsurancePolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -778,6 +796,12 @@ export const SpokesById: Record<string, any[]> = {
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
   '199': travelDutyFreeSpokes,
+  '200': childMealCardSpokes,
+  '201': selfSufficiencyProgramSpokes,
+  '202': youthTomorrowFillingSpokes,
+  '203': smallBizHopeReturnSpokes,
+  '204': elderlyHearingAidSpokes,
+  '205': platformWorkerInsuranceSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -969,6 +993,12 @@ export const SpokesBySlug: Record<string, any[]> = {
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
   'travel-duty-free': travelDutyFreeSpokes,
+  'child-meal-card': childMealCardSpokes,
+  'self-sufficiency-program': selfSufficiencyProgramSpokes,
+  'youth-tomorrow-filling': youthTomorrowFillingSpokes,
+  'small-biz-hope-return': smallBizHopeReturnSpokes,
+  'elderly-hearing-aid': elderlyHearingAidSpokes,
+  'platform-worker-insurance': platformWorkerInsuranceSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
