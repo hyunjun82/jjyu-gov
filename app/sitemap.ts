@@ -23,6 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/category/loan/',
     '/category/youth/',
     '/category/welfare/',
+    '/category/tax/',
+    '/category/medical/',
+    '/category/life/',
   ];
   for (const path of staticPaths) {
     entries.push({
