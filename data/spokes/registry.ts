@@ -774,6 +774,11 @@ import { 임산부친환경농산물지원금액SpokeContent } from '@/app/polic
 import { 임산부친환경농산물대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/대상';
 import { 임산부친환경농산물신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/임산부친환경농산물/신청방법';
 
+/* ── 층간소음 기준·신고·해결 (slug: floor-noise) ── */
+import { 층간소음기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/층간소음/기준';
+import { 층간소음신고상담SpokeContent } from '@/app/policy/[id]/[spoke]/content/층간소음/신고상담';
+import { 층간소음해결방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/층간소음/해결방법';
+
 /* ── 자활사업 (slug: self-sufficiency-program) ── */
 import { 자활사업참여자격조건부수급자차상위계층신청SpokeContent }         from '@/app/policy/[id]/[spoke]/content/자활사업/참여자격조건부수급자차상위계층신청';
 import { 자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent } from '@/app/policy/[id]/[spoke]/content/자활사업/급여2026근로유지형사회서비스형시장진입형';
@@ -1748,6 +1753,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '지원금액': 임산부친환경농산물지원금액SpokeContent,
     '대상': 임산부친환경농산물대상SpokeContent,
     '신청방법': 임산부친환경농산물신청방법SpokeContent,
+  },
+
+  'floor-noise': {
+    '기준': 층간소음기준SpokeContent,
+    '신고상담': 층간소음신고상담SpokeContent,
+    '해결방법': 층간소음해결방법SpokeContent,
   },
 
   'climate-card-refund': {

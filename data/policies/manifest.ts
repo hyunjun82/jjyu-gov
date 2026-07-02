@@ -68,6 +68,7 @@ import { closedBizRepaymentReliefPolicy, closedBizRepaymentReliefSpokes } from '
 import { childSupportAdvancePolicy, childSupportAdvanceSpokes } from './child-support-advance';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
+import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -352,6 +353,7 @@ export const PoliciesById: Record<string, any> = {
   '195': childSupportAdvancePolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
+  '198': floorNoisePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -541,6 +543,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'child-support-advance': childSupportAdvancePolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
+  'floor-noise': floorNoisePolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -770,6 +773,7 @@ export const SpokesById: Record<string, any[]> = {
   '195': childSupportAdvanceSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
+  '198': floorNoiseSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -959,6 +963,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'child-support-advance': childSupportAdvanceSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
+  'floor-noise': floorNoiseSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
