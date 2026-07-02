@@ -84,6 +84,10 @@ import { 상속포기한정승인SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 상속포기특별한정승인SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/특별한정승인';
 import { 상속포기상속순위SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/상속순위';
 import { 상속포기서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/서류';
+import { 상속분할법정상속분SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속분할/법정상속분';
+import { 상속분할상속재산분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속분할/상속재산분할';
+import { 상속분할유류분SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속분할/유류분';
+import { 상속분할상속세SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속분할/상속세';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2364,6 +2368,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '특별한정승인': 상속포기특별한정승인SpokeContent,
     '상속순위': 상속포기상속순위SpokeContent,
     '서류': 상속포기서류SpokeContent,
+  },
+
+  'inheritance-division': {
+    '법정상속분': 상속분할법정상속분SpokeContent,
+    '상속재산분할': 상속분할상속재산분할SpokeContent,
+    '유류분': 상속분할유류분SpokeContent,
+    '상속세': 상속분할상속세SpokeContent,
   },
 
 };

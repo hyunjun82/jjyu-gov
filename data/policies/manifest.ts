@@ -249,6 +249,7 @@ import { platformWorkerInsurancePolicy, platformWorkerInsuranceSpokes } from './
 import { severancePayPolicy, severancePaySpokes } from './severance-pay';
 import { debtRestructuringPolicy, debtRestructuringSpokes } from './debt-restructuring';
 import { inheritanceRenunciationPolicy, inheritanceRenunciationSpokes } from './inheritance-renunciation';
+import { inheritanceDivisionPolicy, inheritanceDivisionSpokes } from './inheritance-division';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -374,6 +375,7 @@ export const PoliciesById: Record<string, any> = {
   '206': severancePayPolicy,
   '207': debtRestructuringPolicy,
   '208': inheritanceRenunciationPolicy,
+  '209': inheritanceDivisionPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -574,6 +576,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'severance-pay': severancePayPolicy,
   'debt-restructuring': debtRestructuringPolicy,
   'inheritance-renunciation': inheritanceRenunciationPolicy,
+  'inheritance-division': inheritanceDivisionPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -814,6 +817,7 @@ export const SpokesById: Record<string, any[]> = {
   '206': severancePaySpokes,
   '207': debtRestructuringSpokes,
   '208': inheritanceRenunciationSpokes,
+  '209': inheritanceDivisionSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1014,6 +1018,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'severance-pay': severancePaySpokes,
   'debt-restructuring': debtRestructuringSpokes,
   'inheritance-renunciation': inheritanceRenunciationSpokes,
+  'inheritance-division': inheritanceDivisionSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
