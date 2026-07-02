@@ -79,6 +79,11 @@ import { 채무조정면책SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 채무조정재산처리SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/재산처리';
 import { 채무조정개인파산자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인파산자격';
 import { 채무조정개인파산절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인파산절차';
+import { 상속포기기한SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/기한';
+import { 상속포기한정승인SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/한정승인';
+import { 상속포기특별한정승인SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/특별한정승인';
+import { 상속포기상속순위SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/상속순위';
+import { 상속포기서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/서류';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2351,6 +2356,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '재산처리': 채무조정재산처리SpokeContent,
     '개인파산자격': 채무조정개인파산자격SpokeContent,
     '개인파산절차': 채무조정개인파산절차SpokeContent,
+  },
+
+  'inheritance-renunciation': {
+    '기한': 상속포기기한SpokeContent,
+    '한정승인': 상속포기한정승인SpokeContent,
+    '특별한정승인': 상속포기특별한정승인SpokeContent,
+    '상속순위': 상속포기상속순위SpokeContent,
+    '서류': 상속포기서류SpokeContent,
   },
 
 };
