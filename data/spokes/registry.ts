@@ -74,6 +74,11 @@ import { 채무조정개인파산면책SpokeContent } from '@/app/policy/[id]/[s
 import { 채무조정워크아웃SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/워크아웃';
 import { 채무조정차이비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/차이비교';
 import { 채무조정변제변경SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/변제변경';
+import { 채무조정신청서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신청서류';
+import { 채무조정면책SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/면책';
+import { 채무조정재산처리SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/재산처리';
+import { 채무조정개인파산자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인파산자격';
+import { 채무조정개인파산절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인파산절차';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2341,6 +2346,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '워크아웃': 채무조정워크아웃SpokeContent,
     '차이비교': 채무조정차이비교SpokeContent,
     '변제변경': 채무조정변제변경SpokeContent,
+    '신청서류': 채무조정신청서류SpokeContent,
+    '면책': 채무조정면책SpokeContent,
+    '재산처리': 채무조정재산처리SpokeContent,
+    '개인파산자격': 채무조정개인파산자격SpokeContent,
+    '개인파산절차': 채무조정개인파산절차SpokeContent,
   },
 
 };
