@@ -1,0 +1,22 @@
+# 채무조정 스포크 10개 한글→영문 301 (샘플 테스트, 2026-07-03)
+# 한글 원문 + %인코딩 둘 다 등록
+/policy/debt-restructuring/개인회생자격/  /policy/debt-restructuring/personal-rehabilitation-eligibility/  301
+/policy/debt-restructuring/%EA%B0%9C%EC%9D%B8%ED%9A%8C%EC%83%9D%EC%9E%90%EA%B2%A9/  /policy/debt-restructuring/personal-rehabilitation-eligibility/  301
+/policy/debt-restructuring/개인파산면책/  /policy/debt-restructuring/bankruptcy-discharge/  301
+/policy/debt-restructuring/%EA%B0%9C%EC%9D%B8%ED%8C%8C%EC%82%B0%EB%A9%B4%EC%B1%85/  /policy/debt-restructuring/bankruptcy-discharge/  301
+/policy/debt-restructuring/워크아웃/  /policy/debt-restructuring/credit-recovery-workout/  301
+/policy/debt-restructuring/%EC%9B%8C%ED%81%AC%EC%95%84%EC%9B%83/  /policy/debt-restructuring/credit-recovery-workout/  301
+/policy/debt-restructuring/차이비교/  /policy/debt-restructuring/debt-relief-comparison/  301
+/policy/debt-restructuring/%EC%B0%A8%EC%9D%B4%EB%B9%84%EA%B5%90/  /policy/debt-restructuring/debt-relief-comparison/  301
+/policy/debt-restructuring/변제변경/  /policy/debt-restructuring/rehabilitation-repayment-change/  301
+/policy/debt-restructuring/%EB%B3%80%EC%A0%9C%EB%B3%80%EA%B2%BD/  /policy/debt-restructuring/rehabilitation-repayment-change/  301
+/policy/debt-restructuring/신청서류/  /policy/debt-restructuring/rehabilitation-documents/  301
+/policy/debt-restructuring/%EC%8B%A0%EC%B2%AD%EC%84%9C%EB%A5%98/  /policy/debt-restructuring/rehabilitation-documents/  301
+/policy/debt-restructuring/면책/  /policy/debt-restructuring/rehabilitation-discharge/  301
+/policy/debt-restructuring/%EB%A9%B4%EC%B1%85/  /policy/debt-restructuring/rehabilitation-discharge/  301
+/policy/debt-restructuring/재산처리/  /policy/debt-restructuring/rehabilitation-asset-treatment/  301
+/policy/debt-restructuring/%EC%9E%AC%EC%82%B0%EC%B2%98%EB%A6%AC/  /policy/debt-restructuring/rehabilitation-asset-treatment/  301
+/policy/debt-restructuring/개인파산자격/  /policy/debt-restructuring/personal-bankruptcy-eligibility/  301
+/policy/debt-restructuring/%EA%B0%9C%EC%9D%B8%ED%8C%8C%EC%82%B0%EC%9E%90%EA%B2%A9/  /policy/debt-restructuring/personal-bankruptcy-eligibility/  301
+/policy/debt-restructuring/개인파산절차/  /policy/debt-restructuring/personal-bankruptcy-procedure/  301
+/policy/debt-restructuring/%EA%B0%9C%EC%9D%B8%ED%8C%8C%EC%82%B0%EC%A0%88%EC%B0%A8/  /policy/debt-restructuring/personal-bankruptcy-procedure/  301

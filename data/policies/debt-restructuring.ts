@@ -98,14 +98,14 @@ export const debtRestructuringPolicy = {
 } as const;
 
 export const debtRestructuringSpokes = [
-  { slug: '개인회생자격', role: 'target', title: '개인회생 자격·부채한도, 담보 15억·무담보 10억', content: '소득 있는 급여/영업소득자, 담보 15억·무담보 10억 이하. 3~5년 변제 후 면책.' },
-  { slug: '개인파산면책', role: 'compare', title: '개인파산·면책, 개인회생과 차이와 비면책채권', content: '갚을 능력 없을 때 재산 청산 후 면책(법원). 세금·벌금 등 비면책채권.' },
-  { slug: '워크아웃', role: 'apply', title: '신용회복위원회 워크아웃(채무조정), 이자 감면·상환 연장', content: '법원 아닌 신복위 채무조정. 연체 단계별 유형. 감면율은 신복위 확인.' },
-  { slug: '차이비교', role: 'overlap', title: '개인회생 vs 개인파산 vs 워크아웃, 뭘 골라야 하나', content: '소득 있음→개인회생, 이자 조정→워크아웃, 갚기 불가→개인파산.' },
-  { slug: '변제변경', role: 'apply', title: '개인회생 변제계획 변경·수입 변동 대응(§610·§619)', content: '수입 감소 등 사정 변경 시 변제계획 변경. 폐지·특별면책 대응.' },
-  { slug: '신청서류', role: 'apply', title: '개인회생 신청서류·채권자목록·변제계획안(§589)', content: '신청서+채권자목록·재산목록·수입지출·변제계획안·진술서. 관공서 서류 2개월 내.' },
-  { slug: '면책', role: 'target', title: '개인회생 면책, 변제 다 못해도 받는 특별면책(§624)', content: '변제 완료 시 면책. 책임 없는 사유+청산가치 이상이면 특별면책. 세금·벌금 등 비면책.' },
-  { slug: '재산처리', role: 'target', title: '개인회생하면 집·차 뺏기나? 재산 유지·압류 중지', content: '재산 청산 안 하고 보유하며 변제. 개시결정 시 압류·경매 중지(§600). 청산가치 보장(§614).' },
-  { slug: '개인파산자격', role: 'compare', title: '개인파산 자격조건과 불이익, 누가 신청하나', content: '지급불능 상태의 개인. 복권 전 자격 제한(본인 한정). 면책까지 받아야 책임 면제(§566).' },
-  { slug: '개인파산절차', role: 'compare', title: '개인파산 절차와 기간, 신청부터 면책까지', content: '신청→30일 내 선고 결정→동시폐지(§317)/파산관재인(§312)→면책(§566).' },
+  { slug: 'personal-rehabilitation-eligibility', role: 'target', title: '개인회생 자격·부채한도, 담보 15억·무담보 10억', content: '소득 있는 급여/영업소득자, 담보 15억·무담보 10억 이하. 3~5년 변제 후 면책.' },
+  { slug: 'bankruptcy-discharge', role: 'compare', title: '개인파산·면책, 개인회생과 차이와 비면책채권', content: '갚을 능력 없을 때 재산 청산 후 면책(법원). 세금·벌금 등 비면책채권.' },
+  { slug: 'credit-recovery-workout', role: 'apply', title: '신용회복위원회 워크아웃(채무조정), 이자 감면·상환 연장', content: '법원 아닌 신복위 채무조정. 연체 단계별 유형. 감면율은 신복위 확인.' },
+  { slug: 'debt-relief-comparison', role: 'overlap', title: '개인회생 vs 개인파산 vs 워크아웃, 뭘 골라야 하나', content: '소득 있음→개인회생, 이자 조정→워크아웃, 갚기 불가→개인파산.' },
+  { slug: 'rehabilitation-repayment-change', role: 'apply', title: '개인회생 변제계획 변경·수입 변동 대응(§610·§619)', content: '수입 감소 등 사정 변경 시 변제계획 변경. 폐지·특별면책 대응.' },
+  { slug: 'rehabilitation-documents', role: 'apply', title: '개인회생 신청서류·채권자목록·변제계획안(§589)', content: '신청서+채권자목록·재산목록·수입지출·변제계획안·진술서. 관공서 서류 2개월 내.' },
+  { slug: 'rehabilitation-discharge', role: 'target', title: '개인회생 면책, 변제 다 못해도 받는 특별면책(§624)', content: '변제 완료 시 면책. 책임 없는 사유+청산가치 이상이면 특별면책. 세금·벌금 등 비면책.' },
+  { slug: 'rehabilitation-asset-treatment', role: 'target', title: '개인회생하면 집·차 뺏기나? 재산 유지·압류 중지', content: '재산 청산 안 하고 보유하며 변제. 개시결정 시 압류·경매 중지(§600). 청산가치 보장(§614).' },
+  { slug: 'personal-bankruptcy-eligibility', role: 'compare', title: '개인파산 자격조건과 불이익, 누가 신청하나', content: '지급불능 상태의 개인. 복권 전 자격 제한(본인 한정). 면책까지 받아야 책임 면제(§566).' },
+  { slug: 'personal-bankruptcy-procedure', role: 'compare', title: '개인파산 절차와 기간, 신청부터 면책까지', content: '신청→30일 내 선고 결정→동시폐지(§317)/파산관재인(§312)→면책(§566).' },
 ];

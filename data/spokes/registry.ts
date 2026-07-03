@@ -2354,16 +2354,16 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'debt-restructuring': {
-    '개인회생자격': 채무조정개인회생자격SpokeContent,
-    '개인파산면책': 채무조정개인파산면책SpokeContent,
-    '워크아웃': 채무조정워크아웃SpokeContent,
-    '차이비교': 채무조정차이비교SpokeContent,
-    '변제변경': 채무조정변제변경SpokeContent,
-    '신청서류': 채무조정신청서류SpokeContent,
-    '면책': 채무조정면책SpokeContent,
-    '재산처리': 채무조정재산처리SpokeContent,
-    '개인파산자격': 채무조정개인파산자격SpokeContent,
-    '개인파산절차': 채무조정개인파산절차SpokeContent,
+    'personal-rehabilitation-eligibility': 채무조정개인회생자격SpokeContent,
+    'bankruptcy-discharge': 채무조정개인파산면책SpokeContent,
+    'credit-recovery-workout': 채무조정워크아웃SpokeContent,
+    'debt-relief-comparison': 채무조정차이비교SpokeContent,
+    'rehabilitation-repayment-change': 채무조정변제변경SpokeContent,
+    'rehabilitation-documents': 채무조정신청서류SpokeContent,
+    'rehabilitation-discharge': 채무조정면책SpokeContent,
+    'rehabilitation-asset-treatment': 채무조정재산처리SpokeContent,
+    'personal-bankruptcy-eligibility': 채무조정개인파산자격SpokeContent,
+    'personal-bankruptcy-procedure': 채무조정개인파산절차SpokeContent,
   },
 
   'inheritance-renunciation': {
