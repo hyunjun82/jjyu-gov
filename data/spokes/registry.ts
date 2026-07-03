@@ -100,6 +100,10 @@ import { drunkPenaltyStandardSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { drunkLicenseSpokeContent } from '@/app/policy/[id]/[spoke]/content/drunk-driving/license-revocation';
 import { drunkRefusalRepeatSpokeContent } from '@/app/policy/[id]/[spoke]/content/drunk-driving/breath-test-refusal-repeat';
 import { drunkAccidentSpokeContent } from '@/app/policy/[id]/[spoke]/content/drunk-driving/drunk-driving-accident';
+import { unpaidReportSpokeContent } from '@/app/policy/[id]/[spoke]/content/unpaid-wages/report-procedure';
+import { unpaidPenaltySpokeContent } from '@/app/policy/[id]/[spoke]/content/unpaid-wages/criminal-penalty-delay-interest';
+import { unpaidGuaranteeSpokeContent } from '@/app/policy/[id]/[spoke]/content/unpaid-wages/wage-guarantee-fund';
+import { unpaidCivilSpokeContent } from '@/app/policy/[id]/[spoke]/content/unpaid-wages/civil-execution';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2408,6 +2412,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'license-revocation': drunkLicenseSpokeContent,
     'breath-test-refusal-repeat': drunkRefusalRepeatSpokeContent,
     'drunk-driving-accident': drunkAccidentSpokeContent,
+  },
+
+  'unpaid-wages': {
+    'report-procedure': unpaidReportSpokeContent,
+    'criminal-penalty-delay-interest': unpaidPenaltySpokeContent,
+    'wage-guarantee-fund': unpaidGuaranteeSpokeContent,
+    'civil-execution': unpaidCivilSpokeContent,
   },
 
 };
