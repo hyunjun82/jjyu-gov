@@ -252,6 +252,7 @@ import { inheritanceRenunciationPolicy, inheritanceRenunciationSpokes } from './
 import { inheritanceDivisionPolicy, inheritanceDivisionSpokes } from './inheritance-division';
 import { jeonseProtectionPolicy, jeonseProtectionSpokes } from './jeonse-protection';
 import { trafficAccidentPolicy, trafficAccidentSpokes } from './traffic-accident';
+import { drunkDrivingPolicy, drunkDrivingSpokes } from './drunk-driving';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -380,6 +381,7 @@ export const PoliciesById: Record<string, any> = {
   '209': inheritanceDivisionPolicy,
   '210': jeonseProtectionPolicy,
   '211': trafficAccidentPolicy,
+  '212': drunkDrivingPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -583,6 +585,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'inheritance-division': inheritanceDivisionPolicy,
   'jeonse-protection': jeonseProtectionPolicy,
   'traffic-accident': trafficAccidentPolicy,
+  'drunk-driving': drunkDrivingPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -826,6 +829,7 @@ export const SpokesById: Record<string, any[]> = {
   '209': inheritanceDivisionSpokes,
   '210': jeonseProtectionSpokes,
   '211': trafficAccidentSpokes,
+  '212': drunkDrivingSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1029,6 +1033,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'inheritance-division': inheritanceDivisionSpokes,
   'jeonse-protection': jeonseProtectionSpokes,
   'traffic-accident': trafficAccidentSpokes,
+  'drunk-driving': drunkDrivingSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
