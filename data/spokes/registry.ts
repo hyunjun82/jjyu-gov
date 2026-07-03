@@ -92,6 +92,10 @@ import { 전세대항력SpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { 전세사기예방SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/전세사기예방';
 import { 전세보증금반환SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/보증금반환';
 import { 전세계약갱신SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/계약갱신증액';
+import { trafficCriminal12SpokeContent } from '@/app/policy/[id]/[spoke]/content/traffic-accident/criminal-penalty-12-negligence';
+import { trafficSettlementSpokeContent } from '@/app/policy/[id]/[spoke]/content/traffic-accident/settlement-criminal-agreement';
+import { trafficCompensationSpokeContent } from '@/app/policy/[id]/[spoke]/content/traffic-accident/compensation-fault-ratio';
+import { trafficResponseSpokeContent } from '@/app/policy/[id]/[spoke]/content/traffic-accident/accident-response-hit-and-run';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2386,6 +2390,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '전세사기예방': 전세사기예방SpokeContent,
     '보증금반환': 전세보증금반환SpokeContent,
     '계약갱신증액': 전세계약갱신SpokeContent,
+  },
+
+  'traffic-accident': {
+    'criminal-penalty-12-negligence': trafficCriminal12SpokeContent,
+    'settlement-criminal-agreement': trafficSettlementSpokeContent,
+    'compensation-fault-ratio': trafficCompensationSpokeContent,
+    'accident-response-hit-and-run': trafficResponseSpokeContent,
   },
 
 };
