@@ -22,6 +22,7 @@
      3. **대한민국 정책브리핑 korea.kr** / 기관 **보도자료 PDF**.
      4. 그래도 확보 불가 시에만 본문에 단정하지 말고 "해당 공단/콜센터 확인" 안내.
    - 즉 **"접근 불가"는 거의 없다 — Playwright 아니면 Claude in Chrome으로 대부분 열린다.** 도메인별 신뢰 출처 매핑: 고용=worklife/moel, 건보=easylaw/law.go.kr(또는 Chrome으로 nhis), 연금=korea.kr/law.go.kr, 금융=fsc/은행연합회.
+8. **URL은 전부 영문 — 한글·영문 혼합 절대 금지** (2026-07-03 확정). 신규 스포크·정책 slug는 **영문 lowercase-hyphen만**, registry 키 = 정책 spokes 배열 slug = 영문으로 통일. 영문 허브 + 한글 스포크 혼합 금지(카톡·커뮤니티 공유 시 `%EB%B3%80…`로 깨져 클릭률↓·GA4 분석 불가). content 폴더/파일명은 한글 유지 가능(URL은 registry 키가 결정). 기존 한글 URL 이전은 **Cloudflare `public/_redirects` 301**만 사용 — `next.config`의 `redirects()`는 `output:'export'`라 무시되니 금지. 상세: §"spoke slug 영문 통일 룰".
 
 ---
 
@@ -139,10 +140,15 @@ curl -s "https://gov.jjyu.co.kr/" | grep -oE 'static/chunks/app/[^"]+'
 
 **결과**: 정책 메인 페이지의 사이드바·관련 링크가 정책 데이터의 영문 slug로 URL 생성 → 그 URL은 registry에 없음 → **사이트 내부 모든 영문 spoke 링크가 죽은 링크 (404)**
 
+> **🚨 2026-07-03 확정 규칙 — 이전 "옵션 A 한글 통일" 권장은 폐기.**
+> **URL은 무조건 전부 영문(lowercase-hyphen). 영문 허브 + 한글 스포크 혼합 절대 금지.**
+> 이유: 카톡·블로그·커뮤니티에 한글 URL을 붙이면 `%EB%B3%80…`로 깨져 **스팸링크처럼 보여 클릭률↓**, GA4·서치콘솔에 외계어로 찍혀 **분석 불가**. (색인 자체는 한글도 되지만 공유 UX·분석이 문제.)
+> - 신규 스포크·정책 slug = **영문 lowercase-hyphen만**. registry 키 = 정책 spokes 배열 slug = 영문으로 통일.
+> - **content 폴더/파일명은 한글 유지 가능** — URL을 결정하는 건 registry 키다(파일명 아님). registry 키만 영문이면 URL·sitemap·사이드바·canonical이 전부 자동 영문화됨.
+> - 기존 한글 스포크 806개는 단계적으로 영문화 + `public/_redirects` 301 이전(2026-07-03 채무조정 10개 샘플부터). **`next.config`의 `redirects()`는 `output:'export'`라 무시되니 절대 쓰지 말 것 — Cloudflare `public/_redirects` 파일만.**
+
 **룰**:
-1. **새 정책 작성 시 반드시 둘 중 하나로 통일**:
-   - 옵션 A (권장): 둘 다 한글 slug로 통일 — registry의 키 그대로 정책 spokes 배열에 사용
-   - 옵션 B: 둘 다 영문 slug로 통일 — 정책 데이터의 spokes 배열 slug를 registry 키로도 사용
+1. **새 정책 작성 시 slug는 무조건 영문 통일** — 정책 데이터 spokes 배열 slug = registry 키 = 영문 lowercase-hyphen. 한글 slug 신규 생성 금지.
 2. **기존 정책 수정 시 자동 동기화 스크립트 사용** (TBD `scripts/sync-spoke-slugs.ts`)
 3. **PolicySidebar·관련 링크 생성 시점에 mismatch 자동 검출** 후 build warning
 
@@ -288,7 +294,7 @@ export const XxxSpokeContent: SpokeData = { Content, faqData: [...] };
 3. **export 이름 고유** — registry에 이미 있는 이름과 충돌 금지(예: `군인SpokeContent` 중복 → `미래적금군인SpokeContent`처럼 접두사).
 4. **manifest id 채번** — `PoliciesById`의 최대 숫자 +1. 4개 맵 모두 등록(ById/BySlug × Policies/Spokes).
 5. **수치 내부 정합성** — 같은 값이 허브·스포크에 반복될 때 전수 일치(검색: `grep -rn "<수치>"`). 금리·기여금·수령액 계산이 서로 모순되지 않게.
-6. **한글 slug 통일**(옵션 A) — 정책 spokes 배열 slug = registry 키 = content 폴더/파일명.
+6. **영문 slug 통일**(2026-07-03 확정, 구 "한글 통일 옵션 A" 폐기) — 정책 spokes 배열 slug = registry 키 = **영문 lowercase-hyphen**. **영문 허브 + 한글 스포크 혼합 절대 금지**(공유 시 %인코딩 깨짐·GA4 분석 불가). content 폴더/파일명은 한글 유지 가능하나 **registry 키(=URL)는 반드시 영문**. 기존 한글 스포크는 `public/_redirects` 301로 단계 이전(`next.config` redirects는 export라 금지).
 7. **타이틀 ↔ 본문 일치** — 타이틀의 핵심 키워드·숫자(특히 `[숫자]`)와 쉼표·콜론으로 묶은 주제를 본문 qa[].q·intro에서 그대로 다룬다. 검증: `bash scripts/check-title-body-match.sh {정책폴더}`. `[숫자]` 경고는 반드시 해소(타이틀·본문 수치 표기 통일 포함).
 8. **타이틀은 실제 포털 검색어 기반** — `scripts/collect-keywords.ts` 수집 결과(byTheme) 없이 머릿속으로 타이틀 짓기 금지. 스타일은 `docs/title-style-24.md` 정본.
 
