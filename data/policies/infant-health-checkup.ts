@@ -114,4 +114,8 @@ export const infantHealthCheckupSpokes = [
   { slug: 'apply', role: 'apply', title: '자동 안내장 - 신청 불필요', content: '지정 의료기관 예약.' },
   { slug: 'followup', role: 'usage', title: '이상 시 추가 검사·정밀검사 연계', content: '조기 개입 핵심.' },
   { slug: 'overlap', role: 'overlap', title: '예방접종·산전 검사 등과 중복', content: '같은 날 가능.' },
+  { slug: '검진시기8회차수표', title: '영유아 건강검진 검진 시기, 8회 차수와 월령별 핵심 항목 한눈에' },
+  { slug: '발달이상의심시정밀검사연계', title: '영유아 건강검진 발달 이상 의심 시, 정밀검사 비용 지원과 연계 절차' },
+  { slug: '예약방법지정기관찾기', title: '영유아 건강검진 예약 방법, 가까운 지정 의료기관 찾고 무료로 받는 절차' },
+  { slug: '시기놓치면어떻게되나', title: '영유아 건강검진 시기 놓치면 어떻게 되나, 대처법과 잔여 차수 확인 방법' },
 ];

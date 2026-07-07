@@ -126,4 +126,7 @@ export const homeChildcareAllowanceSpokes = [
   { slug: 'parent', role: 'usage', title: '부모급여 종료 후 자동 전환', content: '0~23 vs 24+.' },
   { slug: 'apply', role: 'apply', title: '주민센터·복지로·정부24', content: '매월 25일.' },
   { slug: 'allowance', role: 'overlap', title: '아동수당 중복 OK', content: '월 20만 합산.' },
+  { slug: '어린이집보내면중단보육료전환', title: '가정양육수당 받다 어린이집 보내면, 중단 시기와 보육료 전환 신청 방법' },
+  { slug: '신청방법복지로주민센터절차', title: '가정양육수당 신청 방법, 복지로·주민센터 절차와 필요 서류 한눈에' },
+  { slug: '부모급여종료후자동전환기준', title: '부모급여 끝나면 가정양육수당 자동 전환, 만 24개월 기준과 주의사항' },
 ];

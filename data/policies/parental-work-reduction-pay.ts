@@ -126,4 +126,8 @@ export const parentalWorkReductionPaySpokes = [
   { slug: 'period', role: 'usage', title: '자녀당 3년', content: '미사용 휴직 추가.' },
   { slug: 'apply', role: 'apply', title: 'ei.go.kr - 1350', content: '매월.' },
   { slug: 'compare', role: 'overlap', title: '휴직 vs 단축 본인 선택', content: '동시 X.' },
+  { slug: '급여계산10시간250만나머지160만', title: '육아기 근로시간 단축급여 계산 — 최초 10시간 250만 원, 나머지 160만 원' },
+  { slug: '신청방법eiGovKr절차', title: '육아기 근로시간 단축급여 신청 방법 — ei.go.kr 절차 5단계' },
+  { slug: '육아휴직과차이출근하면서단축', title: '육아기 근로시간 단축 vs 육아휴직 — 출근하면서 단축하는 차이점' },
+  { slug: '자녀만12세초등6학년대상기간', title: '육아기 근로시간 단축급여 대상 — 자녀 만 12세(초등 6학년), 기간과 자격' },
 ];

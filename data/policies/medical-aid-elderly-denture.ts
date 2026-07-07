@@ -126,4 +126,8 @@ export const medicalAidElderlyDentureSpokes = [
   { slug: 'implant', role: 'usage', title: '임플란트 평생 2개', content: '어금니·앞니.' },
   { slug: 'apply', role: 'apply', title: '지정 치과 - 사전 등록 필수', content: '치과 대행.' },
   { slug: 'cycle', role: 'overlap', title: '틀니 7년 1회', content: '임플란트 평생 2개.' },
+  { slug: '1종2종본인부담5퍼15퍼비교', title: '의료급여 노인 틀니 본인부담, 1종 5%·2종 15% 건강보험 30%와 비교' },
+  { slug: '임플란트평생2개신청방법', title: '의료급여 치과임플란트 평생 2개 지원, 65세 이상 신청 방법과 지정 치과 안내' },
+  { slug: '틀니7년주기사후유지관리', title: '노인 틀니 7년 주기와 장착 후 3개월 무상 수리 6회 이용 방법' },
+  { slug: '완전틀니부분틀니임플란트종류비교', title: '노인 틀니 종류 비교, 완전틀니·부분틀니·임플란트 중 내 상황에 맞는 선택' },
 ];

@@ -118,4 +118,8 @@ export const freeLegalAidSpokes = [
   { slug: 'eligibility', label: '신청 자격', icon: '✅' },
   { slug: 'apply-method', label: '신청 방법', icon: '📋' },
   { slug: 'service-type', label: '지원 유형', icon: '⚖️' },
+  { slug: '무료법률구조신청자격소득기준중위125', title: '무료법률구조 신청 자격: 소득 기준 중위소득 125% 이하' },
+  { slug: '무료법률구조대상사건민사가사형사종류', title: '무료법률구조 대상 사건: 민사·가사·형사·행정 종류 총정리' },
+  { slug: '무료법률구조신청방법132번온라인방문', title: '무료법률구조 신청 방법: ☎ 132·온라인·방문 3가지' },
+  { slug: '법률상담무료기준소송구조차이전액면제', title: '무료 법률상담 vs 소송구조: 차이와 전액 면제 기준' },
 ];

@@ -115,4 +115,8 @@ export const smallBizCreditRecoverySpokes = [
   { slug: 'eligibility', label: '신청 자격', icon: '✅' },
   { slug: 'apply-method', label: '신청 방법', icon: '📋' },
   { slug: 'benefit-amount', label: '조정 내용', icon: '💰' },
+  { slug: '소상공인신용회복신청자격연체기준', title: '소상공인 신용회복 신청 자격과 연체 기준 2026' },
+  { slug: '소상공인신속신용사면탕감신청방법', title: '소상공인 신속 신용사면·채무 탕감 신청 방법 2026' },
+  { slug: '소상공인신용회복후신용점수회복', title: '소상공인 신용회복 후 신용점수 회복 방법과 기간' },
+  { slug: '소상공인신용회복위원회새출발기금비교', title: '소상공인 신용회복위원회 vs 새출발기금 차이 비교 2026' },
 ];

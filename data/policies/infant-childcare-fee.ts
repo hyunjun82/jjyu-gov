@@ -125,4 +125,8 @@ export const infantChildcareFeeSpokes = [
   { slug: 'apply', role: 'apply', title: '행정복지센터 또는 복지로', content: '어린이집 등록 필수.' },
   { slug: 'burden', role: 'usage', title: '식대·특활 자부담 월 5~10만', content: '어린이집별 차이.' },
   { slug: 'vs', role: 'overlap', title: '가정양육수당과 자동 전환', content: '동시 수령 X.' },
+  { slug: '연령별월51만45만38만지원금액', title: '영유아보육료 연령별 금액, 만 0세 54만·1세 47만 5천·2세 39만 4천원 어린이집 직접 지급' },
+  { slug: '신청방법복지로행정복지센터절차', title: '영유아보육료 신청 방법, 복지로·행정복지센터 5단계 절차와 필요 서류' },
+  { slug: '가정양육수당어린이집보육료차이', title: '영유아보육료 vs 가정양육수당 차이, 어린이집 이용 여부에 따른 선택 기준' },
+  { slug: '누리과정3세5세유아학비비교', title: '만 3~5세 누리과정, 어린이집·유치원 모두 무료 — 영유아보육료와 차이' },
 ];

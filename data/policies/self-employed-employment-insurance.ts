@@ -273,4 +273,5 @@ export const selfEmployedEmploymentInsuranceSpokes = [
   { slug: '가입방법근로복지공단온라인', title: '근로복지공단 온라인 가입 방법' },
   { slug: '직원있는사업주vs1인자영업차이', title: '직원 사업주 vs 1인 자영업 차이' },
   { slug: '폐업후실업급여1년가입조건', title: '폐업 후 실업급여 1년 가입 조건' },
+  { slug: '7등급보험료율50to80지원기준', title: '자영업자고용보험 7등급 보험료·50to80% 지원 기준 (2026)' },
 ];

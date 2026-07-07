@@ -239,4 +239,8 @@ export const collegeStudentHousingSpokes = [
   { slug: 'jeonse', label: '청년 전세임대' },
   { slug: 'eligibility', label: '입주 자격' },
   { slug: 'how-to-apply', label: '신청 방법' },
+  { slug: '행복기숙사신청자격비용LH공공기숙사', title: 'LH 행복기숙사 신청 자격·비용·신청 방법 총정리' },
+  { slug: '대학생기숙사비지원한국장학재단', title: '대학생 기숙사비 지원: 한국장학재단 제도 총정리' },
+  { slug: '서울대학생공공기숙사종류신청방법', title: '서울 대학생 공공기숙사 종류와 신청 방법' },
+  { slug: '희망하우징행복기숙사대학생비교', title: '희망하우징 vs 행복기숙사: 대학생 공공주거 비교' },
 ];
