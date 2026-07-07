@@ -104,6 +104,10 @@ import { unpaidReportSpokeContent } from '@/app/policy/[id]/[spoke]/content/unpa
 import { unpaidPenaltySpokeContent } from '@/app/policy/[id]/[spoke]/content/unpaid-wages/criminal-penalty-delay-interest';
 import { unpaidGuaranteeSpokeContent } from '@/app/policy/[id]/[spoke]/content/unpaid-wages/wage-guarantee-fund';
 import { unpaidCivilSpokeContent } from '@/app/policy/[id]/[spoke]/content/unpaid-wages/civil-execution';
+import { superIsaLaunchSpokeContent } from '@/app/policy/[id]/[spoke]/content/super-isa/launch-schedule';
+import { superIsaYouthSpokeContent } from '@/app/policy/[id]/[spoke]/content/super-isa/youth-isa';
+import { superIsaNationalGrowthSpokeContent } from '@/app/policy/[id]/[spoke]/content/super-isa/national-growth-isa';
+import { superIsaVsExistingSpokeContent } from '@/app/policy/[id]/[spoke]/content/super-isa/vs-existing-isa';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2419,6 +2423,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'criminal-penalty-delay-interest': unpaidPenaltySpokeContent,
     'wage-guarantee-fund': unpaidGuaranteeSpokeContent,
     'civil-execution': unpaidCivilSpokeContent,
+  },
+
+  'super-isa': {
+    'launch-schedule': superIsaLaunchSpokeContent,
+    'youth-isa': superIsaYouthSpokeContent,
+    'national-growth-isa': superIsaNationalGrowthSpokeContent,
+    'vs-existing-isa': superIsaVsExistingSpokeContent,
   },
 
 };

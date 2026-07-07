@@ -254,6 +254,7 @@ import { jeonseProtectionPolicy, jeonseProtectionSpokes } from './jeonse-protect
 import { trafficAccidentPolicy, trafficAccidentSpokes } from './traffic-accident';
 import { drunkDrivingPolicy, drunkDrivingSpokes } from './drunk-driving';
 import { unpaidWagesPolicy, unpaidWagesSpokes } from './unpaid-wages';
+import { superIsaPolicy, superIsaSpokes } from './super-isa';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -384,6 +385,7 @@ export const PoliciesById: Record<string, any> = {
   '211': trafficAccidentPolicy,
   '212': drunkDrivingPolicy,
   '213': unpaidWagesPolicy,
+  '214': superIsaPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -589,6 +591,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'traffic-accident': trafficAccidentPolicy,
   'drunk-driving': drunkDrivingPolicy,
   'unpaid-wages': unpaidWagesPolicy,
+  'super-isa': superIsaPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -834,6 +837,7 @@ export const SpokesById: Record<string, any[]> = {
   '211': trafficAccidentSpokes,
   '212': drunkDrivingSpokes,
   '213': unpaidWagesSpokes,
+  '214': superIsaSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1039,6 +1043,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'traffic-accident': trafficAccidentSpokes,
   'drunk-driving': drunkDrivingSpokes,
   'unpaid-wages': unpaidWagesSpokes,
+  'super-isa': superIsaSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
