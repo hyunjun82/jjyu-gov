@@ -255,6 +255,7 @@ import { trafficAccidentPolicy, trafficAccidentSpokes } from './traffic-accident
 import { drunkDrivingPolicy, drunkDrivingSpokes } from './drunk-driving';
 import { unpaidWagesPolicy, unpaidWagesSpokes } from './unpaid-wages';
 import { superIsaPolicy, superIsaSpokes } from './super-isa';
+import { kPassModuCardPolicy, kPassModuCardSpokes } from './k-pass-modu-card';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -386,6 +387,7 @@ export const PoliciesById: Record<string, any> = {
   '212': drunkDrivingPolicy,
   '213': unpaidWagesPolicy,
   '214': superIsaPolicy,
+  '215': kPassModuCardPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -592,6 +594,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'drunk-driving': drunkDrivingPolicy,
   'unpaid-wages': unpaidWagesPolicy,
   'super-isa': superIsaPolicy,
+  'k-pass-modu-card': kPassModuCardPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -838,6 +841,7 @@ export const SpokesById: Record<string, any[]> = {
   '212': drunkDrivingSpokes,
   '213': unpaidWagesSpokes,
   '214': superIsaSpokes,
+  '215': kPassModuCardSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1044,6 +1048,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'drunk-driving': drunkDrivingSpokes,
   'unpaid-wages': unpaidWagesSpokes,
   'super-isa': superIsaSpokes,
+  'k-pass-modu-card': kPassModuCardSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
