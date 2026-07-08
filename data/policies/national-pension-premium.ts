@@ -101,4 +101,5 @@ export const nationalPensionPremiumSpokes = [
   { slug: '보험료계산', role: 'amount', title: '국민연금 보험료 계산, 기준소득월액 9% 최대 월 59만원', content: '×9%, 최고 593,100원·최저 36,900원.' },
   { slug: '가입자종류', role: 'usage', title: '국민연금 가입자 종류, 사업장 지역 임의 임의계속 차이', content: '사업장 4.5%+4.5%, 지역·임의 9% 전액 본인.' },
   { slug: '납부', role: 'apply', title: '국민연금 보험료 납부와 미납, 자동이체 납부예외', content: '미납 시 연체·압류·미반영, 납부예외 신청 가능.' },
+  { slug: '개인연금비교', role: 'usage', title: '국민연금과 개인연금의 차이점은 무엇인가요', content: '공적 의무가입 vs 사적 임의가입, 소득공제 vs 세액공제(12~15%, 900만 한도).' },
 ];

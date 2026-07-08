@@ -957,6 +957,7 @@ import { 재산세감면SpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { 국민연금보험료기준소득월액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/기준소득월액';
 import { 국민연금보험료수령나이SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/수령나이';
 import { 국민연금보험료수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/수령액';
+import { 국민연금보험료개인연금비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/개인연금비교';
 import { 국민연금보험료가입기간추납SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/가입기간추납';
 import { 국민연금보험료조기노령연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/조기노령연금';
 import { 국민연금보험료연기연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/연기연금';
@@ -2290,6 +2291,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '보험료계산':   국민연금보험료계산SpokeContent,
     '가입자종류':   국민연금보험료가입자종류SpokeContent,
     '납부':         국민연금보험료납부SpokeContent,
+    '개인연금비교': 국민연금보험료개인연금비교SpokeContent,
   },
 
   'property-tax': {
