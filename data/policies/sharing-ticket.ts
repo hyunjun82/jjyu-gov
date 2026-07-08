@@ -4,7 +4,7 @@ export const sharingTicketPolicy: PolicyData = {
   id: 'sharing-ticket',
   slug: 'sharing-ticket',
   type: 'service',
-  title: '나눔티켓',
+  title: '나눔티켓 공연·전시 50~80% 할인, 기초수급자·차상위 신청방법',
   cat: '복지',
   catSlug: 'welfare',
   org: '문화체육관광부 · 나눔티켓사무국',

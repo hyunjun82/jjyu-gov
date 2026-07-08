@@ -5,7 +5,7 @@ export const coastalSafetyGuardPolicy: PolicyData = {
   slug: 'coastal-safety-guard',
   type: 'service',
   catSlug: 'welfare',
-  title: '연안안전지킴이',
+  title: '연안안전지킴이 월 180~220만원, 자격요건과 신청방법 정리',
   org: '해양수산부 / 해양경찰청',
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1회 모집 (상반기)',

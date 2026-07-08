@@ -4,7 +4,7 @@ export const middleAgedTomorrowCenterPolicy: PolicyData = {
   id: 'middle-aged-tomorrow-center',
   slug: 'middle-aged-tomorrow-center',
   type: 'service',
-  title: '중장년내일센터',
+  title: '중장년내일센터 무료 생애경력설계·전직지원, 40세 이상 재취업 서비스',
   cat: '복지',
   catSlug: 'welfare',
   org: '고용노동부',

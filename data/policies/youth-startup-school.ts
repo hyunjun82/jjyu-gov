@@ -1,7 +1,7 @@
 /* 청년창업사관학교 (2026) - 중소벤처기업진흥공단 */
 export const youthStartupSchoolPolicy = {
   id: '89', type: 'cash' as const,
-  title: '2026 청년창업사관학교',
+  title: '청년창업사관학교 사업화자금 최대 1억원, 만39세 신청자격',
   titleKeywords: { k1: '청년창업', k2: '사관학교', k3: '창업지원', k4: '중소벤처기업진흥공단' },
   slug: 'youth-startup-school', org: '중소벤처기업부', cat: '지원금', catSlug: 'fund',
   amount: '사업화 자금 최대 1억원 + 입주·교육·멘토링',

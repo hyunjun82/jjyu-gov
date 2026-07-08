@@ -4,7 +4,7 @@ export const artistEmploymentInsurancePolicy: PolicyData = {
   id: 'artist-employment-insurance',
   slug: 'artist-employment-insurance',
   type: 'service',
-  title: '예술인 고용보험',
+  title: '예술인 고용보험 구직급여·출산전후급여, 두루누리 보험료 80% 지원까지',
   cat: '복지',
   catSlug: 'welfare',
   org: '고용노동부 · 한국예술인복지재단',

@@ -4,7 +4,7 @@ export const newBusinessStartupSchoolPolicy: PolicyData = {
   id: 'new-business-startup-school',
   slug: 'new-business-startup-school',
   type: 'training',
-  title: '신사업창업사관학교',
+  title: '신사업창업사관학교 사업화자금 4,000만원, 5개월 창업교육 신청자격',
   cat: '지원금',
   catSlug: 'fund',
   org: '중소벤처기업부 · 소상공인시장진흥공단',

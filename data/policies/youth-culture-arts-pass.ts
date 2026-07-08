@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const youthCultureArtsPassPolicy: PolicyData = {
   slug: 'youth-culture-arts-pass',
   type: 'service',
-  title: '청년문화예술패스',
+  title: '청년문화예술패스 최대 20만원, 만19세 신청자격과 사용처',
   org: '문화체육관광부',
   catSlug: 'youth',
   amount: '수도권 15만원·비수도권 20만원',

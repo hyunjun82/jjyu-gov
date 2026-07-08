@@ -5,7 +5,7 @@ export const forestTrailGuidePolicy: PolicyData = {
   slug: 'forest-trail-guide',
   type: 'service',
   catSlug: 'welfare',
-  title: '숲길등산지도사 공공일자리',
+  title: '숲길등산지도사 공공일자리 월 180~220만원, 자격증과 신청방법',
   org: '산림청 / 한국등산·트레킹지원센터',
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1회 모집 (상반기)',
