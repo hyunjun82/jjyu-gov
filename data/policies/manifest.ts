@@ -257,6 +257,7 @@ import { unpaidWagesPolicy, unpaidWagesSpokes } from './unpaid-wages';
 import { superIsaPolicy, superIsaSpokes } from './super-isa';
 import { kPassModuCardPolicy, kPassModuCardSpokes } from './k-pass-modu-card';
 import { hiddenInsuranceMoneyPolicy, hiddenInsuranceMoneySpokes } from './hidden-insurance-money';
+import { movieDiscountVoucherPolicy, movieDiscountVoucherSpokes } from './movie-discount-voucher';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -390,6 +391,7 @@ export const PoliciesById: Record<string, any> = {
   '214': superIsaPolicy,
   '215': kPassModuCardPolicy,
   '216': hiddenInsuranceMoneyPolicy,
+  '217': movieDiscountVoucherPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -598,6 +600,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'super-isa': superIsaPolicy,
   'k-pass-modu-card': kPassModuCardPolicy,
   'hidden-insurance-money': hiddenInsuranceMoneyPolicy,
+  'movie-discount-voucher': movieDiscountVoucherPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -846,6 +849,7 @@ export const SpokesById: Record<string, any[]> = {
   '214': superIsaSpokes,
   '215': kPassModuCardSpokes,
   '216': hiddenInsuranceMoneySpokes,
+  '217': movieDiscountVoucherSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1054,6 +1058,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'super-isa': superIsaSpokes,
   'k-pass-modu-card': kPassModuCardSpokes,
   'hidden-insurance-money': hiddenInsuranceMoneySpokes,
+  'movie-discount-voucher': movieDiscountVoucherSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
