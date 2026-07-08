@@ -86,4 +86,9 @@ export const hiddenInsuranceMoneyPolicy = {
   ],
 } as const;
 
-export const hiddenInsuranceMoneySpokes: never[] = [];
+export const hiddenInsuranceMoneySpokes = [
+  { slug: 'how-to-find', title: '숨은보험금 찾기, 내보험찾아줌 사이트 바로가기와 조회하기' },
+  { slug: 'limitation-period', title: '숨은보험금 소멸시효 3년, 언제까지 찾아야 하나' },
+  { slug: 'inheritance-check', title: '가족 사망 숨은보험금 조회, 피상속인 보험계약 확인 방법' },
+  { slug: 'claim-and-refund', title: '숨은보험금청구 방법과 환급 절차, 조회 후 어떻게 받나' },
+];

@@ -1,8 +1,8 @@
 /* 영화 관람료 할인권 (2026) - 서비스 / 문화체육관광부·영화진흥위원회 */
 export const movieDiscountVoucherPolicy = {
   id: '217', type: 'service' as const,
-  title: '영화 관람료 6000원 할인권',
-  titleKeywords: { k1: '영화할인권', k2: '6000원', k3: 'CGV 롯데시네마 메가박스', k4: '2차 배포' },
+  title: '영화지원금 2차 신청방법, CGV 롯데시네마 메가박스 사용법',
+  titleKeywords: { k1: '영화지원금 방법', k2: '영화할인권 2차', k3: 'CGV 롯데시네마 메가박스 씨네Q', k4: '6000원' },
   slug: 'movie-discount-voucher', org: '문화체육관광부', cat: '생활정보', catSlug: 'service',
   amount: '1인당 2매, 영화표 결제 시 6,000원 할인', views: 0,
   deadline: '2026.7.8(수) 오전 10시부터 배포, 영화관 보유 수량 소진 시 종료',
