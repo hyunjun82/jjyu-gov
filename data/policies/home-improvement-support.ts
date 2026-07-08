@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const homeImprovementSupportPolicy: PolicyData = {
   slug: 'home-improvement-support',
   type: 'service',
-  title: '주거급여 수선유지급여, 경보수·중보수·대보수 최대 1,601만원',
+  title: '주거급여 수선유지급여 신청자격과 임차급여 중복여부, 최대 1,601만원',
   org: '국토교통부 (LH 시행)',
   catSlug: 'welfare',
   amount: '최대 1,601만원 (대보수 기준)',

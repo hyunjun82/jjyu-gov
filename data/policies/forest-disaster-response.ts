@@ -5,7 +5,7 @@ export const forestDisasterResponsePolicy: PolicyData = {
   slug: 'forest-disaster-response',
   type: 'service',
   catSlug: 'welfare',
-  title: '산림재난대응단 월 180~250만원 위험수당, 자격요건과 신청방법',
+  title: '산림재난대응단 자격요건과 신청방법, 위험수당 지급까지',
   org: '산림청',
   amount: '월 180~250만원 (위험수당 포함)',
   deadline: '연 1회 모집 (1~2월)',

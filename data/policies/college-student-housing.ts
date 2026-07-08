@@ -4,7 +4,7 @@ export const collegeStudentHousingPolicy: PolicyData = {
   id: 'college-student-housing',
   slug: 'college-student-housing',
   type: 'service',
-  title: '대학생 주거지원',
+  title: '대학생 주거지원 행복주택 입주자격, 청년전세임대 신청방법',
   cat: '청년',
   catSlug: 'youth',
   org: '국토교통부 · 한국토지주택공사(LH)',

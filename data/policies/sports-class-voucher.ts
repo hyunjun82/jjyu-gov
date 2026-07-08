@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const sportsClassVoucherPolicy: PolicyData = {
   slug: 'sports-class-voucher',
   type: 'service',
-  title: '스포츠강좌이용권 월 최대 10만5천원, 5~18세 대상·소득기준',
+  title: '스포츠강좌이용권 지원대상과 사용법, 장애인이용권은 뭐가 다른가요?',
   org: '문화체육관광부',
   catSlug: 'welfare',
   amount: '월 최대 10만 5,000원',

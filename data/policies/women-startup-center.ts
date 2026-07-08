@@ -1,7 +1,7 @@
 /* 여성창업보육센터 (2026) - 여성가족부 / 여성기업종합지원센터 */
 export const womenStartupCenterPolicy = {
   id: '112', type: 'service' as const,
-  title: '여성창업보육센터 사무공간 최장 20년, 저렴임대료·컨설팅 지원',
+  title: '여성창업보육센터 다른 창업지원과 중복될까? 임대료·연장기간',
   titleKeywords: { k1: '여성창업보육', k2: '여성창업', k3: '사무공간', k4: '여성가족부' },
   slug: 'women-startup-center', org: '여성가족부', cat: '창업', catSlug: 'service',
   amount: '전용 10평 내외 사무공간·저렴한 임대료 (최대 20년)',

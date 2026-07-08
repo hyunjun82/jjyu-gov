@@ -1,7 +1,7 @@
 /* 보금자리론 (주택구입자금, 2026) - 금융위원회·한국주택금융공사 */
 export const bogeumjariLoanPolicy = {
   id: '176', type: 'loan' as const,
-  title: '2026 보금자리론',
+  title: '보금자리론 신청자격과 디딤돌대출 차이, 우대금리 받는 법',
   titleKeywords: { k1: '보금자리론', k2: '주택구입', k3: '소득 7천만', k4: '고정금리' },
   slug: 'bogeumjari-loan', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '한도 3.6억 / 금리 연 4.6~4.9%(우대 최저 3.6%)',

@@ -4,7 +4,7 @@ export const middleAgedCareerSupportPolicy: PolicyData = {
   id: 'middle-aged-career-support',
   slug: 'middle-aged-career-support',
   type: 'service',
-  title: '중장년 경력지원제 참여수당 월 150만원, 50대 일경험 신청자격',
+  title: '중장년 경력지원제 신청자격과 참여기업 조건, 참여수당 월 150만원',
   cat: '복지',
   catSlug: 'welfare',
   org: '고용노동부 / 중장년내일센터',

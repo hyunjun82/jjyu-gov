@@ -1,7 +1,7 @@
 /* 지역사랑상품권 (2026) - 행정안전부 */
 export const localGiftCardPolicy = {
   id: '24', type: 'cash' as const,
-  title: '지역사랑상품권 할인율 7~20%, 착Chak 앱 구매·사용처 총정리',
+  title: '지역사랑상품권 구매방법과 사용처, 할인율과 환불여부까지',
   titleKeywords: { k1: '지역사랑상품권', k2: '할인', k3: '골목상권', k4: '행정안전부' },
   slug: 'local-gift-card', org: '행정안전부', cat: '지원금', catSlug: 'fund',
   amount: '최대 15% 할인 (특별재난지역 20%)',

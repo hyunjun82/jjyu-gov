@@ -5,7 +5,7 @@
 
 export const basicPensionPolicy = {
   id: '2',
-  title: '2026 기초연금',
+  title: '기초연금 월 34만9700원, 소득인정액 기준과 국민연금 감액 여부',
   slug: 'basic-pension',
   org: '보건복지부',
   cat: '지원금',

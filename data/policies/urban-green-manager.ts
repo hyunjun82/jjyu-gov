@@ -5,7 +5,7 @@ export const urbanGreenManagerPolicy: PolicyData = {
   slug: 'urban-green-manager',
   type: 'service',
   catSlug: 'welfare',
-  title: '도시녹지관리원 공공일자리 월 180~220만원, 자격요건과 신청방법',
+  title: '도시녹지관리원 공공일자리 신청자격, 계절마다 업무가 달라지나요?',
   org: '산림청 / 지방자치단체',
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1~2회 모집',

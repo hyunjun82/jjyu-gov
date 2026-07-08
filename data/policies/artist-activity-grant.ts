@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const artistActivityGrantPolicy: PolicyData = {
   slug: 'artist-activity-grant',
   type: 'cash',
-  title: '예술활동준비금 300만원 신청자격과 사용처, 예술활동증명부터 신청까지',
+  title: '예술활동준비금 신청자격과 예술활동증명 방법, 300만원 사용처',
   org: '문화체육관광부 (예술위 시행)',
   catSlug: 'fund',
   amount: '1인 300만원',

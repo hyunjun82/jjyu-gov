@@ -1,7 +1,7 @@
 /* 숨은보험금 (2026) - 환급금 / 금융위원회·생명보험협회·손해보험협회 */
 export const hiddenInsuranceMoneyPolicy = {
   id: '216', type: 'refund' as const,
-  title: '숨은보험금 조회',
+  title: '숨은보험금 조회 방법과 종류별 차이, 소멸시효까지 정리',
   titleKeywords: { k1: '숨은보험금', k2: '내보험찾아줌', k3: '조회방법', k4: '소멸시효' },
   slug: 'hidden-insurance-money', org: '금융위원회', cat: '환급금', catSlug: 'refund',
   amount: '2026년 10조 3,000억원 규모 안내 예정 (2025년 3조 2,470억원·80만 건 환급)',

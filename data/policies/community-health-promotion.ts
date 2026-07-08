@@ -5,7 +5,7 @@ export const communityHealthPromotionPolicy: PolicyData = {
   slug: 'community-health-promotion',
   type: 'service',
   catSlug: 'welfare',
-  title: '보건소 건강검진·금연클리닉 무료 이용, 지역사회 건강증진사업 신청방법',
+  title: '지역사회 건강증진사업 보건소 건강검진·금연클리닉, 이용방법까지',
   org: '보건복지부 / 지역 보건소',
   amount: '무료 (건강 서비스 제공)',
   deadline: '상시',

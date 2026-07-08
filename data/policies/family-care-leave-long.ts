@@ -1,7 +1,7 @@
 /* 가족돌봄휴직 (2026) - 고용노동부 */
 export const familyCareLeaveLongPolicy = {
   id: '70', type: 'service' as const,
-  title: '가족돌봄휴직 90일, 가족돌봄휴가와 차이·사업주 거부 기준',
+  title: '가족돌봄휴직 신청조건과 가족돌봄휴가 차이, 90일 급여까지',
   titleKeywords: { k1: '가족돌봄휴직', k2: '90일', k3: '장기', k4: '고용노동부' },
   slug: 'family-care-leave-long', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '최대 90일 가족돌봄휴가', deadline: '연중', views: 0,

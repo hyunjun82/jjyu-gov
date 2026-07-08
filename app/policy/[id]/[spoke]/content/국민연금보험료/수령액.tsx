@@ -4,7 +4,7 @@ const NPS = 'https://www.nps.or.kr';
 const EASYLAW = 'https://www.easylaw.go.kr';
 
 export const 국민연금보험료수령액SpokeContent: SpokeData = {
-  h1: '국민연금 수령액, 가입기간·소득으로 결정 예상조회',
+  h1: '국민연금 예상수령액, 조회부터 연기·추납·크레딧으로 더 받는법',
   breadcrumb: '예상 수령액',
   description: '국민연금 노령연금 수령액은 가입기간이 길수록, 가입 중 소득이 높을수록 많아집니다. 전체 가입자 평균소득(A값)과 본인 소득·가입기간으로 산정되며, 2026년 적용 A값은 월 3,193,511원입니다. 정확한 예상액은 "내 연금 알아보기"에서 조회합니다.',
   datePublished: '2026-06-28T09:00:00+09:00',

@@ -1,7 +1,7 @@
 /* 자녀출산 무주택가구 주거비 지원 (2026 하반기) - 지원금 / 서울특별시·서울시여성가족재단 */
 export const seoulChildbirthHousingSupportPolicy = {
   id: '218', type: 'cash' as const,
-  title: '서울시 자녀출산 무주택가구 주거비 지원',
+  title: '서울시 출산 무주택가구 주거비 지원 조건과 신청방법',
   titleKeywords: { k1: '출산 주거비', k2: '무주택가구', k3: '최대 720만원', k4: '2026 하반기' },
   slug: 'seoul-childbirth-housing-support', org: '서울특별시', cat: '지원금', catSlug: 'fund',
   amount: '월 최대 30만원, 2년간 최대 720만원',

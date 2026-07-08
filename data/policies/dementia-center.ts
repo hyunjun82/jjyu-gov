@@ -1,7 +1,7 @@
 /* 치매안심센터 (2026) - 보건복지부 / 중앙치매센터 */
 export const dementiaCenterPolicy = {
   id: '103', type: 'service' as const,
-  title: '2026 치매안심센터',
+  title: '치매안심센터 치매검진·인지강화교실 신청방법과 이용대상',
   titleKeywords: { k1: '치매안심센터', k2: '치매검진', k3: '인지강화', k4: '보건복지부' },
   slug: 'dementia-center', org: '보건복지부', cat: '건강', catSlug: 'service',
   amount: '치매조기검진·등록관리·인지강화교실 무상',
