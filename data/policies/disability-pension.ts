@@ -1,7 +1,7 @@
 /* 장애인연금 (2026) - 보건복지부 */
 export const disabilityPensionPolicy = {
   id: '34', type: 'cash' as const,
-  title: '2026 장애인연금',
+  title: '장애인연금 신청자격과 장애수당 차이, 기초연금 중복여부',
   titleKeywords: { k1: '장애인연금', k2: '중증장애', k3: '기초급여', k4: '부가급여' },
   slug: 'disability-pension', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '월 최대 43만 9,700원 (기초 34만 9,700 + 부가 9만)',

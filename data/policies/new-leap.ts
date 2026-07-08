@@ -6,7 +6,7 @@
 export const newleapPolicy = {
   id: '6',
   type: 'cash' as const,
-  title: '2026 새도약기금',
+  title: '새도약기금 대상자격과 상환능력 심사, 5천만원 초과 채무는',
   slug: 'new-leap',
   org: '금융위원회·한국자산관리공사(캠코)',
   cat: '지원금',

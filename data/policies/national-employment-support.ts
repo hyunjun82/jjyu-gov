@@ -4,7 +4,7 @@ export const nationalEmploymentSupportPolicy: PolicyData = {
   id: 'national-employment-support',
   slug: 'national-employment-support',
   type: 'service',
-  title: '국민취업지원제도',
+  title: '국민취업지원제도 1유형 2유형 차이, 구직촉진수당 신청방법',
   cat: '복지',
   catSlug: 'welfare',
   org: '고용노동부',

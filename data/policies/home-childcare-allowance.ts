@@ -1,7 +1,7 @@
 /* 가정양육수당 (2026) - 보건복지부 */
 export const homeChildcareAllowancePolicy = {
   id: '108', type: 'cash' as const,
-  title: '2026 가정양육수당',
+  title: '가정양육수당 부모급여와 차이, 어린이집 가면 어떻게 되나요?',
   titleKeywords: { k1: '가정양육수당', k2: '양육수당', k3: '어린이집미이용', k4: '보건복지부' },
   slug: 'home-childcare-allowance', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '월 10만원 (24~86개월 미만, 어린이집·유치원 미이용 아동)',

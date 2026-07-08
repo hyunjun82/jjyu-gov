@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const homeEquityPensionPolicy: PolicyData = {
   slug: 'home-equity-pension',
   type: 'service',
-  title: '주택연금',
+  title: '주택연금 가입조건과 지급방식, 세금혜택은 어떻게 되나요?',
   org: '한국주택금융공사',
   catSlug: 'welfare',
   amount: '월 최대 수백만원 (주택가격·연령별 상이)',

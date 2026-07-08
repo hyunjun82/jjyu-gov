@@ -1,7 +1,7 @@
 /* 근로장려금·자녀장려금 2026 (2025년 귀속) - 국세청 */
 export const earnedIncomeTaxCreditPolicy = {
   id: '129', type: 'cash' as const,
-  title: '2026 근로장려금·자녀장려금',
+  title: '근로장려금 반기신청과 재산기준, 자녀장려금은 따로 신청하나요?',
   titleKeywords: { k1: '근로장려금', k2: '자녀장려금', k3: 'EITC', k4: '국세청' },
   slug: 'earned-income-tax-credit', org: '국세청', cat: '지원금', catSlug: 'fund',
   amount: '단독 165만·홑벌이 285만·맞벌이 330만원',

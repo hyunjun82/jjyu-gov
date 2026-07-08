@@ -10,7 +10,7 @@
 export const youthFutureSavingsPolicy = {
   id: '1',
   type: 'savings' as const,
-  title: '2026 청년미래적금',
+  title: '청년미래적금 정부매칭과 가입조건, 3년 만기 수령액까지',
   titleKeywords: {
       "k1": "청년미래적금"
   },

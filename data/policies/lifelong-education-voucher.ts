@@ -3,7 +3,7 @@ import type { PolicyData, SpokeData } from '../../lib/policy-types';
 export const lifelongEducationVoucherPolicy: PolicyData = {
   id: '154',
   type: 'service',
-  title: '2026 평생교육이용권',
+  title: '평생교육이용권 유형별 신청자격과 지원금액, 수강 가능한 강좌',
   cat: '복지',
   catSlug: 'welfare',
   org: '교육부 / 국가평생교육진흥원',

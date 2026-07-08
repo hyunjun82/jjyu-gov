@@ -1,7 +1,7 @@
 /* 장애아동수당 (2026) - 보건복지부 */
 export const disabilityChildAllowancePolicy = {
   id: '39', type: 'cash' as const,
-  title: '2026 장애아동수당',
+  title: '장애아동수당 신청자격과 아동수당 중복여부, 18세 되면 어떻게',
   titleKeywords: { k1: '장애아동', k2: '수당', k3: '아동', k4: '보건복지부' },
   slug: 'disability-child-allowance', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '월 11만~22만원 (중증·경증·소득별)',

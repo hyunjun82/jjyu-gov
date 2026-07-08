@@ -1,7 +1,7 @@
 /* 차상위계층 (2026) - 보건복지부 */
 export const nearPoorPolicy = {
   id: '162', type: 'service' as const,
-  title: '2026 차상위계층',
+  title: '차상위계층 기초생활수급자와 차이, 소득기준과 혜택 종류',
   titleKeywords: { k1: '차상위계층', k2: '중위소득 50%', k3: '확인서', k4: '혜택' },
   slug: 'near-poor', org: '보건복지부', cat: '복지', catSlug: 'welfare',
   amount: '소득인정액 중위소득 50% 이하 (4인 3,247,369원)',

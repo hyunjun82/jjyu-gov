@@ -3,7 +3,7 @@ import { PolicyData, SpokeData } from '../../lib/policy-types';
 export const nationalWorkScholarshipPolicy: PolicyData = {
   id: '152',
   type: 'service',
-  title: '2026 국가근로장학금',
+  title: '국가근로장학금 교내근로 교외근로 차이, 신청자격과 지급금액',
   cat: '청년',
   catSlug: 'youth',
   org: '교육부 / 한국장학재단',

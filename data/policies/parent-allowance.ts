@@ -8,7 +8,7 @@
 export const parentAllowancePolicy = {
   id: '3',
   type: 'cash' as const,
-  title: '2026 부모급여',
+  title: '부모급여 지급일과 신청방법, 어린이집 이용하면 어떻게 되나요?',
   titleKeywords: {
       "k1": "부모급여"
   },

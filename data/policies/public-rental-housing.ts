@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const publicRentalHousingPolicy: PolicyData = {
   slug: 'public-rental-housing',
   type: 'service',
-  title: '공공임대주택',
+  title: '공공임대주택 유형별 신청자격과 임차료, 공공분양과 차이',
   org: '국토교통부 (LH·SH 등 시행)',
   catSlug: 'welfare',
   amount: '시세 30~80% 임차료',

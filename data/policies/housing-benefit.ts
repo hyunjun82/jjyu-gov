@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const housingBenefitPolicy: PolicyData = {
   slug: 'housing-benefit',
   type: 'service',
-  title: '주거급여',
+  title: '주거급여 신청자격과 임차·자가가구 지원, 다른 급여 중복여부',
   org: '국토교통부 (한국토지주택공사 시행)',
   catSlug: 'welfare',
   amount: '최대 월 69만 9,000원 (서울 6인 기준)',

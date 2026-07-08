@@ -3,7 +3,7 @@ import { PolicyData, SpokeData } from '../../lib/policy-types';
 export const educationBenefitPolicy: PolicyData = {
   id: '153',
   type: 'service',
-  title: '2026 교육급여',
+  title: '교육급여 신청방법과 교육비 지원 차이, 바우처 받는 법',
   cat: '복지',
   catSlug: 'welfare',
   org: '교육부 / 보건복지부',

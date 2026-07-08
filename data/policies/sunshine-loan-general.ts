@@ -1,7 +1,7 @@
 /* 햇살론일반 (2026 개편, 생활안정자금) - 금융위원회·서민금융진흥원 */
 export const sunshineLoanGeneralPolicy = {
   id: '178', type: 'loan' as const,
-  title: '2026 햇살론일반',
+  title: '햇살론일반 신청자격과 상환방법, 보증료 인하 받는 법',
   titleKeywords: { k1: '햇살론', k2: '근로자 자영업자', k3: '한도 1500만', k4: '금리 연 10%' },
   slug: 'sunshine-loan-general', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '한도 최대 1,500만원 / 금리 연 10% 이내',

@@ -1,7 +1,7 @@
 /* 국민행복카드 (2026) - 보건복지부 / 국민건강보험공단 */
 export const nationalHappinessCardPolicy = {
   id: '109', type: 'cash' as const,
-  title: '2026 국민행복카드',
+  title: '국민행복카드 발급방법과 사용처, 카드사별 혜택 차이',
   titleKeywords: { k1: '국민행복카드', k2: '임신출산진료비', k3: '바우처', k4: '보건복지부' },
   slug: 'national-happiness-card', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '단태아 100만원·다태아 140만원 (임신·출산 진료비)',

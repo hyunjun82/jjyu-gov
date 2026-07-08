@@ -1,7 +1,7 @@
 /* 고용촉진장려금 (2026) - 고용노동부 */
 export const employmentPromotionPolicy = {
   id: '42', type: 'cash' as const,
-  title: '2026 고용촉진장려금',
+  title: '고용촉진장려금 지원대상과 근로조건, 다른 장려금 중복여부',
   titleKeywords: { k1: '고용촉진', k2: '장려금', k3: '취업', k4: '고용노동부' },
   slug: 'employment-promotion', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '근로자 1인당 최대 720만원 (1년)',

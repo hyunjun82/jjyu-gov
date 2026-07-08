@@ -1,7 +1,7 @@
 /* 청년내일저축계좌 2026 - 보건복지부 */
 export const youthTomorrowSavingsPolicy = {
   id: '130', type: 'savings' as const,
-  title: '2026 청년내일저축계좌',
+  title: '청년내일저축계좌 신청자격과 만기유지 조건, 중도해지하면',
   titleKeywords: { k1: '청년내일저축계좌', k2: '저소득청년', k3: '정부매칭30만원', k4: '자산형성' },
   slug: 'youth-tomorrow-savings', org: '보건복지부', cat: '저축', catSlug: 'savings',
   amount: '정부 월 30만원 매칭 (3년 만기 총 1,080만원 + 본인 적립금)',

@@ -1,7 +1,7 @@
 /* 창업사업화지원 (2026) - 중소벤처기업부 */
 export const startupSupportPolicy = {
   id: '25', type: 'cash' as const,
-  title: '2026 창업사업화지원',
+  title: '창업사업화지원 신청자격과 딥테크 특화, TIPS 중복여부까지',
   titleKeywords: { k1: '창업', k2: '창업패키지', k3: '사업화', k4: '중소벤처기업부' },
   slug: 'startup-support', org: '중소벤처기업부', cat: '지원금', catSlug: 'fund',
   amount: '예비 5천만원·초기 1억원·도3억원',

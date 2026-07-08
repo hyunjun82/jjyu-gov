@@ -1,7 +1,7 @@
 /* 드림장학금 (2026) - 교육부 */
 export const dreamScholarshipPolicy = {
   id: '74', type: 'service' as const,
-  title: '2026 드림장학금',
+  title: '드림장학금 꿈사다리와 차이, 해외유학과 국내진학 신청조건',
   titleKeywords: { k1: '드림장학금', k2: '우수고교생', k3: '해외유학', k4: '교육부' },
   slug: 'dream-scholarship', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '해외 유학·국내 명문대 장학금 지원', deadline: '연중', views: 0,

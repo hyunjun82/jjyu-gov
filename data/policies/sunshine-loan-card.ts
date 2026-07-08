@@ -1,7 +1,7 @@
 /* 햇살론카드 (저신용자 신용카드 발급 지원, 2026) - 금융위원회·서민금융진흥원 */
 export const sunshineLoanCardPolicy = {
   id: '180', type: 'loan' as const,
-  title: '2026 햇살론카드',
+  title: '햇살론카드 발급 자격과 한도, 필수교육은 왜 받아야 하나요?',
   titleKeywords: { k1: '햇살론카드', k2: '저신용 신용카드', k3: '보증 200만', k4: '필수교육' },
   slug: 'sunshine-loan-card', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '보증 신규 200만원·성실이용 시 최대 300만원',

@@ -4,7 +4,7 @@ export const jobSeekerBenefitPolicy: PolicyData = {
   id: 'job-seeker-benefit',
   slug: 'job-seeker-benefit',
   type: 'training',
-  title: '2026 구직급여(실업급여)',
+  title: '구직급여(실업급여) 수급자격과 신청방법, 비자발적 이직 인정기준',
   cat: '지원금',
   catSlug: 'fund',
   org: '고용노동부',

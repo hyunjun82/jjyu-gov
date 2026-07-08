@@ -1,7 +1,7 @@
 /* 장애수당 (2026) - 보건복지부 */
 export const disabilityAllowancePolicy = {
   id: '33', type: 'cash' as const,
-  title: '2026 장애수당',
+  title: '장애수당 신청자격과 장애아동수당 차이, 다른 복지 중복여부',
   titleKeywords: { k1: '장애수당', k2: '경증장애', k3: '복지', k4: '보건복지부' },
   slug: 'disability-allowance', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '성인 월 6만원, 18세 미만 최대 월 22만원',

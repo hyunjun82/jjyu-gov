@@ -1,7 +1,7 @@
 /* 산재보험 (산업재해보상보험, 2026) - 고용노동부·근로복지공단 */
 export const industrialAccidentInsurancePolicy = {
   id: '166', type: 'cash' as const,
-  title: '2026 산재보험(산업재해보상보험)',
+  title: '산재보험 업무상 재해 인정범위와 휴업급여, 후유장해 보상까지',
   titleKeywords: { k1: '산재보험', k2: '업무상 재해', k3: '휴업급여', k4: '근로복지공단' },
   slug: 'industrial-accident-insurance', org: '고용노동부', cat: '복지', catSlug: 'welfare',
   amount: '요양급여·휴업급여(평균임금 70%)·장해·유족급여 등',

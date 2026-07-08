@@ -4,7 +4,7 @@ export const employmentIncentiveAllowancePolicy: PolicyData = {
   id: 'employment-incentive-allowance',
   slug: 'employment-incentive-allowance',
   type: 'cash',
-  title: '취업촉진수당',
+  title: '취업촉진수당 조기재취업수당 요건과 직업능력개발수당 신청방법',
   cat: '지원금',
   catSlug: 'fund',
   org: '고용노동부',

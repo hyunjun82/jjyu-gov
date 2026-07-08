@@ -7,7 +7,7 @@ export const illegalLoanPreventionPolicy: PolicyData = {
   cat: '대출',
   catSlug: 'loan',
   org: '서민금융진흥원 (금융위원회 산하)',
-  title: '2026 불법사금융예방대출',
+  title: '불법사금융예방대출 신청자격과 완제자 인센티브, 금리는 얼마',
   summary:
     '대부업조차 이용이 어려운 신용평점 하위 20% 저소득층이 불법 사채를 쓰지 않도록 최대 100만 원을 저금리로 빌려주는 정책서민금융 대출 상품',
   datePublished: '2026-01-01T09:00:00+09:00',

@@ -1,7 +1,7 @@
 /* 가족돌봄휴가 (2026) - 고용노동부 */
 export const familyCareLeavePolicy = {
   id: '66', type: 'service' as const,
-  title: '2026 가족돌봄휴가',
+  title: '가족돌봄휴가 신청조건과 돌봄대상, 가족돌봄휴직과 차이까지',
   titleKeywords: { k1: '가족돌봄', k2: '휴가', k3: '근로자', k4: '고용노동부' },
   slug: 'family-care-leave', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '연 10일 휴가 (일부 무급, 정부 지원 일부)',

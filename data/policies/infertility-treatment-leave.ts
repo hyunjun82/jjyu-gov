@@ -1,7 +1,7 @@
 /* 난임치료휴가급여 (2026) - 고용노동부 */
 export const infertilityTreatmentLeavePolicy = {
   id: '123', type: 'cash' as const,
-  title: '2026 난임치료휴가급여',
+  title: '난임치료휴가 유급 2일 무급 4일, 분할사용과 신청방법',
   titleKeywords: { k1: '난임치료휴가', k2: '난임휴가', k3: '인공수정', k4: '고용노동부' },
   slug: 'infertility-treatment-leave', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '연 6일 (최초 2일 유급, 1일 상한 84,210원)',

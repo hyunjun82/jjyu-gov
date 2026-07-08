@@ -8,7 +8,7 @@
 export const leapLoanPolicy = {
   id: '11',
   type: 'loan' as const,
-  title: '2026 새도약론',
+  title: '새도약론 대출한도와 새도약기금 차이, 특별채무조정까지',
   titleKeywords: {
     k1: '새도약론',
     k2: '채무조정',

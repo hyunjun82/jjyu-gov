@@ -3,7 +3,7 @@ import type { PolicyData, SpokeData } from '../../lib/policy-types';
 export const youthJobLeapIncentivePolicy: PolicyData = {
   id: '157',
   type: 'service',
-  title: '2026 청년일자리도약장려금',
+  title: '청년일자리도약장려금 기업 신청자격과 청년 대상요건, 지원금액',
   cat: '청년',
   catSlug: 'youth',
   org: '고용노동부',

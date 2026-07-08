@@ -1,7 +1,7 @@
 /* 의료급여 (2026) - 보건복지부 기초의료보장 */
 export const medicalBenefitPolicy = {
   id: '161', type: 'service' as const,
-  title: '2026 의료급여',
+  title: '의료급여 1종 2종 차이와 본인부담금, 건강생활유지비까지',
   titleKeywords: { k1: '의료급여', k2: '1종 2종', k3: '본인부담금', k4: '중위소득 40%' },
   slug: 'medical-benefit', org: '보건복지부', cat: '의료', catSlug: 'medical',
   amount: '1종 입원 무료·외래 1,000~2,000원 / 2종 입원 10%',

@@ -4,7 +4,7 @@ export const workerVacationSupportPolicy: PolicyData = {
   id: 'worker-vacation-support',
   slug: 'worker-vacation-support',
   type: 'service',
-  title: '근로자휴가지원사업',
+  title: '근로자휴가지원사업 신청자격과 포인트 사용처, 지급방식까지',
   cat: '복지',
   catSlug: 'welfare',
   org: '문화체육관광부 · 한국관광공사',

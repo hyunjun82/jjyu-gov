@@ -1,7 +1,7 @@
 /* 긴급복지지원 (2026) - 보건복지부 */
 export const emergencyWelfareSupportPolicy = {
   id: '163', type: 'cash' as const,
-  title: '2026 긴급복지지원',
+  title: '긴급복지지원 위기사유와 소득재산 기준, 기초생활수급과 차이',
   titleKeywords: { k1: '긴급복지', k2: '생계지원', k3: '위기가구', k4: '선지원 후심사' },
   slug: 'emergency-welfare-support', org: '보건복지부', cat: '복지', catSlug: 'welfare',
   amount: '생계 4인 월 1,994,600원 · 의료 최대 300만원',

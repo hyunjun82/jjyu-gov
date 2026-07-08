@@ -3,7 +3,7 @@ const YOOS = 'https://www.kinfa.or.kr/financialProduct/hessalLoanYoos.do';
 const KINFA = 'https://www.kinfa.or.kr';
 export const sunshineYouthLoanPolicy = {
   id: '86', type: 'loan' as const,
-  title: '2026 햇살론유스',
+  title: '햇살론유스 신청자격과 거치·상환기간, 특정용도자금이란',
   titleKeywords: { k1: '햇살론유스', k2: '청년 대출', k3: '한도 1200만', k4: '대학생 미취업' },
   slug: 'sunshine-youth-loan', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '동일인 최대 1,200만원 / 적용금리 연 5.0%(배려 1.9%)',

@@ -4,7 +4,7 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
   id: 'self-employed-employment-insurance',
   slug: 'self-employed-employment-insurance',
   type: 'cash',
-  title: '자영업자 고용보험',
+  title: '자영업자 고용보험 등급별 보험료와 구직급여, 폐업사유 인정기준',
   cat: '지원금',
   catSlug: 'fund',
   org: '고용노동부',

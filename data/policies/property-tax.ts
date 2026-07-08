@@ -1,7 +1,7 @@
 /* 재산세 (2026) - 지방세 / 행정안전부·지자체 */
 export const propertyTaxPolicy = {
   id: '159', type: 'tax' as const,
-  title: '2026 재산세',
+  title: '재산세 과세기준일과 1세대1주택 특례, 조회납부 방법까지',
   titleKeywords: { k1: '재산세', k2: '납부기간', k3: '위택스', k4: '1세대1주택 특례' },
   slug: 'property-tax', org: '행정안전부', cat: '세금', catSlug: 'tax',
   amount: '주택 표준세율 0.1~0.4% (1세대1주택 특례 −0.05%p)',

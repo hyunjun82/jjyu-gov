@@ -1,7 +1,7 @@
 /* 영유아보육료 (2026) - 보건복지부 */
 export const infantChildcareFeePolicy = {
   id: '77', type: 'cash' as const,
-  title: '2026 영유아보육료',
+  title: '영유아보육료 본인부담과 가정양육수당 차이, 누리과정까지',
   titleKeywords: { k1: '영유아', k2: '보육료', k3: '어린이집', k4: '보건복지부' },
   slug: 'infant-childcare-fee', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '연령별 월 30~50만원 정부 지원',

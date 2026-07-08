@@ -1,7 +1,7 @@
 /* 주거안정장학금 (2026) - 한국장학재단 */
 export const housingScholarPolicy = {
   id: '90', type: 'cash' as const,
-  title: '2026 주거안정장학금',
+  title: '주거안정장학금 신청자격과 거주 증빙, 국가장학금 중복여부',
   titleKeywords: { k1: '주거안정', k2: '장학금', k3: '대학생', k4: '한국장학재단' },
   slug: 'housing-scholar', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '월 최대 20만원 · 연 최대 240만원',

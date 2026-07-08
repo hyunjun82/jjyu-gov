@@ -7,7 +7,7 @@ export const seominFinancialCenterPolicy: PolicyData = {
   cat: '복지',
   catSlug: 'welfare',
   org: '서민금융진흥원 (금융위원회 산하)',
-  title: '2026 서민금융통합지원센터',
+  title: '서민금융통합지원센터 이용자격과 채무조정, 연계 금융상품까지',
   summary:
     '저소득·저신용자, 채무 문제로 어려운 분들이 자금지원·채무조정·고용·복지 상담을 한 장소에서 한 번에 받을 수 있는 서민금융 원스톱 서비스 센터',
   datePublished: '2026-01-01T09:00:00+09:00',

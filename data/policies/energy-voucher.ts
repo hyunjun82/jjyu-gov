@@ -7,7 +7,7 @@ export const energyVoucherPolicy: PolicyData = {
   cat: '복지',
   catSlug: 'welfare',
   org: '한국에너지공단 (보건복지부 위탁)',
-  title: '2026 에너지바우처',
+  title: '에너지바우처 신청방법과 사용처, 전기요금 복지할인 중복여부',
   summary:
     '기초생활수급 가구 중 노인·영유아·장애인 등 에너지 취약계층에게 전기·도시가스·등유·LPG·연탄을 구입할 수 있는 에너지이용권(바우처)을 지급하는 제도',
   datePublished: '2026-01-01T09:00:00+09:00',

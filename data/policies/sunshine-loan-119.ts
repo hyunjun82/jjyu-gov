@@ -1,7 +1,7 @@
 /* 햇살론119 (채무조정 개인사업자 운영자금, 2026) - 금융위원회·서민금융진흥원 */
 export const sunshineLoan119Policy = {
   id: '181', type: 'loan' as const,
-  title: '2026 햇살론119',
+  title: '햇살론119 신청자격과 금리·보증료, 다른 햇살론과 차이',
   titleKeywords: { k1: '햇살론119', k2: '개인사업자 채무조정', k3: '한도 2000만', k4: '운영자금' },
   slug: 'sunshine-loan-119', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '한도 최대 2,000만원 / 금리 연 6~7% 수준',

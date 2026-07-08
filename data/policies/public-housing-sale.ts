@@ -3,7 +3,7 @@ import type { PolicyData, SpokeList } from '@/lib/policy-types';
 export const publicHousingSalePolicy: PolicyData = {
   slug: 'public-housing-sale',
   type: 'loan',
-  title: '공공분양주택',
+  title: '공공분양주택 청약자격과 특별공급 유형, 당첨자 선정방식',
   org: '국토교통부 (LH·SH 등 시행)',
   catSlug: 'loan',
   amount: '시세 대비 70~80% 수준 분양가',

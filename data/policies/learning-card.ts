@@ -3,7 +3,7 @@
 export const learningcardPolicy = {
   id: '5',
   type: 'training' as const,
-  title: '2026 국민내일배움카드',
+  title: '국민내일배움카드 신청자격과 자기부담금, 수강 가능한 훈련과정',
   titleKeywords: {
       "k1": "국민내일배움카드"
   },
