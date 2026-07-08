@@ -112,6 +112,10 @@ import { kPassWhatIsModuSpokeContent } from '@/app/policy/[id]/[spoke]/content/k
 import { kPassGeneralPlusSpokeContent } from '@/app/policy/[id]/[spoke]/content/k-pass-modu-card/general-vs-plus-type';
 import { kPassRefundRateSpokeContent } from '@/app/policy/[id]/[spoke]/content/k-pass-modu-card/refund-rate-by-target';
 import { kPassTemporaryBoostSpokeContent } from '@/app/policy/[id]/[spoke]/content/k-pass-modu-card/temporary-boost-2026';
+import { seoulHousingEligibilitySpokeContent } from '@/app/policy/[id]/[spoke]/content/seoul-childbirth-housing-support/eligibility-requirements';
+import { seoulHousingAmountPaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/seoul-childbirth-housing-support/amount-payment-method';
+import { seoulHousingHowToApplySpokeContent } from '@/app/policy/[id]/[spoke]/content/seoul-childbirth-housing-support/how-to-apply';
+import { seoulHousingExtensionOverlapSpokeContent } from '@/app/policy/[id]/[spoke]/content/seoul-childbirth-housing-support/extension-and-overlap';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -2443,6 +2447,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'general-vs-plus-type': kPassGeneralPlusSpokeContent,
     'refund-rate-by-target': kPassRefundRateSpokeContent,
     'temporary-boost-2026': kPassTemporaryBoostSpokeContent,
+  },
+
+  'seoul-childbirth-housing-support': {
+    'eligibility-requirements': seoulHousingEligibilitySpokeContent,
+    'amount-payment-method': seoulHousingAmountPaymentSpokeContent,
+    'how-to-apply': seoulHousingHowToApplySpokeContent,
+    'extension-and-overlap': seoulHousingExtensionOverlapSpokeContent,
   },
 
 };
