@@ -3,7 +3,7 @@ const KEPCO = 'https://online.kepco.co.kr/MIM021D00';
 const GOV = 'https://www.gov.kr/portal/service/serviceInfo/174100000049';
 export const electricWelfareDiscountPolicy = {
   id: '188', type: 'cash' as const,
-  title: '2026 전기요금 복지할인',
+  title: '전기요금 복지할인 대상과 여름철 추가할인, 에너지바우처 중복여부',
   titleKeywords: { k1: '전기요금 복지할인', k2: '전기요금 감면 대상', k3: '여름 2만원', k4: '한전 할인 신청' },
   slug: 'electric-welfare-discount', org: '한국전력공사', cat: '복지', catSlug: 'welfare',
   amount: '월 8,000~16,000원(여름 7~9월 최대 20,000원) 정액 또는 30% 할인',

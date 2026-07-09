@@ -3,7 +3,7 @@ import type { PolicyData, SpokeData } from '../../lib/policy-types';
 export const infantDevelopmentalCheckupPolicy: PolicyData = {
   id: '147',
   type: 'service',
-  title: '2026 영유아 발달 정밀검사비 지원',
+  title: '영유아 발달정밀검사비 지원대상과 신청기한, 검사비 받는 방법',
   cat: '복지',
   catSlug: 'welfare',
   org: '보건복지부',

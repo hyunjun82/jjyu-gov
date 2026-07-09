@@ -1,7 +1,7 @@
 /* 농지이양 은퇴 직불사업 (2026) - 농림축산식품부 / 한국농어촌공사 */
 export const farmlandRetirementPaymentPolicy = {
   id: '106', type: 'cash' as const,
-  title: '2026 농지이양 은퇴 직불사업',
+  title: '농지이양 은퇴직불금 매도·임대 차이와 지급상한, 2026 달라진 점',
   titleKeywords: { k1: '농지이양', k2: '은퇴직불', k3: '농업인은퇴', k4: '농어촌공사' },
   slug: 'farmland-retirement-payment', org: '농림축산식품부', cat: '지원금', catSlug: 'fund',
   amount: '매도 1ha당 월 50만원·임대 1ha당 월 40만원 (최장 10년)',

@@ -1,7 +1,7 @@
 /* 노인 일자리 및 사회활동 지원 (2026) - 보건복지부 */
 export const elderlyJobPolicy = {
   id: '22', type: 'cash' as const,
-  title: '2026 노인 일자리 및 사회활동 지원',
+  title: '노인일자리 신청자격과 기초연금 중복여부, 활동 중 다치면?',
   titleKeywords: { k1: '노인일자리', k2: '사회활동', k3: '베이비붐', k4: '보건복지부' },
   slug: 'elderly-job', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '공익활동 월 29만원~사회서비스형 월 76만원 (유형별)',

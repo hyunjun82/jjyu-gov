@@ -9,7 +9,7 @@
 export const fuelSupportPolicy = {
   id: '7',
   type: 'cash' as const,
-  title: '2026 고유가 피해지원금',
+  title: '고유가 피해지원금 우대·특별지원지역과 신청방법, 거동불편하면',
   titleKeywords: { k1: '고유가 피해지원금', k2: '지급금액', k3: '신청기간', k4: '거주지역' },
   slug: 'fuel-support',
   org: '행정안전부',

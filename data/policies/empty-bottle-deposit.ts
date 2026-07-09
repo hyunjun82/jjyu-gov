@@ -3,7 +3,7 @@ export const emptyBottleDepositPolicy: PolicyData = {
   id: 'empty-bottle-deposit',
   slug: 'empty-bottle-deposit',
   type: 'service',
-  title: '2026 빈용기 보증금 환불',
+  title: '빈용기 보증금 반납장소와 반납거부 대처법, 자동회수기 위치까지',
   org: '환경부',
   cat: '생활서비스',
   catSlug: 'service',

@@ -1,7 +1,7 @@
 /* 고혈압·당뇨병 등록관리사업 (진료비 지원) 2026 - 질병관리청 */
 export const hypertensionMedicalFeePolicy = {
   id: '41', type: 'service' as const,
-  title: '2026 고혈압·당뇨병 등록관리사업 (진료비 지원)',
+  title: '고혈압·당뇨병 등록관리 진료비 지원, 건강생활실천지원금과 차이',
   titleKeywords: { k1: '고혈압', k2: '당뇨병', k3: '진료비지원', k4: '등록관리사업' },
   slug: 'hypertension-medical-fee', org: '질병관리청', cat: '의료비', catSlug: 'medical',
   amount: '진료비 월 1,500원 + 약제비 2,000~3,000원 지원',

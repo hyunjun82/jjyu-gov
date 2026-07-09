@@ -5,7 +5,7 @@ const SOCIAL = 'https://www.socialservice.or.kr';
 const KOREA = 'https://www.korea.kr/news/policyNewsView.do?newsId=148957430';
 export const happinessCardBebangPolicy = {
   id: '190', type: 'service' as const,
-  title: '2026 국민행복카드 베팡',
+  title: '베팡 신청방법과 국민·롯데·삼성카드 비교, 어디가 유리할까?',
   titleKeywords: { k1: '국민행복카드 베팡', k2: '베베폼 미즈톡톡 비교', k3: '카드사 혜택', k4: '임신출산 바우처' },
   slug: 'happiness-card-bebang', org: '보건복지부', cat: '복지', catSlug: 'welfare',
   amount: '국가 바우처 23종 통합카드(임신출산 100만·기저귀 월 9만 등), 6개 카드사 발급',

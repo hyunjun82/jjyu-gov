@@ -4,7 +4,7 @@ const JOBABA = 'https://youth.jobaba.net/main';
 const GJF = 'https://gjf.or.kr';
 export const gyeonggiYouthWelfarePointPolicy = {
   id: '186', type: 'cash' as const,
-  title: '2026 경기도 청년 복지포인트',
+  title: '경기도 청년 복지포인트 사용처와 신청방법, 중소기업 노동자 지원과 차이',
   titleKeywords: { k1: '경기도 청년 복지포인트', k2: '연 120만원', k3: '중소기업 청년', k4: '잡아바 신청' },
   slug: 'gyeonggi-youth-welfare-point', org: '경기도', cat: '청년', catSlug: 'youth',
   amount: '연 120만원 (반기 60만원씩 2회, 복지포인트)',

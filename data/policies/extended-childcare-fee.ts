@@ -1,7 +1,7 @@
 /* 그 밖의 연장형 보육료 지원 (2026) - 보건복지부 */
 export const extendedChildcareFeePolicy = {
   id: '69', type: 'service' as const,
-  title: '2026 그 밖의 연장형 보육료 지원',
+  title: '연장형 보육료 지원 일반 보육료와 차이, 어디서 받을 수 있나요?',
   titleKeywords: { k1: '연장보육', k2: '보육료', k3: '시간연장', k4: '보건복지부' },
   slug: 'extended-childcare-fee', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '시간연장보육료 정부 지원', deadline: '연중', views: 0,

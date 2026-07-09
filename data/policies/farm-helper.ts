@@ -1,7 +1,7 @@
 /* 영농도우미 지원 (2026) - 농림축산식품부 */
 export const farmHelperPolicy = {
   id: '45', type: 'service' as const,
-  title: '2026 영농도우미 지원',
+  title: '영농도우미 지원 신청자격과 연간한도, 직접 도우미 구해도 되나요?',
   titleKeywords: { k1: '영농도우미', k2: '농가', k3: '사고', k4: '농림축산식품부' },
   slug: 'farm-helper', org: '농림축산식품부', cat: '지원금', catSlug: 'fund',
   amount: '일당 70%~80% 정부 지원 (최대 연 10일)',

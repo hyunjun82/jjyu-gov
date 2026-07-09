@@ -1,7 +1,7 @@
 /* 영유아 건강검진 (2026) - 보건복지부/국민건강보험공단 */
 export const infantHealthCheckupPolicy = {
   id: '63', type: 'service' as const,
-  title: '2026 영유아 건강검진',
+  title: '영유아 건강검진 신청방법과 비용, 결과 이상 있으면 어떻게 하나요?',
   titleKeywords: { k1: '영유아', k2: '건강검진', k3: '무료', k4: '보건복지부' },
   slug: 'infant-health-checkup', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '무료 (국민건강보험 부담)',

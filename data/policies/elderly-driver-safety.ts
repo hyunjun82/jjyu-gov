@@ -1,7 +1,7 @@
 /* 고령 운전자 교통안전교육 (2026) - 도로교통공단 */
 export const elderlyDriverSafetyPolicy = {
   id: '107', type: 'service' as const,
-  title: '2026 고령 운전자 교통안전교육',
+  title: '고령운전자 교통안전교육 75세 이상 대상과 예약방법, 안 받으면?',
   titleKeywords: { k1: '고령운전자교육', k2: '교통안전교육', k3: '면허갱신', k4: '도로교통공단' },
   slug: 'elderly-driver-safety', org: '도로교통공단', cat: '안전', catSlug: 'service',
   amount: '온라인·집합 교육 무료 (의무 이수)',

@@ -1,7 +1,7 @@
 /* 행복출산 원스톱 (2026) - 보건복지부 / 정부24 */
 export const happyBirthOnestopPolicy = {
   id: '119', type: 'service' as const,
-  title: '2026 행복출산 원스톱 서비스',
+  title: '행복출산 원스톱서비스 신청방법과 맘편한임신 차이, 60일 소급까지',
   titleKeywords: { k1: '행복출산', k2: '출산원스톱', k3: '출생신고통합', k4: '정부24' },
   slug: 'happy-birth-onestop', org: '보건복지부', cat: '돌봄', catSlug: 'service',
   amount: '첫만남·부모급여·아동수당·전기료 경감 등 통합 신청',

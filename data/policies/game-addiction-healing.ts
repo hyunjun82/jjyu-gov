@@ -3,7 +3,7 @@ export const gameAddictionHealingPolicy: PolicyData = {
   id: 'game-addiction-healing',
   slug: 'game-addiction-healing',
   type: 'service',
-  title: '2026 게임 과몰입 치유 프로그램',
+  title: '게임 과몰입 치유프로그램 신청방법, 우리 아이 과몰입인지 아는 법',
   org: '한국콘텐츠진흥원',
   cat: '복지서비스',
   catSlug: 'welfare',

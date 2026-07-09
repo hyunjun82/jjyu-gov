@@ -3,7 +3,7 @@
 export const firstmeetPolicy = {
   id: '4',
   type: 'cash' as const,
-  title: '2026 첫만남 이용권',
+  title: '첫만남이용권 신청기한과 사용처, 쌍둥이·다둥이는 어떻게 받나요?',
   titleKeywords: {
       "k1": "첫만남",
       "k2": "이용권"

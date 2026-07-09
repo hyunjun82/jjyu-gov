@@ -1,7 +1,7 @@
 /* 일반상환 학자금 대출 (2026) - 한국장학재단 */
 export const generalStudentLoanPolicy = {
   id: '84', type: 'loan' as const,
-  title: '2026 일반상환 학자금 대출',
+  title: '일반상환 학자금대출 재학중 이자와 상환시기, 국가장학금과 차이',
   titleKeywords: { k1: '일반상환', k2: '학자금', k3: '대출', k4: '한국장학재단' },
   slug: 'general-student-loan', org: '교육부', cat: '대출', catSlug: 'loan',
   amount: '등록금 전액 + 생활비 학기당 150만원',

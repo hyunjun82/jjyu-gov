@@ -1,7 +1,7 @@
 /* 독거노인·장애인 응급안전안심서비스 (2026) */
 export const elderlyEmergencySafetyPolicy = {
   id: '36', type: 'service' as const,
-  title: '2026 독거노인·장애인 응급안전안심서비스',
+  title: '응급안전안심서비스 신청대상과 비용, 다른 노인복지 중복여부',
   titleKeywords: { k1: '독거노인', k2: '응급안전', k3: '장애인', k4: '보건복지부' },
   slug: 'elderly-emergency-safety', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '댁내장비 무상 설치 + 24시간 응급 대응',

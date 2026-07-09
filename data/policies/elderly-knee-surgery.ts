@@ -4,7 +4,7 @@ export const elderlyKneeSurgeryPolicy: PolicyData = {
   id: '133',
   type: 'service',
   slug: 'elderly-knee-surgery',
-  title: '2026 노인 무릎인공관절 수술 지원사업',
+  title: '노인 무릎인공관절 수술 지원 연령·자격조건과 신청서류, 지원제외까지',
   cat: '복지',
   catSlug: 'welfare',
   org: '보건복지부 · 노인의료나눔재단',

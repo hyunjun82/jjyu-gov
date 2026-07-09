@@ -1,7 +1,7 @@
 /* 가정폭력 보호시설 퇴소자 자립지원금 (2026) - 여성가족부 */
 export const dvShelterLeaverAidPolicy = {
   id: '127', type: 'cash' as const,
-  title: '2026 가정폭력 보호시설 퇴소자 자립지원금',
+  title: '가정폭력 보호시설 퇴소자 자립지원금 대상과 주거지원, 취업훈련까지',
   titleKeywords: { k1: '가정폭력자립', k2: '보호시설퇴소', k3: '자립지원금', k4: '여성가족부' },
   slug: 'dv-shelter-leaver-aid', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '주거지원시설 입주 + 유자녀 월 6만원 (만 18세까지)',

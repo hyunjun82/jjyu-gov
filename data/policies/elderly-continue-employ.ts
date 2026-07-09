@@ -1,7 +1,7 @@
 /* 고령자 계속고용 장려금 (2026 비수도권 확대) - 고용노동부 */
 export const elderlyContinueEmployPolicy = {
   id: '21', type: 'cash' as const,
-  title: '2026 고령자 계속고용 장려금',
+  title: '고령자 계속고용장려금 비수도권 우대와 신청방법, 근로자 임금까지',
   titleKeywords: { k1: '고령자', k2: '계속고용', k3: '장려금', k4: '고용노동부' },
   slug: 'elderly-continue-employ', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '1인당 월 30만원, 최대 3년 1,080만원',

@@ -3,7 +3,7 @@ import type { PolicyData, SpokeData } from '../../lib/policy-types';
 export const incomeContingentLoanPolicy: PolicyData = {
   id: '155',
   type: 'loan',
-  title: '2026 취업 후 상환 학자금 대출',
+  title: '취업후상환 학자금대출 의무상환 기준과 금리, 소득요건 폐지까지',
   cat: '대출',
   catSlug: 'loan',
   org: '교육부 / 한국장학재단',
