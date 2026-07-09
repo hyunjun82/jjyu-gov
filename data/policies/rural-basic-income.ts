@@ -1,7 +1,7 @@
 /* 농어촌 기본소득 시범사업 (2026~2027) */
 export const ruralBasicIncomePolicy = {
   id: '20', type: 'cash' as const,
-  title: '2026 농어촌 기본소득 시범사업',
+  title: '농어촌 기본소득 시범사업 대상지역, 신청해야 받나요?',
   titleKeywords: { k1: '농어촌', k2: '기본소득', k3: '시범', k4: '농림축산식품부' },
   slug: 'rural-basic-income', org: '농림축산식품부', cat: '지원금', catSlug: 'fund',
   amount: '월 15만원 지역사랑상품권',

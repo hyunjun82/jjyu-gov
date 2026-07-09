@@ -1,7 +1,7 @@
 /* 학교 밖 청소년 자립·취업 지원 (2026) - 여성가족부 */
 export const outOfSchoolJobPolicy = {
   id: '76', type: 'service' as const,
-  title: '2026 학교 밖 청소년 자립·취업 지원',
+  title: '학교 밖 청소년 자립·취업지원, 자격증 응시료도 지원되나요?',
   titleKeywords: { k1: '학교밖청소년', k2: '자립', k3: '취업', k4: '여성가족부' },
   slug: 'out-of-school-job', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '직업훈련 + 인턴십 + 자격증 + 자립금',

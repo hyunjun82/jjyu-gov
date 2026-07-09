@@ -1,7 +1,7 @@
 /* 한부모가족 복지시설 (2026) - 여성가족부 */
 export const singleParentFacilityPolicy = {
   id: '126', type: 'facility' as const,
-  title: '2026 한부모가족 복지시설',
+  title: '한부모가족 복지시설 양육·생활시설 차이와 입소방법, 위기임산부 지원',
   titleKeywords: { k1: '한부모복지시설', k2: '모자보호시설', k3: '위기임산부', k4: '여성가족부' },
   slug: 'single-parent-facility', org: '여성가족부', cat: '돌봄', catSlug: 'service',
   amount: '시설 입소·상담·의료·자립 통합 무상 지원',

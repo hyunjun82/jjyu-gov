@@ -1,7 +1,7 @@
 /* 보호대상아동 민간후원 장학사업 (2026) - 보건복지부 + 메가스터디 협약 */
 export const protectedChildScholarPolicy = {
   id: '18', type: 'training' as const,
-  title: '2026 보호대상아동 민간후원 장학사업',
+  title: '보호대상아동 민간후원 장학사업, 인강만 받나요? 3년 후에도?',
   titleKeywords: { k1: '보호대상아동', k2: '장학', k3: '메가스터디', k4: '보건복지부' },
   slug: 'protected-child-scholar', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '인강 무료 + 대학 등록금 400만원 (우수자)',

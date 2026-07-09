@@ -1,7 +1,7 @@
 /* 인구감소지역 청소년 성장지원 (2026) - 여성가족부 */
 export const ruralYouthGrowthPolicy = {
   id: '78', type: 'service' as const,
-  title: '2026 인구감소지역 청소년 성장지원',
+  title: '인구감소지역 청소년 성장지원, 학습지원과 문화체험은 어떻게',
   titleKeywords: { k1: '인구감소지역', k2: '청소년', k3: '성장지원', k4: '여성가족부' },
   slug: 'rural-youth-growth', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '학습·문화체험·진로 통합 지원',

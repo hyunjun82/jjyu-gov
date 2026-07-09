@@ -1,7 +1,7 @@
 /* 육아기 근로시간 단축급여 (2026) - 고용노동부 */
 export const parentalWorkReductionPayPolicy = {
   id: '117', type: 'cash' as const,
-  title: '2026 육아기 근로시간 단축급여',
+  title: '육아기 근로시간단축급여 단축기간과 신청방법, 육아휴직과 차이',
   titleKeywords: { k1: '근로시간단축급여', k2: '육아기단축', k3: '단축근무', k4: '고용노동부' },
   slug: 'parental-work-reduction-pay', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '최초 10시간 100% 월 250만·나머지 80% 월 160만 상한',

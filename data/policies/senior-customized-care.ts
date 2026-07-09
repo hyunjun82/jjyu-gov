@@ -1,7 +1,7 @@
 /* 노인맞춤 돌봄서비스 (2026) - 보건복지부 */
 export const seniorCustomizedCarePolicy = {
   id: '105', type: 'service' as const,
-  title: '2026 노인맞춤 돌봄서비스',
+  title: '노인맞춤돌봄서비스 돌봄4군 차이와 신청자격, 장기요양보험과 차이',
   titleKeywords: { k1: '노인맞춤돌봄', k2: '중점돌봄', k3: '특화서비스', k4: '보건복지부' },
   slug: 'senior-customized-care', org: '보건복지부', cat: '돌봄', catSlug: 'service',
   amount: '중점돌봄 월 20~40시간·일반돌봄 월 16시간 직접서비스',

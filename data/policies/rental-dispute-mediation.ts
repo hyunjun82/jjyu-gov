@@ -1,7 +1,7 @@
 /* 주택·상가건물임대차 분쟁조정위원회 2026 - 법무부·한국부동산원 */
 export const rentalDisputeMediationPolicy = {
   id: '131', type: 'service' as const,
-  title: '2026 주택·상가건물임대차 분쟁조정위원회',
+  title: '임대차분쟁조정위원회 신청방법과 수수료, 임대인도 신청 가능한가요?',
   titleKeywords: { k1: '임대차분쟁조정', k2: '전세보증금분쟁', k3: '상가임대차', k4: '소송없이해결' },
   slug: 'rental-dispute-mediation', org: '법무부·한국부동산원', cat: '법률지원', catSlug: 'legal',
   amount: '수수료 1만~10만원 (면제 대상 있음)',

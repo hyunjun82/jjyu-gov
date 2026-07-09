@@ -1,7 +1,7 @@
 /* 중소기업 혁신바우처 (2026) - 중기부 */
 export const smeInnovationVoucherPolicy = {
   id: '26', type: 'service' as const,
-  title: '2026 중소기업 혁신바우처 지원',
+  title: '중소기업 혁신바우처 신청자격과 사용처, 비수도권 우대까지',
   titleKeywords: { k1: '중소기업', k2: '혁신바우처', k3: '컨설팅', k4: '중소벤처기업부' },
   slug: 'sme-innovation-voucher', org: '중소벤처기업부', cat: '지원금', catSlug: 'fund',
   amount: '기업당 최대 5,000만원',

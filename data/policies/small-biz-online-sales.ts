@@ -1,7 +1,7 @@
 /* 소상공인 온라인 판로지원 (2026) - 중소벤처기업부·한국중소벤처기업유통원 */
 export const smallBizOnlineSalesPolicy = {
   id: '171', type: 'service' as const,
-  title: '2026 소상공인 온라인 판로지원',
+  title: '소상공인 온라인 판로지원 라이브커머스와 TV홈쇼핑까지 되나요?',
   titleKeywords: { k1: '온라인 판로지원', k2: '라이브커머스', k3: '상세페이지', k4: '쇼핑몰 입점' },
   slug: 'small-biz-online-sales', org: '중소벤처기업부', cat: '지원금', catSlug: 'fund',
   amount: '8개 세부사업 중 최대 4개 — 상세페이지·콘텐츠·라이브커머스·쇼핑몰 입점 등',

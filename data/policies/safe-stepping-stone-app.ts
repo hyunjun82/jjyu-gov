@@ -4,7 +4,7 @@ export const safeSteppingStoneAppPolicy: PolicyData = {
   id: 'safe-stepping-stone-app',
   slug: 'safe-stepping-stone-app',
   type: 'service',
-  title: '2026 안전디딤돌 앱',
+  title: '안전디딤돌 앱 다운로드와 안전신고 방법, 재난 시 활용법까지',
   org: '행정안전부',
   cat: '생활서비스',
   catSlug: 'service',

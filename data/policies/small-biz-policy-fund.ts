@@ -1,7 +1,7 @@
 /* 소상공인 정책자금·지역 육성자금 (2026) - 중소벤처기업부·소상공인시장진흥공단 */
 export const smallBizPolicyFundPolicy = {
   id: '169', type: 'loan' as const,
-  title: '2026 소상공인 정책자금·지역 육성자금',
+  title: '소상공인 정책자금 종류와 신청방법, 지자체 육성자금과 차이',
   titleKeywords: { k1: '소상공인 정책자금', k2: '일반경영안정자금', k3: '한도 7천만', k4: '지역신용보증재단' },
   slug: 'small-biz-policy-fund', org: '중소벤처기업부', cat: '대출', catSlug: 'loan',
   amount: '일반경영안정자금 최대 7,000만원 / 지자체 육성자금 별도',

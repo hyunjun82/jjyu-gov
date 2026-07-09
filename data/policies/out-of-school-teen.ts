@@ -1,7 +1,7 @@
 /* 학교 밖 청소년 지원 (2026) - 여성가족부 */
 export const outOfSchoolTeenPolicy = {
   id: '72', type: 'service' as const,
-  title: '2026 학교 밖 청소년 지원',
+  title: '학교 밖 청소년 지원 검정고시와 진로취업, 다른 지원 중복여부',
   titleKeywords: { k1: '학교밖청소년', k2: '꿈드림', k3: '검정고시', k4: '여성가족부' },
   slug: 'out-of-school-teen', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '학습·진로·취업 통합 지원', deadline: '연중', views: 0,

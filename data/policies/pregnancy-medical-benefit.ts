@@ -1,7 +1,7 @@
 /* 건강보험 임신·출산 진료비 지원 (국민행복카드) 2026 - 보건복지부·국민건강보험공단 */
 export const pregnancyMedicalBenefitPolicy = {
   id: '128', type: 'service' as const,
-  title: '2026 건강보험 임신·출산 진료비 지원 (국민행복카드)',
+  title: '임신·출산 진료비 지원 사용기간과 사용처, 다태아 추가금액까지',
   titleKeywords: { k1: '임신출산진료비', k2: '국민행복카드', k3: '바우처', k4: '다태아' },
   slug: 'pregnancy-medical-benefit', org: '보건복지부', cat: '의료비', catSlug: 'medical',
   amount: '일태아 100만원 / 다태아 140만원 기본 (분만취약지 +20만원)',

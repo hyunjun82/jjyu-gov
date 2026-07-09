@@ -3,7 +3,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
   id: 'sex-offender-notification',
   slug: 'sex-offender-notification',
   type: 'service',
-  title: '2026 성범죄자 신상정보 고지·열람',
+  title: '성범죄자 신상정보 열람방법과 공개기간, 학교에서도 확인되나요?',
   org: '여성가족부 / 법무부',
   cat: '생활서비스',
   catSlug: 'service',

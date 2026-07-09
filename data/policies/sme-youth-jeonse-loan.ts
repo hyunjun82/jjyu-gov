@@ -1,7 +1,7 @@
 /* 중소기업 취업청년 전월세보증금대출 (중기청 전세, 2026) - 국토교통부·주택도시기금 */
 export const smeYouthJeonseLoanPolicy = {
   id: '177', type: 'loan' as const,
-  title: '2026 중소기업 취업청년 전세대출(중기청)',
+  title: '중기청 전세대출 대출한도와 금리, 버팀목·청년전세대출과 차이',
   titleKeywords: { k1: '중기청 전세대출', k2: '중소기업 청년', k3: '금리 1.5%', k4: '한도 1억' },
   slug: 'sme-youth-jeonse-loan', org: '국토교통부', cat: '대출', catSlug: 'loan',
   amount: '한도 최대 1억 / 금리 연 1.5% (보증금 2억 이하)',

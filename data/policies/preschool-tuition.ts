@@ -1,7 +1,7 @@
 /* 3~5세 유치원 학비 지원 (누리과정, 2026) - 교육부 */
 export const preschoolTuitionPolicy = {
   id: '61', type: 'service' as const,
-  title: '2026 3~5세 유치원 학비 지원 (누리과정)',
+  title: '누리과정 유치원학비 신청방법, 어린이집 보육료 중복지원 안되나요?',
   titleKeywords: { k1: '유치원 학비', k2: '누리과정', k3: '보육료', k4: '교육비' },
   slug: 'preschool-tuition', org: '교육부', cat: '보육', catSlug: 'service',
   amount: '1인당 월 최대 11만원 (사립유치원 기준) + 누리과정 지원금 별도',

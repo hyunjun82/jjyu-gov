@@ -3,7 +3,7 @@ const SAMSUNG = 'https://www.samsung.com/sec/event/thankyoufestival-notice/';
 const SAMSUNG_BENEFIT = 'https://www.samsung.com/sec/event/thankyoufestival-benefit/';
 export const samsungOnnuriRefundPolicy = {
   id: '191', type: 'cash' as const,
-  title: '2026 삼성전자 온누리 환급(감사 페스티벌)',
+  title: '삼성전자 온누리 환급 방법, 신청 언제까지 해야 할까?',
   titleKeywords: { k1: '삼성전자 온누리 환급', k2: '감사 페스티벌', k3: '20% 온누리상품권', k4: '신청 방법' },
   slug: 'samsung-onnuri-refund', org: '삼성전자', cat: '환급', catSlug: 'refund',
   amount: '구매액 20% 디지털 온누리상품권(갤럭시 S26+ 자급제 25%)',

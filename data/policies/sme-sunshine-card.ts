@@ -1,7 +1,7 @@
 /* 소상공인 특례 햇살론카드 (개인사업자 신용카드, 2026) - 금융위원회·서민금융진흥원 */
 export const smeSunshineCardPolicy = {
   id: '183', type: 'loan' as const,
-  title: '2026 소상공인 특례 햇살론카드',
+  title: '소상공인 특례 햇살론카드 한도와 필수교육, 일반 햇살론카드와 차이',
   titleKeywords: { k1: '소상공인 햇살론카드', k2: '개인사업자 신용카드', k3: '보증 500만', k4: '신용 하위 50%' },
   slug: 'sme-sunshine-card', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '보증 최대 500만원 / 개인사업자 신용카드 발급',

@@ -1,7 +1,7 @@
 /* 중소기업 직장인 든든한 한 끼 (2026) - 농림축산식품부 정책뉴스 2026.01.27 */
 export const smeMealPolicy = {
   id: '16', type: 'cash' as const,
-  title: '2026 중소기업 직장인 든든한 한 끼',
+  title: '중소기업 든든한 한끼 지원대상, 대기업 직원도 받을 수 있나요?',
   titleKeywords: { k1: '중소기업', k2: '한끼', k3: '직장인', k4: '농림축산식품부' },
   slug: 'sme-meal', org: '농림축산식품부', cat: '지원금', catSlug: 'fund',
   amount: '점심 외식비 20% 월 최대 4만원 또는 1,000원 아침밥',

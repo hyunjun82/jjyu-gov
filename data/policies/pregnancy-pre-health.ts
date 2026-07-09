@@ -1,7 +1,7 @@
 /* 임신 사전건강관리 지원사업 (2026) - 보건복지부 */
 export const pregnancyPreHealthPolicy = {
   id: '43', type: 'service' as const,
-  title: '2026 임신 사전건강관리 지원사업',
+  title: '임신 사전건강관리 검사항목과 신청방법, 다른 지원과 중복여부',
   titleKeywords: { k1: '임신', k2: '사전건강관리', k3: '검사', k4: '보건복지부' },
   slug: 'pregnancy-pre-health', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '여성 13만원·남성 5만원 검사비',

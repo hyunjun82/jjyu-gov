@@ -1,7 +1,7 @@
 /* 농촌출신대학생 학자금 대출 (2026) - 한국장학재단 */
 export const ruralStudentLoanPolicy = {
   id: '88', type: 'loan' as const,
-  title: '2026 농촌출신대학생 학자금 대출',
+  title: '농촌출신대학생 학자금대출 일반대출과 차이, 농어촌 주소 인정범위',
   titleKeywords: { k1: '농촌출신', k2: '학자금', k3: '무이자', k4: '한국장학재단' },
   slug: 'rural-student-loan', org: '교육부', cat: '대출', catSlug: 'loan',
   amount: '등록금 전액, 재학 중 무이자',

@@ -1,7 +1,7 @@
 /* 가정 밖 청소년 지원 (2026) - 여성가족부 */
 export const outOfHomeTeenPolicy = {
   id: '71', type: 'service' as const,
-  title: '2026 가정 밖 청소년 지원',
+  title: '가정 밖 청소년 지원 청소년쉼터 생활과 자립지원수당 연계까지',
   titleKeywords: { k1: '가정밖청소년', k2: '청소년쉼터', k3: '자립', k4: '여성가족부' },
   slug: 'out-of-home-teen', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '청소년 쉼터 입소·생활 지원', deadline: '연중', views: 0,
