@@ -4,7 +4,7 @@ const MOGEF = 'https://www.mogef.go.kr/sp/hrp/sp_hrp_f009.do';
 const EASYLAW = 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1121&ccfNo=3&cciNo=1&cnpClsNo=1';
 export const childSexCrimeReportRewardPolicy = {
   id: '185', type: 'cash' as const,
-  title: '2026 아동·청소년 성범죄 신고포상금 제도',
+  title: '아동청소년 성범죄 신고포상금 대상범죄와 신청방법, 지급 제외사유',
   titleKeywords: { k1: '아동청소년 성범죄 신고포상금', k2: '신고 100만원', k3: '112 신고', k4: '성평등가족부' },
   slug: 'child-sex-crime-report-reward', org: '성평등가족부', cat: '복지', catSlug: 'welfare',
   amount: '신고 사건 기소·기소유예·소년부 송치 시 최대 100만원',

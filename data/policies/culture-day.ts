@@ -3,7 +3,7 @@ export const cultureDayPolicy: PolicyData = {
   id: 'culture-day',
   slug: 'culture-day',
   type: 'service',
-  title: '2026 문화가 있는 날',
+  title: '문화가 있는 날 참여시설과 이용방법, 전부 무료인가요?',
   org: '문화체육관광부',
   cat: '문화서비스',
   catSlug: 'service',

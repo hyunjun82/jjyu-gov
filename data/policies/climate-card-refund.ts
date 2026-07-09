@@ -4,7 +4,7 @@ const SEOUL_INFO = 'https://news.seoul.go.kr/traffic/archives/516868';
 const TMONEY = 'https://pay.tmoney.co.kr';
 export const climateCardRefundPolicy = {
   id: '189', type: 'cash' as const,
-  title: '2026 기후동행카드 환급(3만원 페이백)',
+  title: '기후동행카드 환급 받는 방법…티머니 카드&페이 누리집 가입이 먼저라는데.',
   titleKeywords: { k1: '기후동행카드 환급', k2: '3만원 페이백', k3: '페이백 신청방법', k4: '티머니 카드페이' },
   slug: 'climate-card-refund', org: '서울특별시', cat: '환급', catSlug: 'refund',
   amount: '월 3만원(4·5·6월 충전분, 최대 9만원) 페이백',

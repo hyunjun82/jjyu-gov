@@ -1,7 +1,7 @@
 /* 범죄피해구조금 확대 (2026) - 법무부 카드뉴스 2026.02.13 */
 export const crimeVictimAidPolicy = {
   id: '14', type: 'cash' as const,
-  title: '2026 범죄피해구조금 확대',
+  title: '범죄피해구조금 신청기한과 대상, 손해배상과 중복으로 받나요?',
   titleKeywords: { k1: '범죄피해구조금', k2: '유족', k3: '구조금', k4: '법무부' },
   slug: 'crime-victim-aid', org: '법무부', cat: '지원금', catSlug: 'fund',
   amount: '최소 24개월분 (도시일용직 평균임금 344만원 기준 8,200만원)',

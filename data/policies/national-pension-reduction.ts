@@ -8,7 +8,7 @@ const SRC = 'https://www.korea.kr/news/policyNewsView.do?newsId=148966620';
 
 export const nationalPensionReductionPolicy = {
   id: '158', type: 'cash' as const,
-  title: '2026 노령연금 감액 기준 상향',
+  title: '노령연금 감액 기준 519만원으로 상향, 2025년분 자동환급까지',
   titleKeywords: { k1: '노령연금', k2: '감액', k3: '국민연금', k4: '소득기준' },
   slug: 'national-pension-reduction', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '감액 기준 월 519만 3,511원으로 상향',

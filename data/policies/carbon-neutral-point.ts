@@ -4,7 +4,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
   id: 'carbon-neutral-point',
   slug: 'carbon-neutral-point',
   type: 'service',
-  title: '2026 탄소중립포인트 녹색생활실천',
+  title: '탄소중립포인트 가입방법과 적립활동, 포인트는 얼마나 쌓이나요?',
   org: '환경부 / 한국환경산업기술원',
   cat: '생활서비스',
   catSlug: 'service',

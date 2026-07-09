@@ -4,7 +4,7 @@ export const cultureNuriCardPolicy: PolicyData = {
   id: 'culture-nuri-card',
   slug: 'culture-nuri-card',
   type: 'service',
-  title: '2026 문화누리카드 (통합문화이용권)',
+  title: '문화누리카드 신청방법과 사용처, 자동재충전이란?',
   cat: '복지',
   catSlug: 'welfare',
   org: '문화체육관광부 · 한국문화예술위원회',

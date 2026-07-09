@@ -10,7 +10,7 @@
 export const childcareInfantEducationPolicy = {
   id: '8',
   type: 'cash' as const,
-  title: '2026 유아 단계적 무상교육·보육',
+  title: '유아 무상교육·보육 지원대상과 학부모 부담 절감액, 신청방법',
   titleKeywords: {
     k1: '유아',
     k2: '무상교육',

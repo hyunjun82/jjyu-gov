@@ -1,7 +1,7 @@
 /* 아이돌봄 서비스 (2026) - 여성가족부 */
 export const childCareServicePolicy = {
   id: '111', type: 'service' as const,
-  title: '2026 아이돌봄 서비스',
+  title: '아이돌봄서비스 시간제·종일제 차이와 신청방법, 본인부담금까지',
   titleKeywords: { k1: '아이돌봄', k2: '시간제돌봄', k3: '영아종일제', k4: '여성가족부' },
   slug: 'child-care-service', org: '여성가족부', cat: '돌봄', catSlug: 'service',
   amount: '시간제 12,790원/h·종합형 16,620원/h (정부 지원 차등)',

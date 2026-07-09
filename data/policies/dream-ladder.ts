@@ -1,7 +1,7 @@
 /* 복권기금 꿈사다리 장학사업 (2026) - 교육부 */
 export const dreamLadderPolicy = {
   id: '73', type: 'service' as const,
-  title: '2026 복권기금 꿈사다리 장학사업',
+  title: '꿈사다리 장학사업 드림장학금과 차이, 멘토링은 어떻게 하나요?',
   titleKeywords: { k1: '꿈사다리', k2: '복권기금', k3: '장학금', k4: '교육부' },
   slug: 'dream-ladder', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '학용품비·교육활동비·멘토링 지원', deadline: '연중', views: 0,

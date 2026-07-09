@@ -1,7 +1,7 @@
 /* 치매상담 콜센터 1899-9988 (2026) - 보건복지부 / 중앙치매센터 */
 export const dementiaHelplinePolicy = {
   id: '104', type: 'service' as const,
-  title: '2026 치매상담 콜센터 1899-9988',
+  title: '치매상담콜센터 1899-9988 이용대상과 상담내용, 치매안심센터 차이',
   titleKeywords: { k1: '치매상담', k2: '치매콜센터', k3: '1899-9988', k4: '보건복지부' },
   slug: 'dementia-helpline', org: '보건복지부', cat: '건강', catSlug: 'service',
   amount: '24시간 365일 무료 상담 (전국번호 1899-9988)',

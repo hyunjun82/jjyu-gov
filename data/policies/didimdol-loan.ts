@@ -1,7 +1,7 @@
 /* 디딤돌 대출 (내집마련 주택구입자금, 2026) - 국토교통부·주택도시기금 */
 export const didimdolLoanPolicy = {
   id: '175', type: 'loan' as const,
-  title: '2026 내집마련 디딤돌 대출',
+  title: '디딤돌대출 신청자격과 주택가액 한도, 생애최초·신혼 우대까지',
   titleKeywords: { k1: '디딤돌 대출', k2: '주택구입자금', k3: '생애최초', k4: '금리 2.85%' },
   slug: 'didimdol-loan', org: '국토교통부', cat: '대출', catSlug: 'loan',
   amount: '한도 일반 2억·신혼/2자녀 3.2억 / 금리 연 2.85~4.15%',

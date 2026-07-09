@@ -4,7 +4,7 @@ export const catastrophicMedicalExpensesPolicy: PolicyData = {
   id: '134',
   type: 'service',
   slug: 'catastrophic-medical-expenses',
-  title: '2026 재난적 의료비 지원사업',
+  title: '재난적 의료비 지원 소득재산 기준과 지원제외 항목까지',
   cat: '복지',
   catSlug: 'welfare',
   org: '보건복지부 · 국민건강보험공단',

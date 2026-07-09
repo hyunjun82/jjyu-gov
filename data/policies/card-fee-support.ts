@@ -1,7 +1,7 @@
 /* 소상공인 카드수수료 우대·환급·지원 (2026) - 금융위원회·여신금융협회 */
 export const cardFeeSupportPolicy = {
   id: '170', type: 'tax' as const,
-  title: '2026 소상공인 카드수수료 우대·환급',
+  title: '소상공인 카드수수료 우대율과 환급, 부가세 세액공제까지',
   titleKeywords: { k1: '카드수수료', k2: '우대수수료율', k3: '영세 중소가맹점', k4: '환급' },
   slug: 'card-fee-support', org: '금융위원회', cat: '환급', catSlug: 'refund',
   amount: '연매출 3억 이하 신용카드 0.4%·체크 0.15% / 매출세액공제 1.3%',

@@ -3,7 +3,7 @@ export const beautifulStoryGrandmaPolicy: PolicyData = {
   id: 'beautiful-story-grandma',
   slug: 'beautiful-story-grandma',
   type: 'service',
-  title: '2026 아름다운 이야기 할머니',
+  title: '아름다운 이야기 할머니 신청자격과 교육과정, 활동 혜택까지',
   org: '한국국학진흥원 / 문화체육관광부',
   cat: '일자리',
   catSlug: 'fund',

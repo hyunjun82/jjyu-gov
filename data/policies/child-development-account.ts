@@ -1,7 +1,7 @@
 /* 아이기금(아동발달지원계좌·디딤씨앗통장) 2026 - 보건복지부 */
 export const childDevelopmentAccountPolicy = {
   id: '10', type: 'savings' as const,
-  title: '2026 아이기금 (아동발달지원계좌·디딤씨앗통장)',
+  title: '디딤씨앗통장 신청자격과 만기지급액, 차상위계층도 되나요?',
   titleKeywords: { k1: '아이기금', k2: '디딤씨앗통장', k3: '아동발달지원계좌', k4: '차상위계층아동' },
   slug: 'child-development-account', org: '보건복지부', cat: '저축', catSlug: 'savings',
   amount: '정부 1:2 매칭, 월 최대 10만원 기여금',

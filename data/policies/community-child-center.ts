@@ -1,7 +1,7 @@
 /* 지역 아동센터 (2026) - 보건복지부 */
 export const communityChildCenterPolicy = {
   id: '67', type: 'service' as const,
-  title: '2026 지역 아동센터',
+  title: '지역아동센터 이용대상과 이용료, 다함께돌봄센터와 차이는?',
   titleKeywords: { k1: '지역아동센터', k2: '돌봄', k3: '학습', k4: '보건복지부' },
   slug: 'community-child-center', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '돌봄·학습·식사·문화 통합 지원', deadline: '연중', views: 0,

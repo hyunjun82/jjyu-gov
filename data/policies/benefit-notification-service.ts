@@ -4,7 +4,7 @@ export const benefitNotificationServicePolicy: PolicyData = {
   id: 'benefit-notification-service',
   slug: 'benefit-notification-service',
   type: 'service',
-  title: '2026 복지로 혜택알리미',
+  title: '복지로 혜택알리미 이용방법과 국민비서 차이, 로그인 없이도 되나요?',
   org: '보건복지부',
   cat: '생활서비스',
   catSlug: 'service',

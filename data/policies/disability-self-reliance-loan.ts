@@ -3,7 +3,7 @@ import { PolicyData, SpokeData } from '../../lib/policy-types';
 export const disabilitySelfRelianceLoanPolicy: PolicyData = {
   id: '149',
   type: 'loan',
-  title: '2026 장애인 자립자금 대여사업',
+  title: '장애인 자립자금 대여 한도와 상환조건, 사용용도까지',
   cat: '대출',
   catSlug: 'loan',
   org: '보건복지부',

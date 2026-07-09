@@ -1,7 +1,7 @@
 /* 버팀목 전세자금대출 (2026) - 주택도시기금 */
 export const beotimokJeonseLoanPolicy = {
   id: '165', type: 'loan' as const,
-  title: '2026 버팀목 전세자금대출',
+  title: '버팀목 전세자금대출 신청자격과 한도·금리, 청년버팀목과 차이',
   titleKeywords: { k1: '버팀목 전세자금대출', k2: '청년버팀목', k3: '한도', k4: '금리' },
   slug: 'beotimok-jeonse-loan', org: '국토교통부', cat: '대출', catSlug: 'loan',
   amount: '한도 일반 수도권 1.2억·청년 최대 1.5억 / 금리 연 2.5~3.5%대',

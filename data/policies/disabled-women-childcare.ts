@@ -1,7 +1,7 @@
 /* 여성장애인 보육 특례 지원 2026 - 보건복지부 */
 export const disabledWomenChildcarePolicy = {
   id: '79', type: 'service' as const,
-  title: '2026 여성장애인 보육 특례 지원',
+  title: '여성장애인 보육특례 우선입소 점수와 보육료 계산, 중복지원까지',
   titleKeywords: { k1: '여성장애인', k2: '보육특례', k3: '어린이집우선입소', k4: '장애부모자녀' },
   slug: 'disabled-women-childcare', org: '보건복지부', cat: '보육', catSlug: 'childcare',
   amount: '장애아보육료 63.4만원(종일)/31.7만원(방과후)',

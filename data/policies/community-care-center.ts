@@ -1,7 +1,7 @@
 /* 다함께 돌봄센터 (2026) - 보건복지부 */
 export const communityCareCenterPolicy = {
   id: '114', type: 'service' as const,
-  title: '2026 다함께 돌봄센터',
+  title: '다함께돌봄센터 이용대상과 이용료, 지역아동센터와 차이까지',
   titleKeywords: { k1: '다함께돌봄', k2: '초등돌봄', k3: '방과후돌봄', k4: '보건복지부' },
   slug: 'community-care-center', org: '보건복지부', cat: '돌봄', catSlug: 'service',
   amount: '월 10만원 이내 (특별활동·급식 별도 가능)',

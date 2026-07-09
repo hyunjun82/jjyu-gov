@@ -4,7 +4,7 @@ export const safecall119Policy: PolicyData = {
   id: '119-safe-call',
   slug: '119-safe-call',
   type: 'service',
-  title: '2026 119안심콜 서비스',
+  title: '119안심콜 등록방법과 등록정보, 개인정보는 어떻게 보호되나요?',
   org: '소방청',
   cat: '생활서비스',
   catSlug: 'service',

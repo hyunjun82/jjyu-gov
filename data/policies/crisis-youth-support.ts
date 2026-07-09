@@ -1,7 +1,7 @@
 /* 위기청소년 특별지원 (2026) - 여성가족부 */
 export const crisisYouthSupportPolicy = {
   id: '40', type: 'cash' as const,
-  title: '2026 위기청소년 특별지원',
+  title: '위기청소년 특별지원 신청자격과 비밀보장, 다른 지원 중복여부',
   titleKeywords: { k1: '위기청소년', k2: '특별지원', k3: '생활', k4: '여성가족부' },
   slug: 'crisis-youth-support', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '연 최대 650만원 (생활·교육·의료·법률 등)',

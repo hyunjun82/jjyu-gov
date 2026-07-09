@@ -1,7 +1,7 @@
 /* 장애인 활동지원서비스 (2026) - 보건복지부 */
 export const disabilityActivitySupportPolicy = {
   id: '164', type: 'service' as const,
-  title: '2026 장애인 활동지원서비스',
+  title: '장애인 활동지원서비스 종합조사와 본인부담금, 이용시간까지',
   titleKeywords: { k1: '장애인 활동지원', k2: '활동보조', k3: '종합조사', k4: '본인부담금' },
   slug: 'disability-activity-support', org: '보건복지부', cat: '복지', catSlug: 'welfare',
   amount: '활동보조·방문목욕·방문간호 (단가 시간당 17,270원)',

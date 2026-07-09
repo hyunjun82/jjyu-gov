@@ -1,7 +1,7 @@
 /* 기본형 공익직불제 (2026) - 농림축산식품부 */
 export const directPaymentPolicy = {
   id: '32', type: 'cash' as const,
-  title: '2026 기본형 공익직불제',
+  title: '공익직불제 신청시기와 준수사항, 농지 작으면 못 받나요?',
   titleKeywords: { k1: '공익직불', k2: '직불금', k3: '농업인', k4: '농림축산식품부' },
   slug: 'direct-payment', org: '농림축산식품부', cat: '지원금', catSlug: 'fund',
   amount: '연 2조 3,000억원 (128만 농가 평균 180만원)',

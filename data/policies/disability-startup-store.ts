@@ -3,7 +3,7 @@ import { PolicyData, SpokeData } from '../../lib/policy-types';
 export const disabilityStartupStorePolicy: PolicyData = {
   id: '150',
   type: 'service',
-  title: '2026 장애인 창업점포 지원',
+  title: '장애인 창업점포 지원 사전교육과 선정절차, 신청방법까지',
   cat: '복지',
   catSlug: 'welfare',
   org: '중소벤처기업부 / (재)장애인기업종합지원센터',

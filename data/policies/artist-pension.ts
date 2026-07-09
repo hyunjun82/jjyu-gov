@@ -1,7 +1,7 @@
 /* 예술인 국민연금 보험료 지원 (2026) - 문체부/한국예술인복지재단 */
 export const artistPensionPolicy = {
   id: '50', type: 'cash' as const,
-  title: '2026 예술인 국민연금 보험료 지원',
+  title: '예술인 국민연금 보험료 지원, 활동증명부터 다른 지원 중복까지',
   titleKeywords: { k1: '예술인', k2: '국민연금', k3: '보험료', k4: '문화체육관광부' },
   slug: 'artist-pension', org: '문화체육관광부', cat: '지원금', catSlug: 'fund',
   amount: '국민연금 보험료 50% (월 최대 37,950원)',

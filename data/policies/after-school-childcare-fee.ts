@@ -1,7 +1,7 @@
 /* 방과후 보육료 지원 (2026) - 보건복지부 */
 export const afterSchoolChildcareFeePolicy = {
   id: '80', type: 'cash' as const,
-  title: '2026 방과후 보육료 지원',
+  title: '방과후 보육료 지원 대상연령과 신청방법, 소득 상관없이 되나요?',
   titleKeywords: { k1: '방과후', k2: '보육료', k3: '초등학교', k4: '보건복지부' },
   slug: 'after-school-childcare-fee', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '초등학교 취학 아동 어린이집 방과후 보육료',

@@ -7,7 +7,7 @@ export const basicLivelihoodAllowancePolicy: PolicyData = {
   cat: '지원금',
   catSlug: 'fund',
   org: '보건복지부 (읍·면·동 주민센터 신청)',
-  title: '2026 기초생활수급자 생계급여',
+  title: '생계급여 선정기준과 소득인정액 계산법, 부양의무자 있어도 되나요?',
   summary:
     '소득인정액이 기준 중위소득 32% 이하인 가구에 생계에 필요한 현금을 지급해 최저 생활을 보장하는 공공부조 제도. 생계급여액 = 생계급여 선정기준 - 소득인정액',
   datePublished: '2026-01-01T09:00:00+09:00',

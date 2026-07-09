@@ -1,7 +1,7 @@
 /* 범죄피해자 긴급 생활안정비 (2026) - 법무부 카드뉴스 2026.02.13 */
 export const crimeVictimStablePolicy = {
   id: '15', type: 'cash' as const,
-  title: '2026 범죄피해자 긴급 생활안정비',
+  title: '범죄피해자 긴급생활안정비 구조금과 중복여부, 의료비 지원까지',
   titleKeywords: { k1: '범죄피해자', k2: '긴급', k3: '생활안정비', k4: '법무부' },
   slug: 'crime-victim-stable', org: '법무부', cat: '지원금', catSlug: 'fund',
   amount: '350만원 1회 지급',

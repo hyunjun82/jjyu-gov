@@ -3,7 +3,7 @@ import { PolicyData, SpokeData } from '../../lib/policy-types';
 export const assistiveTechnologyDevicePolicy: PolicyData = {
   id: '151',
   type: 'service',
-  title: '2026 보조공학기기 지원',
+  title: '보조공학기기 지원품목과 지원한도, 장애인 근로자 직접신청까지',
   cat: '복지',
   catSlug: 'welfare',
   org: '고용노동부 / 한국장애인고용공단',
