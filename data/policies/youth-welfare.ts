@@ -1,7 +1,7 @@
 /* 청년 사회·복지 (2026) - 국무조정실 청년정책 */
 export const youthWelfarePolicy = {
   id: '97', type: 'service' as const,
-  title: '2026 청년 사회·복지',
+  title: '청년 마음건강바우처와 자립수당, 의료비 지원까지 한번에 찾기',
   titleKeywords: { k1: '청년복지', k2: '심리상담', k3: '의료', k4: '국무조정실' },
   slug: 'youth-welfare', org: '국무조정실', cat: '지원금', catSlug: 'fund',
   amount: '심리상담·의료비·자립지원 통합',

@@ -1,7 +1,7 @@
 /* 청소년복지시설 퇴소청소년 자립지원수당 (2026) - 여성가족부 */
 export const teenIndependenceAidPolicy = {
   id: '38', type: 'cash' as const,
-  title: '2026 청소년복지시설 퇴소청소년 자립지원수당',
+  title: '퇴소청소년 자립지원수당 신청방법, 3년 후에는 어떻게 되나요?',
   titleKeywords: { k1: '청소년복지시설', k2: '자립지원', k3: '퇴소', k4: '여성가족부' },
   slug: 'teen-independence-aid', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '월 40만원 (최장 3년)',

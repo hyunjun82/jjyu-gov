@@ -9,7 +9,7 @@
 export const veteranSupportPolicy = {
   id: '9',
   type: 'cash' as const,
-  title: '2026 참전유공자 등 생계지원금 지급',
+  title: '참전유공자 생계지원금 배우자 확대 이유, 다른 보훈수당 중복여부',
   titleKeywords: {
     k1: '참전유공자',
     k2: '생계지원금',

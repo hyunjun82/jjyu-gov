@@ -1,7 +1,7 @@
 /* 연말정산 (2026 신고·2025 귀속) - 국세청 */
 export const yearEndTaxPolicy = {
   id: '173', type: 'tax' as const,
-  title: '2026 연말정산 (2025 귀속)',
+  title: '연말정산 간소화서비스 이용법과 소득공제 항목, 환급 더 받는 법',
   titleKeywords: { k1: '연말정산', k2: '간소화 서비스', k3: '소득공제', k4: '13월의 월급' },
   slug: 'year-end-tax', org: '국세청', cat: '세금', catSlug: 'tax',
   amount: '환급("13월의 월급") 또는 추가납부 — 공제에 따라 결정',

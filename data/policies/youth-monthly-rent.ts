@@ -1,7 +1,7 @@
 /* 청년월세 특별지원 (2026 상시 전환) - 국토교통부 */
 export const youthMonthlyRentPolicy = {
   id: '168', type: 'cash' as const,
-  title: '2026 청년월세 특별지원',
+  title: '청년월세 특별지원 소득재산 기준, 주거급여 받으면 못 받나요?',
   titleKeywords: { k1: '청년월세 지원', k2: '월 20만원', k3: '최대 480만원', k4: '상시 신청' },
   slug: 'youth-monthly-rent', org: '국토교통부', cat: '청년', catSlug: 'youth',
   amount: '월 최대 20만원 × 최대 24개월 = 최대 480만원',

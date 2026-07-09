@@ -1,7 +1,7 @@
 /* 청년 자산형성 (2026) - 금융위원회 / 고용노동부 / 보건복지부 */
 export const youthAssetFormationPolicy = {
   id: '99', type: 'cash' as const,
-  title: '2026 청년 자산형성',
+  title: '청년 자산형성 상품 비교, 청년도약계좌·청년미래적금 뭐가 유리할까',
   titleKeywords: { k1: '청년자산형성', k2: '청년도약계좌', k3: '청년미래적금', k4: '내일채움공제' },
   slug: 'youth-asset-formation', org: '금융위원회', cat: '지원금', catSlug: 'fund',
   amount: '만기 1,200만~5,000만원 목돈',

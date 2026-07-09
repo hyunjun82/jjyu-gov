@@ -1,7 +1,7 @@
 /* 저소득 청소년부모 아동양육비 (2026) - 여성가족부 */
 export const teenParentChildAidPolicy = {
   id: '48', type: 'cash' as const,
-  title: '2026 저소득 청소년부모 아동양육비 지원',
+  title: '청소년부모 아동양육비 청소년한부모와 차이, 25세 넘으면?',
   titleKeywords: { k1: '청소년부모', k2: '아동양육비', k3: '24세', k4: '여성가족부' },
   slug: 'teen-parent-child-aid', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '자녀 1인당 월 25만원',

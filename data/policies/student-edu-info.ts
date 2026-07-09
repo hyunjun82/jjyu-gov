@@ -1,7 +1,7 @@
 /* 초·중·고 학생 교육정보화 지원 (2026) - 교육부 */
 export const studentEduInfoPolicy = {
   id: '64', type: 'service' as const,
-  title: '2026 초·중·고 학생 교육정보화 지원',
+  title: '학생 교육정보화 지원 신청자격, 졸업하면 어떻게 되나요?',
   titleKeywords: { k1: '교육정보화', k2: 'PC', k3: '인터넷', k4: '교육부' },
   slug: 'student-edu-info', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: 'PC 무상 + 인터넷 통신비 월 1만 7천원',

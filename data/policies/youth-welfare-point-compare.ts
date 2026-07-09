@@ -4,7 +4,7 @@ const GG = 'https://www.gg.go.kr/contents/contents.do?ciIdx=1057&menuId=2737';
 const INCHEON = 'https://youth.incheon.go.kr/financial/point.jsp';
 export const youthWelfarePointComparePolicy = {
   id: '187', type: 'cash' as const,
-  title: '2026 청년 복지포인트 전국 비교',
+  title: '청년 복지포인트 경기·인천 비교, 여러 지역 동시에 받을 수 있나요?',
   titleKeywords: { k1: '청년 복지포인트', k2: '지자체 비교', k3: '경기 인천', k4: '재직청년' },
   slug: 'youth-welfare-point-compare', org: '지방자치단체', cat: '청년', catSlug: 'youth',
   amount: '지자체별 연 90만~120만원(복지포인트·지역화폐 등)',

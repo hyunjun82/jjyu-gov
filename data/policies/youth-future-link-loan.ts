@@ -1,7 +1,7 @@
 /* 청년 미래이음 대출 (청년 사회진입 자금, 2026) - 금융위원회·서민금융진흥원 */
 export const youthFutureLinkLoanPolicy = {
   id: '182', type: 'loan' as const,
-  title: '2026 청년 미래이음 대출',
+  title: '청년 미래이음대출 신청자격과 금리, 햇살론유스와 차이',
   titleKeywords: { k1: '청년 미래이음 대출', k2: '미취업 청년', k3: '한도 500만', k4: '금리 4.5%' },
   slug: 'youth-future-link-loan', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '한도 최대 500만원 / 금리 연 4.5% 이내',

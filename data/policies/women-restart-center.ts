@@ -1,7 +1,7 @@
 /* 여성새로일하기센터 (2026) - 여성가족부 */
 export const womenRestartCenterPolicy = {
   id: '113', type: 'service' as const,
-  title: '2026 여성새로일하기센터 (새일센터)',
+  title: '새일센터 직업교육과 인턴십·취업연계, 2026년 확대 내용까지',
   titleKeywords: { k1: '새일센터', k2: '여성새로일하기', k3: '경력단절', k4: '여성가족부' },
   slug: 'women-restart-center', org: '여성가족부', cat: '취업', catSlug: 'service',
   amount: '원스톱 취업·창업 지원 (직업교육·인턴십·사후관리)',

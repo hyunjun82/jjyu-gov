@@ -1,7 +1,7 @@
 /* 취약계층 아동통합서비스 드림스타트 (2026) - 보건복지부 / 아동권리보장원 */
 export const dreamStartPolicy = {
   id: '110', type: 'service' as const,
-  title: '2026 취약계층 아동통합서비스 드림스타트',
+  title: '드림스타트 사례관리와 건강·학습 서비스, 다른 사업과 중복여부',
   titleKeywords: { k1: '드림스타트', k2: '아동통합서비스', k3: '취약계층아동', k4: '보건복지부' },
   slug: 'dream-start', org: '보건복지부', cat: '돌봄', catSlug: 'service',
   amount: '맞춤 사례관리 + 건강·학습·사회성·가족 통합 서비스',

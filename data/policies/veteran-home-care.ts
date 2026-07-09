@@ -1,7 +1,7 @@
 /* 보훈 재가복지서비스 (2026) - 국가보훈부 */
 export const veteranHomeCarePolicy = {
   id: '101', type: 'service' as const,
-  title: '2026 보훈 재가복지서비스 지원',
+  title: '보훈 재가복지서비스 재가보훈실무관이란, 노인장기요양과 차이',
   titleKeywords: { k1: '보훈재가복지', k2: '국가보훈부', k3: '재가보훈실무관', k4: '국가유공자' },
   slug: 'veteran-home-care', org: '국가보훈부', cat: '돌봄', catSlug: 'service',
   amount: '재가보훈실무관 가정 방문·가사지원·건강관리',

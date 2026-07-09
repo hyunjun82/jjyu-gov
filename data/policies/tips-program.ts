@@ -1,7 +1,7 @@
 /* 팁스 TIPS (2026) - 중기부 민간투자주도형 기술창업지원 */
 export const tipsProgramPolicy = {
   id: '28', type: 'cash' as const,
-  title: '2026 팁스 TIPS',
+  title: 'TIPS 팁스 신청자격과 선정절차, 스케일업 TIPS는 뭐가 다른가요?',
   titleKeywords: { k1: '팁스', k2: 'TIPS', k3: '창업', k4: '중소벤처기업부' },
   slug: 'tips-program', org: '중소벤처기업부', cat: '지원금', catSlug: 'fund',
   amount: '민간투자 1억 + R&D 5억 + 사업화 2억 = 최대 8억원',

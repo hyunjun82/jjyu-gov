@@ -1,7 +1,7 @@
 /* 여성청소년 생리용품 지원 (2026) - 성평등가족부/지자체 */
 export const teenFemaleHygienePolicy = {
   id: '37', type: 'cash' as const,
-  title: '2026 여성청소년 생리용품 지원',
+  title: '여성청소년 생리용품 지원 신청방법, 24세 넘으면 못 받나요?',
   titleKeywords: { k1: '여성청소년', k2: '생리용품', k3: '바우처', k4: '성평등가족부' },
   slug: 'teen-female-hygiene', org: '성평등가족부', cat: '지원금', catSlug: 'fund',
   amount: '연 16만 8천원 (월 1만 4천원 바우처)',

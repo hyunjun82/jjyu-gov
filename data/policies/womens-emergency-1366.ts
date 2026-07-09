@@ -4,7 +4,7 @@ export const womensEmergency1366Policy: PolicyData = {
   id: 'womens-emergency-1366',
   slug: 'womens-emergency-1366',
   type: 'service',
-  title: '2026 여성긴급전화 1366',
+  title: '여성긴급전화 1366 이용방법과 보호시설 입소, 외국어 상담까지',
   org: '여성가족부',
   cat: '복지서비스',
   catSlug: 'welfare',

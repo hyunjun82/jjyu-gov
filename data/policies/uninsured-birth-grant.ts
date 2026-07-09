@@ -1,7 +1,7 @@
 /* 고용보험 미적용자 출산급여 (2026) - 고용노동부 */
 export const uninsuredBirthGrantPolicy = {
   id: '120', type: 'cash' as const,
-  title: '2026 고용보험 미적용자 출산급여',
+  title: '고용보험 미적용자 출산급여 4유형과 신청방법, 서울 추가지원까지',
   titleKeywords: { k1: '미적용자출산급여', k2: '프리랜서출산', k3: '자영업자출산', k4: '고용노동부' },
   slug: 'uninsured-birth-grant', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '총 150만원 (월 50만원 × 3개월) + 서울 추가 90만원',

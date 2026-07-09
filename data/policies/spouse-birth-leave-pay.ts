@@ -1,7 +1,7 @@
 /* 배우자 출산휴가급여 (2026) - 고용노동부 */
 export const spouseBirthLeavePayPolicy = {
   id: '122', type: 'cash' as const,
-  title: '2026 배우자 출산휴가급여',
+  title: '배우자 출산휴가급여 사용기한과 중소기업 차이, 모르면 손해보는 함정',
   titleKeywords: { k1: '배우자출산휴가', k2: '아빠출산휴가', k3: '20일유급', k4: '고용노동부' },
   slug: 'spouse-birth-leave-pay', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '20일 유급 (통상임금 100%·상한 1,684,210원)',

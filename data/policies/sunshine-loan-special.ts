@@ -1,7 +1,7 @@
 /* 햇살론특례 (최저신용자 고금리대안, 2026) - 금융위원회·서민금융진흥원 */
 export const sunshineLoanSpecialPolicy = {
   id: '179', type: 'loan' as const,
-  title: '2026 햇살론특례 (최저신용자)',
+  title: '햇살론특례 햇살론일반과 차이, 신청해도 거절될 수 있나요?',
   titleKeywords: { k1: '햇살론특례', k2: '최저신용자', k3: '한도 1000만', k4: '금리 12.5%' },
   slug: 'sunshine-loan-special', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '한도 최대 1,000만원 / 금리 연 12.5% 이내(배려 9.9%)',

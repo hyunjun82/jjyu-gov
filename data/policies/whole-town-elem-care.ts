@@ -1,7 +1,7 @@
 /* 온동네 초등돌봄·교육 (2026) - 교육부/지자체 */
 export const wholeTownElemCarePolicy = {
   id: '65', type: 'service' as const,
-  title: '2026 온동네 초등돌봄·교육',
+  title: '온동네 초등돌봄 우선순위와 신청방법, 다른 돌봄과 중복여부',
   titleKeywords: { k1: '온동네', k2: '초등돌봄', k3: '돌봄', k4: '교육부' },
   slug: 'whole-town-elem-care', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '학교+지자체 통합 돌봄 (저녁·주말·일시 포함)',

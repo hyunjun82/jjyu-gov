@@ -1,7 +1,7 @@
 /* 청년일자리 도약장려금 비수도권 (2026) - 고용노동부 */
 export const youthLeapJobPolicy = {
   id: '30', type: 'cash' as const,
-  title: '2026 청년 일자리 도약장려금 비수도권 우대',
+  title: '청년일자리도약장려금 비수도권 우대, 중도퇴사하면 어떻게 되나요?',
   titleKeywords: { k1: '청년', k2: '도약장려금', k3: '비수도권', k4: '고용노동부' },
   slug: 'youth-leap-job', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '비수도권 480만원~특별지원지역 720만원',

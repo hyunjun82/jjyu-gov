@@ -1,7 +1,7 @@
 /* 금융취약계층 생계자금 (미소금융, 2026) - 금융위원회·서민금융진흥원 */
 export const vulnerableLivelihoodLoanPolicy = {
   id: '184', type: 'loan' as const,
-  title: '2026 금융취약계층 생계자금',
+  title: '금융취약계층 생계자금 청년미래이음대출과 차이, 거절될 수 있나요?',
   titleKeywords: { k1: '금융취약계층 생계자금', k2: '미소금융', k3: '한도 500만', k4: '금리 4.5%' },
   slug: 'vulnerable-livelihood-loan', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '한도 최대 500만원 / 금리 연 4.5% 이내',

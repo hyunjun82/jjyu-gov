@@ -1,7 +1,7 @@
 /* 저소득 청소년한부모 아동양육 및 자립지원 (2026) - 여성가족부 */
 export const teenSingleParentPolicy = {
   id: '46', type: 'cash' as const,
-  title: '2026 저소득 청소년한부모 아동양육 및 자립지원',
+  title: '청소년한부모 아동양육·자립지원, 일반 한부모와 차이는?',
   titleKeywords: { k1: '청소년한부모', k2: '아동양육', k3: '자립', k4: '여성가족부' },
   slug: 'teen-single-parent', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '아동양육비 월 35만원 + 자립지원 등',

@@ -1,7 +1,7 @@
 /* 청년 주거지원 (2026) - 국토교통부 */
 export const youthHousingSupportPolicy = {
   id: '98', type: 'cash' as const,
-  title: '2026 청년 주거지원',
+  title: '청년 주거지원 월세·전세자금대출과 매입임대·행복주택, 상황별 추천',
   titleKeywords: { k1: '청년주거', k2: '전세자금', k3: '월세지원', k4: '국토교통부' },
   slug: 'youth-housing-support', org: '국토교통부', cat: '지원금', catSlug: 'fund',
   amount: '월세 월 20만원 (24개월·최대 480만원)·전세자금 1.2~2.0% 저금리',

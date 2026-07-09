@@ -1,7 +1,7 @@
 /* 국민연금 보험료 / 기준소득월액 (2026) - 국민연금공단 */
 export const nationalPensionPremiumPolicy = {
   id: '160', type: 'cash' as const,
-  title: '2026 국민연금 보험료',
+  title: '국민연금 보험료 기준소득월액과 상한액·하한액, 가입자 종류까지',
   titleKeywords: { k1: '국민연금 보험료', k2: '기준소득월액', k3: '상한액 659만', k4: '보험료율 9%' },
   slug: 'national-pension-premium', org: '국민연금공단', cat: '지원금', catSlug: 'fund',
   amount: '기준소득월액 × 9% (최대 월 593,100원)',

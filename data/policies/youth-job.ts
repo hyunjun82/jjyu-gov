@@ -1,7 +1,7 @@
 /* 청년 일자리 종합 (2026) - 고용노동부 */
 export const youthJobPolicy = {
   id: '92', type: 'cash' as const,
-  title: '2026 청년 일자리',
+  title: '청년 일자리 사업 종류와 중복 가능여부, 청년 연령기준까지',
   titleKeywords: { k1: '청년일자리', k2: '취업', k3: '도약', k4: '고용노동부' },
   slug: 'youth-job', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '도약장려금·도전지원금·국민취업제도 등 통합',

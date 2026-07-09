@@ -1,7 +1,7 @@
 /* 여성가장 창업자금 (2026) - 여성가족부 */
 export const womenHeadStartupLoanPolicy = {
   id: '125', type: 'loan' as const,
-  title: '2026 여성가장 창업자금 지원',
+  title: '여성가장 창업자금 지원조건과 한부모 우선심사, 자금 사용처까지',
   titleKeywords: { k1: '여성가장창업', k2: '한부모창업', k3: '창업자금', k4: '여성가족부' },
   slug: 'women-head-startup-loan', org: '여성가족부', cat: '대출', catSlug: 'loan',
   amount: '최고 5,000만원 (연 2% 고정금리, 점포 임대보증금)',
