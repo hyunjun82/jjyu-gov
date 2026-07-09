@@ -1,7 +1,7 @@
 /* 저소득 지역가입자 국민연금 보험료 지원 (2026) */
 export const lowIncomePensionPolicy = {
   id: '35', type: 'cash' as const,
-  title: '2026 저소득 지역가입자 보험료 지원',
+  title: '저소득 지역가입자 국민연금 보험료 지원, 12개월 지나면 어떻게 되나요?',
   titleKeywords: { k1: '지역가입자', k2: '보험료', k3: '국민연금', k4: '저소득' },
   slug: 'low-income-pension', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '국민연금 보험료 50% (최대 12개월)',

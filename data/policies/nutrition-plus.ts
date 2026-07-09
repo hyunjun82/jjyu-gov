@@ -1,7 +1,7 @@
 /* 영양플러스 (2026) - 보건복지부 */
 export const nutritionPlusPolicy = {
   id: '115', type: 'service' as const,
-  title: '2026 임산부 및 영유아 영양플러스',
+  title: '영양플러스 식품패키지와 영양교육, 지원기간은 얼마나 되나요?',
   titleKeywords: { k1: '영양플러스', k2: '임산부영양', k3: '영유아보충식품', k4: '보건복지부' },
   slug: 'nutrition-plus', org: '보건복지부', cat: '건강', catSlug: 'service',
   amount: '월 1~2회 보충식품 패키지 + 영양교육 (6개월·연장 가능)',

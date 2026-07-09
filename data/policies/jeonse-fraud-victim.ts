@@ -1,7 +1,7 @@
 /* 전세사기 피해자 지원 (특별법, 2026) - 국토교통부·HUG */
 export const jeonseFraudVictimPolicy = {
   id: '167', type: 'service' as const,
-  title: '2026 전세사기 피해자 지원',
+  title: '전세사기 피해자 인정요건과 우선매수권·LH매입, 당장 살 곳 없으면',
   titleKeywords: { k1: '전세사기 피해자', k2: '특별법', k3: '우선매수권', k4: '긴급주거' },
   slug: 'jeonse-fraud-victim', org: '국토교통부', cat: '복지', catSlug: 'welfare',
   amount: 'LH 매입 후 최대 10년 무상거주·저리 대출·긴급주거·법률·심리 지원',

@@ -1,7 +1,7 @@
 /* 노인 장기요양 시설·재가서비스 (2026) - 보건복지부 / 국민건강보험공단 */
 export const longTermCareElderlyPolicy = {
   id: '100', type: 'service' as const,
-  title: '2026 노인 장기요양 시설·재가서비스',
+  title: '노인장기요양 등급별 월한도액과 시설·재가급여 차이, 본인부담 감경까지',
   titleKeywords: { k1: '노인장기요양', k2: '시설급여', k3: '재가급여', k4: '건강보험공단' },
   slug: 'long-term-care-elderly', org: '보건복지부', cat: '돌봄', catSlug: 'service',
   amount: '재가 본인부담 15%·시설 20% (월 한도 최대 2,512,900원)',

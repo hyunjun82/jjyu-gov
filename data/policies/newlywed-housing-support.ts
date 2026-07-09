@@ -5,7 +5,7 @@ export const newlywedHousingSupportPolicy: PolicyData = {
   slug: 'newlywed-housing-support',
   type: 'loan',
   catSlug: 'loan',
-  title: '2026 (예비)신혼부부 주거지원',
+  title: '신혼부부 주거지원 행복주택 자격과 디딤돌 한도, 자산기준까지',
   org: '국토교통부 / 주택도시기금 / LH한국토지주택공사',
   amount: '최대 3.2억원 대출 + 임대주택 특별공급',
   deadline: '상시 신청',

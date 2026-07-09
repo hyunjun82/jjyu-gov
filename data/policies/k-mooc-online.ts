@@ -1,7 +1,7 @@
 /* K-MOOC 한국형 온라인 공개강좌 (2026) - 교육부 */
 export const kMoocOnlinePolicy = {
   id: '83', type: 'service' as const,
-  title: '2026 한국형 온라인 공개강좌 K-MOOC',
+  title: 'K-MOOC 수강방법과 수료증·학점인정, 외국어 강좌도 있나요?',
   titleKeywords: { k1: 'K-MOOC', k2: '온라인강좌', k3: '무료', k4: '교육부' },
   slug: 'k-mooc-online', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '대학 수준 온라인 강좌 무료',

@@ -1,7 +1,7 @@
 /* 출산전후 휴가급여 (2026) - 고용노동부 */
 export const maternityLeavePayPolicy = {
   id: '121', type: 'cash' as const,
-  title: '2026 출산전후 휴가급여',
+  title: '출산전후휴가급여 중소기업·대기업 차이와 90일 분할, 육아휴직 연계',
   titleKeywords: { k1: '출산전후휴가', k2: '출산휴가급여', k3: '90일휴가', k4: '고용노동부' },
   slug: 'maternity-leave-pay', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '90일(다태아 120일) 통상임금 100% (상한 월 220만원)',

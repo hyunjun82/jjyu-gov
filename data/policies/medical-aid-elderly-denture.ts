@@ -1,7 +1,7 @@
 /* 의료급여수급자 노인 틀니·임플란트 지원 (2026) - 보건복지부 */
 export const medicalAidElderlyDenturePolicy = {
   id: '102', type: 'service' as const,
-  title: '2026 의료급여수급자 노인 틀니·임플란트 지원',
+  title: '노인 틀니·임플란트 지원 본인부담률과 적용주기, 1종 2종 차이까지',
   titleKeywords: { k1: '노인틀니', k2: '의료급여', k3: '치과임플란트', k4: '보건복지부' },
   slug: 'medical-aid-elderly-denture', org: '보건복지부', cat: '의료', catSlug: 'service',
   amount: '본인부담 1종 5%·2종 15% (틀니·임플란트)',

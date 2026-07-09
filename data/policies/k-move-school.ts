@@ -1,7 +1,7 @@
 /* 해외취업지원 K-Move 스쿨 (2026) - 고용노동부 */
 export const kMoveSchoolPolicy = {
   id: '87', type: 'training' as const,
-  title: '2026 해외취업지원 K-Move 스쿨',
+  title: 'K-Move스쿨 신청자격과 연수국가, 취업이 보장되나요?',
   titleKeywords: { k1: 'K-Move', k2: '해외취업', k3: '연수', k4: '고용노동부' },
   slug: 'k-move-school', org: '고용노동부', cat: '지원금', catSlug: 'fund',
   amount: '해외 취업 연수비 전액 + 항공권·체재비',

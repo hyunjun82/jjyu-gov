@@ -1,7 +1,7 @@
 /* 산모·신생아 건강관리 (2026) - 보건복지부 */
 export const maternalNewbornCarePolicy = {
   id: '62', type: 'service' as const,
-  title: '2026 산모·신생아 건강관리 지원',
+  title: '산모신생아 건강관리 신청기한과 본인부담, 다른 출산지원 중복여부',
   titleKeywords: { k1: '산모', k2: '신생아', k3: '건강관리사', k4: '보건복지부' },
   slug: 'maternal-newborn-care', org: '보건복지부', cat: '지원금', catSlug: 'fund',
   amount: '건강관리사 5~25일 정부 바우처',

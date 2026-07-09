@@ -1,7 +1,7 @@
 /* 다문화가족 자녀 기초학습·진로설계·교육활동비 (2026) - 여성가족부 */
 export const multiCultureChildEduPolicy = {
   id: '49', type: 'cash' as const,
-  title: '2026 다문화가족 자녀 기초학습·진로설계·교육활동비',
+  title: '다문화가족 자녀 교육활동비 신청방법, 한국어가 서툴러도 되나요?',
   titleKeywords: { k1: '다문화', k2: '자녀', k3: '교육활동비', k4: '여성가족부' },
   slug: 'multi-culture-child-edu', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '기초학습 + 진로설계 + 교육활동비 통합',

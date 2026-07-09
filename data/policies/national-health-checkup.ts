@@ -5,7 +5,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
   slug: 'national-health-checkup',
   type: 'service',
   catSlug: 'welfare',
-  title: '2026 생애주기별 국가건강검진제도',
+  title: '국가건강검진 대상자와 연령별 검사항목, 암검진 비용까지',
   org: '국민건강보험공단 (보건복지부)',
   amount: '일반건강검진 무료 + 6대 암검진(대장·자궁경부 무료, 위·간·유방·폐 본인 10%)',
   deadline: '매년 1월 1일 ~ 12월 31일',

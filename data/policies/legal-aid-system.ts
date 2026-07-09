@@ -7,7 +7,7 @@ export const legalAidSystemPolicy: PolicyData = {
   cat: '복지',
   catSlug: 'welfare',
   org: '대한법률구조공단 (법무부 산하)',
-  title: '2026 법률구조 제도',
+  title: '법률구조제도 소득기준과 소송대리 신청절차, 비용은 얼마나 드나요?',
   summary:
     '경제적으로 어렵거나 법률지식이 부족한 국민이 법의 보호를 충분히 받을 수 있도록 법률상담·소송대리·형사변호 등 법률서비스를 지원하는 사회복지제도',
   datePublished: '2026-01-01T09:00:00+09:00',

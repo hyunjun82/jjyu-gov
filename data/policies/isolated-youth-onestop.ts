@@ -1,7 +1,7 @@
 /* 고립·은둔 청소년 원스톱 패키지 지원 (2026) - 여성가족부 */
 export const isolatedYouthOnestopPolicy = {
   id: '75', type: 'service' as const,
-  title: '2026 고립·은둔 청소년 원스톱 패키지 지원',
+  title: '고립·은둔 청소년 원스톱 지원, 비밀보장과 심리치료까지',
   titleKeywords: { k1: '고립청소년', k2: '은둔', k3: '원스톱', k4: '여성가족부' },
   slug: 'isolated-youth-onestop', org: '여성가족부', cat: '지원금', catSlug: 'fund',
   amount: '심리상담·재활·자립 통합 (무료)',

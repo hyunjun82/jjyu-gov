@@ -1,7 +1,7 @@
 /* 맘편한 임신 원스톱 (2026) - 보건복지부 / 정부24 */
 export const momPregnancyOnestopPolicy = {
   id: '118', type: 'service' as const,
-  title: '2026 맘편한 임신 원스톱 서비스',
+  title: '맘편한임신 원스톱 신청방법, 행복출산 원스톱과 차이는?',
   titleKeywords: { k1: '맘편한임신', k2: '임신원스톱', k3: '엽산철분', k4: '보건복지부' },
   slug: 'mom-pregnancy-onestop', org: '보건복지부', cat: '돌봄', catSlug: 'service',
   amount: '국민행복카드·엽산·철분제·KTX/SRT 할인 통합 신청',

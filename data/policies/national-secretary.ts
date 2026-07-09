@@ -4,7 +4,7 @@ export const nationalSecretaryPolicy: PolicyData = {
   id: 'national-secretary',
   slug: 'national-secretary',
   type: 'service',
-  title: '2026 국민비서 (구삐)',
+  title: '국민비서 구삐 신청방법과 알림채널, 개인정보는 안전한가요?',
   org: '행정안전부',
   cat: '생활서비스',
   catSlug: 'service',

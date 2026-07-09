@@ -1,7 +1,7 @@
 /* 신생아 특례대출 (디딤돌·버팀목, 2026) - 국토교통부·주택도시기금 */
 export const newbornSpecialLoanPolicy = {
   id: '174', type: 'loan' as const,
-  title: '2026 신생아 특례대출',
+  title: '신생아 특례대출 디딤돌·버팀목 한도, 맞벌이 소득 높아도 되나요?',
   titleKeywords: { k1: '신생아 특례대출', k2: '디딤돌', k3: '버팀목', k4: '소득 2억' },
   slug: 'newborn-special-loan', org: '국토교통부', cat: '대출', catSlug: 'loan',
   amount: '디딤돌(구입) 금리 1.8~4.5% / 버팀목(전세) 한도 2.4억·금리 1.3~4.3%',

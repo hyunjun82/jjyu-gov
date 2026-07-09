@@ -9,7 +9,7 @@
 export const leapSavingsPolicy = {
   id: '13',
   type: 'savings' as const,
-  title: '2026 장기간부 도약적금',
+  title: '장기간부 도약적금 가입시기와 납입한도, 왜 군 간부에게만 주나요?',
   titleKeywords: {
     k1: '장기간부',
     k2: '도약적금',

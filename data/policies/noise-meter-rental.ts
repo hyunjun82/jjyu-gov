@@ -3,7 +3,7 @@ export const noiseMeterRentalPolicy: PolicyData = {
   id: 'noise-meter-rental',
   slug: 'noise-meter-rental',
   type: 'service',
-  title: '2026 소음 측정기 무료 대여',
+  title: '층간소음 측정기 무료대여 신청방법, 측정 후 어떤 조치 받나요?',
   org: '환경부 / 한국환경공단',
   cat: '생활서비스',
   catSlug: 'service',

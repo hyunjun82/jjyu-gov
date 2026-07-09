@@ -1,7 +1,7 @@
 /* 국가장학금 지원 (2026) - 교육부/한국장학재단 */
 export const nationalScholarPolicy = {
   id: '82', type: 'cash' as const,
-  title: '2026 국가장학금 지원',
+  title: '국가장학금 소득분위 산정과 신청시기, 성적 낮으면 못 받나요?',
   titleKeywords: { k1: '국가장학금', k2: '대학생', k3: '소득분위', k4: '한국장학재단' },
   slug: 'national-scholar', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '소득분위별 학기당 최대 300만원',

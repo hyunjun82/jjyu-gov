@@ -1,7 +1,7 @@
 /* 중저신용자 생활안정자금 (중금리대출, 2026) - 금융위원회 */
 export const livingStabilityLoanPolicy = {
   id: '172', type: 'loan' as const,
-  title: '2026 중저신용자 생활안정자금 1천만원',
+  title: '중저신용자 생활안정자금 신청자격과 금리, 다주택자도 되나요?',
   titleKeywords: { k1: '생활안정자금', k2: '중금리대출', k3: '신용평점 하위 50%', k4: '1천만원' },
   slug: 'living-stability-loan', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '1인당 최대 1,000만원(중금리)',

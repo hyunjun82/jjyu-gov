@@ -3,7 +3,7 @@ import type { PolicyData, SpokeData } from '../../lib/policy-types';
 export const nationwideEnergySupportGuidePolicy: PolicyData = {
   id: '146',
   type: 'service',
-  title: '2026 전국 냉·난방비 지원기관 안내',
+  title: '전기·도시가스·지역난방비 복지할인, 어디에 문의하나요?',
   cat: '복지',
   catSlug: 'welfare',
   org: '문화체육관광부 국민소통실',
