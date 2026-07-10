@@ -8,6 +8,7 @@ export const durunuriSocialInsurancePolicy: PolicyData = {
   cat: '지원금',
   catSlug: 'fund',
   org: '고용노동부',
+  metaDescription: '두루누리 사회보험료 지원은 근로자 10명 미만 사업장의 월평균 보수 270만 원 미만 근로자·사업주에게 고용보험·국민연금 보험료 80%를 지원합니다.',
 
   keyFacts: {
     지원유형: {

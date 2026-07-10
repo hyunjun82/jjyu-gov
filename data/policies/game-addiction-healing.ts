@@ -11,6 +11,7 @@ export const gameAddictionHealingPolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.kocca.kr/kocca/main.do',
   summary: '게임 과몰입(과의존) 청소년 및 가족을 대상으로 상담, 치유 캠프, 기숙 치유 프로그램 등을 무료로 제공하는 한국콘텐츠진흥원 게임문화재단 서비스.',
+  metaDescription: '게임 과몰입 치유프로그램 신청방법, 우리 아이 과몰입인지 아는 법 – 무료. 게임 과몰입(과의존) 청소년 및 가족을 대상으로 상담, 치유 캠프, 기숙 치유 프로그램 등을 무료로 제공하는 한국콘텐츠진흥원 게임문화재단 서비스.',
   audience: '게임 과몰입 청소년(만 5~24세) 및 가족',
   views: 0,
   datePublished: '2026-01-01',

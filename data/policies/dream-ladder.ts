@@ -8,6 +8,7 @@ export const dreamLadderPolicy = {
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '저소득 가구 초·중·고 학생 3,000명을 조기 발굴해 학용품비·교육활동비·멘토링·진로 코칭을 대학 진학까지 제공하는 교육부 사업. 복권기금으로 운영되며 초등 1,000명·중고 2,000명에게 매월 일정 활동비와 맞춤형 프로그램이 주어진다. 학교 추천 + 본인 신청.', audience: '저소득 가구 초·중·고 학생 (학교 추천)',
+  metaDescription: '꿈사다리 장학사업 드림장학금과 차이, 멘토링은 어떻게 하나요? – 학용품비·교육활동비·멘토링 지원. 저소득 가구 초·중·고 학생 3,000명을 조기 발굴해 학용품비·교육활동비·멘토링·진로 코칭을 대학 진학까지 제공하는 교육부 사업.',
   keyFacts: {
     '지원유형': { value: '학용품·교육활동비·멘토링·진로', source: { url: 'https://www.korea.kr', text: '꿈사다리', verifiedAt: '2026-05-15' } },
     '대상_인원': { value: '초등 1,000명 + 중고 2,000명 = 3,000명', source: { url: 'https://www.korea.kr', text: '3,000명', verifiedAt: '2026-05-15' } },

@@ -9,6 +9,7 @@ export const newBusinessStartupSchoolPolicy: PolicyData = {
   catSlug: 'fund',
   org: '중소벤처기업부 · 소상공인시장진흥공단',
   summary: '창의·혁신적인 아이템을 보유한 예비 소상공인에게 5개월 교육과 사업화 자금 최대 4,000만 원을 지원하는 창업 지원 프로그램',
+  metaDescription: '신사업창업사관학교 사업화자금 4,000만원, 졸업하면 끝인가요?. 창의·혁신적인 아이템을 보유한 예비 소상공인에게 5개월 교육과 사업화 자금 최대 4,000만 원을 지원하는 창업 지원 프로그램',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   badge: '최대 4,000만원',

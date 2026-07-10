@@ -43,7 +43,9 @@ export async function generateMetadata({
 
   const canonical = `https://gov.jjyu.co.kr/policy/${p.slug ?? id}/`;
   const title = `${p.title} 조건·신청방법 총정리 (2026) | 정부지원사업`;
-  const description = buildHubDescription(p.title, p.amount, p.summary);
+  const description = (p as { metaDescription?: string }).metaDescription
+    ? truncateDescription((p as { metaDescription?: string }).metaDescription!)
+    : buildHubDescription(p.title, p.amount, p.summary);
 
   return {
     title,

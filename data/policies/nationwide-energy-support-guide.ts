@@ -11,6 +11,7 @@ export const nationwideEnergySupportGuidePolicy: PolicyData = {
 
   summary:
     '전기요금·도시가스·지역난방비와 에너지 복지 지원에 대해 궁금할 때 어디에 문의해야 하는지 안내하는 정부 공식 기관 안내서입니다.',
+  metaDescription: '전기·도시가스·지역난방비 복지할인, 어디에 문의하나요?. 전기요금·도시가스·지역난방비와 에너지 복지 지원에 대해 궁금할 때 어디에 문의해야 하는지 안내하는 정부 공식 기관 안내서입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
 

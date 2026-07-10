@@ -9,6 +9,7 @@ export const tipsProgramPolicy = {
   applyUrl: 'https://www.jointips.or.kr',
   datePublished: '2026-01-15T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '중기부의 민간투자주도형 기술창업지원 사업. 성공한 벤처캐피털 등 민간 운영사가 1억원 투자 + 정부 R&D 최대 5억원 + 사업화/해외 마케팅 최대 2억원을 지원하는 풀패키지. 2026년 R&D 예산이 전년 대비 45% 증액된 2.2조원 규모로 확대됐고 3,890억원이 신규 편성됐습니다. 시장 지향성을 강화한 풀사이클 지원 체계. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다. 자세한 사항은 K-Startup 또는 TIPS 운영사에 문의하시면 안전합니다.',
+  metaDescription: 'TIPS 팁스 신청자격과 선정절차, 스케일업 TIPS는 뭐가 다른가요? – 민간투자 1억 + R&D 5억 + 사업화 2억 = 최대 8억원. 중기부의 민간투자주도형 기술창업지원 사업.',
   audience: 'TIPS 운영사가 1억원 이상 선투자한 기술창업기업',
   keyFacts: {
     지원유형: { value: '민간투자 + R&D + 사업화 패키지', source: { url: 'https://www.mss.go.kr', text: '민간투자주도형 기술창업지원', verifiedAt: '2026-05-15' } },

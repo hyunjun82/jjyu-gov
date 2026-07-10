@@ -8,6 +8,7 @@ export const unemploymentCreditPolicy: PolicyData = {
   cat: '지원금',
   catSlug: 'fund',
   org: '보건복지부·국민연금공단',
+  metaDescription: '실업크레딧은 구직급여 수급자가 국민연금 보험료 25%만 납부하면 나머지 75%(월 최대 70만 원 소득 기준)를 최대 12개월간 국가가 지원합니다.',
 
   keyFacts: {
     지원유형: {

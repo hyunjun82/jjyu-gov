@@ -12,6 +12,7 @@ export const nationalSecretaryPolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.gov.kr/portal/service/serviceInfo/PTR000052055',
   summary: '건강검진 일정·자동차 검사·세금 납부 등 개인 맞춤 행정 알림을 카카오톡·네이버·문자 등으로 무료 제공하는 행정안전부 서비스. 정부24에서 신청.',
+  metaDescription: '국민비서 구삐 신청방법과 알림채널, 개인정보는 안전한가요? – 무료. 건강검진 일정·자동차 검사·세금 납부 등 개인 맞춤 행정 알림을 카카오톡·네이버·문자 등으로 무료 제공하는 행정안전부 서비스. 정부24에서 신청.',
   audience: '행정 알림을 받고 싶은 전 국민',
   views: 0,
   datePublished: '2026-01-01',

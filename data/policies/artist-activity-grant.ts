@@ -9,6 +9,7 @@ export const artistActivityGrantPolicy: PolicyData = {
   amount: '1인 300만원',
   deadline: '공고별 상이',
   summary: '예술활동증명을 완료한 저소득 예술인에게 1인 300만원의 예술활동준비금을 일시 지급하는 제도.',
+  metaDescription: '예술활동준비금 신청자격과 예술활동증명 방법, 300만원 사용처 – 1인 300만원. 예술활동증명을 완료한 저소득 예술인에게 1인 300만원의 예술활동준비금을 일시 지급하는 제도.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
 

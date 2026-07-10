@@ -9,6 +9,7 @@ export const hypertensionMedicalFeePolicy = {
   applyUrl: 'https://www.kdca.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '고혈압·당뇨병 환자가 지역 보건소 또는 참여 의료기관에 등록하면 진료비와 약제비 일부를 지원받고, 무료 교육·상담·리콜 서비스를 이용할 수 있는 만성질환 관리 사업. 소득 무관이며 특정 지자체 참여 지역 거주자가 대상. 거주지 보건소 또는 참여 의원 방문 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
+  metaDescription: '고혈압·당뇨병 등록관리 진료비 지원, 건강생활실천지원금과 차이 – 진료비 월 1,500원 + 약제비 2,000~3,000원 지원. 고혈압·당뇨병 환자가 지역 보건소 또는 참여 의료기관에 등록하면 진료비와 약제비 일부를 지원받고, 무료 교육·상담·리콜 서비스를...',
   audience: '고혈압·당뇨병 진단 환자 (참여 지역 거주자, 소득 무관)',
   keyFacts: {
     지원유형: { value: '진료비·약제비 일부 지원 + 무료 교육·상담', source: { url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002998', text: '진료비·약제비 지원 및 교육·상담 서비스', verifiedAt: '2026-05-15' } },

@@ -11,6 +11,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.sexoffender.go.kr',
   summary: '아동·청소년 대상 성범죄자의 신상정보(이름·나이·주소·사진)를 우편 고지 또는 인터넷(sexoffender.go.kr)을 통해 확인할 수 있는 여성가족부·법무부 서비스.',
+  metaDescription: '성범죄자 신상정보 열람방법과 공개기간, 학교에서도 확인되나요? – 무료. 아동·청소년 대상 성범죄자의 신상정보(이름·나이·주소·사진)를 우편 고지 또는 인터넷(sexoffender.go.kr)을 통해 확인할 수 있는 여성가족부·법무부 서비스.',
   audience: '아동·청소년 보호자, 관련 기관 종사자',
   views: 0,
   datePublished: '2026-01-01',

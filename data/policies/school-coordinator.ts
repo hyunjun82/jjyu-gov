@@ -10,6 +10,7 @@ export const schoolCoordinatorPolicy: PolicyData = {
   amount: '월 150~200만원 (근무 시간별 상이)',
   deadline: '연 1~2회 모집 (학기별)',
   summary: '초등학교 방과후 돌봄, 교육 행정 지원, 학부모 상담 등을 담당하는 학교 코디네이터를 채용하는 공공일자리입니다.',
+  metaDescription: '학교 코디네이터 (돌봄·교육 지원) – 월 150~200만원 (근무 시간별 상이). 초등학교 방과후 돌봄, 교육 행정 지원, 학부모 상담 등을 담당하는 학교 코디네이터를 채용하는 공공일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

@@ -12,6 +12,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.cpoint.or.kr/netzero/main.do',
   summary: '친환경 생활 실천 시 인센티브(현금·포인트)를 지원하는 제도. 전자영수증·텀블러·다회용컵 등 17개 실천항목 참여로 1인당 최대 연 7만원 지원.',
+  metaDescription: '탄소중립포인트 가입방법과 적립활동, 포인트는 얼마나 쌓이나요? – 최대 연 7만원. 친환경 생활 실천 시 인센티브(현금·포인트)를 지원하는 제도. 전자영수증·텀블러·다회용컵 등 17개 실천항목 참여로 1인당 최대 연 7만원 지원.',
   audience: '친환경 생활을 실천하는 전 국민',
   views: 0,
   datePublished: '2026-01-01',

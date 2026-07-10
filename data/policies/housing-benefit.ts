@@ -9,6 +9,7 @@ export const housingBenefitPolicy: PolicyData = {
   amount: '최대 월 69만 9,000원 (서울 6인 기준)',
   deadline: '상시',
   summary: '중위소득 48% 이하 저소득 가구에 임차료(월세) 또는 자가 수선비를 지원하는 주거복지 급여.',
+  metaDescription: '주거급여 신청자격과 임차·자가가구 지원, 다른 급여 중복여부 – 최대 월 69만 9,000원 (서울 6인 기준). 중위소득 48% 이하 저소득 가구에 임차료(월세) 또는 자가 수선비를 지원하는 주거복지 급여.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
 

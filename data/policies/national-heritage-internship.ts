@@ -10,6 +10,7 @@ export const nationalHeritageInternshipPolicy: PolicyData = {
   amount: '월 200만원 내외 (인턴 수당)',
   deadline: '연 1~2회 모집',
   summary: '국가유산 보존·관리 분야에서 청년들이 실무 경험을 쌓을 수 있는 공공 인턴십 프로그램입니다.',
+  metaDescription: '국가유산 청년 인턴십 – 월 200만원 내외 (인턴 수당). 국가유산 보존·관리 분야에서 청년들이 실무 경험을 쌓을 수 있는 공공 인턴십 프로그램입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

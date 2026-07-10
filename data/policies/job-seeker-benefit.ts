@@ -8,6 +8,7 @@ export const jobSeekerBenefitPolicy: PolicyData = {
   cat: '지원금',
   catSlug: 'fund',
   org: '고용노동부',
+  metaDescription: '구직급여는 비자발적 이직자에게 고용보험 가입 180일 이상 등 요건 충족 시 1일 상한 68,100원·하한 66,048원을 120~270일간 지급합니다.',
 
   keyFacts: {
     지원유형: {

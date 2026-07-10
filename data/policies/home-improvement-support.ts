@@ -9,6 +9,7 @@ export const homeImprovementSupportPolicy: PolicyData = {
   amount: '최대 1,601만원 (대보수 기준)',
   deadline: '상시',
   summary: '주거급여 수급자 중 자기 집에 거주하는 자가가구에 집 수선비를 최대 1,601만원 지원하는 주거복지 서비스.',
+  metaDescription: '주거급여 수선유지급여 신청자격과 임차급여 중복여부, 최대 1,601만원 – 최대 1,601만원 (대보수 기준). 주거급여 수급자 중 자기 집에 거주하는 자가가구에 집 수선비를 최대 1,601만원 지원하는 주거복지 서비스.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
 

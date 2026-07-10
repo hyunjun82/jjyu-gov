@@ -8,6 +8,7 @@ export const outOfHomeTeenPolicy = {
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '가정 폭력·가출·방임 등으로 가정 밖에 머무는 만 9~24세 청소년에게 청소년 쉼터 입소·생활 지원·자립 준비 등 통합 지원을 제공하는 여성가족부 사업. 청소년상담복지센터(1388) 또는 청소년 쉼터를 통해 즉시 안전 보호와 회복 단계별 자립 지원이 제공된다.', audience: '만 9~24세 가정 밖 청소년',
+  metaDescription: '가정 밖 청소년 지원 청소년쉼터 생활과 자립지원수당 연계까지 – 청소년 쉼터 입소·생활 지원. 가정 폭력·가출·방임 등으로 가정 밖에 머무는 만 9~24세 청소년에게 청소년 쉼터 입소·생활 지원·자립 준비 등 통합 지원을 제공하는 여성가족부 사업.',
   keyFacts: {
     '지원유형': { value: '쉼터 입소 + 자립 통합', source: { url: 'https://www.korea.kr', text: '가정 밖 청소년 지원', verifiedAt: '2026-05-15' } },
     '대상_연령': { value: '만 9~24세', source: { url: 'https://www.korea.kr', text: '9~24세', verifiedAt: '2026-05-15' } },

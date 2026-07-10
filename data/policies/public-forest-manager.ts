@@ -10,6 +10,7 @@ export const publicForestManagerPolicy: PolicyData = {
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1회 모집 (상반기)',
   summary: '산림 내 숲 가꾸기, 등산로 정비, 산림 환경 관리 등을 수행하는 공공일자리로 장년·고령자 친화 일자리입니다.',
+  metaDescription: '공공산림관리단 (산림 관리 공공일자리) – 월 180~220만원 (공공일자리 수당). 산림 내 숲 가꾸기, 등산로 정비, 산림 환경 관리 등을 수행하는 공공일자리로 장년·고령자 친화 일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

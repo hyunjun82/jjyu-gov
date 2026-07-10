@@ -12,6 +12,7 @@ export const safeSteppingStoneAppPolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.gov.kr/portal/service/serviceInfo/PTR000052059',
   summary: '재난·안전 정보를 한눈에 확인하고 긴급 구조를 요청할 수 있는 행정안전부 무료 앱. 긴급재난문자·대피소·병원·재난뉴스 등 통합 제공.',
+  metaDescription: '안전디딤돌 앱 다운로드와 안전신고 방법, 재난 시 활용법까지 – 무료. 재난·안전 정보를 한눈에 확인하고 긴급 구조를 요청할 수 있는 행정안전부 무료 앱. 긴급재난문자·대피소·병원·재난뉴스 등 통합 제공.',
   audience: '스마트폰을 이용하는 전 국민',
   views: 0,
   datePublished: '2026-01-01',

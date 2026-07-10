@@ -10,6 +10,7 @@ export const environmentGuardianPolicy: PolicyData = {
   amount: '월 180~220만원 (공공근로 수당)',
   deadline: '연 1~2회 모집',
   summary: '하천·산림·공원 등 환경 현장에서 환경 감시·정화 활동을 수행하는 공공근로 일자리입니다.',
+  metaDescription: '환경지킴이 (공공근로·청년 일자리) – 월 180~220만원 (공공근로 수당). 하천·산림·공원 등 환경 현장에서 환경 감시·정화 활동을 수행하는 공공근로 일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

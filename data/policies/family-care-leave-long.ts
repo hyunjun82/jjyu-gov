@@ -8,6 +8,7 @@ export const familyCareLeaveLongPolicy = {
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '가족의 질병·사고·노령 등으로 장기 돌봄이 필요한 경우 근로자가 최대 90일까지 사용할 수 있는 장기 휴직 제도. 1년 단위로 분할 사용 가능하며 30일 이상 단위로 분할. 무급 원칙이지만 일부 지원 사업도 운영. 사업주가 정당한 사유 없이 거부 불가.', audience: '근로자 (장기 가족 돌봄 사유 발생 시)',
+  metaDescription: '가족돌봄휴직 신청조건과 가족돌봄휴가 차이, 90일 급여까지 – 최대 90일 가족돌봄휴가. 가족의 질병·사고·노령 등으로 장기 돌봄이 필요한 경우 근로자가 최대 90일까지 사용할 수 있는 장기 휴직 제도. 1년 단위로 분할 사용 가능하며 30일 이상 단위로 분할.',
   keyFacts: {
     '지원유형': { value: '장기 휴직 (무급 원칙)', source: { url: 'https://www.korea.kr', text: '장기 휴직', verifiedAt: '2026-05-15' } },
     '최대_기간': { value: '연 최대 90일', source: { url: 'https://www.korea.kr', text: '90일', verifiedAt: '2026-05-15' } },

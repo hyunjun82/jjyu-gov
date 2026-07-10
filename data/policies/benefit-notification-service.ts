@@ -12,6 +12,7 @@ export const benefitNotificationServicePolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/selectWlfareInfo.do',
   summary: '개인 가구 상황(소득·가구원·장애 여부 등)을 입력하면 받을 수 있는 복지서비스를 자동으로 안내해 주는 보건복지부 복지로(bokjiro.go.kr)의 맞춤형 서비스.',
+  metaDescription: '복지로 혜택알리미 이용방법과 국민비서 차이, 로그인 없이도 되나요? – 무료. 개인 가구 상황(소득·가구원·장애 여부 등)을 입력하면 받을 수 있는 복지서비스를 자동으로 안내해 주는 보건복지부 복지로(bokjiro.go.kr)의 맞춤형 서비스.',
   audience: '복지급여·지원 서비스 정보가 필요한 전 국민',
   views: 0,
   datePublished: '2026-01-01',

@@ -9,6 +9,7 @@ export const pregnancyPreHealthPolicy = {
   applyUrl: 'https://www.e-health.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '임신 전 건강 상태 점검과 위험 요인 사전 발견을 위해 가임기 부부에게 여성 13만원·남성 5만원 한도의 검사비를 지원하는 보건복지부 사업. 난소기능검사·정액검사·기초 혈액·소변 검사 등 포함. 거주지 보건소 또는 e보건소(e-health.go.kr)에서 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
+  metaDescription: '임신 사전건강관리 검사항목과 신청방법, 다른 지원과 중복여부 – 여성 13만원·남성 5만원 검사비. 임신 전 건강 상태 점검과 위험 요인 사전 발견을 위해 가임기 부부에게 여성 13만원·남성 5만원 한도의 검사비를 지원하는 보건복지부 사업.',
   audience: '가임기 부부 또는 결혼 예정자 (혼인 신고 무관)',
   keyFacts: {
     지원유형: { value: '임신 전 건강검사비 지원', source: { url: 'https://www.mohw.go.kr', text: '임신 사전건강관리', verifiedAt: '2026-05-15' } },

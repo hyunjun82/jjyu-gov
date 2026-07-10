@@ -10,6 +10,7 @@ export const enterpriseSupportPortalPolicy: PolicyData = {
   amount: '무료 (포털 이용)',
   deadline: '상시',
   summary: '중소기업·소상공인이 필요한 정부 지원 정보를 한 곳에서 검색·신청할 수 있는 통합 포털입니다.',
+  metaDescription: '기업지원 종합 서비스 포털 (기업마당) – 무료 (포털 이용). 중소기업·소상공인이 필요한 정부 지원 정보를 한 곳에서 검색·신청할 수 있는 통합 포털입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

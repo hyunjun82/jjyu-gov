@@ -11,6 +11,7 @@ export const noiseMeterRentalPolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.eco.go.kr',
   summary: '층간소음·공사장 소음 등 생활 소음 피해 시 소음 측정기를 무료로 빌려 소음 수준을 직접 측정할 수 있도록 지원하는 환경부·한국환경공단 서비스.',
+  metaDescription: '층간소음 측정기 무료대여 신청방법, 측정 후 어떤 조치 받나요? – 무료. 층간소음·공사장 소음 등 생활 소음 피해 시 소음 측정기를 무료로 빌려 소음 수준을 직접 측정할 수 있도록 지원하는 환경부·한국환경공단 서비스.',
   audience: '생활 소음 피해를 받는 국민',
   views: 0,
   datePublished: '2026-01-01',

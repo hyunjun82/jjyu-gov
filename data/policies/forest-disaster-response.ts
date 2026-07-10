@@ -10,6 +10,7 @@ export const forestDisasterResponsePolicy: PolicyData = {
   amount: '월 180~250만원 (위험수당 포함)',
   deadline: '연 1회 모집 (1~2월)',
   summary: '산불·산사태 등 산림 재난을 예방하고 대응하는 공공일자리로, 산림 현장에서 재난 감시·진화·복구 업무를 담당합니다.',
+  metaDescription: '산림재난대응단 자격요건과 신청방법, 위험수당 지급까지 – 월 180~250만원 (위험수당 포함). 산불·산사태 등 산림 재난을 예방하고 대응하는 공공일자리로, 산림 현장에서 재난 감시·진화·복구 업무를 담당합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

@@ -11,6 +11,7 @@ export const beautifulStoryGrandmaPolicy: PolicyData = {
   deadline: '연 1회 모집',
   applyUrl: 'https://www.grandma.or.kr',
   summary: '55세 이상 어르신이 전통 이야기꾼(할머니)으로 활동하며 어린이집·유치원·초등학교에서 구술 이야기를 전달하는 문화체육관광부 사업. 활동비와 교육 지원.',
+  metaDescription: '아름다운 이야기 할머니 신청자격과 교육과정, 활동 혜택까지 – 활동비 지원. 55세 이상 어르신이 전통 이야기꾼(할머니)으로 활동하며 어린이집·유치원·초등학교에서 구술 이야기를 전달하는 문화체육관광부 사업. 활동비와 교육 지원.',
   audience: '55세 이상 이야기 전달에 관심 있는 어르신',
   views: 0,
   datePublished: '2026-01-01',

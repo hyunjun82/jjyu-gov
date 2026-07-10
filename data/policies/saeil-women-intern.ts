@@ -10,6 +10,7 @@ export const saeilWomenInternPolicy: PolicyData = {
   amount: '최대 월 80만원 (인턴지원금) + 취업지원금 별도',
   deadline: '상시 (기업 수요에 따라)',
   summary: '경력이 단절된 여성이 기업 인턴 근무를 통해 직장 적응력을 회복하고 정규직으로 취업할 수 있도록 지원합니다.',
+  metaDescription: '새일여성인턴 (경력 단절 여성 취업 지원) – 최대 월 80만원 (인턴지원금) + 취업지원금 별도. 경력이 단절된 여성이 기업 인턴 근무를 통해 직장 적응력을 회복하고 정규직으로 취업할 수 있도록 지원합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

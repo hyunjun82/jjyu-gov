@@ -8,6 +8,7 @@ export const lowIncomeSingleParentPolicy = {
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '만 25세 이상 한부모가족 중 기준중위소득 65% 이하 가구에 자녀 1인당 월 23만원의 아동양육비를 지급하는 여성가족부 사업. 추가아동양육비 10만원과 학용품비 연 10만원, 생활보조금 월 10만원 등이 결합된다. 거주지 행정복지센터 또는 복지로 신청.',
+  metaDescription: '한부모가족 아동양육비 청소년한부모와 차이, 주거지원도 되나요? – 자녀 1인당 월 23만원. 만 25세 이상 한부모가족 중 기준중위소득 65% 이하 가구에 자녀 1인당 월 23만원의 아동양육비를 지급하는 여성가족부 사업.',
   audience: '만 25세 이상 한부모 + 자녀 + 기준중위소득 65% 이하',
   keyFacts: {
     '지원유형': { value: '월 양육비 + 추가 + 학용품 + 생활보조', source: { url: 'https://www.mogef.go.kr', text: '한부모 양육비', verifiedAt: '2026-05-15' } },

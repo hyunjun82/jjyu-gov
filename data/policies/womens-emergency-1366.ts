@@ -12,6 +12,7 @@ export const womensEmergency1366Policy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.mogef.go.kr/sp/yhs/sp_yhs_f001.do',
   summary: '가정폭력·성폭력·성매매 등 위기 상황에 처한 여성이 365일 24시간 언제든 ☎1366으로 전화하면 상담·보호·지원기관 연계까지 원스톱으로 제공받는 서비스.',
+  metaDescription: '여성긴급전화 1366 이용방법과 보호시설 입소, 외국어 상담까지 – 무료. 가정폭력·성폭력·성매매 등 위기 상황에 처한 여성이 365일 24시간 언제든 ☎1366으로 전화하면 상담·보호·지원기관 연계까지 원스톱으로 제공받는 서비스.',
   audience: '가정폭력·성폭력·성매매 피해 여성 및 가족',
   views: 0,
   datePublished: '2026-01-01',

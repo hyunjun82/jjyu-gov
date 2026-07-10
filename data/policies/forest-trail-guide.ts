@@ -10,6 +10,7 @@ export const forestTrailGuidePolicy: PolicyData = {
   amount: '월 180~220만원 (공공일자리 수당)',
   deadline: '연 1회 모집 (상반기)',
   summary: '등산로 안전 관리와 등산객 안내를 담당하는 숲길등산지도사를 채용하여 일자리를 창출하는 사업입니다.',
+  metaDescription: '숲길등산지도사 자격증 취득방법과 신청조건, 수당까지 – 월 180~220만원 (공공일자리 수당). 등산로 안전 관리와 등산객 안내를 담당하는 숲길등산지도사를 채용하여 일자리를 창출하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

@@ -11,6 +11,7 @@ export const cultureDayPolicy: PolicyData = {
   deadline: '매월 마지막 주 수요일',
   applyUrl: 'https://www.culture.go.kr/wday/',
   summary: '매월 마지막 주 수요일에 전국 문화시설(공연장·박물관·미술관·영화관 등)을 무료 또는 할인 혜택으로 이용할 수 있는 문화체육관광부 프로그램.',
+  metaDescription: '문화가 있는 날 참여시설과 이용방법, 전부 무료인가요? – 무료·할인. 매월 마지막 주 수요일에 전국 문화시설(공연장·박물관·미술관·영화관 등)을 무료 또는 할인 혜택으로 이용할 수 있는 문화체육관광부 프로그램.',
   audience: '문화 생활을 즐기려는 전 국민',
   views: 0,
   datePublished: '2026-01-01',

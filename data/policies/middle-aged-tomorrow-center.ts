@@ -9,6 +9,7 @@ export const middleAgedTomorrowCenterPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '고용노동부',
   summary: '40세 이상 중장년층 재직자·퇴직(예정)자에게 생애경력설계·전직지원·재취업 지원 서비스를 무료 제공하는 고용노동부 지원 센터',
+  metaDescription: '중장년내일센터 생애경력설계 무료, 내일이음패키지는 뭐가 다른가요?. 40세 이상 중장년층 재직자·퇴직(예정)자에게 생애경력설계·전직지원·재취업 지원 서비스를 무료 제공하는 고용노동부 지원 센터',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   badge: '무료',

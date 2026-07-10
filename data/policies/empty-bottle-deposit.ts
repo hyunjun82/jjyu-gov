@@ -11,6 +11,7 @@ export const emptyBottleDepositPolicy: PolicyData = {
   deadline: '상시',
   applyUrl: 'https://www.recyclebc.kr',
   summary: '소주·맥주 등 유리병 음료를 마신 뒤 빈 병을 슈퍼·편의점 등에 반납하면 병에 표시된 보증금(70~350원)을 현금으로 돌려받는 환경부 빈용기 보증금 제도.',
+  metaDescription: '빈용기 보증금 반납장소와 반납거부 대처법, 자동회수기 위치까지 – 용기당 70~350원. 소주·맥주 등 유리병 음료를 마신 뒤 빈 병을 슈퍼·편의점 등에 반납하면 병에 표시된 보증금(70~350원)을 현금으로 돌려받는 환경부 빈용기 보증금 제도.',
   audience: '빈 유리병을 반납하려는 전 국민',
   views: 0,
   datePublished: '2026-01-01',

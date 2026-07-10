@@ -10,6 +10,7 @@ export const smokefreeLivingEnvironmentPolicy: PolicyData = {
   amount: '무료 (사업장·학교 금연 환경 구축 지원)',
   deadline: '상시 (연간 공모)',
   summary: '직장·학교·다중이용시설 등 생활 공간에서 금연 환경을 조성할 수 있도록 교육·컨설팅·물품 지원을 제공합니다.',
+  metaDescription: '생활터 금연환경 조성 지원 – 무료 (사업장·학교 금연 환경 구축 지원). 직장·학교·다중이용시설 등 생활 공간에서 금연 환경을 조성할 수 있도록 교육·컨설팅·물품 지원을 제공합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   eligibility: [

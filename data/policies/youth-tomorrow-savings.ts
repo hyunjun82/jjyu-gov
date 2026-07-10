@@ -9,6 +9,7 @@ export const youthTomorrowSavingsPolicy = {
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '저소득 근로 청년(만 15~39세, 기준 중위소득 50% 이하)이 월 10~50만원 저축하면 정부가 월 30만원을 3년간 매칭 지원. 월 10만원 저축 시 3년 만기에 본인 적립 360만원 + 정부 지원금 1,080만원을 합쳐 총 1,440만원 이상(이자 별도) 수령. 2026년 신청 기간 5월 4일~5월 20일, 복지로 또는 행정복지센터. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
+  metaDescription: '청년내일저축계좌 신청자격과 만기유지 조건, 중도해지하면 – 정부 월 30만원 매칭 (3년 만기 총 1,080만원 + 본인 적립금). 저소득 근로 청년(만 15~39세, 기준 중위소득 50% 이하)이 월 10~50만원 저축하면 정부가 월 30만원을 3년간 매칭...',
   audience: '만 15~39세 저소득 근로 청년 (기준 중위소득 50% 이하)',
   keyFacts: {
     지원유형: { value: '정부 월 30만원 정액 매칭 저축 지원', source: { url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000060', text: '정부지원금 월 30만원 정액 매칭', verifiedAt: '2026-05-15' } },

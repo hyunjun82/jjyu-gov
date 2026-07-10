@@ -9,6 +9,7 @@ export const childDevelopmentAccountPolicy = {
   applyUrl: 'https://www.bokjiro.go.kr',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-05-23T09:00:00+09:00',
   summary: '취약계층 아동(기초생활수급·차상위·보호아동)이 매월 저축하면 정부가 1:2 비율로 최대 월 10만원을 매칭 지원하는 아동자산형성사업. 2025년부터 차상위계층(중위소득 50~100%)까지 대상이 확대되었으며, 만 18세 성인 전환 시 목돈을 마련할 수 있습니다. 거주지 주민센터 또는 복지로(bokjiro.go.kr) 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
+  metaDescription: '디딤씨앗통장 신청자격과 만기지급액, 차상위계층도 되나요? – 정부 1:2 매칭, 월 최대 10만원 기여금. 취약계층 아동(기초생활수급·차상위·보호아동)이 매월 저축하면 정부가 1:2 비율로 최대 월 10만원을 매칭 지원하는 아동자산형성사업.',
   audience: '만 0~17세 기초수급·차상위계층·보호대상 아동',
   keyFacts: {
     지원유형: { value: '정부 매칭 저축 지원 (1:2 매칭)', source: { url: 'https://www.ncrc.or.kr/ncrc/cm/cntnts/cntntsView.do?cntntsId=1142&mi=1035', text: '아동이 저축하면 정부가 1:2로 매칭', verifiedAt: '2026-05-15' } },

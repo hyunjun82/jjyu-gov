@@ -9,6 +9,7 @@ export const jobSeekerLeapPackagePolicy: PolicyData = {
   catSlug: 'welfare',
   org: '고용노동부 / 고용복지+센터',
   summary: 'AI 기반 잡케어(Job-Care) 시스템을 활용해 고용센터 전담상담사가 1:1 심층상담을 통해 개인의 직무역량을 진단하고, 경력설계·노동시장 정보분석·맞춤형 취업지원 프로그램을 최소 4~7회차 제공합니다.',
+  metaDescription: '구직자 도약보장 패키지. AI 기반 잡케어(Job-Care) 시스템을 활용해 고용센터 전담상담사가 1:1 심층상담을 통해 개인의 직무역량을 진단하고, 경력설계·노동시장 정보분석·맞춤형 취업지원 프로그램을 최소 4~7회차 제공합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   badges: ['1:1 심층상담', 'AI 잡케어 분석', '누구나 참여 가능'],

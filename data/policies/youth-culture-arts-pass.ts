@@ -9,6 +9,7 @@ export const youthCultureArtsPassPolicy: PolicyData = {
   amount: '수도권 15만원·비수도권 20만원',
   deadline: '2026.12.31',
   summary: '2006~2007년생 만 19세 청년에게 공연·전시·영화 관람권 바우처를 최대 20만원 지원하는 제도.',
+  metaDescription: '청년문화예술패스 문화누리카드랑 같은 건가요? OTT 구독도 되나요? – 수도권 15만원·비수도권 20만원. 2006~2007년생 만 19세 청년에게 공연·전시·영화 관람권 바우처를 최대 20만원 지원하는 제도.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
 

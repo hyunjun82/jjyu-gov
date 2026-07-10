@@ -9,6 +9,7 @@ export const publicRentalHousingPolicy: PolicyData = {
   amount: '시세 30~80% 임차료',
   deadline: '공고별 상이',
   summary: '저소득·서민 가구에 시세보다 저렴한 임차료로 장기 거주를 제공하는 공공임대아파트.',
+  metaDescription: '공공임대주택 유형별 신청자격과 임차료, 공공분양과 차이 – 시세 30~80% 임차료. 저소득·서민 가구에 시세보다 저렴한 임차료로 장기 거주를 제공하는 공공임대아파트.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
 
