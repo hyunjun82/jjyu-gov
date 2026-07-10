@@ -260,6 +260,9 @@ import { hiddenInsuranceMoneyPolicy, hiddenInsuranceMoneySpokes } from './hidden
 import { movieDiscountVoucherPolicy, movieDiscountVoucherSpokes } from './movie-discount-voucher';
 import { seoulChildbirthHousingSupportPolicy, seoulChildbirthHousingSupportSpokes } from './seoul-childbirth-housing-support';
 import { residentTaxPolicy, residentTaxSpokes } from './resident-tax';
+import { smileMicrocreditPolicy, smileMicrocreditSpokes } from './smile-microcredit';
+import { emergencyLivelihoodLoanPolicy, emergencyLivelihoodLoanSpokes } from './emergency-livelihood-loan';
+import { sunshineLoanBankPolicy, sunshineLoanBankSpokes } from './sunshine-loan-bank';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -396,6 +399,9 @@ export const PoliciesById: Record<string, any> = {
   '217': movieDiscountVoucherPolicy,
   '218': seoulChildbirthHousingSupportPolicy,
   '219': residentTaxPolicy,
+  '220': smileMicrocreditPolicy,
+  '221': emergencyLivelihoodLoanPolicy,
+  '222': sunshineLoanBankPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -607,6 +613,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'movie-discount-voucher': movieDiscountVoucherPolicy,
   'seoul-childbirth-housing-support': seoulChildbirthHousingSupportPolicy,
   'resident-tax': residentTaxPolicy,
+  'smile-microcredit': smileMicrocreditPolicy,
+  'emergency-livelihood-loan': emergencyLivelihoodLoanPolicy,
+  'sunshine-loan-bank': sunshineLoanBankPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -858,6 +867,9 @@ export const SpokesById: Record<string, any[]> = {
   '217': movieDiscountVoucherSpokes,
   '218': seoulChildbirthHousingSupportSpokes,
   '219': residentTaxSpokes,
+  '220': smileMicrocreditSpokes,
+  '221': emergencyLivelihoodLoanSpokes,
+  '222': sunshineLoanBankSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1069,6 +1081,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'movie-discount-voucher': movieDiscountVoucherSpokes,
   'seoul-childbirth-housing-support': seoulChildbirthHousingSupportSpokes,
   'resident-tax': residentTaxSpokes,
+  'smile-microcredit': smileMicrocreditSpokes,
+  'emergency-livelihood-loan': emergencyLivelihoodLoanSpokes,
+  'sunshine-loan-bank': sunshineLoanBankSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
