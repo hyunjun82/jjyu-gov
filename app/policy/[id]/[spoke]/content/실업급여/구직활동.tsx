@@ -7,7 +7,7 @@ const KOREA = 'https://www.korea.kr/briefing/pressReleaseView.do?newsId=15651372
 export const 실업급여구직활동SpokeContent: SpokeData = {
   h1: '실업급여 실업인정 구직활동, 어디까지 인정되고 뭘 증빙하나',
   breadcrumb: '실업인정·구직활동',
-  description: '실업급여를 계속 받으려면 실업인정일마다 재취업활동을 보고해야 합니다. 일반수급자는 2~4차에 4주당 1회, 5차부터 만료까지는 4주당 2회(구직활동 1회 이상 필수)를 증빙해야 합니다. 온라인 취업특강은 전체 기간 2회까지만, 직업심리검사·자원봉사 등은 각 1회만 인정됩니다.',
+  description: '실업급여를 계속 받으려면 실업인정일마다 재취업활동을 보고해야 합니다. 일반수급자는 2~4차에 4주당 1회, 5차부터 만료까지는 4주당 2회(구직활동 1회 이상 필수)를 증빙해야 합니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',
   keyFacts: {

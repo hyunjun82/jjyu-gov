@@ -6,7 +6,7 @@ const MYHOME = 'https://www.myhome.go.kr';
 export const 청년월세신청방법SpokeContent: SpokeData = {
   h1: '청년월세 신청방법, 복지로 상시신청 주민센터',
   breadcrumb: '신청 방법',
-  description: '청년월세 특별지원은 복지로(www.bokjiro.go.kr) 온라인이나 주소지 관할 주민센터에서 신청합니다. 2026년부터 상시 신청으로 전환되어 1년 내내 언제든 신청할 수 있습니다. 임대차계약서, 월세 이체 증빙, 소득·재산 확인 자료 등이 필요하며, 복지로 모의계산으로 자격을 미리 확인할 수 있습니다.',
+  description: '청년월세 특별지원은 복지로(www.bokjiro.go.kr) 온라인이나 주소지 관할 주민센터에서 신청합니다. 2026년부터 상시 신청으로 전환되어 1년 내내 언제든 신청할 수 있습니다.',
   datePublished: '2026-06-27T09:00:00+09:00',
   dateModified: '2026-06-27T09:00:00+09:00',
   keyFacts: {

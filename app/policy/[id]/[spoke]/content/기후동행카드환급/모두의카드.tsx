@@ -6,7 +6,7 @@ const SEOUL_PAY = 'https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-p
 export const 기후동행카드환급모두의카드SpokeContent: SpokeData = {
   h1: '기후동행카드 7월부터 모두의카드로, 플러스 전환·추가 환급',
   breadcrumb: '모두의카드 전환',
-  description: '기후동행카드는 정부 모두의카드와 이원화를 정리하기 위해 2026년 9월 1일 운영을 종료합니다. 선불 30일권은 7월 31일까지 충전(8월 29일까지 이용), 후불은 8월 31일까지 이용 가능하며, 모두의카드(K-패스)나 서울시민 전용 기후동행카드 플러스로 전환하면 됩니다.',
+  description: '기후동행카드는 정부 모두의카드와 이원화를 정리하기 위해 2026년 9월 1일 운영을 종료합니다.',
   datePublished: '2026-07-01T09:00:00+09:00',
   dateModified: '2026-07-01T09:00:00+09:00',
   keyFacts: {

@@ -6,7 +6,7 @@ const NOISE = 'https://www.noiseinfo.or.kr';
 export const 층간소음기준SpokeContent: SpokeData = {
   h1: '층간소음 기준 주간 39dB·야간 34dB, 직접충격·공기전달 dB표',
   breadcrumb: '기준',
-  description: '층간소음 기준은 「공동주택 층간소음의 범위와 기준에 관한 규칙」(환경부·국토교통부, 2023.1.2 개정) 별표에 있습니다. 직접충격 소음은 1분등가(Leq) 주간 39dB·야간 34dB, 최고(Lmax) 주간 57dB·야간 52dB, 공기전달 소음은 5분등가 주간 45dB·야간 40dB입니다.',
+  description: '층간소음 기준은 「공동주택 층간소음의 범위와 기준에 관한 규칙」(환경부·국토교통부, 2023.1.2 개정) 별표에 있습니다.',
   datePublished: '2026-07-01T09:00:00+09:00',
   dateModified: '2026-07-01T09:00:00+09:00',
   keyFacts: {

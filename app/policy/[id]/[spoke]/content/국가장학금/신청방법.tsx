@@ -6,7 +6,7 @@ const KOREA = 'https://www.korea.kr';
 export const 국가장학금신청방법SpokeContent: SpokeData = {
   h1: '국가장학금 신청 방법과 서류, 신입생·재학생 첫 신청',
   breadcrumb: '신청 방법',
-  description: '국가장학금은 한국장학재단 누리집(kosaf.go.kr)이나 모바일 앱에서 학기당 2회(1차·2차) 신청합니다. 본인 회원가입·신청서 작성 후 가구원 동의와 소득 산정을 거칩니다. 재학생은 1차 신청이 원칙이며, 신입생·편입생·복학생도 첫 학기에 본인이 직접 신청해야 합니다.',
+  description: '국가장학금은 한국장학재단 누리집(kosaf.go.kr)이나 모바일 앱에서 학기당 2회(1차·2차) 신청합니다. 본인 회원가입·신청서 작성 후 가구원 동의와 소득 산정을 거칩니다.',
   datePublished: '2026-06-27T09:00:00+09:00',
   dateModified: '2026-06-27T09:00:00+09:00',
   keyFacts: {

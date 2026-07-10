@@ -3,7 +3,7 @@ import type { SpokeData } from '../../SpokeClient';
 export const 고용촉진장려금사전신청먼저이유SpokeContent: SpokeData = {
   h1: '고용촉진장려금, 채용 전 꼭 확인할 것과 신청 시기',
   breadcrumb: '채용전확인·신청시기',
-  description: '고용촉진장려금은 사업주 사후 청구제다. 채용 후 6개월 단위로 고용24(work24.go.kr) 또는 고용센터에 신청하고, 고용한 날부터 12개월 이내 첫 주기를 신청한다. 채용 전 확인할 것은 사업주 신청이 아니라 근로자가 고용 전 취업지원프로그램을 이수했는지 여부다.',
+  description: '고용촉진장려금은 사업주 사후 청구제다. 채용 후 6개월 단위로 고용24(work24.go.kr) 또는 고용센터에 신청하고, 고용한 날부터 12개월 이내 첫 주기를 신청한다.',
   datePublished: '2026-05-18T09:00:00+09:00',
   dateModified: '2026-06-19T09:00:00+09:00',
   keyFacts: {

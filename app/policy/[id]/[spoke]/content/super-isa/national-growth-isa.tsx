@@ -6,7 +6,7 @@ export const superIsaNationalGrowthSpokeContent: SpokeData = {
   h1: '국민성장 ISA 가입대상·국내투자, 기존 ISA와 중복가입',
   breadcrumb: 'national-growth-isa',
   description:
-    '국민성장 ISA는 생산적 금융 ISA(슈퍼ISA)의 두 유형 중 하나로, 가입대상은 19세 이상 국내 거주자입니다. 해외주식에는 투자할 수 없고 국내 자산 중심으로 운용되며, 기존 ISA 대비 세제혜택을 대폭 확대하는 방향이 발표됐지만 구체적인 확대 폭은 아직 공개되지 않았습니다. 기존 ISA와는 중복가입이 가능하도록 설계될 예정이지만, 같은 슈퍼ISA 안의 청년형과는 동시 가입이 불가합니다.',
+    '국민성장 ISA는 생산적 금융 ISA(슈퍼ISA)의 두 유형 중 하나로, 가입대상은 19세 이상 국내 거주자입니다.',
   datePublished: '2026-07-07T09:00:00+09:00',
   dateModified: '2026-07-07T09:00:00+09:00',
   keyFacts: {

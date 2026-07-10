@@ -6,7 +6,7 @@ const HOME = 'https://www.energyv.or.kr';
 export const 에너지바우처잔액SpokeContent: SpokeData = {
   h1: '에너지바우처 잔액조회와 남은 금액 환급, 어떻게 하나?',
   breadcrumb: '잔액조회·환급',
-  description: '에너지바우처 잔액은 에너지바우처 홈페이지(energyv.or.kr)·콜센터(1600-3190)·요금고지서·카드사 앱에서 확인할 수 있습니다. 미사용 잔액은 현금으로 환급되지 않고 사용기간(2027년 5월 31일) 종료 시 소멸되므로, 기간 내에 모두 사용하는 것이 좋습니다.',
+  description: '에너지바우처 잔액은 에너지바우처 홈페이지(energyv.or.kr)·콜센터(1600-3190)·요금고지서·카드사 앱에서 확인할 수 있습니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',
   keyFacts: {

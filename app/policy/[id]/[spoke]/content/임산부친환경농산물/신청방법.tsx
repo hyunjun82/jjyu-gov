@@ -6,7 +6,7 @@ const ECO_APPLY = 'https://ecoemall.com/main/pregnant02.do';
 export const 임산부친환경농산물신청방법SpokeContent: SpokeData = {
   h1: '임산부 친환경농산물 신청방법, 에코이몰 신청·지역별 선착순 추첨',
   breadcrumb: '신청방법',
-  description: '임산부 친환경농산물 지원 신청은 에코이몰(ecoemall.com)에서 합니다. 본인인증과 비대면 자격검증을 거쳐 신청서를 제출하면 각 지방정부가 자격을 승인하고 임산부 고유번호를 부여합니다. 신청은 2026년 6월 17일부터 지역별 마감 전까지(선착순·추첨), 주문은 12월 15일까지입니다.',
+  description: '임산부 친환경농산물 지원 신청은 에코이몰(ecoemall.com)에서 합니다. 본인인증과 비대면 자격검증을 거쳐 신청서를 제출하면 각 지방정부가 자격을 승인하고 임산부 고유번호를 부여합니다.',
   datePublished: '2026-07-01T09:00:00+09:00',
   dateModified: '2026-07-01T09:00:00+09:00',
   keyFacts: {

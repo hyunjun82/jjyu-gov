@@ -7,7 +7,7 @@ const JEONSE = 'https://jeonse.kgeop.go.kr';
 export const 전세사기신청방법SpokeContent: SpokeData = {
   h1: '전세사기 피해자 결정 신청 방법, 시도 지원관리시스템',
   breadcrumb: '신청 방법',
-  description: '전세사기 지원을 받으려면 먼저 거주지 관할 시·도에 전세사기피해자 결정을 신청해야 합니다. 전세사기피해자 지원관리시스템(jeonse.kgeop.go.kr) 온라인이나 시·도 담당부서에 임대차계약·전입·피해 자료를 제출하면 국토교통부 전세사기피해지원위원회가 심의합니다. 신청기한은 2027년 5월 31일까지입니다.',
+  description: '전세사기 지원을 받으려면 먼저 거주지 관할 시·도에 전세사기피해자 결정을 신청해야 합니다.',
   datePublished: '2026-06-27T09:00:00+09:00',
   dateModified: '2026-06-27T09:00:00+09:00',
   keyFacts: {

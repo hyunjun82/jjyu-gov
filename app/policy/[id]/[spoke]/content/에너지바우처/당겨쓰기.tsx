@@ -6,7 +6,7 @@ const SUPPORT = 'https://www.energyv.or.kr/info/support_info.do';
 export const 에너지바우처당겨쓰기SpokeContent: SpokeData = {
   h1: '에너지바우처 하절기 안 쓰면? 동절기 당겨쓰기·미차감 신청',
   breadcrumb: '하절기·몰아쓰기',
-  description: '2025년부터 에너지바우처는 동·하절기 구분 없이 사용기간(2026.7.1~2027.5.31) 내에 자유롭게 사용할 수 있습니다. 하절기에 쓰지 않고 동절기에 몰아 쓰려면, 하절기 전기요금에서 자동 차감되지 않도록 읍·면·동에 "하절기 요금 미차감" 신청을 해야 합니다.',
+  description: '2025년부터 에너지바우처는 동·하절기 구분 없이 사용기간(2026.7.1~2027.5.31) 내에 자유롭게 사용할 수 있습니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',
   keyFacts: {

@@ -5,7 +5,7 @@ const ENTER = 'https://en-ter.co.kr/support/main/main.do';
 export const 효율가전신청SpokeContent: SpokeData = {
   h1: '고효율가전 환급 신청 방법과 서류, 거래내역서·라벨 사진까지',
   breadcrumb: '신청 방법·서류',
-  description: '고효율가전 환급은 한전 지원사업 누리집(en-ter.co.kr/support)에서 온라인으로 신청합니다. 에너지효율등급 라벨 사진, 제조번호 명판 사진, 거래내역서, 구매 증빙을 제출하며, 신청 기간은 2026년 2월 9일~12월 31일입니다. 2026년 1월 1일 이후 구매분은 증빙이 있으면 소급신청도 가능합니다.',
+  description: '고효율가전 환급은 한전 지원사업 누리집(en-ter.co.kr/support)에서 온라인으로 신청합니다. 에너지효율등급 라벨 사진, 제조번호 명판 사진, 거래내역서, 구매 증빙을 제출하며, 신청 기간은 2026년 2월 9일~12월 31일입니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',
   keyFacts: {

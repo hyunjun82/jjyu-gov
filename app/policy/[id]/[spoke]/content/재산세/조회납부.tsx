@@ -6,7 +6,7 @@ const SEOULETAX = 'https://etax.seoul.go.kr';
 export const 재산세조회납부SpokeContent: SpokeData = {
   h1: '재산세 조회와 납부 방법, 위택스·간편인증·자동이체',
   breadcrumb: '조회·납부 방법',
-  description: '재산세는 위택스(wetax.go.kr)에서 공동·간편인증으로 로그인해 조회·납부하는 것이 가장 편합니다. 서울시는 ETAX, 그 외 인터넷지로·은행·ARS로도 납부할 수 있고, 신용카드·계좌이체가 가능합니다. 자동이체·전자송달을 신청하면 기한을 놓치지 않고 일부 세액공제도 받습니다.',
+  description: '재산세는 위택스(wetax.go.kr)에서 공동·간편인증으로 로그인해 조회·납부하는 것이 가장 편합니다. 서울시는 ETAX, 그 외 인터넷지로·은행·ARS로도 납부할 수 있고, 신용카드·계좌이체가 가능합니다.',
   datePublished: '2026-06-27T09:00:00+09:00',
   dateModified: '2026-06-27T09:00:00+09:00',
   keyFacts: {

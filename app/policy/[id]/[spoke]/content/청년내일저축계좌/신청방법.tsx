@@ -6,7 +6,7 @@ const HOPE = 'https://hope.welfareinfo.or.kr';
 export const 청년내일저축신청SpokeContent: SpokeData = {
   h1: '청년내일저축계좌 신청 방법과 서류, 복지로·행정복지센터',
   breadcrumb: '신청 방법',
-  description: '청년내일저축계좌는 정해진 신청 기간(보통 매년 5월경)에 복지로(bokjiro.go.kr) 온라인 또는 거주지 읍·면·동 행정복지센터에서 신청합니다. 신분증·근로(사업)소득 증빙·통장 등을 제출하고 소득·재산 심사를 거쳐 자격이 인정되면 계좌를 개설해 저축을 시작합니다.',
+  description: '청년내일저축계좌는 정해진 신청 기간(보통 매년 5월경)에 복지로(bokjiro.go.kr) 온라인 또는 거주지 읍·면·동 행정복지센터에서 신청합니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',
   keyFacts: {

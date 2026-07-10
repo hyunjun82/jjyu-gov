@@ -6,7 +6,7 @@ export const superIsaLaunchSpokeContent: SpokeData = {
   h1: '슈퍼ISA 출시일·개설 시점, 언제부터 가능할까(미확정)',
   breadcrumb: 'launch-schedule',
   description:
-    '슈퍼ISA(생산적 금융 ISA)의 정확한 출시일과 개설 가능 시점은 아직 확정되지 않았습니다. 정부(재정경제부)는 대한민국 정책브리핑을 통해 "구체적인 방안은 정해진 바 없다"고 공식 밝혔고, 비과세 한도·소득공제율 등 언론 보도에 대해서도 "신중을 기해달라"고 당부했습니다. 정확한 일정은 금융위원회·재정경제부의 공식 발표를 기다려 확인해야 합니다.',
+    '슈퍼ISA(생산적 금융 ISA)의 정확한 출시일과 개설 가능 시점은 아직 확정되지 않았습니다.',
   datePublished: '2026-07-07T09:00:00+09:00',
   dateModified: '2026-07-07T09:00:00+09:00',
   keyFacts: {

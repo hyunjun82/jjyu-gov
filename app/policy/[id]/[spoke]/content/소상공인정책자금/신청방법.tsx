@@ -6,7 +6,7 @@ const OLS = 'https://ols.sbiz.or.kr';
 export const 정책자금신청방법SpokeContent: SpokeData = {
   h1: '소상공인 정책자금 신청 방법, 직접대출 대리대출',
   breadcrumb: '신청 방법',
-  description: '소상공인 정책자금은 소상공인정책자금 홈페이지(ols.sbiz.or.kr)에서 온라인으로 신청하거나 소상공인시장진흥공단 지역센터를 통해 접수합니다. 자금 유형에 따라 소진공 직접대출 또는 금융기관 대리대출로 진행되며, 문의는 소상공인통합콜센터(☎1533-0100)에서 받습니다.',
+  description: '소상공인 정책자금은 소상공인정책자금 홈페이지(ols.sbiz.or.kr)에서 온라인으로 신청하거나 소상공인시장진흥공단 지역센터를 통해 접수합니다.',
   datePublished: '2026-06-28T09:00:00+09:00',
   dateModified: '2026-06-28T09:00:00+09:00',
   keyFacts: {
