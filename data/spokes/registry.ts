@@ -177,6 +177,9 @@ import { 내일배움카드장려금SpokeContent } from '@/app/policy/[id]/[spok
 import { 내일배움카드대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/대상제외';
 import { 내일배움카드국취제SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/국취제';
 import { 내일배움카드자비부담SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/자비부담';
+import { 내일배움카드대학생SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/대학생';
+import { 내일배움카드출석률패널티SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/출석률패널티';
+import { 내일배움카드계약직기간제SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/계약직기간제';
 
 /* ── 육아휴직급여 (slug: parental-leave-pay) ── */
 import { 급여계산SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/급여계산';
@@ -1245,6 +1248,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '대상제외':    내일배움카드대상SpokeContent,
     '국취제':      내일배움카드국취제SpokeContent,
     '자비부담':    내일배움카드자비부담SpokeContent,
+    'college-student': 내일배움카드대학생SpokeContent,
+    'attendance-penalty': 내일배움카드출석률패널티SpokeContent,
+    'contract-worker': 내일배움카드계약직기간제SpokeContent,
   },
 
   'parental-leave-pay': {

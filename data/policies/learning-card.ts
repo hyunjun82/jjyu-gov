@@ -244,4 +244,7 @@ export const learningcardSpokes = [
   { slug: '대상제외',    role: 'target',  title: '내일배움카드 안 되는 사람? 공무원·대학생·고소득 발급 제외' },
   { slug: '국취제',      role: 'overlap', title: '국민취업지원제도와 내일배움카드 같이 받나, 훈련 연계' },
   { slug: '자비부담',    role: 'amount',  title: '내일배움카드 자비부담 얼마? 무료 과정과 중복 수강 정리' },
+  { slug: 'college-student', role: 'target', title: '내일배움카드 대학생 신청, 졸업까지 수업연한 2년 이내면 가능' },
+  { slug: 'attendance-penalty', role: 'caution', title: '내일배움카드 출석률 80% 미만이면? 훈련장려금과 중도포기 패널티' },
+  { slug: 'contract-worker', role: 'target', title: '계약직·기간제도 내일배움카드 되나, 200만원 추가지원 대상' },
 ];

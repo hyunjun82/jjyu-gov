@@ -259,6 +259,7 @@ import { kPassModuCardPolicy, kPassModuCardSpokes } from './k-pass-modu-card';
 import { hiddenInsuranceMoneyPolicy, hiddenInsuranceMoneySpokes } from './hidden-insurance-money';
 import { movieDiscountVoucherPolicy, movieDiscountVoucherSpokes } from './movie-discount-voucher';
 import { seoulChildbirthHousingSupportPolicy, seoulChildbirthHousingSupportSpokes } from './seoul-childbirth-housing-support';
+import { residentTaxPolicy, residentTaxSpokes } from './resident-tax';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -394,6 +395,7 @@ export const PoliciesById: Record<string, any> = {
   '216': hiddenInsuranceMoneyPolicy,
   '217': movieDiscountVoucherPolicy,
   '218': seoulChildbirthHousingSupportPolicy,
+  '219': residentTaxPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -604,6 +606,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'hidden-insurance-money': hiddenInsuranceMoneyPolicy,
   'movie-discount-voucher': movieDiscountVoucherPolicy,
   'seoul-childbirth-housing-support': seoulChildbirthHousingSupportPolicy,
+  'resident-tax': residentTaxPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -854,6 +857,7 @@ export const SpokesById: Record<string, any[]> = {
   '216': hiddenInsuranceMoneySpokes,
   '217': movieDiscountVoucherSpokes,
   '218': seoulChildbirthHousingSupportSpokes,
+  '219': residentTaxSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1064,6 +1068,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'hidden-insurance-money': hiddenInsuranceMoneySpokes,
   'movie-discount-voucher': movieDiscountVoucherSpokes,
   'seoul-childbirth-housing-support': seoulChildbirthHousingSupportSpokes,
+  'resident-tax': residentTaxSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
