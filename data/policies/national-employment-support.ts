@@ -277,4 +277,5 @@ export const nationalEmploymentSupportSpokes = [
   { slug: '부정수급', label: '부정수급·처벌' },
   { slug: '재참여', label: '재참여 기간' },
   { slug: '구직활동', label: '구직활동 의무' },
+  { slug: 'ineligible-participants', label: '참여 제외 대상(자격증·계약직·자영업자)' },
 ];

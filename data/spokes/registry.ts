@@ -598,6 +598,7 @@ import { 국취중복SpokeContent }     from '@/app/policy/[id]/[spoke]/content/
 import { 국취부정수급SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/부정수급';
 import { 국취재참여SpokeContent }   from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/재참여';
 import { 국취구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/구직활동';
+import { 국취참여제외대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민취업지원제도/참여제외대상';
 /* ── 주거안정장학금 (slug: housing-scholar) ── */
 import { 주거안정장학금지원금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/주거안정장학금/지원금액';
 import { 주거안정장학금신청자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/주거안정장학금/신청자격';
@@ -1743,6 +1744,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '부정수급':   국취부정수급SpokeContent,
     '재참여':     국취재참여SpokeContent,
     '구직활동':   국취구직활동SpokeContent,
+    'ineligible-participants': 국취참여제외대상SpokeContent,
   },
 
   'family-care-leave': {

@@ -264,6 +264,10 @@ import { smileMicrocreditPolicy, smileMicrocreditSpokes } from './smile-microcre
 import { emergencyLivelihoodLoanPolicy, emergencyLivelihoodLoanSpokes } from './emergency-livelihood-loan';
 import { sunshineLoanBankPolicy, sunshineLoanBankSpokes } from './sunshine-loan-bank';
 import { ccrsMicroloanGuaranteePolicy, ccrsMicroloanGuaranteeSpokes } from './ccrs-microloan-guarantee';
+import { livelihoodAccountPolicy, livelihoodAccountSpokes } from './livelihood-account';
+import { vehicleOwnershipTransferPolicy, vehicleOwnershipTransferSpokes } from './vehicle-ownership-transfer';
+import { inheritanceRegistrationPolicy, inheritanceRegistrationSpokes } from './inheritance-registration';
+import { mortgageCancellationPolicy, mortgageCancellationSpokes } from './mortgage-cancellation';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -404,6 +408,10 @@ export const PoliciesById: Record<string, any> = {
   '221': emergencyLivelihoodLoanPolicy,
   '222': sunshineLoanBankPolicy,
   '223': ccrsMicroloanGuaranteePolicy,
+  '224': livelihoodAccountPolicy,
+  '225': vehicleOwnershipTransferPolicy,
+  '226': inheritanceRegistrationPolicy,
+  '227': mortgageCancellationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -619,6 +627,10 @@ export const PoliciesBySlug: Record<string, any> = {
   'emergency-livelihood-loan': emergencyLivelihoodLoanPolicy,
   'sunshine-loan-bank': sunshineLoanBankPolicy,
   'ccrs-microloan-guarantee': ccrsMicroloanGuaranteePolicy,
+  'livelihood-account': livelihoodAccountPolicy,
+  'vehicle-ownership-transfer': vehicleOwnershipTransferPolicy,
+  'inheritance-registration': inheritanceRegistrationPolicy,
+  'mortgage-cancellation': mortgageCancellationPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -874,6 +886,10 @@ export const SpokesById: Record<string, any[]> = {
   '221': emergencyLivelihoodLoanSpokes,
   '222': sunshineLoanBankSpokes,
   '223': ccrsMicroloanGuaranteeSpokes,
+  '224': livelihoodAccountSpokes,
+  '225': vehicleOwnershipTransferSpokes,
+  '226': inheritanceRegistrationSpokes,
+  '227': mortgageCancellationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1089,6 +1105,10 @@ export const SpokesBySlug: Record<string, any[]> = {
   'emergency-livelihood-loan': emergencyLivelihoodLoanSpokes,
   'sunshine-loan-bank': sunshineLoanBankSpokes,
   'ccrs-microloan-guarantee': ccrsMicroloanGuaranteeSpokes,
+  'livelihood-account': livelihoodAccountSpokes,
+  'vehicle-ownership-transfer': vehicleOwnershipTransferSpokes,
+  'inheritance-registration': inheritanceRegistrationSpokes,
+  'mortgage-cancellation': mortgageCancellationSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
