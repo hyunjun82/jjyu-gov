@@ -96,4 +96,5 @@ export const indemnityInsuranceGenerationsSpokes = [
   { slug: 'duplicate-coverage', role: 'overlap', title: '실비보험 여러 개 가입하면 중복으로 보상받나요?' },
   { slug: 'maturity', role: 'overview', title: '실비보험 만기, 사실은 없다는 게 맞나요?' },
   { slug: 'claim-documents', role: 'apply', title: '실비보험 청구 서류, 입원·통원마다 뭐가 필요한가요?' },
+  { slug: 'direct-comparison', role: 'apply', title: '실비보험 다이렉트 가입, 어디서 비교하는 게 정확한가요?' },
 ];

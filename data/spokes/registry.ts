@@ -200,6 +200,7 @@ import { 실손보험압류SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 실손보험중복보상SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/중복보상';
 import { 실손보험만기SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/만기';
 import { 실손보험청구방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/청구방법';
+import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/다이렉트비교';
 import { 육아휴직분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/분할';
 import { 육아휴직복직SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/복직';
 import { 육아휴직연차SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/연차';
@@ -1298,6 +1299,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'duplicate-coverage': 실손보험중복보상SpokeContent,
     'maturity': 실손보험만기SpokeContent,
     'claim-documents': 실손보험청구방법SpokeContent,
+    'direct-comparison': 실손보험다이렉트비교SpokeContent,
   },
 
   'new-leap': {
