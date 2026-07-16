@@ -92,4 +92,6 @@ export const indemnityInsuranceGenerationsSpokes = [
   { slug: 'eligibility', role: 'eligibility', title: '실비보험 가입조건과 나이, 몇 살까지 가능한가요?' },
   { slug: 'non-covered-benefits', role: 'overview', title: '실비보험 비급여 보장, 한도와 자기부담은 어떻게 되나요?' },
   { slug: 'renewal-reenrollment', role: 'usage', title: '실비보험 갱신과 재가입 차이, 세대별로 몇 년마다 바뀌나요?' },
+  { slug: 'seizure', role: 'overlap', title: '실비보험 압류, 치료비는 전액 못 가져가는 게 맞나요?' },
+  { slug: 'duplicate-coverage', role: 'overlap', title: '실비보험 여러 개 가입하면 중복으로 보상받나요?' },
 ];

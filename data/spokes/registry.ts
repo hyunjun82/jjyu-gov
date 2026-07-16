@@ -196,6 +196,8 @@ import { 육아휴직확인서발급SpokeContent } from '@/app/policy/[id]/[spok
 import { 실손보험가입조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/가입조건';
 import { 실손보험비급여보장SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비급여보장';
 import { 실손보험갱신재가입SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/갱신재가입';
+import { 실손보험압류SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/압류';
+import { 실손보험중복보상SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/중복보상';
 import { 육아휴직분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/분할';
 import { 육아휴직복직SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/복직';
 import { 육아휴직연차SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/연차';
@@ -1290,6 +1292,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'eligibility': 실손보험가입조건SpokeContent,
     'non-covered-benefits': 실손보험비급여보장SpokeContent,
     'renewal-reenrollment': 실손보험갱신재가입SpokeContent,
+    'seizure': 실손보험압류SpokeContent,
+    'duplicate-coverage': 실손보험중복보상SpokeContent,
   },
 
   'new-leap': {
