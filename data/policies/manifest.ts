@@ -275,6 +275,13 @@ import { jeonseRightRegistrationPolicy, jeonseRightRegistrationSpokes } from './
 import { minimumWage2027Policy, minimumWage2027Spokes } from './minimum-wage-2027';
 import { indemnityInsuranceGenerationsPolicy, indemnityInsuranceGenerationsSpokes } from './indemnity-insurance-generations';
 import { savingsLadderStrategyPolicy, savingsLadderStrategySpokes } from './savings-ladder-strategy';
+import { autoInsuranceLossRatioPolicy, autoInsuranceLossRatioSpokes } from './auto-insurance-loss-ratio';
+import { housingPensionPolicy, housingPensionSpokes } from './housing-pension';
+import { petInsuranceGuidePolicy, petInsuranceGuideSpokes } from './pet-insurance-guide';
+import { dentalImplantInsurancePolicy, dentalImplantInsuranceSpokes } from './dental-implant-insurance';
+import { nursingFacilityInsurancePolicy, nursingFacilityInsuranceSpokes } from './nursing-facility-insurance';
+import { dementiaInsurancePolicy, dementiaInsuranceSpokes } from './dementia-insurance';
+import { dollarInsuranceWarningPolicy, dollarInsuranceWarningSpokes } from './dollar-insurance-warning';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -426,6 +433,13 @@ export const PoliciesById: Record<string, any> = {
   '232': minimumWage2027Policy,
   '233': indemnityInsuranceGenerationsPolicy,
   '234': savingsLadderStrategyPolicy,
+  '235': autoInsuranceLossRatioPolicy,
+  '236': housingPensionPolicy,
+  '237': petInsuranceGuidePolicy,
+  '238': dentalImplantInsurancePolicy,
+  '239': nursingFacilityInsurancePolicy,
+  '240': dementiaInsurancePolicy,
+  '241': dollarInsuranceWarningPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -652,6 +666,13 @@ export const PoliciesBySlug: Record<string, any> = {
   'minimum-wage-2027': minimumWage2027Policy,
   'indemnity-insurance-generations': indemnityInsuranceGenerationsPolicy,
   'savings-ladder-strategy': savingsLadderStrategyPolicy,
+  'auto-insurance-loss-ratio': autoInsuranceLossRatioPolicy,
+  'housing-pension': housingPensionPolicy,
+  'pet-insurance-guide': petInsuranceGuidePolicy,
+  'dental-implant-insurance': dentalImplantInsurancePolicy,
+  'nursing-facility-insurance': nursingFacilityInsurancePolicy,
+  'dementia-insurance': dementiaInsurancePolicy,
+  'dollar-insurance-warning': dollarInsuranceWarningPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -918,6 +939,13 @@ export const SpokesById: Record<string, any[]> = {
   '232': minimumWage2027Spokes,
   '233': indemnityInsuranceGenerationsSpokes,
   '234': savingsLadderStrategySpokes,
+  '235': autoInsuranceLossRatioSpokes,
+  '236': housingPensionSpokes,
+  '237': petInsuranceGuideSpokes,
+  '238': dentalImplantInsuranceSpokes,
+  '239': nursingFacilityInsuranceSpokes,
+  '240': dementiaInsuranceSpokes,
+  '241': dollarInsuranceWarningSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1144,6 +1172,13 @@ export const SpokesBySlug: Record<string, any[]> = {
   'minimum-wage-2027': minimumWage2027Spokes,
   'indemnity-insurance-generations': indemnityInsuranceGenerationsSpokes,
   'savings-ladder-strategy': savingsLadderStrategySpokes,
+  'auto-insurance-loss-ratio': autoInsuranceLossRatioSpokes,
+  'housing-pension': housingPensionSpokes,
+  'pet-insurance-guide': petInsuranceGuideSpokes,
+  'dental-implant-insurance': dentalImplantInsuranceSpokes,
+  'nursing-facility-insurance': nursingFacilityInsuranceSpokes,
+  'dementia-insurance': dementiaInsuranceSpokes,
+  'dollar-insurance-warning': dollarInsuranceWarningSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,

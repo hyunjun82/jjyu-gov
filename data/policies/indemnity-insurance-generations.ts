@@ -102,4 +102,7 @@ export const indemnityInsuranceGenerationsSpokes = [
   { slug: 'payment-suspension', role: 'usage', title: '실비보험 해외 체류 시 납입중지, 어떻게 신청하나요?' },
   { slug: 'health-checkup-claim', role: 'apply', title: '건강검진 받다가 용종 발견되면 실비 청구되나요?' },
   { slug: 'first-gen-cancel-check', role: 'eligibility', title: '1세대 실손보험 해지해도 될까요? 5세대 전환 전 체크리스트' },
+  { slug: 'second-fourth-gen-conversion', role: 'eligibility', title: '2~4세대 실손보험, 5세대로 전환해도 될까요?' },
+  { slug: 'neck-disc-claim', role: 'apply', title: '목디스크 MRI·수술, 실비 보험금 받을 수 있나요?' },
+  { slug: 'group-vs-individual', role: 'compare', title: '회사 단체실손 있는데 개인실손도 필요한가요?' },
 ];

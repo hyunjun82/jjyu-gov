@@ -122,6 +122,8 @@ import { hiddenInsuranceHowToFindSpokeContent } from '@/app/policy/[id]/[spoke]/
 import { hiddenInsuranceLimitationPeriodSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/limitation-period';
 import { hiddenInsuranceInheritanceCheckSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/inheritance-check';
 import { hiddenInsuranceClaimRefundSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/claim-and-refund';
+import { autoInsurancePremiumCalculationTipsSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/보험료계산방법및절약팁';
+import { autoInsurancePremiumSavingSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/premium-saving-special-terms';
 import { 실업급여상한하한SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상한하한액';
 import { 실업급여수령액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수령액계산';
 import { 실업급여소정일수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/소정급여일수';
@@ -208,6 +210,9 @@ import { 실손보험카드결제SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실손보험납입중지SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/납입중지';
 import { 실손보험건강검진청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/건강검진청구';
 import { 실손보험1세대해지판단SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/1세대해지판단';
+import { 실손보험24세대전환판단SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/24세대전환판단';
+import { 실손보험목디스크청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/목디스크청구';
+import { 실손보험단체개인비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/단체개인비교';
 import { 육아휴직분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/분할';
 import { 육아휴직복직SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/복직';
 import { 육아휴직연차SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/연차';
@@ -1313,6 +1318,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'payment-suspension': 실손보험납입중지SpokeContent,
     'health-checkup-claim': 실손보험건강검진청구SpokeContent,
     'first-gen-cancel-check': 실손보험1세대해지판단SpokeContent,
+    'second-fourth-gen-conversion': 실손보험24세대전환판단SpokeContent,
+    'neck-disc-claim': 실손보험목디스크청구SpokeContent,
+    'group-vs-individual': 실손보험단체개인비교SpokeContent,
   },
 
   'new-leap': {
@@ -2520,6 +2528,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'limitation-period': hiddenInsuranceLimitationPeriodSpokeContent,
     'inheritance-check': hiddenInsuranceInheritanceCheckSpokeContent,
     'claim-and-refund': hiddenInsuranceClaimRefundSpokeContent,
+  },
+
+  'auto-insurance-loss-ratio': {
+    'premium-calculation-tips': autoInsurancePremiumCalculationTipsSpokeContent,
+    'premium-saving-special-terms': autoInsurancePremiumSavingSpokeContent,
   },
 
 };
