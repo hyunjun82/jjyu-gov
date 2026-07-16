@@ -193,6 +193,9 @@ import { 육아휴직부정수급SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 육아휴직조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/조건';
 import { 육아휴직1년6개월SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/1년6개월';
 import { 육아휴직확인서발급SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/확인서발급';
+import { 실손보험가입조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/가입조건';
+import { 실손보험비급여보장SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비급여보장';
+import { 실손보험갱신재가입SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/갱신재가입';
 import { 육아휴직분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/분할';
 import { 육아휴직복직SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/복직';
 import { 육아휴직연차SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/연차';
@@ -1281,6 +1284,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'eligibility': 육아휴직조건SpokeContent,
     '18-months': 육아휴직1년6개월SpokeContent,
     'confirmation-letter': 육아휴직확인서발급SpokeContent,
+  },
+
+  'indemnity-insurance-generations': {
+    'eligibility': 실손보험가입조건SpokeContent,
+    'non-covered-benefits': 실손보험비급여보장SpokeContent,
+    'renewal-reenrollment': 실손보험갱신재가입SpokeContent,
   },
 
   'new-leap': {
