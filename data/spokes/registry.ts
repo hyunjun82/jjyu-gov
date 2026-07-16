@@ -827,6 +827,7 @@ import { 도수치료실비SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 도수치료관리급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/관리급여';
 import { 도수치료횟수SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/횟수';
 import { 도수치료물리치료비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/물리치료비교';
+import { 도수치료산재SpokeContent } from '@/app/policy/[id]/[spoke]/content/도수치료/산재';
 
 /* ── 노란우산공제 납입한도 확대 (slug: noran-umbrella) ── */
 import { 노란우산공제납입한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/노란우산공제/납입한도';
@@ -1837,6 +1838,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '관리급여': 도수치료관리급여SpokeContent,
     '횟수': 도수치료횟수SpokeContent,
     '물리치료비교': 도수치료물리치료비교SpokeContent,
+    '산재': 도수치료산재SpokeContent,
   },
 
   'noran-umbrella': {
