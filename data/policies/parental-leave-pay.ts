@@ -138,4 +138,9 @@ export const parentalLeavePaySpokes = [
   { slug: '국민연금', role: 'overlap', title: '육아휴직 국민연금, 납부예외와 추후납부로 채우기' },
   { slug: '12세',     role: 'usage',   title: '육아휴직 12세 확대, 공무원·교사와 일반 근로자 차이' },
   { slug: '단기육아휴직', role: 'usage', title: '단기 육아휴직 8월 20일 시행, 1주·2주 유급 급여·신청 조건' },
+  { slug: 'civil-servant', role: 'eligibility', title: '공무원 육아휴직 급여, 일반 근로자와 뭐가 다른가요?' },
+  { slug: 'fraud', role: 'overlap', title: '육아휴직급여 부정수급, 걸리면 얼마나 토해내고 처벌받나요?' },
+  { slug: 'eligibility', role: 'eligibility', title: '육아휴직 조건, 자녀 나이와 근무기간 기준을 한번에' },
+  { slug: '18-months', role: 'usage', title: '육아휴직 1년 6개월, 누가 어떻게 6개월 더 쓸 수 있나요?' },
+  { slug: 'confirmation-letter', role: 'apply', title: '육아휴직 확인서 발급, 누가 언제 어떻게 떼주나요?' },
 ];

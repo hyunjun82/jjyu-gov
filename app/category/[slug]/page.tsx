@@ -10,6 +10,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   welfare: '복지',
   tax:     '세금',
   medical: '의료',
+  insurance: '보험',
   life:    '생활정보',
 };
 

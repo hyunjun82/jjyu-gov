@@ -188,6 +188,11 @@ import { 육아휴직신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 회사부담SpokeContent }     from '@/app/policy/[id]/[spoke]/content/육아휴직급여/회사부담';
 import { 육아휴직한부모SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/한부모';
 import { 육아휴직건강보험료SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/건강보험료';
+import { 육아휴직공무원SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/공무원';
+import { 육아휴직부정수급SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/부정수급';
+import { 육아휴직조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/조건';
+import { 육아휴직1년6개월SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/1년6개월';
+import { 육아휴직확인서발급SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/확인서발급';
 import { 육아휴직분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/분할';
 import { 육아휴직복직SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/복직';
 import { 육아휴직연차SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/연차';
@@ -1271,6 +1276,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '국민연금':  육아휴직국민연금SpokeContent,
     '12세':      육아휴직12세SpokeContent,
     '단기육아휴직': 육아휴직단기SpokeContent,
+    'civil-servant': 육아휴직공무원SpokeContent,
+    'fraud': 육아휴직부정수급SpokeContent,
+    'eligibility': 육아휴직조건SpokeContent,
+    '18-months': 육아휴직1년6개월SpokeContent,
+    'confirmation-letter': 육아휴직확인서발급SpokeContent,
   },
 
   'new-leap': {
