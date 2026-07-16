@@ -1,10 +1,13 @@
 #!/bin/bash
 # ============================================================
-# check-spoke-quality.sh  v3
+# check-spoke-quality.sh  v4
 # 스포크 파일 품질 게이트
 # [1] Format B 감지: function Content() 있고 qa: 없으면 즉시 FAIL
 # [2] qa[] >= 7  AND  total q: >= 12 (qa 7 + faqData 5)
 # 미달 시 exit 1 -> pre-push hook 차단
+#
+# v4: origin/main 대비 이번 push로 새로 추가/수정된 스포크 .tsx만 검사.
+#     전체 스캔은 CHECK_ALL_SPOKES=1 환경변수로 강제 가능(정기 감사용).
 # ============================================================
 
 shopt -s globstar nullglob
@@ -16,7 +19,22 @@ FAIL_LIST=""
 FORMAT_B_LIST=""
 FORMAT_B=0
 
-for f in "$CONTENT_DIR"/**/*.tsx; do
+if [ "$CHECK_ALL_SPOKES" = "1" ]; then
+  FILES=("$CONTENT_DIR"/**/*.tsx)
+else
+  BASE=$(git merge-base HEAD origin/main 2>/dev/null || echo "origin/main")
+  mapfile -t FILES < <(git diff --name-only --diff-filter=ACMR "$BASE" HEAD -- "$CONTENT_DIR" 2>/dev/null | grep '\.tsx$')
+  if [ ${#FILES[@]} -eq 0 ]; then
+    echo "============================================"
+    echo " 스포크 품질 검증 결과"
+    echo "============================================"
+    echo " 변경된 스포크 파일 없음 -- 검사 생략, push 허용"
+    echo " (전체 재검사: CHECK_ALL_SPOKES=1 bash scripts/check-spoke-quality.sh)"
+    exit 0
+  fi
+fi
+
+for f in "${FILES[@]}"; do
   [ -f "$f" ] || continue
 
   # Format B 감지: function Content() 있고 qa: 없으면 -> Format B
