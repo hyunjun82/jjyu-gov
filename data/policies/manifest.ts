@@ -272,6 +272,7 @@ import { nationalPensionBackPaymentPolicy, nationalPensionBackPaymentSpokes } fr
 import { dcPensionEarlyWithdrawalPolicy, dcPensionEarlyWithdrawalSpokes } from './dc-pension-early-withdrawal';
 import { nationalPensionLumpSumPolicy, nationalPensionLumpSumSpokes } from './national-pension-lump-sum';
 import { jeonseRightRegistrationPolicy, jeonseRightRegistrationSpokes } from './jeonse-right-registration';
+import { minimumWage2027Policy, minimumWage2027Spokes } from './minimum-wage-2027';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -420,6 +421,7 @@ export const PoliciesById: Record<string, any> = {
   '229': dcPensionEarlyWithdrawalPolicy,
   '230': nationalPensionLumpSumPolicy,
   '231': jeonseRightRegistrationPolicy,
+  '232': minimumWage2027Policy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -643,6 +645,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'dc-pension-early-withdrawal': dcPensionEarlyWithdrawalPolicy,
   'national-pension-lump-sum': nationalPensionLumpSumPolicy,
   'jeonse-right-registration': jeonseRightRegistrationPolicy,
+  'minimum-wage-2027': minimumWage2027Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -906,6 +909,7 @@ export const SpokesById: Record<string, any[]> = {
   '229': dcPensionEarlyWithdrawalSpokes,
   '230': nationalPensionLumpSumSpokes,
   '231': jeonseRightRegistrationSpokes,
+  '232': minimumWage2027Spokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1129,6 +1133,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'dc-pension-early-withdrawal': dcPensionEarlyWithdrawalSpokes,
   'national-pension-lump-sum': nationalPensionLumpSumSpokes,
   'jeonse-right-registration': jeonseRightRegistrationSpokes,
+  'minimum-wage-2027': minimumWage2027Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
