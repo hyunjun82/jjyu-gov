@@ -282,6 +282,10 @@ import { dentalImplantInsurancePolicy, dentalImplantInsuranceSpokes } from './de
 import { nursingFacilityInsurancePolicy, nursingFacilityInsuranceSpokes } from './nursing-facility-insurance';
 import { dementiaInsurancePolicy, dementiaInsuranceSpokes } from './dementia-insurance';
 import { dollarInsuranceWarningPolicy, dollarInsuranceWarningSpokes } from './dollar-insurance-warning';
+import { scienceCultureVoucherPolicy, scienceCultureVoucherSpokes } from './science-culture-voucher';
+import { inverterAcElectricitySavingPolicy, inverterAcElectricitySavingSpokes } from './inverter-ac-electricity-saving';
+import { daisoStockAndRefundPolicy, daisoStockAndRefundSpokes } from './daiso-stock-and-refund';
+import { coupangRefundPeriodPolicy, coupangRefundPeriodSpokes } from './coupang-refund-period';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -440,6 +444,10 @@ export const PoliciesById: Record<string, any> = {
   '239': nursingFacilityInsurancePolicy,
   '240': dementiaInsurancePolicy,
   '241': dollarInsuranceWarningPolicy,
+  '242': scienceCultureVoucherPolicy,
+  '243': inverterAcElectricitySavingPolicy,
+  '244': daisoStockAndRefundPolicy,
+  '245': coupangRefundPeriodPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -673,6 +681,10 @@ export const PoliciesBySlug: Record<string, any> = {
   'nursing-facility-insurance': nursingFacilityInsurancePolicy,
   'dementia-insurance': dementiaInsurancePolicy,
   'dollar-insurance-warning': dollarInsuranceWarningPolicy,
+  'science-culture-voucher': scienceCultureVoucherPolicy,
+  'inverter-ac-electricity-saving': inverterAcElectricitySavingPolicy,
+  'daiso-stock-and-refund': daisoStockAndRefundPolicy,
+  'coupang-refund-period': coupangRefundPeriodPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -946,6 +958,10 @@ export const SpokesById: Record<string, any[]> = {
   '239': nursingFacilityInsuranceSpokes,
   '240': dementiaInsuranceSpokes,
   '241': dollarInsuranceWarningSpokes,
+  '242': scienceCultureVoucherSpokes,
+  '243': inverterAcElectricitySavingSpokes,
+  '244': daisoStockAndRefundSpokes,
+  '245': coupangRefundPeriodSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1179,6 +1195,10 @@ export const SpokesBySlug: Record<string, any[]> = {
   'nursing-facility-insurance': nursingFacilityInsuranceSpokes,
   'dementia-insurance': dementiaInsuranceSpokes,
   'dollar-insurance-warning': dollarInsuranceWarningSpokes,
+  'science-culture-voucher': scienceCultureVoucherSpokes,
+  'inverter-ac-electricity-saving': inverterAcElectricitySavingSpokes,
+  'daiso-stock-and-refund': daisoStockAndRefundSpokes,
+  'coupang-refund-period': coupangRefundPeriodSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
