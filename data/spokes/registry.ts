@@ -79,6 +79,8 @@ import { 채무조정면책SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 채무조정재산처리SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/재산처리';
 import { 채무조정개인파산자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인파산자격';
 import { 채무조정개인파산절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인파산절차';
+import { 채무조정신속채무조정SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정';
+import { 채무조정단계별비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/단계별비교';
 import { 상속포기기한SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/기한';
 import { 상속포기한정승인SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/한정승인';
 import { 상속포기특별한정승인SpokeContent } from '@/app/policy/[id]/[spoke]/content/상속포기/특별한정승인';
@@ -2445,6 +2447,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'rehabilitation-asset-treatment': 채무조정재산처리SpokeContent,
     'personal-bankruptcy-eligibility': 채무조정개인파산자격SpokeContent,
     'personal-bankruptcy-procedure': 채무조정개인파산절차SpokeContent,
+    'speedy-debt-adjustment': 채무조정신속채무조정SpokeContent,
+    'stage-comparison': 채무조정단계별비교SpokeContent,
   },
 
   'inheritance-renunciation': {

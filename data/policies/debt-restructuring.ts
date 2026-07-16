@@ -109,4 +109,6 @@ export const debtRestructuringSpokes = [
   { slug: 'rehabilitation-asset-treatment', role: 'target', title: '개인회생하면 집·차 뺏기나? 재산 유지·압류 중지', content: '재산 청산 안 하고 보유하며 변제. 개시결정 시 압류·경매 중지(§600). 청산가치 보장(§614).' },
   { slug: 'personal-bankruptcy-eligibility', role: 'compare', title: '개인파산 자격조건과 불이익, 누가 신청하나', content: '지급불능 상태의 개인. 복권 전 자격 제한(본인 한정). 면책까지 받아야 책임 면제(§566).' },
   { slug: 'personal-bankruptcy-procedure', role: 'compare', title: '개인파산 절차와 기간, 신청부터 면책까지', content: '신청→30일 내 선고 결정→동시폐지(§317)/파산관재인(§312)→면책(§566).' },
+  { slug: 'speedy-debt-adjustment', role: 'apply', title: '신속채무조정, 연체 30일 이하인데 벌써 신청되나요?', content: '연체 30일 이하(또는 연체 전 6개 요건), 이자 30~50% 인하, 최장 10년 분할, 추심 즉시 중단.' },
+  { slug: 'stage-comparison', role: 'overlap', title: '신속·사전채무조정·개인워크아웃, 연체 며칠이면 뭘 신청하나요?', content: '연체 30일/31~89일/90일 이상 기준 3단계 비교. 이자조정→원금조정으로 성격 변화.' },
 ];
