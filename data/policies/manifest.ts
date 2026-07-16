@@ -268,6 +268,10 @@ import { livelihoodAccountPolicy, livelihoodAccountSpokes } from './livelihood-a
 import { vehicleOwnershipTransferPolicy, vehicleOwnershipTransferSpokes } from './vehicle-ownership-transfer';
 import { inheritanceRegistrationPolicy, inheritanceRegistrationSpokes } from './inheritance-registration';
 import { mortgageCancellationPolicy, mortgageCancellationSpokes } from './mortgage-cancellation';
+import { nationalPensionBackPaymentPolicy, nationalPensionBackPaymentSpokes } from './national-pension-back-payment';
+import { dcPensionEarlyWithdrawalPolicy, dcPensionEarlyWithdrawalSpokes } from './dc-pension-early-withdrawal';
+import { nationalPensionLumpSumPolicy, nationalPensionLumpSumSpokes } from './national-pension-lump-sum';
+import { jeonseRightRegistrationPolicy, jeonseRightRegistrationSpokes } from './jeonse-right-registration';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -412,6 +416,10 @@ export const PoliciesById: Record<string, any> = {
   '225': vehicleOwnershipTransferPolicy,
   '226': inheritanceRegistrationPolicy,
   '227': mortgageCancellationPolicy,
+  '228': nationalPensionBackPaymentPolicy,
+  '229': dcPensionEarlyWithdrawalPolicy,
+  '230': nationalPensionLumpSumPolicy,
+  '231': jeonseRightRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -631,6 +639,10 @@ export const PoliciesBySlug: Record<string, any> = {
   'vehicle-ownership-transfer': vehicleOwnershipTransferPolicy,
   'inheritance-registration': inheritanceRegistrationPolicy,
   'mortgage-cancellation': mortgageCancellationPolicy,
+  'national-pension-back-payment': nationalPensionBackPaymentPolicy,
+  'dc-pension-early-withdrawal': dcPensionEarlyWithdrawalPolicy,
+  'national-pension-lump-sum': nationalPensionLumpSumPolicy,
+  'jeonse-right-registration': jeonseRightRegistrationPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -890,6 +902,10 @@ export const SpokesById: Record<string, any[]> = {
   '225': vehicleOwnershipTransferSpokes,
   '226': inheritanceRegistrationSpokes,
   '227': mortgageCancellationSpokes,
+  '228': nationalPensionBackPaymentSpokes,
+  '229': dcPensionEarlyWithdrawalSpokes,
+  '230': nationalPensionLumpSumSpokes,
+  '231': jeonseRightRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1109,6 +1125,10 @@ export const SpokesBySlug: Record<string, any[]> = {
   'vehicle-ownership-transfer': vehicleOwnershipTransferSpokes,
   'inheritance-registration': inheritanceRegistrationSpokes,
   'mortgage-cancellation': mortgageCancellationSpokes,
+  'national-pension-back-payment': nationalPensionBackPaymentSpokes,
+  'dc-pension-early-withdrawal': dcPensionEarlyWithdrawalSpokes,
+  'national-pension-lump-sum': nationalPensionLumpSumSpokes,
+  'jeonse-right-registration': jeonseRightRegistrationSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
