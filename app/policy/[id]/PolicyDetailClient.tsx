@@ -196,10 +196,12 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
           </div>
 
           <div className="detail-cta">
-            <div>
-              <div className="cta-amount-label">{d.amountLabel || '지원 금액'}</div>
-              <div className="cta-amount">{d.amount}</div>
-            </div>
+            {!d.hideAmountBox && (
+              <div>
+                <div className="cta-amount-label">{d.amountLabel || '지원 금액'}</div>
+                <div className="cta-amount">{d.amount}</div>
+              </div>
+            )}
             <a href={d.applyUrl} className="btn-cta" rel="noopener">
               {d.ctaLabel || '신청하기'}
             </a>
