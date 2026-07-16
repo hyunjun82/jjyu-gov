@@ -286,6 +286,7 @@ import { scienceCultureVoucherPolicy, scienceCultureVoucherSpokes } from './scie
 import { inverterAcElectricitySavingPolicy, inverterAcElectricitySavingSpokes } from './inverter-ac-electricity-saving';
 import { daisoStockAndRefundPolicy, daisoStockAndRefundSpokes } from './daiso-stock-and-refund';
 import { coupangRefundPeriodPolicy, coupangRefundPeriodSpokes } from './coupang-refund-period';
+import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -448,6 +449,7 @@ export const PoliciesById: Record<string, any> = {
   '243': inverterAcElectricitySavingPolicy,
   '244': daisoStockAndRefundPolicy,
   '245': coupangRefundPeriodPolicy,
+  '246': heartDiseaseDiagnosisRiderPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -685,6 +687,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'inverter-ac-electricity-saving': inverterAcElectricitySavingPolicy,
   'daiso-stock-and-refund': daisoStockAndRefundPolicy,
   'coupang-refund-period': coupangRefundPeriodPolicy,
+  'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -962,6 +965,7 @@ export const SpokesById: Record<string, any[]> = {
   '243': inverterAcElectricitySavingSpokes,
   '244': daisoStockAndRefundSpokes,
   '245': coupangRefundPeriodSpokes,
+  '246': heartDiseaseDiagnosisRiderSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1199,6 +1203,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'inverter-ac-electricity-saving': inverterAcElectricitySavingSpokes,
   'daiso-stock-and-refund': daisoStockAndRefundSpokes,
   'coupang-refund-period': coupangRefundPeriodSpokes,
+  'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
