@@ -94,4 +94,5 @@ export const indemnityInsuranceGenerationsSpokes = [
   { slug: 'renewal-reenrollment', role: 'usage', title: '실비보험 갱신과 재가입 차이, 세대별로 몇 년마다 바뀌나요?' },
   { slug: 'seizure', role: 'overlap', title: '실비보험 압류, 치료비는 전액 못 가져가는 게 맞나요?' },
   { slug: 'duplicate-coverage', role: 'overlap', title: '실비보험 여러 개 가입하면 중복으로 보상받나요?' },
+  { slug: 'maturity', role: 'overview', title: '실비보험 만기, 사실은 없다는 게 맞나요?' },
 ];
