@@ -98,4 +98,6 @@ export const indemnityInsuranceGenerationsSpokes = [
   { slug: 'claim-documents', role: 'apply', title: '실비보험 청구 서류, 입원·통원마다 뭐가 필요한가요?' },
   { slug: 'direct-comparison', role: 'apply', title: '실비보험 다이렉트 가입, 어디서 비교하는 게 정확한가요?' },
   { slug: 'lapse-revival', role: 'overlap', title: '실비보험 실효, 뜻과 부활 방법을 알려주세요' },
+  { slug: 'card-payment', role: 'apply', title: '실비보험 카드결제, 되는 회사 안 되는 회사 있나요?' },
+  { slug: 'payment-suspension', role: 'usage', title: '실비보험 해외 체류 시 납입중지, 어떻게 신청하나요?' },
 ];
