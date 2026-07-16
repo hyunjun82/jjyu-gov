@@ -204,6 +204,8 @@ import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[s
 import { 실손보험실효부활SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실효부활';
 import { 실손보험카드결제SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/카드결제';
 import { 실손보험납입중지SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/납입중지';
+import { 실손보험건강검진청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/건강검진청구';
+import { 실손보험1세대해지판단SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/1세대해지판단';
 import { 육아휴직분할SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/분할';
 import { 육아휴직복직SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/복직';
 import { 육아휴직연차SpokeContent } from '@/app/policy/[id]/[spoke]/content/육아휴직급여/연차';
@@ -1307,6 +1309,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'lapse-revival': 실손보험실효부활SpokeContent,
     'card-payment': 실손보험카드결제SpokeContent,
     'payment-suspension': 실손보험납입중지SpokeContent,
+    'health-checkup-claim': 실손보험건강검진청구SpokeContent,
+    'first-gen-cancel-check': 실손보험1세대해지판단SpokeContent,
   },
 
   'new-leap': {

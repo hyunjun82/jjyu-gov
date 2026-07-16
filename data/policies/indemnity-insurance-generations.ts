@@ -100,4 +100,6 @@ export const indemnityInsuranceGenerationsSpokes = [
   { slug: 'lapse-revival', role: 'overlap', title: '실비보험 실효, 뜻과 부활 방법을 알려주세요' },
   { slug: 'card-payment', role: 'apply', title: '실비보험 카드결제, 되는 회사 안 되는 회사 있나요?' },
   { slug: 'payment-suspension', role: 'usage', title: '실비보험 해외 체류 시 납입중지, 어떻게 신청하나요?' },
+  { slug: 'health-checkup-claim', role: 'apply', title: '건강검진 받다가 용종 발견되면 실비 청구되나요?' },
+  { slug: 'first-gen-cancel-check', role: 'eligibility', title: '1세대 실손보험 해지해도 될까요? 5세대 전환 전 체크리스트' },
 ];

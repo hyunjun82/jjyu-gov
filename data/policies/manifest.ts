@@ -274,6 +274,7 @@ import { nationalPensionLumpSumPolicy, nationalPensionLumpSumSpokes } from './na
 import { jeonseRightRegistrationPolicy, jeonseRightRegistrationSpokes } from './jeonse-right-registration';
 import { minimumWage2027Policy, minimumWage2027Spokes } from './minimum-wage-2027';
 import { indemnityInsuranceGenerationsPolicy, indemnityInsuranceGenerationsSpokes } from './indemnity-insurance-generations';
+import { savingsLadderStrategyPolicy, savingsLadderStrategySpokes } from './savings-ladder-strategy';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -424,6 +425,7 @@ export const PoliciesById: Record<string, any> = {
   '231': jeonseRightRegistrationPolicy,
   '232': minimumWage2027Policy,
   '233': indemnityInsuranceGenerationsPolicy,
+  '234': savingsLadderStrategyPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -649,6 +651,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'jeonse-right-registration': jeonseRightRegistrationPolicy,
   'minimum-wage-2027': minimumWage2027Policy,
   'indemnity-insurance-generations': indemnityInsuranceGenerationsPolicy,
+  'savings-ladder-strategy': savingsLadderStrategyPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -914,6 +917,7 @@ export const SpokesById: Record<string, any[]> = {
   '231': jeonseRightRegistrationSpokes,
   '232': minimumWage2027Spokes,
   '233': indemnityInsuranceGenerationsSpokes,
+  '234': savingsLadderStrategySpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1139,6 +1143,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'jeonse-right-registration': jeonseRightRegistrationSpokes,
   'minimum-wage-2027': minimumWage2027Spokes,
   'indemnity-insurance-generations': indemnityInsuranceGenerationsSpokes,
+  'savings-ladder-strategy': savingsLadderStrategySpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
