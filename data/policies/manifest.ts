@@ -307,6 +307,11 @@ import { ltciGradeCriteriaGuidePolicy, ltciGradeCriteriaGuideSpokes } from './lt
 import { postalInsuranceFetusRegistrationPolicy, postalInsuranceFetusRegistrationSpokes } from './postal-insurance-fetus-registration';
 import { nationalHealthInsurancePolicy, nationalHealthInsuranceSpokes } from './national-health-insurance';
 import { nationalHealthInsuranceRegionalPolicy, nationalHealthInsuranceRegionalSpokes } from './national-health-insurance-regional';
+import { residentialMonthlyRentLoanPolicy, residentialMonthlyRentLoanSpokes } from './residential-monthly-rent-loan';
+import { profitSharingMortgagePolicy, profitSharingMortgageSpokes } from './profit-sharing-mortgage';
+import { lossSharingMortgagePolicy, lossSharingMortgageSpokes } from './loss-sharing-mortgage';
+import { officetelPurchaseLoanPolicy, officetelPurchaseLoanSpokes } from './officetel-purchase-loan';
+import { vulnerableHousingRelocationLoanPolicy, vulnerableHousingRelocationLoanSpokes } from './vulnerable-housing-relocation-loan';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -494,6 +499,11 @@ export const PoliciesById: Record<string, any> = {
   '266': limYoungwoongConcert2026Policy,
   '267': nationalHealthInsurancePolicy,
   '268': nationalHealthInsuranceRegionalPolicy,
+  '269': residentialMonthlyRentLoanPolicy,
+  '270': profitSharingMortgagePolicy,
+  '271': lossSharingMortgagePolicy,
+  '272': officetelPurchaseLoanPolicy,
+  '273': vulnerableHousingRelocationLoanPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -752,6 +762,11 @@ export const PoliciesBySlug: Record<string, any> = {
   'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationPolicy,
   'national-health-insurance': nationalHealthInsurancePolicy,
   'national-health-insurance-regional': nationalHealthInsuranceRegionalPolicy,
+  'residential-monthly-rent-loan': residentialMonthlyRentLoanPolicy,
+  'profit-sharing-mortgage': profitSharingMortgagePolicy,
+  'loss-sharing-mortgage': lossSharingMortgagePolicy,
+  'officetel-purchase-loan': officetelPurchaseLoanPolicy,
+  'vulnerable-housing-relocation-loan': vulnerableHousingRelocationLoanPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1054,6 +1069,11 @@ export const SpokesById: Record<string, any[]> = {
   '266': limYoungwoongConcert2026Spokes,
   '267': nationalHealthInsuranceSpokes,
   '268': nationalHealthInsuranceRegionalSpokes,
+  '269': residentialMonthlyRentLoanSpokes,
+  '270': profitSharingMortgageSpokes,
+  '271': lossSharingMortgageSpokes,
+  '272': officetelPurchaseLoanSpokes,
+  '273': vulnerableHousingRelocationLoanSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1312,6 +1332,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationSpokes,
   'national-health-insurance': nationalHealthInsuranceSpokes,
   'national-health-insurance-regional': nationalHealthInsuranceRegionalSpokes,
+  'residential-monthly-rent-loan': residentialMonthlyRentLoanSpokes,
+  'profit-sharing-mortgage': profitSharingMortgageSpokes,
+  'loss-sharing-mortgage': lossSharingMortgageSpokes,
+  'officetel-purchase-loan': officetelPurchaseLoanSpokes,
+  'vulnerable-housing-relocation-loan': vulnerableHousingRelocationLoanSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,

@@ -97,4 +97,5 @@ export const newbornSpecialLoanSpokes = [
   { slug: '버팀목전세', role: 'amount', title: '신생아 특례 버팀목, 전세 한도 2.4억 금리 1.3~4.3%', content: '전세자금 한도 2.4억(보증금 80%), 금리 연 1.3~4.3%.' },
   { slug: '금리우대', role: 'usage', title: '신생아 특례대출 우대금리, 추가출산 자녀당 0.2%p', content: '추가출산 자녀 1명당 0.2%p, 최장 12년 + 전자계약 등.' },
   { slug: '신청대환', role: 'apply', title: '신생아 특례대출 신청·대환, 기금e든든 은행', content: '기금e든든·은행 신청, 기존 주택담보·전세대출 대환 가능.' },
+  { slug: 'application-timing-first-buyer', role: 'eligibility', title: '신생아 특례대출 등기 전후 신청시기와 생애최초 LTV 80% 받는 법', content: '등기 전 또는 접수일부터 3개월 이내 신청, 생애최초 구입자 LTV 80%.' },
 ];
