@@ -287,6 +287,21 @@ import { inverterAcElectricitySavingPolicy, inverterAcElectricitySavingSpokes } 
 import { daisoStockAndRefundPolicy, daisoStockAndRefundSpokes } from './daiso-stock-and-refund';
 import { coupangRefundPeriodPolicy, coupangRefundPeriodSpokes } from './coupang-refund-period';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
+import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
+import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
+import { renewalVsNonrenewalInsurancePolicy, renewalVsNonrenewalInsuranceSpokes } from './renewal-vs-nonrenewal-insurance';
+import { indemnityInsuranceSwitchStrategyPolicy, indemnityInsuranceSwitchStrategySpokes } from './indemnity-insurance-switch-strategy';
+import { driverInsuranceVsAutoInsurancePolicy, driverInsuranceVsAutoInsuranceSpokes } from './driver-insurance-vs-auto-insurance';
+import { simplifiedUnderwritingInsurancePolicy, simplifiedUnderwritingInsuranceSpokes } from './simplified-underwriting-insurance';
+import { insuranceDisclosureDutyGuidePolicy, insuranceDisclosureDutyGuideSpokes } from './insurance-disclosure-duty-guide';
+import { lifeVsNonlifeInsurancePolicy, lifeVsNonlifeInsuranceSpokes } from './life-vs-nonlife-insurance';
+import { insuranceClaimDenialRatePolicy, insuranceClaimDenialRateSpokes } from './insurance-claim-denial-rate';
+import { householdLiabilityInsuranceGuidePolicy, householdLiabilityInsuranceGuideSpokes } from './household-liability-insurance-guide';
+import { dentalInsuranceGuidePolicy, dentalInsuranceGuideSpokes } from './dental-insurance-guide';
+import { deathBenefitLiquidationPolicy, deathBenefitLiquidationSpokes } from './death-benefit-liquidation';
+import { thyroidCancerDiagnosisRiderPolicy, thyroidCancerDiagnosisRiderSpokes } from './thyroid-cancer-diagnosis-rider';
+import { indemnityInsuranceExclusionsPolicy, indemnityInsuranceExclusionsSpokes } from './indemnity-insurance-exclusions';
+import { healthConditionDiscountInsurancePolicy, healthConditionDiscountInsuranceSpokes } from './health-condition-discount-insurance';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -450,6 +465,21 @@ export const PoliciesById: Record<string, any> = {
   '244': daisoStockAndRefundPolicy,
   '245': coupangRefundPeriodPolicy,
   '246': heartDiseaseDiagnosisRiderPolicy,
+  '247': termVsWholeLifeInsurancePolicy,
+  '248': noRefundLifeInsuranceGuidePolicy,
+  '249': renewalVsNonrenewalInsurancePolicy,
+  '250': indemnityInsuranceSwitchStrategyPolicy,
+  '251': driverInsuranceVsAutoInsurancePolicy,
+  '252': simplifiedUnderwritingInsurancePolicy,
+  '253': insuranceDisclosureDutyGuidePolicy,
+  '254': lifeVsNonlifeInsurancePolicy,
+  '255': insuranceClaimDenialRatePolicy,
+  '256': householdLiabilityInsuranceGuidePolicy,
+  '257': dentalInsuranceGuidePolicy,
+  '258': deathBenefitLiquidationPolicy,
+  '259': thyroidCancerDiagnosisRiderPolicy,
+  '260': indemnityInsuranceExclusionsPolicy,
+  '261': healthConditionDiscountInsurancePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -688,6 +718,21 @@ export const PoliciesBySlug: Record<string, any> = {
   'daiso-stock-and-refund': daisoStockAndRefundPolicy,
   'coupang-refund-period': coupangRefundPeriodPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
+  'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
+  'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
+  'renewal-vs-nonrenewal-insurance': renewalVsNonrenewalInsurancePolicy,
+  'indemnity-insurance-switch-strategy': indemnityInsuranceSwitchStrategyPolicy,
+  'driver-insurance-vs-auto-insurance': driverInsuranceVsAutoInsurancePolicy,
+  'simplified-underwriting-insurance': simplifiedUnderwritingInsurancePolicy,
+  'insurance-disclosure-duty-guide': insuranceDisclosureDutyGuidePolicy,
+  'life-vs-nonlife-insurance': lifeVsNonlifeInsurancePolicy,
+  'insurance-claim-denial-rate': insuranceClaimDenialRatePolicy,
+  'household-liability-insurance-guide': householdLiabilityInsuranceGuidePolicy,
+  'dental-insurance-guide': dentalInsuranceGuidePolicy,
+  'death-benefit-liquidation': deathBenefitLiquidationPolicy,
+  'thyroid-cancer-diagnosis-rider': thyroidCancerDiagnosisRiderPolicy,
+  'indemnity-insurance-exclusions': indemnityInsuranceExclusionsPolicy,
+  'health-condition-discount-insurance': healthConditionDiscountInsurancePolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -966,6 +1011,21 @@ export const SpokesById: Record<string, any[]> = {
   '244': daisoStockAndRefundSpokes,
   '245': coupangRefundPeriodSpokes,
   '246': heartDiseaseDiagnosisRiderSpokes,
+  '247': termVsWholeLifeInsuranceSpokes,
+  '248': noRefundLifeInsuranceGuideSpokes,
+  '249': renewalVsNonrenewalInsuranceSpokes,
+  '250': indemnityInsuranceSwitchStrategySpokes,
+  '251': driverInsuranceVsAutoInsuranceSpokes,
+  '252': simplifiedUnderwritingInsuranceSpokes,
+  '253': insuranceDisclosureDutyGuideSpokes,
+  '254': lifeVsNonlifeInsuranceSpokes,
+  '255': insuranceClaimDenialRateSpokes,
+  '256': householdLiabilityInsuranceGuideSpokes,
+  '257': dentalInsuranceGuideSpokes,
+  '258': deathBenefitLiquidationSpokes,
+  '259': thyroidCancerDiagnosisRiderSpokes,
+  '260': indemnityInsuranceExclusionsSpokes,
+  '261': healthConditionDiscountInsuranceSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1204,6 +1264,21 @@ export const SpokesBySlug: Record<string, any[]> = {
   'daiso-stock-and-refund': daisoStockAndRefundSpokes,
   'coupang-refund-period': coupangRefundPeriodSpokes,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderSpokes,
+  'term-vs-whole-life-insurance': termVsWholeLifeInsuranceSpokes,
+  'no-refund-life-insurance-guide': noRefundLifeInsuranceGuideSpokes,
+  'renewal-vs-nonrenewal-insurance': renewalVsNonrenewalInsuranceSpokes,
+  'indemnity-insurance-switch-strategy': indemnityInsuranceSwitchStrategySpokes,
+  'driver-insurance-vs-auto-insurance': driverInsuranceVsAutoInsuranceSpokes,
+  'simplified-underwriting-insurance': simplifiedUnderwritingInsuranceSpokes,
+  'insurance-disclosure-duty-guide': insuranceDisclosureDutyGuideSpokes,
+  'life-vs-nonlife-insurance': lifeVsNonlifeInsuranceSpokes,
+  'insurance-claim-denial-rate': insuranceClaimDenialRateSpokes,
+  'household-liability-insurance-guide': householdLiabilityInsuranceGuideSpokes,
+  'dental-insurance-guide': dentalInsuranceGuideSpokes,
+  'death-benefit-liquidation': deathBenefitLiquidationSpokes,
+  'thyroid-cancer-diagnosis-rider': thyroidCancerDiagnosisRiderSpokes,
+  'indemnity-insurance-exclusions': indemnityInsuranceExclusionsSpokes,
+  'health-condition-discount-insurance': healthConditionDiscountInsuranceSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
