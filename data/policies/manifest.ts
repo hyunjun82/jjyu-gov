@@ -318,6 +318,56 @@ import { giftTaxPolicy, giftTaxSpokes } from './gift-tax';
 import { capitalGainsTaxPolicy, capitalGainsTaxSpokes } from './capital-gains-tax';
 import { comprehensiveIncomeTaxPolicy, comprehensiveIncomeTaxSpokes } from './comprehensive-income-tax';
 import { acquisitionTaxPolicy, acquisitionTaxSpokes } from './acquisition-tax';
+import { comprehensiveRealEstateTaxPolicy, comprehensiveRealEstateTaxSpokes } from './comprehensive-real-estate-tax';
+import { yearEndTaxSettlementPolicy, yearEndTaxSettlementSpokes } from './year-end-tax-settlement';
+import { vehicleTaxPolicy, vehicleTaxSpokes } from './vehicle-tax';
+import { valueAddedTaxPolicy, valueAddedTaxSpokes } from './value-added-tax';
+import { vehicleRegistrationCertificatePolicy, vehicleRegistrationCertificateSpokes } from './vehicle-registration-certificate';
+import { residentRegistrationCertificatePolicy, residentRegistrationCertificateSpokes } from './resident-registration-certificate';
+import { familyRelationCertificatePolicy, familyRelationCertificateSpokes } from './family-relation-certificate';
+import { transferOfResidenceReportPolicy, transferOfResidenceReportSpokes } from './transfer-of-residence-report';
+import { localTaxPaymentCertificatePolicy, localTaxPaymentCertificateSpokes } from './local-tax-payment-certificate';
+import { landRegisterCertificatePolicy, landRegisterCertificateSpokes } from './land-register-certificate';
+import { sealCertificatePolicy, sealCertificateSpokes } from './seal-certificate';
+import { militaryServiceCertificatePolicy, militaryServiceCertificateSpokes } from './military-service-certificate';
+import { entryExitFactCertificatePolicy, entryExitFactCertificateSpokes } from './entry-exit-fact-certificate';
+import { buildingRegisterCertificatePolicy, buildingRegisterCertificateSpokes } from './building-register-certificate';
+import { incomeAmountCertificatePolicy, incomeAmountCertificateSpokes } from './income-amount-certificate';
+import { businessRegistrationCertificatePolicy, businessRegistrationCertificateSpokes } from './business-registration-certificate';
+import { healthInsuranceEligibilityCertificatePolicy, healthInsuranceEligibilityCertificateSpokes } from './health-insurance-eligibility-certificate';
+import { localTaxItemCertificatePolicy, localTaxItemCertificateSpokes } from './local-tax-item-certificate';
+import { nationalPensionSubscriberCertificatePolicy, nationalPensionSubscriberCertificateSpokes } from './national-pension-subscriber-certificate';
+import { marriageReportPolicy, marriageReportSpokes } from './marriage-report';
+import { birthReportPolicy, birthReportSpokes } from './birth-report';
+import { deathReportPolicy, deathReportSpokes } from './death-report';
+import { divorceReportPolicy, divorceReportSpokes } from './divorce-report';
+import { nameChangeReportPolicy, nameChangeReportSpokes } from './name-change-report';
+import { cadastralMapCertificatePolicy, cadastralMapCertificateSpokes } from './cadastral-map-certificate';
+import { realEstateRegistryCertificatePolicy, realEstateRegistryCertificateSpokes } from './real-estate-registry-certificate';
+import { leaseFixedDatePolicy, leaseFixedDateSpokes } from './lease-fixed-date';
+import { passportIssuancePolicy, passportIssuanceSpokes } from './passport-issuance';
+import { driversLicensePeriodicCheckupPolicy, driversLicensePeriodicCheckupSpokes } from './drivers-license-periodic-checkup';
+import { nationalTaxPaymentCertificatePolicy, nationalTaxPaymentCertificateSpokes } from './national-tax-payment-certificate';
+import { employmentInsuranceStatusClaimPolicy, employmentInsuranceStatusClaimSpokes } from './employment-insurance-status-claim';
+import { militaryCheckupDateSelectionPolicy, militaryCheckupDateSelectionSpokes } from './military-checkup-date-selection';
+import { petRegistrationPolicy, petRegistrationSpokes } from './pet-registration';
+import { basicLivelihoodRecipientCertificatePolicy, basicLivelihoodRecipientCertificateSpokes } from './basic-livelihood-recipient-certificate';
+import { singleParentFamilyCertificatePolicy, singleParentFamilyCertificateSpokes } from './single-parent-family-certificate';
+import { disabilityRegistrationPolicy, disabilityRegistrationSpokes } from './disability-registration';
+import { selfSignatureConfirmationCertificatePolicy, selfSignatureConfirmationCertificateSpokes } from './self-signature-confirmation-certificate';
+import { businessClosureReportPolicy, businessClosureReportSpokes } from './business-closure-report';
+import { localTaxRefundClaimPolicy, localTaxRefundClaimSpokes } from './local-tax-refund-claim';
+import { driversLicenseReissuePolicy, driversLicenseReissueSpokes } from './drivers-license-reissue';
+import { familyRegisterCertificatePolicy, familyRegisterCertificateSpokes } from './family-register-certificate';
+import { veteranFamilyConfirmationPolicy, veteranFamilyConfirmationSpokes } from './veteran-family-confirmation';
+import { realEstateTransactionReportPolicy, realEstateTransactionReportSpokes } from './real-estate-transaction-report';
+import { vehicleRegistrationCardReissuePolicy, vehicleRegistrationCardReissueSpokes } from './vehicle-registration-card-reissue';
+import { nationalPensionVoluntaryEnrollmentPolicy, nationalPensionVoluntaryEnrollmentSpokes } from './national-pension-voluntary-enrollment';
+import { disabledVehicleTagPolicy, disabledVehicleTagSpokes } from './disabled-vehicle-tag';
+import { domesticResidenceReportCertificatePolicy, domesticResidenceReportCertificateSpokes } from './domestic-residence-report-certificate';
+import { industrialAccidentMedicalBenefitPolicy, industrialAccidentMedicalBenefitSpokes } from './industrial-accident-medical-benefit';
+import { nationalTaxObjectionPolicy, nationalTaxObjectionSpokes } from './national-tax-objection';
+import { propertyTaxInstallmentPolicy, propertyTaxInstallmentSpokes } from './property-tax-installment';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -516,6 +566,56 @@ export const PoliciesById: Record<string, any> = {
   '277': capitalGainsTaxPolicy,
   '278': comprehensiveIncomeTaxPolicy,
   '279': acquisitionTaxPolicy,
+  '280': comprehensiveRealEstateTaxPolicy,
+  '281': yearEndTaxSettlementPolicy,
+  '282': vehicleTaxPolicy,
+  '283': valueAddedTaxPolicy,
+  '284': vehicleRegistrationCertificatePolicy,
+  '285': residentRegistrationCertificatePolicy,
+  '286': familyRelationCertificatePolicy,
+  '287': transferOfResidenceReportPolicy,
+  '288': localTaxPaymentCertificatePolicy,
+  '289': landRegisterCertificatePolicy,
+  '290': sealCertificatePolicy,
+  '291': militaryServiceCertificatePolicy,
+  '292': entryExitFactCertificatePolicy,
+  '293': buildingRegisterCertificatePolicy,
+  '294': incomeAmountCertificatePolicy,
+  '295': businessRegistrationCertificatePolicy,
+  '296': healthInsuranceEligibilityCertificatePolicy,
+  '297': localTaxItemCertificatePolicy,
+  '298': nationalPensionSubscriberCertificatePolicy,
+  '299': marriageReportPolicy,
+  '300': birthReportPolicy,
+  '301': deathReportPolicy,
+  '302': divorceReportPolicy,
+  '303': nameChangeReportPolicy,
+  '304': cadastralMapCertificatePolicy,
+  '305': realEstateRegistryCertificatePolicy,
+  '306': leaseFixedDatePolicy,
+  '307': passportIssuancePolicy,
+  '308': driversLicensePeriodicCheckupPolicy,
+  '309': nationalTaxPaymentCertificatePolicy,
+  '310': employmentInsuranceStatusClaimPolicy,
+  '311': militaryCheckupDateSelectionPolicy,
+  '312': petRegistrationPolicy,
+  '313': basicLivelihoodRecipientCertificatePolicy,
+  '314': singleParentFamilyCertificatePolicy,
+  '315': disabilityRegistrationPolicy,
+  '316': selfSignatureConfirmationCertificatePolicy,
+  '317': businessClosureReportPolicy,
+  '318': localTaxRefundClaimPolicy,
+  '320': driversLicenseReissuePolicy,
+  '321': familyRegisterCertificatePolicy,
+  '322': veteranFamilyConfirmationPolicy,
+  '323': realEstateTransactionReportPolicy,
+  '324': vehicleRegistrationCardReissuePolicy,
+  '325': nationalPensionVoluntaryEnrollmentPolicy,
+  '326': disabledVehicleTagPolicy,
+  '327': domesticResidenceReportCertificatePolicy,
+  '328': industrialAccidentMedicalBenefitPolicy,
+  '329': nationalTaxObjectionPolicy,
+  '330': propertyTaxInstallmentPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -785,6 +885,56 @@ export const PoliciesBySlug: Record<string, any> = {
   'capital-gains-tax': capitalGainsTaxPolicy,
   'comprehensive-income-tax': comprehensiveIncomeTaxPolicy,
   'acquisition-tax': acquisitionTaxPolicy,
+  'comprehensive-real-estate-tax': comprehensiveRealEstateTaxPolicy,
+  'year-end-tax-settlement': yearEndTaxSettlementPolicy,
+  'vehicle-tax': vehicleTaxPolicy,
+  'value-added-tax': valueAddedTaxPolicy,
+  'vehicle-registration-certificate': vehicleRegistrationCertificatePolicy,
+  'resident-registration-certificate': residentRegistrationCertificatePolicy,
+  'family-relation-certificate': familyRelationCertificatePolicy,
+  'transfer-of-residence-report': transferOfResidenceReportPolicy,
+  'local-tax-payment-certificate': localTaxPaymentCertificatePolicy,
+  'land-register-certificate': landRegisterCertificatePolicy,
+  'seal-certificate': sealCertificatePolicy,
+  'military-service-certificate': militaryServiceCertificatePolicy,
+  'entry-exit-fact-certificate': entryExitFactCertificatePolicy,
+  'building-register-certificate': buildingRegisterCertificatePolicy,
+  'income-amount-certificate': incomeAmountCertificatePolicy,
+  'business-registration-certificate': businessRegistrationCertificatePolicy,
+  'health-insurance-eligibility-certificate': healthInsuranceEligibilityCertificatePolicy,
+  'local-tax-item-certificate': localTaxItemCertificatePolicy,
+  'national-pension-subscriber-certificate': nationalPensionSubscriberCertificatePolicy,
+  'marriage-report': marriageReportPolicy,
+  'birth-report': birthReportPolicy,
+  'death-report': deathReportPolicy,
+  'divorce-report': divorceReportPolicy,
+  'name-change-report': nameChangeReportPolicy,
+  'cadastral-map-certificate': cadastralMapCertificatePolicy,
+  'real-estate-registry-certificate': realEstateRegistryCertificatePolicy,
+  'lease-fixed-date': leaseFixedDatePolicy,
+  'passport-issuance': passportIssuancePolicy,
+  'drivers-license-periodic-checkup': driversLicensePeriodicCheckupPolicy,
+  'national-tax-payment-certificate': nationalTaxPaymentCertificatePolicy,
+  'employment-insurance-status-claim': employmentInsuranceStatusClaimPolicy,
+  'military-checkup-date-selection': militaryCheckupDateSelectionPolicy,
+  'pet-registration': petRegistrationPolicy,
+  'basic-livelihood-recipient-certificate': basicLivelihoodRecipientCertificatePolicy,
+  'single-parent-family-certificate': singleParentFamilyCertificatePolicy,
+  'disability-registration': disabilityRegistrationPolicy,
+  'self-signature-confirmation-certificate': selfSignatureConfirmationCertificatePolicy,
+  'business-closure-report': businessClosureReportPolicy,
+  'local-tax-refund-claim': localTaxRefundClaimPolicy,
+  'drivers-license-reissue': driversLicenseReissuePolicy,
+  'family-register-certificate': familyRegisterCertificatePolicy,
+  'veteran-family-confirmation': veteranFamilyConfirmationPolicy,
+  'real-estate-transaction-report': realEstateTransactionReportPolicy,
+  'vehicle-registration-card-reissue': vehicleRegistrationCardReissuePolicy,
+  'national-pension-voluntary-enrollment': nationalPensionVoluntaryEnrollmentPolicy,
+  'disabled-vehicle-tag': disabledVehicleTagPolicy,
+  'domestic-residence-report-certificate': domesticResidenceReportCertificatePolicy,
+  'industrial-accident-medical-benefit': industrialAccidentMedicalBenefitPolicy,
+  'national-tax-objection': nationalTaxObjectionPolicy,
+  'property-tax-installment': propertyTaxInstallmentPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1098,6 +1248,56 @@ export const SpokesById: Record<string, any[]> = {
   '277': capitalGainsTaxSpokes,
   '278': comprehensiveIncomeTaxSpokes,
   '279': acquisitionTaxSpokes,
+  '280': comprehensiveRealEstateTaxSpokes,
+  '281': yearEndTaxSettlementSpokes,
+  '282': vehicleTaxSpokes,
+  '283': valueAddedTaxSpokes,
+  '284': vehicleRegistrationCertificateSpokes,
+  '285': residentRegistrationCertificateSpokes,
+  '286': familyRelationCertificateSpokes,
+  '287': transferOfResidenceReportSpokes,
+  '288': localTaxPaymentCertificateSpokes,
+  '289': landRegisterCertificateSpokes,
+  '290': sealCertificateSpokes,
+  '291': militaryServiceCertificateSpokes,
+  '292': entryExitFactCertificateSpokes,
+  '293': buildingRegisterCertificateSpokes,
+  '294': incomeAmountCertificateSpokes,
+  '295': businessRegistrationCertificateSpokes,
+  '296': healthInsuranceEligibilityCertificateSpokes,
+  '297': localTaxItemCertificateSpokes,
+  '298': nationalPensionSubscriberCertificateSpokes,
+  '299': marriageReportSpokes,
+  '300': birthReportSpokes,
+  '301': deathReportSpokes,
+  '302': divorceReportSpokes,
+  '303': nameChangeReportSpokes,
+  '304': cadastralMapCertificateSpokes,
+  '305': realEstateRegistryCertificateSpokes,
+  '306': leaseFixedDateSpokes,
+  '307': passportIssuanceSpokes,
+  '308': driversLicensePeriodicCheckupSpokes,
+  '309': nationalTaxPaymentCertificateSpokes,
+  '310': employmentInsuranceStatusClaimSpokes,
+  '311': militaryCheckupDateSelectionSpokes,
+  '312': petRegistrationSpokes,
+  '313': basicLivelihoodRecipientCertificateSpokes,
+  '314': singleParentFamilyCertificateSpokes,
+  '315': disabilityRegistrationSpokes,
+  '316': selfSignatureConfirmationCertificateSpokes,
+  '317': businessClosureReportSpokes,
+  '318': localTaxRefundClaimSpokes,
+  '320': driversLicenseReissueSpokes,
+  '321': familyRegisterCertificateSpokes,
+  '322': veteranFamilyConfirmationSpokes,
+  '323': realEstateTransactionReportSpokes,
+  '324': vehicleRegistrationCardReissueSpokes,
+  '325': nationalPensionVoluntaryEnrollmentSpokes,
+  '326': disabledVehicleTagSpokes,
+  '327': domesticResidenceReportCertificateSpokes,
+  '328': industrialAccidentMedicalBenefitSpokes,
+  '329': nationalTaxObjectionSpokes,
+  '330': propertyTaxInstallmentSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1367,6 +1567,56 @@ export const SpokesBySlug: Record<string, any[]> = {
   'capital-gains-tax': capitalGainsTaxSpokes,
   'comprehensive-income-tax': comprehensiveIncomeTaxSpokes,
   'acquisition-tax': acquisitionTaxSpokes,
+  'comprehensive-real-estate-tax': comprehensiveRealEstateTaxSpokes,
+  'year-end-tax-settlement': yearEndTaxSettlementSpokes,
+  'vehicle-tax': vehicleTaxSpokes,
+  'value-added-tax': valueAddedTaxSpokes,
+  'vehicle-registration-certificate': vehicleRegistrationCertificateSpokes,
+  'resident-registration-certificate': residentRegistrationCertificateSpokes,
+  'family-relation-certificate': familyRelationCertificateSpokes,
+  'transfer-of-residence-report': transferOfResidenceReportSpokes,
+  'local-tax-payment-certificate': localTaxPaymentCertificateSpokes,
+  'land-register-certificate': landRegisterCertificateSpokes,
+  'seal-certificate': sealCertificateSpokes,
+  'military-service-certificate': militaryServiceCertificateSpokes,
+  'entry-exit-fact-certificate': entryExitFactCertificateSpokes,
+  'building-register-certificate': buildingRegisterCertificateSpokes,
+  'income-amount-certificate': incomeAmountCertificateSpokes,
+  'business-registration-certificate': businessRegistrationCertificateSpokes,
+  'health-insurance-eligibility-certificate': healthInsuranceEligibilityCertificateSpokes,
+  'local-tax-item-certificate': localTaxItemCertificateSpokes,
+  'national-pension-subscriber-certificate': nationalPensionSubscriberCertificateSpokes,
+  'marriage-report': marriageReportSpokes,
+  'birth-report': birthReportSpokes,
+  'death-report': deathReportSpokes,
+  'divorce-report': divorceReportSpokes,
+  'name-change-report': nameChangeReportSpokes,
+  'cadastral-map-certificate': cadastralMapCertificateSpokes,
+  'real-estate-registry-certificate': realEstateRegistryCertificateSpokes,
+  'lease-fixed-date': leaseFixedDateSpokes,
+  'passport-issuance': passportIssuanceSpokes,
+  'drivers-license-periodic-checkup': driversLicensePeriodicCheckupSpokes,
+  'national-tax-payment-certificate': nationalTaxPaymentCertificateSpokes,
+  'employment-insurance-status-claim': employmentInsuranceStatusClaimSpokes,
+  'military-checkup-date-selection': militaryCheckupDateSelectionSpokes,
+  'pet-registration': petRegistrationSpokes,
+  'basic-livelihood-recipient-certificate': basicLivelihoodRecipientCertificateSpokes,
+  'single-parent-family-certificate': singleParentFamilyCertificateSpokes,
+  'disability-registration': disabilityRegistrationSpokes,
+  'self-signature-confirmation-certificate': selfSignatureConfirmationCertificateSpokes,
+  'business-closure-report': businessClosureReportSpokes,
+  'local-tax-refund-claim': localTaxRefundClaimSpokes,
+  'drivers-license-reissue': driversLicenseReissueSpokes,
+  'family-register-certificate': familyRegisterCertificateSpokes,
+  'veteran-family-confirmation': veteranFamilyConfirmationSpokes,
+  'real-estate-transaction-report': realEstateTransactionReportSpokes,
+  'vehicle-registration-card-reissue': vehicleRegistrationCardReissueSpokes,
+  'national-pension-voluntary-enrollment': nationalPensionVoluntaryEnrollmentSpokes,
+  'disabled-vehicle-tag': disabledVehicleTagSpokes,
+  'domestic-residence-report-certificate': domesticResidenceReportCertificateSpokes,
+  'industrial-accident-medical-benefit': industrialAccidentMedicalBenefitSpokes,
+  'national-tax-objection': nationalTaxObjectionSpokes,
+  'property-tax-installment': propertyTaxInstallmentSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
