@@ -488,6 +488,8 @@ import { 노인장기요양보험신청대상등급기준서비스SpokeContent }
 import { 노인장기요양보험2026등급1인지지원기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/노인장기요양보험/2026등급1인지지원기준';
 import { 노인장기요양보험치매부모장기요양신청절차SpokeContent }   from '@/app/policy/[id]/[spoke]/content/노인장기요양보험/치매부모장기요양신청절차';
 import { 노인장기요양보험시설재가본인부담금비교SpokeContent }     from '@/app/policy/[id]/[spoke]/content/노인장기요양보험/시설재가본인부담금비교';
+import { 장기요양기관계약체결SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인장기요양/기관계약체결';
+import { 장기요양인정조사항목SpokeContent } from '@/app/policy/[id]/[spoke]/content/노인장기요양/인정조사항목';
 
 /* ── 두루누리사회보험 (slug: durunuri-social-insurance) ── */
 import { 두루누리사회보험지원대상10인미만소득기준SpokeContent }   from '@/app/policy/[id]/[spoke]/content/두루누리사회보험/지원대상10인미만소득기준';
@@ -1652,6 +1654,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '2026등급1인지지원기준':    노인장기요양보험2026등급1인지지원기준SpokeContent,
     '치매부모장기요양신청절차': 노인장기요양보험치매부모장기요양신청절차SpokeContent,
     '시설재가본인부담금비교':   노인장기요양보험시설재가본인부담금비교SpokeContent,
+    'facility-contract-guide':  장기요양기관계약체결SpokeContent,
+    'recognition-survey-items': 장기요양인정조사항목SpokeContent,
   },
 
   'durunuri-social-insurance': {

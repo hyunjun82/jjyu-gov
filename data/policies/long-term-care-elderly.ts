@@ -84,33 +84,33 @@ export const longTermCareElderlyPolicy = {
   faq: [
     {
       q: '신청 자격?',
-      a: '노인장기요양 시설급여 - 국민건강보험공단 장기요양보험은 65세 이상 어르신 또는 65세 미만 노인성 질환자에게 등급(1~5등급·인지지원)을 부여해 본인 상태별로 시설급여(요양원), 재가급여(방문요양·방문목욕·방문간호·주야간보호·단기보호), 복지용구 대여까지 통합 지원합.',
+      a: '65세 이상 어르신 또는 65세 미만 노인성 질환자가 대상이며, 등급판정위원회가 부여한 등급(1~5등급·인지지원)에 따라 시설급여 또는 재가급여를 이용할 수 있습니다.',
       source: '국민건강보험공단',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://www.longtermcare.or.kr',
     },
     {
       q: '신청은 어디서?',
-      a: '거주지 국민건강보험공단 지사 또는 longtermcare.or.kr, 1577-1000.',
+      a: '거주지 국민건강보험공단 지사 또는 longtermcare.or.kr, 콜센터(1577-1000)에서 본인·가족·사회복지전담공무원이 신청할 수 있습니다.',
       source: '국민건강보험공단',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://www.longtermcare.or.kr',
     },
     {
       q: '본인부담률?',
-      a: '시설급여는 요양원·노인요양공동생활가정 등 장기요양시설에 입소해 24시간 돌봄을 받는 서비스로 1~2등급만 이용 가능합니다',
+      a: '재가급여는 15%, 시설급여는 20%가 원칙이며(일반), 소득·재산 기준에 따라 6~12%까지 감경되고 의료급여·기초수급자는 면제됩니다.',
       source: '국민건강보험공단',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://www.longtermcare.or.kr',
     },
     {
       q: '재가 월 한도?',
-      a: '재가급여는 어르신이 가정에서 생활하면서 받을 수 있는 5가지 서비스입니다',
+      a: '등급별로 월 한도액이 정해져 있으며 2026년 기준 1등급 2,512,900원부터 인지지원등급 676,320원까지 차등 지급됩니다.',
       source: '국민건강보험공단',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://www.longtermcare.or.kr',
     },
     {
       q: '복지용구 한도?',
-      a: '신청은 거주지 국민건강보험공단 지사 방문 또는 노인장기요양보험 누리집(longtermcare.or.kr), 노인장기요양보험 콜센터(1577-1000)로 본인·가족·사회복지전담공무원이 신청 가능합니다',
+      a: '연 160만원 한도 내에서 휠체어·전동침대·이동변기 등을 구입·대여할 수 있으며 본인부담률은 15%(일반)입니다.',
       source: '국민건강보험공단',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://www.longtermcare.or.kr',
     },
   ],
   sources: [
@@ -131,4 +131,6 @@ export const longTermCareElderlySpokes = [
   { slug: '2026등급1인지지원기준', role: 'amount', title: '2026 노인장기요양 등급 기준, 1등급부터 인지지원등급까지 한눈에', content: '등급 기준 정리.' },
   { slug: '치매부모장기요양신청절차', role: 'apply', title: '부모님 치매 진단 받았다면 장기요양 신청부터 등급 판정까지 절차', content: '신청 절차 안내.' },
   { slug: '시설재가본인부담금비교', role: 'amount', title: '노인장기요양 본인부담금 얼마인가, 시설급여 20%, 재가급여 15% 기준', content: '본인부담금 비교.' },
+  { slug: 'facility-contract-guide', role: 'apply', title: '장기요양기관 찾고 급여계약서 확인해서 계약하는 법', content: 'longtermcare.or.kr에서 기관 검색·비교, 계약서 2부 작성·비급여 항목 확인.' },
+  { slug: 'recognition-survey-items', role: 'apply', title: '장기요양 인정조사 신청하고 방문조사 미리 준비하는 법', content: '공단 직원이 11개 영역(신체·인지·행동변화 등) 방문조사, 일정 사전 통보.' },
 ];
