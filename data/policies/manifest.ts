@@ -304,6 +304,7 @@ import { indemnityInsuranceExclusionsPolicy, indemnityInsuranceExclusionsSpokes 
 import { healthConditionDiscountInsurancePolicy, healthConditionDiscountInsuranceSpokes } from './health-condition-discount-insurance';
 import { hospitalTierClassificationGuidePolicy, hospitalTierClassificationGuideSpokes } from './hospital-tier-classification-guide';
 import { ltciGradeCriteriaGuidePolicy, ltciGradeCriteriaGuideSpokes } from './ltci-grade-criteria-guide';
+import { postalInsuranceFetusRegistrationPolicy, postalInsuranceFetusRegistrationSpokes } from './postal-insurance-fetus-registration';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -484,6 +485,7 @@ export const PoliciesById: Record<string, any> = {
   '261': healthConditionDiscountInsurancePolicy,
   '262': hospitalTierClassificationGuidePolicy,
   '263': ltciGradeCriteriaGuidePolicy,
+  '264': postalInsuranceFetusRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -739,6 +741,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'health-condition-discount-insurance': healthConditionDiscountInsurancePolicy,
   'hospital-tier-classification-guide': hospitalTierClassificationGuidePolicy,
   'ltci-grade-criteria-guide': ltciGradeCriteriaGuidePolicy,
+  'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationPolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -1034,6 +1037,7 @@ export const SpokesById: Record<string, any[]> = {
   '261': healthConditionDiscountInsuranceSpokes,
   '262': hospitalTierClassificationGuideSpokes,
   '263': ltciGradeCriteriaGuideSpokes,
+  '264': postalInsuranceFetusRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1289,6 +1293,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'health-condition-discount-insurance': healthConditionDiscountInsuranceSpokes,
   'hospital-tier-classification-guide': hospitalTierClassificationGuideSpokes,
   'ltci-grade-criteria-guide': ltciGradeCriteriaGuideSpokes,
+  'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
