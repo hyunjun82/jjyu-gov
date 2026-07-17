@@ -305,6 +305,8 @@ import { healthConditionDiscountInsurancePolicy, healthConditionDiscountInsuranc
 import { hospitalTierClassificationGuidePolicy, hospitalTierClassificationGuideSpokes } from './hospital-tier-classification-guide';
 import { ltciGradeCriteriaGuidePolicy, ltciGradeCriteriaGuideSpokes } from './ltci-grade-criteria-guide';
 import { postalInsuranceFetusRegistrationPolicy, postalInsuranceFetusRegistrationSpokes } from './postal-insurance-fetus-registration';
+import { nationalHealthInsurancePolicy, nationalHealthInsuranceSpokes } from './national-health-insurance';
+import { nationalHealthInsuranceRegionalPolicy, nationalHealthInsuranceRegionalSpokes } from './national-health-insurance-regional';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -490,6 +492,8 @@ export const PoliciesById: Record<string, any> = {
   '264': postalInsuranceFetusRegistrationPolicy,
   '265': mounjaroPriceComparisonPolicy,
   '266': limYoungwoongConcert2026Policy,
+  '267': nationalHealthInsurancePolicy,
+  '268': nationalHealthInsuranceRegionalPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -746,6 +750,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'hospital-tier-classification-guide': hospitalTierClassificationGuidePolicy,
   'ltci-grade-criteria-guide': ltciGradeCriteriaGuidePolicy,
   'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationPolicy,
+  'national-health-insurance': nationalHealthInsurancePolicy,
+  'national-health-insurance-regional': nationalHealthInsuranceRegionalPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1046,6 +1052,8 @@ export const SpokesById: Record<string, any[]> = {
   '264': postalInsuranceFetusRegistrationSpokes,
   '265': mounjaroPriceComparisonSpokes,
   '266': limYoungwoongConcert2026Spokes,
+  '267': nationalHealthInsuranceSpokes,
+  '268': nationalHealthInsuranceRegionalSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1302,6 +1310,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'hospital-tier-classification-guide': hospitalTierClassificationGuideSpokes,
   'ltci-grade-criteria-guide': ltciGradeCriteriaGuideSpokes,
   'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationSpokes,
+  'national-health-insurance': nationalHealthInsuranceSpokes,
+  'national-health-insurance-regional': nationalHealthInsuranceRegionalSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,

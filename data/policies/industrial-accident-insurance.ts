@@ -113,4 +113,9 @@ export const industrialAccidentInsuranceSpokes = [
   { slug: 'accident-recognition-standard', role: 'eligibility', title: '출장·회식 중 사고 났을 때 산재 인정받으려면 뭘 준비해야 하나요', content: '사업주 지시·주관 행사 중 사고는 원칙 인정, 지시위반·사적행위는 제외.' },
   { slug: 'occupational-disease-recognition', role: 'eligibility', title: '과로·직업병으로 산재 신청할 때 업무상질병판정위원회 심의 절차', content: '판정위원회 심의 20일 이내(연장 시 최대 30일), 진폐 등은 심의 제외.' },
   { slug: 'health-impaired-child-benefit', role: 'eligibility', title: '임신 중 업무상 재해로 아이가 아프게 태어났다면 산재 신청되나요', content: '건강손상자녀는 부모 소속 사업의 근로자로 간주, 장해등급은 18세 이후 판정.' },
+  { slug: 'coverage-scope-check', role: 'eligibility', title: '우리 회사가 산재보험 적용 대상인지, 당연가입·임의가입 조회하는 법', content: '근로자 고용 사업은 원칙 적용, 5인 미만 농업·임업·어업 등은 예외. 토탈서비스에서 조회.' },
+  { slug: 'disability-survivor-special-benefit', role: 'overlap', title: '회사 과실로 1~3급 장해·사망했다면 장해·유족특별급여 청구하는 법', content: '사업주 합의 시 민사소송 대신 청구, 받으면 별도 손해배상 청구 불가.' },
+  { slug: 'insurance-relation-report', role: 'apply', title: '사업 시작하면 14일 이내 산재보험 성립신고서 접수하는 법', content: '근로자 고용일부터 14일 이내 근로복지공단에 성립신고, 미신고여도 근로자는 보호.' },
+  { slug: 'small-business-owner-special-provision', role: 'eligibility', title: '사장님도 산재보험 가입 신청할 수 있나요, 중소기업 사업주 특례 확인하는 법', content: '300명 미만 사업주·1인 사업주·무보수 가족종사자도 승인받아 가입 가능.' },
+  { slug: 'pneumoconiosis-occupational-disease-check', role: 'eligibility', title: '내가 한 작업이 진폐 인정 대상 분진작업인지 확인하고 신청하는 법', content: '법정 26개 분진작업 유형 종사 시 인정, 목록에 없어도 명백한 노출이면 개별 인정 가능.' },
 ];

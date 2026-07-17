@@ -1057,6 +1057,22 @@ import { 산재가입특례SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 산재사고인정기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/사고인정기준';
 import { 산재질병인정기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/질병인정기준';
 import { 산재건강손상자녀SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/건강손상자녀';
+import { 산재적용범위SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/적용범위';
+import { 산재장해유족특별급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/장해유족특별급여';
+import { 산재보험관계성립신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/보험관계성립신고';
+import { 산재중소기업사업주특례SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/중소기업사업주특례';
+import { 산재진폐업무상질병인정SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/진폐업무상질병인정';
+
+/* ── 국민건강보험(직장가입자) (slug: national-health-insurance) ── */
+import { 건보요양비SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민건강보험/요양비';
+import { 건보이의신청심판청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민건강보험/이의신청심판청구';
+import { 건보부가급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민건강보험/부가급여';
+import { 건보건강검진SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민건강보험/건강검진';
+import { 건보보험료체납독촉SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민건강보험/보험료체납독촉';
+
+/* ── 국민건강보험(지역가입자) (slug: national-health-insurance-regional) ── */
+import { 건보지역보험료산정SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민건강보험지역/보험료산정';
+import { 건보지역보험료경감SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민건강보험지역/보험료경감';
 /* ── 전세사기 피해자 지원 (slug: jeonse-fraud-victim) ── */
 import { 전세사기피해자요건SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/피해자요건';
 import { 전세사기지원내용SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/지원내용';
@@ -2334,6 +2350,24 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'accident-recognition-standard':         산재사고인정기준SpokeContent,
     'occupational-disease-recognition':      산재질병인정기준SpokeContent,
     'health-impaired-child-benefit':         산재건강손상자녀SpokeContent,
+    'coverage-scope-check':                  산재적용범위SpokeContent,
+    'disability-survivor-special-benefit':   산재장해유족특별급여SpokeContent,
+    'insurance-relation-report':             산재보험관계성립신고SpokeContent,
+    'small-business-owner-special-provision': 산재중소기업사업주특례SpokeContent,
+    'pneumoconiosis-occupational-disease-check': 산재진폐업무상질병인정SpokeContent,
+  },
+
+  'national-health-insurance': {
+    'medical-expense-reimbursement': 건보요양비SpokeContent,
+    'objection-appeal-procedure':    건보이의신청심판청구SpokeContent,
+    'maternity-benefit-card':        건보부가급여SpokeContent,
+    'health-checkup-schedule':       건보건강검진SpokeContent,
+    'premium-arrears-installment':   건보보험료체납독촉SpokeContent,
+  },
+
+  'national-health-insurance-regional': {
+    'premium-scoring-calculation':   건보지역보험료산정SpokeContent,
+    'premium-reduction-eligibility': 건보지역보험료경감SpokeContent,
   },
 
   'beotimok-jeonse-loan': {
