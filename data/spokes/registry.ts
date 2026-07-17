@@ -1043,6 +1043,20 @@ import { 산재휴업급여SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 산재업무상재해SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/업무상재해';
 import { 산재신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/신청방법';
 import { 산재회사처리SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/회사처리';
+import { 산재요양급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/요양급여';
+import { 산재상병보상연금SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/상병보상연금';
+import { 산재장해급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/장해급여';
+import { 산재간병급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/간병급여';
+import { 산재유족급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/유족급여';
+import { 산재직업재활급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/직업재활급여';
+import { 산재진폐특례SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/진폐특례';
+import { 산재불복절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/불복절차';
+import { 산재손해배상관계SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/손해배상관계';
+import { 산재보험급여적정성보장SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/보험급여적정성보장';
+import { 산재가입특례SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/가입특례';
+import { 산재사고인정기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/사고인정기준';
+import { 산재질병인정기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/질병인정기준';
+import { 산재건강손상자녀SpokeContent } from '@/app/policy/[id]/[spoke]/content/산재보험/건강손상자녀';
 /* ── 전세사기 피해자 지원 (slug: jeonse-fraud-victim) ── */
 import { 전세사기피해자요건SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/피해자요건';
 import { 전세사기지원내용SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세사기/지원내용';
@@ -2306,6 +2320,20 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '업무상재해':   산재업무상재해SpokeContent,
     '신청방법':     산재신청방법SpokeContent,
     '회사처리':     산재회사처리SpokeContent,
+    'medical-care-benefit-application':      산재요양급여SpokeContent,
+    'injury-disease-compensation-pension':   산재상병보상연금SpokeContent,
+    'disability-benefit-grade-check':        산재장해급여SpokeContent,
+    'nursing-care-benefit-application':      산재간병급여SpokeContent,
+    'survivor-benefit-funeral-expense':      산재유족급여SpokeContent,
+    'vocational-rehabilitation-benefit':     산재직업재활급여SpokeContent,
+    'pneumoconiosis-special-provision':      산재진폐특례SpokeContent,
+    'review-request-procedure':              산재불복절차SpokeContent,
+    'civil-damages-claim-relation':          산재손해배상관계SpokeContent,
+    'max-min-compensation-standard-check':   산재보험급여적정성보장SpokeContent,
+    'labor-provider-special-provision':      산재가입특례SpokeContent,
+    'accident-recognition-standard':         산재사고인정기준SpokeContent,
+    'occupational-disease-recognition':      산재질병인정기준SpokeContent,
+    'health-impaired-child-benefit':         산재건강손상자녀SpokeContent,
   },
 
   'beotimok-jeonse-loan': {
