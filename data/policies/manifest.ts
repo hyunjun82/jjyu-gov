@@ -302,6 +302,8 @@ import { deathBenefitLiquidationPolicy, deathBenefitLiquidationSpokes } from './
 import { thyroidCancerDiagnosisRiderPolicy, thyroidCancerDiagnosisRiderSpokes } from './thyroid-cancer-diagnosis-rider';
 import { indemnityInsuranceExclusionsPolicy, indemnityInsuranceExclusionsSpokes } from './indemnity-insurance-exclusions';
 import { healthConditionDiscountInsurancePolicy, healthConditionDiscountInsuranceSpokes } from './health-condition-discount-insurance';
+import { hospitalTierClassificationGuidePolicy, hospitalTierClassificationGuideSpokes } from './hospital-tier-classification-guide';
+import { ltciGradeCriteriaGuidePolicy, ltciGradeCriteriaGuideSpokes } from './ltci-grade-criteria-guide';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -480,6 +482,8 @@ export const PoliciesById: Record<string, any> = {
   '259': thyroidCancerDiagnosisRiderPolicy,
   '260': indemnityInsuranceExclusionsPolicy,
   '261': healthConditionDiscountInsurancePolicy,
+  '262': hospitalTierClassificationGuidePolicy,
+  '263': ltciGradeCriteriaGuidePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -733,6 +737,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'thyroid-cancer-diagnosis-rider': thyroidCancerDiagnosisRiderPolicy,
   'indemnity-insurance-exclusions': indemnityInsuranceExclusionsPolicy,
   'health-condition-discount-insurance': healthConditionDiscountInsurancePolicy,
+  'hospital-tier-classification-guide': hospitalTierClassificationGuidePolicy,
+  'ltci-grade-criteria-guide': ltciGradeCriteriaGuidePolicy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -1026,6 +1032,8 @@ export const SpokesById: Record<string, any[]> = {
   '259': thyroidCancerDiagnosisRiderSpokes,
   '260': indemnityInsuranceExclusionsSpokes,
   '261': healthConditionDiscountInsuranceSpokes,
+  '262': hospitalTierClassificationGuideSpokes,
+  '263': ltciGradeCriteriaGuideSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1279,6 +1287,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'thyroid-cancer-diagnosis-rider': thyroidCancerDiagnosisRiderSpokes,
   'indemnity-insurance-exclusions': indemnityInsuranceExclusionsSpokes,
   'health-condition-discount-insurance': healthConditionDiscountInsuranceSpokes,
+  'hospital-tier-classification-guide': hospitalTierClassificationGuideSpokes,
+  'ltci-grade-criteria-guide': ltciGradeCriteriaGuideSpokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
