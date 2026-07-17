@@ -306,6 +306,7 @@ import { hospitalTierClassificationGuidePolicy, hospitalTierClassificationGuideS
 import { ltciGradeCriteriaGuidePolicy, ltciGradeCriteriaGuideSpokes } from './ltci-grade-criteria-guide';
 import { postalInsuranceFetusRegistrationPolicy, postalInsuranceFetusRegistrationSpokes } from './postal-insurance-fetus-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
+import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -488,6 +489,7 @@ export const PoliciesById: Record<string, any> = {
   '263': ltciGradeCriteriaGuidePolicy,
   '264': postalInsuranceFetusRegistrationPolicy,
   '265': mounjaroPriceComparisonPolicy,
+  '266': limYoungwoongConcert2026Policy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -745,6 +747,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'ltci-grade-criteria-guide': ltciGradeCriteriaGuidePolicy,
   'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
+  'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
   'infant-health-checkup': infantHealthCheckupPolicy,
   'infertility-treatment-leave': infertilityTreatmentLeavePolicy,
@@ -1042,6 +1045,7 @@ export const SpokesById: Record<string, any[]> = {
   '263': ltciGradeCriteriaGuideSpokes,
   '264': postalInsuranceFetusRegistrationSpokes,
   '265': mounjaroPriceComparisonSpokes,
+  '266': limYoungwoongConcert2026Spokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1299,6 +1303,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'ltci-grade-criteria-guide': ltciGradeCriteriaGuideSpokes,
   'postal-insurance-fetus-registration': postalInsuranceFetusRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
+  'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
   'infant-health-checkup': infantHealthCheckupSpokes,
   'infertility-treatment-leave': infertilityTreatmentLeaveSpokes,
