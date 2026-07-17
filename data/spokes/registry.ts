@@ -55,6 +55,8 @@ import { 재수급SpokeContent }    from '@/app/policy/[id]/[spoke]/content/실�
 import { 알바단기SpokeContent }  from '@/app/policy/[id]/[spoke]/content/실업급여/알바단기';
 import { 실업급여수급자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급자격';
 import { 실업급여수급유예SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급유예';
+import { 미지급실업급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/미지급실업급여';
+import { 실업급여이의제기심사청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/이의제기심사청구';
 import { 실업급여해외여행SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/해외여행';
 import { 실업급여자격증구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자격증구직활동';
 import { 실업급여임금체불SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/임금체불';
@@ -1287,6 +1289,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '동거친족':   실업급여동거친족SpokeContent,
     '국민취업지원중복': 실업급여국민취업지원중복SpokeContent,
     '실업크레딧': 실업급여실업크레딧SpokeContent,
+    'unpaid-benefit-death-claim': 미지급실업급여SpokeContent,
+    'objection-review-request':   실업급여이의제기심사청구SpokeContent,
   },
 
   'parent-allowance': {

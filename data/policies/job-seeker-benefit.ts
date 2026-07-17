@@ -281,4 +281,6 @@ export const jobSeekerBenefitSpokes = [
   { slug: '동거친족', title: '동거친족 사업장에서 일해도 실업급여 받나?' },
   { slug: '국민취업지원중복', title: '국민취업지원제도랑 실업급여 같이 받나? 중복·차이' },
   { slug: '실업크레딧', title: '실업급여 받는 동안 국민연금 지원, 실업크레딧이란' },
+  { slug: 'unpaid-benefit-death-claim', title: '실업급여 받던 가족이 사망했다면 미지급 실업급여 청구하는 법' },
+  { slug: 'objection-review-request', title: '실업급여 불승인 결정에 심사청구서 접수하는 법' },
 ];

@@ -312,6 +312,7 @@ import { profitSharingMortgagePolicy, profitSharingMortgageSpokes } from './prof
 import { lossSharingMortgagePolicy, lossSharingMortgageSpokes } from './loss-sharing-mortgage';
 import { officetelPurchaseLoanPolicy, officetelPurchaseLoanSpokes } from './officetel-purchase-loan';
 import { vulnerableHousingRelocationLoanPolicy, vulnerableHousingRelocationLoanSpokes } from './vulnerable-housing-relocation-loan';
+import { oldAgePensionPolicy, oldAgePensionSpokes } from './old-age-pension';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -504,6 +505,7 @@ export const PoliciesById: Record<string, any> = {
   '271': lossSharingMortgagePolicy,
   '272': officetelPurchaseLoanPolicy,
   '273': vulnerableHousingRelocationLoanPolicy,
+  '274': oldAgePensionPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -767,6 +769,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'loss-sharing-mortgage': lossSharingMortgagePolicy,
   'officetel-purchase-loan': officetelPurchaseLoanPolicy,
   'vulnerable-housing-relocation-loan': vulnerableHousingRelocationLoanPolicy,
+  'old-age-pension': oldAgePensionPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1074,6 +1077,7 @@ export const SpokesById: Record<string, any[]> = {
   '271': lossSharingMortgageSpokes,
   '272': officetelPurchaseLoanSpokes,
   '273': vulnerableHousingRelocationLoanSpokes,
+  '274': oldAgePensionSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1337,6 +1341,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'loss-sharing-mortgage': lossSharingMortgageSpokes,
   'officetel-purchase-loan': officetelPurchaseLoanSpokes,
   'vulnerable-housing-relocation-loan': vulnerableHousingRelocationLoanSpokes,
+  'old-age-pension': oldAgePensionSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
