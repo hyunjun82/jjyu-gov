@@ -315,6 +315,7 @@ import { vulnerableHousingRelocationLoanPolicy, vulnerableHousingRelocationLoanS
 import { oldAgePensionPolicy, oldAgePensionSpokes } from './old-age-pension';
 import { inheritanceTaxPolicy, inheritanceTaxSpokes } from './inheritance-tax';
 import { giftTaxPolicy, giftTaxSpokes } from './gift-tax';
+import { capitalGainsTaxPolicy, capitalGainsTaxSpokes } from './capital-gains-tax';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -510,6 +511,7 @@ export const PoliciesById: Record<string, any> = {
   '274': oldAgePensionPolicy,
   '275': inheritanceTaxPolicy,
   '276': giftTaxPolicy,
+  '277': capitalGainsTaxPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -776,6 +778,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'old-age-pension': oldAgePensionPolicy,
   'inheritance-tax': inheritanceTaxPolicy,
   'gift-tax': giftTaxPolicy,
+  'capital-gains-tax': capitalGainsTaxPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1086,6 +1089,7 @@ export const SpokesById: Record<string, any[]> = {
   '274': oldAgePensionSpokes,
   '275': inheritanceTaxSpokes,
   '276': giftTaxSpokes,
+  '277': capitalGainsTaxSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1352,6 +1356,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'old-age-pension': oldAgePensionSpokes,
   'inheritance-tax': inheritanceTaxSpokes,
   'gift-tax': giftTaxSpokes,
+  'capital-gains-tax': capitalGainsTaxSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
