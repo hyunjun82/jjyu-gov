@@ -316,6 +316,8 @@ import { oldAgePensionPolicy, oldAgePensionSpokes } from './old-age-pension';
 import { inheritanceTaxPolicy, inheritanceTaxSpokes } from './inheritance-tax';
 import { giftTaxPolicy, giftTaxSpokes } from './gift-tax';
 import { capitalGainsTaxPolicy, capitalGainsTaxSpokes } from './capital-gains-tax';
+import { comprehensiveIncomeTaxPolicy, comprehensiveIncomeTaxSpokes } from './comprehensive-income-tax';
+import { acquisitionTaxPolicy, acquisitionTaxSpokes } from './acquisition-tax';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -512,6 +514,8 @@ export const PoliciesById: Record<string, any> = {
   '275': inheritanceTaxPolicy,
   '276': giftTaxPolicy,
   '277': capitalGainsTaxPolicy,
+  '278': comprehensiveIncomeTaxPolicy,
+  '279': acquisitionTaxPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -779,6 +783,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'inheritance-tax': inheritanceTaxPolicy,
   'gift-tax': giftTaxPolicy,
   'capital-gains-tax': capitalGainsTaxPolicy,
+  'comprehensive-income-tax': comprehensiveIncomeTaxPolicy,
+  'acquisition-tax': acquisitionTaxPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1090,6 +1096,8 @@ export const SpokesById: Record<string, any[]> = {
   '275': inheritanceTaxSpokes,
   '276': giftTaxSpokes,
   '277': capitalGainsTaxSpokes,
+  '278': comprehensiveIncomeTaxSpokes,
+  '279': acquisitionTaxSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1357,6 +1365,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'inheritance-tax': inheritanceTaxSpokes,
   'gift-tax': giftTaxSpokes,
   'capital-gains-tax': capitalGainsTaxSpokes,
+  'comprehensive-income-tax': comprehensiveIncomeTaxSpokes,
+  'acquisition-tax': acquisitionTaxSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
