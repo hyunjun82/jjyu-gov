@@ -604,6 +604,13 @@ import { tourismBusinessTransferReportPolicy, tourismBusinessTransferReportSpoke
 import { vehicleDesignatedMaintenanceBusinessDesignationPolicy, vehicleDesignatedMaintenanceBusinessDesignationSpokes } from './vehicle-designated-maintenance-business-designation';
 import { forestTreeFellingReportPolicy, forestTreeFellingReportSpokes } from './forest-tree-felling-report';
 import { waterTankInstallationReportPolicy, waterTankInstallationReportSpokes } from './water-tank-installation-report';
+import { buriedHeritageDiscoveryReportPolicy, buriedHeritageDiscoveryReportSpokes } from './buried-heritage-discovery-report';
+import { nationalTechnicalQualificationVerificationPolicy, nationalTechnicalQualificationVerificationSpokes } from './national-technical-qualification-verification';
+import { swordPossessionPermitPolicy, swordPossessionPermitSpokes } from './sword-possession-permit';
+import { pcCafeBusinessRegistrationPolicy, pcCafeBusinessRegistrationSpokes } from './pc-cafe-business-registration';
+import { marriageBrokerageCertificateReissuePolicy, marriageBrokerageCertificateReissueSpokes } from './marriage-brokerage-certificate-reissue';
+import { exportCertificateOfOriginIssuancePolicy, exportCertificateOfOriginIssuanceSpokes } from './export-certificate-of-origin-issuance';
+import { valueAddedTelecomBusinessReportPolicy, valueAddedTelecomBusinessReportSpokes } from './value-added-telecom-business-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1088,6 +1095,13 @@ export const PoliciesById: Record<string, any> = {
   '564': vehicleDesignatedMaintenanceBusinessDesignationPolicy,
   '565': forestTreeFellingReportPolicy,
   '566': waterTankInstallationReportPolicy,
+  '567': buriedHeritageDiscoveryReportPolicy,
+  '568': nationalTechnicalQualificationVerificationPolicy,
+  '569': swordPossessionPermitPolicy,
+  '570': pcCafeBusinessRegistrationPolicy,
+  '571': marriageBrokerageCertificateReissuePolicy,
+  '572': exportCertificateOfOriginIssuancePolicy,
+  '573': valueAddedTelecomBusinessReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1643,6 +1657,13 @@ export const PoliciesBySlug: Record<string, any> = {
   'vehicle-designated-maintenance-business-designation': vehicleDesignatedMaintenanceBusinessDesignationPolicy,
   'forest-tree-felling-report': forestTreeFellingReportPolicy,
   'water-tank-installation-report': waterTankInstallationReportPolicy,
+  'buried-heritage-discovery-report': buriedHeritageDiscoveryReportPolicy,
+  'national-technical-qualification-verification': nationalTechnicalQualificationVerificationPolicy,
+  'sword-possession-permit': swordPossessionPermitPolicy,
+  'pc-cafe-business-registration': pcCafeBusinessRegistrationPolicy,
+  'marriage-brokerage-certificate-reissue': marriageBrokerageCertificateReissuePolicy,
+  'export-certificate-of-origin-issuance': exportCertificateOfOriginIssuancePolicy,
+  'value-added-telecom-business-report': valueAddedTelecomBusinessReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2242,6 +2263,13 @@ export const SpokesById: Record<string, any[]> = {
   '564': vehicleDesignatedMaintenanceBusinessDesignationSpokes,
   '565': forestTreeFellingReportSpokes,
   '566': waterTankInstallationReportSpokes,
+  '567': buriedHeritageDiscoveryReportSpokes,
+  '568': nationalTechnicalQualificationVerificationSpokes,
+  '569': swordPossessionPermitSpokes,
+  '570': pcCafeBusinessRegistrationSpokes,
+  '571': marriageBrokerageCertificateReissueSpokes,
+  '572': exportCertificateOfOriginIssuanceSpokes,
+  '573': valueAddedTelecomBusinessReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2797,6 +2825,13 @@ export const SpokesBySlug: Record<string, any[]> = {
   'vehicle-designated-maintenance-business-designation': vehicleDesignatedMaintenanceBusinessDesignationSpokes,
   'forest-tree-felling-report': forestTreeFellingReportSpokes,
   'water-tank-installation-report': waterTankInstallationReportSpokes,
+  'buried-heritage-discovery-report': buriedHeritageDiscoveryReportSpokes,
+  'national-technical-qualification-verification': nationalTechnicalQualificationVerificationSpokes,
+  'sword-possession-permit': swordPossessionPermitSpokes,
+  'pc-cafe-business-registration': pcCafeBusinessRegistrationSpokes,
+  'marriage-brokerage-certificate-reissue': marriageBrokerageCertificateReissueSpokes,
+  'export-certificate-of-origin-issuance': exportCertificateOfOriginIssuanceSpokes,
+  'value-added-telecom-business-report': valueAddedTelecomBusinessReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
