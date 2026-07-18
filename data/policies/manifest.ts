@@ -618,6 +618,13 @@ import { industrialPropertyApplicationPolicy, industrialPropertyApplicationSpoke
 import { outdoorAssemblyWithdrawalReportPolicy, outdoorAssemblyWithdrawalReportSpokes } from './outdoor-assembly-withdrawal-report';
 import { noiseVibrationFacilityPermitPolicy, noiseVibrationFacilityPermitSpokes } from './noise-vibration-facility-permit';
 import { fertilizerProductionBusinessRegistrationPolicy, fertilizerProductionBusinessRegistrationSpokes } from './fertilizer-production-business-registration';
+import { outdoorAdvertisementSafetyInspectionPolicy, outdoorAdvertisementSafetyInspectionSpokes } from './outdoor-advertisement-safety-inspection';
+import { seedBusinessRegistrationPolicy, seedBusinessRegistrationSpokes } from './seed-business-registration';
+import { livestockBusinessTransferReportPolicy, livestockBusinessTransferReportSpokes } from './livestock-business-transfer-report';
+import { newspaperInternetNewsBusinessRegistrationPolicy, newspaperInternetNewsBusinessRegistrationSpokes } from './newspaper-internet-news-business-registration';
+import { registeredSportsFacilityBusinessPlanApprovalPolicy, registeredSportsFacilityBusinessPlanApprovalSpokes } from './registered-sports-facility-business-plan-approval';
+import { cosmeticsResponsibleSalesRegistrationPolicy, cosmeticsResponsibleSalesRegistrationSpokes } from './cosmetics-responsible-sales-registration';
+import { directSalesCertificateReissuePolicy, directSalesCertificateReissueSpokes } from './direct-sales-certificate-reissue';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1116,6 +1123,13 @@ export const PoliciesById: Record<string, any> = {
   '578': outdoorAssemblyWithdrawalReportPolicy,
   '579': noiseVibrationFacilityPermitPolicy,
   '580': fertilizerProductionBusinessRegistrationPolicy,
+  '581': outdoorAdvertisementSafetyInspectionPolicy,
+  '582': seedBusinessRegistrationPolicy,
+  '583': livestockBusinessTransferReportPolicy,
+  '584': newspaperInternetNewsBusinessRegistrationPolicy,
+  '585': registeredSportsFacilityBusinessPlanApprovalPolicy,
+  '586': cosmeticsResponsibleSalesRegistrationPolicy,
+  '587': directSalesCertificateReissuePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1685,6 +1699,13 @@ export const PoliciesBySlug: Record<string, any> = {
   'outdoor-assembly-withdrawal-report': outdoorAssemblyWithdrawalReportPolicy,
   'noise-vibration-facility-permit': noiseVibrationFacilityPermitPolicy,
   'fertilizer-production-business-registration': fertilizerProductionBusinessRegistrationPolicy,
+  'outdoor-advertisement-safety-inspection': outdoorAdvertisementSafetyInspectionPolicy,
+  'seed-business-registration': seedBusinessRegistrationPolicy,
+  'livestock-business-transfer-report': livestockBusinessTransferReportPolicy,
+  'newspaper-internet-news-business-registration': newspaperInternetNewsBusinessRegistrationPolicy,
+  'registered-sports-facility-business-plan-approval': registeredSportsFacilityBusinessPlanApprovalPolicy,
+  'cosmetics-responsible-sales-registration': cosmeticsResponsibleSalesRegistrationPolicy,
+  'direct-sales-certificate-reissue': directSalesCertificateReissuePolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2298,6 +2319,13 @@ export const SpokesById: Record<string, any[]> = {
   '578': outdoorAssemblyWithdrawalReportSpokes,
   '579': noiseVibrationFacilityPermitSpokes,
   '580': fertilizerProductionBusinessRegistrationSpokes,
+  '581': outdoorAdvertisementSafetyInspectionSpokes,
+  '582': seedBusinessRegistrationSpokes,
+  '583': livestockBusinessTransferReportSpokes,
+  '584': newspaperInternetNewsBusinessRegistrationSpokes,
+  '585': registeredSportsFacilityBusinessPlanApprovalSpokes,
+  '586': cosmeticsResponsibleSalesRegistrationSpokes,
+  '587': directSalesCertificateReissueSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2867,6 +2895,13 @@ export const SpokesBySlug: Record<string, any[]> = {
   'outdoor-assembly-withdrawal-report': outdoorAssemblyWithdrawalReportSpokes,
   'noise-vibration-facility-permit': noiseVibrationFacilityPermitSpokes,
   'fertilizer-production-business-registration': fertilizerProductionBusinessRegistrationSpokes,
+  'outdoor-advertisement-safety-inspection': outdoorAdvertisementSafetyInspectionSpokes,
+  'seed-business-registration': seedBusinessRegistrationSpokes,
+  'livestock-business-transfer-report': livestockBusinessTransferReportSpokes,
+  'newspaper-internet-news-business-registration': newspaperInternetNewsBusinessRegistrationSpokes,
+  'registered-sports-facility-business-plan-approval': registeredSportsFacilityBusinessPlanApprovalSpokes,
+  'cosmetics-responsible-sales-registration': cosmeticsResponsibleSalesRegistrationSpokes,
+  'direct-sales-certificate-reissue': directSalesCertificateReissueSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
