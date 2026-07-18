@@ -485,7 +485,39 @@ import { custodyDesignationReportPolicy, custodyDesignationReportSpokes } from '
 import { minorGuardianChangeReportPolicy, minorGuardianChangeReportSpokes } from './minor-guardian-change-report';
 import { individualLandPriceConfirmationPolicy, individualLandPriceConfirmationSpokes } from './individual-land-price-confirmation';
 import { veteran518EmploymentApplicationPolicy, veteran518EmploymentApplicationSpokes } from './518-veteran-employment-application';
+import { veteranCompensationConfirmationPolicy, veteranCompensationConfirmationSpokes } from './veteran-compensation-confirmation';
 import { veteranCompensationRegistrationPolicy, veteranCompensationRegistrationSpokes } from './veteran-compensation-registration';
+import { industrialAccidentBenefitSubrogationPolicy, industrialAccidentBenefitSubrogationSpokes } from './industrial-accident-benefit-subrogation';
+import { industrialAccidentNursingBenefitPolicy, industrialAccidentNursingBenefitSpokes } from './industrial-accident-nursing-benefit';
+import { unemploymentCreditRecognitionPolicy, unemploymentCreditRecognitionSpokes } from './unemployment-credit-recognition';
+import { employerTrainingCostSupportPolicy, employerTrainingCostSupportSpokes } from './employer-training-cost-support';
+import { womenEnterpriseCertificatePolicy, womenEnterpriseCertificateSpokes } from './women-enterprise-certificate';
+import { disabledEnterpriseCertificatePolicy, disabledEnterpriseCertificateSpokes } from './disabled-enterprise-certificate';
+import { ventureCompanyCertificatePolicy, ventureCompanyCertificateSpokes } from './venture-company-certificate';
+import { smeConfirmationPolicy, smeConfirmationSpokes } from './sme-confirmation';
+import { mainbizCertificateReissuePolicy, mainbizCertificateReissueSpokes } from './mainbiz-certificate-reissue';
+import { innobizCertificatePolicy, innobizCertificateSpokes } from './innobiz-certificate';
+import { smeOwnerIndustrialAccidentInsurancePolicy, smeOwnerIndustrialAccidentInsuranceSpokes } from './sme-owner-industrial-accident-insurance';
+import { platformWorkerLeaveReportPolicy, platformWorkerLeaveReportSpokes } from './platform-worker-leave-report';
+import { insuredTurnoverConfirmationPolicy, insuredTurnoverConfirmationSpokes } from './insured-turnover-confirmation';
+import { artistPlatformWorkerInsuranceAcquisitionPolicy, artistPlatformWorkerInsuranceAcquisitionSpokes } from './artist-platform-worker-insurance-acquisition';
+import { employeeInsuranceLossReportPolicy, employeeInsuranceLossReportSpokes } from './employee-insurance-loss-report';
+import { fourInsuranceWorkplaceEstablishmentPolicy, fourInsuranceWorkplaceEstablishmentSpokes } from './four-insurance-workplace-establishment';
+import { unitTaxationRegistrationPolicy, unitTaxationRegistrationSpokes } from './unit-taxation-registration';
+import { unitTaxationBranchCertificatePolicy, unitTaxationBranchCertificateSpokes } from './unit-taxation-branch-certificate';
+import { onlineMailOrderBusinessClosurePolicy, onlineMailOrderBusinessClosureSpokes } from './online-mail-order-business-closure';
+import { onlineMailOrderBusinessRegistrationPolicy, onlineMailOrderBusinessRegistrationSpokes } from './online-mail-order-business-registration';
+import { onlineMailOrderCertificateReissuePolicy, onlineMailOrderCertificateReissueSpokes } from './online-mail-order-certificate-reissue';
+import { onlineMailOrderBusinessChangePolicy, onlineMailOrderBusinessChangeSpokes } from './online-mail-order-business-change';
+import { doorToDoorSalesRegistrationPolicy, doorToDoorSalesRegistrationSpokes } from './door-to-door-sales-registration';
+import { multilevelMarketingRegistrationPolicy, multilevelMarketingRegistrationSpokes } from './multilevel-marketing-registration';
+import { multilevelMarketingChangeReportPolicy, multilevelMarketingChangeReportSpokes } from './multilevel-marketing-change-report';
+import { outdoorAdvertisementPermitPolicy, outdoorAdvertisementPermitSpokes } from './outdoor-advertisement-permit';
+import { outdoorAdvertisementExtensionPolicy, outdoorAdvertisementExtensionSpokes } from './outdoor-advertisement-extension';
+import { tobaccoRetailerDesignationPolicy, tobaccoRetailerDesignationSpokes } from './tobacco-retailer-designation';
+import { tobaccoLicenseReissuePolicy, tobaccoLicenseReissueSpokes } from './tobacco-license-reissue';
+import { largeScaleStoreRegistrationPolicy, largeScaleStoreRegistrationSpokes } from './large-scale-store-registration';
+import { largeScaleStoreClosureReportPolicy, largeScaleStoreClosureReportSpokes } from './large-scale-store-closure-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -851,7 +883,39 @@ export const PoliciesById: Record<string, any> = {
   '445': minorGuardianChangeReportPolicy,
   '446': individualLandPriceConfirmationPolicy,
   '447': veteran518EmploymentApplicationPolicy,
+  '449': veteranCompensationConfirmationPolicy,
   '448': veteranCompensationRegistrationPolicy,
+  '450': industrialAccidentBenefitSubrogationPolicy,
+  '451': industrialAccidentNursingBenefitPolicy,
+  '452': unemploymentCreditRecognitionPolicy,
+  '453': employerTrainingCostSupportPolicy,
+  '454': womenEnterpriseCertificatePolicy,
+  '455': disabledEnterpriseCertificatePolicy,
+  '456': ventureCompanyCertificatePolicy,
+  '457': smeConfirmationPolicy,
+  '458': mainbizCertificateReissuePolicy,
+  '459': innobizCertificatePolicy,
+  '460': smeOwnerIndustrialAccidentInsurancePolicy,
+  '461': platformWorkerLeaveReportPolicy,
+  '462': insuredTurnoverConfirmationPolicy,
+  '463': artistPlatformWorkerInsuranceAcquisitionPolicy,
+  '464': employeeInsuranceLossReportPolicy,
+  '465': fourInsuranceWorkplaceEstablishmentPolicy,
+  '466': unitTaxationRegistrationPolicy,
+  '467': unitTaxationBranchCertificatePolicy,
+  '468': onlineMailOrderBusinessClosurePolicy,
+  '469': onlineMailOrderBusinessRegistrationPolicy,
+  '470': onlineMailOrderCertificateReissuePolicy,
+  '471': onlineMailOrderBusinessChangePolicy,
+  '472': doorToDoorSalesRegistrationPolicy,
+  '473': multilevelMarketingRegistrationPolicy,
+  '474': multilevelMarketingChangeReportPolicy,
+  '475': outdoorAdvertisementPermitPolicy,
+  '476': outdoorAdvertisementExtensionPolicy,
+  '477': tobaccoRetailerDesignationPolicy,
+  '478': tobaccoLicenseReissuePolicy,
+  '479': largeScaleStoreRegistrationPolicy,
+  '480': largeScaleStoreClosureReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1288,7 +1352,39 @@ export const PoliciesBySlug: Record<string, any> = {
   'minor-guardian-change-report': minorGuardianChangeReportPolicy,
   'individual-land-price-confirmation': individualLandPriceConfirmationPolicy,
   '518-veteran-employment-application': veteran518EmploymentApplicationPolicy,
+  'veteran-compensation-confirmation': veteranCompensationConfirmationPolicy,
   'veteran-compensation-registration': veteranCompensationRegistrationPolicy,
+  'industrial-accident-benefit-subrogation': industrialAccidentBenefitSubrogationPolicy,
+  'industrial-accident-nursing-benefit': industrialAccidentNursingBenefitPolicy,
+  'unemployment-credit-recognition': unemploymentCreditRecognitionPolicy,
+  'employer-training-cost-support': employerTrainingCostSupportPolicy,
+  'women-enterprise-certificate': womenEnterpriseCertificatePolicy,
+  'disabled-enterprise-certificate': disabledEnterpriseCertificatePolicy,
+  'venture-company-certificate': ventureCompanyCertificatePolicy,
+  'sme-confirmation': smeConfirmationPolicy,
+  'mainbiz-certificate-reissue': mainbizCertificateReissuePolicy,
+  'innobiz-certificate': innobizCertificatePolicy,
+  'sme-owner-industrial-accident-insurance': smeOwnerIndustrialAccidentInsurancePolicy,
+  'platform-worker-leave-report': platformWorkerLeaveReportPolicy,
+  'insured-turnover-confirmation': insuredTurnoverConfirmationPolicy,
+  'artist-platform-worker-insurance-acquisition': artistPlatformWorkerInsuranceAcquisitionPolicy,
+  'employee-insurance-loss-report': employeeInsuranceLossReportPolicy,
+  'four-insurance-workplace-establishment': fourInsuranceWorkplaceEstablishmentPolicy,
+  'unit-taxation-registration': unitTaxationRegistrationPolicy,
+  'unit-taxation-branch-certificate': unitTaxationBranchCertificatePolicy,
+  'online-mail-order-business-closure': onlineMailOrderBusinessClosurePolicy,
+  'online-mail-order-business-registration': onlineMailOrderBusinessRegistrationPolicy,
+  'online-mail-order-certificate-reissue': onlineMailOrderCertificateReissuePolicy,
+  'online-mail-order-business-change': onlineMailOrderBusinessChangePolicy,
+  'door-to-door-sales-registration': doorToDoorSalesRegistrationPolicy,
+  'multilevel-marketing-registration': multilevelMarketingRegistrationPolicy,
+  'multilevel-marketing-change-report': multilevelMarketingChangeReportPolicy,
+  'outdoor-advertisement-permit': outdoorAdvertisementPermitPolicy,
+  'outdoor-advertisement-extension': outdoorAdvertisementExtensionPolicy,
+  'tobacco-retailer-designation': tobaccoRetailerDesignationPolicy,
+  'tobacco-license-reissue': tobaccoLicenseReissuePolicy,
+  'large-scale-store-registration': largeScaleStoreRegistrationPolicy,
+  'large-scale-store-closure-report': largeScaleStoreClosureReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1769,7 +1865,39 @@ export const SpokesById: Record<string, any[]> = {
   '445': minorGuardianChangeReportSpokes,
   '446': individualLandPriceConfirmationSpokes,
   '447': veteran518EmploymentApplicationSpokes,
+  '449': veteranCompensationConfirmationSpokes,
   '448': veteranCompensationRegistrationSpokes,
+  '450': industrialAccidentBenefitSubrogationSpokes,
+  '451': industrialAccidentNursingBenefitSpokes,
+  '452': unemploymentCreditRecognitionSpokes,
+  '453': employerTrainingCostSupportSpokes,
+  '454': womenEnterpriseCertificateSpokes,
+  '455': disabledEnterpriseCertificateSpokes,
+  '456': ventureCompanyCertificateSpokes,
+  '457': smeConfirmationSpokes,
+  '458': mainbizCertificateReissueSpokes,
+  '459': innobizCertificateSpokes,
+  '460': smeOwnerIndustrialAccidentInsuranceSpokes,
+  '461': platformWorkerLeaveReportSpokes,
+  '462': insuredTurnoverConfirmationSpokes,
+  '463': artistPlatformWorkerInsuranceAcquisitionSpokes,
+  '464': employeeInsuranceLossReportSpokes,
+  '465': fourInsuranceWorkplaceEstablishmentSpokes,
+  '466': unitTaxationRegistrationSpokes,
+  '467': unitTaxationBranchCertificateSpokes,
+  '468': onlineMailOrderBusinessClosureSpokes,
+  '469': onlineMailOrderBusinessRegistrationSpokes,
+  '470': onlineMailOrderCertificateReissueSpokes,
+  '471': onlineMailOrderBusinessChangeSpokes,
+  '472': doorToDoorSalesRegistrationSpokes,
+  '473': multilevelMarketingRegistrationSpokes,
+  '474': multilevelMarketingChangeReportSpokes,
+  '475': outdoorAdvertisementPermitSpokes,
+  '476': outdoorAdvertisementExtensionSpokes,
+  '477': tobaccoRetailerDesignationSpokes,
+  '478': tobaccoLicenseReissueSpokes,
+  '479': largeScaleStoreRegistrationSpokes,
+  '480': largeScaleStoreClosureReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2206,7 +2334,39 @@ export const SpokesBySlug: Record<string, any[]> = {
   'minor-guardian-change-report': minorGuardianChangeReportSpokes,
   'individual-land-price-confirmation': individualLandPriceConfirmationSpokes,
   '518-veteran-employment-application': veteran518EmploymentApplicationSpokes,
+  'veteran-compensation-confirmation': veteranCompensationConfirmationSpokes,
   'veteran-compensation-registration': veteranCompensationRegistrationSpokes,
+  'industrial-accident-benefit-subrogation': industrialAccidentBenefitSubrogationSpokes,
+  'industrial-accident-nursing-benefit': industrialAccidentNursingBenefitSpokes,
+  'unemployment-credit-recognition': unemploymentCreditRecognitionSpokes,
+  'employer-training-cost-support': employerTrainingCostSupportSpokes,
+  'women-enterprise-certificate': womenEnterpriseCertificateSpokes,
+  'disabled-enterprise-certificate': disabledEnterpriseCertificateSpokes,
+  'venture-company-certificate': ventureCompanyCertificateSpokes,
+  'sme-confirmation': smeConfirmationSpokes,
+  'mainbiz-certificate-reissue': mainbizCertificateReissueSpokes,
+  'innobiz-certificate': innobizCertificateSpokes,
+  'sme-owner-industrial-accident-insurance': smeOwnerIndustrialAccidentInsuranceSpokes,
+  'platform-worker-leave-report': platformWorkerLeaveReportSpokes,
+  'insured-turnover-confirmation': insuredTurnoverConfirmationSpokes,
+  'artist-platform-worker-insurance-acquisition': artistPlatformWorkerInsuranceAcquisitionSpokes,
+  'employee-insurance-loss-report': employeeInsuranceLossReportSpokes,
+  'four-insurance-workplace-establishment': fourInsuranceWorkplaceEstablishmentSpokes,
+  'unit-taxation-registration': unitTaxationRegistrationSpokes,
+  'unit-taxation-branch-certificate': unitTaxationBranchCertificateSpokes,
+  'online-mail-order-business-closure': onlineMailOrderBusinessClosureSpokes,
+  'online-mail-order-business-registration': onlineMailOrderBusinessRegistrationSpokes,
+  'online-mail-order-certificate-reissue': onlineMailOrderCertificateReissueSpokes,
+  'online-mail-order-business-change': onlineMailOrderBusinessChangeSpokes,
+  'door-to-door-sales-registration': doorToDoorSalesRegistrationSpokes,
+  'multilevel-marketing-registration': multilevelMarketingRegistrationSpokes,
+  'multilevel-marketing-change-report': multilevelMarketingChangeReportSpokes,
+  'outdoor-advertisement-permit': outdoorAdvertisementPermitSpokes,
+  'outdoor-advertisement-extension': outdoorAdvertisementExtensionSpokes,
+  'tobacco-retailer-designation': tobaccoRetailerDesignationSpokes,
+  'tobacco-license-reissue': tobaccoLicenseReissueSpokes,
+  'large-scale-store-registration': largeScaleStoreRegistrationSpokes,
+  'large-scale-store-closure-report': largeScaleStoreClosureReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
