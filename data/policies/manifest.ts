@@ -636,6 +636,8 @@ import { portTransportationBusinessRegistrationPolicy, portTransportationBusines
 import { environmentalMeasurementAgencyRegistrationPolicy, environmentalMeasurementAgencyRegistrationSpokes } from './environmental-measurement-agency-registration';
 import { filmVideoRatingClassificationPolicy, filmVideoRatingClassificationSpokes } from './film-video-rating-classification';
 import { specialTelecomBusinessRegistrationPolicy, specialTelecomBusinessRegistrationSpokes } from './special-telecom-business-registration';
+import { disinfectionBusinessReportPolicy, disinfectionBusinessReportSpokes } from './disinfection-business-report';
+import { lpgSafetyManagerAppointmentReportPolicy, lpgSafetyManagerAppointmentReportSpokes } from './lpg-safety-manager-appointment-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1152,6 +1154,8 @@ export const PoliciesById: Record<string, any> = {
   '596': environmentalMeasurementAgencyRegistrationPolicy,
   '597': filmVideoRatingClassificationPolicy,
   '598': specialTelecomBusinessRegistrationPolicy,
+  '599': disinfectionBusinessReportPolicy,
+  '600': lpgSafetyManagerAppointmentReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1739,6 +1743,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'environmental-measurement-agency-registration': environmentalMeasurementAgencyRegistrationPolicy,
   'film-video-rating-classification': filmVideoRatingClassificationPolicy,
   'special-telecom-business-registration': specialTelecomBusinessRegistrationPolicy,
+  'disinfection-business-report': disinfectionBusinessReportPolicy,
+  'lpg-safety-manager-appointment-report': lpgSafetyManagerAppointmentReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2370,6 +2376,8 @@ export const SpokesById: Record<string, any[]> = {
   '596': environmentalMeasurementAgencyRegistrationSpokes,
   '597': filmVideoRatingClassificationSpokes,
   '598': specialTelecomBusinessRegistrationSpokes,
+  '599': disinfectionBusinessReportSpokes,
+  '600': lpgSafetyManagerAppointmentReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2957,6 +2965,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'environmental-measurement-agency-registration': environmentalMeasurementAgencyRegistrationSpokes,
   'film-video-rating-classification': filmVideoRatingClassificationSpokes,
   'special-telecom-business-registration': specialTelecomBusinessRegistrationSpokes,
+  'disinfection-business-report': disinfectionBusinessReportSpokes,
+  'lpg-safety-manager-appointment-report': lpgSafetyManagerAppointmentReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
