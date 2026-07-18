@@ -1,0 +1,73 @@
+/* 안경업소 개설 등록 - 보건복지부·정부24 */
+export const opticalShopOpeningRegistrationPolicy = {
+  id: '537', type: 'service' as const,
+  title: '안경업소 개설등록 시설장비개요서로 시군구에 3일 만에 신청하는 법',
+  titleKeywords: { k1: '안경업소개설등록신청서별지7호의료기사등에관한법률제12조제3항', k2: '시설및장비개요서안경사면허증사본', k3: '개설자종사할안경사면허증담당공무원확인', k4: '수수료조례로결정시군구접수처리3일' },
+  slug: 'optical-shop-opening-registration', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
+  amount: '수수료는 조례로 결정', deadline: '안경업소 개설 전 등록 필수(처리 총 3일)', views: 0,
+  applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060', ctaLabel: '정부24 안경업소 개설 등록 바로가기',
+  datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',
+  summary: '안경업소 개설 등록은 안경사가 안경업소를 개설하고자 시설·장비를 갖추고 시장·군수·구청장에게 등록을 신청하는 민원으로, 의료기사 등에 관한 법률 제12조제3항·시행규칙 제13조제1항 별지 서식 7호에 근거합니다. 신청 방법은 인터넷, 방문, 우편입니다. 신청자격은 본인 또는 대리인이나 온라인은 대리인 신청이 불가합니다. 수수료는 조례로 결정됩니다. 처리기간은 총 3일입니다. 제출서류는 시설 및 장비개요서입니다. 개설자 및 종사할 안경사의 면허증 사본(면허증 제시 시 담당자 확인으로 갈음 가능)은 담당공무원이 행정정보공동이용으로 확인합니다. 접수·처리기관은 시·군·구입니다. 본 정보는 정부24 공식 자료에 기반하며, 정확한 신청방법은 정부24나 관할 시군구청에서 확인이 필요합니다.',
+  metaDescription: '안경업소 개설등록 시설장비개요서로 시군구에 3일 만에 신청하는 법 – 수수료는 조례 결정, 처리 총 3일.',
+  audience: '안경사 면허를 소지하고 안경업소(안경원)를 새로 개설하려는 사업자',
+  keyFacts: {
+    신청방법: { value: '인터넷, 방문, 우편', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060', text: '신청방법', verifiedAt: '2026-07-18' } },
+    신청자격: { value: '본인 또는 대리인(온라인은 대리인 신청 불가)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060', text: '신청자격', verifiedAt: '2026-07-18' } },
+    수수료: { value: '조례로 결정', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060', text: '수수료', verifiedAt: '2026-07-18' } },
+    처리기간: { value: '총 3일', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060', text: '처리기간', verifiedAt: '2026-07-18' } },
+    제출서류: { value: '시설 및 장비개요서', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060', text: '제출 서류', verifiedAt: '2026-07-18' } },
+    근거법령: { value: '의료기사 등에 관한 법률 제12조제3항, 시행규칙 제13조제1항 별지 서식 7호', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060', text: '근거법령', verifiedAt: '2026-07-18' } },
+  },
+  qa: [
+    {
+      q: '안경업소 개설 등록이 뭔가요?', anchor: 'q-basic',
+      intro: '안경업소 개설 등록은 안경사가 안경업소를 개설하고자 시설·장비를 갖추고 시장·군수·구청장에게 등록을 신청하는 민원입니다. 의료기사 등에 관한 법률 제12조제3항에 근거하며, 안경업소 개설등록 신청서(별지 서식 7호)를 작성해 신청합니다. 안경원을 새로 열려면 반드시 이 등록을 마쳐야 합니다.',
+      highlights: ['안경사가 안경업소(안경원)를 개설하기 전 필수 등록', '의료기사 등에 관한 법률 제12조제3항 근거', '안경업소 개설등록 신청서(별지 제7호) 작성', '안경사 면허가 있어야 신청 가능한 절차'],
+      box: { label: '핵심', content: '안경사가 안경업소(안경원)를 개설하기 전 반드시 필요한 등록.' },
+    },
+    {
+      q: '안경사 면허증을 직접 제출해야 하나요?', anchor: 'q-license-submission',
+      intro: '아니요, 개설자 및 종사할 안경사의 면허증 사본은 담당공무원이 행정정보공동이용을 통해 확인하는 서류로 분류되어 있습니다. 면허증을 직접 제시할 경우 담당자의 확인으로 이를 갈음할 수 있어, 반드시 사본을 제출할 필요는 없습니다.',
+      highlights: ['안경사 면허증 사본은 원칙적으로 행정정보로 확인', '면허증 직접 제시 시 담당자 확인으로 갈음 가능', '별도로 사본을 미리 준비하지 않아도 되는 경우가 많음', '본인정보 제공 미동의 시에는 직접 제출 필요'],
+      box: { label: '면허증 확인', content: '행정정보로 확인 또는 면허증 직접 제시로 처리 가능.' },
+    },
+    {
+      q: '어떤 서류가 필요한가요?', anchor: 'q-docs',
+      intro: '시설 및 장비개요서 하나만 제출하면 됩니다. 매우 간단한 서류 구성으로, 안경업소의 시설·장비 현황을 정리해 제출하는 것이 핵심입니다.',
+      highlights: ['시설 및 장비개요서가 유일한 제출서류', '매우 간단한 서류 구성', '안경업소 시설·장비 현황을 정리해 제출', '면허증은 행정정보 확인 또는 제시로 갈음 가능'],
+      box: { label: '준비서류', content: '시설 및 장비개요서 1부만 있으면 됨.' },
+    },
+    {
+      q: '수수료는 얼마인가요?', anchor: 'q-fee',
+      intro: '수수료는 전국 통일 금액이 아니라 각 지방자치단체 조례로 결정됩니다. 정확한 금액은 안경업소 예정지 관할 시군구에 확인해야 합니다.',
+      highlights: ['수수료는 지자체 조례로 결정', '전국 통일 금액이 아님', '정확한 금액은 관할 시군구 확인 필요', '개설 예정지에 따라 수수료가 다를 수 있음'],
+      box: { label: '수수료', content: '조례로 결정, 관할 시군구에서 정확한 금액 확인 필요.' },
+    },
+    {
+      q: '처리기간은 얼마나 걸리나요?', anchor: 'q-processing-time',
+      intro: '처리기간은 총 3일이 소요됩니다. 제출서류가 간단해 비교적 신속하게 처리되는 편입니다.',
+      highlights: ['처리기간: 총 3일(신속한 편)', '서류가 간단해 처리 속도가 빠름', '개설 준비 일정에 맞춰 신청 가능', '접수 후 3일 이내 등록 완료 기대 가능'],
+      box: { label: '처리기간', content: '총 3일로 비교적 신속하게 처리.' },
+    },
+    {
+      q: '어디서, 어떻게 신청하나요?', anchor: 'q-apply-method',
+      intro: '신청 방법은 인터넷, 방문, 우편입니다. 온라인은 대리인 신청이 불가하므로 본인이 직접 신청해야 합니다. 접수·처리기관은 시·군·구입니다. 안경업소 소재지를 관할하는 시군구에 신청합니다.',
+      highlights: ['인터넷·방문·우편 세 가지 방법', '온라인은 본인만 신청 가능(대리인 불가)', '접수·처리기관: 시·군·구', '안경업소 소재지 관할 시군구 이용'],
+      box: { label: '신청경로', content: '정부24 온라인(본인) 또는 안경업소 소재지 관할 시군구.' },
+    },
+  ],
+  faq: [
+    { q: '수수료는 얼마인가요?', a: '전국 통일 금액이 아니라 관할 지방자치단체 조례로 결정됩니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060' },
+    { q: '처리는 얼마나 걸리나요?', a: '총 3일이 소요됩니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060' },
+    { q: '온라인으로 대리인이 신청할 수 있나요?', a: '아니요, 온라인은 본인만 신청할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060' },
+    { q: '안경사 면허증 사본을 꼭 내야 하나요?', a: '아니요, 면허증을 직접 제시하면 담당자 확인으로 갈음할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060' },
+    { q: '서류가 복잡한가요?', a: '아니요, 시설 및 장비개요서 하나만 제출하면 되는 간단한 절차입니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060' },
+  ],
+  sources: [
+    { label: '정부24(안경업소 개설 등록)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000060' },
+    { label: '보건복지부 의료자원정책과', url: 'https://www.mohw.go.kr' },
+    { label: '정부24 콜센터 1588-2188', url: 'https://www.gov.kr' },
+  ],
+} as const;
+
+export const opticalShopOpeningRegistrationSpokes = [];

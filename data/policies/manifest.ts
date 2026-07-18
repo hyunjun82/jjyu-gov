@@ -568,6 +568,21 @@ import { cooperativeEstablishmentReportPolicy, cooperativeEstablishmentReportSpo
 import { schoolFoundationEstablishmentPermitPolicy, schoolFoundationEstablishmentPermitSpokes } from './school-foundation-establishment-permit';
 import { lifelongEducationInstructorCertificatePolicy, lifelongEducationInstructorCertificateSpokes } from './lifelong-education-instructor-certificate';
 import { creditBankCreditRecognitionPolicy, creditBankCreditRecognitionSpokes } from './credit-bank-credit-recognition';
+import { fishingBoatBusinessReportPolicy, fishingBoatBusinessReportSpokes } from './fishing-boat-business-report';
+import { aquacultureLicenseApplicationPolicy, aquacultureLicenseApplicationSpokes } from './aquaculture-license-application';
+import { foodBusinessPermitChangePolicy, foodBusinessPermitChangeSpokes } from './food-business-permit-change';
+import { publicHealthBusinessClosureReportPolicy, publicHealthBusinessClosureReportSpokes } from './public-health-business-closure-report';
+import { publicHealthBusinessSuccessionReportPolicy, publicHealthBusinessSuccessionReportSpokes } from './public-health-business-succession-report';
+import { sportsFacilityClosureReportPolicy, sportsFacilityClosureReportSpokes } from './sports-facility-closure-report';
+import { opticalShopOpeningRegistrationPolicy, opticalShopOpeningRegistrationSpokes } from './optical-shop-opening-registration';
+import { medicalDeviceSalesReportPolicy, medicalDeviceSalesReportSpokes } from './medical-device-sales-report';
+import { cosmeticsManufacturingRegistrationPolicy, cosmeticsManufacturingRegistrationSpokes } from './cosmetics-manufacturing-registration';
+import { pharmaceuticalWholesalePermitPolicy, pharmaceuticalWholesalePermitSpokes } from './pharmaceutical-wholesale-permit';
+import { pharmacyEstablishmentRegistrationPolicy, pharmacyEstablishmentRegistrationSpokes } from './pharmacy-establishment-registration';
+import { petFuneralBusinessStatusReportPolicy, petFuneralBusinessStatusReportSpokes } from './pet-funeral-business-status-report';
+import { animalExhibitionBusinessRegistrationPolicy, animalExhibitionBusinessRegistrationSpokes } from './animal-exhibition-business-registration';
+import { petBoardingBusinessRegistrationPolicy, petBoardingBusinessRegistrationSpokes } from './pet-boarding-business-registration';
+import { mobilePetGroomingRegistrationPolicy, mobilePetGroomingRegistrationSpokes } from './mobile-pet-grooming-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1016,6 +1031,21 @@ export const PoliciesById: Record<string, any> = {
   '528': schoolFoundationEstablishmentPermitPolicy,
   '529': lifelongEducationInstructorCertificatePolicy,
   '530': creditBankCreditRecognitionPolicy,
+  '531': fishingBoatBusinessReportPolicy,
+  '532': aquacultureLicenseApplicationPolicy,
+  '533': foodBusinessPermitChangePolicy,
+  '534': publicHealthBusinessClosureReportPolicy,
+  '535': publicHealthBusinessSuccessionReportPolicy,
+  '536': sportsFacilityClosureReportPolicy,
+  '537': opticalShopOpeningRegistrationPolicy,
+  '538': medicalDeviceSalesReportPolicy,
+  '539': cosmeticsManufacturingRegistrationPolicy,
+  '540': pharmaceuticalWholesalePermitPolicy,
+  '541': pharmacyEstablishmentRegistrationPolicy,
+  '542': petFuneralBusinessStatusReportPolicy,
+  '543': animalExhibitionBusinessRegistrationPolicy,
+  '544': petBoardingBusinessRegistrationPolicy,
+  '545': mobilePetGroomingRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1535,6 +1565,21 @@ export const PoliciesBySlug: Record<string, any> = {
   'school-foundation-establishment-permit': schoolFoundationEstablishmentPermitPolicy,
   'lifelong-education-instructor-certificate': lifelongEducationInstructorCertificatePolicy,
   'credit-bank-credit-recognition': creditBankCreditRecognitionPolicy,
+  'fishing-boat-business-report': fishingBoatBusinessReportPolicy,
+  'aquaculture-license-application': aquacultureLicenseApplicationPolicy,
+  'food-business-permit-change': foodBusinessPermitChangePolicy,
+  'public-health-business-closure-report': publicHealthBusinessClosureReportPolicy,
+  'public-health-business-succession-report': publicHealthBusinessSuccessionReportPolicy,
+  'sports-facility-closure-report': sportsFacilityClosureReportPolicy,
+  'optical-shop-opening-registration': opticalShopOpeningRegistrationPolicy,
+  'medical-device-sales-report': medicalDeviceSalesReportPolicy,
+  'cosmetics-manufacturing-registration': cosmeticsManufacturingRegistrationPolicy,
+  'pharmaceutical-wholesale-permit': pharmaceuticalWholesalePermitPolicy,
+  'pharmacy-establishment-registration': pharmacyEstablishmentRegistrationPolicy,
+  'pet-funeral-business-status-report': petFuneralBusinessStatusReportPolicy,
+  'animal-exhibition-business-registration': animalExhibitionBusinessRegistrationPolicy,
+  'pet-boarding-business-registration': petBoardingBusinessRegistrationPolicy,
+  'mobile-pet-grooming-registration': mobilePetGroomingRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2098,6 +2143,21 @@ export const SpokesById: Record<string, any[]> = {
   '528': schoolFoundationEstablishmentPermitSpokes,
   '529': lifelongEducationInstructorCertificateSpokes,
   '530': creditBankCreditRecognitionSpokes,
+  '531': fishingBoatBusinessReportSpokes,
+  '532': aquacultureLicenseApplicationSpokes,
+  '533': foodBusinessPermitChangeSpokes,
+  '534': publicHealthBusinessClosureReportSpokes,
+  '535': publicHealthBusinessSuccessionReportSpokes,
+  '536': sportsFacilityClosureReportSpokes,
+  '537': opticalShopOpeningRegistrationSpokes,
+  '538': medicalDeviceSalesReportSpokes,
+  '539': cosmeticsManufacturingRegistrationSpokes,
+  '540': pharmaceuticalWholesalePermitSpokes,
+  '541': pharmacyEstablishmentRegistrationSpokes,
+  '542': petFuneralBusinessStatusReportSpokes,
+  '543': animalExhibitionBusinessRegistrationSpokes,
+  '544': petBoardingBusinessRegistrationSpokes,
+  '545': mobilePetGroomingRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2617,6 +2677,21 @@ export const SpokesBySlug: Record<string, any[]> = {
   'school-foundation-establishment-permit': schoolFoundationEstablishmentPermitSpokes,
   'lifelong-education-instructor-certificate': lifelongEducationInstructorCertificateSpokes,
   'credit-bank-credit-recognition': creditBankCreditRecognitionSpokes,
+  'fishing-boat-business-report': fishingBoatBusinessReportSpokes,
+  'aquaculture-license-application': aquacultureLicenseApplicationSpokes,
+  'food-business-permit-change': foodBusinessPermitChangeSpokes,
+  'public-health-business-closure-report': publicHealthBusinessClosureReportSpokes,
+  'public-health-business-succession-report': publicHealthBusinessSuccessionReportSpokes,
+  'sports-facility-closure-report': sportsFacilityClosureReportSpokes,
+  'optical-shop-opening-registration': opticalShopOpeningRegistrationSpokes,
+  'medical-device-sales-report': medicalDeviceSalesReportSpokes,
+  'cosmetics-manufacturing-registration': cosmeticsManufacturingRegistrationSpokes,
+  'pharmaceutical-wholesale-permit': pharmaceuticalWholesalePermitSpokes,
+  'pharmacy-establishment-registration': pharmacyEstablishmentRegistrationSpokes,
+  'pet-funeral-business-status-report': petFuneralBusinessStatusReportSpokes,
+  'animal-exhibition-business-registration': animalExhibitionBusinessRegistrationSpokes,
+  'pet-boarding-business-registration': petBoardingBusinessRegistrationSpokes,
+  'mobile-pet-grooming-registration': mobilePetGroomingRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
