@@ -625,6 +625,12 @@ import { newspaperInternetNewsBusinessRegistrationPolicy, newspaperInternetNewsB
 import { registeredSportsFacilityBusinessPlanApprovalPolicy, registeredSportsFacilityBusinessPlanApprovalSpokes } from './registered-sports-facility-business-plan-approval';
 import { cosmeticsResponsibleSalesRegistrationPolicy, cosmeticsResponsibleSalesRegistrationSpokes } from './cosmetics-responsible-sales-registration';
 import { directSalesCertificateReissuePolicy, directSalesCertificateReissueSpokes } from './direct-sales-certificate-reissue';
+import { medicalDeviceManufacturingPermitPolicy, medicalDeviceManufacturingPermitSpokes } from './medical-device-manufacturing-permit';
+import { laborConsultantCorporationEstablishmentApprovalPolicy, laborConsultantCorporationEstablishmentApprovalSpokes } from './labor-consultant-corporation-establishment-approval';
+import { itCommunicationsConstructionBusinessRegistrationPolicy, itCommunicationsConstructionBusinessRegistrationSpokes } from './it-communications-construction-business-registration';
+import { liquorSalesLicenseApplicationPolicy, liquorSalesLicenseApplicationSpokes } from './liquor-sales-license-application';
+import { postpartumCareCenterReportPolicy, postpartumCareCenterReportSpokes } from './postpartum-care-center-report';
+import { foreignWorkerEmploymentPermitIssuancePolicy, foreignWorkerEmploymentPermitIssuanceSpokes } from './foreign-worker-employment-permit-issuance';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1130,6 +1136,12 @@ export const PoliciesById: Record<string, any> = {
   '585': registeredSportsFacilityBusinessPlanApprovalPolicy,
   '586': cosmeticsResponsibleSalesRegistrationPolicy,
   '587': directSalesCertificateReissuePolicy,
+  '588': medicalDeviceManufacturingPermitPolicy,
+  '589': laborConsultantCorporationEstablishmentApprovalPolicy,
+  '590': itCommunicationsConstructionBusinessRegistrationPolicy,
+  '591': liquorSalesLicenseApplicationPolicy,
+  '592': postpartumCareCenterReportPolicy,
+  '593': foreignWorkerEmploymentPermitIssuancePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1706,6 +1718,12 @@ export const PoliciesBySlug: Record<string, any> = {
   'registered-sports-facility-business-plan-approval': registeredSportsFacilityBusinessPlanApprovalPolicy,
   'cosmetics-responsible-sales-registration': cosmeticsResponsibleSalesRegistrationPolicy,
   'direct-sales-certificate-reissue': directSalesCertificateReissuePolicy,
+  'medical-device-manufacturing-permit': medicalDeviceManufacturingPermitPolicy,
+  'labor-consultant-corporation-establishment-approval': laborConsultantCorporationEstablishmentApprovalPolicy,
+  'it-communications-construction-business-registration': itCommunicationsConstructionBusinessRegistrationPolicy,
+  'liquor-sales-license-application': liquorSalesLicenseApplicationPolicy,
+  'postpartum-care-center-report': postpartumCareCenterReportPolicy,
+  'foreign-worker-employment-permit-issuance': foreignWorkerEmploymentPermitIssuancePolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2326,6 +2344,12 @@ export const SpokesById: Record<string, any[]> = {
   '585': registeredSportsFacilityBusinessPlanApprovalSpokes,
   '586': cosmeticsResponsibleSalesRegistrationSpokes,
   '587': directSalesCertificateReissueSpokes,
+  '588': medicalDeviceManufacturingPermitSpokes,
+  '589': laborConsultantCorporationEstablishmentApprovalSpokes,
+  '590': itCommunicationsConstructionBusinessRegistrationSpokes,
+  '591': liquorSalesLicenseApplicationSpokes,
+  '592': postpartumCareCenterReportSpokes,
+  '593': foreignWorkerEmploymentPermitIssuanceSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2902,6 +2926,12 @@ export const SpokesBySlug: Record<string, any[]> = {
   'registered-sports-facility-business-plan-approval': registeredSportsFacilityBusinessPlanApprovalSpokes,
   'cosmetics-responsible-sales-registration': cosmeticsResponsibleSalesRegistrationSpokes,
   'direct-sales-certificate-reissue': directSalesCertificateReissueSpokes,
+  'medical-device-manufacturing-permit': medicalDeviceManufacturingPermitSpokes,
+  'labor-consultant-corporation-establishment-approval': laborConsultantCorporationEstablishmentApprovalSpokes,
+  'it-communications-construction-business-registration': itCommunicationsConstructionBusinessRegistrationSpokes,
+  'liquor-sales-license-application': liquorSalesLicenseApplicationSpokes,
+  'postpartum-care-center-report': postpartumCareCenterReportSpokes,
+  'foreign-worker-employment-permit-issuance': foreignWorkerEmploymentPermitIssuanceSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
