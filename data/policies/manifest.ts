@@ -650,6 +650,8 @@ import { childWelfareFacilityInstallationReportPolicy, childWelfareFacilityInsta
 import { trademarkRenewalRegistrationPolicy, trademarkRenewalRegistrationSpokes } from './trademark-renewal-registration';
 import { hazardPreventionPlanSubmissionPolicy, hazardPreventionPlanSubmissionSpokes } from './hazard-prevention-plan-submission';
 import { tobaccoWholesaleBusinessRegistrationPolicy, tobaccoWholesaleBusinessRegistrationSpokes } from './tobacco-wholesale-business-registration';
+import { forestrySuccessorSelectionPolicy, forestrySuccessorSelectionSpokes } from './forestry-successor-selection';
+import { vehicleChangeRegistrationPolicy, vehicleChangeRegistrationSpokes } from './vehicle-change-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1180,6 +1182,8 @@ export const PoliciesById: Record<string, any> = {
   '610': trademarkRenewalRegistrationPolicy,
   '611': hazardPreventionPlanSubmissionPolicy,
   '612': tobaccoWholesaleBusinessRegistrationPolicy,
+  '613': forestrySuccessorSelectionPolicy,
+  '614': vehicleChangeRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1781,6 +1785,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'trademark-renewal-registration': trademarkRenewalRegistrationPolicy,
   'hazard-prevention-plan-submission': hazardPreventionPlanSubmissionPolicy,
   'tobacco-wholesale-business-registration': tobaccoWholesaleBusinessRegistrationPolicy,
+  'forestry-successor-selection': forestrySuccessorSelectionPolicy,
+  'vehicle-change-registration': vehicleChangeRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2426,6 +2432,8 @@ export const SpokesById: Record<string, any[]> = {
   '610': trademarkRenewalRegistrationSpokes,
   '611': hazardPreventionPlanSubmissionSpokes,
   '612': tobaccoWholesaleBusinessRegistrationSpokes,
+  '613': forestrySuccessorSelectionSpokes,
+  '614': vehicleChangeRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3027,6 +3035,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'trademark-renewal-registration': trademarkRenewalRegistrationSpokes,
   'hazard-prevention-plan-submission': hazardPreventionPlanSubmissionSpokes,
   'tobacco-wholesale-business-registration': tobaccoWholesaleBusinessRegistrationSpokes,
+  'forestry-successor-selection': forestrySuccessorSelectionSpokes,
+  'vehicle-change-registration': vehicleChangeRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
