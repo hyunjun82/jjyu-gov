@@ -518,6 +518,56 @@ import { tobaccoRetailerDesignationPolicy, tobaccoRetailerDesignationSpokes } fr
 import { tobaccoLicenseReissuePolicy, tobaccoLicenseReissueSpokes } from './tobacco-license-reissue';
 import { largeScaleStoreRegistrationPolicy, largeScaleStoreRegistrationSpokes } from './large-scale-store-registration';
 import { largeScaleStoreClosureReportPolicy, largeScaleStoreClosureReportSpokes } from './large-scale-store-closure-report';
+import { buildingPermitApplicationPolicy, buildingPermitApplicationSpokes } from './building-permit-application';
+import { farmlandConversionPermitPolicy, farmlandConversionPermitSpokes } from './farmland-conversion-permit';
+import { fishingLicenseSuspensionReportPolicy, fishingLicenseSuspensionReportSpokes } from './fishing-license-suspension-report';
+import { fishingLicenseGracePeriodPolicy, fishingLicenseGracePeriodSpokes } from './fishing-license-grace-period';
+import { airEmissionFacilityPermitPolicy, airEmissionFacilityPermitSpokes } from './air-emission-facility-permit';
+import { autoServiceBusinessRegistrationPolicy, autoServiceBusinessRegistrationSpokes } from './auto-service-business-registration';
+import { burialCremationReportPolicy, burialCremationReportSpokes } from './burial-cremation-report';
+import { foodServiceBusinessReportPolicy, foodServiceBusinessReportSpokes } from './food-service-business-report';
+import { publicHealthBusinessReportPolicy, publicHealthBusinessReportSpokes } from './public-health-business-report';
+import { sportsFacilityBusinessReportPolicy, sportsFacilityBusinessReportSpokes } from './sports-facility-business-report';
+import { privateAcademyEstablishmentRegistrationPolicy, privateAcademyEstablishmentRegistrationSpokes } from './private-academy-establishment-registration';
+import { daycareCenterEstablishmentPermitPolicy, daycareCenterEstablishmentPermitSpokes } from './daycare-center-establishment-permit';
+import { homeCareFacilityEstablishmentReportPolicy, homeCareFacilityEstablishmentReportSpokes } from './home-care-facility-establishment-report';
+import { disabilityWelfareFacilityReportPolicy, disabilityWelfareFacilityReportSpokes } from './disability-welfare-facility-report';
+import { cinemaClosureReportPolicy, cinemaClosureReportSpokes } from './cinema-closure-report';
+import { multiplexGameProviderRegistrationPolicy, multiplexGameProviderRegistrationSpokes } from './multiplex-game-provider-registration';
+import { veterinaryClinicEstablishmentReportPolicy, veterinaryClinicEstablishmentReportSpokes } from './veterinary-clinic-establishment-report';
+import { happyBirthOnestopServicePolicy, happyBirthOnestopServiceSpokes } from './happy-birth-onestop-service';
+import { paternityAcknowledgmentReportPolicy, paternityAcknowledgmentReportSpokes } from './paternity-acknowledgment-report';
+import { freightTruckBusinessPermitPolicy, freightTruckBusinessPermitSpokes } from './freight-truck-business-permit';
+import { privateTaxiLicensePolicy, privateTaxiLicenseSpokes } from './private-taxi-license';
+import { loanBusinessRegistrationPolicy, loanBusinessRegistrationSpokes } from './loan-business-registration';
+import { currencyExchangeBusinessRegistrationPolicy, currencyExchangeBusinessRegistrationSpokes } from './currency-exchange-business-registration';
+import { marriageBrokerageBusinessRegistrationPolicy, marriageBrokerageBusinessRegistrationSpokes } from './marriage-brokerage-business-registration';
+import { tourismBusinessRegistrationPolicy, tourismBusinessRegistrationSpokes } from './tourism-business-registration';
+import { constructionBusinessRegistrationPolicy, constructionBusinessRegistrationSpokes } from './construction-business-registration';
+import { electricalConstructionBusinessRegistrationPolicy, electricalConstructionBusinessRegistrationSpokes } from './electrical-construction-business-registration';
+import { fireSafetyManagementBusinessRegistrationPolicy, fireSafetyManagementBusinessRegistrationSpokes } from './fire-safety-management-business-registration';
+import { securityBusinessPermitPolicy, securityBusinessPermitSpokes } from './security-business-permit';
+import { wasteTreatmentBusinessPermitPolicy, wasteTreatmentBusinessPermitSpokes } from './waste-treatment-business-permit';
+import { hazardousMaterialFacilityPermitPolicy, hazardousMaterialFacilityPermitSpokes } from './hazardous-material-facility-permit';
+import { highPressureGasFacilityPermitPolicy, highPressureGasFacilityPermitSpokes } from './high-pressure-gas-facility-permit';
+import { lpgBusinessChangePermitPolicy, lpgBusinessChangePermitSpokes } from './lpg-business-change-permit';
+import { fireSafetyManagerAppointmentReportPolicy, fireSafetyManagerAppointmentReportSpokes } from './fire-safety-manager-appointment-report';
+import { elevatorSafetyInspectionPolicy, elevatorSafetyInspectionSpokes } from './elevator-safety-inspection';
+import { safetyHealthManagerAppointmentReportPolicy, safetyHealthManagerAppointmentReportSpokes } from './safety-health-manager-appointment-report';
+import { musicBusinessClosureReportPolicy, musicBusinessClosureReportSpokes } from './music-business-closure-report';
+import { gameBusinessChangeRegistrationPolicy, gameBusinessChangeRegistrationSpokes } from './game-business-change-registration';
+import { carRentalBusinessRegistrationPolicy, carRentalBusinessRegistrationSpokes } from './car-rental-business-registration';
+import { freightForwardingBusinessPermitPolicy, freightForwardingBusinessPermitSpokes } from './freight-forwarding-business-permit';
+import { drivingSchoolDesignationPolicy, drivingSchoolDesignationSpokes } from './driving-school-designation';
+import { paidJobPlacementAgencyRegistrationPolicy, paidJobPlacementAgencyRegistrationSpokes } from './paid-job-placement-agency-registration';
+import { workerDispatchBusinessPermitPolicy, workerDispatchBusinessPermitSpokes } from './worker-dispatch-business-permit';
+import { socialWelfareCorporationEstablishmentPermitPolicy, socialWelfareCorporationEstablishmentPermitSpokes } from './social-welfare-corporation-establishment-permit';
+import { nonprofitCorporationEstablishmentPermitPolicy, nonprofitCorporationEstablishmentPermitSpokes } from './nonprofit-corporation-establishment-permit';
+import { socialCooperativeEstablishmentPermitPolicy, socialCooperativeEstablishmentPermitSpokes } from './social-cooperative-establishment-permit';
+import { cooperativeEstablishmentReportPolicy, cooperativeEstablishmentReportSpokes } from './cooperative-establishment-report';
+import { schoolFoundationEstablishmentPermitPolicy, schoolFoundationEstablishmentPermitSpokes } from './school-foundation-establishment-permit';
+import { lifelongEducationInstructorCertificatePolicy, lifelongEducationInstructorCertificateSpokes } from './lifelong-education-instructor-certificate';
+import { creditBankCreditRecognitionPolicy, creditBankCreditRecognitionSpokes } from './credit-bank-credit-recognition';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -916,6 +966,56 @@ export const PoliciesById: Record<string, any> = {
   '478': tobaccoLicenseReissuePolicy,
   '479': largeScaleStoreRegistrationPolicy,
   '480': largeScaleStoreClosureReportPolicy,
+  '481': buildingPermitApplicationPolicy,
+  '482': farmlandConversionPermitPolicy,
+  '483': fishingLicenseSuspensionReportPolicy,
+  '484': fishingLicenseGracePeriodPolicy,
+  '485': airEmissionFacilityPermitPolicy,
+  '486': autoServiceBusinessRegistrationPolicy,
+  '487': burialCremationReportPolicy,
+  '488': foodServiceBusinessReportPolicy,
+  '489': publicHealthBusinessReportPolicy,
+  '490': sportsFacilityBusinessReportPolicy,
+  '491': privateAcademyEstablishmentRegistrationPolicy,
+  '492': daycareCenterEstablishmentPermitPolicy,
+  '493': homeCareFacilityEstablishmentReportPolicy,
+  '494': disabilityWelfareFacilityReportPolicy,
+  '495': cinemaClosureReportPolicy,
+  '496': multiplexGameProviderRegistrationPolicy,
+  '497': veterinaryClinicEstablishmentReportPolicy,
+  '498': happyBirthOnestopServicePolicy,
+  '499': paternityAcknowledgmentReportPolicy,
+  '500': freightTruckBusinessPermitPolicy,
+  '501': privateTaxiLicensePolicy,
+  '502': loanBusinessRegistrationPolicy,
+  '503': currencyExchangeBusinessRegistrationPolicy,
+  '504': marriageBrokerageBusinessRegistrationPolicy,
+  '505': tourismBusinessRegistrationPolicy,
+  '506': constructionBusinessRegistrationPolicy,
+  '507': electricalConstructionBusinessRegistrationPolicy,
+  '508': fireSafetyManagementBusinessRegistrationPolicy,
+  '509': securityBusinessPermitPolicy,
+  '510': wasteTreatmentBusinessPermitPolicy,
+  '511': hazardousMaterialFacilityPermitPolicy,
+  '512': highPressureGasFacilityPermitPolicy,
+  '513': lpgBusinessChangePermitPolicy,
+  '514': fireSafetyManagerAppointmentReportPolicy,
+  '515': elevatorSafetyInspectionPolicy,
+  '516': safetyHealthManagerAppointmentReportPolicy,
+  '517': musicBusinessClosureReportPolicy,
+  '518': gameBusinessChangeRegistrationPolicy,
+  '519': carRentalBusinessRegistrationPolicy,
+  '520': freightForwardingBusinessPermitPolicy,
+  '521': drivingSchoolDesignationPolicy,
+  '522': paidJobPlacementAgencyRegistrationPolicy,
+  '523': workerDispatchBusinessPermitPolicy,
+  '524': socialWelfareCorporationEstablishmentPermitPolicy,
+  '525': nonprofitCorporationEstablishmentPermitPolicy,
+  '526': socialCooperativeEstablishmentPermitPolicy,
+  '527': cooperativeEstablishmentReportPolicy,
+  '528': schoolFoundationEstablishmentPermitPolicy,
+  '529': lifelongEducationInstructorCertificatePolicy,
+  '530': creditBankCreditRecognitionPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1385,6 +1485,56 @@ export const PoliciesBySlug: Record<string, any> = {
   'tobacco-license-reissue': tobaccoLicenseReissuePolicy,
   'large-scale-store-registration': largeScaleStoreRegistrationPolicy,
   'large-scale-store-closure-report': largeScaleStoreClosureReportPolicy,
+  'building-permit-application': buildingPermitApplicationPolicy,
+  'farmland-conversion-permit': farmlandConversionPermitPolicy,
+  'fishing-license-suspension-report': fishingLicenseSuspensionReportPolicy,
+  'fishing-license-grace-period': fishingLicenseGracePeriodPolicy,
+  'air-emission-facility-permit': airEmissionFacilityPermitPolicy,
+  'auto-service-business-registration': autoServiceBusinessRegistrationPolicy,
+  'burial-cremation-report': burialCremationReportPolicy,
+  'food-service-business-report': foodServiceBusinessReportPolicy,
+  'public-health-business-report': publicHealthBusinessReportPolicy,
+  'sports-facility-business-report': sportsFacilityBusinessReportPolicy,
+  'private-academy-establishment-registration': privateAcademyEstablishmentRegistrationPolicy,
+  'daycare-center-establishment-permit': daycareCenterEstablishmentPermitPolicy,
+  'home-care-facility-establishment-report': homeCareFacilityEstablishmentReportPolicy,
+  'disability-welfare-facility-report': disabilityWelfareFacilityReportPolicy,
+  'cinema-closure-report': cinemaClosureReportPolicy,
+  'multiplex-game-provider-registration': multiplexGameProviderRegistrationPolicy,
+  'veterinary-clinic-establishment-report': veterinaryClinicEstablishmentReportPolicy,
+  'happy-birth-onestop-service': happyBirthOnestopServicePolicy,
+  'paternity-acknowledgment-report': paternityAcknowledgmentReportPolicy,
+  'freight-truck-business-permit': freightTruckBusinessPermitPolicy,
+  'private-taxi-license': privateTaxiLicensePolicy,
+  'loan-business-registration': loanBusinessRegistrationPolicy,
+  'currency-exchange-business-registration': currencyExchangeBusinessRegistrationPolicy,
+  'marriage-brokerage-business-registration': marriageBrokerageBusinessRegistrationPolicy,
+  'tourism-business-registration': tourismBusinessRegistrationPolicy,
+  'construction-business-registration': constructionBusinessRegistrationPolicy,
+  'electrical-construction-business-registration': electricalConstructionBusinessRegistrationPolicy,
+  'fire-safety-management-business-registration': fireSafetyManagementBusinessRegistrationPolicy,
+  'security-business-permit': securityBusinessPermitPolicy,
+  'waste-treatment-business-permit': wasteTreatmentBusinessPermitPolicy,
+  'hazardous-material-facility-permit': hazardousMaterialFacilityPermitPolicy,
+  'high-pressure-gas-facility-permit': highPressureGasFacilityPermitPolicy,
+  'lpg-business-change-permit': lpgBusinessChangePermitPolicy,
+  'fire-safety-manager-appointment-report': fireSafetyManagerAppointmentReportPolicy,
+  'elevator-safety-inspection': elevatorSafetyInspectionPolicy,
+  'safety-health-manager-appointment-report': safetyHealthManagerAppointmentReportPolicy,
+  'music-business-closure-report': musicBusinessClosureReportPolicy,
+  'game-business-change-registration': gameBusinessChangeRegistrationPolicy,
+  'car-rental-business-registration': carRentalBusinessRegistrationPolicy,
+  'freight-forwarding-business-permit': freightForwardingBusinessPermitPolicy,
+  'driving-school-designation': drivingSchoolDesignationPolicy,
+  'paid-job-placement-agency-registration': paidJobPlacementAgencyRegistrationPolicy,
+  'worker-dispatch-business-permit': workerDispatchBusinessPermitPolicy,
+  'social-welfare-corporation-establishment-permit': socialWelfareCorporationEstablishmentPermitPolicy,
+  'nonprofit-corporation-establishment-permit': nonprofitCorporationEstablishmentPermitPolicy,
+  'social-cooperative-establishment-permit': socialCooperativeEstablishmentPermitPolicy,
+  'cooperative-establishment-report': cooperativeEstablishmentReportPolicy,
+  'school-foundation-establishment-permit': schoolFoundationEstablishmentPermitPolicy,
+  'lifelong-education-instructor-certificate': lifelongEducationInstructorCertificatePolicy,
+  'credit-bank-credit-recognition': creditBankCreditRecognitionPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1898,6 +2048,56 @@ export const SpokesById: Record<string, any[]> = {
   '478': tobaccoLicenseReissueSpokes,
   '479': largeScaleStoreRegistrationSpokes,
   '480': largeScaleStoreClosureReportSpokes,
+  '481': buildingPermitApplicationSpokes,
+  '482': farmlandConversionPermitSpokes,
+  '483': fishingLicenseSuspensionReportSpokes,
+  '484': fishingLicenseGracePeriodSpokes,
+  '485': airEmissionFacilityPermitSpokes,
+  '486': autoServiceBusinessRegistrationSpokes,
+  '487': burialCremationReportSpokes,
+  '488': foodServiceBusinessReportSpokes,
+  '489': publicHealthBusinessReportSpokes,
+  '490': sportsFacilityBusinessReportSpokes,
+  '491': privateAcademyEstablishmentRegistrationSpokes,
+  '492': daycareCenterEstablishmentPermitSpokes,
+  '493': homeCareFacilityEstablishmentReportSpokes,
+  '494': disabilityWelfareFacilityReportSpokes,
+  '495': cinemaClosureReportSpokes,
+  '496': multiplexGameProviderRegistrationSpokes,
+  '497': veterinaryClinicEstablishmentReportSpokes,
+  '498': happyBirthOnestopServiceSpokes,
+  '499': paternityAcknowledgmentReportSpokes,
+  '500': freightTruckBusinessPermitSpokes,
+  '501': privateTaxiLicenseSpokes,
+  '502': loanBusinessRegistrationSpokes,
+  '503': currencyExchangeBusinessRegistrationSpokes,
+  '504': marriageBrokerageBusinessRegistrationSpokes,
+  '505': tourismBusinessRegistrationSpokes,
+  '506': constructionBusinessRegistrationSpokes,
+  '507': electricalConstructionBusinessRegistrationSpokes,
+  '508': fireSafetyManagementBusinessRegistrationSpokes,
+  '509': securityBusinessPermitSpokes,
+  '510': wasteTreatmentBusinessPermitSpokes,
+  '511': hazardousMaterialFacilityPermitSpokes,
+  '512': highPressureGasFacilityPermitSpokes,
+  '513': lpgBusinessChangePermitSpokes,
+  '514': fireSafetyManagerAppointmentReportSpokes,
+  '515': elevatorSafetyInspectionSpokes,
+  '516': safetyHealthManagerAppointmentReportSpokes,
+  '517': musicBusinessClosureReportSpokes,
+  '518': gameBusinessChangeRegistrationSpokes,
+  '519': carRentalBusinessRegistrationSpokes,
+  '520': freightForwardingBusinessPermitSpokes,
+  '521': drivingSchoolDesignationSpokes,
+  '522': paidJobPlacementAgencyRegistrationSpokes,
+  '523': workerDispatchBusinessPermitSpokes,
+  '524': socialWelfareCorporationEstablishmentPermitSpokes,
+  '525': nonprofitCorporationEstablishmentPermitSpokes,
+  '526': socialCooperativeEstablishmentPermitSpokes,
+  '527': cooperativeEstablishmentReportSpokes,
+  '528': schoolFoundationEstablishmentPermitSpokes,
+  '529': lifelongEducationInstructorCertificateSpokes,
+  '530': creditBankCreditRecognitionSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2367,6 +2567,56 @@ export const SpokesBySlug: Record<string, any[]> = {
   'tobacco-license-reissue': tobaccoLicenseReissueSpokes,
   'large-scale-store-registration': largeScaleStoreRegistrationSpokes,
   'large-scale-store-closure-report': largeScaleStoreClosureReportSpokes,
+  'building-permit-application': buildingPermitApplicationSpokes,
+  'farmland-conversion-permit': farmlandConversionPermitSpokes,
+  'fishing-license-suspension-report': fishingLicenseSuspensionReportSpokes,
+  'fishing-license-grace-period': fishingLicenseGracePeriodSpokes,
+  'air-emission-facility-permit': airEmissionFacilityPermitSpokes,
+  'auto-service-business-registration': autoServiceBusinessRegistrationSpokes,
+  'burial-cremation-report': burialCremationReportSpokes,
+  'food-service-business-report': foodServiceBusinessReportSpokes,
+  'public-health-business-report': publicHealthBusinessReportSpokes,
+  'sports-facility-business-report': sportsFacilityBusinessReportSpokes,
+  'private-academy-establishment-registration': privateAcademyEstablishmentRegistrationSpokes,
+  'daycare-center-establishment-permit': daycareCenterEstablishmentPermitSpokes,
+  'home-care-facility-establishment-report': homeCareFacilityEstablishmentReportSpokes,
+  'disability-welfare-facility-report': disabilityWelfareFacilityReportSpokes,
+  'cinema-closure-report': cinemaClosureReportSpokes,
+  'multiplex-game-provider-registration': multiplexGameProviderRegistrationSpokes,
+  'veterinary-clinic-establishment-report': veterinaryClinicEstablishmentReportSpokes,
+  'happy-birth-onestop-service': happyBirthOnestopServiceSpokes,
+  'paternity-acknowledgment-report': paternityAcknowledgmentReportSpokes,
+  'freight-truck-business-permit': freightTruckBusinessPermitSpokes,
+  'private-taxi-license': privateTaxiLicenseSpokes,
+  'loan-business-registration': loanBusinessRegistrationSpokes,
+  'currency-exchange-business-registration': currencyExchangeBusinessRegistrationSpokes,
+  'marriage-brokerage-business-registration': marriageBrokerageBusinessRegistrationSpokes,
+  'tourism-business-registration': tourismBusinessRegistrationSpokes,
+  'construction-business-registration': constructionBusinessRegistrationSpokes,
+  'electrical-construction-business-registration': electricalConstructionBusinessRegistrationSpokes,
+  'fire-safety-management-business-registration': fireSafetyManagementBusinessRegistrationSpokes,
+  'security-business-permit': securityBusinessPermitSpokes,
+  'waste-treatment-business-permit': wasteTreatmentBusinessPermitSpokes,
+  'hazardous-material-facility-permit': hazardousMaterialFacilityPermitSpokes,
+  'high-pressure-gas-facility-permit': highPressureGasFacilityPermitSpokes,
+  'lpg-business-change-permit': lpgBusinessChangePermitSpokes,
+  'fire-safety-manager-appointment-report': fireSafetyManagerAppointmentReportSpokes,
+  'elevator-safety-inspection': elevatorSafetyInspectionSpokes,
+  'safety-health-manager-appointment-report': safetyHealthManagerAppointmentReportSpokes,
+  'music-business-closure-report': musicBusinessClosureReportSpokes,
+  'game-business-change-registration': gameBusinessChangeRegistrationSpokes,
+  'car-rental-business-registration': carRentalBusinessRegistrationSpokes,
+  'freight-forwarding-business-permit': freightForwardingBusinessPermitSpokes,
+  'driving-school-designation': drivingSchoolDesignationSpokes,
+  'paid-job-placement-agency-registration': paidJobPlacementAgencyRegistrationSpokes,
+  'worker-dispatch-business-permit': workerDispatchBusinessPermitSpokes,
+  'social-welfare-corporation-establishment-permit': socialWelfareCorporationEstablishmentPermitSpokes,
+  'nonprofit-corporation-establishment-permit': nonprofitCorporationEstablishmentPermitSpokes,
+  'social-cooperative-establishment-permit': socialCooperativeEstablishmentPermitSpokes,
+  'cooperative-establishment-report': cooperativeEstablishmentReportSpokes,
+  'school-foundation-establishment-permit': schoolFoundationEstablishmentPermitSpokes,
+  'lifelong-education-instructor-certificate': lifelongEducationInstructorCertificateSpokes,
+  'credit-bank-credit-recognition': creditBankCreditRecognitionSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
