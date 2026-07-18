@@ -1,0 +1,73 @@
+/* 국세징수법 관련 납부기한등 연장 신청 - 국세청·정부24 */
+export const nationalTaxPaymentDeadlineExtensionPolicy = {
+  id: '373', type: 'service' as const,
+  title: '국세 납부기한 연장 천재지변 진단서로 3일 만에 승인받는 법',
+  titleKeywords: { k1: '국세납부기한연장신청', k2: '천재지변사유증빙진단서', k3: '국세징수법13조', k4: '세무서접수처리' },
+  slug: 'national-tax-payment-deadline-extension', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  amount: '수수료 없음', deadline: '천재·지변 등 사유 발생 시 신청(처리 총 3일)', views: 0,
+  applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', ctaLabel: '정부24 국세 납부기한등 연장 신청 바로가기',
+  datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',
+  summary: '국세징수법 관련 납부기한등 연장 신청은 천재·지변 등의 사유로 국세기본법·세법이 규정하는 납부 기한의 연장을 받고자 하는 사람이 관할 세무서장에게 승인을 신청하는 절차로, 국세징수법 제13조에 근거합니다. 정부24에서 인터넷·방문·우편으로 신청할 수 있으며, 신청자격은 본인 또는 대리인입니다. 수수료는 없습니다. 처리기간은 총 3일이 소요됩니다. 제출서류는 병원진단서 등 사유를 증빙하는 자료입니다. 접수·처리기관은 세무서입니다. 본 정보는 정부24 공식 자료에 기반하며, 정확한 신청방법은 정부24나 관할 세무서에서 확인이 필요합니다.',
+  metaDescription: '국세 납부기한 연장 천재지변 진단서로 3일 만에 승인받는 법 – 수수료 없음, 본인·대리인 신청, 처리 총 3일.',
+  audience: '천재지변, 질병 등 부득이한 사유로 국세 납부기한 연장이 필요한 사람',
+  keyFacts: {
+    신청방법: { value: '인터넷, 방문, 우편', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', text: '신청방법', verifiedAt: '2026-07-17' } },
+    신청자격: { value: '본인 또는 대리인', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', text: '신청자격', verifiedAt: '2026-07-17' } },
+    수수료: { value: '수수료 없음', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', text: '수수료', verifiedAt: '2026-07-17' } },
+    처리기간: { value: '총 3일', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', text: '처리기간', verifiedAt: '2026-07-17' } },
+    제출서류: { value: '사유를 증빙하는 자료(병원진단서 등)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', text: '제출 서류', verifiedAt: '2026-07-17' } },
+    근거법령: { value: '국세징수법 제13조, 시행령 제14조, 시행규칙 제15조 및 별지14·15', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', text: '근거법령', verifiedAt: '2026-07-17' } },
+  },
+  qa: [
+    {
+      q: '국세 납부기한등 연장 신청이 뭔가요?', anchor: 'q-basic',
+      intro: '국세징수법 관련 납부기한등 연장 신청은 천재·지변, 그 밖의 사유로 국세기본법·세법이 규정하는 납부 기한을 지키기 어려운 사람이 관할 세무서장에게 기한 연장 승인을 신청하는 민원사무입니다. 국세징수법 제13조에 근거하며, 재해·질병 등 불가피한 사정으로 세금 납부가 곤란할 때 이용할 수 있습니다.',
+      highlights: ['천재지변 등으로 국세 납부기한 연장을 받는 절차', '국세징수법 제13조 근거', '재해·질병 등 불가피한 사정에 활용', '관할 세무서장의 승인을 받아야 함'],
+      box: { label: '핵심', content: '천재지변·질병 등 부득이한 사유로 국세 납부기한을 늦춰 받는 절차.' },
+    },
+    {
+      q: '어떤 경우에 신청할 수 있나요?', anchor: 'q-cases',
+      intro: '천재·지변, 그 밖의 사유로 납부 기한을 지키기 어려운 경우에 신청할 수 있습니다. 대표적으로 화재·수해·태풍 등 재해, 본인이나 가족의 중대한 질병·부상, 그 밖에 세무서장이 인정하는 부득이한 사유가 해당됩니다.',
+      highlights: ['천재지변(화재·수해·태풍 등)이 대표 사유', '본인·가족의 중대한 질병·부상도 사유가 됨', '그 밖에 세무서장이 인정하는 부득이한 사유도 가능', '사유별로 증빙자료가 요구됨'],
+      box: { label: '주요 사유', content: '천재지변, 질병·부상, 그 밖에 세무서장이 인정하는 부득이한 사유.' },
+    },
+    {
+      q: '어떤 서류가 필요한가요?', anchor: 'q-docs',
+      intro: '사유를 증빙하는 자료가 필요합니다. 대표적으로 질병·부상의 경우 병원진단서를 제출하며, 천재지변의 경우 재해 사실을 증명할 수 있는 관련 자료를 준비해야 합니다. 사유에 맞는 정확한 증빙자료를 갖추는 것이 승인의 핵심입니다.',
+      highlights: ['사유를 증빙하는 자료 필수(병원진단서 등)', '천재지변은 재해 증명자료 필요', '사유별로 요구되는 증빙자료가 다름', '증빙이 명확할수록 승인 가능성 높음'],
+      box: { label: '준비서류', content: '사유 증빙자료(병원진단서, 재해 증명자료 등).' },
+    },
+    {
+      q: '수수료와 처리기간은 어떻게 되나요?', anchor: 'q-fee-period',
+      intro: '수수료는 없습니다. 처리기간은 총 3일이 소요됩니다. 세무서에서 제출된 증빙자료를 검토해 승인 여부를 결정하므로, 증빙자료가 명확할수록 원활하게 처리됩니다.',
+      highlights: ['수수료: 없음', '처리기간: 총 3일', '증빙자료 검토 후 승인 여부 결정', '증빙자료 미비 시 처리 지연 가능'],
+      box: { label: '수수료·처리기간', content: '수수료 없음, 처리 총 3일.' },
+    },
+    {
+      q: '어디서, 어떻게 신청하나요?', anchor: 'q-apply-method',
+      intro: '신청 방법은 인터넷, 방문, 우편입니다. 접수·처리기관은 세무서입니다. 홈택스(hometax.go.kr)를 통해서도 관련 정보를 확인하고 신청할 수 있습니다.',
+      highlights: ['인터넷·방문·우편 세 가지 방법', '접수·처리기관: 세무서', '홈택스에서도 관련 정보 확인 가능', '관할 세무서에 직접 문의 권장'],
+      box: { label: '신청경로', content: '관할 세무서 또는 홈택스를 통해 신청.' },
+    },
+    {
+      q: '어디에 문의하나요?', anchor: 'q-contact',
+      intro: '이 민원의 제도를 담당하는 중앙행정기관은 국세청 징세과입니다(국번없이 126). 개별 민원(실제 접수·처리)에 대한 문의는 관할 세무서(관할 처리기관)에 직접 연락하는 것이 정확합니다. 정부24 콜센터(1588-2188), 정부민원안내콜센터(국번없이 110)를 통해서도 일반적인 안내를 받을 수 있습니다.',
+      highlights: ['제도 담당: 국세청 징세과(국번없이 126)', '개별 민원 문의는 관할 세무서', '정부24 콜센터 1588-2188', '정부민원안내콜센터 국번없이 110'],
+      box: { label: '문의처', content: '개별 민원은 관할 세무서, 일반 안내는 국번없이 126.' },
+    },
+  ],
+  faq: [
+    { q: '수수료가 있나요?', a: '없습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207' },
+    { q: '처리는 얼마나 걸리나요?', a: '총 3일이 소요됩니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207' },
+    { q: '아프면 연장 신청할 수 있나요?', a: '네, 병원진단서 등 사유를 증빙하는 자료를 제출하면 신청할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207' },
+    { q: '온라인으로 신청할 수 있나요?', a: '네, 인터넷으로 신청할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207' },
+    { q: '대리인이 신청할 수 있나요?', a: '네, 본인 또는 대리인이 신청할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207' },
+  ],
+  sources: [
+    { label: '정부24(국세징수법 관련 납부기한등 연장 신청)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207' },
+    { label: '국세청 홈택스', url: 'https://www.hometax.go.kr' },
+    { label: '정부24 콜센터 1588-2188', url: 'https://www.gov.kr' },
+  ],
+} as const;
+
+export const nationalTaxPaymentDeadlineExtensionSpokes = [];

@@ -1,0 +1,74 @@
+/* 실종아동등·가출인 신고접수증 발급 신청 - 경찰청·정부24 */
+export const missingPersonReportReceiptPolicy = {
+  id: '421', type: 'service' as const,
+  title: '실종아동 가출인 신고접수증 서류 없이 경찰서에서 즉시 발급받는 법',
+  titleKeywords: { k1: '실종아동등가출인신고접수증', k2: '실종신고후접수증발급', k3: '별지서식1호무료', k4: '경찰서청소년보호과' },
+  slug: 'missing-person-report-receipt', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  amount: '수수료 없음', deadline: '실종·가출 신고 후 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
+  applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', ctaLabel: '정부24 실종아동등·가출인 신고접수증 발급 신청 바로가기',
+  datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',
+  summary: '실종아동등·가출인 신고접수증 발급 신청은 실종아동등·가출인 신고를 한 후 신고접수증이 필요한 경우 신청하는 절차로, 실종아동등 및 가출인 업무처리 규칙 제7조제6항에 근거합니다. 보험 처리, 통신사 위치추적 협조 요청, 각종 행정·법적 절차에서 신고 사실을 증명하는 용도로 활용됩니다. 신청 방법은 인터넷, 방문이며, 신청자격은 본인 또는 대리인입니다. 수수료는 없습니다. 처리기간은 즉시(근무시간 내 3시간)입니다. 별도의 신청서나 구비서류는 필요 없습니다. 접수·처리기관은 경찰서입니다. 본 정보는 정부24 공식 자료에 기반하며, 정확한 신청방법은 정부24나 관할 경찰서에서 확인이 필요합니다.',
+  metaDescription: '실종아동 가출인 신고접수증 서류 없이 경찰서에서 즉시 발급받는 법 – 수수료 없음, 처리 즉시(3시간). 신고 후 별도 신청.',
+  audience: '실종아동등·가출인 신고를 한 후 신고 사실을 증명하는 접수증이 필요한 사람',
+  keyFacts: {
+    신청방법: { value: '인터넷, 방문', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', text: '신청방법', verifiedAt: '2026-07-18' } },
+    신청자격: { value: '본인 또는 대리인', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', text: '신청자격', verifiedAt: '2026-07-18' } },
+    수수료: { value: '수수료 없음', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', text: '수수료', verifiedAt: '2026-07-18' } },
+    처리기간: { value: '즉시(근무시간 내 3시간)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', text: '처리기간', verifiedAt: '2026-07-18' } },
+    발급서류: { value: '신고접수증(실종아동등 및 가출인 업무처리 규칙 별지 서식 1호)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', text: '발급서류', verifiedAt: '2026-07-18' } },
+    구비서류: { value: '구비서류 없음(별도 제출서류 불요)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', text: '구비서류, 제출 서류', verifiedAt: '2026-07-18' } },
+    근거법령: { value: '실종아동등 및 가출인 업무처리 규칙 제7조제6항', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', text: '근거법령', verifiedAt: '2026-07-18' } },
+  },
+  qa: [
+    {
+      q: '실종아동등·가출인 신고접수증 발급 신청이 뭔가요?', anchor: 'q-basic',
+      intro: '실종아동등·가출인 신고접수증 발급 신청은 실종아동등·가출인 신고를 한 후 신고접수증이 필요한 경우 신청하는 민원사무입니다. 실종아동등 및 가출인 업무처리 규칙 제7조제6항에 근거하며, 별도의 신청서 없이 신청할 수 있습니다. 신고접수증은 별지 서식 1호로 발급됩니다.',
+      highlights: ['실종·가출 신고 후 접수 사실을 증명하는 서류', '실종아동등 및 가출인 업무처리 규칙 제7조제6항 근거', '별도 신청서 없이 신청 가능', '신고접수증은 별지 제1호 서식으로 발급'],
+      box: { label: '핵심', content: '실종아동등·가출인 신고 접수 사실을 증명받는 서류.' },
+    },
+    {
+      q: '어디에 활용되나요?', anchor: 'q-usage',
+      intro: '신고접수증은 통신사에 위치추적 협조를 요청할 때, 보험사에 실종·가출 관련 사고 처리를 요청할 때, 학교·직장 등에 결석·결근 사유를 증명할 때 등 신고 사실을 공식적으로 증명해야 하는 다양한 상황에서 활용됩니다.',
+      highlights: ['통신사 위치추적 협조 요청 시 필요', '보험사 사고 처리 접수 시 증빙 자료', '학교·직장 등 결석·결근 사유 증명', '각종 행정·법적 절차에서 신고 사실 증명'],
+      box: { label: '주요 활용처', content: '통신사 위치추적 요청, 보험 처리, 결석·결근 사유 증명 등.' },
+    },
+    {
+      q: '어떤 서류가 필요한가요?', anchor: 'q-docs',
+      intro: '이 민원은 별도의 신청서와 구비서류가 없습니다. 이미 실종아동등·가출인 신고를 접수한 상태여야 신고접수증을 발급받을 수 있으며, 방문 신청 시 본인 확인을 위한 신분증을 지참하면 됩니다.',
+      highlights: ['별도 신청서·구비서류 없음', '사전에 실종·가출 신고가 접수되어 있어야 함', '방문 신청 시 본인 신분증 지참', '대리인 신청도 가능'],
+      box: { label: '준비서류', content: '별도 구비서류 없음(사전 신고 접수 필수).' },
+    },
+    {
+      q: '수수료와 처리기간은 어떻게 되나요?', anchor: 'q-fee-period',
+      intro: '수수료는 없습니다. 처리기간은 즉시로, 근무시간 내 3시간이면 처리됩니다. 신고 접수 후 필요할 때 언제든 신청할 수 있습니다.',
+      highlights: ['수수료: 없음', '처리기간: 즉시(근무시간 내 3시간)', '신고 접수 후 필요 시점에 신청 가능', '인터넷 신청으로 방문 없이 발급 가능'],
+      box: { label: '수수료·처리기간', content: '수수료 없음, 근무시간 내 3시간 즉시 처리.' },
+    },
+    {
+      q: '어디서, 어떻게 신청하나요?', anchor: 'q-apply-method',
+      intro: '신청 방법은 인터넷, 방문입니다. 접수·처리기관은 경찰서입니다. 실종·가출 신고를 접수한 관할 경찰서에 방문하거나 정부24로 온라인 신청할 수 있습니다.',
+      highlights: ['인터넷·방문 두 가지 방법', '접수·처리기관: 경찰서', '신고를 접수한 관할 경찰서 이용 권장', '정부24 온라인으로도 신청 가능'],
+      box: { label: '신청경로', content: '신고 접수 관할 경찰서 방문 또는 정부24 온라인 신청.' },
+    },
+    {
+      q: '어디에 문의하나요?', anchor: 'q-contact',
+      intro: '이 민원의 제도를 담당하는 중앙행정기관은 경찰청 청소년보호과입니다. 개별 민원(실제 접수·처리)에 대한 문의는 관할 경찰서(관할 처리기관)에 직접 연락하는 것이 정확합니다. 정부24 콜센터(1588-2188), 정부민원안내콜센터(국번없이 110)를 통해서도 일반적인 안내를 받을 수 있습니다.',
+      highlights: ['제도 담당: 경찰청 청소년보호과', '개별 민원 문의는 관할 경찰서', '정부24 콜센터 1588-2188', '정부민원안내콜센터 국번없이 110'],
+      box: { label: '문의처', content: '개별 민원은 관할 경찰서, 일반 안내는 정부24 콜센터.' },
+    },
+  ],
+  faq: [
+    { q: '수수료가 있나요?', a: '없습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100' },
+    { q: '처리는 얼마나 걸리나요?', a: '즉시 처리되며 근무시간 내 3시간이 소요됩니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100' },
+    { q: '신고를 먼저 해야 하나요?', a: '네, 실종아동등·가출인 신고를 먼저 접수한 후에 신고접수증을 발급받을 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100' },
+    { q: '별도 서류를 준비해야 하나요?', a: '아니요, 별도의 신청서와 구비서류가 없습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100' },
+    { q: '대리인이 신청할 수 있나요?', a: '네, 본인 또는 대리인이 신청할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100' },
+  ],
+  sources: [
+    { label: '정부24(실종아동등·가출인 신고접수증 발급 신청)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100' },
+    { label: '경찰청 청소년보호과', url: 'https://www.police.go.kr' },
+    { label: '정부24 콜센터 1588-2188', url: 'https://www.gov.kr' },
+  ],
+} as const;
+
+export const missingPersonReportReceiptSpokes = [];

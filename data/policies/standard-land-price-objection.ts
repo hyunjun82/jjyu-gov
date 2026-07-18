@@ -1,0 +1,74 @@
+/* 표준지 공시지가 이의신청 - 국토교통부·정부24 */
+export const standardLandPriceObjectionPolicy = {
+  id: '405', type: 'service' as const,
+  title: '표준지공시지가 이의신청 국토교통부에 30일 이내 사유서로 신청하는 법',
+  titleKeywords: { k1: '표준지공시지가이의신청', k2: '개별공시지가와차이', k3: '국토교통부결정공시', k4: '이의신청사유증명서류' },
+  slug: 'standard-land-price-objection', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  amount: '수수료 없음', deadline: '공시일부터 30일 이내(처리 총 30일)', views: 0,
+  applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', ctaLabel: '정부24 표준지 공시지가 이의신청 바로가기',
+  datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',
+  summary: '표준지 공시지가 이의신청은 국토교통부장관이 결정·공시한 표준지공시지가에 이의가 있는 경우 공시일부터 30일 이내에 토지소유자 및 법률상 이해관계를 가진 사람 등이 이의신청을 하는 절차로, 부동산 가격공시에 관한 법률 제7조제1항에 근거합니다. 표준지공시지가는 전국의 대표성 있는 표준지에 대해 국토교통부가 직접 조사·산정해 공시하는 지가로, 시·군·구가 매년 산정하는 개별공시지가의 산정 기준이 됩니다. 신청 방법은 인터넷, 방문, 팩스, 우편이며, 신청자격은 법령상의 자격이 있는 사람(제3자, 토지소유자 등)입니다. 수수료는 없습니다. 처리기간은 총 30일입니다. 제출서류는 이의 신청의 사유를 증명하는 서류입니다. 접수·처리기관은 국토교통부입니다. 본 정보는 정부24 공식 자료에 기반하며, 정확한 신청방법은 정부24나 국토교통부에서 확인이 필요합니다.',
+  metaDescription: '표준지공시지가 이의신청 국토교통부에 30일 이내 사유서로 신청하는 법 – 수수료 없음, 처리 총 30일. 개별공시지가와는 별개 절차.',
+  audience: '자신의 토지가 표준지로 지정되어 공시지가에 이의가 있는 토지소유자',
+  keyFacts: {
+    신청방법: { value: '인터넷, 방문, FAX, 우편', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', text: '신청방법', verifiedAt: '2026-07-18' } },
+    신청자격: { value: '법령상의 자격이 있는 자(토지소유자 및 법률상 이해관계인)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', text: '신청자격', verifiedAt: '2026-07-18' } },
+    수수료: { value: '수수료 없음', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', text: '수수료', verifiedAt: '2026-07-18' } },
+    처리기간: { value: '총 30일', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', text: '처리기간', verifiedAt: '2026-07-18' } },
+    신청기한: { value: '표준지공시지가 공시일부터 30일 이내', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', text: '제공 내용', verifiedAt: '2026-07-18' } },
+    제출서류: { value: '이의 신청의 사유를 증명하는 서류', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', text: '제출 서류', verifiedAt: '2026-07-18' } },
+    근거법령: { value: '부동산 가격공시에 관한 법률 제7조제1항, 시행령 제12조, 시행규칙 제4조 별지5', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', text: '근거법령', verifiedAt: '2026-07-18' } },
+  },
+  qa: [
+    {
+      q: '표준지 공시지가 이의신청이 뭔가요?', anchor: 'q-basic',
+      intro: '표준지 공시지가 이의신청은 국토교통부장관이 결정·공시한 표준지공시지가에 이의가 있는 경우 공시일부터 30일 이내에 토지소유자 및 법률상 이해관계를 가진 사람 등이 이의신청을 하는 민원사무입니다. 부동산 가격공시에 관한 법률 제7조제1항에 근거합니다.',
+      highlights: ['표준지공시지가에 이의가 있을 때 조정을 요구하는 절차', '부동산 가격공시에 관한 법률 제7조제1항 근거', '공시일부터 30일 이내에만 신청 가능', '국토교통부가 직접 접수·처리'],
+      box: { label: '핵심', content: '국토교통부가 공시한 표준지공시지가에 이의를 제기하는 절차.' },
+    },
+    {
+      q: '개별공시지가 이의신청과는 어떻게 다른가요?', anchor: 'q-vs-individual',
+      intro: '표준지공시지가는 국토교통부가 전국의 대표성 있는 표준지(약 50만 필지)를 직접 조사·산정해 공시하는 지가로, 매년 시·군·구가 개별 토지마다 산정하는 개별공시지가의 산정 기준이 됩니다. 표준지로 지정된 토지의 소유자가 이의를 제기하는 것이 이 절차이며, 접수·처리기관도 국토교통부로 개별공시지가 이의신청(시·군·구)과 다릅니다.',
+      highlights: ['표준지공시지가: 국토교통부가 직접 조사·산정하는 기준 지가', '개별공시지가: 시·군·구가 표준지를 기준으로 매년 산정', '표준지 이의신청은 국토교통부가 접수·처리', '표준지로 지정된 토지 소유자만 해당'],
+      box: { label: '표준지 vs 개별공시지가', content: '표준지는 국토교통부가 정하는 기준 지가(전국 약 50만 필지), 개별공시지가는 그 기준으로 시·군·구가 산정.' },
+    },
+    {
+      q: '언제까지 신청해야 하나요?', anchor: 'q-deadline',
+      intro: '표준지공시지가 공시일부터 30일 이내에 신청해야 합니다. 통상 매년 초에 공시되므로, 자신의 토지가 표준지에 해당하는지와 공시 시점을 확인해 기한 내에 신청해야 합니다.',
+      highlights: ['공시일부터 30일 이내 신청 필수', '통상 매년 초 공시(정확한 일정은 국토교통부 확인)', '기한 초과 시 정식 이의신청 불가', '표준지 해당 여부 사전 확인 필요'],
+      box: { label: '신청기한', content: '표준지공시지가 공시일부터 30일 이내(엄격 준수 필요).' },
+    },
+    {
+      q: '어떤 서류가 필요한가요?', anchor: 'q-docs',
+      intro: '이의 신청의 사유를 증명하는 서류가 필요합니다. 예를 들어 인근 표준지와의 형평성 문제, 실거래가와의 괴리, 토지 이용 상황의 특수성 등을 뒷받침하는 자료를 준비해야 합니다.',
+      highlights: ['이의 신청 사유를 증명하는 서류 필수', '인근 표준지와의 형평성 자료 등 활용', '실거래가·감정평가 자료도 근거로 활용 가능', '구체적이고 명확한 사유 제시가 중요'],
+      box: { label: '준비서류', content: '이의 신청 사유를 증명하는 서류(형평성·실거래가 자료 등).' },
+    },
+    {
+      q: '수수료와 처리기간은 어떻게 되나요?', anchor: 'q-fee-period',
+      intro: '수수료는 없습니다. 처리기간은 총 30일이 소요됩니다.',
+      highlights: ['수수료: 없음', '처리기간: 총 30일', '사유 증명이 명확할수록 처리가 원활', '결과는 국토교통부가 심사 후 통보'],
+      box: { label: '수수료·처리기간', content: '수수료 없음, 처리 총 30일.' },
+    },
+    {
+      q: '어디서, 어떻게 신청하나요?', anchor: 'q-apply-method',
+      intro: '신청 방법은 인터넷, 방문, 팩스, 우편입니다. 접수·처리기관은 국토교통부입니다(1599-0001). 개별공시지가 이의신청과 달리 시·군·구가 아닌 국토교통부에 직접 신청합니다.',
+      highlights: ['인터넷·방문·FAX·우편 네 가지 방법', '접수·처리기관: 국토교통부(1599-0001)', '개별공시지가와 달리 시·군·구가 아닌 국토교통부 직접 신청', '표준지 지정 여부 사전 확인 후 신청'],
+      box: { label: '신청경로', content: '국토교통부에 인터넷·방문·팩스·우편으로 직접 신청.' },
+    },
+  ],
+  faq: [
+    { q: '수수료가 있나요?', a: '없습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010' },
+    { q: '언제까지 신청해야 하나요?', a: '표준지공시지가 공시일부터 30일 이내에 신청해야 합니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010' },
+    { q: '개별공시지가 이의신청과 같은 건가요?', a: '아니요, 표준지공시지가는 국토교통부가 접수·처리하고, 개별공시지가는 시·군·구가 접수·처리하는 별개 절차입니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010' },
+    { q: '처리는 얼마나 걸리나요?', a: '총 30일이 소요됩니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010' },
+    { q: '내 토지가 표준지인지 어떻게 아나요?', a: '국토교통부 부동산평가과(1599-0001)나 관할 시·군·구에 문의해 확인할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010' },
+  ],
+  sources: [
+    { label: '정부24(표준지 공시지가 이의신청)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010' },
+    { label: '국토교통부', url: 'https://www.molit.go.kr' },
+    { label: '정부24 콜센터 1588-2188', url: 'https://www.gov.kr' },
+  ],
+} as const;
+
+export const standardLandPriceObjectionSpokes = [];

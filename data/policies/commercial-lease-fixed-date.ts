@@ -1,0 +1,74 @@
+/* 상가건물 확정일자 신청 - 국세청·정부24 */
+export const commercialLeaseFixedDatePolicy = {
+  id: '342', type: 'service' as const,
+  title: '상가건물 확정일자 세무서에서 받고 보증금 우선변제권 확보하는 법',
+  titleKeywords: { k1: '상가건물확정일자', k2: '세무서신청', k3: '보증금우선변제', k4: '상가건물임대차보호법' },
+  slug: 'commercial-lease-fixed-date', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
+  applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', ctaLabel: '정부24 상가건물 확정일자 신청 바로가기',
+  datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',
+  summary: '상가건물 확정일자 신청은 상가건물이 경매나 공매에 넘어갔을 때 보증금을 우선변제받기 위해 임차인이 관할 세무서장에게 신청하는 절차로, 상가건물 임대차보호법 제4조에 근거합니다. 주택 임대차 확정일자는 주민센터(동 주민센터)에서 처리하지만, 상가건물은 관할 세무서가 담당한다는 점이 다릅니다. 정부24 안내에 따라 방문으로 신청할 수 있으며 수수료는 없습니다. 처리기간은 근무시간 내 즉시(최대 3시간)입니다. 제출서류는 상가건물임대차 계약서 원본입니다. 본 정보는 정부24 공식 자료에 기반하며, 정확한 신청방법은 정부24에서 확인이 필요합니다.',
+  metaDescription: '상가건물 확정일자 세무서에서 받고 보증금 우선변제권 확보하는 법 – 수수료 없음, 즉시 처리. 주택과 달리 관할 세무서에서 신청.',
+  audience: '상가건물 임대차계약을 체결하고 보증금을 지켜야 하는 임차인(사업자)',
+  keyFacts: {
+    신청방법: { value: '방문', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', text: '신청방법', verifiedAt: '2026-07-17' } },
+    신청자격: { value: '본인 또는 대리인', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', text: '신청자격', verifiedAt: '2026-07-17' } },
+    수수료: { value: '수수료 없음', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', text: '수수료', verifiedAt: '2026-07-17' } },
+    처리기간: { value: '즉시(근무시간 내 최대 3시간)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', text: '처리기간', verifiedAt: '2026-07-17' } },
+    제출서류: { value: '상가건물임대차 계약서 원본', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', text: '제출서류', verifiedAt: '2026-07-17' } },
+    접수처리기관: { value: '관할 세무서(주택은 주민센터, 상가건물은 세무서)', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', text: '신청 방법 및 절차', verifiedAt: '2026-07-17' } },
+    근거법령: { value: '상가건물 임대차보호법 제4조, 시행령 제3조', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', text: '근거법령', verifiedAt: '2026-07-17' } },
+  },
+  qa: [
+    {
+      q: '상가건물 확정일자가 뭔가요?', anchor: 'q-basic',
+      intro: '상가건물 확정일자는 상가건물이 경매 또는 공매로 넘어갔을 때 보증금을 우선변제받기 위해 임차인이 관할 세무서장에게 신청하는 민원사무입니다. 상가건물 임대차보호법 제4조에 근거하며, 확정일자를 받아두면 이후 다른 채권자보다 우선해서 보증금을 변제받을 권리(우선변제권)를 확보할 수 있습니다.',
+      highlights: ['경매·공매 시 보증금 우선변제를 위한 확정일자', '상가건물 임대차보호법 제4조 근거', '우선변제권 확보의 핵심 절차', '임차인(사업자)이 신청'],
+      box: { label: '핵심', content: '상가 경매·공매 시 보증금을 우선변제받기 위해 확정일자를 받는 절차.' },
+    },
+    {
+      q: '주택 확정일자와 어떻게 다른가요?', anchor: 'q-vs-housing',
+      intro: '가장 큰 차이는 처리기관입니다. 주택 임대차 확정일자는 동 주민센터(시·군·구청)에서 처리하지만, 상가건물 확정일자는 관할 세무서에서 처리합니다. 이는 상가건물 임대차보호법과 주택임대차보호법이 서로 다른 법률이고, 상가건물의 경우 국세청이 관련 정보를 관리하기 때문입니다.',
+      highlights: ['주택: 동 주민센터에서 확정일자 처리', '상가건물: 관할 세무서에서 확정일자 처리', '서로 다른 법률(주택임대차보호법 vs 상가건물임대차보호법)', '신청 장소를 혼동하지 않도록 주의 필요'],
+      table: { caption: '주택 vs 상가건물 확정일자', headers: ['구분', '처리기관', '근거법률'], rows: [['주택', '동 주민센터', '주택임대차보호법'], ['상가건물', '관할 세무서', '상가건물 임대차보호법']] },
+    },
+    {
+      q: '신청할 때 무엇이 필요한가요?', anchor: 'q-docs',
+      intro: '제출서류는 상가건물임대차 계약서 원본입니다. 확정일자 신청서(상가건물 임대차계약서상의 확정일자 부여 및 임대차 정보제공에 관한 규칙 별지 서식 1호)를 작성해 계약서 원본과 함께 제출하면, 계약서에 확정일자 도장을 받을 수 있습니다.',
+      highlights: ['상가건물임대차 계약서 원본 필수', '확정일자 신청서(별지 제1호) 작성', '계약서에 확정일자 도장을 받는 방식', '원본을 지참해야 신청 가능'],
+      box: { label: '준비서류', content: '상가건물임대차 계약서 원본을 지참해야 신청 가능.' },
+    },
+    {
+      q: '온라인으로 신청할 수 있나요?', anchor: 'q-online',
+      intro: '이 민원은 방문으로만 신청할 수 있습니다. 계약서 원본에 직접 확정일자 도장을 받아야 하는 절차이기 때문에, 관할 세무서를 직접 방문해야 합니다. 사업자등록과 함께 처리하는 경우가 많으므로, 사업자등록 신청 시 함께 확정일자를 받는 것도 방법입니다.',
+      highlights: ['방문으로만 신청 가능(온라인 불가)', '계약서 원본에 직접 도장을 받는 방식', '사업자등록과 함께 처리 가능', '사업자등록 신청 시 병행 처리 고려'],
+      box: { label: '온라인 신청', content: '불가능. 계약서 원본을 지참해 관할 세무서를 방문해야 함.' },
+    },
+    {
+      q: '수수료와 처리기간은 어떻게 되나요?', anchor: 'q-fee-period',
+      intro: '수수료는 없습니다. 처리기간은 즉시가 원칙이며, 근무시간 내 최대 3시간 이내에 처리됩니다. 계약서와 신분증만 준비되면 그 자리에서 바로 확정일자를 받을 수 있습니다.',
+      highlights: ['수수료 없음', '처리기간: 즉시(근무시간 내 최대 3시간)', '계약서·신분증 준비되면 즉시 처리', '별도 심사 없이 신속하게 확정일자 부여'],
+      box: { label: '수수료·처리기간', content: '수수료 없이 즉시 처리(최대 3시간).' },
+    },
+    {
+      q: '어디에 문의하나요?', anchor: 'q-contact',
+      intro: '이 민원의 제도를 담당하는 중앙행정기관은 국세청 납세자보호담당관입니다. 개별 민원(실제 접수·처리)에 대한 문의는 관할 세무서(관할 처리기관)에 직접 연락하는 것이 정확합니다. 국세상담센터(국번없이 126)나 정부24 콜센터(1588-2188), 정부민원안내콜센터(국번없이 110)를 통해서도 일반적인 안내를 받을 수 있습니다.',
+      highlights: ['제도 담당: 국세청 납세자보호담당관', '개별 민원 문의는 관할 세무서', '국세상담센터 국번없이 126', '정부24 콜센터 1588-2188'],
+      box: { label: '문의처', content: '개별 민원은 관할 세무서, 세금 관련 안내는 국번없이 126.' },
+    },
+  ],
+  faq: [
+    { q: '상가 확정일자는 어디서 받나요?', a: '관할 세무서에서 받습니다. 주택과 달리 동 주민센터가 아닙니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286' },
+    { q: '수수료가 있나요?', a: '없습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286' },
+    { q: '온라인으로 받을 수 있나요?', a: '아니요, 계약서 원본에 도장을 받아야 해서 방문으로만 가능합니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286' },
+    { q: '무엇을 준비해야 하나요?', a: '상가건물임대차 계약서 원본이 필요합니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286' },
+    { q: '사업자등록과 같이 할 수 있나요?', a: '네, 관할 세무서에서 사업자등록과 함께 확정일자를 받는 경우가 많습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286' },
+  ],
+  sources: [
+    { label: '정부24(상가건물 확정일자 신청)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286' },
+    { label: '국세청', url: 'https://www.nts.go.kr' },
+    { label: '국세상담센터 ☎126', url: 'https://call.nts.go.kr' },
+  ],
+} as const;
+
+export const commercialLeaseFixedDateSpokes = [];

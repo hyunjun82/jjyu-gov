@@ -1,0 +1,74 @@
+/* 장애정도 조정신청 - 보건복지부·정부24 */
+export const disabilityDegreeAdjustmentPolicy = {
+  id: '376', type: 'service' as const,
+  title: '장애정도 조정신청 상태 변화 시 30일 만에 등급 재심사받는 법',
+  titleKeywords: { k1: '장애정도조정신청', k2: '심한장애심하지않은장애', k3: '장애정도심사실시확인서서식12', k4: '읍면동국민연금공단' },
+  slug: 'disability-degree-adjustment', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  amount: '수수료 없음', deadline: '장애상태가 현저히 변화했을 때 신청(처리 총 30일)', views: 0,
+  applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', ctaLabel: '정부24 장애정도 조정신청 바로가기',
+  datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',
+  summary: '장애정도 조정신청은 등록장애인이 장애인등록 이후 장애상태가 현저하게 변화해 장애정도를 조정(상향 또는 하향)하기 위해 신청하는 절차로, 장애인복지법 제32조제3항에 근거합니다. 장애정도가 상향되는 경우뿐 아니라, 신청인의 의도와 달리 장애정도가 하락(심한 장애→심하지 않은 장애)하거나 장애 미해당 결정에 따라 장애인등록이 취소될 수도 있어 유의가 필요합니다. 신청 방법은 방문이며, 신청자격은 본인 또는 대리인입니다. 수수료는 없습니다. 처리기간은 총 30일이 소요됩니다. 제출서류는 장애인등록증 및 장애심사 관련 제출서류, 장애정도 심사 실시 및 유의사항 안내(서식12) 확인서입니다. 접수·처리기관은 읍·면·동이며 국민연금공단이 심사를 경유합니다. 본 정보는 정부24 공식 자료에 기반하며, 정확한 신청방법은 정부24나 관할 읍·면·동에서 확인이 필요합니다.',
+  metaDescription: '장애정도 조정신청 상태 변화 시 30일 만에 등급 재심사받는 법 – 본인·대리인 신청, 수수료 없음, 처리 총 30일. 하향·취소 가능성 유의.',
+  audience: '등록 이후 장애상태가 뚜렷하게 변화한 등록장애인',
+  keyFacts: {
+    신청방법: { value: '방문', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', text: '신청방법', verifiedAt: '2026-07-17' } },
+    신청자격: { value: '본인 또는 대리인', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', text: '신청자격', verifiedAt: '2026-07-17' } },
+    수수료: { value: '수수료 없음', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', text: '수수료', verifiedAt: '2026-07-17' } },
+    처리기간: { value: '총 30일', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', text: '처리기간', verifiedAt: '2026-07-17' } },
+    제출서류: { value: '장애인등록증+장애심사 관련 제출서류, 서식12 확인서', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', text: '제출 서류', verifiedAt: '2026-07-17' } },
+    유의사항: { value: '상향뿐 아니라 하향·장애 미해당(등록 취소)도 가능', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', text: '제공 내용', verifiedAt: '2026-07-17' } },
+    근거법령: { value: '장애인복지법 제32조제3항, 장애정도심사규정 제12조제2항, 시행규칙 제6조', source: { url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', text: '근거법령', verifiedAt: '2026-07-17' } },
+  },
+  qa: [
+    {
+      q: '장애정도 조정신청이 뭔가요?', anchor: 'q-basic',
+      intro: '장애정도 조정신청은 등록장애인이 장애인등록 이후 장애상태가 현저하게 변화해 장애정도를 조정(상향 또는 하향)하기 위해 신청하는 민원사무입니다. 장애인복지법 제32조제3항에 근거하며, 장애인등록 및 서비스 신청서(별지 서식 1호의4)를 작성해 신청합니다.',
+      highlights: ['장애상태 변화 시 장애정도를 다시 조정받는 절차', '장애인복지법 제32조제3항 근거', '상향뿐 아니라 하향 조정도 포함', '장애인등록 및 서비스 신청서(별지 제1호의4) 작성'],
+      box: { label: '핵심', content: '등록 후 장애상태가 크게 변했을 때 장애정도를 다시 심사받는 절차.' },
+    },
+    {
+      q: '조정 결과가 항상 유리한 방향은 아닌가요?', anchor: 'q-risk',
+      intro: '장애정도가 상향되는 경우뿐 아니라, 신청인의 의도와 달리 장애정도가 하락(심한 장애→심하지 않은 장애)하거나 장애 미해당 결정에 따라 장애인등록이 취소될 수도 있습니다. 조정신청은 재심사를 의미하므로, 신청 전 이러한 위험을 충분히 이해하고 결정해야 합니다.',
+      highlights: ['상향뿐 아니라 하향 가능성도 있음', '장애 미해당 판정 시 등록 자체가 취소될 수 있음', '재심사이므로 결과를 예단할 수 없음', '신청 전 위험을 충분히 고려해야 함'],
+      box: { label: '주의사항', content: '조정신청은 하향·등록취소로 이어질 수도 있어 신중히 결정.' },
+    },
+    {
+      q: '어떤 서류가 필요한가요?', anchor: 'q-docs',
+      intro: '장애인등록증 및 장애심사 관련 제출서류(진단서·검사자료 등 장애유형별 서류)가 필요하며, 장애정도 심사 실시 및 유의사항 안내(서식12) 확인서도 함께 제출해야 합니다. 장애인증명은 행정정보공동이용을 통해 담당공무원이 확인할 수 있습니다.',
+      highlights: ['장애인등록증+장애심사 관련 제출서류 필수', '서식12(유의사항 안내) 확인서 제출 필요', '장애인증명은 행정정보공동이용으로 확인', '장애유형별로 요구되는 심사서류가 다름'],
+      box: { label: '준비서류', content: '장애인등록증+심사서류+서식12 확인서.' },
+    },
+    {
+      q: '처리 절차는 어떻게 되나요?', anchor: 'q-process',
+      intro: '접수는 읍·면·동에서 하며, 국민연금공단이 장애정도 심사를 경유한 뒤 다시 읍·면·동에서 최종 처리합니다. 처리기간은 총 30일이 소요되며, 수수료는 없습니다.',
+      highlights: ['접수: 읍·면·동', '경유: 국민연금공단(장애정도 심사)', '처리: 읍·면·동', '처리기간: 총 30일, 수수료 없음'],
+      box: { label: '처리 절차', content: '읍·면·동 접수 → 국민연금공단 심사 → 읍·면·동 최종 처리.' },
+    },
+    {
+      q: '어디서, 어떻게 신청하나요?', anchor: 'q-apply-method',
+      intro: '신청 방법은 방문만 가능합니다. 접수·처리기관은 읍·면·동이며, 국민연금공단이 장애정도 심사를 경유합니다. 관할 주소지의 읍·면·동 주민센터를 방문해 신청합니다.',
+      highlights: ['방문만 가능(인터넷 불가)', '접수·처리기관: 읍·면·동', '심사 경유기관: 국민연금공단', '관할 주소지 읍·면·동 주민센터 방문 필요'],
+      box: { label: '신청경로', content: '관할 주소지 읍·면·동 주민센터 방문 신청.' },
+    },
+    {
+      q: '어디에 문의하나요?', anchor: 'q-contact',
+      intro: '이 민원의 제도를 담당하는 중앙행정기관은 보건복지부 장애인정책과입니다. 개별 민원(실제 접수·처리)에 대한 문의는 관할 읍·면·동(관할 처리기관)에 직접 연락하는 것이 정확합니다. 정부24 콜센터(1588-2188), 정부민원안내콜센터(국번없이 110)를 통해서도 일반적인 안내를 받을 수 있습니다.',
+      highlights: ['제도 담당: 보건복지부 장애인정책과', '개별 민원 문의는 관할 읍·면·동', '정부24 콜센터 1588-2188', '정부민원안내콜센터 국번없이 110'],
+      box: { label: '문의처', content: '개별 민원은 관할 읍·면·동, 일반 안내는 정부24 콜센터.' },
+    },
+  ],
+  faq: [
+    { q: '수수료가 있나요?', a: '없습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112' },
+    { q: '처리는 얼마나 걸리나요?', a: '총 30일이 소요됩니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112' },
+    { q: '조정신청하면 무조건 등급이 올라가나요?', a: '아니요, 상향뿐 아니라 하향이나 장애 미해당(등록 취소)으로 결정될 수도 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112' },
+    { q: '인터넷으로 신청할 수 있나요?', a: '아니요, 방문으로만 신청할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112' },
+    { q: '대리인이 신청할 수 있나요?', a: '네, 본인 또는 대리인이 신청할 수 있습니다.', source: '정부24', sourceUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112' },
+  ],
+  sources: [
+    { label: '정부24(장애정도 조정신청)', url: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112' },
+    { label: '보건복지부', url: 'https://www.mohw.go.kr' },
+    { label: '정부24 콜센터 1588-2188', url: 'https://www.gov.kr' },
+  ],
+} as const;
+
+export const disabilityDegreeAdjustmentSpokes = [];

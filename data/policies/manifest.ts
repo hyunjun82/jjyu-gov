@@ -368,6 +368,106 @@ import { domesticResidenceReportCertificatePolicy, domesticResidenceReportCertif
 import { industrialAccidentMedicalBenefitPolicy, industrialAccidentMedicalBenefitSpokes } from './industrial-accident-medical-benefit';
 import { nationalTaxObjectionPolicy, nationalTaxObjectionSpokes } from './national-tax-objection';
 import { propertyTaxInstallmentPolicy, propertyTaxInstallmentSpokes } from './property-tax-installment';
+import { foreignerStayExtensionPolicy, foreignerStayExtensionSpokes } from './foreigner-stay-extension';
+import { foreignerRegistrationFactCertificatePolicy, foreignerRegistrationFactCertificateSpokes } from './foreigner-registration-fact-certificate';
+import { farmlandLedgerCertificatePolicy, farmlandLedgerCertificateSpokes } from './farmland-ledger-certificate';
+import { foreignerReentryPermitPolicy, foreignerReentryPermitSpokes } from './foreigner-reentry-permit';
+import { residentListConfirmationCertificatePolicy, residentListConfirmationCertificateSpokes } from './resident-list-confirmation-certificate';
+import { nationalPensionSurvivorBenefitPolicy, nationalPensionSurvivorBenefitSpokes } from './national-pension-survivor-benefit';
+import { healthInsuranceDependentRegistrationPolicy, healthInsuranceDependentRegistrationSpokes } from './health-insurance-dependent-registration';
+import { farmBusinessEntityCertificatePolicy, farmBusinessEntityCertificateSpokes } from './farm-business-entity-certificate';
+import { industrialAccidentSurvivorBenefitPolicy, industrialAccidentSurvivorBenefitSpokes } from './industrial-accident-survivor-benefit';
+import { industrialAccidentDisabilityBenefitPolicy, industrialAccidentDisabilityBenefitSpokes } from './industrial-accident-disability-benefit';
+import { housingLeaseReportPolicy, housingLeaseReportSpokes } from './housing-lease-report';
+import { commercialLeaseFixedDatePolicy, commercialLeaseFixedDateSpokes } from './commercial-lease-fixed-date';
+import { earlyReemploymentAllowancePolicy, earlyReemploymentAllowanceSpokes } from './early-reemployment-allowance';
+import { wideAreaJobSearchAllowancePolicy, wideAreaJobSearchAllowanceSpokes } from './wide-area-job-search-allowance';
+import { relocationExpenseClaimPolicy, relocationExpenseClaimSpokes } from './relocation-expense-claim';
+import { nationalPensionDividedBenefitPolicy, nationalPensionDividedBenefitSpokes } from './national-pension-divided-benefit';
+import { nationalPensionRefundRepaymentPolicy, nationalPensionRefundRepaymentSpokes } from './national-pension-refund-repayment';
+import { vehicleCancellationRegistrationPolicy, vehicleCancellationRegistrationSpokes } from './vehicle-cancellation-registration';
+import { vehicleInterregionalChangeRegistrationPolicy, vehicleInterregionalChangeRegistrationSpokes } from './vehicle-interregional-change-registration';
+import { vehicleMortgageRegistrationPolicy, vehicleMortgageRegistrationSpokes } from './vehicle-mortgage-registration';
+import { vehicleLicensePlateReissuePolicy, vehicleLicensePlateReissueSpokes } from './vehicle-license-plate-reissue';
+import { vehicleTemporaryOperationPermitPolicy, vehicleTemporaryOperationPermitSpokes } from './vehicle-temporary-operation-permit';
+import { vehicleNewRegistrationPolicy, vehicleNewRegistrationSpokes } from './vehicle-new-registration';
+import { creditBankDegreeCertificatePolicy, creditBankDegreeCertificateSpokes } from './credit-bank-degree-certificate';
+import { gedCertificateIssuancePolicy, gedCertificateIssuanceSpokes } from './ged-certificate-issuance';
+import { nationalTechnicalQualificationIssuancePolicy, nationalTechnicalQualificationIssuanceSpokes } from './national-technical-qualification-issuance';
+import { internationalDriversLicensePolicy, internationalDriversLicenseSpokes } from './international-drivers-license';
+import { nationalPensionReviewRequestPolicy, nationalPensionReviewRequestSpokes } from './national-pension-review-request';
+import { businessClosureCertificatePolicy, businessClosureCertificateSpokes } from './business-closure-certificate';
+import { businessRegistrationAmendmentPolicy, businessRegistrationAmendmentSpokes } from './business-registration-amendment';
+import { vehicleInspectionExtensionPolicy, vehicleInspectionExtensionSpokes } from './vehicle-inspection-extension';
+import { sealRegistrationPolicy, sealRegistrationSpokes } from './seal-registration';
+import { residentIdCardReissuePolicy, residentIdCardReissueSpokes } from './resident-id-card-reissue';
+import { healthInsuranceMedicalExpenseClaimPolicy, healthInsuranceMedicalExpenseClaimSpokes } from './health-insurance-medical-expense-claim';
+import { vaccinationCertificatePolicy, vaccinationCertificateSpokes } from './vaccination-certificate';
+import { missingChildFingerprintRegistrationPolicy, missingChildFingerprintRegistrationSpokes } from './missing-child-fingerprint-registration';
+import { veteranFamilyRegistrationPolicy, veteranFamilyRegistrationSpokes } from './veteran-family-registration';
+import { veteranRegistrationCardIssuancePolicy, veteranRegistrationCardIssuanceSpokes } from './veteran-registration-card-issuance';
+import { veteranDisabilityGradeReviewPolicy, veteranDisabilityGradeReviewSpokes } from './veteran-disability-grade-review';
+import { militaryServicePostponementPolicy, militaryServicePostponementSpokes } from './military-service-postponement';
+import { militaryOverseasTravelPermitPolicy, militaryOverseasTravelPermitSpokes } from './military-overseas-travel-permit';
+import { registeredDomicileChangePolicy, registeredDomicileChangeSpokes } from './registered-domicile-change';
+import { nationalTaxPaymentDeadlineExtensionPolicy, nationalTaxPaymentDeadlineExtensionSpokes } from './national-tax-payment-deadline-extension';
+import { localTaxCollectionDeferralPolicy, localTaxCollectionDeferralSpokes } from './local-tax-collection-deferral';
+import { ltciMedicalAidFacilityApplicationPolicy, ltciMedicalAidFacilityApplicationSpokes } from './ltci-medical-aid-facility-application';
+import { disabilityDegreeAdjustmentPolicy, disabilityDegreeAdjustmentSpokes } from './disability-degree-adjustment';
+import { disabilityCardReissuePolicy, disabilityCardReissueSpokes } from './disability-card-reissue';
+import { socialSecurityBenefitApplicationPolicy, socialSecurityBenefitApplicationSpokes } from './social-security-benefit-application';
+import { fosterCareConfirmationCertificatePolicy, fosterCareConfirmationCertificateSpokes } from './foster-care-confirmation-certificate';
+import { adoptionReportPolicy, adoptionReportSpokes } from './adoption-report';
+import { adoptionDissolutionReportPolicy, adoptionDissolutionReportSpokes } from './adoption-dissolution-report';
+import { familyRegisterCorrectionPolicy, familyRegisterCorrectionSpokes } from './family-register-correction';
+import { corporateRegistryCertificatePolicy, corporateRegistryCertificateSpokes } from './corporate-registry-certificate';
+import { landTransactionPermitPolicy, landTransactionPermitSpokes } from './land-transaction-permit';
+import { farmlandAcquisitionCertificatePolicy, farmlandAcquisitionCertificateSpokes } from './farmland-acquisition-certificate';
+import { ultralightAircraftRegistrationPolicy, ultralightAircraftRegistrationSpokes } from './ultralight-aircraft-registration';
+import { nationalPensionPrepaymentPolicy, nationalPensionPrepaymentSpokes } from './national-pension-prepayment';
+import { employmentInsuranceCertificateIssuancePolicy, employmentInsuranceCertificateIssuanceSpokes } from './employment-insurance-certificate-issuance';
+import { industrialAccidentTemporaryDisabilityBenefitPolicy, industrialAccidentTemporaryDisabilityBenefitSpokes } from './industrial-accident-temporary-disability-benefit';
+import { industrialAccidentSurvivorPensionChangePolicy, industrialAccidentSurvivorPensionChangeSpokes } from './industrial-accident-survivor-pension-change';
+import { industrialAccidentReturnToWorkSubsidyPolicy, industrialAccidentReturnToWorkSubsidySpokes } from './industrial-accident-return-to-work-subsidy';
+import { employmentInsuranceWorkerCertificatePolicy, employmentInsuranceWorkerCertificateSpokes } from './employment-insurance-worker-certificate';
+import { employmentInsuranceReviewRequestPolicy, employmentInsuranceReviewRequestSpokes } from './employment-insurance-review-request';
+import { industrialAccidentReExaminationRequestPolicy, industrialAccidentReExaminationRequestSpokes } from './industrial-accident-re-examination-request';
+import { nationalPensionDisabilityBenefitPolicy, nationalPensionDisabilityBenefitSpokes } from './national-pension-disability-benefit';
+import { veteranLivelihoodSupportPolicy, veteranLivelihoodSupportSpokes } from './veteran-livelihood-support';
+import { agentOrangePatientRegistrationPolicy, agentOrangePatientRegistrationSpokes } from './agent-orange-patient-registration';
+import { specialMissionVeteranRegistrationPolicy, specialMissionVeteranRegistrationSpokes } from './special-mission-veteran-registration';
+import { veteranStatusChangeReportPolicy, veteranStatusChangeReportSpokes } from './veteran-status-change-report';
+import { realEstateRegistrationNumberCertificatePolicy, realEstateRegistrationNumberCertificateSpokes } from './real-estate-registration-number-certificate';
+import { healthInsuranceInstallmentPaymentPolicy, healthInsuranceInstallmentPaymentSpokes } from './health-insurance-installment-payment';
+import { healthInsuranceQualificationLossReportPolicy, healthInsuranceQualificationLossReportSpokes } from './health-insurance-qualification-loss-report';
+import { socialSecurityAgreementPensionCertificatePolicy, socialSecurityAgreementPensionCertificateSpokes } from './social-security-agreement-pension-certificate';
+import { individualLandPriceObjectionPolicy, individualLandPriceObjectionSpokes } from './individual-land-price-objection';
+import { standardLandPriceObjectionPolicy, standardLandPriceObjectionSpokes } from './standard-land-price-objection';
+import { individualHousePriceConfirmationPolicy, individualHousePriceConfirmationSpokes } from './individual-house-price-confirmation';
+import { apartmentPriceConfirmationPolicy, apartmentPriceConfirmationSpokes } from './apartment-price-confirmation';
+import { passportLossReportPolicy, passportLossReportSpokes } from './passport-loss-report';
+import { passportFactCertificatePolicy, passportFactCertificateSpokes } from './passport-fact-certificate';
+import { passportEntryChangePolicy, passportEntryChangeSpokes } from './passport-entry-change';
+import { overseasKoreanRegistrationPolicy, overseasKoreanRegistrationSpokes } from './overseas-korean-registration';
+import { domesticResidenceReportPolicy, domesticResidenceReportSpokes } from './domestic-residence-report';
+import { foreignerRegistrationPolicy, foreignerRegistrationSpokes } from './foreigner-registration';
+import { nationalityFactCertificatePolicy, nationalityFactCertificateSpokes } from './nationality-fact-certificate';
+import { drivingRecordCertificatePolicy, drivingRecordCertificateSpokes } from './driving-record-certificate';
+import { criminalRecordCheckPolicy, criminalRecordCheckSpokes } from './criminal-record-check';
+import { healthInsurancePaymentCertificatePolicy, healthInsurancePaymentCertificateSpokes } from './health-insurance-payment-certificate';
+import { residentIdCardNewIssuancePolicy, residentIdCardNewIssuanceSpokes } from './resident-id-card-new-issuance';
+import { reserveForcesTrainingPostponementPolicy, reserveForcesTrainingPostponementSpokes } from './reserve-forces-training-postponement';
+import { reserveForcesTrainingDeferralPolicy, reserveForcesTrainingDeferralSpokes } from './reserve-forces-training-deferral';
+import { missingPersonReportReceiptPolicy, missingPersonReportReceiptSpokes } from './missing-person-report-receipt';
+import { vehicleTuningApprovalPolicy, vehicleTuningApprovalSpokes } from './vehicle-tuning-approval';
+import { localTaxPaymentConfirmationPolicy, localTaxPaymentConfirmationSpokes } from './local-tax-payment-confirmation';
+import { gedExamApplicationPolicy, gedExamApplicationSpokes } from './ged-exam-application';
+import { overseasEmigrationReportPolicy, overseasEmigrationReportSpokes } from './overseas-emigration-report';
+import { overseasResidenceReportPolicy, overseasResidenceReportSpokes } from './overseas-residence-report';
+import { visaIssuanceConfirmationPolicy, visaIssuanceConfirmationSpokes } from './visa-issuance-confirmation';
+import { constructionEngineerCareerReportPolicy, constructionEngineerCareerReportSpokes } from './construction-engineer-career-report';
+import { realEstateAgencyRegistrationPolicy, realEstateAgencyRegistrationSpokes } from './real-estate-agency-registration';
+import { realEstateAgencyClosureReportPolicy, realEstateAgencyClosureReportSpokes } from './real-estate-agency-closure-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -616,6 +716,106 @@ export const PoliciesById: Record<string, any> = {
   '328': industrialAccidentMedicalBenefitPolicy,
   '329': nationalTaxObjectionPolicy,
   '330': propertyTaxInstallmentPolicy,
+  '331': foreignerStayExtensionPolicy,
+  '332': foreignerRegistrationFactCertificatePolicy,
+  '333': farmlandLedgerCertificatePolicy,
+  '334': foreignerReentryPermitPolicy,
+  '335': residentListConfirmationCertificatePolicy,
+  '336': nationalPensionSurvivorBenefitPolicy,
+  '337': healthInsuranceDependentRegistrationPolicy,
+  '338': farmBusinessEntityCertificatePolicy,
+  '339': industrialAccidentSurvivorBenefitPolicy,
+  '340': industrialAccidentDisabilityBenefitPolicy,
+  '341': housingLeaseReportPolicy,
+  '342': commercialLeaseFixedDatePolicy,
+  '343': earlyReemploymentAllowancePolicy,
+  '344': wideAreaJobSearchAllowancePolicy,
+  '345': relocationExpenseClaimPolicy,
+  '346': nationalPensionDividedBenefitPolicy,
+  '347': nationalPensionRefundRepaymentPolicy,
+  '348': vehicleCancellationRegistrationPolicy,
+  '349': vehicleInterregionalChangeRegistrationPolicy,
+  '350': vehicleMortgageRegistrationPolicy,
+  '351': vehicleLicensePlateReissuePolicy,
+  '352': vehicleTemporaryOperationPermitPolicy,
+  '353': vehicleNewRegistrationPolicy,
+  '354': creditBankDegreeCertificatePolicy,
+  '355': gedCertificateIssuancePolicy,
+  '356': nationalTechnicalQualificationIssuancePolicy,
+  '357': internationalDriversLicensePolicy,
+  '358': nationalPensionReviewRequestPolicy,
+  '359': businessClosureCertificatePolicy,
+  '360': businessRegistrationAmendmentPolicy,
+  '361': vehicleInspectionExtensionPolicy,
+  '362': sealRegistrationPolicy,
+  '363': residentIdCardReissuePolicy,
+  '364': healthInsuranceMedicalExpenseClaimPolicy,
+  '365': vaccinationCertificatePolicy,
+  '366': missingChildFingerprintRegistrationPolicy,
+  '367': veteranFamilyRegistrationPolicy,
+  '368': veteranRegistrationCardIssuancePolicy,
+  '369': veteranDisabilityGradeReviewPolicy,
+  '370': militaryServicePostponementPolicy,
+  '371': militaryOverseasTravelPermitPolicy,
+  '372': registeredDomicileChangePolicy,
+  '373': nationalTaxPaymentDeadlineExtensionPolicy,
+  '374': localTaxCollectionDeferralPolicy,
+  '375': ltciMedicalAidFacilityApplicationPolicy,
+  '376': disabilityDegreeAdjustmentPolicy,
+  '377': disabilityCardReissuePolicy,
+  '378': socialSecurityBenefitApplicationPolicy,
+  '379': fosterCareConfirmationCertificatePolicy,
+  '380': adoptionReportPolicy,
+  '381': adoptionDissolutionReportPolicy,
+  '382': familyRegisterCorrectionPolicy,
+  '383': corporateRegistryCertificatePolicy,
+  '384': landTransactionPermitPolicy,
+  '385': farmlandAcquisitionCertificatePolicy,
+  '386': ultralightAircraftRegistrationPolicy,
+  '387': nationalPensionPrepaymentPolicy,
+  '388': employmentInsuranceCertificateIssuancePolicy,
+  '389': industrialAccidentTemporaryDisabilityBenefitPolicy,
+  '390': industrialAccidentSurvivorPensionChangePolicy,
+  '391': industrialAccidentReturnToWorkSubsidyPolicy,
+  '392': employmentInsuranceWorkerCertificatePolicy,
+  '393': employmentInsuranceReviewRequestPolicy,
+  '394': industrialAccidentReExaminationRequestPolicy,
+  '395': nationalPensionDisabilityBenefitPolicy,
+  '396': veteranLivelihoodSupportPolicy,
+  '397': agentOrangePatientRegistrationPolicy,
+  '398': specialMissionVeteranRegistrationPolicy,
+  '399': veteranStatusChangeReportPolicy,
+  '400': realEstateRegistrationNumberCertificatePolicy,
+  '401': healthInsuranceInstallmentPaymentPolicy,
+  '402': healthInsuranceQualificationLossReportPolicy,
+  '403': socialSecurityAgreementPensionCertificatePolicy,
+  '404': individualLandPriceObjectionPolicy,
+  '405': standardLandPriceObjectionPolicy,
+  '406': individualHousePriceConfirmationPolicy,
+  '407': apartmentPriceConfirmationPolicy,
+  '408': passportLossReportPolicy,
+  '409': passportFactCertificatePolicy,
+  '410': passportEntryChangePolicy,
+  '411': overseasKoreanRegistrationPolicy,
+  '412': domesticResidenceReportPolicy,
+  '413': foreignerRegistrationPolicy,
+  '414': nationalityFactCertificatePolicy,
+  '415': drivingRecordCertificatePolicy,
+  '416': criminalRecordCheckPolicy,
+  '417': healthInsurancePaymentCertificatePolicy,
+  '418': residentIdCardNewIssuancePolicy,
+  '419': reserveForcesTrainingPostponementPolicy,
+  '420': reserveForcesTrainingDeferralPolicy,
+  '421': missingPersonReportReceiptPolicy,
+  '422': vehicleTuningApprovalPolicy,
+  '423': localTaxPaymentConfirmationPolicy,
+  '424': gedExamApplicationPolicy,
+  '425': overseasEmigrationReportPolicy,
+  '426': overseasResidenceReportPolicy,
+  '427': visaIssuanceConfirmationPolicy,
+  '428': constructionEngineerCareerReportPolicy,
+  '429': realEstateAgencyRegistrationPolicy,
+  '430': realEstateAgencyClosureReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -935,6 +1135,106 @@ export const PoliciesBySlug: Record<string, any> = {
   'industrial-accident-medical-benefit': industrialAccidentMedicalBenefitPolicy,
   'national-tax-objection': nationalTaxObjectionPolicy,
   'property-tax-installment': propertyTaxInstallmentPolicy,
+  'foreigner-stay-extension': foreignerStayExtensionPolicy,
+  'foreigner-registration-fact-certificate': foreignerRegistrationFactCertificatePolicy,
+  'farmland-ledger-certificate': farmlandLedgerCertificatePolicy,
+  'foreigner-reentry-permit': foreignerReentryPermitPolicy,
+  'resident-list-confirmation-certificate': residentListConfirmationCertificatePolicy,
+  'national-pension-survivor-benefit': nationalPensionSurvivorBenefitPolicy,
+  'health-insurance-dependent-registration': healthInsuranceDependentRegistrationPolicy,
+  'farm-business-entity-certificate': farmBusinessEntityCertificatePolicy,
+  'industrial-accident-survivor-benefit': industrialAccidentSurvivorBenefitPolicy,
+  'industrial-accident-disability-benefit': industrialAccidentDisabilityBenefitPolicy,
+  'housing-lease-report': housingLeaseReportPolicy,
+  'commercial-lease-fixed-date': commercialLeaseFixedDatePolicy,
+  'early-reemployment-allowance': earlyReemploymentAllowancePolicy,
+  'wide-area-job-search-allowance': wideAreaJobSearchAllowancePolicy,
+  'relocation-expense-claim': relocationExpenseClaimPolicy,
+  'national-pension-divided-benefit': nationalPensionDividedBenefitPolicy,
+  'national-pension-refund-repayment': nationalPensionRefundRepaymentPolicy,
+  'vehicle-cancellation-registration': vehicleCancellationRegistrationPolicy,
+  'vehicle-interregional-change-registration': vehicleInterregionalChangeRegistrationPolicy,
+  'vehicle-mortgage-registration': vehicleMortgageRegistrationPolicy,
+  'vehicle-license-plate-reissue': vehicleLicensePlateReissuePolicy,
+  'vehicle-temporary-operation-permit': vehicleTemporaryOperationPermitPolicy,
+  'vehicle-new-registration': vehicleNewRegistrationPolicy,
+  'credit-bank-degree-certificate': creditBankDegreeCertificatePolicy,
+  'ged-certificate-issuance': gedCertificateIssuancePolicy,
+  'national-technical-qualification-issuance': nationalTechnicalQualificationIssuancePolicy,
+  'international-drivers-license': internationalDriversLicensePolicy,
+  'national-pension-review-request': nationalPensionReviewRequestPolicy,
+  'business-closure-certificate': businessClosureCertificatePolicy,
+  'business-registration-amendment': businessRegistrationAmendmentPolicy,
+  'vehicle-inspection-extension': vehicleInspectionExtensionPolicy,
+  'seal-registration': sealRegistrationPolicy,
+  'resident-id-card-reissue': residentIdCardReissuePolicy,
+  'health-insurance-medical-expense-claim': healthInsuranceMedicalExpenseClaimPolicy,
+  'vaccination-certificate': vaccinationCertificatePolicy,
+  'missing-child-fingerprint-registration': missingChildFingerprintRegistrationPolicy,
+  'veteran-family-registration': veteranFamilyRegistrationPolicy,
+  'veteran-registration-card-issuance': veteranRegistrationCardIssuancePolicy,
+  'veteran-disability-grade-review': veteranDisabilityGradeReviewPolicy,
+  'military-service-postponement': militaryServicePostponementPolicy,
+  'military-overseas-travel-permit': militaryOverseasTravelPermitPolicy,
+  'registered-domicile-change': registeredDomicileChangePolicy,
+  'national-tax-payment-deadline-extension': nationalTaxPaymentDeadlineExtensionPolicy,
+  'local-tax-collection-deferral': localTaxCollectionDeferralPolicy,
+  'ltci-medical-aid-facility-application': ltciMedicalAidFacilityApplicationPolicy,
+  'disability-degree-adjustment': disabilityDegreeAdjustmentPolicy,
+  'disability-card-reissue': disabilityCardReissuePolicy,
+  'social-security-benefit-application': socialSecurityBenefitApplicationPolicy,
+  'foster-care-confirmation-certificate': fosterCareConfirmationCertificatePolicy,
+  'adoption-report': adoptionReportPolicy,
+  'adoption-dissolution-report': adoptionDissolutionReportPolicy,
+  'family-register-correction': familyRegisterCorrectionPolicy,
+  'corporate-registry-certificate': corporateRegistryCertificatePolicy,
+  'land-transaction-permit': landTransactionPermitPolicy,
+  'farmland-acquisition-certificate': farmlandAcquisitionCertificatePolicy,
+  'ultralight-aircraft-registration': ultralightAircraftRegistrationPolicy,
+  'national-pension-prepayment': nationalPensionPrepaymentPolicy,
+  'employment-insurance-certificate-issuance': employmentInsuranceCertificateIssuancePolicy,
+  'industrial-accident-temporary-disability-benefit': industrialAccidentTemporaryDisabilityBenefitPolicy,
+  'industrial-accident-survivor-pension-change': industrialAccidentSurvivorPensionChangePolicy,
+  'industrial-accident-return-to-work-subsidy': industrialAccidentReturnToWorkSubsidyPolicy,
+  'employment-insurance-worker-certificate': employmentInsuranceWorkerCertificatePolicy,
+  'employment-insurance-review-request': employmentInsuranceReviewRequestPolicy,
+  'industrial-accident-re-examination-request': industrialAccidentReExaminationRequestPolicy,
+  'national-pension-disability-benefit': nationalPensionDisabilityBenefitPolicy,
+  'veteran-livelihood-support': veteranLivelihoodSupportPolicy,
+  'agent-orange-patient-registration': agentOrangePatientRegistrationPolicy,
+  'special-mission-veteran-registration': specialMissionVeteranRegistrationPolicy,
+  'veteran-status-change-report': veteranStatusChangeReportPolicy,
+  'real-estate-registration-number-certificate': realEstateRegistrationNumberCertificatePolicy,
+  'health-insurance-installment-payment': healthInsuranceInstallmentPaymentPolicy,
+  'health-insurance-qualification-loss-report': healthInsuranceQualificationLossReportPolicy,
+  'social-security-agreement-pension-certificate': socialSecurityAgreementPensionCertificatePolicy,
+  'individual-land-price-objection': individualLandPriceObjectionPolicy,
+  'standard-land-price-objection': standardLandPriceObjectionPolicy,
+  'individual-house-price-confirmation': individualHousePriceConfirmationPolicy,
+  'apartment-price-confirmation': apartmentPriceConfirmationPolicy,
+  'passport-loss-report': passportLossReportPolicy,
+  'passport-fact-certificate': passportFactCertificatePolicy,
+  'passport-entry-change': passportEntryChangePolicy,
+  'overseas-korean-registration': overseasKoreanRegistrationPolicy,
+  'domestic-residence-report': domesticResidenceReportPolicy,
+  'foreigner-registration': foreignerRegistrationPolicy,
+  'nationality-fact-certificate': nationalityFactCertificatePolicy,
+  'driving-record-certificate': drivingRecordCertificatePolicy,
+  'criminal-record-check': criminalRecordCheckPolicy,
+  'health-insurance-payment-certificate': healthInsurancePaymentCertificatePolicy,
+  'resident-id-card-new-issuance': residentIdCardNewIssuancePolicy,
+  'reserve-forces-training-postponement': reserveForcesTrainingPostponementPolicy,
+  'reserve-forces-training-deferral': reserveForcesTrainingDeferralPolicy,
+  'missing-person-report-receipt': missingPersonReportReceiptPolicy,
+  'vehicle-tuning-approval': vehicleTuningApprovalPolicy,
+  'local-tax-payment-confirmation': localTaxPaymentConfirmationPolicy,
+  'ged-exam-application': gedExamApplicationPolicy,
+  'overseas-emigration-report': overseasEmigrationReportPolicy,
+  'overseas-residence-report': overseasResidenceReportPolicy,
+  'visa-issuance-confirmation': visaIssuanceConfirmationPolicy,
+  'construction-engineer-career-report': constructionEngineerCareerReportPolicy,
+  'real-estate-agency-registration': realEstateAgencyRegistrationPolicy,
+  'real-estate-agency-closure-report': realEstateAgencyClosureReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1298,6 +1598,106 @@ export const SpokesById: Record<string, any[]> = {
   '328': industrialAccidentMedicalBenefitSpokes,
   '329': nationalTaxObjectionSpokes,
   '330': propertyTaxInstallmentSpokes,
+  '331': foreignerStayExtensionSpokes,
+  '332': foreignerRegistrationFactCertificateSpokes,
+  '333': farmlandLedgerCertificateSpokes,
+  '334': foreignerReentryPermitSpokes,
+  '335': residentListConfirmationCertificateSpokes,
+  '336': nationalPensionSurvivorBenefitSpokes,
+  '337': healthInsuranceDependentRegistrationSpokes,
+  '338': farmBusinessEntityCertificateSpokes,
+  '339': industrialAccidentSurvivorBenefitSpokes,
+  '340': industrialAccidentDisabilityBenefitSpokes,
+  '341': housingLeaseReportSpokes,
+  '342': commercialLeaseFixedDateSpokes,
+  '343': earlyReemploymentAllowanceSpokes,
+  '344': wideAreaJobSearchAllowanceSpokes,
+  '345': relocationExpenseClaimSpokes,
+  '346': nationalPensionDividedBenefitSpokes,
+  '347': nationalPensionRefundRepaymentSpokes,
+  '348': vehicleCancellationRegistrationSpokes,
+  '349': vehicleInterregionalChangeRegistrationSpokes,
+  '350': vehicleMortgageRegistrationSpokes,
+  '351': vehicleLicensePlateReissueSpokes,
+  '352': vehicleTemporaryOperationPermitSpokes,
+  '353': vehicleNewRegistrationSpokes,
+  '354': creditBankDegreeCertificateSpokes,
+  '355': gedCertificateIssuanceSpokes,
+  '356': nationalTechnicalQualificationIssuanceSpokes,
+  '357': internationalDriversLicenseSpokes,
+  '358': nationalPensionReviewRequestSpokes,
+  '359': businessClosureCertificateSpokes,
+  '360': businessRegistrationAmendmentSpokes,
+  '361': vehicleInspectionExtensionSpokes,
+  '362': sealRegistrationSpokes,
+  '363': residentIdCardReissueSpokes,
+  '364': healthInsuranceMedicalExpenseClaimSpokes,
+  '365': vaccinationCertificateSpokes,
+  '366': missingChildFingerprintRegistrationSpokes,
+  '367': veteranFamilyRegistrationSpokes,
+  '368': veteranRegistrationCardIssuanceSpokes,
+  '369': veteranDisabilityGradeReviewSpokes,
+  '370': militaryServicePostponementSpokes,
+  '371': militaryOverseasTravelPermitSpokes,
+  '372': registeredDomicileChangeSpokes,
+  '373': nationalTaxPaymentDeadlineExtensionSpokes,
+  '374': localTaxCollectionDeferralSpokes,
+  '375': ltciMedicalAidFacilityApplicationSpokes,
+  '376': disabilityDegreeAdjustmentSpokes,
+  '377': disabilityCardReissueSpokes,
+  '378': socialSecurityBenefitApplicationSpokes,
+  '379': fosterCareConfirmationCertificateSpokes,
+  '380': adoptionReportSpokes,
+  '381': adoptionDissolutionReportSpokes,
+  '382': familyRegisterCorrectionSpokes,
+  '383': corporateRegistryCertificateSpokes,
+  '384': landTransactionPermitSpokes,
+  '385': farmlandAcquisitionCertificateSpokes,
+  '386': ultralightAircraftRegistrationSpokes,
+  '387': nationalPensionPrepaymentSpokes,
+  '388': employmentInsuranceCertificateIssuanceSpokes,
+  '389': industrialAccidentTemporaryDisabilityBenefitSpokes,
+  '390': industrialAccidentSurvivorPensionChangeSpokes,
+  '391': industrialAccidentReturnToWorkSubsidySpokes,
+  '392': employmentInsuranceWorkerCertificateSpokes,
+  '393': employmentInsuranceReviewRequestSpokes,
+  '394': industrialAccidentReExaminationRequestSpokes,
+  '395': nationalPensionDisabilityBenefitSpokes,
+  '396': veteranLivelihoodSupportSpokes,
+  '397': agentOrangePatientRegistrationSpokes,
+  '398': specialMissionVeteranRegistrationSpokes,
+  '399': veteranStatusChangeReportSpokes,
+  '400': realEstateRegistrationNumberCertificateSpokes,
+  '401': healthInsuranceInstallmentPaymentSpokes,
+  '402': healthInsuranceQualificationLossReportSpokes,
+  '403': socialSecurityAgreementPensionCertificateSpokes,
+  '404': individualLandPriceObjectionSpokes,
+  '405': standardLandPriceObjectionSpokes,
+  '406': individualHousePriceConfirmationSpokes,
+  '407': apartmentPriceConfirmationSpokes,
+  '408': passportLossReportSpokes,
+  '409': passportFactCertificateSpokes,
+  '410': passportEntryChangeSpokes,
+  '411': overseasKoreanRegistrationSpokes,
+  '412': domesticResidenceReportSpokes,
+  '413': foreignerRegistrationSpokes,
+  '414': nationalityFactCertificateSpokes,
+  '415': drivingRecordCertificateSpokes,
+  '416': criminalRecordCheckSpokes,
+  '417': healthInsurancePaymentCertificateSpokes,
+  '418': residentIdCardNewIssuanceSpokes,
+  '419': reserveForcesTrainingPostponementSpokes,
+  '420': reserveForcesTrainingDeferralSpokes,
+  '421': missingPersonReportReceiptSpokes,
+  '422': vehicleTuningApprovalSpokes,
+  '423': localTaxPaymentConfirmationSpokes,
+  '424': gedExamApplicationSpokes,
+  '425': overseasEmigrationReportSpokes,
+  '426': overseasResidenceReportSpokes,
+  '427': visaIssuanceConfirmationSpokes,
+  '428': constructionEngineerCareerReportSpokes,
+  '429': realEstateAgencyRegistrationSpokes,
+  '430': realEstateAgencyClosureReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -1617,6 +2017,106 @@ export const SpokesBySlug: Record<string, any[]> = {
   'industrial-accident-medical-benefit': industrialAccidentMedicalBenefitSpokes,
   'national-tax-objection': nationalTaxObjectionSpokes,
   'property-tax-installment': propertyTaxInstallmentSpokes,
+  'foreigner-stay-extension': foreignerStayExtensionSpokes,
+  'foreigner-registration-fact-certificate': foreignerRegistrationFactCertificateSpokes,
+  'farmland-ledger-certificate': farmlandLedgerCertificateSpokes,
+  'foreigner-reentry-permit': foreignerReentryPermitSpokes,
+  'resident-list-confirmation-certificate': residentListConfirmationCertificateSpokes,
+  'national-pension-survivor-benefit': nationalPensionSurvivorBenefitSpokes,
+  'health-insurance-dependent-registration': healthInsuranceDependentRegistrationSpokes,
+  'farm-business-entity-certificate': farmBusinessEntityCertificateSpokes,
+  'industrial-accident-survivor-benefit': industrialAccidentSurvivorBenefitSpokes,
+  'industrial-accident-disability-benefit': industrialAccidentDisabilityBenefitSpokes,
+  'housing-lease-report': housingLeaseReportSpokes,
+  'commercial-lease-fixed-date': commercialLeaseFixedDateSpokes,
+  'early-reemployment-allowance': earlyReemploymentAllowanceSpokes,
+  'wide-area-job-search-allowance': wideAreaJobSearchAllowanceSpokes,
+  'relocation-expense-claim': relocationExpenseClaimSpokes,
+  'national-pension-divided-benefit': nationalPensionDividedBenefitSpokes,
+  'national-pension-refund-repayment': nationalPensionRefundRepaymentSpokes,
+  'vehicle-cancellation-registration': vehicleCancellationRegistrationSpokes,
+  'vehicle-interregional-change-registration': vehicleInterregionalChangeRegistrationSpokes,
+  'vehicle-mortgage-registration': vehicleMortgageRegistrationSpokes,
+  'vehicle-license-plate-reissue': vehicleLicensePlateReissueSpokes,
+  'vehicle-temporary-operation-permit': vehicleTemporaryOperationPermitSpokes,
+  'vehicle-new-registration': vehicleNewRegistrationSpokes,
+  'credit-bank-degree-certificate': creditBankDegreeCertificateSpokes,
+  'ged-certificate-issuance': gedCertificateIssuanceSpokes,
+  'national-technical-qualification-issuance': nationalTechnicalQualificationIssuanceSpokes,
+  'international-drivers-license': internationalDriversLicenseSpokes,
+  'national-pension-review-request': nationalPensionReviewRequestSpokes,
+  'business-closure-certificate': businessClosureCertificateSpokes,
+  'business-registration-amendment': businessRegistrationAmendmentSpokes,
+  'vehicle-inspection-extension': vehicleInspectionExtensionSpokes,
+  'seal-registration': sealRegistrationSpokes,
+  'resident-id-card-reissue': residentIdCardReissueSpokes,
+  'health-insurance-medical-expense-claim': healthInsuranceMedicalExpenseClaimSpokes,
+  'vaccination-certificate': vaccinationCertificateSpokes,
+  'missing-child-fingerprint-registration': missingChildFingerprintRegistrationSpokes,
+  'veteran-family-registration': veteranFamilyRegistrationSpokes,
+  'veteran-registration-card-issuance': veteranRegistrationCardIssuanceSpokes,
+  'veteran-disability-grade-review': veteranDisabilityGradeReviewSpokes,
+  'military-service-postponement': militaryServicePostponementSpokes,
+  'military-overseas-travel-permit': militaryOverseasTravelPermitSpokes,
+  'registered-domicile-change': registeredDomicileChangeSpokes,
+  'national-tax-payment-deadline-extension': nationalTaxPaymentDeadlineExtensionSpokes,
+  'local-tax-collection-deferral': localTaxCollectionDeferralSpokes,
+  'ltci-medical-aid-facility-application': ltciMedicalAidFacilityApplicationSpokes,
+  'disability-degree-adjustment': disabilityDegreeAdjustmentSpokes,
+  'disability-card-reissue': disabilityCardReissueSpokes,
+  'social-security-benefit-application': socialSecurityBenefitApplicationSpokes,
+  'foster-care-confirmation-certificate': fosterCareConfirmationCertificateSpokes,
+  'adoption-report': adoptionReportSpokes,
+  'adoption-dissolution-report': adoptionDissolutionReportSpokes,
+  'family-register-correction': familyRegisterCorrectionSpokes,
+  'corporate-registry-certificate': corporateRegistryCertificateSpokes,
+  'land-transaction-permit': landTransactionPermitSpokes,
+  'farmland-acquisition-certificate': farmlandAcquisitionCertificateSpokes,
+  'ultralight-aircraft-registration': ultralightAircraftRegistrationSpokes,
+  'national-pension-prepayment': nationalPensionPrepaymentSpokes,
+  'employment-insurance-certificate-issuance': employmentInsuranceCertificateIssuanceSpokes,
+  'industrial-accident-temporary-disability-benefit': industrialAccidentTemporaryDisabilityBenefitSpokes,
+  'industrial-accident-survivor-pension-change': industrialAccidentSurvivorPensionChangeSpokes,
+  'industrial-accident-return-to-work-subsidy': industrialAccidentReturnToWorkSubsidySpokes,
+  'employment-insurance-worker-certificate': employmentInsuranceWorkerCertificateSpokes,
+  'employment-insurance-review-request': employmentInsuranceReviewRequestSpokes,
+  'industrial-accident-re-examination-request': industrialAccidentReExaminationRequestSpokes,
+  'national-pension-disability-benefit': nationalPensionDisabilityBenefitSpokes,
+  'veteran-livelihood-support': veteranLivelihoodSupportSpokes,
+  'agent-orange-patient-registration': agentOrangePatientRegistrationSpokes,
+  'special-mission-veteran-registration': specialMissionVeteranRegistrationSpokes,
+  'veteran-status-change-report': veteranStatusChangeReportSpokes,
+  'real-estate-registration-number-certificate': realEstateRegistrationNumberCertificateSpokes,
+  'health-insurance-installment-payment': healthInsuranceInstallmentPaymentSpokes,
+  'health-insurance-qualification-loss-report': healthInsuranceQualificationLossReportSpokes,
+  'social-security-agreement-pension-certificate': socialSecurityAgreementPensionCertificateSpokes,
+  'individual-land-price-objection': individualLandPriceObjectionSpokes,
+  'standard-land-price-objection': standardLandPriceObjectionSpokes,
+  'individual-house-price-confirmation': individualHousePriceConfirmationSpokes,
+  'apartment-price-confirmation': apartmentPriceConfirmationSpokes,
+  'passport-loss-report': passportLossReportSpokes,
+  'passport-fact-certificate': passportFactCertificateSpokes,
+  'passport-entry-change': passportEntryChangeSpokes,
+  'overseas-korean-registration': overseasKoreanRegistrationSpokes,
+  'domestic-residence-report': domesticResidenceReportSpokes,
+  'foreigner-registration': foreignerRegistrationSpokes,
+  'nationality-fact-certificate': nationalityFactCertificateSpokes,
+  'driving-record-certificate': drivingRecordCertificateSpokes,
+  'criminal-record-check': criminalRecordCheckSpokes,
+  'health-insurance-payment-certificate': healthInsurancePaymentCertificateSpokes,
+  'resident-id-card-new-issuance': residentIdCardNewIssuanceSpokes,
+  'reserve-forces-training-postponement': reserveForcesTrainingPostponementSpokes,
+  'reserve-forces-training-deferral': reserveForcesTrainingDeferralSpokes,
+  'missing-person-report-receipt': missingPersonReportReceiptSpokes,
+  'vehicle-tuning-approval': vehicleTuningApprovalSpokes,
+  'local-tax-payment-confirmation': localTaxPaymentConfirmationSpokes,
+  'ged-exam-application': gedExamApplicationSpokes,
+  'overseas-emigration-report': overseasEmigrationReportSpokes,
+  'overseas-residence-report': overseasResidenceReportSpokes,
+  'visa-issuance-confirmation': visaIssuanceConfirmationSpokes,
+  'construction-engineer-career-report': constructionEngineerCareerReportSpokes,
+  'real-estate-agency-registration': realEstateAgencyRegistrationSpokes,
+  'real-estate-agency-closure-report': realEstateAgencyClosureReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
