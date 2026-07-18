@@ -595,6 +595,9 @@ import { nursingAssistantCertificateIssuancePolicy, nursingAssistantCertificateI
 import { buildingRegistrationCertificatePolicy, buildingRegistrationCertificateSpokes } from './building-registration-certificate';
 import { internationalVaccinationCertificateReissuePolicy, internationalVaccinationCertificateReissueSpokes } from './international-vaccination-certificate-reissue';
 import { diagnosticRadiationDeviceInstallationReportPolicy, diagnosticRadiationDeviceInstallationReportSpokes } from './diagnostic-radiation-device-installation-report';
+import { hazardousMaterialTankSafetyInspectionPolicy, hazardousMaterialTankSafetyInspectionSpokes } from './hazardous-material-tank-safety-inspection';
+import { constructionMachineryMaintenanceRegistrationPolicy, constructionMachineryMaintenanceRegistrationSpokes } from './construction-machinery-maintenance-registration';
+import { tutoringCenterEstablishmentReportPolicy, tutoringCenterEstablishmentReportSpokes } from './tutoring-center-establishment-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1070,6 +1073,9 @@ export const PoliciesById: Record<string, any> = {
   '555': buildingRegistrationCertificatePolicy,
   '556': internationalVaccinationCertificateReissuePolicy,
   '557': diagnosticRadiationDeviceInstallationReportPolicy,
+  '558': hazardousMaterialTankSafetyInspectionPolicy,
+  '559': constructionMachineryMaintenanceRegistrationPolicy,
+  '560': tutoringCenterEstablishmentReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1616,6 +1622,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'building-registration-certificate': buildingRegistrationCertificatePolicy,
   'international-vaccination-certificate-reissue': internationalVaccinationCertificateReissuePolicy,
   'diagnostic-radiation-device-installation-report': diagnosticRadiationDeviceInstallationReportPolicy,
+  'hazardous-material-tank-safety-inspection': hazardousMaterialTankSafetyInspectionPolicy,
+  'construction-machinery-maintenance-registration': constructionMachineryMaintenanceRegistrationPolicy,
+  'tutoring-center-establishment-report': tutoringCenterEstablishmentReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2206,6 +2215,9 @@ export const SpokesById: Record<string, any[]> = {
   '555': buildingRegistrationCertificateSpokes,
   '556': internationalVaccinationCertificateReissueSpokes,
   '557': diagnosticRadiationDeviceInstallationReportSpokes,
+  '558': hazardousMaterialTankSafetyInspectionSpokes,
+  '559': constructionMachineryMaintenanceRegistrationSpokes,
+  '560': tutoringCenterEstablishmentReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2752,6 +2764,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'building-registration-certificate': buildingRegistrationCertificateSpokes,
   'international-vaccination-certificate-reissue': internationalVaccinationCertificateReissueSpokes,
   'diagnostic-radiation-device-installation-report': diagnosticRadiationDeviceInstallationReportSpokes,
+  'hazardous-material-tank-safety-inspection': hazardousMaterialTankSafetyInspectionSpokes,
+  'construction-machinery-maintenance-registration': constructionMachineryMaintenanceRegistrationSpokes,
+  'tutoring-center-establishment-report': tutoringCenterEstablishmentReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
