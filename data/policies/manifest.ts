@@ -591,6 +591,10 @@ import { foodManufacturingRegistrationPolicy, foodManufacturingRegistrationSpoke
 import { livestockProductBusinessReportPolicy, livestockProductBusinessReportSpokes } from './livestock-product-business-report';
 import { barberBeauticianLicenseApplicationPolicy, barberBeauticianLicenseApplicationSpokes } from './barber-beautician-license-application';
 import { sanitarianLicenseIssuancePolicy, sanitarianLicenseIssuanceSpokes } from './sanitarian-license-issuance';
+import { nursingAssistantCertificateIssuancePolicy, nursingAssistantCertificateIssuanceSpokes } from './nursing-assistant-certificate-issuance';
+import { buildingRegistrationCertificatePolicy, buildingRegistrationCertificateSpokes } from './building-registration-certificate';
+import { internationalVaccinationCertificateReissuePolicy, internationalVaccinationCertificateReissueSpokes } from './international-vaccination-certificate-reissue';
+import { diagnosticRadiationDeviceInstallationReportPolicy, diagnosticRadiationDeviceInstallationReportSpokes } from './diagnostic-radiation-device-installation-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1062,6 +1066,10 @@ export const PoliciesById: Record<string, any> = {
   '551': livestockProductBusinessReportPolicy,
   '552': barberBeauticianLicenseApplicationPolicy,
   '553': sanitarianLicenseIssuancePolicy,
+  '554': nursingAssistantCertificateIssuancePolicy,
+  '555': buildingRegistrationCertificatePolicy,
+  '556': internationalVaccinationCertificateReissuePolicy,
+  '557': diagnosticRadiationDeviceInstallationReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1604,6 +1612,10 @@ export const PoliciesBySlug: Record<string, any> = {
   'livestock-product-business-report': livestockProductBusinessReportPolicy,
   'barber-beautician-license-application': barberBeauticianLicenseApplicationPolicy,
   'sanitarian-license-issuance': sanitarianLicenseIssuancePolicy,
+  'nursing-assistant-certificate-issuance': nursingAssistantCertificateIssuancePolicy,
+  'building-registration-certificate': buildingRegistrationCertificatePolicy,
+  'international-vaccination-certificate-reissue': internationalVaccinationCertificateReissuePolicy,
+  'diagnostic-radiation-device-installation-report': diagnosticRadiationDeviceInstallationReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2190,6 +2202,10 @@ export const SpokesById: Record<string, any[]> = {
   '551': livestockProductBusinessReportSpokes,
   '552': barberBeauticianLicenseApplicationSpokes,
   '553': sanitarianLicenseIssuanceSpokes,
+  '554': nursingAssistantCertificateIssuanceSpokes,
+  '555': buildingRegistrationCertificateSpokes,
+  '556': internationalVaccinationCertificateReissueSpokes,
+  '557': diagnosticRadiationDeviceInstallationReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2732,6 +2748,10 @@ export const SpokesBySlug: Record<string, any[]> = {
   'livestock-product-business-report': livestockProductBusinessReportSpokes,
   'barber-beautician-license-application': barberBeauticianLicenseApplicationSpokes,
   'sanitarian-license-issuance': sanitarianLicenseIssuanceSpokes,
+  'nursing-assistant-certificate-issuance': nursingAssistantCertificateIssuanceSpokes,
+  'building-registration-certificate': buildingRegistrationCertificateSpokes,
+  'international-vaccination-certificate-reissue': internationalVaccinationCertificateReissueSpokes,
+  'diagnostic-radiation-device-installation-report': diagnosticRadiationDeviceInstallationReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
