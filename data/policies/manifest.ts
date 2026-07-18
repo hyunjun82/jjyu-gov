@@ -611,6 +611,13 @@ import { pcCafeBusinessRegistrationPolicy, pcCafeBusinessRegistrationSpokes } fr
 import { marriageBrokerageCertificateReissuePolicy, marriageBrokerageCertificateReissueSpokes } from './marriage-brokerage-certificate-reissue';
 import { exportCertificateOfOriginIssuancePolicy, exportCertificateOfOriginIssuanceSpokes } from './export-certificate-of-origin-issuance';
 import { valueAddedTelecomBusinessReportPolicy, valueAddedTelecomBusinessReportSpokes } from './value-added-telecom-business-report';
+import { laborUnionEstablishmentReportPolicy, laborUnionEstablishmentReportSpokes } from './labor-union-establishment-report';
+import { childSchoolBusReportPolicy, childSchoolBusReportSpokes } from './child-school-bus-report';
+import { copyrightRegistrationPolicy, copyrightRegistrationSpokes } from './copyright-registration';
+import { industrialPropertyApplicationPolicy, industrialPropertyApplicationSpokes } from './industrial-property-application';
+import { outdoorAssemblyWithdrawalReportPolicy, outdoorAssemblyWithdrawalReportSpokes } from './outdoor-assembly-withdrawal-report';
+import { noiseVibrationFacilityPermitPolicy, noiseVibrationFacilityPermitSpokes } from './noise-vibration-facility-permit';
+import { fertilizerProductionBusinessRegistrationPolicy, fertilizerProductionBusinessRegistrationSpokes } from './fertilizer-production-business-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1102,6 +1109,13 @@ export const PoliciesById: Record<string, any> = {
   '571': marriageBrokerageCertificateReissuePolicy,
   '572': exportCertificateOfOriginIssuancePolicy,
   '573': valueAddedTelecomBusinessReportPolicy,
+  '574': laborUnionEstablishmentReportPolicy,
+  '575': childSchoolBusReportPolicy,
+  '576': copyrightRegistrationPolicy,
+  '577': industrialPropertyApplicationPolicy,
+  '578': outdoorAssemblyWithdrawalReportPolicy,
+  '579': noiseVibrationFacilityPermitPolicy,
+  '580': fertilizerProductionBusinessRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1664,6 +1678,13 @@ export const PoliciesBySlug: Record<string, any> = {
   'marriage-brokerage-certificate-reissue': marriageBrokerageCertificateReissuePolicy,
   'export-certificate-of-origin-issuance': exportCertificateOfOriginIssuancePolicy,
   'value-added-telecom-business-report': valueAddedTelecomBusinessReportPolicy,
+  'labor-union-establishment-report': laborUnionEstablishmentReportPolicy,
+  'child-school-bus-report': childSchoolBusReportPolicy,
+  'copyright-registration': copyrightRegistrationPolicy,
+  'industrial-property-application': industrialPropertyApplicationPolicy,
+  'outdoor-assembly-withdrawal-report': outdoorAssemblyWithdrawalReportPolicy,
+  'noise-vibration-facility-permit': noiseVibrationFacilityPermitPolicy,
+  'fertilizer-production-business-registration': fertilizerProductionBusinessRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2270,6 +2291,13 @@ export const SpokesById: Record<string, any[]> = {
   '571': marriageBrokerageCertificateReissueSpokes,
   '572': exportCertificateOfOriginIssuanceSpokes,
   '573': valueAddedTelecomBusinessReportSpokes,
+  '574': laborUnionEstablishmentReportSpokes,
+  '575': childSchoolBusReportSpokes,
+  '576': copyrightRegistrationSpokes,
+  '577': industrialPropertyApplicationSpokes,
+  '578': outdoorAssemblyWithdrawalReportSpokes,
+  '579': noiseVibrationFacilityPermitSpokes,
+  '580': fertilizerProductionBusinessRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2832,6 +2860,13 @@ export const SpokesBySlug: Record<string, any[]> = {
   'marriage-brokerage-certificate-reissue': marriageBrokerageCertificateReissueSpokes,
   'export-certificate-of-origin-issuance': exportCertificateOfOriginIssuanceSpokes,
   'value-added-telecom-business-report': valueAddedTelecomBusinessReportSpokes,
+  'labor-union-establishment-report': laborUnionEstablishmentReportSpokes,
+  'child-school-bus-report': childSchoolBusReportSpokes,
+  'copyright-registration': copyrightRegistrationSpokes,
+  'industrial-property-application': industrialPropertyApplicationSpokes,
+  'outdoor-assembly-withdrawal-report': outdoorAssemblyWithdrawalReportSpokes,
+  'noise-vibration-facility-permit': noiseVibrationFacilityPermitSpokes,
+  'fertilizer-production-business-registration': fertilizerProductionBusinessRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
