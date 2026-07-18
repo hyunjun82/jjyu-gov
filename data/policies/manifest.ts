@@ -588,6 +588,9 @@ import { healthFunctionalFoodBusinessReportPolicy, healthFunctionalFoodBusinessR
 import { hygieneProductManufacturingReportPolicy, hygieneProductManufacturingReportSpokes } from './hygiene-product-manufacturing-report';
 import { groupFoodServiceFacilityReportPolicy, groupFoodServiceFacilityReportSpokes } from './group-food-service-facility-report';
 import { foodManufacturingRegistrationPolicy, foodManufacturingRegistrationSpokes } from './food-manufacturing-registration';
+import { livestockProductBusinessReportPolicy, livestockProductBusinessReportSpokes } from './livestock-product-business-report';
+import { barberBeauticianLicenseApplicationPolicy, barberBeauticianLicenseApplicationSpokes } from './barber-beautician-license-application';
+import { sanitarianLicenseIssuancePolicy, sanitarianLicenseIssuanceSpokes } from './sanitarian-license-issuance';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1056,6 +1059,9 @@ export const PoliciesById: Record<string, any> = {
   '548': hygieneProductManufacturingReportPolicy,
   '549': groupFoodServiceFacilityReportPolicy,
   '550': foodManufacturingRegistrationPolicy,
+  '551': livestockProductBusinessReportPolicy,
+  '552': barberBeauticianLicenseApplicationPolicy,
+  '553': sanitarianLicenseIssuancePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1595,6 +1601,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'hygiene-product-manufacturing-report': hygieneProductManufacturingReportPolicy,
   'group-food-service-facility-report': groupFoodServiceFacilityReportPolicy,
   'food-manufacturing-registration': foodManufacturingRegistrationPolicy,
+  'livestock-product-business-report': livestockProductBusinessReportPolicy,
+  'barber-beautician-license-application': barberBeauticianLicenseApplicationPolicy,
+  'sanitarian-license-issuance': sanitarianLicenseIssuancePolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2178,6 +2187,9 @@ export const SpokesById: Record<string, any[]> = {
   '548': hygieneProductManufacturingReportSpokes,
   '549': groupFoodServiceFacilityReportSpokes,
   '550': foodManufacturingRegistrationSpokes,
+  '551': livestockProductBusinessReportSpokes,
+  '552': barberBeauticianLicenseApplicationSpokes,
+  '553': sanitarianLicenseIssuanceSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2717,6 +2729,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'hygiene-product-manufacturing-report': hygieneProductManufacturingReportSpokes,
   'group-food-service-facility-report': groupFoodServiceFacilityReportSpokes,
   'food-manufacturing-registration': foodManufacturingRegistrationSpokes,
+  'livestock-product-business-report': livestockProductBusinessReportSpokes,
+  'barber-beautician-license-application': barberBeauticianLicenseApplicationSpokes,
+  'sanitarian-license-issuance': sanitarianLicenseIssuanceSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
