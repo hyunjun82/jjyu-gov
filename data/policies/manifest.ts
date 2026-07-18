@@ -652,6 +652,7 @@ import { hazardPreventionPlanSubmissionPolicy, hazardPreventionPlanSubmissionSpo
 import { tobaccoWholesaleBusinessRegistrationPolicy, tobaccoWholesaleBusinessRegistrationSpokes } from './tobacco-wholesale-business-registration';
 import { forestrySuccessorSelectionPolicy, forestrySuccessorSelectionSpokes } from './forestry-successor-selection';
 import { vehicleChangeRegistrationPolicy, vehicleChangeRegistrationSpokes } from './vehicle-change-registration';
+import { explosivesStorageFacilityPermitPolicy, explosivesStorageFacilityPermitSpokes } from './explosives-storage-facility-permit';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1184,6 +1185,7 @@ export const PoliciesById: Record<string, any> = {
   '612': tobaccoWholesaleBusinessRegistrationPolicy,
   '613': forestrySuccessorSelectionPolicy,
   '614': vehicleChangeRegistrationPolicy,
+  '615': explosivesStorageFacilityPermitPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1787,6 +1789,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'tobacco-wholesale-business-registration': tobaccoWholesaleBusinessRegistrationPolicy,
   'forestry-successor-selection': forestrySuccessorSelectionPolicy,
   'vehicle-change-registration': vehicleChangeRegistrationPolicy,
+  'explosives-storage-facility-permit': explosivesStorageFacilityPermitPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2434,6 +2437,7 @@ export const SpokesById: Record<string, any[]> = {
   '612': tobaccoWholesaleBusinessRegistrationSpokes,
   '613': forestrySuccessorSelectionSpokes,
   '614': vehicleChangeRegistrationSpokes,
+  '615': explosivesStorageFacilityPermitSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3037,6 +3041,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'tobacco-wholesale-business-registration': tobaccoWholesaleBusinessRegistrationSpokes,
   'forestry-successor-selection': forestrySuccessorSelectionSpokes,
   'vehicle-change-registration': vehicleChangeRegistrationSpokes,
+  'explosives-storage-facility-permit': explosivesStorageFacilityPermitSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
