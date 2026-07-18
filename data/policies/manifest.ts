@@ -583,6 +583,11 @@ import { petFuneralBusinessStatusReportPolicy, petFuneralBusinessStatusReportSpo
 import { animalExhibitionBusinessRegistrationPolicy, animalExhibitionBusinessRegistrationSpokes } from './animal-exhibition-business-registration';
 import { petBoardingBusinessRegistrationPolicy, petBoardingBusinessRegistrationSpokes } from './pet-boarding-business-registration';
 import { mobilePetGroomingRegistrationPolicy, mobilePetGroomingRegistrationSpokes } from './mobile-pet-grooming-registration';
+import { animalBreedingBusinessPermitPolicy, animalBreedingBusinessPermitSpokes } from './animal-breeding-business-permit';
+import { healthFunctionalFoodBusinessReportPolicy, healthFunctionalFoodBusinessReportSpokes } from './health-functional-food-business-report';
+import { hygieneProductManufacturingReportPolicy, hygieneProductManufacturingReportSpokes } from './hygiene-product-manufacturing-report';
+import { groupFoodServiceFacilityReportPolicy, groupFoodServiceFacilityReportSpokes } from './group-food-service-facility-report';
+import { foodManufacturingRegistrationPolicy, foodManufacturingRegistrationSpokes } from './food-manufacturing-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1046,6 +1051,11 @@ export const PoliciesById: Record<string, any> = {
   '543': animalExhibitionBusinessRegistrationPolicy,
   '544': petBoardingBusinessRegistrationPolicy,
   '545': mobilePetGroomingRegistrationPolicy,
+  '546': animalBreedingBusinessPermitPolicy,
+  '547': healthFunctionalFoodBusinessReportPolicy,
+  '548': hygieneProductManufacturingReportPolicy,
+  '549': groupFoodServiceFacilityReportPolicy,
+  '550': foodManufacturingRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1580,6 +1590,11 @@ export const PoliciesBySlug: Record<string, any> = {
   'animal-exhibition-business-registration': animalExhibitionBusinessRegistrationPolicy,
   'pet-boarding-business-registration': petBoardingBusinessRegistrationPolicy,
   'mobile-pet-grooming-registration': mobilePetGroomingRegistrationPolicy,
+  'animal-breeding-business-permit': animalBreedingBusinessPermitPolicy,
+  'health-functional-food-business-report': healthFunctionalFoodBusinessReportPolicy,
+  'hygiene-product-manufacturing-report': hygieneProductManufacturingReportPolicy,
+  'group-food-service-facility-report': groupFoodServiceFacilityReportPolicy,
+  'food-manufacturing-registration': foodManufacturingRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2158,6 +2173,11 @@ export const SpokesById: Record<string, any[]> = {
   '543': animalExhibitionBusinessRegistrationSpokes,
   '544': petBoardingBusinessRegistrationSpokes,
   '545': mobilePetGroomingRegistrationSpokes,
+  '546': animalBreedingBusinessPermitSpokes,
+  '547': healthFunctionalFoodBusinessReportSpokes,
+  '548': hygieneProductManufacturingReportSpokes,
+  '549': groupFoodServiceFacilityReportSpokes,
+  '550': foodManufacturingRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2692,6 +2712,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'animal-exhibition-business-registration': animalExhibitionBusinessRegistrationSpokes,
   'pet-boarding-business-registration': petBoardingBusinessRegistrationSpokes,
   'mobile-pet-grooming-registration': mobilePetGroomingRegistrationSpokes,
+  'animal-breeding-business-permit': animalBreedingBusinessPermitSpokes,
+  'health-functional-food-business-report': healthFunctionalFoodBusinessReportSpokes,
+  'hygiene-product-manufacturing-report': hygieneProductManufacturingReportSpokes,
+  'group-food-service-facility-report': groupFoodServiceFacilityReportSpokes,
+  'food-manufacturing-registration': foodManufacturingRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
