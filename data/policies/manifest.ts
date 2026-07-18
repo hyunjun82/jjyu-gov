@@ -598,6 +598,12 @@ import { diagnosticRadiationDeviceInstallationReportPolicy, diagnosticRadiationD
 import { hazardousMaterialTankSafetyInspectionPolicy, hazardousMaterialTankSafetyInspectionSpokes } from './hazardous-material-tank-safety-inspection';
 import { constructionMachineryMaintenanceRegistrationPolicy, constructionMachineryMaintenanceRegistrationSpokes } from './construction-machinery-maintenance-registration';
 import { tutoringCenterEstablishmentReportPolicy, tutoringCenterEstablishmentReportSpokes } from './tutoring-center-establishment-report';
+import { caregiverTrainingInstitutionDesignationPolicy, caregiverTrainingInstitutionDesignationSpokes } from './caregiver-training-institution-designation';
+import { wastewaterConsignmentTreatmentPermitPolicy, wastewaterConsignmentTreatmentPermitSpokes } from './wastewater-consignment-treatment-permit';
+import { tourismBusinessTransferReportPolicy, tourismBusinessTransferReportSpokes } from './tourism-business-transfer-report';
+import { vehicleDesignatedMaintenanceBusinessDesignationPolicy, vehicleDesignatedMaintenanceBusinessDesignationSpokes } from './vehicle-designated-maintenance-business-designation';
+import { forestTreeFellingReportPolicy, forestTreeFellingReportSpokes } from './forest-tree-felling-report';
+import { waterTankInstallationReportPolicy, waterTankInstallationReportSpokes } from './water-tank-installation-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1076,6 +1082,12 @@ export const PoliciesById: Record<string, any> = {
   '558': hazardousMaterialTankSafetyInspectionPolicy,
   '559': constructionMachineryMaintenanceRegistrationPolicy,
   '560': tutoringCenterEstablishmentReportPolicy,
+  '561': caregiverTrainingInstitutionDesignationPolicy,
+  '562': wastewaterConsignmentTreatmentPermitPolicy,
+  '563': tourismBusinessTransferReportPolicy,
+  '564': vehicleDesignatedMaintenanceBusinessDesignationPolicy,
+  '565': forestTreeFellingReportPolicy,
+  '566': waterTankInstallationReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1625,6 +1637,12 @@ export const PoliciesBySlug: Record<string, any> = {
   'hazardous-material-tank-safety-inspection': hazardousMaterialTankSafetyInspectionPolicy,
   'construction-machinery-maintenance-registration': constructionMachineryMaintenanceRegistrationPolicy,
   'tutoring-center-establishment-report': tutoringCenterEstablishmentReportPolicy,
+  'caregiver-training-institution-designation': caregiverTrainingInstitutionDesignationPolicy,
+  'wastewater-consignment-treatment-permit': wastewaterConsignmentTreatmentPermitPolicy,
+  'tourism-business-transfer-report': tourismBusinessTransferReportPolicy,
+  'vehicle-designated-maintenance-business-designation': vehicleDesignatedMaintenanceBusinessDesignationPolicy,
+  'forest-tree-felling-report': forestTreeFellingReportPolicy,
+  'water-tank-installation-report': waterTankInstallationReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2218,6 +2236,12 @@ export const SpokesById: Record<string, any[]> = {
   '558': hazardousMaterialTankSafetyInspectionSpokes,
   '559': constructionMachineryMaintenanceRegistrationSpokes,
   '560': tutoringCenterEstablishmentReportSpokes,
+  '561': caregiverTrainingInstitutionDesignationSpokes,
+  '562': wastewaterConsignmentTreatmentPermitSpokes,
+  '563': tourismBusinessTransferReportSpokes,
+  '564': vehicleDesignatedMaintenanceBusinessDesignationSpokes,
+  '565': forestTreeFellingReportSpokes,
+  '566': waterTankInstallationReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2767,6 +2791,12 @@ export const SpokesBySlug: Record<string, any[]> = {
   'hazardous-material-tank-safety-inspection': hazardousMaterialTankSafetyInspectionSpokes,
   'construction-machinery-maintenance-registration': constructionMachineryMaintenanceRegistrationSpokes,
   'tutoring-center-establishment-report': tutoringCenterEstablishmentReportSpokes,
+  'caregiver-training-institution-designation': caregiverTrainingInstitutionDesignationSpokes,
+  'wastewater-consignment-treatment-permit': wastewaterConsignmentTreatmentPermitSpokes,
+  'tourism-business-transfer-report': tourismBusinessTransferReportSpokes,
+  'vehicle-designated-maintenance-business-designation': vehicleDesignatedMaintenanceBusinessDesignationSpokes,
+  'forest-tree-felling-report': forestTreeFellingReportSpokes,
+  'water-tank-installation-report': waterTankInstallationReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
