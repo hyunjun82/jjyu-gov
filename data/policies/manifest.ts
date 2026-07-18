@@ -631,6 +631,11 @@ import { itCommunicationsConstructionBusinessRegistrationPolicy, itCommunication
 import { liquorSalesLicenseApplicationPolicy, liquorSalesLicenseApplicationSpokes } from './liquor-sales-license-application';
 import { postpartumCareCenterReportPolicy, postpartumCareCenterReportSpokes } from './postpartum-care-center-report';
 import { foreignWorkerEmploymentPermitIssuancePolicy, foreignWorkerEmploymentPermitIssuanceSpokes } from './foreign-worker-employment-permit-issuance';
+import { aviationProfessionalCertificateIssuancePolicy, aviationProfessionalCertificateIssuanceSpokes } from './aviation-professional-certificate-issuance';
+import { portTransportationBusinessRegistrationPolicy, portTransportationBusinessRegistrationSpokes } from './port-transportation-business-registration';
+import { environmentalMeasurementAgencyRegistrationPolicy, environmentalMeasurementAgencyRegistrationSpokes } from './environmental-measurement-agency-registration';
+import { filmVideoRatingClassificationPolicy, filmVideoRatingClassificationSpokes } from './film-video-rating-classification';
+import { specialTelecomBusinessRegistrationPolicy, specialTelecomBusinessRegistrationSpokes } from './special-telecom-business-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1142,6 +1147,11 @@ export const PoliciesById: Record<string, any> = {
   '591': liquorSalesLicenseApplicationPolicy,
   '592': postpartumCareCenterReportPolicy,
   '593': foreignWorkerEmploymentPermitIssuancePolicy,
+  '594': aviationProfessionalCertificateIssuancePolicy,
+  '595': portTransportationBusinessRegistrationPolicy,
+  '596': environmentalMeasurementAgencyRegistrationPolicy,
+  '597': filmVideoRatingClassificationPolicy,
+  '598': specialTelecomBusinessRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1724,6 +1734,11 @@ export const PoliciesBySlug: Record<string, any> = {
   'liquor-sales-license-application': liquorSalesLicenseApplicationPolicy,
   'postpartum-care-center-report': postpartumCareCenterReportPolicy,
   'foreign-worker-employment-permit-issuance': foreignWorkerEmploymentPermitIssuancePolicy,
+  'aviation-professional-certificate-issuance': aviationProfessionalCertificateIssuancePolicy,
+  'port-transportation-business-registration': portTransportationBusinessRegistrationPolicy,
+  'environmental-measurement-agency-registration': environmentalMeasurementAgencyRegistrationPolicy,
+  'film-video-rating-classification': filmVideoRatingClassificationPolicy,
+  'special-telecom-business-registration': specialTelecomBusinessRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2350,6 +2365,11 @@ export const SpokesById: Record<string, any[]> = {
   '591': liquorSalesLicenseApplicationSpokes,
   '592': postpartumCareCenterReportSpokes,
   '593': foreignWorkerEmploymentPermitIssuanceSpokes,
+  '594': aviationProfessionalCertificateIssuanceSpokes,
+  '595': portTransportationBusinessRegistrationSpokes,
+  '596': environmentalMeasurementAgencyRegistrationSpokes,
+  '597': filmVideoRatingClassificationSpokes,
+  '598': specialTelecomBusinessRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2932,6 +2952,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'liquor-sales-license-application': liquorSalesLicenseApplicationSpokes,
   'postpartum-care-center-report': postpartumCareCenterReportSpokes,
   'foreign-worker-employment-permit-issuance': foreignWorkerEmploymentPermitIssuanceSpokes,
+  'aviation-professional-certificate-issuance': aviationProfessionalCertificateIssuanceSpokes,
+  'port-transportation-business-registration': portTransportationBusinessRegistrationSpokes,
+  'environmental-measurement-agency-registration': environmentalMeasurementAgencyRegistrationSpokes,
+  'film-video-rating-classification': filmVideoRatingClassificationSpokes,
+  'special-telecom-business-registration': specialTelecomBusinessRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
