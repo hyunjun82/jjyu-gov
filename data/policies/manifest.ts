@@ -640,6 +640,8 @@ import { disinfectionBusinessReportPolicy, disinfectionBusinessReportSpokes } fr
 import { lpgSafetyManagerAppointmentReportPolicy, lpgSafetyManagerAppointmentReportSpokes } from './lpg-safety-manager-appointment-report';
 import { broadcastVideoIndependentProducerReportPolicy, broadcastVideoIndependentProducerReportSpokes } from './broadcast-video-independent-producer-report';
 import { internationalFreightForwardingRegistrationPolicy, internationalFreightForwardingRegistrationSpokes } from './international-freight-forwarding-registration';
+import { buildingStatusMapIssuancePolicy, buildingStatusMapIssuanceSpokes } from './building-status-map-issuance';
+import { customsUniqueCodeBusinessApplicationPolicy, customsUniqueCodeBusinessApplicationSpokes } from './customs-unique-code-business-application';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1160,6 +1162,8 @@ export const PoliciesById: Record<string, any> = {
   '600': lpgSafetyManagerAppointmentReportPolicy,
   '601': broadcastVideoIndependentProducerReportPolicy,
   '602': internationalFreightForwardingRegistrationPolicy,
+  '603': buildingStatusMapIssuancePolicy,
+  '604': customsUniqueCodeBusinessApplicationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1751,6 +1755,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'lpg-safety-manager-appointment-report': lpgSafetyManagerAppointmentReportPolicy,
   'broadcast-video-independent-producer-report': broadcastVideoIndependentProducerReportPolicy,
   'international-freight-forwarding-registration': internationalFreightForwardingRegistrationPolicy,
+  'building-status-map-issuance': buildingStatusMapIssuancePolicy,
+  'customs-unique-code-business-application': customsUniqueCodeBusinessApplicationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2386,6 +2392,8 @@ export const SpokesById: Record<string, any[]> = {
   '600': lpgSafetyManagerAppointmentReportSpokes,
   '601': broadcastVideoIndependentProducerReportSpokes,
   '602': internationalFreightForwardingRegistrationSpokes,
+  '603': buildingStatusMapIssuanceSpokes,
+  '604': customsUniqueCodeBusinessApplicationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2977,6 +2985,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'lpg-safety-manager-appointment-report': lpgSafetyManagerAppointmentReportSpokes,
   'broadcast-video-independent-producer-report': broadcastVideoIndependentProducerReportSpokes,
   'international-freight-forwarding-registration': internationalFreightForwardingRegistrationSpokes,
+  'building-status-map-issuance': buildingStatusMapIssuanceSpokes,
+  'customs-unique-code-business-application': customsUniqueCodeBusinessApplicationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
