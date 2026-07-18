@@ -645,6 +645,8 @@ import { customsUniqueCodeBusinessApplicationPolicy, customsUniqueCodeBusinessAp
 import { investmentAdvisoryDiscretionaryBusinessRegistrationPolicy, investmentAdvisoryDiscretionaryBusinessRegistrationSpokes } from './investment-advisory-discretionary-business-registration';
 import { overseasTradingPartnerCodeRegistrationPolicy, overseasTradingPartnerCodeRegistrationSpokes } from './overseas-trading-partner-code-registration';
 import { nationalityLossReportPolicy, nationalityLossReportSpokes } from './nationality-loss-report';
+import { chiefInformationSecurityOfficerReportPolicy, chiefInformationSecurityOfficerReportSpokes } from './chief-information-security-officer-report';
+import { childWelfareFacilityInstallationReportPolicy, childWelfareFacilityInstallationReportSpokes } from './child-welfare-facility-installation-report';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1170,6 +1172,8 @@ export const PoliciesById: Record<string, any> = {
   '605': investmentAdvisoryDiscretionaryBusinessRegistrationPolicy,
   '606': overseasTradingPartnerCodeRegistrationPolicy,
   '607': nationalityLossReportPolicy,
+  '608': chiefInformationSecurityOfficerReportPolicy,
+  '609': childWelfareFacilityInstallationReportPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1766,6 +1770,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'investment-advisory-discretionary-business-registration': investmentAdvisoryDiscretionaryBusinessRegistrationPolicy,
   'overseas-trading-partner-code-registration': overseasTradingPartnerCodeRegistrationPolicy,
   'nationality-loss-report': nationalityLossReportPolicy,
+  'chief-information-security-officer-report': chiefInformationSecurityOfficerReportPolicy,
+  'child-welfare-facility-installation-report': childWelfareFacilityInstallationReportPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2406,6 +2412,8 @@ export const SpokesById: Record<string, any[]> = {
   '605': investmentAdvisoryDiscretionaryBusinessRegistrationSpokes,
   '606': overseasTradingPartnerCodeRegistrationSpokes,
   '607': nationalityLossReportSpokes,
+  '608': chiefInformationSecurityOfficerReportSpokes,
+  '609': childWelfareFacilityInstallationReportSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3002,6 +3010,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'investment-advisory-discretionary-business-registration': investmentAdvisoryDiscretionaryBusinessRegistrationSpokes,
   'overseas-trading-partner-code-registration': overseasTradingPartnerCodeRegistrationSpokes,
   'nationality-loss-report': nationalityLossReportSpokes,
+  'chief-information-security-officer-report': chiefInformationSecurityOfficerReportSpokes,
+  'child-welfare-facility-installation-report': childWelfareFacilityInstallationReportSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
