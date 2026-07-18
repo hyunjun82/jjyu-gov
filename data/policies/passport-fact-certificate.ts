@@ -3,7 +3,7 @@ export const passportFactCertificatePolicy = {
   id: '409', type: 'service' as const,
   title: '여권 사실증명 발급기록 실효확인 인터넷 무료로 즉시 받는 법',
   titleKeywords: { k1: '여권사실증명신청', k2: '여권발급기록실효확인', k3: '여권사본증명8개국어', k4: '방문시1000원인터넷무료' },
-  slug: 'passport-fact-certificate', org: '외교부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'passport-fact-certificate', org: '외교부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '방문 신청 시 1,000원(미화 1불), 인터넷·모바일·무인발급기 무료', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12620000001', ctaLabel: '정부24 여권 사실증명 신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

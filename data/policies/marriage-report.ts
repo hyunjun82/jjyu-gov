@@ -3,7 +3,7 @@ export const marriageReportPolicy = {
   id: '299', type: 'service' as const,
   title: '혼인신고 방문·우편으로 접수하고 증인 서명까지 준비하는 법',
   titleKeywords: { k1: '혼인신고', k2: '증인서명', k3: '구비서류', k4: '가족관계등록관서' },
-  slug: 'marriage-report', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'marriage-report', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신고 가능(지체없이 처리)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000050', ctaLabel: '정부24 혼인신고 안내 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

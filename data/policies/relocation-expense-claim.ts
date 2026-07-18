@@ -3,7 +3,7 @@ export const relocationExpenseClaimPolicy = {
   id: '345', type: 'service' as const,
   title: '이주비 청구 취업으로 이사했으면 운송비 영수증으로 받는 법',
   titleKeywords: { k1: '이주비청구', k2: '거주지이전취업', k3: '이사화물운송명세', k4: '지방고용노동관서' },
-  slug: 'relocation-expense-claim', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'relocation-expense-claim', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 5일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000078', ctaLabel: '정부24 이주비 청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

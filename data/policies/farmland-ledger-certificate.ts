@@ -3,7 +3,7 @@ export const farmlandLedgerCertificatePolicy = {
   id: '333', type: 'service' as const,
   title: '농지대장(구 농지원부) 등본 인터넷 무료 발급받고 60일 이내 변경신고하는 법',
   titleKeywords: { k1: '농지대장등본발급', k2: '농지원부명칭변경', k3: '60일이내변경신고', k4: '농림축산식품부' },
-  slug: 'farmland-ledger-certificate', org: '농림축산식품부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'farmland-ledger-certificate', org: '농림축산식품부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '방문 필지당 500원, 인터넷 발급 무료', deadline: '이용정보 변경 시 사유 발생일부터 60일 이내 신고', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13800000014', ctaLabel: '정부24 농지대장 등본발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

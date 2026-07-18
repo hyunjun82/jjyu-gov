@@ -3,7 +3,7 @@ export const buildingRegisterCertificatePolicy = {
   id: '293', type: 'service' as const,
   title: '건축물대장 등본 초본 인터넷 무료 발급받고 위반건축물 여부 확인하는 법',
   titleKeywords: { k1: '건축물대장', k2: '위반건축물확인', k3: '인터넷무료발급', k4: '정부24' },
-  slug: 'building-register-certificate', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'building-register-certificate', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '인터넷 발급·열람 무료, 방문 발급 500원, 방문 열람 300원(1건당)',
   deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000098', ctaLabel: '정부24 건축물대장 발급 바로가기',

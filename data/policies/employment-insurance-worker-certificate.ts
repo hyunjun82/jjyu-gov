@@ -3,7 +3,7 @@ export const employmentInsuranceWorkerCertificatePolicy = {
   id: '392', type: 'service' as const,
   title: '고용보험 자격이력내역서 신분증만으로 즉시 발급받는 법' ,
   titleKeywords: { k1: '고용산재보험제증명근로자재해자', k2: '자격이력내역서일용근로내역서', k3: '보험급여지급확인원', k4: '근로복지공단지역본부' },
-  slug: 'employment-insurance-worker-certificate', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'employment-insurance-worker-certificate', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14920000084', ctaLabel: '정부24 고용·산재보험 제증명 발급(근로자·재해자) 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

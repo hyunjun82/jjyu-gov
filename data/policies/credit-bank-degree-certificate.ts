@@ -3,7 +3,7 @@ export const creditBankDegreeCertificatePolicy = {
   id: '354', type: 'service' as const,
   title: '학점은행제 학위증명서 국문 300원 영문 500원 cb.or.kr 발급법',
   titleKeywords: { k1: '학점은행제학위증명', k2: 'cb.or.kr온라인신청', k3: '국가평생교육진흥원', k4: '학사전문학사증명' },
-  slug: 'credit-bank-degree-certificate', org: '교육부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'credit-bank-degree-certificate', org: '교육부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '국문 300원, 영문 500원', deadline: '상시 신청 가능(방문·인터넷 즉시, 우편 총 2일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13404000041', ctaLabel: '정부24 학점은행제 학위증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

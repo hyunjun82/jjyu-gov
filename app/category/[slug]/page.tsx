@@ -12,10 +12,11 @@ const CATEGORY_LABELS: Record<string, string> = {
   medical: '의료',
   insurance: '보험',
   life:    '생활정보',
+  issue:   '발급·신청',
 };
 
 /* 정부지원금이 아닌(생활정보·지식·FAQ) 카테고리 — h1 접미사·설명을 다르게 */
-const NON_SUBSIDY_CATS = new Set(['life']);
+const NON_SUBSIDY_CATS = new Set(['life', 'issue']);
 
 export const dynamicParams = false;
 

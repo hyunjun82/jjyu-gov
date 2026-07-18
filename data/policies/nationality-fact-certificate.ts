@@ -3,7 +3,7 @@ export const nationalityFactCertificatePolicy = {
   id: '414', type: 'service' as const,
   title: '귀화허가 국적취득사실증명 인터넷 무료로 즉시 발급받는 법',
   titleKeywords: { k1: '국적관련사실증명', k2: '귀화허가국적취득사실', k3: '외국국적포기확인서국적이탈사실', k4: '출입국외국인청사무소' },
-  slug: 'nationality-fact-certificate', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'nationality-fact-certificate', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '방문·우편 2,000원, 인터넷(전자민원) 무료', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000017', ctaLabel: '정부24 국적 관련 사실증명 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const industrialAccidentTemporaryDisabilityBenefitPolicy = {
   id: '389', type: 'service' as const,
   title: '산재 휴업급여 임금대장으로 7일 만에 청구 2년 넘으면 상병보상연금' ,
   titleKeywords: { k1: '산재휴업급여청구', k2: '상병보상연금중증요양상태진단서', k3: '요양중취업못함4개월임금', k4: '근로복지공단지역본부' },
-  slug: 'industrial-accident-temporary-disability-benefit', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'industrial-accident-temporary-disability-benefit', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 7일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000265', ctaLabel: '정부24 산재보험 휴업급여·상병보상연금 청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

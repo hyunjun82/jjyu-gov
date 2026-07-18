@@ -11,6 +11,7 @@ const categories = [
   { id: 'youth',  label: '청년',   icon: '👤', href: '/category/youth' },
   { id: 'welfare',label: '복지',   icon: '❤️', href: '/category/welfare' },
   { id: 'life',   label: '생활정보', icon: '🩺', href: '/category/life' },
+  { id: 'issue',  label: '발급·신청', icon: '📄', href: '/category/issue' },
 ];
 
 /* ──────────────────────────────────────────────────

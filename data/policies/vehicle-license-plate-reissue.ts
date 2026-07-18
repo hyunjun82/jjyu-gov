@@ -3,7 +3,7 @@ export const vehicleLicensePlateReissuePolicy = {
   id: '351', type: 'service' as const,
   title: '자동차 번호판 분실 도난 파손 시 방문으로 즉시 재발급받는 법',
   titleKeywords: { k1: '자동차번호판재발급', k2: '이륜자동차번호판재발급', k3: '번호판분실도난파손', k4: '등록번호판재교부신청서' },
-  slug: 'vehicle-license-plate-reissue', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-license-plate-reissue', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료(자동차관리법 시행규칙 제12조에 따라 번호판교부대행자가 정하는 금액)', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000326', ctaLabel: '정부24 자동차 번호판 재발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

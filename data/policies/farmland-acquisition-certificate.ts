@@ -3,7 +3,7 @@ export const farmlandAcquisitionCertificatePolicy = {
   id: '385', type: 'service' as const,
   title: '농지취득자격증명 농업경영계획서 유무로 4일 7일 14일 갈리는 법',
   titleKeywords: { k1: '농지취득자격증명신청', k2: '농업경영계획서주말체험영농계획서', k3: '농지위원회심의대상14일', k4: '시구읍면장' },
-  slug: 'farmland-acquisition-certificate', org: '농림축산식품부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'farmland-acquisition-certificate', org: '농림축산식품부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '농지취득자격증명 발급 수수료', deadline: '농지 매수 전 신청(유형별 총 4~14일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13800000010', ctaLabel: '정부24 농지취득 자격증명 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

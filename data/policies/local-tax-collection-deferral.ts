@@ -3,7 +3,7 @@ export const localTaxCollectionDeferralPolicy = {
   id: '374', type: 'service' as const,
   title: '지방세 징수유예 재해 장기치료 시 담보서로 10일 만에 신청하는 법',
   titleKeywords: { k1: '지방세징수유예신청', k2: '고지유예분할고지체납처분유예', k3: '납세담보제공서29호', k4: '시군구읍면동출장소' },
-  slug: 'local-tax-collection-deferral', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'local-tax-collection-deferral', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '납기 내 납부가 곤란한 사유 발생 시 신청(처리 총 10일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000057', ctaLabel: '정부24 지방세 징수유예 등의 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

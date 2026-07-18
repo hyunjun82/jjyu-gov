@@ -3,7 +3,7 @@ export const localTaxPaymentCertificatePolicy = {
   id: '288', type: 'service' as const,
   title: '지방세 납세증명서 인터넷 무료 발급받고 대출·입찰에 제출하는 법',
   titleKeywords: { k1: '지방세납세증명서', k2: '체납액없음증명', k3: '인터넷무료발급', k4: '정부24' },
-  slug: 'local-tax-payment-certificate', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'local-tax-payment-certificate', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000056', ctaLabel: '정부24 지방세 납세증명서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

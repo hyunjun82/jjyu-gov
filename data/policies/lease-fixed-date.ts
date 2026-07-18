@@ -3,7 +3,7 @@ export const leaseFixedDatePolicy = {
   id: '306', type: 'service' as const,
   title: '전월세 계약 후 확정일자 인터넷·방문으로 받아 보증금 지키는 법',
   titleKeywords: { k1: '확정일자', k2: '전월세보증금', k3: '주민센터방문', k4: '정부24' },
-  slug: 'lease-fixed-date', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'lease-fixed-date', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '1건당 600원', deadline: '전입일 이전 또는 즉시(임대차계약 후 신속히)', views: 0,
   applyUrl: 'https://www.gov.kr/main?a=AA020InfoSidoCappViewApp&CappBizCD=30500000005', ctaLabel: '정부24 확정일자 부여 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

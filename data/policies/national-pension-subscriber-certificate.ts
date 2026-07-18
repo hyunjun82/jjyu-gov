@@ -3,7 +3,7 @@ export const nationalPensionSubscriberCertificatePolicy = {
   id: '298', type: 'service' as const,
   title: '국민연금 가입자증명서 무료 발급받고 대출·이직서류에 제출하는 법',
   titleKeywords: { k1: '국민연금가입자증명서', k2: '무료발급', k3: '대출이직서류', k4: '국민연금공단' },
-  slug: 'national-pension-subscriber-certificate', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-pension-subscriber-certificate', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(총 3일 처리)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000312', ctaLabel: '정부24 국민연금 가입자 증명서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const veteranRegistrationCardIssuancePolicy = {
   id: '368', type: 'service' as const,
   title: '국가보훈등록증 발급 재발급 사진 1장으로 즉시 신청하는 법',
   titleKeywords: { k1: '국가보훈등록증발급재발급', k2: '온라인신청방문수령필수', k3: '참전유공자5.18특수임무', k4: '보훈지청제주특별자치도' },
-  slug: 'veteran-registration-card-issuance', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'veteran-registration-card-issuance', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000009', ctaLabel: '정부24 국가보훈등록증 발급·재발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

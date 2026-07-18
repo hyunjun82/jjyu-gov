@@ -3,7 +3,7 @@ export const birthReportPolicy = {
   id: '300', type: 'service' as const,
   title: '출생신고 1개월 이내 인터넷으로 하고 과태료 피하는 법',
   titleKeywords: { k1: '출생신고', k2: '1개월이내', k3: '전자가족관계등록시스템', k4: '과태료' },
-  slug: 'birth-report', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'birth-report', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '출생일로부터 1개월 이내(초과 시 과태료)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000045', ctaLabel: '정부24 출생신고 안내 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

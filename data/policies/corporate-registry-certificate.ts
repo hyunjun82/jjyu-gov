@@ -3,7 +3,7 @@ export const corporateRegistryCertificatePolicy = {
   id: '383', type: 'service' as const,
   title: '법인등기사항증명서 인터넷등기소 1000원에 즉시 발급받는 법',
   titleKeywords: { k1: '법인등기사항증명서발급', k2: '전부증명서일부증명서차이', k3: '인터넷등기소iros.go.kr', k4: '지방등기소접수처리' },
-  slug: 'corporate-registry-certificate', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'corporate-registry-certificate', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '방문 통당 1,200원, 무인발급기·인터넷 통당 1,000원', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=97400000001', ctaLabel: '정부24 법인등기사항증명서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

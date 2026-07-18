@@ -3,7 +3,7 @@ export const nationalPensionPrepaymentPolicy = {
   id: '387', type: 'service' as const,
   title: '국민연금 선납 최대 5년 분기납 15일까지 3일 만에 신청하는 법',
   titleKeywords: { k1: '국민연금보험료선납분기납', k2: '50세이상5년60개월', k3: '농어업인분기별납부', k4: '국민건강보험공단지사' },
-  slug: 'national-pension-prepayment', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-pension-prepayment', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '선납은 시작월 전달 말일까지, 분기납은 분기 시작월 15일까지(처리 총 3일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000316', ctaLabel: '정부24 국민연금 보험료 분기납·선납 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

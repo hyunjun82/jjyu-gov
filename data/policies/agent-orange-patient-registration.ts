@@ -3,7 +3,7 @@ export const agentOrangePatientRegistrationPolicy = {
   id: '397', type: 'service' as const,
   title: '고엽제후유의증환자 등록 진료기록으로 20일 만에 신청하는 법',
   titleKeywords: { k1: '고엽제후유의증환자등록', k2: '월남전참전남방한계선복무', k3: '진료기록진단서임상소견서', k4: '보훈지청제주특별자치도' },
-  slug: 'agent-orange-patient-registration', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'agent-orange-patient-registration', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 20일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000003', ctaLabel: '정부24 고엽제후유(의)증환자 등의 등록 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

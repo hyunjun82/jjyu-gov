@@ -3,7 +3,7 @@ export const missingPersonReportReceiptPolicy = {
   id: '421', type: 'service' as const,
   title: '실종아동 가출인 신고접수증 서류 없이 경찰서에서 즉시 발급받는 법',
   titleKeywords: { k1: '실종아동등가출인신고접수증', k2: '실종신고후접수증발급', k3: '별지서식1호무료', k4: '경찰서청소년보호과' },
-  slug: 'missing-person-report-receipt', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'missing-person-report-receipt', org: '경찰청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '실종·가출 신고 후 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000100', ctaLabel: '정부24 실종아동등·가출인 신고접수증 발급 신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

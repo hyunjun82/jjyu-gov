@@ -3,7 +3,7 @@ export const veteranStatusChangeReportPolicy = {
   id: '399', type: 'service' as const,
   title: '보훈대상자 신상변동신고 사망 국적상실 등 1일 만에 신고하는 법',
   titleKeywords: { k1: '보훈대상자신상변동신고', k2: '사망국적상실행방불명', k3: '선순위자변동차순위자사진', k4: '보훈지청제주특별자치도보훈청' },
-  slug: 'veteran-status-change-report', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'veteran-status-change-report', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '신상 변동 발생 시 신고(처리 총 1일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000156', ctaLabel: '정부24 신상변동신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

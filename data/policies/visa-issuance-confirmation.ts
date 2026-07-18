@@ -3,7 +3,7 @@ export const visaIssuanceConfirmationPolicy = {
   id: '427', type: 'service' as const,
   title: '사증발급인정서 국내 초청자가 고용허가서로 10일 만에 신청하는 법',
   titleKeywords: { k1: '사증발급인정서발급신청', k2: '비전문취업E9고용허가서', k3: 'visa.go.kr온라인신청', k4: '출입국외국인청사무소' },
-  slug: 'visa-issuance-confirmation', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'visa-issuance-confirmation', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '외국인 초청 전 사전 신청(처리 일반 총 10일, 조사 필요사항 총 60일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000104', ctaLabel: '정부24 사증발급인정서발급신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

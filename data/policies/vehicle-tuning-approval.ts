@@ -3,7 +3,7 @@ export const vehicleTuningApprovalPolicy = {
   id: '422', type: 'service' as const,
   title: '자동차 튜닝승인 설계도 갖춰 전자승인 35000원으로 10일 만에 받는 법',
   titleKeywords: { k1: '자동차구조장치변경승인', k2: '튜닝승인신청서별지33호', k3: '전자승인방문승인수수료차이', k4: '한국교통안전공단' },
-  slug: 'vehicle-tuning-approval', org: '한국교통안전공단·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-tuning-approval', org: '한국교통안전공단·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '전자승인 21,000~35,000원, 방문승인 35,000~60,000원', deadline: '구조·장치 변경 전 사전 신청 필수(처리 총 10일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000353', ctaLabel: '정부24 자동차 구조·장치 변경승인 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

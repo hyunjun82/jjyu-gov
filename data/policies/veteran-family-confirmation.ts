@@ -3,7 +3,7 @@ export const veteranFamilyConfirmationPolicy = {
   id: '322', type: 'service' as const,
   title: '국가유공자 유족확인서 무료 발급받고 보훈혜택 신청에 제출하는 법',
   titleKeywords: { k1: '국가유공자유족확인서', k2: '보훈혜택신청', k3: '무료발급', k4: '국가보훈부' },
-  slug: 'veteran-family-confirmation', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'veteran-family-confirmation', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000014', ctaLabel: '정부24 국가유공자(유족 또는 가족)확인 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

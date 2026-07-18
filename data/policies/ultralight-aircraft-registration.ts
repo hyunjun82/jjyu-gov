@@ -3,7 +3,7 @@ export const ultralightAircraftRegistrationPolicy = {
   id: '386', type: 'service' as const,
   title: '드론 초경량비행장치 소유증명과 측면사진으로 7일 만에 신고하는 법',
   titleKeywords: { k1: '초경량비행장치신고', k2: '드론소유증명제원성능표', k3: '측면사진15cm10cm', k4: '지방항공청항공안전법122조' },
-  slug: 'ultralight-aircraft-registration', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'ultralight-aircraft-registration', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '취득·변경·말소 시 신고(처리 총 7일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000540', ctaLabel: '정부24 초경량비행장치 신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

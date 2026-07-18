@@ -3,7 +3,7 @@ export const constructionEngineerCareerReportPolicy = {
   id: '428', type: 'service' as const,
   title: '건설기술인 경력신고 경력확인서와 졸업증명서로 즉시 신고하는 법',
   titleKeywords: { k1: '건설기술인경력변경신고', k2: '경력확인서국외경력확인서', k3: '대한건축사협회한국건설기술인협회', k4: '건설기술진흥법시행규칙제18조' },
-  slug: 'construction-engineer-career-report', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'construction-engineer-career-report', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '건설기술 진흥법 시행규칙 제18조제7항에 따른 수수료', deadline: '경력 발생·변경 시 신고(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000710', ctaLabel: '정부24 건설기술인 경력(변경)신고 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

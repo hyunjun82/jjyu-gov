@@ -3,7 +3,7 @@ export const businessClosureCertificatePolicy = {
   id: '359', type: 'service' as const,
   title: '폐업사실증명 홈택스 무료로 즉시 발급받아 실업급여 신청하는 법',
   titleKeywords: { k1: '폐업사실증명발급', k2: '휴업폐업사실증명영문', k3: '국세증명사실증명민원신청서', k4: '세무서홈택스' },
-  slug: 'business-closure-certificate', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'business-closure-certificate', org: '국세청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000019', ctaLabel: '정부24 폐업사실증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

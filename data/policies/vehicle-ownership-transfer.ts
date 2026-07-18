@@ -3,7 +3,7 @@ export const vehicleOwnershipTransferPolicy = {
   id: '225', type: 'service' as const,
   title: '자동차 명의이전 방법과 서류, 가족간 명의이전 비용까지',
   titleKeywords: { k1: '자동차 명의이전', k2: '이전등록', k3: '가족간 명의이전', k4: '취등록세' },
-  slug: 'vehicle-ownership-transfer', org: '국토교통부', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-ownership-transfer', org: '국토교통부', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 1,000원(사용본거지 외 시도 신청 시 1,500원) + 취득세(차종별 2~7%)',
   deadline: '매매 15일·증여 20일·상속 6개월·기타 15일 이내',
   views: 0,

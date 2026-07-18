@@ -3,7 +3,7 @@ export const vehicleTemporaryOperationPermitPolicy = {
   id: '352', type: 'service' as const,
   title: '자동차 임시운행허가 미등록차량 1800원에 방문 신청하는 법',
   titleKeywords: { k1: '자동차임시운행허가', k2: '미등록자동차운행', k3: '자율주행자동차시험연구', k4: '국토교통부시도시군구' },
-  slug: 'vehicle-temporary-operation-permit', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-temporary-operation-permit', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 1,800원(법 제27조제2항 단서 임시운행허가는 면제)', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000337', ctaLabel: '정부24 자동차 임시운행허가 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

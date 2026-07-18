@@ -3,7 +3,7 @@ export const singleParentFamilyCertificatePolicy = {
   id: '314', type: 'service' as const,
   title: '한부모가족증명서 무료 인터넷 발급받고 지원자격 증명하는 법',
   titleKeywords: { k1: '한부모가족증명서', k2: '보호대상자증명', k3: '무료인터넷발급', k4: '정부24' },
-  slug: 'single-parent-family-certificate', org: '성평등가족부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'single-parent-family-certificate', org: '성평등가족부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=10601000001', ctaLabel: '정부24 한부모가족 증명서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

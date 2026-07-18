@@ -3,7 +3,7 @@ export const landRegisterCertificatePolicy = {
   id: '289', type: 'service' as const,
   title: '토지대장 임야대장 인터넷 무료 발급받고 지목·면적 확인하는 법',
   titleKeywords: { k1: '토지대장', k2: '임야대장', k3: '인터넷무료발급', k4: '정부24' },
-  slug: 'land-register-certificate', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'land-register-certificate', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '인터넷 발급·열람 무료, 방문 발급 500원, 방문 열람 300원(1필지당)',
   deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000026', ctaLabel: '정부24 토지(임야)대장 발급 바로가기',

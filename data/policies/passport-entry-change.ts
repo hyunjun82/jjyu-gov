@@ -3,7 +3,7 @@ export const passportEntryChangePolicy = {
   id: '410', type: 'service' as const,
   title: '여권 구여권번호 출생지 기재 재외공관 인천공항서 5천원 신청하는 법',
   titleKeywords: { k1: '여권기재사항변경신청', k2: '구여권번호기재출생지기재', k3: '긴급여권발급기관인천공항재외공관', k4: '국내5000원재외공관5미불' },
-  slug: 'passport-entry-change', org: '외교부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'passport-entry-change', org: '외교부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '국내 5,000원, 재외공관 5미불', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12600000019', ctaLabel: '정부24 여권 기재사항 변경 신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const ltciMedicalAidFacilityApplicationPolicy = {
   id: '375', type: 'service' as const,
   title: '의료급여수급권자 장기요양기관 입소 인정서 사본으로 7일 신청하는 법',
   titleKeywords: { k1: '장기요양기관입소이용신청', k2: '의료급여수급권자시군구청장', k3: '장기요양인정서사본', k4: '노인장기요양보험법시행규칙10호' },
-  slug: 'ltci-medical-aid-facility-application', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'ltci-medical-aid-facility-application', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '입소·이용 시 신청(처리 총 7일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13520000083', ctaLabel: '정부24 장기요양기관 입소·이용 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

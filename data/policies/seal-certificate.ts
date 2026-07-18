@@ -3,7 +3,7 @@ export const sealCertificatePolicy = {
   id: '290', type: 'service' as const,
   title: '인감증명서 인터넷 무료 발급받고 대리인 위임장 준비하는 법',
   titleKeywords: { k1: '인감증명서', k2: '인터넷발급무료', k3: '대리인위임장', k4: '정부24' },
-  slug: 'seal-certificate', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'seal-certificate', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '방문 발급 600원, 인터넷 발급 무료', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000025', ctaLabel: '정부24 인감증명서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const businessRegistrationCertificatePolicy = {
   id: '295', type: 'service' as const,
   title: '사업자등록증명 인터넷 무료 발급받고 대출·입찰에 제출하는 법',
   titleKeywords: { k1: '사업자등록증명', k2: '인터넷무료발급', k3: '영문증명', k4: '홈택스' },
-  slug: 'business-registration-certificate', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'business-registration-certificate', org: '국세청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000016', ctaLabel: '정부24 사업자등록증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

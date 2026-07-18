@@ -3,7 +3,7 @@ export const disabilityCardReissuePolicy = {
   id: '377', type: 'service' as const,
   title: '장애인복지카드 분실 재발급 20일 만에 신청하는 법 유효기간 만료는 예외',
   titleKeywords: { k1: '장애인등록증복지카드재발급', k2: '유효기간만료신규발급', k3: '한국조폐공사경유', k4: '시군구읍면동' },
-  slug: 'disability-card-reissue', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'disability-card-reissue', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 20일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000110', ctaLabel: '정부24 장애인등록증(복지카드) 재발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

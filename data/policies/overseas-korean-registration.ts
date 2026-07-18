@@ -3,7 +3,7 @@ export const overseasKoreanRegistrationPolicy = {
   id: '411', type: 'service' as const,
   title: '재외국민등록 체류사증과 여권으로 재외공관에 3일 만에 신청하는 법',
   titleKeywords: { k1: '재외국민등록신청', k2: '변경이동신고체류국사증', k3: 'g4k.go.kr온라인신청', k4: '재외공관접수처리' },
-  slug: 'overseas-korean-registration', org: '재외동포청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'overseas-korean-registration', org: '재외동포청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '해외 이주·체류 시 신청(처리 총 3일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12600000039', ctaLabel: '정부24 재외국민등록신청(변경·이동신고) 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const healthInsuranceInstallmentPaymentPolicy = {
   id: '401', type: 'service' as const,
   title: '건강보험료 3회 체납 시 분할납부신청서로 즉시 승인받는 법',
   titleKeywords: { k1: '건강보험체납보험료분할납부', k2: '3회이상체납분할승인', k3: '국민건강보험법시행규칙31호', k4: '국민건강보험공단' },
-  slug: 'health-insurance-installment-payment', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'health-insurance-installment-payment', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '3회 이상 체납 시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000321', ctaLabel: '정부24 건강보험 체납보험료 분할납부신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

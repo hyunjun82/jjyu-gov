@@ -3,7 +3,7 @@ export const gedCertificateIssuancePolicy = {
   id: '355', type: 'service' as const,
   title: '검정고시 합격증명서 인터넷 발급 무료로 즉시 받는 법',
   titleKeywords: { k1: '검정고시합격증명', k2: '전자민원무료발급', k3: '시도교육청교육지원청', k4: '초중등교육법시행규칙39조' },
-  slug: 'ged-certificate-issuance', org: '교육부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'ged-certificate-issuance', org: '교육부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '조례로 결정(전자민원 인터넷 발급 시 무료)', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13404000021', ctaLabel: '정부24 검정고시 합격증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

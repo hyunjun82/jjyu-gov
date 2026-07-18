@@ -3,7 +3,7 @@ export const industrialAccidentDisabilityBenefitPolicy = {
   id: '340', type: 'service' as const,
   title: '산재 장해급여 치료 끝난 후 근로복지공단에 청구하는 법',
   titleKeywords: { k1: '산재장해급여', k2: '장해보상청구', k3: '구비서류없음', k4: '근로복지공단' },
-  slug: 'industrial-accident-disability-benefit', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'industrial-accident-disability-benefit', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 10일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000266', ctaLabel: '정부24 산재보험 장해보상청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

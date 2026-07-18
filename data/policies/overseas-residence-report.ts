@@ -3,7 +3,7 @@ export const overseasResidenceReportPolicy = {
   id: '426', type: 'service' as const,
   title: '국외이주신고 주민등록증만 있으면 읍면동에서 즉시 신고하는 법',
   titleKeywords: { k1: '국외이주신고', k2: '주민등록법시행령별지15호의4', k3: '해외이주신고와의차이', k4: '읍면동출장소' },
-  slug: 'overseas-residence-report', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'overseas-residence-report', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '국외 거주지 확정 후 신고(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000017', ctaLabel: '정부24 국외이주신고 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

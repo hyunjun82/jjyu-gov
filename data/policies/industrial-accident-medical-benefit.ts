@@ -3,7 +3,7 @@ export const industrialAccidentMedicalBenefitPolicy = {
   id: '328', type: 'service' as const,
   title: '산재보험 요양급여 소견서 챙겨서 근로복지공단에 신청하는 법',
   titleKeywords: { k1: '산재보험요양급여', k2: '요양급여소견서', k3: '근로복지공단신청', k4: '업무상부상질병' },
-  slug: 'industrial-accident-medical-benefit', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'industrial-accident-medical-benefit', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 7일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000261', ctaLabel: '정부24 산재보험 요양급여신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const reserveForcesTrainingDeferralPolicy = {
   id: '420', type: 'service' as const,
   title: '예비군 훈련보류 재직 재학증명서로 소속중대에 1일 만에 신청하는 법',
   titleKeywords: { k1: '예비군동원교육훈련보류신청', k2: '주한외국군부대종사원공무원학생', k3: '보류원서별지18호', k4: '연기신청과의차이' },
-  slug: 'reserve-forces-training-deferral', org: '국방부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'reserve-forces-training-deferral', org: '국방부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '동원·훈련소집 명령 후 보류사유 해당 시 신청(처리 총 1일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12900000026', ctaLabel: '정부24 예비군 동원 및 교육훈련 보류신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const petRegistrationPolicy = {
   id: '312', type: 'service' as const,
   title: '반려견 동물등록 무선식별장치 1만원에 하고 미등록 과태료 피하는 법',
   titleKeywords: { k1: '반려견동물등록', k2: '무선식별장치', k3: '미등록과태료', k4: '정부24' },
-  slug: 'pet-registration', org: '농림축산식품부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'pet-registration', org: '농림축산식품부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '무선식별장치 체내삽입 10,000원, 체외부착 3,000원, 등록인식표 3,000원',
   deadline: '반려목적 개는 등록 의무(변경사항 발생 시 신고), 처리기간 총 10일', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15410000003', ctaLabel: '정부24 동물등록 신청·변경신고 바로가기',

@@ -3,7 +3,7 @@ export const realEstateAgencyRegistrationPolicy = {
   id: '429', type: 'service' as const,
   title: '공인중개사무소 개설등록 실무교육 수료증으로 시군구에 7일 만에 신청하는 법',
   titleKeywords: { k1: '부동산중개사무소개설등록신청', k2: '개업공인중개사인장등록분사무소설치신고', k3: '실무교육수료확인증건축물대장', k4: '시군구조례수수료' },
-  slug: 'real-estate-agency-registration', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'real-estate-agency-registration', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 시·군·구 조례에서 정하는 금액', deadline: '개업 전 사전 신청 필수(처리 총 7일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000032', ctaLabel: '정부24 부동산중개사무소 개설등록 등 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

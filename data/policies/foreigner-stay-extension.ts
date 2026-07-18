@@ -3,7 +3,7 @@ export const foreignerStayExtensionPolicy = {
   id: '331', type: 'service' as const,
   title: '외국인 체류기간연장허가 만료 전에 신청해 불법체류 피하는 법',
   titleKeywords: { k1: '체류기간연장허가', k2: '불법체류방지', k3: '비자유형별서류', k4: '출입국외국인청' },
-  slug: 'foreigner-stay-extension', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'foreigner-stay-extension', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '일반 60,000원, 결혼이민 30,000원(시행규칙 제74조 해당자 면제)',
   deadline: '체류기간 만료 전 신청(일반사항 총 15일, 조사필요사항 총 60일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000097', ctaLabel: '정부24 체류기간연장허가 바로가기',

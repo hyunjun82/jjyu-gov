@@ -3,7 +3,7 @@ export const adoptionDissolutionReportPolicy = {
   id: '381', type: 'service' as const,
   title: '친양자파양신고 재판확정 후 1개월 이내 시읍면에 신고하는 법',
   titleKeywords: { k1: '친양자파양신고서류', k2: '가정법원허가재판확정1개월', k3: '친양자입양관계증명서', k4: '가족관계등록법69조' },
-  slug: 'adoption-dissolution-report', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'adoption-dissolution-report', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '파양재판 확정일부터 1개월 이내(처리 지체없이)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=97400000007', ctaLabel: '정부24 친양자파양신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const industrialAccidentReturnToWorkSubsidyPolicy = {
   id: '391', type: 'service' as const,
   title: '산재 직장복귀지원금 임금원천징수부로 7일 만에 청구하는 법',
   titleKeywords: { k1: '산재직장복귀지원금청구', k2: '장해1급12급고용단절없이복귀', k3: '소득자별근로소득원천징수부', k4: '근로복지공단지역본부' },
-  slug: 'industrial-accident-return-to-work-subsidy', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'industrial-accident-return-to-work-subsidy', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '복귀 근로자 임금 지급 후 신청(처리 총 7일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000313', ctaLabel: '정부24 산재보험 직장복귀지원금 청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

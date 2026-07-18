@@ -3,7 +3,7 @@ export const adoptionReportPolicy = {
   id: '380', type: 'service' as const,
   title: '입양신고 가정법원 허가서와 동의서로 시읍면에 접수하는 법',
   titleKeywords: { k1: '입양신고서류', k2: '입양동의가정법원허가서등본', k3: '기본증명서가족관계증명서입양관계증명서', k4: '가족관계등록법61조62조' },
-  slug: 'adoption-report', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'adoption-report', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 지체없이, 사건 및 가용인력 범위 내)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000047', ctaLabel: '정부24 입양신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

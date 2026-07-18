@@ -3,7 +3,7 @@ export const earlyReemploymentAllowancePolicy = {
   id: '343', type: 'service' as const,
   title: '조기재취업수당 12개월 이상 근무 증명하고 청구하는 법',
   titleKeywords: { k1: '조기재취업수당', k2: '12개월이상고용', k3: '재직증명서제출', k4: '지방고용노동청' },
-  slug: 'early-reemployment-allowance', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'early-reemployment-allowance', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 14일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000076', ctaLabel: '정부24 고용보험 조기재취업수당청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

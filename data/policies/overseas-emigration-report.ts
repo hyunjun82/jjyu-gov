@@ -3,7 +3,7 @@ export const overseasEmigrationReportPolicy = {
   id: '425', type: 'service' as const,
   title: '해외이주신고 여권과 영주권 서류로 재외동포청에 즉시 신고하는 법',
   titleKeywords: { k1: '해외이주신고확인서발급재발급', k2: '연고이주무연고이주현지이주', k3: 'g4k.go.kr온라인신청', k4: '재외동포청외교부재외공관' },
-  slug: 'overseas-emigration-report', org: '재외동포청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'overseas-emigration-report', org: '재외동포청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '단일수수료', deadline: '해외이주 시 신고 필요(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12600000021', ctaLabel: '정부24 해외이주신고 및 확인서 발급 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

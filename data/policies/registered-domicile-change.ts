@@ -3,7 +3,7 @@ export const registeredDomicileChangePolicy = {
   id: '372', type: 'service' as const,
   title: '등록기준지 변경신고 기본증명서로 방문 즉시 이전하는 법',
   titleKeywords: { k1: '등록기준지변경신고', k2: '가족관계등록법10조', k3: '기본증명서서명공증인감증명서', k4: '시구읍면' },
-  slug: 'registered-domicile-change', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'registered-domicile-change', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000074', ctaLabel: '정부24 등록기준지변경신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

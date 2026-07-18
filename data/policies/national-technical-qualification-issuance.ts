@@ -3,7 +3,7 @@ export const nationalTechnicalQualificationIssuancePolicy = {
   id: '356', type: 'service' as const,
   title: '국가기술자격증 신규발급 사진 1장으로 총15일 만에 신청하는 법',
   titleKeywords: { k1: '국가기술자격증발급', k2: '국가기술자격정보체계', k3: '검정시행기관', k4: '국가기술자격법시행규칙14호' },
-  slug: 'national-technical-qualification-issuance', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-technical-qualification-issuance', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료(국가기술자격법 시행규칙 제36조에 따른 검정기관별 책정 수수료)', deadline: '상시 신청 가능(처리 총 15일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000438', ctaLabel: '정부24 국가기술자격증발급(신규) 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

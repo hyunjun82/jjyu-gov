@@ -3,7 +3,7 @@ export const veteranLivelihoodSupportPolicy = {
   id: '396', type: 'cash' as const,
   title: '참전유공자 고엽제후유의증 생계지원금 소득재산신고서로 30일 신청하는 법',
   titleKeywords: { k1: '참전유공자생계지원금', k2: '고엽제후유의증80세이상', k3: '518민주유공자특수임무유공자', k4: '보훈지청제주특별자치도' },
-  slug: 'veteran-livelihood-support', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'veteran-livelihood-support', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '생활정도 조사 후 지급(개별 결정)', deadline: '상시 신청 가능(처리 총 30일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000165', ctaLabel: '정부24 생계지원금 지급신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

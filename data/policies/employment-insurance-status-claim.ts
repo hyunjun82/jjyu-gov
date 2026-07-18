@@ -3,7 +3,7 @@ export const employmentInsuranceStatusClaimPolicy = {
   id: '310', type: 'service' as const,
   title: '고용보험 미가입 확인되면 피보험자격확인청구서로 직접 정정 신청하는 법',
   titleKeywords: { k1: '고용보험피보험자격확인청구', k2: '고용보험미가입', k3: '근로계약서제출', k4: '근로복지공단' },
-  slug: 'employment-insurance-status-claim', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'employment-insurance-status-claim', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(총 14일 처리)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000038', ctaLabel: '정부24 고용보험 피보험자격확인 청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

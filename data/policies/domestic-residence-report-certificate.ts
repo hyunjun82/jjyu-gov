@@ -3,7 +3,7 @@ export const domesticResidenceReportCertificatePolicy = {
   id: '327', type: 'service' as const,
   title: '외국국적동포 국내거소신고 사실증명 인터넷 무료 발급받는 법',
   titleKeywords: { k1: '국내거소신고사실증명', k2: '외국국적동포', k3: '인터넷무료발급', k4: '법무부' },
-  slug: 'domestic-residence-report-certificate', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'domestic-residence-report-certificate', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '방문·민원우편 2,000원, 인터넷 발급 무료', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000091', ctaLabel: '정부24 국내거소신고 사실증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const criminalRecordCheckPolicy = {
   id: '416', type: 'service' as const,
   title: '범죄경력조회 취업 어린이집 경비업 등 목적별 14일 만에 신청하는 법',
   titleKeywords: { k1: '범죄경력조회신청', k2: '수사자료표범죄경력회보', k3: 'crims.police.go.kr온라인', k4: '경찰서시도경찰청' },
-  slug: 'criminal-record-check', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'criminal-record-check', org: '경찰청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 14일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000062', ctaLabel: '정부24 각종 범죄경력조회 신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

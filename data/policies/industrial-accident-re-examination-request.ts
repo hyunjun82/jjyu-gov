@@ -3,7 +3,7 @@ export const industrialAccidentReExaminationRequestPolicy = {
   id: '394', type: 'service' as const,
   title: '산재 심사청구 결정 불복 시 진료기록으로 60일 만에 재심사받는 법',
   titleKeywords: { k1: '산재보상재심사청구', k2: '심사청구결정불복', k3: '출근부업무일지진료기록지', k4: '산업재해보상보험재심사위원회' },
-  slug: 'industrial-accident-re-examination-request', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'industrial-accident-re-examination-request', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '심사청구 결정을 안 날부터 청구 가능(처리 총 60일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000157', ctaLabel: '정부24 산재보상 재심사 청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

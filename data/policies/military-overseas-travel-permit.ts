@@ -3,7 +3,7 @@ export const militaryOverseasTravelPermitPolicy = {
   id: '371', type: 'service' as const,
   title: '병역의무자 국외여행허가 25세 이상 유학 취업 총2일 신청하는 법',
   titleKeywords: { k1: '병역의무자국외여행허가', k2: '기간연장허가유학취업', k3: '기간만료15일전1월15일까지', k4: '지방병무청재외공관' },
-  slug: 'military-overseas-travel-permit', org: '병무청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'military-overseas-travel-permit', org: '병무청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '기간연장은 만료 15일 전(25세 이전 출국자는 25세 되는 해 1월 15일)까지', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13000000025', ctaLabel: '정부24 국외여행허가 등 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

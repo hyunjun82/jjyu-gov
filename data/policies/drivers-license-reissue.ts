@@ -3,7 +3,7 @@ export const driversLicenseReissuePolicy = {
   id: '320', type: 'service' as const,
   title: '운전면허증 재발급 운전면허시험장 가면 즉시 받는 법',
   titleKeywords: { k1: '운전면허증재발급', k2: '분실훼손', k3: '운전면허시험장즉시발급', k4: '경찰청' },
-  slug: 'drivers-license-reissue', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'drivers-license-reissue', org: '경찰청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '10,000원(일반)~15,000원(모바일)', deadline: '운전면허시험장 방문 시 즉시, 경찰서 접수 시 총 21일', views: 0,
   applyUrl: 'https://safedriving.or.kr', ctaLabel: '정부24 운전면허증 재발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

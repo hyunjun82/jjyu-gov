@@ -3,7 +3,7 @@ export const divorceReportPolicy = {
   id: '302', type: 'service' as const,
   title: '협의이혼신고 확인서등본 챙기고 친권자지정까지 한번에 신고하는 법',
   titleKeywords: { k1: '협의이혼신고', k2: '친권자지정', k3: '확인서등본', k4: '가족관계등록법' },
-  slug: 'divorce-report', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'divorce-report', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신고 가능(지체없이 처리)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000051', ctaLabel: '정부24 이혼(친권자지정)신고 안내 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

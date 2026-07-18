@@ -3,7 +3,7 @@ export const housingLeaseReportPolicy = {
   id: '341', type: 'service' as const,
   title: '주택임대차신고 계약체결일부터 30일 이내 인터넷으로 하는 법',
   titleKeywords: { k1: '주택임대차신고제', k2: '30일이내신고', k3: '임대인임차인공동신고', k4: '부동산거래관리시스템' },
-  slug: 'housing-lease-report', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'housing-lease-report', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '임대차 계약체결일부터 30일 이내', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=16130000132', ctaLabel: '정부24 주택 임대차신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

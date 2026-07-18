@@ -3,7 +3,7 @@ export const realEstateRegistryCertificatePolicy = {
   id: '305', type: 'service' as const,
   title: '등기부등본 인터넷 1000원에 발급받고 권리관계 확인하는 법',
   titleKeywords: { k1: '등기부등본', k2: '등기사항증명서', k3: '권리관계확인', k4: '인터넷등기소' },
-  slug: 'real-estate-registry-certificate', org: '대법원·인터넷등기소', cat: '생활', catSlug: 'life',
+  slug: 'real-estate-registry-certificate', org: '대법원·인터넷등기소', cat: '발급·신청', catSlug: 'issue',
   amount: '인터넷·무인발급기 통당 1,000원, 방문 통당 1,200원', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.iros.go.kr', ctaLabel: '대법원 인터넷등기소 등기부등본 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

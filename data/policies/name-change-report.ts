@@ -3,7 +3,7 @@ export const nameChangeReportPolicy = {
   id: '303', type: 'service' as const,
   title: '개명신고 법원허가 등본 받은 날부터 1개월 이내 신고하는 법',
   titleKeywords: { k1: '개명신고', k2: '법원허가등본', k3: '1개월이내', k4: '가족관계등록법' },
-  slug: 'name-change-report', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'name-change-report', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '법원 허가서 등본을 받은 날부터 1개월 이내', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000073', ctaLabel: '정부24 개명신고 안내 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

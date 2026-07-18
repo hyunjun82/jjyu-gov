@@ -3,7 +3,7 @@ export const individualHousePriceConfirmationPolicy = {
   id: '406', type: 'service' as const,
   title: '개별주택가격 확인 재산세 기준 인터넷·모바일로 즉시 조회하는 법',
   titleKeywords: { k1: '개별주택가격확인', k2: '시장군수구청장결정공시', k3: '모바일열람만가능', k4: '시군구접수처리' },
-  slug: 'individual-house-price-confirmation', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'individual-house-price-confirmation', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료는 조례로 결정', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000681', ctaLabel: '정부24 개별주택가격 확인 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

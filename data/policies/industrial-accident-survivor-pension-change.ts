@@ -3,7 +3,7 @@ export const industrialAccidentSurvivorPensionChangePolicy = {
   id: '390', type: 'service' as const,
   title: '산재 유족연금 수급권자 변경 사망진단서로 10일 만에 신고하는 법',
   titleKeywords: { k1: '유족보상연금수급권자변경신고', k2: '연금액조정신청서17호', k3: '연금수급자격상실사유증명서류', k4: '근로복지공단지역본부' },
-  slug: 'industrial-accident-survivor-pension-change', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'industrial-accident-survivor-pension-change', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '수급권자 변경사항 발생 시 신고(처리 총 10일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000272', ctaLabel: '정부24 산재보험 유족보상연금 수급권자 변경 신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

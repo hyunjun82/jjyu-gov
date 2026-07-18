@@ -3,7 +3,7 @@ export const familyRegisterCorrectionPolicy = {
   id: '382', type: 'service' as const,
   title: '가족관계등록부 정정신청 판결등본으로 즉시 시읍면에 신청하는 법',
   titleKeywords: { k1: '가족관계등록부정정신청', k2: '등록부정정신청서30호', k3: '판결등본확정증명서', k4: '가족관계등록법104조' },
-  slug: 'family-register-correction', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'family-register-correction', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000076', ctaLabel: '정부24 가족관계등록부 정정신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

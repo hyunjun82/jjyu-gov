@@ -468,6 +468,24 @@ import { visaIssuanceConfirmationPolicy, visaIssuanceConfirmationSpokes } from '
 import { constructionEngineerCareerReportPolicy, constructionEngineerCareerReportSpokes } from './construction-engineer-career-report';
 import { realEstateAgencyRegistrationPolicy, realEstateAgencyRegistrationSpokes } from './real-estate-agency-registration';
 import { realEstateAgencyClosureReportPolicy, realEstateAgencyClosureReportSpokes } from './real-estate-agency-closure-report';
+import { outdoorAssemblyReportPolicy, outdoorAssemblyReportSpokes } from './outdoor-assembly-report';
+import { laborUnionCertificateReissuePolicy, laborUnionCertificateReissueSpokes } from './labor-union-certificate-reissue';
+import { middleSchoolTransferAssignmentPolicy, middleSchoolTransferAssignmentSpokes } from './middle-school-transfer-assignment';
+import { highSchoolTransferAssignmentPolicy, highSchoolTransferAssignmentSpokes } from './high-school-transfer-assignment';
+import { schoolEnrollmentDeferralApprovalPolicy, schoolEnrollmentDeferralApprovalSpokes } from './school-enrollment-deferral-approval';
+import { civilDefenseTrainingExemptionPolicy, civilDefenseTrainingExemptionSpokes } from './civil-defense-training-exemption';
+import { personalInfoAccessRequestPolicy, personalInfoAccessRequestSpokes } from './personal-info-access-request';
+import { freedomOfInformationRequestPolicy, freedomOfInformationRequestSpokes } from './freedom-of-information-request';
+import { courtJudgmentCopyRequestPolicy, courtJudgmentCopyRequestSpokes } from './court-judgment-copy-request';
+import { complaintFilingCertificatePolicy, complaintFilingCertificateSpokes } from './complaint-filing-certificate';
+import { complaintDispositionCertificatePolicy, complaintDispositionCertificateSpokes } from './complaint-disposition-certificate';
+import { maritimeCriminalComplaintPolicy, maritimeCriminalComplaintSpokes } from './maritime-criminal-complaint';
+import { seafarerBookReissuePolicy, seafarerBookReissueSpokes } from './seafarer-book-reissue';
+import { custodyDesignationReportPolicy, custodyDesignationReportSpokes } from './custody-designation-report';
+import { minorGuardianChangeReportPolicy, minorGuardianChangeReportSpokes } from './minor-guardian-change-report';
+import { individualLandPriceConfirmationPolicy, individualLandPriceConfirmationSpokes } from './individual-land-price-confirmation';
+import { veteran518EmploymentApplicationPolicy, veteran518EmploymentApplicationSpokes } from './518-veteran-employment-application';
+import { veteranCompensationRegistrationPolicy, veteranCompensationRegistrationSpokes } from './veteran-compensation-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -816,6 +834,24 @@ export const PoliciesById: Record<string, any> = {
   '428': constructionEngineerCareerReportPolicy,
   '429': realEstateAgencyRegistrationPolicy,
   '430': realEstateAgencyClosureReportPolicy,
+  '431': outdoorAssemblyReportPolicy,
+  '432': laborUnionCertificateReissuePolicy,
+  '433': middleSchoolTransferAssignmentPolicy,
+  '434': highSchoolTransferAssignmentPolicy,
+  '435': schoolEnrollmentDeferralApprovalPolicy,
+  '436': civilDefenseTrainingExemptionPolicy,
+  '437': personalInfoAccessRequestPolicy,
+  '438': freedomOfInformationRequestPolicy,
+  '439': courtJudgmentCopyRequestPolicy,
+  '440': complaintFilingCertificatePolicy,
+  '441': complaintDispositionCertificatePolicy,
+  '442': maritimeCriminalComplaintPolicy,
+  '443': seafarerBookReissuePolicy,
+  '444': custodyDesignationReportPolicy,
+  '445': minorGuardianChangeReportPolicy,
+  '446': individualLandPriceConfirmationPolicy,
+  '447': veteran518EmploymentApplicationPolicy,
+  '448': veteranCompensationRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1235,6 +1271,24 @@ export const PoliciesBySlug: Record<string, any> = {
   'construction-engineer-career-report': constructionEngineerCareerReportPolicy,
   'real-estate-agency-registration': realEstateAgencyRegistrationPolicy,
   'real-estate-agency-closure-report': realEstateAgencyClosureReportPolicy,
+  'outdoor-assembly-report': outdoorAssemblyReportPolicy,
+  'labor-union-certificate-reissue': laborUnionCertificateReissuePolicy,
+  'middle-school-transfer-assignment': middleSchoolTransferAssignmentPolicy,
+  'high-school-transfer-assignment': highSchoolTransferAssignmentPolicy,
+  'school-enrollment-deferral-approval': schoolEnrollmentDeferralApprovalPolicy,
+  'civil-defense-training-exemption': civilDefenseTrainingExemptionPolicy,
+  'personal-info-access-request': personalInfoAccessRequestPolicy,
+  'freedom-of-information-request': freedomOfInformationRequestPolicy,
+  'court-judgment-copy-request': courtJudgmentCopyRequestPolicy,
+  'complaint-filing-certificate': complaintFilingCertificatePolicy,
+  'complaint-disposition-certificate': complaintDispositionCertificatePolicy,
+  'maritime-criminal-complaint': maritimeCriminalComplaintPolicy,
+  'seafarer-book-reissue': seafarerBookReissuePolicy,
+  'custody-designation-report': custodyDesignationReportPolicy,
+  'minor-guardian-change-report': minorGuardianChangeReportPolicy,
+  'individual-land-price-confirmation': individualLandPriceConfirmationPolicy,
+  '518-veteran-employment-application': veteran518EmploymentApplicationPolicy,
+  'veteran-compensation-registration': veteranCompensationRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -1698,6 +1752,24 @@ export const SpokesById: Record<string, any[]> = {
   '428': constructionEngineerCareerReportSpokes,
   '429': realEstateAgencyRegistrationSpokes,
   '430': realEstateAgencyClosureReportSpokes,
+  '431': outdoorAssemblyReportSpokes,
+  '432': laborUnionCertificateReissueSpokes,
+  '433': middleSchoolTransferAssignmentSpokes,
+  '434': highSchoolTransferAssignmentSpokes,
+  '435': schoolEnrollmentDeferralApprovalSpokes,
+  '436': civilDefenseTrainingExemptionSpokes,
+  '437': personalInfoAccessRequestSpokes,
+  '438': freedomOfInformationRequestSpokes,
+  '439': courtJudgmentCopyRequestSpokes,
+  '440': complaintFilingCertificateSpokes,
+  '441': complaintDispositionCertificateSpokes,
+  '442': maritimeCriminalComplaintSpokes,
+  '443': seafarerBookReissueSpokes,
+  '444': custodyDesignationReportSpokes,
+  '445': minorGuardianChangeReportSpokes,
+  '446': individualLandPriceConfirmationSpokes,
+  '447': veteran518EmploymentApplicationSpokes,
+  '448': veteranCompensationRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -2117,6 +2189,24 @@ export const SpokesBySlug: Record<string, any[]> = {
   'construction-engineer-career-report': constructionEngineerCareerReportSpokes,
   'real-estate-agency-registration': realEstateAgencyRegistrationSpokes,
   'real-estate-agency-closure-report': realEstateAgencyClosureReportSpokes,
+  'outdoor-assembly-report': outdoorAssemblyReportSpokes,
+  'labor-union-certificate-reissue': laborUnionCertificateReissueSpokes,
+  'middle-school-transfer-assignment': middleSchoolTransferAssignmentSpokes,
+  'high-school-transfer-assignment': highSchoolTransferAssignmentSpokes,
+  'school-enrollment-deferral-approval': schoolEnrollmentDeferralApprovalSpokes,
+  'civil-defense-training-exemption': civilDefenseTrainingExemptionSpokes,
+  'personal-info-access-request': personalInfoAccessRequestSpokes,
+  'freedom-of-information-request': freedomOfInformationRequestSpokes,
+  'court-judgment-copy-request': courtJudgmentCopyRequestSpokes,
+  'complaint-filing-certificate': complaintFilingCertificateSpokes,
+  'complaint-disposition-certificate': complaintDispositionCertificateSpokes,
+  'maritime-criminal-complaint': maritimeCriminalComplaintSpokes,
+  'seafarer-book-reissue': seafarerBookReissueSpokes,
+  'custody-designation-report': custodyDesignationReportSpokes,
+  'minor-guardian-change-report': minorGuardianChangeReportSpokes,
+  'individual-land-price-confirmation': individualLandPriceConfirmationSpokes,
+  '518-veteran-employment-application': veteran518EmploymentApplicationSpokes,
+  'veteran-compensation-registration': veteranCompensationRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,

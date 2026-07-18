@@ -3,7 +3,7 @@ export const businessRegistrationAmendmentPolicy = {
   id: '360', type: 'service' as const,
   title: '사업자등록 정정신고 상호 변경은 즉시 사업장 이전은 2일 걸리는 법',
   titleKeywords: { k1: '사업자등록정정신고', k2: '상호통신판매업자변경', k3: '사업장이전정정사유', k4: '홈택스임대차계약서' },
-  slug: 'business-registration-amendment', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'business-registration-amendment', org: '국세청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '변경사항 발생 시 신고(상호 등은 즉시, 사업장 이전 등은 총 2일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073', ctaLabel: '정부24 사업자등록 정정신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

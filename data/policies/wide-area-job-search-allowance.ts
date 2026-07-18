@@ -3,7 +3,7 @@ export const wideAreaJobSearchAllowancePolicy = {
   id: '344', type: 'service' as const,
   title: '광역구직활동비 운임 숙박비 영수증으로 5일 만에 청구하는 법',
   titleKeywords: { k1: '광역구직활동비', k2: '운임숙박료영수증', k3: '수급자격증사본', k4: '지방고용노동관서' },
-  slug: 'wide-area-job-search-allowance', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'wide-area-job-search-allowance', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 5일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000077', ctaLabel: '정부24 광역 구직활동비 청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

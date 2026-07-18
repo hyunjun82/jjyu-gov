@@ -3,7 +3,7 @@ export const realEstateTransactionReportPolicy = {
   id: '323', type: 'service' as const,
   title: '부동산거래신고 계약체결일부터 60일 이내 인터넷으로 하는 법',
   titleKeywords: { k1: '부동산거래신고', k2: '60일이내', k3: '주택취득자금조달계획서', k4: '부동산거래관리시스템' },
-  slug: 'real-estate-transaction-report', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'real-estate-transaction-report', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '거래계약 체결일부터 60일 이내', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=16110000012', ctaLabel: '정부24 부동산거래(계약, 변경, 해제) 신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

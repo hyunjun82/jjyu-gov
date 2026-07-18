@@ -3,7 +3,7 @@ export const veteranDisabilityGradeReviewPolicy = {
   id: '369', type: 'service' as const,
   title: '상이등급 재심 재판정 신체검사 진단서로 1일 만에 신청하는 법',
   titleKeywords: { k1: '상이등급재심재판정신체검사', k2: '전문의진단서2년이내', k3: '신규신체검사판정이의', k4: '보훈지청제주특별자치도' },
-  slug: 'veteran-disability-grade-review', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'veteran-disability-grade-review', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 1일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000012', ctaLabel: '정부24 상이등급 재심(재판정) 신체검사신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

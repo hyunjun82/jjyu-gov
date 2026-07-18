@@ -3,7 +3,7 @@ export const healthInsurancePaymentCertificatePolicy = {
   id: '417', type: 'service' as const,
   title: '건강보험료 납부확인서 2001년 이후 납부내역 인터넷 무료로 즉시 발급받는 법',
   titleKeywords: { k1: '건강보험료납부확인서', k2: '2001년이후납부건', k3: '대출연말정산제출용', k4: '국민건강보험공단' },
-  slug: 'health-insurance-payment-certificate', org: '국민건강보험공단·정부24', cat: '생활', catSlug: 'life',
+  slug: 'health-insurance-payment-certificate', org: '국민건강보험공단·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=SG4CADM2017', ctaLabel: '정부24 건강보험료 납부확인서 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

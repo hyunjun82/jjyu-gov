@@ -3,7 +3,7 @@ export const residentListConfirmationCertificatePolicy = {
   id: '335', type: 'service' as const,
   title: '전입세대확인서 방문 발급받고 전세계약 전 세대주 명단 확인하는 법',
   titleKeywords: { k1: '전입세대확인서', k2: '전세사기예방', k3: '세대주명단확인', k4: '주민등록법' },
-  slug: 'resident-list-confirmation-certificate', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'resident-list-confirmation-certificate', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '열람 건당 300원, 교부 건당 400~500원', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000305', ctaLabel: '정부24 전입세대확인서 열람(발급) 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const healthInsuranceMedicalExpenseClaimPolicy = {
   id: '364', type: 'service' as const,
   title: '건강보험 요양비 처방전과 세금계산서로 40일 만에 환급받는 법',
   titleKeywords: { k1: '건강보험요양비지급청구', k2: '산소치료양압기대여증명', k3: '요양기관이용불가사유서', k4: '국민건강보험공단지사' },
-  slug: 'health-insurance-medical-expense-claim', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'health-insurance-medical-expense-claim', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 40일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000246', ctaLabel: '정부24 건강보험 요양비 지급청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

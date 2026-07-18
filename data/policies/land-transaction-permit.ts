@@ -3,7 +3,7 @@ export const landTransactionPermitPolicy = {
   id: '384', type: 'service' as const,
   title: '토지거래허가구역 매수 전 자금조달계획서로 15일 만에 허가받는 법',
   titleKeywords: { k1: '토지거래계약허가신청', k2: '토지이용계획서농업경영계획서', k3: '토지취득자금조달계획서', k4: '부동산거래신고법11조' },
-  slug: 'land-transaction-permit', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'land-transaction-permit', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '토지거래허가구역 내 계약 전 신청(처리 총 15일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000016', ctaLabel: '정부24 토지거래계약허가 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

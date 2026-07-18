@@ -3,7 +3,7 @@ export const vaccinationCertificatePolicy = {
   id: '365', type: 'service' as const,
   title: '예방접종증명서 예방접종도우미에서 무료 즉시 발급받는 법',
   titleKeywords: { k1: '예방접종증명서발급', k2: '예방접종도우미nip.kdca.go.kr', k3: '국가예방접종위탁의료기관', k4: '어린이집학교입학제출' },
-  slug: 'vaccination-certificate', org: '질병관리청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vaccination-certificate', org: '질병관리청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000398', ctaLabel: '정부24 예방접종증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

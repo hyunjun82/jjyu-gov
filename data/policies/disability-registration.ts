@@ -3,7 +3,7 @@ export const disabilityRegistrationPolicy = {
   id: '315', type: 'service' as const,
   title: '장애인 등록 신청 총 30일 걸리는 이유와 국민연금공단 심사 절차 아는 법',
   titleKeywords: { k1: '장애인등록신청', k2: '장애정도심사', k3: '국민연금공단경유', k4: '읍면동행정복지센터' },
-  slug: 'disability-registration', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'disability-registration', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 30일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000117', ctaLabel: '정부24 장애인 등록 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

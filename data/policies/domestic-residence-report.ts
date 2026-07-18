@@ -3,7 +3,7 @@ export const domesticResidenceReportPolicy = {
   id: '412', type: 'service' as const,
   title: '재외동포 F-4 국내거소신고 여권 사진으로 35000원 즉시 신고하는 법',
   titleKeywords: { k1: '재외동포국내거소신고', k2: 'F4통합신청서신고서', k3: '여권재학증명서반명함사진', k4: '출입국외국인청사무소' },
-  slug: 'domestic-residence-report', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'domestic-residence-report', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 35,000원', deadline: '입국 후 거소 정한 즉시 신고 권장(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000090', ctaLabel: '정부24 국내거소신고 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

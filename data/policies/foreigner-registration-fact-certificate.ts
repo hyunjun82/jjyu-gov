@@ -3,7 +3,7 @@ export const foreignerRegistrationFactCertificatePolicy = {
   id: '332', type: 'service' as const,
   title: '외국인등록 사실증명 인터넷 무료 발급받고 대출·계약에 제출하는 법',
   titleKeywords: { k1: '외국인등록사실증명', k2: '인터넷무료발급', k3: '외국인등록증대체', k4: '법무부' },
-  slug: 'foreigner-registration-fact-certificate', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'foreigner-registration-fact-certificate', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '방문 1통 2,000원, 인터넷 무료', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000027', ctaLabel: '정부24 외국인등록 사실증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

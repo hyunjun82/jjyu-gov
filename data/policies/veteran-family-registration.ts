@@ -3,7 +3,7 @@ export const veteranFamilyRegistrationPolicy = {
   id: '367', type: 'service' as const,
   title: '국가유공자 유족등록 사진과 가족관계증명서로 보훈청에 신청하는 법',
   titleKeywords: { k1: '국가유공자유족등록', k2: '무공수훈자14일일반20일', k3: '보훈지청보훈심사위원회', k4: '국가유공자예우지원법6조' },
-  slug: 'veteran-family-registration', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'veteran-family-registration', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(무공수훈자 총 14일, 그 외 총 20일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000001', ctaLabel: '정부24 국가유공자(유족)등록 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

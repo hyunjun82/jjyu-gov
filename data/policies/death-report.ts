@@ -3,7 +3,7 @@ export const deathReportPolicy = {
   id: '301', type: 'service' as const,
   title: '사망신고 1개월 이내 하고 동거친족 신고의무자 확인하는 법',
   titleKeywords: { k1: '사망신고', k2: '1개월이내', k3: '동거친족신고의무자', k4: '가족관계등록법' },
-  slug: 'death-report', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'death-report', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '사망 사실을 안 날부터 1개월 이내(초과 시 과태료 5만원 이하)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000059', ctaLabel: '정부24 사망신고 안내 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

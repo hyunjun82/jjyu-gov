@@ -3,7 +3,7 @@ export const internationalDriversLicensePolicy = {
   id: '357', type: 'service' as const,
   title: '국제운전면허증 9000원 경찰서 즉시발급 vs 인터넷 14일 차이',
   titleKeywords: { k1: '국제운전면허증발급', k2: '경찰서즉시발급', k3: '운전면허시험장인터넷14일', k4: '여권용사진구비서류' },
-  slug: 'international-drivers-license', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'international-drivers-license', org: '경찰청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 9,000원', deadline: '상시 신청 가능(경찰서·시험장 방문 즉시, 시험장 인터넷 총 14일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000028', ctaLabel: '정부24 국제운전면허증 발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

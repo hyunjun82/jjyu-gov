@@ -3,7 +3,7 @@ export const fosterCareConfirmationCertificatePolicy = {
   id: '379', type: 'service' as const,
   title: '가정위탁보호확인서 신분증만 있으면 방문 즉시 무료 발급받는 법',
   titleKeywords: { k1: '가정위탁보호확인서발급', k2: '행복e음가정위탁아동자격', k3: '아동복지법시행규칙10호의2', k4: '시군구읍면동' },
-  slug: 'foster-care-confirmation-certificate', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'foster-care-confirmation-certificate', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13520000076', ctaLabel: '정부24 가정위탁보호확인서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

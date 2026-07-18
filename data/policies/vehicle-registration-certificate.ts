@@ -3,7 +3,7 @@ export const vehicleRegistrationCertificatePolicy = {
   id: '284', type: 'service' as const,
   title: '자동차등록원부 갑·을부 인터넷 무료 발급받고 압류·저당 확인하는 법',
   titleKeywords: { k1: '자동차등록원부', k2: '갑을부차이', k3: '인터넷발급', k4: '정부24' },
-  slug: 'vehicle-registration-certificate', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-registration-certificate', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '인터넷 발급·열람 무료(방문 발급 300원, 열람 100원)',
   deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000334', ctaLabel: '정부24 자동차등록원부 발급 바로가기',

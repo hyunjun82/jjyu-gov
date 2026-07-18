@@ -3,7 +3,7 @@ export const disabledVehicleTagPolicy = {
   id: '326', type: 'service' as const,
   title: '장애인 자동차표지 무료 발급받고 주차·통행료 감면 받는 법',
   titleKeywords: { k1: '장애인자동차표지', k2: '주차통행료감면', k3: '자동차등록원부제출', k4: '정부24' },
-  slug: 'disabled-vehicle-tag', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'disabled-vehicle-tag', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000270', ctaLabel: '정부24 장애인사용자동차등표지 발급(재발급) 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

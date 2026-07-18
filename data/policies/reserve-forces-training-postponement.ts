@@ -3,7 +3,7 @@ export const reserveForcesTrainingPostponementPolicy = {
   id: '419', type: 'service' as const,
   title: '예비군 훈련연기 진단서로 소속중대에 1일 만에 신청하는 법',
   titleKeywords: { k1: '예비군동원교육훈련연기신청', k2: '질병심신장애구속중관혼상제', k3: '연기원서별지19호', k4: '소속예비군중대접수처리' },
-  slug: 'reserve-forces-training-postponement', org: '국방부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'reserve-forces-training-postponement', org: '국방부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '동원·훈련소집 명령 후 사유 발생 시 신청(처리 총 1일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12900000027', ctaLabel: '정부24 예비군 동원 및 교육훈련 연기신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

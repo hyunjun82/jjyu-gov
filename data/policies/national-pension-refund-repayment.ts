@@ -3,7 +3,7 @@ export const nationalPensionRefundRepaymentPolicy = {
   id: '347', type: 'service' as const,
   title: '국민연금 반납금 재가입 후 가입기간 복원하고 연금 다시 쌓는 법',
   titleKeywords: { k1: '국민연금반납금', k2: '반환일시금재납부', k3: '가입기간복원', k4: '국민연금공단' },
-  slug: 'national-pension-refund-repayment', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-pension-refund-repayment', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '가입자 자격 재취득 후 신청 가능(처리 총 3일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000315', ctaLabel: '정부24 국민연금 반납금 납부신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

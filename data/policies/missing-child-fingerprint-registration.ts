@@ -3,7 +3,7 @@ export const missingChildFingerprintRegistrationPolicy = {
   id: '366', type: 'service' as const,
   title: '지문 사전등록 아동 무료로 즉시 등록해 실종 대비하는 법',
   titleKeywords: { k1: '지문등사전등록', k2: 'safe182.go.kr신청', k3: '실종아동등발견유전자검사규칙', k4: '아동등보호자경찰서파출소' },
-  slug: 'missing-child-fingerprint-registration', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'missing-child-fingerprint-registration', org: '경찰청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(신청시기 제한 없음, 처리 즉시)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000052', ctaLabel: '정부24 지문등 사전등록 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

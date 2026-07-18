@@ -3,7 +3,7 @@ export const vehicleCancellationRegistrationPolicy = {
   id: '348', type: 'service' as const,
   title: '자동차 말소등록 신청서 수수료 1000원 즉시 처리로 등록 없애는 법',
   titleKeywords: { k1: '자동차말소등록', k2: '자동차등록소멸', k3: '자동차등록규칙별지17호', k4: '시군구시도' },
-  slug: 'vehicle-cancellation-registration', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-cancellation-registration', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 1,000원', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000329', ctaLabel: '정부24 자동차 말소등록 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

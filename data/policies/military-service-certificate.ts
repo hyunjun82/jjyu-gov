@@ -3,7 +3,7 @@ export const militaryServiceCertificatePolicy = {
   id: '291', type: 'service' as const,
   title: '병적증명서 무료 인터넷 발급받고 복무필자는 주민등록초본으로 대체하는 법',
   titleKeywords: { k1: '병적증명서', k2: '무료인터넷발급', k3: '주민등록초본대체', k4: '정부24' },
-  slug: 'military-service-certificate', org: '병무청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'military-service-certificate', org: '병무청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '복무필·미필자 즉시(3시간), 병역면제자 등 총 1일', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13000000016', ctaLabel: '정부24 병적증명서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

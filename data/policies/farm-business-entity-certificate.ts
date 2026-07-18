@@ -3,7 +3,7 @@ export const farmBusinessEntityCertificatePolicy = {
   id: '338', type: 'service' as const,
   title: '농업경영체 등록확인서 무료 발급받고 직불금 신청 준비하는 법',
   titleKeywords: { k1: '농업경영체등록확인서', k2: '직불금신청전제', k3: '농지대장차이', k4: '국립농산물품질관리원' },
-  slug: 'farm-business-entity-certificate', org: '농림축산식품부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'farm-business-entity-certificate', org: '농림축산식품부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '농업경영체 등록 완료 후 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15430000131', ctaLabel: '정부24 농업경영체 등록(변경등록) 확인서 발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

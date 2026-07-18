@@ -3,7 +3,7 @@ export const industrialAccidentSurvivorBenefitPolicy = {
   id: '339', type: 'service' as const,
   title: '산재 유족급여 장례비 사망진단서로 근로복지공단에 청구하는 법',
   titleKeywords: { k1: '산재유족급여', k2: '장례비청구', k3: '사망진단서제출', k4: '근로복지공단' },
-  slug: 'industrial-accident-survivor-benefit', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'industrial-accident-survivor-benefit', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 10일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000268', ctaLabel: '정부24 산재보험 유족급여·장례비 청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

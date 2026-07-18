@@ -3,7 +3,7 @@ export const nationalTaxPaymentDeadlineExtensionPolicy = {
   id: '373', type: 'service' as const,
   title: '국세 납부기한 연장 천재지변 진단서로 3일 만에 승인받는 법',
   titleKeywords: { k1: '국세납부기한연장신청', k2: '천재지변사유증빙진단서', k3: '국세징수법13조', k4: '세무서접수처리' },
-  slug: 'national-tax-payment-deadline-extension', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-tax-payment-deadline-extension', org: '국세청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '천재·지변 등 사유 발생 시 신청(처리 총 3일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000207', ctaLabel: '정부24 국세 납부기한등 연장 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const familyRegisterCertificatePolicy = {
   id: '321', type: 'service' as const,
   title: '제적등본 2008년 이전 호적 확인하고 상속 서류 준비하는 법',
   titleKeywords: { k1: '제적등본', k2: '호적제도폐지', k3: '상속서류준비', k4: '전자가족관계등록시스템' },
-  slug: 'family-register-certificate', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'family-register-certificate', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '등본 1,000원, 초본 500원', deadline: '상시 신청 가능(지체없이 처리)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000044', ctaLabel: '정부24 제적부의 등본(초본) 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

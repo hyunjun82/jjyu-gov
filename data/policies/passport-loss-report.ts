@@ -3,7 +3,7 @@ export const passportLossReportPolicy = {
   id: '408', type: 'service' as const,
   title: '여권 분실 신고 신분증만으로 즉시 접수하는 법 취소는 불가능',
   titleKeywords: { k1: '여권분실신고서류', k2: '분실신고후취소불가', k3: '여권법시행규칙2호', k4: '여권대행시군구시도' },
-  slug: 'passport-loss-report', org: '외교부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'passport-loss-report', org: '외교부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '분실 즉시 신고 권장(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12620000003', ctaLabel: '정부24 여권 분실 신고 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

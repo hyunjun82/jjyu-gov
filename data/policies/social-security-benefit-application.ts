@@ -3,7 +3,7 @@ export const socialSecurityBenefitApplicationPolicy = {
   id: '378', type: 'service' as const,
   title: '사회보장급여 통합신청서 하나로 기초생활수급 장애인연금 한번에 신청하는 법',
   titleKeywords: { k1: '사회보장급여신청변경', k2: '복지대상자보장급여', k3: '소득재산신고서금융정보동의서', k4: '읍면동시군구' },
-  slug: 'social-security-benefit-application', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'social-security-benefit-application', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(사업별 총 14~60일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000275', ctaLabel: '정부24 사회보장급여 신청(변경) 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

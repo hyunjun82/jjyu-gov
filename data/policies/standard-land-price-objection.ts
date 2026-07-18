@@ -3,7 +3,7 @@ export const standardLandPriceObjectionPolicy = {
   id: '405', type: 'service' as const,
   title: '표준지공시지가 이의신청 국토교통부에 30일 이내 사유서로 신청하는 법',
   titleKeywords: { k1: '표준지공시지가이의신청', k2: '개별공시지가와차이', k3: '국토교통부결정공시', k4: '이의신청사유증명서류' },
-  slug: 'standard-land-price-objection', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'standard-land-price-objection', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '공시일부터 30일 이내(처리 총 30일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000010', ctaLabel: '정부24 표준지 공시지가 이의신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const nationalPensionDividedBenefitPolicy = {
   id: '346', type: 'service' as const,
   title: '국민연금 분할연금 이혼한 배우자 노령연금 나눠 받는 법' ,
   titleKeywords: { k1: '국민연금분할연금', k2: '이혼배우자노령연금분할', k3: '혼인관계증명서상세', k4: '국민연금공단' },
-  slug: 'national-pension-divided-benefit', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-pension-divided-benefit', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 1개월)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000305', ctaLabel: '정부24 국민연금 분할연금지급청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const healthInsuranceQualificationLossReportPolicy = {
   id: '402', type: 'service' as const,
   title: '건강보험 자격상실신고 사망 국적상실 시 구비서류 없이 3일 신고하는 법',
   titleKeywords: { k1: '건강보험가입자자격상실신고', k2: '지역가입자직장가입자상실신고서', k3: '사망국적상실사유', k4: '국민건강보험공단지사' },
-  slug: 'health-insurance-qualification-loss-report', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'health-insurance-qualification-loss-report', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '자격상실 사유 발생 시 신고(처리 총 3일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000234', ctaLabel: '정부24 건강보험 가입자 자격상실 신고 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

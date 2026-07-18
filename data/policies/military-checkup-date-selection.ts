@@ -3,7 +3,7 @@ export const militaryCheckupDateSelectionPolicy = {
   id: '311', type: 'service' as const,
   title: '병역판정검사 입영일자 본인이 원하는 날짜로 인터넷 신청하는 법',
   titleKeywords: { k1: '병역판정검사일자선택', k2: '입영일자변경', k3: '사회복무요원소집일', k4: '병무청' },
-  slug: 'military-checkup-date-selection', org: '병무청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'military-checkup-date-selection', org: '병무청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13000000064', ctaLabel: '정부24 병역판정검사·입영일자 본인선택 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

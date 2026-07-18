@@ -3,7 +3,7 @@ export const familyRelationCertificatePolicy = {
   id: '286', type: 'service' as const,
   title: '가족관계증명서 일반 상세 특정 차이 알고 인터넷 무료 발급받는 법',
   titleKeywords: { k1: '가족관계증명서', k2: '일반상세특정', k3: '인터넷발급무료', k4: '전자가족관계등록시스템' },
-  slug: 'family-relation-certificate', org: '대법원·정부24', cat: '생활', catSlug: 'life',
+  slug: 'family-relation-certificate', org: '대법원·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '증명서 1통당 1,000원, 인터넷 발급 무료',
   deadline: '상시 신청 가능(즉시 처리)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=97400000004', ctaLabel: '정부24 가족관계증명서 발급 바로가기',

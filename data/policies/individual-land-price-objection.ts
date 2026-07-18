@@ -3,7 +3,7 @@ export const individualLandPriceObjectionPolicy = {
   id: '404', type: 'service' as const,
   title: '개별공시지가 이의신청 공시일부터 30일 이내 재산세 낮추는 법',
   titleKeywords: { k1: '개별공시지가이의신청', k2: '공시일부터30일이내', k3: '토지소유자의견제출참고자료', k4: '시군구부동산평가과' },
-  slug: 'individual-land-price-objection', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'individual-land-price-objection', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '공시일부터 30일 이내(처리 총 30일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000011', ctaLabel: '정부24 개별공시지가 이의신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

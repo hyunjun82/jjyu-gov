@@ -3,7 +3,7 @@ export const employmentInsuranceCertificateIssuancePolicy = {
   id: '388', type: 'service' as const,
   title: '고용산재보험 완납증명원 사업주 신분증만으로 즉시 발급받는 법',
   titleKeywords: { k1: '고용산재보험제증명발급', k2: '보험료완납여부증명원', k3: '산재요양승인반려확인서', k4: '근로복지공단지역본부' },
-  slug: 'employment-insurance-certificate-issuance', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'employment-insurance-certificate-issuance', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14920000085', ctaLabel: '정부24 고용·산재보험 제증명 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

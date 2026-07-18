@@ -3,7 +3,7 @@ export const employmentInsuranceReviewRequestPolicy = {
   id: '393', type: 'service' as const,
   title: '실업급여 거부처분 억울하면 30일 만에 심사청구하는 법' ,
   titleKeywords: { k1: '고용보험심사청구', k2: '실업급여육아휴직급여처분이의', k3: '피보험자격취득상실확인', k4: '고용보험심사관지방고용노동관서' },
-  slug: 'employment-insurance-review-request', org: '고용노동부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'employment-insurance-review-request', org: '고용노동부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '원처분을 안 날부터 청구 가능(처리 총 30일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14900000088', ctaLabel: '정부24 고용보험 심사청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

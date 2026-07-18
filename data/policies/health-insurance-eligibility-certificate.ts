@@ -3,7 +3,7 @@ export const healthInsuranceEligibilityCertificatePolicy = {
   id: '296', type: 'service' as const,
   title: '건강보험 자격득실확인서 인터넷 무료 발급받고 가입이력 확인하는 법',
   titleKeywords: { k1: '건강보험자격득실확인서', k2: '인터넷무료발급', k3: '가입이력확인', k4: '정부24' },
-  slug: 'health-insurance-eligibility-certificate', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'health-insurance-eligibility-certificate', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=PG4CADM0107', ctaLabel: '정부24 건강보험 자격득실 확인서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const realEstateRegistrationNumberCertificatePolicy = {
   id: '400', type: 'service' as const,
   title: '외국인 부동산등기용 등록증명서 인터넷 무료로 즉시 발급받는 법',
   titleKeywords: { k1: '부동산등기용등록증명서', k2: '법인아닌사단재단외국인', k3: '전자민원인터넷발급무료', k4: '시군구접수처리' },
-  slug: 'real-estate-registration-number-certificate', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'real-estate-registration-number-certificate', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '통당 1,000원(전자민원 인터넷 발급 시 무료)', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000038', ctaLabel: '정부24 부동산등기용 등록증명서 발급 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

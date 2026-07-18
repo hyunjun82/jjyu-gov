@@ -3,7 +3,7 @@ export const gedExamApplicationPolicy = {
   id: '424', type: 'service' as const,
   title: '검정고시 응시신청 졸업증명서 갖춰 시도교육청에 즉시 접수하는 법',
   titleKeywords: { k1: '검정고시응시신청', k2: '졸업증명서평생학습이력증명서', k3: '시도교육청응시기간', k4: 'ged합격증명서와의차이' },
-  slug: 'ged-exam-application', org: '교육부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'ged-exam-application', org: '교육부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 조례로 결정(시도별 상이)', deadline: '시도교육청이 정한 응시기간 내 신청(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13410000009', ctaLabel: '정부24 검정고시 응시 신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

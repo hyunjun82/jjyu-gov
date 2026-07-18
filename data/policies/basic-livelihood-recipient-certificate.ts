@@ -3,7 +3,7 @@ export const basicLivelihoodRecipientCertificatePolicy = {
   id: '313', type: 'service' as const,
   title: '기초생활수급자증명서 무료 발급받고 교육급여는 교육청에서 받는 법',
   titleKeywords: { k1: '기초생활수급자증명서', k2: '교육급여증명서', k3: '무료발급', k4: '정부24' },
-  slug: 'basic-livelihood-recipient-certificate', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'basic-livelihood-recipient-certificate', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000280', ctaLabel: '정부24 국민기초생활수급자 증명서 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

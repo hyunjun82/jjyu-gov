@@ -3,7 +3,7 @@ export const militaryServicePostponementPolicy = {
   id: '370', type: 'service' as const,
   title: '병역판정검사 입영일자 연기 진단서로 신청 유형별 처리기간 다른 법',
   titleKeywords: { k1: '병역의무이행일자연기', k2: '입영소집일자연기신청서', k3: '병무용진단서질병심신장애', k4: '지방병무청병무지청' },
-  slug: 'military-service-postponement', org: '병무청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'military-service-postponement', org: '병무청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '통지받은 이행일 전 사유 발생 시 신청(검사연기 즉시, 입영·소집연기 총 2일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13000000006', ctaLabel: '정부24 병역의무 이행일자 연기신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

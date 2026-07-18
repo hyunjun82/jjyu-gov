@@ -3,7 +3,7 @@ export const residentIdCardNewIssuancePolicy = {
   id: '418', type: 'service' as const,
   title: '만17세 주민등록증 최초 발급 사진 챙겨 읍면동에서 14일 만에 신청하는 법',
   titleKeywords: { k1: '주민등록증신규발급신청', k2: '만17세이상최초발급', k3: '지문등록6개월이내', k4: '읍면동출장소' },
-  slug: 'resident-id-card-new-issuance', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'resident-id-card-new-issuance', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '주민등록 후 17세 이상부터 신청 가능(처리 총 14일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000013', ctaLabel: '정부24 주민등록증 신규 발급신청 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

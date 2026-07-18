@@ -3,7 +3,7 @@ export const nationalPensionReviewRequestPolicy = {
   id: '358', type: 'service' as const,
   title: '국민연금 심사청구 자격 보험료 처분에 이의 있으면 60일 만에 다투는 법',
   titleKeywords: { k1: '국민연금심사청구', k2: '기준소득월액이의', k3: '국민연금법시행규칙30호', k4: '국민연금공단건강보험공단' },
-  slug: 'national-pension-review-request', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-pension-review-request', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '처분을 안 날부터 청구 가능(처리 총 60일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13520000020', ctaLabel: '정부24 국민연금 심사청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

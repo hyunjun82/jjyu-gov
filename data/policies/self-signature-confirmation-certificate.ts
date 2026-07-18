@@ -3,7 +3,7 @@ export const selfSignatureConfirmationCertificatePolicy = {
   id: '316', type: 'service' as const,
   title: '본인서명사실확인서 2028년까지 무료 발급받고 인감증명서 대신 쓰는 법',
   titleKeywords: { k1: '본인서명사실확인서', k2: '인감증명서대체', k3: '2028년까지무료', k4: '전자본인서명확인서' },
-  slug: 'self-signature-confirmation-certificate', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'self-signature-confirmation-certificate', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '무료(원래 1통당 600원이나 2028년 12월 31일까지 면제)', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13110000047', ctaLabel: '정부24 본인서명사실확인서 발급 안내 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

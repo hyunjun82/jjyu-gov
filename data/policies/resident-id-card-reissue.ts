@@ -3,7 +3,7 @@ export const residentIdCardReissuePolicy = {
   id: '363', type: 'service' as const,
   title: '주민등록증 분실 재발급 IC칩 포함 1만원 총14일 걸리는 법',
   titleKeywords: { k1: '주민등록증재발급', k2: 'IC칩포함미포함수수료', k3: '분실훼손사진1장', k4: '읍면동출장소14일' },
-  slug: 'resident-id-card-reissue', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'resident-id-card-reissue', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: 'IC칩 미포함 5,000원, IC칩 포함 10,000원', deadline: '상시 신청 가능(처리 총 14일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000018', ctaLabel: '정부24 주민등록증 재발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const nationalTaxPaymentCertificatePolicy = {
   id: '309', type: 'service' as const,
   title: '국세 납세증명서 인터넷 무료 발급받고 해외이주여권용 10일 대비하는 법',
   titleKeywords: { k1: '국세납세증명서', k2: '해외이주여권용', k3: '체납사실없음', k4: '홈택스' },
-  slug: 'national-tax-payment-certificate', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-tax-payment-certificate', org: '국세청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '일반용 즉시(3시간), 해외이주여권용 총 10일', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000011', ctaLabel: '정부24 납세증명서(국세) 발급 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

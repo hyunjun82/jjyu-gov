@@ -3,7 +3,7 @@ export const passportIssuancePolicy = {
   id: '307', type: 'service' as const,
   title: '여권 발급 수수료 확인하고 재발급은 정부24로 신청하는 법',
   titleKeywords: { k1: '여권발급', k2: '재발급수수료', k3: '전자여권', k4: '정부24' },
-  slug: 'passport-issuance', org: '외교부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'passport-issuance', org: '외교부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '복수여권 10년 52,000원·5년 44,000원, 단수여권(전자) 17,000원',
   deadline: '일반여권 총 8일, 여행증명서·긴급여권 총 1일', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12600000001', ctaLabel: '정부24 여권 발급 신청 바로가기',

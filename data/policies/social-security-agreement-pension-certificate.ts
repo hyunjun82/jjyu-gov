@@ -3,7 +3,7 @@ export const socialSecurityAgreementPensionCertificatePolicy = {
   id: '403', type: 'service' as const,
   title: '해외파견 국민연금 가입증명서 파견명령서로 7일 만에 이중가입 면제받는 법',
   titleKeywords: { k1: '사회보장협정국민연금가입증명서', k2: '상대국연금제도가입면제', k3: '파견근무명령서현지고용계약서', k4: '국민연금공단본부지사' },
-  slug: 'social-security-agreement-pension-certificate', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'social-security-agreement-pension-certificate', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '해외파견 전 신청 권장(처리 총 7일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000390', ctaLabel: '정부24 사회보장협정 국민연금 가입증명서 발급 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

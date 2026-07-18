@@ -3,7 +3,7 @@ export const transferOfResidenceReportPolicy = {
   id: '287', type: 'service' as const,
   title: '전입신고 14일 이내 인터넷으로 세대주확인까지 끝내는 법',
   titleKeywords: { k1: '전입신고', k2: '14일이내', k3: '세대주확인', k4: '정부24' },
-  slug: 'transfer-of-residence-report', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'transfer-of-residence-report', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '새 거주지 전입일부터 14일 이내', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000016', ctaLabel: '정부24 전입신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const foreignerRegistrationPolicy = {
   id: '413', type: 'service' as const,
   title: '외국인등록 90일 초과 체류 시 여권 사진으로 35000원 즉시 신청하는 법',
   titleKeywords: { k1: '외국인등록신청', k2: '입국일부터90일이내', k3: '통합신청서신고서34호', k4: '출입국외국인청사무소' },
-  slug: 'foreigner-registration', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'foreigner-registration', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 35,000원', deadline: '입국한 날부터 90일 이내(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000025', ctaLabel: '정부24 외국인등록 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

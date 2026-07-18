@@ -3,7 +3,7 @@ export const commercialLeaseFixedDatePolicy = {
   id: '342', type: 'service' as const,
   title: '상가건물 확정일자 세무서에서 받고 보증금 우선변제권 확보하는 법',
   titleKeywords: { k1: '상가건물확정일자', k2: '세무서신청', k3: '보증금우선변제', k4: '상가건물임대차보호법' },
-  slug: 'commercial-lease-fixed-date', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'commercial-lease-fixed-date', org: '국세청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000286', ctaLabel: '정부24 상가건물 확정일자 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

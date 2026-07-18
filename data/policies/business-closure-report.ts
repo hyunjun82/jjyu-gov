@@ -3,7 +3,7 @@ export const businessClosureReportPolicy = {
   id: '317', type: 'service' as const,
   title: '사업자 휴업 폐업신고 홈택스로 무료 신고하고 사업자등록증 정리하는 법',
   titleKeywords: { k1: '휴업폐업신고', k2: '사업자등록증첨부', k3: '홈택스무료신고', k4: '국세청' },
-  slug: 'business-closure-report', org: '국세청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'business-closure-report', org: '국세청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '휴업·폐업 즉시(사실상 사업을 개시하지 않게 된 때 포함)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000078', ctaLabel: '정부24 사업자의 휴업(폐업)신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const residentRegistrationCertificatePolicy = {
   id: '285', type: 'service' as const,
   title: '주민등록등본 초본 인터넷 무료 발급받고 대리인 위임장 준비하는 법',
   titleKeywords: { k1: '주민등록등본초본', k2: '인터넷발급', k3: '대리인위임장', k4: '정부24' },
-  slug: 'resident-registration-certificate', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'resident-registration-certificate', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '1통 400원(이해관계인 500원), 인터넷 발급 무료',
   deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A01001&CappBizCD=13100000015', ctaLabel: '정부24 주민등록등본·초본 발급 바로가기',

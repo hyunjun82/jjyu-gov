@@ -3,7 +3,7 @@ export const vehicleMortgageRegistrationPolicy = {
   id: '350', type: 'service' as const,
   title: '자동차 저당권설정등록 car365에서 이전 말소 변경까지 신청하는 법',
   titleKeywords: { k1: '자동차저당권설정등록', k2: 'car365온라인신청', k3: '저당권말소변경이전', k4: '인감증명서본인서명확인서' },
-  slug: 'vehicle-mortgage-registration', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-mortgage-registration', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료(자동차 등 특정동산 저당법 시행령 제10조에서 정한 금액)', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.car365.go.kr', ctaLabel: 'car365 자동차 저당권등록 온라인신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

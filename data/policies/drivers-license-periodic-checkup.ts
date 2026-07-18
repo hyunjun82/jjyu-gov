@@ -3,7 +3,7 @@ export const driversLicensePeriodicCheckupPolicy = {
   id: '308', type: 'service' as const,
   title: '운전면허 정기적성검사 10년마다 받고 판정료 6000원 준비하는 법',
   titleKeywords: { k1: '운전면허정기적성검사', k2: '10년마다', k3: '판정료6000원', k4: '경찰청' },
-  slug: 'drivers-license-periodic-checkup', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'drivers-license-periodic-checkup', org: '경찰청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '정기적성검사 판정료 6,000원, 면허증발급 10,000~15,000원',
   deadline: '10년에 1회(면허시험장 접수 시 즉시, 경찰관서 접수 시 7~14일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000054', ctaLabel: '정부24 운전면허 정기적성검사 신청 바로가기',

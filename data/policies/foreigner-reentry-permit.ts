@@ -3,7 +3,7 @@ export const foreignerReentryPermitPolicy = {
   id: '334', type: 'service' as const,
   title: '재입국허가 출국 전에 신청해 체류자격 유지하고 3일 만에 받는 법',
   titleKeywords: { k1: '재입국허가', k2: '체류자격유지', k3: '단수복수수수료', k4: '법무부' },
-  slug: 'foreigner-reentry-permit', org: '법무부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'foreigner-reentry-permit', org: '법무부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '단수 30,000원, 복수 50,000원', deadline: '출국 전 신청(처리 총 3일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000093', ctaLabel: '정부24 재입국허가 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

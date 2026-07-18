@@ -3,7 +3,7 @@ export const vehicleRegistrationCardReissuePolicy = {
   id: '324', type: 'service' as const,
   title: '자동차등록증 재발급 인터넷 600원에 신청하고 원본은 등록사업소서 받는 법',
   titleKeywords: { k1: '자동차등록증재발급', k2: '훼손분실도난', k3: '원본발급차이', k4: '자동차민원대국민포털' },
-  slug: 'vehicle-registration-card-reissue', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-registration-card-reissue', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '700원(인터넷 신청 600원, 방문수령(후불) 선택 시 700원)', deadline: '상시 신청 가능(즉시 처리, 근무시간 내 최대 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000338', ctaLabel: '정부24 자동차등록증 재발급 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

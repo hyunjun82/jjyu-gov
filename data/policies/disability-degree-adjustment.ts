@@ -3,7 +3,7 @@ export const disabilityDegreeAdjustmentPolicy = {
   id: '376', type: 'service' as const,
   title: '장애정도 조정신청 상태 변화 시 30일 만에 등급 재심사받는 법',
   titleKeywords: { k1: '장애정도조정신청', k2: '심한장애심하지않은장애', k3: '장애정도심사실시확인서서식12', k4: '읍면동국민연금공단' },
-  slug: 'disability-degree-adjustment', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'disability-degree-adjustment', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '장애상태가 현저히 변화했을 때 신청(처리 총 30일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000112', ctaLabel: '정부24 장애정도 조정신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

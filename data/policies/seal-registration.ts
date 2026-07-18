@@ -3,7 +3,7 @@ export const sealRegistrationPolicy = {
   id: '362', type: 'service' as const,
   title: '인감신고 읍면동 방문으로 무료 즉시 등록하고 인감증명서 발급받는 법',
   titleKeywords: { k1: '인감신고방법', k2: '인감변경신고서9호', k3: '대리인서면신고사유', k4: '읍면동출장소' },
-  slug: 'seal-registration', org: '행정안전부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'seal-registration', org: '행정안전부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000021', ctaLabel: '정부24 인감신고 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

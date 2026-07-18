@@ -3,7 +3,7 @@ export const nationalPensionDisabilityBenefitPolicy = {
   id: '395', type: 'service' as const,
   title: '국민연금 장애연금 장애심사용 진단서로 1개월 만에 청구하는 법',
   titleKeywords: { k1: '국민연금장애연금지급청구', k2: '장애연금액변경신청', k3: '국민연금장애심사용진단서', k4: '국민연금공단지사' },
-  slug: 'national-pension-disability-benefit', org: '보건복지부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'national-pension-disability-benefit', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 1개월)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000301', ctaLabel: '정부24 국민연금 장애연금 지급청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

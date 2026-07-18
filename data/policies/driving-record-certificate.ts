@@ -3,7 +3,7 @@ export const drivingRecordCertificatePolicy = {
   id: '415', type: 'service' as const,
   title: '운전경력증명서 신분증만 있으면 무료로 즉시 인터넷 발급받는 법',
   titleKeywords: { k1: '운전경력증명서발급', k2: '법규위반사고내역조회', k3: 'efine.go.kr온라인신청', k4: '경찰서접수처리' },
-  slug: 'driving-record-certificate', org: '경찰청·정부24', cat: '생활', catSlug: 'life',
+  slug: 'driving-record-certificate', org: '경찰청·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 무료', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13200000049', ctaLabel: '정부24 운전경력증명서 발급 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

@@ -3,7 +3,7 @@ export const realEstateAgencyClosureReportPolicy = {
   id: '430', type: 'service' as const,
   title: '공인중개사무소 휴업 폐업 신고 등록증만 있으면 즉시 처리하는 법',
   titleKeywords: { k1: '부동산중개업휴업폐업재개신고', k2: '휴업기간변경신고별지13호', k3: '세무서휴업폐업신고서겸용', k4: '시군구접수처리' },
-  slug: 'real-estate-agency-closure-report', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'real-estate-agency-closure-report', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '휴업·폐업·재개·휴업기간변경 발생 시 신고(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000035', ctaLabel: '정부24 부동산중개업 휴업·폐업 신고 바로가기',
   datePublished: '2026-07-18T09:00:00+09:00', dateModified: '2026-07-18T09:00:00+09:00',

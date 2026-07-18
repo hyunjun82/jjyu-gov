@@ -3,7 +3,7 @@ export const vehicleNewRegistrationPolicy = {
   id: '353', type: 'service' as const,
   title: '자동차 신규등록 신차 수입차 2000원에 즉시 접수하는 법',
   titleKeywords: { k1: '자동차신규등록', k2: '신조차수입차부활차', k3: '사용본거지타시도2500원', k4: '자동차제작증수입신고필증' },
-  slug: 'vehicle-new-registration', org: '국토교통부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'vehicle-new-registration', org: '국토교통부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 2,000원(사용본거지와 다른 시·도 신청 시 2,500원)', deadline: '상시 신청 가능(처리 즉시, 근무시간 내 3시간)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=15000000324', ctaLabel: '정부24 자동차 신규등록 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

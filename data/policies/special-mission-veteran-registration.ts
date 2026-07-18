@@ -3,7 +3,7 @@ export const specialMissionVeteranRegistrationPolicy = {
   id: '398', type: 'service' as const,
   title: '특수임무유공자 유족등록 사진과 가족관계증명서로 30일 신청하는 법',
   titleKeywords: { k1: '특수임무유공자유족등록', k2: '특수임무수행자보상심사위원회', k3: '사실혼배우자부양양육입증', k4: '보훈지청제주특별자치도' },
-  slug: 'special-mission-veteran-registration', org: '국가보훈부·정부24', cat: '생활', catSlug: 'life',
+  slug: 'special-mission-veteran-registration', org: '국가보훈부·정부24', cat: '발급·신청', catSlug: 'issue',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 30일)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=11800000091', ctaLabel: '정부24 특수임무유공자(유족)등록 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',
