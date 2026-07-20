@@ -661,6 +661,8 @@ import { businessStatusReportPolicy, businessStatusReportSpokes } from './busine
 import { liquorManufacturingSiteRelocationReportPolicy, liquorManufacturingSiteRelocationReportSpokes } from './liquor-manufacturing-site-relocation-report';
 import { passengerTransportLicenseReissuePolicy, passengerTransportLicenseReissueSpokes } from './passenger-transport-license-reissue';
 import { lpgBusinessPermitPolicy, lpgBusinessPermitSpokes } from './lpg-business-permit';
+import { foodBusinessClosureReportPolicy, foodBusinessClosureReportSpokes } from './food-business-closure-report';
+import { importedFoodBusinessRegistrationPolicy, importedFoodBusinessRegistrationSpokes } from './imported-food-business-registration';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1202,6 +1204,8 @@ export const PoliciesById: Record<string, any> = {
   '621': liquorManufacturingSiteRelocationReportPolicy,
   '622': passengerTransportLicenseReissuePolicy,
   '623': lpgBusinessPermitPolicy,
+  '624': foodBusinessClosureReportPolicy,
+  '625': importedFoodBusinessRegistrationPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1814,6 +1818,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'liquor-manufacturing-site-relocation-report': liquorManufacturingSiteRelocationReportPolicy,
   'passenger-transport-license-reissue': passengerTransportLicenseReissuePolicy,
   'lpg-business-permit': lpgBusinessPermitPolicy,
+  'food-business-closure-report': foodBusinessClosureReportPolicy,
+  'imported-food-business-registration': importedFoodBusinessRegistrationPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2470,6 +2476,8 @@ export const SpokesById: Record<string, any[]> = {
   '621': liquorManufacturingSiteRelocationReportSpokes,
   '622': passengerTransportLicenseReissueSpokes,
   '623': lpgBusinessPermitSpokes,
+  '624': foodBusinessClosureReportSpokes,
+  '625': importedFoodBusinessRegistrationSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3082,6 +3090,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'liquor-manufacturing-site-relocation-report': liquorManufacturingSiteRelocationReportSpokes,
   'passenger-transport-license-reissue': passengerTransportLicenseReissueSpokes,
   'lpg-business-permit': lpgBusinessPermitSpokes,
+  'food-business-closure-report': foodBusinessClosureReportSpokes,
+  'imported-food-business-registration': importedFoodBusinessRegistrationSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
