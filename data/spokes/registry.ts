@@ -127,6 +127,10 @@ import { hiddenInsuranceClaimRefundSpokeContent } from '@/app/policy/[id]/[spoke
 import { voicePhishingRefundProcedureSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/refund-procedure';
 import { voicePhishingDecreeChangesSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/decree-changes';
 import { voicePhishingDeadlineMissedSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/deadline-missed';
+import { samsungMisoOnlineApplicationSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/online-application';
+import { samsungMisoEligibilityDetailsSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/eligibility-details';
+import { samsungMisoLoanProductsComparisonSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/loan-products-comparison';
+import { samsungMisoRequiredDocumentsSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/required-documents';
 import { autoInsurancePremiumCalculationTipsSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/보험료계산방법및절약팁';
 import { autoInsurancePremiumSavingSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/premium-saving-special-terms';
 import { applianceRebateProgramStatusSpokeContent } from '@/app/policy/[id]/[spoke]/content/생활정보/에어컨지원금현황';
@@ -2597,6 +2601,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'amount-payment-method': seoulHousingAmountPaymentSpokeContent,
     'how-to-apply': seoulHousingHowToApplySpokeContent,
     'extension-and-overlap': seoulHousingExtensionOverlapSpokeContent,
+  },
+
+  'samsung-miso-finance-loan': {
+    'online-application': samsungMisoOnlineApplicationSpokeContent,
+    'eligibility-details': samsungMisoEligibilityDetailsSpokeContent,
+    'loan-products-comparison': samsungMisoLoanProductsComparisonSpokeContent,
+    'required-documents': samsungMisoRequiredDocumentsSpokeContent,
   },
 
   'hidden-insurance-money': {

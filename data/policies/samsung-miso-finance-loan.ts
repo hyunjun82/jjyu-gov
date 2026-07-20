@@ -125,4 +125,9 @@ export const samsungMisoFinanceLoanPolicy: PolicyData = {
   ],
 };
 
-export const samsungMisoFinanceLoanSpokes = [];
+export const samsungMisoFinanceLoanSpokes = [
+  { slug: 'online-application', title: '삼성미소금융재단 대출 신청 홈페이지 바로가기, 온라인 상담부터 지점 방문까지' },
+  { slug: 'eligibility-details', title: '삼성미소금융재단 대출조건 자세히, 지원대상 5가지와 제한사항' },
+  { slug: 'loan-products-comparison', title: '삼성미소금융재단 창업자금·운영자금 대출 한도와 금리 비교' },
+  { slug: 'required-documents', title: '삼성미소금융재단 대출 필요서류 총정리, 준비물 체크리스트' },
+];
