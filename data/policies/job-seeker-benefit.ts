@@ -200,7 +200,7 @@ export const jobSeekerBenefitPolicy: PolicyData = {
       toolCta: {
         label: '내 예상 수급액이 궁금하다면',
         buttonLabel: '구직급여 모의계산기',
-        applyUrl: 'https://www.work24.go.kr/cm/c/f/1200/selecSimulateCalc.do',
+        applyUrl: '/tools/job-seeker-benefit-calculator',
       },
     },
     {
