@@ -94,9 +94,37 @@ export default function KeyFactsBox({
   );
 }
 
+// 텍스트 안의 URL·도메인(www.work24.go.kr, https://... 등)을 클릭 가능한 링크로 변환
+const URL_PATTERN = /(https?:\/\/[^\s)]+|(?:www\.)?[a-z0-9-]+\.(?:go\.kr|or\.kr|co\.kr|com|net)(?:\/[^\s)]*)?)/gi;
+
+function linkifyUrls(text: string, key: number | string) {
+  const parts = text.split(URL_PATTERN);
+  return parts.map((part, idx) => {
+    if (part && URL_PATTERN.test(part)) {
+      URL_PATTERN.lastIndex = 0;
+      const href = part.startsWith('http') ? part : `https://${part}`;
+      return (
+        <a
+          key={`${key}-url-${idx}`}
+          href={href}
+          rel="noopener"
+          className="text-gov-navy underline font-medium"
+        >
+          {part}
+        </a>
+      );
+    }
+    URL_PATTERN.lastIndex = 0;
+    return <Fragment key={`${key}-txt-${idx}`}>{part}</Fragment>;
+  });
+}
+
 function renderWithHighlights(text: string, words: string[]) {
   if (typeof text !== 'string') return String(text ?? '');
-  if (!words.length) return text;
+
+  if (!words.length) {
+    return linkifyUrls(text, 'l');
+  }
 
   const sortedWords = [...words].sort((a, b) => b.length - a.length);
   const escaped = sortedWords.map((w) =>
@@ -117,6 +145,6 @@ function renderWithHighlights(text: string, words: string[]) {
         </mark>
       );
     }
-    return <Fragment key={idx}>{part}</Fragment>;
+    return <Fragment key={idx}>{linkifyUrls(part, idx)}</Fragment>;
   });
 }

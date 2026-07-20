@@ -9,6 +9,10 @@ export const jobSeekerBenefitPolicy: PolicyData = {
   catSlug: 'fund',
   org: '고용노동부',
   metaDescription: '구직급여는 비자발적 이직자에게 고용보험 가입 180일 이상 등 요건 충족 시 1일 상한 68,100원·하한 66,048원을 120~270일간 지급합니다.',
+  amount: '1일 상한 68,100원 · 하한 66,048원',
+  deadline: '이직일 다음날부터 12개월 이내 신청',
+  applyUrl: 'https://www.work24.go.kr',
+  ctaLabel: '고용24 구직급여 신청 바로가기',
 
   keyFacts: {
     지원유형: {
