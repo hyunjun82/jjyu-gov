@@ -664,6 +664,7 @@ import { lpgBusinessPermitPolicy, lpgBusinessPermitSpokes } from './lpg-business
 import { foodBusinessClosureReportPolicy, foodBusinessClosureReportSpokes } from './food-business-closure-report';
 import { importedFoodBusinessRegistrationPolicy, importedFoodBusinessRegistrationSpokes } from './imported-food-business-registration';
 import { constructionMachineryCertificateReissuePolicy, constructionMachineryCertificateReissueSpokes } from './construction-machinery-certificate-reissue';
+import { constructionMachineryBusinessCertificateReissuePolicy, constructionMachineryBusinessCertificateReissueSpokes } from './construction-machinery-business-certificate-reissue';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1208,6 +1209,7 @@ export const PoliciesById: Record<string, any> = {
   '624': foodBusinessClosureReportPolicy,
   '625': importedFoodBusinessRegistrationPolicy,
   '626': constructionMachineryCertificateReissuePolicy,
+  '627': constructionMachineryBusinessCertificateReissuePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1823,6 +1825,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'food-business-closure-report': foodBusinessClosureReportPolicy,
   'imported-food-business-registration': importedFoodBusinessRegistrationPolicy,
   'construction-machinery-certificate-reissue': constructionMachineryCertificateReissuePolicy,
+  'construction-machinery-business-certificate-reissue': constructionMachineryBusinessCertificateReissuePolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2482,6 +2485,7 @@ export const SpokesById: Record<string, any[]> = {
   '624': foodBusinessClosureReportSpokes,
   '625': importedFoodBusinessRegistrationSpokes,
   '626': constructionMachineryCertificateReissueSpokes,
+  '627': constructionMachineryBusinessCertificateReissueSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3097,6 +3101,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'food-business-closure-report': foodBusinessClosureReportSpokes,
   'imported-food-business-registration': importedFoodBusinessRegistrationSpokes,
   'construction-machinery-certificate-reissue': constructionMachineryCertificateReissueSpokes,
+  'construction-machinery-business-certificate-reissue': constructionMachineryBusinessCertificateReissueSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
