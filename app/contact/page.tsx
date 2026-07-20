@@ -1,4 +1,7 @@
-export const metadata = { title: '문의하기 | 정부지원사업' };
+export const metadata = {
+  title: '문의하기 | 정부지원사업',
+  description: '콘텐츠 오류 제보·정정 요청 등 정부지원사업 사이트 관련 문의 안내 페이지입니다.',
+};
 
 export default function ContactPage() {
   return (

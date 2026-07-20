@@ -1,4 +1,7 @@
-export const metadata = { title: '회사소개 | 정부지원사업' };
+export const metadata = {
+  title: '회사소개 | 정부지원사업',
+  description: '정부지원사업은 공공데이터포털·보조금24·복지로 공식 자료를 기반으로 정부 지원금·환급금·대출 정보를 정리해 제공하는 정보 서비스입니다.',
+};
 
 export default function AboutPage() {
   return (

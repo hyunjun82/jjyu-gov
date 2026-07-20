@@ -24,6 +24,19 @@ export function generateStaticParams() {
   return Object.keys(CATEGORY_LABELS).map((slug) => ({ slug }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const label = CATEGORY_LABELS[slug] ?? slug;
+  const count = Object.values(PoliciesBySlug).filter((p: any) => p.catSlug === slug).length;
+  const title = NON_SUBSIDY_CATS.has(slug)
+    ? `${label} | 정부지원사업`
+    : `${label} 정부지원금 총정리 | 정부지원사업`;
+  const description = NON_SUBSIDY_CATS.has(slug)
+    ? `${label} 관련 발급·신청 절차 ${count}건을 정부 공식 자료 기준으로 정리했습니다. 신청 방법·수수료·처리기간까지 한 번에 확인하세요.`
+    : `${label} 분야 정부지원금 ${count}건을 신청자격·지원금액·신청방법까지 정부 공식 자료 기준으로 정리했습니다.`;
+  return { title, description };
+}
+
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const label = CATEGORY_LABELS[slug] ?? slug;

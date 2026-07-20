@@ -1,4 +1,7 @@
-export const metadata = { title: '이용약관 | 정부지원사업' };
+export const metadata = {
+  title: '이용약관 | 정부지원사업',
+  description: '정부지원사업 웹사이트 이용약관 — 콘텐츠 이용 범위와 책임 소재, 정보 제공 목적의 안내 서비스임을 명시합니다.',
+};
 
 export default function TermsPage() {
   return (

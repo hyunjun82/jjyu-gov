@@ -1,4 +1,7 @@
-export const metadata = { title: '개인정보처리방침 | 정부지원사업' };
+export const metadata = {
+  title: '개인정보처리방침 | 정부지원사업',
+  description: '정부지원사업은 별도 회원가입 없이 개인정보를 직접 수집·저장하지 않으며, 익명 통계 도구만 사용합니다.',
+};
 
 export default function PrivacyPage() {
   return (
