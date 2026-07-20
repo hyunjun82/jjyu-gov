@@ -659,6 +659,8 @@ import { disabilityStandardWorkplaceCertificationPolicy, disabilityStandardWorkp
 import { animalPharmacyEstablishmentReportPolicy, animalPharmacyEstablishmentReportSpokes } from './animal-pharmacy-establishment-report';
 import { businessStatusReportPolicy, businessStatusReportSpokes } from './business-status-report';
 import { liquorManufacturingSiteRelocationReportPolicy, liquorManufacturingSiteRelocationReportSpokes } from './liquor-manufacturing-site-relocation-report';
+import { passengerTransportLicenseReissuePolicy, passengerTransportLicenseReissueSpokes } from './passenger-transport-license-reissue';
+import { lpgBusinessPermitPolicy, lpgBusinessPermitSpokes } from './lpg-business-permit';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1198,6 +1200,8 @@ export const PoliciesById: Record<string, any> = {
   '619': animalPharmacyEstablishmentReportPolicy,
   '620': businessStatusReportPolicy,
   '621': liquorManufacturingSiteRelocationReportPolicy,
+  '622': passengerTransportLicenseReissuePolicy,
+  '623': lpgBusinessPermitPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1808,6 +1812,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'animal-pharmacy-establishment-report': animalPharmacyEstablishmentReportPolicy,
   'business-status-report': businessStatusReportPolicy,
   'liquor-manufacturing-site-relocation-report': liquorManufacturingSiteRelocationReportPolicy,
+  'passenger-transport-license-reissue': passengerTransportLicenseReissuePolicy,
+  'lpg-business-permit': lpgBusinessPermitPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2462,6 +2468,8 @@ export const SpokesById: Record<string, any[]> = {
   '619': animalPharmacyEstablishmentReportSpokes,
   '620': businessStatusReportSpokes,
   '621': liquorManufacturingSiteRelocationReportSpokes,
+  '622': passengerTransportLicenseReissueSpokes,
+  '623': lpgBusinessPermitSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3072,6 +3080,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'animal-pharmacy-establishment-report': animalPharmacyEstablishmentReportSpokes,
   'business-status-report': businessStatusReportSpokes,
   'liquor-manufacturing-site-relocation-report': liquorManufacturingSiteRelocationReportSpokes,
+  'passenger-transport-license-reissue': passengerTransportLicenseReissueSpokes,
+  'lpg-business-permit': lpgBusinessPermitSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
