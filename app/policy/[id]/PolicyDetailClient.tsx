@@ -330,8 +330,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                               </p>
                               <a
                                 href={d.applyUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                rel="noopener"
                                 style={{
                                   display: 'inline-block',
                                   marginTop: 4,
@@ -508,7 +507,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                   {/* 카드마다 자동 노출되는 행동 버튼 — 질문의 행동 키워드에 맞춰 문구 자동 생성.
                       q-apply(이미 전용 CTA 있음)·toolCta·ctaBlock 있는 카드는 중복 방지로 제외 */}
                   {item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && defaultActionHref && (
-                    <div style={{ marginTop: 20, textAlign: 'center' }}>
+                    <div style={{ marginTop: 20 }}>
                       <a href={defaultActionHref} className="qa-inline-cta" rel="noopener">
                         {pickActionLabel(item.q || item.question, d.ctaLabel)} →
                       </a>

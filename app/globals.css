@@ -159,18 +159,25 @@ img { max-width: 100%; display: block; }
   white-space: nowrap;
 }
 
-/* ── QA 카드마다 자동 노출되는 행동 버튼 (알약형, 진한 컬러 — moneydoc 스타일) ── */
+/* ── QA 카드마다 자동 노출되는 행동 버튼 (풀와이드, 큰 터치 타겟 — moneydoc 스타일) ── */
 .qa-inline-cta {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   background: var(--gov-primary, #003D88);
   color: #fff;
-  padding: 12px 28px;
-  border-radius: 999px;
-  font-size: 14.5px;
+  padding: 17px 20px;
+  border-radius: 14px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   letter-spacing: -0.005em;
-  box-shadow: 0 4px 12px rgba(0, 61, 136, 0.22);
+  box-shadow: 0 4px 14px rgba(0, 61, 136, 0.25);
+  box-sizing: border-box;
+}
+.qa-inline-cta:active {
+  transform: translateY(1px);
 }
 
 /* ── 본문 내 인라인 "도구형" CTA (연한 파란 박스) ── */

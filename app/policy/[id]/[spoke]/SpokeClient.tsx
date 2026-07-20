@@ -52,6 +52,18 @@ export interface SpokeData {
   sources: { name: string; url: string }[];
 }
 
+/* ── 질문 텍스트에서 행동 키워드를 뽑아 카드마다 다른 CTA 문구 생성 ── */
+function pickActionLabel(question: string, fallback: string): string {
+  const q = question || '';
+  if (/금액|얼마|지급액|수령액/.test(q)) return '지급액 확인하기';
+  if (/자격|대상|조건/.test(q)) return '자격 확인하기';
+  if (/기간|언제|며칠|일수/.test(q)) return '신청기간 확인하기';
+  if (/방법|절차|어떻게/.test(q)) return '신청 방법 보기';
+  if (/서류|준비/.test(q)) return '필요서류 확인하기';
+  if (/한도|금리|상환/.test(q)) return '한도·금리 확인하기';
+  return fallback || '공식 안내 보기';
+}
+
 /* ── 텍스트 내 highlights 단어를 형광으로 강조 ── */
 function renderWithHi(text: any, highlights: string[] = []): ReactNode {
   if (text == null || text === '') return null;
@@ -267,6 +279,13 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                     ))}
                   </ul>
                 )}
+
+                {/* 카드마다 자동 노출되는 행동 버튼 — 질문의 행동 키워드에 맞춰 문구 자동 생성 */}
+                <div style={{ marginTop: 20 }}>
+                  <a href={applyUrl} className="qa-inline-cta" rel="noopener">
+                    {pickActionLabel(item.q, policy?.ctaLabel)} →
+                  </a>
+                </div>
               </QACard>
             ))}
 
@@ -329,7 +348,7 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
               <ul className="source-list">
                 {spoke.sources.map((s, i) => (
                   <li key={i}>
-                    <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+                    <a href={s.url} rel="noopener">{s.name}</a>
                   </li>
                 ))}
               </ul>
