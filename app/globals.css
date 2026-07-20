@@ -87,6 +87,108 @@ img { max-width: 100%; display: block; }
   top: 0;
   z-index: 100;
 }
+/* ═══════════════════════════════════
+   고정 상단 CTA 바 (스크롤해도 헤더 아래 고정)
+   ═══════════════════════════════════ */
+.sticky-cta-bar {
+  position: sticky;
+  top: 64px;
+  z-index: 90;
+  background: var(--gov-primary, #003D88);
+  box-shadow: 0 2px 8px rgba(0, 61, 136, 0.18);
+}
+.sticky-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 20px;
+}
+.sticky-cta-label {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sticky-cta-btn {
+  flex-shrink: 0;
+  background: #fff;
+  color: var(--gov-primary, #003D88);
+  padding: 7px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* ── 섹션 사이 반복 CTA 블록 (진한 네이비) ── */
+.mid-cta-block {
+  background: var(--gov-primary, #003D88);
+  border-radius: 16px;
+  padding: 22px 24px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.mid-cta-heading {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.mid-cta-sub {
+  color: #C7D6EC;
+  font-size: 13px;
+}
+.mid-cta-btn {
+  flex-shrink: 0;
+  background: #fff;
+  color: var(--gov-primary, #003D88);
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* ── 본문 내 인라인 "도구형" CTA (연한 파란 박스) ── */
+.tool-cta-box {
+  background: #EEF3FB;
+  border: 1px solid #D6E0F0;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin: 16px 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.tool-cta-box span {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.tool-cta-btn {
+  flex-shrink: 0;
+  background: var(--gov-primary, #003D88);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 .header-inner {
   display: flex;
   align-items: center;

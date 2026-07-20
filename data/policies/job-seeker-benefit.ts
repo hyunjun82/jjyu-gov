@@ -13,6 +13,10 @@ export const jobSeekerBenefitPolicy: PolicyData = {
   deadline: '이직일 다음날부터 12개월 이내 신청',
   applyUrl: 'https://www.work24.go.kr',
   ctaLabel: '고용24 구직급여 신청 바로가기',
+  stickyBar: {
+    label: '2026년 구직급여 1일 상한 68,100원 · 하한 66,048원',
+    ctaLabel: '고용24 신청 바로가기',
+  },
 
   keyFacts: {
     지원유형: {
@@ -153,6 +157,11 @@ export const jobSeekerBenefitPolicy: PolicyData = {
         ],
       },
       sourceNote: '* 출처: 찾기쉬운 생활법령정보 「실업의 신고」 (2026-04-30 기준, 고용보험법 제42조·제43조)',
+      ctaBlock: {
+        heading: '실업신고, 퇴직 후 바로 하세요',
+        sub: '이직일 다음날부터 12개월이 지나면 소정급여일수가 남아 있어도 받을 수 없어요',
+        ctaLabel: '고용24 구직신청 바로가기',
+      },
     },
     {
       anchor: '비자발적이직',
@@ -188,6 +197,11 @@ export const jobSeekerBenefitPolicy: PolicyData = {
         ],
       },
       sourceNote: '* 출처: 찾기쉬운 생활법령정보 「구직급여 수급액」 (2026-04-30 기준, 고용보험법 제45조·제46조, 2026년 최저임금고시)',
+      toolCta: {
+        label: '내 예상 수급액이 궁금하다면',
+        buttonLabel: '구직급여 모의계산기',
+        applyUrl: 'https://www.work24.go.kr/cm/c/f/1200/selecSimulateCalc.do',
+      },
     },
     {
       anchor: '실업인정',

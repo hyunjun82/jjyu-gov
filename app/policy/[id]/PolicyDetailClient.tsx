@@ -160,6 +160,18 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
         />
       ))}
 
+      {/* 고정 상단 CTA 바 — 스크롤해도 헤더 아래 계속 노출 (d.stickyBar 있는 페이지만) */}
+      {d.stickyBar && (
+        <div className="sticky-cta-bar">
+          <div className="container sticky-cta-inner">
+            <span className="sticky-cta-label">{d.stickyBar.label}</span>
+            <a href={d.stickyBar.applyUrl || d.applyUrl} className="sticky-cta-btn" rel="noopener">
+              {d.stickyBar.ctaLabel} →
+            </a>
+          </div>
+        </div>
+      )}
+
       <div className="container">
         {/* 브레드크럼 */}
         <nav className="breadcrumb" aria-label="breadcrumb">
@@ -391,6 +403,16 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                     </QABox>
                   )}
 
+                  {/* 인라인 도구형 CTA — 애매한 조건(나이·소득 등)을 바로 확인해볼 수 있는 실용 링크 */}
+                  {item.toolCta && (
+                    <div className="tool-cta-box">
+                      <span>{item.toolCta.label}</span>
+                      <a href={item.toolCta.applyUrl} className="tool-cta-btn" rel="noopener">
+                        {item.toolCta.buttonLabel} →
+                      </a>
+                    </div>
+                  )}
+
                   {/* 신청 방법 탭 (Q7 또는 hasApplyMethodTabs = true) */}
                   {item.hasApplyMethodTabs && d.applyMethodTabs && (
                     <>
@@ -468,6 +490,19 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                     </p>
                   )}
                 </QACard>
+
+                {/* 섹션 사이 반복 CTA 블록 — 질문 하나 끝날 때마다 신청 유도 (item.ctaBlock 있는 항목만) */}
+                {item.ctaBlock && (
+                  <div className="mid-cta-block">
+                    <div>
+                      <div className="mid-cta-heading">{item.ctaBlock.heading}</div>
+                      {item.ctaBlock.sub && <div className="mid-cta-sub">{item.ctaBlock.sub}</div>}
+                    </div>
+                    <a href={item.ctaBlock.applyUrl || d.applyUrl} className="mid-cta-btn" rel="noopener">
+                      {item.ctaBlock.ctaLabel} →
+                    </a>
+                  </div>
+                )}
 
                 {/* 광고 gov2 — Q3 다음 (본문 중간) */}
                 {i === 2 && (
