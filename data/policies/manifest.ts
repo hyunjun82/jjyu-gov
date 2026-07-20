@@ -667,6 +667,7 @@ import { constructionMachineryCertificateReissuePolicy, constructionMachineryCer
 import { constructionMachineryBusinessCertificateReissuePolicy, constructionMachineryBusinessCertificateReissueSpokes } from './construction-machinery-business-certificate-reissue';
 import { sanitarianLicenseReissuePolicy, sanitarianLicenseReissueSpokes } from './sanitarian-license-reissue';
 import { sanitarianLicenseCertificatePolicy, sanitarianLicenseCertificateSpokes } from './sanitarian-license-certificate';
+import { medicalLicenseCertificatePolicy, medicalLicenseCertificateSpokes } from './medical-license-certificate';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 
@@ -1214,6 +1215,7 @@ export const PoliciesById: Record<string, any> = {
   '627': constructionMachineryBusinessCertificateReissuePolicy,
   '628': sanitarianLicenseReissuePolicy,
   '629': sanitarianLicenseCertificatePolicy,
+  '630': medicalLicenseCertificatePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1832,6 +1834,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'construction-machinery-business-certificate-reissue': constructionMachineryBusinessCertificateReissuePolicy,
   'sanitarian-license-reissue': sanitarianLicenseReissuePolicy,
   'sanitarian-license-certificate': sanitarianLicenseCertificatePolicy,
+  'medical-license-certificate': medicalLicenseCertificatePolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2494,6 +2497,7 @@ export const SpokesById: Record<string, any[]> = {
   '627': constructionMachineryBusinessCertificateReissueSpokes,
   '628': sanitarianLicenseReissueSpokes,
   '629': sanitarianLicenseCertificateSpokes,
+  '630': medicalLicenseCertificateSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3112,6 +3116,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'construction-machinery-business-certificate-reissue': constructionMachineryBusinessCertificateReissueSpokes,
   'sanitarian-license-reissue': sanitarianLicenseReissueSpokes,
   'sanitarian-license-certificate': sanitarianLicenseCertificateSpokes,
+  'medical-license-certificate': medicalLicenseCertificateSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
