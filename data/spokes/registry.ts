@@ -124,6 +124,9 @@ import { hiddenInsuranceHowToFindSpokeContent } from '@/app/policy/[id]/[spoke]/
 import { hiddenInsuranceLimitationPeriodSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/limitation-period';
 import { hiddenInsuranceInheritanceCheckSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/inheritance-check';
 import { hiddenInsuranceClaimRefundSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/claim-and-refund';
+import { voicePhishingRefundProcedureSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/refund-procedure';
+import { voicePhishingDecreeChangesSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/decree-changes';
+import { voicePhishingDeadlineMissedSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/deadline-missed';
 import { autoInsurancePremiumCalculationTipsSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/보험료계산방법및절약팁';
 import { autoInsurancePremiumSavingSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/premium-saving-special-terms';
 import { applianceRebateProgramStatusSpokeContent } from '@/app/policy/[id]/[spoke]/content/생활정보/에어컨지원금현황';
@@ -2601,6 +2604,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'limitation-period': hiddenInsuranceLimitationPeriodSpokeContent,
     'inheritance-check': hiddenInsuranceInheritanceCheckSpokeContent,
     'claim-and-refund': hiddenInsuranceClaimRefundSpokeContent,
+  },
+
+  'voice-phishing-crypto-refund': {
+    'refund-procedure': voicePhishingRefundProcedureSpokeContent,
+    'decree-changes': voicePhishingDecreeChangesSpokeContent,
+    'deadline-missed': voicePhishingDeadlineMissedSpokeContent,
   },
 
   'auto-insurance-loss-ratio': {

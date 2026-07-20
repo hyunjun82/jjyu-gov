@@ -105,4 +105,8 @@ export const voicePhishingCryptoRefundPolicy: PolicyData = {
   ],
 };
 
-export const voicePhishingCryptoRefundSpokes = [];
+export const voicePhishingCryptoRefundSpokes = [
+  { slug: 'refund-procedure', title: '보이스피싱 피해금 환급 절차, 지급정지 신고부터 신청까지' },
+  { slug: 'decree-changes', title: '가상자산 보이스피싱 특별법 시행령, 뭐가 바뀌나' },
+  { slug: 'deadline-missed', title: '피싱 사기 신고했는데 피해구제 안 되면? 지급정지 자동해지 기한' },
+];
