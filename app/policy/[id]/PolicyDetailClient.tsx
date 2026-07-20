@@ -52,6 +52,18 @@ function renderBoxContent(content: string, highlights: string[] = []): ReactNode
   return renderWithHi(content, highlights);
 }
 
+// ── 질문 텍스트에서 행동 키워드를 뽑아 카드마다 다른 CTA 문구 생성 ──
+function pickActionLabel(question: string, fallback: string): string {
+  const q = question || '';
+  if (/금액|얼마|지급액|수령액/.test(q)) return '지급액 확인하기';
+  if (/자격|대상|조건/.test(q)) return '자격 확인하기';
+  if (/기간|언제|며칠|일수/.test(q)) return '신청기간 확인하기';
+  if (/방법|절차|어떻게/.test(q)) return '신청 방법 보기';
+  if (/서류|준비/.test(q)) return '필요서류 확인하기';
+  if (/한도|금리|상환/.test(q)) return '한도·금리 확인하기';
+  return fallback || '공식 안내 보기';
+}
+
 // ── 긴 intro를 2문장씩 문단으로 분할, 말미 출처 문구는 회색 작게 ──
 function renderIntro(intro: any, highlights: string[] = []): ReactNode {
   if (intro == null || intro === '') return null;
@@ -149,6 +161,9 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
 
   // 신청 방법 탭 키 (정책별로 다를 수 있음)
   const tabKeys = d.applyMethodTabs ? Object.keys(d.applyMethodTabs) : [];
+
+  // 모든 QA 카드에 공통으로 붙는 행동 버튼의 목적지 (applyUrl 없으면 1차 출처로 폴백)
+  const defaultActionHref: string | undefined = d.applyUrl || d.sources?.[0]?.url;
 
   return (
     <main className="detail bg-gov-bg min-h-screen">
@@ -488,6 +503,16 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                     <p style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 12 }}>
                       {item.sourceNote}
                     </p>
+                  )}
+
+                  {/* 카드마다 자동 노출되는 행동 버튼 — 질문의 행동 키워드에 맞춰 문구 자동 생성.
+                      q-apply(이미 전용 CTA 있음)·toolCta·ctaBlock 있는 카드는 중복 방지로 제외 */}
+                  {item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && defaultActionHref && (
+                    <div style={{ marginTop: 20, textAlign: 'center' }}>
+                      <a href={defaultActionHref} className="qa-inline-cta" rel="noopener">
+                        {pickActionLabel(item.q || item.question, d.ctaLabel)} →
+                      </a>
+                    </div>
                   )}
                 </QACard>
 
