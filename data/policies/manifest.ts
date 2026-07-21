@@ -673,6 +673,7 @@ import { fishermanInsuranceHospitalClaimPolicy, fishermanInsuranceHospitalClaimS
 import { samsungMisoFinanceLoanPolicy, samsungMisoFinanceLoanSpokes } from './samsung-miso-finance-loan';
 import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './mounjaro-price-comparison';
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
+import { moveInReportOnlinePolicy, moveInReportOnlineSpokes } from './move-in-report-online';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -1222,6 +1223,7 @@ export const PoliciesById: Record<string, any> = {
   '631': voicePhishingCryptoRefundPolicy,
   '632': fishermanInsuranceHospitalClaimPolicy,
   '633': samsungMisoFinanceLoanPolicy,
+  '634': moveInReportOnlinePolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1844,6 +1846,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'voice-phishing-crypto-refund': voicePhishingCryptoRefundPolicy,
   'fisherman-insurance-hospital-claim': fishermanInsuranceHospitalClaimPolicy,
   'samsung-miso-finance-loan': samsungMisoFinanceLoanPolicy,
+  'move-in-report-online': moveInReportOnlinePolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2510,6 +2513,7 @@ export const SpokesById: Record<string, any[]> = {
   '631': voicePhishingCryptoRefundSpokes,
   '632': fishermanInsuranceHospitalClaimSpokes,
   '633': samsungMisoFinanceLoanSpokes,
+  '634': moveInReportOnlineSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3132,6 +3136,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'voice-phishing-crypto-refund': voicePhishingCryptoRefundSpokes,
   'fisherman-insurance-hospital-claim': fishermanInsuranceHospitalClaimSpokes,
   'samsung-miso-finance-loan': samsungMisoFinanceLoanSpokes,
+  'move-in-report-online': moveInReportOnlineSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,

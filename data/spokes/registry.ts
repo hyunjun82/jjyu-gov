@@ -124,6 +124,7 @@ import { hiddenInsuranceHowToFindSpokeContent } from '@/app/policy/[id]/[spoke]/
 import { hiddenInsuranceLimitationPeriodSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/limitation-period';
 import { hiddenInsuranceInheritanceCheckSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/inheritance-check';
 import { hiddenInsuranceClaimRefundSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/claim-and-refund';
+import { vatRealEstateRentalErrorFixSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/real-estate-rental-error-fix';
 import { voicePhishingRefundProcedureSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/refund-procedure';
 import { voicePhishingDecreeChangesSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/decree-changes';
 import { voicePhishingDeadlineMissedSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/deadline-missed';
@@ -2615,6 +2616,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'limitation-period': hiddenInsuranceLimitationPeriodSpokeContent,
     'inheritance-check': hiddenInsuranceInheritanceCheckSpokeContent,
     'claim-and-refund': hiddenInsuranceClaimRefundSpokeContent,
+  },
+
+  'value-added-tax': {
+    'real-estate-rental-error-fix': vatRealEstateRentalErrorFixSpokeContent,
   },
 
   'voice-phishing-crypto-refund': {

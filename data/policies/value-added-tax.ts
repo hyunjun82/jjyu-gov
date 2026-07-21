@@ -77,4 +77,6 @@ export const valueAddedTaxPolicy = {
   ],
 } as const;
 
-export const valueAddedTaxSpokes = [];
+export const valueAddedTaxSpokes = [
+  { slug: 'real-estate-rental-error-fix', title: '7월 부가세 확정신고 부동산 임대업 전자신고 오류 해결 방법' },
+];
