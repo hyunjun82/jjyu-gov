@@ -15,6 +15,8 @@ export const lifelongEducationVoucherPolicy: PolicyData = {
   metaDescription: '평생교육이용권 유형별 신청자격과 지원금액, 수강 가능한 강좌. 기초생활수급자·차상위계층 등 취약계층 성인에게 1인당 연 35만 원 평생교육 바우처를 지원하는 사업. 일반(지역특화)·AI·디지털·노인 3종 이용권으로 운영되며, 지역별 lllcard.kr에서 신청.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.lllcard.kr/main/main/mainView.do',
+  ctaLabel: '평생교육이용권 신청하기 (공식)',
 
   keyFacts: {
     지원금액: {

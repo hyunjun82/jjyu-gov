@@ -16,6 +16,8 @@ export const educationBenefitPolicy: PolicyData = {
   metaDescription: '교육급여 신청방법과 교육비 지원 차이, 바우처 받는 법. 기준중위소득 50% 이하 가구의 초·중·고 학생에게 교육활동지원비(초 502,000원·중 699,000원·고 860,000원, 연 1회)와 고교 학비를 바우처 방식으로 지원하는 기초생활보장 제도입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001089',
+  ctaLabel: '교육급여 자격 확인하고 신청하기 (복지로 공식)',
 
   keyFacts: {
     지원대상: {

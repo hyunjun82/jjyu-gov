@@ -8,6 +8,8 @@ export const durunuriSocialInsurancePolicy: PolicyData = {
   cat: '지원금',
   catSlug: 'fund',
   org: '고용노동부',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000095',
+  ctaLabel: '두루누리 사회보험료 지원 확인하기 (복지로 공식)',
   metaDescription: '두루누리 사회보험료 지원은 근로자 10명 미만 사업장의 월평균 보수 270만 원 미만 근로자·사업주에게 고용보험·국민연금 보험료 80%를 지원합니다.',
 
   keyFacts: {

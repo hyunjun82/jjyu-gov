@@ -13,6 +13,8 @@ export const coastalSafetyGuardPolicy: PolicyData = {
   metaDescription: '연안안전지킴이 자격요건과 신청방법, 근무지와 수당까지 – 월 180~220만원 (공공일자리 수당). 해안가·항포구 등 연안 위험 지역을 순찰하며 익수 사고 예방과 안전 안내를 담당하는 공공일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.kcg.go.kr/kcg/na/ntt/selectNttList.do?mi=2798&bbsId=312',
+  ctaLabel: '연안안전지킴이 모집공고 확인하기 (해양경찰청 고시공고)',
   eligibility: [
     '만 18세 이상',
     '수상인명구조원 자격증 또는 생활체육 지도사 자격 보유 우대',

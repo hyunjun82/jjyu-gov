@@ -13,6 +13,8 @@ export const smallBizBankDebtPolicy: PolicyData = {
   metaDescription: '소상공인 은행권 채무 조정 (새출발기금) – 순부채 최대 90% 감면 (취약계층) · 일반 60~80%. 새출발기금은 상환에 어려움을 겪는 소상공인·자영업자의 대출 채무를 캠코가 매입·조정해 재기를 돕는 제도입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-06-28T09:00:00+09:00',
+  applyUrl: 'https://www.newstartfund.or.kr/Contents/Prod.do',
+  ctaLabel: '새출발기금 신청절차 확인하기 (공식)',
   eligibility: [
     '대출 상환에 어려움을 겪는 소상공인·자영업자 (사업자 대출 보유)',
     '부실차주: 금융권 원금 연체 90일 이상 (폐업자 포함)',

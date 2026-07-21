@@ -12,6 +12,8 @@ export const youthJobLeapIncentivePolicy: PolicyData = {
   metaDescription: '청년일자리도약장려금 기업 신청자격과 청년 대상요건, 지원금액. 5인 이상 우선지원대상기업이 취업애로청년(수도권) 또는 청년(비수도권)을 정규직으로 채용하고 6개월 이상 고용유지 시 최대 720만원을 지원.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.work24.go.kr/wk/k/h/1200/retrieveYngJumpIndivSptfndIntro.do',
+  ctaLabel: '청년일자리도약장려금 안내 확인하기 (고용24 공식)',
 
   keyFacts: {
     지원유형: {

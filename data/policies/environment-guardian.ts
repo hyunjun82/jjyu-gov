@@ -13,6 +13,8 @@ export const environmentGuardianPolicy: PolicyData = {
   metaDescription: '환경지킴이 (공공근로·청년 일자리) – 월 180~220만원 (공공근로 수당). 하천·산림·공원 등 환경 현장에서 환경 감시·정화 활동을 수행하는 공공근로 일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.gojobs.go.kr',
+  ctaLabel: '나라일터에서 환경지킴이 채용정보 찾기 (공식)',
   eligibility: [
     '만 18세 이상 취업 취약 계층 (실업자·저소득층 우선)',
     '청년(만 18~34세) 특별 전형 별도 운영',

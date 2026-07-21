@@ -13,6 +13,8 @@ export const seominFinancialCenterPolicy: PolicyData = {
   metaDescription: '서민금융통합지원센터 이용자격과 채무조정, 연계 금융상품까지. 저소득·저신용자, 채무 문제로 어려운 분들이 자금지원·채무조정·고용·복지 상담을 한 장소에서 한 번에 받을 수 있는 서민금융 원스톱 서비스 센터',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.kinfa.or.kr/counselingSupport/centerSmileFind.do',
+  ctaLabel: '가까운 서민금융통합지원센터 찾기 (서민금융진흥원 공식)',
   tags: ['서민금융', '채무조정', '저신용대출', '고용연계', '원스톱', '1397'],
 
   keyFacts: {

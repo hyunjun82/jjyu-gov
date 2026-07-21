@@ -13,6 +13,8 @@ export const catastrophicMedicalExpensesPolicy: PolicyData = {
   metaDescription: '재난적 의료비 지원 소득재산 기준과 지원제외 항목까지 – 연간 최대 5,000만원 (개별심사 +1,000만원). 과도한 의료비 지출로 경제적 어려움을 겪는 국민에게 건강보험 비급여·본인부담 의료비를 연간 최대 5,000만 원까지 지원하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003247',
+  ctaLabel: '재난적의료비 지원 자격 확인하기 (복지로 공식)',
   tags: ['재난적의료비', '비급여지원', '의료비지원', '중위소득', '건강보험공단', '중증질환'],
 
   keyFacts: {

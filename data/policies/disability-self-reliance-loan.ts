@@ -16,6 +16,8 @@ export const disabilitySelfRelianceLoanPolicy: PolicyData = {
   metaDescription: '장애인 자립자금 대여 한도와 상환조건, 사용용도까지. 소득인정액이 기준 중위소득 50% 초과 100% 이하인 가구의 19세 이상 등록 장애인에게 소규모 창업·자동차 구입 등 자립에 필요한 자금을 연 2% 저금리로 장기 대여하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000026',
+  ctaLabel: '장애인자립자금대여 자격 확인하기 (복지로 공식)',
 
   keyFacts: {
     지원대상: {

@@ -12,6 +12,8 @@ export const cancerPatientMedicalAidPolicy: PolicyData = {
   metaDescription: '암환자 의료비 지원 – 성인 연 최대 300만원, 소아 연 최대 3,000만원. 저소득층 암환자에게 의료비를 지원하는 제도. 성인 연 최대 300만원(3년), 소아 연 최대 3,000만원(18세까지) 지원.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.cancer.go.kr/lay1/S1T559C560/contents.do',
+  ctaLabel: '암환자의료비지원사업 안내 확인하기 (국립암센터 공식)',
 
   keyFacts: {
     성인지원: {

@@ -13,6 +13,8 @@ export const communityHealthPromotionPolicy: PolicyData = {
   metaDescription: '지역사회 건강증진사업 보건소 건강검진·금연클리닉, 이용방법까지 – 무료 (건강 서비스 제공). 지역 주민의 건강 증진을 위해 보건소에서 제공하는 건강 검진, 만성질환 관리, 금연·금주 지원, 운동·영양 프로그램 등 종합 건강 서비스입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.e-health.go.kr',
+  ctaLabel: '우리 동네 보건소 찾기 (공공보건포털 e보건소 공식)',
   eligibility: [
     '해당 지역 거주 주민 (모든 연령)',
     '만성질환자, 고령자, 취약 계층 우선',

@@ -13,6 +13,8 @@ export const schoolCoordinatorPolicy: PolicyData = {
   metaDescription: '학교 코디네이터 (돌봄·교육 지원) – 월 150~200만원 (근무 시간별 상이). 초등학교 방과후 돌봄, 교육 행정 지원, 학부모 상담 등을 담당하는 학교 코디네이터를 채용하는 공공일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://neulbomhub.kosac.re.kr/',
+  ctaLabel: '늘봄허브에서 채용정보 확인하기 (한국과학창의재단 공식)',
   eligibility: [
     '만 18세 이상',
     '교육·보육 관련 전공 또는 자격증 우대',

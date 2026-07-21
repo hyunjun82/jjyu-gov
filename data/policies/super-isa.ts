@@ -5,6 +5,7 @@
 const GG = 'https://job.gg.go.kr/thema/exprcDtl.do?cntntsSeCd=02&tabId=cate_policy&seq=6038&pageType=list';
 const KOREA = 'https://www.korea.kr/news/policyNewsView.do?newsId=148960220';
 const FSC = 'https://www.fsc.go.kr';
+const FINLIFE_ISA = 'https://finlife.fss.or.kr/finlife/main/contents.do?menuNo=700061';
 
 export const superIsaPolicy = {
   id: '214', type: 'savings' as const,
@@ -13,7 +14,8 @@ export const superIsaPolicy = {
   slug: 'super-isa', org: '재정경제부·금융위원회', cat: '저축', catSlug: 'savings',
   amount: '출시일·한도·세제혜택 미확정(정부 공식 발표 예정)',
   deadline: '개설 시점 미정 — 금융위원회 발표 확인',
-  applyUrl: FSC,
+  applyUrl: FINLIFE_ISA,
+  ctaLabel: '지금 기존 ISA 비교하고 가입하기 (금감원 공식)',
   datePublished: '2026-07-07T09:00:00+09:00', dateModified: '2026-07-07T09:00:00+09:00',
   summary: '슈퍼ISA로도 불리는 생산적 금융 ISA는 정부가 「2026년 경제성장전략」에서 국내주식·펀드의 장기투자를 활성화하기 위해 도입을 추진 중인 새 ISA(개인종합자산관리계좌)입니다. 가입대상에 따라 청년형 ISA와 국민성장 ISA 두 유형으로 나뉘며, 두 유형은 대상·혜택이 다르고 동시에 가입할 수 없습니다. 청년형 ISA는 청년(경기도 안내 기준 총급여 7,500만원 이하)을 대상으로 이자·배당소득 과세특례와 납입금 소득공제를 주는 방향으로, 국민성장 ISA는 19세 이상 국내 거주자를 대상으로 기존 ISA보다 세제혜택을 확대하는 방향으로 논의되고 있습니다. 해외주식에는 투자할 수 없고 국내 자산 중심으로 운용될 예정이며, 기존 ISA(1인 1계좌)와 생산적 금융 ISA는 중복가입이 가능하도록 설계될 예정입니다. 다만 청년형 ISA와 청년미래적금은 중복가입이 불가능합니다. 중요한 점은, 정부(재정경제부)가 "생산적금융 ISA의 구체적인 방안은 정해진 바 없다"며 비과세 한도·소득공제율 등 보도된 세부 내용에 대해 신중을 당부했다는 것입니다. 따라서 정확한 출시일, 납입한도, 비과세·소득공제 등 세부혜택은 아직 확정되지 않았으며, 금융위원회·재정경제부의 공식 발표로 확인해야 합니다. 이 페이지는 확정된 구조와 아직 정해지지 않은 부분을 구분해 안내합니다.',
   metaDescription: '슈퍼ISA(생산적 금융 ISA) 청년형·국민성장, 출시일·개설 총정리 – 출시일·한도·세제혜택 미확정(정부 공식 발표 예정). 슈퍼ISA로도 불리는 생산적 금융 ISA는 정부가 「2026년 경제성장전략」에서 국내주식·펀드의 장기투자를 활성화하기 위해 도입을 추진...',

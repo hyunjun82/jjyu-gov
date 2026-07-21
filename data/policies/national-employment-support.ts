@@ -12,6 +12,8 @@ export const nationalEmploymentSupportPolicy: PolicyData = {
   metaDescription: '국민취업지원제도 1유형 2유형 차이, 구직촉진수당 신청방법. 취업을 원하는 국민에게 1:1 상담·직업훈련·일경험 등 통합 취업지원 서비스를 1년간 제공하고, 저소득층에게는 구직촉진수당 월 60만원을 6개월간 지급합니다. 고용보험 미가입자도 참여 가능합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do',
+  ctaLabel: '국민취업지원제도 취업지원 신청하기 (고용24 공식)',
   badges: ['고용보험 미가입자 가능', '월 60만원 수당', '최대 150만원 취업성공수당'],
   lastVerified: '2026-05-17',
 

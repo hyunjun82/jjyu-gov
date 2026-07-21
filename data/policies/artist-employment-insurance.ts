@@ -12,6 +12,8 @@ export const artistEmploymentInsurancePolicy: PolicyData = {
   metaDescription: '예술인 고용보험 가입대상과 두루누리 보험료 지원, 구직급여까지. 문화예술용역 계약으로 일하는 예술인의 실업·출산 급여를 보장하는 사회보험제도. 보험료의 최대 80%를 두루누리로 국가가 지원합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.kawf.kr/aei/empArtinsure.do',
+  ctaLabel: '예술인 고용보험 가입 안내 확인하기 (한국예술인복지재단 공식)',
   tags: ['예술인', '고용보험', '실업급여', '두루누리', '문화예술'],
   badge: '사회보험',
   lastVerified: '2026-05-17',

@@ -13,6 +13,8 @@ export const smallBizClosedDebtPolicy: PolicyData = {
   metaDescription: '폐업 소상공인 채무 조정 및 재기 지원 (희망리턴패키지) – 점포철거비 최대 600만원 + 전직장려수당 최대 100만원 + 채무조정. 희망리턴패키지(원스톱폐업지원)는 폐업했거나 폐업 예정인 소상공인이 폐업 과정의 비용·법률·채무 문제를 한 번에 해결하도록 돕는...',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-06-28T09:00:00+09:00',
+  applyUrl: 'https://www.sbiz.or.kr/nhrp/main.do',
+  ctaLabel: '희망리턴패키지 신청하기 (소상공인시장진흥공단 공식)',
   eligibility: [
     '폐업했거나 폐업 예정인 소상공인',
     '기폐업자는 폐업일이 2023년 1월 1일 이후일 것',

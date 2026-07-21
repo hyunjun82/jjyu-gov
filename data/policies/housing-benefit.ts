@@ -12,6 +12,8 @@ export const housingBenefitPolicy: PolicyData = {
   metaDescription: '주거급여 신청자격과 임차·자가가구 지원, 다른 급여 중복여부 – 최대 월 69만 9,000원 (서울 6인 기준). 중위소득 48% 이하 저소득 가구에 임차료(월세) 또는 자가 수선비를 지원하는 주거복지 급여.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003201',
+  ctaLabel: '주거급여 자격 확인하고 신청하기 (복지로 공식)',
 
   keyFacts: {
     지원유형: {

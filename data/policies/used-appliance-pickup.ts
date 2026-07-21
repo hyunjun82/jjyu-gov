@@ -12,6 +12,8 @@ export const usedAppliancePickupPolicy: PolicyData = {
   metaDescription: '폐가전 무상 방문수거 서비스 – 무상 (비용 없음). 대형 폐가전(냉장고·세탁기·TV 등)을 가정에서 무료로 수거해 가는 서비스. 1599-0903 또는 홈페이지로 신청.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.15990903.or.kr/portal/reserve/reserve.do',
+  ctaLabel: '폐가전 무상 방문수거 예약하기 (공식)',
 
   keyFacts: {
     서비스: {

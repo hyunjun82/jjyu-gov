@@ -13,6 +13,8 @@ export const cultureNuriCardPolicy: PolicyData = {
   metaDescription: '문화누리카드 신청방법과 사용처, 자동재충전이란? – 1인당 연 15만원 + 생애주기별 추가 1만원. 기초생활수급자·차상위계층 6세 이상(2020.12.31 이전 출생자)에게 1인당 연간 15만원(전년 대비 1만원 인상) + 생애주기별 1만원 추가 지원하는...',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.mnuri.kr/card/cardMain/cardIssue_step00.do',
+  ctaLabel: '문화누리카드 발급 신청하기 (공식)',
   tags: ['문화누리카드', '통합문화이용권', '기초수급자', '차상위계층', '문화생활'],
   badge: '문화지원',
   lastVerified: '2026-05-17',

@@ -132,6 +132,7 @@ import { samsungMisoOnlineApplicationSpokeContent } from '@/app/policy/[id]/[spo
 import { samsungMisoEligibilityDetailsSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/eligibility-details';
 import { samsungMisoLoanProductsComparisonSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/loan-products-comparison';
 import { samsungMisoRequiredDocumentsSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/required-documents';
+import { marriageBirthMoveOnestopSpokeContent } from '@/app/policy/[id]/[spoke]/content/marriage-report/marriage-birth-move-onestop';
 import { autoInsurancePremiumCalculationTipsSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/보험료계산방법및절약팁';
 import { autoInsurancePremiumSavingSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/premium-saving-special-terms';
 import { applianceRebateProgramStatusSpokeContent } from '@/app/policy/[id]/[spoke]/content/생활정보/에어컨지원금현황';
@@ -2609,6 +2610,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'eligibility-details': samsungMisoEligibilityDetailsSpokeContent,
     'loan-products-comparison': samsungMisoLoanProductsComparisonSpokeContent,
     'required-documents': samsungMisoRequiredDocumentsSpokeContent,
+  },
+
+  'marriage-report': {
+    'marriage-birth-move-onestop': marriageBirthMoveOnestopSpokeContent,
   },
 
   'hidden-insurance-money': {

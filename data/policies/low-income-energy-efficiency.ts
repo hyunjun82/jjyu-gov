@@ -13,6 +13,8 @@ export const lowIncomeEnergyEfficiencyPolicy: PolicyData = {
   metaDescription: '저소득층 에너지 효율 개선사업. 기초생활수급자·차상위계층 등 저소득층과 사회복지시설을 대상으로 단열 시공, 창호·바닥 공사, 고효율 보일러 교체, 고효율 에어컨 보급 등 냉·난방 에너지 효율 개선을 무상 지원하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001128',
+  ctaLabel: '저소득층 에너지효율개선 자격 확인하기 (복지로 공식)',
   tags: ['에너지효율', '저소득층', '냉방', '난방', '에어컨', '보일러', '단열', '차상위'],
 
   keyFacts: {

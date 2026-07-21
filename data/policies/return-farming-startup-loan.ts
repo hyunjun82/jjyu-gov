@@ -15,6 +15,8 @@ export const returnFarmingStartupLoanPolicy: PolicyData = {
   metaDescription: '귀농 농업창업·주택구입 지원 연령·거주요건과 대출한도, 선발평가까지. 도시에서 농촌으로 귀농하는 세대주에게 농업창업자금 최대 3억 원, 주택구입자금 최대 7,500만 원을 저금리(고정 2% 또는 변동금리)로 융자 지원하는 사업.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.gov.kr/portal/service/serviceInfo/154300000011',
+  ctaLabel: '귀농 농업창업·주택구입 지원 신청 안내 (정부24 공식)',
 
   keyFacts: {
     창업자금한도: {

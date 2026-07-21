@@ -12,6 +12,8 @@ export const artistIndustrialAccidentInsurancePolicy: PolicyData = {
   metaDescription: '예술인 산재보험 보험료 지원사업. 프리랜서 예술인이 산재보험에 가입할 수 있도록 보험사무를 대행하고, 납부 보험료의 50~90%를 환급 지원하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.kawf.kr/social/sub07_1.do',
+  ctaLabel: '예술인 산재보험 제도안내 확인하기 (한국예술인복지재단 공식)',
   tags: ['예술인', '산재보험', '보험료지원', '프리랜서', '업무재해'],
   badge: '사회보험',
   lastVerified: '2026-05-17',

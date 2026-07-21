@@ -13,7 +13,8 @@ export const basicPensionPolicy = {
   amount: '월 최대 40만원 (소득하위 50%)',
   deadline: '상시 (만 65세 생일 1개월 전부터 신청 가능)',
   views: 312850,
-  applyUrl: 'https://www.bokjiro.go.kr',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001164',
+  ctaLabel: '기초연금 자격 확인하고 신청하기 (복지로 공식)',
   datePublished: '2026-01-10T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   summary:

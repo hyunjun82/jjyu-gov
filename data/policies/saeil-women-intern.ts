@@ -13,6 +13,8 @@ export const saeilWomenInternPolicy: PolicyData = {
   metaDescription: '새일여성인턴 (경력 단절 여성 취업 지원) – 최대 월 80만원 (인턴지원금) + 취업지원금 별도. 경력이 단절된 여성이 기업 인턴 근무를 통해 직장 적응력을 회복하고 정규직으로 취업할 수 있도록 지원합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://saeil.mogef.go.kr/hom/jobOffer/jobOfferInternInfo.do',
+  ctaLabel: '새일여성인턴 참여신청 안내 확인하기 (여성새로일하기센터 공식)',
   eligibility: [
     '경력 단절 여성 (임신·출산·육아·가족 돌봄 등으로 퇴직 후 재취업 희망자)',
     '만 18세 이상',

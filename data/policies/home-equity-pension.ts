@@ -12,6 +12,8 @@ export const homeEquityPensionPolicy: PolicyData = {
   metaDescription: '주택연금 가입조건과 지급방식, 세금혜택은 어떻게 되나요? – 월 최대 수백만원 (주택가격·연령별 상이). 55세 이상 고령자가 보유 주택을 담보로 맡기고 평생 매달 연금을 받을 수 있는 역모기지 제도.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.hf.go.kr/ko/sub03/sub03_02_03_01.do',
+  ctaLabel: '주택연금 가입신청 안내 확인하기 (한국주택금융공사 공식)',
 
   keyFacts: {
     가입연령: {

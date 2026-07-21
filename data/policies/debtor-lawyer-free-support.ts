@@ -12,6 +12,8 @@ export const debtorLawyerFreeSupportPolicy: PolicyData = {
   metaDescription: '채무자 대리인(변호사) 무료 지원사업. 불법사금융 피해자에게 대한법률구조공단 소속 변호사를 무료로 연결해 불법추심 대응·소송까지 지원하는 제도입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.fss.or.kr/fss/main/contents.do?menuNo=200343',
+  ctaLabel: '채무자대리인 무료지원 신청하기 (금융감독원 공식)',
   tags: ['불법추심', '채무자대리인', '무료변호사', '불법사금융', '개인회생', '파산'],
 
   keyFacts: {

@@ -13,6 +13,8 @@ export const efficientApplianceSupportPolicy: PolicyData = {
   metaDescription: '전기요금 복지할인 대상 취약계층 고효율가전 구매지원. 전기요금 복지할인을 받는 기초생활수급자, 차상위계층, 국가유공자(1~3급), 중증장애인(1~3급) 등이 에너지효율 1등급 가전제품 11종을 구매하면 구매금액의 15~30%(가구당 30만 원 한도)를 현금으로...',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://en-ter.co.kr/support/main/main.do',
+  ctaLabel: '고효율가전 구매비용 지원 신청하기 (한전 공식)',
   tags: ['고효율가전', '냉장고', '에어컨', '세탁기', '취약계층', '복지할인', '한전', '에너지마켓플레이스'],
 
   keyFacts: {

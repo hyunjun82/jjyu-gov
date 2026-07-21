@@ -12,6 +12,8 @@ export const workerVacationSupportPolicy: PolicyData = {
   metaDescription: '근로자휴가지원사업 신청자격과 포인트 사용처, 지급방식까지. 중소기업·소상공인 근로자가 20만원을 납입하면 정부·기업이 각 10만원씩 보조해 총 40만원의 국내여행 포인트를 지원하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://vacation.visitkorea.or.kr/',
+  ctaLabel: '근로자휴가지원사업 참여신청하기 (한국관광공사 공식)',
   tags: ['근로자휴가', '국내여행', '휴가지원', '중소기업', '한국관광공사'],
   badge: '여행지원',
   lastVerified: '2026-05-17',

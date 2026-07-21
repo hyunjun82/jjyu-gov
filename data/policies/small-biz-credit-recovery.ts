@@ -13,6 +13,8 @@ export const smallBizCreditRecoveryPolicy: PolicyData = {
   metaDescription: '소상공인 신용회복 지원 – 채무 조정 (이자 감면·분할 상환). 폐업·경영 위기 소상공인의 채무를 조정하여 재기를 지원하는 제도입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=190',
+  ctaLabel: '나에게 맞는 채무조정 찾기 (신용회복위원회 공식)',
   eligibility: [
     '사업 운영 중 또는 폐업 후 1년 이내 소상공인',
     '금융권 채무 보유자',

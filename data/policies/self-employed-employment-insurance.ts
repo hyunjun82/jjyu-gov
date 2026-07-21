@@ -12,6 +12,8 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
   metaDescription: '자영업자 고용보험 등급별 보험료와 구직급여, 폐업사유 인정기준. 1년 이상 고용보험에 가입한 자영업자가 매출 감소 등 불가피한 사유로 폐업 시 구직급여(기준보수 60% × 120~210일)를 지급하는 제도',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://total.comwel.or.kr/',
+  ctaLabel: '자영업자 고용보험 가입 신청하기 (근로복지공단 공식)',
   badge: '기준보수 60%',
   tags: ['자영업자', '고용보험', '구직급여', '폐업', '실업급여', '소상공인', '자영업자실업급여'],
 

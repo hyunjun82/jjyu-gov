@@ -12,6 +12,8 @@ export const sportsClassVoucherPolicy: PolicyData = {
   metaDescription: '스포츠강좌이용권 지원대상과 사용법, 장애인이용권은 뭐가 다른가요? – 월 최대 10만 5,000원. 저소득층 아동·청소년(5~18세)에게 수영·태권도 등 스포츠 강좌 이용 바우처를 월 최대 10만 5,000원 지원.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://svoucher.kspo.or.kr/main.do',
+  ctaLabel: '스포츠강좌이용권 신청하기 (국민체육진흥공단 공식)',
 
   keyFacts: {
     대상연령: {

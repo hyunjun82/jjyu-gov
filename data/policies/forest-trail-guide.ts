@@ -13,6 +13,8 @@ export const forestTrailGuidePolicy: PolicyData = {
   metaDescription: '숲길등산지도사 자격증 취득방법과 신청조건, 수당까지 – 월 180~220만원 (공공일자리 수당). 등산로 안전 관리와 등산객 안내를 담당하는 숲길등산지도사를 채용하여 일자리를 창출하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://komount.or.kr/',
+  ctaLabel: '숲길등산지도사 교육 신청하기 (한국등산·트레킹지원센터 공식)',
   eligibility: [
     '숲길등산지도사 자격증 보유자',
     '만 18세 이상',

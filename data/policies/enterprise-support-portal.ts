@@ -13,6 +13,8 @@ export const enterpriseSupportPortalPolicy: PolicyData = {
   metaDescription: '기업지원 종합 서비스 포털 (기업마당) – 무료 (포털 이용). 중소기업·소상공인이 필요한 정부 지원 정보를 한 곳에서 검색·신청할 수 있는 통합 포털입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.bizinfo.go.kr/',
+  ctaLabel: '기업마당에서 지원사업 찾기 (중소벤처기업부 공식)',
   eligibility: [
     '중소기업, 소상공인, 예비 창업자',
     '사업자등록증 보유자 또는 예비 창업자',

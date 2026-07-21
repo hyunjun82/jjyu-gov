@@ -13,6 +13,8 @@ export const arboretumCoordinatorPolicy: PolicyData = {
   metaDescription: '수목원 코디네이터 (방문자 안내·교육) – 월 180~220만원 (공공일자리 수당). 국립수목원 및 공립 수목원에서 방문자 안내, 식물 해설, 교육 프로그램 진행을 담당하는 공공일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://kna.forest.go.kr/kfsweb/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_1034&mn=UKNA_05_01_04&ctgryLrcls=CTGRY124',
+  ctaLabel: '국립수목원 채용공고 확인하기 (공식)',
   eligibility: [
     '만 18세 이상',
     '식물학·원예학·임학 관련 전공 우대',

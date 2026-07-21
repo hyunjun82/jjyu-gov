@@ -14,6 +14,8 @@ export const disabilityAssistiveDevicePolicy: PolicyData = {
   metaDescription: '장애인 보조기기 구입비 지원대상과 지원절차, 신청은 어디서. 건강보험에 가입된 등록 장애인이 전동휠체어·보청기 등 보조기기를 구입할 때 구입 금액의 90%까지 지원하는 건강보험 급여 제도입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003211',
+  ctaLabel: '장애인보조기기 지원 자격 확인하기 (복지로 공식)',
 
   badge: '보조기기 지원',
 

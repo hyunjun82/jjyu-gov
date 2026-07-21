@@ -13,6 +13,8 @@ export const elderlyKneeSurgeryPolicy: PolicyData = {
   metaDescription: '노인 무릎인공관절 수술 지원 연령·자격조건과 신청서류, 지원제외까지 – 한쪽 무릎 최대 120만원 (양쪽 240만원) 본인부담금 실비. 경제적 사정으로 무릎인공관절 수술을 받지 못하는 저소득 노인에게 수술비를 한쪽 무릎 기준 최대 120만원(양쪽 최대 240만원)...',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.ok6595.or.kr/client/info/knee02.asp',
+  ctaLabel: '무릎인공관절 수술지원 안내 확인하기 (노인의료나눔재단 공식)',
   tags: ['인공관절', '노인의료', '수술비지원', '저소득노인', '무릎관절증', '기초수급자'],
 
   keyFacts: {

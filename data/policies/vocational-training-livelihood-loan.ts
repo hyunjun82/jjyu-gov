@@ -12,6 +12,8 @@ export const vocationalTrainingLivelihoodLoanPolicy: PolicyData = {
   metaDescription: '직업훈련 생계비 대부. 140시간 이상 직업훈련 참여자에게 생계비를 연 1% 저금리로 최대 1,000만 원 융자 지원',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://welfare.comwel.or.kr/default/page.do?mCode=B020010000',
+  ctaLabel: '직업훈련 생계비 대부 신청하기 (근로복지넷 공식)',
   badge: '융자',
   tags: ['직업훈련', '생계비', '융자', '저금리', '실업자', '비정규직'],
 

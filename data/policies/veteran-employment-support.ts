@@ -12,6 +12,8 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
   metaDescription: '국가유공자 및 유가족 취업 지원. 국가유공자 본인과 유가족에게 보훈특별고용·공무원 특별채용·채용 가점을 통해 자립 능력과 생활 안정을 강화하는 취업 지원 제도',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://job.mpva.go.kr/slave.do?menuKey=154',
+  ctaLabel: '국가유공자 취업지원 대상 확인하기 (국가보훈부 공식)',
   badge: '취업가점 5~10%',
   tags: ['국가유공자', '유가족', '취업지원', '보훈특별고용', '공무원특별채용', '가점취업', '국가보훈부'],
 

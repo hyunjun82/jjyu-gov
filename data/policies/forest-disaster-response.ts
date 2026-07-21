@@ -13,6 +13,8 @@ export const forestDisasterResponsePolicy: PolicyData = {
   metaDescription: '산림재난대응단 자격요건과 신청방법, 위험수당 지급까지 – 월 180~250만원 (위험수당 포함). 산불·산사태 등 산림 재난을 예방하고 대응하는 공공일자리로, 산림 현장에서 재난 감시·진화·복구 업무를 담당합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.gojobs.go.kr',
+  ctaLabel: '나라일터에서 산림재난대응단 채용정보 찾기 (공식)',
   eligibility: [
     '만 18세 이상',
     '임업·소방 관련 자격증 우대',

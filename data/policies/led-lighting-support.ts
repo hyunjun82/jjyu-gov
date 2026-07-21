@@ -13,6 +13,8 @@ export const ledLightingSupportPolicy: PolicyData = {
   metaDescription: '에너지 취약계층 고효율 조명기기 무상교체 지원. 기초생활수급자, 차상위계층, 영구임대주택 입주자 및 사회복지시설을 대상으로 노후 저효율 조명기기(형광등·백열전구 등)를 고효율 LED 조명기기로 무상 교체해드립니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.koref.or.kr/web/user/main.do',
+  ctaLabel: '고효율 조명기기 무상교체 문의하기 (한국에너지재단 공식)',
   tags: ['LED', '조명교체', '형광등', '취약계층', '저소득층', '에너지복지', '한국에너지재단'],
 
   keyFacts: {

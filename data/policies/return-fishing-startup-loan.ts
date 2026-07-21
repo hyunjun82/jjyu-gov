@@ -12,6 +12,8 @@ export const returnFishingStartupLoanPolicy: PolicyData = {
   metaDescription: '귀어 창업 및 주택구입 지원(융자). 도시민이 어촌지역에 정착해 어업·양식업 등을 창업할 수 있도록 창업자금 최대 3억원, 주택구입 자금 최대 7,500만원을 연 1.5% 저금리로 융자 지원합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.gov.kr/portal/service/serviceInfo/119200000012',
+  ctaLabel: '귀어 창업·주택구입 지원 신청 안내 (정부24 공식)',
   badges: ['이차보전 융자', '연 1.5% 저금리', '창업+주택 동시 지원'],
   lastVerified: '2026-05-17',
 

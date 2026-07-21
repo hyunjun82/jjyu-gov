@@ -16,6 +16,8 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
   metaDescription: '국가근로장학금 교내근로 교외근로 차이, 신청자격과 지급금액. 경제적으로 어려운 대학생이 교내·교외 기관에서 근로하며 시간당 장학금을 받는 제도입니다. 소득 4분위 이하 우선 선발이며, 교내근로 시간당 10,320원·교외근로 12,790원(2026년 1학기 기준)이...',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01',
+  ctaLabel: '국가근로장학금 지원자격 확인하기 (한국장학재단 공식)',
 
   keyFacts: {
     교내근로시급: {

@@ -70,4 +70,6 @@ export const marriageReportPolicy = {
   ],
 } as const;
 
-export const marriageReportSpokes = [];
+export const marriageReportSpokes = [
+  { slug: 'marriage-birth-move-onestop', role: 'usage', title: '혼인·출생·전입신고, 지원금 신청 총정리', content: '혼인신고는 방문·우편만 가능, 출생신고는 행복출산으로 부모급여·첫만남이용권 등 통합신청, 전입신고는 전입신고+로 요금감면 통합신청.' },
+];

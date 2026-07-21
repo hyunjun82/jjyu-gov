@@ -6,7 +6,8 @@ export const petInsuranceGuidePolicy = {
   slug: 'pet-insurance-guide', org: '금융위원회·농림축산식품부', cat: '보험', catSlug: 'insurance',
   amount: '반려동물 평균 월 양육비 15만원 중 병원비 6만원(40%)',
   deadline: '상시(제도개선 과제는 단계적 추진 중)',
-  applyUrl: 'https://www.fsc.go.kr/edu/news/81033',
+  applyUrl: 'https://www.e-insmarket.or.kr/guaranteeIns/guaranteeInsList.knia?menuId=C015',
+  ctaLabel: '지금 반려견 펫보험료 비교하기 (보험다모아 공식)',
   datePublished: '2026-07-16T09:00:00+09:00', dateModified: '2026-07-16T09:00:00+09:00',
   summary: '금융위원회는 2023년 10월 16일 비상경제장관회의에서 농림축산식품부 등 관계부처와 함께 「반려동물보험 제도개선 방안」을 발표했습니다. 반려동물(개·고양이) 양육 가구가 2018년 635만 마리에서 2022년 799만 마리(추산)로 크게 늘었지만, 반려동물 양육자의 약 83%가 동물병원 진료비에 부담을 느끼고 있고(2021년 소비자연맹 조사), 반려동물 평균 월 양육비 15만원 중 병원비가 40%(6만원)를 차지합니다(2022년 동물보호 국민의식조사). 그런데도 반려동물보험 가입률은 1% 내외로 낮은 상황이었습니다. 이에 정부는 ① 동물의료 인프라 구축(생체인식정보 반려동물 등록 허용 검토, 반려묘 등록 의무화 검토, 진료내역·진료비 증빙서류 발급 의무화 검토, 진료항목 표준화), ② 보험가입·간편청구·건강관리·등록을 한 곳에서 처리하는 원스톱 서비스(동물병원에서 클릭 한 번으로 보험사에 진료내역 전송·보험금 청구), ③ 보장범위·보험료를 다양화한 맞춤형 상품 개발과 저렴한 신규 상품 개발, ④ 반려동물 전문보험사 진입 허용이라는 4대 방향을 추진하고 있습니다. 반려동물 등록 관련 「동물보호법 시행규칙」 개정 등은 2025년부터 검토가 추진되는 일정으로 발표됐습니다.',
   metaDescription: '펫보험(반려동물보험) 가입률이 낮은 이유와 정부의 제도개선 방안(청구 간편화, 반려동물 등록 연계, 우대형 상품)을 금융위원회 공식 보도자료 기준으로 정리했습니다.',
@@ -79,7 +80,7 @@ export const petInsuranceGuidePolicy = {
   sources: [
     { label: '금융위원회 — 「반려동물보험 제도개선방안」 발표(2023.10.16)', url: 'https://www.fsc.go.kr/edu/news/81033' },
     { label: '대한민국 정책브리핑 — 반려동물보험 가입부터 청구까지 간편하게!(2023.10.27)', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148921878' },
-    { label: '금융위원회 공식 홈페이지', url: 'https://www.fsc.go.kr/index' },
+    { label: '보험다모아 — 반려동물보험(고양이) 상품비교', url: 'https://www.e-insmarket.or.kr/guaranteeIns/guaranteeInsList.knia?menuId=C016' },
   ],
 } as const;
 

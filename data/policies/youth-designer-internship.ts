@@ -13,6 +13,8 @@ export const youthDesignerInternshipPolicy: PolicyData = {
   metaDescription: '청년 디자이너 공공기관 인턴십 – 월 180~220만원 (인턴 수당). 디자인 전공 청년을 공공기관·공기업에 인턴으로 파견하여 실무 역량과 취업 경쟁력을 높이는 프로그램입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://intern.kidp.or.kr/',
+  ctaLabel: '디자인 인턴십 신청하기 (한국디자인진흥원 공식)',
   eligibility: [
     '만 18~34세 청년',
     '디자인 관련 전공 졸업(예정)자',

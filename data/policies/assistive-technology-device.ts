@@ -16,6 +16,8 @@ export const assistiveTechnologyDevicePolicy: PolicyData = {
   metaDescription: '보조공학기기 지원품목과 지원한도, 장애인 근로자 직접신청까지. 장애인 고용 촉진과 직업생활 안정을 위해 사업주 또는 장애인 근로자에게 직업생활에 필요한 보조공학기기 구입·대여 비용을 지원하는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.kead.or.kr/atintrdbsns/cntntsPage.do?menuId=MENU0629',
+  ctaLabel: '보조공학기기 지원 사업소개 확인하기 (한국장애인고용공단 공식)',
 
   keyFacts: {
     지원목적: {

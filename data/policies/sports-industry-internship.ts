@@ -13,6 +13,8 @@ export const sportsIndustryInternshipPolicy: PolicyData = {
   metaDescription: '스포츠산업 청년 인턴십 – 월 180~220만원 (인턴 수당). 스포츠 관련 전공 청년을 스포츠 기업·공공기관에 파견하여 현장 실무를 경험시키는 인턴십입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://spobiz.kspo.or.kr/job/',
+  ctaLabel: '스포츠산업 인턴십 채용정보 확인하기 (잡스포이즈 공식)',
   eligibility: [
     '만 18~34세 청년',
     '스포츠·체육 관련 전공 졸업(예정)자',

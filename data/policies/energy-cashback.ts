@@ -13,6 +13,8 @@ export const energyCashbackPolicy: PolicyData = {
   metaDescription: '에너지캐시백 절감률별 단가와 신청방법, 현금으로 받을 수 있나요?. 주택용 전기사용자가 직전 2개년 평균보다 전기를 절약하면 절감량 1kWh당 캐시백을 돌려주는 참여형 에너지절약 인센티브 프로그램.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-06-26T09:00:00+09:00',
+  applyUrl: 'https://en-ter.co.kr/ec/main/main.do',
+  ctaLabel: '에너지캐시백 신청하기 (한전 에너지마켓플레이스 공식)',
   tags: ['에너지캐시백', '전기요금절약', '한국전력', '주택용캐시백', '에너지절약', '전기요금환급', '한전캐시백'],
 
   keyFacts: {

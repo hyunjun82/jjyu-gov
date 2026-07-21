@@ -8,6 +8,8 @@ export const infantDevelopmentalCheckupPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '보건복지부',
   slug: 'infant-developmental-checkup',
+  applyUrl: 'https://www.gov.kr/portal/service/serviceInfo/SD0000016095',
+  ctaLabel: '영유아 발달정밀검사비 지원 신청 안내 (정부24 공식)',
 
   summary:
     '영유아 건강검진 발달평가에서 "심화평가 권고"를 받은 취약계층 영유아에게 발달장애 정밀검사비를 최대 40만 원까지 지원하여 조기 치료·재활로 연계하는 사업입니다.',

@@ -13,6 +13,8 @@ export const urbanGreenManagerPolicy: PolicyData = {
   metaDescription: '도시녹지관리원 공공일자리 신청자격, 계절마다 업무가 달라지나요? – 월 180~220만원 (공공일자리 수당). 도시 내 공원·가로수·녹지를 관리하며 쾌적한 생활 환경을 만드는 공공일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.work24.go.kr/wk/a/b/1400/retrieveWorkRegionEmpIntroList.do',
+  ctaLabel: '지역별 도시녹지관리원 채용정보 찾기 (고용24 공식)',
   eligibility: [
     '만 18세 이상',
     '조경·원예·임업 관련 자격증 우대',

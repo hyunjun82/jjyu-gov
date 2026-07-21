@@ -13,6 +13,8 @@ export const eersGasBoilerPolicy: PolicyData = {
   metaDescription: 'EERS 취약계층 가정용 가스보일러 및 단열강화 지원사업. 기초생활수급자 등 취약계층 가구와 사회복지시설을 대상으로 노후 저효율 가스보일러를 고효율 가스보일러로 무상 교체해드리는 사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://www.kogas.or.kr/site/koGas/1020408030000',
+  ctaLabel: '에너지복지제도(사회적 배려대상자) 안내 확인하기 (한국가스공사 공식)',
   tags: ['가스보일러', '보일러교체', '단열', '취약계층', '에너지복지', 'EERS', '한국가스공사'],
 
   keyFacts: {

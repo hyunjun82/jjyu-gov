@@ -13,6 +13,8 @@ export const illegalLoanPreventionPolicy: PolicyData = {
   metaDescription: '불법사금융예방대출 신청자격과 완제자 인센티브, 금리는 얼마. 대부업조차 이용이 어려운 신용평점 하위 20% 저소득층이 불법 사채를 쓰지 않도록 최대 100만 원을 저금리로 빌려주는 정책서민금융 대출 상품',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
+  applyUrl: 'https://sloan.kinfa.or.kr/drt/step1',
+  ctaLabel: '불법사금융예방대출 신청하기 (서민금융진흥원 공식)',
   tags: ['불법사금융', '소액대출', '저신용대출', '서민금융', '생계비대출', '신용평점하위20%'],
 
   keyFacts: {
