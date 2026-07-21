@@ -1,14 +1,28 @@
 import type { SpokeData } from '../../SpokeClient';
 
 const FSC = 'https://www.fsc.go.kr/no010101/87005';
-const KFB = 'https://portal.kfb.or.kr';
+const KFB = 'https://portal.kfb.or.kr/compare/receiving_youth_future_2.php';
+const IBK_URL = 'https://mybank.ibk.co.kr/uib/jsp/index.jsp';
+const KB_URL = 'https://obank.kbstar.com/quics?page=C016613&cc=b061496%3Ab061645&isNew=Y&prcode=DP01001656';
+const SH_URL = 'https://www.suhyup-bank.com/';
+const NH_URL = 'https://banking.nonghyup.com/nhbank.html';
+const WOORI_URL = 'https://www.wooribank.com/';
+const SHINHAN_URL = 'https://www.shinhan.com/';
+const IM_URL = 'https://www.imbank.co.kr/dgb_ebz_main.jsp';
+const BUSAN_URL = 'https://www.busanbank.co.kr/';
+const GWANGJU_URL = 'https://www.kjbank.com/';
+const JEONBUK_URL = 'https://www.jbbank.co.kr/';
+const GYEONGNAM_URL = 'https://www.knbank.co.kr/';
+const POST_URL = 'https://mall.epostbank.go.kr/IPDGDI0000.do?gds_cd=310109900101';
+const HANA_URL = 'https://www.kebhana.com/cont/mall/mall08/mall0801/mall080102/1525860_115157.jsp';
+const KAKAO_URL = 'https://www.kakaobank.com/products/youthFutureSavings';
 
 export const 미래적금은행별SpokeContent: SpokeData = {
   h1: '청년미래적금 은행별 금리 비교, 어디가 제일 유리할까?',
   breadcrumb: '은행별 비교',
   description: '청년미래적금 기본금리는 14곳 모두 연 5% 고정으로 같고, 은행별 우대금리에서 갈립니다. 농협·신한·우리·하나·기업·국민·우정은 우대 3%p(최대 8%), 수협·iM·부산·광주·전북·경남·카카오는 우대 2%p(최대 7%)입니다.',
   datePublished: '2026-06-26T09:00:00+09:00',
-  dateModified: '2026-06-26T09:00:00+09:00',
+  dateModified: '2026-07-21T09:00:00+09:00',
   keyFacts: {
     '기본금리': '연 5% 고정 (14곳 공통)',
     '우대 3%p 은행': '농협·신한·우리·하나·기업·국민·우정 → 최대 8%',
@@ -27,14 +41,26 @@ export const 미래적금은행별SpokeContent: SpokeData = {
       intro: '기본금리는 14개 취급기관 모두 연 5% 고정으로 동일하고, 차이는 은행별 우대금리에서 납니다. 금융위원회 취급기관별 금리 공시에 따르면 농협·신한·우리·하나·기업·국민·우정사업본부는 최대 3%p의 우대금리를 줘서 최고 연 8%까지, 수협·iM·부산·광주·전북·경남·카카오는 최대 2%p로 최고 연 7%까지 받을 수 있습니다. 다만 우대금리는 급여이체·카드 실적 등 조건을 모두 충족해야 받는 "최고" 금리이므로, 본인이 실제 채울 수 있는 조건을 기준으로 비교하는 것이 정확합니다.',
       highlights: ['기본 5% 공통', '3%p 은행 최대 8%', '2%p 은행 최대 7%', '우대는 조건 충족 시'],
       table: {
-        caption: '청년미래적금 은행별 최고금리 (기본 5% + 우대)',
-        headers: ['우대금리', '취급 은행', '최고금리'],
+        caption: '청년미래적금 14개 취급기관 금리 비교공시 (은행연합회, 2026.6월 최종 제공)',
+        headers: ['은행', '기본금리', '최고금리', '우대금리 핵심조건'],
         rows: [
-          ['+3%p', '농협·신한·우리·하나·기업·국민·우정', '연 8%'],
-          ['+2%p', '수협·iM·부산·광주·전북·경남·카카오', '연 7%'],
+          ['IBK기업은행', '5.00%', '8.00%', '소득·상담·급여·카드·청약·중기재직·연계 7종 (최대 3.0%p)'],
+          ['KB국민은행', '5.00%', '8.00%', '급여1.0+출금0.8+거래감사0.5+소득0.5+상담0.2'],
+          ['NH농협은행', '5.00%', '8.00%', '급여1.0+카드0.7+연계0.3+마이데이터0.3+상담0.2+소득0.5'],
+          ['우리은행', '5.00%', '8.00%', '소득입금1.5+연계0.5+카드공과금0.5+소득플러스0.5+상담0.2+출시기념0.3'],
+          ['신한은행', '5.00%', '8.00%', '소득0.5+상담0.2+소득이체0.3+카드0.2+증권0.5+연계 최대 1.3'],
+          ['우체국', '5.00%', '8.00%', '이벤트1.0(~8.7)+첫거래급여0.5+카드0.4+자동이체0.4+소득0.5+상담0.2'],
+          ['하나은행', '5.00%', '8.00%', '급여가맹점1.2+카드0.6+목돈응원0.5+소득플러스0.5+상담0.2'],
+          ['Sh수협은행', '5.00%', '7.00%', '소득0.5+상담0.2+마케팅0.2+급여0.5+카드0.6'],
+          ['iM뱅크(대구)', '5.00%', '7.00%', '최초거래0.3+마케팅0.1+자동이체0.3+급여0.3+카드0.3+소득0.5+상담0.2'],
+          ['BNK부산은행', '5.00%', '7.00%', '급여0.5+카드0.5+청약0.3+소득0.5+상담0.2'],
+          ['광주은행', '5.00%', '7.00%', '소득0.5+상담0.2+연계0.5+급여0.3+자동이체0.2+정기예금0.3'],
+          ['전북은행', '5.00%', '7.00%', '소득0.5+상담0.2+급여가맹점0.5+카드0.3+자동이체0.3+마케팅0.2'],
+          ['BNK경남은행', '5.00%', '7.00%', '응원금리0.3+마케팅0.1+급여가맹점0.7+카드0.2+신규0.2+소득0.5+상담0.2'],
+          ['카카오뱅크', '5.00%', '7.00%', '소득0.5+상담0.2+최초신규0.7+카드최대0.6'],
         ],
       },
-      box: { label: '핵심', content: '기본 5%는 다 같습니다. "최대 8%"는 우대 3%p 은행에서 모든 우대 조건을 채웠을 때입니다. 본인이 채울 조건으로 비교하세요.' },
+      box: { label: '핵심', content: '기본 5%는 14곳 다 같습니다. "최대 8%"는 그 은행 우대 조건을 모두 채웠을 때이며, 조건 개수·항목은 은행마다 다릅니다. 아래 "은행별 바로가기"에서 본인이 쓰는 은행의 실제 상품 페이지로 이동해 우대조건을 확인하세요.' },
     },
     {
       q: '기본금리 5%는 모든 은행이 똑같나요?',
@@ -97,7 +123,20 @@ export const 미래적금은행별SpokeContent: SpokeData = {
   ],
   sources: [
     { name: '금융위원회 보도자료 「청년미래적금 취급기관별 금리 공시」 (2026.05.28)', url: FSC },
-    { name: '전국은행연합회 소비자포털 (예금상품금리비교)', url: KFB },
-    { name: '금융위원회 공식 사이트', url: 'https://www.fsc.go.kr' },
+    { name: '전국은행연합회 소비자포털 (예금상품금리비교 · 14개 은행 전체 공시)', url: KFB },
+    { name: '▶ IBK기업은행 바로가기', url: IBK_URL },
+    { name: '▶ KB국민은행 청년미래적금 상품페이지', url: KB_URL },
+    { name: '▶ NH농협은행 바로가기', url: NH_URL },
+    { name: '▶ 우리은행 바로가기', url: WOORI_URL },
+    { name: '▶ 신한은행 바로가기', url: SHINHAN_URL },
+    { name: '▶ 우체국 청년미래적금 상품페이지', url: POST_URL },
+    { name: '▶ 하나은행 청년미래적금 상품페이지', url: HANA_URL },
+    { name: '▶ Sh수협은행 바로가기', url: SH_URL },
+    { name: '▶ iM뱅크(대구은행) 바로가기', url: IM_URL },
+    { name: '▶ BNK부산은행 바로가기', url: BUSAN_URL },
+    { name: '▶ 광주은행 바로가기', url: GWANGJU_URL },
+    { name: '▶ 전북은행 바로가기', url: JEONBUK_URL },
+    { name: '▶ BNK경남은행 바로가기', url: GYEONGNAM_URL },
+    { name: '▶ 카카오뱅크 청년미래적금 상품페이지', url: KAKAO_URL },
   ],
 };
