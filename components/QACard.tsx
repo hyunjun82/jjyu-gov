@@ -181,21 +181,36 @@ export function QATable({
               key={ri}
               className={ri < rows.length - 1 ? 'border-b border-gov-border' : ''}
             >
-              {row.map((cell, ci) => (
-                <td
-                  key={ci}
-                  className="text-gov-text"
-                  style={{
-                    padding: '10px 12px',
-                    fontSize: '13px',
-                    textAlign: ci === 0 ? 'left' : 'center',
-                    fontWeight: ci === 0 ? 500 : 600,
-                    lineHeight: 1.6,
-                  }}
-                >
-                  {cell}
-                </td>
-              ))}
+              {row.map((cell, ci) => {
+                // 셀 값에 "표시텍스트||URL" 형식이 들어오면 클릭 가능한 링크로 렌더링 (기존 셀은 그대로 텍스트)
+                const linkMatch = cell.includes('||') ? cell.split('||') : null;
+                return (
+                  <td
+                    key={ci}
+                    className="text-gov-text"
+                    style={{
+                      padding: '10px 12px',
+                      fontSize: '13px',
+                      textAlign: ci === 0 ? 'left' : 'center',
+                      fontWeight: ci === 0 ? 500 : 600,
+                      lineHeight: 1.6,
+                    }}
+                  >
+                    {linkMatch ? (
+                      <a
+                        href={linkMatch[1]}
+                        rel="noopener noreferrer"
+                        className="text-gov-navy underline"
+                        style={{ fontWeight: 700 }}
+                      >
+                        {linkMatch[0]}
+                      </a>
+                    ) : (
+                      cell
+                    )}
+                  </td>
+                );
+              })}
             </tr>
           ))}
         </tbody>

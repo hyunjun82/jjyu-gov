@@ -29,6 +29,7 @@ import { 미래적금은행별SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 미래적금갈아타기SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/갈아타기';
 import { 미래적금우대형SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/우대형';
 import { 미래적금프리랜서SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/프리랜서';
+import { 장병적금은행별SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/장병적금-은행별비교';
 import { 미래적금심사일정SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/심사일정';
 
 /* ── 노령연금 감액 기준 상향 (slug: national-pension-reduction) ── */
@@ -1226,6 +1227,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '우대형':       미래적금우대형SpokeContent,
     '심사일정':     미래적금심사일정SpokeContent,
     '프리랜서':     미래적금프리랜서SpokeContent,
+    '장병적금-은행별비교': 장병적금은행별SpokeContent,
   },
 
   'national-pension-reduction': {
