@@ -675,6 +675,7 @@ import { mounjaroPriceComparisonPolicy, mounjaroPriceComparisonSpokes } from './
 import { limYoungwoongConcert2026Policy, limYoungwoongConcert2026Spokes } from './lim-youngwoong-concert-2026';
 import { moveInReportOnlinePolicy, moveInReportOnlineSpokes } from './move-in-report-online';
 import { leverageEtfInvestorProtectionPolicy, leverageEtfInvestorProtectionSpokes } from './leverage-etf-investor-protection';
+import { isaBankComparisonPolicy, isaBankComparisonSpokes } from './isa-bank-comparison';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -1226,6 +1227,7 @@ export const PoliciesById: Record<string, any> = {
   '633': samsungMisoFinanceLoanPolicy,
   '634': moveInReportOnlinePolicy,
   '635': leverageEtfInvestorProtectionPolicy,
+  '636': isaBankComparisonPolicy,
   '77': infantChildcareFeePolicy,
   '63': infantHealthCheckupPolicy,
   '123': infertilityTreatmentLeavePolicy,
@@ -1850,6 +1852,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'samsung-miso-finance-loan': samsungMisoFinanceLoanPolicy,
   'move-in-report-online': moveInReportOnlinePolicy,
   'leverage-etf-investor-protection': leverageEtfInvestorProtectionPolicy,
+  'isa-bank-comparison': isaBankComparisonPolicy,
   'mounjaro-price-comparison': mounjaroPriceComparisonPolicy,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Policy,
   'infant-childcare-fee': infantChildcareFeePolicy,
@@ -2518,6 +2521,7 @@ export const SpokesById: Record<string, any[]> = {
   '633': samsungMisoFinanceLoanSpokes,
   '634': moveInReportOnlineSpokes,
   '635': leverageEtfInvestorProtectionSpokes,
+  '636': isaBankComparisonSpokes,
   '77': infantChildcareFeeSpokes,
   '63': infantHealthCheckupSpokes,
   '123': infertilityTreatmentLeaveSpokes,
@@ -3142,6 +3146,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'samsung-miso-finance-loan': samsungMisoFinanceLoanSpokes,
   'move-in-report-online': moveInReportOnlineSpokes,
   'leverage-etf-investor-protection': leverageEtfInvestorProtectionSpokes,
+  'isa-bank-comparison': isaBankComparisonSpokes,
   'mounjaro-price-comparison': mounjaroPriceComparisonSpokes,
   'lim-youngwoong-concert-2026': limYoungwoongConcert2026Spokes,
   'infant-childcare-fee': infantChildcareFeeSpokes,
