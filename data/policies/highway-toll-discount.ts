@@ -90,4 +90,5 @@ export const highwayTollDiscountSpokes = [
   { slug: '장애인유공자', role: 'target', title: '장애인·유공자 고속도로 통행료 감면, 세대원 장기 임차·대여차 50%', content: '하반기: 같은 세대원 장기 임차·대여 차량도 통행료 50% 할인.' },
   { slug: '다자녀', role: 'amount', title: '다자녀 고속도로 통행료 감면 2자녀 10%·3자녀 20%, 사전등록 안 하면 못 받는다', content: '2026.7.28부터 적용, 주말·공휴일 한정. 3자녀 7/22, 2자녀 8/10부터 hipass.co.kr 사전등록 필수.' },
   { slug: '신청등록', role: 'apply', title: '다자녀 통행료 할인 사전등록 방법, 출생연도 5부제 신청일 확인', content: '3자녀 이상 7/22 오전10시~, 2자녀 8/10 오전10시~ 출생연도 끝자리 5부제(8/15부터 무관). hipass.co.kr/entry.html.' },
+  { slug: '한국도로공사다자녀등록', role: 'apply', title: '한국도로공사 다자녀등록 어떻게 하나, 대상·신청일·필요정보 총정리', content: 'hipass.co.kr/entry.html 사전등록. 3자녀 이상 7/22 오전10시~, 2자녀 8/10 오전10시~(5부제). 할인은 7/28 통행분부터.' },
 ];

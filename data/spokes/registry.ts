@@ -878,6 +878,7 @@ import { 양육비선지급회수SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 고속도로통행료감면장애인유공자SpokeContent } from '@/app/policy/[id]/[spoke]/content/고속도로통행료감면/장애인유공자';
 import { 고속도로통행료감면다자녀SpokeContent } from '@/app/policy/[id]/[spoke]/content/고속도로통행료감면/다자녀';
 import { 고속도로통행료감면신청등록SpokeContent } from '@/app/policy/[id]/[spoke]/content/고속도로통행료감면/신청등록';
+import { 고속도로통행료감면한국도로공사다자녀등록SpokeContent } from '@/app/policy/[id]/[spoke]/content/고속도로통행료감면/한국도로공사다자녀등록';
 
 /* ── 난임치료휴가급여 확대 (slug: infertility-treatment-leave) ── */
 import { 난임치료휴가급여확대SpokeContent } from '@/app/policy/[id]/[spoke]/content/난임치료휴가급여/휴가확대';
@@ -1933,6 +1934,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '장애인유공자': 고속도로통행료감면장애인유공자SpokeContent,
     '다자녀': 고속도로통행료감면다자녀SpokeContent,
     '신청등록': 고속도로통행료감면신청등록SpokeContent,
+    '한국도로공사다자녀등록': 고속도로통행료감면한국도로공사다자녀등록SpokeContent,
   },
 
   'infertility-treatment-leave': {
