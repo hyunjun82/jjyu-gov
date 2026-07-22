@@ -1209,6 +1209,7 @@ import { 저소득에너지효율개선저소득에너지효율개선신청자�
 import { 저소득에너지효율개선저소득에너지효율개선지원항목단열창호보일러에어컨SpokeContent }   from '@/app/policy/[id]/[spoke]/content/저소득에너지효율개선/저소득에너지효율개선지원항목단열창호보일러에어컨';
 import { 저소득에너지효율개선저소득에너지효율개선신청방법주민센터절차SpokeContent }           from '@/app/policy/[id]/[spoke]/content/저소득에너지효율개선/저소득에너지효율개선신청방법주민센터절차';
 import { 저소득에너지효율개선저소득에너지효율개선지원금액가구당243만원SpokeContent }         from '@/app/policy/[id]/[spoke]/content/저소득에너지효율개선/저소득에너지효율개선지원금액가구당243만원';
+import { 케스파컵결선티켓예매SpokeContent } from '@/app/policy/[id]/[spoke]/content/kespa-cup-2026/결선티켓예매';
 
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
@@ -2644,6 +2645,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'inverter-ac-electricity-saving': {
     'appliance-rebate-program-status': applianceRebateProgramStatusSpokeContent,
+  },
+
+  'kespa-cup-2026': {
+    '결선티켓예매': 케스파컵결선티켓예매SpokeContent,
   },
 
 };
