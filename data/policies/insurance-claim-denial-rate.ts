@@ -2,7 +2,7 @@
 export const insuranceClaimDenialRatePolicy = {
   id: '255', type: 'service' as const,
   title: '보험금 잘 주는 회사 vs 안 주는 회사, 부지급률로 비교하는 법',
-  titleKeywords: { k1: '보험사 부지급률', k2: '보험금 잘 주는 회사', k3: '보험금 부지급률 공시', k4: '손해보험협회 소비자포털' },
+  titleKeywords: { k1: '부지급률이 낮을수록 청구했을 때 실제로 보험금을 받을 확률이 상대적으로 높다는 의미', k2: '부지급률이 낮은 회사가 무조건 좋은 회사인가요', k3: '부지급건수(D)를 청구건수(A)로 나눈 비율', k4: '손해보험협회 소비자포털' },
   slug: 'insurance-claim-denial-rate', org: '손해보험협회', cat: '보험', catSlug: 'insurance',
   amount: '해당없음(정보성 콘텐츠, 실제 가입금액은 상품별 상이)',
   hideAmountBox: true,
@@ -18,6 +18,11 @@ export const insuranceClaimDenialRatePolicy = {
     장기보험업계평균: { value: '업계평균 부지급률 1.3%(장기보험 기준)', source: { url: 'https://consumer.knia.or.kr/disclosure/item/07.do', text: '업계평균 청구건수 374,241, 부지급건수 4,873, 부지급률 1.3', verifiedAt: '2026-07-16' } },
     자동차보험업계평균: { value: '업계평균 부지급률 0.45%(자동차보험 기준)', source: { url: 'https://consumer.knia.or.kr/disclosure/item/07.do', text: '업계평균 청구건수 310,202, 부지급건수 1,381, 부지급률 0.45', verifiedAt: '2026-07-16' } },
     공시주기: { value: '반기별(상반기·하반기) 공시, 2011년부터 누적 공개', source: { url: 'https://consumer.knia.or.kr/disclosure/item/07.do', text: '2025하반기, 2025상반기... 2011까지 반기별 조회 가능', verifiedAt: '2026-07-16' } },
+    청구이후해지비율: { value: '청구 후 품질보증해지·민원해지, 부지급 후 고지의무위반해지·임의해지 건수를 청구 계약건수로 나눈 비율', source: { url: 'https://consumer.knia.or.kr/disclosure/item/07.do', text: '청구이후 해지비율', verifiedAt: '2026-07-16' } },
+    생명보험조회처: { value: '생명보험협회 소비자정보 포털(consumer.insure.or.kr) 비교공시', source: { url: 'https://consumer.insure.or.kr', text: '생명보험협회 소비자정보 포털', verifiedAt: '2026-07-16' } },
+    확인방법: { value: '소비자포털 → 항목별 공시정보 → 보험금 부지급률/청구이후 해지비율', source: { url: 'https://consumer.knia.or.kr/disclosure/item/07.do', text: '항목별 공시정보', verifiedAt: '2026-07-16' } },
+    다른공시지표: { value: '민원건수, 금융소비자보호실태평가, 소송제기현황, 불완전판매비율, 청약철회비율', source: { url: 'https://consumer.knia.or.kr/disclosure/item/07.do', text: '다른 공시 지표', verifiedAt: '2026-07-16' } },
+    담당기관: { value: '손해보험협회', source: { url: 'https://kpub.knia.or.kr', text: '손해보험협회 공시실', verifiedAt: '2026-07-16' } },
   },
   qa: [
     {
@@ -59,12 +64,14 @@ export const insuranceClaimDenialRatePolicy = {
       q: '부지급률이 낮은 회사가 무조건 좋은 회사인가요', anchor: 'q-not-absolute',
       intro: '반드시 그렇다고 단정할 수는 없습니다. 부지급률은 실제로 보험금 지급을 거절한 비율을 보여주지만, 그 이면에는 다양한 요인이 섞여 있을 수 있습니다. 예를 들어 애초에 심사가 느슨해 부적절한 청구까지 지급하는 회사라면 부지급률이 낮게 나타날 수 있고, 반대로 심사를 꼼꼼히 해 정당하지 않은 청구를 정확히 걸러내는 회사도 부지급률이 상대적으로 낮게 나타날 수 있습니다. 또한 앞서 살펴본 것처럼 청구건수 자체가 적은 소형사는 통계적 변동폭이 커서 특정 반기의 수치만으로 판단하기 어렵습니다. 따라서 부지급률은 여러 보험사를 비교하는 하나의 참고 지표로 활용하되, 청구이후 해지비율, 민원건수 공시, 불완전판매비율 등 손해보험협회가 함께 공시하는 다른 지표들과 종합적으로 살펴보는 것이 합리적입니다.',
       highlights: ['부지급률이 낮다고 반드시 "좋은 회사"는 아님', '심사 기준의 엄격함·느슨함에 따라 수치가 달라질 수 있음', '소형사는 청구건수가 적어 통계 변동폭이 클 수 있음', '민원건수·불완전판매비율 등과 종합적으로 봐야 함'],
+      box: { label: '핵심', content: '부지급률이 낮다고 무조건 좋은 회사는 아니며, 다른 지표와 함께 종합적으로 판단해야 합니다.' },
       sourceNote: '* 출처: 손해보험협회 소비자포털',
     },
     {
       q: '직접 확인하려면 어떻게 하나요', anchor: 'q-how-to-check',
       intro: '손해보험협회 소비자포털(consumer.knia.or.kr)에 접속해 "항목별 공시정보" 메뉴에서 "보험금 부지급률/청구이후 해지비율"을 선택하면 됩니다. 조회 화면에서 연도·반기를 선택하면(2011년부터 최신 반기까지 선택 가능) 장기보험과 자동차보험 각각의 회사별 청구건수, 지급건수, 지급금액, 부지급건수, 부지급률, 청구이후 해지비율을 표와 차트로 확인할 수 있고, 엑셀 다운로드도 지원합니다. 같은 포털에서 민원건수, 금융소비자보호실태평가, 소송제기현황, 불완전판매비율, 청약철회비율 등 다른 소비자 보호 관련 지표도 함께 조회할 수 있어, 보험사를 다각도로 비교하고 싶다면 이 포털을 종합적으로 활용하는 것이 좋습니다.',
       highlights: ['손해보험협회 소비자포털(consumer.knia.or.kr) 접속', '"항목별 공시정보" → "보험금 부지급률/청구이후 해지비율" 선택', '연도·반기 선택 후 조회, 엑셀 다운로드 지원', '민원건수·불완전판매비율 등 다른 지표도 같은 포털에서 확인 가능'],
+      box: { label: '확인 방법', content: '소비자포털 → 항목별 공시정보 → 보험금 부지급률/청구이후 해지비율 → 연도·반기 조회.' },
       sourceNote: '* 출처: 손해보험협회 소비자포털',
     },
   ],
