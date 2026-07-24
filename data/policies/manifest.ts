@@ -585,6 +585,7 @@ import { petBoardingBusinessRegistrationPolicy, petBoardingBusinessRegistrationS
 import { mobilePetGroomingRegistrationPolicy, mobilePetGroomingRegistrationSpokes } from './mobile-pet-grooming-registration';
 import { animalBreedingBusinessPermitPolicy, animalBreedingBusinessPermitSpokes } from './animal-breeding-business-permit';
 import { healthFunctionalFoodBusinessReportPolicy, healthFunctionalFoodBusinessReportSpokes } from './health-functional-food-business-report';
+import { medicalAidType1Type2DifferencePolicy, medicalAidType1Type2DifferenceSpokes } from './medical-aid-type1-type2-difference';
 import { hygieneProductManufacturingReportPolicy, hygieneProductManufacturingReportSpokes } from './hygiene-product-manufacturing-report';
 import { groupFoodServiceFacilityReportPolicy, groupFoodServiceFacilityReportSpokes } from './group-food-service-facility-report';
 import { foodManufacturingRegistrationPolicy, foodManufacturingRegistrationSpokes } from './food-manufacturing-registration';
@@ -1140,6 +1141,7 @@ export const PoliciesById: Record<string, any> = {
   '545': mobilePetGroomingRegistrationPolicy,
   '546': animalBreedingBusinessPermitPolicy,
   '547': healthFunctionalFoodBusinessReportPolicy,
+  '638': medicalAidType1Type2DifferencePolicy,
   '548': hygieneProductManufacturingReportPolicy,
   '549': groupFoodServiceFacilityReportPolicy,
   '550': foodManufacturingRegistrationPolicy,
@@ -1766,6 +1768,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'mobile-pet-grooming-registration': mobilePetGroomingRegistrationPolicy,
   'animal-breeding-business-permit': animalBreedingBusinessPermitPolicy,
   'health-functional-food-business-report': healthFunctionalFoodBusinessReportPolicy,
+  'medical-aid-type1-type2-difference': medicalAidType1Type2DifferencePolicy,
   'hygiene-product-manufacturing-report': hygieneProductManufacturingReportPolicy,
   'group-food-service-facility-report': groupFoodServiceFacilityReportPolicy,
   'food-manufacturing-registration': foodManufacturingRegistrationPolicy,
@@ -2436,6 +2439,7 @@ export const SpokesById: Record<string, any[]> = {
   '545': mobilePetGroomingRegistrationSpokes,
   '546': animalBreedingBusinessPermitSpokes,
   '547': healthFunctionalFoodBusinessReportSpokes,
+  '638': medicalAidType1Type2DifferenceSpokes,
   '548': hygieneProductManufacturingReportSpokes,
   '549': groupFoodServiceFacilityReportSpokes,
   '550': foodManufacturingRegistrationSpokes,
@@ -3062,6 +3066,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'mobile-pet-grooming-registration': mobilePetGroomingRegistrationSpokes,
   'animal-breeding-business-permit': animalBreedingBusinessPermitSpokes,
   'health-functional-food-business-report': healthFunctionalFoodBusinessReportSpokes,
+  'medical-aid-type1-type2-difference': medicalAidType1Type2DifferenceSpokes,
   'hygiene-product-manufacturing-report': hygieneProductManufacturingReportSpokes,
   'group-food-service-facility-report': groupFoodServiceFacilityReportSpokes,
   'food-manufacturing-registration': foodManufacturingRegistrationSpokes,
