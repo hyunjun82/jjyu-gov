@@ -5,6 +5,7 @@ export const ledLightingSupportPolicy: PolicyData = {
   slug: 'led-lighting-support',
   type: 'service',
   title: '에너지 취약계층 고효율 조명기기 무상교체 지원',
+  titleKeywords: { k1: '노후화된 저효율 조명기기를 고효율 LED 조명기기로 무상 교체해드립니다', k2: '기초생활수급자, 차상위계층, 지자체 추천 복지사각지대 가구, 영구임대주택 입주자', k3: '단지 단위로 협약을 체결한 후 지원받을 수 있습니다', k4: '형광등 대비 50~70% 전력을 절감합니다' },
   cat: '복지',
   catSlug: 'welfare',
   org: '한국에너지재단 (산업통상자원부)',
@@ -79,6 +80,14 @@ export const ledLightingSupportPolicy: PolicyData = {
       source: {
         url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=cfdb420c-2352-4be6-9e54-0f3ab2490b35',
         text: '영구임대주택의 경우 단지 단위로 협약 체결 후 지원 가능하며, 주차장 등 공용 이용 공간이 포함되어야 할 때는 사전 협의 필요',
+        verifiedAt: '2026-05-16',
+      },
+    },
+    전력절감효과: {
+      value: 'LED 교체 시 형광등 대비 50~70% 전력 절감',
+      source: {
+        url: 'https://gonggam.korea.kr/newsContentView.es?mid=a12504000000&section_id=NCCD_HOPECONT_003&content=NC002&code_cd=0123000000&nPage=2&b_list=9&news_id=cfdb420c-2352-4be6-9e54-0f3ab2490b35',
+        text: 'LED 교체 시 형광등 대비 약 50~70% 전력 절감',
         verifiedAt: '2026-05-16',
       },
     },
@@ -203,7 +212,7 @@ export const ledLightingSupportPolicy: PolicyData = {
     {
       anchor: 'tip',
       question: 'LED 교체로 전기요금을 얼마나 절약할 수 있나요?',
-      intro: 'LED 조명은 같은 밝기의 형광등 대비 약 50~70% 전력을 절감합니다. 일반 가정에서 형광등 20개를 LED로 교체하면 연간 수만 원 이상의 전기요금 절감 효과를 기대할 수 있습니다. 조명 이외에도 에너지바우처, 저소득층 에너지 효율 개선사업(에어컨·보일러) 등 다른 에너지 복지사업도 함께 확인하세요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다.',
+      intro: 'LED 조명은 같은 밝기의 형광등 대비 50~70% 전력을 절감합니다. 일반 가정에서 형광등 20개를 LED로 교체하면 연간 수만 원 이상의 전기요금 절감 효과를 기대할 수 있습니다. 조명 이외에도 에너지바우처, 저소득층 에너지 효율 개선사업(에어컨·보일러) 등 다른 에너지 복지사업도 함께 확인하세요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['형광등 대비 50~70% 절감', '연간 전기요금 절약', '에너지바우처 연계'],
       box: {
         title: '함께 받을 수 있는 에너지 복지 지원',
