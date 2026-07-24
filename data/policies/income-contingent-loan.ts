@@ -4,6 +4,7 @@ export const incomeContingentLoanPolicy: PolicyData = {
   id: '155',
   type: 'loan',
   title: '취업후상환 학자금대출 의무상환 기준과 금리, 소득요건 폐지까지',
+  titleKeywords: { k1: '재학 중에는 원금 상환 부담 없이 학업에 집중하고', k2: '소득 요건이 폐지되어 소득과 관계없이 모든 대학·대학원생이 신청할 수 있습니다', k3: '금리는 연 1.7%로 6년 연속 동결', k4: '졸업 후 소득이 상환 기준소득을 초과하면 의무상환이 시작됩니다' },
   cat: '대출',
   catSlug: 'loan',
   org: '교육부 / 한국장학재단',
@@ -91,6 +92,15 @@ export const incomeContingentLoanPolicy: PolicyData = {
         verifiedAt: '2026-05-16',
       },
     },
+    학점요건: {
+      value: '직전 학기 C0 이상 + 12학점 이상 이수 (장애학생 면제)',
+      source: {
+        url: 'https://www.kosaf.go.kr/ko/tuition.do?pg=tuition05_01_01',
+        cardIndex: 2,
+        text: '학점 요건: C0 이상 12학점 이상',
+        verifiedAt: '2026-05-16',
+      },
+    },
   },
 
   qa: [
@@ -116,6 +126,7 @@ export const incomeContingentLoanPolicy: PolicyData = {
         text: '취업 후 상환 학자금대출',
         verifiedAt: '2026-05-16',
       },
+      sourceNote: '* 출처: 한국장학재단 2026학년도 1학기 학자금대출 안내',
     },
     {
       anchor: 'q2',
@@ -140,6 +151,7 @@ export const incomeContingentLoanPolicy: PolicyData = {
         text: '취업 후 상환 등록금 대출 소득 요건 폐지, 2026학년도 1학기부터 적용',
         verifiedAt: '2026-05-16',
       },
+      sourceNote: '* 출처: 교육부 2026학년도 1학기 학자금대출 안내',
     },
     {
       anchor: 'q3',
@@ -161,6 +173,7 @@ export const incomeContingentLoanPolicy: PolicyData = {
         text: '이자 면제: 기초생활수급자, 차상위계층, 다자녀 가구, 학자금 지원 5구간 이하 / 2026년 7월부터 6구간 이하 확대',
         verifiedAt: '2026-05-16',
       },
+      sourceNote: '* 출처: 한국장학재단 2026학년도 1학기 대출 안내',
     },
     {
       anchor: 'q4',
@@ -183,6 +196,7 @@ export const incomeContingentLoanPolicy: PolicyData = {
         text: '생활비 학기당 200만 원, 연간 최대 400만 원 / 등록금 전액',
         verifiedAt: '2026-05-16',
       },
+      sourceNote: '* 출처: 한국장학재단 2026학년도 1학기 학자금대출 안내',
     },
     {
       anchor: 'q5',
