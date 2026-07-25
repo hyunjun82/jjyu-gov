@@ -2,7 +2,7 @@
 export const ltciGradeCriteriaGuidePolicy = {
   id: '263', type: 'service' as const,
   title: '장기요양등급 1~5등급, 인지지원등급까지 점수 기준 총정리',
-  titleKeywords: { k1: '장기요양등급 판정기준', k2: '장기요양인정점수', k3: '치매보험 장기요양등급', k4: '인지지원등급 신청' },
+  titleKeywords: { k1: '장기요양등급은 "장기요양인정점수"를 기준으로 1등급, 2등급, 3등급, 4등급, 5등급, 인지지원등급까지 총 6단계로 나뉩니다', k2: '장기요양인정점수', k3: '많은 간병보험·치매보험 상품은 국민건강보험공단이 판정하는 이 장기요양등급', k4: '인지지원등급은 치매 환자로서 장기요양인정 점수가 45점 미만인 사람으로 정의됩니다' },
   slug: 'ltci-grade-criteria-guide', org: '국민건강보험공단', cat: '보험', catSlug: 'insurance',
   amount: '해당없음(정보성 콘텐츠, 실제 급여내용은 등급별 상이)',
   hideAmountBox: true,
@@ -18,6 +18,11 @@ export const ltciGradeCriteriaGuidePolicy = {
     '3등급기준': { value: '장기요양인정 점수 60점 이상 75점 미만, 부분적으로 타인 도움 필요', source: { url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2038&ccfNo=2&cciNo=2&cnpClsNo=1', text: '3등급: 심신의 기능상태 장애로 일상생활에서 부분적으로 다른 사람의 도움이 필요한 사람으로서 장기요양인정 점수가 60점 이상 75점 미만인 사람', verifiedAt: '2026-07-16' } },
     '5등급기준': { value: '치매 환자로서 장기요양인정 점수 45점 이상 51점 미만', source: { url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2038&ccfNo=2&cciNo=2&cnpClsNo=1', text: '5등급: 치매 환자로서 장기요양인정 점수가 45점 이상 51점 미만인 사람', verifiedAt: '2026-07-16' } },
     판정소요기간: { value: '신청서 제출일로부터 30일 이내 완료(부득이한 경우 30일 이내 범위에서 연장)', source: { url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2038&ccfNo=2&cciNo=2&cnpClsNo=1', text: '장기요양인정신청서를 제출한 날부터 30일 이내에 장기요양등급판정은 완료됩니다.', verifiedAt: '2026-07-16' } },
+    '2등급기준': { value: '장기요양인정 점수 75점 이상 95점 미만, 상당 부분 타인 도움 필요', source: { url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2038&ccfNo=2&cciNo=2&cnpClsNo=1', text: '2등급: 심신의 기능상태 장애로 일상생활에서 상당 부분 다른 사람의 도움이 필요한 사람', verifiedAt: '2026-07-16' } },
+    '4등급기준': { value: '장기요양인정 점수 51점 이상 60점 미만, 일정 부분 타인 도움 필요', source: { url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2038&ccfNo=2&cciNo=2&cnpClsNo=1', text: '4등급: 심신의 기능상태 장애로 일상생활에서 일정 부분 다른 사람의 도움이 필요한 사람', verifiedAt: '2026-07-16' } },
+    인지지원등급기준: { value: '치매 환자로서 장기요양인정 점수 45점 미만', source: { url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2038&ccfNo=2&cciNo=2&cnpClsNo=1', text: '인지지원등급: 치매 환자로서 장기요양인정 점수가 45점 미만인 사람', verifiedAt: '2026-07-16' } },
+    조사영역: { value: '기본 일상생활활동(ADL)·수단적 일상생활활동(IADL)·인지기능 등 12개 영역 90개 항목 조사, 52개 항목으로 점수 산정', source: { url: 'https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2038&ccfNo=2&cciNo=2&cnpClsNo=1', text: '장기요양인정조사표', verifiedAt: '2026-07-16' } },
+    등급포기: { value: '다른 법령상 사회복지서비스 이용 목적 등으로 포기 신청 가능, 포기 후 30일 이내 1회 취소 가능', source: { url: 'https://www.longtermcare.or.kr/npbs/e/b/201/npeb201m01.web?menuId=npe0000000080', text: '등급 포기 절차', verifiedAt: '2026-07-16' } },
   },
   qa: [
     {
@@ -52,12 +57,14 @@ export const ltciGradeCriteriaGuidePolicy = {
       q: '장애등록등급과 장기요양등급은 같은 건가요', anchor: 'q-disability-vs-ltc-grade',
       intro: '아닙니다. 법제처는 이 둘을 명확히 구분해 설명하고 있습니다. 장애인복지법에 따른 장애인 등록은 신체적·정신적 장애 자체를 기준으로 등급을 판정하는 반면, 노인장기요양보험법에 따른 장기요양등급은 신청자의 외부 신체장애뿐만 아니라 전반적인 심신의 기능 상태를 기준으로 "요양이 얼마나 필요한가"를 판단해 등급을 판정합니다. 즉 평가하는 목적과 기준 자체가 다르기 때문에, 같은 사람이라도 장애등록등급과 장기요양등급의 결과가 다르게 나올 수 있습니다. 예를 들어 신체 장애 정도는 심각하지 않더라도 일상생활 수행에 도움이 많이 필요하면 장기요양등급은 높게(중증으로) 나올 수 있고, 반대의 경우도 가능합니다. 두 제도는 신청 절차와 혜택도 서로 다르므로, 본인이 필요한 서비스가 어느 제도에 해당하는지 미리 확인한 뒤 신청하는 것이 중요합니다.',
       highlights: ['장애등록: 신체적·정신적 장애 자체를 기준으로 판정', '장기요양등급: 전반적 심신기능 상태 기준 "요양 필요도"로 판정', '같은 사람이라도 두 등급 결과가 다르게 나올 수 있음', '신청 절차·혜택이 서로 달라 필요한 제도를 먼저 확인해야 함'],
+      box: { label: '핵심', content: '장애등록은 장애 자체, 장기요양등급은 요양 필요도를 기준으로 판정하는 서로 다른 제도입니다.' },
       sourceNote: '* 출처: 법제처 찾기쉬운생활법령정보',
     },
     {
       q: '이미 받은 등급을 포기할 수도 있나요', anchor: 'q-grade-waiver',
       intro: '네, 가능합니다. 국민건강보험공단 자료에 따르면 다른 법령에 따른 사회복지 서비스를 이용하는 등의 목적으로, 이미 인정받은 장기요양등급을 포기 요청할 수 있습니다. 포기를 원한다면 장기요양등급포기 신청서와 본인 신분증을 국민건강보험공단 노인장기요양보험운영센터에 방문·팩스·우편으로 제출하면 됩니다. 수급자 본인이 아니라 가족·친족, 법정후견인, 사회복지전담공무원이 대신 신청하는 경우에는 각각에 맞는 추가 서류(가족관계증명서, 후견등기사항증명서, 공무원증 등)가 필요합니다. 다만 등급 포기는 신중하게 결정해야 하는데, 다른 법령의 서비스를 이용하려는 경우라면 사전에 해당 지자체 등 서비스 제공 기관에 먼저 문의해 실제로 그 서비스를 이용할 수 있는지 확인한 뒤 포기 절차를 진행하는 것이 안전합니다. 참고로 등급 포기 신청일로부터 30일 이내에는 1회에 한해 포기 취소도 가능합니다.',
       highlights: ['다른 법령상 사회복지서비스 이용 목적 등으로 등급 포기 요청 가능', '장기요양등급포기 신청서 + 신분증을 운영센터에 제출', '가족·후견인·공무원 대리 신청 시 각각 추가서류 필요', '포기 후 30일 이내 1회에 한해 취소 가능'],
+      box: { label: '핵심', content: '등급 포기는 신청서+신분증으로 가능하며, 30일 이내 1회 취소도 가능합니다.' },
       sourceNote: '* 출처: 국민건강보험공단 공식 자료',
     },
     {
