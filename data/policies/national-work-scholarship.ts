@@ -4,6 +4,7 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
   id: '152',
   type: 'service',
   title: '국가근로장학금 교내근로 교외근로 차이, 신청자격과 지급금액',
+  titleKeywords: { k1: '국가근로장학금', k2: '교내근로는 학교 내 도서관·행정실·실습실 관리', k3: '한국장학재단 소득 4분위 이하가 우선 선발되며', k4: '가구원(부모 또는 배우자)의 소득 조회 동의' },
   cat: '청년',
   catSlug: 'youth',
   org: '교육부 / 한국장학재단',
@@ -92,6 +93,15 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
         verifiedAt: '2026-05-16',
       },
     },
+    중복수혜: {
+      value: '국가장학금 Ⅰ유형·Ⅱ유형과 중복 수혜 가능(학교별 상한 규정 확인 필요)',
+      source: {
+        url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01',
+        cardIndex: 3,
+        text: '국가장학금과 중복 수혜 가능, 단 학교별 규정 확인 필요',
+        verifiedAt: '2026-05-16',
+      },
+    },
   },
 
   qa: [
@@ -113,6 +123,7 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
         ],
         sourceNote: '출처: 한국장학재단 국가근로장학금 안내 / ※ 시급은 매년 최저임금 조정에 따라 변동',
       },
+      sourceNote: '* 출처: 한국장학재단 국가근로장학금 안내',
       source: {
         url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01',
         cardIndex: 1,
@@ -138,6 +149,7 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
         ],
         sourceNote: '출처: 한국장학재단 국가근로장학금 안내',
       },
+      sourceNote: '* 출처: 한국장학재단 국가근로장학금 안내',
       source: {
         url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01',
         cardIndex: 1,
@@ -183,6 +195,7 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
         ],
         sourceNote: '출처: 한국장학재단 국가근로장학금 / 학기당 근로 가능 시간 범위 내 지급',
       },
+      sourceNote: '* 출처: 한국장학재단 국가근로장학금 안내',
       source: {
         url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01',
         cardIndex: 1,
@@ -205,6 +218,7 @@ export const nationalWorkScholarshipPolicy: PolicyData = {
         ],
         sourceNote: '* 신청 후 대학 심사 → 근로 배정 순서로 진행 / 신청=자동 배정 아님',
       },
+      sourceNote: '* 출처: 한국장학재단 국가근로장학금 안내',
       source: {
         url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01',
         cardIndex: 3,

@@ -5,6 +5,7 @@ export const newBusinessStartupSchoolPolicy: PolicyData = {
   slug: 'new-business-startup-school',
   type: 'training',
   title: '신사업창업사관학교 사업화자금 4,000만원, 졸업하면 끝인가요?',
+  titleKeywords: { k1: '신사업창업사관학교', k2: '사업화 자금을 최대 4,000만 원까지 지원하며', k3: '사업자 등록이 없는 예비창업자', k4: '전국 12개 지역에서 운영' },
   cat: '지원금',
   catSlug: 'fund',
   org: '중소벤처기업부 · 소상공인시장진흥공단',
@@ -81,6 +82,24 @@ export const newBusinessStartupSchoolPolicy: PolicyData = {
         verifiedAt: '2026-05-17',
       },
     },
+    모집횟수: {
+      value: '연 2회 (상·하반기)',
+      source: {
+        url: 'https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000104479',
+        cardIndex: 1,
+        text: '연 2회 (상·하반기) 모집',
+        verifiedAt: '2026-05-17',
+      },
+    },
+    제외대상: {
+      value: '신청 시점에 사업자등록이 되어 있는 기존 창업자',
+      source: {
+        url: 'https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000104479',
+        cardIndex: 1,
+        text: '신청 시점에 사업자등록이 된 기존 창업자는 지원 대상에서 제외',
+        verifiedAt: '2026-05-17',
+      },
+    },
   },
 
   qa: [
@@ -123,7 +142,7 @@ export const newBusinessStartupSchoolPolicy: PolicyData = {
     {
       anchor: 'support-content',
       question: '어떤 지원을 받나요?',
-      intro: '신사업창업사관학교에 선발되면 5개월간의 창업 교육(사업 계획 수립, 상품화, 마케팅, 점포운영 체험 등), 전문 멘토링, 사업화 자금을 통합 지원받습니다. 사업화 자금은 최대 4,000만 원까지 지원되며, 우수 졸업생에게는 대중투자 연계, 후속 지원 프로그램 등 추가 혜택이 제공됩니다. 교육 수료 후에도 소상공인시장진흥공단의 사후 지원이 계속됩니다.',
+      intro: '신사업창업사관학교에 선발되면 5개월간의 창업 교육(사업 계획 수립, 상품화, 마케팅, 점포운영 체험 등), 전문 멘토링, 사업화 자금을 통합 지원받습니다. 사업화 자금은 최대 4,000만 원까지 지원되며, 우수 졸업생에게는 대중투자 연계, 후속 지원 프로그램 등 추가 혜택이 제공됩니다. 교육 수료 후에도 소상공인시장진흥공단의 사후 지원이 계속됩니다. 여러 지원이 통합적으로 제공되므로, 각 항목을 개별적으로 신청할 필요 없이 한 번의 선발로 모두 이용할 수 있습니다.',
       highlights: ['5개월 체계적 창업교육', '사업화 자금 최대 4,000만 원', '전문 멘토링', '우수 졸업생 후속 지원'],
       sourceNote: '기업마당 2025년 신사업창업사관학교 모집공고 · 중소벤처기업부 보도자료',
       table: {
