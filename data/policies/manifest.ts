@@ -1,5 +1,6 @@
 /* AUTO-GENERATED policy manifest */
 import { afterSchoolChildcareFeePolicy, afterSchoolChildcareFeeSpokes } from './after-school-childcare-fee';
+import { youthDriverLicenseSubsidyPolicy, youthDriverLicenseSubsidySpokes } from './youth-driver-license-subsidy';
 import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
 import { basicPensionPolicy, 기초연금Spokes } from './basic-pension';
 import { birthCareEmploymentGrantPolicy, birthCareEmploymentGrantSpokes } from './birth-care-employment-grant';
@@ -1293,6 +1294,7 @@ export const PoliciesById: Record<string, any> = {
   '30': youthLeapJobPolicy,
   '89': youthStartupSchoolPolicy,
   '97': youthWelfarePolicy,
+  '639': youthDriverLicenseSubsidyPolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -1975,6 +1977,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'culture-nuri-card': cultureNuriCardPolicy,
   'national-health-checkup': nationalHealthCheckupPolicy,
   'sharing-ticket': sharingTicketPolicy,
+  'youth-driver-license-subsidy': youthDriverLicenseSubsidyPolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -2591,6 +2594,7 @@ export const SpokesById: Record<string, any[]> = {
   '30': youthLeapJobSpokes,
   '89': youthStartupSchoolSpokes,
   '97': youthWelfareSpokes,
+  '639': youthDriverLicenseSubsidySpokes,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -3273,4 +3277,5 @@ export const SpokesBySlug: Record<string, any[]> = {
   'culture-nuri-card': cultureNuriCardSpokes,
   'national-health-checkup': nationalHealthCheckupSpokes,
   'sharing-ticket': sharingTicketSpokes,
+  'youth-driver-license-subsidy': youthDriverLicenseSubsidySpokes,
 };
