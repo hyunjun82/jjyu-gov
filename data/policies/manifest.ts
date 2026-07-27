@@ -1,6 +1,7 @@
 /* AUTO-GENERATED policy manifest */
 import { afterSchoolChildcareFeePolicy, afterSchoolChildcareFeeSpokes } from './after-school-childcare-fee';
 import { youthDriverLicenseSubsidyPolicy, youthDriverLicenseSubsidySpokes } from './youth-driver-license-subsidy';
+import { moduCardRefundStandardPolicy, moduCardRefundStandardSpokes } from './modu-card-refund-standard';
 import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
 import { basicPensionPolicy, 기초연금Spokes } from './basic-pension';
 import { birthCareEmploymentGrantPolicy, birthCareEmploymentGrantSpokes } from './birth-care-employment-grant';
@@ -1295,6 +1296,7 @@ export const PoliciesById: Record<string, any> = {
   '89': youthStartupSchoolPolicy,
   '97': youthWelfarePolicy,
   '639': youthDriverLicenseSubsidyPolicy,
+  '640': moduCardRefundStandardPolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -1978,6 +1980,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'national-health-checkup': nationalHealthCheckupPolicy,
   'sharing-ticket': sharingTicketPolicy,
   'youth-driver-license-subsidy': youthDriverLicenseSubsidyPolicy,
+  'modu-card-refund-standard': moduCardRefundStandardPolicy,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -2595,6 +2598,7 @@ export const SpokesById: Record<string, any[]> = {
   '89': youthStartupSchoolSpokes,
   '97': youthWelfareSpokes,
   '639': youthDriverLicenseSubsidySpokes,
+  '640': moduCardRefundStandardSpokes,
 };
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
@@ -3278,4 +3282,5 @@ export const SpokesBySlug: Record<string, any[]> = {
   'national-health-checkup': nationalHealthCheckupSpokes,
   'sharing-ticket': sharingTicketSpokes,
   'youth-driver-license-subsidy': youthDriverLicenseSubsidySpokes,
+  'modu-card-refund-standard': moduCardRefundStandardSpokes,
 };
