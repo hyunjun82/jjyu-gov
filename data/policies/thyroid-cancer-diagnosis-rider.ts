@@ -2,7 +2,7 @@
 export const thyroidCancerDiagnosisRiderPolicy = {
   id: '259', type: 'service' as const,
   title: '갑상선암은 왜 일반암보다 진단비가 적게 나오나요',
-  titleKeywords: { k1: '갑상선암 진단비', k2: '소액암이란', k3: '유사암 진단비 종류', k4: '경계성종양 제자리암 차이' },
+  titleKeywords: { k1: '보험업계에서는 암을 보장 범위와 진단비 규모에 따라 일반암과 소액암(유사암)으로 나눠', k2: '갑상샘의 악성신생물(C73, 갑상선암)', k3: '기타 피부의 악성신생물(C43-C44 범주 중 C44, 흑색종을 제외한 기타피부암)', k4: '암세포가 발생했지만 아직 상피 조직 내에 국한돼 있고 주변 조직으로 침윤(퍼짐)하지 않은 초기 단계' },
   slug: 'thyroid-cancer-diagnosis-rider', org: '통계청·손해보험협회', cat: '보험', catSlug: 'insurance',
   amount: '해당없음(정보성 콘텐츠, 실제 가입금액은 상품별 상이)',
   hideAmountBox: true,
@@ -19,6 +19,10 @@ export const thyroidCancerDiagnosisRiderPolicy = {
     제자리암코드: { value: '상피내의 신생물(D00-D09) - 소액암으로 분류', source: { url: 'https://www.koicd.kr/kcd/kcd.do?degree=04&kcd=C73', text: 'D00-D09 상피내의 신생물', verifiedAt: '2026-07-16' } },
     경계성종양코드: { value: '행동양식 불명 또는 미상의 신생물(D37-D48) - 소액암으로 분류', source: { url: 'https://www.koicd.kr/kcd/kcd.do?degree=04&kcd=C73', text: 'D37-D48 행동양식 불명 또는 미상의 신생물', verifiedAt: '2026-07-16' } },
     표준가입조건: { value: '(암(소액암 제외)·뇌출혈·급성심근경색증) 진단비 담보 1천만원(표준 비교공시 예시), 소액암은 별도 한도', source: { url: 'https://kpub.knia.or.kr/productDisc/longTermGuarantee/cancerInsurance.do', text: '(암(소액암 제외), 뇌출혈, 급성심근경색증) 진단비 담보 1천만원... 기타 담보(소액암 진단비 포함)는 회사별 최고 인수한도 적용', verifiedAt: '2026-07-16' } },
+    진단비수준: { value: '통상 일반암 진단비의 10~20% 수준(상품별 상이, 약관 확인 필요)', source: { url: 'https://kpub.knia.or.kr/productDisc/longTermGuarantee/cancerInsurance.do', text: '통상 일반암 진단비의 10~20% 수준으로 소액암 진단비가 설계되는 경우가 많음', verifiedAt: '2026-07-16' } },
+    보장확인처: { value: '금융감독원 파인(fine.fss.or.kr) "내보험 다보여" 서비스', source: { url: 'https://fine.fss.or.kr', text: '내보험 다보여 서비스에서 본인이 가입한 보험 계약의 세부 보장 내역을 조회', verifiedAt: '2026-07-16' } },
+    상품비교처: { value: '보험다모아(e-insmarket.or.kr) 암보험 카테고리, 손해보험협회 공시실', source: { url: 'https://kpub.knia.or.kr/productDisc/longTermGuarantee/cancerInsurance.do', text: '보험다모아(온라인 보험슈퍼마켓)의 암보험 카테고리', verifiedAt: '2026-07-16' } },
+    경계성종양정의: { value: '양성·악성 판정이 애매한 중간 단계 종양(D37-D48)', source: { url: 'https://www.koicd.kr/kcd/kcd.do?degree=04&kcd=C73', text: '양성(정상)인지 악성(암)인지 명확히 판정하기 어려운 중간 단계의 종양', verifiedAt: '2026-07-16' } },
   },
   qa: [
     {
@@ -53,6 +57,7 @@ export const thyroidCancerDiagnosisRiderPolicy = {
       q: '갑상선암도 진행 정도에 따라 다르게 취급되나요', anchor: 'q-thyroid-severity',
       intro: '보험 약관상 소액암 분류는 일반적으로 KCD 질병코드(C73 등)를 기준으로 하기 때문에, 갑상선암으로 확진되면 진행 병기나 크기와 무관하게 대부분 소액암 진단비가 적용되는 구조가 많습니다. 다만 갑상선암이 다른 장기로 전이되거나 재발해 추가 치료가 필요한 경우, 소액암 진단비와 별개로 수술비·입원비 등 다른 담보에서 추가로 보장받을 수 있는 여지는 있습니다. 또한 상품에 따라서는 갑상선암 중에서도 특정 조건(예: 전이 여부)에 따라 예외적으로 일반암 수준의 진단비를 지급하는 특약을 별도로 제공하는 경우도 있어, 이런 특약이 포함된 상품인지 확인해보는 것도 방법입니다. 본인이 가입한 상품 또는 가입을 고려하는 상품이 갑상선암을 어떤 조건에서 소액암으로 분류하는지는 반드시 약관 원문에서 확인해야 합니다.',
       highlights: ['일반적으로 병기·크기와 무관하게 확진 시 소액암 진단비 적용', '전이·재발 시 수술비·입원비 등 다른 담보에서 추가 보장 가능', '일부 상품은 특정 조건에서 일반암 수준 지급 특약 제공', '정확한 조건은 반드시 개별 약관에서 확인 필요'],
+      box: { label: '핵심', content: '갑상선암은 병기·크기와 무관하게 대부분 소액암 진단비가 적용되며, 전이·재발 시 다른 담보에서 추가 보장 가능 여부를 확인해야 합니다.' },
       sourceNote: '* 출처: 통계청 한국표준질병사인분류, 보험업계 일반 원칙',
     },
     {
@@ -66,6 +71,7 @@ export const thyroidCancerDiagnosisRiderPolicy = {
       q: '암보험 상품을 비교하려면 어디서 확인하나요', anchor: 'q-compare-products',
       intro: '여러 보험사의 암보험 상품을 비교하고 싶다면, 생명보험협회·손해보험협회가 공동 운영하고 금융위원회가 관리감독하는 보험다모아(온라인 보험슈퍼마켓)의 암보험 카테고리에서 비교할 수 있습니다. 이곳에서는 일반암 진단비뿐 아니라 소액암(유사암) 진단비 조건까지 함께 확인할 수 있는 경우가 많아, 여러 상품의 소액암 보장 수준을 나란히 비교하는 데 유용합니다. 또한 손해보험협회 공시실의 암보험 상품비교공시에서도 표준화된 가입조건을 기준으로 회사별 보험료와 보장내용을 비교할 수 있습니다. 다만 소액암 진단비처럼 세부 조건이 상품마다 크게 다른 항목은 비교공시 화면만으로 완전히 파악하기 어려울 수 있어, 관심 상품을 추린 뒤에는 반드시 해당 보험사에 직접 문의하거나 상품설명서를 요청해 정확한 소액암 진단비 조건을 확인하는 것이 안전합니다.',
       highlights: ['보험다모아 암보험 카테고리에서 여러 회사 상품 비교 가능', '손해보험협회 공시실에서 표준 가입조건 기준 비교 가능', '소액암 조건은 상품마다 편차가 커 비교화면만으로는 한계 있음', '관심 상품은 보험사에 직접 문의해 정확한 조건 확인 권장'],
+      box: { label: '비교 방법', content: '보험다모아 암보험 카테고리·손해보험협회 공시실에서 비교 후, 관심 상품은 보험사에 직접 문의.' },
       sourceNote: '* 출처: 보험다모아·손해보험협회 공식 운영 정보',
     },
   ],

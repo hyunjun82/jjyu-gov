@@ -2,7 +2,7 @@
 export const sunshineLoanCardPolicy = {
   id: '180', type: 'loan' as const,
   title: '햇살론카드 발급 자격과 한도, 필수교육은 왜 받아야 하나요?',
-  titleKeywords: { k1: '햇살론카드', k2: '저신용 신용카드', k3: '보증 200만', k4: '필수교육' },
+  titleKeywords: { k1: '신용점수가 낮아 신용카드 발급이 거절되던 저신용자가 신용카드를 만들 수 있도록', k2: '보증한도는 신규 발급 시 최대 200만원이며', k3: '햇살론카드 필수교육을 이수해야 발급받을 수 있습니다', k4: '개인신용평점 하위 20% 이하(KCB 700점·NICE 749점 이하' },
   slug: 'sunshine-loan-card', org: '금융위원회', cat: '대출', catSlug: 'loan',
   amount: '보증 신규 200만원·성실이용 시 최대 300만원',
   deadline: '상시 신청', views: 0,
@@ -20,6 +20,7 @@ export const sunshineLoanCardPolicy = {
     이용한도: { value: '보증한도에서 20만원 차감해 부여', source: { url: 'https://www.kinfa.or.kr/financialProduct/hessalLoanCard.do', text: '보증한도-20만원', verifiedAt: '2026-06-28' } },
     기간: { value: '보증기간 최대 5년(카드 이용기간과 동일)', source: { url: 'https://www.kinfa.or.kr/financialProduct/hessalLoanCard.do', text: '최대 5년', verifiedAt: '2026-06-28' } },
     카드사: { value: '롯데·현대·국민·삼성·신한·우리·하나카드', source: { url: 'https://www.kinfa.or.kr/financialProduct/hessalLoanCard.do', text: '7개 카드사', verifiedAt: '2026-06-28' } },
+    신청처: { value: '서민금융진흥원 앱(서민금융 잇다), 문의 1397', source: { url: 'https://www.kinfa.or.kr/financialProduct/hessalLoanCard.do', text: '서민금융진흥원 앱(서민금융 잇다)에서', verifiedAt: '2026-06-28' } },
   },
   qa: [
     {
@@ -27,6 +28,7 @@ export const sunshineLoanCardPolicy = {
       intro: '햇살론카드는 신용점수가 낮아 신용카드 발급이 거절되던 저신용자가 신용카드를 만들 수 있도록 서민금융진흥원이 보증을 서 주는 상품입니다. 현금을 빌려 주는 햇살론일반·특례와 달리, 신용카드 자체를 발급해 주는 것이 핵심입니다. 신용카드가 없으면 할부 결제, 포인트·캐시백 혜택, 각종 온라인 결제 등에서 불편을 겪는데, 햇살론카드로 이런 소외를 줄이고 건전한 소비를 이어갈 수 있도록 돕습니다. 서민금융진흥원이 보증하고 제휴 카드사가 카드를 발급하며, 성실히 이용하면 한도가 늘어납니다.',
       highlights: ['저신용자 신용카드 발급', '현금 대출 아님', '할부·포인트 소외 해소', '서금원 보증'],
       box: { label: '핵심', content: '저신용자에게 신용카드 발급을 보증으로 지원. 현금 대출이 아니라 카드 발급 상품.' },
+      sourceNote: '* 출처: 서민금융진흥원',
     },
     {
       q: '누가 받을 수 있나요?', anchor: 'q-eligibility',

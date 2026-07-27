@@ -55,6 +55,13 @@ async function loadPolicy(name: string): Promise<PolicyData> {
   const candidates = [name + 'Policy', baseName + 'Policy', camelName + 'Policy', 'default'];
   let policy: PolicyData | undefined;
   for (const c of candidates) { if (mod[c]) { policy = mod[c]; break; } }
+  if (!policy) {
+    // Fallback: some files use a non-slug-derived export name (e.g. id-prefixed
+    // slugs like "119-safe-call" or "518-veteran-*"). Pick the sole export ending
+    // in "Policy" if there is exactly one.
+    const policyKeys = Object.keys(mod).filter((k) => k.endsWith('Policy'));
+    if (policyKeys.length === 1) policy = mod[policyKeys[0]];
+  }
   if (!policy) throw new Error('Export not found (' + candidates.join(', ') + '): ' + filePath);
   return policy;
 }

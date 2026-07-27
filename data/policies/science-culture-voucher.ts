@@ -2,7 +2,7 @@
 export const scienceCultureVoucherPolicy = {
   id: '242', type: 'cash' as const,
   title: '과학문화바우처 사용처와 신청기간, 10만원 어떻게 쓰나',
-  titleKeywords: { k1: '과학문화바우처 사용처', k2: '과학문화바우처 신청기간', k3: '과학문화바우처몰', k4: '과학문화바우처 선정결과' },
+  titleKeywords: { k1: '과학문화바우처는 전용 바우처 포인트몰에서 적립된 포인트를 활용해', k2: '2026년 과학문화바우처 신청기간은 2026년 5월 6일', k3: '과학문화바우처몰', k4: '2026년 과학문화바우처 선정결과는 2026년 7월 10일' },
   slug: 'science-culture-voucher', org: '한국과학창의재단', cat: '복지', catSlug: 'welfare',
   amount: '1인당 100,000원 (온라인 포인트)',
   deadline: '2026년 신청 마감(5.6~6.2), 현재는 선정자 사용기간(7.13~10.12) 진행 중',
@@ -18,6 +18,9 @@ export const scienceCultureVoucherPolicy = {
     신청기간: { value: '2026.5.6.(수) 13:00 ~ 6.2.(화) 17:00', source: { url: 'https://www.kosac.re.kr/menus/270/boards/386/posts/61259', text: "(신청기간) '26.5.6.(수) 13:00 ∼ 6.2.(화) 17:00", verifiedAt: '2026-07-16' } },
     선정결과: { value: '2026.7.10.(금) 17:30 안내, 홈페이지 공지+개별 통보(휴대폰·이메일)', source: { url: 'https://www.kosac.re.kr/menus/270/boards/386/posts/61259', text: "(선정결과) '26.7.10.(금) 17:30 안내 예정 - 홈페이지 공지 및 신청자 개별 통보(휴대폰, 이메일)", verifiedAt: '2026-07-16' } },
     사용기간: { value: '2026.7.13.(월) 10:00 ~ 10.12.(월) 17:00, 이후 잔여 포인트 소멸', source: { url: 'https://www.kosac.re.kr/menus/270/boards/386/posts/61259', text: "(사용기간) '26.7.13.(월) 10:00 ∼ 10.12.(월) 17:00까지 ※ 사용기간 이후 잔여 포인트 소멸 및 사용 불가", verifiedAt: '2026-07-16' } },
+    사용처: { value: '과학문화바우처 포인트몰(현대이지웰 위탁 운영)', source: { url: 'https://scivoucher.ezwel.com/', text: '과학문화바우처 포인트몰', verifiedAt: '2026-07-16' } },
+    담당기관: { value: '한국과학창의재단(KOSAC)', source: { url: 'https://www.kosac.re.kr/menus/270/boards/386/posts/61259', text: '한국과학창의재단', verifiedAt: '2026-07-16' } },
+    문의처: { value: '과학문화바우처 지원센터 1551-0012(주중 09:00~18:00)', source: { url: 'https://www.kosac.re.kr/menus/270/boards/386/posts/61259', text: '과학문화바우처 지원센터', verifiedAt: '2026-07-16' } },
   },
   qa: [
     {
@@ -66,6 +69,7 @@ export const scienceCultureVoucherPolicy = {
       q: '문의는 어디로 하나요', anchor: 'q-contact',
       intro: '과학문화바우처 관련 문의는 과학문화바우처 지원센터를 통해 할 수 있습니다. 대표 문의전화는 1551-0012이며, 운영시간은 주중 오전 9시부터 오후 6시까지입니다. 신청 자격 여부, 증빙서류 종류, 선정 결과 미수신, 포인트몰 사용법, 잔여 포인트 확인 등 신청부터 사용까지 전 과정에 대한 문의가 가능합니다. 온라인 신청·사용 시스템 자체에 오류가 있는 경우에도 이 지원센터를 통해 안내받을 수 있으며, 재단 홈페이지 공지사항 게시판에서도 자주 묻는 질문이나 추가 공지사항을 확인할 수 있습니다.',
       highlights: ['과학문화바우처 지원센터: 1551-0012', '운영시간: 주중 09:00~18:00', '신청·선정·사용 전 과정 문의 가능', '재단 홈페이지 공지사항에서 추가 정보 확인 가능'],
+      box: { label: '문의처', content: '과학문화바우처 지원센터 1551-0012(주중 09:00~18:00).' },
       sourceNote: '* 출처: 한국과학창의재단 공식 공고',
     },
   ],

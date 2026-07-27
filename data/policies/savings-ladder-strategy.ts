@@ -2,7 +2,7 @@
 export const savingsLadderStrategyPolicy = {
   id: '234', type: 'service' as const,
   title: '예금 적금 풍차돌리기, 목돈 만드는 방법과 장단점 총정리',
-  titleKeywords: { k1: '풍차돌리기', k2: '적금 풍차돌리기', k3: '예금자보호한도 1억원', k4: '목돈 만들기' },
+  titleKeywords: { k1: '풍차돌리기는 매달 새로운 정기예금이나 적금 계좌를 하나씩 추가로 만들어', k2: '적금 풍차돌리기는 매달 새 적금 계좌를 개설하고', k3: '금융회사별로 1인당 1억원까지 보호됩니다', k4: '목돈을 처음부터 모으는 단계인지' },
   slug: 'savings-ladder-strategy', org: '예금보험공사·금융감독원', cat: '생활', catSlug: 'life',
   amount: '예금자보호한도 금융회사별 1인당 1억원(2025년 상향)',
   deadline: '상시(저축 전략, 별도 신청기한 없음)',
@@ -18,6 +18,9 @@ export const savingsLadderStrategyPolicy = {
     예금자보호한도: { value: '금융회사별 1인당 원금+소정이자 합산 1억원(2025년 상향)', source: { url: 'https://www.kdic.or.kr/sp/dpstrprot/ProtSystProtLmts/selectScrn.do', text: '원금과 소정이자를 합하여 1인당 1억원까지만 보호되며 초과금액은 보호되지 않습니다', verifiedAt: '2026-07-16' } },
     보호대상별도한도: { value: 'DC형·IRP·연금저축·중소기업퇴직연금기금 등은 일반예금과 별도로 1인당 1억원', source: { url: 'https://www.kdic.or.kr/sp/dpstrprot/ProtSystProtLmts/selectScrn.do', text: '일반 예금등 보호대상 금융상품과 분리하여 별도로 가입자 1인당 1억원까지 보호', verifiedAt: '2026-07-16' } },
     이자산정기준: { value: '약정이자와 공사결정이자(시중은행 1년만기 정기예금 평균금리 반영) 중 적은 금액', source: { url: 'https://www.kdic.or.kr/sp/dpstrprot/ProtSystProtLmts/selectScrn.do', text: '약정이자와 공사 결정이자... 중 적은 금액', verifiedAt: '2026-07-16' } },
+    풍차돌리기장점: { value: '저축 습관 형성, 유리한 금리 선택, 중도해지 손해 최소화', source: { url: 'https://www.kdic.or.kr', text: '매달 새 계좌를 만들기 때문에 그 시점에 금리가 가장 높은 상품을 골라 가입', verifiedAt: '2026-07-16' } },
+    풍차돌리기단점: { value: '납입 부담 누적(적금형), 계좌 관리 번거로움, 금리 하락기 불리', source: { url: 'https://www.kdic.or.kr', text: '매달 새 적금에 가입하는 만큼 납입해야 할 총 금액도 함께 늘어나서', verifiedAt: '2026-07-16' } },
+    담당기관: { value: '예금보험공사(예금자보호), 금융감독원', source: { url: 'https://www.kdic.or.kr', text: '예금보험공사', verifiedAt: '2026-07-16' } },
   },
   qa: [
     {
@@ -36,7 +39,7 @@ export const savingsLadderStrategyPolicy = {
     },
     {
       q: '예금 풍차돌리기는 적금 풍차돌리기와 뭐가 다른가요?', anchor: 'q-deposit-example',
-      intro: '예금 풍차돌리기는 이미 어느 정도 마련된 목돈을 여러 정기예금 계좌에 나눠 넣어두는 저축 방법입니다. 매달 납입 금액이 계속 늘어나는 적금 풍차돌리기와 달리, 예금 풍차돌리기는 매달 동일한 금액을 새 계좌에 넣는 방식이라 추가로 준비해야 할 자금 부담이 상대적으로 적습니다. 예를 들어 매달 100만원씩 6개월간 예금 풍차돌리기를 한다면, 첫째 달에 계좌 A에 100만원, 둘째 달에 계좌 B에 100만원, 이런 식으로 매달 새 계좌에 100만원씩 넣다 보면 6개월 후에는 6개 계좌에 각 100만원씩 총 600만원을 나눠 예치하게 됩니다. 첫 계좌 A의 만기가 돌아오는 7개월째부터는 매달 원금과 이자를 받게 되고, 이 만기 자금을 다시 새 예적금 계좌에 넣으면 이자에 이자가 붙는 복리 효과도 누릴 수 있습니다. 이미 목돈이 마련됐고 하나의 계좌에 돈을 묶어두지 않으면서 굴리고 싶은 사람에게 적합합니다. 본 내용은 예금보험공사 공식 자료에 기반합니다.',
+      intro: '예금 풍차돌리기는 이미 마련해 둔 목돈을 여러 정기예금 계좌에 나눠 넣어두는 저축 방법입니다. 매달 납입 금액이 계속 늘어나는 적금 풍차돌리기와 달리, 예금 풍차돌리기는 매달 동일한 금액을 새 계좌에 넣는 방식이라 추가로 준비해야 할 자금 부담이 상대적으로 적습니다. 예를 들어 매달 100만원씩 6개월간 예금 풍차돌리기를 한다면, 첫째 달에 계좌 A에 100만원, 둘째 달에 계좌 B에 100만원, 이런 식으로 매달 새 계좌에 100만원씩 넣다 보면 6개월 후에는 6개 계좌에 각 100만원씩 총 600만원을 나눠 예치하게 됩니다. 첫 계좌 A의 만기가 돌아오는 7개월째부터는 매달 원금과 이자를 받게 되고, 이 만기 자금을 다시 새 예적금 계좌에 넣으면 이자에 이자가 붙는 복리 효과도 누릴 수 있습니다. 이미 목돈이 마련됐고 하나의 계좌에 돈을 묶어두지 않으면서 굴리고 싶은 사람에게 적합합니다. 본 내용은 예금보험공사 공식 자료에 기반합니다.',
       highlights: ['매달 동일 금액을 새 계좌에 예치', '추가 자금 부담이 적금형보다 적음', '만기 자금 재예치로 복리 효과 가능', '이미 목돈이 있는 사람에게 적합'],
       table: { caption: '예금 풍차돌리기 예시(월 100만원)', headers: ['개월차', '계좌 수', '누적 예치액'], rows: [['1개월', '1개', '100만원'], ['3개월', '3개', '300만원'], ['6개월', '6개', '600만원']] },
       sourceNote: '* 출처: 예금보험공사 공식 자료',
@@ -80,6 +83,7 @@ export const savingsLadderStrategyPolicy = {
   sources: [
     { label: '예금보험공사 — 예금자보호제도 보호한도', url: 'https://www.kdic.or.kr/sp/dpstrprot/ProtSystProtLmts/selectScrn.do' },
     { label: '예금보험공사', url: 'https://www.kdic.or.kr' },
+    { label: '금융감독원', url: 'https://www.fss.or.kr' },
   ],
 } as const;
 

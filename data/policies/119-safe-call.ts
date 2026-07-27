@@ -5,6 +5,7 @@ export const safecall119Policy: PolicyData = {
   slug: '119-safe-call',
   type: 'service',
   title: '119안심콜 등록방법과 등록정보, 개인정보는 어떻게 보호되나요?',
+  titleKeywords: { k1: '119안심콜은 응급 상황 시 119에 신고하면 사전에 등록해 둔 개인 건강정보', k2: '기저질환(지병), 복용 중인 약물, 알레르기 정보, 보호자 연락처', k3: '119안심콜 홈페이지에 접속하여 본인 인증 후 정보를 입력하면 됩니다', k4: '119안심콜에 등록된 개인 건강정보는 소방청 보안 서버에 암호화되어 저장' },
   org: '소방청',
   cat: '생활서비스',
   catSlug: 'service',
@@ -25,6 +26,8 @@ export const safecall119Policy: PolicyData = {
     등록정보: { value: '이름·생년월일·질환·복용약·보호자연락처 등', source: { url: 'https://www.119.go.kr/m/sub5/5_11.jsp', cardIndex: 1, text: '기저질환, 복용 약물, 보호자 연락처 등 사전 등록', verifiedAt: '2026-05-17' } },
     운영시간: { value: '365일 24시간 (119 신고 시 자동 조회)', source: { url: 'https://www.119.go.kr/m/sub5/5_11.jsp', cardIndex: 1, text: '365일 24시간 신고 즉시 정보 조회', verifiedAt: '2026-05-17' } },
     문의: { value: '☎119 (소방청 민원콜센터)', source: { url: 'https://www.119.go.kr/m/sub5/5_11.jsp', cardIndex: 1, text: '문의: 119', verifiedAt: '2026-05-17' } },
+    개인정보보호: { value: '소방청 보안 서버에 암호화 저장, 응급 상황 시에만 조회', source: { url: 'https://www.119.go.kr/m/sub5/5_11.jsp', cardIndex: 1, text: '개인정보 암호화 저장, 응급 상황에서만 조회', verifiedAt: '2026-05-17' } },
+    정보변경: { value: '홈페이지 로그인, 전화(☎119), 소방서 방문으로 변경 가능', source: { url: 'https://www.119.go.kr/m/sub5/5_11.jsp', cardIndex: 1, text: '정보 변경은 홈페이지·전화·소방서 방문으로 가능', verifiedAt: '2026-05-17' } },
   },
   qa: [
     {
