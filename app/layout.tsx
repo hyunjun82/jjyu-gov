@@ -30,13 +30,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2442517902625121"
           crossOrigin="anonymous"
         />
-        {/* GA4 — 스포크→허브 이동률 측정용. 애드센스 수익은 GA4로 안 들어오니 따로 본다 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7RR8RNMF7" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-Y7RR8RNMF7');`,
-          }}
-        />
         {/* 사이트 전역 스키마: Organization + Person (E-E-A-T) */}
         <script
           type="application/ld+json"
