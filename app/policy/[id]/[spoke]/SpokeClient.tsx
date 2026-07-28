@@ -12,7 +12,7 @@ import {
   faqSchema,
   toJsonLd,
 } from '@/lib/schema';
-import { pickActionLabel } from '@/lib/cta';
+import { pickActionLabel, nextSpokeCta } from '@/lib/cta';
 
 /**
  * ── SpokeClient ──
@@ -129,6 +129,17 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   /* spoke 목록 — SpokesRegistry 단일 소스 (한글 slug 링크만 생성, 영문 404 방지) */
   const spokeList: { slug: string; title: string }[] = getSpokeListForPolicy(policyId);
 
+  /* 현재 글을 뺀 나머지 스포크 — QA 카드 버튼이 여기로 순환한다.
+     내부 이동이라야 다음 페이지 광고가 새로 노출된다(외부 이탈은 세션 종료).
+     문구가 겹치면 같은 버튼이 반복돼 보이므로 라벨 기준으로 중복을 제거한다. */
+  const nextSpokes = (() => {
+    const seen = new Set<string>();
+    return spokeList
+      .filter((s) => s.slug !== slug)
+      .map((s) => ({ ...s, label: nextSpokeCta(s.title) }))
+      .filter((s) => (seen.has(s.label) ? false : (seen.add(s.label), true)));
+  })();
+
   /* spoke 콘텐츠 — 영문 slug 들어와도 한글 키로 변환해서 조회 */
   const spokeMap = SpokesRegistry[policySlug] ?? {};
   const resolvedKey = resolveSpokeKey(policySlug, slug);
@@ -237,8 +248,8 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
 
             {/* QA 카드 방식 (데이터 기반, 허브와 동일 렌더링) */}
             {spoke.qa && spoke.qa.map((item, i) => (
+              <Fragment key={i}>
               <QACard
-                key={i}
                 number={i + 1}
                 q={item.q}
                 anchor={item.anchor || `q${i + 1}`}
@@ -269,13 +280,41 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                   </ul>
                 )}
 
-                {/* 카드마다 자동 노출되는 행동 버튼 — 질문의 행동 키워드에 맞춰 문구 자동 생성 */}
-                <div style={{ marginTop: 20 }}>
-                  <a href={applyUrl} className="qa-inline-cta" rel="noopener">
-                    {pickActionLabel(item.q, policy?.ctaLabel)} →
-                  </a>
-                </div>
+                {/* 카드마다 자동 노출되는 행동 버튼.
+                    마지막 카드만 외부(신청처)로 보내고, 나머지는 같은 허브의 다른 스포크로 순환시킨다.
+                    내부 이동이라야 페이지 광고가 새로 노출되고 전면광고(vignette)도 발동한다. */}
+                {(() => {
+                  const isLast = i === spoke.qa.length - 1;
+                  const target = isLast ? null : nextSpokes[i % Math.max(nextSpokes.length, 1)];
+                  if (!isLast && target) {
+                    return (
+                      <div style={{ marginTop: 20 }}>
+                        <Link
+                          href={`/policy/${policyId}/${encodeURIComponent(target.slug)}/`}
+                          className="qa-inline-cta"
+                        >
+                          {target.label} →
+                        </Link>
+                      </div>
+                    );
+                  }
+                  return (
+                    <div style={{ marginTop: 20 }}>
+                      <a href={applyUrl} className="qa-inline-cta" rel="noopener">
+                        {pickActionLabel(item.q, policy?.ctaLabel)} →
+                      </a>
+                    </div>
+                  );
+                })()}
               </QACard>
+              {/* 본문 중간 광고 gov2 — 카드 경계(카드 바깥)에 두어 버튼과 이격,
+                  오클릭 유도 정책을 피하면서 독자가 실제로 읽는 구간에 노출시킨다. */}
+              {(i === 1 || i === 3) && i < spoke.qa.length - 1 && (
+                <div className="ad-slot" style={{ margin: '32px 0' }}>
+                  <AdSense slot="1375998717" />
+                </div>
+              )}
+              </Fragment>
             ))}
 
             {/* 기존 JSX 방식 (Content 있을 때) */}
