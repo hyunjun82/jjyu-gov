@@ -30,7 +30,7 @@ import { execSync } from 'child_process';
 const DIR = 'data/policies';
 
 /** 행동 동사 — 사용자가 "누를 수 있는" 동작만. '안내·소개·정보'는 행동이 아니다. */
-const ACTION = /신청|조회|발급|다운로드|접수|확인|계산|신고|받기|찾기|가입|등록|제출|예약|납부/;
+const ACTION = /신청|조회|발급|다운로드|접수|확인|계산|신고|받기|찾기|가입|등록|제출|예약|납부|청구|개설|해지|변경|연장|재발급/;
 
 /** 기관 메인으로 판정할 경로 (딥링크가 아님) */
 const ROOT_PATHS = new Set(['', '/', '/index.do', '/main.do', '/index.jsp', '/main.jsp', '/index.html']);
@@ -59,6 +59,20 @@ function titlePromises(title: string): string[] {
   return [...out];
 }
 
+/**
+ * 조사가 붙은 형태를 벗겨 후보를 만든다.
+ * 타이틀의 "대상기간과"를 본문이 "대상기간"으로 다루면 다룬 것이다 —
+ * 조사까지 통째로 찾으면 멀쩡한 글이 걸린다(실측으로 확인).
+ */
+const PARTICLES = ['으로써', '으로', '에서', '까지', '부터', '과', '와', '은', '는', '이', '가', '을', '를', '의', '에', '로', '도', '만'];
+function forms(word: string): string[] {
+  const out = [word];
+  for (const p of PARTICLES) {
+    if (word.length - p.length >= 2 && word.endsWith(p)) out.push(word.slice(0, -p.length));
+  }
+  return out;
+}
+
 function checkFile(file: string): Issue[] {
   const c = fs.readFileSync(path.join(DIR, file), 'utf8');
   const slug = file.replace(/\.ts$/, '');
@@ -72,7 +86,7 @@ function checkFile(file: string): Issue[] {
   const nBody = norm(c.replace(/^ {2}title: '[^']*',?$/m, ''));
 
   for (const p of titlePromises(title)) {
-    if (!nBody.includes(norm(p))) {
+    if (!forms(p).some((f) => nBody.includes(norm(f)))) {
       issues.push({
         axis: 1,
         msg: `타이틀의 "${p}" 를 본문이 다루지 않음`,
