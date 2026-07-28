@@ -119,72 +119,28 @@
 
 ---
 
-## 10. 우선순위 다음 작업
+## 11. 배포
 
-1. **`scripts/extract-policy.ts`** — 정부 카드뉴스 URL → JSON 자동 추출
-2. **`scripts/verify-policy.ts`** — 1:1 대조 자동 검증
-3. **`app/og/[id]/route.tsx`** — 디스커버 썸네일 자동 생성 (1080x1080)
-4. **`app/sitemap.ts`** — 정책 추가 시 자동 등록
-5. **데이터 스키마 마이그레이션** — 기존 청년미래적금에 `source` 필드 추가
-6. **`.claude/hooks/`** — Stop 훅으로 자동 검증
+- 도메인: gov.jjyu.co.kr (Cloudflare Pages) / GitHub: hyunjun82/jjyu-gov
+- **push → Cloudflare 자동 빌드**. 별도 배포 명령 없음
+- 정적 export(`output:'export'`)라 서버 기능·`redirects()` 안 먹는다 → 301은 `public/_redirects`만
 
 ---
 
-## 11. 사이트 정보
+## 12~13. 검증
 
-- 도메인: gov.jjyu.co.kr (Cloudflare Pages)
-- GitHub: hyunjun82/jjyu-gov
-- 배포: GitHub push → Cloudflare 자동 빌드
-- 빌드: Next.js 15 App Router + React 19 + Tailwind 3 + TypeScript 5
-- 페이지 라우팅: /policy/[id] · /policy/[id]/[spoke]
-- 핵심 컴포넌트: QACard · KeyFactsBox · CollapsibleTOC · PolicySidebar
+**`verify` Skill 참조** — 실행 순서·자주 걸리는 함정(Q11 titleKeywords, Q2 글자수, Q12 정규식)이 거기 있다.
 
----
+품질 기준 수치(Q1~Q13 항목·임계값)는 `scripts/verify-quality.ts`가 단일 진실 원천이다.
+**문서에 복사해두지 않는다** — 과거 CLAUDE.md가 Q10을 잘못 적고 Q11~Q13을 누락해 스크립트와 어긋난 전력이 있다.
 
-## 12. 검수 표준 (모든 페이지 통과 필수)
-
+자동 검증으로 안 잡히는 항목만 사람이 확인:
 ```
-[ ] 모든 수치가 정부 1차 출처와 100% 일치
-[ ] 모든 필드에 source 명시 (url + text + verifiedAt)
-[ ] 추정/예시 표현 0개
-[ ] 출처 URL이 깊은 링크 (메인 X)
 [ ] 면책 문구 페이지 하단
-[ ] 검수일 표시
 [ ] JSON-LD 4종 (Article·Breadcrumb·FAQ·ItemList)
-[ ] 모바일 반응형 정상
-[ ] 빌드 성공 (npm run build)
-[ ] 1:1 대조 검증 통과 (npm run verify)
+[ ] 모바일 반응형
+[ ] applyUrl이 딥링크인가 (기관 메인 X — 절대규칙 1)
 ```
-
-이 12개 모두 PASS 후에만 push.
-
----
-
-## 13. 품질 기준 (정량 측정, 자동 검증)
-
-신규 정책 작성 시 아래 10개 기준을 모두 충족해야 한다. 미달 시 작성자(Claude) 자동 재작성.
-
-```
-[Q1]  qa 배열 길이 ≥ 7
-[Q2]  각 qa[i].intro 본문 길이 ≥ 200자
-[Q3]  각 qa[i]에 시각 요소 ≥ 1개 (table, box, hasEligibilityChecker, hasApplyMethodTabs 중 하나)
-[Q4]  qa 안 table 총 개수 ≥ 2
-[Q5]  qa 안 box 총 개수 ≥ 3 (box + box2 모두 카운트)
-[Q6]  qa 안 highlights 총 개수 ≥ 15 (각 qa[i].highlights 합계)
-[Q7]  모든 keyFacts·qa·table·box에 source 또는 sourceNote 명시
-[Q8]  faq 배열 길이 ≥ 5 (정부 자료 또는 PAA 기반)
-[Q9]  sources 배열 길이 ≥ 3
-[Q10] 정부 카드뉴스 텍스트와 1:1 매칭 (자동 검증 스크립트로 확인)
-```
-
-검증 명령:
-```bash
-npm run verify -- {정책명}
-# 또는
-npm run verify -- --all
-```
-
-검증 통과율 80% 미만이면 빌드·푸시 차단.
 
 ---
 

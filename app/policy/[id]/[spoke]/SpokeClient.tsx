@@ -12,7 +12,7 @@ import {
   faqSchema,
   toJsonLd,
 } from '@/lib/schema';
-import { pickActionLabel, nextSpokeCta } from '@/lib/cta';
+import { hubCta, HUB_CTA_FALLBACKS } from '@/lib/cta';
 
 /**
  * ── SpokeClient ──
@@ -129,17 +129,6 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   /* spoke 목록 — SpokesRegistry 단일 소스 (한글 slug 링크만 생성, 영문 404 방지) */
   const spokeList: { slug: string; title: string }[] = getSpokeListForPolicy(policyId);
 
-  /* 현재 글을 뺀 나머지 스포크 — QA 카드 버튼이 여기로 순환한다.
-     내부 이동이라야 다음 페이지 광고가 새로 노출된다(외부 이탈은 세션 종료).
-     문구가 겹치면 같은 버튼이 반복돼 보이므로 라벨 기준으로 중복을 제거한다. */
-  const nextSpokes = (() => {
-    const seen = new Set<string>();
-    return spokeList
-      .filter((s) => s.slug !== slug)
-      .map((s) => ({ ...s, label: nextSpokeCta(s.title) }))
-      .filter((s) => (seen.has(s.label) ? false : (seen.add(s.label), true)));
-  })();
-
   /* spoke 콘텐츠 — 영문 slug 들어와도 한글 키로 변환해서 조회 */
   const spokeMap = SpokesRegistry[policySlug] ?? {};
   const resolvedKey = resolveSpokeKey(policySlug, slug);
@@ -164,6 +153,25 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   }
 
   const spokeUrl  = `${SITE_URL}/policy/${policyId}/${slug}`;
+
+  /* 허브로 보내는 버튼을 달 카드 위치와 문구.
+     같은 목적지라 문구가 겹치면 스팸처럼 보이므로, 렌더 전에 중복을 제거해 확정한다. */
+  const hubCtaByIndex: Record<number, string> = (() => {
+    const qa = spoke.qa ?? [];
+    if (!qa.length) return {};
+    const slots = [...new Set([2, 4, qa.length - 1])].filter((n) => n >= 0 && n < qa.length);
+    const used = new Set<string>();
+    const map: Record<number, string> = {};
+    slots.forEach((idx) => {
+      let label = hubCta(qa[idx]?.q || '');
+      if (!label || used.has(label)) {
+        label = HUB_CTA_FALLBACKS.find((l) => !used.has(l)) || '전체 정리 보기';
+      }
+      used.add(label);
+      map[idx] = label;
+    });
+    return map;
+  })();
 
   const schemas = [
     articleSchema({
@@ -280,32 +288,20 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                   </ul>
                 )}
 
-                {/* 카드마다 자동 노출되는 행동 버튼.
-                    마지막 카드만 외부(신청처)로 보내고, 나머지는 같은 허브의 다른 스포크로 순환시킨다.
-                    내부 이동이라야 페이지 광고가 새로 노출되고 전면광고(vignette)도 발동한다. */}
-                {(() => {
-                  const isLast = i === spoke.qa.length - 1;
-                  const target = isLast ? null : nextSpokes[i % Math.max(nextSpokes.length, 1)];
-                  if (!isLast && target) {
-                    return (
-                      <div style={{ marginTop: 20 }}>
-                        <Link
-                          href={`/policy/${policyId}/${encodeURIComponent(target.slug)}/`}
-                          className="qa-inline-cta"
-                        >
-                          {target.label} →
-                        </Link>
-                      </div>
-                    );
-                  }
-                  return (
-                    <div style={{ marginTop: 20 }}>
-                      <a href={applyUrl} className="qa-inline-cta" rel="noopener">
-                        {pickActionLabel(item.q, policy?.ctaLabel)} →
-                      </a>
-                    </div>
-                  );
-                })()}
+                {/* 허브로 보내는 버튼 (허브-스포크 구조).
+                    스포크는 세부 주제만 다루고 최종 행동(신청 딥링크)은 허브가 받는다.
+                    허브로 모아야 내부 링크 권위가 집중되고, 내부 이동이라 전면광고도 발동한다.
+
+                    모든 카드에 달면 같은 목적지 버튼이 7개라 스팸처럼 보인다.
+                    상단·브레드크럼·사이드바에 이미 허브 링크가 있으므로
+                    읽는 흐름이 끊기는 지점(중간·끝)에만 배치한다. */}
+                {hubCtaByIndex[i] && (
+                  <div style={{ marginTop: 20 }}>
+                    <Link href={`/policy/${policyId}/`} className="qa-inline-cta">
+                      {hubCtaByIndex[i]} →
+                    </Link>
+                  </div>
+                )}
               </QACard>
               {/* 본문 중간 광고 gov2 — 카드 경계(카드 바깥)에 두어 버튼과 이격,
                   오클릭 유도 정책을 피하면서 독자가 실제로 읽는 구간에 노출시킨다. */}
