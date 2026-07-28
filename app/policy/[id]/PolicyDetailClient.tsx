@@ -16,6 +16,7 @@ import {
 } from '@/lib/schema';
 import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
 import { PoliciesByKoAlias, getSpokeListForPolicy } from '@/lib/policy-aliases';
+import { pickActionLabel, simplifyCta } from '@/lib/cta';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
@@ -53,17 +54,6 @@ function renderBoxContent(content: string, highlights: string[] = []): ReactNode
 }
 
 // ── 질문 텍스트에서 행동 키워드를 뽑아 카드마다 다른 CTA 문구 생성 ──
-function pickActionLabel(question: string, fallback: string): string {
-  const q = question || '';
-  if (/금액|얼마|지급액|수령액/.test(q)) return '지급액 확인하기';
-  if (/자격|대상|조건/.test(q)) return '자격 확인하기';
-  if (/기간|언제|며칠|일수/.test(q)) return '신청기간 확인하기';
-  if (/방법|절차|어떻게/.test(q)) return '신청 방법 보기';
-  if (/서류|준비/.test(q)) return '필요서류 확인하기';
-  if (/한도|금리|상환/.test(q)) return '한도·금리 확인하기';
-  return fallback || '공식 안내 보기';
-}
-
 // ── 긴 intro를 2문장씩 문단으로 분할, 말미 출처 문구는 회색 작게 ──
 function renderIntro(intro: any, highlights: string[] = []): ReactNode {
   if (intro == null || intro === '') return null;
@@ -181,7 +171,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
           <div className="container sticky-cta-inner">
             <span className="sticky-cta-label">{d.stickyBar.label}</span>
             <a href={d.stickyBar.applyUrl || d.applyUrl} className="sticky-cta-btn" rel="noopener">
-              {d.stickyBar.ctaLabel} →
+              {simplifyCta(d.stickyBar.ctaLabel)} →
             </a>
           </div>
         </div>
@@ -230,7 +220,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               </div>
             )}
             <a href={d.applyUrl} className="btn-cta" rel="noopener">
-              {d.ctaLabel || '신청하기'}
+              {simplifyCta(d.ctaLabel)}
             </a>
           </div>
         </header>
@@ -523,7 +513,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                       {item.ctaBlock.sub && <div className="mid-cta-sub">{item.ctaBlock.sub}</div>}
                     </div>
                     <a href={item.ctaBlock.applyUrl || d.applyUrl} className="mid-cta-btn" rel="noopener">
-                      {item.ctaBlock.ctaLabel} →
+                      {simplifyCta(item.ctaBlock.ctaLabel)} →
                     </a>
                   </div>
                 )}
