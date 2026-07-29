@@ -76,6 +76,9 @@ import { earlyScrappageSubsidyPolicy, earlyScrappageSubsidySpokes } from './earl
 import { publicHousingAssetTestPolicy, publicHousingAssetTestSpokes } from './public-housing-asset-test';
 import { hugDundunJeonsePolicy, hugDundunJeonseSpokes } from './hug-dundun-jeonse';
 import { seoulElectricMotorcycleSubsidyPolicy, seoulElectricMotorcycleSubsidySpokes } from './seoul-electric-motorcycle-subsidy';
+import { seoulPregnancyTransportPolicy, seoulPregnancyTransportSpokes } from './seoul-pregnancy-transport';
+import { nationalScholarshipSecondRoundPolicy, nationalScholarshipSecondRoundSpokes } from './national-scholarship-second-round';
+import { birthRegistrationPolicy, birthRegistrationSpokes } from './birth-registration';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -808,6 +811,9 @@ export const PoliciesById: Record<string, any> = {
   '646': publicHousingAssetTestPolicy,
   '647': hugDundunJeonsePolicy,
   '648': seoulElectricMotorcycleSubsidyPolicy,
+  '649': seoulPregnancyTransportPolicy,
+  '650': nationalScholarshipSecondRoundPolicy,
+  '651': birthRegistrationPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1447,6 +1453,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'public-housing-asset-test': publicHousingAssetTestPolicy,
   'hug-dundun-jeonse': hugDundunJeonsePolicy,
   'seoul-electric-motorcycle-subsidy': seoulElectricMotorcycleSubsidyPolicy,
+  'seoul-pregnancy-transport': seoulPregnancyTransportPolicy,
+  'national-scholarship-second-round': nationalScholarshipSecondRoundPolicy,
+  'birth-registration': birthRegistrationPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2126,6 +2135,9 @@ export const SpokesById: Record<string, any[]> = {
   '646': publicHousingAssetTestSpokes,
   '647': hugDundunJeonseSpokes,
   '648': seoulElectricMotorcycleSubsidySpokes,
+  '649': seoulPregnancyTransportSpokes,
+  '650': nationalScholarshipSecondRoundSpokes,
+  '651': birthRegistrationSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2765,6 +2777,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'public-housing-asset-test': publicHousingAssetTestSpokes,
   'hug-dundun-jeonse': hugDundunJeonseSpokes,
   'seoul-electric-motorcycle-subsidy': seoulElectricMotorcycleSubsidySpokes,
+  'seoul-pregnancy-transport': seoulPregnancyTransportSpokes,
+  'national-scholarship-second-round': nationalScholarshipSecondRoundSpokes,
+  'birth-registration': birthRegistrationSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
