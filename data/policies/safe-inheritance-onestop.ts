@@ -13,7 +13,7 @@ export const safeInheritanceOnestopPolicy: PolicyData = {
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://www.gov.kr/portal/onestopSvc/safeInheritance',
-  ctaLabel: '안심상속 원스톱서비스 신청하기 (정부24 공식)',
+  ctaLabel: '안심상속 신청하기',
   tags: ['안심상속', '상속재산조회', '사망신고', '원스톱서비스', '정부24'],
   badge: '행정서비스',
   lastVerified: '2026-05-17',
@@ -48,8 +48,16 @@ export const safeInheritanceOnestopPolicy: PolicyData = {
       sourceNote: '정부24 공식 안내',
     },
     문의처: {
-      value: '정부24 (gov.kr) 또는 가까운 주민센터',
-      sourceNote: '정부24 공식 안내',
+      value: '콜센터 1588-2188 · 02-721-0600 (평일 09:00~18:00), 정부민원안내 110 (24시간 무료)',
+      sourceNote: '정부24 안심상속 원스톱 서비스 공식 안내 (gov.kr)',
+    },
+    상속포기_시_신청: {
+      value: '제1순위 상속인의 상속포기로 자격을 얻은 제2순위 상속인은 방문신청만 가능',
+      sourceNote: '정부24 사망자 및 피후견인 등 재산조회 통합처리 신청(안심상속) 신청자격',
+    },
+    연계서비스: {
+      value: '시민안전보험 지원 안내(보장항목·보험금 확인), 상속공탁금 조회 안내(공탁내역 확인)',
+      sourceNote: '정부24 안심상속 관련 서비스',
     },
   },
 
@@ -225,9 +233,9 @@ export const safeInheritanceOnestopPolicy: PolicyData = {
 };
 
 export const safeInheritanceOnestopSpokes = [
-  { slug: 'eligibility', label: '신청 대상' },
-  { slug: 'inquiry-items', label: '조회 항목' },
-  { slug: 'when-apply', label: '신청 시기' },
-  { slug: 'how-to-apply', label: '신청 방법' },
-  { slug: 'tips', label: '주의사항' },
+  { slug: 'how-to-apply', label: '신청방법', title: '안심상속 신청방법, 온라인 5단계로 접수하는 법' },
+  { slug: 'documents', label: '준비서류', title: '안심상속 준비서류와 신청서, 주민센터 방문 전 챙길 것' },
+  { slug: 'when-apply', label: '신청 기간', title: '안심상속 신청 기간, 사망일 말일부터 1년 안에 해야 하는 이유' },
+  { slug: 'result-check', label: '결과조회', title: '안심상속원스톱 결과조회, 언제 어디서 확인하나' },
+  { slug: 'eligibility', label: '신청자격', title: '상속포기하면 다음 순위는 온라인 안 됩니다, 방문 신청 대상 확인' },
 ];

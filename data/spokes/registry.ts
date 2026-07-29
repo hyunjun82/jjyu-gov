@@ -869,6 +869,11 @@ import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/po
 
 /* ── 양육비 선지급제 (slug: child-support-advance) ── */
 import { 양육비선지급소득기준폐지SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/소득기준폐지';
+import { 안심상속신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/how-to-apply';
+import { 안심상속신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/when-apply';
+import { 안심상속결과조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/result-check';
+import { 안심상속방문신청대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/eligibility';
+import { 안심상속준비서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/documents';
 import { 양육비이행명령신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/enforcement-order';
 import { 양육비미지급처벌SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/unpaid-penalty';
 import { 양육비강제집행SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/compulsory-execution';
@@ -1927,6 +1932,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '상환연장': 폐업소상공인정책자금상환연장SpokeContent,
     '금리감면': 폐업소상공인정책자금금리감면SpokeContent,
     '신청재기': 폐업소상공인정책자금신청재기SpokeContent,
+  },
+
+  'safe-inheritance-onestop': {
+    'how-to-apply':   안심상속신청방법SpokeContent,
+    'when-apply':     안심상속신청기간SpokeContent,
+    'result-check':   안심상속결과조회SpokeContent,
+    'eligibility':    안심상속방문신청대상SpokeContent,
+    'documents':      안심상속준비서류SpokeContent,
   },
 
   'child-support-enforcement': {
