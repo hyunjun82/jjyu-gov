@@ -869,6 +869,12 @@ import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/po
 
 /* ── 양육비 선지급제 (slug: child-support-advance) ── */
 import { 양육비선지급소득기준폐지SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/소득기준폐지';
+import { 양육비이행명령신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/enforcement-order';
+import { 양육비미지급처벌SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/unpaid-penalty';
+import { 양육비강제집행SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/compulsory-execution';
+import { 양육비소송법률지원SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/lawsuit-support';
+import { 양육비계산기SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/calculation';
+import { 양육비신청서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비이행확보/required-documents';
 import { 양육비선지급대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/대상조건';
 import { 양육비선지급금액지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/금액지급일';
 import { 양육비선지급신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/신청방법';
@@ -1921,6 +1927,15 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '상환연장': 폐업소상공인정책자금상환연장SpokeContent,
     '금리감면': 폐업소상공인정책자금금리감면SpokeContent,
     '신청재기': 폐업소상공인정책자금신청재기SpokeContent,
+  },
+
+  'child-support-enforcement': {
+    'enforcement-order':     양육비이행명령신청SpokeContent,
+    'unpaid-penalty':        양육비미지급처벌SpokeContent,
+    'compulsory-execution':  양육비강제집행SpokeContent,
+    'lawsuit-support':       양육비소송법률지원SpokeContent,
+    'calculation':           양육비계산기SpokeContent,
+    'required-documents':    양육비신청서류SpokeContent,
   },
 
   'child-support-advance': {
