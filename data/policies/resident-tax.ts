@@ -90,4 +90,10 @@ export const residentTaxPolicy = {
   ],
 } as const;
 
-export const residentTaxSpokes = [];
+export const residentTaxSpokes = [
+  { slug: 'target', role: 'target', title: '주민세 납부 대상 확인하고 세대주인지 조회하는 법', content: '과세기준일 7.1 현재 주소를 둔 개인. 수급자·미성년자·세대원·외국인등록 1년 미만은 제외(지방세법 §75①).' },
+  { slug: 'amount', role: 'amount', title: '서울 경기도 주민세 얼마인지 지역별 금액 조회하는 법', content: '세율은 1만원 이내에서 조례로 결정. 주민 청구 시 1만5천원까지 읍·면·동별 차등 가능(§78).' },
+  { slug: 'period', role: 'overview', title: '주민세 납부기간 8월 16~31일 확인하고 납부하는 법', content: '납기 8.16~8.31, 과세기준일 7.1, 보통징수(§79). 고지서 없어도 위택스 조회·납부 가능.' },
+  { slug: 'how-to-pay', role: 'apply', title: '주민세 고지서 없이 위택스에서 조회하고 납부하는 법', content: '위택스 지방세 납부대상에서 로그인 후 조회·납부. 납부내역·전자송달·자동납부도 같은 곳에서.' },
+  { slug: 'business', role: 'overlap', title: '주민세 종업원분 신고 대상 확인하고 신고하는 법', content: '종업원분은 급여 지급 사업주, 사업소분은 규모 이상 사업소를 둔 개인·법인(§75②③). 개인분 납기와 별도.' },
+];

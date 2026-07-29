@@ -126,8 +126,8 @@ export const healthCertificatePolicy = {
 };
 
 export const healthCertificateSpokes = [
-  { slug: 'test-items', role: 'overview', title: '보건증 검사 항목 3가지와 준비물 챙겨 보건소 가는 법', content: '장티푸스·파라티푸스·폐결핵. 보건소·종합병원·병원·의원에서 실시(규칙 §2①, §3①).' },
-  { slug: 'validity', role: 'target', title: '보건증 유효기간 1년, 만료 전후 30일 안에 갱신하는 법', content: '유효기간 1년, 직전 만료일 다음 날 기산. 만료 전후 각 30일 이내 재검진(규칙 §2③④).' },
+  { slug: 'test-items', role: 'overview', title: '보건증 검사 항목과 필요 서류 확인하고 보건소 신청하는 법', content: '장티푸스·파라티푸스·폐결핵. 보건소·종합병원·병원·의원에서 실시(규칙 §2①, §3①).' },
+  { slug: 'validity', role: 'target', title: '보건증 기간 확인하는법, 유효기간 조회하고 30일 안에 재검진 신청하기', content: '유효기간 1년, 직전 만료일 다음 날 기산. 만료 전후 각 30일 이내 재검진(규칙 §2③④).' },
   { slug: 'expired', role: 'overlap', title: '보건증 기간 지나면 어떻게 되나, 재발급 신청하는 법', content: '만료 후 30일 이내 재검진. 천재지변·사고·질병 시 1회 1개월 연장 가능.' },
   { slug: 'cost', role: 'amount', title: '보건증 발급 비용 얼마인지 확인하고 신청하는 법', content: '보건소 수수료는 지자체 조례로 결정(규칙 §5). 지역마다 다르므로 확인 필요.' },
   { slug: 'offline', role: 'apply', title: '보건증 인터넷 발급 안 될 때 보건소 방문해서 받는 법', content: '정상 판정만 온라인 가능. 결핵사업 접수·사립병원 검사는 온라인 불가.' },

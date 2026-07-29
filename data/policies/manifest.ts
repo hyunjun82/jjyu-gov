@@ -70,6 +70,7 @@ import { closedBizRepaymentReliefPolicy, closedBizRepaymentReliefSpokes } from '
 import { childSupportAdvancePolicy, childSupportAdvanceSpokes } from './child-support-advance';
 import { childSupportEnforcementPolicy, childSupportEnforcementSpokes } from './child-support-enforcement';
 import { healthCertificatePolicy, healthCertificateSpokes } from './health-certificate';
+import { hangangOvernightFestivalPolicy, hangangOvernightFestivalSpokes } from './hangang-overnight-festival';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -796,6 +797,7 @@ export const PoliciesById: Record<string, any> = {
   '195': childSupportAdvancePolicy,
   '641': childSupportEnforcementPolicy,
   '642': healthCertificatePolicy,
+  '643': hangangOvernightFestivalPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1429,6 +1431,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'child-support-advance': childSupportAdvancePolicy,
   'child-support-enforcement': childSupportEnforcementPolicy,
   'health-certificate': healthCertificatePolicy,
+  'hangang-overnight-festival': hangangOvernightFestivalPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2102,6 +2105,7 @@ export const SpokesById: Record<string, any[]> = {
   '195': childSupportAdvanceSpokes,
   '641': childSupportEnforcementSpokes,
   '642': healthCertificateSpokes,
+  '643': hangangOvernightFestivalSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2735,6 +2739,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'child-support-advance': childSupportAdvanceSpokes,
   'child-support-enforcement': childSupportEnforcementSpokes,
   'health-certificate': healthCertificateSpokes,
+  'hangang-overnight-festival': hangangOvernightFestivalSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,

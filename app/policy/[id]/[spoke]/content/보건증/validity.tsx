@@ -4,7 +4,7 @@ const EHEALTH = 'https://www.e-health.go.kr/gh/caSrvcGud/selectScrtfIssGud.do?pr
 const RULE = 'https://www.law.go.kr/법령/식품위생분야종사자의건강진단규칙';
 
 export const 보건증유효기간SpokeContent: SpokeData = {
-  h1: '보건증 유효기간 1년, 만료 전후 30일 안에 갱신하는 법',
+  h1: '보건증 기간 확인하는법, 유효기간 조회하고 30일 안에 재검진 신청하기',
   breadcrumb: '유효기간',
   description: '보건증 유효기간은 1년이며 직전 유효기간 만료일의 다음 날부터 기산합니다. 재검진은 만료일 전후 각각 30일 이내에 받아야 하고, 천재지변·사고·질병이 인정되면 1회에 한해 1개월 연장됩니다.',
   datePublished: '2026-07-29T09:00:00+09:00',

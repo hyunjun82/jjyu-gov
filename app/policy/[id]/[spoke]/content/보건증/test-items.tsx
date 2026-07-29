@@ -5,7 +5,7 @@ const RULE = 'https://www.law.go.kr/법령/식품위생분야종사자의건강�
 const ENFORCE = 'https://www.law.go.kr/법령/식품위생법시행규칙/제49조';
 
 export const 보건증검사항목SpokeContent: SpokeData = {
-  h1: '보건증 검사 항목 3가지와 준비물 챙겨 보건소 가는 법',
+  h1: '보건증 검사 항목과 필요 서류 확인하고 보건소 신청하는 법',
   breadcrumb: '검사 항목·준비물',
   description: '보건증 검사 항목은 장티푸스, 파라티푸스, 폐결핵 세 가지입니다. 보건소·종합병원·병원·의원에서 받을 수 있고, 영업자가 요청하면 의료인이 영업소를 방문해 실시할 수도 있습니다.',
   datePublished: '2026-07-29T09:00:00+09:00',

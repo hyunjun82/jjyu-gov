@@ -870,6 +870,11 @@ import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/po
 /* ── 양육비 선지급제 (slug: child-support-advance) ── */
 import { 양육비선지급소득기준폐지SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/소득기준폐지';
 import { 기초연금2027년인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/2027년인상';
+import { 주민세납부대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/target';
+import { 주민세금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/amount';
+import { 주민세납부기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/period';
+import { 주민세조회납부SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/how-to-pay';
+import { 주민세종업원분SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/business';
 import { 보건증검사항목SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/test-items';
 import { 보건증유효기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/validity';
 import { 보건증기간만료SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/expired';
@@ -1939,6 +1944,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '상환연장': 폐업소상공인정책자금상환연장SpokeContent,
     '금리감면': 폐업소상공인정책자금금리감면SpokeContent,
     '신청재기': 폐업소상공인정책자금신청재기SpokeContent,
+  },
+
+  'resident-tax': {
+    'target':      주민세납부대상SpokeContent,
+    'amount':      주민세금액SpokeContent,
+    'period':      주민세납부기간SpokeContent,
+    'how-to-pay':  주민세조회납부SpokeContent,
+    'business':    주민세종업원분SpokeContent,
   },
 
   'health-certificate': {
