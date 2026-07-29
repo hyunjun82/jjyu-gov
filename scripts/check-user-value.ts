@@ -30,7 +30,7 @@ import { execSync } from 'child_process';
 const DIR = 'data/policies';
 
 /** 행동 동사 — 사용자가 "누를 수 있는" 동작만. '안내·소개·정보'는 행동이 아니다. */
-const ACTION = /신청|조회|발급|다운로드|접수|확인|계산|신고|받기|찾기|가입|등록|제출|예약|납부|청구|개설|해지|변경|연장|재발급/;
+const ACTION = /신청|조회|발급|다운로드|접수|확인|계산|신고|받기|찾기|가입|등록|제출|예약|납부|청구|개설|해지|변경|연장|재발급|검색|열람|입찰/;
 
 /** 기관 메인으로 판정할 경로 (딥링크가 아님) */
 const ROOT_PATHS = new Set(['', '/', '/index.do', '/main.do', '/index.jsp', '/main.jsp', '/index.html']);
@@ -97,7 +97,13 @@ function checkFile(file: string): Issue[] {
 
   // ── 2축: 버튼 CTA ──────────────────────────────────────
   const label = c.match(/ctaLabel: '([^']*)'/)?.[1];
-  const url = c.match(/applyUrl: '(https?:\/\/[^']*)'/)?.[1];
+  // applyUrl 을 상수로 빼 쓰는 파일이 있다(`applyUrl: IHAENG_APPLY`).
+  // 리터럴만 찾으면 멀쩡한 딥링크를 "없음"으로 잡는다 — 상수 선언을 뒤져 푼다.
+  let url = c.match(/applyUrl: '(https?:\/\/[^']*)'/)?.[1];
+  if (!url) {
+    const ref = c.match(/applyUrl: ([A-Za-z_$][\w$]*)/)?.[1];
+    if (ref) url = c.match(new RegExp(`const ${ref}\\s*=\\s*'(https?://[^']*)'`))?.[1];
+  }
 
   if (!label) {
     issues.push({

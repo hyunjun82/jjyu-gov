@@ -80,6 +80,9 @@ import { seoulPregnancyTransportPolicy, seoulPregnancyTransportSpokes } from './
 import { nationalScholarshipSecondRoundPolicy, nationalScholarshipSecondRoundSpokes } from './national-scholarship-second-round';
 import { birthRegistrationPolicy, birthRegistrationSpokes } from './birth-registration';
 import { seoulElectricTaxiSubsidyPolicy, seoulElectricTaxiSubsidySpokes } from './seoul-electric-taxi-subsidy';
+import { courtAuctionPolicy, courtAuctionSpokes } from './court-auction';
+import { buildingLedgerCheckPolicy, buildingLedgerCheckSpokes } from './building-ledger-check';
+import { landUseConversionPolicy, landUseConversionSpokes } from './land-use-conversion';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -816,6 +819,9 @@ export const PoliciesById: Record<string, any> = {
   '650': nationalScholarshipSecondRoundPolicy,
   '651': birthRegistrationPolicy,
   '652': seoulElectricTaxiSubsidyPolicy,
+  '653': courtAuctionPolicy,
+  '654': buildingLedgerCheckPolicy,
+  '655': landUseConversionPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1459,6 +1465,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'national-scholarship-second-round': nationalScholarshipSecondRoundPolicy,
   'birth-registration': birthRegistrationPolicy,
   'seoul-electric-taxi-subsidy': seoulElectricTaxiSubsidyPolicy,
+  'court-auction': courtAuctionPolicy,
+  'building-ledger-check': buildingLedgerCheckPolicy,
+  'land-use-conversion': landUseConversionPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2142,6 +2151,9 @@ export const SpokesById: Record<string, any[]> = {
   '650': nationalScholarshipSecondRoundSpokes,
   '651': birthRegistrationSpokes,
   '652': seoulElectricTaxiSubsidySpokes,
+  '653': courtAuctionSpokes,
+  '654': buildingLedgerCheckSpokes,
+  '655': landUseConversionSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2785,6 +2797,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'national-scholarship-second-round': nationalScholarshipSecondRoundSpokes,
   'birth-registration': birthRegistrationSpokes,
   'seoul-electric-taxi-subsidy': seoulElectricTaxiSubsidySpokes,
+  'court-auction': courtAuctionSpokes,
+  'building-ledger-check': buildingLedgerCheckSpokes,
+  'land-use-conversion': landUseConversionSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
