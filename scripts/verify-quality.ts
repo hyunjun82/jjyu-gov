@@ -139,7 +139,7 @@ function verify(policy: PolicyData): CheckResult[] {
 
   // Q12: speculation words ban (precise patterns to avoid false positives like 협약)
   const SUSPICIOUS_PATTERNS: { pattern: RegExp; label: string }[] = [
-    { pattern: /약\s*\d/, label: '약 N (수치 앞 약)' },
+    { pattern: /(?<![가-힣])약\s*\d/, label: '약 N (수치 앞 약)' },  // 계약 3회·예약 2건 등 오탐 방지
     { pattern: /대략/, label: '대략' },
     { pattern: /대충/, label: '대충' },
     { pattern: /\s정도\s/, label: '정도' },

@@ -71,6 +71,11 @@ import { childSupportAdvancePolicy, childSupportAdvanceSpokes } from './child-su
 import { childSupportEnforcementPolicy, childSupportEnforcementSpokes } from './child-support-enforcement';
 import { healthCertificatePolicy, healthCertificateSpokes } from './health-certificate';
 import { hangangOvernightFestivalPolicy, hangangOvernightFestivalSpokes } from './hangang-overnight-festival';
+import { vehicleStandardValuePolicy, vehicleStandardValueSpokes } from './vehicle-standard-value';
+import { earlyScrappageSubsidyPolicy, earlyScrappageSubsidySpokes } from './early-scrappage-subsidy';
+import { publicHousingAssetTestPolicy, publicHousingAssetTestSpokes } from './public-housing-asset-test';
+import { hugDundunJeonsePolicy, hugDundunJeonseSpokes } from './hug-dundun-jeonse';
+import { seoulElectricMotorcycleSubsidyPolicy, seoulElectricMotorcycleSubsidySpokes } from './seoul-electric-motorcycle-subsidy';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -798,6 +803,11 @@ export const PoliciesById: Record<string, any> = {
   '641': childSupportEnforcementPolicy,
   '642': healthCertificatePolicy,
   '643': hangangOvernightFestivalPolicy,
+  '644': vehicleStandardValuePolicy,
+  '645': earlyScrappageSubsidyPolicy,
+  '646': publicHousingAssetTestPolicy,
+  '647': hugDundunJeonsePolicy,
+  '648': seoulElectricMotorcycleSubsidyPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1432,6 +1442,11 @@ export const PoliciesBySlug: Record<string, any> = {
   'child-support-enforcement': childSupportEnforcementPolicy,
   'health-certificate': healthCertificatePolicy,
   'hangang-overnight-festival': hangangOvernightFestivalPolicy,
+  'vehicle-standard-value': vehicleStandardValuePolicy,
+  'early-scrappage-subsidy': earlyScrappageSubsidyPolicy,
+  'public-housing-asset-test': publicHousingAssetTestPolicy,
+  'hug-dundun-jeonse': hugDundunJeonsePolicy,
+  'seoul-electric-motorcycle-subsidy': seoulElectricMotorcycleSubsidyPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2106,6 +2121,11 @@ export const SpokesById: Record<string, any[]> = {
   '641': childSupportEnforcementSpokes,
   '642': healthCertificateSpokes,
   '643': hangangOvernightFestivalSpokes,
+  '644': vehicleStandardValueSpokes,
+  '645': earlyScrappageSubsidySpokes,
+  '646': publicHousingAssetTestSpokes,
+  '647': hugDundunJeonseSpokes,
+  '648': seoulElectricMotorcycleSubsidySpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2740,6 +2760,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'child-support-enforcement': childSupportEnforcementSpokes,
   'health-certificate': healthCertificateSpokes,
   'hangang-overnight-festival': hangangOvernightFestivalSpokes,
+  'vehicle-standard-value': vehicleStandardValueSpokes,
+  'early-scrappage-subsidy': earlyScrappageSubsidySpokes,
+  'public-housing-asset-test': publicHousingAssetTestSpokes,
+  'hug-dundun-jeonse': hugDundunJeonseSpokes,
+  'seoul-electric-motorcycle-subsidy': seoulElectricMotorcycleSubsidySpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
