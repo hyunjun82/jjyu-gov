@@ -83,6 +83,8 @@ import { seoulElectricTaxiSubsidyPolicy, seoulElectricTaxiSubsidySpokes } from '
 import { courtAuctionPolicy, courtAuctionSpokes } from './court-auction';
 import { buildingLedgerCheckPolicy, buildingLedgerCheckSpokes } from './building-ledger-check';
 import { landUseConversionPolicy, landUseConversionSpokes } from './land-use-conversion';
+import { commercialLeasePremiumPolicy, commercialLeasePremiumSpokes } from './commercial-lease-premium';
+import { vacantHousePolicy, vacantHouseSpokes } from './vacant-house';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -822,6 +824,8 @@ export const PoliciesById: Record<string, any> = {
   '653': courtAuctionPolicy,
   '654': buildingLedgerCheckPolicy,
   '655': landUseConversionPolicy,
+  '657': commercialLeasePremiumPolicy,
+  '658': vacantHousePolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1468,6 +1472,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'court-auction': courtAuctionPolicy,
   'building-ledger-check': buildingLedgerCheckPolicy,
   'land-use-conversion': landUseConversionPolicy,
+  'commercial-lease-premium': commercialLeasePremiumPolicy,
+  'vacant-house': vacantHousePolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2154,6 +2160,8 @@ export const SpokesById: Record<string, any[]> = {
   '653': courtAuctionSpokes,
   '654': buildingLedgerCheckSpokes,
   '655': landUseConversionSpokes,
+  '657': commercialLeasePremiumSpokes,
+  '658': vacantHouseSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2800,6 +2808,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'court-auction': courtAuctionSpokes,
   'building-ledger-check': buildingLedgerCheckSpokes,
   'land-use-conversion': landUseConversionSpokes,
+  'commercial-lease-premium': commercialLeasePremiumSpokes,
+  'vacant-house': vacantHouseSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
