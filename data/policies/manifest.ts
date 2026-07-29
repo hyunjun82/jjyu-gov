@@ -79,6 +79,7 @@ import { seoulElectricMotorcycleSubsidyPolicy, seoulElectricMotorcycleSubsidySpo
 import { seoulPregnancyTransportPolicy, seoulPregnancyTransportSpokes } from './seoul-pregnancy-transport';
 import { nationalScholarshipSecondRoundPolicy, nationalScholarshipSecondRoundSpokes } from './national-scholarship-second-round';
 import { birthRegistrationPolicy, birthRegistrationSpokes } from './birth-registration';
+import { seoulElectricTaxiSubsidyPolicy, seoulElectricTaxiSubsidySpokes } from './seoul-electric-taxi-subsidy';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -814,6 +815,7 @@ export const PoliciesById: Record<string, any> = {
   '649': seoulPregnancyTransportPolicy,
   '650': nationalScholarshipSecondRoundPolicy,
   '651': birthRegistrationPolicy,
+  '652': seoulElectricTaxiSubsidyPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1456,6 +1458,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'seoul-pregnancy-transport': seoulPregnancyTransportPolicy,
   'national-scholarship-second-round': nationalScholarshipSecondRoundPolicy,
   'birth-registration': birthRegistrationPolicy,
+  'seoul-electric-taxi-subsidy': seoulElectricTaxiSubsidyPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2138,6 +2141,7 @@ export const SpokesById: Record<string, any[]> = {
   '649': seoulPregnancyTransportSpokes,
   '650': nationalScholarshipSecondRoundSpokes,
   '651': birthRegistrationSpokes,
+  '652': seoulElectricTaxiSubsidySpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2780,6 +2784,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'seoul-pregnancy-transport': seoulPregnancyTransportSpokes,
   'national-scholarship-second-round': nationalScholarshipSecondRoundSpokes,
   'birth-registration': birthRegistrationSpokes,
+  'seoul-electric-taxi-subsidy': seoulElectricTaxiSubsidySpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
