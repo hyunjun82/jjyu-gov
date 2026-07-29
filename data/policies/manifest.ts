@@ -69,6 +69,7 @@ import { noranUmbrellaPolicy, noranUmbrellaSpokes } from './noran-umbrella';
 import { closedBizRepaymentReliefPolicy, closedBizRepaymentReliefSpokes } from './closed-biz-repayment-relief';
 import { childSupportAdvancePolicy, childSupportAdvanceSpokes } from './child-support-advance';
 import { childSupportEnforcementPolicy, childSupportEnforcementSpokes } from './child-support-enforcement';
+import { healthCertificatePolicy, healthCertificateSpokes } from './health-certificate';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -794,6 +795,7 @@ export const PoliciesById: Record<string, any> = {
   '194': closedBizRepaymentReliefPolicy,
   '195': childSupportAdvancePolicy,
   '641': childSupportEnforcementPolicy,
+  '642': healthCertificatePolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1426,6 +1428,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'closed-biz-repayment-relief': closedBizRepaymentReliefPolicy,
   'child-support-advance': childSupportAdvancePolicy,
   'child-support-enforcement': childSupportEnforcementPolicy,
+  'health-certificate': healthCertificatePolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2098,6 +2101,7 @@ export const SpokesById: Record<string, any[]> = {
   '194': closedBizRepaymentReliefSpokes,
   '195': childSupportAdvanceSpokes,
   '641': childSupportEnforcementSpokes,
+  '642': healthCertificateSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2730,6 +2734,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'closed-biz-repayment-relief': closedBizRepaymentReliefSpokes,
   'child-support-advance': childSupportAdvanceSpokes,
   'child-support-enforcement': childSupportEnforcementSpokes,
+  'health-certificate': healthCertificateSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,

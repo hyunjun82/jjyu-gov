@@ -870,6 +870,11 @@ import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/po
 /* ── 양육비 선지급제 (slug: child-support-advance) ── */
 import { 양육비선지급소득기준폐지SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/소득기준폐지';
 import { 기초연금2027년인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/2027년인상';
+import { 보건증검사항목SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/test-items';
+import { 보건증유효기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/validity';
+import { 보건증기간만료SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/expired';
+import { 보건증발급비용SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/cost';
+import { 보건증오프라인발급SpokeContent } from '@/app/policy/[id]/[spoke]/content/보건증/offline';
 import { 안심상속신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/how-to-apply';
 import { 안심상속신청기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/when-apply';
 import { 안심상속결과조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/안심상속/result-check';
@@ -1934,6 +1939,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '상환연장': 폐업소상공인정책자금상환연장SpokeContent,
     '금리감면': 폐업소상공인정책자금금리감면SpokeContent,
     '신청재기': 폐업소상공인정책자금신청재기SpokeContent,
+  },
+
+  'health-certificate': {
+    'test-items':  보건증검사항목SpokeContent,
+    'validity':    보건증유효기간SpokeContent,
+    'expired':     보건증기간만료SpokeContent,
+    'cost':        보건증발급비용SpokeContent,
+    'offline':     보건증오프라인발급SpokeContent,
   },
 
   'safe-inheritance-onestop': {
