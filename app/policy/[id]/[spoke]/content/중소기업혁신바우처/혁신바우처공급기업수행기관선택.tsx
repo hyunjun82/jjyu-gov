@@ -105,7 +105,7 @@ export const 중소기업혁신바우처혁신바우처공급기업수행기관�
         label: '보고 방법',
         content: 'mssmiv.com 로그인 → 내 바우처 → 성과 보고서 작성 → 제출',
       },
-    },,
+    },
   ],
   faqData: [
     {

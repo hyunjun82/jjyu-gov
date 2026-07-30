@@ -109,7 +109,7 @@ export const 새도약론새도약론소각채무탕감조건SpokeContent: Spoke
         label: '확인 사항',
         content: '소각 후 신용 회복 기간 동안은 추가 대출보다 신용 점수 관리에 집중하는 것이 유리합니다.',
       },
-    },,
+    },
   ],
   faqData: [
     {

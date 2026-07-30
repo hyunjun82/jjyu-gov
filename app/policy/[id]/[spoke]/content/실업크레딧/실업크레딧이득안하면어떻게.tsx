@@ -118,7 +118,7 @@ export const 실업크레딧실업크레딧이득안하면어떻게SpokeContent:
         label: '남은 한도 확인',
         content: 'nps.or.kr 로그인 후 내 실업크레딧 사용 기간 조회, 또는 1355 전화 문의.',
       },
-    },,
+    },
   ],
   faqData: [
     {

@@ -116,7 +116,7 @@ export const 새도약론새도약론신청자격대상자확인SpokeContent: Sp
           ['36개월 이상', '연 3.0%'],
         ],
       },
-    },,
+    },
   ],
   faqData: [
     {
