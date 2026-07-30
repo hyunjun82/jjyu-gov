@@ -13,6 +13,7 @@
  *   B 버튼 수용     qa 7개 이상인가 (허브 버튼 3개가 2·4·마지막 슬롯에 들어감)
  *   C 외부 누수     스포크 본문에서 외부로 내보내는 CTA가 없는가
  *                   (스포크→허브→외부 순서를 지켜야 전면광고 기회를 안 버린다)
+ *   D 종결어미 도배  제목이 '~법'으로 끝나지 않는가 (같은 어미 반복은 기계 생성처럼 보인다)
  *
  * 사용:
  *   npx tsx scripts/check-click-value.ts            # 변경분만 (pre-push)
@@ -30,7 +31,16 @@ const ACTION = /신청|조회|발급|다운로드|접수|제출|계산|신고|�
 /** 정보형 종결 — 읽고 나가는 제목 */
 const INFO_ONLY = /(무엇인가|이란\??$|의 모든 것|총정리$|알아보기$|정리$|이해하기$)/;
 
-type Issue = { axis: 'A' | 'B' | 'C'; msg: string; fix: string };
+/**
+ * '~하는 법' 종결 도배 방지 (2026-07-30)
+ * 행동 동사를 넣으라는 규칙을 "제목 끝에 하는 법을 붙인다"로 잘못 굳혀서
+ * 허브 타이틀 1233개 중 422개(34%)가 '~법'으로 끝나버렸다. 같은 어미가
+ * 사이트 전체에 반복되면 포털이 기계 생성으로 볼 여지가 생긴다.
+ * 정본(docs/title-style-24.md) 24개는 물음형·시나리오형이 대부분이다.
+ */
+const CLICHE_END = /법\??$/;
+
+type Issue = { axis: 'A' | 'B' | 'C' | 'D'; msg: string; fix: string };
 
 function checkSpoke(file: string): Issue[] {
   const c = fs.readFileSync(file, 'utf8');
@@ -43,13 +53,22 @@ function checkSpoke(file: string): Issue[] {
       issues.push({
         axis: 'A',
         msg: `제목이 정보형으로 끝남: "${h1}"`,
-        fix: '"~하는 법 / ~신청하기 / ~조회하고 확인하기"처럼 행동으로 끝낸다',
+        fix: '행동 동사를 넣는다. 종결은 정본(docs/title-style-24.md)처럼 물음형·시나리오형으로 — "늦으면 못 받는 이유는?" "며칠 받나" "1분이면 끝"',
       });
     } else if (!ACTION.test(h1)) {
       issues.push({
         axis: 'A',
         msg: `제목에 행동 동사가 없음: "${h1}"`,
         fix: '신청·조회·발급·계산·신고 중 이 글이 유도하는 동작을 제목에 넣는다',
+      });
+    }
+
+    // ── D. 종결어미 도배 ────────────────────────────────
+    if (CLICHE_END.test(h1)) {
+      issues.push({
+        axis: 'D',
+        msg: `제목이 '~법'으로 끝남: "${h1}"`,
+        fix: '행동 동사는 문장 안에 두고 끝은 다르게 — "어디서 신청하나" "언제까지 내야 하나" "얼마 받나" "놓치면 어떻게 되나"',
       });
     }
   }
@@ -125,9 +144,9 @@ if (!targets.length) {
   process.exit(0);
 }
 
-const AXIS = { A: '제목 행동성', B: '버튼 슬롯', C: '외부 누수' } as const;
+const AXIS = { A: '제목 행동성', B: '버튼 슬롯', C: '외부 누수', D: '종결어미 도배' } as const;
 let failed = 0;
-const count = { A: 0, B: 0, C: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0 };
 
 for (const f of targets) {
   const issues = checkSpoke(f);
@@ -144,7 +163,7 @@ for (const f of targets) {
 }
 
 console.log(`\n검사 ${targets.length}개 / 문제 ${failed}개`);
-console.log(`  제목 행동성 ${count.A}  버튼 슬롯 ${count.B}  외부 누수 ${count.C}`);
+console.log(`  제목 행동성 ${count.A}  버튼 슬롯 ${count.B}  외부 누수 ${count.C}  종결어미 도배 ${count.D}`);
 
 if (all) {
   console.log('\n(--all 은 현황 파악용 — 차단하지 않는다)');

@@ -1,0 +1,65 @@
+{
+  "seed": "한강무박2일",
+  "synonyms": [],
+  "collectedAt": "2026-07-29T07:20:55.648Z",
+  "naver": {
+    "autocomplete": [
+      "한강 무박2일",
+      "밤샘 한강 무박 2일",
+      "한강 무박2일 2025"
+    ],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "한강 발원지",
+      "한강 축제"
+    ]
+  },
+  "merged": {
+    "all": [
+      "한강 무박2일",
+      "밤샘 한강 무박 2일",
+      "한강 무박2일 2025",
+      "한강 발원지",
+      "한강 축제"
+    ],
+    "byIntent": {
+      "info": [
+        "한강 무박2일",
+        "밤샘 한강 무박 2일",
+        "한강 무박2일 2025",
+        "한강 발원지",
+        "한강 축제"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "한강 무박2일",
+        "밤샘 한강 무박 2일",
+        "한강 무박2일 2025",
+        "한강 발원지",
+        "한강 축제"
+      ],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}
