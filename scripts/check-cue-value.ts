@@ -18,6 +18,7 @@
  *   C 목적지 뭉침  한 글의 act.url 이 전부 같은 곳을 가리키지 않는가
  *   D 딥링크 아님  act.url 이 기관 메인/루트가 아닌가 (그 카드의 행동 지점인가)
  *   E 어미 반복    한 글 안에서 같은 종결 표현이 3회 이상 반복되지 않는가
+ *   F 라벨 정보형  버튼 라벨이 '…안내 보기'가 아니라 실제 행동인가
  *
  * 사용:
  *   npx tsx scripts/check-cue-value.ts          # 변경된 허브만 (pre-push, 차단)
@@ -51,7 +52,16 @@ const isShallow = (u: string) => {
   return SHALLOW_PATTERNS.some((r) => r.test(base));
 };
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E'; msg: string; fix: string };
+/**
+ * 버튼 라벨은 행동이어야 한다.
+ * "상품 안내 보기 / 자세히 보기"는 정보라 눌릴 이유가 없다 — 실제로 이 라벨을 단
+ * 카드가 클릭을 못 받았다(2026-07-30). 보는 건 행동이 아니다.
+ */
+const LABEL_ACTION =
+  /신청|조회|발급|다운로드|내려받|접수|제출|계산|신고|청구|납부|가입|등록|확인|받|찾|열|개설|해지|변경|연장|비교|대조|예매|예약|검색|열람|입찰|고르|골라|갈아타|챙기|남기|문의|따라가|맞춰|넣어/;
+const LABEL_WEAK = /(안내|정보|내용|자료)\s*(보기|확인)$|자세히\s*보기|^바로가기$|^보기$/;
+
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -70,16 +80,19 @@ function parse(file: string) {
   for (const m of c.matchAll(/cue:\s*"((?:[^"\\]|\\.)*)"/g)) cues.push(m[1]);
   for (const m of c.matchAll(/cue:\s*`((?:[^`\\]|\\.)*)`/g)) cues.push(m[1]);
 
+  const labels: string[] = [];
   const urls: string[] = [];
   // act 블록 안의 url 만 — sources/faq 의 url 은 제외한다
   for (const m of c.matchAll(/act:\s*\{[\s\S]{0,900}?\}/g)) {
     const raw = m[0].match(/url:\s*(?:'([^']+)'|([A-Z0-9_]+))/);
     if (!raw) continue;
     urls.push(raw[1] ?? consts.get(raw[2] ?? '') ?? raw[2] ?? '');
+    const lm = m[0].match(/label:\s*'([^']+)'/) ?? m[0].match(/label:\s*"([^"]+)"/);
+    if (lm) labels.push(lm[1]);
   }
 
   const slug = c.match(/slug: '([^']+)'/)?.[1] ?? path.basename(file, '.ts');
-  return { slug, qaCount, cues, urls };
+  return { slug, qaCount, cues, urls, labels };
 }
 
 /** 종결 표현 — 마지막 어절 기준으로 거칠게 본다 */
@@ -90,7 +103,7 @@ function ending(s: string): string {
 }
 
 function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
-  const { slug, qaCount, cues, urls } = parse(file);
+  const { slug, qaCount, cues, urls, labels } = parse(file);
   const issues: Issue[] = [];
 
   // ── A. 문구 누락 ────────────────────────────────────
@@ -133,6 +146,17 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
         axis: 'D',
         msg: `기관 메인/루트로 보냄: ${u}`,
         fix: '그 카드에서 하려는 행동의 실제 화면(조회·접수·다운로드 페이지)으로 바꾼다',
+      });
+    }
+  }
+
+  // ── F. 버튼 라벨이 행동인가 ──────────────────────────
+  for (const L of labels) {
+    if (LABEL_WEAK.test(L) || !LABEL_ACTION.test(L)) {
+      issues.push({
+        axis: 'F',
+        msg: `버튼 라벨이 행동이 아님: "${L}"`,
+        fix: '"…안내 보기"는 정보다. 그 카드에서 할 동작을 그대로 쓴다 — "내 지원구간 확인하기", "공고문 PDF 내려받기"',
       });
     }
   }
@@ -218,12 +242,13 @@ const AXIS = {
   C: '목적지 뭉침',
   D: '딥링크 아님',
   E: '어미 반복',
+  F: '라벨 정보형',
 } as const;
 
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -246,7 +271,7 @@ for (const f of targets) {
 console.log(`\n검사 ${targets.length}개 / 문제 ${failed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}`,
 );
 
 if (all) {

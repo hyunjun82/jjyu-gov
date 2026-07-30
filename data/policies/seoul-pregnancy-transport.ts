@@ -4,10 +4,16 @@ const UMPPA = 'https://umppa.seoul.go.kr/hmpg/life/cycl/lifeCyclInfoDetail.do?sy
 const UMPPA_MAIN = 'https://umppa.seoul.go.kr/hmpg/main.do';
 const PRESS = 'https://www.seoul.go.kr/news/news_report.do?nttNo=454430';
 const POSTCARE = 'https://umppa.seoul.go.kr/hmpg/life/cycl/lifeCyclInfoDetail.do?sys_name=biz&doc_id=58D83411277E40D1BFF6255A10CBCDD5';
+/* 실제 신청 폼 — 몽땅정보통 '신청하기' 버튼이 여는 주소 (로그인 필요) */
+const APPLY_FORM = 'https://umppa.seoul.go.kr/hmpg/biz/aply/mng/applEduRegistForm.do?biz_mng_no=34B5EA8BEB354E2DB26136CFE52AEFF2';
+/* 맘편한 KTX·SRT 임산부 할인 — 교통비와 함께 챙기는 이동 혜택 */
+const KTX_DISCOUNT = 'https://umppa.seoul.go.kr/hmpg/sprt/bzin/bzmgComtDetail.do?biz_mng_no=777A2CC2D38A42F6AB5BFB7AEF7F6A84';
+/* 산모·신생아 건강관리 본인부담금 지원 */
+const NEWBORN_CARE = 'https://umppa.seoul.go.kr/hmpg/life/cycl/lifeCyclInfoDetail.do?sys_name=biz&doc_id=95248C9A74C14B51968F2BBDA16';
 
 export const seoulPregnancyTransportPolicy = {
   id: '649', type: 'cash' as const,
-  title: '서울 임산부 교통비 신청방법, 70~100만원 바우처 신청하는 법',
+  title: '서울 임산부 교통비 신청방법, 70~100만원 바우처 어떻게 받나',
   titleKeywords: { k1: '임산부 교통비', k2: '신청', k3: '바우처', k4: '협약카드사' },
   slug: 'seoul-pregnancy-transport', org: '서울특별시', cat: '지원금', catSlug: 'fund',
   amount: '첫째 70만원 · 둘째 80만원 · 셋째 이상 100만원',
@@ -46,6 +52,11 @@ export const seoulPregnancyTransportPolicy = {
       },
       box: { label: '중복 절차 생략', content: '정부24 맘편한임신에서 서울시 임산부교통비 신청을 먼저 한 경우, 탄생육아 몽땅정보통에서는 임신확인서를 다시 올리지 않아도 됩니다.' },
       sourceNote: '* 출처: 탄생육아 몽땅정보통 임산부 교통비 지원',
+      act: {
+        cue: '방문 신청을 하려 해도 결국 몽땅정보통 회원가입은 거쳐야 합니다. 어차피 들를 곳이니 신청 화면부터 열어 두면 서류를 두 번 챙기지 않아도 됩니다.',
+        label: '임산부 교통비 신청서 작성하기',
+        url: APPLY_FORM,
+      },
     },
     {
       q: '얼마를 받나요?', anchor: 'q-amount',
@@ -61,6 +72,11 @@ export const seoulPregnancyTransportPolicy = {
       },
       box: { label: '소급 지급', content: '2026.1.1~3.29 신청 건은 기존 신청 내용을 바탕으로 별도 신청 없이 추가 지원금이 소급 지급됩니다.' },
       sourceNote: '* 출처: 서울시 보도자료 (2026.3.18)',
+      act: {
+        cue: '첫째와 셋째의 차이가 30만원입니다. 자녀 수에 따라 얼마가 되는지 보도자료 원문에 개편 내용이 그대로 적혀 있으니 내 경우를 대조해 보세요.',
+        label: '내 자녀 수로 지원금 확인하기',
+        url: PRESS,
+      },
     },
     {
       q: '언제까지 신청할 수 있나요?', anchor: 'q-period',
@@ -75,6 +91,11 @@ export const seoulPregnancyTransportPolicy = {
         ],
       },
       sourceNote: '* 출처: 탄생육아 몽땅정보통 · 서울시 보도자료',
+      act: {
+        cue: '출산 후 6개월이 지나면 그날로 끝입니다. 출생일이 언제였는지 헷갈린다면 사업 안내에서 신청 가능 기간을 먼저 맞춰 보는 편이 낫습니다.',
+        label: '내 신청 가능 기간 확인하기',
+        url: UMPPA,
+      },
     },
     {
       q: '카드를 먼저 만들어야 하나요?', anchor: 'q-card',
@@ -94,6 +115,11 @@ export const seoulPregnancyTransportPolicy = {
       },
       box: { label: '주의', content: '국민행복카드 전용카드는 바우처 지급이 불가하므로 다른 체크카드로 신청해야 합니다. 카드 발급 및 사용이 일괄 정지된 경우 동주민센터 방문 신청이 필요합니다.' },
       sourceNote: '* 출처: 탄생육아 몽땅정보통 사전준비사항',
+      act: {
+        cue: '카드가 없으면 신청해도 돈이 안 들어옵니다. 신한·BC농협은 국민행복카드만 되고 전용카드는 지급이 막히니, 협약카드사 조건을 보고 카드부터 만들어 두는 순서입니다.',
+        label: '협약카드사 조건 확인하기',
+        url: UMPPA,
+      },
     },
     {
       q: '어디에 쓸 수 있나요?', anchor: 'q-use',
@@ -111,6 +137,11 @@ export const seoulPregnancyTransportPolicy = {
         ],
       },
       sourceNote: '* 출처: 탄생육아 몽땅정보통 사용처 안내',
+      act: {
+        cue: '철도는 코레일 공식 예매만 차감됩니다. KTX·SRT 임산부 할인은 교통비 바우처와 별개라 같이 쓰면 이동비가 한 번 더 줄어듭니다.',
+        label: 'KTX·SRT 임산부 할인 같이 챙기기',
+        url: KTX_DISCOUNT,
+      },
     },
     {
       q: '주유할 때 주의할 점이 있나요?', anchor: 'q-fuel',
@@ -118,6 +149,11 @@ export const seoulPregnancyTransportPolicy = {
       highlights: ['셀프주유소는 선승인 구조', '잔액 부족 시 자부담', '직원 직접주유 권장', '잔액 적을 때 특히 주의'],
       box: { label: '셀프주유소 결제 예시', content: '선결제 15만원 → 실제 주유금액 4만원 결제 → 선결제 15만원 취소.\n이때 바우처 잔액이 19만원(15만원+4만원) 미만이면 자부담으로 결제됩니다.' },
       sourceNote: '* 출처: 탄생육아 몽땅정보통 유류비 사용 안내',
+      act: {
+        cue: '셀프주유소에서 잔액이 19만원 아래면 4만원 주유가 자부담으로 넘어갑니다. 남은 금액이 얼마인지 모르는 채 셀프로 넣는 게 가장 위험합니다.',
+        label: '유류비 사용 조건 확인하기',
+        url: UMPPA,
+      },
     },
     {
       q: '서울에 얼마나 살아야 신청되나요?', anchor: 'q-residence',
@@ -132,6 +168,11 @@ export const seoulPregnancyTransportPolicy = {
         ],
       },
       sourceNote: '* 출처: 탄생육아 몽땅정보통 이용대상 · 서울시 보도자료',
+      act: {
+        cue: '2026년 7월부터 서울 거주 90일이 새 조건이 됐습니다. 최근에 이사했다면 전입일이 며칠 모자라 반려될 수 있어, 이용대상 요건을 먼저 맞춰 보는 게 안전합니다.',
+        label: '거주요건 해당되는지 확인하기',
+        url: UMPPA,
+      },
     },
     {
       q: '언제까지 다 써야 하나요?', anchor: 'q-expire',
@@ -139,6 +180,11 @@ export const seoulPregnancyTransportPolicy = {
       highlights: ['사용기한 12개월로 확대', '3.30 이전 신청자는 6개월', '후불교통 전표는 늦게 접수', '복원 불가'],
       box: { label: '후불교통 함정', content: '바우처 사용종료일이 6.30인 경우, 5월 이용대금까지만 바우처에서 차감되고 6월 이용대금은 7월에 전표가 생성되어 자부담으로 청구됩니다. 이 사유로는 바우처가 복원되지 않습니다.' },
       sourceNote: '* 출처: 탄생육아 몽땅정보통 사용기한 안내',
+      act: {
+        cue: '후불교통 전표는 한 달 늦게 들어옵니다. 종료일이 6월 30일이면 6월에 탄 버스값은 7월에 청구돼 자부담이 되고, 이 사유로는 복원도 안 됩니다.',
+        label: '사용기한과 차감 시점 확인하기',
+        url: UMPPA,
+      },
     },
     {
       q: '산후조리경비도 같이 받을 수 있나요?', anchor: 'q-postcare',
@@ -155,6 +201,11 @@ export const seoulPregnancyTransportPolicy = {
         ],
       },
       sourceNote: '* 출처: 서울시 보도자료 · 탄생육아 몽땅정보통',
+      act: {
+        cue: '산후조리경비는 출산 후 180일까지라 교통비보다 여유가 있습니다. 산모·신생아 건강관리 본인부담금 지원도 따로 열려 있어 세 가지를 같이 신청하는 분이 많습니다.',
+        label: '산모·신생아 건강관리 신청하기',
+        url: NEWBORN_CARE,
+      },
     },
   ],
   faq: [
