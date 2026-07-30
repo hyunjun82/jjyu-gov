@@ -8,7 +8,9 @@
 export function simplifyCta(label?: string): string {
   const s = (label || '').trim();
   if (!s) return '신청하기';
-  // 행동 동사 우선순위 — 신청이 있으면 그게 주된 행동
+  // 행동 동사 우선순위 — 티켓·좌석은 '신청'이 아니라 '예매'가 실제 행동이라 앞에 둔다
+  if (/예매/.test(s)) return '예매하기';
+  if (/예약/.test(s)) return '예약하기';
   if (/신청/.test(s)) return '신청하기';
   if (/신고/.test(s)) return '신고하기';
   if (/조회/.test(s)) return '조회하기';

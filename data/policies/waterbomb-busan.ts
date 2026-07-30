@@ -12,11 +12,13 @@ const WB_SHOP = 'https://shop.waterbombfestival.com/products/waterbomb-busan-202
 
 export const waterbombBusanPolicy = {
   id: '662', type: 'service' as const,
-  title: '2026 워터밤 부산 라인업 확인하고 티켓 예매하는 법',
+  title: '2026 워터밤 부산 라인업 16팀, 티켓 어디서 예매하나',
   titleKeywords: { k1: '워터밤 부산', k2: '라인업', k3: '티켓', k4: '예매' },
   slug: 'waterbomb-busan', org: '주식회사 메이드온', cat: '생활정보', catSlug: 'life',
   amount: '티켓 132,000원 (옐로우팀·핑크팀 동일)',
+  amountLabel: '티켓 가격',
   deadline: '2026년 8월 8일(토) 오후 1시 · 롯데월드 어드벤처 부산 주차장 일대',
+  deadlineLabel: '일정',
   views: 0,
   applyUrl: MELON,
   ctaLabel: '워터밤 부산 티켓 예매하기',

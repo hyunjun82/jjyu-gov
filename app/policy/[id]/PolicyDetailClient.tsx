@@ -199,7 +199,8 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
           </div>
           <h1 className="detail-title">{d.title}</h1>
           <div className="detail-meta">
-            <span>마감: {d.deadline}</span>
+            {/* 지원금이 아닌 글(공연·행사 등)은 '마감'이 어색해 deadlineLabel로 갈아끼운다 */}
+            <span>{d.deadlineLabel || '마감'}: {d.deadline}</span>
           </div>
 
           <div className="editor-profile">
@@ -617,7 +618,9 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                         lineHeight: 1.5,
                       }}
                     >
-                      <span style={{ flex: 1 }}>{s.label || s.title}</span>
+                      {/* 출처 이름 키는 파일마다 label/title/name이 섞여 있다.
+                          name만 쓰는 허브 21개가 빈 칸으로 렌더링되던 버그(2026-07-30) */}
+                      <span style={{ flex: 1 }}>{s.label || s.title || s.name || s.url}</span>
                       <ChevronRight size={14} style={{ flexShrink: 0, color: '#003D88' }} />
                     </a>
                   ))}
