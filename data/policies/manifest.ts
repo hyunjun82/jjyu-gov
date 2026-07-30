@@ -89,6 +89,7 @@ import { siheungNewlywedJeonseInterestPolicy, siheungNewlywedJeonseInterestSpoke
 import { integratedCareerCertificatePolicy, integratedCareerCertificateSpokes } from './integrated-career-certificate';
 import { newStartFundPolicy, newStartFundSpokes } from './new-start-fund';
 import { waterbombBusanPolicy, waterbombBusanSpokes } from './waterbomb-busan';
+import { surnameChangeReportPolicy, surnameChangeReportSpokes } from './surname-change-report';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -834,6 +835,7 @@ export const PoliciesById: Record<string, any> = {
   '660': integratedCareerCertificatePolicy,
   '661': newStartFundPolicy,
   '662': waterbombBusanPolicy,
+  '663': surnameChangeReportPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1486,6 +1488,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'integrated-career-certificate': integratedCareerCertificatePolicy,
   'new-start-fund': newStartFundPolicy,
   'waterbomb-busan': waterbombBusanPolicy,
+  'surname-change-report': surnameChangeReportPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2178,6 +2181,7 @@ export const SpokesById: Record<string, any[]> = {
   '660': integratedCareerCertificateSpokes,
   '661': newStartFundSpokes,
   '662': waterbombBusanSpokes,
+  '663': surnameChangeReportSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2830,6 +2834,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'new-start-fund': newStartFundSpokes,
   'waterbomb-busan': waterbombBusanSpokes,
+  'surname-change-report': surnameChangeReportSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
