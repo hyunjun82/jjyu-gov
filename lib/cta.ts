@@ -41,16 +41,28 @@ export function hubCta(question: string): string {
   if (/탈락|제외|안\s*되|불가|불이익|과태료/.test(q)) return '유의사항 전체 보기';
   if (/차이|비교|중복/.test(q)) return '비교 정리 보기';
   if (/문의|어디에/.test(q)) return '문의처 확인하기';
-  if (/방법|절차|어떻게|신청/.test(q)) return '신청 방법 전체 보기';
+  if (/방법|절차|어떻게|신청/.test(q)) return '신청방법 바로가기';
   return '';
 }
 
 /** 한 페이지 안에서 문구가 겹치지 않도록 채워 넣는 예비 문구 */
 export const HUB_CTA_FALLBACKS = [
-  '조건·금액 전체 보기',
-  '신청 방법까지 한번에',
+  '조건·금액 한눈에 보기',
+  '신청방법 바로가기',
   '전체 정리 보기',
 ];
+
+/**
+ * 허브에서 "신청방법" 섹션의 anchor id를 찾는다.
+ * 앵커 이름이 정책마다 달라(q-apply-method / q-apply / how-to-apply / 신청방법 …)
+ * 라벨이 "바로가기"인데 허브 맨 위로 보내면 말과 동작이 어긋난다.
+ * 실제 anchor를 찾아 딥링크로 보내고, 없으면 허브 최상단으로 폴백한다.
+ */
+export function findApplyAnchor(hubQa: any[] | undefined): string {
+  if (!Array.isArray(hubQa)) return '';
+  const hit = hubQa.find((c) => /apply|신청/i.test(c?.anchor || ''));
+  return hit?.anchor ? `#${hit.anchor}` : '';
+}
 
 /**
  * Q&A 카드별 인라인 CTA 문구 — 질문의 행동 키워드에 맞춰 자동 생성.

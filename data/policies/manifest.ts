@@ -85,6 +85,9 @@ import { buildingLedgerCheckPolicy, buildingLedgerCheckSpokes } from './building
 import { landUseConversionPolicy, landUseConversionSpokes } from './land-use-conversion';
 import { commercialLeasePremiumPolicy, commercialLeasePremiumSpokes } from './commercial-lease-premium';
 import { vacantHousePolicy, vacantHouseSpokes } from './vacant-house';
+import { siheungNewlywedJeonseInterestPolicy, siheungNewlywedJeonseInterestSpokes } from './siheung-newlywed-jeonse-interest';
+import { integratedCareerCertificatePolicy, integratedCareerCertificateSpokes } from './integrated-career-certificate';
+import { newStartFundPolicy, newStartFundSpokes } from './new-start-fund';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -826,6 +829,9 @@ export const PoliciesById: Record<string, any> = {
   '655': landUseConversionPolicy,
   '657': commercialLeasePremiumPolicy,
   '658': vacantHousePolicy,
+  '659': siheungNewlywedJeonseInterestPolicy,
+  '660': integratedCareerCertificatePolicy,
+  '661': newStartFundPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1474,6 +1480,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'land-use-conversion': landUseConversionPolicy,
   'commercial-lease-premium': commercialLeasePremiumPolicy,
   'vacant-house': vacantHousePolicy,
+  'siheung-newlywed-jeonse-interest': siheungNewlywedJeonseInterestPolicy,
+  'integrated-career-certificate': integratedCareerCertificatePolicy,
+  'new-start-fund': newStartFundPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2162,6 +2171,9 @@ export const SpokesById: Record<string, any[]> = {
   '655': landUseConversionSpokes,
   '657': commercialLeasePremiumSpokes,
   '658': vacantHouseSpokes,
+  '659': siheungNewlywedJeonseInterestSpokes,
+  '660': integratedCareerCertificateSpokes,
+  '661': newStartFundSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2810,6 +2822,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'land-use-conversion': landUseConversionSpokes,
   'commercial-lease-premium': commercialLeasePremiumSpokes,
   'vacant-house': vacantHouseSpokes,
+  'siheung-newlywed-jeonse-interest': siheungNewlywedJeonseInterestSpokes,
+  'integrated-career-certificate': integratedCareerCertificateSpokes,
+  'new-start-fund': newStartFundSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,

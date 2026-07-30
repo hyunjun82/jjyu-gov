@@ -4,6 +4,7 @@ export const housingBenefitPolicy: PolicyData = {
   slug: 'housing-benefit',
   type: 'service',
   title: '주거급여 신청자격과 임차·자가가구 지원, 다른 급여 중복여부',
+  titleKeywords: { k1: '주거급여', k2: '기준임대료', k3: '자가가구', k4: '소득인정액' },
   org: '국토교통부 (한국토지주택공사 시행)',
   catSlug: 'welfare',
   amount: '최대 월 69만 9,000원 (서울 6인 기준)',
@@ -46,6 +47,14 @@ export const housingBenefitPolicy: PolicyData = {
         url: 'https://www.molit.go.kr/USR/I0204/m_45/dtl.jsp?idx=18653',
         text: '4인 가구 선정기준 월 3,117,474원',
         verifiedAt: '2026-05-17',
+      },
+    },
+    '2027년 기준임대료': {
+      value: '올해 대비 급지·가구원 수별 1만 2,000원 ~ 5만원 인상 (2026.7.28 의결)',
+      source: {
+        url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148968956',
+        text: '주거급여는 임차 가구의 기준임대료를 올해 대비 급지·가구원 수별 1만 2000원~5만 원 인상하고',
+        verifiedAt: '2026-07-30',
       },
     },
     '서울 1인 최대': {

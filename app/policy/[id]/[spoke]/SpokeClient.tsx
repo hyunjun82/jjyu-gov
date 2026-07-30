@@ -12,7 +12,7 @@ import {
   faqSchema,
   toJsonLd,
 } from '@/lib/schema';
-import { hubCta, HUB_CTA_FALLBACKS } from '@/lib/cta';
+import { hubCta, HUB_CTA_FALLBACKS, findApplyAnchor } from '@/lib/cta';
 
 /**
  * ── SpokeClient ──
@@ -297,7 +297,17 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                     읽는 흐름이 끊기는 지점(중간·끝)에만 배치한다. */}
                 {hubCtaByIndex[i] && (
                   <div style={{ marginTop: 20 }}>
-                    <Link href={`/policy/${policyId}/`} className="qa-inline-cta">
+                    {/* 누를 이유 한 줄(cue)은 스포크 데이터의 act.cue에서만 읽는다.
+                        주제를 모르는 자동 생성 문장은 806개에 같은 말이 반복돼 도배가 되므로 쓰지 않는다. */}
+                    {item?.act?.cue && <p className="qa-cta-cue">{item.act.cue}</p>}
+                    <Link
+                      href={
+                        /신청방법 바로가기/.test(hubCtaByIndex[i])
+                          ? `/policy/${policyId}/${findApplyAnchor((policy as any)?.qa)}`
+                          : `/policy/${policyId}/`
+                      }
+                      className="qa-inline-cta"
+                    >
                       {hubCtaByIndex[i]} →
                     </Link>
                   </div>

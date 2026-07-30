@@ -479,12 +479,28 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                           </div>
                         </div>
                       )}
-                      <div style={{ marginTop: 24, textAlign: 'center' }}>
-                        <a href={d.applyUrl} className="btn-cta" rel="noopener">
-                          공식 안내 보기
+                      <div style={{ marginTop: 24 }}>
+                        {item.act?.cue && <p className="qa-cta-cue">{item.act.cue}</p>}
+                        <a href={item.act?.url || d.applyUrl} className="qa-inline-cta" rel="noopener">
+                          {item.act?.label || d.ctaLabel || '공식 안내 보기'} →
                         </a>
                       </div>
                     </>
+                  )}
+
+                  {/* 카드마다 자동 노출되는 행동 버튼.
+                      item.act = { cue, label, url } 이 있으면 "누를 이유(cue)" 한 줄을 버튼 바로 위에 붙이고
+                      그 카드의 행동에 맞는 목적지로 보낸다. 없으면 종전처럼 대표 CTA로 폴백.
+                      q-apply(전용 CTA 있음)·toolCta·ctaBlock 카드는 중복 방지로 제외 */}
+                  {item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && (item.act?.url || defaultActionHref) && (
+                    <div style={{ marginTop: 20 }}>
+                      {item.act?.cue && (
+                        <p className="qa-cta-cue">{item.act.cue}</p>
+                      )}
+                      <a href={item.act?.url || defaultActionHref} className="qa-inline-cta" rel="noopener">
+                        {item.act?.label || pickActionLabel(item.q || item.question, d.ctaLabel)} →
+                      </a>
+                    </div>
                   )}
 
                   {/* 출처 노트 */}
@@ -494,15 +510,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                     </p>
                   )}
 
-                  {/* 카드마다 자동 노출되는 행동 버튼 — 질문의 행동 키워드에 맞춰 문구 자동 생성.
-                      q-apply(이미 전용 CTA 있음)·toolCta·ctaBlock 있는 카드는 중복 방지로 제외 */}
-                  {item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && defaultActionHref && (
-                    <div style={{ marginTop: 20 }}>
-                      <a href={defaultActionHref} className="qa-inline-cta" rel="noopener">
-                        {pickActionLabel(item.q || item.question, d.ctaLabel)} →
-                      </a>
-                    </div>
-                  )}
                 </QACard>
 
                 {/* 섹션 사이 반복 CTA 블록 — 질문 하나 끝날 때마다 신청 유도 (item.ctaBlock 있는 항목만) */}
@@ -694,8 +701,15 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             {d.related && d.related.length > 0 && (
               <section className="detail-card" id="related">
                 <h2 className="detail-card-head">관련 정책 더보기</h2>
-                {d.related.map((r: any, i: number) => (
-                  <Link href={`/policy/${r.id}`} key={i} className="related-item">
+                {d.related.map((raw: any, i: number) => {
+                  /* related는 slug 문자열(권장) 또는 객체 둘 다 허용.
+                     문자열이면 manifest에서 실제 정책을 찾아 id·title·cat을 채운다.
+                     (종전엔 r.id를 그대로 읽어 /policy/undefined 링크가 생성됨) */
+                  const r: any = typeof raw === 'string' ? (PoliciesBySlug as any)[raw] : raw;
+                  if (!r) return null;
+                  const relHref = `/policy/${r.slug || r.id}`;
+                  return (
+                  <Link href={relHref} key={i} className="related-item">
                     <div className="rel-info">
                       <div style={{ marginBottom: 4 }}>
                         <span className={`badge ${r.cat === '지원금' ? 'badge-fund' : 'badge-refund'}`}>
@@ -706,7 +720,8 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                     </div>
                     <ChevronRight size={16} style={{ color: 'var(--text-muted)', flexShrink: 0 }} />
                   </Link>
-                ))}
+                  );
+                })}
               </section>
             )}
 

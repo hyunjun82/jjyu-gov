@@ -1,5 +1,11 @@
 import { PolicyData, SpokeData } from '@/lib/policy-types';
 
+const EV_INFO = 'https://www.energyv.or.kr/info/support_info.do';
+const EV_APPLY = 'https://www.energyv.or.kr/info/apl_info.do';
+const EV_USE = 'https://www.energyv.or.kr/info/use_info.do';
+const EV_BALANCE = 'https://www.energyv.or.kr/info/balance_inquiry.do';
+const EV_CRITERIA = 'https://www.energyv.or.kr/board/boardList.do?mstBoardId=42';
+
 export const energyVoucherPolicy: PolicyData = {
   id: '137',
   type: 'service',
@@ -8,6 +14,7 @@ export const energyVoucherPolicy: PolicyData = {
   catSlug: 'welfare',
   org: '한국에너지공단 (보건복지부 위탁)',
   title: '에너지바우처 신청방법과 사용처, 전기요금 복지할인 중복여부',
+  titleKeywords: { k1: '에너지바우처', k2: '신청 방법', k3: '요금차감', k4: '국민행복카드' },
   summary:
     '기초생활수급 가구 중 노인·영유아·장애인 등 에너지 취약계층에게 전기·도시가스·등유·LPG·연탄을 구입할 수 있는 에너지이용권(바우처)을 지급하는 제도',
   metaDescription: '에너지바우처 신청방법과 사용처, 전기요금 복지할인 중복여부. 기초생활수급 가구 중 노인·영유아·장애인 등 에너지 취약계층에게 전기·도시가스·등유·LPG·연탄을 구입할 수 있는 에너지이용권(바우처)을 지급하는 제도',
@@ -123,6 +130,7 @@ export const energyVoucherPolicy: PolicyData = {
     {
       q: '누가 받을 수 있나요? (소득기준 + 세대원 특성)',
       anchor: 'eligibility',
+      act: { cue: '기초수급자여도 세대원 특성 기준까지 맞아야 합니다. 두 조건이 함께 걸리는지가 판정을 가릅니다.', label: '지원기준 확인하기', url: EV_CRITERIA },
       intro:
         '에너지바우처를 받으려면 소득기준과 세대원 특성기준을 모두 충족해야 합니다. 소득기준은 기초생활수급자(생계·의료·주거·교육급여 수급자)입니다. 여기에 더해, 주민등록등본상 수급자 본인 또는 세대원 중 노인(1961.12.31 이전 출생)·영유아(2019.01.01 이후 출생)·장애인·임산부·중증질환자·희귀질환자·한부모가족·소년소녀가정·다자녀세대 중 하나 이상에 해당해야 합니다. 단, 보장시설 급여 수급자는 제외됩니다.',
       highlights: [
@@ -152,6 +160,7 @@ export const energyVoucherPolicy: PolicyData = {
     {
       q: '지원금액은 얼마인가요?',
       anchor: 'support-amount',
+      act: { cue: '금액은 가구원 수와 하절기·동절기로 나뉩니다. 내 가구에 배정되는 액수를 알아야 난방 계획이 잡힙니다.', label: '가구별 지원금액 확인하기', url: EV_INFO },
       intro:
         '2026년도 에너지바우처 지원금액은 세대원 수에 따라 차등 지급됩니다. 1인 세대 295,200원, 2인 세대 407,500원, 3인 세대 532,700원, 4인 이상 세대 701,300원입니다. 이 금액은 연간 총 지원금액으로 월별 금액이 아닙니다. 단, 긴급복지 연료비 또는 연탄쿠폰과 중복 신청하는 경우 하절기 분만 지원되며, 1인 세대 40,700원, 2인 58,800원, 3인 75,800원, 4인 이상 102,000원 수준입니다.',
       highlights: [
@@ -176,6 +185,7 @@ export const energyVoucherPolicy: PolicyData = {
     {
       q: '신청기간과 사용기간은 언제인가요?',
       anchor: 'period',
+      act: { cue: '신청은 12월 31일까지, 사용은 2027년 5월 31일까지입니다. 이 두 날짜 중 하나만 놓쳐도 잔액이 사라집니다.', label: '신청기간 확인하기', url: EV_APPLY },
       intro:
         '2026년도 에너지바우처 신청기간은 2026년 6월 15일부터 2026년 12월 31일까지입니다. 사용기간은 2026년 7월 1일부터 2027년 5월 31일까지이며, 동·하절기 구분 없이 사용기간 내 자유롭게 사용할 수 있습니다. 다만 하절기(전기 요금차감)는 2026년 7월~9월, 동절기(실물카드)는 2026년 10월 3일부터 2027년 5월 31일까지, 동절기(가상카드)는 2026년 10월 1일부터 운영됩니다.',
       highlights: [
@@ -201,6 +211,7 @@ export const energyVoucherPolicy: PolicyData = {
     {
       q: '어떻게 사용하나요? (요금차감 vs 국민행복카드)',
       anchor: 'how-to-use',
+      act: { cue: '요금차감과 국민행복카드는 중간에 바꾸기가 번거롭습니다. 내 난방 방식에 맞는 쪽을 처음에 골라야 합니다.', label: '사용방법 확인하기', url: EV_USE },
       intro:
         '에너지바우처는 두 가지 방식으로 사용할 수 있습니다. 첫째, 요금차감(가상카드) 방식은 도시가스·전기·지역난방을 주로 사용하는 가구가 신청하면 다음 달부터 고지서에서 자동으로 차감됩니다. 둘째, 국민행복카드(실물카드) 방식은 등유·LPG·연탄을 구입하는 가구나 전기·도시가스를 카드로 직접 결제하고 싶은 경우 은행·카드사에서 국민행복카드를 발급받아 사용합니다. 한전에 전화(국번없이 123)하거나 도시가스 영업소에 방문·전화·온라인으로 카드 결제가 가능합니다.',
       highlights: [
@@ -224,6 +235,7 @@ export const energyVoucherPolicy: PolicyData = {
     {
       q: '신청 방법은 어떻게 되나요?',
       anchor: 'how-to-apply',
+      act: { cue: '주민센터 방문과 복지로 온라인 둘 다 됩니다. 서류를 미리 알고 가면 한 번에 끝납니다.', label: '에너지바우처 신청하기', url: EV_APPLY },
       intro:
         '에너지바우처 신청은 거주지 읍·면·동 행정복지센터를 방문하여 신청할 수 있습니다. 거동이 불편한 대상자는 친족 등이 대리 신청할 수 있으며, 읍·면·동 담당 공무원이 대상자 본인의 동의(구두 또는 서면) 하에 직권으로 신청할 수도 있습니다. 신청 후 시·군·구에서 행복이음 시스템을 통해 수급자를 선정하고 지원금액을 산정해 통보하며, 카드사에서 국민행복카드를 발급해 배송합니다. 문의는 에너지바우처 통합 상담센터(☎ 1600-3190)로 하시면 됩니다.',
       highlights: [
@@ -248,6 +260,7 @@ export const energyVoucherPolicy: PolicyData = {
     {
       q: '중복 지원 제외 대상과 유의사항',
       anchor: 'exclusions',
+      act: { cue: '남은 금액은 환급도 이월도 되지 않습니다. 종료일 전에 잔액을 확인해 두는 편이 안전합니다.', label: '잔액 조회하기', url: EV_BALANCE },
       intro:
         '에너지바우처를 받을 수 없거나 중복 지원이 제한되는 경우가 있습니다. 세대원 모두가 보장시설에서 급여를 받는 경우에는 신청 대상에서 제외됩니다. 또한 긴급복지지원법에 따른 동절기 연료비 지원을 받은 경우나 한국광해광업공단의 연탄쿠폰을 발급받은 경우, 동절기 에너지바우처와 중복 지원이 불가합니다. 이 경우 하절기 분(1인 40,700원 등)만 지원받을 수 있으며, 읍·면·동에서 에너지바우처를 중지 처리한 후 다른 동절기 에너지이용권을 신청해야 합니다. 또한 국민행복카드는 본인이 소지·사용해야 하며 타인에게 양도·대여가 금지됩니다.',
       highlights: [

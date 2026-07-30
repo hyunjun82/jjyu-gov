@@ -160,6 +160,16 @@ img { max-width: 100%; display: block; }
 }
 
 /* ── QA 카드마다 자동 노출되는 행동 버튼 (풀와이드, 큰 터치 타겟 — moneydoc 스타일) ── */
+.qa-cta-cue {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.55;
+  color: var(--gov-primary, #003D88);
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
 .qa-inline-cta {
   display: flex;
   align-items: center;
