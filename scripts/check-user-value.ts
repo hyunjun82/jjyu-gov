@@ -30,7 +30,7 @@ import { execSync } from 'child_process';
 const DIR = 'data/policies';
 
 /** 행동 동사 — 사용자가 "누를 수 있는" 동작만. '안내·소개·정보'는 행동이 아니다. */
-const ACTION = /신청|조회|발급|다운로드|접수|확인|계산|신고|받기|찾기|가입|등록|제출|예약|납부|청구|개설|해지|변경|연장|재발급|검색|열람|입찰/;
+const ACTION = /신청|조회|발급|다운로드|접수|확인|계산|신고|받기|찾기|가입|등록|제출|예약|납부|청구|개설|해지|변경|연장|재발급|검색|열람|입찰|예매/;
 
 /** 기관 메인으로 판정할 경로 (딥링크가 아님) */
 const ROOT_PATHS = new Set(['', '/', '/index.do', '/main.do', '/index.jsp', '/main.jsp', '/index.html']);
