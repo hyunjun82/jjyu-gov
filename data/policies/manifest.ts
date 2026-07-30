@@ -88,6 +88,7 @@ import { vacantHousePolicy, vacantHouseSpokes } from './vacant-house';
 import { siheungNewlywedJeonseInterestPolicy, siheungNewlywedJeonseInterestSpokes } from './siheung-newlywed-jeonse-interest';
 import { integratedCareerCertificatePolicy, integratedCareerCertificateSpokes } from './integrated-career-certificate';
 import { newStartFundPolicy, newStartFundSpokes } from './new-start-fund';
+import { waterbombBusanPolicy, waterbombBusanSpokes } from './waterbomb-busan';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -832,6 +833,7 @@ export const PoliciesById: Record<string, any> = {
   '659': siheungNewlywedJeonseInterestPolicy,
   '660': integratedCareerCertificatePolicy,
   '661': newStartFundPolicy,
+  '662': waterbombBusanPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1483,6 +1485,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'siheung-newlywed-jeonse-interest': siheungNewlywedJeonseInterestPolicy,
   'integrated-career-certificate': integratedCareerCertificatePolicy,
   'new-start-fund': newStartFundPolicy,
+  'waterbomb-busan': waterbombBusanPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2174,6 +2177,7 @@ export const SpokesById: Record<string, any[]> = {
   '659': siheungNewlywedJeonseInterestSpokes,
   '660': integratedCareerCertificateSpokes,
   '661': newStartFundSpokes,
+  '662': waterbombBusanSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2825,6 +2829,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'siheung-newlywed-jeonse-interest': siheungNewlywedJeonseInterestSpokes,
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'new-start-fund': newStartFundSpokes,
+  'waterbomb-busan': waterbombBusanSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
