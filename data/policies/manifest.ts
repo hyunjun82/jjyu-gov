@@ -90,6 +90,7 @@ import { integratedCareerCertificatePolicy, integratedCareerCertificateSpokes } 
 import { newStartFundPolicy, newStartFundSpokes } from './new-start-fund';
 import { waterbombBusanPolicy, waterbombBusanSpokes } from './waterbomb-busan';
 import { surnameChangeReportPolicy, surnameChangeReportSpokes } from './surname-change-report';
+import { fullAdoptionReportPolicy, fullAdoptionReportSpokes } from './full-adoption-report';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -836,6 +837,7 @@ export const PoliciesById: Record<string, any> = {
   '661': newStartFundPolicy,
   '662': waterbombBusanPolicy,
   '663': surnameChangeReportPolicy,
+  '664': fullAdoptionReportPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1489,6 +1491,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'new-start-fund': newStartFundPolicy,
   'waterbomb-busan': waterbombBusanPolicy,
   'surname-change-report': surnameChangeReportPolicy,
+  'full-adoption-report': fullAdoptionReportPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2182,6 +2185,7 @@ export const SpokesById: Record<string, any[]> = {
   '661': newStartFundSpokes,
   '662': waterbombBusanSpokes,
   '663': surnameChangeReportSpokes,
+  '664': fullAdoptionReportSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2835,6 +2839,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'new-start-fund': newStartFundSpokes,
   'waterbomb-busan': waterbombBusanSpokes,
   'surname-change-report': surnameChangeReportSpokes,
+  'full-adoption-report': fullAdoptionReportSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
