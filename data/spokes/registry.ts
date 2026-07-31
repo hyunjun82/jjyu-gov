@@ -675,6 +675,15 @@ import { 정책자금대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 소상공인정책자금사업계획서SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/사업계획서';
 import { 소상공인정책자금직접대출대리대출SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/직접대출대리대출';
 import { 소상공인정책자금지원대상확인서SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/지원대상확인서';
+
+/* ── 근로자 생활안정자금 이차보전 (slug: worker-livelihood-interest-subsidy) ── */
+import { 근로자생활안정자금혼례비SpokeContent } from '@/app/policy/[id]/[spoke]/content/근로자생활안정자금/혼례비';
+
+/* ── HUG 전세보증금반환보증 (slug: hug-jeonse-deposit-guarantee) ── */
+import { 전세보증금반환보증보증료SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세보증금반환보증/보증료';
+
+/* ── 체불근로자 생계비 융자 (slug: worker-wage-arrears-loan) ── */
+import { 체불근로자생계비대지급금비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/체불근로자생계비/대지급금비교';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2228,6 +2237,18 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'business-plan-form': 소상공인정책자금사업계획서SpokeContent,
     'direct-vs-agency-loan': 소상공인정책자금직접대출대리대출SpokeContent,
     'eligibility-certificate': 소상공인정책자금지원대상확인서SpokeContent,
+  },
+
+  'worker-livelihood-interest-subsidy': {
+    'wedding-loan': 근로자생활안정자금혼례비SpokeContent,
+  },
+
+  'hug-jeonse-deposit-guarantee': {
+    'guarantee-fee': 전세보증금반환보증보증료SpokeContent,
+  },
+
+  'worker-wage-arrears-loan': {
+    'wage-subsidy-compare': 체불근로자생계비대지급금비교SpokeContent,
   },
 
   'youth-monthly-rent': {

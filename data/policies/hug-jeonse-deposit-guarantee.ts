@@ -211,4 +211,6 @@ export const hugJeonseDepositGuaranteePolicy = {
   related: ['jeonse-fraud-victim', 'jeonse-protection'],
 };
 
-export const hugJeonseDepositGuaranteeSpokes: never[] = [];
+export const hugJeonseDepositGuaranteeSpokes = [
+  { slug: 'guarantee-fee', role: 'amount', title: '전세보증금반환보증 보증료 계산하니 얼마, 60% 깎이는 조건은?', content: '보증금액×요율×기간/365, 연 0.097~0.211%, 연소득 5천만원 이하 60% 할인.' },
+];

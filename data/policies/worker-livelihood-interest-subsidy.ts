@@ -212,4 +212,6 @@ export const workerLivelihoodInterestSubsidyPolicy = {
   related: ['worker-wage-arrears-loan', 'sunshine-loan-general'],
 };
 
-export const workerLivelihoodInterestSubsidySpokes: never[] = [];
+export const workerLivelihoodInterestSubsidySpokes = [
+  { slug: 'wedding-loan', role: 'amount', title: '혼례비 대출 2천만원, 혼인신고 3년 안에 신청하는 조건', content: '혼례비 2,000만원 범위, 혼인신고일부터 3년 이내, 월소득 536만원 이하.' },
+];

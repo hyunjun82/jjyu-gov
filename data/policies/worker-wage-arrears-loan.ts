@@ -210,4 +210,6 @@ export const workerWageArrearsLoanPolicy = {
   related: ['worker-livelihood-interest-subsidy', 'vocational-training-livelihood-loan'],
 };
 
-export const workerWageArrearsLoanSpokes: never[] = [];
+export const workerWageArrearsLoanSpokes = [
+  { slug: 'wage-subsidy-compare', role: 'usage', title: '체불 생계비 융자와 대지급금, 뭘 먼저 신청해야 하나', content: '융자는 갚는 돈, 간이대지급금은 국가가 대신 지급. 증빙은 셋 중 하나.' },
+];
