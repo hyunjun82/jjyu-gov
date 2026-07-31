@@ -104,6 +104,11 @@ import { emergencyManagementFundPolicy, emergencyManagementFundSpokes } from './
 import { generalManagementStabilityFundPolicy, generalManagementStabilityFundSpokes } from './general-management-stability-fund';
 import { disabledBizSupportFundPolicy, disabledBizSupportFundSpokes } from './disabled-biz-support-fund';
 import { winWinGrowthFundPolicy, winWinGrowthFundSpokes } from './win-win-growth-fund';
+import { workerLivelihoodInterestSubsidyPolicy, workerLivelihoodInterestSubsidySpokes } from './worker-livelihood-interest-subsidy';
+import { workerWageArrearsLoanPolicy, workerWageArrearsLoanSpokes } from './worker-wage-arrears-loan';
+import { hugJeonseDepositGuaranteePolicy, hugJeonseDepositGuaranteeSpokes } from './hug-jeonse-deposit-guarantee';
+import { newHopeHolssiPolicy, newHopeHolssiSpokes } from './new-hope-holssi';
+import { steppingStoneLoanPolicy, steppingStoneLoanSpokes } from './stepping-stone-loan';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -864,6 +869,11 @@ export const PoliciesById: Record<string, any> = {
   '675': generalManagementStabilityFundPolicy,
   '676': disabledBizSupportFundPolicy,
   '677': winWinGrowthFundPolicy,
+  '678': workerLivelihoodInterestSubsidyPolicy,
+  '679': workerWageArrearsLoanPolicy,
+  '680': hugJeonseDepositGuaranteePolicy,
+  '681': newHopeHolssiPolicy,
+  '682': steppingStoneLoanPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1531,6 +1541,11 @@ export const PoliciesBySlug: Record<string, any> = {
   'general-management-stability-fund': generalManagementStabilityFundPolicy,
   'disabled-biz-support-fund': disabledBizSupportFundPolicy,
   'win-win-growth-fund': winWinGrowthFundPolicy,
+  'worker-livelihood-interest-subsidy': workerLivelihoodInterestSubsidyPolicy,
+  'worker-wage-arrears-loan': workerWageArrearsLoanPolicy,
+  'hug-jeonse-deposit-guarantee': hugJeonseDepositGuaranteePolicy,
+  'new-hope-holssi': newHopeHolssiPolicy,
+  'stepping-stone-loan': steppingStoneLoanPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2238,6 +2253,11 @@ export const SpokesById: Record<string, any[]> = {
   '675': generalManagementStabilityFundSpokes,
   '676': disabledBizSupportFundSpokes,
   '677': winWinGrowthFundSpokes,
+  '678': workerLivelihoodInterestSubsidySpokes,
+  '679': workerWageArrearsLoanSpokes,
+  '680': hugJeonseDepositGuaranteeSpokes,
+  '681': newHopeHolssiSpokes,
+  '682': steppingStoneLoanSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2905,6 +2925,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'general-management-stability-fund': generalManagementStabilityFundSpokes,
   'disabled-biz-support-fund': disabledBizSupportFundSpokes,
   'win-win-growth-fund': winWinGrowthFundSpokes,
+  'worker-livelihood-interest-subsidy': workerLivelihoodInterestSubsidySpokes,
+  'worker-wage-arrears-loan': workerWageArrearsLoanSpokes,
+  'hug-jeonse-deposit-guarantee': hugJeonseDepositGuaranteeSpokes,
+  'new-hope-holssi': newHopeHolssiSpokes,
+  'stepping-stone-loan': steppingStoneLoanSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
