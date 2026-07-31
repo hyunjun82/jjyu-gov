@@ -37,6 +37,9 @@ export interface SpokeQAItem {
   box?: { label?: string; title?: string; content: string };
   box2?: { label?: string; title?: string; content: string };
   list?: string[];
+  /* 버튼 앞 한 줄(누를 이유). 스포크 버튼의 목적지·문구는 허브로 고정되므로
+     label·url은 쓰지 않는다(허브 PolicyData와 필드명을 맞추기 위해 옵셔널로만 둔다). */
+  act?: { cue?: string; label?: string; url?: string };
 }
 
 export interface SpokeData {
