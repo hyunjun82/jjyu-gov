@@ -690,6 +690,9 @@ import { 신용취약소상공인자금정책우선도평가SpokeContent } from 
 
 /* ── 청년고용연계자금 (slug: youth-employment-linked-fund) ── */
 import { 청년고용연계자금지원대상확인서SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년고용연계자금/지원대상확인서';
+
+/* ── 혁신성장촉진자금 (slug: innovation-growth-fund) ── */
+import { 혁신성장촉진자금8월10일접수SpokeContent } from '@/app/policy/[id]/[spoke]/content/혁신성장촉진자금/8월10일접수';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2263,6 +2266,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'youth-employment-linked-fund': {
     'eligibility-certificate': 청년고용연계자금지원대상확인서SpokeContent,
+  },
+
+  'innovation-growth-fund': {
+    'august-application': 혁신성장촉진자금8월10일접수SpokeContent,
   },
 
   'youth-monthly-rent': {

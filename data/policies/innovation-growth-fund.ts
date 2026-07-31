@@ -198,4 +198,6 @@ export const innovationGrowthFundPolicy = {
   related: ['small-biz-policy-fund', 'credit-weak-smallbiz-fund'],
 };
 
-export const innovationGrowthFundSpokes: never[] = [];
+export const innovationGrowthFundSpokes = [
+  { slug: 'august-application', role: 'apply', title: '혁신성장촉진자금 8월 10일 하루만 신청, 뭘 준비해 두나', content: '선착순 폐지·정책우선도 평가, 홀짝제 없음, 시설자금은 센터 방문 선착순.' },
+];
