@@ -705,6 +705,9 @@ import { 긴급경영안정자금재해확인증SpokeContent } from '@/app/polic
 
 /* ── 일반경영안정자금 (slug: general-management-stability-fund) ── */
 import { 일반경영안정자금업력무관SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반경영안정자금/업력무관';
+
+/* ── 장애인기업지원자금 (slug: disabled-biz-support-fund) ── */
+import { 장애인기업지원자금인정서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인기업지원자금/인정서류';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2298,6 +2301,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'general-management-stability-fund': {
     'no-business-age-limit': 일반경영안정자금업력무관SpokeContent,
+  },
+
+  'disabled-biz-support-fund': {
+    'accepted-documents': 장애인기업지원자금인정서류SpokeContent,
   },
 
   'youth-monthly-rent': {

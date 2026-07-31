@@ -209,4 +209,6 @@ export const disabledBizSupportFundPolicy = {
   related: ['small-biz-policy-fund', 'general-management-stability-fund'],
 };
 
-export const disabledBizSupportFundSpokes: never[] = [];
+export const disabledBizSupportFundSpokes = [
+  { slug: 'accepted-documents', role: 'eligibility', title: '복지카드 없어도 되나, 장애인기업지원자금 인정 서류 확인하기', content: '복지카드·국가유공자 증서·국가보훈등록증·장애인기업확인서 4종 인정.' },
+];
