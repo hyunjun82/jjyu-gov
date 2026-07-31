@@ -204,4 +204,6 @@ export const generalManagementStabilityFundPolicy = {
   related: ['small-biz-policy-fund', 'small-manufacturer-fund'],
 };
 
-export const generalManagementStabilityFundSpokes: never[] = [];
+export const generalManagementStabilityFundSpokes = [
+  { slug: 'no-business-age-limit', role: 'eligibility', title: '일반경영안정자금 업력 무관인데 왜 거절되나, 제외 사유 확인하기', content: '공통 자격·제외 업종·체납·신용정보 제한, 대리대출이라 은행 심사 별도.' },
+];

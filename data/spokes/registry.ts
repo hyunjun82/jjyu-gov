@@ -702,6 +702,9 @@ import { 소공인특화자금운전시설구분SpokeContent } from '@/app/polic
 
 /* ── 긴급경영안정자금 (slug: emergency-management-fund) ── */
 import { 긴급경영안정자금재해확인증SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급경영안정자금/재해확인증';
+
+/* ── 일반경영안정자금 (slug: general-management-stability-fund) ── */
+import { 일반경영안정자금업력무관SpokeContent } from '@/app/policy/[id]/[spoke]/content/일반경영안정자금/업력무관';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2291,6 +2294,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'emergency-management-fund': {
     'disaster-certificate': 긴급경영안정자금재해확인증SpokeContent,
+  },
+
+  'general-management-stability-fund': {
+    'no-business-age-limit': 일반경영안정자금업력무관SpokeContent,
   },
 
   'youth-monthly-rent': {
