@@ -711,6 +711,9 @@ import { 장애인기업지원자금인정서류SpokeContent } from '@/app/polic
 
 /* ── 상생성장지원자금 (slug: win-win-growth-fund) ── */
 import { 상생성장지원자금플랫폼추천SpokeContent } from '@/app/policy/[id]/[spoke]/content/상생성장지원자금/플랫폼추천';
+
+/* ── 새희망홀씨 II (slug: new-hope-holssi) ── */
+import { 새희망홀씨은행선택SpokeContent } from '@/app/policy/[id]/[spoke]/content/새희망홀씨/은행선택';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2312,6 +2315,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'win-win-growth-fund': {
     'platform-recommendation': 상생성장지원자금플랫폼추천SpokeContent,
+  },
+
+  'new-hope-holssi': {
+    'bank-choice': 새희망홀씨은행선택SpokeContent,
   },
 
   'youth-monthly-rent': {

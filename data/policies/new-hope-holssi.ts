@@ -210,4 +210,6 @@ export const newHopeHolssiPolicy = {
   related: ['sunshine-loan-bank', 'sunshine-loan-special'],
 };
 
-export const newHopeHolssiSpokes: never[] = [];
+export const newHopeHolssiSpokes = [
+  { slug: 'bank-choice', role: 'apply', title: '새희망홀씨 은행 14곳 중 어디에 신청해야 하나', content: '은행 자체 재원이라 금리·심사 기준 상이. 동시 신청은 조회 이력 누적.' },
+];
