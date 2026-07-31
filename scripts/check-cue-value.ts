@@ -211,12 +211,64 @@ if (all) {
     .filter((l) => l.endsWith('.ts') && !l.endsWith('manifest.ts') && fs.existsSync(l));
 }
 
+/* ── 스포크 버튼 슬롯 검사 ──────────────────────────────
+   SpokeClient 는 [...new Set([2, 4, qa.length - 1])] 세 자리에만 버튼을 렌더링한다.
+   그 자리에 act.cue 가 없으면 문구 없는 버튼이 그대로 노출된다.
+   허브만 보던 이 게이트가 못 잡아 2026-07-31 스포크 7곳이 그 상태로 통과했다. */
+const SPOKE_ROOT = 'app/policy/[id]/[spoke]/content';
+
+function allSpokes(): string[] {
+  const out: string[] = [];
+  const walk = (d: string) => {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const q = path.join(d, e.name);
+      if (e.isDirectory()) walk(q);
+      else if (e.name.endsWith('.tsx')) out.push(q);
+    }
+  };
+  if (fs.existsSync(SPOKE_ROOT)) walk(SPOKE_ROOT);
+  return out;
+}
+
+function checkSpokeSlots(file: string): string[] {
+  const src = fs.readFileSync(file, 'utf8');
+  const anchors = [...src.matchAll(/anchor: '([^']+)'/g)].map((m) => m[1]);
+  if (anchors.length < 3) return [];
+  const hasAct = anchors.map((a, i) => {
+    const st = src.indexOf("anchor: '" + a + "'");
+    const en = i + 1 < anchors.length ? src.indexOf("anchor: '" + anchors[i + 1] + "'") : src.length;
+    return src.slice(st, en).includes('act:');
+  });
+  const slots = [...new Set([2, 4, anchors.length - 1])].filter((i) => i >= 0 && i < anchors.length);
+  return slots.filter((i) => !hasAct[i]).map((i) => (i + 1) + '번째 카드(' + anchors[i] + ')');
+}
+
+let spokeTargets: string[];
+if (all) {
+  spokeTargets = allSpokes();
+} else {
+  let sdiff = '';
+  try {
+    sdiff = execSync('git diff --name-only origin/main...HEAD -- "' + SPOKE_ROOT + '"', { encoding: 'utf8' });
+  } catch {
+    try {
+      sdiff = execSync('git diff --name-only HEAD~1 -- "' + SPOKE_ROOT + '"', { encoding: 'utf8' });
+    } catch {
+      sdiff = '';
+    }
+  }
+  spokeTargets = sdiff
+    .split(String.fromCharCode(10))
+    .map((l) => l.trim())
+    .filter((l) => l.endsWith('.tsx') && fs.existsSync(l));
+}
+
 // ── 실행 ────────────────────────────────────────────────
 console.log('='.repeat(60));
 console.log(' 문구·버튼 검사 — 누를 이유가 버튼 앞에 있는가');
 console.log('='.repeat(60));
 
-if (!targets.length) {
+if (!targets.length && !spokeTargets.length) {
   console.log(' 변경된 허브 없음 — 검사 생략');
   process.exit(0);
 }
@@ -243,12 +295,13 @@ const AXIS = {
   D: '딥링크 아님',
   E: '어미 반복',
   F: '라벨 정보형',
+  G: '버튼 슬롯 빈 문구',
 } as const;
 
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -268,10 +321,24 @@ for (const f of targets) {
   }
 }
 
-console.log(`\n검사 ${targets.length}개 / 문제 ${failed}개`);
+let spokeFailed = 0;
+for (const sf of spokeTargets) {
+  const miss = checkSpokeSlots(sf);
+  if (!miss.length) continue;
+  spokeFailed++;
+  count.G += miss.length;
+  if (!all) {
+    console.log('');
+    console.log('❌ ' + path.basename(sf, '.tsx') + ' (스포크)');
+    console.log('   [' + AXIS.G + '] 버튼이 뜨는 자리에 문구가 없음: ' + miss.join(', '));
+    console.log('      → 스포크는 2·4·마지막 카드에만 버튼이 렌더링된다. 그 카드에 act:{cue,label,url} 을 넣는다');
+  }
+}
+
+console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}`,
 );
 
 if (all) {
@@ -279,9 +346,9 @@ if (all) {
   process.exit(0);
 }
 
-if (failed) {
+if (failed || spokeFailed) {
   console.log('\n' + '='.repeat(60));
-  console.log(` 문구·버튼 기준 미달 ${failed}개 — push 차단`);
+  console.log(` 문구·버튼 기준 미달 ${failed + spokeFailed}개 — push 차단`);
   console.log(' 버튼만 놓으면 아무도 안 누른다. 누를 이유를 버튼 바로 위에 둔다.');
   console.log('='.repeat(60));
   process.exit(1);
