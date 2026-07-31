@@ -204,4 +204,6 @@ export const steppingStoneLoanPolicy = {
   related: ['new-hope-holssi', 'sunshine-loan-bank'],
 };
 
-export const steppingStoneLoanSpokes: never[] = [];
+export const steppingStoneLoanSpokes = [
+  { slug: 'pre-application', role: 'apply', title: '징검다리론 은행 가기 전에 잇다에서 사전신청부터', content: '잇다 앱 자격확인→사전신청→은행 신청→심사. 유효기간 지나면 재조회.' },
+];
