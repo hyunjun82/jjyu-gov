@@ -213,4 +213,6 @@ export const smallManufacturerFundPolicy = {
   related: ['small-biz-policy-fund', 'innovation-growth-fund'],
 };
 
-export const smallManufacturerFundSpokes: never[] = [];
+export const smallManufacturerFundSpokes = [
+  { slug: 'working-vs-facility', role: 'usage', title: '소공인특화자금 운전이냐 시설이냐, 어느 쪽으로 신청해야 하나', content: '운전 1억·5년(거치2), 시설 5억·8년(거치3), 금리는 동일. 용도 외 사용은 회수.' },
+];
