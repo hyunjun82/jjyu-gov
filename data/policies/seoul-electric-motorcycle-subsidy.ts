@@ -91,7 +91,7 @@ export const seoulElectricMotorcycleSubsidyPolicy = {
       sourceNote: '* 출처: 서울특별시 공고 제2026-2198호',
       act: {
         cue: '경형이냐 대형이냐에 따라 받는 돈이 크게 갈립니다. 300만원은 최고액일 뿐이라, 내가 점찍은 모델이 표의 어느 칸에 있는지는 공고문 PDF를 열어야 나옵니다.',
-        label: '공고문 PDF에서 차종별 금액 보기',
+        label: '공고문 PDF 내려받아 내 차종 찾기',
         url: NOTICE_PDF,
       },
     },
@@ -112,7 +112,7 @@ export const seoulElectricMotorcycleSubsidyPolicy = {
       sourceNote: '* 출처: 무공해차 통합누리집 · 서울특별시 공고',
       act: {
         cue: '가격할인 업체 모델을 고르면 보조금 300만원 위에 구매가가 한 번 더 깎입니다. 같은 날 나온 가격할인 공고에 어느 업체가 들어왔는지 먼저 보고 판매점을 정하는 편이 이득입니다.',
-        label: '가격할인 참여 업체 공고 보기',
+        label: '가격할인 참여 업체 확인하기',
         url: SEOUL_DISCOUNT,
       },
     },

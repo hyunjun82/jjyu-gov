@@ -95,6 +95,12 @@ import { missingPersonDeclarationPolicy, missingPersonDeclarationSpokes } from '
 import { waterbombSokchoPolicy, waterbombSokchoSpokes } from './waterbomb-sokcho';
 import { lhApplyPlusPolicy, lhApplyPlusSpokes } from './lh-apply-plus';
 import { smallBizRefinanceLoanPolicy, smallBizRefinanceLoanSpokes } from './small-biz-refinance-loan';
+import { creditWeakSmallbizFundPolicy, creditWeakSmallbizFundSpokes } from './credit-weak-smallbiz-fund';
+import { innovationGrowthFundPolicy, innovationGrowthFundSpokes } from './innovation-growth-fund';
+import { youthEmploymentLinkedFundPolicy, youthEmploymentLinkedFundSpokes } from './youth-employment-linked-fund';
+import { smallManufacturerFundPolicy, smallManufacturerFundSpokes } from './small-manufacturer-fund';
+import { restartSpecialFundPolicy, restartSpecialFundSpokes } from './restart-special-fund';
+import { emergencyManagementFundPolicy, emergencyManagementFundSpokes } from './emergency-management-fund';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -846,6 +852,12 @@ export const PoliciesById: Record<string, any> = {
   '666': waterbombSokchoPolicy,
   '667': lhApplyPlusPolicy,
   '668': smallBizRefinanceLoanPolicy,
+  '669': creditWeakSmallbizFundPolicy,
+  '670': innovationGrowthFundPolicy,
+  '671': youthEmploymentLinkedFundPolicy,
+  '672': smallManufacturerFundPolicy,
+  '673': restartSpecialFundPolicy,
+  '674': emergencyManagementFundPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1504,6 +1516,12 @@ export const PoliciesBySlug: Record<string, any> = {
   'waterbomb-sokcho': waterbombSokchoPolicy,
   'lh-apply-plus': lhApplyPlusPolicy,
   'small-biz-refinance-loan': smallBizRefinanceLoanPolicy,
+  'credit-weak-smallbiz-fund': creditWeakSmallbizFundPolicy,
+  'innovation-growth-fund': innovationGrowthFundPolicy,
+  'youth-employment-linked-fund': youthEmploymentLinkedFundPolicy,
+  'small-manufacturer-fund': smallManufacturerFundPolicy,
+  'restart-special-fund': restartSpecialFundPolicy,
+  'emergency-management-fund': emergencyManagementFundPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2202,6 +2220,12 @@ export const SpokesById: Record<string, any[]> = {
   '666': waterbombSokchoSpokes,
   '667': lhApplyPlusSpokes,
   '668': smallBizRefinanceLoanSpokes,
+  '669': creditWeakSmallbizFundSpokes,
+  '670': innovationGrowthFundSpokes,
+  '671': youthEmploymentLinkedFundSpokes,
+  '672': smallManufacturerFundSpokes,
+  '673': restartSpecialFundSpokes,
+  '674': emergencyManagementFundSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2860,6 +2884,12 @@ export const SpokesBySlug: Record<string, any[]> = {
   'waterbomb-sokcho': waterbombSokchoSpokes,
   'lh-apply-plus': lhApplyPlusSpokes,
   'small-biz-refinance-loan': smallBizRefinanceLoanSpokes,
+  'credit-weak-smallbiz-fund': creditWeakSmallbizFundSpokes,
+  'innovation-growth-fund': innovationGrowthFundSpokes,
+  'youth-employment-linked-fund': youthEmploymentLinkedFundSpokes,
+  'small-manufacturer-fund': smallManufacturerFundSpokes,
+  'restart-special-fund': restartSpecialFundSpokes,
+  'emergency-management-fund': emergencyManagementFundSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
