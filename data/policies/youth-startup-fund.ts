@@ -209,4 +209,6 @@ export const youthStartupFundPolicy = {
   related: ['small-biz-policy-fund', 'youth-employment-linked-fund'],
 };
 
-export const youthStartupFundSpokes: never[] = [];
+export const youthStartupFundSpokes = [
+  { slug: 'evaluation-committee', role: 'apply', title: '청년전용창업자금 평가위원회 뚫으려면 뭘 준비해 신청하나', content: '선착순 아님. 발표·서면 평가위원회로 결정, 고정 2.5%·1억원.' },
+];

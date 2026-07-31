@@ -717,6 +717,9 @@ import { 새희망홀씨은행선택SpokeContent } from '@/app/policy/[id]/[spok
 
 /* ── 징검다리론 (slug: stepping-stone-loan) ── */
 import { 징검다리론사전신청절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/징검다리론/사전신청절차';
+
+/* ── 청년전용창업자금 (slug: youth-startup-fund) ── */
+import { 청년전용창업자금평가위원회SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년전용창업자금/평가위원회';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2326,6 +2329,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'stepping-stone-loan': {
     'pre-application': 징검다리론사전신청절차SpokeContent,
+  },
+
+  'youth-startup-fund': {
+    'evaluation-committee': 청년전용창업자금평가위원회SpokeContent,
   },
 
   'youth-monthly-rent': {
