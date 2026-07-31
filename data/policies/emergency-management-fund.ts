@@ -209,4 +209,6 @@ export const emergencyManagementFundPolicy = {
   related: ['small-biz-policy-fund', 'small-manufacturer-fund'],
 };
 
-export const emergencyManagementFundSpokes: never[] = [];
+export const emergencyManagementFundSpokes = [
+  { slug: 'disaster-certificate', role: 'apply', title: '재해 중소기업 확인증 어디서 발급받고 고정 2%로 신청하나', content: '지자체 발급, 복구 전 사진 확보, 고정 2.00%·1억원. 확인증과 지원대상 확인서는 별개.' },
+];

@@ -699,6 +699,9 @@ import { 재도전특별자금재창업교육SpokeContent } from '@/app/policy/[
 
 /* ── 소공인특화자금 (slug: small-manufacturer-fund) ── */
 import { 소공인특화자금운전시설구분SpokeContent } from '@/app/policy/[id]/[spoke]/content/소공인특화자금/운전시설구분';
+
+/* ── 긴급경영안정자금 (slug: emergency-management-fund) ── */
+import { 긴급경영안정자금재해확인증SpokeContent } from '@/app/policy/[id]/[spoke]/content/긴급경영안정자금/재해확인증';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2284,6 +2287,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'small-manufacturer-fund': {
     'working-vs-facility': 소공인특화자금운전시설구분SpokeContent,
+  },
+
+  'emergency-management-fund': {
+    'disaster-certificate': 긴급경영안정자금재해확인증SpokeContent,
   },
 
   'youth-monthly-rent': {
