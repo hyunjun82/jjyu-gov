@@ -204,4 +204,6 @@ export const winWinGrowthFundPolicy = {
   related: ['small-biz-policy-fund', 'innovation-growth-fund'],
 };
 
-export const winWinGrowthFundSpokes: never[] = [];
+export const winWinGrowthFundSpokes = [
+  { slug: 'platform-recommendation', role: 'eligibility', title: '상생성장지원자금 추천 어디서 받나, 우체국쇼핑만 남은 이유 확인하기', content: '2026 협약 플랫폼 우체국쇼핑, 네이버 5월 종료(기 추천자 유효), TOPS는 추천 불필요.' },
+];
