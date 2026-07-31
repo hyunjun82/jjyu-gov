@@ -94,6 +94,7 @@ import { fullAdoptionReportPolicy, fullAdoptionReportSpokes } from './full-adopt
 import { missingPersonDeclarationPolicy, missingPersonDeclarationSpokes } from './missing-person-declaration';
 import { waterbombSokchoPolicy, waterbombSokchoSpokes } from './waterbomb-sokcho';
 import { lhApplyPlusPolicy, lhApplyPlusSpokes } from './lh-apply-plus';
+import { smallBizRefinanceLoanPolicy, smallBizRefinanceLoanSpokes } from './small-biz-refinance-loan';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -844,6 +845,7 @@ export const PoliciesById: Record<string, any> = {
   '665': missingPersonDeclarationPolicy,
   '666': waterbombSokchoPolicy,
   '667': lhApplyPlusPolicy,
+  '668': smallBizRefinanceLoanPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1501,6 +1503,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'missing-person-declaration': missingPersonDeclarationPolicy,
   'waterbomb-sokcho': waterbombSokchoPolicy,
   'lh-apply-plus': lhApplyPlusPolicy,
+  'small-biz-refinance-loan': smallBizRefinanceLoanPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2198,6 +2201,7 @@ export const SpokesById: Record<string, any[]> = {
   '665': missingPersonDeclarationSpokes,
   '666': waterbombSokchoSpokes,
   '667': lhApplyPlusSpokes,
+  '668': smallBizRefinanceLoanSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2855,6 +2859,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'missing-person-declaration': missingPersonDeclarationSpokes,
   'waterbomb-sokcho': waterbombSokchoSpokes,
   'lh-apply-plus': lhApplyPlusSpokes,
+  'small-biz-refinance-loan': smallBizRefinanceLoanSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
