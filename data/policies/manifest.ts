@@ -92,6 +92,7 @@ import { waterbombBusanPolicy, waterbombBusanSpokes } from './waterbomb-busan';
 import { surnameChangeReportPolicy, surnameChangeReportSpokes } from './surname-change-report';
 import { fullAdoptionReportPolicy, fullAdoptionReportSpokes } from './full-adoption-report';
 import { missingPersonDeclarationPolicy, missingPersonDeclarationSpokes } from './missing-person-declaration';
+import { waterbombSokchoPolicy, waterbombSokchoSpokes } from './waterbomb-sokcho';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -840,6 +841,7 @@ export const PoliciesById: Record<string, any> = {
   '663': surnameChangeReportPolicy,
   '664': fullAdoptionReportPolicy,
   '665': missingPersonDeclarationPolicy,
+  '666': waterbombSokchoPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1495,6 +1497,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'surname-change-report': surnameChangeReportPolicy,
   'full-adoption-report': fullAdoptionReportPolicy,
   'missing-person-declaration': missingPersonDeclarationPolicy,
+  'waterbomb-sokcho': waterbombSokchoPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2190,6 +2193,7 @@ export const SpokesById: Record<string, any[]> = {
   '663': surnameChangeReportSpokes,
   '664': fullAdoptionReportSpokes,
   '665': missingPersonDeclarationSpokes,
+  '666': waterbombSokchoSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2845,6 +2849,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'surname-change-report': surnameChangeReportSpokes,
   'full-adoption-report': fullAdoptionReportSpokes,
   'missing-person-declaration': missingPersonDeclarationSpokes,
+  'waterbomb-sokcho': waterbombSokchoSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
