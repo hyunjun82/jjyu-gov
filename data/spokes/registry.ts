@@ -1016,6 +1016,7 @@ import { 공공분양주택공공분양당첨후계약입주일정절차SpokeCon
 
 /* ── 국가장학금 (slug: national-scholar) ── */
 import { 국가장학금국가장학금2차신청기간2026SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금2차신청기간2026';
+import { 국가장학금2차구제신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/2차구제신청';
 import { 국가장학금국가장학금소득분위지급금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금소득분위지급금액';
 import { 국가장학금국가장학금F학점성적기준미달SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금F학점성적기준미달';
 import { 국가장학금국가장학금지급일통장입금시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/국가장학금지급일통장입금시기';
@@ -2517,6 +2518,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'national-scholar': {
     '국가장학금2차신청기간2026':     국가장학금국가장학금2차신청기간2026SpokeContent,
+    '2차구제신청':                 국가장학금2차구제신청SpokeContent,
     '국가장학금소득분위지급금액':    국가장학금국가장학금소득분위지급금액SpokeContent,
     '국가장학금F학점성적기준미달':   국가장학금국가장학금F학점성적기준미달SpokeContent,
     '국가장학금지급일통장입금시기':  국가장학금국가장학금지급일통장입금시기SpokeContent,
