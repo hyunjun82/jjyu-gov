@@ -210,4 +210,6 @@ export const creditWeakSmallbizFundPolicy = {
   related: ['small-biz-policy-fund', 'small-biz-refinance-loan'],
 };
 
-export const creditWeakSmallbizFundSpokes: never[] = [];
+export const creditWeakSmallbizFundSpokes = [
+  { slug: 'priority-evaluation', role: 'apply', title: '신용취약소상공인자금 승인은 언제 나나, 정책우선도 평가 순서 확인하기', content: '선착순 아님. 전체 접수 후 평가→선정→서류 제출→최종 접수→심사.' },
+];

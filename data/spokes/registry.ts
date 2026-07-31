@@ -684,6 +684,9 @@ import { 전세보증금반환보증보증료SpokeContent } from '@/app/policy/[
 
 /* ── 체불근로자 생계비 융자 (slug: worker-wage-arrears-loan) ── */
 import { 체불근로자생계비대지급금비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/체불근로자생계비/대지급금비교';
+
+/* ── 신용취약소상공인자금 (slug: credit-weak-smallbiz-fund) ── */
+import { 신용취약소상공인자금정책우선도평가SpokeContent } from '@/app/policy/[id]/[spoke]/content/신용취약소상공인자금/정책우선도평가';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2249,6 +2252,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'worker-wage-arrears-loan': {
     'wage-subsidy-compare': 체불근로자생계비대지급금비교SpokeContent,
+  },
+
+  'credit-weak-smallbiz-fund': {
+    'priority-evaluation': 신용취약소상공인자금정책우선도평가SpokeContent,
   },
 
   'youth-monthly-rent': {
