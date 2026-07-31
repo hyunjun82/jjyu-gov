@@ -214,4 +214,6 @@ export const regionalCreditGuaranteePolicy = {
   related: ['small-biz-policy-fund', 'general-management-stability-fund'],
 };
 
-export const regionalCreditGuaranteeSpokes: never[] = [];
+export const regionalCreditGuaranteeSpokes = [
+  { slug: 'guarantee-limit', role: 'amount', title: '지역신용보증재단 보증한도 계산하니 왜 이것밖에 안 나오나', content: '상품 한도·연매출 1/3·총 보증 8억원 세 겹 제한, 보증료 0.8% 별도.' },
+];
