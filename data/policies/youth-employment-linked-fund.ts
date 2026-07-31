@@ -201,4 +201,6 @@ export const youthEmploymentLinkedFundPolicy = {
   related: ['small-biz-policy-fund', 'small-biz-refinance-loan'],
 };
 
-export const youthEmploymentLinkedFundSpokes: never[] = [];
+export const youthEmploymentLinkedFundSpokes = [
+  { slug: 'eligibility-certificate', role: 'apply', title: '청년고용연계자금 확인서 받고 어느 은행으로 가야 하나', content: '확인서 유효 90일·대출 보증 아님, 선착순은 대출실행 순서, 요건 3갈래.' },
+];
