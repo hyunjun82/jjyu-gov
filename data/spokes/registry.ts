@@ -672,6 +672,9 @@ import { 정책자금일반경영안정자금SpokeContent } from '@/app/policy/[
 import { 정책자금지역신용보증재단SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/지역신용보증재단';
 import { 정책자금신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/신청방법';
 import { 정책자금대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/대상자격';
+import { 소상공인정책자금사업계획서SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/사업계획서';
+import { 소상공인정책자금직접대출대리대출SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/직접대출대리대출';
+import { 소상공인정책자금지원대상확인서SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/지원대상확인서';
 import { 정책자금일시적경영애로자금SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인정책자금/일시적경영애로자금';
 /* ── 소상공인 카드수수료 우대·환급 (slug: card-fee-support) ── */
 import { 카드수수료우대수수료율SpokeContent } from '@/app/policy/[id]/[spoke]/content/카드수수료/우대수수료율';
@@ -2222,6 +2225,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '신청방법':         정책자금신청방법SpokeContent,
     '대상자격':         정책자금대상자격SpokeContent,
     'temporary-hardship-fund': 정책자금일시적경영애로자금SpokeContent,
+    'business-plan-form': 소상공인정책자금사업계획서SpokeContent,
+    'direct-vs-agency-loan': 소상공인정책자금직접대출대리대출SpokeContent,
+    'eligibility-certificate': 소상공인정책자금지원대상확인서SpokeContent,
   },
 
   'youth-monthly-rent': {

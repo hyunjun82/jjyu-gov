@@ -138,4 +138,7 @@ export const smallBizPolicyFundSpokes = [
   { slug: '신청방법', role: 'apply', title: '소상공인 정책자금 신청 방법, 직접대출 대리대출', content: 'ols.semas.or.kr·소진공 지역센터, 직접/대리대출, ☎1533-0100.' },
   { slug: '대상자격', role: 'eligibility', title: '소상공인 정책자금 대상, 상시근로자 수 기준', content: '제조 10명·그외 5명 미만 소상공인, 제외 업종 주의.' },
   { slug: 'temporary-hardship-fund', role: 'amount', title: '일시적경영애로자금 7월 13일 접수, 조건과 한도 금리 총정리', content: '연매출 1억4백만·업력7년 미만, 매출감소15%, 한도 7천만·연3.85%.' },
+  { slug: 'business-plan-form', role: 'apply', title: '소상공인 정책자금 사업계획서, 양식 어디서 받아 신청하나', content: '직접·대리 공통서식 위치, 개인·법인 작성예시, 자금집행계획 기재.' },
+  { slug: 'direct-vs-agency-loan', role: 'usage', title: '소상공인 정책자금 직접대출과 대리대출, 어디로 신청해야 하나', content: '자금별 방식 구분, 접수 일정 차이, 직접대출 중복 신청 제한.' },
+  { slug: 'eligibility-certificate', role: 'apply', title: '정책자금 지원대상 확인서 받았는데 왜 대출이 안 나오나', content: '확인서는 대출 보증 아님, 유효 90일, 선착순은 대출실행 순서.' },
 ];

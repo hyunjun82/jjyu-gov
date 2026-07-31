@@ -101,6 +101,9 @@ import { youthEmploymentLinkedFundPolicy, youthEmploymentLinkedFundSpokes } from
 import { smallManufacturerFundPolicy, smallManufacturerFundSpokes } from './small-manufacturer-fund';
 import { restartSpecialFundPolicy, restartSpecialFundSpokes } from './restart-special-fund';
 import { emergencyManagementFundPolicy, emergencyManagementFundSpokes } from './emergency-management-fund';
+import { generalManagementStabilityFundPolicy, generalManagementStabilityFundSpokes } from './general-management-stability-fund';
+import { disabledBizSupportFundPolicy, disabledBizSupportFundSpokes } from './disabled-biz-support-fund';
+import { winWinGrowthFundPolicy, winWinGrowthFundSpokes } from './win-win-growth-fund';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -858,6 +861,9 @@ export const PoliciesById: Record<string, any> = {
   '672': smallManufacturerFundPolicy,
   '673': restartSpecialFundPolicy,
   '674': emergencyManagementFundPolicy,
+  '675': generalManagementStabilityFundPolicy,
+  '676': disabledBizSupportFundPolicy,
+  '677': winWinGrowthFundPolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1522,6 +1528,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'small-manufacturer-fund': smallManufacturerFundPolicy,
   'restart-special-fund': restartSpecialFundPolicy,
   'emergency-management-fund': emergencyManagementFundPolicy,
+  'general-management-stability-fund': generalManagementStabilityFundPolicy,
+  'disabled-biz-support-fund': disabledBizSupportFundPolicy,
+  'win-win-growth-fund': winWinGrowthFundPolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2226,6 +2235,9 @@ export const SpokesById: Record<string, any[]> = {
   '672': smallManufacturerFundSpokes,
   '673': restartSpecialFundSpokes,
   '674': emergencyManagementFundSpokes,
+  '675': generalManagementStabilityFundSpokes,
+  '676': disabledBizSupportFundSpokes,
+  '677': winWinGrowthFundSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2890,6 +2902,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'small-manufacturer-fund': smallManufacturerFundSpokes,
   'restart-special-fund': restartSpecialFundSpokes,
   'emergency-management-fund': emergencyManagementFundSpokes,
+  'general-management-stability-fund': generalManagementStabilityFundSpokes,
+  'disabled-biz-support-fund': disabledBizSupportFundSpokes,
+  'win-win-growth-fund': winWinGrowthFundSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
