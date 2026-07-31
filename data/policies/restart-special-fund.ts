@@ -221,4 +221,6 @@ export const restartSpecialFundPolicy = {
   related: ['small-biz-policy-fund', 'credit-weak-smallbiz-fund'],
 };
 
-export const restartSpecialFundSpokes: never[] = [];
+export const restartSpecialFundSpokes = [
+  { slug: 'restart-education', role: 'eligibility', title: '재도전특별자금 받으려면 재창업교육 신청 먼저, 몇 시간짜리인가', content: '재도전교육 25시간·연1회, 개인회생·파산 종료자 포함, 모집 3.9~11.30.' },
+];
