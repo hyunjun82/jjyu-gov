@@ -18,12 +18,12 @@ export const energyVoucherPolicy: PolicyData = {
   summary:
     '기초생활수급 가구 중 노인·영유아·장애인 등 에너지 취약계층에게 전기·도시가스·등유·LPG·연탄을 구입할 수 있는 에너지이용권(바우처)을 지급하는 제도',
   metaDescription: '에너지바우처 신청방법과 사용처, 전기요금 복지할인 중복여부. 기초생활수급 가구 중 노인·영유아·장애인 등 에너지 취약계층에게 전기·도시가스·등유·LPG·연탄을 구입할 수 있는 에너지이용권(바우처)을 지급하는 제도',
-  applyUrl: 'https://www.energyv.or.kr/info/support_info.do',
-  ctaLabel: '에너지바우처 신청 안내 바로가기',
+  applyUrl: 'https://www.energyv.or.kr/info/apl_info.do',
+  ctaLabel: '에너지바우처 신청하기',
   amount: '가구원수별 차등 지급(하절기·동절기 합산)',
   deadline: '한국에너지공단 공고 신청기간 내(하절기 5~9월, 동절기 10~다음해 5월)',
   datePublished: '2026-01-01T09:00:00+09:00',
-  dateModified: '2026-06-26T09:00:00+09:00',
+  dateModified: '2026-07-31T09:00:00+09:00',
   tags: ['에너지바우처', '전기요금', '도시가스', '기초수급자', '취약계층', '난방지원'],
 
   keyFacts: {
@@ -94,7 +94,7 @@ export const energyVoucherPolicy: PolicyData = {
     콜센터: {
       value: '☎ 1600-3190 (평일 09:00~18:00, 점심 12~13시)',
       source: {
-        url: 'https://www.energyv.or.kr/',
+        url: 'https://www.energyv.or.kr/info/support_info.do',
         text: '에너지바우처 통합 상담센터 ☎ 1600-3190, 상담가능시간 평일 09~18시 / 점심 12~13시',
         verifiedAt: '2026-05-16',
       },
@@ -105,6 +105,7 @@ export const energyVoucherPolicy: PolicyData = {
     {
       q: '에너지바우처란 무엇인가요?',
       anchor: 'what-is-energy-voucher',
+      act: { cue: '내가 쓸 수 있는 금액은 세대원 수로 갈립니다. 1인 세대와 4인 이상 세대가 40만원 넘게 차이 나므로 우리 세대 기준부터 봐야 합니다.', label: '세대별 지원금액 확인하기', url: 'https://www.energyv.or.kr/info/support_info.do' },
       intro:
         '에너지바우처는 국민 모두가 시원한 여름과 따뜻한 겨울을 보낼 수 있도록, 에너지 취약계층에게 에너지이용권(바우처)을 지급하여 전기·도시가스·지역난방·등유·LPG·연탄을 구입할 수 있도록 지원하는 제도입니다. 보건복지부가 주관하고 한국에너지공단이 운영합니다. 이용권은 실물 카드(국민행복카드) 또는 요금차감(가상카드) 두 가지 방식으로 지급되며, 2025년부터는 하절기·동절기 구분 없이 사용기간 내 자유롭게 사용할 수 있습니다.',
       highlights: [
@@ -300,7 +301,7 @@ export const energyVoucherPolicy: PolicyData = {
       q: '에너지바우처 잔액은 어디서 확인하나요?',
       a: '에너지바우처 공식 홈페이지(energyv.or.kr)에서 이름, 생년월일, 주소를 입력하면 잔액을 조회할 수 있습니다. 단, 잔액 조회는 사용기간 중에만 가능합니다.',
       source: '한국에너지공단 에너지바우처',
-      sourceUrl: 'https://www.energyv.or.kr/',
+      sourceUrl: 'https://www.energyv.or.kr/info/support_info.do',
     },
     {
       q: '등유나 LPG는 어디서 살 수 있나요?',
@@ -331,7 +332,7 @@ export const energyVoucherPolicy: PolicyData = {
     },
     {
       title: '에너지바우처 공식 홈페이지 메인',
-      url: 'https://www.energyv.or.kr/',
+      url: 'https://www.energyv.or.kr/info/support_info.do',
       org: '한국에너지공단',
       publishedAt: '2026-05-16',
     },
