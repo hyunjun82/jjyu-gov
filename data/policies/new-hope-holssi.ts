@@ -23,7 +23,7 @@ export const newHopeHolssiPolicy = {
   deadline: '상시 (은행별 취급)',
   deadlineLabel: '신청',
   views: 0,
-  applyUrl: ITDA,
+  applyUrl: KINFA,
   ctaLabel: '새희망홀씨 신청 가능 은행 조회하기',
   datePublished: '2026-07-31T23:30:00+09:00',
   dateModified: '2026-07-31T23:30:00+09:00',

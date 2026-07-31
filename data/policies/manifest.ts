@@ -109,6 +109,8 @@ import { workerWageArrearsLoanPolicy, workerWageArrearsLoanSpokes } from './work
 import { hugJeonseDepositGuaranteePolicy, hugJeonseDepositGuaranteeSpokes } from './hug-jeonse-deposit-guarantee';
 import { newHopeHolssiPolicy, newHopeHolssiSpokes } from './new-hope-holssi';
 import { steppingStoneLoanPolicy, steppingStoneLoanSpokes } from './stepping-stone-loan';
+import { youthStartupFundPolicy, youthStartupFundSpokes } from './youth-startup-fund';
+import { regionalCreditGuaranteePolicy, regionalCreditGuaranteeSpokes } from './regional-credit-guarantee';
 import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-toll-discount';
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
@@ -874,6 +876,8 @@ export const PoliciesById: Record<string, any> = {
   '680': hugJeonseDepositGuaranteePolicy,
   '681': newHopeHolssiPolicy,
   '682': steppingStoneLoanPolicy,
+  '683': youthStartupFundPolicy,
+  '684': regionalCreditGuaranteePolicy,
   '196': highwayTollDiscountPolicy,
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
@@ -1546,6 +1550,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'hug-jeonse-deposit-guarantee': hugJeonseDepositGuaranteePolicy,
   'new-hope-holssi': newHopeHolssiPolicy,
   'stepping-stone-loan': steppingStoneLoanPolicy,
+  'youth-startup-fund': youthStartupFundPolicy,
+  'regional-credit-guarantee': regionalCreditGuaranteePolicy,
   'highway-toll-discount': highwayTollDiscountPolicy,
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
@@ -2258,6 +2264,8 @@ export const SpokesById: Record<string, any[]> = {
   '680': hugJeonseDepositGuaranteeSpokes,
   '681': newHopeHolssiSpokes,
   '682': steppingStoneLoanSpokes,
+  '683': youthStartupFundSpokes,
+  '684': regionalCreditGuaranteeSpokes,
   '196': highwayTollDiscountSpokes,
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
@@ -2930,6 +2938,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'hug-jeonse-deposit-guarantee': hugJeonseDepositGuaranteeSpokes,
   'new-hope-holssi': newHopeHolssiSpokes,
   'stepping-stone-loan': steppingStoneLoanSpokes,
+  'youth-startup-fund': youthStartupFundSpokes,
+  'regional-credit-guarantee': regionalCreditGuaranteeSpokes,
   'highway-toll-discount': highwayTollDiscountSpokes,
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
