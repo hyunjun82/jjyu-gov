@@ -14,6 +14,7 @@
  *   B 대조 불가   source.url / sourceUrl 이 경로 없는 기관 루트인가 (1:1 대조가 불가능)
  *   C 죽은 CTA    applyUrl 이 경로 없는 기관 루트인가 (버튼이 홈으로 떨어진다)
  *   D 연도 불일치  본문에 과거 연도(작년 이전)가 "N년 기준"으로 남아 있나
+ *   E 지난 마감    "~까지/마감" 날짜가 이미 지났는데 본문에 살아 있나 (시간압박 후킹의 신뢰 장치)
  *
  * 사용
  *   npx tsx scripts/check-freshness.ts          # 변경된 허브만 — 차단
@@ -84,7 +85,7 @@ function targetFiles(): string[] {
     .filter((l) => l.endsWith('.ts') && !l.endsWith('manifest.ts') && fs.existsSync(l));
 }
 
-type Finding = { axis: 'A' | 'B' | 'C' | 'D'; msg: string; hint?: string };
+type Finding = { axis: 'A' | 'B' | 'C' | 'D' | 'E'; msg: string; hint?: string };
 type Row = { file: string; slug: string; oldestDays: number; findings: Finding[] };
 
 const AXIS: Record<string, string> = {
@@ -92,10 +93,11 @@ const AXIS: Record<string, string> = {
   B: '대조 불가',
   C: '죽은 CTA',
   D: '연도 불일치',
+  E: '지난 마감',
 };
 
 const rows: Row[] = [];
-const count = { A: 0, B: 0, C: 0, D: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0 };
 
 for (const file of targetFiles()) {
   const src = fs.readFileSync(file, 'utf8');
@@ -140,6 +142,24 @@ for (const file of targetFiles()) {
     });
   }
 
+  /* ── E. 지난 마감일이 살아 있나 ────────────────────
+     "9월 30일까지·5일 남음" 같은 시간압박 후킹(hook-patterns ③)을 허용하는 대신,
+     마감이 지나면 그 문구가 거짓이 된다. 지난 날짜가 "까지/마감/신청기간"과 함께
+     남아 있으면 차단해서, 후킹의 신뢰를 시스템이 지킨다. */
+  const deadRe = /(20\d{2})[.\-/년\s]{1,3}(\d{1,2})[.\-/월\s]{1,3}(\d{1,2})일?\s*(?:까지|마감)/g;
+  const passed: string[] = [];
+  for (const m of src.matchAll(deadRe)) {
+    const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]), 23, 59);
+    if (d.getTime() < TODAY.getTime()) passed.push(`${m[1]}.${m[2]}.${m[3]}`);
+  }
+  if (passed.length) {
+    findings.push({
+      axis: 'E',
+      msg: `지난 마감일이 본문에 남아 있음: ${[...new Set(passed)].slice(0, 3).join(', ')} — 시간압박 문구가 거짓이 된 상태`,
+      hint: '마감 문구를 제거하거나 다음 회차 일정으로 갱신한다. 공식 페이지에서 새 일정을 확인할 것',
+    });
+  }
+
   /* ── D. 본문에 지난 연도가 "기준"으로 박혀 있나 ─────── */
   const thisYear = TODAY.getFullYear();
   const staleYears = new Set<string>();
@@ -172,7 +192,7 @@ if (all) {
   const rotten = rows.filter((r) => r.oldestDays >= ROTTEN_DAYS);
   console.log(`\n검사 ${targetFiles().length}개 / 지적 ${rows.length}개`);
   console.log(
-    `  검수만료 ${count.A}  대조불가 ${count.B}  죽은CTA ${count.C}  연도불일치 ${count.D}`,
+    `  검수만료 ${count.A}  대조불가 ${count.B}  죽은CTA ${count.C}  연도불일치 ${count.D}  지난마감 ${count.E}`,
   );
   if (rotten.length) {
     console.log(`\n※ 검수 1년 이상 방치: ${rotten.length}개 — 여기부터 손대는 게 효율이 높다`);
@@ -190,7 +210,7 @@ if (all) {
 /* 차단은 A(검수 만료)·C(죽은 CTA)·D(연도 불일치)만.
    B(대조 불가)는 착수 시점에 582개가 이미 그 상태라 전면 차단하면 작업이 멈춘다.
    대신 경고로 계속 보여줘서, 그 허브를 손댈 때 같이 고치도록 유도한다(래칫). */
-const BLOCKING: Array<Finding['axis']> = ['A', 'C', 'D'];
+const BLOCKING: Array<Finding['axis']> = ['A', 'C', 'D', 'E'];
 const blocked = rows.filter((r) => r.findings.some((f) => BLOCKING.includes(f.axis)));
 const warnOnly = rows.filter((r) => !r.findings.some((f) => BLOCKING.includes(f.axis)));
 
@@ -209,7 +229,7 @@ for (const r of warnOnly) {
 console.log(
   `\n검사 ${targetFiles().length}개 / 차단 ${blocked.length}개 / 경고만 ${warnOnly.length}개`,
 );
-console.log(`  검수만료 ${count.A}  대조불가 ${count.B}(경고)  죽은CTA ${count.C}  연도불일치 ${count.D}`);
+console.log(`  검수만료 ${count.A}  대조불가 ${count.B}(경고)  죽은CTA ${count.C}  연도불일치 ${count.D}  지난마감 ${count.E}`);
 
 if (!blocked.length) {
   console.log('\n ✅ 통과 — 검수일이 살아있고, 버튼이 홈으로 떨어지지 않는다');
