@@ -33,7 +33,7 @@ export interface SpokeQAItem {
   anchor?: string;
   intro?: string;
   highlights?: string[];
-  table?: { headers: string[]; rows: string[][] };
+  table?: { caption?: string; headers: string[]; rows: string[][] };
   box?: { label?: string; title?: string; content: string };
   box2?: { label?: string; title?: string; content: string };
   list?: string[];

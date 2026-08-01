@@ -514,6 +514,11 @@ import { 케이패스신청등록카드사비교SpokeContent }         from '@/a
 import { 케이패스모두의카드환급형비교SpokeContent }       from '@/app/policy/[id]/[spoke]/content/케이패스/모두의카드환급형비교';
 import { 케이패스청년환급률30퍼센트신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/케이패스/청년환급률30%신청방법';
 import { 케이패스2026환급률일반청년저소득SpokeContent }   from '@/app/policy/[id]/[spoke]/content/케이패스/2026환급률일반청년저소득';
+import { 케이패스환급일SpokeContent }        from '@/app/policy/[id]/[spoke]/content/케이패스/refund-payment-date';
+import { 케이패스카드변경SpokeContent }      from '@/app/policy/[id]/[spoke]/content/케이패스/card-change';
+import { 케이패스시차출퇴근SpokeContent }    from '@/app/policy/[id]/[spoke]/content/케이패스/off-peak-bonus';
+import { 케이패스기후동행비교SpokeContent }  from '@/app/policy/[id]/[spoke]/content/케이패스/vs-climate-card';
+import { 케이패스카드등록SpokeContent }      from '@/app/policy/[id]/[spoke]/content/케이패스/card-register';
 
 /* ── 주거급여 (slug: housing-benefit) ── */
 import { 주거급여1인가구소득기준임차급여SpokeContent }    from '@/app/policy/[id]/[spoke]/content/주거급여/1인가구소득기준임차급여';
@@ -1770,6 +1775,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '모두의카드환급형비교':     케이패스모두의카드환급형비교SpokeContent,
     '청년환급률30%신청방법':    케이패스청년환급률30퍼센트신청방법SpokeContent,
     '2026환급률일반청년저소득': 케이패스2026환급률일반청년저소득SpokeContent,
+    'refund-payment-date':      케이패스환급일SpokeContent,
+    'card-change':             케이패스카드변경SpokeContent,
+    'off-peak-bonus':          케이패스시차출퇴근SpokeContent,
+    'vs-climate-card':         케이패스기후동행비교SpokeContent,
+    'card-register':           케이패스카드등록SpokeContent,
   },
 
   'housing-benefit': {
