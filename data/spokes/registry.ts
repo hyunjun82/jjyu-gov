@@ -491,6 +491,8 @@ import { 채무자대리인무료지원채무자대리인일반변호사비교Sp
 
 /* ── 출산전후휴가급여 (slug: maternity-leave-pay) ── */
 import { 출산전후휴가급여2026우선지원대상기업기준SpokeContent }   from '@/app/policy/[id]/[spoke]/content/출산전후휴가급여/2026우선지원대상기업기준';
+import { 출산전후휴가기간SpokeContent }      from '@/app/policy/[id]/[spoke]/content/출산전후휴가급여/leave-period';
+import { 출산전후휴가확인서SpokeContent }    from '@/app/policy/[id]/[spoke]/content/출산전후휴가급여/employer-confirmation';
 import { 출산전후휴가급여회사정부급여구간분리SpokeContent }       from '@/app/policy/[id]/[spoke]/content/출산전후휴가급여/회사정부급여구간분리';
 import { 출산전후휴가급여신청방법비과세계산SpokeContent }         from '@/app/policy/[id]/[spoke]/content/출산전후휴가급여/신청방법비과세계산';
 import { 출산전후휴가급여우선지원대규모기업비교SpokeContent }     from '@/app/policy/[id]/[spoke]/content/출산전후휴가급여/우선지원대규모기업비교';
@@ -1752,6 +1754,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '회사정부급여구간분리':     출산전후휴가급여회사정부급여구간분리SpokeContent,
     '신청방법비과세계산':       출산전후휴가급여신청방법비과세계산SpokeContent,
     '우선지원대규모기업비교':   출산전후휴가급여우선지원대규모기업비교SpokeContent,
+    'leave-period':           출산전후휴가기간SpokeContent,
+    'employer-confirmation':  출산전후휴가확인서SpokeContent,
   },
 
   'long-term-care-elderly': {
