@@ -37,6 +37,14 @@
 | infant-childcare-fee | 복지로 WLF00003250 + 온라인 서비스신청 |
 | newborn-special-loan | 주택도시기금 대출안내·전세·대환·이용절차 |
 | travel-duty-free | 관세청 휴대품통관·입국장면세점·외환신고 |
+| job-seeker-benefit | 고용24 SI00000387 + 모의계산 |
+| employment-promotion | 고용24 SI00000370 |
+| elderly-continue-employ | 고용24 SI00000320 + 고령자 고용지원금 SI00000328 |
+| old-age-pension / national-pension-premium / national-pension-reduction / low-income-pension | 국민연금 전자민원 조회·신고신청, 내 연금 알아보기 |
+| infant-health-checkup | 건강보험 영유아 검진대상 조회·기관찾기·결과조회 |
+| loss-sharing-mortgage / profit-sharing-mortgage / officetel-purchase-loan / residential-monthly-rent-loan | 마이홈 상품 상세 + 주거복지 자가진단 |
+| teen-female-hygiene | 복지로 WLF00000781 |
+| earned-income-tax-credit | 홈택스 장려금 메뉴 |
 
 ## 남은 대상 (약 78곳) — 기관별 묶음
 - **복지로(bokjiro)**: after-school-childcare-fee, extended-childcare-fee, family-care-leave-long, student-edu-info, teen-female-hygiene
@@ -52,6 +60,11 @@
 - **기타 기관**: fss, crefia, koroad, kofic, kdic, kinfa, moj, iros, chak, epostlife, adrhome.reb 등
 
 ## 미확인 → 후순위
+- 인터넷등기소 4곳: WebSquare SPA — 정적 딥링크 없음
+- 노인일자리(seniorro)·청년일자리: 모집공고 목록 URL 미확보
+- 농식품부 4곳(영농도우미·농지연금·농촌기본소득·농식품바우처): 사업별 창구 분산, 개별 확인 필요
+- 복지로 4곳(방과후·연장형 보육료, 가족돌봄휴직, 교육정보화): 포털에 상세 ID 미노출
+- 주택도시기금 FP05/FP02 경로 일부는 406 반환 — 마이홈 상세로 우회함
 - K-Move 스쿨(월드잡플러스 목록 URL 404) — 공식 모집 화면 재확인 필요
 - 출산육아기 고용안정장려금 — 고용24 systId 미검색
 - rural-student-loan: `ruralStudentLoanSpokes` 5개가 배열에만 있고 콘텐츠 파일 없음 → 허브가 막다른 길. 스포크 신규 작성 필요.
