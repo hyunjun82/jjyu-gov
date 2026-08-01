@@ -23,6 +23,15 @@ argument-hint: "[키워드]"
 4. PASS 후에도 **사용자 승인 없이 푸시 금지**
 5. **병렬 처리 절대 금지** — 정부 출처 수집·검증은 반드시 Claude in Chrome 단독 순차 실행
 6. **데이터 작성 ↔ 출처 대조 교차 실행** — qa 항목 1개 작성 → 즉시 출처 페이지 대조 → 다음 항목
+7. **중복 검사 먼저** — 쓰기 전에 `npx tsx scripts/check-duplicate.ts --all 2>&1 | grep {키워드}` 로
+   같은 주제가 이미 있는지 확인. 있으면 새 글 대신 기존 글 보강. (2026-08-01 부모급여 스포크를
+   다 쓰고 폐기한 교훈 — 쓰고 나서 아는 건 늦다)
+8. **후킹 4축 필수** — 타이틀·cue는 `docs/hook-patterns.md` 정본을 따른다. 손실회피/숫자대비/
+   시간압박(검증된 마감만)/자기대입 중 1축 이상. "확인하세요·클릭하세요" 류 밋밋한 설명형은
+   H축 게이트가 차단한다. **시간압박 재료(마감일·선착순 여부)는 반드시 Playwright로 공식
+   공고에서 확인한 것만** — 추측 후킹은 절대규칙 1 위반.
+9. **CTA는 행동 지점 딥링크** — applyUrl·act.url이 기관 메인/루트면 freshness C축이 차단.
+   그 카드의 행동(조회는 조회 화면, 신청은 접수 화면)으로 목적지를 나눈다.
 
 ---
 
@@ -69,6 +78,20 @@ Q9 sources URL:   __개  (≥3 ?)
 ```
 
 9개 모두 ✓ 이후에만 파일을 저장한다. 미달 항목은 저장 전에 수정한다.
+
+---
+
+## Phase -1: 중복·기존 커버 확인 (생략 불가 — 헛수고 방지)
+
+```bash
+# 이 주제를 이미 다루고 있나? 허브·스포크 1,700개 전체와 대조
+npx tsx scripts/check-duplicate.ts --all 2>&1 | grep -i "{키워드}"
+grep -rl "{키워드}" data/policies/*.ts | head
+```
+
+- 같은 주제 허브가 있으면 → **신규 허브 금지**, 그 허브의 미커버 검색어를 스포크로 확장
+  (승자 클러스터 전략: 이미 유입이 검증된 허브의 연관검색어부터 먹는다)
+- 완전히 새 주제일 때만 Phase 0으로.
 
 ---
 
@@ -179,8 +202,16 @@ export const {PolicyName}Policy: PolicyData = {
 ## Phase 4: 자동 품질 검증 (파일 저장 즉시 실행)
 
 ```bash
-python3 scripts/check-quality.py {slug}
+npm run verify -- {slug}                      # Q1~Q13 구조 품질
+npx tsx scripts/check-click-value.ts          # 타이틀 행동성·버튼 슬롯·외부 누수
+npx tsx scripts/check-cue-value.ts            # 문구·버튼 7축 + H(후킹 부재)
+npx tsx scripts/check-user-value.ts           # 타이틀↔소제목·버튼 CTA
+npx tsx scripts/check-freshness.ts            # 검수일·딥링크·지난 마감
+npx tsx scripts/check-duplicate.ts            # 기존 글과 겹침
+bash scripts/check-spoke-quality.sh           # (스포크일 때) Format A·qa≥7
 ```
+
+전부 커밋 후에 돌려야 실제 검사가 된다(게이트는 origin/main...HEAD diff만 본다).
 
 - **PASS** → Phase 5로 진행
 - **FAIL** → 오류 항목 즉시 수정 후 재실행 (사용자 보고 없이 자동 수정)
@@ -220,7 +251,21 @@ git commit -m "feat: {slug} 추가 (Q1~Q9 PASS)"
 git push
 ```
 
-pre-push hook이 check-quality.py 자동 실행 → FAIL이면 push 차단.
+pre-push hook이 게이트 전체를 자동 실행 → FAIL이면 push 차단.
+
+---
+
+## Phase 7: 네프콘 짝 글 (유입 엔진 — 생략하면 글이 안 읽힌다)
+
+> 확인된 사실(2026-08-01): gov 트래픽·수익의 핵심 유입은 오가닉이 아니라
+> **네이버 프리미엄콘텐츠(머니위키) 백링크**다. 삼성미소금융 허브 = 네프콘 조회 3,787.
+> 글만 쓰고 끝내면 아무도 안 온다.
+
+새 허브·스포크 1개마다 `docs/nepcon-drafts.md` 형식으로 짝 글 초안을 추가한다:
+- 제목: hook-patterns 4축 적용 (gov 타이틀과 다르게 — 같으면 중복 콘텐츠)
+- 구성: 리드(후킹) + 핵심 요약 + 표 1개 + **gov 딥링크 2회(본문 중간·끝)**
+- 전문을 다 주지 않는다 — 상세는 gov로 넘겨야 백링크가 산다
+- 사용자가 스튜디오에서 발행 (발행 자체는 사람 몫)
 
 ---
 
