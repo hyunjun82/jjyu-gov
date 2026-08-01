@@ -264,7 +264,7 @@ export const parentAllowancePolicy = {
 };
 
 export const parentAllowanceSpokes = [
-  { slug: '지급금액',    role: 'amount',  title: '2026년 부모급여 0세 100만원·1세 50만원 | 아동수당 10만원 중복 받는 방법' },
+  { slug: '지급금액',    role: 'amount',  title: '2026년 부모급여 0세 100만원·1세 50만원, 아동수당까지 같이 신청되나' },
   { slug: '어린이집전환', role: 'usage',   title: '어린이집 보내면 부모급여 못 받나 | 보육료 차액 계산과 전환 기준' },
   { slug: '신청지급일',  role: 'apply',   title: '부모급여 신청 방법과 지급일 | 출생 후 60일 기한 놓치면 소급 안 된다' },
   { slug: '육아휴직중복', role: 'overlap', title: '육아휴직급여 받으면서 부모급여도 받을 수 있나 | 중복 수급 정리' },
