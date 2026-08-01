@@ -5,6 +5,7 @@ export const sharingTicketPolicy: PolicyData = {
   slug: 'sharing-ticket',
   type: 'service',
   title: '나눔티켓 나눔회원 신청방법, 기초수급자·차상위 공연전시 할인',
+  titleKeywords: { k1: '나눔티켓', k2: '나눔회원', k3: '기초수급자', k4: '공연' },
   cat: '복지',
   catSlug: 'welfare',
   org: '문화체육관광부 · 나눔티켓사무국',
@@ -12,13 +13,30 @@ export const sharingTicketPolicy: PolicyData = {
   metaDescription: '나눔티켓 나눔회원 신청방법, 기초수급자·차상위 공연전시 할인. 기초생활수급자·차상위계층·학생 등에게 공연·전시 티켓을 50~80% 할인된 가격으로 제공하는 문화향유 지원사업입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
-  applyUrl: 'https://www.nanumticket.or.kr/',
+  applyUrl: 'https://www.nanumticket.or.kr/member/join.html',
+  ctaLabel: '나눔티켓 나눔회원 가입하기',
   ctaLabel: '나눔티켓 나눔회원 신청하기 (공식)',
   tags: ['나눔티켓', '공연할인', '문화향유', '기초생활수급자', '차상위계층'],
   badge: '문화지원',
   lastVerified: '2026-05-17',
 
   keyFacts: {
+    회원_구분: {
+      value: '나눔회원(문화누리카드 소지자·기초생활수급자·차상위) / 이음회원(사회복지시설 재직 사회복지사)',
+      source: { url: 'https://www.nanumticket.or.kr/nanumticket/guide.html', text: '나눔회원 문화누리카드 소지자 또는 기초생활수급자 및 차상위 계층 / 이음회원 사회복지시설 재직중인 사회복지사', verifiedAt: '2026-08-01' },
+    },
+    무료티켓_대상: {
+      value: '문화누리카드 소지자 또는 기초생활수급자·차상위 계층만 이용 가능',
+      source: { url: 'https://www.nanumticket.or.kr/nanumticket/guide.html', text: '무료티켓은 문화예술단체가 저소득층의 관람기회 확대를 위해 기부한 티켓으로 문화누리카드소지자 또는 기초생활수급자 및 차상위 계층에 한하여 이용 가능', verifiedAt: '2026-08-01' },
+    },
+    증빙서류_요건: {
+      value: '최근 3개월 이내 발행분만 인정 (기관장 직인 필수)',
+      source: { url: 'https://www.nanumticket.or.kr/nanumticket/guide.html', text: '증빙서류(수급자증명서, 차상위확인서, 재직증명서)는 최근 3개월 이내에 발행된 건에 한하여 인증 가능합니다. (기관장 직인 필수)', verifiedAt: '2026-08-01' },
+    },
+    인증_유효기간: {
+      value: '인증일로부터 1년, 만료 시 재인증 필요',
+      source: { url: 'https://www.nanumticket.or.kr/nanumticket/guide.html', text: '인증 기간은 인증일로부터 1년간 유효하며, 만료시에는 재인증 후 이용 가능합니다', verifiedAt: '2026-08-01' },
+    },
     지원유형: {
       value: '공연·전시 티켓 할인 (정가 대비 50~80% 할인)',
       sourceNote: '나눔티켓 공식 홈페이지 (nanumticket.or.kr)',
@@ -56,6 +74,7 @@ export const sharingTicketPolicy: PolicyData = {
   qa: [
     {
       anchor: 'what-is',
+      act: { cue: '공연·전시 티켓을 무료나 할인가로 받는 제도입니다. 어떤 사업인지부터 확인해 보세요.', label: '나눔티켓 제도 확인하기', url: 'https://www.nanumticket.or.kr/nanumticket/about.html' },
       question: '나눔티켓이란 무엇인가요?',
       intro: '나눔티켓은 문화체육관광부가 지원하는 사업으로, 기초생활수급자·차상위계층·학생 등에게 공연장과 공연단체가 자발적으로 제공하는 미판매 티켓을 정가 대비 50~80% 할인된 가격으로 구매할 수 있게 해주는 문화향유 지원사업입니다. 전국 200여 개 공연장·단체가 참여하고 있어 뮤지컬, 연극, 클래식, 오페라, 전시 등 다양한 장르의 공연과 전시를 저렴하게 즐길 수 있습니다.',
       highlights: ['50~80% 할인', '200여 개 공연장', '미판매 티켓', '기초생활수급자', '차상위계층', '문화향유 지원'],
@@ -72,8 +91,9 @@ export const sharingTicketPolicy: PolicyData = {
     },
     {
       anchor: 'who-eligible',
+      act: { cue: '기초수급자와 차상위가 대상입니다. 내가 해당하는지 이용안내에서 대조해 보세요.', label: '이용대상 대조하기', url: 'https://www.nanumticket.or.kr/nanumticket/guide.html' },
       question: '누가 신청할 수 있나요?',
-      intro: '나눔티켓은 나눔 회원과 배움 회원으로 구분됩니다. 나눔 회원은 기초생활수급자와 법정 차상위계층이 해당하며, 배움 회원은 초·중·고등학생, 교사, 그리고 나눔티켓 참여 기관·단체 종사자가 해당합니다. 각 회원 유형별로 가입 자격과 이용 가능 서비스가 다를 수 있으므로, 나눔티켓 홈페이지(nanumticket.or.kr)에서 본인에게 맞는 유형을 선택해 가입 후 이용할 수 있습니다.',
+      intro: '나눔티켓은 나눔 회원과 배움 회원으로 구분됩니다. 나눔 회원은 기초생활수급자와 법정 차상위계층이 해당하며, 배움 회원은 초·중·고등학생, 교사, 그리고 나눔티켓 참여 기관·단체 종사자가 해당합니다. 각 회원 유형별로 가입 자격과 이용 가능 서비스가 다를 수 있으므로, 나눔티켓 홈페이지(nanumticket.or.kr)에서 본인에게 맞는 유형을 선택해 가입 후 이용할 수 있습니다. 한국문화예술위원회는 회원을 두 갈래로 나눕니다. 나눔회원은 문화누리카드 소지자와 기초생활수급자 및 차상위 계층이고, 이음회원은 사회복지시설에 재직 중인 사회복지사입니다. 기초수급자 본인이 이용하려면 나눔회원으로 가입한 뒤 수급자증명서나 차상위확인서를 제출하거나, 마이페이지에서 본인 명의 문화누리카드 번호를 입력해 인증하면 됩니다.',
       highlights: ['나눔 회원', '배움 회원', '기초생활수급자', '차상위계층', '초·중·고학생', '교사', '참여기관 종사자'],
       sourceNote: '나눔티켓 공식 홈페이지 (nanumticket.or.kr)',
       table: {
@@ -86,6 +106,7 @@ export const sharingTicketPolicy: PolicyData = {
     },
     {
       anchor: 'discount',
+      act: { cue: '무료티켓과 할인티켓이 따로 열립니다. 지금 열려 있는 무료티켓부터 보는 게 이득입니다.', label: '무료티켓 검색하기', url: 'https://www.nanumticket.or.kr/pe/list.html?p_marking=4' },
       question: '얼마나 할인되나요?',
       intro: '나눔티켓 회원은 공연장과 공연단체가 자발적으로 제공하는 미판매 티켓을 정가 대비 50~80% 할인된 가격으로 구매할 수 있습니다. 1인당 최대 3매까지 구매할 수 있으며, 공연마다 할인율과 이용 가능 매수가 다를 수 있습니다. 자세한 할인 조건과 현재 이용 가능한 티켓 목록은 나눔티켓 공식 홈페이지(nanumticket.or.kr)에서 공연별로 확인하시기 바랍니다.',
       highlights: ['50~80% 할인', '1인당 3매 한도', '공연별 할인율 상이', '미판매 티켓', '자발적 참여'],
@@ -102,6 +123,7 @@ export const sharingTicketPolicy: PolicyData = {
     },
     {
       anchor: 'genres',
+      act: { cue: '공연·전시가 장르별로 올라옵니다. 관심 장르가 열려 있는지 목록에서 확인하세요.', label: '공연·전시 목록 검색하기', url: 'https://www.nanumticket.or.kr/pe/list.html' },
       question: '어떤 공연·전시를 볼 수 있나요?',
       intro: '나눔티켓 참여 공연장과 단체는 전국 200여 곳에 달하며, 뮤지컬, 연극, 클래식, 오페라, 무용, 전시 등 다양한 장르의 공연과 문화행사를 포함합니다. 참여 기관은 자발적으로 미판매 티켓을 제공하므로 시즌과 공연 일정에 따라 이용 가능한 공연 목록이 달라질 수 있습니다. 나눔티켓 홈페이지(nanumticket.or.kr)에서 현재 이용 가능한 공연 목록을 실시간으로 확인할 수 있습니다.',
       highlights: ['뮤지컬', '연극', '클래식', '오페라', '무용', '전시', '200여 곳 참여', '전국'],
@@ -119,8 +141,9 @@ export const sharingTicketPolicy: PolicyData = {
     },
     {
       anchor: 'how-to-apply',
+      act: { cue: '회원가입을 해야 예매가 열립니다. 가입 없이는 티켓을 잡을 수 없습니다.', label: '나눔회원 가입 신청하기', url: 'https://www.nanumticket.or.kr/member/join.html' },
       question: '어떻게 신청하고 이용하나요?',
-      intro: '나눔티켓을 이용하려면 나눔티켓 홈페이지(nanumticket.or.kr)에서 회원가입을 해야 합니다. 나눔 회원 가입 시에는 기초생활수급자 또는 차상위계층임을 증명하는 서류가 필요합니다. 회원가입 후 홈페이지에서 원하는 공연을 검색하고 할인 티켓을 구매하면 됩니다. 1인당 3매까지 구매 가능하며, 공연별로 할인 조건이 다르므로 반드시 공연 정보를 꼼꼼히 확인한 후 구매하세요.',
+      intro: '나눔티켓을 이용하려면 나눔티켓 홈페이지(nanumticket.or.kr)에서 회원가입을 해야 합니다. 나눔 회원 가입 시에는 기초생활수급자 또는 차상위계층임을 증명하는 서류가 필요합니다. 회원가입 후 홈페이지에서 원하는 공연을 검색하고 할인 티켓을 구매하면 됩니다. 1인당 3매까지 구매 가능하며, 공연별로 할인 조건이 다르므로 반드시 공연 정보를 꼼꼼히 확인한 후 구매하세요. 나눔회원 인증에는 두 가지 방법이 있습니다. 회원가입 후 본인 명의 증빙서류를 팩스나 메일로 제출하는 방법과, 회원가입 후 마이페이지의 회원정보수정에서 본인 명의 문화누리카드 번호를 입력해 조회하는 방법입니다. 증빙서류는 최근 3개월 이내 발행분만 인정되고 기관장 직인이 있어야 하며, 인증 효력은 1년입니다.',
       highlights: ['nanumticket.or.kr 회원가입', '자격 증명 서류 필요', '홈페이지에서 공연 검색·구매', '1인 3매 한도', '공연별 조건 확인'],
       sourceNote: '나눔티켓 공식 홈페이지 (nanumticket.or.kr)',
       box: {
@@ -136,6 +159,7 @@ export const sharingTicketPolicy: PolicyData = {
     },
     {
       anchor: 'participating-venues',
+      act: { cue: '할인티켓은 좌석이 한정돼 금방 마감됩니다. 신규 오픈 티켓을 자주 확인하는 편이 낫습니다.', label: '신규 오픈 티켓 검색하기', url: 'https://www.nanumticket.or.kr/pe/list.html?p_new=1' },
       question: '어떤 공연장이 참여하고 있나요?',
       intro: '나눔티켓에는 전국 200여 개의 공연장과 공연단체가 자발적으로 참여하여 미판매 티켓을 제공합니다. 대형 국공립 공연장부터 소규모 민간 공연단체까지 다양한 규모의 기관이 참여하고 있으며, 참여 기관 전체 목록은 나눔티켓 홈페이지(nanumticket.or.kr)에서 확인할 수 있습니다. 자발적 참여 방식이므로 시기에 따라 참여 기관과 이용 가능 티켓이 변동될 수 있습니다.',
       highlights: ['전국 200여 개 참여', '국공립 공연장 포함', '소규모 민간단체 포함', '자발적 참여', '홈페이지에서 참여기관 확인'],
@@ -152,6 +176,7 @@ export const sharingTicketPolicy: PolicyData = {
     },
     {
       anchor: 'relation-to-other',
+      act: { cue: '예매 절차가 일반 예매처와 조금 다릅니다. 가이드를 한 번 읽어두면 헤매지 않습니다.', label: '예매 가이드 확인하기', url: 'https://www.nanumticket.or.kr/customercenter/guide.html' },
       question: '문화누리카드와 함께 사용할 수 있나요?',
       intro: '나눔티켓과 문화누리카드(통합문화이용권)는 별도의 사업으로, 각각 독립적으로 운영됩니다. 기초생활수급자·차상위계층은 나눔티켓 나눔 회원 가입과 동시에 문화누리카드도 신청할 수 있어 두 혜택을 함께 활용할 수 있습니다. 문화누리카드(연간 15만원)로 일반 공연·전시 티켓을 구매하고, 나눔티켓으로는 추가적인 할인 공연을 관람하는 방식으로 활용하면 더욱 효과적입니다.',
       highlights: ['나눔티켓과 문화누리카드 별개 사업', '중복 활용 가능', '기초수급자 두 혜택 모두 신청 가능', '문화누리카드 연간 15만원', '복합 활용 권장'],
@@ -199,7 +224,7 @@ export const sharingTicketPolicy: PolicyData = {
   sources: [
     {
       title: '나눔티켓 공식 홈페이지',
-      url: 'https://www.nanumticket.or.kr/',
+      url: 'https://www.nanumticket.or.kr/nanumticket/about.html',
       date: '2026-05-17',
     },
     {

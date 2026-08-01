@@ -4,6 +4,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
   slug: 'used-appliance-pickup',
   type: 'service',
   title: '폐가전 무상 방문수거 서비스',
+  titleKeywords: { k1: '폐가전', k2: '무상', k3: '방문수거', k4: '예약' },
   org: '환경부 (한국전자제품환경협회 시행)',
   catSlug: 'welfare',
   amount: '무상 (비용 없음)',
@@ -16,10 +17,26 @@ export const usedAppliancePickupPolicy: PolicyData = {
   ctaLabel: '폐가전 무상 방문수거 예약하기 (공식)',
 
   keyFacts: {
+    운영_기관: {
+      value: 'E-순환거버넌스 (환경부 지정 회수·재활용 공제조합)',
+      source: { url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do', text: 'E-순환거버넌스', verifiedAt: '2026-08-01' },
+    },
+    상담_시간: {
+      value: '평일 08~18시 (점심 12~13시), 토·일요일 및 공휴일 휴무',
+      source: { url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do', text: '평일 08시 ~ 18시(점심시간 : 12시 ~ 13시)·휴무일 매주 토/일요일', verifiedAt: '2026-08-01' },
+    },
+    예약_취소: {
+      value: '예약내용 조회·취소, 예약번호 찾기 온라인 처리',
+      source: { url: 'https://www.15990903.or.kr/portal/reserve/reserve.do', text: '예약내용 조회/취소, 예약번호 찾기', verifiedAt: '2026-08-01' },
+    },
+    수거확인서: {
+      value: '온라인 발급 가능 (예약조회 메뉴)',
+      source: { url: 'https://www.15990903.or.kr/portal/reserve/printDocument.do', text: '수거확인서 발급', verifiedAt: '2026-08-01' },
+    },
     서비스: {
       value: '대형 폐가전 무상 방문수거 (비용 없음)',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '폐가전제품 무상 방문수거 서비스 (무료)',
         verifiedAt: '2026-05-17',
       },
@@ -27,7 +44,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     대상품목대형: {
       value: '냉장고·세탁기·에어컨·TV·컴퓨터 등 대형 가전',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '냉장고, 세탁기, 에어컨, TV, 컴퓨터 등 대형 폐가전',
         verifiedAt: '2026-05-17',
       },
@@ -35,7 +52,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     이용자격: {
       value: '대한민국 국민 누구나 (소득 기준 없음)',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '모든 국민 이용 가능, 소득·자격 기준 없음',
         verifiedAt: '2026-05-17',
       },
@@ -43,7 +60,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     수거조건: {
       value: '대형 폐가전 1개 이상 또는 소형 5개 이상',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '대형 1개 이상 또는 소형 5개 이상 시 방문수거',
         verifiedAt: '2026-05-17',
       },
@@ -51,7 +68,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     신청방법1: {
       value: '☎ 1599-0903 전화 신청',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '전화 신청: 1599-0903',
         verifiedAt: '2026-05-17',
       },
@@ -59,7 +76,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     신청방법2: {
       value: '홈페이지(15990903.or.kr) 온라인 신청',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '온라인 신청: www.15990903.or.kr',
         verifiedAt: '2026-05-17',
       },
@@ -67,7 +84,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     소형수거: {
       value: '소형 가전 5개 미만은 배출스티커 부착 후 문 앞 배출',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '소형 5개 미만은 무상 방문수거 불가, 별도 배출 방법 이용',
         verifiedAt: '2026-05-17',
       },
@@ -75,7 +92,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     처리방법: {
       value: '친환경 재활용 (가전 회수 후 유해물질 제거·재활용)',
       source: {
-        url: 'https://www.15990903.or.kr',
+        url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
         text: '수거된 가전제품은 친환경적으로 재활용 처리',
         verifiedAt: '2026-05-17',
       },
@@ -85,6 +102,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
   qa: [
     {
       anchor: '폐가전수거란',
+      act: { cue: '버리는 데 돈이 드는 대형 가전을 무상으로 가져갑니다. 어떤 사업인지부터 보세요.', label: '사업 안내 확인하기', url: 'https://www.15990903.or.kr/portal/cnts/information.do' },
       question: '폐가전 무상 방문수거 서비스란 무엇인가요?',
       intro: '폐가전 무상 방문수거 서비스는 환경부와 한국전자제품환경협회가 운영하는 제도로, 가정에서 버리기 어려운 대형 폐가전제품을 무료로 방문하여 수거해 가는 서비스입니다. 냉장고·세탁기·에어컨·TV 등 대형 가전을 혼자 처분하기 어려운 경우 전화(1599-0903)나 홈페이지(15990903.or.kr)로 신청하면 지정 날짜에 직원이 방문하여 수거합니다. 수거 비용은 전혀 없으며, 수거된 제품은 친환경 방식으로 재활용됩니다.',
       highlights: ['완전 무료', '냉장고·세탁기·에어컨·TV 등 대형 가전', '전화 1599-0903 or 홈페이지 신청', '친환경 재활용 처리'],
@@ -101,6 +119,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     },
     {
       anchor: '수거대상품목',
+      act: { cue: '품목과 크기 조건이 정해져 있어 내 물건이 되는지부터 확인해야 헛걸음을 안 합니다.', label: '수거 대상 품목 확인하기', url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do' },
       question: '폐가전 무상 방문수거 대상 품목은 어떤 것이 있나요?',
       intro: '폐가전 무상 방문수거 서비스는 다양한 가전제품을 수거합니다. 대형 가전은 냉장고·세탁기·건조기·에어컨·TV·컴퓨터(모니터 포함)·전자레인지·오디오·청소기 등이 포함됩니다. 소형 가전은 5개 이상인 경우에 한해 방문수거가 가능합니다. 단, 가전제품이 아닌 가구·조명·생활용품 등은 수거 대상에서 제외됩니다. 정확한 수거 대상 품목은 홈페이지(15990903.or.kr)에서 확인할 수 있습니다.',
       highlights: ['냉장고·세탁기·에어컨·TV 등 대형', '컴퓨터·모니터·전자레인지 등', '소형 5개 이상 방문수거 가능', '가구·조명 등 비가전 제외'],
@@ -119,6 +138,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     },
     {
       anchor: '신청방법',
+      act: { cue: '예약이 있어야 방문합니다. 지금 바로 온라인으로 접수할 수 있습니다.', label: '무상방문수거 예약하기', url: 'https://www.15990903.or.kr/portal/reserve/reserve.do' },
       question: '폐가전 무상 방문수거 신청 방법은 어떻게 되나요?',
       intro: '폐가전 무상 방문수거는 전화와 온라인 두 가지 방법으로 신청할 수 있습니다. 전화 신청은 1599-0903으로 연락하면 수거 일정과 방법을 안내받을 수 있습니다. 온라인 신청은 홈페이지(15990903.or.kr)에서 품목·날짜·주소를 입력하여 예약합니다. 신청 후 지정된 날짜에 수거 직원이 방문하여 제품을 가져갑니다. 수거 당일 집 앞 또는 1층에 내놓거나, 직원이 직접 실내에서 수거하는 경우도 있습니다.',
       highlights: ['☎1599-0903 전화 신청', '15990903.or.kr 온라인 예약', '지정 날짜에 직원 방문', '문 앞 or 실내 수거'],
@@ -135,6 +155,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     },
     {
       anchor: '소형가전처리',
+      act: { cue: '소형은 단독으로는 안 되고 조건이 붙습니다. 이용안내에서 기준을 대조해 보세요.', label: '소형가전 기준 대조하기', url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do' },
       question: '소형 가전은 무상 방문수거가 안 된다면 어떻게 처리하나요?',
       intro: '소형 가전 5개 미만의 경우 무상 방문수거 서비스를 이용할 수 없습니다. 이런 경우에는 한국전자제품환경협회가 운영하는 무상수거 보조 방법을 활용할 수 있습니다. 배출 스티커를 발급받아 제품에 부착한 후 문 앞에 내놓으면 수거해 가는 방식이 있습니다. 또한 대형마트·전자제품 판매점·주민센터에 설치된 소형 폐가전 수거함에 직접 가져다 놓을 수도 있습니다. 지역 행정복지센터나 환경부 콜센터에서 가까운 수거함 위치를 안내받을 수 있습니다.',
       highlights: ['5개 미만: 배출 스티커 방식', '마트·판매점 수거함 이용', '행정복지센터에서 수거함 위치 안내'],
@@ -151,6 +172,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     },
     {
       anchor: '수거불가품목',
+      act: { cue: '수거가 안 되는 품목을 미리 알아야 다른 처리 방법을 준비할 수 있습니다.', label: '수거 불가 사례 검색하기', url: 'https://www.15990903.or.kr/portal/faq/selectPageListFaq.do' },
       question: '폐가전 무상 방문수거가 안 되는 품목은 무엇인가요?',
       intro: '폐가전 무상 방문수거 서비스는 전기·전자제품에만 적용됩니다. 가구(소파·침대·책상 등), 조명기구(형광등·LED 등), 자전거, 생활용품 등은 수거 대상에서 제외됩니다. 또한 가스 제품이나 연료를 사용하는 제품도 대상에서 제외될 수 있습니다. 에어컨의 경우 실외기는 수거 가능하지만, 실외기 분리·철거 비용은 별도로 부담해야 할 수 있습니다. 불확실한 품목은 신청 전 1599-0903으로 확인하세요.',
       highlights: ['가구·조명·자전거 제외', '가스제품 제외', '에어컨 실외기 분리비 별도', '불확실 품목: ☎1599-0903 확인'],
@@ -167,6 +189,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     },
     {
       anchor: '에어컨수거',
+      act: { cue: '설치 상태나 지역에 따라 예약이 막히기도 합니다. 우리 지역이 되는지 먼저 조회하세요.', label: '예약 가능 지역 조회하기', url: 'https://www.15990903.or.kr/portal/reserve/searchReserveLocation.do' },
       question: '에어컨 폐가전 수거 시 주의할 점은 무엇인가요?',
       intro: '에어컨은 실내기와 실외기 모두 무상 방문수거 대상입니다. 단, 에어컨을 벽에서 분리하는 철거 작업(실내기 탈거, 실외기 분리, 냉매 회수 등)은 별도 비용이 발생할 수 있습니다. 가전 교체 구매 시 설치업체가 함께 철거해 주는 경우도 있습니다. 수거를 신청하기 전에 에어컨 분리 여부를 확인하고, 분리된 상태에서 방문수거를 신청하는 것이 좋습니다. 냉매(프레온가스 등)는 환경 규정에 따라 별도 처리가 필요합니다.',
       highlights: ['에어컨 실내기·실외기 수거 가능', '철거비는 별도 발생 가능', '분리 후 수거 신청 권장', '냉매는 별도 처리'],
@@ -183,6 +206,7 @@ export const usedAppliancePickupPolicy: PolicyData = {
     },
     {
       anchor: '이용팁',
+      act: { cue: '예약한 뒤에는 일정 변경이나 취소도 온라인으로 됩니다. 수거확인서도 여기서 발급합니다.', label: '예약 조회·수거확인서 발급하기', url: 'https://www.15990903.or.kr/portal/reserve/searchReserve.do' },
       question: '폐가전 무상 방문수거 서비스 이용 시 유용한 팁은 무엇인가요?',
       intro: '폐가전 무상 방문수거 서비스를 더욱 효과적으로 이용하려면 몇 가지 팁을 알아두면 좋습니다. 이사·이사철에는 수거 예약이 몰려 일정이 늦어질 수 있으므로 이삿날보다 1~2주 전에 미리 예약하는 것이 좋습니다. 새 가전제품 구매 시 배달 업체에 구형 제품 수거를 요청하면 별도 절차 없이 처리할 수 있습니다. 온라인 예약이 전화보다 빠른 경우가 많으며, 수거 가능 일정을 직접 선택할 수 있습니다.',
       highlights: ['이사 전 1~2주 미리 예약', '새 가전 구매 시 배달 업체 수거 요청', '온라인 예약이 빠를 수 있음'],
@@ -239,11 +263,11 @@ export const usedAppliancePickupPolicy: PolicyData = {
   sources: [
     {
       label: '한국전자제품환경협회 폐가전 방문수거 홈페이지',
-      url: 'https://www.15990903.or.kr',
+      url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
     },
     {
       label: '환경부 폐가전제품 수거 안내',
-      url: 'https://www.me.go.kr',
+      url: 'https://www.15990903.or.kr/portal/cnts/userGuide.do',
     },
     {
       label: '정부24 폐가전 무상 방문수거 서비스',
