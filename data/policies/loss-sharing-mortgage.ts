@@ -39,7 +39,7 @@ export const lossSharingMortgagePolicy = {
     },
     {
       q: '누가 신청할 수 있나요?', anchor: 'q-eligibility',
-      act: { cue: '생애최초·무주택 요건에 걸립니다. 대조부터 하는 게 순서다.', label: '대출 요건 대조하기', url: 'https://www.myhome.go.kr/hws/portal/cont/selectLossSharingMortgageView.do' },
+      act: { cue: '생애최초·무주택 요건에 걸립니다. 대조부터 하는 게 순서다.', label: '대출 요건 대조하기', url: 'https://www.myhome.go.kr/hws/portal/dgn/selectSelfDiagnosisIntroView.do' },
       intro: '대출 신청일 현재 만 19세 이상 세대주로서 세대주를 포함한 세대원 전원이 무주택자여야 하며, 생애최초 주택구입자이거나 5년 이상 무주택자여야 합니다. 부부합산 총소득이 연 6천만원 이하(생애최초 구입자는 7천만원 이하), 순자산가액 5.11억원 이하여야 하며, 분양권·조합원 입주권을 보유하면 대출이 제한됩니다. 본인이 생애최초 구입자에 해당하는지, 5년 이상 무주택 요건을 충족하는지 미리 확인해두는 것이 좋습니다.',
       highlights: ['만19세 이상 세대주, 세대원 전원 무주택', '생애최초 또는 5년 이상 무주택', '소득 6천만원(생애최초 7천만원) 이하', '순자산 5.11억원 이하'],
       box: { label: '자격요건', content: '생애최초·5년무주택 세대주, 소득 6천만원(생애최초 7천만원)·순자산 5.11억원 이하.' },
@@ -72,7 +72,7 @@ export const lossSharingMortgagePolicy = {
     },
     {
       q: '어디서, 어떻게 신청하나요?', anchor: 'q-apply',
-      act: { cue: '기금 수탁은행에서 접수합니다. 절차를 보고 움직이십시오.', label: '신청 절차 확인하기', url: 'https://enhuf.molit.go.kr/index.jsp' },
+      act: { cue: '기금 수탁은행에서 접수합니다. 절차를 보고 움직이십시오.', label: '신청 절차 확인하기', url: 'https://www.myhome.go.kr/hws/portal/dgn/selectSelfDiagnosisIntroView.do' },
       intro: '대출 신청은 소유권 이전등기 전에 해야 하며, 해당 주택에 1순위 근저당권을 설정합니다(설정비율 130%). 대출기간은 20년 만기일시상환이며, 업무취급은행은 우리은행(1599-0800), 국민은행(1599-1771), 신한은행(1599-8000)입니다. 각 은행 영업점이나 홈페이지에서 신청할 수 있습니다. 소유권 이전등기 전이라는 신청 시점을 놓치지 않도록 계약 진행 일정에 맞춰 미리 신청을 준비하는 것이 좋습니다.',
       highlights: ['소유권 이전등기 전 신청', '20년 만기일시상환', '1순위 근저당권 설정(130%)', '우리·국민·신한은행 취급'],
       box: { label: '신청', content: '소유권 이전등기 전, 우리·국민·신한은행에서 신청.' },

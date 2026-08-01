@@ -32,7 +32,7 @@ export const officetelPurchaseLoanPolicy = {
     },
     {
       q: '누가 신청할 수 있나요?', anchor: 'q-eligibility',
-      act: { cue: '부부합산 총소득 6천만원 이하 등 요건이 걸립니다.', label: '대출 요건 대조하기', url: 'https://www.myhome.go.kr/hws/portal/cont/selectFundsPurchaseOfficetelView.do' },
+      act: { cue: '부부합산 총소득 6천만원 이하 등 요건이 걸립니다.', label: '대출 요건 대조하기', url: 'https://www.myhome.go.kr/hws/portal/dgn/selectSelfDiagnosisIntroView.do' },
       intro: '부부합산 총소득이 6천만원 이하, 순자산가액이 5.11억원 이하인 무주택 세대주가 대상입니다. 대출 신청일 현재 세대주(또는 세대주로 인정되는 자)로서 세대주를 포함한 세대원 전원이 무주택이어야 합니다. 만 30세 미만 미혼 단독세대주는 원칙적으로 제외되나, 직계존속과 6개월 이상 동일세대를 구성한 경우는 예외적으로 가능합니다. 세대주나 세대원이 분양권·조합원 입주권을 보유하면 대출이 제한됩니다.',
       highlights: ['소득 6천만원 이하·순자산 5.11억원 이하', '무주택 세대주(세대원 전원 무주택)', '만30세 미만 단독세대주 원칙 제외', '분양권·조합원입주권 보유 시 제한'],
       table: { caption: '대출 자격 요건', headers: ['항목', '기준'], rows: [['소득', '부부합산 6천만원 이하'], ['순자산', '5.11억원 이하'], ['주택보유', '세대원 전원 무주택'], ['분양권 등 보유', '대출 제한']] },
@@ -71,7 +71,7 @@ export const officetelPurchaseLoanPolicy = {
     },
     {
       q: '언제, 어디서 신청하나요?', anchor: 'q-apply',
-      act: { cue: '기금 수탁은행 접수입니다. 절차를 보고 준비하십시오.', label: '신청 절차 확인하기', url: 'https://enhuf.molit.go.kr/index.jsp' },
+      act: { cue: '기금 수탁은행 접수입니다. 절차를 보고 준비하십시오.', label: '신청 절차 확인하기', url: 'https://www.myhome.go.kr/hws/portal/dgn/selectSelfDiagnosisIntroView.do' },
       intro: '대출은 소유권 이전등기 전에 신청하는 것이 원칙이며, 이미 이전등기를 마쳤다면 등기 접수일로부터 3개월 이내에 신청할 수 있습니다. 대출실행일 이전에 해당 오피스텔에 1순위 근저당권을 설정합니다. 업무취급은행은 우리은행(1599-0800), 국민은행(1599-1771), 하나은행(1599-1111), NH농협(1588-2100), 신한은행(1599-8000)입니다.',
       highlights: ['소유권 이전등기 전 신청 원칙', '등기 완료 시 접수일부터 3개월 이내', '1순위 근저당권 설정', '우리·국민·하나·농협·신한은행 취급'],
       box: { label: '신청', content: '등기 전(또는 접수일부터 3개월 이내) 5개 취급은행에서 신청.' },

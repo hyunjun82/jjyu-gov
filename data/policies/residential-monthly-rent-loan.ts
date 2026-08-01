@@ -30,7 +30,7 @@ export const residentialMonthlyRentLoanPolicy = {
     },
     {
       q: '우대형 대상은 누구인가요?', anchor: 'q-preferential',
-      act: { cue: '우대형은 조건이 더 좋습니다. 해당하는지 보십시오.', label: '우대형 요건 대조하기', url: 'https://www.myhome.go.kr/hws/portal/cont/selectResidentialMonthlyRentLoanView.do' },
+      act: { cue: '우대형은 조건이 더 좋습니다. 해당하는지 보십시오.', label: '우대형 요건 대조하기', url: 'https://www.myhome.go.kr/hws/portal/dgn/selectSelfDiagnosisIntroView.do' },
       intro: '우대형은 ① 부모와 따로 거주하거나 독립하려는 만35세 이하 무소득자로 부모 소득 6천만원 이하인 취업준비생, ② 희망저축(키움)통장 가입자, ③ 취업 후 5년 이내·만35세 이하·부부합산 연소득 4천만원 이하인 사회초년생, ④ 최근 1년 이내 근로장려금 수급 세대주, ⑤ 최근 1년 이내 자녀장려금 수급 세대주, ⑥ 주거급여 수급 세대주 중 하나에 해당하면 적용됩니다.',
       highlights: ['취업준비생(만35세 이하 무소득자)', '희망저축통장 가입자', '사회초년생(취업 5년 이내)', '근로·자녀장려금·주거급여 수급 세대주'],
       table: { caption: '우대형 대상', headers: ['유형', '요건'], rows: [['취업준비생', '만35세 이하 무소득, 부모소득 6천만원 이하'], ['사회초년생', '취업 5년 이내, 만35세 이하, 부부소득 4천만원 이하'], ['장려금·주거급여 수급자', '최근 1년 이내 수급 세대주']] },
@@ -61,7 +61,7 @@ export const residentialMonthlyRentLoanPolicy = {
     },
     {
       q: '어떻게 신청하나요?', anchor: 'q-apply',
-      act: { cue: '수탁은행에서 접수합니다. 절차부터 확인하십시오.', label: '신청 절차 확인하기', url: 'https://enhuf.molit.go.kr/index.jsp' },
+      act: { cue: '수탁은행에서 접수합니다. 절차부터 확인하십시오.', label: '신청 절차 확인하기', url: 'https://www.myhome.go.kr/hws/portal/dgn/selectSelfDiagnosisIntroView.do' },
       intro: '임대차계약서 만기일 이내에 신청해야 하며, 기금 대출과 별도로 한국주택금융공사(HF) 월세자금보증도 신청해야 합니다(보증 신청시기는 제한 없음). 대출 취급 영업점은 원칙적으로 임차대상주택이 소재한 도내 영업점이며, 신청은 기금e든든이나 기금 수탁은행 창구를 통해 할 수 있습니다.',
       highlights: ['임대차계약서 만기일 이내 신청', 'HF 월세자금보증 별도 신청 필요', '주택 소재지 도내 영업점 원칙', '기금e든든·수탁은행에서 신청'],
       box: { label: '신청', content: '계약 만기일 이내에 기금e든든·은행에서 신청, HF 월세자금보증도 별도 신청.' },
