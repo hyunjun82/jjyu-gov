@@ -40,7 +40,7 @@ export const birthCareEmploymentGrantPolicy = {
       highlights: ['월 최대 130~140만', '단축은 120만', '30일 이상 고용', '인수인계기간 포함'],
       box: { label: '대체인력 지원', content: '대상: 우선지원기업 사업주 / 단가: 30인 미만 월 최대 140만·30인 이상 130만·단축 120만 / 요건: 대체인력 30일 이상 계속 고용 / 인수인계: 시작 전 2개월·종료 후 1개월까지 지원' },
       sourceNote: '* 출처: 고용24 대체인력지원금 제도안내 (2026-08-01 확인)',
-      act: { cue: '30인 미만이냐 이상이냐로 월 10만원, 1년이면 120만원이 갈립니다. 우리 사업장 단가는 안내 페이지 표에서 바로 나옵니다.', label: '대체인력 지원금 단가 보기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000303&systId=SI00000393' },
+      act: { cue: '30인 미만이냐 이상이냐로 월 10만원, 1년이면 120만원이 갈립니다. 우리 사업장 단가는 안내 페이지 표에서 바로 나옵니다.', label: '대체인력 단가 조회하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000303&systId=SI00000393' },
     },
     {
       q: '육아휴직 지원금?', anchor: 'q-leave',
@@ -56,7 +56,7 @@ export const birthCareEmploymentGrantPolicy = {
       highlights: ['1인당 월 최대 40~60만', '단축은 20만', '동료 최대 5명', '실지급액 한도'],
       box: { label: '업무분담', content: '대상: 동료에게 실제 금전 지원한 우선지원기업 / 단가: 육아휴직 30인 미만 60만·30인 이상 40만·단축 20만 / 지정: 업무분담 근로자 최대 5명 / 한도: 사업주 지급액 초과 불가' },
       sourceNote: '* 출처: 고용24 업무분담지원금 제도안내 (2026-08-01 확인)',
-      act: { cue: '동료 5명에게 수당을 주고도 신청을 안 하면 매달 최대 300만원(60만×5명)을 그냥 버리는 셈입니다.', label: '업무분담지원금 요건 보기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000456&systClId=SC00000379' },
+      act: { cue: '동료 5명에게 수당을 주고도 신청을 안 하면 매달 최대 300만원(60만×5명)을 그냥 버리는 셈입니다.', label: '업무분담 요건 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000456&systClId=SC00000379' },
     },
     {
       q: '2026 신설 10시 출근제?', anchor: 'q-2026',
@@ -64,7 +64,7 @@ export const birthCareEmploymentGrantPolicy = {
       highlights: ['10시 출근', '월 30만', '임금 삭감 X', '주 15~35시간'],
       box: { label: '10시 출근제', content: '대상: 만 12세(초6) 이하 자녀 근로자를 둔 중소·중견 사업주 / 단축: 주 15~35시간 / 임금: 감소 없이 허용 / 지원: 근로자 1인당 월 30만원 / 2026-01-01 신설' },
       sourceNote: '* 출처: 대한민국 정책브리핑 (2026-08-01 확인)',
-      act: { cue: '올해 처음 생긴 제도라 모르고 지나가는 회사가 많습니다. 정책브리핑 원문에서 우리 회사가 되는지 3분이면 확인됩니다.', label: '10시 출근제 원문 읽기', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148957375' },
+      act: { cue: '올해 처음 생긴 제도라 모르고 지나가는 회사가 많습니다. 정책브리핑 원문에서 우리 회사가 되는지 3분이면 확인됩니다.', label: '10시 출근제 원문 확인하기', url: 'https://www.korea.kr/news/policyNewsView.do?newsId=148957375' },
     },
     {
       q: '어떻게 신청?', anchor: 'q-apply',

@@ -57,7 +57,7 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
         url: 'https://eiac.ei.go.kr/ei/eim/eg/ei/eiEminsr/retrieveOe0802Info.do',
         cardIndex: 1,
         text: '근로자를 사용하지 않거나 50명 미만의 근로자를 사용하는 사업주',
-        verifiedAt: '2025-08-27',
+        verifiedAt: '2026-08-01',
       },
     },
     수급자격요건: {
@@ -66,7 +66,7 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
         url: 'https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000347&systCnntId=&systClId=SC00000258',
         cardIndex: 1,
         text: '1년 이상 자영업자 고용보험에 가입한 사업주로서, 매출액이 감소하는 등의 사유로 폐업한 경우',
-        verifiedAt: '2025-08-27',
+        verifiedAt: '2026-08-01',
       },
     },
     신청기한: {
@@ -84,7 +84,7 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
         url: 'https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000347&systCnntId=&systClId=SC00000258',
         cardIndex: 1,
         text: '고용·노동 분야 제도 문의 국번없이 1350',
-        verifiedAt: '2025-08-27',
+        verifiedAt: '2026-08-01',
       },
     },
     지급일수기준: {
@@ -192,7 +192,7 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
       intro: '자영업자 구직급여는 고용복지센터 방문이 반드시 필요합니다. 먼저 고용24(work24.go.kr)에서 구직 등록과 온라인 사전 교육을 마친 후, 가까운 고용복지센터를 방문해 수급자격 인정 신청서와 폐업 사유 관련 서류를 제출합니다. 수급자격 인정 후에는 1~4주마다 실업 인정을 받아야 급여를 받을 수 있으며, 폐업일 다음 날부터 1년 이내에 신청해야 합니다.',
       highlights: ['고용복지센터 방문 필수', '고용24 구직 등록 + 온라인 사전 교육 먼저', '폐업일 다음날부터 1년 이내 신청', '1~4주마다 실업인정 필요'],
       sourceNote: '고용24 실업급여(자영업자) 안내(2026.08.01 재확인)',
-      act: { cue: '폐업일 다음 날부터 1년이 지나면 남은 지급일수가 있어도 소멸합니다. 첫 단계인 구직 등록은 고용24에서 바로 됩니다.', label: '고용24에서 구직 등록하기', url: 'https://www.work24.go.kr/' },
+      act: { cue: '폐업일 다음 날부터 1년이 지나면 남은 지급일수가 있어도 소멸합니다. 첫 단계인 구직 등록은 고용24에서 바로 됩니다.', label: '고용24에서 구직 등록하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000347' },
       box: {
         title: '📋 신청 절차 6단계',
         items: [
@@ -211,7 +211,7 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
       intro: '자영업자 구직급여는 폐업일 다음 날부터 1년이 지나면 잔여 지급일수가 있어도 받을 수 없으므로 빠르게 신청해야 합니다. 구직급여 수급 중 일을 하면 반드시 신고해야 하며, 허위·형식적 구직활동은 부지급 조치와 형사처벌(1년 이하 징역 또는 300만원 이하 벌금)을 받을 수 있습니다. 또한 국민취업지원제도와는 동시 수급이 불가합니다. 실업 인정을 받는 주기(1~4주)마다 정해진 기한 내에 고용복지센터를 방문하거나 온라인으로 신고하지 않으면 그 회차의 급여가 지급되지 않을 수 있으니 일정을 놓치지 않도록 유의해야 합니다.',
       highlights: ['폐업 후 1년 내 신청 필수', '수급 중 취업·소득 발생 시 즉시 신고', '부정수급 시 형사처벌', '국민취업지원제도 동시 수급 불가'],
       sourceNote: '고용24 실업급여(자영업자) 안내(2026.08.01 재확인)',
-      act: { cue: '보험료를 연속 6회 미납하면 자동 소멸되고, 뒤늦게 내도 되살릴 수 없습니다. 미납 여부는 토탈서비스에서 지금 조회됩니다.', label: '보험료 납부내역 조회하기', url: 'https://total.comwel.or.kr/' },
+      act: { cue: '보험료를 연속 6회 미납하면 자동 소멸되고, 뒤늦게 내도 되살릴 수 없습니다. 미납 여부는 토탈서비스에서 지금 조회됩니다.', label: '보험료 납부내역 조회하기', url: 'https://www.comwel.or.kr/comwel/paym/ownr/insu.jsp' },
       box: {
         title: '⚠️ 주요 주의사항',
         items: [

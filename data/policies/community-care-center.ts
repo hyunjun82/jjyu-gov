@@ -47,7 +47,7 @@ export const communityCareCenterPolicy = {
       highlights: ['학기 14~20시', '방학 9~18시', '연장 돌봄 일부', '평일 중심'],
       table: { caption: '운영 시간 (표준)', headers: ['기간','시간'], rows: [['학기 평일','14:00~20:00 (6h)'],['방학 평일','09:00~18:00 (9h)'],['연장 돌봄 (일부)','아침·저녁 연장'],['토요일','일부 센터']] },
       sourceNote: '* 출처: 보건복지부',
-      act: { cue: '표준은 학기 14~20시지만 13시에 여는 센터도, 저녁 연장을 하는 센터도 있습니다. 퇴근 시간과 안 맞으면 헛걸음 — 시간표부터 대조하십시오.', label: '센터별 운영시간 보기', url: 'https://www.dadol.or.kr/center/center_intro' },
+      act: { cue: '표준은 학기 14~20시지만 13시에 여는 센터도, 저녁 연장을 하는 센터도 있습니다. 퇴근 시간과 안 맞으면 헛걸음 — 시간표부터 대조하십시오.', label: '센터별 운영시간 조회하기', url: 'https://www.dadol.or.kr/center/center_intro' },
     },
     {
       q: '대상은?', anchor: 'q-target',
@@ -71,7 +71,7 @@ export const communityCareCenterPolicy = {
       highlights: ['다함께 보편', '지역아동 취약계층', '월 10만 vs 무상', '본인 선택'],
       table: { caption: '다함께 vs 지역아동', headers: ['구분','다함께돌봄','지역아동센터'], rows: [['대상','모든 초등 (소득 무관)','취약계층 위주'],['이용료','월 10만 이내','무상'],['시간','학기 6h·방학 9h','학기 4~5h']] },
       sourceNote: '* 출처: 보건복지부',
-      act: { cue: '소득 기준에 걸려 지역아동센터가 안 되는 맞벌이 가정이라면, 소득 무관인 이쪽이 사실상 유일한 동네 돌봄 선택지입니다.', label: '사업 안내 자세히 보기', url: 'https://www.dadol.or.kr/biz/biz_intro' },
+      act: { cue: '소득 기준에 걸려 지역아동센터가 안 되는 맞벌이 가정이라면, 소득 무관인 이쪽이 사실상 유일한 동네 돌봄 선택지입니다.', label: '사업 내용 확인하기', url: 'https://www.dadol.or.kr/biz/biz_intro' },
     },
     {
       q: '다른 돌봄과 중복?', anchor: 'q-overlap',
