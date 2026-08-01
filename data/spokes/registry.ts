@@ -975,6 +975,7 @@ import { 층간소음해결방법SpokeContent } from '@/app/policy/[id]/[spoke]/
 
 /* ── 해외여행 면세 한도 (slug: travel-duty-free) ── */
 import { 해외여행면세면세한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/해외여행면세/면세한도';
+import { 해외여행면세가족합산SpokeContent }  from '@/app/policy/[id]/[spoke]/content/해외여행면세/family-limit';
 import { 해외여행면세술담배향수SpokeContent } from '@/app/policy/[id]/[spoke]/content/해외여행면세/술담배향수';
 import { 해외여행면세자진신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/해외여행면세/자진신고';
 
@@ -2088,6 +2089,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '면세한도': 해외여행면세면세한도SpokeContent,
     '술담배향수': 해외여행면세술담배향수SpokeContent,
     '자진신고': 해외여행면세자진신고SpokeContent,
+    'family-limit':  해외여행면세가족합산SpokeContent,
   },
 
   'climate-card-refund': {

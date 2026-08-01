@@ -110,6 +110,7 @@ export const travelDutyFreePolicy = {
 } as const;
 
 export const travelDutyFreeSpokes = [
+  { slug: 'family-limit', role: 'limit', title: '해외여행 면세한도 가족합산 되나, 1인 800달러 기준 확인하기', content: '면세범위는 여행자 1명당 800달러로 각자 적용되며 가족 한도를 합쳐 쓸 수 없음. 주류·담배·향수는 별도 한도, 만 19세 미만은 주류·담배 면세범위 없음.' },
   { slug: '면세한도', role: 'amount', title: '해외여행 면세 한도 800달러, 휴대품 과세가격 합계 기준', content: '기본 면세 미화 800달러(농축수산물 5kg·40kg·10만원 포함). 술·담배·향수 별도.' },
   { slug: '술담배향수', role: 'target', title: '해외 면세 술·담배·향수 한도, 주류 2L·담배 200개비·향수 100ml', content: '주류 2L·400달러 이하, 필터담배 200개비, 향수 100ml. 만19세 미만 주류담배 없음.' },
   { slug: '자진신고', role: 'apply', title: '면세 초과 자진신고 30% 경감, 미신고 가산세 40% 60%', content: '자진신고 관세 30% 경감. 미신고 적발 세액 40%(2년내 2회↑ 60%) 가산세.' },
