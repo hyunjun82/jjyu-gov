@@ -19,6 +19,7 @@
  *   D 딥링크 아님  act.url 이 기관 메인/루트가 아닌가 (그 카드의 행동 지점인가)
  *   E 어미 반복    한 글 안에서 같은 종결 표현이 3회 이상 반복되지 않는가
  *   F 라벨 정보형  버튼 라벨이 '…안내 보기'가 아니라 실제 행동인가
+ *   H 후킹 부재    문구에 숫자·손실·기한·물음 중 하나라도 실렸는가 (docs/hook-patterns.md)
  *
  * 사용:
  *   npx tsx scripts/check-cue-value.ts          # 변경된 허브만 (pre-push, 차단)
@@ -61,7 +62,7 @@ const LABEL_ACTION =
   /신청|조회|발급|다운로드|내려받|접수|제출|계산|신고|청구|납부|가입|등록|확인|받|찾|열|개설|해지|변경|연장|비교|대조|예매|예약|검색|열람|입찰|고르|골라|갈아타|챙기|남기|문의|따라가|맞춰|넣어/;
 const LABEL_WEAK = /(안내|정보|내용|자료)\s*(보기|확인)$|자세히\s*보기|^바로가기$|^보기$/;
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -159,6 +160,21 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
         fix: '"…안내 보기"는 정보다. 그 카드에서 할 동작을 그대로 쓴다 — "내 지원구간 확인하기", "공고문 PDF 내려받기"',
       });
     }
+  }
+
+  // ── H. 문구에 누를 이유가 실리는가 (후킹 부재) ────────
+  // 정본: docs/hook-patterns.md — 손실회피·숫자대비·시간압박·자기대입 4축.
+  // 숫자도, 잃는 것도, 물음도, 기한도 없는 문구는 정중한 설명일 뿐 눌리지 않는다.
+  // 2026-08-01 신설: "문구가 있는가"만 보던 게이트에 "누르고 싶은가"를 더했다.
+  const HOOK_SIGNAL =
+    /[0-9０-９]|[일이삼사오육칠팔구십백천만억]\s*(?:원|만원|천원|억|배|개월|일|년|시간|%|퍼센트)|못 받|안 받|놓치|사라지|소멸|끊기|막히|잃|날아가|깎이|물립|불이익|가산세|과태료|지나면|넘기면|늦으면|마감|기한|까지만|나요\?|인가요\?|을까\?|나\?|다면\?|vs|갈립니다|차이 납/;
+  const flat = cues.filter((c) => !HOOK_SIGNAL.test(c));
+  if (cues.length >= 3 && flat.length > Math.floor(cues.length / 2)) {
+    issues.push({
+      axis: 'H',
+      msg: `후킹 없는 설명형 문구가 ${flat.length}/${cues.length}개 — 예: "${flat[0].slice(0, 30)}…"`,
+      fix: '숫자·잃는 것·기한·물음 중 하나를 앞세운다 (docs/hook-patterns.md 4축, 절반 이상은 후킹 필수)',
+    });
   }
 
   // ── E. 한 글 안에서 어미가 반복되는가 ────────────────
@@ -296,12 +312,13 @@ const AXIS = {
   E: '어미 반복',
   F: '라벨 정보형',
   G: '버튼 슬롯 빈 문구',
+  H: '후킹 부재',
 } as const;
 
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -338,7 +355,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}`,
 );
 
 if (all) {

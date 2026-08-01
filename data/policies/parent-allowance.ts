@@ -73,7 +73,7 @@ export const parentAllowancePolicy = {
     {
       q: '누가 받을 수 있나요?',
       anchor: 'q-eligibility',
-      act: { cue: '소득을 보지 않는 대신 아동 국적과 주민등록이 조건입니다. 대상 요건을 대조해 보세요.', label: '지원대상 요건 대조하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657' },
+      act: { cue: '소득은 안 보는데 국적·주민등록에서 걸려 못 받는 경우가 있습니다. 우리 아이가 해당되는지 1분이면 대조됩니다.', label: '지원대상 요건 대조하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657' },
       intro: '대한민국 국적의 만 2세 미만(0~23개월) 아동이라면 소득·재산 기준 없이 누구나 받을 수 있습니다. 출생신고가 완료된 아동이 가정에서 양육되는 경우 신청 가능하며, 아동복지시설 보호 아동은 별도 지원 체계가 적용됩니다. F-5 영주권자 자녀도 일부 인정됩니다. 정확한 수급 자격은 복지로(bokjiro.go.kr) 또는 보건복지상담센터 129에 문의하시면 됩니다. 본 정책은 보건복지부 공식 자료에 기반합니다.',
       highlights: ['만 2세 미만', '소득기준 없음'],
       box: {
@@ -85,7 +85,7 @@ export const parentAllowancePolicy = {
     {
       q: '어떻게 신청하나요?',
       anchor: 'q-apply',
-      act: { cue: '출생신고와 함께 접수하면 한 번에 끝납니다. 복지로에서 온라인으로도 신청됩니다.', label: '복지로에서 신청 접수하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657' },
+      act: { cue: '출생 후 60일을 넘기면 그 전 달들은 소급되지 않습니다. 출생신고와 같이 접수하면 한 번에 끝납니다.', label: '복지로에서 신청 접수하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657' },
       intro: '행정복지센터 방문 또는 복지로·정부24 온라인으로 신청할 수 있습니다. 출생신고와 동시에 부모급여를 원스톱으로 신청하면 가장 편리합니다. 소득기준이 없어 별도 소득 서류가 필요 없으며 신분증·출생증명서·통장사본·주민등록등본만 준비하면 됩니다. 신청 다음 달부터 매월 25일 본인 계좌로 자동 입금됩니다. 신청 절차는 변경될 수 있으니 보건복지부 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['행정복지센터', '복지로', '정부24', '원스톱'],
       box: {
@@ -101,7 +101,7 @@ export const parentAllowancePolicy = {
     {
       q: '지급일은 언제인가요?',
       anchor: 'q-date',
-      act: { cue: '지급일에 안 들어왔다면 신청 상태부터 봐야 합니다. 처리 단계가 어디인지 확인해 보세요.', label: '신청 처리 상태 조회하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657' },
+      act: { cue: '25일에 입금이 없다면 어딘가에서 멈춘 겁니다. 처리 단계가 어디인지 조회하면 바로 나옵니다.', label: '신청 처리 상태 조회하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657' },
       intro: '부모급여는 가정에서 양육하는 경우 매월 25일, 어린이집 이용 아동의 차액은 익월 20일에 지급됩니다. 25일이 주말·공휴일이면 직전 영업일에 입금됩니다. 만 1세 아동이 어린이집을 이용하면 보육료(51만5천원)가 부모급여(50만원)를 초과하여 차액이 0원이 되므로 현금 수령이 없습니다. 신청 후 지급 시작까지 1개월이 소요되며, 지급일은 복지로에서 확인할 수 있습니다.',
       highlights: ['매월 25일', '익월 20일'],
       table: {
@@ -149,7 +149,7 @@ export const parentAllowancePolicy = {
     {
       q: '아이돌봄서비스와 중복 가능한가요?',
       anchor: 'q-overlap',
-      act: { cue: '첫만남이용권과 아동수당은 부모급여와 별개로 각각 받습니다. 빠뜨린 게 없는지 점검하세요.', label: '첫만남이용권 신청 상태 점검하기', url: 'https://www.gov.kr/portal/service/serviceInfo/135200005015' },
+      act: { cue: '부모급여만 받고 첫만남이용권 200만원·아동수당 10만원을 빠뜨리는 집이 있습니다. 각각 신청해야 각각 나옵니다.', label: '첫만남이용권 신청 상태 점검하기', url: 'https://www.gov.kr/portal/service/serviceInfo/135200005015' },
       intro: '부모급여와 아이돌봄서비스는 별개 제도로 중복 신청이 가능합니다. 단, 종일제 아이돌봄을 이용하는 경우에는 부모급여에서 종일제 이용 비용 일부가 차감될 수 있습니다. 시간제 아이돌봄은 부모급여와 완전 중복 가능합니다. 아이돌봄 외에도 아동수당(만 8세 미만 월 10만원)은 부모급여와 동시 수령이 가능합니다. 정확한 중복 수혜 여부는 129 상담센터에 문의하거나 보건복지부 공식 사이트에서 확인하세요.',
       highlights: ['별도 신청', '종일제 아이돌봄'],
       box: {
