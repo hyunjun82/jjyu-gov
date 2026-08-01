@@ -762,6 +762,8 @@ import { 신생아특례대출버팀목전세SpokeContent } from '@/app/policy/[
 import { 신생아특례대출금리우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/금리우대';
 import { 신생아특례대출신청대환SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/신청대환';
 import { 신생아특례대출신청시기생애최초SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/신청시기생애최초';
+import { 신생아특례대출특례금리종료SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/rate-after-special';
+import { 신생아특례대출준비서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/documents';
 /* ── 디딤돌 대출 (slug: didimdol-loan) ── */
 import { 디딤돌대출대상소득SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/대상소득';
 import { 디딤돌대출한도주택가액SpokeContent } from '@/app/policy/[id]/[spoke]/content/디딤돌대출/한도주택가액';
@@ -2248,6 +2250,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '금리우대':   신생아특례대출금리우대SpokeContent,
     '신청대환':   신생아특례대출신청대환SpokeContent,
     'application-timing-first-buyer': 신생아특례대출신청시기생애최초SpokeContent,
+    'rate-after-special': 신생아특례대출특례금리종료SpokeContent,
+    'documents': 신생아특례대출준비서류SpokeContent,
   },
 
   'year-end-tax': {
