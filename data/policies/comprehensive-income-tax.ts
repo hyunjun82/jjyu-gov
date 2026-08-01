@@ -22,7 +22,7 @@ export const comprehensiveIncomeTaxPolicy = {
   qa: [
     {
       q: '종합소득세는 언제까지 신고해야 하나요?', anchor: 'q-deadline',
-      act: { cue: '5월을 넘기면 가산세가 붙습니다. 날짜를 확인하십시오.', label: '신고 기한 확인하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '5월을 넘기면 가산세가 붙습니다. 날짜를 확인하십시오.', label: '신고 기한 확인하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '종합소득세는 매년 5월 1일부터 5월 31일까지 신고·납부하는 것이 원칙입니다. 다만 외부 세무조정 등 성실신고확인서를 제출해야 하는 사업자는 신고기한이 6월 30일까지로 연장됩니다. 신고기한이 토요일이나 공휴일과 겹치면 그다음 평일까지로 자동 연장됩니다. 거주자가 사망한 경우에는 상속개시일이 속한 달의 말일부터 6개월이 되는 날까지, 국외이전을 위해 출국하는 경우에는 출국일 전날까지 신고해야 합니다.',
       highlights: ['원칙: 매년 5월 1일~5월 31일', '성실신고확인대상자는 6월 30일까지', '토요일·공휴일 겹치면 다음날 연장', '사망·출국 시 별도 기한 적용'],
       table: { caption: '종합소득세 신고기한', headers: ['구분', '신고기한'], rows: [['일반', '5월 1일~5월 31일'], ['성실신고확인대상자', '5월 1일~6월 30일'], ['거주자 사망 시', '상속개시일 속한 달 말일부터 6개월'], ['해외이전 출국 시', '출국일 전날까지']] },
@@ -57,7 +57,7 @@ export const comprehensiveIncomeTaxPolicy = {
     },
     {
       q: '어떻게 신고하나요?', anchor: 'q-apply',
-      act: { cue: '홈택스에서 바로 신고할 수 있습니다.', label: '종합소득세 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '홈택스에서 바로 신고할 수 있습니다.', label: '종합소득세 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '종합소득세는 국세청 홈택스(hometax.go.kr)에서 전자신고하거나, 관할세무서를 방문해 서류를 제출해 신고할 수 있습니다. 단순경비율·기준경비율 대상자 등 일정 요건을 충족하는 사람에게는 국세청이 미리 계산한 세액을 알려주는 모두채움 신고 서비스가 제공되기도 합니다. 세액이 크면 분납도 가능하며, 신고·납부 방법에 대한 자세한 안내는 국세상담센터(☎126)에서 받을 수 있습니다.',
       highlights: ['홈택스(hometax.go.kr) 전자신고', '관할세무서 방문 신고도 가능', '모두채움 신고 서비스 대상자도 있음', '☎126 국세상담센터 문의'],
       box: { label: '신고방법', content: 'hometax.go.kr 전자신고 또는 관할세무서 방문. 대상자는 모두채움 서비스 이용.' },

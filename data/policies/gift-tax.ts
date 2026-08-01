@@ -23,7 +23,7 @@ export const giftTaxPolicy = {
   qa: [
     {
       q: '증여세는 언제까지 신고해야 하나요?', anchor: 'q-deadline',
-      act: { cue: '증여일이 속한 달 말일 기준으로 기한이 정해집니다.', label: '신고 기한 확인하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '증여일이 속한 달 말일 기준으로 기한이 정해집니다.', label: '신고 기한 확인하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '증여세는 재산을 증여받은 날이 속하는 달의 말일부터 3개월 이내에 주소지 관할세무서에 신고·납부해야 합니다. 상속세(6개월)보다 신고기한이 짧다는 점에 주의해야 합니다. 예를 들어 3월 15일에 증여받았다면 3월 말일부터 3개월인 6월 30일까지가 신고기한입니다. 기한 내 신고하지 않거나 과소신고하면 세액공제 혜택을 받을 수 없고 가산세도 추가로 부담하게 됩니다.',
       highlights: ['증여받은 날 속한 달 말일부터 3개월', '상속세(6개월)보다 신고기한 짧음', '기한 후 신고 시 세액공제 배제', '무신고·과소신고 시 가산세 부과'],
       box: { label: '신고기한', content: '증여받은 날 속한 달 말일부터 3개월 이내(상속세보다 짧음).' },
@@ -65,7 +65,7 @@ export const giftTaxPolicy = {
     },
     {
       q: '어떻게 신고·납부하나요?', anchor: 'q-apply',
-      act: { cue: '기한 내 신고하면 감면이 붙습니다.', label: '증여세 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '기한 내 신고하면 감면이 붙습니다.', label: '증여세 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '증여세 신고는 국세청 홈택스(hometax.go.kr)에서 전자신고하거나, 수증자 주소지 관할세무서에 서류를 제출해 신고할 수 있습니다. 기본세율 적용 증여재산은 증여세 과세표준신고 및 자진납부계산서, 증여재산 및 평가명세서(부표1), 채무사실 등 입증서류를 제출해야 합니다. 세액이 클 경우 분납이나 연부연납 제도를 활용할 수 있으며, 정확한 절차는 국세청 상담센터(☎126)에서 확인할 수 있습니다.',
       highlights: ['홈택스 전자신고 또는 관할세무서 제출', '증여재산 평가명세서 등 필수서류', '분납·연부연납 제도 활용 가능', '☎126 국세상담센터 문의'],
       box: { label: '신고·납부', content: 'hometax.go.kr 전자신고 또는 관할세무서 제출. 분납·연부연납 가능.' },

@@ -22,7 +22,7 @@ export const inheritanceTaxPolicy = {
   qa: [
     {
       q: '상속세는 언제까지 신고해야 하나요?', anchor: 'q-deadline',
-      act: { cue: '사망일이 속한 달 말일부터 6개월이 기준입니다.', label: '신고 기한 확인하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '사망일이 속한 달 말일부터 6개월이 기준입니다.', label: '신고 기한 확인하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '상속세 신고기한은 상속개시일(사망일)이 속하는 달의 말일부터 6개월 이내입니다. 다만 피상속인이나 상속인이 외국에 주소를 둔 경우에는 9개월 이내로 연장됩니다. 예를 들어 3월 15일 사망했다면 3월 말일부터 6개월인 9월 30일까지 신고해야 합니다. 필수 제출서류로는 상속세 과세표준신고 및 자진납부계산서, 상속세 과세가액 계산명세서, 상속인별 상속재산 평가명세서, 상속공제명세서 등이 있습니다.',
       highlights: ['상속개시일 속한 달 말일부터 6개월', '해외 거주 시 9개월', '기한 내 미신고 시 세액공제 배제+가산세', '필수 제출서류 다수'],
       box: { label: '신고기한', content: '상속개시일 속한 달 말일부터 6개월(해외 거주 9개월) 이내 신고.' },
@@ -64,7 +64,7 @@ export const inheritanceTaxPolicy = {
     },
     {
       q: '어떻게 신고·납부하나요?', anchor: 'q-apply',
-      act: { cue: '계산했으면 기한 안에 신고하십시오.', label: '상속세 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '계산했으면 기한 안에 신고하십시오.', label: '상속세 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '상속세 신고는 국세청 홈택스(hometax.go.kr)에서 전자신고하거나, 관할 세무서에 서류를 직접 제출해 신고할 수 있습니다. 필수 서류로 상속세 과세표준신고 및 자진납부계산서, 상속재산 평가명세서, 상속공제명세서 등을 갖춰야 합니다. 세액이 클 경우 분납(2개월 이내)이나 연부연납(장기간 나눠 납부), 물납(부동산 등으로 납부) 제도도 활용할 수 있으며, 정확한 세액 계산과 절차는 국세청 상담센터(☎126)나 세무 전문가 상담을 통해 확인하는 것이 정확합니다.',
       highlights: ['홈택스 전자신고 또는 관할세무서 제출', '분납·연부연납·물납 제도 활용 가능', '필수서류 다수(평가명세서 등)', '☎126 국세상담센터 문의'],
       box: { label: '신고·납부', content: 'hometax.go.kr 전자신고 또는 관할세무서 제출. 분납·연부연납·물납 가능.' },

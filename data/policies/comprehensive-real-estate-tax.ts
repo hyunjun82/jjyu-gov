@@ -57,7 +57,7 @@ export const comprehensiveRealEstateTaxPolicy = {
     },
     {
       q: '임대주택은 종합부동산세를 안 내도 되나요?', anchor: 'q-exclusion',
-      act: { cue: '합산배제 신고를 하면 과세에서 빠질 수 있다.', label: '합산배제 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '합산배제 신고를 하면 과세에서 빠질 수 있다.', label: '합산배제 신고하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '일정한 요건을 갖춘 임대주택, 미분양주택 등과 주택건설사업자의 주택신축용토지에 대해서는 매년 9월 16일부터 9월 30일까지 합산배제신고를 하면 종합부동산세 과세 대상에서 제외됩니다. 즉 해당 요건에 맞는 주택·토지를 보유하고 있다면 이 기간 내에 반드시 합산배제신고를 해야 세제 혜택을 받을 수 있습니다. 신고 기간을 놓치면 해당 연도에는 일반 과세 대상으로 계산돼 세부담이 커질 수 있으므로, 임대사업자로 등록했거나 미분양주택을 보유하고 있다면 매년 9월에 신고 여부를 미리 챙겨두는 것이 중요합니다.',
       highlights: ['매년 9월 16일부터 9월 30일까지 합산배제신고를 하면 종합부동산세 과세 대상에서 제외됩니다', '이 기간 내에 반드시 합산배제신고를 해야 세제 혜택을 받을 수 있습니다', '신고 기간을 놓치면 해당 연도에는 일반 과세 대상으로 계산돼 세부담이 커질 수 있으므로', '매년 9월에 신고 여부를 미리 챙겨두는 것이 중요합니다'],
       box: { label: '합산배제신고', content: '9월 16일~30일에 신고하면 임대주택 등은 종부세 과세대상에서 제외.' },
@@ -73,7 +73,7 @@ export const comprehensiveRealEstateTaxPolicy = {
     },
     {
       q: '어떻게 조회·납부하나요?', anchor: 'q-apply',
-      act: { cue: '고지 세액을 확인하고 납부하십시오.', label: '종부세 납부하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=19' },
+      act: { cue: '고지 세액을 확인하고 납부하십시오.', label: '종부세 납부하기', url: 'https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41' },
       intro: '종합부동산세 고지 내역과 세액은 국세청 홈택스(hometax.go.kr)에서 조회할 수 있으며, 홈택스를 통해 전자납부하거나 은행 등을 통해 납부할 수 있습니다. 세액이 클 경우 분납도 가능합니다. 본인의 과세대상 여부, 공제금액 적용, 합산배제신고 요건 등이 궁금하면 국세상담센터(☎126)나 관할세무서에서 확인할 수 있습니다. 매년 세율·공제금액이 바뀔 수 있으므로, 작년 고지서 금액만 보고 올해도 비슷할 것이라 단정하지 말고 홈택스에서 최신 고지 내역을 직접 확인하는 것이 정확합니다.',
       highlights: ['국세청 홈택스(hometax.go.kr)에서 조회할 수 있으며', '홈택스를 통해 전자납부하거나 은행 등을 통해 납부할 수 있습니다', '국세상담센터(☎126)나 관할세무서에서 확인할 수 있습니다', '홈택스에서 최신 고지 내역을 직접 확인하는 것이 정확합니다'],
       box: { label: '조회·납부', content: 'hometax.go.kr에서 고지내역 조회·전자납부. 분납 가능, ☎126 문의.' },
