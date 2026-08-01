@@ -5,7 +5,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
   slug: 'carbon-neutral-point',
   type: 'service',
   title: '탄소중립포인트 가입방법과 적립활동, 포인트는 얼마나 쌓이나요?',
-  org: '환경부 / 한국환경산업기술원',
+  org: '기후에너지환경부 / 한국환경산업기술원',
   cat: '생활서비스',
   catSlug: 'service',
   amount: '최대 연 7만원',
@@ -31,13 +31,13 @@ export const carbonNeutralPointPolicy: PolicyData = {
     {
       anchor: 'q1-what',
       q: '탄소중립포인트 녹색생활실천이란 무엇인가요?',
-      intro: '탄소중립포인트 녹색생활실천은 일반 국민의 탄소중립 생활 실천 문화 확산을 위해 다양한 민간기업의 친환경 활동 이용 시 이용 실적에 따라 인센티브를 지원하는 환경부 제도입니다. 전자영수증 발급, 텀블러 사용, 다회용기 이용 등 일상적인 친환경 활동을 실천하면 현금 또는 민간기업 포인트를 받을 수 있으며, 1인당 연간 최대 7만원까지 혜택을 받을 수 있습니다.',
+      intro: '탄소중립포인트 녹색생활실천은 일반 국민의 탄소중립 생활 실천 문화 확산을 위해 다양한 민간기업의 친환경 활동 이용 시 이용 실적에 따라 인센티브를 지원하는 기후에너지환경부 제도입니다. 전자영수증 발급, 텀블러 사용, 다회용기 이용 등 일상적인 친환경 활동을 실천하면 현금 또는 민간기업 포인트를 받을 수 있으며, 1인당 연간 최대 7만원까지 혜택을 받을 수 있습니다.',
       highlights: ['탄소중립포인트', '친환경활동', '최대 연 7만원', '현금 또는 포인트'],
       box: {
         label: '참여 목적',
-        content: '일반 국민의 탄소중립 생활 실천 문화를 확산하고, 일상에서 쉽게 실천할 수 있는 친환경 행동을 인센티브로 장려하기 위한 환경부 제도입니다.',
+        content: '일반 국민의 탄소중립 생활 실천 문화를 확산하고, 일상에서 쉽게 실천할 수 있는 친환경 행동을 인센티브로 장려하기 위한 기후에너지환경부 제도입니다.',
       },
-      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집 (cpoint.or.kr)',
+      sourceNote: '기후에너지환경부 / 한국환경산업기술원 탄소중립포인트 누리집 (cpoint.or.kr)',
     },
     {
       anchor: 'q2-who',
@@ -48,7 +48,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
         label: '참여 자격',
         items: ['대한민국 국민 누구나', '가족 구성원 각자 개별 가입 가능', '별도 소득·연령 요건 없음', '외국인 참여 불가'],
       },
-      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+      sourceNote: '기후에너지환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
     },
     {
       anchor: 'q3-items',
@@ -74,7 +74,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
           ['개인용기 식품 포장 (2026 신규)', '500원/회', '참여매장'],
         ],
       },
-      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집 (2026.01 기준)',
+      sourceNote: '기후에너지환경부 / 한국환경산업기술원 탄소중립포인트 누리집 (2026.01 기준)',
     },
     {
       anchor: 'q4-benefit',
@@ -99,7 +99,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
         label: '2026년 예산',
         content: '181억원 (2025년 대비 13.1% 증가)',
       },
-      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+      sourceNote: '기후에너지환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
     },
     {
       anchor: 'q5-apply',
@@ -116,7 +116,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
           '⑤ 다음 달 말 포인트 조회·수령',
         ],
       },
-      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+      sourceNote: '기후에너지환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
     },
     {
       anchor: 'q6-partner',
@@ -127,7 +127,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
         label: '참여기업 확인 방법',
         content: '탄소중립포인트 누리집(cpoint.or.kr/netzero) → 참여기업 안내 메뉴에서 업종별·브랜드별 확인 가능',
       },
-      sourceNote: '환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
+      sourceNote: '기후에너지환경부 / 한국환경산업기술원 탄소중립포인트 누리집',
     },
     {
       anchor: 'q7-inquiry',
@@ -170,7 +170,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
     {
       question: '2026년 새로 추가된 항목은 무엇인가요?',
       answer: '나무심기(3,000원/회), 베란다 태양광 설치(10,000원/회), 재생원료 사용제품 구매(100원/건), 개인 장바구니(50원/회), 개인용기 식품 포장(500원/회) 등 항목이 추가되었습니다.',
-      source: { url: 'https://me.go.kr/m/mob/board/read.do', text: '환경부 보도자료', verifiedAt: '2026-05-17' },
+      source: { url: 'https://me.go.kr/m/mob/board/read.do', text: '기후에너지환경부 보도자료', verifiedAt: '2026-05-17' },
     },
     {
       question: '현금과 포인트 중 선택할 수 있나요?',
@@ -181,7 +181,7 @@ export const carbonNeutralPointPolicy: PolicyData = {
   sources: [
     { label: '탄소중립포인트 녹색생활실천 누리집 - 제도소개', url: 'https://www.cpoint.or.kr/netzero/site/cntnts/CNTNTS_001.do' },
     { label: '탄소중립포인트 메인', url: 'https://www.cpoint.or.kr/netzero/main.do' },
-    { label: '환경부 - 탄소중립 실천에 연중 중단없는 혜택', url: 'https://me.go.kr/m/mob/board/read.do' },
+    { label: '기후에너지환경부 - 탄소중립 실천에 연중 중단없는 혜택', url: 'https://me.go.kr/m/mob/board/read.do' },
   ],
   related: [
     { id: 'energy-voucher', title: '에너지바우처' },

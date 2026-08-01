@@ -1,4 +1,4 @@
-/* 층간소음 기준·신고·해결 (2026) - 환경부·국토교통부 규칙 + 층간소음 이웃사이센터 */
+/* 층간소음 기준·신고·해결 (2026) - 기후에너지환경부·국토교통부 규칙 + 층간소음 이웃사이센터 */
 const LAW = 'https://www.law.go.kr/법령/공동주택층간소음의범위와기준에관한규칙';
 const KOREA = 'https://www.korea.kr/news/policyNewsView.do?newsId=148967360';
 const NOISE = 'https://www.noiseinfo.or.kr';
@@ -106,7 +106,7 @@ export const floorNoisePolicy = {
     { q: '오래된 아파트도 같은 기준인가요?', a: '2005년 6월 30일 이전 사업승인 공동주택 등은 직접충격 소음에 대해 2025년 1월 1일부터 기준에 2dB(A)를 더한 값을 적용합니다.', source: '공동주택 층간소음 규칙', sourceUrl: LAW },
   ],
   sources: [
-    { label: '공동주택 층간소음의 범위와 기준에 관한 규칙(별표, 환경부·국토교통부)', url: LAW },
+    { label: '공동주택 층간소음의 범위와 기준에 관한 규칙(별표, 기후에너지환경부·국토교통부)', url: LAW },
     { label: '국가소음정보시스템·층간소음 이웃사이센터(한국환경공단)', url: NOISE },
     { label: '대한민국 정책브리핑 — 하반기 층간소음 챗봇 상담안내 도입(9월)', url: KOREA },
   ],

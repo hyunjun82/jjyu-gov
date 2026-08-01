@@ -21,7 +21,7 @@ export const womensEmergency1366Policy: PolicyData = {
   dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
     운영_부처: {
-      value: '성평등가족부 (구 여성가족부)',
+      value: '성평등가족부 (구 성평등가족부)',
       source: { url: 'https://women1366.kr/?menuno=227', text: '성평등가족부', verifiedAt: '2026-08-01' },
     },
     사이버_상담: {

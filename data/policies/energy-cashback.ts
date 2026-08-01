@@ -6,7 +6,7 @@ export const energyCashbackPolicy: PolicyData = {
   slug: 'energy-cashback',
   cat: '환급금',
   catSlug: 'refund',
-  org: '한국전력공사 (산업통상자원부 산하)',
+  org: '한국전력공사 (기후에너지환경부 산하)',
   title: '에너지캐시백 절감률별 단가와 신청방법, 현금으로 받을 수 있나요?',
   titleKeywords: { k1: '에너지캐시백', k2: '절감률', k3: '신청방법', k4: '캐시백' },
   summary:

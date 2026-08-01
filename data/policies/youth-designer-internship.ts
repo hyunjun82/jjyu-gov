@@ -6,7 +6,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
   type: 'service',
   catSlug: 'youth',
   title: '청년 디자이너 공공기관 인턴십',
-  org: '한국디자인진흥원 (산업통상자원부)',
+  org: '한국디자인진흥원 (산업통상부)',
   amount: '월 180~220만원 (인턴 수당)',
   deadline: '연 1~2회 모집',
   summary: '디자인 전공 청년을 공공기관·공기업에 인턴으로 파견하여 실무 역량과 취업 경쟁력을 높이는 프로그램입니다.',
@@ -30,7 +30,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
     {
       anchor: 'q1-intro',
       question: '청년 디자이너 인턴십이란 무엇인가요?',
-      intro: '산업통상자원부 산하 한국디자인진흥원이 운영하는 프로그램으로, 디자인 전공 청년을 공공기관·공기업에 6개월간 파견하여 현장 실무를 경험하게 합니다. 월 180~220만원의 수당을 지급하며 취업 연계도 지원합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
+      intro: '산업통상부 산하 한국디자인진흥원이 운영하는 프로그램으로, 디자인 전공 청년을 공공기관·공기업에 6개월간 파견하여 현장 실무를 경험하게 합니다. 월 180~220만원의 수당을 지급하며 취업 연계도 지원합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['한국디자인진흥원', '공공기관', '공기업', '6개월', '월 180~220만원', '취업 연계'],
       sourceNote: '한국디자인진흥원 인턴십 사업 안내',
       table: {
@@ -111,7 +111,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
   ],
   sources: [
     { title: '한국디자인진흥원 공식 홈페이지', url: 'https://www.kidp.or.kr' },
-    { title: '산업통상자원부 디자인 정책', url: 'https://www.motie.go.kr' },
+    { title: '산업통상부 디자인 정책', url: 'https://www.motie.go.kr' },
     { title: '공공기관 청년 인턴십 안내', url: 'https://www.work.go.kr' },
   ],
 };
