@@ -112,3 +112,56 @@ national-scholar/이의신청 17.6% — 검색어와 제목이 1:1로 맞을수�
 4. 게이트(`check-cue-value.ts` 등)는 `git diff origin/main...HEAD` 기준이라
    **커밋 전 파일은 검사되지 않는다.** 작업 중 확인하려면 파일을 직접 검사할 것.
 5. `verify-quality.ts` Q12는 `/(?<![가-힣])약\s*\d/` — "약 8일분" 같은 표현이 걸린다.
+
+---
+
+# 빙(Bing) 노출 URL 작업 — 2026-07-31 시작
+
+빙 노출 47개는 네이버와 성격이 반대로 **대부분 허브**(29개)다. 스포크는 4개뿐.
+
+## 진단 결과 (허브 29개 전수)
+- 버튼 앞 문구 0개: 25개
+- 신청 버튼이 기관 메인으로 감(딥링크 아님): 11개
+- 출처가 루트 도메인: 허브당 최대 13개
+- 같은 문장 3회 이상 도배: 12개
+
+## 완료 (8개)
+| 허브 | 한 일 |
+|---|---|
+| youth-future-savings | 반복 문장 7곳 제거 (CTA·문구는 이미 정상) |
+| energy-voucher | CTA를 신청안내 딥링크로, 루트 출처 3곳 교체, 문구 1개 추가. **수치는 공식과 전부 일치** |
+| k-mooc-online | FAQ 5개 전면 재작성(잘림·이스케이프 깨짐), 소제목 5개 비문 교체, 강좌수 8,251 정정, 출처 13개 딥링크화, 문구 8개 |
+| kespa-cup-2026 | 티켓 예매 상태 7/31 재확인(미공지), 문구 7개, 출처를 협회 공식으로 |
+| bogeumjari-loan | **금리 오차 정정 4.6~4.9% → 4.90~5.30%**, 우대금리표 신설, 제목 '~법' 제거 |
+| beotimok-jeonse-loan | 루트 출처 교체, 문구 8개 (수치 일치 확인) |
+| didimdol-loan | **ctaLabel 없음 → 기금e든든 신청 연결**, 문구 8개 (수치 일치 확인) |
+| family-care-leave | **ctaLabel 없음 → 제도안내 연결**, 출처를 법령 조문으로, 문구 8개 |
+| long-term-care-elderly | **ctaLabel 없음 → 인정신청 연결**, 문구 8개, 급여비용 데이터 보강 (한도액 일치 확인) |
+| maternity-leave-pay | **ctaLabel 없음 → 온라인 신청 연결**, 문구 8개, 루트 출처 교체 |
+| parental-leave-pay | 문구 8개(계산기·확인서 서식·가입이력 조회로 분산), 루트 출처 13개 교체 (6+6 수치 일치 확인) |
+
+### Playwright로 1:1 대조해 "이상 없음"을 확인한 수치
+- 에너지바우처: 1인 295,200 / 2인 407,500 / 3인 532,700 / 4인 이상 701,300원, 신청 6.15~12.31, 사용 7.1~27.5.31
+- 육아휴직급여: 일반 250/200/160만원, 6+6 250·250·300·350·400·450만원, 최대 1년 6개월
+- 노인장기요양 월 한도액: 2,512,900 / 2,331,200 / 1,528,200 / 1,409,700 / 1,208,900 / 676,320원
+- 버팀목: 연 2.5~3.5%, 수도권 1.2억·그 외 0.8억, 순자산 3.45억
+- 디딤돌: 연 2.85~4.15%, 순자산 5.11억, 한도 2억/2.4억/3.2억, 소득 6천/7천/8.5천만원
+
+## 남은 허브 18개 (같은 방식으로 진행)
+samsung-miso-finance-loan, used-appliance-pickup, learning-card, tips-program,
+basic-livelihood-allowance, newlywed-housing-support, sharing-ticket, national-health-checkup,
+first-meet, low-income-energy-efficiency, sunshine-youth-loan, climate-card-refund,
+youth-startup-school, pregnancy-medical-benefit, energy-cashback, highway-toll-discount,
+parent-allowance, womens-emergency-1366
+
+이 중 **ctaLabel이 없어 버튼이 죽어 있는 것**: learning-card, tips-program, newlywed-housing-support,
+national-health-checkup, first-meet, sunshine-youth-loan, climate-card-refund, youth-startup-school,
+pregnancy-medical-benefit, womens-emergency-1366
+
+## 이 작업에서 배운 게이트 규칙 (다음에 헤매지 말 것)
+1. **허브는 카드 전부에 `act.cue`가 있어야 한다** — 일부만 넣으면 "문구 누락"으로 차단.
+2. `act.url`이 카드마다 같으면 "목적지 뭉침"으로 차단 — 계산기·서식·조회·접수로 나눌 것.
+3. 문구 어미가 3개 이상 겹치면 "어미 반복"으로 차단 — "…확인하세요"를 반복하지 말 것.
+4. 버튼 라벨은 `lib/cta.ts`의 동사 목록에 걸려야 한다 — "보기/보러가기/찾아보기"는 정보형으로 걸리고,
+   `check-user-value.ts`의 ctaLabel 검사는 '찾기'는 되지만 '찾아보기'는 안 된다. '검색하기·신청하기·확인하기'가 안전.
+5. 도배 문장을 지우면 Q2(intro 200자)에 걸린다 — 상투구 대신 **공식에서 확인한 실제 내용**으로 채울 것.
