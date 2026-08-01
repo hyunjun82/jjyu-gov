@@ -1,6 +1,6 @@
 import type { SpokeData } from '../../SpokeClient';
 
-const NPS = 'https://www.nps.or.kr';
+const NPS = 'https://www.law.go.kr/법령/국민연금법/제61조';
 const NPS_CHUNAP = 'https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0047M0.do';
 
 export const 육아휴직국민연금SpokeContent: SpokeData = {
@@ -101,6 +101,6 @@ export const 육아휴직국민연금SpokeContent: SpokeData = {
   sources: [
     { name: '국민연금공단 — 연금보험료 추후납부(추납)', url: NPS_CHUNAP },
     { name: '국민연금공단 (납부예외·1355)', url: NPS },
-    { name: '국민건강보험공단 1577-1000 (건강보험 비교)', url: 'https://www.nhis.or.kr' },
+    { name: '국민건강보험공단 1577-1000 (건강보험 비교)', url: 'https://www.nhis.or.kr/nhis/policy/wbhada01000m01.do' },
   ],
 };

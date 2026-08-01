@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 금액인상SpokeContent: SpokeData = {
-  h1: '기초연금 40만원 인상 어떻게 됐나, 올해 지급액 확인하는 법',
+  h1: '기초연금 40만원 인상 어떻게 됐나, 올해 지급액 확인하기',
   breadcrumb: '기초연금 > 인상 금액',
   description: '2024년 9월 정부는 2026년 저소득 어르신부터 기초연금을 40만원으로, 2027년엔 전체로 확대하겠다고 발표했지만 2026년 예산에 반영되지 않아 사실상 보류됐습니다. 2026년 현재 기초연금은 소득 하위 70% 전체 어르신에게 동일하게 월 349,700원이 지급됩니다.',
   datePublished: '2026-05-17T09:00:00+09:00',
@@ -168,7 +168,7 @@ export const 금액인상SpokeContent: SpokeData = {
       q: '기초연금 60만원은 언제부터 지급되나요?',
       a: '기초연금 60만원 지급은 정부가 확정한 계획이 없습니다. 공식적으로 발표됐던 계획은 2027년 전체 수급자 40만원 확대까지이며, 이마저도 시행 시기가 확정되지 않았습니다.',
       source: '보건복지부 기초연금 공식 안내',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027',
     },
     {
       q: '생계급여 수급자는 기초연금을 더 받나요?',
@@ -186,6 +186,6 @@ export const 금액인상SpokeContent: SpokeData = {
   sources: [
     { name: '보건복지부 「2026년 노인 단독가구, 소득인정액 월 247만 원 이하면 기초연금 받는다」 (2026.1.1)', url: 'https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&list_no=1488478&act=view' },
     { name: '국민연금공단 「2026년 기초연금, 이렇게 달라집니다」 (2026.1.16)', url: 'https://www.npsonair.kr/advantages/detail.html?strIdx=3761' },
-    { name: '복지로 (보건복지부 공식 복지포털)', url: 'https://www.bokjiro.go.kr' },
+    { name: '복지로 (보건복지부 공식 복지포털)', url: 'https://basicpension.mohw.go.kr/menu.es?mid=a10201000000' },
   ],
 };

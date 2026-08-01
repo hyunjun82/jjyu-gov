@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 에너지캐시백에너지바우처절전요금할인비교SpokeContent: SpokeData = {
-  h1: '에너지캐시백 에너지바우처 전기요금 할인 비교하고 중복 신청하는 법',
+  h1: '에너지캐시백과 에너지바우처 중복되나, 비교하고 신청하기',
   breadcrumb: '에너지캐시백 > 에너지바우처절전요금할인비교',
   description:
     '에너지캐시백(절약 인센티브)·에너지바우처(취약계층 냉난방비)·전기요금 복지할인(기초수급·장애인) 비교. 세 제도 중복 수혜 가능. 취약계층은 3가지 모두 신청 시 전기요금 부담 최소화.',
@@ -131,13 +131,13 @@ export const 에너지캐시백에너지바우처절전요금할인비교SpokeCo
       q: '에너지바우처 신청 자격은 어떻게 되나요?',
       a: '기초생활수급자 중 노인·영유아·장애인·임산부·중증질환자 등 세대원이 있는 가구가 대상입니다. 주민센터나 ☎1600-3190으로 문의하세요.',
       source: '한국에너지공단 에너지바우처',
-      sourceUrl: 'https://www.energyvoucher.or.kr',
+      sourceUrl: 'https://www.energyv.or.kr/info/support_info.do',
     },
     {
       q: '절전 노력을 해도 에너지바우처 사용 금액이 줄어드는 건 아닌가요?',
       a: '에너지바우처는 절전 여부와 무관하게 전액을 사용할 수 있습니다.',
       source: '한국에너지공단 에너지바우처',
-      sourceUrl: 'https://www.energyvoucher.or.kr',
+      sourceUrl: 'https://www.energyv.or.kr/info/support_info.do',
     },
     {
       q: '도시가스 요금은 에너지캐시백 대상인가요?',
@@ -149,6 +149,6 @@ export const 에너지캐시백에너지바우처절전요금할인비교SpokeCo
   sources: [
     { name: '한국전력공사 에너지캐시백 공식 사이트', url: 'https://en-ter.co.kr/ec/main/main.do' },
     { name: '에너지마켓플레이스 EN:TER', url: 'https://en-ter.co.kr/main.do' },
-    { name: '한국에너지공단 에너지바우처', url: 'https://www.energyvoucher.or.kr' },
+    { name: '한국에너지공단 에너지바우처', url: 'https://www.energyv.or.kr/info/support_info.do' },
   ],
 };

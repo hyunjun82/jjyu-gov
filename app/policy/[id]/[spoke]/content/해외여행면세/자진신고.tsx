@@ -75,7 +75,7 @@ export const 해외여행면세자진신고SpokeContent: SpokeData = {
   ],
   sources: [
     { name: '관세청 — 여행자 휴대품 통관(성실신고)', url: CUSTOMS },
-    { name: '관세청', url: 'https://www.customs.go.kr' },
+    { name: '관세청', url: 'https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?mi=2891&cntntsId=856' },
     { name: '관세청 여행자 휴대품 통관 안내', url: CUSTOMS },
   ],
 };

@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
-const MOEL = 'https://www.moel.go.kr';
-const EI = 'https://www.ei.go.kr';
+const MOEL = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000255&systId=SI00000387';
+const EI = 'https://www.work24.go.kr/ei/b/b/1100/openHPEIBB1100M01Post.do';
 
 export const 실업급여입금일SpokeContent: SpokeData = {
   h1: '실업급여 1차·2차 입금일 조회, 실업인정 후 며칠에 들어오나',

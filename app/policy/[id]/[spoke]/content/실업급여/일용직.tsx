@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
-const MOEL = 'https://www.moel.go.kr';
-const EI = 'https://www.ei.go.kr';
+const MOEL = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000255&systId=SI00000387';
+const EI = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000255&systId=SI00000387';
 
 export const 실업급여일용직SpokeContent: SpokeData = {
   h1: '일용직도 실업급여 받을 수 있나, 근로일 3분의 1 기준 계산하기',

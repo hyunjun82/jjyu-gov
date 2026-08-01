@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
-const WORK24 = 'https://www.work24.go.kr';
-const MOEL = 'https://www.moel.go.kr';
+const WORK24 = 'https://www.work24.go.kr/hr/h/a/1100/selectIssueRequest.do';
+const MOEL = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000004&systId=SI00000351';
 
 export const 내일배움카드유효기간SpokeContent: SpokeData = {
   h1: '내일배움카드 유효기간 5년, 만료되면 재발급 되나요',

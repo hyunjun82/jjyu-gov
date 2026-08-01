@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 const EL = 'https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1063&ccfNo=4&cciNo=1&cnpClsNo=2';
-const NHIS = 'https://www.nhis.or.kr';
+const NHIS = 'https://www.nhis.or.kr/nhis/policy/wbhada01000m01.do';
 
 export const 육아휴직건강보험료SpokeContent: SpokeData = {
   h1: '육아휴직 건강보험료 얼마나 감면되나, 유예 신청과 복직 후 정산',
@@ -101,6 +101,6 @@ export const 육아휴직건강보험료SpokeContent: SpokeData = {
   sources: [
     { name: '찾기쉬운 생활법령정보 — 국민건강보험 보험료 경감 및 면제', url: EL },
     { name: '국민건강보험공단 (납입고지 유예·정산, 1577-1000)', url: NHIS },
-    { name: '국민건강보험법 제75조·시행규칙 제46조·보험료 경감고시 제8조', url: 'https://www.law.go.kr' },
+    { name: '국민건강보험법 제75조·시행규칙 제46조·보험료 경감고시 제8조', url: 'https://www.law.go.kr/법령/국민건강보험법 시행령/제35조' },
   ],
 };

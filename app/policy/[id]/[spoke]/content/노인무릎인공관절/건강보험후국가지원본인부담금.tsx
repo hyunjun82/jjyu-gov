@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 노인무릎인공관절건강보험후국가지원본인부담금SpokeContent: SpokeData = {
-  h1: '무릎인공관절 수술 국가 지원 본인부담금 계산하고 신청하는 법',
+  h1: '무릎인공관절 수술 국가 지원, 본인부담금 계산해보니 얼마',
   breadcrumb: '건강보험후국가지원본인부담금',
   description:
     '무릎인공관절 수술 건강보험 적용 후 남는 본인부담금을 노인의료나눔재단이 추가 지원. 한쪽 최대 120만 원, 양쪽 최대 240만 원 실비. 만 60세 이상 기초수급자·차상위 대상.',
@@ -204,7 +204,7 @@ export const 노인무릎인공관절건강보험후국가지원본인부담금S
   ],
   sources: [
     { name: '노인의료나눔재단 사업내용', url: 'https://www.ok6595.or.kr/client/info/knee03.asp' },
-    { name: '보건복지부', url: 'https://www.mohw.go.kr' },
+    { name: '보건복지부', url: 'https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027' },
     { name: '정부24', url: 'https://www.gov.kr/portal/service/serviceInfo/135200000113' },
   ],
 };

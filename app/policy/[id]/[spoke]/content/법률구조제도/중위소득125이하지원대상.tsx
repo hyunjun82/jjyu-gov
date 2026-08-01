@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 법률구조제도중위소득125이하지원대상SpokeContent: SpokeData = {
-  h1: '법률구조 지원 대상 중위소득 125% 이하인지 확인하는 법',
+  h1: '법률구조 지원 대상, 중위소득 125% 이하인지 확인하기',
   breadcrumb: '중위소득125이하지원대상',
   description:
     '법률구조 제도: 기준 중위소득 125% 이하 소송대리 지원. 기초수급자·임금체불·농어민 전액 무료. 전체 사건 90% 이상 무료 처리. 유료 대상도 변호사 비용 30% 수준. 국번없이 132.',
@@ -127,6 +127,6 @@ export const 법률구조제도중위소득125이하지원대상SpokeContent: Sp
   sources: [
     { name: '대한법률구조공단 소송구조개요', url: 'https://www.klac.or.kr/legalstruct/outlineOfLitigationStruct.do' },
     { name: '대한법률구조공단 대상자 안내', url: 'https://www.klac.or.kr/legalstruct/legalRescueGuide.do' },
-    { name: '대한법률구조공단', url: 'https://www.klac.or.kr' },
+    { name: '대한법률구조공단', url: 'https://www.klac.or.kr/legalinfo/counsel.do' },
   ],
 };

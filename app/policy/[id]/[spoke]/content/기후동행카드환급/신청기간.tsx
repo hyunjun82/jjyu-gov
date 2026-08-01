@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 const SEOUL = 'https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback';
-const TMONEY = 'https://pay.tmoney.co.kr';
+const TMONEY = 'https://pay.tmoney.co.kr/ncs/pct/mbrsintg/ReadIntgMbrsJoinGd.dev';
 
 export const 기후동행카드환급신청기간SpokeContent: SpokeData = {
   h1: '기후동행카드 환급 언제 들어오나, 신청기간 6.10~8.31 환급일',
@@ -93,6 +93,6 @@ export const 기후동행카드환급신청기간SpokeContent: SpokeData = {
   sources: [
     { name: '서울시 기후동행카드 페이백 FAQ', url: SEOUL },
     { name: '티머니 카드&페이(페이백 신청)', url: TMONEY },
-    { name: '서울특별시', url: 'https://news.seoul.go.kr' },
+    { name: '서울특별시', url: 'https://news.seoul.go.kr/traffic/archives/510651' },
   ],
 };

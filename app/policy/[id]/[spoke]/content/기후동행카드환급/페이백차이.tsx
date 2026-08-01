@@ -4,7 +4,7 @@ const SEOUL = 'https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payba
 const SEOUL_STOP = 'https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-stop';
 
 export const 기후동행카드환급페이백차이SpokeContent: SpokeData = {
-  h1: '기후동행카드 페이백 환급 환불 차이 확인하고 신청하는 법',
+  h1: '기후동행카드 페이백·환급·환불 뭐가 다른가, 신청 전 확인하기',
   breadcrumb: '페이백·환불 차이',
   description: '기후동행카드에서 페이백·환급·환불은 다른 개념입니다. 페이백(=환급)은 4~6월 이용분을 신청해 월 3만원을 돌려받는 사후 지급이고, 환불은 충전을 취소해 남은 금액을 돌려받는 것으로 페이백 대상에서 제외됩니다. 개념을 구분해야 손해를 막을 수 있습니다.',
   datePublished: '2026-07-01T09:00:00+09:00',
@@ -92,6 +92,6 @@ export const 기후동행카드환급페이백차이SpokeContent: SpokeData = {
   sources: [
     { name: '서울시 기후동행카드 페이백 FAQ', url: SEOUL },
     { name: '서울시 기후동행카드 운영종료 FAQ', url: SEOUL_STOP },
-    { name: '서울특별시', url: 'https://news.seoul.go.kr' },
+    { name: '서울특별시', url: 'https://news.seoul.go.kr/traffic/archives/510651' },
   ],
 };

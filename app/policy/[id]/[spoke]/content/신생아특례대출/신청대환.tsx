@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
-const MYHOME = 'https://www.myhome.go.kr';
-const NHUF = 'https://nhuf.molit.go.kr';
+const MYHOME = 'https://enhuf.molit.go.kr/index.jsp';
+const NHUF = 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp';
 
 export const 신생아특례대출신청대환SpokeContent: SpokeData = {
   h1: '신생아 특례대출 대환 조건과 소득기준, 필요 서류 확인하기',
@@ -112,6 +112,6 @@ export const 신생아특례대출신청대환SpokeContent: SpokeData = {
     { name: '주택도시기금 신생아 특례 디딤돌대출 — 1주택자 대환대출 안내', url: 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030802.jsp' },
     { name: '주택도시기금(신생아 특례)', url: MYHOME },
     { name: '기금e든든(온라인 신청)', url: NHUF },
-    { name: '국토교통부', url: 'https://www.molit.go.kr' },
+    { name: '국토교통부', url: 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030802.jsp' },
   ],
 };

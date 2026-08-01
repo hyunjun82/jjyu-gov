@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 새출발기금새출발기금원금탕감감면조건SpokeContent: SpokeData = {
-  h1: '새출발기금 원금 감면율 확인하고 탕감 신청하는 법',
+  h1: '새출발기금 원금 감면율 얼마나 되나, 탕감 신청하기',
   breadcrumb: '원금 탕감 조건',
   description: '새출발기금 원금 감면(탕감) 조건, 감면율 기준, 잔여 채무 상환 방식까지 구체적으로 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',
@@ -180,17 +180,17 @@ export const 새출발기금새출발기금원금탕감감면조건SpokeContent:
   sources: [
     {
       label: '캠코 새출발기금 공식 안내',
-      url: 'https://www.newstartfund.or.kr',
+      url: 'https://www.newstartfund.or.kr/main/main.do',
       date: '2026-05-19',
     },
     {
       label: '금융위원회 새출발기금 운영 현황',
-      url: 'https://www.fsc.go.kr',
+      url: 'https://www.newstartfund.or.kr/main/main.do',
       date: '2026-05-19',
     },
     {
       label: '신용회복위원회 채무 조정 안내',
-      url: 'https://www.ccrs.or.kr',
+      url: 'https://www.ccrs.or.kr/main.do',
       date: '2026-05-19',
     },
   ],

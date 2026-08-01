@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
-const NHUF = 'https://nhuf.molit.go.kr';
-const MYHOME = 'https://www.myhome.go.kr';
+const NHUF = 'https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05020101.jsp';
+const MYHOME = 'https://enhuf.molit.go.kr/index.jsp';
 
 export const 버팀목신청방법SpokeContent: SpokeData = {
   h1: '버팀목 전세대출 신청 방법, 기금e든든·은행',
@@ -95,6 +95,6 @@ export const 버팀목신청방법SpokeContent: SpokeData = {
   sources: [
     { name: '주택도시기금(기금e든든)', url: NHUF },
     { name: '마이홈포털', url: MYHOME },
-    { name: '국토교통부', url: 'https://www.molit.go.kr' },
+    { name: '국토교통부', url: 'https://nhuf.molit.go.kr/FP/FP05/FP0502/FP05020101.jsp' },
   ],
 };

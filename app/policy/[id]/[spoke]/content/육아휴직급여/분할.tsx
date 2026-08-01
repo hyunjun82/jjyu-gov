@@ -1,10 +1,10 @@
 import type { SpokeData } from '../../SpokeClient';
 
 const WL = 'https://www.worklife.kr/website_renew/index/workerSupport/parental_leave_benefit.asp';
-const MOEL = 'https://www.moel.go.kr';
+const MOEL = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402';
 
 export const 육아휴직분할SpokeContent: SpokeData = {
-  h1: '육아휴직 분할 횟수, 3회까지 나눠 쓰는 법',
+  h1: '육아휴직 분할 횟수, 3회까지 나눠 쓸 때 신청하기',
   breadcrumb: '분할',
   description: '육아휴직은 2025년 2월부터 분할 사용 횟수가 2회에서 3회로 늘어, 최대 4개 구간으로 나눠 쓸 수 있습니다. 연장된 1년 6개월 기간을 포함해 자녀 양육 상황에 맞춰 끊어 사용할 수 있고, 육아휴직 기간은 평균임금 산정 기간에서 제외됩니다.',
   datePublished: '2026-06-20T09:00:00+09:00',
@@ -101,7 +101,7 @@ export const 육아휴직분할SpokeContent: SpokeData = {
   ],
   sources: [
     { name: '고용노동부 일생활균형 — 육아휴직 안내(분할 3회·기간)', url: WL },
-    { name: '고용보험법 시행령 (육아휴직 분할 사용 근거)', url: 'https://www.law.go.kr' },
+    { name: '고용보험법 시행령 (육아휴직 분할 사용 근거)', url: 'https://www.law.go.kr/법령/남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률/제19조' },
     { name: '고용노동부 공식 사이트 (상담 1350)', url: MOEL },
   ],
 };

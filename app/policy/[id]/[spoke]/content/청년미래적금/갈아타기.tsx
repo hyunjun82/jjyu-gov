@@ -92,6 +92,6 @@ export const 미래적금갈아타기SpokeContent: SpokeData = {
   sources: [
     { name: '금융위원회 카드뉴스 「청년미래적금 6월 22일 출시 (1편)」 (2026.06.17)', url: FSC },
     { name: '서민금융진흥원 청년미래적금 공식 안내 (fill4young)', url: KINFA },
-    { name: '금융위원회 공식 사이트', url: 'https://www.fsc.go.kr' },
+    { name: '금융위원회 공식 사이트', url: 'https://www.kinfa.or.kr/financialProduct/youthFutureSavings.do' },
   ],
 };

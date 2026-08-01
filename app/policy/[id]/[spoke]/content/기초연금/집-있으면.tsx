@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 집있으면SpokeContent: SpokeData = {
-  h1: '집 있어도 기초연금 받을 수 있나, 재산 환산액 계산하는 법',
+  h1: '집 있어도 기초연금 받을 수 있나, 재산 환산액 계산하기',
   breadcrumb: '기초연금 > 집 있으면',
   description: '집이 있어도 기초연금 받을 수 있습니다. 서울 아파트 3억은 재산 소득환산 월 55만원 수준. 지역별 기본공제(대도시 1.35억) 적용 후 연 4% 환산. 집값별 수급 가능 여부 계산 예시 포함.',
   datePublished: '2026-05-20T09:00:00+09:00',
@@ -148,30 +148,30 @@ export const 집있으면SpokeContent: SpokeData = {
       q: '집을 팔면 현금이 되는데, 기초연금에 불리한가요?',
       a: '집을 팔아 현금화하면 금융재산으로 분류됩니다. 금융재산 공제는 2,000만원뿐이라 부동산으로 보유할 때(기본공제 1.35억)보다 불리해질 수 있습니다. 처분 전 모의계산을 꼭 받으세요.',
       source: '보건복지부 기초연금 제도안내',
-      sourceUrl: 'https://basicpension.mohw.go.kr',
+      sourceUrl: 'https://basicpension.mohw.go.kr/menu.es?mid=a10303000000',
     },
     {
       q: '자녀에게 집을 증여하면 유리한가요?',
       a: '증여일로부터 5년간은 증여한 재산이 본인 재산으로 포함됩니다(자연적 소비분 제외). 기초연금 수급을 위한 증여는 효과가 없을 수 있습니다.',
       source: '보건복지부 기초연금 제도안내',
-      sourceUrl: 'https://basicpension.mohw.go.kr',
+      sourceUrl: 'https://basicpension.mohw.go.kr/menu.es?mid=a10303000000',
     },
     {
       q: '집 한 채가 있어도 기초연금을 받을 수 있나요?',
       a: '집이 있어도 소득인정액이 선정기준액 이하이면 기초연금 수급이 가능합니다. 자가 주택은 재산 환산 후 소득인정액에 포함됩니다.',
       source: '보건복지부·국민연금공단 공식 안내',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://basicpension.mohw.go.kr/menu.es?mid=a10102010000',
     },
     {
       q: '고가 주택 보유자도 받을 수 있나요?',
       a: '고가 주택은 재산 환산액이 커서 소득인정액을 높여 수급에서 탈락할 수 있습니다. 주민센터에서 정확한 판정을 받아야 합니다.',
       source: '보건복지부·국민연금공단 공식 안내',
-      sourceUrl: 'https://www.mohw.go.kr',
+      sourceUrl: 'https://basicpension.mohw.go.kr/menu.es?mid=a10102010000',
     },
   ],
   sources: [
-    { name: 'K-공감 기초연금 안내', url: 'https://gonggam.korea.kr' },
-    { name: '보건복지부 기초연금 제도안내', url: 'https://basicpension.mohw.go.kr' },
-    { name: '복지로 기초연금 모의계산', url: 'https://www.bokjiro.go.kr' },
+    { name: 'K-공감 기초연금 안내', url: 'https://basicpension.mohw.go.kr/menu.es?mid=a10102010000' },
+    { name: '보건복지부 기초연금 제도안내', url: 'https://basicpension.mohw.go.kr/menu.es?mid=a10303000000' },
+    { name: '복지로 기초연금 모의계산', url: 'https://basicpension.mohw.go.kr/menu.es?mid=a10201000000' },
   ],
 };
