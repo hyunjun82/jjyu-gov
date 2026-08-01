@@ -6,6 +6,7 @@ export const newlywedHousingSupportPolicy: PolicyData = {
   type: 'loan',
   catSlug: 'loan',
   title: '신혼부부 주거지원 행복주택 자격과 디딤돌 한도, 자산기준까지',
+  titleKeywords: { k1: '신혼부부', k2: '행복주택', k3: '디딤돌', k4: '자산기준' },
   org: '국토교통부 / 주택도시기금 / LH한국토지주택공사',
   amount: '최대 3.2억원 대출 + 임대주택 특별공급',
   deadline: '상시 신청',
@@ -13,7 +14,8 @@ export const newlywedHousingSupportPolicy: PolicyData = {
   metaDescription: '신혼부부 주거지원 행복주택 자격과 디딤돌 한도, 자산기준까지 – 최대 3.2억원 대출 + 임대주택 특별공급. 신혼부부·예비신혼부부를 위한 행복주택, 전세임대, 디딤돌대출, 버팀목대출 등 종합 주거지원. 혼인기간 7년 이내 무주택 세대주 대상.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
-  applyUrl: 'https://apply.lh.or.kr',
+  applyUrl: 'https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026',
+  ctaLabel: '임대주택 모집공고 확인하기',
   sources: [
     {
       title: 'LH청약플러스 행복주택 입주자격',
@@ -33,6 +35,22 @@ export const newlywedHousingSupportPolicy: PolicyData = {
   ],
 
   keyFacts: {
+    신청_창구: {
+      value: 'LH청약플러스 (apply.lh.or.kr) — 임대주택 공고·청약 신청 통합',
+      source: { url: 'https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026', text: 'LH청약플러스 임대주택 공고문', verifiedAt: '2026-08-01' },
+    },
+    청약자격_확인: {
+      value: '신청 전 청약자격확인 메뉴에서 유형별 자격 조회',
+      source: { url: 'https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=201547&cntntsId=201290', text: '청약자격확인', verifiedAt: '2026-08-01' },
+    },
+    주택_검색: {
+      value: '임대주택검색으로 조건에 맞는 물건 조회 가능',
+      source: { url: 'https://apply.lh.or.kr/lhapply/csvc/lshs-sch/inq.do?mi=1353', text: '임대주택검색', verifiedAt: '2026-08-01' },
+    },
+    청약_연습: {
+      value: '청약연습하기로 실제 신청 화면 사전 체험',
+      source: { url: 'https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=1302&cntntsId=1230', text: '청약연습하기', verifiedAt: '2026-08-01' },
+    },
     지원유형: {
       value: '행복주택·전세임대·디딤돌대출·버팀목대출 등 종합 주거지원',
       source: { url: 'https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=1201663&cntntsId=1201391', text: '신혼부부 계층 행복주택 입주자격', verifiedAt: '2026-05-17' },
@@ -59,17 +77,18 @@ export const newlywedHousingSupportPolicy: PolicyData = {
     },
     신청처: {
       value: 'LH청약플러스(apply.lh.or.kr) · 마이홈포털 · 시중은행 5개',
-      source: { url: 'https://apply.lh.or.kr', text: 'LH청약플러스를 통해 행복주택·전세임대 신청', verifiedAt: '2026-05-17' },
+      source: { url: 'https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026', text: 'LH청약플러스를 통해 행복주택·전세임대 신청', verifiedAt: '2026-05-17' },
     },
     문의: {
       value: 'LH콜센터 1600-1004 / 주택도시보증공사 1566-9009',
-      source: { url: 'https://apply.lh.or.kr', text: '콜센터 1600-1004', verifiedAt: '2026-05-17' },
+      source: { url: 'https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026', text: '콜센터 1600-1004', verifiedAt: '2026-05-17' },
     },
   },
 
   qa: [
     {
       anchor: 'support-types',
+      act: { cue: '주거지원은 임대와 대출로 갈립니다. 어느 쪽이 내 상황에 맞는지부터 정해야 합니다.', label: '임대·분양 가이드 확인하기', url: 'https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=1201583&cntntsId=1201331' },
       question: '신혼부부를 위한 주거지원 종류는 무엇이 있나요?',
       intro: '정부는 신혼부부와 예비신혼부부를 위해 크게 네 가지 주거지원 프로그램을 운영합니다. 첫째 공공임대주택(행복주택)으로 시세의 60~80% 수준의 임대료로 거주할 수 있습니다. 둘째 신혼·신생아 전세임대주택으로 원하는 집을 직접 구해 LH가 집주인과 계약 후 재임대해줍니다. 셋째 내집마련 디딤돌대출로 주택 구입 시 연 2.85~4.15% 저금리 대출을 최대 3.2억원까지 받을 수 있습니다. 넷째 버팀목 전세자금대출로 수도권 최대 3억원까지 저금리 전세 자금을 지원받습니다.',
       highlights: ['행복주택', '시세 60~80%', '전세임대주택', '디딤돌대출', '3.2억원', '버팀목대출', '수도권 3억원'],
@@ -87,6 +106,7 @@ export const newlywedHousingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'happy-house',
+      act: { cue: '행복주택은 공고가 떠야 신청됩니다. 지금 열린 공고부터 확인하세요.', label: '행복주택 모집공고 검색하기', url: 'https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancList.do?mi=1026' },
       question: '행복주택 신혼부부 자격과 신청 방법은?',
       intro: '행복주택은 대중교통이 편리한 곳에 위치하며, 신혼부부에게 주변 시세 대비 60~80% 수준의 임대료로 최대 6년(자녀 있으면 10년)까지 거주할 수 있게 해주는 공공임대주택입니다. 신청 자격은 혼인기간 7년 이내 또는 만 6세 이하 자녀를 둔 무주택 세대구성원이며, 예비신혼부부(입주 전까지 혼인 증명 가능한 자)도 신청할 수 있습니다. 소득 기준은 도시근로자 월평균소득 100% 이하이며, 맞벌이는 120%까지 허용됩니다. 2025년 기준 3인 가구 월 818만원, 4인 가구 880만원 이하가 해당됩니다.',
       highlights: ['시세 60~80%', '최대 6년', '혼인기간 7년 이내', '만 6세 이하 자녀', '예비신혼부부', '100% 이하', '맞벌이 120%', '3인 818만원', '자녀 있으면 10년'],
@@ -104,6 +124,7 @@ export const newlywedHousingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'jeonse-rental',
+      act: { cue: '전세임대는 내가 집을 찾아오는 방식입니다. 조건에 맞는 주택을 검색해 보세요.', label: '임대주택 검색하기', url: 'https://apply.lh.or.kr/lhapply/csvc/lshs-sch/inq.do?mi=1353' },
       question: '신혼·신생아 전세임대주택이란 무엇인가요?',
       intro: '신혼·신생아 전세임대주택은 신청자가 원하는 집을 직접 찾으면, LH가 집주인과 직접 전세 계약을 맺고 신청자에게 저렴하게 재임대해주는 방식입니다. I형과 II형으로 나뉩니다. I형은 소득이 낮은 계층을 위한 것으로 전세보증금의 단 5%만 부담하면 되고, 나머지는 LH가 지원합니다. II형은 소득 기준이 다소 높아지는 대신 전세보증금의 20%를 부담합니다. 월 임대료는 LH가 지원한 금액에 대해 연 1.2~2.2%의 이자를 납부하는 방식으로 시중보다 훨씬 저렴합니다.',
       highlights: ['원하는 집 직접 선택', 'LH가 전세 계약', 'I형 5% 부담', 'II형 20% 부담', '연 1.2~2.2% 이자', '저소득층 우선'],
@@ -120,6 +141,7 @@ export const newlywedHousingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'didimdol-loan',
+      act: { cue: '집을 살 계획이면 디딤돌대출 쪽입니다. 요건을 대조해 보세요.', label: '디딤돌 대출요건 대조하기', url: 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp' },
       question: '신혼부부 디딤돌 대출 한도와 금리는?',
       intro: '내집마련 디딤돌대출은 신혼부부가 내 집을 마련할 때 시중보다 훨씬 낮은 금리로 구입자금을 빌려주는 정부 지원 대출입니다. 신혼가구는 일반 가구보다 한도가 높아 최대 3.2억원까지 대출받을 수 있으며, 대출금리는 부부합산 연 소득에 따라 연 2.85%~4.15%가 적용됩니다. 소득이 낮을수록 더 낮은 금리를 적용받으며, 신혼가구 우대금리 0.2%p도 추가로 받을 수 있습니다. 주택 규모는 85㎡ 이하, 담보평가액 6억원 이하 주택이 대상이며 세대 전원이 무주택이어야 합니다.',
       highlights: ['최대 3.2억원', '연 2.85%~4.15%', '신혼가구 우대 0.2%p', '85㎡ 이하', '6억원 이하', '부부합산 연 8,500만원', '무주택 전원'],
@@ -136,6 +158,7 @@ export const newlywedHousingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'apply-method',
+      act: { cue: '청약이 처음이면 연습 기능으로 절차를 먼저 익히는 편이 낫습니다.', label: '청약 연습 신청하기', url: 'https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=1302&cntntsId=1230' },
       question: '어떻게 신청하나요? 서류와 절차는?',
       intro: '지원 유형에 따라 신청 방법이 다릅니다. 행복주택과 전세임대주택은 LH청약플러스(apply.lh.or.kr)에서 모집 공고가 나면 온라인으로 신청합니다. 공고 없이 상시 접수는 없으니 LH청약플러스 알림 서비스에 등록해두는 것이 좋습니다. 디딤돌대출과 버팀목 전세대출은 우리·국민·하나·농협·신한·iM뱅크·부산은행 7개 수탁은행 지점에서 신청할 수 있습니다. 대출은 주택 매매계약 체결 후 소유권 이전등기 전까지 신청해야 합니다. 공통 서류로는 혼인관계증명서, 무주택 확인서, 소득 증빙 서류가 필요합니다.',
       highlights: ['LH청약플러스', '알림 서비스 등록', '7개 수탁은행', '소유권이전 전 신청', '혼인관계증명서', '소득 증빙'],
@@ -152,8 +175,9 @@ export const newlywedHousingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'asset-standard',
+      act: { cue: '소득과 자산 기준이 유형마다 다릅니다. 내 자격을 먼저 확인하세요.', label: '청약자격 확인하기', url: 'https://apply.lh.or.kr/lhapply/cm/cntnts/cntntsView.do?mi=201547&cntntsId=201290' },
       question: '자산 기준은 어떻게 되나요?',
-      intro: '신혼부부 주거지원은 소득뿐 아니라 보유 자산도 심사합니다. 행복주택의 경우 신혼부부·한부모가족 계층은 총자산 3억4,500만원 이하여야 합니다. 내집마련 디딤돌대출의 경우 신청인과 배우자의 합산 순자산이 5.11억원(2026년 기준) 이하여야 합니다. 자동차는 행복주택의 경우 자동차가액 4,542만원 이하가 기준이며, 디딤돌대출은 비영업용 승용차에 한해 별도 심사합니다. 자산 기준 충족 여부가 불확실하면 기금포털(enhuf.molit.go.kr)이나 수탁은행에 먼저 상담을 받아보세요.',
+      intro: '신혼부부 주거지원은 소득뿐 아니라 보유 자산도 심사합니다. 행복주택의 경우 신혼부부·한부모가족 계층은 총자산 3억4,500만원 이하여야 합니다. 내집마련 디딤돌대출의 경우 신청인과 배우자의 합산 순자산이 5.11억원(2026년 기준) 이하여야 합니다. 자동차는 행복주택의 경우 자동차가액 4,542만원 이하가 기준이며, 디딤돌대출은 비영업용 승용차에 한해 별도 심사합니다. 자산 기준 충족 여부가 불확실하면 기금포털(enhuf.molit.go.kr)이나 수탁은행에 먼저 상담을 받아보세요. 신혼부부 주거지원은 소득만이 아니라 자산기준을 함께 봅니다. 유형마다 적용되는 자산기준이 다르고 해마다 갱신되므로, LH청약플러스의 청약자격확인 메뉴에서 본인이 지원하려는 유형의 기준을 직접 조회하는 것이 가장 정확합니다. 공고문에도 해당 회차에 적용되는 소득·자산기준이 함께 명시됩니다.',
       highlights: ['행복주택 총자산 3억4,500만원', '디딤돌 순자산 5.11억원', '자동차 4,542만원', '기금포털 상담'],
       table: {
         headers: ['프로그램', '총자산 기준', '자동차'],
@@ -167,6 +191,7 @@ export const newlywedHousingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'pre-newlywed',
+      act: { cue: '예비 신혼부부도 대상이 되는 유형이 있습니다. 공고문에서 대상을 확인하고 접수하세요.', label: '청약 신청 접수하기', url: 'https://apply.lh.or.kr/lhapply/apply/rtho/rtho01.do?mi=1204' },
       question: '예비신혼부부도 신청할 수 있나요?',
       intro: '네, 예비신혼부부도 행복주택과 신혼·신생아 전세임대주택을 신청할 수 있습니다. 예비신혼부부란 혼인을 계획 중이며 입주 전까지 혼인 사실을 증명할 수 있는 분입니다. 즉, 신청 시점에 아직 결혼하지 않았더라도 입주일 전날까지 혼인신고를 하면 입주 자격이 유지됩니다. 혼인으로 구성될 세대원 모두 무주택자여야 합니다. 디딤돌대출의 경우도 결혼 예정 배우자를 세대원으로 인정하며, 결혼 예정자가 3개월 이내 결혼 예정인 경우 세대주로 간주하는 규정이 있습니다.',
       highlights: ['예비신혼부부 신청 가능', '입주 전까지 혼인신고', '세대원 전원 무주택', '결혼 예정 배우자 인정'],

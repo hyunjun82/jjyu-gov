@@ -147,16 +147,30 @@ national-scholar/이의신청 17.6% — 검색어와 제목이 1:1로 맞을수�
 - 버팀목: 연 2.5~3.5%, 수도권 1.2억·그 외 0.8억, 순자산 3.45억
 - 디딤돌: 연 2.85~4.15%, 순자산 5.11억, 한도 2억/2.4억/3.2억, 소득 6천/7천/8.5천만원
 
-## 남은 허브 18개 (같은 방식으로 진행)
-samsung-miso-finance-loan, used-appliance-pickup, learning-card, tips-program,
-basic-livelihood-allowance, newlywed-housing-support, sharing-ticket, national-health-checkup,
-first-meet, low-income-energy-efficiency, sunshine-youth-loan, climate-card-refund,
-youth-startup-school, pregnancy-medical-benefit, energy-cashback, highway-toll-discount,
-parent-allowance, womens-emergency-1366
+## 남은 허브 1개
+- **pregnancy-medical-benefit** — 임신·출산 진료비(국민행복카드). 건보공단 사이트에서 해당 안내 페이지를
+  못 찾음(nhis.or.kr 경로 404, 복지로/정부24 ID 불일치). 접근 경로부터 다시 찾아야 함.
 
-이 중 **ctaLabel이 없어 버튼이 죽어 있는 것**: learning-card, tips-program, newlywed-housing-support,
-national-health-checkup, first-meet, sunshine-youth-loan, climate-card-refund, youth-startup-school,
-pregnancy-medical-benefit, womens-emergency-1366
+## 2차로 완료한 허브 17개 (2026-08-01)
+learning-card, first-meet, parent-allowance, national-health-checkup, sunshine-youth-loan,
+climate-card-refund, energy-cashback, tips-program, youth-startup-school,
+basic-livelihood-allowance, sharing-ticket, used-appliance-pickup, womens-emergency-1366,
+highway-toll-discount, newlywed-housing-support, low-income-energy-efficiency,
+samsung-miso-finance-loan — 전부 품질 13/13, 게이트 4종 통과
+
+### 이 회차에 잡은 오류
+- **저소득층 에너지효율개선: 담당부처가 산업통상자원부로 적혀 있었음 → 기후에너지환경부**(복지로 확인, 3곳)
+- **여성긴급전화 1366: 여성가족부 → 성평등가족부**로 부처명 변경 확인(18곳 갱신).
+  ※ 같은 문제가 다른 정책 파일 21개에도 남아 있음 — 별도 일괄 정정 필요
+- 에너지캐시백: '정확한 구간표는 한전 공고 확인'이라는 미완 문구를 공식 단가표로 대체
+  (2026년 7~12월 검침분 한시 확대: 1~3% 30원 / 3~5% 60원 / 5~10% 80원 / 10~20% 100원 / 20~30% 120원)
+
+### 공식 대조로 "이상 없음" 확인한 수치
+- 내일배움카드 5년 300만원+추가 200만원 / 첫만남이용권 첫째 200만·둘째 이상 300만·2년 내
+- 햇살론유스 동일인 1,200만원, 금리 4.0+보증료 1.0=5.0%(사회적배려 2.0%)
+- 생계급여 2027년 1인 87만 5,533원·4인 221만 7,563원, 기준 중위소득 6.70% 인상
+  (2026.7.28 제80차 중앙생활보장위원회 보도자료 — 글이 최신 발표를 정확히 반영하고 있었음)
+- 청년창업사관학교 만 39세 이하·창업 3년 이내 / 나눔티켓 증빙 3개월 이내·인증 1년
 
 ## 이 작업에서 배운 게이트 규칙 (다음에 헤매지 말 것)
 1. **허브는 카드 전부에 `act.cue`가 있어야 한다** — 일부만 넣으면 "문구 누락"으로 차단.
