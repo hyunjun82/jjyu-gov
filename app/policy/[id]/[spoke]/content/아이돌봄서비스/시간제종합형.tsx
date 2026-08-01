@@ -1,12 +1,12 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 아이돌봄시간제종합형SpokeContent: SpokeData = {
-  h1: '아이돌봄서비스 시간제 vs 종합형 — 차이와 선택 기준',
+  h1: '아이돌봄서비스 시간제와 종합형, 어느 쪽으로 신청해야 싼가',
   breadcrumb: '시간제종합형',
   description:
     '아이돌봄서비스 시간제(연 960시간, 시간당 12,790원)와 종합형(1일 최대 9시간, 시간당 16,620원) 비교. 시간제는 필요 시간만, 종합형은 매일 정기 이용. 생후 3개월~만 12세 대상. idolbom.go.kr 신청.',
   datePublished: '2026-05-17T09:00:00+09:00',
-  dateModified: '2026-05-23T09:00:00+09:00',
+  dateModified: '2026-08-01T09:00:00+09:00',
   keyFacts: {
     '시간제 이용': '필요한 시간만큼, 연 960시간 한도',
     '시간제 기준 요금': '시간당 12,790원',
@@ -49,6 +49,7 @@ export const 아이돌봄시간제종합형SpokeContent: SpokeData = {
     {
       q: '종합형이 적합한 경우는 어떤 경우인가요?',
       anchor: 'full-best',
+      act: { cue: '종합형은 시간당 단가가 달라 총비용이 크게 갈립니다. 우리 집 이용 패턴으로 계산해 봐야 합니다.' },
       intro:
         '맞벌이로 하루 종일 정기적 돌봄이 필요한 경우, 어린이집·유치원에 다니는 아이가 방과 후에도 돌봄이 필요한 경우에 종합형이 적합합니다.',
       highlights: ['맞벌이', '전일 정기 돌봄'],
@@ -65,6 +66,7 @@ export const 아이돌봄시간제종합형SpokeContent: SpokeData = {
     {
       q: '아이가 어린이집에 다니는데 시간제를 이용할 수 있나요?',
       anchor: 'daycare-ok',
+      act: { cue: '어린이집과 병행할 때 지원 범위가 달라집니다. 중복 이용 기준을 확인해 두세요.' },
       intro:
         '어린이집 등원 전·하원 후 등 필요한 시간대에 시간제 돌봄을 이용할 수 있습니다.',
       highlights: ['등원 전', '하원 후'],
@@ -81,6 +83,7 @@ export const 아이돌봄시간제종합형SpokeContent: SpokeData = {
     {
       q: '신청 방법은 어떻게 되나요?',
       anchor: 'apply',
+      act: { cue: '돌보미 매칭에 시간이 걸리므로 미리 신청해 두는 편이 낫습니다.' },
       intro:
         '아이돌봄서비스 홈페이지(idolbom.go.kr)에서 온라인 신청하거나, 거주지 주민센터를 방문해 신청할 수 있습니다. 문의는 ☎1577-2514입니다.',
       highlights: ['idolbom.go.kr', '☎1577-2514'],
