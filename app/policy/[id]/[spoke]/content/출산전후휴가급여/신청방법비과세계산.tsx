@@ -1,12 +1,12 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 출산전후휴가급여신청방법비과세계산SpokeContent: SpokeData = {
-  h1: '출산전후휴가급여 신청하고 비과세 급여 계산하는 법',
+  h1: '출산휴가 급여 신청방법과 필요 서류, 고용24에서 하는 순서',
   breadcrumb: '신청방법비과세계산',
   description:
     '출산전후휴가급여 신청: 고용24(work24.go.kr) 온라인 또는 고용센터 방문. 휴가 종료 후 12개월 내. 피보험 180일 이상 필수. 비과세 적용(소득세법 제12조). 월 최대 220만원.',
   datePublished: '2026-05-18T09:00:00+09:00',
-  dateModified: '2026-05-23T09:00:00+09:00',
+  dateModified: '2026-08-01T09:00:00+09:00',
   keyFacts: {
     '신청처': '고용24(work24.go.kr) 또는 고용센터 방문',
     '신청 기한': '휴가 종료일로부터 12개월 이내',

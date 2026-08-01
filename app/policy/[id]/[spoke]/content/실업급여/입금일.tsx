@@ -4,7 +4,7 @@ const MOEL = 'https://www.moel.go.kr';
 const EI = 'https://www.ei.go.kr';
 
 export const 실업급여입금일SpokeContent: SpokeData = {
-  h1: '실업급여 입금일 1차부터 4차까지, 조회하면 며칠에 들어오나',
+  h1: '실업급여 1차·2차 입금일 조회, 실업인정 후 며칠에 들어오나',
   breadcrumb: '입금일·대기기간',
   description: '실업급여는 실업신고 후 7일(대기기간)은 지급되지 않고, 1차 실업인정일에 대기기간을 뺀 첫 급여(보통 8일분)가 입금됩니다. 이후 보통 4주마다 돌아오는 실업인정일에 그 기간분이 지급되며, 실업인정을 받은 뒤 통상 1~2영업일 안에 본인 계좌로 들어옵니다.',
   datePublished: '2026-06-26T09:00:00+09:00',

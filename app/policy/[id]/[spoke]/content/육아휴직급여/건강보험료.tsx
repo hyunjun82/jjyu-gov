@@ -4,11 +4,11 @@ const EL = 'https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1063&
 const NHIS = 'https://www.nhis.or.kr';
 
 export const 육아휴직건강보험료SpokeContent: SpokeData = {
-  h1: '육아휴직 건강보험료, 휴직 중 납부유예와 복직 후 정산',
+  h1: '육아휴직 건강보험료 얼마나 감면되나, 유예 신청과 복직 후 정산',
   breadcrumb: '건강보험료',
   description: '육아휴직 중에는 건강보험료 납입고지 유예를 신청해 휴직 기간 동안 내지 않고, 복직 후 정산합니다. 육아휴직자는 보수와 관계없이 보험료 하한 금액까지 경감되어 일반 휴직자(50% 경감)보다 부담이 적습니다.',
   datePublished: '2026-06-20T09:00:00+09:00',
-  dateModified: '2026-06-20T09:00:00+09:00',
+  dateModified: '2026-08-01T09:00:00+09:00',
   keyFacts: {
     '휴직 중 납부': '납입고지 유예 신청 시 미부과 (복직 후 정산)',
     '육아휴직 경감': '보수 무관, 보험료 하한 금액까지 경감',
