@@ -6,6 +6,7 @@ export const saeilWomenInternPolicy: PolicyData = {
   type: 'service',
   catSlug: 'welfare',
   title: '새일여성인턴 (경력 단절 여성 취업 지원)',
+  titleKeywords: { k1: '새일여성인턴', k2: '여성', k3: '인턴', k4: '신청' },
   org: '성평등가족부 / 한국여성인력개발원',
   amount: '최대 월 80만원 (인턴지원금) + 취업지원금 별도',
   deadline: '상시 (기업 수요에 따라)',
@@ -13,14 +14,34 @@ export const saeilWomenInternPolicy: PolicyData = {
   metaDescription: '새일여성인턴 (경력 단절 여성 취업 지원) – 최대 월 80만원 (인턴지원금) + 취업지원금 별도. 경력이 단절된 여성이 기업 인턴 근무를 통해 직장 적응력을 회복하고 정규직으로 취업할 수 있도록 지원합니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
-  applyUrl: 'https://saeil.mogef.go.kr/hom/jobOffer/jobOfferInternInfo.do',
-  ctaLabel: '새일여성인턴 참여신청 안내 확인하기 (여성새로일하기센터 공식)',
+  applyUrl: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do',
+  ctaLabel: '새일여성인턴 참여 신청하기',
   eligibility: [
     '경력 단절 여성 (임신·출산·육아·가족 돌봄 등으로 퇴직 후 재취업 희망자)',
     '만 18세 이상',
     '새일센터 회원 등록자',
   ],
   keyFacts: {
+    운영_기관: {
+      value: '성평등가족부 여성새로일하기센터',
+      source: { url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do', text: '여성새로일하기센터 운영', verifiedAt: '2026-08-01' },
+    },
+    온라인_준비: {
+      value: '온라인 여성경력개발센터 꿈날개 병행 이용',
+      source: { url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f013.do', text: '온라인 여성경력개발센터(꿈날개) 운영', verifiedAt: '2026-08-01' },
+    },
+    인재풀_등록: {
+      value: '여성인재DB 등록으로 기회 확대',
+      source: { url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f011.do', text: '여성인재DB 운영', verifiedAt: '2026-08-01' },
+    },
+    소관_부처: {
+      value: '성평등가족부 (정부조직법 제45조)',
+      source: { url: 'https://www.law.go.kr/법령/정부조직법', text: '제45조(성평등가족부)', verifiedAt: '2026-08-01' },
+    },
+    신청_창구: {
+      value: '가까운 새일센터를 통해 상담·신청',
+      source: { url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do', text: '여성새로일하기센터 운영', verifiedAt: '2026-08-01' },
+    },
     인턴지원금: { value: '최대 월 80만원 (인턴 기간 중)', sourceNote: '성평등가족부 새일여성인턴 안내' },
     인턴기간: { value: '3~5개월', sourceNote: '새일여성인턴 운영 지침' },
     취업지원금: { value: '정규직 전환 후 최대 80만원 추가 지급', sourceNote: '성평등가족부 지원 기준' },
@@ -29,6 +50,7 @@ export const saeilWomenInternPolicy: PolicyData = {
   qa: [
     {
       anchor: 'q1-intro',
+      act: { cue: '인턴 기간 동안 임금 일부를 지원받습니다. 제도 내용을 봐야 합니다.', label: '지원 내용 확인하기', url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do' },
       question: '새일여성인턴 프로그램이란?',
       intro: '성평등가족부가 운영하는 새일여성인턴은 임신·출산·육아 등으로 경력이 단절된 여성이 기업 인턴으로 근무하며 직장 적응력을 키우고, 정규직으로 전환될 수 있도록 지원하는 사업입니다. 인턴 기간 중 최대 월 80만원을 지원하고, 정규직 전환 후에도 추가 지원금이 지급됩니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['성평등가족부', '경력 단절 여성', '임신·출산·육아', '정규직 전환', '최대 월 80만원', '추가 지원금'],
@@ -46,6 +68,7 @@ export const saeilWomenInternPolicy: PolicyData = {
     },
     {
       anchor: 'q2-target',
+      act: { cue: '경력단절 여성이 대상입니다. 요건을 대조해 보세요.', label: '참여 자격 대조하기', url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do' },
       question: '누가 신청할 수 있나요?',
       intro: '임신·출산·육아·가족 돌봄 등으로 직장을 그만두고 재취업을 원하는 만 18세 이상 여성이면 신청 가능합니다. 새일센터 회원으로 등록되어 있어야 하며, 회원 등록은 무료로 가까운 새일센터에서 할 수 있습니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['경력 단절 여성', '만 18세 이상', '새일센터 회원', '임신', '출산', '육아', '가족 돌봄'],
@@ -54,6 +77,7 @@ export const saeilWomenInternPolicy: PolicyData = {
     },
     {
       anchor: 'q3-apply',
+      act: { cue: '새일센터를 통해 신청합니다. 가까운 센터를 찾으면 됩니다.', label: '새일센터에 신청하기', url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do' },
       question: '어떻게 신청하나요?',
       intro: '가까운 새일센터를 방문하거나 새일센터 홈페이지(www.saeil.mogef.go.kr)를 통해 신청합니다. 콜센터(☎1544-1199)로 문의하면 가까운 새일센터를 안내받을 수 있습니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['새일센터 방문', 'www.saeil.mogef.go.kr', '☎1544-1199'],
@@ -62,6 +86,7 @@ export const saeilWomenInternPolicy: PolicyData = {
     },
     {
       anchor: 'q4-process',
+      act: { cue: '상담과 알선을 거쳐 인턴으로 이어집니다.', label: '진행 절차 확인하기', url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do' },
       question: '인턴십은 어떻게 진행되나요?',
       intro: '새일센터에서 상담 후 적합한 기업과 매칭됩니다. 인턴 기간(3~5개월) 동안 기업에서 근무하며, 이후 정규직 전환 여부가 결정됩니다. 인턴 기간 내내 새일센터에서 멘토링과 사후 관리를 제공합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['기업 매칭', '3~5개월', '정규직 전환', '멘토링', '사후 관리'],
@@ -79,6 +104,7 @@ export const saeilWomenInternPolicy: PolicyData = {
     },
     {
       anchor: 'q5-benefit',
+      act: { cue: '인턴 종료 후 계속고용되면 추가 지원이 붙습니다.', label: '계속고용 지원 확인하기', url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do' },
       question: '지원금은 어떻게 받나요?',
       intro: '인턴 기간 중 최대 월 80만원의 인턴지원금이 해당 기업에 지급됩니다. 정규직으로 전환된 후 6개월 이상 고용이 유지되면 추가 취업지원금(최대 80만원)이 지급됩니다. 지원금은 기업이 받아 근로자 급여에 반영합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['최대 월 80만원', '인턴지원금', '정규직 전환', '취업지원금', '6개월'],
@@ -87,6 +113,7 @@ export const saeilWomenInternPolicy: PolicyData = {
     },
     {
       anchor: 'q6-company',
+      act: { cue: '기업도 지원금을 받습니다. 조건이 따로 있습니다.', label: '기업 지원 조건 확인하기', url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f002.do' },
       question: '어떤 기업에서 인턴으로 일할 수 있나요?',
       intro: '새일센터와 협약을 맺은 중소기업, 비영리기관, 사회적 기업 등 다양한 형태의 사업체에 인턴으로 배치됩니다. 업무 분야는 사무·행정·서비스·제조 등 다양하며, 경력과 희망에 따라 매칭됩니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['중소기업', '비영리기관', '사회적 기업', '사무', '행정', '서비스', '제조'],
@@ -95,6 +122,7 @@ export const saeilWomenInternPolicy: PolicyData = {
     },
     {
       anchor: 'q7-contact',
+      act: { cue: '먼저 역량을 쌓고 싶다면 온라인 과정을 이용할 수 있습니다.', label: '꿈날개 온라인 과정 신청하기', url: 'https://www.mogef.go.kr/sp/geq/sp_geq_f013.do' },
       question: '새일센터는 어디에 있나요?',
       intro: '전국 200여 개의 새일센터가 운영 중입니다. 콜센터(☎1544-1199)에 전화하거나 홈페이지(www.saeil.mogef.go.kr)에서 가까운 새일센터를 찾을 수 있습니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['전국 200여 개', '☎1544-1199', 'www.saeil.mogef.go.kr'],

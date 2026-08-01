@@ -6,6 +6,7 @@ export const environmentGuardianPolicy: PolicyData = {
   type: 'service',
   catSlug: 'youth',
   title: '환경지킴이 (공공근로·청년 일자리)',
+  titleKeywords: { k1: '환경', k2: '지킴이', k3: '일자리', k4: '공고' },
   org: '기후에너지환경부 / 한국환경공단',
   amount: '월 180~220만원 (공공근로 수당)',
   deadline: '연 1~2회 모집',
@@ -13,14 +14,34 @@ export const environmentGuardianPolicy: PolicyData = {
   metaDescription: '환경지킴이 (공공근로·청년 일자리) – 월 180~220만원 (공공근로 수당). 하천·산림·공원 등 환경 현장에서 환경 감시·정화 활동을 수행하는 공공근로 일자리입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
-  applyUrl: 'https://www.gojobs.go.kr',
-  ctaLabel: '나라일터에서 환경지킴이 채용정보 찾기 (공식)',
+  applyUrl: 'https://www.gojobs.go.kr/apmMain.do',
+  ctaLabel: '환경지킴이 채용공고 검색하기',
   eligibility: [
     '만 18세 이상 취업 취약 계층 (실업자·저소득층 우선)',
     '청년(만 18~34세) 특별 전형 별도 운영',
     '사회보험 가입 이력 확인 후 선발',
   ],
   keyFacts: {
+    채용_공고처: {
+      value: '나라일터(gojobs.go.kr) 채용정보',
+      source: { url: 'https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=', text: '채용정보', verifiedAt: '2026-08-01' },
+    },
+    상시_모집: {
+      value: '상시모집공고 별도 운영',
+      source: { url: 'https://www.gojobs.go.kr/apmListAlways.do?menuNo=407&mngrMenuYn=N&selMenuNo=400', text: '상시모집공고', verifiedAt: '2026-08-01' },
+    },
+    제도_안내: {
+      value: '나라일터 제도정보에서 채용 절차 확인',
+      source: { url: 'https://www.gojobs.go.kr/apmInfo.do?menuNo=602&mngrMenuYn=N&selMenuNo=600&upperMenuNo=601', text: '제도정보 채용정보', verifiedAt: '2026-08-01' },
+    },
+    관심공고_관리: {
+      value: '나의 관심채용정보로 공고 저장',
+      source: { url: 'https://www.gojobs.go.kr/apmScrap.do?menuNo=402&mngrMenuYn=N&selMenuNo=400', text: '나의 관심채용정보', verifiedAt: '2026-08-01' },
+    },
+    소관_부처: {
+      value: '기후에너지환경부 (정부조직법 제43조)',
+      source: { url: 'https://www.law.go.kr/법령/정부조직법', text: '제43조(기후에너지환경부)', verifiedAt: '2026-08-01' },
+    },
     수당: { value: '월 180~220만원 (공공근로 기준)', sourceNote: '기후에너지환경부·한국환경공단 환경지킴이 공고' },
     근무기간: { value: '5~12개월 (사업별 상이)', sourceNote: '환경지킴이 운영 지침' },
     신청처: { value: '워크넷(www.work.go.kr), 고용센터 방문', sourceNote: '고용노동부 공공근로 안내' },
@@ -29,6 +50,7 @@ export const environmentGuardianPolicy: PolicyData = {
   qa: [
     {
       anchor: 'q1-intro',
+      act: { cue: '공공기관에서 뽑는 환경 분야 일자리입니다. 어떤 일인지 확인해 보세요.', label: '사업 내용 확인하기', url: 'https://www.gojobs.go.kr/apmInfo.do?menuNo=602&mngrMenuYn=N&selMenuNo=600&upperMenuNo=601' },
       question: '환경지킴이란 어떤 일을 하나요?',
       intro: '환경지킴이는 기후에너지환경부와 한국환경공단이 지원하는 공공근로 일자리로, 하천·호수·해변·공원 등 생활 환경 현장에서 정화 활동, 불법 투기 감시, 생태 모니터링 등을 수행합니다. 환경 보호와 일자리 창출을 동시에 실현하는 사업입니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['환경지킴이', '하천 정화', '불법 투기 감시', '생태 모니터링', '공공근로', '기후에너지환경부', '한국환경공단'],
@@ -46,6 +68,7 @@ export const environmentGuardianPolicy: PolicyData = {
     },
     {
       anchor: 'q2-target',
+      act: { cue: '연령·거주 요건이 공고마다 다릅니다. 공고문에서 대조해야 합니다.', label: '채용 자격 대조하기', url: 'https://www.gojobs.go.kr/apmInfo.do?menuNo=602&mngrMenuYn=N&selMenuNo=600&upperMenuNo=601' },
       question: '누가 신청할 수 있나요?',
       intro: '만 18세 이상으로 취업 취약 계층이면 신청 가능합니다. 실업자, 저소득층, 장기 실업자가 우선 선발되며, 청년(만 18~34세) 특별 전형도 운영합니다. 동일 사업 참여 횟수 제한이 있으므로 사전 확인이 필요합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['만 18세 이상', '취업 취약 계층', '실업자', '저소득층', '청년 특별 전형'],
@@ -54,6 +77,7 @@ export const environmentGuardianPolicy: PolicyData = {
     },
     {
       anchor: 'q3-apply',
+      act: { cue: '공고가 떠 있을 때만 접수됩니다. 지금 열린 공고를 확인하세요.', label: '채용공고 검색하기', url: 'https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=' },
       question: '어떻게 신청하나요?',
       intro: '환경지킴이 신청은 워크넷(www.work.go.kr)에서 온라인으로 접수하거나, 가까운 고용센터를 방문해 신청할 수 있습니다. 공고 기간 내에 신청해야 하며, 서류 심사와 면접을 거쳐 선발됩니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['www.work.go.kr', '고용센터', '온라인 신청', '공고 기간', '서류 심사'],
@@ -62,6 +86,7 @@ export const environmentGuardianPolicy: PolicyData = {
     },
     {
       anchor: 'q4-wage',
+      act: { cue: '임금은 공고별로 정해집니다. 조건을 직접 봐야 정확합니다.', label: '급여 조건 확인하기', url: 'https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=' },
       question: '수당은 얼마이고 어떻게 지급되나요?',
       intro: '공공근로 수당은 시급 기준으로 지급되며, 월 환산 시 180~220만원 수준입니다. 정확한 수당은 해당 연도 최저임금과 근무 시간에 따라 달라집니다. 4대 보험이 가입되고, 매월 말 급여가 지급됩니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['월 180~220만원', '시급 기준', '최저임금', '4대 보험', '매월 지급'],
@@ -79,6 +104,7 @@ export const environmentGuardianPolicy: PolicyData = {
     },
     {
       anchor: 'q5-period',
+      act: { cue: '근무 기간이 한시적입니다. 기간을 확인하고 지원하세요.', label: '근무 기간 확인하기', url: 'https://www.gojobs.go.kr/apmListAlways.do?menuNo=407&mngrMenuYn=N&selMenuNo=400' },
       question: '얼마나 일할 수 있나요?',
       intro: '근무 기간은 사업별로 5~12개월로 다양합니다. 동일인이 연속으로 참여하는 데 제한이 있을 수 있으며, 종료 후 재신청도 가능합니다. 사업 연장 여부는 예산과 사업 성과에 따라 결정됩니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['5~12개월', '연속 참여 제한', '재신청 가능', '사업 연장'],
@@ -87,6 +113,7 @@ export const environmentGuardianPolicy: PolicyData = {
     },
     {
       anchor: 'q6-location',
+      act: { cue: '지역마다 모집 여부가 다릅니다. 우리 지역 공고를 찾아보세요.', label: '지역별 공고 검색하기', url: 'https://www.gojobs.go.kr/apmList.do?menuNo=401&mngrMenuYn=N&selMenuNo=400&upperMenuNo=' },
       question: '어디서 근무하게 되나요?',
       intro: '환경지킴이는 전국 각지의 하천, 산림, 공원, 해안 등 환경 현장에서 근무합니다. 배치 지역은 모집 기관(지자체·환경공단 지역 본부)에 따라 달라지며, 지원 시 근무지 희망 지역을 기재할 수 있습니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['하천', '산림', '공원', '해안', '전국', '근무지 선택'],
@@ -95,6 +122,7 @@ export const environmentGuardianPolicy: PolicyData = {
     },
     {
       anchor: 'q7-contact',
+      act: { cue: '문의는 공고를 낸 기관으로 해야 정확합니다.', label: '공고 담당기관 확인하기', url: 'https://www.gojobs.go.kr/apmScrap.do?menuNo=402&mngrMenuYn=N&selMenuNo=400' },
       question: '더 자세한 정보는 어디서 얻나요?',
       intro: '환경지킴이 관련 상세 정보는 워크넷(www.work.go.kr), 고용노동부 콜센터(☎1350), 또는 한국환경공단 홈페이지(www.keco.or.kr)에서 확인할 수 있습니다. 지역별 공고는 각 지자체 및 환경공단 지역 본부에서도 안내받을 수 있습니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['www.work.go.kr', '☎1350', 'www.keco.or.kr', '지자체', '지역 본부'],

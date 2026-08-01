@@ -6,6 +6,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
   type: 'service',
   catSlug: 'youth',
   title: '청년 디자이너 공공기관 인턴십',
+  titleKeywords: { k1: '디자인', k2: '인턴', k3: '청년', k4: '디자인진흥원' },
   org: '한국디자인진흥원 (산업통상부)',
   amount: '월 180~220만원 (인턴 수당)',
   deadline: '연 1~2회 모집',
@@ -13,14 +14,34 @@ export const youthDesignerInternshipPolicy: PolicyData = {
   metaDescription: '청년 디자이너 공공기관 인턴십 – 월 180~220만원 (인턴 수당). 디자인 전공 청년을 공공기관·공기업에 인턴으로 파견하여 실무 역량과 취업 경쟁력을 높이는 프로그램입니다.',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
-  applyUrl: 'https://intern.kidp.or.kr/',
-  ctaLabel: '디자인 인턴십 신청하기 (한국디자인진흥원 공식)',
+  applyUrl: 'https://intern.kidp.or.kr/intro?pa_type=d',
+  ctaLabel: '디자인 인턴 지원 신청하기',
   eligibility: [
     '만 18~34세 청년',
     '디자인 관련 전공 졸업(예정)자',
     '미취업 상태인 자',
   ],
   keyFacts: {
+    국내_과정: {
+      value: '청년연계 K디자인 파워업',
+      source: { url: 'https://intern.kidp.or.kr/intro?pa_type=d', text: '[국내] 청년연계 K디자인 파워업', verifiedAt: '2026-08-01' },
+    },
+    해외_과정: {
+      value: 'Global Design Internship 별도 운영',
+      source: { url: 'https://intern.kidp.or.kr/intro?pa_type=o', text: '[해외] Global Design Int', verifiedAt: '2026-08-01' },
+    },
+    모집_공고: {
+      value: '공지사항에서 모집 공고 확인',
+      source: { url: 'https://intern.kidp.or.kr/notice?member_only=0', text: '공지사항', verifiedAt: '2026-08-01' },
+    },
+    서식_자료: {
+      value: '서식 자료실에서 제출서류 확인',
+      source: { url: 'https://intern.kidp.or.kr/library', text: '서식 자료실', verifiedAt: '2026-08-01' },
+    },
+    소관_부처: {
+      value: '산업통상부 산하 한국디자인진흥원 (정부조직법 제41조)',
+      source: { url: 'https://www.law.go.kr/법령/정부조직법', text: '제41조(산업통상부)', verifiedAt: '2026-08-01' },
+    },
     수당: { value: '월 180~220만원 내외', sourceNote: '한국디자인진흥원 인턴십 공고' },
     기간: { value: '6개월', sourceNote: '청년 디자이너 인턴십 운영 지침' },
     신청처: { value: '한국디자인진흥원 (www.kidp.or.kr)', sourceNote: '진흥원 공식 공고' },
@@ -29,6 +50,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
   qa: [
     {
       anchor: 'q1-intro',
+      act: { cue: '공공기관에서 6개월 실무를 경험하는 프로그램입니다.', label: '프로그램 내용 확인하기', url: 'https://intern.kidp.or.kr/intro?pa_type=d' },
       question: '청년 디자이너 인턴십이란 무엇인가요?',
       intro: '산업통상부 산하 한국디자인진흥원이 운영하는 프로그램으로, 디자인 전공 청년을 공공기관·공기업에 6개월간 파견하여 현장 실무를 경험하게 합니다. 월 180~220만원의 수당을 지급하며 취업 연계도 지원합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['한국디자인진흥원', '공공기관', '공기업', '6개월', '월 180~220만원', '취업 연계'],
@@ -46,6 +68,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
     },
     {
       anchor: 'q2-target',
+      act: { cue: '디자인 전공 청년이 대상입니다. 요건을 대조해 보세요.', label: '지원자격 대조하기', url: 'https://intern.kidp.or.kr/intro?pa_type=d' },
       question: '지원 자격은 어떻게 되나요?',
       intro: '만 18~34세 미취업 청년으로 디자인 관련 학과(시각·산업·패션·인테리어·UI/UX 등) 졸업 예정자 또는 졸업자이면 지원 가능합니다. 포트폴리오 심사가 포함되므로 실무 역량을 보여줄 수 있는 작품을 준비해야 합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['만 18~34세', '디자인 전공', '미취업', '포트폴리오', 'UI/UX', '시각디자인'],
@@ -54,6 +77,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
     },
     {
       anchor: 'q3-apply',
+      act: { cue: '모집 공고가 열릴 때 접수합니다. 지금 공고를 확인하세요.', label: '모집공고 확인하기', url: 'https://intern.kidp.or.kr/notice?member_only=0' },
       question: '어떻게 지원하나요?',
       intro: '한국디자인진흥원 홈페이지(www.kidp.or.kr) 공고를 통해 지원서와 포트폴리오를 제출합니다. 서류 심사 후 면접과 포트폴리오 발표를 거쳐 최종 선발하며, 이후 배치 기관과의 매칭이 이루어집니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['www.kidp.or.kr', '포트폴리오 제출', '서류 심사', '면접', '포트폴리오 발표'],
@@ -62,6 +86,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
     },
     {
       anchor: 'q4-work',
+      act: { cue: '배치 기관과 업무가 공고마다 다릅니다.', label: '배치 기관 확인하기', url: 'https://intern.kidp.or.kr/intro?pa_type=o' },
       question: '어떤 실무를 경험할 수 있나요?',
       intro: '배치된 공공기관의 디자인 업무를 담당합니다. 홍보물·UI 디자인, 브랜드 개발, 공간 환경 개선, 공공 서비스 디자인 등 기관 특성에 맞는 다양한 프로젝트에 참여할 수 있습니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['홍보물', 'UI 디자인', '브랜드 개발', '공간 환경', '공공 서비스 디자인'],
@@ -79,6 +104,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
     },
     {
       anchor: 'q5-benefit',
+      act: { cue: '수당이 지급됩니다. 금액 기준을 확인하세요.', label: '지원 수당 확인하기', url: 'https://intern.kidp.or.kr/intro?pa_type=d' },
       question: '인턴십을 마치면 어떤 혜택이 있나요?',
       intro: '6개월 수료 후 수료증과 경력 확인서가 발급됩니다. 우수 인턴은 기관 정규직 채용 연계 기회가 주어지며, 한국디자인진흥원의 취업 연계 프로그램도 활용할 수 있습니다. 4대 보험도 가입됩니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['수료증', '경력 확인서', '정규직 채용 연계', '취업 연계', '4대 보험'],
@@ -87,6 +113,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
     },
     {
       anchor: 'q6-location',
+      act: { cue: '근무지가 지역별로 나뉩니다. 확인하고 지원하세요.', label: '근무지 확인하기', url: 'https://intern.kidp.or.kr/intro?pa_type=o' },
       question: '어떤 기관에 배치되나요?',
       intro: '중앙 부처, 지방자치단체, 공기업, 공공기관 등 전국의 공공 부문 기관에 배치됩니다. 희망 지역과 전공 분야를 고려해 매칭이 이루어지며, 수도권과 지방 기관 모두 포함됩니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['중앙 부처', '지자체', '공기업', '공공기관', '전국', '매칭'],
@@ -95,6 +122,7 @@ export const youthDesignerInternshipPolicy: PolicyData = {
     },
     {
       anchor: 'q7-contact',
+      act: { cue: '문의는 한국디자인진흥원으로 하면 됩니다.', label: '문의처 확인하기', url: 'https://intern.kidp.or.kr/faq' },
       question: '문의는 어디로 하나요?',
       intro: '한국디자인진흥원 인턴십 담당 부서 또는 홈페이지(www.kidp.or.kr) 내 문의 게시판으로 문의하면 됩니다. 공고 기간 중에는 설명회도 개최되므로 참여를 권장합니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다. 자세한 사항은 해당 기관 공식 홈페이지 또는 담당 부처에 문의하시기 바랍니다.',
       highlights: ['www.kidp.or.kr', '문의 게시판', '설명회'],

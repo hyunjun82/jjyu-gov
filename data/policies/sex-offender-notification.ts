@@ -4,12 +4,14 @@ export const sexOffenderNotificationPolicy: PolicyData = {
   slug: 'sex-offender-notification',
   type: 'service',
   title: '성범죄자 신상정보 열람방법과 공개기간, 학교에서도 확인되나요?',
+  titleKeywords: { k1: '성범죄자', k2: '알림e', k3: '열람', k4: '공개' },
   org: '성평등가족부 / 법무부',
   cat: '생활서비스',
   catSlug: 'service',
   amount: '무료',
   deadline: '상시',
-  applyUrl: 'https://www.sexoffender.go.kr',
+  applyUrl: 'https://www.sexoffender.go.kr/m1s2_2.nsc',
+  ctaLabel: '성범죄자 알림e 열람하기',
   summary: '아동·청소년 대상 성범죄자의 신상정보(이름·나이·주소·사진)를 우편 고지 또는 인터넷(sexoffender.go.kr)을 통해 확인할 수 있는 성평등가족부·법무부 서비스.',
   metaDescription: '성범죄자 신상정보 열람방법과 공개기간, 학교에서도 확인되나요? – 무료. 아동·청소년 대상 성범죄자의 신상정보(이름·나이·주소·사진)를 우편 고지 또는 인터넷(sexoffender.go.kr)을 통해 확인할 수 있는 성평등가족부·법무부 서비스.',
   audience: '아동·청소년 보호자, 관련 기관 종사자',
@@ -17,17 +19,30 @@ export const sexOffenderNotificationPolicy: PolicyData = {
   datePublished: '2026-01-01',
   dateModified: '2026-05-23T09:00:00+09:00',
   keyFacts: {
-    고지대상: { value: '아동·청소년 대상 성범죄자', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '아동·청소년 대상 성범죄자 신상정보 고지', verifiedAt: '2026-05-17' } },
-    열람방법: { value: '인터넷(sexoffender.go.kr) 또는 주소지 관할 경찰서', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '인터넷 열람 및 주소지 경찰서 방문 열람', verifiedAt: '2026-05-17' } },
-    고지내용: { value: '이름·나이·주소·실제 거주지·사진·죄명·형량', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '성명, 나이, 주소, 실제 거주지, 사진, 죄명, 형기', verifiedAt: '2026-05-17' } },
-    이용료: { value: '무료', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '신상정보 열람 무료', verifiedAt: '2026-05-17' } },
-    주관: { value: '성평등가족부·법무부 공동 운영', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '성평등가족부·법무부 공동 운영', verifiedAt: '2026-05-17' } },
-    고지기간: { value: '판결 확정 후 10년(형 집행 완료 기준)', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '신상정보 고지 기간 최대 10년', verifiedAt: '2026-05-17' } },
-    문의: { value: '☎1388 (성평등가족부)', source: { url: 'https://www.sexoffender.go.kr', cardIndex: 1, text: '문의: 1388', verifiedAt: '2026-05-17' } },
+    지도_검색: {
+      value: '지도로 검색 기능 제공',
+      source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', text: '지도로 검색', verifiedAt: '2026-08-01' },
+    },
+    조건_검색: {
+      value: '조건으로 검색 기능 제공',
+      source: { url: 'https://www.sexoffender.go.kr/m1s2_3.nsc', text: '조건으로 검색', verifiedAt: '2026-08-01' },
+    },
+    공개현황: {
+      value: '실시간 공개현황 제공',
+      source: { url: 'https://www.sexoffender.go.kr/m3s3.nsc', text: '공개현황(실시간)', verifiedAt: '2026-08-01' },
+    },
+    고지대상: { value: '아동·청소년 대상 성범죄자', source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', cardIndex: 1, text: '아동·청소년 대상 성범죄자 신상정보 고지', verifiedAt: '2026-05-17' } },
+    열람방법: { value: '인터넷(sexoffender.go.kr) 또는 주소지 관할 경찰서', source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', cardIndex: 1, text: '인터넷 열람 및 주소지 경찰서 방문 열람', verifiedAt: '2026-05-17' } },
+    고지내용: { value: '이름·나이·주소·실제 거주지·사진·죄명·형량', source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', cardIndex: 1, text: '성명, 나이, 주소, 실제 거주지, 사진, 죄명, 형기', verifiedAt: '2026-05-17' } },
+    이용료: { value: '무료', source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', cardIndex: 1, text: '신상정보 열람 무료', verifiedAt: '2026-05-17' } },
+    주관: { value: '성평등가족부·법무부 공동 운영', source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', cardIndex: 1, text: '성평등가족부·법무부 공동 운영', verifiedAt: '2026-05-17' } },
+    고지기간: { value: '판결 확정 후 10년(형 집행 완료 기준)', source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', cardIndex: 1, text: '신상정보 고지 기간 최대 10년', verifiedAt: '2026-05-17' } },
+    문의: { value: '☎1388 (성평등가족부)', source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', cardIndex: 1, text: '문의: 1388', verifiedAt: '2026-05-17' } },
   },
   qa: [
     {
       anchor: 'q1-what',
+      act: { cue: '우리 동네 정보를 직접 확인할 수 있는 제도입니다.', label: '알림e 열람하기', url: 'https://www.sexoffender.go.kr/m1s2_2.nsc' },
       q: '성범죄자 신상정보 고지·열람이란 무엇인가요?',
       intro: '성범죄자 신상정보 고지·열람 제도는 아동·청소년 대상 성범죄자의 신상정보를 지역 주민에게 공개·고지하여 아동·청소년을 성범죄로부터 보호하기 위한 성평등가족부·법무부 공동 운영 제도입니다. 등록된 성범죄자의 이름, 나이, 사진, 주소, 죄명 등 신상정보를 우편 고지 및 인터넷(sexoffender.go.kr)을 통해 확인할 수 있습니다. 서비스 이용에 별도 비용은 없으며 신청 즉시 이용 가능합니다.',
       highlights: ['성범죄자 신상정보', '아동·청소년 보호', '우편 고지', 'sexoffender.go.kr', '이름·사진·주소·죄명'],
@@ -36,6 +51,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
     },
     {
       anchor: 'q2-check',
+      act: { cue: '실명 인증을 거쳐 열람합니다. 절차를 확인하세요.', label: '열람 절차 확인하기', url: 'https://www.sexoffender.go.kr/m1s2_3.nsc' },
       q: '신상정보는 어떻게 확인하나요?',
       intro: '성범죄자 신상정보는 두 가지 방법으로 확인할 수 있습니다. 첫째, 인터넷 열람: 성범죄자알림e(sexoffender.go.kr)에 접속해 본인 인증 후 주소지 주변 성범죄자 정보를 열람할 수 있습니다. 둘째, 경찰서 방문: 주소지 관할 경찰서에 방문하여 열람을 신청할 수 있습니다. 인터넷 열람은 아동·청소년의 보호자, 아동·청소년 관련 기관 종사자만 가능합니다.',
       highlights: ['sexoffender.go.kr', '인터넷 열람', '경찰서 방문 열람', '보호자만 가능', '본인 인증 필요'],
@@ -51,8 +67,9 @@ export const sexOffenderNotificationPolicy: PolicyData = {
     },
     {
       anchor: 'q3-content',
+      act: { cue: '공개되는 정보 범위가 법으로 정해져 있습니다.', label: '공개 정보 확인하기', url: 'https://www.sexoffender.go.kr/m2s3_2.nsc' },
       q: '어떤 정보가 공개되나요?',
-      intro: '성범죄자 신상정보에는 성명, 나이, 사진, 주소(읍·면·동), 실제 거주지, 죄명, 선고 형량, 성폭력 전과 횟수 등이 포함됩니다. 단, 정확한 상세 주소(번지)는 인터넷 열람에서는 제공되지 않고 경찰서 방문 열람에서만 확인 가능합니다. 공개 정보는 형 집행 완료 후 최대 10년간 유지됩니다. 서비스 이용에 별도 비용은 없으며 신청 즉시 이용 가능합니다. 자세한 사항은 해당 기관 홈페이지나 담당 부처에 문의하시기 바랍니다.',
+      intro: '성범죄자 신상정보에는 성명, 나이, 사진, 주소(읍·면·동), 실제 거주지, 죄명, 선고 형량, 성폭력 전과 횟수 등이 포함됩니다. 단, 정확한 상세 주소(번지)는 인터넷 열람에서는 제공되지 않고 경찰서 방문 열람에서만 확인 가능합니다. 공개 정보는 형 집행 완료 후 최대 10년간 유지됩니다. 자세한 사항은 해당 기관 홈페이지나 담당 부처에 문의하시기 바랍니다.',
       highlights: ['성명', '사진', '주소(읍·면·동)', '죄명', '선고 형량', '최대 10년 공개'],
       table: {
         headers: ['공개 정보', '인터넷 열람', '경찰서 방문'],
@@ -68,6 +85,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
     },
     {
       anchor: 'q4-target',
+      act: { cue: '공개 대상이 누구인지 기준이 있습니다.', label: '공개 대상 기준 확인하기', url: 'https://www.sexoffender.go.kr/m2s3_2.nsc' },
       q: '누가 열람할 수 있나요?',
       intro: '인터넷을 통한 신상정보 열람은 아동·청소년의 보호자(부모·법정대리인)와 아동·청소년 관련 기관(학교, 어린이집, 학원 등) 종사자가 이용할 수 있습니다. 본인 인증 후 현재 주소지를 기준으로 주변 성범죄자 정보를 조회할 수 있습니다. 일반 성인의 경우 경찰서를 방문하여 신분증을 제시하면 열람이 가능합니다. 서비스 이용에 별도 비용은 없으며 신청 즉시 이용 가능합니다.',
       highlights: ['아동·청소년 보호자', '아동관련기관 종사자', '본인 인증', '학교·어린이집·학원'],
@@ -76,6 +94,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
     },
     {
       anchor: 'q5-period',
+      act: { cue: '공개 기간이 정해져 있습니다. 기준을 확인하세요.', label: '공개 기간 확인하기', url: 'https://www.sexoffender.go.kr/m3s3.nsc' },
       q: '신상정보는 얼마나 오래 공개되나요?',
       intro: '성범죄자 신상정보 공개·고지 기간은 범죄 종류와 형량에 따라 다르지만, 일반적으로 형 집행 완료 후 최대 10년간 유지됩니다. 성범죄를 다시 저지른 경우 고지 기간이 연장될 수 있습니다. 공개·고지 기간이 종료되면 정보는 자동으로 삭제되며, 열람이 불가해집니다. 서비스 이용에 별도 비용은 없으며 신청 즉시 이용 가능합니다. 자세한 사항은 해당 기관 홈페이지나 담당 부처에 문의하시기 바랍니다.',
       highlights: ['형 집행 완료 후 최대 10년', '재범 시 기간 연장', '기간 종료 시 자동 삭제'],
@@ -84,6 +103,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
     },
     {
       anchor: 'q6-institution',
+      act: { cue: '학교·기관 종사자 대상 확인 제도가 따로 있어요.', label: '기관 확인 제도 조회하기', url: 'https://www.sexoffender.go.kr/m2s3_3.nsc' },
       q: '어린이집·학교 등 기관에서도 확인할 수 있나요?',
       intro: '어린이집, 유치원, 학교, 학원, 청소년 관련 기관 등 아동·청소년 관련 기관의 장은 취업 예정자에 대해 성범죄 경력을 조회할 수 있습니다. 또한 기관 종사자는 인터넷 열람을 통해 주변 성범죄자 신상정보를 확인할 수 있습니다. 이를 통해 아동·청소년이 이용하는 시설의 안전을 강화할 수 있습니다. 서비스 이용에 별도 비용은 없으며 신청 즉시 이용 가능합니다.',
       highlights: ['어린이집', '학교', '학원', '취업 예정자 경력 조회', '기관 종사자 열람'],
@@ -92,6 +112,7 @@ export const sexOffenderNotificationPolicy: PolicyData = {
     },
     {
       anchor: 'q7-inquiry',
+      act: { cue: '유출·악용은 처벌 대상입니다. 유의사항을 확인해 보는 게 좋습니다.', label: '이용 시 유의사항 확인하기', url: 'https://www.sexoffender.go.kr/m3s1.nsc' },
       q: '문의는 어디에 하나요?',
       intro: '성범죄자 신상정보 고지·열람 관련 문의는 성평등가족부 고객상담센터(☎1388) 또는 성범죄자알림e(sexoffender.go.kr) 고객센터를 이용하시면 됩니다. 법무부 관련 문의는 법무부 민원실로 연락하실 수 있습니다. 운영 시간은 평일 09:00~18:00이며, 성범죄 피해 관련 상담은 여성긴급전화 1366(24시간)으로 문의 가능합니다. 서비스 이용에 별도 비용은 없으며 신청 즉시 이용 가능합니다.',
       highlights: ['☎1388', 'sexoffender.go.kr', '법무부 민원실', '여성긴급전화 1366'],
@@ -108,31 +129,31 @@ export const sexOffenderNotificationPolicy: PolicyData = {
     {
       question: '성범죄자알림e에서 모든 성범죄자 정보가 공개되나요?',
       answer: '아동·청소년 대상 성범죄로 처벌받은 자의 정보만 공개됩니다. 성인 대상 성범죄는 별도 기준이 적용됩니다.',
-      source: { url: 'https://www.sexoffender.go.kr', text: '성범죄자알림e 서비스 안내', verifiedAt: '2026-05-17' },
+      source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', text: '성범죄자알림e 서비스 안내', verifiedAt: '2026-05-17' },
     },
     {
       question: '이사 후에도 새 주소지로 정보가 갱신되나요?',
       answer: '성범죄자가 주소를 변경하면 관할 경찰에 신고 의무가 있으며, 변경된 주소로 신상정보가 갱신됩니다.',
-      source: { url: 'https://www.sexoffender.go.kr', text: '성범죄자알림e 서비스 안내', verifiedAt: '2026-05-17' },
+      source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', text: '성범죄자알림e 서비스 안내', verifiedAt: '2026-05-17' },
     },
     {
       question: '열람한 정보를 다른 사람에게 알려도 되나요?',
       answer: '신상정보는 아동·청소년 보호 목적으로만 이용해야 하며, 이를 악용하거나 불법 전달 시 처벌받을 수 있습니다.',
-      source: { url: 'https://www.sexoffender.go.kr', text: '성범죄자알림e 이용 주의사항', verifiedAt: '2026-05-17' },
+      source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', text: '성범죄자알림e 이용 주의사항', verifiedAt: '2026-05-17' },
     },
     {
       question: '우편 고지는 언제 받을 수 있나요?',
       answer: '등록 성범죄자가 출소 또는 거주지 전입 시 관할 주민에게 우편으로 고지됩니다. 우편물 수신이 안 된 경우 sexoffender.go.kr에서 직접 확인 가능합니다.',
-      source: { url: 'https://www.sexoffender.go.kr', text: '성범죄자알림e 우편 고지 안내', verifiedAt: '2026-05-17' },
+      source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', text: '성범죄자알림e 우편 고지 안내', verifiedAt: '2026-05-17' },
     },
     {
       question: '성범죄자 등록 거부나 이의신청이 가능한가요?',
       answer: '신상정보 공개·고지 결정에 이의가 있는 경우 판결에 대한 항소·상고를 통해 다툴 수 있습니다. 행정 처분이 아닌 법원 판결로 결정됩니다.',
-      source: { url: 'https://www.sexoffender.go.kr', text: '성범죄자알림e 서비스 안내', verifiedAt: '2026-05-17' },
+      source: { url: 'https://www.sexoffender.go.kr/m1s2_2.nsc', text: '성범죄자알림e 서비스 안내', verifiedAt: '2026-05-17' },
     },
   ],
   sources: [
-    { label: '성범죄자알림e', url: 'https://www.sexoffender.go.kr' },
+    { label: '성범죄자알림e', url: 'https://www.sexoffender.go.kr/m1s2_2.nsc' },
     { label: '성평등가족부 공식 홈페이지', url: 'https://www.mogef.go.kr' },
     { label: '법무부 공식 홈페이지', url: 'https://www.moj.go.kr' },
   ],

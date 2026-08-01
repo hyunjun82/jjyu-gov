@@ -5,6 +5,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
   slug: 'efficient-appliance-support',
   type: 'service',
   title: '전기요금 복지할인 대상 취약계층 고효율가전 구매지원',
+  titleKeywords: { k1: '고효율', k2: '가전', k3: '환급', k4: '신청' },
   cat: '환급금',
   catSlug: 'refund',
   org: '한국전력공사 (기후에너지환경부)',
@@ -14,10 +15,18 @@ export const efficientApplianceSupportPolicy: PolicyData = {
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://en-ter.co.kr/support/main/main.do',
-  ctaLabel: '고효율가전 구매비용 지원 신청하기 (한전 공식)',
+  ctaLabel: '고효율 가전 환급 신청하기',
   tags: ['고효율가전', '냉장고', '에어컨', '세탁기', '취약계층', '복지할인', '한전', '에너지마켓플레이스'],
 
   keyFacts: {
+    신청_창구: {
+      value: '한전 에너지마켓플레이스(en-ter.co.kr) 온라인 신청',
+      source: { url: 'https://en-ter.co.kr/support/main/main.do', text: '고효율 가전 환급 신청', verifiedAt: '2026-08-01' },
+    },
+    함께_챙길_것: {
+      value: '주택용 에너지캐시백과 별개로 각각 신청 가능',
+      source: { url: 'https://en-ter.co.kr/ec/apply/app/list.do', text: '에너지캐시백 신청', verifiedAt: '2026-08-01' },
+    },
     지원유형: {
       value: '구매금액의 15~30% 환급 (가구당 최대 30만 원)',
       source: {
@@ -87,6 +96,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
   qa: [
     {
       anchor: 'target',
+      act: { cue: '대상 가구 요건이 정해져 있습니다. 해당하는지 대조해 보세요.', label: '지원대상 대조하기', url: 'https://en-ter.co.kr/support/main/main.do' },
       question: '이 지원을 받을 수 있는 대상은 누구인가요?',
       intro: '전기요금 복지할인을 받고 있는 취약계층 가구라면 누구나 신청 가능합니다. 단, 신청 전에 한전 전기요금 복지할인이 먼저 적용되어 있어야 합니다. 복지할인이 아직 신청되지 않은 경우 가까운 한전 지사나 주민센터에서 먼저 신청하세요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['기초생활수급자', '차상위계층', '국가유공자 1~3급', '중증장애인 1~3급', '전기요금 복지할인'],
@@ -109,6 +119,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
     },
     {
       anchor: 'benefit',
+      act: { cue: '환급 비율과 한도가 정해져 있습니다. 얼마인지 확인하세요.', label: '환급 기준 확인하기', url: 'https://en-ter.co.kr/support/main/main.do' },
       question: '얼마나, 어떤 제품을 지원받나요?',
       intro: '에너지소비효율 1등급 가전제품 11종을 구매하면 구매금액의 15% 또는 30%를 환급받습니다. 가구당 최대 30만 원 한도이며, 여러 품목을 합산하여 한도 안에서 지원받을 수 있습니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['가구당 최대 30만 원', '가군 30%', '나군 15%', '11개 품목', '1등급 가전'],
@@ -139,6 +150,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
     },
     {
       anchor: 'apply',
+      act: { cue: '구매 후 신청하는 방식입니다. 접수 화면에서 진행하세요.', label: '환급 신청 접수하기', url: 'https://en-ter.co.kr/support/main/main.do' },
       question: '어떻게 신청하나요?',
       intro: '고효율 가전제품을 먼저 구매한 뒤, 한전 에너지마켓플레이스(support.kepco.co.kr)에서 온라인으로 신청합니다. 구매 영수증·에너지등급 라벨 사진·제품 명판 사진 등을 준비해야 합니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['support.kepco.co.kr', '온라인 신청', '영수증', '라벨 사진', '명판 사진'],
@@ -165,6 +177,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
     },
     {
       anchor: 'period',
+      act: { cue: '연중 예산 소진 시 마감됩니다. 기간을 확인하고 서두르세요.', label: '신청 기간 확인하기', url: 'https://en-ter.co.kr/support/main/main.do' },
       question: '신청 기간과 소급 적용 여부는?',
       intro: '2026년 사업 신청 기간은 2월 9일부터 12월 31일까지입니다. 2026년 1월 1일 이후 구매한 제품은 소급 적용되어 2월 9일 이후 신청이 가능합니다. 예산 소진 시 기간 내라도 조기 마감될 수 있으므로 일찍 신청하는 것이 유리합니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['2026.02.09 ~ 12.31', '2026.01.01 이후 구매 소급 적용', '예산 소진 시 조기 마감'],
@@ -181,6 +194,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
     },
     {
       anchor: 'caution',
+      act: { cue: '제외 품목이 있습니다. 사기 전에 확인해야 손해가 없습니다.', label: '대상 품목 확인하기', url: 'https://en-ter.co.kr/support/main/main.do' },
       question: '지원받을 때 주의할 점은 무엇인가요?',
       intro: '에너지등급 라벨이 없거나 등급 기준 시행일이 맞지 않으면 지원이 거절됩니다. 빌트인 제품은 설치 전 사진을 반드시 찍어두세요. 무선 청소기·중고 제품·해외 직구 제품은 지원 대상이 아닙니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['라벨 등급 기준 시행일 확인', '빌트인 설치 전 사진 촬영', '무선 청소기 제외', '중고·해외직구 제외'],
@@ -206,6 +220,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
     },
     {
       anchor: 'prerequisite',
+      act: { cue: '증빙 서류가 필요합니다. 무엇을 챙길지 미리 보세요.', label: '필요서류 확인하기', url: 'https://en-ter.co.kr/support/main/main.do' },
       question: '전기요금 복지할인은 어떻게 신청하나요?',
       intro: '이 사업의 신청 전에 한전 전기요금 복지할인이 먼저 적용되어 있어야 합니다. 아직 복지할인을 신청하지 않은 경우 주소지 읍·면·동 주민센터, 한전 지사, 한전 고객센터(☎123)를 통해 신청할 수 있습니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['전기요금 복지할인 먼저 신청', '주민센터', '한전 지사', '☎123'],
@@ -222,6 +237,7 @@ export const efficientApplianceSupportPolicy: PolicyData = {
     },
     {
       anchor: 'tip',
+      act: { cue: '에너지캐시백과 함께 챙기면 절감 효과가 커집니다.', label: '에너지캐시백 신청하기', url: 'https://en-ter.co.kr/ec/apply/app/list.do' },
       question: '환급금을 최대한 받으려면 어떻게 해야 하나요?',
       intro: '가구당 한도 30만 원을 최대로 활용하려면, 구매금액이 가군은 100만 원 이상, 나군은 200만 원 이상이어야 합니다. 여러 품목을 합산하여 신청할 수 있으므로 필요한 가전을 함께 교체하면 유리합니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['가군 30% × 100만원 = 30만원', '나군 15% × 200만원 = 30만원', '여러 품목 합산 가능'],

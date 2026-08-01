@@ -15,7 +15,7 @@ export const ledLightingSupportPolicy: PolicyData = {
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://www.koref.or.kr/web/user/main.do',
-  ctaLabel: '고효율 조명기기 무상교체 문의하기 (한국에너지재단 공식)',
+  ctaLabel: 'LED 조명 교체 지원 신청하기',
   tags: ['LED', '조명교체', '형광등', '취약계층', '저소득층', '에너지복지', '한국에너지재단'],
 
   keyFacts: {
@@ -96,6 +96,7 @@ export const ledLightingSupportPolicy: PolicyData = {
   qa: [
     {
       anchor: 'target',
+      act: { cue: '저소득층 대상 사업입니다. 요건을 대조해 보세요.', label: '지원대상 대조하기', url: 'https://www.koref.or.kr/web/user/main.do' },
       question: '이 지원을 받을 수 있는 대상은 누구인가요?',
       intro: '총 5개 유형으로 나뉘며, 저소득층 가구와 사회복지시설이 주요 대상입니다. 기초생활수급자, 차상위계층, 지자체 추천 복지사각지대 가구, 영구임대주택 입주자, 그리고 사회복지시설이 지원 대상입니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['기초생활수급자', '차상위계층', '복지사각지대', '영구임대주택', '사회복지시설'],
@@ -122,6 +123,7 @@ export const ledLightingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'benefit',
+      act: { cue: '무상 교체 범위가 정해져 있습니다. 무엇이 되는지 확인하세요.', label: '지원 내용 확인하기', url: 'https://www.koref.or.kr/web/user/main.do' },
       question: '어떤 조명을 교체해주나요?',
       intro: '노후화된 저효율 조명기기를 고효율 LED 조명기기로 무상 교체해드립니다. 교체 대상은 형광등, 백열전구, 다운라이트 등 LED가 아닌 기존 조명기기이며, 교체 이후 전기요금 절감 효과를 기대할 수 있습니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['형광등 → LED', '백열전구 → LED', '다운라이트 → LED', '무상 교체', '전기요금 절감'],
@@ -138,6 +140,7 @@ export const ledLightingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'apply',
+      act: { cue: '신청 창구가 재단으로 일원화돼 있습니다.', label: '지원 신청 접수하기', url: 'https://www.koref.or.kr/web/user/main.do' },
       question: '어떻게 신청하나요?',
       intro: '저소득층 가구는 소재지 시·군·구 에너지 담당부서 또는 읍·면·동 주민센터(행정복지센터)에 문의하면 발굴·지원됩니다. 사회복지시설은 시·군·구 에너지 담당부서에 직접 신청합니다. 영구임대주택은 단지 단위로 협약을 체결해야 합니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['시·군·구 에너지 담당부서', '읍·면·동 주민센터', '사회복지시설 직접 신청', '영구임대주택 단지 협약'],
@@ -153,6 +156,7 @@ export const ledLightingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'exclusion',
+      act: { cue: '제외 대상이 있습니다. 미리 확인해야 헛걸음을 안 합니다.', label: '제외 기준 확인하기', url: 'https://www.koref.or.kr/web/user/main.do' },
       question: '지원받지 못하는 경우는 어떤 경우인가요?',
       intro: 'LED 조명이 이미 설치되어 있거나, 5년 이내 조명 교체 이력이 있는 경우에는 지원받을 수 없습니다. 시설의 경우 준공 후 5년 이내이거나 리모델링·이전 계획이 있으면 제외됩니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['LED→LED 교체 불가', '5년 이내 교체 이력', '준공 5년 미경과', '리모델링 계획'],
@@ -170,6 +174,7 @@ export const ledLightingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'rental',
+      act: { cue: '임대주택도 조건에 따라 가능합니다. 기준을 보세요.', label: '주거형태별 기준 확인하기', url: 'https://www.koref.or.kr/web/user/main.do' },
       question: '영구임대주택에 살고 있는데 어떻게 신청하나요?',
       intro: '영구임대주택은 단지 단위로 협약을 체결한 후 지원받을 수 있습니다. 개별 가구가 아닌 단지 전체가 협약을 체결해야 하므로, 관리사무소 또는 입주자대표회를 통해 먼저 문의하는 것이 좋습니다. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['단지 단위 협약', '관리사무소', '수급권자·차상위 가구만 지원', '공용 공간 사전 협의'],
@@ -186,6 +191,7 @@ export const ledLightingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'contact',
+      act: { cue: '문의는 한국에너지재단으로 하면 됩니다.', label: '문의처 확인하기', url: 'https://www.koref.or.kr/web/user/main.do' },
       question: '문의는 어디에 하나요?',
       intro: '주소지 읍·면·동 주민센터(행정복지센터)나 한국에너지재단(☎ 02-6913-2173)에 문의하면 됩니다. 사회복지시설은 소재지 시·군·구 에너지 담당부서에 직접 연락하세요. 영구임대주택은 관리사무소를 통해 협약 여부를 먼저 확인하세요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다. 자격 요건과 지원 조건은 매년 변경될 수 있어 신청 전 최신 정보 확인을 권장합니다.',
       highlights: ['읍·면·동 주민센터', '한국에너지재단 02-6913-2173', '시·군·구 에너지 담당부서'],
@@ -211,6 +217,7 @@ export const ledLightingSupportPolicy: PolicyData = {
     },
     {
       anchor: 'tip',
+      act: { cue: '에너지효율개선 사업과 함께 받으면 효과가 큽니다.', label: '에너지효율개선 조회하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52005M.do' },
       question: 'LED 교체로 전기요금을 얼마나 절약할 수 있나요?',
       intro: 'LED 조명은 같은 밝기의 형광등 대비 50~70% 전력을 절감합니다. 일반 가정에서 형광등 20개를 LED로 교체하면 연간 수만 원 이상의 전기요금 절감 효과를 기대할 수 있습니다. 조명 이외에도 에너지바우처, 저소득층 에너지 효율 개선사업(에어컨·보일러) 등 다른 에너지 복지사업도 함께 확인하세요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 해당 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['형광등 대비 50~70% 절감', '연간 전기요금 절약', '에너지바우처 연계'],
