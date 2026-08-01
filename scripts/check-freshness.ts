@@ -146,12 +146,35 @@ for (const file of targetFiles()) {
      "9월 30일까지·5일 남음" 같은 시간압박 후킹(hook-patterns ③)을 허용하는 대신,
      마감이 지나면 그 문구가 거짓이 된다. 지난 날짜가 "까지/마감/신청기간"과 함께
      남아 있으면 차단해서, 후킹의 신뢰를 시스템이 지킨다. */
-  const deadRe = /(20\d{2})[.\-/년\s]{1,3}(\d{1,2})[.\-/월\s]{1,3}(\d{1,2})일?\s*(?:까지|마감)/g;
+  /* 날짜 표기는 형태가 제각각이라 한 패턴으로는 다 못 잡는다.
+     2026-08-01 확인: 원래 정규식은 "2026. 5. 31. 마감", "3/31 마감", "2026년 3월 말까지",
+     "2026년 6월 접수 마감"을 전부 놓쳤다. 형태별로 나눠 본다. */
   const passed: string[] = [];
-  for (const m of src.matchAll(deadRe)) {
-    const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]), 23, 59);
-    if (d.getTime() < TODAY.getTime()) passed.push(`${m[1]}.${m[2]}.${m[3]}`);
+  const pushIfPast = (y: number, m: number, d: number, label: string) => {
+    if (!y || !m || m > 12 || d > 31) return;
+    const dt = new Date(y, m - 1, d, 23, 59);
+    if (dt.getTime() < TODAY.getTime()) passed.push(label);
+  };
+  const thisY = TODAY.getFullYear();
+
+  /* ① 연·월·일이 다 있는 형태: 2026년 5월 31일까지 / 2026.5.31. 마감 / 2026-05-31 접수마감 */
+  for (const m of src.matchAll(
+    /(20\d{2})\s*[.\-/년]\s*(\d{1,2})\s*[.\-/월]\s*(\d{1,2})\s*일?\.?\s*(?:[가-힣]{0,4}\s*)?(?:까지|마감|종료)/g,
+  )) {
+    pushIfPast(+m[1], +m[2], +m[3], `${m[1]}.${m[2]}.${m[3]}`);
   }
+  /* ② 연·월만: 2026년 3월 말까지 / 2026년 6월 접수 마감 → 그 달 말일로 본다 */
+  for (const m of src.matchAll(
+    /(20\d{2})\s*년\s*(\d{1,2})\s*월\s*(?:말|중)?\s*(?:[가-힣]{0,4}\s*)?(?:까지|마감|종료)/g,
+  )) {
+    const last = new Date(+m[1], +m[2], 0).getDate();
+    pushIfPast(+m[1], +m[2], last, `${m[1]}.${m[2]}월`);
+  }
+  /* ③ 연도 없는 월/일: 3/31 마감 → 올해로 본다(작년 것을 올해로 보면 미탐이 되므로 안전한 쪽) */
+  for (const m of src.matchAll(/(?<![\d.])(\d{1,2})\s*\/\s*(\d{1,2})\s*(?:[가-힣]{0,4}\s*)?(?:까지|마감|종료)/g)) {
+    pushIfPast(thisY, +m[1], +m[2], `${thisY}.${m[1]}.${m[2]}`);
+  }
+
   if (passed.length) {
     findings.push({
       axis: 'E',
