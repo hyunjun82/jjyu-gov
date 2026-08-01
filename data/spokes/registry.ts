@@ -133,6 +133,8 @@ import { samsungMisoOnlineApplicationSpokeContent } from '@/app/policy/[id]/[spo
 import { samsungMisoEligibilityDetailsSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/eligibility-details';
 import { samsungMisoLoanProductsComparisonSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/loan-products-comparison';
 import { samsungMisoRequiredDocumentsSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/required-documents';
+import { samsungMisoApplicationPeriodSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/application-period';
+import { samsungMisoUnemployedSpokeContent } from '@/app/policy/[id]/[spoke]/content/samsung-miso-finance-loan/unemployed';
 import { marriageBirthMoveOnestopSpokeContent } from '@/app/policy/[id]/[spoke]/content/marriage-report/marriage-birth-move-onestop';
 import { autoInsurancePremiumCalculationTipsSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/보험료계산방법및절약팁';
 import { autoInsurancePremiumSavingSpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험/premium-saving-special-terms';
@@ -2820,6 +2822,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'eligibility-details': samsungMisoEligibilityDetailsSpokeContent,
     'loan-products-comparison': samsungMisoLoanProductsComparisonSpokeContent,
     'required-documents': samsungMisoRequiredDocumentsSpokeContent,
+    'application-period': samsungMisoApplicationPeriodSpokeContent,
+    'unemployed': samsungMisoUnemployedSpokeContent,
   },
 
   'marriage-report': {

@@ -166,4 +166,6 @@ export const samsungMisoFinanceLoanSpokes = [
   { slug: 'eligibility-details', title: '삼성미소금융재단 대출조건 자세히, 지원대상 5가지와 제한사항' },
   { slug: 'loan-products-comparison', title: '삼성미소금융재단 창업자금·운영자금 대출 한도와 금리 비교' },
   { slug: 'required-documents', title: '삼성미소금융재단 대출 필요서류 총정리, 준비물 체크리스트' },
+  { slug: 'application-period', title: '삼성미소금융재단 대출 신청기간 따로 있나, 상시접수 절차 9단계 확인하기' },
+  { slug: 'unemployed', title: '삼성미소금융재단 대출 무직도 되나, 지원대상 5요건과 상환능력 심사 대조하기' },
 ];
