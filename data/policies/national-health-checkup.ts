@@ -6,6 +6,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
   type: 'service',
   catSlug: 'welfare',
   title: '국가건강검진 대상자와 연령별 검사항목, 암검진 비용까지',
+  titleKeywords: { k1: '국가건강검진', k2: '검사항목', k3: '암검진', k4: '건강검진' },
   org: '국민건강보험공단 (보건복지부)',
   amount: '일반건강검진 무료 + 6대 암검진(대장·자궁경부 무료, 위·간·유방·폐 본인 10%)',
   deadline: '매년 1월 1일 ~ 12월 31일',
@@ -13,7 +14,8 @@ export const nationalHealthCheckupPolicy: PolicyData = {
   metaDescription: '국가건강검진 대상자와 연령별 검사항목, 암검진 비용까지. 만 20세 이상 건강보험 가입자·의료급여 수급자에게 2년마다(비사무직 매년) 건강검진을 제공합니다. 일반건강검진은 무료, 위·대장·간·유방·자궁경부·폐 6대 암검진은 대장암·자궁경부암 무료, 위·간·유방...',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-06-28T09:00:00+09:00',
-  applyUrl: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do',
+  applyUrl: 'https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpTargetPerson.do',
+  ctaLabel: '내 검진대상 여부 조회하기',
   sources: [
     {
       title: '국민건강보험 일반건강검진 안내',
@@ -33,6 +35,22 @@ export const nationalHealthCheckupPolicy: PolicyData = {
   ],
 
   keyFacts: {
+    공통_검사항목: {
+      value: '진찰·상담, 신체계측, 시력·청력, 혈압, 흉부방사선, 혈액검사, 요검사, 구강검진',
+      source: { url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do', text: '진찰 및 상담, 신체계측(신장 및 체중, 허리둘레, 비만도), 시력･청력검사, 혈압측정, 흉부방사선 검사, 혈액검사, 요검사, 구강검진', verifiedAt: '2026-08-01' },
+    },
+    이상지질혈증_검사: {
+      value: '남성 24세 이상·여성 40세 이상, 4년마다',
+      source: { url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do', text: '남성 24세 이상, 여성 40세 이상 (4년 마다)', verifiedAt: '2026-08-01' },
+    },
+    검진표_발송: {
+      value: '전자문서 발송, 미열람 시 주소지로 우편 발송',
+      source: { url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do', text: '건강검진표는 전자문서를 통하여 발송해 드립니다. 전자문서 미열람자에 한하여 주민등록 주소지로 우편 발송', verifiedAt: '2026-08-01' },
+    },
+    검진표_분실시: {
+      value: '1577-1000 또는 지사 신청, 검진대상 확인서 출력 가능',
+      source: { url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do', text: '검진표 분실 및 수령하지 못하신 경우 1577-1000번이나 가까운 지사로 신청하시면 발급해드립니다', verifiedAt: '2026-08-01' },
+    },
     지원유형: {
       value: '일반건강검진 + 6대 암검진(위·대장·간·유방·자궁경부·폐) + 생애전환기검진',
       source: { url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do', text: '일반건강검진 대상자 선정, 공단에서 전액 부담', verifiedAt: '2026-05-17' },
@@ -70,6 +88,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
   qa: [
     {
       anchor: 'who-eligible',
+      act: { cue: '올해 내가 대상인지는 조회 한 번이면 끝납니다. 2년마다 돌아오는 구조라 해마다 다릅니다.', label: '내 검진대상 여부 조회하기', url: 'https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpTargetPerson.do' },
       question: '국가건강검진 대상자는 누구인가요?',
       intro: '국가건강검진은 크게 세 가지 대상으로 나뉩니다. 첫째 일반건강검진 대상자로, 지역세대주·직장가입자·만 20세 이상 세대원 및 피부양자, 그리고 만 20~64세 의료급여수급권자가 해당됩니다. 직장가입자 중 비사무직은 매년, 그 외는 2년마다(홀수·짝수 출생연도 기준) 받을 수 있습니다. 둘째 암검진 대상자로, 위암(40세이상)·대장암(50세이상)·간암(40세이상 고위험군)·유방암(40세이상 여성)·자궁경부암(20세이상 여성)·폐암(54~74세 고위험 흡연자) 6대 암을 받습니다. 일반건강검진과 대장암·자궁경부암은 무료이고, 위암·간암·유방암·폐암은 본인부담 10%(건강보험료 하위 50%·의료급여수급자는 무료)입니다. 셋째 영유아건강검진으로 0세~71개월 영유아에게 별도로 제공됩니다.',
       highlights: ['지역세대주', '직장가입자', '만 20세 이상', '의료급여수급권자', '비사무직 매년', '2년마다', '6대 암검진', '영유아 검진'],
@@ -89,6 +108,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
     },
     {
       anchor: 'checkup-items',
+      act: { cue: '공통 항목 외에 성별·연령별로 붙는 검사가 따로 있습니다. 내 나이에 뭐가 추가되는지 확인해 보세요.', label: '연령별 검사항목 확인하기', url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do' },
       question: '공통 검사항목과 연령별 추가 검사는 무엇인가요?',
       intro: '일반건강검진의 공통 검사항목은 진찰 및 상담, 신체계측(신장·체중·허리둘레·비만도), 시력·청력검사, 혈압측정, 흉부방사선 검사, 혈액검사(혈색소·공복혈당·간기능·신장기능), 요검사, 구강검진입니다. 이 외에 성별·연령별로 추가 검사가 제공됩니다. 이상지질혈증 검사는 남성 24세 이상, 여성 40세 이상에서 4년마다 실시하고, 골밀도 검사는 54·60·66세 여성에게 제공됩니다. 인지기능장애 검사는 66세 이상에서 2년마다, 정신건강(우울증) 검사는 20~79세에게 연령대별로 실시합니다.',
       highlights: ['신체계측', '혈액검사', '구강검진', '이상지질혈증 4년마다', '골밀도 여성', '인지기능 66세', '우울증 검사'],
@@ -109,6 +129,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
     },
     {
       anchor: 'how-to-check',
+      act: { cue: '검진표를 못 받았어도 검진은 받을 수 있습니다. 대상 확인서를 출력해 가면 됩니다.', label: '검진대상 확인서 출력하기', url: 'https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpTargetPerson.do' },
       question: '검진 대상 여부와 수검 방법은?',
       intro: '건강검진 대상자는 국민건강보험공단이 자동으로 선정하며, 별도 신청이 필요 없습니다. 대상자로 선정되면 전자문서나 우편으로 건강검진표를 받게 됩니다. 검진표를 분실했거나 받지 못한 경우, 공단 콜센터(1577-1000)에 연락하거나 국민건강보험 홈페이지(건강모아 앱)에서 본인인증 후 검진대상 확인서를 출력할 수 있습니다. 검진 당일에는 신분증을 지참하고, 건강보험공단 지정 검진기관(동네 병·의원 포함)에 방문하면 됩니다. 검진기관은 공단 홈페이지에서 찾을 수 있습니다.',
       highlights: ['자동 선정', '별도 신청 불필요', '1577-1000', '건강모아 앱', '신분증 지참', '지정 검진기관'],
@@ -126,6 +147,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
     },
     {
       anchor: 'cancer-screening',
+      act: { cue: '암검진은 일반검진과 대상·주기가 다릅니다. 내가 어느 암 검진 대상인지 따로 확인해야 합니다.', label: '암검진 대상 확인하기', url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04600m01.do' },
       question: '암검진은 어떤 암을, 얼마에 받나요?',
       intro: '국가암검진은 위암·대장암·간암·유방암·자궁경부암·폐암 6대 암을 대상으로 합니다. 위암은 40세 이상 2년마다, 대장암은 50세 이상 매년, 간암은 40세 이상 고위험군(간경변증·B형·C형간염 보유자) 6개월마다, 유방암은 40세 이상 여성 2년마다, 자궁경부암은 20세 이상 여성 2년마다, 폐암은 54~74세 중 30갑년 이상 흡연력의 고위험 흡연자가 2년마다 저선량 흉부 CT를 받습니다. 비용은 일반건강검진과 대장암·자궁경부암이 무료이고, 위암·간암·유방암·폐암은 본인부담 10%입니다(건강보험료 하위 50%·의료급여수급자는 무료). 암검진도 공단이 대상자를 자동 선정해 검진표에 함께 안내하며, 이상 소견 시 확진검사도 지원됩니다.',
       highlights: ['6대 암검진', '폐암 54~74세 흡연', '대장·자궁경부 무료', '위·간·유방·폐 본인 10%', '저소득 무료', '자동 선정'],
@@ -141,6 +163,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
     },
     {
       anchor: 'precautions',
+      act: { cue: '검진 결과는 온라인으로 바로 조회됩니다. 지난 결과와 비교해 보면 변화가 보입니다.', label: '건강검진 결과 조회하기', url: 'https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpTargetResultPerson.do' },
       question: '검진 전 주의사항과 유용한 팁은?',
       intro: '국가건강검진은 정확한 결과를 위해 반드시 공복 상태에서 받아야 합니다. 검진 전날 저녁 9시 이후에는 물·커피·우유·담배·주스·껌 등 일체의 음식을 삼가야 합니다. 오전 중 검진을 받는 것이 좋고, 오후에 받을 경우 검사 전 최소 8시간 이상 공복을 유지해야 합니다. 한편 건강검진 결과는 운전면허 적성검사(시력·청력) 대체가 가능하고, 채용 신체검사 대체 통보서 발급도 가능합니다. 만약 해당 연도 검진을 받지 못했다면, 전년도 미수검자 추가 등록을 공단에 신청할 수 있습니다.',
       highlights: ['검진 전날 9시 이후 금식', '오전 검진 권장', '최소 8시간 공복', '운전면허 대체', '채용 신체검사 대체', '전년도 미수검 추가 등록'],
@@ -158,6 +181,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
     },
     {
       anchor: 'disability-elderly',
+      act: { cue: '영유아 검진은 성인과 완전히 다른 일정으로 돌아갑니다. 해당된다면 별도로 확인하세요.', label: '영유아 검진 안내 확인하기', url: 'https://www.nhis.or.kr/nhis/healthin/wbhaca04800m01.do' },
       question: '거동이 불편한 어르신이나 장애인도 검진받을 수 있나요?',
       intro: '건강보험공단은 거동이 불편한 고령자·장애인을 위해 방문건강검진 서비스를 운영하고 있습니다. 만 65세 이상 건강보험 가입자 중 혼자 거동이 어려운 경우, 건강보험공단 지사나 콜센터(1577-1000)에 방문건강검진을 신청할 수 있습니다. 또한 장애인 건강검진기관이 별도로 지정·운영되고 있어, 장애인도 보다 편리하게 검진을 받을 수 있습니다. 검진 외에도 생활습관 개선을 위한 건강100세운동교실, 금연치료지원사업도 공단에서 함께 운영합니다.',
       highlights: ['방문건강검진', '만 65세 이상', '1577-1000 신청', '장애인 지정 검진기관', '건강100세운동교실', '금연치료지원'],
@@ -174,6 +198,7 @@ export const nationalHealthCheckupPolicy: PolicyData = {
     },
     {
       anchor: 'even-odd-year',
+      act: { cue: '짝수·홀수 해로 갈리는 구조라 헷갈리면 검진기관부터 찾아 예약하는 게 빠릅니다.', label: '가까운 검진기관 검색하기', url: 'https://www.nhis.or.kr/nhis/healthin/retrieveExmdAdminSearch.do' },
       question: '짝수·홀수년도 기준이 뭔가요? 올해 대상인지 어떻게 알아요?',
       intro: '국가건강검진은 출생연도 기준 짝수·홀수 구분으로 수검연도가 정해집니다. 예를 들어 짝수 연도(2026년)에는 출생연도 끝자리가 짝수(예: 1970, 1980, 1990년생 등)인 분들이 대상입니다. 단, 비사무직 직장가입자는 출생연도 관계없이 매년 수검 가능합니다. 본인이 대상인지 확인하는 가장 빠른 방법은 국민건강보험 홈페이지(nhis.or.kr) 로그인 후 건강모아>나의 건강>검진대상 조회를 이용하거나, 공단 콜센터 1577-1000에 문의하는 것입니다.',
       highlights: ['짝수년도=짝수 출생연도', '홀수년도=홀수 출생연도', '비사무직 매년', '건강모아 조회', '1577-1000', '정부24 조회 가능'],
