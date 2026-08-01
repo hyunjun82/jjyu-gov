@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 export const 국가근로장학금국가근로장학금교내교외장학금중복가능SpokeContent: SpokeData = {
-  h1: '국가근로장학금 교내·교외 중복, 다른 장학금과 중복 가능한가요?',
+  h1: '국가근로장학금에 교내·교외 장학금까지 같이 신청되나',
   breadcrumb: '국가근로장학금교내교외장학금중복가능',
   description: '국가근로장학금 교내·교외 유형은 중복 지급이 불가합니다. 다른 장학금(국가장학금, 교내장학금)과의 중복 여부와 기준을 한국장학재단 자료로 정리합니다.',
   datePublished: '2026-05-19T09:00:00+09:00',

@@ -35,7 +35,7 @@ export const dreamStartPolicy = {
     },
     {
       q: '대상은?', anchor: 'q-target',
-      act: { cue: '연령과 가구 요건이 함께 걸립니다. 대조가 먼저다.', label: '대상 요건 대조하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003283' },
+      act: { cue: '연령과 가구 요건이 함께 걸립니다. 대조부터 하는 게 순서입니다.', label: '대상 요건 대조하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003283' },
       intro: '대상은 ①0세(임산부) ~ 12세 아동(초등 이하) ②기초생활수급자·차상위계층 등 취약계층 가구 ③시·군·구 드림스타트 사업단에서 사례관리가 필요하다고 판단된 가정. 만 12세 이상이라도 초등학교 재학 중인 아동은 포함. 기초수급·차상위가 아니더라도 학대·방임·한부모·조손가구 등 위기 가구 아동은 사례관리사 판단에 따라 포함 가능. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['0~12세', '기초·차상위', '초등 재학 포함', '위기 가구 OK'],
       box: { label: '대상 3요건', content: '연령: 0세(임산부)~12세 (초등 재학자 포함) / 소득: 기초수급·차상위 / 가구: 학대·방임·한부모·조손 등 위기 가구도 사례관리사 판단 시 포함 / 본인부담 0' },
@@ -75,7 +75,7 @@ export const dreamStartPolicy = {
     },
     {
       q: '지역아동센터와 차이?', anchor: 'q-compare',
-      act: { cue: '비슷한 제도가 여럿이라 차이를 짚어야 한다.', label: '제도 비교하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003283' },
+      act: { cue: '비슷한 제도가 여럿이라 차이를 짚어야 헛걸음이 없습니다.', label: '제도 비교하기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003283' },
       intro: '지역아동센터는 방과후 시간(주로 오후 3~9시) 시설에 아동이 모여 학습·돌봄·식사를 받는 거점형 시설 서비스이며, 드림스타트는 사례관리사가 본인 가정을 직접 방문해 아동·가족 전체에 통합 사례관리를 제공하는 가정 중심 사업입니다. 두 사업은 보완 관계로 본인 상황에 따라 함께 활용 가능. 지역아동센터는 매일 이용하고 드림스타트는 정기 사례관리. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['지역아동센터 시설', '드림스타트 가정 방문', '보완 관계', '함께 활용'],
       table: { caption: '드림스타트 vs 지역아동센터', headers: ['구분','드림스타트','지역아동센터'], rows: [['형태','가정 방문 사례관리','시설 거점'],['시간','정기 방문','방과후 매일'],['대상','0~12세','초등 위주'],['역할','허브','일상 돌봄']] },

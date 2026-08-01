@@ -83,7 +83,7 @@ export const nationalHappinessCardPolicy = {
     },
     {
       q: '왜 만들어진?', anchor: 'q-purpose',
-      act: { cue: '왜 만든 제도인지 알면 활용법이 보인다.', label: '사업 안내 찾기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006313' },
+      act: { cue: '임신·출산 의료비를 어디까지 덜어주는 제도인지부터 짚으십시오.', label: '사업 안내 찾기', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006313' },
       intro: '국민행복카드는 임신·출산 비용으로 어려움을 겪는 임산부의 본인부담을 직접 보전하기 위해 2015년 도입된 임신·출산 통합 바우처 카드입니다. 출산 전 임산부 진료부터 출산 후 2세 미만 영유아 진료까지 본인이 자유롭게 결제할 수 있는 정부 지원 카드. 출산 비용 부담을 줄여 결혼·출산 결정에 도움을 주는 핵심 정책. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다. 본 정책은 정부 공식 자료에 기반하며 자세한 사항은 국민건강보험공단 1577-1000과 voucher.go.kr에서 확인하시면 안전합니다.',
       highlights: ['2015 도입', '본인부담 보전', '진료비 통합', '출산 결정 지원'],
       box: { label: '도입 배경', content: '2015년 임신·출산 통합 바우처 도입 / 임산부 본인부담 직접 보전 / 출산 전 임산부 + 출산 후 영유아 진료 통합 / 출산 비용 부담 경감 / 결혼·출산 결정 지원' },
