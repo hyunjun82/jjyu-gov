@@ -22,6 +22,7 @@
  *   H 후킹 부재    문구에 숫자·손실·기한·물음 중 하나라도 실렸는가 (docs/hook-patterns.md)
  *   I 작성자 입장  제도 설명이 아니라 읽는 사람의 손해를 말하는가 (docs/button-copy.md)
  *   J 버튼 설명문  버튼이 14자 이내 행동인가, 기관명이 안 붙었는가
+ *   K 비문         한국어로 말이 되는 문장인가 (지적받은 어색한 표현 재발 차단)
  *
  * 사용:
  *   npx tsx scripts/check-cue-value.ts          # 변경된 허브만 (pre-push, 차단)
@@ -105,6 +106,18 @@ const ORG_IN_LABEL = /(공단|재단|공사|정부24|복지로|홈택스|고용2
 /** 공백 제외 이 길이를 넘으면 버튼이 설명문이 된다 */
 const LABEL_MAX = 14;
 
+/* 비문·어색한 표현 목록. 사용자가 잡아준 것을 하나씩 등록해 재발을 막는다.
+   화이트리스트가 아니라 블랙리스트인 이유: 자연스러운 한국어는 무한하지만
+   우리가 반복해서 저지르는 비문은 몇 가지 패턴으로 수렴한다. */
+const AWKWARD: { re: RegExp; why: string }[] = [
+  { re: /[가-힣]{1,6}(을|를)\s*맞추십니다|시(를|을)\s*맞추/, why: '"6시를 맞추십니다"는 한국어가 아니다 — 마감은 "…까지이니 미리 신청하시길 바랍니다"' },
+  { re: /대주(는데|는|고|며|지만)|대줍니다|대준다/, why: '"300만원을 대주는데"는 구어 비속 표현 — 지원합니다' },
+  { re: /끝내십니다|끝내십시오|마치십니다|해치우십니다/, why: '명령형 종결이 어색하다 — "오늘 접수하시길 바랍니다"' },
+  { re: /걸리십니다|걸리실\s*겁니다/, why: '자격 미달을 "걸리십니다"로 쓰면 위압적이다 — "이번에는 신청하실 수 없습니다"' },
+  { re: /남으셨는데요|남으셨습니다/, why: '"며칠 안 남으셨는데요"는 주어가 어긋난다 — "며칠 남지 않았습니다"' },
+  { re: /계산이\s*섭니다|각이\s*나옵니다/, why: '속어에 가깝다 — "계산됩니다"' },
+];
+
 function judgeLabel(raw: string): string | null {
   const t = raw.trim();
   if (LABEL_IDIOM.test(t)) return '"…안내 보기 / 자세히 보기" 류 관용구 — 정보지 행동이 아니다';
@@ -118,7 +131,7 @@ function judgeLabel(raw: string): string | null {
   return null;
 }
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -149,7 +162,8 @@ function parse(file: string) {
   }
 
   const slug = c.match(/slug: '([^']+)'/)?.[1] ?? path.basename(file, '.ts');
-  return { slug, qaCount, cues, urls, labels };
+  const heroHook = c.match(/heroHook:\s*'([^']*)'/)?.[1] ?? '';
+  return { slug, qaCount, cues, urls, labels, heroHook };
 }
 
 /** 종결 표현 — 마지막 어절 기준으로 거칠게 본다 */
@@ -160,7 +174,7 @@ function ending(s: string): string {
 }
 
 function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
-  const { slug, qaCount, cues, urls, labels } = parse(file);
+  const { slug, qaCount, cues, urls, labels, heroHook } = parse(file);
   const issues: Issue[] = [];
 
   // ── A. 문구 누락 ────────────────────────────────────
@@ -273,6 +287,26 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
         msg: `버튼에 기관명·수식어가 붙었다: "${L}"`,
         fix: '"(한국도로공사 공식)" 같은 꼬리를 뗀다 — 누를 사람은 기관명을 보고 누르지 않는다',
       });
+    }
+  }
+
+  // ── K. 한국어로 말이 되는 문장인가 ──────────────────
+  /* 2026-08-02: 게이트가 주어(I축)·길이(J축)는 봤는데 "문장이 성립하느냐"는 안 봤다.
+     후킹을 세게 만들려다 "8월 7일 6시를 맞추십니다", "300만원을 대주는데",
+     "팩스 한 통으로 오늘 끝내십니다" 같은 비문이 그대로 통과했다.
+     읽는 사람은 어색한 문장에서 걸리고, 걸리면 버튼까지 가지 않는다.
+     지적받은 표현은 여기 등록해 다시 나오지 않게 한다. */
+  for (const cue of [...cues, heroHook].filter(Boolean)) {
+    for (const { re, why } of AWKWARD) {
+      const m = cue.match(re);
+      if (m) {
+        issues.push({
+          axis: 'K',
+          msg: `어색한 표현 "${m[0]}" — ${why}`,
+          fix: '종결은 평범하게(지원합니다·신청하시길 바랍니다), 압박은 숫자·기한 같은 사실로 준다 (docs/button-copy.md 규칙 6)',
+        });
+        break;
+      }
     }
   }
 
@@ -414,12 +448,13 @@ const AXIS = {
   H: '후킹 부재',
   I: '작성자 입장',
   J: '버튼 설명문',
+  K: '비문·어색한 표현',
 } as const;
 
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -430,7 +465,7 @@ for (const f of targets) {
   if (!issues.length) continue;
   failed++;
   issues.forEach((i) => count[i.axis]++);
-  if (!all) {
+  if (!all || issues.some((i) => i.axis === 'K')) {
     console.log(`\n❌ ${path.basename(f, '.ts')}`);
     for (const i of issues) {
       console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
@@ -456,7 +491,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}`,
 );
 
 if (all) {

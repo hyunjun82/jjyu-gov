@@ -44,7 +44,7 @@ export const uiwangSmallBusinessImprovementPolicy = {
     {
       q: '얼마까지 받을 수 있나요?', anchor: 'q-amount',
       act: {
-        cue: '간판 하나 바꾸는 데 백만원 넘게 쓰신 적 있으실 겁니다. 그 비용을 300만원까지 대주는데, 무엇에 쓸지 적어내신 분이 뽑힙니다.',
+        cue: '간판 하나 바꾸는 데 백만원 넘게 쓰신 적 있으실 겁니다. 그 비용을 300만원까지 지원합니다. 무엇에 쓸지 구체적으로 적어내신 분이 선정됩니다.',
         label: '지원 규모 확인하기',
         url: NOTICE_FILE,
       },
