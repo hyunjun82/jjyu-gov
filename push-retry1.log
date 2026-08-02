@@ -1,0 +1,22 @@
+🔗 배선 무결성 검증 중 (고아 허브·매니페스트 정합)...
+============================================================
+ 시스템 배선 정합성 검사 (verify-integrity)
+============================================================
+ 허브(PoliciesBySlug) : 274개
+ 숫자ID 등록(PoliciesById) : 208개
+ registry 정책 : 163개 / 스포크 총 861개
+
+ ── 정보(무해) ──
+  · 숫자 ID 없는 허브(slug URL만) : 66개
+  · 스포크 없는 허브(스포크 0개) : 111개
+  · 빈 허브(qa 0개, 콘텐츠 백로그) : 0개
+
+ ✅ 배선 오류 0개 — 고아 허브·매니페스트 불일치 없음
+============================================================
+🔍 스포크 품질 검증 중...
+C:/Users/user/gov-jjyu/scripts/check-spoke-quality.sh: line 44: syntax error near unexpected token `)'
+C:/Users/user/gov-jjyu/scripts/check-spoke-quality.sh: line 44: `() 있고 qa: 없으면 -> Format B'
+
+🚫 push 차단됨 — 위 파일들을 수정 후 재push
+   (품질 무시하고 push하려면: git push --no-verify)
+error: failed to push some refs to 'https://github.com/hyunjun82/jjyu-gov.git'

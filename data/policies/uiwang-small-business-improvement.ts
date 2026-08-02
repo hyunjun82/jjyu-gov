@@ -136,7 +136,7 @@ export const uiwangSmallBusinessImprovementPolicy = {
     {
       q: '지금 무엇부터 해야 하나요?', anchor: 'q-first',
       act: {
-        cue: '미루다 놓치신 경험 있으실 겁니다. 우편이면 늦어도 수요일까지는 부치셔야 도착합니다.',
+        cue: '미루다 놓치신 경험 있으실 텐데요. 우편이면 늦어도 수요일까지는 부치셔야 도착합니다. 서둘러 접수하세요.',
         label: '신청 서식 내려받기',
         url: NOTICE,
       },
