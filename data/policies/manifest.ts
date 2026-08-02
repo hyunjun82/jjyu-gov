@@ -115,6 +115,7 @@ import { highwayTollDiscountPolicy, highwayTollDiscountSpokes } from './highway-
 import { pregnantEcoFoodPolicy, pregnantEcoFoodSpokes } from './pregnant-eco-food';
 import { floorNoisePolicy, floorNoiseSpokes } from './floor-noise';
 import { travelDutyFreePolicy, travelDutyFreeSpokes } from './travel-duty-free';
+import { uiwangSmallBusinessImprovementPolicy, uiwangSmallBusinessImprovementSpokes } from './uiwang-small-business-improvement';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
 import { debtorLawyerFreeSupportPolicy, debtorLawyerFreeSupportSpokes } from './debtor-lawyer-free-support';
@@ -882,6 +883,7 @@ export const PoliciesById: Record<string, any> = {
   '197': pregnantEcoFoodPolicy,
   '198': floorNoisePolicy,
   '199': travelDutyFreePolicy,
+  '685': uiwangSmallBusinessImprovementPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -1556,6 +1558,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'pregnant-eco-food': pregnantEcoFoodPolicy,
   'floor-noise': floorNoisePolicy,
   'travel-duty-free': travelDutyFreePolicy,
+  'uiwang-small-business-improvement': uiwangSmallBusinessImprovementPolicy,
   'child-meal-card': childMealCardPolicy,
   'self-sufficiency-program': selfSufficiencyProgramPolicy,
   'youth-tomorrow-filling': youthTomorrowFillingPolicy,
@@ -2270,6 +2273,7 @@ export const SpokesById: Record<string, any[]> = {
   '197': pregnantEcoFoodSpokes,
   '198': floorNoiseSpokes,
   '199': travelDutyFreeSpokes,
+  '685': uiwangSmallBusinessImprovementSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -2944,6 +2948,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'pregnant-eco-food': pregnantEcoFoodSpokes,
   'floor-noise': floorNoiseSpokes,
   'travel-duty-free': travelDutyFreeSpokes,
+  'uiwang-small-business-improvement': uiwangSmallBusinessImprovementSpokes,
   'child-meal-card': childMealCardSpokes,
   'self-sufficiency-program': selfSufficiencyProgramSpokes,
   'youth-tomorrow-filling': youthTomorrowFillingSpokes,
