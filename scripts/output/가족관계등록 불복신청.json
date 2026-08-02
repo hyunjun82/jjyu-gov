@@ -1,0 +1,48 @@
+{
+  "seed": "가족관계등록 불복신청",
+  "synonyms": [],
+  "collectedAt": "2026-07-30T09:47:50.409Z",
+  "naver": {
+    "autocomplete": [],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": [
+      "耄、耋、耆、耈"
+    ]
+  },
+  "daum": {
+    "autocomplete": []
+  },
+  "merged": {
+    "all": [
+      "耄、耋、耆、耈"
+    ],
+    "byIntent": {
+      "info": [
+        "耄、耋、耆、耈"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "耄、耋、耆、耈"
+      ],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}

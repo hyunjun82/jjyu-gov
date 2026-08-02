@@ -1,0 +1,72 @@
+{
+  "seed": "입양취소",
+  "synonyms": [],
+  "collectedAt": "2026-07-30T09:42:14.924Z",
+  "naver": {
+    "autocomplete": [
+      "입양 취소",
+      "입양 취소하는방법"
+    ],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [
+      "입양취소",
+      "문재인 입양취소"
+    ],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "아동 입양 절차",
+      "성인 입양 절차"
+    ]
+  },
+  "merged": {
+    "all": [
+      "입양 취소",
+      "입양 취소하는방법",
+      "입양취소",
+      "문재인 입양취소",
+      "아동 입양 절차",
+      "성인 입양 절차"
+    ],
+    "byIntent": {
+      "info": [
+        "입양 취소",
+        "입양취소",
+        "문재인 입양취소"
+      ],
+      "condition": [],
+      "action": [
+        "입양 취소하는방법",
+        "아동 입양 절차",
+        "성인 입양 절차"
+      ],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "입양 취소",
+        "입양취소",
+        "문재인 입양취소"
+      ],
+      "B_amount": [],
+      "C_apply": [
+        "입양 취소하는방법",
+        "아동 입양 절차",
+        "성인 입양 절차"
+      ],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}

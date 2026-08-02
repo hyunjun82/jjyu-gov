@@ -23,10 +23,12 @@
  *   I 작성자 입장  제도 설명이 아니라 읽는 사람의 손해를 말하는가 (docs/button-copy.md)
  *   J 버튼 설명문  버튼이 14자 이내 행동인가, 기관명이 안 붙었는가
  *   K 비문         한국어로 말이 되는 문장인가 (지적받은 어색한 표현 재발 차단)
+ *   L 버튼 도배    한 글의 버튼이 전부 같은 동사(…확인하기)로 끝나지 않는가
  *
  * 사용:
  *   npx tsx scripts/check-cue-value.ts          # 변경된 허브만 (pre-push, 차단)
  *   npx tsx scripts/check-cue-value.ts --all    # 전체 현황 (차단 안 함)
+ *   npx tsx scripts/check-cue-value.ts --draft <파일>  # 본문 쓰기 전 문구 초안만 검사
  */
 import fs from 'fs';
 import path from 'path';
@@ -131,7 +133,7 @@ function judgeLabel(raw: string): string | null {
   return null;
 }
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -310,6 +312,26 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
     }
   }
 
+  // ── L. 버튼이 전부 같은 동사인가 ────────────────────
+  /* 2026-08-02: 의왕시 글의 버튼 7개가 전부 "…확인하기"였는데 통과했다.
+     F축은 라벨 하나하나의 구조만 봤고, E축은 cue 어미만 보고 label 은 안 봤다.
+     한 글 안에서 버튼이 다 같은 동사면 어느 것을 눌러도 같아 보여서 아무것도 안 눌린다.
+     카드마다 하는 일이 다르면 동사도 달라야 한다 — 확인·조회·내려받기·접수하기. */
+  if (labels.length >= 3) {
+    const verbs = labels.map((l) => l.trim().split(/\s+/).pop() ?? '');
+    const vTally = new Map<string, number>();
+    for (const v of verbs) vTally.set(v, (vTally.get(v) ?? 0) + 1);
+    for (const [v, n] of vTally) {
+      if (n > Math.floor(labels.length / 2)) {
+        issues.push({
+          axis: 'L',
+          msg: `버튼 ${labels.length}개 중 ${n}개가 "${v}" — 어느 걸 눌러도 같아 보인다`,
+          fix: '카드마다 하는 일이 다르면 동사도 다르게 한다 (확인·조회·내려받기·접수하기). 마지막 카드는 실제 행동으로 끝낸다',
+        });
+      }
+    }
+  }
+
   // ── E. 한 글 안에서 어미가 반복되는가 ────────────────
   const tally = new Map<string, number>();
   for (const cue of cues) {
@@ -330,8 +352,17 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
 }
 
 // ── 대상 선정 ────────────────────────────────────────────
-const all = process.argv.slice(2).includes('--all');
+const argv = process.argv.slice(2);
+const all = argv.includes('--all');
+const draftIdx = argv.indexOf('--draft');
+const draftFile = draftIdx >= 0 ? argv[draftIdx + 1] : '';
 
+/* --draft <파일> : 본문을 쓰기 전에 문구·버튼 초안만 먼저 검사한다.
+   2026-08-02 신설. 그동안 게이트는 글을 다 쓴 뒤에만 돌았고, 그래서
+   "대주는데"(비문)와 버튼 7개 전부 확인하기(도배)를 사후에 발견했다.
+   문구가 이 프로젝트에서 제일 중요한데 제일 마지막에 검사받고 있었던 셈이다.
+   초안 파일은 heroHook / act:{cue,label,url} 만 있으면 되고,
+   anchor 수를 맞추면 A축(문구 누락)까지 같이 본다. */
 function allHubs(): string[] {
   if (!fs.existsSync(ROOT)) return [];
   return fs
@@ -413,9 +444,11 @@ if (all) {
 }
 
 // ── 실행 ────────────────────────────────────────────────
-console.log('='.repeat(60));
-console.log(' 문구·버튼 검사 — 누를 이유가 버튼 앞에 있는가');
-console.log('='.repeat(60));
+if (!draftFile) {
+  console.log('='.repeat(60));
+  console.log(' 문구·버튼 검사 — 누를 이유가 버튼 앞에 있는가');
+  console.log('='.repeat(60));
+}
 
 if (!targets.length && !spokeTargets.length) {
   console.log(' 변경된 허브 없음 — 검사 생략');
@@ -449,12 +482,35 @@ const AXIS = {
   I: '작성자 입장',
   J: '버튼 설명문',
   K: '비문·어색한 표현',
+  L: '버튼 동사 도배',
 } as const;
+
+if (draftFile) {
+  if (!fs.existsSync(draftFile)) {
+    console.log(`초안 파일이 없다: ${draftFile}`);
+    process.exit(1);
+  }
+  const issues = checkHub(draftFile, new Map());
+  console.log('='.repeat(60));
+  console.log(' 문구 초안 검사 — 본문 쓰기 전에 먼저 본다');
+  console.log('='.repeat(60));
+  if (!issues.length) {
+    console.log('\n ✅ 문구·버튼 확정 — 이대로 본문을 써도 된다');
+    process.exit(0);
+  }
+  for (const i of issues) {
+    console.log(`\n❌ [${AXIS[i.axis]}] ${i.msg}`);
+    console.log(`   → ${i.fix}`);
+  }
+  console.log('\n문구부터 고친다. 본문을 쓴 뒤에 고치면 문단까지 손봐야 한다.');
+  process.exit(1);
+}
+
 
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -465,7 +521,7 @@ for (const f of targets) {
   if (!issues.length) continue;
   failed++;
   issues.forEach((i) => count[i.axis]++);
-  if (!all || issues.some((i) => i.axis === 'K')) {
+  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L')) {
     console.log(`\n❌ ${path.basename(f, '.ts')}`);
     for (const i of issues) {
       console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
@@ -491,7 +547,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}`,
 );
 
 if (all) {
