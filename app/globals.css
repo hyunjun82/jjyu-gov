@@ -670,6 +670,24 @@ img { max-width: 100%; display: block; }
   color: var(--text-muted);
   flex-wrap: wrap;
 }
+/* 상단 후킹 한 줄 — CTA 바로 위. 검색으로 들어온 사람이 첫 화면에서
+   "나는 예외일 수 있다"를 알아채는 자리라 본문보다 크고 진하게 둔다.
+   주 독자가 40~60대라 글자를 키우고 줄간격을 넉넉히 잡았다. */
+.detail-hero-hook {
+  margin: 14px 0 0;
+  padding: 14px 18px;
+  background: #FFF8E1;
+  border-left: 4px solid var(--gov-orange, #F5A623);
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--text-main, #191F28);
+  font-weight: 500;
+}
+@media (max-width: 640px) {
+  .detail-hero-hook { font-size: 15.5px; padding: 13px 15px; }
+}
+
 .detail-cta {
   display: flex;
   align-items: center;

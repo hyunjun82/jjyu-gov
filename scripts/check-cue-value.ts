@@ -20,6 +20,8 @@
  *   E 어미 반복    한 글 안에서 같은 종결 표현이 3회 이상 반복되지 않는가
  *   F 라벨 정보형  버튼 라벨이 '…안내 보기'가 아니라 실제 행동인가
  *   H 후킹 부재    문구에 숫자·손실·기한·물음 중 하나라도 실렸는가 (docs/hook-patterns.md)
+ *   I 작성자 입장  제도 설명이 아니라 읽는 사람의 손해를 말하는가 (docs/button-copy.md)
+ *   J 버튼 설명문  버튼이 14자 이내 행동인가, 기관명이 안 붙었는가
  *
  * 사용:
  *   npx tsx scripts/check-cue-value.ts          # 변경된 허브만 (pre-push, 차단)
@@ -80,6 +82,29 @@ const WEAK_WORD =
      구체적 대상이 있는지는 아래에서 따로 보므로, 종결형은 넓게 인정해도 안전하다) */
 const VERB_END = /기$/;
 
+/**
+ * 정본: docs/button-copy.md
+ *
+ * I 작성자 입장 — 문구가 제도를 설명하고 있는가, 그 사람의 손해를 말하는가.
+ *   기준 예시(임영웅): "매년 실패하시는 분들이 많으실 텐데, 일정이 지금 나왔으니
+ *   이번에는 예매 성공하시길 바랍니다." — 주어가 '제도'가 아니라 '그 사람'이다.
+ *   2026-08-02 신설: H축(숫자·기한 유무)만으로는 "이 제도는 …사업입니다" 같은
+ *   안내문이 그대로 통과했다. 숫자가 있어도 사용자 이야기가 아니면 안 눌린다.
+ *
+ * J 버튼 길이·기관명 — 버튼은 설명이 아니라 출구다.
+ *   "지금 다자녀 통행료 할인 사전등록하기 (한국도로공사 공식)" 26자 → "다자녀 할인 등록하기" 9자.
+ */
+/** 주어가 제도·기관이면 작성자 입장이다 */
+const WRITER_SUBJECT =
+  /^(이|그|해당|본)?\s*(제도|사업|정책|지원금|지원사업|기관|공단|재단|공사|정부|국가|시|군|구청|협회)(는|가|은|이|에서는|에서)/;
+/** 읽는 사람을 향한 표지 — 하나도 없으면 남 이야기다 */
+const USER_MARK =
+  /(신 적|셨다면|셨을|하셨|계실|많으실|아셨다면|생각하셨|놓치신|받으신|겪으신|이실|드실|텐데|분들|여러분|당신|내가|우리)/;
+/** 버튼에 들어가면 안 되는 기관명·수식어 */
+const ORG_IN_LABEL = /(공단|재단|공사|정부24|복지로|홈택스|고용24|한국장학재단|공식|바로가기\s*\()/;
+/** 공백 제외 이 길이를 넘으면 버튼이 설명문이 된다 */
+const LABEL_MAX = 14;
+
 function judgeLabel(raw: string): string | null {
   const t = raw.trim();
   if (LABEL_IDIOM.test(t)) return '"…안내 보기 / 자세히 보기" 류 관용구 — 정보지 행동이 아니다';
@@ -93,7 +118,7 @@ function judgeLabel(raw: string): string | null {
   return null;
 }
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -217,6 +242,38 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
       msg: `후킹 없는 설명형 문구가 ${flat.length}/${cues.length}개 — 예: "${flat[0].slice(0, 30)}…"`,
       fix: '숫자·잃는 것·기한·물음 중 하나를 앞세운다 (docs/hook-patterns.md 4축, 절반 이상은 후킹 필수)',
     });
+  }
+
+  // ── I. 작성자 입장인가 (사용자 이야기가 아닌가) ──────
+  const writerVoice = cues.filter((c) => {
+    const t = c.trim();
+    return WRITER_SUBJECT.test(t) || !USER_MARK.test(t);
+  });
+  if (cues.length >= 3 && writerVoice.length > Math.floor(cues.length / 2)) {
+    issues.push({
+      axis: 'I',
+      msg: `제도를 설명하는 문구가 ${writerVoice.length}/${cues.length}개 — 예: "${writerVoice[0].slice(0, 30)}…"`,
+      fix: '주어를 읽는 사람으로 바꾼다 — "이 제도는 …입니다"가 아니라 "…하신 적 있으실 겁니다" (docs/button-copy.md 규칙 1)',
+    });
+  }
+
+  // ── J. 버튼이 설명문이 됐는가 ────────────────────────
+  for (const L of labels) {
+    const len = L.replace(/\s/g, '').length;
+    if (len > LABEL_MAX) {
+      issues.push({
+        axis: 'J',
+        msg: `버튼이 ${len}자로 길다: "${L}"`,
+        fix: `버튼은 출구다 — 설명은 문구가 이미 했다. ${LABEL_MAX}자 이내로 (docs/button-copy.md 규칙 3)`,
+      });
+    }
+    if (ORG_IN_LABEL.test(L)) {
+      issues.push({
+        axis: 'J',
+        msg: `버튼에 기관명·수식어가 붙었다: "${L}"`,
+        fix: '"(한국도로공사 공식)" 같은 꼬리를 뗀다 — 누를 사람은 기관명을 보고 누르지 않는다',
+      });
+    }
   }
 
   // ── E. 한 글 안에서 어미가 반복되는가 ────────────────
@@ -355,12 +412,14 @@ const AXIS = {
   F: '라벨 정보형',
   G: '버튼 슬롯 빈 문구',
   H: '후킹 부재',
+  I: '작성자 입장',
+  J: '버튼 설명문',
 } as const;
 
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -397,7 +456,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}`,
 );
 
 if (all) {
