@@ -135,7 +135,7 @@ function judgeLabel(raw: string): string | null {
   return null;
 }
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -380,6 +380,39 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
     });
   }
 
+
+  // ── P. 문구가 말한 행동과 버튼이 같은가 ──────────────
+  /* 2026-08-02: 청년미래적금 카드에서 문구는 "은행부터 골라보셔야겠죠"인데
+     버튼은 "청년미래적금 신청하기"였다. 읽는 사람 입장에서 앞뒤가 안 맞으면
+     버튼을 못 누른다. L축(동사 도배)을 피하려고 버튼 동사만 바꾸다 생긴 문제다.
+     버튼을 고칠 때는 앞 문구도 같이 고쳐야 한다는 걸 게이트가 강제한다. */
+  const ACT_MAP: { verb: RegExp; cue: RegExp; name: string }[] = [
+    { verb: /(신청|접수|넣기)하?기$/, cue: /(신청|접수|넣으|지원하|넣어|제출)/, name: '신청' },
+    { verb: /계산(해보기|하기)$/, cue: /(계산|얼마|금액|며칠|몇 곳|손실)/, name: '계산' },
+    { verb: /(비교|골라|고르)[가-힣]*기$/, cue: /(비교|고르|골라|어느 쪽|나란히|다릅니다|갈립니다|달라)/, name: '비교·선택' },
+    { verb: /조회하기$/, cue: /(조회|남았|얼마|결과|내역)/, name: '조회' },
+    { verb: /찾기$/, cue: /(찾|어디|가까운|헷갈)/, name: '찾기' },
+    { verb: /(내려받기|받기|다운로드)$/, cue: /(양식|서식|서류|공고문|받아|내려받)/, name: '내려받기' },
+    { verb: /챙기기$/, cue: /(서류|준비|빠지|챙기)/, name: '서류 챙기기' },
+    { verb: /맞춰보기$/, cue: /(자격|해당|조건|되는지|드는지|걸립)/, name: '자격 대조' },
+    { verb: /(발급받기|발급하기|출력하기)$/, cue: /(발급|출력|증명|확인서)/, name: '발급' },
+  ];
+  for (let i = 0; i < labels.length && i < cues.length; i += 1) {
+    const L = labels[i];
+    const C = cues[i];
+    if (!L || !C) continue;
+    for (const { verb, cue, name } of ACT_MAP) {
+      if (verb.test(L.trim()) && !cue.test(C)) {
+        issues.push({
+          axis: 'P',
+          msg: `버튼은 "${L}"(${name})인데 문구는 다른 얘기다: "${C.slice(0, 34)}…"`,
+          fix: '버튼을 바꿨으면 앞 문구도 같이 바꾼다 — 문구가 유도한 행동과 버튼이 같아야 눌린다',
+        });
+        break;
+      }
+    }
+  }
+
   // ── L. 버튼이 전부 같은 동사인가 ────────────────────
   /* 2026-08-02: 의왕시 글의 버튼 7개가 전부 "…확인하기"였는데 통과했다.
      F축은 라벨 하나하나의 구조만 봤고, E축은 cue 어미만 보고 label 은 안 봤다.
@@ -593,6 +626,7 @@ const AXIS = {
   M: '읽는 버튼뿐',
   N: '후킹 맺음 도배',
   O: '버튼 유도 문장 없음',
+  P: '문구와 버튼 불일치',
 } as const;
 
 if (draftFile) {
@@ -620,7 +654,7 @@ if (draftFile) {
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0, N: 0, O: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0, N: 0, O: 0, P: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -631,7 +665,7 @@ for (const f of targets) {
   if (!issues.length) continue;
   failed++;
   issues.forEach((i) => count[i.axis]++);
-  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M' || i.axis === 'N' || i.axis === 'O')) {
+  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M' || i.axis === 'N' || i.axis === 'O' || i.axis === 'P')) {
     console.log(`\n❌ ${path.basename(f, '.ts')}`);
     for (const i of issues) {
       console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
@@ -657,7 +691,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}  읽는버튼 ${count.M}  맺음도배 ${count.N}  유도문장없음 ${count.O}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}  읽는버튼 ${count.M}  맺음도배 ${count.N}  유도문장없음 ${count.O}  문구-버튼불일치 ${count.P}`,
 );
 
 if (all) {
