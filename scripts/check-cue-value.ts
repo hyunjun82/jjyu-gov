@@ -24,6 +24,7 @@
  *   J 버튼 설명문  버튼이 14자 이내 행동인가, 기관명이 안 붙었는가
  *   K 비문         한국어로 말이 되는 문장인가 (지적받은 어색한 표현 재발 차단)
  *   L 버튼 도배    한 글의 버튼이 전부 같은 동사(…확인하기)로 끝나지 않는가
+ *   M 읽는 버튼    버튼이 읽어보는 동사뿐이 아닌가 (사용자 목적 = 신청·접수·발급)
  *
  * 사용:
  *   npx tsx scripts/check-cue-value.ts          # 변경된 허브만 (pre-push, 차단)
@@ -133,7 +134,7 @@ function judgeLabel(raw: string): string | null {
   return null;
 }
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -332,6 +333,32 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
     }
   }
 
+  // ── M. 버튼이 정보 동사뿐인가 ───────────────────────
+  /* 2026-08-02: L축을 넣자 동사를 흩으려다 확인하기 → 살펴보기·훑어보기·따져보기로
+     바뀌었을 뿐, 전부 "읽어보는" 동사가 됐다. 사용자가 원하는 건 정보가 아니라
+     이자를 받는 것이다. 기준은 임영웅 예시의 버튼 — "콘서트 예매 바로가기",
+     즉 그 사람의 목적 행위 자체다. 정보 동사가 과반이면 차단하고,
+     실제 행동(신청·접수·발급·다운로드) 버튼이 최소 하나는 있게 한다. */
+  if (labels.length >= 3) {
+    const INFO_VERB = /(확인|보기|살펴|훑어|읽어|알아|따져|재보|비교|점검)/;
+    const ACT_VERB = /(신청|접수|등록|발급|예매|예약|가입|받기|내려받|다운|찾기|조회|계산|제출|납부)/;
+    const info = labels.filter((l) => INFO_VERB.test(l) && !ACT_VERB.test(l));
+    if (info.length > Math.floor(labels.length / 2)) {
+      issues.push({
+        axis: 'M',
+        msg: `버튼 ${labels.length}개 중 ${info.length}개가 읽어보는 동사 — 예: "${info[0]}"`,
+        fix: '버튼은 그 사람의 목적 행위다("콘서트 예매 바로가기"). 확인·살펴보기 대신 신청·접수·발급·찾기로 바꾼다',
+      });
+    }
+    if (!labels.some((l) => ACT_VERB.test(l))) {
+      issues.push({
+        axis: 'M',
+        msg: '실제 행동으로 가는 버튼이 하나도 없다 — 전부 읽고 끝난다',
+        fix: '최소 한 곳은 신청·접수·발급 같은 실제 행동 지점으로 연결한다 (절대규칙 1: 행동 키워드)',
+      });
+    }
+  }
+
   // ── E. 한 글 안에서 어미가 반복되는가 ────────────────
   const tally = new Map<string, number>();
   for (const cue of cues) {
@@ -483,6 +510,7 @@ const AXIS = {
   J: '버튼 설명문',
   K: '비문·어색한 표현',
   L: '버튼 동사 도배',
+  M: '읽는 버튼뿐',
 } as const;
 
 if (draftFile) {
@@ -510,7 +538,7 @@ if (draftFile) {
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -521,7 +549,7 @@ for (const f of targets) {
   if (!issues.length) continue;
   failed++;
   issues.forEach((i) => count[i.axis]++);
-  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L')) {
+  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M')) {
     console.log(`\n❌ ${path.basename(f, '.ts')}`);
     for (const i of issues) {
       console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
@@ -547,7 +575,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}  읽는버튼 ${count.M}`,
 );
 
 if (all) {
