@@ -14,6 +14,8 @@ interface PolicySidebarProps {
   spokes: SpokeLink[];
   currentSpoke?: string;
   applyUrl: string;
+  /* 허브의 ctaLabel — 없으면 상단 CTA와 문구가 어긋난다(워터밤인데 '신청하기'가 뜨던 문제) */
+  ctaLabel?: string;
 }
 
 export default function PolicySidebar({
@@ -22,13 +24,14 @@ export default function PolicySidebar({
   spokes,
   currentSpoke,
   applyUrl,
+  ctaLabel,
 }: PolicySidebarProps) {
   return (
     <aside className="policy-sidebar">
       {/* CTA */}
       <div className="sidebar-cta">
         <a href={applyUrl} className="sidebar-cta-btn">
-          지금 바로 신청하기
+          {ctaLabel || '지금 바로 신청하기'}
         </a>
       </div>
 

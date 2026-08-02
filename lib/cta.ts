@@ -5,20 +5,39 @@
  * 94개가 "(복지로 공식)" 같은 기관명·수식어를 달고 있어 버튼이 길고 반복적으로 보인다.
  * 데이터를 일괄 수정하는 대신 렌더 시점에 행동 동사만 남긴다.
  */
-export function simplifyCta(label?: string): string {
+export function simplifyCta(label?: string, subject?: string): string {
   const s = (label || '').trim();
-  if (!s) return '신청하기';
-  // 행동 동사 우선순위 — 티켓·좌석은 '신청'이 아니라 '예매'가 실제 행동이라 앞에 둔다
-  if (/예매/.test(s)) return '예매하기';
-  if (/예약/.test(s)) return '예약하기';
-  if (/신청/.test(s)) return '신청하기';
-  if (/신고/.test(s)) return '신고하기';
-  if (/조회/.test(s)) return '조회하기';
-  if (/계산/.test(s)) return '계산하기';
-  if (/다운로드|서식/.test(s)) return '서식 다운로드';
-  if (/발급/.test(s)) return '발급 신청하기';
-  if (/확인/.test(s)) return '확인하기';
-  return '신청하기';
+  /* 행동 동사만 뽑는다 — 티켓·좌석은 '신청'이 아니라 '예매'가 실제 행동이라 앞에 둔다 */
+  const verb =
+    /예매/.test(s) ? '예매하기'
+    : /예약/.test(s) ? '예약하기'
+    : /신고/.test(s) ? '신고하기'
+    : /조회/.test(s) ? '조회하기'
+    : /계산/.test(s) ? '계산하기'
+    : /다운로드|서식/.test(s) ? '서식 받기'
+    : /발급/.test(s) ? '발급받기'
+    : /확인/.test(s) ? '확인하기'
+    : /신청/.test(s) ? '신청하기'
+    : '신청하기';
+
+  /* 2026-08-02: 동사만 남기면 "예매하기"처럼 무엇을 예매하는지가 사라진다.
+     사용자 지적 — "티켓 132,000원 옆에 '예매하기'가 아니라 '워터밤 즉시 예매하기'여야 한다".
+     주제어가 있으면 앞에 붙여 무엇에 대한 행동인지 보이게 한다. */
+  const subj = (subject || '').trim();
+  if (!subj) return verb;
+  /* 주제어는 "무엇에 대한 행동인지"만 알려주면 된다. 조사·연결어가 붙은 어절이 따라오면
+     "수급자격과 신청하기"처럼 말이 깨지므로, 명사로 끝나는 앞 어절만 취한다. */
+  const words = subj.split(/\s+/);
+  const picked: string[] = [];
+  for (const w of words) {
+    if (picked.length >= 2) break;
+    /* 조사·연결어로 끝나거나 괄호가 섞인 어절에서 멈춘다 */
+    if (/[와과의는은이가을를로에서]$/.test(w) || /[()]/.test(w)) break;
+    picked.push(w);
+  }
+  const short = picked.join(' ');
+  if (!short) return verb;
+  return `${short} ${verb}`;
 }
 
 /**

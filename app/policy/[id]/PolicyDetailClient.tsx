@@ -155,6 +155,14 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   // 모든 QA 카드에 공통으로 붙는 행동 버튼의 목적지 (applyUrl 없으면 1차 출처로 폴백)
   const defaultActionHref: string | undefined = d.applyUrl || d.sources?.[0]?.url;
 
+  /* 버튼에 붙일 주제어 — "예매하기"가 아니라 "워터밤 즉시 예매하기"가 되도록.
+     제목 앞부분에서 연도·군더더기를 떼고 핵심 명사만 남긴다. */
+  const ctaSubject = d.title
+    .replace(/^20\d{2}\s*/, '')
+    .split(/[,|·]/)[0]
+    .replace(/\s*(신청방법|신청|조건|총정리|안내|방법)\s*$/, '')
+    .trim();
+
   return (
     <main className="detail bg-gov-bg min-h-screen">
       {schemas.map((schema, i) => (
@@ -171,7 +179,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
           <div className="container sticky-cta-inner">
             <span className="sticky-cta-label">{d.stickyBar.label}</span>
             <a href={d.stickyBar.applyUrl || d.applyUrl} className="sticky-cta-btn" rel="noopener">
-              {simplifyCta(d.stickyBar.ctaLabel)} →
+              {simplifyCta(d.stickyBar.ctaLabel, ctaSubject)} →
             </a>
           </div>
         </div>
@@ -221,7 +229,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               </div>
             )}
             <a href={d.applyUrl} className="btn-cta" rel="noopener">
-              {simplifyCta(d.ctaLabel)}
+              {simplifyCta(d.ctaLabel, ctaSubject)}
             </a>
           </div>
         </header>
@@ -735,6 +743,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             policyTitle={d.title.replace(/^2026\s*/, '')}
             spokes={spokeList.map((s: any) => ({ slug: s.slug, title: s.title ?? s.label ?? s.slug }))}
             applyUrl={d.applyUrl}
+            ctaLabel={simplifyCta(d.ctaLabel, ctaSubject)}
           />
 
         </div>
