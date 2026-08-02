@@ -187,12 +187,34 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
   const { slug, qaCount, cues, urls, labels, heroHook } = parse(file);
   const issues: Issue[] = [];
 
-  // ── A. 문구 누락 ────────────────────────────────────
-  if (cues.length < qaCount) {
+  /* ── A. 행동 지점이 있는가 ──────────────────────────
+     2026-08-02 재설계: 원래는 qa 카드 수만큼 cue 를 요구했다(7개면 7개).
+     그러다 보니 쓸 말이 없는 카드까지 버튼을 짜내게 됐고, 결과가
+     "지원 규모 확인하기 / 자격 살펴보기 / 항목 훑어보기" 같은 확인하기 도배였다.
+     실제로 필요한 건 개수가 아니라 두 지점이다 —
+       ① 내가 대상인지 확인       ② 신청·접수
+     그래서 최소 2개, 그리고 그중 하나는 반드시 신청 계열이어야 한다.
+     상한도 둔다. 버튼이 5개를 넘으면 어느 걸 눌러야 할지 흩어진다. */
+  const APPLY_VERB = /(신청|접수|예매|예약|발급|등록|가입|제출|납부|바로가기)/;
+  if (qaCount >= 3 && cues.length < 2) {
     issues.push({
       axis: 'A',
-      msg: `qa ${qaCount}개인데 act.cue ${cues.length}개 — ${qaCount - cues.length}개 카드가 문구 없이 버튼만 붙는다`,
-      fix: '카드마다 act: { cue, label, url } 을 넣는다. 문구 없는 버튼은 눌리지 않는다',
+      msg: `행동 지점이 ${cues.length}개 — 대상 확인과 신청, 최소 두 곳은 있어야 한다`,
+      fix: '"내가 대상인지 확인하기"와 "신청 바로가기" 두 지점을 만든다 (docs/button-copy.md)',
+    });
+  }
+  if (labels.length > 5) {
+    issues.push({
+      axis: 'A',
+      msg: `버튼이 ${labels.length}개 — 많으면 어디를 눌러야 할지 흩어진다`,
+      fix: '핵심 2~3개로 줄인다. 카드마다 하나씩 짜내면 확인하기 도배가 된다',
+    });
+  }
+  if (labels.length >= 2 && !labels.some((l) => APPLY_VERB.test(l))) {
+    issues.push({
+      axis: 'A',
+      msg: '신청·접수로 가는 버튼이 없다 — 확인만 하고 끝난다',
+      fix: '마지막 버튼은 실제 신청 화면으로 보낸다',
     });
   }
 
