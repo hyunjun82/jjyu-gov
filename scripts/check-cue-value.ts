@@ -134,7 +134,7 @@ function judgeLabel(raw: string): string | null {
   return null;
 }
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -174,6 +174,13 @@ function ending(s: string): string {
   const t = s.trim().replace(/[.!?~]+$/, '');
   const last = t.split(/[\s,]/).filter(Boolean).pop() ?? '';
   return last.slice(-6);
+}
+
+/** 후킹의 맺음 — 마지막 어절 기준. "…하시길 바랍니다" 같은 상투구를 잡는다 */
+function hookEnding(h: string): string {
+  const t = h.trim().replace(/[.!?~\s]+$/, '');
+  const last = t.split(/[\s,]/).filter(Boolean).pop() ?? '';
+  return last.slice(-5);
 }
 
 function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
@@ -310,6 +317,23 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
         });
         break;
       }
+    }
+  }
+
+  // ── N. 후킹 맺음이 다른 글과 똑같은가 ───────────────
+  /* 2026-08-02: 정본(워터밤)을 따라 쓰다 보니 새 글 5개의 후킹이 전부
+     "…하시길 바랍니다"로 끝났다. 좋은 문장이라도 사이트 전체가 같은 맺음이면
+     복사해 붙인 티가 나고, 그게 곧 AI가 찍어낸 글로 읽힌다.
+     맺음은 상황마다 달라야 한다 — 챙겨두세요 / 닫힙니다 / 구가 내줍니다. */
+  if (heroHook) {
+    const e = hookEnding(heroHook);
+    const others = (hookEndCount.get(e) ?? []).filter((s2) => s2 !== slug);
+    if (others.length >= 2) {
+      issues.push({
+        axis: 'N',
+        msg: `후킹 맺음 "${e}" 이 다른 글 ${others.length}곳과 같다 (${others.slice(0, 2).join(', ')} 등)`,
+        fix: '맺음을 이 글의 상황으로 바꾼다 — "미리 챙겨두세요", "8월 12일이면 닫힙니다", "이번엔 구가 내줍니다"',
+      });
     }
   }
 
@@ -484,6 +508,19 @@ if (!targets.length && !spokeTargets.length) {
 
 /* 도배 검사는 전체 허브를 기준으로 봐야 의미가 있다.
    변경분만 볼 때도 나머지 허브의 cue 를 먼저 색인해 둔다. */
+/* N축용 — 후킹 종결이 글마다 겹치는지 보려면 전체 허브를 먼저 세어야 한다.
+   변경분만 검사할 때도 기존 글의 종결을 다 알고 있어야 "또 그 맺음"을 잡는다. */
+const hookEndCount = new Map<string, string[]>();
+for (const f of allHubs()) {
+  const { slug, heroHook } = parse(f);
+  if (!heroHook) continue;
+  const e = hookEnding(heroHook);
+  if (!e) continue;
+  const arr = hookEndCount.get(e) ?? [];
+  arr.push(slug);
+  hookEndCount.set(e, arr);
+}
+
 const cueIndex = new Map<string, string>();
 if (!all) {
   const targetSet = new Set(targets.map((t) => path.resolve(t)));
@@ -511,6 +548,7 @@ const AXIS = {
   K: '비문·어색한 표현',
   L: '버튼 동사 도배',
   M: '읽는 버튼뿐',
+  N: '후킹 맺음 도배',
 } as const;
 
 if (draftFile) {
@@ -538,7 +576,7 @@ if (draftFile) {
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0, N: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -549,7 +587,7 @@ for (const f of targets) {
   if (!issues.length) continue;
   failed++;
   issues.forEach((i) => count[i.axis]++);
-  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M')) {
+  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M' || i.axis === 'N')) {
     console.log(`\n❌ ${path.basename(f, '.ts')}`);
     for (const i of issues) {
       console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
@@ -575,7 +613,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}  읽는버튼 ${count.M}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}  읽는버튼 ${count.M}  맺음도배 ${count.N}`,
 );
 
 if (all) {
