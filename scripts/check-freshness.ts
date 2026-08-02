@@ -157,21 +157,32 @@ for (const file of targetFiles()) {
   };
   const thisY = TODAY.getFullYear();
 
+  /* 과거 날짜라고 다 지난 마감은 아니다.
+     2026-08-02 확인: 울주군 공고의 "개업일 2026. 02. 08. 까지 신청가능"은 마감이 아니라
+     자격 기준일이다 — 그날 이전에 개업했어야 한다는 뜻이라 날짜가 과거인 게 정상이다.
+     이런 기준일을 마감으로 잡으면 정확한 글이 차단된다. 날짜 앞 문맥으로 걸러낸다. */
+  const CUTOFF_CONTEXT =
+    /(개업|창업|설립|등록|출생|전입|거주|가입|취득|계약|입주|퇴사|이직|졸업|기준일|기준\s*시점|시행)[^.]{0,20}$/;
+  const isCutoff = (idx: number) => CUTOFF_CONTEXT.test(src.slice(Math.max(0, idx - 40), idx));
+
   /* ① 연·월·일이 다 있는 형태: 2026년 5월 31일까지 / 2026.5.31. 마감 / 2026-05-31 접수마감 */
   for (const m of src.matchAll(
     /(20\d{2})\s*[.\-/년]\s*(\d{1,2})\s*[.\-/월]\s*(\d{1,2})\s*일?\.?\s*(?:[가-힣]{0,4}\s*)?(?:까지|마감|종료)/g,
   )) {
+    if (isCutoff(m.index!)) continue;
     pushIfPast(+m[1], +m[2], +m[3], `${m[1]}.${m[2]}.${m[3]}`);
   }
   /* ② 연·월만: 2026년 3월 말까지 / 2026년 6월 접수 마감 → 그 달 말일로 본다 */
   for (const m of src.matchAll(
     /(20\d{2})\s*년\s*(\d{1,2})\s*월\s*(?:말|중)?\s*(?:[가-힣]{0,4}\s*)?(?:까지|마감|종료)/g,
   )) {
+    if (isCutoff(m.index!)) continue;
     const last = new Date(+m[1], +m[2], 0).getDate();
     pushIfPast(+m[1], +m[2], last, `${m[1]}.${m[2]}월`);
   }
   /* ③ 연도 없는 월/일: 3/31 마감 → 올해로 본다(작년 것을 올해로 보면 미탐이 되므로 안전한 쪽) */
   for (const m of src.matchAll(/(?<![\d.])(\d{1,2})\s*\/\s*(\d{1,2})\s*(?:[가-힣]{0,4}\s*)?(?:까지|마감|종료)/g)) {
+    if (isCutoff(m.index!)) continue;
     pushIfPast(thisY, +m[1], +m[2], `${thisY}.${m[1]}.${m[2]}`);
   }
 
