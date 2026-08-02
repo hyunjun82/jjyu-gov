@@ -142,6 +142,14 @@ for (const a of docs) {
     if (a.file === b.file) continue;
     const key = [a.file, b.file].sort().join('|');
     if (seen.has(key)) continue;
+    /* 지역·도시명만 다른 같은 시리즈는 중복이 아니다.
+       "워터밤 부산" vs "워터밤 속초"는 각각 다른 검색어를 받는 별개 글이다.
+       2026-08-02: 지역 지원금(의왕시·울주군…)을 늘리면 이 오탐이 계속 나온다. */
+    const REGION = /(서울|부산|대구|인천|광주|대전|울산|세종|경기|강원|충북|충남|전북|전남|경북|경남|제주|속초|의왕|울주|시흥|광진|관악|중구)/g;
+    const aRegions = (a.title.match(REGION) || []).join();
+    const bRegions = (b.title.match(REGION) || []).join();
+    if (aRegions && bRegions && aRegions !== bRegions) continue;
+
     const titleSim = jaccard(a.tt, b.tt);
     const qaSim = jaccard(a.qa, b.qa);
     if (titleSim >= TITLE_HIT || qaSim >= QA_HIT) {

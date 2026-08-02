@@ -30,7 +30,25 @@ import { execSync } from 'child_process';
 const DIR = 'data/policies';
 
 /** 행동 동사 — 사용자가 "누를 수 있는" 동작만. '안내·소개·정보'는 행동이 아니다. */
-const ACTION = /신청|조회|발급|다운로드|접수|확인|계산|신고|받기|찾기|가입|등록|제출|예약|납부|청구|개설|해지|변경|연장|재발급|검색|열람|입찰|예매/;
+/* 2026-08-02: 동사 화이트리스트를 버린다. "케스파컵 시청 바로가기"가 목록에 '시청'이
+   없다는 이유로 막혔는데, 그건 사용자가 직접 고른 문구였다. check-cue-value 의 F축과
+   같은 구조 검사로 통일한다 — 두 게이트가 같은 라벨을 다르게 판정하면 안 된다. */
+const LABEL_IDIOM = /(안내|정보|내용|자료)\s*(보기|확인)$|자세히\s*보기|^바로가기$|^보기$/;
+const WEAK_WORD =
+  /^(안내|정보|자료|내용|페이지|홈페이지|사이트|여기|이곳|저기|더|그냥|각종|관련|해당|자세히|상세|눌러|눌러서|클릭|바로)$/;
+/** 행동으로 끝나는가 — '…기' 종결 또는 '바로가기' 형태 */
+const VERB_END = /(기|가기)$/;
+
+function judgeCtaLabel(raw: string): string | null {
+  const t = raw.trim();
+  if (LABEL_IDIOM.test(t)) return '"…안내 보기 / 자세히 보기" 류 관용구 — 행동이 아니다';
+  if (!VERB_END.test(t)) return '행동으로 끝나지 않는다';
+  const words = t.split(/\s+/);
+  if (words.length < 2) return '대상 없이 동사만 있다';
+  const real = words.slice(0, -1).filter((w) => !WEAK_WORD.test(w));
+  if (real.length === 0) return '대상이 빈말이다';
+  return null;
+}
 
 /** 기관 메인으로 판정할 경로 (딥링크가 아님) */
 const ROOT_PATHS = new Set(['', '/', '/index.do', '/main.do', '/index.jsp', '/main.jsp', '/index.html']);
@@ -111,12 +129,15 @@ function checkFile(file: string): Issue[] {
       msg: 'ctaLabel 없음 — 버튼이 "신청하기"로 뭉뚱그려짐',
       fix: '이 글의 행동에 맞는 ctaLabel 지정 (예: 자격 조회하기 / 서식 다운로드)',
     });
-  } else if (!ACTION.test(label)) {
-    issues.push({
-      axis: 2,
-      msg: `ctaLabel "${label}" 에 행동 동사가 없음`,
-      fix: `신청/조회/발급/다운로드/접수/계산 중 이 글에 맞는 동작을 넣는다`,
-    });
+  } else {
+    const why = judgeCtaLabel(label);
+    if (why) {
+      issues.push({
+        axis: 2,
+        msg: `ctaLabel "${label}" — ${why}`,
+        fix: '[구체적 대상] + [행동] 으로 쓴다 (docs/button-copy.md 규칙 3)',
+      });
+    }
   }
 
   if (!url) {
