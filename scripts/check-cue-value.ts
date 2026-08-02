@@ -118,6 +118,7 @@ const AWKWARD: { re: RegExp; why: string }[] = [
   { re: /끝내십니다|끝내십시오|마치십니다|해치우십니다/, why: '명령형 종결이 어색하다 — "오늘 접수하시길 바랍니다"' },
   { re: /걸리십니다|걸리실\s*겁니다/, why: '자격 미달을 "걸리십니다"로 쓰면 위압적이다 — "이번에는 신청하실 수 없습니다"' },
   { re: /남으셨는데요|남으셨습니다/, why: '"며칠 안 남으셨는데요"는 주어가 어긋난다 — "며칠 남지 않았습니다"' },
+  { re: /(원|만원|억|%|퍼센트)\s*까지\s*(갑니다|간다)/, why: '"100만원까지 갑니다"는 뭐가 간다는 건지 없다 — "최대 100만원까지 지원이 가능한데요"' },
   { re: /계산이\s*섭니다|판단이\s*섭니다|각이\s*나옵니다/, why: '속어에 가깝다 — "계산됩니다"·"판단하실 수 있습니다"' },
 ];
 
@@ -134,7 +135,7 @@ function judgeLabel(raw: string): string | null {
   return null;
 }
 
-type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N'; msg: string; fix: string };
+type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
 function parse(file: string) {
@@ -359,6 +360,22 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
     }
   }
 
+  // ── O. 버튼으로 넘기는 문장이 있는가 ────────────────
+  /* 2026-08-02: "조건이 붙습니다." 로 끝나고 바로 버튼이 나오면 버튼이 뜬금없다.
+     사용자가 준 정본은 버튼 앞에 한 마디가 더 있다 —
+     "그럼 먼저 내가 대상자인지 확인부터 하셔야겠죠."
+     이 한 줄이 있고 없고가 클릭을 가른다. 문구 끝이 읽는 사람에게
+     행동을 넘기는 말인지 본다. */
+  const HANDOFF = /(하셔야겠죠|해보셔야겠죠|확인해\s*보세요|확인해\s*보셔야|넣어두세요|신청하세요|받아두세요|챙겨두세요|가시는\s*게\s*좋습니다|서둘러|보시죠|하셔야\s*합니다|맞춰보세요|골라보세요|걸러보세요|중요하겠죠|중요합니다|먼저입니다|보셔야 합니다|해두시는 게)/;
+  const noHandoff = cues.filter((c) => !HANDOFF.test(c));
+  if (cues.length >= 2 && noHandoff.length === cues.length) {
+    issues.push({
+      axis: 'O',
+      msg: '버튼으로 넘기는 문장이 하나도 없다 — 설명하다 버튼이 튀어나온다',
+      fix: '문구 끝에 행동을 넘기는 한 줄을 둔다 — "그럼 먼저 내가 대상자인지 확인부터 하셔야겠죠"',
+    });
+  }
+
   // ── L. 버튼이 전부 같은 동사인가 ────────────────────
   /* 2026-08-02: 의왕시 글의 버튼 7개가 전부 "…확인하기"였는데 통과했다.
      F축은 라벨 하나하나의 구조만 봤고, E축은 cue 어미만 보고 label 은 안 봤다.
@@ -571,6 +588,7 @@ const AXIS = {
   L: '버튼 동사 도배',
   M: '읽는 버튼뿐',
   N: '후킹 맺음 도배',
+  O: '버튼 유도 문장 없음',
 } as const;
 
 if (draftFile) {
@@ -598,7 +616,7 @@ if (draftFile) {
 let failed = 0;
 let cueTotal = 0;
 let qaTotal = 0;
-const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0, N: 0 };
+const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0, N: 0, O: 0 };
 
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
@@ -609,7 +627,7 @@ for (const f of targets) {
   if (!issues.length) continue;
   failed++;
   issues.forEach((i) => count[i.axis]++);
-  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M' || i.axis === 'N')) {
+  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M' || i.axis === 'N' || i.axis === 'O')) {
     console.log(`\n❌ ${path.basename(f, '.ts')}`);
     for (const i of issues) {
       console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
@@ -635,7 +653,7 @@ for (const sf of spokeTargets) {
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);
 console.log(`  문구 ${cueTotal} / 카드 ${qaTotal}`);
 console.log(
-  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}  읽는버튼 ${count.M}  맺음도배 ${count.N}`,
+  `  문구누락 ${count.A}  문구도배 ${count.B}  목적지뭉침 ${count.C}  딥링크아님 ${count.D}  어미반복 ${count.E}  라벨정보형 ${count.F}  버튼슬롯 ${count.G}  후킹부재 ${count.H}  작성자입장 ${count.I}  버튼설명문 ${count.J}  비문 ${count.K}  버튼도배 ${count.L}  읽는버튼 ${count.M}  맺음도배 ${count.N}  유도문장없음 ${count.O}`,
 );
 
 if (all) {
