@@ -19,8 +19,9 @@ export const smallBizPolicyFundPolicy = {
   slug: 'small-biz-policy-fund', org: '중소벤처기업부', cat: '대출', catSlug: 'loan',
   amount: '일반경영안정자금 최대 7,000만원 / 지자체 육성자금 별도',
   deadline: '자금별 상시 (직접대출 매월 첫째주·대리대출 매분기 첫째주 접수 개시)', views: 0,
-  applyUrl: OLS_TABLE,
-  ctaLabel: '내 자금 유형 확인하기',
+  applyUrl: OLS_APPLY_D,
+  hideAmountBox: true,
+  ctaLabel: '신청하기',
   datePublished: '2026-06-28T09:00:00+09:00', dateModified: '2026-07-31T18:00:00+09:00',
   heroHook:
     '정책자금 알아보려다 자금 이름만 열 개가 넘어서 뭘 넣어야 할지부터 막히시죠. 2026년 소상공인 정책자금은 4차 변경 공고까지 나온 상태인데요. 기업당 운전자금 5억, 시설까지 포함하면 10억 이내에서 운용되지만 자금마다 요건이 달라 아무 데나 넣으면 접수 단계에서 반려됩니다.',
