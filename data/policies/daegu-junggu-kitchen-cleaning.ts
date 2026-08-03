@@ -100,7 +100,7 @@ export const daeguJungguKitchenCleaningPolicy = {
     {
       q: '어떻게 신청하나요?', anchor: 'q-apply',
       act: {
-        cue: '가게 비우고 구청까지 다녀오기 어려우시죠. 팩스나 메일로도 접수됩니다.',
+        cue: '가게 비우고 구청까지 다녀오기 어려우시죠. 신청서만 내려받으시면 팩스나 메일로도 접수됩니다.',
         label: '신청서 내려받기',
         url: FORM,
       },
