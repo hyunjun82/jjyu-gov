@@ -701,6 +701,8 @@ img { max-width: 100%; display: block; }
    버튼 하나만 있을 때는 폭을 다 쓰게 한다. (2026-08-03) */
 .detail-cta > .btn-cta:only-child {
   width: 100%;
+  /* .btn-cta 가 inline-flex 라 text-align 이 안 먹는다. justify-content 로 가운데. */
+  justify-content: center;
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
