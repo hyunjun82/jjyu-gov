@@ -673,19 +673,18 @@ img { max-width: 100%; display: block; }
 /* 상단 후킹 한 줄 — CTA 바로 위. 검색으로 들어온 사람이 첫 화면에서
    "나는 예외일 수 있다"를 알아채는 자리라 본문보다 크고 진하게 둔다.
    주 독자가 40~60대라 글자를 키우고 줄간격을 넉넉히 잡았다. */
+/* 상단 후킹 — 본문처럼 읽혀야 한다.
+   2026-08-03: 노란 배경에 주황 테두리를 둘렀더니 광고 배너처럼 보여
+   읽지 않고 지나갔다. 강조색을 걷고 글자 크기만 살짝 키운다.
+   버튼보다 위에 오므로 여기서 읽고 아래 버튼을 누르는 흐름이 된다. */
 .detail-hero-hook {
-  margin: 14px 0 0;
-  padding: 14px 18px;
-  background: #FFF8E1;
-  border-left: 4px solid var(--gov-orange, #F5A623);
-  border-radius: 8px;
-  font-size: 16px;
-  line-height: 1.75;
+  margin: 16px 0 18px;
+  font-size: 16.5px;
+  line-height: 1.8;
   color: var(--text-main, #191F28);
-  font-weight: 500;
 }
 @media (max-width: 640px) {
-  .detail-hero-hook { font-size: 15.5px; padding: 13px 15px; }
+  .detail-hero-hook { font-size: 16px; line-height: 1.75; margin: 14px 0 16px; }
 }
 
 .detail-cta {

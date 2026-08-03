@@ -221,6 +221,14 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
             </div>
           </div>
 
+          {/* 상단 후킹 — 버튼보다 먼저 읽혀야 한다.
+              2026-08-03 순서 교정: 금액 박스와 버튼이 먼저 나오고 후킹이 그 아래 있었다.
+              서론을 읽고 버튼을 누르는 흐름이라야 하는데 반대였다.
+              강조색 박스도 걷어냈다 — 본문처럼 읽히는 게 낫다. */}
+          {d.heroHook && (
+            <p className="detail-hero-hook">{d.heroHook}</p>
+          )}
+
           <div className="detail-cta">
             {!d.hideAmountBox && (
               <div>
@@ -232,14 +240,6 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
               {simplifyCta(d.ctaLabel, ctaSubject)}
             </a>
           </div>
-
-          {/* 상단 후킹 한 줄 — 2026-08-02 신설.
-              검색으로 들어온 사람이 첫 화면에서 보는 건 제목·금액뿐이라 누를 이유가 없었다.
-              "다자녀라고 다 같은 혜택을 받는 게 아닙니다" 처럼 그 페이지에 온 사람의
-              불안을 한 줄로 짚고 버튼으로 잇는다. 재료는 검증된 사실만(마감·선착순·예산·차등). */}
-          {d.heroHook && (
-            <p className="detail-hero-hook">{d.heroHook}</p>
-          )}
         </header>
 
         {/* 본문 + 사이드바 */}
