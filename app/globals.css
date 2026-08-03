@@ -696,6 +696,16 @@ img { max-width: 100%; display: block; }
   padding: 24px 28px;
   margin-top: 24px;
 }
+/* 금액 박스를 감춘 글(hideAmountBox)은 버튼만 남는다.
+   그때 버튼이 왼쪽에 붙어 있으면 빈 상자만 커 보이고 누를 자리가 작아진다.
+   버튼 하나만 있을 때는 폭을 다 쓰게 한다. (2026-08-03) */
+.detail-cta > .btn-cta:only-child {
+  width: 100%;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 17px;
+}
 .cta-amount-label {
   font-size: 13px;
   color: var(--text-muted);
