@@ -3,6 +3,14 @@ import { ChevronRight } from 'lucide-react';
 import { PoliciesBySlug } from '@/data/policies/manifest';
 import AdSense from '@/components/AdSense';
 
+/* 홈은 layout.tsx 의 기본 description 을 그대로 쓰고 있었다.
+   네이버 웹마스터가 다른 페이지들과 함께 "동일 설명문"으로 지적한 항목이라
+   홈 전용 문장을 따로 둔다(2026-08-03). */
+export const metadata = {
+  description:
+    '신청해야 받는 정부 지원금과 환급금을 한곳에 모았습니다. 대상이 되는지, 얼마를 받는지, 마감이 언제인지 정부 공고 기준으로 확인하세요.',
+};
+
 /* ── 카테고리 ── */
 const categories = [
   { id: 'fund',   label: '지원금', icon: '💰', href: '/category/fund' },
