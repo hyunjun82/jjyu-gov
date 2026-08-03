@@ -93,7 +93,7 @@ export const smallBizPolicyFundPolicy = {
       sourceNote: '* 출처: 소상공인시장진흥공단',
     },
     {
-      q: '어떻게 신청하나요?', anchor: 'q-apply',
+      q: '어디로 신청하나요? (직접대출·대리대출)', anchor: 'q-apply',
       act: {
         cue: '직접대출은 매월 첫째주, 대리대출은 매분기 첫째주에 접수가 열립니다. 서류 제출 기한을 넘기면 자동으로 신청 취소되니 열렸을 때 바로 넣으시는 게 낫습니다.',
         label: '정책자금 신청하기',
