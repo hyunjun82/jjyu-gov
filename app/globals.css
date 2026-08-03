@@ -1712,3 +1712,48 @@ img { max-width: 100%; display: block; }
 /* 스포크 상단 버튼 — 후킹 바로 아래 (2026-08-03) */
 .spoke-hero-cta { margin: 0 0 20px; }
 .spoke-hero-cta .btn-cta { display: inline-flex; }
+
+/* ── 자금 비교 원페이지 (2026-08-03)
+   공식 「정책자금 한눈에보기」 구성을 한 화면에. 행마다 우리 허브로 가는 버튼. */
+.fc-box { background: #F9FAFB; border: 1px solid #E5E8EB; border-radius: 14px;
+  padding: 20px 22px; margin-bottom: 20px; }
+.fc-box-title { font-size: 17px; font-weight: 800; color: var(--gov-primary, #003D88); margin-bottom: 10px; }
+.fc-ul { margin: 0; padding-left: 18px; font-size: 14.5px; line-height: 1.85; color: #4E5968; }
+.fc-ul li { margin-bottom: 2px; }
+.fc-warn { color: #C2410C; }
+.fc-formula { display: inline-block; background: #fff; border: 1px solid #E5E8EB;
+  border-radius: 8px; padding: 8px 14px; font-size: 14.5px; font-weight: 700;
+  color: #191F28; margin-bottom: 10px; }
+.fc-steps { margin: 0; padding-left: 20px; font-size: 14.5px; line-height: 1.9; color: #4E5968; }
+
+.fc-sec { margin-bottom: 30px; }
+.fc-sec-title { font-size: 19px; font-weight: 800; margin-bottom: 5px; color: var(--gov-primary, #003D88); }
+.fc-sec-desc { font-size: 14px; color: #8B95A1; line-height: 1.6; margin-bottom: 12px; }
+
+.fc-list { border: 1px solid #E5E8EB; border-radius: 14px; overflow: hidden; background: #fff; }
+.fc-row { display: flex; align-items: center; gap: 18px; padding: 18px 20px; border-bottom: 1px solid #F2F4F6; }
+.fc-row:last-child { border-bottom: 0; }
+.fc-info { flex: 1; min-width: 0; }
+.fc-name { font-size: 16.5px; font-weight: 800; color: #191F28; margin-bottom: 6px; }
+.fc-name a { color: #191F28; text-decoration: none; }
+.fc-name a:hover { text-decoration: underline; }
+.fc-req { font-size: 14px; color: #6B7684; line-height: 1.6; margin-bottom: 8px; }
+.fc-tag { display: inline-block; background: #EEF3FA; color: #003D88; font-size: 12px;
+  font-weight: 700; padding: 2px 7px; border-radius: 5px; margin-right: 7px; }
+.fc-meta { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13.5px; color: #4E5968; }
+.fc-meta b { color: #8B95A1; font-weight: 600; margin-right: 4px; }
+.fc-right { flex-shrink: 0; }
+.fc-btn { display: inline-block; background: var(--gov-primary, #003D88); color: #fff;
+  font-size: 14px; font-weight: 700; padding: 11px 20px; border-radius: 8px;
+  text-decoration: none; white-space: nowrap; }
+.fc-btn:hover { opacity: .92; }
+
+.fc-foot { margin-top: 24px; padding: 18px 20px; background: #F9FAFB; border-radius: 12px;
+  font-size: 14px; line-height: 1.75; color: #4E5968; }
+.fc-foot a { color: var(--gov-primary, #003D88); font-weight: 700; }
+.fc-src { margin-top: 12px; font-size: 12.5px; color: #8B95A1; line-height: 1.6; }
+
+@media (max-width: 640px) {
+  .fc-row { flex-direction: column; align-items: stretch; gap: 12px; padding: 16px; }
+  .fc-right .fc-btn { display: block; text-align: center; }
+}
