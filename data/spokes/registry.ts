@@ -1307,12 +1307,6 @@ import { 소상공인정책자금부결재신청SpokeContent } from '@/app/polic
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
-  'small-biz-policy-fund': {
-    'target-check': 소상공인정책자금대상자조회SpokeContent,
-    'queue-wait': 소상공인정책자금접수대기SpokeContent,
-    'rejected-retry': 소상공인정책자금부결재신청SpokeContent,
-  },
-
   'lh-apply-plus': {
     '서류제출대상자': LH청약플러스서류제출대상자SpokeContent,
     '당첨자발표조회': LH청약플러스당첨자발표조회SpokeContent,
@@ -2308,6 +2302,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'business-plan-form': 소상공인정책자금사업계획서SpokeContent,
     'direct-vs-agency-loan': 소상공인정책자금직접대출대리대출SpokeContent,
     'eligibility-certificate': 소상공인정책자금지원대상확인서SpokeContent,
+    'target-check': 소상공인정책자금대상자조회SpokeContent,
+    'queue-wait': 소상공인정책자금접수대기SpokeContent,
+    'rejected-retry': 소상공인정책자금부결재신청SpokeContent,
   },
 
   'worker-livelihood-interest-subsidy': {
