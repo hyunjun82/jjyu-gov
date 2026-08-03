@@ -17,7 +17,8 @@ export const nationalScholarshipSecondRoundPolicy = {
   deadline: '2026.8.12(수) 9시 ~ 9.9(수) 18시 (서류·가구원동의 9.16 18시)',
   views: 0,
   applyUrl: KOSAF_MAIN,
-  ctaLabel: '국가장학금 신청하기',
+  hideAmountBox: true,
+  ctaLabel: '지금 국가장학금 신청하기',
   heroHook:
     '1차 때 신청 못 하고 등록금 다 내신 분들 계실 겁니다. 2차는 8월 12일 9시에 열려 9월 9일 18시에 닫힙니다. 구간에 따라 50만원이 300만원으로 갈립니다. 내 구간부터 조회해 보시고 마감 전에 접수하시길 바랍니다.',
   datePublished: '2026-07-29T14:00:00+09:00',
