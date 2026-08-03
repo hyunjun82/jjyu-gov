@@ -1301,7 +1301,17 @@ import { 저소득에너지효율개선저소득에너지효율개선지원금�
 import { 케스파컵결선티켓예매SpokeContent } from '@/app/policy/[id]/[spoke]/content/kespa-cup-2026/결선티켓예매';
 
 
+import { 소상공인정책자금대상자조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/small-biz-policy-fund/대상자조회';
+import { 소상공인정책자금접수대기SpokeContent } from '@/app/policy/[id]/[spoke]/content/small-biz-policy-fund/접수대기';
+import { 소상공인정책자금부결재신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/small-biz-policy-fund/부결재신청';
+
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+
+  'small-biz-policy-fund': {
+    'target-check': 소상공인정책자금대상자조회SpokeContent,
+    'queue-wait': 소상공인정책자금접수대기SpokeContent,
+    'rejected-retry': 소상공인정책자금부결재신청SpokeContent,
+  },
 
   'lh-apply-plus': {
     '서류제출대상자': LH청약플러스서류제출대상자SpokeContent,

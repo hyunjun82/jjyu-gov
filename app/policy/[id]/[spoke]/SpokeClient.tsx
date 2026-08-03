@@ -54,6 +54,12 @@ export interface SpokeData {
   keyFactsHighlights?: Record<string, string[]>;
   faqData: { q: string; a: string; source: string; sourceUrl: string }[];
   sources: { name: string; url: string }[];
+  /* 상단 후킹과 첫 버튼 — 2026-08-03 신설.
+     그동안 스포크는 제목 다음이 바로 목차·카드였다. 검색으로 들어온 사람이
+     첫 화면에서 읽을 문장이 없어 스크롤하다 나갔다. 허브와 같은 구조로 맞춘다.
+     문구는 반드시 이 데이터에서만 받는다 — 코드에 문장을 박으면 전 스포크가 같아진다. */
+  heroHook?: string;
+  heroAct?: { label: string; href?: string };
 }
 
 /* ── 텍스트 내 highlights 단어를 형광으로 강조 ── */
@@ -249,6 +255,16 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
               </div>
             </header>
 
+            {/* 상단 후킹 -> 버튼. 읽고 나서 누르는 순서라야 한다(허브와 동일). */}
+            {spoke.heroHook && <p className="detail-hero-hook">{spoke.heroHook}</p>}
+            {spoke.heroAct && (
+              <div className="spoke-hero-cta">
+                <Link href={spoke.heroAct.href || `/policy/${policyId}#eligibility`} className="btn-cta">
+                  {spoke.heroAct.label}
+                </Link>
+              </div>
+            )}
+
             {/* 핵심콕콕 — keyFacts 있을 때 */}
             {spoke.keyFacts && (
               <KeyFactsBox
@@ -397,7 +413,9 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
             {/* 허브 유도 */}
             <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap', padding: '20px 0' }}>
               <Link href={`/policy/${policyId}#eligibility`} className="btn-cta">
-                내가 대상자인지 30초 확인
+                {/* 2026-08-03: "내가 대상자인지 30초 확인" 이 983개 스포크에 똑같이 박혀 있었다.
+                    코드에 문장이 있으니 게이트(B축 도배)가 잡지 못했다. 데이터에서 받는다. */}
+                {spoke.heroAct?.label ?? `${policyTitle} 대상 확인하기`}
               </Link>
             </div>
 

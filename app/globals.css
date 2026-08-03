@@ -1708,3 +1708,7 @@ img { max-width: 100%; display: block; }
     gap: 12px;
   }
 }
+
+/* 스포크 상단 버튼 — 후킹 바로 아래 (2026-08-03) */
+.spoke-hero-cta { margin: 0 0 20px; }
+.spoke-hero-cta .btn-cta { display: inline-flex; }
