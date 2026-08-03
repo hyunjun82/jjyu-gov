@@ -62,7 +62,7 @@ export const youthStartupSchoolPolicy = {
     {
       q: '왜 만들어진?', anchor: 'q-purpose',
       act: {
-        cue: '아직 준비 단계시라면 교육부터 들어보는 방법도 있습니다. 다음 기수 준비에도 도움이 됩니다.',
+        cue: '아직 준비 단계시라면 교육부터 신청해 보는 방법도 있습니다. 다음 기수 준비에도 도움이 됩니다.',
         label: '창업 교육 신청하기',
         url: 'https://start.kosmes.or.kr/yh_bsm201_001.do',
       },

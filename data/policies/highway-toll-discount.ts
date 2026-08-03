@@ -74,7 +74,7 @@ export const highwayTollDiscountPolicy = {
     {
       q: '어떻게 신청·등록하나요?', anchor: 'q-apply',
       act: {
-        cue: '등록을 해야 그날 통행분부터 붙습니다. 미루면 그사이 낸 통행료는 그대로 나갑니다.',
+        cue: '등록을 신청해야 그날 통행분부터 붙습니다. 미루면 그사이 낸 통행료는 그대로 나갑니다.',
         label: '다자녀 할인 신청하기',
         url: 'https://hipass.co.kr/eccd/ExHiCardRegist.do',
       },
