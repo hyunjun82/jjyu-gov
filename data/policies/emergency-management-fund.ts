@@ -160,7 +160,7 @@ export const emergencyManagementFundPolicy = {
     {
       q: '재해 확인증은 어디서 받나요?', anchor: 'q-certificate',
       act: {
-        cue: '확인증이 없으면 재해피해로는 아예 접수가 안 됩니다. 발급까지 시간이 걸리니 사업장 관할부터 알아보셔야 합니다.',
+        cue: '확인증이 없으면 재해피해로는 아예 접수가 안 됩니다. 발급까지 시간이 걸리니 사업장 관할 센터부터 조회해 두셔야 합니다.',
         label: '관할 지역센터 조회하기',
         url: CENTER,
       },
