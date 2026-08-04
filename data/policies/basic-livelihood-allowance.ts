@@ -342,6 +342,12 @@ export const basicLivelihoodAllowancePolicy: PolicyData = {
 
 export const basicLivelihoodAllowanceSpokes: SpokeData[] = [
   {
+    slug: '2027-increase',
+    role: 'amount',
+    title: '2027년 기초수급비 인상률 6.70% 확정, 우리 가구는 얼마나 오르나',
+    content: '역대 최대 6.70% 인상(7.28 의결). 생계급여 1인 87만 5,533원·4인 221만 7,563원, 2027.1.1 적용.',
+  },
+  {
     slug: '신청방법',
     role: 'apply',
     title: '기초생활수급자 신청 방법, 읍면동에서 상시 신청',

@@ -281,6 +281,7 @@ import { 기초수급신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 기초수급부양의무자SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/부양의무자';
 import { 기초수급재산기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/재산기준';
 import { 기초수급생계급여액SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/생계급여액';
+import { 기초수급2027년인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/2027년인상';
 import { 기초수급근로소득공제SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초생활수급/근로소득공제';
 
 /* ── 에너지바우처 (slug: energy-voucher) ── */
@@ -1502,6 +1503,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '부양의무자': 기초수급부양의무자SpokeContent,
     '재산기준': 기초수급재산기준SpokeContent,
     '생계급여액': 기초수급생계급여액SpokeContent,
+    '2027-increase': 기초수급2027년인상SpokeContent,
     '근로소득공제': 기초수급근로소득공제SpokeContent,
   },
 
