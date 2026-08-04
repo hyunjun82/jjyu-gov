@@ -178,7 +178,7 @@ export const basicPensionPolicy = {
       },
       act: {
         cue: '만 65세 생일이 속한 달의 한 달 전부터 접수되는데요. 이 시기를 지나 신청하면 그만큼 못 받은 달은 소급되지 않습니다. 대상이시라면 미루지 말고 넣어두세요.',
-        label: '복지로에서 기초연금 신청하기',
+        label: '기초연금 온라인 신청하기',
         url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001164',
       },
     },
