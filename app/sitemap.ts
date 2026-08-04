@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/calc/basic-pension/',
     '/calc/median-income/',
     '/calc/maternity-leave-pay/',
+    '/calc/jongbuse/',
   ];
   for (const path of staticPaths) {
     entries.push({
