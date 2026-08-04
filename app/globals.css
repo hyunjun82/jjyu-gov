@@ -1769,3 +1769,31 @@ img { max-width: 100%; display: block; }
   .fc-row { flex-direction: column; align-items: stretch; gap: 12px; padding: 16px; }
   .fc-right .fc-btn { display: block; text-align: center; }
 }
+
+/* ── 기초연금 모의계산기 (/calc/basic-pension) ── */
+.bpc-form { background: #fff; border: 1px solid var(--border, #E5E8EB); border-radius: 16px; padding: 22px 20px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 4px 16px rgba(0, 61, 136, 0.08); }
+.bpc-row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.bpc-field { display: flex; flex-direction: column; gap: 6px; }
+.bpc-label { font-size: 14.5px; font-weight: 700; color: var(--text-main, #191F28); }
+.bpc-input-wrap { display: flex; align-items: center; gap: 8px; border: 1.5px solid var(--border, #E5E8EB); border-radius: 10px; padding: 11px 14px; }
+.bpc-input-wrap:focus-within { border-color: #003D88; }
+.bpc-input-wrap input { flex: 1; border: 0; outline: 0; font-size: 17px; font-weight: 700; text-align: right; min-width: 0; background: transparent; }
+.bpc-input-wrap b { font-size: 14px; color: var(--text-secondary, #4E5968); flex-shrink: 0; }
+.bpc-hint { font-size: 12.5px; color: var(--text-muted, #8B95A1); line-height: 1.5; }
+.bpc-seg { display: flex; gap: 6px; }
+.bpc-seg button { flex: 1; padding: 11px 6px; border: 1.5px solid var(--border, #E5E8EB); border-radius: 10px; background: #fff; font-size: 14.5px; font-weight: 600; color: var(--text-secondary, #4E5968); cursor: pointer; }
+.bpc-seg button.on { border-color: #003D88; background: #003D88; color: #fff; }
+.bpc-calc { margin-top: 4px; padding: 16px; border: 0; border-radius: 12px; background: #003D88; color: #fff; font-size: 17px; font-weight: 800; cursor: pointer; }
+.bpc-result { margin-top: 18px; border-radius: 16px; padding: 22px 20px; border: 1.5px solid; }
+.bpc-result.ok { background: #F0F7FF; border-color: #B3D4FF; }
+.bpc-result.no { background: #FFF6F0; border-color: #FFD6B8; }
+.bpc-result-line { font-size: 15px; color: var(--text-secondary, #4E5968); }
+.bpc-result-line b { font-size: 22px; color: var(--text-main, #191F28); }
+.bpc-verdict { margin-top: 8px; font-size: 16px; line-height: 1.75; font-weight: 600; }
+.bpc-note { margin-top: 8px; font-size: 14px; line-height: 1.65; color: #B45309; }
+.bpc-detail { display: flex; gap: 14px; margin-top: 10px; font-size: 13.5px; color: var(--text-muted, #8B95A1); }
+.bpc-next { margin-top: 14px; font-size: 15px; line-height: 1.75; }
+.bpc-btn { display: block; margin-top: 10px; padding: 16px; border-radius: 12px; background: #003D88; color: #fff !important; font-size: 16.5px; font-weight: 800; text-align: center; text-decoration: none; }
+.bpc-btn.sub { background: #fff; color: #003D88 !important; border: 1.5px solid #003D88; }
+.bpc-disclaimer { margin-top: 18px; font-size: 12.5px; line-height: 1.65; color: var(--text-muted, #8B95A1); }
+@media (max-width: 560px) { .bpc-row2 { grid-template-columns: 1fr; } }

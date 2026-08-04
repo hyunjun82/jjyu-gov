@@ -26,6 +26,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/category/tax/',
     '/category/medical/',
     '/category/life/',
+    '/fund-compare/',
+    '/calc/basic-pension/',
   ];
   for (const path of staticPaths) {
     entries.push({

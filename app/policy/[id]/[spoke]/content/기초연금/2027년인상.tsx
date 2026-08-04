@@ -12,7 +12,7 @@ export const 기초연금2027년인상SpokeContent: SpokeData = {
   dateModified: '2026-08-04T09:00:00+09:00',
   heroHook:
     '2027년에는 40만원 받는다는 얘기 듣고 찾아보신 분들 많으실 텐데요. 계획은 발표됐지만 2026년 고시에는 반영되지 않았고, 지금 확정된 금액은 월 349,700원입니다. 그래서 금액 기사보다 먼저 볼 게 내가 대상인지입니다. 자가진단은 1분이면 끝납니다.',
-  heroAct: { label: '내가 대상인지 자가진단하기', href: 'https://basicpension.mohw.go.kr/menu.es?mid=a10302000000' },
+  heroAct: { label: '내가 대상인지 1분 계산해보기', href: '/calc/basic-pension' },
   keyFacts: {
     '2027년 금액': '미고시 (전국소비자물가변동률 확정 후 고시)',
     '40만원 인상': '연금개혁 추진계획상 2027년 전체 확대 목표 — 2026년 고시에는 미반영',
@@ -93,9 +93,9 @@ export const 기초연금2027년인상SpokeContent: SpokeData = {
       highlights: ['소득인정액 모의계산', '기초연금 자가진단', '소득·재산 입력', '☎129 · 1355'],
       box: { label: '조회 경로', content: '기초연금 홈페이지 > 소득인정액 모의계산 / 기초연금 자가진단\n전화 상담: 보건복지부 129, 국민연금공단 1355' },
       act: {
-        cue: '기준연금액 기사만 봐서는 내 수령액을 알 수 없는데요. 소득과 재산을 넣어보면 몇 분 안에 답이 나옵니다.',
-        label: '내 수령액 모의계산하기',
-        url: 'https://basicpension.mohw.go.kr/menu.es?mid=a10303000000',
+        cue: '기준연금액 기사만 봐서는 내 수령액을 알 수 없는데요. 소득과 재산을 넣어보면 1분 안에 답이 나옵니다.',
+        label: '내 소득인정액 계산해보기',
+        url: '/calc/basic-pension',
       },
     },
     {

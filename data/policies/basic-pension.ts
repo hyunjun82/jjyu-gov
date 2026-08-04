@@ -135,6 +135,11 @@ export const basicPensionPolicy = {
         label: '주거용 재산 기본공제액',
         content: '대도시: 1억 3,500만원 / 중소도시: 8,500만원 / 농어촌: 7,250만원 / 금융재산: 2,000만원 공제 (2026년 기준)',
       },
+      act: {
+        cue: '공식이 이렇게 복잡해서 직접 계산하다 틀리는 분들이 많은데요. 소득과 재산 숫자만 넣으면 이 공식 그대로 1분 안에 계산됩니다.',
+        label: '내 소득인정액 계산해보기',
+        url: '/calc/basic-pension',
+      },
     },
     {
       anchor: 'q4-national-pension',
