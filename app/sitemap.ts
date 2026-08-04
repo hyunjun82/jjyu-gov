@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/fund-compare/',
     '/calc/basic-pension/',
     '/calc/median-income/',
+    '/calc/maternity-leave-pay/',
   ];
   for (const path of staticPaths) {
     entries.push({
