@@ -162,7 +162,8 @@ for (const file of targetFiles()) {
      자격 기준일이다 — 그날 이전에 개업했어야 한다는 뜻이라 날짜가 과거인 게 정상이다.
      이런 기준일을 마감으로 잡으면 정확한 글이 차단된다. 날짜 앞 문맥으로 걸러낸다. */
   const CUTOFF_CONTEXT =
-    /(개업|창업|설립|등록|출생|전입|거주|가입|취득|계약|입주|퇴사|이직|졸업|기준일|기준\s*시점|시행)[^.]{0,20}$/;
+    /* 집계·통계 기간("2021년부터 2026년 6월까지 미신청 3,617억")도 마감이 아니다 — 2026-08-04 오탐으로 추가 */
+    /(개업|창업|설립|등록|출생|전입|거주|가입|취득|계약|입주|퇴사|이직|졸업|기준일|기준\s*시점|시행|집계|자료에\s*따르면|부터)[^.]{0,20}$/;
   const isCutoff = (idx: number) => CUTOFF_CONTEXT.test(src.slice(Math.max(0, idx - 40), idx));
 
   /* ① 연·월·일이 다 있는 형태: 2026년 5월 31일까지 / 2026.5.31. 마감 / 2026-05-31 접수마감 */
@@ -199,7 +200,12 @@ for (const file of targetFiles()) {
   const staleYears = new Set<string>();
   for (const m of src.matchAll(/(20\d{2})년\s*(?:기준|고시|단가|적용)/g)) {
     const y = Number(m[1]);
-    if (y < thisYear) staleYears.add(m[1]);
+    if (y >= thisYear) continue;
+    /* 기관이 그 연도분까지만 공식 게시한 경우("공단에 게시된 2024년 기준")는 최신값이 그것이다.
+       앞뒤 문맥에 게시·공단 게시·공식 게시가 있으면 낡은 게 아니라 정확한 것 — 2026-08-04 오탐으로 추가 */
+    const around = src.slice(Math.max(0, (m.index ?? 0) - 30), (m.index ?? 0) + 30);
+    if (/게시|공단\s*안내문|안내문\s*기준/.test(around)) continue;
+    staleYears.add(m[1]);
   }
   if (staleYears.size) {
     findings.push({
