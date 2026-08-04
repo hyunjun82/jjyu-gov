@@ -140,7 +140,37 @@ function judgeLabel(raw: string): string | null {
 type Issue = { axis: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P'; msg: string; fix: string };
 
 /** 파일에서 cue/label/url 과 qa 카드 수를 뽑는다 (TS 실행 없이 정적 파싱) */
+/* 마크다운 초안 파서 — --draft 로 넘어오는 초안은 허브 .ts 가 아니라
+   docs/button-copy.md 정본처럼 "문단 + [버튼]" 형태의 마크다운이다.
+   2026-08-04 발견: .ts 파서가 마크다운에서 아무것도 못 읽어 빈 파일도
+   "확정"으로 통과했다. 검사하지 않는 게이트는 없는 게이트다.
+   규칙: [ ] 또는 **[ ]** 한 줄 = 버튼 라벨, 그 앞 문단 = cue, 첫 문단 = heroHook.
+   url 은 초안 단계에 없을 수 있다 — 라벨 뒤 괄호(…)에 있으면 읽고 없으면 C/D축은 본검사로 미룬다. */
+function parseDraftMd(file: string) {
+  const c = fs.readFileSync(file, 'utf8');
+  const blocks = c.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
+  const cues: string[] = [];
+  const labels: string[] = [];
+  const urls: string[] = [];
+  let heroHook = '';
+  let prevText = '';
+  for (const b of blocks) {
+    const bm = b.match(/^\*{0,2}\[([^\]]+)\]\*{0,2}\s*(?:\((https?:[^)]+)\))?$/);
+    if (bm) {
+      labels.push(bm[1].trim());
+      if (bm[2]) urls.push(bm[2]);
+      if (prevText) cues.push(prevText);
+      prevText = '';
+    } else if (!/^#/.test(b)) {
+      if (!heroHook) heroHook = b.replace(/\n/g, ' ');
+      prevText = b.replace(/\n/g, ' ');
+    }
+  }
+  return { slug: path.basename(file, '.md'), qaCount: Math.max(3, labels.length + 1), cues, urls, labels, heroHook };
+}
+
 function parse(file: string) {
+  if (file.endsWith('.md')) return parseDraftMd(file);
   const c = fs.readFileSync(file, 'utf8');
   const consts = new Map<string, string>();
   for (const m of c.matchAll(/^const\s+([A-Z0-9_]+)\s*=\s*'([^']+)'/gm)) {
@@ -182,8 +212,9 @@ function ending(s: string): string {
 /** 후킹의 맺음 — 마지막 어절 기준. "…하시길 바랍니다" 같은 상투구를 잡는다 */
 function hookEnding(h: string): string {
   const t = h.trim().replace(/[.!?~\s]+$/, '');
-  const last = t.split(/[\s,]/).filter(Boolean).pop() ?? '';
-  return last.slice(-5);
+  /* 마지막 두 단어로 본다. 한 단어면 "합니다"로 묶여 정본까지 도배로 잡혔다(2026-08-04).
+     잡으려는 건 "…하시길 바랍니다"처럼 구절째 반복되는 맺음이다. */
+  return t.split(/[\s,]/).filter(Boolean).slice(-2).join(' ').slice(-8);
 }
 
 function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
@@ -218,7 +249,13 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
       fix: '핵심 2~3개로 줄인다. 카드마다 하나씩 짜내면 확인하기 도배가 된다',
     });
   }
-  if (labels.length >= 2 && !labels.some((l) => APPLY_VERB.test(l))) {
+  /* "신청 자격 확인하기"는 신청 버튼이 아니다 — 어디에 '신청' 글자가 있느냐가 아니라
+     끝나는 동사가 무엇이냐로 본다 (2026-08-04, 초안 테스트에서 미탐 발견) */
+  const INFO_END = /(확인|보기|살펴보|훑어보|읽어보|알아보|따져보|점검)(하기|보기)?$/;
+  /* 서류·양식·다운로드는 확인하기로 끝나도 다음 행동이다 — 정본 시흥 버튼2가 "필요 서류 목록 확인하기" */
+  const isApply = (l: string) =>
+    APPLY_VERB.test(l) && (!INFO_END.test(l.trim()) || /(서류|양식|내려받|다운)/.test(l));
+  if (labels.length >= 2 && !labels.some(isApply)) {
     issues.push({
       axis: 'A',
       msg: '신청·접수로 가는 버튼이 없다 — 확인만 하고 끝난다',
@@ -303,7 +340,7 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
     const t = c.trim();
     return WRITER_SUBJECT.test(t) || !USER_MARK.test(t);
   });
-  if (cues.length >= 3 && writerVoice.length > Math.floor(cues.length / 2)) {
+  if (cues.length >= 2 && writerVoice.length > Math.floor(cues.length / 2)) {
     issues.push({
       axis: 'I',
       msg: `제도를 설명하는 문구가 ${writerVoice.length}/${cues.length}개 — 예: "${writerVoice[0].slice(0, 30)}…"`,
@@ -422,6 +459,8 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
      F축은 라벨 하나하나의 구조만 봤고, E축은 cue 어미만 보고 label 은 안 봤다.
      한 글 안에서 버튼이 다 같은 동사면 어느 것을 눌러도 같아 보여서 아무것도 안 눌린다.
      카드마다 하는 일이 다르면 동사도 달라야 한다 — 확인·조회·내려받기·접수하기. */
+  /* 2개일 때는 안 본다 — 정본 시흥 예시가 버튼 둘 다 "…확인하기"다(대상 확인 + 서류 확인).
+     2개짜리의 진짜 문제(둘 다 읽는 버튼)는 M축이 잡는다. */
   if (labels.length >= 3) {
     const verbs = labels.map((l) => l.trim().split(/\s+/).pop() ?? '');
     const vTally = new Map<string, number>();
@@ -443,9 +482,9 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
      이자를 받는 것이다. 기준은 임영웅 예시의 버튼 — "콘서트 예매 바로가기",
      즉 그 사람의 목적 행위 자체다. 정보 동사가 과반이면 차단하고,
      실제 행동(신청·접수·발급·다운로드) 버튼이 최소 하나는 있게 한다. */
-  if (labels.length >= 3) {
+  if (labels.length >= 2) {
     const INFO_VERB = /(확인|보기|살펴|훑어|읽어|알아|따져|재보|비교|점검)/;
-    const ACT_VERB = /(신청|접수|등록|발급|예매|예약|가입|받기|내려받|다운|찾기|조회|계산|제출|납부)/;
+    const ACT_VERB = /(신청|접수|등록|발급|예매|예약|가입|받기|내려받|다운|찾기|조회|계산|제출|납부|서류|양식)/;
     const info = labels.filter((l) => INFO_VERB.test(l) && !ACT_VERB.test(l));
     if (info.length > Math.floor(labels.length / 2)) {
       issues.push({
@@ -581,7 +620,9 @@ if (!draftFile) {
   console.log('='.repeat(60));
 }
 
-if (!targets.length && !spokeTargets.length) {
+/* --draft 는 diff 와 무관하게 초안 파일만 본다 — 이 조기 종료를 타면 안 된다.
+   2026-08-04 발견: 변경분이 없을 때 --draft 가 "검사 생략"으로 통과처럼 보였다. */
+if (!draftFile && !targets.length && !spokeTargets.length) {
   console.log(' 변경된 허브 없음 — 검사 생략');
   process.exit(0);
 }
@@ -638,10 +679,18 @@ if (draftFile) {
     console.log(`초안 파일이 없다: ${draftFile}`);
     process.exit(1);
   }
-  const issues = checkHub(draftFile, new Map());
+  const parsed = parse(draftFile);
   console.log('='.repeat(60));
   console.log(' 문구 초안 검사 — 본문 쓰기 전에 먼저 본다');
   console.log('='.repeat(60));
+  /* 초안에서 아무것도 못 읽으면 통과가 아니라 실패다.
+     2026-08-04: 빈 파일이 "확정"으로 통과한 적이 있다. */
+  if (!parsed.labels.length || !parsed.cues.length) {
+    console.log('\n❌ 초안에서 버튼·문구를 못 읽었다');
+    console.log('   → 마크다운이면 버튼을 [라벨] 한 줄로, 그 앞 문단이 문구다 (docs/button-copy.md 형식)');
+    process.exit(1);
+  }
+  const issues = checkHub(draftFile, new Map());
   if (!issues.length) {
     console.log('\n ✅ 문구·버튼 확정 — 이대로 본문을 써도 된다');
     process.exit(0);

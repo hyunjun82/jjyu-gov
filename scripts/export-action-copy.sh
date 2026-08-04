@@ -24,14 +24,15 @@ if [ ! -d "$TARGET" ]; then
 fi
 
 SRC="$(git rev-parse --show-toplevel)"
-mkdir -p "$TARGET/scripts" "$TARGET/docs" "$TARGET/.claude/rules"
+mkdir -p "$TARGET/scripts" "$TARGET/docs" "$TARGET/.claude/rules" "$TARGET/.claude/skills/action-copy"
 
 cp "$SRC/scripts/check-cue-value.ts"  "$TARGET/scripts/"
 cp "$SRC/scripts/check-freshness.ts"  "$TARGET/scripts/"
 cp "$SRC/docs/button-copy.md"         "$TARGET/docs/"
 cp "$SRC/.claude/rules/action-copy.md" "$TARGET/.claude/rules/"
+cp "$SRC/.claude/skills/action-copy/SKILL.md" "$TARGET/.claude/skills/action-copy/"
 
-echo "옮김: check-cue-value.ts · check-freshness.ts · button-copy.md · action-copy.md"
+echo "옮김: check-cue-value.ts · check-freshness.ts · button-copy.md · action-copy.md · skills/action-copy(생성기)"
 echo ""
 echo "이제 대상 저장소에서 손볼 것 두 가지:"
 echo ""
