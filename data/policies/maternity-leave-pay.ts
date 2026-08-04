@@ -27,7 +27,7 @@ export const maternityLeavePayPolicy = {
   qa: [
     {
       q: '얼마 받나?', anchor: 'q-amount',
-      act: { cue: '상한액에 걸리는지에 따라 실수령액이 갈리는데요. 통상임금 하나만 넣으면 90일 치가 1분 안에 나옵니다.', label: '내 출산휴가비 계산해보기', url: '/calc/maternity-leave-pay' },
+      act: { cue: '내 통상임금이면 얼마 받는지 궁금하실 텐데요. 임금 하나만 넣으면 90일 치 금액이 1분 안에 계산됩니다.', label: '내 출산휴가비 계산해보기', url: '/calc/maternity-leave-pay' },
       intro: '출산전후휴가 출산휴가급여 90일휴가(고용노동부) - 본 사업은 임신·출산한 본인이 90일(다태아 120일) 휴가를 사용할 때 통상임금 100%를 지급하는 사업입니다. 2026년부터 정부 지원 상한액이 월 210만 → 220만원으로 인상되어 본인 통상임금이 220만원 이상이라도 정부 지원분은 220만원 한도. 본인이 우선지원대상기업(중소기업) 근로자라면 90일 전 기간 고용보험에서 지급, 대기업 근로자라면 최초 60일은 회사가 부담 + 이후 30일만 고용보험 지급. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['상한 월 220만', '단태 90일', '다태 120일', '통상임금 100%'],
       table: { caption: '2026 단가', headers: ['항목','금액'], rows: [['상한액 2026','월 220만원'],['이전 (2025)','월 210만원'],['단태아 기간','총 90일'],['다태아 기간','총 120일'],['통상임금','100% (상한 내)']] },
@@ -35,7 +35,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '90일 분할은?', anchor: 'q-period',
-      act: { cue: '90일을 어떻게 나눠 쓰느냐에 따라 받는 돈이 달라집니다. 규정을 먼저 보고 일정을 짜는 편이 낫습니다.', label: '휴가기간 규정 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
+      act: { cue: '90일을 어떻게 나눠 쓰느냐에 따라 받으시는 돈이 달라지는데요. 규정을 먼저 보고 일정을 짜두세요.', label: '휴가기간 규정 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
       intro: '출산전후휴가 90일(다태아 120일)은 본인이 출산 예정일 기준 ①출산 전 최대 44일 사용(다태아 60일) ②출산 후 최소 45일 보장(다태아 60일). 출산 전과 후를 합쳐 총 90일을 본인 자유롭게 분할 사용. 출산일에 따라 출산 후 일수가 자동 조정. 유산·사산도 출산전후휴가 적용(단 임신 주수에 따라 5~90일 차등). 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['출산 전 44일', '출산 후 45일', '단태 90일', '유산·사산'],
       table: { caption: '기간 분할', headers: ['구분','출산 전','출산 후','총'], rows: [['단태아','최대 44일','최소 45일','90일'],['다태아','최대 60일','최소 60일','120일'],['유산·사산','임신 주수별 차등','-','5~90일']] },
@@ -43,7 +43,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '대상은?', anchor: 'q-target',
-      act: { cue: '고용보험 가입기간이 모자라면 급여 자체가 안 나옵니다. 내 이력이 몇 일인지가 먼저입니다.', label: '내 고용보험 이력 조회하기', url: 'https://www.work24.go.kr/cm/b/a/0410/selectEmpHistList.do?firstIndex=1&currentPageNo=1&recordCountPerPage=10' },
+      act: { cue: '고용보험 가입기간이 모자라면 급여 자체가 안 나오는데요. 내 가입 이력이 며칠인지 조회부터 해두세요.', label: '내 고용보험 이력 조회하기', url: 'https://www.work24.go.kr/cm/b/a/0410/selectEmpHistList.do?firstIndex=1&currentPageNo=1&recordCountPerPage=10' },
       intro: '대상은 ①임신·출산한 여성 근로자(유산·사산 포함) ②고용보험 가입자 ③출산전후휴가를 본인이 실제 사용 ④피보험 단위 기간 180일 이상. 본인 회사 규모(우선지원대상기업 = 중소기업 vs 대기업)에 따라 정부 지급 기간이 달라짐. 본인이 고용보험에 가입되지 않은 자영업자·프리랜서는 본 사업 대상이 아니며 별도 미적용자 출산급여(120 정책) 활용. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['여성 근로자', '고용보험', '180일+', '본인 사용'],
       box: { label: '대상 4요건', content: '본인: 임신·출산 여성 근로자 (유산·사산 포함) / 고용보험 가입자 / 피보험 단위 기간 180일 이상 / 본인이 실제 휴가 사용 / 자영업·프리랜서는 미적용자 출산급여(120) 활용' },
@@ -51,7 +51,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '중소기업 vs 대기업?', anchor: 'q-company',
-      act: { cue: '회사 규모에 따라 회사가 주는 몫과 고용보험이 주는 몫이 달라집니다. 내 경우를 확인해 보세요.', label: '지원 조건 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
+      act: { cue: '다니시는 회사 규모에 따라 회사 몫과 고용보험 몫이 달라지는데요. 내 경우부터 확인해 보세요.', label: '지원 조건 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
       intro: '본인 회사가 우선지원대상기업(중소기업)이면 90일(다태아 120일) 전 기간 동안 고용보험에서 통상임금 100%(상한 월 220만)를 본인에게 직접 지급. 본인 회사가 대기업이면 최초 60일(다태아 75일)은 회사가 통상임금 전액을 지급하고 이후 30일(다태아 45일)만 고용보험이 월 최대 220만원 한도로 지원. 본인 통상임금이 220만원 초과이면 대기업 근로자가 60일은 회사로부터 전액 받고 나머지만 차이가 나는 구조. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['중기 전 기간', '대기업 분담', '60일+30일', '220만 상한'],
       table: { caption: '회사 규모별', headers: ['구분','중소기업','대기업'], rows: [['최초 60일','고용보험 220만 상한','회사 전액'],['이후 30일','고용보험 220만 상한','고용보험 220만 상한'],['총 부담','정부 전액','회사+정부']] },
@@ -59,7 +59,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '어떻게 신청?', anchor: 'q-apply',
-      act: { cue: '휴가가 끝난 뒤 12개월 안에 신청해야 합니다. 온라인으로 바로 접수할 수 있습니다.', label: '출산휴가급여 신청 접수하기', url: 'https://www.work24.go.kr/ei/b/b/1100/openHPEIBB1100M01Post.do' },
+      act: { cue: '휴가가 끝난 뒤 12개월이 지나면 받을 돈이 사라지는데요. 온라인으로 지금 바로 접수해 두세요.', label: '출산휴가급여 신청 접수하기', url: 'https://www.work24.go.kr/ei/b/b/1100/openHPEIBB1100M01Post.do' },
       intro: '신청은 ①본인이 사업주에게 휴가 30일 전 신청 → 사업주 승인 ②휴가 개시 후 30일 이내~휴가 종료 후 12개월 이내 본인이 고용보험 누리집(ei.go.kr) 또는 거주지 고용센터에 급여 신청 ③1회 일시금 또는 30일 단위 분할 신청 가능 ④본인 계좌 입금. 신청 시 출산전후휴가 확인서·임금 대장·출생증명서 등 필요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['사업주 30일 전', 'ei.go.kr', '30일~12개월', '본인 계좌'],
       box: { label: '신청 절차', content: '1단계: 사업주 휴가 30일 전 신청·승인 / 2단계: 휴가 개시 / 3단계: 휴가 후 30일~12개월 내 ei.go.kr 또는 고용센터 신청 / 4단계: 일시금 또는 30일 단위 / 5단계: 본인 계좌 입금 / 콜센터: 1350' },
@@ -67,7 +67,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '육아휴직과 차이·연계?', anchor: 'q-compare',
-      act: { cue: '출산휴가가 끝나면 육아휴직으로 이어집니다. 급여가 어떻게 바뀌는지 미리 봐두면 계획이 섭니다.', label: '육아휴직급여 제도 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
+      act: { cue: '출산휴가 다음은 육아휴직이실 텐데요. 급여가 어떻게 바뀌는지 미리 봐두시면 계획 짜기가 쉽습니다.', label: '육아휴직급여 제도 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
       intro: '출산전후휴가(90일)는 임신·출산 자체에 대한 휴가급여이며 육아휴직(최대 1년 6개월)은 본인 자녀를 양육하기 위한 별개 휴가 사업입니다. 본인이 출산전후휴가 종료 → 바로 육아휴직 시작 → 육아휴직 종료 → 복귀의 순서로 연속 사용 가능. 두 사업 모두 본인이 별도 신청해야 하며 출산전후휴가 + 육아휴직 + 단축급여까지 본인 가구 상황에 맞춰 연이어 활용. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['휴가 90일', '휴직 1년 6개월', '연속 사용', '본인 선택'],
       table: { caption: '휴가 vs 휴직', headers: ['구분','출산전후 휴가','육아휴직'], rows: [['기간','90일 (다태 120일)','최대 1년 6개월'],['단가 상한','월 220만','월 250만(1~3월)'],['목적','출산 자체','자녀 양육'],['연계','휴가→휴직 연속']] },
@@ -75,7 +75,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '유산·사산 휴가는?', anchor: 'q-loss',
-      act: { cue: '신청기한을 넘기면 받을 수 없습니다. 서식을 받아 바로 접수하세요.', label: '신청서 서식 내려받기', url: 'https://www.work24.go.kr/cm/c/b/1100/selectBbttInfo.do?currentPageNo=1&recordCountPerPage=10&polySvcFomtId=FM00000142' },
+      act: { cue: '신청기한을 넘기면 받으실 수 없는데요. 서식부터 내려받아 바로 접수해 두세요.', label: '신청서 서식 내려받기', url: 'https://www.work24.go.kr/cm/c/b/1100/selectBbttInfo.do?currentPageNo=1&recordCountPerPage=10&polySvcFomtId=FM00000142' },
       intro: '유산·사산도 출산전후휴가가 적용됩니다. 임신 주수에 따라 차등: ①임신 11주 이내 = 5일 ②12~15주 = 10일 ③16~21주 = 30일 ④22~27주 = 60일 ⑤28주 이상 = 90일. 모든 기간 통상임금 100%(상한 월 220만)로 본인이 신청 시 지급. 인공임신중절은 모자보건법상 허용된 경우만 인정. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['주수별 차등', '5~90일', '통상 100%', '모자보건법'],
       table: { caption: '유산·사산 기간', headers: ['임신 주수','휴가일'], rows: [['11주 이내','5일'],['12~15주','10일'],['16~21주','30일'],['22~27주','60일'],['28주 이상','90일']] },
@@ -83,7 +83,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '왜 만들어진?', anchor: 'q-purpose',
-      act: { cue: '출산휴가가 끝나면 육아휴직으로 이어집니다. 이어지는 급여를 미리 계산해 두세요.', label: '이어지는 급여 계산하기', url: 'https://www.work24.go.kr/cm/c/f/1200/selecSimulateCalc.do?currentPageNo=1&recordCountPerPage=10' },
+      act: { cue: '복직 대신 육아휴직을 이어 쓰실 분들 많으실 텐데요. 이어지는 급여가 얼마인지 미리 계산해 두세요.', label: '이어지는 급여 계산하기', url: 'https://www.work24.go.kr/cm/c/f/1200/selecSimulateCalc.do?currentPageNo=1&recordCountPerPage=10' },
       intro: '출산전후휴가급여는 본인이 임신·출산 시 일을 잠시 쉬더라도 소득 단절을 직접 보전해 안심하고 출산할 수 있도록 보장하는 핵심 모성보호 사업입니다. 출산휴가는 근로기준법상 의무 보장 권리(거부 불가)이며 휴가급여는 그 기간 동안의 소득을 정부가 보전. 2026년 상한 인상으로 본인 보장이 더 강화됨. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다. 본 정책은 정부 공식 자료에 기반하며 자세한 사항은 고용보험 누리집과 1350 콜센터에서 확인하시면 안전합니다.',
       highlights: ['모성보호', '근로기준법 의무', '소득 보전', '2026 인상'],
       box: { label: '도입 배경', content: '임신·출산 시 일 잠시 쉬어도 소득 보전 / 모성보호 핵심 사업 / 근로기준법상 의무 / 2026 상한 인상 / 사업주 거부 불가' },
