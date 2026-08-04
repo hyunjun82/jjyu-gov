@@ -14,7 +14,7 @@ export const basicPensionPolicy = {
   deadline: '상시 (만 65세 생일 1개월 전부터 신청 가능)',
   views: 312850,
   applyUrl: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001164',
-  ctaLabel: '기초연금 자격 확인하고 신청하기 (복지로 공식)',
+  ctaLabel: '기초연금 온라인 신청하기',
   datePublished: '2026-01-10T09:00:00+09:00',
   dateModified: '2026-07-21T09:00:00+09:00',
   summary:
