@@ -9,8 +9,8 @@ const CENTER = 'https://ols.semas.or.kr/ols/man/SMAN090M/page.do';
 
 export const emergencyManagementFundPolicy = {
   id: '674', type: 'loan' as const,
-  title: '긴급경영안정자금 고정 2%, 재해 확인증부터 받아야 하는 이유는?',
-  titleKeywords: { k1: '긴급경영안정자금', k2: '재해 중소기업 확인증', k3: '고정 2.00%', k4: '1억원' },
+  title: '긴급경영안정자금 신청 방법, 재해 확인증 받고 고정 2%로 1억까지',
+  titleKeywords: { k1: '긴급경영안정자금 신청', k2: '재해 중소기업 확인증', k3: '고정 2.00%', k4: '1억원' },
   slug: 'emergency-management-fund', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '재해 1억원 고정 2.0% · 일시적 경영애로 7,000만원 연 3.85%',
   amountLabel: '유형별 조건',
