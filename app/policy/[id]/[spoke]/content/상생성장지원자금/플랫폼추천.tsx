@@ -10,7 +10,7 @@ const OLS_TABLE = 'https://ols.semas.or.kr/ols/man/SMAN018M/page.do';
 const OLS = 'https://ols.semas.or.kr/ols/man/SMAN010M/page.do';
 
 export const 상생성장지원자금플랫폼추천SpokeContent: SpokeData = {
-  h1: '상생성장지원자금 추천 어디서 받나, 우체국쇼핑만 남은 이유 확인하기',
+  h1: 'TOPS 프로그램 추천서 받는 절차, 입점부터 발급까지',
   breadcrumb: '상생성장지원자금 > 플랫폼 추천',
   description:
     '성장형은 상생협약을 맺은 온라인 플랫폼사의 추천이 있어야 신청됩니다. 2026년 협약 플랫폼은 우체국쇼핑이고 네이버는 5월까지만 추천했습니다. TOPS 프로그램 선정자는 추천 없이도 들어갑니다.',
