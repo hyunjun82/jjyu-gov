@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/category/life/',
     '/fund-compare/',
     '/calc/basic-pension/',
+    '/calc/median-income/',
   ];
   for (const path of staticPaths) {
     entries.push({

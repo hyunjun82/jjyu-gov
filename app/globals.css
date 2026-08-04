@@ -1797,3 +1797,9 @@ img { max-width: 100%; display: block; }
 .bpc-btn.sub { background: #fff; color: #003D88 !important; border: 1.5px solid #003D88; }
 .bpc-disclaimer { margin-top: 18px; font-size: 12.5px; line-height: 1.65; color: var(--text-muted, #8B95A1); }
 @media (max-width: 560px) { .bpc-row2 { grid-template-columns: 1fr; } }
+
+/* 중위소득 계산기 표 */
+.bpc-table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+.bpc-table th, .bpc-table td { padding: 10px 12px; border-bottom: 1px solid var(--border, #E5E8EB); text-align: left; white-space: nowrap; }
+.bpc-table th { font-size: 13px; color: var(--text-muted, #8B95A1); font-weight: 700; }
+.bpc-table tr.hit td { background: #FFF9DB; font-weight: 700; }
