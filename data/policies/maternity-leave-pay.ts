@@ -35,7 +35,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '90일 분할은?', anchor: 'q-period',
-      act: { cue: '90일을 어떻게 나눠 쓰느냐에 따라 받으시는 돈이 달라지는데요. 규정을 먼저 보고 일정을 짜두세요.', label: '휴가기간 규정 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
+      act: { cue: '90일을 어떻게 나눠 쓰느냐에 따라 받으시는 돈이 달라지는데요. 규정을 먼저 보고 일정을 짜는 게 순서겠죠.', label: '휴가기간 규정 확인하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=9&upprSystClId=&systClId=SC00000251&systId=SI00000402' },
       intro: '출산전후휴가 90일(다태아 120일)은 본인이 출산 예정일 기준 ①출산 전 최대 44일 사용(다태아 60일) ②출산 후 최소 45일 보장(다태아 60일). 출산 전과 후를 합쳐 총 90일을 본인 자유롭게 분할 사용. 출산일에 따라 출산 후 일수가 자동 조정. 유산·사산도 출산전후휴가 적용(단 임신 주수에 따라 5~90일 차등). 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['출산 전 44일', '출산 후 45일', '단태 90일', '유산·사산'],
       table: { caption: '기간 분할', headers: ['구분','출산 전','출산 후','총'], rows: [['단태아','최대 44일','최소 45일','90일'],['다태아','최대 60일','최소 60일','120일'],['유산·사산','임신 주수별 차등','-','5~90일']] },
@@ -43,7 +43,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '대상은?', anchor: 'q-target',
-      act: { cue: '고용보험 가입기간이 모자라면 급여 자체가 안 나오는데요. 내 가입 이력이 며칠인지 조회부터 해두세요.', label: '내 고용보험 이력 조회하기', url: 'https://www.work24.go.kr/cm/b/a/0410/selectEmpHistList.do?firstIndex=1&currentPageNo=1&recordCountPerPage=10' },
+      act: { cue: '고용보험 가입기간이 모자라면 급여 자체가 안 나오는데요. 내 가입 이력이 며칠인지 조회가 먼저입니다.', label: '내 고용보험 이력 조회하기', url: 'https://www.work24.go.kr/cm/b/a/0410/selectEmpHistList.do?firstIndex=1&currentPageNo=1&recordCountPerPage=10' },
       intro: '대상은 ①임신·출산한 여성 근로자(유산·사산 포함) ②고용보험 가입자 ③출산전후휴가를 본인이 실제 사용 ④피보험 단위 기간 180일 이상. 본인 회사 규모(우선지원대상기업 = 중소기업 vs 대기업)에 따라 정부 지급 기간이 달라짐. 본인이 고용보험에 가입되지 않은 자영업자·프리랜서는 본 사업 대상이 아니며 별도 미적용자 출산급여(120 정책) 활용. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['여성 근로자', '고용보험', '180일+', '본인 사용'],
       box: { label: '대상 4요건', content: '본인: 임신·출산 여성 근로자 (유산·사산 포함) / 고용보험 가입자 / 피보험 단위 기간 180일 이상 / 본인이 실제 휴가 사용 / 자영업·프리랜서는 미적용자 출산급여(120) 활용' },
@@ -59,7 +59,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '어떻게 신청?', anchor: 'q-apply',
-      act: { cue: '휴가가 끝난 뒤 12개월이 지나면 받을 돈이 사라지는데요. 온라인으로 지금 바로 접수해 두세요.', label: '출산휴가급여 신청 접수하기', url: 'https://www.work24.go.kr/ei/b/b/1100/openHPEIBB1100M01Post.do' },
+      act: { cue: '휴가가 끝난 뒤 12개월이 지나면 받을 돈이 사라지는데요. 온라인으로 지금 바로 접수하시면 됩니다.', label: '출산휴가급여 신청 접수하기', url: 'https://www.work24.go.kr/ei/b/b/1100/openHPEIBB1100M01Post.do' },
       intro: '신청은 ①본인이 사업주에게 휴가 30일 전 신청 → 사업주 승인 ②휴가 개시 후 30일 이내~휴가 종료 후 12개월 이내 본인이 고용보험 누리집(ei.go.kr) 또는 거주지 고용센터에 급여 신청 ③1회 일시금 또는 30일 단위 분할 신청 가능 ④본인 계좌 입금. 신청 시 출산전후휴가 확인서·임금 대장·출생증명서 등 필요. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['사업주 30일 전', 'ei.go.kr', '30일~12개월', '본인 계좌'],
       box: { label: '신청 절차', content: '1단계: 사업주 휴가 30일 전 신청·승인 / 2단계: 휴가 개시 / 3단계: 휴가 후 30일~12개월 내 ei.go.kr 또는 고용센터 신청 / 4단계: 일시금 또는 30일 단위 / 5단계: 본인 계좌 입금 / 콜센터: 1350' },
@@ -75,7 +75,7 @@ export const maternityLeavePayPolicy = {
     },
     {
       q: '유산·사산 휴가는?', anchor: 'q-loss',
-      act: { cue: '신청기한을 넘기면 받으실 수 없는데요. 서식부터 내려받아 바로 접수해 두세요.', label: '신청서 서식 내려받기', url: 'https://www.work24.go.kr/cm/c/b/1100/selectBbttInfo.do?currentPageNo=1&recordCountPerPage=10&polySvcFomtId=FM00000142' },
+      act: { cue: '신청기한을 넘기면 받으실 수 없는데요. 서식부터 내려받아 두시는 게 빠릅니다.', label: '신청서 서식 내려받기', url: 'https://www.work24.go.kr/cm/c/b/1100/selectBbttInfo.do?currentPageNo=1&recordCountPerPage=10&polySvcFomtId=FM00000142' },
       intro: '유산·사산도 출산전후휴가가 적용됩니다. 임신 주수에 따라 차등: ①임신 11주 이내 = 5일 ②12~15주 = 10일 ③16~21주 = 30일 ④22~27주 = 60일 ⑤28주 이상 = 90일. 모든 기간 통상임금 100%(상한 월 220만)로 본인이 신청 시 지급. 인공임신중절은 모자보건법상 허용된 경우만 인정. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
       highlights: ['주수별 차등', '5~90일', '통상 100%', '모자보건법'],
       table: { caption: '유산·사산 기간', headers: ['임신 주수','휴가일'], rows: [['11주 이내','5일'],['12~15주','10일'],['16~21주','30일'],['22~27주','60일'],['28주 이상','90일']] },
