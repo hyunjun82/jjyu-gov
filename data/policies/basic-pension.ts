@@ -109,6 +109,11 @@ export const basicPensionPolicy = {
         label: '직역연금 수급자 제외',
         content: '공무원연금·군인연금·사립학교교직원연금·별정우체국직원연금 수급권자와 그 배우자는 원칙적으로 기초연금을 받을 수 없습니다.',
       },
+      act: {
+        cue: '조건이 네 가지라 글로만 봐서는 헷갈리실 텐데요. 자가진단에 몇 개만 답하면 내가 대상인지 1분 안에 나옵니다.',
+        label: '내가 대상인지 자가진단하기',
+        url: 'https://basicpension.mohw.go.kr/menu.es?mid=a10302000000',
+      },
     },
     {
       anchor: 'q3-income-calc',
@@ -170,6 +175,11 @@ export const basicPensionPolicy = {
       box: {
         label: '필요 서류',
         content: '신분증 / 통장 사본 / 금융정보등 제공동의서 / 위임장(대리 신청 시) - 금융정보 동의서는 현장 작성 가능',
+      },
+      act: {
+        cue: '만 65세 생일이 속한 달의 한 달 전부터 접수되는데요. 이 시기를 지나 신청하면 그만큼 못 받은 달은 소급되지 않습니다. 대상이시라면 미루지 말고 넣어두세요.',
+        label: '복지로에서 기초연금 신청하기',
+        url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001164',
       },
     },
     {
