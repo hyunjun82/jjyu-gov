@@ -196,3 +196,8 @@ export const emergencyManagementFundPolicy = {
     { name: '소상공인정책자금 대출신청안내', url: OLS_GUIDE },
   ],
 } as const;
+
+/* ── 긴급경영안정자금 스포크 목록 — 전면 재작성 때 누락됐던 export 복구 (2026-08-04 빌드 경고로 발견) ── */
+export const emergencyManagementFundSpokes = [
+  { slug: 'disaster-certificate', title: '재해 중소기업 확인증 어디서 발급받고 고정 2%로 신청하나' },
+];
