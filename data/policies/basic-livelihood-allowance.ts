@@ -344,7 +344,7 @@ export const basicLivelihoodAllowanceSpokes: SpokeData[] = [
   {
     slug: '2027-increase',
     role: 'amount',
-    title: '2027년 기초수급비 인상률 6.70% 확정, 우리 가구는 얼마나 오르나',
+    title: '2027년 기초수급비 인상률 6.70% 확정, 우리 가구 인상분 계산해보면',
     content: '역대 최대 6.70% 인상(7.28 의결). 생계급여 1인 87만 5,533원·4인 221만 7,563원, 2027.1.1 적용.',
   },
   {

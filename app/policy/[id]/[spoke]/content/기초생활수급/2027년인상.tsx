@@ -10,7 +10,7 @@ const KOREA_KR = 'https://www.korea.kr/news/policyNewsView.do?newsId=148968956';
 const BOKJIRO = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52005M.do';
 
 export const 기초수급2027년인상SpokeContent: SpokeData = {
-  h1: '2027년 기초수급비 인상률 6.70% 확정, 우리 가구는 얼마나 오르나',
+  h1: '2027년 기초수급비 인상률 6.70% 확정, 우리 가구 인상분 계산해보면',
   breadcrumb: '2027년 인상',
   description:
     '2027년 기준 중위소득이 6.70% 인상으로 확정됐습니다(7월 28일 제80차 중앙생활보장위원회). 생계급여 선정기준은 1인 87만 5,533원, 4인 221만 7,563원으로 오르며 2027년 1월 1일부터 적용됩니다.',
