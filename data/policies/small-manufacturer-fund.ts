@@ -9,7 +9,7 @@ const CALC = 'https://ols.semas.or.kr/ols/man/SMAN080M/page.do';
 
 export const smallManufacturerFundPolicy = {
   id: '672', type: 'loan' as const,
-  title: '소공인특화자금 운전 1억·시설 5억, 제조업이면 한도가 왜 이렇게 커지나',
+  title: '소공인특화자금 신청 한도 운전 1억·시설 5억, 제조업 기준',
   titleKeywords: { k1: '소공인특화자금', k2: '운전 1억원', k3: '시설 5억원', k4: '상시근로자 10인 미만' },
   slug: 'small-manufacturer-fund', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '운전 1억원 · 시설 5억원 · 연 4.45%',

@@ -17,7 +17,7 @@ const HRP_LIST = 'https://www.sbiz.or.kr/nhrp/pblanc/pblancList.do?pMenuNo=10010
 
 export const restartSpecialFundPolicy = {
   id: '673', type: 'loan' as const,
-  title: '재도전특별자금 유형이 다섯 갈래, 폐업했다면 어느 쪽으로 들어가나',
+  title: '재도전특별자금 어느 유형으로 신청하나, 폐업 후 다섯 갈래',
   titleKeywords: { k1: '재도전특별자금', k2: '재창업교육', k3: '희망형 1억원', k4: '연 5.45%' },
   slug: 'restart-special-fund', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '일반형 7,000만원 · 희망형 1억원 · 도약형 2억원',

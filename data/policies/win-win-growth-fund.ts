@@ -8,7 +8,7 @@ const OLS_NOTICE = 'https://ols.semas.or.kr/ols/man/SMAN051M/page.do';
 
 export const winWinGrowthFundPolicy = {
   id: '677', type: 'loan' as const,
-  title: '상생성장지원자금은 플랫폼 추천이 있어야 한다, 우체국쇼핑만 남은 이유',
+  title: '상생성장지원자금 추천받아 신청하는 법, 우체국쇼핑만 남은 이유',
   titleKeywords: { k1: '상생성장지원자금', k2: 'TOPS 프로그램', k3: '우체국쇼핑', k4: '연 4.25%' },
   slug: 'win-win-growth-fund', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '일반형 7,000만원 · 성장형 운전 1억·시설 5억 · 도약형 운전 2억·시설 10억',

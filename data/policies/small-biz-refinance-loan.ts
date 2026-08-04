@@ -8,7 +8,7 @@ const EDU = 'http://edu.sbiz.or.kr';
 
 export const smallBizRefinanceLoanPolicy = {
   id: '668', type: 'loan' as const,
-  title: '소상공인 대환대출 조건과 금리, 고금리 대출 갈아타는 법',
+  title: '소상공인 대환대출 신청 조건과 금리, 고금리 갈아타기',
   titleKeywords: { k1: '소상공인 대환대출', k2: '조건', k3: '고정금리 4.5%', k4: '5,000만원' },
   slug: 'small-biz-refinance-loan', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '최대 5,000만원 · 고정금리 4.5%',

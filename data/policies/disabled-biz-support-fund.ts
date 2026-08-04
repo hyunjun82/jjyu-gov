@@ -9,7 +9,7 @@ const CALC = 'https://ols.semas.or.kr/ols/man/SMAN080M/page.do';
 
 export const disabledBizSupportFundPolicy = {
   id: '676', type: 'loan' as const,
-  title: '장애인기업지원자금 고정 2%에 7년, 복지카드만 있으면 되나',
+  title: '장애인기업지원자금 신청 자격, 복지카드만 있으면 되나',
   titleKeywords: { k1: '장애인기업지원자금', k2: '장애인기업확인서', k3: '고정 2.00%', k4: '1억원' },
   slug: 'disabled-biz-support-fund', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '최대 1억원 · 고정금리 2.00%',

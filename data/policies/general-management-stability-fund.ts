@@ -9,7 +9,7 @@ const CALC = 'https://ols.semas.or.kr/ols/man/SMAN080M/page.do';
 
 export const generalManagementStabilityFundPolicy = {
   id: '675', type: 'loan' as const,
-  title: '일반경영안정자금 업력 무관 7천만원, 조건 없다는 게 무슨 뜻인가',
+  title: '일반경영안정자금 신청 방법과 7천만원 한도, 업력 무관이란',
   titleKeywords: { k1: '일반경영안정자금', k2: '업력 무관', k3: '7,000만원', k4: '연 4.45%' },
   slug: 'general-management-stability-fund', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '최대 7,000만원 · 연 4.45%',
