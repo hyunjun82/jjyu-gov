@@ -9,7 +9,7 @@ const EDU = 'http://edu.sbiz.or.kr';
 
 export const smallBizRefinanceLoanPolicy = {
   id: '668', type: 'loan' as const,
-  title: '2026 소상공인 대환대출 조건과 서류, 절차부터 대출기간까지 신청하는 법',
+  title: '2026 소상공인 대환대출 조건과 서류, 4.5% 이자 10년으로 갈아탈 수 있나',
   titleKeywords: { k1: '대환대출', k2: '서류', k3: '10년', k4: '4.5%' },
   slug: 'small-biz-refinance-loan', org: '소상공인시장진흥공단', cat: '대출', catSlug: 'loan',
   amount: '최대 5,000만원 · 고정금리 4.5%',
