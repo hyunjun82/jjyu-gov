@@ -53,9 +53,13 @@ const SHALLOW_PATTERNS: RegExp[] = [
  * ticket.melon.com/performance/index.htm?prodId=212031 처럼 파일명이 index여도
  * 파라미터가 특정 공연·특정 공고를 가리키면 그건 그 카드의 행동 지점이다.
  */
+/* 도메인 자체가 그 행동의 서비스인 곳 — 루트가 곧 신청 화면 입구다.
+   기금e든든(enhuf)은 로그인 후 SPA라 딥 URL이 없다 (2026-08-04 확인 후 추가) */
+const SERVICE_ROOTS = ['enhuf.molit.go.kr'];
 const isShallow = (u: string) => {
   const [base, query] = u.split('?');
   if (query && query.length > 2) return false;
+  if (SERVICE_ROOTS.some((d) => base.includes(d))) return false;
   return SHALLOW_PATTERNS.some((r) => r.test(base));
 };
 
@@ -155,7 +159,9 @@ function parseDraftMd(file: string) {
   let heroHook = '';
   let prevText = '';
   for (const b of blocks) {
-    const bm = b.match(/^\*{0,2}\[([^\]]+)\]\*{0,2}\s*(?:\((https?:[^)]+)\))?$/);
+    /* 내부 링크(/policy/…, /calc/…)도 버튼이다 — 전면광고가 뜨는 내부 이동이 핵심 전략인데
+       https만 받으면 내부 버튼이 든 초안이 통째로 무시된다 (2026-08-04 오탐으로 수정) */
+    const bm = b.match(/^\*{0,2}\[([^\]]+)\]\*{0,2}\s*(?:\(((?:https?:|\/)[^)]+)\))?$/);
     if (bm) {
       labels.push(bm[1].trim());
       if (bm[2]) urls.push(bm[2]);

@@ -113,4 +113,5 @@ export const newbornSpecialLoanSpokes = [
   { slug: 'application-timing-first-buyer', role: 'eligibility', title: '신생아 특례대출 등기 전후 신청시기와 생애최초 LTV 80% 받는 법', content: '등기 전 또는 접수일부터 3개월 이내 신청, 생애최초 구입자 LTV 80%.' },
   { slug: 'rate-after-special', role: 'amount', title: '신생아 특례대출 특례금리 끝나면 금리 얼마나 오르나', content: '연소득 8.5천만원 이하는 신혼부부 구입자금 금리 수준, 초과는 시장금리 기준.' },
   { slug: 'documents', role: 'apply', title: '신생아 특례대출 준비서류, 어디서 발급받고 뭘 먼저 떼야 하나', content: '기금e든든·수탁은행 5곳 신청, 출생증명서·건강보험자격득실·소득금액증명원 등 서류 정리.' },
+  { slug: 'edndn-apply', role: 'apply', title: '기금e든든 신생아 특례 디딤돌 신청, 화면에서 막히면 이것부터 확인', content: '신생아 미등재·혼인신고일자·세대구성일자 오류 해결 순서 + 8월 신청 제한 시간대.' },
 ];

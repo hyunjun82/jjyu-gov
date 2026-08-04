@@ -760,6 +760,7 @@ import { 연말정산환급전략SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 연말정산경정청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/경정청구';
 /* ── 신생아 특례대출 (slug: newborn-special-loan) ── */
 import { 신생아특례대출대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/대상조건';
+import { 신생아특례대출기금e든든신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/기금e든든신청';
 import { 신생아특례대출디딤돌구입SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/디딤돌구입';
 import { 신생아특례대출버팀목전세SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/버팀목전세';
 import { 신생아특례대출금리우대SpokeContent } from '@/app/policy/[id]/[spoke]/content/신생아특례대출/금리우대';
@@ -2262,6 +2263,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'application-timing-first-buyer': 신생아특례대출신청시기생애최초SpokeContent,
     'rate-after-special': 신생아특례대출특례금리종료SpokeContent,
     'documents': 신생아특례대출준비서류SpokeContent,
+    'edndn-apply': 신생아특례대출기금e든든신청SpokeContent,
   },
 
   'year-end-tax': {
