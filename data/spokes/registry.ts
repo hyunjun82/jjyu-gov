@@ -933,6 +933,7 @@ import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/po
 /* ── 양육비 선지급제 (slug: child-support-advance) ── */
 import { 양육비선지급소득기준폐지SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/소득기준폐지';
 import { 기초연금2027년인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/2027년인상';
+import { 기초연금지급정지SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/지급정지';
 import { 주민세납부대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/target';
 import { 주민세금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/amount';
 import { 주민세납부기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/period';
@@ -1870,6 +1871,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'basic-pension': {
     '2027-increase': 기초연금2027년인상SpokeContent,
+    'payment-suspension': 기초연금지급정지SpokeContent,
     '수급자격':          수급자격SpokeContent,
     '이의신청':          기초연금이의신청SpokeContent,
     '금액':              금액SpokeContent,
