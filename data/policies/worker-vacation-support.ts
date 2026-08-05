@@ -8,6 +8,7 @@ const KTO = 'https://vacation.visitkorea.or.kr/travel/worker/renewal/workerApp.d
 const KTO_TARGET = 'https://vacation.visitkorea.or.kr/travel/worker/renewal/workerRequestInfo.do?gubun=info';
 const KTO_STEP = 'https://vacation.visitkorea.or.kr/travel/worker/renewal/workerRequestInfo.do?gubun=step';
 const KTO_NOTICE = 'https://vacation.visitkorea.or.kr/travel/worker/renewal/workerNotyList.do';
+const NOTICE = 'https://vacation.visitkorea.or.kr/travel/worker/renewal/workerNotyView.do?bwrtSeq=1000001080';
 
 export const workerVacationSupportPolicy = {
   id: '696', type: 'cash' as const,
@@ -42,6 +43,9 @@ export const workerVacationSupportPolicy = {
     전문직제외: { value: '기업 구분과 상관없이 전문직 종사자는 참여 불가', source: { url: KTO_TARGET, cardIndex: 2, text: '기업구분과 상관없이 전문직 종사자는 참여 불가', verifiedAt: '2026-08-06' } },
     사용처: { value: '온라인몰 휴가샵에서 국내여행 상품 구매', source: { url: KTO, cardIndex: 1, text: "적립된 여행 적립금 40만원은 근로자 휴가지원사업 온라인몰인 '휴가샵'에서 자유롭게 사용", verifiedAt: '2026-08-06' } },
     제출서류: { value: '중소기업 확인서(유효기간 내) 또는 4대보험 사업장가입자명부 등 기업 구분별 상이', source: { url: KTO_TARGET, cardIndex: 3, text: '중소기업 확인서의 경우 신청일이 유효기간 안에 있어야 합니다', verifiedAt: '2026-08-06' } },
+    모집개요: { value: "2026년 신청 '26.1.30(금) 14:00~ / 모집인원 10만 명 내외 / 선착순", source: { url: NOTICE, cardIndex: 5, text: "○ 신청기간 : '26.1.30(금) 14:00~ ○ 모집인원 : 10만 명 내외 ○ 신청방법 : 기업 단위 온라인 신청 / 선착순", verifiedAt: '2026-08-06' } },
+    기업혜택: { value: '참여증서 발급 + 여가친화인증·일생활균형 우수기업 평가 가점', source: { url: NOTICE, cardIndex: 5, text: '참여증서 발급, 정부인증제도(여가친화인증/문체부, 일생활균형 우수기업/고용노동부 등) 평가 가점 부여', verifiedAt: '2026-08-06' } },
+    상품수: { value: '휴가샵 온라인몰 국내여행 상품 약 27만 개', source: { url: NOTICE, cardIndex: 5, text: '약 27만 여 개 국내여행상품 보유', verifiedAt: '2026-08-06' } },
     문의처: { value: '전담 지원센터 1670-1330', source: { url: KTO, cardIndex: 4, text: '전담 지원센터 : 1670-1330', verifiedAt: '2026-08-06' } },
   },
 
@@ -131,6 +135,7 @@ export const workerVacationSupportPolicy = {
         ],
         sourceNote: '한국관광공사 참여 신청 절차 (2026.08.06 확인)',
       },
+      box: { label: '회사가 받는 것', content: '참여증서 발급, 여가친화인증(문체부)·일생활균형 우수기업(고용부) 등 정부인증제도 평가 가점. 우수 참여기업은 정부포상(2026년 3분기 선정).' },
       act: {
         cue: '근로자가 아무리 원해도 회사가 접수하지 않으면 한 푼도 못 받는 구조인데요. 담당자에게 이 신청 페이지를 그대로 전달해 두세요.',
         label: '회사 참여 신청하기',
@@ -141,8 +146,19 @@ export const workerVacationSupportPolicy = {
       anchor: 'q-when',
       q: '언제까지 신청할 수 있나요?',
       intro:
-        '연 단위로 참여기업을 모집하며 2026년 모집 공고는 1월 28일자로 게시됐습니다. 상시 접수처럼 보이지만 예산 범위에서 운영되는 사업이라 예산이 소진되면 접수가 닫히는데요. 그래서 여름 휴가철이 지난 지금 시점에도 잔여 예산이 있는지, 추가 모집이 있는지는 공지사항에서 확인하는 것이 정확합니다. 참고로 공지사항에는 참여기업 대상 우수사례 발표나 포인트 사용 기한 안내 같은 실무 공지가 계속 올라오니, 이미 참여 중인 회사라면 포인트 소멸 기한도 함께 확인해 두시면 좋습니다.',
+        '2026년 모집 공고는 1월 28일 게시됐고, 신청은 1월 30일 오후 2시부터 선착순으로 받습니다. 모집 인원은 10만 명 내외입니다. 상시 접수처럼 보이지만 예산 범위에서 운영되는 사업이라 예산이 소진되면 접수가 닫히는데요. 그래서 여름 휴가철이 지난 지금 시점에도 잔여 예산이 있는지, 추가 모집이 있는지는 공지사항에서 확인하는 것이 정확합니다. 참고로 공지사항에는 참여기업 대상 우수사례 발표나 포인트 사용 기한 안내 같은 실무 공지가 계속 올라오니, 이미 참여 중인 회사라면 포인트 소멸 기한도 함께 확인해 두시면 좋습니다.',
       highlights: ['2026년 모집 공고 1월 28일 게시', '예산 소진 시 마감', '잔여 예산·추가 모집은 공지 확인', '기존 참여자는 포인트 사용 기한 확인'],
+      table: {
+        caption: '2026년 모집 개요 (공고 원문)',
+        headers: ['항목', '내용'],
+        rows: [
+          ['신청 시작', "'26.1.30(금) 14:00~"],
+          ['모집 인원', '10만 명 내외'],
+          ['신청 방법', '기업 단위 온라인 신청 / 선착순'],
+          ['제출 서류', '모집공고문 참고 (기업 구분별 상이)'],
+        ],
+        sourceNote: '한국관광공사 2026 참여기업 모집 공고 (2026.01.28 게시, 2026.08.06 확인)',
+      },
       box: { label: '공지사항에서 확인할 것', content: '① 2026 참여기업 모집 공고(2026.01.28) ② 잔여 예산·추가 모집 여부 ③ 포인트 사용 기한 안내 ④ 타기관 휴가비 증빙용 입금확인증 출력 방법.' },
       act: {
         cue: '예산이 남았는지 모른 채 서류만 준비하다 접수가 닫히면 헛수고가 되는데요. 최신 모집 공지부터 확인하고 움직이세요.',
