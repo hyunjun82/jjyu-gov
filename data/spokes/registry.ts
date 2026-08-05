@@ -27,6 +27,7 @@ import { 이자소득세SpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { 미래적금군인SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/군인';
 import { 미래적금은행별SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/은행별비교';
 import { 미래적금갈아타기SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/갈아타기';
+import { 미래적금정정원상복구SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/정정원상복구';
 import { 미래적금우대형SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/우대형';
 import { 미래적금프리랜서SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/프리랜서';
 import { 장병적금은행별SpokeContent } from '@/app/policy/[id]/[spoke]/content/청년미래적금/장병적금-은행별비교';
@@ -1328,6 +1329,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '은행별비교':   미래적금은행별SpokeContent,
     '갈아타기':     미래적금갈아타기SpokeContent,
     '우대형':       미래적금우대형SpokeContent,
+    'type-correction': 미래적금정정원상복구SpokeContent,
     '심사일정':     미래적금심사일정SpokeContent,
     '프리랜서':     미래적금프리랜서SpokeContent,
     '장병적금-은행별비교': 장병적금은행별SpokeContent,

@@ -326,6 +326,7 @@ export const youthFutureSavingsPolicy = {
 };
 
 export const youthFutureSavingsSpokes = [
+  { slug: 'type-correction', role: 'apply', title: '청년미래적금 우대형 정정 문자, 도약계좌 해지 원상복구 신청하는 방법', content: '서금원 심사 오류 공식 인정. 해지 취소·원상복구 1397(3번), 계좌개설·해지 마감 8.7.' },
   { slug: '출시일정', title: '청년미래적금 6월 출시 언제부터 신청 가능한가요 2026 일정 총정리' },
   { slug: 'vs-도약계좌', title: '미래적금 vs 도약계좌 차이' },
   { slug: '중위소득', title: '중위소득 200% 기준표' },
