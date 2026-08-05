@@ -149,7 +149,7 @@ export const debtCertificatePolicy = {
       box: { label: '갈림길', content: '법원 절차(개인회생·파산) ↔ 조정 절차(신복위 워크아웃·새출발기금) — 채무 규모·소득·연체 상태로 갈립니다.' },
       act: {
         cue: '서류부터 떼놓고 절차를 바꾸면 제출용 구분이 달라 헛걸음이 되는데요. 회생·파산·워크아웃 중 내 경우가 뭔지부터 대조해 보셔야겠죠.',
-        label: '회생·파산·워크아웃 내 경우 대조하기',
+        label: '회생이냐 워크아웃이냐 대조하기',
         url: '/policy/debt-restructuring',
       },
     },
