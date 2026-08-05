@@ -55,7 +55,7 @@ const SHALLOW_PATTERNS: RegExp[] = [
  */
 /* 도메인 자체가 그 행동의 서비스인 곳 — 루트가 곧 신청 화면 입구다.
    기금e든든(enhuf)은 로그인 후 SPA라 딥 URL이 없다 (2026-08-04 확인 후 추가) */
-const SERVICE_ROOTS = ['enhuf.molit.go.kr'];
+const SERVICE_ROOTS = ['enhuf.molit.go.kr', 'safedriving.or.kr'];
 const isShallow = (u: string) => {
   const [base, query] = u.split('?');
   if (query && query.length > 2) return false;
