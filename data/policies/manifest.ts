@@ -123,6 +123,7 @@ import { copaymentCapRefundPolicy, copaymentCapRefundSpokes } from './copayment-
 import { youthChallengeSupportPolicy, youthChallengeSupportSpokes } from './youth-challenge-support';
 import { realEstateTaxReform2026Policy, realEstateTaxReform2026Spokes } from './real-estate-tax-reform-2026';
 import { residentRegistrationFactCheckPolicy, residentRegistrationFactCheckSpokes } from './resident-registration-fact-check';
+import { debtCertificatePolicy, debtCertificateSpokes } from './debt-certificate';
 import { daeguJungguKitchenCleaningPolicy, daeguJungguKitchenCleaningSpokes } from './daegu-junggu-kitchen-cleaning';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
@@ -900,6 +901,7 @@ export const PoliciesById: Record<string, any> = {
   '691': youthChallengeSupportPolicy,
   '692': realEstateTaxReform2026Policy,
   '693': residentRegistrationFactCheckPolicy,
+  '694': debtCertificatePolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -1583,6 +1585,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'youth-challenge-support': youthChallengeSupportPolicy,
   'real-estate-tax-reform-2026': realEstateTaxReform2026Policy,
   'resident-registration-fact-check': residentRegistrationFactCheckPolicy,
+  'debt-certificate': debtCertificatePolicy,
   'child-meal-card': childMealCardPolicy,
   'self-sufficiency-program': selfSufficiencyProgramPolicy,
   'youth-tomorrow-filling': youthTomorrowFillingPolicy,
@@ -2306,6 +2309,7 @@ export const SpokesById: Record<string, any[]> = {
   '691': youthChallengeSupportSpokes,
   '692': realEstateTaxReform2026Spokes,
   '693': residentRegistrationFactCheckSpokes,
+  '694': debtCertificateSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -2989,6 +2993,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'youth-challenge-support': youthChallengeSupportSpokes,
   'real-estate-tax-reform-2026': realEstateTaxReform2026Spokes,
   'resident-registration-fact-check': residentRegistrationFactCheckSpokes,
+  'debt-certificate': debtCertificateSpokes,
   'child-meal-card': childMealCardSpokes,
   'self-sufficiency-program': selfSufficiencyProgramSpokes,
   'youth-tomorrow-filling': youthTomorrowFillingSpokes,
