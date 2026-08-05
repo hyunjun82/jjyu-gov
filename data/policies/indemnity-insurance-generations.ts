@@ -71,6 +71,11 @@ export const indemnityInsuranceGenerationsPolicy = {
       highlights: ['5세대는 16개 보험사(생보7·손보9)에서 판매', '기존 가입자는 가입 보험사에서 전환', '신규는 보험다모아·보험사·설계사·콜센터', '보험다모아=생·손보협회 공동 비교포털'],
       box: { label: '가입 경로', content: '전환: 가입한 보험사에서 별도 심사 없이. 신규: 보험다모아(e-insmarket.or.kr)에서 비교 후 가입 가능.' },
       sourceNote: '* 출처: 금융감독원 보도자료(2026.5.6)',
+      act: {
+        cue: '갈아탈지 말지는 결국 내 나이 기준 보험료를 봐야 끝나는 고민인데요. 보험다모아에서 생년월일만 넣으면 전 보험사 5세대 실손이 한 번에 비교됩니다.',
+        label: '전 보험사 실손 보험료 비교하기',
+        url: 'https://www.e-insmarket.or.kr/intro.knia',
+      },
     },
   ],
   faq: [

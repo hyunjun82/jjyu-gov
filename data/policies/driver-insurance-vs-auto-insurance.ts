@@ -68,6 +68,11 @@ export const driverInsuranceVsAutoInsurancePolicy = {
       highlights: ['① 형사합의금·변호사비용·벌금 등 핵심 담보와 한도 확인', '② 보험기간(3년 이내/초과)에 따른 보험료·갱신 조건 확인', '③ 뺑소니·음주·무면허 등 면책조항 약관에서 직접 확인', '④ 자동차보험·운전자보험은 보장 영역이 달라 중복이 아님'],
       box: { label: '핵심', content: '보험다모아(e-insmarket.or.kr)에서 여러 보험사의 운전자보험을 조건별로 한 번에 비교할 수 있습니다.' },
       sourceNote: '* 출처: 보험다모아(e-insmarket.or.kr) 기준 종합',
+      act: {
+        cue: '둘의 차이를 아셨으면 각각 얼마인지가 다음인데요. 자동차보험은 갱신 때마다 비교하는 것만으로 아낄 수 있는 대표 항목입니다.',
+        label: '자동차보험료 회사별 비교하기',
+        url: 'https://www.e-insmarket.or.kr/intro.knia',
+      },
     },
   ],
   faq: [

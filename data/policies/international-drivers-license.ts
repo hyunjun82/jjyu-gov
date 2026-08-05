@@ -66,6 +66,11 @@ export const internationalDriversLicensePolicy = {
       box: { label: '수수료', content: '9,000원(신청 방법과 관계없이 동일).' },
       table: { caption: '수수료 요약', headers: ['구분', '내용'], rows: [['수수료', '9,000원(신청 방법 무관 동일)'], ['유효기간', '발급일로부터 통상 1년']] },
       sourceNote: '* 출처: 정부24 국제운전면허증 발급 신청',
+      act: {
+        cue: '해외에서 렌터카까지 계획 중이시면 여행자보험도 출발 전에 챙길 항목인데요. 보험다모아에서 여행 기간 기준으로 회사별 비교가 됩니다.',
+        label: '여행자보험 회사별 비교하기',
+        url: 'https://www.e-insmarket.or.kr/intro.knia',
+      },
     },
     {
       q: '어디에 문의하나요?', anchor: 'q-contact',
