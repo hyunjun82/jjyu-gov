@@ -14,7 +14,7 @@ const FILL4YOUNG = 'https://fill4young.kinfa.or.kr/yfs/main';
 const KINFA_NOTICE = 'https://www.kinfa.or.kr/notificationPromotion/notice.do';
 
 export const 미래적금정정원상복구SpokeContent: SpokeData = {
-  h1: '청년미래적금 우대형 정정 문자, 도약계좌 해지 원상복구 신청하는 방법',
+  h1: '청년미래적금 우대형 정정 문자, 해지한 도약계좌 원상복구 어디서 신청하나',
   breadcrumb: '우대형 정정 대응',
   description:
     '우대형 심사 결과가 일반형으로 정정된 것은 서민금융진흥원이 공식 인정한 심사 오류입니다. 청년도약계좌를 특별중도해지한 가입자는 해지 취소·원상복구를 지원받을 수 있습니다. 접수는 청년금융콜센터 1397(3번), 계좌개설·특별중도해지 마감은 8월 7일입니다.',
