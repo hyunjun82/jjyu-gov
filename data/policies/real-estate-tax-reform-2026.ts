@@ -118,7 +118,7 @@ export const realEstateTaxReform2026Policy = {
       },
       act: {
         cue: '파느냐 버티느냐는 보유세가 얼마 늘어나는지부터 봐야 답이 나오는데요. 공시가격 합산을 넣으면 개편 전후가 바로 비교됩니다.',
-        label: '다주택 종부세 비교 계산해보기',
+        label: '개편 전후 보유세 비교해보기',
         url: '/calc/jongbuse',
       },
     },
