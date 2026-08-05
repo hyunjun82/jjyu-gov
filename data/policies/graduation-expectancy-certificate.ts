@@ -9,7 +9,7 @@ const GOV24 = 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13410000020'
 
 export const graduationExpectancyCertificatePolicy = {
   id: '695', type: 'service' as const,
-  title: '졸업예정증명서 발급 안 될 때, 학사일정 오류는 이렇게 풀고 즉시 발급',
+  title: '졸업예정증명서 발급 안 될 때, 학사일정 오류 풀고 당일 발급받는 순서',
   titleKeywords: {
     k1: '졸업예정증명서',
     k2: '발급',
