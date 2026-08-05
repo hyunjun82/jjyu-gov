@@ -61,6 +61,11 @@ export const driverInsuranceVsAutoInsurancePolicy = {
       highlights: ['1순위: 의무보험인 자동차보험(대인배상Ⅰ·대물배상 2천만원 이상) 필수 가입', '2순위: 대인배상Ⅱ 등 임의 담보도 충분한 수준으로 검토', '3순위: 형사·행정 책임 대비 위해 운전자보험 추가 가입 검토', '두 보험을 같은 보험사 또는 각각 다른 보험사에서 가입 가능'],
       box: { label: '핵심', content: '자동차보험은 선택이 아닌 필수, 운전자보험은 그 위에 얹는 보완 장치입니다.' },
       sourceNote: '* 출처: 손해보험협회·금융감독원 자료',
+      act: {
+        cue: '사고가 나면 보험 차이를 알아도 대응 순서에서 갈리는데요. 12대 중과실이면 보험과 별개로 형사 문제가 되니, 사고 대응 기준까지 챙겨두세요.',
+        label: '사고 시 과실·처벌 기준 챙겨두기',
+        url: '/policy/traffic-accident',
+      },
     },
     {
       q: '가입 전 비교할 때 뭘 확인해야 하나요', anchor: 'q-checklist',
@@ -69,8 +74,8 @@ export const driverInsuranceVsAutoInsurancePolicy = {
       box: { label: '핵심', content: '보험다모아(e-insmarket.or.kr)에서 여러 보험사의 운전자보험을 조건별로 한 번에 비교할 수 있습니다.' },
       sourceNote: '* 출처: 보험다모아(e-insmarket.or.kr) 기준 종합',
       act: {
-        cue: '둘의 차이를 아셨으면 각각 얼마인지가 다음인데요. 자동차보험은 갱신 때마다 비교하는 것만으로 아낄 수 있는 대표 항목입니다.',
-        label: '자동차보험료 회사별 비교하기',
+        cue: '둘의 차이를 아셨으면 각각 얼마인지가 다음인데요. 자동차보험은 갱신 때마다 비교만 해도 아끼는 대표 항목이라, 비교해 보고 갱신하시면 됩니다.',
+        label: '자동차보험 비교하고 가입하기',
         url: 'https://www.e-insmarket.or.kr/intro.knia',
       },
     },
