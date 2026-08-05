@@ -288,6 +288,7 @@ import { arboretumCoordinatorPolicy, arboretumCoordinatorSpokes } from './arbore
 import { forestDisasterResponsePolicy, forestDisasterResponseSpokes } from './forest-disaster-response';
 import { publicForestManagerPolicy, publicForestManagerSpokes } from './public-forest-manager';
 import { workerVacationSupportPolicy, workerVacationSupportSpokes } from './worker-vacation-support';
+import { farmlandPensionPolicy, farmlandPensionSpokes } from './farmland-pension';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -904,6 +905,8 @@ export const PoliciesById: Record<string, any> = {
   '693': residentRegistrationFactCheckPolicy,
   '694': debtCertificatePolicy,
   '695': graduationExpectancyCertificatePolicy,
+  '696': workerVacationSupportPolicy,
+  '697': farmlandPensionPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2134,6 +2137,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'forest-disaster-response': forestDisasterResponsePolicy,
   'public-forest-manager': publicForestManagerPolicy,
   'worker-vacation-support': workerVacationSupportPolicy,
+  'farmland-pension': farmlandPensionPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2314,6 +2318,8 @@ export const SpokesById: Record<string, any[]> = {
   '693': residentRegistrationFactCheckSpokes,
   '694': debtCertificateSpokes,
   '695': graduationExpectancyCertificateSpokes,
+  '696': workerVacationSupportSpokes,
+  '697': farmlandPensionSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3544,6 +3550,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'forest-disaster-response': forestDisasterResponseSpokes,
   'public-forest-manager': publicForestManagerSpokes,
   'worker-vacation-support': workerVacationSupportSpokes,
+  'farmland-pension': farmlandPensionSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
