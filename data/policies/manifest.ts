@@ -122,6 +122,7 @@ import { youthSafeHousing2ndPolicy, youthSafeHousing2ndSpokes } from './youth-sa
 import { copaymentCapRefundPolicy, copaymentCapRefundSpokes } from './copayment-cap-refund';
 import { youthChallengeSupportPolicy, youthChallengeSupportSpokes } from './youth-challenge-support';
 import { realEstateTaxReform2026Policy, realEstateTaxReform2026Spokes } from './real-estate-tax-reform-2026';
+import { residentRegistrationFactCheckPolicy, residentRegistrationFactCheckSpokes } from './resident-registration-fact-check';
 import { daeguJungguKitchenCleaningPolicy, daeguJungguKitchenCleaningSpokes } from './daegu-junggu-kitchen-cleaning';
 import { youthTomorrowSavingsPolicy, youthTomorrowSavingsSpokes } from './youth-tomorrow-savings';
 import { rentalDisputeMediationPolicy, rentalDisputeMediationSpokes } from './rental-dispute-mediation';
@@ -898,6 +899,7 @@ export const PoliciesById: Record<string, any> = {
   '690': copaymentCapRefundPolicy,
   '691': youthChallengeSupportPolicy,
   '692': realEstateTaxReform2026Policy,
+  '693': residentRegistrationFactCheckPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -1580,6 +1582,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'copayment-cap-refund': copaymentCapRefundPolicy,
   'youth-challenge-support': youthChallengeSupportPolicy,
   'real-estate-tax-reform-2026': realEstateTaxReform2026Policy,
+  'resident-registration-fact-check': residentRegistrationFactCheckPolicy,
   'child-meal-card': childMealCardPolicy,
   'self-sufficiency-program': selfSufficiencyProgramPolicy,
   'youth-tomorrow-filling': youthTomorrowFillingPolicy,
@@ -2302,6 +2305,7 @@ export const SpokesById: Record<string, any[]> = {
   '690': copaymentCapRefundSpokes,
   '691': youthChallengeSupportSpokes,
   '692': realEstateTaxReform2026Spokes,
+  '693': residentRegistrationFactCheckSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -2984,6 +2988,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'copayment-cap-refund': copaymentCapRefundSpokes,
   'youth-challenge-support': youthChallengeSupportSpokes,
   'real-estate-tax-reform-2026': realEstateTaxReform2026Spokes,
+  'resident-registration-fact-check': residentRegistrationFactCheckSpokes,
   'child-meal-card': childMealCardSpokes,
   'self-sufficiency-program': selfSufficiencyProgramSpokes,
   'youth-tomorrow-filling': youthTomorrowFillingSpokes,
