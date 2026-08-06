@@ -295,6 +295,7 @@ import { badLandlordCheckPolicy, badLandlordCheckSpokes } from './bad-landlord-c
 import { smartfarmYouthIncubatorPolicy, smartfarmYouthIncubatorSpokes } from './smartfarm-youth-incubator';
 import { earlyOldAgePensionPolicy, earlyOldAgePensionSpokes } from './early-old-age-pension';
 import { civilServantPensionPolicy, civilServantPensionSpokes } from './civil-servant-pension';
+import { militaryPensionPolicy, militaryPensionSpokes } from './military-pension';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -919,6 +920,7 @@ export const PoliciesById: Record<string, any> = {
   '701': smartfarmYouthIncubatorPolicy,
   '702': earlyOldAgePensionPolicy,
   '703': civilServantPensionPolicy,
+  '704': militaryPensionPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2156,6 +2158,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'smartfarm-youth-incubator': smartfarmYouthIncubatorPolicy,
   'early-old-age-pension': earlyOldAgePensionPolicy,
   'civil-servant-pension': civilServantPensionPolicy,
+  'military-pension': militaryPensionPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2344,6 +2347,7 @@ export const SpokesById: Record<string, any[]> = {
   '701': smartfarmYouthIncubatorSpokes,
   '702': earlyOldAgePensionSpokes,
   '703': civilServantPensionSpokes,
+  '704': militaryPensionSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3581,6 +3585,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'smartfarm-youth-incubator': smartfarmYouthIncubatorSpokes,
   'early-old-age-pension': earlyOldAgePensionSpokes,
   'civil-servant-pension': civilServantPensionSpokes,
+  'military-pension': militaryPensionSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
