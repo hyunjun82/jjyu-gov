@@ -192,7 +192,7 @@ export const selfEmployedEmploymentInsurancePolicy: PolicyData = {
       intro: '자영업자 구직급여는 고용복지센터 방문이 반드시 필요합니다. 먼저 고용24(work24.go.kr)에서 구직 등록과 온라인 사전 교육을 마친 후, 가까운 고용복지센터를 방문해 수급자격 인정 신청서와 폐업 사유 관련 서류를 제출합니다. 수급자격 인정 후에는 1~4주마다 실업 인정을 받아야 급여를 받을 수 있으며, 폐업일 다음 날부터 1년 이내에 신청해야 합니다.',
       highlights: ['고용복지센터 방문 필수', '고용24 구직 등록 + 온라인 사전 교육 먼저', '폐업일 다음날부터 1년 이내 신청', '1~4주마다 실업인정 필요'],
       sourceNote: '고용24 실업급여(자영업자) 안내(2026.08.01 재확인)',
-      act: { cue: '폐업하신 다음 날부터 1년이 지나면 남은 지급일수가 있어도 그냥 사라집니다. 첫 단계인 구직 등록부터 지금 해두세요.', label: '구직 등록 신청하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000347' },
+      act: { cue: '폐업하신 다음 날부터 1년이 지나면 남은 지급일수가 있어도 그냥 사라집니다. 수급의 첫 단추가 구직 등록이니 지금 신청해 두세요.', label: '구직 등록 신청하기', url: 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000347' },
       box: {
         title: '📋 신청 절차 6단계',
         items: [
