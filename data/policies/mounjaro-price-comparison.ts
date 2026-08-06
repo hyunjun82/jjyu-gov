@@ -1,7 +1,7 @@
 /* 마운자로(티르제파티드) 가격 비교 - 건강보험심사평가원 비급여 공개시스템 */
 export const mounjaroPriceComparisonPolicy = {
   id: '265', type: 'service' as const,
-  title: '마운자로 처방 병원별 가격 조회, 심평원 공개자료로 시세 확인하기',
+  title: '마운자로 처방 병원별 가격 조회, 심평원 공개자료로 시세 확인',
   titleKeywords: { k1: '마운자로 처방', k2: '병원별 가격', k3: '조회', k4: '심평원' },
   slug: 'mounjaro-price-comparison', org: '건강보험심사평가원', cat: '의료', catSlug: 'medical',
   amount: '해당없음(정보성 콘텐츠, 실제 가격은 병원별 상이)',
