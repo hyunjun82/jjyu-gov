@@ -55,6 +55,7 @@ import { 청년내일저축신청SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 자발적퇴사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/자발적퇴사';
 import { 재수급SpokeContent }    from '@/app/policy/[id]/[spoke]/content/실업급여/재수급';
 import { 알바단기SpokeContent }  from '@/app/policy/[id]/[spoke]/content/실업급여/알바단기';
+import { 실업급여프리랜서소득신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/프리랜서소득신고';
 import { 실업급여수급자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급자격';
 import { 실업급여수급유예SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/수급유예';
 import { 미지급실업급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/미지급실업급여';
@@ -1378,6 +1379,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'job-seeker-benefit': {
+    'freelance-income-report': 실업급여프리랜서소득신고SpokeContent,
     '자발적퇴사': 자발적퇴사SpokeContent,
     '재수급':     재수급SpokeContent,
     '알바단기':   알바단기SpokeContent,
