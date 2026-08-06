@@ -297,6 +297,7 @@ import { earlyOldAgePensionPolicy, earlyOldAgePensionSpokes } from './early-old-
 import { civilServantPensionPolicy, civilServantPensionSpokes } from './civil-servant-pension';
 import { militaryPensionPolicy, militaryPensionSpokes } from './military-pension';
 import { privateSchoolPensionPolicy, privateSchoolPensionSpokes } from './private-school-pension';
+import { retirementPensionCheckPolicy, retirementPensionCheckSpokes } from './retirement-pension-check';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -923,6 +924,7 @@ export const PoliciesById: Record<string, any> = {
   '703': civilServantPensionPolicy,
   '704': militaryPensionPolicy,
   '705': privateSchoolPensionPolicy,
+  '706': retirementPensionCheckPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2162,6 +2164,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'civil-servant-pension': civilServantPensionPolicy,
   'military-pension': militaryPensionPolicy,
   'private-school-pension': privateSchoolPensionPolicy,
+  'retirement-pension-check': retirementPensionCheckPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2352,6 +2355,7 @@ export const SpokesById: Record<string, any[]> = {
   '703': civilServantPensionSpokes,
   '704': militaryPensionSpokes,
   '705': privateSchoolPensionSpokes,
+  '706': retirementPensionCheckSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3591,6 +3595,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'civil-servant-pension': civilServantPensionSpokes,
   'military-pension': militaryPensionSpokes,
   'private-school-pension': privateSchoolPensionSpokes,
+  'retirement-pension-check': retirementPensionCheckSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
