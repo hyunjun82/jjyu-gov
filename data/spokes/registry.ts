@@ -173,6 +173,7 @@ import { 재산기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content
 import { 집있으면SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/집-있으면';
 import { 신청방법SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/신청방법';
 import { 국민연금차이SpokeContent }  from '@/app/policy/[id]/[spoke]/content/기초연금/국민연금-차이';
+import { 기초연금노령연금중복신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/노령연금중복신청';
 import { 부부감액SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/부부감액';
 import { 감액기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/감액기준';
 import { 금액인상SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/40만원인상';
@@ -1887,6 +1888,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'basic-pension': {
+    'old-age-pension-overlap-apply': 기초연금노령연금중복신청SpokeContent,
     '2027-increase': 기초연금2027년인상SpokeContent,
     'civil-service-pension-overlap': 기초연금공무원연금중복SpokeContent,
     'payment-suspension': 기초연금지급정지SpokeContent,
