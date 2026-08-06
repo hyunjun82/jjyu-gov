@@ -289,6 +289,7 @@ import { forestDisasterResponsePolicy, forestDisasterResponseSpokes } from './fo
 import { publicForestManagerPolicy, publicForestManagerSpokes } from './public-forest-manager';
 import { workerVacationSupportPolicy, workerVacationSupportSpokes } from './worker-vacation-support';
 import { farmlandPensionPolicy, farmlandPensionSpokes } from './farmland-pension';
+import { dokdoLoveSavingsPolicy, dokdoLoveSavingsSpokes } from './dokdo-love-savings';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -907,6 +908,7 @@ export const PoliciesById: Record<string, any> = {
   '695': graduationExpectancyCertificatePolicy,
   '696': workerVacationSupportPolicy,
   '697': farmlandPensionPolicy,
+  '698': dokdoLoveSavingsPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2138,6 +2140,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'public-forest-manager': publicForestManagerPolicy,
   'worker-vacation-support': workerVacationSupportPolicy,
   'farmland-pension': farmlandPensionPolicy,
+  'dokdo-love-savings': dokdoLoveSavingsPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2320,6 +2323,7 @@ export const SpokesById: Record<string, any[]> = {
   '695': graduationExpectancyCertificateSpokes,
   '696': workerVacationSupportSpokes,
   '697': farmlandPensionSpokes,
+  '698': dokdoLoveSavingsSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3551,6 +3555,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'public-forest-manager': publicForestManagerSpokes,
   'worker-vacation-support': workerVacationSupportSpokes,
   'farmland-pension': farmlandPensionSpokes,
+  'dokdo-love-savings': dokdoLoveSavingsSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
