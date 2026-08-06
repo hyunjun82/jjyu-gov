@@ -7,6 +7,11 @@
  */
 export function simplifyCta(label?: string, subject?: string): string {
   const s = (label || '').trim();
+  /* 2026-08-06: 작성자가 문구 게이트를 통과시킨 라벨은 그대로 쓴다.
+     타이틀 앞 어절을 동사에 이어붙이는 자동 조립이 "농지연금 예상 신청하기" 같은
+     비문을 만들었고, 근로자 휴가지원(회사만 신청 가능)처럼 의미까지 뒤집었다.
+     주제어 조립은 라벨이 동사 하나뿐일 때만 폴백으로 쓴다. */
+  if (/\s/.test(s) && s.length >= 6) return s;
   /* 행동 동사만 뽑는다 — 티켓·좌석은 '신청'이 아니라 '예매'가 실제 행동이라 앞에 둔다 */
   const verb =
     /예매/.test(s) ? '예매하기'
