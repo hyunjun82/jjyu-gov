@@ -11,7 +11,7 @@
  * 예상액 조회 행동 = 공단 연금복지포털(로그인 후 내 연금 조회).
  * ⚠️ '평균 수령액' 통계는 이 페이지에 없어 단정하지 않음 — 개인별 산식·조회로 유도. */
 const GEPS_BENEFIT = 'https://www.geps.or.kr/bizInformation_pensionBiz_retirementBenefit_salaryType';
-const GEPS_PORTAL = 'https://portal.geps.or.kr/';
+const GEPS_PORTAL = 'https://portal.geps.or.kr/frameMain?type=pn';
 const GEPS = 'https://www.geps.or.kr/main';
 
 export const civilServantPensionPolicy = {
