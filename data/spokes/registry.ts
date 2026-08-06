@@ -1486,6 +1486,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'first-meet': {
+    'card-balance-check': 첫만남카드사별잔액조회SpokeContent,
     '사용처':    첫만남사용처SpokeContent,
     '유효기간':  첫만남유효기간SpokeContent,
     '신청기한':  첫만남신청기한SpokeContent,
