@@ -274,6 +274,7 @@ import { 장애수당차이SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 장애인연금금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/금액';
 import { 장애인연금3급기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/3급기준';
 import { 전세보증가입방법환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세보증금반환보증/가입방법환급';
+import { 연금저축세대별비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/연금저축/세대별비교';
 import { 장애인연금모의계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/모의계산';
 import { 장애인연금2026인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/2026인상';
 
@@ -1495,6 +1496,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '유효기간':  첫만남유효기간SpokeContent,
     '신청기한':  첫만남신청기한SpokeContent,
     '잔액조회':  첫만남잔액조회SpokeContent,
+  },
+
+  'pension-insurance-vs-savings': {
+    'generation-comparison': 연금저축세대별비교SpokeContent,
   },
 
   'disability-pension': {
