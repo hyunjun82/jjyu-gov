@@ -292,6 +292,7 @@ import { farmlandPensionPolicy, farmlandPensionSpokes } from './farmland-pension
 import { dokdoLoveSavingsPolicy, dokdoLoveSavingsSpokes } from './dokdo-love-savings';
 import { wegovyPriceComparisonPolicy, wegovyPriceComparisonSpokes } from './wegovy-price-comparison';
 import { badLandlordCheckPolicy, badLandlordCheckSpokes } from './bad-landlord-check';
+import { smartfarmYouthIncubatorPolicy, smartfarmYouthIncubatorSpokes } from './smartfarm-youth-incubator';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -913,6 +914,7 @@ export const PoliciesById: Record<string, any> = {
   '698': dokdoLoveSavingsPolicy,
   '699': wegovyPriceComparisonPolicy,
   '700': badLandlordCheckPolicy,
+  '701': smartfarmYouthIncubatorPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2147,6 +2149,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'dokdo-love-savings': dokdoLoveSavingsPolicy,
   'wegovy-price-comparison': wegovyPriceComparisonPolicy,
   'bad-landlord-check': badLandlordCheckPolicy,
+  'smartfarm-youth-incubator': smartfarmYouthIncubatorPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2332,6 +2335,7 @@ export const SpokesById: Record<string, any[]> = {
   '698': dokdoLoveSavingsSpokes,
   '699': wegovyPriceComparisonSpokes,
   '700': badLandlordCheckSpokes,
+  '701': smartfarmYouthIncubatorSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3566,6 +3570,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'dokdo-love-savings': dokdoLoveSavingsSpokes,
   'wegovy-price-comparison': wegovyPriceComparisonSpokes,
   'bad-landlord-check': badLandlordCheckSpokes,
+  'smartfarm-youth-incubator': smartfarmYouthIncubatorSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
