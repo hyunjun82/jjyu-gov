@@ -266,6 +266,8 @@ import { 첫만남사용처SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 첫만남유효기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/유효기간';
 import { 첫만남신청기한SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/신청기한';
 import { 첫만남잔액조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/잔액조회';
+import { 첫만남카드사별잔액조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/첫만남이용권/카드사별잔액조회';
+import { 국가장학금지원구간최신화SpokeContent } from '@/app/policy/[id]/[spoke]/content/국가장학금/지원구간최신화';
 
 /* ── 장애인연금 (slug: disability-pension) ── */
 import { 장애수당차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/장애수당-차이';
@@ -2683,6 +2685,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'national-scholar': {
+    'bracket-update': 국가장학금지원구간최신화SpokeContent,
     '국가장학금2차신청기간2026':     국가장학금국가장학금2차신청기간2026SpokeContent,
     '2차구제신청':                 국가장학금2차구제신청SpokeContent,
     '2차신입생':                   국가장학금2차신입생SpokeContent,
