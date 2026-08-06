@@ -17,7 +17,7 @@ const BP_CALC = 'https://basicpension.mohw.go.kr/menu.es?mid=a10303000000';
 const BP_APPLY = 'https://basicpension.mohw.go.kr/menu.es?mid=a10201000000';
 
 export const 기초연금중복수급SpokeContent: SpokeData = {
-  h1: '기초연금 중복 수급, 생계급여·국민연금 받아도 되나 따져보기',
+  h1: '기초연금 중복 수급, 생계급여·국민연금 받아도 되나 내 금액 조회',
   breadcrumb: '중복 수급',
   description:
     '기초생활보장 수급자도 기초연금을 받을 수 있으나 기초연금액이 소득으로 인정돼 생계급여에 영향을 줄 수 있습니다. 국민연금과는 함께 받을 수 있으며, 국민연금 월 급여액이 524,550원 이하면 기준연금액 전액으로 산정되고 초과하면 A급여액 산식으로 계산됩니다. 직역연금 수급권자는 원칙적으로 제외됩니다.',

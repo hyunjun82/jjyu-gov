@@ -14,7 +14,7 @@ const BP_CALC = 'https://basicpension.mohw.go.kr/menu.es?mid=a10303000000';
 const BP_APPLY = 'https://basicpension.mohw.go.kr/menu.es?mid=a10201000000';
 
 export const 기초연금탈락조건SpokeContent: SpokeData = {
-  h1: '기초연금 탈락 조건, 소득보다 재산에서 갈리는 네 가지 이유',
+  h1: '기초연금 탈락 조건 네 가지, 재산에서 갈리니 소득인정액부터 계산',
   breadcrumb: '탈락 조건',
   description:
     '기초연금 탈락은 소득인정액이 선정기준액(2026년 단독 247만원·부부 395.2만원)을 넘을 때 결정됩니다. 재산은 지역별 기본재산액(대도시 1억 3,500만원·중소도시 8,500만원·농어촌 7,250만원)과 금융재산 2,000만원을 공제한 뒤 연 4%로 환산합니다. 차량가액 4,000만원 이상 자동차와 자녀 명의 고가주택 무료임차소득이 탈락의 주요 원인입니다.',
