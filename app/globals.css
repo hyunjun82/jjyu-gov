@@ -1723,7 +1723,16 @@ img { max-width: 100%; display: block; }
 
 /* 스포크 상단 버튼 — 후킹 바로 아래 (2026-08-03) */
 .spoke-hero-cta { margin: 0 0 20px; }
-.spoke-hero-cta .btn-cta { display: inline-flex; }
+/* 상단 버튼은 문구 길이와 무관하게 항상 같은 크기로 — inline-flex 였을 때
+   라벨이 짧은 글만 버튼이 작아 보였다. Clarity 실측상 클릭의 50~57%가
+   이 버튼 하나에서 나오므로 폭을 줄이지 않는다. (2026-08-06) */
+.spoke-hero-cta .btn-cta {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 18px 28px;
+  font-size: 18px;
+}
 
 /* ── 자금 비교 원페이지 (2026-08-03)
    공식 「정책자금 한눈에보기」 구성을 한 화면에. 행마다 우리 허브로 가는 버튼. */
