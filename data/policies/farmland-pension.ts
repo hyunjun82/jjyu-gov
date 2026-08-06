@@ -23,8 +23,8 @@ export const farmlandPensionPolicy = {
   amount: '농지 감정가·연령·지급방식에 따라 월 연금액 산정 (개인별 조회)', views: 0,
   deadline: '상시 신청 (예산 범위 내 지급 — 대기순번 발생 가능)',
   hideAmountBox: true,
-  applyUrl: FBO,
-  ctaLabel: '농지연금 신청하기',
+  applyUrl: FBO_CALC,
+  ctaLabel: '내 예상 수령액 조회하기',
   heroHook:
     '땅은 있는데 매달 들어오는 돈이 없어 답답하신 분들 많으실 텐데요. 농지연금은 60세 넘은 농업인이 농지를 담보로 맡기고 매달 연금을 받는 제도입니다. 팔지 않고도 그 땅에서 계속 농사를 짓거나 임대를 놓아 연금 외 수입까지 챙길 수 있는데요. 다만 월 얼마를 받는지는 농지 감정가와 나이에 따라 달라지니, 내 금액부터 조회해 보셔야겠죠.',
   datePublished: '2026-08-06T09:00:00+09:00', dateModified: '2026-08-06T09:00:00+09:00',
