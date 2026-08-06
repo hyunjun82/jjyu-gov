@@ -296,6 +296,7 @@ import { smartfarmYouthIncubatorPolicy, smartfarmYouthIncubatorSpokes } from './
 import { earlyOldAgePensionPolicy, earlyOldAgePensionSpokes } from './early-old-age-pension';
 import { civilServantPensionPolicy, civilServantPensionSpokes } from './civil-servant-pension';
 import { militaryPensionPolicy, militaryPensionSpokes } from './military-pension';
+import { privateSchoolPensionPolicy, privateSchoolPensionSpokes } from './private-school-pension';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -921,6 +922,7 @@ export const PoliciesById: Record<string, any> = {
   '702': earlyOldAgePensionPolicy,
   '703': civilServantPensionPolicy,
   '704': militaryPensionPolicy,
+  '705': privateSchoolPensionPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2159,6 +2161,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'early-old-age-pension': earlyOldAgePensionPolicy,
   'civil-servant-pension': civilServantPensionPolicy,
   'military-pension': militaryPensionPolicy,
+  'private-school-pension': privateSchoolPensionPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2348,6 +2351,7 @@ export const SpokesById: Record<string, any[]> = {
   '702': earlyOldAgePensionSpokes,
   '703': civilServantPensionSpokes,
   '704': militaryPensionSpokes,
+  '705': privateSchoolPensionSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3586,6 +3590,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'early-old-age-pension': earlyOldAgePensionSpokes,
   'civil-servant-pension': civilServantPensionSpokes,
   'military-pension': militaryPensionSpokes,
+  'private-school-pension': privateSchoolPensionSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
