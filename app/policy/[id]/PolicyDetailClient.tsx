@@ -505,11 +505,11 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                     </>
                   )}
 
-                  {/* 카드마다 자동 노출되는 행동 버튼.
-                      item.act = { cue, label, url } 이 있으면 "누를 이유(cue)" 한 줄을 버튼 바로 위에 붙이고
-                      그 카드의 행동에 맞는 목적지로 보낸다. 없으면 종전처럼 대표 CTA로 폴백.
-                      q-apply(전용 CTA 있음)·toolCta·ctaBlock 카드는 중복 방지로 제외 */}
-                  {item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && (item.act?.url || defaultActionHref) && (
+                  {/* 카드 행동 버튼 — act = { cue, label, url } 를 명시한 카드에만 노출.
+                      2026-08-06 Clarity 실측: 상단 버튼 클릭 50~57% vs 중간 기본(폴백) 버튼 0~1클릭.
+                      폴백을 없애 "같은 버튼 도배"(전 카드가 대표 CTA로 수렴)를 차단한다 —
+                      중요 행동 2~3개만 작성자가 act로 지정. q-apply·toolCta·ctaBlock은 중복 방지 제외 */}
+                  {item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && item.act?.url && (
                     <div style={{ marginTop: 20 }}>
                       {item.act?.cue && (
                         <p className="qa-cta-cue">{item.act.cue}</p>
