@@ -79,7 +79,7 @@ export const 국가장학금국가장학금지급일통장입금시기SpokeConte
       q: '등록금 납부 후 나중에 장학금이 환급될 때 계좌는 어떻게 등록하나요?',
       anchor: 'account-register',
       intro: '한국장학재단 홈페이지에서 장학금 수령 계좌를 등록해야 합니다. 본인 명의 계좌여야 하며, 타인 명의 계좌는 등록이 불가합니다.',
-      highlights: ['본인 명의 계좌', 'kosaf.go.kr 등록'],
+      highlights: ['본인 명의 계좌', 'kosaf.go.kr 등록', '타인 계좌 불가'],
       table: {
         headers: ['항목', '내용'],
         rows: [
@@ -98,7 +98,7 @@ export const 국가장학금국가장학금지급일통장입금시기SpokeConte
       q: '장학금이 아직 안 들어왔어요. 어떻게 확인하나요?',
       anchor: 'payment-check',
       intro: '장학금 지급 현황은 한국장학재단 홈페이지에서 확인할 수 있습니다. 지급 지연이 의심되면 장학재단 또는 대학 장학팀에 문의하세요.',
-      highlights: ['홈페이지 확인', '대학 장학팀 확인'],
+      highlights: ['홈페이지 확인', '장학재단 문의', '대학 장학팀 확인'],
       table: {
         headers: ['확인 방법', '절차'],
         rows: [
