@@ -291,6 +291,7 @@ import { workerVacationSupportPolicy, workerVacationSupportSpokes } from './work
 import { farmlandPensionPolicy, farmlandPensionSpokes } from './farmland-pension';
 import { dokdoLoveSavingsPolicy, dokdoLoveSavingsSpokes } from './dokdo-love-savings';
 import { wegovyPriceComparisonPolicy, wegovyPriceComparisonSpokes } from './wegovy-price-comparison';
+import { badLandlordCheckPolicy, badLandlordCheckSpokes } from './bad-landlord-check';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -911,6 +912,7 @@ export const PoliciesById: Record<string, any> = {
   '697': farmlandPensionPolicy,
   '698': dokdoLoveSavingsPolicy,
   '699': wegovyPriceComparisonPolicy,
+  '700': badLandlordCheckPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2144,6 +2146,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'farmland-pension': farmlandPensionPolicy,
   'dokdo-love-savings': dokdoLoveSavingsPolicy,
   'wegovy-price-comparison': wegovyPriceComparisonPolicy,
+  'bad-landlord-check': badLandlordCheckPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2328,6 +2331,7 @@ export const SpokesById: Record<string, any[]> = {
   '697': farmlandPensionSpokes,
   '698': dokdoLoveSavingsSpokes,
   '699': wegovyPriceComparisonSpokes,
+  '700': badLandlordCheckSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3561,6 +3565,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'farmland-pension': farmlandPensionSpokes,
   'dokdo-love-savings': dokdoLoveSavingsSpokes,
   'wegovy-price-comparison': wegovyPriceComparisonSpokes,
+  'bad-landlord-check': badLandlordCheckSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,

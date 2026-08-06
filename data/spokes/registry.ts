@@ -273,6 +273,7 @@ import { 국가장학금지원구간최신화SpokeContent } from '@/app/policy/[
 import { 장애수당차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/장애수당-차이';
 import { 장애인연금금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/금액';
 import { 장애인연금3급기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/3급기준';
+import { 전세보증가입방법환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세보증금반환보증/가입방법환급';
 import { 장애인연금모의계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/모의계산';
 import { 장애인연금2026인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/2026인상';
 
@@ -2327,6 +2328,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'hug-jeonse-deposit-guarantee': {
+    'how-to-join-and-refund': 전세보증가입방법환급SpokeContent,
     'guarantee-fee': 전세보증금반환보증보증료SpokeContent,
   },
 
