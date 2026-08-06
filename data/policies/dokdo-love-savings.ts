@@ -8,7 +8,7 @@
  * ⚠️ 민간 금융상품 — 조합별 기본이율 상이. 특정 수익률 단정 금지, 조건 확인·가입 행동으로 유도.
  * 문구·버튼 --draft 통과 + 사용자 승인 (2026-08-06) */
 const CU = 'https://www.cu.co.kr/cu/na/ntt/selectNttInfo.do?nttSn=112713&mi=100007';
-const CU_HOME = 'https://www.cu.co.kr/';
+const CU_HOME = 'https://www.cu.co.kr/cu/cm/cntnts/cntntsView.do?mi=100060&cntntsId=1004';
 
 export const dokdoLoveSavingsPolicy = {
   id: '698', type: 'savings' as const,
