@@ -273,6 +273,7 @@ import { 국가장학금지원구간최신화SpokeContent } from '@/app/policy/[
 import { 장애수당차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/장애수당-차이';
 import { 장애인연금금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/금액';
 import { 장애인연금3급기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/3급기준';
+import { 장애인연금모의계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/모의계산';
 import { 장애인연금2026인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/장애인연금/2026인상';
 
 /* ── 기초생활수급 (slug: basic-livelihood-allowance) ── */
@@ -1496,6 +1497,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'disability-pension': {
+    'mock-calculation': 장애인연금모의계산SpokeContent,
     '장애수당-차이': 장애수당차이SpokeContent,
     '금액':          장애인연금금액SpokeContent,
     '3급기준':       장애인연금3급기준SpokeContent,
