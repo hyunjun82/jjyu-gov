@@ -290,6 +290,7 @@ import { publicForestManagerPolicy, publicForestManagerSpokes } from './public-f
 import { workerVacationSupportPolicy, workerVacationSupportSpokes } from './worker-vacation-support';
 import { farmlandPensionPolicy, farmlandPensionSpokes } from './farmland-pension';
 import { dokdoLoveSavingsPolicy, dokdoLoveSavingsSpokes } from './dokdo-love-savings';
+import { wegovyPriceComparisonPolicy, wegovyPriceComparisonSpokes } from './wegovy-price-comparison';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
 import { artistIndustrialAccidentInsurancePolicy, artistIndustrialAccidentInsuranceSpokes } from './artist-industrial-accident-insurance';
@@ -909,6 +910,7 @@ export const PoliciesById: Record<string, any> = {
   '696': workerVacationSupportPolicy,
   '697': farmlandPensionPolicy,
   '698': dokdoLoveSavingsPolicy,
+  '699': wegovyPriceComparisonPolicy,
   '200': childMealCardPolicy,
   '201': selfSufficiencyProgramPolicy,
   '202': youthTomorrowFillingPolicy,
@@ -2141,6 +2143,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'worker-vacation-support': workerVacationSupportPolicy,
   'farmland-pension': farmlandPensionPolicy,
   'dokdo-love-savings': dokdoLoveSavingsPolicy,
+  'wegovy-price-comparison': wegovyPriceComparisonPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsurancePolicy,
@@ -2324,6 +2327,7 @@ export const SpokesById: Record<string, any[]> = {
   '696': workerVacationSupportSpokes,
   '697': farmlandPensionSpokes,
   '698': dokdoLoveSavingsSpokes,
+  '699': wegovyPriceComparisonSpokes,
   '200': childMealCardSpokes,
   '201': selfSufficiencyProgramSpokes,
   '202': youthTomorrowFillingSpokes,
@@ -3556,6 +3560,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'worker-vacation-support': workerVacationSupportSpokes,
   'farmland-pension': farmlandPensionSpokes,
   'dokdo-love-savings': dokdoLoveSavingsSpokes,
+  'wegovy-price-comparison': wegovyPriceComparisonSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
   'artist-industrial-accident-insurance': artistIndustrialAccidentInsuranceSpokes,
