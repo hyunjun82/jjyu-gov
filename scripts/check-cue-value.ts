@@ -492,7 +492,10 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
      실제 행동(신청·접수·발급·다운로드) 버튼이 최소 하나는 있게 한다. */
   if (labels.length >= 2) {
     const INFO_VERB = /(확인|보기|살펴|훑어|읽어|알아|따져|재보|비교|점검)/;
-    const ACT_VERB = /(신청|접수|등록|발급|예매|예약|가입|받기|내려받|다운|찾기|조회|계산|제출|납부|서류|양식)/;
+    /* 2026-08-07 보강: "실손보험금 청구 바로가기"가 읽는 버튼으로 잡혔다.
+       청구·환급·바로가기는 A축(APPLY_VERB)엔 있는데 여기만 빠져 있던 누락이다.
+       보험금 청구는 그 사람의 목적 행위 자체다. */
+    const ACT_VERB = /(신청|접수|등록|발급|예매|예약|가입|받기|내려받|다운|찾기|조회|계산|제출|납부|서류|양식|청구|환급|바로가기)/;
     const info = labels.filter((l) => INFO_VERB.test(l) && !ACT_VERB.test(l));
     if (info.length > Math.floor(labels.length / 2)) {
       issues.push({
