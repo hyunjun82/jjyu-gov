@@ -48,6 +48,53 @@ console.log('============================================================');
 console.log(' 팩트시트 게이트 — 사실 검증 없이 쓴 글인지 본다');
 console.log('============================================================\n');
 
+
+/**
+ * 교차출처 자기참조 검사 (2026-08-08 신설)
+ *
+ * 왜: 실손 비급여 할증 글에서 협회 FAQ 요약문("100만원 이상 최대 네 배")만 인용해
+ *     금융위 원문의 1~5등급 구간표를 놓쳤다. 팩트시트 '교차출처' 칸에 근거와 같은
+ *     기관(협회)을 적어놓고 통과시킨 것이 원인이다.
+ *     칸이 채워졌는지만 보면 같은 출처를 돌려막아도 게이트가 통과된다.
+ *
+ * 무엇을: 수치 표(| 수치 | 값 | 근거 | URL | 교차출처 |)의 각 행에서
+ *     URL 칸의 도메인과 교차출처 칸의 도메인이 같으면 자기참조로 본다.
+ *     교차출처가 "〃"(위와 같음)이면 바로 위 행의 판정을 물려받는다.
+ */
+function urlsOf(text) {
+  const out = [];
+  for (const m of text.matchAll(/(?:https?:\/\/)?[a-z0-9.-]+\.(?:go|or|co)\.kr[^\s|)]*/gi)) {
+    out.push(m[0].toLowerCase().replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/[.,)]+$/, ''));
+  }
+  return out;
+}
+
+function selfCitedRows(sheet) {
+  const bad = [];
+  let lastUrls = [];
+  let lastCross = [];
+  for (const line of sheet.split(String.fromCharCode(10))) {
+    if (!line.trim().startsWith('|')) continue;
+    const cells = line.split('|').map((c) => c.trim());
+    if (cells.length < 7) continue;                 // | 수치 | 값 | 근거 | URL | 교차출처 |
+    const label = cells[1];
+    const url = cells[4];
+    const cross = cells[5];
+    if (/^-+$/.test(label) || label === '수치' || !label) continue;
+    const urlU = url === '〃' ? lastUrls : urlsOf(url);
+    const crossU = cross === '〃' ? lastCross : urlsOf(cross);
+    lastUrls = urlU;
+    lastCross = crossU;
+    if (!urlU.length) continue;                     // URL 없는 행은 판단하지 않는다
+    /* 교차출처에 "다른 문서 URL"이 하나도 없으면 자기참조.
+       같은 기관이라도 다른 발표문(예: 금융위 2024 보도자료 ↔ 2026 보도자료)이면 교차로 인정한다.
+       "Playwright 직접 열람" 같은 문구만 있고 URL이 없으면 검증한 것이 아니라 같은 문서를 본 것이다. */
+    const hasOtherDoc = crossU.some((u) => !urlU.includes(u));
+    if (!hasOtherDoc) bad.push(label.slice(0, 40));
+  }
+  return bad;
+}
+
 const PLACEHOLDERS = [
   /\(예\/아니오\)\s*$/m,            // 관할 질문 미기입
   /^\|\s*\|\s*\|\s*\|\s*\|\s*\|$/m, // 수치 표 빈 행만
@@ -82,6 +129,20 @@ for (const f of added) {
     console.log(`❌ ${name}`);
     console.log(`   [팩트시트 미기입] ${m[1]} 에 빈 칸이 남아 있다 (placeholder ${holes.length}종 검출)`);
     console.log('   → 빈 칸은 "검증 안 한 사실"이다. Playwright로 원문을 열어 채우거나, 확인 불가면 본문에서 그 수치를 뺀다\n');
+    fail++;
+    continue;
+  }
+
+
+  // 교차출처 자기참조 — 같은 기관 안에서 돌려막았는지 (2026-08-08 신설)
+  const selfCited = selfCitedRows(sheet);
+  if (selfCited.length > 0) {
+    console.log(`❌ ${name}`);
+    console.log(`   [교차출처 자기참조] ${m[1]} 의 수치 ${selfCited.length}개가 근거와 같은 기관만 인용한다`);
+    console.log(`      → ${selfCited.slice(0, 4).join(' / ')}${selfCited.length > 4 ? ' …' : ''}`);
+    console.log('   → 다른 기관 원문을 열어 교차출처 칸을 채운다 (예: 협회 요약문 ↔ 금융위 보도자료, 기관 안내 ↔ law.go.kr 조문)');
+    console.log('      2026-08-07 실손 할증 사고: 협회 요약문만 보고 금융위 5등급 구간표를 놓쳤다');
+    console.log('');
     fail++;
     continue;
   }
