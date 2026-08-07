@@ -1,0 +1,54 @@
+{
+  "seed": "독도사랑적금",
+  "synonyms": [],
+  "collectedAt": "2026-08-06T00:22:37.020Z",
+  "naver": {
+    "autocomplete": [
+      "신협 독도사랑적금",
+      "독도사랑적금"
+    ],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "신협 독도사랑적금"
+    ]
+  },
+  "merged": {
+    "all": [
+      "신협 독도사랑적금",
+      "독도사랑적금"
+    ],
+    "byIntent": {
+      "info": [
+        "신협 독도사랑적금",
+        "독도사랑적금"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "신협 독도사랑적금",
+        "독도사랑적금"
+      ],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}
