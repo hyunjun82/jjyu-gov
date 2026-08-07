@@ -88,5 +88,8 @@ export const 실손보험건강검진청구SpokeContent: SpokeData = {
   ],
   sources: [
     { name: '손해보험협회 — 실손의료보험 FAQ', url: KNIA },
+    { name: '보험업감독업무시행세칙 별표 15 — 실손의료보험 표준약관(협회 FAQ의 근거 규정)', url: 'https://www.law.go.kr/행정규칙/보험업감독업무시행세칙' },
+    { name: '국민건강보험공단 — 건강검진 결과조회', url: 'https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpTargetResultPerson.do' },
+    { name: '실손24 — 실손보험금 청구', url: 'https://www.silson24.or.kr/claim/web/' },
   ],
 };

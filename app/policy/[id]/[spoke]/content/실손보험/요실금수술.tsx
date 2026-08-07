@@ -139,5 +139,6 @@ export const 실손보험요실금수술SpokeContent: SpokeData = {
   sources: [
     { name: '손해보험협회 공시실 — 실손의료보험 FAQ(보장하지 않는 내용·청구지급)', url: KNIA_FAQ },
     { name: '실손24 — 실손보험금 청구', url: SILSON24 },
+    { name: '보험업감독업무시행세칙 별표 15 — 실손의료보험 표준약관(협회 FAQ의 근거 규정)', url: 'https://www.law.go.kr/행정규칙/보험업감독업무시행세칙' },
   ],
 };

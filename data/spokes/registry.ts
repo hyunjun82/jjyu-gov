@@ -236,6 +236,7 @@ import { 실손보험간병비대안SpokeContent } from '@/app/policy/[id]/[spok
 import { 실손보험치질수술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/치질수술';
 import { 실손보험요실금수술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/요실금수술';
 import { 실손보험한방병원MRISpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/한방병원MRI';
+import { 실손보험보청기급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보청기급여';
 import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/다이렉트비교';
 import { 실손보험실효부활SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실효부활';
 import { 실손보험카드결제SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/카드결제';
@@ -1496,6 +1497,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'hemorrhoid-surgery-claim': 실손보험치질수술SpokeContent,
     'incontinence-surgery-denied': 실손보험요실금수술SpokeContent,
     'oriental-hospital-mri': 실손보험한방병원MRISpokeContent,
+    'hearing-aid-benefit': 실손보험보청기급여SpokeContent,
     'direct-comparison': 실손보험다이렉트비교SpokeContent,
     'lapse-revival': 실손보험실효부활SpokeContent,
     'card-payment': 실손보험카드결제SpokeContent,
