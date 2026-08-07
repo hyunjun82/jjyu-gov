@@ -230,6 +230,7 @@ import { 실손보험중복보상SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실손보험만기SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/만기';
 import { 실손보험청구방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/청구방법';
 import { 실손보험실손24청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실손24청구';
+import { 실손보험비급여할증SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비급여할증';
 import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/다이렉트비교';
 import { 실손보험실효부활SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실효부활';
 import { 실손보험카드결제SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/카드결제';
@@ -1484,6 +1485,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'maturity': 실손보험만기SpokeContent,
     'claim-documents': 실손보험청구방법SpokeContent,
     'silson24-claim': 실손보험실손24청구SpokeContent,
+    'nonpayment-premium-surcharge': 실손보험비급여할증SpokeContent,
     'direct-comparison': 실손보험다이렉트비교SpokeContent,
     'lapse-revival': 실손보험실효부활SpokeContent,
     'card-payment': 실손보험카드결제SpokeContent,
