@@ -17,7 +17,9 @@
 import type { SpokeData } from '../../SpokeClient';
 
 const EASYLAW = 'https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=722&ccfNo=2&cciNo=2&cnpClsNo=2';
-const WORK24 = 'https://www.work24.go.kr/cm/z/b/1100/selectEmphInsrJobsSrch.do';
+/* 2026-08-07 정정: selectEmphInsrJobsSrch.do 는 404였다(검증 없이 넣은 URL).
+   Playwright로 확인한 살아있는 실업급여 제도안내(신청절차·신청양식 포함) 페이지로 교체. */
+const WORK24 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000387';
 
 export const 실업급여프리랜서소득신고SpokeContent: SpokeData = {
   h1: '실업급여 받으면서 프리랜서 3.3 일하면 신고해야 하나',

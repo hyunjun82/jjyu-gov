@@ -2,7 +2,10 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 2026-08-07 버튼 추가: 원래 act 가 하나도 없던 글이라 클릭 동선이 없었다.
    실손24는 보험개발원 운영(우리 스포크 silson24-claim 참조), 검진결과는 건보공단 건강iN */
-const NHIS_CHECKUP = 'https://www.nhis.or.kr/nhis/healthin/retrieveExmdCheckupResult.do';
+/* 2026-08-07 정정: retrieveExmdCheckupResult.do 는 404였다(검증 없이 넣었던 URL).
+   Playwright로 nhis 메인에서 실제 메뉴를 찾아 확인 — 건강검진 결과조회는 아래 경로이며
+   로그인 페이지로 리다이렉트되는 것이 정상 동작(본인 결과 조회이므로). */
+const NHIS_CHECKUP = 'https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpTargetResultPerson.do';
 const SILSON24 = 'https://www.silson24.or.kr/claim/web/';
 
 const KNIA = 'https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do';
