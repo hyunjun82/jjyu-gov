@@ -99,6 +99,7 @@ import { 전세대항력SpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { 전세사기예방SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/전세사기예방';
 import { 전세보증금반환SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/보증금반환';
 import { 전세계약갱신SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/계약갱신증액';
+import { 확정일자온라인신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/확정일자온라인신청';
 import { trafficCriminal12SpokeContent } from '@/app/policy/[id]/[spoke]/content/traffic-accident/criminal-penalty-12-negligence';
 import { trafficSettlementSpokeContent } from '@/app/policy/[id]/[spoke]/content/traffic-accident/settlement-criminal-agreement';
 import { trafficCompensationSpokeContent } from '@/app/policy/[id]/[spoke]/content/traffic-accident/compensation-fault-ratio';
@@ -2803,6 +2804,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'jeonse-protection': {
+    'online-fixed-date-apply': 확정일자온라인신청SpokeContent,
     '대항력우선변제권': 전세대항력SpokeContent,
     '전세사기예방': 전세사기예방SpokeContent,
     '보증금반환': 전세보증금반환SpokeContent,
