@@ -231,6 +231,11 @@ import { 실손보험만기SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 실손보험청구방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/청구방법';
 import { 실손보험실손24청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실손24청구';
 import { 실손보험비급여할증SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비급여할증';
+import { 실손보험치매보상SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/치매보상';
+import { 실손보험간병비대안SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/간병비대안';
+import { 실손보험치질수술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/치질수술';
+import { 실손보험요실금수술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/요실금수술';
+import { 실손보험한방병원MRISpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/한방병원MRI';
 import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/다이렉트비교';
 import { 실손보험실효부활SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실효부활';
 import { 실손보험카드결제SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/카드결제';
@@ -1486,6 +1491,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'claim-documents': 실손보험청구방법SpokeContent,
     'silson24-claim': 실손보험실손24청구SpokeContent,
     'nonpayment-premium-surcharge': 실손보험비급여할증SpokeContent,
+    'dementia-coverage': 실손보험치매보상SpokeContent,
+    'nursing-care-alternative': 실손보험간병비대안SpokeContent,
+    'hemorrhoid-surgery-claim': 실손보험치질수술SpokeContent,
+    'incontinence-surgery-denied': 실손보험요실금수술SpokeContent,
+    'oriental-hospital-mri': 실손보험한방병원MRISpokeContent,
     'direct-comparison': 실손보험다이렉트비교SpokeContent,
     'lapse-revival': 실손보험실효부활SpokeContent,
     'card-payment': 실손보험카드결제SpokeContent,
