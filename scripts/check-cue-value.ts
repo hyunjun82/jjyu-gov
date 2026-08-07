@@ -55,7 +55,9 @@ const SHALLOW_PATTERNS: RegExp[] = [
  */
 /* 도메인 자체가 그 행동의 서비스인 곳 — 루트가 곧 신청 화면 입구다.
    기금e든든(enhuf)은 로그인 후 SPA라 딥 URL이 없다 (2026-08-04 확인 후 추가) */
-const SERVICE_ROOTS = ['enhuf.molit.go.kr', 'safedriving.or.kr', 'cont.knia.or.kr', 'e-insmarket.or.kr'];
+/* 인터넷등기소(iros)는 WebSquare SPA — 메뉴가 전부 javascript:void(null) 이고
+   클릭해도 주소가 index.jsp 그대로다. 딥 URL이 존재하지 않는다 (2026-08-07 Playwright 확인) */
+const SERVICE_ROOTS = ['enhuf.molit.go.kr', 'safedriving.or.kr', 'cont.knia.or.kr', 'e-insmarket.or.kr', 'iros.go.kr'];
 const isShallow = (u: string) => {
   const [base, query] = u.split('?');
   if (query && query.length > 2) return false;
