@@ -334,8 +334,11 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
   const hasHook = (c: string) =>
     NUM_WITH_UNIT.test(c) || LOSS.test(c) || DEADLINE.test(c) || QUESTION.test(c) || CONTRAST.test(c);
 
+  /* 2026-08-07 사장님 지시로 비활성화: 후킹 강제가 중간·마지막 카드까지 걸려
+     문구를 억지로 짜내게 만들고 작성 시간을 잡아먹었다. 후킹은 상단(heroHook)에서
+     자연스럽게 나오면 되고 게이트로 강제하지 않는다. (규칙 자체는 docs/hook-patterns.md 유지) */
   const flat = cues.filter((c) => !hasHook(c));
-  if (cues.length >= 3 && flat.length > Math.floor(cues.length / 2)) {
+  if (false && cues.length >= 3 && flat.length > Math.floor(cues.length / 2)) {
     issues.push({
       axis: 'H',
       msg: `후킹 없는 설명형 문구가 ${flat.length}/${cues.length}개 — 예: "${flat[0].slice(0, 30)}…"`,

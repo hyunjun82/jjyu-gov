@@ -100,6 +100,7 @@ import { 전세사기예방SpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { 전세보증금반환SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/보증금반환';
 import { 전세계약갱신SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/계약갱신증액';
 import { 확정일자온라인신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/전세/확정일자온라인신청';
+import { 위고비실비청구기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/위고비/실비청구기준';
 import { 노령연금청구서류지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금/청구서류지급일';
 import { 노령연금세금건강보험료SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금/세금건강보험료';
 import { 노령연금유족연금중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/노령연금/유족연금중복';
@@ -2816,6 +2817,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'survivor-pension-overlap': 노령연금유족연금중복SpokeContent,
     'housing-pension-reduction': 노령연금주택연금감액SpokeContent,
     'payment-suspension-restore': 노령연금지급정지복구SpokeContent,
+  },
+
+  'wegovy-price-comparison': {
+    'insurance-claim-criteria': 위고비실비청구기준SpokeContent,
   },
 
   'jeonse-protection': {
