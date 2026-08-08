@@ -8,7 +8,7 @@ export const unemploymentCreditPolicy: PolicyData = {
   cat: '연금', catSlug: 'pension',
   org: '보건복지부·국민연금공단',
   applyUrl: 'https://www.nps.or.kr/elctcvlcpt/comm/getOHAC0000M5.do?menuId=MN24001073',
-  ctaLabel: '실업크레딧 신청하기 (국민연금공단 공식)',
+  ctaLabel: '실업크레딧 온라인으로 신청하기',
   metaDescription: '실업크레딧은 구직급여 수급자가 국민연금 보험료 25%만 납부하면 나머지 75%(월 최대 70만 원 소득 기준)를 최대 12개월간 국가가 지원합니다.',
 
   keyFacts: {

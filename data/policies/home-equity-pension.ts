@@ -14,7 +14,7 @@ export const homeEquityPensionPolicy: PolicyData = {
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://www.hf.go.kr/ko/sub03/sub03_02_03_01.do',
-  ctaLabel: '주택연금 가입신청 안내 확인하기 (한국주택금융공사 공식)',
+  ctaLabel: '주택연금 가입 절차와 서류 확인하기',
 
   keyFacts: {
     가입연령: {
