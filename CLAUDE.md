@@ -109,7 +109,12 @@
 0) 공식 출처 확정(Playwright) → 1) `npx tsx scripts/collect-keywords.ts "{키워드}"`(자동완성) + Playwright로 네이버/구글 SERP PAA·연관검색어 직접 수확(생략 금지, 절대규칙 6) → 2) `docs/title-style-24.md` 정본 스타일로 타이틀 합성 → 3) 공식 홈페이지 Playwright 1:1 대조(절대규칙 7) → 4) 사용자 확인 후 Format A로 스포크 작성 → 5) `registry.ts` 등록 → 6) `data/policies/{slug}.ts` spokes 배열 업데이트 → 7) 품질 게이트 통과 후 push.
 
 ### 🚨 신규 스포크 필수 통과 게이트 (어기면 push 차단 — 실제로 당함)
-1. **`qa[]` ≥ 7개**, `q:` 총합 ≥ 12개(qa 7 + faqData 5) — `check-spoke-quality.sh`가 검사.
+1. **소제목 개수는 타이틀이 정한다** (2026-08-08 확정). 고정 7개가 아니다.
+   타이틀에 든 롱테일 키워드마다 질문형(PAA) 소제목 하나씩 — 3개면 3개, 5개면 5개.
+   사용자가 실제로 더 궁금해하는 게 있으면 그때 추가한다. 채우려고 붙이지 않는다.
+   하한은 `qa[]` ≥ 3 / `q:` 총합 ≥ 6 (빈 글 방지용). `check-spoke-quality.sh`가 검사.
+   ⚠ 원래 ≥7 고정이었고, 그 탓에 실손 스포크 24개가 전부 정확히 7개로 채워졌다.
+   "타이틀이 약속한 걸 소제목이 덮는가"는 `check-user-value`·`check-title-body-match.sh`가 본다.
 2. **Format A 필수**(Format B 금지 — 상세 `.claude/rules/design-system.md`).
 3. **export 이름 고유** — registry 기존 이름과 충돌 시 접두사 추가.
 4. **manifest id 채번** — `PoliciesById` 최대 숫자 +1, 4개 맵(ById/BySlug × Policies/Spokes) 모두 등록.

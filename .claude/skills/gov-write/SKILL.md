@@ -103,7 +103,28 @@ grep -rl "{키워드}" data/policies/*.ts | head
 
 ## Phase 0: 기준 케이스 학습 (생략 불가)
 
-신규 정책 작성 전 아래 이미지를 Read 도구로 직접 확인한다.
+### 0-A. 타이틀 캡처 — 주제를 받으면 이것부터 Read 한다
+
+**주제를 받고 가장 먼저 하는 행동.** 타이틀 후보를 입에 올리기 전에 연다.
+주제와 가장 가까운 1장은 반드시, 가능하면 5장 전부.
+
+```
+Read: C:\Users\user\gov-jjyu\reference\titles\대출 타이틀.png
+Read: C:\Users\user\gov-jjyu\reference\titles\보험타이틀.png
+Read: C:\Users\user\gov-jjyu\reference\titles\생활타이틀.png
+Read: C:\Users\user\gov-jjyu\reference\titles\세금 타이틀.png
+Read: C:\Users\user\gov-jjyu\reference\titles\연금 타이틀.png
+```
+
+열고 나서 채운다 — 이 두 줄을 못 쓰면 안 연 것이다.
+- 어느 캡처의 어느 줄을 봤나 (그 타이틀을 그대로 옮겨적기):
+- 그 구조를 왜 고르나 (한 문장):
+
+**왜 여기 있나 (2026-08-08)**: 이 캡처는 CLAUDE.md 산문과 push 시점 리마인더에만
+적혀 있었고, 정작 작업을 시작할 때 읽는 이 문서에는 없었다. 그래서 매번 건너뛰었다.
+"기억하고 있다"로 넘어가지 않는다 — 카드뉴스 이미지를 매번 여는 것과 같은 자리다.
+
+### 0-B. 카드뉴스 기준 케이스
 
 ```
 Read: C:\Users\user\gov-jjyu\reference\cards\청년미래적금\01.jpg ~ 07.jpg
@@ -111,6 +132,14 @@ Read: C:\Users\user\gov-jjyu\reference\cards\고유가지원금\01.jpg ~ 08.jpg
 ```
 
 이 두 케이스보다 정보량이 적으면 작성 중단 후 보강.
+
+### 0-C. 이 세 가지가 전부다 (사장님 확정)
+
+1. **캡처 보고 타이틀** — 0-A 를 먼저 하고, 실검색어 조각으로 조립한다. `~법` 종결 금지
+2. **버튼 문구가 클릭하게** — 서론 마지막 문장에서 버튼 동사가 나온다
+3. **소제목은 사용자 궁금증** — 사용자가 실제로 묻는 말로 먼저 확정하고, 그 단어로 타이틀을 조립한다
+
+나머지(품질·오차·오해 소지)는 이 셋 다음이다.
 
 ---
 
