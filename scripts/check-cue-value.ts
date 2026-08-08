@@ -569,10 +569,38 @@ if (all) {
       diff = '';
     }
   }
-  targets = diff
+  /* 문구·버튼이 그대로면 검사하지 않는다.
+     2026-08-08: 카테고리(catSlug) 한 줄만 바꾼 연금 허브 26개가 검사 대상이 되면서,
+     문구는 손대지도 않은 기존 글의 문제로 push 가 막혔다.
+     check-factsheet·check-duplicate 에 넣은 것과 같은 원칙 —
+     "바뀌었나"가 아니라 "무엇이 바뀌었나"를 본다. */
+  /* 이 게이트가 보는 건 "본문 문구"다. 상단 CTA(ctaLabel·applyUrl)는
+     check-user-value 가 이미 검사한다. 라벨 한 줄 고쳤다고 본문 문구 전체를
+     요구하면, 오늘처럼 CTA 오타 수정이 허브 7개 재작성으로 번진다. */
+  const COPY_FIELD = new RegExp('\\b(cue|act|heroHook|intro|q|a|h1)\\s*:');
+  const touchesCopy = (f: string) => {
+    let d = '';
+    try {
+      d = execSync(`git diff -U0 origin/main...HEAD -- "${f}"`, { encoding: 'utf8' });
+    } catch {
+      return true; // 판단 불가면 검사 대상으로 남긴다
+    }
+    if (!d.trim()) return true;
+    return d
+      .split('\n')
+      .filter((l) => (l.startsWith('+') || l.startsWith('-')) && !l.startsWith('+++') && !l.startsWith('---'))
+      .some((l) => COPY_FIELD.test(l));
+  };
+  const cand = diff
     .split('\n')
     .map((l) => l.trim())
     .filter((l) => l.endsWith('.ts') && !l.endsWith('manifest.ts') && fs.existsSync(l));
+  const kept = cand.filter(touchesCopy);
+  const skipped = cand.length - kept.length;
+  if (skipped > 0) {
+    console.log(` ℹ 문구·버튼이 그대로인 ${skipped}개는 검사에서 제외 (메타데이터만 변경)\n`);
+  }
+  targets = kept;
 }
 
 /* ── 스포크 버튼 슬롯 검사 ──────────────────────────────
