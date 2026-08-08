@@ -3,7 +3,7 @@ export const artistPensionPolicy = {
   id: '50', type: 'cash' as const,
   title: '예술인 국민연금 보험료 지원, 활동증명부터 다른 지원 중복까지',
   titleKeywords: { k1: '예술인', k2: '국민연금', k3: '보험료', k4: '문화체육관광부' },
-  slug: 'artist-pension', org: '문화체육관광부', cat: '지원금', catSlug: 'fund',
+  slug: 'artist-pension', org: '문화체육관광부', cat: '연금', catSlug: 'pension',
   amount: '국민연금 보험료 50% (월 최대 37,950원)',
   deadline: '2026-08-31 23:59 접수 마감', views: 0,
   applyUrl: 'https://www.kawf.kr/notice/sub01View.do?selIdx=19310',

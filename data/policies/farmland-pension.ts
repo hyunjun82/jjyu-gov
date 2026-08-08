@@ -19,7 +19,7 @@ export const farmlandPensionPolicy = {
     k3: '신청',
     k4: '60세',
   },
-  slug: 'farmland-pension', org: '농림축산식품부·한국농어촌공사', cat: '지원금', catSlug: 'fund',
+  slug: 'farmland-pension', org: '농림축산식품부·한국농어촌공사', cat: '연금', catSlug: 'pension',
   amount: '농지 감정가·연령·지급방식에 따라 월 연금액 산정 (개인별 조회)', views: 0,
   deadline: '상시 신청 (예산 범위 내 지급 — 대기순번 발생 가능)',
   hideAmountBox: true,

@@ -23,7 +23,7 @@ export const civilServantPensionPolicy = {
     k3: '계산법',
     k4: '확인',
   },
-  slug: 'civil-servant-pension', org: '인사혁신처·공무원연금공단', cat: '지원금', catSlug: 'fund',
+  slug: 'civil-servant-pension', org: '인사혁신처·공무원연금공단', cat: '연금', catSlug: 'pension',
   amount: '평균기준소득월액 × 재직기간별 적용비율 × 재직연수 × 1.7%', views: 0,
   deadline: '퇴직급여 청구 시효 5년 — 미청구 시 소멸',
   hideAmountBox: true,

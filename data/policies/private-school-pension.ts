@@ -21,7 +21,7 @@ export const privateSchoolPensionPolicy = {
     k3: '수령액 계산',
     k4: '청구',
   },
-  slug: 'private-school-pension', org: '교육부·사립학교교직원연금공단', cat: '지원금', catSlug: 'fund',
+  slug: 'private-school-pension', org: '교육부·사립학교교직원연금공단', cat: '연금', catSlug: 'pension',
   amount: '퇴직연금 — 10년 이상 재직 시 매월 지급 (청구시효 5년)', views: 0,
   deadline: '퇴직급여 청구 — 퇴직한 날부터 5년 이내 (지나면 소멸)',
   hideAmountBox: true,

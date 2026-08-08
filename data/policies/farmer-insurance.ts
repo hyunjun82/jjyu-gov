@@ -3,7 +3,7 @@ export const farmerInsurancePolicy = {
   id: '44', type: 'cash' as const,
   title: '농업인 건강·연금보험료 지원, 농외소득 있어도 받나요?',
   titleKeywords: { k1: '농업인', k2: '건강보험료', k3: '국민연금', k4: '농림축산식품부' },
-  slug: 'farmer-insurance', org: '농림축산식품부', cat: '지원금', catSlug: 'fund',
+  slug: 'farmer-insurance', org: '농림축산식품부', cat: '연금', catSlug: 'pension',
   amount: '건보료 최대 50% 감면 + 국민연금 보험료 일부',
   deadline: '연중 신청', views: 0,
   applyUrl: 'https://www.nhis.or.kr/nhis/minwon/retrieveZnCtrbBugwaDescList.do',

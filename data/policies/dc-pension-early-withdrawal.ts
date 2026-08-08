@@ -3,7 +3,7 @@ export const dcPensionEarlyWithdrawalPolicy = {
   id: '229', type: 'service' as const,
   title: '퇴직연금 중도인출 사유와 세금, DC형만 되나요?',
   titleKeywords: { k1: '퇴직연금 중도인출', k2: '중도인출 사유', k3: 'DC형', k4: '중도인출 세금' },
-  slug: 'dc-pension-early-withdrawal', org: '고용노동부', cat: '생활', catSlug: 'life',
+  slug: 'dc-pension-early-withdrawal', org: '고용노동부', cat: '연금', catSlug: 'pension',
   amount: '사유별 인출한도 상이(대출상환 목적은 상환필요금액 이하로 제한)',
   deadline: '해당 사유 발생 시 수시 신청',
   views: 0,

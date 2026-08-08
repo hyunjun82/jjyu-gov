@@ -3,7 +3,7 @@ export const nationalPensionSurvivorBenefitPolicy = {
   id: '336', type: 'service' as const,
   title: '국민연금 유족연금 사망진단서 챙겨서 방문 청구하는 법',
   titleKeywords: { k1: '유족연금 지급청구', k2: '사망진단서 등 사망을 증명할 수 있는 서류', k3: '유족연금 수급권 변경신고', k4: '접수·처리기관은 국민연금공단지사' },
-  slug: 'national-pension-survivor-benefit', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
+  slug: 'national-pension-survivor-benefit', org: '보건복지부·정부24', cat: '연금', catSlug: 'pension',
   amount: '수수료 없음', deadline: '상시 신청 가능(처리 총 1개월)', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000302', ctaLabel: '정부24 국민연금 유족연금 지급청구 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

@@ -18,6 +18,8 @@ const categories = [
   { id: 'loan',   label: '대출',   icon: '🏦', href: '/category/loan' },
   { id: 'youth',  label: '청년',   icon: '👤', href: '/category/youth' },
   { id: 'welfare',label: '복지',   icon: '❤️', href: '/category/welfare' },
+  { id: 'pension',label: '연금',   icon: '👵', href: '/category/pension' },
+  { id: 'insurance', label: '보험', icon: '🛡️', href: '/category/insurance' },
   { id: 'life',   label: '생활정보', icon: '🩺', href: '/category/life' },
   { id: 'issue',  label: '발급·신청', icon: '📄', href: '/category/issue' },
 ];

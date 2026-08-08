@@ -3,7 +3,7 @@ export const deathBenefitLiquidationPolicy = {
   id: '258', type: 'service' as const,
   title: '사망보험금 연금으로 받기, 유동화율·기간 어떻게 정하나',
   titleKeywords: { k1: '사망보험금 유동화', k2: '만 55세부터 신청할 수 있어', k3: '유동화 비율은 최대 90%', k4: '유동화 기간(연금 지급기간)' },
-  slug: 'death-benefit-liquidation', org: '금융위원회', cat: '보험', catSlug: 'insurance',
+  slug: 'death-benefit-liquidation', org: '금융위원회', cat: '연금', catSlug: 'pension',
   amount: '유동화 1건당 평균 초년도 지급액 약 455.8만원(월 환산 약 37.9만원)',
   deadline: '상시(만 55세 이상 대상자 상시 신청 가능, 2026.1.2부터 전 생보사 확대)',
   applyUrl: 'https://www.e-insmarket.or.kr/m/wholeIns/wholeInsList.knia',

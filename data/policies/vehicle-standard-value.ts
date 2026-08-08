@@ -7,7 +7,7 @@ export const vehicleStandardValuePolicy = {
   id: '644', type: 'service' as const,
   title: '차량기준가액 조회하고 내 차 보험가액 확인하는 법',
   titleKeywords: { k1: '차량기준가액', k2: '보험개발원', k3: '자기차량손해', k4: '조회' },
-  slug: 'vehicle-standard-value', org: '보험개발원', cat: '생활정보', catSlug: 'life',
+  slug: 'vehicle-standard-value', org: '보험개발원', cat: '보험', catSlug: 'insurance',
   amount: '조회 무료 (일일 5회·월 10회·연 20회 제한)',
   deadline: '상시 조회 (기준년월 분기별 갱신)',
   views: 0,

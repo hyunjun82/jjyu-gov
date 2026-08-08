@@ -3,7 +3,7 @@ export const nationalPensionVoluntaryEnrollmentPolicy = {
   id: '325', type: 'service' as const,
   title: '국민연금 임의가입 무소득자도 원할 때 가입·탈퇴 신청하는 법',
   titleKeywords: { k1: '임의가입', k2: '소득이 없어 사업장가입자·지역가입자에 해당하지 않는 사람', k3: '본인이 원하는 때', k4: '접수·처리기관은 국민연금공단지사' },
-  slug: 'national-pension-voluntary-enrollment', org: '보건복지부·정부24', cat: '발급·신청', catSlug: 'issue',
+  slug: 'national-pension-voluntary-enrollment', org: '보건복지부·정부24', cat: '연금', catSlug: 'pension',
   amount: '수수료 없음', deadline: '본인이 원하는 때 상시 신청 가능', views: 0,
   applyUrl: 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14600000309', ctaLabel: '정부24 국민연금 임의·임의계속가입자 가입(탈퇴) 신청 바로가기',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-07-17T09:00:00+09:00',

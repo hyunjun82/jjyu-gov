@@ -3,7 +3,7 @@ export const oldAgePensionPolicy = {
   id: '274', type: 'cash' as const,
   title: '노령연금 몇 살부터 받는지 조회하고 예상연금액 계산하는 법',
   titleKeywords: { k1: '노령연금', k2: '지급개시연령', k3: '조기노령연금', k4: '국민연금공단' },
-  slug: 'old-age-pension', org: '국민연금공단', cat: '연금', catSlug: 'insurance',
+  slug: 'old-age-pension', org: '국민연금공단', cat: '연금', catSlug: 'pension',
   amount: '기본연금액+부양가족연금액(가입기간·소득 따라 상이)',
   deadline: '지급개시연령 도달 시 신청', views: 0,
   applyUrl: 'https://www.nps.or.kr/comm/quick/getOHAH0011M0.do', ctaLabel: '노령연금 예상연금액 조회 바로가기',

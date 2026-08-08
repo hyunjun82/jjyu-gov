@@ -24,7 +24,7 @@ export const militaryPensionPolicy = {
     k3: '수령액 계산',
     k4: '신청방법',
   },
-  slug: 'military-pension', org: '국방부·국군재정관리단', cat: '지원금', catSlug: 'fund',
+  slug: 'military-pension', org: '국방부·국군재정관리단', cat: '연금', catSlug: 'pension',
   amount: '퇴역연금 — 20년 이상 복무 시 사망 시까지 매월 지급', views: 0,
   deadline: '퇴역연금/일시금 신청 — 전역 후 홈페이지에서 직접 청구',
   hideAmountBox: true,

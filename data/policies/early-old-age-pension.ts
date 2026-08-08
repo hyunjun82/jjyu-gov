@@ -23,7 +23,7 @@ export const earlyOldAgePensionPolicy = {
     k3: '감액',
     k4: '계산',
   },
-  slug: 'early-old-age-pension', org: '보건복지부·국민연금공단', cat: '지원금', catSlug: 'fund',
+  slug: 'early-old-age-pension', org: '보건복지부·국민연금공단', cat: '연금', catSlug: 'pension',
   amount: '조기수령 시 연 6%씩 감액 — 5년 당기면 원래 연금의 70%', views: 0,
   deadline: '상시 신청 (가입 10년 이상 + 출생연도별 조기 지급개시연령 도달 시)',
   hideAmountBox: true,

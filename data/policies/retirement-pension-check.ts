@@ -21,7 +21,7 @@ export const retirementPensionCheckPolicy = {
     k3: '미청구',
     k4: '찾기',
   },
-  slug: 'retirement-pension-check', org: '금융감독원·금융결제원', cat: '금융', catSlug: 'finance',
+  slug: 'retirement-pension-check', org: '금융감독원·금융결제원', cat: '연금', catSlug: 'pension',
   amount: '조회 무료 — 어느 금융사에 얼마 쌓였는지 한 번에 확인', views: 0,
   deadline: '상시 조회 (통합연금포털 주소가 금감원으로 통합됨)',
   hideAmountBox: true,

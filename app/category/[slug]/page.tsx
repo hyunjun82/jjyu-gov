@@ -11,14 +11,21 @@ const CATEGORY_LABELS: Record<string, string> = {
   tax:     '세금',
   medical: '의료',
   insurance: '보험',
+  pension: '연금',
   life:    '생활정보',
   issue:   '발급·신청',
   housing: '주거',
   finance: '금융',
+  /* 2026-08-08: catSlug 는 쓰이는데 여기 없어서 /category/{slug} 가 404 나던 것들.
+     허브 33개가 존재하지 않는 카테고리를 가리키고 있었다 (service 27·savings 4·childcare 1·legal 1). */
+  service: '민원·서비스',
+  savings: '저축',
+  childcare: '보육',
+  legal: '법률',
 };
 
 /* 정부지원금이 아닌(생활정보·지식·FAQ) 카테고리 — h1 접미사·설명을 다르게 */
-const NON_SUBSIDY_CATS = new Set(['life', 'issue']);
+const NON_SUBSIDY_CATS = new Set(['life', 'issue', 'pension', 'insurance', 'service', 'legal', 'finance']);
 
 export const dynamicParams = false;
 
@@ -46,6 +53,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     tax: `재산세·자동차세처럼 매년 내는 세금 ${count}건. 납부 기한과 감면 대상, 분납 방법을 정리했습니다.`,
     medical: `진료비·검진 지원 ${count}건. 건강보험으로 어디까지 되고 무엇이 본인부담인지 항목별로 확인하세요.`,
     insurance: `4대보험과 민간보험 관련 ${count}건. 가입 자격과 보험료 경감 요건을 기준으로 정리했습니다.`,
+    pension: `국민연금·기초연금·퇴직연금·주택연금 ${count}건. 몇 살부터 얼마를 받는지, 다른 연금과 겹치면 깎이는지가 제도마다 달라 내 경우부터 확인하셔야 합니다.`,
+    service: `조회·발급·변경처럼 한 번에 끝내는 민원 ${count}건. 어느 사이트에서 어떤 인증으로 되는지, 방문해야 하는지부터 갈라 놓았습니다.`,
+    savings: `청년도약계좌처럼 목돈을 만드는 적금 ${count}건. 가입 나이와 소득 요건, 중도해지 시 잃는 정부기여금까지 따져 보세요.`,
+    childcare: `아이 키우며 받는 보육 지원 ${count}건. 어린이집·유치원 비용과 가정양육수당이 나이에 따라 어떻게 갈리는지 정리했습니다.`,
+    legal: `분쟁과 처벌 기준을 다루는 법률 정보 ${count}건. 기한을 넘기면 되돌릴 수 없는 절차가 많아 날짜부터 확인하셔야 합니다.`,
+    finance: `예금·연금저축·신용점수 같은 돈 관리 ${count}건. 세액공제 한도와 중도해지 불이익처럼 가입 전에 알아야 손해를 안 보는 부분을 모았습니다.`,
     housing: `전세·임대·주거급여 ${count}건. 보증금 한도와 소득 요건이 제도마다 달라 내 조건에 맞는 쪽을 골라야 합니다.`,
     life: `등본 발급부터 각종 신고까지 생활 절차 ${count}건. 어디서 떼는지, 수수료가 얼마인지, 며칠 걸리는지 확인하세요.`,
     issue: `증명서 발급과 신청 절차 ${count}건. 준비물과 접수 기관을 미리 챙기면 헛걸음하지 않습니다.`,

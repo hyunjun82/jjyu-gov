@@ -23,7 +23,7 @@ export const pensionInsuranceVsSavingsPolicy = {
     k3: '세액공제',
     k4: '확인',
   },
-  slug: 'pension-insurance-vs-savings', org: '금융감독원', cat: '금융', catSlug: 'finance',
+  slug: 'pension-insurance-vs-savings', org: '금융감독원', cat: '연금', catSlug: 'pension',
   amount: '세액공제는 "연금저축" 명칭 계좌만 — 내 계좌부터 판별', views: 0,
   deadline: '상시 (연말정산 전 내 계좌 확인 권장)',
   hideAmountBox: true,

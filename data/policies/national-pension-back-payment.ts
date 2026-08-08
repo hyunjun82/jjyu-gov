@@ -3,7 +3,7 @@ export const nationalPensionBackPaymentPolicy = {
   id: '228', type: 'service' as const,
   title: '국민연금 추납 대상기간과 조건, 최대 119개월까지 되나요?',
   titleKeywords: { k1: '국민연금 추납', k2: '추후납부', k3: '10년 미만', k4: '최대 119개월' },
-  slug: 'national-pension-back-payment', org: '국민연금공단', cat: '발급·신청', catSlug: 'issue',
+  slug: 'national-pension-back-payment', org: '국민연금공단', cat: '연금', catSlug: 'pension',
   amount: '추납월수만큼 × 신청월 기준 연금보험료(임의가입자는 상한 있음)',
   deadline: '상시 신청(대상기간 있는 가입자·임의가입자·임의계속가입자)',
   views: 0,

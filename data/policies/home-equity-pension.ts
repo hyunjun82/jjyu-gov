@@ -6,7 +6,7 @@ export const homeEquityPensionPolicy: PolicyData = {
   title: '주택연금 가입조건과 지급방식, 세금혜택은 어떻게 되나요?',
   titleKeywords: { k1: '집을 담보로 맡기고 평생 매달 연금을 받는', k2: '공시가격 12억원 이하', k3: '재산세를 25% 감면받으며', k4: '종신지급방식' },
   org: '한국주택금융공사',
-  catSlug: 'welfare',
+  catSlug: 'pension',
   amount: '월 최대 수백만원 (주택가격·연령별 상이)',
   deadline: '상시',
   summary: '55세 이상 고령자가 보유 주택을 담보로 맡기고 평생 매달 연금을 받을 수 있는 역모기지 제도.',

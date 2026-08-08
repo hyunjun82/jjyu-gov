@@ -3,7 +3,7 @@ export const nationalPensionLumpSumPolicy = {
   id: '230', type: 'service' as const,
   title: '국민연금 반환일시금 지급조건과 소멸시효, 60세 안 되면 못 받나요?',
   titleKeywords: { k1: '국민연금 반환일시금', k2: '사망일시금', k3: '소멸시효 10년', k4: '가입기간 10년 미만' },
-  slug: 'national-pension-lump-sum', org: '국민연금공단', cat: '발급·신청', catSlug: 'issue',
+  slug: 'national-pension-lump-sum', org: '국민연금공단', cat: '연금', catSlug: 'pension',
   amount: '납부한 연금보험료(사용자부담금 포함) + 대통령령이 정하는 이자',
   deadline: '사유 발생일부터 5년(60세 도달 사유는 10년) 이내 청구',
   views: 0,

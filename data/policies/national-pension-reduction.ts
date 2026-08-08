@@ -10,7 +10,7 @@ export const nationalPensionReductionPolicy = {
   id: '158', type: 'cash' as const,
   title: '노령연금 감액 기준 519만원으로 상향, 2025년분 자동환급까지',
   titleKeywords: { k1: '노령연금', k2: '감액', k3: '국민연금', k4: '소득기준' },
-  slug: 'national-pension-reduction', org: '보건복지부', cat: '지원금', catSlug: 'fund',
+  slug: 'national-pension-reduction', org: '보건복지부', cat: '연금', catSlug: 'pension',
   amount: '감액 기준 월 519만 3,511원으로 상향',
   deadline: '2026.06.17 시행 (별도 신청 불필요)', views: 0,
   applyUrl: 'https://www.nps.or.kr/elctcvlcpt/comm/getOHAC0000M3.do?menuId=MN24000936',

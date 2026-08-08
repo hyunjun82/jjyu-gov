@@ -3,7 +3,7 @@ export const housingPensionPolicy = {
   id: '236', type: 'service' as const,
   title: '주택연금 가입조건 55세, 사망하면 집은 어떻게 되나요?',
   titleKeywords: { k1: '주택연금 가입조건이 어떻게 되나요', k2: '부부 모두 사망하면 집값 정산은 어떻게 되나요', k3: '부부합산 공시가격 등이 12억원 이하', k4: '우대형 주택연금' },
-  slug: 'housing-pension', org: '한국주택금융공사(HF)', cat: '보험', catSlug: 'insurance',
+  slug: 'housing-pension', org: '한국주택금융공사(HF)', cat: '연금', catSlug: 'pension',
   amount: '가입기준: 부부합산 공시가격 12억원 이하, 초기보증료 주택가격의 1.0%',
   deadline: '상시(연중 신청 가능)',
   applyUrl: 'https://www.hf.go.kr/ko/sub03/sub03_01_01_01.do',
