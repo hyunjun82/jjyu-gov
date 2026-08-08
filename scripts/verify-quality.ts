@@ -70,7 +70,10 @@ function verify(policy: PolicyData): CheckResult[] {
   const qa = policy.qa || [];
   const r: CheckResult[] = [];
 
-  r.push({ id: 'Q1', label: 'QA cards count', pass: qa.length >= 7, actual: qa.length, expected: '>=7' });
+  /* 2026-08-08: >=7 → >=3. 소제목 개수는 타이틀이 정한다(고정 7개 폐지).
+     check-spoke-quality.sh 를 3으로 낮췄는데 여기가 7로 남아 있어, 6개짜리 글이
+     pre-push ④단계 Q1에서 차단됐다. 커버리지는 check-user-value 가 본다. */
+  r.push({ id: 'Q1', label: 'QA cards count', pass: qa.length >= 3, actual: qa.length, expected: '>=3' });
 
   const shortIntros = qa.filter((q) => !q.intro || q.intro.length < 200);
   r.push({

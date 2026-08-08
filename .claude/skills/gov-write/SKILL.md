@@ -42,7 +42,7 @@ argument-hint: "[키워드]"
 
 | 기준 | 조건 | 작성 중 체크 포인트 |
 |------|------|-------------------|
-| Q1 | qa 배열 ≥ 7개 | 7번째 qa 항목 작성 후 ✓ |
+| Q1 | qa 배열 ≥ 3개 (개수는 타이틀이 정한다) | 타이틀이 약속한 키워드를 다 덮었는지 ✓ |
 | Q2 | 각 intro ≥ 200자 | intro 입력 후 글자 수 세고 ✓ |
 | Q3 | 각 qa에 시각 요소 ≥ 1개 | qa 항목마다 table/box/box2 중 하나 필수 |
 | Q4 | qa 전체 table ≥ 2개 | 2번째 table 추가 후 ✓ |
@@ -63,10 +63,10 @@ argument-hint: "[키워드]"
 6. 다음 qa로 이동
 ```
 
-### qa 7개 완료 후 즉시 확인
+### qa 작성 완료 후 즉시 확인
 
 ```
-Q1 qa 개수:       __개  (≥7 ?)
+Q1 qa 개수:       __개  (≥3, 타이틀 키워드를 다 덮었나 ?)
 Q2 최소 intro:    __자  (≥200 ?)
 Q3 시각없는 qa:   __개  (=0 이어야 함)
 Q4 table 합계:    __개  (≥2 ?)
@@ -207,7 +207,7 @@ export const {PolicyName}Policy: PolicyData = {
   },
 
   qa: [
-    // Q1: 7개 이상
+    // Q1: 3개 이상 (2026-08-08 — 개수는 타이틀이 정한다)
     {
       anchor: '...',
       question: '...?',
@@ -217,7 +217,7 @@ export const {PolicyName}Policy: PolicyData = {
       box: { ... },          // Q3+Q5: 전체 3개 이상
       sourceNote: '* 출처: {부처} 카드뉴스 ({날짜})',  // Q7: 모든 qa
     },
-    // ... 총 7개 이상
+    // ... 소제목 개수는 타이틀이 약속한 키워드 수를 따른다
   ],
 
   faq: [
@@ -243,7 +243,7 @@ npx tsx scripts/check-cue-value.ts            # 문구·버튼 7축 + H(후킹 �
 npx tsx scripts/check-user-value.ts           # 타이틀↔소제목·버튼 CTA
 npx tsx scripts/check-freshness.ts            # 검수일·딥링크·지난 마감
 npx tsx scripts/check-duplicate.ts            # 기존 글과 겹침
-bash scripts/check-spoke-quality.sh           # (스포크일 때) Format A·qa≥7
+bash scripts/check-spoke-quality.sh           # (스포크일 때) Format A·qa≥3
 ```
 
 전부 커밋 후에 돌려야 실제 검사가 된다(게이트는 origin/main...HEAD diff만 본다).
@@ -314,7 +314,7 @@ pre-push hook이 게이트 전체를 자동 실행 → FAIL이면 push 차단.
 | 각 intro | ≥ 200자 | 작성 중 확인 |
 | faqData[] | ≥ 5개 | pre-push 차단 |
 | sources[] | ≥ 3개 | 작성 중 확인 |
-| 전체 q: 개수 | ≥ 12개 (qa 7 + faqData 5) | pre-push 차단 |
+| 전체 q: 개수 | ≥ 6개 (qa 3 + faqData 3) — 빈 글 방지 최소선 | pre-push 차단 |
 
 **미달 파일은 `npm run verify:spokes` 또는 git push 시 자동 차단됨.**
 
@@ -324,7 +324,7 @@ pre-push hook이 게이트 전체를 자동 실행 → FAIL이면 push 차단.
 1. 검색 키워드 수집 (Google PAA + Naver 연관검색어)
 2. 타이틀 4개 확정 (사용자 승인 후)
 3. 템플릿: .claude/skills/gov-write/templates/spoke-template.tsx 복사
-4. {PLACEHOLDER} 채우기 — qa 7개 필수, 각 intro 200자 이상
+4. {PLACEHOLDER} 채우기 — 소제목 개수는 타이틀이 정한다(고정 7개 아님). 각 intro 200자 이상
 5. faqData 5개 작성 (실제 PAA/검색 쿼리 기반)
 6. sources 3개 이상 (정부 1차 출처)
 7. registry.ts import + SpokesRegistry 등록
@@ -335,7 +335,7 @@ pre-push hook이 게이트 전체를 자동 실행 → FAIL이면 push 차단.
 ### 자가 점검 (파일 저장 전 필수)
 
 ```
-[ ] qa[] 개수: __개  (≥7)
+[ ] qa[] 개수: __개  (≥3 · 타이틀 키워드를 다 덮었나)
 [ ] 가장 짧은 intro: __자  (≥200)
 [ ] faqData[] 개수: __개  (≥5)
 [ ] sources[] 개수: __개  (≥3)
