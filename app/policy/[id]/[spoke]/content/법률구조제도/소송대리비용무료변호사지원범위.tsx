@@ -94,7 +94,7 @@ export const 법률구조제도소송대리비용무료변호사지원범위Spok
   faqData: [
     {
       q: '변호사 비용의 30%가 실제로 얼마 정도 되나요?',
-      a: '과거 데이터 기준 전액 본인 부담 사례의 평균 비용은 약 17만 원(2016년 기준)이었습니다. 공단 변호사 비용은 시중 변호사 비용보다 훨씬 저렴한 수준입니다.',
+      a: '공단 변호사 비용은 시중 변호사 비용보다 훨씬 저렴한 수준입니다.',
       source: '대한법률구조공단',
       sourceUrl: 'https://www.klac.or.kr/legalstruct/outlineOfLitigationStruct.do',
     },
