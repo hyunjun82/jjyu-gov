@@ -21,6 +21,7 @@
 import { execSync } from 'child_process';
 import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
+import { changedFiles, partition, PROBE } from './lib/changed-files';
 
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
 
@@ -32,38 +33,15 @@ const isContentFile = (f: string) =>
   (/^data\/policies\/[^/]+\.ts$/.test(f) && !f.endsWith('manifest.ts')) ||
   /^app\/policy\/\[id\]\/\[spoke\]\/content\/.+\.tsx$/.test(f);
 
-/**
- * 이 수정이 "사실"을 건드렸나.
- *
- * 2026-08-08: 신규(A)만 보던 것을 수정(M)까지 넓혔더니, 카테고리 한 줄(catSlug)만
- * 바꾼 41개 글이 전부 팩트시트를 요구하며 막혔다. 사실을 안 건드린 수정까지 막으면
- * 게이트를 --no-verify 로 넘기게 되고, 그러면 게이트가 없는 것과 같아진다.
- *
- * 그래서 "바뀌었나"가 아니라 "무엇이 바뀌었나"를 본다.
- * 추가·변경된 줄에 수치·출처·본문이 있으면 사실 수정 → 팩트시트 필요.
- * catSlug·ctaLabel·breadcrumb 같은 메타데이터만 바뀌었으면 통과.
- */
-function touchesFacts(f: string): boolean {
-  const diff = sh(`git diff -U0 origin/main...HEAD -- "${f}"`);
-  const changed = diff
-    .split('\n')
-    .filter((l) => /^[+-]/.test(l) && !/^(\+\+\+|---)/.test(l))
-    .map((l) => l.slice(1));
-  if (!changed.length) return false;
-  for (const l of changed) {
-    if (/\d[\d,.]*\s*(원|%|만원|억|개월|년|일|세|점|배)/.test(l)) return true; // 수치
-    if (/\b(source|url|verifiedAt|sourceUrl)\s*:/.test(l)) return true;        // 출처
-    if (/\b(intro|content|summary|q|a|question|value|text)\s*:/.test(l)) return true; // 본문
-    if (/rows:|headers:|table:/.test(l)) return true;                          // 표
-  }
-  return false;
-}
-
-const status = sh('git diff --name-status origin/main...HEAD').split('\n');
-const addedNew = status.filter((l) => /^A\t/.test(l)).map((l) => l.slice(2).trim()).filter(isContentFile);
-const modified = status.filter((l) => /^M\t/.test(l)).map((l) => l.slice(2).trim()).filter(isContentFile);
-const modifiedFacts = modified.filter(touchesFacts);
-const metaOnly = modified.length - modifiedFacts.length;
+/* 사실(수치·출처·본문)을 건드린 수정만 팩트시트를 요구한다.
+   판정은 scripts/lib/changed-files.ts 한 곳에 있다 — 게이트마다 복사했더니
+   같은 병이 factsheet → duplicate → cue-value 순으로 재발했다 (2026-08-08). */
+const all = changedFiles(isContentFile);
+const addedNew = all.filter((x) => x.kind === 'A').map((x) => x.file);
+const modified = all.filter((x) => x.kind === 'M').map((x) => x.file);
+const part = partition(modified, PROBE.facts);
+const modifiedFacts = part.kept;
+const metaOnly = part.skipped;
 if (metaOnly > 0) {
   console.log(` ℹ 수정 ${modified.length}개 중 ${metaOnly}개는 메타데이터만 바뀜(수치·출처·본문 변경 없음) — 팩트시트 요구 안 함\n`);
 }
