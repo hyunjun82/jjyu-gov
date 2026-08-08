@@ -5,6 +5,9 @@ const TMONEY = 'https://pay.tmoney.co.kr/ncs/pct/mbrsintg/ReadIntgMbrsJoinGd.dev
 
 export const 기후동행카드환급신청기간SpokeContent: SpokeData = {
   h1: '기후동행카드 환급 언제 들어오나, 신청기간 6.10~8.31 환급일',
+  heroHook:
+    '기후동행카드 환급 신청해놓고 언제 들어오나 통장만 들여다보게 되죠. 환급은 신청한다고 바로 나오는 게 아니라 정해진 기간에 몰아서 지급됩니다. 그리고 신청기간을 놓치면 그 회차는 그냥 넘어갑니다. 소급해서 받을 방법이 없는데요. 그럼 내 카드가 등록돼 있는지부터 확인하셔야겠죠.',
+  heroAct: { label: '내 교통카드 등록 확인하기', href: 'https://pay.tmoney.co.kr/ncs/pct/mbrsintg/ReadIntgMbrsJoinGd.dev' },
   breadcrumb: '신청기간·환급일',
   description: '기후동행카드 3만원 페이백 신청기간은 2026년 6월 10일부터 8월 31일까지이며, 사용분에 따라 4차수로 나뉩니다. 환급일은 1차 6.30, 2차 7.30, 3차 8.31, 4차 9.30부터 순차 지급되며, 은행 이체에 최대 10일이 더 걸릴 수 있습니다.',
   datePublished: '2026-07-01T09:00:00+09:00',
