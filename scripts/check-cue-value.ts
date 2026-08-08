@@ -131,8 +131,18 @@ const AWKWARD: { re: RegExp; why: string }[] = [
   { re: /계산이\s*섭니다|판단이\s*섭니다|각이\s*나옵니다/, why: '속어에 가깝다 — "계산됩니다"·"판단하실 수 있습니다"' },
 ];
 
+/* 라벨에 쓰면 안 되는 말 (2026-08-09 사장님 지적: "효능 효과 찾아 보기는 뭐야..참..")
+   버튼은 사용자가 하는 행동이지, 문서의 항목 이름이 아니다.
+   "효능·효과"는 허가서 안의 소제목이고, "찾아보기"는 뒤져본다는 뜻이라 행동이 흐려진다. */
+const LABEL_JARGON: { re: RegExp; why: string }[] = [
+  { re: /찾아보기$/, why: '"찾아보기"는 뒤져본다는 뜻이라 행동이 흐리다 — 확인하기·조회하기' },
+  { re: /효능\s*[·ㆍ.]?\s*효과/, why: '"효능·효과"는 허가서 안의 항목 이름이다 — 사용자 말로는 "허가사항"' },
+  { re: /(원문|별표|고시문|조문)\s*(보기|열람)/, why: '문서 이름을 그대로 버튼에 쓰면 행동이 안 보인다' },
+];
+
 function judgeLabel(raw: string): string | null {
   const t = raw.trim();
+  for (const { re, why } of LABEL_JARGON) if (re.test(t)) return why;
   if (LABEL_IDIOM.test(t)) return '"…안내 보기 / 자세히 보기" 류 관용구 — 정보지 행동이 아니다';
   if (!VERB_END.test(t)) return '행동으로 끝나지 않는다 — 무엇을 하는 버튼인지 안 보인다';
   const words = t.split(/\s+/);

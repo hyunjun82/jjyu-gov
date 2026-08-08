@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-정정배치.md */
 import type { PolicyData } from '@/lib/policy-types';
 
 export const veteranEmploymentSupportPolicy: PolicyData = {
@@ -13,7 +14,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-08-01T09:00:00+09:00',
   applyUrl: 'https://job.mpva.go.kr/jobSptPly/content01.do?menuKey=326',
-  ctaLabel: '취업지원 대상자인지 확인하기 (국가보훈부 취업정보시스템)',
+  ctaLabel: '보훈 취업지원 대상자 확인하기',
   badge: '취업가점 5~10%',
   tags: ['국가유공자', '유가족', '취업지원', '보훈특별고용', '공무원특별채용', '가점취업', '국가보훈부'],
 
@@ -98,7 +99,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
           ['가점취업', '취업지원대상자별 만점의 5~10% 가점 부여'],
         ],
       },
-      act: { cue: '세 갈래 중 어디로 갈지는 내가 취업지원 대상자인지부터 갈립니다. 유형별 대상 범위표에서 내 칸이 있는지 1분이면 대조됩니다.', label: '취업지원 대상 확인하기', url: 'https://job.mpva.go.kr/jobSptPly/content01.do?menuKey=326' },
+      act: { cue: '세 갈래 중 어디로 가실지는 취업지원 대상자인지부터 갈립니다. 유형별 범위표에 내 칸이 있는지 1분이면 보이니, 그럼 대상자 등록부터 신청하셔야겠죠.', label: '취업지원 대상자 신청하기', url: 'https://job.mpva.go.kr/jobSptPly/content01.do?menuKey=326' },
     },
     {
       anchor: 'eligibility',
@@ -106,7 +107,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
       intro: '국가유공자 취업 지원 대상은 독립유공자, 국가유공자, 보훈보상대상자, 5·18민주유공자, 특수임무유공자, 고엽제 후유의증 환자 본인과 그 유가족(배우자·자녀·부모 등)입니다. 유가족의 범위는 유공자 유형에 따라 다르며, 독립유공자는 손자녀까지 지원 대상에 포함됩니다. 2012년 7월 1일 이후 등록한 경우 (조)부모, 상이 7급 판정자의 자녀 등은 일부 제외될 수 있습니다.',
       highlights: ['독립유공자: 본인·배우자·자녀·손자녀', '국가유공자: 본인·배우자·자녀·(조)부모', '보훈보상대상자: 본인·배우자', '5·18민주·특수임무유공자: 본인·배우자·자녀·(조)부모'],
       sourceNote: '국가보훈부 취업정보시스템 취업지원 대상자(2026.08.01 확인)',
-      act: { cue: '유형은 같아도 등록 시기(2012.7.1 기준)에 따라 (조)부모 포함 여부가 달라집니다. 공식 대상자 표에서 등록 시기까지 맞춰 대조해야 헛걸음이 없습니다.', label: '유형별 대상 범위 대조하기', url: 'https://job.mpva.go.kr/jobSptPly/content01.do?menuKey=326' },
+      act: { cue: '같은 유형인데 왜 나만 안 되나 싶으셨다면 등록 시기 때문일 수 있습니다. 2012년 7월 1일을 기준으로 (조)부모가 들어가는지가 갈리는데요. 그럼 등록 시기까지 맞춰 내 칸을 짚어보셔야겠죠.', label: '내 유형 대상 범위 대조하기', url: 'https://job.mpva.go.kr/jobSptPly/content01.do?menuKey=326' },
       table: {
         headers: ['유공자 유형', '지원 대상 범위'],
         rows: [
@@ -133,7 +134,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
           '의무비율 미달 기업체에 보훈관서가 5배수 이내 추천',
         ],
       },
-      act: { cue: '의무고용은 기다리는 제도가 아니라 취업희망 신청서를 낸 사람 중에서 5배수로 추천되는 구조입니다. 신청서를 안 내면 추천 명단에 오를 수 없습니다.', label: '보훈특별고용 절차 확인하기', url: 'https://job.mpva.go.kr/jobSptPly/content12.do?menuKey=324' },
+      act: { cue: '순서가 오기를 기다리고 계셨다면 그렇게 돌아가지 않습니다. 취업희망 신청서를 내신 분들 중에서 5배수로 추천되기 때문에, 신청서를 안 내시면 명단에 아예 오르지 않는데요.', label: '취업희망 신청서 접수하기', url: 'https://job.mpva.go.kr/jobSptPly/content12.do?menuKey=324' },
     },
     {
       anchor: 'civil-servant-special-hire',
@@ -151,7 +152,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
           ['군', '준사관·부사관, 6급 이하 일반군무원·기능군무원'],
         ],
       },
-      act: { cue: '특별채용 공고는 일반 채용 사이트에 잘 안 뜹니다. 보훈부 취업정보시스템의 특별채용 게시판이 정식 창구라, 여기서 놓치면 그 자리는 그냥 지나갑니다.', label: '특별채용 공고 조회하기', url: 'https://job.mpva.go.kr/govRecurit/publicEmpmnList.do?menuKey=322' },
+      act: { cue: '늘 보시던 채용 사이트에는 특별채용 공고가 잘 안 뜹니다. 보훈부 취업정보시스템 게시판이 정식 창구라, 여기서 지금 올라와 있는 공고부터 조회해 보셔야겠죠.', label: '특별채용 공고 조회하기', url: 'https://job.mpva.go.kr/govRecurit/publicEmpmnList.do?menuKey=322' },
     },
     {
       anchor: 'how-to-apply',
@@ -168,7 +169,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
           '문의: 국가보훈부 콜센터 1577-0606',
         ],
       },
-      act: { cue: '서류 4종 중 하나만 빠져도 접수가 멈춥니다. 증명서는 정부24에서 미리 떼 두면 보훈청을 두 번 가지 않아도 됩니다.', label: '취업지원대상자 증명서 신청하기', url: 'https://job.mpva.go.kr/slave.do?menuKey=221' },
+      act: { cue: '서류 4종 중 하나만 빠져도 접수가 멈춥니다. 증명서를 미리 떼 두시면 보훈청을 두 번 가지 않으셔도 되는데요.', label: '취업지원대상자 증명서 신청하기', url: 'https://job.mpva.go.kr/slave.do?menuKey=221' },
     },
     {
       anchor: 'point-benefit',
@@ -185,7 +186,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
           '가점 합격 인원은 선발예정인원의 30% 이내',
         ],
       },
-      act: { cue: '내 가점이 5%인지 10%인지는 대상자 유형표로 정해져 있습니다. 원서 내기 전에 공식 기준표에서 내 비율부터 확정해 두면 전략이 달라집니다.', label: '내 가점 비율 확인하기', url: 'https://job.mpva.go.kr/slave.do?menuKey=241' },
+      act: { cue: '내 가점이 5%인지 10%인지 모르고 원서를 쓰시면 전략이 안 섭니다. 유형표에 이미 정해져 있으니, 그럼 내 가점 비율부터 조회해 보셔야겠죠.', label: '내 가점 비율 조회하기', url: 'https://job.mpva.go.kr/slave.do?menuKey=241' },
     },
     {
       anchor: 'excluded-cases',
@@ -203,7 +204,7 @@ export const veteranEmploymentSupportPolicy: PolicyData = {
           '개별 사항은 지역 보훈청에서 반드시 확인',
         ],
       },
-      act: { cue: '제외 규정은 등록 시기·유형이 얽혀 문서만으로 단정하기 어렵습니다. 자주하는 질문에 내 사례와 같은 답이 이미 있는지 먼저 뒤져보면 전화 한 통이 줄어듭니다.', label: '내 사례 답변 찾아보기', url: 'https://job.mpva.go.kr/slave.do?menuKey=217' },
+      act: { cue: '내 경우가 제외에 걸리는지 문서만 봐서는 헷갈리시죠. 등록 시기와 유형이 얽혀 있어서 그렇습니다. 나와 같은 사례에 대한 답이 이미 올라와 있는데요.', label: '내 사례 답변 확인하기', url: 'https://job.mpva.go.kr/slave.do?menuKey=217' },
     },
   ],
 
