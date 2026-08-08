@@ -98,7 +98,12 @@ export function touchesFacts(file: string): boolean {
   if (!d.trim()) return true;
   const changed = d
     .split('\n')
-    .filter((l) => (l.startsWith('+') || l.startsWith('-')) && !l.startsWith('+++') && !l.startsWith('---'));
+    .filter((l) => (l.startsWith('+') || l.startsWith('-')) && !l.startsWith('+++') && !l.startsWith('---'))
+    /* 버튼 목적지(applyUrl)는 근거가 아니라 행동 링크다 — check-user-value(딥링크 여부)와
+       check-freshness(죽은 CTA)가 담당한다. 여기서 잡으면 죽은 CTA 를 고칠 때마다
+       팩트시트를 새로 쓰게 되고, 그러면 87개를 못 고친다 (2026-08-08).
+       근거 URL(source: { url: ... })은 그대로 사실 변경으로 본다. */
+    .filter((l) => !/\bapplyUrl\s*:/.test(l));
   if (!changed.length) return false;
 
   const NON_URL = /\d[\d,.]*\s*(원|%|만원|억|개월|년|일|세|점|배)|\b(intro|content|summary|q|a|question|value|text|verifiedAt)\s*:|rows:|headers:|table:/;
