@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-정정배치.md */
 import type { SpokeData } from '../../SpokeClient';
 
 export const 법률구조제도소송대리비용무료변호사지원범위SpokeContent: SpokeData = {

@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-정정배치.md */
 import { PolicyData, SpokeData } from '@/lib/policy-types';
 
 export const legalAidSystemPolicy: PolicyData = {
