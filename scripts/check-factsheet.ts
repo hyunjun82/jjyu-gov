@@ -31,7 +31,7 @@ function sh(cmd: string): string {
 // origin/main 기준 신규(A) 파일만
 const added = sh('git diff --name-status origin/main...HEAD')
   .split('\n')
-  .filter((l) => l.startsWith('A\t'))
+  .filter((l) => /^[AM]\t/.test(l)) // 2026-08-08: 신규(A)만 보던 것을 수정(M)까지 — 기존 글을 고칠 때도 팩트시트를 갱신해야 한다
   .map((l) => l.slice(2).trim())
   .filter(
     (f) =>
@@ -159,11 +159,27 @@ function selfCitedRows(sheet) {
     /* 교차출처에 "다른 문서 URL"이 하나도 없으면 자기참조.
        같은 기관이라도 다른 발표문(예: 금융위 2024 보도자료 ↔ 2026 보도자료)이면 교차로 인정한다.
        "Playwright 직접 열람" 같은 문구만 있고 URL이 없으면 검증한 것이 아니라 같은 문서를 본 것이다. */
+    /* 미확보 판정을 먼저 한다. 사유 문장에 "law.go.kr에서 막혔다"처럼 도메인이 들어가는데,
+       이걸 교차출처 URL로 세면 못 구했다고 적은 행이 오히려 통과한다 (2026-08-08 실제로 겪음). */
+    const miss = cross.match(/미확보:\s*(.+)$/);
+    if (miss) {
+      if (miss[1].trim().length >= 15) unresolved.push(label.slice(0, 40) + ' — ' + miss[1].trim());
+      else bad.push(label.slice(0, 40));
+      continue;
+    }
     const hasOtherDoc = crossU.some((u) => !urlU.includes(u));
-    if (!hasOtherDoc) bad.push(label.slice(0, 40));
+    if (hasOtherDoc) continue;
+    /* 교차출처를 못 구한 경우, 왜 못 구했는지를 적으면 차단 대신 경고로 넘긴다.
+       (2026-08-08: 마운자로 정정 때 law.go.kr 별표·생보협회·금감원이 모두 봇 차단이라
+        확인된 정정까지 못 나가는 상황이 생겼다. 다만 그냥 통과시키면 조용히 묻히므로
+        push 때마다 경고 목록으로 계속 뜬다. 사유 없이 비워두면 그대로 차단.) */
+    bad.push(label.slice(0, 40));
   }
   return bad;
 }
+
+/** 교차출처를 못 구했다고 사유를 적은 행 — 차단하지 않되 매번 보이게 한다 */
+const unresolved: string[] = [];
 
 const PLACEHOLDERS = [
   /\(예\/아니오\)\s*$/m,            // 관할 질문 미기입
@@ -254,6 +270,11 @@ for (const f of added) {
 }
 
 console.log('');
+if (unresolved.length) {
+  console.log('⚠ 교차출처 미확보 (차단 안 함 — 사유가 적혀 있음). 뚫리면 바로 채운다:');
+  for (const u of unresolved) console.log(`   · ${u}`);
+  console.log('   접근이 막혔을 때 순서: Claude in Chrome → law.go.kr/easylaw 원문 → korea.kr·보도자료\n');
+}
 if (fail > 0) {
   console.log('============================================================');
   console.log(` 팩트시트 미비 ${fail}개 — push 차단`);
