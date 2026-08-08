@@ -1,0 +1,63 @@
+{
+  "seed": "실비 중복가입",
+  "synonyms": [],
+  "collectedAt": "2026-08-07T09:19:26.431Z",
+  "naver": {
+    "autocomplete": [
+      "실비 중복 가입",
+      "실비 중복 가입 가능"
+    ],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [
+      "실비 중복가입"
+    ],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "실비보험 중복가입"
+    ]
+  },
+  "merged": {
+    "all": [
+      "실비 중복 가입",
+      "실비 중복 가입 가능",
+      "실비 중복가입",
+      "실비보험 중복가입"
+    ],
+    "byIntent": {
+      "info": [
+        "실비 중복 가입",
+        "실비 중복가입",
+        "실비보험 중복가입"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [],
+      "confirm": [
+        "실비 중복 가입 가능"
+      ],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": [
+        "실비 중복 가입",
+        "실비 중복 가입 가능",
+        "실비 중복가입",
+        "실비보험 중복가입"
+      ]
+    }
+  }
+}

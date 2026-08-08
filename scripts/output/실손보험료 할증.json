@@ -1,0 +1,72 @@
+{
+  "seed": "실손보험료 할증",
+  "synonyms": [],
+  "collectedAt": "2026-08-07T07:56:24.860Z",
+  "naver": {
+    "autocomplete": [],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [
+      "실손보험료 할증"
+    ],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "실손 청구 금액",
+      "실손 통원 의료비",
+      "실손24 수수료",
+      "실손 3대비급여",
+      "실손24 참여병원"
+    ]
+  },
+  "merged": {
+    "all": [
+      "실손보험료 할증",
+      "실손 청구 금액",
+      "실손 통원 의료비",
+      "실손24 수수료",
+      "실손 3대비급여",
+      "실손24 참여병원"
+    ],
+    "byIntent": {
+      "info": [
+        "실손보험료 할증",
+        "실손 통원 의료비",
+        "실손24 수수료",
+        "실손 3대비급여",
+        "실손24 참여병원"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [
+        "실손 청구 금액"
+      ],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "실손 통원 의료비",
+        "실손24 수수료",
+        "실손 3대비급여",
+        "실손24 참여병원"
+      ],
+      "B_amount": [
+        "실손 청구 금액"
+      ],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [
+        "실손보험료 할증"
+      ],
+      "F_compare": []
+    }
+  }
+}

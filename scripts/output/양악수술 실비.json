@@ -1,0 +1,56 @@
+{
+  "seed": "양악수술 실비",
+  "synonyms": [],
+  "collectedAt": "2026-08-07T09:18:01.480Z",
+  "naver": {
+    "autocomplete": [],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [
+      "양악수술 실비보험",
+      "양악수술 실비",
+      "양악수술 실비 디시"
+    ],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": []
+  },
+  "merged": {
+    "all": [
+      "양악수술 실비보험",
+      "양악수술 실비",
+      "양악수술 실비 디시"
+    ],
+    "byIntent": {
+      "info": [
+        "양악수술 실비보험",
+        "양악수술 실비",
+        "양악수술 실비 디시"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "양악수술 실비보험",
+        "양악수술 실비",
+        "양악수술 실비 디시"
+      ],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}

@@ -61,6 +61,76 @@ console.log('============================================================\n');
  *     URL 칸의 도메인과 교차출처 칸의 도메인이 같으면 자기참조로 본다.
  *     교차출처가 "〃"(위와 같음)이면 바로 위 행의 판정을 물려받는다.
  */
+
+/**
+ * 캡처 확인 칸 검사 (2026-08-08 신설 — 절대규칙 7-A)
+ *
+ * 왜: "캡처를 봤는가"는 push 시점에 흔적이 남지 않아 직접 검사할 수 없다.
+ *     대신 팩트시트 "0-B. 원문 캡처 확인"에 **캡처에서 본 것을 구체적으로** 적게 한다.
+ *     안 보고는 못 적는다. 빈칸이거나 "예"만 있으면 차단.
+ *     (2026-08-08 사장님 지적: 캡처를 넣어줬는데도 안 보고 타이틀을 지었다)
+ */
+function captureNotChecked(sheet) {
+  const i = sheet.indexOf('0-B');
+  if (i < 0) return '0-B 캡처 확인 섹션 자체가 없다';
+  const seg = sheet.slice(i, i + 900);
+  if (/\(예\/아니오\)/.test(seg)) return '캡처 확인 칸이 템플릿 그대로다';
+  const m = seg.match(/캡처에서 확인한 것[^:]*:\s*(.*)/);
+  const detail = (m && m[1] || '').trim();
+  if (detail.length < 15) return '"캡처에서 확인한 것"이 비었거나 너무 짧다 — 표 구조·단서 위치를 구체적으로 적는다';
+  return null;
+}
+
+/**
+ * 오해 소지 검사 (2026-08-08 신설)
+ *
+ * 왜: 수치가 다 맞아도 "대부분/경우가 많다"처럼 원문에 없는 빈도를 붙이면 오해가 된다.
+ *     2026-08-07 어제 글 11곳에서 발견해 손으로 고쳤다. 손으로 찾으면 또 놓친다.
+ *     원문에 비율·통계가 없으면 빈도 표현을 쓰지 않는다.
+ *     단, 독자 공감 표현("당황하셨을 겁니다")은 사실 주장이 아니므로 제외한다.
+ */
+/* 이스케이프 사고를 피하려고 정규식 대신 직접 파싱한다.
+   (2026-08-08: new RegExp 문자열 이스케이프가 깨져 검사가 조용히 통과했다 — 검사기가 검사를 못 하면 없는 것과 같다) */
+const FREQ_WORDS = ['대부분', '대개', '경우가 많', '흔합니다'];
+const EMPATHY_WORDS = ['당황하셨', '놀라셨', '겪으셨', '아셨다면', '계신 분이 많', '기억나지 않는 경우가 많', '막막하셨', '포기하셨'];
+
+/** intro:/content:/a: 뒤에 오는 작은따옴표 문자열을 모두 뽑는다 */
+function quotedTexts(src) {
+  const out = [];
+  for (const key of ['intro:', 'content:', 'a:']) {
+    let from = 0;
+    for (;;) {
+      const k = src.indexOf(key, from);
+      if (k < 0) break;
+      const q1 = src.indexOf("'", k + key.length);
+      if (q1 < 0) break;
+      const q2 = src.indexOf("'", q1 + 1);
+      if (q2 < 0) break;
+      const body = src.slice(q1 + 1, q2);
+      if (body.length >= 40) out.push(body);
+      from = q2 + 1;
+    }
+  }
+  return out;
+}
+
+function riskyFrequency(src) {
+  const bad = [];
+  for (const text of quotedTexts(src)) {
+    for (const w of FREQ_WORDS) {
+      let i = text.indexOf(w);
+      while (i >= 0) {
+        const around = text.slice(Math.max(0, i - 40), i + 40);
+        if (!EMPATHY_WORDS.some((e) => around.includes(e))) {
+          bad.push(around.replace(/\s+/g, ' ').trim());
+        }
+        i = text.indexOf(w, i + 1);
+      }
+    }
+  }
+  return [...new Set(bad)];
+}
+
 function urlsOf(text) {
   const out = [];
   for (const m of text.matchAll(/(?:https?:\/\/)?[a-z0-9.-]+\.(?:go|or|co)\.kr[^\s|)]*/gi)) {
@@ -142,6 +212,31 @@ for (const f of added) {
     console.log(`      → ${selfCited.slice(0, 4).join(' / ')}${selfCited.length > 4 ? ' …' : ''}`);
     console.log('   → 다른 기관 원문을 열어 교차출처 칸을 채운다 (예: 협회 요약문 ↔ 금융위 보도자료, 기관 안내 ↔ law.go.kr 조문)');
     console.log('      2026-08-07 실손 할증 사고: 협회 요약문만 보고 금융위 5등급 구간표를 놓쳤다');
+    console.log('');
+    fail++;
+    continue;
+  }
+
+
+  // 캡처 확인 — 절대규칙 7-A (2026-08-08)
+  const capMiss = captureNotChecked(sheet);
+  if (capMiss) {
+    console.log(`❌ ${name}`);
+    console.log(`   [원문 캡처 미확인] ${m[1]} — ${capMiss}`);
+    console.log('   → browser_take_screenshot 으로 원문을 캡처해 보고, 표 구조·단서 위치를 그 칸에 적는다');
+    console.log('');
+    fail++;
+    continue;
+  }
+
+  // 오해 소지 — 원문에 없는 빈도 주장 (2026-08-08)
+  const freq = riskyFrequency(src);
+  if (freq.length > 0) {
+    console.log(`❌ ${name}`);
+    console.log(`   [근거 없는 빈도 주장] ${freq.length}곳 — 원문에 비율이 없으면 "대부분/경우가 많다"를 쓰지 않는다`);
+    freq.slice(0, 3).forEach((x) => console.log(`      · …${x}…`));
+    console.log('   → 조건문으로 바꾼다 ("~인 경우입니다", "~일 수 있습니다") / 통계가 원문에 있으면 그 수치를 인용한다');
+    console.log('      2026-08-07 어제 글 11곳에서 같은 문제가 나왔다');
     console.log('');
     fail++;
     continue;

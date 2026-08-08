@@ -35,7 +35,7 @@ const CODE_IN_TITLE = [
 
 const added = sh('git diff --name-status origin/main...HEAD')
   .split('\n')
-  .filter((l) => l.startsWith('A\t'))
+  .filter((l) => /^[AM]\t/.test(l)) // 2026-08-08: 신규(A)만 보던 것을 수정(M)까지 — 기존 글 타이틀을 고칠 때도 같은 기준
   .map((l) => l.slice(2).trim())
   .filter((f) => /^app\/policy\/\[id\]\/\[spoke\]\/content\/.+\.tsx$/.test(f)
     || (/^data\/policies\/[^/]+\.ts$/.test(f) && !f.endsWith('manifest.ts')));
