@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-정정배치.md */
 /* 퇴직연금(DC형) 중도인출 (2026) - 고용노동부 */
 export const dcPensionEarlyWithdrawalPolicy = {
   id: '229', type: 'service' as const,

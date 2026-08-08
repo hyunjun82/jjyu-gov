@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-한의원실비.md */
 /* 한의원 실비 청구 — 신규 스포크 (2026-08-08)
  * gov 시스템 4단계로 작성 (.claude/rules/title-workflow.md)
  *  1) reference/titles/보험타이틀.png Read — "산부인과 실비 보험 청구 | 질염, 초음파,

@@ -21,7 +21,7 @@
 import { execSync } from 'child_process';
 import { existsSync, readFileSync } from 'fs';
 import { join } from 'path';
-import { changedFiles, partition, PROBE } from './lib/changed-files';
+import { changedFiles, touchesFacts } from './lib/changed-files';
 
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
 
@@ -39,9 +39,8 @@ const isContentFile = (f: string) =>
 const all = changedFiles(isContentFile);
 const addedNew = all.filter((x) => x.kind === 'A').map((x) => x.file);
 const modified = all.filter((x) => x.kind === 'M').map((x) => x.file);
-const part = partition(modified, PROBE.facts);
-const modifiedFacts = part.kept;
-const metaOnly = part.skipped;
+const modifiedFacts = modified.filter(touchesFacts);
+const metaOnly = modified.length - modifiedFacts.length;
 if (metaOnly > 0) {
   console.log(` ℹ 수정 ${modified.length}개 중 ${metaOnly}개는 메타데이터만 바뀜(수치·출처·본문 변경 없음) — 팩트시트 요구 안 함\n`);
 }
@@ -192,8 +191,26 @@ const unresolved: string[] = [];
 const PLACEHOLDERS = [
   /\(예\/아니오\)\s*$/m,            // 관할 질문 미기입
   /^\|\s*\|\s*\|\s*\|\s*\|\s*\|$/m, // 수치 표 빈 행만
-  /^-\s[^:]+:\s*$/m,                // "- 항목: " 빈 값
 ];
+
+/**
+ * "- 항목:" 으로 끝나는 빈 값 찾기.
+ *
+ * 2026-08-08: 원래 정규식 하나(/^-\s[^:]+:\s*$/m)로 봤는데, 하위 항목을 거느린
+ * 정상적인 목록 머리글("- 기존 스포크와 축 구분:" 다음 줄에 들여쓴 항목들)까지
+ * 빈 칸으로 잡아 push 를 막았다. 다음 줄이 들여쓴 하위 항목이면 값이 있는 것이다.
+ */
+function emptyBullets(sheet: string): string[] {
+  const lines = sheet.split('\n');
+  const out: string[] = [];
+  lines.forEach((ln, i) => {
+    if (!/^-\s[^:]+:\s*$/.test(ln)) return;
+    const next = lines[i + 1] ?? '';
+    if (/^\s+[-*]\s/.test(next) || /^\s{2,}\S/.test(next)) return; // 하위 항목이 이어진다
+    out.push(ln.trim().slice(0, 60));
+  });
+  return out;
+}
 
 let fail = 0;
 for (const f of added) {
@@ -218,7 +235,10 @@ for (const f of added) {
   }
 
   const sheet = readFileSync(fsPath, 'utf8');
-  const holes = PLACEHOLDERS.filter((r) => r.test(sheet));
+  const holes = [
+    ...PLACEHOLDERS.filter((r) => r.test(sheet)).map(() => 'template'),
+    ...emptyBullets(sheet),
+  ];
   if (holes.length > 0) {
     console.log(`❌ ${name}`);
     console.log(`   [팩트시트 미기입] ${m[1]} 에 빈 칸이 남아 있다 (placeholder ${holes.length}종 검출)`);
