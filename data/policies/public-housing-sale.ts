@@ -14,7 +14,7 @@ export const publicHousingSalePolicy: PolicyData = {
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do',
-  ctaLabel: '청약홈에서 공공분양 청약하기 (공식)',
+  ctaLabel: 'APT 분양 공고 찾아보기',
 
   keyFacts: {
     대상: {

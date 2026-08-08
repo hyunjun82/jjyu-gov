@@ -13,7 +13,7 @@ export const publicRentalHousingPolicy: PolicyData = {
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   applyUrl: 'https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcView.do',
-  ctaLabel: '청약홈에서 공공임대 청약하기 (공식)',
+  ctaLabel: '공공임대 모집공고 찾아보기',
 
   keyFacts: {
     유형: {
