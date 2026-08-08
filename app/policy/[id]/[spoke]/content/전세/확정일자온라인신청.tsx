@@ -147,6 +147,6 @@ export const 확정일자온라인신청SpokeContent: SpokeData = {
   sources: [
     { name: '주택임대차계약증서의 확정일자 부여 및 정보제공에 관한 규칙 (대법원규칙 제2986호)', url: 'https://www.law.go.kr/법령/주택임대차계약증서의확정일자부여및정보제공에관한규칙' },
     { name: '대법원 인터넷등기소 — 전자확정일자', url: IROS },
-    { name: '부동산거래관리시스템(전월세신고)', url: 'https://rtms.molit.go.kr' },
+    { name: '부동산 거래신고 등에 관한 법률 제6조의5③ — 임대차 신고 접수 시 확정일자 부여 의제(계약서 제출된 경우 한정)', url: 'https://www.law.go.kr/법령/부동산거래신고등에관한법률' },
   ],
 };

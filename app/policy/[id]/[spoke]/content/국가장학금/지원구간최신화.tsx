@@ -153,6 +153,6 @@ export const 국가장학금지원구간최신화SpokeContent: SpokeData = {
   sources: [
     { name: '한국장학재단 — 학자금 지원구간 산정절차·최신화 신청', url: KOSAF_BRACKET },
     { name: '한국장학재단 — 2026년 2학기 소득연계형 국가장학금', url: KOSAF_APPLY },
-    { name: '한국장학재단 상담센터 1599-2000', url: 'https://www.kosaf.go.kr/' },
+    { name: '한국장학재단 — 학자금 지원구간 안내 (상담 1599-2000)', url: KOSAF_BRACKET },
   ],
 };

@@ -142,6 +142,6 @@ export const 연금저축세대별비교SpokeContent: SpokeData = {
   sources: [
     { name: '금감원 통합연금포털 — 舊 개인연금저축·연금저축·연금저축계좌 비교표', url: FSS_SAVING },
     { name: '금감원 통합연금포털 — 내 연금조회', url: FSS_MY },
-    { name: '금감원 콜센터 1332', url: 'https://www.fss.or.kr/' },
+    { name: '금융감독원 통합연금포털 — 내 연금조회·연금저축 안내', url: 'https://www.fss.or.kr/fss/lifeplan/lifeplanIndex/index.do?menuNo=201101' },
   ],
 };

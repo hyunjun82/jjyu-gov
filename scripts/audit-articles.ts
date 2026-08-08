@@ -125,7 +125,12 @@ for (const f of targets) {
         const around = t.slice(Math.max(0, i - 45), i + 45);
         if (!EMPATHY.some((e) => around.includes(e))) {
           const snip = around.replace(/\s+/g, ' ').trim();
-          if (VERDICT.some((v) => around.includes(v))) b1.add(snip);
+          /* 판정어는 빈도 표현 "바로 옆"에 있어야 한다.
+             90자 창 전체를 보면 "광고 계산기가 뜨는 경우가 많은데 ... 수급 가능성"처럼
+             문장이 다른데도 걸린다 (2026-08-08 실행에서 3건이 전부 이 오탐이었다).
+             "탈락하는 경우가 많다"는 잡고 "각자 나눠 드는지 묻는 경우가 많은데"는 넘긴다. */
+          const near = t.slice(Math.max(0, i - 15), i + w.length + 15);
+          if (VERDICT.some((v) => near.includes(v))) b1.add(snip);
           else b2.add(snip);
         }
         i = t.indexOf(w, i + 1);

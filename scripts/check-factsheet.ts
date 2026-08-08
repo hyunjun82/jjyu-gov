@@ -28,16 +28,46 @@ function sh(cmd: string): string {
   try { return execSync(cmd, { cwd: ROOT }).toString(); } catch { return ''; }
 }
 
-// origin/main 기준 신규(A) 파일만
-const added = sh('git diff --name-status origin/main...HEAD')
-  .split('\n')
-  .filter((l) => /^[AM]\t/.test(l)) // 2026-08-08: 신규(A)만 보던 것을 수정(M)까지 — 기존 글을 고칠 때도 팩트시트를 갱신해야 한다
-  .map((l) => l.slice(2).trim())
-  .filter(
-    (f) =>
-      (/^data\/policies\/[^/]+\.ts$/.test(f) && !f.endsWith('manifest.ts')) ||
-      /^app\/policy\/\[id\]\/\[spoke\]\/content\/.+\.tsx$/.test(f)
-  );
+const isContentFile = (f: string) =>
+  (/^data\/policies\/[^/]+\.ts$/.test(f) && !f.endsWith('manifest.ts')) ||
+  /^app\/policy\/\[id\]\/\[spoke\]\/content\/.+\.tsx$/.test(f);
+
+/**
+ * 이 수정이 "사실"을 건드렸나.
+ *
+ * 2026-08-08: 신규(A)만 보던 것을 수정(M)까지 넓혔더니, 카테고리 한 줄(catSlug)만
+ * 바꾼 41개 글이 전부 팩트시트를 요구하며 막혔다. 사실을 안 건드린 수정까지 막으면
+ * 게이트를 --no-verify 로 넘기게 되고, 그러면 게이트가 없는 것과 같아진다.
+ *
+ * 그래서 "바뀌었나"가 아니라 "무엇이 바뀌었나"를 본다.
+ * 추가·변경된 줄에 수치·출처·본문이 있으면 사실 수정 → 팩트시트 필요.
+ * catSlug·ctaLabel·breadcrumb 같은 메타데이터만 바뀌었으면 통과.
+ */
+function touchesFacts(f: string): boolean {
+  const diff = sh(`git diff -U0 origin/main...HEAD -- "${f}"`);
+  const changed = diff
+    .split('\n')
+    .filter((l) => /^[+-]/.test(l) && !/^(\+\+\+|---)/.test(l))
+    .map((l) => l.slice(1));
+  if (!changed.length) return false;
+  for (const l of changed) {
+    if (/\d[\d,.]*\s*(원|%|만원|억|개월|년|일|세|점|배)/.test(l)) return true; // 수치
+    if (/\b(source|url|verifiedAt|sourceUrl)\s*:/.test(l)) return true;        // 출처
+    if (/\b(intro|content|summary|q|a|question|value|text)\s*:/.test(l)) return true; // 본문
+    if (/rows:|headers:|table:/.test(l)) return true;                          // 표
+  }
+  return false;
+}
+
+const status = sh('git diff --name-status origin/main...HEAD').split('\n');
+const addedNew = status.filter((l) => /^A\t/.test(l)).map((l) => l.slice(2).trim()).filter(isContentFile);
+const modified = status.filter((l) => /^M\t/.test(l)).map((l) => l.slice(2).trim()).filter(isContentFile);
+const modifiedFacts = modified.filter(touchesFacts);
+const metaOnly = modified.length - modifiedFacts.length;
+if (metaOnly > 0) {
+  console.log(` ℹ 수정 ${modified.length}개 중 ${metaOnly}개는 메타데이터만 바뀜(수치·출처·본문 변경 없음) — 팩트시트 요구 안 함\n`);
+}
+const added = [...addedNew, ...modifiedFacts];
 
 if (added.length === 0) {
   console.log(' 신규 허브·스포크 없음 — 팩트시트 검사 생략');

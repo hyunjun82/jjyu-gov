@@ -124,12 +124,34 @@ if (all) {
       diff = '';
     }
   }
-  changed = new Set(
-    diff
+  /* 제목·소제목이 그대로인 파일은 중복 검사에서 뺀다.
+     2026-08-08: 카테고리(catSlug) 한 줄만 바꾼 허브 41개가 검사 대상이 되면서,
+     내용은 손대지도 않은 기존 글끼리의 중복 14건이 push 를 막았다.
+     중복 검사는 "이번에 쓴 글이 기존 글과 겹치나"를 보는 것이지
+     "예전 글끼리 겹치나"를 볼 자리가 아니다(그건 --all 로 따로 본다). */
+  const touchedText = (f: string) => {
+    let d = '';
+    try {
+      d = execSync(`git diff -U0 origin/main...HEAD -- "${f}"`, { encoding: 'utf8' });
+    } catch {
+      return true; // 판단 불가면 검사 대상으로 남긴다
+    }
+    if (!d.trim()) return true;
+    return d
       .split('\n')
-      .map((l) => l.trim())
-      .filter((l) => (l.endsWith('.ts') || l.endsWith('.tsx')) && fs.existsSync(l)),
-  );
+      .filter((l) => /^[+-]/.test(l) && !/^(\+\+\+|---)/.test(l))
+      .some((l) => /\b(title|h1|q|question|anchor)\s*:/.test(l));
+  };
+  const cand = diff
+    .split('\n')
+    .map((l) => l.trim())
+    .filter((l) => (l.endsWith('.ts') || l.endsWith('.tsx')) && fs.existsSync(l));
+  const kept = cand.filter(touchedText);
+  const skipped = cand.length - kept.length;
+  if (skipped > 0) {
+    console.log(` ℹ 제목·소제목이 그대로인 ${skipped}개는 중복 검사에서 제외 (전수 점검은 --all)\n`);
+  }
+  changed = new Set(kept);
 }
 
 type Pair = { a: Doc; b: Doc; titleSim: number; qaSim: number };

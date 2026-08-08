@@ -151,6 +151,6 @@ export const 장애인연금모의계산SpokeContent: SpokeData = {
   sources: [
     { name: '복지로 — 장애인연금 모의계산', url: BOKJIRO_CALC },
     { name: '복지로 — 장애인연금 (신청)', url: BOKJIRO_APPLY },
-    { name: '보건복지부 장애인연금 (보건복지상담센터 129)', url: 'https://www.mohw.go.kr' },
+    { name: '복지로 — 장애인연금 복지서비스 상세', url: 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003249' },
   ],
 };
