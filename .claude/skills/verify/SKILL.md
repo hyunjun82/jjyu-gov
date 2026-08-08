@@ -83,7 +83,7 @@ console.log(m ? m[1].length : 'NOT FOUND');
 ## Q10 — 문서와 어긋났던 항목
 
 `CLAUDE.md`가 한때 Q10을 "정부 카드뉴스 1:1 매칭"으로, Q11~Q13은 아예 없는 것으로 적어두고 있었다.
-**실제 Q10은 `keyFacts` 개수 ≥ 9**다. 스크립트를 믿어라.
+**Q10 의 실제 대상과 임계값은 `scripts/verify-quality.ts` 에서 확인한다.** 문서에 적어두지 않는다 — 적어두면 어긋난다.
 
 ## verify-policy.ts
 

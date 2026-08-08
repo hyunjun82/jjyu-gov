@@ -73,9 +73,9 @@ gov.border: #E5E8EB
 import type { SpokeData } from '../../SpokeClient';
 export const XxxSpokeContent: SpokeData = {
   h1: '...',
-  qa: [ /* ≥7개: { q, anchor, intro, highlights, table?, box? } */ ],
-  faqData: [...],  // 5개
-  sources: [...],  // 3개 이상
+  qa: [ /* { q, anchor, intro, highlights, table?, box? } — 개수는 타이틀이 정한다 */ ],
+  faqData: [...],  // 개수는 check-spoke-quality.sh 가 검사
+  sources: [...],  // 정부 1차 출처
 };
 ```
 ```typescript

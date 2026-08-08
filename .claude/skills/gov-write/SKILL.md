@@ -3,7 +3,7 @@ name: gov-write
 description: >
   정부지원금 콘텐츠 자동 생성 파이프라인.
   키워드를 받아 최신 데이터 수집 → 정부 카드뉴스 수집 → data/policies/{slug}.ts 작성 →
-  Q1~Q9 품질 자가검증 → 자동 수정 → 사람 승인 → 푸시까지 자동 실행.
+  Q1~Q13 품질 자가검증 → 자동 수정 → 사람 승인 → 푸시까지 자동 실행.
   Use when: 정부지원금, 복지정책, 보조금 관련 글을 작성할 때.
 user-invocable: true
 argument-hint: "[키워드]"
@@ -18,7 +18,7 @@ argument-hint: "[키워드]"
 ## ⚠️ 절대 규칙 (어기면 작업 중단)
 
 1. **추정·예시 수치 절대 금지** — 모든 숫자는 정부 1차 출처에서만
-2. **Q1~Q9 품질 기준을 작성 도중 충족** — 다 쓴 후 검증 X, 쓰면서 충족
+2. **Q1~Q13 품질 기준을 작성 도중 충족** — 다 쓴 후 검증 X, 쓰면서 충족
 3. `python3 scripts/check-quality.py {slug}` PASS 전까지 사용자에게 결과 제시 금지
 4. PASS 후에도 **사용자 승인 없이 푸시 금지**
 5. **병렬 처리 절대 금지** — 정부 출처 수집·검증은 반드시 Claude in Chrome 단독 순차 실행
@@ -35,22 +35,23 @@ argument-hint: "[키워드]"
 
 ---
 
-## Q1~Q9 품질 기준 (작성 도중 실시간 충족 필수)
+## 품질 기준 (작성 도중 실시간 충족 — 임계값은 스크립트가 원천)
 
 > data/policies/{slug}.ts 파일을 작성할 때 아래 기준을 충족하면서 써야 한다.
 > 다 쓰고 나서 맞추는 것이 아니라, 항목을 추가할 때마다 즉시 확인한다.
 
-| 기준 | 조건 | 작성 중 체크 포인트 |
-|------|------|-------------------|
-| Q1 | qa 배열 ≥ 3개 (개수는 타이틀이 정한다) | 타이틀이 약속한 키워드를 다 덮었는지 ✓ |
-| Q2 | 각 intro ≥ 200자 | intro 입력 후 글자 수 세고 ✓ |
-| Q3 | 각 qa에 시각 요소 ≥ 1개 | qa 항목마다 table/box/box2 중 하나 필수 |
-| Q4 | qa 전체 table ≥ 2개 | 2번째 table 추가 후 ✓ |
-| Q5 | qa 전체 box ≥ 3개 | 3번째 box/box2 추가 후 ✓ |
-| Q6 | highlights 합계 ≥ 15개 | 각 qa highlights 추가하며 누적 수 확인 |
-| Q7 | 모든 qa에 sourceNote 명시 | qa 항목 닫기 전 sourceNote 추가 |
-| Q8 | faq ≥ 5개 | 5번째 faq 작성 후 ✓ |
-| Q9 | sources URL ≥ 3개 | 3번째 source 추가 후 ✓ |
+**임계값을 여기 적지 않는다.** `scripts/verify-quality.ts` 가 단일 진실 원천이다.
+과거 CLAUDE.md 가 Q10을 잘못 적고 Q11~Q13을 누락해 스크립트와 어긋난 전력이 있고,
+2026-08-08 점검에서 이 스킬이 같은 실수를 반복하고 있는 것이 확인됐다
+(스킬은 Q1~Q9 만 알고 있었고, 실제로는 Q10~Q13 이 더 있어 push 가 막혔다).
+
+실제 항목·임계값은 이 명령으로 확인한다:
+
+```bash
+npm run verify -- {slug}          # 항목별 PASS/FAIL 과 실제 값이 그대로 나온다
+```
+
+작성 중에는 아래 순서만 지킨다 — 숫자는 검증 명령이 알려준다.
 
 ### qa 항목 작성 순서 (매 항목마다)
 
@@ -66,15 +67,10 @@ argument-hint: "[키워드]"
 ### qa 작성 완료 후 즉시 확인
 
 ```
-Q1 qa 개수:       __개  (≥3, 타이틀 키워드를 다 덮었나 ?)
-Q2 최소 intro:    __자  (≥200 ?)
-Q3 시각없는 qa:   __개  (=0 이어야 함)
-Q4 table 합계:    __개  (≥2 ?)
-Q5 box 합계:      __개  (≥3 ?)
-Q6 highlights:    __개  (≥15 ?)
-Q7 sourceNote:    __개  (=qa개수 ?)
-Q8 faq 개수:      __개  (≥5 ?)
-Q9 sources URL:   __개  (≥3 ?)
+npm run verify -- {slug}
+
+  → Q1~Q13 항목별로 PASS/FAIL 과 실제 값이 나온다.
+    숫자를 여기 적어두지 않는다 — 적어두면 스크립트가 바뀔 때 어긋난다.
 ```
 
 9개 모두 ✓ 이후에만 파일을 저장한다. 미달 항목은 저장 전에 수정한다.
@@ -188,7 +184,7 @@ WebSearch: "{keyword} site:korea.kr OR site:gov.kr"
 
 ## Phase 3: data/policies/{slug}.ts 작성
 
-아래 템플릿을 사용하며, Q1~Q9 기준을 충족하면서 작성한다.
+아래 템플릿을 사용하며, `npm run verify` 기준을 충족하면서 작성한다.
 
 ```typescript
 export const {PolicyName}Policy: PolicyData = {
@@ -243,7 +239,7 @@ npx tsx scripts/check-cue-value.ts            # 문구·버튼 7축 + H(후킹 �
 npx tsx scripts/check-user-value.ts           # 타이틀↔소제목·버튼 CTA
 npx tsx scripts/check-freshness.ts            # 검수일·딥링크·지난 마감
 npx tsx scripts/check-duplicate.ts            # 기존 글과 겹침
-bash scripts/check-spoke-quality.sh           # (스포크일 때) Format A·qa≥3
+bash scripts/check-spoke-quality.sh           # (스포크일 때) Format A·소제목 하한
 ```
 
 전부 커밋 후에 돌려야 실제 검사가 된다(게이트는 origin/main...HEAD diff만 본다).
@@ -273,7 +269,7 @@ bash scripts/check-spoke-quality.sh           # (스포크일 때) Format A·qa�
 ```
 [검증 결과]
 파일: data/policies/{slug}.ts
-Q1~Q9: 전체 PASS ✓
+Q1~Q13: 전체 PASS ✓
 정부 카드뉴스: {URL}
 
 푸시하려면 "확인" 또는 "푸시"라고 말씀해주세요.
@@ -282,7 +278,7 @@ Q1~Q9: 전체 PASS ✓
 승인 후:
 ```bash
 git add -A
-git commit -m "feat: {slug} 추가 (Q1~Q9 PASS)"
+git commit -m "feat: {slug} 추가 (Q1~Q13 PASS)"
 git push
 ```
 
@@ -308,15 +304,17 @@ pre-push hook이 게이트 전체를 자동 실행 → FAIL이면 push 차단.
 
 ### ⚠️ 스포크 품질 기준 (check-spoke-quality.sh 자동 검증)
 
-| 기준 | 조건 | 게이트 |
-|------|------|--------|
-| qa[] 개수 | ≥ 7개 | pre-push 차단 |
-| 각 intro | ≥ 200자 | 작성 중 확인 |
-| faqData[] | ≥ 5개 | pre-push 차단 |
-| sources[] | ≥ 3개 | 작성 중 확인 |
-| 전체 q: 개수 | ≥ 6개 (qa 3 + faqData 3) — 빈 글 방지 최소선 | pre-push 차단 |
+**여기에도 임계값을 적지 않는다** (2026-08-08 — 이 표에 qa ≥ 7 이 남아 있어
+같은 문서 안에서도 기준이 두 가지였다). 실제 값은 스크립트가 알려준다:
 
-**미달 파일은 `npm run verify:spokes` 또는 git push 시 자동 차단됨.**
+```bash
+bash scripts/check-spoke-quality.sh    # Format A · qa 개수 하한
+npm run verify -- {slug}               # Q1~Q13 항목별 실제 값
+```
+
+**소제목 개수는 타이틀이 정한다.** 하한은 빈 글 방지용일 뿐이고,
+타이틀이 약속한 롱테일 키워드마다 질문형 소제목 하나가 기준이다.
+미달 파일은 git push 시 자동 차단된다.
 
 ### 스포크 파일 생성 순서
 
@@ -326,7 +324,7 @@ pre-push hook이 게이트 전체를 자동 실행 → FAIL이면 push 차단.
 3. 템플릿: .claude/skills/gov-write/templates/spoke-template.tsx 복사
 4. {PLACEHOLDER} 채우기 — 소제목 개수는 타이틀이 정한다(고정 7개 아님). 각 intro 200자 이상
 5. faqData 5개 작성 (실제 PAA/검색 쿼리 기반)
-6. sources 3개 이상 (정부 1차 출처)
+6. sources — 정부 1차 출처 (개수는 verify 가 검사)
 7. registry.ts import + SpokesRegistry 등록
 8. data/policies/{slug}.ts spokes[] 배열 업데이트
 9. npm run verify:spokes → PASS 확인 후 사용자 승인 요청
@@ -335,12 +333,12 @@ pre-push hook이 게이트 전체를 자동 실행 → FAIL이면 push 차단.
 ### 자가 점검 (파일 저장 전 필수)
 
 ```
-[ ] qa[] 개수: __개  (≥3 · 타이틀 키워드를 다 덮었나)
-[ ] 가장 짧은 intro: __자  (≥200)
-[ ] faqData[] 개수: __개  (≥5)
-[ ] sources[] 개수: __개  (≥3)
+[ ] npm run verify -- {slug}            → Q1~Q13 전체 PASS
+[ ] bash scripts/check-spoke-quality.sh → Format A · 소제목 하한
+[ ] 타이틀이 약속한 키워드를 소제목이 다 덮었나 (개수가 아니라 커버리지)
 [ ] 각 qa에 table 또는 box 있음
-[ ] highlights 총합: __개  (≥15 권장)
+
+수치를 여기 적지 않는다. 스크립트가 실제 값과 기준을 같이 출력한다.
 ```
 
 6개 모두 ✓ 이후에만 저장.
