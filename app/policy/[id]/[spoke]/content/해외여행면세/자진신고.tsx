@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-상단버튼배치.md */
 import type { SpokeData } from '../../SpokeClient';
 
 const CUSTOMS = 'https://www.customs.go.kr/kcs/cm/cntnts/cntntsView.do?mi=2837&cntntsId=829';

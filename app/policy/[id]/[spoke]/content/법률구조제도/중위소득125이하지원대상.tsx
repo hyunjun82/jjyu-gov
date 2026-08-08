@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-상단버튼배치.md */
 import type { SpokeData } from '../../SpokeClient';
 
 export const 법률구조제도중위소득125이하지원대상SpokeContent: SpokeData = {

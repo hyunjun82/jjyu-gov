@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-상단버튼배치.md */
 import type { SpokeData } from '../../SpokeClient';
 
 export const 금액인상SpokeContent: SpokeData = {
@@ -56,7 +57,7 @@ export const 금액인상SpokeContent: SpokeData = {
       },
       box: {
         label: '주의',
-        content: '"기초연금 40만원"을 다룬 오래된 기사·블로그는 2024년 발표 당시 로드맵을 그대로 인용한 경우가 많습니다. 2026년 실제 지급액은 349,700원입니다.',
+        content: '"기초연금 40만원"을 다룬 오래된 기사·블로그는 2024년 발표 당시 로드맵을 그대로 인용한 것입니다. 2026년 실제 지급액은 349,700원입니다.',
       },
     },
     {

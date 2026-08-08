@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-상단버튼배치.md */
 import type { SpokeData } from '../../SpokeClient';
 
 const KOSAF = 'https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_09_01&type=scholar&naviParam=JH,01,01,02';

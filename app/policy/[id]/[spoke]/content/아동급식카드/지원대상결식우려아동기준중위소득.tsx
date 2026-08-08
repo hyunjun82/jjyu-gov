@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-상단버튼배치.md */
 import type { SpokeData } from '../../SpokeClient';
 
 export const 아동급식카드지원대상결식우려아동기준중위소득SpokeContent: SpokeData = {

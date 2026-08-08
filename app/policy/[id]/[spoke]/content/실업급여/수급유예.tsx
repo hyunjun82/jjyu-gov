@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-2026-08-08-상단버튼배치.md */
 import type { SpokeData } from '../../SpokeClient';
 
 // 1차 검증: 찾기쉬운 생활법령정보(실업급여>구직급여 수급·수급유예·수급정지, 수급일수) + 고용보험법 §48·§50·§60, 시행령 §71
