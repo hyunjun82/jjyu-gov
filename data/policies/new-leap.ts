@@ -14,7 +14,8 @@ export const newleapPolicy = {
   amount: '채무자별 최대 5천만원 소각 또는 채무조정',
   deadline: '별도 신청 없음 (협약 금융회사로부터 일괄 매입)',
   views: 215000,
-  applyUrl: 'https://www.newleap.or.kr',
+  applyUrl: 'https://www.newleap.or.kr/check/status.do',
+  ctaLabel: '내 채무현황 조회하기',
   datePublished: '2026-01-01T09:00:00+09:00',
   dateModified: '2026-05-23T09:00:00+09:00',
   summary:
