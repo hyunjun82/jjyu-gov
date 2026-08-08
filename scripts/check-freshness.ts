@@ -181,9 +181,17 @@ for (const file of targetFiles()) {
     const last = new Date(+m[1], +m[2], 0).getDate();
     pushIfPast(+m[1], +m[2], last, `${m[1]}.${m[2]}월`);
   }
-  /* ③ 연도 없는 월/일: 3/31 마감 → 올해로 본다(작년 것을 올해로 보면 미탐이 되므로 안전한 쪽) */
+  /* ③ 연도 없는 월/일: 3/31 마감 → 올해로 본다(작년 것을 올해로 보면 미탐이 되므로 안전한 쪽)
+     다만 "최대 1/2까지 감액"의 1/2 는 분수지 날짜가 아니다 — 2026-08-08 노령연금 허브가
+     이것 때문에 "2026.1.2 마감이 지났다"로 막혔다. 분수 문맥이면 건너뛴다. */
+  const FRACTION_BEFORE = /(최대|최소|약|절반|무려|각각|평균|이상|이하)\s*$/;
+  const FRACTION_AFTER = /^\s*(까지)?\s*(감액|삭감|줄어|축소|깎|경감|인하|지급|보전|부담)/;
   for (const m of src.matchAll(/(?<![\d.])(\d{1,2})\s*\/\s*(\d{1,2})\s*(?:[가-힣]{0,4}\s*)?(?:까지|마감|종료)/g)) {
     if (isCutoff(m.index!)) continue;
+    const before = src.slice(Math.max(0, m.index! - 12), m.index!);
+    const after = src.slice(m.index! + m[0].length, m.index! + m[0].length + 12);
+    if (FRACTION_BEFORE.test(before) || FRACTION_AFTER.test(after)) continue; // 분수다
+    if (+m[1] > 12 || +m[2] > 31) continue;                                   // 날짜일 수 없다
     pushIfPast(thisY, +m[1], +m[2], `${thisY}.${m[1]}.${m[2]}`);
   }
 
