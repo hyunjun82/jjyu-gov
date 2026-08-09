@@ -1812,3 +1812,30 @@ img { max-width: 100%; display: block; }
 .bpc-table th, .bpc-table td { padding: 10px 12px; border-bottom: 1px solid var(--border, #E5E8EB); text-align: left; white-space: nowrap; }
 .bpc-table th { font-size: 13px; color: var(--text-muted, #8B95A1); font-weight: 700; }
 .bpc-table tr.hit td { background: #FFF9DB; font-weight: 700; }
+
+/* ── 검색 결과 페이지 (2026-08-09 신설) ──────────────────
+   그전까지 검색창은 form 이 없어 눌러도 아무 일이 없었다. */
+.search-page { max-width: 720px; }
+.search-box { display: flex; margin-bottom: 20px; }
+.search-box input {
+  flex: 1; padding: 14px 16px; font-size: 16px;
+  border: 2px solid #E5E8EB; border-radius: 12px; outline: none;
+}
+.search-box input:focus { border-color: #003D88; }
+.search-msg { color: #8B95A1; font-size: 15px; padding: 12px 2px; line-height: 1.7; }
+.search-count { font-size: 14px; color: #8B95A1; margin-bottom: 10px; }
+.search-count strong { color: #003D88; }
+.search-list { list-style: none; padding: 0; margin: 0; }
+.search-list li { border-bottom: 1px solid #E5E8EB; }
+.search-list a { display: block; padding: 14px 4px; text-decoration: none; }
+.search-list a:hover { background: #F7F9FC; }
+.search-title {
+  display: block; font-size: 16px; font-weight: 600;
+  color: #191F28; line-height: 1.5; margin-bottom: 5px;
+}
+.search-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.search-cat {
+  font-style: normal; font-size: 12px; font-weight: 600;
+  color: #003D88; background: #EAF1FB; padding: 2px 8px; border-radius: 999px;
+}
+.search-hub { font-size: 12px; color: #8B95A1; }

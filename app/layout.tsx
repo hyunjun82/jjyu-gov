@@ -72,10 +72,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/category/life">생활정보</Link>
             </nav>
 
-            <div className="header-search">
-              <input type="text" placeholder="지원금 검색..." />
-              <button>검색</button>
-            </div>
+            {/* 2026-08-09: form 이 없어 눌러도 아무 일이 없었다. /search 로 보낸다. */}
+            <form className="header-search" action="/search" method="get" role="search">
+              <input type="text" name="q" placeholder="지원금 검색..." aria-label="지원금 검색" />
+              <button type="submit">검색</button>
+            </form>
           </div>
         </header>
 

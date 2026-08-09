@@ -152,10 +152,11 @@ export default function Home() {
             정부 지원금,<br />한곳에서 확인하세요
           </h1>
           <p className="hero-sub">지원금·환급금·대출 정보를 매일 업데이트합니다</p>
-          <div className="hero-search">
-            <input type="text" placeholder="지원금, 환급금, 정책명으로 검색" />
-            <button>검색</button>
-          </div>
+          {/* 2026-08-09: form 이 없어 눌러도 아무 일이 없었다. /search 로 보낸다. */}
+          <form className="hero-search" action="/search" method="get" role="search">
+            <input type="text" name="q" placeholder="지원금, 환급금, 정책명으로 검색" aria-label="지원금 검색" />
+            <button type="submit">검색</button>
+          </form>
           <div className="cat-tiles">
             {categories.map((c) => (
               <Link href={c.href} key={c.id} className="cat-tile">
