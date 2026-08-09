@@ -77,13 +77,23 @@ function checkSpoke(file: string): Issue[] {
   // SpokeClient 가 qa 인덱스 2·4·마지막에 허브 버튼을 넣는다.
   // qa 가 적으면 버튼 슬롯이 겹쳐 실제로 3개가 안 나온다.
   const qa = (c.match(/anchor: '/g) || []).length;
-  /* 2026-08-08: 7 → 6. 슬롯은 [2, 4, qa.length-1] 이라 qa 6개면 [2,4,5] 로
-     버튼 3개가 모두 들어간다. 7을 요구하면 필요도 없는 소제목을 채우게 된다. */
-  if (qa < 6) {
+  /* 2026-08-09: qa 개수 자체를 보던 것을 고친다.
+     이전 규칙은 `qa < 6` 이면 무조건 차단이었다. 그런데 fix 문구는
+     "억지로 늘릴 바에는 버튼을 2개로 줄인다"였다 — 조언대로 버튼을 줄여도
+     그대로 차단당한다. 검사기가 자기 조언을 따를 수 없게 돼 있었다.
+     CLAUDE.md·title-workflow.md 의 "소제목 개수는 타이틀이 정한다(하한 3)"
+     와도 정면으로 충돌했다.
+
+     실제로 잘못된 상태는 "qa 가 적다"가 아니라 **달아둔 버튼이 화면에 안 나오는 것**이다.
+     SpokeClient 171행이 [...new Set([2, 4, qa.length-1])] 자리에만 렌더하므로,
+     슬롯 수보다 act 를 많이 달면 그만큼 조용히 사라진다. 그것만 잡는다. */
+  const slots = qa > 0 ? new Set([2, 4, qa - 1].filter((i) => i >= 0 && i < qa)).size : 0;
+  const acts = (c.match(/^\s{6}act:\s*\{/gm) || []).length;
+  if (acts > slots) {
     issues.push({
       axis: 'B',
-      msg: `qa ${qa}개 — 허브 버튼 3개가 다 들어가지 않음 (슬롯 2·4·마지막이 겹침)`,
-      fix: '버튼 3개를 다 쓰려면 qa 6개 이상. 억지로 늘릴 바에는 버튼을 2개로 줄인다',
+      msg: `act ${acts}개인데 버튼이 뜨는 자리는 ${slots}개 — ${acts - slots}개가 화면에 안 나온다`,
+      fix: `슬롯은 qa 인덱스 2·4·마지막뿐이다. act 를 ${slots}개로 줄이거나 qa 를 늘려 슬롯을 연다`,
     });
   }
 
