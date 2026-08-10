@@ -239,6 +239,7 @@ import { 실손보험요실금수술SpokeContent } from '@/app/policy/[id]/[spok
 import { 실손보험한방병원MRISpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/한방병원MRI';
 import { 실손보험한의원청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/한의원청구';
 import { 실손보험산부인과청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/산부인과청구';
+import { 실손보험당뇨실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/당뇨실비청구';
 import { 실손보험보청기급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보청기급여';
 import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/다이렉트비교';
 import { 실손보험실효부활SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실효부활';
@@ -1508,6 +1509,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'hearing-aid-benefit': 실손보험보청기급여SpokeContent,
     'oriental-clinic-claim': 실손보험한의원청구SpokeContent,
     'gynecology-claim': 실손보험산부인과청구SpokeContent,
+    'diabetes-claim': 실손보험당뇨실비청구SpokeContent,
     'direct-comparison': 실손보험다이렉트비교SpokeContent,
     'lapse-revival': 실손보험실효부활SpokeContent,
     'card-payment': 실손보험카드결제SpokeContent,
