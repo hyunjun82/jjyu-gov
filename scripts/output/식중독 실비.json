@@ -1,0 +1,69 @@
+{
+  "seed": "식중독 실비",
+  "synonyms": [],
+  "collectedAt": "2026-08-10T09:35:50.176Z",
+  "naver": {
+    "autocomplete": [
+      "식중독 실비",
+      "식중독 실비 청구 방법"
+    ],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [
+      "식중독 실비",
+      "식중독 실비보험",
+      "식중독 수액 실비"
+    ],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "위내시경 실비 청구"
+    ]
+  },
+  "merged": {
+    "all": [
+      "식중독 실비",
+      "식중독 실비 청구 방법",
+      "식중독 실비보험",
+      "식중독 수액 실비",
+      "위내시경 실비 청구"
+    ],
+    "byIntent": {
+      "info": [
+        "식중독 실비",
+        "식중독 실비보험",
+        "식중독 수액 실비",
+        "위내시경 실비 청구"
+      ],
+      "condition": [],
+      "action": [
+        "식중독 실비 청구 방법"
+      ],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "식중독 실비",
+        "식중독 실비보험",
+        "식중독 수액 실비",
+        "위내시경 실비 청구"
+      ],
+      "B_amount": [],
+      "C_apply": [
+        "식중독 실비 청구 방법"
+      ],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}

@@ -240,6 +240,13 @@ import { 실손보험한방병원MRISpokeContent } from '@/app/policy/[id]/[spok
 import { 실손보험한의원청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/한의원청구';
 import { 실손보험산부인과청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/산부인과청구';
 import { 실손보험당뇨실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/당뇨실비청구';
+import { 실손보험우울증공황장애실비SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/우울증공황장애실비';
+import { 실손보험치과실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/치과실비청구';
+import { 실손보험여드름실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/여드름실비청구';
+import { 실손보험수족구실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/수족구실비청구';
+import { 실손보험무지외반증실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/무지외반증실비청구';
+import { 실손보험식중독실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/식중독실비청구';
+import { 실손보험골절진단비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/골절진단비청구';
 import { 실손보험보청기급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보청기급여';
 import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/다이렉트비교';
 import { 실손보험실효부활SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실효부활';
@@ -1510,6 +1517,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'oriental-clinic-claim': 실손보험한의원청구SpokeContent,
     'gynecology-claim': 실손보험산부인과청구SpokeContent,
     'diabetes-claim': 실손보험당뇨실비청구SpokeContent,
+    'mental-health-claim': 실손보험우울증공황장애실비SpokeContent,
+    'dental-claim': 실손보험치과실비청구SpokeContent,
+    'acne-claim': 실손보험여드름실비청구SpokeContent,
+    'hfmd-child-claim': 실손보험수족구실비청구SpokeContent,
+    'bunion-claim': 실손보험무지외반증실비청구SpokeContent,
+    'food-poisoning-claim': 실손보험식중독실비청구SpokeContent,
+    'fracture-diagnosis-benefit': 실손보험골절진단비청구SpokeContent,
     'direct-comparison': 실손보험다이렉트비교SpokeContent,
     'lapse-revival': 실손보험실효부활SpokeContent,
     'card-payment': 실손보험카드결제SpokeContent,
