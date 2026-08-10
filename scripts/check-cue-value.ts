@@ -130,6 +130,9 @@ const AWKWARD: { re: RegExp; why: string }[] = [
   { re: /남으셨는데요|남으셨습니다/, why: '"며칠 안 남으셨는데요"는 주어가 어긋난다 — "며칠 남지 않았습니다"' },
   { re: /(원|만원|억|%|퍼센트)\s*까지\s*(갑니다|간다)/, why: '"100만원까지 갑니다"는 뭐가 간다는 건지 없다 — "최대 100만원까지 지원이 가능한데요"' },
   { re: /계산이\s*섭니다|판단이\s*섭니다|각이\s*나옵니다/, why: '속어에 가깝다 — "계산됩니다"·"판단하실 수 있습니다"' },
+  /* 2026-08-10 사장님 지적: "청구 자체는 생각보다 간단합니다"류는 어느 주제에 붙여도 되는
+     범용 문장 = 복붙 티. 절차 얘기는 그 주제만의 사정(영수증에 항목이 섞인다 등)으로 연다. */
+  { re: /(자체는|절차는|신청은|청구는)?\s*생각보다\s*(간단|쉽|어렵지\s*않)/, why: '"생각보다 간단합니다"는 어느 주제에나 붙는 복붙 문장 — 그 주제만의 사정으로 바꾼다' },
 ];
 
 /* 라벨에 쓰면 안 되는 말 (2026-08-09 사장님 지적: "효능 효과 찾아 보기는 뭐야..참..")
@@ -251,7 +254,9 @@ function checkHub(file: string, cueIndex: Map<string, string>): Issue[] {
      상한도 둔다. 버튼이 5개를 넘으면 어느 걸 눌러야 할지 흩어진다. */
   /* 온라인 신청이 없는 사업(의왕·대구 중구처럼 방문·팩스 접수)은
      다음 행동이 "서류 챙기기"다. 그것도 행동으로 인정한다. */
-  const APPLY_VERB = /(신청|접수|예매|예약|발급|등록|가입|제출|납부|바로가기|서류|양식|내려받|다운)/;
+  /* 청구·환급: 보험(실손24 "청구")·세금 환급처럼 기관 공식 동사가 신청이 아닌 도메인.
+     M축 ACT_VERB에는 있었는데 여기만 빠져 "청구하기" 버튼이 신청 없음으로 오탐났다 (2026-08-10) */
+  const APPLY_VERB = /(신청|접수|예매|예약|발급|등록|가입|제출|납부|청구|환급|바로가기|서류|양식|내려받|다운)/;
   if (qaCount >= 3 && cues.length < 2) {
     issues.push({
       axis: 'A',
@@ -707,6 +712,7 @@ const AXIS = {
   N: '후킹 맺음 도배',
   O: '버튼 유도 문장 없음',
   P: '문구와 버튼 불일치',
+  Q: '서론 커버리지',
 } as const;
 
 if (draftFile) {
@@ -726,6 +732,27 @@ if (draftFile) {
     process.exit(1);
   }
   const issues = checkHub(draftFile, new Map());
+  /* Q축(초안 전용): 서론이 타이틀이 부른 사람 전부를 받는가.
+     규칙 자체는 title-workflow.md("서론은 타이틀이 나열한 항목을 풀버전으로 편다")에
+     이미 있었는데 검사기가 없어 어겼다(2026-08-10 산부인과 초안 v1이 질염만 받음).
+     타이틀이 "질염·초음파·자궁근종·난임시술"처럼 나열했으면, 그 항목 전부가
+     서론(heroHook)에 나와야 한다 — 항목마다 들어오는 독자가 다르기 때문이다. */
+  {
+    const rawDraft = fs.readFileSync(draftFile, 'utf8');
+    const titleLine = rawDraft.split('\n').find((l) => /^#\s/.test(l)) ?? '';
+    const title = titleLine.replace(/^#\s*/, '').replace(/^.*?[—-]\s*/, '');
+    const listed =
+      title.match(/[가-힣A-Za-z0-9]+(?:\s*[·ㆍ]\s*[가-힣A-Za-z0-9]+)+/)?.[0]?.split(/\s*[·ㆍ]\s*/) ?? [];
+    const hero = (parsed as { heroHook?: string }).heroHook ?? '';
+    const missing = listed.filter((k) => !hero.includes(k));
+    if (listed.length >= 2 && missing.length) {
+      issues.push({
+        axis: 'Q',
+        msg: `타이틀이 나열한 항목 중 서론에 없는 것: ${missing.join(', ')} — 그 검색어로 들어온 독자는 첫 문단에서 자기 얘기가 아니라고 나간다`,
+        fix: '서론은 타이틀이 나열한 항목을 풀버전으로 편다 (.claude/rules/title-workflow.md 2단계)',
+      });
+    }
+  }
   if (!issues.length) {
     console.log('\n ✅ 문구·버튼 확정 — 이대로 본문을 써도 된다');
     process.exit(0);
