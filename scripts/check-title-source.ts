@@ -12,6 +12,12 @@
  *      → 사용자는 코드로 검색하지 않는다. 코드는 본문 표에서 병명으로 풀어 쓴다.
  *   2. collect-keywords 결과 파일이 존재하는가 (실검색어 없이 창작 금지, 절대규칙 6)
  *   3. reference/titles/ 캡처가 실제로 존재하는가 (없으면 대조 자체가 불가능)
+ *   4. docs/title-log.md 에 그 글의 캡처 확인 기록이 있는가 (2026-08-10 신설)
+ *      — 3번까지는 "캡처 파일이 있다"만 봤다. 봤다는 증거는 아무 데도 안 남아서
+ *        캡처를 안 열고도 통과했고, 실제로 반복해서 안 열었다(사장님 수차례 지적).
+ *        title-workflow.md 가 요구하는 두 줄(어느 캡처의 어느 타이틀을 봤나 / 왜 그
+ *        구조인가)을 title-log.md 에 적어야만 통과한다. 행동은 검사할 수 없지만
+ *        기록은 검사할 수 있다 — 기록 없이는 push 가 안 되게 해서 행동을 강제한다.
  *
  * 사용:
  *   npx tsx scripts/check-title-source.ts            # pre-push (신규 글만)
@@ -86,6 +92,35 @@ for (const f of added) {
     console.log(`❌ ${name}`);
     console.log('   [실검색어 없음] scripts/output 에 collect-keywords 결과가 하나도 없다');
     console.log('   → npx tsx scripts/collect-keywords.ts "{주제}" 를 먼저 돌린다 (절대규칙 6)\n');
+    fail++;
+    continue;
+  }
+
+  /* 4. 캡처 확인 기록 — docs/title-log.md 에 이 글의 항목이 있는가 */
+  const logPath = join(ROOT, 'docs/title-log.md');
+  const log = existsSync(logPath) ? readFileSync(logPath, 'utf8') : '';
+  const slug = (name ?? '').replace(/\.(tsx?|ts)$/, '');
+  /* 항목 형식(title-log.md 머리말에 정의):
+     ## <파일명 또는 slug>
+     - 캡처: <reference/titles/ 파일명> — "<옮겨적은 KB 타이틀 한 줄>"
+     - 패턴: <①~⑨> — <왜 이 구조인가 한 문장>
+     - 타이틀: <확정 타이틀>                                        */
+  const entryRe = new RegExp('^##[^\n]*' + slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'm');
+  const entry = entryRe.test(log);
+  const block = entry ? log.slice(log.search(entryRe)).split(/\n## /)[0] : '';
+  /* 파일명에 공백이 있다("세금 타이틀.png") — \S+ 로 잡으면 공백에서 깨진다 (2026-08-10 시험에서 확인) */
+  const hasCapLine = /- 캡처:\s*.+?\s*—\s*["“].+["”]/.test(block);
+  const hasPatLine = /- 패턴:\s*[①-⑨]/.test(block);
+  if (!entry || !hasCapLine || !hasPatLine) {
+    console.log(`❌ ${name}`);
+    console.log(`   타이틀: ${title}`);
+    if (!entry) console.log('   [캡처 기록 없음] docs/title-log.md 에 이 글의 항목이 없다');
+    else {
+      if (!hasCapLine) console.log('   [캡처 기록 불완전] "- 캡처: <파일> — \"<옮겨적은 타이틀>\"" 줄이 없다');
+      if (!hasPatLine) console.log('   [패턴 기록 불완전] "- 패턴: ①~⑨ — <이유>" 줄이 없다');
+    }
+    console.log('   → reference/titles/ 캡처를 Read 로 열고, 본 타이틀 한 줄을 그대로 옮겨적는다.');
+    console.log('     못 옮겨적으면 안 연 것이다 (title-workflow.md).\n');
     fail++;
     continue;
   }

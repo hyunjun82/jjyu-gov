@@ -33,13 +33,62 @@ const ACTION = /신청|조회|발급|다운로드|접수|제출|계산|신고|�
 const INFO_ONLY = /(무엇인가|이란\??$|의 모든 것|총정리$|알아보기$|정리$|이해하기$)/;
 
 /**
- * '~하는 법' 종결 도배 방지 (2026-07-30)
- * 행동 동사를 넣으라는 규칙을 "제목 끝에 하는 법을 붙인다"로 잘못 굳혀서
- * 허브 타이틀 1233개 중 422개(34%)가 '~법'으로 끝나버렸다. 같은 어미가
- * 사이트 전체에 반복되면 포털이 기계 생성으로 볼 여지가 생긴다.
- * 정본(docs/title-style-24.md) 24개는 물음형·시나리오형이 대부분이다.
+ * 종결 도배 방지 — '~법' 한 가지만 막던 것을 빈도 기반으로 바꾼다 (2026-08-10)
+ *
+ * 왜 바꿨나:
+ *   원래는 `/법\??$/` 하나만 봤다. 그런데 사이트 전체 타이틀 1,759개의 종결을
+ *   실제로 세어보니 문제가 '법' 하나가 아니었다.
+ *     …는 법 426개(24.2%) / …방법 61 / …차이 35 / …되나요 35 / …총정리 32 …
+ *     **상위 20종이 전체의 50%**
+ *   즉 '법'을 막아도 그 다음으로 몰릴 뿐이다. 어느 한 표현을 금지어로 박는 게 아니라
+ *   "이미 붐비는 종결이면 피한다"로 규칙을 바꿔야 한다.
+ *
+ * 어떻게:
+ *   글을 쓸 때마다 사이트 전체 타이틀의 종결(마지막 어절 끝 3글자) 빈도를 세고,
+ *   새 타이틀의 종결이 이미 CROWDED 이상 쓰였으면 막는다.
+ *   금지어 목록을 손으로 관리하지 않으므로 새 유행어가 생겨도 자동으로 잡힌다.
+ *
+ *   기존 위반은 baseline 이 흡수하므로(scripts/lib/baseline.ts) 이 변경으로
+ *   옛 글이 무더기로 막히지는 않는다. 새로 쓰는 글만 다른 종결을 고르게 된다.
  */
-const CLICHE_END = /법\??$/;
+const CROWDED = 20;
+
+/** 종결 표지 — 물음표·마침표를 떼고 마지막 3글자 */
+function endOf(t: string): string {
+  return t.replace(/[?!.\s]+$/, '').slice(-3);
+}
+
+/** 사이트 전체 타이틀의 종결 빈도 (한 번만 계산해 재사용) */
+let endFreqCache: Record<string, number> | null = null;
+function endFreq(): Record<string, number> {
+  if (endFreqCache) return endFreqCache;
+  const freq: Record<string, number> = {};
+  const add = (t: string) => {
+    const e = endOf(t);
+    freq[e] = (freq[e] || 0) + 1;
+  };
+  if (fs.existsSync(ROOT)) {
+    for (const dir of fs.readdirSync(ROOT)) {
+      const d = path.join(ROOT, dir);
+      if (!fs.statSync(d).isDirectory()) continue;
+      for (const f of fs.readdirSync(d)) {
+        if (!f.endsWith('.tsx')) continue;
+        const m = fs.readFileSync(path.join(d, f), 'utf8').match(/h1: '([^']+)'/);
+        if (m) add(m[1]);
+      }
+    }
+  }
+  const POL = 'data/policies';
+  if (fs.existsSync(POL)) {
+    for (const f of fs.readdirSync(POL)) {
+      if (!f.endsWith('.ts')) continue;
+      const m = fs.readFileSync(path.join(POL, f), 'utf8').match(/^  title: '([^']+)'/m);
+      if (m) add(m[1]);
+    }
+  }
+  endFreqCache = freq;
+  return freq;
+}
 
 type Issue = { axis: 'A' | 'B' | 'C' | 'D'; msg: string; fix: string };
 
@@ -64,12 +113,14 @@ function checkSpoke(file: string): Issue[] {
       });
     }
 
-    // ── D. 종결어미 도배 ────────────────────────────────
-    if (CLICHE_END.test(h1)) {
+    // ── D. 종결 도배 ────────────────────────────────────
+    const end = endOf(h1);
+    const used = endFreq()[end] ?? 0;
+    if (used >= CROWDED) {
       issues.push({
         axis: 'D',
-        msg: `제목이 '~법'으로 끝남: "${h1}"`,
-        fix: '행동 동사는 문장 안에 두고 끝은 다르게 — "어디서 신청하나" "언제까지 내야 하나" "얼마 받나" "놓치면 어떻게 되나"',
+        msg: `종결 "…${end}" 이 사이트에 이미 ${used}개 — 같은 끝이 몰린다: "${h1}"`,
+        fix: '행동 동사는 문장 안에 두고 끝은 다르게 — "어디서 신청하나" "언제까지 내야 하나" "얼마 받나" "놓치면 어떻게 되나" (정본 docs/title-style-24.md)',
       });
     }
   }
