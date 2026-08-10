@@ -32,6 +32,7 @@
  *   npx tsx scripts/check-cue-value.ts --draft <파일>  # 본문 쓰기 전 문구 초안만 검사
  */
 import fs from 'fs';
+import { split, rebase, prune, baselineCount } from './lib/baseline';
 import path from 'path';
 import { execSync } from 'child_process';
 import { partition, PROBE } from './lib/changed-files';
@@ -743,36 +744,60 @@ let cueTotal = 0;
 let qaTotal = 0;
 const count = { A: 0, B: 0, C: 0, D: 0, E: 0, F: 0, G: 0, H: 0, I: 0, J: 0, K: 0, L: 0, M: 0, N: 0, O: 0, P: 0 };
 
+/* 기준선(baseline) — 원래 있던 결함은 경고, 새로 생긴 것만 차단.
+   사유는 scripts/lib/baseline.ts 머리말 참조 (2026-08-10). */
+const GATE = 'cue-value';
+const collected: { file: string; axis: string; msg: string; fix: string }[] = [];
+
 for (const f of targets) {
   const { qaCount, cues } = parse(f);
   qaTotal += qaCount;
   cueTotal += cues.length;
-
-  const issues = checkHub(f, cueIndex);
-  if (!issues.length) continue;
-  failed++;
-  issues.forEach((i) => count[i.axis]++);
-  if (!all || issues.some((i) => i.axis === 'K' || i.axis === 'L' || i.axis === 'M' || i.axis === 'N' || i.axis === 'O' || i.axis === 'P')) {
-    console.log(`\n❌ ${path.basename(f, '.ts')}`);
-    for (const i of issues) {
-      console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
-      console.log(`      → ${i.fix}`);
-    }
+  for (const i of checkHub(f, cueIndex)) {
+    collected.push({ file: path.basename(f, '.ts'), axis: i.axis, msg: i.msg, fix: i.fix });
   }
 }
-
-let spokeFailed = 0;
 for (const sf of spokeTargets) {
   const miss = checkSpokeSlots(sf);
   if (!miss.length) continue;
-  spokeFailed++;
-  count.G += miss.length;
-  if (!all) {
-    console.log('');
-    console.log('❌ ' + path.basename(sf, '.tsx') + ' (스포크)');
-    console.log('   [' + AXIS.G + '] 버튼이 뜨는 자리에 문구가 없음: ' + miss.join(', '));
-    console.log('      → 스포크는 2·4·마지막 카드에만 버튼이 렌더링된다. 그 카드에 act:{cue,label,url} 을 넣는다');
+  collected.push({
+    file: path.basename(sf, '.tsx') + ' (스포크)',
+    axis: 'G',
+    msg: '버튼이 뜨는 자리에 문구가 없음: ' + miss.join(', '),
+    fix: '스포크는 2·4·마지막 카드에만 버튼이 렌더링된다. 그 카드에 act:{cue,label,url} 을 넣는다',
+  });
+}
+
+if (process.argv.includes('--rebase-baseline')) {
+  rebase(GATE, collected);
+  console.log(` 기준선 재설정 — ${collected.length}개를 기존 결함으로 기록했다`);
+  process.exit(0);
+}
+
+const { fresh, known } = split(GATE, collected);
+fresh.forEach((i) => count[i.axis as keyof typeof count]++);
+const freshFiles = new Set(fresh.map((i) => i.file));
+failed = freshFiles.size;
+let spokeFailed = 0;
+
+if (!all) {
+  for (const file of freshFiles) {
+    console.log(`\n❌ ${file}`);
+    for (const i of fresh.filter((x) => x.file === file)) {
+      console.log(`   [${AXIS[i.axis as keyof typeof AXIS]}] ${i.msg}`);
+      console.log(`      → ${i.fix}`);
+    }
   }
+  if (known.length) {
+    console.log(`\n⚠ 원래 있던 결함 ${known.length}개는 기준선에 있어 차단하지 않는다`);
+    console.log('   (전체 현황: --all / 고친 뒤 기준선 정리: --prune-baseline)');
+  }
+}
+
+if (process.argv.includes('--prune-baseline')) {
+  const gone = prune(GATE, collected);
+  console.log(` 기준선 정리 — 고쳐진 ${gone}개를 뺐다 (남은 ${baselineCount(GATE)}개)`);
+  process.exit(0);
 }
 
 console.log(`\n검사 허브 ${targets.length}개 · 스포크 ${spokeTargets.length}개 / 문제 ${failed + spokeFailed}개`);

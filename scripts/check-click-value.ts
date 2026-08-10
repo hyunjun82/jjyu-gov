@@ -22,6 +22,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
+import { split, rebase, prune, baselineCount } from './lib/baseline';
 
 const ROOT = 'app/policy/[id]/[spoke]/content';
 
@@ -160,21 +161,48 @@ const AXIS = { A: '제목 행동성', B: '버튼 슬롯', C: '외부 누수', D:
 let failed = 0;
 const count = { A: 0, B: 0, C: 0, D: 0 };
 
+/* 기준선(baseline): 원래 있던 결함은 경고, 이번에 새로 생긴 것만 차단.
+   왜 이렇게 하는지는 scripts/lib/baseline.ts 머리말 참조. */
+const GATE = 'click-value';
+const collected: { file: string; axis: string; msg: string; fix: string }[] = [];
 for (const f of targets) {
-  const issues = checkSpoke(f);
-  if (!issues.length) continue;
-  failed++;
-  issues.forEach((i) => count[i.axis]++);
-  if (!all) {
-    console.log(`\n❌ ${f.replace(ROOT + path.sep, '')}`);
-    for (const i of issues) {
-      console.log(`   [${AXIS[i.axis]}] ${i.msg}`);
-      console.log(`      → ${i.fix}`);
-    }
+  for (const i of checkSpoke(f)) {
+    collected.push({ file: f.replace(ROOT + path.sep, ''), axis: i.axis, msg: i.msg, fix: i.fix });
   }
 }
 
-console.log(`\n검사 ${targets.length}개 / 문제 ${failed}개`);
+if (process.argv.includes('--rebase-baseline')) {
+  rebase(GATE, collected);
+  console.log(` 기준선 재설정 — ${collected.length}개를 기존 결함으로 기록했다`);
+  process.exit(0);
+}
+
+const { fresh, known } = split(GATE, collected);
+fresh.forEach((i) => count[i.axis as keyof typeof count]++);
+const freshFiles = new Set(fresh.map((i) => i.file));
+failed = freshFiles.size;
+
+if (!all) {
+  for (const file of freshFiles) {
+    console.log(`\n❌ ${file}`);
+    for (const i of fresh.filter((x) => x.file === file)) {
+      console.log(`   [${AXIS[i.axis as keyof typeof AXIS]}] ${i.msg}`);
+      console.log(`      → ${i.fix}`);
+    }
+  }
+  if (known.length) {
+    console.log(`\n⚠ 원래 있던 결함 ${known.length}개는 기준선에 있어 차단하지 않는다`);
+    console.log(`   (전체 현황: --all / 고친 뒤 기준선 정리: --prune-baseline)`);
+  }
+}
+
+if (process.argv.includes('--prune-baseline')) {
+  const gone = prune(GATE, collected);
+  console.log(` 기준선 정리 — 고쳐진 ${gone}개를 뺐다 (남은 ${baselineCount(GATE)}개)`);
+  process.exit(0);
+}
+
+console.log(`\n검사 ${targets.length}개 / 새 문제 ${failed}개 / 기존 ${known.length}개`);
 console.log(`  제목 행동성 ${count.A}  버튼 슬롯 ${count.B}  외부 누수 ${count.C}  종결어미 도배 ${count.D}`);
 
 if (all) {

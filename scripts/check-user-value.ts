@@ -24,6 +24,7 @@
  *   npx tsx scripts/check-user-value.ts {slug}     # 단건
  */
 import fs from 'fs';
+import { split, rebase, prune, baselineCount } from './lib/baseline';
 import path from 'path';
 import { execSync } from 'child_process';
 
@@ -236,20 +237,48 @@ let failed = 0;
 const axisCount = { 1: 0, 2: 0, 3: 0 };
 
 let warned = 0;
+
+/* 기준선(baseline) — 원래 있던 결함은 경고, 새로 생긴 것만 차단.
+   사유는 scripts/lib/baseline.ts 머리말 참조 (2026-08-10). */
+const GATE = 'user-value';
+const collected: { file: string; axis: string; msg: string; fix: string; warn?: boolean }[] = [];
 for (const f of targets) {
-  const issues = checkFile(f);
-  if (!issues.length) continue;
-  const blocking = issues.filter((i) => !i.warn);
-  if (blocking.length) failed++;
-  else warned++;
-  issues.forEach((i) => axisCount[i.axis]++);
-  if (!all) {
-    console.log(`\n${blocking.length ? '❌' : '⚠️ '} ${f.replace(/\.ts$/, '')}`);
-    for (const i of issues) {
-      console.log(`   ${i.warn ? '(경고)' : ''}[${AXIS[i.axis]}] ${i.msg}`);
+  for (const i of checkFile(f)) {
+    collected.push({ file: f.replace(/\.ts$/, ''), axis: String(i.axis), msg: i.msg, fix: i.fix, warn: i.warn });
+  }
+}
+
+if (process.argv.includes('--rebase-baseline')) {
+  rebase(GATE, collected);
+  console.log(` 기준선 재설정 — ${collected.length}개를 기존 결함으로 기록했다`);
+  process.exit(0);
+}
+
+const { fresh, known } = split(GATE, collected);
+fresh.forEach((i) => axisCount[Number(i.axis) as 1 | 2 | 3]++);
+const freshFiles = new Set(fresh.map((i) => i.file));
+failed = [...freshFiles].filter((f) => fresh.some((i) => i.file === f && !i.warn)).length;
+warned = freshFiles.size - failed;
+
+if (!all) {
+  for (const file of freshFiles) {
+    const mine = fresh.filter((x) => x.file === file);
+    console.log(`\n${mine.some((i) => !i.warn) ? '❌' : '⚠️ '} ${file}`);
+    for (const i of mine) {
+      console.log(`   ${i.warn ? '(경고)' : ''}[${AXIS[Number(i.axis) as 1 | 2 | 3]}] ${i.msg}`);
       console.log(`      → ${i.fix}`);
     }
   }
+  if (known.length) {
+    console.log(`\n⚠ 원래 있던 결함 ${known.length}개는 기준선에 있어 차단하지 않는다`);
+    console.log('   (전체 현황: --all / 고친 뒤 기준선 정리: --prune-baseline)');
+  }
+}
+
+if (process.argv.includes('--prune-baseline')) {
+  const gone = prune(GATE, collected);
+  console.log(` 기준선 정리 — 고쳐진 ${gone}개를 뺐다 (남은 ${baselineCount(GATE)}개)`);
+  process.exit(0);
 }
 
 console.log(`\n검사 ${targets.length}개 / 차단 ${failed}개 / 경고만 ${warned}개`);
