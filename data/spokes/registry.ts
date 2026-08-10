@@ -247,6 +247,9 @@ import { 실손보험수족구실비청구SpokeContent } from '@/app/policy/[id]
 import { 실손보험무지외반증실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/무지외반증실비청구';
 import { 실손보험식중독실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/식중독실비청구';
 import { 실손보험골절진단비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/골절진단비청구';
+import { 실손보험인공눈물실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/인공눈물실비청구';
+import { 실손보험비염수술실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비염수술실비청구';
+import { 실손보험독감실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/독감실비청구';
 import { 실손보험보청기급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보청기급여';
 import { 실손보험다이렉트비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/다이렉트비교';
 import { 실손보험실효부활SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/실효부활';
@@ -1524,6 +1527,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'bunion-claim': 실손보험무지외반증실비청구SpokeContent,
     'food-poisoning-claim': 실손보험식중독실비청구SpokeContent,
     'fracture-diagnosis-benefit': 실손보험골절진단비청구SpokeContent,
+    'artificial-tears-claim': 실손보험인공눈물실비청구SpokeContent,
+    'rhinitis-surgery-claim': 실손보험비염수술실비청구SpokeContent,
+    'influenza-claim': 실손보험독감실비청구SpokeContent,
     'direct-comparison': 실손보험다이렉트비교SpokeContent,
     'lapse-revival': 실손보험실효부활SpokeContent,
     'card-payment': 실손보험카드결제SpokeContent,
