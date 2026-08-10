@@ -281,6 +281,16 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                 q={item.q}
                 anchor={item.anchor || `q${i + 1}`}
               >
+                {/* 본문 중간 광고 gov2 — 소제목 헤더 바로 아래, 본문 첫 줄 위.
+                    2026-08-10 이전에는 카드와 카드 사이(카드 바깥)에 뒀는데, 읽는 흐름
+                    밖으로 밀려나 눈에 안 들어왔다. 워드프레스 매체 대부분이 쓰는 자리로 옮긴다:
+                    소제목을 읽고 본문으로 눈이 내려오는 그 지점.
+                    버튼(act)은 카드 맨 아래라 광고와 멀어 오클릭 유도에 해당하지 않는다. */}
+                {(i === 1 || i === 3) && i < spoke.qa.length - 1 && (
+                  <div className="ad-slot" style={{ margin: '0 0 20px' }}>
+                    <AdSense slot="1375998717" />
+                  </div>
+                )}
                 {item.intro && renderIntro(item.intro, item.highlights)}
                 {item.table && (
                   <QATable
@@ -332,13 +342,6 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                   </div>
                 )}
               </QACard>
-              {/* 본문 중간 광고 gov2 — 카드 경계(카드 바깥)에 두어 버튼과 이격,
-                  오클릭 유도 정책을 피하면서 독자가 실제로 읽는 구간에 노출시킨다. */}
-              {(i === 1 || i === 3) && i < spoke.qa.length - 1 && (
-                <div className="ad-slot" style={{ margin: '32px 0' }}>
-                  <AdSense slot="1375998717" />
-                </div>
-              )}
               </Fragment>
             ))}
 
