@@ -23,7 +23,7 @@ const KNIA_INFO = 'https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthInfo
 const FSS_TERMS = 'https://www.fss.or.kr/fss/bbs/B0000115/view.do?nttId=21943&menuNo=200504';
 
 export const 실손보험수족구실비청구SpokeContent: SpokeData = {
-  h1: '아이 수족구 실비 청구, 진단서 없이도 되나요?',
+  h1: '아이 수족구 실비 청구, 진단서부터 떼야 할까?',
   breadcrumb: '수족구 실비 청구',
   description:
     '수족구는 실손의료보험 표준약관의 면책 질환 목록에 없어 진료비가 청구 대상입니다. 실손 청구는 진료비영수증·세부내역서·원외처방전·약제비 영수증 네 가지로 접수되고, 실손24에는 미성년 자녀 청구 메뉴가 따로 있어 부모가 대신 넣을 수 있습니다.',
@@ -80,11 +80,6 @@ export const 실손보험수족구실비청구SpokeContent: SpokeData = {
           ['직장·항문 질환', 'K60~K62, K64'],
         ],
       },
-      act: {
-        cue: '면책 목록에 없는 질환이라면 남은 건 넣는 일뿐인데요. 아이 진료는 자녀 청구 메뉴로 들어갑니다.',
-        label: '실손24로 아이 진료비 청구하기',
-        url: SILSON24,
-      },
     },
     {
       q: '수족구 실비 청구에 진단서가 필요한가요?',
@@ -95,6 +90,11 @@ export const 실손보험수족구실비청구SpokeContent: SpokeData = {
       box: {
         label: '실손24 자동전송서류 네 가지',
         content: '진료비영수증 · 진료비 세부내역서 · 원외처방전 (병원) / 약제비 영수증 (약국)',
+      },
+      act: {
+        cue: '뗄 서류가 없다면 남은 건 넣는 일뿐인데요. 아이 진료는 자녀 청구 메뉴로 들어갑니다.',
+        label: '실손24로 아이 진료비 청구하기',
+        url: SILSON24,
       },
     },
     {
