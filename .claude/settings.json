@@ -146,5 +146,18 @@
       "C:\\Users\\user\\gov-jjyu\\app\\policy\\[id]\\[spoke]",
       "c:\\Users\\user\\gov-jjyu\\.claude"
     ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/require-title-log.mjs\""
+          }
+        ]
+      }
+    ]
   }
 }
