@@ -282,7 +282,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                   {/* 광고 gov2 — 소제목 헤더 바로 아래, 본문 첫 줄 위 (2026-08-10 이전).
                       카드 바깥(카드와 카드 사이)에 두던 걸 옮겼다. 읽는 흐름 밖이라 눈에 안 들어왔다.
                       스포크 SpokeClient.tsx 와 같은 자리 — 두 곳을 다르게 두면 지면이 어긋난다. */}
-                  {i === 2 && (
+                  {(i === 1 || i === 3 || i === 5) && i < (d.qa?.length ?? 0) - 1 && (
                     <div className="ad-slot" style={{ margin: '0 0 20px' }}>
                       <AdSense slot="1375998717" />
                     </div>
