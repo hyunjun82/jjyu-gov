@@ -125,9 +125,16 @@ const givenByOwner = /- 출처:\s*사장님 지시\s*—\s*["“].+["”]/.test(
      · 라벨이 길면 안 눌린다 — '내 대학이 되는지 확인하고 신청하기'(18자)로 지적받았다. */
 const LABEL_MAX = 16;
 const hasHero = /heroHook:\s*(\n\s*)?['"`][^'"`]{20,}/.test(payload);
-const longLabels = [...payload.matchAll(/(?:label|ctaLabel):\s*['"`]([^'"`]+)['"`]/g)]
-  .map((m) => m[1])
-  .filter((l) => [...l].length > LABEL_MAX);
+/* 버튼 라벨만 센다. sources 의 출처명과 box 의 라벨도 label: 을 쓰는데,
+   출처는 길어야 정확하다("대한민국 정책브리핑 「…」 (2026.06.16, 보건복지부)").
+   2026-08-11 실제 파일에서 오탐으로 확인 — act 블록 안과 ctaLabel 만 본다. */
+const buttonLabels = [
+  ...[...payload.matchAll(/(?:heroAct|act):\s*\{[\s\S]{0,400}?\}/g)]
+    .map((m) => m[0].match(/label:\s*['"`]([^'"`]+)['"`]/)?.[1])
+    .filter(Boolean),
+  ...[...payload.matchAll(/ctaLabel:\s*['"`]([^'"`]+)['"`]/g)].map((m) => m[1]),
+];
+const longLabels = buttonLabels.filter((l) => [...l].length > LABEL_MAX);
 
 if (!sawCapture && !givenByOwner) {
   why =
