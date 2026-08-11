@@ -58,16 +58,45 @@ const slug = basename(file).replace(/\.(tsx|ts)$/, '');
 const esc = slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const entryRe = new RegExp('^##[^\\n]*' + esc, 'm');
 
+/* 인용한 제목이 캡처에 실제로 있는 줄인지 대조한다 (2026-08-11 신설).
+   왜: 형식만 검사하던 시절, 사장님 채팅 스크린샷에서 본 제목을 로컬 캡처에서
+   본 것처럼 적은 허위 인용 8건이 그대로 통과했다. 모양만 맞으면 지어낼 수 있었다.
+   목록의 원천은 reference/titles/INDEX.md — 5장을 Read 해서 옮겨 적은 것이다. */
+const norm = (s) => s.replace(/[\s"“”'’|·ㆍ!?，,.]/g, '').toLowerCase();
+const indexPath = join(root, 'reference', 'titles', 'INDEX.md');
+const indexRaw = existsSync(indexPath) ? readFileSync(indexPath, 'utf8') : '';
+const knownTitles = indexRaw
+  .split('\n')
+  .filter((l) => /^-\s+\S/.test(l))
+  .map((l) => norm(l.replace(/^-\s+/, '')))
+  .filter((l) => l.length > 8);
+
 let ok = false;
+let why = '';
 if (entryRe.test(log)) {
   const block = log.slice(log.search(entryRe)).split(/\n## /)[0];
   /* 파일명에 공백이 있을 수 있어("세금 타이틀.png") \S+ 가 아니라 .+? 로 잡는다 */
-  const hasCap = /- 캡처:\s*.+?\s*—\s*["“].+["”]/.test(block);
+  const capM = block.match(/- 캡처:\s*(.+?)\s*—\s*["“](.+?)["”]/);
   const hasPat = /- 패턴:\s*[①-⑨]/.test(block);
-  ok = hasCap && hasPat;
+  if (!capM) why = '- 캡처: <파일명> — "<제목>" 줄이 없다';
+  else if (!hasPat) why = '- 패턴: <①~⑨> 줄이 없다';
+  else if (!knownTitles.length) why = 'reference/titles/INDEX.md 를 읽지 못했다 — 대조 불가라 차단한다';
+  else {
+    const quoted = norm(capM[2]);
+    /* 캡처 목록에 그 제목이 있는가. 부분 일치도 인정(줄바꿈·말줄임 대비) */
+    const found = knownTitles.some((t) => t.includes(quoted) || quoted.includes(t));
+    if (!found) {
+      why =
+        `인용한 제목이 캡처 목록에 없다: "${capM[2]}"\n` +
+        '     → 그 줄은 reference/titles/ 캡처에 없는 제목이다. 채팅 스크린샷이나 기억에서\n' +
+        '        가져온 것이라면 캡처를 인용하지 말고 실제 출처를 그대로 적는다.\n' +
+        '        (캡처를 새로 갈아끼웠다면 reference/titles/INDEX.md 부터 갱신한다)';
+    } else ok = true;
+  }
 }
 
 if (ok) process.exit(0);
+if (why) console.error(`[title-log 훅] ${slug} — ${why}\n`);
 
 console.error(
   [

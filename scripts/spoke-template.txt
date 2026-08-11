@@ -1,0 +1,77 @@
+스포크 뼈대 — 복사해서 쓴다 (2026-08-11 신설)
+
+  cp scripts/spoke-template.txt "app/policy/[id]/[spoke]/content/{정책}/{파일}.tsx"
+
+확장자가 .txt 인 이유: tsconfig 의 include 가 "**/*.tsx" 라서 .tsx 로 두면
+템플릿 자체가 타입체크 대상이 되어 빌드가 깨진다 (2026-08-11 실제로 깨뜨려 확인).
+
+왜 이 뼈대가 있나: 하루치 게이트 차단을 축별로 세어보니 "버튼 슬롯"이 7건으로
+1위였다. act 를 내용상 어울리는 카드에 넣었는데 화면에는 qa 인덱스 2·4·마지막에만
+렌더돼(SpokeClient.tsx 171행) 매번 되돌려 옮겼다. 나머지 차단(faqData 의
+source·sourceUrl 누락, 금지어, 루트 URL)도 자리를 미리 잡아두면 생기지 않는다.
+
+쓰기 전 확인 세 줄:
+  1. 타이틀에 행동 동사(청구·신청·조회·발급·확인)가 있나
+  2. 종결어미 중복 세기:
+     grep -rho "h1: '[^']*'" app/policy/*/*/content/*/*.tsx | grep -c "종결어미"
+  3. 금지어 없나 — 대부분 / 대개 / 경우가 많 / 흔합니다
+     (1차 출처에 그렇게 적혀 있어도 게이트가 막는다. 빈도어 없이 사실만 쓴다)
+
+────────────────────────── 여기부터 복사 ──────────────────────────
+/* 팩트시트: scripts/output/factsheet-{주제}.md */
+/* {주제} — 신규 스포크 ({날짜})
+ * 1) reference/titles/{캡처}.png Read — "{캡처에서 본 KB 타이틀}" 구조, 패턴 {번호}
+ * 2) 구성표 승인 — 소제목 {n}개
+ * 3) Playwright 캡처 대조 (scripts/output/captures/): {목록}
+ * 타이틀 조각: scripts/output/{키워드}.json — "{조각}"(포털)
+ * 쓰지 않는 것: {검증 못 한 것들}
+ */
+import type { SpokeData } from '../../SpokeClient';
+
+const 목적지 = 'https://example.go.kr/deep/link';   // 루트 URL 금지 — 딥링크만
+const 근거 = 'https://example.go.kr/source';
+
+export const 정책명주제SpokeContent: SpokeData = {
+  h1: '',
+  breadcrumb: '',
+  description: '',
+  datePublished: '2026-01-01T09:00:00+09:00',
+  dateModified: '2026-01-01T09:00:00+09:00',
+  heroHook: '',      // 1문단 장면 → 2문단 사실+반전. 도입 군더더기 금지 (docs/button-copy.md)
+  heroAct: { label: '', href: 목적지 },
+
+  keyFacts: {},
+  keyFactsHighlights: {},
+
+  qa: [
+    // index 0 — 행동(청구/신청 방법). 최상단. 버튼 없음(hero 버튼이 받는다)
+    { q: '', anchor: 'q-how', intro: '', highlights: [], box: { label: '', content: '' } },
+
+    // index 1 — 버튼 렌더 안 됨. act 넣지 말 것
+    { q: '', anchor: 'q-2', intro: '', highlights: [] },
+
+    // index 2 — 버튼 슬롯 ★
+    { q: '', anchor: 'q-3', intro: '', highlights: [],
+      act: { cue: '', label: '', url: 목적지 } },
+
+    // index 3 — 버튼 렌더 안 됨
+    { q: '', anchor: 'q-4', intro: '', highlights: [] },
+
+    // index 4 — 버튼 슬롯 ★ (5개 구성이면 마지막이라 여기도 렌더)
+    { q: '', anchor: 'q-5', intro: '', highlights: [],
+      act: { cue: '', label: '', url: 근거 } },
+  ],
+
+  // source·sourceUrl 은 필수 필드다. 빠지면 TS2739 로 push 가 막힌다
+  faqData: [
+    { q: '', a: '', source: '', sourceUrl: 근거 },
+    { q: '', a: '', source: '', sourceUrl: 근거 },
+    { q: '', a: '', source: '', sourceUrl: 근거 },
+    { q: '', a: '', source: '', sourceUrl: 근거 },
+    { q: '', a: '', source: '', sourceUrl: 근거 },
+  ],
+
+  sources: [
+    { name: '', url: 근거 },
+  ],
+};
