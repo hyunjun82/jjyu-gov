@@ -37,8 +37,8 @@ export const militarySavingsComboPolicy = {
   slug: 'military-savings-combo', org: '국방부·금융위원회', cat: '저축', catSlug: 'savings',
   amount: '병 월급만 넣어도 3,891만원 (두 적금 합산)',
   deadline: '장병적금 상시(잔여복무 1개월 이상) · 청년미래적금 연 2회(6월·12월)',
-  applyUrl: NARASARANG,
-  ctaLabel: '나라사랑포털 바로가기',
+  applyUrl: MND,
+  ctaLabel: '가입 방법 바로가기',
   datePublished: '2026-08-11T09:00:00+09:00', dateModified: '2026-08-11T09:00:00+09:00',
   summary:
     '병사는 장병내일준비적금과 청년미래적금을 중복 가입할 수 있습니다. 금융위원회 발표에 따르면 병 월급만 활용해도 3,891만원, 입영 전 저축액 등을 더해 최대한도로 납입하면 4,074만원의 목돈 마련이 가능합니다. 장병내일준비적금은 월 55만원까지 넣고 정부가 원금의 100%를 매칭하며 이자는 비과세입니다. 다만 청년미래적금은 만기가 3년이라 전역 후에도 납입해야 하고, 중도해지하면 비과세와 정부지원금을 모두 받지 못합니다.',
@@ -47,7 +47,7 @@ export const militarySavingsComboPolicy = {
   audience: '입대를 앞두었거나 복무 중인 병사와 그 부모',
   heroHook:
     '입대 앞두고 통장을 보면 마음이 복잡하죠. 2년 가까이 벌이가 끊기는 셈이니까요. 그런데 병사는 정부가 돈을 얹어주는 적금을 두 개 동시에 들 수 있습니다. 금융위원회 발표 기준으로 병 월급만 넣어도 전역 무렵 3,891만원입니다. 다만 장병내일준비적금은 입영 전에 은행 계좌를 미리 열어둬야 빨리 붙고, 청년미래적금은 6월과 12월에만 문이 열립니다. 그럼 가입 절차부터 보셔야겠죠.',
-  heroAct: { label: '나라사랑포털 바로가기', href: NARASARANG },
+  heroAct: { label: '가입 방법 바로가기', href: MND },
 
   keyFacts: {
     중복가입: {
