@@ -109,7 +109,11 @@ for (const f of added) {
   const entry = entryRe.test(log);
   const block = entry ? log.slice(log.search(entryRe)).split(/\n## /)[0] : '';
   /* 파일명에 공백이 있다("세금 타이틀.png") — \S+ 로 잡으면 공백에서 깨진다 (2026-08-10 시험에서 확인) */
-  const hasCapLine = /- 캡처:\s*.+?\s*—\s*["“].+["”]/.test(block);
+  /* 사장님이 타이틀을 직접 준 경우는 캡처 인용 대신 실제 출처를 적는다 (2026-08-11).
+     캡처는 타이틀을 뽑을 때 보는 것이지, 이미 받은 타이틀을 쓸 때 인용을 강요하면
+     오늘 아침처럼 허위 인용을 지어내게 된다. PreToolUse 훅과 같은 예외를 둔다. */
+  const givenByOwner = /- 출처:\s*사장님 지시\s*—\s*["“].+["”]/.test(block);
+  const hasCapLine = givenByOwner || /- 캡처:\s*.+?\s*—\s*["“].+["”]/.test(block);
   const hasPatLine = /- 패턴:\s*[①-⑨]/.test(block);
   if (!entry || !hasCapLine || !hasPatLine) {
     console.log(`❌ ${name}`);
