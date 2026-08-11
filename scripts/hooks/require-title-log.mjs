@@ -108,9 +108,22 @@ const unopened = [...btnUrls].filter(
 
 let ok = false;
 let why = '';
-if (!sawCapture) {
+/* 사장님이 타이틀·키워드를 직접 준 경우 (2026-08-11).
+   캡처는 타이틀을 "뽑을 때" 보는 것이지, 이미 받은 타이틀을 쓸 때 필요한 게 아니다.
+   그런데도 캡처 인용을 강제하면 오늘 아침처럼 허위 인용을 지어내게 된다.
+   그래서 실제 출처를 그대로 적는 길을 낸다:
+     - 출처: 사장님 지시 — "받은 타이틀·키워드 그대로"
+   이 줄이 있으면 1단계(캡처)는 면제한다. 2·3단계(목적지·원문 캡처)는 그대로 요구한다. */
+const blockForSlug = entryRe.test(log)
+  ? log.slice(log.search(entryRe)).split(/\n## /)[0]
+  : '';
+const givenByOwner = /- 출처:\s*사장님 지시\s*—\s*["“].+["”]/.test(blockForSlug);
+
+if (!sawCapture && !givenByOwner) {
   why =
     '[1단계] 이 세션에서 reference/titles/ 캡처를 아직 한 장도 열지 않았다.\n' +
+    '     (사장님이 타이틀을 직접 주신 경우라면 title-log 에\n' +
+    '      - 출처: 사장님 지시 — "받은 타이틀 그대로" 를 적는다)\n' +
     '     → 타이틀을 쓰기 전에 주제와 가까운 캡처를 Read 로 먼저 연다.\n' +
     '        (INDEX.md 목록만 보고 제목을 베끼는 것은 캡처를 본 것이 아니다)';
 } else if (unopened.length) {
@@ -124,6 +137,9 @@ if (!sawCapture) {
     '[3단계] 이 세션에서 1차 출처를 캡처(browser_take_screenshot)한 적이 없다.\n' +
     '     → 표·구간·단서는 텍스트로 뽑으면 뭉개진다. 화면을 캡처해 눈으로 보고 쓴다\n' +
     '        (CLAUDE.md 절대규칙 7-A)';
+} else if (givenByOwner) {
+  ok = /- 패턴:\s*[①-⑨]/.test(blockForSlug);
+  if (!ok) why = '- 패턴: <①~⑨> 줄이 없다';
 } else if (entryRe.test(log)) {
   const block = log.slice(log.search(entryRe)).split(/\n## /)[0];
   /* 파일명에 공백이 있을 수 있어("세금 타이틀.png") \S+ 가 아니라 .+? 로 잡는다 */

@@ -353,6 +353,7 @@ import { scienceCultureVoucherPolicy, scienceCultureVoucherSpokes } from './scie
 import { inverterAcElectricitySavingPolicy, inverterAcElectricitySavingSpokes } from './inverter-ac-electricity-saving';
 import { daisoStockAndRefundPolicy, daisoStockAndRefundSpokes } from './daiso-stock-and-refund';
 import { coupangRefundPeriodPolicy, coupangRefundPeriodSpokes } from './coupang-refund-period';
+import { jaebeolXhyeongsa2RerunPolicy, jaebeolXhyeongsa2RerunSpokes } from './jaebeol-xhyeongsa2-rerun';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -973,6 +974,7 @@ export const PoliciesById: Record<string, any> = {
   '243': inverterAcElectricitySavingPolicy,
   '244': daisoStockAndRefundPolicy,
   '245': coupangRefundPeriodPolicy,
+  '708': jaebeolXhyeongsa2RerunPolicy,
   '246': heartDiseaseDiagnosisRiderPolicy,
   '247': termVsWholeLifeInsurancePolicy,
   '248': noRefundLifeInsuranceGuidePolicy,
@@ -1658,6 +1660,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'inverter-ac-electricity-saving': inverterAcElectricitySavingPolicy,
   'daiso-stock-and-refund': daisoStockAndRefundPolicy,
   'coupang-refund-period': coupangRefundPeriodPolicy,
+  'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2181,6 +2184,7 @@ export const PoliciesBySlug: Record<string, any> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesById: Record<string, any[]> = {
+  '708': jaebeolXhyeongsa2RerunSpokes,
   '158': nationalPensionReductionSpokes,
   '80': afterSchoolChildcareFeeSpokes,
   '50': artistPensionSpokes,
@@ -2865,6 +2869,7 @@ export const SpokesById: Record<string, any[]> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesBySlug: Record<string, any[]> = {
+  'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
   'artist-pension': artistPensionSpokes,
