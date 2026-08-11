@@ -7,13 +7,13 @@ export const housingScholarPolicy = {
   slug: 'housing-scholar', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '월 최대 20만원 · 연 최대 240만원',
   deadline: '2026 2학기 2차 신청 2026.8.12~9.9 18시 (서류제출·가구원동의 ~9.16 18시)', views: 0,
-  applyUrl: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00', ctaLabel: '내 대학이 되는지 확인하고 신청하기',
+  applyUrl: 'https://www.kosaf.go.kr/ssoext/portal_gateway.jsp?bsnId=JH&ref=PTJH_SCRSAPLY&hmNavi=JH,09,02,00', ctaLabel: '주거안정장학금 신청하기',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-08-11T09:00:00+09:00',
   summary: '집을 떠나 원거리 대학에 다니는 기초생활수급자·차상위계층 대학생에게 임차료 등 주거 관련 비용을 월 최대 20만원(연 최대 240만원)까지 지원하는 한국장학재단 사업. 부모 주소지와 대학이 통학하기 어려운 거리에 있어 자취·하숙 등으로 주거 부담을 지는 학생이 대상. kosaf.go.kr 학기별 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   metaDescription: '주거안정장학금 신청자격과 거주 증빙, 국가장학금 중복여부 – 월 최대 20만원 · 연 최대 240만원. 집을 떠나 원거리 대학에 다니는 기초생활수급자·차상위계층 대학생에게 임차료 등 주거 관련 비용을 월 최대 20만원(연 최대 240만원)까지 지원하는 한국장학재단...',
   audience: '원거리 대학에 다니는 기초·차상위 대학생(만 39세 이하)',
   heroHook:
-    '집 떠나 학교 근처에 방 얻고 나면, 매달 나가는 월세가 등록금보다 무섭게 느껴지죠. 부모님께 손 벌리기도 미안하고요. 원거리 대학에 다니는 기초·차상위 학생이라면 그 주거비를 월 최대 20만원, 연 240만원까지 지원받을 수 있는데요. 다만 아무 학교나 되는 건 아니라 올해 참여대학 292개교에 다녀야 하고, 2학기 2차 신청은 8월 12일 9시부터 9월 9일 18시까지입니다. 그럼 내 학교가 되는 곳인지부터 확인하셔야겠죠.',
+    '집 떠나 학교 근처에 방 얻고 나면, 매달 나가는 월세가 등록금보다 무섭게 느껴지죠. 부모님께 손 벌리기도 미안하고요. 원거리 대학에 다니는 기초·차상위 학생이라면 그 주거비를 월 최대 20만원, 연 240만원까지 지원받을 수 있는데요. 다만 아무 학교나 되는 건 아니라 올해 참여대학 292개교에 다녀야 하고, 2학기 2차 신청은 8월 12일 9시부터 9월 9일 18시까지입니다. 그럼 마감 전에 신청부터 넣으셔야겠죠.',
   keyFacts: {
     지원유형: { value: '주거 관련 비용 지원(임차료·관리비·연료비 등)', source: { url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00', text: '주거안정장학금', verifiedAt: '2026-08-11' } },
     월_지원: { value: '월 최대 20만원', source: { url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00', text: '월 최대 20만원', verifiedAt: '2026-08-11' } },
@@ -41,7 +41,7 @@ export const housingScholarPolicy = {
       box: { label: '자격 요건', content: '① 소득: 기초생활수급자·차상위계층 / ② 연령: 만 39세 이하 대학생 / ③ 거주: 부모 주소지와 대학이 원거리(통학 곤란) + 타지 거주 / 부모와 동거·통학 가능: 대상 X' },
       act: {
         cue: '세 조건을 다 채워도 학교가 참여대학이 아니면 신청이 안 되는데요. 그럼 내 학교가 되는 곳인지부터 확인하셔야겠죠.',
-        label: '내 대학이 지원 대상인지 확인하기',
+        label: '참여대학 확인하기',
         url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00',
       },
       sourceNote: '* 출처: 한국장학재단',
@@ -67,7 +67,7 @@ export const housingScholarPolicy = {
       box: { label: '거주 증빙', content: '자취: 임대차계약서 + 전입신고 / 하숙: 하숙비 영수증·계약서 / 기숙사: 학교 입사 확인서 / 원거리·타지 거주 사실 확인 필요' },
       act: {
         cue: '서류 마감은 신청 마감보다 일주일 뒤인 9월 16일 18시입니다. 신청만 해두고 서류를 안 내면 심사가 멈추니, 이번 회차 서류 안내부터 챙기셔야겠죠.',
-        label: '2학기 2차 제출서류 공고 보기',
+        label: '제출서류 공고 보기',
         url: 'https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=21163&naviParam=DN,08,01,00',
       },
       sourceNote: '* 출처: 한국장학재단',
