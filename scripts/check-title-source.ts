@@ -39,12 +39,25 @@ const CODE_IN_TITLE = [
   { re: /\b(ICD|KCD)-?\d*\b/i, why: '분류체계 약어' },
 ];
 
-const added = sh('git diff --name-status origin/main...HEAD')
+const isContent = (f: string) =>
+  /^app\/policy\/\[id\]\/\[spoke\]\/content\/.+\.tsx$/.test(f)
+  || (/^data\/policies\/[^/]+\.ts$/.test(f) && !f.endsWith('manifest.ts'));
+
+/* 2026-08-08: 신규(A)만 보던 것을 수정(M)까지 — 기존 글 타이틀을 고칠 때도 같은 기준.
+   2026-08-11 보정: 그런데 구현이 "파일을 고치면"이 되어, 타이틀은 그대로 두고 본문·일정만
+   갱신해도 캡처 기록을 요구했다(주거안정장학금 회차 갱신에서 발견). 의도는 "타이틀을 고칠 때"다.
+   수정(M)은 diff 에 타이틀 줄이 실제로 추가됐을 때만 검사한다 — PreToolUse 훅과 같은 기준. */
+const rows = sh('git diff --name-status origin/main...HEAD')
   .split('\n')
-  .filter((l) => /^[AM]\t/.test(l)) // 2026-08-08: 신규(A)만 보던 것을 수정(M)까지 — 기존 글 타이틀을 고칠 때도 같은 기준
-  .map((l) => l.slice(2).trim())
-  .filter((f) => /^app\/policy\/\[id\]\/\[spoke\]\/content\/.+\.tsx$/.test(f)
-    || (/^data\/policies\/[^/]+\.ts$/.test(f) && !f.endsWith('manifest.ts')));
+  .map((l) => ({ st: l.slice(0, 1), file: l.slice(2).trim() }))
+  .filter((r) => /^[AM]$/.test(r.st) && isContent(r.file));
+
+const touchesTitle = (f: string) =>
+  sh(`git diff origin/main...HEAD -- "${f}"`)
+    .split('\n')
+    .some((l) => /^\+/.test(l) && !/^\+\+\+/.test(l) && /(h1|title):\s*['"`]/.test(l));
+
+const added = rows.filter((r) => r.st === 'A' || touchesTitle(r.file)).map((r) => r.file);
 
 const all = process.argv.includes('--all');
 if (!all && added.length === 0) {
