@@ -7,11 +7,13 @@ export const housingScholarPolicy = {
   slug: 'housing-scholar', org: '교육부', cat: '지원금', catSlug: 'fund',
   amount: '월 최대 20만원 · 연 최대 240만원',
   deadline: '2026 2학기 2차 신청 2026.8.12~9.9 18시 (서류제출·가구원동의 ~9.16 18시)', views: 0,
-  applyUrl: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00', ctaLabel: '주거안정장학금 신청하기',
+  applyUrl: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00', ctaLabel: '내 대학이 되는지 확인하고 신청하기',
   datePublished: '2026-01-01T09:00:00+09:00', dateModified: '2026-08-11T09:00:00+09:00',
   summary: '집을 떠나 원거리 대학에 다니는 기초생활수급자·차상위계층 대학생에게 임차료 등 주거 관련 비용을 월 최대 20만원(연 최대 240만원)까지 지원하는 한국장학재단 사업. 부모 주소지와 대학이 통학하기 어려운 거리에 있어 자취·하숙 등으로 주거 부담을 지는 학생이 대상. kosaf.go.kr 학기별 신청. 본 정책은 정부 공식 자료에 기반하며 신청 자격은 부처 공식 사이트에서 최종 확인이 필요합니다.',
   metaDescription: '주거안정장학금 신청자격과 거주 증빙, 국가장학금 중복여부 – 월 최대 20만원 · 연 최대 240만원. 집을 떠나 원거리 대학에 다니는 기초생활수급자·차상위계층 대학생에게 임차료 등 주거 관련 비용을 월 최대 20만원(연 최대 240만원)까지 지원하는 한국장학재단...',
   audience: '원거리 대학에 다니는 기초·차상위 대학생(만 39세 이하)',
+  heroHook:
+    '집 떠나 학교 근처에 방 얻고 나면, 매달 나가는 월세가 등록금보다 무섭게 느껴지죠. 부모님께 손 벌리기도 미안하고요. 원거리 대학에 다니는 기초·차상위 학생이라면 그 주거비를 월 최대 20만원, 연 240만원까지 지원받을 수 있는데요. 다만 아무 학교나 되는 건 아니라 올해 참여대학 292개교에 다녀야 하고, 2학기 2차 신청은 8월 12일 9시부터 9월 9일 18시까지입니다. 그럼 내 학교가 되는 곳인지부터 확인하셔야겠죠.',
   keyFacts: {
     지원유형: { value: '주거 관련 비용 지원(임차료·관리비·연료비 등)', source: { url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00', text: '주거안정장학금', verifiedAt: '2026-08-11' } },
     월_지원: { value: '월 최대 20만원', source: { url: 'https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00', text: '월 최대 20만원', verifiedAt: '2026-08-11' } },
