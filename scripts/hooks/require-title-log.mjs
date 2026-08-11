@@ -119,6 +119,16 @@ const blockForSlug = entryRe.test(log)
   : '';
 const givenByOwner = /- 출처:\s*사장님 지시\s*—\s*["“].+["”]/.test(blockForSlug);
 
+/* 문구 기본기 — 훅을 다 만든 뒤에도 사장님이 잡아낸 것들(2026-08-11).
+   기계가 셀 수 있는 것만 막는다.
+     · heroHook 이 없으면 서론 자체가 렌더되지 않는다 — 주거안정장학금 허브가 그랬다.
+     · 라벨이 길면 안 눌린다 — '내 대학이 되는지 확인하고 신청하기'(18자)로 지적받았다. */
+const LABEL_MAX = 16;
+const hasHero = /heroHook:\s*(\n\s*)?['"`][^'"`]{20,}/.test(payload);
+const longLabels = [...payload.matchAll(/(?:label|ctaLabel):\s*['"`]([^'"`]+)['"`]/g)]
+  .map((m) => m[1])
+  .filter((l) => [...l].length > LABEL_MAX);
+
 if (!sawCapture && !givenByOwner) {
   why =
     '[1단계] 이 세션에서 reference/titles/ 캡처를 아직 한 장도 열지 않았다.\n' +
@@ -137,6 +147,16 @@ if (!sawCapture && !givenByOwner) {
     '[3단계] 이 세션에서 1차 출처를 캡처(browser_take_screenshot)한 적이 없다.\n' +
     '     → 표·구간·단서는 텍스트로 뽑으면 뭉개진다. 화면을 캡처해 눈으로 보고 쓴다\n' +
     '        (CLAUDE.md 절대규칙 7-A)';
+} else if (tool === 'Write' && !hasHero) {
+  why =
+    '[문구] heroHook 이 없다 — 서론 없이 제목 다음에 버튼만 나온다.\n' +
+    '     → 장면 한 줄 → 금액·조건과 반전 → 버튼으로 넘기는 한 줄 (docs/button-copy.md)';
+} else if (longLabels.length) {
+  why =
+    `[문구] 버튼 라벨이 ${LABEL_MAX}자를 넘는다:\n` +
+    longLabels.map((l) => `        · "${l}" (${[...l].length}자)`).join('\n') + '\n' +
+    '     → 목적지에서 실제로 되는 일 하나만 남긴다 — 예: "주거안정장학금 신청하기"';
+
 } else if (givenByOwner) {
   ok = /- 패턴:\s*[①-⑨]/.test(blockForSlug);
   if (!ok) why = '- 패턴: <①~⑨> 줄이 없다';

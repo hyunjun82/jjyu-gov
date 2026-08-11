@@ -12,7 +12,7 @@ const idxHide = idxPath + '.hidden';
 const logBak = readFileSync(logPath, 'utf8');
 
 const SID = 'selftest-session';
-const DEF = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10) + "  heroAct: { label: 'ㄱ', href: 'https://www.silson24.or.kr/claim/web/' },";
+const DEF = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10) + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10) + "  heroAct: { label: 'ㄱ', href: 'https://www.silson24.or.kr/claim/web/' },";
 const run = (file, content = DEF, sid = SID) => {
   const payload = JSON.stringify({ session_id: sid, tool_name: 'Write', tool_input: { file_path: file, content } });
   try {
@@ -120,6 +120,30 @@ t('15. 1차 출처 캡처를 안 찍었으면 (3단계)', false, () => {
   const r = run(spoke('시험15원문캡처'));
   markAll();
   return r;
+});
+
+t('16. heroHook 이 없는 새 글 (서론 없이 버튼만)', false, () => {
+  addEntry('시험16서론없음', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
+  markAll();
+  return run(spoke('시험16서론없음'), "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10) + "  heroAct: { label: 'ㄱ', href: OK_URL },");
+});
+
+t('17. 라벨이 16자를 넘으면', false, () => {
+  addEntry('시험17긴라벨', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
+  markAll();
+  const body = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
+    + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10)
+    + "  heroAct: { label: '내 대학이 되는지 확인하고 신청하기', href: OK_URL },";
+  return run(spoke('시험17긴라벨'), body);
+});
+
+t('18. 서론 있고 라벨 짧으면 통과', true, () => {
+  addEntry('시험18정상', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
+  markAll();
+  const body = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
+    + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10)
+    + "  heroAct: { label: '실비 청구하기', href: OK_URL },";
+  return run(spoke('시험18정상'), body);
 });
 
 let fail = 0;
