@@ -1,3 +1,4 @@
+/* 팩트시트: scripts/output/factsheet-주거안정장학금-2026-2학기2차.md */
 /* 주거안정장학금 (2026) - 한국장학재단 */
 export const housingScholarPolicy = {
   id: '90', type: 'cash' as const,
