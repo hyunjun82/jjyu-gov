@@ -161,11 +161,11 @@
     ],
     "PostToolUse": [
       {
-        "matcher": "Read",
+        "matcher": "Read|mcp__playwright__browser_navigate|mcp__playwright__browser_take_screenshot",
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/record-capture-read.mjs\""
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/record-session-activity.mjs\""
           }
         ]
       }

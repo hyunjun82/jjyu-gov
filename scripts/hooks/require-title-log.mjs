@@ -71,33 +71,59 @@ const knownTitles = indexRaw
   .map((l) => norm(l.replace(/^-\s+/, '')))
   .filter((l) => l.length > 8);
 
-/* 이 세션에서 캡처 이미지를 실제로 Read 했는가 (2026-08-11 신설).
-   PostToolUse(Read) 훅인 record-capture-read.mjs 가 남긴 기록을 본다.
-   INDEX.md 만 보고 제목을 베끼는 우회를 막는다 — 목록은 이미지를 대신하지 못한다. */
+/* 이 세션에서 1·2·3단계를 실제로 했는가 (2026-08-11).
+   record-session-activity.mjs 가 PostToolUse 로 남긴 기록을 본다.
+     1단계 캡처 Read / 2단계 버튼 목적지 browser_navigate / 3단계 원문 screenshot
+   md 에만 적힌 규칙은 건너뛰어도 아무 일이 없었다. 흔적으로 강제한다. */
 const sid = input.session_id ?? '';
-const seenPath = join(root, '.claude', 'state', 'capture-reads.jsonl');
-let sawCapture = false;
-let seenFiles = [];
-if (existsSync(seenPath)) {
-  for (const line of readFileSync(seenPath, 'utf8').split('\n')) {
+const actPath = join(root, '.claude', 'state', 'session-activity.jsonl');
+const acts = [];
+if (existsSync(actPath)) {
+  for (const line of readFileSync(actPath, 'utf8').split('\n')) {
     if (!line.trim()) continue;
     try {
       const r = JSON.parse(line);
-      if (sid && r.session_id === sid) {
-        sawCapture = true;
-        if (r.file && !seenFiles.includes(r.file)) seenFiles.push(r.file);
-      }
+      if (sid && r.session_id === sid) acts.push(r);
     } catch { /* 깨진 줄은 건너뛴다 */ }
   }
 }
+const sawCapture = acts.some((a) => a.kind === 'capture-read');
+const sawShot = acts.some((a) => a.kind === 'screenshot');
+const visited = acts.filter((a) => a.kind === 'navigate').map((a) => String(a.url));
+
+/* 이 글이 쓰려는 버튼 목적지를 뽑는다. const 로 뺀 URL 도 따라간다. */
+const consts = new Map();
+for (const m of payload.matchAll(/const\s+([A-Za-z0-9_가-힣]+)\s*=\s*['"`](https?:\/\/[^'"`]+)['"`]/g)) {
+  consts.set(m[1], m[2]);
+}
+const btnUrls = new Set();
+for (const m of payload.matchAll(/(?:url|href):\s*(?:['"`](https?:\/\/[^'"`]+)['"`]|([A-Za-z0-9_가-힣]+))/g)) {
+  const u = m[1] ?? consts.get(m[2] ?? '');
+  if (u) btnUrls.add(u);
+}
+const trim = (u) => u.replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
+const unopened = [...btnUrls].filter(
+  (u) => !visited.some((v) => trim(v).startsWith(trim(u)) || trim(u).startsWith(trim(v))),
+);
 
 let ok = false;
 let why = '';
 if (!sawCapture) {
   why =
-    '이 세션에서 reference/titles/ 캡처를 아직 한 장도 열지 않았다.\n' +
+    '[1단계] 이 세션에서 reference/titles/ 캡처를 아직 한 장도 열지 않았다.\n' +
     '     → 타이틀을 쓰기 전에 주제와 가까운 캡처를 Read 로 먼저 연다.\n' +
     '        (INDEX.md 목록만 보고 제목을 베끼는 것은 캡처를 본 것이 아니다)';
+} else if (unopened.length) {
+  why =
+    '[2단계] 버튼 목적지를 이 세션에서 Playwright 로 열지 않았다:\n' +
+    unopened.map((u) => '        · ' + u).join('\n') + '\n' +
+    '     → 로그인·인증이 걸리는지, 세션 토큰이 붙는 URL 인지 먼저 확인한다.\n' +
+    '        목적지가 확정되기 전에는 버튼 문구를 쓰지 않는다 (title-workflow.md 2단계 ★)';
+} else if (!sawShot) {
+  why =
+    '[3단계] 이 세션에서 1차 출처를 캡처(browser_take_screenshot)한 적이 없다.\n' +
+    '     → 표·구간·단서는 텍스트로 뽑으면 뭉개진다. 화면을 캡처해 눈으로 보고 쓴다\n' +
+    '        (CLAUDE.md 절대규칙 7-A)';
 } else if (entryRe.test(log)) {
   const block = log.slice(log.search(entryRe)).split(/\n## /)[0];
   /* 파일명에 공백이 있을 수 있어("세금 타이틀.png") \S+ 가 아니라 .+? 로 잡는다 */

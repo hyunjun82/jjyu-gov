@@ -12,7 +12,8 @@ const idxHide = idxPath + '.hidden';
 const logBak = readFileSync(logPath, 'utf8');
 
 const SID = 'selftest-session';
-const run = (file, content = "  h1: '테스트 실비 청구하기',", sid = SID) => {
+const DEF = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10) + "  heroAct: { label: 'ㄱ', href: 'https://www.silson24.or.kr/claim/web/' },";
+const run = (file, content = DEF, sid = SID) => {
   const payload = JSON.stringify({ session_id: sid, tool_name: 'Write', tool_input: { file_path: file, content } });
   try {
     execSync('node scripts/hooks/require-title-log.mjs', { input: payload, encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] });
@@ -26,9 +27,12 @@ const addEntry = (slug, cap, pat = '- 패턴: ⑥ 함정 경고형 — 시험용
   writeFileSync(logPath, logBak + `\n\n## ${slug}\n${cap}\n${pat}\n- 타이틀: 시험\n`, 'utf8');
 
 /* 캡처 열람 기록 — 이 세션이 이미지를 열었다고 기록해 둔다(정상 경로 재현) */
-const seenPath = join(root, '.claude', 'state', 'capture-reads.jsonl');
+const seenPath = join(root, '.claude', 'state', 'session-activity.jsonl');
 const seenBak = existsSync(seenPath) ? readFileSync(seenPath, 'utf8') : null;
-const markSeen = () => writeFileSync(seenPath, JSON.stringify({ session_id: SID, file: '보험타이틀.png', at: new Date().toISOString() }) + String.fromCharCode(10), 'utf8');
+const line = (o) => JSON.stringify({ session_id: SID, at: new Date().toISOString(), ...o }) + String.fromCharCode(10);
+const OK_URL = 'https://www.silson24.or.kr/claim/web/';
+const markAll = () => writeFileSync(seenPath, line({kind:'capture-read',file:'보험타이틀.png'}) + line({kind:'navigate',url:OK_URL}) + line({kind:'screenshot',file:'x.png'}), 'utf8');
+const markSeen = markAll;
 const clearSeen = () => writeFileSync(seenPath, '', 'utf8');
 mkdirSync(join(root, '.claude', 'state'), { recursive: true });
 markSeen();
@@ -99,6 +103,22 @@ t('13. 다른 세션이 연 기록은 내 세션에 안 쳐준다', false, () =>
   writeFileSync(seenPath, JSON.stringify({ session_id: 'someone-else', file: '보험타이틀.png', at: new Date().toISOString() }) + String.fromCharCode(10), 'utf8');
   const r = run(spoke('시험13남의세션'));
   markSeen();
+  return r;
+});
+
+t('14. 버튼 목적지를 안 열었으면 (2단계)', false, () => {
+  addEntry('시험14목적지', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
+  writeFileSync(seenPath, line({kind:'capture-read',file:'보험타이틀.png'}) + line({kind:'screenshot',file:'x.png'}), 'utf8');
+  const r = run(spoke('시험14목적지'));
+  markAll();
+  return r;
+});
+
+t('15. 1차 출처 캡처를 안 찍었으면 (3단계)', false, () => {
+  addEntry('시험15원문캡처', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
+  writeFileSync(seenPath, line({kind:'capture-read',file:'보험타이틀.png'}) + line({kind:'navigate',url:OK_URL}), 'utf8');
+  const r = run(spoke('시험15원문캡처'));
+  markAll();
   return r;
 });
 
