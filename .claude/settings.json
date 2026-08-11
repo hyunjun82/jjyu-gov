@@ -158,6 +158,17 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/record-capture-read.mjs\""
+          }
+        ]
+      }
     ]
   }
 }

@@ -71,9 +71,34 @@ const knownTitles = indexRaw
   .map((l) => norm(l.replace(/^-\s+/, '')))
   .filter((l) => l.length > 8);
 
+/* 이 세션에서 캡처 이미지를 실제로 Read 했는가 (2026-08-11 신설).
+   PostToolUse(Read) 훅인 record-capture-read.mjs 가 남긴 기록을 본다.
+   INDEX.md 만 보고 제목을 베끼는 우회를 막는다 — 목록은 이미지를 대신하지 못한다. */
+const sid = input.session_id ?? '';
+const seenPath = join(root, '.claude', 'state', 'capture-reads.jsonl');
+let sawCapture = false;
+let seenFiles = [];
+if (existsSync(seenPath)) {
+  for (const line of readFileSync(seenPath, 'utf8').split('\n')) {
+    if (!line.trim()) continue;
+    try {
+      const r = JSON.parse(line);
+      if (sid && r.session_id === sid) {
+        sawCapture = true;
+        if (r.file && !seenFiles.includes(r.file)) seenFiles.push(r.file);
+      }
+    } catch { /* 깨진 줄은 건너뛴다 */ }
+  }
+}
+
 let ok = false;
 let why = '';
-if (entryRe.test(log)) {
+if (!sawCapture) {
+  why =
+    '이 세션에서 reference/titles/ 캡처를 아직 한 장도 열지 않았다.\n' +
+    '     → 타이틀을 쓰기 전에 주제와 가까운 캡처를 Read 로 먼저 연다.\n' +
+    '        (INDEX.md 목록만 보고 제목을 베끼는 것은 캡처를 본 것이 아니다)';
+} else if (entryRe.test(log)) {
   const block = log.slice(log.search(entryRe)).split(/\n## /)[0];
   /* 파일명에 공백이 있을 수 있어("세금 타이틀.png") \S+ 가 아니라 .+? 로 잡는다 */
   const capM = block.match(/- 캡처:\s*(.+?)\s*—\s*["“](.+?)["”]/);
