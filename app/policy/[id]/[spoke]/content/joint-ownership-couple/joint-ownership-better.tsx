@@ -79,11 +79,6 @@ export const jointOwnershipBetterSpokeContent: SpokeData = {
           ['보유기간', '15년 이상', '50%'],
         ],
       },
-      act: {
-        cue: '내 나이와 보유기간을 넣으면 공제율이 바로 나옵니다. 그럼 숫자로 확인하셔야겠죠.',
-        label: '내 종부세 계산해보기',
-        url: '/calc/jongbuse',
-      },
     },
     {
       q: '어느 쪽이 유리한지 어떻게 판단하나요?',
@@ -95,6 +90,11 @@ export const jointOwnershipBetterSpokeContent: SpokeData = {
         '세액공제율이 높을수록 특례가 유리해집니다',
         '60세가 되지 않았고 보유기간도 5년이 안 됐다면 세액공제가 0',
       ],
+      act: {
+        cue: '18억이냐 12억에 세액공제냐는 내 공시가격과 나이를 넣어야 갈립니다. 그럼 두 경우를 나란히 계산해 보셔야겠죠.',
+        label: '내 종부세 계산해보기',
+        url: '/calc/jongbuse',
+      },
       box: {
         label: '판단 순서',
         content:

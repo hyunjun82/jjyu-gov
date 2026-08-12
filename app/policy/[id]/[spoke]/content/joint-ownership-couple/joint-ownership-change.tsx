@@ -75,11 +75,6 @@ export const jointOwnershipChangeSpokeContent: SpokeData = {
           ['4촌 이내 혈족·3촌 이내 인척', '1천만원'],
         ],
       },
-      act: {
-        cue: '공제 한도 안에 들어오는지는 넘길 지분의 평가액으로 갈립니다. 그럼 종부세가 얼마나 줄어드는지부터 확인해 견줘보셔야겠죠.',
-        label: '내 종부세 계산해보기',
-        url: '/calc/jongbuse',
-      },
     },
     {
       q: '명의를 바꾸고 바로 팔면 양도세가 줄어드나요?',
@@ -91,6 +86,11 @@ export const jointOwnershipChangeSpokeContent: SpokeData = {
         '취득가액을 배우자가 그 자산을 취득할 당시의 금액으로',
         '등기부에 기재된 소유기간으로 계산',
       ],
+      act: {
+        cue: '10년을 기다릴 수 있는지가 갈림길입니다. 그럼 종부세가 매년 얼마 줄어드는지 계산해 견줘보셔야겠죠.',
+        label: '내 종부세 계산해보기',
+        url: '/calc/jongbuse',
+      },
       box: {
         label: '완화 장치',
         content:
