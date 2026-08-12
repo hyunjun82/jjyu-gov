@@ -21,7 +21,7 @@ const LEAFLET =
   'https://www.mnd.go.kr/sites/mnd/files/25%EB%85%84_%EC%9E%A5%EB%B3%91%EB%82%B4%EC%9D%BC%EC%A4%80%EB%B9%84%EC%A0%81%EA%B8%88_%EB%A6%AC%ED%94%8C%EB%A0%9B_%EC%B5%9C%EC%A2%85%EB%B3%B8_250117.pdf';
 
 export const militaryComboLastMonthSignupSpokeContent: SpokeData = {
-  h1: '장병내일준비적금 마지막달 가입해도 되나, 잔여복무 몇 개월까지 되나',
+  h1: '장병내일준비적금 마지막달 가입해도 되나, 잔여복무 몇 개월까지인가',
   breadcrumb: '마지막달 가입',
   description:
     '장병내일준비적금은 잔여 복무기간이 1개월 이상 남아 있으면 신규가입이 가능합니다. 원래 6개월 이상이었으나 2024년 6월부터 1개월로 완화됐습니다. 병무청은 잔여 1개월 예시로 1월 2일부터 2월 2일까지를 들고 있습니다.',
@@ -45,7 +45,7 @@ export const militaryComboLastMonthSignupSpokeContent: SpokeData = {
 
   qa: [
     {
-      q: '전역이 얼마 안 남았는데 지금 가입해도 되나요?',
+      q: '전역이 얼마 안 남았는데 마지막달에 가입해도 되나요?',
       anchor: 'q-can-join-late',
       intro:
         '잔여 복무기간이 1개월 이상 남아 있으면 됩니다. 국방부 리플릿은 잔여 복무기간이 1개월 이상 남은 자에 한하여 내일준비적금 신규가입이 가능하다고 밝히고 있습니다. 병무청 안내는 여기에 예시를 붙여 잔여 복무기간 1개월을 2026년 1월 2일부터 2월 2일까지로 들고 있습니다. 즉 전역일까지 한 달이 남았다면 아직 문이 열려 있습니다. 한 달이 안 되게 남았다면 가입자격확인서 발급 단계에서 걸러집니다.',
@@ -61,7 +61,7 @@ export const militaryComboLastMonthSignupSpokeContent: SpokeData = {
       },
     },
     {
-      q: '내 군별로 가입기간이 몇 개월까지인가요?',
+      q: '잔여복무 기준으로 내 군별 가입기간이 몇 개월까지인가요?',
       anchor: 'q-period-by-service',
       intro:
         '복무기간에 맞춰 상한이 다릅니다. 육군과 해병, 상근예비역은 1개월부터 18개월까지, 해군은 1개월부터 20개월까지 가입할 수 있습니다. 공군과 사회복무요원은 21개월, 대체복무요원은 24개월이 상한입니다. 시작이 모두 1개월인 점이 핵심입니다. 상한은 복무기간을 넘겨 가입할 수 없다는 뜻이고, 하한은 언제까지 들어올 수 있는지를 정합니다.',
