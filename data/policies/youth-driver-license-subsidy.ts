@@ -1,4 +1,6 @@
 /* 청년 운전면허 취득비용 지원(지자체별) - 의령군·김해시·진주시 등 지방자치단체 */
+/* 팩트시트: scripts/output/factsheet-청년운전면허-타이틀정정.md
+ * (2026-08-12 타이틀 정정 건. 타이틀에서 70만원을 뺀 근거 = 의령군 공고 50만원 이내 캡처) */
 const UIRYEONG = 'https://uiryeong.go.kr/youthcenter/board/view.uiryeong?boardId=BBS_0000533&menuCd=DOM_000002001001004000&startPage=1&dataSid=1092283';
 const GIMHAE = 'https://www.gimhae.go.kr/population/00006/00022.web?gcode=1%2C001&idx=105&amode=view';
 const JINJU = 'https://young.jinju.go.kr/young/business/read/107';

@@ -1,4 +1,6 @@
 /* 치아보험 가입 유의사항 - 금융감독원 공식 보도자료(2025.6.24) */
+/* 팩트시트: scripts/output/factsheet-치아보험-타이틀정정.md
+ * (2026-08-12 타이틀 종결 정정 건. 본문 수치 미변경 — 범위는 팩트시트 0번에 명시) */
 export const dentalInsuranceGuidePolicy = {
   id: '257', type: 'service' as const,
   title: '치아보험 임플란트 보장한도 얼마까지 나오나, 발치 개수 모르면 손해',
