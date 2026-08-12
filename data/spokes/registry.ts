@@ -1355,8 +1355,20 @@ import { militaryComboMonthlyLimitPaymentSpokeContent } from '@/app/policy/[id]/
 import { militaryComboLastMonthSignupSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/last-month-signup';
 import { militaryComboMatchingFundPayoutSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/matching-fund-payout';
 import { militaryComboMaturityTerminationSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/maturity-termination';
+import { jointOwnershipSpecialCaseApplicationSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/special-case-application';
+import { jointOwnershipBetterSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/joint-ownership-better';
+import { jointOwnershipPropertyTaxSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/joint-ownership-property-tax';
+import { jointOwnershipChangeSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/joint-ownership-change';
+import { jointOwnershipCapitalGainsSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/joint-ownership-capital-gains';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'joint-ownership-couple': {
+    'special-case-application': jointOwnershipSpecialCaseApplicationSpokeContent,
+    'joint-ownership-better': jointOwnershipBetterSpokeContent,
+    'joint-ownership-property-tax': jointOwnershipPropertyTaxSpokeContent,
+    'joint-ownership-change': jointOwnershipChangeSpokeContent,
+    'joint-ownership-capital-gains': jointOwnershipCapitalGainsSpokeContent,
+  },
   'military-savings-combo': {
     'eligibility-certificate': militaryComboEligibilityCertificateSpokeContent,
     'monthly-limit-payment': militaryComboMonthlyLimitPaymentSpokeContent,
