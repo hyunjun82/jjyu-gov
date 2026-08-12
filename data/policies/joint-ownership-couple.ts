@@ -110,6 +110,7 @@ export const jointOwnershipCouplePolicy = {
         label: '내 종부세 계산해보기',
         url: '/calc/jongbuse',
       },
+      sourceNote: '* 출처: 국세청 공동명의 1주택자 특례 혜택 표, 종합부동산세법 제9조(2026-08-12 확인)',
     },
     {
       anchor: 'q-deadline',
@@ -130,6 +131,12 @@ export const jointOwnershipCouplePolicy = {
         label: '공동명의 특례 신청하기',
         url: NTS_SPECIAL,
       },
+      box: {
+        label: '챙길 것 두 가지',
+        content:
+          '① 공동명의 1주택자 특례 (변경)신청서 — 종합부동산세법 시행규칙 별지 제30호 서식. ② 혼인관계증명서. 신청서에는 부부 중 누구를 납세의무자로 할지 적는 칸이 있습니다.',
+      },
+      sourceNote: '* 출처: 국세청 공동명의 1주택자 특례, 종합부동산세법 시행령 제5조의2(2026-08-12 확인)',
     },
     {
       anchor: 'q-who-taxpayer',
@@ -155,6 +162,7 @@ export const jointOwnershipCouplePolicy = {
           ['배우자가 다른 주택 소유', '국세청 신청대상'],
         ],
       },
+      sourceNote: '* 출처: 종합부동산세법 시행령 제5조의2 제2항, 국세청 공동명의 1주택자 특례(2026-08-12 확인)',
     },
     {
       anchor: 'q-other-taxes',
@@ -167,6 +175,12 @@ export const jointOwnershipCouplePolicy = {
         label: '재산세 세율 조문 확인하기',
         url: LAW_LOCAL,
       },
+      box: {
+        label: '세목별 결론',
+        content:
+          '재산세는 총액 그대로(지방세법 제113조③) · 종합부동산세는 갈림길(특례 신청) · 양도소득세는 기본공제 각자 250만원 · 증여세는 배우자 10년 6억원 공제.',
+      },
+      sourceNote: '* 출처: 지방세법 제113조·제107조, 소득세법 제103조, 상속세 및 증여세법 제53조(2026-08-12 확인)',
     },
   ],
 
