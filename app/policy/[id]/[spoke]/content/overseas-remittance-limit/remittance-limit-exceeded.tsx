@@ -15,7 +15,7 @@ const LAW_FOREX = 'https://www.law.go.kr/행정규칙/외국환거래규정';
 const LAW_FOREX_BODY = 'https://www.law.go.kr/LSW//admRulInfoP.do?admRulSeq=2100000281984&chrClsCd=010201';
 
 export const remittanceLimitExceededSpokeContent: SpokeData = {
-  h1: '해외송금 한도 초과 어떻게 하나, 은행 나눠 써도 합산되니 모르면 손해',
+  h1: '해외송금 한도 초과 조회부터, 은행 나눠 써도 합산되니 모르면 손해',
   breadcrumb: '한도 초과',
   description:
     '연간 누계 10만불을 넘겨도 건당 5천불 이내이거나 은행이 서류로 거래 내용과 금액을 확인할 수 있으면 증빙서류를 제출하지 않을 수 있습니다. 한도는 여러 기관을 통해 지급한 금액을 합산하므로 은행을 나눠도 초기화되지 않습니다.',
@@ -75,7 +75,7 @@ export const remittanceLimitExceededSpokeContent: SpokeData = {
       },
     },
     {
-      q: '내가 얼마 보냈는지 어디서 확인하나요?',
+      q: '해외송금 한도 초과했는지 어디서 조회하나요?',
       anchor: 'q-check-usage',
       intro:
         '거래한 외국환은행에서 확인합니다. 규정은 은행이 확인 절차를 거치도록 정해두고 있어, 창구나 앱에서 송금할 때 누계 금액이 함께 확인됩니다. 제4-3조 제2항은 증빙서류를 제출하지 않는 경우에도 지급하려는 자가 외국환은행의 장에게 거래 내용을 설명하고 제2-1조의2의 절차에 따라 확인을 받아야 한다고 정합니다. 여러 기관을 썼다면 한 은행 화면에 전체가 다 보이지 않을 수 있으므로, 송금 전에 그해 보낸 내역을 스스로 정리해두는 편이 정확합니다. 은행에 문의할 때는 연간 누계 기준이라는 점을 함께 말하면 확인이 빠릅니다.',

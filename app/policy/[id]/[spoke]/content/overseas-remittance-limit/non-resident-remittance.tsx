@@ -15,7 +15,7 @@ const LAW_FOREX = 'https://www.law.go.kr/행정규칙/외국환거래규정';
 const LAW_FOREX_BODY = 'https://www.law.go.kr/LSW//admRulInfoP.do?admRulSeq=2100000281984&chrClsCd=010201';
 
 export const nonResidentRemittanceSpokeContent: SpokeData = {
-  h1: '비거주자 영주권자 해외송금 한도, 거주자 기준으로 알면 손해',
+  h1: '비거주자 영주권자 해외송금 한도 조회, 거주자 기준으로 알면 손해',
   breadcrumb: '비거주자·영주권자',
   description:
     '비거주자와 외국인거주자는 거주자용 제4-3조가 아니라 제4-4조가 적용됩니다. 자금의 취득경위 입증서류를 제출해 은행 확인을 받아야 하고, 해당 사유가 없으면 연간 미화 5만불 범위에서 지정거래외국환은행이나 신용카드사를 통해 지급합니다.',
@@ -39,7 +39,7 @@ export const nonResidentRemittanceSpokeContent: SpokeData = {
 
   qa: [
     {
-      q: '비거주자 해외송금 한도는 거주자와 어떻게 다른가요?',
+      q: '비거주자 해외송금 한도 조회하면 거주자와 어떻게 다른가요?',
       anchor: 'q-different',
       intro:
         '적용되는 조문 자체가 다릅니다. 외국환거래규정 제4-3조 제1항은 본문에서 거주자를 대상으로 하되 외국인거주자는 제외한다고 못 박고 있습니다. 그래서 연간 누계 미화 10만불 무증빙 조항은 외국인거주자에게 적용되지 않습니다. 비거주자와 외국인거주자에게는 제4-4조가 적용되어, 자금의 취득경위를 입증하는 서류를 제출해 외국환은행 장의 확인을 받은 경우에 한하여 지급할 수 있습니다. 서류가 원칙이고 면제가 예외인 구조로 뒤집혀 있습니다.',

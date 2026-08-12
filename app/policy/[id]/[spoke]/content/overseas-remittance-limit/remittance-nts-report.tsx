@@ -15,7 +15,7 @@ const LAW_FOREX = 'https://www.law.go.kr/행정규칙/외국환거래규정';
 const LAW_FOREX_BODY = 'https://www.law.go.kr/LSW//admRulInfoP.do?admRulSeq=2100000281984&chrClsCd=010201';
 
 export const remittanceNtsReportSpokeContent: SpokeData = {
-  h1: '해외송금 국세청 통보 기준 1만불, 증빙 안 냈다고 안 걸리는 게 아니다',
+  h1: '해외송금 국세청 통보 기준 1만불 확인, 증빙 안 냈다고 안 걸리는 게 아니다',
   breadcrumb: '국세청 통보',
   description:
     '외국환은행의 장은 무증빙 송금이 지급인·수령인별 연간 미화 1만불을 초과하면 익월 10일 이내에 국세청장에게 통보합니다. 유학생·해외체재자 여행경비는 연간 10만불, 그 밖의 지급은 건당 1만불이 기준입니다.',
@@ -39,7 +39,7 @@ export const remittanceNtsReportSpokeContent: SpokeData = {
 
   qa: [
     {
-      q: '해외송금은 얼마부터 국세청에 통보되나요?',
+      q: '해외송금 국세청 통보 기준을 확인하면 얼마부터인가요?',
       anchor: 'q-threshold',
       intro:
         '연간 1만불이 첫 문턱입니다. 외국환거래규정 제4-8조 제1항 제1호는 제4-3조 제1항 제1호와 제3호에 따른 지급등의 금액이 지급인 및 수령인별로 연간 미화 1만불을 초과하는 경우 국세청장에게 통보하도록 정하고 있습니다. 제4-3조 제1항 제1호가 바로 증빙서류 없이 보낼 수 있는 연간 누계 10만불 구간입니다. 즉 증빙 면제 구간 안에서도 1만불을 넘기면 통보됩니다. 통보 시기는 매월별로 익월 10일 이내입니다. 다만 정부 또는 지방자치단체의 지급등은 통보 대상에서 빠집니다.',
