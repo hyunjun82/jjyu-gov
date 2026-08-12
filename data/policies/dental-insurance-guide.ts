@@ -1,7 +1,7 @@
 /* 치아보험 가입 유의사항 - 금융감독원 공식 보도자료(2025.6.24) */
 export const dentalInsuranceGuidePolicy = {
   id: '257', type: 'service' as const,
-  title: '치아보험 가입 전 꼭 알아야 할 5가지, 발치 개수부터 확인하세요',
+  title: '치아보험 임플란트 보장한도 얼마까지 나오나, 발치 개수 모르면 손해',
   titleKeywords: { k1: '발치한 치아의 개수 기준', k2: '집에서 스스로 발치한 치아', k3: '면책기간', k4: '감액(50%) 지급 기간' },
   slug: 'dental-insurance-guide', org: '금융감독원', cat: '보험', catSlug: 'insurance',
   amount: '해당없음(정보성 콘텐츠, 실제 가입금액은 상품별 상이)',

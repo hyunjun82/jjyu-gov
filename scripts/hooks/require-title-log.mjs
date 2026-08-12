@@ -21,6 +21,13 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
 
+/* 사람이 푸는 스위치 (2026-08-12 사장님 지시 — "사용자가 풀 수 있게도 해야지").
+   게이트가 오판해서 작업이 서는 상황이 실제로 났다. 판단은 사람이 이긴다.
+     끄기: touch .claude/hooks-off   /   되돌리기: rm .claude/hooks-off */
+if (existsSync(join(process.env.CLAUDE_PROJECT_DIR ?? process.cwd(), '.claude', 'hooks-off'))) {
+  process.exit(0);
+}
+
 const raw = readFileSync(0, 'utf8');
 let input;
 try {

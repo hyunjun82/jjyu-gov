@@ -212,4 +212,10 @@ export const militarySavingsComboPolicy = {
   ],
 } as const;
 
-export const militarySavingsComboSpokes = [];
+export const militarySavingsComboSpokes = [
+  { slug: 'eligibility-certificate', title: '장병내일준비적금 가입자격확인서 발급 방법, 대상자가 아닙니다 뜨면?' },
+  { slug: 'monthly-limit-payment', title: '장병내일준비적금 55만원 한도 두 계좌로 어떻게 채우나, 중간에 금액 변경 되나' },
+  { slug: 'last-month-signup', title: '장병내일준비적금 마지막달 가입해도 되나, 잔여복무 몇 개월까지 되나' },
+  { slug: 'matching-fund-payout', title: '장병내일준비적금 매칭지원금 언제 들어오나, 만기해지 안 하면 한 푼도 못 받는다' },
+  { slug: 'maturity-termination', title: '장병내일준비적금 만기해지 방법과 서류, 중도해지하면 얼마 날아가나' },
+];

@@ -5,7 +5,7 @@ const JINJU = 'https://young.jinju.go.kr/young/business/read/107';
 
 export const youthDriverLicenseSubsidyPolicy = {
   id: '639', type: 'cash' as const,
-  title: '청년 운전면허 지원금, 70만원 아니라 우리 지역 공고부터 확인하세요',
+  title: '청년 운전면허 지원금 우리 지역 신청방법과 대상 조회까지, 전국 다 되는 줄 알면 손해',
   titleKeywords: { k1: '중앙부처가 전국 단위로 운영하는 제도가 아니라', k2: '가장 높은 지원액은 경남 의령군과 김해시의 50만원 선이었고', k3: '해당 지역 사업 유무를 확인할 수 있습니다', k4: '의령군은 2025년 7월 1일 이후 신규 취득자' },
   slug: 'youth-driver-license-subsidy', org: '지방자치단체', cat: '청년', catSlug: 'youth',
   amount: '지자체별 상이(의령군·김해시 최대 50만원, 진주시 10만원)',

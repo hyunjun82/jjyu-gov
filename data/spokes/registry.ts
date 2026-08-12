@@ -1350,8 +1350,20 @@ import { 케스파컵결선티켓예매SpokeContent } from '@/app/policy/[id]/[s
 import { 소상공인정책자금대상자조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/small-biz-policy-fund/대상자조회';
 import { 소상공인정책자금접수대기SpokeContent } from '@/app/policy/[id]/[spoke]/content/small-biz-policy-fund/접수대기';
 import { 소상공인정책자금부결재신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/small-biz-policy-fund/부결재신청';
+import { militaryComboEligibilityCertificateSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/eligibility-certificate';
+import { militaryComboMonthlyLimitPaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/monthly-limit-payment';
+import { militaryComboLastMonthSignupSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/last-month-signup';
+import { militaryComboMatchingFundPayoutSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/matching-fund-payout';
+import { militaryComboMaturityTerminationSpokeContent } from '@/app/policy/[id]/[spoke]/content/military-savings-combo/maturity-termination';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'military-savings-combo': {
+    'eligibility-certificate': militaryComboEligibilityCertificateSpokeContent,
+    'monthly-limit-payment': militaryComboMonthlyLimitPaymentSpokeContent,
+    'last-month-signup': militaryComboLastMonthSignupSpokeContent,
+    'matching-fund-payout': militaryComboMatchingFundPayoutSpokeContent,
+    'maturity-termination': militaryComboMaturityTerminationSpokeContent,
+  },
 
   'lh-apply-plus': {
     '서류제출대상자': LH청약플러스서류제출대상자SpokeContent,

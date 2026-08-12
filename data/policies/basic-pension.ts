@@ -294,7 +294,7 @@ export const 기초연금Spokes = [
   { slug: 'payment-suspension', title: '기초연금 지급정지 사유 4가지, 언제 끊기고 언제 다시 받나 조회까지' },
   { slug: 'calculation-formula', title: '기초연금 계산 공식 그대로 따라가며 내 금액 계산해보기' },
   { slug: 'disqualification', title: '기초연금 탈락 조건 네 가지, 재산에서 갈리니 소득인정액부터 계산' },
-  { slug: 'required-documents', title: '기초연금 신청 서류 세 가지, 배우자 동의서 빠뜨리면 헛걸음합니다' },
+  { slug: 'required-documents', title: '기초연금 신청 서류 세 가지 뭐뭐 챙기나, 배우자 동의서 빠뜨리면 헛걸음' },
   { slug: 'payment-day', title: '기초연금 지급일 매월 25일, 신청 늦으면 그 달치는 어떻게 되나' },
   { slug: 'duplicate-benefit', title: '기초연금 중복 수급, 생계급여·국민연금 받아도 되나 내 금액 조회' },
 ];
