@@ -356,6 +356,7 @@ import { coupangRefundPeriodPolicy, coupangRefundPeriodSpokes } from './coupang-
 import { jaebeolXhyeongsa2RerunPolicy, jaebeolXhyeongsa2RerunSpokes } from './jaebeol-xhyeongsa2-rerun';
 import { militarySavingsComboPolicy, militarySavingsComboSpokes } from './military-savings-combo';
 import { jointOwnershipCouplePolicy, jointOwnershipCoupleSpokes } from './joint-ownership-couple';
+import { overseasRemittanceLimitPolicy, overseasRemittanceLimitSpokes } from './overseas-remittance-limit';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -979,6 +980,7 @@ export const PoliciesById: Record<string, any> = {
   '708': jaebeolXhyeongsa2RerunPolicy,
   '709': militarySavingsComboPolicy,
   '710': jointOwnershipCouplePolicy,
+  '711': overseasRemittanceLimitPolicy,
   '246': heartDiseaseDiagnosisRiderPolicy,
   '247': termVsWholeLifeInsurancePolicy,
   '248': noRefundLifeInsuranceGuidePolicy,
@@ -1667,6 +1669,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunPolicy,
   'military-savings-combo': militarySavingsComboPolicy,
   'joint-ownership-couple': jointOwnershipCouplePolicy,
+  'overseas-remittance-limit': overseasRemittanceLimitPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2193,6 +2196,7 @@ export const SpokesById: Record<string, any[]> = {
   '708': jaebeolXhyeongsa2RerunSpokes,
   '709': militarySavingsComboSpokes,
   '710': jointOwnershipCoupleSpokes,
+  '711': overseasRemittanceLimitSpokes,
   '158': nationalPensionReductionSpokes,
   '80': afterSchoolChildcareFeeSpokes,
   '50': artistPensionSpokes,
@@ -2880,6 +2884,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunSpokes,
   'military-savings-combo': militarySavingsComboSpokes,
   'joint-ownership-couple': jointOwnershipCoupleSpokes,
+  'overseas-remittance-limit': overseasRemittanceLimitSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
   'artist-pension': artistPensionSpokes,

@@ -1360,8 +1360,18 @@ import { jointOwnershipBetterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { jointOwnershipPropertyTaxSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/joint-ownership-property-tax';
 import { jointOwnershipChangeSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/joint-ownership-change';
 import { jointOwnershipCapitalGainsSpokeContent } from '@/app/policy/[id]/[spoke]/content/joint-ownership-couple/joint-ownership-capital-gains';
+import { designatedForexBankSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/designated-forex-bank';
+import { remittanceNtsReportSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/remittance-nts-report';
+import { nonResidentRemittanceSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/non-resident-remittance';
+import { remittanceLimitExceededSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/remittance-limit-exceeded';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'overseas-remittance-limit': {
+    'designated-forex-bank': designatedForexBankSpokeContent,
+    'remittance-nts-report': remittanceNtsReportSpokeContent,
+    'non-resident-remittance': nonResidentRemittanceSpokeContent,
+    'remittance-limit-exceeded': remittanceLimitExceededSpokeContent,
+  },
   'joint-ownership-couple': {
     'special-case-application': jointOwnershipSpecialCaseApplicationSpokeContent,
     'joint-ownership-better': jointOwnershipBetterSpokeContent,
