@@ -61,6 +61,30 @@ if (!titleRe.test(payload)) process.exit(0);
 const root = process.env.CLAUDE_PROJECT_DIR ?? process.cwd();
 const slug = basename(file).replace(/\.(tsx|ts)$/, '');
 
+/* 덮어쓰기 차단 (2026-08-13 신설 — 실제 사고로).
+   같은 주제 글이 이미 있는 줄 모르고 Write 로 통째로 덮어써서, 7/30 에 쓴 글
+   (고용24 통합경력증명, 소제목 7개·보도자료 원문 대조본)이 얕은 새 글로 바뀌었다.
+   git 으로 되살렸지만 게이트는 전부 통과했다 — check-duplicate 조차 이미 덮어쓴
+   파일을 자기 자신과 비교해 "겹침 0"이라고 답했다. 검사 순서상 막을 수가 없었다.
+   그래서 저장 시점에 막는다: 파일이 이미 있는데 Write(전체 교체)면 차단.
+   고칠 때는 Edit 를 쓰거나, 정말 새 글이면 다른 slug 를 쓴다. */
+if (tool === 'Write' && existsSync(file)) {
+  console.error(
+    [
+      `[title-log 훅] ${slug} — 이미 있는 글을 통째로 덮어쓰려 한다.`,
+      '',
+      `  ${file}`,
+      '',
+      '  · 같은 주제 글이 이미 있다. 먼저 Read 로 열어 무엇이 들어 있는지 본다.',
+      '  · 보강할 것이면 Edit 로 필요한 부분만 고친다.',
+      '  · 정말 다른 글이면 slug 를 다르게 잡는다(각도가 다르면 스포크로).',
+      '',
+      '  덮어쓰면 기존 글의 소제목·출처·수치가 그대로 사라지고, push 게이트도 못 잡는다.',
+    ].join(String.fromCharCode(10)),
+  );
+  process.exit(2);
+}
+
 /* title-log 기록 판정은 scripts/title-log-rule.mjs 한 곳에서만 한다 (2026-08-13).
    전에는 이 훅과 check-title-source.ts 가 같은 검사를 각자 짜놨고, 그 탓에
    push 게이트 쪽에는 INDEX.md 대조가 빠져 있었다. 규칙이 둘이면 약한 쪽이 뚫린다. */
