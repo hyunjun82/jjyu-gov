@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     // google: '구글_content_값',
     other: {
       'naver-site-verification': '59fd84b2f0382456245f147e707581a8a3e8be91',
+      /* 다음 웹마스터도구 사이트 소유확인 (2026-08-13 등록) */
+      'DaumWebMasterTool':
+        'c91ddbacba1973db11a2a221169d2550a0b5904428ec975c55159b839c866a36:q6rt3xYgBjyGixeDQH9phw==',
     },
   },
 };
