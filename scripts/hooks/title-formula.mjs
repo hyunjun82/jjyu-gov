@@ -68,11 +68,22 @@ const HOOK = [
   '되나', '될까', '있을까', '없을까', '가능할까', '얼마나', '왜',
 ];
 
+/* 행동어 — 허브는 정보형으로 끝나면 안 된다 (2026-08-13 사장님 지시, 50차례 반복된 지적).
+   "9% 받는 사람 따로 있다는데 나도 되나?" 같은 정보형은 읽고 끝난다.
+   "신한 적금 9단 신청 방법, 20만명 선착순이라 늦으면 손해" 처럼 행동이 들어가야 버튼을 누른다.
+   세부키워드(조건·차이·비교)만으로는 통과시키지 않는다 — 그 탓에 정보형이 계속 통과했다.
+   스포크는 개념 설명이 있을 수 있어 면제, 허브(data/policies)만 요구한다. */
+const ACTION = [
+  '신청 방법', '신청방법', '신청', '가입 방법', '가입방법', '가입',
+  '조회', '발급', '접수', '다운로드', '예약', '등록', '해지', '청구', '환급받',
+];
+
 const bad = [];
 for (const t of titles) {
   const hasSub = SUB.some((k) => t.includes(k));
   const hasHook = HOOK.some((k) => t.includes(k)) || /[?？]/.test(t);
-  if (!hasSub || !hasHook) bad.push({ t, hasSub, hasHook });
+  const hasAction = !isHub || ACTION.some((k) => t.includes(k));
+  if (!hasSub || !hasHook || !hasAction) bad.push({ t, hasSub, hasHook, hasAction });
 }
 if (!bad.length) process.exit(0);
 
@@ -81,14 +92,18 @@ console.error(
   [
     `[타이틀공식 훅] ${slug} — 타이틀이 [메인키워드 + 세부키워드 + 후킹] 을 못 채웠다.`,
     '',
-    ...bad.flatMap(({ t, hasSub, hasHook }) => [
+    ...bad.flatMap(({ t, hasSub, hasHook, hasAction }) => [
       `  "${t}"`,
-      `      세부키워드 ${hasSub ? 'O' : 'X'} / 후킹 ${hasHook ? 'O' : 'X'}`,
+      `      세부키워드 ${hasSub ? 'O' : 'X'} / 후킹 ${hasHook ? 'O' : 'X'} / 행동어 ${hasAction ? 'O' : 'X'}`,
     ]),
     '',
     '통과 조건은 목록 대조다 (AI 판정이 아니다 — 다음에 돌려도 결과가 같다):',
     `  · 세부키워드: ${SUB.join(' / ')} 중 하나가 제목에 있어야 한다`,
     `  · 후킹: ${HOOK.slice(0, 14).join(' / ')} … 중 하나, 또는 물음표로 끝`,
+    `  · 행동어(허브만): ${ACTION.join(' / ')} 중 하나 — 정보형 제목은 읽고 끝난다`,
+    '',
+    '  본보기: "신한 적금 9단 신청 방법, 20만명 선착순이라 늦으면 손해"',
+    '          메인키워드(신한 적금 9단) + 행동(신청 방법) + 후킹(선착순·늦으면 손해)',
     '',
     '판정이 틀렸다고 보면 사람이 푼다:  touch .claude/hooks-off   (되돌리기: rm .claude/hooks-off)',
   ].join('\n'),
