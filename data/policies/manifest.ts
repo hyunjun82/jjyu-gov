@@ -359,6 +359,7 @@ import { jointOwnershipCouplePolicy, jointOwnershipCoupleSpokes } from './joint-
 import { overseasRemittanceLimitPolicy, overseasRemittanceLimitSpokes } from './overseas-remittance-limit';
 import { nhNongsimSavingsPolicy, nhNongsimSavingsSpokes } from './nh-nongsim-savings';
 import { shinhanSavings9danPolicy, shinhanSavings9danSpokes } from './shinhan-savings-9dan';
+import { careerCertOnlineIssuePolicy, careerCertOnlineIssueSpokes } from './career-certificate-online-issue';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -1674,6 +1675,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'overseas-remittance-limit': overseasRemittanceLimitPolicy,
   'nh-nongsim-savings': nhNongsimSavingsPolicy,
   'shinhan-savings-9dan': shinhanSavings9danPolicy,
+  'career-certificate-online-issue': careerCertOnlineIssuePolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2891,6 +2893,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'overseas-remittance-limit': overseasRemittanceLimitSpokes,
   'nh-nongsim-savings': nhNongsimSavingsSpokes,
   'shinhan-savings-9dan': shinhanSavings9danSpokes,
+  'career-certificate-online-issue': careerCertOnlineIssueSpokes,
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
