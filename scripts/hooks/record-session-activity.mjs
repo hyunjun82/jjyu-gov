@@ -30,6 +30,13 @@ if (tool === 'Read') {
   if (/reference\/titles\/.+\.png$/i.test(f)) {
     rec = { kind: 'capture-read', file: f.split('reference/titles/')[1] };
   }
+} else if (tool === 'Write' || tool === 'Edit') {
+  /* 2단계 — 구성표를 만든 시각. 승인 판정(구성표 → 사장님 발언 → 본문)의 기준점이다.
+     파일 mtime 을 쓰지 않는 이유: 파일시스템 시계와 기록 시계가 어긋나 같은 순간을
+     앞뒤로 뒤집는 일이 실제로 났다(2026-08-13 시험). 같은 자에서 잰 값만 비교한다. */
+  const f = String(ti.file_path ?? '').replace(/\\/g, '/');
+  const m = f.match(/scripts\/output\/outline-(.+)\.md$/);
+  if (m) rec = { kind: 'outline-write', slug: m[1] };
 } else if (/browser_navigate$/.test(tool)) {
   const u = String(ti.url ?? '');
   if (u) rec = { kind: 'navigate', url: u };

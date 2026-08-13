@@ -26,6 +26,8 @@
 import { execSync } from 'child_process';
 import { existsSync, readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
+// @ts-expect-error — 판정기는 훅(순수 node)과 공유하므로 .mjs 로 둔다
+import { checkTitleLog } from './title-log-rule.mjs';
 
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
 const sh = (c: string) => { try { return execSync(c, { cwd: ROOT }).toString(); } catch { return ''; } };
@@ -109,33 +111,16 @@ for (const f of added) {
     continue;
   }
 
-  /* 4. 캡처 확인 기록 — docs/title-log.md 에 이 글의 항목이 있는가 */
-  const logPath = join(ROOT, 'docs/title-log.md');
-  const log = existsSync(logPath) ? readFileSync(logPath, 'utf8') : '';
+  /* 4. 캡처 확인 기록 — docs/title-log.md 에 이 글의 항목이 있는가
+     판정은 scripts/title-log-rule.mjs 한 곳에서만 한다 (2026-08-13 사장님 지시로 통합).
+     전에는 이 자리에 훅과 따로 짠 검사가 있었고, INDEX.md 대조가 빠져 있어서
+     캡처에 없는 제목을 지어내도 push 는 통과했다. 규칙이 둘이면 약한 쪽이 뚫린다. */
   const slug = (name ?? '').replace(/\.(tsx?|ts)$/, '');
-  /* 항목 형식(title-log.md 머리말에 정의):
-     ## <파일명 또는 slug>
-     - 캡처: <reference/titles/ 파일명> — "<옮겨적은 KB 타이틀 한 줄>"
-     - 패턴: <①~⑨> — <왜 이 구조인가 한 문장>
-     - 타이틀: <확정 타이틀>                                        */
-  const entryRe = new RegExp('^##[^\n]*' + slug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'm');
-  const entry = entryRe.test(log);
-  const block = entry ? log.slice(log.search(entryRe)).split(/\n## /)[0] : '';
-  /* 파일명에 공백이 있다("세금 타이틀.png") — \S+ 로 잡으면 공백에서 깨진다 (2026-08-10 시험에서 확인) */
-  /* 사장님이 타이틀을 직접 준 경우는 캡처 인용 대신 실제 출처를 적는다 (2026-08-11).
-     캡처는 타이틀을 뽑을 때 보는 것이지, 이미 받은 타이틀을 쓸 때 인용을 강요하면
-     오늘 아침처럼 허위 인용을 지어내게 된다. PreToolUse 훅과 같은 예외를 둔다. */
-  const givenByOwner = /- 출처:\s*사장님 지시\s*—\s*["“].+["”]/.test(block);
-  const hasCapLine = givenByOwner || /- 캡처:\s*.+?\s*—\s*["“].+["”]/.test(block);
-  const hasPatLine = /- 패턴:\s*[①-⑨]/.test(block);
-  if (!entry || !hasCapLine || !hasPatLine) {
+  const verdict = checkTitleLog(ROOT, slug);
+  if (!verdict.ok) {
     console.log(`❌ ${name}`);
     console.log(`   타이틀: ${title}`);
-    if (!entry) console.log('   [캡처 기록 없음] docs/title-log.md 에 이 글의 항목이 없다');
-    else {
-      if (!hasCapLine) console.log('   [캡처 기록 불완전] "- 캡처: <파일> — \"<옮겨적은 타이틀>\"" 줄이 없다');
-      if (!hasPatLine) console.log('   [패턴 기록 불완전] "- 패턴: ①~⑨ — <이유>" 줄이 없다');
-    }
+    console.log(`   [캡처 기록] ${verdict.why}`);
     console.log('   → reference/titles/ 캡처를 Read 로 열고, 본 타이틀 한 줄을 그대로 옮겨적는다.');
     console.log('     못 옮겨적으면 안 연 것이다 (title-workflow.md).\n');
     fail++;
