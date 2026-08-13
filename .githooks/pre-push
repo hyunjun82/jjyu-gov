@@ -1,6 +1,18 @@
 #!/bin/bash
 # pre-push hook: ① 배선 무결성(고아 허브·매니페스트) ② 스포크 품질 미달 시 push 차단
+# 2026-08-13: .git/hooks(버전관리 밖)에서 .githooks/로 이전 — core.hooksPath=.githooks.
+#   scripts/hooks-pre-push.sh 가 8/1 구버전인 채 진본과 갈라져 있었다. 진본은 이 파일 하나다.
 ROOT="$(git rev-parse --show-toplevel)"
+
+# ── ⓪ CLAUDE.md 비대 차단 (2026-08-13 신설) ──
+# 7/21 에 676→157줄로 청소했는데 12일 만에 238줄이 됐다. 상한이 없어서다.
+# 훅·게이트가 이미 강제하는 규칙을 산문으로 또 적으면 여기서 막는다.
+CMD_LINES=$(wc -l < "$ROOT/CLAUDE.md")
+if [ "$CMD_LINES" -gt 80 ]; then
+  echo "🚫 push 차단됨 — CLAUDE.md ${CMD_LINES}줄 (상한 80줄)"
+  echo "   규칙은 검사기(scripts/check-*)나 자동 로드 규칙(.claude/rules/)에 넣고, CLAUDE.md에는 색인 한 줄만 남긴다"
+  exit 1
+fi
 
 # ── ① 배선 무결성 게이트 (registry↔manifest 고아 검출) ──
 echo "🔗 배선 무결성 검증 중 (고아 허브·매니페스트 정합)..."
@@ -11,6 +23,19 @@ if [ $INTEG -ne 0 ]; then
   echo "🚫 push 차단됨 — 배선 오류(고아 허브 등). 허브 데이터파일+manifest 배선을 맞춘 뒤 재push"
   echo "   (무시하려면: git push --no-verify)"
   exit $INTEG
+fi
+
+# ── ①-B 타입 형태 게이트 (2026-08-09 신설) ──
+# faq/faqData 를 섞어 써서 프리렌더가 죽은 사고. tsc 는 잡는데 아무도 안 돌렸다.
+# next.config 의 ignoreBuildErrors 때문에 빌드도 못 잡는다. 가장 이른 자리에 둔다.
+echo "🧩 타입 형태 검증 중 (faq/faqData 등 필드명)..."
+npx tsx "$ROOT/scripts/check-type-shape.ts"
+EXIT_CODE=$?
+if [ $EXIT_CODE -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 필드 이름을 타입에 맞춘다 (허브 faq / 스포크 faqData)"
+  echo "   (무시하려면: git push --no-verify)"
+  exit 1
 fi
 
 # ── ② 스포크 품질 게이트 ──
@@ -47,6 +72,47 @@ if [ $CV -ne 0 ]; then
   echo "🚫 push 차단됨 — 제목을 행동으로 끝내고 본문 외부링크를 빼라"
   echo "   (무시하려면: git push --no-verify)"
   exit $CV
+fi
+
+# ── ③-2b 팩트시트 게이트 (신규 글만) ──
+# 형태 게이트가 다 통과해도 수치가 다른 기관 규칙이면 틀린 글이다.
+# 2026-08-07 확정일자(법무부령 600원 vs 대법원규칙 500원) 사고로 신설.
+echo "📋 팩트시트 검증 중 (관할·수치·단서 기입 여부)..."
+npx tsx "$ROOT/scripts/check-factsheet.ts"
+FS=$?
+if [ $FS -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 신규 글은 채워진 팩트시트가 있어야 한다"
+  echo "   템플릿: scripts/factsheet-template.md"
+  echo "   (무시하려면: git push --no-verify)"
+  exit $FS
+fi
+
+# ── ③-2c 타이틀 출처 게이트 (신규 글만) ──
+# 2026-08-08: 캡처를 넣어줬는데도 안 보고 타이틀을 지었다. 코드(F00·K62)를 타이틀에 넣기도 했다.
+# 산문 규칙은 안 지켜지므로 검사한다.
+echo "📸 타이틀 출처 검증 중 (캡처 대조·코드 노출)..."
+npx tsx "$ROOT/scripts/check-title-source.ts"
+TS=$?
+if [ $TS -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 타이틀은 reference/titles/ 캡처를 보고 실검색어로 짓는다"
+  echo "   (무시하려면: git push --no-verify)"
+  exit $TS
+fi
+
+# ── ③-2d 임계값 복사 검사 ──
+# 규칙은 이미 "수치는 verify-quality.ts 가 원천, 문서에 복사하지 않는다"였는데
+# gov-write 스킬이 Q 표를 통째로 복사해두고 Q1~Q9 만 알고 있었다(실제는 Q1~Q13).
+# qa>=7 도 두 표에 남아 소제목 6개짜리 글이 막혔다. 산문 규칙은 안 지켜져서 검사로 바꿨다.
+echo "📐 임계값 복사 검사 중 (수치가 문서에 박혀 있나)..."
+npx tsx "$ROOT/scripts/check-threshold-drift.ts"
+TD=$?
+if [ $TD -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 임계값은 스크립트에만 둔다"
+  echo "   (무시하려면: git push --no-verify)"
+  exit $TD
 fi
 
 # ── ③-3 문구·버튼 게이트 (변경된 허브만) ──
