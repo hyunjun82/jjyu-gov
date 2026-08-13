@@ -9,7 +9,7 @@
  *
  * 4단계 — 이게 전부다:
  *   1  타이틀   reference/titles 캡처를 보고, 실검색어 조각으로 조립
- *   2  구성표   hero 서론 + 질문형 소제목 + 버튼 문구·목적지 → 사장님 승인
+ *   2  구성표   hero 서론 + 질문형 소제목 + 버튼 문구·목적지 (--draft 로 문구 선검사)
  *   3  사실     Playwright 로 1차 출처 열고 텍스트 + 화면 캡처로 대조
  *   4  마무리   오차·오해 소지 전수 검토 후 커밋
  *
@@ -72,6 +72,21 @@ const hasFactsheet = !!factsheet;
 
 /* ─────────── 출력 ─────────── */
 
+/* 0단계 — 이미 쓴 글인가 (2026-08-13 신설).
+   경력증명서 건에서 같은 주제 글(id 660)을 모르고 덮어썼다. 시작 시점에 알려준다. */
+const POLICY_DIR = join(ROOT, 'data', 'policies');
+const existing: string[] = [];
+if (existsSync(POLICY_DIR)) {
+  for (const f of readdirSync(POLICY_DIR)) {
+    if (!f.endsWith('.ts') || /^(manifest|index|registry)\.ts$/.test(f)) continue;
+    const body = readFileSync(join(POLICY_DIR, f), 'utf8');
+    const t = body.match(/^\s{2}title:\s*'([^']+)'/m)?.[1] ?? '';
+    const hay = `${f} ${t}`;
+    const hit = keyword.split(/\s+/).filter((w) => w.length > 1).some((w) => hay.includes(w));
+    if (hit) existing.push(`${f.replace(/\.ts$/, '')} — ${t}`);
+  }
+}
+
 const line = '─'.repeat(64);
 console.log(`\n${line}\n 글 진행기 — "${keyword}"\n${line}`);
 
@@ -79,6 +94,13 @@ const step = (n: number, name: string, done: boolean, detail: string[]) => {
   console.log(`\n${done ? '✅' : '⬜'} ${n}단계 ${name}`);
   if (!done) detail.forEach((d) => console.log(`     ${d}`));
 };
+
+if (existing.length) {
+  console.log(`
+⚠ 이미 있는 글 ${existing.length}건 — 덮어쓰지 말고 먼저 열어볼 것`);
+  existing.forEach((e) => console.log(`     · ${e}`));
+  console.log('     보강할 것이면 Edit 로, 각도가 다르면 스포크로 만든다');
+}
 
 step(1, '타이틀 — 캡처 보고 실검색어로', hasKeywords, [
   '① 주제와 가까운 캡처를 Read 로 연다 (앞 글에서 연 건 안 쳐준다):',
@@ -94,7 +116,7 @@ step(2, '구성표 — 소제목과 버튼 문구를 먼저', outlines.length > 
   '     ## 소제목        — 질문형 3개 이상, 실검색어 그대로. 행동(신청·청구)이 맨 위',
   '     ## 버튼          — 슬롯 qa2·qa4·마지막, 각 버튼의 문구와 목적지 URL',
   '② 버튼 목적지를 Playwright 로 먼저 연다 (로그인·세션토큰 걸리는지)',
-  '③ 구성표를 채팅에 그대로 올려 사장님 승인을 받는다  ← 여기서 멈춘다',
+  '③ npx tsx scripts/check-cue-value.ts --draft <초안> 으로 문구부터 통과시킨다',
 ]);
 
 step(3, '사실 — Playwright 로 원문 대조', hasFactsheet, [
@@ -107,7 +129,7 @@ step(3, '사실 — Playwright 로 원문 대조', hasFactsheet, [
 
 step(4, '마무리 — 오차·오해 소지 검토', false, [
   '① npx tsx scripts/write.ts "' + keyword + '" --final   ← 아래 검사를 한 번에 돌린다',
-  '② 통과하면 커밋. push 는 사장님 확인 후',
+  '② 통과하면 커밋하고 바로 push 한다',
 ]);
 
 /* ─────────── 4단계: 마무리 검토 일괄 실행 ─────────── */

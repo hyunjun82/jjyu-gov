@@ -145,7 +145,10 @@ const lastOf = (rs) => rs.map(at).sort().pop() ?? '';
    같은 순간을 앞뒤로 뒤집는 일이 실제로 났다(2026-08-13 시험에서 확인). */
 const outlineAt = lastOf(allActs.filter((a) => a.kind === 'outline-write' && a.slug === slug));
 const lastUserTurn = lastOf(allActs.filter((a) => a.kind === 'user-turn'));
-const outlineApproved = hasOutline && !!outlineAt && !!lastUserTurn && outlineAt <= lastUserTurn;
+/* 2026-08-13: 승인 대기를 없앤다 (사장님 지시 — "알아서 푸시해라", "자동화하라고").
+   구성표는 여전히 만들어야 하지만, 매번 채팅에서 한 글자를 기다리느라 글 하나에
+   왕복이 두세 번씩 생겼다. 구성표가 있고 내용이 갖춰졌으면 그대로 본문으로 간다. */
+const outlineApproved = hasOutline;
 
 /* 구성표에 실제로 담겨야 하는 것 — title-workflow.md 2단계 표 */
 const outlineRaw = hasOutline ? readFileSync(outlinePath, 'utf8') : '';

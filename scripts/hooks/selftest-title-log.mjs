@@ -220,10 +220,11 @@ t('21. 구성표 없이 본문을 쓰면', false, () => {
   return run(spoke('시험21구성표없음'), bodyOK);
 });
 
-t('22. 구성표는 있는데 사장님 확인이 없으면', false, () => {
+/* 2026-08-13: 승인 대기를 없앴다. 구성표가 갖춰져 있으면 그대로 통과한다. */
+t('22. 구성표가 갖춰져 있으면 승인 없이도 통과', true, () => {
   markAll();
   addEntry('시험22미승인', capLine);
-  writeOutline('시험22미승인');           // 구성표만 만들고 바로 본문 (승인 없음)
+  writeOutline('시험22미승인');
   const r = run(spoke('시험22미승인'), bodyOK);
   cleanOutline('시험22미승인');
   return r;
