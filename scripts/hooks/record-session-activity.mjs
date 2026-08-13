@@ -37,6 +37,22 @@ if (tool === 'Read') {
   const f = String(ti.file_path ?? '').replace(/\\/g, '/');
   const m = f.match(/scripts\/output\/outline-(.+)\.md$/);
   if (m) rec = { kind: 'outline-write', slug: m[1] };
+
+  /* 글 한 편이 "실제로 저장된" 시점 — 다음 글의 기준점이 된다 (2026-08-13).
+     왜 여기(PostToolUse)인가: 전에는 require-title-log(PreToolUse)가 통과할 때 찍었다.
+     그런데 PreToolUse 훅은 여러 개가 나란히 돌고, 그중 하나만 막아도 저장은 안 된다.
+     실제로 title-formula 가 타이틀을 되돌린 호출에 완료 도장이 찍혀, 다시 쓰려니
+     "이 글을 위해 캡처를 열지 않았다"로 튕겼다. PostToolUse 는 도구가 실제로
+     실행된 뒤에만 불린다 — 저장된 것만 셈에 넣는다. */
+  const isSpoke = /app\/policy\/\[id\]\/\[spoke\]\/content\/[^/]+\/[^/]+\.tsx$/.test(f);
+  const isHub = /(^|\/)data\/policies\/[^/]+\.ts$/.test(f) && !/(manifest|index|registry)\.ts$/.test(f);
+  if (isSpoke || isHub) {
+    const payload = tool === 'Write' ? String(ti.content ?? '') : String(ti.new_string ?? '');
+    const titleRe = isSpoke ? /h1:\s*['"`]/ : /^\s{2}title:\s*['"`]/m;
+    if (titleRe.test(payload)) {
+      rec = { kind: 'article-write', file: f.split('/').pop().replace(/\.(tsx|ts)$/, '') };
+    }
+  }
 } else if (/browser_navigate$/.test(tool)) {
   const u = String(ti.url ?? '');
   if (u) rec = { kind: 'navigate', url: u };

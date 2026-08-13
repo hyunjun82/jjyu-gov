@@ -357,6 +357,7 @@ import { jaebeolXhyeongsa2RerunPolicy, jaebeolXhyeongsa2RerunSpokes } from './ja
 import { militarySavingsComboPolicy, militarySavingsComboSpokes } from './military-savings-combo';
 import { jointOwnershipCouplePolicy, jointOwnershipCoupleSpokes } from './joint-ownership-couple';
 import { overseasRemittanceLimitPolicy, overseasRemittanceLimitSpokes } from './overseas-remittance-limit';
+import { nhNongsimSavingsPolicy, nhNongsimSavingsSpokes } from './nh-nongsim-savings';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -1670,6 +1671,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'military-savings-combo': militarySavingsComboPolicy,
   'joint-ownership-couple': jointOwnershipCouplePolicy,
   'overseas-remittance-limit': overseasRemittanceLimitPolicy,
+  'nh-nongsim-savings': nhNongsimSavingsPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2885,6 +2887,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'military-savings-combo': militarySavingsComboSpokes,
   'joint-ownership-couple': jointOwnershipCoupleSpokes,
   'overseas-remittance-limit': overseasRemittanceLimitSpokes,
+  'nh-nongsim-savings': nhNongsimSavingsSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
   'artist-pension': artistPensionSpokes,

@@ -52,6 +52,11 @@ const userTurn = () => appendFileSync(seenPath, line({ kind: 'user-turn' }), 'ut
 const cleanOutline = (s) => { try { unlinkSync(outPath(s)); } catch {} };
 /* 통과를 기대하는 시험은 승인까지 끝난 상태를 만든다 */
 const approve = (s) => { writeOutline(s); userTurn(); };
+/* 저장이 끝난 뒤 PostToolUse(record-session-activity.mjs)가 찍는 완료 도장을 흉내 낸다.
+   2026-08-13: 전에는 require-title-log 가 직접 찍었는데, PreToolUse 훅이 나란히 돌아
+   다른 훅이 막은 호출에도 도장이 찍히는 사고가 실사용에서 났다. 도장 자리를 옮겼으므로
+   시험도 "저장된 뒤에만 찍힌다"를 그대로 재현한다. */
+const stamp = (s) => appendFileSync(seenPath, line({ kind: 'article-write', file: s }), 'utf8');
 const OUTLINES = [];
 const useOutline = (s) => { OUTLINES.push(s); approve(s); return s; };
 mkdirSync(join(root, '.claude', 'state'), { recursive: true });
@@ -188,7 +193,8 @@ t('19. 캡처 한 장으로 두 번째 글을 쓰면', false, () => {
   markAll();
   addEntry('시험19첫글', capLine);
   useOutline('시험19첫글');
-  run(spoke('시험19첫글'), bodyOK);            // 1편째 — 통과하며 article-write 기록됨
+  run(spoke('시험19첫글'), bodyOK);            // 1편째 — 저장 성공
+  stamp('시험19첫글');                          // PostToolUse 가 찍는 완료 도장
   addEntry('시험19둘째글', capLine);
   return run(spoke('시험19둘째글'), bodyOK);    // 2편째 — 캡처를 새로 안 열었다
 });
@@ -198,6 +204,7 @@ t('20. 두 번째 글도 캡처를 새로 열면 통과', true, () => {
   addEntry('시험20첫글', capLine);
   useOutline('시험20첫글');
   run(spoke('시험20첫글'), bodyOK);
+  stamp('시험20첫글');
   markAll();                                   // 캡처·목적지·원문을 새로 확인
   addEntry('시험20둘째글', capLine);
   useOutline('시험20둘째글');

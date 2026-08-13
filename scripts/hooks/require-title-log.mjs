@@ -224,18 +224,11 @@ if (!sawCapture && !givenByOwner) {
   if (!ok) why = logVerdict.why;
 }
 
-if (ok) {
-  /* 통과한 글을 기록해 둔다. 다음 글은 이 시점 이후에 캡처를 새로 열어야 한다. */
-  try {
-    mkdirSync(dirname(actPath), { recursive: true });
-    appendFileSync(
-      actPath,
-      JSON.stringify({ session_id: sid, kind: 'article-write', file: slug, at: new Date().toISOString() }) + '\n',
-      'utf8',
-    );
-  } catch { /* 기록 실패가 저장을 막을 이유는 없다 */ }
-  process.exit(0);
-}
+/* 완료 도장(article-write)은 여기서 찍지 않는다 (2026-08-13 정정).
+   PreToolUse 훅은 여러 개가 나란히 돈다. 이 훅이 통과해도 다른 훅이 막으면 저장은 안 된다.
+   실제로 title-formula 가 되돌린 호출에 도장이 찍혀, 다시 쓰려니 "이 글을 위해 캡처를
+   열지 않았다"로 튕겼다. 도장은 실제 저장 뒤 record-session-activity.mjs(PostToolUse)가 찍는다. */
+if (ok) process.exit(0);
 if (why) console.error(`[title-log 훅] ${slug} — ${why}\n`);
 
 console.error(
