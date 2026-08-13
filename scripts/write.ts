@@ -102,6 +102,102 @@ if (existing.length) {
   console.log('     보강할 것이면 Edit 로, 각도가 다르면 스포크로 만든다');
 }
 
+/* ─────────── 준비 자동 실행 (2026-08-13 신설) ───────────
+   전에는 "1단계 하세요"라고 출력만 하고 실행은 내 판단에 맡겼다. 그래서 매번 순서를
+   새로 정했고, 경력증명서 건에서는 아예 이 진행기를 안 돌리고 뉴스부터 열다가
+   기존 글을 덮어썼다. 이제 스크립트가 직접 한다 — 내가 정할 것을 남기지 않는다.
+     · collect-keywords 실행 (결과 없을 때만)
+     · 주제에 맞는 캡처 한 장 지정
+     · outline / draft / factsheet 뼈대 파일 생성 (빈칸만 채우면 된다)
+   --prep 없이도 기본 동작이다. 이미 있는 파일은 건드리지 않는다. */
+const slugArg = args.find((a, i) => args[i - 1] === '--slug') ?? '';
+const SLUG = slugArg || keyword.replace(/\s+/g, '-');
+
+/* 주제어로 캡처를 고른다 — 매번 "어느 걸 볼까" 고민하지 않게 */
+const PICK: [RegExp, string][] = [
+  [/대출|전세|주택|금리|담보|보증/, '대출 타이틀.png'],
+  [/보험|실손|의료비|병원|치아|암/, '보험타이틀.png'],
+  [/세금|연말정산|재산세|양도|종부세|부가세/, '세금 타이틀.png'],
+  [/연금|퇴직|노후|수급|기초연금/, '연금 타이틀.png'],
+];
+const capture = PICK.find(([re]) => re.test(keyword))?.[1] ?? '생활타이틀.png';
+
+if (!hasKeywords) {
+  console.log(`
+▶ 실검색어 수집 중 — collect-keywords "${keyword}"`);
+  try {
+    execSync(`npx tsx scripts/collect-keywords.ts "${keyword}"`, { cwd: ROOT, stdio: 'pipe' });
+    console.log('   ✅ 수집 완료');
+  } catch {
+    console.log('   ⚠ 수집 실패 — Playwright 로 네이버·구글 자동완성을 직접 긁는다');
+  }
+}
+
+const OUTLINE = join(OUT, `outline-${SLUG}.md`);
+const DRAFT = join(OUT, `draft-${SLUG}.md`);
+const FACT = join(OUT, `factsheet-${SLUG}.md`);
+const made: string[] = [];
+
+if (!existsSync(OUTLINE)) {
+  writeFileSync(OUTLINE, [
+    `# 구성표 — ${keyword} (${SLUG})`, '',
+    '**타이틀** (실검색어 조각으로만 조립. 메인키워드 + 행동어 + 후킹)',
+    `**캡처** ${capture} — "(여기에 캡처에서 본 KB 타이틀 한 줄 그대로)"`,
+    '**패턴** ①~⑨ 중 하나 — 왜 이 구조인지 한 문장', '',
+    '## hero (서론)', '',
+    '(공감 → 대안이 왜 어려운가 → 그래서 이게 있다(금액) → 다만 다 되는 건 아니다 → 넘기는 한 줄)', '',
+    '**← 상단 버튼: [행동 라벨]**', '',
+    '## 소제목 (실검색어 그대로, 물음표로 끝낸다)', '',
+    '| # | 소제목 | 검색어 출처 | 버튼 |', '|---|---|---|---|',
+    '| qa1 | ...하나요? | `` | hero 버튼이 받음 |',
+    '| qa2 | ...되나요? | `` | **슬롯** |',
+    '| qa3 | ...인가요? | `` | |',
+    '| qa4 | ...얼마인가요? | `` | **슬롯** |',
+    '| qa5 | ...다른가요? | `` | |',
+    '| qa6 | ...어떻게 하나요? | `` | **슬롯(마지막)** |', '',
+    '## 버튼 — 목적지를 Playwright 로 먼저 연다', '',
+    '| 슬롯 | 앞 문장(유도) | 라벨 | 목적지 | 확인 |', '|---|---|---|---|---|',
+    '| hero | ...하셔야겠죠 | 행동하기 | https:// | 열림·비로그인 |', '',
+    '## 오해 소지 — 본문에서 반드시 풀 것', '', '1. ', '2. ', '3. ', '',
+  ].join(String.fromCharCode(10)), 'utf8');
+  made.push(`outline-${SLUG}.md`);
+}
+
+if (!existsSync(DRAFT)) {
+  writeFileSync(DRAFT, [
+    `# 문구 초안 — ${keyword}`, '',
+    '(서론. 장면으로 시작해 금액·반전까지. 마지막은 버튼으로 넘기는 한 줄)', '',
+    '**[행동 라벨]** (https://)', '',
+    '(둘째 버튼 앞 문구 — 읽는 사람이 주어. "…하셔야겠죠"로 넘긴다)', '',
+    '**[다른 행동 라벨]** (https://)', '',
+  ].join(String.fromCharCode(10)), 'utf8');
+  made.push(`draft-${SLUG}.md`);
+}
+
+if (!existsSync(FACT)) {
+  const tpl = join(ROOT, 'scripts', 'factsheet-template.md');
+  writeFileSync(FACT, existsSync(tpl) ? readFileSync(tpl, 'utf8') : [
+    `# 팩트시트 — ${keyword} (${SLUG})`, '',
+    '## 0. 관할 확정', '', '| 항목 | 내용 |', '|---|---|', '| 소관 | |', '| 1차 출처 | |', '',
+    '## 0-B. 원문 캡처 확인 (browser_take_screenshot)', '',
+    '- 캡처 파일: ', '- 캡처에서 확인한 것: (표 구조·단서 위치를 문장으로. 15자 넘게)', '',
+    '## 1. 수치', '', '| 항목 | 값 | 1차 출처 | 교차 출처 | 확인 |', '|---|---|---|---|---|', '',
+    '## 2. 단서 조항', '', '## 3. 확보하지 못한 것 (본문에 쓰지 않음)', '',
+    '## 4. 버튼 목적지 (Playwright 로 직접 열어 확인)', '', '## 5. 오해 소지 — 본문에서 푼 자리', '',
+  ].join(String.fromCharCode(10)), 'utf8');
+  made.push(`factsheet-${SLUG}.md`);
+}
+
+if (made.length) {
+  console.log(`
+▶ 뼈대 생성 — 빈칸만 채우면 된다`);
+  made.forEach((m) => console.log(`     · scripts/output/${m}`));
+}
+
+console.log(`
+▶ 먼저 열 캡처: reference/titles/${capture}`);
+console.log(`     Read 로 직접 연 뒤 docs/title-log.md 에 캡처·패턴·타이틀 3줄을 적는다`);
+
 step(1, '타이틀 — 캡처 보고 실검색어로', hasKeywords, [
   '① 주제와 가까운 캡처를 Read 로 연다 (앞 글에서 연 건 안 쳐준다):',
   ...CAPTURES.map(([f, w]) => `     · reference/titles/${f}  — ${w}`),
