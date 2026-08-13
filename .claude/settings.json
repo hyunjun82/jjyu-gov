@@ -173,7 +173,7 @@
     ],
     "PostToolUse": [
       {
-        "matcher": "Read|mcp__playwright__browser_navigate|mcp__playwright__browser_take_screenshot",
+        "matcher": "Read|Write|Edit|mcp__playwright__browser_navigate|mcp__playwright__browser_take_screenshot",
         "hooks": [
           {
             "type": "command",
