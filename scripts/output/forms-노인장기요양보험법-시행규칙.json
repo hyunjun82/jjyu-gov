@@ -1,0 +1,230 @@
+{
+  "법령": "노인장기요양보험법 시행규칙",
+  "수집일": "2026-08-14",
+  "총": 37,
+  "유효": 34,
+  "forms": [
+    {
+      "no": "제1호",
+      "name": "외국인근로자 장기요양보험 가입제외 신청서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0001&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제2호",
+      "name": "의사소견서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0002&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제3호",
+      "name": "의사소견서 발급의뢰서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0003&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제4호",
+      "name": "의사소견서 발급비용 청구서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0004&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제5호",
+      "name": "장기요양인정조사표",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0005&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제6호",
+      "name": "장기요양인정서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0006&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제7호",
+      "name": "개인별장기요양이용계획서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0007&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제8호",
+      "name": "삭제 <2010.2.24>\\n",
+      "deleted": true,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0008&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제9호",
+      "name": "대리인 지정서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0009&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제10호",
+      "name": "장기요양기관 입소ㆍ이용신청서(신규신청, 갱신, 변경, 해지)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0010&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제11호",
+      "name": "장기요양급여 계약통보서(방문요양, 방문목욕, 방문간호, 복지용구)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0011&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제12호",
+      "name": "장기요양급여 제공기록지(방문요양)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0012&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제13호",
+      "name": "장기요양급여 제공기록지(방문목욕)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0013&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제14호",
+      "name": "장기요양급여 제공기록지(방문간호)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0014&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제15호",
+      "name": "장기요양급여 제공기록지(주ㆍ야간보호)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0015&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제16호",
+      "name": "장기요양급여 제공기록지(시설급여/단기보호)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0016&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제17호",
+      "name": "가족요양비 지급 신청서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0017&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제18호",
+      "name": "장기요양급여 제공시기 예외 적용 신청서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0018&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제19호",
+      "name": "장기요양기관 지정(지정갱신)신청서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0019&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제20호",
+      "name": "장기요양기관 지정서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0020&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제21호",
+      "name": "삭제 <2019. 6. 12.>\\n",
+      "deleted": true,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0021&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제22호",
+      "name": "삭제 <2019. 6. 12.>\\n",
+      "deleted": true,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0022&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제23호",
+      "name": "장기요양기관 변경신고서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0023&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제24호",
+      "name": "장기요양급여비용 명세서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0024&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제25호",
+      "name": "장기요양급여비 납부확인서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0025&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제26호",
+      "name": "장기요양기관 (폐업, 휴업, 지정 비갱신) 신고서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0026&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제27호",
+      "name": "장기요양기관 현황통보서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0027&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제28호",
+      "name": "장기요양기관 변경사항통보서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0028&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제29호",
+      "name": "방문간호지시서(의사ㆍ한의사용)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0029&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제30호",
+      "name": "방문간호지시서(치과의사용)",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0030&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제31호",
+      "name": "방문간호지시서 발급비용 청구서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0031&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제32호",
+      "name": "심사청구서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0032&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제33호",
+      "name": "심사결정서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0033&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제34호",
+      "name": "본인부담금수납대장",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0034&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제35호",
+      "name": "포상금 지급신청서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0035&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제36호",
+      "name": "장기요양급여 제공자료 (공단이관, 자체보관)신청서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0036&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    },
+    {
+      "no": "제37호",
+      "name": "재심사청구서",
+      "deleted": false,
+      "viewUrl": "https://www.law.go.kr/LSW/lsBylInfoPLinkR.do?lsiSeq=0&bylNo=0037&bylBrNo=00&bylCls=BF&bylEfYd=&bylEfYdYn=Y&lsNm=%EB%85%B8%EC%9D%B8%EC%9E%A5%EA%B8%B0%EC%9A%94%EC%96%91%EB%B3%B4%ED%97%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99"
+    }
+  ]
+}
