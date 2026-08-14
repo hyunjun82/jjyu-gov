@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+
+Host: https://gov.jjyu.co.kr
+Sitemap: https://gov.jjyu.co.kr/sitemap.xml
+
+#DaumWebMasterTool:c91ddbacba1973db11a2a221169d2550a0b5904428ec975c55159b839c866a36:q6rt3xYgBjyGixeDQH9phw==
