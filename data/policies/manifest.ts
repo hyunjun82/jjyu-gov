@@ -363,6 +363,7 @@ import { careerCertOnlineIssuePolicy, careerCertOnlineIssueSpokes } from './care
 import { jeonseFraudHouseSafetyPolicy, jeonseFraudHouseSafetySpokes } from './jeonse-fraud-house-safety';
 import { ltciFormsDownloadPolicy, ltciFormsDownloadSpokes } from './ltci-forms-download';
 import { ltciApplicationFormPolicy, ltciApplicationFormSpokes } from './ltci-application-form';
+import { ltciDoctorOpinionFormPolicy, ltciDoctorOpinionFormSpokes } from './ltci-doctor-opinion-form';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -1682,6 +1683,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'jeonse-fraud-house-safety': jeonseFraudHouseSafetyPolicy,
   'ltci-forms-download': ltciFormsDownloadPolicy,
   'ltci-application-form': ltciApplicationFormPolicy,
+  'ltci-doctor-opinion-form': ltciDoctorOpinionFormPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2903,6 +2905,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'jeonse-fraud-house-safety': jeonseFraudHouseSafetySpokes,
   'ltci-forms-download': ltciFormsDownloadSpokes,
   'ltci-application-form': ltciApplicationFormSpokes,
+  'ltci-doctor-opinion-form': ltciDoctorOpinionFormSpokes,
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
