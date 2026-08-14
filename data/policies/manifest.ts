@@ -361,6 +361,7 @@ import { nhNongsimSavingsPolicy, nhNongsimSavingsSpokes } from './nh-nongsim-sav
 import { shinhanSavings9danPolicy, shinhanSavings9danSpokes } from './shinhan-savings-9dan';
 import { careerCertOnlineIssuePolicy, careerCertOnlineIssueSpokes } from './career-certificate-online-issue';
 import { jeonseFraudHouseSafetyPolicy, jeonseFraudHouseSafetySpokes } from './jeonse-fraud-house-safety';
+import { ltciFormsDownloadPolicy, ltciFormsDownloadSpokes } from './ltci-forms-download';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -1678,6 +1679,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'shinhan-savings-9dan': shinhanSavings9danPolicy,
   'career-certificate-online-issue': careerCertOnlineIssuePolicy,
   'jeonse-fraud-house-safety': jeonseFraudHouseSafetyPolicy,
+  'ltci-forms-download': ltciFormsDownloadPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2897,6 +2899,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'shinhan-savings-9dan': shinhanSavings9danSpokes,
   'career-certificate-online-issue': careerCertOnlineIssueSpokes,
   'jeonse-fraud-house-safety': jeonseFraudHouseSafetySpokes,
+  'ltci-forms-download': ltciFormsDownloadSpokes,
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,

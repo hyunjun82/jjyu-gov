@@ -156,7 +156,11 @@ const outlineMissing = [];
 if (hasOutline) {
   if (!/^\s*##\s*서론|heroHook|hero/im.test(outlineRaw)) outlineMissing.push('hero(서론) 줄');
   if ((outlineRaw.match(/^\s*(?:[-*|]|\d+\.)\s*.*\?/gm) ?? []).length < 3) outlineMissing.push('질문형 소제목 3개 이상');
-  if (!/https?:\/\//.test(outlineRaw)) outlineMissing.push('버튼 목적지 URL');
+  /* 내부 링크(/policy/…, /calc/…)도 버튼 목적지다 (2026-08-14).
+     전면광고는 파일 다운로드가 아니라 페이지 이동에서 뜬다. 허브→스포크 내부 이동이
+     이 프로젝트의 수익 동선인데 https 만 URL 로 세면 그 구성표가 통째로 막힌다.
+     check-cue-value 의 초안 파서도 같은 이유로 내부 링크를 받는다. */
+  if (!/(https?:\/\/|\/(policy|calc|tools)\/[a-z0-9-]+)/.test(outlineRaw)) outlineMissing.push('버튼 목적지 URL');
   if (!/버튼|act|슬롯/.test(outlineRaw)) outlineMissing.push('버튼 문구·슬롯');
 }
 
