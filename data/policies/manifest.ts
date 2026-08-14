@@ -368,6 +368,7 @@ import { ltciFamilyCareBenefitFormPolicy, ltciFamilyCareBenefitFormSpokes } from
 import { ltciReviewRequestFormPolicy, ltciReviewRequestFormSpokes } from './ltci-review-request-form';
 import { ltciOpinionReferralPolicy, ltciOpinionReferralSpokes } from './ltci-opinion-referral';
 import { ltciSurveySheetPolicy, ltciSurveySheetSpokes } from './ltci-survey-sheet';
+import { ltciCarePlanPolicy, ltciCarePlanSpokes } from './ltci-care-plan';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -1692,6 +1693,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'ltci-review-request-form': ltciReviewRequestFormPolicy,
   'ltci-opinion-referral': ltciOpinionReferralPolicy,
   'ltci-survey-sheet': ltciSurveySheetPolicy,
+  'ltci-care-plan': ltciCarePlanPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2918,6 +2920,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'ltci-review-request-form': ltciReviewRequestFormSpokes,
   'ltci-opinion-referral': ltciOpinionReferralSpokes,
   'ltci-survey-sheet': ltciSurveySheetSpokes,
+  'ltci-care-plan': ltciCarePlanSpokes,
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
