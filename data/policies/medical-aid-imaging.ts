@@ -8,6 +8,7 @@
  *    · 그 밖의 외래는 정액(1종 1,000/1,500/2,000원) — 비교용
  *    · 임신부·조산아·1세 미만 외래 95% 특례
  * 쓰지 않는 것: 고시 대상 진료 목록, MRI 급여 인정 기준, 비급여 금액, 병원별 검사비 */
+const BOKJIRO = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000102&wlfareInfoReldBztpCd=01';
 const DECREE = 'https://www.law.go.kr/법령/의료급여법시행령';
 const REFUND = '/policy/medical-aid-refund';
 const TYPE = '/policy/medical-aid-type1-type2-difference';
@@ -27,11 +28,11 @@ export const medicalAidImagingPolicy = {
   hideAmountBox: true,
   views: 0,
   applyUrl: REFUND,
-  ctaLabel: '본인부담금 환급 기준 보기',
+  ctaLabel: '내 검사비 부담률 계산해보기',
   datePublished: '2026-08-15T23:00:00+09:00', dateModified: '2026-08-15T23:00:00+09:00',
   heroHook:
     '의료급여를 받으시면 동네 의원 진료비가 1,000원인 걸 아실 겁니다. 그래서 CT나 MRI도 그 정도려니 생각하시는데, 이 검사만 계산 방식이 다릅니다. 정해진 금액이 아니라 검사비에 비례해서 빠져나갑니다. 검사비가 수십만원인 걸 생각하면 미리 알고 가시는 편이 낫습니다.',
-  heroAct: { label: '본인부담금 환급 기준 보기', href: REFUND },
+  heroAct: { label: '내 검사비 부담률 계산해보기', href: REFUND },
   metaDescription:
     '의료급여 CT·MRI·PET는 정액이 아니라 정률입니다. 1종은 급여비용의 5%, 2종은 15%를 본인이 부담합니다. 일반 외래 정액과 무엇이 다른지, 임신부·조산아 특례까지 시행령 별표1 원문으로 정리했습니다.',
   audience: '의료급여 수급자로 CT·MRI 검사를 앞두고 비용을 확인하려는 분',
@@ -114,8 +115,8 @@ export const medicalAidImagingPolicy = {
         sourceNote: '의료급여법 시행령 별표1 제1호가목 (2026.08.15 확인)',
       },
       act: {
-        cue: '정액이냐 정률이냐는 종별 표를 봐야 감이 잡힙니다. 1종과 2종은 계산 방식 자체가 다릅니다.',
-        label: '종별 본인부담금 표 보기',
+        cue: '정액이냐 정률이냐는 종별 표를 놓고 보셔야 감이 잡히실 겁니다. 1종과 2종은 계산 방식 자체가 달라서, 내가 어느 쪽인지부터 따져보셔야겠죠.',
+        label: '종별 부담 방식 따져보기',
         url: TYPE,
       },
       sourceNote: '* 출처: 의료급여법 시행령 별표1 제1호가목(2026-08-15 확인)',
@@ -140,9 +141,9 @@ export const medicalAidImagingPolicy = {
           '임신부 외래진료(유산·사산 포함), 고시된 조산아(출생 후 5년 4개월 범위)와 저체중출생아(출생 후 5년), 2종 수급권자의 1세 미만 외래진료.',
       },
       act: {
-        cue: '검사비가 겹치면 한 달 부담금이 금방 올라갑니다. 일정 금액을 넘으면 넘은 만큼 돌려받을 수 있습니다.',
-        label: '본인부담금 환급 기준 보기',
-        url: REFUND,
+        cue: '검사가 겹치시면 한 달 부담금이 금방 올라갑니다. 넘긴 만큼 돌려받으시려면 어느 선부터인지 아셔야 하니, 신청 창구와 기준을 같이 열어두세요.',
+        label: '의료급여 신청 바로가기',
+        url: BOKJIRO,
       },
       sourceNote: '* 출처: 의료급여법 시행령 별표1 제2호자목·차목·버목(2026-08-15 확인)',
     },
