@@ -11,12 +11,29 @@
  * 버튼은 KTX / SRT 두 개만 둔다.
  */
 import Link from 'next/link';
+import { articleSchema, breadcrumbSchema, faqSchema, organizationSchema, personSchema, toJsonLd } from '@/lib/schema';
+
+const URL = 'https://gov.jjyu.co.kr/guide/chuseok-train-ticket';
 
 export const metadata = {
-  title: '추석 기차표 예매 — 2026 KTX·SRT 예매일과 시간 한 화면에 | 정부지원사업',
+  title: '추석 기차표 예매 KTX·SRT — 2026 예매일과 시간 한 화면에 | 정부지원사업',
   description:
     '2026 추석 기차표 예매는 9월 3~4일 사전예매(장애인·경로·임산부·국가유공자), 9월 7~11일 모든 국민입니다. 1인당 최대 12매, 결제 9월 12~15일, 잔여석 9월 11일 15시부터. KTX·SRT 예매처와 환불 위약금까지 한 화면에.',
-  alternates: { canonical: 'https://gov.jjyu.co.kr/guide/chuseok-train-ticket' },
+  alternates: { canonical: URL },
+  openGraph: {
+    type: 'article',
+    url: URL,
+    title: '추석 기차표 예매 KTX·SRT — 2026 예매일과 시간 한 화면에',
+    description:
+      '사전예매 9월 3~4일, 모든 국민 9월 7~11일. 1인당 최대 12매, 결제 9월 12~15일, 잔여석 9월 11일 15시부터. KTX·SRT 예매처와 환불 위약금까지 정리했습니다.',
+    siteName: '정부지원사업',
+    locale: 'ko_KR',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '추석 기차표 예매 KTX·SRT — 2026 예매일과 시간',
+    description: '사전예매 9.3~9.4, 모든 국민 9.7~9.11 · 결제 9.12~9.15 · 잔여석 9.11 15시부터',
+  },
 };
 
 const KTX = 'https://www.korail.com/ticket/main';
@@ -100,7 +117,7 @@ export default function ChuseokTicketPage() {
           <div>
             <p style={{ color: SKY, fontSize: 13.5, fontWeight: 700, letterSpacing: 1.2, margin: 0 }}>2026 CHUSEOK TRAIN TICKET</p>
             <h1 style={{ fontSize: 38, fontWeight: 800, lineHeight: 1.25, margin: '12px 0 14px' }}>
-              추석 기차표 예매,<br />날짜와 시간을 한 화면에
+              추석 기차표 예매 KTX·SRT,<br />날짜와 시간을 한 화면에
             </h1>
             <p style={{ fontSize: 16, lineHeight: 1.75, color: '#C9CDD2', margin: '0 0 22px' }}>
               사전예매 9월 3~4일, 모든 국민 9월 7~11일입니다. 올해는 역 창구 예매가 없고
@@ -326,20 +343,30 @@ export default function ChuseokTicketPage() {
         </p>
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: FAQ.map((f) => ({
-              '@type': 'Question',
-              name: f.q,
-              acceptedAnswer: { '@type': 'Answer', text: f.a },
-            })),
-          }),
-        }}
-      />
+      {[
+        organizationSchema(),
+        personSchema(),
+        breadcrumbSchema([
+          { name: '홈', url: 'https://gov.jjyu.co.kr' },
+          { name: '생활', url: 'https://gov.jjyu.co.kr/category/life' },
+          { name: '추석 기차표 예매' },
+        ]),
+        articleSchema({
+          title: '추석 기차표 예매 KTX·SRT — 2026 예매일과 시간 한 화면에',
+          description:
+            '2026 추석 기차표는 9월 3~4일 사전예매, 9월 7~11일 모든 국민 예매입니다. 1인당 최대 12매, 결제 9월 12~15일, 잔여석은 9월 11일 15시부터입니다.',
+          datePublished: '2026-08-15T09:00:00+09:00',
+          dateModified: '2026-08-15T09:00:00+09:00',
+          url: URL,
+        }),
+        faqSchema(FAQ),
+      ].map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: toJsonLd(schema) }}
+        />
+      ))}
     </div>
   );
 }
