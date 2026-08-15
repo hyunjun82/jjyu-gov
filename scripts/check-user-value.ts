@@ -123,7 +123,7 @@ function checkFile(file: string): Issue[] {
   // 외부 PDF 로 보내면 방문자가 내부 이동 없이 이탈한다. 서식 계열 글은
   // 상단 버튼을 내부 허브·스포크로 보내고 파일 직링크는 본문 하단에 둔다.
   let url = c.match(/applyUrl: '(https?:\/\/[^']*)'/)?.[1];
-  let internal = c.match(/applyUrl: '(\/(policy|calc|tools)\/[a-z0-9-]+[^']*)'/)?.[1];
+  let internal = c.match(/applyUrl: '(\/(policy|calc|tools|forms)\/[a-z0-9-]+[^']*)'/)?.[1];
   if (!url && !internal) {
     const ref = c.match(/applyUrl: ([A-Za-z_$][\w$]*)/)?.[1];
     if (ref) {
