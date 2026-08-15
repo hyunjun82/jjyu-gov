@@ -32,8 +32,8 @@ export const ltciFamilyCareBenefitFormPolicy = {
   deadline: '상시 — 처리기간 30일',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-forms-download',
-  ctaLabel: '서식 목록에서 고르기',
+  applyUrl: '/forms/ltci-family-care-benefit',
+  ctaLabel: '신청서 원본 받으러 가기',
   datePublished: '2026-08-14T14:00:00+09:00', dateModified: '2026-08-14T14:00:00+09:00',
   heroHook:
     '섬이나 산간처럼 요양기관이 없는 곳에 어르신이 계시면 등급을 받아도 쓸 데가 없습니다. 그럴 때 현금으로 받는 길이 있다는 얘기, 한 번쯤 들어보셨을 겁니다. 가족요양비이고 별지 제17호서식 한 장으로 신청합니다. 접수번호 옆에 처리기간이 30일로 인쇄돼 있고 수수료는 없습니다. 다만 계좌를 잘못 적으면 지급 자체가 막히는 서식이라 칸부터 보셔야 합니다. 이 서식이 지금 단계에 맞는지부터 목록에서 확인해 보세요.',
@@ -224,7 +224,7 @@ export const ltciFamilyCareBenefitFormPolicy = {
       act: {
         cue: '사유와 계좌, 서류까지 확인하셨다면 이제 종이만 채우시면 됩니다. 세 쪽 원본은 여기서 바로 받으실 수 있습니다.',
         label: '가족요양비 신청서 내려받기',
-        url: FORM_PDF,
+        url: '/forms/ltci-family-care-benefit',
       },
       sourceNote: '* 출처: 별지 제17호서식 2·3쪽(2026-08-14 확인)',
     },

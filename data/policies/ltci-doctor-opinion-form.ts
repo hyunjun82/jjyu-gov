@@ -32,8 +32,8 @@ export const ltciDoctorOpinionFormPolicy = {
   deadline: '유효기간 발급일부터 30일',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-opinion-referral',
-  ctaLabel: '발급의뢰서부터 보기',
+  applyUrl: '/forms/ltci-doctor-opinion',
+  ctaLabel: '소견서 서식 받으러 가기',
   datePublished: '2026-08-14T13:00:00+09:00', dateModified: '2026-08-14T13:00:00+09:00',
   heroHook:
     '부모님 등급 신청하고 나면 병원에서 의사소견서를 받아오라는 안내를 받습니다. 그런데 이 서류는 유효기간이 발급일부터 30일이라, 미리 떼어 두면 그새 기간이 지나 다시 받아야 합니다. 서식은 네 쪽짜리이고 진단명과 발병 시기, 복용 약물, 특별한 의료처치까지 의사가 직접 채우는 칸이 많습니다. 비용이 얼마나 나올지는 공단이 보내주는 발급의뢰서에 비율로 적혀 있습니다. 그것부터 보고 병원에 가세요.',
@@ -217,7 +217,7 @@ export const ltciDoctorOpinionFormPolicy = {
       act: {
         cue: '질병 목록에서 어르신 진단명을 찾으셨다면 이제 서식을 챙기실 차례입니다. 네 쪽 원본은 여기서 바로 받으실 수 있습니다.',
         label: '의사소견서 서식 내려받기',
-        url: FORM_PDF,
+        url: '/forms/ltci-doctor-opinion',
       },
       sourceNote: '* 출처: 별지 제2호서식 1쪽 질병코드·유의사항 3(2026-08-14 확인)',
     },

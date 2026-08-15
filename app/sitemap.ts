@@ -1,3 +1,4 @@
+import { FORMS } from '@/data/forms';
 import type { MetadataRoute } from 'next';
 import { PoliciesBySlug } from '@/data/policies/manifest';
 import { SpokesRegistry } from '@/data/spokes/registry';
@@ -41,6 +42,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/calc/maternity-leave-pay/',
     '/calc/jongbuse/',
   ];
+  for (const f of FORMS) {
+    entries.push({
+      url: `${BASE}/forms/${f.slug}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    });
+  }
   for (const path of staticPaths) {
     entries.push({
       url: `${BASE}${path}`,

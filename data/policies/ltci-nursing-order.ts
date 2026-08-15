@@ -33,8 +33,8 @@ export const ltciNursingOrderPolicy = {
   deadline: '발급일부터 180일',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-care-plan',
-  ctaLabel: '이용계획서 한도 보기',
+  applyUrl: '/forms/ltci-nursing-order',
+  ctaLabel: '지시서 서식 보기',
   datePublished: '2026-08-14T20:00:00+09:00', dateModified: '2026-08-14T20:00:00+09:00',
   heroHook:
     '방문간호를 받으려는데 간호사만 부르면 되는 줄 아셨을 겁니다. 의사나 한의사가 써 준 방문간호지시서가 있어야 이용이 시작됩니다. 별지 제29호서식 한 장이고 유효기간은 발급일부터 180일입니다. 여기에 주 몇 회 방문할지, 어떤 처치가 필요한지가 적히고 본인부담도 일반 20%, 경감 대상자 10%, 의료급여 일부는 면제로 갈립니다. 주 몇 회가 내 한도 안에서 되는지는 이용계획서에 적혀 있으니 그 숫자를 먼저 보고 병원에 가세요.',
@@ -214,7 +214,7 @@ export const ltciNursingOrderPolicy = {
       act: {
         cue: '병원에서 어떤 칸을 채우게 되는지 미리 보시면 진료실에서 빠뜨릴 말이 줄어듭니다. 한 쪽짜리 서식은 여기서 바로 열어 보실 수 있습니다.',
         label: '방문간호지시서 서식 열기',
-        url: FORM_PDF,
+        url: '/forms/ltci-nursing-order',
       },
       sourceNote: '* 출처: 별지 제29호서식 1쪽(2026-08-14 확인)',
     },

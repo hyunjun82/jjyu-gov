@@ -33,8 +33,8 @@ export const ltciAgentDesignationPolicy = {
   deadline: '상시 — 관청 지정 후 공단 제출',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-application-form',
-  ctaLabel: '신청서 대리인란 보기',
+  applyUrl: '/forms/ltci-agent-designation',
+  ctaLabel: '지정서 서식 보기',
   datePublished: '2026-08-14T19:00:00+09:00', dateModified: '2026-08-14T19:00:00+09:00',
   heroHook:
     '어르신 곁에 가족도 친척도 없고 담당 공무원도 나서기 어려운 상황을 겪어보셨을 겁니다. 그럴 때 신청을 대신할 사람을 관청이 지정해 주는 종이가 대리인 지정서입니다. 별지 제9호서식 한 장이고, 발행 명의는 시장·군수·구청장이며 수신처는 국민건강보험공단 이사장입니다. 이 종이 한 장이면 인정신청부터 갱신, 등급변경, 급여종류 변경까지 대신할 수 있습니다. 관청 창구에 말을 꺼내기 전에 신청서 대리인란이 어떻게 생겼는지 보고 가시면 설명이 훨씬 짧아집니다.',
@@ -201,7 +201,7 @@ export const ltciAgentDesignationPolicy = {
       act: {
         cue: '관청에 가시기 전에 어떤 종이를 받아 오는 것인지 그림으로 익혀 두면 설명이 쉬워집니다. 한 쪽짜리 원본은 여기서 바로 보실 수 있습니다.',
         label: '대리인 지정서 서식 확인하기',
-        url: FORM_PDF,
+        url: '/forms/ltci-agent-designation',
       },
       sourceNote: '* 출처: 별지 제17호서식 2쪽, 별지 제1호의2서식 3쪽(2026-08-14 확인)',
     },

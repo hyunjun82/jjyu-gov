@@ -33,8 +33,8 @@ export const ltciOpinionReferralPolicy = {
   deadline: '상시 — 인정신청 접수 후 공단 발행',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-doctor-opinion-form',
-  ctaLabel: '소견서 항목 펼쳐보기',
+  applyUrl: '/forms/ltci-opinion-referral',
+  ctaLabel: '발급의뢰서 서식 보기',
   datePublished: '2026-08-14T16:00:00+09:00', dateModified: '2026-08-14T16:00:00+09:00',
   heroHook:
     '의사소견서 떼는 데 돈이 든다는 얘기를 듣고 얼마나 나올지 걱정되셨을 겁니다. 이때 공단이 보내주는 종이가 발급의뢰서입니다. 별지 제3호서식이고 본인부담 비율이 서식 안에 인쇄돼 있는데, 일반은 20%, 경감 대상자는 10%, 의료급여를 받는 분 중 일부는 면제입니다. 이 종이를 지참하면 병원은 본인부담분만 받고 나머지는 공단에 청구합니다. 소견서에 무엇이 적히는지 알고 가시면 진료실에서 오가는 말이 줄어듭니다.',
@@ -196,7 +196,7 @@ export const ltciOpinionReferralPolicy = {
       act: {
         cue: '병원 가시기 전에 의뢰서에 어느 칸이 표시돼 있는지 한 번 더 보시는 편이 좋습니다. 서식 원본은 여기서 바로 열어 보실 수 있습니다.',
         label: '발급의뢰서 서식 확인하기',
-        url: FORM_PDF,
+        url: '/forms/ltci-opinion-referral',
       },
       sourceNote: '* 출처: 별지 제3호서식 1쪽(시행규칙 제4조제4항), 별지 제2호서식 1쪽(2026-08-14 확인)',
     },

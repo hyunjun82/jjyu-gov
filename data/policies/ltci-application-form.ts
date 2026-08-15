@@ -33,8 +33,8 @@ export const ltciApplicationFormPolicy = {
   deadline: '상시 — 처리기간 30일',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-forms-download',
-  ctaLabel: '서식 목록에서 고르기',
+  applyUrl: '/forms/ltci-application',
+  ctaLabel: '신청서 원본 받으러 가기',
   datePublished: '2026-08-14T11:00:00+09:00', dateModified: '2026-08-14T11:00:00+09:00',
   heroHook:
     '부모님 거동이 갑자기 어려워지면 마음은 급한데 뭘 먼저 해야 할지 막막하시죠. 등급을 받으려면 신청서 한 장이 출발점입니다. 별지 제1호의2서식이고 인정·갱신·등급변경·급여종류변경 네 가지가 한 장에 묶여 있어 체크만 바꾸면 됩니다. 접수번호 옆에 처리기간이 30일로 인쇄돼 있으니, 오늘 내면 한 달 뒤 결과가 나온다고 보시면 됩니다. 어느 단계에 어떤 종이가 붙는지 한눈에 보고 시작하시면 두 번 걸음 하지 않습니다.',
@@ -150,7 +150,7 @@ export const ltciApplicationFormPolicy = {
       act: {
         cue: '처음 신청하시는 거라면 체크 한 칸만 다르게 하면 되니 어렵지 않습니다. 그럼 신청서 서식부터 받아 채워 두세요.',
         label: '신청서 내려받기',
-        url: FORM_PDF,
+        url: '/forms/ltci-application',
       },
       sourceNote: '* 출처: 별지 제1호의2서식 3쪽 작성방법(2026-08-14 확인)',
     },
@@ -216,7 +216,7 @@ export const ltciApplicationFormPolicy = {
       act: {
         cue: '칸을 어떻게 채우는지 아셨으면 이제 종이만 있으면 됩니다. 접수는 국민건강보험공단이 받으니, 서식을 받아 채워 두면 창구에서 바로 접수됩니다.',
         label: '신청서 받아 접수 준비하기',
-        url: FORM_PDF,
+        url: '/forms/ltci-application',
       },
       sourceNote: '* 출처: 별지 제1호의2서식 1·3쪽(2026-08-14 확인)',
     },

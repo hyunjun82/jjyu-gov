@@ -33,8 +33,8 @@ export const ltciSurveySheetPolicy = {
   deadline: '상시 — 신청 후 공단 방문조사',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-forms-download',
-  ctaLabel: '서식 목록에서 고르기',
+  applyUrl: '/forms/ltci-survey-sheet',
+  ctaLabel: '조사표 원본 받으러 가기',
   datePublished: '2026-08-14T17:00:00+09:00', dateModified: '2026-08-14T17:00:00+09:00',
   heroHook:
     '공단 직원이 집으로 나와 조사한다는 연락을 받으면 무엇을 물을지 몰라 긴장되실 겁니다. 그날 쓰이는 종이가 장기요양인정조사표이고, 별지 제5호서식으로 여덟 쪽입니다. 옷 벗고 입기부터 대소변 조절까지 신체기능 13개, 인지기능 10개, 행동변화 22개처럼 항목이 정해져 있어 즉석에서 만들어 묻는 질문이 아닙니다. 어느 칸을 어떻게 채우느냐가 등급으로 이어지니, 조사 날짜를 받으셨다면 서식 목록에서 이 조사표가 어느 단계 종이인지 짚고 가시는 편이 낫습니다.',
@@ -228,7 +228,7 @@ export const ltciSurveySheetPolicy = {
       act: {
         cue: '조사 당일에 무엇을 묻는지 모른 채 맞으면 놓치는 말이 생깁니다. 여덟 쪽 원본을 미리 내려받아 훑어보시면 당일이 수월합니다.',
         label: '인정조사표 내려받기',
-        url: FORM_PDF,
+        url: '/forms/ltci-survey-sheet',
       },
       sourceNote: '* 출처: 별지 제5호서식 1·8쪽(2026-08-14 확인)',
     },

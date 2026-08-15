@@ -33,8 +33,8 @@ export const ltciCarePlanPolicy = {
   deadline: '등급 판정 후 인정서와 함께 발급',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-survey-sheet',
-  ctaLabel: '조사 항목부터 보기',
+  applyUrl: '/forms/ltci-care-plan',
+  ctaLabel: '이용계획서 서식 보기',
   datePublished: '2026-08-14T18:00:00+09:00', dateModified: '2026-08-14T18:00:00+09:00',
   heroHook:
     '등급을 받고 나면 인정서와 함께 이용계획서라는 종이가 한 장 더 옵니다. 대충 보관만 해두는 분이 많은데, 서식 첫 줄에 장기요양기관과 급여계약을 체결할 때 제시하라고 적혀 있습니다. 여기에는 재가급여 월 한도액과 본인부담률, 시설급여 1일당 금액, 그리고 어떤 급여를 주 몇 회 이용하는지까지 공단이 계산해 넣어 줍니다. 이 숫자가 어디서 나왔는지는 방문조사 결과에 있습니다. 조사 항목을 먼저 보시면 계약서가 다르게 읽힙니다.',
@@ -198,7 +198,7 @@ export const ltciCarePlanPolicy = {
       act: {
         cue: '내 계획서의 어느 칸을 봐야 하는지 헷갈리실 겁니다. 빈 서식을 내려받아 내 계획서와 나란히 놓고 보세요.',
         label: '이용계획서 서식 내려받기',
-        url: FORM_PDF,
+        url: '/forms/ltci-care-plan',
       },
       sourceNote: '* 출처: 별지 제7호서식 1쪽, 별지 제1호의2서식 3쪽(2026-08-14 확인)',
     },

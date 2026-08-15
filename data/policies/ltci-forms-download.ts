@@ -43,8 +43,8 @@ export const ltciFormsDownloadPolicy = {
   deadline: '상시 — 시행규칙 [시행 2025.12.12] 기준',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-application-form',
-  ctaLabel: '장기요양인정 신청서 보러가기',
+  applyUrl: '/forms/ltci-application',
+  ctaLabel: '인정신청서 받으러 가기',
   datePublished: '2026-08-14T10:00:00+09:00', dateModified: '2026-08-14T10:00:00+09:00',
   heroHook:
     '부모님 등급 신청하려고 서식을 찾는데 어디서 받는 게 진짜인지 헷갈리시죠. 블로그마다 올려둔 파일은 몇 년 전 것이 섞여 있고, 낡은 서식으로 내면 다시 받아오라고 합니다. 여기 있는 서식은 전부 국가법령정보센터 원본이고 개정일까지 적어뒀습니다. 처음 신청하시는 거라면 인정신청서 한 장이 출발점입니다. 그 종이부터 보고 오시면 나머지가 순서대로 풀립니다.',

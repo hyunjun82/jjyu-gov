@@ -35,8 +35,8 @@ export const ltciReviewRequestFormPolicy = {
   deadline: '안 날부터 90일 — 처리기간 60일',
   hideAmountBox: true,
   views: 0,
-  applyUrl: '/policy/ltci-survey-sheet',
-  ctaLabel: '조사 항목부터 보기',
+  applyUrl: '/forms/ltci-review-request',
+  ctaLabel: '심사청구서 받으러 가기',
   datePublished: '2026-08-14T15:00:00+09:00', dateModified: '2026-08-14T15:00:00+09:00',
   heroHook:
     '등급이 기대보다 낮게 나오거나 아예 등급외로 통보받으면 어디에 따져야 하나 답답하시죠. 공단 처분에 이의가 있으면 심사청구서 한 장을 내면 됩니다. 별지 제32호서식이고 처리기간은 60일입니다. 다만 법에 기한이 박혀 있어, 처분이 있음을 안 날부터 90일이 지나면 접수 자체가 어려워집니다. 결과가 또 뒤집히지 않으면 재심사청구로 한 번 더 갈 수 있는데, 그 서식은 따로 있습니다. 통지서를 받아 두셨다면 날짜부터 세어 보세요. 그 전에 조사에서 무엇이 어떻게 기록됐는지 알면 다툴 지점이 보입니다.',
@@ -136,7 +136,7 @@ export const ltciReviewRequestFormPolicy = {
       act: {
         cue: '심사청구 결과에도 납득이 안 되면 다음 단계가 있습니다. 재심사청구는 공단이 아니라 보건복지부 소속 위원회가 봅니다. 서식이 다르니 그쪽 종이를 받으셔야 합니다.',
         label: '재심사청구서 받기',
-        url: RE_PDF,
+        url: '/forms/ltci-rereview-request',
       },
       sourceNote: '* 출처: 노인장기요양보험법 제55조제2항·제56조제1항(2026-08-14 확인)',
     },
