@@ -42,6 +42,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/calc/maternity-leave-pay/',
     '/calc/jongbuse/',
     '/guide/chuseok-train-ticket/',
+    '/guide/median-income-2027/',
+    '/guide/income-recognition/',
+    '/guide/income-evaluation/',
+    '/guide/property-conversion/',
+    '/guide/basic-property/',
+    '/guide/housing-property/',
+    '/guide/financial-car-property/',
+    '/guide/health-insurance-standard/',
   ];
   for (const f of FORMS) {
     entries.push({

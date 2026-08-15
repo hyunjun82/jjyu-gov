@@ -20,6 +20,14 @@ export default function MedianIncomeCalcPage() {
         공고문마다 "기준 중위소득 몇 % 이하"라고만 적혀 있어서 내 가구 금액으로 얼마인지 매번 헷갈리시죠.
         가구원 수만 고르면 구간별 문턱 금액이 바로 나오고, 2027년 확정치(6.70% 인상)와도 비교됩니다.
       </p>
+      <p style={{ fontSize: 15, lineHeight: 1.75, margin: '0 0 12px' }}>
+        2027년 기준 중위소득은 6.70% 올라 4인 가구 692만 9,885원으로 결정됐습니다.
+        급여별 선정기준과 2026년 대비 증가액은 발표 정리에서 표로 보실 수 있습니다.
+      </p>
+      <Link href="/guide/median-income-2027" className="btn-cta"
+            style={{ display: 'block', textAlign: 'center', marginBottom: 20 }}>
+        2027년 기준 중위소득 발표 보기
+      </Link>
       <MedianCalcClient />
     </main>
   );
