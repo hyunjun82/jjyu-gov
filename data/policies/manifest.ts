@@ -374,6 +374,8 @@ import { ltciNursingOrderPolicy, ltciNursingOrderSpokes } from './ltci-nursing-o
 import { rootsInfoSitePolicy, rootsInfoSiteSpokes } from './roots-info-site';
 import { medicalAidIncomeStandardPolicy, medicalAidIncomeStandardSpokes } from './medical-aid-income-standard';
 import { medicalAidRefundPolicy, medicalAidRefundSpokes } from './medical-aid-refund';
+import { medicalAidExemptionPolicy, medicalAidExemptionSpokes } from './medical-aid-exemption';
+import { medicalAidNursingHospitalPolicy, medicalAidNursingHospitalSpokes } from './medical-aid-nursing-hospital';
 import { medicalAidDayLimitPolicy, medicalAidDayLimitSpokes } from './medical-aid-day-limit';
 import { medicalAidSelectedHospitalPolicy, medicalAidSelectedHospitalSpokes } from './medical-aid-selected-hospital';
 import { medicalAidReferralPolicy, medicalAidReferralSpokes } from './medical-aid-referral';
@@ -1709,6 +1711,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'roots-info-site': rootsInfoSitePolicy,
   'medical-aid-income-standard': medicalAidIncomeStandardPolicy,
   'medical-aid-refund': medicalAidRefundPolicy,
+  'medical-aid-exemption': medicalAidExemptionPolicy,
+  'medical-aid-nursing-hospital': medicalAidNursingHospitalPolicy,
   'medical-aid-day-limit': medicalAidDayLimitPolicy,
   'medical-aid-selected-hospital': medicalAidSelectedHospitalPolicy,
   'medical-aid-referral': medicalAidReferralPolicy,
@@ -2946,6 +2950,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'roots-info-site': rootsInfoSiteSpokes,
   'medical-aid-income-standard': medicalAidIncomeStandardSpokes,
   'medical-aid-refund': medicalAidRefundSpokes,
+  'medical-aid-exemption': medicalAidExemptionSpokes,
+  'medical-aid-nursing-hospital': medicalAidNursingHospitalSpokes,
   'medical-aid-day-limit': medicalAidDayLimitSpokes,
   'medical-aid-selected-hospital': medicalAidSelectedHospitalSpokes,
   'medical-aid-referral': medicalAidReferralSpokes,
