@@ -372,6 +372,7 @@ import { ltciCarePlanPolicy, ltciCarePlanSpokes } from './ltci-care-plan';
 import { ltciAgentDesignationPolicy, ltciAgentDesignationSpokes } from './ltci-agent-designation';
 import { ltciNursingOrderPolicy, ltciNursingOrderSpokes } from './ltci-nursing-order';
 import { rootsInfoSitePolicy, rootsInfoSiteSpokes } from './roots-info-site';
+import { medicalAidIncomeStandardPolicy, medicalAidIncomeStandardSpokes } from './medical-aid-income-standard';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -1700,6 +1701,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'ltci-agent-designation': ltciAgentDesignationPolicy,
   'ltci-nursing-order': ltciNursingOrderPolicy,
   'roots-info-site': rootsInfoSitePolicy,
+  'medical-aid-income-standard': medicalAidIncomeStandardPolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2930,6 +2932,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'ltci-agent-designation': ltciAgentDesignationSpokes,
   'ltci-nursing-order': ltciNursingOrderSpokes,
   'roots-info-site': rootsInfoSiteSpokes,
+  'medical-aid-income-standard': medicalAidIncomeStandardSpokes,
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,

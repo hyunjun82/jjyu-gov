@@ -70,37 +70,12 @@ function verify(policy: PolicyData): CheckResult[] {
   const qa = policy.qa || [];
   const r: CheckResult[] = [];
 
-  /* 2026-08-08: >=7 → >=3. 소제목 개수는 타이틀이 정한다(고정 7개 폐지).
-     check-spoke-quality.sh 를 3으로 낮췄는데 여기가 7로 남아 있어, 6개짜리 글이
-     pre-push ④단계 Q1에서 차단됐다. 커버리지는 check-user-value 가 본다. */
-  r.push({ id: 'Q1', label: 'QA cards count', pass: qa.length >= 3, actual: qa.length, expected: '>=3' });
-
-  const shortIntros = qa.filter((q) => !q.intro || q.intro.length < 200);
-  r.push({
-    id: 'Q2', label: 'intro 200 chars',
-    pass: shortIntros.length === 0,
-    actual: (qa.length - shortIntros.length) + '/' + qa.length,
-    expected: qa.length + '/' + qa.length,
-    detail: shortIntros.length > 0 ? 'missing: ' + shortIntros.map((q) => q.anchor).join(', ') : undefined,
-  });
-
-  const noVisual = qa.filter((q) => !q.table && !q.box && !q.box2 && !q.hasEligibilityChecker && !q.hasApplyMethodTabs);
-  r.push({
-    id: 'Q3', label: 'visual element per QA',
-    pass: noVisual.length === 0,
-    actual: (qa.length - noVisual.length) + '/' + qa.length,
-    expected: qa.length + '/' + qa.length,
-    detail: noVisual.length > 0 ? 'missing: ' + noVisual.map((q) => q.anchor).join(', ') : undefined,
-  });
-
-  const tableCount = qa.filter((q) => q.table).length;
-  r.push({ id: 'Q4', label: 'tables total', pass: tableCount >= 2, actual: tableCount, expected: '>=2' });
-
-  const boxCount = qa.reduce((s, q) => s + (q.box ? 1 : 0) + (q.box2 ? 1 : 0), 0);
-  r.push({ id: 'Q5', label: 'boxes total', pass: boxCount >= 3, actual: boxCount, expected: '>=3' });
-
-  const hi = qa.reduce((s, q) => s + (q.highlights?.length || 0), 0);
-  r.push({ id: 'Q6', label: 'highlights total', pass: hi >= 15, actual: hi, expected: '>=15' });
+  /* 2026-08-15 사장님 지시로 개수 검사 9종(Q1~Q6·Q8~Q10) 삭제.
+     카드 3개↑·서론 200자·카드마다 표/박스·표 2개↑·박스 3개↑·하이라이트 15개↑·
+     FAQ 5개↑·출처 3개↑·keyFacts 9행↑ — 전부 "부피" 하한이었다.
+     통과하려고 표와 박스를 채우게 되고 그게 곧 찍어내기다.
+     (같은 지적이 check-user-value.ts 주석에 이미 적혀 있었는데 여기 남아 있었다)
+     남긴 것: Q7 출처 표기 · Q11 타이틀 키워드 · Q12 추측 표현 · Q13 slug */
 
   const withSource = qa.filter((q) => q.sourceNote).length;
   r.push({
@@ -109,15 +84,6 @@ function verify(policy: PolicyData): CheckResult[] {
     actual: withSource + '/' + qa.length,
     expected: '>=' + Math.ceil(qa.length / 2) + '/' + qa.length,
   });
-
-  const faqLen = policy.faq?.length || 0;
-  r.push({ id: 'Q8', label: 'FAQ count', pass: faqLen >= 5, actual: faqLen, expected: '>=5' });
-
-  const sourcesLen = policy.sources?.length || 0;
-  r.push({ id: 'Q9', label: 'sources URL count', pass: sourcesLen >= 3, actual: sourcesLen, expected: '>=3' });
-
-  const keyFactsLen = policy.keyFacts ? Object.keys(policy.keyFacts).length : 0;
-  r.push({ id: 'Q10', label: 'keyFacts rows', pass: keyFactsLen >= 9, actual: keyFactsLen, expected: '>=9' });
 
   // Q11: title keywords vs body match
   const titleKws: string[] = policy.titleKeywords ? Object.values(policy.titleKeywords) : [];

@@ -15,7 +15,8 @@
  * ⚠ 민간 사이트다. 정부 서비스처럼 안내하지 않는다.
  * 쓰지 않는 것: 수록 성씨·본관 규모, 개설연도, 이용 요금·회원가입 여부,
  *   접속 장애의 원인, 복구 시점 — 전부 확인 못 함 */
-const EFAMILY = 'https://efamily.scourt.go.kr';
+const EFAMILY = 'https://efamily.scourt.go.kr/index.jsp';
+const SITE_HTTPS = 'https://www.rootsinfo.co.kr/info/home/';
 const SITE = 'http://www.rootsinfo.co.kr';
 
 export const rootsInfoSitePolicy = {
@@ -32,12 +33,12 @@ export const rootsInfoSitePolicy = {
   deadline: '상시 — 2026.08.15 접속 실측 기준',
   hideAmountBox: true,
   views: 0,
-  applyUrl: EFAMILY,
-  ctaLabel: '제적등본 발급하러 가기',
+  applyUrl: SITE_HTTPS,
+  ctaLabel: '뿌리를 찾아서 바로가기',
   datePublished: '2026-08-15T15:00:00+09:00', dateModified: '2026-08-15T15:00:00+09:00',
   heroHook:
     '뿌리를 찾아서가 검색어에 오르면서 사이트가 안 열린다는 분이 많으시죠. 주소를 http로 바꿔 넣으면 된다는 이야기가 돌길래 다섯 가지 주소로 직접 넣어 봤습니다. 결론부터 말씀드리면 열릴 때도 있고 안 열릴 때도 있습니다. 무엇보다 이 사이트에는 내 직계 조상 계보가 나오지 않습니다. 성씨와 본관 단위 자료라 화면에 뜨는 인물은 그 본관 전체의 인물입니다. 조상 기록이 급하시면 애초에 갈 곳이 따로 있습니다.',
-  heroAct: { label: '제적등본 발급하러 가기', href: EFAMILY },
+  heroAct: { label: '뿌리를 찾아서 바로가기', href: SITE_HTTPS },
   metaDescription:
     '뿌리를 찾아서(rootsinfo.co.kr) 접속이 안 되는 이유를 주소 5종으로 직접 확인했습니다. 같은 날에도 열릴 때와 안 열릴 때가 갈렸고, http 주소는 곧바로 https로 되돌립니다. 내 직계 조상은 이 사이트가 아니라 제적등본에서 확인합니다.',
   audience: '집안 뿌리와 조상 기록을 찾아보려는 분',
@@ -103,6 +104,11 @@ export const rootsInfoSitePolicy = {
           ['16:02', '다시 연결 시간 초과'],
         ],
         sourceNote: '같은 주소를 시간을 달리해 직접 접속한 결과 (2026.08.15)',
+      },
+      act: {
+        cue: '접속은 시점에 따라 열립니다. 지금 되는지 눌러서 확인해 보시는 편이 빠릅니다.',
+        label: '뿌리를 찾아서 바로가기',
+        url: SITE_HTTPS,
       },
       sourceNote: '* 출처: rootsinfo.co.kr 접속 실측(2026-08-15 확인)',
     },
