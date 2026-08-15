@@ -118,10 +118,18 @@ function checkFile(file: string): Issue[] {
   const label = c.match(/ctaLabel: '([^']*)'/)?.[1];
   // applyUrl 을 상수로 빼 쓰는 파일이 있다(`applyUrl: IHAENG_APPLY`).
   // 리터럴만 찾으면 멀쩡한 딥링크를 "없음"으로 잡는다 — 상수 선언을 뒤져 푼다.
+  // 2026-08-15: 내부 경로(/policy/…)도 유효한 목적지로 인정한다.
+  // 파일 다운로드는 페이지 이동이 아니라 전면광고가 뜨지 않는다 — 상단 버튼을
+  // 외부 PDF 로 보내면 방문자가 내부 이동 없이 이탈한다. 서식 계열 글은
+  // 상단 버튼을 내부 허브·스포크로 보내고 파일 직링크는 본문 하단에 둔다.
   let url = c.match(/applyUrl: '(https?:\/\/[^']*)'/)?.[1];
-  if (!url) {
+  let internal = c.match(/applyUrl: '(\/(policy|calc|tools)\/[a-z0-9-]+[^']*)'/)?.[1];
+  if (!url && !internal) {
     const ref = c.match(/applyUrl: ([A-Za-z_$][\w$]*)/)?.[1];
-    if (ref) url = c.match(new RegExp(`const ${ref}\\s*=\\s*'(https?://[^']*)'`))?.[1];
+    if (ref) {
+      url = c.match(new RegExp(`const ${ref}\\s*=\\s*'(https?://[^']*)'`))?.[1];
+      if (!url) internal = c.match(new RegExp(`const ${ref}\\s*=\\s*'(/[a-z0-9/-]+)'`))?.[1];
+    }
   }
 
   if (!label) {
@@ -141,9 +149,9 @@ function checkFile(file: string): Issue[] {
     }
   }
 
-  if (!url) {
+  if (!url && !internal) {
     issues.push({ axis: 2, msg: 'applyUrl 없음 — 버튼이 죽어 있음', fix: '해당 서비스 페이지 URL 지정' });
-  } else {
+  } else if (url) {
     const p = new URL(url).pathname.replace(/\/+$/, '');
     if (ROOT_PATHS.has(p) && !new URL(url).search) {
       issues.push({
