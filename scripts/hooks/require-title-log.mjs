@@ -11,7 +11,7 @@
  *   결과적으로 글 하나 쓰는 데 여섯 번씩 되돌리게 만들었다.
  *   사장님 지시로 "캡처 확인" 한 가지만 남긴다.
  */
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 const ROOT = process.env.CLAUDE_PROJECT_DIR || process.cwd();
@@ -35,6 +35,28 @@ const slug = file.split(/[\\/]/).pop().replace(/\.ts$/, '');
 const logPath = join(ROOT, 'docs', 'title-log.md');
 const log = existsSync(logPath) ? readFileSync(logPath, 'utf8') : '';
 const block = log.split(/^## /m).find((b) => b.startsWith(slug));
+
+/* 캡처를 "적었다"가 아니라 "찍었다"를 본다.
+   2026-08-15: 텍스트로 수치를 다 뽑으면 내가 캡처를 건너뛰고 기록만 남겼다.
+   판단이 끼어들 자리를 없애려고 파일 존재를 직접 확인한다. */
+const shotDir = join(ROOT, '.playwright-mcp');
+const shots = existsSync(shotDir)
+  ? readdirSync(shotDir).filter((f) => /\.(png|jpe?g)$/i.test(f))
+  : [];
+const rootShots = readdirSync(ROOT).filter((f) => /\.(png|jpe?g)$/i.test(f));
+const hasShot = shots.length + rootShots.length > 0;
+
+if (!hasShot) {
+  console.error(
+    [
+      `[타이틀 훅] ${slug} — 1차 출처 화면 캡처가 없다.`,
+      '',
+      '  browser_take_screenshot 으로 원문 화면을 찍고 저장한 뒤 저장한다.',
+      '  텍스트만 뽑고 넘어가지 않는다 — 표·그림은 텍스트에 안 잡힌다.',
+    ].join('\n'),
+  );
+  process.exit(2);
+}
 
 if (!block || !/^- 캡처:/m.test(block)) {
   console.error(
