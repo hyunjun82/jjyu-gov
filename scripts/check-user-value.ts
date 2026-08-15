@@ -54,6 +54,12 @@ function judgeCtaLabel(raw: string): string | null {
 /** 기관 메인으로 판정할 경로 (딥링크가 아님) */
 const ROOT_PATHS = new Set(['', '/', '/index.do', '/main.do', '/index.jsp', '/main.jsp', '/index.html']);
 
+/* 2026-08-15: 메뉴가 전부 자바스크립트라 깊은 주소 자체가 없는 사이트는 예외로 둔다.
+   대법원 전자가족관계등록시스템은 증명서 메뉴 링크가 모두 href="#_" 라
+   (Playwright 로 확인) 메인 말고는 걸 수 있는 URL 이 없다.
+   "딥링크를 걸어라"가 불가능한 곳까지 막으면 게이트가 일을 막는다. */
+const NO_DEEPLINK_HOSTS = new Set(['efamily.scourt.go.kr']);
+
 type Issue = { axis: 1 | 2 | 3; msg: string; fix: string; warn?: boolean };
 
 function readTitle(c: string): string {
@@ -153,7 +159,7 @@ function checkFile(file: string): Issue[] {
     issues.push({ axis: 2, msg: 'applyUrl 없음 — 버튼이 죽어 있음', fix: '해당 서비스 페이지 URL 지정' });
   } else if (url) {
     const p = new URL(url).pathname.replace(/\/+$/, '');
-    if (ROOT_PATHS.has(p) && !new URL(url).search) {
+    if (ROOT_PATHS.has(p) && !new URL(url).search && !NO_DEEPLINK_HOSTS.has(new URL(url).hostname)) {
       issues.push({
         axis: 2,
         msg: `applyUrl 이 기관 메인 (${url})`,
