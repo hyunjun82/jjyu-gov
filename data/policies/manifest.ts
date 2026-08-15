@@ -35,6 +35,7 @@ import { propertyTaxPolicy, propertyTaxSpokes } from './property-tax';
 import { nationalPensionPremiumPolicy, nationalPensionPremiumSpokes } from './national-pension-premium';
 import { medicalBenefitPolicy, medicalBenefitSpokes } from './medical-benefit';
 import { nearPoorPolicy, nearPoorSpokes } from './near-poor';
+import { nearPoorCertificatePolicy, nearPoorCertificateSpokes } from './near-poor-certificate';
 import { emergencyWelfareSupportPolicy, emergencyWelfareSupportSpokes } from './emergency-welfare-support';
 import { disabilityActivitySupportPolicy, disabilityActivitySupportSpokes } from './disability-activity-support';
 import { beotimokJeonseLoanPolicy, beotimokJeonseLoanSpokes } from './beotimok-jeonse-loan';
@@ -1553,6 +1554,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'national-pension-premium': nationalPensionPremiumPolicy,
   'medical-benefit': medicalBenefitPolicy,
   'near-poor': nearPoorPolicy,
+  'near-poor-certificate': nearPoorCertificatePolicy,
   'emergency-welfare-support': emergencyWelfareSupportPolicy,
   'disability-activity-support': disabilityActivitySupportPolicy,
   'beotimok-jeonse-loan': beotimokJeonseLoanPolicy,
@@ -3047,6 +3049,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'national-pension-premium': nationalPensionPremiumSpokes,
   'medical-benefit': medicalBenefitSpokes,
   'near-poor': nearPoorSpokes,
+  'near-poor-certificate': nearPoorCertificateSpokes,
   'emergency-welfare-support': emergencyWelfareSupportSpokes,
   'disability-activity-support': disabilityActivitySupportSpokes,
   'beotimok-jeonse-loan': beotimokJeonseLoanSpokes,
