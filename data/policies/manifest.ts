@@ -373,6 +373,12 @@ import { ltciAgentDesignationPolicy, ltciAgentDesignationSpokes } from './ltci-a
 import { ltciNursingOrderPolicy, ltciNursingOrderSpokes } from './ltci-nursing-order';
 import { rootsInfoSitePolicy, rootsInfoSiteSpokes } from './roots-info-site';
 import { medicalAidIncomeStandardPolicy, medicalAidIncomeStandardSpokes } from './medical-aid-income-standard';
+import { medicalAidRefundPolicy, medicalAidRefundSpokes } from './medical-aid-refund';
+import { medicalAidDayLimitPolicy, medicalAidDayLimitSpokes } from './medical-aid-day-limit';
+import { medicalAidSelectedHospitalPolicy, medicalAidSelectedHospitalSpokes } from './medical-aid-selected-hospital';
+import { medicalAidReferralPolicy, medicalAidReferralSpokes } from './medical-aid-referral';
+import { medicalAidImagingPolicy, medicalAidImagingSpokes } from './medical-aid-imaging';
+import { medicalAidRoomChargePolicy, medicalAidRoomChargeSpokes } from './medical-aid-room-charge';
 import { heartDiseaseDiagnosisRiderPolicy, heartDiseaseDiagnosisRiderSpokes } from './heart-disease-diagnosis-rider';
 import { termVsWholeLifeInsurancePolicy, termVsWholeLifeInsuranceSpokes } from './term-vs-whole-life-insurance';
 import { noRefundLifeInsuranceGuidePolicy, noRefundLifeInsuranceGuideSpokes } from './no-refund-life-insurance-guide';
@@ -1702,6 +1708,12 @@ export const PoliciesBySlug: Record<string, any> = {
   'ltci-nursing-order': ltciNursingOrderPolicy,
   'roots-info-site': rootsInfoSitePolicy,
   'medical-aid-income-standard': medicalAidIncomeStandardPolicy,
+  'medical-aid-refund': medicalAidRefundPolicy,
+  'medical-aid-day-limit': medicalAidDayLimitPolicy,
+  'medical-aid-selected-hospital': medicalAidSelectedHospitalPolicy,
+  'medical-aid-referral': medicalAidReferralPolicy,
+  'medical-aid-imaging': medicalAidImagingPolicy,
+  'medical-aid-room-charge': medicalAidRoomChargePolicy,
   'heart-disease-diagnosis-rider': heartDiseaseDiagnosisRiderPolicy,
   'term-vs-whole-life-insurance': termVsWholeLifeInsurancePolicy,
   'no-refund-life-insurance-guide': noRefundLifeInsuranceGuidePolicy,
@@ -2933,6 +2945,12 @@ export const SpokesBySlug: Record<string, any[]> = {
   'ltci-nursing-order': ltciNursingOrderSpokes,
   'roots-info-site': rootsInfoSiteSpokes,
   'medical-aid-income-standard': medicalAidIncomeStandardSpokes,
+  'medical-aid-refund': medicalAidRefundSpokes,
+  'medical-aid-day-limit': medicalAidDayLimitSpokes,
+  'medical-aid-selected-hospital': medicalAidSelectedHospitalSpokes,
+  'medical-aid-referral': medicalAidReferralSpokes,
+  'medical-aid-imaging': medicalAidImagingSpokes,
+  'medical-aid-room-charge': medicalAidRoomChargeSpokes,
   'integrated-career-certificate': integratedCareerCertificateSpokes,
   'national-pension-reduction': nationalPensionReductionSpokes,
   'after-school-childcare-fee': afterSchoolChildcareFeeSpokes,
