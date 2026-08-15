@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/calc/median-income/',
     '/calc/maternity-leave-pay/',
     '/calc/jongbuse/',
+    '/guide/chuseok-train-ticket/',
   ];
   for (const f of FORMS) {
     entries.push({
