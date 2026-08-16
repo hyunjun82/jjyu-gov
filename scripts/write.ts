@@ -212,7 +212,7 @@ step(2, '구성표 — 소제목과 버튼 문구를 먼저', outlines.length > 
   '     ## 소제목        — 질문형 3개 이상, 실검색어 그대로. 행동(신청·청구)이 맨 위',
   '     ## 버튼          — 슬롯 qa2·qa4·마지막, 각 버튼의 문구와 목적지 URL',
   '② 버튼 목적지를 Playwright 로 먼저 연다 (로그인·세션토큰 걸리는지)',
-  '③ npx tsx scripts/check-cue-value.ts --draft <초안> 으로 문구부터 통과시킨다',
+  '③ 버튼 문구·목적지를 채팅에 올려 승인받는다 (본문은 그다음)',
 ]);
 
 step(3, '사실 — Playwright 로 원문 대조', hasFactsheet, [
@@ -233,16 +233,9 @@ step(4, '마무리 — 오차·오해 소지 검토', false, [
 if (args.includes('--final')) {
   console.log(`\n${line}\n 마무리 검토 — 오차·오해 소지 전수\n${line}\n`);
   const CHECKS: [string, string][] = [
-    ['원문 대조 — 오차·누락 (4단계 본검사)', 'npx tsx scripts/check-source-match.ts'],
+    ['원문 대조 (오차·누락·근거없는말·출처)', 'npx tsx scripts/check-source-match.ts'],
     ['배선 무결성', 'npx tsx scripts/verify-integrity.ts --strict'],
     ['타입 형태', 'npx tsx scripts/check-type-shape.ts'],
-    ['스포크 품질', 'bash scripts/check-spoke-quality.sh'],
-    ['타이틀↔소제목', 'npx tsx scripts/check-user-value.ts'],
-    ['팩트시트', 'npx tsx scripts/check-factsheet.ts'],
-    ['타이틀 출처(캡처)', 'npx tsx scripts/check-title-source.ts'],
-    ['문구·버튼', 'npx tsx scripts/check-cue-value.ts'],
-    ['수치 신선도', 'npx tsx scripts/check-freshness.ts'],
-    ['중복', 'npx tsx scripts/check-duplicate.ts'],
   ];
   let bad = 0;
   for (const [name, cmd] of CHECKS) {

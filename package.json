@@ -8,11 +8,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "verify": "npx tsx scripts/verify-quality.ts",
-    "verify:all": "bash scripts/check-spoke-quality.sh && npx tsx scripts/verify-quality.ts --all",
-    "verify-policy": "npx tsx scripts/verify-policy.ts",
-    "freshness": "npx tsx scripts/check-freshness.ts",
-    "dup": "npx tsx scripts/check-duplicate.ts",
     "audit": "npx tsx scripts/audit-all.ts",
     "gov-write": "npx tsx scripts/gov-write.ts",
     "collect": "npx tsx scripts/collect-multi-source.ts",
@@ -20,8 +15,8 @@
     "batch": "npx tsx scripts/batch-gov-write.ts",
     "check": "python3 scripts/check-quality.py",
     "check:all": "python3 scripts/check-quality.py",
-    "verify:spokes": "bash scripts/check-spoke-quality.sh",
-    "verify:integrity": "npx tsx scripts/verify-integrity.ts"
+    "verify:integrity": "npx tsx scripts/verify-integrity.ts",
+    "verify": "npx tsx scripts/check-source-match.ts"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

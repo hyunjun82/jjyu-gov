@@ -43,6 +43,15 @@ const inPool = (tok: string, npool: string, npoolCanon: string): boolean => {
   return false;
 };
 
+/** 근거 없이 쓰면 안 되는 말 — 추측(Q12) + 빈도 단정(옛 check-factsheet) */
+const BANNED: [RegExp, string][] = [
+  [/(?<![가-힣])약\s*\d/, '약 N'], [/대략/, '대략'], [/대충/, '대충'],
+  [/\s정도\s/, '정도'], [/\d+\s*쯤/, '쯤'], [/아마도/, '아마도'],
+  [/추정/, '추정'], [/예상\s*컨대/, '예상컨대'],
+  [/대부분/, '대부분'], [/대개/, '대개'], [/경우가 많/, '경우가 많'],
+  [/흔합니다/, '흔합니다'], [/대다수/, '대다수'], [/거의 모든/, '거의 모든'],
+];
+
 /** 글에서 독자가 읽는 문장만 뽑는다 (메타·날짜·source 제외) */
 function claimStrings(src: string): string[] {
   const out: string[] = [];
@@ -112,11 +121,29 @@ function check(slug: string): number {
     }
   }
 
-  if (!misses.length && !gaps.length) {
-    console.log(`✅ ${slug} — 숫자 ${seen.size}개 전부 원문과 일치 (풀: ${parts.join(' + ')})`);
+  // ③ 근거 없는 말 — 추측·빈도 단정
+  const body = claimStrings(src).join(' ');
+  const banned = BANNED.filter(([re]) => re.test(body)).map(([, l]) => l);
+
+  // ④ 출처 표기 — qa 카드 절반 이상에 sourceNote
+  const qaCount = (src.match(/\n\s{4}\{\s*\n\s+anchor:/g) ?? []).length
+    || (src.match(/anchor:\s*'/g) ?? []).length;
+  const noteCount = (src.match(/sourceNote:\s*'/g) ?? []).length;
+  const noteShort = qaCount >= 2 && noteCount < Math.ceil(qaCount / 2);
+
+  if (!misses.length && !gaps.length && !banned.length && !noteShort) {
+    console.log(`✅ ${slug} — 숫자 ${seen.size}개 원문 일치 · 출처 ${noteCount}/${qaCount} (풀: ${parts.join(' + ')})`);
     return 0;
   }
   console.log(`\n❌ ${slug}`);
+  if (banned.length) {
+    console.log(`   [근거 없는 말] ${banned.join(', ')}`);
+    console.log('      → 원문에 비율이 있으면 그 수치를, 없으면 조건문으로 ("~인 경우입니다")');
+  }
+  if (noteShort) {
+    console.log(`   [출처 표기] sourceNote ${noteCount}/${qaCount} — 절반 이상이어야 한다`);
+    console.log('      → 수치를 담은 카드에 * 출처: … 를 단다');
+  }
   if (misses.length) {
     console.log(`   [오차 의심] 원문 추출본에 없는 숫자 ${misses.length}개:`);
     misses.forEach((t) => console.log(`      · ${t}`));
