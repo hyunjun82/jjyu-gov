@@ -31,6 +31,26 @@ if (/manifest\.ts$/.test(file)) process.exit(0);
 
 const slug = file.split(/[\\/]/).pop().replace(/\.ts$/, '');
 
+/* 신규 글은 write.ts 를 거쳤는지 본다 — outline 파일은 write.ts 가 만든다.
+   2026-08-16: 진행기(write.ts)가 있는데 내가 안 돌리고 맨손으로 시작해
+   중복 글을 다 쓰고 버렸다. 시작을 건너뛰면 저장에서 막는다.
+   기존 글 수정은 해당 없음 — 파일이 이미 있으면 통과. */
+if (!existsSync(file)) {
+  const outline = join(ROOT, 'scripts', 'output', `outline-${slug}.md`);
+  if (!existsSync(outline)) {
+    console.error(
+      [
+        `[타이틀 훅] ${slug} — 신규 글인데 구성표가 없다. write.ts 를 안 돌린 것이다.`,
+        '',
+        `  npx tsx scripts/write.ts "{키워드}" --slug ${slug}`,
+        '  → 중복 검사 + 실검색어 수집 + outline/draft/factsheet 뼈대가 생긴다.',
+        '  outline 의 빈칸을 채운 뒤 본문을 저장한다.',
+      ].join('\n'),
+    );
+    process.exit(2);
+  }
+}
+
 /* docs/title-log.md 에 이 글의 캡처 기록이 있는가 */
 const logPath = join(ROOT, 'docs', 'title-log.md');
 const log = existsSync(logPath) ? readFileSync(logPath, 'utf8') : '';
