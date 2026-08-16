@@ -233,6 +233,7 @@ step(4, '마무리 — 오차·오해 소지 검토', false, [
 if (args.includes('--final')) {
   console.log(`\n${line}\n 마무리 검토 — 오차·오해 소지 전수\n${line}\n`);
   const CHECKS: [string, string][] = [
+    ['원문 대조 — 오차·누락 (4단계 본검사)', 'npx tsx scripts/check-source-match.ts'],
     ['배선 무결성', 'npx tsx scripts/verify-integrity.ts --strict'],
     ['타입 형태', 'npx tsx scripts/check-type-shape.ts'],
     ['스포크 품질', 'bash scripts/check-spoke-quality.sh'],
