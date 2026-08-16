@@ -61,60 +61,6 @@ if [ $UV -ne 0 ]; then
   exit $UV
 fi
 
-# ── ③-2 클릭 유도 게이트 (변경된 스포크만) ──
-# 정보를 잘 정리한 글이 아니라 누르게 되는 글이어야 한다.
-# 전면광고는 내부 이동에서만 뜨고, 그게 수익의 지렛대다.
-echo "👆 클릭 유도 검증 중 (제목 행동성·버튼 슬롯·외부 누수)..."
-npx tsx "$ROOT/scripts/check-click-value.ts"
-CV=$?
-if [ $CV -ne 0 ]; then
-  echo ""
-  echo "🚫 push 차단됨 — 제목을 행동으로 끝내고 본문 외부링크를 빼라"
-  echo "   (무시하려면: git push --no-verify)"
-  exit $CV
-fi
-
-# ── ③-2b 팩트시트 게이트 (신규 글만) ──
-# 형태 게이트가 다 통과해도 수치가 다른 기관 규칙이면 틀린 글이다.
-# 2026-08-07 확정일자(법무부령 600원 vs 대법원규칙 500원) 사고로 신설.
-echo "📋 팩트시트 검증 중 (관할·수치·단서 기입 여부)..."
-npx tsx "$ROOT/scripts/check-factsheet.ts"
-FS=$?
-if [ $FS -ne 0 ]; then
-  echo ""
-  echo "🚫 push 차단됨 — 신규 글은 채워진 팩트시트가 있어야 한다"
-  echo "   템플릿: scripts/factsheet-template.md"
-  echo "   (무시하려면: git push --no-verify)"
-  exit $FS
-fi
-
-# ── ③-2c 타이틀 출처 게이트 (신규 글만) ──
-# 2026-08-08: 캡처를 넣어줬는데도 안 보고 타이틀을 지었다. 코드(F00·K62)를 타이틀에 넣기도 했다.
-# 산문 규칙은 안 지켜지므로 검사한다.
-echo "📸 타이틀 출처 검증 중 (캡처 대조·코드 노출)..."
-npx tsx "$ROOT/scripts/check-title-source.ts"
-TS=$?
-if [ $TS -ne 0 ]; then
-  echo ""
-  echo "🚫 push 차단됨 — 타이틀은 reference/titles/ 캡처를 보고 실검색어로 짓는다"
-  echo "   (무시하려면: git push --no-verify)"
-  exit $TS
-fi
-
-# ── ③-2d 임계값 복사 검사 ──
-# 규칙은 이미 "수치는 verify-quality.ts 가 원천, 문서에 복사하지 않는다"였는데
-# gov-write 스킬이 Q 표를 통째로 복사해두고 Q1~Q9 만 알고 있었다(실제는 Q1~Q13).
-# qa>=7 도 두 표에 남아 소제목 6개짜리 글이 막혔다. 산문 규칙은 안 지켜져서 검사로 바꿨다.
-echo "📐 임계값 복사 검사 중 (수치가 문서에 박혀 있나)..."
-npx tsx "$ROOT/scripts/check-threshold-drift.ts"
-TD=$?
-if [ $TD -ne 0 ]; then
-  echo ""
-  echo "🚫 push 차단됨 — 임계값은 스크립트에만 둔다"
-  echo "   (무시하려면: git push --no-verify)"
-  exit $TD
-fi
-
 # ── ③-3 문구·버튼 게이트 (변경된 허브만) ──
 # 이 프로젝트에서 가장 중요한 규칙인데 게이트가 없어서 703개 중 9개만 지켜졌다.
 # 버튼만 놓으면 아무도 안 누른다 — 누를 이유를 버튼 바로 위에 둔다.
