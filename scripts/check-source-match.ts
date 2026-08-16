@@ -27,11 +27,13 @@ const TOKEN = /\d[\d,]*(?:\.\d+)?\s*(?:만원|억원|천원|원|%|퍼센트|개�
 
 const norm = (s: string) => s.replace(/[\s,]/g, '');
 
-/** 금액 표기 통일: "1만원"→"10000원", "1.2억원"→"120000000원" */
+/** 금액 표기 통일: "1만원"→"10000원", "1.2억원"→"120000000원"
+ *  연도 축약 통일: 정부 문서의 "'27.1월"·"’26년" → "2027년"·"2026년" */
 const canonMoney = (s: string) =>
   s.replace(/(\d+(?:\.\d+)?)억\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e8)}원`)
    .replace(/(\d+(?:\.\d+)?)만\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e4)}원`)
-   .replace(/(\d+(?:\.\d+)?)천\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e3)}원`);
+   .replace(/(\d+(?:\.\d+)?)천\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e3)}원`)
+   .replace(/['’‘]\s*(\d{2})\s*(?=[.년])/g, (_, y) => `20${y}년`);
 
 /** 한 토큰이 풀 안에 있는가 — 원표기·금액 환산·"100분의 N" 3가지로 본다 */
 const inPool = (tok: string, npool: string, npoolCanon: string): boolean => {

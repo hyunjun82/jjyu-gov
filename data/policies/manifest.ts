@@ -238,6 +238,7 @@ import { womenStartupCenterPolicy, womenStartupCenterSpokes } from './women-star
 import { youthAssetFormationPolicy, youthAssetFormationSpokes } from './youth-asset-formation';
 import { youthFutureSavingsPolicy, youthFutureSavingsSpokes } from './youth-future-savings';
 import { youthHousingSupportPolicy, youthHousingSupportSpokes } from './youth-housing-support';
+import { youthHousing3setPolicy, youthHousing3setSpokes } from './youth-housing-3set';
 import { youthJobPolicy, youthJobSpokes } from './youth-job';
 import { youthLeapJobPolicy, youthLeapJobSpokes } from './youth-leap-job';
 import { youthStartupSchoolPolicy, youthStartupSchoolSpokes } from './youth-startup-school';
@@ -2169,6 +2170,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'youth-asset-formation': youthAssetFormationPolicy,
   'youth-future-savings': youthFutureSavingsPolicy,
   'youth-housing-support': youthHousingSupportPolicy,
+  'youth-housing-3set': youthHousing3setPolicy,
   'youth-job': youthJobPolicy,
   'youth-leap-job': youthLeapJobPolicy,
   'youth-startup-school': youthStartupSchoolPolicy,
@@ -3635,6 +3637,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'youth-asset-formation': youthAssetFormationSpokes,
   'youth-future-savings': youthFutureSavingsSpokes,
   'youth-housing-support': youthHousingSupportSpokes,
+  'youth-housing-3set': youthHousing3setSpokes,
   'youth-job': youthJobSpokes,
   'youth-leap-job': youthLeapJobSpokes,
   'youth-startup-school': youthStartupSchoolSpokes,
