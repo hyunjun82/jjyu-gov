@@ -123,9 +123,13 @@ function check(slug: string): number {
     }
   }
 
-  // ③ 근거 없는 말 — 추측·빈도 단정
+  /* ③ 근거 없는 말 — 추측·빈도 단정.
+     단, 원문이 그렇게 쓴 말은 근거가 있는 것이라 통과시킨다.
+     2026-08-16: 금융위 원문이 "약 61%", "대부분"으로 쓴 걸 글이 옮겼는데 막혔다.
+     이 검사의 취지는 내가 지어낸 말을 잡는 것이지 원문 인용을 막는 게 아니다. */
   const body = claimStrings(src).join(' ');
-  const banned = BANNED.filter(([re]) => re.test(body)).map(([, l]) => l);
+  const banned = BANNED.filter(([re]) => re.test(body) && !re.test(pool))
+    .map(([, l]) => l);
 
   // ④ 출처 표기 — qa 카드 절반 이상에 sourceNote
   const qaCount = (src.match(/\n\s{4}\{\s*\n\s+anchor:/g) ?? []).length
