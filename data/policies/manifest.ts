@@ -36,6 +36,9 @@ import { nationalPensionPremiumPolicy, nationalPensionPremiumSpokes } from './na
 import { medicalBenefitPolicy, medicalBenefitSpokes } from './medical-benefit';
 import { nearPoorPolicy, nearPoorSpokes } from './near-poor';
 import { nearPoorCertificatePolicy, nearPoorCertificateSpokes } from './near-poor-certificate';
+import { nearPoorEligibilityPolicy, nearPoorEligibilitySpokes } from './near-poor-eligibility';
+import { nearPoorTelecomPolicy, nearPoorTelecomSpokes } from './near-poor-telecom';
+import { nearPoorCopayPolicy, nearPoorCopaySpokes } from './near-poor-copay';
 import { emergencyWelfareSupportPolicy, emergencyWelfareSupportSpokes } from './emergency-welfare-support';
 import { disabilityActivitySupportPolicy, disabilityActivitySupportSpokes } from './disability-activity-support';
 import { beotimokJeonseLoanPolicy, beotimokJeonseLoanSpokes } from './beotimok-jeonse-loan';
@@ -1557,6 +1560,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'medical-benefit': medicalBenefitPolicy,
   'near-poor': nearPoorPolicy,
   'near-poor-certificate': nearPoorCertificatePolicy,
+  'near-poor-eligibility': nearPoorEligibilityPolicy,
+  'near-poor-telecom': nearPoorTelecomPolicy,
+  'near-poor-copay': nearPoorCopayPolicy,
   'emergency-welfare-support': emergencyWelfareSupportPolicy,
   'disability-activity-support': disabilityActivitySupportPolicy,
   'beotimok-jeonse-loan': beotimokJeonseLoanPolicy,
@@ -3054,6 +3060,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'medical-benefit': medicalBenefitSpokes,
   'near-poor': nearPoorSpokes,
   'near-poor-certificate': nearPoorCertificateSpokes,
+  'near-poor-eligibility': nearPoorEligibilitySpokes,
+  'near-poor-telecom': nearPoorTelecomSpokes,
+  'near-poor-copay': nearPoorCopaySpokes,
   'emergency-welfare-support': emergencyWelfareSupportSpokes,
   'disability-activity-support': disabilityActivitySupportSpokes,
   'beotimok-jeonse-loan': beotimokJeonseLoanSpokes,
