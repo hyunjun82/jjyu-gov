@@ -303,6 +303,7 @@ import { civilServantPensionPolicy, civilServantPensionSpokes } from './civil-se
 import { militaryPensionPolicy, militaryPensionSpokes } from './military-pension';
 import { privateSchoolPensionPolicy, privateSchoolPensionSpokes } from './private-school-pension';
 import { retirementPensionCheckPolicy, retirementPensionCheckSpokes } from './retirement-pension-check';
+import { pensionTransferPolicy, pensionTransferSpokes } from './pension-transfer';
 import { pensionInsuranceVsSavingsPolicy, pensionInsuranceVsSavingsSpokes } from './pension-insurance-vs-savings';
 import { newlywedHousingSupportPolicy, newlywedHousingSupportSpokes } from './newlywed-housing-support';
 import { artistEmploymentInsurancePolicy, artistEmploymentInsuranceSpokes } from './artist-employment-insurance';
@@ -2239,6 +2240,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'military-pension': militaryPensionPolicy,
   'private-school-pension': privateSchoolPensionPolicy,
   'retirement-pension-check': retirementPensionCheckPolicy,
+  'pension-transfer': pensionTransferPolicy,
   'pension-insurance-vs-savings': pensionInsuranceVsSavingsPolicy,
   'newlywed-housing-support': newlywedHousingSupportPolicy,
   'artist-employment-insurance': artistEmploymentInsurancePolicy,
@@ -3710,6 +3712,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'military-pension': militaryPensionSpokes,
   'private-school-pension': privateSchoolPensionSpokes,
   'retirement-pension-check': retirementPensionCheckSpokes,
+  'pension-transfer': pensionTransferSpokes,
   'pension-insurance-vs-savings': pensionInsuranceVsSavingsSpokes,
   'newlywed-housing-support': newlywedHousingSupportSpokes,
   'artist-employment-insurance': artistEmploymentInsuranceSpokes,
