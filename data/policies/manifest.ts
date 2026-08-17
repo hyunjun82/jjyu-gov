@@ -5,6 +5,7 @@ import { ancestorSearchPolicy, ancestorSearchSpokes } from './ancestor-search';
 import { pensionSavingsIrpPolicy, pensionSavingsIrpSpokes } from './pension-savings-irp';
 import { youthFutureBogeumjariPolicy, youthFutureBogeumjariSpokes } from './youth-future-bogeumjari';
 import { seoulMirinaeHousePolicy, seoulMirinaeHouseSpokes } from './seoul-mirinae-house';
+import { minjooConventionPolicy, minjooConventionSpokes } from './minjoo-convention';
 import { youthDriverLicenseSubsidyPolicy, youthDriverLicenseSubsidySpokes } from './youth-driver-license-subsidy';
 import { moduCardRefundStandardPolicy, moduCardRefundStandardSpokes } from './modu-card-refund-standard';
 import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
@@ -793,6 +794,7 @@ export const PoliciesById: Record<string, any> = {
   '745': pensionSavingsIrpPolicy,
   '746': youthFutureBogeumjariPolicy,
   '747': seoulMirinaeHousePolicy,
+  '748': minjooConventionPolicy,
   '158': nationalPensionReductionPolicy,
   '80': afterSchoolChildcareFeePolicy,
   '50': artistPensionPolicy,
@@ -1486,6 +1488,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'pension-savings-irp': pensionSavingsIrpPolicy,
   'youth-future-bogeumjari': youthFutureBogeumjariPolicy,
   'seoul-mirinae-house': seoulMirinaeHousePolicy,
+  'minjoo-convention': minjooConventionPolicy,
   'national-pension-reduction': nationalPensionReductionPolicy,
   'after-school-childcare-fee': afterSchoolChildcareFeePolicy,
   'artist-pension': artistPensionPolicy,
@@ -2275,6 +2278,7 @@ export const SpokesById: Record<string, any[]> = {
   '745': pensionSavingsIrpSpokes,
   '746': youthFutureBogeumjariSpokes,
   '747': seoulMirinaeHouseSpokes,
+  '748': minjooConventionSpokes,
   '708': jaebeolXhyeongsa2RerunSpokes,
   '709': militarySavingsComboSpokes,
   '710': jointOwnershipCoupleSpokes,
@@ -2968,6 +2972,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'pension-savings-irp': pensionSavingsIrpSpokes,
   'youth-future-bogeumjari': youthFutureBogeumjariSpokes,
   'seoul-mirinae-house': seoulMirinaeHouseSpokes,
+  'minjoo-convention': minjooConventionSpokes,
   'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunSpokes,
   'military-savings-combo': militarySavingsComboSpokes,
   'joint-ownership-couple': jointOwnershipCoupleSpokes,
