@@ -1,5 +1,6 @@
 /* AUTO-GENERATED policy manifest */
 import { afterSchoolChildcareFeePolicy, afterSchoolChildcareFeeSpokes } from './after-school-childcare-fee';
+import { goldPriceTodayPolicy, goldPriceTodaySpokes } from './gold-price-today';
 import { youthDriverLicenseSubsidyPolicy, youthDriverLicenseSubsidySpokes } from './youth-driver-license-subsidy';
 import { moduCardRefundStandardPolicy, moduCardRefundStandardSpokes } from './modu-card-refund-standard';
 import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
@@ -783,6 +784,7 @@ import { kespaCup2026Policy, kespaCup2026Spokes } from './kespa-cup-2026';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
+  '743': goldPriceTodayPolicy,
   '158': nationalPensionReductionPolicy,
   '80': afterSchoolChildcareFeePolicy,
   '50': artistPensionPolicy,
@@ -1471,6 +1473,7 @@ export const PoliciesById: Record<string, any> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesBySlug: Record<string, any> = {
+  'gold-price-today': goldPriceTodayPolicy,
   'national-pension-reduction': nationalPensionReductionPolicy,
   'after-school-childcare-fee': afterSchoolChildcareFeePolicy,
   'artist-pension': artistPensionPolicy,
@@ -2255,6 +2258,7 @@ export const PoliciesBySlug: Record<string, any> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesById: Record<string, any[]> = {
+  '743': goldPriceTodaySpokes,
   '708': jaebeolXhyeongsa2RerunSpokes,
   '709': militarySavingsComboSpokes,
   '710': jointOwnershipCoupleSpokes,
@@ -2943,6 +2947,7 @@ export const SpokesById: Record<string, any[]> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesBySlug: Record<string, any[]> = {
+  'gold-price-today': goldPriceTodaySpokes,
   'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunSpokes,
   'military-savings-combo': militarySavingsComboSpokes,
   'joint-ownership-couple': jointOwnershipCoupleSpokes,
