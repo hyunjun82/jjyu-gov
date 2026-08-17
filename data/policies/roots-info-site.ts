@@ -21,12 +21,12 @@ const SITE = 'http://www.rootsinfo.co.kr';
 
 export const rootsInfoSitePolicy = {
   id: '726', type: 'service' as const,
-  title: '뿌리를 찾아서 사이트 접속 안 될 때, 족보 조회는 어디서 하나?',
+  title: '내 조상 찾기 사이트 홈페이지 바로가기',
   titleKeywords: {
-    k1: '뿌리를 찾아서 사이트',
-    k2: '접속',
-    k3: '족보 조회',
-    k4: '어디서',
+    k1: '내 조상 찾기',
+    k2: '사이트',
+    k3: '홈페이지',
+    k4: '바로가기',
   },
   slug: 'roots-info-site', org: '대법원 전자가족관계등록시스템(직계 기록)', cat: '발급·신청', catSlug: 'issue',
   amount: 'rootsinfo.co.kr · 민간 사이트',
@@ -34,11 +34,11 @@ export const rootsInfoSitePolicy = {
   hideAmountBox: true,
   views: 0,
   applyUrl: SITE_HTTPS,
-  ctaLabel: '뿌리를 찾아서 바로가기',
+  ctaLabel: '홈페이지 바로가기',
   datePublished: '2026-08-15T15:00:00+09:00', dateModified: '2026-08-15T15:00:00+09:00',
   heroHook:
-    '뿌리를 찾아서 사이트가 안 열린다는 분이 많으시죠. 접속이 됐다 안 됐다 합니다. 지금 열리는지부터 눌러 확인해 보시고, 안 열리면 아래에서 왜 그런지와 언제 다시 들어가면 되는지 보시면 됩니다.',
-  heroAct: { label: '뿌리를 찾아서 바로가기', href: SITE_HTTPS },
+    '내 조상 찾기로 알려진 뿌리를 찾아서 홈페이지입니다. 사이트가 안 열린다는 분이 많으시죠. 접속이 됐다 안 됐다 합니다. 지금 열리는지부터 눌러 확인해 보시고, 안 열리면 아래에서 왜 그런지와 언제 다시 들어가면 되는지 보시면 됩니다.',
+  heroAct: { label: '홈페이지 바로가기', href: SITE_HTTPS },
   metaDescription:
     '뿌리를 찾아서(rootsinfo.co.kr) 접속이 안 되는 이유를 주소 5종으로 직접 확인했습니다. 같은 날에도 열릴 때와 안 열릴 때가 갈렸고, http 주소는 곧바로 https로 되돌립니다. 내 직계 조상은 이 사이트가 아니라 제적등본에서 확인합니다.',
   audience: '집안 뿌리와 조상 기록을 찾아보려는 분',
