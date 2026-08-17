@@ -1,0 +1,40 @@
+{
+  "seed": "미리내집 신혼 신생아 매입임대",
+  "synonyms": [],
+  "collectedAt": "2026-08-17T02:23:38.379Z",
+  "naver": {
+    "autocomplete": [],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": []
+  },
+  "merged": {
+    "all": [],
+    "byIntent": {
+      "info": [],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}

@@ -4,6 +4,7 @@ import { goldPriceTodayPolicy, goldPriceTodaySpokes } from './gold-price-today';
 import { ancestorSearchPolicy, ancestorSearchSpokes } from './ancestor-search';
 import { pensionSavingsIrpPolicy, pensionSavingsIrpSpokes } from './pension-savings-irp';
 import { youthFutureBogeumjariPolicy, youthFutureBogeumjariSpokes } from './youth-future-bogeumjari';
+import { seoulMirinaeHousePolicy, seoulMirinaeHouseSpokes } from './seoul-mirinae-house';
 import { youthDriverLicenseSubsidyPolicy, youthDriverLicenseSubsidySpokes } from './youth-driver-license-subsidy';
 import { moduCardRefundStandardPolicy, moduCardRefundStandardSpokes } from './modu-card-refund-standard';
 import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
@@ -791,6 +792,7 @@ export const PoliciesById: Record<string, any> = {
   '744': ancestorSearchPolicy,
   '745': pensionSavingsIrpPolicy,
   '746': youthFutureBogeumjariPolicy,
+  '747': seoulMirinaeHousePolicy,
   '158': nationalPensionReductionPolicy,
   '80': afterSchoolChildcareFeePolicy,
   '50': artistPensionPolicy,
@@ -1483,6 +1485,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'ancestor-search': ancestorSearchPolicy,
   'pension-savings-irp': pensionSavingsIrpPolicy,
   'youth-future-bogeumjari': youthFutureBogeumjariPolicy,
+  'seoul-mirinae-house': seoulMirinaeHousePolicy,
   'national-pension-reduction': nationalPensionReductionPolicy,
   'after-school-childcare-fee': afterSchoolChildcareFeePolicy,
   'artist-pension': artistPensionPolicy,
@@ -2271,6 +2274,7 @@ export const SpokesById: Record<string, any[]> = {
   '744': ancestorSearchSpokes,
   '745': pensionSavingsIrpSpokes,
   '746': youthFutureBogeumjariSpokes,
+  '747': seoulMirinaeHouseSpokes,
   '708': jaebeolXhyeongsa2RerunSpokes,
   '709': militarySavingsComboSpokes,
   '710': jointOwnershipCoupleSpokes,
@@ -2963,6 +2967,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'ancestor-search': ancestorSearchSpokes,
   'pension-savings-irp': pensionSavingsIrpSpokes,
   'youth-future-bogeumjari': youthFutureBogeumjariSpokes,
+  'seoul-mirinae-house': seoulMirinaeHouseSpokes,
   'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunSpokes,
   'military-savings-combo': militarySavingsComboSpokes,
   'joint-ownership-couple': jointOwnershipCoupleSpokes,
