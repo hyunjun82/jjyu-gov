@@ -2,6 +2,7 @@
 import { afterSchoolChildcareFeePolicy, afterSchoolChildcareFeeSpokes } from './after-school-childcare-fee';
 import { goldPriceTodayPolicy, goldPriceTodaySpokes } from './gold-price-today';
 import { ancestorSearchPolicy, ancestorSearchSpokes } from './ancestor-search';
+import { pensionSavingsIrpPolicy, pensionSavingsIrpSpokes } from './pension-savings-irp';
 import { youthDriverLicenseSubsidyPolicy, youthDriverLicenseSubsidySpokes } from './youth-driver-license-subsidy';
 import { moduCardRefundStandardPolicy, moduCardRefundStandardSpokes } from './modu-card-refund-standard';
 import { artistPensionPolicy, artistPensionSpokes } from './artist-pension';
@@ -787,6 +788,7 @@ import { kespaCup2026Policy, kespaCup2026Spokes } from './kespa-cup-2026';
 export const PoliciesById: Record<string, any> = {
   '743': goldPriceTodayPolicy,
   '744': ancestorSearchPolicy,
+  '745': pensionSavingsIrpPolicy,
   '158': nationalPensionReductionPolicy,
   '80': afterSchoolChildcareFeePolicy,
   '50': artistPensionPolicy,
@@ -1477,6 +1479,7 @@ export const PoliciesById: Record<string, any> = {
 export const PoliciesBySlug: Record<string, any> = {
   'gold-price-today': goldPriceTodayPolicy,
   'ancestor-search': ancestorSearchPolicy,
+  'pension-savings-irp': pensionSavingsIrpPolicy,
   'national-pension-reduction': nationalPensionReductionPolicy,
   'after-school-childcare-fee': afterSchoolChildcareFeePolicy,
   'artist-pension': artistPensionPolicy,
@@ -2263,6 +2266,7 @@ export const PoliciesBySlug: Record<string, any> = {
 export const SpokesById: Record<string, any[]> = {
   '743': goldPriceTodaySpokes,
   '744': ancestorSearchSpokes,
+  '745': pensionSavingsIrpSpokes,
   '708': jaebeolXhyeongsa2RerunSpokes,
   '709': militarySavingsComboSpokes,
   '710': jointOwnershipCoupleSpokes,
@@ -2953,6 +2957,7 @@ export const SpokesById: Record<string, any[]> = {
 export const SpokesBySlug: Record<string, any[]> = {
   'gold-price-today': goldPriceTodaySpokes,
   'ancestor-search': ancestorSearchSpokes,
+  'pension-savings-irp': pensionSavingsIrpSpokes,
   'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunSpokes,
   'military-savings-combo': militarySavingsComboSpokes,
   'joint-ownership-couple': jointOwnershipCoupleSpokes,
