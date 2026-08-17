@@ -17,6 +17,11 @@ function koSlugFromTitle(title?: string): string | null {
   const ko = String(title)
     .replace(/^20\d{2}\s*/, '')
     .replace(/\s+/g, '')
+    /* Windows 가 파일명에 못 쓰는 문자 제거 (2026-08-17)
+       타이틀의 "|" 가 별칭 URL 에 들어가 export 가 파일을 쓰다 죽었다.
+       Linux(Cloudflare)는 허용이라 배포는 멀쩡했고 로컬 빌드만 조용히 실패.
+       쉼표 등 기존 별칭에 이미 쓰인 문자는 URL 보존을 위해 건드리지 않는다. */
+    .replace(/[|?*:"<>\\/]/g, '')
     .trim();
   if (!ko) return null;
   if (!/[가-힣]/.test(ko)) return null;
