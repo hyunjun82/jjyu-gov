@@ -5,6 +5,9 @@ import { ancestorSearchPolicy, ancestorSearchSpokes } from './ancestor-search';
 import { pensionSavingsIrpPolicy, pensionSavingsIrpSpokes } from './pension-savings-irp';
 import { youthFutureBogeumjariPolicy, youthFutureBogeumjariSpokes } from './youth-future-bogeumjari';
 import { seoulMirinaeHousePolicy, seoulMirinaeHouseSpokes } from './seoul-mirinae-house';
+import { lhShRentalComparePolicy, lhShRentalCompareSpokes } from './lh-sh-rental-compare';
+import { jeonseGuaranteeComparePolicy, jeonseGuaranteeCompareSpokes } from './jeonse-guarantee-compare';
+import { rateCutRequestPolicy, rateCutRequestSpokes } from './rate-cut-request';
 import { minjooConventionPolicy, minjooConventionSpokes } from './minjoo-convention';
 import { youthDriverLicenseSubsidyPolicy, youthDriverLicenseSubsidySpokes } from './youth-driver-license-subsidy';
 import { moduCardRefundStandardPolicy, moduCardRefundStandardSpokes } from './modu-card-refund-standard';
@@ -794,6 +797,9 @@ export const PoliciesById: Record<string, any> = {
   '745': pensionSavingsIrpPolicy,
   '746': youthFutureBogeumjariPolicy,
   '747': seoulMirinaeHousePolicy,
+  '749': lhShRentalComparePolicy,
+  '750': jeonseGuaranteeComparePolicy,
+  '751': rateCutRequestPolicy,
   '748': minjooConventionPolicy,
   '158': nationalPensionReductionPolicy,
   '80': afterSchoolChildcareFeePolicy,
@@ -1488,6 +1494,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'pension-savings-irp': pensionSavingsIrpPolicy,
   'youth-future-bogeumjari': youthFutureBogeumjariPolicy,
   'seoul-mirinae-house': seoulMirinaeHousePolicy,
+  'lh-sh-rental-compare': lhShRentalComparePolicy,
+  'jeonse-guarantee-compare': jeonseGuaranteeComparePolicy,
+  'rate-cut-request': rateCutRequestPolicy,
   'minjoo-convention': minjooConventionPolicy,
   'national-pension-reduction': nationalPensionReductionPolicy,
   'after-school-childcare-fee': afterSchoolChildcareFeePolicy,
@@ -2278,6 +2287,9 @@ export const SpokesById: Record<string, any[]> = {
   '745': pensionSavingsIrpSpokes,
   '746': youthFutureBogeumjariSpokes,
   '747': seoulMirinaeHouseSpokes,
+  '749': lhShRentalCompareSpokes,
+  '750': jeonseGuaranteeCompareSpokes,
+  '751': rateCutRequestSpokes,
   '748': minjooConventionSpokes,
   '708': jaebeolXhyeongsa2RerunSpokes,
   '709': militarySavingsComboSpokes,
@@ -2972,6 +2984,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'pension-savings-irp': pensionSavingsIrpSpokes,
   'youth-future-bogeumjari': youthFutureBogeumjariSpokes,
   'seoul-mirinae-house': seoulMirinaeHouseSpokes,
+  'lh-sh-rental-compare': lhShRentalCompareSpokes,
+  'jeonse-guarantee-compare': jeonseGuaranteeCompareSpokes,
+  'rate-cut-request': rateCutRequestSpokes,
   'minjoo-convention': minjooConventionSpokes,
   'jaebeol-xhyeongsa2-rerun': jaebeolXhyeongsa2RerunSpokes,
   'military-savings-combo': militarySavingsComboSpokes,
