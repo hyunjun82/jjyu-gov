@@ -40,6 +40,8 @@ export interface SpokeQAItem {
   /* 버튼 앞 한 줄(누를 이유). 스포크 버튼의 목적지·문구는 허브로 고정되므로
      label·url은 쓰지 않는다(허브 PolicyData와 필드명을 맞추기 위해 옵셔널로만 둔다). */
   act?: { cue?: string; label?: string; url?: string };
+  /* 카드 하단 출처 한 줄. 허브 PolicyData 와 같은 필드다. */
+  sourceNote?: string;
 }
 
 export interface SpokeData {
@@ -340,6 +342,15 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                       {hubCtaByIndex[i]} →
                     </Link>
                   </div>
+                )}
+
+                {/* 출처 노트 — 허브(PolicyDetailClient 532행)와 같은 자리·같은 모양.
+                    2026-08-19: 스포크 119개가 sourceNote 를 쓰고 있었는데 렌더러에만
+                    빠져 있어 화면에 한 번도 나오지 않았다. 타입에도 없어 push 가 막혔다. */}
+                {item.sourceNote && (
+                  <p style={{ fontSize: 11, color: 'var(--text-muted)', marginTop: 12 }}>
+                    {item.sourceNote}
+                  </p>
                 )}
               </QACard>
               </Fragment>
