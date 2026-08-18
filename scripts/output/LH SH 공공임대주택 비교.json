@@ -1,0 +1,71 @@
+{
+  "seed": "LH SH 공공임대주택 비교",
+  "synonyms": [],
+  "collectedAt": "2026-08-18T04:24:19.607Z",
+  "naver": {
+    "autocomplete": [],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [],
+    "paa": [],
+    "related": [
+      "LH청약LH 임대주택LH 청년전세임대주택LH SH 전세대출LH 청년 매입임대주택LH, SH GH 차이LH청약플러스LH 행복주택"
+    ]
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "lh 주거급여사업소",
+      "lh 하자보수센터",
+      "서울 lh 전세 임대 아파트",
+      "lh 마이홈센터",
+      "lh 남양주사업본부"
+    ]
+  },
+  "merged": {
+    "all": [
+      "LH청약LH 임대주택LH 청년전세임대주택LH SH 전세대출LH 청년 매입임대주택LH, SH GH 차이LH청약플러스LH 행복주택",
+      "lh 주거급여사업소",
+      "lh 하자보수센터",
+      "서울 lh 전세 임대 아파트",
+      "lh 마이홈센터",
+      "lh 남양주사업본부"
+    ],
+    "byIntent": {
+      "info": [
+        "lh 주거급여사업소",
+        "lh 하자보수센터",
+        "서울 lh 전세 임대 아파트",
+        "lh 마이홈센터",
+        "lh 남양주사업본부"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [
+        "LH청약LH 임대주택LH 청년전세임대주택LH SH 전세대출LH 청년 매입임대주택LH, SH GH 차이LH청약플러스LH 행복주택"
+      ],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "lh 주거급여사업소",
+        "lh 하자보수센터",
+        "서울 lh 전세 임대 아파트",
+        "lh 마이홈센터",
+        "lh 남양주사업본부"
+      ],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": [
+        "LH청약LH 임대주택LH 청년전세임대주택LH SH 전세대출LH 청년 매입임대주택LH, SH GH 차이LH청약플러스LH 행복주택"
+      ]
+    }
+  }
+}

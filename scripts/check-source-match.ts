@@ -84,6 +84,26 @@ function sourcePool(slug: string, articleSrc: string): { pool: string; parts: st
   return { pool, parts };
 }
 
+/** 스포크 본문 파일 — 머리 주석의 `추출본: scripts/output/source-*.txt` 가 원문 풀을 가리킨다.
+ *  허브는 slug 로 찾고, 스포크는 파일이 스스로 가리킨다. 가리키는 곳이 없으면 숫자를 쓸 수 없다. */
+function checkSpoke(file: string): number {
+  const name = file.replace(/\\/g, '/').split('/').slice(-2).join('/');
+  const src = fs.readFileSync(file, 'utf8');
+  const m = src.match(/추출본:\s*(scripts\/output\/source-[\w.-]+\.txt)/);
+  const nums = claimStrings(src).flatMap((s) => s.match(TOKEN) ?? []);
+  if (!m) {
+    if (!nums.length) { console.log(`   ${name} — 숫자 없음, 생략`); return 0; }
+    console.log(`\n❌ ${name} — 숫자를 ${nums.length}개 쓰면서 추출본을 가리키지 않는다`);
+    console.log('      → 파일 머리에 `/* 추출본: scripts/output/source-{slug}.txt` 를 적고 그 파일을 만든다');
+    return 1;
+  }
+  if (!fs.existsSync(m[1])) {
+    console.log(`\n❌ ${name} — 가리킨 추출본이 없다: ${m[1]}`);
+    return 1;
+  }
+  return compare(name, src, fs.readFileSync(m[1], 'utf8'), [m[1].split('/').pop()!], null);
+}
+
 function check(slug: string): number {
   const file = path.join(DIR, `${slug}.ts`);
   if (!fs.existsSync(file)) { console.log(`  ? ${slug} — 파일 없음`); return 0; }
@@ -93,6 +113,10 @@ function check(slug: string): number {
     console.log(`\n❌ ${slug} — 대조할 원문이 하나도 없다 (source-${slug}.txt 도 팩트시트도 없음)`);
     return 1;
   }
+  return compare(slug, src, pool, parts, slug);
+}
+
+function compare(label: string, src: string, pool: string, parts: string[], slug: string | null): number {
   const npool = norm(pool);
   const npoolCanon = canonMoney(npool);
 
@@ -110,8 +134,8 @@ function check(slug: string): number {
 
   // ② 추출본 → 글 : 팩트시트의 "단서"·"오해" 제목이 붙은 섹션 숫자가 글에 있는가
   const gaps: string[] = [];
-  const fact = path.join(OUT, `factsheet-${slug}.md`);
-  if (fs.existsSync(fact)) {
+  const fact = slug ? path.join(OUT, `factsheet-${slug}.md`) : '';
+  if (fact && fs.existsSync(fact)) {
     const f = fs.readFileSync(fact, 'utf8');
     const sec = f.split(/^## /m).filter((b) => /(단서|오해)/.test(b.split('\n')[0] ?? ''));
     const nbody = norm(src);
@@ -138,10 +162,10 @@ function check(slug: string): number {
   const noteShort = qaCount >= 2 && noteCount < Math.ceil(qaCount / 2);
 
   if (!misses.length && !gaps.length && !banned.length && !noteShort) {
-    console.log(`✅ ${slug} — 숫자 ${seen.size}개 원문 일치 · 출처 ${noteCount}/${qaCount} (풀: ${parts.join(' + ')})`);
+    console.log(`✅ ${label} — 숫자 ${seen.size}개 원문 일치 · 출처 ${noteCount}/${qaCount} (풀: ${parts.join(' + ')})`);
     return 0;
   }
-  console.log(`\n❌ ${slug}`);
+  console.log(`\n❌ ${label}`);
   if (banned.length) {
     console.log(`   [근거 없는 말] ${banned.join(', ')}`);
     console.log('      → 원문에 비율이 있으면 그 수치를, 없으면 조건문으로 ("~인 경우입니다")');
@@ -174,10 +198,26 @@ if (!targets.length) {
     .filter((s) => s && s !== 'manifest' && fs.existsSync(path.join(DIR, `${s}.ts`)));
 }
 
+/* 스포크 본문도 대조한다 (2026-08-19).
+   허브(data/policies)만 보던 탓에 스포크 20편이 대조 없이 통과했다. 7편에 추출본에
+   없는 숫자가 있었다. 스포크는 머리 주석의 `추출본:` 이 원문 풀을 가리킨다. */
+const SPOKE_DIR = 'app/policy/[id]/[spoke]/content';
+let spokeFiles: string[] = [];
+if (!args.length) {
+  let d = '';
+  try { d = execSync(`git diff --name-only origin/main...HEAD -- "${SPOKE_DIR}"`, { encoding: 'utf8' }); }
+  catch { try { d = execSync(`git diff --name-only HEAD~1 -- "${SPOKE_DIR}"`, { encoding: 'utf8' }); } catch {} }
+  let u = '';
+  try { u = execSync(`git ls-files --others --exclude-standard -- "${SPOKE_DIR}"`, { encoding: 'utf8' }); } catch {}
+  spokeFiles = [...new Set((d + '\n' + u).split('\n').map((l) => l.trim()))]
+    .filter((f) => f.endsWith('.tsx') && fs.existsSync(f));
+}
+
 console.log('='.repeat(60));
 console.log(' 원문 대조 — 글의 숫자는 추출본에, 추출본의 단서는 글에');
 console.log('='.repeat(60));
-if (!targets.length) { console.log(' 변경된 글 없음 — 생략'); process.exit(0); }
-const bad = targets.map(check).reduce((a, b) => a + b, 0);
+if (!targets.length && !spokeFiles.length) { console.log(' 변경된 글 없음 — 생략'); process.exit(0); }
+const bad = targets.map(check).reduce((a, b) => a + b, 0)
+  + spokeFiles.map(checkSpoke).reduce((a, b) => a + b, 0);
 console.log(bad ? `\n ${bad}개 글에서 어긋남 — 위 항목을 원문과 다시 맞춘다` : '\n 전부 일치');
 process.exit(bad ? 1 : 0);

@@ -1,0 +1,64 @@
+{
+  "seed": "LH SH 공공임대주택 5종 자격 임대료 거주기간 비교",
+  "synonyms": [],
+  "collectedAt": "2026-08-18T04:42:45.981Z",
+  "naver": {
+    "autocomplete": [],
+    "related": []
+  },
+  "google": {
+    "autocomplete": [],
+    "paa": [],
+    "related": []
+  },
+  "bing": {
+    "autocomplete": []
+  },
+  "daum": {
+    "autocomplete": [
+      "lh 기존주택 매입",
+      "lh 공공 전세주택",
+      "lh 바로처리센터",
+      "lh 하자보수센터",
+      "lh 마이홈센터"
+    ]
+  },
+  "merged": {
+    "all": [
+      "lh 기존주택 매입",
+      "lh 공공 전세주택",
+      "lh 바로처리센터",
+      "lh 하자보수센터",
+      "lh 마이홈센터"
+    ],
+    "byIntent": {
+      "info": [
+        "lh 기존주택 매입",
+        "lh 공공 전세주택",
+        "lh 바로처리센터",
+        "lh 하자보수센터",
+        "lh 마이홈센터"
+      ],
+      "condition": [],
+      "action": [],
+      "compare": [],
+      "calculate": [],
+      "confirm": [],
+      "question": []
+    },
+    "byTheme": {
+      "A_condition": [
+        "lh 기존주택 매입",
+        "lh 공공 전세주택",
+        "lh 바로처리센터",
+        "lh 하자보수센터",
+        "lh 마이홈센터"
+      ],
+      "B_amount": [],
+      "C_apply": [],
+      "D_caution": [],
+      "E_target": [],
+      "F_compare": []
+    }
+  }
+}

@@ -243,6 +243,26 @@ import { 실손보험당뇨실비청구SpokeContent } from '@/app/policy/[id]/[s
 import { 실손보험우울증공황장애실비SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/우울증공황장애실비';
 import { 실손보험치과실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/치과실비청구';
 import { 실손보험여드름실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/여드름실비청구';
+import { 실손보험도수치료거절횟수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/도수치료거절횟수';
+import { 실손보험체외충격파한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/체외충격파한도';
+import { 실손보험프롤로주사한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/프롤로주사한도';
+import { 실손보험MRI공제한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/MRI공제한도';
+import { 실손보험마운자로실비조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/마운자로실비조건';
+import { 실손보험산재실비중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/산재실비중복';
+import { 실손보험본인부담상한제환수SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/본인부담상한제환수';
+import { 실손보험위고비질병코드SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/위고비질병코드';
+import { 실손보험비타민주사면책SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비타민주사면책';
+import { 실손보험자동차보험실비중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/자동차보험실비중복';
+import { 실손보험응급실실비면책SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/응급실실비면책';
+import { 실손보험자의입원면책SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/자의입원면책';
+import { 실손보험치과한방면책SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/치과한방면책';
+import { 실손보험미용목적면책SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/미용목적면책';
+import { 실손보험입원횟수판단SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/입원횟수판단';
+import { 실손보험보험금지급기일SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보험금지급기일';
+import { 실손보험비중증제외항목SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비중증제외항목';
+import { 실손보험고지의무위반해지SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/고지의무위반해지';
+import { 실손보험재가입거절불가SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/재가입거절불가';
+import { 실손보험산정특례대상질환SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/산정특례대상질환';
 import { 실손보험수족구실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/수족구실비청구';
 import { 실손보험무지외반증실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/무지외반증실비청구';
 import { 실손보험식중독실비청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/식중독실비청구';
@@ -1557,6 +1577,26 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'mental-health-claim': 실손보험우울증공황장애실비SpokeContent,
     'dental-claim': 실손보험치과실비청구SpokeContent,
     'acne-claim': 실손보험여드름실비청구SpokeContent,
+    'manual-therapy-denied': 실손보험도수치료거절횟수SpokeContent,
+    'eswt-limit': 실손보험체외충격파한도SpokeContent,
+    'prolotherapy-limit': 실손보험프롤로주사한도SpokeContent,
+    'mri-deductible-limit': 실손보험MRI공제한도SpokeContent,
+    'mounjaro-condition': 실손보험마운자로실비조건SpokeContent,
+    'industrial-accident-duplicate': 실손보험산재실비중복SpokeContent,
+    'copay-ceiling-refund': 실손보험본인부담상한제환수SpokeContent,
+    'wegovy-disease-code': 실손보험위고비질병코드SpokeContent,
+    'vitamin-injection-exclusion': 실손보험비타민주사면책SpokeContent,
+    'auto-insurance-offset': 실손보험자동차보험실비중복SpokeContent,
+    'emergency-room-fee': 실손보험응급실실비면책SpokeContent,
+    'self-admission-denied': 실손보험자의입원면책SpokeContent,
+    'dental-oriental-exclusion': 실손보험치과한방면책SpokeContent,
+    'cosmetic-purpose-exclusion': 실손보험미용목적면책SpokeContent,
+    'admission-count-rule': 실손보험입원횟수판단SpokeContent,
+    'claim-payment-deadline': 실손보험보험금지급기일SpokeContent,
+    'nonsevere-excluded-items': 실손보험비중증제외항목SpokeContent,
+    'disclosure-duty-breach': 실손보험고지의무위반해지SpokeContent,
+    'reenrollment-no-rejection': 실손보험재가입거절불가SpokeContent,
+    'severe-disease-scope': 실손보험산정특례대상질환SpokeContent,
     'hfmd-child-claim': 실손보험수족구실비청구SpokeContent,
     'bunion-claim': 실손보험무지외반증실비청구SpokeContent,
     'food-poisoning-claim': 실손보험식중독실비청구SpokeContent,
