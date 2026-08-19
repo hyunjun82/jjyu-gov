@@ -1396,6 +1396,10 @@ import { 실손보험대상포진예방접종SpokeContent } from '@/app/policy/[
 import { 실손보험요로결석쇄석술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/요로결석쇄석술';
 import { 실손보험보험료인상기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보험료인상기준';
 import { 실손보험청구기간3년SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/청구기간3년';
+import { 실손보험연간한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/연간한도';
+import { 실손보험상급병실료차액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/상급병실료차액';
+import { 실손보험통원한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/통원한도';
+import { 실손보험3대비급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/3대비급여';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1568,6 +1572,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'three-nonbenefit': 실손보험3대비급여SpokeContent,
+    'outpatient-limit': 실손보험통원한도SpokeContent,
+    'upper-room-charge': 실손보험상급병실료차액SpokeContent,
+    'annual-limit': 실손보험연간한도SpokeContent,
     'claim-period-3y': 실손보험청구기간3년SpokeContent,
     'premium-increase': 실손보험보험료인상기준SpokeContent,
     'ureteral-stone': 실손보험요로결석쇄석술SpokeContent,

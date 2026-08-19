@@ -100,6 +100,10 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'three-nonbenefit', role: 'eligibility', title: '실손보험 3대 비급여 항목은 무엇인가요? 주사 치료 청구가 갈리는 기준' },
+  { slug: 'outpatient-limit', role: 'eligibility', title: '1일 통원 치료비 한도는 얼마인가요? 입원과 통원 청구가 갈리는 기준' },
+  { slug: 'upper-room-charge', role: 'eligibility', title: '입원할 때 2인실 써도 실손보험 되나요? 상급 병실 차액 계산 기준' },
+  { slug: 'annual-limit', role: 'eligibility', title: '실비보험 1일 한도는 얼마인가요? 연간 5천만원까지 받는 기준' },
   { slug: 'claim-period-3y', role: 'eligibility', title: '실비보험 청구기간이 3년 넘었는데 접수될까요? 지급 심사 기간까지' },
   { slug: 'premium-increase', role: 'eligibility', title: '보험금을 많이 청구하면 보험료가 인상되나요? 실비 할증 5단계 기준' },
   { slug: 'ureteral-stone', role: 'eligibility', title: '요로결석 충격파치료도 보험 적용 되나요? 응급실 청구 서류와 한도 기준' },

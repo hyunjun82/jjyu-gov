@@ -1,0 +1,6 @@
+{"slug":"outpatient-limit","policyDir":"실손보험","fileName":"통원한도","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"1일 통원 치료비 한도는 얼마인가요? 입원과 통원 청구가 갈리는 기준",
+"breadcrumb":"통원 한도","description":"통원은 1회당으로 계산해 공제금액을 뺍니다. 입원으로 인정받으려면 계속하여 6시간 이상 체류해야 하고, 같은 날 여러 곳을 다니면 가장 높은 공제가 적용됩니다.",
+"sourceFile":"scripts/output/source-outpatient-limit.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["1일 통원 치료비 한도는 얼마인가요?","입원과 통원은 무엇으로 갈리나요?","같은 날 두 병원을 가면 어떻게 되나요?","보험이 끝났는데 치료 중이면요?","청구할 때 무엇을 챙겨야 하나요?"],
+"faq":["통원 공제금액이 얼마인가요?","상급종합병원은 얼마인가요?","입원 인정 기준이 몇 시간인가요?","같은 날 중복 방문은 어떻게 되나요?","계약 종료 후에도 보상되나요?"]}

@@ -1,0 +1,6 @@
+{"slug":"upper-room-charge","policyDir":"실손보험","fileName":"상급병실료차액","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"입원할 때 2인실 써도 실손보험 되나요? 상급 병실 차액 계산 기준",
+"breadcrumb":"상급병실료 차액","description":"약관은 상급병실료 차액을 비급여 병실료의 50%로 보상하되 1일 평균금액 10만원을 한도로 합니다. 1일 평균금액은 비급여 병실료 전체를 총 입원일수로 나눠 산출합니다.",
+"sourceFile":"scripts/output/source-upper-room-charge.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["입원할 때 2인실 써도 실손보험 되나요?","상급 병실 차액은 어떻게 계산하나요?","1일 평균금액이 무슨 뜻인가요?","기준병실 사용료와는 다른 건가요?","청구할 때 무엇을 챙겨야 하나요?"],
+"faq":["상급병실료 차액이 무엇인가요?","2인실도 상급병상인가요?","1일 10만원이 무슨 한도인가요?","입원실료에는 뭐가 들어가나요?","1인실은 얼마나 나오나요?"]}
