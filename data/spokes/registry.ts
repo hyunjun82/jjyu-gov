@@ -1409,6 +1409,9 @@ import { 실손보험족저근막염SpokeContent } from '@/app/policy/[id]/[spok
 import { 실손보험허리디스크SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/허리디스크';
 import { 실손보험신경성형술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/신경성형술';
 import { 실손보험중환자실SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/중환자실';
+import { 실손보험미레나SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/미레나';
+import { 실손보험전립선비대증SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/전립선비대증';
+import { 실손보험갑상선SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/갑상선';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1581,6 +1584,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'thyroid': 실손보험갑상선SpokeContent,
+    'prostate': 실손보험전립선비대증SpokeContent,
+    'mirena': 실손보험미레나SpokeContent,
     'icu-claim': 실손보험중환자실SpokeContent,
     'nerve-plasty': 실손보험신경성형술SpokeContent,
     'lumbar-disc': 실손보험허리디스크SpokeContent,

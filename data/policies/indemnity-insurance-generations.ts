@@ -100,6 +100,9 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'thyroid', role: 'eligibility', title: '갑상선 실비 청구 방법은? 서류 빠뜨리면 되는 것도 안 된다' },
+  { slug: 'prostate', role: 'eligibility', title: '전립선비대증 실비 적용 조건은? 수술 전 확인 안 하면 못 받는다' },
+  { slug: 'mirena', role: 'eligibility', title: '미레나 실비 청구 가능할까? 질병코드 따라 갈리는 서류' },
   { slug: 'icu-claim', role: 'eligibility', title: '중환자실 실비 적용 되나? 상급병실료와 갈리는 계산' },
   { slug: 'nerve-plasty', role: 'eligibility', title: '신경성형술 실비 거절 이유는? 입원 처리와 청구 서류 기준' },
   { slug: 'lumbar-disc', role: 'eligibility', title: '허리디스크 실비 청구 조건은? 서류 빠뜨리면 반려된다' },
