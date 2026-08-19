@@ -100,6 +100,9 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'retroactive-claim', role: 'eligibility', title: '실비 소급 청구 가능할까? 지난 진료비 놓치면 못 받는 기간' },
+  { slug: 'claim-rejected-docs', role: 'eligibility', title: '실비 서류 반려 후 재청구 가능할까? 심사 기간과 절차' },
+  { slug: 'claim-denied', role: 'eligibility', title: '실비 청구 거절 사유는? 삭감, 부지급 통보 받았을 때 다투는 절차' },
   { slug: 'thyroid', role: 'eligibility', title: '갑상선 실비 청구 방법은? 서류 빠뜨리면 되는 것도 안 된다' },
   { slug: 'prostate', role: 'eligibility', title: '전립선비대증 실비 적용 조건은? 수술 전 확인 안 하면 못 받는다' },
   { slug: 'mirena', role: 'eligibility', title: '미레나 실비 청구 가능할까? 질병코드 따라 갈리는 서류' },

@@ -1,0 +1,6 @@
+{"slug":"retroactive-claim","policyDir":"실손보험","fileName":"소급청구","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비 소급 청구 가능할까? 지난 진료비 놓치면 못 받는 기간",
+"breadcrumb":"소급 청구","description":"약관 제41조는 보험금 청구권을 3년간 행사하지 않으면 소멸시효가 완성된다고 정합니다. 기산점은 약관이 정하지 않아 확인이 필요합니다.",
+"sourceFile":"scripts/output/source-retroactive-claim.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["지난 진료비를 지금 청구할 수 있나요?","몇 년까지 거슬러 갈 수 있나요?","3년은 언제부터 세나요?","한꺼번에 여러 건 청구해도 되나요?","계약이 끝난 뒤 치료는 어떻게 되나요?"],
+"faq":["소멸시효가 몇 년인가요?","기산점을 약관이 정하나요?","여러 건을 모아 내도 되나요?","계약 종료 후 입원은 어떻게 되나요?","지급사유를 언제 알려야 하나요?"]}

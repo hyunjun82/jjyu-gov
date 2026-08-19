@@ -1,0 +1,6 @@
+{"slug":"claim-rejected-docs","policyDir":"실손보험","fileName":"서류반려재청구","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비 서류 반려 후 재청구 가능할까? 심사 기간과 절차",
+"breadcrumb":"서류 반려·재청구","description":"약관은 청구 서류를 열거하고, 접수한 날부터 3영업일 이내 지급을 원칙으로 합니다. 조사가 필요하면 지급예정일을 통지하고 30영업일 이내에서 정합니다.",
+"sourceFile":"scripts/output/source-claim-rejected-docs.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["서류가 반려되면 다시 청구할 수 있나요?","무엇이 모자라 반려되나요?","심사는 얼마나 걸리나요?","조사가 길어지면 어떻게 되나요?","다시 낼 때 무엇을 확인하나요?"],
+"faq":["약관이 정한 청구 서류가 뭔가요?","지급기일은 며칠인가요?","조사 기간 한도가 있나요?","조사 중에 일부라도 받나요?","접수증을 받나요?"]}

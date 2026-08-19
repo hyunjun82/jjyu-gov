@@ -1412,6 +1412,9 @@ import { 실손보험중환자실SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실손보험미레나SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/미레나';
 import { 실손보험전립선비대증SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/전립선비대증';
 import { 실손보험갑상선SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/갑상선';
+import { 실손보험청구거절삭감SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/청구거절삭감';
+import { 실손보험서류반려재청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/서류반려재청구';
+import { 실손보험소급청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/소급청구';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1584,6 +1587,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'retroactive-claim': 실손보험소급청구SpokeContent,
+    'claim-rejected-docs': 실손보험서류반려재청구SpokeContent,
+    'claim-denied': 실손보험청구거절삭감SpokeContent,
     'thyroid': 실손보험갑상선SpokeContent,
     'prostate': 실손보험전립선비대증SpokeContent,
     'mirena': 실손보험미레나SpokeContent,

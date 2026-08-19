@@ -1,0 +1,6 @@
+{"slug":"claim-denied","policyDir":"실손보험","fileName":"청구거절삭감","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비 청구 거절 사유는? 삭감, 부지급 통보 받았을 때 다투는 절차",
+"breadcrumb":"청구 거절·삭감","description":"약관은 해지 통지에 반대증거가 있는 경우 이의를 제기할 수 있다는 문구를 함께 적도록 하고, 분쟁이 있으면 금융감독원장에게 조정을 신청할 수 있게 합니다.",
+"sourceFile":"scripts/output/source-claim-denied.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["실비 청구가 거절되는 사유는 뭔가요?","삭감과 부지급은 어떻게 다른가요?","통보를 받으면 무엇부터 하나요?","이의를 제기할 수 있나요?","분쟁조정은 어떻게 신청하나요?"],
+"faq":["거절 통보에 무엇이 적혀야 하나요?","이의제기 문구가 약관에 있나요?","분쟁조정은 어디에 신청하나요?","자료 열람을 요구할 수 있나요?","조정 중에 소송이 걸리나요?"]}
