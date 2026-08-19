@@ -1390,6 +1390,10 @@ import { 실손보험사마귀냉동치료SpokeContent } from '@/app/policy/[id]
 import { 실손보험여유증지방흡입SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/여유증지방흡입';
 import { 실손보험안검하수목적SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/안검하수목적';
 import { 실손보험하지정맥류시술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/하지정맥류시술';
+import { 실손보험치과임플란트SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/치과임플란트';
+import { 실손보험위내시경건강검진SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/위내시경건강검진';
+import { 실손보험대상포진예방접종SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/대상포진예방접종';
+import { 실손보험요로결석쇄석술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/요로결석쇄석술';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1562,6 +1566,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'ureteral-stone': 실손보험요로결석쇄석술SpokeContent,
+    'shingles-vaccine': 실손보험대상포진예방접종SpokeContent,
+    'gastroscopy-checkup': 실손보험위내시경건강검진SpokeContent,
+    'dental-implant': 실손보험치과임플란트SpokeContent,
     'varicose-vein': 실손보험하지정맥류시술SpokeContent,
     'blepharoptosis-purpose': 실손보험안검하수목적SpokeContent,
     'gynecomastia-liposuction': 실손보험여유증지방흡입SpokeContent,

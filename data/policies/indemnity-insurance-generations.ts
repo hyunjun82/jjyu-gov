@@ -100,6 +100,10 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'ureteral-stone', role: 'eligibility', title: '요로결석 충격파치료도 보험 적용 되나요? 응급실 청구 서류와 한도 기준' },
+  { slug: 'shingles-vaccine', role: 'eligibility', title: '대상포진 치료비는 보험으로 청구할 수 있나요? 예방접종은 왜 안 되나' },
+  { slug: 'gastroscopy-checkup', role: 'eligibility', title: '위궤양으로 수면 내시경 했는데 실비보험 청구 될까? 건강검진이면 못 받나' },
+  { slug: 'dental-implant', role: 'eligibility', title: '실비보험에서 임플란트 보상이 있나요? 뼈이식까지 못 받는 기준' },
   { slug: 'varicose-vein', role: 'eligibility', title: '하지정맥류 시술도 실비적용이 되나요? 청구 서류와 거절되는 기준까지' },
   { slug: 'blepharoptosis-purpose', role: 'eligibility', title: '안검하수 실비보험 될까? 쌍꺼풀 같이하면 못 받는 기준과 청구 서류' },
   { slug: 'gynecomastia-liposuction', role: 'eligibility', title: '여유증 수술 비용, 실비될까? 지방흡입 청구가 거절되는 기준' },
