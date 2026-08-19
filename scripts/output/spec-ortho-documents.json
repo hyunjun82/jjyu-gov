@@ -1,0 +1,6 @@
+{"slug":"ortho-documents","policyDir":"실손보험","fileName":"정형외과서류","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"정형외과 실비보험 서류 준비, 제출 전 빠뜨리면 반려되는 항목","breadcrumb":"정형외과 서류",
+"description":"정형외과는 이학요법치료와 주사가 함께 나오는 경우가 많아 항목별 구분이 중요합니다. 세부산정내역이 빠지면 어느 한도를 쓸지 정해지지 않습니다.",
+"sourceFile":"scripts/output/source-ortho-documents.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["정형외과 실비 서류는 무엇인가요?","왜 세부산정내역이 중요한가요?","도수치료를 받았으면 뭐가 더 필요한가요?","입원과 통원 서류가 다른가요?","제출 전 무엇을 확인하나요?"],
+"faq":["약관이 정한 서류가 뭔가요?","세부산정내역이 없으면 반려되나요?","처방전도 내야 하나요?","입원치료확인서는 언제 내나요?","국내 의료기관 발급이어야 하나요?"]}

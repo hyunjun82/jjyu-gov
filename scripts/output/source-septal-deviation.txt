@@ -130,3 +130,12 @@ https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867
 류를 접수한 때에는 접수증을 드리고 휴대전화 문자메시지 또는 전자우
 편 등으로도 송부하며,그 서류를 접수한 날부터 3영업일 이내에 보험금
 을 지급합니다.<개정 2021.7.1.>
+
+===== [Playwright 화면 확인 기록] =====
+2026-08-19 국가법령정보센터 문서뷰어를 실브라우저로 열어 화면으로 대조했다.
+  뷰어 URL: https://www.law.go.kr/LSW/viewer/skin/doc.html?key=167076957&contextPath=/viewer/BYL/ADMRUL/2200000108500/2200000108867/SKIN/167076957
+  총 491쪽 문서. 확대 후 페이지 이동·검색으로 조문 위치를 확인했다.
+  캡처: .playwright-mcp/shots/byl15-p316-cosmetic.png (316쪽)
+        .playwright-mcp/shots/byl15-p317-zoom.png (317쪽 — 외모개선 목적 4호 가~마목)
+        .playwright-mcp/shots/byl15-p319-280days.png (319쪽 — 뷰어 검색 "280일" 하이라이트)
+  확인 결과: 텍스트 레이어 추출본과 화면 조문 구조가 일치한다.

@@ -1,0 +1,6 @@
+{"slug":"generation-history","policyDir":"실손보험","fileName":"세대변천사","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실손보험 변천사로 보는 세대 비교, 내 상품 모르면 못 갈아탄다","breadcrumb":"세대 변천사",
+"description":"판매시기와 자기부담비율, 재가입주기가 세대마다 어떻게 달라져 왔는지 손보협회 공시표와 금감원 자료로 교차 확인했습니다.",
+"sourceFile":"scripts/output/source-generation-history.txt","sourceName":"손해보험협회 실손의료보험 상품 공시 · 금융감독원 2025년 실손의료보험 사업실적","sourceUrl":"https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthMinsInsIntro.do","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["세대는 어떻게 나뉘어 왔나요?","자기부담비율은 어떻게 변해 왔나요?","재가입 주기는 언제 생겼나요?","5세대는 뭐가 달라졌나요?","내 상품이 어디쯤인지 어떻게 아나요?"],
+"faq":["세대 구분 기준이 뭔가요?","1세대는 왜 재가입이 없나요?","3세대에 특약이 왜 생겼나요?","4세대와 5세대 차이는요?","전환하면 되돌릴 수 있나요?"]}

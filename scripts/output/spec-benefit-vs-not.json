@@ -1,0 +1,6 @@
+{"slug":"benefit-vs-not","policyDir":"실손보험","fileName":"급여비급여차이","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비보험 급여 비급여 차이는? 청구할 때 공제가 갈리는 지점","breadcrumb":"급여·비급여 차이",
+"description":"5세대는 급여를 기본형으로, 비급여를 특별약관으로 갈라 놓았습니다. 공제 산식도 달라 같은 진료비여도 남는 금액이 달라집니다.",
+"sourceFile":"scripts/output/source-benefit-vs-not.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["급여와 비급여가 어떻게 다른가요?","약관은 둘을 어떻게 나누나요?","공제가 어디서 갈리나요?","영수증에서 어떻게 구분하나요?","청구할 때 무엇을 확인하나요?"],
+"faq":["비급여가 정확히 뭔가요?","급여는 기본형인가요?","건강보험 본인부담률이 왜 나오나요?","비급여는 특약이 있어야 하나요?","영수증 어디를 보나요?"]}

@@ -1,0 +1,6 @@
+{"slug":"fetal-insurance","policyDir":"실손보험","fileName":"태아실비","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"태아 실비보험 가입 시기는 언제까지? 놓치면 못 넣는 구간","breadcrumb":"태아 실비",
+"description":"약관은 보험가입 당시 태아인 경우를 여러 조항에서 따로 다룹니다. 태아 때 가입했는지가 나중에 보장 범위를 가릅니다.",
+"sourceFile":"scripts/output/source-fetal-insurance.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["태아 실비는 언제 가입하나요?","태아 때 가입하면 뭐가 다른가요?","선천성 질환도 보장되나요?","태아보험과 실비보험은 다른가요?","가입 후 무엇을 확인하나요?"],
+"faq":["약관에 태아가 적혀 있나요?","선천성 뇌질환은 어떻게 되나요?","정신발달장애는요?","선천성 모반은 보상되나요?","재가입 주기가 적용되나요?"]}

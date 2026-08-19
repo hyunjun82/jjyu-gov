@@ -1,0 +1,6 @@
+{"slug":"company-documents","policyDir":"실손보험","fileName":"회사별신청서류","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비보험 신청 서류 회사마다 다를까? 공통 항목부터 확인","breadcrumb":"회사별 신청 서류",
+"description":"약관이 정한 목록은 회사와 무관하게 같습니다. 다만 제4호가 그 밖에 필요한 서류를 열어 두어 회사가 더 요청할 여지가 있습니다.",
+"sourceFile":"scripts/output/source-company-documents.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["회사마다 서류가 다른가요?","약관이 정한 공통 목록은 뭔가요?","왜 회사마다 다르게 느껴지나요?","추가 요청을 받으면 내야 하나요?","제출 전 무엇을 확인하나요?"],
+"faq":["약관 목록이 회사마다 다른가요?","청구서는 어디서 받나요?","제4호가 무슨 뜻인가요?","해외 서류도 되나요?","접수 후 며칠 걸리나요?"]}

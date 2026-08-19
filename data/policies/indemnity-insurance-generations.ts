@@ -100,6 +100,12 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'generation-history', role: 'eligibility', title: '실손보험 변천사로 보는 세대 비교, 내 상품 모르면 못 갈아탄다' },
+  { slug: 'coverage-change', role: 'eligibility', title: '실손보험 보장내용 바뀌는 시점과 주기는? 갱신 전에 확인할 것' },
+  { slug: 'company-documents', role: 'eligibility', title: '실비보험 신청 서류 회사마다 다를까? 공통 항목부터 확인' },
+  { slug: 'ortho-documents', role: 'eligibility', title: '정형외과 실비보험 서류 준비, 제출 전 빠뜨리면 반려되는 항목' },
+  { slug: 'fetal-insurance', role: 'eligibility', title: '태아 실비보험 가입 시기는 언제까지? 놓치면 못 넣는 구간' },
+  { slug: 'benefit-vs-not', role: 'eligibility', title: '실비보험 급여 비급여 차이는? 청구할 때 공제가 갈리는 지점' },
   { slug: 'nonbenefit-injection', role: 'eligibility', title: '비급여 주사 실비보험 청구 가능할까? 빠지는 주사 구분 조건' },
   { slug: 'mri-checkup-center', role: 'eligibility', title: '비급여 MRI 실비 청구 한도는? 검진센터 촬영이 어려운 이유' },
   { slug: 'mri-reading-fee', role: 'eligibility', title: 'MRI 판독비 실비 청구 가능할까? 무릎, 목디스크 서류 빠지면 삭감' },

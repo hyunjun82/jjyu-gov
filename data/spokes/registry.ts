@@ -1420,6 +1420,12 @@ import { 실손보험한의원첩약SpokeContent } from '@/app/policy/[id]/[spok
 import { 실손보험MRI판독비SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/MRI판독비';
 import { 실손보험검진센터MRISpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/검진센터MRI';
 import { 실손보험비급여주사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비급여주사';
+import { 실손보험급여비급여차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/급여비급여차이';
+import { 실손보험태아실비SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/태아실비';
+import { 실손보험정형외과서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/정형외과서류';
+import { 실손보험회사별신청서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/회사별신청서류';
+import { 실손보험보장내용변경시점SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보장내용변경시점';
+import { 실손보험세대변천사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/세대변천사';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1592,6 +1598,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'generation-history': 실손보험세대변천사SpokeContent,
+    'coverage-change': 실손보험보장내용변경시점SpokeContent,
+    'company-documents': 실손보험회사별신청서류SpokeContent,
+    'ortho-documents': 실손보험정형외과서류SpokeContent,
+    'fetal-insurance': 실손보험태아실비SpokeContent,
+    'benefit-vs-not': 실손보험급여비급여차이SpokeContent,
     'nonbenefit-injection': 실손보험비급여주사SpokeContent,
     'mri-checkup-center': 실손보험검진센터MRISpokeContent,
     'mri-reading-fee': 실손보험MRI판독비SpokeContent,
