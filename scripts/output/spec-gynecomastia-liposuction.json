@@ -1,0 +1,13 @@
+{
+ "slug":"gynecomastia-liposuction","policyDir":"실손보험","fileName":"여유증지방흡입",
+ "hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+ "h1":"여유증 수술 비용, 실비될까? 지방흡입 청구가 거절되는 기준",
+ "breadcrumb":"여유증 지방흡입",
+ "description":"약관은 지방흡입술과 유방 축소술을 미용목적 성형수술로 묶어 면책하되, 신체의 필수 기능 개선 목적이 아닌 경우라는 조건을 앞에 두었습니다. 그 조건이 갈림길입니다.",
+ "sourceFile":"scripts/output/source-gynecomastia-liposuction.txt",
+ "sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관",
+ "sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867",
+ "hubPath":"/policy/indemnity-insurance-generations",
+ "qa":["여유증 수술 비용, 실비될까요?","지방흡입술이라 안 되는 건가요?","필수 기능 개선 목적이 뭔가요?","세대별 보장 차이가 있나요?","거절되면 무엇을 다퉈야 하나요?"],
+ "faq":["여유증 수술이 약관 어디에 걸리나요?","유방 축소술도 면책인가요?","유방암 환자는 다른가요?","건강보험이 되면 실비도 되나요?","서류는 무엇이 필요한가요?"]
+}

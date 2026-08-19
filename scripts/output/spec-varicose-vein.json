@@ -1,0 +1,13 @@
+{
+ "slug":"varicose-vein","policyDir":"실손보험","fileName":"하지정맥류시술",
+ "hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+ "h1":"하지정맥류 시술도 실비적용이 되나요? 청구 서류와 거절되는 기준까지",
+ "breadcrumb":"하지정맥류 시술",
+ "description":"하지정맥류는 약관에 이름으로 적혀 있지 않습니다. 그래서 일상생활에 지장이 없는 경우인지, 필수 기능 개선 목적인지라는 두 조건으로 돌아가 판단하게 됩니다.",
+ "sourceFile":"scripts/output/source-varicose-vein.txt",
+ "sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관",
+ "sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867",
+ "hubPath":"/policy/indemnity-insurance-generations",
+ "qa":["하지정맥류 시술도 실비적용이 되나요?","약관에 하지정맥류가 적혀 있나요?","비급여면 무조건 안 되는 건가요?","서류는 무엇을 준비해야 하나요?","입원과 통원 중 어느 쪽으로 계산되나요?"],
+ "faq":["하지정맥류가 면책 목록에 있나요?","미용 목적으로 보이면 어떻게 되나요?","초음파 검사비도 청구되나요?","거절되면 무엇을 다퉈야 하나요?","입원으로 인정받으려면 몇 시간인가요?"]
+}

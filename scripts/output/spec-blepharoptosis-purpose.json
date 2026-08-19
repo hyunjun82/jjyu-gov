@@ -1,0 +1,13 @@
+{
+ "slug":"blepharoptosis-purpose","policyDir":"실손보험","fileName":"안검하수목적",
+ "hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+ "h1":"안검하수 실비보험 될까? 쌍꺼풀 같이하면 못 받는 기준과 청구 서류",
+ "breadcrumb":"안검하수 목적",
+ "description":"약관이 가르는 것은 진료과가 아니라 목적입니다. 시력개선 목적이 아닌 외모개선 목적의 시각계 수술을 면책하고, 쌍꺼풀수술은 이름으로 적혀 있습니다.",
+ "sourceFile":"scripts/output/source-blepharoptosis-purpose.txt",
+ "sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관",
+ "sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867",
+ "hubPath":"/policy/indemnity-insurance-generations",
+ "qa":["안검하수 실비보험 될까요?","안과에서 받으면 되고 성형외과는 안 되나요?","쌍꺼풀 수술을 같이하면 못 받나요?","시야가 가린다는 걸 어떻게 남기나요?","청구할 때 무엇을 챙겨야 하나요?"],
+ "faq":["약관이 진료과로 가르나요?","쌍꺼풀수술은 약관에 적혀 있나요?","시력개선 목적이면 되나요?","사시교정은 어떻게 되나요?","건강보험이 적용되면 실비도 되나요?"]
+}

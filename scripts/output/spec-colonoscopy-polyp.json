@@ -1,0 +1,29 @@
+{
+  "slug": "colonoscopy-polyp",
+  "policyDir": "실손보험",
+  "fileName": "대장내시경용종",
+  "hubSlug": "indemnity-insurance-generations",
+  "hubVar": "indemnityInsuranceGenerationsSpokes",
+  "role": "eligibility",
+  "h1": "용종을 떼면 보험 적용이 되나요? 대장내시경 실비 청구 기준 정리",
+  "breadcrumb": "대장내시경 용종",
+  "description": "본인 희망으로 받은 건강검진은 면책이지만, 검사결과 이상 소견에 따라 발생한 추가 의료비용은 보상합니다. 용종 절제가 그 단서에 걸리는 자리입니다. 표준약관 원문으로 정리했습니다.",
+  "sourceFile": "scripts/output/source-colonoscopy-polyp.txt",
+  "sourceName": "보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관",
+  "sourceUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867",
+  "hubPath": "/policy/indemnity-insurance-generations",
+  "qa": [
+    "용종을 떼면 보험 적용이 되나요?",
+    "검진만 받고 아무것도 안 나오면요?",
+    "검사비와 절제비를 어떻게 나누나요?",
+    "수면 내시경 비용도 들어가나요?",
+    "청구할 때 무슨 서류를 내야 하나요?"
+  ],
+  "faq": [
+    "국가 검진으로 받은 대장내시경도 청구되나요?",
+    "용종이 나왔는데 검사비까지 다 받나요?",
+    "조직검사만 하고 절제는 안 했으면요?",
+    "용종 절제는 입원인가요 통원인가요?",
+    "예방접종은 왜 보상이 안 되나요?"
+  ]
+}

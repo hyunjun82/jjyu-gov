@@ -1385,6 +1385,11 @@ import { remittanceNtsReportSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { nonResidentRemittanceSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/non-resident-remittance';
 import { remittanceLimitExceededSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/remittance-limit-exceeded';
 import { 실손보험백내장다초점SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/백내장다초점';
+import { 실손보험대장내시경용종SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/대장내시경용종';
+import { 실손보험사마귀냉동치료SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/사마귀냉동치료';
+import { 실손보험여유증지방흡입SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/여유증지방흡입';
+import { 실손보험안검하수목적SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/안검하수목적';
+import { 실손보험하지정맥류시술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/하지정맥류시술';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1557,6 +1562,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'varicose-vein': 실손보험하지정맥류시술SpokeContent,
+    'blepharoptosis-purpose': 실손보험안검하수목적SpokeContent,
+    'gynecomastia-liposuction': 실손보험여유증지방흡입SpokeContent,
+    'wart-cryotherapy': 실손보험사마귀냉동치료SpokeContent,
+    'colonoscopy-polyp': 실손보험대장내시경용종SpokeContent,
     'cataract-multifocal': 실손보험백내장다초점SpokeContent,
     'eligibility': 실손보험가입조건SpokeContent,
     'non-covered-benefits': 실손보험비급여보장SpokeContent,

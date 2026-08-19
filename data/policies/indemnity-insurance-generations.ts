@@ -100,6 +100,11 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'varicose-vein', role: 'eligibility', title: '하지정맥류 시술도 실비적용이 되나요? 청구 서류와 거절되는 기준까지' },
+  { slug: 'blepharoptosis-purpose', role: 'eligibility', title: '안검하수 실비보험 될까? 쌍꺼풀 같이하면 못 받는 기준과 청구 서류' },
+  { slug: 'gynecomastia-liposuction', role: 'eligibility', title: '여유증 수술 비용, 실비될까? 지방흡입 청구가 거절되는 기준' },
+  { slug: 'wart-cryotherapy', role: 'eligibility', title: '사마귀 냉동치료 실비보험 청구 기준, 얼굴·족저는 왜 갈리나?' },
+  { slug: 'colonoscopy-polyp', role: 'eligibility', title: '용종을 떼면 보험 적용이 되나요? 대장내시경 실비 청구 기준 정리' },
   { slug: 'cataract-multifocal', role: 'eligibility', title: '백내장 수술 받았는데 실손보험 청구 되나요? 다초점 렌즈와 6시간 입원 기준까지' },
   { slug: 'manual-therapy-denied', role: 'usage', title: '도수치료 실비 청구 거절 사유와 횟수 제한, 어디서 걸리나' },
   { slug: 'eswt-limit', role: 'usage', title: '체외충격파 실비 청구 한도와 횟수, 도수치료와 합쳐서 세나?' },
