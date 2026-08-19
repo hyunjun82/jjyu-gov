@@ -37,7 +37,7 @@
 
 1. Playwright로 공고 원문 확인
 2. 문구·버튼 초안만 파일로 작성
-3. `npx tsx scripts/check-cue-value.ts --draft <초안>` 통과
+3. 슬롯은 `npx tsx scripts/new-spoke.ts --spec <spec.json>` 이 qa 2·4·마지막에 잡아 준다
 4. 채팅에 문구 전부 나열 → 사용자 승인
 5. 그 다음에 본문
 6. 전체 게이트 → 커밋 → 빌드 → 푸시

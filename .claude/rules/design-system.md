@@ -74,7 +74,7 @@ import type { SpokeData } from '../../SpokeClient';
 export const XxxSpokeContent: SpokeData = {
   h1: '...',
   qa: [ /* { q, anchor, intro, highlights, table?, box? } — 개수는 타이틀이 정한다 */ ],
-  faqData: [...],  // 개수는 check-spoke-quality.sh 가 검사
+  faqData: [...],  // source·sourceUrl 필수 — check-type-shape.ts 가 검사
   sources: [...],  // 정부 1차 출처
 };
 ```
@@ -83,7 +83,7 @@ export const XxxSpokeContent: SpokeData = {
 function Content() { return (<> ... </>) }
 export const XxxSpokeContent: SpokeData = { Content, faqData: [...] };
 ```
-`function Content()` 작성 금지, `SpokeData`에 `Content` 프로퍼티 추가 금지, `qa: [...]` 없는 스포크 금지. 위반 시 `check-spoke-quality.sh`가 pre-push에서 차단.
+`function Content()` 작성 금지, `SpokeData`에 `Content` 프로퍼티 추가 금지, `qa: [...]` 없는 스포크 금지. 위반 시 `check-type-shape.ts` 가 pre-push에서 차단.
 
 ## 콘텐츠 오배치 방지 (2026-05 버그 재발 방지)
 

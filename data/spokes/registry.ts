@@ -1384,6 +1384,7 @@ import { designatedForexBankSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { remittanceNtsReportSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/remittance-nts-report';
 import { nonResidentRemittanceSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/non-resident-remittance';
 import { remittanceLimitExceededSpokeContent } from '@/app/policy/[id]/[spoke]/content/overseas-remittance-limit/remittance-limit-exceeded';
+import { 실손보험백내장다초점SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/백내장다초점';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1556,6 +1557,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'cataract-multifocal': 실손보험백내장다초점SpokeContent,
     'eligibility': 실손보험가입조건SpokeContent,
     'non-covered-benefits': 실손보험비급여보장SpokeContent,
     'renewal-reenrollment': 실손보험갱신재가입SpokeContent,

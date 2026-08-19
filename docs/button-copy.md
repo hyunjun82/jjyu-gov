@@ -89,7 +89,7 @@
 ## 검사
 
 ```
-npx tsx scripts/check-cue-value.ts --draft <초안>   # 본문 쓰기 전
+npx tsx scripts/new-spoke.ts --spec <spec.json>   # 본문 쓰기 전 — 슬롯·배선을 먼저 만든다
 ```
 차단 축: B 중복 · D 딥링크 · H 후킹 재료 · I 사용자 주어 · J 버튼 길이 · K 비문
 · L 동사 도배 · M 읽는 버튼뿐 · N 맺음 도배 · O 유도 문장 없음 · P 문구-버튼 불일치

@@ -1,0 +1,29 @@
+{
+  "slug": "cataract-multifocal",
+  "policyDir": "실손보험",
+  "fileName": "백내장다초점",
+  "hubSlug": "indemnity-insurance-generations",
+  "hubVar": "indemnityInsuranceGenerationsSpokes",
+  "role": "eligibility",
+  "h1": "백내장 수술 받았는데 실손보험 청구 되나요? 다초점 렌즈와 6시간 입원 기준까지",
+  "breadcrumb": "백내장 다초점",
+  "description": "백내장 수술은 되는데 다초점 렌즈 값은 시력교정술로 걸릴 수 있습니다. 입원으로 인정받으려면 계속하여 6시간 이상 체류해야 합니다. 표준약관 원문으로 정리했습니다.",
+  "sourceFile": "scripts/output/source-cataract-multifocal.txt",
+  "sourceName": "보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관",
+  "sourceUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867",
+  "hubPath": "/policy/indemnity-insurance-generations",
+  "qa": [
+    "백내장 수술 받았는데, 실손보험 청구 되나요?",
+    "다초점 렌즈 값은 왜 따로 걸리나요?",
+    "백내장 수술 후 6시간 입원한 경우 보험금을 받을 수 있나요?",
+    "통원으로 처리되면 얼마가 나오나요?",
+    "청구할 때 무엇을 챙겨야 하나요?"
+  ],
+  "faq": [
+    "백내장 수술 자체는 실비가 되나요?",
+    "다초점 렌즈는 왜 안 되나요?",
+    "몇 시간 있어야 입원인가요?",
+    "요양원에서 받으면 입원인가요?",
+    "안경이나 콘택트렌즈 값도 청구되나요?"
+  ]
+}

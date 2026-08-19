@@ -100,6 +100,7 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'cataract-multifocal', role: 'eligibility', title: '백내장 수술 받았는데 실손보험 청구 되나요? 다초점 렌즈와 6시간 입원 기준까지' },
   { slug: 'manual-therapy-denied', role: 'usage', title: '도수치료 실비 청구 거절 사유와 횟수 제한, 어디서 걸리나' },
   { slug: 'eswt-limit', role: 'usage', title: '체외충격파 실비 청구 한도와 횟수, 도수치료와 합쳐서 세나?' },
   { slug: 'prolotherapy-limit', role: 'usage', title: '프롤로주사 실비 청구, 주사료 아니라 도수치료 한도에서 빠지나?' },

@@ -207,12 +207,15 @@ step(1, '타이틀 — 캡처 보고 실검색어로', hasKeywords, [
 ]);
 
 step(2, '구성표 — 소제목과 버튼 문구를 먼저', outlines.length > 0, [
-  '① scripts/output/outline-{slug}.md 를 만든다:',
-  '     ## hero (서론)   — 장면 한 줄 → 금액·반전 → 버튼으로 넘기는 한 줄',
-  '     ## 소제목        — 질문형 3개 이상, 실검색어 그대로. 행동(신청·청구)이 맨 위',
-  '     ## 버튼          — 슬롯 qa2·qa4·마지막, 각 버튼의 문구와 목적지 URL',
-  '② 버튼 목적지를 Playwright 로 먼저 연다 (로그인·세션토큰 걸리는지)',
-  '③ 버튼 문구·목적지를 채팅에 올려 승인받는다 (본문은 그다음)',
+  '① 소제목은 구글 SERP 의 PAA 문장을 그대로 쓴다 (지어낸 질문 금지)',
+  '     실브라우저(Playwright MCP)로 열어야 나온다 — 헤드리스 fetch 는 PAA·연관검색어가 빈다',
+  '     browser_evaluate 안에서 fetch("/search?q=…", {credentials:"include"}) 로 여러 씨앗을 한 번에',
+  '② 그 PAA 조각으로 타이틀을 조립한다 — 순서를 뒤집으면 타이틀↔소제목이 어긋난다',
+  '③ 스포크면 뼈대를 찍는다 (손으로 만들지 않는다):',
+  '     npx tsx scripts/new-spoke.ts --spec scripts/output/spec-{slug}.json',
+  '     → 버튼 슬롯 qa 2·4·마지막 자동 배치 · registry/허브 자동 배선 · 추출본 없으면 거부',
+  '④ 버튼 목적지를 Playwright 로 먼저 연다 (로그인·세션토큰 걸리는지)',
+  '⑤ 버튼 문구·목적지를 채팅에 올려 승인받는다 (본문은 그다음)',
 ]);
 
 step(3, '사실 — Playwright 로 원문 대조', hasFactsheet, [

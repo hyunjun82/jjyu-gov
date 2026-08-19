@@ -30,11 +30,11 @@
 | 무엇 | 어디 (자동 로드/강제) |
 |---|---|
 | 타이틀·구성표·버튼슬롯[2,4,끝] | `.claude/rules/title-workflow.md` (policy 파일 작업 시 자동) |
-| 문구·버튼 6단계 흐름 | `.claude/rules/action-copy.md` + `check-cue-value.ts` |
+| 문구·버튼 6단계 흐름 | `.claude/rules/action-copy.md` (버튼 슬롯은 `scripts/new-spoke.ts` 가 잡는다) |
 | 데이터 스키마·7유형 | `.claude/rules/policy-data-schema.md` |
-| 디자인·Format A | `.claude/rules/design-system.md` + `check-spoke-quality.sh` |
+| 디자인·Format A | `.claude/rules/design-system.md` + `scripts/check-type-shape.ts` |
 | 빌드·404 진단 | `.claude/rules/build-deploy.md` |
-| 품질 임계값 Q1~Q13 | `scripts/verify-quality.ts` (문서 복사 금지) |
+| 품질 = 원문 대조 하나 | `scripts/check-source-match.ts` (2026-08-16 검사 11개를 여기로 합쳤다) |
 | push 게이트 12단 진본 | `.githooks/pre-push` (core.hooksPath) |
 | 저장 차단 훅 | `scripts/hooks/require-title-log.mjs` + `title-log-rule.mjs` |
 | 타이틀 스타일·KB 패턴 | `docs/title-style-24.md` · `docs/title-corpus-kb.md` |
