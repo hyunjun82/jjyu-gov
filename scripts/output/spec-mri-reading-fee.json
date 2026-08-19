@@ -1,0 +1,6 @@
+{"slug":"mri-reading-fee","policyDir":"실손보험","fileName":"MRI판독비","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"MRI 판독비 실비 청구 가능할까? 무릎, 목디스크 서류 빠지면 삭감","breadcrumb":"MRI 판독비",
+"description":"약관은 입원제비용과 외래제비용에 방사선료를 포함시킵니다. 판독비가 어느 항목으로 찍혔는지에 따라 계산이 달라집니다.",
+"sourceFile":"scripts/output/source-mri-reading-fee.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["MRI 판독비도 청구되나요?","약관 어느 항목에 들어가나요?","다른 병원에서 판독만 받으면요?","무릎과 목디스크가 다른가요?","서류는 무엇을 챙기나요?"],
+"faq":["판독비가 약관에 적혀 있나요?","외래제비용에 방사선료가 들어가나요?","촬영과 판독을 나눠 청구하나요?","비급여면 어떻게 되나요?","서류는 무엇이 필요한가요?"]}

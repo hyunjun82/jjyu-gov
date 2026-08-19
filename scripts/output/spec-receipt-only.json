@@ -1,0 +1,6 @@
+{"slug":"receipt-only","policyDir":"실손보험","fileName":"영수증만청구","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비보험 청구 영수증만으로 될까? 필요서류 빠뜨리면 반려되는 순서","breadcrumb":"영수증만 청구",
+"description":"약관은 사고증명서로 영수증만이 아니라 세부산정내역과 처방전까지 열거합니다. 무엇이 빠지면 왜 반려되는지 순서대로 정리했습니다.",
+"sourceFile":"scripts/output/source-receipt-only.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["영수증만 내면 청구가 되나요?","약관이 열거한 서류가 뭔가요?","세부산정내역이 왜 필요한가요?","소액이면 간단히 되나요?","접수 후 언제 지급되나요?"],
+"faq":["영수증만으로 심사가 되나요?","세부산정내역이 뭔가요?","처방전도 내야 하나요?","접수증을 받나요?","지급까지 며칠 걸리나요?"]}

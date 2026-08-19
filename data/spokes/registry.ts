@@ -1415,6 +1415,11 @@ import { 실손보험갑상선SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 실손보험청구거절삭감SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/청구거절삭감';
 import { 실손보험서류반려재청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/서류반려재청구';
 import { 실손보험소급청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/소급청구';
+import { 실손보험영수증만청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/영수증만청구';
+import { 실손보험한의원첩약SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/한의원첩약';
+import { 실손보험MRI판독비SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/MRI판독비';
+import { 실손보험검진센터MRISpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/검진센터MRI';
+import { 실손보험비급여주사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비급여주사';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1587,6 +1592,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'nonbenefit-injection': 실손보험비급여주사SpokeContent,
+    'mri-checkup-center': 실손보험검진센터MRISpokeContent,
+    'mri-reading-fee': 실손보험MRI판독비SpokeContent,
+    'oriental-decoction': 실손보험한의원첩약SpokeContent,
+    'receipt-only': 실손보험영수증만청구SpokeContent,
     'retroactive-claim': 실손보험소급청구SpokeContent,
     'claim-rejected-docs': 실손보험서류반려재청구SpokeContent,
     'claim-denied': 실손보험청구거절삭감SpokeContent,

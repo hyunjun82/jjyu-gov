@@ -100,6 +100,11 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'nonbenefit-injection', role: 'eligibility', title: '비급여 주사 실비보험 청구 가능할까? 빠지는 주사 구분 조건' },
+  { slug: 'mri-checkup-center', role: 'eligibility', title: '비급여 MRI 실비 청구 한도는? 검진센터 촬영이 어려운 이유' },
+  { slug: 'mri-reading-fee', role: 'eligibility', title: 'MRI 판독비 실비 청구 가능할까? 무릎, 목디스크 서류 빠지면 삭감' },
+  { slug: 'oriental-decoction', role: 'eligibility', title: '한의원 첩약 실비 청구 가능할까? 비염 치료가 갈리는 이유' },
+  { slug: 'receipt-only', role: 'eligibility', title: '실비보험 청구 영수증만으로 될까? 필요서류 빠뜨리면 반려되는 순서' },
   { slug: 'retroactive-claim', role: 'eligibility', title: '실비 소급 청구 가능할까? 지난 진료비 놓치면 못 받는 기간' },
   { slug: 'claim-rejected-docs', role: 'eligibility', title: '실비 서류 반려 후 재청구 가능할까? 심사 기간과 절차' },
   { slug: 'claim-denied', role: 'eligibility', title: '실비 청구 거절 사유는? 삭감, 부지급 통보 받았을 때 다투는 절차' },

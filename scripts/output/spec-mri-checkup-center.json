@@ -1,0 +1,6 @@
+{"slug":"mri-checkup-center","policyDir":"실손보험","fileName":"검진센터MRI","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"비급여 MRI 실비 청구 한도는? 검진센터 촬영이 어려운 이유","breadcrumb":"검진센터 MRI",
+"description":"건강검진은 원칙적으로 면책이고, 이상 소견에 따른 추가 의료비용만 보상합니다. 검진센터에서 찍은 MRI가 어느 쪽인지가 갈림길입니다.",
+"sourceFile":"scripts/output/source-mri-checkup-center.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["검진센터에서 찍은 MRI도 청구되나요?","왜 어렵다고 하나요?","이상 소견이 나오면 달라지나요?","비급여 MRI 한도는 얼마인가요?","서류는 무엇을 챙기나요?"],
+"faq":["건강검진 MRI가 면책인가요?","이상 소견이 뭔가요?","MRI 연간 한도가 있나요?","중증과 비중증이 다른가요?","결과지가 왜 필요한가요?"]}
