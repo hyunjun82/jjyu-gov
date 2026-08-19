@@ -100,6 +100,8 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'claim-period-3y', role: 'eligibility', title: '실비보험 청구기간이 3년 넘었는데 접수될까요? 지급 심사 기간까지' },
+  { slug: 'premium-increase', role: 'eligibility', title: '보험금을 많이 청구하면 보험료가 인상되나요? 실비 할증 5단계 기준' },
   { slug: 'ureteral-stone', role: 'eligibility', title: '요로결석 충격파치료도 보험 적용 되나요? 응급실 청구 서류와 한도 기준' },
   { slug: 'shingles-vaccine', role: 'eligibility', title: '대상포진 치료비는 보험으로 청구할 수 있나요? 예방접종은 왜 안 되나' },
   { slug: 'gastroscopy-checkup', role: 'eligibility', title: '위궤양으로 수면 내시경 했는데 실비보험 청구 될까? 건강검진이면 못 받나' },

@@ -1,0 +1,6 @@
+{"slug":"premium-increase","policyDir":"실손보험","fileName":"보험료인상기준","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"보험금을 많이 청구하면 보험료가 인상되나요? 실비 할증 5단계 기준",
+"breadcrumb":"보험료 인상 기준","description":"약관은 갱신계약 보험료에 요율 상대도를 적용하고, 직전 12개월 보험금 지급실적으로 1단계 할인부터 5단계 할증까지 나눕니다. 다만 적용 대상은 특별약관2입니다.",
+"sourceFile":"scripts/output/source-premium-increase.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["보험금을 많이 청구하면 보험료가 인상되나요?","할증은 몇 단계로 나뉘나요?","어느 기간 실적을 보나요?","할증에서 빠지는 사람도 있나요?","나이가 들어도 오르는 건가요?"],
+"faq":["청구를 많이 하면 무조건 오르나요?","할증 대상이 되는 금액 기준은요?","할인은 누가 받나요?","장기요양 등급자는 다른가요?","급여 보험료도 할증되나요?"]}

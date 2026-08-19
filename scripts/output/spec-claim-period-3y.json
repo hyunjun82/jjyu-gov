@@ -1,0 +1,6 @@
+{"slug":"claim-period-3y","policyDir":"실손보험","fileName":"청구기간3년","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비보험 청구기간이 3년 넘었는데 접수될까요? 지급 심사 기간까지",
+"breadcrumb":"청구기간 3년","description":"약관 제41조는 보험금 청구권을 3년간 행사하지 않으면 소멸시효가 완성된다고 정합니다. 지급기일과 지연이자도 함께 정해져 있습니다.",
+"sourceFile":"scripts/output/source-claim-period-3y.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["실비보험 청구기간이 3년 넘었는데 접수될까요?","3년은 언제부터 세나요?","돈은 언제까지 들어오나요?","조사가 길어지면 어떻게 되나요?","늦게 주면 이자를 받나요?"],
+"faq":["청구권 소멸시효가 몇 년인가요?","만기환급금도 3년인가요?","지급기일은 며칠인가요?","조사 중에 일부라도 먼저 받나요?","지연이자는 어떻게 붙나요?"]}

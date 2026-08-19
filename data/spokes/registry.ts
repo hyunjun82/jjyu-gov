@@ -1394,6 +1394,8 @@ import { 실손보험치과임플란트SpokeContent } from '@/app/policy/[id]/[s
 import { 실손보험위내시경건강검진SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/위내시경건강검진';
 import { 실손보험대상포진예방접종SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/대상포진예방접종';
 import { 실손보험요로결석쇄석술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/요로결석쇄석술';
+import { 실손보험보험료인상기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보험료인상기준';
+import { 실손보험청구기간3년SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/청구기간3년';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1566,6 +1568,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'claim-period-3y': 실손보험청구기간3년SpokeContent,
+    'premium-increase': 실손보험보험료인상기준SpokeContent,
     'ureteral-stone': 실손보험요로결석쇄석술SpokeContent,
     'shingles-vaccine': 실손보험대상포진예방접종SpokeContent,
     'gastroscopy-checkup': 실손보험위내시경건강검진SpokeContent,
