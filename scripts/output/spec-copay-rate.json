@@ -1,0 +1,6 @@
+{"slug":"copay-rate","policyDir":"실손보험","fileName":"자기부담금계산","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실손 의료보험 자기 부담금은 얼마인가요? 건강보험 본인부담률로 계산하는 기준",
+"breadcrumb":"자기부담금 계산","description":"5세대 급여 통원은 정액과 20%, 그리고 건강보험 본인부담률을 곱한 금액 중 큰 금액을 뗍니다. 그 본인부담률을 구하는 산식이 약관에 적혀 있습니다.",
+"sourceFile":"scripts/output/source-copay-rate.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["실손 의료보험 자기 부담금은 얼마인가요?","건강보험 본인부담률은 어떻게 구하나요?","왜 세 값 중 큰 금액을 떼나요?","전액본인부담이면 어떻게 되나요?","청구 전에 무엇을 확인하면 되나요?"],
+"faq":["자기부담금이 얼마인가요?","건강보험 본인부담률 산식이 뭔가요?","영수증 어디를 보면 되나요?","본인부담률이 100%면 어떻게 되나요?","약국도 같은 산식인가요?"]}

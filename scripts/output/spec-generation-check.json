@@ -1,0 +1,6 @@
+{"slug":"generation-check","policyDir":"실손보험","fileName":"세대확인방법","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"내 실손보험 세대 확인 방법, 4세대와 5세대 차이점은 무엇인가?",
+"breadcrumb":"세대 확인 방법","description":"판매시기로 세대가 갈립니다. 손해보험협회 공시표와 금융감독원 사업실적 자료로 판매시기·자기부담비율·갱신주기·재가입주기를 교차 확인했습니다.",
+"sourceFile":"scripts/output/source-generation-check.txt","sourceName":"손해보험협회 실손의료보험 상품 공시 · 금융감독원 2025년 실손의료보험 사업실적","sourceUrl":"https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthMinsInsIntro.do","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["내 실손보험 세대를 어떻게 확인하나요?","세대별 판매시기가 어떻게 되나요?","4세대와 5세대 차이점은 무엇인가요?","재가입 주기가 세대마다 다른가요?","확인했으면 무엇을 봐야 하나요?"],
+"faq":["세대는 무엇으로 구분되나요?","1세대 자기부담비율이 얼마인가요?","4세대 재가입 주기가 몇 년인가요?","5세대는 언제부터 판매됐나요?","갱신주기와 재가입주기가 다른 건가요?"]}

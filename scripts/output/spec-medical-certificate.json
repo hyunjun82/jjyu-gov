@@ -1,0 +1,6 @@
+{"slug":"medical-certificate","policyDir":"실손보험","fileName":"진단서없이청구","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"실비보험금을 진단서 없이 청구할 수 있나요? 발급비용은 못 받나",
+"breadcrumb":"진단서 없이 청구","description":"약관 제7조가 열거한 사고증명서 목록에 진단서라는 말은 없습니다. 다만 국내 의료기관에서 발급한 것이어야 한다는 조건이 붙습니다.",
+"sourceFile":"scripts/output/source-medical-certificate.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["실비보험금을 진단서 없이 청구할 수 있나요?","약관이 열거한 사고증명서가 뭔가요?","해외에서 받은 서류도 되나요?","발급비용은 보험금에서 나오나요?","서류를 내면 언제 지급되나요?"],
+"faq":["진단서가 반드시 필요한가요?","사고증명서에 뭐가 들어가나요?","해외 병원 서류로 청구되나요?","신분증도 내야 하나요?","서류를 낸 뒤 며칠 걸리나요?"]}

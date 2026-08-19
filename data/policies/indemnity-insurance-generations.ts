@@ -100,6 +100,10 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'medical-certificate', role: 'eligibility', title: '실비보험금을 진단서 없이 청구할 수 있나요? 발급비용은 못 받나' },
+  { slug: 'generation-check', role: 'eligibility', title: '내 실손보험 세대 확인 방법, 4세대와 5세대 차이점은 무엇인가?' },
+  { slug: 'copay-rate', role: 'eligibility', title: '실손 의료보험 자기 부담금은 얼마인가요? 건강보험 본인부담률로 계산하는 기준' },
+  { slug: 'pharmacy-deductible', role: 'eligibility', title: '약국도 실비처리가 되나요? 약값 얼마부터 공제되는지 확인' },
   { slug: 'three-nonbenefit', role: 'eligibility', title: '실손보험 3대 비급여 항목은 무엇인가요? 주사 치료 청구가 갈리는 기준' },
   { slug: 'outpatient-limit', role: 'eligibility', title: '1일 통원 치료비 한도는 얼마인가요? 입원과 통원 청구가 갈리는 기준' },
   { slug: 'upper-room-charge', role: 'eligibility', title: '입원할 때 2인실 써도 실손보험 되나요? 상급 병실 차액 계산 기준' },

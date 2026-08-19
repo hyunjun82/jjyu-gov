@@ -1,0 +1,6 @@
+{"slug":"pharmacy-deductible","policyDir":"실손보험","fileName":"약국공제","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"약국도 실비처리가 되나요? 약값 얼마부터 공제되는지 확인",
+"breadcrumb":"약국 공제","description":"약관은 처방조제비를 통원의료비에 넣고, 통원 1회당 외래와 처방조제를 합산해 공제금액을 뺍니다. 약국만 따로 계산하지 않는다는 뜻입니다.",
+"sourceFile":"scripts/output/source-pharmacy-deductible.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["약국도 실비처리가 되나요?","약값이 얼마부터 받을 수 있나요?","병원비와 약값을 따로 청구하나요?","약국만 갔을 때는 어떻게 되나요?","청구할 때 무엇을 챙겨야 하나요?"],
+"faq":["처방조제비가 무엇인가요?","약국 공제금액이 따로 있나요?","병원과 약국을 합산하나요?","약사 직접조제비도 되나요?","같은 날 여러 병원과 약국을 갔으면요?"]}

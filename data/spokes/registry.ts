@@ -1400,6 +1400,10 @@ import { 실손보험연간한도SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실손보험상급병실료차액SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/상급병실료차액';
 import { 실손보험통원한도SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/통원한도';
 import { 실손보험3대비급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/3대비급여';
+import { 실손보험약국공제SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/약국공제';
+import { 실손보험자기부담금계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/자기부담금계산';
+import { 실손보험세대확인방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/세대확인방법';
+import { 실손보험진단서없이청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/진단서없이청구';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1572,6 +1576,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'medical-certificate': 실손보험진단서없이청구SpokeContent,
+    'generation-check': 실손보험세대확인방법SpokeContent,
+    'copay-rate': 실손보험자기부담금계산SpokeContent,
+    'pharmacy-deductible': 실손보험약국공제SpokeContent,
     'three-nonbenefit': 실손보험3대비급여SpokeContent,
     'outpatient-limit': 실손보험통원한도SpokeContent,
     'upper-room-charge': 실손보험상급병실료차액SpokeContent,
