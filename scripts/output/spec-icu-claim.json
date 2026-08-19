@@ -1,0 +1,6 @@
+{"slug":"icu-claim","policyDir":"실손보험","fileName":"중환자실","hubSlug":"indemnity-insurance-generations","hubVar":"indemnityInsuranceGenerationsSpokes","role":"eligibility",
+"h1":"중환자실 실비 적용 되나? 상급병실료와 갈리는 계산",
+"breadcrumb":"중환자실","description":"약관은 입원실료를 기준병실 사용료로 정의하고, 상급병상을 써서 더 낸 몫만 상급병실료 차액으로 따로 계산합니다. 중환자실이 어느 쪽인지가 갈림길입니다.",
+"sourceFile":"scripts/output/source-icu-claim.txt","sourceName":"보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관","sourceUrl":"https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867","hubPath":"/policy/indemnity-insurance-generations",
+"qa":["중환자실 실비 적용되나요?","입원실료에 중환자실이 들어가나요?","상급병실료 차액과 어떻게 다른가요?","계산은 어떻게 되나요?","서류는 무엇을 챙기나요?"],
+"faq":["중환자실이 약관에 적혀 있나요?","입원실료 정의가 뭔가요?","상급병실료 차액 한도는요?","1일 평균금액은 어떻게 구하나요?","입원 인정 기준은요?"]}

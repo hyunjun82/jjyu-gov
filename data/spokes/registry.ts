@@ -1404,6 +1404,11 @@ import { 실손보험약국공제SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실손보험자기부담금계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/자기부담금계산';
 import { 실손보험세대확인방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/세대확인방법';
 import { 실손보험진단서없이청구SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/진단서없이청구';
+import { 실손보험비중격만곡증SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/비중격만곡증';
+import { 실손보험족저근막염SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/족저근막염';
+import { 실손보험허리디스크SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/허리디스크';
+import { 실손보험신경성형술SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/신경성형술';
+import { 실손보험중환자실SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/중환자실';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -1576,6 +1581,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'icu-claim': 실손보험중환자실SpokeContent,
+    'nerve-plasty': 실손보험신경성형술SpokeContent,
+    'lumbar-disc': 실손보험허리디스크SpokeContent,
+    'plantar-fasciitis': 실손보험족저근막염SpokeContent,
+    'septal-deviation': 실손보험비중격만곡증SpokeContent,
     'medical-certificate': 실손보험진단서없이청구SpokeContent,
     'generation-check': 실손보험세대확인방법SpokeContent,
     'copay-rate': 실손보험자기부담금계산SpokeContent,

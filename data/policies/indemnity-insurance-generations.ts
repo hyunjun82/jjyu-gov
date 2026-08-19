@@ -100,6 +100,11 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'icu-claim', role: 'eligibility', title: '중환자실 실비 적용 되나? 상급병실료와 갈리는 계산' },
+  { slug: 'nerve-plasty', role: 'eligibility', title: '신경성형술 실비 거절 이유는? 입원 처리와 청구 서류 기준' },
+  { slug: 'lumbar-disc', role: 'eligibility', title: '허리디스크 실비 청구 조건은? 서류 빠뜨리면 반려된다' },
+  { slug: 'plantar-fasciitis', role: 'eligibility', title: '족저근막염 실비 청구 서류는? 체외충격파와 갈리는 지점' },
+  { slug: 'septal-deviation', role: 'eligibility', title: '비중격만곡증 실비 청구 가능할까? 서류 빠지면 미용으로 잘린다' },
   { slug: 'medical-certificate', role: 'eligibility', title: '실비보험금을 진단서 없이 청구할 수 있나요? 발급비용은 못 받나' },
   { slug: 'generation-check', role: 'eligibility', title: '내 실손보험 세대 확인 방법, 4세대와 5세대 차이점은 무엇인가?' },
   { slug: 'copay-rate', role: 'eligibility', title: '실손 의료보험 자기 부담금은 얼마인가요? 건강보험 본인부담률로 계산하는 기준' },
