@@ -27,7 +27,7 @@ export const 실손보험MRI공제한도SpokeContent: SpokeData = {
   dateModified: '2026-08-18T19:30:00+09:00',
   heroHook:
     'MRI를 찍고 실비를 넣었는데 생각보다 적게 들어오는 경우가 있습니다. 약관이 중증과 비중증을 갈라 놓았기 때문입니다. 중증은 1회당 3만원과 보장대상의료비의 30% 중 큰 금액을 떼고 연 300만원까지 보상하는데, 비중증은 1회당 5만원과 50% 중 큰 금액을 떼고 연 200만원까지입니다. 공제율은 30%와 50%, 한도는 300만원과 200만원입니다. 같은 촬영이라도 어느 쪽으로 분류되느냐에 따라 손에 남는 금액이 갈립니다.',
-  heroAct: { label: '내 MRI 얼마 나오는지 계산하기' },
+  heroAct: { label: 'MRI 얼마 돌려받는지 계산하기', href: '/policy/indemnity-insurance-generations/copay-rate/' },
   keyFacts: {
     '약관 용어': '자기공명영상진단 (MRI/MRA)',
     '포함되는 비용': '조영제와 판독료 포함',

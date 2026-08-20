@@ -52,4 +52,20 @@ if [ $SM -ne 0 ]; then
   exit $SM
 fi
 
+# ── ③ 버튼 문구 도배 (2026-08-20 신설) ──
+# 실손 62편에서 같은 틀을 세 번 연속 찍어냈고 세 번 다 사람이 라이브에서 발견했다.
+#   1차 cue 124/129 가 "내 증권이 몇 세대인지" · 2차 상단버튼 62개가 전부 "~ 보기"
+#   3차 고친다며 넣은 것이 61개 "내 ~", 24개 "…되는지 확인하기"
+# 기존 게이트는 한 페이지 안의 중복만 봐서 배치 전체에 깔린 틀을 못 잡았다.
+echo "🔍 버튼 문구 도배 검사 중..."
+npx tsx "$ROOT/scripts/check-button-variety.ts"
+BV=$?
+if [ $BV -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 버튼·cue 를 서로 다른 결로 다시 쓴다"
+  echo "   정본: docs/button-copy.md"
+  echo "   (무시하려면: git push --no-verify)"
+  exit $BV
+fi
+
 exit 0
