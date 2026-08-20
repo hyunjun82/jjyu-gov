@@ -2,14 +2,14 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-claim-period-3y.txt
  * 1차 출처: 보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관
- *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867
+ *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE
  * 쓰지 않는 것:
  *   - 소멸시효 기산점에 관한 판례 — 약관이 정하지 않아 이번에 열지 않았다
  *   - 보험사별 실제 지급 소요일 — 약관 밖의 실적이다
  *   - 보험계약대출이율·평균공시이율의 실제 수치 — 회사·시점마다 달라 약관에 값이 없다
  */
 
-const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867';
+const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE';
 const HUB = '/policy/indemnity-insurance-generations';
 
 export const 실손보험청구기간3년SpokeContent: SpokeData = {
@@ -19,6 +19,9 @@ export const 실손보험청구기간3년SpokeContent: SpokeData = {
     '약관 제41조는 보험금 청구권을 3년간 행사하지 않으면 소멸시효가 완성된다고 정합니다. 지급기일과 지연이자도 함께 정해져 있습니다.',
   datePublished: '2026-08-19T06:01:04+09:00',
   dateModified: '2026-08-19T06:01:04+09:00',
+  heroHook:
+    '3년이 지난 진료비라도 일단 접수는 됩니다. 다만 약관 제41조가 보험금 청구권을 3년간 행사하지 않으면 소멸시효가 완성된다고 정해 두었습니다. 접수 뒤에는 다른 시계가 돕니다. 지급은 서류를 접수한 날부터 3영업일 이내가 원칙이고, 조사가 붙으면 지급예정일을 알리되 원칙적으로 30영업일을 넘기지 못합니다. 기일을 넘기면 31일부터 가산이율 4.0%, 61일부터 6.0%, 91일 이후 8.0%가 더해집니다.',
+  heroAct: { label: '3년과 심사 기간 기준 보기' },
   keyFacts: {
     '소멸시효': '보험금 청구권 등은 3년간 행사하지 않으면 소멸시효가 완성',
     '같이 적힌 청구권': '만기환급금청구권, 보험료 반환청구권, 해약환급금청구권, 계약자적립액 반환청구권, 배당금청구권',
@@ -60,7 +63,7 @@ export const 실손보험청구기간3년SpokeContent: SpokeData = {
         '제8조가 지급기일을 정합니다. 회사는 제7조에서 정한 서류를 접수한 때에는 접수증을 드리고 휴대전화 문자메시지 또는 전자우편 등으로도 송부하며, 그 서류를 접수한 날부터 3영업일 이내에 보험금을 지급한다고 되어 있습니다. 접수한 날이 기준이고 3영업일입니다. 그러니 서류가 다 갖춰져 접수된 시점이 언제인지가 중요합니다. 서류가 모자라 보완 요청을 받으셨다면 접수 시점이 뒤로 밀릴 수 있으니, 처음 낼 때 필요한 서류를 한 번에 갖추시는 게 실제로 날짜를 당기는 방법입니다.',
       highlights: ['서류 접수일부터 3영업일 이내', '접수증을 문자·이메일로도 보낸다', '접수 시점이 기준이 된다', '서류를 한 번에 갖추는 게 빠른 길'],
       act: {
-        cue: '접수일이 3영업일의 시작점이라 서류를 한 번에 갖추는 게 관건입니다. 그 전에 내 증권이 어느 세대인지부터 맞춰 보시죠.',
+        cue: '접수한 날이 3영업일의 출발점입니다. 서류가 한 번에 갖춰지지 않으면 그 시계가 다시 시작되니, 언제 접수됐는지부터 접수증으로 확인해 두셔야 합니다.',
         label: '내 실비 세대부터 확인하기',
         url: HUB,
       },
@@ -101,7 +104,7 @@ export const 실손보험청구기간3년SpokeContent: SpokeData = {
         ],
       },
       act: {
-        cue: '이자까지 받으려면 지급기일이 언제였는지가 분명해야 합니다. 세대별 조건을 함께 보시면 계산이 맞춰집니다.',
+        cue: '지연이자는 지급기일 다음 날부터 자동으로 붙습니다. 며칠이 지났느냐에 따라 붙는 이율이 달라지니 날짜와 금액을 같이 놓고 계산해 보셔야 합니다.',
         label: '세대별 공제금액 확인하기',
         url: HUB,
       },

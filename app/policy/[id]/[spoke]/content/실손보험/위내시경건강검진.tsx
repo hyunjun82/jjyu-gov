@@ -2,14 +2,14 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-gastroscopy-checkup.txt
  * 1차 출처: 보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관
- *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867
+ *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE
  * 쓰지 않는 것:
  *   - 위내시경 검사비·수면 비용 — 병원마다 다르고 약관에 값이 없다
  *   - 국가건강검진 본인부담 규정 — 건보공단 소관이라 이번에 열지 않았다
  *   - 위궤양 상병코드별 급여기준 — 심평원 소관이고 약관이 인용하지 않는다
  */
 
-const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867';
+const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE';
 const HUB = '/policy/indemnity-insurance-generations';
 
 export const 실손보험위내시경건강검진SpokeContent: SpokeData = {
@@ -19,6 +19,9 @@ export const 실손보험위내시경건강검진SpokeContent: SpokeData = {
     '본인 희망 건강검진은 면책이지만 검사결과 이상 소견에 따라 발생한 추가 의료비용은 보상합니다. 위궤양 진단이 나온 뒤의 진료가 그 단서에 걸립니다.',
   datePublished: '2026-08-19T05:22:22+09:00',
   dateModified: '2026-08-19T05:22:22+09:00',
+  heroHook:
+    '건강검진에서 위내시경을 받다가 위궤양이 나오면 실비가 되는지 헷갈립니다. 약관은 본인의 희망에 의한 건강검진을 보상하지 않는다고 해놓고, 괄호에 검사결과 이상 소견에 따라 건강검진센터 등에서 발생한 추가 의료비용은 보상한다고 답니다. 그래서 검진이었느냐가 아니라 결과지에 소견이 적혔고 그 뒤에 발생한 비용이냐가 갈림길입니다. 수면 비용도 같은 기준으로 따라갑니다.',
+  heroAct: { label: '추가 의료비용 인정 기준 보기' },
   keyFacts: {
     '원칙': '본인의 희망에 의한 건강검진은 보상하지 않음',
     '단서': '검사결과 이상 소견에 따라 건강검진센터 등에서 발생한 추가 의료비용은 보상',
@@ -54,12 +57,12 @@ export const 실손보험위내시경건강검진SpokeContent: SpokeData = {
       sourceNote: '* 출처: 보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관 (2026-08-19 확인)',
     },
     {
-      q: '조직검사비는 어떻게 되나요?', anchor: 'q3',
+      q: '조직검사비는 검진비와 무엇이 다른가요?', anchor: 'q3',
       intro:
         '추가분이냐로 돌아갑니다. 조직검사는 내시경 중에 이상이 보여 떼어내 확인하는 절차라, 이상 소견에 따라 발생한 추가 의료비용 쪽에 가깝습니다. 다만 이건 서류에서 읽혀야 합니다. 진료비 세부내역서에 내시경 검사료와 조직검사가 항목별로 따로 찍히기 때문에, 어디까지가 검진 자체이고 어디부터가 추가분인지가 거기서 갈립니다. 항목이 뭉뚱그려져 있으면 다투게 되니 청구 전에 세부내역서를 받아 확인해 두시는 편이 낫습니다.',
       highlights: ['조직검사는 추가분 쪽에 가깝다', '세부내역서에 항목별로 찍힌다', '검진 자체와 추가분을 가른다', '뭉뚱그려지면 다투게 된다'],
       act: {
-        cue: '결과지에 소견이 적혔는지에 따라 갈리는데, 인정되더라도 실제 지급액은 내 증권 조건이 정합니다.',
+        cue: '검진 항목으로 예정돼 있던 부분과 소견이 나온 뒤 추가된 부분은 같은 영수증 안에서도 갈립니다. 두 갈래를 나란히 놓고 봐야 조직검사비가 어느 쪽인지 잡힙니다.',
         label: '내 실비 세대부터 확인하기',
         url: HUB,
       },
@@ -86,7 +89,7 @@ export const 실손보험위내시경건강검진SpokeContent: SpokeData = {
         ],
       },
       act: {
-        cue: '서류를 갖추셨다면 남은 건 내 증권 조건입니다. 세대별로 공제와 자기부담이 달라 손에 들어오는 금액이 갈립니다.',
+        cue: '검진 결과지에 이상 소견이 적혀 있어야 단서가 열립니다. 결과지와 진료비 세부산정내역이 함께 있으면 어디까지가 소견 이후 비용인지 서류가 대신 말해 줍니다.',
         label: '세대별 공제금액 확인하기',
         url: HUB,
       },

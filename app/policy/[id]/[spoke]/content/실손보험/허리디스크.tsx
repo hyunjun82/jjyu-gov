@@ -2,14 +2,14 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-lumbar-disc.txt
  * 1차 출처: 보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관
- *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867
+ *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE
  * 쓰지 않는 것:
  *   - 허리디스크 수술·시술 비용 — 약관에 값이 없다
  *   - 3대비급여 한도·횟수 수치 — 특별약관1 표에 있어 다른 글에서 다룬다
  *   - 도수치료 관리급여 전환 — 별도 글에서 다룬다
  */
 
-const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867';
+const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE';
 const HUB = '/policy/indemnity-insurance-generations';
 
 export const 실손보험허리디스크SpokeContent: SpokeData = {
@@ -19,6 +19,9 @@ export const 실손보험허리디스크SpokeContent: SpokeData = {
     '허리디스크는 약관에 이름이 없습니다. 도수치료·주사·수술 중 무엇을 받았는지에 따라 어느 조항으로 계산되는지가 갈립니다.',
   datePublished: '2026-08-19T07:31:10+09:00',
   dateModified: '2026-08-19T07:31:10+09:00',
+  heroHook:
+    '허리디스크로 받는 치료는 종류가 많아 어느 한도에서 빠지는지가 헷갈립니다. 약관에 병명은 없고 치료 방법이 용어로 정의돼 있기 때문입니다. 도수치료와 증식치료는 이학요법치료로, 충격파는 체외충격파치료로, 주사는 주사료로 묶여 3대비급여라는 한 묶음을 이룹니다. 같은 날 여러 치료를 받으면 각 치료행위를 1회로 보아 각각 공제하는데, 주사만은 하루에 두 번 이상 맞아도 1회로 봅니다.',
+  heroAct: { label: '치료별 항목 구분 보기' },
   keyFacts: {
     '이름으로 적혀 있나': '허리디스크는 약관에 없음 — 치료 방법이 용어로 정의돼 있다',
     '이학요법치료': 'FIMS(기능적근육내 자극치료), 신장분사치료, 도수치료, 증식치료, 비침습적 무통증 신호요법 등',
@@ -64,7 +67,7 @@ export const 실손보험허리디스크SpokeContent: SpokeData = {
         ],
       },
       act: {
-        cue: '어느 항목으로 잡혔는지에 따라 쓰는 주머니가 달라집니다. 그 위에 세대별 자기부담이 한 겹 더 붙습니다.',
+        cue: '도수치료는 이학요법 쪽, 주사는 주사료 쪽으로 각각 다른 주머니를 씁니다. 같은 날 둘 다 받으면 공제도 각각 붙으니 조건과 금액을 함께 계산해 보셔야 합니다.',
         label: '내 실비 세대부터 확인하기',
         url: HUB,
       },
@@ -83,7 +86,7 @@ export const 실손보험허리디스크SpokeContent: SpokeData = {
         '항목이 갈리는 게 핵심이니 서류도 거기 맞춥니다. 첫째는 진료비 세부내역서입니다. 도수치료인지 주사인지 수술인지, 급여인지 비급여인지가 여기서 읽힙니다. 둘째는 진단서입니다. 상병분류기호와 진단명이 찍힙니다. 셋째는 소견서입니다. 통증이나 기능 제한 같은 사유가 적혀 있으면 일반 조건에서 다투기 쉬워집니다. 넷째는 처방전입니다. 주사를 맞으셨다면 약제명이 확인돼야 주사료 항목인지가 정리됩니다. 다섯째는 영수증이고, 입원이었다면 입퇴원확인서를 더합니다.',
       highlights: ['세부내역서로 항목을 확인', '진단서에 상병코드와 진단명', '소견서에 기능 제한이 적히면 유리', '주사는 약제명이 확인돼야 한다'],
       act: {
-        cue: '서류를 갖추셨다면 남은 건 내 증권 조건입니다. 세대별로 공제와 자기부담이 달라 실제 지급액이 갈립니다.',
+        cue: '세부산정내역에 치료행위가 항목별로 갈라져 찍혀야 어느 주머니에서 빠질지가 정해집니다. 같은 날 여러 치료를 받으셨다면 그 구분이 특히 중요합니다.',
         label: '세대별 공제금액 확인하기',
         url: HUB,
       },

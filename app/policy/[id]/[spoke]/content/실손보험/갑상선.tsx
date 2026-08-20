@@ -2,14 +2,16 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-thyroid.txt
  * 1차 출처: 보험업감독업무시행세칙 [별표 15] 실손의료보험 표준약관
- *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867
+ *   https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE
+ * 2026-08-20 Playwright 문서뷰어 화면 대조 (화면 쪽 = 텍스트레이어 쪽 + 1)
+ *   278쪽 화면에서 제1호(일상생활에 지장 없는 질환)·제2호(신체 필수기능 개선 목적 아닌 치료), 279쪽에서 제3호 가목 건강검진 단서 확인
  * 쓰지 않는 것:
  *   - 갑상선 검사·수술 비용 — 병원마다 다르고 약관에 값이 없다
  *   - 갑상선암 산정특례 등록 절차 — 건보공단 소관이라 이번에 열지 않았다
  *   - 진단비 특약 — 실손 표준약관 밖의 별도 상품이다
  */
 
-const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867';
+const SRC = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE';
 const HUB = '/policy/indemnity-insurance-generations';
 
 export const 실손보험갑상선SpokeContent: SpokeData = {
@@ -19,6 +21,9 @@ export const 실손보험갑상선SpokeContent: SpokeData = {
     '갑상선은 약관에 이름이 없습니다. 검진에서 발견됐는지, 이상 소견에 따른 추가 진료인지가 갈림길이고 그 사실은 서류에서 읽힙니다.',
   datePublished: '2026-08-19T08:20:11+09:00',
   dateModified: '2026-08-19T08:20:11+09:00',
+  heroHook:
+    '갑상선 결절이 나왔다는 말을 들으면 실비가 되는지부터 걱정되실 겁니다. 그런데 약관에는 갑상선이라는 단어가 없습니다. 대신 본인의 희망에 의한 건강검진은 보상하지 않는다고 해놓고, 괄호에 검사결과 이상 소견에 따라 건강검진센터 등에서 발생한 추가 의료비용은 보상한다는 단서를 답니다. 그래서 병명이 갑상선이냐가 아니라 결과지에 소견이 적혔느냐가 갈림길이 됩니다.',
+  heroAct: { label: '이상 소견 기준부터 확인하기' },
   keyFacts: {
     '이름으로 적혀 있나': '갑상선은 약관에 없음 — 검진이냐 이상 소견에 따른 진료냐로 갈린다',
     '원칙': '본인의 희망에 의한 건강검진은 보상하지 않음',
@@ -59,7 +64,7 @@ export const 실손보험갑상선SpokeContent: SpokeData = {
         '없습니다. 보상하지 않는 사항 어느 목에도 갑상선이 나오지 않습니다. 제1호가 나열하는 것은 단순한 피로 또는 권태, 주근깨·점·사마귀·여드름 등 피부질환, 발기부전과 불감증, 단순 코골음, 단순포경, 검열반 등 안과질환입니다. 제2호는 쌍꺼풀수술과 코성형수술, 지방흡입술 같은 미용목적의 성형수술 계열입니다. 갑상선은 어느 쪽에도 없습니다. 그러니 병명 때문에 잘리는 일은 없고, 어느 경로로 진료가 시작됐는지와 서류에 무엇이 적혔는지가 결과를 가릅니다.',
       highlights: ['제1호 목록에 없다', '제2호 목록에도 없다', '병명 때문에 잘리지 않는다', '경로와 서류가 결과를 가른다'],
       act: {
-        cue: '결과지에 소견이 적혔는지가 갈림길입니다. 인정되더라도 실제 지급액은 내 증권 조건이 정합니다.',
+        cue: '병명이 아니라 검진이었는지 소견 뒤 진료였는지로 갈립니다. 인정되고 나면 통원은 1회당 공제를 떼고 남는 구조라, 조건과 금액을 같이 놓고 봐야 실제로 얼마가 들어오는지 보입니다.',
         label: '내 실비 세대부터 확인하기',
         url: HUB,
       },
@@ -86,7 +91,7 @@ export const 실손보험갑상선SpokeContent: SpokeData = {
         ],
       },
       act: {
-        cue: '서류를 갖추셨다면 남은 건 내 증권 조건입니다. 세대별로 공제와 자기부담이 달라 실제 지급액이 갈립니다.',
+        cue: '결과지에 이상 소견이 적혀 있는지, 그 뒤 진료가 언제부터인지가 서류에 드러나야 합니다. 검진 결과지와 진료비 세부내역서를 함께 챙기시면 다시 요청받을 일이 줄어듭니다.',
         label: '세대별 공제금액 확인하기',
         url: HUB,
       },
