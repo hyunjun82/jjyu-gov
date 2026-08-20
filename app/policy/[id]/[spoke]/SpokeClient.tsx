@@ -12,7 +12,7 @@ import {
   faqSchema,
   toJsonLd,
 } from '@/lib/schema';
-import { hubCta, HUB_CTA_FALLBACKS, findApplyAnchor } from '@/lib/cta';
+import { hubCta, HUB_CTA_FALLBACKS, findApplyAnchor, simplifyCta } from '@/lib/cta';
 
 /**
  * ── SpokeClient ──
@@ -448,6 +448,10 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
             spokes={spokeList}
             currentSpoke={slug}
             applyUrl={applyUrl}
+            /* 2026-08-20: 스포크가 ctaLabel 을 안 넘겨 사이드바가 하드코딩 폴백
+               '지금 바로 신청하기' 로 떨어졌다. 실손 세대 비교 허브인데 "신청"이
+               뜨는 식이라 허브(PolicyDetailClient 756행)와 같은 값을 물린다. */
+            ctaLabel={simplifyCta(policy?.ctaLabel, policyTitle)}
           />
         </div>
       </div>
