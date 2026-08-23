@@ -39,16 +39,15 @@ const isSpoke = /app\/policy\/\[id\]\/\[spoke\]\/content\/[^/]+\/[^/]+\.tsx$/.te
 const isHub =
   /(^|\/)data\/policies\/[^/]+\.ts$/.test(file) &&
   !/(manifest|index|registry)\.ts$/.test(file);
-if (!isSpoke && !isHub) process.exit(0);
+const isStage = /scripts\/output\/stage[12]-[^/]+\.json$/.test(file);
+if (!isSpoke && !isHub && !isStage) process.exit(0);
 
 const payload = tool === 'Write' ? (ti.content ?? '') : `${ti.new_string ?? ''}`;
 
 /* 이 호출이 쓰려는 타이틀들을 뽑는다. 허브 파일은 spokes 배열에도 title: 이 있어
    한 번의 Edit 이 여러 개를 건드릴 수 있으므로 전부 검사한다. */
-const titles = [
-  ...[...payload.matchAll(/(?:^|\s)title:\s*['"`]([^'"`]{6,})['"`]/gm)].map((m) => m[1]),
-  ...[...payload.matchAll(/(?:^|\s)h1:\s*['"`]([^'"`]{6,})['"`]/gm)].map((m) => m[1]),
-];
+const KEY = /(?:^|[\s{,"'])["']?(?:title|h1)["']?\s*:\s*['"`]([^'"`]{6,})['"`]/gm;
+const titles = [...payload.matchAll(KEY)].map((m) => m[1]);
 if (!titles.length) process.exit(0);
 
 /* 세부키워드 — 사람이 메인키워드와 "같이 치는" 말.
@@ -78,12 +77,26 @@ const ACTION = [
   '조회', '발급', '접수', '다운로드', '예약', '등록', '해지', '청구', '환급받',
 ];
 
+/* 종결 — 해요체·합니다체 금지 (docs/title-corpus-kb.md:67, 2026-08-07 사장님 확정).
+   같은 어미가 사이트 전체에 반복되면 포털이 기계 생성으로 본다.
+   2026-08-16 에 종결 검사기를 전부 정리했더니 규칙만 남고 강제가 사라져,
+   2026-08-23 에 후보 3개가 전부 "못 받습니다 / 정하세요 / 나올까요" 로 나왔다.
+   허용: 물음형(~깎일까? ~이유는?) · ~나 · 명사형(~조회까지). 금지: 끝글자가 다·요. */
+/* '요'는 어미일 때만 막는다 — '지원 개요', '주요', '필요' 같은 명사 종결은 통과시켜야 한다.
+   오탐 나는 게이트는 결국 꺼진다(2026-08-15 훅 7→1). 해요체 어미 목록으로만 잡는다. */
+const HAEYO = /(?:나요|까요|세요|어요|아요|여요|해요|에요|예요|데요|래요|워요|봐요|져요|죠)[.!?]*$/;
+const HAPNIDA = /(?:다)[.!?]*$/;
+const badEnding = (t) => HAEYO.test(t.trim()) || HAPNIDA.test(t.trim());
+
 const bad = [];
 for (const t of titles) {
   const hasSub = SUB.some((k) => t.includes(k));
   const hasHook = HOOK.some((k) => t.includes(k)) || /[?？]/.test(t);
   const hasAction = !isHub || ACTION.some((k) => t.includes(k));
-  if (!hasSub || !hasHook || !hasAction) bad.push({ t, hasSub, hasHook, hasAction });
+  const okEnd = !badEnding(t);
+  /* 후보 단계(stage json)에서는 종결만 본다 — 공식 3축은 파일로 쓸 때 본다 */
+  if (isStage) { if (!okEnd) bad.push({ t, hasSub: true, hasHook: true, hasAction: true, okEnd }); continue; }
+  if (!hasSub || !hasHook || !hasAction || !okEnd) bad.push({ t, hasSub, hasHook, hasAction, okEnd });
 }
 if (!bad.length) process.exit(0);
 
@@ -92,15 +105,17 @@ console.error(
   [
     `[타이틀공식 훅] ${slug} — 타이틀이 [메인키워드 + 세부키워드 + 후킹] 을 못 채웠다.`,
     '',
-    ...bad.flatMap(({ t, hasSub, hasHook, hasAction }) => [
+    ...bad.flatMap(({ t, hasSub, hasHook, hasAction, okEnd }) => [
       `  "${t}"`,
-      `      세부키워드 ${hasSub ? 'O' : 'X'} / 후킹 ${hasHook ? 'O' : 'X'} / 행동어 ${hasAction ? 'O' : 'X'}`,
+      `      세부키워드 ${hasSub ? 'O' : 'X'} / 후킹 ${hasHook ? 'O' : 'X'} / 행동어 ${hasAction ? 'O' : 'X'} / 종결 ${okEnd ? 'O' : 'X'}`,
     ]),
     '',
     '통과 조건은 목록 대조다 (AI 판정이 아니다 — 다음에 돌려도 결과가 같다):',
     `  · 세부키워드: ${SUB.join(' / ')} 중 하나가 제목에 있어야 한다`,
     `  · 후킹: ${HOOK.slice(0, 14).join(' / ')} … 중 하나, 또는 물음표로 끝`,
     `  · 행동어(허브만): ${ACTION.join(' / ')} 중 하나 — 정보형 제목은 읽고 끝난다`,
+    '  · 종결: 끝글자가 다·요 면 막힌다 (…합니다 / …하세요 / …할까요).',
+    '           허용은 물음형(…깎일까? …이유는?) · …나 · 명사형(…조회까지).',
     '',
     '  본보기: "신한 적금 9단 신청 방법, 20만명 선착순이라 늦으면 손해"',
     '          메인키워드(신한 적금 9단) + 행동(신청 방법) + 후킹(선착순·늦으면 손해)',
