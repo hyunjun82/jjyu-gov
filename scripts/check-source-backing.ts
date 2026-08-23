@@ -63,6 +63,16 @@ function poolFor(file: string) {
   }
   const legacy = path.join('scripts', 'output', 'source-' + path.basename(file, '.tsx') + '.txt');
   if (fs.existsSync(legacy)) pool += '\n' + fs.readFileSync(legacy, 'utf8');
+
+  /* 글이 머리 주석에 스스로 가리키는 추출본 (2026-08-23 신설).
+     위 legacy 는 파일명으로만 찾는다 — 파일은 한글(세대변천사.tsx)인데 추출본은
+     영문 슬러그(source-generation-history.txt)라 못 찾고 "근거 없는 수치"로 떴다.
+     연도 2009·2017·2021 은 그 추출본 안에 멀쩡히 있었다. check-source-match 는
+     같은 헤더를 읽는데 이 게이트만 안 읽어서 둘의 판정이 갈렸다. */
+  for (const m of src.matchAll(/추출본:\s*([^\s*]+\.txt)/g)) {
+    const p = m[1].replace(/^\.\//, '');
+    if (fs.existsSync(p)) pool += '\n' + fs.readFileSync(p, 'utf8');
+  }
   return { pool: normalize(pool), urls, missing, broken };
 }
 
