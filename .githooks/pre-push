@@ -68,4 +68,31 @@ if [ $BV -ne 0 ]; then
   exit $BV
 fi
 
+# ── ④ 승인 도장 (2026-08-20 신설) ──
+# 4단계 중 2단계(구성표 승인)만 기계가 안 잡아서 같은 실수가 세 번 라이브까지 나갔다.
+# 승인은 채팅에서 일어나 기계가 못 보니, 파일에 도장을 남기고 그걸 본다.
+echo "🔍 구성표 승인 확인 중..."
+npx tsx "$ROOT/scripts/check-stage-approval.ts"
+AP=$?
+if [ $AP -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 승인 없이 쓴 글이 있다"
+  echo "   구성표를 채팅에 올려 승인받고 approved:true 로 도장을 찍는다"
+  echo "   (무시하려면: git push --no-verify)"
+  exit $AP
+fi
+
+# ── ⑤ 출처 링크 (2026-08-20 신설) ──
+# 법제처 링크가 admRulSeq 만 붙어 있으면 별표 1(외화유동성관리)이 열린다.
+# 추출본은 올바른 문서로 떴기 때문에 숫자 대조로는 절대 안 잡히던 구멍이다.
+echo "🔍 출처 링크 확인 중 (링크를 실제로 연다)..."
+npx tsx "$ROOT/scripts/check-source-links.ts"
+SL=$?
+if [ $SL -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 출처 링크가 엉뚱한 문서를 연다"
+  echo "   (무시하려면: git push --no-verify)"
+  exit $SL
+fi
+
 exit 0
