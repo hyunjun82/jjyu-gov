@@ -96,8 +96,6 @@
       "mcp__playwright__browser_evaluate",
       "Bash(ls -la /c/Users/user/gov-jjyu/app/policy/[id]/)",
       "Bash(npx tsx:*)",
-      "Edit(/.claude/skills/gov-write/**)",
-      "Skill(gov-write)",
       "Bash(npm install *)",
       "Bash(node scripts/*)",
       "mcp__playwright__browser_click",

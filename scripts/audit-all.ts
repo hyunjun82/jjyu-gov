@@ -7,6 +7,10 @@
  *   CTA가 기관 메인으로 가는 허브 94곳·중복 219쌍이 조용히 쌓여 있었다.
  *   이 스크립트는 차단하지 않는다. "지금 어디가 비어 있나"만 보여준다.
  *
+ * 2026-08-23: 검사 6개 중 5개가 없는 파일을 부르고 있었다(check-cue-value·
+ * check-click-value·check-user-value·check-freshness·check-duplicate).
+ * 조용히 건너뛰고 배선 하나만 돌면서 "통과"처럼 보였다. 실제로 도는 것만 남겼다.
+ *
  * 사용
  *   npm run audit
  */
@@ -16,29 +20,19 @@ type Probe = { name: string; cmd: string; pick: RegExp[] };
 
 const PROBES: Probe[] = [
   {
-    name: '문구·버튼 (누를 이유가 버튼 앞에 있나)',
-    cmd: 'npx tsx scripts/check-cue-value.ts --all',
-    pick: [/문구 \d+ \/ 카드 \d+/, /문구누락 .*버튼슬롯 \d+/],
+    name: '원문 대조 (글의 숫자가 추출본에 있나)',
+    cmd: 'npx tsx scripts/check-source-match.ts',
+    pick: [/\d+개 글에서 어긋남.*/, /통과.*/],
   },
   {
-    name: '클릭 유도 (제목 행동성·외부 누수)',
-    cmd: 'npx tsx scripts/check-click-value.ts --all',
-    pick: [/제목 행동성 .*종결어미 도배 \d+/],
+    name: '버튼 문구 도배 (같은 틀을 몇 번 돌려썼나)',
+    cmd: 'npx tsx scripts/check-button-variety.ts',
+    pick: [/상단 버튼 \d+개.*/, /통과.*/],
   },
   {
-    name: '사용자 중심 (타이틀↔소제목·버튼 CTA)',
-    cmd: 'npx tsx scripts/check-user-value.ts --all',
-    pick: [/타이틀↔소제목 .*허브-스포크 \d+/],
-  },
-  {
-    name: '수치 신선도 (낡은 값·대조 불가 출처)',
-    cmd: 'npx tsx scripts/check-freshness.ts --all',
-    pick: [/검사 \d+개 \/ 지적 \d+개/, /검수만료 .*연도불일치 \d+/],
-  },
-  {
-    name: '중복 (같은 내용 두 번 썼나)',
-    cmd: 'npx tsx scripts/check-duplicate.ts --all',
-    pick: [/검사 \d+개 \/ 문서 \d+개 \/ 겹침 \d+건/],
+    name: '타입 형태 (faq/faqData 등 필드명)',
+    cmd: 'npx tsx scripts/check-type-shape.ts',
+    pick: [/\d+건.*/, /통과.*/],
   },
   {
     name: '배선 정합성 (고아 허브·매니페스트)',
@@ -76,8 +70,6 @@ for (const p of PROBES) {
 }
 
 console.log('\n' + '='.repeat(64));
-console.log(' 개별 상세');
-console.log('   npx tsx scripts/check-cue-value.ts --all');
-console.log('   npx tsx scripts/check-freshness.ts --all --top 30');
-console.log('   npx tsx scripts/check-duplicate.ts --all');
+console.log(' 글 한 편을 끝까지 끌고 가려면');
+console.log('   npx tsx scripts/write.ts "{키워드}"');
 console.log('='.repeat(64));

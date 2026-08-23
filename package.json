@@ -9,12 +9,6 @@
     "start": "next start",
     "lint": "next lint",
     "audit": "npx tsx scripts/audit-all.ts",
-    "gov-write": "npx tsx scripts/gov-write.ts",
-    "collect": "npx tsx scripts/collect-multi-source.ts",
-    "extract": "npx tsx scripts/extract-policy.ts",
-    "batch": "npx tsx scripts/batch-gov-write.ts",
-    "check": "python3 scripts/check-quality.py",
-    "check:all": "python3 scripts/check-quality.py",
     "verify:integrity": "npx tsx scripts/verify-integrity.ts",
     "verify": "npx tsx scripts/check-source-match.ts"
   },
