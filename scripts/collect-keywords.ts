@@ -87,8 +87,14 @@ async function collectNaver(page: Page, keyword: string): Promise<{ autocomplete
 
     const rel = await page.evaluate(() => {
       const out: string[] = [];
-      // 실측: .related_srch .keyword 가 질문형 연관검색어를 담음 (+ 폴백 셀렉터)
-      ['.related_srch .keyword', '.lst_related_srch .keyword', '[class*=related] .keyword', '.api_subject_bx ._keyword'].forEach((s) => {
+      /* 실측: .related_srch .keyword 가 질문형 연관검색어를 담는다.
+         2026-06-26 에 "혹시 클래스명이 바뀔까 봐" 넣어둔 와일드카드 폴백
+         [class*=related] 와 .api_subject_bx ._keyword 는 2026-08-23 에 뺐다.
+         네이버 SERP 에는 실시간 급상승 검색어 블록이 같이 붙어 있어서,
+         이 두 개가 "로또당첨번호·태풍경로·하이닉스 주가"를 연관검색어로 긁어왔다.
+         (간병비 실비.json 17개 중 8개가 그날의 급상승어였다.)
+         셀렉터가 안 잡히면 빈손으로 돌아오는 게 맞다 — 오염된 목록이 더 나쁘다. */
+      ['.related_srch .keyword', '.lst_related_srch .keyword'].forEach((s) => {
         document.querySelectorAll(s).forEach((e) => {
           const t = e.textContent?.trim();
           if (t && t.length > 1) out.push(t);
@@ -238,6 +244,9 @@ async function fetchNaverSuggest(kw: string): Promise<string[]> {
 // 주제(A~F)별 하위 씨앗어 — 자동완성 API에 붙여 롱테일을 풍성하게 수집
 const THEME_SEEDS = ['자격', '조건', '대상', '얼마', '계산', '금액', '신청', '방법', '기간', '서류', '부정수급', '중복', '계약직', '자영업', '세금', '비교'];
 
+/* 자음 — 자동완성에 붙이면 우리가 생각 못 한 실검색어가 나온다 */
+const JAMO = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅅ', 'ㅇ', 'ㅈ', 'ㅊ', 'ㅋ', 'ㅌ', 'ㅍ', 'ㅎ'];
+
 /* ── 메인 ── */
 async function main() {
   console.log(`\n🔍 "${KEYWORD}" 검색어 수집 시작...\n`);
@@ -255,6 +264,11 @@ async function main() {
   const apiSeeds = [
     ...allKeywords,
     ...allKeywords.flatMap((k) => THEME_SEEDS.map((s) => `${k} ${s}`)),
+    /* 자음 확장 (2026-08-20 신설) — 주제 씨앗어는 우리가 고른 말이라 우리가
+       예상한 것만 나온다. 자음 하나만 붙이면 자동완성이 실제로 많이 찍히는
+       말을 알아서 뱉는다. '간병인 보험' 로 재보니 9개 → 38개(4배)였고
+       "단점·디시·더쿠·들어야 하나요" 처럼 씨앗어로는 안 나오는 것이 잡혔다. */
+    ...allKeywords.flatMap((k) => JAMO.map((c) => `${k} ${c}`)),
   ];
   console.log(`  [API] 자동완성 직접 수집 (${apiSeeds.length}개 씨앗어)...`);
   for (const seed of apiSeeds) {
@@ -311,12 +325,33 @@ async function main() {
   bingResult = { autocomplete: dedup(bingResult.autocomplete) };
   daumResult = { autocomplete: dedup(daumResult.autocomplete) };
 
-  const allMerged = dedup([
+  /* ── 씨앗어와 무관한 것은 버린다 (2026-08-23 신설) ──
+     SERP 스크래핑은 언제든 옆 블록(실시간 급상승·광고·인기글)을 집을 수 있다.
+     셀렉터를 좁히는 것만으로는 부족해서, 합치는 자리에서 한 번 더 거른다.
+     기준은 단순하다 — 연관검색어는 씨앗어와 글자를 나눠 갖는다.
+     "로또당첨번호"는 "간병인보험"과 두 글자도 겹치지 않는다. */
+  const bigrams = (s: string) => {
+    const t = s.replace(/\s+/g, '');
+    return new Set(Array.from({ length: Math.max(0, t.length - 1) }, (_, i) => t.slice(i, i + 2)));
+  };
+  const seedGrams = new Set<string>();
+  for (const k of [KEYWORD, ...synonyms]) bigrams(k).forEach((g) => seedGrams.add(g));
+  const related = (kw: string) => [...bigrams(kw)].some((g) => seedGrams.has(g));
+
+  const rawMerged = dedup([
     ...naverResult.autocomplete, ...naverResult.related,
     ...googleResult.autocomplete, ...googleResult.paa, ...googleResult.related,
     ...bingResult.autocomplete,
     ...daumResult.autocomplete,
   ]);
+  const allMerged = rawMerged.filter(related);
+  const dropped = rawMerged.filter((k) => !related(k));
+  if (dropped.length) {
+    console.log(`  [거름] 씨앗어와 무관해 버린 ${dropped.length}개: ${dropped.slice(0, 12).join(', ')}${dropped.length > 12 ? ' …' : ''}`);
+  }
+  naverResult.related = naverResult.related.filter(related);
+  googleResult.related = googleResult.related.filter(related);
+  googleResult.paa = googleResult.paa.filter(related);
 
   // 의도 분류
   const byIntent: Record<string, string[]> = {
