@@ -6,11 +6,12 @@
 ## 시스템 = 4단계 (이게 전부)
 
 ```
-시작:  npx tsx scripts/write.ts "{키워드}"     ← 어느 단계인지·다음 할 일을 알려준다
-1 타이틀   reference/titles/ 캡처를 Read → 실검색어(collect-keywords) 조각으로만 조립
-2 구성표   hero서론+소제목+버튼문구·목적지 → 채팅에 올려 승인받고 멈춤 (본문 금지)
-3 사실     Playwright로 1차 출처 열고 텍스트+화면캡처 대조 → 팩트시트
-4 마무리   npx tsx scripts/write.ts "{키워드}" --final  (게이트 11종 일괄) → 커밋
+시작:  npx tsx scripts/write.ts "{키워드}"          ← 어디까지 왔는지 + 지금 칠 명령 한 줄
+1 타이틀   --1            자음ㄱ~ㅎ 확장 수집 → 실검색어 조각으로 후보 조립 → 번호로 고른다
+           --pick {번호}  타이틀 확정 → 구성표·팩트시트 뼈대 자동 생성 (소제목은 실검색어)
+2 구성표   --2 로 빈칸 점검 → 채팅에 올려 승인 → --approve (도장: stage2-{slug}.json)
+3 사실     --3            구성표의 URL 을 전부 열어 추출본 저장 (짧으면 Playwright 로 재확보)
+4 마무리   --4            추출본 ↔ 완성글 대조 + 게이트 → 커밋
 ```
 
 건너뛰면 훅(`require-title-log.mjs`)이 저장을 막고, push는 `.githooks/pre-push`가 막는다.

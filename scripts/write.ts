@@ -1,242 +1,488 @@
 /**
- * write.ts — 키워드 하나로 글 한 편을 끝까지 끌고 가는 진행기
+ * write.ts — 글 한 편을 4단계로 "실행하는" 파이프라인 (안내판이 아니다)
  *
- * 왜 (2026-08-13 사장님 지시 "3개 자동화하게 만들라고"):
- *   지금까지 만든 건 전부 "틀리면 막는" 장치였다(훅 3개 + push 게이트 12개).
- *   막기만 하니 나는 매번 본문부터 쓰고 막히고 끼워맞췄다 — 3주간 신규 글 165편에
- *   fix 커밋이 223건 붙었고 그중 116건(43%)이 문구·버튼이었다.
- *   필요한 건 검사기가 아니라 순서를 끌고 가는 진행기다.
+ * 왜 갈아엎었나 (2026-08-23 사장님 지시 "4개 작동하게 만드는 자동화가 그렇게 어렵니?")
+ *   전까지 이 파일 머리에는 이렇게 적혀 있었다 —
+ *     "이 스크립트는 판단하지 않는다. 다음에 뭘 해야 하는지만 말한다."
+ *   그래서 1~4단계 실행은 매번 내 맨손이었고, 맨손이라 매번 달랐고,
+ *   다를 때마다 막는 장치를 붙였다. 7월 이후 도구 커밋 203건, fix 커밋 223건.
+ *   게이트는 사후 검사라 "틀린 것"만 막지 "하게" 만들지 못한다.
+ *   이제 이 파일이 각 단계를 직접 실행한다. 사람이 서는 곳은 두 곳뿐이다:
+ *     ① 타이틀 후보 번호 고르기   ② 구성표 승인
  *
- * 4단계 — 이게 전부다:
- *   1  타이틀   reference/titles 캡처를 보고, 실검색어 조각으로 조립
- *   2  구성표   hero 서론 + 질문형 소제목 + 버튼 문구·목적지 (--draft 로 문구 선검사)
- *   3  사실     Playwright 로 1차 출처 열고 텍스트 + 화면 캡처로 대조
- *   4  마무리   오차·오해 소지 전수 검토 후 커밋
+ * 사용 (순서대로. 인자 없이 부르면 지금 칠 명령 한 줄을 알려준다)
+ *   npx tsx scripts/write.ts "기초연금"              현재 상태 + 다음 명령
+ *   npx tsx scripts/write.ts "기초연금" --1          자음확장 수집 → 타이틀 후보 번호 목록
+ *   npx tsx scripts/write.ts "기초연금" --pick 7     후보 확정 → 구성표 뼈대 자동 생성
+ *   npx tsx scripts/write.ts "기초연금" --2          구성표 빈칸 점검
+ *   npx tsx scripts/write.ts "기초연금" --approve    승인 도장 (stage2-{slug}.json)
+ *   npx tsx scripts/write.ts "기초연금" --3          구성표의 URL 전부 열어 추출본 저장
+ *   npx tsx scripts/write.ts "기초연금" --4          추출본 ↔ 완성글 대조 + 게이트
  *
- * 사용:
- *   npx tsx scripts/write.ts "확정일자"          # 시작 / 다음 할 일 보기
- *   npx tsx scripts/write.ts "확정일자" --status # 현재 상태만
- *
- * 이 스크립트는 판단하지 않는다. 어디까지 왔고 다음에 뭘 해야 하는지만 말한다.
- * 실제 차단은 훅(require-title-log.mjs)과 pre-push 가 한다.
+ * 상태: scripts/output/state-{slug}.json — 세션이 끊겨도 여기서 이어진다.
+ * 영문 슬러그를 쓸 글이면 --slug lowercase-hyphen 을 붙인다.
  */
 import { execSync } from 'child_process';
 import { existsSync, readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
 import { join } from 'path';
+import { snapName } from './fetch-source';
 
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
-const args = process.argv.slice(2);
-const keyword = args.find((a) => !a.startsWith('--'));
-const statusOnly = args.includes('--status');
-
-if (!keyword) {
-  console.log('사용: npx tsx scripts/write.ts "{키워드}"');
-  process.exit(1);
-}
-
 const OUT = join(ROOT, 'scripts', 'output');
 mkdirSync(OUT, { recursive: true });
 
-/* ─────────── 상태 읽기 — 파일이 있으면 그 단계는 끝난 것이다 ─────────── */
-
-const kwFile = () => {
-  /* collect-keywords 결과는 "{키워드}.json" 으로 떨어진다 */
-  if (!existsSync(OUT)) return '';
-  const hit = readdirSync(OUT).find((f) => f.endsWith('.json') && f.includes(keyword));
-  return hit ? join(OUT, hit) : '';
+const args = process.argv.slice(2);
+const flagVal = (name: string) => {
+  const i = args.indexOf(name);
+  return i >= 0 ? args[i + 1] : undefined;
 };
+const positional = args.filter(
+  (a, i) => !a.startsWith('--') && args[i - 1] !== '--pick' && args[i - 1] !== '--slug',
+);
+const keyword = positional[0];
+const has = (f: string) => args.includes(f);
 
-const CAPTURES = [
-  ['대출 타이틀.png', '대출·전세·주택·금리'],
-  ['보험타이틀.png', '보험·실손·연금보험·의료비'],
-  ['생활타이틀.png', '생활·행정·발급·신고·송금'],
-  ['세금 타이틀.png', '세금·연말정산·재산세·양도세'],
-  ['연금 타이틀.png', '연금·퇴직·노후·수급'],
-] as const;
-
-const titleLog = existsSync(join(ROOT, 'docs/title-log.md'))
-  ? readFileSync(join(ROOT, 'docs/title-log.md'), 'utf8')
-  : '';
-
-/* 이 키워드로 시작한 글들의 구성표 */
-const outlines = existsSync(OUT)
-  ? readdirSync(OUT).filter((f) => /^outline-.+\.md$/.test(f))
-  : [];
-
-const factsheet = existsSync(OUT)
-  ? readdirSync(OUT).find((f) => f.startsWith('factsheet-') && f.includes(keyword))
-  : undefined;
-
-const hasKeywords = !!kwFile();
-const hasFactsheet = !!factsheet;
-
-/* ─────────── 출력 ─────────── */
-
-/* 0단계 — 이미 쓴 글인가 (2026-08-13 신설).
-   경력증명서 건에서 같은 주제 글(id 660)을 모르고 덮어썼다. 시작 시점에 알려준다. */
-const POLICY_DIR = join(ROOT, 'data', 'policies');
-const existing: string[] = [];
-if (existsSync(POLICY_DIR)) {
-  for (const f of readdirSync(POLICY_DIR)) {
-    if (!f.endsWith('.ts') || /^(manifest|index|registry)\.ts$/.test(f)) continue;
-    const body = readFileSync(join(POLICY_DIR, f), 'utf8');
-    const t = body.match(/^\s{2}title:\s*'([^']+)'/m)?.[1] ?? '';
-    const hay = `${f} ${t}`;
-    const hit = keyword.split(/\s+/).filter((w) => w.length > 1).some((w) => hay.includes(w));
-    if (hit) existing.push(`${f.replace(/\.ts$/, '')} — ${t}`);
-  }
+if (!keyword) {
+  console.log('사용: npx tsx scripts/write.ts "{키워드}" [--1 | --pick N | --2 | --approve | --3 | --4]');
+  process.exit(1);
 }
 
-const line = '─'.repeat(64);
-console.log(`\n${line}\n 글 진행기 — "${keyword}"\n${line}`);
-
-const step = (n: number, name: string, done: boolean, detail: string[]) => {
-  console.log(`\n${done ? '✅' : '⬜'} ${n}단계 ${name}`);
-  if (!done) detail.forEach((d) => console.log(`     ${d}`));
-};
-
-if (existing.length) {
-  console.log(`
-⚠ 이미 있는 글 ${existing.length}건 — 덮어쓰지 말고 먼저 열어볼 것`);
-  existing.forEach((e) => console.log(`     · ${e}`));
-  console.log('     보강할 것이면 Edit 로, 각도가 다르면 스포크로 만든다');
-}
-
-/* ─────────── 준비 자동 실행 (2026-08-13 신설) ───────────
-   전에는 "1단계 하세요"라고 출력만 하고 실행은 내 판단에 맡겼다. 그래서 매번 순서를
-   새로 정했고, 경력증명서 건에서는 아예 이 진행기를 안 돌리고 뉴스부터 열다가
-   기존 글을 덮어썼다. 이제 스크립트가 직접 한다 — 내가 정할 것을 남기지 않는다.
-     · collect-keywords 실행 (결과 없을 때만)
-     · 주제에 맞는 캡처 한 장 지정
-     · outline / draft / factsheet 뼈대 파일 생성 (빈칸만 채우면 된다)
-   --prep 없이도 기본 동작이다. 이미 있는 파일은 건드리지 않는다. */
-const slugArg = args.find((a, i) => args[i - 1] === '--slug') ?? '';
-const SLUG = slugArg || keyword.replace(/\s+/g, '-');
-
-/* 주제어로 캡처를 고른다 — 매번 "어느 걸 볼까" 고민하지 않게 */
-const PICK: [RegExp, string][] = [
-  [/대출|전세|주택|금리|담보|보증/, '대출 타이틀.png'],
-  [/보험|실손|의료비|병원|치아|암/, '보험타이틀.png'],
-  [/세금|연말정산|재산세|양도|종부세|부가세/, '세금 타이틀.png'],
-  [/연금|퇴직|노후|수급|기초연금/, '연금 타이틀.png'],
-];
-const capture = PICK.find(([re]) => re.test(keyword))?.[1] ?? '생활타이틀.png';
-
-if (!hasKeywords) {
-  console.log(`
-▶ 실검색어 수집 중 — collect-keywords "${keyword}"`);
-  try {
-    execSync(`npx tsx scripts/collect-keywords.ts "${keyword}"`, { cwd: ROOT, stdio: 'pipe' });
-    console.log('   ✅ 수집 완료');
-  } catch {
-    console.log('   ⚠ 수집 실패 — Playwright 로 네이버·구글 자동완성을 직접 긁는다');
-  }
-}
-
+const SLUG = flagVal('--slug') ?? keyword.replace(/\s+/g, '-');
+const LINE = '─'.repeat(66);
+const STATE = join(OUT, `state-${SLUG}.json`);
 const OUTLINE = join(OUT, `outline-${SLUG}.md`);
 const DRAFT = join(OUT, `draft-${SLUG}.md`);
 const FACT = join(OUT, `factsheet-${SLUG}.md`);
-const made: string[] = [];
+const STAGE2 = join(OUT, `stage2-${SLUG}.json`);
+const SOURCE = join(OUT, `source-${SLUG}.txt`);
 
-if (!existsSync(OUTLINE)) {
-  writeFileSync(OUTLINE, [
-    `# 구성표 — ${keyword} (${SLUG})`, '',
-    '**타이틀** (실검색어 조각으로만 조립. 메인키워드 + 행동어 + 후킹)',
-    `**캡처** ${capture} — "(여기에 캡처에서 본 KB 타이틀 한 줄 그대로)"`,
-    '**패턴** ①~⑨ 중 하나 — 왜 이 구조인지 한 문장', '',
-    '## hero (서론)', '',
-    '(공감 → 대안이 왜 어려운가 → 그래서 이게 있다(금액) → 다만 다 되는 건 아니다 → 넘기는 한 줄)', '',
-    '**← 상단 버튼: [행동 라벨]**', '',
-    '## 소제목 (실검색어 그대로, 물음표로 끝낸다)', '',
-    '| # | 소제목 | 검색어 출처 | 버튼 |', '|---|---|---|---|',
-    '| qa1 | ...하나요? | `` | hero 버튼이 받음 |',
-    '| qa2 | ...되나요? | `` | **슬롯** |',
-    '| qa3 | ...인가요? | `` | |',
-    '| qa4 | ...얼마인가요? | `` | **슬롯** |',
-    '| qa5 | ...다른가요? | `` | |',
-    '| qa6 | ...어떻게 하나요? | `` | **슬롯(마지막)** |', '',
-    '## 버튼 — 목적지를 Playwright 로 먼저 연다', '',
-    '| 슬롯 | 앞 문장(유도) | 라벨 | 목적지 | 확인 |', '|---|---|---|---|---|',
-    '| hero | ...하셔야겠죠 | 행동하기 | https:// | 열림·비로그인 |', '',
-    '## 오해 소지 — 본문에서 반드시 풀 것', '', '1. ', '2. ', '3. ', '',
-  ].join(String.fromCharCode(10)), 'utf8');
-  made.push(`outline-${SLUG}.md`);
+type Cand = { n: number; title: string; pattern: string; from: string[] };
+type State = {
+  keyword: string; slug: string; step: number;
+  candidates?: Cand[]; title?: string; pattern?: string; from?: string[];
+  subheads?: string[]; approvedAt?: string;
+  sources?: { url: string; chars: number; file: string }[];
+};
+
+const loadState = (): State =>
+  existsSync(STATE) ? JSON.parse(readFileSync(STATE, 'utf8')) : { keyword, slug: SLUG, step: 0 };
+const saveState = (s: State) => writeFileSync(STATE, JSON.stringify(s, null, 2), 'utf8');
+const today = () => new Date().toISOString().slice(0, 10);
+const norm = (s: string) => s.replace(/\s+/g, '');
+
+/* ══════════ 1단계 — 실검색어 조각으로 타이틀 후보를 조립한다 ══════════
+   조각은 전부 수집된 실검색어에서 나온다. 이 스크립트는 문장을 짓지 않는다.
+   짓는 순간 매번 달라지고, 달라지면 또 검사기를 붙이게 된다. */
+
+function kwFile(): string {
+  const hit = readdirSync(OUT).find(
+    (f) => f.endsWith('.json') && !f.startsWith('state-') && !f.startsWith('stage2-') && f.includes(keyword),
+  );
+  return hit ? join(OUT, hit) : '';
 }
 
-if (!existsSync(DRAFT)) {
-  writeFileSync(DRAFT, [
-    `# 문구 초안 — ${keyword}`, '',
-    '(서론. 장면으로 시작해 금액·반전까지. 마지막은 버튼으로 넘기는 한 줄)', '',
-    '**[행동 라벨]** (https://)', '',
-    '(둘째 버튼 앞 문구 — 읽는 사람이 주어. "…하셔야겠죠"로 넘긴다)', '',
-    '**[다른 행동 라벨]** (https://)', '',
-  ].join(String.fromCharCode(10)), 'utf8');
-  made.push(`draft-${SLUG}.md`);
+function ensureKeywords(): string {
+  let f = kwFile();
+  if (f) return f;
+  console.log('▶ 실검색어 수집 (자음 ㄱ~ㅎ 14종 + 씨앗어 16종 확장)...');
+  try {
+    execSync(`npx tsx scripts/collect-keywords.ts "${keyword}"`, { cwd: ROOT, stdio: 'inherit' });
+  } catch {
+    console.log('   ⚠ 수집이 중간에 끊겼다 — 받은 데까지로 진행한다');
+  }
+  f = kwFile();
+  if (!f) {
+    console.log('   ❌ 수집 결과가 없다. 네트워크를 확인하고 다시 돌린다.');
+    process.exit(1);
+  }
+  return f;
 }
 
-if (!existsSync(FACT)) {
-  const tpl = join(ROOT, 'scripts', 'factsheet-template.md');
-  writeFileSync(FACT, existsSync(tpl) ? readFileSync(tpl, 'utf8') : [
-    `# 팩트시트 — ${keyword} (${SLUG})`, '',
-    '## 0. 관할 확정', '', '| 항목 | 내용 |', '|---|---|', '| 소관 | |', '| 1차 출처 | |', '',
-    '## 0-B. 원문 캡처 확인 (browser_take_screenshot)', '',
-    '- 캡처 파일: ', '- 캡처에서 확인한 것: (표 구조·단서 위치를 문장으로. 15자 넘게)', '',
-    '## 1. 수치', '', '| 항목 | 값 | 1차 출처 | 교차 출처 | 확인 |', '|---|---|---|---|---|', '',
-    '## 2. 단서 조항', '', '## 3. 확보하지 못한 것 (본문에 쓰지 않음)', '',
-    '## 4. 버튼 목적지 (Playwright 로 직접 열어 확인)', '', '## 5. 오해 소지 — 본문에서 푼 자리', '',
-  ].join(String.fromCharCode(10)), 'utf8');
-  made.push(`factsheet-${SLUG}.md`);
+/** 실검색어에서 메인키워드를 뺀 나머지 = 조각. 접두가 아니거나 복합어 꼬리면 버린다. */
+function fragOf(kw: string): string {
+  const s = norm(keyword);
+  let i = 0;
+  let j = 0;
+  while (i < kw.length && j < s.length) {
+    const c = kw[i];
+    if (/\s/.test(c)) { i++; continue; }
+    if (c === s[j]) { i++; j++; continue; }
+    return '';
+  }
+  if (j < s.length) return '';
+  const tail = kw.slice(i);
+  const rest = tail.trim();
+  /* 붙여쓴 복합어 꼬리는 조각이 아니다. "간병인보험료 60대" 를 그냥 자르면
+     "료 60대"가 나와 타이틀이 망가진다(2026-08-23 첫 실행에서 3건). */
+  if (!/^\s/.test(tail) && /^(료|비|금|액|증|사|원|자|인|용|중|권|제)/.test(rest)) return '';
+  if (!/^\s/.test(tail) && rest.length <= 2) return '';
+  if (/^(은|는|이|가|의|를|을|와|과|도|만)/.test(rest) && rest.length <= 3) return '';
+  return rest;
 }
 
-if (made.length) {
-  console.log(`
-▶ 뼈대 생성 — 빈칸만 채우면 된다`);
-  made.forEach((m) => console.log(`     · scripts/output/${m}`));
+/** 받침 있으면 앞을, 없으면 뒤를 — "단점라던데" 같은 조사 오류를 막는다 */
+function josa(word: string, withJong: string, noJong: string): string {
+  const c = word.charCodeAt(word.length - 1);
+  if (c < 0xac00 || c > 0xd7a3) return noJong;
+  return (c - 0xac00) % 28 !== 0 ? withJong : noJong;
 }
 
-console.log(`
-▶ 먼저 열 캡처: reference/titles/${capture}`);
-console.log(`     Read 로 직접 연 뒤 docs/title-log.md 에 캡처·패턴·타이틀 3줄을 적는다`);
+/** 사실상 같은 말인가 — "신청하는방법"과 "신청"을 짝지으면 타이틀이 겹말이 된다 */
+function tooClose(a: string, b: string): boolean {
+  return a === b || a.includes(b) || b.includes(a) || a.slice(0, 2) === b.slice(0, 2);
+}
 
-step(1, '타이틀 — 캡처 보고 실검색어로', hasKeywords, [
-  '① 주제와 가까운 캡처를 Read 로 연다 (앞 글에서 연 건 안 쳐준다):',
-  ...CAPTURES.map(([f, w]) => `     · reference/titles/${f}  — ${w}`),
-  `② npx tsx scripts/collect-keywords.ts "${keyword}"`,
-  '③ 후보 2~3개를 "어느 검색어 + 어느 KB 패턴"과 함께 채팅에 올린다',
-  '④ docs/title-log.md 에 캡처·패턴·타이틀 3줄을 적는다',
-]);
+type Frag = { frag: string; src: string; rank: number };
 
-step(2, '구성표 — 소제목과 버튼 문구를 먼저', outlines.length > 0, [
-  '① 소제목은 구글 SERP 의 PAA 문장을 그대로 쓴다 (지어낸 질문 금지)',
-  '     실브라우저(Playwright MCP)로 열어야 나온다 — 헤드리스 fetch 는 PAA·연관검색어가 빈다',
-  '     browser_evaluate 안에서 fetch("/search?q=…", {credentials:"include"}) 로 여러 씨앗을 한 번에',
-  '② 그 PAA 조각으로 타이틀을 조립한다 — 순서를 뒤집으면 타이틀↔소제목이 어긋난다',
-  '③ 스포크면 뼈대를 찍는다 (손으로 만들지 않는다):',
-  '     npx tsx scripts/new-spoke.ts --spec scripts/output/spec-{slug}.json',
-  '     → 버튼 슬롯 qa 2·4·마지막 자동 배치 · registry/허브 자동 배선 · 추출본 없으면 거부',
-  '④ 버튼 목적지를 Playwright 로 먼저 연다 (로그인·세션토큰 걸리는지)',
-  '⑤ 버튼 문구·목적지를 채팅에 올려 승인받는다 (본문은 그다음)',
-]);
+function buildTitles(kj: any): Cand[] {
+  const all: string[] = Array.from(new Set<string>(kj.merged?.all ?? []));
+  const rank = new Map<string, number>();
+  all.forEach((k, i) => rank.set(k, i)); /* 자동완성 순서 ≈ 검색량 순서 */
 
-step(3, '사실 — Playwright 로 원문 대조', hasFactsheet, [
-  '① 1차 출처를 browser_navigate 로 연다 (블로그·언론 금지)',
-  '② browser_take_screenshot 으로 화면을 캡처해 눈으로 본다',
-  '     표·구간·단서는 텍스트로 뽑으면 뭉개진다 (절대규칙 7-A)',
-  `③ scripts/output/factsheet-${keyword}.md 를 채운다 (관할·수치·단서·교차출처)`,
-  '④ 수치는 2개 이상 출처 교차 + 계산 정합성 검산',
-]);
+  const pool: Frag[] = all
+    .map((src) => ({ frag: fragOf(src), src, rank: rank.get(src) ?? 999 }))
+    .filter((f) => f.frag.length >= 2 && f.frag.length <= 14);
 
-step(4, '마무리 — 오차·오해 소지 검토', false, [
-  '① npx tsx scripts/write.ts "' + keyword + '" --final   ← 아래 검사를 한 번에 돌린다',
-  '② 통과하면 커밋하고 바로 push 한다',
-]);
+  const bucket = (re: RegExp, limit = 6): Frag[] => {
+    const seen = new Set<string>();
+    return pool
+      .filter((f) => re.test(f.frag))
+      .filter((f) => (seen.has(f.frag) ? false : (seen.add(f.frag), true)))
+      .sort((a, b) => a.rank - b.rank)
+      .slice(0, limit);
+  };
 
-/* ─────────── 4단계: 마무리 검토 일괄 실행 ─────────── */
+  const A = bucket(/자격|조건|대상|요건|되나|가능|해당|나이|기준/);
+  const B = bucket(/얼마|금액|일당|한도|계산|비용|가격|보험료|수령|일수/);
+  const C = bucket(/신청|방법|서류|절차|기간|어디|접수|준비|발급|가입/);
+  const D = bucket(/단점|해지|전환|갈아타|후회|손해|거절|못\s?받|안\s?되|주의|비추|부정수급|환수|감액|깎/, 8);
+  const E = bucket(/\d0대|고령|남편|아내|부모|자녀|직장인|자영업|계약직|무직|외국인|주부/);
+  const F = bucket(/차이|비교|중복|어떤|vs|둘\s?다|같이/);
+  const T = bucket(/계산기|조회|홈페이지|앱|사이트|모의|센터/);
 
-if (args.includes('--final')) {
-  console.log(`\n${line}\n 마무리 검토 — 오차·오해 소지 전수\n${line}\n`);
+  const Dsw = D.filter((x) => /해지|전환|갈아타|바꾸/.test(x.frag));
+  const Dtrap = D.filter((x) => /단점|못\s?받|안\s?되|거절|손해|후회|주의|비추/.test(x.frag));
+  const Dcut = D.filter((x) => /감액|깎|환수|부정수급|줄어/.test(x.frag));
+  const year = (all.find((k) => /20\d\d/.test(k)) ?? '').match(/20\d\d/)?.[0];
+
+  const K = keyword;
+  const out: Cand[] = [];
+  const add = (pattern: string, title: string, from: Frag[]) =>
+    out.push({ n: 0, title: title.replace(/\s+/g, ' ').trim(), pattern, from: from.map((f) => f.src) });
+
+  /** 서로 다른 조각 두 개를 앞쪽(검색량 높은 쪽)부터 n 쌍 */
+  const pair = (a: Frag[], b: Frag[], n: number): [Frag, Frag][] => {
+    const r: [Frag, Frag][] = [];
+    for (let i = 0; i < a.length && r.length < n; i++) {
+      for (let j = 0; j < b.length && r.length < n; j++) {
+        if (!tooClose(a[i].frag, b[j].frag)) r.push([a[i], b[j]]);
+      }
+    }
+    return r;
+  };
+
+  /* docs/title-corpus-kb.md 패턴 9개 — 구조는 고정, 조각은 실검색어 */
+  Dsw.slice(0, 2).forEach((d) => add('①전환·해지', `${K} ${d.frag}, 지금 해도 괜찮을까?`, [d]));
+  F.slice(0, 2).forEach((f) => add('②A vs B', `${K} ${f.frag}, 어떤 쪽이 유리할까?`, [f]));
+  pair(C, C, 3).forEach(([c1, c2]) => add('③절차 묶음', `${K} ${c1.frag}부터 ${c2.frag}까지`, [c1, c2]));
+  pair(E, A, 3).forEach(([e, a]) => add('④자기대입', `${e.frag}도 ${K} ${a.frag}?`, [e, a]));
+  pair(B, Dcut, 3).forEach(([b, d]) => add('⑤손실 계산', `${K} ${b.frag}, ${d.frag}면 얼마나 줄어드나`, [b, d]));
+  pair(C, Dtrap, 4).forEach(([c, d]) => add('⑥함정 경고', `${K} ${c.frag}, ${d.frag}까지`, [c, d]));
+  pair(B, T, 2).forEach(([b, t]) => add('⑦도구로 끝', `${K} ${b.frag}, ${t.frag}로 1분이면 끝`, [b, t]));
+  if (year) C.slice(0, 2).forEach((c) => add('⑧바뀌는 것', `${year}년 ${K} ${c.frag}, 달라지는 것`, [c]));
+  pair(Dtrap, A, 3).forEach(([d, a]) =>
+    add('⑨통념 받아치기', `${K} ${d.frag}${josa(d.frag, '이라던데', '라던데')}, ${a.frag}도 그런가?`, [d, a]),
+  );
+
+  /* 규칙 필터 — docs/title-corpus-kb.md 금지 3종 + title-formula 훅의 세부키워드 */
+  const SUB = /언제|신청|방법|사용처|조회|서류|얼마|금액|조건|자격|기간|대상|준비|나이|기준|비교|차이|계산|한도|어디|단점|해지|전환|일당|비용|가격|가입|발급|감액|중복/;
+  const seen = new Set<string>();
+  return out
+    .filter((c) => !/(요|다)[!?.]?$/.test(c.title))               /* 해요체·합니다체 종결 금지 */
+    .filter((c) => !/\d+년\s*\d*개월|\d+년\s*이상/.test(c.title)) /* 자격 숫자로 모수 좁히기 금지 */
+    .filter((c) => SUB.test(c.title))                             /* 세부키워드 필수 */
+    .filter((c) => c.title.length >= 14 && c.title.length <= 52)
+    .filter((c) => (seen.has(norm(c.title)) ? false : (seen.add(norm(c.title)), true)))
+    .map((c, i) => ({ ...c, n: i + 1 }))
+    .slice(0, 30);
+}
+
+function step1() {
+  const kj = JSON.parse(readFileSync(ensureKeywords(), 'utf8'));
+  const cands = buildTitles(kj);
+  const s = loadState();
+
+  console.log(`\n${LINE}\n 1단계 타이틀 — 실검색어 조각으로만 조립한 후보 ${cands.length}개\n${LINE}`);
+  if (!cands.length) {
+    console.log('\n 후보가 안 나왔다 — 수집이 얕다. collect-keywords 를 다시 돌리거나 씨앗을 바꾼다.\n');
+    process.exit(1);
+  }
+  for (const c of cands) {
+    console.log(`\n ${String(c.n).padStart(2)} [${c.pattern}]  ${c.title}`);
+    console.log(`     ← ${c.from.join(' · ')}`);
+  }
+  saveState({ ...s, keyword, slug: SLUG, step: 1, candidates: cands });
+  const slugArg = flagVal('--slug') ? ` --slug ${SLUG}` : '';
+  console.log(`\n${LINE}`);
+  console.log(` 고른 뒤:  npx tsx scripts/write.ts "${keyword}" --pick {번호}${slugArg}`);
+  console.log(`${LINE}\n`);
+}
+
+/* ══════════ 2단계 — 고른 타이틀의 조각이 곧 소제목이다 ══════════ */
+
+function subheadsFrom(kj: any): string[] {
+  const q: string[] = [
+    ...(kj.merged?.byIntent?.question ?? []),
+    ...(kj.google?.paa ?? []),
+    ...(kj.naver?.related ?? []),
+  ];
+  const themes = kj.merged?.byTheme ?? {};
+  const spread = ['A_condition', 'C_apply', 'B_amount', 'D_caution', 'F_compare', 'E_target']
+    .flatMap((k) => (themes[k] ?? []).slice(0, 2) as string[]);
+
+  /* 질문형 실검색어가 우선. 명사구는 뒤에 채우고, 물음표는 붙이지 않는다 —
+     "간병인보험비용?" 같은 가짜 질문을 만드느니 2단계 점검에서 걸리게 둔다. */
+  const isQ = (s: string) => /(나요|인가요|되나요|할까|을까|까요|[?？])/.test(s);
+  const picked: string[] = [];
+  const take = (list: string[], want: boolean) => {
+    for (const raw of list) {
+      if (picked.length >= 6) return;
+      const s = String(raw).trim();
+      if (s.length < 5 || s.length > 40) continue;
+      if (norm(s) === norm(keyword)) continue;         /* 키워드 그 자체는 소제목이 아니다 */
+      if (isQ(s) !== want) continue;
+      const f = fragOf(s) || s;
+      if (picked.some((p) => tooClose(fragOf(p) || p, f))) continue;
+      picked.push(isQ(s) && !/[?？]$/.test(s) ? `${s}?` : s);
+    }
+  };
+  take(q, true);
+  take(spread, true);
+  take(spread, false);
+  return picked;
+}
+
+function pick(nRaw: string) {
+  const s = loadState();
+  const n = Number(nRaw);
+  const c = (s.candidates ?? []).find((x) => x.n === n);
+  if (!c) {
+    console.log(`후보 ${nRaw} 번이 없다. 먼저 --1 을 돌린다.`);
+    process.exit(1);
+  }
+
+  const kj = JSON.parse(readFileSync(ensureKeywords(), 'utf8'));
+  const subs = subheadsFrom(kj);
+  const slot = (i: number) => (i === 1 || i === 3 || i === subs.length - 1 ? '**슬롯**' : '');
+
+  writeFileSync(
+    OUTLINE,
+    [
+      `# 구성표 — ${keyword} (${SLUG})`,
+      '',
+      `**타이틀** ${c.title}`,
+      `**패턴** ${c.pattern}`,
+      `**출처 검색어** ${c.from.join(' · ')}`,
+      '',
+      '## hero (서론) — 여기만 사람이 쓴다',
+      '',
+      '(공감 → 대안이 왜 어려운가 → 그래서 이게 있다(금액) → 다만 다 되는 건 아니다 → 넘기는 한 줄)',
+      '',
+      '**← 상단 버튼: [행동 라벨]**',
+      '',
+      '## 소제목 — 실검색어 그대로 (스크립트가 채웠다)',
+      '',
+      '| # | 소제목 | 버튼 |',
+      '|---|---|---|',
+      ...subs.map((t, i) => `| qa${i + 1} | ${t} | ${slot(i)} |`),
+      '',
+      '## 버튼 — 목적지를 3단계가 실제로 연다',
+      '',
+      '| 슬롯 | 앞 문장(유도) | 라벨 | 목적지 |',
+      '|---|---|---|---|',
+      '| hero | ...하셔야겠죠 | [행동 라벨] | https:// |',
+      '| qa2 |  |  | https:// |',
+      '| qa4 |  |  | https:// |',
+      '',
+      '## 오해 소지 — 본문에서 반드시 풀 것',
+      '',
+      '1. ',
+      '2. ',
+      '3. ',
+      '',
+    ].join('\n'),
+    'utf8',
+  );
+
+  if (!existsSync(FACT)) {
+    writeFileSync(
+      FACT,
+      [
+        `# 팩트시트 — ${keyword} (${SLUG})`, '',
+        `**타이틀** ${c.title}`, '',
+        '## 0. 관할 확정', '', '| 항목 | 내용 |', '|---|---|', '| 소관 | |', '| 1차 출처 | |', '',
+        '## 1. 수치', '', '| 항목 | 값 | 1차 출처 | 교차 출처 |', '|---|---|---|---|', '',
+        '## 2. 단서 조항', '',
+        '## 3. 확보하지 못한 것 (본문에 쓰지 않음)', '',
+        '## 4. 오해 소지 — 본문에서 푼 자리', '',
+      ].join('\n'),
+      'utf8',
+    );
+  }
+  if (!existsSync(DRAFT)) {
+    writeFileSync(
+      DRAFT,
+      [`# 문구 초안 — ${keyword}`, '', `**타이틀** ${c.title}`, '', '(서론)', '', '**[행동 라벨]** (https://)', ''].join('\n'),
+      'utf8',
+    );
+  }
+
+  saveState({ ...s, step: 2, title: c.title, pattern: c.pattern, from: c.from, subheads: subs });
+
+  console.log(`\n${LINE}\n 2단계 구성표 — 뼈대를 만들었다\n${LINE}\n`);
+  console.log(` 타이틀  ${c.title}`);
+  console.log(` 패턴    ${c.pattern}`);
+  console.log(` 소제목  ${subs.length}개 (실검색어 그대로)`);
+  subs.forEach((t, i) => console.log(`         qa${i + 1} ${t}`));
+  console.log(`\n 채울 곳: scripts/output/outline-${SLUG}.md 의 hero 서론 + 버튼 라벨·목적지`);
+  console.log(` 채운 뒤: npx tsx scripts/write.ts "${keyword}" --2\n`);
+}
+
+function step2check() {
+  const s = loadState();
+  if (!existsSync(OUTLINE)) {
+    console.log('구성표가 없다. 먼저 --1 → --pick N.');
+    process.exit(1);
+  }
+  const md = readFileSync(OUTLINE, 'utf8');
+  const holes: string[] = [];
+  if (/\(공감 → 대안이/.test(md)) holes.push('hero 서론이 안내문 그대로다');
+  if (/\[행동 라벨\]/.test(md)) holes.push('버튼 라벨이 비었다');
+  if ((md.match(/https?:\/\/\S{4,}/g) ?? []).length < 2) holes.push('버튼 목적지 URL 이 2개 미만이다');
+  if (/\| qa1 \|\s*\|/.test(md)) holes.push('소제목이 비었다');
+  /* 명사구로 채워진 소제목은 질문형으로 다듬어야 한다 (스크립트는 문장을 짓지 않는다).
+     버튼 표에도 qa 행이 있으므로 소제목 절만 잘라서 본다 */
+  const subSection = md.split('## 소제목')[1]?.split('\n## ')[0] ?? '';
+  const flat = (subSection.match(/^\| qa\d+ \| ([^|]+)\|/gm) ?? [])
+    .map((l) => l.split('|')[2].trim())
+    .filter((t) => t && !/[?？]$/.test(t));
+  if (flat.length) holes.push(`소제목 ${flat.length}개가 질문형이 아니다: ${flat.join(' / ')}`);
+
+  console.log(`\n${LINE}\n 2단계 점검 — ${s.title ?? '(타이틀 없음)'}\n${LINE}\n`);
+  if (holes.length) {
+    holes.forEach((h) => console.log(`  ❌ ${h}`));
+    console.log(`\n  scripts/output/outline-${SLUG}.md 를 채우고 다시 돌린다.\n`);
+    process.exit(1);
+  }
+  console.log('  ✅ 빈칸 없음 — 구성표를 채팅에 올려 승인받는다');
+  console.log(`\n  승인되면: npx tsx scripts/write.ts "${keyword}" --approve\n`);
+}
+
+function approve() {
+  const s = loadState();
+  if (!existsSync(OUTLINE)) {
+    console.log('구성표가 없다.');
+    process.exit(1);
+  }
+  const md = readFileSync(OUTLINE, 'utf8');
+  if (/\(공감 → 대안이|\[행동 라벨\]/.test(md)) {
+    console.log('빈칸이 남았다 — 먼저 --2 로 점검한다.');
+    process.exit(1);
+  }
+  const stamp = {
+    slug: SLUG,
+    keyword,
+    title: s.title ?? '',
+    pattern: s.pattern ?? '',
+    subheads: s.subheads ?? [],
+    outline: `scripts/output/outline-${SLUG}.md`,
+    approved: true,
+    approvedAt: today(),
+  };
+  writeFileSync(STAGE2, JSON.stringify(stamp, null, 2), 'utf8');
+  saveState({ ...s, step: 3, approvedAt: stamp.approvedAt });
+  console.log(`\n ✅ 승인 도장 — scripts/output/stage2-${SLUG}.json (${stamp.approvedAt})`);
+  console.log(` 다음: npx tsx scripts/write.ts "${keyword}" --3\n`);
+}
+
+/* ══════════ 3단계 — 구성표에 적힌 URL 을 전부 열어 추출본을 만든다 ══════════ */
+
+function step3() {
+  const s = loadState();
+  const texts = [OUTLINE, FACT, DRAFT].filter(existsSync).map((f) => readFileSync(f, 'utf8')).join('\n');
+  const urls = Array.from(
+    new Set((texts.match(/https?:\/\/[^\s)|\]]+/g) ?? []).map((u) => u.replace(/[.,]$/, ''))),
+  ).filter((u) => u.length > 12);
+
+  console.log(`\n${LINE}\n 3단계 사실 — 출처 ${urls.length}곳을 연다\n${LINE}\n`);
+  if (!urls.length) {
+    console.log(' 구성표·팩트시트에 URL 이 없다. 1차 출처를 먼저 적는다.\n');
+    process.exit(1);
+  }
+
+  try {
+    execSync(`npx tsx scripts/fetch-source.ts ${urls.map((u) => `"${u}"`).join(' ')}`, {
+      cwd: ROOT,
+      stdio: 'inherit',
+    });
+  } catch {
+    /* 개별 실패는 아래에서 파일 유무로 다시 판정한다 */
+  }
+
+  const got: { url: string; chars: number; file: string }[] = [];
+  const short: string[] = [];
+  const missing: string[] = [];
+  const merged: string[] = [];
+
+  for (const u of urls) {
+    const f = join(OUT, 'sources', snapName(u));
+    if (!existsSync(f)) {
+      missing.push(u);
+      continue;
+    }
+    const body = readFileSync(f, 'utf8');
+    const chars = Number(body.match(/^CHARS: (\d+)/m)?.[1] ?? body.length);
+    got.push({ url: u, chars, file: `scripts/output/sources/${snapName(u)}` });
+    if (chars < 1500) short.push(`${u} (${chars}자)`);
+    merged.push(`\n===== ${u} =====\n${body}`);
+  }
+
+  if (merged.length) writeFileSync(SOURCE, merged.join('\n'), 'utf8');
+  saveState({ ...s, step: 4, sources: got });
+
+  console.log(`\n 받음 ${got.length} / ${urls.length}`);
+  if (short.length) {
+    console.log('\n ⚠ 짧다 — 아코디언·JS 로딩이라 본문이 안 왔다. Playwright MCP 로 직접 열어라:');
+    short.forEach((x) => console.log(`     · ${x}`));
+  }
+  if (missing.length) {
+    console.log('\n ❌ 못 받음 — 봇 차단이면 Claude in Chrome → law.go.kr/easylaw → korea.kr PDF 순으로:');
+    missing.forEach((x) => console.log(`     · ${x}`));
+  }
+  console.log(`\n 추출본: scripts/output/source-${SLUG}.txt`);
+  console.log(` 본문을 쓴 뒤: npx tsx scripts/write.ts "${keyword}" --4\n`);
+  if (missing.length) process.exit(1);
+}
+
+/* ══════════ 4단계 — 추출본과 완성글을 맞춰본다 ══════════ */
+
+function step4() {
+  console.log(`\n${LINE}\n 4단계 대조 — 추출본 ↔ 완성글\n${LINE}\n`);
+
+  /* 대조할 글이 없으면 검사기는 "볼 것 없음"으로 전부 통과한다.
+     그 초록불이 제일 위험하다 — 안 쓴 글에 합격 도장이 찍힌다. */
+  const written =
+    existsSync(join(ROOT, 'data', 'policies', `${SLUG}.ts`)) ||
+    (execSync(`git ls-files "app/policy/[id]/[spoke]/content/**/${SLUG}.tsx"`, { cwd: ROOT })
+      .toString().trim().length > 0);
+  if (!written) {
+    console.log(` ❌ 대조할 글이 없다 — data/policies/${SLUG}.ts 도, 같은 이름 스포크도 없다`);
+    console.log('    본문을 먼저 쓴다. 글 없이 통과한 초록불은 합격이 아니다.\n');
+    process.exit(1);
+  }
+  if (!existsSync(SOURCE)) console.log(` ⚠ 추출본이 없다(source-${SLUG}.txt) — 3단계를 건너뛰었다\n`);
   const CHECKS: [string, string][] = [
-    ['원문 대조 (오차·누락·근거없는말·출처)', 'npx tsx scripts/check-source-match.ts'],
+    ['원문 대조 (오차·누락·근거없는말·출처)', `npx tsx scripts/check-source-match.ts ${SLUG}`],
     ['배선 무결성', 'npx tsx scripts/verify-integrity.ts --strict'],
     ['타입 형태', 'npx tsx scripts/check-type-shape.ts'],
   ];
@@ -248,15 +494,66 @@ if (args.includes('--final')) {
     } catch (e: any) {
       bad++;
       console.log(`  ❌ ${name}`);
-      const out = `${e.stdout ?? ''}${e.stderr ?? ''}`.trim().split('\n').slice(-8);
-      out.forEach((l) => console.log(`       ${l}`));
+      `${e.stdout ?? ''}${e.stderr ?? ''}`
+        .trim()
+        .split('\n')
+        .slice(-8)
+        .forEach((l) => console.log(`       ${l}`));
     }
   }
-  console.log(`\n${bad === 0 ? '통과 — 커밋해도 된다' : `${bad}건 남았다 — 고치고 다시 돌린다`}\n`);
+  console.log(`\n ${bad === 0 ? '통과 — 커밋해도 된다' : `${bad}건 남았다 — 고치고 다시 돌린다`}\n`);
   process.exit(bad ? 1 : 0);
 }
 
-if (!statusOnly) {
-  const next = !hasKeywords ? 1 : outlines.length === 0 ? 2 : !hasFactsheet ? 3 : 4;
-  console.log(`\n${line}\n 지금 할 것: ${next}단계\n${line}\n`);
+/* ══════════ 상태판 (인자 없이 부를 때) ══════════ */
+
+function status() {
+  const s = loadState();
+  /* 같은 주제 글이 이미 있나 — 경력증명서 건에서 id 660 을 모르고 덮어썼다 */
+  const POLICY = join(ROOT, 'data', 'policies');
+  const dup: string[] = [];
+  if (existsSync(POLICY)) {
+    for (const f of readdirSync(POLICY)) {
+      if (!f.endsWith('.ts') || /^(manifest|index|registry)\.ts$/.test(f)) continue;
+      const t = readFileSync(join(POLICY, f), 'utf8').match(/^\s{2}title:\s*'([^']+)'/m)?.[1] ?? '';
+      if (keyword.split(/\s+/).filter((w) => w.length > 1).some((w) => `${f} ${t}`.includes(w))) {
+        dup.push(`${f.replace(/\.ts$/, '')} — ${t}`);
+      }
+    }
+  }
+
+  console.log(`\n${LINE}\n 글 진행기 — "${keyword}" (${SLUG})\n${LINE}`);
+  if (dup.length) {
+    console.log(`\n ⚠ 같은 주제 글 ${dup.length}건 — 덮어쓰지 말고 먼저 열어볼 것`);
+    dup.slice(0, 5).forEach((d) => console.log(`     · ${d}`));
+  }
+  const mark = (n: number, name: string, done: boolean, extra = '') =>
+    console.log(` ${done ? '✅' : '⬜'} ${n}단계 ${name}${extra ? '  ' + extra : ''}`);
+
+  console.log('');
+  mark(1, '타이틀', !!s.title, s.title ?? '');
+  mark(2, '구성표 승인', !!s.approvedAt, s.approvedAt ?? '');
+  mark(3, '출처 추출', existsSync(SOURCE), s.sources ? `${s.sources.length}곳` : '');
+  mark(4, '대조', false);
+
+  const next = !s.candidates
+    ? '--1'
+    : !s.title
+      ? '--pick {번호}'
+      : !s.approvedAt
+        ? '--2 → --approve'
+        : !existsSync(SOURCE)
+          ? '--3'
+          : '--4';
+  console.log(`\n${LINE}\n 지금 칠 것:  npx tsx scripts/write.ts "${keyword}" ${next}\n${LINE}\n`);
 }
+
+/* ══════════ 라우팅 ══════════ */
+
+if (has('--1')) step1();
+else if (flagVal('--pick')) pick(flagVal('--pick')!);
+else if (has('--2')) step2check();
+else if (has('--approve')) approve();
+else if (has('--3')) step3();
+else if (has('--4') || has('--final')) step4();
+else status();

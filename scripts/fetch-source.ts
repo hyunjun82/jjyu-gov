@@ -48,7 +48,12 @@ async function one(url: string) {
   return true;
 }
 
+/* write.ts 가 snapName 을 import 한다 — 직접 실행할 때만 돈다.
+   가드가 없으면 import 만 해도 "사용법" 을 찍고 exit(2) 로 죽는다. */
+const directRun = require.main === module;
+
 (async () => {
+  if (!directRun) return;
   const urls = process.argv.slice(2).filter((a) => /^https?:\/\//.test(a));
   if (!urls.length) { console.error('사용법: npx tsx scripts/fetch-source.ts <URL> [URL...]'); process.exit(2); }
   let ok = 0;
