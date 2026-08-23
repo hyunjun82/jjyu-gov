@@ -95,4 +95,24 @@ if [ $SL -ne 0 ]; then
   exit $SL
 fi
 
+# ── ⑥ 수치 ↔ 출처 대조 (2026-08-23 신설) ──
+# 링크가 200 인 것과 그 페이지에 이 숫자가 있는 것은 다른 말이다.
+# 손보협회 FAQ 를 innerText 로 907자만 읽고 "근거 없다"고 오판한 날 만들었다.
+# 이번 push 로 바뀐 콘텐츠 파일만 본다 — 옛 글 223건까지 한꺼번에 막으면 게이트가 꺼진다.
+CHANGED=$(git diff --name-only --diff-filter=ACM origin/main...HEAD -- 'app/policy/*/content/**/*.tsx' 2>/dev/null)
+if [ -n "$CHANGED" ]; then
+  echo "🔍 수치 ↔ 출처 대조 중 (바뀐 글만)..."
+  FILES=()
+  while IFS= read -r f; do [ -n "$f" ] && FILES+=("$f"); done <<< "$CHANGED"
+  npx tsx "$ROOT/scripts/check-source-backing.ts" "${FILES[@]}"
+  SB=$?
+  if [ $SB -ne 0 ]; then
+    echo ""
+    echo "🚫 push 차단됨 — 출처 저장본에 없는 수치가 있다"
+    echo "   저장본이 비어서 못 읽은 것이면 먼저: npx tsx scripts/fetch-source.ts <URL>"
+    echo "   (무시하려면: git push --no-verify)"
+    exit $SB
+  fi
+fi
+
 exit 0

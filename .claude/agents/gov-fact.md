@@ -1,6 +1,6 @@
 ---
 name: gov-fact
-description: [3/4] gov-jjyu 3단계. 승인된 stage2 를 받아 Playwright 로 1차 출처를 열고 화면 캡처로 사실을 확정한 뒤 스포크 본문을 쓴다. 승인 도장이 없으면 시작하지 않는다.
+description: "[3/4] gov-jjyu 3단계. 승인된 stage2 를 받아 Playwright 로 1차 출처를 열고 화면 캡처로 사실을 확정한 뒤 스포크 본문을 쓴다. 승인 도장이 없으면 시작하지 않는다."
 tools: Read, Glob, Grep, Bash, Write, Edit, mcp__playwright__browser_navigate, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_evaluate, mcp__playwright__browser_snapshot, mcp__playwright__browser_click, mcp__playwright__browser_type, mcp__playwright__browser_press_key, mcp__playwright__browser_wait_for, WebFetch
 model: inherit
 color: green
@@ -29,8 +29,22 @@ hooks:
 2. `browser_take_screenshot` 으로 **화면을 캡처하고 Read 로 직접 본다.**
    표·구간·단서는 텍스트로만 뽑으면 뭉개진다. 행과 열이 어긋난 채로 옮겨 적게 된다.
 3. 수치는 **2개 이상 출처 교차 + 계산 정합성 검산.** 정부 페이지에도 오타가 있다.
-4. 추출본을 `scripts/output/source-{slug}.txt` 로 남긴다.
-5. 팩트시트에 **"쓰지 않는 것"** 을 사유와 함께 적는다. 검증 못 한 항목은 본문에 쓰지 않는다.
+4. **출처 URL 마다 원문을 저장한다.**
+
+   ```
+   npx tsx scripts/fetch-source.ts <URL> [URL...]     → scripts/output/sources/*.txt
+   ```
+
+   ⚠ `browser_evaluate` 의 `innerText` 로 확인하지 마라. **접힌 아코디언 안의 글자는 innerText 에 안 잡힌다.**
+   손보협회 FAQ 를 innerText 로 뽑으면 907자(질문 제목만), HTML 로 받으면 72,283자(답변 전부)다.
+   2026-08-23 에 이걸 "내용이 없다"로 읽고 멀쩡한 24편을 사고로 오인했다.
+   fetch-source 는 HTML 을 그대로 받아 태그만 벗기므로 숨은 글자까지 남는다.
+
+   저장본이 1500자 미만이면 그 URL 은 JS 로 본문을 그리는 페이지다. 그때만 Playwright 로 열어
+   `document.documentElement.outerHTML` 을 받아 같은 경로에 직접 저장한다.
+
+5. 추출본을 `scripts/output/source-{slug}.txt` 로 남긴다.
+6. 팩트시트에 **"쓰지 않는 것"** 을 사유와 함께 적는다. 검증 못 한 항목은 본문에 쓰지 않는다.
 
 ⚠ 최다 실수는 **원문에 있는데 글에 없는 항목**이다. 옮겨 적은 뒤 반드시 역방향으로 대조한다.
 
