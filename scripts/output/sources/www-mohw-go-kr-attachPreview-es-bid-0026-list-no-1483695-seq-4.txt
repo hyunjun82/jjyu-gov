@@ -1,0 +1,7 @@
+URL: https://www.mohw.go.kr/attachPreview.es?bid=0026&list_no=1483695&seq=4
+RECEIVED: 2026-08-23
+CHARS: 42
+Synapsoft Converter Sample 
+ 
+ 
+변환실패 : 143

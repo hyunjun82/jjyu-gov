@@ -357,6 +357,7 @@ import { nationalPensionLumpSumPolicy, nationalPensionLumpSumSpokes } from './na
 import { jeonseRightRegistrationPolicy, jeonseRightRegistrationSpokes } from './jeonse-right-registration';
 import { minimumWage2027Policy, minimumWage2027Spokes } from './minimum-wage-2027';
 import { indemnityInsuranceGenerationsPolicy, indemnityInsuranceGenerationsSpokes } from './indemnity-insurance-generations';
+import { caregiverInsurancePolicy, caregiverInsuranceSpokes } from './caregiver-insurance';
 import { savingsLadderStrategyPolicy, savingsLadderStrategySpokes } from './savings-ladder-strategy';
 import { autoInsuranceLossRatioPolicy, autoInsuranceLossRatioSpokes } from './auto-insurance-loss-ratio';
 import { housingPensionPolicy, housingPensionSpokes } from './housing-pension';
@@ -1014,6 +1015,7 @@ export const PoliciesById: Record<string, any> = {
   '231': jeonseRightRegistrationPolicy,
   '232': minimumWage2027Policy,
   '233': indemnityInsuranceGenerationsPolicy,
+  '752': caregiverInsurancePolicy,
   '234': savingsLadderStrategyPolicy,
   '235': autoInsuranceLossRatioPolicy,
   '236': housingPensionPolicy,
@@ -1717,6 +1719,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'jeonse-right-registration': jeonseRightRegistrationPolicy,
   'minimum-wage-2027': minimumWage2027Policy,
   'indemnity-insurance-generations': indemnityInsuranceGenerationsPolicy,
+  'caregiver-insurance': caregiverInsurancePolicy,
   'savings-ladder-strategy': savingsLadderStrategyPolicy,
   'auto-insurance-loss-ratio': autoInsuranceLossRatioPolicy,
   'housing-pension': housingPensionPolicy,
@@ -2508,6 +2511,7 @@ export const SpokesById: Record<string, any[]> = {
   '231': jeonseRightRegistrationSpokes,
   '232': minimumWage2027Spokes,
   '233': indemnityInsuranceGenerationsSpokes,
+  '752': caregiverInsuranceSpokes,
   '234': savingsLadderStrategySpokes,
   '235': autoInsuranceLossRatioSpokes,
   '236': housingPensionSpokes,
@@ -3235,6 +3239,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'jeonse-right-registration': jeonseRightRegistrationSpokes,
   'minimum-wage-2027': minimumWage2027Spokes,
   'indemnity-insurance-generations': indemnityInsuranceGenerationsSpokes,
+  'caregiver-insurance': caregiverInsuranceSpokes,
   'savings-ladder-strategy': savingsLadderStrategySpokes,
   'auto-insurance-loss-ratio': autoInsuranceLossRatioSpokes,
   'housing-pension': housingPensionSpokes,

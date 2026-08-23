@@ -35,11 +35,20 @@ const canonMoney = (s: string) =>
    .replace(/(\d+(?:\.\d+)?)천\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e3)}원`)
    .replace(/['’‘]\s*(\d{2})\s*(?=[.년])/g, (_, y) => `20${y}년`);
 
-/** 한 토큰이 풀 안에 있는가 — 원표기·금액 환산·"100분의 N" 3가지로 본다 */
+/** 날짜 표기 통일 (2026-08-23 신설).
+ *  글은 "2026년 5월 6일"로 쓰고 원문은 "2026.5.6"으로 적는다. 같은 날인데 토큰이 달라
+ *  매번 오차로 떴다 — 간병인보험 한 편에서만 2026년·6일·2025년·9일·23일 다섯 개가
+ *  오탐이었다. 오탐이 쌓이면 사람이 게이트를 끄게 된다. 점 표기를 년월일로 편다. */
+const canonDate = (s: string) =>
+  s.replace(/(\d{4})\s*\.\s*(\d{1,2})\s*\.\s*(\d{1,2})\.?/g, (_, y, m, d) => `${y}년${+m}월${+d}일`)
+   .replace(/(\d{4})-(\d{2})-(\d{2})/g, (_, y, m, d) => `${y}년${+m}월${+d}일`); /* 추출본 머리의 RECEIVED: 2026-08-23 = 검수일 */
+
+/** 한 토큰이 풀 안에 있는가 — 원표기·금액 환산·날짜 표기·"100분의 N" 4가지로 본다 */
 const inPool = (tok: string, npool: string, npoolCanon: string): boolean => {
   const k = norm(tok);
   if (npool.includes(k)) return true;
   if (npoolCanon.includes(canonMoney(k))) return true;
+  if (canonDate(npool).includes(k)) return true;
   const m = k.match(/^([\d.]+)(%|퍼센트)$/);
   if (m && npool.includes(`100분의${m[1]}`)) return true;
   return false;
