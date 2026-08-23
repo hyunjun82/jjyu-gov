@@ -344,14 +344,18 @@ async function main() {
     ...bingResult.autocomplete,
     ...daumResult.autocomplete,
   ]);
-  const allMerged = rawMerged.filter(related);
-  const dropped = rawMerged.filter((k) => !related(k));
-  if (dropped.length) {
-    console.log(`  [거름] 씨앗어와 무관해 버린 ${dropped.length}개: ${dropped.slice(0, 12).join(', ')}${dropped.length > 12 ? ' …' : ''}`);
+  const allMerged = rawMerged;
+  const odd = rawMerged.filter((k) => !related(k));
+  if (odd.length) {
+    console.log(`  ⚠ 씨앗어와 글자가 안 겹치는 ${odd.length}개 — 급상승어가 섞였는지 눈으로 볼 것:`);
+    console.log(`     ${odd.slice(0, 15).join(', ')}${odd.length > 15 ? ' …' : ''}`);
   }
-  naverResult.related = naverResult.related.filter(related);
-  googleResult.related = googleResult.related.filter(related);
-  googleResult.paa = googleResult.paa.filter(related);
+  /* 여기서 지우지 않는다 (2026-08-23).
+     한 번 지워봤더니 "상속세→증여세", "체당금→대지급금", "근로장려금→eitc",
+     "도수치료→추나요법" 처럼 낱말이 다른 정당한 연관검색어가 같이 죽었다.
+     연관검색어는 원래 다른 말이 나오는 자리다 — 급상승어와 기계로 못 가른다.
+     막는 자리는 두 곳이다: ① 수집 시점 셀렉터(위 collectNaver) ② 쓰는 시점(write.ts).
+     여기는 사람에게 보여만 준다. */
 
   // 의도 분류
   const byIntent: Record<string, string[]> = {

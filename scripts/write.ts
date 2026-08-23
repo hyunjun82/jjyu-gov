@@ -243,6 +243,16 @@ function subheadsFrom(kj: any): string[] {
   /* 질문형 실검색어가 우선. 명사구는 뒤에 채우고, 물음표는 붙이지 않는다 —
      "간병인보험비용?" 같은 가짜 질문을 만드느니 2단계 점검에서 걸리게 둔다. */
   const isQ = (s: string) => /(나요|인가요|되나요|할까|을까|까요|[?？])/.test(s);
+
+  /* 수집본에 실시간 급상승어가 섞여 있을 수 있다(2026-06-26~08-23 셀렉터 버그).
+     타이틀은 fragOf 가 씨앗 접두만 받아서 애초에 안 들어가지만, 소제목은 뚫린다.
+     쓰는 자리에서 막는다 — 수집본을 지우면 정당한 연관어까지 죽는다. */
+  const bigrams = (x: string) => {
+    const t = x.replace(/\s+/g, '');
+    return Array.from({ length: Math.max(0, t.length - 1) }, (_, i) => t.slice(i, i + 2));
+  };
+  const seedGrams = new Set(bigrams(keyword));
+  const onTopic = (s: string) => bigrams(s).some((g) => seedGrams.has(g));
   const picked: string[] = [];
   const take = (list: string[], want: boolean) => {
     for (const raw of list) {
@@ -250,6 +260,7 @@ function subheadsFrom(kj: any): string[] {
       const s = String(raw).trim();
       if (s.length < 5 || s.length > 40) continue;
       if (norm(s) === norm(keyword)) continue;         /* 키워드 그 자체는 소제목이 아니다 */
+      if (!onTopic(s)) continue;                       /* 급상승어 오염 차단 */
       if (isQ(s) !== want) continue;
       const f = fragOf(s) || s;
       if (picked.some((p) => tooClose(fragOf(p) || p, f))) continue;
