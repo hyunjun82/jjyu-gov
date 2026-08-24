@@ -75,11 +75,20 @@ fs.mkdirSync(SHOTS, { recursive: true });
   await browser.close();
 
   if (parts.length) {
+    const file = path.join(OUT, `source-${slug}.txt`);
     const head =
       `SLUG: ${slug}\nRECEIVED: ${new Date().toISOString().slice(0, 10)}\n` +
       `CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)\n` +
       `SHOTS: ${parts.length}장 (scripts/output/captures/${slug}-*.png)\n`;
-    fs.writeFileSync(path.join(OUT, `source-${slug}.txt`), head + parts.join('\n'), 'utf8');
+    /* 이미 있는 추출본을 덮지 않는다 (2026-08-24).
+       한 번 덮었더니 앞 세션이 뜬 공시 표 35KB 와 PDF 전문이 날아가
+       원문 대조가 통째로 깨졌다. 새로 뜬 것을 위에 얹고 옛것은 아래에 남긴다. */
+    const before = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+    const keep = before
+      ? `\n\n===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====\n${before}`
+      : '';
+    fs.writeFileSync(file, head + parts.join('\n') + keep, 'utf8');
+    if (before) console.log('  ↳ 기존 추출본 ' + before.length + '자는 아래에 그대로 남겼다');
   }
 
   console.log(`\n받음 ${ok} / ${urls.length}`);
