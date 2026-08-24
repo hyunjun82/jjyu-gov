@@ -87,7 +87,7 @@ export const 간병인보험청구서류SpokeContent: SpokeData = {
       act: {
         cue: '서류가 걸리면 결국 담보 자체가 어떤 조건인지까지 다시 보게 되는데요',
         label: '간병인보험 지급 조건부터 다시 보기',
-        url: HUB,
+        url: '/policy/caregiver-insurance/caregiver-insurance-terms',
       },
       sourceNote: '* 출처: 금융감독원 2025.4.9 민원사례 약관 예시 원문 (2026-08-24 확인)',
     },

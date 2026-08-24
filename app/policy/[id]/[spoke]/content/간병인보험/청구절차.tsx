@@ -70,7 +70,7 @@ export const 간병인보험청구절차SpokeContent: SpokeData = {
       act: {
         cue: '늦게 챙기면 영수증 조건을 못 맞추니, 어떤 영수증이라야 인정되는지부터 보고 가시는 게 안전한데요',
         label: '인정되는 영수증 조건 확인하기',
-        url: FSS_MINWON,
+        url: '/policy/caregiver-insurance/caregiver-insurance-documents',
       },
       sourceNote: '* 출처: 국가법령정보센터 별표15 표준약관 / 금융감독원 2025.4.9 민원사례 (2026-08-24 확인)',
     },
