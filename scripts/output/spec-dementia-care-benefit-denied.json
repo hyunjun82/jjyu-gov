@@ -1,0 +1,29 @@
+{
+  "slug": "dementia-care-benefit-denied",
+  "policyDir": "간병인보험",
+  "fileName": "치매지급거절",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "eligibility",
+  "h1": "치매 보험금 0원 vs 3천만원, 청구 기준 모르면 손해",
+  "breadcrumb": "치매 지급 거절",
+  "description": "치매 관련 보험금이 0원과 3천만원으로 갈리는 자리를 금융감독원 소비자 유의사항과 손해보험협회 공시 원문으로 정리했습니다. 약관상 치매상태 기준에 해당하지 않으면 치매 간병비는 나오지 않습니다.",
+  "sourceFile": "scripts/output/source-dementia-care-benefit-denied.txt",
+  "sourceName": "금융감독원 2025.4.9 소비자 유의사항 · 손해보험협회 상품비교공시",
+  "sourceUrl": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=192849&menuNo=200218",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "치매인데 간병비가 왜 안 나오나요?",
+    "약관상 치매상태 기준이 뭔가요?",
+    "치매진단비는 얼마나 나오나요?",
+    "치매 보험금 청구하려면 뭐가 필요한가요?",
+    "거절당하면 어떻게 해야 하나요?"
+  ],
+  "faq": [
+    "진단서만 있으면 되나요?",
+    "경증 치매도 나오나요?",
+    "장기요양등급을 받으면 자동으로 나오나요?",
+    "간병인을 안 썼는데 치매 간병비가 나오나요?",
+    "치매 진단 후에 가입해도 되나요?"
+  ]
+}

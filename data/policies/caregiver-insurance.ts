@@ -322,6 +322,7 @@ export const caregiverInsurancePolicy = {
 };
 
 export const caregiverInsuranceSpokes = [
+  { slug: 'dementia-care-benefit-denied', role: 'eligibility', title: '치매 보험금 0원 vs 3천만원, 청구 기준 모르면 손해' },
   { slug: 'caregiver-insurance-hospital-type', role: 'eligibility', title: '간병인보험 한방병원 입원도 청구되나? 181일째부터 제외되는 기준' },
   { slug: 'caregiver-insurance-dementia', role: 'amount', title: '치매간병비 보험 청구 방법, 간병인 일당과 진단비 중 뭐가 깎이나' },
   { slug: 'hospital-caregiving-standard', role: 'eligibility', title: '요양병원 간병비 지원 대상 신청, 전국 19개소만 되나?' },
