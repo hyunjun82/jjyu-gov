@@ -1435,6 +1435,7 @@ import { 간병인보험계약조건SpokeContent } from '@/app/policy/[id]/[spok
 import { 간병인보험개념차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/개념차이';
 import { 간병인보험가족간병SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/가족간병';
 import { 간병인보험해지환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/해지환급';
+import { 간병인보험가입나이SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/가입나이';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -3139,6 +3140,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'caregiver-insurance': {
+    'caregiver-insurance-age-limit': 간병인보험가입나이SpokeContent,
     'caregiver-insurance-surrender': 간병인보험해지환급SpokeContent,
     'caregiver-insurance-family': 간병인보험가족간병SpokeContent,
     'caregiver-insurance-basics': 간병인보험개념차이SpokeContent,

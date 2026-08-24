@@ -322,6 +322,7 @@ export const caregiverInsurancePolicy = {
 };
 
 export const caregiverInsuranceSpokes = [
+  { slug: 'caregiver-insurance-age-limit', role: 'eligibility', title: '간병인보험 가입 나이 조회, 공시에 상한이 왜 안 나오나?' },
   { slug: 'caregiver-insurance-surrender', role: 'deadline', title: '간병인보험 해지환급금 얼마나 돌려받나? 미지급형이면 0원' },
   { slug: 'caregiver-insurance-family', role: 'eligibility', title: '간병인보험 가족간병 조건, 가족이 하면 못 받나?' },
   { slug: 'caregiver-insurance-basics', role: 'info', title: '간병인보험과 간병보험 차이, 실손엔 왜 간병비가 없나?' },
