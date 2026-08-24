@@ -15,7 +15,7 @@ const MOHW_0616 = 'https://www.korea.kr/briefing/pressReleaseView.do?newsId=1567
 const HUB = '/policy/caregiver-insurance';
 
 export const 간병인보험요양병원간병지원SpokeContent: SpokeData = {
-  h1: '요양병원 간병비 지원 시범사업 신청 조건, 중증환자 아니면 제외',
+  h1: '요양병원 간병비 지원 대상 신청, 전국 19개소만 되나?',
   breadcrumb: '요양병원 간병비 지원',
   description:
     '요양병원 간병지원 시범사업의 대상과 운영 범위를 보건복지부 보도참고자료 원문으로 정리했습니다. 통합판정 심의를 통과한 중증환자 대상, 10개 지역 19개소에서 운영 중입니다.',
@@ -88,7 +88,7 @@ export const 간병인보험요양병원간병지원SpokeContent: SpokeData = {
         '당장 계산이 필요하면 민영 담보 조건도 함께 봐야 한다',
       ],
       act: {
-        cue: '지금 당장 얼마가 필요한지 따져보실 거라면 민영 쪽 지급 조건도 같이 보셔야겠죠',
+        cue: '지금 당장 얼마가 필요한지 따져보실 거라면 민영 쪽 지급 조건이 함께 걸립니다',
         label: '간병인보험 일당·감액 조건 보기',
         url: '/policy/caregiver-insurance/caregiver-insurance-coverage',
       },

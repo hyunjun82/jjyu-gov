@@ -96,7 +96,7 @@ export const 간병인보험병원종류SpokeContent: SpokeData = {
         '상품이 아니라 담보 단위로 확인해야 한다',
       ],
       act: {
-        cue: '병원 종류로 하루 금액이 세 배까지 갈리니, 회사별 일당부터 나란히 보셔야겠죠',
+        cue: '병원 종류 하나로 하루 금액이 세 배까지 갈립니다. 회사별 일당을 나란히 놓고 확인해 보시죠',
         label: '회사별 담보·일당 비교 보기',
         url: '/policy/caregiver-insurance/caregiver-insurance-coverage',
       },

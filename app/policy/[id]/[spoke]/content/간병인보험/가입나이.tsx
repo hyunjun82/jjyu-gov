@@ -15,7 +15,7 @@ const FSS_YAKGWAN = 'https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=188473
 const HUB = '/policy/caregiver-insurance';
 
 export const 간병인보험가입나이SpokeContent: SpokeData = {
-  h1: '간병인보험 가입 나이 조회, 공시에 상한이 왜 안 나오나?',
+  h1: '간병인보험 가입 나이, 상한 모르면 헛걸음',
   breadcrumb: '가입 나이',
   description:
     '간병인보험 가입 나이 상한을 손해보험협회 공시에서 확인할 수 있는지 그대로 정리했습니다. 공시에 항목 자체가 없다는 사실과, 나이로 막힐 때 남는 간편심사 경로까지.',
@@ -100,7 +100,7 @@ export const 간병인보험가입나이SpokeContent: SpokeData = {
         '첫 보험료보다 갱신 뒤 금액을 먼저 물어야 한다',
       ],
       act: {
-        cue: '갱신 때 부담이 커져 해지하면 돌려받는 게 얼마인지도 미리 보셔야겠죠',
+        cue: '갱신 때 부담이 커져 해지하는 경우가 생기는데, 그때 돌려받는 게 얼마인지 미리 알아두시면 좋습니다',
         label: '해지환급금 구조 확인하기',
         url: '/policy/caregiver-insurance/caregiver-insurance-surrender',
       },

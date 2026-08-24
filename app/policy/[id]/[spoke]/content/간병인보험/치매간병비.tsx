@@ -97,7 +97,7 @@ export const 간병인보험치매간병비SpokeContent: SpokeData = {
         '치매진단비에는 실사용액 조건이 붙지 않는다',
       ],
       act: {
-        cue: '계약 첫 해에 두 감액이 겹치는 구조라 조건을 같이 보셔야겠죠',
+        cue: '계약 첫 해에는 두 감액이 겹칠 수 있어 조건을 한 번 짚고 가시는 게 낫습니다',
         label: '간병인보험 감액·면책 조건 보기',
         url: '/policy/caregiver-insurance/caregiver-insurance-terms',
       },

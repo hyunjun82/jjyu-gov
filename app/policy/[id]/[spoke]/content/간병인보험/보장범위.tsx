@@ -96,7 +96,7 @@ export const 간병인보험보장범위SpokeContent: SpokeData = {
         '간병인보험이라는 이름이어도 패키지인 경우가 있다',
       ],
       act: {
-        cue: '담보가 몇 개 들어 있느냐로 값이 갈리니, 결국 계약 조건까지 같이 보셔야겠죠',
+        cue: '담보가 몇 개 들어 있느냐로 값이 갈립니다. 계약 조건까지 이어서 확인해 보시죠',
         label: '간병인보험 면책·감액 조건 보기',
         url: '/policy/caregiver-insurance/caregiver-insurance-terms',
       },

@@ -55,7 +55,7 @@ export const 간병인보험해지환급SpokeContent: SpokeData = {
         '간편심사끼리 비교해도 3종 3,260원 vs 4종 2,914원으로 같은 방향',
       ],
       act: {
-        cue: '같은 회사 안에서도 종에 따라 값이 갈리니, 나란히 놓고 보셔야겠죠',
+        cue: '같은 회사 안에서도 종에 따라 값이 갈립니다. 나란히 놓고 비교해 보시죠',
         label: '회사·종별 보험료 비교 보기',
         url: '/policy/caregiver-insurance/caregiver-insurance-premium',
       },
