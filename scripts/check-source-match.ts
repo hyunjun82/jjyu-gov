@@ -18,6 +18,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
+import { evidenceFor } from './lib/evidence';
 
 const DIR = 'data/policies';
 const OUT = 'scripts/output';
@@ -80,17 +81,11 @@ function claimStrings(src: string): string[] {
   return out;
 }
 
-function sourcePool(slug: string, articleSrc: string): { pool: string; parts: string[] } {
-  const parts: string[] = [];
-  let pool = '';
-  const srcFile = path.join(OUT, `source-${slug}.txt`);
-  if (fs.existsSync(srcFile)) { pool += fs.readFileSync(srcFile, 'utf8'); parts.push(`source-${slug}.txt`); }
-  const fact = path.join(OUT, `factsheet-${slug}.md`);
-  if (fs.existsSync(fact)) { pool += fs.readFileSync(fact, 'utf8'); parts.push(`factsheet-${slug}.md`); }
-  let m; const tRe = /text:\s*'([^']*)'/g;
-  while ((m = tRe.exec(articleSrc))) pool += ' ' + m[1];
-  if (tRe.lastIndex) parts.push('글 내 source.text');
-  return { pool, parts };
+/* 근거의 정의는 scripts/lib/evidence.ts 하나뿐이다 (2026-08-23).
+   전에는 이 게이트와 check-source-backing 이 각자 찾다가 같은 글에 다른 판정을 냈다. */
+function sourcePool(slug: string, _articleSrc: string): { pool: string; parts: string[] } {
+  const e = evidenceFor(path.join(DIR, `${slug}.ts`), slug);
+  return { pool: e.pool, parts: e.parts };
 }
 
 /** 스포크 본문 파일 — 머리 주석의 `추출본: scripts/output/source-*.txt` 가 원문 풀을 가리킨다.
@@ -110,7 +105,9 @@ function checkSpoke(file: string): number {
     console.log(`\n❌ ${name} — 가리킨 추출본이 없다: ${m[1]}`);
     return 1;
   }
-  return compare(name, src, fs.readFileSync(m[1], 'utf8'), [m[1].split('/').pop()!], null);
+  /* 가리키라는 규칙은 그대로 두되, 대조할 원문은 공통 정의에서 받는다 */
+  const e = evidenceFor(file);
+  return compare(name, src, e.pool, e.parts, null);
 }
 
 function check(slug: string): number {

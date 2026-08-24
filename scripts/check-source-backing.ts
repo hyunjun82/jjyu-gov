@@ -18,12 +18,12 @@
  */
 import fs from 'fs';
 import path from 'path';
+import { evidenceFor, judgeable } from './lib/evidence';
 
-const SNAP = path.join('scripts', 'output', 'sources');
 const CONTENT = path.join('app', 'policy', '[id]', '[spoke]', 'content');
 
-const snapName = (u: string) =>
-  u.replace(/^https?:\/\//, '').replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 120) + '.txt';
+/** 이 게이트가 생긴 날. 이보다 먼저 커밋된 글은 심판하지 않는다 (소급 차단 금지) */
+const BORN = '2026-08-23';
 
 /** 숫자 옆 단위가 붙은 것만 수치로 본다. 날짜·세대 번호는 수치가 아니다. */
 const NUM = /(\d[\d,]*(?:\.\d+)?)\s*(세대|만원|억원|천원|원|%|세|회|일|배|개월|년|명|시간|주|건|점)/g;
@@ -48,32 +48,16 @@ function claimText(src: string): string {
 
 const normalize = (s: string) => s.replace(/(\d),(?=\d)/g, '$1');
 
+/* 근거의 정의는 scripts/lib/evidence.ts 하나뿐이다 (2026-08-23).
+   전에는 이 게이트가 자기 방식으로 찾다가 check-source-match 와 판정이 갈렸다. */
 function poolFor(file: string) {
-  const src = fs.readFileSync(file, 'utf8');
-  const urls = [...new Set([...src.matchAll(/['"](https?:\/\/[^'"\s]+)['"]/g)].map((m) => m[1]))];
-  let pool = '';
-  const missing: string[] = [];
-  const broken: string[] = [];   /* 저장본은 있는데 내용이 없다 — JS 리다이렉트·아코디언 */
-  for (const u of urls) {
-    const f = path.join(SNAP, snapName(u));
-    if (!fs.existsSync(f)) { missing.push(u); continue; }
-    const t = fs.readFileSync(f, 'utf8');
-    pool += '\n' + t;
-    if (t.length < 1500) broken.push(u);
-  }
-  const legacy = path.join('scripts', 'output', 'source-' + path.basename(file, '.tsx') + '.txt');
-  if (fs.existsSync(legacy)) pool += '\n' + fs.readFileSync(legacy, 'utf8');
-
-  /* 글이 머리 주석에 스스로 가리키는 추출본 (2026-08-23 신설).
-     위 legacy 는 파일명으로만 찾는다 — 파일은 한글(세대변천사.tsx)인데 추출본은
-     영문 슬러그(source-generation-history.txt)라 못 찾고 "근거 없는 수치"로 떴다.
-     연도 2009·2017·2021 은 그 추출본 안에 멀쩡히 있었다. check-source-match 는
-     같은 헤더를 읽는데 이 게이트만 안 읽어서 둘의 판정이 갈렸다. */
-  for (const m of src.matchAll(/추출본:\s*([^\s*]+\.txt)/g)) {
-    const p = m[1].replace(/^\.\//, '');
-    if (fs.existsSync(p)) pool += '\n' + fs.readFileSync(p, 'utf8');
-  }
-  return { pool: normalize(pool), urls, missing, broken };
+  const e = evidenceFor(file);
+  return {
+    pool: normalize(e.pool),
+    urls: e.urls,
+    missing: e.missing.filter((x) => /^https?:/.test(x)),
+    broken: e.broken,
+  };
 }
 
 function walk(p: string): string[] {
@@ -97,7 +81,7 @@ console.log('='.repeat(64));
 console.log(' 수치 ↔ 출처 대조 — 그 페이지에 이 숫자가 실제로 있는가');
 console.log('='.repeat(64));
 
-let badFiles = 0, badNums = 0, noSnap = 0, realBad = 0;
+let badFiles = 0, badNums = 0, noSnap = 0, realBad = 0, skippedOld = 0;
 for (const f of files) {
   const { pool, urls, missing, broken } = poolFor(f);
   const text = normalize(claimText(fs.readFileSync(f, 'utf8')));
@@ -110,6 +94,8 @@ for (const f of files) {
     if (!re.test(pool)) unbacked.set(d + m[2], m[0]);
   }
   if (!unbacked.size && !missing.length && !broken.length) continue;
+  /* 지적할 게 생긴 파일만 git 에 물어본다 — 전부에게 물으면 900번 돌아 느려진다 */
+  if (!judgeable(f, BORN)) { skippedOld++; continue; }
 
   badFiles++;
   console.log('\n■ ' + f.split(path.sep).join('/'));
@@ -137,6 +123,7 @@ for (const f of files) {
 }
 
 console.log('');
+if (skippedOld) console.log(' (이 게이트가 생긴 ' + BORN + ' 이전에 커밋된 ' + skippedOld + '편은 심판하지 않는다 — 소급 차단 금지)');
 if (badFiles) {
   console.log(' ' + files.length + '편 중 ' + badFiles + '편에 문제');
   console.log('   저장본 없음·비었음: ' + noSnap + '건 — 이건 출처를 다시 받으면 된다');

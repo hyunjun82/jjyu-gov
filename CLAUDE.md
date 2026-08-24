@@ -36,6 +36,7 @@
 | 디자인·Format A | `.claude/rules/design-system.md` + `scripts/check-type-shape.ts` |
 | 빌드·404 진단 | `.claude/rules/build-deploy.md` |
 | 품질 = 원문 대조 하나 | `scripts/check-source-match.ts` (2026-08-16 검사 11개를 여기로 합쳤다) |
+| **게이트 만들 때 반드시** | `scripts/lib/evidence.ts` — 근거는 `evidenceFor()` 로만 찾고, `judgeable(f, 만든날)` 로 옛 글은 심판하지 않는다 (게이트마다 다르게 찾으면 판정이 갈리고, 소급 차단하면 사람이 게이트를 끈다) |
 | push 게이트 12단 진본 | `.githooks/pre-push` (core.hooksPath) |
 | 저장 차단 훅 | `scripts/hooks/require-title-log.mjs` + `title-log-rule.mjs` |
 | 타이틀 스타일·KB 패턴 | `docs/title-style-24.md` · `docs/title-corpus-kb.md` |

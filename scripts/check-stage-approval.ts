@@ -12,6 +12,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
+import { judgeable } from './lib/evidence';
 
 const ROOT = path.join('app', 'policy', '[id]', '[spoke]', 'content');
 const OUT = path.join('scripts', 'output');
@@ -48,15 +49,8 @@ function copyChanged(file: string, rev: string): boolean {
 /* 도장을 찍을 수단이 생긴 날 (2026-08-23, write.ts --approve).
    그 전 글은 도장을 찍을 방법 자체가 없었다. 그런데 이 게이트(2026-08-20 신설)가
    8/20 커밋의 스포크 63편을 소급해서 막아 push 가 통째로 섰다.
-   소급 차단은 게이트를 끄게 만든다 — 옛 커밋에 이미 들어간 변경은 보지 않는다.
-   아직 커밋 안 된 것·새로 추가된 것은 날짜와 무관하게 그대로 본다. */
+   소급 차단 판정은 scripts/lib/evidence.ts 의 judgeable 하나로 통일했다. */
 const STAMP_SINCE = '2026-08-23';
-
-/** 이 파일의 마지막 커밋이 도장 수단이 생기기 전인가 */
-function committedBeforeStamp(file: string): boolean {
-  const d = git(`git log -1 --date=short --pretty=%ad -- "${file}"`).trim();
-  return !!d && d < STAMP_SINCE;
-}
 
 function spokesNeedingApproval(): { file: string; why: string }[] {
   const rev = range();
@@ -75,7 +69,7 @@ function spokesNeedingApproval(): { file: string; why: string }[] {
   for (const f of modified) {
     if (added.has(f)) continue;
     if (!copyChanged(f, rev)) continue;
-    if (committedBeforeStamp(f)) { skipped++; continue; }
+    if (!judgeable(f, STAMP_SINCE)) { skipped++; continue; }
     out.push({ file: f, why: '문구(서론·버튼·cue) 변경' });
   }
   if (skipped) console.log(` (도장 수단이 생기기 전(${STAMP_SINCE} 이전) 커밋의 문구 변경 ${skipped}건은 건너뜀)`);
