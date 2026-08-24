@@ -82,7 +82,11 @@ export function evidenceFor(file: string, slug?: string): Evidence {
     if (!fs.existsSync(f)) { missing.push(u); continue; }
     const t = read(f);
     pool += '\n' + t;
-    if (t.replace(/^[\s\S]*?CHARS: (\d+)[\s\S]*$/, '$1') && t.length < 1500) broken.push(u);
+    /* 짧으면 껍데기만 받아온 것으로 의심한다 — 손보협회 FAQ 907자 오판(2026-08-23)이 그랬다.
+       다만 실브라우저(Playwright)로 직접 떠서 눈으로 본 저장본은 길이로 다시 의심하지 않는다.
+       실손24 첫 화면처럼 원래 짧은 페이지가 있고, 그걸 매번 "비었음"으로 띄우면 잡음이 된다. */
+    const byBrowser = /^CAPTURED-BY:\s*playwright/m.test(t);
+    if (!byBrowser && t.length < 1500) broken.push(u);
   }
 
   /* ④ 글 안에 옮겨 적은 조문 */
