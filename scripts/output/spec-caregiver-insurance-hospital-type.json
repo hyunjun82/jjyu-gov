@@ -1,0 +1,29 @@
+{
+  "slug": "caregiver-insurance-hospital-type",
+  "policyDir": "간병인보험",
+  "fileName": "병원종류",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "eligibility",
+  "h1": "간병인보험 한방병원 입원도 청구되나? 181일째부터 제외되는 기준",
+  "breadcrumb": "병원 종류",
+  "description": "간병인보험이 어느 병원 입원까지 보장하는지 손해보험협회 공시 지급사유 원문으로 정리했습니다. 한방병원을 롯데손보는 포함, 하나손보는 제외로 정반대로 적어 두었습니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-hospital-type.txt",
+  "sourceName": "손해보험협회 상품비교공시 — 간병·치매보험 (담보명 '간병인' 검색)",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험 한방병원 입원도 되나요?",
+    "정신병원 입원은 보장되나요?",
+    "병원 종류는 어디서 확인하나요?",
+    "같은 회사인데 담보마다 다른가요?",
+    "입원할 병원을 고를 때 뭘 봐야 하나요?"
+  ],
+  "faq": [
+    "한의원 입원도 같은 취급인가요?",
+    "요양병원과 한방병원을 같이 제외하는 담보도 있나요?",
+    "181일 이상 담보는 왜 조건이 다른가요?",
+    "종합병원이면 무조건 되나요?",
+    "입원한 뒤에 병원 종류로 거절될 수도 있나요?"
+  ]
+}

@@ -500,7 +500,14 @@ function step4() {
 
   /* 대조할 글이 없으면 검사기는 "볼 것 없음"으로 전부 통과한다.
      그 초록불이 제일 위험하다 — 안 쓴 글에 합격 도장이 찍힌다. */
+  /* 스포크 파일 이름은 한글인데 slug 는 영문이라 파일명으로는 못 찾는다.
+     registry 에 그 slug 가 등록돼 있으면 글이 있는 것이다 (2026-08-24 교정). */
+  let registered = false;
+  try {
+    registered = readFileSync(join(ROOT, 'data', 'spokes', 'registry.ts'), 'utf8').includes(`'${SLUG}':`);
+  } catch { /* registry 없으면 아래 파일 검사로 */ }
   const written =
+    registered ||
     existsSync(join(ROOT, 'data', 'policies', `${SLUG}.ts`)) ||
     (execSync(`git ls-files "app/policy/[id]/[spoke]/content/**/${SLUG}.tsx"`, { cwd: ROOT })
       .toString().trim().length > 0);
@@ -510,6 +517,22 @@ function step4() {
     process.exit(1);
   }
   if (!existsSync(SOURCE)) console.log(` ⚠ 추출본이 없다(source-${SLUG}.txt) — 3단계를 건너뛰었다\n`);
+
+  /* 화면 캡처가 없으면 막는다 (2026-08-24 신설).
+     텍스트만으로 표를 옮기면 어느 행이 어느 회사인지 추정하게 된다.
+     그 추정이 틀려 하루에 7건이 나갔다. 캡처는 선택이 아니라 3단계의 절반이다. */
+  const shotDir4 = join(OUT, 'captures');
+  const shots4 = existsSync(shotDir4)
+    ? readdirSync(shotDir4).filter((f) => f.startsWith(SLUG + '-') && f.endsWith('.png'))
+    : [];
+  if (!shots4.length) {
+    console.log(' ❌ 화면 캡처가 없다 — scripts/output/captures/' + SLUG + '-*.png');
+    console.log('    3단계는 텍스트 추출 + 이미지 추출 둘 다다. 캡처 없이 쓴 글은 통과시키지 않는다.');
+    console.log(`    다시: npx tsx scripts/write.ts "${keyword}" --slug ${SLUG} --3\n`);
+    process.exit(1);
+  }
+  console.log(` 화면 캡처 ${shots4.length}장 확인 (captures/${SLUG}-*.png)\n`);
+
   const CHECKS: [string, string][] = [
     ['원문 대조 (오차·누락·근거없는말·출처)', `npx tsx scripts/check-source-match.ts ${SLUG}`],
     ['배선 무결성', 'npx tsx scripts/verify-integrity.ts --strict'],

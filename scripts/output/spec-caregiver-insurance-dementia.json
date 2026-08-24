@@ -1,0 +1,29 @@
+{
+  "slug": "caregiver-insurance-dementia",
+  "policyDir": "간병인보험",
+  "fileName": "치매간병비",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "amount",
+  "h1": "치매간병비 보험 청구 방법, 간병인 일당과 진단비 중 뭐가 깎이나",
+  "breadcrumb": "치매 간병비",
+  "description": "치매와 간병을 한 상품에서 다룰 때 담보가 어떻게 갈리는지 손해보험협회 공시 원문으로 정리했습니다. 매일 나오는 간병인 일당과 한 번에 나오는 치매진단비는 지급 방식부터 다릅니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-dementia.txt",
+  "sourceName": "손해보험협회 상품비교공시 — 간병·치매보험 (담보명 '간병인' 검색)",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "치매간병비 보험은 뭐가 나오나요?",
+    "치매진단비와 간병인 일당은 어떻게 다른가요?",
+    "치매간병비 보험 청구는 어떻게 하나요?",
+    "장기간병요양자금은 언제 받나요?",
+    "간병인 일당이 깎이는 조건은 뭔가요?"
+  ],
+  "faq": [
+    "치매 진단만 받아도 간병인 일당이 나오나요?",
+    "중등도와 중증 치매는 금액이 다른가요?",
+    "장기요양등급을 받으면 자동으로 나오나요?",
+    "간편가입으로 들면 치매 담보도 되나요?",
+    "치매보험과 간병인보험을 따로 들어야 하나요?"
+  ]
+}

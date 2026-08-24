@@ -322,6 +322,8 @@ export const caregiverInsurancePolicy = {
 };
 
 export const caregiverInsuranceSpokes = [
+  { slug: 'caregiver-insurance-hospital-type', role: 'eligibility', title: '간병인보험 한방병원 입원도 청구되나? 181일째부터 제외되는 기준' },
+  { slug: 'caregiver-insurance-dementia', role: 'amount', title: '치매간병비 보험 청구 방법, 간병인 일당과 진단비 중 뭐가 깎이나' },
   { slug: 'hospital-caregiving-standard', role: 'eligibility', title: '요양병원 간병비 지원 시범사업 신청 조건, 중증환자 아니면 제외' },
   { slug: 'caregiver-insurance-age-limit', role: 'eligibility', title: '간병인보험 가입 나이 조회, 공시에 상한이 왜 안 나오나?' },
   { slug: 'caregiver-insurance-surrender', role: 'deadline', title: '간병인보험 해지환급금 얼마나 돌려받나? 미지급형이면 0원' },

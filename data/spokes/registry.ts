@@ -1437,6 +1437,8 @@ import { 간병인보험가족간병SpokeContent } from '@/app/policy/[id]/[spok
 import { 간병인보험해지환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/해지환급';
 import { 간병인보험가입나이SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/가입나이';
 import { 간병인보험요양병원간병지원SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/요양병원간병지원';
+import { 간병인보험치매간병비SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/치매간병비';
+import { 간병인보험병원종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/병원종류';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -3141,6 +3143,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'caregiver-insurance': {
+    'caregiver-insurance-hospital-type': 간병인보험병원종류SpokeContent,
+    'caregiver-insurance-dementia': 간병인보험치매간병비SpokeContent,
     'hospital-caregiving-standard': 간병인보험요양병원간병지원SpokeContent,
     'caregiver-insurance-age-limit': 간병인보험가입나이SpokeContent,
     'caregiver-insurance-surrender': 간병인보험해지환급SpokeContent,
