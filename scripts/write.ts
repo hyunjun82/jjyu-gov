@@ -194,6 +194,24 @@ function buildTitles(kj: any): Cand[] {
     add('⑨통념 받아치기', `${K} ${d.frag}${josa(d.frag, '이라던데', '라던데')}, ${a.frag}도 그런가?`, [d, a]),
   );
 
+  /* ── 얕은 수집 대비 (2026-08-23) ──
+     위 아홉 패턴은 조각을 두 개씩 짝지어 쓴다. "간병비 지원"처럼 자동완성이 39개밖에
+     안 붙는 주제는 D·E·F 통이 통째로 비어서 후보가 0개로 나왔다.
+     0개를 내놓고 "수집을 다시 하라"고 하면 자동화가 아니다.
+     조각 하나로도 서는 틀을 준비해 둔다 — 조각은 여전히 실검색어에서만 온다. */
+  if (out.length < 8) {
+    const seenFrag = new Set<string>();
+    const top = pool
+      .filter((f) => (seenFrag.has(f.frag) ? false : (seenFrag.add(f.frag), true)))
+      .sort((a, b) => a.rank - b.rank)
+      .slice(0, 10);
+    for (const f of top) {
+      add('④자기대입', `${K} ${f.frag}, 어디까지 되나`, [f]);
+      add('⑥함정 경고', `${K} ${f.frag}, 대상에서 빠지는 경우까지`, [f]);
+    }
+    pair(top, top, 4).forEach(([x, y]) => add('③절차 묶음', `${K} ${x.frag}부터 ${y.frag}까지`, [x, y]));
+  }
+
   /* 규칙 필터 — docs/title-corpus-kb.md 금지 3종 + title-formula 훅의 세부키워드 */
   const SUB = /언제|신청|방법|사용처|조회|서류|얼마|금액|조건|자격|기간|대상|준비|나이|기준|비교|차이|계산|한도|어디|단점|해지|전환|일당|비용|가격|가입|발급|감액|중복/;
   const seen = new Set<string>();
