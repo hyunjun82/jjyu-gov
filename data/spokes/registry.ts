@@ -1426,6 +1426,15 @@ import { 실손보험정형외과서류SpokeContent } from '@/app/policy/[id]/[s
 import { 실손보험회사별신청서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/회사별신청서류';
 import { 실손보험보장내용변경시점SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/보장내용변경시점';
 import { 실손보험세대변천사SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/세대변천사';
+import { 간병인보험보험료비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/보험료비교';
+import { 간병인보험청구절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/청구절차';
+import { 간병인보험청구서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/청구서류';
+import { 간병인보험가입자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/가입자격';
+import { 간병인보험보장범위SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/보장범위';
+import { 간병인보험계약조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/계약조건';
+import { 간병인보험개념차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/개념차이';
+import { 간병인보험가족간병SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/가족간병';
+import { 간병인보험해지환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/해지환급';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'overseas-remittance-limit': {
@@ -3127,6 +3136,18 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'kespa-cup-2026': {
     '결선티켓예매': 케스파컵결선티켓예매SpokeContent,
+  },
+
+  'caregiver-insurance': {
+    'caregiver-insurance-surrender': 간병인보험해지환급SpokeContent,
+    'caregiver-insurance-family': 간병인보험가족간병SpokeContent,
+    'caregiver-insurance-basics': 간병인보험개념차이SpokeContent,
+    'caregiver-insurance-terms': 간병인보험계약조건SpokeContent,
+    'caregiver-insurance-coverage': 간병인보험보장범위SpokeContent,
+    'caregiver-insurance-eligibility': 간병인보험가입자격SpokeContent,
+    'caregiver-insurance-documents': 간병인보험청구서류SpokeContent,
+    'caregiver-insurance-claim': 간병인보험청구절차SpokeContent,
+    'caregiver-insurance-premium': 간병인보험보험료비교SpokeContent,
   },
 
 };

@@ -1,0 +1,27 @@
+{
+  "slug": "caregiver-insurance-surrender",
+  "policyDir": "간병인보험",
+  "fileName": "해지환급",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "deadline",
+  "h1": "간병인보험 해지환급금 얼마나 돌려받나? 미지급형이면 0원",
+  "breadcrumb": "해지·환급",
+  "description": "간병인보험 해지하면 환급금 얼마나 돌려받나 — 손해보험협회 상품비교공시와 금융감독원 자료, 별표15 표준약관 원문으로 확인했습니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-surrender.txt",
+  "sourceName": "손해보험협회 상품비교공시 · 금융감독원 · 별표15 표준약관",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험 해지환급금은 얼마인가요?",
+    "간병인보험 환급되나요?",
+    "간병인 보험 해지는 어떻게 하나요?"
+  ],
+  "faq": [
+    "해약환급금 미지급형은 뭔가요?",
+    "중간에 해지하면 낸 돈을 다 잃나요?",
+    "갱신형은 해지환급금이 없나요?",
+    "해지하지 않고 줄이는 방법도 있나요?",
+    "해지 후 다시 가입할 수 있나요?"
+  ]
+}

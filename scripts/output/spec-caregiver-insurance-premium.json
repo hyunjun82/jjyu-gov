@@ -1,0 +1,30 @@
+{
+  "slug": "caregiver-insurance-premium",
+  "policyDir": "간병인보험",
+  "fileName": "보험료비교",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "amount",
+  "h1": "간병인보험료 한 달에 얼마일까? 2천원대와 5만원대가 갈리는 이유",
+  "breadcrumb": "보험료 비교",
+  "description": "간병인보험료가 회사마다 월 2,496원에서 58,940원까지 갈리는 이유를 손해보험협회 상품비교공시 원문으로 정리했습니다. 보험료 숫자가 아니라 보험가격지수로 봐야 하는 이유, 간편심사 대가가 지수로 얼마나 찍히는지까지.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-premium.txt",
+  "sourceName": "손해보험협회 상품비교공시 — 간병·치매보험 (담보명 '간병인' 검색)",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험료 한 달에 얼마인가요?",
+    "간병인 보험료 평균은 얼마인가요?",
+    "간병인 보험료 비교는 어떻게 하나요?",
+    "간병인보험료 60대는 얼마나 오르나요?",
+    "간병인 보험료 인상은 왜 되나요?",
+    "비갱신형으로 하면 안 오르나요?"
+  ],
+  "faq": [
+    "공시에 나온 보험료가 제가 낼 금액인가요?",
+    "보험가격지수가 낮으면 무조건 좋은 건가요?",
+    "간편심사형은 왜 보험료가 더 비싼가요?",
+    "삼성화재나 한화 간병인보험은 왜 이 표에 없나요?",
+    "여자가 남자보다 싼 회사도 있던데 왜 그런가요?"
+  ]
+}

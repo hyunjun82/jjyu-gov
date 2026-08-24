@@ -321,4 +321,13 @@ export const caregiverInsurancePolicy = {
   ],
 };
 
-export const caregiverInsuranceSpokes = [];
+export const caregiverInsuranceSpokes = [
+  { slug: 'caregiver-insurance-surrender', role: 'deadline', title: '간병인보험 해지환급금 얼마나 돌려받나? 미지급형이면 0원' },
+  { slug: 'caregiver-insurance-family', role: 'eligibility', title: '간병인보험 가족간병 조건, 가족이 하면 못 받나?' },
+  { slug: 'caregiver-insurance-basics', role: 'info', title: '간병인보험과 간병보험 차이, 실손엔 왜 간병비가 없나?' },
+  { slug: 'caregiver-insurance-terms', role: 'deadline', title: '간병인보험 면책기간, 1년 안에 입원하면 절반만 나오나?' },
+  { slug: 'caregiver-insurance-coverage', role: 'amount', title: '간병인보험 입원일당 한도, 요양병원이면 왜 반토막인가?' },
+  { slug: 'caregiver-insurance-eligibility', role: 'eligibility', title: '간병인보험 가입조건, 유병자도 되나? 간편심사와 일반심사 차이' },
+  { slug: 'caregiver-insurance-documents', role: 'apply', title: '간병인보험 청구 서류 뭐뭐 내나? 간이영수증은 왜 안 되나' },
+  { slug: 'caregiver-insurance-claim', role: 'apply', title: '간병인보험 청구 방법, 서류 넣고 며칠 만에 들어오나?' },
+  { slug: 'caregiver-insurance-premium', role: 'amount', title: '간병인보험료 한 달에 얼마일까? 2천원대와 5만원대가 갈리는 이유' },];

@@ -64,8 +64,14 @@ export function evidenceFor(file: string, slug?: string): Evidence {
     parts.push(path.basename(p));
   }
 
-  /* ② 슬러그로 찾는 것 */
-  const bases = [slug, path.basename(file).replace(/\.(tsx|ts)$/, '')].filter(Boolean) as string[];
+  /* ② 슬러그로 찾는 것.
+     파일명(한글)만 보면 영문 슬러그로 된 팩트시트를 못 찾는다.
+     글이 가리키는 추출본 이름(source-{slug}.txt)에서 슬러그를 되짚어 같이 본다
+     — 보험료비교.tsx → source-caregiver-insurance-premium.txt → factsheet-caregiver-insurance-premium.md */
+  const fromPointed = [...pointed]
+    .map((p) => path.basename(p).match(/^source-(.+)\.txt$/)?.[1])
+    .filter(Boolean) as string[];
+  const bases = [slug, path.basename(file).replace(/\.(tsx|ts)$/, ''), ...fromPointed].filter(Boolean) as string[];
   for (const b of bases) {
     for (const cand of [path.join(OUT, `source-${b}.txt`), path.join(OUT, `factsheet-${b}.md`)]) {
       if (!fs.existsSync(cand)) continue;

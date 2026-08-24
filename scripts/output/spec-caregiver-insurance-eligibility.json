@@ -1,0 +1,29 @@
+{
+  "slug": "caregiver-insurance-eligibility",
+  "policyDir": "간병인보험",
+  "fileName": "가입자격",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "eligibility",
+  "h1": "간병인보험 가입조건, 유병자도 되나? 간편심사와 일반심사 차이",
+  "breadcrumb": "가입 자격",
+  "description": "간병인보험 유병자도 되나? 간편심사와 일반심사 갈리는 자리 — 손해보험협회 상품비교공시와 금융감독원 자료, 별표15 표준약관 원문으로 확인했습니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-eligibility.txt",
+  "sourceName": "손해보험협회 상품비교공시 · 금융감독원 · 별표15 표준약관",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험 가입조건은 어떻게 되나요?",
+    "간병인보험 몇살부터 가입되나요?",
+    "간병인보험 유병자도 가입되나요?",
+    "간병인보험 고지의무는 어디까지인가요?",
+    "간병인보험 납입면제 조건이 있나요?"
+  ],
+  "faq": [
+    "간편심사형은 아무나 가입되나요?",
+    "가입 나이 상한은 몇 살인가요?",
+    "고지를 빠뜨리면 어떻게 되나요?",
+    "3.5.5 같은 숫자는 무슨 뜻인가요?",
+    "일반심사가 안 되면 방법이 없나요?"
+  ]
+}

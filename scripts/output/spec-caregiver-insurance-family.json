@@ -1,0 +1,27 @@
+{
+  "slug": "caregiver-insurance-family",
+  "policyDir": "간병인보험",
+  "fileName": "가족간병",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "eligibility",
+  "h1": "간병인보험 가족간병 조건, 가족이 하면 못 받나?",
+  "breadcrumb": "가족 간병",
+  "description": "가족이 간병하면 간병인보험 못 받나? 유상 사용이 갈림길 — 손해보험협회 상품비교공시와 금융감독원 자료, 별표15 표준약관 원문으로 확인했습니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-family.txt",
+  "sourceName": "손해보험협회 상품비교공시 · 금융감독원 · 별표15 표준약관",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험 가족간병도 인정되나요?",
+    "간병인보험 가족이 받을 수 있나요?",
+    "간병인보험 타인이 간병해도 되나요?"
+  ],
+  "faq": [
+    "배우자가 간병하면 왜 안 되나요?",
+    "가족에게 돈을 주고 영수증을 받으면요?",
+    "간병인 자격증이 있어야 하나요?",
+    "아기가 입원해도 간병인 일당이 나오나요?",
+    "간병인을 여러 명 쓰면 어떻게 되나요?"
+  ]
+}

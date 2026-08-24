@@ -1,0 +1,29 @@
+{
+  "slug": "caregiver-insurance-claim",
+  "policyDir": "간병인보험",
+  "fileName": "청구절차",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "apply",
+  "h1": "간병인보험 청구 방법, 서류 넣고 며칠 만에 들어오나?",
+  "breadcrumb": "청구 절차",
+  "description": "간병인보험 청구, 병원비 정산 끝나고 얼마 만에 들어오나 — 손해보험협회 상품비교공시와 금융감독원 자료, 별표15 표준약관 원문으로 확인했습니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-claim.txt",
+  "sourceName": "손해보험협회 상품비교공시 · 금융감독원 · 별표15 표준약관",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험 청구는 어떻게 하나요?",
+    "간병인보험 타는법이 따로 있나요?",
+    "간병인 보험 소급해서 받을 수 있나요?",
+    "보험금은 며칠 만에 나오나요?",
+    "간병인 보험 청구 조건은 뭔가요?"
+  ],
+  "faq": [
+    "청구는 누가 하나요? 대리인도 되나요?",
+    "조사한다고 미뤄지면 얼마나 걸리나요?",
+    "간호·간병통합서비스를 받았는데 청구되나요?",
+    "청구했는데 거절되면 어떻게 하나요?",
+    "퇴원 전에 미리 청구해도 되나요?"
+  ]
+}

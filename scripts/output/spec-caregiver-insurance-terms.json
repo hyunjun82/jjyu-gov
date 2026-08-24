@@ -1,0 +1,29 @@
+{
+  "slug": "caregiver-insurance-terms",
+  "policyDir": "간병인보험",
+  "fileName": "계약조건",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "deadline",
+  "h1": "간병인보험 면책기간, 1년 안에 입원하면 절반만 나오나?",
+  "breadcrumb": "계약 조건",
+  "description": "간병인보험 넣자마자 나오나? 1년 안이면 절반만 나오는 이유 — 손해보험협회 상품비교공시와 금융감독원 자료, 별표15 표준약관 원문으로 확인했습니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-terms.txt",
+  "sourceName": "손해보험협회 상품비교공시 · 금융감독원 · 별표15 표준약관",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험 면책기간은 얼마인가요?",
+    "간병인보험 바로보장 되나요?",
+    "간병인보험 만기는 언제인가요?",
+    "간병인보험 효력발생은 언제부터인가요?",
+    "간병인보험 체증형은 뭔가요?"
+  ],
+  "faq": [
+    "면책기간이라는 게 약관에 있나요?",
+    "1년 안에 입원하면 아예 못 받나요?",
+    "회사마다 감액 기준이 다른가요?",
+    "만기 되면 자동으로 끝나나요?",
+    "계약을 늦게 넣으면 손해인가요?"
+  ]
+}

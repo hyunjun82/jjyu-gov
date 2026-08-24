@@ -1,0 +1,29 @@
+{
+  "slug": "caregiver-insurance-coverage",
+  "policyDir": "간병인보험",
+  "fileName": "보장범위",
+  "hubSlug": "caregiver-insurance",
+  "hubVar": "caregiverInsuranceSpokes",
+  "role": "amount",
+  "h1": "간병인보험 입원일당 한도, 요양병원이면 왜 반토막인가?",
+  "breadcrumb": "보장 범위",
+  "description": "간병인보험 입원일당 며칠까지 나오나? 요양병원이면 반토막 — 손해보험협회 상품비교공시와 금융감독원 자료, 별표15 표준약관 원문으로 확인했습니다.",
+  "sourceFile": "scripts/output/source-caregiver-insurance-coverage.txt",
+  "sourceName": "손해보험협회 상품비교공시 · 금융감독원 · 별표15 표준약관",
+  "sourceUrl": "https://kpub.knia.or.kr/popup/disclosurePopup.do?tabType=1&tptyCode=PB16&payNm=%EA%B0%84%EB%B3%91%EC%9D%B8",
+  "hubPath": "/policy/caregiver-insurance",
+  "qa": [
+    "간병인보험 입원일당은 얼마나 나오나요?",
+    "간병인보험 일수 한도는 며칠인가요?",
+    "간병인보험 요양병원도 보장되나요?",
+    "간병인보험 통합간병실은 어떻게 되나요?",
+    "간병인보험 특약은 뭐가 있나요?"
+  ],
+  "faq": [
+    "181일째부터는 아예 안 나오나요?",
+    "요양원과 요양병원은 다른가요?",
+    "하루 몇 시간 써야 인정되나요?",
+    "여러 번 입원하면 한도가 새로 시작되나요?",
+    "간호·간병통합서비스 병동에 있으면요?"
+  ]
+}
