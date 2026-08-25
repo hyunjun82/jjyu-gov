@@ -1,0 +1,237 @@
+- generic [ref=f8e4]:
+  - banner [ref=f8e5]:
+    - generic [ref=f8e6]:
+      - link "C 고객센터 헬퍼" [ref=f8e7] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=f8e8]: C
+        - text: 고객센터
+        - generic [ref=f8e9]: 헬퍼
+      - navigation [ref=f8e10]:
+        - link "번호안내" [ref=f8e11] [cursor=pointer]:
+          - /url: "#numbers"
+        - link "상담원 연결" [ref=f8e12] [cursor=pointer]:
+          - /url: "#connect"
+        - link "영업시간" [ref=f8e13] [cursor=pointer]:
+          - /url: "#hours"
+        - link "위치" [ref=f8e14] [cursor=pointer]:
+          - /url: "#location"
+        - link "FAQ" [ref=f8e15] [cursor=pointer]:
+          - /url: "#faq"
+  - main [ref=f8e16]:
+    - generic [ref=f8e17]:
+      - link "홈" [ref=f8e18] [cursor=pointer]:
+        - /url: "#top"
+      - generic [ref=f8e19]: ›
+      - link "보험 고객센터" [ref=f8e20] [cursor=pointer]:
+        - /url: "#top"
+      - generic [ref=f8e21]: ›
+      - generic [ref=f8e22]: DB손해보험
+    - generic [ref=f8e23]:
+      - generic [ref=f8e24]: 손해보험 고객센터
+      - heading "DB손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내" [level=1] [ref=f8e25]
+      - paragraph [ref=f8e26]:
+        - text: DB손해보험 고객센터 대표번호는
+        - strong [ref=f8e27]: 1588-0100
+        - text: ", 상담 운영시간은"
+        - strong [ref=f8e28]: 평일 09:00–18:00
+        - text: 이며 사고접수는 24시간 가능합니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담사 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.
+    - generic [ref=f8e29]:
+      - generic [ref=f8e30]:
+        - generic [ref=f8e32]:
+          - generic [ref=f8e33]: DB손해보험 고객센터 대표 전화번호
+          - generic [ref=f8e34]: 상담 가능 시간
+        - link "1588-0100" [ref=f8e37] [cursor=pointer]:
+          - /url: tel:15880100
+        - generic [ref=f8e38]: 전국대표번호 · 시내통화 요금이 발신자에게 부과됩니다 · 2026-08-25 확인
+        - generic [ref=f8e39]:
+          - link "대표번호 전화 걸기" [ref=f8e40] [cursor=pointer]:
+            - /url: tel:15880100
+          - link "공식 홈페이지" [ref=f8e43] [cursor=pointer]:
+            - /url: https://www.idbins.com
+        - button "번호 복사하기" [ref=f8e48] [cursor=pointer]
+        - generic [ref=f8e50]:
+          - generic [ref=f8e51]: ARS 바로 누르기
+          - generic [ref=f8e53]:
+            - link "0 상담원 연결" [ref=f8e54] [cursor=pointer]:
+              - /url: tel:15880100
+              - generic [ref=f8e55]: "0"
+              - generic [ref=f8e57]: 상담원 연결
+            - link "1 사고접수" [ref=f8e58] [cursor=pointer]:
+              - /url: tel:15880100
+              - generic [ref=f8e59]: "1"
+              - generic [ref=f8e61]: 사고접수
+            - link "2 보험금 청구" [ref=f8e62] [cursor=pointer]:
+              - /url: tel:15880100
+              - generic [ref=f8e63]: "2"
+              - generic [ref=f8e65]: 보험금 청구
+            - link "3 계약 조회·변경" [ref=f8e66] [cursor=pointer]:
+              - /url: tel:15880100
+              - generic [ref=f8e67]: "3"
+              - generic [ref=f8e69]: 계약 조회·변경
+      - generic [ref=f8e70]:
+        - generic [ref=f8e71]:
+          - generic [ref=f8e72]: 지금 상담 가능 여부
+          - generic [ref=f8e73]: 상담 가능 시간
+          - generic [ref=f8e74]: 지금 전화하면 상담원 연결이 가능합니다. 사고접수는 24시간 대기 중입니다.
+          - generic [ref=f8e75]:
+            - generic [ref=f8e76]:
+              - generic [ref=f8e77]: 평일 상담
+              - strong [ref=f8e78]: 09:00 – 18:00
+            - generic [ref=f8e79]:
+              - generic [ref=f8e80]: 사고접수
+              - strong [ref=f8e81]: 24시간 365일
+            - generic [ref=f8e82]:
+              - generic [ref=f8e83]: 점심시간
+              - strong [ref=f8e84]: 12:00 – 13:00 지연
+            - generic [ref=f8e85]:
+              - generic [ref=f8e86]: 혼잡 시간대
+              - strong [ref=f8e87]: 월요일 오전
+        - generic [ref=f8e88]:
+          - generic [ref=f8e89]: 빠른 상담원 연결 팁
+          - generic [ref=f8e90]:
+            - text: 대표번호 연결 후 ARS 안내를 끝까지 듣고
+            - strong [ref=f8e91]: 0번(상담원 연결)
+            - text: 을 누르면 순번 대기 후 상담이 시작됩니다. 문의를 한 문장으로 정리해 두면 부서 이관 횟수를 줄일 수 있습니다.
+          - link "연결 순서 자세히 보기 →" [ref=f8e92] [cursor=pointer]:
+            - /url: "#connect"
+    - generic [ref=f8e93]:
+      - heading "DB손해보험 고객센터 전화번호 모음" [level=2] [ref=f8e94]
+      - paragraph [ref=f8e95]: 용건에 맞는 번호로 바로 걸면 상담 연결이 빨라집니다. 카드를 누르면 전화가 걸립니다.
+      - generic [ref=f8e96]:
+        - link "대표 고객센터 1588-0100 보험금·계약·사고 전 문의" [ref=f8e97] [cursor=pointer]:
+          - /url: tel:15880100
+          - generic [ref=f8e98]: 대표 고객센터
+          - generic [ref=f8e99]: 1588-0100
+          - generic [ref=f8e100]: 보험금·계약·사고 전 문의
+        - link "사고접수·긴급출동 1588-0100 24시간 365일 접수" [ref=f8e101] [cursor=pointer]:
+          - /url: tel:15880100
+          - generic [ref=f8e102]: 사고접수·긴급출동
+          - generic [ref=f8e103]: 1588-0100
+          - generic [ref=f8e104]: 24시간 365일 접수
+        - link "인터넷 고객지원 1600-0100 온라인 가입·홈페이지 이용" [ref=f8e105] [cursor=pointer]:
+          - /url: tel:16000100
+          - generic [ref=f8e106]: 인터넷 고객지원
+          - generic [ref=f8e107]: 1600-0100
+          - generic [ref=f8e108]: 온라인 가입·홈페이지 이용
+        - link "보험계약대출 1544-0100 약관대출 신청·상환" [ref=f8e109] [cursor=pointer]:
+          - /url: tel:15440100
+          - generic [ref=f8e110]: 보험계약대출
+          - generic [ref=f8e111]: 1544-0100
+          - generic [ref=f8e112]: 약관대출 신청·상환
+        - link "장애인 고객 전용 1670-0186 전담 상담 라인" [ref=f8e113] [cursor=pointer]:
+          - /url: tel:16700186
+          - generic [ref=f8e114]: 장애인 고객 전용
+          - generic [ref=f8e115]: 1670-0186
+          - generic [ref=f8e116]: 전담 상담 라인
+        - link "외국인 고객 전용 1566-0161 Foreign customer line" [ref=f8e117] [cursor=pointer]:
+          - /url: tel:15660161
+          - generic [ref=f8e118]: 외국인 고객 전용
+          - generic [ref=f8e119]: 1566-0161
+          - generic [ref=f8e120]: Foreign customer line
+    - generic [ref=f8e121]:
+      - heading "DB손해보험 고객센터 상담원(상담사) 연결 방법" [level=2] [ref=f8e122]
+      - paragraph [ref=f8e123]: 1588-0100 연결 후 아래 순서대로 진행하면 대기 시간을 줄일 수 있습니다.
+      - generic [ref=f8e124]:
+        - link "1588-0100 상담원 연결하기" [ref=f8e125] [cursor=pointer]:
+          - /url: tel:15880100
+        - link "대표번호 카드로 이동" [ref=f8e128] [cursor=pointer]:
+          - /url: "#top"
+      - generic [ref=f8e129]:
+        - generic [ref=f8e130]:
+          - generic [ref=f8e131]: "1"
+          - generic [ref=f8e133]: 1588-0100 연결
+          - generic [ref=f8e134]: 휴대전화·일반전화 모두 동일한 전국대표번호로 연결됩니다.
+        - generic [ref=f8e135]:
+          - generic [ref=f8e136]: "2"
+          - generic [ref=f8e138]: 주민번호/계약 확인
+          - generic [ref=f8e139]: 본인 확인 절차가 먼저 안내됩니다. 계약번호를 준비하면 빠릅니다.
+        - generic [ref=f8e140]:
+          - generic [ref=f8e141]: "3"
+          - generic [ref=f8e143]: ARS 끝까지 듣기
+          - generic [ref=f8e144]: 상담원 연결은 안내의 마지막 항목인 경우가 많습니다.
+        - generic [ref=f8e145]:
+          - generic [ref=f8e146]: "4"
+          - generic [ref=f8e148]: 0번 상담원 연결
+          - generic [ref=f8e149]: 0번을 누르면 순번 대기 후 상담사와 바로 연결됩니다.
+    - generic [ref=f8e150]:
+      - generic [ref=f8e151]:
+        - heading "고객센터 영업시간·운영시간" [level=2] [ref=f8e152]
+        - paragraph [ref=f8e153]: 운영시간은 사정에 따라 바뀔 수 있으니 통화 전 공식 홈페이지에서 한 번 더 확인하세요.
+        - generic [ref=f8e154]:
+          - generic [ref=f8e155]:
+            - generic [ref=f8e156]: 평일
+            - strong [ref=f8e157]: 09:00 – 18:00
+          - generic [ref=f8e158]:
+            - generic [ref=f8e159]: 점심시간
+            - strong [ref=f8e160]: 12:00 – 13:00 상담 지연
+          - generic [ref=f8e161]:
+            - generic [ref=f8e162]: 토·일요일
+            - strong [ref=f8e163]: 사고접수 24시간
+          - generic [ref=f8e164]:
+            - generic [ref=f8e165]: 공휴일
+            - strong [ref=f8e166]: 사고접수 24시간
+          - generic [ref=f8e167]:
+            - generic [ref=f8e168]: 혼잡 시간대
+            - strong [ref=f8e169]: 월요일 오전 · 12~13시
+      - generic [ref=f8e170]:
+        - heading "자주 찾는 문의" [level=2] [ref=f8e171]
+        - paragraph [ref=f8e172]: 아래 유형은 대표번호(1588-0100) 연결 후 ARS 안내에 따라 선택하세요.
+        - generic [ref=f8e173]:
+          - generic [ref=f8e174]: 보험금 청구·접수
+          - generic [ref=f8e175]: 사고 접수
+          - generic [ref=f8e176]: 계약 조회·변경
+          - generic [ref=f8e177]: 해지·환급금 문의
+          - generic [ref=f8e178]: 자동이체·납입
+          - generic [ref=f8e179]: 증권 재발급
+          - generic [ref=f8e180]: 긴급출동 서비스
+        - generic [ref=f8e181]: 사고접수·긴급출동은 24시간 접수됩니다. 계약 조회·변경, 보험금 청구는 평일 상담시간 내에 전화하는 편이 빠릅니다.
+    - generic [ref=f8e182]:
+      - heading "DB손해보험 고객센터 위치" [level=2] [ref=f8e183]
+      - paragraph [ref=f8e184]: 방문 상담이 필요하면 가까운 지점·고객플라자를 먼저 확인하세요. 대부분의 업무는 전화·앱으로 처리됩니다.
+      - generic [ref=f8e185]:
+        - generic [ref=f8e186]:
+          - generic [ref=f8e187]: 본사
+          - generic [ref=f8e188]: DB손해보험 본사
+          - generic [ref=f8e189]: 서울 강남구 테헤란로 432 (대치동)
+          - link "지도에서 열기 ↗" [ref=f8e190] [cursor=pointer]:
+            - /url: https://map.naver.com/p/search/DB손해보험 본사
+        - generic [ref=f8e191]:
+          - generic [ref=f8e192]: 방문 상담
+          - generic [ref=f8e193]: 가까운 고객플라자·지점
+          - generic [ref=f8e194]: 전국 지점 위치는 공식 홈페이지 지점 안내에서 검색
+          - link "지도에서 열기 ↗" [ref=f8e195] [cursor=pointer]:
+            - /url: https://map.naver.com/p/search/DB손해보험 지점
+        - generic [ref=f8e196]:
+          - generic [ref=f8e197]: 비대면
+          - generic [ref=f8e198]: 앱·홈페이지 상담
+          - generic [ref=f8e199]: 보험금 청구·증명서 발급은 프로미카마이카/공식 앱에서 처리
+          - link "지도에서 열기 ↗" [ref=f8e200] [cursor=pointer]:
+            - /url: https://www.idbins.com
+    - generic [ref=f8e201]:
+      - heading "자주 묻는 질문" [level=2] [ref=f8e202]
+      - generic [ref=f8e203]:
+        - generic [ref=f8e204]:
+          - generic [ref=f8e205]: DB손해보험 고객센터 전화번호는 몇 번인가요?
+          - generic [ref=f8e206]: 대표 전화번호는 1588-0100입니다. (2026-08-25 확인 기준)
+        - generic [ref=f8e207]:
+          - generic [ref=f8e208]: 전화는 무료인가요? 통화료가 드나요?
+          - generic [ref=f8e209]: 1588-0100은 전국대표번호로, 시내통화 요금이 발신자에게 부과됩니다. 요금제에 무료통화가 포함되어 있으면 실제 부담이 없을 수 있습니다.
+        - generic [ref=f8e210]:
+          - generic [ref=f8e211]: 상담원(상담사)과 바로 연결하려면 어떻게 하나요?
+          - generic [ref=f8e212]: 연결 후 ARS 안내를 끝까지 듣고 0번(상담원 연결)을 누르면 순번 대기 후 상담이 시작됩니다. 문의 내용을 한 문장으로 정리해 두면 부서 이관을 줄일 수 있습니다.
+        - generic [ref=f8e213]:
+          - generic [ref=f8e214]: 주말·공휴일에도 상담이 되나요?
+          - generic [ref=f8e215]: 일반 상담은 평일 09:00–18:00입니다. 주말과 공휴일에는 사고접수·긴급출동이 24시간 운영됩니다.
+        - generic [ref=f8e216]:
+          - generic [ref=f8e217]: 고객센터 위치는 어디인가요?
+          - generic [ref=f8e218]: 본사는 서울 강남구 테헤란로 432에 있으며, 방문 상담은 가까운 지점·고객플라자를 이용하면 됩니다.
+    - generic [ref=f8e219]:
+      - generic [ref=f8e220]:
+        - generic [ref=f8e221]: 지금 바로 연결
+        - generic [ref=f8e222]: DB손해보험 고객센터 1588-0100
+      - generic [ref=f8e223]:
+        - link "전화 걸기" [ref=f8e224] [cursor=pointer]:
+          - /url: tel:15880100
+        - link "공식 홈페이지" [ref=f8e225] [cursor=pointer]:
+          - /url: https://www.idbins.com
+    - paragraph [ref=f8e226]: 본 페이지는 공개된 고객센터 안내 정보를 정리한 것으로 DB손해보험과 무관합니다. 번호·운영시간은 변경될 수 있으며 최종 확인은 공식 홈페이지를 이용하세요. (2026-08-25 확인)
