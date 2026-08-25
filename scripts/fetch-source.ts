@@ -36,7 +36,18 @@ async function one(url: string) {
   try {
     const r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 (gov-jjyu source check)' }, redirect: 'follow' });
     if (!r.ok) { console.log(`✖ HTTP ${r.status}  ${url}`); return false; }
-    text = toText(await r.text());
+    /* 한글 보험사 사이트는 아직 EUC-KR(cp949) 이 많다. r.text() 는 UTF-8 로 읽어
+       글자가 깨지고, 깨진 채로 저장하면 ARS 문구 대조가 전부 어긋난다.
+       헤더나 meta 의 charset 을 보고 맞는 코드로 다시 읽는다. */
+    const buf = Buffer.from(await r.arrayBuffer());
+    const ctype = String(r.headers.get('content-type') ?? '').toLowerCase();
+    let charset = (ctype.match(/charset=([\w-]+)/) ?? [])[1] ?? '';
+    if (!charset) {
+      const head = buf.subarray(0, 4096).toString('latin1').toLowerCase();
+      charset = (head.match(/charset=["']?([\w-]+)/) ?? [])[1] ?? 'utf-8';
+    }
+    const isKr = /euc-?kr|ks_c_5601|cp949|windows-949/.test(charset);
+    text = toText(new TextDecoder(isKr ? 'euc-kr' : 'utf-8').decode(buf));
   } catch (e: any) {
     console.log(`✖ ${String(e?.message).slice(0, 60)}  ${url}`);
     return false;
