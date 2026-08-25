@@ -331,15 +331,24 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
                     {/* 누를 이유 한 줄(cue)은 스포크 데이터의 act.cue에서만 읽는다.
                         주제를 모르는 자동 생성 문장은 806개에 같은 말이 반복돼 도배가 되므로 쓰지 않는다. */}
                     {item?.act?.cue && <p className="qa-cta-cue">{item.act.cue}</p>}
+                    {/* 라벨·목적지도 스포크가 지정했으면 그것을 쓴다 (2026-08-24 수정).
+                        전에는 cue 만 스포크 것을 읽고 라벨·목적지는 허브 것을 그대로 찍었다.
+                        그래서 cue 는 "PC 에서 공시 원문을 보라"인데 버튼은 "비교 정리 보기"로
+                        허브에 가는, 앞뒤가 안 맞는 화면이 나왔다. 스포크 226편에 라벨·목적지가
+                        적혀 있는데 한 번도 렌더된 적이 없다.
+                        지정이 없으면 종전대로 허브로 보낸다 — 허브로 모으는 설계는 그대로다. */}
                     <Link
                       href={
-                        /신청방법 바로가기/.test(hubCtaByIndex[i])
-                          ? `/policy/${policyId}/${findApplyAnchor((policy as any)?.qa)}`
-                          : `/policy/${policyId}/`
+                        item?.act?.url
+                          ? item.act.url
+                          : /신청방법 바로가기/.test(hubCtaByIndex[i])
+                            ? `/policy/${policyId}/${findApplyAnchor((policy as any)?.qa)}`
+                            : `/policy/${policyId}/`
                       }
                       className="qa-inline-cta"
+                      {...(item?.act?.url?.startsWith('http') ? { rel: 'noopener' } : {})}
                     >
-                      {hubCtaByIndex[i]} →
+                      {(item?.act?.label || hubCtaByIndex[i])} →
                     </Link>
                   </div>
                 )}
