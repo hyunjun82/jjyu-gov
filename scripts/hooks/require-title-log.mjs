@@ -77,11 +77,11 @@ const file = payload?.tool_input?.file_path || '';
    2026-08-25: 여기에 스포크가 빠져 있었다. 글 1,116편 중 대부분이 스포크인데
    문지기가 쳐다보지도 않아 1~3단계를 건너뛰어도 그냥 저장됐다. */
 const isHub   = /data[\\/]policies[\\/][^\\/]+\.ts$/i.test(file) && !/(manifest|index|registry)\.ts$/i.test(file);
-const isSpoke = /app[\/]policy[\/]\[id\][\/]\[spoke\][\/]content[\/].+\.tsx$/i.test(file);
+const isSpoke = /app[\\/]policy[\\/]\[id\][\\/]\[spoke\][\\/]content[\\/].+\.tsx$/i.test(file);
 if (!isHub && !isSpoke) process.exit(0);
 if (/manifest\.ts$/.test(file)) process.exit(0);
 
-const slug = file.split(/[\/]/).pop().replace(/\.tsx?$/, '');
+const slug = file.split(/[\\/]/).pop().replace(/\.tsx?$/, '');
 
 /* ── 스포크 관문 (2026-08-25 신설) ──
    스포크는 파일명이 한글이라 허브처럼 slug 로 title-log 를 대조할 수 없다.

@@ -22,10 +22,12 @@ const CATEGORY_LABELS: Record<string, string> = {
   savings: '저축',
   childcare: '보육',
   legal: '법률',
+  /* 2026-08-25: 보험사·금융사 고객센터 시리즈 */
+  'call-center': '고객센터',
 };
 
 /* 정부지원금이 아닌(생활정보·지식·FAQ) 카테고리 — h1 접미사·설명을 다르게 */
-const NON_SUBSIDY_CATS = new Set(['life', 'issue', 'pension', 'insurance', 'service', 'legal', 'finance']);
+const NON_SUBSIDY_CATS = new Set(['life', 'issue', 'pension', 'insurance', 'service', 'legal', 'finance', 'call-center']);
 
 export const dynamicParams = false;
 

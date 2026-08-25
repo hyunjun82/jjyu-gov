@@ -1,0 +1,13 @@
+{
+  "slug": "insurance-call-center",
+  "keyword": "보험사 고객센터",
+  "title": "보험사 고객센터 사고접수, 어디까지 되나",
+  "pattern": "④자기대입",
+  "subheads": [
+    "보험사 고객센터 전화번호",
+    "보험사 고객센터 사고접수"
+  ],
+  "outline": "scripts/output/outline-insurance-call-center.md",
+  "approved": true,
+  "approvedAt": "2026-08-25"
+}

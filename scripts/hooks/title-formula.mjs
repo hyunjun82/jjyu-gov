@@ -46,8 +46,38 @@ const payload = tool === 'Write' ? (ti.content ?? '') : `${ti.new_string ?? ''}`
 
 /* 이 호출이 쓰려는 타이틀들을 뽑는다. 허브 파일은 spokes 배열에도 title: 이 있어
    한 번의 Edit 이 여러 개를 건드릴 수 있으므로 전부 검사한다. */
+/* 이 호출이 쓰려는 타이틀을 뽑는다.
+   2026-08-25: 전에는 파일 안의 title: 을 전부 허브 기준으로 심판했다.
+   그런데 허브 파일에는 두 종류가 더 있다 —
+     related  다른 페이지 제목의 복사본. 그 페이지가 이미 자기 게이트를 통과했다.
+              여기서 고치면 링크 텍스트가 실제 제목과 어긋난다. 검사하지 않는다.
+     spokes   스포크 제목. 규칙이 "스포크는 행동어 면제"라고 적어 두고
+              검사에서는 허브 기준을 들이대고 있었다. 스포크 기준으로 본다. */
 const KEY = /(?:^|[\s{,"'])["']?(?:title|h1)["']?\s*:\s*['"`]([^'"`]{6,})['"`]/gm;
-const titles = [...payload.matchAll(KEY)].map((m) => m[1]);
+
+/* related: [ ... ] 구간은 통째로 뺀다 */
+const relSpans = [];
+for (const m of payload.matchAll(/related\s*:\s*\[/g)) {
+  let i = m.index + m[0].length, depth = 1;
+  while (i < payload.length && depth > 0) {
+    if (payload[i] === '[') depth++;
+    else if (payload[i] === ']') depth--;
+    i++;
+  }
+  relSpans.push([m.index, i]);
+}
+const inRelated = (i) => relSpans.some(([a, b]) => i >= a && i < b);
+
+/* 최상위(2칸 들여쓰기) title/h1 만 허브 기준. 나머지는 스포크 기준 */
+const TOP = /^ {2}(?:title|h1)\s*:/;
+const titles = [];
+for (const m of payload.matchAll(KEY)) {
+  if (inRelated(m.index)) continue;
+  const lineStart = payload.lastIndexOf('\n', m.index) + 1;
+  const lineEnd = payload.indexOf('\n', m.index);
+  const line = payload.slice(lineStart, lineEnd < 0 ? payload.length : lineEnd);
+  titles.push({ t: m[1], top: TOP.test(line) });
+}
 if (!titles.length) process.exit(0);
 
 /* 목록은 scripts/lib/title-rule.mjs 하나뿐이다 (2026-08-25).
@@ -57,10 +87,11 @@ if (!titles.length) process.exit(0);
 import { SUB, HOOK, ACTION, badEnding } from '../lib/title-rule.mjs';
 
 const bad = [];
-for (const t of titles) {
+for (const { t, top } of titles) {
   const hasSub = SUB.some((k) => t.includes(k));
   const hasHook = HOOK.some((k) => t.includes(k)) || /[?？]/.test(t);
-  const hasAction = !isHub || ACTION.some((k) => t.includes(k));
+  /* 행동어는 허브의 대표 타이틀에만 요구한다. spokes 배열의 스포크 제목은 면제다. */
+  const hasAction = !(isHub && top) || ACTION.some((k) => t.includes(k));
   const okEnd = !badEnding(t);
   /* 후보 단계(stage json)에서는 종결만 본다 — 공식 3축은 파일로 쓸 때 본다 */
   if (isStage) { if (!okEnd) bad.push({ t, hasSub: true, hasHook: true, hasAction: true, okEnd }); continue; }
