@@ -66,6 +66,13 @@ const exportName = `${C.slug.replace(/-([a-z])/g, (_m, c) => c.toUpperCase())}Ca
 const day = C.ars.day as any[];
 const night = C.ars.night as any[];
 const agent = day.find((x) => /상담사|상담원/.test(x.what));
+/* 점심시간 — 검색은 많이 되는데 공식 안내에 없는 경우가 많다.
+   없으면 "표기 없음"이 사실이다. 있으면 사람이 JSON 에 적어야 한다(문장이 회사마다 다르다). */
+const lunchInSrc = /점심|중식/.test(src);
+if (lunchInSrc && !C.hours.lunch) {
+  die('원문에 점심시간 언급이 있다. data/call-centers/' + C.slug + '.json 의 hours.lunch 에 원문 그대로 적고 다시 돌려라.');
+}
+const LUNCH = C.hours.lunch ?? '공식 안내에 점심 휴무 표기 없음';
 
 const file = `import type { SpokeData } from '../../SpokeClient';
 
@@ -210,6 +217,18 @@ export const ${exportName}: SpokeData = {
       sourceUrl: '${C.sourceUrl}',
     },
     {
+      q: '점심시간에도 상담이 되나요?',
+      a: '${q(C.name)} 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 ${q(C.hours.weekday)}으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담사 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
+      source: '${q(C.sourceName ?? C.name)}',
+      sourceUrl: '${C.sourceUrl}',
+    },
+    {
+      q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
+      a: '전화 상담은 지역과 관계없이 ${C.main.tel} 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
+      source: '${q(C.sourceName ?? C.name)}',
+      sourceUrl: '${C.sourceUrl}',
+    },
+    {
       q: '본사 주소는 어디인가요?',
       a: '${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.',
       source: '${q(C.corp ?? C.name)} 사업자 정보',
@@ -235,7 +254,7 @@ export const ${exportName}: SpokeData = {
       sourceName: C.sourceName ?? C.name,
       verifiedAt: C.verifiedAt,
       main: C.main,
-      hours: C.hours,
+      hours: { ...C.hours, lunch: LUNCH },
       callFee: C.callFee,
       ars: C.ars,
       numbers: C.numbers,

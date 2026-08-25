@@ -30,7 +30,7 @@ export interface CallCenterData {
   sourceName: string;
   verifiedAt: string;
   main: { label: string; tel: string };
-  hours: { weekday: string; night: string; holiday: string };
+  hours: { weekday: string; night: string; holiday: string; lunch?: string };
   callFee?: string;
   ars: { day: { key: string; what: string }[]; night: { key: string; what: string }[] };
   /* smsOnly: 전화가 안 되는 문자 전용 번호. 여기에 tel: 을 걸면 안 걸린다 */
@@ -143,12 +143,21 @@ export default function CallCenterPage({
     { no: '4', title: `${agentKey}번 상담사 연결`, body: `${agentKey}번을 누르면 순번 대기 후 상담이 시작됩니다.` },
   ];
 
+  /* 점심시간은 공식 안내에 있을 때만 보여준다.
+     원본 템플릿은 "12:00–13:00 지연"을 박아뒀는데 DB 공식 안내에는 그런 말이 없다.
+     검색은 많이 되는 말이라 넣고 싶지만, 없는 걸 지어내면 그 순간 이 글은 못 쓴다. */
   const hourRows = [
     { k: '평일 상담', v: cc.hours.weekday },
     { k: '평일 야간', v: cc.hours.night },
     { k: '공휴일', v: cc.hours.holiday },
+    ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
     { k: '상담사 연결', v: `ARS ${agentKey}번` },
   ];
+
+  /* 지역별 — 지점 주소는 저장하지 않는다. 수시로 바뀌고 우리가 확인할 수 없다.
+     대신 그 지역 지점을 지도에서 바로 띄운다. "대구·부산·인천 고객센터"로
+     들어오는 사람이 빈손으로 나가지 않게. */
+  const REGIONS = ['서울', '부산', '대구', '인천', '광주', '대전', '울산', '수원'];
 
   /* 지도 — 회사명으로 검색하면 전국 지점 목록이 뜬다.
      본사 주소로 걸면 그 건물에 핀이 바로 꽂힌다(괄호 안 건물명은 뺀다). */
@@ -728,6 +737,35 @@ export default function CallCenterPage({
                 공식 홈페이지 열기 ↗
               </a>
             </div>
+          </div>
+        </section>
+
+        {/* 지역별 — 대구·부산·인천 고객센터로 들어오는 검색을 받는다 */}
+        <section id="regions" style={{ margin: '40px 0 0', scrollMarginTop: 84 }}>
+          <h2 style={{ ...h2, fontSize: 22 }}>{cc.name} 고객센터 지역별로 찾기</h2>
+          <p style={{ margin: '8px 0 0', fontSize: 15.5, color: '#5B6474' }}>
+            대구·부산·인천처럼 지역 고객센터를 찾으신다면, 지점·서비스망 위치는 수시로 바뀌어 여기 적어두지 않습니다. 지역을 누르면 지금 열려 있는 지점이 지도에 표시됩니다. 전화 상담은 지역과 관계없이 {cc.main.tel} 한 번호로 연결됩니다.
+          </p>
+          <div style={{ margin: '16px 0 0', display: 'flex', flexWrap: 'wrap', gap: 9 }}>
+            {REGIONS.map((r) => (
+              <a
+                key={r}
+                href={`https://map.naver.com/p/search/${encodeURIComponent(`${cc.name} ${r}`)}`}
+                rel="noopener"
+                className="cc-lift"
+                style={{
+                  padding: '9px 15px',
+                  borderRadius: 999,
+                  background: '#fff',
+                  border: '1px solid #E6EBF3',
+                  fontSize: 14.5,
+                  fontWeight: 700,
+                  color: BLUE,
+                }}
+              >
+                {r} 지점 지도 ↗
+              </a>
+            ))}
           </div>
         </section>
 
