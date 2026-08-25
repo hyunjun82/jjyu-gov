@@ -53,6 +53,7 @@ const OUT = path.join(DIR, `${C.slug}.tsx`);
 const REG = path.join('data', 'spokes', 'registry.ts');
 
 const q = (s: string) => String(s).replace(/'/g, "\\'");
+const NL = String.fromCharCode(10);
 const telHref = (t: string) => `tel:${String(t).replace(/-/g, '')}`;
 const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(C.name)}`;
 
@@ -82,10 +83,10 @@ const MAP = '${mapUrl}';
 const HUB = '/policy/${HUB_SLUG}';
 
 export const ${exportName}: SpokeData = {
-  h1: '${q(C.name)} 고객센터 전화번호, 상담사 연결 안 되면 헛걸음',
+  h1: '${q(C.name)} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내',
   breadcrumb: '${q(C.name)} 고객센터',
   description:
-    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}이고 상담은 ${q(C.hours.weekday)}에 받습니다. 상담사와 바로 통화하려면 ARS 에서 ${agent ? agent.key : '0'}번을 누릅니다. 업무별 번호 ${C.numbers.length}개와 야간·공휴일 접수 방법, 본사 위치까지 ${C.verifiedAt} 공식 안내 기준으로 정리했습니다.',
+    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 사고접수는 야간·공휴일에도 가능합니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담사 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   datePublished: '${C.verifiedAt}T09:00:00+09:00',
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
@@ -213,6 +214,30 @@ export const ${exportName}: SpokeData = {
     { name: '${q(C.sourceName ?? C.name + ' 고객상담센터 안내')}', url: '${C.sourceUrl}' },
     { name: '${q(C.name)} 공식 홈페이지', url: OFFICIAL },
   ],
+
+  /* 화면(components/CallCenterPage.tsx)이 읽는 회사 데이터.
+     Downloads/db-customer-center.html 원본의 {{ }} 자리표시자에 그대로 꽂힌다.
+     글은 위 qa/faqData 가 그대로 쓰고, 이건 화면 전용이다. */
+  callCenter: ${JSON.stringify(
+    {
+      slug: C.slug,
+      name: C.name,
+      brandColor: C.brandColor ?? '#1F4E79',
+      official: C.official,
+      sourceUrl: C.sourceUrl,
+      sourceName: C.sourceName ?? C.name,
+      verifiedAt: C.verifiedAt,
+      main: C.main,
+      hours: C.hours,
+      callFee: C.callFee,
+      ars: C.ars,
+      numbers: C.numbers,
+      hq: C.hq,
+      hqZip: C.hqZip,
+    },
+    null,
+    2,
+  ).split(NL).join(NL + '  ')},
 };
 `;
 

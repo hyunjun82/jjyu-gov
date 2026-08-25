@@ -1,4 +1,6 @@
 'use client';
+
+import type { CallCenterData } from '@/components/CallCenterPage';
 import Link from 'next/link';
 import { ChevronRight, ChevronDown, User } from 'lucide-react';
 import { Fragment, ReactNode, useState } from 'react';
@@ -62,6 +64,9 @@ export interface SpokeData {
      문구는 반드시 이 데이터에서만 받는다 — 코드에 문장을 박으면 전 스포크가 같아진다. */
   heroHook?: string;
   heroAct?: { label: string; href?: string };
+  /* 보험사 고객센터 전용 화면 — 있으면 CallCenterPage 로 그린다.
+     글(위 필드들)은 그대로 두고 화면만 갈아끼운다. 게이트는 예전처럼 심판한다. */
+  callCenter?: CallCenterData;
 }
 
 /* ── 텍스트 내 highlights 단어를 형광으로 강조 ── */
@@ -122,6 +127,7 @@ function renderIntro(intro: any, highlights: string[] = []): ReactNode {
 import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
 import { PoliciesByKoAlias, getSpokeListForPolicy, resolveSpokeKey } from '@/lib/policy-aliases';
 import { SpokesRegistry } from '@/data/spokes/registry';
+import CallCenterPage from '@/components/CallCenterPage';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
@@ -224,6 +230,29 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
     ]),
     faqSchema(spoke.faqData),
   ];
+
+  /* 보험사 고객센터는 전용 화면으로 그린다 (Downloads 원본 이식).
+     스키마는 그대로 내보내고 본문만 갈아끼운다. */
+  if (spoke.callCenter) {
+    return (
+      <main>
+        {schemas.map((schema, i) => (
+          <script
+            key={i}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: toJsonLd(schema) }}
+          />
+        ))}
+        <CallCenterPage
+          cc={spoke.callCenter}
+          spoke={spoke}
+          policyId={policyId}
+          policyTitle={policyTitle}
+          hubHref={`/policy/${policyId}`}
+        />
+      </main>
+    );
+  }
 
   return (
     <main className="detail">
