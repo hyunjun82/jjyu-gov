@@ -32,6 +32,11 @@ const norm = (s: string) => s.replace(/[\s,]/g, '');
  *  연도 축약 통일: 정부 문서의 "'27.1월"·"’26년" → "2027년"·"2026년" */
 const canonMoney = (s: string) =>
   s.replace(/(\d+(?:\.\d+)?)억\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e8)}원`)
+   /* "3천만원" 처럼 자릿수 한글이 겹친 표기 (2026-08-25 신설).
+      원문은 "3천만원", 글은 "3,000만원" 으로 쓰는데 둘을 다른 숫자로 보고 push 를 막았다.
+      아래 만원 규칙은 숫자 바로 뒤에 "만" 이 와야 잡혀서 "3천만원" 이 통째로 남았다. */
+   .replace(/(\d+(?:\.\d+)?)천만\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e7)}원`)
+   .replace(/(\d+(?:\.\d+)?)백만\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e6)}원`)
    .replace(/(\d+(?:\.\d+)?)만\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e4)}원`)
    .replace(/(\d+(?:\.\d+)?)천\s*원/g, (_, n) => `${Math.round(parseFloat(n) * 1e3)}원`)
    .replace(/['’‘]\s*(\d{2})\s*(?=[.년])/g, (_, y) => `20${y}년`);

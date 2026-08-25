@@ -28,6 +28,7 @@ import { existsSync, readFileSync, writeFileSync, mkdirSync, readdirSync } from 
 import { join } from 'path';
 import { snapName } from './fetch-source';
 import { classifyIntent, classifyTheme } from './collect-keywords';
+import { judgeTitle, missingAxes } from './lib/title-rule.mjs';
 
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
 const OUT = join(ROOT, 'scripts', 'output');
@@ -200,8 +201,31 @@ function buildTitles(kj: any): Cand[] {
 
   const K = keyword;
   const out: Cand[] = [];
-  const add = (pattern: string, title: string, from: Frag[]) =>
-    out.push({ n: 0, title: title.replace(/\s+/g, ' ').trim(), pattern, from: from.map((f) => f.src) });
+  /* 후킹 꼬리 — 지어내는 문장이 아니라 docs/hook-patterns.md 4축의 고정 어구다.
+     세부키워드는 실검색어 조각에서 이미 들어오므로, 모자란 축은 대개 후킹 하나다. */
+  const TAILS = ['늦으면 손해', '모르면 못 받는다', '놓치면 헛걸음', '서류 없으면 헛걸음'];
+
+  /* 게이트(scripts/lib/title-rule.mjs)를 통과하는 후보만 담는다.
+     2026-08-25: 전에는 통과 여부를 안 보고 담았다. 21개 중 2개만 통과하는 목록을
+     사장님께 올렸고, 고른 번호로 본문을 다 쓴 뒤에 저장 훅이 반려했다.
+     못 채운 축이 후킹뿐이면 꼬리를 붙여 살리고, 그래도 안 되면 버린다. */
+  const add = (pattern: string, rawTitle: string, from: Frag[]) => {
+    const base = rawTitle.replace(/\s+/g, ' ').trim();
+    const srcs = from.map((f) => f.src);
+    if (judgeTitle(base).pass) { out.push({ n: 0, title: base, pattern, from: srcs }); return; }
+    if (missingAxes(base).join() !== '후킹') return;
+    /* 꼬리가 한 개로 몰리면 목록 전체가 같은 말로 끝난다.
+       이미 두 번 쓴 꼬리는 건너뛴다 — 실손 62편에서 같은 틀을 세 번 찍어낸 사고와 같은 결이다. */
+    for (const tail of TAILS) {
+      const used = out.filter((o) => o.title.endsWith(tail)).length;
+      if (used >= 2) continue;
+      const t = `${base}, ${tail}`;
+      if (!judgeTitle(t).pass) continue;
+      if (out.some((o) => o.title === t)) continue;
+      out.push({ n: 0, title: t, pattern, from: srcs });
+      return;
+    }
+  };
 
   /** 서로 다른 조각 두 개를 앞쪽(검색량 높은 쪽)부터 n 쌍 */
   const pair = (a: Frag[], b: Frag[], n: number): [Frag, Frag][] => {
@@ -240,7 +264,7 @@ function buildTitles(kj: any): Cand[] {
       .slice(0, 10);
     for (const f of top) {
       add('④자기대입', `${K} ${f.frag}, 어디까지 되나`, [f]);
-      add('⑥함정 경고', `${K} ${f.frag}, 대상에서 빠지는 경우까지`, [f]);
+      add('⑥함정 경고', `${K} ${f.frag}, 빠뜨리면 헛걸음`, [f]);
     }
     pair(top, top, 4).forEach(([x, y]) => add('③절차 묶음', `${K} ${x.frag}부터 ${y.frag}까지`, [x, y]));
   }
@@ -327,6 +351,21 @@ function subheadsFrom(kj: any): string[] {
 function pick(nRaw: string) {
   const s = loadState();
   const n = Number(nRaw);
+  /* --1 을 --slug 없이 돌렸으면 상태가 키워드 이름으로 저장돼 있다.
+     그걸 찾아 이어붙인다 — 2026-08-25 에 여기서 한 번 되돌아갔다. */
+  if (!s.candidates?.length) {
+    const alt = readdirSync(OUT).find(
+      (f) => f.startsWith('state-') && f.endsWith('.json') && f !== `state-${SLUG}.json`
+        && JSON.parse(readFileSync(join(OUT, f), 'utf8'))?.keyword === keyword,
+    );
+    if (alt) {
+      const prev = JSON.parse(readFileSync(join(OUT, alt), 'utf8'));
+      if (prev?.candidates?.length) {
+        s.candidates = prev.candidates;
+        console.log(`   후보를 ${alt} 에서 이어받았다 (--1 을 다른 이름으로 돌렸다)`);
+      }
+    }
+  }
   const c = (s.candidates ?? []).find((x) => x.n === n);
   if (!c) {
     console.log(`후보 ${nRaw} 번이 없다. 먼저 --1 을 돌린다.`);

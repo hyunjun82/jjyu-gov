@@ -141,9 +141,22 @@ const impEnd = reg.indexOf('\n', reg.indexOf(';', lastImport));
 reg = reg.slice(0, impEnd) + '\n' + importLine + reg.slice(impEnd);
 
 const mapKey = `  '${S.hubSlug}': {`;
-if (!reg.includes(mapKey)) die(`registry 에 허브 항목이 없다: ${S.hubSlug}`);
+/* 허브의 첫 스포크면 registry 에 칸이 없다. 죽지 말고 만든다(2026-08-25). */
+if (!reg.includes(mapKey)) {
+  const anchor = 'export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {';
+  if (!reg.includes(anchor)) die(`registry 형태가 바뀌었다 — SpokesRegistry 선언을 못 찾음`);
+  reg = reg.replace(anchor, `${anchor}\n  '${S.hubSlug}': {\n  },`);
+  console.log(`   registry 에 허브 칸 신설: ${S.hubSlug}`);
+}
 reg = reg.replace(mapKey, `${mapKey}\n    '${S.slug}': ${exportName},`);
 
+/* hubVar 는 허브 파일에서 읽는다. spec 에 적게 하면 매번 틀린다(2026-08-25 실제로 틀렸다). */
+if (!S.hubVar) {
+  const m = hub.match(/export const (\w+Spokes)\s*=\s*\[/);
+  if (!m) die(`허브 파일에 Spokes 배열이 없다: ${HUBFILE}`);
+  S.hubVar = m[1];
+  console.log(`   hubVar 자동 인식: ${S.hubVar}`);
+}
 const hubKey = `export const ${S.hubVar} = [`;
 if (!hub.includes(hubKey)) die(`허브에 Spokes 배열이 없다: ${S.hubVar}`);
 hub = hub.replace(hubKey,
