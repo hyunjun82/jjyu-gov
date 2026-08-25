@@ -104,6 +104,26 @@ if (lunchInSrc && !C.hours.lunch) {
   die('원문에 점심시간 언급이 있다. data/call-centers/' + C.slug + '.json 의 hours.lunch 에 원문 그대로 적고 다시 돌려라.');
 }
 const LUNCH = C.hours.lunch ?? '공식 안내에 점심 휴무 표기 없음';
+
+/* ARS 단축번호가 공개되지 않은 회사가 있다 — 구성도를 이미지로만 올리는 곳,
+   메뉴 이름만 적고 번호를 안 적는 곳(하나손보·흥국생명).
+   번호를 순서로 추정하면 사람이 엉뚱한 메뉴를 누른다. 없으면 없다고 쓴다. */
+const HAS_ARS = day.length > 0;
+const AGENT_KEY = agent ? agent.key : (HAS_ARS ? '0' : '');
+const ARS_FACT = HAS_ARS ? `ARS 에서 ${AGENT_KEY}번` : '공식 안내에 ARS 단축번호 미공개';
+const ARS_HL = HAS_ARS ? `'${AGENT_KEY}번'` : `'상담사 연결'`;
+const ARS_META = HAS_ARS
+  ? `상담사 연결은 ARS ${AGENT_KEY}번. `
+  : '';
+const ARS_HOOK = HAS_ARS
+  ? `다만 그냥 걸면 ARS 안내가 길게 이어져서, 상담사 목소리를 들으려면 ${AGENT_KEY}번을 눌러야 합니다. `
+  : '다만 공식 안내에 ARS 단축번호가 공개돼 있지 않아, 안내 음성을 듣고 해당 항목을 고르셔야 합니다. ';
+const ARS_Q2 = HAS_ARS
+  ? `ARS 안내가 나오면 ${AGENT_KEY}번을 누릅니다. 그러면 순번 대기 후 상담사에게 연결됩니다.`
+  : `${q(C.name)}은 공식 안내에 ARS 단축번호를 공개하지 않습니다. 안내 음성을 끝까지 듣고 상담사 연결 항목을 고르시면 됩니다.`;
+const ARS_FAQ = HAS_ARS
+  ? `ARS 안내에서 ${AGENT_KEY}번을 누르면 순번 대기 후 상담사에게 연결됩니다.`
+  : '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담사 연결 항목을 고르세요.';
 /* 핵심콕콕의 본사 행 — 주소가 있을 때만 한 줄 만든다.
    출력 문자열 안에 조건문을 그대로 두면 생성된 파일에 코드가 박힌다. */
 const HQ_FACT = C.hq ? `    '본사': '${q(C.hq)}${C.hqZip ? ` (우 ${C.hqZip})` : ''}',
@@ -136,11 +156,11 @@ export const ${exportName}: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}, 상담사 연결은 ARS ${agent ? agent.key : '0'}번. 상담시간 ${q(C.hours.weekday)}, 야간·공휴일에는 사고접수·긴급출동만 접수됩니다. 업무별 번호 ${C.numbers.length}개와 ARS 메뉴, 본사 위치까지 ${C.verifiedAt} 공식 안내 기준.',
+    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}. ${ARS_META}상담시간 ${q(C.hours.weekday)}, 야간·공휴일에는 사고접수·긴급출동만 접수됩니다. 업무별 번호 ${C.numbers.length}개와 ARS 메뉴, 본사 위치까지 ${C.verifiedAt} 공식 안내 기준.',
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:
-    '급할 때 번호부터 찾게 되는데요. ${q(C.name)} 대표번호는 ${C.main.tel} 하나로 통합돼 있습니다. 다만 그냥 걸면 ARS 안내가 길게 이어져서, 상담사 목소리를 들으려면 ${agent ? agent.key : '0'}번을 눌러야 합니다. 시간대도 갈립니다 — ${q(C.hours.weekday)}에는 상담사가 받고, ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 사고접수·긴급출동 위주로 돌아갑니다. 그럼 지금 바로 거시는 게 빠르겠죠.',
+    '급할 때 번호부터 찾게 되는데요. ${q(C.name)} 대표번호는 ${C.main.tel} 하나로 통합돼 있습니다. ${ARS_HOOK}시간대도 갈립니다 — ${q(C.hours.weekday)}에는 상담사가 받고, ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 사고접수·긴급출동 위주로 돌아갑니다. 그럼 지금 바로 거시는 게 빠르겠죠.',
   heroAct: { label: '${C.main.tel} 전화 걸기', href: TEL },
 
   keyFacts: {
@@ -148,13 +168,13 @@ export const ${exportName}: SpokeData = {
     '상담 가능 시간': '${q(C.hours.weekday)}',
     '야간': '${q(C.hours.night)}',
     '공휴일': '${q(C.hours.holiday)}',
-    '상담사 연결': 'ARS 에서 ${agent ? agent.key : '0'}번',
+    '상담사 연결': '${ARS_FACT}',
 ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 기준으로 부과됩니다.')}',
   },
   keyFactsHighlights: {
     '대표번호': ['${C.main.tel}'],
     '상담 가능 시간': ['${q(C.hours.weekday)}'],
-    '상담사 연결': ['${agent ? agent.key : '0'}번'],
+    '상담사 연결': [${ARS_HL}],
   },
 
   qa: [
@@ -172,8 +192,8 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '상담사(상담원)와 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        'ARS 안내가 나오면 ${agent ? agent.key : '0'}번을 누릅니다. 그러면 순번 대기 후 상담사에게 연결됩니다. 다만 이건 ${q(C.hours.weekday)}에만 됩니다. 그 시간을 벗어나면 상담사 연결 항목 자체가 없고 사고접수·긴급출동 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
-      highlights: ['${agent ? agent.key : '0'}번', '${q(C.hours.weekday)}'],
+        '${ARS_Q2} 다만 이건 ${q(C.hours.weekday)}에만 됩니다. 그 시간을 벗어나면 상담사 연결 항목 자체가 없고 사고접수·긴급출동 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+      highlights: [${ARS_HL}, '${q(C.hours.weekday)}'],
       table: {
         headers: ['번호', '평일 주간 (${q(C.hours.weekday)})'],
         rows: [${arsRow(day)}],
@@ -234,7 +254,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '상담사와 바로 통화하려면 어떻게 하나요?',
-      a: 'ARS 안내에서 ${agent ? agent.key : '0'}번을 누르면 순번 대기 후 상담사에게 연결됩니다. ${q(C.hours.weekday)}에만 가능합니다.',
+      a: '${ARS_FAQ} ${q(C.hours.weekday)}에만 가능합니다.',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },

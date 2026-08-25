@@ -1452,9 +1452,15 @@ import { nhPropertyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { nhLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/nh-life';
 import { meritzFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/meritz-fire';
 import { lotteInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/lotte-insurance';
+import { heungkukLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/heungkuk-life';
+import { hanaInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hana-insurance';
+import { metlifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/metlife';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'metlife': metlifeCallCenterSpokeContent,
+    'hana-insurance': hanaInsuranceCallCenterSpokeContent,
+    'heungkuk-life': heungkukLifeCallCenterSpokeContent,
     'lotte-insurance': lotteInsuranceCallCenterSpokeContent,
     'meritz-fire': meritzFireCallCenterSpokeContent,
     'nh-life': nhLifeCallCenterSpokeContent,

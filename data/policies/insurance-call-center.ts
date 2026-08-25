@@ -154,6 +154,10 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'metlife', role: 'eligibility', title: '메트라이프생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'hana-insurance', role: 'eligibility', title: '하나손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'heungkuk-life', role: 'eligibility', title: '흥국생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'db-insurance', role: 'eligibility', title: 'DB손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'lotte-insurance', role: 'eligibility', title: '롯데손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'meritz-fire', role: 'eligibility', title: '메리츠화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'nh-life', role: 'eligibility', title: 'NH농협생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
@@ -163,6 +167,5 @@ export const insuranceCallCenterSpokes = [
   { slug: 'heungkuk-fire', role: 'eligibility', title: '흥국화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'kb-insurance', role: 'eligibility', title: 'KB손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'hyundai-marine', role: 'eligibility', title: '현대해상 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
-  { slug: 'db-insurance', role: 'eligibility', title: 'DB손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'samsung-fire', role: 'eligibility', title: '삼성화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
 ];

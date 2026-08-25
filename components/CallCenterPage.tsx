@@ -112,6 +112,9 @@ export default function CallCenterPage({
   const B_EDGE = lighten(BRAND, 0.62);
 
   const TEL = telHref(cc.main.tel);
+  /* ARS 단축번호를 공개하지 않는 회사가 있다(구성도가 이미지이거나 메뉴 이름만 있는 곳).
+     번호를 순서로 추정하면 사람이 엉뚱한 메뉴를 누른다. 없으면 없다고 쓴다. */
+  const hasArs = cc.ars.day.length > 0;
   const agent = cc.ars.day.find((x) => /상담사|상담원/.test(x.what));
   const agentKey = agent ? agent.key : '0';
   const wh = parseWeekdayHours(cc.hours.weekday);
@@ -126,7 +129,9 @@ export default function CallCenterPage({
     open === null
       ? '상담사 연결은 평일 상담시간에만 됩니다. 그 밖의 시간은 사고접수·긴급출동만 돌아갑니다.'
       : open
-        ? `지금 전화하면 ARS 에서 ${agentKey}번을 눌러 상담사와 연결됩니다.`
+        ? hasArs
+          ? `지금 전화하면 ARS 에서 ${agentKey}번을 눌러 상담사와 연결됩니다.`
+          : '지금 전화하면 상담사 연결이 가능합니다.'
         : `지금은 사고접수·긴급출동만 연결됩니다. 일반 상담은 ${cc.hours.weekday}에 가능합니다.`;
 
   const copy = () => {
@@ -143,7 +148,9 @@ export default function CallCenterPage({
     { no: '1', title: `${cc.main.tel} 연결`, body: '휴대전화·일반전화 모두 같은 번호로 들어갑니다.' },
     { no: '2', title: '본인 확인', body: '계약자 주민번호·증권번호를 미리 꺼내 두면 절차가 짧아집니다.' },
     { no: '3', title: 'ARS 끝까지 듣기', body: '상담사 연결은 안내의 마지막에 나오는 경우가 많습니다.' },
-    { no: '4', title: `${agentKey}번 상담사 연결`, body: `${agentKey}번을 누르면 순번 대기 후 상담이 시작됩니다.` },
+    hasArs
+      ? { no: '4', title: `${agentKey}번 상담사 연결`, body: `${agentKey}번을 누르면 순번 대기 후 상담이 시작됩니다.` }
+      : { no: '4', title: '상담사 연결', body: '공식 안내에 단축번호가 없어, 안내 음성에서 상담사 연결 항목을 고르시면 됩니다.' },
   ];
 
   /* 점심시간은 공식 안내에 있을 때만 보여준다.
@@ -154,7 +161,7 @@ export default function CallCenterPage({
     { k: '평일 야간', v: cc.hours.night },
     { k: '공휴일', v: cc.hours.holiday },
     ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
-    { k: '상담사 연결', v: `ARS ${agentKey}번` },
+    ...(hasArs ? [{ k: '상담사 연결', v: `ARS ${agentKey}번` }] : []),
   ];
 
   /* 지역별 — 지점 주소는 저장하지 않는다. 수시로 바뀌고 우리가 확인할 수 없다.
@@ -456,7 +463,7 @@ export default function CallCenterPage({
             </button>
 
             {/* ARS — 원본은 4개짜리 예시였다. 우리는 공식 안내의 주간 전부를 넣는다 */}
-            <div
+            {hasArs && <div
               style={{
                 position: 'relative',
                 margin: '22px 0 0',
@@ -525,7 +532,7 @@ export default function CallCenterPage({
                   </div>
                 </>
               )}
-            </div>
+            </div>}
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -555,7 +562,11 @@ export default function CallCenterPage({
             <div style={{ flex: 1, background: `linear-gradient(180deg, #F5F8FC, ${TINT})`, border: '1px solid #E3E9F2', borderRadius: 20, padding: 24 }}>
               <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.08em', color: BLUE }}>빠른 상담원 연결 팁</div>
               <div style={{ margin: '12px 0 0', fontSize: 15.5, lineHeight: 1.65, color: '#48505F' }}>
-                대표번호 연결 후 ARS 안내를 끝까지 듣고 <strong style={{ color: '#101828' }}>{agentKey}번(상담사 연결)</strong>을 누르면 순번 대기 후 상담이 시작됩니다. 문의를 한 문장으로 정리해 두면 부서 이관 횟수를 줄일 수 있습니다.
+                {hasArs ? (
+                  <>대표번호 연결 후 ARS 안내를 끝까지 듣고 <strong style={{ color: '#101828' }}>{agentKey}번(상담사 연결)</strong>을 누르면 순번 대기 후 상담이 시작됩니다.</>
+                ) : (
+                  <>공식 안내에 ARS 단축번호가 공개돼 있지 않습니다. 안내 음성을 끝까지 듣고 상담사 연결 항목을 고르시면 됩니다.</>
+                )} 문의를 한 문장으로 정리해 두면 부서 이관 횟수를 줄일 수 있습니다.
               </div>
               <a href="#connect" style={{ margin: '16px 0 0', display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 15, fontWeight: 700, color: BLUE }}>
                 연결 순서 자세히 보기 →
@@ -687,15 +698,18 @@ export default function CallCenterPage({
           <div style={{ ...card, borderRadius: 20, padding: 28, boxShadow: '0 18px 36px -32px rgba(16,24,40,.5)' }}>
             <h2 style={{ ...h2, fontSize: 22 }}>자주 찾는 문의</h2>
             <p style={{ margin: '8px 0 0', fontSize: 15.5, color: '#5B6474' }}>
-              아래 유형은 대표번호({cc.main.tel}) 연결 후 ARS 안내에 따라 선택하세요.
+              {hasArs ? `아래 유형은 대표번호(${cc.main.tel}) 연결 후 ARS 안내에 따라 선택하세요.` : `용건별 번호가 따로 있습니다. 대표번호(${cc.main.tel})로 걸어도 연결됩니다.`}
             </p>
             <div style={{ margin: '18px 0 0', display: 'flex', flexWrap: 'wrap', gap: 9 }}>
-              {cc.ars.day.map((a) => (
+              {(hasArs
+                ? cc.ars.day.map((a) => ({ key: a.key, text: `${a.key}번 ${a.what}` }))
+                : cc.numbers.map((n) => ({ key: n.tel, text: n.label }))
+              ).map((a) => (
                 <span
                   key={`t${a.key}`}
                   style={{ padding: '9px 15px', borderRadius: 999, background: '#F4F7FB', border: '1px solid #E6EBF3', fontSize: 14.5, fontWeight: 600, color: '#48505F' }}
                 >
-                  {a.key}번 {a.what}
+                  {a.text}
                 </span>
               ))}
             </div>

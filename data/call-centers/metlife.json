@@ -1,0 +1,35 @@
+{
+  "slug": "metlife",
+  "name": "메트라이프생명",
+  "aliases": ["메트라이프", "MetLife생명", "메트라이프 콜센터"],
+  "brandColor": "#0090DA",
+  "official": "https://www.metlife.co.kr",
+  "sourceUrl": "https://www.metlife.co.kr/customer-service/contact-us/call-center-and-ars/",
+  "sourceName": "메트라이프생명 콜센터 & ARS",
+  "verifiedAt": "2026-08-25",
+  "main": { "label": "콜센터", "tel": "1588-9600" },
+  "hours": {
+    "weekday": "고객상담/지급/입금/변경 업무 : 평일 : 09시 ~ 18시",
+    "night": "ARS 계약 관련 조회 : 평일 : 08시 ~ 22시, 토요일 : 08시 ~ 18시",
+    "holiday": "일요일 및 법정 공휴일에는 업무를 하지 않습니다"
+  },
+  "callFee": "ARS를 이용할 경우 시내요금이 부과되고, 휴대전화로 이용하면 개인별 이용요금에 따라 달라집니다.",
+  "ars": {
+    "day": [
+      { "key": "2", "what": "보험료 납입 관련 상담" },
+      { "key": "3", "what": "대출 중도인출 관련 상담" },
+      { "key": "4", "what": "보험금 청구 관련 상담" },
+      { "key": "5", "what": "계약변경, 펀드업무 상담" },
+      { "key": "6", "what": "해약 상담" },
+      { "key": "7", "what": "증명서 발급 관련 상담" },
+      { "key": "8", "what": "연금상담 및 신청" },
+      { "key": "0", "what": "기타 일반 문의 상담" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "콜센터", "tel": "1588-9600", "note": "대표번호" },
+    { "label": "수신자부담", "tel": "080-260-9600" },
+    { "label": "해외에서 연결", "tel": "82-2-2017-6700" }
+  ]
+}
