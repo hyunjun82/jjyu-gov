@@ -58,14 +58,18 @@ if (isSpoke) {
     );
     process.exit(2);
   }
-  process.exit(0);
+  /* 여기서 끝내지 않는다. 조기 종료하면 캡처 검사까지 건너뛴다
+     (2026-08-25 첫 판이 그래서 4종을 다시 뚫었다).
+     스포크는 파일명이 한글이라 title-log 대조만 건너뛴다. */
 }
 
 /* 신규 글은 write.ts 를 거쳤는지 본다 — outline 파일은 write.ts 가 만든다.
    2026-08-16: 진행기(write.ts)가 있는데 내가 안 돌리고 맨손으로 시작해
    중복 글을 다 쓰고 버렸다. 시작을 건너뛰면 저장에서 막는다.
    기존 글 수정은 해당 없음 — 파일이 이미 있으면 통과. */
-if (!existsSync(file)) {
+/* 구성표(outline-{slug}.md)는 슬러그로 찾는다 — 허브만 파일명이 슬러그다.
+   스포크는 파일명이 한글이라 여기서 볼 수 없고, 바로 위 추출본 검사가 그 역할을 한다. */
+if (isHub && !existsSync(file)) {
   const outline = join(ROOT, 'scripts', 'output', `outline-${slug}.md`);
   if (!existsSync(outline)) {
     console.error(
@@ -108,7 +112,7 @@ if (!hasShot) {
   process.exit(2);
 }
 
-if (!block || !/^- 캡처:/m.test(block)) {
+if (isHub && (!block || !/^- 캡처:/m.test(block))) {
   console.error(
     [
       `[타이틀 훅] ${slug} — 캡처를 열고 기록해야 저장할 수 있다.`,

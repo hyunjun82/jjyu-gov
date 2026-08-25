@@ -12,7 +12,11 @@ const idxHide = idxPath + '.hidden';
 const logBak = readFileSync(logPath, 'utf8');
 
 const SID = 'selftest-session';
-const DEF = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10) + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10) + "  heroAct: { label: 'ㄱ', href: 'https://www.silson24.or.kr/claim/web/' },";
+/* 2026-08-25: 스포크 관문이 생겨 새 스포크는 추출본을 가리켜야 저장된다.
+   정상 경로 재현이므로 시험 본문에도 실제로 있는 추출본을 적어 둔다.
+   이 줄을 뺀 본문은 '3단계를 건너뛴 글'이 되어 일부러 막히는 케이스로 쓴다. */
+const EXT = '/* 추출본: scripts/output/source-caregiver-insurance-premium.txt */' + String.fromCharCode(10);
+const DEF = EXT + "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10) + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10) + "  heroAct: { label: 'ㄱ', href: 'https://www.silson24.or.kr/claim/web/' },";
 const run = (file, content = DEF, sid = SID) => {
   const payload = JSON.stringify({ session_id: sid, tool_name: 'Write', tool_input: { file_path: file, content } });
   try {
@@ -114,7 +118,7 @@ t('8. 허브 파일(data/policies/*.ts)도 막히나', false, () => {
 
 t('9. 글이 아닌 파일(registry.ts)은 간섭 없이 통과', true, () => run('data/spokes/registry.ts', "  'x': y,"));
 
-t('10. 타이틀 없이 본문만 고치는 수정은 통과', true, () => run(spoke('아무거나'), "  intro: '본문만 고친다',"));
+t('10. 타이틀 없이 본문만 고치는 수정은 통과', true, () => run(spoke('아무거나'), EXT + "  intro: '본문만 고친다',"));
 
 t('11. 캡처를 한 장도 안 연 세션이 글을 쓰려 하면', false, () => {
   addEntry('시험11안봄', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
@@ -164,7 +168,7 @@ t('16. heroHook 이 없는 새 글 (서론 없이 버튼만)', false, () => {
 t('17. 라벨이 16자를 넘으면', false, () => {
   addEntry('시험17긴라벨', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
   markAll();
-  const body = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
+  const body = EXT + "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
     + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10)
     + "  heroAct: { label: '내 대학이 되는지 확인하고 신청하기', href: OK_URL },";
   return run(spoke('시험17긴라벨'), body);
@@ -173,7 +177,7 @@ t('17. 라벨이 16자를 넘으면', false, () => {
 t('18. 서론 있고 라벨 짧으면 통과', true, () => {
   addEntry('시험18정상', '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"');
   markAll();
-  const body = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
+  const body = EXT + "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
     + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10)
     + "  heroAct: { label: '실비 청구하기', href: OK_URL },";
   useOutline('시험18정상');
@@ -184,7 +188,7 @@ t('18. 서론 있고 라벨 짧으면 통과', true, () => {
    실제 사고: 8/11 07:56 에 캡처 한 장을 열자 8/12 04:51 까지 20.9시간 동안
    쓴 글이 전부 무검사 통과했다. 8/12 하루에 16편을 썼는데 캡처는 6번 열었다.
    훅이 acts.some(...) 으로 세션 전체를 봤기 때문이고, 이 시험이 없어서 안 잡혔다. */
-const bodyOK = "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
+const bodyOK = EXT + "  h1: '테스트 실비 청구하기'," + String.fromCharCode(10)
   + "  heroHook: '장면으로 시작하는 충분히 긴 서론입니다. 그럼 먼저 확인부터 하셔야겠죠.'," + String.fromCharCode(10)
   + "  heroAct: { label: '실비 청구하기', href: OK_URL },";
 const capLine = '- 캡처: 보험타이틀.png — "비뇨기과 실비 보험 청구 가능할까? 요로결석, STD 검사 보장 기준"';

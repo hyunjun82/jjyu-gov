@@ -23,7 +23,7 @@ echo "🚪 문지기 자가검사 중 (4단계를 건너뛰면 저장이 막히�
 SELF_OUT=$(node "$ROOT/scripts/hooks/selftest-title-log.mjs" 2>&1)
 echo "$SELF_OUT" | grep -E "^★실패|종 중"
 BASE_F="$ROOT/scripts/selftest-baseline.txt"
-FAIL=$(echo "$SELF_OUT" | sed -n 's/.*실패 \([0-9]*\)종.*//p' | tail -1)
+FAIL=$(printf '%s' "$SELF_OUT" | tr -d '' | grep -o "실패 [0-9]*종" | tail -1 | grep -o "[0-9]*")
 BASE=$(cat "$BASE_F" 2>/dev/null || echo 99)
 if [ -z "$FAIL" ]; then
   echo "🚫 push 차단됨 — 자가검사가 결과를 못 냈다(시험지 자체가 깨졌다)"
