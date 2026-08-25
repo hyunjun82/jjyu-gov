@@ -59,7 +59,9 @@ const telHref = (t: string) => `tel:${String(t).replace(/[^0-9+]/g, '')}`;
    "월~금요일 09시 ~ 18시" 같은 한글 문장에서 시각 두 개를 뽑는다.
    못 뽑으면 판정을 포기하고 시간표만 보여준다 — 틀린 판정을 띄우느니 안 띄운다. */
 function parseWeekdayHours(s: string): { from: number; to: number } | null {
-  const m = String(s).match(/(\d{1,2})\s*시/g);
+  /* 회사마다 표기가 다르다 — DB "09시 ~ 18시", 삼성화재 "09:00~18:00".
+     한 쪽만 읽으면 나머지 회사는 판정이 조용히 죽는다(에러 없이 시간표만 나온다). */
+  const m = String(s).match(/(\d{1,2})\s*(?::\d{2}|시)/g);
   if (!m || m.length < 2) return null;
   const from = parseInt(m[0], 10);
   const to = parseInt(m[1], 10);

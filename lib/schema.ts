@@ -197,7 +197,7 @@ export function callCenterSchema(
   };
 
   /* 운영시간 "월~금요일 09시 ~ 18시" → OpeningHoursSpecification */
-  const hm = cc.hours.weekday.match(/(\d{1,2})\s*시/g) ?? [];
+  const hm = cc.hours.weekday.match(/(\d{1,2})\s*(?::\d{2}|시)/g) ?? [];
   const pad = (n: string | undefined) => String(parseInt(n ?? '0', 10)).padStart(2, '0') + ':00';
   const weekdayHours =
     hm.length >= 2
