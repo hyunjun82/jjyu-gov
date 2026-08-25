@@ -1449,9 +1449,15 @@ import { heungkukFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/co
 import { kyoboLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kyobo-life';
 import { hanwhaLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hanwha-life';
 import { nhPropertyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/nh-property';
+import { nhLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/nh-life';
+import { meritzFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/meritz-fire';
+import { lotteInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/lotte-insurance';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'lotte-insurance': lotteInsuranceCallCenterSpokeContent,
+    'meritz-fire': meritzFireCallCenterSpokeContent,
+    'nh-life': nhLifeCallCenterSpokeContent,
     'nh-property': nhPropertyCallCenterSpokeContent,
     'hanwha-life': hanwhaLifeCallCenterSpokeContent,
     'kyobo-life': kyoboLifeCallCenterSpokeContent,

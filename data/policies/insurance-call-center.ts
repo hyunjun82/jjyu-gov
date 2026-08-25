@@ -154,6 +154,9 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'lotte-insurance', role: 'eligibility', title: '롯데손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'meritz-fire', role: 'eligibility', title: '메리츠화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'nh-life', role: 'eligibility', title: 'NH농협생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'nh-property', role: 'eligibility', title: 'NH농협손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'hanwha-life', role: 'eligibility', title: '한화생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'kyobo-life', role: 'eligibility', title: '교보생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
