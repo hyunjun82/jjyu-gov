@@ -114,6 +114,57 @@ const HAS_ARS = day.length > 0;
    게이트가 맞다 — 원문에 없는 표기를 만들어 쓰는 것이다. 있을 때만 쓴다. */
 const AGENT_KEY = agent ? agent.key : (HAS_ARS ? '0' : '');
 const KEY_OK = HAS_ARS && src.includes(`${AGENT_KEY}번`);
+
+/* 버튼·cue 를 회사마다 다른 결로 쓴다 (2026-08-25).
+   23곳을 한 틀로 찍었더니 상단 버튼 끝 어절 "걸기" 가 100%, cue 가 23번 같은 문장이었다.
+   게이트가 막았고, 막는 게 맞다 — 찍어낸 티가 나면 사람이 안 누른다.
+   회사 slug 로 고른다. 같은 회사는 항상 같은 문구가 나와 재생성해도 안 흔들린다. */
+const pick = <T,>(arr: T[]): T => {
+  let h = 0;
+  for (const ch of String(C.slug)) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return arr[h % arr.length];
+};
+
+const HERO_LABELS = [
+  `${C.main.tel} 전화 걸기`,
+  `${C.main.tel} 지금 연결하기`,
+  `${C.main.tel} 바로 통화`,
+  `${C.main.tel} 상담 연결`,
+  `${C.main.tel} 눌러서 통화`,
+  `${C.main.tel} 로 문의하기`,
+];
+
+/* cue 는 풀에서 고르지 않는다. 6개 풀로 23곳을 돌리면 같은 문장이 8번 나온다.
+   그 회사의 사실(번호 개수·본사 유무·야간 운영)에서 문장을 만들면 자연히 갈린다.
+   회사가 늘어도 겹치지 않는다 — 사실이 회사마다 다르기 때문이다. */
+const hqShort = C.hq ? String(C.hq).replace(/\(.*$/, '').trim().split(/\s+/).slice(0, 3).join(' ') : '';
+const nightOpen = /24시간|365일/.test(`${C.hours.night} ${C.hours.holiday}`);
+
+/* 끝 어절까지 갈려야 한다 — 같은 맺음이 넷 중 하나를 넘으면 게이트가 막는다.
+   앞 문장은 회사 사실에서, 맺음은 slug 로 고른다. */
+const MAP_TAILS = [
+  '거기까지 가실 일은 많지 않습니다.',
+  '창구에서만 되는 일이 아니면 안 가셔도 됩니다.',
+  '헛걸음하지 않게 위치부터 짚고 나서시죠.',
+  '가시기 전에 문 여는 시간을 같이 보세요.',
+  '가까운 곳이 어디인지부터 확인하는 편이 빠릅니다.',
+];
+const MAP_CUE = C.hq
+  ? `${C.name} 본사는 ${hqShort} 쪽입니다. ${pick(MAP_TAILS)}`
+  : `${C.name}은 공식 안내에 지점 주소를 따로 걸어두지 않습니다. ${pick(MAP_TAILS)}`;
+const MAP_LABELS = ['가까운 지점 찾기', '지점 위치 확인하기', '지도에서 위치 보기', '가까운 창구 찾아보기'];
+
+const HUB_TAILS = [
+  '다른 보험사는 몇 시까지인지 함께 확인해 두세요.',
+  '회사마다 갈리니 한자리에서 비교해 보세요.',
+  '가입한 곳이 여럿이면 미리 봐 두는 게 낫습니다.',
+  '급할 때 다시 찾지 않게 목록을 열어 두시죠.',
+  '어디가 지금 받는지는 목록에서 바로 갈립니다.',
+];
+const HUB_CUE = nightOpen
+  ? `${C.name}은 야간에도 접수를 받지만 회사마다 이게 다릅니다. ${pick(HUB_TAILS)}`
+  : `${C.name} 상담은 ${String(C.hours.weekday).replace(/^[^0-9]*/, '').slice(0, 20)} 안에서만 됩니다. ${pick(HUB_TAILS)}`;
+const HUB_LABELS = ['보험사 번호 모아보기', '다른 보험사 번호 보기', '보험사별 고객센터 목록', '보험사 전체 목록 열기'];
 const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? 'ARS 안내에서 상담사 연결 선택' : '공식 안내에 ARS 단축번호 미공개');
 const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'상담사 연결'`;
 const ARS_META = KEY_OK
@@ -165,7 +216,7 @@ export const ${exportName}: SpokeData = {
 
   heroHook:
     '급할 때 번호부터 찾게 되는데요. ${q(C.name)} 대표번호는 ${C.main.tel} 하나로 통합돼 있습니다. ${ARS_HOOK}시간대도 갈립니다 — ${q(C.hours.weekday)}에는 상담사가 받고, ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 사고접수·긴급출동 위주로 돌아갑니다. 그럼 지금 바로 거시는 게 빠르겠죠.',
-  heroAct: { label: '${C.main.tel} 전화 걸기', href: TEL },
+  heroAct: { label: '${q(pick(HERO_LABELS))}', href: TEL },
 
   keyFacts: {
     '대표번호': '${C.main.tel} (${q(C.main.label)})',
@@ -229,8 +280,8 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
         '${C.hq ? `본사는 ${q(C.hq)}에 있습니다. ` : ''}다만 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사명으로 검색하면 가까운 순으로 나옵니다.',
       highlights: [${C.hq ? `'${q(C.hq)}'` : `'가까운 지점'`}],
       act: {
-        cue: '지점은 전국에 흩어져 있어 본사까지 가실 일이 거의 없는데요. 지도에서 가까운 곳부터 확인하고 움직이세요.',
-        label: '가까운 지점 찾기',
+        cue: '${q(MAP_CUE)}',
+        label: '${q(pick(MAP_LABELS))}',
         url: MAP,
       },
       sourceNote: '* 출처: ${q(C.corp ?? C.name)} 사업자 정보 (${C.verifiedAt} 확인)',
@@ -241,8 +292,8 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
         '보험은 한 곳만 들지 않습니다. 자동차는 이쪽, 실손은 저쪽인 경우가 흔해서 사고 한 번에 두세 곳에 전화하게 됩니다. 회사마다 대표번호도 다르고 상담사 연결 번호도 다릅니다. 보험사별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
       highlights: ['보험사별', '대표번호'],
       act: {
-        cue: '사고 한 번에 두세 곳에 걸어야 하는 일이 생깁니다. 회사별 번호를 미리 한자리에서 확인해 두세요.',
-        label: '보험사 번호 모아보기',
+        cue: '${q(HUB_CUE)}',
+        label: '${q(pick(HUB_LABELS))}',
         url: HUB,
       },
       sourceNote: '* 출처: 각 보험사 공식 고객센터 안내',
@@ -360,6 +411,32 @@ const at = kept.findIndex((ln) => ln.startsWith(listAnchor));
 if (at < 0) die(`허브 목록을 못 찾았다: ${listAnchor}`);
 kept.splice(at + 1, 0, hubEntry);
 fs.writeFileSync(path.join(ROOT, HUB_FILE), kept.join(NL), 'utf8');
+
+/* ── 승인 도장 (--approve) ──
+   사람이 채팅에서 구성표를 승인한 뒤에만 붙인다. 자동으로 찍지 않는다.
+   찍는 값은 write.ts 의 도장과 같은 모양이라 check-stage-approval 이 그대로 읽는다. */
+if (process.argv.includes('--approve')) {
+  const stampPath = path.join('scripts', 'output', `stage2-${C.slug}.json`);
+  const stamp = {
+    slug: C.slug,
+    keyword: `${C.name} 고객센터`,
+    title: `${C.name} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내`,
+    pattern: '고객센터 — 번호 모음 · 상담사 연결 · 영업시간 · 위치',
+    subheads: [
+      `${C.name} 고객센터 전화번호 모음`,
+      `${C.name} 고객센터 상담원(상담사) 연결 방법`,
+      '고객센터 영업시간·운영시간',
+      `${C.name} 고객센터 위치`,
+      `${C.name} 고객센터 지역별로 찾기`,
+    ],
+    source: C.sourceUrl,
+    outline: `data/call-centers/${C.slug}.json`,
+    approved: true,
+    approvedAt: C.verifiedAt,
+  };
+  fs.writeFileSync(path.join(ROOT, stampPath), JSON.stringify(stamp, null, 2) + NL, 'utf8');
+  console.log(`   도장   ${stampPath}`);
+}
 
 console.log(`✅ ${C.name} (${C.slug})`);
 console.log(`   본문   ${OUT}`);
