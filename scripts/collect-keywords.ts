@@ -52,7 +52,7 @@ interface CollectedKeywords {
 }
 
 /* ── 의도 분류 ── */
-function classifyIntent(kw: string): string {
+export function classifyIntent(kw: string): string {
   if (/이란|뜻|개념|정의|설명/.test(kw)) return 'info';
   if (/자격|조건|기준|대상|요건|이하|이상|제외/.test(kw)) return 'condition';
   if (/신청|방법|서류|준비|어디서|어떻게|절차|필요/.test(kw)) return 'action';
@@ -64,7 +64,7 @@ function classifyIntent(kw: string): string {
 }
 
 /* ── 주제 분류 (A~F) — 타이틀 라인업용 ── */
-function classifyTheme(kw: string): string {
+export function classifyTheme(kw: string): string {
   if (/차이|vs|비교|중복|다른|뭐가|같이|동시/.test(kw)) return 'F_compare';
   if (/부정수급|환수|추징|반환|감액|반복|벌금|처벌|불이익|신고|페널티|아르바이트|알바|투잡/.test(kw)) return 'D_caution';
   if (/계약직|일용|자영업|특고|예술인|노무|외국인|고령|65세|장애|세금|건강보험|국민연금|보험료|군인|공무원|대학생/.test(kw)) return 'E_target';
@@ -418,4 +418,6 @@ async function main() {
   console.log(`   → 다음: byTheme 그룹별로 24식 자연 롱테일 타이틀 합성 후 사용자 승인 (CLAUDE.md §2-B)`);
 }
 
-main().catch(console.error);
+/* 직접 부를 때만 돈다. write.ts 가 분류 규칙만 가져다 쓰는데(2026-08-25)
+   여기서 그냥 부르면 import 만으로 네이버가 열린다. */
+if (require.main === module) main().catch(console.error);

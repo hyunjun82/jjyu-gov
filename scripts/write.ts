@@ -12,7 +12,8 @@
  *
  * 사용 (순서대로. 인자 없이 부르면 지금 칠 명령 한 줄을 알려준다)
  *   npx tsx scripts/write.ts "기초연금"              현재 상태 + 다음 명령
- *   npx tsx scripts/write.ts "기초연금" --1          자음확장 수집 → 타이틀 후보 번호 목록
+ *   npx tsx scripts/write.ts "기초연금" --1          준 실검색어로 타이틀 후보 번호 목록
+ *                                                  (목록: scripts/output/기초연금.txt 한 줄에 하나)
  *   npx tsx scripts/write.ts "기초연금" --pick 7     후보 확정 → 구성표 뼈대 자동 생성
  *   npx tsx scripts/write.ts "기초연금" --2          구성표 빈칸 점검
  *   npx tsx scripts/write.ts "기초연금" --approve    승인 도장 (stage2-{slug}.json)
@@ -26,6 +27,7 @@ import { execSync } from 'child_process';
 import { existsSync, readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { snapName } from './fetch-source';
+import { classifyIntent, classifyTheme } from './collect-keywords';
 
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
 const OUT = join(ROOT, 'scripts', 'output');
@@ -81,21 +83,52 @@ function kwFile(): string {
   return hit ? join(OUT, hit) : '';
 }
 
-function ensureKeywords(): string {
-  let f = kwFile();
-  if (f) return f;
-  console.log('▶ 실검색어 수집 (자음 ㄱ~ㅎ 14종 + 씨앗어 16종 확장)...');
-  try {
-    execSync(`npx tsx scripts/collect-keywords.ts "${keyword}"`, { cwd: ROOT, stdio: 'inherit' });
-  } catch {
-    console.log('   ⚠ 수집이 중간에 끊겼다 — 받은 데까지로 진행한다');
+/** 사장님이 준 실검색어 목록 (한 줄에 하나). scripts/output/{키워드}.txt */
+function kwTxtFile(): string {
+  const hit = readdirSync(OUT).find((f) => f.endsWith('.txt') && f.slice(0, -4) === keyword);
+  return hit ? join(OUT, hit) : '';
+}
+
+/** 텍스트 목록을 수집본과 같은 모양으로 세운다 — 뒤 단계는 형태만 보고 돌아간다.
+    분류 규칙은 collect-keywords 의 것을 그대로 쓴다. 여기서 따로 만들면 판정이 갈린다. */
+function fromTxt(file: string): any {
+  const lines = Array.from(new Set(
+    readFileSync(file, 'utf8').split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#')),
+  ));
+  const byIntent: Record<string, string[]> = {
+    info: [], condition: [], action: [], compare: [], calculate: [], confirm: [], question: [],
+  };
+  const byTheme: Record<string, string[]> = {
+    A_condition: [], B_amount: [], C_apply: [], D_caution: [], E_target: [], F_compare: [],
+  };
+  for (const kw of lines) {
+    byIntent[classifyIntent(kw)].push(kw);
+    byTheme[classifyTheme(kw)].push(kw);
   }
-  f = kwFile();
-  if (!f) {
-    console.log('   ❌ 수집 결과가 없다. 네트워크를 확인하고 다시 돌린다.');
-    process.exit(1);
-  }
-  return f;
+  return {
+    seed: keyword,
+    collectedAt: new Date().toISOString(),
+    givenBy: '사람이 준 목록',
+    naver: { autocomplete: [], related: [] },
+    google: { autocomplete: [], paa: [], related: [] },
+    merged: { all: lines, byIntent, byTheme },
+  };
+}
+
+/* 2026-08-25 — 자음 ㄱ~ㅎ 자동 수집을 뗐다. 실검색어는 사장님이 준다.
+   네이버를 열어 긁는 자리였는데, 긁힌 목록이 얕으면 타이틀이 통째로 얕아졌다.
+   collect-keywords.ts 는 남겨 둔다 — 필요할 때 따로 돌린다. */
+function keywordData(): any {
+  const txt = kwTxtFile();
+  if (txt) return fromTxt(txt);
+  const json = kwFile();
+  if (json) return JSON.parse(readFileSync(json, 'utf8'));
+  console.log(`\n${LINE}`);
+  console.log(' 실검색어 목록이 없다.');
+  console.log(`   scripts/output/${keyword}.txt 에 한 줄에 하나씩 적는다.`);
+  console.log('   (직접 긁고 싶으면: npx tsx scripts/collect-keywords.ts "' + keyword + '")');
+  console.log(`${LINE}\n`);
+  process.exit(1);
 }
 
 /** 실검색어에서 메인키워드를 뺀 나머지 = 조각. 접두가 아니거나 복합어 꼬리면 버린다. */
@@ -226,13 +259,13 @@ function buildTitles(kj: any): Cand[] {
 }
 
 function step1() {
-  const kj = JSON.parse(readFileSync(ensureKeywords(), 'utf8'));
+  const kj = keywordData();
   const cands = buildTitles(kj);
   const s = loadState();
 
   console.log(`\n${LINE}\n 1단계 타이틀 — 실검색어 조각으로만 조립한 후보 ${cands.length}개\n${LINE}`);
   if (!cands.length) {
-    console.log('\n 후보가 안 나왔다 — 수집이 얕다. collect-keywords 를 다시 돌리거나 씨앗을 바꾼다.\n');
+    console.log('\n 후보가 안 나왔다 — 준 목록이 얕다. 실검색어를 더 넣는다.\n');
     process.exit(1);
   }
   for (const c of cands) {
@@ -300,7 +333,7 @@ function pick(nRaw: string) {
     process.exit(1);
   }
 
-  const kj = JSON.parse(readFileSync(ensureKeywords(), 'utf8'));
+  const kj = keywordData();
   const subs = subheadsFrom(kj);
   const slot = (i: number) => (i === 1 || i === 3 || i === subs.length - 1 ? '**슬롯**' : '');
 
