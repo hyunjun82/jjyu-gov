@@ -109,19 +109,23 @@ const LUNCH = C.hours.lunch ?? '공식 안내에 점심 휴무 표기 없음';
    메뉴 이름만 적고 번호를 안 적는 곳(하나손보·흥국생명).
    번호를 순서로 추정하면 사람이 엉뚱한 메뉴를 누른다. 없으면 없다고 쓴다. */
 const HAS_ARS = day.length > 0;
+/* 원문이 "0 상담사 연결" 처럼 '번' 없이 적는 곳이 많다.
+   글에 "0번" 이라고 쓰면 원문 대조 게이트가 추출본에 없는 숫자로 잡는다.
+   게이트가 맞다 — 원문에 없는 표기를 만들어 쓰는 것이다. 있을 때만 쓴다. */
 const AGENT_KEY = agent ? agent.key : (HAS_ARS ? '0' : '');
-const ARS_FACT = HAS_ARS ? `ARS 에서 ${AGENT_KEY}번` : '공식 안내에 ARS 단축번호 미공개';
-const ARS_HL = HAS_ARS ? `'${AGENT_KEY}번'` : `'상담사 연결'`;
-const ARS_META = HAS_ARS
+const KEY_OK = HAS_ARS && src.includes(`${AGENT_KEY}번`);
+const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? 'ARS 안내에서 상담사 연결 선택' : '공식 안내에 ARS 단축번호 미공개');
+const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'상담사 연결'`;
+const ARS_META = KEY_OK
   ? `상담사 연결은 ARS ${AGENT_KEY}번. `
   : '';
-const ARS_HOOK = HAS_ARS
+const ARS_HOOK = KEY_OK
   ? `다만 그냥 걸면 ARS 안내가 길게 이어져서, 상담사 목소리를 들으려면 ${AGENT_KEY}번을 눌러야 합니다. `
   : '다만 공식 안내에 ARS 단축번호가 공개돼 있지 않아, 안내 음성을 듣고 해당 항목을 고르셔야 합니다. ';
-const ARS_Q2 = HAS_ARS
+const ARS_Q2 = KEY_OK
   ? `ARS 안내가 나오면 ${AGENT_KEY}번을 누릅니다. 그러면 순번 대기 후 상담사에게 연결됩니다.`
-  : `${q(C.name)}은 공식 안내에 ARS 단축번호를 공개하지 않습니다. 안내 음성을 끝까지 듣고 상담사 연결 항목을 고르시면 됩니다.`;
-const ARS_FAQ = HAS_ARS
+  : `${q(C.name)} 공식 안내는 상담사 연결 항목을 번호와 함께 표기하지 않습니다. 안내 음성을 끝까지 듣고 상담사 연결 항목을 고르시면 됩니다.`;
+const ARS_FAQ = KEY_OK
   ? `ARS 안내에서 ${AGENT_KEY}번을 누르면 순번 대기 후 상담사에게 연결됩니다.`
   : '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담사 연결 항목을 고르세요.';
 /* 핵심콕콕의 본사 행 — 주소가 있을 때만 한 줄 만든다.
@@ -284,7 +288,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '${C.hq ? '본사 주소는 어디인가요?' : '방문 상담은 어디로 가야 하나요?'}',
-      a: '${C.hq ? `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.` : `${q(C.name)} 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. 대부분의 업무는 방문 없이 전화·앱으로 끝납니다.`}',
+      a: '${C.hq ? `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.` : `${q(C.name)} 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱으로 처리되는 경우입니다.`}',
       source: '${q(C.corp ?? C.name)} 사업자 정보',
       sourceUrl: '${C.official}',
     },
