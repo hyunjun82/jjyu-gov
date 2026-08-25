@@ -1440,8 +1440,12 @@ import { 간병인보험요양병원간병지원SpokeContent } from '@/app/polic
 import { 간병인보험치매간병비SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/치매간병비';
 import { 간병인보험병원종류SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/병원종류';
 import { 간병인보험치매지급거절SpokeContent } from '@/app/policy/[id]/[spoke]/content/간병인보험/치매지급거절';
+import { 국민성장펀드2차출시일SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민성장펀드/2차출시일';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'national-growth-fund': {
+    'national-growth-fund-round2': 국민성장펀드2차출시일SpokeContent,
+  },
   'overseas-remittance-limit': {
     'designated-forex-bank': designatedForexBankSpokeContent,
     'remittance-nts-report': remittanceNtsReportSpokeContent,

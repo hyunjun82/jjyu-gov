@@ -165,11 +165,36 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
 
   const spokeUrl  = `${SITE_URL}/policy/${policyId}/${slug}`;
 
-  /* 허브로 보내는 버튼을 달 카드 위치와 문구.
-     같은 목적지라 문구가 겹치면 스팸처럼 보이므로, 렌더 전에 중복을 제거해 확정한다. */
+  /* 버튼을 달 카드와 문구.
+
+     2026-08-25 부터 쓰는 글은 글이 적은 것만 쓴다.
+     그 전에는 코드가 질문의 단어를 보고 문구를 지어냈고, 못 지으면
+     "조건·금액 한눈에 보기" 같은 예비문구로 빈칸을 메웠다.
+     실측: 버튼 3,249개 중 1,543개(47%)가 내용을 모르고 붙인 예비문구였고,
+     1,116편 중 957편은 버튼 3개가 전부 자동이었다.
+     "중도인출도 가능한가?" 카드에 "조건·금액 한눈에 보기"가 붙는 식이라
+     문구가 안 맞는 게 아니라 버튼이 없어야 할 자리였다.
+
+     본문에 행동이 없으면 버튼도 없다. 허브로 가는 길은 글 맨 아래
+     허브 버튼과 "← 전체 정보 보기"가 이미 무조건 맡고 있다.
+
+     옛 글 1,116편은 건드리지 않는다 — 화면이 통째로 바뀌기 때문이다. */
+  const NEW_RULE_FROM = '2026-08-25';
+  const byOwnAct = (spoke.datePublished || '').slice(0, 10) >= NEW_RULE_FROM;
+
   const hubCtaByIndex: Record<number, string> = (() => {
     const qa = spoke.qa ?? [];
     if (!qa.length) return {};
+
+    if (byOwnAct) {
+      const map: Record<number, string> = {};
+      qa.forEach((item, idx) => {
+        const label = (item as any)?.act?.label;
+        if (label) map[idx] = label;
+      });
+      return map;
+    }
+
     const slots = [...new Set([2, 4, qa.length - 1])].filter((n) => n >= 0 && n < qa.length);
     const used = new Set<string>();
     const map: Record<number, string> = {};

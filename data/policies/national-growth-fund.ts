@@ -180,4 +180,5 @@ export const nationalGrowthFundPolicy = {
   ],
 } as const;
 
-export const nationalGrowthFundSpokes = [];
+export const nationalGrowthFundSpokes = [
+  { slug: 'national-growth-fund-round2', role: 'eligibility', title: '국민성장펀드 2차 출시일부터 가입 방법까지' },];

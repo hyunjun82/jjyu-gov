@@ -421,6 +421,18 @@ function step2check() {
   if (/\(공감 → 대안이/.test(md)) holes.push('hero 서론이 안내문 그대로다');
   if (/\[행동 라벨\]/.test(md)) holes.push('버튼 라벨이 비었다');
   if ((md.match(/https?:\/\/\S{4,}/g) ?? []).length < 2) holes.push('버튼 목적지 URL 이 2개 미만이다');
+  /* 버튼 라벨 길이 — 저장 훅과 같은 자(16자). 여기서 걸러야 본문을 다시 안 쓴다.
+     버튼 표의 3번째 칸이 라벨이다. 표 밖의 "← 상단 버튼:" 줄도 같이 본다. */
+  const labels: string[] = [];
+  for (const m of md.matchAll(/^\|[^|\n]*\|[^|\n]*\|([^|\n]+)\|[^|\n]*\|\s*$/gm)) {
+    const cell = m[1].trim();
+    if (!cell || /^-+$/.test(cell) || cell === '라벨') continue;
+    labels.push(cell);
+  }
+  for (const m of md.matchAll(/상단 버튼:\s*([^→\n]+)→/g)) labels.push(m[1].replace(/\*/g, '').trim());
+  const tooLong = [...new Set(labels)].filter((l) => l.length > 16);
+  if (tooLong.length)
+    holes.push(`버튼 라벨이 16자를 넘는다: ${tooLong.map((l) => `"${l}"(${l.length}자)`).join(' / ')}`);
   if (/\| qa1 \|\s*\|/.test(md)) holes.push('소제목이 비었다');
   /* 명사구로 채워진 소제목은 질문형으로 다듬어야 한다 (스크립트는 문장을 짓지 않는다).
      버튼 표에도 qa 행이 있으므로 소제목 절만 잘라서 본다 */
