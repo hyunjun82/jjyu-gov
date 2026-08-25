@@ -50,6 +50,34 @@ const src = fs.readFileSync(path.join(ROOT, SRC_FILE), 'utf8').replace(/\s+/g, '
 const missing = (C.numbers as any[]).map((n) => n.tel).filter((t: string) => !src.includes(t.replace(/\s+/g, '')));
 if (missing.length) die(`추출본에 없는 번호 ${missing.length}개: ${missing.join(', ')}\n   공식 페이지에서 확인되지 않은 번호는 쓰지 않는다.`);
 
+/* ── 번호만 보던 걸 셋으로 늘린다 (2026-08-25) ──
+   지금까지 게이트는 numbers 만 대조했다. ARS 메뉴와 운영시간은 아무도 안 봤다.
+   사람이 채우든 검색 에이전트가 채우든, 안 보는 칸에서 틀린다.
+   셋 다 추출본에 있어야 통과한다. */
+
+// ① 출처가 공식 도메인인가 — 블로그를 1차 출처로 쓰면 여기서 죽는다
+const hostOf = (u: string) => String(u).replace(/^https?:\/\//, '').split('/')[0].replace(/^www\./, '');
+const officialHost = hostOf(C.official);
+const srcHost = hostOf(C.sourceUrl);
+if (!srcHost.endsWith(officialHost))
+  die(`sourceUrl 이 공식 도메인이 아니다: ${srcHost} (공식 ${officialHost})
+   블로그·언론은 1차 출처가 아니다.`);
+
+// ② ARS 메뉴 문구가 추출본에 있는가
+const arsAll = [...(C.ars.day ?? []), ...(C.ars.night ?? [])] as any[];
+const arsMissing = arsAll.filter((a) => !src.includes(String(a.what).replace(/\s+/g, '')));
+if (arsMissing.length)
+  die(`추출본에 없는 ARS 문구 ${arsMissing.length}개: ${arsMissing.map((a) => a.key + '번 ' + a.what).join(' / ')}
+   ARS 는 잘못 안내하면 사람이 엉뚱한 메뉴를 누른다.`);
+
+// ③ 운영시간의 숫자가 추출본에 있는가 (표기는 달라도 시각은 같아야 한다)
+for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
+  if (!v) continue;
+  const nums = String(v).match(/\d{1,2}:\d{2}|\d{1,2}시|\d+일|\d+시간/g) ?? [];
+  const gone = nums.filter((n) => !src.includes(n.replace(/\s+/g, '')));
+  if (gone.length) die(`hours.${k} 의 ${gone.join(', ')} 가 추출본에 없다: "${v}"`);
+}
+
 const HUB_SLUG = 'insurance-call-center';
 const DIR = path.join('app', 'policy', '[id]', '[spoke]', 'content', '보험고객센터');
 const OUT = path.join(DIR, `${C.slug}.tsx`);

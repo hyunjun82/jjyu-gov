@@ -154,6 +154,6 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
-  { slug: 'samsung-fire', role: 'eligibility', title: '삼성화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'db-insurance', role: 'eligibility', title: 'DB손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'samsung-fire', role: 'eligibility', title: '삼성화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
 ];
