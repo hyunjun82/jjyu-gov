@@ -1,0 +1,25 @@
+{
+  "slug": "sgi",
+  "name": "SGI서울보증",
+  "aliases": ["서울보증보험", "SGI 서울보증", "서울보증 고객센터"],
+  "brandColor": "#003A70",
+  "official": "https://www.sgic.co.kr",
+  "sourceUrl": "https://www.sgic.co.kr/",
+  "sourceName": "SGI서울보증 고객지원센터 안내",
+  "verifiedAt": "2026-08-25",
+  "main": { "label": "고객지원센터", "tel": "1670-7000" },
+  "hours": {
+    "weekday": "이용가능시간 : 평일 09:00 ~ 18:00",
+    "night": "평일 09:00 ~ 18:00 외 시간은 상담 불가",
+    "holiday": "주말·공휴일 상담 불가"
+  },
+  "callFee": "통화료는 발신자 요금제 기준으로 부과됩니다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객지원센터", "tel": "1670-7000", "note": "대표번호 · 평일 09:00~18:00" }
+  ],
+  "hq": "서울시 종로구 김상옥로 29 서울보증보험(주)",
+  "corp": "서울보증보험(주)",
+  "ceo": "이명순",
+  "bizNo": "120-81-13002"
+}

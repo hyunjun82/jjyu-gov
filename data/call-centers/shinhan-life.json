@@ -1,0 +1,32 @@
+{
+  "slug": "shinhan-life",
+  "name": "신한라이프",
+  "aliases": ["신한생명", "오렌지라이프", "신한라이프 콜센터"],
+  "brandColor": "#0046FF",
+  "official": "https://www.shinhanlife.co.kr",
+  "sourceUrl": "https://www.shinhanlife.co.kr/hp/cdhf0040p.pv",
+  "sourceName": "신한라이프 ARS 단축번호 안내",
+  "verifiedAt": "2026-08-25",
+  "main": { "label": "고객센터", "tel": "1588-5580" },
+  "hours": {
+    "weekday": "상담사 연결 : 평일 09:00 ~ 20:00",
+    "night": "ARS 서비스 : 365일 00:30 ~ 23:50",
+    "holiday": "개인정보유출 사고접수/OTP해지/구비서류발급은 24시간 가능"
+  },
+  "callFee": "일반전화는 3분당 42.9원이 부과되고, 휴대폰과 인터넷전화는 통신사와 약정한 요금제 기준으로 부과됩니다.",
+  "ars": {
+    "day": [
+      { "key": "1", "what": "보험계약대출" },
+      { "key": "2", "what": "보험료납입" },
+      { "key": "3", "what": "휴면, 분할, 만기 등 보험금 신청" },
+      { "key": "4", "what": "사고보험금" },
+      { "key": "5", "what": "증명서발급" },
+      { "key": "0", "what": "상담사 연결 서비스" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-5580", "note": "대표번호" },
+    { "label": "해외에서 연결", "tel": "82-2-2131-3000" }
+  ]
+}
