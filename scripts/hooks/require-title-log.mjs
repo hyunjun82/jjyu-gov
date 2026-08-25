@@ -26,10 +26,40 @@ let payload;
 try { payload = JSON.parse(input); } catch { process.exit(0); }
 
 const file = payload?.tool_input?.file_path || '';
-if (!/data[\\/]policies[\\/][a-z0-9-]+\.ts$/i.test(file)) process.exit(0);
+/* 글 파일 = 허브(data/policies/*.ts) + 스포크(app/policy/[id]/[spoke]/content/**.tsx).
+   2026-08-25: 여기에 스포크가 빠져 있었다. 글 1,116편 중 대부분이 스포크인데
+   문지기가 쳐다보지도 않아 1~3단계를 건너뛰어도 그냥 저장됐다. */
+const isHub   = /data[\\/]policies[\\/][a-z0-9-]+\.ts$/i.test(file);
+const isSpoke = /app[\/]policy[\/]\[id\][\/]\[spoke\][\/]content[\/].+\.tsx$/i.test(file);
+if (!isHub && !isSpoke) process.exit(0);
 if (/manifest\.ts$/.test(file)) process.exit(0);
 
-const slug = file.split(/[\\/]/).pop().replace(/\.ts$/, '');
+const slug = file.split(/[\/]/).pop().replace(/\.tsx?$/, '');
+
+/* ── 스포크 관문 (2026-08-25 신설) ──
+   스포크는 파일명이 한글이라 허브처럼 slug 로 title-log 를 대조할 수 없다.
+   대신 3단계를 봤는지 하나로 본다 — 추출본을 가리키고 그 파일이 실제로 있는가.
+   new-spoke.ts 로 만들면 자동으로 붙는다. 손으로 쓰면 안 붙는다. 그 차이를 막는 것이다.
+   기존 파일 수정은 건드리지 않는다(1,045편이 추출본 표시 없이 이미 있다). */
+if (isSpoke) {
+  if (existsSync(file)) process.exit(0);            /* 고치는 건 통과 */
+  const body = payload?.tool_input?.content || payload?.tool_input?.new_string || '';
+  const m = body.match(/추출본:\s*([^\s*]+\.txt)/);
+  if (!m || !existsSync(join(ROOT, m[1]))) {
+    console.error(
+      [
+        `[타이틀 훅] ${slug} — 새 스포크인데 추출본이 없다. 3단계를 건너뛴 것이다.`,
+        '',
+        `  npx tsx scripts/capture-source.ts {slug} <원문 URL>`,
+        '  → scripts/output/source-{slug}.txt + 화면 캡처가 생긴다.',
+        '  그 다음 npx tsx scripts/new-spoke.ts --spec <spec.json> 으로 뼈대를 만든다.',
+        '  (파일 머리에 `추출본: scripts/output/source-{slug}.txt` 가 있어야 저장된다)',
+      ].join(String.fromCharCode(10)),
+    );
+    process.exit(2);
+  }
+  process.exit(0);
+}
 
 /* 신규 글은 write.ts 를 거쳤는지 본다 — outline 파일은 write.ts 가 만든다.
    2026-08-16: 진행기(write.ts)가 있는데 내가 안 돌리고 맨손으로 시작해
