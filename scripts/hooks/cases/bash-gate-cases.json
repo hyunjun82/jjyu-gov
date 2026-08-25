@@ -1,0 +1,17 @@
+[
+  ["막혀야  cat > 새 스포크",        "cat > 'app/policy/[id]/[spoke]/content/실손보험/새손글.tsx' <<'E'\nx\nE", 2],
+  ["막혀야  python 으로 새 스포크",  "python -c \"open('app/policy/[id]/[spoke]/content/실손보험/새파이썬.tsx','w')\"", 2],
+  ["막혀야  cat > 새 허브",          "cat > data/policies/zz-new.ts <<'E'\nx\nE", 2],
+  ["막혀야  sed -i 없는 스포크",     "sed -i 's/a/b/' 'app/policy/[id]/[spoke]/content/실손보험/없는글.tsx'", 2],
+  ["통과해야  ls 없는 파일",         "ls 'app/policy/[id]/[spoke]/content/실손보험/없는글.tsx'", 0],
+  ["통과해야  grep 없는 파일",       "grep -n x 'app/policy/[id]/[spoke]/content/실손보험/없는글.tsx'", 0],
+  ["통과해야  find",                 "find 'app/policy/[id]/[spoke]/content' -name '*.tsx'", 0],
+  ["통과해야  cat 로 읽기",          "cat 'app/policy/[id]/[spoke]/content/실손보험/간병비대안.tsx'", 0],
+  ["통과해야  git status",           "git status --short", 0],
+  ["통과해야  git commit",           "git commit -m x", 0],
+  ["통과해야  빌드",                 "NODE_ENV=production npx next build", 0],
+  ["통과해야  기존 스포크 sed 수정", "sed -i 's/a/b/' 'app/policy/[id]/[spoke]/content/실손보험/간병비대안.tsx'", 0],
+  ["통과해야  grep 결과 리다이렉트", "grep -rn act 'app/policy/[id]/[spoke]/content/실손보험/간병비대안.tsx' > /tmp/o.txt", 0],
+  ["통과해야  rm -rf .next",         "rm -rf .next", 0],
+  ["통과해야  추출본 갖춘 새 스포크","cat > 'app/policy/[id]/[spoke]/content/실손보험/정상새글.tsx' <<'E'\n/* 추출본: scripts/output/source-caregiver-insurance-premium.txt */\nE", 0]
+]

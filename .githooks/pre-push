@@ -14,6 +14,20 @@ if [ "$CMD_LINES" -gt 80 ]; then
   exit 1
 fi
 
+# ── ⓪-A 셸 우회 관문 (2026-08-25 신설) ──
+# 훅이 Write/Edit 만 봐서 셸로 파일을 만들면 문지기가 안 깨어났다.
+# matcher 에 Bash 를 넣었는데, 이번엔 ls·grep 까지 막는 오탐이 났다.
+# 막아야 할 것 4종 + 통과해야 할 것 11종을 같이 세워둔다. 하나라도 어긋나면 막는다.
+echo "🚪 셸 우회 관문 검사 중 (셸로 새 글을 만들면 막히나)..."
+node "$ROOT/scripts/hooks/selftest-bash-gate.mjs" | tail -2
+BG=${PIPESTATUS[0]}
+if [ $BG -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 셸 관문이 어긋났다 (막을 걸 놓쳤거나, 평소 명령을 막고 있다)"
+  echo "   자세히: node scripts/hooks/selftest-bash-gate.mjs -v"
+  exit $BG
+fi
+
 # ── ⓪-B 문지기 자가검사 (2026-08-25 신설) ──
 # 저장을 막는 훅이 진짜 막는지 매번 채점한다.
 # 이 시험지는 8/11 부터 있었는데 아무도 안 돌려서 14종이 2주째 뚫린 채였다.

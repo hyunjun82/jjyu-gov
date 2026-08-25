@@ -25,6 +25,53 @@ try { input = readFileSync(0, 'utf8'); } catch { process.exit(0); }
 let payload;
 try { payload = JSON.parse(input); } catch { process.exit(0); }
 
+/* ── 셸 우회 차단 (2026-08-25 신설) ──
+   훅은 Write/Edit 만 보고 있었다. 셸로 파일을 만들면(cat > · sed -i · python)
+   문지기가 아예 안 깨어났다. 오늘 고친 파일 전부 그 경로였다.
+   여기서 잡는 것은 "아직 없는 글 파일을 셸이 만들려는" 경우뿐이다.
+   이미 있는 파일을 고치는 명령은 건드리지 않는다 — 그래야 평소 작업이 안 막힌다. */
+if (payload?.tool_name === 'Bash') {
+  const cmd = payload?.tool_input?.command || '';
+  const ART = /((?:data\/policies\/[a-z0-9-]+\.ts)|(?:app\/policy\/\[id\]\/\[spoke\]\/content\/[^\s"'`;|)]+\.tsx))/g;
+  const hits = [...new Set([...cmd.matchAll(ART)].map((m) => m[1]))];
+  const born = hits.filter((p) => !existsSync(join(ROOT, p)));
+  if (!born.length) process.exit(0);          /* 새로 생기는 글이 없으면 관심 없다 */
+
+  /* 경로를 "언급"하는 것과 "만드는" 것은 다르다.
+     2026-08-25 첫 판이 ls·grep 까지 막았다. 쓰기 신호가 있을 때만 본다. */
+  const WRITES = /(?:[^0-9&2]|^)>>?(?!&)|\btee\b|\bsed\b[^|]*\s-i|\bcp\b|\bmv\b|\bpython3?\b|\bnode\b\s+-e|\btruncate\b|\bdd\b|\bwriteFileSync\b|\bappendFileSync\b/;
+  if (!WRITES.test(cmd)) process.exit(0);
+
+  for (const p of born) {
+    const spoke = /\.tsx$/i.test(p);
+    if (spoke) {
+      const m = cmd.match(/추출본:\s*([^\s*'"]+\.txt)/);
+      if (m && existsSync(join(ROOT, m[1]))) continue;
+      console.error(
+        [
+          `[타이틀 훅] ${p} — 셸로 새 스포크를 만들려 한다. 추출본이 없다(3단계).`,
+          '',
+          '  npx tsx scripts/capture-source.ts {slug} <원문 URL>',
+          '  npx tsx scripts/new-spoke.ts --spec <spec.json>',
+          '  손으로 만들지 않는다. 손으로 만든 글이 1,122편 중 1,045편이고 그게 오늘의 원인이다.',
+        ].join(String.fromCharCode(10)),
+      );
+      process.exit(2);
+    }
+    const slug = p.split('/').pop().replace(/\.ts$/, '');
+    if (existsSync(join(ROOT, 'scripts', 'output', `outline-${slug}.md`))) continue;
+    console.error(
+      [
+        `[타이틀 훅] ${slug} — 셸로 새 허브를 만들려 한다. 구성표가 없다(2단계).`,
+        '',
+        `  npx tsx scripts/write.ts "{키워드}" --slug ${slug}`,
+      ].join(String.fromCharCode(10)),
+    );
+    process.exit(2);
+  }
+  process.exit(0);
+}
+
 const file = payload?.tool_input?.file_path || '';
 /* 글 파일 = 허브(data/policies/*.ts) + 스포크(app/policy/[id]/[spoke]/content/**.tsx).
    2026-08-25: 여기에 스포크가 빠져 있었다. 글 1,116편 중 대부분이 스포크인데
