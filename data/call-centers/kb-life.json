@@ -1,0 +1,61 @@
+{
+  "slug": "kb-life",
+  "name": "KB라이프생명",
+  "aliases": [
+    "KB생명보험",
+    "KB라이프",
+    "KB라이프생명 콜센터"
+  ],
+  "brandColor": "#605A56",
+  "official": "https://www.kblife.co.kr",
+  "sourceUrl": "https://www.kblife.co.kr/customer-center/serviceHoursInformation.do",
+  "sourceName": "KB라이프생명 이용시간 안내",
+  "verifiedAt": "2026-08-25",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-3374"
+  },
+  "hours": {
+    "weekday": "업무시간 : 평일 9시 ~ 18시",
+    "night": "콜백서비스는 24시간 상시운영 됩니다",
+    "holiday": "평일 18:00 이후 또는 토, 일, 공휴일 사고보험금 청구 시 익일 접수처리",
+    "lunch": "지점 점심시간 (12:00~13:00) · 콜센터는 별도 표기 없음"
+  },
+  "callFee": "ARS 이용시 통화료가 부과됩니다.",
+  "ars": {
+    "day": [
+      {
+        "key": "1",
+        "what": "거래고객"
+      },
+      {
+        "key": "2",
+        "what": "65세이상고객"
+      },
+      {
+        "key": "3",
+        "what": "변액전문상담"
+      },
+      {
+        "key": "4",
+        "what": "은행 / 영업직원"
+      },
+      {
+        "key": "5",
+        "what": "기타고객(정보 미입력)"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-3374",
+      "note": "대표번호"
+    },
+    {
+      "label": "온라인보험 고객센터",
+      "tel": "080-848-0033"
+    }
+  ]
+}
