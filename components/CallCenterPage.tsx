@@ -35,7 +35,8 @@ export interface CallCenterData {
   ars: { day: { key: string; what: string }[]; night: { key: string; what: string }[] };
   /* smsOnly: 전화가 안 되는 문자 전용 번호. 여기에 tel: 을 걸면 안 걸린다 */
   numbers: { label: string; tel: string; note?: string; smsOnly?: boolean }[];
-  hq: string;
+  /* 본사 주소 — 없어도 페이지는 성립한다. 없으면 위치 카드가 지도 검색으로 바뀐다 */
+  hq?: string;
   hqZip?: string;
 }
 
@@ -163,7 +164,7 @@ export default function CallCenterPage({
 
   /* 지도 — 회사명으로 검색하면 전국 지점 목록이 뜬다.
      본사 주소로 걸면 그 건물에 핀이 바로 꽂힌다(괄호 안 건물명은 뺀다). */
-  const map = `https://map.naver.com/p/search/${encodeURIComponent(cc.hq.replace(/\(.*$/, '').trim())}`;
+  const map = `https://map.naver.com/p/search/${encodeURIComponent(cc.hq ? cc.hq.replace(/\(.*$/, '').trim() : cc.name)}`;
   const reviewed = cc.verifiedAt;
 
   /* 서론 — heroHook 대신 description 을 쓴다.
@@ -712,10 +713,12 @@ export default function CallCenterPage({
           </p>
           <div className="cc-grid" style={{ margin: '20px 0 0' }}>
             <div style={{ ...card, padding: 24 }}>
-              <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.07em', color: BLUE }}>본사</div>
+              <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.07em', color: BLUE }}>{cc.hq ? '본사' : '가까운 지점'}</div>
               <div style={{ margin: '10px 0 0', fontSize: 18, fontWeight: 800, letterSpacing: '-0.02em', color: '#101828' }}>{cc.name}</div>
               <div style={{ margin: '6px 0 0', fontSize: 15, lineHeight: 1.6, color: '#5B6474' }}>
-                {cc.hq}{cc.hqZip ? ` (우 ${cc.hqZip})` : ''}
+                {cc.hq
+                  ? `${cc.hq}${cc.hqZip ? ` (우 ${cc.hqZip})` : ''}`
+                  : '지점·서비스망 위치는 수시로 바뀌어 적어두지 않습니다. 지도에서 지금 운영 중인 곳을 확인하세요.'}
               </div>
               <a
                 href={map}

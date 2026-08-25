@@ -181,7 +181,7 @@ export function callCenterSchema(
     hours: { weekday: string; night: string; holiday: string };
     numbers: { label: string; tel: string; note?: string; smsOnly?: boolean }[];
     ars: { day: { key: string; what: string }[] };
-    hq: string;
+    hq?: string;
     hqZip?: string;
   },
   url: string,
@@ -223,7 +223,7 @@ export function callCenterSchema(
       hoursAvailable: /사고|긴급|출동/.test(n.label) ? undefined : weekdayHours,
     }));
 
-  const addr = cc.hq.replace(/\(.*$/, '').trim();
+  const addr = cc.hq ? cc.hq.replace(/\(.*$/, '').trim() : undefined;
 
   return {
     '@context': 'https://schema.org',
@@ -245,12 +245,9 @@ export function callCenterSchema(
       name: cc.name,
       url: cc.official,
       telephone: e164(cc.main.tel),
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: addr,
-        addressCountry: 'KR',
-        postalCode: cc.hqZip,
-      },
+      address: addr
+        ? { '@type': 'PostalAddress', streetAddress: addr, addressCountry: 'KR', postalCode: cc.hqZip }
+        : undefined,
       contactPoint,
     },
   };

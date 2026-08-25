@@ -33,7 +33,10 @@ if (!fs.existsSync(specPath)) die(`파일이 없다: ${specPath}`);
 const C = JSON.parse(fs.readFileSync(specPath, 'utf8'));
 
 /* ── 있어야 하는 것부터 본다. 없으면 만들지 않는다 ── */
-for (const k of ['slug', 'name', 'brandColor', 'official', 'sourceUrl', 'verifiedAt', 'main', 'hours', 'ars', 'numbers', 'hq']) {
+/* hq(본사 주소)는 필수가 아니다. 고객센터 페이지에서 사람이 찾는 건 번호·시간·ARS 이고
+   본사 주소는 곁가지다. 주소 하나 때문에 페이지를 못 찍으면 순서가 뒤집힌 것이다.
+   주소가 있으면 카드로 보여주고, 없으면 지도 검색으로 넘긴다. */
+for (const k of ['slug', 'name', 'brandColor', 'official', 'sourceUrl', 'verifiedAt', 'main', 'hours', 'ars', 'numbers']) {
   if (!C[k]) die(`JSON 에 ${k} 가 없다`);
 }
 
@@ -57,7 +60,7 @@ const NL = String.fromCharCode(10);
 const telHref = (t: string) => `tel:${String(t).replace(/-/g, '')}`;
 /* 회사명으로 검색하면 전국 지점 목록이 뜬다. 본사 도로명 주소로 걸어야
    그 건물에 핀이 꽂힌다(괄호 안 건물명은 뗀다). 화면도 같은 규칙을 쓴다. */
-const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(String(C.hq).replace(/\(.*$/, '').trim())}`;
+const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(C.hq ? String(C.hq).replace(/\(.*$/, '').trim() : C.name)}`;
 
 const arsRow = (a: any[]) => a.map((x) => `['${q(x.key)}번', '${q(x.what)}']`).join(', ');
 const numRow = (n: any) => `['${q(n.label)}', '${q(n.tel)}', '${q(n.note ?? '-')}']`;
@@ -73,6 +76,10 @@ if (lunchInSrc && !C.hours.lunch) {
   die('원문에 점심시간 언급이 있다. data/call-centers/' + C.slug + '.json 의 hours.lunch 에 원문 그대로 적고 다시 돌려라.');
 }
 const LUNCH = C.hours.lunch ?? '공식 안내에 점심 휴무 표기 없음';
+/* 핵심콕콕의 본사 행 — 주소가 있을 때만 한 줄 만든다.
+   출력 문자열 안에 조건문을 그대로 두면 생성된 파일에 코드가 박힌다. */
+const HQ_FACT = C.hq ? `    '본사': '${q(C.hq)}${C.hqZip ? ` (우 ${C.hqZip})` : ''}',
+` : '';
 
 const file = `import type { SpokeData } from '../../SpokeClient';
 
@@ -114,8 +121,7 @@ export const ${exportName}: SpokeData = {
     '야간': '${q(C.hours.night)}',
     '공휴일': '${q(C.hours.holiday)}',
     '상담사 연결': 'ARS 에서 ${agent ? agent.key : '0'}번',
-    '본사': '${q(C.hq)}${C.hqZip ? ` (우 ${C.hqZip})` : ''}',
-    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 기준으로 부과됩니다.')}',
+${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 기준으로 부과됩니다.')}',
   },
   keyFactsHighlights: {
     '대표번호': ['${C.main.tel}'],
@@ -168,8 +174,8 @@ export const ${exportName}: SpokeData = {
     {
       q: '${q(C.name)} 고객센터 위치는 어디인가요?', anchor: 'q4',
       intro:
-        '본사는 ${q(C.hq)}에 있습니다. 다만 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사명으로 검색하면 가까운 순으로 나옵니다.',
-      highlights: ['${q(C.hq)}'],
+        '${C.hq ? `본사는 ${q(C.hq)}에 있습니다. ` : ''}다만 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사명으로 검색하면 가까운 순으로 나옵니다.',
+      highlights: [${C.hq ? `'${q(C.hq)}'` : `'가까운 지점'`}],
       act: {
         cue: '지점은 전국에 흩어져 있어 본사까지 가실 일이 거의 없는데요. 지도에서 가까운 곳부터 확인하고 움직이세요.',
         label: '가까운 지점 찾기',
@@ -229,8 +235,8 @@ export const ${exportName}: SpokeData = {
       sourceUrl: '${C.sourceUrl}',
     },
     {
-      q: '본사 주소는 어디인가요?',
-      a: '${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.',
+      q: '${C.hq ? '본사 주소는 어디인가요?' : '방문 상담은 어디로 가야 하나요?'}',
+      a: '${C.hq ? `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.` : `${q(C.name)} 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. 대부분의 업무는 방문 없이 전화·앱으로 끝납니다.`}',
       source: '${q(C.corp ?? C.name)} 사업자 정보',
       sourceUrl: '${C.official}',
     },
@@ -286,6 +292,22 @@ if (!reg.includes(mapKey)) {
 if (!reg.includes(`'${C.slug}': ${exportName},`))
   reg = reg.replace(mapKey, `${mapKey}\n    '${C.slug}': ${exportName},`);
 fs.writeFileSync(path.join(ROOT, REG), reg, 'utf8');
+
+/* 허브 목록에도 넣는다 — registry 만 넣고 여기를 빼면 404 다.
+   2026-08-25: 삼성화재가 registry 에는 있는데 이 목록에 없어서 페이지가 안 열렸다.
+   타이틀은 글의 h1 과 같아야 한다. 두 곳에 다른 제목이 있으면 목록과 글이 갈린다. */
+const HUB_FILE = path.join('data', 'policies', `${HUB_SLUG}.ts`);
+const hubLines = fs.readFileSync(path.join(ROOT, HUB_FILE), 'utf8').split(String.fromCharCode(13)).join('').split(NL);
+const hubTitle = `${C.name} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내`;
+const hubEntry = `  { slug: '${C.slug}', role: 'eligibility', title: '${q(hubTitle)}' },`;
+/* 같은 slug 줄은 전부 걷어낸다 — 정규식으로 찾아 바꾸다 중복이 났다.
+   줄 단위로 지우고 다시 넣으면 몇 번을 돌려도 한 줄이다. */
+const kept = hubLines.filter((ln) => !ln.includes(`{ slug: '${C.slug}',`));
+const listAnchor = `export const ${HUB_SLUG.replace(/-([a-z])/g, (_m, c) => c.toUpperCase())}Spokes = [`;
+const at = kept.findIndex((ln) => ln.startsWith(listAnchor));
+if (at < 0) die(`허브 목록을 못 찾았다: ${listAnchor}`);
+kept.splice(at + 1, 0, hubEntry);
+fs.writeFileSync(path.join(ROOT, HUB_FILE), kept.join(NL), 'utf8');
 
 console.log(`✅ ${C.name} (${C.slug})`);
 console.log(`   본문   ${OUT}`);
