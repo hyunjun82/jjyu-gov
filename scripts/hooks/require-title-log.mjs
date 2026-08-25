@@ -76,7 +76,7 @@ const file = payload?.tool_input?.file_path || '';
 /* 글 파일 = 허브(data/policies/*.ts) + 스포크(app/policy/[id]/[spoke]/content/**.tsx).
    2026-08-25: 여기에 스포크가 빠져 있었다. 글 1,116편 중 대부분이 스포크인데
    문지기가 쳐다보지도 않아 1~3단계를 건너뛰어도 그냥 저장됐다. */
-const isHub   = /data[\\/]policies[\\/][a-z0-9-]+\.ts$/i.test(file);
+const isHub   = /data[\\/]policies[\\/][^\\/]+\.ts$/i.test(file) && !/(manifest|index|registry)\.ts$/i.test(file);
 const isSpoke = /app[\/]policy[\/]\[id\][\/]\[spoke\][\/]content[\/].+\.tsx$/i.test(file);
 if (!isHub && !isSpoke) process.exit(0);
 if (/manifest\.ts$/.test(file)) process.exit(0);
@@ -137,44 +137,151 @@ const logPath = join(ROOT, 'docs', 'title-log.md');
 const log = existsSync(logPath) ? readFileSync(logPath, 'utf8') : '';
 const block = log.split(/^## /m).find((b) => b.startsWith(slug));
 
-/* 캡처를 "적었다"가 아니라 "찍었다"를 본다.
-   2026-08-15: 텍스트로 수치를 다 뽑으면 내가 캡처를 건너뛰고 기록만 남겼다.
-   판단이 끼어들 자리를 없애려고 파일 존재를 직접 확인한다. */
-const shotDir = join(ROOT, '.playwright-mcp');
-const shots = existsSync(shotDir)
-  ? readdirSync(shotDir).filter((f) => /\.(png|jpe?g)$/i.test(f))
-  : [];
-const rootShots = readdirSync(ROOT).filter((f) => /\.(png|jpe?g)$/i.test(f));
-const hasShot = shots.length + rootShots.length > 0;
+/* ── 이 세션에서 진짜 열어봤나 (2026-08-25) ──
+   전에는 .playwright-mcp 폴더에 png 가 하나라도 있으면 통과였다.
+   폴더에 옛날 캡처가 남아 있으면 늘 통과라, 사실상 검사가 아니었다.
+   기록은 2026-08-11 부터 .claude/state/session-activity.jsonl 에 쌓이는데
+   문지기가 그걸 읽지 않았다. 이제 읽는다.
 
-if (!hasShot) {
+   기준점은 "직전에 저장한 글(article-write)" 이다. 그 뒤로 다시 열어봤는지 본다 —
+   캡처 한 장으로 두 편, 세 편을 쓰는 것을 막는다.
+   세션이 다르면 안 쳐준다. 남이 연 것은 내가 본 게 아니다. */
+const SID = payload?.session_id || '';
+const actPath = join(ROOT, '.claude', 'state', 'session-activity.jsonl');
+const acts = existsSync(actPath)
+  ? readFileSync(actPath, 'utf8').split(String.fromCharCode(10)).filter(Boolean)
+      .map((l) => { try { return JSON.parse(l); } catch { return null; } })
+      .filter((r) => r && r.session_id === SID)
+  : [];
+const lastArticle = acts.map((r, i) => (r.kind === 'article-write' ? i : -1)).filter((i) => i >= 0).pop();
+const since = lastArticle === undefined ? acts : acts.slice(lastArticle + 1);
+const did = (kind) => since.some((r) => r.kind === kind);
+
+const MISSING = [
+  ['capture-read', '1단계 — 기준 카드뉴스 캡처를 안 열었다.',
+    '  reference/titles/ 에서 주제와 가까운 캡처 1장을 Read 로 연다.'],
+  ['navigate',     '2단계 — 버튼 목적지를 안 열어봤다.',
+    '  browser_navigate 로 버튼이 갈 곳을 직접 연다. 안 열어보고 만든 버튼이 엉뚱한 데로 간다.'],
+  ['screenshot',   '3단계 — 1차 출처 화면을 안 찍었다.',
+    '  browser_take_screenshot 으로 원문 화면을 찍는다. 표·그림은 텍스트에 안 잡힌다.'],
+].filter(([k]) => !did(k));
+
+if (MISSING.length) {
+  const [, what, how] = MISSING[0];
   console.error(
     [
-      `[타이틀 훅] ${slug} — 1차 출처 화면 캡처가 없다.`,
+      `[타이틀 훅] ${slug} — ${what}`,
       '',
-      '  browser_take_screenshot 으로 원문 화면을 찍고 저장한 뒤 저장한다.',
-      '  텍스트만 뽑고 넘어가지 않는다 — 표·그림은 텍스트에 안 잡힌다.',
-    ].join('\n'),
+      how,
+      '',
+      lastArticle === undefined
+        ? '  (이 세션에서 아직 아무것도 안 열었다)'
+        : '  (직전 글을 저장한 뒤로 다시 연 적이 없다 — 캡처 한 장으로 두 편을 쓰지 않는다)',
+    ].join(String.fromCharCode(10)),
   );
   process.exit(2);
 }
 
-if (isHub && (!block || !/^- 캡처:/m.test(block))) {
+/* ── 타이틀을 새로 세우는 저장인가 ──
+   본문만 고치는 저장에까지 타이틀 근거를 요구하면 수정 작업이 멈춘다.
+   record-session-activity 가 "글을 썼다"고 판정하는 기준과 같은 자를 쓴다. */
+const payloadBody = payload?.tool_input?.content ?? payload?.tool_input?.new_string ?? '';
+const setsTitle = isSpoke ? /h1:\s*['"`]/.test(payloadBody) : /^\s{2}title:\s*['"`]/m.test(payloadBody);
+
+/* ── D. 버튼 라벨 길이 ── 화면에서 두 줄로 접히면 안 눌린다 */
+const labelM = payloadBody.match(/heroAct:\s*\{\s*label:\s*['"`]([^'"`]*)['"`]/);
+if (labelM && labelM[1].length > 16) {
   console.error(
     [
-      `[타이틀 훅] ${slug} — 캡처를 열고 기록해야 저장할 수 있다.`,
+      `[타이틀 훅] ${slug} — 상단 버튼 라벨이 ${labelM[1].length}자다. 16자까지.`,
       '',
-      '  1. reference/titles/ 중 주제와 가까운 1장을 Read 로 연다',
-      '  2. docs/title-log.md 에 적는다:',
-      `     ## ${slug}`,
-      '     - 캡처: <파일명> — "<캡처에서 본 타이틀 한 줄 그대로>"',
-      '     - 타이틀: <확정 타이틀>',
-      '',
-      '  (사장님이 타이틀을 직접 주셨으면 캡처 줄에 그렇게 적는다)',
-      '  끄려면: touch .claude/hooks-off',
-    ].join('\n'),
+      `  "${labelM[1]}"`,
+      '  버튼은 한 줄에 들어와야 눌린다. 문장은 heroHook 에 두고 라벨은 행동만 남긴다.',
+    ].join(String.fromCharCode(10)),
   );
   process.exit(2);
+}
+
+if (setsTitle) {
+  /* ── C. 구성표(2단계) ── 3주간 재작업 223건 중 116건이 문구·버튼에서 났다.
+     이 단계만 장치가 없었다. 구성표가 있어야 하고, 버튼 목적지가 적혀 있어야 한다. */
+  const outline = join(ROOT, 'scripts', 'output', `outline-${slug}.md`);
+  if (!existsSync(outline)) {
+    console.error(
+      [
+        `[타이틀 훅] ${slug} — 구성표가 없다(2단계).`,
+        '',
+        `  npx tsx scripts/write.ts "{키워드}" --slug ${slug}`,
+        '  구성표의 빈칸(서론·소제목·버튼 목적지)을 채운 뒤 본문을 저장한다.',
+      ].join(String.fromCharCode(10)),
+    );
+    process.exit(2);
+  }
+  const outlineSrc = readFileSync(outline, 'utf8');
+  if (!/https?:\/\//.test(outlineSrc)) {
+    console.error(
+      [
+        `[타이틀 훅] ${slug} — 구성표에 버튼 목적지(URL)가 없다.`,
+        '',
+        '  구성표의 ## 버튼 칸에 슬롯마다 목적지를 적는다:',
+        '    - 슬롯 qa2 — {버튼 문구} — https://...',
+        '  목적지를 안 정하고 쓴 버튼이 엉뚱한 데로 간다.',
+      ].join(String.fromCharCode(10)),
+    );
+    process.exit(2);
+  }
+
+  /* ── B. 타이틀 근거 ── 캡처를 "봤다"가 아니라 "그 캡처에 그 제목이 있다"를 본다.
+     2026-08-11 에 허위 인용 8건이 이 구멍으로 통과했다. */
+  if (!block || !/^- 캡처:/m.test(block)) {
+    console.error(
+      [
+        `[타이틀 훅] ${slug} — 캡처를 열고 기록해야 저장할 수 있다.`,
+        '',
+        '  1. reference/titles/ 중 주제와 가까운 1장을 Read 로 연다',
+        '  2. docs/title-log.md 에 적는다:',
+        `     ## ${slug}`,
+        '     - 캡처: <파일명> — "<캡처에서 본 타이틀 한 줄 그대로>"',
+        '     - 패턴: <docs/title-style-24.md 의 몇 번인지>',
+        `     - 타이틀: <확정 타이틀>`,
+      ].join(String.fromCharCode(10)),
+    );
+    process.exit(2);
+  }
+  if (!/^- 패턴:/m.test(block)) {
+    console.error(
+      `[타이틀 훅] ${slug} — 캡처 줄은 있는데 패턴 줄이 없다. docs/title-style-24.md 의 몇 번인지 적는다.`,
+    );
+    process.exit(2);
+  }
+
+  const idxPath = join(ROOT, 'reference', 'titles', 'INDEX.md');
+  if (!existsSync(idxPath)) {
+    console.error(
+      `[타이틀 훅] ${slug} — reference/titles/INDEX.md 가 없어 인용을 대조할 수 없다. 대조 불가는 통과가 아니다.`,
+    );
+    process.exit(2);
+  }
+  /* 둥근 따옴표도 인용으로 본다. 앞부분만 인용해도 통과 — 캡처 제목이 길어 잘라 적는 일이 많다. */
+  const quoted = (block.match(/^- 캡처:[^\n]*?["“”'](.+?)["“”']\s*$/m) || [])[1];
+  if (!quoted) {
+    console.error(`[타이틀 훅] ${slug} — 캡처 줄에 따옴표로 감싼 제목이 없다.`);
+    process.exit(2);
+  }
+  const norm = (s) => s.replace(/[\s"“”'?!,.·]/g, '');
+  const idx = norm(readFileSync(idxPath, 'utf8'));
+  const head = norm(quoted).slice(0, 12);
+  if (!head || !idx.includes(head)) {
+    console.error(
+      [
+        `[타이틀 훅] ${slug} — 캡처에 없는 제목을 인용했다.`,
+        '',
+        `  적은 것: "${quoted}"`,
+        '  reference/titles/INDEX.md 에 그 제목이 없다. 캡처를 열고 적힌 그대로 옮긴다.',
+      ].join(String.fromCharCode(10)),
+    );
+    process.exit(2);
+  }
 }
 
 process.exit(0);
