@@ -22,7 +22,15 @@ function toText(html: string): string {
     .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<\/(p|div|li|tr|h[1-6]|td|th)>/gi, '\n')
     .replace(/<[^>]+>/g, ' ')
-    .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
+    .replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
+    /* 엔티티가 안 풀린 채 저장되면 대조가 어긋난다 — 흥국화재는 가운뎃점을
+       &middot; 로 쓴다. 안 풀면 "질병·상해"가 영원히 안 맞는다.
+       이름 있는 것 몇 개 + 숫자 엔티티 전부를 푼다. &amp; 는 마지막에 푼다. */
+    .replace(/&middot;/g, '·').replace(/&sdot;/g, '·').replace(/&bull;/g, '·')
+    .replace(/&ndash;/g, '–').replace(/&mdash;/g, '—').replace(/&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_m, d) => String.fromCodePoint(Number(d)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_m, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&amp;/g, '&')
     .replace(/[ \t]+/g, ' ')
     .replace(/\n{2,}/g, '\n')
     .trim();

@@ -1444,9 +1444,13 @@ import { 국민성장펀드2차출시일SpokeContent } from '@/app/policy/[id]/[
 import { dbInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/db-insurance';
 import { samsungFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/samsung-fire';
 import { hyundaiMarineCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hyundai-marine';
+import { kbInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kb-insurance';
+import { heungkukFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/heungkuk-fire';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'heungkuk-fire': heungkukFireCallCenterSpokeContent,
+    'kb-insurance': kbInsuranceCallCenterSpokeContent,
     'hyundai-marine': hyundaiMarineCallCenterSpokeContent,
     'samsung-fire': samsungFireCallCenterSpokeContent,
     'db-insurance': dbInsuranceCallCenterSpokeContent,
