@@ -1446,9 +1446,15 @@ import { samsungFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { hyundaiMarineCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hyundai-marine';
 import { kbInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kb-insurance';
 import { heungkukFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/heungkuk-fire';
+import { kyoboLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kyobo-life';
+import { hanwhaLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hanwha-life';
+import { nhPropertyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/nh-property';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'nh-property': nhPropertyCallCenterSpokeContent,
+    'hanwha-life': hanwhaLifeCallCenterSpokeContent,
+    'kyobo-life': kyoboLifeCallCenterSpokeContent,
     'heungkuk-fire': heungkukFireCallCenterSpokeContent,
     'kb-insurance': kbInsuranceCallCenterSpokeContent,
     'hyundai-marine': hyundaiMarineCallCenterSpokeContent,

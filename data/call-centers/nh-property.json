@@ -1,0 +1,40 @@
+{
+  "slug": "nh-property",
+  "name": "NH농협손해보험",
+  "aliases": ["농협손해보험", "NH손해보험", "농협손보 콜센터"],
+  "brandColor": "#0B8A3D",
+  "official": "https://www.nhfire.co.kr",
+  "sourceUrl": "https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html",
+  "sourceName": "NH농협손해보험 전화상담안내",
+  "verifiedAt": "2026-08-25",
+  "main": {
+    "label": "고객센터",
+    "tel": "1644-9000"
+  },
+  "hours": {
+    "weekday": "상담사 연결(평일) 09:00 ~ 18:00",
+    "night": "사고상담(365일) 09:00 ~ 22:00",
+    "holiday": "사고상담(365일) 09:00 ~ 22:00"
+  },
+  "callFee": "일반전화는 시내·시외 모두 시내통화 요금(3분 39원)으로 부과되고, 휴대폰과 인터넷전화(070)는 가입한 요금제로 부과됩니다.",
+  "ars": {
+    "day": [
+      { "key": "1", "what": "계약조회 및 보험료 납입" },
+      { "key": "2", "what": "보험계약대출" },
+      { "key": "3", "what": "계약해지 및 환급금" },
+      { "key": "4", "what": "사고접수 및 보장상담" },
+      { "key": "5", "what": "헤아림바로서비스" },
+      { "key": "0", "what": "불편사항 접수 및 상담사 연결" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "고객센터", "tel": "1644-9000", "note": "대표번호 · 보이는 ARS 1번, 음성 ARS 2번" },
+    { "label": "다이렉트보험", "tel": "1644-8470" },
+    { "label": "단체상해보험", "tel": "1644-9666" },
+    { "label": "농작물보험", "tel": "1644-8900" },
+    { "label": "풍수해보험", "tel": "1644-8400" },
+    { "label": "알림톡 수신 전용", "tel": "1644-9777" },
+    { "label": "장애인 전용", "tel": "1644-9977" }
+  ]
+}
