@@ -1462,9 +1462,13 @@ import { kbLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { postInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/post-insurance';
 import { ablLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/abl-life';
 import { kdbLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kdb-life';
+import { nhisCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/nhis';
+import { linaLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/lina-life';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'lina-life': linaLifeCallCenterSpokeContent,
+    'nhis': nhisCallCenterSpokeContent,
     'kdb-life': kdbLifeCallCenterSpokeContent,
     'abl-life': ablLifeCallCenterSpokeContent,
     'post-insurance': postInsuranceCallCenterSpokeContent,

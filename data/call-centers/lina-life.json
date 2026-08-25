@@ -1,0 +1,26 @@
+{
+  "slug": "lina-life",
+  "name": "라이나생명",
+  "aliases": ["라이나생명보험", "라이나 콜센터", "라이나생명 고객센터"],
+  "brandColor": "#0072CE",
+  "official": "https://www.lina.co.kr",
+  "sourceUrl": "https://www.lina.co.kr/customer/consult/guide",
+  "sourceName": "라이나생명 고객센터 이용안내",
+  "verifiedAt": "2026-08-25",
+  "main": { "label": "고객서비스센터", "tel": "1588-0058" },
+  "hours": {
+    "weekday": "상담원 서비스 시간 평일 09:00~18:00(주말, 공휴일 휴무)",
+    "night": "ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00",
+    "holiday": "ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00"
+  },
+  "callFee": "1588-0058 은 유료이고, 통화료는 발신자 요금제 기준으로 부과됩니다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객서비스센터", "tel": "1588-0058", "note": "대표번호 · 유료" },
+    { "label": "보험료납부전용", "tel": "1566-0021" },
+    { "label": "해외에서 연결", "tel": "82-2-6441-7700" },
+    { "label": "장애인전용 전화상담", "tel": "02-6441-7720", "note": "평일 09:00 ~ 18:00" }
+  ],
+  "hq": "서울특별시 종로구 삼봉로 48, 라이나타워 2층 (청진동 188)",
+  "hqZip": "03156"
+}
