@@ -165,3 +165,93 @@ export function itemListSchema(
 export function toJsonLd(schema: Record<string, unknown>): string {
   return JSON.stringify(schema);
 }
+
+/* ── 보험사 고객센터 전용 (2026-08-25 신설) ──
+   경쟁 페이지는 Article + FAQ 로 끝난다. 여기는 한 단계 더 간다 —
+   번호·운영시간·주소를 ContactPoint / OpeningHoursSpecification 로 기계가 읽게 준다.
+   주의: 우리는 그 보험사가 아니다. publisher 는 우리 사이트로 두고,
+   보험사는 about(주제)으로만 서술한다. 사칭이 되면 안 된다. */
+export function callCenterSchema(
+  cc: {
+    name: string;
+    official: string;
+    sourceUrl: string;
+    verifiedAt: string;
+    main: { label: string; tel: string };
+    hours: { weekday: string; night: string; holiday: string };
+    numbers: { label: string; tel: string; note?: string; smsOnly?: boolean }[];
+    ars: { day: { key: string; what: string }[] };
+    hq: string;
+    hqZip?: string;
+  },
+  url: string,
+) {
+  /* 국내 대표번호(1588 등)는 지역번호가 없다. E.164 로는 +82-{번호} 가 맞다. */
+  const e164 = (t: string) => '+82-' + String(t).replace(/^0/, '').replace(/[^0-9-]/g, '');
+
+  const kindOf = (label: string) => {
+    if (/사고|긴급|출동/.test(label)) return 'emergency';
+    if (/대출/.test(label)) return 'billing support';
+    if (/외국인|foreign/i.test(label)) return 'customer service';
+    return 'customer service';
+  };
+
+  /* 운영시간 "월~금요일 09시 ~ 18시" → OpeningHoursSpecification */
+  const hm = cc.hours.weekday.match(/(\d{1,2})\s*시/g) ?? [];
+  const pad = (n: string | undefined) => String(parseInt(n ?? '0', 10)).padStart(2, '0') + ':00';
+  const weekdayHours =
+    hm.length >= 2
+      ? [
+          {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            opens: pad(hm[0]),
+            closes: pad(hm[1]),
+          },
+        ]
+      : undefined;
+
+  const contactPoint = cc.numbers
+    .filter((n) => !n.smsOnly)
+    .map((n) => ({
+      '@type': 'ContactPoint',
+      telephone: e164(n.tel),
+      contactType: kindOf(n.label),
+      name: n.label,
+      areaServed: 'KR',
+      availableLanguage: /외국인|foreign/i.test(n.label) ? ['ko', 'en'] : ['ko'],
+      hoursAvailable: /사고|긴급|출동/.test(n.label) ? undefined : weekdayHours,
+    }));
+
+  const addr = cc.hq.replace(/\(.*$/, '').trim();
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${url}#page`,
+    url,
+    name: `${cc.name} 고객센터 전화번호·상담사 연결 안내`,
+    /* 검수 표기 — 사람이 언제 확인했는지를 기계에도 준다 */
+    lastReviewed: cc.verifiedAt,
+    reviewedBy: { '@id': `${SITE_URL}/#editor` },
+    isPartOf: { '@id': `${SITE_URL}/#org` },
+    citation: cc.sourceUrl,
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.cc-big'],
+    },
+    about: {
+      '@type': 'Organization',
+      name: cc.name,
+      url: cc.official,
+      telephone: e164(cc.main.tel),
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: addr,
+        addressCountry: 'KR',
+        postalCode: cc.hqZip,
+      },
+      contactPoint,
+    },
+  };
+}

@@ -88,6 +88,11 @@ export const ${exportName}: SpokeData = {
   description:
     '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 사고접수는 야간·공휴일에도 가능합니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담사 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   datePublished: '${C.verifiedAt}T09:00:00+09:00',
+  /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
+     서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
+     검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
+  metaDescription:
+    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}, 상담사 연결은 ARS ${agent ? agent.key : '0'}번. 상담시간 ${q(C.hours.weekday)}, 야간·공휴일에는 사고접수·긴급출동만 접수됩니다. 업무별 번호 ${C.numbers.length}개와 ARS 메뉴, 본사 위치까지 ${C.verifiedAt} 공식 안내 기준.',
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:

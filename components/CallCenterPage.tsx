@@ -150,7 +150,9 @@ export default function CallCenterPage({
     { k: '상담사 연결', v: `ARS ${agentKey}번` },
   ];
 
-  const map = `https://map.naver.com/p/search/${encodeURIComponent(cc.name)}`;
+  /* 지도 — 회사명으로 검색하면 전국 지점 목록이 뜬다.
+     본사 주소로 걸면 그 건물에 핀이 바로 꽂힌다(괄호 안 건물명은 뺀다). */
+  const map = `https://map.naver.com/p/search/${encodeURIComponent(cc.hq.replace(/\(.*$/, '').trim())}`;
   const reviewed = cc.verifiedAt;
 
   /* 서론 — heroHook 대신 description 을 쓴다.

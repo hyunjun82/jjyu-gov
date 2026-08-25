@@ -11,6 +11,7 @@ import AdSense from '@/components/AdSense';
 import {
   articleSchema,
   breadcrumbSchema,
+  callCenterSchema,
   faqSchema,
   toJsonLd,
 } from '@/lib/schema';
@@ -67,6 +68,10 @@ export interface SpokeData {
   /* 보험사 고객센터 전용 화면 — 있으면 CallCenterPage 로 그린다.
      글(위 필드들)은 그대로 두고 화면만 갈아끼운다. 게이트는 예전처럼 심판한다. */
   callCenter?: CallCenterData;
+  /* 검색결과에 뜰 문장. 없으면 description 을 쓴다.
+     description 은 화면 서론으로도 쓰이는데, 서론은 읽히려고 쓰고
+     메타는 검색어에 걸리려고 쓴다 — 목적이 달라 나눈다. */
+  metaDescription?: string;
 }
 
 /* ── 텍스트 내 highlights 단어를 형광으로 강조 ── */
@@ -234,9 +239,10 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
   /* 보험사 고객센터는 전용 화면으로 그린다 (Downloads 원본 이식).
      스키마는 그대로 내보내고 본문만 갈아끼운다. */
   if (spoke.callCenter) {
+    const ccSchemas = [...schemas, callCenterSchema(spoke.callCenter, spokeUrl)];
     return (
       <main>
-        {schemas.map((schema, i) => (
+        {ccSchemas.map((schema, i) => (
           <script
             key={i}
             type="application/ld+json"

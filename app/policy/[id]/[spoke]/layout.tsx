@@ -44,7 +44,7 @@ export async function generateMetadata({
 
   const canonical = `https://gov.jjyu.co.kr/policy/${policySlug}/${encodeURIComponent(spoke)}/`;
   const title = `${spokeData.h1} | 정부지원사업`;
-  const description = truncateDescription(spokeData.description);
+  const description = truncateDescription(spokeData.metaDescription ?? spokeData.description);
 
   return {
     title,
