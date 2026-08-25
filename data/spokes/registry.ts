@@ -1443,9 +1443,11 @@ import { 간병인보험치매지급거절SpokeContent } from '@/app/policy/[id]
 import { 국민성장펀드2차출시일SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민성장펀드/2차출시일';
 import { dbInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/db-insurance';
 import { samsungFireCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/samsung-fire';
+import { hyundaiMarineCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hyundai-marine';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'hyundai-marine': hyundaiMarineCallCenterSpokeContent,
     'samsung-fire': samsungFireCallCenterSpokeContent,
     'db-insurance': dbInsuranceCallCenterSpokeContent,
   },
