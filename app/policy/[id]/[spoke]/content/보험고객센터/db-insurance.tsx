@@ -12,7 +12,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 const TEL = 'tel:15880100';
 const OFFICIAL = 'https://www.idbins.com';
-const MAP = 'https://map.naver.com/p/search/DB%EC%86%90%ED%95%B4%EB%B3%B4%ED%97%98';
+const MAP = 'https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%ED%85%8C%ED%97%A4%EB%9E%80%EB%A1%9C%20432';
 const HUB = '/policy/insurance-call-center';
 
 export const dbInsuranceCallCenterSpokeContent: SpokeData = {

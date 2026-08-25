@@ -55,7 +55,9 @@ const REG = path.join('data', 'spokes', 'registry.ts');
 const q = (s: string) => String(s).replace(/'/g, "\\'");
 const NL = String.fromCharCode(10);
 const telHref = (t: string) => `tel:${String(t).replace(/-/g, '')}`;
-const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(C.name)}`;
+/* 회사명으로 검색하면 전국 지점 목록이 뜬다. 본사 도로명 주소로 걸어야
+   그 건물에 핀이 꽂힌다(괄호 안 건물명은 뗀다). 화면도 같은 규칙을 쓴다. */
+const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(String(C.hq).replace(/\(.*$/, '').trim())}`;
 
 const arsRow = (a: any[]) => a.map((x) => `['${q(x.key)}번', '${q(x.what)}']`).join(', ');
 const numRow = (n: any) => `['${q(n.label)}', '${q(n.tel)}', '${q(n.note ?? '-')}']`;
