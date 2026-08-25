@@ -154,6 +154,9 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'kdb-life', role: 'eligibility', title: 'KDB생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'abl-life', role: 'eligibility', title: 'ABL생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'post-insurance', role: 'eligibility', title: '우체국보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'kb-life', role: 'eligibility', title: 'KB라이프생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'hana-life', role: 'eligibility', title: '하나생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'samsung-life', role: 'eligibility', title: '삼성생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },

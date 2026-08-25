@@ -1459,9 +1459,15 @@ import { axaInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/co
 import { samsungLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/samsung-life';
 import { hanaLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hana-life';
 import { kbLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kb-life';
+import { postInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/post-insurance';
+import { ablLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/abl-life';
+import { kdbLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kdb-life';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'kdb-life': kdbLifeCallCenterSpokeContent,
+    'abl-life': ablLifeCallCenterSpokeContent,
+    'post-insurance': postInsuranceCallCenterSpokeContent,
     'kb-life': kbLifeCallCenterSpokeContent,
     'hana-life': hanaLifeCallCenterSpokeContent,
     'samsung-life': samsungLifeCallCenterSpokeContent,

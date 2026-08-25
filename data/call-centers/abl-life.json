@@ -1,0 +1,28 @@
+{
+  "slug": "abl-life",
+  "name": "ABL생명",
+  "aliases": ["에이비엘생명", "ABL생명보험", "ABL생명 콜센터"],
+  "brandColor": "#003781",
+  "official": "https://www.abllife.co.kr",
+  "sourceUrl": "https://www.abllife.co.kr/st/custDesk/utilzGudn/arsGudn/arsGudn1?page=index",
+  "sourceName": "ABL생명 고객센터 안내",
+  "verifiedAt": "2026-08-25",
+  "main": { "label": "콜센터", "tel": "1588-6500" },
+  "hours": {
+    "weekday": "콜센터 운영 시간 : 평일 9시 ~ 18시",
+    "night": "평일 9시 ~ 18시 외 시간은 상담사 연결 불가",
+    "holiday": "주말·공휴일 상담사 연결 불가"
+  },
+  "callFee": "통화료는 발신자 요금제 기준으로 부과됩니다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "콜센터", "tel": "1588-6500", "note": "대표번호 · 평일 9시~18시" },
+    { "label": "해외에서 연결", "tel": "82-1588-6500" },
+    { "label": "해외에서 연결", "tel": "82-2-3299-5500" }
+  ],
+  "hq": "서울시 영등포구 의사당대로 147 (여의도동,ABL타워)",
+  "hqZip": "07332",
+  "corp": "에이비엘생명보험(주)",
+  "ceo": "곽희필",
+  "bizNo": "214-81-04337"
+}
