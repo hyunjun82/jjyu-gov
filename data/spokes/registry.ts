@@ -1455,9 +1455,11 @@ import { lotteInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/
 import { heungkukLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/heungkuk-life';
 import { hanaInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hana-insurance';
 import { metlifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/metlife';
+import { axaInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/axa-insurance';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'insurance-call-center': {
+    'axa-insurance': axaInsuranceCallCenterSpokeContent,
     'metlife': metlifeCallCenterSpokeContent,
     'hana-insurance': hanaInsuranceCallCenterSpokeContent,
     'heungkuk-life': heungkukLifeCallCenterSpokeContent,

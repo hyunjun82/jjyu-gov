@@ -154,6 +154,7 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'axa-insurance', role: 'eligibility', title: 'AXA손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'metlife', role: 'eligibility', title: '메트라이프생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'hana-insurance', role: 'eligibility', title: '하나손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'heungkuk-life', role: 'eligibility', title: '흥국생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },

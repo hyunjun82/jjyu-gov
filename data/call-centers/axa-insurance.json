@@ -1,0 +1,38 @@
+{
+  "slug": "axa-insurance",
+  "name": "AXA손해보험",
+  "aliases": ["악사손해보험", "AXA다이렉트", "악사 콜센터"],
+  "brandColor": "#00008F",
+  "official": "https://www.axa.co.kr",
+  "sourceUrl": "https://www.axa.co.kr/cms/benefit/cyms0304/cyms030401/CMKBEI01M01_CMS001.html",
+  "sourceName": "AXA손해보험 콜센터 안내",
+  "verifiedAt": "2026-08-25",
+  "main": { "label": "AXA 콜센터", "tel": "1566-1566" },
+  "hours": {
+    "weekday": "평일 : 오전 8시 30분 ~ 오후 7시 (수요일 오전 8시 30분 ~ 오후 6시)",
+    "night": "긴급출동/자동차보험 사고접수 및 상담 : 24시간",
+    "holiday": "토요일 : 오전 9시 ~ 오후 4시 / 일요일·공휴일 : 휴무"
+  },
+  "callFee": "통화료는 발신자 요금제 기준으로 부과됩니다.",
+  "ars": {
+    "day": [
+      { "key": "1", "what": "보험가입상담" },
+      { "key": "2", "what": "자동차 고장출동 요청" },
+      { "key": "3", "what": "자동차 사고접수 및 보상관련 문의" },
+      { "key": "4", "what": "계약 변경 상담" },
+      { "key": "5", "what": "상해, 질병, 운전자보험의 보험금 청구" },
+      { "key": "6", "what": "증명서 발급" },
+      { "key": "7", "what": "불편사항 접수" },
+      { "key": "8", "what": "보험가입 상담이어서 하기" },
+      { "key": "0", "what": "상담원 연결" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "AXA 콜센터", "tel": "1566-1566", "note": "대표번호 · 전국 어디서나 국번없이" },
+    { "label": "AXA 콜센터", "tel": "1588-1566" },
+    { "label": "AXA 콜센터", "tel": "1566-2266" }
+  ],
+  "hq": "서울특별시 용산구 한강대로 71길 4(갈월동) 한진중공업빌딩 10층",
+  "hqZip": "04322"
+}
