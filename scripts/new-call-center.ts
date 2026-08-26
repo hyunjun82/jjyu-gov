@@ -172,13 +172,22 @@ const pick = <T,>(arr: T[]): T => {
   return arr[h % arr.length];
 };
 
+/* 끝 어절이 겹치면 게이트가 막는다 — 상한 40%.
+   전에는 6개 풀에 "통화"로 끝나는 게 2개라, 24곳을 돌리니 42%가 됐다.
+   풀을 늘리는 게 아니라 "끝 어절을 전부 다르게" 만들어야 확률이 몰리지 않는다. */
 const HERO_LABELS = [
   `${C.main.tel} 전화 걸기`,
   `${C.main.tel} 지금 연결하기`,
   `${C.main.tel} 바로 통화`,
   `${C.main.tel} 상담 연결`,
-  `${C.main.tel} 눌러서 통화`,
   `${C.main.tel} 로 문의하기`,
+  `${C.main.tel} 눌러 보기`,
+  `${C.main.tel} 통화 시작`,
+  `${C.main.tel} 상담 신청`,
+  `${C.main.tel} 연결 요청`,
+  `${C.main.tel} 바로 접수`,
+  `${C.main.tel} 지금 문의`,
+  `${C.main.tel} 상담 받기`,
 ];
 
 /* cue 는 풀에서 고르지 않는다. 6개 풀로 23곳을 돌리면 같은 문장이 8번 나온다.
