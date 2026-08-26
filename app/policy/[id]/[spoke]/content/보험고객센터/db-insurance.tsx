@@ -70,7 +70,7 @@ export const dbInsuranceCallCenterSpokeContent: SpokeData = {
       },
       box: {
         label: '대기를 줄이는 법',
-        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 계약자 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
+        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
       sourceNote: '* 출처: DB손해보험 고객상담센터(콜센터)안내 (2026-08-25 확인)',
     },
@@ -187,6 +187,11 @@ export const dbInsuranceCallCenterSpokeContent: SpokeData = {
       "lunch": "공식 안내에 점심 휴무 표기 없음"
     },
     "offhourNote": "평일 야간 18시 ~ 09시와 공휴일 24시간은 따로 안내돼 있습니다. 계약 조회·변경과 보험금 청구는 평일 상담시간에 거는 편이 빠릅니다.",
+    "word": "보험사",
+    "hubWord": "보험 고객센터",
+    "agentWord": "상담사",
+    "offhourWord": "사고접수·긴급출동",
+    "idStep": "계약자 주민번호·증권번호",
     "callFee": "일반 전화는 시내·시외 모두 시내통화 요금으로 부과되고, 070 인터넷전화나 휴대전화는 이용자 요금제 기준으로 부과됩니다.",
     "ars": {
       "day": [

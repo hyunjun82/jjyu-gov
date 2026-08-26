@@ -87,7 +87,7 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
 /* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
    회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
    여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
-const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; dayNote: string }> = {
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; dayNote: string; idStep: string; hubWord: string }> = {
   insurance: {
     hub: 'insurance-call-center',
     dir: '보험고객센터',
@@ -109,6 +109,8 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     agent: '상담사',
     heroLead: '사고접수는 야간·공휴일에도 가능합니다',
     dayNote: '계약 조회·변경과 보험금 청구는 평일 상담시간에 거는 편이 빠릅니다.',
+    idStep: '계약자 주민번호·증권번호',
+    hubWord: '보험 고객센터',
   },
   securities: {
     hub: 'securities-call-center',
@@ -128,6 +130,31 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     agent: '상담원',
     heroLead: '상담시간이 지나면 야간 데스크로 갈립니다',
     dayNote: '계좌 개설과 입출금·이체 문의는 평일 상담시간에 거는 편이 빠릅니다.',
+    idStep: '계좌번호와 생년월일',
+    hubWord: '증권 고객센터',
+  },
+  /* 카드사 (2026-08-26 신설).
+     카드는 급할 때가 분실했을 때다 — 그래서 분실신고만 24시간이고 나머지는 주간이다.
+     이 갈림을 못 쓰면 사람이 밤에 대표번호로 걸었다가 못 받고 카드가 살아 있는 채로 지나간다. */
+  card: {
+    hub: 'card-call-center',
+    dir: '카드고객센터',
+    word: '카드사',
+    labels: ['카드사 번호 모아보기', '다른 카드사 번호 보기', '카드사별 고객센터 목록', '카드사 전체 목록 열기'],
+    jobs: '분실신고, 승인·결제 문의, 한도 조회',
+    remote: '카드 재발급이나 결제일 변경',
+    q5q: '다른 카드사 고객센터 번호도 필요한데요',
+    q5a: '카드는 한 장만 쓰지 않습니다. 지갑을 통째로 잃어버리면 두세 곳에 연달아 신고해야 해서, 한자리에 모아 두면 그만큼 빨라집니다.',
+    h1: (n: string) => `${n} 고객센터 전화번호 및 상담원 연결·분실신고 안내`,
+    night: '분실신고는 365일 24시간 접수됩니다',
+    goods: '분실신고·승인 등 업무별 번호',
+    offhour: '분실신고·승인문의',
+    offhourLong: '카드 분실신고와 승인 관련 문의를 받습니다',
+    agent: '상담원',
+    heroLead: '분실신고는 시간과 상관없이 접수됩니다',
+    dayNote: '한도 조회와 결제일 변경은 평일 상담시간에 거는 편이 빠릅니다.',
+    idStep: '카드번호와 생년월일',
+    hubWord: '카드 고객센터',
   },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
@@ -198,7 +225,21 @@ const hoursText = (v: unknown): string => String(v ?? '')
   .replace(/\s{2,}/g, ' ')
   .trim();
 
-const HW = hoursText(C.hours.weekday);
+/* 원문이 "상담 직원 연결은 평일 09:00~18:00에만 이용 가능" 처럼 문장으로 적힌 곳이 있다.
+   그대로 문장에 넣으면 "상담 운영시간은 상담 직원 연결은 …이용 가능이며" 가 된다.
+   JSON 은 원문 그대로 둔다(게이트가 원문을 본다). 문장에 넣을 때만 시각 구간을 뽑는다. */
+const timeSpan = (v: string) => {
+  const m = String(v).match(/(평일|영업일|월~금[요일]*)?\s*(오전\s*)?\d{1,2}\s*[:시]?\s*\d{0,2}\s*분?\s*[~-]\s*(오후\s*)?\d{1,2}\s*[:시]\s*\d{0,2}\s*분?/);
+  return m ? m[0].replace(/\s{2,}/g, ' ').trim() : '';
+};
+const HW_RAW = hoursText(C.hours.weekday);
+/* 앞뒤에 말이 붙어 문장이 된 경우에만 시각 구간으로 줄인다 */
+const HW = (() => {
+  const span = timeSpan(HW_RAW);
+  if (!span) return HW_RAW;
+  const extra = HW_RAW.replace(span, '').replace(/[()\[\]]/g, '').trim();
+  return extra.length > 6 ? span : HW_RAW;
+})();
 /* 상담시간을 아예 안 적는 회사가 있다 (카디프생명·증권사 13곳).
    시각이 하나도 없으면 "이 시간을 벗어나면" 같은 말이 성립하지 않는다.
    경쟁사는 이런 곳에 임의로 09:00-18:00 을 적는다 — 그게 제일 위험하다. */
@@ -234,7 +275,7 @@ const OFF_OPEN = PH.length > 0 && PH.some(offhourish);
 const OFF_DUP = OFF_OPEN && IND.offhour.split('·').every((w) => OFF_TXT.includes(w));
 
 const dot = (s: string) => (/[.]$/.test(s.trim()) ? s.trim() : s.trim() + '.');
-const SE_TXT = SE.length ? `공식 안내에는 그 밖의 시간을 "${SE.map((s) => s.replace(/[.]$/, '')).join(' / ')}" 로 적어 두었습니다.` : '';
+const SE_TXT = SE.length ? `공식 안내에는 그 밖의 시간을 ${SE.map((s) => s.replace(/[.]$/, '')).join(' / ')} 로 적어 두었습니다.` : '';
 
 const OFF_CLAUSE = !OFF_TXT ? ''
   : OFF_DUP ? dot(`${OFF_TXT}${josa(OFF_TXT, '은')} 따로 돌아갑니다`)
@@ -251,7 +292,7 @@ const LEAD = NO_HOURS
   : OFF.length === 0
   ? `이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다`
   : OFF_OPEN
-    ? `${IND.offhour}는 야간·공휴일에도 접수됩니다`
+    ? `${IND.offhour}${josa(IND.offhour, '은')} 야간·공휴일에도 접수됩니다`
     : '야간·공휴일 운영은 공식 안내에 따로 적혀 있습니다';
 const META_NIGHT = NO_HOURS
   ? '공식 안내에 상담 가능 시간 표기 없음'
@@ -275,7 +316,39 @@ const OFFHOUR_NOTE = `${NO_HOURS
    같은 말을 두 번 하게 된다. 절 자체를 뺀다. */
 const INTRO_FACT = NO_HOURS
   ? `${C.name} 고객센터 대표번호는 ${C.main.tel}입니다. ${LEAD}`
-  : `${C.name} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${C.hours.weekday}이며 ${LEAD}`;
+  : `${C.name} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${HW}이며 ${LEAD}`;
+
+/* keyFacts 칸을 업종에 맞춘다 (2026-08-26 사장님 지적).
+   보험 틀 그대로 찍으면 카드사는 '야간'·'공휴일' 두 줄이 "표기 없음"으로 비고,
+   정작 급한 분실신고·해외이용 번호는 표 안에 묻힌다. 업종마다 사람이 찾는 칸이 다르다. */
+const findNum = (re: RegExp) => (C.numbers as any[]).find((n) => re.test(String(n.label)));
+const lostNum = findNum(/분실|도난/);
+const abroadNum = findNum(/해외/);
+const CARD_FACTS = [
+  `    '분실신고': '${lostNum ? `${lostNum.tel} (${q(lostNum.label)})` : '공식 안내에 분실신고 전용번호 표기 없음 — 대표번호로 접수'}',`,
+  `    '해외이용': '${abroadNum ? `${abroadNum.tel} (${q(abroadNum.label)})` : '공식 안내에 해외 전용번호 표기 없음'}',`,
+].join(NL);
+const NIGHT_FACTS = [
+  `    '야간': '${q(C.hours.night)}',`,
+  `    '공휴일': '${q(C.hours.holiday)}',`,
+].join(NL);
+const MID_FACTS = C.industry === 'card' ? CARD_FACTS : NIGHT_FACTS;
+
+/* 업종 전용 소제목 (2026-08-26 사장님 지적).
+   카드에서 제일 급한 건 분실인데 보험 틀에는 그 질문이 없다.
+   업종마다 사람이 제일 먼저 찾는 게 다르다 — 그 자리를 하나 비워 둔다. */
+const LOST_TEL = lostNum ? lostNum.tel : C.main.tel;
+const LOST_LABEL = lostNum ? lostNum.label : C.main.label;
+const IND_QA = C.industry !== 'card' ? '' : `
+    {
+      q: '카드 분실했을 때 ${q(C.name)}는 어디로 거나요?', anchor: 'q-lost',
+      intro:
+        '${lostNum
+          ? `${LOST_TEL} 입니다. ${q(LOST_LABEL)} 전용번호라 대표번호(${C.main.tel})와 다릅니다. 대표번호로 걸어도 신고는 되지만 ARS 안내를 처음부터 들어야 합니다.`
+          : `공식 안내에 분실신고 전용번호가 따로 없어 대표번호 ${C.main.tel} 로 접수합니다.`} 분실은 몇 분 사이에 승인이 나는 일이라 그 시간이 아깝습니다. 카드를 잃어버려 번호를 모르면 생년월일로도 본인 확인이 되는 경우가 있으니, 번호가 기억나지 않아도 일단 거시는 편이 낫습니다.',
+      highlights: ['${LOST_TEL}', '분실신고', '${C.main.tel}'],
+      sourceNote: '* 출처: ${q(C.sourceName ?? C.name)} (${C.verifiedAt} 확인)',
+    },`;
 
 const HOOK_TIME = NO_HOURS
   ? `공식 안내에 상담 가능 시간이 적혀 있지 않습니다.`
@@ -425,8 +498,7 @@ export const ${exportName}: SpokeData = {
   keyFacts: {
     '대표번호': '${C.main.tel} (${q(C.main.label)})',
     '상담 가능 시간': '${q(C.hours.weekday)}',
-    '야간': '${q(C.hours.night)}',
-    '공휴일': '${q(C.hours.holiday)}',
+${MID_FACTS}
     '${q(IND.agent)} 연결': '${ARS_FACT}',
 ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 기준으로 부과됩니다.')}',
   },
@@ -447,9 +519,9 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
         rows: [${(C.numbers as any[]).map(numRow).join(', ')}],
       },
       sourceNote: '* 출처: ${q(C.sourceName ?? C.name)} (${C.verifiedAt} 확인)',
-    },
+    },${IND_QA}
     {
-      q: '${q(IND.agent)}와 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
+      q: '${q(IND.agent)}${josa(IND.agent, '과')} 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
         '${ARS_Q2} 다만 이건 ${q(HW)}에만 됩니다. 그 시간을 벗어나면 ${q(IND.agent)} 연결 항목 자체가 없고 ${q(IND.offhour)} 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
       highlights: [${ARS_HL}, '${q(C.hours.weekday)}'],
@@ -459,7 +531,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       },
       box: {
         label: '대기를 줄이는 법',
-        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 계약자 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
+        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, ${q(IND.idStep)}를 미리 꺼내 두는 편이 빠릅니다.',
       },
       sourceNote: '* 출처: ${q(C.sourceName ?? C.name)} (${C.verifiedAt} 확인)',
     },
@@ -512,7 +584,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       sourceUrl: '${C.sourceUrl}',
     },
     {
-      q: '${q(IND.agent)}와 바로 통화하려면 어떻게 하나요?',
+      q: '${q(IND.agent)}${josa(IND.agent, '과')} 바로 통화하려면 어떻게 하나요?',
       a: '${ARS_FAQ} ${q(HW)}에만 가능합니다.',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
@@ -569,6 +641,13 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       main: C.main,
       hours: { ...C.hours, lunch: LUNCH },
       offhourNote: OFFHOUR_NOTE,
+      /* 업종 말을 화면으로 넘긴다 (2026-08-26).
+         전에는 CallCenterPage 에 "보험" 이 6곳 박혀 있어 증권사 37편에도 그대로 나갔다. */
+      word: IND.word,
+      hubWord: IND.hubWord,
+      agentWord: IND.agent,
+      offhourWord: IND.offhour,
+      idStep: IND.idStep,
       callFee: C.callFee,
       ars: C.ars,
       numbers: C.numbers,

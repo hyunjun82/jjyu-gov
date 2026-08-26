@@ -1,23 +1,44 @@
 {
   "slug": "samsung-life",
   "name": "삼성생명",
-  "aliases": ["삼성생명보험", "삼성생명 콜센터", "삼성생명 고객센터"],
+  "aliases": [
+    "삼성생명보험",
+    "삼성생명 콜센터",
+    "삼성생명 고객센터"
+  ],
   "brandColor": "#1428A0",
   "official": "https://www.samsunglife.com",
   "sourceUrl": "https://direct.samsunglife.com/customerSupport/inquiryGuide/CustomerSupportInquiryGuideMainView",
   "sourceName": "삼성생명 상담 안내",
   "verifiedAt": "2026-08-25",
-  "main": { "label": "대표 콜센터", "tel": "1588-3114" },
+  "main": {
+    "label": "대표 콜센터",
+    "tel": "1588-3114"
+  },
   "hours": {
-    "weekday": "대표 콜센터 평일 09:00 ~ 18:00",
-    "night": "평일 09:00 ~ 18:00 외 시간은 상담사 연결 불가",
-    "holiday": "주말·공휴일 상담사 연결 불가"
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
   "callFee": "080-789-3300 은 무료이고, 그 밖의 번호는 발신자 요금제 기준으로 부과됩니다.",
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "대표 콜센터", "tel": "1588-3114", "note": "평일 09:00 ~ 18:00" },
-    { "label": "무료 상담", "tel": "080-789-3300", "note": "무료" },
-    { "label": "상담 전화", "tel": "1599-3445" }
+    {
+      "label": "대표 콜센터",
+      "tel": "1588-3114",
+      "note": "평일 09:00 ~ 18:00"
+    },
+    {
+      "label": "무료 상담",
+      "tel": "080-789-3300",
+      "note": "무료"
+    },
+    {
+      "label": "상담 전화",
+      "tel": "1599-3445"
+    }
   ]
 }

@@ -70,7 +70,7 @@ export const cardifLifeCallCenterSpokeContent: SpokeData = {
       },
       box: {
         label: '대기를 줄이는 법',
-        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 계약자 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
+        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
       sourceNote: '* 출처: 카디프생명 고객센터 이용안내 (2026-08-26 확인)',
     },
@@ -187,6 +187,11 @@ export const cardifLifeCallCenterSpokeContent: SpokeData = {
       "lunch": "공식 안내에 점심 휴무 표기 없음"
     },
     "offhourNote": "카디프생명 공식 안내에는 상담 가능 시간이 적혀 있지 않습니다. 임의로 짐작해 적지 않으니, 통화 전 공식 홈페이지에서 한 번 더 확인하세요.",
+    "word": "보험사",
+    "hubWord": "보험 고객센터",
+    "agentWord": "상담사",
+    "offhourWord": "사고접수·긴급출동",
+    "idStep": "계약자 주민번호·증권번호",
     "callFee": "일반전화는 시내요금 기준으로 부과되고, 070 인터넷전화나 휴대전화는 이용자 요금제를 기준으로 부과됩니다.",
     "ars": {
       "day": [

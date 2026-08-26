@@ -70,7 +70,7 @@ export const fubonHyundaiCallCenterSpokeContent: SpokeData = {
       },
       box: {
         label: '대기를 줄이는 법',
-        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 계약자 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
+        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
       sourceNote: '* 출처: 푸본현대생명 ARS 상담안내 (2026-08-26 확인)',
     },
@@ -187,6 +187,11 @@ export const fubonHyundaiCallCenterSpokeContent: SpokeData = {
       "lunch": "점심시간 12 ~ 13시, 통화량이 많은 15 ~ 16시 사이는 상담원연결이 어려울 수 있습니다."
     },
     "offhourNote": "365일 24시간 가능은 따로 안내돼 있습니다. 계약 조회·변경과 보험금 청구는 평일 상담시간에 거는 편이 빠릅니다.",
+    "word": "보험사",
+    "hubWord": "보험 고객센터",
+    "agentWord": "상담사",
+    "offhourWord": "사고접수·긴급출동",
+    "idStep": "계약자 주민번호·증권번호",
     "callFee": "일반전화는 3분당 39원(시내통화요금), 휴대폰과 인터넷전화는 통신사와 약정된 요금제 기준으로 부과됩니다.",
     "ars": {
       "day": [

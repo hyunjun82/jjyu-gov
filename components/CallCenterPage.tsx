@@ -36,6 +36,13 @@ export interface CallCenterData {
   /* 야간·공휴일 안내 한 문장 — 회사마다 다르다. 여기 없으면 화면이 지어내게 된다.
      전에는 이 문장이 CallCenterPage 에 박혀 있어서 50곳이 전부 "사고접수·긴급출동" 이었다. */
   offhourNote?: string;
+  /* 업종 말 (2026-08-26). 화면에 "보험" 이 6곳 박혀 있어서 증권사 37편에도 그대로 나갔다.
+     생성기(new-call-center.ts)의 INDUSTRY 에서 받아 온다. 없으면 지금까지처럼 보험사다. */
+  word?: string;        // 보험사 / 증권사 / 카드사
+  hubWord?: string;     // 보험 고객센터 / 증권 고객센터
+  agentWord?: string;   // 상담사 / 상담원
+  offhourWord?: string; // 사고접수·긴급출동 / 주문접수·야간 데스크 / 분실신고·승인문의
+  idStep?: string;      // 본인 확인 단계에 미리 꺼내 둘 것
   callFee?: string;
   ars: { day: { key: string; what: string }[]; night: { key: string; what: string }[] };
   /* smsOnly: 전화가 안 되는 문자 전용 번호. 여기에 tel: 을 걸면 안 걸린다 */
@@ -141,6 +148,13 @@ export default function CallCenterPage({
   const B_TINT = lighten(BRAND, 0.9);
   const B_EDGE = lighten(BRAND, 0.62);
 
+  /* 업종 말 — 없으면 지금까지처럼 보험사로 읽는다(기존 40편이 그대로 돌아간다) */
+  const W = cc.word ?? '보험사';
+  const HUBW = cc.hubWord ?? '보험 고객센터';
+  const AGENT = cc.agentWord ?? '상담사';
+  const OFFW = cc.offhourWord ?? '사고접수·긴급출동';
+  const IDSTEP = cc.idStep ?? '계약자 주민번호·증권번호';
+
   const TEL = telHref(cc.main.tel);
   /* ARS 단축번호를 공개하지 않는 회사가 있다(구성도가 이미지이거나 메뉴 이름만 있는 곳).
      번호를 순서로 추정하면 사람이 엉뚱한 메뉴를 누른다. 없으면 없다고 쓴다. */
@@ -157,12 +171,12 @@ export default function CallCenterPage({
   const statusLabel = open === null ? cc.hours.weekday : open ? '상담 가능 시간' : '상담 시간 종료';
   const statusDetail =
     open === null
-      ? '상담사 연결은 평일 상담시간에만 됩니다. 그 밖의 시간은 사고접수·긴급출동만 돌아갑니다.'
+      ? `${AGENT} 연결은 평일 상담시간에만 됩니다. 그 밖의 시간은 ${OFFW}만 돌아갑니다.`
       : open
         ? hasArs
-          ? `지금 전화하면 ARS 에서 ${agentKey}번을 눌러 상담사와 연결됩니다.`
-          : '지금 전화하면 상담사 연결이 가능합니다.'
-        : `지금은 사고접수·긴급출동만 연결됩니다. 일반 상담은 ${cc.hours.weekday}에 가능합니다.`;
+          ? `지금 전화하면 ARS 에서 ${agentKey}번을 눌러 ${AGENT}와 연결됩니다.`
+          : `지금 전화하면 ${AGENT} 연결이 가능합니다.`
+        : `지금은 ${OFFW}만 연결됩니다. 일반 상담은 ${cc.hours.weekday}에 가능합니다.`;
 
   const copy = () => {
     try {
@@ -176,11 +190,11 @@ export default function CallCenterPage({
 
   const steps = [
     { no: '1', title: `${cc.main.tel} 연결`, body: '휴대전화·일반전화 모두 같은 번호로 들어갑니다.' },
-    { no: '2', title: '본인 확인', body: '계약자 주민번호·증권번호를 미리 꺼내 두면 절차가 짧아집니다.' },
-    { no: '3', title: 'ARS 끝까지 듣기', body: '상담사 연결은 안내의 마지막에 나오는 경우가 많습니다.' },
+    { no: '2', title: '본인 확인', body: `${IDSTEP}를 미리 꺼내 두면 절차가 짧아집니다.` },
+    { no: '3', title: 'ARS 끝까지 듣기', body: `${AGENT} 연결은 안내의 마지막에 나오는 경우가 많습니다.` },
     hasArs
-      ? { no: '4', title: `${agentKey}번 상담사 연결`, body: `${agentKey}번을 누르면 순번 대기 후 상담이 시작됩니다.` }
-      : { no: '4', title: '상담사 연결', body: '공식 안내에 단축번호가 없어, 안내 음성에서 상담사 연결 항목을 고르시면 됩니다.' },
+      ? { no: '4', title: `${agentKey}번 ${AGENT} 연결`, body: `${agentKey}번을 누르면 순번 대기 후 상담이 시작됩니다.` }
+      : { no: '4', title: `${AGENT} 연결`, body: `공식 안내에 단축번호가 없어, 안내 음성에서 ${AGENT} 연결 항목을 고르시면 됩니다.` },
   ];
 
   /* 점심시간은 공식 안내에 있을 때만 보여준다.
@@ -312,7 +326,7 @@ export default function CallCenterPage({
             >
               {cc.name.slice(0, 1)}
             </span>
-            보험 고객센터
+            {HUBW}
           </Link>
           <nav className="cc-nav" style={{ display: 'flex', alignItems: 'center', gap: 2, fontSize: 14.5, fontWeight: 600 }}>
             <a href="#numbers">번호안내</a>
@@ -680,7 +694,7 @@ export default function CallCenterPage({
                 boxShadow: '0 4px 0 #E8EDF4',
               }}
             >
-              다른 보험사 번호 찾기
+              다른 {W} 번호 찾기
             </Link>
           </div>
           <div className="cc-steps" style={{ margin: '20px 0 0' }}>
@@ -943,7 +957,7 @@ export default function CallCenterPage({
                 boxShadow: '0 6px 0 rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.3)',
               }}
             >
-              보험사 번호 전체보기
+              {W} 번호 전체보기
             </Link>
           </div>
         </section>

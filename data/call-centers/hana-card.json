@@ -1,0 +1,24 @@
+{
+  "slug": "hana-card",
+  "name": "하나카드",
+  "aliases": ["하나 카드", "하나SK카드", "외환카드", "hanacard"],
+  "industry": "card",
+  "brandColor": "#008485",
+  "official": "https://www.hanacard.co.kr",
+  "sourceUrl": "https://www.hanacard.co.kr/",
+  "sourceName": "하나카드 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1800-1111" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터 (국내)", "tel": "1800-1111", "note": "유료" },
+    { "label": "고객센터 (해외)", "tel": "82-1800-1111", "note": "국가번호 82 입력 후 이용" },
+    { "label": "시각장애인 전용상담센터", "tel": "1599-0701", "note": "전용 상담" }
+  ],
+  "hq": "서울특별시 중구 을지로 66"
+}

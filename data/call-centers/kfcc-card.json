@@ -1,0 +1,25 @@
+{
+  "slug": "kfcc-card",
+  "name": "새마을금고 카드",
+  "aliases": ["MG새마을금고 카드", "새마을금고 체크카드", "MG카드"],
+  "industry": "card",
+  "brandColor": "#005BAC",
+  "official": "https://www.kfcc.co.kr",
+  "sourceUrl": "https://www.kfcc.co.kr/",
+  "sourceName": "MG새마을금고 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "금융문의", "tel": "1599-9000" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "금융문의", "tel": "1599-9000", "note": "카드 문의도 이 번호로 접수" },
+    { "label": "금융문의 (다른 번호)", "tel": "1588-8801", "note": "1599-9000과 같은 창구" },
+    { "label": "공제문의", "tel": "1599-9010", "note": "공제(보험) 전용" },
+    { "label": "보이스피싱 금융사고", "tel": "080-890-0201", "note": "수신자 부담" }
+  ],
+  "hq": "서울특별시 강남구 삼성로 124"
+}

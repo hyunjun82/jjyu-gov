@@ -1,0 +1,27 @@
+{
+  "slug": "im-card",
+  "name": "iM카드",
+  "aliases": ["아이엠카드", "대구은행 카드", "DGB카드", "iM뱅크 카드"],
+  "industry": "card",
+  "brandColor": "#0B2C5F",
+  "official": "https://www.imbank.co.kr",
+  "sourceUrl": "https://www.imbank.co.kr/com_ebz_hlp_sub_main.jsp",
+  "sourceName": "iM뱅크 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1566-5050" },
+  "hours": {
+    "weekday": "09:00 ~ 18:00 (은행휴무일 제외)",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "은행휴무일 제외"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1566-5050", "note": "09:00~18:00, 은행휴무일 제외" },
+    { "label": "고객센터 (다른 번호)", "tel": "1588-5050", "note": "1566-5050과 같은 창구" },
+    { "label": "어르신전용전화", "tel": "1670-9550", "note": "고령 고객 전용" },
+    { "label": "인터넷뱅킹", "tel": "1661-5100", "note": "인터넷뱅킹 문의" },
+    { "label": "음성인식", "tel": "1661-5200", "note": "말로 하는 상담" },
+    { "label": "해외에서 전화", "tel": "82-53-742-5050", "note": "국제전화 요금" }
+  ],
+  "hq": "대구광역시 북구 옥산로 111"
+}

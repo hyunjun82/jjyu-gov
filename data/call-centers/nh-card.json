@@ -1,0 +1,27 @@
+{
+  "slug": "nh-card",
+  "name": "NH농협카드",
+  "aliases": ["농협카드", "NH카드", "농카", "nonghyup card"],
+  "industry": "card",
+  "brandColor": "#00A04A",
+  "official": "https://card.nonghyup.com",
+  "sourceUrl": "https://card.nonghyup.com/",
+  "sourceName": "NH농협카드 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1644-4000" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1644-4000", "note": "카드상담·카드대출신청도 이 번호" },
+    { "label": "승인/가맹점", "tel": "1644-7400", "note": "승인·가맹점 전용" },
+    { "label": "카드신청", "tel": "1644-2744", "note": "시각장애인 발급 상담도 이 번호" },
+    { "label": "금융(카드대출)", "tel": "1644-9900", "note": "카드론·현금서비스" },
+    { "label": "카드심사", "tel": "1644-4440", "note": "발급 심사 문의" },
+    { "label": "해외에서 이용 시", "tel": "82-2-6942-6478", "note": "국제전화 요금" }
+  ],
+  "hq": "서울특별시 종로구 통일로 134 NH농협타워"
+}

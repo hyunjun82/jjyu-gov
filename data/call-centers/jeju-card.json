@@ -1,0 +1,23 @@
+{
+  "slug": "jeju-card",
+  "name": "제주은행 카드",
+  "aliases": ["제주카드", "제주은행 신용카드", "신한 제주은행"],
+  "industry": "card",
+  "brandColor": "#0046FF",
+  "official": "https://www.jejubank.co.kr",
+  "sourceUrl": "https://www.jejubank.co.kr/hmpg/csct/cstCnsl/faq.do",
+  "sourceName": "제주은행 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1588-0079" },
+  "hours": {
+    "weekday": "평일 09~18시 (은행 휴무일 제외)",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "은행 휴무일 제외"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-0079", "note": "평일 09~18시, 은행 휴무일 제외" },
+    { "label": "해외에서 전화", "tel": "82-64-759-2002", "note": "국제전화 요금" }
+  ],
+  "hq": "제주특별자치도 제주시 오라1동 1300"
+}

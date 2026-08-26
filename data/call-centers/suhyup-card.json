@@ -1,0 +1,25 @@
+{
+  "slug": "suhyup-card",
+  "name": "수협은행 카드",
+  "aliases": ["Sh수협은행 카드", "수협카드", "수협은행 신용카드", "찐카드"],
+  "industry": "card",
+  "brandColor": "#0068B7",
+  "official": "https://www.suhyup-bank.com",
+  "sourceUrl": "https://www.suhyup-bank.com/",
+  "sourceName": "Sh수협은행 공식 홈페이지 고객지원 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객지원", "tel": "1588-1515" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객지원", "tel": "1588-1515", "note": "카드 문의도 이 번호로 접수" },
+    { "label": "고객지원 (다른 번호)", "tel": "1644-1515", "note": "1588-1515와 같은 창구" },
+    { "label": "공제보험", "tel": "1588-4119", "note": "공제보험 전용" },
+    { "label": "해외이용", "tel": "82-2-2013-0000", "note": "국제전화 요금" }
+  ],
+  "hq": "서울특별시 송파구 오금로 62"
+}

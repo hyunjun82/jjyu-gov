@@ -1,0 +1,28 @@
+{
+  "slug": "kb-card",
+  "name": "KB국민카드",
+  "aliases": ["국민카드", "KB카드", "케이비국민카드", "kbcard"],
+  "industry": "card",
+  "brandColor": "#FFB800",
+  "official": "https://card.kbcard.com",
+  "sourceUrl": "https://card.kbcard.com/CMN/DVIEW/HOAMCXPRIZZC0002",
+  "sourceName": "KB국민카드 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1588-1688" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-1688", "note": "국내대표번호 (유료)" },
+    { "label": "분실신고·가맹점 승인", "tel": "1588-1788", "note": "분실·도난 전용" },
+    { "label": "카드신청", "tel": "1800-6293", "note": "신규 발급 상담" },
+    { "label": "금융서비스", "tel": "1588-2788", "note": "카드론·현금서비스" },
+    { "label": "결제 및 각종 변경(등록)", "tel": "1899-0800", "note": "결제일·정보 변경" },
+    { "label": "English / 中國語", "tel": "1644-9993", "note": "외국어 상담" },
+    { "label": "해외에서 전화 걸 때", "tel": "82-2-6300-7300", "note": "국제전화 요금" }
+  ],
+  "hq": "서울특별시 종로구 새문안로3길 30"
+}

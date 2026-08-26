@@ -1,0 +1,25 @@
+{
+  "slug": "busan-card",
+  "name": "부산은행 카드",
+  "aliases": ["BNK부산은행 카드", "부산카드", "BNK카드", "부산은행 신용카드"],
+  "industry": "card",
+  "brandColor": "#00A5B5",
+  "official": "https://www.busanbank.co.kr",
+  "sourceUrl": "https://www.busanbank.co.kr/ib20/mnu/BHPCSC291001001",
+  "sourceName": "BNK부산은행 고객센터",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객상담", "tel": "1588-6200" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객상담", "tel": "1588-6200", "note": "카드 문의도 이 번호로 접수" },
+    { "label": "고객상담 (다른 번호)", "tel": "1544-6200", "note": "1588-6200과 같은 창구" },
+    { "label": "어르신 전용", "tel": "1800-1100", "note": "고령 고객 전용" },
+    { "label": "해외에서 전화", "tel": "82-2-1588-6200", "note": "국제전화 요금" }
+  ],
+  "hq": "부산광역시 남구 문현금융로 30"
+}

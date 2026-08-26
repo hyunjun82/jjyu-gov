@@ -1,0 +1,25 @@
+{
+  "slug": "knbank-card",
+  "name": "경남은행 카드",
+  "aliases": ["BNK경남은행 카드", "경남카드", "경남은행 신용카드"],
+  "industry": "card",
+  "brandColor": "#E03A3E",
+  "official": "https://www.knbank.co.kr",
+  "sourceUrl": "https://www.knbank.co.kr/",
+  "sourceName": "BNK경남은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1600-8585" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1600-8585", "note": "카드 문의도 이 번호로 접수" },
+    { "label": "고객센터 (다른 번호)", "tel": "1588-8585", "note": "1600-8585와 같은 창구" },
+    { "label": "점자카드 발급", "tel": "055-290-8822", "note": "점자카드 전용" },
+    { "label": "해외에서 전화", "tel": "82-55-290-8585", "note": "국제전화 요금" }
+  ],
+  "hq": "경상남도 창원시 마산회원구 3·15대로 642"
+}

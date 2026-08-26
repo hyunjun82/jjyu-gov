@@ -1,0 +1,25 @@
+{
+  "slug": "cu-card",
+  "name": "신협 카드",
+  "aliases": ["신협중앙회 카드", "신협 체크카드", "어부바 신협"],
+  "industry": "card",
+  "brandColor": "#0068B7",
+  "official": "https://www.cu.co.kr",
+  "sourceUrl": "https://www.cu.co.kr/",
+  "sourceName": "신협중앙회 공식 홈페이지 콜센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "전자금융콜센터", "tel": "1566-6000" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전자금융콜센터", "tel": "1566-6000", "note": "카드 문의도 이 번호로 접수" },
+    { "label": "전자금융콜센터 (다른 번호)", "tel": "1644-6000", "note": "1566-6000과 같은 창구" },
+    { "label": "공제콜센터", "tel": "1544-3030", "note": "공제(보험) 전용" }
+  ],
+  "hq": "대전광역시 서구 한밭대로 745",
+  "hqZip": "35209"
+}

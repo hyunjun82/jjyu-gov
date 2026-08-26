@@ -1,0 +1,27 @@
+{
+  "slug": "hyundai-card",
+  "name": "현대카드",
+  "aliases": ["현대 카드", "hyundaicard"],
+  "industry": "card",
+  "brandColor": "#1A1A1A",
+  "official": "https://www.hyundaicard.com",
+  "sourceUrl": "https://www.hyundaicard.com/index.jsp",
+  "sourceName": "현대카드 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1577-6000" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1577-6000", "note": "외국인·청각장애인 상담 안내 서비스 제공" },
+    { "label": "도난분실신고", "tel": "1577-6200", "note": "분실·도난 전용" },
+    { "label": "카드신청", "tel": "1577-0100", "note": "신규 발급 상담" },
+    { "label": "금융신청", "tel": "1577-6100", "note": "카드론·현금서비스" },
+    { "label": "점자카드신청", "tel": "1566-5630", "note": "점자카드 전용" },
+    { "label": "해외에서 전화", "tel": "82-2-3015-9000", "note": "국제전화 요금" }
+  ],
+  "hq": "서울특별시 영등포구 의사당대로 3 현대카드빌딩 1관"
+}

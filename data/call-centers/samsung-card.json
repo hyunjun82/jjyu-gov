@@ -1,0 +1,87 @@
+{
+  "slug": "samsung-card",
+  "name": "삼성카드",
+  "aliases": [
+    "삼성 카드",
+    "samsungcard"
+  ],
+  "industry": "card",
+  "brandColor": "#1428A0",
+  "official": "https://www.samsungcard.com",
+  "sourceUrl": "https://www.samsungcard.com/personal/customer-service/ars/UHPPCC0221M0.jsp",
+  "sourceName": "삼성카드 콜센터(ARS) 이용안내",
+  "verifiedAt": "2026-08-26",
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-8700"
+  },
+  "hours": {
+    "weekday": "상담 직원 연결은 평일 09:00~18:00에만 이용 가능",
+    "night": "ARS는 24시간 이용 가능합니다.",
+    "holiday": "ARS는 24시간 이용 가능합니다."
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1588-8700",
+      "note": "디지털ARS·음성ARS 모두 이 번호"
+    },
+    {
+      "label": "분실신고·한도승인",
+      "tel": "1588-8900",
+      "note": "분실·도난 전용"
+    },
+    {
+      "label": "대출 신청",
+      "tel": "1588-8600",
+      "note": "카드론·현금서비스"
+    },
+    {
+      "label": "카드 신청",
+      "tel": "1688-1133",
+      "note": "신규 발급 상담"
+    },
+    {
+      "label": "즉시결제",
+      "tel": "1688-5045",
+      "note": "결제대금 즉시 납부"
+    },
+    {
+      "label": "이용내역·소득공제·매출실적 발송",
+      "tel": "1599-8700",
+      "note": "증명서·내역 발송"
+    },
+    {
+      "label": "영어 상담",
+      "tel": "1688-8751",
+      "note": "For English Service"
+    },
+    {
+      "label": "시각장애인 전용 상담센터",
+      "tel": "1588-1997",
+      "note": "전용 상담"
+    },
+    {
+      "label": "해외 이용 문의",
+      "tel": "82-2-2000-8000",
+      "note": "국제전화 요금"
+    },
+    {
+      "label": "해외 도난·분실",
+      "tel": "82-2-2000-8100",
+      "note": "해외 분실 전용"
+    },
+    {
+      "label": "해외 수신자부담",
+      "tel": "800-1588-8700",
+      "note": "일부 국가에서 이용 가능"
+    }
+  ],
+  "callFee": "국내 기준 유선전화는 전국 어디서나 시내전화 요금(3분당 39원, VAT 별도)이고, 휴대전화는 해당 통신사 이용요금 기준으로 부과됩니다.",
+  "hq": "서울특별시 중구 세종대로 67",
+  "hqZip": "04514"
+}

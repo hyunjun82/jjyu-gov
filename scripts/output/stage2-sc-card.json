@@ -1,0 +1,17 @@
+{
+  "slug": "sc-card",
+  "keyword": "SC제일은행 카드 고객센터",
+  "title": "SC제일은행 카드 고객센터 전화번호 및 상담원 연결·분실신고 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "SC제일은행 카드 고객센터 전화번호 모음",
+    "SC제일은행 카드 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "SC제일은행 카드 고객센터 위치",
+    "SC제일은행 카드 고객센터 지역별로 찾기"
+  ],
+  "source": "https://m.sc.co.kr/custcenter/MA3CSTCSC009.mnu",
+  "outline": "data/call-centers/sc-card.json",
+  "approved": true,
+  "approvedAt": "2026-08-26"
+}

@@ -60,7 +60,7 @@ export const nextSecCallCenterSpokeContent: SpokeData = {
       sourceNote: '* 출처: 넥스트증권 고객센터 안내 (2026-08-26 확인)',
     },
     {
-      q: '상담원와 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
+      q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
         '넥스트증권 공식 안내는 상담원 연결 항목을 번호와 함께 표기하지 않습니다. 안내 음성을 끝까지 듣고 상담원 연결 항목을 고르시면 됩니다. 다만 이건 24시간 고객지원센터 이용 및 문의에만 됩니다. 그 시간을 벗어나면 상담원 연결 항목 자체가 없고 주문접수·야간 데스크 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
       highlights: ['상담원 연결', '24시간 고객지원센터 이용 및 문의'],
@@ -70,7 +70,7 @@ export const nextSecCallCenterSpokeContent: SpokeData = {
       },
       box: {
         label: '대기를 줄이는 법',
-        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 계약자 본인이 아니면 위임 확인 절차가 더 붙으니, 계약자 주민번호·증권번호를 미리 꺼내 두는 편이 빠릅니다.',
+        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 계좌번호와 생년월일를 미리 꺼내 두는 편이 빠릅니다.',
       },
       sourceNote: '* 출처: 넥스트증권 고객센터 안내 (2026-08-26 확인)',
     },
@@ -123,7 +123,7 @@ export const nextSecCallCenterSpokeContent: SpokeData = {
       sourceUrl: 'https://www.next-securities.com/content/Getcontent.do?content=4000130',
     },
     {
-      q: '상담원와 바로 통화하려면 어떻게 하나요?',
+      q: '상담원과 바로 통화하려면 어떻게 하나요?',
       a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담원 연결 항목을 고르세요. 24시간 고객지원센터 이용 및 문의에만 가능합니다.',
       source: '넥스트증권 고객센터 안내',
       sourceUrl: 'https://www.next-securities.com/content/Getcontent.do?content=4000130',
@@ -187,6 +187,11 @@ export const nextSecCallCenterSpokeContent: SpokeData = {
       "lunch": "공식 안내에 점심 휴무 표기 없음"
     },
     "offhourNote": "18:00 ~ 익일 08:00과 토/일요일, 공휴일 24시간은 따로 안내돼 있습니다. 계좌 개설과 입출금·이체 문의는 평일 상담시간에 거는 편이 빠릅니다.",
+    "word": "증권사",
+    "hubWord": "증권 고객센터",
+    "agentWord": "상담원",
+    "offhourWord": "주문접수·야간 데스크",
+    "idStep": "계좌번호와 생년월일",
     "ars": {
       "day": [],
       "night": []

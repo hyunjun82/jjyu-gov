@@ -1,24 +1,47 @@
 {
   "slug": "heungkuk-life",
   "name": "흥국생명",
-  "aliases": ["흥국생명보험", "흥국생명 콜센터", "흥국생명 고객센터"],
+  "aliases": [
+    "흥국생명보험",
+    "흥국생명 콜센터",
+    "흥국생명 고객센터"
+  ],
   "brandColor": "#EC008C",
   "official": "https://www.heungkuklife.co.kr",
   "sourceUrl": "https://www.heungkuklife.co.kr/jsps/front/help/customer_info_call_ars.jsp",
   "sourceName": "흥국생명 콜센터 ARS구성도",
   "verifiedAt": "2026-08-25",
-  "main": { "label": "고객센터", "tel": "1588-2288" },
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-2288"
+  },
   "hours": {
     "weekday": "평일 09:00~18:00",
-    "night": "평일 09:00~18:00 외 시간은 상담사 연결 불가",
-    "holiday": "주말·공휴일 상담사 연결 불가"
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
   "callFee": "일반전화는 3분 39원(시내요금)이 부과되고, 휴대폰과 인터넷전화는 통신사와 약정한 요금제 기준으로 부과됩니다.",
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "고객센터", "tel": "1588-2288", "note": "대표번호 · 평일 09:00~18:00" },
-    { "label": "해외에서 연결", "tel": "82-31-789-9200" },
-    { "label": "장애인 전용", "tel": "1811-0420" },
-    { "label": "신규상품 가입문의", "tel": "02-779-9447" }
+    {
+      "label": "고객센터",
+      "tel": "1588-2288",
+      "note": "대표번호 · 평일 09:00~18:00"
+    },
+    {
+      "label": "해외에서 연결",
+      "tel": "82-31-789-9200"
+    },
+    {
+      "label": "장애인 전용",
+      "tel": "1811-0420"
+    },
+    {
+      "label": "신규상품 가입문의",
+      "tel": "02-779-9447"
+    }
   ]
 }

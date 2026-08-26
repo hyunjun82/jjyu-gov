@@ -1,0 +1,25 @@
+{
+  "slug": "jbbank-card",
+  "name": "전북은행 카드",
+  "aliases": ["JB전북은행 카드", "전북카드", "전북은행 신용카드"],
+  "industry": "card",
+  "brandColor": "#00539F",
+  "official": "https://www.jbbank.co.kr",
+  "sourceUrl": "https://www.jbbank.co.kr/",
+  "sourceName": "전북은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1588-4477" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-4477", "note": "카드 문의도 이 번호로 접수" },
+    { "label": "고객센터 (외국인전용)", "tel": "1588-2266", "note": "BRAVO KOREA" },
+    { "label": "비대면 신용대출", "tel": "1522-1704", "note": "대출 상담" },
+    { "label": "외국인 전용 대출상담", "tel": "1522-3199", "note": "외국인 대출 상담" }
+  ],
+  "hq": "전라북도 전주시 덕진구 백제대로 566"
+}

@@ -1,23 +1,41 @@
 {
   "slug": "leading-sec",
   "name": "리딩투자증권",
-  "aliases": ["리딩증권", "리딩투자", "leading investment"],
+  "aliases": [
+    "리딩증권",
+    "리딩투자",
+    "leading investment"
+  ],
   "industry": "securities",
   "brandColor": "#12326B",
   "official": "http://www.leading.co.kr",
   "sourceUrl": "http://www.leading.co.kr/contents/customer/service/pciCheck",
   "sourceName": "리딩투자증권 고객지원센터 안내",
   "verifiedAt": "2026-08-26",
-  "main": { "label": "고객지원센터", "tel": "1544-7004" },
+  "main": {
+    "label": "고객지원센터",
+    "tel": "1544-7004"
+  },
   "hours": {
     "weekday": "평일 08:00-17:00",
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "토 / 일 공휴일 휴무"
   },
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "고객지원센터", "tel": "1544-7004", "note": "평일 08:00-17:00" },
-    { "label": "고객지원센터 (직통)", "tel": "02-2009-7000", "note": "1544-7004과 같은 창구" }
+    {
+      "label": "고객지원센터",
+      "tel": "1544-7004",
+      "note": "평일 08:00-17:00"
+    },
+    {
+      "label": "고객지원센터 (직통)",
+      "tel": "02-2009-7000",
+      "note": "1544-7004와 같은 창구"
+    }
   ],
   "hq": "서울특별시 영등포구 여의대로 108 44층 (여의도동, Parc1 NH금융타워빌딩)"
 }

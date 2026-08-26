@@ -1,0 +1,27 @@
+{
+  "slug": "bc-card",
+  "name": "BC카드",
+  "aliases": ["비씨카드", "BC 카드", "페이북", "bccard"],
+  "industry": "card",
+  "brandColor": "#E4002B",
+  "official": "https://www.bccard.com",
+  "sourceUrl": "https://www.bccard.com/app/card/MainActn.do",
+  "sourceName": "BC카드 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객상담", "tel": "1588-4000" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객상담", "tel": "1588-4000", "note": "대표 고객센터" },
+    { "label": "분실신고", "tel": "1588-4515", "note": "분실·도난 전용" },
+    { "label": "해외이용/분실신고", "tel": "02-950-8510", "note": "해외에서 이용" },
+    { "label": "가맹점/거래승인", "tel": "1588-4500", "note": "가맹점 전용" },
+    { "label": "바로카드 상담", "tel": "1899-7771", "note": "바로카드 전용" },
+    { "label": "바로카드 시각장애인 전용상담", "tel": "1899-2869", "note": "전용 상담" }
+  ],
+  "hq": "서울특별시 중구 을지로 170 을지트윈타워"
+}

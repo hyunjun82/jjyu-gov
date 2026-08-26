@@ -2,19 +2,49 @@
   "slug": "hana-sec",
   "name": "하나증권",
   "industry": "securities",
-  "aliases": ["하나증권 콜센터", "하나금융투자", "하나대투증권"],
+  "aliases": [
+    "하나증권 콜센터",
+    "하나금융투자",
+    "하나대투증권"
+  ],
   "brandColor": "#008D6F",
   "official": "https://www.hanaw.com",
   "sourceUrl": "https://www.hanaw.com/main/customer/customer/CS_000000_M.cmd",
   "sourceName": "하나증권 고객지원센터",
   "verifiedAt": "2026-08-26",
-  "main": { "label": "고객지원센터", "tel": "1588-3111" },
-  "hours": { "weekday": "08:00 ~ 18:00", "night": "야간선물옵션은 별도 번호로 받는다", "holiday": "해외주식은 별도 번호로 받는다" },
-  "ars": { "day": [], "night": [] },
+  "main": {
+    "label": "고객지원센터",
+    "tel": "1588-3111"
+  },
+  "hours": {
+    "weekday": "08:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "* 토요일 및 공휴일 휴무"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "고객지원센터", "tel": "1588-3111", "note": "업무시간 08:00 ~ 18:00" },
-    { "label": "프라임디지털PB센터 투자상담", "tel": "02-785-5000", "note": "주식/금융상품" },
-    { "label": "해외선물", "tel": "02-785-7111", "note": "야간선물옵션" },
-    { "label": "해외주식", "tel": "02-3771-3771", "note": "-" }
+    {
+      "label": "고객지원센터",
+      "tel": "1588-3111",
+      "note": "업무시간 08:00 ~ 18:00"
+    },
+    {
+      "label": "프라임디지털PB센터 투자상담",
+      "tel": "02-785-5000",
+      "note": "주식/금융상품"
+    },
+    {
+      "label": "해외선물",
+      "tel": "02-785-7111",
+      "note": "야간선물옵션"
+    },
+    {
+      "label": "해외주식",
+      "tel": "02-3771-3771",
+      "note": "-"
+    }
   ]
 }

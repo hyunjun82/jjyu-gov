@@ -1,0 +1,17 @@
+{
+  "slug": "samsung-card",
+  "keyword": "삼성카드 고객센터",
+  "title": "삼성카드 고객센터 전화번호 및 상담원 연결·분실신고 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "삼성카드 고객센터 전화번호 모음",
+    "삼성카드 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "삼성카드 고객센터 위치",
+    "삼성카드 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.samsungcard.com/personal/customer-service/ars/UHPPCC0221M0.jsp",
+  "outline": "data/call-centers/samsung-card.json",
+  "approved": true,
+  "approvedAt": "2026-08-26"
+}

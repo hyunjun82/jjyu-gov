@@ -1,0 +1,17 @@
+{
+  "slug": "woori-card",
+  "keyword": "우리카드 고객센터",
+  "title": "우리카드 고객센터 전화번호 및 상담원 연결·분실신고 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "우리카드 고객센터 전화번호 모음",
+    "우리카드 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "우리카드 고객센터 위치",
+    "우리카드 고객센터 지역별로 찾기"
+  ],
+  "source": "https://pc.wooricard.com/dcpc/yh1/cct/cct04/H1CCT204S00.do",
+  "outline": "data/call-centers/woori-card.json",
+  "approved": true,
+  "approvedAt": "2026-08-26"
+}

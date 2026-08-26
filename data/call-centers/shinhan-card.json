@@ -1,0 +1,31 @@
+{
+  "slug": "shinhan-card",
+  "name": "신한카드",
+  "aliases": ["신한카드사", "신한 카드", "shinhancard"],
+  "industry": "card",
+  "brandColor": "#0046FF",
+  "official": "https://www.shinhancard.com",
+  "sourceUrl": "https://www.shinhancard.com/mob/MOBFM154N/MOBFM154R01.shc?crustMenuId=ms374",
+  "sourceName": "신한카드 ARS 이용안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터 대표전화", "tel": "1544-7000" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터 대표전화", "tel": "1544-7000", "note": "전국 어디서나 지역번호 없이" },
+    { "label": "카드분실·승인 ARS", "tel": "1544-7200", "note": "분실신고와 승인문의 전용" },
+    { "label": "단·장기 카드대출 ARS", "tel": "1588-0303", "note": "현금서비스·카드론" },
+    { "label": "할부금융 고객센터", "tel": "1544-7100", "note": "할부금융 전용" },
+    { "label": "외국어 전용 상담", "tel": "1544-7333", "note": "Foreign Language Service" },
+    { "label": "해외이용 관련 상담", "tel": "1833-2092", "note": "해외 결제·이용 문의" },
+    { "label": "해외에서 전화", "tel": "82-2-3420-7000", "note": "국제전화 요금" },
+    { "label": "카드신청", "tel": "1661-8599", "note": "신규 발급 상담" },
+    { "label": "점자카드신청", "tel": "1833-3135", "note": "점자카드 전용" }
+  ],
+  "callFee": "유선전화는 전국 어디서나 시내 전화요금(3분당 39원, VAT 별도)이고, 이동전화는 가입 통신사 이용요금 기준으로 부과됩니다.",
+  "hq": "서울특별시 중구 을지로 100 (을지로1가)"
+}

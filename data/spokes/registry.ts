@@ -1518,8 +1518,48 @@ import { kassetSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { nextSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/next-sec';
 import { carrotCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/carrot';
 import { hanwhaInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hanwha-insurance';
+import { shinhanCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/shinhan-card';
+import { lotteCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/lotte-card';
+import { wooriCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/woori-card';
+import { hyundaiCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/hyundai-card';
+import { samsungCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/samsung-card';
+import { kbCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/kb-card';
+import { hanaCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/hana-card';
+import { bcCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/bc-card';
+import { nhCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/nh-card';
+import { imCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/im-card';
+import { busanCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/busan-card';
+import { knbankCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/knbank-card';
+import { kjbankCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/kjbank-card';
+import { jbbankCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/jbbank-card';
+import { jejuCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/jeju-card';
+import { suhyupCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/suhyup-card';
+import { scCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/sc-card';
+import { kfccCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/kfcc-card';
+import { cuCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/cu-card';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'card-call-center': {
+    'cu-card': cuCardCallCenterSpokeContent,
+    'kfcc-card': kfccCardCallCenterSpokeContent,
+    'sc-card': scCardCallCenterSpokeContent,
+    'suhyup-card': suhyupCardCallCenterSpokeContent,
+    'jeju-card': jejuCardCallCenterSpokeContent,
+    'jbbank-card': jbbankCardCallCenterSpokeContent,
+    'kjbank-card': kjbankCardCallCenterSpokeContent,
+    'knbank-card': knbankCardCallCenterSpokeContent,
+    'busan-card': busanCardCallCenterSpokeContent,
+    'im-card': imCardCallCenterSpokeContent,
+    'nh-card': nhCardCallCenterSpokeContent,
+    'bc-card': bcCardCallCenterSpokeContent,
+    'hana-card': hanaCardCallCenterSpokeContent,
+    'kb-card': kbCardCallCenterSpokeContent,
+    'samsung-card': samsungCardCallCenterSpokeContent,
+    'hyundai-card': hyundaiCardCallCenterSpokeContent,
+    'woori-card': wooriCardCallCenterSpokeContent,
+    'lotte-card': lotteCardCallCenterSpokeContent,
+    'shinhan-card': shinhanCardCallCenterSpokeContent,
+  },
   'securities-call-center': {
     'next-sec': nextSecCallCenterSpokeContent,
     'kasset-sec': kassetSecCallCenterSpokeContent,
