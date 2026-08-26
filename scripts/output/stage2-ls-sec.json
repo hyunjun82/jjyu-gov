@@ -1,0 +1,17 @@
+{
+  "slug": "ls-sec",
+  "keyword": "LS증권 고객센터",
+  "title": "LS증권 고객센터 전화번호와 상담시간, 상담원 연결",
+  "pattern": "고객센터 — 번호 모음 · 상담사 연결 · 영업시간 · 위치",
+  "subheads": [
+    "LS증권 고객센터 전화번호 모음",
+    "LS증권 고객센터 상담원(상담사) 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "LS증권 고객센터 위치",
+    "LS증권 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.ls-sec.co.kr/EtwFrontBoard/View.jsp?board_no=42&board_seq=1556534",
+  "outline": "data/call-centers/ls-sec.json",
+  "approved": true,
+  "approvedAt": "2026-08-26"
+}
