@@ -1,0 +1,22 @@
+{
+  "slug": "samsung-sec",
+  "name": "삼성증권",
+  "industry": "securities",
+  "aliases": ["삼성증권 콜센터", "삼성증권 패밀리센터", "Family Center"],
+  "brandColor": "#0138DB",
+  "official": "https://www.samsungpop.com",
+  "sourceUrl": "https://www.samsungpop.com/ux/kor/customer/counsel/overview.pop",
+  "sourceName": "삼성증권 상담 제안 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "삼성증권 패밀리센터", "tel": "1588-2323" },
+  "hours": { "weekday": "평일 08:00~18:00", "night": "상담원이 연결되지 않는 야간에는 홈페이지 상담 메뉴를 이용", "holiday": "공휴일에는 홈페이지 상담 메뉴를 이용" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "삼성증권 패밀리센터", "tel": "1588-2323", "note": "평일 08:00~18:00" },
+    { "label": "S.Lounge 디지털PB 상담", "tel": "1577-4100", "note": "-" },
+    { "label": "해외주식 주문 데스크", "tel": "1599-5899", "note": "-" },
+    { "label": "해외선물옵션 주문 데스크", "tel": "1599-7488", "note": "-" },
+    { "label": "퇴직연금상담센터", "tel": "1644-5500", "note": "-" },
+    { "label": "고객의 소리", "tel": "080-911-0900", "note": "-" }
+  ]
+}

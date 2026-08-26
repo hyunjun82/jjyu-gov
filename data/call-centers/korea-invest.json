@@ -1,0 +1,23 @@
+{
+  "slug": "korea-invest",
+  "name": "한국투자증권",
+  "industry": "securities",
+  "aliases": ["한국투자", "한투", "한국투자증권 콜센터", "트루프렌드"],
+  "brandColor": "#D63434",
+  "official": "https://www.truefriend.com",
+  "sourceUrl": "https://www.truefriend.com/main/customer/support/_static/TF04fa010000.jsp",
+  "sourceName": "한국투자증권 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1544-5000" },
+  "hours": {
+    "weekday": "영업일 업무상담 08:00 ~ 17:00, 시스템상담 07:30 ~ 20:00",
+    "night": "영업일 17:00 이후는 정규 상담시간이 아니라 상담원 연결이 원활하지 않을 수 있다",
+    "holiday": "사고신고 / 지급정지상담 : 24시간 가능합니다"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-5000", "note": "전국 지역번호 없이" },
+    { "label": "고객센터", "tel": "1588-0012", "note": "전국 지역번호 없이" },
+    { "label": "해외에서 전화", "tel": "82-2-2090-4000", "note": "-" }
+  ]
+}

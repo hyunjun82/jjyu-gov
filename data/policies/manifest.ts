@@ -339,6 +339,7 @@ import { unpaidWagesPolicy, unpaidWagesSpokes } from './unpaid-wages';
 import { superIsaPolicy, superIsaSpokes } from './super-isa';
 import { nationalGrowthFundPolicy, nationalGrowthFundSpokes } from './national-growth-fund';
 import { insuranceCallCenterPolicy, insuranceCallCenterSpokes } from './insurance-call-center';
+import { securitiesCallCenterPolicy, securitiesCallCenterSpokes } from './securities-call-center';
 import { kPassModuCardPolicy, kPassModuCardSpokes } from './k-pass-modu-card';
 import { hiddenInsuranceMoneyPolicy, hiddenInsuranceMoneySpokes } from './hidden-insurance-money';
 import { movieDiscountVoucherPolicy, movieDiscountVoucherSpokes } from './movie-discount-voucher';
@@ -1702,6 +1703,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'super-isa': superIsaPolicy,
   'national-growth-fund': nationalGrowthFundPolicy,
   'insurance-call-center': insuranceCallCenterPolicy,
+  'securities-call-center': securitiesCallCenterPolicy,
   'k-pass-modu-card': kPassModuCardPolicy,
   'hidden-insurance-money': hiddenInsuranceMoneyPolicy,
   'movie-discount-voucher': movieDiscountVoucherPolicy,
@@ -3223,6 +3225,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'super-isa': superIsaSpokes,
   'national-growth-fund': nationalGrowthFundSpokes,
   'insurance-call-center': insuranceCallCenterSpokes,
+  'securities-call-center': securitiesCallCenterSpokes,
   'k-pass-modu-card': kPassModuCardSpokes,
   'hidden-insurance-money': hiddenInsuranceMoneySpokes,
   'movie-discount-voucher': movieDiscountVoucherSpokes,

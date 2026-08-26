@@ -1,0 +1,50 @@
+{
+  "slug": "hanwha-sec",
+  "name": "한화투자증권",
+  "aliases": [
+    "한화투자",
+    "한화증권",
+    "한화투자증권 콜센터"
+  ],
+  "brandColor": "#F37321",
+  "official": "https://www.hanwhawm.com",
+  "sourceUrl": "https://www.hanwhawm.com/main/center/main/index.cmd",
+  "sourceName": "한화투자증권 고객지원센터",
+  "main": {
+    "label": "고객지원센터",
+    "tel": "080-851-8282"
+  },
+  "hours": {
+    "weekday": "08:00~20:00",
+    "night": "24시간 운영되는 창구가 따로 있다",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원센터",
+      "tel": "080-851-8282",
+      "note": "08:00~20:00"
+    },
+    {
+      "label": "고객지원센터",
+      "tel": "080-851-8200",
+      "note": "-"
+    },
+    {
+      "label": "고객지원센터",
+      "tel": "080-851-8300",
+      "note": "-"
+    },
+    {
+      "label": "고객지원센터",
+      "tel": "080-852-1234",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

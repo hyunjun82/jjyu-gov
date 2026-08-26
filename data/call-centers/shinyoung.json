@@ -1,0 +1,39 @@
+{
+  "slug": "shinyoung",
+  "name": "신영증권",
+  "aliases": [
+    "신영",
+    "신영증권 콜센터"
+  ],
+  "brandColor": "#00539B",
+  "official": "https://www.shinyoung.com",
+  "sourceUrl": "https://www.shinyoung.com/?page=10059",
+  "sourceName": "신영증권 고객센터 이용안내",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-8588"
+  },
+  "hours": {
+    "weekday": "평일 08:00 ~ 18:00",
+    "night": "정규 상담시간 외에는 홈페이지 문의를 이용",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-8588",
+      "note": "평일 08:00 ~ 18:00"
+    },
+    {
+      "label": "본사",
+      "tel": "02-2004-9000",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

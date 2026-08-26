@@ -1,0 +1,60 @@
+{
+  "slug": "daishin",
+  "name": "대신증권",
+  "aliases": [
+    "대신",
+    "대신증권 콜센터",
+    "사이보스"
+  ],
+  "brandColor": "#0B3A8B",
+  "official": "https://www.daishin.com",
+  "sourceUrl": "https://www.daishin.com",
+  "sourceName": "대신증권 고객센터",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-4488"
+  },
+  "hours": {
+    "weekday": "평일: 08:00 ~ 18:00",
+    "night": "17:00 ~ 20:30 (주문/투자상담만 가능)",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-4488",
+      "note": "평일: 08:00 ~ 18:00"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1544-1177",
+      "note": "-"
+    },
+    {
+      "label": "투자상담",
+      "tel": "02-769-3333",
+      "note": "-"
+    },
+    {
+      "label": "고객상담",
+      "tel": "02-769-3888",
+      "note": "-"
+    },
+    {
+      "label": "상담",
+      "tel": "02-769-3400",
+      "note": "-"
+    },
+    {
+      "label": "상담",
+      "tel": "02-2239-5477",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

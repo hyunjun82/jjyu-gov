@@ -1,0 +1,55 @@
+{
+  "slug": "ls-sec",
+  "name": "LS증권",
+  "aliases": [
+    "LS증권 콜센터",
+    "이베스트투자증권",
+    "이베스트"
+  ],
+  "brandColor": "#00A0A0",
+  "official": "https://www.ls-sec.co.kr",
+  "sourceUrl": "https://www.ls-sec.co.kr/EtwFrontBoard/View.jsp?board_no=42&board_seq=1556534",
+  "sourceName": "LS증권 고객만족센터 상담운영시간 안내",
+  "main": {
+    "label": "고객만족센터",
+    "tel": "1588-2428"
+  },
+  "hours": {
+    "weekday": "평일:08:00~18:00",
+    "night": "ARS 는 평일:07:30~18:30",
+    "holiday": "상담직원연결 업무 외 ARS 운영은 기존과 동일"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객만족센터",
+      "tel": "1588-2428",
+      "note": "평일:08:00~18:00"
+    },
+    {
+      "label": "고객만족센터",
+      "tel": "1544-2428",
+      "note": "-"
+    },
+    {
+      "label": "본사",
+      "tel": "02-3779-8888",
+      "note": "-"
+    },
+    {
+      "label": "본사",
+      "tel": "02-3779-8330",
+      "note": "-"
+    },
+    {
+      "label": "본사",
+      "tel": "02-3779-8380",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

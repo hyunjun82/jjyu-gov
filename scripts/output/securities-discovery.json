@@ -1,0 +1,306 @@
+[
+ {
+  "name": "미래에셋증권",
+  "slug": "miraeasset",
+  "host": "securities.miraeasset.com",
+  "cs": "https://securities.miraeasset.com/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "한국투자증권",
+  "slug": "korea-invest",
+  "host": "truefriend.com",
+  "cs": "https://www.truefriend.com/main/customer/support/_static/TF04fa010000.jsp",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "NH투자증권",
+  "slug": "nh-invest",
+  "host": "m.nhsec.com",
+  "cs": "https://m.nhsec.com/static/MNHSI0209",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "KB증권",
+  "slug": "kb-sec",
+  "host": "kbsec.com",
+  "cs": "https://www.kbsec.com/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "삼성증권",
+  "slug": "samsung-sec",
+  "host": "samsungpop.com",
+  "cs": "https://www.samsungpop.com/customer/counsel/overview.pop",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "신한투자증권",
+  "slug": "shinhan-sec",
+  "host": "shinhansec.com",
+  "cs": "https://www.shinhansec.com/siw/customer-center/main/view.do",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "하나증권",
+  "slug": "hana-sec",
+  "host": "kebhana.com",
+  "cs": "https://www.kebhana.com/cont/customer/customer02/index.jsp",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "키움증권",
+  "slug": "kiwoom",
+  "host": "kiwoom.com",
+  "cs": "https://www.kiwoom.com/m/customer/center/VCenterInfoView",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "메리츠증권",
+  "slug": "meritz-sec",
+  "host": "home.imeritz.com",
+  "cs": "https://home.imeritz.com/odermdia/OderMdiaDnldArs.do",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "대신증권",
+  "slug": "daishin",
+  "host": "daishin.com",
+  "cs": "https://www.daishin.com/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "한화투자증권",
+  "slug": "hanwha-sec",
+  "host": "relish.kr",
+  "cs": "https://relish.kr/author/admin/page/38/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "교보증권",
+  "slug": "kyobo-sec",
+  "host": "iprovest.com",
+  "cs": "https://www.iprovest.com/main2.jsp?scr_id=1738&idx=&amho_yn=0&linkUrl=%2Fcustomhelp%2Fchannel%2Fars_1.htm%3Fscr_id%3D1738",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "현대차증권",
+  "slug": "hyundai-sec",
+  "host": "relish.kr",
+  "cs": "https://relish.kr/author/admin/page/37/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "iM증권",
+  "slug": "im-sec",
+  "host": "relish.kr",
+  "cs": "https://relish.kr/author/admin/page/38/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "DB증권",
+  "slug": "db-sec",
+  "host": "relish.kr",
+  "cs": "https://relish.kr/author/admin/page/37/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "유안타증권",
+  "slug": "yuanta",
+  "host": "myasset.com",
+  "cs": "https://www.myasset.com/myasset/static/customer/marketing/CU_0305000_P1.jsp",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "유진투자증권",
+  "slug": "eugene-sec",
+  "host": "relish.kr",
+  "cs": "https://relish.kr/author/admin/page/38/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "IBK투자증권",
+  "slug": "ibk-sec",
+  "host": "ibks.com",
+  "cs": "https://www.ibks.com/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "BNK투자증권",
+  "slug": "bnk-sec",
+  "host": "bnkfn.co.kr",
+  "cs": "https://www.bnkfn.co.kr/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "SK증권",
+  "slug": "sk-sec",
+  "host": "relish.kr",
+  "cs": "https://relish.kr/author/admin/page/37/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "LS증권",
+  "slug": "ls-sec",
+  "host": "ls-sec.co.kr",
+  "cs": "https://www.ls-sec.co.kr/customer/e_popular/appWrite.jsp?left_menu_no=843&front_menu_no=1369&parent_menu_no=1118",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "신영증권",
+  "slug": "shinyoung",
+  "host": "shinyoung.com",
+  "cs": "https://www.shinyoung.com/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "부국증권",
+  "slug": "bookook",
+  "host": "114.co.kr",
+  "cs": "https://www.114.co.kr/search/detail?comp_id=2977294&comp_tp_cd=TEL&upjong_cd=781201",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "다올투자증권",
+  "slug": "daol",
+  "host": "damdeoc-lawoffice.co.kr",
+  "cs": "https://www.damdeoc-lawoffice.co.kr/fraud/daolsecurgem-com-%EB%8B%A4%EC%98%AC%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C-%EC%82%AC%EC%B9%AD-%EC%82%AC%EA%B8%B0-%ED%94%BC%ED%95%B4-%ED%88%AC%EC%9E%90-%EC%82%AC%EA%B8%B0-%EA%B3%84%EC%A2%8C-%EC%9E%85%EA%B8%88-%EC%9C%A0%EB%8F%84-%EC%A6%9D%EA%B6%8C%EC%82%AC-%EC%82%AC%EA%B8%B0-%EC%A3%BC%EC%9D%98-%EC%A7%81%EC%A0%91-%EC%9E%85%EA%B8%88-%EC%9A%94%EA%B5%AC-%EA%B2%BD%EB%B3%B4-e8b935",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "우리투자증권",
+  "slug": "woori-sec",
+  "host": "fundsupermarket.wooriib.com",
+  "cs": "https://fundsupermarket.wooriib.com/fmc/FMC8010001/main.do",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "토스증권",
+  "slug": "toss-sec",
+  "host": "boannews.com",
+  "cs": "http://www.boannews.com/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "카카오페이증권",
+  "slug": "kakaopay-sec",
+  "host": "kakaopaysec.com",
+  "cs": "https://www.kakaopaysec.com/customer/faq/dynamicPage.do",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "상상인증권",
+  "slug": "sangsangin",
+  "host": "donotcall.or.kr",
+  "cs": "https://donotcall.or.kr/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "한양증권",
+  "slug": "hanyang-sec",
+  "host": "hygood.co.kr",
+  "cs": "https://www.hygood.co.kr/popup/board/customerPrivacy/detail/41",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "리딩투자증권",
+  "slug": "leading-sec",
+  "host": "cshelper.kr",
+  "cs": "https://cshelper.kr/%EC%8B%A0%ED%95%9C%ED%88%AC%EC%9E%90%EC%A6%9D%EA%B6%8C-%EA%B3%A0%EA%B0%9D%EC%84%BC%ED%84%B0",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "코리아에셋투자증권",
+  "slug": "koreaasset",
+  "host": "kasset.co.kr",
+  "cs": "https://www.kasset.co.kr/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "DS투자증권",
+  "slug": "ds-sec",
+  "host": "ds-sec.co.kr",
+  "cs": "http://www.ds-sec.co.kr/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "흥국증권",
+  "slug": "heungkuk-sec",
+  "host": "heungkuksec.co.kr",
+  "cs": "https://www.heungkuksec.co.kr/jsp/customer/complain.jsp",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "유화증권",
+  "slug": "yuhwa",
+  "host": "yhs.co.kr",
+  "cs": "https://www.yhs.co.kr/customer/business_guide.asp",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "넥스트증권",
+  "slug": "next-sec",
+  "host": "businesspost.co.kr",
+  "cs": "http://businesspost.co.kr/",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "케이프투자증권",
+  "slug": "cape-sec",
+  "host": "hdfund.co.kr",
+  "cs": "https://www.hdfund.co.kr/support/vendors",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "KR투자증권",
+  "slug": "kr-sec",
+  "host": "krsec.co.kr",
+  "cs": "http://www.krsec.co.kr/03025.php",
+  "tel": [],
+  "note": ""
+ },
+ {
+  "name": "SC증권",
+  "slug": "sc-sec",
+  "host": "paycall.kr",
+  "cs": "https://paycall.kr/page/36/",
+  "tel": [],
+  "note": ""
+ }
+]

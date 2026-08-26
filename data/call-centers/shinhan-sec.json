@@ -1,0 +1,21 @@
+{
+  "slug": "shinhan-sec",
+  "name": "신한투자증권",
+  "industry": "securities",
+  "aliases": ["신한투자", "신한금융투자", "신한투자증권 콜센터"],
+  "brandColor": "#152475",
+  "official": "https://www.shinhansec.com",
+  "sourceUrl": "https://www.shinhansec.com/siw/customer-center/main/view.do",
+  "sourceName": "신한투자증권 고객지원센터",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객지원센터", "tel": "1588-0365" },
+  "hours": { "weekday": "평일 08:00 ~ 18:00", "night": "야간선물옵션은 별도 번호로 받는다", "holiday": "토/일요일, 공휴일 휴무" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객지원센터", "tel": "1588-0365", "note": "평일 08:00 ~ 18:00" },
+    { "label": "금융상품담당", "tel": "1588-0365", "note": "-" },
+    { "label": "야간선물옵션", "tel": "02-3772-4365", "note": "-" },
+    { "label": "해외주식", "tel": "02-3772-2525", "note": "-" },
+    { "label": "해외선물/FX마진", "tel": "02-3772-4365", "note": "-" }
+  ]
+}

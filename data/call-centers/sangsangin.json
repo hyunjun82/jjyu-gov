@@ -1,0 +1,39 @@
+{
+  "slug": "sangsangin",
+  "name": "상상인증권",
+  "aliases": [
+    "상상인증권 콜센터",
+    "상상인"
+  ],
+  "brandColor": "#0B2C6F",
+  "official": "https://www.sangsanginib.com",
+  "sourceUrl": "https://www.sangsanginib.com",
+  "sourceName": "상상인증권 고객지원센터",
+  "main": {
+    "label": "고객지원센터",
+    "tel": "1566-0900"
+  },
+  "hours": {
+    "weekday": "평일 08:00 ~ 18:00",
+    "night": "정규 상담시간 외에는 홈페이지 문의를 이용",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원센터",
+      "tel": "1566-0900",
+      "note": "평일 08:00 ~ 18:00"
+    },
+    {
+      "label": "장외주식문의",
+      "tel": "02-3779-3813",
+      "note": "평일 08:00 ~ 16:00"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

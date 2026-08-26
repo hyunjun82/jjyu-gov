@@ -1,0 +1,41 @@
+{
+  "slug": "nh-invest",
+  "name": "NH투자증권",
+  "aliases": [
+    "NH투자",
+    "엔에이치투자증권",
+    "나무증권",
+    "NH투자증권 콜센터"
+  ],
+  "brandColor": "#006FBC",
+  "official": "https://www.nhsec.com",
+  "sourceUrl": "https://www.nhsec.com/guestGuide/submain.html",
+  "sourceName": "NH투자증권 고객지원센터",
+  "main": {
+    "label": "고객지원센터",
+    "tel": "1544-0000"
+  },
+  "hours": {
+    "weekday": "이용시간: 평일 08:00~18:00",
+    "night": "정규 상담시간 외에는 홈페이지 문의를 이용",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원센터",
+      "tel": "1544-0000",
+      "note": "이용시간: 평일 08:00~18:00"
+    },
+    {
+      "label": "해외 이용 문의번호",
+      "tel": "82-2-2078-3000",
+      "note": "해외에서 전화시"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

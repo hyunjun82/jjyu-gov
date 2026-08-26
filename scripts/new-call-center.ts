@@ -81,7 +81,7 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
 /* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
    회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
    여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
-const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string }> = {
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string }> = {
   insurance: {
     hub: 'insurance-call-center',
     dir: '보험고객센터',
@@ -91,6 +91,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     remote: '보험금 청구나 계약 변경',
     q5q: '다른 보험사 고객센터 번호도 필요한데요',
     q5a: '보험은 한 곳만 들지 않습니다. 자동차는 이쪽, 실손은 저쪽인 경우가 흔해서 사고 한 번에 두세 곳에 전화하게 됩니다.',
+    h1: (n: string) => `${n} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내`,
   },
   securities: {
     hub: 'securities-call-center',
@@ -101,6 +102,8 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     remote: '계좌 개설이나 비밀번호 초기화',
     q5q: '다른 증권사 고객센터 번호도 필요한데요',
     q5a: '증권 계좌는 한 곳만 쓰지 않습니다. 국내는 이쪽, 해외주식은 저쪽으로 나눠 쓰는 경우가 흔해서 장중에 두 곳에 전화하게 됩니다.',
+    /* 2026-08-26 사장님 확정 — 채용·연봉은 버리고 전화번호·상담시간·상담원 연결로 간다 */
+    h1: (n: string) => `${n} 고객센터 전화번호와 상담시간, 상담원 연결`,
   },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
@@ -230,7 +233,7 @@ const MAP = '${mapUrl}';
 const HUB = '/policy/${HUB_SLUG}';
 
 export const ${exportName}: SpokeData = {
-  h1: '${q(C.name)} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내',
+  h1: '${q(IND.h1(C.name))}',
   breadcrumb: '${q(C.name)} 고객센터',
   description:
     '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 사고접수는 야간·공휴일에도 가능합니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담사 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
@@ -429,7 +432,7 @@ fs.writeFileSync(path.join(ROOT, REG), reg, 'utf8');
    타이틀은 글의 h1 과 같아야 한다. 두 곳에 다른 제목이 있으면 목록과 글이 갈린다. */
 const HUB_FILE = path.join('data', 'policies', `${HUB_SLUG}.ts`);
 const hubLines = fs.readFileSync(path.join(ROOT, HUB_FILE), 'utf8').split(String.fromCharCode(13)).join('').split(NL);
-const hubTitle = `${C.name} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내`;
+const hubTitle = IND.h1(C.name);
 const hubEntry = `  { slug: '${C.slug}', role: 'eligibility', title: '${q(hubTitle)}' },`;
 /* 같은 slug 줄은 전부 걷어낸다 — 정규식으로 찾아 바꾸다 중복이 났다.
    줄 단위로 지우고 다시 넣으면 몇 번을 돌려도 한 줄이다. */
@@ -448,7 +451,7 @@ if (process.argv.includes('--approve')) {
   const stamp = {
     slug: C.slug,
     keyword: `${C.name} 고객센터`,
-    title: `${C.name} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내`,
+    title: `${IND.h1(C.name)}`,
     pattern: '고객센터 — 번호 모음 · 상담사 연결 · 영업시간 · 위치',
     subheads: [
       `${C.name} 고객센터 전화번호 모음`,

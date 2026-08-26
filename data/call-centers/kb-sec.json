@@ -1,0 +1,45 @@
+{
+  "slug": "kb-sec",
+  "name": "KB증권",
+  "aliases": [
+    "KB증권 콜센터",
+    "케이비증권",
+    "KB고객만족센터"
+  ],
+  "brandColor": "#FBAE16",
+  "official": "https://www.kbsec.com",
+  "sourceUrl": "https://m.kbsec.com/go.able?linkcd=m06060000",
+  "sourceName": "KB증권 고객센터 이용안내",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-6611"
+  },
+  "hours": {
+    "weekday": "영업일 08:00 ~ 18:00",
+    "night": "대체거래소 주문 업무는 20시까지",
+    "holiday": "은행송금/계좌간대체는 영업일, 비 영업일 관계없이 00:15 ~ 23:45"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-6611",
+      "note": "영업일 08:00 ~ 18:00"
+    },
+    {
+      "label": "PRIME 센터(무료 자산관리 상담)",
+      "tel": "1566-0055",
+      "note": "-"
+    },
+    {
+      "label": "국제주문용",
+      "tel": "02-782-7200",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

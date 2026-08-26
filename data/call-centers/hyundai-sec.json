@@ -1,0 +1,40 @@
+{
+  "slug": "hyundai-sec",
+  "name": "현대차증권",
+  "aliases": [
+    "현대차증권 콜센터",
+    "HMSEC",
+    "현대증권"
+  ],
+  "brandColor": "#00378F",
+  "official": "https://www.hmsec.com",
+  "sourceUrl": "https://www.hmsec.com/custcenter/main.do",
+  "sourceName": "현대차증권 고객센터",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-6655"
+  },
+  "hours": {
+    "weekday": "평일 08:00 ~ 18:00",
+    "night": "정규상담 외 시간 :1899-8482 (사기계좌 지급정지요청)",
+    "holiday": "토/일·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-6655",
+      "note": "평일 08:00 ~ 18:00"
+    },
+    {
+      "label": "정규상담 외 시간",
+      "tel": "1899-8482",
+      "note": "사기계좌 지급정지요청"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

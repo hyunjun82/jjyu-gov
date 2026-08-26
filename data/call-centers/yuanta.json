@@ -1,0 +1,45 @@
+{
+  "slug": "yuanta",
+  "name": "유안타증권",
+  "aliases": [
+    "유안타",
+    "유안타증권 콜센터",
+    "동양증권"
+  ],
+  "brandColor": "#0B4DA2",
+  "official": "https://www.myasset.com",
+  "sourceUrl": "https://www.myasset.com/myasset/static/customer/marketing/CU_0305000_P1.jsp",
+  "sourceName": "유안타증권 고객센터(ARS) 안내",
+  "main": {
+    "label": "고객센터(ARS)",
+    "tel": "1588-2600"
+  },
+  "hours": {
+    "weekday": "고객센터 전화상담: 평일 08:00 ~ 18:00",
+    "night": "평일야간 18:00~08:00",
+    "holiday": "ARS 는 24시간"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "10",
+        "what": "상담직원연결"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터(ARS)",
+      "tel": "1588-2600",
+      "note": "평일 08:00 ~ 18:00"
+    },
+    {
+      "label": "W자산관리상담",
+      "tel": "02-3770-2090",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

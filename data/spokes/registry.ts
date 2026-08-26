@@ -1467,8 +1467,48 @@ import { linaLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { aiaLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/aia-life';
 import { shinhanLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/shinhan-life';
 import { sgiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/sgi';
+import { kiwoomCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kiwoom';
+import { samsungSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/samsung-sec';
+import { miraeassetCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/miraeasset';
+import { koreaInvestCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/korea-invest';
+import { shinhanSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/shinhan-sec';
+import { hanaSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/hana-sec';
+import { meritzSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/meritz-sec';
+import { daishinCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/daishin';
+import { yuantaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/yuanta';
+import { hanwhaSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/hanwha-sec';
+import { dbSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/db-sec';
+import { hyundaiSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/hyundai-sec';
+import { shinyoungCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/shinyoung';
+import { lsSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/ls-sec';
+import { eugeneSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/eugene-sec';
+import { skSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/sk-sec';
+import { sangsanginCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/sangsangin';
+import { kbSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kb-sec';
+import { nhInvestCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/nh-invest';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'securities-call-center': {
+    'nh-invest': nhInvestCallCenterSpokeContent,
+    'kb-sec': kbSecCallCenterSpokeContent,
+    'sangsangin': sangsanginCallCenterSpokeContent,
+    'sk-sec': skSecCallCenterSpokeContent,
+    'eugene-sec': eugeneSecCallCenterSpokeContent,
+    'ls-sec': lsSecCallCenterSpokeContent,
+    'shinyoung': shinyoungCallCenterSpokeContent,
+    'hyundai-sec': hyundaiSecCallCenterSpokeContent,
+    'db-sec': dbSecCallCenterSpokeContent,
+    'hanwha-sec': hanwhaSecCallCenterSpokeContent,
+    'yuanta': yuantaCallCenterSpokeContent,
+    'daishin': daishinCallCenterSpokeContent,
+    'meritz-sec': meritzSecCallCenterSpokeContent,
+    'hana-sec': hanaSecCallCenterSpokeContent,
+    'shinhan-sec': shinhanSecCallCenterSpokeContent,
+    'korea-invest': koreaInvestCallCenterSpokeContent,
+    'miraeasset': miraeassetCallCenterSpokeContent,
+    'samsung-sec': samsungSecCallCenterSpokeContent,
+    'kiwoom': kiwoomCallCenterSpokeContent,
+  },
   'insurance-call-center': {
     'sgi': sgiCallCenterSpokeContent,
     'shinhan-life': shinhanLifeCallCenterSpokeContent,

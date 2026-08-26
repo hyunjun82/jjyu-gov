@@ -1,0 +1,40 @@
+{
+  "slug": "sk-sec",
+  "name": "SK증권",
+  "aliases": [
+    "SK증권 콜센터",
+    "에스케이증권",
+    "스마트금융센터"
+  ],
+  "brandColor": "#EE2E24",
+  "official": "https://www.sks.co.kr",
+  "sourceUrl": "https://www.sks.co.kr/main/customer/static/CU_03002.htm",
+  "sourceName": "SK증권 스마트금융센터 이용안내",
+  "main": {
+    "label": "스마트금융센터",
+    "tel": "1588-8245"
+  },
+  "hours": {
+    "weekday": "상담원 연결 08:00~20:00",
+    "night": "단, 18:00~20:00 사고등록 및 주문접수 상담만 가능",
+    "holiday": "토, 공휴일 제외"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "스마트금융센터",
+      "tel": "1588-8245",
+      "note": "평일08:00-18:00"
+    },
+    {
+      "label": "스마트금융센터",
+      "tel": "1599-8245",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}
