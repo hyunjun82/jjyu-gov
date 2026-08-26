@@ -98,12 +98,15 @@ export default function CallCenterPage({
   policyId,
   policyTitle,
   hubHref,
+  siblings = [],
 }: {
   cc: CallCenterData;
   spoke: SpokeData;
   policyId: string;
   policyTitle: string;
   hubHref: string;
+  /* 같은 업종 다른 회사 — 내부 이동을 만드는 자리다(전면광고가 여기서 뜬다) */
+  siblings?: { slug: string; cc: { name: string; main: { tel: string }; brandColor: string } }[];
 }) {
   const [copied, setCopied] = useState(false);
   const [mobile, setMobile] = useState(false);
@@ -829,6 +832,53 @@ export default function CallCenterPage({
             ))}
           </div>
         </section>
+
+        {/* 같은 업종 다른 회사 — 여기가 내부 이동을 만든다.
+            전에는 회사 페이지에서 내부로 갈 곳이 허브 하나뿐이었다. 외부 링크는 12개인데. */}
+        {siblings.length > 0 && (
+          <section id="others" style={{ margin: '56px 0 0', scrollMarginTop: 84 }}>
+            <h2 style={h2}>다른 회사 고객센터 번호도 필요하신가요?</h2>
+            <p style={{ margin: '8px 0 0', fontSize: 16.5, color: '#5B6474' }}>
+              한 곳만 쓰는 경우는 드뭅니다. 자주 찾는 곳을 먼저 걸어 뒀습니다.
+            </p>
+            <div className="cc-grid" style={{ margin: '20px 0 0' }}>
+              {siblings.map((s) => (
+                <Link
+                  key={s.slug}
+                  href={`/policy/${policyId}/${s.slug}`}
+                  className="cc-lift"
+                  style={{ ...card, padding: '18px 20px', display: 'flex', alignItems: 'center', gap: 12 }}
+                >
+                  <span
+                    style={{
+                      display: 'grid',
+                      placeItems: 'center',
+                      width: 34,
+                      height: 34,
+                      borderRadius: 10,
+                      background: readable(s.cc.brandColor || BLUE),
+                      color: '#fff',
+                      fontSize: 15,
+                      fontWeight: 800,
+                      flexShrink: 0,
+                    }}
+                  >
+                    {s.cc.name.slice(0, 1)}
+                  </span>
+                  <span style={{ minWidth: 0 }}>
+                    <span style={{ display: 'block', fontSize: 16.5, fontWeight: 800, letterSpacing: '-0.02em', color: '#101828' }}>
+                      {s.cc.name} 고객센터
+                    </span>
+                    <span style={{ display: 'block', margin: '3px 0 0', fontSize: 14.5, color: '#8D96A6' }}>
+                      {s.cc.main.tel}
+                    </span>
+                  </span>
+                  <span style={{ marginLeft: 'auto', color: BLUE, fontWeight: 800 }}>→</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* 마무리 CTA — 전화 + 내부 이동 */}
         <section

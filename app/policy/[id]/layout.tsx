@@ -47,6 +47,15 @@ export async function generateMetadata({
     ? truncateDescription((p as { metaDescription?: string }).metaDescription!)
     : buildHubDescription(p.title, p.amount, p.summary);
 
+  /* 고객센터 허브는 미리 구워 둔 공유 카드가 있다(scripts/make-og-callcenter.ts).
+     "보험사 고객센터 26곳" 처럼 몇 곳이 들어 있는지가 카드에 먼저 보인다. */
+  const hubSlug = p.slug ?? id;
+  const ogImage =
+    typeof hubSlug === 'string' && hubSlug.endsWith('-call-center')
+      ? `https://gov.jjyu.co.kr/og/call-center/_hub-${hubSlug}.png`
+      : undefined;
+  const images = ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: p.title }] : undefined;
+
   return {
     title,
     description,
@@ -57,7 +66,11 @@ export async function generateMetadata({
       type: 'article',
       url: canonical,
       siteName: '정부지원사업',
+      ...(images ? { images } : {}),
     },
+    ...(ogImage
+      ? { twitter: { card: 'summary_large_image' as const, title, description, images: [ogImage] } }
+      : {}),
   };
 }
 

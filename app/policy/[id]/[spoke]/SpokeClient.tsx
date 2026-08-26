@@ -240,6 +240,19 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
      스키마는 그대로 내보내고 본문만 갈아끼운다. */
   if (spoke.callCenter) {
     const ccSchemas = [...schemas, callCenterSchema(spoke.callCenter, spokeUrl)];
+    /* 같은 업종 다른 회사 — 내부 이동이 전면광고가 뜨는 자리다.
+       전에는 회사 페이지에서 내부로 갈 곳이 허브 하나뿐이었다(외부 링크는 12개).
+       경쟁사도 하단에 형제 회사를 깐다. 가나다순으로 자기 다음 6곳을 돌려 담아
+       회사마다 다른 조합이 나오게 한다 — 모든 페이지가 같은 6곳을 가리키면 도배가 된다. */
+    const siblings = (() => {
+      const rows = Object.entries(spokeMap)
+        .filter(([, s]) => (s as { callCenter?: { name: string } }).callCenter)
+        .map(([k, s]) => ({ slug: k, cc: (s as { callCenter: { name: string; main: { tel: string }; brandColor: string } }).callCenter }))
+        .sort((a, b) => a.cc.name.localeCompare(b.cc.name, 'ko'));
+      const at = rows.findIndex((r) => r.cc.name === spoke.callCenter!.name);
+      if (at < 0) return rows.slice(0, 6);
+      return Array.from({ length: Math.min(6, rows.length - 1) }, (_, i) => rows[(at + 1 + i) % rows.length]);
+    })();
     return (
       <main>
         {ccSchemas.map((schema, i) => (
@@ -255,6 +268,7 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
           policyId={policyId}
           policyTitle={policyTitle}
           hubHref={`/policy/${policyId}`}
+          siblings={siblings}
         />
       </main>
     );

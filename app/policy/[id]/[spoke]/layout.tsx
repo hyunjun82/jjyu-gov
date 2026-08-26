@@ -46,6 +46,12 @@ export async function generateMetadata({
   const title = `${spokeData.h1} | 정부지원사업`;
   const description = truncateDescription(spokeData.metaDescription ?? spokeData.description);
 
+  /* 공유 카드 — 고객센터 글은 회사마다 미리 구워 둔 카드가 있다(scripts/make-og-callcenter.ts).
+     카톡·슬랙에 주소를 붙였을 때 회사 색과 대표번호가 뜬다. 없으면 글자만 뜬다. */
+  const cc = (spokeData as { callCenter?: { slug: string } }).callCenter;
+  const ogImage = cc ? `https://gov.jjyu.co.kr/og/call-center/${cc.slug}.png` : undefined;
+  const images = ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: spokeData.h1 }] : undefined;
+
   return {
     title,
     description,
@@ -56,7 +62,11 @@ export async function generateMetadata({
       type: 'article',
       url: canonical,
       siteName: '정부지원사업',
+      ...(images ? { images } : {}),
     },
+    ...(ogImage
+      ? { twitter: { card: 'summary_large_image' as const, title, description, images: [ogImage] } }
+      : {}),
   };
 }
 

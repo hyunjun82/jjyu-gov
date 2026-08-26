@@ -154,15 +154,14 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
-  { slug: 'sgi', role: 'eligibility', title: 'SGI서울보증 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'shinhan-life', role: 'eligibility', title: '신한라이프 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
-  { slug: 'aia-life', role: 'eligibility', title: 'AIA생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'sgi', role: 'eligibility', title: 'SGI서울보증 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'samsung-life', role: 'eligibility', title: '삼성생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'samsung-fire', role: 'eligibility', title: '삼성화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'post-insurance', role: 'eligibility', title: '우체국보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
-  { slug: 'nhis', role: 'eligibility', title: '국민건강보험공단 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'nh-property', role: 'eligibility', title: 'NH농협손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'nh-life', role: 'eligibility', title: 'NH농협생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'nhis', role: 'eligibility', title: '국민건강보험공단 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'metlife', role: 'eligibility', title: '메트라이프생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'meritz-fire', role: 'eligibility', title: '메리츠화재 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'lotte-insurance', role: 'eligibility', title: '롯데손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
@@ -179,5 +178,6 @@ export const insuranceCallCenterSpokes = [
   { slug: 'hana-insurance', role: 'eligibility', title: '하나손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'db-insurance', role: 'eligibility', title: 'DB손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'axa-insurance', role: 'eligibility', title: 'AXA손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'aia-life', role: 'eligibility', title: 'AIA생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'abl-life', role: 'eligibility', title: 'ABL생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
 ];

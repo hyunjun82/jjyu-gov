@@ -81,7 +81,7 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
 /* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
    회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
    여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
-const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string }> = {
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string }> = {
   insurance: {
     hub: 'insurance-call-center',
     dir: '보험고객센터',
@@ -92,6 +92,16 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     q5q: '다른 보험사 고객센터 번호도 필요한데요',
     q5a: '보험은 한 곳만 들지 않습니다. 자동차는 이쪽, 실손은 저쪽인 경우가 흔해서 사고 한 번에 두세 곳에 전화하게 됩니다.',
     h1: (n: string) => `${n} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내`,
+    /* 메타 디스크립션의 야간 설명 — 업종마다 야간에 도는 창구가 다르다.
+       2026-08-26 까지 증권사 19곳에도 보험 문구(사고접수·긴급출동)가 들어가 있었다. */
+    night: '야간·공휴일에는 사고접수·긴급출동만 접수됩니다',
+    goods: '업무별 번호',
+    /* 야간에 도는 창구 이름 — 보험은 사고접수, 증권은 야간 데스크다.
+       이 말이 안 갈려서 증권사 19곳에 "자동차 긴급출동"이 들어갔었다(2026-08-26). */
+    offhour: '사고접수·긴급출동',
+    offhourLong: '자동차 사고접수와 긴급출동을 받습니다',
+    agent: '상담사',
+    heroLead: '사고접수는 야간·공휴일에도 가능합니다',
   },
   securities: {
     hub: 'securities-call-center',
@@ -104,6 +114,12 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     q5a: '증권 계좌는 한 곳만 쓰지 않습니다. 국내는 이쪽, 해외주식은 저쪽으로 나눠 쓰는 경우가 흔해서 장중에 두 곳에 전화하게 됩니다.',
     /* 2026-08-26 사장님 확정 — 채용·연봉은 버리고 전화번호·상담시간·상담원 연결로 간다 */
     h1: (n: string) => `${n} 고객센터 전화번호와 상담시간, 상담원 연결`,
+    night: '상담시간이 지나면 해외주식·야간 데스크가 따로 있습니다',
+    goods: '주문·해외주식 등 업무별 번호',
+    offhour: '주문접수·야간 데스크',
+    offhourLong: '해외주식 주문과 야간 데스크 업무를 받습니다',
+    agent: '상담원',
+    heroLead: '상담시간이 지나면 야간 데스크로 갈립니다',
   },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
@@ -196,20 +212,20 @@ const HUB_CUE = nightOpen
   ? `${C.name}은 야간에도 접수를 받지만 회사마다 이게 다릅니다. ${pick(HUB_TAILS)}`
   : `${C.name} 상담은 ${String(C.hours.weekday).replace(/^[^0-9]*/, '').slice(0, 20)} 안에서만 됩니다. ${pick(HUB_TAILS)}`;
 const HUB_LABELS = IND.labels;
-const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? 'ARS 안내에서 상담사 연결 선택' : '공식 안내에 ARS 단축번호 미공개');
-const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'상담사 연결'`;
+const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? `ARS 안내에서 ${IND.agent} 연결 선택` : '공식 안내에 ARS 단축번호 미공개');
+const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'${IND.agent} 연결'`;
 const ARS_META = KEY_OK
-  ? `상담사 연결은 ARS ${AGENT_KEY}번. `
+  ? `${IND.agent} 연결은 ARS ${AGENT_KEY}번. `
   : '';
 const ARS_HOOK = KEY_OK
-  ? `다만 그냥 걸면 ARS 안내가 길게 이어져서, 상담사 목소리를 들으려면 ${AGENT_KEY}번을 눌러야 합니다. `
+  ? `다만 그냥 걸면 ARS 안내가 길게 이어져서, ${IND.agent} 목소리를 들으려면 ${AGENT_KEY}번을 눌러야 합니다. `
   : '다만 공식 안내에 ARS 단축번호가 공개돼 있지 않아, 안내 음성을 듣고 해당 항목을 고르셔야 합니다. ';
 const ARS_Q2 = KEY_OK
-  ? `ARS 안내가 나오면 ${AGENT_KEY}번을 누릅니다. 그러면 순번 대기 후 상담사에게 연결됩니다.`
-  : `${q(C.name)} 공식 안내는 상담사 연결 항목을 번호와 함께 표기하지 않습니다. 안내 음성을 끝까지 듣고 상담사 연결 항목을 고르시면 됩니다.`;
+  ? `ARS 안내가 나오면 ${AGENT_KEY}번을 누릅니다. 그러면 순번 대기 후 ${IND.agent}에게 연결됩니다.`
+  : `${q(C.name)} 공식 안내는 ${IND.agent} 연결 항목을 번호와 함께 표기하지 않습니다. 안내 음성을 끝까지 듣고 ${IND.agent} 연결 항목을 고르시면 됩니다.`;
 const ARS_FAQ = KEY_OK
-  ? `ARS 안내에서 ${AGENT_KEY}번을 누르면 순번 대기 후 상담사에게 연결됩니다.`
-  : '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담사 연결 항목을 고르세요.';
+  ? `ARS 안내에서 ${AGENT_KEY}번을 누르면 순번 대기 후 ${IND.agent}에게 연결됩니다.`
+  : `공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 ${IND.agent} 연결 항목을 고르세요.`;
 /* 핵심콕콕의 본사 행 — 주소가 있을 때만 한 줄 만든다.
    출력 문자열 안에 조건문을 그대로 두면 생성된 파일에 코드가 박힌다. */
 const HQ_FACT = C.hq ? `    '본사': '${q(C.hq)}${C.hqZip ? ` (우 ${C.hqZip})` : ''}',
@@ -236,17 +252,17 @@ export const ${exportName}: SpokeData = {
   h1: '${q(IND.h1(C.name))}',
   breadcrumb: '${q(C.name)} 고객센터',
   description:
-    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 사고접수는 야간·공휴일에도 가능합니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담사 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
+    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 ${q(IND.heroLead)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   datePublished: '${C.verifiedAt}T09:00:00+09:00',
   /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}. ${ARS_META}상담시간 ${q(C.hours.weekday)}, 야간·공휴일에는 사고접수·긴급출동만 접수됩니다. 업무별 번호 ${C.numbers.length}개와 ARS 메뉴, 본사 위치까지 ${C.verifiedAt} 공식 안내 기준.',
+    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}. ${ARS_META}상담시간 ${q(C.hours.weekday)}, ${q(IND.night)}. ${q(IND.goods)} ${C.numbers.length}개와 상담원 연결 방법까지 ${C.verifiedAt} 공식 안내 기준.',
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:
-    '급할 때 번호부터 찾게 되는데요. ${q(C.name)} 대표번호는 ${C.main.tel} 하나로 통합돼 있습니다. ${ARS_HOOK}시간대도 갈립니다 — ${q(C.hours.weekday)}에는 상담사가 받고, ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 사고접수·긴급출동 위주로 돌아갑니다. 그럼 지금 바로 거시는 게 빠르겠죠.',
+    '급할 때 번호부터 찾게 되는데요. ${q(C.name)} 대표번호는 ${C.main.tel} 하나로 통합돼 있습니다. ${ARS_HOOK}시간대도 갈립니다 — ${q(C.hours.weekday)}에는 ${q(IND.agent)}가 받고, ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 ${q(IND.offhour)} 위주로 돌아갑니다. 그럼 지금 바로 거시는 게 빠르겠죠.',
   heroAct: { label: '${q(pick(HERO_LABELS))}', href: TEL },
 
   keyFacts: {
@@ -254,13 +270,13 @@ export const ${exportName}: SpokeData = {
     '상담 가능 시간': '${q(C.hours.weekday)}',
     '야간': '${q(C.hours.night)}',
     '공휴일': '${q(C.hours.holiday)}',
-    '상담사 연결': '${ARS_FACT}',
+    '${q(IND.agent)} 연결': '${ARS_FACT}',
 ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 기준으로 부과됩니다.')}',
   },
   keyFactsHighlights: {
     '대표번호': ['${C.main.tel}'],
     '상담 가능 시간': ['${q(C.hours.weekday)}'],
-    '상담사 연결': [${ARS_HL}],
+    '${q(IND.agent)} 연결': [${ARS_HL}],
   },
 
   qa: [
@@ -276,9 +292,9 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       sourceNote: '* 출처: ${q(C.sourceName ?? C.name)} (${C.verifiedAt} 확인)',
     },
     {
-      q: '상담사(상담원)와 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
+      q: '${q(IND.agent)}와 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        '${ARS_Q2} 다만 이건 ${q(C.hours.weekday)}에만 됩니다. 그 시간을 벗어나면 상담사 연결 항목 자체가 없고 사고접수·긴급출동 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        '${ARS_Q2} 다만 이건 ${q(C.hours.weekday)}에만 됩니다. 그 시간을 벗어나면 ${q(IND.agent)} 연결 항목 자체가 없고 ${q(IND.offhour)} 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
       highlights: [${ARS_HL}, '${q(C.hours.weekday)}'],
       table: {
         headers: ['번호', '평일 주간 (${q(C.hours.weekday)})'],
@@ -293,7 +309,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
-        '상담사 상담은 ${q(C.hours.weekday)}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 별도 ARS 가 돌아가서 자동차 사고접수와 긴급출동을 받습니다. 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.',
+        '${q(IND.agent)} 상담은 ${q(C.hours.weekday)}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 별도 ARS 가 돌아가서 ${q(IND.offhourLong)} 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.',
       highlights: ['${q(C.hours.weekday)}', '${q(C.hours.night)}', '${q(C.hours.holiday)}'],
       table: {
         headers: ['번호', '야간·휴일 (${q(C.hours.night)} / ${q(C.hours.holiday)})'],
@@ -320,7 +336,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '${IND.q5q}', anchor: 'q5',
       intro:
-        '${IND.q5a} 회사마다 대표번호도 다르고 상담사 연결 번호도 다릅니다. ${IND.word}별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
+        '${IND.q5a} 회사마다 대표번호도 다르고 ${q(IND.agent)} 연결 번호도 다릅니다. ${IND.word}별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
       highlights: ['${IND.word}별', '대표번호'],
       act: {
         cue: '${q(HUB_CUE)}',
@@ -339,14 +355,14 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       sourceUrl: '${C.sourceUrl}',
     },
     {
-      q: '상담사와 바로 통화하려면 어떻게 하나요?',
+      q: '${q(IND.agent)}와 바로 통화하려면 어떻게 하나요?',
       a: '${ARS_FAQ} ${q(C.hours.weekday)}에만 가능합니다.',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '상담사 상담은 ${q(C.hours.weekday)}입니다. ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 사고접수·긴급출동 중심의 ARS 가 운영됩니다.',
+      a: '${q(IND.agent)} 상담은 ${q(C.hours.weekday)}입니다. ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 ${q(IND.offhour)} 중심의 ARS 가 운영됩니다.',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },
@@ -358,7 +374,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '점심시간에도 상담이 되나요?',
-      a: '${q(C.name)} 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 ${q(C.hours.weekday)}으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담사 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
+      a: '${q(C.name)} 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 ${q(C.hours.weekday)}으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 ${q(IND.agent)} 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },
@@ -452,10 +468,10 @@ if (process.argv.includes('--approve')) {
     slug: C.slug,
     keyword: `${C.name} 고객센터`,
     title: `${IND.h1(C.name)}`,
-    pattern: '고객센터 — 번호 모음 · 상담사 연결 · 영업시간 · 위치',
+    pattern: `고객센터 — 번호 모음 · ${IND.agent} 연결 · 영업시간 · 위치`,
     subheads: [
       `${C.name} 고객센터 전화번호 모음`,
-      `${C.name} 고객센터 상담원(상담사) 연결 방법`,
+      `${C.name} 고객센터 ${IND.agent} 연결 방법`,
       '고객센터 영업시간·운영시간',
       `${C.name} 고객센터 위치`,
       `${C.name} 고객센터 지역별로 찾기`,
