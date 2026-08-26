@@ -81,7 +81,7 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
 /* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
    회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
    여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
-const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string }> = {
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; dayNote: string }> = {
   insurance: {
     hub: 'insurance-call-center',
     dir: '보험고객센터',
@@ -102,6 +102,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     offhourLong: '자동차 사고접수와 긴급출동을 받습니다',
     agent: '상담사',
     heroLead: '사고접수는 야간·공휴일에도 가능합니다',
+    dayNote: '계약 조회·변경과 보험금 청구는 평일 상담시간에 거는 편이 빠릅니다.',
   },
   securities: {
     hub: 'securities-call-center',
@@ -120,6 +121,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     offhourLong: '해외주식 주문과 야간 데스크 업무를 받습니다',
     agent: '상담원',
     heroLead: '상담시간이 지나면 야간 데스크로 갈립니다',
+    dayNote: '계좌 개설과 입출금·이체 문의는 평일 상담시간에 거는 편이 빠릅니다.',
   },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
@@ -152,6 +154,124 @@ if (lunchInSrc && !C.hours.lunch) {
 }
 const LUNCH = C.hours.lunch ?? '공식 안내에 점심 휴무 표기 없음';
 
+/* 조사·시간문구 — 값이 회사마다 달라서 문장에 그대로 박으면 반드시 틀어진다. (2026-08-26)
+   전에는 "${hours.night}과 ${hours.holiday}에는 ${offhour} 위주로 돌아갑니다" 한 틀로 찍었다.
+   50편 전부에서 터졌다: "상담 불가과", "상담원가 받고", "18시 ~ 09시과",
+   "콜센터 운영 시간 : 평일 9시…에는"(원문 라벨째), 야간=공휴일이 같은 회사는 같은 문구 2번.
+   제일 무거운 건 왜곡이다 — 상담이 닫힌 시간을 "돌아갑니다"라 쓰고,
+   조회·납입·시스템점검 시간을 "사고접수 위주"라고 단정했다. 원문에 없는 말이다. */
+const JONG_NUM: Record<string, boolean> = { '0': true, '1': true, '2': false, '3': true, '4': false, '5': false, '6': true, '7': true, '8': true, '9': false };
+const jong = (w: string): boolean => {
+  const m = String(w).replace(/[)\]\s"'’」』.,]+$/, '').match(/[가-힣0-9a-zA-Z]$/);
+  if (!m) return false;
+  const ch = m[0];
+  if (/[0-9]/.test(ch)) return JONG_NUM[ch];
+  const c = ch.charCodeAt(0);
+  if (c >= 0xac00 && c <= 0xd7a3) return (c - 0xac00) % 28 !== 0;
+  return /[lmnr]$/i.test(ch);
+};
+const rieul = (w: string): boolean => {
+  const m = String(w).replace(/[)\]\s"'’」』.,]+$/, '').match(/[가-힣0-9]$/);
+  if (!m) return false;
+  if (/[0-9]/.test(m[0])) return m[0] === '1' || m[0] === '7' || m[0] === '8';
+  const c = m[0].charCodeAt(0);
+  return c >= 0xac00 && c <= 0xd7a3 && (c - 0xac00) % 28 === 8;
+};
+const josa = (w: string, pair: '과' | '이' | '은' | '을' | '으로'): string => {
+  if (pair === '으로') return !jong(w) || rieul(w) ? '로' : '으로';
+  return jong(w) ? pair : ({ 과: '와', 이: '가', 은: '는', 을: '를' } as const)[pair];
+};
+
+/* 원문 라벨을 값에 같이 적어 둔 회사가 많다 — "콜센터 운영 시간 : 평일 9시 ~ 18시".
+   JSON 은 원문 그대로 두는 게 맞다(keyFacts·게이트가 원문을 본다). 문장에 넣을 때만 벗긴다. */
+const hoursText = (v: unknown): string => String(v ?? '')
+  .replace(/^[^0-9,·]{0,20}[:：]\s*/, '')   // "콜센터 운영 시간 : " 같은 짧은 라벨만 벗긴다
+  .replace(/\s*[:：]\s+/g, ' ')             // 앞말이 길면 그건 내용이다 — 콜론만 없앤다
+  .replace(/평\s+일/g, '평일')               // 원문 공백 오타 ("평 일 09:00")
+  .replace(/^단,\s*/, '')                   // 원문 각주 조각 ("단, 18:00~20:00 …")
+  .replace(/\s{2,}/g, ' ')
+  .trim();
+
+const HW = hoursText(C.hours.weekday);
+const closedHours = (v: string) => /불가|휴무|미운영|운영하지|받지\s*않|하지\s*않|쉽니다/.test(v);
+/* "토, 공휴일 제외" 처럼 시간이 아니라 단서만 적힌 값이 있다.
+   문장에 넣으면 "토, 공휴일 제외에는 주문접수 위주로 돌아갑니다" 가 된다 — 뜻이 뒤집힌다. */
+const noteOnly = (v: string) => !/[0-9]/.test(v);
+/* 조회·납입·이체 시간을 "사고접수 위주" 라고 쓰면 원문에 없는 말을 지어내는 것이다.
+   한화생명 야간이 "출금·입금·보험료 납입 07:00 ~ 23:30" 인데 사고접수라고 나갔었다. */
+const nonOffWork = (v: string) => /조회|납입|출금|입금|이체|송금|대체|대출|점검|환급|가입|납부|정보변경/.test(v);
+/* "365일 24시간" 만으로는 사고접수라 단정할 수 없다 — 건보공단 야간은 디지털ARS·셀프서비스다.
+   업무 이름이 값에 실제로 적혀 있을 때만 그 업무라고 쓴다. */
+const offhourish = (v: string) => !nonOffWork(v) && /사고|출동|접수|데스크|주문|긴급/.test(v);
+
+/* 닫힌 시간은 빼고, 같은 문구는 한 번만 쓴다 */
+const OFF: string[] = [];
+for (const v of [hoursText(C.hours.night), hoursText(C.hours.holiday)]) {
+  if (v && !closedHours(v) && !noteOnly(v) && !OFF.includes(v)) OFF.push(v);
+}
+
+/* 값이 시간구가 아니라 문장인 회사가 있다 — "24시간 가능합니다", "콜백서비스는 24시간 상시운영 됩니다".
+   여기에 조사를 붙이면 "24시간 가능합니다에는 주문접수 위주로 돌아갑니다" 가 된다.
+   문장은 문장대로 따로 세운다. 원문 표현을 줄이면 뜻이 바뀌니 그대로 인용한다. */
+const isSentence = (v: string) => /(다|요)\.?$/.test(v.trim());
+const PH = OFF.filter((v) => !isSentence(v));   // 시간구 — 조사를 붙여도 되는 것
+const SE = OFF.filter(isSentence);              // 문장 — 따로 세울 것
+
+const OFF_TXT = PH.length === 2 ? `${PH[0]}${josa(PH[0], '과')} ${PH[1]}` : (PH[0] ?? '');
+const OFF_OPEN = PH.length > 0 && PH.some(offhourish);
+/* 값에 이미 들어 있는 말을 뒤에서 또 한다 —
+   "사고접수·긴급출동 365일 24시간에는 사고접수·긴급출동 위주로 돌아갑니다" */
+const OFF_DUP = OFF_OPEN && IND.offhour.split('·').every((w) => OFF_TXT.includes(w));
+
+const dot = (s: string) => (/[.]$/.test(s.trim()) ? s.trim() : s.trim() + '.');
+const SE_TXT = SE.length ? `공식 안내에는 그 밖의 시간을 "${SE.map((s) => s.replace(/[.]$/, '')).join(' / ')}" 로 적어 두었습니다.` : '';
+
+const OFF_CLAUSE = !OFF_TXT ? ''
+  : OFF_DUP ? dot(`${OFF_TXT}${josa(OFF_TXT, '은')} 따로 돌아갑니다`)
+  : OFF_OPEN ? dot(`${OFF_TXT}에는 ${IND.offhour} 위주로 돌아갑니다`)
+  : dot(`${OFF_TXT}${josa(OFF_TXT, '은')} 따로 안내돼 있습니다`);
+
+/* 서론 끝 문장 — 업종 고정값(IND.heroLead)이었다. (2026-08-26 사장님 지적)
+   보험사 26곳 전부에 "사고접수는 야간·공휴일에도 가능합니다" 가 박혔는데,
+   삼성생명 야간은 "상담사 연결 불가"고 건보공단 야간은 디지털ARS·셀프서비스다.
+   화면 맨 위에 뜨는 문장이라 여기가 틀리면 페이지 전체가 틀린 말이 된다.
+   회사 hours 에서 만든다 — 단정할 근거가 없으면 단정하지 않는다. */
+const LEAD = OFF.length === 0
+  ? `이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다`
+  : OFF_OPEN
+    ? `${IND.offhour}는 야간·공휴일에도 접수됩니다`
+    : '야간·공휴일 운영은 공식 안내에 따로 적혀 있습니다';
+const META_NIGHT = OFF.length === 0
+  ? `${IND.agent} 연결은 이 시간 안에서만 됩니다`
+  : OFF_OPEN
+    ? `야간·공휴일에는 ${IND.offhour} 중심으로 접수됩니다`
+    : '야간·공휴일 운영은 공식 안내 표기 기준';
+
+/* 화면 "자주 찾는 문의" 아래 박스 — 이 문장은 components/CallCenterPage.tsx 에
+   "{night} 과 {holiday} 에는 사고접수·긴급출동 위주로 돌아갑니다" 로 박혀 있었다.
+   SpokeClient 주석이 이미 경고한 그대로다 — 코드에 문장을 박으면 전 스포크가 같아진다.
+   건보공단 야간은 디지털ARS·셀프서비스인데 사고접수라고 떴다(2026-08-26 사장님 캡처). */
+const OFFHOUR_NOTE = `${OFF.length === 0
+  ? `공식 안내 기준으로 ${HW}${josa(HW, '을')} 벗어나면 ${IND.agent} 연결이 안 됩니다.`
+  : [OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} ${IND.dayNote}`;
+
+const HOOK_TIME = OFF.length === 0
+  ? `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, 그 밖의 시간에는 ${IND.agent} 연결이 안 됩니다.`
+  : `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`;
+
+const Q3_INTRO = OFF_OPEN
+  ? `${IND.agent} 상담은 ${HW}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${OFF_TXT}에는 별도 ARS 가 돌아가서 ${IND.offhourLong} 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.`
+  : OFF.length > 0
+    ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} 다만 이 시간에 ${IND.agent} 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 ${HW} 안에 거시는 편이 확실합니다.`
+    : `${IND.agent} 상담은 ${HW}입니다. 공식 안내 기준으로 이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다. 야간·공휴일 운영 표기가 따로 없으니, 급한 용건도 ${HW} 안에 거셔야 합니다.`;
+
+const FAQ_HOURS = OFF_OPEN
+  ? `${IND.agent} 상담은 ${HW}입니다. ${OFF_TXT}에는 ${IND.offhour} 중심의 ARS 가 운영됩니다.`
+  : OFF.length > 0
+    ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`
+    : `${IND.agent} 상담은 ${HW}입니다. 공식 안내에 야간·공휴일 운영 표기가 없어, 이 시간을 벗어나면 연결되지 않습니다.`;
+
+
 /* ARS 단축번호가 공개되지 않은 회사가 있다 — 구성도를 이미지로만 올리는 곳,
    메뉴 이름만 적고 번호를 안 적는 곳(하나손보·흥국생명).
    번호를 순서로 추정하면 사람이 엉뚱한 메뉴를 누른다. 없으면 없다고 쓴다. */
@@ -181,7 +301,7 @@ const HERO_LABELS = [
   `${C.main.tel} 바로 통화`,
   `${C.main.tel} 상담 연결`,
   `${C.main.tel} 로 문의하기`,
-  `${C.main.tel} 눌러 보기`,
+  `${C.main.tel} 눌러서 걸기`,
   `${C.main.tel} 통화 시작`,
   `${C.main.tel} 상담 신청`,
   `${C.main.tel} 연결 요청`,
@@ -261,17 +381,17 @@ export const ${exportName}: SpokeData = {
   h1: '${q(IND.h1(C.name))}',
   breadcrumb: '${q(C.name)} 고객센터',
   description:
-    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 ${q(IND.heroLead)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
+    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 ${q(LEAD)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   datePublished: '${C.verifiedAt}T09:00:00+09:00',
   /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}. ${ARS_META}상담시간 ${q(C.hours.weekday)}, ${q(IND.night)}. ${q(IND.goods)} ${C.numbers.length}개와 상담원 연결 방법까지 ${C.verifiedAt} 공식 안내 기준.',
+    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}. ${ARS_META}상담시간 ${q(C.hours.weekday)}, ${q(META_NIGHT)}. ${q(IND.goods)} ${C.numbers.length}개와 상담원 연결 방법까지 ${C.verifiedAt} 공식 안내 기준.',
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:
-    '급할 때 번호부터 찾게 되는데요. ${q(C.name)} 대표번호는 ${C.main.tel} 하나로 통합돼 있습니다. ${ARS_HOOK}시간대도 갈립니다 — ${q(C.hours.weekday)}에는 ${q(IND.agent)}가 받고, ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 ${q(IND.offhour)} 위주로 돌아갑니다. 그럼 지금 바로 거시는 게 빠르겠죠.',
+    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 ${q(LEAD)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   heroAct: { label: '${q(pick(HERO_LABELS))}', href: TEL },
 
   keyFacts: {
@@ -303,7 +423,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '${q(IND.agent)}와 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        '${ARS_Q2} 다만 이건 ${q(C.hours.weekday)}에만 됩니다. 그 시간을 벗어나면 ${q(IND.agent)} 연결 항목 자체가 없고 ${q(IND.offhour)} 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        '${ARS_Q2} 다만 이건 ${q(HW)}에만 됩니다. 그 시간을 벗어나면 ${q(IND.agent)} 연결 항목 자체가 없고 ${q(IND.offhour)} 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
       highlights: [${ARS_HL}, '${q(C.hours.weekday)}'],
       table: {
         headers: ['번호', '평일 주간 (${q(C.hours.weekday)})'],
@@ -318,7 +438,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
-        '${q(IND.agent)} 상담은 ${q(C.hours.weekday)}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 별도 ARS 가 돌아가서 ${q(IND.offhourLong)} 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.',
+        '${q(Q3_INTRO)}',
       highlights: ['${q(C.hours.weekday)}', '${q(C.hours.night)}', '${q(C.hours.holiday)}'],
       table: {
         headers: ['번호', '야간·휴일 (${q(C.hours.night)} / ${q(C.hours.holiday)})'],
@@ -365,13 +485,13 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '${q(IND.agent)}와 바로 통화하려면 어떻게 하나요?',
-      a: '${ARS_FAQ} ${q(C.hours.weekday)}에만 가능합니다.',
+      a: '${ARS_FAQ} ${q(HW)}에만 가능합니다.',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '${q(IND.agent)} 상담은 ${q(C.hours.weekday)}입니다. ${q(C.hours.night)}과 ${q(C.hours.holiday)}에는 ${q(IND.offhour)} 중심의 ARS 가 운영됩니다.',
+      a: '${q(FAQ_HOURS)}',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },
@@ -383,7 +503,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '점심시간에도 상담이 되나요?',
-      a: '${q(C.name)} 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 ${q(C.hours.weekday)}으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 ${q(IND.agent)} 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
+      a: '${q(C.name)} 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 ${q(HW)}${josa(HW, '으로')} 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 ${q(IND.agent)} 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },
@@ -420,6 +540,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       verifiedAt: C.verifiedAt,
       main: C.main,
       hours: { ...C.hours, lunch: LUNCH },
+      offhourNote: OFFHOUR_NOTE,
       callFee: C.callFee,
       ars: C.ars,
       numbers: C.numbers,

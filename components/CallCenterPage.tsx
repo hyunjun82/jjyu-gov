@@ -33,6 +33,9 @@ export interface CallCenterData {
   verifiedAt: string;
   main: { label: string; tel: string };
   hours: { weekday: string; night: string; holiday: string; lunch?: string };
+  /* 야간·공휴일 안내 한 문장 — 회사마다 다르다. 여기 없으면 화면이 지어내게 된다.
+     전에는 이 문장이 CallCenterPage 에 박혀 있어서 50곳이 전부 "사고접수·긴급출동" 이었다. */
+  offhourNote?: string;
   callFee?: string;
   ars: { day: { key: string; what: string }[]; night: { key: string; what: string }[] };
   /* smsOnly: 전화가 안 되는 문자 전용 번호. 여기에 tel: 을 걸면 안 걸린다 */
@@ -741,7 +744,7 @@ export default function CallCenterPage({
               ))}
             </div>
             <div style={{ margin: '22px 0 0', padding: 18, borderRadius: 14, background: TINT, fontSize: 15, lineHeight: 1.6, color: BLUE }}>
-              {cc.hours.night} 과 {cc.hours.holiday} 에는 사고접수·긴급출동 위주로 돌아갑니다. 계약 조회·변경과 보험금 청구는 평일 상담시간에 거는 편이 빠릅니다.
+              {cc.offhourNote ?? `상담 가능 시간은 ${cc.hours.weekday} 입니다. 그 밖의 시간 운영은 공식 안내에서 확인하세요.`}
             </div>
           </div>
         </section>
