@@ -127,8 +127,30 @@ for (const c of all) {
   const src = path.join(ROOT, 'scripts', 'output', `source-${c.slug}-call-center.txt`);
   if (!fs.existsSync(src)) p.push('추출본이 없다 — 공식 페이지를 뜬 적이 없다');
   else {
-    const s = d(fs.readFileSync(src, 'utf8'));
+    const raw = fs.readFileSync(src, 'utf8');
+    const s = d(raw);
     mine.forEach((t) => { if (!s.includes(d(t))) p.push(`추출본에 없는 번호 ${t}`); });
+
+    /* ⑦ JSON ↔ 추출본 (2026-08-27 신설).
+       이 게이트는 지금까지 "글 ↔ JSON" 과 "글의 번호 ↔ 추출본" 만 봤다.
+       JSON 의 hours 값이 원문에 있는 말인지는 아무도 안 봤다 — 그래서
+       원문에 없는 문장 43건이 게이트 3종을 다 통과하고 라이브에 나갔다(2026-08-26).
+         · NH투자증권 추출본 3,383자에 '주말' 이 한 글자도 없는데
+           글에는 "주말·공휴일은 별도 안내" 가 있었다.
+         · 현대해상·삼성화재 야간·공휴일에 원문에 없는 "365일 24시간" 이 있었다.
+       사람이 값을 다듬다가 원문에 없는 말을 만드는 것이 이 사고의 형태다.
+       판정은 글자 대조로만 한다 — 공백만 지우고 원문에 그 문자열이 있는지 본다. */
+    const flat = (x: string) => String(x).replace(/\s+/g, '');
+    const srcFlat = flat(raw);
+    /* 우리가 쓰는 말(원문에 있을 리 없다)은 면제한다 */
+    const OURS = /표기 없음|미공개|공식 채널 확인|확인 필요/;
+    Object.entries(c.hours ?? {}).forEach(([k, v]) => {
+      if (!v || OURS.test(String(v))) return;
+      if (!srcFlat.includes(flat(v))) p.push(`hours.${k} 가 원문에 없다: "${String(v).slice(0, 40)}"`);
+    });
+    [...(c.ars?.day ?? []), ...(c.ars?.night ?? [])].forEach((a) => {
+      if (!srcFlat.includes(flat(a.what))) p.push(`ARS 문구가 원문에 없다 "${a.what}"`);
+    });
   }
 
   if (p.length) { bad++; console.log(`❌ ${c.name} (${meta.label})`); p.forEach((x) => console.log(`     · ${x}`)); }
