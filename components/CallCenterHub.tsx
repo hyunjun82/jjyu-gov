@@ -1,6 +1,6 @@
 'use client';
 
-/* 보험사 고객센터 목록(허브) 화면.
+/* 고객센터 목록(허브) 화면 — 보험사·증권사가 같은 화면을 쓴다.
  *
  * 구조는 db-customer-center.html 을 그대로 따른다 — 회사 상세(CallCenterPage)와 같은 뼈대다.
  *   헤더 네비 → 브레드크럼 → h1·리드 → 히어로 2단
@@ -48,6 +48,13 @@ const EDGE = '#C9D8E8';
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 type HubPolicy = any;
 
+/* 업종 말 — 허브가 보험사 하나였을 때는 '보험사'를 박아 뒀다.
+   증권사가 붙으면서 slug 로 고른다. 모르는 업종이면 무난한 말로 떨어진다. */
+const WORD: Record<string, { word: string; mark: string; label: string }> = {
+  'insurance-call-center': { word: '보험사', mark: '보', label: '보험 고객센터' },
+  'securities-call-center': { word: '증권사', mark: '증', label: '증권 고객센터' },
+};
+
 export default function CallCenterHub({
   companies,
   policyId,
@@ -59,6 +66,7 @@ export default function CallCenterHub({
 }) {
   const [now, setNow] = useState<Date | null>(null);
   const [q, setQ] = useState('');
+  const IND = WORD[String(policy?.slug)] ?? { word: '회사', mark: '고', label: '고객센터' };
 
   useEffect(() => {
     setNow(new Date());
@@ -175,9 +183,9 @@ export default function CallCenterHub({
                 boxShadow: 'inset 0 1px 0 rgba(255,255,255,.35), 0 3px 8px -3px rgba(20,57,92,.6)',
               }}
             >
-              보
+              {IND.mark}
             </span>
-            보험 고객센터
+            {IND.label}
           </Link>
           <nav className="cc-nav" style={{ display: 'flex', alignItems: 'center', gap: 2, fontSize: 14.5, fontWeight: 600 }}>
             <a href="#numbers">회사 찾기</a>
@@ -192,7 +200,7 @@ export default function CallCenterHub({
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 13.5, color: '#8D96A6', padding: '26px 0 0' }}>
           <Link href="/" style={{ color: '#8D96A6' }}>홈</Link>
           <span>›</span>
-          <span style={{ color: '#5B6474', fontWeight: 600 }}>보험 고객센터</span>
+          <span style={{ color: '#5B6474', fontWeight: 600 }}>{IND.label}</span>
         </div>
 
         <section style={{ padding: '16px 0 0' }}>
@@ -210,15 +218,15 @@ export default function CallCenterHub({
               letterSpacing: '0.07em',
             }}
           >
-            보험사 고객센터 {companies.length}곳
+            {IND.word} 고객센터 {companies.length}곳
           </div>
-          <h1 className="cc-h1">보험사 고객센터 전화번호 모음, 상담사 연결 번호까지</h1>
+          <h1 className="cc-h1">{IND.word} 고객센터 전화번호 모음, 상담사 연결 번호까지</h1>
           <p style={{ margin: '18px 0 0', fontSize: 19, lineHeight: 1.68, color: '#5B6474', maxWidth: '43em' }}>
-            보험사 {companies.length}곳의 대표번호와 상담사 연결 방법을 회사별로 정리했습니다. 회사를 누르면 업무별 번호와 ARS 단축번호, 영업시간, 위치가 한 화면에 나옵니다.
+            {IND.word} {companies.length}곳의 대표번호와 상담사 연결 방법을 회사별로 정리했습니다. 회사를 누르면 업무별 번호와 ARS 단축번호, 영업시간, 위치가 한 화면에 나옵니다.
           </p>
           <div style={{ margin: '14px 0 0', fontSize: 13.5, color: '#98A1B0' }}>
             정부지원사업 에디터 · {reviewed} 검수 ·{' '}
-            {sources[0] ? <a href={sources[0].url} rel="noopener">{sources[0].name}</a> : '각 보험사 공식 고객센터 안내'}
+            {sources[0] ? <a href={sources[0].url} rel="noopener">{sources[0].name}</a> : `각 ${IND.word} 공식 고객센터 안내`}
           </div>
         </section>
 
@@ -237,7 +245,7 @@ export default function CallCenterHub({
           >
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
               <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.08em', color: 'rgba(255,255,255,.72)' }}>
-                보험사 고객센터 번호 찾기
+                {IND.word} 고객센터 번호 찾기
               </div>
               <span
                 style={{
@@ -264,8 +272,8 @@ export default function CallCenterHub({
             <input
               value={q}
               onChange={(e) => setQ(e.target.value)}
-              placeholder="회사 이름이나 번호로 찾기 (예: 삼성화재, 1588)"
-              aria-label="보험사 이름이나 번호로 찾기"
+              placeholder={`회사 이름이나 번호로 찾기 (예: ${companies[0]?.cc.name ?? ''})`}
+              aria-label={`${IND.word} 이름이나 번호로 찾기`}
               style={{
                 width: '100%',
                 height: 56,
@@ -352,7 +360,7 @@ export default function CallCenterHub({
 
         {/* 회사별 번호 — 상세의 id="numbers" 자리 */}
         <section id="numbers" style={{ margin: '56px 0 0', scrollMarginTop: 84 }}>
-          <h2 style={h2}>보험사 고객센터 전화번호 모음</h2>
+          <h2 style={h2}>{IND.word} 고객센터 전화번호 모음</h2>
           <p style={{ margin: '8px 0 0', fontSize: 16.5, color: '#5B6474' }}>
             번호를 누르면 바로 전화가 걸리고, 회사 이름을 누르면 상세 안내로 들어갑니다.
           </p>
@@ -487,7 +495,7 @@ export default function CallCenterHub({
 
         {/* 상담원 연결 — 상세의 id="connect" 자리 */}
         <section id="connect" style={{ margin: '56px 0 0', scrollMarginTop: 84 }}>
-          <h2 style={h2}>보험사 고객센터 상담원(상담사) 연결 방법</h2>
+          <h2 style={h2}>{IND.word} 고객센터 상담원(상담사) 연결 방법</h2>
           <p style={{ margin: '8px 0 0', fontSize: 16.5, color: '#5B6474' }}>
             회사마다 번호가 다르고, 같은 회사라도 시간대에 따라 다릅니다. 아래 두 가지만 알고 걸면 헛걸음이 줄어듭니다.
           </p>
@@ -597,7 +605,7 @@ export default function CallCenterHub({
           <div>
             <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.08em', color: 'rgba(255,255,255,.65)' }}>지금 바로 연결</div>
             <div style={{ margin: '8px 0 0', fontSize: 26, fontWeight: 800, letterSpacing: '-0.03em' }}>
-              보험사 {companies.length}곳 고객센터 번호
+              {IND.word} {companies.length}곳 고객센터 번호
             </div>
           </div>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
@@ -618,7 +626,7 @@ export default function CallCenterHub({
                 boxShadow: `0 6px 0 ${NAVY}, 0 16px 24px -14px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.45)`,
               }}
             >
-              내 보험사 번호 찾기
+              내 {IND.word} 번호 찾기
             </a>
             <a
               href="#connect"
@@ -654,7 +662,7 @@ export default function CallCenterHub({
             ))}
           </ul>
           <p style={{ margin: '18px 0 0', fontSize: 13.5, lineHeight: 1.7, color: '#98A1B0' }}>
-            본 페이지는 각 보험사가 공개한 고객센터 안내를 정리한 것으로 해당 회사와 무관합니다. 번호·운영시간은 바뀔 수 있으니 최종 자격과 내용은 공식 채널에서 확인하세요. 정부지원사업 에디터 · {reviewed} 검수.
+            본 페이지는 각 {IND.word}가 공개한 고객센터 안내를 정리한 것으로 해당 회사와 무관합니다. 번호·운영시간은 바뀔 수 있으니 최종 자격과 내용은 공식 채널에서 확인하세요. 정부지원사업 에디터 · {reviewed} 검수.
           </p>
         </section>
       </main>

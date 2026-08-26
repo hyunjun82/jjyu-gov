@@ -96,9 +96,11 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
 
   const d = policies[params.id];
 
-  /* 보험사 고객센터 허브 — 회사 26곳과 같은 템플릿(db-customer-center.html 구조)으로 그린다.
-     params.id 는 숫자 id·영문 slug·한글 별칭으로 다 들어오므로 d.slug 로 판정한다. */
-  const isCallCenterHub = d?.slug === 'insurance-call-center';
+  /* 고객센터 허브 — 회사 페이지들과 같은 템플릿(db-customer-center.html 구조)으로 그린다.
+     업종이 늘어도(증권·카드) 여기를 안 고치게 slug 끝으로 판정한다.
+     params.id 는 숫자 id·영문 slug·한글 별칭으로 다 들어오므로 d.slug 로 본다. */
+  const hubSlug: string | undefined =
+    typeof d?.slug === 'string' && d.slug.endsWith('-call-center') ? d.slug : undefined;
 
   // SpokesRegistry 단일 소스 — 사이드바·목차 한글 slug 링크 생성 (영문 slug 404 방지)
   const spokeList = getSpokeListForPolicy(params.id);
@@ -116,8 +118,8 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
     );
   }
 
-  if (isCallCenterHub) {
-    const map = SpokesRegistry['insurance-call-center'] ?? {};
+  if (hubSlug) {
+    const map = SpokesRegistry[hubSlug] ?? {};
     const companies = Object.entries(map)
       /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
       .filter(([, s]) => (s as any).callCenter)

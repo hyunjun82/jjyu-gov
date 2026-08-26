@@ -78,8 +78,36 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
   if (gone.length) die(`hours.${k} 의 ${gone.join(', ')} 가 추출본에 없다: "${v}"`);
 }
 
-const HUB_SLUG = 'insurance-call-center';
-const DIR = path.join('app', 'policy', '[id]', '[spoke]', 'content', '보험고객센터');
+/* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
+   회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
+   여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string }> = {
+  insurance: {
+    hub: 'insurance-call-center',
+    dir: '보험고객센터',
+    word: '보험사',
+    labels: ['보험사 번호 모아보기', '다른 보험사 번호 보기', '보험사별 고객센터 목록', '보험사 전체 목록 열기'],
+    jobs: '보험금 청구, 계약 조회·변경, 사고접수',
+    remote: '보험금 청구나 계약 변경',
+    q5q: '다른 보험사 고객센터 번호도 필요한데요',
+    q5a: '보험은 한 곳만 들지 않습니다. 자동차는 이쪽, 실손은 저쪽인 경우가 흔해서 사고 한 번에 두세 곳에 전화하게 됩니다.',
+  },
+  securities: {
+    hub: 'securities-call-center',
+    dir: '증권고객센터',
+    word: '증권사',
+    labels: ['증권사 번호 모아보기', '다른 증권사 번호 보기', '증권사별 고객센터 목록', '증권사 전체 목록 열기'],
+    jobs: '계좌 개설, 주문·체결 문의, 입출금',
+    remote: '계좌 개설이나 비밀번호 초기화',
+    q5q: '다른 증권사 고객센터 번호도 필요한데요',
+    q5a: '증권 계좌는 한 곳만 쓰지 않습니다. 국내는 이쪽, 해외주식은 저쪽으로 나눠 쓰는 경우가 흔해서 장중에 두 곳에 전화하게 됩니다.',
+  },
+};
+const IND = INDUSTRY[C.industry ?? 'insurance'];
+if (!IND) die(`모르는 industry: ${C.industry} (쓸 수 있는 값: ${Object.keys(INDUSTRY).join(', ')})`);
+
+const HUB_SLUG = IND.hub;
+const DIR = path.join('app', 'policy', '[id]', '[spoke]', 'content', IND.dir);
 const OUT = path.join(DIR, `${C.slug}.tsx`);
 const REG = path.join('data', 'spokes', 'registry.ts');
 
@@ -155,7 +183,7 @@ const MAP_CUE = C.hq
 const MAP_LABELS = ['가까운 지점 찾기', '지점 위치 확인하기', '지도에서 위치 보기', '가까운 창구 찾아보기'];
 
 const HUB_TAILS = [
-  '다른 보험사는 몇 시까지인지 함께 확인해 두세요.',
+  `다른 ${IND.word}는 몇 시까지인지 함께 확인해 두세요.`,
   '회사마다 갈리니 한자리에서 비교해 보세요.',
   '가입한 곳이 여럿이면 미리 봐 두는 게 낫습니다.',
   '급할 때 다시 찾지 않게 목록을 열어 두시죠.',
@@ -164,7 +192,7 @@ const HUB_TAILS = [
 const HUB_CUE = nightOpen
   ? `${C.name}은 야간에도 접수를 받지만 회사마다 이게 다릅니다. ${pick(HUB_TAILS)}`
   : `${C.name} 상담은 ${String(C.hours.weekday).replace(/^[^0-9]*/, '').slice(0, 20)} 안에서만 됩니다. ${pick(HUB_TAILS)}`;
-const HUB_LABELS = ['보험사 번호 모아보기', '다른 보험사 번호 보기', '보험사별 고객센터 목록', '보험사 전체 목록 열기'];
+const HUB_LABELS = IND.labels;
 const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? 'ARS 안내에서 상담사 연결 선택' : '공식 안내에 ARS 단축번호 미공개');
 const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'상담사 연결'`;
 const ARS_META = KEY_OK
@@ -236,7 +264,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '${q(C.name)} 고객센터 전화번호 몇 번인가요?', anchor: 'q1',
       intro:
-        '대표번호는 ${C.main.tel}입니다. 보험금 청구, 계약 조회·변경, 사고접수까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 아래 ${C.numbers.length}개입니다.',
+        '대표번호는 ${C.main.tel}입니다. ${IND.jobs}까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 아래 ${C.numbers.length}개입니다.',
       highlights: ['${C.main.tel}', '대표번호', '전용번호'],
       table: {
         headers: ['구분', '번호', '비고'],
@@ -277,7 +305,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '${q(C.name)} 고객센터 위치는 어디인가요?', anchor: 'q4',
       intro:
-        '${C.hq ? `본사는 ${q(C.hq)}에 있습니다. ` : ''}다만 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사명으로 검색하면 가까운 순으로 나옵니다.',
+        '${C.hq ? `본사는 ${q(C.hq)}에 있습니다. ` : ''}다만 ${IND.remote}은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사명으로 검색하면 가까운 순으로 나옵니다.',
       highlights: [${C.hq ? `'${q(C.hq)}'` : `'가까운 지점'`}],
       act: {
         cue: '${q(MAP_CUE)}',
@@ -287,16 +315,16 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       sourceNote: '* 출처: ${q(C.corp ?? C.name)} 사업자 정보 (${C.verifiedAt} 확인)',
     },
     {
-      q: '다른 보험사 고객센터 번호도 필요한데요', anchor: 'q5',
+      q: '${IND.q5q}', anchor: 'q5',
       intro:
-        '보험은 한 곳만 들지 않습니다. 자동차는 이쪽, 실손은 저쪽인 경우가 흔해서 사고 한 번에 두세 곳에 전화하게 됩니다. 회사마다 대표번호도 다르고 상담사 연결 번호도 다릅니다. 보험사별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
-      highlights: ['보험사별', '대표번호'],
+        '${IND.q5a} 회사마다 대표번호도 다르고 상담사 연결 번호도 다릅니다. ${IND.word}별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
+      highlights: ['${IND.word}별', '대표번호'],
       act: {
         cue: '${q(HUB_CUE)}',
         label: '${q(pick(HUB_LABELS))}',
         url: HUB,
       },
-      sourceNote: '* 출처: 각 보험사 공식 고객센터 안내',
+      sourceNote: '* 출처: 각 ${IND.word} 공식 고객센터 안내',
     },
   ],
 
@@ -339,7 +367,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '${C.hq ? '본사 주소는 어디인가요?' : '방문 상담은 어디로 가야 하나요?'}',
-      a: '${C.hq ? `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.` : `${q(C.name)} 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱으로 처리되는 경우입니다.`}',
+      a: '${C.hq ? `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.` : `${q(C.name)} 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. ${IND.remote}은 방문하지 않아도 전화·앱으로 처리되는 경우입니다.`}',
       source: '${q(C.corp ?? C.name)} 사업자 정보',
       sourceUrl: '${C.official}',
     },
@@ -381,7 +409,7 @@ fs.writeFileSync(path.join(ROOT, OUT), file, 'utf8');
 
 /* ── 배선 ── */
 let reg = fs.readFileSync(path.join(ROOT, REG), 'utf8');
-const importLine = `import { ${exportName} } from '@/app/policy/[id]/[spoke]/content/보험고객센터/${C.slug}';`;
+const importLine = `import { ${exportName} } from '@/app/policy/[id]/[spoke]/content/${IND.dir}/${C.slug}';`;
 if (!reg.includes(importLine)) {
   const lastImport = reg.lastIndexOf('\nimport ');
   const impEnd = reg.indexOf('\n', reg.indexOf(';', lastImport));

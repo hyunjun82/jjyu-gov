@@ -22,6 +22,8 @@ const categories = [
   { id: 'insurance', label: '보험', icon: '🛡️', href: '/category/insurance' },
   { id: 'life',   label: '생활정보', icon: '🩺', href: '/category/life' },
   { id: 'issue',  label: '발급·신청', icon: '📄', href: '/category/issue' },
+  /* 2026-08-26: 보험사 고객센터 27편이 홈에서 도달 불가였다 — 카테고리는 살아 있는데 링크가 없었다 */
+  { id: 'call-center', label: '고객센터', icon: '📞', href: '/category/call-center' },
 ];
 
 /* ──────────────────────────────────────────────────
