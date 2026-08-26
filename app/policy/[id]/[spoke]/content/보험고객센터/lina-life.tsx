@@ -171,7 +171,7 @@ export const linaLifeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "lina-life",
     "name": "라이나생명",
-    "brandColor": "#0072CE",
+    "brandColor": "#FBAE17",
     "official": "https://www.lina.co.kr",
     "sourceUrl": "https://www.lina.co.kr/customer/consult/guide",
     "sourceName": "라이나생명 고객센터 이용안내",

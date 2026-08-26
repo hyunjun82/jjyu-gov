@@ -171,7 +171,7 @@ export const kbInsuranceCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "kb-insurance",
     "name": "KB손해보험",
-    "brandColor": "#605A56",
+    "brandColor": "#FBAE14",
     "official": "https://www.kbinsure.co.kr",
     "sourceUrl": "https://www.kbinsure.co.kr/CG605030001.ec",
     "sourceName": "KB손해보험 콜센터 ARS안내",

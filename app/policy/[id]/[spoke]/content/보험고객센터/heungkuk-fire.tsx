@@ -170,7 +170,7 @@ export const heungkukFireCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "heungkuk-fire",
     "name": "흥국화재",
-    "brandColor": "#E60012",
+    "brandColor": "#E4007F",
     "official": "https://www.heungkukfire.co.kr",
     "sourceUrl": "https://www.heungkukfire.co.kr/FRW/helpdesk/useGuideCallCenterARS.do",
     "sourceName": "흥국화재 콜센터 ARS 안내",

@@ -170,7 +170,7 @@ export const nhLifeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "nh-life",
     "name": "NH농협생명",
-    "brandColor": "#0B8A3D",
+    "brandColor": "#0070BA",
     "official": "https://www.nhlife.co.kr",
     "sourceUrl": "https://m.nhlife.co.kr/mo/cs/91/00/MOCS9100M00",
     "sourceName": "NH농협생명 ARS번호 및 시간안내",

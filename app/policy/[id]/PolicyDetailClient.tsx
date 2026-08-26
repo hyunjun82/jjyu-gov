@@ -17,6 +17,8 @@ import {
 import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
 import { PoliciesByKoAlias, getSpokeListForPolicy } from '@/lib/policy-aliases';
 import { pickActionLabel, simplifyCta } from '@/lib/cta';
+import CallCenterHub from '@/components/CallCenterHub';
+import { SpokesRegistry } from '@/data/spokes/registry';
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
@@ -93,6 +95,11 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const d = policies[params.id];
+
+  /* 보험사 고객센터 허브 — 회사 26곳과 같은 템플릿(db-customer-center.html 구조)으로 그린다.
+     params.id 는 숫자 id·영문 slug·한글 별칭으로 다 들어오므로 d.slug 로 판정한다. */
+  const isCallCenterHub = d?.slug === 'insurance-call-center';
+
   // SpokesRegistry 단일 소스 — 사이드바·목차 한글 slug 링크 생성 (영문 slug 404 방지)
   const spokeList = getSpokeListForPolicy(params.id);
 
@@ -107,6 +114,17 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
         </div>
       </main>
     );
+  }
+
+  if (isCallCenterHub) {
+    const map = SpokesRegistry['insurance-call-center'] ?? {};
+    const companies = Object.entries(map)
+      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+      .filter(([, s]) => (s as any).callCenter)
+      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+      .map(([slug, s]) => ({ slug, cc: (s as any).callCenter }))
+      .sort((a, b) => a.cc.name.localeCompare(b.cc.name, 'ko'));
+    return <CallCenterHub companies={companies} policyId={params.id} policy={d} />;
   }
 
   const totalQ = d.eligibility?.length || 0;

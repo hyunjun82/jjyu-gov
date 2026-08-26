@@ -170,7 +170,7 @@ export const nhPropertyCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "nh-property",
     "name": "NH농협손해보험",
-    "brandColor": "#0B8A3D",
+    "brandColor": "#0079C3",
     "official": "https://www.nhfire.co.kr",
     "sourceUrl": "https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html",
     "sourceName": "NH농협손해보험 전화상담안내",

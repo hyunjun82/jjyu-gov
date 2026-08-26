@@ -170,7 +170,7 @@ export const heungkukLifeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "heungkuk-life",
     "name": "흥국생명",
-    "brandColor": "#E60012",
+    "brandColor": "#EC008C",
     "official": "https://www.heungkuklife.co.kr",
     "sourceUrl": "https://www.heungkuklife.co.kr/jsps/front/help/customer_info_call_ars.jsp",
     "sourceName": "흥국생명 콜센터 ARS구성도",

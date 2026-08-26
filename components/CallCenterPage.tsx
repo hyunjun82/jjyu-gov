@@ -24,6 +24,8 @@ import type { SpokeData } from '@/app/policy/[id]/[spoke]/SpokeClient';
 export interface CallCenterData {
   slug: string;
   name: string;
+  /* 검색용 다른 이름 — 허브 검색창이 "디비손해보험" 으로도 찾게 해준다 */
+  aliases?: string[];
   brandColor: string;
   official: string;
   sourceUrl: string;
@@ -53,6 +55,26 @@ function mix(hex: string, target: number, amt: number) {
 }
 const darken = (hex: string, amt: number) => mix(hex, 0, amt);
 const lighten = (hex: string, amt: number) => mix(hex, 255, amt);
+
+/* CI 색을 그대로 쓰면 밝은 회사는 흰 글자가 묻힌다.
+   KB 노랑 #FBAE14 에 흰 글자를 얹으면 대비 1.88 — 햇빛 아래 폰에서 안 읽힌다.
+   색상(hue)은 건드리지 않고 읽힐 때까지만 어둡게 내린다. 삼성 남색처럼 이미 어두운 곳은 그대로 나온다. */
+function relLum(hex: string) {
+  const n = parseInt(hex.slice(1), 16);
+  const c = [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((v) => {
+    const s = v / 255;
+    return s <= 0.03928 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+}
+export function readable(hex: string, ratio = 4.5) {
+  let out = hex;
+  for (let i = 0; i < 14; i++) {
+    if (1.05 / (relLum(out) + 0.05) >= ratio) break;
+    out = darken(hex, 0.07 * (i + 1));
+  }
+  return out;
+}
 
 const telHref = (t: string) => `tel:${String(t).replace(/[^0-9+]/g, '')}`;
 
@@ -104,7 +126,9 @@ export default function CallCenterPage({
   const TINT = '#EEF3F9';   // 옅은 배경
   const EDGE = '#C9D8E8';   // 호버 테두리
 
-  const BRAND = cc.brandColor || '#1F4E79';
+  /* 히어로 카드·버튼은 이 색 위에 흰 글자를 얹는다. 그래서 읽히는 선까지 내린 값을 쓴다.
+     회사 고유색은 유지된다 — KB는 여전히 노랑 계열, 현대해상은 여전히 주황 계열이다. */
+  const BRAND = readable(cc.brandColor || '#1F4E79');
   const B_DARK = darken(BRAND, 0.42);
   const B_MID = BRAND;
   const B_LIGHT = lighten(BRAND, 0.22);

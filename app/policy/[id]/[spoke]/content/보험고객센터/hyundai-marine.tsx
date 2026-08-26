@@ -171,7 +171,7 @@ export const hyundaiMarineCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "hyundai-marine",
     "name": "현대해상",
-    "brandColor": "#00A0B0",
+    "brandColor": "#FF9D1A",
     "official": "https://www.hi.co.kr",
     "sourceUrl": "https://www.hi.co.kr/serviceAction.do?menuId=101233",
     "sourceName": "현대해상 콜센터 이용안내",

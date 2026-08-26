@@ -170,7 +170,7 @@ export const kbLifeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "kb-life",
     "name": "KB라이프생명",
-    "brandColor": "#605A56",
+    "brandColor": "#FBAE17",
     "official": "https://www.kblife.co.kr",
     "sourceUrl": "https://www.kblife.co.kr/customer-center/serviceHoursInformation.do",
     "sourceName": "KB라이프생명 이용시간 안내",

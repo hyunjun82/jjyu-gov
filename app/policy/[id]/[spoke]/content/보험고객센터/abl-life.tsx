@@ -171,7 +171,7 @@ export const ablLifeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "abl-life",
     "name": "ABL생명",
-    "brandColor": "#003781",
+    "brandColor": "#EE3124",
     "official": "https://www.abllife.co.kr",
     "sourceUrl": "https://www.abllife.co.kr/st/custDesk/utilzGudn/arsGudn/arsGudn1?page=index",
     "sourceName": "ABL생명 고객센터 안내",

@@ -170,7 +170,7 @@ export const nhisCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "nhis",
     "name": "국민건강보험공단",
-    "brandColor": "#0069B4",
+    "brandColor": "#E8342F",
     "official": "https://www.nhis.or.kr",
     "sourceUrl": "https://www.nhis.or.kr/nhis/etc/wbhaze01100m01.do",
     "sourceName": "국민건강보험공단 고객센터(1577-1000) 안내",

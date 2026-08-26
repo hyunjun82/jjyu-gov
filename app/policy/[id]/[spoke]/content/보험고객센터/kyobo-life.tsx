@@ -170,7 +170,7 @@ export const kyoboLifeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "kyobo-life",
     "name": "교보생명",
-    "brandColor": "#F58220",
+    "brandColor": "#6DB327",
     "official": "https://www.kyobo.com",
     "sourceUrl": "https://www.kyobo.com/dgt/web/customer/support/ars-guidance",
     "sourceName": "교보생명 상담전화 안내",
