@@ -1,0 +1,32 @@
+{
+  "slug": "cardif-life",
+  "name": "카디프생명",
+  "aliases": ["BNP파리바 카디프생명", "카디프", "BNP파리바카디프생명보험"],
+  "industry": "insurance",
+  "brandColor": "#00915A",
+  "official": "https://www.cardif.co.kr",
+  "sourceUrl": "https://www.cardif.co.kr/customer-center/hcwgi010.do",
+  "sourceName": "카디프생명 고객센터 이용안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "ARS 고객센터", "tel": "1688-1118" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "당사 거래 고객" },
+      { "key": "2", "what": "65세 이상 고객" },
+      { "key": "3", "what": "변액보험 전문상담" },
+      { "key": "0", "what": "당사 고객이 아닌경우" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "ARS 고객센터", "tel": "1688-1118", "note": "상담원 미연결 시 콜백 신청 가능" },
+    { "label": "해외전용", "tel": "82-2-3788-8877", "note": "국제전화 요금" }
+  ],
+  "callFee": "일반전화는 시내요금 기준으로 부과되고, 070 인터넷전화나 휴대전화는 이용자 요금제를 기준으로 부과됩니다.",
+  "hq": "서울특별시 영등포구 국회대로 612"
+}

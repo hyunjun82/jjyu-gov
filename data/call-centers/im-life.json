@@ -1,0 +1,37 @@
+{
+  "slug": "im-life",
+  "name": "iM라이프",
+  "aliases": ["아이엠라이프", "DGB생명", "iM라이프생명보험", "디지비생명"],
+  "industry": "insurance",
+  "brandColor": "#0B2C5F",
+  "official": "https://www.imlifeins.co.kr",
+  "sourceUrl": "https://www.imlifeins.co.kr/main.do",
+  "sourceName": "iM라이프 ARS 구성도",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1588-4770" },
+  "hours": {
+    "weekday": "평일 이용시간안내 : 09:00시~18:00시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "ARS 자동화 거래" },
+      { "key": "2", "what": "사고보험금 상담" },
+      { "key": "3", "what": "상담사를 통한 업무" },
+      { "key": "4", "what": "고령자 간편상담" },
+      { "key": "5", "what": "변액보험 전문상담" },
+      { "key": "6", "what": "해약업 처리" },
+      { "key": "7", "what": "장애인 전용 상담" },
+      { "key": "8", "what": "보이스피싱 문의" },
+      { "key": "9", "what": "방카 헬프데스크 상담" },
+      { "key": "0", "what": "당사계약 없는 고객" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-4770", "note": "3번 안에서 0번이면 상담사 연결" }
+  ],
+  "hq": "서울특별시 중구 소월로 10 (남대문로5가 120)",
+  "hqZip": "04527"
+}

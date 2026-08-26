@@ -1,0 +1,25 @@
+{
+  "slug": "woori-sec",
+  "name": "우리투자증권",
+  "aliases": ["우리종합금융", "우리증권", "우리투자"],
+  "industry": "securities",
+  "brandColor": "#0067AC",
+  "official": "http://fundsupermarket.wooriib.com",
+  "sourceUrl": "http://fundsupermarket.wooriib.com/main.do",
+  "sourceName": "우리투자증권 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1588-1000" },
+  "hours": {
+    "weekday": "평일 오전 8시 ~ 오후 6시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "주식·펀드·CMA·예적금 문의", "tel": "1588-1000", "note": "대표 고객센터" },
+    { "label": "연금·IRP 문의", "tel": "1644-1744", "note": "연금·퇴직연금 전용" },
+    { "label": "해외에서 전화", "tel": "82-2-6260-0500", "note": "유료" }
+  ],
+  "hq": "서울특별시 영등포구 의사당대로 96 19~22층 (여의도동, TP타워)",
+  "hqZip": "07321"
+}

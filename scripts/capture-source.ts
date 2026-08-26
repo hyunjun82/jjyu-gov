@@ -26,6 +26,12 @@ import path from 'path';
 const args = process.argv.slice(2);
 const slug = args[0];
 const urls = args.slice(1).filter((a) => /^https?:\/\//.test(a));
+/* --click "ARS 상담안내" — 눌러야 내용이 붙는 회사가 있다 (2026-08-26 푸본현대생명).
+   레이어 HTML 이 처음엔 없고 클릭할 때 AJAX 로 받아온다. 그 URL 을 직접 열면 에러 페이지가 뜬다.
+   공식 페이지에 버젓이 있는 내용을 "미공개"라고 쓰면 그게 거짓말이 된다. */
+const clickTexts = args
+  .map((a, i) => (a === '--click' ? args[i + 1] : null))
+  .filter((x): x is string => Boolean(x));
 
 if (!slug || !urls.length) {
   console.error('사용: npx tsx scripts/capture-source.ts {slug} <URL> [URL...]');
@@ -46,14 +52,54 @@ fs.mkdirSync(SHOTS, { recursive: true });
     const u = urls[i];
     const shot = path.join(SHOTS, `${slug}-${i + 1}.png`);
     try {
-      await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 45000 });
+      /* charset 을 안 내려주는 페이지가 있다 (2026-08-26 미래에셋생명).
+         그러면 크롬이 windows-1252 로 읽어서 한글이 "ìƒë‹´ì‚¬" 로 깨진다.
+         추출본이 깨지면 게이트가 "원문에 없다"고 판정해 회사를 통째로 버리게 된다.
+         응답 헤더에도 meta 에도 charset 이 없으면 UTF-8 로 못박고 다시 연다. */
+      const res = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 45000 });
+      const ctype = String(res?.headers()['content-type'] ?? '');
+      if (!/charset/i.test(ctype)) {
+        const body = await page.content();
+        if (!/<meta[^>]+charset/i.test(body)) {
+          const raw = await (await page.context().request.get(u)).body();
+          await page.setContent(
+            `<meta charset="utf-8">` + raw.toString('utf8').replace(/<meta[^>]*>/i, ''),
+            { waitUntil: 'domcontentloaded' },
+          );
+        }
+      }
       await page.waitForTimeout(2500);
+
+      for (const ct of clickTexts) {
+        const hit = await page.evaluate((t) => {
+          const el = Array.from(document.querySelectorAll('a,button,[role=button]'))
+            .find((x) => (x.textContent || '').replace(/\s+/g, ' ').includes(t));
+          if (!el) return false;
+          (el as HTMLElement).click();
+          return true;
+        }, ct).catch(() => false);
+        if (hit) await page.waitForTimeout(2000);
+        else console.log(`   ⚠ --click "${ct}" — 그런 버튼이 없다`);
+      }
+
       /* 표·아코디언이 늦게 그려지는 곳이 있어 한 번 끝까지 내렸다 올린다 */
       await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
       await page.waitForTimeout(1200);
       await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
 
-      const text = await page.evaluate(() => document.body.innerText.replace(/\n{3,}/g, '\n\n').trim());
+      let text = await page.evaluate(() => document.body.innerText.replace(/\n{3,}/g, '\n\n').trim());
+
+      /* 프레임 안에 본문을 넣는 회사가 많다 (2026-08-26 IBK투자·흥국·유화·케이프증권).
+         top document 의 innerText 는 비어 있어서 "번호가 없다"고 판정하게 된다.
+         프레임 주소를 직접 열어도 다시 프레임으로 감싸므로, 프레임 텍스트를 여기서 걷는다. */
+      for (const fr of page.frames()) {
+        if (fr === page.mainFrame()) continue;
+        const ft = await fr.evaluate(() => document.body?.innerText ?? '').catch(() => '');
+        const clean = String(ft).replace(/\n{3,}/g, '\n\n').trim();
+        if (clean.length > 40 && !text.includes(clean.slice(0, 120))) {
+          text += `\n\n----- 프레임 (${fr.url()}) -----\n${clean}`;
+        }
+      }
 
       /* 표를 따로 뜬다 (2026-08-26).
          innerText 는 rowspan 으로 묶인 셀을 빈칸으로 준다. 교보증권 상담시간이
@@ -74,6 +120,30 @@ fs.mkdirSync(SHOTS, { recursive: true });
           return rows.length ? `[표 ${i + 1}${cap ? ' — ' + cap : ''}]\n` + rows.join('\n') : '';
         }).filter(Boolean).join('\n\n'),
       ).catch(() => '');
+      /* 숨은 레이어를 따로 뜬다 (2026-08-26).
+         ARS 안내를 클릭해야 열리는 레이어에 넣어 두는 회사가 많다(처브라이프 ARS 트리 전부).
+         레이어는 HTML 에 이미 있는데 display:none 이라 innerText 가 통째로 뺀다.
+         표와 같은 사고다 — 공식 페이지에 있는 내용을 "없다"고 판정하게 된다. */
+      const layers = await page.evaluate(() => {
+        /* 클래스 이름에 기대지 않는다 — 회사마다 layer/pop/dim/tree 로 제각각이다.
+           "화면에서 감춰져 있고 글자가 들어 있는 가장 바깥 덩어리"만 고른다. */
+        const hidden: Element[] = [];
+        for (const el of Array.from(document.querySelectorAll('div,section,article,aside,dl,ul,table'))) {
+          const st = getComputedStyle(el);
+          if (st.display !== 'none' && st.visibility !== 'hidden') continue;
+          const len = (el.textContent || '').trim().length;
+          if (len < 40 || len > 8000) continue;
+          if (hidden.some((h) => h.contains(el))) continue;   /* 바깥 덩어리를 이미 담았다 */
+          hidden.push(el);
+        }
+        const shown = document.body.innerText.replace(/\s+/g, '');
+        return hidden
+          .map((el) => (el.textContent || '').replace(/[ \t]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim())
+          .filter((t) => !shown.includes(t.replace(/\s+/g, '').slice(0, 120)))
+          .filter((t, i, a) => a.indexOf(t) === i)
+          .join('\n\n');
+      }).catch(() => '');
+
       await page.screenshot({ path: shot, fullPage: true }).catch(async () => {
         await page.screenshot({ path: shot });   /* 너무 길면 보이는 화면만 */
       });
@@ -83,7 +153,8 @@ fs.mkdirSync(SHOTS, { recursive: true });
         `CAPTURED-BY: playwright (실브라우저)\n` +
         `SHOT: scripts/output/captures/${slug}-${i + 1}.png\n` +
         `CHARS: ${text.length}\n\n${text}\n` +
-        (tables ? `\n----- 표 (innerText 가 못 읽는 자리) -----\n${tables}\n` : ''),
+        (tables ? `\n----- 표 (innerText 가 못 읽는 자리) -----\n${tables}\n` : '') +
+        (layers ? `\n----- 숨은 레이어 (클릭해야 열리는 자리) -----\n${layers}\n` : ''),
       );
       const warn = text.length < 1500 ? '  ⚠ 짧다 — 원래 짧은 페이지인지 캡처로 확인해라' : '';
       console.log(`✔ ${String(text.length).padStart(6)}자${tables ? ` + 표 ${tables.split('[표 ').length - 1}개` : ''} + 캡처  ${u}${warn}`);

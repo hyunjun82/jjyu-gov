@@ -1,0 +1,17 @@
+{
+  "slug": "kasset-sec",
+  "keyword": "코리아에셋투자증권 고객센터",
+  "title": "코리아에셋투자증권 고객센터 전화번호와 상담시간, 상담원 연결",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "코리아에셋투자증권 고객센터 전화번호 모음",
+    "코리아에셋투자증권 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "코리아에셋투자증권 고객센터 위치",
+    "코리아에셋투자증권 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.kasset.co.kr/",
+  "outline": "data/call-centers/kasset-sec.json",
+  "approved": true,
+  "approvedAt": "2026-08-26"
+}

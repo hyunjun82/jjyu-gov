@@ -1,0 +1,23 @@
+{
+  "slug": "toss-sec",
+  "name": "토스증권",
+  "aliases": ["토스 증권", "토스인베스트", "tossinvest"],
+  "industry": "securities",
+  "brandColor": "#3182F6",
+  "official": "https://corp.tossinvest.com",
+  "sourceUrl": "https://corp.tossinvest.com/ko/faq",
+  "sourceName": "토스증권 고객센터 문의하기 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1599-7987" },
+  "hours": {
+    "weekday": "전화상담 평일 : 24시간 (미국 공휴일/휴장일 시 08시-22시)",
+    "night": "국내/해외 동시 휴장일 : 휴무",
+    "holiday": "공휴일 : 09시-18시, 주말 : 휴무 (보이스피싱 사고문의만 가능)"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1599-7987", "note": "전화상담은 평일 24시간" }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 133 7층 (역삼동, 한국타이어빌딩)",
+  "hqZip": "06133"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cape-sec",
+  "name": "케이프투자증권",
+  "aliases": ["케이프증권", "cape investment", "케이프투자"],
+  "industry": "securities",
+  "brandColor": "#14355E",
+  "official": "https://www.capefn.com",
+  "sourceUrl": "https://www.capefn.com/index.jsp",
+  "sourceName": "케이프투자증권 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1544-7600" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-7600", "note": "공식 홈페이지에 안내된 대표번호" }
+  ],
+  "hq": "서울특별시 영등포구 여의대로 108 파크원타워2 38층"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "yuhwa-sec",
+  "name": "유화증권",
+  "aliases": ["유화증권주식회사", "yuhwa securities"],
+  "industry": "securities",
+  "brandColor": "#0F4C81",
+  "official": "https://www.yhs.co.kr",
+  "sourceUrl": "https://www.yhs.co.kr/company/branch_headoffice.asp",
+  "sourceName": "유화증권 본사 지점안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "본사 대표전화", "tel": "02-3770-0101" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "본사 대표전화", "tel": "02-3770-0101", "note": "공식 지점안내에 표기된 번호" },
+    { "label": "팩스", "tel": "02-3770-0237", "note": "서류 발송용" }
+  ],
+  "hq": "서울특별시 영등포구 국제금융로2길 36 유화증권빌딩 2층"
+}

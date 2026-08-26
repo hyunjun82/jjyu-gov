@@ -1,0 +1,23 @@
+{
+  "slug": "kyobo-lifeplanet",
+  "name": "교보라이프플래닛",
+  "aliases": ["라이프플래닛", "교보라이프플래닛생명", "라플"],
+  "industry": "insurance",
+  "brandColor": "#00A9CE",
+  "official": "https://www.lifeplanet.co.kr",
+  "sourceUrl": "https://www.lifeplanet.co.kr/lpds2/contact/ct/CT01001S.dev",
+  "sourceName": "교보라이프플래닛 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1566-0999" },
+  "hours": {
+    "weekday": "평일 오전 9시 ~ 오후 7시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1566-0999", "note": "온라인 전업사라 번호가 하나로 통합" }
+  ],
+  "hq": "서울특별시 용산구 한강대로 35 5층",
+  "hqZip": "04379"
+}

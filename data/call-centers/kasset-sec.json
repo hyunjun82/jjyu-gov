@@ -1,0 +1,22 @@
+{
+  "slug": "kasset-sec",
+  "name": "코리아에셋투자증권",
+  "aliases": ["코리아에셋증권", "korea asset", "코리아에셋"],
+  "industry": "securities",
+  "brandColor": "#004A94",
+  "official": "https://www.kasset.co.kr",
+  "sourceUrl": "https://www.kasset.co.kr/",
+  "sourceName": "코리아에셋투자증권 공식 홈페이지",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "대표전화", "tel": "02-550-6200" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "02-550-6200", "note": "공식 홈페이지에 안내된 대표번호" }
+  ],
+  "hq": "서울특별시 영등포구 여의나루로 57 12층 (여의도동, 신송센터빌딩)"
+}

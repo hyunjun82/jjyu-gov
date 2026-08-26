@@ -47,7 +47,13 @@ if (!fs.existsSync(path.join(ROOT, SRC_FILE)))
 
 /* 추출본에 그 번호가 실제로 있는지 — 없는 번호를 글에 쓰면 사람이 잘못 건다 */
 const src = fs.readFileSync(path.join(ROOT, SRC_FILE), 'utf8').replace(/\s+/g, '');
-const missing = (C.numbers as any[]).map((n) => n.tel).filter((t: string) => !src.includes(t.replace(/\s+/g, '')));
+/* 번호는 숫자만 보고 맞춘다 (2026-08-26 AIG손해보험).
+   AIG 는 공식 페이지에 "1544.2792" 로 점을 찍어 쓴다. 하이픈 문자열로 찾으면
+   원문에 버젓이 있는 번호를 "추출본에 없다"고 판정해 회사를 통째로 버린다.
+   게이트(check-callcenter)도 숫자만 본다 — 여기만 더 빡빡하면 안 맞는다. */
+const digits = (x: string) => String(x).replace(/[^0-9]/g, '');
+const srcDigits = digits(src);
+const missing = (C.numbers as any[]).map((n) => n.tel).filter((t: string) => !srcDigits.includes(digits(t)));
 if (missing.length) die(`추출본에 없는 번호 ${missing.length}개: ${missing.join(', ')}\n   공식 페이지에서 확인되지 않은 번호는 쓰지 않는다.`);
 
 /* ── 번호만 보던 걸 셋으로 늘린다 (2026-08-25) ──
@@ -193,6 +199,10 @@ const hoursText = (v: unknown): string => String(v ?? '')
   .trim();
 
 const HW = hoursText(C.hours.weekday);
+/* 상담시간을 아예 안 적는 회사가 있다 (카디프생명·증권사 13곳).
+   시각이 하나도 없으면 "이 시간을 벗어나면" 같은 말이 성립하지 않는다.
+   경쟁사는 이런 곳에 임의로 09:00-18:00 을 적는다 — 그게 제일 위험하다. */
+const NO_HOURS = !/[0-9]/.test(HW);
 const closedHours = (v: string) => /불가|휴무|미운영|운영하지|받지\s*않|하지\s*않|쉽니다/.test(v);
 /* "토, 공휴일 제외" 처럼 시간이 아니라 단서만 적힌 값이 있다.
    문장에 넣으면 "토, 공휴일 제외에는 주문접수 위주로 돌아갑니다" 가 된다 — 뜻이 뒤집힌다. */
@@ -236,12 +246,16 @@ const OFF_CLAUSE = !OFF_TXT ? ''
    삼성생명 야간은 "상담사 연결 불가"고 건보공단 야간은 디지털ARS·셀프서비스다.
    화면 맨 위에 뜨는 문장이라 여기가 틀리면 페이지 전체가 틀린 말이 된다.
    회사 hours 에서 만든다 — 단정할 근거가 없으면 단정하지 않는다. */
-const LEAD = OFF.length === 0
+const LEAD = NO_HOURS
+  ? `공식 안내에 상담 가능 시간이 따로 표기돼 있지 않습니다`
+  : OFF.length === 0
   ? `이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다`
   : OFF_OPEN
     ? `${IND.offhour}는 야간·공휴일에도 접수됩니다`
     : '야간·공휴일 운영은 공식 안내에 따로 적혀 있습니다';
-const META_NIGHT = OFF.length === 0
+const META_NIGHT = NO_HOURS
+  ? '공식 안내에 상담 가능 시간 표기 없음'
+  : OFF.length === 0
   ? `${IND.agent} 연결은 이 시간 안에서만 됩니다`
   : OFF_OPEN
     ? `야간·공휴일에는 ${IND.offhour} 중심으로 접수됩니다`
@@ -251,21 +265,35 @@ const META_NIGHT = OFF.length === 0
    "{night} 과 {holiday} 에는 사고접수·긴급출동 위주로 돌아갑니다" 로 박혀 있었다.
    SpokeClient 주석이 이미 경고한 그대로다 — 코드에 문장을 박으면 전 스포크가 같아진다.
    건보공단 야간은 디지털ARS·셀프서비스인데 사고접수라고 떴다(2026-08-26 사장님 캡처). */
-const OFFHOUR_NOTE = `${OFF.length === 0
+const OFFHOUR_NOTE = `${NO_HOURS
+  ? `${C.name} 공식 안내에는 상담 가능 시간이 적혀 있지 않습니다. 임의로 짐작해 적지 않으니, 통화 전 공식 홈페이지에서 한 번 더 확인하세요.`
+  : OFF.length === 0
   ? `공식 안내 기준으로 ${HW}${josa(HW, '을')} 벗어나면 ${IND.agent} 연결이 안 됩니다.`
-  : [OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} ${IND.dayNote}`;
+  : [OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}${NO_HOURS ? '' : ' ' + IND.dayNote}`;
 
-const HOOK_TIME = OFF.length === 0
+/* 서론 첫 문장 — 시간 표기가 없는 회사는 "운영시간은 …표기 없음이며 …표기돼 있지 않습니다" 로
+   같은 말을 두 번 하게 된다. 절 자체를 뺀다. */
+const INTRO_FACT = NO_HOURS
+  ? `${C.name} 고객센터 대표번호는 ${C.main.tel}입니다. ${LEAD}`
+  : `${C.name} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${C.hours.weekday}이며 ${LEAD}`;
+
+const HOOK_TIME = NO_HOURS
+  ? `공식 안내에 상담 가능 시간이 적혀 있지 않습니다.`
+  : OFF.length === 0
   ? `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, 그 밖의 시간에는 ${IND.agent} 연결이 안 됩니다.`
   : `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`;
 
-const Q3_INTRO = OFF_OPEN
+const Q3_INTRO = NO_HOURS
+  ? `${C.name} 공식 안내에는 ${IND.agent} 상담 가능 시간이 표기돼 있지 않습니다. 다른 곳에서 본 시간을 옮겨 적으면 헛걸음이 되므로, 여기서는 없는 시간을 만들어 쓰지 않습니다. 대표번호로 걸어 ARS 안내를 듣는 편이 가장 확실합니다.`
+  : OFF_OPEN
   ? `${IND.agent} 상담은 ${HW}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${OFF_TXT}에는 별도 ARS 가 돌아가서 ${IND.offhourLong} 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.`
   : OFF.length > 0
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} 다만 이 시간에 ${IND.agent} 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 ${HW} 안에 거시는 편이 확실합니다.`
     : `${IND.agent} 상담은 ${HW}입니다. 공식 안내 기준으로 이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다. 야간·공휴일 운영 표기가 따로 없으니, 급한 용건도 ${HW} 안에 거셔야 합니다.`;
 
-const FAQ_HOURS = OFF_OPEN
+const FAQ_HOURS = NO_HOURS
+  ? `${C.name} 공식 안내에는 상담 가능 시간이 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하시는 편이 확실합니다.`
+  : OFF_OPEN
   ? `${IND.agent} 상담은 ${HW}입니다. ${OFF_TXT}에는 ${IND.offhour} 중심의 ARS 가 운영됩니다.`
   : OFF.length > 0
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`
@@ -381,7 +409,7 @@ export const ${exportName}: SpokeData = {
   h1: '${q(IND.h1(C.name))}',
   breadcrumb: '${q(C.name)} 고객센터',
   description:
-    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 ${q(LEAD)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
+    '${q(INTRO_FACT)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   datePublished: '${C.verifiedAt}T09:00:00+09:00',
   /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
@@ -391,7 +419,7 @@ export const ${exportName}: SpokeData = {
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:
-    '${q(C.name)} 고객센터 대표번호는 ${C.main.tel}, 상담 운영시간은 ${q(C.hours.weekday)}이며 ${q(LEAD)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
+    '${q(INTRO_FACT)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   heroAct: { label: '${q(pick(HERO_LABELS))}', href: TEL },
 
   keyFacts: {

@@ -1,0 +1,35 @@
+{
+  "slug": "fubon-hyundai",
+  "name": "푸본현대생명",
+  "aliases": ["푸본현대", "푸본현대생명보험", "현대라이프"],
+  "industry": "insurance",
+  "brandColor": "#00539B",
+  "official": "https://www.fubonhyundai.com",
+  "sourceUrl": "https://www.fubonhyundai.com/",
+  "sourceName": "푸본현대생명 ARS 상담안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1577-3311" },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "ARS 이용시간 : 365일 24시간 가능",
+    "holiday": "ARS 이용시간 : 365일 24시간 가능",
+    "lunch": "점심시간 12 ~ 13시, 통화량이 많은 15 ~ 16시 사이는 상담원연결이 어려울 수 있습니다."
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "보이스피싱 피해 신고문의" },
+      { "key": "2", "what": "보험계약대출, 보험료 납입" },
+      { "key": "3", "what": "입원, 수술 등 사고보험금 문의" },
+      { "key": "4", "what": "해피콜 상담 문의" },
+      { "key": "0", "what": "상담사 연결" },
+      { "key": "1004", "what": "장애고객 전문상담사 연결" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "고객센터", "tel": "1577-3311", "note": "ARS 후 0번이면 상담사" },
+    { "label": "해외에서 전화", "tel": "82-2-3284-7000", "note": "국제전화 요금" }
+  ],
+  "callFee": "일반전화는 3분당 39원(시내통화요금), 휴대폰과 인터넷전화는 통신사와 약정된 요금제 기준으로 부과됩니다.",
+  "hq": "서울특별시 영등포구 여의나루로 57"
+}

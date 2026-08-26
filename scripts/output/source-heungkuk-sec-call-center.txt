@@ -1,0 +1,64 @@
+SLUG: heungkuk-sec-call-center
+RECEIVED: 2026-08-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/heungkuk-sec-call-center-*.png)
+
+===== [1] https://www.heungkuksec.co.kr/jsp/customer/c_process.jsp =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/heungkuk-sec-call-center-1.png
+CHARS: 251
+
+HOME SITEMAP  
+회사소개
+사업영역
+금융상품
+리서치
+고객센터
+
+  
+HOME 고객센터 소비자포털 금융소비자보호체계
+
+흥국증권
+
+서울특별시 종로구 새문안로 68 (신문로1가,흥국생명빌딩 19층) TEL 02-6742-3600 FAX 02-6742-3629 E-MAIL : webmaster@heungkuksec.co.kr
+
+COPYRIGHT©2008 by HEUNGKUK SECURITIES CO.LTD. ALL RIGHTS RESERVED.
+
+
+===== [2] https://www.heungkuksec.co.kr/index.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/heungkuk-sec-call-center-2.png
+CHARS: 1017
+
+HOME SITEMAP  
+회사소개
+사업영역
+금융상품
+리서치
+고객센터
+공지사항
+[Fri Oct 24 00:00:00 KST 2025] 최선집행기준 설명서 안내
+[Tue Jul 28 00:00:00 KST 2026] 불법사금융 피해예방 및 ...
+[Wed Jul 01 00:00:00 KST 2026] 금감원-서울시, 보이스피...
+[Thu Jun 25 00:00:00 KST 2026] (소비자경보 2026-1...
+최신 리포트
+[Tue Aug 25 00:00:00 KST 2026] [제약·바이오/화장품]S...
+[Tue Aug 25 00:00:00 KST 2026] [상사/지주/유통] 삼성...
+[Fri Aug 21 00:00:00 KST 2026] [스몰캡/IPO] 롯데웰...
+[Thu Aug 20 00:00:00 KST 2026] [자동차] Unitree...
+흥국증권뉴스
+[Tue Sep 01 00:00:00 KST 2020] 흥국증권, IB 틈새시장...
+[Wed Aug 26 00:00:00 KST 2020] 제일병원 이어 이스타항공...
+[Thu Nov 07 00:00:00 KST 2019] 흥국증권, 기업회생 틈새...
+[Thu Sep 26 00:00:00 KST 2019] 제일의료재단 회생계획안 ...
+채용뉴스
+[Fri Mar 13 00:00:00 KST 2026] 리서치센터 신입RA 모집...
+[Thu Sep 04 00:00:00 KST 2025] 에널리스트(경력) 모집요...
+[Thu Sep 04 00:00:00 KST 2025] 리서치센터 신입RA 모집...
+[Thu Jan 16 00:00:00 KST 2025] 프로젝트금융본부 인턴사원...
+
+흥국증권
+
+서울특별시 영등포구 국제금융로2길 32 (여의도동, 여의도파이낸스타워 14층) TEL 02-6742-3600 FAX 02-6742-3629 E-MAIL : webmaster@heungkuksec.co.kr
+
+COPYRIGHTⓒ2008 by HEUNGKUK SECURITIES CO.LTD. ALL RIGHTS RESERVED.

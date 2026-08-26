@@ -1,0 +1,23 @@
+{
+  "slug": "lina-insurance",
+  "name": "라이나손해보험",
+  "aliases": ["처브손해보험", "에이스손해보험", "에이스아메리칸화재해상보험", "Chubb 손해보험", "라이나손보"],
+  "industry": "insurance",
+  "brandColor": "#1B3A6B",
+  "official": "https://www.chubb.com/kr-kr/",
+  "sourceUrl": "https://www.chubb.com/kr-kr/",
+  "sourceName": "라이나손해보험 공식 홈페이지",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1566-5800" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1566-5800", "note": "공식 홈페이지에 안내된 대표번호" }
+  ],
+  "hq": "서울특별시 종로구 삼봉로 48 라이나타워 14, 15층",
+  "hqZip": "03156"
+}

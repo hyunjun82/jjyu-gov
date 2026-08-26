@@ -1,0 +1,23 @@
+{
+  "slug": "ds-sec",
+  "name": "DS투자증권",
+  "aliases": ["디에스투자증권", "DS증권", "ds securities"],
+  "industry": "securities",
+  "brandColor": "#1A3E76",
+  "official": "https://www.ds-sec.co.kr",
+  "sourceUrl": "https://www.ds-sec.co.kr/",
+  "sourceName": "DS투자증권 공식 홈페이지",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "대표전화", "tel": "02-709-2300" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "02-709-2300", "note": "공식 홈페이지에 안내된 대표번호" },
+    { "label": "팩스", "tel": "02-709-2892", "note": "서류 발송용" }
+  ],
+  "hq": "서울특별시 영등포구 국제금융로 10 (여의도동, Three IFC) 13층"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "tongyang-life",
+  "name": "동양생명",
+  "aliases": ["수호천사 동양생명", "동양생명보험"],
+  "industry": "insurance",
+  "brandColor": "#0B4DA2",
+  "official": "https://www.myangel.co.kr",
+  "sourceUrl": "https://www.myangel.co.kr/cscntr/csCallCetrVArs",
+  "sourceName": "동양생명 콜센터 이용안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "콜센터", "tel": "1577-1004" },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "ARS : 평일/휴일 08:00~23:00",
+    "holiday": "ARS : 평일/휴일 08:00~23:00"
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "간편보험계약대출 안내" },
+      { "key": "2", "what": "보험료 입금 및 자동이체 신청 안내" },
+      { "key": "3", "what": "증명서 및 서류발급 안내" },
+      { "key": "4", "what": "보험금 청구 안내" },
+      { "key": "5", "what": "온라인창구 안내" },
+      { "key": "6", "what": "창구위치 안내" },
+      { "key": "7", "what": "신계약 해피콜 안내" },
+      { "key": "8", "what": "보이스피싱 신고 안내" },
+      { "key": "9", "what": "상담원 연결" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "대표번호", "tel": "1577-1004", "note": "ARS 후 9번이면 상담원" },
+    { "label": "퇴직연금", "tel": "1899-4707", "note": "평일 09:00~17:00" },
+    { "label": "해외에서 전화", "tel": "82-2-2047-2000", "note": "국제전화 요금" }
+  ],
+  "callFee": "유선전화는 3분당 42.9원(시내요금), 휴대폰은 통신사와 약정한 요금제 기준으로 부과됩니다.",
+  "hq": "서울특별시 종로구 종로 33 (동양생명보험)",
+  "hqZip": "03159"
+}

@@ -165,6 +165,19 @@ export const securitiesCallCenterPolicy = {
 } as const;
 
 export const securitiesCallCenterSpokes = [
+  { slug: 'next-sec', role: 'eligibility', title: '넥스트증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'kasset-sec', role: 'eligibility', title: '코리아에셋투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'cape-sec', role: 'eligibility', title: '케이프투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'yuhwa-sec', role: 'eligibility', title: '유화증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'ds-sec', role: 'eligibility', title: 'DS투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'bookook-sec', role: 'eligibility', title: '부국증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'heungkuk-sec', role: 'eligibility', title: '흥국증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'leading-sec', role: 'eligibility', title: '리딩투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'bnk-sec', role: 'eligibility', title: 'BNK투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'woori-sec', role: 'eligibility', title: '우리투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'toss-sec', role: 'eligibility', title: '토스증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'kakaopay-sec', role: 'eligibility', title: '카카오페이증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'ibk-sec', role: 'eligibility', title: 'IBK투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'yuanta', role: 'eligibility', title: '유안타증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'sk-sec', role: 'eligibility', title: 'SK증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'shinyoung', role: 'eligibility', title: '신영증권 고객센터 전화번호와 상담시간, 상담원 연결' },

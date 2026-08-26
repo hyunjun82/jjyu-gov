@@ -1,0 +1,17 @@
+{
+  "slug": "bookook-sec",
+  "keyword": "부국증권 고객센터",
+  "title": "부국증권 고객센터 전화번호와 상담시간, 상담원 연결",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "부국증권 고객센터 전화번호 모음",
+    "부국증권 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "부국증권 고객센터 위치",
+    "부국증권 고객센터 지역별로 찾기"
+  ],
+  "source": "http://www.bookook.co.kr/",
+  "outline": "data/call-centers/bookook-sec.json",
+  "approved": true,
+  "approvedAt": "2026-08-26"
+}

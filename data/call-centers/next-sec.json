@@ -1,0 +1,25 @@
+{
+  "slug": "next-sec",
+  "name": "넥스트증권",
+  "aliases": ["Next Securities", "넥스트증권주식회사", "구 이베스트파생"],
+  "industry": "securities",
+  "brandColor": "#1C2E4A",
+  "official": "https://www.next-securities.com",
+  "sourceUrl": "https://www.next-securities.com/content/Getcontent.do?content=4000130",
+  "sourceName": "넥스트증권 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "대표 ARS", "tel": "02-788-7035" },
+  "hours": {
+    "weekday": "24시간 고객지원센터 이용 및 문의",
+    "night": "평일 야간: 18:00 ~ 익일 08:00",
+    "holiday": "토/일요일, 공휴일: 24시간"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표 ARS", "tel": "02-788-7035", "note": "야간 사기계좌 지급정지도 이 번호" },
+    { "label": "국내입출금문의", "tel": "02-788-7066", "note": "주간 사기계좌 지급정지도 이 번호" },
+    { "label": "해외입출금문의", "tel": "02-788-7061", "note": "해외 입출금 전용" },
+    { "label": "해외비전산거래문의", "tel": "02-788-7134", "note": "LME, FFA 등 장외상품" }
+  ],
+  "hq": "서울특별시 영등포구 국제금융로 10 Three IFC 15층"
+}

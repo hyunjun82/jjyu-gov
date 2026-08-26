@@ -1,0 +1,23 @@
+{
+  "slug": "ibk-sec",
+  "name": "IBK투자증권",
+  "aliases": ["아이비케이투자증권", "IBK증권", "기업은행 증권"],
+  "industry": "securities",
+  "brandColor": "#0067AC",
+  "official": "https://www.ibks.com",
+  "sourceUrl": "https://www.ibks.com/main.do",
+  "sourceName": "IBK투자증권 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1544-0050" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-0050", "note": "공식 홈페이지에 안내된 대표번호" },
+    { "label": "고객센터 (다른 번호)", "tel": "1588-0030", "note": "1544-0050과 함께 안내되는 번호" },
+    { "label": "해외주식", "tel": "02-6915-2900", "note": "해외주식 전용" }
+  ]
+}

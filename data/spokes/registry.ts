@@ -1491,9 +1491,49 @@ import { imSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { krSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kr-sec';
 import { hanyangSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/hanyang-sec';
 import { kyoboSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kyobo-sec';
+import { miraeassetLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/miraeasset-life';
+import { tongyangLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/tongyang-life';
+import { dbLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/db-life';
+import { chubbLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/chubb-life';
+import { fubonHyundaiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/fubon-hyundai';
+import { ibkPensionCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/ibk-pension';
+import { kyoboLifeplanetCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kyobo-lifeplanet';
+import { cardifLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/cardif-life';
+import { yebyeolCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/yebyeol';
+import { aigInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/aig-insurance';
+import { linaInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/lina-insurance';
+import { imLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/im-life';
+import { ibkSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/ibk-sec';
+import { kakaopaySecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kakaopay-sec';
+import { tossSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/toss-sec';
+import { wooriSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/woori-sec';
+import { bnkSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/bnk-sec';
+import { leadingSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/leading-sec';
+import { heungkukSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/heungkuk-sec';
+import { bookookSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/bookook-sec';
+import { dsSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/ds-sec';
+import { yuhwaSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/yuhwa-sec';
+import { capeSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/cape-sec';
+import { kassetSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kasset-sec';
+import { nextSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/next-sec';
+import { carrotCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/carrot';
+import { hanwhaInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hanwha-insurance';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'securities-call-center': {
+    'next-sec': nextSecCallCenterSpokeContent,
+    'kasset-sec': kassetSecCallCenterSpokeContent,
+    'cape-sec': capeSecCallCenterSpokeContent,
+    'yuhwa-sec': yuhwaSecCallCenterSpokeContent,
+    'ds-sec': dsSecCallCenterSpokeContent,
+    'bookook-sec': bookookSecCallCenterSpokeContent,
+    'heungkuk-sec': heungkukSecCallCenterSpokeContent,
+    'leading-sec': leadingSecCallCenterSpokeContent,
+    'bnk-sec': bnkSecCallCenterSpokeContent,
+    'woori-sec': wooriSecCallCenterSpokeContent,
+    'toss-sec': tossSecCallCenterSpokeContent,
+    'kakaopay-sec': kakaopaySecCallCenterSpokeContent,
+    'ibk-sec': ibkSecCallCenterSpokeContent,
     'kyobo-sec': kyoboSecCallCenterSpokeContent,
     'hanyang-sec': hanyangSecCallCenterSpokeContent,
     'kr-sec': krSecCallCenterSpokeContent,
@@ -1520,6 +1560,20 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'kiwoom': kiwoomCallCenterSpokeContent,
   },
   'insurance-call-center': {
+    'hanwha-insurance': hanwhaInsuranceCallCenterSpokeContent,
+    'carrot': carrotCallCenterSpokeContent,
+    'im-life': imLifeCallCenterSpokeContent,
+    'lina-insurance': linaInsuranceCallCenterSpokeContent,
+    'aig-insurance': aigInsuranceCallCenterSpokeContent,
+    'yebyeol': yebyeolCallCenterSpokeContent,
+    'cardif-life': cardifLifeCallCenterSpokeContent,
+    'kyobo-lifeplanet': kyoboLifeplanetCallCenterSpokeContent,
+    'ibk-pension': ibkPensionCallCenterSpokeContent,
+    'fubon-hyundai': fubonHyundaiCallCenterSpokeContent,
+    'chubb-life': chubbLifeCallCenterSpokeContent,
+    'db-life': dbLifeCallCenterSpokeContent,
+    'tongyang-life': tongyangLifeCallCenterSpokeContent,
+    'miraeasset-life': miraeassetLifeCallCenterSpokeContent,
     'sgi': sgiCallCenterSpokeContent,
     'shinhan-life': shinhanLifeCallCenterSpokeContent,
     'aia-life': aiaLifeCallCenterSpokeContent,

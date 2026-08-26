@@ -1,0 +1,22 @@
+{
+  "slug": "carrot",
+  "name": "한화손보 캐롯",
+  "aliases": ["캐롯손해보험", "캐롯손보", "캐롯", "Carrot", "캐롯퍼마일"],
+  "industry": "insurance",
+  "brandColor": "#FF6B00",
+  "official": "https://www.carrotins.com",
+  "sourceUrl": "https://www.carrotins.com/",
+  "sourceName": "한화손보 캐롯 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "캐롯고객센터", "tel": "1566-0300" },
+  "hours": {
+    "weekday": "평일 9:00-18:00 (주말, 공휴일 휴무)",
+    "night": "자동차사고접수 365일 24시간",
+    "holiday": "자동차사고접수 365일 24시간"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "캐롯고객센터", "tel": "1566-0300", "note": "평일 9:00-18:00, 주말·공휴일 휴무" }
+  ],
+  "hq": "서울특별시 영등포구 여의대로 56 (여의도동)"
+}

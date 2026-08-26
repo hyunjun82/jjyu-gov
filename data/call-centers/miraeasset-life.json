@@ -1,0 +1,36 @@
+{
+  "slug": "miraeasset-life",
+  "name": "미래에셋생명",
+  "aliases": ["미래에셋 생명", "미래에셋생명보험"],
+  "industry": "insurance",
+  "brandColor": "#F26F21",
+  "official": "https://life.miraeasset.com",
+  "sourceUrl": "https://life.miraeasset.com/html/home/portal/MO-HO-030802-010000.html",
+  "sourceName": "미래에셋생명 ARS 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1588-0220" },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "토·일요일 및 공휴일 휴무"
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "사고보험금 접수" },
+      { "key": "2", "what": "보험료 납입을 위한 가상계좌 발급" },
+      { "key": "3", "what": "빠른조회 및 지급 서비스" },
+      { "key": "4", "what": "변액보험 관련 전문상담" },
+      { "key": "5", "what": "장애인 및 고령고객님 전문상담" },
+      { "key": "6", "what": "금융사기예방서비스 신청" },
+      { "key": "0", "what": "상담원 연결" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "대표번호", "tel": "1588-0220", "note": "ARS 후 0번이면 상담원" },
+    { "label": "해외에서 전화", "tel": "82-2-1588-0220", "note": "국제전화 요금" },
+    { "label": "대출전문상담사", "tel": "1670-4750", "note": "보험계약대출·신용대출" }
+  ],
+  "hq": "서울특별시 마포구 만리재로 24 (신공덕동, 미래에셋생명빌딩)",
+  "hqZip": "04195"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "aig-insurance",
+  "name": "AIG손해보험",
+  "aliases": ["AIG손보", "에이아이지손해보험", "AIG"],
+  "industry": "insurance",
+  "brandColor": "#003DA5",
+  "official": "https://www.aig.co.kr",
+  "sourceUrl": "https://www.aig.co.kr/wc/dpwcm001.html",
+  "sourceName": "AIG손해보험 소비자광장",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1544-2792" },
+  "hours": {
+    "weekday": "평일: 오전 09:00 – 오후 6:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-2792", "note": "계약조회 및 보상문의" },
+    { "label": "상품 가입 문의", "tel": "080-0365-119", "note": "수신자부담" },
+    { "label": "영어 상담", "tel": "1544-0911", "note": "For English" },
+    { "label": "해외에서 전화", "tel": "82-2-6025-7350", "note": "국제전화 요금" },
+    { "label": "해피콜센터", "tel": "1600-4600", "note": "완전판매 모니터링" }
+  ],
+  "hq": "서울특별시 영등포구 국제금융로 10 국제금융센터 Two IFC 27층",
+  "hqZip": "07326"
+}

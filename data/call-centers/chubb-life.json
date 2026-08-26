@@ -1,0 +1,35 @@
+{
+  "slug": "chubb-life",
+  "name": "처브라이프생명",
+  "aliases": ["처브라이프", "처브라이프생명보험", "Chubb Life"],
+  "industry": "insurance",
+  "brandColor": "#1B3D6D",
+  "official": "https://www.chubblife.co.kr",
+  "sourceUrl": "https://www.chubblife.co.kr/index.do",
+  "sourceName": "처브라이프생명 ARS 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객센터", "tel": "1599-4600" },
+  "hours": {
+    "weekday": "평일 오전 9시 ~ 오후 6시 [공휴일 제외]",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공휴일 제외"
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "ARS 간편서비스" },
+      { "key": "1-1", "what": "해약환급금 조회" },
+      { "key": "1-2", "what": "대출가능금액 조회" },
+      { "key": "1-3", "what": "보험료 납입조회" },
+      { "key": "1-4", "what": "보험금 지급내역 조회" },
+      { "key": "1-5", "what": "가상계좌발급" },
+      { "key": "0", "what": "상담사 연결" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "고객센터", "tel": "1599-4600", "note": "ARS 후 0번이면 상담사" },
+    { "label": "팩스", "tel": "02-2107-4700", "note": "서류 발송용" }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 401 남경센타 11층",
+  "hqZip": "06162"
+}

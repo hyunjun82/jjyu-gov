@@ -1,0 +1,25 @@
+{
+  "slug": "hanwha-insurance",
+  "name": "한화손해보험",
+  "aliases": ["한화손보", "한화손해보험주식회사", "한화 다이렉트"],
+  "industry": "insurance",
+  "brandColor": "#F37021",
+  "official": "https://www.hwgeneralins.com",
+  "sourceUrl": "https://www.hwgeneralins.com/",
+  "sourceName": "한화손해보험 공식 홈페이지 고객상담센터 안내",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "고객상담센터", "tel": "1566-8000" },
+  "hours": {
+    "weekday": "평일9시~18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객상담센터", "tel": "1566-8000", "note": "보상·기계약문의, 평일9시~18시" },
+    { "label": "장기직영센터", "tel": "1522-4445", "note": "보험가입상담, 평일9시~18시" },
+    { "label": "보험 전문가 전화상담", "tel": "1644-5502", "note": "평일 09시 ~ 18시" }
+  ],
+  "hq": "서울특별시 영등포구 여의대로 56 (여의도동)",
+  "hqZip": "07325"
+}

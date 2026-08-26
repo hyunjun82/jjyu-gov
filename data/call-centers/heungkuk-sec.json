@@ -1,0 +1,23 @@
+{
+  "slug": "heungkuk-sec",
+  "name": "흥국증권",
+  "aliases": ["흥국투자증권", "heungkuk securities"],
+  "industry": "securities",
+  "brandColor": "#0B4EA2",
+  "official": "https://www.heungkuksec.co.kr",
+  "sourceUrl": "https://www.heungkuksec.co.kr/jsp/customer/c_process.jsp",
+  "sourceName": "흥국증권 금융소비자보호체계",
+  "verifiedAt": "2026-08-26",
+  "main": { "label": "대표전화", "tel": "02-6742-3600" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "02-6742-3600", "note": "공식 홈페이지에 안내된 대표번호" },
+    { "label": "팩스", "tel": "02-6742-3629", "note": "서류 발송용" }
+  ],
+  "hq": "서울특별시 영등포구 국제금융로2길 32 (여의도동, 여의도파이낸스타워 14층)"
+}
