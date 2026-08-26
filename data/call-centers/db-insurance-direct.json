@@ -1,0 +1,23 @@
+{
+  "slug": "db-insurance-direct",
+  "name": "DB손해보험 다이렉트",
+  "aliases": ["DB다이렉트", "디비손해보험 다이렉트", "DB손보 다이렉트", "동부화재 다이렉트"],
+  "industry": "insurance",
+  "brandColor": "#00A04A",
+  "official": "https://m.directdb.co.kr",
+  "sourceUrl": "https://m.directdb.co.kr/comm/spt/serviceGuideView.do",
+  "sourceName": "DB손해보험 다이렉트 고객센터 이용안내",
+  "verifiedAt": "2026-08-27",
+  "main": { "label": "인터넷 고객지원센터", "tel": "1600-0100" },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "토요일 09:00~13:00"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "인터넷 고객지원센터", "tel": "1600-0100", "note": "고장·긴급출동요청, 사고접수, 증명서발급, 가입문의" },
+    { "label": "DB손해보험 고객상담센터", "tel": "1588-0100", "note": "자동차고장 긴급출동, 사고접수, 보험계약 상담, 대출, 안내" }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 432 DB금융센터"
+}

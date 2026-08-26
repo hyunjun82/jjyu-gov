@@ -1537,6 +1537,11 @@ import { suhyupCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { scCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/sc-card';
 import { kfccCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/kfcc-card';
 import { cuCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/카드고객센터/cu-card';
+import { samsungFireDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/samsung-fire-direct';
+import { hyundaiMarineDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hyundai-marine-direct';
+import { kbInsuranceDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kb-insurance-direct';
+import { dbInsuranceDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/db-insurance-direct';
+import { nhPropertyDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/nh-property-direct';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'card-call-center': {
@@ -1600,6 +1605,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'kiwoom': kiwoomCallCenterSpokeContent,
   },
   'insurance-call-center': {
+    'nh-property-direct': nhPropertyDirectCallCenterSpokeContent,
+    'db-insurance-direct': dbInsuranceDirectCallCenterSpokeContent,
+    'kb-insurance-direct': kbInsuranceDirectCallCenterSpokeContent,
+    'hyundai-marine-direct': hyundaiMarineDirectCallCenterSpokeContent,
+    'samsung-fire-direct': samsungFireDirectCallCenterSpokeContent,
     'hanwha-insurance': hanwhaInsuranceCallCenterSpokeContent,
     'carrot': carrotCallCenterSpokeContent,
     'im-life': imLifeCallCenterSpokeContent,

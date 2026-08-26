@@ -154,6 +154,12 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'hana-insurance', role: 'eligibility', title: '하나손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'nh-property-direct', role: 'eligibility', title: 'NH농협손해보험 다이렉트 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'db-insurance-direct', role: 'eligibility', title: 'DB손해보험 다이렉트 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'kb-insurance-direct', role: 'eligibility', title: 'KB손해보험 다이렉트 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'hyundai-marine-direct', role: 'eligibility', title: '현대해상 다이렉트 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'samsung-fire-direct', role: 'eligibility', title: '삼성화재 다이렉트 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'yebyeol', role: 'eligibility', title: '예별손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'tongyang-life', role: 'eligibility', title: '동양생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'shinhan-life', role: 'eligibility', title: '신한라이프 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
@@ -183,7 +189,6 @@ export const insuranceCallCenterSpokes = [
   { slug: 'hanwha-life', role: 'eligibility', title: '한화생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'hanwha-insurance', role: 'eligibility', title: '한화손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'hana-life', role: 'eligibility', title: '하나생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
-  { slug: 'hana-insurance', role: 'eligibility', title: '하나손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'fubon-hyundai', role: 'eligibility', title: '푸본현대생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'db-life', role: 'eligibility', title: 'DB생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'db-insurance', role: 'eligibility', title: 'DB손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },

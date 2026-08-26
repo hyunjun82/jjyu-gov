@@ -1,0 +1,83 @@
+SLUG: meritz-fire-direct-call-center
+RECEIVED: 2026-08-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/meritz-fire-direct-call-center-*.png)
+
+===== [1] https://direct.meritzfire.com/customer/CustomerCenter.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/meritz-fire-direct-call-center-1.png
+CHARS: 181
+
+Web firewall security policies have been blocked.
+Detect time	2026-08-27 08:29:05
+Detect client IP	121.124.185.30
+Detect URL	https://direct.meritzfire.com/customer/customercenter.do
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+Detect time | 2026-08-27 08:29:05
+Detect client IP | 121.124.185.30
+Detect URL | https://direct.meritzfire.com/customer/customercenter.do
+
+
+===== [2] https://direct.meritzfire.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/meritz-fire-direct-call-center-2.png
+CHARS: 155
+
+Web firewall security policies have been blocked.
+Detect time	2026-08-27 08:29:09
+Detect client IP	121.124.185.30
+Detect URL	https://direct.meritzfire.com/
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+Detect time | 2026-08-27 08:29:09
+Detect client IP | 121.124.185.30
+Detect URL | https://direct.meritzfire.com/
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: meritz-fire-direct-call-center
+RECEIVED: 2026-08-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/meritz-fire-direct-call-center-*.png)
+
+===== [1] https://direct.meritzfire.com/main.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/meritz-fire-direct-call-center-1.png
+CHARS: 162
+
+Web firewall security policies have been blocked.
+Detect time	2026-08-27 08:24:41
+Detect client IP	121.124.185.30
+Detect URL	https://direct.meritzfire.com/main.do
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+Detect time | 2026-08-27 08:24:41
+Detect client IP | 121.124.185.30
+Detect URL | https://direct.meritzfire.com/main.do
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: meritz-fire-direct-call-center
+RECEIVED: 2026-08-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/meritz-fire-direct-call-center-*.png)
+
+===== [1] https://direct.meritzfire.com/main.do#!/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/meritz-fire-direct-call-center-1.png
+CHARS: 162
+
+Web firewall security policies have been blocked.
+Detect time	2026-08-27 08:22:20
+Detect client IP	121.124.185.30
+Detect URL	https://direct.meritzfire.com/main.do
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+Detect time | 2026-08-27 08:22:20
+Detect client IP | 121.124.185.30
+Detect URL | https://direct.meritzfire.com/main.do

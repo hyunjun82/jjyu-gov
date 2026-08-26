@@ -1,0 +1,37 @@
+{
+  "slug": "nh-property-direct",
+  "name": "NH농협손해보험 다이렉트",
+  "aliases": [
+    "농협손보 다이렉트",
+    "NH다이렉트",
+    "농협 다이렉트보험"
+  ],
+  "industry": "insurance",
+  "brandColor": "#00A04A",
+  "official": "https://www.nhfire.co.kr",
+  "sourceUrl": "https://www.nhfire.co.kr/direct/index.nhfire",
+  "sourceName": "NH농협손해보험 다이렉트 가입상담 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "다이렉트보험 가입상담",
+    "tel": "1644-8470"
+  },
+  "hours": {
+    "weekday": "다이렉트 보험 가입문의 (평일 09:00~18:00)",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "다이렉트보험 가입상담",
+      "tel": "1644-8470",
+      "note": "다이렉트 보험 가입문의, 평일 09:00~18:00"
+    }
+  ],
+  "hq": "서울특별시 서대문구 충정로 60",
+  "hqZip": "03740"
+}
