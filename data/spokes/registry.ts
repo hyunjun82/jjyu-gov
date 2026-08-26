@@ -1486,9 +1486,19 @@ import { skSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { sangsanginCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/sangsangin';
 import { kbSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kb-sec';
 import { nhInvestCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/nh-invest';
+import { daolCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/daol';
+import { imSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/im-sec';
+import { krSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kr-sec';
+import { hanyangSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/hanyang-sec';
+import { kyoboSecCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/kyobo-sec';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'securities-call-center': {
+    'kyobo-sec': kyoboSecCallCenterSpokeContent,
+    'hanyang-sec': hanyangSecCallCenterSpokeContent,
+    'kr-sec': krSecCallCenterSpokeContent,
+    'im-sec': imSecCallCenterSpokeContent,
+    'daol': daolCallCenterSpokeContent,
     'nh-invest': nhInvestCallCenterSpokeContent,
     'kb-sec': kbSecCallCenterSpokeContent,
     'sangsangin': sangsanginCallCenterSpokeContent,

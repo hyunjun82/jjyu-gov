@@ -165,6 +165,11 @@ export const securitiesCallCenterPolicy = {
 } as const;
 
 export const securitiesCallCenterSpokes = [
+  { slug: 'kyobo-sec', role: 'eligibility', title: '교보증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'hanyang-sec', role: 'eligibility', title: '한양증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'kr-sec', role: 'eligibility', title: 'KR투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'im-sec', role: 'eligibility', title: 'iM증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'daol', role: 'eligibility', title: '다올투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'yuanta', role: 'eligibility', title: '유안타증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'sk-sec', role: 'eligibility', title: 'SK증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'shinyoung', role: 'eligibility', title: '신영증권 고객센터 전화번호와 상담시간, 상담원 연결' },

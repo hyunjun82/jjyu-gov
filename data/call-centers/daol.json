@@ -1,0 +1,40 @@
+{
+  "slug": "daol",
+  "name": "다올투자증권",
+  "aliases": [
+    "다올",
+    "다올투자증권 콜센터",
+    "KTB투자증권"
+  ],
+  "brandColor": "#00479D",
+  "official": "https://www.daolsecurities.com",
+  "sourceUrl": "https://www.daolsecurities.com/index.jspx",
+  "sourceName": "다올투자증권 고객센터",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-3100"
+  },
+  "hours": {
+    "weekday": "이용시간 평일 08:00 ~ 18:00",
+    "night": "NXT업무 : 평일 08:00 ~ 20:00",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-3100",
+      "note": "이용시간 평일 08:00 ~ 18:00"
+    },
+    {
+      "label": "본사",
+      "tel": "02-2184-2525",
+      "note": "-"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

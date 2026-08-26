@@ -54,6 +54,26 @@ fs.mkdirSync(SHOTS, { recursive: true });
       await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
 
       const text = await page.evaluate(() => document.body.innerText.replace(/\n{3,}/g, '\n\n').trim());
+
+      /* 표를 따로 뜬다 (2026-08-26).
+         innerText 는 rowspan 으로 묶인 셀을 빈칸으로 준다. 교보증권 상담시간이
+         "평일 | 08:00 ~ 18:00" 표 안에 있었는데 추출본에는 안 잡혀서,
+         있는 시간을 "공식 안내에 없다"고 판정하고 회사를 버렸다.
+         고객센터 정보는 대부분 표에 있다 — 표를 놓치면 추출을 안 한 것과 같다. */
+      const tables = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('table')).map((tb, i) => {
+          const cap = (tb.querySelector('caption')?.textContent || '').replace(/\s+/g, ' ').trim();
+          const rows = Array.from(tb.querySelectorAll('tr'))
+            .map((tr) =>
+              Array.from(tr.querySelectorAll('th,td'))
+                .map((c) => (c.textContent || '').replace(/\s+/g, ' ').trim())
+                .filter(Boolean)
+                .join(' | '),
+            )
+            .filter(Boolean);
+          return rows.length ? `[표 ${i + 1}${cap ? ' — ' + cap : ''}]\n` + rows.join('\n') : '';
+        }).filter(Boolean).join('\n\n'),
+      ).catch(() => '');
       await page.screenshot({ path: shot, fullPage: true }).catch(async () => {
         await page.screenshot({ path: shot });   /* 너무 길면 보이는 화면만 */
       });
@@ -62,10 +82,11 @@ fs.mkdirSync(SHOTS, { recursive: true });
         `\n===== [${i + 1}] ${u} =====\n` +
         `CAPTURED-BY: playwright (실브라우저)\n` +
         `SHOT: scripts/output/captures/${slug}-${i + 1}.png\n` +
-        `CHARS: ${text.length}\n\n${text}\n`,
+        `CHARS: ${text.length}\n\n${text}\n` +
+        (tables ? `\n----- 표 (innerText 가 못 읽는 자리) -----\n${tables}\n` : ''),
       );
       const warn = text.length < 1500 ? '  ⚠ 짧다 — 원래 짧은 페이지인지 캡처로 확인해라' : '';
-      console.log(`✔ ${String(text.length).padStart(6)}자 + 캡처  ${u}${warn}`);
+      console.log(`✔ ${String(text.length).padStart(6)}자${tables ? ` + 표 ${tables.split('[표 ').length - 1}개` : ''} + 캡처  ${u}${warn}`);
       ok++;
     } catch (e: any) {
       console.log(`✖ ${String(e?.message).slice(0, 70)}  ${u}`);

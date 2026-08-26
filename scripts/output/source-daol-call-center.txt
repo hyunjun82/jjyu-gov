@@ -3,6 +3,172 @@ RECEIVED: 2026-08-26
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
 SHOTS: 1장 (scripts/output/captures/daol-call-center-*.png)
 
+===== [1] https://www.daolsecurities.com/index.jspx =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/daol-call-center-1.png
+CHARS: 1467
+
+메인메뉴 바로가기
+본문 바로가기
+다올투자증권
+인증센터
+로그인
+ID등록
+계좌개설
+HTS
+MTS
+소비자포털
+검색
+검색
+시작하기
+온라인업무
+Fi PRO
+(powered by IBKR)
+펀드
+신용/대출/대여
+리서치센터
+고객서비스
+prev
+ 
+stop
+ 
+next
+ 01/02
+이용안내
+빠른인증센터
+신규고객가이드
+계좌개설안내
+수수료안내
+증거금안내
+업무시간안내
+약관 및 유의사항
+소비자포털
+다올투자증권 Fi
+다운로드
+HTS
+MTS
+DAOL Fi PRO
+다운로드
+Desktop / Mobile
+추천펀드
+
+다올투자증권 추천 펀드를 확인하세요!
+
+알아보기
+리서치
+RESEARCH [Morning Express>Morning Express]
+
+DAOL Morning Express (11/24)
+
+2022/11/24
+배송이 [산업분석>내수]
+
+화장품(Neutral) - 똘똘한 중소형주 찾기
+
+2022/11/24
+RESEARCH [매크로>주식전략]
+
+Morning Brief_11/24
+
+2022/11/24
+RESEARCH [매크로>채권전략]
+
+Bond Morning Brief_221124
+
+2022/11/24
+RESEARCH [Morning Express>Morning Express]
+
+DAOL Morning Express (11/23)
+
+2022/11/23
+더 보기
+NOTICE
+
+주식 리딩방 주의사항 안내
+
+2021/02/24
+
+넥스트레이드(NXT) 한도 관리를 위한 매매체결 제외종목 안내
+
+2026/08/25
+
+API/MCP서비스 이용약관 제정 안내
+
+2026/08/25
+
+한국전자인증 시스템 작업에 따른 인증서비스 일시중단 안내(8/21 금)
+
+2026/08/20
+
+「DAOL Fi PRO」 해외주식 서비스 오픈 안내
+
+2026/08/19
+EVENT
+prev
+ 
+stop
+ 
+next
+
+쉽고 빠르게
+계좌개설이 가능합니다!
+
+Fi(파이) 설치 앱 SMS 받기
+고객만족센터
+1588-3100
+이용시간 평일 08:00 ~ 18:00
+(NXT업무 : 평일 08:00 ~ 20:00)
+금융사기피해신고 24시간
+글로벌데스크(해외주식)
+02-2184-2525
+평일 17:00 ~ 익일 01:00
+ARS안내
+고객게시판
+원격지원
+소비자포털
+KOSPI
+87.76(+1.30%)
+6,830.50
+상승
+ 하루 보지않기
+ 다시 보지않기
+닫기
+사전예약 바로가기
+ 하루 보지않기
+ 다시 보지않기
+닫기
+Fi PRO 바로가기
+회사소개
+채용정보
+영업점안내
+고객센터 1588-3100
+Family Site
+개인정보처리방침
+민원창구센터
+고객유의사항
+보호금융상품등록부
+금융소비자보호강령
+금융소비자정보포털 파인(FINE)
+상품공시실
+신용정보 활용체제
+
+다올투자증권 | 대표이사 이병철, 황준호 | 사업자등록번호 116-81-00319 |
+서울특별시 영등포구 여의나루로 60(여의도동, 여의도포스트타워)
+
+COPYRIGHT© DAOL Investment & Securities Co., Ltd. ALL RIGHTS RESERVED
+
+화면 크기 조정
+확대
+축소
+맨위로
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: daol-call-center
+RECEIVED: 2026-08-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/daol-call-center-*.png)
+
 ===== [1] https://www.daolsecurities.com =====
 CAPTURED-BY: playwright (실브라우저)
 SHOT: scripts/output/captures/daol-call-center-1.png

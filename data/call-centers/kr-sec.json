@@ -1,0 +1,35 @@
+{
+  "slug": "kr-sec",
+  "name": "KR투자증권",
+  "aliases": [
+    "KR증권",
+    "케이알투자증권",
+    "KR투자증권 콜센터"
+  ],
+  "brandColor": "#0B4C8C",
+  "official": "http://www.krsec.co.kr",
+  "sourceUrl": "http://www.krsec.co.kr/0305.php",
+  "sourceName": "KR투자증권 업무시간 안내",
+  "main": {
+    "label": "대표",
+    "tel": "02-2168-7400"
+  },
+  "hours": {
+    "weekday": "업무문의 및 상담 : 08:00 ~ 17:00",
+    "night": "정규 상담시간 외에는 홈페이지 문의를 이용",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표",
+      "tel": "02-2168-7400",
+      "note": "업무문의 및 상담 : 08:00 ~ 17:00"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "im-sec",
+  "name": "iM증권",
+  "aliases": [
+    "아이엠증권",
+    "하이투자증권",
+    "iM증권 콜센터",
+    "고객만족센터"
+  ],
+  "brandColor": "#003C7E",
+  "official": "https://www.imfnsec.com",
+  "sourceUrl": "https://www.imfnsec.com/center/advice/ct0701.jsp",
+  "sourceName": "iM증권 고객만족센터",
+  "main": {
+    "label": "고객만족센터",
+    "tel": "1588-7171"
+  },
+  "hours": {
+    "weekday": "평   일 : 08:00 ~ 18:00",
+    "night": "해외영업일 08:00 - 익일07:00 창구가 따로 있다",
+    "holiday": "영업일 기준으로 운영한다"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객만족센터",
+      "tel": "1588-7171",
+      "note": "영업일 08:00 - 18:00"
+    },
+    {
+      "label": "해외 관련",
+      "tel": "1566-7052",
+      "note": "해외영업일 08:00 - 익일07:00"
+    },
+    {
+      "label": "영업일 상담",
+      "tel": "1566-7053",
+      "note": "영업일 08:30 - 16:00"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

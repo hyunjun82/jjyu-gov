@@ -1,0 +1,35 @@
+{
+  "slug": "hanyang-sec",
+  "name": "한양증권",
+  "aliases": [
+    "한양",
+    "한양증권 콜센터",
+    "전담 상담센터"
+  ],
+  "brandColor": "#00519E",
+  "official": "https://www.hygood.co.kr",
+  "sourceUrl": "https://www.hygood.co.kr/board/customerNotice/detail/1477",
+  "sourceName": "한양증권 전담 상담센터 안내",
+  "main": {
+    "label": "전담 상담센터",
+    "tel": "1600-3313"
+  },
+  "hours": {
+    "weekday": "운영시간 : 평일 09시 ~ 18시",
+    "night": "정규 상담시간 외에는 홈페이지 문의를 이용",
+    "holiday": "주말·공휴일은 별도 안내"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전담 상담센터",
+      "tel": "1600-3313",
+      "note": "운영시간 : 평일 09시 ~ 18시"
+    }
+  ],
+  "industry": "securities",
+  "verifiedAt": "2026-08-26"
+}

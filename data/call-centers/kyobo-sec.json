@@ -1,0 +1,46 @@
+{
+  "slug": "kyobo-sec",
+  "name": "교보증권",
+  "industry": "securities",
+  "aliases": [
+    "교보증권 콜센터",
+    "아이프로베스트",
+    "iprovest",
+    "소비자보호부 고객지원파트"
+  ],
+  "brandColor": "#4DAB25",
+  "official": "https://www.iprovest.com",
+  "sourceUrl": "https://www.iprovest.com/customhelp/custcnt/callcenter.htm",
+  "sourceName": "교보증권 소비자보호부 고객지원파트",
+  "verifiedAt": "2026-08-26",
+  "main": {
+    "label": "고객지원파트",
+    "tel": "1544-0900"
+  },
+  "hours": {
+    "weekday": "평일 08:00 ~ 18:00",
+    "night": "시간외단일가매매 16:00 ~ 18:00",
+    "holiday": "토요일 휴무"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "0",
+        "what": "상담원 연결"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원파트",
+      "tel": "1544-0900",
+      "note": "전문 상담원으로 연결"
+    },
+    {
+      "label": "ARS",
+      "tel": "1544-9999",
+      "note": "'0'번을 누르면 곧바로 연결"
+    }
+  ]
+}
