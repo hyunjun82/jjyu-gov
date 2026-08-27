@@ -128,6 +128,18 @@ export const loanCallCenterPolicy = {
 };
 
 export const loanCallCenterSpokes = [
+  { slug: 'bnk-capital-loan', role: 'eligibility', title: 'BNK캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'lotte-capital-loan', role: 'eligibility', title: '롯데캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'kbank-loan', role: 'eligibility', title: '케이뱅크 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'nh-bank-loan', role: 'eligibility', title: 'NH농협은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'hana-bank-loan', role: 'eligibility', title: '하나은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'shinhan-bank-loan', role: 'eligibility', title: '신한은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'woori-bank-loan', role: 'eligibility', title: '우리은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'heungkuk-life-loan', role: 'eligibility', title: '흥국생명 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'woori-card-loan', role: 'eligibility', title: '우리카드 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'nhuf-loan', role: 'eligibility', title: '주택도시기금 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'hf-loan', role: 'eligibility', title: '한국주택금융공사 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'kinfa-loan', role: 'eligibility', title: '서민금융진흥원 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'yebyeol-loan', role: 'eligibility', title: '예별손해보험 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'meritz-fire-loan', role: 'eligibility', title: '메리츠화재 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'nh-life-loan', role: 'eligibility', title: 'NH농협생명 대출 고객센터 전화번호 및 대출 상담 연결 안내' },

@@ -1,0 +1,45 @@
+{
+  "slug": "woori-bank-loan",
+  "name": "우리은행",
+  "aliases": [
+    "우리은행 대출",
+    "우리銀"
+  ],
+  "industry": "loan",
+  "brandColor": "#0067AC",
+  "official": "https://spot.wooribank.com",
+  "sourceUrl": "https://spot.wooribank.com/pot/Dream?withyou=PSLON0001",
+  "sourceName": "우리은행 대출 안내 페이지 신규상담 번호",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출 신규상담",
+    "tel": "1599-8300"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "우리은행 대출 안내 페이지에 적힌 상담시간이다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출 신규상담",
+      "tel": "1599-8300",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "예적금 신규상담",
+      "tel": "1599-8100",
+      "note": "대출이 아닌 예적금"
+    },
+    {
+      "label": "대표번호",
+      "tel": "1588-5000",
+      "note": "평일 09:00~18:00"
+    }
+  ]
+}

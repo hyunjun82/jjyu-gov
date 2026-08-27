@@ -1,0 +1,45 @@
+{
+  "slug": "shinhan-bank-loan",
+  "name": "신한은행",
+  "aliases": [
+    "신한은행 대출",
+    "신한銀"
+  ],
+  "industry": "loan",
+  "brandColor": "#0046FF",
+  "official": "https://bank.shinhan.com",
+  "sourceUrl": "https://bank.shinhan.com/index.jsp#020101010000",
+  "sourceName": "신한은행 대출 안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 (대출 안내 페이지 기준)",
+    "tel": "1599-8000"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00 (은행휴무일 제외)",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (대출 안내 페이지 기준)",
+      "tel": "1599-8000",
+      "note": "평일 09:00 ~ 18:00 (은행휴무일 제외)"
+    },
+    {
+      "label": "고객센터 (다른 국번)",
+      "tel": "1577-8000",
+      "note": "같은 창구"
+    },
+    {
+      "label": "외국어 상담",
+      "tel": "1577-8380",
+      "note": "외국어 전용"
+    }
+  ],
+  "hoursNote": "대출 안내 페이지에 적힌 상담시간이다."
+}

@@ -1611,9 +1611,33 @@ import { nhPropertyLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/
 import { shinhanLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/shinhan-life-loan';
 import { tongyangLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/tongyang-life-loan';
 import { yebyeolLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/yebyeol-loan';
+import { kinfaLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kinfa-loan';
+import { hfLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hf-loan';
+import { nhufLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nhuf-loan';
+import { wooriCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/woori-card-loan';
+import { heungkukLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/heungkuk-life-loan';
+import { wooriBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/woori-bank-loan';
+import { shinhanBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/shinhan-bank-loan';
+import { hanaBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hana-bank-loan';
+import { nhBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-bank-loan';
+import { kbankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kbank-loan';
+import { lotteCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/lotte-capital-loan';
+import { bnkCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/bnk-capital-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'loan-call-center': {
+    'bnk-capital-loan': bnkCapitalLoanCallCenterSpokeContent,
+    'lotte-capital-loan': lotteCapitalLoanCallCenterSpokeContent,
+    'kbank-loan': kbankLoanCallCenterSpokeContent,
+    'nh-bank-loan': nhBankLoanCallCenterSpokeContent,
+    'hana-bank-loan': hanaBankLoanCallCenterSpokeContent,
+    'shinhan-bank-loan': shinhanBankLoanCallCenterSpokeContent,
+    'woori-bank-loan': wooriBankLoanCallCenterSpokeContent,
+    'heungkuk-life-loan': heungkukLifeLoanCallCenterSpokeContent,
+    'woori-card-loan': wooriCardLoanCallCenterSpokeContent,
+    'nhuf-loan': nhufLoanCallCenterSpokeContent,
+    'hf-loan': hfLoanCallCenterSpokeContent,
+    'kinfa-loan': kinfaLoanCallCenterSpokeContent,
     'yebyeol-loan': yebyeolLoanCallCenterSpokeContent,
     'tongyang-life-loan': tongyangLifeLoanCallCenterSpokeContent,
     'shinhan-life-loan': shinhanLifeLoanCallCenterSpokeContent,

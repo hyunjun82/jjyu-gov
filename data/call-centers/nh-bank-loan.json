@@ -1,0 +1,46 @@
+{
+  "slug": "nh-bank-loan",
+  "name": "NH농협은행",
+  "aliases": [
+    "농협은행 대출",
+    "NH농협은행 대출",
+    "농협 대출"
+  ],
+  "industry": "loan",
+  "brandColor": "#0AAA5A",
+  "official": "https://banking.nonghyup.com",
+  "sourceUrl": "https://banking.nonghyup.com/nhbank/loan/loan.jsp",
+  "sourceName": "NH농협은행 대출 안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "농협은행 전용",
+    "tel": "1661-3000"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "농협은행 전용",
+      "tel": "1661-3000",
+      "note": "농협은행 대출 문의"
+    },
+    {
+      "label": "농협은행 전용 (다른 국번)",
+      "tel": "1522-3000",
+      "note": "같은 창구"
+    },
+    {
+      "label": "농·축협 전용",
+      "tel": "1661-2100",
+      "note": "지역 농·축협은 창구가 다르다"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

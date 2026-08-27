@@ -1,0 +1,79 @@
+SLUG: busan-bank-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/busan-bank-loan2-call-center-*.png)
+
+===== [1] https://www.busanbank.co.kr/ib20/mnu/BHP000000000 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/busan-bank-loan2-call-center-1.png
+CHARS: 385
+
+바로가기
+본문으로 바로가기
+개인뱅킹
+기업뱅킹
+금융상품
+로그인 인증센터
+은행소개
+Global
+
+에러메시지
+존재하지 않는 메뉴[BHP000000000(null)]입니다.
+ 고객님 죄송합니다. 요청하신 거래 진행중 오류가 발생하였습니다.
+확인
+개인정보처리방침
+경영공시
+고객정보취급방침
+보호금융상품등록부
+상품공시실
+전자민원접수
+전자금융이용자보호수칙
+전자금융사기피해금환급제도
+위치기반서비스 이용약관
+고객상담 1588-6200, 1544-6200
+어르신 전용 1800-1100
+해외 82-2-1588-6200
+부산은행 페이스북
+부산은행 인스타
+부산은행 유튜브
+1:1 상담
+BNK금융네트워크
+FAMILY SITE
+COPYTRIGHT ⓒ 2014 BUSANBANK. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+한국어
+ English
+ 日本語
+ 中國語
+
+사이트맵
+ 개인뱅킹
+ 기업뱅킹
+ 금융상품
+ 전체서비스
+ 개인뱅킹
+
+고객님의 궁금한 점을 전문상담원과 상담할 수 있습니다.
+  Talk상담
+  이메일상담
+  원격지원상담
+  FAQ
+ 닫기
+
+BNK금융지주
+ 경남은행
+ BNK캐피탈
+ BNK투자증권
+ BNK저축은행 
+ BNK자산운용 
+ BNK신용정보
+ BNK시스템
+ BNK금융네트워크 닫기
+
+부은동우회
+ BNK부산은행 조은극장
+ BNK부산은행갤러리
+ 부산은행금융역사관
+ 행복한 BNK
+ FAMILY SITE 닫기

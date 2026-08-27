@@ -1,0 +1,67 @@
+SLUG: ibk-bank-loan4-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/ibk-bank-loan4-call-center-*.png)
+
+===== [1] https://mybank.ibk.co.kr/uib/jsp/index.jsp =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/ibk-bank-loan4-call-center-1.png
+CHARS: 707
+
+
+
+----- 프레임 (https://mybank.ibk.co.kr/uib/jsp/guest/main/p_main.jsp) -----
+본문바로가기
+
+주메뉴바로가기
+
+로그인 인증센터
+전체서비스
+정지
+1
+2
+3
+4
+5
+정지
+1
+빠른서비스
+1
+2
+공지사항
+실물 운전면허증 비대면 진위확인 서비스 일시중단 안내(7/21~7/22)
+2026.07.21
+금융거래 일시중단 안내(뱅크오브아메리카, iM증권, 신한은행, HSBC 은행)...
+2026.07.16
+주민등록증 비대면 진위확인서비스 일시중단 안내(7/10~7/12)
+2026.07.09
+금융거래 일시중단 안내(엠유에프지은행, 비엔피파리바은행, 한국산업은행,
+2026.07.09
+더보기
+Plus 서비스
+
+더 많은 편리한 서비스
+
+Plus 서비스 메뉴 자세히 보기
+서비스 이용안내
+뱅킹이용
+처음이세요? 인터넷뱅킹
+이용안내 보안프로그램
+설치안내 인터넷뱅킹
+체험하기 BEST
+FAQ
+IBK APP
+i-ONE뱅크(개인) i-ONE뱅크(미니) i-ONE뱅크(글로벌) IBK 카드앱
+개인정보 처리방침
+전자민원접수(칭찬‧불만‧제안)
+보호금융상품등록부
+권익위 부패· 공익신고
+상품공시실
+채용안내
+고객센터국내 1566-2566,1588-2588
+해외 82-31-888-8000
+
+Copyright 2016. IBK(INDUSTRIAL BANK OF KOREA) All rights reserved.
+
+IBK 관련사이트 IBK 관계사
+|

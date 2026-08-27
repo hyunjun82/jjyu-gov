@@ -1,0 +1,12 @@
+SLUG: ibk-capital-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/ibk-capital-loan2-call-center-*.png)
+
+===== [1] https://www.ibkc.co.kr/kor/loan/loan.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/ibk-capital-loan2-call-center-1.png
+CHARS: 58
+
+방문하시려는 페이지에 접근 할 수 없습니다.
+입력하신 주소가 정확한지 다시 한번 확인해 주시기 바랍니다.

@@ -1,0 +1,17 @@
+SLUG: suhyup-bank-loan3-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/suhyup-bank-loan3-call-center-*.png)
+
+===== [1] https://www.suhyup-bank.com/ib20/mnu/FPMLON000000 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/suhyup-bank-loan3-call-center-1.png
+CHARS: 134
+
+죄송합니다.
+아래사항을 참고하시기 바랍니다.
+오류코드 : JSP ERROR
+오류내용 : 서버 내부 오류입니다.
+
+더 궁금하신 사항이 있으시면 아래 고객지원센터로 연락바랍니다
+TEL : 1588-1515, 1644-1515(서비스코드 03번)

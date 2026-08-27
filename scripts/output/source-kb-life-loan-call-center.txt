@@ -3,6 +3,29 @@ RECEIVED: 2026-08-27
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
 SHOTS: 1장 (scripts/output/captures/kb-life-loan-call-center-*.png)
 
+===== [1] https://www.kblife.co.kr/loan/main =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/kb-life-loan-call-center-1.png
+CHARS: 207
+
+The request / response that are contrary to the Web firewall security policies have been blocked.
+Detect time	2026-08-27 14:33:39
+Detect client IP	121.124.185.30
+Detect URL	https://www.kblife.co.kr/loan/main
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+Detect time | 2026-08-27 14:33:39
+Detect client IP | 121.124.185.30
+Detect URL | https://www.kblife.co.kr/loan/main
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: kb-life-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/kb-life-loan-call-center-*.png)
+
 ===== [1] https://www.kblife.co.kr/ =====
 CAPTURED-BY: playwright (실브라우저)
 SHOT: scripts/output/captures/kb-life-loan-call-center-1.png

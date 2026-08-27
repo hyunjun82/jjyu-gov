@@ -1,0 +1,11 @@
+SLUG: kbsavings-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/kbsavings-loan2-call-center-*.png)
+
+===== [1] https://www.kbsavings.com/websquare/websquare.jsp?w2xPath=/jsp/loan/loanMain.xml =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/kbsavings-loan2-call-center-1.png
+CHARS: 0
+
+

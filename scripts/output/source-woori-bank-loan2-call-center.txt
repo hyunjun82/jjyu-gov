@@ -1,0 +1,36 @@
+SLUG: woori-bank-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/woori-bank-loan2-call-center-*.png)
+
+===== [1] https://spot.wooribank.com/pot/Dream?withyou=CUCOM0001 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/woori-bank-loan2-call-center-1.png
+CHARS: 426
+
+로그인
+인증센터
+죄송합니다! 요청하신 페이지에서 오류가 발생했습니다.
+고객님께서 요청하신 페이지를 표시할 수 없습니다.
+잘못 검색하셨거나 종료된 화면, 또는 해당 화면에서 에러가 발생해서
+표시할 수가 없습니다.
+[확인] 버튼을 클릭하시면 우리은행 초기화면으로 이동합니다.
+고객상담센터 ☎ 1588-5000, 1599-5000 ㅣ 이메일상담 ㅣ FAQ
+확인
+우리은행정보 및 우리은행관련사이트
+대표 1588-5000
+기타서비스
+LANGUAGE
+패밀리사이트
+
+은행소개  |  영업점안내  |  고객광장  |  개인정보처리방침  |  신용정보활용체제  |  개인신용정보관리보호
+사고신고  |  전자민원접수  |  보호금융상품등록부  |  상품공시실  |  보안센터  |  웹접근성 이용안내
+
+COPYRIGHTS WOORI BANK. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+Windows 10
+ Safari()-undefined 
+ CUCOM0001
+ pot062
+ jQuery("#cpuClass").html("-"+navigator.cpuClass);

@@ -3,6 +3,31 @@ RECEIVED: 2026-08-27
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
 SHOTS: 1장 (scripts/output/captures/meritz-capital-loan-call-center-*.png)
 
+===== [1] https://www.meritzcapital.co.kr/loan =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/meritz-capital-loan-call-center-1.png
+CHARS: 163
+
+이용에 불편을 드려 죄송합니다.
+
+삭제 또는 변경된 주소이거나 접근 권한이 없어 요청하신 페이지를 찾을 수 없습니다.
+입력하신 주소가 정확한지 다시 한번 확인해주세요.
+
+불편사항이나 문의사항은 고객센터로 연락주세요.
+
+1588·9666
+
+09~18시 (토/일요일 공휴일 휴무)
+
+이전 메인으로
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: meritz-capital-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/meritz-capital-loan-call-center-*.png)
+
 ===== [1] https://www.meritzcapital.co.kr/ =====
 CAPTURED-BY: playwright (실브라우저)
 SHOT: scripts/output/captures/meritz-capital-loan-call-center-1.png

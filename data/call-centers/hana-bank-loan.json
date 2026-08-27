@@ -1,0 +1,40 @@
+{
+  "slug": "hana-bank-loan",
+  "name": "하나은행",
+  "aliases": [
+    "하나은행 대출",
+    "KEB하나은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#008485",
+  "official": "https://www.kebhana.com",
+  "sourceUrl": "https://www.kebhana.com/cont/mall/mall15/index.jsp",
+  "sourceName": "하나은행 대출몰 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 (대출몰 페이지 기준)",
+    "tel": "1588-1111"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (대출몰 페이지 기준)",
+      "tel": "1588-1111",
+      "note": "대출 문의도 이 번호다"
+    },
+    {
+      "label": "고객센터 (다른 국번)",
+      "tel": "1599-1111",
+      "note": "같은 창구"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

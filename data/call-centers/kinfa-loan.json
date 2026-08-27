@@ -1,0 +1,37 @@
+{
+  "slug": "kinfa-loan",
+  "name": "서민금융진흥원",
+  "aliases": [
+    "서민금융진흥원 대출",
+    "서민금융콜센터",
+    "서민금융 잇다",
+    "햇살론"
+  ],
+  "industry": "loan",
+  "brandColor": "#0F5CA8",
+  "official": "https://www.kinfa.or.kr",
+  "sourceUrl": "https://www.kinfa.or.kr/",
+  "sourceName": "서민금융진흥원 공식 홈페이지 대표전화 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "서민금융콜센터",
+    "tel": "1397"
+  },
+  "hours": {
+    "weekday": "평일 09시 ~ 18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "서민금융콜센터",
+      "tel": "1397",
+      "note": "국번없이 1397 · 통화요금 무료(수신자 부담)"
+    }
+  ],
+  "hq": "서울특별시 중구 세종대로 14(그랜드센트럴) 8~12층, 14층"
+}

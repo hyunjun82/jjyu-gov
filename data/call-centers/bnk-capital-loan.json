@@ -1,0 +1,35 @@
+{
+  "slug": "bnk-capital-loan",
+  "name": "BNK캐피탈",
+  "aliases": [
+    "BNK캐피탈 대출",
+    "부산캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#E60012",
+  "official": "https://www.bnkcapital.co.kr",
+  "sourceUrl": "https://www.bnkcapital.co.kr/loan",
+  "sourceName": "BNK캐피탈 대출 안내 페이지 대표번호",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (대출 안내 페이지 기준)",
+    "tel": "1577-2280"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00, 토ㆍ일ㆍ법정공휴일 휴무",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (대출 안내 페이지 기준)",
+      "tel": "1577-2280",
+      "note": "평일 09:00 ~ 18:00, 토·일·법정공휴일 휴무"
+    }
+  ],
+  "hoursNote": "대출 안내 페이지에 적힌 상담시간이다."
+}

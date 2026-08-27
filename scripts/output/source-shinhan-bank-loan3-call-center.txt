@@ -1,0 +1,18 @@
+SLUG: shinhan-bank-loan3-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/shinhan-bank-loan3-call-center-*.png)
+
+===== [1] https://www.shinhan.com/hpe/index.jsp#050202000000 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/shinhan-bank-loan3-call-center-1.png
+CHARS: 133
+
+신한은행
+
+해당페이지를 찾을 수 없습니다.
+
+찾으시려는 페이지의 주소가 잘못되었거나, 페이지의 주소가 변경 또는 삭제로 이용 하실 수 없습니다.
+입력하신 페이지의 주소가 정확한지 다시 한번 확인해주세요.
+
+메인화면으로인터넷뱅킹화면으로 이동

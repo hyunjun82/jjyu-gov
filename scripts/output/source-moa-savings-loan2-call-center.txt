@@ -1,0 +1,15 @@
+SLUG: moa-savings-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/moa-savings-loan2-call-center-*.png)
+
+===== [1] https://www.moasb.co.kr/kor/main/main.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/moa-savings-loan2-call-center-1.png
+CHARS: 38
+
+404.ERROR
+
+이 페이지를 표시할 수 없습니다.
+
+메인으로 이동

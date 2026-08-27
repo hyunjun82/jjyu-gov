@@ -1,0 +1,23 @@
+SLUG: acuon-savings-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/acuon-savings-loan2-call-center-*.png)
+
+===== [1] https://www.acuonsb.co.kr/loan =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/acuon-savings-loan2-call-center-1.png
+CHARS: 133
+
+본문 바로가기
+하단메뉴 바로가기
+
+죄송합니다.
+잘못 검색하셨거나 종료된 화면, 또는 해당 화면에서
+에러가 발생해서 표시할 수가 없습니다.
+
+에러가 반복되는 경우 관리자에게
+문의 주시기 바랍니다.
+
+고객센터 : 1588-6161
+
+메인페이지

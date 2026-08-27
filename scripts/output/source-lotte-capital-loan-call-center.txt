@@ -3,6 +3,65 @@ RECEIVED: 2026-08-27
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
 SHOTS: 1장 (scripts/output/captures/lotte-capital-loan-call-center-*.png)
 
+===== [1] https://www.lottecap.com/loan/loanMain.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/lotte-capital-loan-call-center-1.png
+CHARS: 880
+
+고객님의 안전한 서비스 이용을 위한 보안프로그램들을 통합관리할 수 있습니다.
+우선 각 프로그램의 ‘자세히보기’를 클릭하시어 기능을 확인하시기 바랍니다.
+[통합설치프로그램 다운로드]를 클릭하시면 자동으로 설치가 진행됩니다.
+사용자 환경에 따라 오류 메세지가 발생할 경우에는 다운로드 안내창에서 '저장'을 눌러 PC에 다운로드 하여 실행하시기 바랍니다.
+통합설치프로그램다운로드 취소하기
+
+프로그램명	기능	설치상태
+통합설치 프로그램
+(VeraPort)	
+웹표준 대체기술이 적용된 보안프로그램을 한번에 설치하기 위한 프로그램입니다.
+	
+미설치
+다운로드
+공동인증서 보안
+(WizIN-Delfino G3)	웹표준 대체기술이 적용된 공동인증서 로그인과 거래내역에 대한 전자서명을 위한 프로그램입니다.	
+다운로드
+키보드 보안
+(TouchEn nxKey)	키보드를 통해 입력되는 정보가 유출되거나 변조되지 않도록 보호해 주는 프로그램입니다.	
+다운로드
+온라인 방화벽/백신
+(TouchEn NXFirewall)	비인가된 접근을 차단하고 해킹툴 및 바이러스를 검색하고 치료해 주는 프로그램입니다.	
+다운로드
+스크래핑
+(INFOTECH)	각 사이트로부터 데이터를 수집하는 프로그램입니다.	
+다운로드
+접속PC정보: [Windows64,Win64][Chrome,145.0.7632.6][INFOTECH] Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36
+수동설치 후에는 반드시 새로고침을 하거나 다시 접속하시기 바랍니다.
+설치완료 메시지가 반복적으로 나오는 경우는 브라우저 종료 및 해당프로그램 삭제 후 재설치 하시기 바랍니다.
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+프로그램명 | 기능 | 설치상태
+통합설치 프로그램(VeraPort) | 보안프로그램을 한번에 설치하기 위한 프로그램입니다. 웹표준 대체기술이 적용된 보안프로그램을 한번에 설치하기 위한 프로그램입니다. | 미설치 다운로드 Ubuntu Fedora
+공동인증서 보안(WizIN-Delfino G3) | 웹표준 대체기술이 적용된 공동인증서 로그인과 거래내역에 대한 전자서명을 위한 프로그램입니다. | 다운로드 Ubuntu Fedora
+키보드 보안(TouchEn nxKey) | 키보드를 통해 입력되는 정보가 유출되거나 변조되지 않도록 보호해 주는 프로그램입니다. | 다운로드 Ubuntu Fedora
+온라인 방화벽/백신(TouchEn NXFirewall) | 비인가된 접근을 차단하고 해킹툴 및 바이러스를 검색하고 치료해 주는 프로그램입니다. | 다운로드 Ubuntu Fedora
+스크래핑(INFOTECH) | 각 사이트로부터 데이터를 수집하는 프로그램입니다. | 다운로드 Ubuntu Fedora
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+고객님의 안전한 서비스 이용을 위한 보안프로그램들을 통합관리할 수 있습니다.
+ 우선 각 프로그램의 ‘자세히보기’를 클릭하시어 기능을 확인하시기 바랍니다.
+ [전체설치]를 클릭하시면 자동으로 설치가 진행됩니다.
+
+고객님의 안전한 서비스 이용을 위한 보안프로그램들을 통합관리할 수 있습니다.
+ 우선 각 프로그램의 ‘자세히보기’를 클릭하시어 기능을 확인하시기 바랍니다.
+ 접속하신 브라우저는 통합설치를 지원하지 않습니다. 아래의 '접속PC정보'를 확인하시기 바랍니다.
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: lotte-capital-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/lotte-capital-loan-call-center-*.png)
+
 ===== [1] https://www.lottecap.com/ =====
 CAPTURED-BY: playwright (실브라우저)
 SHOT: scripts/output/captures/lotte-capital-loan-call-center-1.png

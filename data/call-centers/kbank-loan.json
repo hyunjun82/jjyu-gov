@@ -1,0 +1,40 @@
+{
+  "slug": "kbank-loan",
+  "name": "케이뱅크",
+  "aliases": [
+    "케이뱅크 대출",
+    "K뱅크"
+  ],
+  "industry": "loan",
+  "brandColor": "#003CFF",
+  "official": "https://www.kbanknow.com",
+  "sourceUrl": "https://www.kbanknow.com/ib20/mnu/BHP000000021",
+  "sourceName": "케이뱅크 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "은행 고객센터",
+    "tel": "1522-1000"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "은행 고객센터",
+      "tel": "1522-1000",
+      "note": "대출 문의도 이 번호다"
+    },
+    {
+      "label": "카드 고객센터",
+      "tel": "1522-1155",
+      "note": "대출이 아닌 카드 문의"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

@@ -1,0 +1,16 @@
+SLUG: citi-bank-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/citi-bank-loan2-call-center-*.png)
+
+===== [1] https://www.citibank.co.kr/CreditLoan/CreditLoanMain.act =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/citi-bank-loan2-call-center-1.png
+CHARS: 227
+
+Access Denied
+You don't have permission to access "http://www.citibank.co.kr/CreditLoan/CreditLoanMain.act" on this server.
+
+Reference #18.4eafbcb.1787812161.3c6fe009
+
+https://errors.edgesuite.net/18.4eafbcb.1787812161.3c6fe009

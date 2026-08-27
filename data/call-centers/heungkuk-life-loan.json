@@ -1,0 +1,45 @@
+{
+  "slug": "heungkuk-life-loan",
+  "name": "흥국생명",
+  "aliases": [
+    "흥국생명 대출",
+    "흥국생명보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#E60050",
+  "official": "https://www.heungkuklife.co.kr",
+  "sourceUrl": "https://www.heungkuklife.co.kr/loan/loanProductInfo",
+  "sourceName": "흥국생명 대출 안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 (대출 안내 페이지 기준)",
+    "tel": "1588-2288"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "흥국생명 대출 안내 페이지에 적힌 고객센터 번호와 시간이다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (대출 안내 페이지 기준)",
+      "tel": "1588-2288",
+      "note": "평일 09:00~18:00"
+    },
+    {
+      "label": "장애인 전용",
+      "tel": "1811-0420",
+      "note": "장애인 고객 전용"
+    },
+    {
+      "label": "퇴직연금 전용",
+      "tel": "1811-0710",
+      "note": "대출이 아닌 퇴직연금 문의"
+    }
+  ]
+}

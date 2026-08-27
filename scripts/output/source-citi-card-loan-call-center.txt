@@ -1,0 +1,16 @@
+SLUG: citi-card-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/citi-card-loan-call-center-*.png)
+
+===== [1] https://www.citibank.co.kr/ContactUs/ContactUs.act =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/citi-card-loan-call-center-1.png
+CHARS: 221
+
+Access Denied
+You don't have permission to access "http://www.citibank.co.kr/ContactUs/ContactUs.act" on this server.
+
+Reference #18.4eafbcb.1787807865.3b52c372
+
+https://errors.edgesuite.net/18.4eafbcb.1787807865.3b52c372

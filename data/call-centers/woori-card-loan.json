@@ -1,0 +1,45 @@
+{
+  "slug": "woori-card-loan",
+  "name": "우리카드",
+  "aliases": [
+    "우리카드 대출",
+    "우리카드 카드론"
+  ],
+  "industry": "loan",
+  "brandColor": "#0067AC",
+  "official": "https://pc.wooricard.com",
+  "sourceUrl": "https://pc.wooricard.com/dcpc/yh1/cct/cct04/H1CCT204S00.do",
+  "sourceName": "우리카드 ARS안내 대표ARS",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "금융서비스 (카드론·현금서비스)",
+    "tel": "1577-9000"
+  },
+  "hours": {
+    "weekday": "평일 오전 9시 ~ 오후 6시",
+    "night": "분실 및 승인 365일 24시간",
+    "holiday": "분실 및 승인 365일 24시간"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "4",
+        "what": "장기카드대출 (카드론) 또는 단기카드대출 (현금서비스)"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "금융서비스 (카드론·현금서비스)",
+      "tel": "1577-9000",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "카드대금 및 연체",
+      "tel": "1599-6300",
+      "note": "연체 상담"
+    }
+  ],
+  "hq": "서울특별시 종로구 종로1길 50 더케이트윈타워"
+}
