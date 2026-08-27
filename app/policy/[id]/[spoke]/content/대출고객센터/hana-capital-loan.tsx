@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-hana-capital-loan-call-center.txt
- * 1차 출처: 하나캐피탈 공식 홈페이지 고객센터 안내 (https://www.hanacapital.co.kr/)
+ * 1차 출처: 하나캐피탈 고객센터 안내 페이지 (https://www.hanacapital.co.kr/untc/cuct/Cuct01P)
  * 확인일: 2026-08-27
  *
  * 이 파일은 scripts/new-call-center.ts 가 hana-capital-loan.json 로 찍어낸다.
@@ -58,7 +58,7 @@ export const hanaCapitalLoanCallCenterSpokeContent: SpokeData = {
         headers: ['구분', '번호', '비고'],
         rows: [['개인신용대출상담', '1599-7942', '평일 09:00~18:00'], ['고객센터', '1800-1110', '평일 09:00~18:00']],
       },
-      sourceNote: '* 출처: 하나캐피탈 공식 홈페이지 고객센터 안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: 하나캐피탈 고객센터 안내 페이지 (2026-08-27 확인)',
     },
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
@@ -73,7 +73,7 @@ export const hanaCapitalLoanCallCenterSpokeContent: SpokeData = {
         label: '대기를 줄이는 법',
         content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 주민번호와 대출 계좌번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
-      sourceNote: '* 출처: 하나캐피탈 공식 홈페이지 고객센터 안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: 하나캐피탈 고객센터 안내 페이지 (2026-08-27 확인)',
     },
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
@@ -88,7 +88,7 @@ export const hanaCapitalLoanCallCenterSpokeContent: SpokeData = {
         label: '통화료',
         content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
-      sourceNote: '* 출처: 하나캐피탈 공식 홈페이지 고객센터 안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: 하나캐피탈 고객센터 안내 페이지 (2026-08-27 확인)',
     },
     {
       q: '하나캐피탈 고객센터 위치는 어디인가요?', anchor: 'q4',
@@ -120,38 +120,38 @@ export const hanaCapitalLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '하나캐피탈 고객센터 전화번호는 몇 번인가요?',
       a: '대표번호는 1599-7942입니다. (2026-08-27 확인 기준)',
-      source: '하나캐피탈 공식 홈페이지 고객센터 안내',
-      sourceUrl: 'https://www.hanacapital.co.kr/',
+      source: '하나캐피탈 고객센터 안내 페이지',
+      sourceUrl: 'https://www.hanacapital.co.kr/untc/cuct/Cuct01P',
     },
     {
       q: '상담원과 바로 통화하려면 어떻게 하나요?',
       a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담원 연결 항목을 고르세요. 평일 09:00~18:00에만 가능합니다.',
-      source: '하나캐피탈 공식 홈페이지 고객센터 안내',
-      sourceUrl: 'https://www.hanacapital.co.kr/',
+      source: '하나캐피탈 고객센터 안내 페이지',
+      sourceUrl: 'https://www.hanacapital.co.kr/untc/cuct/Cuct01P',
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
       a: '상담원 상담은 평일 09:00~18:00입니다. 공식 안내에 야간·공휴일 운영 표기가 없어, 이 시간을 벗어나면 연결되지 않습니다.',
-      source: '하나캐피탈 공식 홈페이지 고객센터 안내',
-      sourceUrl: 'https://www.hanacapital.co.kr/',
+      source: '하나캐피탈 고객센터 안내 페이지',
+      sourceUrl: 'https://www.hanacapital.co.kr/untc/cuct/Cuct01P',
     },
     {
       q: '전화 요금은 어떻게 부과되나요?',
       a: '발신자 요금제 기준으로 부과됩니다.',
-      source: '하나캐피탈 공식 홈페이지 고객센터 안내',
-      sourceUrl: 'https://www.hanacapital.co.kr/',
+      source: '하나캐피탈 고객센터 안내 페이지',
+      sourceUrl: 'https://www.hanacapital.co.kr/untc/cuct/Cuct01P',
     },
     {
       q: '점심시간에도 상담이 되나요?',
       a: '하나캐피탈 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 평일 09:00~18:00으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담원 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
-      source: '하나캐피탈 공식 홈페이지 고객센터 안내',
-      sourceUrl: 'https://www.hanacapital.co.kr/',
+      source: '하나캐피탈 고객센터 안내 페이지',
+      sourceUrl: 'https://www.hanacapital.co.kr/untc/cuct/Cuct01P',
     },
     {
       q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
       a: '전화 상담은 지역과 관계없이 1599-7942 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
-      source: '하나캐피탈 공식 홈페이지 고객센터 안내',
-      sourceUrl: 'https://www.hanacapital.co.kr/',
+      source: '하나캐피탈 고객센터 안내 페이지',
+      sourceUrl: 'https://www.hanacapital.co.kr/untc/cuct/Cuct01P',
     },
     {
       q: '방문 상담은 어디로 가야 하나요?',
@@ -162,7 +162,7 @@ export const hanaCapitalLoanCallCenterSpokeContent: SpokeData = {
   ],
 
   sources: [
-    { name: '하나캐피탈 공식 홈페이지 고객센터 안내', url: 'https://www.hanacapital.co.kr/' },
+    { name: '하나캐피탈 고객센터 안내 페이지', url: 'https://www.hanacapital.co.kr/untc/cuct/Cuct01P' },
     { name: '하나캐피탈 공식 홈페이지', url: OFFICIAL },
   ],
 
@@ -174,8 +174,8 @@ export const hanaCapitalLoanCallCenterSpokeContent: SpokeData = {
     "name": "하나캐피탈",
     "brandColor": "#008485",
     "official": "https://www.hanacapital.co.kr",
-    "sourceUrl": "https://www.hanacapital.co.kr/",
-    "sourceName": "하나캐피탈 공식 홈페이지 고객센터 안내",
+    "sourceUrl": "https://www.hanacapital.co.kr/untc/cuct/Cuct01P",
+    "sourceName": "하나캐피탈 고객센터 안내 페이지",
     "verifiedAt": "2026-08-27",
     "main": {
       "label": "개인신용대출상담",

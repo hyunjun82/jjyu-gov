@@ -1,0 +1,45 @@
+{
+  "slug": "hyundai-card-loan",
+  "name": "현대카드",
+  "aliases": [
+    "현대카드 대출",
+    "현대카드 카드론"
+  ],
+  "industry": "loan",
+  "brandColor": "#000000",
+  "official": "https://www.hyundaicard.com",
+  "sourceUrl": "https://www.hyundaicard.com/i/CS_01/cashservice.html",
+  "sourceName": "현대카드 금융(장기카드대출·단기카드대출) 안내 페이지",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "금융상품 신청",
+    "tel": "1577-6100"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "금융상품 신청",
+      "tel": "1577-6100",
+      "note": "장기카드대출(카드론)·단기카드대출(현금서비스)"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1577-6000",
+      "note": "대출이 아닌 일반 문의"
+    },
+    {
+      "label": "카드신청",
+      "tel": "1577-0100",
+      "note": "카드 발급 문의"
+    }
+  ]
+}

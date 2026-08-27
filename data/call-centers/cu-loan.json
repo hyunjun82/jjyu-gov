@@ -1,0 +1,47 @@
+{
+  "slug": "cu-loan",
+  "name": "신협",
+  "aliases": [
+    "신협 대출",
+    "신용협동조합",
+    "CU신협"
+  ],
+  "industry": "loan",
+  "brandColor": "#0B6E4F",
+  "official": "https://www.cu.co.kr",
+  "sourceUrl": "https://www.cu.co.kr/cu/ad/inrstCmpr/selectCredtLonList.do?mi=100050",
+  "sourceName": "신협 중금리신용대출 공시 페이지 전자금융콜센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "전자금융콜센터 (대출 공시 페이지 기준)",
+    "tel": "1566-6000"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 신협은 조합별로 창구가 나뉘어, 실제 대출 상담은 거래 조합에서 받는다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전자금융콜센터 (대출 공시 페이지 기준)",
+      "tel": "1566-6000",
+      "note": "중금리신용대출·주택담보대출·전세자금대출 공시 페이지에 적힌 번호"
+    },
+    {
+      "label": "전자금융콜센터 (다른 국번)",
+      "tel": "1644-6000",
+      "note": "같은 창구"
+    },
+    {
+      "label": "공제콜센터",
+      "tel": "1544-3030",
+      "note": "대출이 아닌 공제"
+    }
+  ],
+  "hq": "대전광역시 서구 한밭대로 745"
+}

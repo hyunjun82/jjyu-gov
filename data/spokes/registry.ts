@@ -1625,9 +1625,65 @@ import { lotteCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke
 import { bnkCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/bnk-capital-loan';
 import { knbankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/knbank-loan';
 import { hanaSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hana-savings-loan';
+import { shinhanCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/shinhan-capital-loan';
+import { miraeCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/mirae-capital-loan';
+import { meritzCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/meritz-capital-loan';
+import { kdbCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kdb-capital-loan';
+import { ibkCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/ibk-capital-loan';
+import { acuonSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/acuon-savings-loan';
+import { osbSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/osb-savings-loan';
+import { ibkSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/ibk-savings-loan';
+import { acuonCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/acuon-capital-loan';
+import { hyundaiCommercialLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hyundai-commercial-loan';
+import { kfccLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kfcc-loan';
+import { wooriCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/woori-capital-loan';
+import { imcapLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/imcap-loan';
+import { hanaCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hana-card-loan';
+import { bcCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/bc-card-loan';
+import { kbCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kb-card-loan';
+import { hyundaiCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hyundai-card-loan';
+import { hankookSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hankook-savings-loan';
+import { moaSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/moa-savings-loan';
+import { pepperSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/pepper-savings-loan';
+import { sangsanginSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/sangsangin-savings-loan';
+import { wooriSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/woori-savings-loan';
+import { jbWooriCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/jb-woori-capital-loan';
+import { hyundaiCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hyundai-capital-loan';
+import { scBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/sc-bank-loan';
+import { jejuBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/jeju-bank-loan';
+import { suhyupBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/suhyup-bank-loan';
+import { cuLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/cu-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'loan-call-center': {
+    'cu-loan': cuLoanCallCenterSpokeContent,
+    'suhyup-bank-loan': suhyupBankLoanCallCenterSpokeContent,
+    'jeju-bank-loan': jejuBankLoanCallCenterSpokeContent,
+    'sc-bank-loan': scBankLoanCallCenterSpokeContent,
+    'hyundai-capital-loan': hyundaiCapitalLoanCallCenterSpokeContent,
+    'jb-woori-capital-loan': jbWooriCapitalLoanCallCenterSpokeContent,
+    'woori-savings-loan': wooriSavingsLoanCallCenterSpokeContent,
+    'sangsangin-savings-loan': sangsanginSavingsLoanCallCenterSpokeContent,
+    'pepper-savings-loan': pepperSavingsLoanCallCenterSpokeContent,
+    'moa-savings-loan': moaSavingsLoanCallCenterSpokeContent,
+    'hankook-savings-loan': hankookSavingsLoanCallCenterSpokeContent,
+    'hyundai-card-loan': hyundaiCardLoanCallCenterSpokeContent,
+    'kb-card-loan': kbCardLoanCallCenterSpokeContent,
+    'bc-card-loan': bcCardLoanCallCenterSpokeContent,
+    'hana-card-loan': hanaCardLoanCallCenterSpokeContent,
+    'imcap-loan': imcapLoanCallCenterSpokeContent,
+    'woori-capital-loan': wooriCapitalLoanCallCenterSpokeContent,
+    'kfcc-loan': kfccLoanCallCenterSpokeContent,
+    'hyundai-commercial-loan': hyundaiCommercialLoanCallCenterSpokeContent,
+    'acuon-capital-loan': acuonCapitalLoanCallCenterSpokeContent,
+    'ibk-savings-loan': ibkSavingsLoanCallCenterSpokeContent,
+    'osb-savings-loan': osbSavingsLoanCallCenterSpokeContent,
+    'acuon-savings-loan': acuonSavingsLoanCallCenterSpokeContent,
+    'ibk-capital-loan': ibkCapitalLoanCallCenterSpokeContent,
+    'kdb-capital-loan': kdbCapitalLoanCallCenterSpokeContent,
+    'meritz-capital-loan': meritzCapitalLoanCallCenterSpokeContent,
+    'mirae-capital-loan': miraeCapitalLoanCallCenterSpokeContent,
+    'shinhan-capital-loan': shinhanCapitalLoanCallCenterSpokeContent,
     'hana-savings-loan': hanaSavingsLoanCallCenterSpokeContent,
     'knbank-loan': knbankLoanCallCenterSpokeContent,
     'bnk-capital-loan': bnkCapitalLoanCallCenterSpokeContent,

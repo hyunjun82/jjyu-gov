@@ -1,0 +1,35 @@
+{
+  "slug": "acuon-capital-loan",
+  "name": "애큐온캐피탈",
+  "aliases": [
+    "애큐온캐피탈 대출",
+    "애큐온캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#00B5AD",
+  "official": "https://www.acuoncapital.com",
+  "sourceUrl": "https://www.acuoncapital.com/cs/csCenter.do",
+  "sourceName": "애큐온캐피탈 고객센터 페이지 상담 연결",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "상담직원 연결",
+    "tel": "1899-9911"
+  },
+  "hours": {
+    "weekday": "09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "상담직원 연결",
+      "tel": "1899-9911",
+      "note": "상담시간 09:00 ~ 18:00"
+    }
+  ],
+  "hoursNote": "공식 안내에 적힌 상담시간이다."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "pepper-savings-loan",
+  "name": "페퍼저축은행",
+  "aliases": [
+    "페퍼저축은행 대출",
+    "페퍼저축",
+    "페퍼스마트대출"
+  ],
+  "industry": "loan",
+  "brandColor": "#E4002B",
+  "official": "https://pepperbank.ibs.fsb.or.kr",
+  "sourceUrl": "https://pepperbank.ibs.fsb.or.kr/LonInfoIntr0100.act",
+  "sourceName": "페퍼저축은행 인터넷뱅킹 대출 안내 페이지 대표번호",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (대출 안내 페이지 기준)",
+    "tel": "1599-0722"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. www.pepperbank.kr 은 자동화 접근을 막아 저축은행중앙회 뱅킹 도메인에서 확인했다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (대출 안내 페이지 기준)",
+      "tel": "1599-0722",
+      "note": "저축은행 여신 — 대출 문의처다"
+    },
+    {
+      "label": "디지털뱅킹고객센터",
+      "tel": "1544-3637",
+      "note": "24시간 365일 연중무휴"
+    }
+  ]
+}

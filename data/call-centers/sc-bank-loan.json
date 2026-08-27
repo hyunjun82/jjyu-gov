@@ -1,0 +1,56 @@
+{
+  "slug": "sc-bank-loan",
+  "name": "SC제일은행",
+  "aliases": [
+    "SC제일은행 대출",
+    "제일은행",
+    "스탠다드차타드"
+  ],
+  "industry": "loan",
+  "brandColor": "#0473EA",
+  "official": "https://www.standardchartered.co.kr",
+  "sourceUrl": "https://www.standardchartered.co.kr/np/kr/cm/cc/ContactCenterInfo.jsp",
+  "sourceName": "SC제일은행 고객센터 상담원 담당업무별 코드 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "상담원 안내 (ARS 2번 담보대출 · 3번 신용대출)",
+    "tel": "1588-1599"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "보이스피싱 및 분실신고는 365일 24시간 운영",
+    "holiday": "은행 휴무일 제외"
+  },
+  "hoursNote": "고객센터 안내에 적힌 운영시간이다. 야간에 도는 건 보이스피싱·분실신고이지 대출이 아니다.",
+  "ars": {
+    "day": [
+      {
+        "key": "2",
+        "what": "담보대출"
+      },
+      {
+        "key": "3",
+        "what": "신용대출"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "상담원 안내 (ARS 2번 담보대출 · 3번 신용대출)",
+      "tel": "1588-1599",
+      "note": "ARS 초기멘트에서 0번 입력 후 코드 선택"
+    },
+    {
+      "label": "프리미엄고객상담센터",
+      "tel": "1577-1599",
+      "note": "평일 09:00~18:00"
+    },
+    {
+      "label": "외국인 전용서비스 (영어)",
+      "tel": "1577-7744",
+      "note": "평일 09:00~18:00"
+    }
+  ],
+  "hq": "서울특별시 종로구 종로 47 SC제일은행 본점"
+}

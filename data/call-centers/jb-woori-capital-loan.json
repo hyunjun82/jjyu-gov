@@ -1,0 +1,46 @@
+{
+  "slug": "jb-woori-capital-loan",
+  "name": "JB우리캐피탈",
+  "aliases": [
+    "JB우리캐피탈 대출",
+    "우리캐피탈",
+    "JB우리캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#0067AC",
+  "official": "https://www.wooricap.com",
+  "sourceUrl": "https://www.wooricap.com/cst/cap/JCSTCAP0001.do",
+  "sourceName": "JB우리캐피탈 고객센터 안내 (업무별 번호·상담시간)",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출신청",
+    "tel": "1688-8700"
+  },
+  "hours": {
+    "weekday": "월요일 ~ 목요일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 대출 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 대출 상담시간 표기 없음"
+  },
+  "hoursNote": "금요일 09:00 ~ 17:00 (원문에 다음 줄로 적혀 있다)",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출신청",
+      "tel": "1688-8700",
+      "note": "월~목 09:00~18:00 / 금 09:00~17:00"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1688-2300",
+      "note": "대출이 아닌 일반 문의"
+    },
+    {
+      "label": "사고정비",
+      "tel": "1666-8800",
+      "note": "평일 09:00 ~ 24:00 · 대출이 아닌 사고정비"
+    }
+  ]
+}

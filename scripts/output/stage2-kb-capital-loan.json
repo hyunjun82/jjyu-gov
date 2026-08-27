@@ -10,7 +10,7 @@
     "KB캐피탈 고객센터 위치",
     "KB캐피탈 고객센터 지역별로 찾기"
   ],
-  "source": "https://www.kbcapital.co.kr/cust/custCenterInfo.do",
+  "source": "https://www.kbcapital.co.kr/",
   "outline": "data/call-centers/kb-capital-loan.json",
   "approved": true,
   "approvedAt": "2026-08-27"

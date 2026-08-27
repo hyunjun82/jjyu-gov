@@ -1,0 +1,36 @@
+{
+  "slug": "osb-savings-loan",
+  "name": "OSB저축은행",
+  "aliases": [
+    "OSB저축은행 대출",
+    "OSB저축"
+  ],
+  "industry": "loan",
+  "brandColor": "#003D7D",
+  "official": "https://www.osb.co.kr",
+  "sourceUrl": "https://www.osb.co.kr/ib20/mnu/HOM00022",
+  "sourceName": "OSB저축은행 대출전화상담신청 페이지",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출전화상담",
+    "tel": "1644-0052"
+  },
+  "hours": {
+    "weekday": "상담: 08:30~17:30(주말제외)",
+    "night": "접수: 24시간",
+    "holiday": "주말제외"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출전화상담",
+      "tel": "1644-0052",
+      "note": "접수: 24시간 / 상담: 08:30~17:30(주말제외)"
+    }
+  ],
+  "hq": "서울특별시 서초구 서초중앙로 203",
+  "hoursNote": "대출전화상담신청 페이지에 접수 24시간 / 상담 08:30~17:30(주말제외) 로 적혀 있다."
+}

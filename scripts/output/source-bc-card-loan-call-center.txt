@@ -3,6 +3,60 @@ RECEIVED: 2026-08-27
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
 SHOTS: 1장 (scripts/output/captures/bc-card-loan-call-center-*.png)
 
+===== [1] https://www.bccard.com/app/card/CardLoanMain.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/bc-card-loan-call-center-1.png
+CHARS: 665
+
+보안 프로그램이 깔려있지 않은 경우, 공동인증 프로그램과 개인 방화벽 프로그램을 각각 설치하시기 바랍니다.
+
+보안 프로그램 FAQ 바로가기
+보안 프로그램을 설치하지 않으셔도 가상키패드와 브라우저인증서를 통해 사이트 이용이 가능합니다.
+아래 [설치안함] 버튼을 누르시면 보안 프로그램 설치없이 사이트 이용하실 수 있습니다
+설치안함
+보안프로그램 설치
+
+공동인증프로그램 INISAFE CrossWebEX
+
+강력한 PKI (공개키 기반) 보안 기술을 적용하여
+안전한 오픈웹 환경에서 공동인증서를 이용할 수 있도록 하는 프로그램입니다.
+
+미설치 다운로드
+
+개인방화벽프로그램 nProtect NOS
+
+키보드를 통해 입력되는 모든 정보를 암호화하여 해킹을 차단하고
+사용자 개인정보를 안전하게 보호합니다.
+
+다운로드
+시스템정보 = [Win32/WINDOWS 10 64]
+브라우저정보 = [Chrome 145]
+userAgent = [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36]
+BC카드 고객상담 1588-4000
+공동인증프로그램 이니텍㈜ 고객지원센터 1644-5040
+개인방화벽프로그램 잉카인터넷 고객지원센터 1566-0808
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: bc-card-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/bc-card-loan-call-center-*.png)
+
+===== [1] https://www.bccard.com/app/mobileWeb/MainActn.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/bc-card-loan-call-center-1.png
+CHARS: 9
+
+Not Found
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: bc-card-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/bc-card-loan-call-center-*.png)
+
 ===== [1] https://www.bccard.com/app/card/MainActn.do =====
 CAPTURED-BY: playwright (실브라우저)
 SHOT: scripts/output/captures/bc-card-loan-call-center-1.png

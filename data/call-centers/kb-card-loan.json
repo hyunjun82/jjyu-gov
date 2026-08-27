@@ -1,0 +1,46 @@
+{
+  "slug": "kb-card-loan",
+  "name": "KB국민카드",
+  "aliases": [
+    "국민카드 대출",
+    "KB국민카드 대출",
+    "국민카드"
+  ],
+  "industry": "loan",
+  "brandColor": "#FFBC00",
+  "official": "https://card.kbcard.com",
+  "sourceUrl": "https://card.kbcard.com/CXPRIFNC0001.cms",
+  "sourceName": "KB국민카드 금융(대출) 안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "금융서비스",
+    "tel": "1588-2788"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "금융서비스",
+      "tel": "1588-2788",
+      "note": "장기카드대출·단기카드대출 문의"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1588-1688",
+      "note": "대출이 아닌 일반 문의"
+    },
+    {
+      "label": "결제 및 각종변경(등록)",
+      "tel": "1899-0800",
+      "note": "결제일 변경 등"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

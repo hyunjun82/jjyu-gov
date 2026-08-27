@@ -8,8 +8,8 @@
   "industry": "loan",
   "brandColor": "#FFBC00",
   "official": "https://www.kbcapital.co.kr",
-  "sourceUrl": "https://www.kbcapital.co.kr/cust/custCenterInfo.do",
-  "sourceName": "KB캐피탈 고객센터 안내",
+  "sourceUrl": "https://www.kbcapital.co.kr/",
+  "sourceName": "KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)",
   "verifiedAt": "2026-08-27",
   "main": {
     "label": "신용대출상담",
@@ -34,6 +34,11 @@
       "label": "자동차대출상담",
       "tel": "1522-1112",
       "note": "자동차 대출 전용"
+    },
+    {
+      "label": "연체상담",
+      "tel": "1533-1115",
+      "note": "대출 연체 상담"
     },
     {
       "label": "고객상담",

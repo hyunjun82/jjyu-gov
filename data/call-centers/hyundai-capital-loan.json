@@ -1,0 +1,51 @@
+{
+  "slug": "hyundai-capital-loan",
+  "name": "현대캐피탈",
+  "aliases": [
+    "현대캐피탈 대출",
+    "현대캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#002C5F",
+  "official": "https://www.hyundaicapital.com",
+  "sourceUrl": "https://www.hyundaicapital.com/custcent/brncnsrscng/CPCCBS0201.hc",
+  "sourceName": "현대캐피탈 지점안내 페이지 (취급상품·전화번호)",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-2114"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "지점안내 페이지에 상담시간이 따로 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-2114",
+      "note": "신차할부·론, 중고차론, 자동차리스 등 지점 공통"
+    },
+    {
+      "label": "Online주택금융1지점 (주택담보대출)",
+      "tel": "02-6906-6300",
+      "note": "주택담보대출 전용 지점"
+    },
+    {
+      "label": "Online주택금융2지점 (주택담보대출)",
+      "tel": "02-6906-6599",
+      "note": "주택담보대출 전용 지점"
+    },
+    {
+      "label": "경기주택금융지점 (주택담보대출)",
+      "tel": "031-220-7000",
+      "note": "경기 지역 주택담보대출"
+    }
+  ],
+  "hq": "서울특별시 중구 세종대로 14 (남대문로5가) 그랜드센트럴 A동 7~17층"
+}

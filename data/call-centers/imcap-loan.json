@@ -1,0 +1,43 @@
+{
+  "slug": "imcap-loan",
+  "name": "iM캐피탈",
+  "aliases": [
+    "DGB캐피탈 대출",
+    "iM캐피탈 대출",
+    "대구캐피탈",
+    "DGB캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#00A56E",
+  "official": "https://www.imcap.co.kr",
+  "sourceUrl": "https://www.imcap.co.kr/about/branch.do",
+  "sourceName": "iM캐피탈 영업점 안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1566-0050"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 사명이 DGB캐피탈에서 iM캐피탈로 바뀌었다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1566-0050",
+      "note": "개인금융·담보대출·자동차금융·기업금융 모두 이 번호다"
+    },
+    {
+      "label": "오토리스·렌터카 해지 승계센터",
+      "tel": "1566-8808",
+      "note": "대출이 아닌 리스·렌터카"
+    }
+  ],
+  "hq": "서울특별시 중구 남대문로 125, iM금융센터"
+}

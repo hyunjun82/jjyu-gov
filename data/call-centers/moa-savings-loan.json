@@ -1,0 +1,36 @@
+{
+  "slug": "moa-savings-loan",
+  "name": "모아저축은행",
+  "aliases": [
+    "모아저축은행 대출",
+    "모아저축",
+    "모아론"
+  ],
+  "industry": "loan",
+  "brandColor": "#0B4DA2",
+  "official": "https://moaloan.co.kr",
+  "sourceUrl": "https://moaloan.co.kr/ctr/use_guide/CTR_UGD_UGI_010.do",
+  "sourceName": "모아저축은행 고객센터 이용시간 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "전화상담 (대출상담 및 상황문의)",
+    "tel": "1566-0007"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00 (주말, 공휴일 휴무)",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "주말, 공휴일 휴무"
+  },
+  "hoursNote": "고객센터 이용시간 안내 표에 대출상담 항목으로 적혀 있다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화상담 (대출상담 및 상황문의)",
+      "tel": "1566-0007",
+      "note": "평일 09:00 ~ 18:00"
+    }
+  ]
+}

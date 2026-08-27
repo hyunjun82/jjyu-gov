@@ -1,0 +1,36 @@
+{
+  "slug": "shinhan-capital-loan",
+  "name": "신한캐피탈",
+  "aliases": [
+    "신한캐피탈 대출",
+    "신한캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#0046FF",
+  "official": "https://www.shcap.co.kr",
+  "sourceUrl": "https://www.shcap.co.kr/",
+  "sourceName": "신한캐피탈 공식 홈페이지 대표전화",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1544-6800"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1544-6800",
+      "note": "여신전문금융회사 — 대출 문의처다"
+    }
+  ],
+  "hq": "서울특별시 중구 청계천로 54",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

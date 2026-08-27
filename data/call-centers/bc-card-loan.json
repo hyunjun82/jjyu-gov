@@ -1,0 +1,41 @@
+{
+  "slug": "bc-card-loan",
+  "name": "BC카드",
+  "aliases": [
+    "BC카드 대출",
+    "비씨카드 대출",
+    "비씨카드"
+  ],
+  "industry": "loan",
+  "brandColor": "#E4002B",
+  "official": "https://www.bccard.com",
+  "sourceUrl": "https://www.bccard.com/app/card/CardLoanMain.do",
+  "sourceName": "BC카드 카드대출 안내 페이지 고객상담",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객상담 (카드대출 안내 페이지 기준)",
+    "tel": "1588-4000"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객상담 (카드대출 안내 페이지 기준)",
+      "tel": "1588-4000",
+      "note": "단기카드대출(현금서비스) 문의도 이 번호다"
+    },
+    {
+      "label": "바로카드 상담",
+      "tel": "1899-7771",
+      "note": "바로카드 전용"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

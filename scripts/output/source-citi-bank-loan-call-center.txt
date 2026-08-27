@@ -1,16 +1,29 @@
 SLUG: citi-bank-loan-call-center
 RECEIVED: 2026-08-27
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
-SHOTS: 1장 (scripts/output/captures/citi-bank-loan-call-center-*.png)
+SHOTS: 2장 (scripts/output/captures/citi-bank-loan-call-center-*.png)
 
-===== [1] https://www.citibank.co.kr/ =====
+===== [1] https://www.citibank.co.kr/LonLocoNetl0100.act =====
 CAPTURED-BY: playwright (실브라우저)
 SHOT: scripts/output/captures/citi-bank-loan-call-center-1.png
-CHARS: 198
+CHARS: 219
 
 Access Denied
-You don't have permission to access "http://www.citibank.co.kr/" on this server.
+You don't have permission to access "http://www.citibank.co.kr/LonLocoNetl0100.act" on this server.
 
-Reference #18.dbe9fbcb.1787814522.f42e6db
+Reference #18.dbe9fbcb.1787821066.116d9a09
 
-https://errors.edgesuite.net/18.dbe9fbcb.1787814522.f42e6db
+https://errors.edgesuite.net/18.dbe9fbcb.1787821066.116d9a09
+
+
+===== [2] https://www.citibank.co.kr/cgrp_pjt/jsp/ko/bfs/bfs040010v.jsp?gnbname=bfs =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/citi-bank-loan-call-center-2.png
+CHARS: 233
+
+Access Denied
+You don't have permission to access "http://www.citibank.co.kr/cgrp_pjt/jsp/ko/bfs/bfs040010v.jsp?" on this server.
+
+Reference #18.4eafbcb.1787821072.3edbf93b
+
+https://errors.edgesuite.net/18.4eafbcb.1787821072.3edbf93b

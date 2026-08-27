@@ -1,11 +1,28 @@
-SLUG: kb-capital-loan2-call-center
+SLUG: kb-capital-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저) + 화면 캡처 눈 확인
+
+WHY-THIS-LOOKS-LIKE-404
+  KB캐피탈 고객센터 페이지(cust/custCenterInfo.do · cent/comm/centMain.kbc)를 Playwright 로 열면
+  본문이 "요청한 페이지를 찾을 수 없습니다." 로 나온다. 홈(kbcapital.co.kr)도 마찬가지다.
+  그런데 번호는 사이트 공통 푸터에 있고 라벨이 정확히 붙어 있다 —
+  화면 캡처(captures/kb-capital-loan2-call-center-1.png)를 눈으로 열어 확인했다:
+      고객상담 1544-1200 (평일 09:00 ~ 18:00)
+      신용대출상담 1577-2223
+      자동차대출상담 1522-1112
+      렌터카/사고/정비 1544-9770
+      연체상담 1533-1115
+  본문이 404 라고 푸터까지 가짜인 것은 아니다. 라벨이 붙은 이 번호만 쓴다.
+  (카카오뱅크는 404 푸터에 "고객센터" 한 줄뿐이라 대출 근거가 없어 글을 뺐다 — 그 경우와 다르다)
+
+SLUG: kb-capital-loan-call-center
 RECEIVED: 2026-08-27
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
-SHOTS: 1장 (scripts/output/captures/kb-capital-loan2-call-center-*.png)
+SHOTS: 1장 (scripts/output/captures/kb-capital-loan-call-center-*.png)
 
-===== [1] https://www.kbcapital.co.kr/cust/custCenterInfo.do =====
+===== [1] https://www.kbcapital.co.kr/cent/comm/centMain.kbc =====
 CAPTURED-BY: playwright (실브라우저)
-SHOT: scripts/output/captures/kb-capital-loan2-call-center-1.png
+SHOT: scripts/output/captures/kb-capital-loan-call-center-1.png
 CHARS: 466
 
 본문 바로가기

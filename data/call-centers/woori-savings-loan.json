@@ -1,0 +1,45 @@
+{
+  "slug": "woori-savings-loan",
+  "name": "우리금융저축은행",
+  "aliases": [
+    "우리금융저축은행 대출",
+    "우리저축은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#0067AC",
+  "official": "https://www.woorisavingsbank.com",
+  "sourceUrl": "https://www.woorisavingsbank.com/",
+  "sourceName": "우리금융저축은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "추가대출 상담",
+    "tel": "1599-0006"
+  },
+  "hours": {
+    "weekday": "평일:09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "원문 표기: \"고객센터 (평일:09:00~18:00, 예금상품 상담/평일:09:00~17:30)\"",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "추가대출 상담",
+      "tel": "1599-0006",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1599-0038",
+      "note": "평일 09:00~18:00"
+    },
+    {
+      "label": "예금상품 상담",
+      "tel": "1599-0776",
+      "note": "대출이 아닌 예금 · 평일 09:00~17:30"
+    }
+  ]
+}

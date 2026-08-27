@@ -146,8 +146,19 @@ for (const c of all) {
   const mine = [c.main.tel, ...(c.numbers ?? []).map((n) => n.tel)];
   const mineSet = new Set(mine.map(d));
   mine.forEach((t) => { if (!flat.includes(d(t))) p.push(`글에 없는 번호 ${t}`); });
+  /* 남의 대표번호 섞임 — 글에 실제로 적힌 전화번호만 본다.
+     전에는 글의 숫자를 전부 이어붙인 문자열(flat)에서 찾았다. 그러면 우연히 겹친다:
+     수협은행 글의 "tel:15881515" 뒤에 날짜 숫자가 붙어 15889898 이 만들어졌고
+     그걸 AIA생명 번호로 읽었다(2026-08-27). 실제로는 그 번호가 글에 없다.
+     번호 모양(1588-1515 / tel:15881515)으로만 뽑아 비교한다. 
+     ⚠ 이 정규식을 셸 heredoc 으로 고치지 마라 — 백슬래시가 깨진다.
+     전에  를 쓰려다 백스페이스(0x08)가 박혀, 이 검사가 아무것도 못 잡고
+     통과만 하고 있었다(2026-08-27). 고칠 때는 Edit 로 직접 고친다. */
+  const telsInText = new Set<string>();
+  (txt.match(/[0-9]{3,4}-[0-9]{3,4}(?:-[0-9]{4})?/g) ?? []).forEach((x) => telsInText.add(d(x)));
+  (txt.match(/tel:([0-9+]+)/g) ?? []).forEach((x) => telsInText.add(d(x)));
   all.filter((o) => o.slug !== c.slug && !mineSet.has(d(o.main.tel)))
-    .forEach((o) => { if (flat.includes(d(o.main.tel))) p.push(`남의 대표번호 섞임 → ${o.name} ${o.main.tel}`); });
+    .forEach((o) => { if (telsInText.has(d(o.main.tel))) p.push(`남의 대표번호 섞임 → ${o.name} ${o.main.tel}`); });
   Array.from(new Set((txt.match(/tel:([0-9+]+)/g) ?? []).map((x) => d(x))))
     .forEach((t) => { if (!mineSet.has(t)) p.push(`글에 없는 번호로 전화가 걸린다 tel:${t}`); });
   (c.numbers ?? []).filter((n) => n.smsOnly)

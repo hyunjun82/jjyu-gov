@@ -1,0 +1,17 @@
+{
+  "slug": "acuon-capital-loan",
+  "keyword": "애큐온캐피탈 고객센터",
+  "title": "애큐온캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "애큐온캐피탈 고객센터 전화번호 모음",
+    "애큐온캐피탈 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "애큐온캐피탈 고객센터 위치",
+    "애큐온캐피탈 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.acuoncapital.com/cs/csCenter.do",
+  "outline": "data/call-centers/acuon-capital-loan.json",
+  "approved": true,
+  "approvedAt": "2026-08-27"
+}

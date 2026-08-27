@@ -1,0 +1,46 @@
+{
+  "slug": "sangsangin-savings-loan",
+  "name": "상상인저축은행",
+  "aliases": [
+    "상상인저축은행 대출",
+    "상상인저축",
+    "뱅뱅뱅"
+  ],
+  "industry": "loan",
+  "brandColor": "#F5A200",
+  "official": "https://www.sangsanginsb.com",
+  "sourceUrl": "https://www.sangsanginsb.com/",
+  "sourceName": "상상인저축은행 공식 홈페이지 개인 대출상담 번호",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "개인 대출상담",
+    "tel": "1644-0882"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "개인 대출상담",
+      "tel": "1644-0882",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "예금·기타상담",
+      "tel": "1577-1771",
+      "note": "대출이 아닌 예금 문의"
+    },
+    {
+      "label": "디지털뱅킹고객센터",
+      "tel": "1544-3637",
+      "note": "24시간 365일 연중무휴"
+    }
+  ]
+}

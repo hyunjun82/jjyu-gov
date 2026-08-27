@@ -1,0 +1,17 @@
+{
+  "slug": "hankook-savings-loan",
+  "keyword": "한국투자저축은행 고객센터",
+  "title": "한국투자저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "한국투자저축은행 고객센터 전화번호 모음",
+    "한국투자저축은행 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "한국투자저축은행 고객센터 위치",
+    "한국투자저축은행 고객센터 지역별로 찾기"
+  ],
+  "source": "https://kisb.ibs.fsb.or.kr/CstFrbk0100.act",
+  "outline": "data/call-centers/hankook-savings-loan.json",
+  "approved": true,
+  "approvedAt": "2026-08-27"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "ibk-capital-loan",
+  "name": "IBK캐피탈",
+  "aliases": [
+    "IBK캐피탈 대출",
+    "기업은행 캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#0067AC",
+  "official": "https://www.ibkc.co.kr",
+  "sourceUrl": "https://www.ibkc.co.kr/ib20/mnu/MNUPCKSTOC001",
+  "sourceName": "IBK캐피탈 신규대출신청 페이지 상담서비스 번호",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "IBKC 상담서비스",
+    "tel": "1577-1885"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "IBKC 상담서비스",
+      "tel": "1577-1885",
+      "note": "상담 시간 평일 09:00~18:00"
+    }
+  ],
+  "hq": "서울특별시 강남구 테헤란로",
+  "hoursNote": "공식 안내에 적힌 상담시간이다."
+}

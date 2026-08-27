@@ -1,0 +1,46 @@
+{
+  "slug": "suhyup-bank-loan",
+  "name": "Sh수협은행",
+  "aliases": [
+    "수협은행 대출",
+    "Sh수협은행 대출",
+    "수협은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#0075C2",
+  "official": "https://www.suhyup-bank.com",
+  "sourceUrl": "https://www.suhyup-bank.com/ib20/mnu/PBM01708",
+  "sourceName": "Sh수협은행 대출 안내 페이지 고객지원",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객지원 (대출 안내 페이지 기준)",
+    "tel": "1588-1515"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원 (대출 안내 페이지 기준)",
+      "tel": "1588-1515",
+      "note": "대출 문의도 이 번호다"
+    },
+    {
+      "label": "고객지원 (다른 국번)",
+      "tel": "1644-1515",
+      "note": "같은 창구"
+    },
+    {
+      "label": "공제보험",
+      "tel": "1588-4119",
+      "note": "대출이 아닌 공제보험"
+    }
+  ]
+}

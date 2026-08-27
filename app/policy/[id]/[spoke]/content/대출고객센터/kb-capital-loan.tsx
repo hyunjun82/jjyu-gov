@@ -1,7 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-kb-capital-loan-call-center.txt
- * 1차 출처: KB캐피탈 고객센터 안내 (https://www.kbcapital.co.kr/cust/custCenterInfo.do)
+ * 1차 출처: KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인) (https://www.kbcapital.co.kr/)
  * 확인일: 2026-08-27
  *
  * 이 파일은 scripts/new-call-center.ts 가 kb-capital-loan.json 로 찍어낸다.
@@ -27,7 +27,7 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    'KB캐피탈 고객센터 전화번호 1577-2223. 상담시간 공식 안내에 대출 상담시간 표기 없음, 공식 안내에 상담 가능 시간 표기 없음. 대출 업무별 번호 3개와 상담원 연결 방법까지 2026-08-27 공식 안내 기준.',
+    'KB캐피탈 고객센터 전화번호 1577-2223. 상담시간 공식 안내에 대출 상담시간 표기 없음, 공식 안내에 상담 가능 시간 표기 없음. 대출 업무별 번호 4개와 상담원 연결 방법까지 2026-08-27 공식 안내 기준.',
   dateModified: '2026-08-27T09:00:00+09:00',
 
   heroHook:
@@ -52,13 +52,13 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
     {
       q: 'KB캐피탈 고객센터 전화번호 몇 번인가요?', anchor: 'q1',
       intro:
-        '대표번호는 1577-2223입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-08-27 기준 공식 안내에 올라와 있는 번호는 아래 3개입니다.',
+        '대표번호는 1577-2223입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-08-27 기준 공식 안내에 올라와 있는 번호는 아래 4개입니다.',
       highlights: ['1577-2223', '대표번호', '전용번호'],
       table: {
         headers: ['구분', '번호', '비고'],
-        rows: [['신용대출상담', '1577-2223', '개인 신용대출'], ['자동차대출상담', '1522-1112', '자동차 대출 전용'], ['고객상담', '1544-1200', '평일 09:00 ~ 18:00 · 대출이 아닌 일반 문의']],
+        rows: [['신용대출상담', '1577-2223', '개인 신용대출'], ['자동차대출상담', '1522-1112', '자동차 대출 전용'], ['연체상담', '1533-1115', '대출 연체 상담'], ['고객상담', '1544-1200', '평일 09:00 ~ 18:00 · 대출이 아닌 일반 문의']],
       },
-      sourceNote: '* 출처: KB캐피탈 고객센터 안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인) (2026-08-27 확인)',
     },
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
@@ -73,7 +73,7 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
         label: '대기를 줄이는 법',
         content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 주민번호와 대출 계좌번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
-      sourceNote: '* 출처: KB캐피탈 고객센터 안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인) (2026-08-27 확인)',
     },
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
@@ -88,7 +88,7 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
         label: '통화료',
         content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
-      sourceNote: '* 출처: KB캐피탈 고객센터 안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인) (2026-08-27 확인)',
     },
     {
       q: 'KB캐피탈 고객센터 위치는 어디인가요?', anchor: 'q4',
@@ -120,38 +120,38 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
     {
       q: 'KB캐피탈 고객센터 전화번호는 몇 번인가요?',
       a: '대표번호는 1577-2223입니다. (2026-08-27 확인 기준)',
-      source: 'KB캐피탈 고객센터 안내',
-      sourceUrl: 'https://www.kbcapital.co.kr/cust/custCenterInfo.do',
+      source: 'KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)',
+      sourceUrl: 'https://www.kbcapital.co.kr/',
     },
     {
       q: '상담원과 바로 통화하려면 어떻게 하나요?',
       a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담원 연결 항목을 고르세요. 공식 안내에 대출 상담시간 표기 없음에만 가능합니다.',
-      source: 'KB캐피탈 고객센터 안내',
-      sourceUrl: 'https://www.kbcapital.co.kr/cust/custCenterInfo.do',
+      source: 'KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)',
+      sourceUrl: 'https://www.kbcapital.co.kr/',
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
       a: 'KB캐피탈 공식 안내에는 상담 가능 시간이 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하시는 편이 확실합니다.',
-      source: 'KB캐피탈 고객센터 안내',
-      sourceUrl: 'https://www.kbcapital.co.kr/cust/custCenterInfo.do',
+      source: 'KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)',
+      sourceUrl: 'https://www.kbcapital.co.kr/',
     },
     {
       q: '전화 요금은 어떻게 부과되나요?',
       a: '발신자 요금제 기준으로 부과됩니다.',
-      source: 'KB캐피탈 고객센터 안내',
-      sourceUrl: 'https://www.kbcapital.co.kr/cust/custCenterInfo.do',
+      source: 'KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)',
+      sourceUrl: 'https://www.kbcapital.co.kr/',
     },
     {
       q: '점심시간에도 상담이 되나요?',
       a: 'KB캐피탈 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 공식 안내에 대출 상담시간 표기 없음으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담원 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
-      source: 'KB캐피탈 고객센터 안내',
-      sourceUrl: 'https://www.kbcapital.co.kr/cust/custCenterInfo.do',
+      source: 'KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)',
+      sourceUrl: 'https://www.kbcapital.co.kr/',
     },
     {
       q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
       a: '전화 상담은 지역과 관계없이 1577-2223 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
-      source: 'KB캐피탈 고객센터 안내',
-      sourceUrl: 'https://www.kbcapital.co.kr/cust/custCenterInfo.do',
+      source: 'KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)',
+      sourceUrl: 'https://www.kbcapital.co.kr/',
     },
     {
       q: '방문 상담은 어디로 가야 하나요?',
@@ -162,7 +162,7 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
   ],
 
   sources: [
-    { name: 'KB캐피탈 고객센터 안내', url: 'https://www.kbcapital.co.kr/cust/custCenterInfo.do' },
+    { name: 'KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)', url: 'https://www.kbcapital.co.kr/' },
     { name: 'KB캐피탈 공식 홈페이지', url: OFFICIAL },
   ],
 
@@ -174,8 +174,8 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
     "name": "KB캐피탈",
     "brandColor": "#FFBC00",
     "official": "https://www.kbcapital.co.kr",
-    "sourceUrl": "https://www.kbcapital.co.kr/cust/custCenterInfo.do",
-    "sourceName": "KB캐피탈 고객센터 안내",
+    "sourceUrl": "https://www.kbcapital.co.kr/",
+    "sourceName": "KB캐피탈 공통 푸터의 상담번호 안내 (화면 캡처 확인)",
     "verifiedAt": "2026-08-27",
     "main": {
       "label": "신용대출상담",
@@ -207,6 +207,11 @@ export const kbCapitalLoanCallCenterSpokeContent: SpokeData = {
         "label": "자동차대출상담",
         "tel": "1522-1112",
         "note": "자동차 대출 전용"
+      },
+      {
+        "label": "연체상담",
+        "tel": "1533-1115",
+        "note": "대출 연체 상담"
       },
       {
         "label": "고객상담",

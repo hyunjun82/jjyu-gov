@@ -1,0 +1,40 @@
+{
+  "slug": "hyundai-commercial-loan",
+  "name": "현대커머셜",
+  "aliases": [
+    "현대커머셜 대출",
+    "현대커머셜"
+  ],
+  "industry": "loan",
+  "brandColor": "#002C5F",
+  "official": "https://www.hyundaicommercial.com",
+  "sourceUrl": "https://www.hyundaicommercial.com/",
+  "sourceName": "현대커머셜 공식 홈페이지 금융상담",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "금융상담",
+    "tel": "1899-0303"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "금융상담",
+      "tel": "1899-0303",
+      "note": "기업금융상담·한도상담"
+    },
+    {
+      "label": "대표문의",
+      "tel": "1577-5200",
+      "note": "서류발급·할부상담·리스상담"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

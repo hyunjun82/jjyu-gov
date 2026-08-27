@@ -10,7 +10,7 @@
     "하나캐피탈 고객센터 위치",
     "하나캐피탈 고객센터 지역별로 찾기"
   ],
-  "source": "https://www.hanacapital.co.kr/",
+  "source": "https://www.hanacapital.co.kr/untc/cuct/Cuct01P",
   "outline": "data/call-centers/hana-capital-loan.json",
   "approved": true,
   "approvedAt": "2026-08-27"

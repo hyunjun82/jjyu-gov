@@ -1,0 +1,35 @@
+{
+  "slug": "jeju-bank-loan",
+  "name": "제주은행",
+  "aliases": [
+    "제주은행 대출",
+    "신한 제주은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#0046FF",
+  "official": "https://www.jejubank.co.kr",
+  "sourceUrl": "https://www.jejubank.co.kr/hmpg/prdGdnc/loan/cdln.do",
+  "sourceName": "제주은행 신용대출 안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 (신용대출 안내 페이지 기준)",
+    "tel": "1588-0079"
+  },
+  "hours": {
+    "weekday": "평일 09~18시 (은행 휴무일 제외)",
+    "night": "공식 안내에 야간 대출 상담시간 표기 없음",
+    "holiday": "은행 휴무일 제외"
+  },
+  "hoursNote": "대출 안내 페이지에 적힌 고객센터 운영시간이다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (신용대출 안내 페이지 기준)",
+      "tel": "1588-0079",
+      "note": "신용대출·담보대출·자동차대출 문의"
+    }
+  ]
+}

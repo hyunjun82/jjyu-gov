@@ -1,0 +1,22 @@
+SLUG: jeju-bank-loan-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright MCP 브라우저 (capture-source.ts 는 e-jejubank.com 에서 타임아웃)
+
+WHY-NOT-CAPTURE-SOURCE
+  처음에 e-jejubank.com 으로 열어 ERR_CONNECTION_TIMED_OUT 이 났다.
+  실제 도메인은 www.jejubank.co.kr 이다. Playwright MCP 브라우저로 열면 정상이다
+  (제목 "신용대출|대출|상품안내|제주은행"). 그 본문을 그대로 옮긴다.
+
+===== [1] https://www.jejubank.co.kr/hmpg/prdGdnc/loan/cdln.do =====
+
+신용대출|대출|상품안내|제주은행
+
+대출
+신용대출
+담보대출
+자동차대출
+서민금융(대출)
+신용대출
+AX솔루션 지원 자금 대출
+
+고객센터 1588-0079 (해외 82-64-759-2002) 평일 09~18시 (은행 휴무일 제외)

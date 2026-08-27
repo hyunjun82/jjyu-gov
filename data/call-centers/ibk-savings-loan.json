@@ -1,0 +1,41 @@
+{
+  "slug": "ibk-savings-loan",
+  "name": "IBK저축은행",
+  "aliases": [
+    "IBK저축은행 대출",
+    "IBK저축"
+  ],
+  "industry": "loan",
+  "brandColor": "#0067AC",
+  "official": "https://www.ibksb.co.kr",
+  "sourceUrl": "https://sbloan.ibksb.co.kr/ibk/loan_form/loan_step02_Evt.jsp",
+  "sourceName": "IBK저축은행 전화상담신청(대출) 페이지 대표번호",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (대출 전화상담신청 페이지 기준)",
+    "tel": "1522-7900"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (대출 전화상담신청 페이지 기준)",
+      "tel": "1522-7900",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "디지털뱅킹고객센터",
+      "tel": "1544-3637",
+      "note": "24시간 365일 연중무휴"
+    }
+  ],
+  "hq": "부산광역시 부산진구 중앙대로 735 4층",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+}

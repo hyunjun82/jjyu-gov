@@ -1,0 +1,17 @@
+{
+  "slug": "cu-loan",
+  "keyword": "신협 고객센터",
+  "title": "신협 대출 고객센터 전화번호 및 대출 상담 연결 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "신협 고객센터 전화번호 모음",
+    "신협 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "신협 고객센터 위치",
+    "신협 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.cu.co.kr/cu/ad/inrstCmpr/selectCredtLonList.do?mi=100050",
+  "outline": "data/call-centers/cu-loan.json",
+  "approved": true,
+  "approvedAt": "2026-08-27"
+}

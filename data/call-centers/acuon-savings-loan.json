@@ -1,0 +1,44 @@
+{
+  "slug": "acuon-savings-loan",
+  "name": "애큐온저축은행",
+  "aliases": [
+    "애큐온저축은행 대출",
+    "애큐온저축"
+  ],
+  "industry": "loan",
+  "brandColor": "#00B5AD",
+  "official": "https://www.acuonsb.co.kr",
+  "sourceUrl": "https://www.acuonsb.co.kr/sv_cus0101101.act",
+  "sourceName": "애큐온저축은행 고객센터 ARS 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 1번 대출상담)",
+    "tel": "1588-6161"
+  },
+  "hours": {
+    "weekday": "일반상담 09:00~17:30/대출접수 09:00~17:30(평일)",
+    "night": "공식 안내에 야간 대출 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 대출 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "1",
+        "what": "대출상담"
+      },
+      {
+        "key": "0",
+        "what": "상담사 연결"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 1번 대출상담)",
+      "tel": "1588-6161",
+      "note": "대출접수 09:00~17:30(평일)"
+    }
+  ],
+  "hoursNote": "ARS 안내 페이지에 \"상담 가능 시간 : 일반상담 09:00~17:30/대출접수 09:00~17:30(평일)\" 로 적혀 있다."
+}

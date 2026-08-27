@@ -1,0 +1,37 @@
+{
+  "slug": "kdb-capital-loan",
+  "name": "KDB캐피탈",
+  "aliases": [
+    "산은캐피탈 대출",
+    "KDB캐피탈 대출",
+    "산은캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#00539F",
+  "official": "https://www.kdbc.co.kr",
+  "sourceUrl": "https://www.kdbc.co.kr/",
+  "sourceName": "KDB캐피탈 공식 홈페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1899-6114"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1899-6114",
+      "note": "운영시간 평일 09:00~18:00"
+    }
+  ],
+  "hq": "서울특별시 영등포구 은행로 22",
+  "hoursNote": "공식 안내에 적힌 상담시간이다."
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "hana-card-loan",
+  "name": "하나카드",
+  "aliases": [
+    "하나카드 대출",
+    "하나카드 카드론",
+    "하나SK카드"
+  ],
+  "industry": "loan",
+  "brandColor": "#008485",
+  "official": "https://www.hanacard.co.kr",
+  "sourceUrl": "https://www.hanacard.co.kr/OPF10000000M.web",
+  "sourceName": "하나카드 장기카드대출(카드론) 안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 (장기카드대출 안내 페이지 기준)",
+    "tel": "1800-1111"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (장기카드대출 안내 페이지 기준)",
+      "tel": "1800-1111",
+      "note": "장기카드대출(카드론) 문의도 이 번호다"
+    },
+    {
+      "label": "고객센터 (카드대금결제신청)",
+      "tel": "1800-1000",
+      "note": "카드대금결제신청 전용"
+    },
+    {
+      "label": "시각장애인 전용상담센터",
+      "tel": "1599-0701",
+      "note": "시각장애인 고객 전용"
+    }
+  ]
+}

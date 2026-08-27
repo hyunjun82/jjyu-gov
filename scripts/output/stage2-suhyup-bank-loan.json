@@ -1,0 +1,17 @@
+{
+  "slug": "suhyup-bank-loan",
+  "keyword": "Sh수협은행 고객센터",
+  "title": "Sh수협은행 대출 고객센터 전화번호 및 대출 상담 연결 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "Sh수협은행 고객센터 전화번호 모음",
+    "Sh수협은행 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "Sh수협은행 고객센터 위치",
+    "Sh수협은행 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.suhyup-bank.com/ib20/mnu/PBM01708",
+  "outline": "data/call-centers/suhyup-bank-loan.json",
+  "approved": true,
+  "approvedAt": "2026-08-27"
+}
