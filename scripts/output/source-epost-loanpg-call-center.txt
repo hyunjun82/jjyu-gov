@@ -1,0 +1,11 @@
+SLUG: epost-loanpg-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/epost-loanpg-call-center-*.png)
+
+===== [1] https://www.epostbank.go.kr/IBD/IBD1000/IBD1000.jsp =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/epost-loanpg-call-center-1.png
+CHARS: 0
+
+

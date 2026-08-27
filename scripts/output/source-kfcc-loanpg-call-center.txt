@@ -1,0 +1,17 @@
+SLUG: kfcc-loanpg-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/kfcc-loanpg-call-center-*.png)
+
+===== [1] https://www.kfcc.co.kr/dime/loan.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/kfcc-loanpg-call-center-1.png
+CHARS: 81
+
+본문 바로가기
+
+요청하신 페이지를 찾을 수 없습니다.
+찾고 있는 리소스가 제거되었거나 없는 페이지 입니다.
+잠시 후에 다시 확인해보세요.
+
+홈으로

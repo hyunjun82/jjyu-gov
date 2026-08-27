@@ -1,0 +1,41 @@
+{
+  "slug": "knbank-loan",
+  "name": "BNK경남은행",
+  "aliases": [
+    "경남은행 대출",
+    "BNK경남은행 대출",
+    "경남은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#E60012",
+  "official": "https://www.knbank.co.kr",
+  "sourceUrl": "https://www.knbank.co.kr/ib20/mnu/FPMLON050304000",
+  "sourceName": "BNK경남은행 개인대출안내 페이지 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 (개인대출안내 페이지 기준)",
+    "tel": "1600-8585"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (개인대출안내 페이지 기준)",
+      "tel": "1600-8585",
+      "note": "대출 문의도 이 번호다"
+    },
+    {
+      "label": "고객센터 (다른 국번)",
+      "tel": "1588-8585",
+      "note": "같은 창구"
+    }
+  ]
+}

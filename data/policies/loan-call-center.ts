@@ -128,6 +128,8 @@ export const loanCallCenterPolicy = {
 };
 
 export const loanCallCenterSpokes = [
+  { slug: 'hana-savings-loan', role: 'eligibility', title: '하나저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'knbank-loan', role: 'eligibility', title: 'BNK경남은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'bnk-capital-loan', role: 'eligibility', title: 'BNK캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'lotte-capital-loan', role: 'eligibility', title: '롯데캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'kbank-loan', role: 'eligibility', title: '케이뱅크 대출 고객센터 전화번호 및 대출 상담 연결 안내' },

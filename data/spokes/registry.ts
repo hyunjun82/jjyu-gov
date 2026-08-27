@@ -1623,9 +1623,13 @@ import { nhBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { kbankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kbank-loan';
 import { lotteCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/lotte-capital-loan';
 import { bnkCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/bnk-capital-loan';
+import { knbankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/knbank-loan';
+import { hanaSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hana-savings-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'loan-call-center': {
+    'hana-savings-loan': hanaSavingsLoanCallCenterSpokeContent,
+    'knbank-loan': knbankLoanCallCenterSpokeContent,
     'bnk-capital-loan': bnkCapitalLoanCallCenterSpokeContent,
     'lotte-capital-loan': lotteCapitalLoanCallCenterSpokeContent,
     'kbank-loan': kbankLoanCallCenterSpokeContent,

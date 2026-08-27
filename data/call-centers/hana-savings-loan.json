@@ -1,0 +1,36 @@
+{
+  "slug": "hana-savings-loan",
+  "name": "하나저축은행",
+  "aliases": [
+    "하나저축은행 대출",
+    "하나저축"
+  ],
+  "industry": "loan",
+  "brandColor": "#008485",
+  "official": "https://www.hanasavings.com",
+  "sourceUrl": "https://www.hanasavings.com/loan",
+  "sourceName": "하나저축은행 대출상품 안내 페이지 대표전화",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표전화 (대출상품 안내 페이지 기준)",
+    "tel": "1899-1122"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출상품 안내 페이지에 적힌 대표전화 상담시간이다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화 (대출상품 안내 페이지 기준)",
+      "tel": "1899-1122",
+      "note": "평일 09:00 ~ 18:00"
+    }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 127"
+}

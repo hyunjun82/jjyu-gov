@@ -1,0 +1,16 @@
+SLUG: hyundai-commercial-loan2-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/hyundai-commercial-loan2-call-center-*.png)
+
+===== [1] https://www.hyundaicommercial.com/loan =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/hyundai-commercial-loan2-call-center-1.png
+CHARS: 93
+
+현대커머셜
+
+잠시 후 다시 시도해 보시고, 계속 동일한 문제 발생 시
+현대커머셜 고객센터(대표문의 1577-5200)로 문의하시면 친절하게 안내해 드리겠습니다.
+
+확인

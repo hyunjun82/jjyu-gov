@@ -1,0 +1,15 @@
+SLUG: cu-loanpg-call-center
+RECEIVED: 2026-08-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/cu-loanpg-call-center-*.png)
+
+===== [1] https://www.cu.co.kr/cu/loan =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/cu-loanpg-call-center-1.png
+CHARS: 53
+
+불편을 드려 죄송합니다.
+
+요청하신 페이지가 정상적으로 처리되지 않았습니다.
+
+이전페이지로 가기
