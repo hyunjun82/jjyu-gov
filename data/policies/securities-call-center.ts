@@ -165,7 +165,6 @@ export const securitiesCallCenterPolicy = {
 } as const;
 
 export const securitiesCallCenterSpokes = [
-  { slug: 'leading-sec', role: 'eligibility', title: '리딩투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'yuhwa-sec', role: 'eligibility', title: '유화증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'yuanta', role: 'eligibility', title: '유안타증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'woori-sec', role: 'eligibility', title: '우리투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
@@ -180,6 +179,7 @@ export const securitiesCallCenterSpokes = [
   { slug: 'miraeasset', role: 'eligibility', title: '미래에셋증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'meritz-sec', role: 'eligibility', title: '메리츠증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'ls-sec', role: 'eligibility', title: 'LS증권 고객센터 전화번호와 상담시간, 상담원 연결' },
+  { slug: 'leading-sec', role: 'eligibility', title: '리딩투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'kyobo-sec', role: 'eligibility', title: '교보증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'kr-sec', role: 'eligibility', title: 'KR투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'korea-invest', role: 'eligibility', title: '한국투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },

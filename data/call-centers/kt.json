@@ -1,0 +1,66 @@
+{
+  "slug": "kt",
+  "name": "KT",
+  "aliases": [
+    "케이티",
+    "olleh",
+    "KT 고객센터"
+  ],
+  "industry": "telecom",
+  "brandColor": "#E6002D",
+  "official": "https://www.kt.com",
+  "sourceUrl": "https://www.kt.com/",
+  "sourceName": "KT 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "모바일 (유료)",
+    "tel": "1588-0010"
+  },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "모바일 휴대폰",
+      "tel": "114",
+      "note": "무료"
+    },
+    {
+      "label": "모바일 (무료)",
+      "tel": "080-000-1618",
+      "note": "무료"
+    },
+    {
+      "label": "모바일 (유료)",
+      "tel": "1588-0010",
+      "note": "유료"
+    },
+    {
+      "label": "인터넷/TV/전화",
+      "tel": "100",
+      "note": "국번없이, 무료"
+    },
+    {
+      "label": "인터넷/TV/전화 (무료)",
+      "tel": "080-000-9999",
+      "note": "무료"
+    },
+    {
+      "label": "발신전용",
+      "tel": "1514",
+      "note": "KT 발신전용 번호"
+    },
+    {
+      "label": "발신전용 (다른 번호)",
+      "tel": "1524",
+      "note": "KT 발신전용 번호"
+    }
+  ],
+  "hq": "경기도 성남시 분당구 불정로 90 (정자동)"
+}

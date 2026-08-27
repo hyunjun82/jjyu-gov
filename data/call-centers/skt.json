@@ -1,0 +1,62 @@
+{
+  "slug": "skt",
+  "name": "SK텔레콤",
+  "aliases": [
+    "SKT",
+    "에스케이텔레콤",
+    "T world",
+    "티월드"
+  ],
+  "industry": "telecom",
+  "brandColor": "#EA1917",
+  "official": "https://www.tworld.co.kr",
+  "sourceUrl": "https://www.tworld.co.kr/web/home",
+  "sourceName": "SK텔레콤 T world 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 (유료)",
+    "tel": "1599-0011"
+  },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 대표",
+      "tel": "114",
+      "note": "휴대폰 국번 없이, 무료"
+    },
+    {
+      "label": "고객센터 (무료)",
+      "tel": "080-011-6000",
+      "note": "무료"
+    },
+    {
+      "label": "고객센터 (유료)",
+      "tel": "1599-0011",
+      "note": "국번 없이, 유료"
+    },
+    {
+      "label": "인터넷/집전화 (무료)",
+      "tel": "080-816-2000",
+      "note": "무료"
+    },
+    {
+      "label": "인터넷/집전화 (유료)",
+      "tel": "1600-2000",
+      "note": "유료"
+    },
+    {
+      "label": "T 멤버십 마켓",
+      "tel": "1670-9830",
+      "note": "유료"
+    }
+  ],
+  "hq": "서울특별시 중구 을지로 65 (을지로2가)"
+}

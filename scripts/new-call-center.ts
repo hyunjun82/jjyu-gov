@@ -22,6 +22,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
+import * as JOSA from './lib/josa';
 
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
 const die = (m: string) => { console.error('❌ ' + m); process.exit(1); };
@@ -156,6 +157,53 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     idStep: '카드번호와 생년월일',
     hubWord: '카드 고객센터',
   },
+  /* 통신사 (2026-08-27 신설).
+     통신은 급할 때가 분실했을 때(유심 정지)와 개통·명의변경이다.
+     고유어는 기존 글과 겹치지 않는 말로 골랐다 — '요금제'·'통신사' 는
+     보험·증권·카드 글의 통화료 문구에 이미 쓰여 금지어로 쓸 수 없다. */
+  telecom: {
+    hub: 'telecom-call-center',
+    dir: '통신고객센터',
+    word: '통신사',
+    labels: ['통신사 번호 모아보기', '다른 통신사 번호 보기', '통신사별 고객센터 목록', '통신사 전체 목록 열기'],
+    jobs: '개통, 명의변경, 요금 조회, 분실 정지',
+    remote: '요금 조회나 명의변경',
+    q5q: '다른 통신사 고객센터 번호도 필요한데요',
+    q5a: '집 인터넷과 휴대폰을 다른 회사에 두는 경우가 흔해서, 한 번에 두 곳에 전화하게 됩니다.',
+    h1: (n: string) => `${n} 고객센터 전화번호 및 상담원 연결·개통 문의 안내`,
+    night: '분실 정지는 24시간 접수됩니다',
+    goods: '개통·명의변경 등 업무별 번호',
+    offhour: '분실 정지·긴급 접수',
+    offhourLong: '휴대폰 분실 정지와 긴급 접수를 받습니다',
+    agent: '상담사',
+    heroLead: '분실 정지는 시간과 상관없이 접수됩니다',
+    dayNote: '개통과 명의변경은 평일 상담시간에 거는 편이 빠릅니다.',
+    idStep: '가입자 명의와 생년월일',
+    hubWord: '통신 고객센터',
+  },
+  /* 온라인 서비스 (2026-08-27 신설).
+     쇼핑·앱마켓·OTT 를 통신사에 묶었더니 "쿠팡 고객센터 … 개통 문의 안내" 가 나왔다.
+     정부 포털이 한 페이지에 모아 둔 것이지 같은 업종이라는 뜻이 아니다. */
+  online: {
+    hub: 'online-call-center',
+    dir: '온라인고객센터',
+    word: '온라인 서비스',
+    labels: ['서비스별 번호 모아보기', '다른 서비스 번호 보기', '온라인 서비스 고객센터 목록', '전체 목록 열기'],
+    jobs: '주문·결제 문의, 환불, 계정 문제',
+    remote: '환불이나 계정 복구',
+    q5q: '다른 서비스 고객센터 번호도 필요한데요',
+    q5a: '쇼핑·배달·구독을 한 곳만 쓰지 않습니다. 결제가 겹치면 어느 쪽에 걸어야 할지부터 헷갈립니다.',
+    h1: (n: string) => `${n} 고객센터 전화번호 및 상담원 연결·문의 안내`,
+    night: '상담시간은 서비스마다 다릅니다',
+    goods: '문의 유형별 번호',
+    offhour: '접수·문의',
+    offhourLong: '주문·결제 관련 접수를 받습니다',
+    agent: '상담원',
+    heroLead: '상담시간은 공식 안내를 확인해야 합니다',
+    dayNote: '환불과 계정 문제는 상담시간 안에 거는 편이 빠릅니다.',
+    idStep: '주문번호와 가입 이메일',
+    hubWord: '온라인 고객센터',
+  },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
 if (!IND) die(`모르는 industry: ${C.industry} (쓸 수 있는 값: ${Object.keys(INDUSTRY).join(', ')})`);
@@ -175,7 +223,9 @@ const mapUrl = `https://map.naver.com/p/search/${encodeURIComponent(C.hq ? Strin
 const arsRow = (a: any[]) => a.map((x) => `['${q(x.key)}번', '${q(x.what)}']`).join(', ');
 const numRow = (n: any) => `['${q(n.label)}', '${q(n.tel)}', '${q(n.note ?? '-')}']`;
 
-const exportName = `${C.slug.replace(/-([a-z])/g, (_m, c) => c.toUpperCase())}CallCenterSpokeContent`;
+/* slug 가 숫자로 시작하면 그대로는 식별자가 안 된다 — 11번가(11st) 가 빌드를 깼다.
+   URL 은 slug 그대로 두고(11st 가 맞다), 변수 이름 앞에만 글자를 붙인다. */
+const exportName = `${String(C.slug).replace(/-([a-z0-9])/g, (_m, c) => String(c).toUpperCase()).replace(/^([0-9])/, 'cc$1')}CallCenterSpokeContent`;
 const day = C.ars.day as any[];
 const night = C.ars.night as any[];
 const agent = day.find((x) => /상담사|상담원/.test(x.what));
@@ -193,27 +243,9 @@ const LUNCH = C.hours.lunch ?? '공식 안내에 점심 휴무 표기 없음';
    "콜센터 운영 시간 : 평일 9시…에는"(원문 라벨째), 야간=공휴일이 같은 회사는 같은 문구 2번.
    제일 무거운 건 왜곡이다 — 상담이 닫힌 시간을 "돌아갑니다"라 쓰고,
    조회·납입·시스템점검 시간을 "사고접수 위주"라고 단정했다. 원문에 없는 말이다. */
-const JONG_NUM: Record<string, boolean> = { '0': true, '1': true, '2': false, '3': true, '4': false, '5': false, '6': true, '7': true, '8': true, '9': false };
-const jong = (w: string): boolean => {
-  const m = String(w).replace(/[)\]\s"'’」』.,]+$/, '').match(/[가-힣0-9a-zA-Z]$/);
-  if (!m) return false;
-  const ch = m[0];
-  if (/[0-9]/.test(ch)) return JONG_NUM[ch];
-  const c = ch.charCodeAt(0);
-  if (c >= 0xac00 && c <= 0xd7a3) return (c - 0xac00) % 28 !== 0;
-  return /[lmnr]$/i.test(ch);
-};
-const rieul = (w: string): boolean => {
-  const m = String(w).replace(/[)\]\s"'’」』.,]+$/, '').match(/[가-힣0-9]$/);
-  if (!m) return false;
-  if (/[0-9]/.test(m[0])) return m[0] === '1' || m[0] === '7' || m[0] === '8';
-  const c = m[0].charCodeAt(0);
-  return c >= 0xac00 && c <= 0xd7a3 && (c - 0xac00) % 28 === 8;
-};
-const josa = (w: string, pair: '과' | '이' | '은' | '을' | '으로'): string => {
-  if (pair === '으로') return !jong(w) || rieul(w) ? '로' : '으로';
-  return jong(w) ? pair : ({ 과: '와', 이: '가', 은: '는', 을: '를' } as const)[pair];
-};
+/* 조사 판정은 scripts/lib/josa.ts 하나로만 한다 —
+   생성기와 게이트(check-sentence.ts)가 다르게 계산하면 게이트가 무의미해진다. */
+const { jong, rieul, josa } = JOSA;
 
 /* 원문 라벨을 값에 같이 적어 둔 회사가 많다 — "콜센터 운영 시간 : 평일 9시 ~ 18시".
    JSON 은 원문 그대로 두는 게 맞다(keyFacts·게이트가 원문을 본다). 문장에 넣을 때만 벗긴다. */
@@ -387,9 +419,12 @@ const KEY_OK = HAS_ARS && src.includes(`${AGENT_KEY}번`);
    23곳을 한 틀로 찍었더니 상단 버튼 끝 어절 "걸기" 가 100%, cue 가 23번 같은 문장이었다.
    게이트가 막았고, 막는 게 맞다 — 찍어낸 티가 나면 사람이 안 누른다.
    회사 slug 로 고른다. 같은 회사는 항상 같은 문구가 나와 재생성해도 안 흔들린다. */
-const pick = <T,>(arr: T[]): T => {
+const pick = <T,>(arr: T[], salt = ''): T => {
   let h = 0;
-  for (const ch of String(C.slug)) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  /* salt 가 없으면 slug 하나로만 고르게 되고, 그러면 MAP 과 HUB 가 늘 같은 자리를
+     집는다 — 한 회사에서 "같이 보세요" + "비교해 보세요" 가 짝으로 나와
+     끝 어절 "보세요." 가 29% 까지 올라갔다(2026-08-27 check-button-variety). */
+  for (const ch of String(C.slug) + salt) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
   return arr[h % arr.length];
 };
 
@@ -427,8 +462,8 @@ const MAP_TAILS = [
   '가까운 곳이 어디인지부터 확인하는 편이 빠릅니다.',
 ];
 const MAP_CUE = C.hq
-  ? `${C.name} 본사는 ${hqShort} 쪽입니다. ${pick(MAP_TAILS)}`
-  : `${C.name}은 공식 안내에 지점 주소를 따로 걸어두지 않습니다. ${pick(MAP_TAILS)}`;
+  ? `${C.name} 본사는 ${hqShort} 쪽입니다. ${pick(MAP_TAILS, 'map')}`
+  : `${C.name}${josa(C.name, '은')} 공식 안내에 지점 주소를 따로 걸어두지 않습니다. ${pick(MAP_TAILS, 'map')}`;
 const MAP_LABELS = ['가까운 지점 찾기', '지점 위치 확인하기', '지도에서 위치 보기', '가까운 창구 찾아보기'];
 
 const HUB_TAILS = [
@@ -438,9 +473,20 @@ const HUB_TAILS = [
   '급할 때 다시 찾지 않게 목록을 열어 두시죠.',
   '어디가 지금 받는지는 목록에서 바로 갈립니다.',
 ];
+/* 상담시간이 없는 회사는 시간 이야기를 아예 꺼내지 않는다.
+   앞 문장이 시간을 안 쓰는데 맺음만 "몇 시까지인지" 라고 하면 앞뒤가 안 맞는다. */
+const HUB_TAILS_NOTIME = [
+  `다른 ${IND.word} 번호가 필요할 때도 여기서 찾으실 수 있습니다.`,
+  '회사마다 번호 체계가 갈리니 한자리에서 비교하시는 편이 빠릅니다.',
+  '두 곳 넘게 쓰신다면 미리 챙겨 두는 게 낫습니다.',
+  '급할 때 다시 찾지 않게 목록을 열어 두시죠.',
+  '어디로 걸어야 하는지는 목록에서 바로 갈립니다.',
+];
 const HUB_CUE = nightOpen
-  ? `${C.name}은 야간에도 접수를 받지만 회사마다 이게 다릅니다. ${pick(HUB_TAILS)}`
-  : `${C.name} 상담은 ${String(C.hours.weekday).replace(/^[^0-9]*/, '').slice(0, 20)} 안에서만 됩니다. ${pick(HUB_TAILS)}`;
+  ? `${C.name}${josa(C.name, '은')} 야간에도 접수를 받지만 회사마다 이게 다릅니다. ${pick(HUB_TAILS, 'hub')}`
+  : NO_HOURS
+    ? `${C.name}${josa(C.name, '은')} 공식 안내에 상담시간을 적어 두지 않았습니다. ${pick(HUB_TAILS_NOTIME, 'hub')}`
+    : `${C.name} 상담은 ${HW} 안에서만 됩니다. ${pick(HUB_TAILS, 'hub')}`;
 const HUB_LABELS = IND.labels;
 const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? `ARS 안내에서 ${IND.agent} 연결 선택` : '공식 안내에 ARS 단축번호 미공개');
 const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'${IND.agent} 연결'`;

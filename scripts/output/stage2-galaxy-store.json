@@ -1,0 +1,17 @@
+{
+  "slug": "galaxy-store",
+  "keyword": "갤럭시스토어 고객센터",
+  "title": "갤럭시스토어 고객센터 전화번호 및 상담원 연결·문의 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "갤럭시스토어 고객센터 전화번호 모음",
+    "갤럭시스토어 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "갤럭시스토어 고객센터 위치",
+    "갤럭시스토어 고객센터 지역별로 찾기"
+  ],
+  "source": "https://wiseuser.go.kr/square.do?boardno=6491&boardtypecode=5900",
+  "outline": "data/call-centers/galaxy-store.json",
+  "approved": true,
+  "approvedAt": "2026-08-27"
+}

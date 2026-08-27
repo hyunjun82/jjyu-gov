@@ -1542,8 +1542,71 @@ import { hyundaiMarineDirectCallCenterSpokeContent } from '@/app/policy/[id]/[sp
 import { kbInsuranceDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kb-insurance-direct';
 import { dbInsuranceDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/db-insurance-direct';
 import { nhPropertyDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/nh-property-direct';
+import { meritzFireDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/meritz-fire-direct';
+import { sktCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/skt';
+import { ktCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/kt';
+import { lguplusCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/lguplus';
+import { lgHellovisionCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/lg-hellovision';
+import { s1MobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/s1-mobile';
+import { ktMmobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/kt-mmobile';
+import { skTelinkCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/sk-telink';
+import { medialogCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/medialog';
+import { anexTelecomCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/anex-telecom';
+import { kctCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/kct';
+import { livemCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/livem';
+import { keunsaramCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/keunsaram';
+import { inscobeeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/inscobee';
+import { skBroadbandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/sk-broadband';
+import { dliveCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/dlive';
+import { hcnCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/hcn';
+import { cmbCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/cmb';
+import { coupangCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/coupang';
+import { naverShoppingCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/naver-shopping';
+import { baeminCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/baemin';
+import { googlePlayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/google-play';
+import { appStoreCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/app-store';
+import { oneStoreCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/one-store';
+import { galaxyStoreCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/galaxy-store';
+import { youtubeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/youtube';
+import { netflixCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/netflix';
+import { wavveCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/wavve';
+import { afreecatvCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/afreecatv';
+import { cc11stCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/11st';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'online-call-center': {
+    '11st': cc11stCallCenterSpokeContent,
+  },
+  'telecom-call-center': {
+    'baemin': baeminCallCenterSpokeContent,
+    'naver-shopping': naverShoppingCallCenterSpokeContent,
+    'coupang': coupangCallCenterSpokeContent,
+    'galaxy-store': galaxyStoreCallCenterSpokeContent,
+    'one-store': oneStoreCallCenterSpokeContent,
+    'app-store': appStoreCallCenterSpokeContent,
+    'google-play': googlePlayCallCenterSpokeContent,
+    'afreecatv': afreecatvCallCenterSpokeContent,
+    'wavve': wavveCallCenterSpokeContent,
+    'netflix': netflixCallCenterSpokeContent,
+    'youtube': youtubeCallCenterSpokeContent,
+    'cmb': cmbCallCenterSpokeContent,
+    'hcn': hcnCallCenterSpokeContent,
+    'dlive': dliveCallCenterSpokeContent,
+    'sk-broadband': skBroadbandCallCenterSpokeContent,
+    'inscobee': inscobeeCallCenterSpokeContent,
+    'keunsaram': keunsaramCallCenterSpokeContent,
+    'livem': livemCallCenterSpokeContent,
+    'kct': kctCallCenterSpokeContent,
+    'anex-telecom': anexTelecomCallCenterSpokeContent,
+    'medialog': medialogCallCenterSpokeContent,
+    'sk-telink': skTelinkCallCenterSpokeContent,
+    'kt-mmobile': ktMmobileCallCenterSpokeContent,
+    's1-mobile': s1MobileCallCenterSpokeContent,
+    'lg-hellovision': lgHellovisionCallCenterSpokeContent,
+    'lguplus': lguplusCallCenterSpokeContent,
+    'kt': ktCallCenterSpokeContent,
+    'skt': sktCallCenterSpokeContent,
+  },
   'card-call-center': {
     'cu-card': cuCardCallCenterSpokeContent,
     'kfcc-card': kfccCardCallCenterSpokeContent,
@@ -1605,6 +1668,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'kiwoom': kiwoomCallCenterSpokeContent,
   },
   'insurance-call-center': {
+    'meritz-fire-direct': meritzFireDirectCallCenterSpokeContent,
     'nh-property-direct': nhPropertyDirectCallCenterSpokeContent,
     'db-insurance-direct': dbInsuranceDirectCallCenterSpokeContent,
     'kb-insurance-direct': kbInsuranceDirectCallCenterSpokeContent,

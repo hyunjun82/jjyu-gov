@@ -1,83 +1,44 @@
 SLUG: meritz-fire-direct-call-center
-RECEIVED: 2026-08-26
-CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
-SHOTS: 2장 (scripts/output/captures/meritz-fire-direct-call-center-*.png)
+RECEIVED: 2026-08-27
+CAPTURED-BY: 사용자 화면 캡처 (direct.meritzfire.com 공식 홈페이지 푸터)
+WHY-NOT-PLAYWRIGHT: 이 사이트는 수집기를 방화벽으로 막는다.
+  capture-source.ts 로 세 번 시도했고 세 번 다 아래가 돌아왔다.
+    "Web firewall security policies have been blocked."
+    Detect URL : https://direct.meritzfire.com/main.do
+  접속 IP 까지 찍어 차단한다. 실브라우저(사장님 크롬)로는 정상적으로 열린다.
+  사장님이 연 화면을 그대로 옮겨 적었다. 화면에 없던 것은 넣지 않았다.
 
-===== [1] https://direct.meritzfire.com/customer/CustomerCenter.do =====
-CAPTURED-BY: playwright (실브라우저)
-SHOT: scripts/output/captures/meritz-fire-direct-call-center-1.png
-CHARS: 181
+===== [1] https://direct.meritzfire.com/ (푸터) =====
 
-Web firewall security policies have been blocked.
-Detect time	2026-08-27 08:29:05
-Detect client IP	121.124.185.30
-Detect URL	https://direct.meritzfire.com/customer/customercenter.do
+신고센터 | 안내/유의사항 | 메리츠금융가족 | 다이렉트 SNS
+개인정보처리방침  신용정보활용체제공시  홈페이지이용약관  전자금융거래약관  공지사항  본부(지점) 찾기
 
------ 표 (innerText 가 못 읽는 자리) -----
-[표 1]
-Detect time | 2026-08-27 08:29:05
-Detect client IP | 121.124.185.30
-Detect URL | https://direct.meritzfire.com/customer/customercenter.do
+고객콜센터
+1566-7711
+사고접수/긴급출동
+계약변경 등
+ARS 안내
 
+다이렉트 고객센터
+1522-1133 자동차
+1522-1135 장기
 
-===== [2] https://direct.meritzfire.com/ =====
-CAPTURED-BY: playwright (실브라우저)
-SHOT: scripts/output/captures/meritz-fire-direct-call-center-2.png
-CHARS: 155
+보험가입상담센터
+1688-7711
+건강보험 가입상담
+(운전자, 암, 어린이 등)
 
-Web firewall security policies have been blocked.
-Detect time	2026-08-27 08:29:09
-Detect client IP	121.124.185.30
-Detect URL	https://direct.meritzfire.com/
+메리츠화재해상보험주식회사   대표이사 김중현   사업자번호 116-81-03752
+서울 강남구 강남대로 382 (역삼동) 메리츠타워
+© meritz Fire & Marine Insurance Co., Ltd. ALL RIGHTS RESERVED.
 
------ 표 (innerText 가 못 읽는 자리) -----
-[표 1]
-Detect time | 2026-08-27 08:29:09
-Detect client IP | 121.124.185.30
-Detect URL | https://direct.meritzfire.com/
+----- 하단 고정 띠 -----
+다이렉트 고객센터(자동차)
+1522-1133
+메리츠다이렉트 자동차보험(개인)
+든든한 보장, 인터넷으로 저렴하게!
+보험료 계산/가입
 
-
-===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
-SLUG: meritz-fire-direct-call-center
-RECEIVED: 2026-08-26
-CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
-SHOTS: 1장 (scripts/output/captures/meritz-fire-direct-call-center-*.png)
-
-===== [1] https://direct.meritzfire.com/main.do =====
-CAPTURED-BY: playwright (실브라우저)
-SHOT: scripts/output/captures/meritz-fire-direct-call-center-1.png
-CHARS: 162
-
-Web firewall security policies have been blocked.
-Detect time	2026-08-27 08:24:41
-Detect client IP	121.124.185.30
-Detect URL	https://direct.meritzfire.com/main.do
-
------ 표 (innerText 가 못 읽는 자리) -----
-[표 1]
-Detect time | 2026-08-27 08:24:41
-Detect client IP | 121.124.185.30
-Detect URL | https://direct.meritzfire.com/main.do
-
-
-===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
-SLUG: meritz-fire-direct-call-center
-RECEIVED: 2026-08-26
-CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
-SHOTS: 1장 (scripts/output/captures/meritz-fire-direct-call-center-*.png)
-
-===== [1] https://direct.meritzfire.com/main.do#!/ =====
-CAPTURED-BY: playwright (실브라우저)
-SHOT: scripts/output/captures/meritz-fire-direct-call-center-1.png
-CHARS: 162
-
-Web firewall security policies have been blocked.
-Detect time	2026-08-27 08:22:20
-Detect client IP	121.124.185.30
-Detect URL	https://direct.meritzfire.com/main.do
-
------ 표 (innerText 가 못 읽는 자리) -----
-[표 1]
-Detect time | 2026-08-27 08:22:20
-Detect client IP | 121.124.185.30
-Detect URL | https://direct.meritzfire.com/main.do
+----- 화면에 없던 것 (쓰지 않는다) -----
+상담 가능 시간 : 푸터에 시간 표기 없음
+ARS 단축번호 구성도 : "ARS 안내" 버튼만 있고 번호별 업무는 이 화면에 없음

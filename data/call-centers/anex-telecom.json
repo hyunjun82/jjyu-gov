@@ -1,0 +1,45 @@
+{
+  "slug": "anex-telecom",
+  "name": "에넥스텔레콤",
+  "aliases": [
+    "A모바일",
+    "에넥스",
+    "anex"
+  ],
+  "industry": "telecom",
+  "brandColor": "#0067AC",
+  "official": "https://wiseuser.go.kr",
+  "sourceUrl": "https://wiseuser.go.kr/square.do?boardno=6487&boardtypecode=5900",
+  "sourceName": "와이즈유저 방송통신이용자정보포털 알뜰폰 사업자 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "KT망 (무료)",
+    "tel": "080-850-8603"
+  },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "KT망 (무료)",
+      "tel": "080-850-8603",
+      "note": "무료"
+    },
+    {
+      "label": "KT망",
+      "tel": "1588-1635",
+      "note": "유료"
+    },
+    {
+      "label": "LGU+망",
+      "tel": "1644-2140",
+      "note": "유료"
+    }
+  ]
+}

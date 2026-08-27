@@ -1,0 +1,35 @@
+{
+  "slug": "app-store",
+  "name": "앱스토어",
+  "aliases": [
+    "App Store",
+    "애플 앱스토어",
+    "아이폰 앱스토어"
+  ],
+  "industry": "online",
+  "brandColor": "#0071E3",
+  "official": "https://wiseuser.go.kr",
+  "sourceUrl": "https://wiseuser.go.kr/square.do?boardno=6491&boardtypecode=5900",
+  "sourceName": "와이즈유저 방송통신이용자정보포털 앱마켓 사업자 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "080-333-4000"
+  },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "080-333-4000",
+      "note": "무료"
+    }
+  ]
+}

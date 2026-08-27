@@ -1,0 +1,72 @@
+{
+  "slug": "lguplus",
+  "name": "LG유플러스",
+  "aliases": [
+    "LGU+",
+    "엘지유플러스",
+    "U+",
+    "유플러스"
+  ],
+  "industry": "telecom",
+  "brandColor": "#E6007E",
+  "official": "https://www.lguplus.com",
+  "sourceUrl": "https://www.lguplus.com/",
+  "sourceName": "LG U+ 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터 휴대폰 (유료)",
+    "tel": "1544-0010"
+  },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 휴대폰",
+      "tel": "114",
+      "note": "무료"
+    },
+    {
+      "label": "고객센터 휴대폰 (유료)",
+      "tel": "1544-0010",
+      "note": "유료"
+    },
+    {
+      "label": "인터넷/IPTV/전화",
+      "tel": "101",
+      "note": "무료"
+    },
+    {
+      "label": "인터넷/IPTV/전화 (유료)",
+      "tel": "1644-7000",
+      "note": "유료"
+    },
+    {
+      "label": "가입문의 휴대폰",
+      "tel": "1644-7009",
+      "note": "유료"
+    },
+    {
+      "label": "가입문의 인터넷/IPTV/전화",
+      "tel": "1644-7070",
+      "note": "유료"
+    },
+    {
+      "label": "스마트홈",
+      "tel": "1544-0107",
+      "note": "유료"
+    },
+    {
+      "label": "소상공인 인터넷/IPTV/전화",
+      "tel": "1800-8000",
+      "note": "유료"
+    }
+  ],
+  "hq": "서울특별시 용산구 한강대로 32"
+}

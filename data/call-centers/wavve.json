@@ -1,0 +1,34 @@
+{
+  "slug": "wavve",
+  "name": "웨이브",
+  "aliases": [
+    "wavve",
+    "웨이브 OTT"
+  ],
+  "industry": "online",
+  "brandColor": "#1F4EF5",
+  "official": "https://wiseuser.go.kr",
+  "sourceUrl": "https://wiseuser.go.kr/square.do?boardno=6490&boardtypecode=5900",
+  "sourceName": "와이즈유저 방송통신이용자정보포털 미디어 사업자 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1599-3709"
+  },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1599-3709",
+      "note": "유료"
+    }
+  ]
+}

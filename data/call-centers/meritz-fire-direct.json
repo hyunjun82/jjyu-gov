@@ -1,0 +1,25 @@
+{
+  "slug": "meritz-fire-direct",
+  "name": "메리츠화재 다이렉트",
+  "aliases": ["메리츠다이렉트", "메리츠 다이렉트", "메리츠화재다이렉트"],
+  "industry": "insurance",
+  "brandColor": "#E4002B",
+  "official": "https://direct.meritzfire.com",
+  "sourceUrl": "https://direct.meritzfire.com/",
+  "sourceName": "메리츠화재 다이렉트 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": { "label": "다이렉트 고객센터 (자동차)", "tel": "1522-1133" },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "다이렉트 고객센터 (자동차)", "tel": "1522-1133", "note": "메리츠다이렉트 자동차보험(개인)" },
+    { "label": "다이렉트 고객센터 (장기)", "tel": "1522-1135", "note": "장기보험 전용" },
+    { "label": "고객콜센터", "tel": "1566-7711", "note": "사고접수/긴급출동, 계약변경 등" },
+    { "label": "보험가입상담센터", "tel": "1688-7711", "note": "건강보험 가입상담 (운전자, 암, 어린이 등)" }
+  ],
+  "hq": "서울특별시 강남구 강남대로 382 (역삼동) 메리츠타워"
+}

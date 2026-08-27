@@ -1,0 +1,35 @@
+{
+  "slug": "baemin",
+  "name": "배달의민족",
+  "aliases": [
+    "배민",
+    "배달의 민족",
+    "우아한형제들"
+  ],
+  "industry": "online",
+  "brandColor": "#2AC1BC",
+  "official": "https://wiseuser.go.kr",
+  "sourceUrl": "https://wiseuser.go.kr/square.do?boardno=6492&boardtypecode=5900",
+  "sourceName": "와이즈유저 방송통신이용자정보포털 쇼핑 사업자 고객센터",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1600-9880"
+  },
+  "hours": {
+    "weekday": "공식 안내에 상담 가능 시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1600-9880",
+      "note": "유료"
+    }
+  ]
+}
