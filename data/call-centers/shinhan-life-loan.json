@@ -1,0 +1,45 @@
+{
+  "slug": "shinhan-life-loan",
+  "name": "신한라이프",
+  "aliases": [
+    "신한라이프 대출",
+    "신한생명",
+    "오렌지라이프"
+  ],
+  "industry": "loan",
+  "brandColor": "#0046FF",
+  "official": "https://www.shinhanlife.co.kr",
+  "sourceUrl": "https://www.shinhanlife.co.kr/hp/cdhf0040p.pv",
+  "sourceName": "신한라이프 ARS 단축번호 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 1번 보험계약대출)",
+    "tel": "1588-5580"
+  },
+  "hours": {
+    "weekday": "상담사 연결 : 평일 09:00 ~ 20:00",
+    "night": "ARS 서비스 : 365일 00:30 ~ 23:50",
+    "holiday": "공식 안내에 공휴일 대출 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "1",
+        "what": "보험계약대출"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 1번 보험계약대출)",
+      "tel": "1588-5580",
+      "note": "대출 문의는 ARS 에서 1번을 누른다"
+    },
+    {
+      "label": "해외에서 연결",
+      "tel": "82-2-2131-3000"
+    }
+  ],
+  "hoursNote": "야간·공휴일에 도는 창구는 사고접수·긴급출동이라 대출 상담시간이 아니다. 대출은 평일 대표번호 ARS 로 받는다."
+}

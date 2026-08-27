@@ -1,0 +1,45 @@
+{
+  "slug": "meritz-fire-loan",
+  "name": "메리츠화재",
+  "aliases": [
+    "메리츠화재 대출",
+    "메리츠화재해상보험",
+    "메리츠 콜센터"
+  ],
+  "industry": "loan",
+  "brandColor": "#E4002B",
+  "official": "https://www.meritzfire.com",
+  "sourceUrl": "https://www.meritzfire.com/footer/ARS.do",
+  "sourceName": "메리츠화재 ARS 번호 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 6번 보험계약대출)",
+    "tel": "1566-7711"
+  },
+  "hours": {
+    "weekday": "보험금청구, 대출, 보험료납부, 신규가입, 기타상담 : 평일 09:00~18:00",
+    "night": "공식 안내에 야간 대출 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 대출 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "6",
+        "what": "보험계약대출"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 6번 보험계약대출)",
+      "tel": "1566-7711",
+      "note": "대출 문의는 ARS 에서 6번을 누른다"
+    },
+    {
+      "label": "고객콜센터(해외에서 문의 시)",
+      "tel": "82-2-6112-0300"
+    }
+  ],
+  "hoursNote": "야간·공휴일에 도는 창구는 사고접수·긴급출동이라 대출 상담시간이 아니다. 대출은 평일 대표번호 ARS 로 받는다."
+}

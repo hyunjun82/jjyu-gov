@@ -1,0 +1,41 @@
+{
+  "slug": "lotte-insurance-loan",
+  "name": "롯데손해보험",
+  "aliases": [
+    "롯데손해보험 대출",
+    "롯데손보",
+    "롯데손해보험 콜센터"
+  ],
+  "industry": "loan",
+  "brandColor": "#DA291C",
+  "official": "https://www.lotteins.co.kr",
+  "sourceUrl": "https://www.lotteins.co.kr/web/C/D/I/popcdi010_ars.jsp",
+  "sourceName": "롯데손해보험 고객 콜센터 ARS코드 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 3번 대출상담)",
+    "tel": "1588-3344"
+  },
+  "hours": {
+    "weekday": "평일 : 오전 9시~밤 9시",
+    "night": "공식 안내에 야간 대출 상담시간 표기 없음",
+    "holiday": "토요일/일요일 : 오전 9시~저녁6시"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "3",
+        "what": "대출상담"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 3번 대출상담)",
+      "tel": "1588-3344",
+      "note": "대출 문의는 ARS 에서 3번을 누른다"
+    }
+  ],
+  "hoursNote": "야간·공휴일에 도는 창구는 사고접수·긴급출동이라 대출 상담시간이 아니다. 대출은 평일 대표번호 ARS 로 받는다."
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "samsung-life-loan",
+  "name": "삼성생명",
+  "aliases": [
+    "삼성생명 대출",
+    "삼성생명보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#1428A0",
+  "official": "https://www.samsunglife.com",
+  "sourceUrl": "https://direct.samsunglife.com/customerSupport/inquiryGuide/CustomerSupportInquiryGuideMainView",
+  "sourceName": "삼성생명 상담 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표 콜센터 (보험계약·대출)",
+    "tel": "1588-3114"
+  },
+  "hours": {
+    "weekday": "대표 콜센터 (평일 09:00 ~ 18:00)",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표 콜센터 (보험계약·대출)",
+      "tel": "1588-3114",
+      "note": "원문 업무 목록에 \"대출\" 이 적혀 있다"
+    },
+    {
+      "label": "무료 전화",
+      "tel": "080-789-3300",
+      "note": "통화료 무료"
+    }
+  ]
+}

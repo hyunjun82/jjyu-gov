@@ -1,0 +1,49 @@
+{
+  "slug": "aia-life-loan",
+  "name": "AIA생명",
+  "aliases": [
+    "AIA생명 대출",
+    "AIA생명보험",
+    "AIA 콜센터"
+  ],
+  "industry": "loan",
+  "brandColor": "#D31145",
+  "official": "https://www.aia.co.kr",
+  "sourceUrl": "https://www.aia.co.kr/ko/customer-support/inquire/call-consultation/information.html",
+  "sourceName": "AIA생명 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 4번 보험계약대출 신청)",
+    "tel": "1588-9898"
+  },
+  "hours": {
+    "weekday": "상담사 연결 시간: 08:00~18:00(토, 일, 공휴일 휴무)",
+    "night": "ARS 이용 시간: 08:00~22:00(연중 무휴)",
+    "holiday": "ARS 이용 시간: 08:00~22:00(연중 무휴)"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "4",
+        "what": "보험계약대출 신청"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 4번 보험계약대출 신청)",
+      "tel": "1588-9898",
+      "note": "대출 문의는 ARS 에서 4번을 누른다"
+    },
+    {
+      "label": "ARS 자동화 서비스 대표번호",
+      "tel": "1588-9595",
+      "note": "08:00~22:00 연중무휴"
+    },
+    {
+      "label": "해피콜센터 전용번호",
+      "tel": "1588-2513"
+    }
+  ]
+}

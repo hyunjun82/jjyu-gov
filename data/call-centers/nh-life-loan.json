@@ -1,0 +1,40 @@
+{
+  "slug": "nh-life-loan",
+  "name": "NH농협생명",
+  "aliases": [
+    "NH농협생명 대출",
+    "농협생명",
+    "NH생명"
+  ],
+  "industry": "loan",
+  "brandColor": "#0070BA",
+  "official": "https://www.nhlife.co.kr",
+  "sourceUrl": "https://m.nhlife.co.kr/mo/cs/91/00/MOCS9100M00",
+  "sourceName": "NH농협생명 ARS번호 및 시간안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 3번 보험계약대출 문의)",
+    "tel": "1544-4000"
+  },
+  "hours": {
+    "weekday": "상담원 연결 : 평일 09:00 ~ 18:00(주말, 공휴일 제외)",
+    "night": "ARS이용 : 07:00 ~ 23:30(365일)",
+    "holiday": "금융사기 피해신고 : 24시간"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "3",
+        "what": "보험계약대출 문의"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 3번 보험계약대출 문의)",
+      "tel": "1544-4000",
+      "note": "대출 문의는 ARS 에서 3번을 누른다"
+    }
+  ]
+}

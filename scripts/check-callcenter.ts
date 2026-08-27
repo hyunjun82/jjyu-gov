@@ -125,10 +125,15 @@ for (const c of all) {
   const txt = fs.readFileSync(file, 'utf8');
   const flat = d(txt);
 
-  /* ① 업종 교차 오염 — 다른 업종의 고유어 중, 내 업종 고유어가 아닌 것 */
+  /* ① 업종 교차 오염 — 다른 업종의 고유어 중, 내 업종 고유어가 아닌 것.
+     대출 창구는 빼놓는다 (2026-08-27). 이 업종만 여러 업권을 걸친다 —
+     보험사 대출 글에는 "보험계약대출"·"보험금청구, 대출, 보험료납부" 가 원문 그대로 나오고,
+     카드사 대출 글에는 카드론이 나온다. 그게 그 회사의 대출 창구라서 그렇다.
+     "증권 글에 자동차 긴급출동" 같은 오염을 잡자고 만든 검사인데,
+     여기서는 원문에 있는 말을 막게 된다. */
   const mineWords = new Set(meta.own);
   for (const [k, v] of Object.entries(INDUSTRY)) {
-    if (k === ind) continue;
+    if (k === ind || ind === 'loan') continue;
     v.own.filter((w) => !mineWords.has(w)).forEach((w) => {
       if (txt.includes(w)) p.push(`업종에 안 맞는 말 "${w}" (${v.label} 용어)`);
     });

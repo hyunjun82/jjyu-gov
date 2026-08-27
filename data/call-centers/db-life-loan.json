@@ -1,0 +1,46 @@
+{
+  "slug": "db-life-loan",
+  "name": "DB생명",
+  "aliases": [
+    "DB생명 대출",
+    "디비생명",
+    "DB생명보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#00A04A",
+  "official": "https://www.idblife.com",
+  "sourceUrl": "https://www.idblife.com/support/convenience/ars",
+  "sourceName": "DB생명 ARS 이용안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 1번 보험계약대출)",
+    "tel": "1588-3131"
+  },
+  "hours": {
+    "weekday": "상담사 연결 : 09:00~18:00 (평일)",
+    "night": "ARS 서비스 : 365일 24시간",
+    "holiday": "ARS 서비스 : 365일 24시간"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "1",
+        "what": "보험계약대출"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 1번 보험계약대출)",
+      "tel": "1588-3131",
+      "note": "대출 문의는 ARS 에서 1번을 누른다"
+    },
+    {
+      "label": "시니어 고객 전용 콜센터",
+      "tel": "1566-5909",
+      "note": "65세 이상, ARS 메뉴 없이 바로 연결"
+    }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 432 7층 (대치동, DB금융센터)"
+}

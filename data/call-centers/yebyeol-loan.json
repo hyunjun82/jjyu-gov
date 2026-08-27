@@ -1,0 +1,47 @@
+{
+  "slug": "yebyeol-loan",
+  "name": "예별손해보험",
+  "aliases": [
+    "예별손해보험 대출",
+    "MG손해보험",
+    "엠지손해보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#E8380D",
+  "official": "https://www.yebyeol.co.kr",
+  "sourceUrl": "https://www.yebyeol.co.kr/CS081330DM.scp?menuId=MN0706009",
+  "sourceName": "예별손해보험 고객콜센터 ARS 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 6번 보험계약대출 관련 문의)",
+    "tel": "1588-5959"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00(공휴일, 토/일요일 휴무)",
+    "night": "공식 안내에 야간 대출 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 대출 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "6",
+        "what": "보험계약대출 관련 문의"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 6번 보험계약대출 관련 문의)",
+      "tel": "1588-5959",
+      "note": "대출 문의는 ARS 에서 6번을 누른다"
+    },
+    {
+      "label": "해외문의",
+      "tel": "82-2-2184-4300",
+      "note": "국제전화 요금"
+    }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 335 (역삼동)",
+  "hoursNote": "야간·공휴일에 도는 창구는 사고접수·긴급출동이라 대출 상담시간이 아니다. 대출은 평일 대표번호 ARS 로 받는다."
+}

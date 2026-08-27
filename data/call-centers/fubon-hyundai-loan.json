@@ -1,0 +1,47 @@
+{
+  "slug": "fubon-hyundai-loan",
+  "name": "푸본현대생명",
+  "aliases": [
+    "푸본현대생명 대출",
+    "푸본현대",
+    "푸본현대생명보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#00539B",
+  "official": "https://www.fubonhyundai.com",
+  "sourceUrl": "https://www.fubonhyundai.com/",
+  "sourceName": "푸본현대생명 ARS 상담안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 2번 보험계약대출, 보험료 납입)",
+    "tel": "1577-3311"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "ARS 이용시간 : 365일 24시간 가능",
+    "holiday": "ARS 이용시간 : 365일 24시간 가능",
+    "lunch": "점심시간 12 ~ 13시, 통화량이 많은 15 ~ 16시 사이는 상담원연결이 어려울 수 있습니다."
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "2",
+        "what": "보험계약대출, 보험료 납입"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 2번 보험계약대출, 보험료 납입)",
+      "tel": "1577-3311",
+      "note": "대출 문의는 ARS 에서 2번을 누른다"
+    },
+    {
+      "label": "해외에서 전화",
+      "tel": "82-2-3284-7000",
+      "note": "국제전화 요금"
+    }
+  ],
+  "hq": "서울특별시 영등포구 여의나루로 57"
+}

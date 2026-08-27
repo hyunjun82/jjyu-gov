@@ -1,0 +1,40 @@
+{
+  "slug": "heungkuk-fire-loan",
+  "name": "흥국화재",
+  "aliases": [
+    "흥국화재 대출",
+    "흥국화재해상보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#E4007F",
+  "official": "https://www.heungkukfire.co.kr",
+  "sourceUrl": "https://www.heungkukfire.co.kr/FRW/helpdesk/useGuideCallCenterARS.do",
+  "sourceName": "흥국화재 콜센터 ARS 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "신용대출",
+    "tel": "1877-5208"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "신용대출",
+      "tel": "1877-5208",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "장기보험가입상담",
+      "tel": "080-874-0000",
+      "note": "대출이 아닌 가입 상담"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 대표 고객센터 시간을 옮겨 적지 않는다."
+}

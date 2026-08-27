@@ -1,0 +1,53 @@
+{
+  "slug": "hanwha-life-loan",
+  "name": "한화생명",
+  "aliases": [
+    "한화생명 대출",
+    "한화생명보험",
+    "한화생명 콜센터"
+  ],
+  "industry": "loan",
+  "brandColor": "#F37321",
+  "official": "https://www.hanwhalife.com",
+  "sourceUrl": "https://www.hanwhalife.com/main/customerCenter/callCenterArs/CU_CSARS00_P10000.do",
+  "sourceName": "한화생명 콜센터ARS안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 1번 보험계약대출)",
+    "tel": "1588-6363"
+  },
+  "hours": {
+    "weekday": "상담사연결 : 평일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "계약내용 및 해지환급금 조회 24시간"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "1",
+        "what": "보험계약대출"
+      },
+      {
+        "key": "4",
+        "what": "부동산 및 신용대출"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 1번 보험계약대출)",
+      "tel": "1588-6363",
+      "note": "대출 문의는 ARS 에서 1번을 누른다"
+    },
+    {
+      "label": "시니어전용상담",
+      "tel": "1544-6382"
+    },
+    {
+      "label": "해외&일반",
+      "tel": "82-2-2169-0700"
+    }
+  ],
+  "hq": "서울특별시 영등포구 63로 50(여의도동, 63 한화생명빌딩)"
+}

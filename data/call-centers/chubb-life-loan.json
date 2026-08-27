@@ -1,0 +1,46 @@
+{
+  "slug": "chubb-life-loan",
+  "name": "처브라이프생명",
+  "aliases": [
+    "처브라이프생명 대출",
+    "처브라이프",
+    "처브라이프생명보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#1B3D6D",
+  "official": "https://www.chubblife.co.kr",
+  "sourceUrl": "https://www.chubblife.co.kr/index.do",
+  "sourceName": "처브라이프생명 ARS 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 1-2번 대출가능금액 조회)",
+    "tel": "1599-4600"
+  },
+  "hours": {
+    "weekday": "평일 오전 9시 ~ 오후 6시 [공휴일 제외]",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공휴일 제외"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "1-2",
+        "what": "대출가능금액 조회"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 1-2번 대출가능금액 조회)",
+      "tel": "1599-4600",
+      "note": "대출 문의는 ARS 에서 1-2번을 누른다"
+    },
+    {
+      "label": "팩스",
+      "tel": "02-2107-4700",
+      "note": "서류 발송용"
+    }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 401 남경센타 11층"
+}

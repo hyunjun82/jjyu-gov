@@ -1,0 +1,41 @@
+{
+  "slug": "kiwoom-loan",
+  "name": "키움증권",
+  "aliases": [
+    "키움증권 대출",
+    "키움 대출",
+    "영웅문"
+  ],
+  "industry": "loan",
+  "brandColor": "#181949",
+  "official": "https://www.kiwoom.com",
+  "sourceUrl": "https://www.kiwoom.com/h/customer/center/VCenterInfoView?dummyVal=0",
+  "sourceName": "키움증권 키움금융센터 금융센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "제휴기관대출",
+    "tel": "1644-6960"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "제휴기관대출",
+      "tel": "1644-6960",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "금융상품",
+      "tel": "1544-9100",
+      "note": "대출이 아닌 상품 문의"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 대표 고객센터 시간을 옮겨 적지 않는다."
+}

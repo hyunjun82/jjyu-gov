@@ -1,0 +1,51 @@
+{
+  "slug": "tongyang-life-loan",
+  "name": "동양생명",
+  "aliases": [
+    "동양생명 대출",
+    "수호천사 동양생명",
+    "동양생명보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#0B4DA2",
+  "official": "https://www.myangel.co.kr",
+  "sourceUrl": "https://www.myangel.co.kr/cscntr/csCallCetrVArs",
+  "sourceName": "동양생명 콜센터 이용안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대표번호 (ARS 1번 간편보험계약대출 안내)",
+    "tel": "1577-1004"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "ARS : 평일/휴일 08:00~23:00",
+    "holiday": "ARS : 평일/휴일 08:00~23:00"
+  },
+  "ars": {
+    "day": [
+      {
+        "key": "1",
+        "what": "간편보험계약대출 안내"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (ARS 1번 간편보험계약대출 안내)",
+      "tel": "1577-1004",
+      "note": "대출 문의는 ARS 에서 1번을 누른다"
+    },
+    {
+      "label": "퇴직연금",
+      "tel": "1899-4707",
+      "note": "평일 09:00~17:00"
+    },
+    {
+      "label": "해외에서 전화",
+      "tel": "82-2-2047-2000",
+      "note": "국제전화 요금"
+    }
+  ],
+  "hq": "서울특별시 종로구 종로 33 (동양생명보험)"
+}

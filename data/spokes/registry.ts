@@ -1595,9 +1595,41 @@ import { daolSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]
 import { jtSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/jt-savings-loan';
 import { nhSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-savings-loan';
 import { kbCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kb-capital-loan';
+import { heungkukFireLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/heungkuk-fire-loan';
+import { kiwoomLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kiwoom-loan';
+import { samsungLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/samsung-life-loan';
+import { aiaLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/aia-life-loan';
+import { chubbLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/chubb-life-loan';
+import { dbLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/db-life-loan';
+import { fubonHyundaiLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/fubon-hyundai-loan';
+import { hanwhaLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hanwha-life-loan';
+import { lotteInsuranceLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/lotte-insurance-loan';
+import { meritzFireLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/meritz-fire-loan';
+import { metlifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/metlife-loan';
+import { nhLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-life-loan';
+import { nhPropertyLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-property-loan';
+import { shinhanLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/shinhan-life-loan';
+import { tongyangLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/tongyang-life-loan';
+import { yebyeolLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/yebyeol-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'loan-call-center': {
+    'yebyeol-loan': yebyeolLoanCallCenterSpokeContent,
+    'tongyang-life-loan': tongyangLifeLoanCallCenterSpokeContent,
+    'shinhan-life-loan': shinhanLifeLoanCallCenterSpokeContent,
+    'nh-property-loan': nhPropertyLoanCallCenterSpokeContent,
+    'nh-life-loan': nhLifeLoanCallCenterSpokeContent,
+    'metlife-loan': metlifeLoanCallCenterSpokeContent,
+    'meritz-fire-loan': meritzFireLoanCallCenterSpokeContent,
+    'lotte-insurance-loan': lotteInsuranceLoanCallCenterSpokeContent,
+    'hanwha-life-loan': hanwhaLifeLoanCallCenterSpokeContent,
+    'fubon-hyundai-loan': fubonHyundaiLoanCallCenterSpokeContent,
+    'db-life-loan': dbLifeLoanCallCenterSpokeContent,
+    'chubb-life-loan': chubbLifeLoanCallCenterSpokeContent,
+    'aia-life-loan': aiaLifeLoanCallCenterSpokeContent,
+    'samsung-life-loan': samsungLifeLoanCallCenterSpokeContent,
+    'kiwoom-loan': kiwoomLoanCallCenterSpokeContent,
+    'heungkuk-fire-loan': heungkukFireLoanCallCenterSpokeContent,
     'kb-capital-loan': kbCapitalLoanCallCenterSpokeContent,
     'nh-savings-loan': nhSavingsLoanCallCenterSpokeContent,
     'jt-savings-loan': jtSavingsLoanCallCenterSpokeContent,
