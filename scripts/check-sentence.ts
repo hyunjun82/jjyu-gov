@@ -80,7 +80,7 @@ const walk = (d: string) => {
  *
  * 생성기를 새로 만들면 그 폴더를 여기 한 줄 더한다.
  */
-const DIRS = ['보험고객센터', '증권고객센터', '카드고객센터', '통신고객센터', '온라인고객센터'];
+const DIRS = ['보험고객센터', '증권고객센터', '카드고객센터', '통신고객센터', '온라인고객센터', '대출고객센터'];
 const CONTENT = path.join(ROOT, 'app', 'policy', '[id]', '[spoke]', 'content');
 DIRS.map((d) => path.join(CONTENT, d)).filter((d) => fs.existsSync(d)).forEach(walk);
 

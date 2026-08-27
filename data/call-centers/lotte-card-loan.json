@@ -1,0 +1,47 @@
+{
+  "slug": "lotte-card-loan",
+  "name": "롯데카드",
+  "aliases": [
+    "롯데카드 대출",
+    "롯데 카드",
+    "로카"
+  ],
+  "industry": "loan",
+  "brandColor": "#DA291C",
+  "official": "https://www.lottecard.co.kr",
+  "sourceUrl": "https://www.lottecard.co.kr/app/LPCSTGA_V100.lc",
+  "sourceName": "롯데카드 ARS번호 이용안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "금융서비스(현금서비스·대출상담)",
+    "tel": "1588-8200"
+  },
+  "hours": {
+    "weekday": "상담원 연결: 평일 09시 ~ 18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "금융서비스(현금서비스·대출상담)",
+      "tel": "1588-8200",
+      "note": "평일 09시~18시"
+    },
+    {
+      "label": "현금서비스·대출상담 (다른 국번)",
+      "tel": "1577-8200",
+      "note": "1588-8200 과 같은 창구"
+    },
+    {
+      "label": "자동차/신용대출",
+      "tel": "1899-7112",
+      "note": "평일 09시~18시"
+    }
+  ],
+  "hq": "서울특별시 종로구 새문안로 76",
+  "hoursNote": "원문: 금융서비스 항목의 상담원 연결 시간 — 대출 창구 시간이 원문에 있어 그대로 옮겼다."
+}

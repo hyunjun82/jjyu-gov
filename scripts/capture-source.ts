@@ -82,10 +82,23 @@ fs.mkdirSync(SHOTS, { recursive: true });
         else console.log(`   ⚠ --click "${ct}" — 그런 버튼이 없다`);
       }
 
-      /* 표·아코디언이 늦게 그려지는 곳이 있어 한 번 끝까지 내렸다 올린다 */
-      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)).catch(() => {});
-      await page.waitForTimeout(1200);
+      /* 표·아코디언이 늦게 그려지는 곳이 있어 한 번 끝까지 내렸다 올린다.
+       *
+       * 한 번에 맨 아래로 점프하면 중간의 lazy 블록이 안 그려지고 넘어간다 —
+       * 웰컴저축은행 홈이 그랬다. 대표번호가 전부 푸터에 있는데 365자만 잡혀서
+       * "추출본에 없는 번호" 로 반려됐다(2026-08-27). 같은 URL 인데 잡힐 때와 안 잡힐 때가 갈렸다.
+       * 금융사 홈은 번호를 푸터에만 두는 곳이 많아서, 나눠 내려가며 기다린다. */
+      await page.evaluate(async () => {
+        const step = Math.max(400, Math.floor(window.innerHeight * 0.8));
+        for (let y = 0; y < document.body.scrollHeight; y += step) {
+          window.scrollTo(0, y);
+          await new Promise((r) => setTimeout(r, 220));
+        }
+        window.scrollTo(0, document.body.scrollHeight);
+      }).catch(() => {});
+      await page.waitForTimeout(1500);
       await page.evaluate(() => window.scrollTo(0, 0)).catch(() => {});
+      await page.waitForTimeout(300);
 
       let text = await page.evaluate(() => document.body.innerText.replace(/\n{3,}/g, '\n\n').trim());
 

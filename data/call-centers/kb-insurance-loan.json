@@ -1,0 +1,36 @@
+{
+  "slug": "kb-insurance-loan",
+  "name": "KB손해보험",
+  "aliases": [
+    "KB손해보험 대출",
+    "케이비손해보험",
+    "KB손보"
+  ],
+  "industry": "loan",
+  "brandColor": "#FBAE14",
+  "official": "https://www.kbinsure.co.kr",
+  "sourceUrl": "https://www.kbinsure.co.kr/CG605030001.ec",
+  "sourceName": "KB손해보험 콜센터 ARS안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출콜센터",
+    "tel": "1544-9110"
+  },
+  "hours": {
+    "weekday": "평 일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출콜센터",
+      "tel": "1544-9110"
+    }
+  ],
+  "hq": "서울시 강남구 테헤란로 117 KB손해보험빌딩(역삼동)",
+  "hoursNote": "원문: \"대출 콜센터 : 1544-9110\" 바로 다음 줄 — 대출 창구 시간이 원문에 있어 그대로 옮겼다."
+}

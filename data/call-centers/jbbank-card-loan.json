@@ -1,0 +1,42 @@
+{
+  "slug": "jbbank-card-loan",
+  "name": "전북은행 카드",
+  "aliases": [
+    "전북은행 카드 대출",
+    "JB전북은행 카드",
+    "전북카드"
+  ],
+  "industry": "loan",
+  "brandColor": "#00539F",
+  "official": "https://www.jbbank.co.kr",
+  "sourceUrl": "https://www.jbbank.co.kr/",
+  "sourceName": "전북은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "비대면 신용대출",
+    "tel": "1522-1704"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "비대면 신용대출",
+      "tel": "1522-1704",
+      "note": "대출 상담"
+    },
+    {
+      "label": "외국인 전용 대출상담",
+      "tel": "1522-3199",
+      "note": "외국인 대출 상담"
+    }
+  ],
+  "hq": "전라북도 전주시 덕진구 백제대로 566",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "samsung-card-loan",
+  "name": "삼성카드",
+  "aliases": [
+    "삼성카드 대출",
+    "삼성 카드",
+    "samsungcard"
+  ],
+  "industry": "loan",
+  "brandColor": "#1428A0",
+  "official": "https://www.samsungcard.com",
+  "sourceUrl": "https://www.samsungcard.com/personal/customer-service/ars/UHPPCC0221M0.jsp",
+  "sourceName": "삼성카드 콜센터(ARS) 이용안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출 신청",
+    "tel": "1588-8600"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출 신청",
+      "tel": "1588-8600",
+      "note": "카드론·현금서비스"
+    }
+  ],
+  "hq": "서울특별시 중구 세종대로 67",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

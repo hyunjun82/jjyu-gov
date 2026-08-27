@@ -1,0 +1,45 @@
+{
+  "slug": "kb-capital-loan",
+  "name": "KB캐피탈",
+  "aliases": [
+    "KB캐피탈 대출",
+    "케이비캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#FFBC00",
+  "official": "https://www.kbcapital.co.kr",
+  "sourceUrl": "https://www.kbcapital.co.kr/cust/custCenterInfo.do",
+  "sourceName": "KB캐피탈 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "신용대출상담",
+    "tel": "1577-2223"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "신용대출상담",
+      "tel": "1577-2223",
+      "note": "개인 신용대출"
+    },
+    {
+      "label": "자동차대출상담",
+      "tel": "1522-1112",
+      "note": "자동차 대출 전용"
+    },
+    {
+      "label": "고객상담",
+      "tel": "1544-1200",
+      "note": "평일 09:00 ~ 18:00 · 대출이 아닌 일반 문의"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 대표 고객센터 시간을 옮겨 적지 않는다."
+}

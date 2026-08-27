@@ -1572,8 +1572,56 @@ import { netflixCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { wavveCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/wavve';
 import { afreecatvCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/afreecatv';
 import { cc11stCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/11st';
+import { welcomeSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/welcome-savings-loan';
+import { dbInsuranceLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/db-insurance-loan';
+import { hanaLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hana-life-loan';
+import { hyundaiMarineLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hyundai-marine-loan';
+import { jbbankCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/jbbank-card-loan';
+import { kbInsuranceLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kb-insurance-loan';
+import { kjbankCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kjbank-card-loan';
+import { kyoboLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kyobo-life-loan';
+import { lotteCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/lotte-card-loan';
+import { miraeassetLifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/miraeasset-life-loan';
+import { nhCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-card-loan';
+import { samsungCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/samsung-card-loan';
+import { samsungFireLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/samsung-fire-loan';
+import { shinhanCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/shinhan-card-loan';
+import { kbBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kb-bank-loan';
+import { okSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/ok-savings-loan';
+import { shinhanSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/shinhan-savings-loan';
+import { hanaCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hana-capital-loan';
+import { sbiSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/sbi-savings-loan';
+import { daolSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/daol-savings-loan';
+import { jtSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/jt-savings-loan';
+import { nhSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-savings-loan';
+import { kbCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kb-capital-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'loan-call-center': {
+    'kb-capital-loan': kbCapitalLoanCallCenterSpokeContent,
+    'nh-savings-loan': nhSavingsLoanCallCenterSpokeContent,
+    'jt-savings-loan': jtSavingsLoanCallCenterSpokeContent,
+    'daol-savings-loan': daolSavingsLoanCallCenterSpokeContent,
+    'sbi-savings-loan': sbiSavingsLoanCallCenterSpokeContent,
+    'hana-capital-loan': hanaCapitalLoanCallCenterSpokeContent,
+    'shinhan-savings-loan': shinhanSavingsLoanCallCenterSpokeContent,
+    'ok-savings-loan': okSavingsLoanCallCenterSpokeContent,
+    'kb-bank-loan': kbBankLoanCallCenterSpokeContent,
+    'shinhan-card-loan': shinhanCardLoanCallCenterSpokeContent,
+    'samsung-fire-loan': samsungFireLoanCallCenterSpokeContent,
+    'samsung-card-loan': samsungCardLoanCallCenterSpokeContent,
+    'nh-card-loan': nhCardLoanCallCenterSpokeContent,
+    'miraeasset-life-loan': miraeassetLifeLoanCallCenterSpokeContent,
+    'lotte-card-loan': lotteCardLoanCallCenterSpokeContent,
+    'kyobo-life-loan': kyoboLifeLoanCallCenterSpokeContent,
+    'kjbank-card-loan': kjbankCardLoanCallCenterSpokeContent,
+    'kb-insurance-loan': kbInsuranceLoanCallCenterSpokeContent,
+    'jbbank-card-loan': jbbankCardLoanCallCenterSpokeContent,
+    'hyundai-marine-loan': hyundaiMarineLoanCallCenterSpokeContent,
+    'hana-life-loan': hanaLifeLoanCallCenterSpokeContent,
+    'db-insurance-loan': dbInsuranceLoanCallCenterSpokeContent,
+    'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
+  },
   'online-call-center': {
     '11st': cc11stCallCenterSpokeContent,
   },

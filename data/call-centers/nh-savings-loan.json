@@ -1,0 +1,41 @@
+{
+  "slug": "nh-savings-loan",
+  "name": "NH저축은행",
+  "aliases": [
+    "NH저축은행 대출",
+    "농협저축은행",
+    "엔에이치저축은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#0AAA5A",
+  "official": "https://www.nhsavingsbank.co.kr",
+  "sourceUrl": "https://www.nhsavingsbank.co.kr/",
+  "sourceName": "NH저축은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "원격지원 대출상담",
+    "tel": "1566-9574"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "원격지원 대출상담",
+      "tel": "1566-9574",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "대표전화",
+      "tel": "1588-5191",
+      "note": "대출이 아닌 일반 문의"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 대표 고객센터 시간을 옮겨 적지 않는다."
+}

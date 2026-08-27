@@ -1,0 +1,42 @@
+{
+  "slug": "hyundai-marine-loan",
+  "name": "현대해상",
+  "aliases": [
+    "현대해상 대출",
+    "현대해상화재보험",
+    "현대해상 콜센터"
+  ],
+  "industry": "loan",
+  "brandColor": "#FF9D1A",
+  "official": "https://www.hi.co.kr",
+  "sourceUrl": "https://www.hi.co.kr/serviceAction.do?menuId=101233",
+  "sourceName": "현대해상 콜센터 이용안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출상담 콜센터",
+    "tel": "1588-5655"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출상담 콜센터",
+      "tel": "1588-5655",
+      "note": "보험계약대출"
+    },
+    {
+      "label": "대출전담 콜센터",
+      "tel": "1668-5655",
+      "note": "담보·신용대출"
+    }
+  ],
+  "hq": "서울특별시 종로구 세종대로 163, 현대해상빌딩",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

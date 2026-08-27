@@ -1,0 +1,37 @@
+{
+  "slug": "shinhan-card-loan",
+  "name": "신한카드",
+  "aliases": [
+    "신한카드 대출",
+    "신한카드사",
+    "신한 카드"
+  ],
+  "industry": "loan",
+  "brandColor": "#0046FF",
+  "official": "https://www.shinhancard.com",
+  "sourceUrl": "https://www.shinhancard.com/mob/MOBFM154N/MOBFM154R01.shc?crustMenuId=ms374",
+  "sourceName": "신한카드 ARS 이용안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "단·장기 카드대출 ARS",
+    "tel": "1588-0303"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "단·장기 카드대출 ARS",
+      "tel": "1588-0303",
+      "note": "현금서비스·카드론"
+    }
+  ],
+  "hq": "서울특별시 중구 을지로 100 (을지로1가)",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

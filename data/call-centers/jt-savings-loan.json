@@ -1,0 +1,40 @@
+{
+  "slug": "jt-savings-loan",
+  "name": "JT친애저축은행",
+  "aliases": [
+    "JT친애저축은행 대출",
+    "JT친애",
+    "제이티친애저축은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#E4002B",
+  "official": "https://www.jtchinae-bank.co.kr",
+  "sourceUrl": "https://www.jtchinae-bank.co.kr/",
+  "sourceName": "JT친애저축은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "개인신용대출상담",
+    "tel": "1599-0060"
+  },
+  "hours": {
+    "weekday": "대출 상담시간 : 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "개인신용대출상담",
+      "tel": "1599-0060",
+      "note": "대출 상담시간 : 09:00 ~ 18:00"
+    },
+    {
+      "label": "대표전화",
+      "tel": "1544-9191",
+      "note": "대출이 아닌 일반 문의"
+    }
+  ]
+}

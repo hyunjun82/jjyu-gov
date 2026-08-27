@@ -168,10 +168,22 @@ export default function CallCenterPage({
     now && wh
       ? now.getDay() >= 1 && now.getDay() <= 5 && now.getHours() >= wh.from && now.getHours() < wh.to
       : null;
-  const statusLabel = open === null ? cc.hours.weekday : open ? '상담 가능 시간' : '상담 시간 종료';
+  /* 상담시간을 아예 못 읽는 회사가 있다 (공식 안내에 표기가 없다).
+     그때 hours.weekday 를 그대로 제목에 넣으면 "공식 안내에서 대출 창구 상담시간을
+     확인하지 못함" 같은 한 문장이 배지·제목·표에 세 번 나온다.
+     그리고 시간을 모르면서 "평일 상담시간에만 됩니다" 라고 단정하면 안 된다 —
+     그 회사가 평일만 하는지도 우리가 모른다 (2026-08-27 대출 글에서 드러났다). */
+  const noHours = !/[0-9]/.test(String(cc.hours.weekday ?? ''));
+  const statusLabel =
+    open === null
+      ? (noHours ? '공식 안내에 상담시간 표기 없음' : cc.hours.weekday)
+      : open ? '상담 가능 시간' : '상담 시간 종료';
   const statusDetail =
     open === null
-      ? `${AGENT} 연결은 평일 상담시간에만 됩니다. 그 밖의 시간은 ${OFFW}만 돌아갑니다.`
+      ? (cc.offhourNote
+        ?? (noHours
+          ? `공식 안내에 상담 가능 시간이 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하세요.`
+          : `${AGENT} 연결은 평일 상담시간에만 됩니다. 그 밖의 시간은 ${OFFW}만 돌아갑니다.`))
       : open
         ? hasArs
           ? `지금 전화하면 ARS 에서 ${agentKey}번을 눌러 ${AGENT}와 연결됩니다.`

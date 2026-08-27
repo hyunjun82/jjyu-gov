@@ -1,0 +1,35 @@
+{
+  "slug": "samsung-fire-loan",
+  "name": "삼성화재",
+  "aliases": [
+    "삼성화재 대출",
+    "삼성화재해상보험",
+    "삼성화재 콜센터"
+  ],
+  "industry": "loan",
+  "brandColor": "#1428A0",
+  "official": "https://www.samsungfire.com",
+  "sourceUrl": "https://www.samsungfire.com/v2/html/customer/13/G_030_050_001.html",
+  "sourceName": "삼성화재 업무별 콜센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출 콜센터",
+    "tel": "1588-7444"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출 콜센터",
+      "tel": "1588-7444"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "kyobo-life-loan",
+  "keyword": "교보생명 고객센터",
+  "title": "교보생명 대출 고객센터 전화번호 및 대출 상담 연결 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "교보생명 고객센터 전화번호 모음",
+    "교보생명 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "교보생명 고객센터 위치",
+    "교보생명 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.kyobo.com/dgt/web/customer/support/ars-guidance",
+  "outline": "data/call-centers/kyobo-life-loan.json",
+  "approved": true,
+  "approvedAt": "2026-08-27"
+}

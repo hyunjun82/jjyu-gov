@@ -1,0 +1,46 @@
+{
+  "slug": "ok-savings-loan",
+  "name": "OK저축은행",
+  "aliases": [
+    "OK저축은행 대출",
+    "오케이저축은행",
+    "OK저축"
+  ],
+  "industry": "loan",
+  "brandColor": "#E8380D",
+  "official": "https://www.oksavingsbank.com",
+  "sourceUrl": "https://www.oksavingsbank.com/",
+  "sourceName": "OK저축은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "신용대출",
+    "tel": "1800-8282"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "신용대출",
+      "tel": "1800-8282",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "대표번호",
+      "tel": "1899-7979",
+      "note": "대출이 아닌 일반 문의"
+    },
+    {
+      "label": "디지털뱅킹 고객센터",
+      "tel": "1544-3637",
+      "note": "앱·인터넷뱅킹"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 대표 고객센터 시간을 옮겨 적지 않는다."
+}

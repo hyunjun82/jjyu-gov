@@ -204,6 +204,32 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     idStep: '주문번호와 가입 이메일',
     hubWord: '온라인 고객센터',
   },
+  /* 대출 창구 (2026-08-27 신설)
+     같은 회사인데 대표번호와 대출 창구가 갈린다 —
+     국민은행 대표 1588-9999 / 대출 1588-9008, 웰컴저축은행 수신 1661-9400 / 여신 1661-0001,
+     교보생명 대표 1588-1001 / 여신(대출) 1588-1010.
+     그래서 "교보생명 고객센터" 와 "교보생명 대출 고객센터" 는 같은 글이 될 수 없다.
+     대표번호를 대출 번호인 것처럼 적는 것이 이 업종에서 제일 위험한 사고다. */
+  loan: {
+    hub: 'loan-call-center',
+    dir: '대출고객센터',
+    word: '금융사',
+    labels: ['금융사별 대출 번호 모아보기', '다른 금융사 대출 번호 보기', '대출 고객센터 목록', '전체 목록 열기'],
+    jobs: '대출 상담, 만기연장, 중도상환, 금리 문의',
+    remote: '한도 조회나 서류 제출',
+    q5q: '다른 금융사 대출 번호도 필요한데요',
+    q5a: '대출은 한 곳만 알아보지 않습니다. 금리를 비교하려면 여러 곳에 걸어야 하는데, 회사마다 대출 창구 번호가 따로 있습니다.',
+    h1: (n: string) => `${n} 대출 고객센터 전화번호 및 대출 상담 연결 안내`,
+    night: '상담시간은 회사마다 다릅니다',
+    goods: '대출 업무별 번호',
+    offhour: '접수·조회',
+    offhourLong: '대출 관련 접수를 받습니다',
+    agent: '상담원',
+    heroLead: '상담시간은 공식 안내를 확인해야 합니다',
+    dayNote: '대출 상담은 영업시간 안에 거는 편이 빠릅니다.',
+    idStep: '주민번호와 대출 계좌번호',
+    hubWord: '대출 고객센터',
+  },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
 if (!IND) die(`모르는 industry: ${C.industry} (쓸 수 있는 값: ${Object.keys(INDUSTRY).join(', ')})`);
@@ -526,7 +552,9 @@ const HUB = '/policy/${HUB_SLUG}';
 
 export const ${exportName}: SpokeData = {
   h1: '${q(IND.h1(C.name))}',
-  breadcrumb: '${q(C.name)} 고객센터',
+  /* 업종어를 넣는다 — 대출 글인데 "웰컴저축은행 고객센터" 로 나가면
+     회사 고객센터 글과 구분이 안 된다 (2026-08-27 사장님 확인). */
+  breadcrumb: '${q(C.name)}${IND.hub === 'loan-call-center' ? ' 대출' : ''} 고객센터',
   description:
     '${q(INTRO_FACT)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
   datePublished: '${C.verifiedAt}T09:00:00+09:00',

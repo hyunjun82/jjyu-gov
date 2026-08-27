@@ -1,0 +1,42 @@
+{
+  "slug": "nh-card-loan",
+  "name": "NH농협카드",
+  "aliases": [
+    "NH농협카드 대출",
+    "농협카드",
+    "NH카드"
+  ],
+  "industry": "loan",
+  "brandColor": "#00A04A",
+  "official": "https://card.nonghyup.com",
+  "sourceUrl": "https://card.nonghyup.com/",
+  "sourceName": "NH농협카드 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "금융(카드대출)",
+    "tel": "1644-9900"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "금융(카드대출)",
+      "tel": "1644-9900",
+      "note": "카드론·현금서비스"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1644-4000",
+      "note": "카드상담·카드대출신청도 이 번호"
+    }
+  ],
+  "hq": "서울특별시 종로구 통일로 134 NH농협타워",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

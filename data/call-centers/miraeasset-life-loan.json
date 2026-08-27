@@ -1,0 +1,37 @@
+{
+  "slug": "miraeasset-life-loan",
+  "name": "미래에셋생명",
+  "aliases": [
+    "미래에셋생명 대출",
+    "미래에셋 생명",
+    "미래에셋생명보험"
+  ],
+  "industry": "loan",
+  "brandColor": "#F26F21",
+  "official": "https://life.miraeasset.com",
+  "sourceUrl": "https://life.miraeasset.com/html/home/portal/MO-HO-030802-010000.html",
+  "sourceName": "미래에셋생명 ARS 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출전문상담사",
+    "tel": "1670-4750"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출전문상담사",
+      "tel": "1670-4750",
+      "note": "보험계약대출·신용대출"
+    }
+  ],
+  "hq": "서울특별시 마포구 만리재로 24 (신공덕동, 미래에셋생명빌딩)",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

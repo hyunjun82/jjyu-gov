@@ -1,0 +1,39 @@
+{
+  "slug": "shinhan-savings-loan",
+  "name": "신한저축은행",
+  "aliases": [
+    "신한저축은행 대출",
+    "신한저축"
+  ],
+  "industry": "loan",
+  "brandColor": "#0046FF",
+  "official": "https://www.shinhansavings.com",
+  "sourceUrl": "https://www.shinhansavings.com/",
+  "sourceName": "신한저축은행 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출상담",
+    "tel": "1800-3651"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 17:30",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출상담",
+      "tel": "1800-3651",
+      "note": "평일 09:00 ~ 17:30"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1644-7777",
+      "note": "평일 08:30 ~ 17:30"
+    }
+  ]
+}

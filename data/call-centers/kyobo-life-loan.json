@@ -1,0 +1,35 @@
+{
+  "slug": "kyobo-life-loan",
+  "name": "교보생명",
+  "aliases": [
+    "교보생명 대출",
+    "교보생명보험",
+    "교보생명 콜센터"
+  ],
+  "industry": "loan",
+  "brandColor": "#6DB327",
+  "official": "https://www.kyobo.com",
+  "sourceUrl": "https://www.kyobo.com/dgt/web/customer/support/ars-guidance",
+  "sourceName": "교보생명 상담전화 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "여신(대출)",
+    "tel": "1588-1010"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "여신(대출)",
+      "tel": "1588-1010"
+    }
+  ],
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

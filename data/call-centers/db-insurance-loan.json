@@ -1,0 +1,40 @@
+{
+  "slug": "db-insurance-loan",
+  "name": "DB손해보험",
+  "aliases": [
+    "DB손해보험 대출",
+    "디비손해보험",
+    "DB손보"
+  ],
+  "industry": "loan",
+  "brandColor": "#00A14B",
+  "official": "https://www.idbins.com",
+  "sourceUrl": "https://www.idbins.com/FWCUSV1295.do",
+  "sourceName": "DB손해보험 고객상담센터(콜센터)안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "보험계약대출/신용대출",
+    "tel": "1544-0100"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "보험계약대출/신용대출",
+      "tel": "1544-0100"
+    },
+    {
+      "label": "담보/신용대출",
+      "tel": "1661-2200"
+    }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 432(대치동, DB금융센터)",
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 회사 대표 고객센터 시간을 옮겨 적지 않는다."
+}

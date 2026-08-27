@@ -1,0 +1,39 @@
+{
+  "slug": "hana-capital-loan",
+  "name": "하나캐피탈",
+  "aliases": [
+    "하나캐피탈 대출",
+    "하나캐피탈대출"
+  ],
+  "industry": "loan",
+  "brandColor": "#008485",
+  "official": "https://www.hanacapital.co.kr",
+  "sourceUrl": "https://www.hanacapital.co.kr/",
+  "sourceName": "하나캐피탈 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "개인신용대출상담",
+    "tel": "1599-7942"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "개인신용대출상담",
+      "tel": "1599-7942",
+      "note": "평일 09:00~18:00"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1800-1110",
+      "note": "평일 09:00~18:00"
+    }
+  ]
+}

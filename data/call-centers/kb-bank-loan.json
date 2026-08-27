@@ -1,0 +1,52 @@
+{
+  "slug": "kb-bank-loan",
+  "name": "KB국민은행",
+  "aliases": [
+    "국민은행 대출",
+    "KB국민은행 대출",
+    "국민은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#FFBC00",
+  "official": "https://www.kbstar.com",
+  "sourceUrl": "https://obank.kbstar.com/quics?page=C019095",
+  "sourceName": "KB국민은행 고객센터 전화번호 안내",
+  "verifiedAt": "2026-08-27",
+  "main": {
+    "label": "대출 단기연체 및 만기안내",
+    "tel": "1588-9008"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다. 대표 고객센터 시간을 옮겨 적지 않는다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출 단기연체 및 만기안내",
+      "tel": "1588-9008",
+      "note": "대출 문의는 이 번호다"
+    },
+    {
+      "label": "대출 단기연체 및 만기안내 (다른 국번)",
+      "tel": "1566-9008",
+      "note": "같은 창구"
+    },
+    {
+      "label": "대표번호",
+      "tel": "1588-9999",
+      "note": "대출이 아닌 일반 문의"
+    },
+    {
+      "label": "B2B 상담",
+      "tel": "1566-9944",
+      "note": "기업 대상"
+    }
+  ],
+  "hq": "서울특별시 영등포구 국제금융로8길 26"
+}
