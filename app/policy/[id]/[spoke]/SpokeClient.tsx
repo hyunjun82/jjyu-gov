@@ -129,32 +129,44 @@ function renderIntro(intro: any, highlights: string[] = []): ReactNode {
 }
 
 /* ── manifest & 레지스트리 (단일 소스) ── */
-import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
-import { PoliciesByKoAlias, getSpokeListForPolicy, resolveSpokeKey } from '@/lib/policy-aliases';
-import { SpokesRegistry } from '@/data/spokes/registry';
+/* ⚠ manifest(정책 794편 · 5.7MB)를 여기서 import 하지 마라 (2026-08-31)
+   'use client' 라 전부 브라우저 번들에 들어간다. policy 는 page.tsx 가 props 로 넘긴다. */
 import CallCenterPage from '@/components/CallCenterPage';
+
+/* ⚠ 이 파일에서 SpokesRegistry 를 import 하지 마라 (2026-08-31)
+   'use client' 라 스포크 1,335개(19MB)가 통째로 브라우저 번들에 들어간다.
+   필요한 글은 page.tsx(서버)가 props 로 넘긴다. */
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
-export default function SpokeClient({ params }: { params: { id: string; spoke: string } }) {
+/* spoke·spokeList 는 서버(page.tsx)에서 골라 넘긴다 (2026-08-31)
+ *
+ * 전에는 여기서 SpokesRegistry 를 직접 import 했다. 이 파일은 'use client' 라
+ * 스포크 1,335개(19MB)가 통째로 브라우저 번들에 들어갔고, 페이지 하나가 6.02MB 였다.
+ * 이제 브라우저는 자기 글 하나와 목록만 받는다. */
+export default function SpokeClient({
+  params,
+  spoke,
+  spokeList,
+  siblings = [],
+  policy,
+}: {
+  params: { id: string; spoke: string };
+  spoke: SpokeData | null;
+  spokeList: { slug: string; title: string }[];
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  policy?: any;
+  siblings?: { slug: string; cc: { name: string; main: { tel: string }; brandColor: string } }[];
+}) {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const slug     = decodeURIComponent(params.spoke);
   const policyId = decodeURIComponent(params.id);
 
-  /* 정책 데이터 — slug → 숫자 id → 한글 별칭 순으로 조회 */
-  const policy     = PoliciesBySlug[policyId] ?? PoliciesById[policyId] ?? PoliciesByKoAlias[policyId];
+  /* 정책 데이터는 page.tsx(서버)에서 골라 온다 */
   const policySlug = policy?.slug ?? policyId;
   const policyTitle = policy?.title ?? '정책';
   const applyUrl    = policy?.applyUrl ?? 'https://www.gov.kr';
-
-  /* spoke 목록 — SpokesRegistry 단일 소스 (한글 slug 링크만 생성, 영문 404 방지) */
-  const spokeList: { slug: string; title: string }[] = getSpokeListForPolicy(policyId);
-
-  /* spoke 콘텐츠 — 영문 slug 들어와도 한글 키로 변환해서 조회 */
-  const spokeMap = SpokesRegistry[policySlug] ?? {};
-  const resolvedKey = resolveSpokeKey(policySlug, slug);
-  const spoke    = spokeMap[resolvedKey];
 
   if (!spoke) {
     // 매핑 안 된 영문 spoke URL — 자동으로 정책 메인으로 이동 (404 0건 보장)
@@ -240,19 +252,9 @@ export default function SpokeClient({ params }: { params: { id: string; spoke: s
      스키마는 그대로 내보내고 본문만 갈아끼운다. */
   if (spoke.callCenter) {
     const ccSchemas = [...schemas, callCenterSchema(spoke.callCenter, spokeUrl)];
-    /* 같은 업종 다른 회사 — 내부 이동이 전면광고가 뜨는 자리다.
-       전에는 회사 페이지에서 내부로 갈 곳이 허브 하나뿐이었다(외부 링크는 12개).
-       경쟁사도 하단에 형제 회사를 깐다. 가나다순으로 자기 다음 6곳을 돌려 담아
-       회사마다 다른 조합이 나오게 한다 — 모든 페이지가 같은 6곳을 가리키면 도배가 된다. */
-    const siblings = (() => {
-      const rows = Object.entries(spokeMap)
-        .filter(([, s]) => (s as { callCenter?: { name: string } }).callCenter)
-        .map(([k, s]) => ({ slug: k, cc: (s as { callCenter: { name: string; main: { tel: string }; brandColor: string } }).callCenter }))
-        .sort((a, b) => a.cc.name.localeCompare(b.cc.name, 'ko'));
-      const at = rows.findIndex((r) => r.cc.name === spoke.callCenter!.name);
-      if (at < 0) return rows.slice(0, 6);
-      return Array.from({ length: Math.min(6, rows.length - 1) }, (_, i) => rows[(at + 1 + i) % rows.length]);
-    })();
+    /* 같은 업종 다른 회사 6곳은 page.tsx(서버)에서 골라 props 로 온다.
+       내부 이동이 전면광고가 뜨는 자리라 이 목록이 수익에 직접 걸린다.
+       여기서 계산하려면 registry 전체를 브라우저로 보내야 해서 서버로 옮겼다. */
     return (
       <main>
         {ccSchemas.map((schema, i) => (

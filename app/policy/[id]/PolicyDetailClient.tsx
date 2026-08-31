@@ -14,16 +14,22 @@ import {
   itemListSchema,
   toJsonLd,
 } from '@/lib/schema';
-import { PoliciesById, PoliciesBySlug } from '@/data/policies/manifest';
-import { PoliciesByKoAlias, getSpokeListForPolicy } from '@/lib/policy-aliases';
+/* ⚠ manifest(정책 794편 · 5.7MB)를 여기서 import 하지 마라 (2026-08-31)
+   'use client' 라 전부 브라우저 번들에 들어간다.
+   자기 정책(policy)과 관련 정책(related)은 page.tsx 가 props 로 넘긴다. */
 import { pickActionLabel, simplifyCta } from '@/lib/cta';
 import CallCenterHub from '@/components/CallCenterHub';
-import { SpokesRegistry } from '@/data/spokes/registry';
+
+/* ⚠ 이 파일에서 SpokesRegistry 나 @/lib/policy-aliases 를 import 하지 마라 (2026-08-31)
+   'use client' 라 스포크 1,335개(19MB)가 통째로 브라우저 번들에 들어간다.
+   policy-aliases 도 registry 를 import 하므로 같이 딸려온다 —
+   한글 별칭만 필요하면 @/lib/policy-ko-alias 를 쓴다.
+   spokeList·companies 는 page.tsx(서버)가 props 로 넘긴다. */
 
 const SITE_URL = 'https://gov.jjyu.co.kr';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-const policies: Record<string, any> = { ...PoliciesById, ...PoliciesBySlug, ...PoliciesByKoAlias };
+/* policies 전체 맵은 쓰지 않는다 — page.tsx 가 그 글 하나만 넘긴다 */
 
 // ── 본문 텍스트 안 highlights 단어를 노란 형광으로 자동 강조 ──
 function renderWithHi(text: string, highlights: string[] = []): ReactNode {
@@ -89,12 +95,31 @@ function renderIntro(intro: any, highlights: string[] = []): ReactNode {
   );
 }
 
-export default function PolicyDetailClient({ params }: { params: { id: string } }) {
+/* spokeList·companies 는 page.tsx(서버)에서 골라 넘긴다 (2026-08-31)
+   전에는 여기서 SpokesRegistry 를 직접 만졌다. 이 파일은 'use client' 라
+   스포크 1,335개(19MB)가 통째로 브라우저 번들에 들어갔다. */
+export default function PolicyDetailClient({
+  params,
+  policy,
+  relatedMap = {},
+  spokeList = [],
+  companies = [],
+}: {
+  params: { id: string };
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  policy?: any;
+  /* related 가 slug 문자열일 때 쓸 최소 정보만 (전체 manifest 대신) */
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  relatedMap?: Record<string, any>;
+  spokeList?: { slug: string; title: string }[];
+  /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+  companies?: { slug: string; cc: any }[];
+}) {
   const [checks, setChecks] = useState<Record<string, boolean | null>>({});
   const [activeMethod, setActiveMethod] = useState<string>('app');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  const d = policies[params.id];
+  const d = policy;
 
   /* 고객센터 허브 — 회사 페이지들과 같은 템플릿(db-customer-center.html 구조)으로 그린다.
      업종이 늘어도(증권·카드) 여기를 안 고치게 slug 끝으로 판정한다.
@@ -102,8 +127,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   const hubSlug: string | undefined =
     typeof d?.slug === 'string' && d.slug.endsWith('-call-center') ? d.slug : undefined;
 
-  // SpokesRegistry 단일 소스 — 사이드바·목차 한글 slug 링크 생성 (영문 slug 404 방지)
-  const spokeList = getSpokeListForPolicy(params.id);
+  // spokeList 는 page.tsx(서버)에서 받는다 — 사이드바·목차 한글 slug 링크 (영문 slug 404 방지)
 
   if (!d) {
     return (
@@ -119,13 +143,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
   }
 
   if (hubSlug) {
-    const map = SpokesRegistry[hubSlug] ?? {};
-    const companies = Object.entries(map)
-      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-      .filter(([, s]) => (s as any).callCenter)
-      /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
-      .map(([slug, s]) => ({ slug, cc: (s as any).callCenter }))
-      .sort((a, b) => a.cc.name.localeCompare(b.cc.name, 'ko'));
+    /* companies 는 page.tsx(서버)에서 만들어 온다 */
     return <CallCenterHub companies={companies} policyId={params.id} policy={d} />;
   }
 
@@ -746,7 +764,7 @@ export default function PolicyDetailClient({ params }: { params: { id: string } 
                   /* related는 slug 문자열(권장) 또는 객체 둘 다 허용.
                      문자열이면 manifest에서 실제 정책을 찾아 id·title·cat을 채운다.
                      (종전엔 r.id를 그대로 읽어 /policy/undefined 링크가 생성됨) */
-                  const r: any = typeof raw === 'string' ? (PoliciesBySlug as any)[raw] : raw;
+                  const r: any = typeof raw === 'string' ? relatedMap[raw] : raw;
                   if (!r) return null;
                   const relHref = `/policy/${r.slug || r.id}`;
                   return (

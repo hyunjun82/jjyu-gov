@@ -12,37 +12,21 @@ import { SpokesRegistry } from '@/data/spokes/registry';
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 type AnyPolicy = any;
 
-function koSlugFromTitle(title?: string): string | null {
-  if (!title) return null;
-  const ko = String(title)
-    .replace(/^20\d{2}\s*/, '')
-    .replace(/\s+/g, '')
-    /* Windows 가 파일명에 못 쓰는 문자 제거 (2026-08-17)
-       타이틀의 "|" 가 별칭 URL 에 들어가 export 가 파일을 쓰다 죽었다.
-       Linux(Cloudflare)는 허용이라 배포는 멀쩡했고 로컬 빌드만 조용히 실패.
-       쉼표 등 기존 별칭에 이미 쓰인 문자는 URL 보존을 위해 건드리지 않는다. */
-    .replace(/[|?*:"<>\\/]/g, '')
-    .trim();
-  if (!ko) return null;
-  if (!/[가-힣]/.test(ko)) return null;
-  return ko;
-}
-
-/* policySlug(영문) → 한글 alias  */
-export const PolicyKoAliasBySlug: Record<string, string> = {};
-/* 한글 alias → policy 객체 */
-export const PoliciesByKoAlias: Record<string, AnyPolicy> = {};
-
-for (const [slug, policy] of Object.entries(PoliciesBySlug)) {
-  const ko = koSlugFromTitle((policy as AnyPolicy)?.title);
-  if (!ko) continue;
-  PolicyKoAliasBySlug[slug] = ko;
-  PoliciesByKoAlias[ko] = policy;
-}
-
-export function getKoAliasForSlug(policySlug: string): string | null {
-  return PolicyKoAliasBySlug[policySlug] ?? null;
-}
+/* ⚠ 한글 별칭은 lib/policy-ko-alias.ts 로 옮겼다 (2026-08-31)
+ *
+ *   이 파일은 SpokesRegistry 를 import 한다. 클라이언트 컴포넌트가 여기서
+ *   PoliciesByKoAlias 하나만 가져와도 registry(스포크 1,335개 · 19MB)가 통째로 딸려온다.
+ *   그래서 페이지 하나가 6.02MB 였다.
+ *
+ *   클라이언트에서는 '@/lib/policy-ko-alias' 를 직접 import 해라.
+ *   여기서 re-export 하는 것은 서버 쪽 기존 import 경로를 깨지 않기 위해서다 —
+ *   클라이언트가 이 경로로 가져오면 registry 가 다시 딸려온다. */
+export {
+  PolicyKoAliasBySlug,
+  PoliciesByKoAlias,
+  getKoAliasForSlug,
+} from './policy-ko-alias';
+import { PolicyKoAliasBySlug, PoliciesByKoAlias } from './policy-ko-alias';
 
 /**
  * 정책 ID/slug/한글별칭 → SpokesRegistry 기반 spoke 목록 생성
