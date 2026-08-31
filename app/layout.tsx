@@ -26,6 +26,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko">
       <head>
+        {/* Offerwall 차단 — 오퍼월은 quiz·game 하위도메인에서만 띄운다.
+            이 사이트는 정보성 콘텐츠라 오퍼월이 뜨면 이탈하므로 오퍼월만 끈다.
+            일반 광고·동의 메시지는 그대로 동작한다. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "window.googlefc=window.googlefc||{};window.googlefc.callbackQueue=window.googlefc.callbackQueue||[];window.googlefc.controlledMessagingFunction=function(m){var t=[];try{if(window.googlefc.MessageTypeEnum&&window.googlefc.MessageTypeEnum.OFFERWALL){t.push(window.googlefc.MessageTypeEnum.OFFERWALL);}}catch(e){}m.proceed(false,t);};",
+          }}
+        />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
