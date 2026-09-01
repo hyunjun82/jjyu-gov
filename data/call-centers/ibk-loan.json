@@ -1,0 +1,50 @@
+{
+  "slug": "ibk-loan",
+  "name": "IBK기업은행",
+  "aliases": [
+    "IBK기업은행 대출",
+    "기업은행 대출",
+    "IBK 대출"
+  ],
+  "industry": "loan",
+  "brandColor": "#004B9E",
+  "official": "https://www.ibk.co.kr",
+  "sourceUrl": "https://www.ibk.co.kr/common/navigation.ibk?linkUrl=/customer/counsel/phone_anno_08.jsp&pageId=CM01010400",
+  "sourceName": "IBK기업은행 상담전화안내 대출상담",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "IBK고객센터 대출상담",
+    "tel": "1566-2566"
+  },
+  "hours": {
+    "weekday": "09:00 ~ 18:00 (주말 및 공휴일 제외)",
+    "night": "보이스피싱 및 사고 신고 24시간 (연중무휴)",
+    "holiday": "보이스피싱 및 사고 신고 24시간 (연중무휴)"
+  },
+  "hoursNote": "대출상담은 평일 09:00~18:00 이고, 사고 신고만 24시간 연중무휴로 열려 있다.",
+  "ars": {
+    "day": [
+      {
+        "key": "512",
+        "what": "대출상담"
+      }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "IBK고객센터 대출상담",
+      "tel": "1566-2566",
+      "note": "연결 후 서비스코드 512번"
+    },
+    {
+      "label": "IBK고객센터 (두 번째 번호)",
+      "tel": "1588-2588",
+      "note": "이 번호로 걸어도 512번이 통한다"
+    },
+    {
+      "label": "해외에서 걸 때",
+      "tel": "82-31-888-8000"
+    }
+  ]
+}

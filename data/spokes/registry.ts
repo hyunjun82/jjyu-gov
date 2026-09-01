@@ -1653,9 +1653,31 @@ import { scBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { jejuBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/jeju-bank-loan';
 import { suhyupBankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/suhyup-bank-loan';
 import { cuLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/cu-loan';
+import { kakaobankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kakaobank-loan';
+import { tossbankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/tossbank-loan';
+import { busanbankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/busanbank-loan';
+import { imbankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/imbank-loan';
+import { ibkLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/ibk-loan';
+import { citibankLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/citibank-loan';
+import { kdbLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kdb-loan';
+import { kbSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kb-savings-loan';
+import { citiCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/citi-card-loan';
+import { kblifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kblife-loan';
+import { kamcoLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kamco-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'loan-call-center': {
+    'kamco-loan': kamcoLoanCallCenterSpokeContent,
+    'kblife-loan': kblifeLoanCallCenterSpokeContent,
+    'citi-card-loan': citiCardLoanCallCenterSpokeContent,
+    'kb-savings-loan': kbSavingsLoanCallCenterSpokeContent,
+    'kdb-loan': kdbLoanCallCenterSpokeContent,
+    'citibank-loan': citibankLoanCallCenterSpokeContent,
+    'ibk-loan': ibkLoanCallCenterSpokeContent,
+    'imbank-loan': imbankLoanCallCenterSpokeContent,
+    'busanbank-loan': busanbankLoanCallCenterSpokeContent,
+    'tossbank-loan': tossbankLoanCallCenterSpokeContent,
+    'kakaobank-loan': kakaobankLoanCallCenterSpokeContent,
     'cu-loan': cuLoanCallCenterSpokeContent,
     'suhyup-bank-loan': suhyupBankLoanCallCenterSpokeContent,
     'jeju-bank-loan': jejuBankLoanCallCenterSpokeContent,

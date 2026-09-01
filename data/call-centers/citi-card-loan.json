@@ -1,0 +1,45 @@
+{
+  "slug": "citi-card-loan",
+  "name": "씨티카드",
+  "aliases": [
+    "씨티카드 카드론",
+    "씨티카드 대출",
+    "씨티카드"
+  ],
+  "industry": "loan",
+  "brandColor": "#003B70",
+  "official": "https://www.citibank.co.kr",
+  "sourceUrl": "https://www.citibank.co.kr/CrdInfoFsvc9900.act",
+  "sourceName": "씨티카드 카드대출 지정인 알림 서비스 안내",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "씨티카드 고객센터",
+    "tel": "1566-1000"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "카드대출 안내에도 고객상담 페이지에도 상담원 연결 시간이 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "씨티카드 고객센터",
+      "tel": "1566-1000",
+      "note": "장기카드대출(카드론)·단기카드대출(현금서비스) 문의를 이 번호로 한다"
+    },
+    {
+      "label": "지정인 알림 서비스 전용라인",
+      "tel": "02-3704-7911",
+      "note": "만 65세 이상 고객의 지정인이 직접 걸어 등록하는 번호다"
+    },
+    {
+      "label": "해외에서 걸 때",
+      "tel": "82-2-2004-1004"
+    }
+  ]
+}

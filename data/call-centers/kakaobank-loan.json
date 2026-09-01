@@ -1,0 +1,46 @@
+{
+  "slug": "kakaobank-loan",
+  "name": "카카오뱅크",
+  "aliases": [
+    "카카오뱅크 대출",
+    "카뱅 대출",
+    "카카오뱅크"
+  ],
+  "industry": "loan",
+  "brandColor": "#FEE500",
+  "official": "https://www.kakaobank.com",
+  "sourceUrl": "https://www.kakaobank.com/view/customer",
+  "sourceName": "카카오뱅크 고객센터 전화 상담안내",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "대출 신청 및 문의",
+    "tel": "1599-8787"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 대출 상담시간 표기 없음",
+    "holiday": "평일 및 토요일 09:00 ~ 18:00"
+  },
+  "hoursNote": "고객센터 안내에 대출 항목의 상담시간이 따로 적혀 있다. 전월세보증금 대출은 토요일도 받는다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출 신청 및 문의",
+      "tel": "1599-8787",
+      "note": "그 외 대출 문의 평일 09:00 ~ 18:00"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1599-3333",
+      "note": "대출이 아닌 일반 문의 · 평일 09:00 ~ 18:00"
+    },
+    {
+      "label": "각종 사고신고",
+      "tel": "1599-8888",
+      "note": "24시간 365일 · 대출이 아닌 사고신고"
+    }
+  ]
+}

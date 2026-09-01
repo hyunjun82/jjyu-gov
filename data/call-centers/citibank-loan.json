@@ -1,0 +1,49 @@
+{
+  "slug": "citibank-loan",
+  "name": "한국씨티은행",
+  "aliases": [
+    "씨티은행 대출",
+    "한국씨티은행 대출",
+    "씨티은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#003B70",
+  "official": "https://www.citibank.co.kr",
+  "sourceUrl": "https://www.citibank.co.kr/LonLopdMrlo0100.act",
+  "sourceName": "한국씨티은행 대출상품 안내 페이지",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "폰뱅킹 (대출 문의 대표번호)",
+    "tel": "1588-7000"
+  },
+  "hours": {
+    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출 페이지와 고객상담 페이지 어디에도 상담원 연결 시간이 적혀 있지 않다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "폰뱅킹 (대출 문의 대표번호)",
+      "tel": "1588-7000",
+      "note": "2022년 2월 15일부터 모든 대출 신규가 중단됐다. 만기 연장·상환·대환 문의를 이 번호로 한다"
+    },
+    {
+      "label": "해외에서 걸 때",
+      "tel": "82-2-3704-7000"
+    },
+    {
+      "label": "인터넷뱅킹 상담",
+      "tel": "02-3704-7700"
+    },
+    {
+      "label": "신용카드 상담",
+      "tel": "1566-1000",
+      "note": "카드 관련은 이쪽이다"
+    }
+  ]
+}

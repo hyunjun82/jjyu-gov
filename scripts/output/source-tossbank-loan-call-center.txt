@@ -1,0 +1,19 @@
+SLUG: tossbank-loan-call-center
+RECEIVED: 2026-09-01
+CAPTURED-BY: playwright MCP 브라우저
+
+WHY-NOT-CAPTURE-SOURCE
+  8/27 에 /product/loan 을 열었다가 404 를 받고 글을 뺐다.
+  실제 경로는 /product-service/loans/loan 이다. 홈에서 링크를 뽑아 찾았다.
+  제목이 "토스뱅크 | 토스뱅크 신용대출" 이고 404 문구가 없다.
+
+===== [1] https://www.tossbank.com/product-service/loans/loan =====
+
+토스뱅크 | 토스뱅크 신용대출
+
+토스뱅크 신용대출 상품 안내 페이지
+
+고객센터
+전화 : 1661-7654(24시간 연중무휴)
+해외전화 : +82-2-6975-9000
+이메일 : help@tossbank.com

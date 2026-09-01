@@ -1,0 +1,43 @@
+{
+  "slug": "kblife-loan",
+  "name": "KB라이프생명",
+  "aliases": [
+    "KB라이프생명 대출",
+    "KB라이프 보험계약대출",
+    "KB라이프생명"
+  ],
+  "industry": "loan",
+  "brandColor": "#60584C",
+  "official": "https://www.kblife.co.kr",
+  "sourceUrl": "https://www.kblife.co.kr/customer-common/loanInterest.do",
+  "sourceName": "KB라이프생명 보험계약대출이율 공시",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-3374"
+  },
+  "hours": {
+    "weekday": "평일 9시 ~ 18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "업무시간이 평일 9시~18시 하나로만 적혀 있다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-3374",
+      "note": "보험계약대출 신청·상환·이율 문의를 이 번호로 한다"
+    },
+    {
+      "label": "온라인보험 고객센터",
+      "tel": "080-848-0033",
+      "note": "온라인으로 가입한 계약은 이쪽이다"
+    }
+  ],
+  "hq": "서울특별시 강남구 강남대로 298 (역삼동, KB라이프타워)",
+  "hqZip": "06253"
+}

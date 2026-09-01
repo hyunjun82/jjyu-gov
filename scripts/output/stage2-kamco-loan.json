@@ -1,0 +1,17 @@
+{
+  "slug": "kamco-loan",
+  "keyword": "캠코 한국자산관리공사 고객센터",
+  "title": "캠코 한국자산관리공사 대출 고객센터 전화번호 및 대출 상담 연결 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "캠코 한국자산관리공사 고객센터 전화번호 모음",
+    "캠코 한국자산관리공사 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "캠코 한국자산관리공사 고객센터 위치",
+    "캠코 한국자산관리공사 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.kamco.or.kr/portal/contents.do?mId=0501010000",
+  "outline": "data/call-centers/kamco-loan.json",
+  "approved": true,
+  "approvedAt": "2026-09-01"
+}

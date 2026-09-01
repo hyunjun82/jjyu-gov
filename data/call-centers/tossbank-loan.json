@@ -1,0 +1,36 @@
+{
+  "slug": "tossbank-loan",
+  "name": "토스뱅크",
+  "aliases": [
+    "토스뱅크 대출",
+    "토스 대출",
+    "토스뱅크"
+  ],
+  "industry": "loan",
+  "brandColor": "#0064FF",
+  "official": "https://www.tossbank.com",
+  "sourceUrl": "https://www.tossbank.com/product-service/loans/loan",
+  "sourceName": "토스뱅크 신용대출 안내 페이지 고객센터",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "고객센터 (신용대출 안내 페이지 기준)",
+    "tel": "1661-7654"
+  },
+  "hours": {
+    "weekday": "24시간 연중무휴",
+    "night": "24시간 연중무휴",
+    "holiday": "24시간 연중무휴"
+  },
+  "hoursNote": "신용대출 안내 페이지에 고객센터가 24시간 연중무휴로 적혀 있다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (신용대출 안내 페이지 기준)",
+      "tel": "1661-7654",
+      "note": "24시간 연중무휴"
+    }
+  ]
+}

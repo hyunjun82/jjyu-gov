@@ -1,0 +1,48 @@
+{
+  "slug": "kdb-loan",
+  "name": "KDB산업은행",
+  "aliases": [
+    "산업은행 대출",
+    "KDB산업은행 대출",
+    "한국산업은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#0067AC",
+  "official": "https://www.kdb.co.kr",
+  "sourceUrl": "https://www.kdb.co.kr/COMNMN00N00.act?_mnuId=IHIHCS0001",
+  "sourceName": "KDB산업은행 고객센터 고객상담",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "고객상담실",
+    "tel": "1588-1500"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "고객상담실 운영시간이 평일 09:00~18:00 으로만 적혀 있다. 인터넷뱅킹은 연중무휴 24시간이지만 그건 사람 상담이 아니다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객상담실",
+      "tel": "1588-1500",
+      "note": "KDB Hi 근로자신용대출·예적금담보대출 문의를 이 번호로 한다"
+    },
+    {
+      "label": "고객상담실 (두 번째 번호)",
+      "tel": "1668-1500"
+    },
+    {
+      "label": "대표전화",
+      "tel": "02-787-4000"
+    },
+    {
+      "label": "해외에서 걸 때",
+      "tel": "+82-1588-1500"
+    }
+  ]
+}

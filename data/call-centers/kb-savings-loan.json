@@ -1,0 +1,45 @@
+{
+  "slug": "kb-savings-loan",
+  "name": "KB저축은행",
+  "aliases": [
+    "KB저축은행 대출",
+    "KB저축은행"
+  ],
+  "industry": "loan",
+  "brandColor": "#FFB800",
+  "official": "https://www.kbsavings.com",
+  "sourceUrl": "https://www.kbsavings.com/websquare/websquare.jsp?w2xPath=/jsp/loanItemInfo/loanItemInfo.xml&ITEM_CODE=IL74",
+  "sourceName": "KB저축은행 중금리 생활안정대출 상품 안내",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "대출전용 고객센터",
+    "tel": "1899-0085"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "대출전용 고객센터도 일반 고객센터도 평일 09:00~18:00 로 같다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대출전용 고객센터",
+      "tel": "1899-0085",
+      "note": "대출 상품 설명서가 이 번호를 대출 전용으로 적어 뒀다"
+    },
+    {
+      "label": "고객센터 (대표번호)",
+      "tel": "1899-0900",
+      "note": "대출 외 업무는 이쪽이다"
+    },
+    {
+      "label": "해외에서 걸 때",
+      "tel": "82-2-2146-8200"
+    }
+  ],
+  "hq": "서울시 송파구 송파대로 260"
+}

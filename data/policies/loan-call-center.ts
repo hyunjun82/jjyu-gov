@@ -128,6 +128,17 @@ export const loanCallCenterPolicy = {
 };
 
 export const loanCallCenterSpokes = [
+  { slug: 'kakaobank-loan', role: 'eligibility', title: '카카오뱅크 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'ibk-loan', role: 'eligibility', title: 'IBK기업은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'busanbank-loan', role: 'eligibility', title: 'BNK부산은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'kamco-loan', role: 'eligibility', title: '캠코 한국자산관리공사 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'kblife-loan', role: 'eligibility', title: 'KB라이프생명 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'citi-card-loan', role: 'eligibility', title: '씨티카드 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'kb-savings-loan', role: 'eligibility', title: 'KB저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'kdb-loan', role: 'eligibility', title: 'KDB산업은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'citibank-loan', role: 'eligibility', title: '한국씨티은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'imbank-loan', role: 'eligibility', title: 'iM뱅크 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'tossbank-loan', role: 'eligibility', title: '토스뱅크 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'cu-loan', role: 'eligibility', title: '신협 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'acuon-capital-loan', role: 'eligibility', title: '애큐온캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'ibk-capital-loan', role: 'eligibility', title: 'IBK캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },

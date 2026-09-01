@@ -1,0 +1,17 @@
+{
+  "slug": "kblife-loan",
+  "keyword": "KB라이프생명 고객센터",
+  "title": "KB라이프생명 대출 고객센터 전화번호 및 대출 상담 연결 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "KB라이프생명 고객센터 전화번호 모음",
+    "KB라이프생명 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "KB라이프생명 고객센터 위치",
+    "KB라이프생명 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.kblife.co.kr/customer-common/loanInterest.do",
+  "outline": "data/call-centers/kblife-loan.json",
+  "approved": true,
+  "approvedAt": "2026-09-01"
+}
