@@ -654,6 +654,71 @@ export default function CallCenterPage({
               );
             })}
           </div>
+          {/* 한눈에 보기 표 (2026-09-01 신설)
+              위 카드는 사람이 누르라고 있는 것이고, 이 표는 기계가 읽으라고 있다.
+              구글은 <table> 마크업이 있어야 표로 인식해 검색결과에 그대로 띄운다 —
+              경쟁사(insurance-callcenter.com)가 표 하나로 상위에 뜨는 게 이것 때문이다.
+              값은 위 카드와 같은 데이터를 그대로 쓴다. 새로 만드는 숫자가 없다. */}
+          <div style={{ margin: '22px 0 0', overflowX: 'auto' }}>
+            <table
+              style={{
+                width: '100%',
+                minWidth: 320,
+                borderCollapse: 'collapse',
+                fontSize: 14.5,
+                border: '1px solid #E5E8EB',
+                borderRadius: 12,
+                overflow: 'hidden',
+              }}
+            >
+              <caption
+                style={{
+                  captionSide: 'top',
+                  textAlign: 'left',
+                  padding: '0 0 10px',
+                  fontSize: 14,
+                  fontWeight: 700,
+                  color: '#5B6474',
+                }}
+              >
+                {cc.name} 고객센터 한눈에 보기
+              </caption>
+              <thead>
+                <tr style={{ background: '#EEF3FB' }}>
+                  <th scope="col" style={{ padding: '11px 13px', textAlign: 'left', fontWeight: 700, color: NAVY, width: '38%', borderBottom: '1px solid #E5E8EB' }}>구분</th>
+                  <th scope="col" style={{ padding: '11px 13px', textAlign: 'left', fontWeight: 700, color: NAVY, borderBottom: '1px solid #E5E8EB' }}>내용</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { k: `${W} 이름`, v: cc.name },
+                  { k: cc.main.label, v: cc.main.tel },
+                  { k: '평일 상담시간', v: cc.hours.weekday },
+                  { k: '평일 야간', v: cc.hours.night },
+                  { k: '공휴일', v: cc.hours.holiday },
+                  /* ARS 에 상담원 메뉴가 실제로 있을 때만 쓴다.
+                     agentKey 는 없을 때 '0' 으로 떨어지므로 그걸 조건으로 쓰면
+                     단축번호가 없는 회사에 "ARS 0번" 이라는 없는 안내가 나간다. */
+                  ...(agent ? [{ k: `${AGENT} 연결`, v: `ARS ${agent.key}번 ${agent.what}` }] : []),
+                  ...cc.numbers
+                    .filter((n) => n.tel !== cc.main.tel)
+                    .map((n) => ({ k: n.label, v: n.note ? `${n.tel} (${n.note})` : n.tel })),
+                  ...(cc.hq ? [{ k: '본사 주소', v: cc.hq }] : []),
+                  { k: '확인일', v: `${reviewed} · ${cc.sourceName}` },
+                ].map((row, i, arr) => (
+                  <tr key={row.k + i} style={i < arr.length - 1 ? { borderBottom: '1px solid #EEF1F6' } : undefined}>
+                    <th
+                      scope="row"
+                      style={{ padding: '11px 13px', textAlign: 'left', fontWeight: 600, color: '#5B6474', verticalAlign: 'top' }}
+                    >
+                      {row.k}
+                    </th>
+                    <td style={{ padding: '11px 13px', color: '#2D3540', lineHeight: 1.6 }}>{row.v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
           <p style={{ margin: '12px 0 0', fontSize: 13.5, color: '#98A1B0' }}>
             * 출처: <a href={cc.sourceUrl} rel="noopener">{cc.sourceName}</a> ({reviewed} 확인)
           </p>

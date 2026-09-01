@@ -187,7 +187,16 @@ export function callCenterSchema(
   url: string,
 ) {
   /* 국내 대표번호(1588 등)는 지역번호가 없다. E.164 로는 +82-{번호} 가 맞다. */
-  const e164 = (t: string) => '+82-' + String(t).replace(/^0/, '').replace(/[^0-9-]/g, '');
+  /* 국내 대표번호(1588 등)는 지역번호가 없다. E.164 로는 +82-{번호} 가 맞다.
+     다만 "해외에서 전화" 번호는 원문에 이미 82 가 붙어 있다 (예: 82-2-2047-2000).
+     거기에 +82- 를 또 붙이면 +82-82-2-2047-2000 이 되어 구글이 엉뚱한 번호로 읽는다.
+     실제로 870개 중 53개가 그 상태로 나가고 있었다 (2026-09-01). */
+  const e164 = (t: string) => {
+    const raw = String(t).replace(/[^0-9+-]/g, '');
+    const already = raw.replace(/^\+/, '').startsWith('82');
+    if (already) return '+' + raw.replace(/^\+/, '');
+    return '+82-' + raw.replace(/^0/, '');
+  };
 
   const kindOf = (label: string) => {
     if (/사고|긴급|출동/.test(label)) return 'emergency';
