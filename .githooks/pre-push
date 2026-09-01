@@ -117,6 +117,27 @@ if [ $SN -ne 0 ]; then
   exit $SN
 fi
 
+# ── ①-E 빌드 결과 검사 (2026-09-01 신설) ──
+# 사장님 지적("표 오차없고?")에서 나왔다. 표를 보다 딴 게 걸렸다 —
+# 온라인 고객센터 12편이 통째로 깨져 있었다. youtube 주소에 11번가 정보가 나오고
+# 쿠팡·넷플릭스 등 11편은 본문이 비어 있었다.
+# 8/27 온라인 업종을 통신에서 뗄 때 registry.ts 에서 11번가만 옮겨졌기 때문이다.
+# JSON 과 글 파일은 멀쩡해서 check-callcenter 가 212편 통과로 봤다 —
+# "그 글이 어느 주소로 나가는가" 는 아무도 안 보고 있었다.
+# 그래서 여기서는 out/ (사람이 실제로 받는 파일)을 본다.
+# out/ 이 없으면 스스로 생략한다 — 빌드를 강제하지는 않는다.
+echo "📄 빌드 결과 검사 중 (그 주소에 그 회사가 나오나)..."
+npx tsx "$ROOT/scripts/check-built-page.ts"
+BP=$?
+if [ $BP -ne 0 ]; then
+  echo ""
+  echo "🚫 push 차단됨 — 빌드 결과가 데이터와 어긋난다"
+  echo "   \"남의 회사가 나온다\"·\"본문이 비어 있다\" 는 대개 data/spokes/registry.ts 가"
+  echo "   그 글을 엉뚱한 허브 아래 걸어 둔 것이다 (JSON 의 industry 와 대조한다)"
+  echo "   (무시하려면: git push --no-verify)"
+  exit $BP
+fi
+
 # ── ①-B 타입 형태 게이트 (2026-08-09 신설) ──
 # faq/faqData 를 섞어 써서 프리렌더가 죽은 사고. tsc 는 잡는데 아무도 안 돌렸다.
 # next.config 의 ignoreBuildErrors 때문에 빌드도 못 잡는다. 가장 이른 자리에 둔다.

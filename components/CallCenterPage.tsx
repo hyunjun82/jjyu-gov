@@ -694,6 +694,9 @@ export default function CallCenterPage({
                   { k: `${W} 이름`, v: cc.name },
                   { k: cc.main.label, v: cc.main.tel },
                   { k: '평일 상담시간', v: cc.hours.weekday },
+                  /* 점심시간을 적어 둔 회사가 있다 (푸본현대·KB라이프·우체국보험).
+                     그 시간에 걸면 연결이 안 되니 표에도 넣는다. */
+                  ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
                   { k: '평일 야간', v: cc.hours.night },
                   { k: '공휴일', v: cc.hours.holiday },
                   /* ARS 에 상담원 메뉴가 실제로 있을 때만 쓴다.

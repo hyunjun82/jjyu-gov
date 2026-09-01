@@ -1740,8 +1740,6 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
   'online-call-center': {
     '11st': cc11stCallCenterSpokeContent,
-  },
-  'telecom-call-center': {
     'baemin': baeminCallCenterSpokeContent,
     'naver-shopping': naverShoppingCallCenterSpokeContent,
     'coupang': coupangCallCenterSpokeContent,
@@ -1753,6 +1751,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'wavve': wavveCallCenterSpokeContent,
     'netflix': netflixCallCenterSpokeContent,
     'youtube': youtubeCallCenterSpokeContent,
+  },
+  'telecom-call-center': {
     'cmb': cmbCallCenterSpokeContent,
     'hcn': hcnCallCenterSpokeContent,
     'dlive': dliveCallCenterSpokeContent,
