@@ -1,0 +1,41 @@
+{
+  "slug": "nps",
+  "name": "국민연금공단",
+  "aliases": [
+    "국민연금 고객센터",
+    "국민연금공단 1355",
+    "국민연금"
+  ],
+  "industry": "public",
+  "brandColor": "#00A0B0",
+  "official": "https://www.nps.or.kr",
+  "sourceUrl": "https://www.nps.or.kr/main.do",
+  "sourceName": "국민연금공단 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "국민연금 고객센터",
+    "tel": "1355"
+  },
+  "hours": {
+    "weekday": "평일 09시~18시",
+    "night": "업무시간 외에도 ARS를 통한 셀프서비스 이용이 가능합니다(증명서 발급 제외)",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "업무시간이 지나도 ARS 는 돈다. 다만 증명서 발급은 그때 안 된다.",
+  "callFee": "국번없이 1355 (유료)",
+  "ars": {
+    "day": [
+      { "key": "1", "what": "각종 증명서 발급 서비스" },
+      { "key": "2", "what": "신고 및 신청 서식 FAX 전송 서비스" },
+      { "key": "3", "what": "FAX 수신 확인 서비스" },
+      { "key": "4", "what": "문자 서비스" },
+      { "key": "0", "what": "상담직원 연결" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "국민연금 고객센터", "tel": "1355", "note": "국번없이 1355 (유료)" }
+  ],
+  "hq": "전북특별자치도 전주시 덕진구 기지로 180 (만성동, 국민연금)",
+  "hqZip": "54870"
+}

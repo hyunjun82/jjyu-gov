@@ -1,0 +1,22 @@
+SLUG: nps-call-center
+RECEIVED: 2026-09-01
+CAPTURED-BY: playwright MCP 브라우저
+
+WHY-NOT-CAPTURE-SOURCE
+  nps.or.kr 루트는 게이트 페이지(gate.do)라 본문이 없다. main.do 로 들어가야 한다.
+
+===== [1] https://www.nps.or.kr/main.do =====
+국민연금 고객센터: 국번없이 1355(유료, 평일 09시~18시)
+
+===== [2] https://www.nps.or.kr/comm/footer/getOHAH0001M0.do (고객센터 ARS 구성도) =====
+고객센터 업무시간은 평일 오전 9시부터 오후 6시까지입니다.
+업무시간 외에도 ARS를 통한 셀프서비스 이용이 가능합니다(증명서 발급 제외).
+
+1. 각종 증명서 발급 서비스
+2. 신고 및 신청 서식 FAX 전송 서비스
+3. FAX 수신 확인 서비스
+4. 문자 서비스
+0. 상담직원 연결
+
+===== [3] 홈 하단 =====
+54870 전북특별자치도 전주시 덕진구 기지로 180 (만성동, 국민연금)

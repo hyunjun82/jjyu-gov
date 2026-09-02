@@ -43,7 +43,11 @@ export async function generateMetadata({
   }
 
   const canonical = `https://gov.jjyu.co.kr/policy/${policySlug}/${encodeURIComponent(spoke)}/`;
-  const title = `${spokeData.h1} | 정부지원사업`;
+  /* 고객센터 글은 브랜드 꼬리를 붙이지 않는다 (2026-09-02 사장님 지적).
+     '| 정부지원사업' 은 고객센터 검색과 무관한 말이고 길이만 늘린다.
+     네이버 상위 경쟁 페이지 둘 다 검색어(전화번호·상담원 연결·영업시간)만 둔다. */
+  const isCallCenter = Boolean((spokeData as { callCenter?: unknown }).callCenter);
+  const title = isCallCenter ? spokeData.h1 : `${spokeData.h1} | 정부지원사업`;
   const description = truncateDescription(spokeData.metaDescription ?? spokeData.description);
 
   /* 공유 카드 — 고객센터 글은 회사마다 미리 구워 둔 카드가 있다(scripts/make-og-callcenter.ts).

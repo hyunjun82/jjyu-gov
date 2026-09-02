@@ -88,9 +88,15 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
 /* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
    회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
    여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
-const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; dayNote: string; idStep: string; hubWord: string }> = {
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; unit: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; dayNote: string; idStep: string; hubWord: string }> = {
+  /* h1 은 실검색어 세 개(전화번호·상담원 연결·영업시간)를 그대로 박는다 (2026-09-02 사장님 지적).
+     네이버 1~3등 경쟁 페이지가 "삼성생명 고객센터 전화번호·상담원 연결·영업시간" 이었고
+     우리는 "…빠른 상담사 연결·위치 안내" 였다 — '영업시간' 이 빠지고 검색 의도가 약한 '위치' 가 들어갔다.
+     사람들은 '상담사' 가 아니라 '상담원 연결' 로 검색한다.
+     업종마다 끝 질문 하나만 다르게 둔다 — 완전히 같은 틀 일곱 개는 찍어내기다. */
   insurance: {
     hub: 'insurance-call-center',
+    unit: '회사',
     dir: '보험고객센터',
     word: '보험사',
     labels: ['보험사 번호 모아보기', '다른 보험사 번호 보기', '보험사별 고객센터 목록', '보험사 전체 목록 열기'],
@@ -98,7 +104,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     remote: '보험금 청구나 계약 변경',
     q5q: '다른 보험사 고객센터 번호도 필요한데요',
     q5a: '보험은 한 곳만 들지 않습니다. 자동차는 이쪽, 실손은 저쪽인 경우가 흔해서 사고 한 번에 두세 곳에 전화하게 됩니다.',
-    h1: (n: string) => `${n} 고객센터 전화번호 및 빠른 상담사 연결·위치 안내`,
+    h1: (n: string) => `${n} 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?`,
     /* 메타 디스크립션의 야간 설명 — 업종마다 야간에 도는 창구가 다르다.
        2026-08-26 까지 증권사 19곳에도 보험 문구(사고접수·긴급출동)가 들어가 있었다. */
     night: '야간·공휴일에는 사고접수·긴급출동만 접수됩니다',
@@ -115,6 +121,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
   },
   securities: {
     hub: 'securities-call-center',
+    unit: '회사',
     dir: '증권고객센터',
     word: '증권사',
     labels: ['증권사 번호 모아보기', '다른 증권사 번호 보기', '증권사별 고객센터 목록', '증권사 전체 목록 열기'],
@@ -123,7 +130,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     q5q: '다른 증권사 고객센터 번호도 필요한데요',
     q5a: '증권 계좌는 한 곳만 쓰지 않습니다. 국내는 이쪽, 해외주식은 저쪽으로 나눠 쓰는 경우가 흔해서 장중에 두 곳에 전화하게 됩니다.',
     /* 2026-08-26 사장님 확정 — 채용·연봉은 버리고 전화번호·상담시간·상담원 연결로 간다 */
-    h1: (n: string) => `${n} 고객센터 전화번호와 상담시간, 상담원 연결`,
+    h1: (n: string) => `${n} 고객센터 전화번호·상담원 연결·영업시간, 야간에도 될까?`,
     night: '상담시간이 지나면 해외주식·야간 데스크가 따로 있습니다',
     goods: '주문·해외주식 등 업무별 번호',
     offhour: '주문접수·야간 데스크',
@@ -139,6 +146,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
      이 갈림을 못 쓰면 사람이 밤에 대표번호로 걸었다가 못 받고 카드가 살아 있는 채로 지나간다. */
   card: {
     hub: 'card-call-center',
+    unit: '회사',
     dir: '카드고객센터',
     word: '카드사',
     labels: ['카드사 번호 모아보기', '다른 카드사 번호 보기', '카드사별 고객센터 목록', '카드사 전체 목록 열기'],
@@ -146,7 +154,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     remote: '카드 재발급이나 결제일 변경',
     q5q: '다른 카드사 고객센터 번호도 필요한데요',
     q5a: '카드는 한 장만 쓰지 않습니다. 지갑을 통째로 잃어버리면 두세 곳에 연달아 신고해야 해서, 한자리에 모아 두면 그만큼 빨라집니다.',
-    h1: (n: string) => `${n} 고객센터 전화번호 및 상담원 연결·분실신고 안내`,
+    h1: (n: string) => `${n} 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?`,
     night: '분실신고는 365일 24시간 접수됩니다',
     goods: '분실신고·승인 등 업무별 번호',
     offhour: '분실신고·승인문의',
@@ -163,6 +171,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
      보험·증권·카드 글의 통화료 문구에 이미 쓰여 금지어로 쓸 수 없다. */
   telecom: {
     hub: 'telecom-call-center',
+    unit: '회사',
     dir: '통신고객센터',
     word: '통신사',
     labels: ['통신사 번호 모아보기', '다른 통신사 번호 보기', '통신사별 고객센터 목록', '통신사 전체 목록 열기'],
@@ -170,7 +179,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     remote: '요금 조회나 명의변경',
     q5q: '다른 통신사 고객센터 번호도 필요한데요',
     q5a: '집 인터넷과 휴대폰을 다른 회사에 두는 경우가 흔해서, 한 번에 두 곳에 전화하게 됩니다.',
-    h1: (n: string) => `${n} 고객센터 전화번호 및 상담원 연결·개통 문의 안내`,
+    h1: (n: string) => `${n} 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?`,
     night: '분실 정지는 24시간 접수됩니다',
     goods: '개통·명의변경 등 업무별 번호',
     offhour: '분실 정지·긴급 접수',
@@ -186,6 +195,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
      정부 포털이 한 페이지에 모아 둔 것이지 같은 업종이라는 뜻이 아니다. */
   online: {
     hub: 'online-call-center',
+    unit: '서비스',
     dir: '온라인고객센터',
     word: '온라인 서비스',
     labels: ['서비스별 번호 모아보기', '다른 서비스 번호 보기', '온라인 서비스 고객센터 목록', '전체 목록 열기'],
@@ -193,7 +203,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     remote: '환불이나 계정 복구',
     q5q: '다른 서비스 고객센터 번호도 필요한데요',
     q5a: '쇼핑·배달·구독을 한 곳만 쓰지 않습니다. 결제가 겹치면 어느 쪽에 걸어야 할지부터 헷갈립니다.',
-    h1: (n: string) => `${n} 고객센터 전화번호 및 상담원 연결·문의 안내`,
+    h1: (n: string) => `${n} 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?`,
     night: '상담시간은 서비스마다 다릅니다',
     goods: '문의 유형별 번호',
     offhour: '접수·문의',
@@ -212,6 +222,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
      대표번호를 대출 번호인 것처럼 적는 것이 이 업종에서 제일 위험한 사고다. */
   loan: {
     hub: 'loan-call-center',
+    unit: '회사',
     dir: '대출고객센터',
     word: '금융사',
     labels: ['금융사별 대출 번호 모아보기', '다른 금융사 대출 번호 보기', '대출 고객센터 목록', '전체 목록 열기'],
@@ -219,7 +230,7 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     remote: '한도 조회나 서류 제출',
     q5q: '다른 금융사 대출 번호도 필요한데요',
     q5a: '대출은 한 곳만 알아보지 않습니다. 금리를 비교하려면 여러 곳에 걸어야 하는데, 회사마다 대출 창구 번호가 따로 있습니다.',
-    h1: (n: string) => `${n} 대출 고객센터 전화번호 및 대출 상담 연결 안내`,
+    h1: (n: string) => `${n} 대출 고객센터 전화번호·상담 연결·영업시간, 대표번호로 될까?`,
     night: '상담시간은 회사마다 다릅니다',
     goods: '대출 업무별 번호',
     offhour: '접수·조회',
@@ -229,6 +240,35 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; labels:
     dayNote: '대출 상담은 영업시간 안에 거는 편이 빠릅니다.',
     idStep: '주민번호와 대출 계좌번호',
     hubWord: '대출 고객센터',
+  },
+  /* 공공기관 (2026-09-01 신설)
+     보험·증권·카드처럼 회사가 아니라 기관이다. 그래서 말이 다르다 —
+     "보험금 청구" 가 아니라 "증명서 발급·신고 접수" 이고,
+     야간에 도는 것도 사고접수가 아니라 ARS 자동응답이다.
+     실제로 국민연금공단은 업무시간 외에도 ARS 로 증명서 말고는 셀프서비스가 된다. */
+  public: {
+    hub: 'public-call-center',
+    unit: '기관',
+    dir: '공공기관고객센터',
+    word: '공공기관',
+    labels: ['기관별 번호 모아보기', '다른 기관 번호 보기', '공공기관 고객센터 목록', '기관 전체 목록 열기'],
+    jobs: '자격 확인, 증명서 발급, 신고·신청 접수',
+    remote: '증명서 발급이나 신고 접수',
+    q5q: '다른 기관 고객센터 번호도 필요한데요',
+    q5a: '한 가지 일을 마치는데 기관 두 곳에 걸어야 하는 경우입니다. 실업급여는 고용노동부, 산업재해는 근로복지공단으로 창구가 갈립니다.',
+    /* 후킹(물음표)을 h1 에 넣어 둔다 — 이걸 spokes 배열 제목으로도 쓰기 때문에
+       title-formula 훅이 "후킹 없음" 으로 저장을 막는다. 손으로 고쳐 놔도
+       다시 찍으면 덮어써진다(2026-09-01 실제로 그렇게 되돌아갔다). */
+    h1: (n: string) => `${n} 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?`,
+    night: '업무시간이 지나면 ARS 자동응답만 돕니다',
+    goods: '업무별 단축번호',
+    offhour: 'ARS 자동응답',
+    offhourLong: '자동응답으로 조회와 팩스 신청을 받습니다',
+    agent: '상담직원',
+    heroLead: '업무시간이 지나면 상담직원 연결이 끊깁니다',
+    dayNote: '상담직원과 이야기하시려면 평일 업무시간 안에 거셔야 합니다.',
+    idStep: '주민등록번호와 사업장 관리번호',
+    hubWord: '공공기관 고객센터',
   },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
@@ -399,7 +439,7 @@ const LOST_TEL = lostNum ? lostNum.tel : C.main.tel;
 const LOST_LABEL = lostNum ? lostNum.label : C.main.label;
 const IND_QA = C.industry !== 'card' ? '' : `
     {
-      q: '카드 분실했을 때 ${q(C.name)}는 어디로 거나요?', anchor: 'q-lost',
+      q: '카드 분실했을 때 ${q(C.name)}${josa(C.name, '은')} 어디로 거나요?', anchor: 'q-lost',
       intro:
         '${lostNum
           ? `${LOST_TEL} 입니다. ${q(LOST_LABEL)} 전용번호라 대표번호(${C.main.tel})와 다릅니다. 대표번호로 걸어도 신고는 되지만 ARS 안내를 처음부터 들어야 합니다.`
@@ -475,7 +515,16 @@ const HERO_LABELS = [
 /* cue 는 풀에서 고르지 않는다. 6개 풀로 23곳을 돌리면 같은 문장이 8번 나온다.
    그 회사의 사실(번호 개수·본사 유무·야간 운영)에서 문장을 만들면 자연히 갈린다.
    회사가 늘어도 겹치지 않는다 — 사실이 회사마다 다르기 때문이다. */
-const hqShort = C.hq ? String(C.hq).replace(/\(.*$/, '').trim().split(/\s+/).slice(0, 3).join(' ') : '';
+/* 번지는 뺀다 — 앞 3어절만 잘랐더니 "국세청로 8-14 쪽입니다" 가 나왔다 (2026-09-01).
+   도로명까지가 "~쪽" 이라는 말과 어울린다. */
+const hqShort = (() => {
+  if (!C.hq) return '';
+  const words = String(C.hq).replace(/\(.*$/, '').trim().split(/\s+/);
+  /* 번지(숫자 어절)가 나오면 거기서 끊는다 — 숫자만 빼면 "국세청로 국세청" 처럼
+     번지 뒤 건물명이 딸려 붙는다 (2026-09-02). 도로명까지가 "~쪽" 과 어울린다. */
+  const cut = words.findIndex((w) => /[0-9]/.test(w));
+  return (cut >= 0 ? words.slice(0, cut) : words).slice(0, 3).join(' ');
+})();
 const nightOpen = /24시간|365일/.test(`${C.hours.night} ${C.hours.holiday}`);
 
 /* 끝 어절까지 갈려야 한다 — 같은 맺음이 넷 중 하나를 넘으면 게이트가 막는다.
@@ -493,7 +542,7 @@ const MAP_CUE = C.hq
 const MAP_LABELS = ['가까운 지점 찾기', '지점 위치 확인하기', '지도에서 위치 보기', '가까운 창구 찾아보기'];
 
 const HUB_TAILS = [
-  `다른 ${IND.word}는 몇 시까지인지 함께 확인해 두세요.`,
+  `다른 ${IND.word}${josa(IND.word, '은')} 몇 시까지인지 함께 확인해 두세요.`,
   '회사마다 갈리니 한자리에서 비교해 보세요.',
   '가입한 곳이 여럿이면 미리 봐 두는 게 낫습니다.',
   '급할 때 다시 찾지 않게 목록을 열어 두시죠.',
@@ -514,6 +563,47 @@ const HUB_CUE = nightOpen
     ? `${C.name}${josa(C.name, '은')} 공식 안내에 상담시간을 적어 두지 않았습니다. ${pick(HUB_TAILS_NOTIME, 'hub')}`
     : `${C.name} 상담은 ${HW} 안에서만 됩니다. ${pick(HUB_TAILS, 'hub')}`;
 const HUB_LABELS = IND.labels;
+/* 서론 뒷문장 — 갈래를 나눈다 (2026-09-01 사장님 지적)
+ *
+ * 왜
+ *   227편의 서론 끝 문장이 하나였다 — "…버튼을 누르면 바로 전화가 연결되고,
+ *   {상담원} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다."
+ *   업종별로 단어 하나(상담원/상담사/상담직원)만 갈렸을 뿐이다.
+ *   action-copy.md 에 "맺음은 매번 다르게, 고정하면 AI 가 찍어낸 티가 난다" 고
+ *   적어 두고 정작 서론이 그 상태였다.
+ *
+ * 어떻게
+ *   문장을 무작위로 돌리지 않는다. 그 회사가 실제로 어떤 곳인지에 따라 갈린다 —
+ *   ARS 단축번호가 공개된 곳, 야간 창구가 도는 곳, 업무별 번호가 여럿인 곳,
+ *   시간 표기가 아예 없는 곳. 그래야 문장이 그 회사 사실과 맞물린다.
+ *   같은 갈래 안에서는 pick() 이 slug 로 고르니 회사마다 다른 문장이 잡힌다.
+ */
+const HERO_TAILS_ARS = [
+  `아래 대표번호 버튼을 누르면 바로 걸리고, ARS 에서 몇 번을 눌러야 ${IND.agent}${josa(IND.agent, '이')} 나오는지도 아래에 적어 뒀습니다.`,
+  `번호를 외우실 필요는 없습니다. 아래 버튼으로 걸고, 단축번호는 화면을 보면서 누르시면 됩니다.`,
+  `안내 음성이 길게 돌기 전에 눌러야 할 번호를 아래에 정리해 뒀습니다.`,
+];
+const HERO_TAILS_NIGHT = [
+  `아래 대표번호 버튼으로 바로 걸리고, 지금 시간에 어느 창구가 도는지도 함께 보실 수 있습니다.`,
+  `시간대에 따라 받는 곳이 갈립니다. 아래에서 지금 열려 있는 창구부터 확인하세요.`,
+  `밤이나 휴일에 거실 거라면 아래 표에서 그 시간에 받는 번호를 먼저 보세요.`,
+];
+const HERO_TAILS_MANY = [
+  `용건에 맞는 번호로 걸어야 한 번에 끝납니다. 아래에 업무별로 갈라 뒀습니다.`,
+  `대표번호로 걸면 돌아가는 용건이 있습니다. 아래에서 해당 번호를 먼저 찾으세요.`,
+  `번호가 여러 개라 헷갈리기 쉽습니다. 아래에서 용건부터 고르시면 됩니다.`,
+];
+const HERO_TAILS_PLAIN = [
+  `아래 대표번호 버튼을 누르면 바로 전화가 연결됩니다.`,
+  `아래 버튼으로 바로 걸으실 수 있습니다.`,
+  `번호를 옮겨 적지 마시고 아래 버튼으로 바로 거세요.`,
+];
+const HERO_TAIL =
+  KEY_OK ? pick(HERO_TAILS_ARS, 'hero')
+  : nightOpen ? pick(HERO_TAILS_NIGHT, 'hero')
+  : (C.numbers ?? []).length >= 3 ? pick(HERO_TAILS_MANY, 'hero')
+  : pick(HERO_TAILS_PLAIN, 'hero');
+
 const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? `ARS 안내에서 ${IND.agent} 연결 선택` : '공식 안내에 ARS 단축번호 미공개');
 const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'${IND.agent} 연결'`;
 const ARS_META = KEY_OK
@@ -556,7 +646,7 @@ export const ${exportName}: SpokeData = {
      회사 고객센터 글과 구분이 안 된다 (2026-08-27 사장님 확인). */
   breadcrumb: '${q(C.name)}${IND.hub === 'loan-call-center' ? ' 대출' : ''} 고객센터',
   description:
-    '${q(INTRO_FACT)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
+    '${q(INTRO_FACT)}. ${q(HERO_TAIL)}',
   datePublished: '${C.verifiedAt}T09:00:00+09:00',
   /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
@@ -566,7 +656,7 @@ export const ${exportName}: SpokeData = {
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:
-    '${q(INTRO_FACT)}. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${q(IND.agent)} 연결 순서·부가 번호·고객센터 위치도 함께 확인할 수 있습니다.',
+    '${q(INTRO_FACT)}. ${q(HERO_TAIL)}',
   heroAct: { label: '${q(pick(HERO_LABELS))}', href: TEL },
 
   keyFacts: {
@@ -627,7 +717,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '${q(C.name)} 고객센터 위치는 어디인가요?', anchor: 'q4',
       intro:
-        '${C.hq ? `본사는 ${q(C.hq)}에 있습니다. ` : ''}다만 ${IND.remote}은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사명으로 검색하면 가까운 순으로 나옵니다.',
+        '${C.hq ? `본사는 ${q(C.hq)}에 있습니다. ` : ''}다만 ${IND.remote}${josa(IND.remote, '은')} 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 ${IND.unit} 이름으로 검색하면 가까운 순으로 나옵니다.',
       highlights: [${C.hq ? `'${q(C.hq)}'` : `'가까운 지점'`}],
       act: {
         cue: '${q(MAP_CUE)}',
@@ -639,7 +729,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '${IND.q5q}', anchor: 'q5',
       intro:
-        '${IND.q5a} 회사마다 대표번호도 다르고 ${q(IND.agent)} 연결 번호도 다릅니다. ${IND.word}별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
+        '${IND.q5a} ${IND.unit}마다 대표번호도 다르고 ${q(IND.agent)} 연결 번호도 다릅니다. ${IND.word}별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
       highlights: ['${IND.word}별', '대표번호'],
       act: {
         cue: '${q(HUB_CUE)}',
@@ -689,7 +779,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '${C.hq ? '본사 주소는 어디인가요?' : '방문 상담은 어디로 가야 하나요?'}',
-      a: '${C.hq ? `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.` : `${q(C.name)} 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. ${IND.remote}은 방문하지 않아도 전화·앱으로 처리되는 경우입니다.`}',
+      a: '${C.hq ? `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.` : `${q(C.name)} 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. ${IND.remote}${josa(IND.remote, '은')} 방문하지 않아도 전화·앱으로 처리되는 경우입니다.`}',
       source: '${q(C.corp ?? C.name)} 사업자 정보',
       sourceUrl: '${C.official}',
     },

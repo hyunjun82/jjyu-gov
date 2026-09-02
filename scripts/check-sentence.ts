@@ -48,6 +48,26 @@ const HEADS: string[] = (() => {
         .filter(Boolean).forEach((t: string) => out.add(t));
     }
   }
+  /* 업종 고정어도 넣는다 (2026-09-01)
+     생성기는 회사 이름 말고 IND.remote·IND.word 같은 업종 말도 문장에 끼워 넣는다.
+     그 뒤 조사를 손으로 '은' 이라 박아 둔 자리가 있었고,
+     증권 "비밀번호 초기화은" · 온라인 "계정 복구은" 이 49편 나갔다.
+     회사 이름 뒤만 보던 이 검사는 그걸 못 봤다 — 목록에 없는 말이었기 때문이다.
+     new-call-center.ts 의 INDUSTRY 값을 그대로 읽어 검사 대상에 넣는다.
+     여기에 업종을 새로 더해도 자동으로 따라온다. */
+  const gen = path.join(ROOT, 'scripts', 'new-call-center.ts');
+  if (fs.existsSync(gen)) {
+    const src = fs.readFileSync(gen, 'utf8');
+    for (const key of ['word', 'remote', 'agent', 'offhour', 'jobs', 'unit', 'hubWord']) {
+      /* 정규식에 백슬래시를 쓰지 않는다 — 여기 단어경계를 넣었더니
+         템플릿 리터럴이 그것을 백스페이스 문자로 읽어 검사가 조용히 죽었다.
+         (2026-08-31 pre-push 게이트가 같은 이유로 아무것도 못 잡고 있었다.)
+         키 뒤에 오는 ": '" 만으로 충분히 좁혀진다. */
+      const re = new RegExp(key + ": '([^']+)'", 'g');
+      let m: RegExpExecArray | null;
+      while ((m = re.exec(src))) out.add(m[1]);
+    }
+  }
   /* 긴 이름부터 봐야 "농협" 이 "NH농협손해보험" 을 가로채지 않는다 */
   return [...out].sort((a, b) => b.length - a.length);
 })();
@@ -80,7 +100,18 @@ const walk = (d: string) => {
  *
  * 생성기를 새로 만들면 그 폴더를 여기 한 줄 더한다.
  */
-const DIRS = ['보험고객센터', '증권고객센터', '카드고객센터', '통신고객센터', '온라인고객센터', '대출고객센터'];
+/* 업종 폴더를 손으로 적지 않는다 — 2026-09-01 공공기관을 더했는데 여기를 빼먹어
+   4편이 검사 없이 지나갔다. new-call-center.ts 의 dir 값을 그대로 읽는다. */
+const DIRS: string[] = (() => {
+  const gen = path.join(ROOT, 'scripts', 'new-call-center.ts');
+  if (!fs.existsSync(gen)) return [];
+  const src = fs.readFileSync(gen, 'utf8');
+  const out: string[] = [];
+  const re = new RegExp("dir: '([^']+)'", 'g');
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(src))) out.push(m[1]);
+  return out;
+})();
 const CONTENT = path.join(ROOT, 'app', 'policy', '[id]', '[spoke]', 'content');
 DIRS.map((d) => path.join(CONTENT, d)).filter((d) => fs.existsSync(d)).forEach(walk);
 
@@ -131,11 +162,16 @@ for (const f of files) {
        실제로 사고가 난 자리도 정확히 여기였다: "유튜브은", "1544-7004과". */
     for (const head of HEADS) {
       const re = new RegExp(`${escapeRe(head)}(은|는|이|가|을|를|와|과|으로|로)(?=[\\s.,!?)]|$)`, 'g');
+      /* 도로명은 조사가 아니다 — "세종시 국세청로 8-14" 의 '로' 를 조사로 읽고
+         "국세청로 → 국세청으로" 로 잡았다 (2026-09-01 공공기관 글).
+         뒤에 숫자나 '길' 이 오면 주소다. */
+      const ADDR = new RegExp(escapeRe(head) + '(으로|로) *[0-9길쪽]');  // '국세청로 쪽입니다' 도 도로명이다
       let m: RegExpExecArray | null;
       while ((m = re.exec(v))) {
         const used = m[1];
         const pair = ({ 은: '은', 는: '은', 이: '이', 가: '이', 을: '을', 를: '을', 와: '과', 과: '과', 으로: '으로', 로: '으로' } as const)[used as '은'] as JosaPair;
         const want = josa(head, pair);
+        if ((used === '로' || used === '으로') && ADDR.test(v)) continue;
         if (want !== used) {
           hits.push({ file: rel, kind: `C 조사 "${head}${used}" → "${head}${want}"`, text: v });
           break;

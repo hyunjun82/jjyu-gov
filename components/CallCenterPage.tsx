@@ -102,6 +102,15 @@ function parseWeekdayHours(s: string): { from: number; to: number } | null {
   return { from, to };
 }
 
+/* 낱개를 부르는 말 — 허브(CallCenterHub 의 unit)와 같은 규칙이다.
+   2026-09-01 까지 "다른 회사 고객센터" 로 박혀 있었다. 지금은 전부 회사라 안 틀렸지만
+   공공기관 글이 붙으면 "다른 회사" 가 된다. 허브 슬러그로 고른다. */
+const UNIT: Record<string, string> = {
+  'online-call-center': '서비스',
+  'public-call-center': '기관',
+};
+const unitOf = (hub: string) => UNIT[String(hub)] ?? '회사';
+
 export default function CallCenterPage({
   cc,
   spoke,
@@ -934,7 +943,7 @@ export default function CallCenterPage({
             전에는 회사 페이지에서 내부로 갈 곳이 허브 하나뿐이었다. 외부 링크는 12개인데. */}
         {siblings.length > 0 && (
           <section id="others" style={{ margin: '56px 0 0', scrollMarginTop: 84 }}>
-            <h2 style={h2}>다른 회사 고객센터 번호도 필요하신가요?</h2>
+            <h2 style={h2}>다른 {unitOf(policyId)} 고객센터 번호도 필요하신가요?</h2>
             <p style={{ margin: '8px 0 0', fontSize: 16.5, color: '#5B6474' }}>
               한 곳만 쓰는 경우는 드뭅니다. 자주 찾는 곳을 먼저 걸어 뒀습니다.
             </p>

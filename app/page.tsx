@@ -181,7 +181,7 @@ export default function Home() {
           </div>
           <div className="policy-list">
             {hotPolicies.map((p) => (
-              <Link href={`/policy/${p.id}`} key={p.id} className="policy-card">
+              <Link href={`/policy/${p.slug ?? p.id}`} key={p.id} className="policy-card">
                 <div className="card-body">
                   <div className="card-badges">
                     <span className={`badge ${catBadge(p.cat)}`}>{catLabel(p.cat)}</span>
@@ -217,7 +217,7 @@ export default function Home() {
           </div>
           <div className="policy-list">
             {expiring.map((p) => (
-              <Link href={`/policy/${p.id}`} key={p.id} className="policy-card">
+              <Link href={`/policy/${p.slug ?? p.id}`} key={p.id} className="policy-card">
                 <div className="card-body">
                   <div className="card-badges">
                     <span className={`badge ${catBadge(p.cat)}`}>{catLabel(p.cat)}</span>

@@ -42,7 +42,14 @@ export async function generateMetadata({
   }
 
   const canonical = `https://gov.jjyu.co.kr/policy/${p.slug ?? id}/`;
-  const title = `${p.title} 조건·신청방법 총정리 (2026) | 정부지원사업`;
+  /* 고객센터 허브는 정책 꼬리를 붙이지 않는다 (2026-09-02 사장님 지적).
+     "대출 고객센터 전화번호 조회, … 안 되는 이유 조건·신청방법 총정리 (2026) | 정부지원사업" 으로
+     나가고 있었다 — 고객센터에 '신청방법 총정리' 는 말이 안 되고, 70자를 넘어 검색 결과에서 잘렸다.
+     네이버 상위 경쟁 페이지는 꼬리 없이 검색어만 둔다. 브랜드 꼬리도 뺀다. */
+  const isCallCenter = String(p.slug ?? id).endsWith('-call-center');
+  const title = isCallCenter
+    ? p.title
+    : `${p.title} 조건·신청방법 총정리 (2026) | 정부지원사업`;
   const description = (p as { metaDescription?: string }).metaDescription
     ? truncateDescription((p as { metaDescription?: string }).metaDescription!)
     : buildHubDescription(p.title, p.amount, p.summary);

@@ -1,0 +1,17 @@
+{
+  "slug": "nts",
+  "keyword": "국세상담센터 고객센터",
+  "title": "국세상담센터 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?",
+  "pattern": "고객센터 — 번호 모음 · 상담직원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "국세상담센터 고객센터 전화번호 모음",
+    "국세상담센터 고객센터 상담직원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "국세상담센터 고객센터 위치",
+    "국세상담센터 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6694&cntntsId=8104",
+  "outline": "data/call-centers/nts.json",
+  "approved": true,
+  "approvedAt": "2026-09-01"
+}

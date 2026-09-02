@@ -126,16 +126,16 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
-  { slug: 'youtube', role: 'eligibility', title: '유튜브 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'wavve', role: 'eligibility', title: '웨이브 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'one-store', role: 'eligibility', title: '원스토어 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'netflix', role: 'eligibility', title: '넷플릭스 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'naver-shopping', role: 'eligibility', title: '네이버쇼핑 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'google-play', role: 'eligibility', title: '구글플레이 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'galaxy-store', role: 'eligibility', title: '갤럭시스토어 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'coupang', role: 'eligibility', title: '쿠팡 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'baemin', role: 'eligibility', title: '배달의민족 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'app-store', role: 'eligibility', title: '앱스토어 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'afreecatv', role: 'eligibility', title: '아프리카TV 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: '11st', role: 'eligibility', title: '11번가 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'youtube', role: 'eligibility', title: '유튜브 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'wavve', role: 'eligibility', title: '웨이브 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'one-store', role: 'eligibility', title: '원스토어 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'netflix', role: 'eligibility', title: '넷플릭스 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'naver-shopping', role: 'eligibility', title: '네이버쇼핑 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'google-play', role: 'eligibility', title: '구글플레이 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'galaxy-store', role: 'eligibility', title: '갤럭시스토어 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'coupang', role: 'eligibility', title: '쿠팡 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'baemin', role: 'eligibility', title: '배달의민족 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'app-store', role: 'eligibility', title: '앱스토어 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: 'afreecatv', role: 'eligibility', title: '아프리카TV 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
+  { slug: '11st', role: 'eligibility', title: '11번가 고객센터 전화번호·상담원 연결·영업시간, 앱에 없으면?' },
 ];

@@ -1664,8 +1664,18 @@ import { kbSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { citiCardLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/citi-card-loan';
 import { kblifeLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kblife-loan';
 import { kamcoLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/kamco-loan';
+import { comwelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/comwel';
+import { moelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/moel';
+import { npsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/nps';
+import { ntsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/nts';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'public-call-center': {
+    'nts': ntsCallCenterSpokeContent,
+    'nps': npsCallCenterSpokeContent,
+    'moel': moelCallCenterSpokeContent,
+    'comwel': comwelCallCenterSpokeContent,
+  },
   'loan-call-center': {
     'kamco-loan': kamcoLoanCallCenterSpokeContent,
     'kblife-loan': kblifeLoanCallCenterSpokeContent,

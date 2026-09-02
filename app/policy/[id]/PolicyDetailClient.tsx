@@ -154,7 +154,12 @@ export default function PolicyDetailClient({
   const allDone = totalQ > 0 && answered === totalQ;
   const allPass = allDone && passed === totalQ;
 
-  const policyUrl = `${SITE_URL}/policy/${d.id}`;
+  /* 링크는 slug 로만 만든다 (2026-09-02)
+     8/31 에 숫자 URL 페이지를 없애면서 여기를 안 바꿨다. 사이드바가 /policy/159/납부기간/ 로
+     링크를 만들었고, 스포크는 _redirects 에 301 이 없어(2,000줄 제한) 전부 404 였다.
+     정책 허브의 스포크 내부 이동이 통째로 죽어 있었다 — 전면광고가 뜨는 바로 그 자리다. */
+  const linkSlug = String(d.slug ?? d.id);
+  const policyUrl = `${SITE_URL}/policy/${linkSlug}`;
 
   const schemas = [
     articleWithGovServiceSchema(
@@ -709,7 +714,7 @@ export default function PolicyDetailClient({
                     {spokeList.map((s: any, i: number) => (
                       <Link
                         key={i}
-                        href={`/policy/${d.id}/${s.slug}`}
+                        href={`/policy/${linkSlug}/${s.slug}`}
                         style={{
                           display: 'flex',
                           alignItems: 'center',
@@ -787,7 +792,7 @@ export default function PolicyDetailClient({
           </article>
 
           <PolicySidebar
-            policyId={d.id}
+            policyId={linkSlug}
             policyTitle={d.title.replace(/^2026\s*/, '')}
             spokes={spokeList.map((s: any) => ({ slug: s.slug, title: s.title ?? s.label ?? s.slug }))}
             applyUrl={d.applyUrl}

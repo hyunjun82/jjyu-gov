@@ -22,7 +22,7 @@ const ROOT = path.join('app', 'policy', '[id]', '[spoke]', 'content');
 /** 읽기만 시키는 꼬리 — 행동이 아니다 */
 const READ_ONLY = /(보기|살펴보기|알아보기|읽어보기)$/;
 
-type Label = { file: string; text: string; kind: 'heroAct' | 'cue' };
+type Label = { file: string; text: string; kind: 'heroAct' | 'cue' | 'heroHook' };
 
 function collect(dir: string): Label[] {
   const out: Label[] = [];
@@ -32,6 +32,18 @@ function collect(dir: string): Label[] {
     if (hero) out.push({ file: f, text: hero[1], kind: 'heroAct' });
     for (const m of src.matchAll(/cue:\s*\n?\s*'([^']*)'/g))
       out.push({ file: f, text: m[1], kind: 'cue' });
+    /* 서론도 본다 (2026-09-01 사장님 지적)
+       고객센터 227편의 서론 끝 문장이 하나였다 —
+       "…버튼을 누르면 바로 전화가 연결되고, {상담원} 연결 순서·부가 번호·
+       고객센터 위치도 함께 확인할 수 있습니다." 업종별 단어 하나만 갈렸다.
+       이 게이트가 버튼(cue·heroAct)만 보고 있어서 못 봤다.
+       서론은 길어서 끝 어절만으로는 안 갈린다 — 마지막 문장을 통째로 본다. */
+    const hook = src.match(/heroHook:\s*'([^']*)'/);
+    if (hook) {
+      const sents = hook[1].split('. ').map((x) => x.trim()).filter(Boolean);
+      const last = sents[sents.length - 1] ?? '';
+      if (last) out.push({ file: f, text: last, kind: 'heroHook' });
+    }
   }
   return out;
 }

@@ -1,0 +1,41 @@
+{
+  "slug": "nts",
+  "name": "국세상담센터",
+  "aliases": [
+    "국세청 고객센터",
+    "국세청 126",
+    "국세상담센터 126",
+    "국세청"
+  ],
+  "industry": "public",
+  "brandColor": "#00539F",
+  "official": "https://www.nts.go.kr",
+  "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6694&cntntsId=8104",
+  "sourceName": "국세청 이용안내 국세상담센터 전화상담",
+  "verifiedAt": "2026-09-01",
+  "main": {
+    "label": "국세상담센터",
+    "tel": "126"
+  },
+  "hours": {
+    "weekday": "평일 9시 ~ 18시",
+    "night": "탈세제보는 24시간 상담",
+    "holiday": "탈세제보는 24시간 상담"
+  },
+  "hoursNote": "세법 상담은 평일 9시~18시다. 탈세제보만 시간과 상관없이 받는다.",
+  "callFee": "국번 없이 126번 (유료)",
+  "ars": {
+    "day": [
+      { "key": "1", "what": "홈택스 상담" },
+      { "key": "2", "what": "세법 상담" },
+      { "key": "3", "what": "납세자보호담당관실" },
+      { "key": "4", "what": "탈세 등 각종 제보" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    { "label": "국세상담센터", "tel": "126", "note": "국번없이 126 — 국세관련 모든 상담" }
+  ],
+  "hq": "세종특별자치시 국세청로 8-14 국세청 (정부세종2청사 국세청동)",
+  "hqZip": "30128"
+}
