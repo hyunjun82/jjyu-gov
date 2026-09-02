@@ -154,11 +154,11 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'samsung-life', role: 'eligibility', title: '삼성생명 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'yebyeol', role: 'eligibility', title: '예별손해보험 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'tongyang-life', role: 'eligibility', title: '동양생명 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'shinhan-life', role: 'eligibility', title: '신한라이프 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'sgi', role: 'eligibility', title: 'SGI서울보증 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
-  { slug: 'samsung-life', role: 'eligibility', title: '삼성생명 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'samsung-fire', role: 'eligibility', title: '삼성화재 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'samsung-fire-direct', role: 'eligibility', title: '삼성화재 다이렉트 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'post-insurance', role: 'eligibility', title: '우체국보험 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },

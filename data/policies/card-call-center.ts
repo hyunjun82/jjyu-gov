@@ -122,6 +122,7 @@ export const cardCallCenterPolicy = {
 };
 
 export const cardCallCenterSpokes = [
+  { slug: 'hana-card', role: 'eligibility', title: '하나카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'woori-card', role: 'eligibility', title: '우리카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'suhyup-card', role: 'eligibility', title: '수협은행 카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'shinhan-card', role: 'eligibility', title: '신한카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
@@ -137,7 +138,6 @@ export const cardCallCenterSpokes = [
   { slug: 'jbbank-card', role: 'eligibility', title: '전북은행 카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'im-card', role: 'eligibility', title: 'iM카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'hyundai-card', role: 'eligibility', title: '현대카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
-  { slug: 'hana-card', role: 'eligibility', title: '하나카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'cu-card', role: 'eligibility', title: '신협 카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'busan-card', role: 'eligibility', title: '부산은행 카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },
   { slug: 'bc-card', role: 'eligibility', title: 'BC카드 고객센터 전화번호·상담원 연결·영업시간, 분실신고는 몇 번?' },

@@ -126,6 +126,7 @@ export const telecomCallCenterPolicy = {
 };
 
 export const telecomCallCenterSpokes = [
+  { slug: 'kt', role: 'eligibility', title: 'KT 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'skt', role: 'eligibility', title: 'SK텔레콤 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'sk-telink', role: 'eligibility', title: 'SK텔링크 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'sk-broadband', role: 'eligibility', title: 'SK브로드밴드 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
@@ -134,7 +135,6 @@ export const telecomCallCenterSpokes = [
   { slug: 'livem', role: 'eligibility', title: '리브엠모바일 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'lguplus', role: 'eligibility', title: 'LG유플러스 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'lg-hellovision', role: 'eligibility', title: 'LG헬로비전 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
-  { slug: 'kt', role: 'eligibility', title: 'KT 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'kt-mmobile', role: 'eligibility', title: 'KT엠모바일 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'keunsaram', role: 'eligibility', title: '큰사람케넥트 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },
   { slug: 'kct', role: 'eligibility', title: '한국케이블텔레콤 고객센터 전화번호·상담원 연결·영업시간, 무료번호 있을까?' },

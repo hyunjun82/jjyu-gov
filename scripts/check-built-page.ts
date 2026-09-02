@@ -29,6 +29,7 @@ import { execSync } from 'child_process';
 const ROOT = execSync('git rev-parse --show-toplevel').toString().trim();
 const OUT = path.join(ROOT, 'out');
 const CC_DIR = path.join(ROOT, 'data', 'call-centers');
+const policyDir = path.join(OUT, 'policy');
 
 console.log('='.repeat(60));
 console.log(' 빌드 결과 검사 — 그 주소에 그 회사가 나오나');
@@ -51,8 +52,31 @@ type Bad = { name: string; kind: string; detail: string };
 const bad: Bad[] = [];
 let checked = 0;
 
+/* ⓪ 허브 주소가 영문 slug 하나뿐인가 (2026-09-02 사장님 질문 "URL 3개씩 다시 안 올라가겠지?")
+ *   2026-08-27 에 글 하나가 숫자(/policy/159/)·영문·한글 세 주소로 찍혀 7,151페이지가 됐고
+ *   Cloudflare 25MiB 제한에 걸려 4일간 배포가 막혔다. 8/31 에 generateStaticParams 를
+ *   slug 만 돌려주게 고쳤는데, 그걸 지키는 게이트는 없었다. 누가 다시 건드리면 그날 또 터진다.
+ *   허브 1단 디렉토리에 영문 slug 가 아닌 것이 하나라도 있으면 막는다. */
+{
+  const hubDirs = fs.existsSync(policyDir)
+    ? fs.readdirSync(policyDir).filter((d) => fs.statSync(path.join(policyDir, d)).isDirectory())
+    : [];
+  /* 숫자만인 것은 따로 잡는다 — '159' 도 [a-z0-9] 에 걸려 통과했다 (심어서 확인, 2026-09-02) */
+  const notSlug = hubDirs.filter((d) => !/^[a-z0-9][a-z0-9-]*$/.test(d) || /^[0-9]+$/.test(d));
+  if (notSlug.length) {
+    console.log('');
+    for (const d of notSlug.slice(0, 10)) console.log(`❌ 허브 주소가 영문 slug 가 아니다: /policy/${d}/`);
+    if (notSlug.length > 10) console.log(`   … 외 ${notSlug.length - 10}개`);
+    console.log('');
+    console.log(` 허브 ${hubDirs.length}개 중 ${notSlug.length}개가 숫자·한글 주소다.`);
+    console.log(' app/policy/[id]/page.tsx 의 generateStaticParams 가 PoliciesBySlug 만 돌려주는지 본다.');
+    console.log(' 숫자·한글 주소는 페이지가 아니라 public/_redirects 의 301 로만 받는다 (2026-08-31 결정).');
+    process.exit(1);
+  }
+  console.log(` ⓪ 허브 주소 ${hubDirs.length}개 전부 영문 slug — 숫자·한글 주소 없음`);
+}
+
 /* out/policy/{hub}/{slug}/index.html 을 찾는다 — 허브가 뭐든 slug 로 건진다 */
-const policyDir = path.join(OUT, 'policy');
 const hubs = fs.existsSync(policyDir)
   ? fs.readdirSync(policyDir).filter((d) => fs.statSync(path.join(policyDir, d)).isDirectory())
   : [];
