@@ -9,20 +9,34 @@
   "industry": "loan",
   "brandColor": "#FFBC00",
   "official": "https://card.kbcard.com",
-  "sourceUrl": "https://card.kbcard.com/CXPRIFNC0001.cms",
-  "sourceName": "KB국민카드 금융(대출) 안내 페이지 고객센터",
-  "verifiedAt": "2026-08-27",
+  "sourceUrl": "https://card.kbcard.com/SVC/DVIEW/HSGMCXCRSCSC0028",
+  "sourceName": "KB국민카드 ARS서비스이용안내",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "금융서비스",
     "tel": "1588-2788"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": "상담원 연결은 평일 09:00~18:00",
+    "night": "평일 08:00 ~ 18:30",
+    "holiday": "공휴일 08:00 ~ 23:30"
   },
   "ars": {
-    "day": [],
+    "day": [
+      {
+        "key": "1",
+        "what": "개인회원"
+      },
+      {
+        "key": "3",
+        "what": "단기카드대출(현금서비스) 및 장기카드대출(카드론), 신용대출"
+      },
+      {
+        "key": "0",
+        "what": "상담원 연결"
+      }
+    ],
     "night": []
   },
   "numbers": [
@@ -42,5 +56,6 @@
       "note": "결제일 변경 등"
     }
   ],
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] ARS서비스이용안내: 상담원 연결은 평일 09:00~18:00. ARS 자체는 평일 08:00~18:30 / 19:30~23:30, 공휴일 08:00~23:30 이고 카드론 결제금액 조회는 24시간(연중무휴). 상담원 시간과 ARS 시간이 다르다.",
+  "callFee": "ARS 이용요금 안내 (국내기준) 유선전화 : 시내전화요금 기준 / 휴대폰 : 해당 이동통신사 사용 요금 기준"
 }
