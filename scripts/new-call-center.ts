@@ -345,7 +345,12 @@ const HW_RAW = hoursText(C.hours.weekday);
 const HW = (() => {
   const span = timeSpan(HW_RAW);
   if (!span) return HW_RAW;
-  const extra = HW_RAW.replace(span, '').replace(/[()\[\]]/g, '').trim();
+  /* 오전·오후로 끊어 적는 기관이 있다 — LH "월요일 ~ 금요일 오전 09:00~12:00 오후 13:00~18:00" (2026-09-03).
+     시각 구간만 뽑으면 오후가 통째로 사라져 "상담은 오전 09:00~12:00" 이 되고, 12시 이후에 못 건다고 읽힌다.
+     구간이 둘 이상이면 원문을 통째로 쓴다. */
+  const rest = HW_RAW.replace(span, '');
+  if (timeSpan(rest)) return HW_RAW;
+  const extra = rest.replace(/[()\[\]]/g, '').trim();
   return extra.length > 6 ? span : HW_RAW;
 })();
 /* 상담시간을 아예 안 적는 회사가 있다 (카디프생명·증권사 13곳).
@@ -355,7 +360,18 @@ const NO_HOURS = !/[0-9]/.test(HW);
 /* FAQ "점심시간에도 상담이 되나요?" 가 lunch 값을 안 보고 "휴무 표기가 없습니다" 로 고정돼 있었다 (2026-09-03 미래에셋캐피탈).
    원문에 점심 안내가 있으면 그 문장을 그대로 답으로 쓴다. 시간 표기가 없는 회사는 시간 이야기를 꺼내지 않는다. */
 const lunchRaw = String(C.hours.lunch ?? '').trim();
-const LUNCH_FAQ = lunchRaw
+/* 오전·오후로 끊어 적은 기관은 그 사이가 비어 있다 — 점심 검색이 제일 많은 질문인데
+   "점심시간 휴무 표기가 없습니다" 라고 답하면 원문을 보고도 틀린 말을 하는 것이다 (2026-09-03 LH).
+   원문에 '점심' 이라는 말이 없으니 그 단어를 쓰지 않고, 두 구간을 그대로 보여준다. */
+const SPLIT_SPANS = (() => {
+  const first = timeSpan(HW);
+  if (!first) return null;
+  const second = timeSpan(HW.replace(first, ''));
+  return second ? [first, second] as const : null;
+})();
+const LUNCH_FAQ = SPLIT_SPANS
+  ? `${C.name} 공식 안내는 상담 시간을 ${SPLIT_SPANS[0]}, ${SPLIT_SPANS[1]} 두 구간으로 나눠 적고 있습니다. 두 구간 사이는 안내에 들어 있지 않으니, 그 사이에 걸면 연결이 안 될 수 있습니다. 오전 구간 안에 거시는 편이 확실합니다.`
+  : lunchRaw
   ? `${C.name} 공식 안내에 점심시간이 따로 적혀 있습니다 — "${lunchRaw.replace(/[.]$/, '')}". 급한 용건이 아니면 그 시간은 피해서 거는 편이 낫습니다.`
   : NO_HOURS
   ? `${C.name} 공식 안내에는 상담 가능 시간도, 점심시간 휴무도 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하시는 편이 확실합니다.`

@@ -80,9 +80,9 @@ export const linaLifeCallCenterSpokeContent: SpokeData = {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
         '상담사 상담은 평일 09:00~18:00입니다. ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00은 따로 안내돼 있습니다. 다만 이 시간에 상담사 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 평일 09:00~18:00 안에 거시는 편이 확실합니다.',
-      highlights: ['상담원 서비스 시간 평일 09:00~18:00(주말, 공휴일 휴무)', 'ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00', 'ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00'],
+      highlights: ['상담원 서비스 시간 평일 09:00~18:00(주말, 공휴일 휴무)', 'ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00'],
       table: {
-        headers: ['번호', '야간·휴일 (ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00 / ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00)'],
+        headers: ['번호', '야간·휴일 (ARS를 통한 Self-service 시간 평일/주말/공휴일 09:00~21:00)'],
         rows: [],
       },
       box: {

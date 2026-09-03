@@ -1668,9 +1668,21 @@ import { comwelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { moelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/moel';
 import { npsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/nps';
 import { ntsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/nts';
+import { kosafCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kosaf';
+import { lhCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/lh';
+import { shCorpCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/sh-corp';
+import { gov24CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gov24';
+import { bokjiro129CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/bokjiro129';
+import { semasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/semas';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'public-call-center': {
+    'semas': semasCallCenterSpokeContent,
+    'bokjiro129': bokjiro129CallCenterSpokeContent,
+    'gov24': gov24CallCenterSpokeContent,
+    'sh-corp': shCorpCallCenterSpokeContent,
+    'lh': lhCallCenterSpokeContent,
+    'kosaf': kosafCallCenterSpokeContent,
     'nts': ntsCallCenterSpokeContent,
     'nps': npsCallCenterSpokeContent,
     'moel': moelCallCenterSpokeContent,

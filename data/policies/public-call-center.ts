@@ -131,8 +131,14 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'lh', role: 'eligibility', title: 'LH 한국토지주택공사 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
+  { slug: 'kosaf', role: 'eligibility', title: '한국장학재단 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
+  { slug: 'semas', role: 'eligibility', title: '소상공인시장진흥공단 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
+  { slug: 'bokjiro129', role: 'eligibility', title: '보건복지상담센터 129 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
+  { slug: 'gov24', role: 'eligibility', title: '정부24 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
+  { slug: 'comwel', role: 'eligibility', title: '근로복지공단 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
+  { slug: 'sh-corp', role: 'eligibility', title: 'SH 서울주택도시개발공사 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
   { slug: 'nts', role: 'eligibility', title: '국세상담센터 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
   { slug: 'nps', role: 'eligibility', title: '국민연금공단 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
   { slug: 'moel', role: 'eligibility', title: '고용노동부 고객상담센터 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
-  { slug: 'comwel', role: 'eligibility', title: '근로복지공단 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?' },
 ];
