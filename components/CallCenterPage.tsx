@@ -32,7 +32,7 @@ export interface CallCenterData {
   sourceName: string;
   verifiedAt: string;
   main: { label: string; tel: string };
-  hours: { weekday: string; night: string; holiday: string; lunch?: string };
+  hours: { weekday: string; night: string; holiday: string; lunch?: string; visit?: string };
   /* 야간·공휴일 안내 한 문장 — 회사마다 다르다. 여기 없으면 화면이 지어내게 된다.
      전에는 이 문장이 CallCenterPage 에 박혀 있어서 50곳이 전부 "사고접수·긴급출동" 이었다. */
   offhourNote?: string;
@@ -226,6 +226,9 @@ export default function CallCenterPage({
     { k: '평일 야간', v: cc.hours.night },
     { k: '공휴일', v: cc.hours.holiday },
     ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
+    /* 방문 접수 시간을 따로 적어 둔 회사가 있다 (한화생명 대출 — 평일 09:00~15:30).
+       전화 시간보다 일찍 닫히니, 있을 때만 보여준다. */
+    ...(cc.hours.visit ? [{ k: '방문 접수', v: cc.hours.visit }] : []),
     ...(hasArs ? [{ k: '상담사 연결', v: `ARS ${agentKey}번` }] : []),
   ];
 
@@ -708,6 +711,7 @@ export default function CallCenterPage({
                   ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
                   { k: '평일 야간', v: cc.hours.night },
                   { k: '공휴일', v: cc.hours.holiday },
+                  ...(cc.hours.visit ? [{ k: '방문 접수', v: cc.hours.visit }] : []),
                   /* ARS 에 상담원 메뉴가 실제로 있을 때만 쓴다.
                      agentKey 는 없을 때 '0' 으로 떨어지므로 그걸 조건으로 쓰면
                      단축번호가 없는 회사에 "ARS 0번" 이라는 없는 안내가 나간다. */

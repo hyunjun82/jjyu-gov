@@ -2,7 +2,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-hanwha-life-loan-call-center.txt
  * 1차 출처: 한화생명 콜센터ARS안내 (https://www.hanwhalife.com/main/customerCenter/callCenterArs/CU_CSARS00_P10000.do)
- * 확인일: 2026-08-27
+ * 확인일: 2026-09-03
  *
  * 이 파일은 scripts/new-call-center.ts 가 hanwha-life-loan.json 로 찍어낸다.
  * 손으로 고치지 말고 JSON 을 고친 뒤 다시 돌린다 — 손으로 쓰면 ARS 번호가 틀린다.
@@ -27,8 +27,8 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '한화생명 고객센터 전화번호 1588-6363. 상담시간 상담사연결 : 평일 09:00 ~ 18:00, 야간·공휴일 운영은 공식 안내 표기 기준. 대출 업무별 번호 3개와 상담원 연결 방법까지 2026-08-27 공식 안내 기준.',
-  dateModified: '2026-08-27T09:00:00+09:00',
+    '한화생명 고객센터 전화번호 1588-6363. 상담시간 상담사연결 : 평일 09:00 ~ 18:00, 야간·공휴일 운영은 공식 안내 표기 기준. 대출 업무별 번호 4개와 상담원 연결 방법까지 2026-09-03 공식 안내 기준.',
+  dateModified: '2026-09-03T09:00:00+09:00',
 
   heroHook:
     '한화생명 고객센터 대표번호는 1588-6363, 상담 운영시간은 평일 09:00 ~ 18:00이며 야간·공휴일 운영은 공식 안내에 따로 적혀 있습니다. 밤이나 휴일에 거실 거라면 아래 표에서 그 시간에 받는 번호를 먼저 보세요.',
@@ -37,8 +37,9 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
   keyFacts: {
     '대표번호': '1588-6363 (대표번호 (ARS 1번 보험계약대출))',
     '상담 가능 시간': '상담사연결 : 평일 09:00 ~ 18:00',
-    '야간': '공식 안내에 야간 상담시간 표기 없음',
-    '공휴일': '계약내용 및 해지환급금 조회 24시간',
+    '야간': 'ARS 1588-6363 365일 07:00 ~ 23:30',
+    '공휴일': 'ARS 1588-6363 365일 07:00 ~ 23:30',
+    '방문 접수': '고객센터 방문신청 평일 09:00 ~ 15:30',
     '상담원 연결': 'ARS 안내에서 상담원 연결 선택',
     '본사': '서울특별시 영등포구 63로 50(여의도동, 63 한화생명빌딩)',
     '통화료': '통화료는 발신자 요금제 기준으로 부과됩니다.',
@@ -53,13 +54,13 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '한화생명 고객센터 전화번호 몇 번인가요?', anchor: 'q1',
       intro:
-        '대표번호는 1588-6363입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-08-27 기준 공식 안내에 올라와 있는 번호는 아래 3개입니다.',
+        '대표번호는 1588-6363입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-09-03 기준 공식 안내에 올라와 있는 번호는 아래 4개입니다.',
       highlights: ['1588-6363', '대표번호', '전용번호'],
       table: {
         headers: ['구분', '번호', '비고'],
-        rows: [['대표번호 (ARS 1번 보험계약대출)', '1588-6363', '대출 문의는 ARS 에서 1번을 누른다'], ['시니어전용상담', '1544-6382', '-'], ['해외&일반', '82-2-2169-0700', '-']],
+        rows: [['대표번호 (ARS 1번 보험계약대출)', '1588-6363', '대출 문의는 ARS 에서 1번을 누른다'], ['대출상담', '1599-6363', '대출 상품 페이지 안내 번호'], ['시니어전용상담', '1544-6382', '-'], ['해외&일반', '82-2-2169-0700', '-']],
       },
-      sourceNote: '* 출처: 한화생명 콜센터ARS안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: 한화생명 콜센터ARS안내 (2026-09-03 확인)',
     },
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
@@ -74,22 +75,22 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
         label: '대기를 줄이는 법',
         content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 주민번호와 대출 계좌번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
-      sourceNote: '* 출처: 한화생명 콜센터ARS안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: 한화생명 콜센터ARS안내 (2026-09-03 확인)',
     },
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
-        '상담원 상담은 평일 09:00 ~ 18:00입니다. 계약내용 및 해지환급금 조회 24시간은 따로 안내돼 있습니다. 다만 이 시간에 상담원 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 평일 09:00 ~ 18:00 안에 거시는 편이 확실합니다.',
-      highlights: ['상담사연결 : 평일 09:00 ~ 18:00', '공식 안내에 야간 상담시간 표기 없음', '계약내용 및 해지환급금 조회 24시간'],
+        '상담원 상담은 평일 09:00 ~ 18:00입니다. ARS 1588-6363 365일 07:00 ~ 23:30은 따로 안내돼 있습니다. 다만 이 시간에 상담원 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 평일 09:00 ~ 18:00 안에 거시는 편이 확실합니다. 고객센터에 직접 가서 접수하실 거라면 평일 09:00 ~ 15:30까지라 전화보다 일찍 닫힙니다.',
+      highlights: ['상담사연결 : 평일 09:00 ~ 18:00', 'ARS 1588-6363 365일 07:00 ~ 23:30'],
       table: {
-        headers: ['번호', '야간·휴일 (공식 안내에 야간 상담시간 표기 없음 / 계약내용 및 해지환급금 조회 24시간)'],
+        headers: ['번호', '야간·휴일 (ARS 1588-6363 365일 07:00 ~ 23:30)'],
         rows: [],
       },
       box: {
         label: '통화료',
         content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
-      sourceNote: '* 출처: 한화생명 콜센터ARS안내 (2026-08-27 확인)',
+      sourceNote: '* 출처: 한화생명 콜센터ARS안내 (2026-09-03 확인)',
     },
     {
       q: '한화생명 고객센터 위치는 어디인가요?', anchor: 'q4',
@@ -101,7 +102,7 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
         label: '가까운 창구 찾아보기',
         url: MAP,
       },
-      sourceNote: '* 출처: 한화생명 사업자 정보 (2026-08-27 확인)',
+      sourceNote: '* 출처: 한화생명 사업자 정보 (2026-09-03 확인)',
     },
     {
       q: '다른 금융사 대출 번호도 필요한데요', anchor: 'q5',
@@ -120,7 +121,7 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
   faqData: [
     {
       q: '한화생명 고객센터 전화번호는 몇 번인가요?',
-      a: '대표번호는 1588-6363입니다. (2026-08-27 확인 기준)',
+      a: '대표번호는 1588-6363입니다. (2026-09-03 확인 기준)',
       source: '한화생명 콜센터ARS안내',
       sourceUrl: 'https://www.hanwhalife.com/main/customerCenter/callCenterArs/CU_CSARS00_P10000.do',
     },
@@ -132,7 +133,7 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '상담원 상담은 평일 09:00 ~ 18:00입니다. 계약내용 및 해지환급금 조회 24시간은 따로 안내돼 있습니다.',
+      a: '상담원 상담은 평일 09:00 ~ 18:00입니다. ARS 1588-6363 365일 07:00 ~ 23:30은 따로 안내돼 있습니다.',
       source: '한화생명 콜센터ARS안내',
       sourceUrl: 'https://www.hanwhalife.com/main/customerCenter/callCenterArs/CU_CSARS00_P10000.do',
     },
@@ -164,6 +165,7 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
 
   sources: [
     { name: '한화생명 콜센터ARS안내', url: 'https://www.hanwhalife.com/main/customerCenter/callCenterArs/CU_CSARS00_P10000.do' },
+    { name: '한화생명 보험계약대출(약관대출) 이용방법', url: 'https://www.hanwhalife.com/main/finance/loan/product/FN_LNTGD000_P20000.do?catecode=LD030000&prodNm=%ED%95%9C%ED%99%94%EC%83%9D%EB%AA%85%20%EB%B3%B4%ED%97%98%EA%B3%84%EC%95%BD%EB%8C%80%EC%B6%9C%20:%20%EC%95%BD%EA%B4%80%EB%8C%80%EC%B6%9C' },
     { name: '한화생명 공식 홈페이지', url: OFFICIAL },
   ],
 
@@ -177,18 +179,19 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
     "official": "https://www.hanwhalife.com",
     "sourceUrl": "https://www.hanwhalife.com/main/customerCenter/callCenterArs/CU_CSARS00_P10000.do",
     "sourceName": "한화생명 콜센터ARS안내",
-    "verifiedAt": "2026-08-27",
+    "verifiedAt": "2026-09-03",
     "main": {
       "label": "대표번호 (ARS 1번 보험계약대출)",
       "tel": "1588-6363"
     },
     "hours": {
       "weekday": "상담사연결 : 평일 09:00 ~ 18:00",
-      "night": "공식 안내에 야간 상담시간 표기 없음",
-      "holiday": "계약내용 및 해지환급금 조회 24시간",
+      "night": "ARS 1588-6363 365일 07:00 ~ 23:30",
+      "holiday": "ARS 1588-6363 365일 07:00 ~ 23:30",
+      "visit": "고객센터 방문신청 평일 09:00 ~ 15:30",
       "lunch": "공식 안내에 점심 휴무 표기 없음"
     },
-    "offhourNote": "계약내용 및 해지환급금 조회 24시간은 따로 안내돼 있습니다. 대출 상담은 영업시간 안에 거는 편이 빠릅니다.",
+    "offhourNote": "ARS 1588-6363 365일 07:00 ~ 23:30은 따로 안내돼 있습니다. 대출 상담은 영업시간 안에 거는 편이 빠릅니다.",
     "word": "금융사",
     "hubWord": "대출 고객센터",
     "agentWord": "상담원",
@@ -212,6 +215,11 @@ export const hanwhaLifeLoanCallCenterSpokeContent: SpokeData = {
         "label": "대표번호 (ARS 1번 보험계약대출)",
         "tel": "1588-6363",
         "note": "대출 문의는 ARS 에서 1번을 누른다"
+      },
+      {
+        "label": "대출상담",
+        "tel": "1599-6363",
+        "note": "대출 상품 페이지 안내 번호"
       },
       {
         "label": "시니어전용상담",

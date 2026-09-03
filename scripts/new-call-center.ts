@@ -70,6 +70,17 @@ if (!srcHost.endsWith(officialHost))
   die(`sourceUrl 이 공식 도메인이 아니다: ${srcHost} (공식 ${officialHost})
    블로그·언론은 1차 출처가 아니다.`);
 
+/* 시간·번호가 출처 페이지 하나에 다 있지 않은 회사가 있다 (2026-09-03 한화생명 대출 —
+   ARS 안내 페이지엔 상담원 시간, 대출 상품 페이지엔 ARS 365일·방문 시간·대출상담 번호).
+   두 번째 출처도 공식 도메인이어야 하고, 추출본(capture-source.ts)에 같이 떠 있어야 한다. */
+const EXTRA = (C.extraSources ?? []) as { name: string; url: string }[];
+for (const x of EXTRA) {
+  if (!hostOf(x.url).endsWith(officialHost)) die(`extraSources 가 공식 도메인이 아니다: ${x.url}`);
+  if (!src.includes(x.url.replace(/\s+/g, ''))) die(`extraSources 가 추출본에 없다 — capture-source.ts 로 먼저 떠라: ${x.url}`);
+}
+const EXTRA_SOURCES = EXTRA.map((x) => `
+    { name: '${x.name.replace(/'/g, "\\'")}', url: '${x.url}' },`).join('');
+
 // ② ARS 메뉴 문구가 추출본에 있는가
 const arsAll = [...(C.ars.day ?? []), ...(C.ars.night ?? [])] as any[];
 const arsMissing = arsAll.filter((a) => !src.includes(String(a.what).replace(/\s+/g, '')));
@@ -426,9 +437,13 @@ const CARD_FACTS = [
   `    '분실신고': '${lostNum ? `${lostNum.tel} (${q(lostNum.label)})` : '공식 안내에 분실신고 전용번호 표기 없음 — 대표번호로 접수'}',`,
   `    '해외이용': '${abroadNum ? `${abroadNum.tel} (${q(abroadNum.label)})` : '공식 안내에 해외 전용번호 표기 없음'}',`,
 ].join(NL);
+/* 방문 접수 시간을 따로 적어 둔 회사가 있다 (2026-09-03 한화생명 대출 — 평일 09:00 ~ 15:30).
+   전화보다 일찍 닫히는 시간이라 빠뜨리면 헛걸음이 난다. 있을 때만 한 줄 더 쓴다. */
+const VISIT = C.hours.visit ? hoursText(C.hours.visit) : '';
 const NIGHT_FACTS = [
   `    '야간': '${q(C.hours.night)}',`,
   `    '공휴일': '${q(C.hours.holiday)}',`,
+  ...(VISIT ? [`    '방문 접수': '${q(C.hours.visit)}',`] : []),
 ].join(NL);
 const MID_FACTS = C.industry === 'card' ? CARD_FACTS : NIGHT_FACTS;
 
@@ -454,13 +469,14 @@ const HOOK_TIME = NO_HOURS
   ? `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, 그 밖의 시간에는 ${IND.agent} 연결이 안 됩니다.`
   : `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`;
 
-const Q3_INTRO = NO_HOURS
+const VISIT_TXT = VISIT ? ` 고객센터에 직접 가서 접수하실 거라면 ${timeSpan(VISIT) || VISIT}까지라 전화보다 일찍 닫힙니다.` : '';
+const Q3_INTRO = (NO_HOURS
   ? `${C.name} 공식 안내에는 ${IND.agent} 상담 가능 시간이 표기돼 있지 않습니다. 다른 곳에서 본 시간을 옮겨 적으면 헛걸음이 되므로, 여기서는 없는 시간을 만들어 쓰지 않습니다. 대표번호로 걸어 ARS 안내를 듣는 편이 가장 확실합니다.`
   : OFF_OPEN
   ? `${IND.agent} 상담은 ${HW}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${OFF_TXT}에는 별도 ARS 가 돌아가서 ${IND.offhourLong} 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.`
   : OFF.length > 0
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} 다만 이 시간에 ${IND.agent} 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 ${HW} 안에 거시는 편이 확실합니다.`
-    : `${IND.agent} 상담은 ${HW}입니다. 공식 안내 기준으로 이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다. 야간·공휴일 운영 표기가 따로 없으니, 급한 용건도 ${HW} 안에 거셔야 합니다.`;
+    : `${IND.agent} 상담은 ${HW}입니다. 공식 안내 기준으로 이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다. 야간·공휴일 운영 표기가 따로 없으니, 급한 용건도 ${HW} 안에 거셔야 합니다.`) + VISIT_TXT;
 
 const FAQ_HOURS = NO_HOURS
   ? `${C.name} 공식 안내에는 상담 가능 시간이 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하시는 편이 확실합니다.`
@@ -647,7 +663,7 @@ export const ${exportName}: SpokeData = {
   breadcrumb: '${q(C.name)}${IND.hub === 'loan-call-center' ? ' 대출' : ''} 고객센터',
   description:
     '${q(INTRO_FACT)}. ${q(HERO_TAIL)}',
-  datePublished: '${C.verifiedAt}T09:00:00+09:00',
+  datePublished: '${C.publishedAt ?? C.verifiedAt}T09:00:00+09:00',
   /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
@@ -703,9 +719,9 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
         '${q(Q3_INTRO)}',
-      highlights: ['${q(C.hours.weekday)}', '${q(C.hours.night)}', '${q(C.hours.holiday)}'],
+      highlights: [${[C.hours.weekday, C.hours.night, C.hours.holiday].filter((v, i, a) => a.indexOf(v) === i).map((v) => `'${q(v)}'`).join(', ')}],
       table: {
-        headers: ['번호', '야간·휴일 (${q(C.hours.night)} / ${q(C.hours.holiday)})'],
+        headers: ['번호', '야간·휴일 (${q(C.hours.night === C.hours.holiday ? C.hours.night : `${C.hours.night} / ${C.hours.holiday}`)})'],
         rows: [${arsRow(night)}],
       },
       box: {
@@ -786,7 +802,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
   ],
 
   sources: [
-    { name: '${q(C.sourceName ?? C.name + ' 고객상담센터 안내')}', url: '${C.sourceUrl}' },
+    { name: '${q(C.sourceName ?? C.name + ' 고객상담센터 안내')}', url: '${C.sourceUrl}' },${EXTRA_SOURCES}
     { name: '${q(C.name)} 공식 홈페이지', url: OFFICIAL },
   ],
 

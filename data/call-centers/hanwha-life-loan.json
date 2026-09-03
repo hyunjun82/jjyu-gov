@@ -11,15 +11,17 @@
   "official": "https://www.hanwhalife.com",
   "sourceUrl": "https://www.hanwhalife.com/main/customerCenter/callCenterArs/CU_CSARS00_P10000.do",
   "sourceName": "한화생명 콜센터ARS안내",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "대표번호 (ARS 1번 보험계약대출)",
     "tel": "1588-6363"
   },
   "hours": {
     "weekday": "상담사연결 : 평일 09:00 ~ 18:00",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "계약내용 및 해지환급금 조회 24시간"
+    "night": "ARS 1588-6363 365일 07:00 ~ 23:30",
+    "holiday": "ARS 1588-6363 365일 07:00 ~ 23:30",
+    "visit": "고객센터 방문신청 평일 09:00 ~ 15:30"
   },
   "ars": {
     "day": [
@@ -41,6 +43,11 @@
       "note": "대출 문의는 ARS 에서 1번을 누른다"
     },
     {
+      "label": "대출상담",
+      "tel": "1599-6363",
+      "note": "대출 상품 페이지 안내 번호"
+    },
+    {
       "label": "시니어전용상담",
       "tel": "1544-6382"
     },
@@ -49,5 +56,12 @@
       "tel": "82-2-2169-0700"
     }
   ],
-  "hq": "서울특별시 영등포구 63로 50(여의도동, 63 한화생명빌딩)"
+  "hq": "서울특별시 영등포구 63로 50(여의도동, 63 한화생명빌딩)",
+  "extraSources": [
+    {
+      "name": "한화생명 보험계약대출(약관대출) 이용방법",
+      "url": "https://www.hanwhalife.com/main/finance/loan/product/FN_LNTGD000_P20000.do?catecode=LD030000&prodNm=%ED%95%9C%ED%99%94%EC%83%9D%EB%AA%85%20%EB%B3%B4%ED%97%98%EA%B3%84%EC%95%BD%EB%8C%80%EC%B6%9C%20:%20%EC%95%BD%EA%B4%80%EB%8C%80%EC%B6%9C"
+    }
+  ],
+  "hoursNote": "2026-09-03 사장님 캡처(앱 이용절차) + PC 보험계약대출·주택담보대출 페이지 3곳 교차: 콜센터 평일 09:00~18:00 / ARS 365일 07:00~23:30 / 방문 평일 09:00~15:30. 대출상담 1599-6363 은 대출 페이지 퀵메뉴 2곳에서 확인."
 }
