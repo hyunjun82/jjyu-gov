@@ -8,20 +8,43 @@
   "industry": "loan",
   "brandColor": "#F60",
   "official": "https://capital.miraeasset.com",
-  "sourceUrl": "https://capital.miraeasset.com/ib20/mnu/BCWCUCN010200",
-  "sourceName": "미래에셋캐피탈 고객상담 안내 페이지",
-  "verifiedAt": "2026-08-27",
+  "sourceUrl": "https://capital.miraeasset.com/ib20/mnu/BCWCUCN010500",
+  "sourceName": "미래에셋캐피탈 ARS 안내",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "고객센터",
     "tel": "1811-6800"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "weekday": "상담가능시간 : 08:30~18:00",
     "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음",
+    "lunch": "점심시간(11:30~13:00) 에는 상담 연결이 어렵습니다."
   },
   "ars": {
-    "day": [],
+    "day": [
+      {
+        "key": "1",
+        "what": "보이스피싱 및 금융사기 신고"
+      },
+      {
+        "key": "2",
+        "what": "자동차금융(오토리스/오토할부/오토론)"
+      },
+      {
+        "key": "3",
+        "what": "부동산 관련대출(임대차보증금대출/중도금대출)"
+      },
+      {
+        "key": "4",
+        "what": "스탁론 및 주식담보대출"
+      },
+      {
+        "key": "5",
+        "what": "신용대출(개인/사업자)"
+      }
+    ],
     "night": []
   },
   "numbers": [
@@ -32,5 +55,5 @@
     }
   ],
   "hq": "서울특별시 중구 을지로5길 26",
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] ARS 안내 페이지: 상담가능시간 08:30~18:00, 점심시간(11:30~13:00) 연결 어려움, 13~15시 지연. ARS 1~5번(3번 부동산 관련대출, 5번 신용대출)."
 }

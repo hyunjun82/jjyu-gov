@@ -8,28 +8,55 @@
   "industry": "loan",
   "brandColor": "#DA291C",
   "official": "https://www.lottecap.com",
-  "sourceUrl": "https://www.lottecap.com/loan/loanMain.do",
-  "sourceName": "롯데캐피탈 대출 안내 페이지 상담전화",
-  "verifiedAt": "2026-08-27",
+  "sourceUrl": "https://www.lottecap.com/cc/as/CCAS00100",
+  "sourceName": "롯데캐피탈 고객센터 ARS 서비스",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
-    "label": "일반상담전화 (대출 안내 페이지 기준)",
+    "label": "종합상담",
     "tel": "1577-7700"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "weekday": "평일 (09:00 ~ 18:00)",
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
   "ars": {
-    "day": [],
+    "day": [
+      {
+        "key": "1",
+        "what": "개인신용, 자동차담보, 전세자금 대출 안내"
+      },
+      {
+        "key": "2",
+        "what": "리스/할부금융 회원 안내"
+      }
+    ],
     "night": []
   },
   "numbers": [
     {
-      "label": "일반상담전화 (대출 안내 페이지 기준)",
+      "label": "종합상담",
       "tel": "1577-7700",
-      "note": "대출 문의도 이 번호다"
+      "note": "ARS 1번 개인신용, 자동차담보, 전세자금 대출 안내"
+    },
+    {
+      "label": "추가대출 / 신규대출 문의",
+      "tel": "1577-4400",
+      "note": "상품안내"
+    },
+    {
+      "label": "자동차 대출 문의",
+      "tel": "1899-4400"
+    },
+    {
+      "label": "결제 / 미납 관련 안내",
+      "tel": "1577-8338"
+    },
+    {
+      "label": "채무조정 안내번호 전용",
+      "tel": "1577-2374"
     }
   ],
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] ARS 서비스 페이지: 상담원 연결가능 시간 본사 평일 (09:00 ~ 18:00). 빠른 서비스 번호 4개·ARS 1번 대출 안내."
 }

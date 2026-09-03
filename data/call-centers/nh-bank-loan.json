@@ -11,15 +11,16 @@
   "official": "https://banking.nonghyup.com",
   "sourceUrl": "https://banking.nonghyup.com/nhbank/loan/loan.jsp",
   "sourceName": "NH농협은행 대출 안내 페이지 고객센터",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "농협은행 전용",
     "tel": "1661-3000"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": "평일 09시 ~ 18시",
+    "night": "분실신고 365일 24시간 가능",
+    "holiday": "공휴일 제외"
   },
   "ars": {
     "day": [],
@@ -42,5 +43,11 @@
       "note": "지역 농·축협은 창구가 다르다"
     }
   ],
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] 고객센터 페이지: 농협은행 대표번호 1661-3000 상담시간 평일 09시 ~ 18시 (공휴일 제외), 분실신고 365일 24시간 가능. 대출 번호 = 대표번호.",
+  "extraSources": [
+    {
+      "name": "NH농협은행 고객센터 (ARS 고객행복센터)",
+      "url": "https://banking.nonghyup.com/servlet/content/ip/ec/IPEC0001M.thtml"
+    }
+  ]
 }

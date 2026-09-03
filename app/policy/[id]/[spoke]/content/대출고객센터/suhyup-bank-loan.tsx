@@ -2,7 +2,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-suhyup-bank-loan-call-center.txt
  * 1차 출처: Sh수협은행 대출 안내 페이지 고객지원 (https://www.suhyup-bank.com/ib20/mnu/PBM01708)
- * 확인일: 2026-08-27
+ * 확인일: 2026-09-03
  *
  * 이 파일은 scripts/new-call-center.ts 가 suhyup-bank-loan.json 로 찍어낸다.
  * 손으로 고치지 말고 JSON 을 고친 뒤 다시 돌린다 — 손으로 쓰면 ARS 번호가 틀린다.
@@ -27,8 +27,8 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    'Sh수협은행 고객센터 전화번호 1588-1515. 상담시간 공식 안내에 대출 상담시간 표기 없음, 공식 안내에 상담 가능 시간 표기 없음. 대출 업무별 번호 3개와 상담원 연결 방법까지 2026-08-27 공식 안내 기준.',
-  dateModified: '2026-08-27T09:00:00+09:00',
+    'Sh수협은행 고객센터 전화번호 1588-1515. 상담시간 공식 안내에 대출 상담시간 표기 없음, 공식 안내에 상담 가능 시간 표기 없음. 대출 업무별 번호 3개와 상담원 연결 방법까지 2026-09-03 공식 안내 기준.',
+  dateModified: '2026-09-03T09:00:00+09:00',
 
   heroHook:
     'Sh수협은행 고객센터 대표번호는 1588-1515입니다. 공식 안내에 상담 가능 시간이 따로 표기돼 있지 않습니다. 대표번호로 걸면 돌아가는 용건이 있습니다. 아래에서 해당 번호를 먼저 찾으세요.',
@@ -39,7 +39,7 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
     '상담 가능 시간': '공식 안내에 대출 상담시간 표기 없음',
     '야간': '공식 안내에 야간 상담시간 표기 없음',
     '공휴일': '공식 안내에 공휴일 상담시간 표기 없음',
-    '상담원 연결': '공식 안내에 ARS 단축번호 미공개',
+    '상담원 연결': 'ARS 안내에서 상담원 연결 선택',
     '통화료': '통화료는 발신자 요금제 기준으로 부과됩니다.',
   },
   keyFactsHighlights: {
@@ -52,28 +52,28 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
     {
       q: 'Sh수협은행 고객센터 전화번호 몇 번인가요?', anchor: 'q1',
       intro:
-        '대표번호는 1588-1515입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-08-27 기준 공식 안내에 올라와 있는 번호는 아래 3개입니다.',
+        '대표번호는 1588-1515입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-09-03 기준 공식 안내에 올라와 있는 번호는 아래 3개입니다.',
       highlights: ['1588-1515', '대표번호', '전용번호'],
       table: {
         headers: ['구분', '번호', '비고'],
         rows: [['고객지원 (대출 안내 페이지 기준)', '1588-1515', '대출 문의도 이 번호다'], ['고객지원 (다른 국번)', '1644-1515', '같은 창구'], ['공제보험', '1588-4119', '대출이 아닌 공제보험']],
       },
-      sourceNote: '* 출처: Sh수협은행 대출 안내 페이지 고객지원 (2026-08-27 확인)',
+      sourceNote: '* 출처: Sh수협은행 대출 안내 페이지 고객지원 (2026-09-03 확인)',
     },
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        'Sh수협은행 공식 안내는 상담원 연결 항목을 번호와 함께 표기하지 않습니다. 안내 음성을 끝까지 듣고 상담원 연결 항목을 고르시면 됩니다. 다만 이건 공식 안내에 대출 상담시간 표기 없음에만 됩니다. 그 시간을 벗어나면 상담원 연결 항목 자체가 없고 접수·조회 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        'Sh수협은행 공식 ARS 안내에 항목별 번호가 있습니다. 용건에 맞는 번호를 누르면 그 창구로 가고, 없으면 안내 음성에서 상담원 연결 항목을 고르시면 됩니다. 상담원 연결이 되는 시간은 공식 안내에 적혀 있지 않습니다. 통화 전 홈페이지에서 한 번 확인하시는 편이 낫습니다.',
       highlights: ['상담원 연결', '공식 안내에 대출 상담시간 표기 없음'],
       table: {
-        headers: ['번호', '평일 주간 (공식 안내에 대출 상담시간 표기 없음)'],
-        rows: [],
+        headers: ['번호', '평일 주간'],
+        rows: [['04번', '대출 조회 및 상담'], ['08번', '중도금대출관련 상담'], ['09번', '분실 및 사고신고 상담']],
       },
       box: {
         label: '대기를 줄이는 법',
         content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 주민번호와 대출 계좌번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
-      sourceNote: '* 출처: Sh수협은행 대출 안내 페이지 고객지원 (2026-08-27 확인)',
+      sourceNote: '* 출처: Sh수협은행 대출 안내 페이지 고객지원 (2026-09-03 확인)',
     },
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
@@ -88,7 +88,7 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
         label: '통화료',
         content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
-      sourceNote: '* 출처: Sh수협은행 대출 안내 페이지 고객지원 (2026-08-27 확인)',
+      sourceNote: '* 출처: Sh수협은행 대출 안내 페이지 고객지원 (2026-09-03 확인)',
     },
     {
       q: 'Sh수협은행 고객센터 위치는 어디인가요?', anchor: 'q4',
@@ -100,7 +100,7 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
         label: '지도에서 위치 보기',
         url: MAP,
       },
-      sourceNote: '* 출처: Sh수협은행 사업자 정보 (2026-08-27 확인)',
+      sourceNote: '* 출처: Sh수협은행 사업자 정보 (2026-09-03 확인)',
     },
     {
       q: '다른 금융사 대출 번호도 필요한데요', anchor: 'q5',
@@ -119,13 +119,13 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
   faqData: [
     {
       q: 'Sh수협은행 고객센터 전화번호는 몇 번인가요?',
-      a: '대표번호는 1588-1515입니다. (2026-08-27 확인 기준)',
+      a: '대표번호는 1588-1515입니다. (2026-09-03 확인 기준)',
       source: 'Sh수협은행 대출 안내 페이지 고객지원',
       sourceUrl: 'https://www.suhyup-bank.com/ib20/mnu/PBM01708',
     },
     {
       q: '상담원과 바로 통화하려면 어떻게 하나요?',
-      a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담원 연결 항목을 고르세요. 공식 안내에 대출 상담시간 표기 없음에만 가능합니다.',
+      a: '공식 ARS 안내의 항목별 번호를 누르면 해당 창구로 연결됩니다. 위 표에 정리해 뒀습니다. 공식 안내에 대출 상담시간 표기 없음에만 가능합니다.',
       source: 'Sh수협은행 대출 안내 페이지 고객지원',
       sourceUrl: 'https://www.suhyup-bank.com/ib20/mnu/PBM01708',
     },
@@ -163,6 +163,7 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
 
   sources: [
     { name: 'Sh수협은행 대출 안내 페이지 고객지원', url: 'https://www.suhyup-bank.com/ib20/mnu/PBM01708' },
+    { name: '수협 텔레뱅킹 ARS 구성도', url: 'https://www.suhyup-bank.com/ib20/mnu/PBM00976' },
     { name: 'Sh수협은행 공식 홈페이지', url: OFFICIAL },
   ],
 
@@ -176,7 +177,7 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
     "official": "https://www.suhyup-bank.com",
     "sourceUrl": "https://www.suhyup-bank.com/ib20/mnu/PBM01708",
     "sourceName": "Sh수협은행 대출 안내 페이지 고객지원",
-    "verifiedAt": "2026-08-27",
+    "verifiedAt": "2026-09-03",
     "main": {
       "label": "고객지원 (대출 안내 페이지 기준)",
       "tel": "1588-1515"
@@ -194,7 +195,20 @@ export const suhyupBankLoanCallCenterSpokeContent: SpokeData = {
     "offhourWord": "접수·조회",
     "idStep": "주민번호와 대출 계좌번호",
     "ars": {
-      "day": [],
+      "day": [
+        {
+          "key": "04",
+          "what": "대출 조회 및 상담"
+        },
+        {
+          "key": "08",
+          "what": "중도금대출관련 상담"
+        },
+        {
+          "key": "09",
+          "what": "분실 및 사고신고 상담"
+        }
+      ],
       "night": []
     },
     "numbers": [

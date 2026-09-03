@@ -8,20 +8,34 @@
   "industry": "loan",
   "brandColor": "#E4002B",
   "official": "https://www.meritzcapital.com",
-  "sourceUrl": "https://www.meritzcapital.com/cs/cs01010101V",
-  "sourceName": "메리츠캐피탈 고객센터 안내 페이지",
-  "verifiedAt": "2026-08-27",
+  "sourceUrl": "https://www.meritzcapital.com/cs/cs01010135V",
+  "sourceName": "메리츠캐피탈 ARS안내 (콜트리 이미지)",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "고객센터",
     "tel": "1588-9666"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "weekday": "월~금 09:00~18:00 (토·일 및 공휴일 제외)",
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
   "ars": {
-    "day": [],
+    "day": [
+      {
+        "key": "4",
+        "what": "신규대출상담"
+      },
+      {
+        "key": "2",
+        "what": "기존고객"
+      },
+      {
+        "key": "1",
+        "what": "고령소비자상담"
+      }
+    ],
     "night": []
   },
   "numbers": [
@@ -32,5 +46,5 @@
     }
   ],
   "hq": "서울특별시 영등포구 국제금융로 10 Three IFC 23층",
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] ARS안내 페이지는 콜트리가 이미지(ars_call_tree.PNG)다. 캡처를 눈으로 읽어 옮겼다: 상담사 연결 가능시간 월~금 09:00~18:00 (토·일 및 공휴일 제외), 4번 신규대출상담."
 }

@@ -2,7 +2,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-hyundai-commercial-loan-call-center.txt
  * 1차 출처: 현대커머셜 공식 홈페이지 금융상담 (https://www.hyundaicommercial.com/)
- * 확인일: 2026-08-27
+ * 확인일: 2026-09-03
  *
  * 이 파일은 scripts/new-call-center.ts 가 hyundai-commercial-loan.json 로 찍어낸다.
  * 손으로 고치지 말고 JSON 을 고친 뒤 다시 돌린다 — 손으로 쓰면 ARS 번호가 틀린다.
@@ -27,8 +27,8 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '현대커머셜 고객센터 전화번호 1899-0303. 상담시간 공식 안내에 대출 상담시간 표기 없음, 공식 안내에 상담 가능 시간 표기 없음. 대출 업무별 번호 2개와 상담원 연결 방법까지 2026-08-27 공식 안내 기준.',
-  dateModified: '2026-08-27T09:00:00+09:00',
+    '현대커머셜 고객센터 전화번호 1899-0303. 상담시간 공식 안내에 대출 상담시간 표기 없음, 공식 안내에 상담 가능 시간 표기 없음. 대출 업무별 번호 2개와 상담원 연결 방법까지 2026-09-03 공식 안내 기준.',
+  dateModified: '2026-09-03T09:00:00+09:00',
 
   heroHook:
     '현대커머셜 고객센터 대표번호는 1899-0303입니다. 공식 안내에 상담 가능 시간이 따로 표기돼 있지 않습니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결됩니다.',
@@ -52,13 +52,13 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '현대커머셜 고객센터 전화번호 몇 번인가요?', anchor: 'q1',
       intro:
-        '대표번호는 1899-0303입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-08-27 기준 공식 안내에 올라와 있는 번호는 아래 2개입니다.',
+        '대표번호는 1899-0303입니다. 대출 상담, 만기연장, 중도상환, 금리 문의까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. 2026-09-03 기준 공식 안내에 올라와 있는 번호는 아래 2개입니다.',
       highlights: ['1899-0303', '대표번호', '전용번호'],
       table: {
         headers: ['구분', '번호', '비고'],
-        rows: [['금융상담', '1899-0303', '기업금융상담·한도상담'], ['대표문의', '1577-5200', '서류발급·할부상담·리스상담']],
+        rows: [['금융상담', '1899-0303', '기업금융상담·한도상담'], ['대표문의', '1577-5200', '상담시간 : 평일 9:00 ~ 18:00 (주말 · 공휴일 휴무) · ARS 4번 기업금융상담 상담원 연결']],
       },
-      sourceNote: '* 출처: 현대커머셜 공식 홈페이지 금융상담 (2026-08-27 확인)',
+      sourceNote: '* 출처: 현대커머셜 공식 홈페이지 금융상담 (2026-09-03 확인)',
     },
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
@@ -73,7 +73,7 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
         label: '대기를 줄이는 법',
         content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, 주민번호와 대출 계좌번호를 미리 꺼내 두는 편이 빠릅니다.',
       },
-      sourceNote: '* 출처: 현대커머셜 공식 홈페이지 금융상담 (2026-08-27 확인)',
+      sourceNote: '* 출처: 현대커머셜 공식 홈페이지 금융상담 (2026-09-03 확인)',
     },
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
@@ -88,7 +88,7 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
         label: '통화료',
         content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
-      sourceNote: '* 출처: 현대커머셜 공식 홈페이지 금융상담 (2026-08-27 확인)',
+      sourceNote: '* 출처: 현대커머셜 공식 홈페이지 금융상담 (2026-09-03 확인)',
     },
     {
       q: '현대커머셜 고객센터 위치는 어디인가요?', anchor: 'q4',
@@ -100,7 +100,7 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
         label: '가까운 지점 찾기',
         url: MAP,
       },
-      sourceNote: '* 출처: 현대커머셜 사업자 정보 (2026-08-27 확인)',
+      sourceNote: '* 출처: 현대커머셜 사업자 정보 (2026-09-03 확인)',
     },
     {
       q: '다른 금융사 대출 번호도 필요한데요', anchor: 'q5',
@@ -119,7 +119,7 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
   faqData: [
     {
       q: '현대커머셜 고객센터 전화번호는 몇 번인가요?',
-      a: '대표번호는 1899-0303입니다. (2026-08-27 확인 기준)',
+      a: '대표번호는 1899-0303입니다. (2026-09-03 확인 기준)',
       source: '현대커머셜 공식 홈페이지 금융상담',
       sourceUrl: 'https://www.hyundaicommercial.com/',
     },
@@ -163,6 +163,7 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
 
   sources: [
     { name: '현대커머셜 공식 홈페이지 금융상담', url: 'https://www.hyundaicommercial.com/' },
+    { name: '현대커머셜 ARS 상담 안내', url: 'https://www.hyundaicommercial.com/cmc/cc/CMCCC0301.hc' },
     { name: '현대커머셜 공식 홈페이지', url: OFFICIAL },
   ],
 
@@ -176,7 +177,7 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
     "official": "https://www.hyundaicommercial.com",
     "sourceUrl": "https://www.hyundaicommercial.com/",
     "sourceName": "현대커머셜 공식 홈페이지 금융상담",
-    "verifiedAt": "2026-08-27",
+    "verifiedAt": "2026-09-03",
     "main": {
       "label": "금융상담",
       "tel": "1899-0303"
@@ -206,7 +207,7 @@ export const hyundaiCommercialLoanCallCenterSpokeContent: SpokeData = {
       {
         "label": "대표문의",
         "tel": "1577-5200",
-        "note": "서류발급·할부상담·리스상담"
+        "note": "상담시간 : 평일 9:00 ~ 18:00 (주말 · 공휴일 휴무) · ARS 4번 기업금융상담 상담원 연결"
       }
     ]
   },

@@ -11,7 +11,8 @@
   "official": "https://www.suhyup-bank.com",
   "sourceUrl": "https://www.suhyup-bank.com/ib20/mnu/PBM01708",
   "sourceName": "Sh수협은행 대출 안내 페이지 고객지원",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "고객지원 (대출 안내 페이지 기준)",
     "tel": "1588-1515"
@@ -21,9 +22,22 @@
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "hoursNote": "[2026-09-03] 고객센터·ARS 구성도 어디에도 상담시간 없음. ARS 구성도에서 상담원 연결 코드(04 대출 조회 및 상담, 08 중도금대출)만 잡았다.",
   "ars": {
-    "day": [],
+    "day": [
+      {
+        "key": "04",
+        "what": "대출 조회 및 상담"
+      },
+      {
+        "key": "08",
+        "what": "중도금대출관련 상담"
+      },
+      {
+        "key": "09",
+        "what": "분실 및 사고신고 상담"
+      }
+    ],
     "night": []
   },
   "numbers": [
@@ -41,6 +55,12 @@
       "label": "공제보험",
       "tel": "1588-4119",
       "note": "대출이 아닌 공제보험"
+    }
+  ],
+  "extraSources": [
+    {
+      "name": "수협 텔레뱅킹 ARS 구성도",
+      "url": "https://www.suhyup-bank.com/ib20/mnu/PBM00976"
     }
   ]
 }

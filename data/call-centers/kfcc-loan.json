@@ -10,15 +10,16 @@
   "official": "https://www.kfcc.co.kr",
   "sourceUrl": "https://www.kfcc.co.kr/",
   "sourceName": "새마을금고 공식 홈페이지 금융문의",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "금융문의",
     "tel": "1599-9000"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": "AM 9:00 ~ PM 6:00",
+    "night": "사고신고 24시간 연중무휴 접수",
+    "holiday": "사고신고 24시간 연중무휴 접수"
   },
   "ars": {
     "day": [],
@@ -41,5 +42,11 @@
       "note": "대출이 아닌 공제"
     }
   ],
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] 고객센터 페이지: 고객센터 대표전화 국내 1588-8801, 1599-9000 — 상담시간 AM 9:00 ~ PM 6:00, 사고신고 24시간 연중무휴 접수. 대출 번호 = 대표전화.",
+  "extraSources": [
+    {
+      "name": "MG새마을금고 고객센터",
+      "url": "https://www.kfcc.co.kr/customer/customerservice.do"
+    }
+  ]
 }

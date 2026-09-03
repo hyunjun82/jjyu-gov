@@ -313,7 +313,6 @@ if (lunchInSrc && !C.hours.lunch) {
   die('원문에 점심시간 언급이 있다. data/call-centers/' + C.slug + '.json 의 hours.lunch 에 원문 그대로 적고 다시 돌려라.');
 }
 const LUNCH = C.hours.lunch ?? '공식 안내에 점심 휴무 표기 없음';
-
 /* 조사·시간문구 — 값이 회사마다 달라서 문장에 그대로 박으면 반드시 틀어진다. (2026-08-26)
    전에는 "${hours.night}과 ${hours.holiday}에는 ${offhour} 위주로 돌아갑니다" 한 틀로 찍었다.
    50편 전부에서 터졌다: "상담 불가과", "상담원가 받고", "18시 ~ 09시과",
@@ -353,13 +352,24 @@ const HW = (() => {
    시각이 하나도 없으면 "이 시간을 벗어나면" 같은 말이 성립하지 않는다.
    경쟁사는 이런 곳에 임의로 09:00-18:00 을 적는다 — 그게 제일 위험하다. */
 const NO_HOURS = !/[0-9]/.test(HW);
+/* FAQ "점심시간에도 상담이 되나요?" 가 lunch 값을 안 보고 "휴무 표기가 없습니다" 로 고정돼 있었다 (2026-09-03 미래에셋캐피탈).
+   원문에 점심 안내가 있으면 그 문장을 그대로 답으로 쓴다. 시간 표기가 없는 회사는 시간 이야기를 꺼내지 않는다. */
+const lunchRaw = String(C.hours.lunch ?? '').trim();
+const LUNCH_FAQ = lunchRaw
+  ? `${C.name} 공식 안내에 점심시간이 따로 적혀 있습니다 — "${lunchRaw.replace(/[.]$/, '')}". 급한 용건이 아니면 그 시간은 피해서 거는 편이 낫습니다.`
+  : NO_HOURS
+  ? `${C.name} 공식 안내에는 상담 가능 시간도, 점심시간 휴무도 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하시는 편이 확실합니다.`
+  : `${C.name} 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 ${HW}${josa(HW, '으로')} 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 ${IND.agent} 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.`;
 const closedHours = (v: string) => /불가|휴무|미운영|운영하지|받지\s*않|하지\s*않|쉽니다/.test(v);
 /* "토, 공휴일 제외" 처럼 시간이 아니라 단서만 적힌 값이 있다.
    문장에 넣으면 "토, 공휴일 제외에는 주문접수 위주로 돌아갑니다" 가 된다 — 뜻이 뒤집힌다. */
 const noteOnly = (v: string) => !/[0-9]/.test(v);
 /* 조회·납입·이체 시간을 "사고접수 위주" 라고 쓰면 원문에 없는 말을 지어내는 것이다.
    한화생명 야간이 "출금·입금·보험료 납입 07:00 ~ 23:30" 인데 사고접수라고 나갔었다. */
-const nonOffWork = (v: string) => /조회|납입|출금|입금|이체|송금|대체|대출|점검|환급|가입|납부|정보변경/.test(v);
+/* 피싱·신고: 케이뱅크 "보이스피싱, 분실 등 사고신고 24시간", 새마을금고 "사고신고 24시간 연중무휴 접수" 는
+   대출 접수가 아니다. 대출 글에서 이걸 "별도 ARS 가 대출 관련 접수를 받습니다" 로 쓴 게 IBK 에 그대로 나갔다 (2026-09-03). */
+const nonOffWork = (v: string) => /조회|납입|출금|입금|이체|송금|대체|대출|점검|환급|가입|납부|정보변경|피싱/.test(v)
+  || (C.industry === 'loan' && /신고|사고/.test(v));   // 대출 글에서 '사고접수' 는 대출 접수가 아니다 (경남은행 '연중무휴 24시간 사고접수가능')
 /* "365일 24시간" 만으로는 사고접수라 단정할 수 없다 — 건보공단 야간은 디지털ARS·셀프서비스다.
    업무 이름이 값에 실제로 적혀 있을 때만 그 업무라고 쓴다. */
 const offhourish = (v: string) => !nonOffWork(v) && /사고|출동|접수|데스크|주문|긴급/.test(v);
@@ -369,6 +379,10 @@ const OFF: string[] = [];
 for (const v of [hoursText(C.hours.night), hoursText(C.hours.holiday)]) {
   if (v && !closedHours(v) && !noteOnly(v) && !OFF.includes(v)) OFF.push(v);
 }
+/* 공휴일이 주간과 같은 값(케이뱅크 "매일 09:00 ~ 18:00")이면 "따로 안내돼 있다" 고 할 게 없다.
+   야간까지 같으면 아래 ALL_DAY 로 간다 — 그 판정 전에 지우면 안 되니 둘 다 같을 때는 남긴다. */
+const HW_CLEAN = hoursText(C.hours.weekday);
+if (OFF.length === 2 && OFF.includes(HW_CLEAN)) OFF.splice(OFF.indexOf(HW_CLEAN), 1);
 /* 주간=야간=공휴일이 한 값인 회사 — "24시간 365일" (토스뱅크·하나은행 폰뱅킹 상담).
    야간 값을 "따로 안내돼 있습니다" 로 쓰면 같은 말을 두 번 하고,
    "이 시간에 상담원 연결까지 되는지는 공식 안내에 없으니" 는 24시간 상담에 틀린 말이다 (2026-09-03).
@@ -483,6 +497,12 @@ const HOOK_TIME = NO_HOURS
   ? `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, 그 밖의 시간에는 ${IND.agent} 연결이 안 됩니다.`
   : `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`;
 
+/* 시간 표기가 없는 회사에 "다만 이건 공식 안내에 대출 상담시간 표기 없음에만 됩니다" 가 찍혔다 (2026-09-03 수협). */
+const Q2_TIME = NO_HOURS
+  ? `${IND.agent} 연결이 되는 시간은 공식 안내에 적혀 있지 않습니다. 통화 전 홈페이지에서 한 번 확인하시는 편이 낫습니다.`
+  : ALL_DAY
+  ? `${HW} 같은 번호로 받으니 시간을 맞출 필요는 없습니다. 아래는 눌러야 하는 번호를 정리한 것입니다.`
+  : `다만 이건 ${HW}에만 됩니다. 그 시간을 벗어나면 ${IND.agent} 연결 항목 자체가 없고 ${IND.offhour} 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.`;
 const VISIT_TXT = VISIT ? ` 고객센터에 직접 가서 접수하실 거라면 ${timeSpan(VISIT) || VISIT}까지라 전화보다 일찍 닫힙니다.` : '';
 const Q3_INTRO = (NO_HOURS
   ? `${C.name} 공식 안내에는 ${IND.agent} 상담 가능 시간이 표기돼 있지 않습니다. 다른 곳에서 본 시간을 옮겨 적으면 헛걸음이 되므로, 여기서는 없는 시간을 만들어 쓰지 않습니다. 대표번호로 걸어 ARS 안내를 듣는 편이 가장 확실합니다.`
@@ -492,6 +512,8 @@ const Q3_INTRO = (NO_HOURS
   ? `${IND.agent} 상담은 ${HW}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${OFF_TXT}에는 별도 ARS 가 돌아가서 ${IND.offhourLong} 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.`
   : OFF.length > 0
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} 다만 이 시간에 ${IND.agent} 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 ${HW} 안에 거시는 편이 확실합니다.`
+    : night.length > 0
+    ? `${IND.agent} 상담은 ${HW}입니다. 그 시간을 벗어나면 ${IND.agent}은 연결되지 않고, 아래 표의 ARS 항목만 돌아갑니다. 상담이 필요한 용건은 ${HW} 안에 거셔야 합니다.`
     : `${IND.agent} 상담은 ${HW}입니다. 공식 안내 기준으로 이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다. 야간·공휴일 운영 표기가 따로 없으니, 급한 용건도 ${HW} 안에 거셔야 합니다.`) + VISIT_TXT;
 
 const FAQ_HOURS = NO_HOURS
@@ -502,6 +524,8 @@ const FAQ_HOURS = NO_HOURS
   ? `${IND.agent} 상담은 ${HW}입니다. ${OFF_TXT}에는 ${IND.offhour} 중심의 ARS 가 운영됩니다.`
   : OFF.length > 0
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`
+    : night.length > 0
+    ? `${IND.agent} 상담은 ${HW}입니다. 그 밖의 시간에는 ARS 항목(신고·안내)만 돌아가고 ${IND.agent}은 연결되지 않습니다.`
     : `${IND.agent} 상담은 ${HW}입니다. 공식 안내에 야간·공휴일 운영 표기가 없어, 이 시간을 벗어나면 연결되지 않습니다.`;
 
 
@@ -645,12 +669,20 @@ const ARS_META = KEY_OK
   : '';
 const ARS_HOOK = KEY_OK
   ? `다만 그냥 걸면 ARS 안내가 길게 이어져서, ${IND.agent} 목소리를 들으려면 ${AGENT_KEY}번을 눌러야 합니다. `
+  : HAS_ARS
+  ? '다만 그냥 걸면 ARS 안내가 이어지니, 아래 표에서 용건에 맞는 번호를 먼저 보고 누르시는 편이 빠릅니다. '
   : '다만 공식 안내에 ARS 단축번호가 공개돼 있지 않아, 안내 음성을 듣고 해당 항목을 고르셔야 합니다. ';
+/* 메뉴 번호는 있는데 "N번" 표기가 없어 KEY_OK 가 안 서는 회사(수협 ARS 구성도 "04 대출 조회 및 상담").
+   그때 "번호와 함께 표기하지 않습니다" 라고 쓰면 바로 아래 표와 모순이다 (2026-09-03). */
 const ARS_Q2 = KEY_OK
   ? `ARS 안내가 나오면 ${AGENT_KEY}번을 누릅니다. 그러면 순번 대기 후 ${IND.agent}에게 연결됩니다.`
+  : HAS_ARS
+  ? `${q(C.name)} 공식 ARS 안내에 항목별 번호가 있습니다. 용건에 맞는 번호를 누르면 그 창구로 가고, 없으면 안내 음성에서 ${IND.agent} 연결 항목을 고르시면 됩니다.`
   : `${q(C.name)} 공식 안내는 ${IND.agent} 연결 항목을 번호와 함께 표기하지 않습니다. 안내 음성을 끝까지 듣고 ${IND.agent} 연결 항목을 고르시면 됩니다.`;
 const ARS_FAQ = KEY_OK
   ? `ARS 안내에서 ${AGENT_KEY}번을 누르면 순번 대기 후 ${IND.agent}에게 연결됩니다.`
+  : HAS_ARS
+  ? `공식 ARS 안내의 항목별 번호를 누르면 해당 창구로 연결됩니다. 위 표에 정리해 뒀습니다.`
   : `공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 ${IND.agent} 연결 항목을 고르세요.`;
 /* 핵심콕콕의 본사 행 — 주소가 있을 때만 한 줄 만든다.
    출력 문자열 안에 조건문을 그대로 두면 생성된 파일에 코드가 박힌다. */
@@ -721,10 +753,10 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     {
       q: '${q(IND.agent)}${josa(IND.agent, '과')} 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        '${ARS_Q2} 다만 이건 ${q(HW)}에만 됩니다. 그 시간을 벗어나면 ${q(IND.agent)} 연결 항목 자체가 없고 ${q(IND.offhour)} 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        '${ARS_Q2} ${q(Q2_TIME)}',
       highlights: [${ARS_HL}, '${q(C.hours.weekday)}'],
       table: {
-        headers: ['번호', '평일 주간 (${q(C.hours.weekday)})'],
+        headers: ['번호', '${NO_HOURS ? '평일 주간' : `평일 주간 (${q(C.hours.weekday)})`}'],
         rows: [${arsRow(day)}],
       },
       box: {
@@ -801,7 +833,7 @@ ${HQ_FACT}    '통화료': '${q(C.callFee ?? '통화료는 발신자 요금제 �
     },
     {
       q: '점심시간에도 상담이 되나요?',
-      a: '${q(C.name)} 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 ${q(HW)}${josa(HW, '으로')} 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 ${q(IND.agent)} 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
+      a: '${q(LUNCH_FAQ)}',
       source: '${q(C.sourceName ?? C.name)}',
       sourceUrl: '${C.sourceUrl}',
     },

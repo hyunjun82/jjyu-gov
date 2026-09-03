@@ -10,7 +10,8 @@
   "official": "https://www.hyundaicommercial.com",
   "sourceUrl": "https://www.hyundaicommercial.com/",
   "sourceName": "현대커머셜 공식 홈페이지 금융상담",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "금융상담",
     "tel": "1899-0303"
@@ -33,8 +34,14 @@
     {
       "label": "대표문의",
       "tel": "1577-5200",
-      "note": "서류발급·할부상담·리스상담"
+      "note": "상담시간 : 평일 9:00 ~ 18:00 (주말 · 공휴일 휴무) · ARS 4번 기업금융상담 상담원 연결"
     }
   ],
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] ARS 상담 페이지: 고객센터 1577-5200 만 '상담시간 : 평일 9:00 ~ 18:00 (주말 · 공휴일 휴무)'. 금융상담 1899-0303 은 시간 없음 — 대표번호 시간을 옮겨 적지 않는다. 1577-5200 비고에만 적었다.",
+  "extraSources": [
+    {
+      "name": "현대커머셜 ARS 상담 안내",
+      "url": "https://www.hyundaicommercial.com/cmc/cc/CMCCC0301.hc"
+    }
+  ]
 }

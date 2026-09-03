@@ -8,17 +8,18 @@
   "industry": "loan",
   "brandColor": "#003CFF",
   "official": "https://www.kbanknow.com",
-  "sourceUrl": "https://www.kbanknow.com/ib20/mnu/BHP000000021",
-  "sourceName": "케이뱅크 고객센터 안내",
-  "verifiedAt": "2026-08-27",
+  "sourceUrl": "https://www.kbanknow.com/web/customer/support/consult?tab=phone-consult",
+  "sourceName": "케이뱅크 전화상담 안내",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "은행 고객센터",
     "tel": "1522-1000"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": "은행 업무 : 매일 09:00 ~ 18:00",
+    "night": "보이스피싱, 분실 등 사고신고 : 24시간",
+    "holiday": "매일 09:00 ~ 18:00"
   },
   "ars": {
     "day": [],
@@ -36,5 +37,5 @@
       "note": "대출이 아닌 카드 문의"
     }
   ],
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] 전화상담 페이지: 은행업무 및 사고신고 1522-1000 — 은행 업무 매일 09:00 ~ 18:00, 보이스피싱·분실 등 사고신고 24시간. 대출 번호 = 1522-1000. 옛 sourceUrl(ib20/mnu/BHP000000021)은 지금 에러 페이지라 바꿨다."
 }

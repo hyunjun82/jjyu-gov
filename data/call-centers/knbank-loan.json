@@ -11,19 +11,25 @@
   "official": "https://www.knbank.co.kr",
   "sourceUrl": "https://www.knbank.co.kr/ib20/mnu/FPMLON050304000",
   "sourceName": "BNK경남은행 개인대출안내 페이지 고객센터",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "고객센터 (개인대출안내 페이지 기준)",
     "tel": "1600-8585"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": "평일 09:00~18:00",
+    "night": "영업시간 이후 사고신고만 가능",
+    "holiday": "연중무휴 24시간 사고접수가능"
   },
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "hoursNote": "[2026-09-03] 고객센터 페이지: 평 일09:00~18:00, 영업시간 이후 사고신고만 가능, 연중무휴 24시간 사고접수가능. ARS 0번 상담사연결. 장기카드대출 1670-8982 추가.",
   "ars": {
-    "day": [],
+    "day": [
+      {
+        "key": "0",
+        "what": "상담사연결"
+      }
+    ],
     "night": []
   },
   "numbers": [
@@ -36,6 +42,17 @@
       "label": "고객센터 (다른 국번)",
       "tel": "1588-8585",
       "note": "같은 창구"
+    },
+    {
+      "label": "장기카드대출",
+      "tel": "1670-8982",
+      "note": "금융상품 가입전용"
+    }
+  ],
+  "extraSources": [
+    {
+      "name": "BNK경남은행 고객센터 서비스코드 및 전화번호",
+      "url": "https://www.knbank.co.kr/ib20/mnu/BHPCSC100000000"
     }
   ]
 }
