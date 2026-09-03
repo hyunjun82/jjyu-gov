@@ -11,17 +11,18 @@
   "official": "https://www.hanacard.co.kr",
   "sourceUrl": "https://www.hanacard.co.kr/OPF10000000M.web",
   "sourceName": "하나카드 장기카드대출(카드론) 안내 페이지 고객센터",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "고객센터 (장기카드대출 안내 페이지 기준)",
     "tel": "1800-1111"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "weekday": "09:00~18:00 (평일)",
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "hoursNote": "[2026-09-03] 홈 하단 고객센터 1800-1111 09:00~18:00 (평일). 대출 번호가 대표번호와 같아 그 시간을 쓴다. 대출 페이지엔 시간 없음.",
   "ars": {
     "day": [],
     "night": []
@@ -41,6 +42,12 @@
       "label": "시각장애인 전용상담센터",
       "tel": "1599-0701",
       "note": "시각장애인 고객 전용"
+    }
+  ],
+  "extraSources": [
+    {
+      "name": "하나카드 홈 고객센터 안내",
+      "url": "https://www.hanacard.co.kr/OCG10000000D.web"
     }
   ]
 }

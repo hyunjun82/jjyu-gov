@@ -369,6 +369,12 @@ const OFF: string[] = [];
 for (const v of [hoursText(C.hours.night), hoursText(C.hours.holiday)]) {
   if (v && !closedHours(v) && !noteOnly(v) && !OFF.includes(v)) OFF.push(v);
 }
+/* 주간=야간=공휴일이 한 값인 회사 — "24시간 365일" (토스뱅크·하나은행 폰뱅킹 상담).
+   야간 값을 "따로 안내돼 있습니다" 로 쓰면 같은 말을 두 번 하고,
+   "이 시간에 상담원 연결까지 되는지는 공식 안내에 없으니" 는 24시간 상담에 틀린 말이다 (2026-09-03).
+   밤이든 휴일이든 같은 번호로 받는다고 쓴다. */
+const ALL_DAY = !NO_HOURS && OFF.length > 0 && OFF.every((v) => v === hoursText(C.hours.weekday));
+if (ALL_DAY) OFF.length = 0;
 
 /* 값이 시간구가 아니라 문장인 회사가 있다 — "24시간 가능합니다", "콜백서비스는 24시간 상시운영 됩니다".
    여기에 조사를 붙이면 "24시간 가능합니다에는 주문접수 위주로 돌아갑니다" 가 된다.
@@ -398,6 +404,8 @@ const OFF_CLAUSE = !OFF_TXT ? ''
    회사 hours 에서 만든다 — 단정할 근거가 없으면 단정하지 않는다. */
 const LEAD = NO_HOURS
   ? `공식 안내에 상담 가능 시간이 따로 표기돼 있지 않습니다`
+  : ALL_DAY
+  ? `밤이나 휴일에도 같은 번호로 받습니다`
   : OFF.length === 0
   ? `이 시간을 벗어나면 ${IND.agent} 연결이 안 됩니다`
   : OFF_OPEN
@@ -405,6 +413,8 @@ const LEAD = NO_HOURS
     : '야간·공휴일 운영은 공식 안내에 따로 적혀 있습니다';
 const META_NIGHT = NO_HOURS
   ? '공식 안내에 상담 가능 시간 표기 없음'
+  : ALL_DAY
+  ? '야간·공휴일도 같은 번호'
   : OFF.length === 0
   ? `${IND.agent} 연결은 이 시간 안에서만 됩니다`
   : OFF_OPEN
@@ -417,9 +427,11 @@ const META_NIGHT = NO_HOURS
    건보공단 야간은 디지털ARS·셀프서비스인데 사고접수라고 떴다(2026-08-26 사장님 캡처). */
 const OFFHOUR_NOTE = `${NO_HOURS
   ? `${C.name} 공식 안내에는 상담 가능 시간이 적혀 있지 않습니다. 임의로 짐작해 적지 않으니, 통화 전 공식 홈페이지에서 한 번 더 확인하세요.`
+  : ALL_DAY
+  ? `공식 안내 기준 ${HW}${jong(HW) ? '이라' : '라'} 밤이나 휴일에도 같은 번호로 받습니다.`
   : OFF.length === 0
   ? `공식 안내 기준으로 ${HW}${josa(HW, '을')} 벗어나면 ${IND.agent} 연결이 안 됩니다.`
-  : [OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}${NO_HOURS ? '' : ' ' + IND.dayNote}`;
+  : [OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}${NO_HOURS || ALL_DAY ? '' : ' ' + IND.dayNote}`;
 
 /* 서론 첫 문장 — 시간 표기가 없는 회사는 "운영시간은 …표기 없음이며 …표기돼 있지 않습니다" 로
    같은 말을 두 번 하게 된다. 절 자체를 뺀다. */
@@ -465,6 +477,8 @@ const IND_QA = C.industry !== 'card' ? '' : `
 
 const HOOK_TIME = NO_HOURS
   ? `공식 안내에 상담 가능 시간이 적혀 있지 않습니다.`
+  : ALL_DAY
+  ? `${HW} ${IND.agent}${josa(IND.agent, '이')} 받습니다. 밤이나 휴일이라고 번호가 바뀌지 않습니다.`
   : OFF.length === 0
   ? `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, 그 밖의 시간에는 ${IND.agent} 연결이 안 됩니다.`
   : `${HW}에는 ${IND.agent}${josa(IND.agent, '이')} 받고, ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`;
@@ -472,6 +486,8 @@ const HOOK_TIME = NO_HOURS
 const VISIT_TXT = VISIT ? ` 고객센터에 직접 가서 접수하실 거라면 ${timeSpan(VISIT) || VISIT}까지라 전화보다 일찍 닫힙니다.` : '';
 const Q3_INTRO = (NO_HOURS
   ? `${C.name} 공식 안내에는 ${IND.agent} 상담 가능 시간이 표기돼 있지 않습니다. 다른 곳에서 본 시간을 옮겨 적으면 헛걸음이 되므로, 여기서는 없는 시간을 만들어 쓰지 않습니다. 대표번호로 걸어 ARS 안내를 듣는 편이 가장 확실합니다.`
+  : ALL_DAY
+  ? `${IND.agent} 상담은 ${HW}입니다. 밤이든 휴일이든 같은 번호로 연결되니 시간을 따로 맞출 필요가 없습니다. 통화 전 공식 안내에서 지금도 그대로인지 한 번만 확인하세요.`
   : OFF_OPEN
   ? `${IND.agent} 상담은 ${HW}입니다. 그 밖의 시간이 완전히 닫히는 건 아닙니다. ${OFF_TXT}에는 별도 ARS 가 돌아가서 ${IND.offhourLong} 아래가 야간·휴일에 눌러야 하는 번호입니다. 주간과 번호가 다르니 그대로 누르면 엉뚱한 곳으로 갑니다.`
   : OFF.length > 0
@@ -480,6 +496,8 @@ const Q3_INTRO = (NO_HOURS
 
 const FAQ_HOURS = NO_HOURS
   ? `${C.name} 공식 안내에는 상담 가능 시간이 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하시는 편이 확실합니다.`
+  : ALL_DAY
+  ? `${IND.agent} 상담은 ${HW}입니다. 야간·공휴일도 같은 번호로 연결됩니다.`
   : OFF_OPEN
   ? `${IND.agent} 상담은 ${HW}입니다. ${OFF_TXT}에는 ${IND.offhour} 중심의 ARS 가 운영됩니다.`
   : OFF.length > 0
@@ -616,7 +634,7 @@ const HERO_TAILS_PLAIN = [
 ];
 const HERO_TAIL =
   KEY_OK ? pick(HERO_TAILS_ARS, 'hero')
-  : nightOpen ? pick(HERO_TAILS_NIGHT, 'hero')
+  : nightOpen && !ALL_DAY ? pick(HERO_TAILS_NIGHT, 'hero')   /* 24시간 한 번호면 '시간대에 따라 갈린다' 는 틀린 말 */
   : (C.numbers ?? []).length >= 3 ? pick(HERO_TAILS_MANY, 'hero')
   : pick(HERO_TAILS_PLAIN, 'hero');
 

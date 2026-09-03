@@ -10,15 +10,16 @@
   "official": "https://www.kebhana.com",
   "sourceUrl": "https://www.kebhana.com/cont/mall/mall15/index.jsp",
   "sourceName": "하나은행 대출몰 페이지 고객센터",
-  "verifiedAt": "2026-08-27",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "고객센터 (대출몰 페이지 기준)",
     "tel": "1588-1111"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": "24시간 365일",
+    "night": "24시간 365일",
+    "holiday": "24시간 365일"
   },
   "ars": {
     "day": [],
@@ -36,5 +37,11 @@
       "note": "같은 창구"
     }
   ],
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다."
+  "hoursNote": "[2026-09-03] 폰뱅킹 이용시간 표: '예금, 대출, 외환, 개인 인터넷뱅킹 상담 24시간 365일' (퇴직연금·청약·기업은 평일 09시~18시). 대출 번호 1588-1111 = 폰뱅킹 번호. 캡처로 행 확인.",
+  "extraSources": [
+    {
+      "name": "하나은행 폰뱅킹 이용시간안내",
+      "url": "https://www.kebhana.com/cont/info/info02/info0203/index.jsp?_menuNo=98885"
+    }
+  ]
 }

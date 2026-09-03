@@ -8,28 +8,63 @@
   "industry": "loan",
   "brandColor": "#002C5F",
   "official": "https://www.hyundaicapital.com",
-  "sourceUrl": "https://www.hyundaicapital.com/custcent/brncnsrscng/CPCCBS0201.hc",
-  "sourceName": "현대캐피탈 지점안내 페이지 (취급상품·전화번호)",
-  "verifiedAt": "2026-08-27",
+  "sourceUrl": "https://www.hyundaicapital.com/custcent/cnsliqry/CPCCCI0101.hc",
+  "sourceName": "현대캐피탈 전화상담·ARS 단축번호 안내",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
     "label": "고객센터",
     "tel": "1588-2114"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "weekday": "상담가능 시간 : 평일 09:00 ~ 18:00",
     "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "holiday": "토/일요일, 공휴일 휴무"
   },
-  "hoursNote": "지점안내 페이지에 상담시간이 따로 적혀 있지 않다.",
+  "hoursNote": "[2026-09-03] 전화상담 페이지(헤드리스 차단이라 실브라우저로 뜸): 상담가능 시간 평일 09:00 ~ 18:00 (토/일요일, 공휴일 휴무). ARS 단축번호 7개, 금융상품 상담 1588-5330.",
   "ars": {
-    "day": [],
+    "day": [
+      {
+        "key": "1",
+        "what": "자동차할부·론"
+      },
+      {
+        "key": "2",
+        "what": "신용대출"
+      },
+      {
+        "key": "3",
+        "what": "주택대출"
+      },
+      {
+        "key": "4",
+        "what": "리스·렌트"
+      },
+      {
+        "key": "5",
+        "what": "비고객/비금융 상담"
+      },
+      {
+        "key": "7",
+        "what": "신규/추가 대출"
+      },
+      {
+        "key": "8",
+        "what": "도난·분실/피싱"
+      }
+    ],
     "night": []
   },
   "numbers": [
     {
       "label": "고객센터",
       "tel": "1588-2114",
-      "note": "신차할부·론, 중고차론, 자동차리스 등 지점 공통"
+      "note": "ARS 2번 신용대출·3번 주택대출·7번 신규/추가 대출"
+    },
+    {
+      "label": "금융상품 상담",
+      "tel": "1588-5330",
+      "note": "1번 신용대출·자동차담보대출, 2번 주택담보대출"
     },
     {
       "label": "Online주택금융1지점 (주택담보대출)",
@@ -47,5 +82,12 @@
       "note": "경기 지역 주택담보대출"
     }
   ],
-  "hq": "서울특별시 중구 세종대로 14 (남대문로5가) 그랜드센트럴 A동 7~17층"
+  "hq": "서울특별시 중구 세종대로 14 (남대문로5가) 그랜드센트럴 A동 7~17층",
+  "extraSources": [
+    {
+      "name": "현대캐피탈 지점안내 (주택담보대출 지점 번호)",
+      "url": "https://www.hyundaicapital.com/custcent/brncnsrscng/CPCCBS0201.hc"
+    }
+  ],
+  "callFee": "전국 어디서나 시내전화 요금으로 이용 가능(유선전화 기준 3분당 39원, VAT 별도/국내 전용 기준). 휴대폰 요금은 통신사별 요금제에 따라 다르게 적용."
 }

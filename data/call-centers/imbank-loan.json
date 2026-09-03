@@ -12,17 +12,18 @@
   "official": "https://www.imbank.co.kr",
   "sourceUrl": "https://www.imbank.co.kr/mobile/01/0102/1196553_3663.html",
   "sourceName": "iM뱅크 새희망홀씨대출 안내 페이지 고객감동센터",
-  "verifiedAt": "2026-09-01",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-09-01",
   "main": {
     "label": "고객감동센터 (대출 안내 페이지 기준)",
     "tel": "1566-5050"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "weekday": "09:00 ~ 18:00 (은행휴무일 제외)",
     "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "holiday": "은행휴무일 제외"
   },
-  "hoursNote": "대출 상품 페이지에도 홈 하단에도 상담원 연결 시간이 적혀 있지 않다.",
+  "hoursNote": "[2026-09-03] 고객센터 페이지: 국내 1566-5050 / 1588-5050 09:00 ~ 18:00 (은행휴무일 제외). 대출 번호가 고객센터 번호와 같다.",
   "ars": {
     "day": [],
     "night": []
@@ -53,6 +54,12 @@
     {
       "label": "해외에서 걸 때",
       "tel": "82-53-742-5050"
+    }
+  ],
+  "extraSources": [
+    {
+      "name": "iM뱅크 고객센터",
+      "url": "https://www.imbank.co.kr/com_ebz_hlp_sub_main.jsp"
     }
   ]
 }

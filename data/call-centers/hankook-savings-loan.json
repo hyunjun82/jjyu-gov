@@ -8,29 +8,40 @@
   ],
   "industry": "loan",
   "brandColor": "#E4002B",
-  "official": "https://kisb.ibs.fsb.or.kr",
-  "sourceUrl": "https://kisb.ibs.fsb.or.kr/CstFrbk0100.act",
-  "sourceName": "한국투자저축은행 인터넷뱅킹 고객센터 안내",
-  "verifiedAt": "2026-08-27",
+  "official": "https://sb.koreainvestment.com",
+  "sourceUrl": "https://sb.koreainvestment.com/",
+  "sourceName": "한국투자저축은행 홈 ARS 이용안내",
+  "verifiedAt": "2026-09-03",
+  "publishedAt": "2026-08-27",
   "main": {
-    "label": "대표전화",
+    "label": "담보대출·예금",
     "tel": "1577-6333"
   },
   "hours": {
-    "weekday": "공식 안내에 대출 상담시간 표기 없음",
+    "weekday": "영업시간 09:00~16:00",
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
-  "hoursNote": "대출 번호 옆에 상담시간이 따로 적혀 있지 않다.",
+  "hoursNote": "[2026-09-03] 홈 하단 ARS 이용안내: 담보대출·예금 영업시간 09:00~16:00 1577-6333 / 신용대출 09:00~17:30 1800-6000 / 스탁론 08:00~17:00 1800-6632. 번호마다 시간이 다르다 — 번호 표 비고에 각각 적었다.",
   "ars": {
     "day": [],
     "night": []
   },
   "numbers": [
     {
-      "label": "대표전화",
+      "label": "담보대출·예금",
       "tel": "1577-6333",
-      "note": "저축은행 여신 — 대출 문의처다"
+      "note": "영업시간 09:00~16:00"
+    },
+    {
+      "label": "신용대출",
+      "tel": "1800-6000",
+      "note": "영업시간 09:00~17:30"
+    },
+    {
+      "label": "스탁론",
+      "tel": "1800-6632",
+      "note": "영업시간 08:00~17:00"
     },
     {
       "label": "디지털뱅킹고객센터",
