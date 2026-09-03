@@ -1,0 +1,19 @@
+{
+  "slug": "kosaf",
+  "keyword": "한국장학재단 고객센터",
+  "title": "한국장학재단 고객센터 전화번호·상담직원 연결·영업시간, 6시 넘으면?",
+  "pattern": "고객센터 — 번호 모음 · 상담직원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "한국장학재단 고객센터 전화번호 몇 번인가요?",
+    "상담직원과 바로 연결하려면 몇 번 누르나요?",
+    "고객센터 영업시간·운영시간은 어떻게 되나요?",
+    "한국장학재단 고객센터 위치는 어디인가요?",
+    "다른 기관 고객센터 번호도 필요한데요"
+  ],
+  "heroButton": "1599-2000 로 문의하기",
+  "source": "https://www.kosaf.go.kr/ko/customer.do?pg=customer08&naviParam=CU,02,04,00",
+  "outline": "data/call-centers/kosaf.json",
+  "approved": true,
+  "approvedAt": "2026-09-03",
+  "approvedNote": "2026-09-03 채팅에 구성표 6편(타이틀·소제목 5·상단버튼·1차출처·상담시간)을 올리고 사장님이 푸시 승인."
+}
