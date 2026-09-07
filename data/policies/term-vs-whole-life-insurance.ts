@@ -85,5 +85,4 @@ export const termVsWholeLifeInsurancePolicy = {
   ],
 } as const;
 
-export const termVsWholeLifeInsuranceSpokes = [
-  { slug: 'term-whole-life-annuity', role: 'compare', title: '정기보험과 종신보험 차이, 사망보험 종류부터 연금전환까지' },];
+export const termVsWholeLifeInsuranceSpokes = [];

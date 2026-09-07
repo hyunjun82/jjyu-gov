@@ -90,5 +90,4 @@ export const simplifiedUnderwritingInsurancePolicy = {
   ],
 } as const;
 
-export const simplifiedUnderwritingInsuranceSpokes = [
-  { slug: 'hypertension-diabetes-underwriting', role: 'eligibility', title: '고혈압과 당뇨 진단받아도 보험 가입되나요, 당뇨진단비와 보험료 기준' },];
+export const simplifiedUnderwritingInsuranceSpokes = [];
