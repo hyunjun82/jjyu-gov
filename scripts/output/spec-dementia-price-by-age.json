@@ -1,0 +1,28 @@
+{
+  "slug": "dementia-price-by-age",
+  "policyDir": "치매보험",
+  "fileName": "경증치매보장가격",
+  "hubVar": "dementiaInsuranceSpokes",
+  "hubSlug": "dementia-insurance",
+  "role": "compare",
+  "h1": "치매보험 필요한가요, 경증치매 보장과 가격 그리고 나이별 보험료",
+  "breadcrumb": "경증치매 보장·가격",
+  "description": "손해보험협회 간병·치매보험 비교공시는 회사별 월보험료와 보험가격지수를 함께 공시합니다. 담보명에 CDR 점수와 장기요양등급이 그대로 적혀 있어 어디서 지급이 갈리는지 보입니다.",
+  "sourceFile": "scripts/output/source-dementia-price-by-age.txt",
+  "sourceName": "손해보험협회 상품비교공시 간병·치매보험",
+  "sourceUrl": "https://kpub.knia.or.kr/productDisc/longTermGuarantee/carePolicyInsurance.do",
+  "hubPath": "/policy/dementia-insurance",
+  "qa": [
+    "치매보험 꼭 필요한가요?",
+    "경증치매도 보장되나요?",
+    "치매보험 가격은 얼마인가요?",
+    "나이별 보험료는 얼마나 차이나나요?"
+  ],
+  "faq": [
+    "간병·치매보험은 무엇을 보장하나요?",
+    "경증치매 담보는 어떤 이름으로 적혀 있나요?",
+    "장기요양등급도 담보에 들어가나요?",
+    "공시 보험료가 내 보험료인가요?",
+    "고령자는 어디서 비교하나요?"
+  ]
+}

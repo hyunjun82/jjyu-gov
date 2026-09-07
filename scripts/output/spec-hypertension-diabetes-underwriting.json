@@ -1,0 +1,28 @@
+{
+  "slug": "hypertension-diabetes-underwriting",
+  "policyDir": "유병자보험",
+  "fileName": "고혈압당뇨가입",
+  "hubVar": "simplifiedUnderwritingInsuranceSpokes",
+  "hubSlug": "simplified-underwriting-insurance",
+  "role": "eligibility",
+  "h1": "고혈압과 당뇨 진단받아도 보험 가입되나요, 당뇨진단비와 보험료 기준",
+  "breadcrumb": "고혈압·당뇨 가입",
+  "description": "표준약관 제16조는 회사가 승낙을 거절하거나 보험가입금액 제한·일부보장 제외·보험금 삭감·보험료 할증 같은 별도 조건을 붙여 승낙할 수 있다고 정합니다. 고혈압(I10-I15)과 당뇨병(E10-E14)은 상병 면책 목록에 없습니다.",
+  "sourceFile": "scripts/output/source-hypertension-diabetes-underwriting.txt",
+  "sourceName": "보험업감독업무시행세칙 [별표 15] 표준약관",
+  "sourceUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+  "hubPath": "/policy/simplified-underwriting-insurance",
+  "qa": [
+    "고혈압 진단 후에도 가입되나요?",
+    "당뇨 진단받아도 가입되나요?",
+    "당뇨진단비는 얼마 받나요?",
+    "보험료와 가입 기준은 어떻게 되나요?"
+  ],
+  "faq": [
+    "고혈압·당뇨는 실손 면책 상병인가요?",
+    "회사가 청약에 답을 안 주면 어떻게 되나요?",
+    "고지를 빠뜨리면 언제까지 해지될 수 있나요?",
+    "설계사가 고지를 막았어도 해지되나요?",
+    "다른 보험 가입내역을 안 알리면 해지되나요?"
+  ]
+}

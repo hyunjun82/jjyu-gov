@@ -89,6 +89,7 @@ export const autoInsuranceLossRatioPolicy = {
 } as const;
 
 export const autoInsuranceLossRatioSpokes = [
+  { slug: 'auto-discount-surcharge', role: 'usage', title: '자동차보험 할증 기준과 할인 특약, 마일리지 블랙박스에 자동차상해는?' },
   { slug: 'premium-calculation-tips', title: '자동차보험료 계산 방법, 뭘로 정해지고 어떻게 아끼나' },
   { slug: 'premium-saving-special-terms', title: '자동차보험료 특약 할인율 총정리, 마일리지·블랙박스 얼마나 싸지나' },
 ];

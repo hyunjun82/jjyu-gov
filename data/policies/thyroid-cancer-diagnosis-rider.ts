@@ -89,4 +89,5 @@ export const thyroidCancerDiagnosisRiderPolicy = {
   ],
 } as const;
 
-export const thyroidCancerDiagnosisRiderSpokes = [];
+export const thyroidCancerDiagnosisRiderSpokes = [
+  { slug: 'cervical-bladder-cancer-benefit', role: 'compare', title: '자궁경부암 비용과 갑상선암 보험, 방광암 진단비와 표적항암치료' },];

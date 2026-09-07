@@ -1,0 +1,28 @@
+{
+  "slug": "auto-discount-surcharge",
+  "policyDir": "자동차보험할인",
+  "fileName": "할증기준할인특약자동차상해",
+  "hubVar": "autoInsuranceLossRatioSpokes",
+  "hubSlug": "auto-insurance-loss-ratio",
+  "role": "usage",
+  "h1": "자동차보험 할증 기준과 할인 특약, 마일리지 블랙박스에 자동차상해는?",
+  "breadcrumb": "할증 기준·할인 특약",
+  "description": "최초가입 11Z등급에서 무사고면 1등급씩 할인되고 적용률은 최고 200%와 최저 30% 사이입니다. 할인형 특별약관은 협회가 6종으로 나눠 회사별 할인율을 공시합니다.",
+  "sourceFile": "scripts/output/source-auto-discount-surcharge.txt",
+  "sourceName": "손해보험협회 자동차보험료 할인할증 적용률 안내",
+  "sourceUrl": "https://kpub.knia.or.kr/carInsuranceDisc/discountExtra/discountInf.do",
+  "hubPath": "/policy/auto-insurance-loss-ratio",
+  "qa": [
+    "자동차보험 할증 기준은 어떻게 되나요?",
+    "할인 특약에는 무엇이 있나요?",
+    "마일리지·블랙박스·자녀할인은 얼마인가요?",
+    "자동차상해와 자기신체사고 중 뭐가 유리한가요?"
+  ],
+  "faq": [
+    "최초 가입하면 몇 등급인가요?",
+    "할인할증 적용률은 어디까지 벌어지나요?",
+    "장기무사고면 사고가 나도 할증이 없나요?",
+    "자동차보험 보장종목은 몇 개인가요?",
+    "자기신체사고에서 보상하지 않는 경우는?"
+  ]
+}

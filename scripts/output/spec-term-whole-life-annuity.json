@@ -1,0 +1,28 @@
+{
+  "slug": "term-whole-life-annuity",
+  "policyDir": "정기종신보험",
+  "fileName": "사망보험종류연금전환",
+  "hubVar": "termVsWholeLifeInsuranceSpokes",
+  "hubSlug": "term-vs-whole-life-insurance",
+  "role": "compare",
+  "h1": "정기보험과 종신보험 차이, 사망보험 종류부터 연금전환까지",
+  "breadcrumb": "정기·종신·연금전환",
+  "description": "생명보험협회 공시는 종신보험을 보장기간이 종신인 사망보험으로, 정기보험을 일정한 보험기간 내 사망 시 지급하는 보험으로 정의합니다. 만기까지 생존하면 지급 없이 계약이 만료돼 보험료가 저렴합니다.",
+  "sourceFile": "scripts/output/source-term-whole-life-annuity.txt",
+  "sourceName": "생명보험협회 공시실 보장성보험 개요",
+  "sourceUrl": "https://pub.insure.or.kr/summary/explan01.do",
+  "hubPath": "/policy/term-vs-whole-life-insurance",
+  "qa": [
+    "정기보험이란 무엇인가요?",
+    "종신보험보다 보험료가 저렴한 이유는?",
+    "사망보험에는 어떤 종류가 있나요?",
+    "종신보험 연금전환은 누구에게 유리한가요?"
+  ],
+  "faq": [
+    "정기보험은 만기까지 살면 뭘 받나요?",
+    "CI보험은 종신보험과 뭐가 다른가요?",
+    "질병보험에도 사망보험금이 있나요?",
+    "어린이보험도 사망을 보장하나요?",
+    "표준약관에 연금전환 조항이 있나요?"
+  ]
+}

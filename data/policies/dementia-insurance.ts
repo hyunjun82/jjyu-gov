@@ -100,4 +100,5 @@ export const dementiaInsurancePolicy = {
   ],
 } as const;
 
-export const dementiaInsuranceSpokes = [];
+export const dementiaInsuranceSpokes = [
+  { slug: 'dementia-price-by-age', role: 'compare', title: '치매보험 필요한가요, 경증치매 보장과 가격 그리고 나이별 보험료' },];

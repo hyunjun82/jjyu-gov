@@ -1,0 +1,28 @@
+{
+  "slug": "pension-300-by-birthyear",
+  "policyDir": "국민연금보험료",
+  "fileName": "월급300수령액보험료인상",
+  "hubVar": "nationalPensionPremiumSpokes",
+  "hubSlug": "national-pension-premium",
+  "role": "usage",
+  "h1": "월급 300만원 국민연금 얼마 받나요, 85·95·05년생 수령액과 보험료 인상",
+  "breadcrumb": "월급별 수령액·보험료 인상",
+  "description": "국민연금법 부칙은 2026년부터 2032년까지 연금보험료율을 단계로 올립니다. 지역가입자는 2026년 1천분의 95에서 2032년 1천분의 125까지, 사업장가입자는 본인 몫이 1만분의 475에서 1만분의 625까지입니다.",
+  "sourceFile": "scripts/output/source-pension-300-by-birthyear.txt",
+  "sourceName": "국민연금법",
+  "sourceUrl": "https://www.law.go.kr/LSW/lsSc.do?menuId=1&subMenuId=15&tabMenuId=81&query=%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88%EB%B2%95",
+  "hubPath": "/policy/national-pension-premium",
+  "qa": [
+    "월급 300만원이면 국민연금 얼마 받나요?",
+    "85·95·05년생 예상 수령액은 얼마인가요?",
+    "국민연금 보험료 인상되면 얼마나 더 내나요?",
+    "내 월급이면 얼마나 오르나요?"
+  ],
+  "faq": [
+    "연금보험료율은 지금 몇 퍼센트인가요?",
+    "직장인은 본인이 얼마를 내나요?",
+    "기본연금액은 어떻게 계산되나요?",
+    "개정 전 가입기간도 새 기준으로 계산되나요?",
+    "추납보험료율은 매달 내는 보험료율과 같나요?"
+  ]
+}

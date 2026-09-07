@@ -1,0 +1,28 @@
+{
+  "slug": "fracture-benefit-disability",
+  "policyDir": "입원수술진단비",
+  "fileName": "골절진단비후유장해",
+  "hubVar": "hospitalizationBenefitInsuranceSpokes",
+  "hubSlug": "hospitalization-benefit-insurance",
+  "role": "usage",
+  "h1": "골절진단비와 중복보상 기준, 어깨골절수술비 238만원과 후유장해는?",
+  "breadcrumb": "골절진단비·후유장해",
+  "description": "골절은 상해 코드(S42 등)로 잡히고, 실손은 실제 부담액을 기준으로 다수보험이면 비례분담됩니다. 후유장해는 장해분류표 총칙이 영구적 훼손상태를 요구하고 최저지급률에 이르지 않으면 지급하지 않습니다.",
+  "sourceFile": "scripts/output/source-fracture-benefit-disability.txt",
+  "sourceName": "보험업감독업무시행세칙 [별표 15] 표준약관",
+  "sourceUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+  "hubPath": "/policy/hospitalization-benefit-insurance",
+  "qa": [
+    "골절진단비는 얼마 받나요?",
+    "중복보상 되나요?",
+    "어깨골절수술비 238만원은 얼마나 나오나요?",
+    "경미한 후유장해도 보상되나요?"
+  ],
+  "faq": [
+    "어깨 골절은 무슨 코드인가요?",
+    "실손을 두 개 들면 골절 치료비도 두 배 받나요?",
+    "장해분류표에서 말하는 장해는 무엇인가요?",
+    "한시적인 장해도 인정되나요?",
+    "같은 부위를 또 다치면 어떻게 되나요?"
+  ]
+}

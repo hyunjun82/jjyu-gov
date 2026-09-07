@@ -1,0 +1,28 @@
+{
+  "slug": "colonoscopy-ultrasound-claim",
+  "policyDir": "실손보험",
+  "fileName": "대장내시경초음파실비",
+  "hubSlug": "indemnity-insurance-generations",
+  "hubVar": "indemnityInsuranceGenerationsSpokes",
+  "role": "usage",
+  "h1": "대장내시경과 초음파 검사비 실비, 청구 조건부터 청구 방법까지",
+  "breadcrumb": "대장내시경·초음파 실비",
+  "description": "대장내시경은 국가암검진 경로면 공단이 비용을 부담하고, 그 밖에는 병원이 자율로 정한 비급여라 심평원에서 병원별로 조회합니다. 초음파는 표준약관에 따로 정한 조항이 없어 목적으로 갈립니다. 공제금액과 청구 서류까지 원문으로 정리했습니다.",
+  "sourceFile": "scripts/output/source-colonoscopy-ultrasound-claim.txt",
+  "sourceName": "보험업감독업무시행세칙 [별표 15] 표준약관",
+  "sourceUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+  "hubPath": "/policy/indemnity-insurance-generations",
+  "qa": [
+    "대장내시경 검사 비용은 얼마인가요?",
+    "초음파 검사비도 실비 되나요?",
+    "실비 청구 조건은 어떻게 되나요?",
+    "실비 청구 방법"
+  ],
+  "faq": [
+    "국가암검진으로 받은 대장내시경도 실비 청구하나요?",
+    "표준약관에 초음파 검사 조항이 따로 있나요?",
+    "통원 공제금액은 병원 규모에 따라 다른가요?",
+    "보험금은 서류를 내고 며칠 만에 나오나요?",
+    "사고증명서를 해외 병원에서 받아도 되나요?"
+  ]
+}

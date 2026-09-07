@@ -1,0 +1,28 @@
+{
+  "slug": "flu-heat-emergency-claim",
+  "policyDir": "실손보험",
+  "fileName": "독감냉방병열사병실비",
+  "hubVar": "indemnityInsuranceGenerationsSpokes",
+  "hubSlug": "indemnity-insurance-generations",
+  "role": "usage",
+  "h1": "독감 치료비와 냉방병 실비, 열사병 응급실부터 청구 서류까지",
+  "breadcrumb": "독감·냉방병·열사병 실비",
+  "description": "약관의 상병 면책 목록에는 독감·열사병·냉방병으로 붙는 코드가 없습니다. 다만 예방접종은 빠지고, 응급실에서는 응급의료관리료 한 항목만 조건이 맞을 때 빠집니다. 무엇이 남고 무엇이 빠지는지 원문으로 갈랐습니다.",
+  "sourceFile": "scripts/output/source-flu-heat-emergency-claim.txt",
+  "sourceName": "보험업감독업무시행세칙 [별표 15] 표준약관",
+  "sourceUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+  "hubPath": "/policy/indemnity-insurance-generations",
+  "qa": [
+    "독감 치료비 20만원 실비로 얼마 받나요?",
+    "냉방병으로 병원 가도 청구되나요?",
+    "열사병 응급실 진료도 되나요?",
+    "청구 서류는 무엇인가요?"
+  ],
+  "faq": [
+    "독감 예방주사도 실비로 받을 수 있나요?",
+    "냉방병은 무슨 코드로 청구하나요?",
+    "열사병이면 무조건 응급환자인가요?",
+    "동네 병원 응급실도 응급의료관리료가 빠지나요?",
+    "통원 한 번에 받을 수 있는 한도가 있나요?"
+  ]
+}

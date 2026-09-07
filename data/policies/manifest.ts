@@ -372,6 +372,13 @@ import { petInsuranceGuidePolicy, petInsuranceGuideSpokes } from './pet-insuranc
 import { dentalImplantInsurancePolicy, dentalImplantInsuranceSpokes } from './dental-implant-insurance';
 import { nursingFacilityInsurancePolicy, nursingFacilityInsuranceSpokes } from './nursing-facility-insurance';
 import { dementiaInsurancePolicy, dementiaInsuranceSpokes } from './dementia-insurance';
+import { robotSurgeryCostPolicy, robotSurgeryCostSpokes } from './robot-surgery-cost';
+import { hospitalizationBenefitInsurancePolicy, hospitalizationBenefitInsuranceSpokes } from './hospitalization-benefit-insurance';
+import { cancerDiagnosisBenefitPolicy, cancerDiagnosisBenefitSpokes } from './cancer-diagnosis-benefit';
+import { brainInfarctionI63Policy, brainInfarctionI63Spokes } from './brain-infarction-i63';
+import { variableLifeInsurancePolicy, variableLifeInsuranceSpokes } from './variable-life-insurance';
+import { fetalInsuranceComparePolicy, fetalInsuranceCompareSpokes } from './fetal-insurance-compare';
+import { insurancePolicyCertificatePolicy, insurancePolicyCertificateSpokes } from './insurance-policy-certificate';
 import { dollarInsuranceWarningPolicy, dollarInsuranceWarningSpokes } from './dollar-insurance-warning';
 import { scienceCultureVoucherPolicy, scienceCultureVoucherSpokes } from './science-culture-voucher';
 import { inverterAcElectricitySavingPolicy, inverterAcElectricitySavingSpokes } from './inverter-ac-electricity-saving';
@@ -1030,6 +1037,13 @@ export const PoliciesById: Record<string, any> = {
   '238': dentalImplantInsurancePolicy,
   '239': nursingFacilityInsurancePolicy,
   '240': dementiaInsurancePolicy,
+  '808': robotSurgeryCostPolicy,
+  '809': hospitalizationBenefitInsurancePolicy,
+  '810': cancerDiagnosisBenefitPolicy,
+  '811': brainInfarctionI63Policy,
+  '812': variableLifeInsurancePolicy,
+  '813': fetalInsuranceComparePolicy,
+  '814': insurancePolicyCertificatePolicy,
   '241': dollarInsuranceWarningPolicy,
   '242': scienceCultureVoucherPolicy,
   '243': inverterAcElectricitySavingPolicy,
@@ -1741,6 +1755,13 @@ export const PoliciesBySlug: Record<string, any> = {
   'dental-implant-insurance': dentalImplantInsurancePolicy,
   'nursing-facility-insurance': nursingFacilityInsurancePolicy,
   'dementia-insurance': dementiaInsurancePolicy,
+  'robot-surgery-cost': robotSurgeryCostPolicy,
+  'hospitalization-benefit-insurance': hospitalizationBenefitInsurancePolicy,
+  'cancer-diagnosis-benefit': cancerDiagnosisBenefitPolicy,
+  'brain-infarction-i63': brainInfarctionI63Policy,
+  'variable-life-insurance': variableLifeInsurancePolicy,
+  'fetal-insurance-compare': fetalInsuranceComparePolicy,
+  'insurance-policy-certificate': insurancePolicyCertificatePolicy,
   'dollar-insurance-warning': dollarInsuranceWarningPolicy,
   'science-culture-voucher': scienceCultureVoucherPolicy,
   'inverter-ac-electricity-saving': inverterAcElectricitySavingPolicy,
@@ -3794,4 +3815,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'sharing-ticket': sharingTicketSpokes,
   'youth-driver-license-subsidy': youthDriverLicenseSubsidySpokes,
   'modu-card-refund-standard': moduCardRefundStandardSpokes,
+  'robot-surgery-cost': robotSurgeryCostSpokes,
+  'hospitalization-benefit-insurance': hospitalizationBenefitInsuranceSpokes,
+  'cancer-diagnosis-benefit': cancerDiagnosisBenefitSpokes,
+  'brain-infarction-i63': brainInfarctionI63Spokes,
+  'variable-life-insurance': variableLifeInsuranceSpokes,
+  'fetal-insurance-compare': fetalInsuranceCompareSpokes,
+  'insurance-policy-certificate': insurancePolicyCertificateSpokes,
 };

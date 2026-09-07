@@ -99,6 +99,7 @@ export const nationalPensionPremiumPolicy = {
 } as const;
 
 export const nationalPensionPremiumSpokes = [
+  { slug: 'pension-300-by-birthyear', role: 'usage', title: '월급 300만원 국민연금 얼마 받나요, 85·95·05년생 수령액과 보험료 인상' },
   { slug: '수령나이', role: 'usage', title: '국민연금 수령 나이, 출생연도별 61~65세', content: '1961~64년생 63세, 1969년생 이후 65세. 가입 10년↑.' },
   { slug: '수령액', role: 'amount', title: '국민연금 수령액, 가입기간 소득으로 결정 예상조회', content: '가입기간·소득·A값(2026 319만)으로 산정. 내 연금 알아보기.' },
   { slug: '가입기간추납', role: 'eligibility', title: '국민연금 가입기간 10년, 추납 임의가입으로 채우기', content: '최소 10년(120개월), 추납·임의가입·임의계속가입(65세).' },

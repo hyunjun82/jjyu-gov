@@ -1,0 +1,28 @@
+{
+  "slug": "indemnity-premium-by-age",
+  "policyDir": "실손보험",
+  "fileName": "나이별실비보험료",
+  "hubVar": "indemnityInsuranceGenerationsSpokes",
+  "hubSlug": "indemnity-insurance-generations",
+  "role": "compare",
+  "h1": "40대 실비보험 가격과 50대 평균 47만원, 월 보험료 적정선과 나이별 차이",
+  "breadcrumb": "나이별 실비보험료",
+  "description": "보험다모아에서 5세대 실손 월보험료를 나이별로 직접 조회했습니다. 보험나이 40세 남자는 9,938원부터, 50세 남자는 15,027원부터입니다. 회사별 보장은 표준화돼 있고 보험료만 갈립니다.",
+  "sourceFile": "scripts/output/source-indemnity-premium-by-age.txt",
+  "sourceName": "보험다모아 실손의료보험(5세대) 상품비교",
+  "sourceUrl": "https://www.e-insmarket.or.kr/mins/minsInsList.knia?prdtSmlClsCd=G004",
+  "hubPath": "/policy/indemnity-insurance-generations",
+  "qa": [
+    "40대 실비보험 가격은 얼마인가요?",
+    "50대 보험료 평균 47만원이 맞나요?",
+    "월 보험료는 얼마가 적정한가요?",
+    "나이별로 얼마나 차이나나요?"
+  ],
+  "faq": [
+    "회사마다 보장이 다른가요?",
+    "실손 보험료는 왜 매년 바뀌나요?",
+    "실손을 두 개 들면 두 배로 받나요?",
+    "몇 살까지 가입할 수 있나요?",
+    "공시 보험료가 내 보험료와 같은가요?"
+  ]
+}

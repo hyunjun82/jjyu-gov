@@ -1,0 +1,28 @@
+{
+  "slug": "cervical-bladder-cancer-benefit",
+  "policyDir": "갑상선암진단비",
+  "fileName": "자궁경부방광암표적항암",
+  "hubVar": "thyroidCancerDiagnosisRiderSpokes",
+  "hubSlug": "thyroid-cancer-diagnosis-rider",
+  "role": "compare",
+  "h1": "자궁경부암 비용과 갑상선암 보험, 방광암 진단비와 표적항암치료",
+  "breadcrumb": "자궁경부암·방광암·표적항암",
+  "description": "자궁목·방광·갑상샘은 악성신생물(C53·C67·C73)과 상피내 암종(D06·D09.0·D09.3)에 각각 자리가 있습니다. 진단서에 어느 코드가 적히느냐로 진단비가 갈립니다. 표적항암 주사료는 3대비급여 한도가 아니라 일반 비급여에서 계산됩니다.",
+  "sourceFile": "scripts/output/source-cervical-bladder-cancer-benefit.txt",
+  "sourceName": "질병분류정보센터(KOICD) 한국표준질병사인분류",
+  "sourceUrl": "https://www.koicd.kr/kcd/kcd.do?degree=04&kcd=C53",
+  "hubPath": "/policy/thyroid-cancer-diagnosis-rider",
+  "qa": [
+    "자궁경부암 검사비·수술비는 얼마인가요?",
+    "갑상선암도 진단비 나오나요?",
+    "방광암 진단비는 얼마인가요?",
+    "표적항암치료 비용도 보장되나요?"
+  ],
+  "faq": [
+    "자궁경부암 검진은 몇 살부터 받나요?",
+    "D06과 C53은 뭐가 다른가요?",
+    "방광암인데 D09.0으로 적혔으면 어떻게 되나요?",
+    "약관은 항암제를 어떻게 정의하나요?",
+    "항암제 주사료도 3대비급여 한도에 걸리나요?"
+  ]
+}

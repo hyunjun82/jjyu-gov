@@ -100,6 +100,9 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'indemnity-premium-by-age', role: 'compare', title: '40대 실비보험 가격과 50대 평균 47만원, 월 보험료 적정선과 나이별 차이' },
+  { slug: 'flu-heat-emergency-claim', role: 'usage', title: '독감 치료비와 냉방병 실비, 열사병 응급실부터 청구 서류까지' },
+  { slug: 'colonoscopy-ultrasound-claim', role: 'usage', title: '대장내시경과 초음파 검사비 실비, 청구 조건부터 청구 방법까지' },
   { slug: 'generation-history', role: 'eligibility', title: '실손보험 변천사로 보는 세대 비교, 내 상품 모르면 못 갈아탄다' },
   { slug: 'coverage-change', role: 'eligibility', title: '실손보험 보장내용 바뀌는 시점과 주기는? 갱신 전에 확인할 것' },
   { slug: 'company-documents', role: 'eligibility', title: '실비보험 신청 서류 회사마다 다를까? 공통 항목부터 확인' },

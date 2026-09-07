@@ -1674,8 +1674,33 @@ import { shCorpCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { gov24CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gov24';
 import { bokjiro129CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/bokjiro129';
 import { semasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/semas';
+import { 실손보험대장내시경초음파실비SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/대장내시경초음파실비';
+import { 실손보험독감냉방병열사병실비SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/독감냉방병열사병실비';
+import { 갑상선암진단비자궁경부방광암표적항암SpokeContent } from '@/app/policy/[id]/[spoke]/content/갑상선암진단비/자궁경부방광암표적항암';
+import { 입원수술진단비골절진단비후유장해SpokeContent } from '@/app/policy/[id]/[spoke]/content/입원수술진단비/골절진단비후유장해';
+import { 유병자보험고혈압당뇨가입SpokeContent } from '@/app/policy/[id]/[spoke]/content/유병자보험/고혈압당뇨가입';
+import { 실손보험나이별실비보험료SpokeContent } from '@/app/policy/[id]/[spoke]/content/실손보험/나이별실비보험료';
+import { 정기종신보험사망보험종류연금전환SpokeContent } from '@/app/policy/[id]/[spoke]/content/정기종신보험/사망보험종류연금전환';
+import { 국민연금보험료월급300수령액보험료인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/국민연금보험료/월급300수령액보험료인상';
+import { 자동차보험할인할증기준할인특약자동차상해SpokeContent } from '@/app/policy/[id]/[spoke]/content/자동차보험할인/할증기준할인특약자동차상해';
+import { 치매보험경증치매보장가격SpokeContent } from '@/app/policy/[id]/[spoke]/content/치매보험/경증치매보장가격';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'dementia-insurance': {
+    'dementia-price-by-age': 치매보험경증치매보장가격SpokeContent,
+  },
+  'term-vs-whole-life-insurance': {
+    'term-whole-life-annuity': 정기종신보험사망보험종류연금전환SpokeContent,
+  },
+  'simplified-underwriting-insurance': {
+    'hypertension-diabetes-underwriting': 유병자보험고혈압당뇨가입SpokeContent,
+  },
+  'hospitalization-benefit-insurance': {
+    'fracture-benefit-disability': 입원수술진단비골절진단비후유장해SpokeContent,
+  },
+  'thyroid-cancer-diagnosis-rider': {
+    'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
+  },
   'public-call-center': {
     'semas': semasCallCenterSpokeContent,
     'bokjiro129': bokjiro129CallCenterSpokeContent,
@@ -2096,6 +2121,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'indemnity-insurance-generations': {
+    'indemnity-premium-by-age': 실손보험나이별실비보험료SpokeContent,
+    'flu-heat-emergency-claim': 실손보험독감냉방병열사병실비SpokeContent,
+    'colonoscopy-ultrasound-claim': 실손보험대장내시경초음파실비SpokeContent,
     'generation-history': 실손보험세대변천사SpokeContent,
     'coverage-change': 실손보험보장내용변경시점SpokeContent,
     'company-documents': 실손보험회사별신청서류SpokeContent,
@@ -3389,6 +3417,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'national-pension-premium': {
+    'pension-300-by-birthyear': 국민연금보험료월급300수령액보험료인상SpokeContent,
     '수령나이':     국민연금보험료수령나이SpokeContent,
     '수령액':       국민연금보험료수령액SpokeContent,
     '가입기간추납': 국민연금보험료가입기간추납SpokeContent,
@@ -3615,6 +3644,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'auto-insurance-loss-ratio': {
+    'auto-discount-surcharge': 자동차보험할인할증기준할인특약자동차상해SpokeContent,
     'premium-calculation-tips': autoInsurancePremiumCalculationTipsSpokeContent,
     'premium-saving-special-terms': autoInsurancePremiumSavingSpokeContent,
   },
