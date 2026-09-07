@@ -1,0 +1,18 @@
+{
+  "slug": "fracture-benefit-disability",
+  "keyword": "골절진단비 후유장해",
+  "title": "골절진단비와 중복보상 기준, 어깨골절수술비 238만원과 후유장해는?",
+  "pattern": "보험 — 사장님 제시 타이틀·소제목 그대로 (소제목 4개 = qa 4개)",
+  "subheads": [
+    "골절진단비는 얼마 받나요?",
+    "중복보상 되나요?",
+    "어깨골절수술비 238만원은 얼마나 나오나요?",
+    "경미한 후유장해도 보상되나요?"
+  ],
+  "source": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+  "extract": "scripts/output/source-fracture-benefit-disability.txt",
+  "approved": true,
+  "approvedAt": "2026-09-07",
+  "approvedBy": "사장님 (채팅에서 타이틀·소제목 직접 제시 후 승인)",
+  "note": "사장님이 타이틀과 소제목을 채팅으로 직접 제시하고 \"타이틀 소제목 그냥 이대로 사용하면 돼\" 로 승인. 이후 \"나머지 이어서 작성하면 되\" 로 잔여분 승인. 원안 18편 중 3번(하지정맥류·비염·마운자로·대상포진)은 사장님이 \"잘못나온타이틀 패스\" 로 제외 — 실손보험 허브에 소제목 4개가 모두 기존 스포크로 존재해 중복이었다."
+}

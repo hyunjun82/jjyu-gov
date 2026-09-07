@@ -1,0 +1,18 @@
+{
+  "slug": "dementia-price-by-age",
+  "keyword": "치매보험 경증치매 가격",
+  "title": "치매보험 필요한가요, 경증치매 보장과 가격 그리고 나이별 보험료",
+  "pattern": "보험 — 사장님 제시 타이틀·소제목 그대로 (소제목 4개 = qa 4개)",
+  "subheads": [
+    "치매보험 꼭 필요한가요?",
+    "경증치매도 보장되나요?",
+    "치매보험 가격은 얼마인가요?",
+    "나이별 보험료는 얼마나 차이나나요?"
+  ],
+  "source": "https://kpub.knia.or.kr/productDisc/longTermGuarantee/carePolicyInsurance.do",
+  "extract": "scripts/output/source-dementia-price-by-age.txt",
+  "approved": true,
+  "approvedAt": "2026-09-07",
+  "approvedBy": "사장님 (채팅에서 타이틀·소제목 직접 제시 후 승인)",
+  "note": "사장님이 타이틀과 소제목을 채팅으로 직접 제시하고 \"타이틀 소제목 그냥 이대로 사용하면 돼\" 로 승인. 이후 \"나머지 이어서 작성하면 되\" 로 잔여분 승인. 원안 18편 중 3번(하지정맥류·비염·마운자로·대상포진)은 사장님이 \"잘못나온타이틀 패스\" 로 제외 — 실손보험 허브에 소제목 4개가 모두 기존 스포크로 존재해 중복이었다."
+}

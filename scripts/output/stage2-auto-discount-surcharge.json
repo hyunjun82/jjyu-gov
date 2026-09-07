@@ -1,0 +1,18 @@
+{
+  "slug": "auto-discount-surcharge",
+  "keyword": "자동차보험 할증 할인특약",
+  "title": "자동차보험 할증 기준과 할인 특약, 마일리지 블랙박스에 자동차상해는?",
+  "pattern": "보험 — 사장님 제시 타이틀·소제목 그대로 (소제목 4개 = qa 4개)",
+  "subheads": [
+    "자동차보험 할증 기준은 어떻게 되나요?",
+    "할인 특약에는 무엇이 있나요?",
+    "마일리지·블랙박스·자녀할인은 얼마인가요?",
+    "자동차상해와 자기신체사고 중 뭐가 유리한가요?"
+  ],
+  "source": "https://kpub.knia.or.kr/carInsuranceDisc/discountExtra/discountInf.do",
+  "extract": "scripts/output/source-auto-discount-surcharge.txt",
+  "approved": true,
+  "approvedAt": "2026-09-07",
+  "approvedBy": "사장님 (채팅에서 타이틀·소제목 직접 제시 후 승인)",
+  "note": "사장님이 타이틀과 소제목을 채팅으로 직접 제시하고 \"타이틀 소제목 그냥 이대로 사용하면 돼\" 로 승인. 이후 \"나머지 이어서 작성하면 되\" 로 잔여분 승인. 원안 18편 중 3번(하지정맥류·비염·마운자로·대상포진)은 사장님이 \"잘못나온타이틀 패스\" 로 제외 — 실손보험 허브에 소제목 4개가 모두 기존 스포크로 존재해 중복이었다."
+}

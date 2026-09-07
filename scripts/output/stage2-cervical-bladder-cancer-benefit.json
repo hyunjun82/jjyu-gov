@@ -1,0 +1,18 @@
+{
+  "slug": "cervical-bladder-cancer-benefit",
+  "keyword": "자궁경부암 갑상선암 방광암",
+  "title": "자궁경부암 비용과 갑상선암 보험, 방광암 진단비와 표적항암치료",
+  "pattern": "보험 — 사장님 제시 타이틀·소제목 그대로 (소제목 4개 = qa 4개)",
+  "subheads": [
+    "자궁경부암 검사비·수술비는 얼마인가요?",
+    "갑상선암도 진단비 나오나요?",
+    "방광암 진단비는 얼마인가요?",
+    "표적항암치료 비용도 보장되나요?"
+  ],
+  "source": "https://www.koicd.kr/kcd/kcd.do?degree=04&kcd=C53",
+  "extract": "scripts/output/source-cervical-bladder-cancer-benefit.txt",
+  "approved": true,
+  "approvedAt": "2026-09-07",
+  "approvedBy": "사장님 (채팅에서 타이틀·소제목 직접 제시 후 승인)",
+  "note": "사장님이 타이틀과 소제목을 채팅으로 직접 제시하고 \"타이틀 소제목 그냥 이대로 사용하면 돼\" 로 승인. 이후 \"나머지 이어서 작성하면 되\" 로 잔여분 승인. 원안 18편 중 3번(하지정맥류·비염·마운자로·대상포진)은 사장님이 \"잘못나온타이틀 패스\" 로 제외 — 실손보험 허브에 소제목 4개가 모두 기존 스포크로 존재해 중복이었다."
+}
