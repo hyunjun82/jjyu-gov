@@ -368,6 +368,13 @@ export const energyVoucherPolicy: PolicyData = {
 
 export const energyVoucherSpokes: SpokeData[] = [
   {
+    slug: 'winter-application-usage-guide',
+    role: 'usage',
+    title: '2026 에너지바우처 최대 70만원, 동절기 신청부터 사용법까지',
+    content:
+      '4인 이상 세대 연 701,300원. 신청 1회(6.15~12.31)로 하·동절기 모두 커버, 동절기는 요금차감 또는 국민행복카드로 사용.',
+  },
+  {
     slug: 'eligibility',
     role: 'eligibility',
     title: '에너지바우처 신청 자격',

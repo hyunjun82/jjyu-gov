@@ -351,6 +351,7 @@ import { 에너지바우처당겨쓰기SpokeContent } from '@/app/policy/[id]/[s
 import { 에너지바우처전기할인SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/전기요금할인';
 import { 에너지바우처냉방지원금SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/냉방지원금';
 import { 에너지바우처연탄전환SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/연탄전환';
+import { 에너지바우처동절기신청사용법SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/동절기신청사용법';
 import { 에너지바우처신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/에너지바우처/신청방법';
 /* ── 고효율가전 (slug: efficient-appliance-support) ── */
 import { 효율가전대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/고효율가전/대상';
@@ -2277,6 +2278,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '냉방지원금':   에너지바우처냉방지원금SpokeContent,
     '연탄전환':     에너지바우처연탄전환SpokeContent,
     '신청방법':     에너지바우처신청방법SpokeContent,
+    'winter-application-usage-guide': 에너지바우처동절기신청사용법SpokeContent,
   },
 
   'efficient-appliance-support': {

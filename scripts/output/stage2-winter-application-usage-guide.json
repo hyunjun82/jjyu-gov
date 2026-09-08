@@ -1,0 +1,20 @@
+{
+  "slug": "winter-application-usage-guide",
+  "keyword": "에너지바우처 동절기 신청·사용법",
+  "title": "2026 에너지바우처 최대 70만원, 동절기 신청부터 사용법까지",
+  "pattern": "복지 — 사장님 제시 타이틀(경쟁사 참고 URL 포함) 승인",
+  "subheads": [
+    "동절기 에너지바우처, 최대 얼마까지 받나요?",
+    "동절기 신청은 언제, 어떻게 하나요?",
+    "동절기 사용기간은 언제까지인가요?",
+    "동절기에는 어떻게 사용하나요?",
+    "하절기에 다 못 쓴 금액도 동절기에 쓸 수 있나요?",
+    "동절기 다른 난방 지원과 중복해서 받을 수 있나요?"
+  ],
+  "source": "한국에너지공단 에너지바우처 공식 홈페이지(energyv.or.kr) — data/policies/energy-voucher.ts에서 이미 검증된 사실 재구성",
+  "extract": "scripts/output/source-winter-application-usage-guide.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (채팅에서 welfarehello.com 참고 URL과 함께 타이틀 제시, '한눈에' 삭제 지시 후 승인)",
+  "note": "에너지바우처는 기존 허브에 스포크 14개(냉방지원금·당겨쓰기·신청방법 등)가 이미 있어 AskUserQuestion으로 처리 방향을 물었고, 사장님이 '타이틀은 사용법까지만'이라며 '한눈에'를 뺀 타이틀로 신규 스포크 작성을 확정. 기존 여름(냉방지원금) 스포크의 겨울판 대응 콘텐츠로, 새 수치 없이 이미 발행된 energy-voucher.ts/당겨쓰기.tsx 사실을 동절기 신청+사용법 각도로 재구성."
+}
