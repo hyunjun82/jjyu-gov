@@ -1,0 +1,40 @@
+{
+  "slug": "hankook-capital-loan",
+  "name": "한국캐피탈",
+  "aliases": [
+    "한국캐피탈 대출",
+    "한국캐피탈대출"
+  ],
+  "industry": "loan",
+  "brandColor": "#E4032E",
+  "official": "https://www.hankookcapital.co.kr",
+  "sourceUrl": "https://www.hankookcapital.co.kr/ib20/mnu/HKCCUS000000",
+  "sourceName": "한국캐피탈 ARS안내",
+  "verifiedAt": "2026-09-08",
+  "hq": "서울시 중구 을지로170, 11층(을지로4가 을지트윈타워)",
+  "main": {
+    "label": "대표번호상담",
+    "tel": "1522-2299"
+  },
+  "hours": {
+    "weekday": "상담원 연결시간 : 오전 9시 ~ 오후 6시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "토, 일요일 및 공휴일 휴무"
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "신용대출문의" },
+      { "key": "2", "what": "리스,할부,자동차,기업금융 대출문의" },
+      { "key": "3", "what": "개인 신용대출관련문의" },
+      { "key": "4", "what": "연체관련 문의" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호상담",
+      "tel": "1522-2299",
+      "note": "신용대출·리스·할부·자동차·기업금융·연체 문의"
+    }
+  ]
+}

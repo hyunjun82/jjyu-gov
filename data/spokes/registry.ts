@@ -1688,6 +1688,7 @@ import { 자동차보험할인할증기준할인특약자동차상해SpokeConten
 import { 치매보험경증치매보장가격SpokeContent } from '@/app/policy/[id]/[spoke]/content/치매보험/경증치매보장가격';
 import { 조기폐차서울조기폐차2026SpokeContent } from '@/app/policy/[id]/[spoke]/content/조기폐차/서울조기폐차2026';
 import { 동물등록서울자진신고2026SpokeContent } from '@/app/policy/[id]/[spoke]/content/동물등록/서울자진신고2026';
+import { hankookCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hankook-capital-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'dementia-insurance': {
@@ -1718,6 +1719,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'comwel': comwelCallCenterSpokeContent,
   },
   'loan-call-center': {
+    'hankook-capital-loan': hankookCapitalLoanCallCenterSpokeContent,
     'kamco-loan': kamcoLoanCallCenterSpokeContent,
     'kblife-loan': kblifeLoanCallCenterSpokeContent,
     'citi-card-loan': citiCardLoanCallCenterSpokeContent,
