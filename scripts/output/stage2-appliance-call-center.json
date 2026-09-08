@@ -1,0 +1,19 @@
+{
+  "slug": "appliance-call-center",
+  "keyword": "가전제품 AS 고객센터",
+  "title": "가전제품 AS 고객센터 전화번호, AS 접수 방법과 출장비 모르면 손해",
+  "pattern": "고객센터 허브 8번째 신설 — 기존 7개(보험·증권·카드·통신·온라인·대출·공공기관)와 같은 구조, 업종만 가전 AS로 신규",
+  "subheads": [
+    "가전제품 AS 고객센터 전화번호는 어디서 확인하나요?",
+    "상담원과 바로 연결하려면 어떻게 하나요?",
+    "주말이나 밤에 고장 나면 어떻게 하나요?",
+    "출장비는 얼마인가요?",
+    "서비스센터 방문은 어디로 가나요?"
+  ],
+  "source": "드롱기샵 고객센터 안내(delonghishop.co.kr/service/cs) + 출장비 공지(board seq=510) — 대표번호·상담시간·출장비 실측",
+  "extract": "scripts/output/source-delonghi-call-center.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (AskUserQuestion — 금융권 소진 후 '가전제품 AS 새 허브 개설' 선택)",
+  "note": "filefarm.co.kr 최신글목록(글목록 풀타이틀) 300개 대조에서 가전 AS 브랜드 21개 발견, 기존 7개 허브 틀에 안 맞아 신설 결정. new-call-center.ts INDUSTRY 맵에 'appliance' 항목 추가 + check-callcenter.ts 고유어(출장비·AS 접수·부품 주문·설치 예약) 등록 + 허브 파일(id 808) 신설. 첫 스포크는 드롱기(080-848-8800, 출장비 3만원 — 공식 공지로 확인, VIP클럽/오피스클럽 번호는 별도 출처 확인 안 돼 이번엔 안 씀)."
+}

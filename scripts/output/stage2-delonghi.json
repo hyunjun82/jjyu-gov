@@ -1,0 +1,19 @@
+{
+  "slug": "delonghi",
+  "keyword": "드롱기 고객센터",
+  "title": "드롱기 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?",
+  "pattern": "가전 AS 고객센터 — new-call-center.ts 표준 템플릿(회사 JSON 승인, 신설 industry: appliance 첫 사례)",
+  "subheads": [
+    "드롱기 고객센터 전화번호 몇 번인가요?",
+    "상담원과 바로 연결하려면 몇 번 누르나요?",
+    "고객센터 영업시간·운영시간은 어떻게 되나요?",
+    "드롱기 고객센터 위치는 어디인가요?",
+    "다른 가전업체 고객센터 번호도 필요한데요"
+  ],
+  "source": "드롱기샵 고객센터 안내(delonghishop.co.kr/service/cs) + 출장비 공지(board seq=510)",
+  "extract": "scripts/output/source-delonghi-call-center.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (가전제품 AS 새 허브 개설 승인 — 첫 스포크로 검증)",
+  "note": "filefarm.co.kr 최신글목록 300개 대조에서 발견한 가전 AS 브랜드 21개 중 첫 작성. 대표번호는 Naver AI 요약과 다른 번호(080-488-7711, 블로그 출처)가 섞여 있어 공식 사이트(delonghishop.co.kr)에서 직접 재확인 후 080-848-8800으로 확정."
+}

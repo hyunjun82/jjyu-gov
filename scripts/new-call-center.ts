@@ -281,6 +281,32 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; unit: s
     idStep: '주민등록번호와 사업장 관리번호',
     hubWord: '공공기관 고객센터',
   },
+  /* 가전제품 AS (2026-09-08 신설)
+     보험·카드처럼 회사가 아니라 브랜드다. 급할 때가 '고장'이라 사고접수가 아니라
+     AS 접수다. 드롱기 실측(2026-09-08): 전화 상담은 평일 09~18시뿐이고 주말·야간엔
+     상담원이 없는 대신 홈페이지 온라인 AS 접수는 열려 있다 — 사고접수처럼 24시간
+     받는 게 아니라 '무인 접수창구로 갈아탄다'는 점이 이 업종의 다른 야간 구조다. */
+  appliance: {
+    hub: 'appliance-call-center',
+    unit: '회사',
+    dir: '가전고객센터',
+    word: '가전업체',
+    labels: ['가전업체 번호 모아보기', '다른 가전업체 번호 보기', '가전업체별 고객센터 목록', '가전업체 전체 목록 열기'],
+    jobs: 'AS 접수, 부품 주문, 설치·출장 예약',
+    remote: 'AS 접수나 부품 주문',
+    q5q: '다른 가전업체 고객센터 번호도 필요한데요',
+    q5a: '집에 가전이 한 브랜드만 있지 않습니다. 이번엔 이 회사, 저번엔 저 회사여서 고장 날 때마다 번호를 새로 찾게 됩니다.',
+    h1: (n: string) => `${n} 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?`,
+    night: '야간·주말에는 전화 상담원이 없고 홈페이지 온라인 AS 접수로 갈립니다',
+    goods: 'AS·부품 등 업무별 번호',
+    offhour: '온라인 AS 접수',
+    offhourLong: '전화 상담은 안 되지만 홈페이지로 온라인 AS 접수는 받습니다',
+    agent: '상담원',
+    heroLead: '전화 상담시간이 지나면 온라인 AS 접수로 갈립니다',
+    dayNote: 'AS 접수와 부품 문의는 평일 상담시간에 거는 편이 빠릅니다.',
+    idStep: '제품 모델명과 구매일자',
+    hubWord: '가전 고객센터',
+  },
 };
 const IND = INDUSTRY[C.industry ?? 'insurance'];
 if (!IND) die(`모르는 industry: ${C.industry} (쓸 수 있는 값: ${Object.keys(INDUSTRY).join(', ')})`);

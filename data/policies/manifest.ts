@@ -345,6 +345,7 @@ import { telecomCallCenterPolicy, telecomCallCenterSpokes } from './telecom-call
 import { onlineCallCenterPolicy, onlineCallCenterSpokes } from './online-call-center';
 import { loanCallCenterPolicy, loanCallCenterSpokes } from './loan-call-center';
 import { publicCallCenterPolicy, publicCallCenterSpokes } from './public-call-center';
+import { applianceCallCenterPolicy, applianceCallCenterSpokes } from './appliance-call-center';
 import { kPassModuCardPolicy, kPassModuCardSpokes } from './k-pass-modu-card';
 import { hiddenInsuranceMoneyPolicy, hiddenInsuranceMoneySpokes } from './hidden-insurance-money';
 import { movieDiscountVoucherPolicy, movieDiscountVoucherSpokes } from './movie-discount-voucher';
@@ -1732,6 +1733,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'online-call-center': onlineCallCenterPolicy,
   'loan-call-center': loanCallCenterPolicy,
   'public-call-center': publicCallCenterPolicy,
+  'appliance-call-center': applianceCallCenterPolicy,
   'k-pass-modu-card': kPassModuCardPolicy,
   'hidden-insurance-money': hiddenInsuranceMoneyPolicy,
   'movie-discount-voucher': movieDiscountVoucherPolicy,
@@ -3277,6 +3279,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'online-call-center': onlineCallCenterSpokes,
   'loan-call-center': loanCallCenterSpokes,
   'public-call-center': publicCallCenterSpokes,
+  'appliance-call-center': applianceCallCenterSpokes,
   'k-pass-modu-card': kPassModuCardSpokes,
   'hidden-insurance-money': hiddenInsuranceMoneySpokes,
   'movie-discount-voucher': movieDiscountVoucherSpokes,

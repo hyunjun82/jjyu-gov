@@ -1692,8 +1692,12 @@ import { hankookCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spo
 import { goryoSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/goryo-savings-loan';
 import { kakaopayInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kakaopay-insurance';
 import { shinhanEzInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/shinhan-ez-insurance';
+import { delonghiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/delonghi';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'appliance-call-center': {
+    'delonghi': delonghiCallCenterSpokeContent,
+  },
   'dementia-insurance': {
     'dementia-price-by-age': 치매보험경증치매보장가격SpokeContent,
   },

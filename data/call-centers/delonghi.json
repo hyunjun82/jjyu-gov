@@ -1,0 +1,38 @@
+{
+  "slug": "delonghi",
+  "name": "드롱기",
+  "aliases": [
+    "드롱기 코리아",
+    "드롱기샵",
+    "De'Longhi"
+  ],
+  "industry": "appliance",
+  "brandColor": "#000000",
+  "official": "https://www.delonghishop.co.kr",
+  "sourceUrl": "https://www.delonghishop.co.kr/service/cs",
+  "sourceName": "드롱기샵 고객센터 안내",
+  "verifiedAt": "2026-09-08",
+  "hq": "경기도 시흥시 마유로118번길 11",
+  "main": {
+    "label": "고객센터",
+    "tel": "080-848-8800"
+  },
+  "hours": {
+    "weekday": "오전 09:00 ~ 오후 06:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "주말, 공휴일 휴무",
+    "lunch": "오후 12:30 ~ 오후 01:30"
+  },
+  "hoursNote": "[2026-09-08] 드롱기샵 고객센터 페이지: 대표번호 080-848-8800, 운영시간 오전 09:00~오후 06:00, 점심시간 오후 12:30~오후 01:30, 주말·공휴일 휴무. 출장비는 별도 공지(2020-01-31, board seq=510)로 확인 — 2019년 5월 기준 20,000원에서 30,000원으로 인상.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "080-848-8800",
+      "note": "AS 접수·수리·설치·부품 주문, 오전 09:00~오후 06:00"
+    }
+  ]
+}
