@@ -1,0 +1,45 @@
+{
+  "slug": "shinhan-ez-insurance",
+  "name": "신한EZ손해보험",
+  "aliases": [
+    "신한이지손해보험",
+    "신한EZ손보",
+    "신한 SOL EZ손보"
+  ],
+  "industry": "insurance",
+  "brandColor": "#0046FF",
+  "official": "https://www.shinhanez.co.kr",
+  "sourceUrl": "https://www.shinhanez.co.kr/static/cus/CUS10000M01.html",
+  "sourceName": "신한EZ손해보험 고객센터 ARS 안내",
+  "verifiedAt": "2026-09-08",
+  "hq": "서울특별시 중구 남대문로 113 DB다동빌딩 5층",
+  "main": {
+    "label": "고객센터",
+    "tel": "1544-2580"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": {
+    "day": [
+      { "key": "1", "what": "내 계약조회" },
+      { "key": "2", "what": "보험금 청구" },
+      { "key": "3", "what": "보험료 납입" },
+      { "key": "4", "what": "증명서 발행" },
+      { "key": "5", "what": "보험 가입" },
+      { "key": "6", "what": "보험 해지" },
+      { "key": "*", "what": "상담원 연결" },
+      { "key": "0", "what": "다시 듣기" }
+    ],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1544-2580",
+      "note": "평일 09:00~18:00"
+    }
+  ]
+}

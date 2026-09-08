@@ -1,0 +1,19 @@
+{
+  "slug": "kakaopay-insurance",
+  "keyword": "카카오페이손해보험 고객센터",
+  "title": "카카오페이손해보험 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?",
+  "pattern": "보험 고객센터 — new-call-center.ts 표준 템플릿(회사 JSON 승인)",
+  "subheads": [
+    "카카오페이손해보험 고객센터 전화번호 몇 번인가요?",
+    "상담원과 바로 연결하려면 몇 번 누르나요?",
+    "고객센터 영업시간·운영시간은 어떻게 되나요?",
+    "카카오페이손해보험 고객센터 위치는 어디인가요?",
+    "다른 보험사 고객센터 번호도 필요한데요"
+  ],
+  "source": "카카오페이손해보험 고객센터 안내(kakaopayinscorp.co.kr) — 대표번호·상담시간",
+  "extract": "scripts/output/source-kakaopay-insurance-call-center.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (보험 우선순위 지시 — 단가가 가장 좋음)",
+  "note": "생명보험협회·손해보험협회 정회원사 명단 전수 대조 결과 발견한 빠진 손해보험사 2곳 중 하나. 서울보증보험은 이미 있었음(중복 확인)."
+}

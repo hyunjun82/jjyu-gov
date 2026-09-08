@@ -154,6 +154,8 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'shinhan-ez-insurance', role: 'eligibility', title: '신한EZ손해보험 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
+  { slug: 'kakaopay-insurance', role: 'eligibility', title: '카카오페이손해보험 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'meritz-fire', role: 'eligibility', title: '메리츠화재 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'meritz-fire-direct', role: 'eligibility', title: '메리츠화재 다이렉트 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },
   { slug: 'lotte-insurance', role: 'eligibility', title: '롯데손해보험 고객센터 전화번호·상담원 연결·영업시간, 주말에도 될까?' },

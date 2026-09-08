@@ -1,0 +1,295 @@
+SLUG: shinhan-ez-insurance-call-center
+RECEIVED: 2026-09-08
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/shinhan-ez-insurance-call-center-*.png)
+
+===== [1] https://www.shinhanez.co.kr/static/cus/CUS10000M01.html =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/shinhan-ez-insurance-call-center-1.png
+CHARS: 619
+
+본문으로 건너뛰기
+신한EZ손해보험
+소비자포털 공시실 기업고객
+새창으로 열림
+ 신한 SOL EZ손보
+새창으로 열림
+회사소개
+상품안내
+고객센터
+채용
+고객센터
+궁금하신 내용은 무엇이든 물어보세요.
+
+항상 고객 입장에서 최선의 서비스를 제공하겠습니다.
+
+상담시간 안내
+평일 09:00 ~ 18:00
+알기 쉬운 ARS 안내
+
+ARS (발신자 부담 전화)
+
+1544-2580
+1
+번
+내 계약조회
+2
+번
+보험금 청구
+3
+번
+보험료 납입
+4
+번
+증명서 발행
+5
+번
+보험 가입
+6
+번
+보험 해지
+7
+번
+8
+번
+9
+번
+*
+별표
+상담원 연결
+0
+번
+다시 듣기
+#
+우물정자
+서비스 바로가기
+사이트 이용안내
+메뉴
+펼치기
+	
+소비자보호
+메뉴
+펼치기
+	
+고객이 알아야할 사항
+메뉴
+펼치기
+	
+신한금융그룹
+메뉴
+펼치기
+
+신한EZ손해보험
+
+상품공시 가격공시 보험금융상품등록부 개인정보처리방침 신용정보활용체제
+고객센터 1544-2580 장애인전용 이메일 문의 shinhanezops@shinhan.com
+주소
+04522 서울특별시 중구 남대문로 113 DB다동빌딩 5층 신한EZ손해보험 주식회사 대표이사 강병관 사업자등록번호 220-86-65241
+ⓒ Shinhan EZ General Insurance Co., Ltd.
+	
+상단으로 이동
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+윤리경영준법제보센터신한이지브랜드사회공헌주주사소개제휴문의신한WAY2.0미션핵심가치비전미디어룸미디어룸신한금융그룹새창으로 열림신한금융그룹새창으로 열림
+
+추천상품신한 SOL 해외여행베스트상품신한 SOL 해외유학신규상품신한 SOL 주택화재신규상품여행케어해외여행보험해외장기체류보험국내여행보험일본여행보험Auto케어운전자보험Auto케어서비스메디케어건강보험뇌·심장보험암보험면역질환보험실손의료보험화재보험화재보험미니생활금융안심보험미니골프보험미니운동보험단체상해보험신한 나라사랑카드
+
+고객센터고객센터보험용어사전고객의 소리보험금청구보험금 청구안내필요서류안내보험범죄신고센터보험사기 할증보험료 환급안내실손의료비 청구대행계약조회계약조회공지사항공지사항
+
+사이트 이용약관
+ 개인정보처리방침
+ 고객정보취급방침
+ 영상정보처리기기운영방침
+
+과오납보험료 환급안내새창으로 열림
+ 서민금융 1332새창으로 열림
+ 장애인,장기기증자 보험가입차별신고센터
+
+보험계약 청약시 유의사항(사이버몰 설치운영 기준)
+ 전자금융거래 유의사항
+ 전자금융거래 이용약관
+ 신용정보활용체제공시
+ 개인신용정보보호
+ 연락금지(두낫콜) 및 야간영업금지신청&해제
+
+신한은행
+ 신한카드
+ 신한투자증권
+ 신한라이프
+ 신한캐피탈
+ 신한자산운용
+ 제주은행
+ 신한저축은행
+ 신한자산신탁
+ 신한DS
+ 신한펀드파트너스
+ 신한신용정보
+ 신한리츠운용
+ 신한AI
+ 신한벤처투자
+ 신한장학재단
+ 신한금융희망재단
+
+loadHTML("../include/sitemap.html");
+ 신한EZ손해보험
+ 메뉴명 검색
+ 입력 내용 삭제
+ 검색
+ 회사소개
+ 윤리경영
+ 준법제보센터
+ 신한이지
+ 브랜드
+ 사회공헌
+ 주주사소개
+ 제휴문의
+ 신한WAY2.0
+ 미션
+ 핵심가치
+ 비전
+ 미디어룸
+ 미디어룸
+ 신한금융그룹새창으로 열림
+ 신한금융그룹새창으로 열림
+ 상품안내
+ 추천상품
+ 신한 SOL 해외여행 Best
+ 신한 SOL 해외유학 New
+ 신한 SOL 주택화재 New
+ 여행케어
+ 해외여행보험
+ 해외장기체류보험
+ 국내여행보험
+ 일본여행보험
+ Auto케어
+ 운전자보험
+ Auto케어서비스
+ 메디케어
+ 건강보험
+ 뇌·심장보험
+ 암보험
+ 면역질환보험
+ 실손의료보험
+ 화재보험
+ 화재보험
+ 미니생활
+ 금융안심보험
+ 미니골프보험
+ 미니운동보험
+ 단체상해보험
+ 나라사랑카드 단체상해보험
+ 고객센터
+ 고객센터
+ 고객센터
+ 보험용어사전
+ 고객의 소리
+ 보험금청구
+ 보험금 청구안내
+ 필요서류안내
+ 보험범죄신고센터
+ 보험사기 할증보험료 환급안내
+ 실손의료비 청구대행
+ 계약조회
+ 공지사항
+ 채용
+ 소비자포털
+ 금융소비자보호법
+ 금융소비자보호체계
+ 금융소비자 실태평가
+ 민원건수 공시
+ 소비자보호 공지사항
+ 고객의 소리
+ 공시실
+ 경영공시
+ 사회공헌활동공시
+ 방카슈랑스 모집수수료율
+ 직업 및 위험등급분류표
+ 상품공시
+ 가격공시
+ 보호금융상품등록부
+ 사이트 이용안내
+ 사이트 이용약관
+ 개인정보처리방침
+ 고객정보취급방침
+ 영상정보처리기기운영방침
+ 고객이 알아야 할 사항
+ 보험계약 청약시 유의사항(사이버몰 설치운영 기준)
+ 전자금융거래 유의사항
+ 전자금융거래 이용약관
+ 신용정보활용체제공시
+ 개인신용정보보호
+ 연락금지(두낫콜) 및 야간영업금지 신청&해제
+ 소비자보호
+ 과오납보험료 환급안내새창으로 열림
+ 서민금융 1332새창으로 열림
+ 장애인, 장기기증자보험가입 차별신고센터
+ 기업고객새창으로 열림
+ 신한 SOL EZ손보새창으로 열림
+ 상품안내
+ 추천상품
+ 신한SoL해외여행 베스트상품
+ 신한SoL해외유학 신규상품
+ 신한SoL주택화재 신규상품
+ 검색 결과가 없습니다.
+전체 메뉴 닫기
+ $(async function(){
+ if(!commUtil.isMobile()){
+ $('.menuLink01').show();
+ }
+ $("div.sitemapHead").on("click", "#btn_menu_search, .btn-clear", function(e){
+ goSearch();
+ });
+ $("#menu_search").on("keyup", function(key){
+ if(key.keyCode==13 ){
+ goSearch();
+ }
+ });
+ });
+ function goSearch(){
+ var search = $('#menu_search').val();
+ if (search?.trim() != '') {
+ $("div.sitemapBody span:contains('"+ search +"')").each(function(){
+ var regex = new RegExp(search, 'gi');
+ // 하위 엘리먼트가 존재하면
+ if ($(this).children().length) {
+ // 하위 엘리먼트 제거 후 변수에 저장(하이라이트 클래스 제외)
+ let $child = $(this).children().not('.primary').detach();
+ // 검색어에 하이라이트 적용
+ $(this).html($(this).text().replace(regex, "<span class='primary'>" + search + "</span>"));
+ // 하위 엘리먼트 append
+ $(this).append($child);
+ }
+ else {
+ $(this).html( $(this).text().replace(regex, "<span class='primary'>" + search + "</span>"));
+ }
+ });
+ $('.sitemapBody').find('.noData').hide();
+ $("div.sitemapBody li").hide();
+ var temp = $("div.sitemapBody li:contains('"+ search +"')");
+ temp?.length ? $(temp).show() : $('.sitemapBody').find('.noData').show();
+ }
+ }
+ function goPopup(popId){
+ // 보험용어사전
+ if (popId == 'CUS20000P01') location.href = "/static/cus/CUS10000M01.html?insTmlyYn=Y";
+ // 팔요서류안내
+ else if (popId == 'CUS50000P02') location.href = "/static/cus/CUS50000M01.html?docInfoYn=Y";
+ }
+ function icoBtnClose2(){
+ var search = $('#menu_search').val();
+ $("div.sitemapBody span:contains('"+ search +"')").each(function(){
+ var regex = new RegExp(search, 'gi');
+ if ($(this).children().length) {
+ // 하위 엘리먼트 제거 후 변수에 저장(하이라이트 클래스 제외)
+ let $child = $(this).children().not('.primary').detach();
+ $(this).html($(this).text().replace(regex, search));
+ $(this).append($child);
+ }
+ else $(this).html( $(this).text().replace(regex, search));
+ });
+ $("div.sitemapBody li").show();
+ $('#menu_search').val('');
+ $("#wrap").show();
+ $("#sitemap").hide().find('.noData').hide();
+ }
+ //commUiFnInput.events();

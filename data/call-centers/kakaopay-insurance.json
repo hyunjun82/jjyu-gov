@@ -1,0 +1,36 @@
+{
+  "slug": "kakaopay-insurance",
+  "name": "카카오페이손해보험",
+  "aliases": [
+    "카카오페이 손해보험",
+    "카카오페이손보"
+  ],
+  "industry": "insurance",
+  "brandColor": "#FEE500",
+  "official": "https://kakaopayinscorp.co.kr",
+  "sourceUrl": "https://kakaopayinscorp.co.kr/customer-center/customer-center",
+  "sourceName": "카카오페이손해보험 고객센터 안내",
+  "verifiedAt": "2026-09-08",
+  "hq": "경기도 성남시 분당구 판교역로 152, 알파돔타워 4층",
+  "main": {
+    "label": "고객센터",
+    "tel": "1544-0022"
+  },
+  "hours": {
+    "weekday": "전화상담 평일 9시 ~ 18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "주말 · 공휴일 휴무"
+  },
+  "hoursNote": "[2026-09-08] 고객센터 페이지: 전화상담·보험금 신청·카카오톡 상담 모두 평일 9시~18시, 주말·공휴일 휴무로 동일하게 안내. 야간 상담시간 표기 없음.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1544-0022",
+      "note": "전화상담 평일 9시~18시, 주말·공휴일 휴무"
+    }
+  ]
+}
