@@ -803,6 +803,7 @@ import { 판로지원라이브커머스SpokeContent } from '@/app/policy/[id]/[s
 import { 판로지원쇼핑몰입점SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/쇼핑몰입점';
 import { 판로지원신청방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/신청방법';
 import { 판로지원대상자격SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/대상자격';
+import { 소상공인판로지원물류서비스지원SpokeContent } from '@/app/policy/[id]/[spoke]/content/소상공인판로지원/물류서비스지원';
 /* ── 중저신용자 생활안정자금 (slug: living-stability-loan) ── */
 import { 생활안정자금대상조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/대상조건';
 import { 생활안정자금한도금리SpokeContent } from '@/app/policy/[id]/[spoke]/content/생활안정자금/한도금리';
@@ -3051,6 +3052,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     '쇼핑몰입점':   판로지원쇼핑몰입점SpokeContent,
     '신청방법':     판로지원신청방법SpokeContent,
     '대상자격':     판로지원대상자격SpokeContent,
+    'logistics-support-90-subsidy': 소상공인판로지원물류서비스지원SpokeContent,
   },
 
   'card-fee-support': {

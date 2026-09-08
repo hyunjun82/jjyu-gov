@@ -17,7 +17,7 @@ export const smallBizOnlineSalesPolicy = {
     신청수: { value: '8개 중 최대 4개 동시 신청', source: { url: 'https://fanfandaero.kr', text: '최대 4개', verifiedAt: '2026-06-28' } },
     단계: { value: '디지털 역량별 입문·실전 맞춤 지원', source: { url: 'https://fanfandaero.kr', text: '역량별 맞춤', verifiedAt: '2026-06-28' } },
     채널: { value: '쇼핑몰 입점·TV홈쇼핑·T커머스·라이브커머스·로컬상품관', source: { url: 'https://fanfandaero.kr', text: '판매 채널', verifiedAt: '2026-06-28' } },
-    규모: { value: '2026년 1만 4,290개사 지원', source: { url: 'https://fanfandaero.kr', text: '14,290개사', verifiedAt: '2026-06-28' } },
+    규모: { value: '2026년 1만 4,290개사 지원', source: { url: 'https://fanfandaero.kr', text: '2026년 14,290개사', verifiedAt: '2026-06-28' } },
     신청: { value: '판판대로(fanfandaero.kr)·소상공인24(sbiz24.kr)', source: { url: 'https://fanfandaero.kr', text: '신청 누리집', verifiedAt: '2026-06-28' } },
     대상: { value: '온라인 진출을 원하는 소상공인', source: { url: 'https://www.sbiz24.kr', text: '소상공인 대상', verifiedAt: '2026-06-28' } },
     문의: { value: '소상공인통합콜센터 ☎1533-0100', source: { url: 'https://www.semas.or.kr', text: '1533-0100', verifiedAt: '2026-06-28' } },
@@ -73,7 +73,7 @@ export const smallBizOnlineSalesPolicy = {
     },
     {
       q: '지자체 온라인 판로사업도 있나요?', anchor: 'q-local',
-      intro: '네. 전국 사업(중기부·유통원)과 별도로, 서울·경북 등 지방자치단체나 지역 경제진흥원이 자체적으로 지역 소상공인 온라인 판로개척 사업을 운영하기도 합니다. 지자체 사업도 상세페이지·콘텐츠 제작, 쇼핑몰 입점, 라이브커머스, 인플루언서 협업 등 비슷한 내용을 지원하지만, 대상·지원 규모·신청기간이 지역마다 다르고 모집 인원이 적은 경우가 많아 조기 마감되기도 합니다. 따라서 전국 사업(판판대로)과 함께, 본인 사업장 소재지 지자체나 지역 경제진흥원의 온라인 판로 사업도 확인해 보면 기회를 넓힐 수 있습니다.',
+      intro: '네. 전국 사업(중기부·유통원)과 별도로, 서울·경북 등 지방자치단체나 지역 경제진흥원이 자체적으로 지역 소상공인 온라인 판로개척 사업을 운영하기도 합니다. 지자체 사업도 상세페이지·콘텐츠 제작, 쇼핑몰 입점, 라이브커머스, 인플루언서 협업 등 비슷한 내용을 지원하지만, 대상·지원 규모·신청기간이 지역마다 다르고 모집 인원이 적으면 조기 마감되기도 합니다. 따라서 전국 사업(판판대로)과 함께, 본인 사업장 소재지 지자체나 지역 경제진흥원의 온라인 판로 사업도 확인해 보면 기회를 넓힐 수 있습니다.',
       highlights: ['지자체 별도 운영', '비슷한 내용 지원', '모집 인원 적음', '지역 확인'],
       box: { label: '지자체', content: '지자체·지역 경제진흥원도 온라인 판로사업 운영(모집 적어 조기 마감 多). 전국+지역 함께 확인.' },
       sourceNote: '* 출처: 지자체·중소벤처기업부',
@@ -94,6 +94,7 @@ export const smallBizOnlineSalesPolicy = {
 } as const;
 
 export const smallBizOnlineSalesSpokes = [
+  { slug: 'logistics-support-90-subsidy', role: 'usage', title: '소상공인 물류 서비스 지원사업 자격과 보조금 90%, 판판대로 신청 방법' },
   { slug: '지원내용', role: 'usage', title: '소상공인 온라인 판로지원 내용, 8개 사업 중 4개', content: '상품개선·상세페이지·콘텐츠·쇼핑몰·라이브커머스·SNS·홍보·물류 중 최대 4개.' },
   { slug: '라이브커머스', role: 'usage', title: '소상공인 라이브커머스 지원, 제작 운영 인플루언서', content: '라이브 방송 기획·촬영·송출, 쇼호스트·인플루언서·숏폼.' },
   { slug: '쇼핑몰입점', role: 'usage', title: '소상공인 온라인 쇼핑몰 입점, TV홈쇼핑 로컬상품관', content: '쇼핑몰 입점·TV홈쇼핑·T커머스·로컬상품관 채널 진출.' },

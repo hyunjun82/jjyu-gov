@@ -379,6 +379,8 @@ import { brainInfarctionI63Policy, brainInfarctionI63Spokes } from './brain-infa
 import { variableLifeInsurancePolicy, variableLifeInsuranceSpokes } from './variable-life-insurance';
 import { fetalInsuranceComparePolicy, fetalInsuranceCompareSpokes } from './fetal-insurance-compare';
 import { insurancePolicyCertificatePolicy, insurancePolicyCertificateSpokes } from './insurance-policy-certificate';
+import { temporaryBusinessHardshipFundPolicy, temporaryBusinessHardshipFundSpokes } from './temporary-business-hardship-fund';
+import { timeDepositRateRanking2026Policy, timeDepositRateRanking2026Spokes } from './time-deposit-rate-ranking-2026';
 import { dollarInsuranceWarningPolicy, dollarInsuranceWarningSpokes } from './dollar-insurance-warning';
 import { scienceCultureVoucherPolicy, scienceCultureVoucherSpokes } from './science-culture-voucher';
 import { inverterAcElectricitySavingPolicy, inverterAcElectricitySavingSpokes } from './inverter-ac-electricity-saving';
@@ -1044,6 +1046,8 @@ export const PoliciesById: Record<string, any> = {
   '812': variableLifeInsurancePolicy,
   '813': fetalInsuranceComparePolicy,
   '814': insurancePolicyCertificatePolicy,
+  '815': temporaryBusinessHardshipFundPolicy,
+  '816': timeDepositRateRanking2026Policy,
   '241': dollarInsuranceWarningPolicy,
   '242': scienceCultureVoucherPolicy,
   '243': inverterAcElectricitySavingPolicy,
@@ -1762,6 +1766,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'variable-life-insurance': variableLifeInsurancePolicy,
   'fetal-insurance-compare': fetalInsuranceComparePolicy,
   'insurance-policy-certificate': insurancePolicyCertificatePolicy,
+  'temporary-business-hardship-fund': temporaryBusinessHardshipFundPolicy,
+  'time-deposit-rate-ranking-2026': timeDepositRateRanking2026Policy,
   'dollar-insurance-warning': dollarInsuranceWarningPolicy,
   'science-culture-voucher': scienceCultureVoucherPolicy,
   'inverter-ac-electricity-saving': inverterAcElectricitySavingPolicy,
@@ -2561,6 +2567,8 @@ export const SpokesById: Record<string, any[]> = {
   '812': variableLifeInsuranceSpokes,
   '813': fetalInsuranceCompareSpokes,
   '814': insurancePolicyCertificateSpokes,
+  '815': temporaryBusinessHardshipFundSpokes,
+  '816': timeDepositRateRanking2026Spokes,
   '241': dollarInsuranceWarningSpokes,
   '242': scienceCultureVoucherSpokes,
   '243': inverterAcElectricitySavingSpokes,
@@ -3829,4 +3837,6 @@ export const SpokesBySlug: Record<string, any[]> = {
   'variable-life-insurance': variableLifeInsuranceSpokes,
   'fetal-insurance-compare': fetalInsuranceCompareSpokes,
   'insurance-policy-certificate': insurancePolicyCertificateSpokes,
+  'temporary-business-hardship-fund': temporaryBusinessHardshipFundSpokes,
+  'time-deposit-rate-ranking-2026': timeDepositRateRanking2026Spokes,
 };
