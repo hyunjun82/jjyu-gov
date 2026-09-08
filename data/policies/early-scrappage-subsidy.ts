@@ -158,4 +158,6 @@ export const earlyScrappageSubsidyPolicy = {
   related: ['vehicle-standard-value'],
 };
 
-export const earlyScrappageSubsidySpokes: never[] = [];
+export const earlyScrappageSubsidySpokes = [
+  { slug: 'seoul-early-scrappage-2026', role: 'usage', title: '2026 서울 조기폐차 지원사업, 최대 1억 2천만 원까지 받는 방법' },
+];
