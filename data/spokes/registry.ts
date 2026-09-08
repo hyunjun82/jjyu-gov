@@ -1689,6 +1689,7 @@ import { 치매보험경증치매보장가격SpokeContent } from '@/app/policy/[
 import { 조기폐차서울조기폐차2026SpokeContent } from '@/app/policy/[id]/[spoke]/content/조기폐차/서울조기폐차2026';
 import { 동물등록서울자진신고2026SpokeContent } from '@/app/policy/[id]/[spoke]/content/동물등록/서울자진신고2026';
 import { hankookCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/hankook-capital-loan';
+import { goryoSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/goryo-savings-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'dementia-insurance': {
@@ -1719,6 +1720,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'comwel': comwelCallCenterSpokeContent,
   },
   'loan-call-center': {
+    'goryo-savings-loan': goryoSavingsLoanCallCenterSpokeContent,
     'hankook-capital-loan': hankookCapitalLoanCallCenterSpokeContent,
     'kamco-loan': kamcoLoanCallCenterSpokeContent,
     'kblife-loan': kblifeLoanCallCenterSpokeContent,

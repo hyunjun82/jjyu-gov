@@ -128,6 +128,7 @@ export const loanCallCenterPolicy = {
 };
 
 export const loanCallCenterSpokes = [
+  { slug: 'goryo-savings-loan', role: 'eligibility', title: '고려저축은행 대출 고객센터 전화번호·상담 연결·영업시간, 대표번호로 될까?' },
   { slug: 'hankook-capital-loan', role: 'eligibility', title: '한국캐피탈 대출 고객센터 전화번호·상담 연결·영업시간, 대표번호로 될까?' },
   { slug: 'metlife-loan', role: 'eligibility', title: '메트라이프생명 대출 고객센터 전화번호·상담 연결·영업시간, 대표번호로 될까?' },
   { slug: 'meritz-fire-loan', role: 'eligibility', title: '메리츠화재 대출 고객센터 전화번호·상담 연결·영업시간, 대표번호로 될까?' },

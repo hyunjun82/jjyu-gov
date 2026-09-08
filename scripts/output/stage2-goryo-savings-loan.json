@@ -1,0 +1,19 @@
+{
+  "slug": "goryo-savings-loan",
+  "keyword": "고려저축은행 고객센터",
+  "title": "고려저축은행 대출 고객센터 전화번호·상담 연결·영업시간, 대표번호로 될까?",
+  "pattern": "대출 고객센터 — new-call-center.ts 표준 템플릿(회사 JSON 승인)",
+  "subheads": [
+    "고려저축은행 고객센터 전화번호 몇 번인가요?",
+    "상담원과 바로 연결하려면 몇 번 누르나요?",
+    "고객센터 영업시간·운영시간은 어떻게 되나요?",
+    "고려저축은행 고객센터 위치는 어디인가요?",
+    "다른 금융사 대출 번호도 필요한데요"
+  ],
+  "source": "고려저축은행 홈 하단 영업점·고객센터 안내(goryosb.co.kr) — 본점 대표번호·디지털뱅킹·야간 신고번호",
+  "extract": "scripts/output/source-goryo-savings-loan-call-center.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (경쟁사 키워드 리스트 필터링 후 금융/보험/대출/카드사 우선 승인)",
+  "note": "filefarm.co.kr 경쟁사 키워드 300개 중복 제거 리스트, 금융/보험/대출/카드사 우선 지시에 따른 두 번째 작성. new-call-center.ts 생성기로 제작, ARS 안내 페이지가 따로 없어 본점 대표전화·디지털뱅킹·야간콜센터 3개 번호만 확인해 실었다."
+}
