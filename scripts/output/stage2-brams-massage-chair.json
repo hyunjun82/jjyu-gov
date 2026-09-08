@@ -1,0 +1,19 @@
+{
+  "slug": "brams-massage-chair",
+  "keyword": "브람스 안마의자 고객센터",
+  "title": "브람스 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?",
+  "pattern": "가전 AS 고객센터 — new-call-center.ts 표준 템플릿(회사 JSON 승인)",
+  "subheads": [
+    "브람스 고객센터 전화번호 몇 번인가요?",
+    "상담원과 바로 연결하려면 몇 번 누르나요?",
+    "고객센터 영업시간·운영시간은 어떻게 되나요?",
+    "브람스 고객센터 위치는 어디인가요?",
+    "다른 가전업체 고객센터 번호도 필요한데요"
+  ],
+  "source": "브람스안마의자 홈 하단 Customer Care(ebrams.co.kr)",
+  "extract": "scripts/output/source-brams-massage-chair-call-center.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (가전제품 AS 새 허브 개설 승인)",
+  "note": "안마의자 렌탈·판매 전문 브랜드. 홈 하단 Customer Care 섹션에서 번호·시간 확인, 웹서치 결과와 교차 일치."
+}

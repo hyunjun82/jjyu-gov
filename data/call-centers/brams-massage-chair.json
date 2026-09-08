@@ -1,0 +1,37 @@
+{
+  "slug": "brams-massage-chair",
+  "name": "브람스",
+  "aliases": [
+    "브람스 안마의자",
+    "브람스생활건강"
+  ],
+  "industry": "appliance",
+  "brandColor": "#8B6F47",
+  "official": "https://ebrams.co.kr",
+  "sourceUrl": "https://ebrams.co.kr/",
+  "sourceName": "브람스안마의자 홈 하단 Customer Care",
+  "verifiedAt": "2026-09-08",
+  "hq": "경기도 광주시 도척면 다람로36번길 31-29",
+  "main": {
+    "label": "고객센터",
+    "tel": "031-766-3993"
+  },
+  "hours": {
+    "weekday": "평일 09:00 - 17:30",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "주말 및 공휴일 휴무",
+    "lunch": "Lunch 12:00 - 13:00"
+  },
+  "hoursNote": "[2026-09-08] 브람스안마의자 홈 하단 Customer Care: 031-766-3993, 평일 09:00 - 17:30 (Lunch 12:00 - 13:00), 주말 및 공휴일 휴무.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "031-766-3993",
+      "note": "평일 09:00 - 17:30, 점심 12:00 - 13:00"
+    }
+  ]
+}

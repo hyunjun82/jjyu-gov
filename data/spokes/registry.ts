@@ -1695,9 +1695,13 @@ import { shinhanEzInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spo
 import { delonghiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/delonghi';
 import { cowayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/coway';
 import { carrierAirconCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/carrier-aircon';
+import { rinnaiBoilerCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/rinnai-boiler';
+import { bramsMassageChairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/brams-massage-chair';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
+    'brams-massage-chair': bramsMassageChairCallCenterSpokeContent,
+    'rinnai-boiler': rinnaiBoilerCallCenterSpokeContent,
     'carrier-aircon': carrierAirconCallCenterSpokeContent,
     'coway': cowayCallCenterSpokeContent,
     'delonghi': delonghiCallCenterSpokeContent,
