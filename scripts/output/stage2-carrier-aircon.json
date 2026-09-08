@@ -1,0 +1,19 @@
+{
+  "slug": "carrier-aircon",
+  "keyword": "오텍캐리어 고객센터",
+  "title": "오텍캐리어 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?",
+  "pattern": "가전 AS 고객센터 — new-call-center.ts 표준 템플릿(회사 JSON 승인)",
+  "subheads": [
+    "오텍캐리어 고객센터 전화번호 몇 번인가요?",
+    "상담원과 바로 연결하려면 몇 번 누르나요?",
+    "고객센터 영업시간·운영시간은 어떻게 되나요?",
+    "오텍캐리어 고객센터 위치는 어디인가요?",
+    "다른 가전업체 고객센터 번호도 필요한데요"
+  ],
+  "source": "캐리어에어컨 고객센터(carriercs.co.kr) — 서비스 접수 대표번호·출장비 안내",
+  "extract": "scripts/output/source-carrier-aircon-call-center.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (가전제품 AS 새 허브 개설 승인)",
+  "note": "official 도메인이 carrier.co.kr 이 아니라 서비스 전용 도메인 carriercs.co.kr 이라 official/sourceUrl 둘 다 이 도메인으로 맞춤(같은 회사, footer 사업자등록번호로 확인). 상담 시작시간 공식 표기가 없어 종료시간(18시)만 확인된 사실로 적었다 — 시작시간을 추정해 적지 않았다."
+}

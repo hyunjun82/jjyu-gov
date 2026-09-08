@@ -1693,9 +1693,13 @@ import { goryoSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke
 import { kakaopayInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kakaopay-insurance';
 import { shinhanEzInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/shinhan-ez-insurance';
 import { delonghiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/delonghi';
+import { cowayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/coway';
+import { carrierAirconCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/carrier-aircon';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
+    'carrier-aircon': carrierAirconCallCenterSpokeContent,
+    'coway': cowayCallCenterSpokeContent,
     'delonghi': delonghiCallCenterSpokeContent,
   },
   'dementia-insurance': {

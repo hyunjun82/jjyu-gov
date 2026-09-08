@@ -1,0 +1,19 @@
+{
+  "slug": "coway",
+  "keyword": "웅진코웨이 고객센터",
+  "title": "코웨이 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?",
+  "pattern": "가전 AS 고객센터 — new-call-center.ts 표준 템플릿(회사 JSON 승인)",
+  "subheads": [
+    "코웨이 고객센터 전화번호 몇 번인가요?",
+    "상담원과 바로 연결하려면 몇 번 누르나요?",
+    "고객센터 영업시간·운영시간은 어떻게 되나요?",
+    "코웨이 고객센터 위치는 어디인가요?",
+    "다른 가전업체 고객센터 번호도 필요한데요"
+  ],
+  "source": "코웨이 고객지원 홈(coway.com/cs/main) — 대표번호·상담시간·긴급상담 24시간",
+  "extract": "scripts/output/source-coway-call-center.txt",
+  "approved": true,
+  "approvedAt": "2026-09-08",
+  "approvedBy": "사장님 (가전제품 AS 새 허브 개설 승인 — 검색량 18,270으로 가전 카테고리 최대 후보)",
+  "note": "filefarm.co.kr 최신글목록에서 발견한 '웅진코웨이 고객센터'(월 18,270회, 이 세션 전체 후보 중 최고 검색량). 웹서치에서 여러 유사 대행사 사이트(coway.or.kr, cowaycenter.co.kr 등)가 서로 다른 번호를 내걸고 있어 반드시 공식 coway.com에서 직접 재확인 후 1588-5200으로 확정."
+}
