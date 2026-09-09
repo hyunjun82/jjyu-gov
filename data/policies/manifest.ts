@@ -346,6 +346,7 @@ import { onlineCallCenterPolicy, onlineCallCenterSpokes } from './online-call-ce
 import { loanCallCenterPolicy, loanCallCenterSpokes } from './loan-call-center';
 import { publicCallCenterPolicy, publicCallCenterSpokes } from './public-call-center';
 import { applianceCallCenterPolicy, applianceCallCenterSpokes } from './appliance-call-center';
+import { hanaPoweronDigitalDevicePolicy, hanaPoweronDigitalDeviceSpokes } from './hana-poweron-digital-device';
 import { kPassModuCardPolicy, kPassModuCardSpokes } from './k-pass-modu-card';
 import { hiddenInsuranceMoneyPolicy, hiddenInsuranceMoneySpokes } from './hidden-insurance-money';
 import { movieDiscountVoucherPolicy, movieDiscountVoucherSpokes } from './movie-discount-voucher';
@@ -1734,6 +1735,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'loan-call-center': loanCallCenterPolicy,
   'public-call-center': publicCallCenterPolicy,
   'appliance-call-center': applianceCallCenterPolicy,
+  'hana-poweron-digital-device': hanaPoweronDigitalDevicePolicy,
   'k-pass-modu-card': kPassModuCardPolicy,
   'hidden-insurance-money': hiddenInsuranceMoneyPolicy,
   'movie-discount-voucher': movieDiscountVoucherPolicy,
@@ -3280,6 +3282,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'loan-call-center': loanCallCenterSpokes,
   'public-call-center': publicCallCenterSpokes,
   'appliance-call-center': applianceCallCenterSpokes,
+  'hana-poweron-digital-device': hanaPoweronDigitalDeviceSpokes,
   'k-pass-modu-card': kPassModuCardSpokes,
   'hidden-insurance-money': hiddenInsuranceMoneySpokes,
   'movie-discount-voucher': movieDiscountVoucherSpokes,
