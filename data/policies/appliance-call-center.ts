@@ -156,9 +156,9 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
-  { slug: 'brams-massage-chair', role: 'eligibility', title: '브람스 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?' },
-  { slug: 'rinnai-boiler', role: 'eligibility', title: '린나이 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?' },
-  { slug: 'carrier-aircon', role: 'eligibility', title: '오텍캐리어 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?' },
-  { slug: 'coway', role: 'eligibility', title: '코웨이 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?' },
-  { slug: 'delonghi', role: 'eligibility', title: '드롱기 고객센터 전화번호·상담원 연결·영업시간, 출장비는 얼마일까?' },
+  { slug: 'brams-massage-chair', role: 'eligibility', title: '브람스 고객센터 전화번호 및 AS 접수·출장비 안내' },
+  { slug: 'rinnai-boiler', role: 'eligibility', title: '린나이 고객센터 전화번호 및 AS 접수·출장비 안내' },
+  { slug: 'carrier-aircon', role: 'eligibility', title: '오텍캐리어 고객센터 전화번호 및 AS 접수·출장비 안내' },
+  { slug: 'coway', role: 'eligibility', title: '코웨이 고객센터 전화번호 및 AS 접수·출장비 안내' },
+  { slug: 'delonghi', role: 'eligibility', title: '드롱기 고객센터 전화번호 및 AS 접수·출장비 안내' },
 ];
