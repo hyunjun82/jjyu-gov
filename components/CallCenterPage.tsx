@@ -307,7 +307,8 @@ export default function CallCenterPage({
         }
         @media (max-width: 720px) {
           .cc-wrap { padding: 0 16px; }
-          .cc-nav { display: none; }
+          /* nav 에 인라인 display:flex 가 박혀 있어 이 규칙이 안 먹었다 — 모바일에서 탭 5개가 글자 단위로 세로로 깨졌다 (2026-09-14 사장님 캡처). */
+          .cc-nav { display: none !important; }
           .cc-h1 { font-size: 27px; }
           .cc-big { font-size: 40px; }
           .cc-heroCard { padding: 22px; border-radius: 18px; }
