@@ -10,9 +10,7 @@
   "verifiedAt": "2026-09-14",
   "main": { "label": "고객지원센터", "tel": "043-249-5700" },
   "hours": {
-    "weekday": "공식 안내에 상담시간 표기 없음",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": ""
   },
   "ars": { "day": [], "night": [] },
   "numbers": [

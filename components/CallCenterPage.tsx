@@ -32,7 +32,7 @@ export interface CallCenterData {
   sourceName: string;
   verifiedAt: string;
   main: { label: string; tel: string };
-  hours: { weekday: string; night: string; holiday: string; lunch?: string; visit?: string };
+  hours: { weekday: string; night?: string; holiday?: string; lunch?: string; visit?: string };
   /* 야간·공휴일 안내 한 문장 — 회사마다 다르다. 여기 없으면 화면이 지어내게 된다.
      전에는 이 문장이 CallCenterPage 에 박혀 있어서 50곳이 전부 "사고접수·긴급출동" 이었다. */
   offhourNote?: string;
@@ -183,21 +183,20 @@ export default function CallCenterPage({
      그리고 시간을 모르면서 "평일 상담시간에만 됩니다" 라고 단정하면 안 된다 —
      그 회사가 평일만 하는지도 우리가 모른다 (2026-08-27 대출 글에서 드러났다). */
   const noHours = !/[0-9]/.test(String(cc.hours.weekday ?? ''));
+  /* 원문에 없는 말은 박스에 쓰지 않는다 (2026-09-14) — "표기 없음"·"그 밖의 시간은 ○○만" 을 지웠다.
+     야간 운영을 모르면서 "지금은 ○○만 연결됩니다" 라고 단정하던 자리도 같이 지웠다. */
   const statusLabel =
     open === null
-      ? (noHours ? '공식 안내에 상담시간 표기 없음' : cc.hours.weekday)
+      ? (noHours ? cc.main.label : cc.hours.weekday)
       : open ? '상담 가능 시간' : '상담 시간 종료';
   const statusDetail =
     open === null
-      ? (cc.offhourNote
-        ?? (noHours
-          ? `공식 안내에 상담 가능 시간이 적혀 있지 않습니다. 통화 전 공식 홈페이지에서 확인하세요.`
-          : `${AGENT} 연결은 평일 상담시간에만 됩니다. 그 밖의 시간은 ${OFFW}만 돌아갑니다.`))
+      ? (cc.offhourNote ?? (noHours ? '' : `공식 안내에 적힌 상담시간은 ${cc.hours.weekday}입니다.`))
       : open
-        ? hasArs
-          ? `지금 전화하면 ARS 에서 ${agentKey}번을 눌러 ${AGENT}와 연결됩니다.`
+        ? agent
+          ? `지금 전화하면 ARS 에서 ${agent.key}번을 눌러 ${AGENT}와 연결됩니다.`
           : `지금 전화하면 ${AGENT} 연결이 가능합니다.`
-        : `지금은 ${OFFW}만 연결됩니다. 일반 상담은 ${cc.hours.weekday}에 가능합니다.`;
+        : `지금은 공식 안내 상담시간(${cc.hours.weekday})이 아닙니다.`;
 
   const copy = () => {
     try {
@@ -209,27 +208,28 @@ export default function CallCenterPage({
     }
   };
 
+  /* "ARS 안내의 마지막에 나오는 경우가 많습니다" 같은 일반론 단계를 지웠다 (2026-09-14) — 원문에 없는 말이다.
+     상담원 메뉴가 원문 ARS 에 있을 때만 그 번호를 단계로 보여 준다. 없을 때 '0번' 으로 떨어뜨리지 않는다. */
   const steps = [
     { no: '1', title: `${cc.main.tel} 연결`, body: '휴대전화·일반전화 모두 같은 번호로 들어갑니다.' },
     { no: '2', title: '본인 확인', body: `${IDSTEP}를 미리 꺼내 두면 절차가 짧아집니다.` },
-    { no: '3', title: 'ARS 끝까지 듣기', body: `${AGENT} 연결은 안내의 마지막에 나오는 경우가 많습니다.` },
-    hasArs
-      ? { no: '4', title: `${agentKey}번 ${AGENT} 연결`, body: `${agentKey}번을 누르면 순번 대기 후 상담이 시작됩니다.` }
-      : { no: '4', title: `${AGENT} 연결`, body: `공식 안내에 단축번호가 없어, 안내 음성에서 ${AGENT} 연결 항목을 고르시면 됩니다.` },
+    ...(agent
+      ? [{ no: '3', title: `${agent.key}번 ${AGENT} 연결`, body: `${agent.key}번을 누르면 순번 대기 후 상담이 시작됩니다.` }]
+      : []),
   ];
 
   /* 점심시간은 공식 안내에 있을 때만 보여준다.
      원본 템플릿은 "12:00–13:00 지연"을 박아뒀는데 DB 공식 안내에는 그런 말이 없다.
      검색은 많이 되는 말이라 넣고 싶지만, 없는 걸 지어내면 그 순간 이 글은 못 쓴다. */
   const hourRows = [
-    { k: '평일 상담', v: cc.hours.weekday },
-    { k: '평일 야간', v: cc.hours.night },
-    { k: '공휴일', v: cc.hours.holiday },
+    ...(noHours ? [] : [{ k: '평일 상담', v: cc.hours.weekday }]),
+    ...(cc.hours.night ? [{ k: '평일 야간', v: cc.hours.night }] : []),
+    ...(cc.hours.holiday ? [{ k: '공휴일', v: cc.hours.holiday }] : []),
     ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
     /* 방문 접수 시간을 따로 적어 둔 회사가 있다 (한화생명 대출 — 평일 09:00~15:30).
        전화 시간보다 일찍 닫히니, 있을 때만 보여준다. */
     ...(cc.hours.visit ? [{ k: '방문 접수', v: cc.hours.visit }] : []),
-    ...(hasArs ? [{ k: '상담사 연결', v: `ARS ${agentKey}번` }] : []),
+    ...(agent ? [{ k: `${AGENT} 연결`, v: `ARS ${agent.key}번` }] : []),
   ];
 
   /* 지역별 — 지점 주소는 저장하지 않는다. 수시로 바뀌고 우리가 확인할 수 없다.
@@ -705,12 +705,12 @@ export default function CallCenterPage({
                 {[
                   { k: `${W} 이름`, v: cc.name },
                   { k: cc.main.label, v: cc.main.tel },
-                  { k: '평일 상담시간', v: cc.hours.weekday },
+                  ...(noHours ? [] : [{ k: '평일 상담시간', v: cc.hours.weekday }]),
                   /* 점심시간을 적어 둔 회사가 있다 (푸본현대·KB라이프·우체국보험).
                      그 시간에 걸면 연결이 안 되니 표에도 넣는다. */
                   ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
-                  { k: '평일 야간', v: cc.hours.night },
-                  { k: '공휴일', v: cc.hours.holiday },
+                  ...(cc.hours.night ? [{ k: '평일 야간', v: cc.hours.night }] : []),
+                  ...(cc.hours.holiday ? [{ k: '공휴일', v: cc.hours.holiday }] : []),
                   ...(cc.hours.visit ? [{ k: '방문 접수', v: cc.hours.visit }] : []),
                   /* ARS 에 상담원 메뉴가 실제로 있을 때만 쓴다.
                      agentKey 는 없을 때 '0' 으로 떨어지므로 그걸 조건으로 쓰면
@@ -850,9 +850,11 @@ export default function CallCenterPage({
                 </span>
               ))}
             </div>
-            <div style={{ margin: '22px 0 0', padding: 18, borderRadius: 14, background: TINT, fontSize: 15, lineHeight: 1.6, color: BLUE }}>
-              {cc.offhourNote ?? `상담 가능 시간은 ${cc.hours.weekday} 입니다. 그 밖의 시간 운영은 공식 안내에서 확인하세요.`}
-            </div>
+            {(cc.offhourNote || !noHours) && (
+              <div style={{ margin: '22px 0 0', padding: 18, borderRadius: 14, background: TINT, fontSize: 15, lineHeight: 1.6, color: BLUE }}>
+                {cc.offhourNote ?? `공식 안내에 적힌 상담시간은 ${cc.hours.weekday}입니다.`}
+              </div>
+            )}
           </div>
         </section>
 

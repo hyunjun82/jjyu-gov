@@ -10,9 +10,7 @@
   "verifiedAt": "2026-08-26",
   "main": { "label": "고객상담센터", "tel": "1566-8000" },
   "hours": {
-    "weekday": "평일9시~18시",
-    "night": "공식 안내에 야간 상담시간 표기 없음",
-    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+    "weekday": "평일9시~18시"
   },
   "ars": { "day": [], "night": [] },
   "numbers": [

@@ -40,7 +40,6 @@ export const nhPropertyLoanCallCenterSpokeContent: SpokeData = {
     '야간': '사고상담(365일) 09:00 ~ 22:00',
     '공휴일': '사고상담(365일) 09:00 ~ 22:00',
     '상담원 연결': 'ARS 에서 0번',
-    '통화료': '통화료는 발신자 요금제 기준으로 부과됩니다.',
   },
   keyFactsHighlights: {
     '대표번호': ['1644-9000'],
@@ -63,7 +62,7 @@ export const nhPropertyLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담원에게 연결됩니다. 다만 이건 09:00 ~ 18:00에만 됩니다. 그 시간을 벗어나면 상담원 연결 항목 자체가 없고 접수·조회 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담원에게 연결됩니다. 다만 상담원 연결은 09:00 ~ 18:00에만 됩니다. 사고상담(365일) 09:00 ~ 22:00은 따로 안내돼 있습니다.',
       highlights: ['0번', '상담사 연결(평일) 09:00 ~ 18:00'],
       table: {
         headers: ['번호', '평일 주간 (상담사 연결(평일) 09:00 ~ 18:00)'],
@@ -78,15 +77,11 @@ export const nhPropertyLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
-        '상담원 상담은 09:00 ~ 18:00입니다. 사고상담(365일) 09:00 ~ 22:00은 따로 안내돼 있습니다. 다만 이 시간에 상담원 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 09:00 ~ 18:00 안에 거시는 편이 확실합니다.',
+        '상담원 상담은 09:00 ~ 18:00입니다. 사고상담(365일) 09:00 ~ 22:00은 따로 안내돼 있습니다.',
       highlights: ['상담사 연결(평일) 09:00 ~ 18:00', '사고상담(365일) 09:00 ~ 22:00'],
       table: {
         headers: ['번호', '야간·휴일 (사고상담(365일) 09:00 ~ 22:00)'],
         rows: [],
-      },
-      box: {
-        label: '통화료',
-        content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
       sourceNote: '* 출처: NH농협손해보험 전화상담안내 (2026-08-27 확인)',
     },
@@ -96,7 +91,7 @@ export const nhPropertyLoanCallCenterSpokeContent: SpokeData = {
         '다만 한도 조회나 서류 제출은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사 이름으로 검색하면 가까운 순으로 나옵니다.',
       highlights: ['가까운 지점'],
       act: {
-        cue: 'NH농협손해보험은 공식 안내에 지점 주소를 따로 걸어두지 않습니다. 창구에서만 되는 일이 아니면 안 가셔도 됩니다.',
+        cue: 'NH농협손해보험 창구 위치는 지도 검색이 가장 빠릅니다. 창구에서만 되는 일이 아니면 안 가셔도 됩니다.',
         label: '지점 위치 확인하기',
         url: MAP,
       },
@@ -125,7 +120,7 @@ export const nhPropertyLoanCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '상담원과 바로 통화하려면 어떻게 하나요?',
-      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담원에게 연결됩니다. 09:00 ~ 18:00에만 가능합니다.',
+      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담원에게 연결됩니다. 상담원 상담시간은 공식 안내 기준 09:00 ~ 18:00입니다.',
       source: 'NH농협손해보험 전화상담안내',
       sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
     },
@@ -134,30 +129,6 @@ export const nhPropertyLoanCallCenterSpokeContent: SpokeData = {
       a: '상담원 상담은 09:00 ~ 18:00입니다. 사고상담(365일) 09:00 ~ 22:00은 따로 안내돼 있습니다.',
       source: 'NH농협손해보험 전화상담안내',
       sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
-    },
-    {
-      q: '전화 요금은 어떻게 부과되나요?',
-      a: '발신자 요금제 기준으로 부과됩니다.',
-      source: 'NH농협손해보험 전화상담안내',
-      sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
-    },
-    {
-      q: '점심시간에도 상담이 되나요?',
-      a: 'NH농협손해보험 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 09:00 ~ 18:00으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담원 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
-      source: 'NH농협손해보험 전화상담안내',
-      sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
-    },
-    {
-      q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
-      a: '전화 상담은 지역과 관계없이 1644-9000 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
-      source: 'NH농협손해보험 전화상담안내',
-      sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
-    },
-    {
-      q: '방문 상담은 어디로 가야 하나요?',
-      a: 'NH농협손해보험 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. 한도 조회나 서류 제출은 방문하지 않아도 전화·앱으로 처리되는 경우입니다.',
-      source: 'NH농협손해보험 사업자 정보',
-      sourceUrl: 'https://www.nhfire.co.kr',
     },
   ],
 
@@ -184,8 +155,7 @@ export const nhPropertyLoanCallCenterSpokeContent: SpokeData = {
     "hours": {
       "weekday": "상담사 연결(평일) 09:00 ~ 18:00",
       "night": "사고상담(365일) 09:00 ~ 22:00",
-      "holiday": "사고상담(365일) 09:00 ~ 22:00",
-      "lunch": "공식 안내에 점심 휴무 표기 없음"
+      "holiday": "사고상담(365일) 09:00 ~ 22:00"
     },
     "offhourNote": "사고상담(365일) 09:00 ~ 22:00은 따로 안내돼 있습니다. 대출 상담은 영업시간 안에 거는 편이 빠릅니다.",
     "word": "금융사",

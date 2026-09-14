@@ -39,13 +39,10 @@ export const tossbankLoanCallCenterSpokeContent: SpokeData = {
     '상담 가능 시간': '24시간 연중무휴',
     '야간': '24시간 연중무휴',
     '공휴일': '24시간 연중무휴',
-    '상담원 연결': '공식 안내에 ARS 단축번호 미공개',
-    '통화료': '통화료는 발신자 요금제 기준으로 부과됩니다.',
   },
   keyFactsHighlights: {
     '대표번호': ['1661-7654'],
     '상담 가능 시간': ['24시간 연중무휴'],
-    '상담원 연결': ['상담원 연결'],
   },
 
   qa: [
@@ -63,7 +60,7 @@ export const tossbankLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        '토스뱅크 공식 안내는 상담원 연결 항목을 번호와 함께 표기하지 않습니다. 안내 음성을 끝까지 듣고 상담원 연결 항목을 고르시면 됩니다. 24시간 연중무휴 같은 번호로 받으니 시간을 맞출 필요는 없습니다. 아래는 눌러야 하는 번호를 정리한 것입니다.',
+        '토스뱅크 공식 안내에는 상담원에게 바로 넘어가는 단축번호가 공개돼 있지 않습니다. 24시간 연중무휴 같은 번호로 받으니 시간을 맞출 필요는 없습니다. 아래는 눌러야 하는 번호를 정리한 것입니다.',
       highlights: ['상담원 연결', '24시간 연중무휴'],
       table: {
         headers: ['번호', '평일 주간 (24시간 연중무휴)'],
@@ -78,15 +75,11 @@ export const tossbankLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
-        '상담원 상담은 24시간 연중무휴입니다. 밤이든 휴일이든 같은 번호로 연결되니 시간을 따로 맞출 필요가 없습니다. 통화 전 공식 안내에서 지금도 그대로인지 한 번만 확인하세요.',
+        '상담원 상담은 24시간 연중무휴입니다. 밤이든 휴일이든 같은 번호로 연결되니 시간을 따로 맞출 필요가 없습니다.',
       highlights: ['24시간 연중무휴'],
       table: {
         headers: ['번호', '야간·휴일 (24시간 연중무휴)'],
         rows: [],
-      },
-      box: {
-        label: '통화료',
-        content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
       sourceNote: '* 출처: 토스뱅크 신용대출 안내 페이지 고객센터 (2026-09-01 확인)',
     },
@@ -96,7 +89,7 @@ export const tossbankLoanCallCenterSpokeContent: SpokeData = {
         '다만 한도 조회나 서류 제출은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사 이름으로 검색하면 가까운 순으로 나옵니다.',
       highlights: ['가까운 지점'],
       act: {
-        cue: '토스뱅크는 공식 안내에 지점 주소를 따로 걸어두지 않습니다. 헛걸음하지 않게 위치부터 짚고 나서시죠.',
+        cue: '토스뱅크 창구 위치는 지도 검색이 가장 빠릅니다. 헛걸음하지 않게 위치부터 짚고 나서시죠.',
         label: '지도에서 위치 보기',
         url: MAP,
       },
@@ -124,40 +117,10 @@ export const tossbankLoanCallCenterSpokeContent: SpokeData = {
       sourceUrl: 'https://www.tossbank.com/product-service/loans/loan',
     },
     {
-      q: '상담원과 바로 통화하려면 어떻게 하나요?',
-      a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담원 연결 항목을 고르세요. 24시간 연중무휴에만 가능합니다.',
-      source: '토스뱅크 신용대출 안내 페이지 고객센터',
-      sourceUrl: 'https://www.tossbank.com/product-service/loans/loan',
-    },
-    {
       q: '주말이나 공휴일에도 상담이 되나요?',
       a: '상담원 상담은 24시간 연중무휴입니다. 야간·공휴일도 같은 번호로 연결됩니다.',
       source: '토스뱅크 신용대출 안내 페이지 고객센터',
       sourceUrl: 'https://www.tossbank.com/product-service/loans/loan',
-    },
-    {
-      q: '전화 요금은 어떻게 부과되나요?',
-      a: '발신자 요금제 기준으로 부과됩니다.',
-      source: '토스뱅크 신용대출 안내 페이지 고객센터',
-      sourceUrl: 'https://www.tossbank.com/product-service/loans/loan',
-    },
-    {
-      q: '점심시간에도 상담이 되나요?',
-      a: '토스뱅크 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 24시간 연중무휴로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담원 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
-      source: '토스뱅크 신용대출 안내 페이지 고객센터',
-      sourceUrl: 'https://www.tossbank.com/product-service/loans/loan',
-    },
-    {
-      q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
-      a: '전화 상담은 지역과 관계없이 1661-7654 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
-      source: '토스뱅크 신용대출 안내 페이지 고객센터',
-      sourceUrl: 'https://www.tossbank.com/product-service/loans/loan',
-    },
-    {
-      q: '방문 상담은 어디로 가야 하나요?',
-      a: '토스뱅크 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. 한도 조회나 서류 제출은 방문하지 않아도 전화·앱으로 처리되는 경우입니다.',
-      source: '토스뱅크 사업자 정보',
-      sourceUrl: 'https://www.tossbank.com',
     },
   ],
 
@@ -184,8 +147,7 @@ export const tossbankLoanCallCenterSpokeContent: SpokeData = {
     "hours": {
       "weekday": "24시간 연중무휴",
       "night": "24시간 연중무휴",
-      "holiday": "24시간 연중무휴",
-      "lunch": "공식 안내에 점심 휴무 표기 없음"
+      "holiday": "24시간 연중무휴"
     },
     "offhourNote": "공식 안내 기준 24시간 연중무휴라 밤이나 휴일에도 같은 번호로 받습니다.",
     "word": "금융사",

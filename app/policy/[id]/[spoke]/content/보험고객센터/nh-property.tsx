@@ -63,7 +63,7 @@ export const nhPropertyCallCenterSpokeContent: SpokeData = {
     {
       q: '상담사와 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담사에게 연결됩니다. 다만 이건 09:00 ~ 18:00에만 됩니다. 그 시간을 벗어나면 상담사 연결 항목 자체가 없고 사고접수·긴급출동 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담사에게 연결됩니다. 다만 상담사 연결은 09:00 ~ 18:00에만 됩니다. 사고상담(365일) 09:00 ~ 22:00에는 사고접수·긴급출동 위주로 돌아갑니다.',
       highlights: ['0번', '상담사 연결(평일) 09:00 ~ 18:00'],
       table: {
         headers: ['번호', '평일 주간 (상담사 연결(평일) 09:00 ~ 18:00)'],
@@ -96,7 +96,7 @@ export const nhPropertyCallCenterSpokeContent: SpokeData = {
         '다만 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사 이름으로 검색하면 가까운 순으로 나옵니다.',
       highlights: ['가까운 지점'],
       act: {
-        cue: 'NH농협손해보험은 공식 안내에 지점 주소를 따로 걸어두지 않습니다. 헛걸음하지 않게 위치부터 짚고 나서시죠.',
+        cue: 'NH농협손해보험 창구 위치는 지도 검색이 가장 빠릅니다. 헛걸음하지 않게 위치부터 짚고 나서시죠.',
         label: '가까운 지점 찾기',
         url: MAP,
       },
@@ -125,7 +125,7 @@ export const nhPropertyCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '상담사와 바로 통화하려면 어떻게 하나요?',
-      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담사에게 연결됩니다. 09:00 ~ 18:00에만 가능합니다.',
+      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담사에게 연결됩니다. 상담사 상담시간은 공식 안내 기준 09:00 ~ 18:00입니다.',
       source: 'NH농협손해보험 전화상담안내',
       sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
     },
@@ -140,24 +140,6 @@ export const nhPropertyCallCenterSpokeContent: SpokeData = {
       a: '일반전화는 시내·시외 모두 시내통화 요금(3분 39원)으로 부과되고, 휴대폰과 인터넷전화(070)는 가입한 요금제로 부과됩니다.',
       source: 'NH농협손해보험 전화상담안내',
       sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
-    },
-    {
-      q: '점심시간에도 상담이 되나요?',
-      a: 'NH농협손해보험 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 09:00 ~ 18:00으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담사 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
-      source: 'NH농협손해보험 전화상담안내',
-      sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
-    },
-    {
-      q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
-      a: '전화 상담은 지역과 관계없이 1644-9000 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
-      source: 'NH농협손해보험 전화상담안내',
-      sourceUrl: 'https://m.nhfire.co.kr/mhwr/web/html/service/call/callCenterGuide.html',
-    },
-    {
-      q: '방문 상담은 어디로 가야 하나요?',
-      a: 'NH농협손해보험 지점·서비스망 위치는 수시로 바뀌어 이 글에 주소를 적어두지 않습니다. 공식 홈페이지의 지점 찾기나 지도에서 지역을 넣어 검색하면 현재 운영 중인 곳이 나옵니다. 보험금 청구나 계약 변경은 방문하지 않아도 전화·앱으로 처리되는 경우입니다.',
-      source: 'NH농협손해보험 사업자 정보',
-      sourceUrl: 'https://www.nhfire.co.kr',
     },
   ],
 
@@ -184,8 +166,7 @@ export const nhPropertyCallCenterSpokeContent: SpokeData = {
     "hours": {
       "weekday": "상담사 연결(평일) 09:00 ~ 18:00",
       "night": "사고상담(365일) 09:00 ~ 22:00",
-      "holiday": "사고상담(365일) 09:00 ~ 22:00",
-      "lunch": "공식 안내에 점심 휴무 표기 없음"
+      "holiday": "사고상담(365일) 09:00 ~ 22:00"
     },
     "offhourNote": "사고상담(365일) 09:00 ~ 22:00에는 사고접수·긴급출동 위주로 돌아갑니다. 계약 조회·변경과 보험금 청구는 평일 상담시간에 거는 편이 빠릅니다.",
     "word": "보험사",

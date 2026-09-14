@@ -41,7 +41,6 @@ export const scBankLoanCallCenterSpokeContent: SpokeData = {
     '공휴일': '은행 휴무일 제외',
     '상담원 연결': 'ARS 에서 0번',
     '본사': '서울특별시 종로구 종로 47 SC제일은행 본점',
-    '통화료': '통화료는 발신자 요금제 기준으로 부과됩니다.',
   },
   keyFactsHighlights: {
     '대표번호': ['1588-1599'],
@@ -64,7 +63,7 @@ export const scBankLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담원에게 연결됩니다. 다만 이건 평일 09:00 ~ 18:00에만 됩니다. 그 시간을 벗어나면 상담원 연결 항목 자체가 없고 접수·조회 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담원에게 연결됩니다. 다만 상담원 연결은 평일 09:00 ~ 18:00에만 됩니다. 보이스피싱 및 분실신고는 365일 24시간 운영은 따로 안내돼 있습니다.',
       highlights: ['0번', '평일 09:00 ~ 18:00'],
       table: {
         headers: ['번호', '평일 주간 (평일 09:00 ~ 18:00)'],
@@ -79,15 +78,11 @@ export const scBankLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
-        '상담원 상담은 평일 09:00 ~ 18:00입니다. 보이스피싱 및 분실신고는 365일 24시간 운영은 따로 안내돼 있습니다. 다만 이 시간에 상담원 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 평일 09:00 ~ 18:00 안에 거시는 편이 확실합니다.',
+        '상담원 상담은 평일 09:00 ~ 18:00입니다. 보이스피싱 및 분실신고는 365일 24시간 운영은 따로 안내돼 있습니다.',
       highlights: ['평일 09:00 ~ 18:00', '보이스피싱 및 분실신고는 365일 24시간 운영', '은행 휴무일 제외'],
       table: {
         headers: ['번호', '야간·휴일 (보이스피싱 및 분실신고는 365일 24시간 운영 / 은행 휴무일 제외)'],
         rows: [],
-      },
-      box: {
-        label: '통화료',
-        content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
       sourceNote: '* 출처: SC제일은행 고객센터 상담원 담당업무별 코드 안내 (2026-08-27 확인)',
     },
@@ -126,31 +121,13 @@ export const scBankLoanCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '상담원과 바로 통화하려면 어떻게 하나요?',
-      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담원에게 연결됩니다. 평일 09:00 ~ 18:00에만 가능합니다.',
+      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담원에게 연결됩니다. 상담원 상담시간은 공식 안내 기준 평일 09:00 ~ 18:00입니다.',
       source: 'SC제일은행 고객센터 상담원 담당업무별 코드 안내',
       sourceUrl: 'https://www.standardchartered.co.kr/np/kr/cm/cc/ContactCenterInfo.jsp',
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
       a: '상담원 상담은 평일 09:00 ~ 18:00입니다. 보이스피싱 및 분실신고는 365일 24시간 운영은 따로 안내돼 있습니다.',
-      source: 'SC제일은행 고객센터 상담원 담당업무별 코드 안내',
-      sourceUrl: 'https://www.standardchartered.co.kr/np/kr/cm/cc/ContactCenterInfo.jsp',
-    },
-    {
-      q: '전화 요금은 어떻게 부과되나요?',
-      a: '발신자 요금제 기준으로 부과됩니다.',
-      source: 'SC제일은행 고객센터 상담원 담당업무별 코드 안내',
-      sourceUrl: 'https://www.standardchartered.co.kr/np/kr/cm/cc/ContactCenterInfo.jsp',
-    },
-    {
-      q: '점심시간에도 상담이 되나요?',
-      a: 'SC제일은행 공식 고객센터 안내에는 점심시간 휴무 표기가 없습니다. 상담 가능 시간은 평일 09:00 ~ 18:00으로 안내되어 있고, 그 시간 안에서는 점심시간이라고 따로 끊긴다는 안내가 없습니다. 다만 상담원 수가 줄어 대기가 길어질 수는 있으니, 급하지 않다면 오전 이른 시간에 거는 편이 낫습니다.',
-      source: 'SC제일은행 고객센터 상담원 담당업무별 코드 안내',
-      sourceUrl: 'https://www.standardchartered.co.kr/np/kr/cm/cc/ContactCenterInfo.jsp',
-    },
-    {
-      q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
-      a: '전화 상담은 지역과 관계없이 1588-1599 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
       source: 'SC제일은행 고객센터 상담원 담당업무별 코드 안내',
       sourceUrl: 'https://www.standardchartered.co.kr/np/kr/cm/cc/ContactCenterInfo.jsp',
     },
@@ -185,8 +162,7 @@ export const scBankLoanCallCenterSpokeContent: SpokeData = {
     "hours": {
       "weekday": "평일 09:00 ~ 18:00",
       "night": "보이스피싱 및 분실신고는 365일 24시간 운영",
-      "holiday": "은행 휴무일 제외",
-      "lunch": "공식 안내에 점심 휴무 표기 없음"
+      "holiday": "은행 휴무일 제외"
     },
     "offhourNote": "보이스피싱 및 분실신고는 365일 24시간 운영은 따로 안내돼 있습니다. 대출 상담은 영업시간 안에 거는 편이 빠릅니다.",
     "word": "금융사",

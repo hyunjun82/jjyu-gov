@@ -41,7 +41,6 @@ export const fubonHyundaiLoanCallCenterSpokeContent: SpokeData = {
     '공휴일': 'ARS 이용시간 : 365일 24시간 가능',
     '상담원 연결': 'ARS 에서 0번',
     '본사': '서울특별시 영등포구 여의나루로 57',
-    '통화료': '통화료는 발신자 요금제 기준으로 부과됩니다.',
   },
   keyFactsHighlights: {
     '대표번호': ['1577-3311'],
@@ -64,7 +63,7 @@ export const fubonHyundaiLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
       intro:
-        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담원에게 연결됩니다. 다만 이건 평일 09:00 ~ 18:00에만 됩니다. 그 시간을 벗어나면 상담원 연결 항목 자체가 없고 접수·조회 같은 접수 기능만 돌아갑니다. 아래는 시간대별로 번호가 어떻게 갈리는지 정리한 것입니다.',
+        'ARS 안내가 나오면 0번을 누릅니다. 그러면 순번 대기 후 상담원에게 연결됩니다. 다만 상담원 연결은 평일 09:00 ~ 18:00에만 됩니다. 365일 24시간 가능은 따로 안내돼 있습니다.',
       highlights: ['0번', '평일 09:00 ~ 18:00'],
       table: {
         headers: ['번호', '평일 주간 (평일 09:00 ~ 18:00)'],
@@ -79,15 +78,11 @@ export const fubonHyundaiLoanCallCenterSpokeContent: SpokeData = {
     {
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
-        '상담원 상담은 평일 09:00 ~ 18:00입니다. 365일 24시간 가능은 따로 안내돼 있습니다. 다만 이 시간에 상담원 연결까지 되는지는 공식 안내에 없으니, 상담이 필요하면 평일 09:00 ~ 18:00 안에 거시는 편이 확실합니다.',
+        '상담원 상담은 평일 09:00 ~ 18:00입니다. 365일 24시간 가능은 따로 안내돼 있습니다.',
       highlights: ['평일 09:00 ~ 18:00', 'ARS 이용시간 : 365일 24시간 가능'],
       table: {
         headers: ['번호', '야간·휴일 (ARS 이용시간 : 365일 24시간 가능)'],
         rows: [],
-      },
-      box: {
-        label: '통화료',
-        content: '통화료는 발신자 요금제 기준으로 부과됩니다.',
       },
       sourceNote: '* 출처: 푸본현대생명 ARS 상담안내 (2026-08-27 확인)',
     },
@@ -126,7 +121,7 @@ export const fubonHyundaiLoanCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '상담원과 바로 통화하려면 어떻게 하나요?',
-      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담원에게 연결됩니다. 평일 09:00 ~ 18:00에만 가능합니다.',
+      a: 'ARS 안내에서 0번을 누르면 순번 대기 후 상담원에게 연결됩니다. 상담원 상담시간은 공식 안내 기준 평일 09:00 ~ 18:00입니다.',
       source: '푸본현대생명 ARS 상담안내',
       sourceUrl: 'https://www.fubonhyundai.com/',
     },
@@ -137,20 +132,8 @@ export const fubonHyundaiLoanCallCenterSpokeContent: SpokeData = {
       sourceUrl: 'https://www.fubonhyundai.com/',
     },
     {
-      q: '전화 요금은 어떻게 부과되나요?',
-      a: '발신자 요금제 기준으로 부과됩니다.',
-      source: '푸본현대생명 ARS 상담안내',
-      sourceUrl: 'https://www.fubonhyundai.com/',
-    },
-    {
       q: '점심시간에도 상담이 되나요?',
       a: '푸본현대생명 공식 안내에 점심시간이 따로 적혀 있습니다 — "점심시간 12 ~ 13시, 통화량이 많은 15 ~ 16시 사이는 상담원연결이 어려울 수 있습니다". 급한 용건이 아니면 그 시간은 피해서 거는 편이 낫습니다.',
-      source: '푸본현대생명 ARS 상담안내',
-      sourceUrl: 'https://www.fubonhyundai.com/',
-    },
-    {
-      q: '대구·부산·인천 등 지역 고객센터 번호는 따로 있나요?',
-      a: '전화 상담은 지역과 관계없이 1577-3311 한 번호로 연결됩니다. 지역별 고객센터 번호는 따로 안내되지 않습니다. 방문이 필요하면 지점·서비스망 위치를 공식 홈페이지의 지점 찾기나 지도에서 확인하세요. 지점 위치와 운영 여부는 수시로 바뀌어 이 글에는 주소를 적어두지 않습니다.',
       source: '푸본현대생명 ARS 상담안내',
       sourceUrl: 'https://www.fubonhyundai.com/',
     },
