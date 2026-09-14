@@ -64,7 +64,11 @@ let made = 0;
     const base = readable(c.brandColor || '#1F4E79');
     const dark = mix(base, 0, 0.35);
     const light = mix(base, 255, 0.12);
-    const hours = String(c.hours?.weekday || '').replace(/^[^0-9]*/, '').slice(0, 28);
+    /* 28자에서 그냥 자르면 뜻이 뒤집힌다 (2026-09-14 캠코: '주말 및 공휴일에는 운영' 에서 잘려 '운영하지 않습니다' 가 반대로 읽혔다).
+       넘치면 끝 괄호부터 떼고, 그래도 넘치면 말줄임표를 붙인다. */
+    const hoursFull = String(c.hours?.weekday || '').replace(/^[^0-9]*/, '');
+    const hoursTrim = hoursFull.length > 28 ? hoursFull.replace(/\s*\([^()]*\)?[^()]*$/, '').trim() : hoursFull;
+    const hours = hoursTrim.length > 28 ? hoursTrim.slice(0, 27) + '…' : hoursTrim;
     /* 업종마다 이름표가 다르다 (2026-09-14 공공기관 30장에 '보험사 고객센터' 가 찍혀 나왔다) */
     const KIND: Record<string, [string, string]> = { insurance: ['보험사 고객센터', '상담사'], securities: ['증권사 고객센터', '상담원'], card: ['카드사 고객센터', '상담원'], telecom: ['통신사 고객센터', '상담원'], online: ['온라인 고객센터', '상담원'], loan: ['대출 고객센터', '상담원'], public: ['공공기관 고객센터', '상담직원'], appliance: ['가전 AS 고객센터', '상담원'] };
     const [kind, agent] = KIND[c.industry || 'insurance'] ?? KIND.insurance;
@@ -81,7 +85,7 @@ let made = 0;
   <rect x="0" y="0" width="1200" height="8" fill="rgba(255,255,255,.35)"/>
   <g font-family="Malgun Gothic, Apple SD Gothic Neo, sans-serif" fill="#ffffff">
     <text x="80" y="132" font-size="30" font-weight="700" opacity=".82">${esc(kind)}</text>
-    <text x="80" y="228" font-size="62" font-weight="800">${esc(c.name)} 고객센터</text>
+    <text x="80" y="228" font-size="62" font-weight="800">${esc(c.name)}${c.industry === 'loan' ? ' 대출' : ''} 고객센터</text>
     <text x="80" y="382" font-size="112" font-weight="800" letter-spacing="-2">${esc(c.main.tel)}</text>
     <text x="80" y="452" font-size="30" font-weight="600" opacity=".9">${esc(c.main.label)}${hours ? ' · ' + esc(hours) : ''}</text>
     <text x="80" y="556" font-size="27" font-weight="600" opacity=".78">업무별 번호 ${(c.numbers || []).length}개 · ${agent} 연결 · ${esc(c.verifiedAt)} 확인</text>
