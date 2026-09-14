@@ -24,7 +24,7 @@ const SRC3 = 'https://www.fsc.go.kr/no010101/73816';
 const HUB = '/policy/term-vs-whole-life-insurance';
 
 export const 정기종신보험무해지보험판매중지SpokeContent: SpokeData = {
-  h1: '무해지 보험료인상, 무해지보험 판매중지되면 얼마나 손해일까?',
+  h1: '무해지 보험료인상과 판매중지되면 얼마나 손해일까?',
   breadcrumb: '무해지보험 판매중지',
   description:
     '금융위원회 보도자료 원문을 그대로 확인했습니다. 종신보험 표준형 월보험료 23,300원이 무해지형에서는 16,900원으로 낮아지는 대신, 납입기간 중 해지하면 환급금이 0.0%인 구간이 있습니다. 보험료가 오르는 구조와 판매중지 논의를 원문 수치로 짚습니다.',

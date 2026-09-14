@@ -80,6 +80,14 @@ export function bannedWords(strings, pool) {
  * @param plan  claude 가 낸 설계도
  * @param ctx   { keyword, queries: string[], existingTitles: string[], indexTitles: string[], hubPath, spokePaths: Set<string>, fixedTitle }
  */
+/** 타이틀 안에서 한글 3자 머리가 두 토큰에 겹치면 그 머리들을 돌려준다 ("무해지" ← "무해지 보험료인상"+"무해지보험 판매중지") */
+export function dupHeads(title) {
+  const toks = String(title).split(/[\s,·?!:]+/).filter(Boolean);
+  const seen = new Map();
+  for (const t of toks) { const m = t.match(/^[가-힣]{3}/); if (!m) continue; seen.set(m[0], [...(seen.get(m[0]) || []), t]); }
+  return [...seen.entries()].filter(([, ts]) => ts.length >= 2).map(([, ts]) => ts.join(" / "));
+}
+
 export function checkPlan(plan, ctx) {
   const errs = [];
   const title = String(plan.title || "").replace(/\s+/g, " ").trim();
@@ -92,6 +100,11 @@ export function checkPlan(plan, ctx) {
     if (miss.length) errs.push(`타이틀 "${title}" — 못 채운 축: ${miss.join("·")} (세부키워드·후킹·종결 규칙은 scripts/lib/title-rule.mjs)`);
     if (title.length < 14 || title.length > 56) errs.push(`타이틀 길이 ${title.length}자 — 14~56자`);
     if (/총정리$|정리$|하는 법$|법$/.test(title)) errs.push(`타이틀 종결 "${title.slice(-4)}" — '~법'·'총정리' 종결 금지 (물음형·시나리오형으로)`);
+    /* 같은 머리말 두 번 (2026-09-14 신설). 실검색어 조각 둘을 그대로 이으면
+       "무해지 보험료인상, 무해지보험 판매중지되면…" 처럼 같은 말이 두 번 나온다.
+       사장님 지적: "무해지 보험료인상과 판매중지되면…" 이 자연스럽다. 조각의 머리(한글 3자)가 겹치면 막는다 */
+    const dupHead = dupHeads(title);
+    if (dupHead.length) errs.push(`타이틀에 같은 말이 두 번: "${dupHead.join('", "')}" — 조각을 이을 때 겹치는 머리말은 한 번만 (예: "무해지 보험료인상과 판매중지되면 …")`);
     const frags = Array.isArray(plan.titleFrom) ? plan.titleFrom.map(String) : [];
     if (frags.length < 2) errs.push("titleFrom — 타이틀에 쓴 실검색어를 2개 이상 적는다");
     const qn = new Set(ctx.queries.map(norm));
