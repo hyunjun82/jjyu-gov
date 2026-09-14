@@ -1,0 +1,25 @@
+{
+  "slug": "kdic",
+  "name": "예금보험공사",
+  "aliases": ["예금보험공사 고객센터", "예보", "KDIC"],
+  "industry": "public",
+  "brandColor": "#1A3370",
+  "official": "https://www.kdic.or.kr",
+  "sourceUrl": "https://www.kdic.or.kr/sp/main.do",
+  "sourceName": "예금보험공사 누리집 고객센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객센터", "tel": "1588-0037" },
+  "hours": {
+    "weekday": "월~금 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "토~일 휴무"
+  },
+  "hoursNote": "토요일과 일요일에는 상담하지 않는다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-0037", "note": "이용시간 월~금 09:00 ~ 18:00, 토~일 휴무" },
+    { "label": "대표전화", "tel": "02-758-0114", "note": "본사 대표번호" }
+  ],
+  "hq": "서울시 중구 청계천로 30",
+  "hqZip": "04521"
+}

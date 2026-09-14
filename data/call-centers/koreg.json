@@ -1,0 +1,24 @@
+{
+  "slug": "koreg",
+  "name": "신용보증재단중앙회",
+  "aliases": ["신용보증재단중앙회 고객센터", "신보중앙회", "신용보증해드림"],
+  "industry": "public",
+  "brandColor": "#1B3C72",
+  "official": "https://www.koreg.or.kr",
+  "sourceUrl": "https://www.koreg.or.kr/koreg/main.do",
+  "sourceName": "신용보증재단중앙회 고객센터 ARS 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객센터 ARS", "tel": "1588-7365" },
+  "hours": {
+    "weekday": "고객센터상담 : 09:00 ~ 18:00 (평일)",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터 ARS (대표전화)", "tel": "1588-7365", "note": "평일 09:00 ~ 18:00" },
+    { "label": "재기지원부", "tel": "044-270-4278", "note": "희망리턴패키지 재도전교육 안내전화" }
+  ],
+  "hq": "세종특별자치시 나성남로 7-12, 신용보증재단중앙회",
+  "hqZip": "30129"
+}

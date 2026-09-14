@@ -1,0 +1,22 @@
+{
+  "slug": "gwsinbo",
+  "name": "강원신용보증재단",
+  "aliases": ["강원신용보증재단 고객센터", "강원신보", "강원신용보증재단 고객지원센터"],
+  "industry": "public",
+  "brandColor": "#0463B7",
+  "official": "https://www.gwsinbo.or.kr",
+  "sourceUrl": "https://www.gwsinbo.or.kr/main/index.php",
+  "sourceName": "강원신용보증재단 고객지원센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객지원센터", "tel": "033-260-0001" },
+  "hours": {
+    "weekday": "공식 안내에 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객지원센터", "tel": "033-260-0001", "note": "본점 대표 TEL" }
+  ],
+  "hq": "강원특별자치도 춘천시 중앙로 45(SC은행 3층)"
+}

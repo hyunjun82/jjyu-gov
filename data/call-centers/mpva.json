@@ -1,0 +1,25 @@
+{
+  "slug": "mpva",
+  "name": "국가보훈부",
+  "aliases": ["국가보훈부 고객센터", "보훈상담센터", "국가보훈부 대표전화"],
+  "industry": "public",
+  "brandColor": "#4869C6",
+  "official": "https://www.mpva.go.kr",
+  "sourceUrl": "https://www.mpva.go.kr/",
+  "sourceName": "국가보훈부 누리집 대표전화 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "대표전화", "tel": "1577-0606" },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "callFee": "대표전화 1577-0606(유료)",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1577-0606", "note": "유료 · 평일 09:00 ~ 18:00" },
+    { "label": "정부민원상담안내", "tel": "110", "note": "국번없이 110(무료)" }
+  ],
+  "hq": "세종특별자치시 도움4로 9 정부세종청사 9동",
+  "hqZip": "30113"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "seoulshinbo",
+  "name": "서울신용보증재단",
+  "aliases": ["서울신용보증재단 고객센터", "서울신보", "서울신용보증재단 대표전화"],
+  "industry": "public",
+  "brandColor": "#073775",
+  "official": "https://www.seoulshinbo.co.kr",
+  "sourceUrl": "https://www.seoulshinbo.co.kr/wbase/contents.do?mng_cd=CSTM5346",
+  "sourceName": "서울신용보증재단 찾아오시는 길·종합지원센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "대표전화", "tel": "1577-6119" },
+  "hours": {
+    "weekday": "상담가능시간 09:00 - 18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화 (본점·종합지원센터 공통)", "tel": "1577-6119", "note": "상담가능시간 09:00 - 18:00" }
+  ],
+  "hq": "서울시 마포구 마포대로 163, 서울신용보증재단",
+  "hqZip": "04130"
+}

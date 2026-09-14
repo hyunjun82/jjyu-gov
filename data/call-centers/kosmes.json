@@ -1,0 +1,24 @@
+{
+  "slug": "kosmes",
+  "name": "중소벤처기업진흥공단",
+  "aliases": ["중소벤처기업진흥공단 고객센터", "중진공", "정책자금 콜센터"],
+  "industry": "public",
+  "brandColor": "#003994",
+  "official": "https://www.kosmes.or.kr",
+  "sourceUrl": "https://www.kosmes.or.kr/nsh/SH/SIT/SHSIT010M0.do",
+  "sourceName": "중소벤처기업진흥공단 누리집 오시는길·고객센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "중소기업 통합콜센터", "tel": "1357" },
+  "hours": {
+    "weekday": "공식 안내에 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "중소기업 통합콜센터", "tel": "1357", "note": "국번없이 1357 · 대표번호" },
+    { "label": "정책자금 전담콜센터", "tel": "1811-3655", "note": "정책자금 안내콜센터" }
+  ],
+  "hq": "경상남도 진주시 동진로 430 (충무공동)",
+  "hqZip": "52851"
+}

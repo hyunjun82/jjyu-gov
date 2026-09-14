@@ -1,0 +1,23 @@
+{
+  "slug": "geps",
+  "name": "공무원연금공단",
+  "aliases": ["공무원연금공단 고객센터", "공무원연금 콜센터", "공단 고객상담"],
+  "industry": "public",
+  "brandColor": "#006DBB",
+  "official": "https://www.geps.or.kr",
+  "sourceUrl": "https://www.geps.or.kr/",
+  "sourceName": "공무원연금공단 누리집 고객상담 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객상담", "tel": "1588-4321" },
+  "hours": {
+    "weekday": "평일 09시~18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객상담", "tel": "1588-4321", "note": "평일 09시~18시" }
+  ],
+  "hq": "제주특별자치도 서귀포시 서호중앙로 63(서호동)",
+  "hqZip": "63568"
+}

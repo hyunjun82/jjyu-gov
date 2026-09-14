@@ -1,0 +1,24 @@
+{
+  "slug": "reb",
+  "name": "한국부동산원",
+  "aliases": ["한국부동산원 고객센터", "청약홈 콜센터", "한국부동산원 콜센터"],
+  "industry": "public",
+  "brandColor": "#0058A2",
+  "official": "https://www.reb.or.kr",
+  "sourceUrl": "https://www.reb.or.kr/reb/main.do",
+  "sourceName": "한국부동산원 누리집 콜센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "한국부동산원 콜센터", "tel": "1644-2828" },
+  "hours": {
+    "weekday": "공식 안내에 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "한국부동산원 콜센터", "tel": "1644-2828", "note": "대표 콜센터" },
+    { "label": "청약홈 콜센터", "tel": "1644-7445", "note": "주택청약 시스템(청약홈) 문의" }
+  ],
+  "hq": "대구광역시 동구 이노밸리로 291(신서동)",
+  "hqZip": "41068"
+}

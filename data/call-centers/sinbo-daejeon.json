@@ -1,0 +1,28 @@
+{
+  "slug": "sinbo-daejeon",
+  "name": "대전신용보증재단",
+  "aliases": ["대전신용보증재단 고객센터", "대전신보", "대전신용보증재단 고객지원센터"],
+  "industry": "public",
+  "brandColor": "#28406B",
+  "official": "https://www.sinbo.or.kr",
+  "sourceUrl": "https://www.sinbo.or.kr/main",
+  "sourceName": "대전신용보증재단 고객지원센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객지원센터", "tel": "042-380-3800" },
+  "hours": {
+    "weekday": "AM 09:00 ~ PM 04:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "고객지원센터 시간은 AM 09:00 ~ PM 04:00 으로, 오후 4시에 닫는다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객지원센터", "tel": "042-380-3800", "note": "AM 09:00 ~ PM 04:00" },
+    { "label": "중구지점", "tel": "042-380-3802", "note": "지점" },
+    { "label": "서구지점", "tel": "042-380-3806", "note": "지점" },
+    { "label": "동구지점", "tel": "042-380-3805", "note": "지점" },
+    { "label": "유성지점", "tel": "042-380-3807", "note": "지점" },
+    { "label": "대덕지점", "tel": "042-380-3804", "note": "지점" }
+  ],
+  "hq": "대전광역시 중구 중앙로 116, 10층(대흥동, 대전신보빌딩)"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "khug",
+  "name": "주택도시보증공사",
+  "aliases": ["주택도시보증공사 고객센터", "HUG 콜센터", "HUG 주택도시보증공사"],
+  "industry": "public",
+  "brandColor": "#052564",
+  "official": "https://www.khug.or.kr",
+  "sourceUrl": "https://www.khug.or.kr/index_hug_in.jsp",
+  "sourceName": "주택도시보증공사 콜센터 이용안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "공사콜센터", "tel": "1566-9009" },
+  "hours": {
+    "weekday": "AM 09:00 ~ PM 06:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "토,일, 공휴일 제외"
+  },
+  "hoursNote": "콜센터 이용안내는 AM 09:00 ~ PM 06:00 (토,일, 공휴일 제외) 이다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "공사콜센터", "tel": "1566-9009", "note": "AM 09:00 ~ PM 06:00 (토,일, 공휴일 제외)" },
+    { "label": "위탁보증 콜센터(우리은행)", "tel": "1599-8300", "note": "원문 표기 02-1599-8300" }
+  ],
+  "hq": "부산광역시 남구 문현금융로 40 BIFC",
+  "hqZip": "48400"
+}

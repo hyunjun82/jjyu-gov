@@ -1,0 +1,23 @@
+{
+  "slug": "cnsinbo",
+  "name": "충남신용보증재단",
+  "aliases": ["충남신용보증재단 고객센터", "충남신보", "충남신용보증재단 대표번호"],
+  "industry": "public",
+  "brandColor": "#007CC9",
+  "official": "https://www.cnsinbo.co.kr",
+  "sourceUrl": "https://www.cnsinbo.co.kr/main.do?s=cnsinbo",
+  "sourceName": "충남신용보증재단 누리집 대표번호 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "대표번호", "tel": "1588-7310" },
+  "hours": {
+    "weekday": "공식 안내에 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표번호", "tel": "1588-7310", "note": "충남신용보증재단 본점" }
+  ],
+  "hq": "충남 홍성군 홍북읍 청사로150번길 24, 4층 충남신용보증재단",
+  "hqZip": "32256"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "khug",
+  "keyword": "주택도시보증공사 고객센터",
+  "title": "주택도시보증공사 고객센터 전화번호 및 상담직원 연결·업무시간 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담직원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "주택도시보증공사 고객센터 전화번호 모음",
+    "주택도시보증공사 고객센터 상담직원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "주택도시보증공사 고객센터 위치",
+    "주택도시보증공사 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.khug.or.kr/index_hug_in.jsp",
+  "outline": "data/call-centers/khug.json",
+  "approved": true,
+  "approvedAt": "2026-09-14"
+}

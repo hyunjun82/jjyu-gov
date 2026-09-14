@@ -65,7 +65,9 @@ let made = 0;
     const dark = mix(base, 0, 0.35);
     const light = mix(base, 255, 0.12);
     const hours = String(c.hours?.weekday || '').replace(/^[^0-9]*/, '').slice(0, 28);
-    const kind = c.industry === 'securities' ? '증권사 고객센터' : '보험사 고객센터';
+    /* 업종마다 이름표가 다르다 (2026-09-14 공공기관 30장에 '보험사 고객센터' 가 찍혀 나왔다) */
+    const KIND: Record<string, [string, string]> = { insurance: ['보험사 고객센터', '상담사'], securities: ['증권사 고객센터', '상담원'], card: ['카드사 고객센터', '상담원'], telecom: ['통신사 고객센터', '상담원'], online: ['온라인 고객센터', '상담원'], loan: ['대출 고객센터', '상담원'], public: ['공공기관 고객센터', '상담직원'], appliance: ['가전 AS 고객센터', '상담원'] };
+    const [kind, agent] = KIND[c.industry || 'insurance'] ?? KIND.insurance;
 
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
   <defs>
@@ -82,7 +84,7 @@ let made = 0;
     <text x="80" y="228" font-size="62" font-weight="800">${esc(c.name)} 고객센터</text>
     <text x="80" y="382" font-size="112" font-weight="800" letter-spacing="-2">${esc(c.main.tel)}</text>
     <text x="80" y="452" font-size="30" font-weight="600" opacity=".9">${esc(c.main.label)}${hours ? ' · ' + esc(hours) : ''}</text>
-    <text x="80" y="556" font-size="27" font-weight="600" opacity=".78">업무별 번호 ${(c.numbers || []).length}개 · 상담원 연결 · ${esc(c.verifiedAt)} 확인</text>
+    <text x="80" y="556" font-size="27" font-weight="600" opacity=".78">업무별 번호 ${(c.numbers || []).length}개 · ${agent} 연결 · ${esc(c.verifiedAt)} 확인</text>
   </g>
 </svg>`;
 

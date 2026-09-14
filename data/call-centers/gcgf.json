@@ -1,0 +1,24 @@
+{
+  "slug": "gcgf",
+  "name": "경기신용보증재단",
+  "aliases": ["경기신용보증재단 고객센터", "경기신보", "경기신용보증재단 대표전화"],
+  "industry": "public",
+  "brandColor": "#233C67",
+  "official": "https://www.gcgf.or.kr",
+  "sourceUrl": "https://www.gcgf.or.kr/gcgf/bg/gd/brnchGd.do?mi=1344",
+  "sourceName": "경기신용보증재단 본지점안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "대표전화", "tel": "1577-5900" },
+  "hours": {
+    "weekday": "공식 안내에 전화 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "hoursNote": "본지점안내 페이지에는 ※ 상담가능시간 평일 09:00~16:00 으로 지점 상담시간이 적혀 있다. 전화 상담시간은 따로 적혀 있지 않다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화 (본점·지점 공통)", "tel": "1577-5900", "note": "본지점안내의 모든 지점 연락처가 이 번호다" }
+  ],
+  "hq": "경기도 남양주시 경춘로 508-10, 3~4층(다산동, 영린빌딩)",
+  "hqZip": "12284"
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "sjsinbo",
+  "name": "세종신용보증재단",
+  "aliases": ["세종신용보증재단 고객센터", "세종신보", "세종신용보증재단 전화번호"],
+  "industry": "public",
+  "brandColor": "#548DFF",
+  "official": "https://sjsinbo.or.kr",
+  "sourceUrl": "https://sjsinbo.or.kr/main",
+  "sourceName": "세종신용보증재단 누리집 연락처 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "대표전화", "tel": "044-865-0550" },
+  "hours": {
+    "weekday": "공식 안내에 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "044-865-0550", "note": "세종신용보증재단 본점" }
+  ],
+  "hq": "세종특별자치시 나성로 33-10(나성동, 트리플렉스빌딩 5층)"
+}

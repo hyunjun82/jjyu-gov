@@ -1,0 +1,24 @@
+{
+  "slug": "gnsinbo",
+  "name": "경남신용보증재단",
+  "aliases": ["경남신용보증재단 고객센터", "경남신보", "경남신용보증재단 고객지원센터"],
+  "industry": "public",
+  "brandColor": "#0063B6",
+  "official": "https://www.gnsinbo.or.kr",
+  "sourceUrl": "https://www.gnsinbo.or.kr/index.php",
+  "sourceName": "경남신용보증재단 고객지원센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객지원센터", "tel": "1644-2900" },
+  "hours": {
+    "weekday": "영업점 상담시간 09:00 ~ 16:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음",
+    "lunch": "점심시간 12:00 ~ 13:00"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객지원센터 (대표전화)", "tel": "1644-2900", "note": "영업점 상담시간 09:00 ~ 16:00 (점심시간 12:00 ~ 13:00)" }
+  ],
+  "hq": "경남 창원시 성산구 원이대로 362 창원컨벤션센터 4층(대원동)",
+  "hqZip": "51408"
+}

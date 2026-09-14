@@ -1,0 +1,23 @@
+{
+  "slug": "tp",
+  "name": "사학연금공단",
+  "aliases": ["사학연금공단 고객센터", "사립학교교직원연금공단", "연금Dream콜센터"],
+  "industry": "public",
+  "brandColor": "#052B57",
+  "official": "https://www.tp.or.kr",
+  "sourceUrl": "https://www.tp.or.kr/",
+  "sourceName": "사학연금공단 누리집 콜센터 정보",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "연금Dream콜센터", "tel": "1588-4110" },
+  "hours": {
+    "weekday": "9:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "연금Dream콜센터", "tel": "1588-4110", "note": "9:00~18:00 · 인증서 문의도 이 번호" }
+  ],
+  "hq": "전남광주통합특별시 나주시 문화로 245 (빛가람동) 사립학교교직원연금공단",
+  "hqZip": "58326"
+}

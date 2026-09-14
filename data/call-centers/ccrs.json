@@ -1,0 +1,24 @@
+{
+  "slug": "ccrs",
+  "name": "신용회복위원회",
+  "aliases": ["신용회복위원회 고객센터", "신복위", "채무조정 상담전화"],
+  "industry": "public",
+  "brandColor": "#EC6F01",
+  "official": "https://www.ccrs.or.kr",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220",
+  "sourceName": "신용회복위원회 채무조정 상담안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "상담전화", "tel": "1600-5500" },
+  "hours": {
+    "weekday": "평일 09시-18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "상담전화 (국내)", "tel": "1600-5500", "note": "채무조정 상담·방문상담 전화 예약" },
+    { "label": "해외에서 전화", "tel": "+82-2-6337-2000", "note": "국제전화 요금" }
+  ],
+  "hq": "서울특별시 중구 세종대로 124 한국프레스센터 6~8층",
+  "hqZip": "04520"
+}

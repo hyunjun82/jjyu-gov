@@ -1,0 +1,26 @@
+{
+  "slug": "jbcredit",
+  "name": "전북신용보증재단",
+  "aliases": ["전북신용보증재단 고객센터", "전북신보", "전북서민금융종합지원센터"],
+  "industry": "public",
+  "brandColor": "#08AFC4",
+  "official": "https://www.jbcredit.or.kr",
+  "sourceUrl": "https://www.jbcredit.or.kr/site/main.do",
+  "sourceName": "전북신용보증재단 고객문의 전화 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객문의 전화", "tel": "1588-3833" },
+  "hours": {
+    "weekday": "평일 09:00~16:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "토·일·공휴일 휴무",
+    "lunch": "점심 12:00~13:00"
+  },
+  "hoursNote": "평일 09:00~16:00 으로, 오후 4시에 닫는다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전북신용보증재단", "tel": "1588-3833", "note": "소상공인·중소기업 금융 보증 문의 (신용보증·특례보증)" },
+    { "label": "전북서민금융종합지원센터", "tel": "063-230-3399", "note": "개인/서민의 금융생활 관련 (채무조정·재무상담·서민금융)" }
+  ],
+  "hq": "전북특별자치도 전주시 완산구 홍산로 276, 2F",
+  "hqZip": "54969"
+}

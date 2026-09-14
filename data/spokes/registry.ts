@@ -1698,6 +1698,37 @@ import { carrierAirconCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { rinnaiBoilerCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/rinnai-boiler';
 import { bramsMassageChairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/brams-massage-chair';
 import { 정기종신보험무해지보험판매중지SpokeContent } from '@/app/policy/[id]/[spoke]/content/정기종신보험/무해지보험판매중지';
+import { ccrsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ccrs';
+import { koditCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kodit';
+import { kiboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kibo';
+import { kosmesCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kosmes';
+import { kdicCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kdic';
+import { fssCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/fss';
+import { ksureCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ksure';
+import { koregCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/koreg';
+import { seoulshinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoulshinbo';
+import { gcgfCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gcgf';
+import { icsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/icsinbo';
+import { busansinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busansinbo';
+import { dgsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dgsinbo';
+import { sinboDaejeonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/sinbo-daejeon';
+import { gjsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gjsinbo';
+import { ulsanshinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ulsanshinbo';
+import { gwsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gwsinbo';
+import { cbsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/cbsinbo';
+import { cnsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/cnsinbo';
+import { jbcreditCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jbcredit';
+import { jnsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jnsinbo';
+import { gbsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gbsinbo';
+import { gnsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gnsinbo';
+import { khugCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/khug';
+import { jcgfCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jcgf';
+import { rebCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/reb';
+import { sjsinboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/sjsinbo';
+import { gepsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/geps';
+import { tpCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/tp';
+import { mpvaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/mpva';
+import { keadCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kead';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -1724,6 +1755,37 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'kead': keadCallCenterSpokeContent,
+    'mpva': mpvaCallCenterSpokeContent,
+    'tp': tpCallCenterSpokeContent,
+    'geps': gepsCallCenterSpokeContent,
+    'sjsinbo': sjsinboCallCenterSpokeContent,
+    'reb': rebCallCenterSpokeContent,
+    'jcgf': jcgfCallCenterSpokeContent,
+    'khug': khugCallCenterSpokeContent,
+    'gnsinbo': gnsinboCallCenterSpokeContent,
+    'gbsinbo': gbsinboCallCenterSpokeContent,
+    'jnsinbo': jnsinboCallCenterSpokeContent,
+    'jbcredit': jbcreditCallCenterSpokeContent,
+    'cnsinbo': cnsinboCallCenterSpokeContent,
+    'cbsinbo': cbsinboCallCenterSpokeContent,
+    'gwsinbo': gwsinboCallCenterSpokeContent,
+    'ulsanshinbo': ulsanshinboCallCenterSpokeContent,
+    'gjsinbo': gjsinboCallCenterSpokeContent,
+    'sinbo-daejeon': sinboDaejeonCallCenterSpokeContent,
+    'dgsinbo': dgsinboCallCenterSpokeContent,
+    'busansinbo': busansinboCallCenterSpokeContent,
+    'icsinbo': icsinboCallCenterSpokeContent,
+    'gcgf': gcgfCallCenterSpokeContent,
+    'seoulshinbo': seoulshinboCallCenterSpokeContent,
+    'koreg': koregCallCenterSpokeContent,
+    'ksure': ksureCallCenterSpokeContent,
+    'fss': fssCallCenterSpokeContent,
+    'kdic': kdicCallCenterSpokeContent,
+    'kosmes': kosmesCallCenterSpokeContent,
+    'kibo': kiboCallCenterSpokeContent,
+    'kodit': koditCallCenterSpokeContent,
+    'ccrs': ccrsCallCenterSpokeContent,
     'semas': semasCallCenterSpokeContent,
     'bokjiro129': bokjiro129CallCenterSpokeContent,
     'gov24': gov24CallCenterSpokeContent,

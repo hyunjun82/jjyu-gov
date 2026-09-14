@@ -1,0 +1,25 @@
+{
+  "slug": "kibo",
+  "name": "기술보증기금",
+  "aliases": ["기술보증기금 고객센터", "기보", "KIBO"],
+  "industry": "public",
+  "brandColor": "#2B3370",
+  "official": "https://www.kibo.or.kr",
+  "sourceUrl": "https://www.kibo.or.kr/main/index.do",
+  "sourceName": "기술보증기금 대표누리집 고객센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "고객센터", "tel": "1544-1120" },
+  "hours": {
+    "weekday": "오전 09:00 ~ 오후 06:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "주말/공휴일 휴무"
+  },
+  "hoursNote": "주말과 공휴일에는 상담하지 않는다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터 (대표전화)", "tel": "1544-1120", "note": "오전 09:00 ~ 오후 06:00 (주말/공휴일 휴무)" },
+    { "label": "야간당직실", "tel": "051-606-7301", "note": "본점 야간당직실" }
+  ],
+  "hq": "부산광역시 남구 문현금융로 33 기술보증기금",
+  "hqZip": "48400"
+}
