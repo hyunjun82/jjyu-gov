@@ -1,0 +1,20 @@
+{
+  "slug": "no-surrender-value-cancel",
+  "keyword": "무해지 보험",
+  "title": "무해지 보험료인상, 무해지보험 판매중지되면 얼마나 손해일까?",
+  "pattern": "⑥ 함정 경고형",
+  "subheads": [
+    "무해지 보험이란 무엇이고, 가입 전에 확인하는 방법은 무엇인가요?",
+    "보험 무해지 뜻, 정확히 어떤 의미인가요?",
+    "무해지 보험료인상, 왜 계속 오르는 걸까요?",
+    "무해지보험 판매중지되면 지금 가입한 보험은 어떻게 되나요?",
+    "무해지보험 해지하면 환급금은 얼마나 받을 수 있나요?"
+  ],
+  "source": "https://www.fsc.go.kr/no010101/73932 , https://www.fsc.go.kr/no010101/74468 , https://www.fsc.go.kr/no010101/73816",
+  "extract": "scripts/output/source-no-surrender-value-cancel.txt",
+  "outline": "scripts/output/outline-no-surrender-value-cancel.md",
+  "approved": true,
+  "approvedAt": "2026-09-14",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/no-surrender-value-cancel.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

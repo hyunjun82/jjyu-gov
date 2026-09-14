@@ -1,0 +1,28 @@
+{
+  "slug": "no-surrender-value-cancel",
+  "policyDir": "정기종신보험",
+  "fileName": "무해지보험판매중지",
+  "hubSlug": "term-vs-whole-life-insurance",
+  "role": "caution",
+  "h1": "무해지 보험료인상, 무해지보험 판매중지되면 얼마나 손해일까?",
+  "breadcrumb": "무해지보험 판매중지",
+  "description": "무해지보험 판매중지",
+  "sourceFile": "scripts\\output\\source-no-surrender-value-cancel.txt",
+  "sourceName": "금융위원회 — 무·저해지환급금 보험상품 소비자경보 발령",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/73932",
+  "hubPath": "/policy/term-vs-whole-life-insurance",
+  "qa": [
+    "무해지 보험이란 무엇이고, 가입 전에 확인하는 방법은 무엇인가요?",
+    "보험 무해지 뜻, 정확히 어떤 의미인가요?",
+    "무해지 보험료인상, 왜 계속 오르는 걸까요?",
+    "무해지보험 판매중지되면 지금 가입한 보험은 어떻게 되나요?",
+    "무해지보험 해지하면 환급금은 얼마나 받을 수 있나요?"
+  ],
+  "faq": [
+    "무해지 보험이란 정확히 어떤 상품인가요?",
+    "무해지보험 해지하면 환급금은 정말 하나도 없나요?",
+    "무해지 보험료인상은 왜 계속되나요?",
+    "무해지보험 판매중지되면 기존 가입자는 어떻게 되나요?",
+    "무해지 환급형 보험과 일반 보험, 뭐가 다른가요?"
+  ]
+}

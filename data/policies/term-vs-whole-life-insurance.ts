@@ -86,4 +86,5 @@ export const termVsWholeLifeInsurancePolicy = {
 } as const;
 
 export const termVsWholeLifeInsuranceSpokes = [
+  { slug: 'no-surrender-value-cancel', role: 'caution', title: '무해지 보험료인상, 무해지보험 판매중지되면 얼마나 손해일까?' },
   { slug: 'term-whole-life-annuity', role: 'compare', title: '정기보험과 종신보험 차이, 사망보험 종류부터 연금전환까지' },];

@@ -1697,6 +1697,7 @@ import { cowayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { carrierAirconCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/carrier-aircon';
 import { rinnaiBoilerCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/rinnai-boiler';
 import { bramsMassageChairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/brams-massage-chair';
+import { 정기종신보험무해지보험판매중지SpokeContent } from '@/app/policy/[id]/[spoke]/content/정기종신보험/무해지보험판매중지';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -1710,6 +1711,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'dementia-price-by-age': 치매보험경증치매보장가격SpokeContent,
   },
   'term-vs-whole-life-insurance': {
+    'no-surrender-value-cancel': 정기종신보험무해지보험판매중지SpokeContent,
     'term-whole-life-annuity': 정기종신보험사망보험종류연금전환SpokeContent,
   },
   'simplified-underwriting-insurance': {
