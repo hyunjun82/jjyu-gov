@@ -10,7 +10,8 @@
     "lint": "next lint",
     "audit": "npx tsx scripts/audit-all.ts",
     "verify:integrity": "npx tsx scripts/verify-integrity.ts",
-    "verify": "npx tsx scripts/check-source-match.ts"
+    "verify": "npx tsx scripts/check-source-match.ts",
+    "article": "node scripts/article.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

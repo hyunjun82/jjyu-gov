@@ -1,0 +1,16 @@
+# 묶음 실행 목록 — 줄마다: slug | 키워드(실검색어 파일 이름) | 허브 slug | 폴더(content/{폴더}) | 타이틀(사장님이 주면 적는다, 아니면 비운다)
+#   npm run article -- --batch scripts/batch.txt
+# 키워드는 scripts/output/{키워드}.txt(한 줄에 하나) 또는 {키워드}.json(collect-keywords) 이 있어야 하고, 없으면 파이프라인이 수집한다.
+# 한 편씩 차례로 돈다. 글마다 claude -p 새 호출 (설계·캡처읽기·작성·고침) — 대화창에 쌓이지 않는다.
+# 다 끝나면 scripts/reports/batch-{날짜}.md 와 편별 보고서·캡처를 보고 승인한 뒤 한 번에 커밋·푸시한다.
+
+no-surrender-value-cancel | 무해지 보험 | term-vs-whole-life-insurance | 정기종신보험 |
+non-renewable-indemnity | 실비보험 비갱신형 | indemnity-insurance-generations | 실손보험 |
+type1-diabetes-insurance | 1형 당뇨 보험 | simplified-underwriting-insurance | 유병자보험 |
+diabetes-insurance-cover | 당뇨병 보험 | simplified-underwriting-insurance | 유병자보험 |
+caregiver-benefit-insurance | 간병비 보험 | caregiver-insurance | 간병인보험 |
+brain-infarction-claim-docs | 뇌경색 보험금 청구 | brain-infarction-i63 | 뇌경색진단비 |
+cancer-benefit-similar-cancer | 유사암 진단비 | cancer-diagnosis-benefit | 암진단비 |
+fetal-insurance-rider-choice | 태아보험 특약 | fetal-insurance-compare | 태아보험 |
+policy-certificate-reissue | 보험증권 재발급 | insurance-policy-certificate | 보험증권 |
+variable-insurance-surrender | 변액보험 해지 | variable-life-insurance | 변액보험 |

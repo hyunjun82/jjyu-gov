@@ -42,3 +42,11 @@ build-*.log
 /*.png
 /*.bat
 /.tmp/
+
+# 파이프라인 호출 로그(지시문 전문) — 크고 매번 바뀐다
+scripts/reports/logs/
+# 파이프라인 중간 산출물 — 재생성된다 (설계도·검색 후보·초안·렌더 캡처). 보고서 .md 는 남긴다
+scripts/output/plan-*.json
+scripts/output/found-*.json
+scripts/drafts/
+scripts/reports/*.png

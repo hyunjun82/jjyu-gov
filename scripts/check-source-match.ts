@@ -57,6 +57,21 @@ const inPool = (tok: string, npool: string, npoolCanon: string): boolean => {
   if (canonDate(npool).includes(k)) return true;
   const m = k.match(/^([\d.]+)(%|퍼센트)$/);
   if (m && npool.includes(`100분의${m[1]}`)) return true;
+  /* 표 머리에 단위가 있는 표 (2026-09-14 신설).
+     금융위 보도자료 표는 머리가 "(B)해약환급금(만원)" 이고 셀에는 "1,284.7" 만 있다.
+     글이 "1,284.7만원" 으로 옮기는 게 맞는데, 단위가 붙은 문자열만 찾아 세 번 연속 막았다.
+     좁게 연다: 금액·% 이고 소수점이 있거나 4자리 이상인 숫자만, 풀에서 그 숫자가 다른 숫자의
+     일부가 아니게 나오고 그 앞 600자 안에 같은 단위가 (머리로) 있을 때.
+     "30년"·"5회" 같은 작은 정수는 이 규칙으로 통과하지 않는다. */
+  const hu = k.match(/^(\d+(?:\.\d+)?)(만원|억원|천원|원|%)$/);
+  if (hu && (hu[1].includes('.') || hu[1].length >= 4)) {
+    let i = -1;
+    while ((i = npool.indexOf(hu[1], i + 1)) >= 0) {
+      const before = npool[i - 1] ?? '', after = npool[i + hu[1].length] ?? '';
+      if (/[\d.]/.test(before) || /[\d.]/.test(after)) continue;
+      if (npool.slice(Math.max(0, i - 600), i).includes(hu[2])) return true;
+    }
+  }
   return false;
 };
 
@@ -199,9 +214,12 @@ function compare(label: string, src: string, pool: string, parts: string[], slug
 }
 
 // ── 대상 ──
-const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+/* 인자에 .tsx 경로를 주면 그 스포크만 대조한다 (2026-09-10 파이프라인이 글 한 편씩 부른다). 나머지 인자는 허브 slug */
+const argsAll = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+const fileArgs = argsAll.filter((a) => /\.tsx$/.test(a));
+const args = argsAll.filter((a) => !/\.tsx$/.test(a));
 let targets: string[] = args;
-if (!targets.length) {
+if (!targets.length && !fileArgs.length) {
   let diff = '';
   try { diff = execSync('git diff --name-only origin/main...HEAD -- data/policies', { encoding: 'utf8' }); }
   catch { try { diff = execSync('git diff --name-only HEAD~1 -- data/policies', { encoding: 'utf8' }); } catch {} }
@@ -213,8 +231,8 @@ if (!targets.length) {
    허브(data/policies)만 보던 탓에 스포크 20편이 대조 없이 통과했다. 7편에 추출본에
    없는 숫자가 있었다. 스포크는 머리 주석의 `추출본:` 이 원문 풀을 가리킨다. */
 const SPOKE_DIR = 'app/policy/[id]/[spoke]/content';
-let spokeFiles: string[] = [];
-if (!args.length) {
+let spokeFiles: string[] = fileArgs.filter((f) => fs.existsSync(f));
+if (!argsAll.length) {
   let d = '';
   try { d = execSync(`git diff --name-only origin/main...HEAD -- "${SPOKE_DIR}"`, { encoding: 'utf8' }); }
   catch { try { d = execSync(`git diff --name-only HEAD~1 -- "${SPOKE_DIR}"`, { encoding: 'utf8' }); } catch {} }

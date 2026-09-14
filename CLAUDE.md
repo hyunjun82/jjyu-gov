@@ -14,6 +14,8 @@
 4 마무리   --4            추출본 ↔ 완성글 대조 + 게이트 → 커밋
 ```
 
+자동:  `npm run article -- --batch scripts/batch.txt`  ← 위 4단계를 글 한 편마다 `claude -p` 새 호출로 돌린다 (대화창에서 쓰지 않는다. 보고서 `scripts/reports/{slug}.md` 를 보고 push 전에 승인)
+
 건너뛰면 훅(`require-title-log.mjs`)이 저장을 막고, push는 `.githooks/pre-push`가 막는다.
 ⚠ 수집만으로 끝나지 않는다 — **원문에 있는데 글에 없는 항목**(이벤트·단서·고유명)이 최다 실수. 옮겨 적은 뒤 원문과 역방향 대조.
 
