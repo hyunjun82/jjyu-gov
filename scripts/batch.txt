@@ -4,7 +4,7 @@
 # 한 편씩 차례로 돈다. 글마다 claude -p 새 호출 (설계·캡처읽기·작성·고침) — 대화창에 쌓이지 않는다.
 # 다 끝나면 scripts/reports/batch-{날짜}.md 와 편별 보고서·캡처를 보고 승인한 뒤 한 번에 커밋·푸시한다.
 
-no-surrender-value-cancel | 무해지 보험 | term-vs-whole-life-insurance | 정기종신보험 |
+# (완료 2026-09-14, 커밋 c2e573c6) no-surrender-value-cancel | 무해지 보험 | term-vs-whole-life-insurance | 정기종신보험 |
 non-renewable-indemnity | 실비보험 비갱신형 | indemnity-insurance-generations | 실손보험 |
 type1-diabetes-insurance | 1형 당뇨 보험 | simplified-underwriting-insurance | 유병자보험 |
 diabetes-insurance-cover | 당뇨병 보험 | simplified-underwriting-insurance | 유병자보험 |
