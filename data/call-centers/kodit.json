@@ -1,23 +1,37 @@
 {
   "slug": "kodit",
   "name": "신용보증기금",
-  "aliases": ["신용보증기금 고객센터", "신보", "KODIT"],
+  "aliases": [
+    "신용보증기금 고객센터",
+    "신보",
+    "KODIT"
+  ],
   "industry": "public",
   "brandColor": "#283E80",
   "official": "https://www.kodit.or.kr",
   "sourceUrl": "https://www.kodit.or.kr/index.do",
   "sourceName": "신용보증기금 대표전화 안내",
   "verifiedAt": "2026-09-14",
-  "main": { "label": "대표전화", "tel": "1588-6565" },
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-6565"
+  },
   "hours": {
-    "weekday": "상담가능시간 09:00~18:00",
+    "weekday": "09:00~18:00",
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "주말/공휴일 휴무"
   },
   "hoursNote": "주말과 공휴일에는 상담하지 않는다.",
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "대표전화", "tel": "1588-6565", "note": "상담가능시간 09:00~18:00 (주말/공휴일 휴무)" }
+    {
+      "label": "대표전화",
+      "tel": "1588-6565",
+      "note": "상담가능시간 09:00~18:00 (주말/공휴일 휴무)"
+    }
   ],
   "hq": "대구광역시 동구 첨단로7 (신서동)",
   "hqZip": "41068"

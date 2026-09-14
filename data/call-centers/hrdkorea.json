@@ -1,23 +1,37 @@
 {
   "slug": "hrdkorea",
   "name": "한국산업인력공단",
-  "aliases": ["한국산업인력공단 고객센터", "큐넷 고객센터", "HRDK"],
+  "aliases": [
+    "한국산업인력공단 고객센터",
+    "큐넷 고객센터",
+    "HRDK"
+  ],
   "industry": "public",
   "brandColor": "#137FD2",
   "official": "https://www.hrdkorea.or.kr",
   "sourceUrl": "https://www.hrdkorea.or.kr/",
   "sourceName": "한국산업인력공단 누리집 고객센터 안내",
   "verifiedAt": "2026-09-14",
-  "main": { "label": "고객센터", "tel": "1644-8000" },
+  "main": {
+    "label": "고객센터",
+    "tel": "1644-8000"
+  },
   "hours": {
-    "weekday": "운영시간 평일 09:00~18:00",
+    "weekday": "평일 09:00~18:00",
     "night": "공식 안내에 야간 상담시간 표기 없음",
     "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
   },
   "callFee": "고객센터(유료) 1644-8000",
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "고객센터", "tel": "1644-8000", "note": "유료 · 운영시간 평일 09:00~18:00" }
+    {
+      "label": "고객센터",
+      "tel": "1644-8000",
+      "note": "유료 · 운영시간 평일 09:00~18:00"
+    }
   ],
   "hq": "울산광역시 중구 종가로 345 한국산업인력공단",
   "hqZip": "44538"
