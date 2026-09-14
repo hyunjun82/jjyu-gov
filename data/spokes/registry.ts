@@ -1729,6 +1729,12 @@ import { gepsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { tpCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/tp';
 import { mpvaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/mpva';
 import { keadCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kead';
+import { hrdkoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hrdkorea';
+import { kordiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kordi';
+import { ssisCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ssis';
+import { hiraCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hira';
+import { kdcaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kdca';
+import { mfdsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/mfds';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -1755,6 +1761,12 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'mfds': mfdsCallCenterSpokeContent,
+    'kdca': kdcaCallCenterSpokeContent,
+    'hira': hiraCallCenterSpokeContent,
+    'ssis': ssisCallCenterSpokeContent,
+    'kordi': kordiCallCenterSpokeContent,
+    'hrdkorea': hrdkoreaCallCenterSpokeContent,
     'kead': keadCallCenterSpokeContent,
     'mpva': mpvaCallCenterSpokeContent,
     'tp': tpCallCenterSpokeContent,

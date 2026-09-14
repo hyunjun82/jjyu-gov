@@ -1,0 +1,25 @@
+{
+  "slug": "mfds",
+  "name": "식품의약품안전처",
+  "aliases": ["식품의약품안전처 고객센터", "식약처 종합상담실", "식약처 전화번호"],
+  "industry": "public",
+  "brandColor": "#0D79C2",
+  "official": "https://www.mfds.go.kr",
+  "sourceUrl": "https://www.mfds.go.kr/",
+  "sourceName": "식품의약품안전처 종합상담실 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "종합상담실", "tel": "1577-1255" },
+  "hours": {
+    "weekday": "9:00~18:00",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공휴일 제외"
+  },
+  "callFee": "1577-1255(유료)",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "식품의약품안전처 종합상담실", "tel": "1577-1255", "note": "9:00~18:00, 공휴일 제외, 유료" },
+    { "label": "정부민원안내콜센터", "tel": "110", "note": "국번없이 110(무료)" }
+  ],
+  "hq": "충청북도 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운 식품의약품안전처",
+  "hqZip": "28159"
+}

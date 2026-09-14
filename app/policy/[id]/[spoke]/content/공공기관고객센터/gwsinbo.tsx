@@ -126,7 +126,7 @@ export const gwsinboCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '상담직원과 바로 통화하려면 어떻게 하나요?',
-      a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담직원 연결 항목을 고르세요. 공식 안내에 상담시간 표기 없음에만 가능합니다.',
+      a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담직원 연결 항목을 고르세요. 몇 시까지 연결되는지는 공식 안내에 적혀 있지 않아, 걸기 전에 홈페이지 공지를 한 번 보고 거시는 게 헛걸음을 줄입니다.',
       source: '강원신용보증재단 고객지원센터 안내',
       sourceUrl: 'https://www.gwsinbo.or.kr/main/index.php',
     },

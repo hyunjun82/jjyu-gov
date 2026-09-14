@@ -126,7 +126,7 @@ export const cardifLifeCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '상담사와 바로 통화하려면 어떻게 하나요?',
-      a: '공식 ARS 안내의 항목별 번호를 누르면 해당 창구로 연결됩니다. 위 표에 정리해 뒀습니다. 공식 안내에 상담 가능 시간 표기 없음에만 가능합니다.',
+      a: '공식 ARS 안내의 항목별 번호를 누르면 해당 창구로 연결됩니다. 위 표에 정리해 뒀습니다. 몇 시까지 연결되는지는 공식 안내에 적혀 있지 않아, 걸기 전에 홈페이지 공지를 한 번 보고 거시는 게 헛걸음을 줄입니다.',
       source: '카디프생명 고객센터 이용안내',
       sourceUrl: 'https://www.cardif.co.kr/customer-center/hcwgi010.do',
     },

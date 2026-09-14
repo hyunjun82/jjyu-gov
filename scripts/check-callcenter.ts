@@ -161,6 +161,11 @@ for (const c of all) {
   /* ② 조사 오류 */
   PARTICLE.forEach((w) => { if (txt.includes(w)) p.push(`조사 오류 "${w}"`); });
 
+  /* ②-2 깨진 문장 (2026-09-14) — 시간 칸이 "표기 없음" 인데 생성기가 시간 자리에 그대로 끼웠다.
+     "공식 안내에 상담 가능 시간 표기 없음에만 가능합니다" 가 87편에 나가 있었고 번호·원문 대조로는 안 잡혔다. */
+  const BROKEN = ["표기 없음에만", "표기 없음에는", "표기 없음까지", "표기 없음부터"];
+  BROKEN.forEach((w) => { if (txt.includes(w)) p.push(`깨진 문장 "${w}" — 시간이 없는데 시간 자리에 끼웠다`); });
+
   /* ③④⑤⑥ 번호 */
   const mine = [c.main.tel, ...(c.numbers ?? []).map((n) => n.tel)];
   const mineSet = new Set(mine.map(d));

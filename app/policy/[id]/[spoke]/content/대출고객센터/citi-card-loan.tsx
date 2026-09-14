@@ -125,7 +125,7 @@ export const citiCardLoanCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '상담원과 바로 통화하려면 어떻게 하나요?',
-      a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담원 연결 항목을 고르세요. 공식 안내에 대출 상담시간 표기 없음에만 가능합니다.',
+      a: '공식 안내에 ARS 단축번호가 나와 있지 않습니다. 안내 음성에 따라 상담원 연결 항목을 고르세요. 몇 시까지 연결되는지는 공식 안내에 적혀 있지 않아, 걸기 전에 홈페이지 공지를 한 번 보고 거시는 게 헛걸음을 줄입니다.',
       source: '씨티카드 카드대출 지정인 알림 서비스 안내',
       sourceUrl: 'https://www.citibank.co.kr/CrdInfoFsvc9900.act',
     },

@@ -1,0 +1,24 @@
+{
+  "slug": "kdca",
+  "name": "질병관리청",
+  "aliases": ["질병관리청 고객센터", "질병관리청 콜센터", "1339 콜센터"],
+  "industry": "public",
+  "brandColor": "#3A6DD3",
+  "official": "https://www.kdca.go.kr",
+  "sourceUrl": "https://www.kdca.go.kr/kdca/3224/subview.do",
+  "sourceName": "질병관리청 1339콜센터 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "대표전화", "tel": "1339" },
+  "hours": {
+    "weekday": "공식 안내에 상담시간 표기 없음",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "callFee": "대표전화 1339(무료)",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화 (1339콜센터)", "tel": "1339", "note": "무료" }
+  ],
+  "hq": "충북 청주시 흥덕구 오송읍 오송생명2로 187 오송보건의료행정타운내 질병관리청",
+  "hqZip": "28159"
+}

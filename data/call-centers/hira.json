@@ -1,0 +1,24 @@
+{
+  "slug": "hira",
+  "name": "건강보험심사평가원",
+  "aliases": ["건강보험심사평가원 고객센터", "심평원 대표전화", "HIRA"],
+  "industry": "public",
+  "brandColor": "#E63E44",
+  "official": "https://www.hira.or.kr",
+  "sourceUrl": "https://www.hira.or.kr/",
+  "sourceName": "건강보험심사평가원 누리집 대표전화 안내",
+  "verifiedAt": "2026-09-14",
+  "main": { "label": "대표전화", "tel": "1644-2000" },
+  "hours": {
+    "weekday": "평일 09시~18시",
+    "night": "공식 안내에 야간 상담시간 표기 없음",
+    "holiday": "공식 안내에 공휴일 상담시간 표기 없음"
+  },
+  "callFee": "대표전화 1644-2000 (유료)",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1644-2000", "note": "유료, 평일 09시~18시" }
+  ],
+  "hq": "강원특별자치도 원주시 혁신로 60(반곡동) 건강보험심사평가원",
+  "hqZip": "26465"
+}
