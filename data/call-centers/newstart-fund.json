@@ -1,0 +1,20 @@
+{
+  "slug": "newstart-fund",
+  "name": "새출발기금",
+  "aliases": ["소상공인 새출발기금", "새출발기금 콜센터", "새출발기금 고객센터"],
+  "industry": "public",
+  "brandColor": "#003868",
+  "official": "https://www.newstartfund.or.kr",
+  "sourceUrl": "https://www.newstartfund.or.kr/Cntr/List.do",
+  "sourceName": "한국자산관리공사 새출발기금 상담센터 찾기",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "대표전화", "tel": "1660-1378" },
+  "hours": { "weekday": "", "visit": "평일 09:00~18:00" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1660-1378", "note": "새출발기금 신청·진행 문의" }
+  ],
+  "hq": "부산광역시 남구 문현금융로 40 부산국제금융센터",
+  "hqZip": "48400",
+  "hoursNote": "[2026-09-15] newstartfund.or.kr 푸터 '대표전화 1660-1378', 홈 공지 '새출발기금 관련 내용은 고객센터(1660-1378)로 확인해주시기 바랍니다'. 상담센터 찾기: '서울통합상담센터 서울특별시 강남구 강남대로 262(도곡동) 캠코양재타워 평일 09:00~18:00 1660-1378' — 이 시간은 상담센터 방문 시간 줄이라 전화 상담시간으로 쓰지 않고 visit 칸에만 둔다. 캠코 고객지원센터(kamco-loan 1588-3570)와 다른 번호."
+}

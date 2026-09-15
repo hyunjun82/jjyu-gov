@@ -1766,6 +1766,11 @@ import { dhSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { ksfcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/ksfc';
 import { paycoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/payco';
 import { findaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/finda';
+import { newstartFundCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/newstart-fund';
+import { mpsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/mps';
+import { epostBankCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/epost-bank';
+import { tossCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/toss';
+import { kakaopayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kakaopay';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -1792,6 +1797,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'epost-bank': epostBankCallCenterSpokeContent,
+    'mps': mpsCallCenterSpokeContent,
+    'newstart-fund': newstartFundCallCenterSpokeContent,
     'nice-info': niceInfoCallCenterSpokeContent,
     'kcis': kcisCallCenterSpokeContent,
     'kcb': kcbCallCenterSpokeContent,
@@ -1955,6 +1963,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'kakaopay': kakaopayCallCenterSpokeContent,
+    'toss': tossCallCenterSpokeContent,
     'finda': findaCallCenterSpokeContent,
     'payco': paycoCallCenterSpokeContent,
     '11st': cc11stCallCenterSpokeContent,

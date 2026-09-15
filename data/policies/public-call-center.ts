@@ -131,6 +131,9 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'epost-bank', role: 'eligibility', title: '우체국예금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
+  { slug: 'mps', role: 'eligibility', title: '군인연금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
+  { slug: 'newstart-fund', role: 'eligibility', title: '새출발기금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kcis', role: 'eligibility', title: '한국신용정보원 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'nice-info', role: 'eligibility', title: 'NICE평가정보 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kcb', role: 'eligibility', title: '코리아크레딧뷰로 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
