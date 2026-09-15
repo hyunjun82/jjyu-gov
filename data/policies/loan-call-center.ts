@@ -128,6 +128,7 @@ export const loanCallCenterPolicy = {
 };
 
 export const loanCallCenterSpokes = [
+  { slug: 'daishin-savings-loan', role: 'eligibility', title: '대신저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'db-savings-loan', role: 'eligibility', title: 'DB저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'mg-capital-loan', role: 'eligibility', title: 'MG캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'choeun-savings-loan', role: 'eligibility', title: '조은저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
