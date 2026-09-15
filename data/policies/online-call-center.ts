@@ -126,6 +126,8 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'finda', role: 'eligibility', title: '핀다 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'payco', role: 'eligibility', title: '페이코 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'youtube', role: 'eligibility', title: '유튜브 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'wavve', role: 'eligibility', title: '웨이브 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'one-store', role: 'eligibility', title: '원스토어 고객센터 전화번호 및 상담원 연결·문의 안내' },

@@ -1,0 +1,19 @@
+{
+  "slug": "a-capital-loan",
+  "name": "A캐피탈",
+  "aliases": ["A캐피탈 대출", "에이캐피탈", "JT캐피탈", "제이티캐피탈"],
+  "industry": "loan",
+  "brandColor": "#E02A2F",
+  "official": "https://www.a-capital.co.kr",
+  "sourceUrl": "https://www.a-capital.co.kr/mobile/main.do",
+  "sourceName": "A캐피탈 모바일 홈페이지 전화상담안내",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "전화상담", "tel": "1566-7799" },
+  "hours": { "weekday": "평일 09:00~18:00" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전화상담", "tel": "1566-7799", "note": "대표번호와 같은 번호" }
+  ],
+  "hq": "서울특별시 영등포구 여의대로8 여의도파크센터 지하1층",
+  "hoursNote": "[2026-09-15] a-capital.co.kr 모바일 푸터 '전화상담안내 : 1566-7799 (평일 09:00~18:00)', PC 푸터 '대표번호 : 1566-7799 / 사업자등록번호: 201-86-04525 대표이사: 박재욱'. 옛 JT캐피탈 주소(jtcapital.co.kr)는 없어졌고 사명 변경은 언론 보도(더벨 'JT캐피탈, A캐피탈로 사명 변경')로 확인 — 공식 사이트에 연혁 문구가 없어 옛 이름은 aliases 에만 둔다. 사이트 접속이 자주 끊긴다."
+}

@@ -128,6 +128,13 @@ export const loanCallCenterPolicy = {
 };
 
 export const loanCallCenterSpokes = [
+  { slug: 'dh-savings-loan', role: 'eligibility', title: 'DH저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'a-capital-loan', role: 'eligibility', title: 'A캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'bluecorner-capital-loan', role: 'eligibility', title: '블루코너캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'yuanta-savings-loan', role: 'eligibility', title: '유안타저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'nfcf-loan', role: 'eligibility', title: '산림조합 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'bnk-savings-loan', role: 'eligibility', title: 'BNK저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'nh-coop-loan', role: 'eligibility', title: '농협 상호금융 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'daishin-savings-loan', role: 'eligibility', title: '대신저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'db-savings-loan', role: 'eligibility', title: 'DB저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'mg-capital-loan', role: 'eligibility', title: 'MG캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },

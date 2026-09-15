@@ -1,0 +1,19 @@
+{
+  "slug": "bluecorner-capital-loan",
+  "name": "블루코너캐피탈",
+  "aliases": ["블루코너캐피탈 대출", "웰컴캐피탈", "웰컴캐피탈 대출", "웰릭스캐피탈"],
+  "industry": "loan",
+  "brandColor": "#103860",
+  "official": "https://bluecorner.co.kr",
+  "sourceUrl": "https://bluecorner.co.kr/",
+  "sourceName": "블루코너캐피탈 홈페이지 대표번호 안내",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "대표번호", "tel": "1670-5300" },
+  "hours": { "weekday": "평일 09:00 ~ 18:00", "holiday": "주말/공휴일휴무" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표번호", "tel": "1670-5300", "note": "대표 전화" }
+  ],
+  "hq": "서울특별시 강남구 테헤란로98길23 신아빌딩 3층",
+  "hoursNote": "[2026-09-15] bluecorner.co.kr 푸터 '대표번호 : 1670-5300 평일 09:00 ~ 18:00(주말/공휴일휴무)'. welcomecapital.co.kr 은 bluecorner.co.kr 로 넘어간다. 공식 연혁: 2016.02 웰릭스캐피탈(주) 사명 변경 → 2021.12 웰컴캐피탈(주) 사명 변경 → 2024.12 (주)블루코너캐피탈 사명 변경. 옛 이름은 aliases 에만 둔다."
+}

@@ -421,7 +421,12 @@ const lunchRaw = String(C.hours.lunch ?? '').trim();
 const SPLIT_SPANS = (() => {
   const first = timeSpan(HW);
   if (!first) return null;
-  const second = timeSpan(HW.replace(first, ''));
+  const rest = HW.replace(first, '');
+  const second = timeSpan(rest);
+  /* 두 번째 시각이 '요일별 시간'이거나 '휴게시간'이면 오전·오후로 끊은 게 아니다 (2026-09-15).
+     금융결제원 "평일 09:00 ~ 17:45 (금 09:00 ~ 16:45)" 을 두 구간으로 읽으면
+     "오전 구간 안에 거시는 편이 확실합니다" 라는 없는 말이 나온다. 과기인 "(휴게 12:00~13:00)" 도 같았다. */
+  if (second && /금|월|화|수|목|토|일요일|휴게|점심/.test(rest.replace(second, '').replace(/^[\s)(/]+|[\s)(/]+$/g, '') + rest.slice(0, rest.indexOf(second)))) return null;
   return second ? [first, second] as const : null;
 })();
 const LUNCH_FAQ = SPLIT_SPANS

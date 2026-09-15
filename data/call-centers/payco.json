@@ -1,0 +1,18 @@
+{
+  "slug": "payco",
+  "name": "페이코",
+  "aliases": ["PAYCO", "페이코 고객센터", "NHN페이코"],
+  "industry": "online",
+  "brandColor": "#FA2828",
+  "official": "https://www.payco.com",
+  "sourceUrl": "https://www.payco.com/cs/faq.nhn",
+  "sourceName": "PAYCO 고객센터",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "전화 문의", "tel": "1544-6891" },
+  "hours": { "weekday": "월~금 오전 10시부터 오후 7시까지" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전화 문의", "tel": "1544-6891", "note": "챗봇 빠른 문의는 365일 24시간, 이메일 help@payco.com" }
+  ],
+  "hoursNote": "[2026-09-15] payco.com 고객센터: '빠른 문의 - 365일 24시간 운영 챗봇 바로가기 / 이메일 문의 - help@payco.com / 전화 문의 - 1544-6891 운영시간 월~금 오전 10시부터 오후 7시까지', 좌측 '1544-6891 오전 10시 - 오후 7시(월-금)', 푸터 '전자금융분쟁처리(평일 10:00 ~ 19:00) 대표전화 1544-6891'. 24시간은 챗봇이지 전화가 아니다."
+}

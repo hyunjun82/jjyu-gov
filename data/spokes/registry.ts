@@ -1750,6 +1750,22 @@ import { pmaaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { semaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/sema';
 import { hanwhaDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hanwha-direct';
 import { mmaaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/mmaa';
+import { cgbestCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/cgbest';
+import { yellowUmbrellaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/yellow-umbrella';
+import { nhCoopLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-coop-loan';
+import { kftcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kftc';
+import { kcbCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kcb';
+import { kcisCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kcis';
+import { niceInfoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/nice-info';
+import { bnkSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/bnk-savings-loan';
+import { nfcfLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nfcf-loan';
+import { yuantaSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/yuanta-savings-loan';
+import { bluecornerCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/bluecorner-capital-loan';
+import { aCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/a-capital-loan';
+import { dhSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/dh-savings-loan';
+import { ksfcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/증권고객센터/ksfc';
+import { paycoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/payco';
+import { findaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/finda';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -1776,6 +1792,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'nice-info': niceInfoCallCenterSpokeContent,
+    'kcis': kcisCallCenterSpokeContent,
+    'kcb': kcbCallCenterSpokeContent,
+    'kftc': kftcCallCenterSpokeContent,
     'mfds': mfdsCallCenterSpokeContent,
     'kdca': kdcaCallCenterSpokeContent,
     'hira': hiraCallCenterSpokeContent,
@@ -1825,6 +1845,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'comwel': comwelCallCenterSpokeContent,
   },
   'loan-call-center': {
+    'dh-savings-loan': dhSavingsLoanCallCenterSpokeContent,
+    'a-capital-loan': aCapitalLoanCallCenterSpokeContent,
+    'bluecorner-capital-loan': bluecornerCapitalLoanCallCenterSpokeContent,
+    'yuanta-savings-loan': yuantaSavingsLoanCallCenterSpokeContent,
+    'nfcf-loan': nfcfLoanCallCenterSpokeContent,
+    'bnk-savings-loan': bnkSavingsLoanCallCenterSpokeContent,
+    'nh-coop-loan': nhCoopLoanCallCenterSpokeContent,
     'daishin-savings-loan': daishinSavingsLoanCallCenterSpokeContent,
     'db-savings-loan': dbSavingsLoanCallCenterSpokeContent,
     'mg-capital-loan': mgCapitalLoanCallCenterSpokeContent,
@@ -1928,6 +1955,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'finda': findaCallCenterSpokeContent,
+    'payco': paycoCallCenterSpokeContent,
     '11st': cc11stCallCenterSpokeContent,
     'baemin': baeminCallCenterSpokeContent,
     'naver-shopping': naverShoppingCallCenterSpokeContent,
@@ -1982,6 +2011,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'shinhan-card': shinhanCardCallCenterSpokeContent,
   },
   'securities-call-center': {
+    'ksfc': ksfcCallCenterSpokeContent,
     'next-sec': nextSecCallCenterSpokeContent,
     'kasset-sec': kassetSecCallCenterSpokeContent,
     'cape-sec': capeSecCallCenterSpokeContent,
@@ -2021,6 +2051,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'kiwoom': kiwoomCallCenterSpokeContent,
   },
   'insurance-call-center': {
+    'yellow-umbrella': yellowUmbrellaCallCenterSpokeContent,
+    'cgbest': cgbestCallCenterSpokeContent,
     'mmaa': mmaaCallCenterSpokeContent,
     'hanwha-direct': hanwhaDirectCallCenterSpokeContent,
     'sema': semaCallCenterSpokeContent,

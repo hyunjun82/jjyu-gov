@@ -131,6 +131,10 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'kcis', role: 'eligibility', title: '한국신용정보원 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
+  { slug: 'nice-info', role: 'eligibility', title: 'NICE평가정보 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
+  { slug: 'kcb', role: 'eligibility', title: '코리아크레딧뷰로 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
+  { slug: 'kftc', role: 'eligibility', title: '금융결제원 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'ssis', role: 'eligibility', title: '한국사회보장정보원 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'sjsinbo', role: 'eligibility', title: '세종신용보증재단 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'reb', role: 'eligibility', title: '한국부동산원 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },

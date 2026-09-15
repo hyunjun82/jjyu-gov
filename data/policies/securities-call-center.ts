@@ -165,6 +165,7 @@ export const securitiesCallCenterPolicy = {
 } as const;
 
 export const securitiesCallCenterSpokes = [
+  { slug: 'ksfc', role: 'eligibility', title: '한국증권금융 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'yuhwa-sec', role: 'eligibility', title: '유화증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'yuanta', role: 'eligibility', title: '유안타증권 고객센터 전화번호와 상담시간, 상담원 연결' },
   { slug: 'woori-sec', role: 'eligibility', title: '우리투자증권 고객센터 전화번호와 상담시간, 상담원 연결' },

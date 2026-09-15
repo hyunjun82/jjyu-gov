@@ -1,0 +1,23 @@
+{
+  "slug": "nh-coop-loan",
+  "name": "농협 상호금융",
+  "aliases": ["농·축협", "지역농협", "농축협 대출", "농협 상호금융 대출"],
+  "industry": "loan",
+  "brandColor": "#0060B8",
+  "official": "https://banking.nonghyup.com",
+  "sourceUrl": "https://banking.nonghyup.com/servlet/content/ip/ec/IPEC0001M.thtml",
+  "sourceName": "NH농협 인터넷뱅킹 고객센터 ARS 고객행복센터",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "농·축협 대표번호", "tel": "1661-2100" },
+  "hours": { "weekday": "평일 09시 ~ 18시", "holiday": "공휴일 제외" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "농·축협 대표번호", "tel": "1661-2100", "note": "지역 농협·축협 거래" },
+    { "label": "농·축협 대표번호 다른 국번", "tel": "1522-2100", "note": "같은 창구" },
+    { "label": "농협은행 대표번호", "tel": "1661-3000", "note": "농협은행 거래는 이 번호" },
+    { "label": "해외전용", "tel": "82-2-3704-1004", "note": "해외에서 걸 때" }
+  ],
+  "hq": "서울시 중구 새문안로 16",
+  "hqZip": "04516",
+  "hoursNote": "[2026-09-15] banking.nonghyup.com 고객센터 'ARS 고객행복센터' 블록: 농협은행 대표번호 1661-3000·1522-3000 / 농·축협 대표번호 1661-2100·1522-2100 / 블록 아래 공통 '상담시간 평일 09시 ~ 18시 (공휴일 제외)', '분실신고 365일 24시간 가능'(캡처로 같은 블록 확인). 농협은행(nh-bank-loan 대표 1661-3000)과 다른 창구."
+}

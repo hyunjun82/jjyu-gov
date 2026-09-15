@@ -1,0 +1,20 @@
+{
+  "slug": "bnk-savings-loan",
+  "name": "BNK저축은행",
+  "aliases": ["BNK저축은행 대출", "비엔케이저축은행"],
+  "industry": "loan",
+  "brandColor": "#D7141A",
+  "official": "https://www.bnksb.com",
+  "sourceUrl": "https://www.bnksb.com/",
+  "sourceName": "BNK저축은행 홈페이지 대표전화 안내",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "대표전화", "tel": "1644-9988" },
+  "hours": { "weekday": "09시 ~ 18시" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1644-9988", "note": "이용시간 09시 ~ 18시" },
+    { "label": "인터넷대출", "tel": "1688-7009", "note": "인터넷대출 문의" }
+  ],
+  "hq": "부산광역시 동구 범일로 92 2층",
+  "hoursNote": "[2026-09-15] bnksb.com 푸터 '본점 : 부산광역시 동구 범일로 92 2층 (범일동 830-38) 대표전화 : 1644-9988 (이용시간 : 09시 ~ 18시)', 우측 '대표전화 1644-9988 / 인터넷대출 1688-7009'. 금융사기신고 야간콜센터 02)3978-600,800 은 저축은행중앙회 공용이라 쓰지 않는다. BNK캐피탈(bnk-capital-loan)과 다른 회사."
+}

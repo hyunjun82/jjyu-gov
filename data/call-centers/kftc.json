@@ -1,0 +1,18 @@
+{
+  "slug": "kftc",
+  "name": "금융결제원",
+  "aliases": ["KFTC", "금융결제원 콜센터"],
+  "industry": "public",
+  "brandColor": "#0060B0",
+  "official": "https://www.kftc.or.kr",
+  "sourceUrl": "https://callcenter.kftc.or.kr/",
+  "sourceName": "금융결제원 고객센터",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "고객센터", "tel": "1577-5500" },
+  "hours": { "weekday": "평일 09:00 ~ 17:45 (금 09:00 ~ 16:45)" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1577-5500", "note": "금요일은 16:45 까지" }
+  ],
+  "hoursNote": "[2026-09-15] callcenter.kftc.or.kr 푸터 '고객센터 1577-5500 평일 09:00 ~ 17:45 ( 금 09:00 ~ 16:45 )', kftc.or.kr 홈 '1577-5500 평일 09:00 ~ 17:45 (금 09:00 ~ 16:45)'. 두 페이지가 같은 값."
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "finda",
+  "name": "핀다",
+  "aliases": ["핀다 고객센터", "FINDA", "핀다 대출비교"],
+  "industry": "online",
+  "brandColor": "#6050F0",
+  "official": "https://finda.co.kr",
+  "sourceUrl": "https://finda.co.kr/",
+  "sourceName": "핀다 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "고객센터", "tel": "1533-6782" },
+  "hours": { "weekday": "" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1533-6782", "note": "메일 care@finda.co.kr, 앱 더보기 1:1 채팅문의도 있다" }
+  ],
+  "hq": "서울특별시 강남구 테헤란로 518 4층",
+  "hoursNote": "[2026-09-15] finda.co.kr 푸터 '고객센터: 1533-6782/care@finda.co.kr/핀다앱 더보기>1:1 채팅문의'. 홈·문의하기·대환 가이드·핀다포스트 전체를 봤지만 고객센터 운영시간 표기가 없다. 대환 가이드의 '대환플랫폼 운영시간 (09:00~22:00)' 은 대환대출 서비스 시간이라 고객센터 시간으로 쓰지 않는다."
+}

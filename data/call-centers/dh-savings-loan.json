@@ -1,0 +1,21 @@
+{
+  "slug": "dh-savings-loan",
+  "name": "DH저축은행",
+  "aliases": ["DH저축은행 대출", "디에이치저축은행"],
+  "industry": "loan",
+  "brandColor": "#0070B8",
+  "official": "https://www.dhsavingsbank.co.kr",
+  "sourceUrl": "https://www.dhsavingsbank.co.kr/main_new.act",
+  "sourceName": "DH저축은행 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "고객센터", "tel": "051-867-7701" },
+  "hours": { "weekday": "" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "051-867-7701", "note": "대표전화와 같은 번호" },
+    { "label": "디지털뱅킹 고객센터", "tel": "1544-3637", "note": "24시간 365일 연중무휴" }
+  ],
+  "hq": "부산광역시 부산진구 중앙대로 935",
+  "hqZip": "47210",
+  "hoursNote": "[2026-09-15] DH저축은행 홈 카드: '디지털뱅킹 고객센터 24시간 365일 연중무휴 1544-3637 / 고객센터 051-867-7701 / 대표전화 051-867-7701'(사장님 캡처로 확인). 고객센터 051-867-7701 옆에는 상담시간 표기가 없다. 푸터 'TEL 051-867-7701 FAX 051-867-1169'."
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "kcb",
+  "name": "코리아크레딧뷰로",
+  "aliases": ["KCB", "올크레딧", "올크레딧 고객센터"],
+  "industry": "public",
+  "brandColor": "#305890",
+  "official": "https://www.allcredit.co.kr",
+  "sourceUrl": "https://www.allcredit.co.kr/",
+  "sourceName": "올크레딧(코리아크레딧뷰로) 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "고객센터", "tel": "02-708-1000" },
+  "hours": { "weekday": "월-금(공휴일 제외) 09:00~17:30", "lunch": "점심시간 12:00~13:00" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "02-708-1000", "note": "올크레딧 신용정보 조회 문의" }
+  ],
+  "hq": "서울시 영등포구 국제금융로6길 15",
+  "hoursNote": "[2026-09-15] allcredit.co.kr 푸터 '고객센터 02-708-1000 월-금(공휴일 제외) 09:00~17:30 점심시간 12:00~13:00', '서울시 영등포구 국제금융로6길 15, 코리아크레딧뷰로(주) | Tel 02-708-1000'."
+}

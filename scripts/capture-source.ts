@@ -161,6 +161,15 @@ fs.mkdirSync(SHOTS, { recursive: true });
           .join('\n\n');
       }).catch(() => '');
 
+      /* 이미지 대체텍스트를 따로 뜬다 (2026-09-15 한국증권금융).
+         "고객문의는 평일09:00~18:00시까지이며 1544-8333번 입니다" 가 글자가 아니라
+         이미지 alt 에만 있었다. 공식 안내인데 추출본에 없으면 게이트가 "원문에 없다"고 막는다. */
+      const alts = await page.evaluate(() =>
+        Array.from(new Set(Array.from(document.querySelectorAll('img[alt]'))
+          .map((i) => (i.getAttribute('alt') || '').trim())
+          .filter((a) => a.length > 8 && /\d/.test(a)))).join('\n'),
+      ).catch(() => '');
+
       await page.screenshot({ path: shot, fullPage: true }).catch(async () => {
         await page.screenshot({ path: shot });   /* 너무 길면 보이는 화면만 */
       });
@@ -171,7 +180,8 @@ fs.mkdirSync(SHOTS, { recursive: true });
         `SHOT: scripts/output/captures/${slug}-${i + 1}.png\n` +
         `CHARS: ${text.length}\n\n${text}\n` +
         (tables ? `\n----- 표 (innerText 가 못 읽는 자리) -----\n${tables}\n` : '') +
-        (layers ? `\n----- 숨은 레이어 (클릭해야 열리는 자리) -----\n${layers}\n` : ''),
+        (layers ? `\n----- 숨은 레이어 (클릭해야 열리는 자리) -----\n${layers}\n` : '') +
+        (alts ? `\n----- 이미지 대체텍스트 (img alt) -----\n${alts}\n` : ''),
       );
       const warn = text.length < 1500 ? '  ⚠ 짧다 — 원래 짧은 페이지인지 캡처로 확인해라' : '';
       console.log(`✔ ${String(text.length).padStart(6)}자${tables ? ` + 표 ${tables.split('[표 ').length - 1}개` : ''} + 캡처  ${u}${warn}`);

@@ -1,0 +1,19 @@
+{
+  "slug": "nice-info",
+  "name": "NICE평가정보",
+  "aliases": ["나이스지키미", "NICE지키미", "나이스평가정보", "나이스 신용조회"],
+  "industry": "public",
+  "brandColor": "#1C6CF2",
+  "official": "https://www.credit.co.kr",
+  "sourceUrl": "https://www.credit.co.kr/ib20/mnu/BZWCUSCGM00",
+  "sourceName": "NICE지키미 고객센터 이용안내",
+  "verifiedAt": "2026-09-15",
+  "main": { "label": "고객센터", "tel": "1588-2486" },
+  "hours": { "weekday": "평일 09:00~18:00", "lunch": "점심시간 12:00~13:00" },
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "NICE지키미 고객센터", "tel": "1588-2486", "note": "업무 외 시간에는 홈페이지 서비스 문의 이용" }
+  ],
+  "hq": "서울특별시 영등포구 은행로 17",
+  "hoursNote": "[2026-09-15] credit.co.kr 고객센터 > 이용안내: '고객센터 1588-2486 · 평일 09:00~18:00(점심시간 12:00~13:00) 업무 외 시간에는 [서비스 문의]를 이용해주세요.' 푸터 'NICE평가정보㈜ 서울특별시 영등포구 은행로 17 (여의도동 14-33) / 고객센터 1588-2486'. niceinfo.co.kr 콜센터 패널의 NICE아이디 1600-1522·대표 02-2122-4000 은 다른 서비스라 넣지 않는다."
+}
