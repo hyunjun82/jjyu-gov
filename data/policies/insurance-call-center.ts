@@ -154,6 +154,14 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'mmaa', role: 'eligibility', title: '군인공제회 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'hanwha-direct', role: 'eligibility', title: '한화손보 다이렉트 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'sema', role: 'eligibility', title: '과학기술인공제회 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'pmaa', role: 'eligibility', title: '경찰공제회 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'ktcu', role: 'eligibility', title: '교직원공제회 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'suhyup-insurance', role: 'eligibility', title: '수협 공제 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'cu-insurance', role: 'eligibility', title: '신협 공제 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
+  { slug: 'kfcc-insurance', role: 'eligibility', title: '새마을금고 공제 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'yebyeol', role: 'eligibility', title: '예별손해보험 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'tongyang-life', role: 'eligibility', title: '동양생명 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'shinhan-life', role: 'eligibility', title: '신한라이프 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },

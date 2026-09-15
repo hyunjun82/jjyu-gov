@@ -1,0 +1,75 @@
+SLUG: mmaa-call-center
+RECEIVED: 2026-09-15
+CAPTURED-BY: playwright (실브라우저 — JS 끔: 첫 페이지 / 가 JS 봇 확인 스크립트라 브라우저가 멈춰, 서버가 그려 보내는 본문 index.do 를 직접 열었다)
+SHOTS: 1장 (scripts/output/captures/mmaa-call-center-*.png)
+
+===== [1] https://www.mmaa.or.kr/web/main/index.do =====
+CAPTURED-BY: playwright (실브라우저, JS 끔)
+SHOT: scripts/output/captures/mmaa-call-center-1.png
+CHARS: 519
+
+슬라이드 정지
+1
+/
+5
+오늘 하루 보지 않기
+팝업닫기
+현역/예비역 간부 회원
+병(兵) 회원
+단체회원
+회원가입 신청 현황 로그인 회원가입
+저축안내
+ 
+대여안내
+ 
+인터넷창구
+ 
+복지포털
+ 
+주택정보
+ 
+고객센터
+ 
+공제회 소개
+검색
+챗봇 상담
+채팅 상담
+맨 위로 이동
+
+Q
+u
+i
+c
+k
+
+M
+e
+n
+u
+
+저축/대여
+시뮬레이션
+연금식 분할급여 퇴직시 가입
+목돈수탁저축 가입
+퇴직급여 증좌
+퇴직급여 대여
+퀵메뉴 닫기
+개인정보처리방침
+ 
+전자민원 창구
+ 
+투자사업제안
+ 
+오시는 길
+ 
+사이트맵
+ 
+원격지원
+ 
+외부기관
+산하사업체
+리스트 보기
+관련사이트
+리스트 보기
+
+(06292) 서울시 강남구 남부순환로 2806 군인공제회 고객센터(일반) : 1544-9090, 1599-9090 (평일 08:00 ~ 17:00) 군인공제회 청렴신고센터(Hot-Line) : 메일신고 cjdqorfl@mmaa.or.kr COPYRIGHT © THE MILITARY MUTUAL AID ASSOCIATION. ALL. RIGHTS RESERVED

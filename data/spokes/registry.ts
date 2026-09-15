@@ -1742,6 +1742,14 @@ import { okCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { mgCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/mg-capital-loan';
 import { dbSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/db-savings-loan';
 import { daishinSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/daishin-savings-loan';
+import { kfccInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/kfcc-insurance';
+import { cuInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/cu-insurance';
+import { suhyupInsuranceCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/suhyup-insurance';
+import { ktcuCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/ktcu';
+import { pmaaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/pmaa';
+import { semaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/sema';
+import { hanwhaDirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/hanwha-direct';
+import { mmaaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/mmaa';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -2013,6 +2021,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'kiwoom': kiwoomCallCenterSpokeContent,
   },
   'insurance-call-center': {
+    'mmaa': mmaaCallCenterSpokeContent,
+    'hanwha-direct': hanwhaDirectCallCenterSpokeContent,
+    'sema': semaCallCenterSpokeContent,
+    'pmaa': pmaaCallCenterSpokeContent,
+    'ktcu': ktcuCallCenterSpokeContent,
+    'suhyup-insurance': suhyupInsuranceCallCenterSpokeContent,
+    'cu-insurance': cuInsuranceCallCenterSpokeContent,
+    'kfcc-insurance': kfccInsuranceCallCenterSpokeContent,
     'shinhan-ez-insurance': shinhanEzInsuranceCallCenterSpokeContent,
     'kakaopay-insurance': kakaopayInsuranceCallCenterSpokeContent,
     'meritz-fire-direct': meritzFireDirectCallCenterSpokeContent,

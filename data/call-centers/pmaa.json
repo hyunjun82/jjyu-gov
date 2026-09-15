@@ -1,0 +1,31 @@
+{
+  "slug": "pmaa",
+  "name": "경찰공제회",
+  "aliases": [
+    "경찰공제회 서비스문의",
+    "경찰공제회 상담문의"
+  ],
+  "industry": "insurance",
+  "brandColor": "#204090",
+  "official": "https://www.pmaa.or.kr",
+  "sourceUrl": "https://www.pmaa.or.kr/index.do",
+  "sourceName": "경찰공제회 홈페이지 상담문의 안내",
+  "verifiedAt": "2026-09-15",
+  "main": {
+    "label": "서비스문의",
+    "tel": "1577-0112"
+  },
+  "hours": {
+    "weekday": "09:00-18:00"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    { "label": "서비스문의", "tel": "1577-0112", "note": "상담문의" }
+  ],
+  "hq": "서울특별시 마포구 마포대로 78",
+  "hqZip": "04168",
+  "hoursNote": "[2026-09-15] pmaa.or.kr 홈 우측 '상담문의 1577-0112 / 상담시간 : 09:00-18:00', 푸터 '04168 서울특별시 마포구 마포대로 78 경찰공제회 / 서비스문의: 1577-0112'. 원문에 '평일'·주말 표기가 없어 시간만 적는다."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "suhyup-insurance",
+  "name": "수협 공제",
+  "aliases": [
+    "Sh수협보험",
+    "수협보험",
+    "수협공제",
+    "수협 공제상담"
+  ],
+  "industry": "insurance",
+  "brandColor": "#0070C0",
+  "official": "https://ins.suhyup.co.kr",
+  "sourceUrl": "https://ins.suhyup.co.kr/MWACPI0100.do",
+  "sourceName": "수협보험 사고보상안내 공제금 청구 안내",
+  "verifiedAt": "2026-09-15",
+  "main": {
+    "label": "공제상담",
+    "tel": "1588-4119"
+  },
+  "hours": {
+    "weekday": "영업일 09:00~18:00"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    { "label": "공제상담", "tel": "1588-4119", "note": "공제(보험) 가입·공제금 청구 문의" }
+  ],
+  "hq": "서울특별시 송파구 오금로 62",
+  "hqZip": "05510",
+  "hoursNote": "[2026-09-15] ins.suhyup.co.kr 공제금 청구 안내: '공제상담 1588-4119 (문의시간 : 영업일 09:00~18:00)'. Sh수협보험(shinsure.co.kr) 푸터 '공제상담센터 1588-4119', 수협중앙회 푸터 '공제상담 1588-4119'. 수협은행(suhyup-bank-loan 1588-1515)과 다른 기관·번호다."
+}
