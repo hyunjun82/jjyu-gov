@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-eligibility-criteria",
+  "policyDir": "새도약기금",
+  "fileName": "대상자자격연체기간채무금액",
+  "hubSlug": "new-leap",
+  "role": "eligibility",
+  "h1": "새도약기금 대상자 자격, 연체 기간과 채무 금액 기준 넘으면 제외될까?",
+  "breadcrumb": "새도약기금 대상자 자격",
+  "description": "새도약기금 대상자 자격",
+  "sourceFile": "scripts/output/source-new-leap-eligibility-criteria.txt",
+  "sourceName": "새도약기금 — 제도안내",
+  "sourceUrl": "https://www.newleap.or.kr/about/rules.do",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금 대상자는 누구인가요?",
+    "연체 기간이 얼마나 돼야 하나요?",
+    "채무 금액 기준은 얼마인가요?",
+    "기준을 넘으면 제외되나요?"
+  ],
+  "faq": [
+    "새도약기금 7년 연체는 언제를 기준으로 계산하나요?",
+    "5천만원에 연체이자도 포함되나요?",
+    "카드값이나 렌탈료 연체도 대상인가요?",
+    "외국인도 새도약기금 대상이 되나요?",
+    "연체가 7년이 안 되면 방법이 없나요?"
+  ]
+}

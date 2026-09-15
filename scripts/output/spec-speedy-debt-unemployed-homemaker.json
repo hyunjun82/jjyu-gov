@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-unemployed-homemaker",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정무직자주부프리랜서",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "eligibility",
+  "h1": "무직자와 주부도 신속채무조정 되나요, 프리랜서 소득 증빙과 무직 서류",
+  "breadcrumb": "무직자·주부 신속채무조정",
+  "description": "무직자·주부 신속채무조정",
+  "sourceFile": "scripts/output/source-speedy-debt-unemployed-homemaker.txt",
+  "sourceName": "신용회복위원회 — 자주하는 질문(FAQ)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "무직자도 신속채무조정 신청되나요?",
+    "주부도 대상인가요?",
+    "프리랜서는 소득을 어떻게 증빙하나요?",
+    "무직일 때 내는 서류는 무엇인가요?"
+  ],
+  "faq": [
+    "소득이 없으면 신속채무조정 신청이 아예 안 되나요?",
+    "실직한 지 얼마 안 됐는데 연체 전에도 신청할 수 있나요?"
+  ]
+}

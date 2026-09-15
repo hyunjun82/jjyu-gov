@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-lender-list",
+  "policyDir": "새도약기금",
+  "fileName": "대부업체채무참여명단내채권확인",
+  "hubSlug": "new-leap",
+  "role": "eligibility",
+  "h1": "새도약기금 대부업체 채무도 되나요, 참여 업체 명단과 내 채권 확인 방법",
+  "breadcrumb": "새도약기금 대부업체 채무",
+  "description": "새도약기금 대부업체 채무",
+  "sourceFile": "scripts/output/source-new-leap-lender-list.txt",
+  "sourceName": "금융위원회 — 새도약기금 관련 대부업체 동향 점검회의 개최",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/86081",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "대부업체 채무도 새도약기금 대상인가요?",
+    "참여 대부업체 명단은 어디서 보나요?",
+    "내 채권이 어느 업체에 있는지 어떻게 아나요?",
+    "명단에 없는 업체 채무는 어떻게 되나요?"
+  ],
+  "faq": [
+    "대부업체 채권은 언제 매입되나요?",
+    "새도약기금 협약 가입 기관 명단은 어디서 받나요?",
+    "지방자치단체에 등록된 대부업체 채무도 조회되나요?",
+    "협약에 가입하지 않은 대부업체가 계속 추심하면 어떻게 하나요?",
+    "대부업체 채무가 매입되지 않으면 다른 지원은 없나요?"
+  ]
+}

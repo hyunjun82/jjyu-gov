@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-payment-deferral",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정납부유예기간연장",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "apply",
+  "h1": "신속채무조정 납부유예는 어떻게 신청하나요, 유예기간과 연장 횟수는 몇 번까지?",
+  "breadcrumb": "신속채무조정 납부유예",
+  "description": "신속채무조정 납부유예",
+  "sourceFile": "scripts/output/source-speedy-debt-payment-deferral.txt",
+  "sourceName": "신용회복위원회 — 재조정(상환유예)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=700",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "납부유예는 어떻게 신청하나요?",
+    "유예기간은 얼마인가요?",
+    "유예기간 연장이 되나요?",
+    "유예 횟수는 몇 번까지인가요?"
+  ],
+  "faq": [
+    "유예기간에도 이자를 내나요?",
+    "재난이 생기면 유예를 더 받을 수 있나요?"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-basic-recipient",
+  "policyDir": "새도약기금",
+  "fileName": "기초수급자취약계층소득재산심사",
+  "hubSlug": "new-leap",
+  "role": "eligibility",
+  "h1": "기초수급자도 새도약기금 되나요, 취약계층 구분과 소득재산심사 재산 기준",
+  "breadcrumb": "기초수급자 새도약기금",
+  "description": "기초수급자 새도약기금",
+  "sourceFile": "scripts/output/source-new-leap-basic-recipient.txt",
+  "sourceName": "금융위원회 — 사회 취약계층 장기 연체채권 우선 소각",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/85809",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "기초생활수급자도 새도약기금 대상인가요?",
+    "취약계층은 어떻게 구분하나요?",
+    "소득재산심사는 어떻게 하나요?",
+    "재산이 있으면 탈락하나요?"
+  ],
+  "faq": [
+    "기초생활수급자는 따로 심사를 받나요?",
+    "중증장애인은 누구를 말하나요?",
+    "상환능력 심사에 쓰는 자료는 무엇인가요?",
+    "생계형 재산은 어떤 것이 있나요?",
+    "재산이 채무보다 적으면 어떻게 되나요?"
+  ]
+}

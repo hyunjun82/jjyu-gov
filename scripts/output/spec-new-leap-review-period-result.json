@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-review-period-result",
+  "policyDir": "새도약기금",
+  "fileName": "심사기간진행상황결과",
+  "hubSlug": "new-leap",
+  "role": "apply",
+  "h1": "새도약기금 심사 기간과 진행상황, 결과 통보부터 확정되면 뭐가 달라질까?",
+  "breadcrumb": "새도약기금 심사 기간",
+  "description": "새도약기금 심사 기간",
+  "sourceFile": "scripts/output/source-new-leap-review-period-result.txt",
+  "sourceName": "금융위원회 — 새도약기금 사회 취약계층 장기 연체채권 3차 소각",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/87213",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "심사 기간은 얼마나 걸리나요?",
+    "진행상황은 어디서 확인하나요?",
+    "결과는 어떻게 통보되나요?",
+    "확정되면 무엇이 달라지나요?"
+  ],
+  "faq": [
+    "새도약기금 상환능력 심사는 언제 시작됐나요?",
+    "기초생활수급자도 심사를 받나요?",
+    "심사 기준은 무엇인가요?",
+    "상환능력이 있다고 판단되면 어떻게 되나요?",
+    "소각되면 압류도 풀리나요?"
+  ]
+}

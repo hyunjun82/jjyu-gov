@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-apply-documents",
+  "policyDir": "새도약기금",
+  "fileName": "신청절차필요서류접수기간",
+  "hubSlug": "new-leap",
+  "role": "apply",
+  "h1": "새도약기금 신청 절차와 필요서류, 접수 기간까지 따로 신청해야 할까?",
+  "breadcrumb": "새도약기금 신청 절차",
+  "description": "새도약기금 신청 절차",
+  "sourceFile": "scripts/output/source-new-leap-apply-documents.txt",
+  "sourceName": "새도약기금 — 자주 묻는 질문",
+  "sourceUrl": "https://www.newleap.or.kr/help/faq.do",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금은 신청해야 받나요?",
+    "필요서류는 무엇인가요?",
+    "접수 기간은 언제까지인가요?",
+    "새도약기금 신청 방법"
+  ],
+  "faq": [
+    "새도약기금 신청서를 어디에 내나요?",
+    "채무조정 대상 안내를 받으면 어디서 신청하나요?",
+    "새도약론 신청할 때 필요한 서류는?",
+    "특별 채무조정은 언제까지 신청할 수 있나요?",
+    "신청을 대신 해주겠다는 연락은 믿어도 되나요?"
+  ]
+}

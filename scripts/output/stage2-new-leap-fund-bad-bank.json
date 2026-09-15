@@ -1,0 +1,15 @@
+{
+  "slug": "new-leap-fund-bad-bank",
+  "keyword": "새도약기금이란",
+  "title": "새도약기금이란 무엇일까, 배드뱅크와 같은지 언제 시행되고 재원은 어디서 나올까?",
+  "pattern": "③절차 묶음",
+  "subheads": [
+    "새도약기금이란 무엇인가요?",
+    "배드뱅크와 같은 건가요?",
+    "언제부터 시행되나요?",
+    "재원은 어디서 나오나요?"
+  ],
+  "outline": "scripts/output/outline-new-leap-fund-bad-bank.md",
+  "approved": true,
+  "approvedAt": "2026-09-15"
+}

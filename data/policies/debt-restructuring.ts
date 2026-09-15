@@ -66,7 +66,7 @@ export const debtRestructuringPolicy = {
     },
     {
       q: '신용회복위원회 워크아웃 채무조정은 뭔가요?', anchor: 'q-workout',
-      intro: '신용회복위원회 채무조정(흔히 워크아웃)은 법원이 아니라 신용회복위원회를 통해, 금융회사 등 채권자와의 조정으로 연체이자를 감면하거나 상환 기간을 늘려 빚을 갚아나가도록 돕는 사적 채무조정 제도입니다. 법원 절차인 개인회생·개인파산과 달리, 신용회복위원회에 신청해 채무조정이 확정되면 조정된 조건에 따라 성실히 상환하게 됩니다. 신용회복위원회 제도는 연체가 되기 전이나 초기 단계에서 이용하는 “연체 전 채무조정(신속채무조정)”, 단기 연체 단계의 “이자율 채무조정(프리워크아웃)”, 장기 연체 단계의 “개인워크아웃” 등 연체 정도에 따라 여러 유형으로 나뉩니다. 채권자와의 합의를 기반으로 하므로 법원 절차보다 간이하고, 원금보다는 이자 감면·상환 유예·기간 연장에 초점이 있는 경우가 많습니다. 다만 감면율·지원 요건·대상 채권 범위는 신용회복위원회가 정하며 수시로 바뀔 수 있으므로, 이 페이지에서는 구체 감면율을 단정하지 않습니다. 본인이 워크아웃 대상인지, 어떤 유형이 맞는지, 얼마나 감면·조정되는지는 신용회복위원회(☎1600-5500)나 서민금융통합지원센터에서 확인하는 것이 정확합니다.',
+      intro: '신용회복위원회 채무조정(흔히 워크아웃)은 법원이 아니라 신용회복위원회를 통해, 금융회사 등 채권자와의 조정으로 연체이자를 감면하거나 상환 기간을 늘려 빚을 갚아나가도록 돕는 사적 채무조정 제도입니다. 법원 절차인 개인회생·개인파산과 달리, 신용회복위원회에 신청해 채무조정이 확정되면 조정된 조건에 따라 성실히 상환하게 됩니다. 신용회복위원회 제도는 연체가 되기 전이나 초기 단계에서 이용하는 “연체 전 채무조정(신속채무조정)”, 단기 연체 단계의 “이자율 채무조정(프리워크아웃)”, 장기 연체 단계의 “개인워크아웃” 등 연체 정도에 따라 여러 유형으로 나뉩니다. 채권자와의 합의를 기반으로 하므로 법원 절차보다 간이하고, 원금보다는 이자 감면·상환 유예·기간 연장에 초점이 있습니다. 다만 감면율·지원 요건·대상 채권 범위는 신용회복위원회가 정하며 수시로 바뀔 수 있으므로, 이 페이지에서는 구체 감면율을 단정하지 않습니다. 본인이 워크아웃 대상인지, 어떤 유형이 맞는지, 얼마나 감면·조정되는지는 신용회복위원회(☎1600-5500)나 서민금융통합지원센터에서 확인하는 것이 정확합니다.',
       highlights: ['법원이 아니라 신용회복위원회를 통해, 금융회사 등 채권자와의 조정으로 연체이자를 감면하거나 상환 기간을 늘려 빚을 갚아나가도록 돕는 사적 채무조정 제도입니다', '“연체 전 채무조정(신속채무조정)”, 단기 연체 단계의 “이자율 채무조정(프리워크아웃)”, 장기 연체 단계의 “개인워크아웃” 등 연체 정도에 따라 여러 유형으로 나뉩니다', '감면율·지원 요건·대상 채권 범위는 신용회복위원회가 정하며 수시로 바뀔 수 있으므로', '신용회복위원회(☎1600-5500)나 서민금융통합지원센터에서 확인하는 것이 정확합니다'],
       box: { label: '워크아웃', content: '신용회복위원회 채무조정(법원 아님). 연체 단계별(신속·프리워크아웃·개인워크아웃) 이자 감면·상환 연장. 요건·감면율은 신복위(1600-5500) 확인.' },
       sourceNote: '* 출처: 신용회복위원회(ccrs.or.kr)',
@@ -106,16 +106,27 @@ export const debtRestructuringPolicy = {
 } as const;
 
 export const debtRestructuringSpokes = [
+  { slug: 'speedy-debt-credit-card', role: 'target', title: '신속채무조정 신용카드 정지될까? 밀린 카드값과 체크카드 사용부터 재발급 조건까지' },
+  { slug: 'speedy-debt-missed-payment-lapse', role: 'target', title: '신속채무조정 미납 몇 번이면 실효되나요, 연체 처리와 재조정 신청' },
+  { slug: 'speedy-debt-rejection-creditor', role: 'target', title: '신속채무조정 부결 사유와 확률, 채권자가 부동의하면 재신청은 언제 될까?' },
+  { slug: 'speedy-debt-payment-deferral', role: 'apply', title: '신속채무조정 납부유예는 어떻게 신청하나요, 유예기간과 연장 횟수는 몇 번까지?' },
+  { slug: 'speedy-debt-payment-interest', role: 'calc', title: '신속채무조정 납입금 얼마일까? 이자 감면과 예납금부터 중도상환까지' },
+  { slug: 'speedy-debt-procedure-review', role: 'apply', title: '신속채무조정 절차와 심사 기간, 합의서 체결부터 확정까지 얼마나 걸릴까?' },
+  { slug: 'speedy-debt-documents', role: 'apply', title: '신속채무조정 필요서류는 어디서 떼나요, 서류 누락되면 추가 요구될까?' },
+  { slug: 'speedy-debt-apply-online', role: 'apply', title: '신속채무조정 신청방법과 비대면 접수, 상담 예약부터 접수통지 시점은?' },
+  { slug: 'speedy-debt-unemployed-homemaker', role: 'eligibility', title: '무직자와 주부도 신속채무조정 되나요, 프리랜서 소득 증빙과 무직 서류' },
+  { slug: 'speedy-debt-conditions-income-asset', role: 'eligibility', title: '신속채무조정 조건은 연체 며칠부터인가요, 소득 기준과 재산 요건까지' },
+  { slug: 'speedy-debt-vs-pre-workout', role: 'compare', title: '신속채무조정과 프리워크아웃 차이, 대상자 기준부터 지원 내용까지 뭐가 다를까?' },
   { slug: 'personal-rehabilitation-eligibility', role: 'target', title: '개인회생 자격·부채한도, 담보 15억·무담보 10억', content: '소득 있는 급여/영업소득자, 담보 15억·무담보 10억 이하. 3~5년 변제 후 면책.' },
   { slug: 'bankruptcy-discharge', role: 'compare', title: '개인파산·면책, 개인회생과 차이와 비면책채권', content: '갚을 능력 없을 때 재산 청산 후 면책(법원). 세금·벌금 등 비면책채권.' },
   { slug: 'credit-recovery-workout', role: 'apply', title: '신용회복위원회 워크아웃(채무조정), 이자 감면·상환 연장', content: '법원 아닌 신복위 채무조정. 연체 단계별 유형. 감면율은 신복위 확인.' },
   { slug: 'debt-relief-comparison', role: 'overlap', title: '개인회생 vs 개인파산 vs 워크아웃, 뭘 골라야 하나', content: '소득 있음→개인회생, 이자 조정→워크아웃, 갚기 불가→개인파산.' },
   { slug: 'rehabilitation-repayment-change', role: 'apply', title: '개인회생 변제계획 변경·수입 변동 대응(§610·§619)', content: '수입 감소 등 사정 변경 시 변제계획 변경. 폐지·특별면책 대응.' },
-  { slug: 'rehabilitation-documents', role: 'apply', title: '개인회생 신청서류·채권자목록·변제계획안(§589)', content: '신청서+채권자목록·재산목록·수입지출·변제계획안·진술서. 관공서 서류 2개월 내.' },
+  { slug: 'rehabilitation-documents', role: 'apply', title: '개인회생 신청서류·채권자목록·변제계획안(§589)', content: '신청서+채권자목록·재산목록·수입지출·변제계획안·진술서.' },
   { slug: 'rehabilitation-discharge', role: 'target', title: '개인회생 면책, 변제 다 못해도 받는 특별면책(§624)', content: '변제 완료 시 면책. 책임 없는 사유+청산가치 이상이면 특별면책. 세금·벌금 등 비면책.' },
   { slug: 'rehabilitation-asset-treatment', role: 'target', title: '개인회생하면 집·차 뺏기나? 재산 유지·압류 중지', content: '재산 청산 안 하고 보유하며 변제. 개시결정 시 압류·경매 중지(§600). 청산가치 보장(§614).' },
   { slug: 'personal-bankruptcy-eligibility', role: 'compare', title: '개인파산 자격조건과 불이익, 누가 신청하나', content: '지급불능 상태의 개인. 복권 전 자격 제한(본인 한정). 면책까지 받아야 책임 면제(§566).' },
-  { slug: 'personal-bankruptcy-procedure', role: 'compare', title: '개인파산 절차와 기간, 신청부터 면책까지', content: '신청→30일 내 선고 결정→동시폐지(§317)/파산관재인(§312)→면책(§566).' },
+  { slug: 'personal-bankruptcy-procedure', role: 'compare', title: '개인파산 절차와 기간, 신청부터 면책까지', content: '신청→파산선고 결정→동시폐지(§317)/파산관재인(§312)→면책(§566).' },
   { slug: 'speedy-debt-adjustment', role: 'apply', title: '신속채무조정, 연체 30일 이하인데 벌써 신청되나요?', content: '연체 30일 이하(또는 연체 전 6개 요건), 이자 30~50% 인하, 최장 10년 분할, 추심 즉시 중단.' },
   { slug: 'stage-comparison', role: 'overlap', title: '신속·사전채무조정·개인워크아웃, 연체 며칠이면 뭘 신청하나요?', content: '연체 30일/31~89일/90일 이상 기준 3단계 비교. 이자조정→원금조정으로 성격 변화.' },
 ];

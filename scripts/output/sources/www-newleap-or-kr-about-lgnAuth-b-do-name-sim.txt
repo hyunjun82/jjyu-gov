@@ -1,0 +1,23 @@
+URL: https://www.newleap.or.kr/about/lgnAuth_b.do?name=sim
+CAPTURED-BY: playwright MCP (2026-09-15 browser_navigate → 정부 통합로그인 화면으로 이동, 접근성 스냅샷 전사 · 화면 캡처 scripts/output/captures/new-leap-target-lookup-2.png)
+최종 URL: https://www.newleap.or.kr/about/lgnAuth.do?endPoint=%2Fabout%2FlgnAuth.do%3Fchk%3Dsim&acrValues=3&tx=(세션값)&chk=sim
+페이지 제목: 새도약기금 본인인증
+
+본인인증
+채무조회 > 본인인증
+
+심사 현황 및 소각조회
+「 심사현황 및 소각조회 」 는 새도약기금이 보유한 귀하의 채무에 대해 심사진행상황 및 소각 여부를 확인할 수 있는 서비스입니다. 본인인증을 통해 새도약기금으로 인수된 귀하의 채무 상태를 조회하실 수 있습니다. 본인명의 휴대폰이 없는 경우 콜센터 또는 상담센터를 통해 확인해주시기 바랍니다.
+
+채무조회
+본인인증
+정부 통합로그인
+
+개인사용자 로그인
+- 모바일 신분증: 스마트폰의 모바일 신분증으로 로그인
+- 간편인증: 네이버, 카카오, 금융기관 등의 전자서명으로 로그인
+- 민간ID: 네이버, 카카오, 페이코ID로 로그인
+
+주소 48400) 부산광역시 남구 문현금융로 40 부산국제금융센터(BIFC)
+평일 09:00 ~ 18:00 1660-0705
+COPYRIGHT © 2025 NEW LEAP FUND. ALL RIGHTS RESERVED.

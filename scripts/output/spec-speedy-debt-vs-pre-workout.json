@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-vs-pre-workout",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정프리워크아웃차이",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "compare",
+  "h1": "신속채무조정과 프리워크아웃 차이, 대상자 기준부터 지원 내용까지 뭐가 다를까?",
+  "breadcrumb": "신속채무조정·프리워크아웃 차이",
+  "description": "신속채무조정과 프리워크아웃 차이",
+  "sourceFile": "scripts/output/source-speedy-debt-vs-pre-workout.txt",
+  "sourceName": "신용회복위원회 — 신속채무조정(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=520&CONTENTS_NO=2",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정이란 무엇인가요?",
+    "프리워크아웃과 같은 건가요?",
+    "대상자 기준은 어떻게 되나요?",
+    "어떤 지원을 받나요?"
+  ],
+  "faq": [
+    "신속채무조정과 프리워크아웃 이자율 인하 폭은 어떻게 다른가요?",
+    "연체 전에도 신속채무조정을 신청할 수 있나요?"
+  ]
+}

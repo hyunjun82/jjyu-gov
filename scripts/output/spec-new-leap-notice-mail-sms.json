@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-notice-mail-sms",
+  "policyDir": "새도약기금",
+  "fileName": "대상자통보우편문자",
+  "hubSlug": "new-leap",
+  "role": "caution",
+  "h1": "새도약기금 대상자 통보, 우편물 문자 안내와 연락 안 오면 어떻게 할까?",
+  "breadcrumb": "새도약기금 대상자 통보",
+  "description": "새도약기금 대상자 통보",
+  "sourceFile": "scripts/output/source-new-leap-notice-mail-sms.txt",
+  "sourceName": "금융위원회 — 사회 취약계층 장기 연체채권 우선 소각",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/85809",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금 대상자 통보는 어떻게 오나요?",
+    "우편물은 언제 발송되나요?",
+    "문자로도 안내가 오나요?",
+    "연락이 안 오면 대상이 아닌가요?"
+  ],
+  "faq": [
+    "새도약기금 통지는 몇 번 오나요?",
+    "채권 양도 예정 통지는 누가 보내나요?",
+    "새도약기금에서 소각 문자가 오나요?",
+    "새도약기금 문자가 진짜인지 어떻게 확인하나요?",
+    "통지를 못 받았으면 어디에 확인하나요?"
+  ]
+}

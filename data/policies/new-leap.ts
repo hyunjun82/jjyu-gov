@@ -193,6 +193,23 @@ export const newleapPolicy = {
 };
 
 export const newleapSpokes = [
+  { slug: 'new-leap-operators-kamco', role: 'compare', title: '새도약기금 운영기관, 캠코와 서민금융진흥원 역할 차이부터 농협 자산관리회사 참여는?' },
+  { slug: 'new-leap-principal-reduction-tax', role: 'amount', title: '새도약기금 빚탕감 원금감면 한도, 감면율과 탕감액에 세금 붙을까?' },
+  { slug: 'bad-bank-7-year-credit-record', role: 'eligibility', title: '배드뱅크 7년 기준과 장기연체 계산, 신용정보 삭제 시점과 확인 방법은?' },
+  { slug: 'new-leap-student-loan', role: 'eligibility', title: '학자금대출도 새도약기금 되나요, 한국장학재단 협약부터 소각 대상 범위까지' },
+  { slug: 'new-leap-vs-new-start-fund', role: 'compare', title: '새도약기금과 새출발기금 차이, 소상공인 부실차주 기준과 둘 다 신청될까?' },
+  { slug: 'new-leap-rehabilitation-overlap', role: 'compare', title: '개인회생 중에도 새도약기금 되나요, 개인워크아웃과 신용회복위원회 채무조정 중복 조건은?' },
+  { slug: 'new-leap-basic-recipient', role: 'eligibility', title: '기초수급자도 새도약기금 되나요, 취약계층 구분과 소득재산심사 재산 기준' },
+  { slug: 'new-leap-seizure-release', role: 'apply', title: '새도약기금 압류통장 해제와 법조치 해제, 추심 중단 시점과 해제 신청 방법은?' },
+  { slug: 'new-leap-lender-list', role: 'eligibility', title: '새도약기금 대부업체 채무도 되나요, 참여 업체 명단과 내 채권 확인 방법' },
+  { slug: 'new-leap-mail-terms', role: 'caution', title: '새도약기금 우편 용어, 심사대상과 심사중부터 미양도 양수채권은 무슨 뜻일까?' },
+  { slug: 'new-leap-write-off-schedule-credit', role: 'amount', title: '새도약기금 소각일정과 확정 확인 방법, 소각되면 신용회복될까?' },
+  { slug: 'new-leap-apply-documents', role: 'apply', title: '새도약기금 신청 절차와 필요서류, 접수 기간까지 따로 신청해야 할까?' },
+  { slug: 'new-leap-review-period-result', role: 'apply', title: '새도약기금 심사 기간과 진행상황, 결과 통보부터 확정되면 뭐가 달라질까?' },
+  { slug: 'new-leap-notice-mail-sms', role: 'caution', title: '새도약기금 대상자 통보, 우편물 문자 안내와 연락 안 오면 어떻게 할까?' },
+  { slug: 'new-leap-target-lookup', role: 'apply', title: '새도약기금 대상자 조회 방법, 공식 누리집과 본인인증 안 되면 어떻게 할까?' },
+  { slug: 'new-leap-eligibility-criteria', role: 'eligibility', title: '새도약기금 대상자 자격, 연체 기간과 채무 금액 기준 넘으면 제외될까?' },
+  { slug: 'new-leap-fund-bad-bank', role: 'info', title: '새도약기금이란 무엇일까, 배드뱅크와 같은지 언제 시행되고 재원은 어디서 나올까?' },
   { slug: 'eligibility', title: '새도약기금 대상자격, 7년 연체 무담보 5천만원 이하' },
   { slug: 'amount', title: '새도약기금 5천만원 소각 vs 채무조정' },
   { slug: 'screening', title: '새도약기금 상환능력 심사 3대 기준' },

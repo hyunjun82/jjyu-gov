@@ -1771,6 +1771,34 @@ import { mpsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공
 import { epostBankCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/epost-bank';
 import { tossCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/toss';
 import { kakaopayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kakaopay';
+import { 새도약기금새도약기금이란배드뱅크재원SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/새도약기금이란배드뱅크재원';
+import { 새도약기금대상자자격연체기간채무금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/대상자자격연체기간채무금액';
+import { 새도약기금대상자조회방법본인인증SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/대상자조회방법본인인증';
+import { 새도약기금대상자통보우편문자SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/대상자통보우편문자';
+import { 새도약기금심사기간진행상황결과SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/심사기간진행상황결과';
+import { 새도약기금신청절차필요서류접수기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/신청절차필요서류접수기간';
+import { 새도약기금소각일정확정확인신용회복SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/소각일정확정확인신용회복';
+import { 새도약기금우편용어심사대상미양도양수채권SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/우편용어심사대상미양도양수채권';
+import { 새도약기금대부업체채무참여명단내채권확인SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/대부업체채무참여명단내채권확인';
+import { 새도약기금압류통장해제법조치해제SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/압류통장해제법조치해제';
+import { 새도약기금기초수급자취약계층소득재산심사SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/기초수급자취약계층소득재산심사';
+import { 새도약기금개인회생워크아웃채무조정중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/개인회생워크아웃채무조정중복';
+import { 새도약기금새출발기금차이소상공인부실차주SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/새출발기금차이소상공인부실차주';
+import { 새도약기금학자금대출한국장학재단협약SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/학자금대출한국장학재단협약';
+import { 새도약기금배드뱅크7년기준신용정보삭제SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/배드뱅크7년기준신용정보삭제';
+import { 새도약기금빚탕감원금감면한도감면율세금SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/빚탕감원금감면한도감면율세금';
+import { 새도약기금운영기관캠코서민금융진흥원농협자산관리SpokeContent } from '@/app/policy/[id]/[spoke]/content/새도약기금/운영기관캠코서민금융진흥원농협자산관리';
+import { 채무조정신속채무조정프리워크아웃차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정프리워크아웃차이';
+import { 채무조정신속채무조정조건연체소득재산SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정조건연체소득재산';
+import { 채무조정신속채무조정무직자주부프리랜서SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정무직자주부프리랜서';
+import { 채무조정신속채무조정신청방법비대면접수SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정신청방법비대면접수';
+import { 채무조정신속채무조정필요서류발급SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정필요서류발급';
+import { 채무조정신속채무조정절차심사기간합의서SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정절차심사기간합의서';
+import { 채무조정신속채무조정납입금이자예납금중도상환SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정납입금이자예납금중도상환';
+import { 채무조정신속채무조정납부유예기간연장SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정납부유예기간연장';
+import { 채무조정신속채무조정부결사유채권자부동의SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정부결사유채권자부동의';
+import { 채무조정신속채무조정미납실효재조정SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정미납실효재조정';
+import { 채무조정신속채무조정신용카드정지체크카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정신용카드정지체크카드';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -2398,6 +2426,23 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'new-leap': {
+    'new-leap-operators-kamco': 새도약기금운영기관캠코서민금융진흥원농협자산관리SpokeContent,
+    'new-leap-principal-reduction-tax': 새도약기금빚탕감원금감면한도감면율세금SpokeContent,
+    'bad-bank-7-year-credit-record': 새도약기금배드뱅크7년기준신용정보삭제SpokeContent,
+    'new-leap-student-loan': 새도약기금학자금대출한국장학재단협약SpokeContent,
+    'new-leap-vs-new-start-fund': 새도약기금새출발기금차이소상공인부실차주SpokeContent,
+    'new-leap-rehabilitation-overlap': 새도약기금개인회생워크아웃채무조정중복SpokeContent,
+    'new-leap-basic-recipient': 새도약기금기초수급자취약계층소득재산심사SpokeContent,
+    'new-leap-seizure-release': 새도약기금압류통장해제법조치해제SpokeContent,
+    'new-leap-lender-list': 새도약기금대부업체채무참여명단내채권확인SpokeContent,
+    'new-leap-mail-terms': 새도약기금우편용어심사대상미양도양수채권SpokeContent,
+    'new-leap-write-off-schedule-credit': 새도약기금소각일정확정확인신용회복SpokeContent,
+    'new-leap-apply-documents': 새도약기금신청절차필요서류접수기간SpokeContent,
+    'new-leap-review-period-result': 새도약기금심사기간진행상황결과SpokeContent,
+    'new-leap-notice-mail-sms': 새도약기금대상자통보우편문자SpokeContent,
+    'new-leap-target-lookup': 새도약기금대상자조회방법본인인증SpokeContent,
+    'new-leap-eligibility-criteria': 새도약기금대상자자격연체기간채무금액SpokeContent,
+    'new-leap-fund-bad-bank': 새도약기금새도약기금이란배드뱅크재원SpokeContent,
     '신청방법':    새도약기금신청방법SpokeContent,
     '자격조건':    자격조건SpokeContent,
     '채무소각':    채무소각SpokeContent,
@@ -3692,6 +3737,17 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'debt-restructuring': {
+    'speedy-debt-credit-card': 채무조정신속채무조정신용카드정지체크카드SpokeContent,
+    'speedy-debt-missed-payment-lapse': 채무조정신속채무조정미납실효재조정SpokeContent,
+    'speedy-debt-rejection-creditor': 채무조정신속채무조정부결사유채권자부동의SpokeContent,
+    'speedy-debt-payment-deferral': 채무조정신속채무조정납부유예기간연장SpokeContent,
+    'speedy-debt-payment-interest': 채무조정신속채무조정납입금이자예납금중도상환SpokeContent,
+    'speedy-debt-procedure-review': 채무조정신속채무조정절차심사기간합의서SpokeContent,
+    'speedy-debt-documents': 채무조정신속채무조정필요서류발급SpokeContent,
+    'speedy-debt-apply-online': 채무조정신속채무조정신청방법비대면접수SpokeContent,
+    'speedy-debt-unemployed-homemaker': 채무조정신속채무조정무직자주부프리랜서SpokeContent,
+    'speedy-debt-conditions-income-asset': 채무조정신속채무조정조건연체소득재산SpokeContent,
+    'speedy-debt-vs-pre-workout': 채무조정신속채무조정프리워크아웃차이SpokeContent,
     'personal-rehabilitation-eligibility': 채무조정개인회생자격SpokeContent,
     'bankruptcy-discharge': 채무조정개인파산면책SpokeContent,
     'credit-recovery-workout': 채무조정워크아웃SpokeContent,

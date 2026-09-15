@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-apply-online",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정신청방법비대면접수",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "apply",
+  "h1": "신속채무조정 신청방법과 비대면 접수, 상담 예약부터 접수통지 시점은?",
+  "breadcrumb": "신속채무조정 신청방법",
+  "description": "신속채무조정 신청방법",
+  "sourceFile": "scripts/output/source-speedy-debt-apply-online.txt",
+  "sourceName": "신용회복위원회 — 채무조정 절차",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1720",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정은 어디서 신청하나요?",
+    "비대면으로도 접수되나요?",
+    "상담 예약은 어떻게 하나요?",
+    "접수통지는 언제 오나요?"
+  ],
+  "faq": [
+    "신속채무조정 신청하면 추심은 언제 멈추나요?",
+    "비대면으로 합의서 체결도 할 수 있나요?"
+  ]
+}

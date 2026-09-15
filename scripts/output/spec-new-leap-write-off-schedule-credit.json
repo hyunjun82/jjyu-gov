@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-write-off-schedule-credit",
+  "policyDir": "새도약기금",
+  "fileName": "소각일정확정확인신용회복",
+  "hubSlug": "new-leap",
+  "role": "amount",
+  "h1": "새도약기금 소각일정과 확정 확인 방법, 소각되면 신용회복될까?",
+  "breadcrumb": "새도약기금 소각일정",
+  "description": "새도약기금 소각일정",
+  "sourceFile": "scripts/output/source-new-leap-write-off-schedule-credit.txt",
+  "sourceName": "금융위원회 — 새도약기금 사회 취약계층 장기 연체채권 3차 소각",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/87213",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "소각일정은 어떻게 되나요?",
+    "소각이 확정됐는지 어떻게 확인하나요?",
+    "소각되면 신용점수가 회복되나요?",
+    "소각되지 않고 남는 채무가 있나요?"
+  ],
+  "faq": [
+    "새도약기금 소각은 몇 차까지 진행됐나요?",
+    "소각 문자를 못 받았는데 소각된 건가요?",
+    "채권자변동정보는 신용점수에 영향을 주나요?",
+    "새도약기금 매입 후 채무조정 대상이 되면 다른 빚도 같이 조정되나요?",
+    "소각 후 압류가 남아 있으면 어떻게 하나요?"
+  ]
+}

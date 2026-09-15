@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-documents",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정필요서류발급",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "apply",
+  "h1": "신속채무조정 필요서류는 어디서 떼나요, 서류 누락되면 추가 요구될까?",
+  "breadcrumb": "신속채무조정 필요서류",
+  "description": "신속채무조정 필요서류",
+  "sourceFile": "scripts/output/source-speedy-debt-documents.txt",
+  "sourceName": "신용회복위원회 — 신속채무조정(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=520&CONTENTS_NO=2",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정 필요서류는 무엇인가요?",
+    "어디서 발급받나요?",
+    "서류가 누락되면 어떻게 되나요?",
+    "추가 서류를 요구받기도 하나요?"
+  ],
+  "faq": [
+    "모바일 신분증으로도 신속채무조정 상담을 받을 수 있나요?",
+    "기초수급자·중증장애인 특례도 서류가 따로 있나요?"
+  ]
+}

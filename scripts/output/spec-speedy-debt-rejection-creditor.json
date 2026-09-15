@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-rejection-creditor",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정부결사유채권자부동의",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "target",
+  "h1": "신속채무조정 부결 사유와 확률, 채권자가 부동의하면 재신청은 언제 될까?",
+  "breadcrumb": "신속채무조정 부결·부동의",
+  "description": "신속채무조정 부결 사유와 채권자 부동의",
+  "sourceFile": "scripts/output/source-speedy-debt-rejection-creditor.txt",
+  "sourceName": "신용회복위원회 — 자주하는 질문(FAQ)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정 부결 사유는 무엇인가요?",
+    "부결 확률은 어느 정도인가요?",
+    "채권자 부동의란 무엇인가요?",
+    "부결되면 다시 신청할 수 있나요?"
+  ],
+  "faq": [
+    "기각되면 언제 다시 신청할 수 있나요?",
+    "일부 금융회사만 부동의하면 어떻게 되나요?"
+  ]
+}

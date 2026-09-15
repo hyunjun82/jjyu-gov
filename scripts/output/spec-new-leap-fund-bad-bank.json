@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-fund-bad-bank",
+  "policyDir": "새도약기금",
+  "fileName": "새도약기금이란배드뱅크재원",
+  "hubSlug": "new-leap",
+  "role": "info",
+  "h1": "새도약기금이란 무엇일까, 배드뱅크와 같은지 언제 시행되고 재원은 어디서 나올까?",
+  "breadcrumb": "새도약기금이란",
+  "description": "새도약기금이란",
+  "sourceFile": "scripts/output/source-new-leap-fund-bad-bank.txt",
+  "sourceName": "금융위원회 — 「새도약기금 출범식」 개최 보도자료",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/85424",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금이란 무엇인가요?",
+    "배드뱅크와 같은 건가요?",
+    "언제부터 시행되나요?",
+    "재원은 어디서 나오나요?"
+  ],
+  "faq": [
+    "새도약기금은 정부 기관인가요?",
+    "새도약기금 이름은 어떻게 정해졌나요?",
+    "새도약기금은 신청해야 받을 수 있나요?",
+    "새도약기금 채권 매입은 언제까지 하나요?",
+    "새도약기금 재원은 세금인가요?"
+  ]
+}

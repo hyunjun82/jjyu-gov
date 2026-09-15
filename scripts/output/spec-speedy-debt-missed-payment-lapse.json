@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-missed-payment-lapse",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정미납실효재조정",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "target",
+  "h1": "신속채무조정 미납 몇 번이면 실효되나요, 연체 처리와 재조정 신청",
+  "breadcrumb": "신속채무조정 미납·실효",
+  "description": "신속채무조정 미납과 실효",
+  "sourceFile": "scripts/output/source-speedy-debt-missed-payment-lapse.txt",
+  "sourceName": "신용회복위원회 — 실효란",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=680",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "미납하면 바로 실효되나요?",
+    "몇 번 미납하면 실효인가요?",
+    "미납 연체는 어떻게 처리되나요?",
+    "실효 후 재조정 신청 방법"
+  ],
+  "faq": [
+    "실효되면 감면받은 빚은 어떻게 되나요?",
+    "실효된 채무조정을 되살릴 수 있나요?"
+  ]
+}

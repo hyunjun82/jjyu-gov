@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-rehabilitation-overlap",
+  "policyDir": "새도약기금",
+  "fileName": "개인회생워크아웃채무조정중복",
+  "hubSlug": "new-leap",
+  "role": "compare",
+  "h1": "개인회생 중에도 새도약기금 되나요, 개인워크아웃과 신용회복위원회 채무조정 중복 조건은?",
+  "breadcrumb": "개인회생 중 새도약기금",
+  "description": "개인회생 중 새도약기금",
+  "sourceFile": "scripts/output/source-new-leap-rehabilitation-overlap.txt",
+  "sourceName": "새도약기금 — 자주 묻는 질문",
+  "sourceUrl": "https://www.newleap.or.kr/help/faq.do",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "개인회생 중에도 새도약기금 대상인가요?",
+    "개인워크아웃 진행 중이면 어떻게 되나요?",
+    "신용회복위원회 채무조정과 중복되나요?",
+    "개인회생이 폐지되면 대상이 되나요?"
+  ],
+  "faq": [
+    "채무조정 진행 중인 채권도 5천만원 계산에 들어가나요?",
+    "채무조정을 성실하게 갚고 있으면 받을 수 있는 지원은?",
+    "새도약기금 채무조정은 기존 신복위 개인워크아웃과 무엇이 다른가요?",
+    "개인회생 인가를 받으면 연체정보는 어떻게 되나요?",
+    "새도약기금 채무자도 개인회생 비용 지원을 받을 수 있나요?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-conditions-income-asset",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정조건연체소득재산",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "eligibility",
+  "h1": "신속채무조정 조건은 연체 며칠부터인가요, 소득 기준과 재산 요건까지",
+  "breadcrumb": "신속채무조정 조건",
+  "description": "신속채무조정 조건",
+  "sourceFile": "scripts/output/source-speedy-debt-conditions-income-asset.txt",
+  "sourceName": "신용회복위원회 — 신속채무조정(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=520&CONTENTS_NO=2",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정 조건은 무엇인가요?",
+    "연체 며칠부터 신청되나요?",
+    "소득 기준이 있나요?",
+    "재산 요건은 어떻게 되나요?"
+  ],
+  "faq": [
+    "소득이 최저생계비보다 적으면 신속채무조정을 못 받나요?",
+    "재산이 많으면 신속채무조정 신청이 제한되나요?"
+  ]
+}

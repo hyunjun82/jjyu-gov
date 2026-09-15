@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-seizure-release",
+  "policyDir": "새도약기금",
+  "fileName": "압류통장해제법조치해제",
+  "hubSlug": "new-leap",
+  "role": "apply",
+  "h1": "새도약기금 압류통장 해제와 법조치 해제, 추심 중단 시점과 해제 신청 방법은?",
+  "breadcrumb": "새도약기금 압류 해제",
+  "description": "새도약기금 압류 해제",
+  "sourceFile": "scripts/output/source-new-leap-seizure-release.txt",
+  "sourceName": "새도약기금 — 채무면제자 법조치 해제 비용 지원 안내",
+  "sourceUrl": "https://www.newleap.or.kr/Board/View.do?idx=57&pageIndex=1&gb=notice",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금 대상이면 압류가 풀리나요?",
+    "압류통장은 언제 해제되나요?",
+    "추심 연락은 언제 멈추나요?",
+    "법조치 해제 신청 방법"
+  ],
+  "faq": [
+    "새도약기금에 매입되면 추심이 바로 멈추나요?",
+    "법조치 해제 비용 지원 대상은 누구인가요?",
+    "법조치 해제 비용은 누가 내나요?",
+    "압류 해제는 어디에 신청하나요?",
+    "새도약기금에 매입되지 않은 채무의 압류는 어떻게 하나요?"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-vs-new-start-fund",
+  "policyDir": "새도약기금",
+  "fileName": "새출발기금차이소상공인부실차주",
+  "hubSlug": "new-leap",
+  "role": "compare",
+  "h1": "새도약기금과 새출발기금 차이, 소상공인 부실차주 기준과 둘 다 신청될까?",
+  "breadcrumb": "새도약기금 새출발기금 차이",
+  "description": "새도약기금 새출발기금 차이",
+  "sourceFile": "scripts/output/source-new-leap-vs-new-start-fund.txt",
+  "sourceName": "한국자산관리공사 — 새출발기금 채무조정 안내",
+  "sourceUrl": "https://www.newstartfund.or.kr/Contents/Prod.do",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금과 새출발기금은 어떻게 다른가요?",
+    "새출발기금은 소상공인만 되나요?",
+    "부실차주 기준은 무엇인가요?",
+    "둘 다 신청할 수 있나요?"
+  ],
+  "faq": [
+    "새출발기금은 직접 신청해야 하나요?",
+    "새출발기금 신청 문의는 어디로 하나요?",
+    "새출발기금 부실우려차주는 누구인가요?",
+    "새출발기금 채무조정 중인 채권도 새도약기금이 매입하나요?",
+    "새출발기금 이행자도 새도약론을 받을 수 있나요?"
+  ]
+}

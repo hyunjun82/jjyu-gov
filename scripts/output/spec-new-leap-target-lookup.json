@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-target-lookup",
+  "policyDir": "새도약기금",
+  "fileName": "대상자조회방법본인인증",
+  "hubSlug": "new-leap",
+  "role": "apply",
+  "h1": "새도약기금 대상자 조회 방법, 공식 누리집과 본인인증 안 되면 어떻게 할까?",
+  "breadcrumb": "새도약기금 대상자 조회",
+  "description": "새도약기금 대상자 조회",
+  "sourceFile": "scripts/output/source-new-leap-target-lookup.txt",
+  "sourceName": "새도약기금 — 채무현황 조회",
+  "sourceUrl": "https://www.newleap.or.kr/check/status.do",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금 대상자 조회는 어디서 하나요?",
+    "공식 누리집 주소는 무엇인가요?",
+    "본인인증은 어떻게 하나요?",
+    "조회가 안 되면 어떻게 하나요?"
+  ],
+  "faq": [
+    "새도약기금 매입 여부는 어디서 확인하나요?",
+    "심사현황 및 소각조회는 로그인이 필요한가요?",
+    "휴대폰이 제 명의가 아니면 조회할 수 없나요?",
+    "채권자변동조회에 안 나오는 오래된 채무는 어떻게 찾나요?",
+    "새도약기금 고객센터 번호와 운영시간은?"
+  ]
+}

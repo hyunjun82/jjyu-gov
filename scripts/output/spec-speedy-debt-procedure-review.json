@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-procedure-review",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정절차심사기간합의서",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "apply",
+  "h1": "신속채무조정 절차와 심사 기간, 합의서 체결부터 확정까지 얼마나 걸릴까?",
+  "breadcrumb": "신속채무조정 절차·심사 기간",
+  "description": "신속채무조정 절차와 심사 기간",
+  "sourceFile": "scripts/output/source-speedy-debt-procedure-review.txt",
+  "sourceName": "신용회복위원회 — 채무조정 절차",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1720",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정 절차는 어떤 순서인가요?",
+    "심사 기간은 얼마나 걸리나요?",
+    "합의서 체결은 어떻게 하나요?",
+    "확정되면 무엇이 달라지나요?"
+  ],
+  "faq": [
+    "확정 통지를 받았는데 합의서를 안 쓰면 어떻게 되나요?",
+    "심사 중에도 금융회사에 따로 갚아야 하나요?"
+  ]
+}

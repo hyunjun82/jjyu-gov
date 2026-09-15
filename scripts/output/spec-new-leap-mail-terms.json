@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-mail-terms",
+  "policyDir": "새도약기금",
+  "fileName": "우편용어심사대상미양도양수채권",
+  "hubSlug": "new-leap",
+  "role": "caution",
+  "h1": "새도약기금 우편 용어, 심사대상과 심사중부터 미양도 양수채권은 무슨 뜻일까?",
+  "breadcrumb": "새도약기금 우편 용어",
+  "description": "새도약기금 우편 용어",
+  "sourceFile": "scripts/output/source-new-leap-mail-terms.txt",
+  "sourceName": "새도약기금 — 채무현황 조회",
+  "sourceUrl": "https://www.newleap.or.kr/check/status.do",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "심사대상은 무슨 뜻인가요?",
+    "심사중은 무슨 뜻인가요?",
+    "미양도는 무슨 뜻인가요?",
+    "양수채권이란 무엇인가요?"
+  ],
+  "faq": [
+    "심사생략 대상은 누구인가요?",
+    "종결(기타면제)은 무슨 뜻인가요?",
+    "채권 양도 예정 통지를 받았는데 무엇을 해야 하나요?",
+    "매입제외채권은 무엇인가요?",
+    "용어 뜻이 헷갈리면 어디에 물어보나요?"
+  ]
+}

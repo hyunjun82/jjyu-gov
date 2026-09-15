@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-principal-reduction-tax",
+  "policyDir": "새도약기금",
+  "fileName": "빚탕감원금감면한도감면율세금",
+  "hubSlug": "new-leap",
+  "role": "amount",
+  "h1": "새도약기금 빚탕감 원금감면 한도, 감면율과 탕감액에 세금 붙을까?",
+  "breadcrumb": "새도약기금 원금감면",
+  "description": "새도약기금 원금감면",
+  "sourceFile": "scripts/output/source-new-leap-principal-reduction-tax.txt",
+  "sourceName": "새도약기금 — 제도안내",
+  "sourceUrl": "https://www.newleap.or.kr/about/rules.do",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금은 빚을 전액 탕감해주나요?",
+    "원금감면 한도는 얼마인가요?",
+    "감면율은 어떻게 정해지나요?",
+    "탕감받은 금액에 세금이 붙나요?"
+  ],
+  "faq": [
+    "소각되면 연체이자도 없어지나요?",
+    "새도약기금 소각 한도는 얼마인가요?",
+    "채무조정 감면율은 누가 정하나요?",
+    "상환능력이 있으면 감면을 전혀 못 받나요?",
+    "탕감액 세금 문의는 어디로 하나요?"
+  ]
+}

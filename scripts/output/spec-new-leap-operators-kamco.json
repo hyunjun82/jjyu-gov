@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-operators-kamco",
+  "policyDir": "새도약기금",
+  "fileName": "운영기관캠코서민금융진흥원농협자산관리",
+  "hubSlug": "new-leap",
+  "role": "compare",
+  "h1": "새도약기금 운영기관, 캠코와 서민금융진흥원 역할 차이부터 농협 자산관리회사 참여는?",
+  "breadcrumb": "새도약기금 운영기관",
+  "description": "새도약기금 운영기관",
+  "sourceFile": "scripts/output/source-new-leap-operators-kamco.txt",
+  "sourceName": "금융위원회 — 「새도약기금 출범식」 개최 보도자료",
+  "sourceUrl": "https://www.fsc.go.kr/no010101/85424",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "새도약기금은 어디서 운영하나요?",
+    "캠코는 어떤 역할을 하나요?",
+    "서민금융진흥원과는 어떻게 다른가요?",
+    "농협 자산관리회사도 참여하나요?"
+  ],
+  "faq": [
+    "새도약기금 대표는 누구인가요?",
+    "새도약기금 문의처는 어디인가요?",
+    "서민금융진흥원도 새도약기금 협약기관인가요?",
+    "농업협동조합자산관리회사 채권은 언제 매입됐나요?",
+    "신용회복위원회는 새도약기금에서 무슨 일을 하나요?"
+  ]
+}

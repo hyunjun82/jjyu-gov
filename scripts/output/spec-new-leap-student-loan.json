@@ -1,0 +1,27 @@
+{
+  "slug": "new-leap-student-loan",
+  "policyDir": "새도약기금",
+  "fileName": "학자금대출한국장학재단협약",
+  "hubSlug": "new-leap",
+  "role": "eligibility",
+  "h1": "학자금대출도 새도약기금 되나요, 한국장학재단 협약부터 소각 대상 범위까지",
+  "breadcrumb": "학자금대출 새도약기금",
+  "description": "학자금대출 새도약기금",
+  "sourceFile": "scripts/output/source-new-leap-student-loan.txt",
+  "sourceName": "새도약기금 — 협약 가입 기관 안내",
+  "sourceUrl": "https://www.newleap.or.kr/Board/View.do?idx=59&pageIndex=1&gb=notice",
+  "hubPath": "/policy/new-leap",
+  "qa": [
+    "학자금대출도 새도약기금 대상인가요?",
+    "한국장학재단과 협약이 돼 있나요?",
+    "학자금은 어디까지 소각되나요?",
+    "상환 중인 학자금은 어떻게 되나요?"
+  ],
+  "faq": [
+    "한국장학재단이 새도약기금 협약 가입 기관인가요?",
+    "학자금대출도 5천만원 기준이 똑같이 적용되나요?",
+    "학자금대출을 분할상환 중이면 새도약기금 대상인가요?",
+    "학자금대출 연체 안내는 어디서 보나요?",
+    "내 학자금대출이 매입됐는지 어떻게 확인하나요?"
+  ]
+}

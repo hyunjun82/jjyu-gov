@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-payment-interest",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정납입금이자예납금중도상환",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "calc",
+  "h1": "신속채무조정 납입금 얼마일까? 이자 감면과 예납금부터 중도상환까지",
+  "breadcrumb": "신속채무조정 납입금·이자",
+  "description": "신속채무조정 납입금과 이자 감면",
+  "sourceFile": "scripts/output/source-speedy-debt-payment-interest.txt",
+  "sourceName": "신용회복위원회 — 신속채무조정(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=520&CONTENTS_NO=2",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "매달 납입금은 얼마인가요?",
+    "이자는 얼마나 감면되나요?",
+    "예납금을 따로 내나요?",
+    "중도상환하면 이득인가요?"
+  ],
+  "faq": [
+    "신청비는 얼마이고 어떻게 내나요?",
+    "변제금은 어디로 입금하나요?"
+  ]
+}
