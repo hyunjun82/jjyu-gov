@@ -1735,6 +1735,11 @@ import { ssisCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { hiraCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hira';
 import { kdcaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kdca';
 import { mfdsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/mfds';
+import { choeunSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/choeun-savings-loan';
+import { charmSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/charm-savings-loan';
+import { nhCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-capital-loan';
+import { okCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/ok-capital-loan';
+import { mgCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/mg-capital-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -1810,6 +1815,11 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'comwel': comwelCallCenterSpokeContent,
   },
   'loan-call-center': {
+    'mg-capital-loan': mgCapitalLoanCallCenterSpokeContent,
+    'ok-capital-loan': okCapitalLoanCallCenterSpokeContent,
+    'nh-capital-loan': nhCapitalLoanCallCenterSpokeContent,
+    'charm-savings-loan': charmSavingsLoanCallCenterSpokeContent,
+    'choeun-savings-loan': choeunSavingsLoanCallCenterSpokeContent,
     'goryo-savings-loan': goryoSavingsLoanCallCenterSpokeContent,
     'hankook-capital-loan': hankookCapitalLoanCallCenterSpokeContent,
     'kamco-loan': kamcoLoanCallCenterSpokeContent,

@@ -1,0 +1,43 @@
+{
+  "slug": "ok-capital-loan",
+  "name": "OK캐피탈",
+  "aliases": [
+    "OK캐피탈 대출",
+    "오케이캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#E8420C",
+  "official": "https://www.okaycapital.co.kr",
+  "sourceUrl": "https://m.okaycapital.co.kr/",
+  "sourceName": "OK캐피탈 모바일 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-09-15",
+  "main": {
+    "label": "고객센터 (개인금융)",
+    "tel": "1577-5001"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (개인금융)",
+      "tel": "1577-5001"
+    },
+    {
+      "label": "기업/할부/리스",
+      "tel": "02-2149-7400"
+    }
+  ],
+  "extraSources": [
+    {
+      "name": "OK캐피탈 홈페이지 상담번호 안내",
+      "url": "https://www.okaycapital.co.kr/"
+    }
+  ],
+  "hq": "서울시 중구 세종대로 39 10층 (남대문로 4가, 대한상공회의소)",
+  "hoursNote": "[2026-09-15] 모바일 홈: '고객센터 / 평일 09:00 ~ 18:00 / 1577-5001'. PC 홈: '개인금융: 1577-5001 기업/할부/리스: 02-2149-7400'. 기업/할부/리스 번호 옆에는 시간이 없다."
+}

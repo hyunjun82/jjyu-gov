@@ -128,6 +128,11 @@ export const loanCallCenterPolicy = {
 };
 
 export const loanCallCenterSpokes = [
+  { slug: 'mg-capital-loan', role: 'eligibility', title: 'MG캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'choeun-savings-loan', role: 'eligibility', title: '조은저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'ok-capital-loan', role: 'eligibility', title: 'OK캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'nh-capital-loan', role: 'eligibility', title: 'NH농협캐피탈 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
+  { slug: 'charm-savings-loan', role: 'eligibility', title: '참저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'yebyeol-loan', role: 'eligibility', title: '예별손해보험 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'woori-savings-loan', role: 'eligibility', title: '우리금융저축은행 대출 고객센터 전화번호 및 대출 상담 연결 안내' },
   { slug: 'woori-card-loan', role: 'eligibility', title: '우리카드 대출 고객센터 전화번호 및 대출 상담 연결 안내' },

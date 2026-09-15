@@ -57,6 +57,10 @@ fs.mkdirSync(SHOTS, { recursive: true });
          추출본이 깨지면 게이트가 "원문에 없다"고 판정해 회사를 통째로 버리게 된다.
          응답 헤더에도 meta 에도 charset 이 없으면 UTF-8 로 못박고 다시 연다. */
       const res = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 45000 });
+      /* 홈이 스크립트로 한 번 더 넘기는 저축은행이 많다 (2026-09-15 한화·키움예스·동양·조은).
+         넘어가는 중에 page.content() 를 부르면 "page is navigating" 으로 죽는다.
+         load 뒤에 스크립트로 넘기는 곳이라 load 로는 못 기다린다 — 요청이 잦아들 때까지 기다린다. */
+      await page.waitForLoadState('networkidle', { timeout: 20000 }).catch(() => {});
       const ctype = String(res?.headers()['content-type'] ?? '');
       if (!/charset/i.test(ctype)) {
         const body = await page.content();

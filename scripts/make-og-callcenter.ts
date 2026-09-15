@@ -66,12 +66,20 @@ let made = 0;
     const light = mix(base, 255, 0.12);
     /* 28자에서 그냥 자르면 뜻이 뒤집힌다 (2026-09-14 캠코: '주말 및 공휴일에는 운영' 에서 잘려 '운영하지 않습니다' 가 반대로 읽혔다).
        넘치면 끝 괄호부터 떼고, 그래도 넘치면 말줄임표를 붙인다. */
-    const hoursFull = String(c.hours?.weekday || '').replace(/^[^0-9]*/, '');
+    /* 앞의 숫자 아닌 글자를 통째로 떼면 요일 조건까지 날아간다 (2026-09-15 —
+       '평일 09:00 ~ 18:00' 이 '09:00 ~ 18:00' 으로 매일 받는 것처럼, '영업일기준: 오전9시~오후6시' 가 '9시~오후6시' 로 찍혔다).
+       라벨만 벗기는 규칙은 생성기(new-call-center.ts hoursText)와 같게 둔다. */
+    const hoursFull = String(c.hours?.weekday || '')
+      .replace(/^(?![^:：]*(평일|영업일|주말|휴일))[^0-9,·]{0,20}[:：]\s*/, '')
+      .replace(/\s*[:：]\s+/g, ' ')
+      .trim();
     const hoursTrim = hoursFull.length > 28 ? hoursFull.replace(/\s*\([^()]*\)?[^()]*$/, '').trim() : hoursFull;
     const hours = hoursTrim.length > 28 ? hoursTrim.slice(0, 27) + '…' : hoursTrim;
     /* 업종마다 이름표가 다르다 (2026-09-14 공공기관 30장에 '보험사 고객센터' 가 찍혀 나왔다) */
     const KIND: Record<string, [string, string]> = { insurance: ['보험사 고객센터', '상담사'], securities: ['증권사 고객센터', '상담원'], card: ['카드사 고객센터', '상담원'], telecom: ['통신사 고객센터', '상담원'], online: ['온라인 고객센터', '상담원'], loan: ['대출 고객센터', '상담원'], public: ['공공기관 고객센터', '상담직원'], appliance: ['가전 AS 고객센터', '상담원'] };
     const [kind, agent] = KIND[c.industry || 'insurance'] ?? KIND.insurance;
+    /* 카드 하단 '상담원 연결' 은 원문 ARS 에 그 항목이 있을 때만 (2026-09-15 — 상담원 번호가 없는 회사 카드에도 찍혔다) */
+    const hasAgent = [...(c.ars?.day ?? []), ...(c.ars?.night ?? [])].some((x: any) => /상담사|상담원|상담직원/.test(String(x.what)));
 
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
   <defs>
@@ -88,7 +96,7 @@ let made = 0;
     <text x="80" y="228" font-size="62" font-weight="800">${esc(c.name)}${c.industry === 'loan' ? ' 대출' : ''} 고객센터</text>
     <text x="80" y="382" font-size="112" font-weight="800" letter-spacing="-2">${esc(c.main.tel)}</text>
     <text x="80" y="452" font-size="30" font-weight="600" opacity=".9">${esc(c.main.label)}${hours ? ' · ' + esc(hours) : ''}</text>
-    <text x="80" y="556" font-size="27" font-weight="600" opacity=".78">업무별 번호 ${(c.numbers || []).length}개 · ${agent} 연결 · ${esc(c.verifiedAt)} 확인</text>
+    <text x="80" y="556" font-size="27" font-weight="600" opacity=".78">업무별 번호 ${(c.numbers || []).length}개 · ${hasAgent ? `${agent} 연결 · ` : ''}${esc(c.verifiedAt)} 확인</text>
   </g>
 </svg>`;
 

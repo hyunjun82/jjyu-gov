@@ -169,7 +169,6 @@ export default function CallCenterPage({
      번호를 순서로 추정하면 사람이 엉뚱한 메뉴를 누른다. 없으면 없다고 쓴다. */
   const hasArs = cc.ars.day.length > 0;
   const agent = cc.ars.day.find((x) => /상담사|상담원/.test(x.what));
-  const agentKey = agent ? agent.key : '0';
   const wh = parseWeekdayHours(cc.hours.weekday);
 
   /* 지금 상담 가능한가 — 서버 렌더 때는 판정하지 않는다(하이드레이션 불일치 방지) */
@@ -194,8 +193,10 @@ export default function CallCenterPage({
       ? (cc.offhourNote ?? (noHours ? '' : `공식 안내에 적힌 상담시간은 ${cc.hours.weekday}입니다.`))
       : open
         ? agent
-          ? `지금 전화하면 ARS 에서 ${agent.key}번을 눌러 ${AGENT}와 연결됩니다.`
-          : `지금 전화하면 ${AGENT} 연결이 가능합니다.`
+          /* 조사는 받침으로 가른다 — '상담원와' 가 애큐온저축은행 대출 글에 나가 있었다 (2026-09-15) */
+          ? `지금 전화하면 ARS 에서 ${agent.key}번을 눌러 ${AGENT}${(AGENT.charCodeAt(AGENT.length - 1) - 0xac00) % 28 ? '과' : '와'} 연결됩니다.`
+          /* 상담원 메뉴가 원문에 없으면 "연결이 가능합니다" 라고 단정하지 않는다 (2026-09-15) — 시간 안이라는 것만 말한다 */
+          : `지금은 공식 안내 상담시간 안입니다.`
         : `지금은 공식 안내 상담시간(${cc.hours.weekday})이 아닙니다.`;
 
   const copy = () => {
@@ -631,10 +632,15 @@ export default function CallCenterPage({
             <div style={{ flex: 1, background: `linear-gradient(180deg, #F5F8FC, ${TINT})`, border: '1px solid #E3E9F2', borderRadius: 20, padding: 24 }}>
               <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.08em', color: BLUE }}>빠른 상담원 연결 팁</div>
               <div style={{ margin: '12px 0 0', fontSize: 15.5, lineHeight: 1.65, color: '#48505F' }}>
-                {hasArs ? (
-                  <>대표번호 연결 후 ARS 안내를 끝까지 듣고 <strong style={{ color: '#101828' }}>{agentKey}번(상담사 연결)</strong>을 누르면 순번 대기 후 상담이 시작됩니다.</>
+                {/* agentKey 는 상담원 메뉴가 없을 때 '0' 으로 떨어진다 — 그걸 그대로 찍어 조은저축은행에
+                    "0번(상담사 연결)" 이 나갔다(0 은 예금문의 > 자주하는 질문). 원문 ARS 에 상담원 항목이 있을 때만 번호를 쓴다.
+                    없을 때 "상담사 연결 항목을 고르시면 됩니다" 도 원문에 없는 메뉴라 지운다 (2026-09-15). */}
+                {agent ? (
+                  <>대표번호 연결 후 ARS 안내에서 <strong style={{ color: '#101828' }}>{agent.key}번({agent.what})</strong>을 누르면 순번 대기 후 상담이 시작됩니다.</>
+                ) : hasArs ? (
+                  <>공식 ARS 안내에 {AGENT} 연결 번호는 따로 적혀 있지 않습니다. 아래 목록에서 용건에 맞는 번호를 고르시면 됩니다.</>
                 ) : (
-                  <>공식 안내에 ARS 단축번호가 공개돼 있지 않습니다. 안내 음성을 끝까지 듣고 상담사 연결 항목을 고르시면 됩니다.</>
+                  <>공식 안내에 ARS 단축번호가 공개돼 있지 않습니다.</>
                 )} 문의를 한 문장으로 정리해 두면 부서 이관 횟수를 줄일 수 있습니다.
               </div>
               <a href="#connect" style={{ margin: '16px 0 0', display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 15, fontWeight: 700, color: BLUE }}>
@@ -714,7 +720,7 @@ export default function CallCenterPage({
                   ...(cc.hours.holiday ? [{ k: '공휴일', v: cc.hours.holiday }] : []),
                   ...(cc.hours.visit ? [{ k: '방문 접수', v: cc.hours.visit }] : []),
                   /* ARS 에 상담원 메뉴가 실제로 있을 때만 쓴다.
-                     agentKey 는 없을 때 '0' 으로 떨어지므로 그걸 조건으로 쓰면
+                     지웠던 agentKey 는 없을 때 '0' 으로 떨어졌다 — 그걸 조건으로 쓰면
                      단축번호가 없는 회사에 "ARS 0번" 이라는 없는 안내가 나간다. */
                   ...(agent ? [{ k: `${AGENT} 연결`, v: `ARS ${agent.key}번 ${agent.what}` }] : []),
                   ...cc.numbers
@@ -835,9 +841,13 @@ export default function CallCenterPage({
           </div>
           <div style={{ ...card, borderRadius: 20, padding: 28, boxShadow: '0 18px 36px -32px rgba(16,24,40,.5)' }}>
             <h2 style={{ ...h2, fontSize: 22 }}>자주 찾는 문의</h2>
-            <p style={{ margin: '8px 0 0', fontSize: 15.5, color: '#5B6474' }}>
-              {hasArs ? `아래 유형은 대표번호(${cc.main.tel}) 연결 후 ARS 안내에 따라 선택하세요.` : `용건별 번호가 따로 있습니다. 대표번호(${cc.main.tel})로 걸어도 연결됩니다.`}
-            </p>
+            {/* 번호가 하나뿐인 회사에 "용건별 번호가 따로 있습니다" 가 찍혔다 (2026-09-15 MG캐피탈).
+                "대표번호로 걸어도 연결됩니다" 도 원문에서 확인한 말이 아니라 지운다. */}
+            {(hasArs || cc.numbers.length > 1) && (
+              <p style={{ margin: '8px 0 0', fontSize: 15.5, color: '#5B6474' }}>
+                {hasArs ? `아래 유형은 대표번호(${cc.main.tel}) 연결 후 ARS 안내에 따라 선택하세요.` : '용건별 번호가 따로 있습니다.'}
+              </p>
+            )}
             <div style={{ margin: '18px 0 0', display: 'flex', flexWrap: 'wrap', gap: 9 }}>
               {(hasArs
                 ? cc.ars.day.map((a) => ({ key: a.key, text: `${a.key}번 ${a.what}` }))

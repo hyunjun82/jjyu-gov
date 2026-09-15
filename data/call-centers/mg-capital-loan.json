@@ -1,0 +1,36 @@
+{
+  "slug": "mg-capital-loan",
+  "name": "MG캐피탈",
+  "aliases": [
+    "MG캐피탈 대출",
+    "엠지캐피탈",
+    "엠캐피탈",
+    "M캐피탈",
+    "효성캐피탈"
+  ],
+  "industry": "loan",
+  "brandColor": "#00224C",
+  "official": "https://www.mgcap.co.kr",
+  "sourceUrl": "https://www.mgcap.co.kr/",
+  "sourceName": "MG캐피탈 홈페이지 고객상담센터 안내",
+  "verifiedAt": "2026-09-15",
+  "main": {
+    "label": "대표번호 (고객상담센터)",
+    "tel": "1588-9688"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00"
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호 (고객상담센터)",
+      "tel": "1588-9688"
+    }
+  ],
+  "hq": "서울특별시 중구 남대문로 55 MG파이낸스센터",
+  "hoursNote": "[2026-09-15] 홈페이지 푸터: '대표번호 1588-9688 고객상담센터 (평일 09:00 ~ 18:00)'. 사명 이력 효성캐피탈 → 엠캐피탈(2021) → MG캐피탈(2025) 은 aliases 에만 둔다(본문에 쓰지 않는다). 공식 사명변경 페이지는 캡처가 0자라 추출본 근거가 없다."
+}

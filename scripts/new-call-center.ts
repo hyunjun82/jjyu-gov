@@ -327,6 +327,17 @@ const DIR = path.join('app', 'policy', '[id]', '[spoke]', 'content', IND.dir);
 const OUT = path.join(DIR, `${C.slug}.tsx`);
 const REG = path.join('data', 'spokes', 'registry.ts');
 
+/* 대표번호가 이미 다른 글의 대표번호면 새 글을 만들지 않는다 (2026-09-15 금융권 배치).
+   같은 번호면 같은 창구다 — "새마을금고 공제" 가 "새마을금고 대출" 번호로 나가면 이름만 다른 글이 된다.
+   이미 나가 있는 글(본문 파일이 있다)은 다시 찍을 수 있어야 하니 새 글에만 건다. */
+if (!fs.existsSync(path.join(ROOT, OUT))) {
+  const CC_DIR = path.join(ROOT, 'data', 'call-centers');
+  const dup = fs.readdirSync(CC_DIR).filter((f) => f.endsWith('.json'))
+    .map((f) => JSON.parse(fs.readFileSync(path.join(CC_DIR, f), 'utf8')))
+    .find((o) => o.slug !== C.slug && digits(o.main?.tel ?? '') === digits(C.main.tel));
+  if (dup) die(`대표번호 ${C.main.tel} 가 이미 ${dup.name} (${dup.slug}) 글의 대표번호다. 같은 창구를 다른 글로 만들지 않는다.`);
+}
+
 const q = (s: string) => String(s).replace(/'/g, "\\'");
 const NL = String.fromCharCode(10);
 const telHref = (t: string) => `tel:${String(t).replace(/-/g, '')}`;
@@ -367,8 +378,10 @@ const { jong, rieul, josa } = JOSA;
 
 /* 원문 라벨을 값에 같이 적어 둔 회사가 많다 — "콜센터 운영 시간 : 평일 9시 ~ 18시".
    JSON 은 원문 그대로 두는 게 맞다(keyFacts·게이트가 원문을 본다). 문장에 넣을 때만 벗긴다. */
+/* 콜론 앞이 요일 조건이면 라벨이 아니라 내용이다 (2026-09-15 참저축은행 "영업일기준: 오전9시~오후6시").
+   통째로 벗기면 "오전9시~오후6시" 만 남아 주말에도 받는 것처럼 읽힌다 — 그때는 아래 줄이 콜론만 없앤다. */
 const hoursText = (v: unknown): string => String(v ?? '')
-  .replace(/^[^0-9,·]{0,20}[:：]\s*/, '')   // "콜센터 운영 시간 : " 같은 짧은 라벨만 벗긴다
+  .replace(/^(?![^:：]*(평일|영업일|주말|휴일))[^0-9,·]{0,20}[:：]\s*/, '')   // "콜센터 운영 시간 : " 같은 짧은 라벨만 벗긴다
   .replace(/\s*[:：]\s+/g, ' ')             // 앞말이 길면 그건 내용이다 — 콜론만 없앤다
   .replace(/평\s+일/g, '평일')               // 원문 공백 오타 ("평 일 09:00")
   .replace(/^단,\s*/, '')                   // 원문 각주 조각 ("단, 18:00~20:00 …")
@@ -593,8 +606,11 @@ const HAS_ARS = day.length > 0;
 /* 원문이 "0 상담사 연결" 처럼 '번' 없이 적는 곳이 많다.
    글에 "0번" 이라고 쓰면 원문 대조 게이트가 추출본에 없는 숫자로 잡는다.
    게이트가 맞다 — 원문에 없는 표기를 만들어 쓰는 것이다. 있을 때만 쓴다. */
-const AGENT_KEY = agent ? agent.key : (HAS_ARS ? '0' : '');
-const KEY_OK = HAS_ARS && src.includes(`${AGENT_KEY}번`);
+/* 상담원 연결 항목이 ARS 표에 없으면 번호를 모르는 것이다 (2026-09-15 조은저축은행).
+   전에는 '0' 으로 가정하고 추출본 어딘가에 "0번" 이 있으면 그 번호를 썼다 —
+   조은은 0 이 "예금문의 > 자주하는 질문" 이라 사람이 엉뚱한 메뉴를 누르게 된다. 가정을 지운다. */
+const AGENT_KEY = agent ? agent.key : '';
+const KEY_OK = Boolean(agent) && src.includes(`${AGENT_KEY}번`);
 
 /* 버튼·cue 를 회사마다 다른 결로 쓴다 (2026-08-25).
    23곳을 한 틀로 찍었더니 상단 버튼 끝 어절 "걸기" 가 100%, cue 가 23번 같은 문장이었다.
@@ -782,10 +798,12 @@ export const ${exportName}: SpokeData = {
 
   keyFacts: {
     '대표번호': '${C.main.tel} (${q(C.main.label)})',
-${NO_HOURS ? '' : `    '상담 가능 시간': '${q(C.hours.weekday)}',${NL}`}${MID_FACTS ? MID_FACTS + NL : ''}${HAS_ARS ? `    '${q(IND.agent)} 연결': '${ARS_FACT}',${NL}` : ''}${HQ_FACT}${C.callFee ? `    '통화료': '${q(C.callFee)}',${NL}` : ''}  },
+${NO_HOURS ? '' : `    '상담 가능 시간': '${q(C.hours.weekday)}',${NL}`}${MID_FACTS ? MID_FACTS + NL : ''}${KEY_OK ? `    '${q(IND.agent)} 연결': '${ARS_FACT}',${NL}` : ''}${HQ_FACT}${C.callFee ? `    '통화료': '${q(C.callFee)}',${NL}` : ''}  },
+  /* '상담원 연결' 줄은 원문 ARS 에 그 번호가 있을 때만 (2026-09-15 조은저축은행).
+     ARS 표만 있고 상담원 항목이 없는데 "ARS 안내에서 상담원 연결 선택" 이라 적었다 — 원문에 없는 메뉴다. */
   keyFactsHighlights: {
     '대표번호': ['${C.main.tel}'],
-${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}${HAS_ARS ? `    '${q(IND.agent)} 연결': [${ARS_HL}],${NL}` : ''}  },
+${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}${KEY_OK ? `    '${q(IND.agent)} 연결': [${ARS_HL}],${NL}` : ''}  },
 
   qa: [
     {
