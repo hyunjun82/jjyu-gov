@@ -1740,6 +1740,7 @@ import { charmSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke
 import { nhCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/nh-capital-loan';
 import { okCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/ok-capital-loan';
 import { mgCapitalLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/mg-capital-loan';
+import { dbSavingsLoanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/대출고객센터/db-savings-loan';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -1815,6 +1816,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'comwel': comwelCallCenterSpokeContent,
   },
   'loan-call-center': {
+    'db-savings-loan': dbSavingsLoanCallCenterSpokeContent,
     'mg-capital-loan': mgCapitalLoanCallCenterSpokeContent,
     'ok-capital-loan': okCapitalLoanCallCenterSpokeContent,
     'nh-capital-loan': nhCapitalLoanCallCenterSpokeContent,
