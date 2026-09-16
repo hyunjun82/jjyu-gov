@@ -1830,9 +1830,11 @@ import { 채무조정개인워크아웃법무법인수임료무료상담SpokeCon
 import { 채무조정개인워크아웃누락채권편파변제상각채권SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃누락채권편파변제상각채권';
 import { 개인사업자4대보험가입방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/가입방법';
 import { 개인사업자4대보험가입자명부SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/가입자명부';
+import { 개인사업자4대보험1인사업자가입의무SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/1인사업자가입의무';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'four-insurance-workplace-establishment': {
+    'self-employed-no-employee-insurance': 개인사업자4대보험1인사업자가입의무SpokeContent,
     'four-insurance-enrollee-list': 개인사업자4대보험가입자명부SpokeContent,
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },

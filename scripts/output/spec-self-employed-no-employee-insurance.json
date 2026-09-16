@@ -1,0 +1,24 @@
+{
+  "slug": "self-employed-no-employee-insurance",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "1인사업자가입의무",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "eligibility",
+  "h1": "1인 개인사업자 4대보험 미가입부터 가입 방법까지, 늦으면 손해",
+  "breadcrumb": "1인 개인사업자 4대보험",
+  "description": "직원 없는 1인 개인사업자의 4대보험 가입 의무 여부와 자영업자 고용보험 임의가입 방법·보험료",
+  "sourceFile": "scripts/output/source-self-employed-no-employee-insurance.txt",
+  "sourceName": "고용24(work24.go.kr) — 자영업자 고용보험 가입 제도안내",
+  "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000346&systId=SI00000306",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "1인 개인사업자도 4대보험 지원(가입)이 되나요?",
+    "1인 개인사업자 4대보험(고용보험) 가입 방법은 무엇인가요?",
+    "1인 개인사업자 4대보험(고용보험료)은 얼마로 계산되나요?"
+  ],
+  "faq": [
+    "5인 미만 사업장은 4대보험 의무가 없다는 게 사실인가요?",
+    "자영업자 고용보험에 가입하면 대표 본인도 실업급여를 받을 수 있나요?"
+  ]
+}

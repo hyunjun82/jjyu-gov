@@ -1,0 +1,104 @@
+{
+  "keyword": "1인 개인사업자 4대보험",
+  "slug": "1인-개인사업자-4대보험",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "1인 개인사업자 4대보험 가입 방법부터 미가입까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "1인 개인사업자 4대보험 가입 방법",
+        "1인 개인사업자 4대보험 미가입"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "1인 개인사업자 4대보험 미가입부터 가입 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "1인 개인사업자 4대보험 미가입",
+        "1인 개인사업자 4대보험 가입 방법"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "1인 개인사업자 4대보험 가입 방법, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "1인 개인사업자 4대보험 가입 방법"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "1인 개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "1인 개인사업자 4대보험 가입 방법"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "1인 개인사업자 4대보험 계산, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "1인 개인사업자 4대보험 계산"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "1인 개인사업자 4대보험 계산, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "1인 개인사업자 4대보험 계산"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "1인 개인사업자 4대보험 지원부터 가입 방법까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "1인 개인사업자 4대보험 지원",
+        "1인 개인사업자 4대보험 가입 방법"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "1인 개인사업자 4대보험 지원부터 계산까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "1인 개인사업자 4대보험 지원",
+        "1인 개인사업자 4대보험 계산"
+      ]
+    }
+  ],
+  "title": "1인 개인사업자 4대보험 미가입부터 가입 방법까지, 늦으면 손해",
+  "pattern": "③절차 묶음",
+  "from": [
+    "1인 개인사업자 4대보험 미가입",
+    "1인 개인사업자 4대보험 가입 방법"
+  ],
+  "subheads": [
+    "1인 개인사업자 4대보험 지원",
+    "1인 개인사업자 4대보험 가입 방법",
+    "1인 개인사업자 4대보험 계산"
+  ],
+  "approvedAt": "2026-09-16",
+  "sources": [
+    {
+      "url": "http://total.comwel.or.kr",
+      "chars": 25,
+      "file": "scripts/output/sources/total-comwel-or-kr.txt"
+    },
+    {
+      "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systClId=SC00000346&systId=SI00000306",
+      "chars": 27913,
+      "file": "scripts/output/sources/www-work24-go-kr-cm-c-f-1100-selecSystInfo-do-systClId-SC00000346-systId-SI00000306.txt"
+    },
+    {
+      "url": "https://www.sbiz.or.kr/eip/info/infoMain.do",
+      "chars": 79,
+      "file": "scripts/output/sources/www-sbiz-or-kr-eip-info-infoMain-do.txt"
+    }
+  ]
+}

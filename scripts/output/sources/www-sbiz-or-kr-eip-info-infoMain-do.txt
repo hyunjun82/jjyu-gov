@@ -1,0 +1,8 @@
+URL: https://www.sbiz.or.kr/eip/info/infoMain.do
+RECEIVED: 2026-09-16
+CHARS: 79
+// The image that will show if the app takes too long to load -->
+ 
+ 
+ 
+ 소상공인24
