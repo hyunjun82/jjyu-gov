@@ -1,0 +1,25 @@
+{
+  "slug": "four-insurance-arrears",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "미납연체금",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "caution",
+  "h1": "4대보험료 미납 시 조치부터 납부방법까지, 놓치면 헛걸음",
+  "breadcrumb": "4대보험료 미납·연체금",
+  "description": "4대보험료 미납 시 연체금 계산법과 독촉·압류 절차, 분할납부 신청 방법",
+  "sourceFile": "scripts/output/source-four-insurance-arrears.txt",
+  "sourceName": "법제처 찾기쉬운 생활법령정보 — 건강보험료의 산정 및 납부 등",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=1063&ccfNo=4&cciNo=1&cnpClsNo=4",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "4대보험료 미납하면 어떻게 되나요?",
+    "연체금은 얼마나 붙나요?",
+    "체납하면 압류까지 가나요?",
+    "4대보험료 미납시 분할납부 신청 방법은 무엇인가요?"
+  ],
+  "faq": [
+    "연체금을 면제받을 수 있는 경우도 있나요?",
+    "국민연금·고용보험도 건강보험과 같은 연체금 요율이 적용되나요?"
+  ]
+}

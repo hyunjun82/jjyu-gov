@@ -1,0 +1,97 @@
+{
+  "keyword": "4대보험료 미납",
+  "slug": "4대보험료-미납",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "4대보험료 미납 확인 방법부터 납부방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험료 미납 확인 방법",
+        "4대보험료 미납 납부방법"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "4대보험료 미납 납부방법부터 확인 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험료 미납 납부방법",
+        "4대보험료 미납 확인 방법"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "4대보험료 미납 확인 방법, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험료 미납 확인 방법"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "4대보험료 미납 확인 방법, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험료 미납 확인 방법"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "4대보험료 미납 납부방법, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험료 미납 납부방법"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "4대보험료 미납 납부방법, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험료 미납 납부방법"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "4대보험료 미납 시 조치부터 확인 방법까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험료 미납시 조치",
+        "4대보험료 미납 확인 방법"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "4대보험료 미납 시 조치부터 납부방법까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험료 미납시 조치",
+        "4대보험료 미납 납부방법"
+      ]
+    }
+  ],
+  "title": "4대보험료 미납 시 조치부터 납부방법까지, 놓치면 헛걸음",
+  "pattern": "③절차 묶음",
+  "from": [
+    "4대보험료 미납시 조치",
+    "4대보험료 미납 납부방법"
+  ],
+  "subheads": [
+    "4대보험료 미납시 조치"
+  ],
+  "approvedAt": "2026-09-16",
+  "sources": [
+    {
+      "url": "http://total.comwel.or.kr",
+      "chars": 25,
+      "file": "scripts/output/sources/total-comwel-or-kr.txt"
+    },
+    {
+      "url": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=1063&ccfNo=4&cciNo=1&cnpClsNo=4",
+      "chars": 3727,
+      "file": "scripts/output/sources/www-easylaw-go-kr-CSP-CnpClsMainBtr-laf-csmSeq-1063-ccfNo-4-cciNo-1-cnpClsNo-4.txt"
+    }
+  ]
+}

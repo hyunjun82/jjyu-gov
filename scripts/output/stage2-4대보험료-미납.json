@@ -1,0 +1,12 @@
+{
+  "slug": "4대보험료-미납",
+  "keyword": "4대보험료 미납",
+  "title": "4대보험료 미납 시 조치부터 납부방법까지, 놓치면 헛걸음",
+  "pattern": "③절차 묶음",
+  "subheads": [
+    "4대보험료 미납시 조치"
+  ],
+  "outline": "scripts/output/outline-4대보험료-미납.md",
+  "approved": true,
+  "approvedAt": "2026-09-16"
+}
