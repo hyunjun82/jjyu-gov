@@ -1,0 +1,25 @@
+{
+  "slug": "four-insurance-closure",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "휴업폐업전환정산",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "eligibility",
+  "h1": "휴업이나 폐업하면 4대보험 어떻게 되나요, 지역가입자 전환과 정산까지",
+  "breadcrumb": "휴업·폐업 4대보험 처리",
+  "description": "사업장 휴업·폐업 시 4대보험 처리와 지역가입자 전환 시점, 보험료 정산",
+  "sourceFile": "scripts/output/source-four-insurance-closure.txt",
+  "sourceName": "국가법령정보센터 국민연금법 시행규칙 제4조 / 법제처 찾기쉬운 생활법령정보",
+  "sourceUrl": "https://www.law.go.kr/LSW/LsiJoLinkP.do?docType=JO&lsNm=국민연금법+시행규칙&joNo=000400000",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "휴업하면 4대보험이 자동으로 끊기나요?",
+    "폐업 신고를 하면 어떻게 되나요?",
+    "지역가입자로 언제 바뀌나요?",
+    "남은 보험료는 어떻게 정산하나요?"
+  ],
+  "faq": [
+    "휴업과 폐업의 4대보험 처리가 다른가요?",
+    "직원도 있었다면 직원들 4대보험은 어떻게 되나요?"
+  ]
+}
