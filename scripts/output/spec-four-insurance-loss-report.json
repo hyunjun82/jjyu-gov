@@ -1,0 +1,25 @@
+{
+  "slug": "four-insurance-loss-report",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "퇴사자상실신고",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "documents",
+  "h1": "퇴사자 4대보험 상실신고 어디에 하나요, 신고 기한과 지연하면 생기는 불이익",
+  "breadcrumb": "퇴사자 4대보험 상실신고",
+  "description": "직원 퇴사 시 4대보험 상실신고 의무와 신고처, 보험별 신고 기한과 지연 시 불이익",
+  "sourceFile": "scripts/output/source-four-insurance-loss-report.txt",
+  "sourceName": "법제처 찾기쉬운 생활법령정보 / 국가법령정보센터 — 국민건강보험법·국민연금법 시행규칙",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=1063&ccfNo=2&cciNo=1&cnpClsNo=2",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "직원이 퇴사하면 상실신고를 해야 하나요?",
+    "상실신고는 어디에 하나요?",
+    "신고 기한은 며칠인가요?",
+    "늦게 신고하면 어떻게 되나요?"
+  ],
+  "faq": [
+    "퇴사자 상실신고와 건강보험 자격변동신고는 같은 건가요?",
+    "상실신고를 늦게 하면 보험료를 돌려받을 수 있나요?"
+  ]
+}
