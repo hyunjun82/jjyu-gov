@@ -1,0 +1,25 @@
+{
+  "slug": "four-insurance-dependent",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "피부양자등록",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "eligibility",
+  "h1": "개인사업자 건강보험 피부양자 등록, 부모와 장인 장모 소득 기준까지",
+  "breadcrumb": "개인사업자 건강보험 피부양자",
+  "description": "개인사업자의 건강보험 피부양자 등록 요건과 부모·장인장모 포함 여부, 소득·재산 기준",
+  "sourceFile": "scripts/output/source-four-insurance-dependent.txt",
+  "sourceName": "법제처 찾기쉬운 생활법령정보 / 국가법령정보센터 — 국민건강보험법 시행규칙 별표 1의2",
+  "sourceUrl": "https://www.law.go.kr/lsBylInfoPLinkR.do?lsiSeq=288087&lsNm=국민건강보험법+시행규칙&bylNo=0001&bylBrNo=02&bylCls=BE",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "개인사업자도 가족을 피부양자로 넣을 수 있나요?",
+    "부모님은 등록되나요?",
+    "장인·장모도 가능한가요?",
+    "소득 기준을 넘으면 탈락하나요?"
+  ],
+  "faq": [
+    "형제·자매도 피부양자로 등록할 수 있나요?",
+    "사업소득이 있으면 무조건 피부양자에서 제외되나요?"
+  ]
+}

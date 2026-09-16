@@ -88,6 +88,7 @@ export const fourInsuranceWorkplaceEstablishmentPolicy = {
 } as const;
 
 export const fourInsuranceWorkplaceEstablishmentSpokes = [
+  { slug: 'four-insurance-dependent', role: 'eligibility', title: '개인사업자 건강보험 피부양자 등록, 부모와 장인 장모 소득 기준까지' },
   { slug: 'four-insurance-double-income', role: 'eligibility', title: '직장 다니며 개인사업자 내면 4대보험 이중가입되나요, 투잡 보험료 계산 방법' },
   { slug: 'four-insurance-vs-3point3', role: 'compare', title: '4대보험과 3.3% 중 뭐가 맞나요, 미가입 신고와 사업주 과태료까지' },
   { slug: 'four-insurance-arrears', role: 'caution', title: '4대보험료 미납하면 어떻게 되나요, 연체금 부과와 분할납부 신청까지' },
