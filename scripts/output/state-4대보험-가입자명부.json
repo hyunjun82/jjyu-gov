@@ -1,0 +1,104 @@
+{
+  "keyword": "4대보험 가입자명부",
+  "slug": "4대보험-가입자명부",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "4대보험 가입자명부 발급부터 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 가입자명부 발급",
+        "4대보험 가입자명부 방법"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "4대보험 가입자명부 발급 팩스부터 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 가입자명부 발급 팩스",
+        "4대보험 가입자명부 방법"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "4대보험 가입자명부 발급 기관부터 방법까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 가입자명부 발급 기관",
+        "4대보험 가입자명부 방법"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "4대보험 가입자명부 조회, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험 가입자명부 조회"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "4대보험 가입자명부 조회, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험 가입자명부 조회"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "4대보험 가입자명부 방법, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험 가입자명부 방법"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "4대보험 가입자명부 방법, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험 가입자명부 방법"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "4대보험 가입자명부 발급부터 조회까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 가입자명부 발급",
+        "4대보험 가입자명부 조회"
+      ]
+    }
+  ],
+  "title": "4대보험 가입자명부 발급부터 방법까지, 늦으면 손해",
+  "pattern": "③절차 묶음",
+  "from": [
+    "4대보험 가입자명부 발급",
+    "4대보험 가입자명부 방법"
+  ],
+  "subheads": [
+    "4대보험 가입자명부 발급",
+    "4대보험 가입자명부 방법",
+    "건강보험 가입자명부"
+  ],
+  "approvedAt": "2026-09-16",
+  "sources": [
+    {
+      "url": "https://edi.nhis.or.kr/",
+      "chars": 12,
+      "file": "scripts/output/sources/edi-nhis-or-kr.txt"
+    },
+    {
+      "url": "https://edi.nhis.or.kr/webedi/help/html/confi/co_03.html",
+      "chars": 1859,
+      "file": "scripts/output/sources/edi-nhis-or-kr-webedi-help-html-confi-co-03-html.txt"
+    },
+    {
+      "url": "https://edi.nhis.or.kr/webedi/help/html/confi/co_06.html",
+      "chars": 1439,
+      "file": "scripts/output/sources/edi-nhis-or-kr-webedi-help-html-confi-co-06-html.txt"
+    }
+  ]
+}

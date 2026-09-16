@@ -88,4 +88,5 @@ export const fourInsuranceWorkplaceEstablishmentPolicy = {
 } as const;
 
 export const fourInsuranceWorkplaceEstablishmentSpokes = [
+  { slug: 'four-insurance-enrollee-list', role: 'documents', title: '4대보험 가입자명부 발급부터 방법까지, 늦으면 손해' },
   { slug: 'self-employed-four-insurance-join', role: 'apply', title: '개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음' },];

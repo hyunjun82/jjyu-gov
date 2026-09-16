@@ -1,0 +1,14 @@
+{
+  "slug": "4대보험-가입자명부",
+  "keyword": "4대보험 가입자명부",
+  "title": "4대보험 가입자명부 발급부터 방법까지, 늦으면 손해",
+  "pattern": "③절차 묶음",
+  "subheads": [
+    "4대보험 가입자명부 발급",
+    "4대보험 가입자명부 방법",
+    "건강보험 가입자명부"
+  ],
+  "outline": "scripts/output/outline-4대보험-가입자명부.md",
+  "approved": true,
+  "approvedAt": "2026-09-16"
+}

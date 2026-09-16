@@ -1,0 +1,4 @@
+URL: https://edi.nhis.or.kr/
+RECEIVED: 2026-09-16
+CHARS: 12
+건강보험공단 EDI포털

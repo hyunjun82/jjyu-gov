@@ -1,0 +1,24 @@
+{
+  "slug": "four-insurance-enrollee-list",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "가입자명부",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "documents",
+  "h1": "4대보험 가입자명부 발급부터 방법까지, 늦으면 손해",
+  "breadcrumb": "4대보험 가입자명부 발급",
+  "description": "4대보험 가입자명부의 용도와 건강보험 EDI 인터넷 발급 방법, 1인 개인사업자 발급 여부",
+  "sourceFile": "scripts/output/source-four-insurance-enrollee-list.txt",
+  "sourceName": "국민건강보험공단 — 건강보험 EDI 도움말(사업장가입자명부)",
+  "sourceUrl": "https://edi.nhis.or.kr/webedi/help/html/confi/co_06.html",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "4대보험 가입자명부는 어디에 쓰는 서류인가요?",
+    "4대보험 가입자명부는 어떻게 발급받나요?",
+    "건강보험 가입자명부, 1인 개인사업자도 발급되나요?"
+  ],
+  "faq": [
+    "가입자명부에 상실자(퇴사자)도 포함되나요?",
+    "국민연금·고용보험·산재보험도 같은 곳에서 가입자명부를 떼나요?"
+  ]
+}
