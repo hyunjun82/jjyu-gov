@@ -2,6 +2,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-four-insurance-arrears.txt
  * 추출본: scripts/output/source-four-insurance-enrollee-list.txt (분할납부신청서 서식 존재 — four-insurance-enrollee-list 글과 같은 근거)
+ * 추출본: scripts/output/source-self-employed-four-insurance-join.txt (공단별 문의 전화번호 — self-employed-four-insurance-join 글과 같은 근거)
  * 1차 출처: 법제처 찾기쉬운 생활법령정보 — 건강보험료의 산정 및 납부 등
  *   https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=1063&ccfNo=4&cciNo=1&cnpClsNo=4
  * 쓰지 않는 것:
@@ -15,6 +16,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 const SRC = 'https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=1063&ccfNo=4&cciNo=1&cnpClsNo=4';
 const APPLY = 'http://total.comwel.or.kr';
+const EDI = 'https://edi.nhis.or.kr/';
 
 export const 개인사업자4대보험미납연체금SpokeContent: SpokeData = {
   h1: '4대보험료 미납하면 어떻게 되나요, 연체금 부과와 분할납부 신청까지',
@@ -76,13 +78,13 @@ export const 개인사업자4대보험미납연체금SpokeContent: SpokeData = {
     {
       q: '분할납부 신청 방법', anchor: 'q4',
       intro:
-        '건강보험 EDI(전자문서교환)의 서식자료실에는 "정산보험료 분할납부신청서"가 별도로 마련되어 있어, 밀린 보험료를 한 번에 내기 어려울 때 나눠 내는 절차를 신청할 수 있습니다. 다만 몇 회까지 나눠 낼 수 있는지, 소득이나 체납 규모에 따른 승인 조건이 어떻게 되는지는 이번 조사로는 확인하지 못했습니다. 연체금이 계속 불어나기 전에, 분할납부가 가능한지와 정확한 조건은 4대보험 전자민원이나 관할 공단·공단 지사에 직접 문의해 확인하는 것이 정확합니다.',
-      highlights: ['서식자료실에는 "정산보험료 분할납부신청서"가 별도로 마련되어 있어', '밀린 보험료를 한 번에 내기 어려울 때 나눠 내는 절차를 신청할 수 있습니다', '연체금이 계속 불어나기 전에', '관할 공단·공단 지사에 직접 문의해 확인하는 것이 정확합니다'],
-      box: { label: '확인 필요', content: '분할납부신청서는 존재하지만, 승인 조건(분할 횟수 등)은 관할 지사 확인이 필요하다.' },
+        '건강보험 EDI(전자문서교환)의 서식자료실에는 "정산보험료 분할납부신청서"가 별도로 마련되어 있어, 밀린 보험료를 한 번에 내기 어려울 때 나눠 내는 절차를 신청할 수 있습니다. 다만 몇 회까지 나눠 낼 수 있는지, 소득이나 체납 규모에 따른 승인 조건이 어떻게 되는지는 이번 조사로는 확인하지 못했습니다. 국민연금·고용보험·산재보험 체납분은 각 공단(국민연금공단 1355, 근로복지공단 1588-0075)에, 건강보험 체납분은 국민건강보험공단(1577-1000)에 전화로 분할납부 가능 여부를 문의할 수 있습니다.',
+      highlights: ['서식자료실에는 "정산보험료 분할납부신청서"가 별도로 마련되어 있어', '밀린 보험료를 한 번에 내기 어려울 때 나눠 내는 절차를 신청할 수 있습니다', '국민연금공단 1355, 근로복지공단 1588-0075', '국민건강보험공단(1577-1000)에 전화로 분할납부 가능 여부를 문의할 수 있습니다'],
+      box: { label: '문의처', content: '건강보험 1577-1000 · 국민연금 1355 · 고용·산재보험 1588-0075.' },
       act: {
-        cue: '분할납부 상담도 같은 화면에서 받을 수 있습니다',
-        label: '4대보험 전자민원 신고하기',
-        url: APPLY,
+        cue: '건강보험 분할납부신청서는 EDI 서식자료실에서 바로 확인됩니다',
+        label: '건강보험 EDI 서식자료실 바로가기',
+        url: EDI,
       },
       sourceNote: '* 출처: 국민건강보험공단 건강보험 EDI 서식자료실 (2026-09-16 확인)',
     },

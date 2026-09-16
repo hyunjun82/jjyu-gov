@@ -1,6 +1,7 @@
 import type { SpokeData } from '../../SpokeClient';
 
 /* 추출본: scripts/output/source-part-time-four-insurance.txt
+ * 추출본: scripts/output/source-industrial-accident-scope.txt (산재보험 근로시간 무관 적용 — law.go.kr 제6조 원문)
  * 1차 출처: 법제처 찾기쉬운 생활법령정보 — 4대 사회보험 신고
  *   https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=3&cciNo=4&cnpClsNo=1&csmSeq=632
  * 교차 출처: 법제처 찾기쉬운 생활법령정보 — 배달앱종사자(고용보험·산재보험 가입)
