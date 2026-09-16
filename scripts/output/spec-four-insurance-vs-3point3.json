@@ -1,0 +1,25 @@
+{
+  "slug": "four-insurance-vs-3point3",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "삼삼프로비교",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "compare",
+  "h1": "4대보험 3.3 비교, 어떤 쪽이 유리할까?",
+  "breadcrumb": "4대보험 3.3% 비교",
+  "description": "4대보험과 3.3% 원천징수 중 무엇이 맞는지, 미가입 신고처와 사업주 과태료",
+  "sourceFile": "scripts/output/source-four-insurance-vs-3point3.txt",
+  "sourceName": "국세청 — 간이지급명세서(거주자의 사업소득) / 국가법령정보센터 — 국민건강보험법 제119조",
+  "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=238925&mi=40349",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "4대보험과 3.3% 중 뭐가 맞나요?",
+    "3.3% 세금은 얼마나 떼나요?",
+    "4대보험 미가입은 어디에 신고하나요?",
+    "사업주 과태료는 얼마인가요?"
+  ],
+  "faq": [
+    "3.3%로 계약했다가 나중에 4대보험으로 바꿀 수 있나요?",
+    "국민연금·고용보험도 미가입 과태료가 500만원인가요?"
+  ]
+}

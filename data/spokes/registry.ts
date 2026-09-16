@@ -1834,9 +1834,11 @@ import { 개인사업자4대보험1인사업자가입의무SpokeContent } from '
 import { 개인사업자4대보험알바가입조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/알바가입조건';
 import { 개인사업자4대보험요율계산납부SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/요율계산납부';
 import { 개인사업자4대보험미납연체금SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/미납연체금';
+import { 개인사업자4대보험삼삼프로비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/삼삼프로비교';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'four-insurance-workplace-establishment': {
+    'four-insurance-vs-3point3': 개인사업자4대보험삼삼프로비교SpokeContent,
     'four-insurance-arrears': 개인사업자4대보험미납연체금SpokeContent,
     'self-employed-four-insurance-cost': 개인사업자4대보험요율계산납부SpokeContent,
     'part-time-four-insurance': 개인사업자4대보험알바가입조건SpokeContent,

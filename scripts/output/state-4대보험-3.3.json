@@ -1,0 +1,154 @@
+{
+  "keyword": "4대보험 3.3",
+  "slug": "4대보험-3.3",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "4대보험 3.3 비교, 어떤 쪽이 유리할까?",
+      "pattern": "②A vs B",
+      "from": [
+        "4대보험 3.3 비교"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "4대보험 3.3 % 차이, 어떤 쪽이 유리할까?",
+      "pattern": "②A vs B",
+      "from": [
+        "4대보험 3.3% 차이"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "4대보험 3.3 비교, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험 3.3 비교"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "4대보험 3.3 비교, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험 3.3 비교"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "4대보험 3.3 % 차이, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험 3.3% 차이"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "4대보험 3.3 % 차이, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험 3.3% 차이"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "4대보험 3.3 차이, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험 3.3 차이"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "4대보험 3.3 차이, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험 3.3 차이"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "4대보험 3.3 세금 차이, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "4대보험 3.3 세금 차이"
+      ]
+    },
+    {
+      "n": 10,
+      "title": "4대보험 3.3 세금 차이, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "4대보험 3.3 세금 차이"
+      ]
+    },
+    {
+      "n": 11,
+      "title": "4대보험 3.3 비교부터 % 차이까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 3.3 비교",
+        "4대보험 3.3% 차이"
+      ]
+    },
+    {
+      "n": 12,
+      "title": "4대보험 3.3 비교부터 투잡까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 3.3 비교",
+        "4대보험 3.3 투잡"
+      ]
+    },
+    {
+      "n": 13,
+      "title": "4대보험 3.3 비교부터 둘다까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 3.3 비교",
+        "4대보험 3.3 둘다"
+      ]
+    },
+    {
+      "n": 14,
+      "title": "4대보험 3.3 비교부터 같이까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "4대보험 3.3 비교",
+        "4대보험 3.3 같이"
+      ]
+    }
+  ],
+  "title": "4대보험 3.3 비교, 어떤 쪽이 유리할까?",
+  "pattern": "②A vs B",
+  "from": [
+    "4대보험 3.3 비교"
+  ],
+  "subheads": [
+    "4대보험 3.3 둘다",
+    "보험 가입금액이란",
+    "4대보험 3.3 투잡",
+    "4대보험 3.3 비교",
+    "4대보험 3.3% 차이",
+    "3.3 세금 4대보험"
+  ],
+  "approvedAt": "2026-09-16",
+  "sources": [
+    {
+      "url": "http://total.comwel.or.kr",
+      "chars": 25,
+      "file": "scripts/output/sources/total-comwel-or-kr.txt"
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=238925&mi=40349",
+      "chars": 17688,
+      "file": "scripts/output/sources/www-nts-go-kr-nts-cm-cntnts-cntntsView-do-cntntsId-238925-mi-40349.txt"
+    },
+    {
+      "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032088951",
+      "chars": 1274,
+      "file": "scripts/output/sources/www-law-go-kr-lsLinkCommonInfo-do-lsJoLnkSeq-1032088951.txt"
+    }
+  ]
+}

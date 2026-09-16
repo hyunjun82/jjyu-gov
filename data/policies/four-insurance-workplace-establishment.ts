@@ -88,6 +88,7 @@ export const fourInsuranceWorkplaceEstablishmentPolicy = {
 } as const;
 
 export const fourInsuranceWorkplaceEstablishmentSpokes = [
+  { slug: 'four-insurance-vs-3point3', role: 'compare', title: '4대보험 3.3 비교, 어떤 쪽이 유리할까?' },
   { slug: 'four-insurance-arrears', role: 'caution', title: '4대보험료 미납 시 조치부터 납부방법까지, 놓치면 헛걸음' },
   { slug: 'self-employed-four-insurance-cost', role: 'cost', title: '개인사업자 4대보험 비용, 계산기로 1분이면 끝, 놓치면 헛걸음' },
   { slug: 'part-time-four-insurance', role: 'eligibility', title: '알바 4대보험 가입 조건부터 등록방법까지, 늦으면 손해' },
