@@ -1,0 +1,15 @@
+{
+  "slug": "self-employed-no-employee-insurance",
+  "keyword": "1인 개인사업자 4대보험",
+  "title": "직원 없는 1인 개인사업자도 4대보험 가입하나요, 5인 미만 사업장 의무까지",
+  "pattern": "사장님 제공 키워드 그대로 사용",
+  "subheads": [
+    "직원이 없으면 4대보험에 가입 안 해도 되나요?",
+    "대표 본인은 어디에 가입되나요?",
+    "5인 미만 사업장도 의무인가요?",
+    "가입 대상은 누구부터인가요?"
+  ],
+  "outline": "scripts/output/outline-self-employed-no-employee-insurance.md",
+  "approved": true,
+  "approvedAt": "2026-09-16"
+}

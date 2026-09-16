@@ -1,0 +1,15 @@
+{
+  "slug": "part-time-four-insurance",
+  "keyword": "알바 4대보험 가입 조건",
+  "title": "알바 채용하면 4대보험 넣어야 하나요, 주 15시간 기준과 가입 신고까지",
+  "pattern": "사장님 제공 키워드 그대로 사용",
+  "subheads": [
+    "알바도 4대보험에 넣어야 하나요?",
+    "주 15시간 미만이면 빠지나요?",
+    "편의점이나 학원 알바는 어떻게 되나요?",
+    "알바 4대보험 가입 신고 방법"
+  ],
+  "outline": "scripts/output/outline-part-time-four-insurance.md",
+  "approved": true,
+  "approvedAt": "2026-09-16"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "four-insurance-enrollee-list",
+  "keyword": "4대보험 가입자명부",
+  "title": "4대보험 가입자명부 어디에 쓰나요, 1인 사업자 발급 여부와 온라인 신청 방법",
+  "pattern": "사장님 제공 키워드 그대로 사용",
+  "subheads": [
+    "4대보험 가입자명부는 어디에 쓰는 서류인가요?",
+    "1인 개인사업자도 발급되나요?",
+    "어디서 발급받나요?",
+    "온라인 신청 방법"
+  ],
+  "outline": "scripts/output/outline-four-insurance-enrollee-list.md",
+  "approved": true,
+  "approvedAt": "2026-09-16"
+}

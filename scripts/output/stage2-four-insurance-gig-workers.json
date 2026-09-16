@@ -1,0 +1,15 @@
+{
+  "slug": "four-insurance-gig-workers",
+  "keyword": "쿠팡 배달 일용직 4대보험",
+  "title": "쿠팡 배달이나 일용직도 4대보험 되나요, 가입 기준과 사업주 신고 의무",
+  "pattern": "사장님 제공 키워드 그대로 사용",
+  "subheads": [
+    "쿠팡알바도 4대보험에 가입되나요?",
+    "배달 라이더는 어떻게 되나요?",
+    "일용직 가입 기준은 무엇인가요?",
+    "사업주가 신고해야 하는 경우는?"
+  ],
+  "outline": "scripts/output/outline-four-insurance-gig-workers.md",
+  "approved": true,
+  "approvedAt": "2026-09-16"
+}
