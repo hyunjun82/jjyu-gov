@@ -88,10 +88,11 @@ export const fourInsuranceWorkplaceEstablishmentPolicy = {
 } as const;
 
 export const fourInsuranceWorkplaceEstablishmentSpokes = [
-  { slug: 'four-insurance-vs-3point3', role: 'compare', title: '4대보험 3.3 비교, 어떤 쪽이 유리할까?' },
-  { slug: 'four-insurance-arrears', role: 'caution', title: '4대보험료 미납 시 조치부터 납부방법까지, 놓치면 헛걸음' },
-  { slug: 'self-employed-four-insurance-cost', role: 'cost', title: '개인사업자 4대보험 비용, 계산기로 1분이면 끝, 놓치면 헛걸음' },
-  { slug: 'part-time-four-insurance', role: 'eligibility', title: '알바 4대보험 가입 조건부터 등록방법까지, 늦으면 손해' },
-  { slug: 'self-employed-no-employee-insurance', role: 'eligibility', title: '1인 개인사업자 4대보험 미가입부터 가입 방법까지, 늦으면 손해' },
-  { slug: 'four-insurance-enrollee-list', role: 'documents', title: '4대보험 가입자명부 발급부터 방법까지, 늦으면 손해' },
-  { slug: 'self-employed-four-insurance-join', role: 'apply', title: '개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음' },];
+  { slug: 'four-insurance-double-income', role: 'eligibility', title: '직장 다니며 개인사업자 내면 4대보험 이중가입되나요, 투잡 보험료 계산 방법' },
+  { slug: 'four-insurance-vs-3point3', role: 'compare', title: '4대보험과 3.3% 중 뭐가 맞나요, 미가입 신고와 사업주 과태료까지' },
+  { slug: 'four-insurance-arrears', role: 'caution', title: '4대보험료 미납하면 어떻게 되나요, 연체금 부과와 분할납부 신청까지' },
+  { slug: 'self-employed-four-insurance-cost', role: 'cost', title: '개인사업자 4대보험료 계산과 요율, 급여 공제액부터 납부 방법까지' },
+  { slug: 'part-time-four-insurance', role: 'eligibility', title: '알바 채용하면 4대보험 넣어야 하나요, 주 15시간 기준과 가입 신고까지' },
+  { slug: 'self-employed-no-employee-insurance', role: 'eligibility', title: '직원 없는 1인 개인사업자도 4대보험 가입하나요, 5인 미만 사업장 의무까지' },
+  { slug: 'four-insurance-enrollee-list', role: 'documents', title: '4대보험 가입자명부 어디에 쓰나요, 1인 사업자 발급 여부와 온라인 신청 방법' },
+  { slug: 'self-employed-four-insurance-join', role: 'apply', title: '개인사업자 4대보험 가입 방법, 세무사 없이 직접 신고하는 절차와 기한' },];

@@ -1,0 +1,25 @@
+{
+  "slug": "four-insurance-double-income",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "직장인겸업이중가입",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "eligibility",
+  "h1": "직장 다니며 개인사업자 내면 4대보험 이중가입되나요, 투잡 보험료 계산 방법",
+  "breadcrumb": "직장인 겸업 4대보험",
+  "description": "직장인이 개인사업자를 겸업할 때 4대보험 이중가입 여부와 국민연금·건강보험 차이, 투잡 보험료 계산법",
+  "sourceFile": "scripts/output/source-four-insurance-double-income.txt",
+  "sourceName": "법제처 찾기쉬운 생활법령정보 — 건강보험료의 산정 및 납부 등",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=1063&ccfNo=4&cciNo=1&cnpClsNo=1",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "직장인이 사업자를 내면 4대보험이 두 번 나오나요?",
+    "국민연금과 건강보험이 각각 다른가요?",
+    "사업소득이 생기면 보험료가 오르나요?",
+    "투잡일 때 보험료 계산 방법은 무엇인가요?"
+  ],
+  "faq": [
+    "보수 외 소득에 이자·배당소득도 포함되나요?",
+    "보수 외 소득월액보험료에도 상한이 있나요?"
+  ]
+}
