@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-youth-special",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정청년특례나이조건서류",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "overlap",
+  "h1": "청년특례 신속채무조정 나이와 조건, 특례 서류부터 일반과 차이는?",
+  "breadcrumb": "청년특례 신속채무조정",
+  "description": "청년특례 채무조정 나이·조건·서류·일반과 차이",
+  "sourceFile": "scripts/output/source-speedy-debt-youth-special.txt",
+  "sourceName": "신용회복위원회 — 개인워크아웃 지원대상별 특례(미취업청년·대학(원)생)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1940",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "청년특례는 몇 살까지인가요?",
+    "청년특례 조건은 무엇인가요?",
+    "특례 서류는 따로 있나요?",
+    "일반 신속채무조정과 뭐가 다른가요?"
+  ],
+  "faq": [
+    "청년특례는 신속채무조정에서 신청하나요?",
+    "대학생인데 나이가 35세면 청년특례가 안 되나요?"
+  ]
+}

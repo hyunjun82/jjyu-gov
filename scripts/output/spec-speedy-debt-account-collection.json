@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-account-collection",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정계좌정지추심대위변제",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "target",
+  "h1": "신속채무조정 계좌정지와 통장 사용, 추심은 언제 멈추고 대위변제되면 어떻게 될까?",
+  "breadcrumb": "신속채무조정 계좌·추심",
+  "description": "신속채무조정 계좌정지와 추심 중단",
+  "sourceFile": "scripts/output/source-speedy-debt-account-collection.txt",
+  "sourceName": "신용회복위원회 — 신용회복지원협약",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정하면 계좌가 정지되나요?",
+    "통장은 계속 쓸 수 있나요?",
+    "추심 연락은 언제 멈추나요?",
+    "대위변제되면 어떻게 되나요?"
+  ],
+  "faq": [
+    "급여가 들어오는 계좌가 압류돼 있으면 풀리나요?",
+    "채무조정을 신청했는데 계속 독촉 전화가 오면 어떻게 하나요?"
+  ]
+}

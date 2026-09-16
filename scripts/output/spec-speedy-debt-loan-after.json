@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-loan-after",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정후대출햇살론디딤돌비상금",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "target",
+  "h1": "신속채무조정 끝나고 대출 언제부터 되나요, 햇살론과 디딤돌부터 비상금대출까지",
+  "breadcrumb": "신속채무조정 끝나고 대출",
+  "description": "신속채무조정 끝나고 대출",
+  "sourceFile": "scripts/output/source-speedy-debt-loan-after.txt",
+  "sourceName": "서민금융진흥원 — 햇살론15",
+  "sourceUrl": "https://www.kinfa.or.kr/financialProduct/hessalLoan.do",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정 끝나면 언제부터 대출되나요?",
+    "햇살론은 받을 수 있나요?",
+    "디딤돌 대출도 되나요?",
+    "토스 비상금대출은 가능한가요?"
+  ],
+  "faq": [
+    "채무조정을 다 갚으면 연체 기록은 어떻게 되나요?",
+    "완제 후에도 신용회복위원회 소액대출을 받을 수 있나요?"
+  ]
+}

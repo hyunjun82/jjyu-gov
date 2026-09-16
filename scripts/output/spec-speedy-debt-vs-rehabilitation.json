@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-vs-rehabilitation",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정개인회생차이감면율단점",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "compare",
+  "h1": "신속채무조정과 개인회생 차이, 감면율과 단점 따져보면 어느 쪽인가요?",
+  "breadcrumb": "신속채무조정·개인회생 차이",
+  "description": "신속채무조정과 개인회생 차이",
+  "sourceFile": "scripts/output/source-speedy-debt-vs-rehabilitation.txt",
+  "sourceName": "신용회복위원회 — 채무조정제도 비교",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=490",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정과 개인회생은 어떻게 다른가요?",
+    "감면 폭은 어느 쪽이 큰가요?",
+    "신속채무조정 단점은 무엇인가요?",
+    "내 상황엔 어느 쪽이 맞나요?"
+  ],
+  "faq": [
+    "신속채무조정 이행 중에 개인회생을 신청하면 어떻게 되나요?",
+    "개인회생으로 가려면 어디서 상담하나요?"
+  ]
+}

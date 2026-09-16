@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-telecom-rental",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정통신비렌탈료차할부",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "overlap",
+  "h1": "신속채무조정에 통신비 들어가나요? 렌탈료와 차할부 대상까지",
+  "breadcrumb": "신속채무조정 통신비",
+  "description": "신속채무조정 대상 채권 — 통신비·핸드폰요금·렌탈료·차할부",
+  "sourceFile": "scripts/output/source-speedy-debt-telecom-rental.txt",
+  "sourceName": "신용회복위원회 — 신용회복지원협약 제5조(개인채무조정 채권의 범위)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "통신비도 신속채무조정에 포함되나요?",
+    "핸드폰요금은 어떻게 되나요?",
+    "렌탈료도 조정 대상인가요?",
+    "차할부는 어떻게 처리되나요?"
+  ],
+  "faq": [
+    "통신비만 따로 채무조정 신청할 수 있나요?",
+    "통신채무를 조정하면 휴대폰을 다시 쓸 수 있나요?"
+  ]
+}

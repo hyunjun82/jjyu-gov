@@ -99,7 +99,7 @@ export const 채무조정신속채무조정납부유예기간연장SpokeContent:
       act: {
         cue: '유예로도 버티기 어려워 변제금이 밀리기 시작했다면, 몇 번 밀리면 효력이 사라지는지 실효 기준부터 알아 두는 게 먼저예요.',
         label: '미납 몇 번이면 실효인지',
-        url: SRC_LAPSE,
+        url: '/policy/debt-restructuring/speedy-debt-missed-payment-lapse',
       },
       sourceNote: '* 출처: 신용회복위원회 재조정·자주하는 질문(채무조정 이행 중) (2026-09-15 확인)',
     },

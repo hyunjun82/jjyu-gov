@@ -106,6 +106,14 @@ export const debtRestructuringPolicy = {
 } as const;
 
 export const debtRestructuringSpokes = [
+  { slug: 'speedy-debt-telecom-rental', role: 'overlap', title: '신속채무조정에 통신비 들어가나요? 렌탈료와 차할부 대상까지' },
+  { slug: 'speedy-debt-youth-special', role: 'overlap', title: '청년특례 신속채무조정 나이와 조건, 특례 서류부터 일반과 차이는?' },
+  { slug: 'speedy-debt-to-rehabilitation', role: 'overlap', title: '신속채무조정 후 개인회생 되나요, 개인워크아웃 전환 방법부터 병행 신청까지' },
+  { slug: 'speedy-debt-vs-rehabilitation', role: 'compare', title: '신속채무조정과 개인회생 차이, 감면율과 단점 따져보면 어느 쪽인가요?' },
+  { slug: 'speedy-debt-account-collection', role: 'target', title: '신속채무조정 계좌정지와 통장 사용, 추심은 언제 멈추고 대위변제되면 어떻게 될까?' },
+  { slug: 'speedy-debt-credit-score', role: 'target', title: '신속채무조정 신용점수 얼마나 떨어질까? 공공기록 등재와 회복 시기' },
+  { slug: 'speedy-debt-loan-after', role: 'target', title: '신속채무조정 끝나고 대출 언제부터 되나요, 햇살론과 디딤돌부터 비상금대출까지' },
+  { slug: 'speedy-debt-loan-during', role: 'target', title: '신속채무조정 중에 대출 되나요, 담보대출부터 전세대출 조건과 마이너스통장까지' },
   { slug: 'speedy-debt-credit-card', role: 'target', title: '신속채무조정 신용카드 정지될까? 밀린 카드값과 체크카드 사용부터 재발급 조건까지' },
   { slug: 'speedy-debt-missed-payment-lapse', role: 'target', title: '신속채무조정 미납 몇 번이면 실효되나요, 연체 처리와 재조정 신청' },
   { slug: 'speedy-debt-rejection-creditor', role: 'target', title: '신속채무조정 부결 사유와 확률, 채권자가 부동의하면 재신청은 언제 될까?' },

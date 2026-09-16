@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-credit-score",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정신용점수공공기록회복",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "target",
+  "h1": "신속채무조정 신용점수 얼마나 떨어질까? 공공기록 등재와 회복 시기",
+  "breadcrumb": "신속채무조정 신용점수",
+  "description": "신속채무조정 신용점수와 기록",
+  "sourceFile": "scripts/output/source-speedy-debt-credit-score.txt",
+  "sourceName": "신용회복위원회 — 공공정보 조기해제",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=620",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정하면 신용점수가 얼마나 떨어지나요?",
+    "공공기록에 남나요?",
+    "기록은 언제 지워지나요?",
+    "신용점수는 언제 회복되나요?"
+  ],
+  "faq": [
+    "신속채무조정은 공공정보가 등록되나요?",
+    "채무조정이 실효되면 해제됐던 연체정보는 어떻게 되나요?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "speedy-debt-to-rehabilitation",
+  "policyDir": "채무조정",
+  "fileName": "신속채무조정후개인회생전환병행",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "overlap",
+  "h1": "신속채무조정 후 개인회생 되나요, 개인워크아웃 전환 방법부터 병행 신청까지",
+  "breadcrumb": "신속채무조정 후 개인회생",
+  "description": "신속채무조정 후 개인회생·개인워크아웃 전환",
+  "sourceFile": "scripts/output/source-speedy-debt-to-rehabilitation.txt",
+  "sourceName": "신용회복위원회 — 실효란",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=680",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "신속채무조정 후에 개인회생할 수 있나요?",
+    "개인워크아웃으로 바꿀 수 있나요?",
+    "전환하면 기존 조정은 어떻게 되나요?",
+    "두 제도를 병행하면 불이익이 있나요?"
+  ],
+  "faq": [
+    "신속채무조정을 실효시키고 바로 다시 신청할 수 있나요?",
+    "개인회생을 신청하면 신속채무조정 변제금은 계속 내야 하나요?"
+  ]
+}

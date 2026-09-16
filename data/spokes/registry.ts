@@ -1799,6 +1799,14 @@ import { 채무조정신속채무조정납부유예기간연장SpokeContent } fr
 import { 채무조정신속채무조정부결사유채권자부동의SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정부결사유채권자부동의';
 import { 채무조정신속채무조정미납실효재조정SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정미납실효재조정';
 import { 채무조정신속채무조정신용카드정지체크카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정신용카드정지체크카드';
+import { 채무조정신속채무조정중대출담보전세마이너스SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정중대출담보전세마이너스';
+import { 채무조정신속채무조정후대출햇살론디딤돌비상금SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정후대출햇살론디딤돌비상금';
+import { 채무조정신속채무조정신용점수공공기록회복SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정신용점수공공기록회복';
+import { 채무조정신속채무조정계좌정지추심대위변제SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정계좌정지추심대위변제';
+import { 채무조정신속채무조정개인회생차이감면율단점SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정개인회생차이감면율단점';
+import { 채무조정신속채무조정후개인회생전환병행SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정후개인회생전환병행';
+import { 채무조정신속채무조정청년특례나이조건서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정청년특례나이조건서류';
+import { 채무조정신속채무조정통신비렌탈료차할부SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정통신비렌탈료차할부';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -3737,6 +3745,14 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'debt-restructuring': {
+    'speedy-debt-telecom-rental': 채무조정신속채무조정통신비렌탈료차할부SpokeContent,
+    'speedy-debt-youth-special': 채무조정신속채무조정청년특례나이조건서류SpokeContent,
+    'speedy-debt-to-rehabilitation': 채무조정신속채무조정후개인회생전환병행SpokeContent,
+    'speedy-debt-vs-rehabilitation': 채무조정신속채무조정개인회생차이감면율단점SpokeContent,
+    'speedy-debt-account-collection': 채무조정신속채무조정계좌정지추심대위변제SpokeContent,
+    'speedy-debt-credit-score': 채무조정신속채무조정신용점수공공기록회복SpokeContent,
+    'speedy-debt-loan-after': 채무조정신속채무조정후대출햇살론디딤돌비상금SpokeContent,
+    'speedy-debt-loan-during': 채무조정신속채무조정중대출담보전세마이너스SpokeContent,
     'speedy-debt-credit-card': 채무조정신속채무조정신용카드정지체크카드SpokeContent,
     'speedy-debt-missed-payment-lapse': 채무조정신속채무조정미납실효재조정SpokeContent,
     'speedy-debt-rejection-creditor': 채무조정신속채무조정부결사유채권자부동의SpokeContent,
