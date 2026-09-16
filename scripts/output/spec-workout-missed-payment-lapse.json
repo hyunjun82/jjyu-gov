@@ -1,0 +1,25 @@
+{
+  "slug": "workout-missed-payment-lapse",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃미납실효재조정",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "lapse",
+  "h1": "개인워크아웃 미납 4회면 실효되나요, 실효 후 재조정 신청 방법",
+  "breadcrumb": "개인워크아웃 미납·실효",
+  "description": "개인워크아웃 미납·실효 기준과 재조정·효력부활",
+  "sourceFile": "scripts/output/source-workout-missed-payment-lapse.txt",
+  "sourceName": "신용회복위원회 — 실효위기 지원(실효란)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=680",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "미납하면 바로 실효되나요?",
+    "4회 미납이 기준인가요?",
+    "실효되면 어떻게 되나요?",
+    "실효 후 재조정은 어떻게 하나요?"
+  ],
+  "faq": [
+    "미납상태 해소 재조정은 몇 번까지 쓸 수 있나요?",
+    "효력부활도 여러 번 쓸 수 있나요?"
+  ]
+}

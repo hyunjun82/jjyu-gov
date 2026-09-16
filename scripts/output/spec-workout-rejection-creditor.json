@@ -1,0 +1,25 @@
+{
+  "slug": "workout-rejection-creditor",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃부결사유채권자부동의",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "rejection",
+  "h1": "개인워크아웃 부결 사유와 부동의 확률, 거절당하면 어디서부터 하나?",
+  "breadcrumb": "개인워크아웃 부결·부동의",
+  "description": "개인워크아웃 반려·기각·부동의 사유와 대응 방법",
+  "sourceFile": "scripts/output/source-workout-rejection-creditor.txt",
+  "sourceName": "신용회복위원회 — 신용회복지원협약",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃도 부결되나요?",
+    "부결 사유는 무엇인가요?",
+    "채권자 부동의 확률은 어느 정도인가요?",
+    "거절당하면 어떻게 대응하나요?"
+  ],
+  "faq": [
+    "채권금융회사 전부가 동의해야 확정되나요?",
+    "기각 사유를 해소하면 1년을 안 기다려도 되나요?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "workout-vehicle-lease",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃차량중고차렌트리스",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "vehicle",
+  "h1": "개인워크아웃 중 차량 유지되나요, 중고차 구입 조건부터 장기렌트와 리스까지",
+  "breadcrumb": "개인워크아웃 차량 유지",
+  "description": "개인워크아웃 중 차량 유지, 할부, 중고차, 장기렌트·리스",
+  "sourceFile": "scripts/output/source-workout-vehicle-lease.txt",
+  "sourceName": "신용회복위원회 — 자주 묻는 질문(FAQ)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃 중에 차를 계속 탈 수 있나요?",
+    "할부가 남은 차는 어떻게 되나요?",
+    "중고차를 살 수 있나요?",
+    "장기렌트나 리스는 가능한가요?"
+  ],
+  "faq": [
+    "자동차 보유 기준 예시 3가지는 정확히 뭔가요?",
+    "자동차 할부도 협약기관 조회에 나오나요?"
+  ]
+}

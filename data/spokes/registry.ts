@@ -1807,6 +1807,27 @@ import { 채무조정신속채무조정개인회생차이감면율단점SpokeCon
 import { 채무조정신속채무조정후개인회생전환병행SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정후개인회생전환병행';
 import { 채무조정신속채무조정청년특례나이조건서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정청년특례나이조건서류';
 import { 채무조정신속채무조정통신비렌탈료차할부SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/신속채무조정통신비렌탈료차할부';
+import { 채무조정개인워크아웃뜻프리워크아웃차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃뜻프리워크아웃차이';
+import { 채무조정개인워크아웃조건연체소득최저생계비SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃조건연체소득최저생계비';
+import { 채무조정개인워크아웃무직자프리랜서소득증빙SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃무직자프리랜서소득증빙';
+import { 채무조정개인워크아웃신청방법서류접수통지SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃신청방법서류접수통지';
+import { 채무조정개인워크아웃감면율원금이자감면SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃감면율원금이자감면';
+import { 채무조정개인워크아웃변제금예납금상환기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃변제금예납금상환기간';
+import { 채무조정개인워크아웃완납추가감면일시감면조기완납SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃완납추가감면일시감면조기완납';
+import { 채무조정개인워크아웃납입유예기간연장SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃납입유예기간연장';
+import { 채무조정개인워크아웃미납실효재조정SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃미납실효재조정';
+import { 채무조정개인워크아웃부결사유채권자부동의SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃부결사유채권자부동의';
+import { 채무조정개인워크아웃대출햇살론전세마이너스SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃대출햇살론전세마이너스';
+import { 채무조정개인워크아웃신용카드정지체크카드재발급SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃신용카드정지체크카드재발급';
+import { 채무조정개인워크아웃신용점수공공정보해제SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃신용점수공공정보해제';
+import { 채무조정개인워크아웃통장압류추심독촉SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃통장압류추심독촉';
+import { 채무조정개인워크아웃통장휴대폰통신비SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃통장휴대폰통신비';
+import { 채무조정개인워크아웃차량중고차렌트리스SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃차량중고차렌트리스';
+import { 채무조정개인워크아웃재산기준배우자자가SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃재산기준배우자자가';
+import { 채무조정개인워크아웃개인회생차이감면단점SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃개인회생차이감면단점';
+import { 채무조정개인워크아웃재신청조건종료SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃재신청조건종료';
+import { 채무조정개인워크아웃법무법인수임료무료상담SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃법무법인수임료무료상담';
+import { 채무조정개인워크아웃누락채권편파변제상각채권SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃누락채권편파변제상각채권';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'appliance-call-center': {
@@ -3745,6 +3766,27 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'debt-restructuring': {
+    'workout-missing-claims': 채무조정개인워크아웃누락채권편파변제상각채권SpokeContent,
+    'workout-lawyer-fee': 채무조정개인워크아웃법무법인수임료무료상담SpokeContent,
+    'workout-reapply': 채무조정개인워크아웃재신청조건종료SpokeContent,
+    'workout-vs-rehabilitation': 채무조정개인워크아웃개인회생차이감면단점SpokeContent,
+    'workout-asset-standard': 채무조정개인워크아웃재산기준배우자자가SpokeContent,
+    'workout-vehicle-lease': 채무조정개인워크아웃차량중고차렌트리스SpokeContent,
+    'workout-phone-telecom': 채무조정개인워크아웃통장휴대폰통신비SpokeContent,
+    'workout-seizure-collection': 채무조정개인워크아웃통장압류추심독촉SpokeContent,
+    'workout-credit-score': 채무조정개인워크아웃신용점수공공정보해제SpokeContent,
+    'workout-credit-card': 채무조정개인워크아웃신용카드정지체크카드재발급SpokeContent,
+    'workout-loan-during': 채무조정개인워크아웃대출햇살론전세마이너스SpokeContent,
+    'workout-rejection-creditor': 채무조정개인워크아웃부결사유채권자부동의SpokeContent,
+    'workout-missed-payment-lapse': 채무조정개인워크아웃미납실효재조정SpokeContent,
+    'workout-payment-deferral': 채무조정개인워크아웃납입유예기간연장SpokeContent,
+    'workout-early-payoff-discount': 채무조정개인워크아웃완납추가감면일시감면조기완납SpokeContent,
+    'workout-payment-amount': 채무조정개인워크아웃변제금예납금상환기간SpokeContent,
+    'workout-reduction-rate': 채무조정개인워크아웃감면율원금이자감면SpokeContent,
+    'workout-apply-documents': 채무조정개인워크아웃신청방법서류접수통지SpokeContent,
+    'workout-unemployed-freelancer': 채무조정개인워크아웃무직자프리랜서소득증빙SpokeContent,
+    'workout-conditions-overdue-income': 채무조정개인워크아웃조건연체소득최저생계비SpokeContent,
+    'workout-vs-pre-workout': 채무조정개인워크아웃뜻프리워크아웃차이SpokeContent,
     'speedy-debt-telecom-rental': 채무조정신속채무조정통신비렌탈료차할부SpokeContent,
     'speedy-debt-youth-special': 채무조정신속채무조정청년특례나이조건서류SpokeContent,
     'speedy-debt-to-rehabilitation': 채무조정신속채무조정후개인회생전환병행SpokeContent,

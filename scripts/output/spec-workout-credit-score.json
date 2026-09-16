@@ -1,0 +1,25 @@
+{
+  "slug": "workout-credit-score",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃신용점수공공정보해제",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "credit",
+  "h1": "개인워크아웃 신용점수는 얼마나 떨어지나요, 공공정보 등재와 해제 시기",
+  "breadcrumb": "개인워크아웃 신용점수",
+  "description": "개인워크아웃 신용점수·공공정보 등재와 해제",
+  "sourceFile": "scripts/output/source-workout-credit-score.txt",
+  "sourceName": "신용회복위원회 — 공공정보 조기해제",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=620",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃하면 신용점수가 얼마나 떨어지나요?",
+    "공공정보에 올라가나요?",
+    "공공정보 해제는 언제 되나요?",
+    "그 외 불이익은 무엇인가요?"
+  ],
+  "faq": [
+    "취업 때문에 신원보증보험이 필요한데 발급되나요?",
+    "보험을 해약하면 환급금을 다 받을 수 있나요?"
+  ]
+}

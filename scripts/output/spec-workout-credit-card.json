@@ -1,0 +1,25 @@
+{
+  "slug": "workout-credit-card",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃신용카드정지체크카드재발급",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "card",
+  "h1": "개인워크아웃하면 신용카드 정지되나요, 카드 사용부터 재발급은 언제부터",
+  "breadcrumb": "개인워크아웃 신용카드",
+  "description": "개인워크아웃 중 카드 사용, 체크카드, 소액카드 재발급 시기",
+  "sourceFile": "scripts/output/source-workout-credit-card.txt",
+  "sourceName": "신용회복위원회 — 자주 묻는 질문(FAQ)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃하면 신용카드가 정지되나요?",
+    "쓰던 카드는 계속 쓸 수 있나요?",
+    "체크카드는 어떻게 되나요?",
+    "카드 재발급은 언제부터 되나요?"
+  ],
+  "faq": [
+    "카드대금 자동이체는 채무조정 신청하면 자동으로 끊기나요?",
+    "소액신용카드 한도는 얼마인가요?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "workout-apply-documents",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃신청방법서류접수통지",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "procedure",
+  "h1": "개인워크아웃 신청하는 법과 준비 서류, 접수통지가 오기까지 며칠 걸리나",
+  "breadcrumb": "개인워크아웃 신청 방법·서류",
+  "description": "개인워크아웃 신청 방법, 준비 서류, 접수통지 시점",
+  "sourceFile": "scripts/output/source-workout-apply-documents.txt",
+  "sourceName": "신용회복위원회 — 채무조정 절차",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1720",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃은 어디서 신청하나요?",
+    "신청 절차는 어떤 순서인가요?",
+    "준비할 서류는 무엇인가요?",
+    "접수통지는 언제 오나요?"
+  ],
+  "faq": [
+    "신청비와 예납금은 어떻게 내나요?",
+    "채권금융회사가 동의 기한 내에 답이 없으면 어떻게 되나요?"
+  ]
+}

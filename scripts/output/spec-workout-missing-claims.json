@@ -1,0 +1,25 @@
+{
+  "slug": "workout-missing-claims",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃누락채권편파변제상각채권",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "claims",
+  "h1": "개인워크아웃 누락채권 추가하는 법, 편파변제 주의와 상각채권 처리 기준은?",
+  "breadcrumb": "개인워크아웃 누락채권·상각채권",
+  "description": "개인워크아웃 누락채권 추가, 일부채무 우선변제 제한, 상각채권 처리",
+  "sourceFile": "scripts/output/source-workout-missing-claims.txt",
+  "sourceName": "신용회복위원회 — 신용회복지원협약",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "빠뜨린 채권을 나중에 추가할 수 있나요?",
+    "누락채권은 어떻게 되나요?",
+    "편파변제로 걸리는 경우는?",
+    "상각채권은 어떻게 처리되나요?"
+  ],
+  "faq": [
+    "누락채무 수정조정은 몇 번까지 가능한가요?",
+    "일부채무 우선변제는 아무 때나 되나요?"
+  ]
+}

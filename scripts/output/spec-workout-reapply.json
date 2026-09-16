@@ -1,0 +1,25 @@
+{
+  "slug": "workout-reapply",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃재신청조건종료",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "reapply",
+  "h1": "개인워크아웃 두 번도 되나요, 재신청 조건과 종료 후 다시 신청하는 법",
+  "breadcrumb": "개인워크아웃 재신청",
+  "description": "개인워크아웃 재신청 조건과 종료 후 재신청",
+  "sourceFile": "scripts/output/source-workout-reapply.txt",
+  "sourceName": "신용회복위원회 — 신용회복지원협약",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃을 두 번 할 수 있나요?",
+    "재신청 조건은 무엇인가요?",
+    "종료 후 얼마나 지나야 하나요?",
+    "개인회생 폐지 후에도 신청되나요?"
+  ],
+  "faq": [
+    "기각 사유를 해소하면 1년을 안 기다려도 되나요?",
+    "완제 후 재신청하면 예전 기록이 새 심사에 남나요?"
+  ]
+}

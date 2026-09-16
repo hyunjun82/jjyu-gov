@@ -1,0 +1,25 @@
+{
+  "slug": "workout-vs-pre-workout",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃뜻프리워크아웃차이",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "compare",
+  "h1": "개인워크아웃 뜻과 프리워크아웃 차이, 신복위 채무조정에서 어디에 속하나?",
+  "breadcrumb": "개인워크아웃 뜻·프리워크아웃 차이",
+  "description": "개인워크아웃 뜻과 프리워크아웃 차이",
+  "sourceFile": "scripts/output/source-workout-vs-pre-workout.txt",
+  "sourceName": "신용회복위원회 — 개인워크아웃(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃이란 무엇인가요?",
+    "프리워크아웃과 뭐가 다른가요?",
+    "신용회복위원회에서 운영하나요?",
+    "채무조정 제도 중 어디에 속하나요?"
+  ],
+  "faq": [
+    "개인워크아웃은 연체가 정확히 며칠부터 신청되나요?",
+    "프리워크아웃을 쓰다가 연체가 90일을 넘기면 개인워크아웃으로 바뀌나요?"
+  ]
+}

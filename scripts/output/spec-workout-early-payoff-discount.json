@@ -1,0 +1,25 @@
+{
+  "slug": "workout-early-payoff-discount",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃완납추가감면일시감면조기완납",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "incentive",
+  "h1": "개인워크아웃 완납하면 추가 감면되나요, 일시감면 조건과 조기완납 이득",
+  "breadcrumb": "개인워크아웃 완납·조기완납",
+  "description": "개인워크아웃 완납 시 추가 감면, 일시감면 조건, 조기완납 이득",
+  "sourceFile": "scripts/output/source-workout-early-payoff-discount.txt",
+  "sourceName": "신용회복위원회 — 공공정보 조기해제",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=620",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "완납하면 남은 빚을 더 깎아주나요?",
+    "일시감면 조건은 무엇인가요?",
+    "조기완납하면 이득인가요?",
+    "완납 후에는 무엇이 달라지나요?"
+  ],
+  "faq": [
+    "완제 말고 일부 채무만 먼저 갚을 수도 있나요?",
+    "일시감면은 신청하면 바로 주나요?"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "workout-conditions-overdue-income",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃조건연체소득최저생계비",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "conditions",
+  "h1": "개인워크아웃 조건은 연체 90일부터인가? 소득 기준과 최저생계비까지",
+  "breadcrumb": "개인워크아웃 조건·소득 기준",
+  "description": "개인워크아웃 조건과 연체 90일·소득·최저생계비 기준",
+  "sourceFile": "scripts/output/source-workout-conditions-overdue-income.txt",
+  "sourceName": "신용회복위원회 — 개인워크아웃(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃 조건은 무엇인가요?",
+    "연체 90일이 지나야 하나요?",
+    "소득은 얼마부터 되나요?",
+    "최저생계비는 어떻게 따지나요?"
+  ],
+  "faq": [
+    "소득이 최저생계비에 못 미치면 개인워크아웃을 신청할 수 없나요?",
+    "카드 대금만 90일을 넘겼고 다른 대출은 정상인데 신청되나요?"
+  ]
+}

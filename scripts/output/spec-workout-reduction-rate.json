@@ -1,0 +1,25 @@
+{
+  "slug": "workout-reduction-rate",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃감면율원금이자감면",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "rate",
+  "h1": "개인워크아웃 감면율은 얼마나 되나요, 원금 감면과 이자 감면이 다른 이유",
+  "breadcrumb": "개인워크아웃 감면율",
+  "description": "개인워크아웃 원금·이자 감면율",
+  "sourceFile": "scripts/output/source-workout-reduction-rate.txt",
+  "sourceName": "신용회복위원회 — 개인워크아웃(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃 감면율은 얼마인가요?",
+    "원금도 깎아주나요?",
+    "이자 감면은 어디까지인가요?",
+    "사람마다 감면율이 다른 이유는?"
+  ],
+  "faq": [
+    "감면율은 위원회가 미리 정해서 알려주나요, 협상하는 건가요?",
+    "상각채권인지 미상각채권인지는 내가 알 수 있나요?"
+  ]
+}

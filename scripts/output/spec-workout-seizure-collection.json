@@ -1,0 +1,25 @@
+{
+  "slug": "workout-seizure-collection",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃통장압류추심독촉",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "collection",
+  "h1": "개인워크아웃하면 통장압류 해지되나요, 추심 중단 시점과 독촉 대응 방법까지",
+  "breadcrumb": "개인워크아웃 통장압류·추심",
+  "description": "개인워크아웃 통장압류·추심 중단과 독촉 대응",
+  "sourceFile": "scripts/output/source-workout-seizure-collection.txt",
+  "sourceName": "신용회복위원회 — 자주 묻는 질문(FAQ)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃하면 통장압류가 풀리나요?",
+    "압류해지는 어떻게 신청하나요?",
+    "추심 연락은 언제 멈추나요?",
+    "계속 독촉이 오면 어떻게 하나요?"
+  ],
+  "faq": [
+    "급여압류는 확정 후 며칠 만에 풀리나요?",
+    "보증인도 추심에서 보호받나요?"
+  ]
+}

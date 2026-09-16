@@ -1,0 +1,25 @@
+{
+  "slug": "workout-asset-standard",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃재산기준배우자자가",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "asset",
+  "h1": "개인워크아웃 재산 기준, 배우자 재산과 자가 부동산은 어디까지 보나?",
+  "breadcrumb": "개인워크아웃 재산 기준",
+  "description": "개인워크아웃 재산 기준, 배우자 소득, 자가 부동산 처리",
+  "sourceFile": "scripts/output/source-workout-asset-standard.txt",
+  "sourceName": "신용회복위원회 — 신용회복지원협약",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃 재산 기준은 어떻게 되나요?",
+    "배우자 재산도 보나요?",
+    "자가가 있으면 안 되나요?",
+    "담보채권은 어떻게 처리되나요?"
+  ],
+  "faq": [
+    "주택담보대출 특례의 배우자 합산 소득 기준은 정확히 얼마인가요?",
+    "주택가격이 6억원을 넘으면 채무조정 자체를 못 받나요?"
+  ]
+}

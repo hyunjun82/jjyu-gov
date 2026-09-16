@@ -1,0 +1,25 @@
+{
+  "slug": "workout-lawyer-fee",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃법무법인수임료무료상담",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "cost",
+  "h1": "개인워크아웃 법무법인 수임료 내야 하나? 무료 상담과 직접 신청 비교",
+  "breadcrumb": "개인워크아웃 비용·무료 상담",
+  "description": "개인워크아웃 변호사 필요 여부와 무료 상담",
+  "sourceFile": "scripts/output/source-workout-lawyer-fee.txt",
+  "sourceName": "신용회복위원회 — 자주 묻는 질문(FAQ)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃에 변호사가 필요한가요?",
+    "법무법인 수임료는 얼마인가요?",
+    "무료 상담은 어디서 받나요?",
+    "직접 신청하면 뭐가 다른가요?"
+  ],
+  "faq": [
+    "채무조정 대상이 안 된다고 하면 다른 방법이 없나요?",
+    "개인회생·파산 무료지원 대상 요건은 무엇인가요?"
+  ]
+}

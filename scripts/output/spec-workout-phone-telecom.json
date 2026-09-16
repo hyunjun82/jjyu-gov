@@ -1,0 +1,25 @@
+{
+  "slug": "workout-phone-telecom",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃통장휴대폰통신비",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "telecom",
+  "h1": "개인워크아웃 중 통장 사용과 휴대폰 개통, 통신비도 조정 대상인가?",
+  "breadcrumb": "개인워크아웃 통신비",
+  "description": "개인워크아웃 중 통장 사용, 휴대폰 개통, 통신비 조정",
+  "sourceFile": "scripts/output/source-workout-phone-telecom.txt",
+  "sourceName": "신용회복위원회 — 신용회복지원협약(제5조 대상 채권)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃 중에 통장을 쓸 수 있나요?",
+    "휴대폰 개통이 되나요?",
+    "통신비도 조정 대상인가요?",
+    "밀린 통신비는 어떻게 처리되나요?"
+  ],
+  "faq": [
+    "협약을 맺지 않은 통신사 요금도 조정되나요?",
+    "통신비 조정 후에도 새 번호로 개통이 가능한가요?"
+  ]
+}

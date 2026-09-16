@@ -1,0 +1,25 @@
+{
+  "slug": "workout-unemployed-freelancer",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃무직자프리랜서소득증빙",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "eligibility",
+  "h1": "무직자도 개인워크아웃 되나요, 프리랜서 소득 증빙부터 무직 서류까지",
+  "breadcrumb": "무직자·프리랜서 개인워크아웃",
+  "description": "무직자·프리랜서의 개인워크아웃 신청과 소득 증빙",
+  "sourceFile": "scripts/output/source-workout-unemployed-freelancer.txt",
+  "sourceName": "신용회복위원회 — 개인워크아웃(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "무직자도 개인워크아웃 신청되나요?",
+    "소득이 없으면 어떻게 판단하나요?",
+    "프리랜서는 소득을 어떻게 증빙하나요?",
+    "무직일 때 내는 서류는 무엇인가요?"
+  ],
+  "faq": [
+    "소득이 전혀 없어도 개인워크아웃을 신청할 수 있나요?",
+    "가족이 상환자금을 도와주면 그 가족에게 불이익이 있나요?"
+  ]
+}

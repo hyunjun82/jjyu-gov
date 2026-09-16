@@ -1,0 +1,25 @@
+{
+  "slug": "workout-payment-amount",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃변제금예납금상환기간",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "payment",
+  "h1": "개인워크아웃 변제금은 어떻게 정해지나? 예납금 계산과 상환 기간까지",
+  "breadcrumb": "개인워크아웃 변제금·상환기간",
+  "description": "개인워크아웃 변제금 산정, 예납금, 상환기간",
+  "sourceFile": "scripts/output/source-workout-payment-amount.txt",
+  "sourceName": "신용회복위원회 — 개인워크아웃(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "매달 변제금은 얼마인가요?",
+    "변제금은 어떻게 산정하나요?",
+    "예납금을 따로 내나요?",
+    "상환 기간은 몇 년인가요?"
+  ],
+  "faq": [
+    "월 변제금은 어디로 납부하나요?",
+    "예납금은 정확히 얼마인가요?"
+  ]
+}

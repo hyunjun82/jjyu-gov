@@ -1,0 +1,25 @@
+{
+  "slug": "workout-vs-rehabilitation",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃개인회생차이감면단점",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "compare2",
+  "h1": "개인워크아웃과 개인회생 중 어느 쪽이 유리한가? 감면 폭과 단점 비교",
+  "breadcrumb": "개인워크아웃·개인회생 비교",
+  "description": "개인워크아웃과 개인회생 비교, 감면 폭과 단점",
+  "sourceFile": "scripts/output/source-workout-vs-rehabilitation.txt",
+  "sourceName": "신용회복위원회 — 자주 묻는 질문(FAQ, 개인회생·파산지원)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃과 개인회생은 어떻게 다른가요?",
+    "감면 폭은 어느 쪽이 큰가요?",
+    "개인워크아웃 단점은 무엇인가요?",
+    "내 상황엔 어느 쪽이 맞나요?"
+  ],
+  "faq": [
+    "개인회생은 몇 년 동안 갚나요?",
+    "개인회생도 채무 한도가 있나요?"
+  ]
+}

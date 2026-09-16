@@ -979,3 +979,152 @@
 - 패턴: ④ 범위 확인형 — 앞에서 통신비를 걸고 뒤에 항목을 붙여 범위를 넓히는 캡처 구조를 그대로 빌려, '들어가나요?'로 대상 여부를 묻고 렌탈료·차할부를 뒤에 붙임. 소제목은 사장님 확정본(2026-09-15) 4개 그대로, 타이틀은 공식 훅 통과를 위해 '차할부까지'를 '차할부 대상까지'로만 수정(세부키워드 '대상' 보탬, 지난 배치 결정 적용)
 - 타이틀: 신속채무조정에 통신비 들어가나요? 렌탈료와 차할부 대상까지
 - 구성표: scripts/output/outline-speedy-debt-telecom-rental.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=500 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=190)
+
+
+## workout-vs-pre-workout
+- 캡처: 연금 타이틀.png — "퇴직연금이란? 종류, 계산법부터 DB형 DC형 차이까지"
+- 패턴: ① 뜻+차이 묶음 — 캡처가 '이란?'으로 정의를 열고 'DB형 DC형 차이까지'로 닫는 구조를 그대로 빌려, '뜻'으로 열고 '프리워크아웃 차이'로 이어 '어디에 속하나?'로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 공식 훅 종결 축을 통과시키려 맨 끝 '속하나요?'의 '요' 한 글자만 뺌(세부키워드 '차이'·후킹 '?'는 원문에 이미 있음)
+- 타이틀: 개인워크아웃 뜻과 프리워크아웃 차이, 신복위 채무조정에서 어디에 속하나?
+- 구성표: scripts/output/outline-workout-vs-pre-workout.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=190 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa4 내부 /policy/debt-restructuring/stage-comparison)
+
+
+## workout-conditions-overdue-income
+- 캡처: 대출 타이틀.png — "전세보증보험 가입 조건·비용·방법 | 전세권 설정 차이까지"
+- 패턴: ② 조건 확인형 — 캡처가 '가입 조건'을 앞에 걸고 '~차이까지'로 범위를 닫는 구조를 그대로 빌려, '조건은 연체 90일부터인가?'로 열고 '소득 기준과 최저생계비까지'로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 공식 훅 후킹 축을 통과시키려 '연체 90일부터인가요,' 의 쉼표를 물음표로 바꾸고 '요' 한 글자만 뺌(세부키워드 '조건'·'기준'은 원문에 이미 있음)
+- 타이틀: 개인워크아웃 조건은 연체 90일부터인가? 소득 기준과 최저생계비까지
+- 구성표: scripts/output/outline-workout-conditions-overdue-income.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=190 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590)
+
+
+## workout-unemployed-freelancer
+- 캡처: 대출 타이틀.png — "KB국민은행 신용대출 만기연장 신청방법 | 연장 시기부터 조건, 서류까지"
+- 패턴: ③ 서류 묶음 — 캡처가 '신청방법'을 앞에 걸고 '조건, 서류까지'로 준비물을 훑는 구조를 그대로 빌려, '무직자도 되나요'로 자격을 묻고 '소득 증빙부터 무직 서류까지'로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '서류'·후킹 '되나')
+- 타이틀: 무직자도 개인워크아웃 되나요, 프리랜서 소득 증빙부터 무직 서류까지
+- 구성표: scripts/output/outline-workout-unemployed-freelancer.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=190 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930)
+
+
+## workout-apply-documents
+- 캡처: 세금 타이틀.png — "종합소득세 신고 서류 종류와 발급 방법 총정리" / "2026년 종합소득세 신고 시 필요서류는?"
+- 패턴: ③ 서류 묶음 — 캡처가 '신고 서류 종류와 발급 방법'을 나란히 묶는 구조를 그대로 빌려, '신청하는 법과 준비 서류'로 열고 '접수통지가 오기까지 며칠 걸리나'로 절차 소요 시간까지 붙임. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 확정본 그대로(공식 훅 통과 — 세부키워드 '방법'·'서류', 후킹 '며칠')
+- 타이틀: 개인워크아웃 신청하는 법과 준비 서류, 접수통지가 오기까지 며칠 걸리나
+- 구성표: scripts/output/outline-workout-apply-documents.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1720)
+
+
+## workout-reduction-rate
+- 캡처: 보험타이틀.png — "도수치료 실비, 관리급여로 전환 | 보장 얼마나 될까?"
+- 패턴: ⑤ 하락폭·회복형(정본 목록의 얼마나형) — 캡처가 '보장 얼마나 될까?'로 액수를 묻는 구조를 그대로 빌려, '감면율은 얼마나 되나요'로 열고 '원금 감면과 이자 감면이 다른 이유'로 궁금증을 하나 더 얹음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '얼마'·후킹 '되나요')
+- 타이틀: 개인워크아웃 감면율은 얼마나 되나요, 원금 감면과 이자 감면이 다른 이유
+- 구성표: scripts/output/outline-workout-reduction-rate.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1940)
+
+
+## workout-payment-amount
+- 캡처: 연금 타이틀.png — "IRP 퇴직연금 수령 방법 | 연금/일시금 비교 및 중도인출 조건"
+- 패턴: ② 조건 확인형 — 캡처가 '수령 방법'을 앞에 걸고 '비교 및 중도인출 조건'으로 세부항목을 뒤에 붙이는 구조를 그대로 빌려, '변제금은 어떻게 정해지나?'로 열고 '예납금 계산과 상환 기간까지'로 세부항목을 붙임. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '계산'·'기간', 후킹 '?')
+- 타이틀: 개인워크아웃 변제금은 어떻게 정해지나? 예납금 계산과 상환 기간까지
+- 구성표: scripts/output/outline-workout-payment-amount.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1720 / qa4 내부 /policy/debt-restructuring/workout-reduction-rate)
+
+
+## workout-early-payoff-discount
+- 캡처: 대출 타이틀.png — "중도상환수수료 계산부터 면제 조건까지! 국민은행 중도상환수수료 얼마일까?"
+- 패턴: ③ 서류/조건 묶음 — 캡처가 '계산부터 면제 조건까지'로 산출 구조와 조건을 나란히 묶는 형태를 그대로 빌려, '완납하면 추가 감면되나요'로 열고 '일시감면 조건과 조기완납 이득'으로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '조건', 후킹 '되나요')
+- 타이틀: 개인워크아웃 완납하면 추가 감면되나요, 일시감면 조건과 조기완납 이득
+- 구성표: scripts/output/outline-workout-early-payoff-discount.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=620 / qa4 내부 /policy/debt-restructuring/workout-payment-amount)
+
+
+## workout-payment-deferral
+- 캡처: 세금 타이틀.png — "세법 시행령 개정안 | 월세 세액공제, 배당소득 분리과세 달라지는 점은?"
+- 패턴: ⑥ 변화 확인형 — 캡처가 '개정안'을 앞에 걸고 '달라지는 점은?'으로 닫는 구조를 그대로 빌려, '납입유예 신청하는 법'으로 열고 '유예 기간과 납입약속일 변경도 되나'로 변화 여부를 물음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '기간', 후킹 '되나')
+- 타이틀: 개인워크아웃 납입유예 신청하는 법, 유예 기간과 납입약속일 변경도 되나
+- 구성표: scripts/output/outline-workout-payment-deferral.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=690)
+- 정정(2026-09-16 사후): qa4 "납입약속일을 바꿀 수 있나요?"를 680(실효란) 페이지 발견 후 다시 씀 — "확인되지 않는다"가 아니라 "월 납입일, 가상계좌 변경은 불가합니다"라는 명시적 금지 문구가 있어 정정. 출처 680 추가.
+
+
+## workout-missed-payment-lapse
+- 캡처: 보험타이틀.png — "라식, 라섹 실비 청구 어려운 이유는? 수술 전 확인해 보세요"
+- 패턴: ⑤ 이유 확인형 — 캡처가 '어려운 이유는?'으로 부정적 원인을 묻는 구조를 그대로 빌려, '실효되나요'로 여닫고 '재조정 신청 방법'으로 대안까지 붙임. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '방법', 후킹 '되나요'). ※ 원문 대조 결과 실효 기준은 4회가 아니라 3회로 확인, 본문에서 정정
+- 타이틀: 개인워크아웃 미납 4회면 실효되나요, 실효 후 재조정 신청 방법
+- 구성표: scripts/output/outline-workout-missed-payment-lapse.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=680 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=700)
+
+
+## workout-rejection-creditor
+- 캡처: 대출 타이틀.png — "금리인하요구권 신청하고 대출 금리 줄이는 법! 조건부터 서류까지"
+- 패턴: ③ 조건→대응 묶음 — 캡처가 조건과 서류를 나란히 훑는 구조를 빌려, '부결 사유'를 앞에 걸고 '거절당하면 어디서부터 하나?'로 대응 순서를 물음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 공식 훅 세부키워드 축 통과를 위해 '무엇부터 해야 하나요?'를 '어디서부터 하나?'로 수정(세부키워드 '어디서' 보탬, 지난 배치 결정과 같은 유형)
+- 타이틀: 개인워크아웃 부결 사유와 부동의 확률, 거절당하면 어디서부터 하나?
+- 구성표: scripts/output/outline-workout-rejection-creditor.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590 / qa4 내부 /policy/debt-restructuring/workout-conditions-overdue-income)
+
+
+## workout-loan-during
+- 캡처: 대출 타이틀.png — "신용대출, 전세대출, 주택담보대출 차이 | 나에게 맞는 대출 종류는?"
+- 패턴: ② 종류 나열형 — 캡처가 대출 종류를 나란히 늘어놓는 구조를 그대로 빌려, '대출 되나요'로 열고 '햇살론부터 전세대출과 마이너스통장 한도까지'로 종류를 나열함. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '한도', 후킹 '되나요')
+- 타이틀: 개인워크아웃 중에 대출 되나요, 햇살론부터 전세대출과 마이너스통장 한도까지
+- 구성표: scripts/output/outline-workout-loan-during.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500 / qa4 내부 /policy/debt-restructuring/workout-conditions-overdue-income)
+
+
+## workout-credit-card
+- 캡처: 생활타이틀.png(KB Think 라이프) — "카드 결제일 변경 방법 | KB국민카드 결제일별 카드 이용 기간"
+- 패턴: 카드 실무형 — '결제일 변경 방법'을 앞에 걸고 '카드 이용 기간'을 뒤에 붙이는 구조를 빌려, '신용카드 정지되나요'로 열고 '카드 사용부터 재발급은 언제부터'로 이어감. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 최초 승인 단계에서 '재발급 시기'의 '시기'가 세부키워드 목록에 없어 소제목4의 말을 그대로 끌어와 "재발급은 언제부터"로 수정(세부키워드 '언제' 보탬)
+- 타이틀: 개인워크아웃하면 신용카드 정지되나요, 카드 사용부터 재발급은 언제부터
+- 구성표: scripts/output/outline-workout-credit-card.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3·qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500)
+
+
+## workout-credit-score
+- 캡처: 대출 타이틀.png — "스트레스 DSR 3단계 시행, 대출 한도 얼만큼 줄었을까?"
+- 패턴: ⑤ 하락폭 확인형 — 캡처가 '얼만큼 줄었을까?'로 감소폭을 묻는 구조를 그대로 빌려, '신용점수는 얼마나 떨어지나요'로 열고 '공공정보 등재와 해제 시기'로 이어감. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '시기', 후킹 '되나요') — 사전 judge 통과 확인 후 생성
+- 타이틀: 개인워크아웃 신용점수는 얼마나 떨어지나요, 공공정보 등재와 해제 시기
+- 구성표: scripts/output/outline-workout-credit-score.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=620 / qa3 내부 /policy/debt-restructuring/workout-early-payoff-discount / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220)
+
+
+## workout-seizure-collection
+- 캡처: 생활타이틀.png(KB Think 라이프) — "통장 묶기 사기 예방법 | 갑자기 입금된 돈 주의하세요"
+- 패턴: 통장 실무형 — '통장'을 앞에 걸고 실무 대응을 뒤에 붙이는 구조를 빌려, '통장압류 해지되나요'로 열고 '추심 중단 시점과 독촉 대응 방법까지'로 이어감. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 최초 승인 단계에서 '독촉 대응까지'의 '대응'만으로는 세부키워드가 없어 "대응 방법까지"로 수정(세부키워드 '방법' 보탬) — 사전 judge 통과 확인 후 생성
+- 타이틀: 개인워크아웃하면 통장압류 해지되나요, 추심 중단 시점과 독촉 대응 방법까지
+- 구성표: scripts/output/outline-workout-seizure-collection.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500 / qa4 내부 /policy/debt-restructuring/workout-apply-documents)
+
+
+## workout-phone-telecom
+- 캡처: 세금 타이틀.png — "종합소득세 신고 서류 종류와 발급 방법 총정리"
+- 패턴: ③ 서류/대상 확인형 — 캡처가 신고 서류를 종류별로 훑는 구조를 빌려, '통장 사용과 휴대폰 개통'을 나란히 걸고 '통신비도 조정 대상인가?'로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 없음이나 물음표 후킹 통과, 사전 judge 확인 완료)
+- 타이틀: 개인워크아웃 중 통장 사용과 휴대폰 개통, 통신비도 조정 대상인가?
+- 구성표: scripts/output/outline-workout-phone-telecom.md (버튼 3개 — hero/qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=500 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590)
+- 재사용 근거: 협약 제5조(신속채무조정 통신비 스포크에서 이미 검증)는 개인채무조정 전반에 적용되는 공통 조항이라 재사용
+
+
+## workout-vehicle-lease
+- 캡처: 대출 타이틀.png — "LTV, DTI, DSR 계산, 주택담보대출 기본 용어 짚고가기"
+- 패턴: 용어 나열형 — 여러 개념을 나란히 짚는 구조를 빌려, '차량 유지되나요'로 열고 '중고차 구입 조건부터 장기렌트와 리스까지'로 여러 항목을 나열함. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 최초 승인 단계에서 '중고차 구입부터'의 세부키워드 부재로 "중고차 구입 조건부터"로 수정(세부키워드 '조건' 보탬) — 사전 judge 통과 확인 후 생성
+- 타이틀: 개인워크아웃 중 차량 유지되나요, 중고차 구입 조건부터 장기렌트와 리스까지
+- 구성표: scripts/output/outline-workout-vehicle-lease.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590 / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 — 17번 아직 없어 상담으로 임시 연결)
+
+
+## workout-asset-standard
+- 캡처: 대출 타이틀.png — "생애최초, 서민 실수요자 주택담보대출 조건 | LTV, DTI 완화 혜택은?"
+- 패턴: ② 조건 확인형 — 주택 관련 조건을 앞세우는 구조를 빌려, '재산 기준'을 열고 '배우자 재산과 자가 부동산은 어디까지 보나?'로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀은 최초 승인 단계에서 종결 어미 '보나요?'가 훅에 걸려 '보나?'로 수정 — 사전 judge 통과 확인 후 생성
+- 타이틀: 개인워크아웃 재산 기준, 배우자 재산과 자가 부동산은 어디까지 보나?
+- 구성표: scripts/output/outline-workout-asset-standard.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590 / qa4 내부 /policy/debt-restructuring/workout-vehicle-lease)
+
+
+## workout-vs-rehabilitation
+- 캡처: 연금 타이틀.png — "연금저축펀드, IRP 차이 | 연말정산 세액공제 한도, 가입 및 중도인출 비교"
+- 패턴: ② A vs B — 캡처가 두 상품을 나란히 놓고 '차이'와 '비교'로 닫는 구조를 그대로 빌려, '개인회생 중 어느 쪽이 유리한가?'로 열고 '감면 폭과 단점 비교'로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '비교', 후킹 '?'). 기존 3자 비교 스포크(차이비교.tsx)와 달리 개인워크아웃·개인회생 2자만 원문 수치로 비교
+- 타이틀: 개인워크아웃과 개인회생 중 어느 쪽이 유리한가? 감면 폭과 단점 비교
+- 구성표: scripts/output/outline-workout-vs-rehabilitation.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 내부 /policy/debt-restructuring/workout-reduction-rate / qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2290)
+
+
+## workout-reapply
+- 캡처: 보험타이틀.png — "발급 받은 카드를 해지 후 재신청 가능한가요?"
+- 패턴: 재신청 확인형 — '해지 후 재신청 가능한가요?' 구조를 그대로 빌려, '두 번도 되나요'로 열고 '재신청 조건과 종료 후 다시 신청하는 법'으로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '조건'·'법', 후킹 '되나요') — 사전 judge 통과 확인 후 생성
+- 타이틀: 개인워크아웃 두 번도 되나요, 재신청 조건과 종료 후 다시 신청하는 법
+- 구성표: scripts/output/outline-workout-reapply.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2590 / qa4 내부 /policy/debt-restructuring/workout-vs-rehabilitation)
+
+
+## workout-lawyer-fee
+- 캡처: 대출 타이틀.png — "금리인하요구권 신청하고 대출 금리 줄이는 법! 조건부터 서류까지"
+- 패턴: 대행형 — '대행 서비스로 낮추기'라는 부제와 대비되는 '직접 신청' 구도를 빌려, '법무법인 수임료 내야 하나?'로 열고 '무료 상담과 직접 신청 비교'로 닫음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '비교', 후킹 '?') — 사전 judge 통과 확인 후 생성
+- 타이틀: 개인워크아웃 법무법인 수임료 내야 하나? 무료 상담과 직접 신청 비교
+- 구성표: scripts/output/outline-workout-lawyer-fee.md (버튼 3개 — hero/qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 내부 /policy/debt-restructuring/workout-apply-documents)
+
+
+## workout-missing-claims
+- 캡처: 세금 타이틀.png — "2026 연말정산 소득공제 세액공제 차이, 항목 비교 | 달라진 점은?"
+- 패턴: 항목 구분형 — 여러 개념(소득공제·세액공제)을 나란히 구분하는 구조를 빌려, '누락채권 추가하는 법'을 열고 '편파변제 주의와 상각채권 처리 기준은?'으로 세 개념을 나란히 짚음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '법'·'기준', 후킹 '?') — 사전 judge 통과 확인 후 생성. 21편 배치 마지막 편.
+- 타이틀: 개인워크아웃 누락채권 추가하는 법, 편파변제 주의와 상각채권 처리 기준은?
+- 구성표: scripts/output/outline-workout-missing-claims.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=690 / qa4 내부 /policy/debt-restructuring/workout-reduction-rate)

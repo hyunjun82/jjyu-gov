@@ -1,0 +1,25 @@
+{
+  "slug": "workout-loan-during",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃대출햇살론전세마이너스",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "loan",
+  "h1": "개인워크아웃 중에 대출 되나요, 햇살론부터 전세대출과 마이너스통장 한도까지",
+  "breadcrumb": "개인워크아웃 중 대출",
+  "description": "개인워크아웃 중 대출·햇살론·전세대출·마이너스통장",
+  "sourceFile": "scripts/output/source-workout-loan-during.txt",
+  "sourceName": "신용회복위원회 — 자주 묻는 질문(FAQ)",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "개인워크아웃 중에 대출이 되나요?",
+    "햇살론은 받을 수 있나요?",
+    "전세대출은 어떻게 되나요?",
+    "마이너스통장은 유지되나요?"
+  ],
+  "faq": [
+    "보증서담보대출은 왜 채무조정 대상에서 빠지나요?",
+    "신용도가 얼마나 회복돼야 대출이 다시 되나요?"
+  ]
+}

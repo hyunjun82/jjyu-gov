@@ -1,0 +1,25 @@
+{
+  "slug": "workout-payment-deferral",
+  "policyDir": "채무조정",
+  "fileName": "개인워크아웃납입유예기간연장",
+  "hubSlug": "debt-restructuring",
+  "hubVar": "debtRestructuringSpokes",
+  "role": "deferral",
+  "h1": "개인워크아웃 납입유예 신청하는 법, 유예 기간과 납입약속일 변경도 되나",
+  "breadcrumb": "개인워크아웃 납입유예",
+  "description": "개인워크아웃 납입유예 신청, 유예 기간, 납입일 변경 여부",
+  "sourceFile": "scripts/output/source-workout-payment-deferral.txt",
+  "sourceName": "신용회복위원회 — 개인워크아웃(일반) 안내",
+  "sourceUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1930",
+  "hubPath": "/policy/debt-restructuring",
+  "qa": [
+    "납입유예는 어떻게 신청하나요?",
+    "유예 기간은 얼마나 되나요?",
+    "몇 번까지 유예되나요?",
+    "납입약속일을 바꿀 수 있나요?"
+  ],
+  "faq": [
+    "재난 상황에도 상환유예를 받을 수 있나요?",
+    "수정조정과 상환유예는 같은 건가요?"
+  ]
+}
