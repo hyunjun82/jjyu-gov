@@ -1,0 +1,25 @@
+{
+  "slug": "part-time-four-insurance",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "알바가입조건",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "eligibility",
+  "h1": "알바 4대보험 가입 조건부터 등록방법까지, 늦으면 손해",
+  "breadcrumb": "알바 4대보험 가입 조건",
+  "description": "알바 4대보험 가입 여부와 주 15시간 기준, 편의점·학원·쿠팡배달 알바별 적용 차이",
+  "sourceFile": "scripts/output/source-part-time-four-insurance.txt",
+  "sourceName": "법제처 찾기쉬운 생활법령정보 — 4대 사회보험 신고 / 배달앱종사자 고용보험",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=3&cciNo=4&cnpClsNo=1&csmSeq=632",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "알바도 4대보험에 넣어야 하나요?",
+    "주 15시간 미만이면 빠지나요?",
+    "편의점이나 학원 알바는 어떻게 되나요?",
+    "쿠팡이나 배달 알바도 4대보험 되나요?"
+  ],
+  "faq": [
+    "알바 4대보험 안 넣으면 사업주가 불이익을 받나요?",
+    "짧게 일하는 단기알바도 4대보험 적용되나요?"
+  ]
+}
