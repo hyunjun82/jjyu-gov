@@ -1,0 +1,25 @@
+{
+  "slug": "self-employed-four-insurance-cost",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "요율계산납부",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "cost",
+  "h1": "개인사업자 4대보험 비용, 계산기로 1분이면 끝, 놓치면 헛걸음",
+  "breadcrumb": "개인사업자 4대보험 요율·납부",
+  "description": "개인사업자 4대보험료 요율과 급여 공제액 계산법, 카드납부를 포함한 납부 방법",
+  "sourceFile": "scripts/output/source-self-employed-four-insurance-cost.txt",
+  "sourceName": "4대사회보험정보연계센터 — 4대사회보험료 모의계산 / 사회보험통합징수포털 납부방법 안내",
+  "sourceUrl": "https://www.4insure.or.kr/pbiz/ntcn/inscSmlCalcView.do",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "개인사업자 4대보험료는 얼마인가요?",
+    "개인사업자 4대보험 요율은 어떻게 되나요?",
+    "급여에서 4대보험 공제액은 어떻게 계산하나요?",
+    "개인사업자 4대보험 카드로도 납부할 수 있나요?"
+  ],
+  "faq": [
+    "4대보험료는 사업주가 전부 부담하나요?",
+    "4대보험료 카드납부 수수료는 얼마인가요?"
+  ]
+}

@@ -122,10 +122,11 @@
       ]
     }
   ],
-  "title": "개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음",
-  "pattern": "⑥함정 경고",
+  "title": "개인사업자 4대보험 비용, 계산기로 1분이면 끝, 놓치면 헛걸음",
+  "pattern": "⑦도구로 끝",
   "from": [
-    "개인사업자 4대보험 가입 방법"
+    "개인사업자 4대보험 비용",
+    "개인사업자 4대보험 계산기"
   ],
   "subheads": [
     "개인사업자 4대보험 가입",
@@ -136,11 +137,6 @@
   ],
   "approvedAt": "2026-09-16",
   "sources": [
-    {
-      "url": "https://www.4insure.or.kr/pbiz/gdne/cvlcptDclrAncBplc.do",
-      "chars": 3309,
-      "file": "scripts/output/sources/www-4insure-or-kr-pbiz-gdne-cvlcptDclrAncBplc-do.txt"
-    },
     {
       "url": "https://www.4insure.or.kr/pbiz/ntcn/inscSmlCalcView.do",
       "chars": 4582,
@@ -160,6 +156,16 @@
       "url": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=3&cciNo=4&cnpClsNo=1&csmSeq=632",
       "chars": 9697,
       "file": "scripts/output/sources/www-easylaw-go-kr-CSP-CnpClsMainBtr-laf-ccfNo-3-cciNo-4-cnpClsNo-1-csmSeq-632.txt"
+    },
+    {
+      "url": "https://www.4insure.or.kr/pbiz/gdne/cvlcptDclrAncBplc.do",
+      "chars": 3309,
+      "file": "scripts/output/sources/www-4insure-or-kr-pbiz-gdne-cvlcptDclrAncBplc-do.txt"
+    },
+    {
+      "url": "https://si4n.nhis.or.kr/jpca/JpCac00101.do",
+      "chars": 4839,
+      "file": "scripts/output/sources/si4n-nhis-or-kr-jpca-JpCac00101-do.txt"
     }
   ]
 }

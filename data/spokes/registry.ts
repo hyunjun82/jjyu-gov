@@ -1832,9 +1832,11 @@ import { 개인사업자4대보험가입방법SpokeContent } from '@/app/policy/
 import { 개인사업자4대보험가입자명부SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/가입자명부';
 import { 개인사업자4대보험1인사업자가입의무SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/1인사업자가입의무';
 import { 개인사업자4대보험알바가입조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/알바가입조건';
+import { 개인사업자4대보험요율계산납부SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/요율계산납부';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'four-insurance-workplace-establishment': {
+    'self-employed-four-insurance-cost': 개인사업자4대보험요율계산납부SpokeContent,
     'part-time-four-insurance': 개인사업자4대보험알바가입조건SpokeContent,
     'self-employed-no-employee-insurance': 개인사업자4대보험1인사업자가입의무SpokeContent,
     'four-insurance-enrollee-list': 개인사업자4대보험가입자명부SpokeContent,
