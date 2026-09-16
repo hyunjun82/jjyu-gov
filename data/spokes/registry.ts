@@ -1828,8 +1828,12 @@ import { 채무조정개인워크아웃개인회생차이감면단점SpokeConten
 import { 채무조정개인워크아웃재신청조건종료SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃재신청조건종료';
 import { 채무조정개인워크아웃법무법인수임료무료상담SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃법무법인수임료무료상담';
 import { 채무조정개인워크아웃누락채권편파변제상각채권SpokeContent } from '@/app/policy/[id]/[spoke]/content/채무조정/개인워크아웃누락채권편파변제상각채권';
+import { 개인사업자4대보험가입방법SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/가입방법';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'four-insurance-workplace-establishment': {
+    'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
+  },
   'appliance-call-center': {
     'brams-massage-chair': bramsMassageChairCallCenterSpokeContent,
     'rinnai-boiler': rinnaiBoilerCallCenterSpokeContent,

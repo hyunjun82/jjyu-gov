@@ -1,0 +1,165 @@
+{
+  "keyword": "개인사업자 4대보험",
+  "slug": "개인사업자-4대보험",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "개인사업자 4대보험 계산방법부터 신청방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "개인사업자 4대보험 계산방법",
+        "개인사업자 4대보험 신청방법"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "개인사업자 4대보험 계산방법부터 가입 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "개인사업자 4대보험 계산방법",
+        "개인사업자 4대보험 가입 방법"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "개인사업자 4대보험 계산방법부터 가입증명서까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "개인사업자 4대보험 계산방법",
+        "개인사업자 4대보험 가입증명서"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "개인사업자 4대보험 비용, 계산기로 1분이면 끝, 놓치면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "개인사업자 4대보험 비용",
+        "개인사업자 4대보험 계산기"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "개인사업자 4대보험 비용처리, 계산기로 1분이면 끝, 서류 없으면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "개인사업자 4대보험 비용처리",
+        "개인사업자 4대보험 계산기"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "개인사업자 4대보험 계산기, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "개인사업자 4대보험 계산기"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "개인사업자 4대보험 계산기, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "개인사업자 4대보험 계산기"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "개인사업자 4대보험 계산방법, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "개인사업자 4대보험 계산방법"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "개인사업자 4대보험 계산방법, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "개인사업자 4대보험 계산방법"
+      ]
+    },
+    {
+      "n": 10,
+      "title": "개인사업자 4대보험 신청방법, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "개인사업자 4대보험 신청방법"
+      ]
+    },
+    {
+      "n": 11,
+      "title": "개인사업자 4대보험 신청방법, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "개인사업자 4대보험 신청방법"
+      ]
+    },
+    {
+      "n": 12,
+      "title": "개인사업자 4대보험 가입 방법, 어디까지 되나",
+      "pattern": "④자기대입",
+      "from": [
+        "개인사업자 4대보험 가입 방법"
+      ]
+    },
+    {
+      "n": 13,
+      "title": "개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음",
+      "pattern": "⑥함정 경고",
+      "from": [
+        "개인사업자 4대보험 가입 방법"
+      ]
+    },
+    {
+      "n": 14,
+      "title": "개인사업자 4대보험 완납증명서부터 계산기까지, 서류 없으면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "개인사업자 4대보험 완납증명서",
+        "개인사업자 4대보험 계산기"
+      ]
+    }
+  ],
+  "title": "개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음",
+  "pattern": "⑥함정 경고",
+  "from": [
+    "개인사업자 4대보험 가입 방법"
+  ],
+  "subheads": [
+    "개인사업자 4대보험 가입",
+    "개인사업자 4대보험 계산방법",
+    "개인사업자 4대보험 신청방법",
+    "개인사업자 4대보험 신고",
+    "개인사업자 4대보험 세금"
+  ],
+  "approvedAt": "2026-09-16",
+  "sources": [
+    {
+      "url": "https://www.4insure.or.kr/pbiz/gdne/cvlcptDclrAncBplc.do",
+      "chars": 3309,
+      "file": "scripts/output/sources/www-4insure-or-kr-pbiz-gdne-cvlcptDclrAncBplc-do.txt"
+    },
+    {
+      "url": "https://www.4insure.or.kr/pbiz/ntcn/inscSmlCalcView.do",
+      "chars": 4582,
+      "file": "scripts/output/sources/www-4insure-or-kr-pbiz-ntcn-inscSmlCalcView-do.txt"
+    },
+    {
+      "url": "https://www.4insure.or.kr/pbiz/clbp/bplcMbrSubMn.do",
+      "chars": 1644,
+      "file": "scripts/output/sources/www-4insure-or-kr-pbiz-clbp-bplcMbrSubMn-do.txt"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW/LsiJoLinkP.do?docType=JO&lsNm=국민연금법+시행규칙&joNo=000300000",
+      "chars": 4252,
+      "file": "scripts/output/sources/www-law-go-kr-LSW-LsiJoLinkP-do-docType-JO-lsNm-joNo-000300000.txt"
+    },
+    {
+      "url": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=3&cciNo=4&cnpClsNo=1&csmSeq=632",
+      "chars": 9697,
+      "file": "scripts/output/sources/www-easylaw-go-kr-CSP-CnpClsMainBtr-laf-ccfNo-3-cciNo-4-cnpClsNo-1-csmSeq-632.txt"
+    }
+  ]
+}

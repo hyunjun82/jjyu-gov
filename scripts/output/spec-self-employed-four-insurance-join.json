@@ -1,0 +1,27 @@
+{
+  "slug": "self-employed-four-insurance-join",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "가입방법",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "apply",
+  "h1": "개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음",
+  "breadcrumb": "개인사업자 4대보험 가입",
+  "description": "개인사업자 4대보험 가입 의무와 신청·계산 방법, 세무사 없이 직접 신고하는 절차와 보험별 신고 기한",
+  "sourceFile": "scripts/output/source-개인사업자-4대보험.txt",
+  "sourceName": "법제처 찾기쉬운 생활법령정보 — 4대 사회보험 및 취업규칙 신고",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=3&cciNo=4&cnpClsNo=1&csmSeq=632",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "개인사업자도 4대보험 가입 의무가 있나요?",
+    "개인사업자 4대보험 신청방법은 무엇인가요?",
+    "개인사업자 4대보험 계산방법은 어떻게 되나요?",
+    "개인사업자 4대보험과 세금은 어떤 관계인가요?",
+    "개인사업자 4대보험 신고는 어디서 하나요?"
+  ],
+  "faq": [
+    "직원 없는 1인 개인사업자도 4대보험에 가입하나요?",
+    "4대보험 신고 기한을 넘기면 어떻게 되나요?",
+    "세무사 없이 사업주 본인이 직접 신고할 수 있나요?"
+  ]
+}

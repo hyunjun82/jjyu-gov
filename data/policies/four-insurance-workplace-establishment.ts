@@ -87,4 +87,5 @@ export const fourInsuranceWorkplaceEstablishmentPolicy = {
   ],
 } as const;
 
-export const fourInsuranceWorkplaceEstablishmentSpokes = [];
+export const fourInsuranceWorkplaceEstablishmentSpokes = [
+  { slug: 'self-employed-four-insurance-join', role: 'apply', title: '개인사업자 4대보험 가입 방법, 빠뜨리면 헛걸음' },];
