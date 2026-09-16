@@ -1839,9 +1839,11 @@ import { 개인사업자4대보험직장인겸업이중가입SpokeContent } from
 import { 개인사업자4대보험피부양자등록SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/피부양자등록';
 import { 개인사업자4대보험퇴사자상실신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/퇴사자상실신고';
 import { 개인사업자4대보험휴업폐업전환정산SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/휴업폐업전환정산';
+import { 개인사업자4대보험쿠팡배달일용직SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/쿠팡배달일용직';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'four-insurance-workplace-establishment': {
+    'four-insurance-gig-workers': 개인사업자4대보험쿠팡배달일용직SpokeContent,
     'four-insurance-closure': 개인사업자4대보험휴업폐업전환정산SpokeContent,
     'four-insurance-loss-report': 개인사업자4대보험퇴사자상실신고SpokeContent,
     'four-insurance-dependent': 개인사업자4대보험피부양자등록SpokeContent,

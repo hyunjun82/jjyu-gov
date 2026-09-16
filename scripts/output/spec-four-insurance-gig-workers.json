@@ -1,0 +1,25 @@
+{
+  "slug": "four-insurance-gig-workers",
+  "policyDir": "개인사업자4대보험",
+  "fileName": "쿠팡배달일용직",
+  "hubSlug": "four-insurance-workplace-establishment",
+  "hubVar": "fourInsuranceWorkplaceEstablishmentSpokes",
+  "role": "eligibility",
+  "h1": "쿠팡 배달이나 일용직도 4대보험 되나요, 가입 기준과 사업주 신고 의무",
+  "breadcrumb": "쿠팡·배달·일용직 4대보험",
+  "description": "쿠팡알바·배달 라이더·일용직의 4대보험 적용 여부와 계약 형태별 가입 기준, 사업주 신고 의무",
+  "sourceFile": "scripts/output/source-part-time-four-insurance.txt",
+  "sourceName": "법제처 찾기쉬운 생활법령정보 — 4대 사회보험 신고 / 배달앱종사자",
+  "sourceUrl": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=2&cciNo=1&cnpClsNo=1&csmSeq=1589",
+  "hubPath": "/policy/four-insurance-workplace-establishment",
+  "qa": [
+    "쿠팡알바도 4대보험에 가입되나요?",
+    "배달 라이더는 어떻게 되나요?",
+    "일용직 가입 기준은 무엇인가요?",
+    "사업주가 신고해야 하는 경우는?"
+  ],
+  "faq": [
+    "노무제공자도 산재보험이 적용되나요?",
+    "쿠팡 물류센터 알바와 쿠팡이츠 배달은 뭐가 다른가요?"
+  ]
+}
