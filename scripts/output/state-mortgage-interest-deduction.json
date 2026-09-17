@@ -1,0 +1,33 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-interest-deduction",
+  "step": 4,
+  "candidates": [],
+  "title": "주택담보대출 이자 소득공제 신청과 요건, 남편 명의와 공동명의 기준은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 17번)",
+  "from": [
+    "주택담보대출 이자 소득공제",
+    "주택담보대출 소득공제 요건",
+    "주택담보대출 명의",
+    "주택담보대출 공동명의"
+  ],
+  "subheads": [
+    "주택담보대출 이자는 얼마나 소득공제되나요?",
+    "공제받으려면 어떤 요건을 맞춰야 하나요?",
+    "남편 명의 대출을 아내가 공제받을 수 있나요?",
+    "공동명의일 때는 어떻게 나눠 공제하나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40608&cntntsId=239020",
+      "chars": 0,
+      "file": "scripts/output/sources/www-nts-go-kr-cntntsId-239020.txt"
+    },
+    {
+      "url": "https://www.hf.go.kr/ko/sub01/sub01_07_02.do",
+      "chars": 0,
+      "file": "scripts/output/sources/www-hf-go-kr-ko-sub01-sub01-07-02-do.txt"
+    }
+  ]
+}

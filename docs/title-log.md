@@ -1128,3 +1128,193 @@
 - 패턴: 항목 구분형 — 여러 개념(소득공제·세액공제)을 나란히 구분하는 구조를 빌려, '누락채권 추가하는 법'을 열고 '편파변제 주의와 상각채권 처리 기준은?'으로 세 개념을 나란히 짚음. 소제목 4개는 사장님 확정본(2026-09-16) 그대로, 타이틀도 확정본 그대로(공식 훅 통과 — 세부키워드 '법'·'기준', 후킹 '?') — 사전 judge 통과 확인 후 생성. 21편 배치 마지막 편.
 - 타이틀: 개인워크아웃 누락채권 추가하는 법, 편파변제 주의와 상각채권 처리 기준은?
 - 구성표: scripts/output/outline-workout-missing-claims.md (버튼 3개 — hero https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=1220 / qa3 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=690 / qa4 내부 /policy/debt-restructuring/workout-reduction-rate)
+
+
+## mortgage-application-process
+- 캡처: 대출 타이틀.png — "LTV, DTI, DSR 계산, 주택담보대출 기본 용어 짚고가기"
+- 패턴: C. 신청·절차(docs/title-style-24.md) — 캡처의 '나열형 키워드 + 짚고가기(설명형 종결)' 구조를 빌려, '신청 절차와 은행 상담 순서'로 열고 '자서와 잔금 실행 일정'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17) — "은행 상담"·"자서"·"잔금일/실행일"은 collect-keywords 기본 수집엔 안 잡혔으나 네이버 자동완성 딥쿼리로 실검색어임을 개별 확인(주택담보대출 은행 상담/자서 뜻/잔금일/실행일 전부 자동완성 존재).
+- 타이틀: 주택담보대출 신청 절차와 은행 상담 순서, 자서와 잔금 실행 일정
+- 구성표: scripts/output/outline-mortgage-application-process.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://obank.kbstar.com/quics?page=C019482&cc=b030779%3Ab030008&isNew=N&prcode=LN20001160)
+
+
+## mortgage-required-documents
+- 캡처: 대출 타이틀.png — "LTV, DTI, DSR 계산, 주택담보대출 기본 용어 짚고가기"
+- 패턴: C. 신청·절차(docs/title-style-24.md) — 캡처의 '나열형 키워드 + 짚고가기' 구조를 빌려, '필요서류 준비와 제출 기한'으로 열고 '등기권리증과 매매계약서, 신청 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 2번) — 타이틀공식 훅 통과 위해 끝에 ", 신청 방법은?"만 추가.
+- 타이틀: 주택담보대출 필요서류 준비와 제출 기한, 등기권리증과 매매계약서, 신청 방법은?
+- 구성표: scripts/output/outline-mortgage-required-documents.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://obank.kbstar.com/quics?page=C019482&cc=b030779%3Ab030008&isNew=N&prcode=LN20001160)
+
+
+## mortgage-loan-limit-ltv
+- 캡처: 대출 타이틀.png — "생애최초, 서민 실수요자 주택담보대출 조건 | LTV, DTI 완화 혜택은?"
+- 패턴: C. 신청·절차 — 캡처의 'LTV 관련 나열 + 은?' 종결 구조를 빌려, '한도 계산과 LTV 확인'으로 열고 '방공제 금액과 면제 신청은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 3번) — 타이틀공식 훅 통과 위해 "신청"→"신청은?"만 조정.
+- 타이틀: 주택담보대출 한도 계산과 LTV 확인, 방공제 금액과 면제 신청은?
+- 구성표: scripts/output/outline-mortgage-loan-limit-ltv.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://obank.kbstar.com/quics?page=C019482&cc=b030779%3Ab030008&isNew=N&prcode=LN20001160)
+
+
+## mortgage-rate-compare
+- 캡처: 대출 타이틀.png — "대출 우대금리 조건과 COFIX·MOR 기준금리 차이 총정리"
+- 패턴: C. 신청·절차 — 캡처의 '금리 구조 나열형' 구조를 빌려, '금리 비교와 은행 선택'으로 열고 '특판 찾기와 가산금리 인하 신청은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 4번) — 타이틀공식 훅 통과 위해 "인하"→"인하 신청은?"만 추가.
+- 타이틀: 주택담보대출 금리 비교와 은행 선택, 특판 찾기와 가산금리 인하 신청은?
+- 구성표: scripts/output/outline-mortgage-rate-compare.md (버튼 3개 — hero/qa3 https://portal.kfb.or.kr/compare/loan_household_new.php / qa4 내부 /policy/rate-cut-request/)
+
+
+## mortgage-fixed-vs-variable
+- 캡처: 대출 타이틀.png — "고정금리·변동금리 차이와 장단점 | 어떤 금리가 더 유리할까?"
+- 패턴: C. 신청·절차/②A vs B 혼합 — 캡처의 '고정·변동 비교 + 은?' 구조를 빌려, '고정금리와 변동금리 선택'으로 열고 '적용 기간과 중간 전환 신청은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 5번) — 이미 훅 통과, 추가 조정 없음.
+- 타이틀: 주택담보대출 고정금리와 변동금리 선택, 적용 기간과 중간 전환 신청은?
+- 구성표: scripts/output/outline-mortgage-fixed-vs-variable.md (버튼 3개 — 전부 https://portal.kfb.or.kr/compare/loan_household_new.php)
+
+
+## mortgage-refinance
+- 캡처: 대출 타이틀.png — "중도상환수수료 계산부터 면제 조건까지! 국민은행 중도상환수수료 얼마일까?"
+- 패턴: C. 신청·절차 — 캡처의 '중도상환수수료 나열형' 구조를 빌려, '갈아타기 조건과 온라인 신청'으로 열고 '중도상환수수료와 한도 축소는?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 6번) — 타이틀공식 훅 통과 위해 "축소"→"축소는?"만 추가.
+- 타이틀: 주택담보대출 갈아타기 조건과 온라인 신청, 중도상환수수료와 한도 축소는?
+- 구성표: scripts/output/outline-mortgage-refinance.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://obank.kbstar.com/quics?page=C019482&cc=b030779%3Ab030008&isNew=N&prcode=LN20001160)
+
+
+## mortgage-prepayment
+- 캡처: 대출 타이틀.png — "중도상환수수료 계산부터 면제 조건까지! 국민은행 중도상환수수료 얼마일까?"
+- 패턴: C. 신청·절차 — 캡처와 동일 주제(중도상환수수료)를 다루되, 사장님 확정 타이틀 구조('신청과 계산, 면제 기간과 확인은?')를 그대로 사용. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 7번) — 타이틀공식 훅 통과 위해 "확인"→"확인은?"만 추가.
+- 타이틀: 주택담보대출 중도상환 신청과 수수료 계산, 면제 기간과 남은 원금 확인은?
+- 구성표: scripts/output/outline-mortgage-prepayment.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://obank.kbstar.com/quics?page=C019482&cc=b030779%3Ab030008&isNew=N&prcode=LN20001160)
+
+
+## mortgage-repayment-method
+- 캡처: 대출 타이틀.png — "LTV, DTI, DSR 계산, 주택담보대출 기본 용어 짚고가기"
+- 패턴: C. 신청·절차 — 캡처의 '계산+용어 나열형' 구조를 빌려, '상환 방식 선택과 원리금 계산'으로 열고 '체증식과 만기일시 비교, 신청 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 8번) — 타이틀공식 훅 통과 위해 ", 신청 방법은?"만 추가.
+- 타이틀: 주택담보대출 상환 방식 선택과 원리금 계산, 체증식과 만기일시 비교, 신청 방법은?
+- 구성표: scripts/output/outline-mortgage-repayment-method.md (버튼 3개 — 전부 https://portal.kfb.or.kr/compare/loan_household_new.php)
+
+
+## mortgage-first-time-buyer
+- 캡처: 대출 타이틀.png — "생애최초, 서민 실수요자 주택담보대출 조건 | LTV, DTI 완화 혜택은?"
+- 패턴: C. 신청·절차 — 캡처와 동일 주제(생애최초·LTV)를 다루되, 사장님 확정 타이틀 구조 그대로 사용. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정해 그대로 사용(2026-09-17, 세트 9번) — 타이틀공식 훅 통과 위해 ", 신청 방법은?"만 추가.
+- 타이틀: 생애최초 주택담보대출 조건과 LTV 80%, 신혼부부 혼인신고 시기, 신청 방법은?
+- 구성표: scripts/output/outline-mortgage-first-time-buyer.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://www.hf.go.kr/ko/sub01/sub01_02_01.do)
+
+
+## mortgage-policy-loan-compare
+- 캡처: 대출 타이틀.png — "신용대출, 전세대출, 주택담보대출 차이 | 나에게 맞는 대출 종류는?"
+- 패턴: ②A vs B — 캡처의 '여러 상품 나열 + 차이 + 맞는 것은?' 구조를 빌려, '보금자리론과 디딤돌 조건'으로 열고 '신생아 특례와 중복 신청 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 10번, 마지막) — 원래 "중복해도 되나요"는 해요체 종결·행동어 미충족으로 타이틀공식 훅을 통과 못 해 "중복 신청 방법은?"으로 조정. 핵심 키워드(보금자리론/디딤돌/신생아특례/중복)는 보존.
+- 타이틀: 주택담보대출 보금자리론과 디딤돌 조건, 신생아 특례와 중복 신청 방법은?
+- 구성표: scripts/output/outline-mortgage-policy-loan-compare.md (버튼 3개 — hero https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://www.myhome.go.kr/hws/portal/cont/selectBabySpecialCaseStepStoneLoneView.do / qa4 내부 /policy/didimdol-loan/)
+
+
+## mortgage-additional-loan
+- 캡처: 대출 타이틀.png — "스트레스 DSR 3단계 시행, 대출 한도 얼만큼 줄었을까?"
+- 패턴: C. 신청·절차 — 캡처의 'DSR·한도 주제' 구조를 빌려, '추가 신청과 후순위 대출'로 열고 '기대출 과다면 나눠 받는 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 11번) — 원문 "나눠 받나요"는 해요체 종결·세부키워드 미충족으로 "나눠 받는 방법은?"으로 조정.
+- 타이틀: 주택담보대출 추가 신청과 후순위 대출, 기대출 과다면 나눠 받는 방법은?
+- 구성표: scripts/output/outline-mortgage-additional-loan.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://www.fsc.go.kr/po020201/27351)
+
+
+## mortgage-income-proof
+- 캡처: 대출 타이틀.png — "생애최초, 서민 실수요자 주택담보대출 조건 | LTV, DTI 완화 혜택은?"
+- 패턴: C. 신청·절차 — 캡처의 '자격·조건 나열형' 구조를 빌려, '무직자 신청과 소득 증빙'으로 열고 '주부와 고령자 나이 기준은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 12번) — 원문 "고령자도 되나요"는 해요체 종결·세부키워드 미충족으로 "나이 기준은?"으로 조정.
+- 타이틀: 무직자 주택담보대출 신청과 소득 증빙, 주부와 고령자 나이 기준은?
+- 구성표: scripts/output/outline-mortgage-income-proof.md (버튼 3개 — 전부 https://portal.kfb.or.kr/compare/loan_household_new.php)
+
+
+## mortgage-approval-review
+- 캡처: 대출 타이틀.png — "중도상환수수료 계산부터 면제 조건까지! 국민은행 중도상환수수료 얼마일까?"
+- 패턴: C. 신청·절차 — 캡처의 '계산·기준 나열형 + 얼마일까?' 구조를 빌려, '심사 기간과 신용점수 조회'로 열고 '반려 사유와 재신청 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 13번) — 원문 그대로 이미 훅 통과.
+- 타이틀: 주택담보대출 심사 기간과 신용점수 조회, 반려 사유와 재신청 방법은?
+- 구성표: scripts/output/outline-mortgage-approval-review.md (버튼 3개 — hero/qa3 https://portal.kfb.or.kr/compare/loan_household_new.php / qa4 https://finlife.fss.or.kr/finlife/ldng/houseMrtg/list.do?menuNo=700007)
+
+
+## mortgage-joint-ownership
+- 캡처: 대출 타이틀.png — "신용대출, 전세대출, 주택담보대출 차이 | 나에게 맞는 대출 종류는?"
+- 패턴: C. 신청·절차 — 캡처의 '조건 나열 + 맞는 것은?' 구조를 빌려, '공동명의 신청과 배우자 동의'로 열고 '지분 비율과 한도 계산은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 14번) — 원문 "한도 계산"→"한도 계산은?"만 추가.
+- 타이틀: 공동명의 주택담보대출 신청과 배우자 동의, 지분 비율과 한도 계산은?
+- 구성표: scripts/output/outline-mortgage-joint-ownership.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://obank.kbstar.com/quics?page=C019482&cc=b030779%3Ab030008&isNew=N&prcode=LN20001160)
+
+
+## mortgage-multi-home-restriction
+- 캡처: 대출 타이틀.png — "스트레스 DSR 3단계 시행, 대출 한도 얼만큼 줄었을까?"
+- 패턴: C. 신청·절차 — 캡처의 '규제 시행·한도 축소' 주제를 빌려, '2주택 제한과 규제지역 한도'로 열고 '생활안정자금 신청과 총량제는?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 15번) — 원문 "총량제"→"총량제는?"만 추가.
+- 타이틀: 2주택 주택담보대출 제한과 규제지역 한도, 생활안정자금 신청과 총량제는?
+- 구성표: scripts/output/outline-mortgage-multi-home-restriction.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 https://www.korea.kr/news/policyNewsView.do?newsId=148951581)
+
+
+## mortgage-tenant-occupied
+- 캡처: 대출 타이틀.png — "신용대출, 전세대출, 주택담보대출 차이 | 나에게 맞는 대출 종류는?"
+- 패턴: C. 신청·절차 — 캡처의 '전세대출·주담대 구분' 소재를 빌려, '전세 낀 집 신청과 임차인 동의'로 열고 '전세금 반환 조건은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 16번) — 원문 "전세금 반환도 되나요"→"전세금 반환 조건은?"만 조정.
+- 타이틀: 전세 낀 집 주택담보대출 신청과 임차인 동의, 전세금 반환 조건은?
+- 구성표: scripts/output/outline-mortgage-tenant-occupied.md (버튼 3개 — hero/qa3 https://www.kakaobank.com/products/mortgageLoan / qa4 /policy/mortgage-loan-limit-ltv/)
+
+
+## mortgage-interest-deduction
+- 캡처: 대출 타이틀.png — "금리인하요구권 신청하고 대출 금리 줄이는 법! 조건부터 서류까지"
+- 패턴: C. 신청·절차 — 캡처의 '조건부터 서류까지' 나열형을 빌려, '이자 소득공제 신청과 요건'으로 열고 '남편 명의와 공동명의 기준은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 17번) — 원문 "공동명의도 되나요"→"공동명의 기준은?"만 조정.
+- 타이틀: 주택담보대출 이자 소득공제 신청과 요건, 남편 명의와 공동명의 기준은?
+- 구성표: scripts/output/outline-mortgage-interest-deduction.md (버튼 3개 — hero/qa3 https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40608&cntntsId=239020 / https://call.nts.go.kr/call/main.do / qa4 /policy/mortgage-joint-ownership/)
+
+
+## mortgage-lien-cancellation
+- 캡처: 대출 타이틀.png — "KB국민은행 신용대출 만기연장 신청방법 | 연장 시기부터 조건, 서류까지"
+- 패턴: C. 신청·절차 — 캡처의 '신청방법 | 시기부터 조건·서류까지' 나열형을 빌려, '근저당 말소 신청과 등기 서류'로 열고 '셀프등기 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 18번) — 원문 "셀프로 되나요"→"셀프등기 방법은?"만 조정.
+- 타이틀: 주택담보대출 상환 후 근저당 말소 신청과 등기 서류, 셀프등기 방법은?
+- 구성표: scripts/output/outline-mortgage-lien-cancellation.md (버튼 3개 — hero/qa3 https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=566&ccfNo=4&cciNo=4&cnpClsNo=2 / qa4 https://www.iros.go.kr/index.jsp)
+
+
+## mortgage-debt-succession
+- 캡처: 대출 타이틀.png — "KB국민은행 신용대출 만기연장 신청방법 | 연장 시기부터 조건, 서류까지"
+- 패턴: C. 신청·절차 — 캡처의 '신청방법 | 조건까지' 나열형을 빌려, '승계 신청과 명의 변경 방법'으로 열고 '자녀 증여와 상속 시 처리는?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 19번) — 원문 "처리"→"명의 변경 방법"(방법 추가)+"처리는?"만 조정.
+- 타이틀: 주택담보대출 승계 신청과 명의 변경 방법, 자녀 증여와 상속 시 처리는?
+- 구성표: scripts/output/outline-mortgage-debt-succession.md (버튼 3개 — hero/qa3 https://www.hf.go.kr/ko/sub01/sub01_08_01.do / https://www.hf.go.kr/ko/sub01/sub01_08_02.do / qa4 https://www.hf.go.kr/ko/sub01/sub01_08_03.do)
+
+
+## mortgage-covenant-violation
+- 캡처: 대출 타이틀.png — "스트레스 DSR 3단계 시행, 대출 한도 얼만큼 줄었을까?"
+- 패턴: C. 신청·절차 — 캡처의 '규제 시행·변화' 소재를 빌려, '유지 중 매도와 월세 전환'으로 열고 '전입 신고와 약정 위반, 해지 기준은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 20번) — 원문 그대로 + "해지 기준은?"만 추가.
+- 타이틀: 주택담보대출 유지 중 매도와 월세 전환, 전입 신고와 약정 위반, 해지 기준은?
+- 구성표: scripts/output/outline-mortgage-covenant-violation.md (버튼 3개 — hero/qa3 /policy/mortgage-debt-succession/ / qa4 https://www.fsc.go.kr/no010101/84824)
+
+
+## mortgage-default-procedure
+- 캡처: 대출 타이틀.png — "스트레스 DSR 3단계 시행, 대출 한도 얼만큼 줄었을까?"
+- 패턴: C. 신청·절차 — 캡처의 '제도 시행·변화' 소재를 빌려, '미납 시 절차와 연체 이자'로 열고 '경매 전 채무조정 신청 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 21번) — 원문 그대로 + "신청 방법은?"만 조정.
+- 타이틀: 주택담보대출 미납 시 절차와 연체 이자, 경매 전 채무조정 신청 방법은?
+- 구성표: scripts/output/outline-mortgage-default-procedure.md (버튼 3개 — hero/qa4 https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500 / qa3 https://www.fsc.go.kr/no010101/82609)
+
+
+## mortgage-job-change-review
+- 캡처: 대출 타이틀.png — "중도상환수수료 계산부터 면제 조건까지! 국민은행 중도상환수수료 얼마일까?"
+- 패턴: C. 신청·절차 — 캡처의 '계산·조건 나열형' 구조를 빌려, '실행 전 이직과 퇴사'로 열고 '재직 확인 시점과 소득 재심사, 신청 기준은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 22번) — 원문 그대로 + "신청 기준은?"만 조정.
+- 타이틀: 주택담보대출 실행 전 이직과 퇴사, 재직 확인 시점과 소득 재심사, 신청 기준은?
+- 구성표: scripts/output/outline-mortgage-job-change-review.md (버튼 2개 — hero/qa3 https://www.kakaobank.com/products/mortgageLoan / qa4 /policy/mortgage-loan-limit-ltv/)
+
+
+## mortgage-bank-comparison
+- 캡처: 대출 타이틀.png — "신용대출, 전세대출, 주택담보대출 차이 | 나에게 맞는 대출 종류는?"
+- 패턴: B. A vs B — 캡처의 'A, B 차이 | 나에게 맞는 것은?' 비교 구조를 그대로 빌려, '카카오뱅크와 케이뱅크 주택담보대출 신청'으로 열고 '비대면 심사와 한도 조회는?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 23번) — 원문 그대로, 조정 없음.
+- 타이틀: 카카오뱅크와 케이뱅크 주택담보대출 신청, 비대면 심사와 한도 조회는?
+- 구성표: scripts/output/outline-mortgage-bank-comparison.md (버튼 3개 — hero/qa3 https://www.kbanknow.com/k/sAySEh8 / qa4 https://portal.kfb.or.kr/compare/loan_household_new.php)
+
+
+## mortgage-dsr-calculation
+- 캡처: 대출 타이틀.png — "LTV, DTI, DSR 계산, 주택담보대출 기본 용어 짚고가기"
+- 패턴: C. 신청·절차 — 캡처의 'DSR 계산·용어' 소재를 그대로 이어받아, 'DSR 계산과 기대출 합산'으로 열고 '부부 소득과 장래소득 적용, 조회 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 24번) — 원문 그대로 + "조회 방법은?"만 조정.
+- 타이틀: 주택담보대출 DSR 계산과 기대출 합산, 부부 소득과 장래소득 적용, 조회 방법은?
+- 구성표: scripts/output/outline-mortgage-dsr-calculation.md (버튼 3개 — hero/qa4 https://portal.kfb.or.kr/compare/loan_household_new.php / qa3 /policy/mortgage-joint-ownership/)
+
+
+## mortgage-subscription-savings-loan
+- 캡처: 대출 타이틀.png — "중도상환수수료 계산부터 면제 조건까지! 국민은행 중도상환수수료 얼마일까?"
+- 패턴: C. 신청·절차 — 캡처의 '계산·조건 나열형' 구조를 빌려, '주택청약 담보대출 신청 방식과 한도'로 열고 '미상환 해지와 만기 안내는?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 25번) — 원문 "만기 안내"→"만기 안내는?"만 추가.
+- 타이틀: 주택청약 담보대출 신청 방식과 한도, 미상환 해지와 만기 안내는?
+- 구성표: scripts/output/outline-mortgage-subscription-savings-loan.md (버튼 3개, 전부 KB 청약담보대출 페이지)
+
+
+## mortgage-personal-rehabilitation
+- 캡처: 대출 타이틀.png — "생애최초, 서민 실수요자 주택담보대출 조건 | LTV, DTI 완화 혜택은?"
+- 패턴: C. 신청·절차 — 캡처의 '자격 조건 | 혜택은?' 구조를 빌려, '개인회생 중 주택담보대출 신청과 연장'으로 열고 '부모님 집 담보와 공동명의 주택 처리 방법은?'으로 닫음. 타이틀·소제목 4개는 사장님이 26편 세트로 직접 확정(2026-09-17, 세트 26번·마지막) — 원문 "공동명의 주택 처리"→"처리 방법은?"만 추가.
+- 타이틀: 개인회생 중 주택담보대출 신청과 연장, 부모님 집 담보와 공동명의 주택 처리 방법은?
+- 구성표: scripts/output/outline-mortgage-personal-rehabilitation.md (버튼 3개 — hero/qa4 https://www.hf.go.kr/ko/sub01/sub01_07_02.do / qa3 https://www.kakaobank.com/products/mortgageLoan)
+
+
+## mortgage-prepayment (재작성, 2026-09-17)
+- 캡처: 대출 타이틀.png — "중도상환수수료 계산부터 면제 조건까지! 국민은행 중도상환수수료 얼마일까?"
+- 사장님 지적(2026-09-17): "국민은행이 아닌사람들은 다 이탈" · "수수료 계산 은행별로 파악해서" · "면제기간 은행마다 다르지만 표로 비교" · qa1이 "확인해보시면 됩니다" 식 떠넘기기.
+- 조치: 전국은행연합회 소비자포털(대출관련 중도상환수수료율 비교공시)에서 NH농협·신한·우리·하나·KB국민·케이뱅크·카카오뱅크 7개 은행 실제 수수료율(고정/변동)을 Playwright로 직접 조회해 qa2를 진짜 비교표로 교체. qa1의 "은행마다 다르므로 로그인 후 확인하세요" 문장을 삭제하고 실제 상환 채널(인터넷뱅킹/영업점/고객센터 1588-9999·1599-3333)로 대체.
+- 타이틀: 주택담보대출 중도상환 신청과 수수료 계산, 면제 기간과 남은 원금 확인은? (변경 없음)
+- 구성표: 7개 은행 비교표 추가, applyUrl을 은행연합회 수수료 비교공시(commission_loan_search.php)로 변경

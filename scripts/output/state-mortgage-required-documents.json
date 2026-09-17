@@ -1,0 +1,156 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-required-documents",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "주택담보대출 비교, 어떤 쪽이 유리할까?",
+      "pattern": "②A vs B",
+      "from": [
+        "주택담보대출 비교"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "주택담보대출 계산기 거치기간부터 금액 계산 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 금액 계산 방법"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "주택담보대출 계산기 거치기간부터 신청 시기까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 신청 시기"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "주택담보대출 계산기 거치기간부터 신청 소요기간까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 신청 소요기간"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "계약직도 주택담보대출 조건?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "계약직도 주택담보대출 조건 무직?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건 무직"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "계약직도 주택담보대출 조건 및 한도?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건 및 한도"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "주택담보대출 계산기, 중도상환수수료면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출계산기",
+        "주택담보대출 중도상환수수료"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "주택담보대출 계산기, 중도상환수수료 면제면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출계산기",
+        "주택담보대출 중도상환수수료 면제"
+      ]
+    },
+    {
+      "n": 10,
+      "title": "주택담보대출 조건 및 한도, 중도상환수수료면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출 중도상환수수료"
+      ]
+    },
+    {
+      "n": 11,
+      "title": "주택담보대출 조건 및 한도, 계산기로 1분이면 끝, 놓치면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출계산기"
+      ]
+    },
+    {
+      "n": 12,
+      "title": "주택담보대출 조건 및 한도, 계산기 한도로 1분이면 끝, 서류 없으면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출 계산기 한도"
+      ]
+    }
+  ],
+  "title": "주택담보대출 필요서류 준비와 제출 기한, 등기권리증과 매매계약서, 신청 방법은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 2번)",
+  "from": [
+    "주택담보대출 필요서류",
+    "주택담보대출 등기권리증",
+    "주택담보대출 매매계약서",
+    "주택담보대출 서류 제출"
+  ],
+  "subheads": [
+    "주택담보대출 필요서류에는 무엇이 들어가나요?",
+    "서류는 언제까지 어디에 제출하나요?",
+    "등기권리증을 잃어버렸으면 어떻게 하나요?",
+    "매매계약서는 어느 시점에 내야 하나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://portal.kfb.or.kr/compare/loan_household_new.php",
+      "chars": 9655,
+      "file": "scripts/output/sources/portal-kfb-or-kr-compare-loan-household-new-php.txt"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?page=C019482&cc=b030779%3Ab030008&isNew=N&prcode=LN20001160",
+      "chars": 23451,
+      "file": "scripts/output/sources/obank-kbstar-com-quics-page-C019482-cc-b030779-3Ab030008-isNew-N-prcode-LN20001160.txt"
+    },
+    {
+      "url": "https://www.kakaobank.com/products/mortgageLoan",
+      "chars": 15007,
+      "file": "scripts/output/sources/www-kakaobank-com-products-mortgageLoan.txt"
+    },
+    {
+      "url": "https://slbukbu.scourt.go.kr/dcboard/new/DcNewsViewAction.work?seqnum=21&gubun=41&cbub_code=000213&pageIndex=98",
+      "chars": 2400,
+      "file": "scripts/output/sources/slbukbu-scourt-go-kr-dcboard-new-DcNewsViewAction-work-seqnum-21-gubun-41-cbub-code-000213-pageIndex-98.txt"
+    },
+    {
+      "url": "https://www.law.go.kr/법령/부동산등기법/제51조",
+      "chars": 6,
+      "file": "scripts/output/sources/www-law-go-kr-51.txt"
+    }
+  ]
+}

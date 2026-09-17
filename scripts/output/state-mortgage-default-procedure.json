@@ -1,0 +1,38 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-default-procedure",
+  "step": 4,
+  "candidates": [],
+  "title": "주택담보대출 미납 시 절차와 연체 이자, 경매 전 채무조정 신청 방법은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 21번)",
+  "from": [
+    "주택담보대출 미납",
+    "주택담보대출 연체 이자",
+    "주택담보대출 경매",
+    "주택담보대출 채무조정"
+  ],
+  "subheads": [
+    "주택담보대출을 미납하면 어떤 절차가 진행되나요?",
+    "연체 이자는 얼마나 붙나요?",
+    "몇 개월 밀리면 경매로 넘어가나요?",
+    "경매 전에 채무조정을 신청할 수 있나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.kakaobank.com/products/mortgageLoan",
+      "chars": 0,
+      "file": "scripts/output/sources/www-kakaobank-com-products-mortgageLoan.txt"
+    },
+    {
+      "url": "https://www.fsc.go.kr/no010101/82609",
+      "chars": 0,
+      "file": "scripts/output/sources/www-fsc-go-kr-no010101-82609.txt"
+    },
+    {
+      "url": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+      "chars": 0,
+      "file": "scripts/output/sources/ccrs-faq-all-tabs-mcp.txt"
+    }
+  ]
+}

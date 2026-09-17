@@ -1,0 +1,38 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-lien-cancellation",
+  "step": 4,
+  "candidates": [],
+  "title": "주택담보대출 상환 후 근저당 말소 신청과 등기 서류, 셀프등기 방법은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 18번)",
+  "from": [
+    "주택담보대출 상환 후 근저당 말소",
+    "근저당 말소 신청",
+    "근저당 말소 등기 서류",
+    "근저당 셀프등기"
+  ],
+  "subheads": [
+    "대출을 다 갚으면 근저당이 자동으로 말소되나요?",
+    "말소 신청은 어디에 하나요?",
+    "말소 등기에 필요한 서류는 무엇인가요?",
+    "법무사 없이 직접 할 수 있나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=566&ccfNo=4&cciNo=4&cnpClsNo=1",
+      "chars": 0,
+      "file": "scripts/output/sources/easylaw-go-kr-mortgage-lien-cancel-1.txt"
+    },
+    {
+      "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=566&ccfNo=4&cciNo=4&cnpClsNo=2",
+      "chars": 0,
+      "file": "scripts/output/sources/easylaw-go-kr-mortgage-lien-cancel-2.txt"
+    },
+    {
+      "url": "https://www.hf.go.kr/ko/sub01/sub01_07_02.do",
+      "chars": 0,
+      "file": "scripts/output/sources/www-hf-go-kr-ko-sub01-sub01-07-02-do.txt"
+    }
+  ]
+}

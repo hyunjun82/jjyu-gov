@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-fixed-vs-variable",
+  "keyword": "주택담보대출",
+  "title": "주택담보대출 고정금리와 변동금리 선택, 적용 기간과 중간 전환 신청은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 5번)",
+  "subheads": [
+    "고정금리와 변동금리 중 무엇을 고르나요?",
+    "30년 고정금리 상품도 있나요?",
+    "고정금리는 몇 년까지 적용되나요?",
+    "중간에 변동에서 고정으로 바꿀 수 있나요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-fixed-vs-variable.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-refinance",
+  "keyword": "주택담보대출",
+  "title": "주택담보대출 갈아타기 조건과 온라인 신청, 중도상환수수료와 한도 축소는?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 6번)",
+  "subheads": [
+    "갈아타기는 어떤 조건이 맞아야 되나요?",
+    "온라인으로 갈아타는 방법은 무엇인가요?",
+    "갈아탈 때 중도상환수수료를 내나요?",
+    "갈아타면 한도가 줄어드는 이유는 무엇인가요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-refinance.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}

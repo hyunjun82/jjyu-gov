@@ -1,0 +1,28 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-job-change-review",
+  "step": 4,
+  "candidates": [],
+  "title": "주택담보대출 실행 전 이직과 퇴사, 재직 확인 시점과 소득 재심사, 신청 기준은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 22번)",
+  "from": [
+    "주택담보대출 이직",
+    "주택담보대출 퇴사",
+    "주택담보대출 재직 확인",
+    "주택담보대출 소득 재심사"
+  ],
+  "subheads": [
+    "승인 후 실행 전에 이직해도 되나요?",
+    "퇴사하면 대출이 취소되나요?",
+    "재직 확인은 어느 시점에 하나요?",
+    "소득이 줄면 한도를 다시 계산하나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.kakaobank.com/products/mortgageLoan",
+      "chars": 0,
+      "file": "scripts/output/sources/www-kakaobank-com-products-mortgageLoan.txt"
+    }
+  ]
+}

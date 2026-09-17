@@ -1,4 +1,30 @@
 /* AUTO-GENERATED policy manifest */
+import { mortgageApplicationProcessPolicy, mortgageApplicationProcessSpokes } from './mortgage-application-process';
+import { mortgageRequiredDocumentsPolicy, mortgageRequiredDocumentsSpokes } from './mortgage-required-documents';
+import { mortgageLoanLimitLtvPolicy, mortgageLoanLimitLtvSpokes } from './mortgage-loan-limit-ltv';
+import { mortgageRateComparePolicy, mortgageRateCompareSpokes } from './mortgage-rate-compare';
+import { mortgageFixedVsVariablePolicy, mortgageFixedVsVariableSpokes } from './mortgage-fixed-vs-variable';
+import { mortgageRefinancePolicy, mortgageRefinanceSpokes } from './mortgage-refinance';
+import { mortgagePrepaymentPolicy, mortgagePrepaymentSpokes } from './mortgage-prepayment';
+import { mortgageRepaymentMethodPolicy, mortgageRepaymentMethodSpokes } from './mortgage-repayment-method';
+import { mortgageFirstTimeBuyerPolicy, mortgageFirstTimeBuyerSpokes } from './mortgage-first-time-buyer';
+import { mortgagePolicyLoanComparePolicy, mortgagePolicyLoanCompareSpokes } from './mortgage-policy-loan-compare';
+import { mortgageAdditionalLoanPolicy, mortgageAdditionalLoanSpokes } from './mortgage-additional-loan';
+import { mortgageIncomeProofPolicy, mortgageIncomeProofSpokes } from './mortgage-income-proof';
+import { mortgageApprovalReviewPolicy, mortgageApprovalReviewSpokes } from './mortgage-approval-review';
+import { mortgageJointOwnershipPolicy, mortgageJointOwnershipSpokes } from './mortgage-joint-ownership';
+import { mortgageMultiHomeRestrictionPolicy, mortgageMultiHomeRestrictionSpokes } from './mortgage-multi-home-restriction';
+import { mortgageTenantOccupiedPolicy, mortgageTenantOccupiedSpokes } from './mortgage-tenant-occupied';
+import { mortgageInterestDeductionPolicy, mortgageInterestDeductionSpokes } from './mortgage-interest-deduction';
+import { mortgageLienCancellationPolicy, mortgageLienCancellationSpokes } from './mortgage-lien-cancellation';
+import { mortgageDebtSuccessionPolicy, mortgageDebtSuccessionSpokes } from './mortgage-debt-succession';
+import { mortgageCovenantViolationPolicy, mortgageCovenantViolationSpokes } from './mortgage-covenant-violation';
+import { mortgageDefaultProcedurePolicy, mortgageDefaultProcedureSpokes } from './mortgage-default-procedure';
+import { mortgageJobChangeReviewPolicy, mortgageJobChangeReviewSpokes } from './mortgage-job-change-review';
+import { mortgageBankComparisonPolicy, mortgageBankComparisonSpokes } from './mortgage-bank-comparison';
+import { mortgageDsrCalculationPolicy, mortgageDsrCalculationSpokes } from './mortgage-dsr-calculation';
+import { mortgageSubscriptionSavingsLoanPolicy, mortgageSubscriptionSavingsLoanSpokes } from './mortgage-subscription-savings-loan';
+import { mortgagePersonalRehabilitationPolicy, mortgagePersonalRehabilitationSpokes } from './mortgage-personal-rehabilitation';
 import { afterSchoolChildcareFeePolicy, afterSchoolChildcareFeeSpokes } from './after-school-childcare-fee';
 import { goldPriceTodayPolicy, goldPriceTodaySpokes } from './gold-price-today';
 import { ancestorSearchPolicy, ancestorSearchSpokes } from './ancestor-search';
@@ -811,6 +837,32 @@ import { kespaCup2026Policy, kespaCup2026Spokes } from './kespa-cup-2026';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
+  '818': mortgageApplicationProcessPolicy,
+  '819': mortgageRequiredDocumentsPolicy,
+  '820': mortgageLoanLimitLtvPolicy,
+  '821': mortgageRateComparePolicy,
+  '822': mortgageFixedVsVariablePolicy,
+  '823': mortgageRefinancePolicy,
+  '824': mortgagePrepaymentPolicy,
+  '825': mortgageRepaymentMethodPolicy,
+  '826': mortgageFirstTimeBuyerPolicy,
+  '827': mortgagePolicyLoanComparePolicy,
+  '828': mortgageAdditionalLoanPolicy,
+  '829': mortgageIncomeProofPolicy,
+  '830': mortgageApprovalReviewPolicy,
+  '831': mortgageJointOwnershipPolicy,
+  '832': mortgageMultiHomeRestrictionPolicy,
+  '833': mortgageTenantOccupiedPolicy,
+  '834': mortgageInterestDeductionPolicy,
+  '835': mortgageLienCancellationPolicy,
+  '836': mortgageDebtSuccessionPolicy,
+  '837': mortgageCovenantViolationPolicy,
+  '838': mortgageDefaultProcedurePolicy,
+  '839': mortgageJobChangeReviewPolicy,
+  '840': mortgageBankComparisonPolicy,
+  '841': mortgageDsrCalculationPolicy,
+  '842': mortgageSubscriptionSavingsLoanPolicy,
+  '843': mortgagePersonalRehabilitationPolicy,
   '743': goldPriceTodayPolicy,
   '744': ancestorSearchPolicy,
   '745': pensionSavingsIrpPolicy,
@@ -1518,6 +1570,32 @@ export const PoliciesById: Record<string, any> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesBySlug: Record<string, any> = {
+  'mortgage-application-process': mortgageApplicationProcessPolicy,
+  'mortgage-required-documents': mortgageRequiredDocumentsPolicy,
+  'mortgage-loan-limit-ltv': mortgageLoanLimitLtvPolicy,
+  'mortgage-rate-compare': mortgageRateComparePolicy,
+  'mortgage-fixed-vs-variable': mortgageFixedVsVariablePolicy,
+  'mortgage-refinance': mortgageRefinancePolicy,
+  'mortgage-prepayment': mortgagePrepaymentPolicy,
+  'mortgage-repayment-method': mortgageRepaymentMethodPolicy,
+  'mortgage-first-time-buyer': mortgageFirstTimeBuyerPolicy,
+  'mortgage-policy-loan-compare': mortgagePolicyLoanComparePolicy,
+  'mortgage-additional-loan': mortgageAdditionalLoanPolicy,
+  'mortgage-income-proof': mortgageIncomeProofPolicy,
+  'mortgage-approval-review': mortgageApprovalReviewPolicy,
+  'mortgage-joint-ownership': mortgageJointOwnershipPolicy,
+  'mortgage-multi-home-restriction': mortgageMultiHomeRestrictionPolicy,
+  'mortgage-tenant-occupied': mortgageTenantOccupiedPolicy,
+  'mortgage-interest-deduction': mortgageInterestDeductionPolicy,
+  'mortgage-lien-cancellation': mortgageLienCancellationPolicy,
+  'mortgage-debt-succession': mortgageDebtSuccessionPolicy,
+  'mortgage-covenant-violation': mortgageCovenantViolationPolicy,
+  'mortgage-default-procedure': mortgageDefaultProcedurePolicy,
+  'mortgage-job-change-review': mortgageJobChangeReviewPolicy,
+  'mortgage-bank-comparison': mortgageBankComparisonPolicy,
+  'mortgage-dsr-calculation': mortgageDsrCalculationPolicy,
+  'mortgage-subscription-savings-loan': mortgageSubscriptionSavingsLoanPolicy,
+  'mortgage-personal-rehabilitation': mortgagePersonalRehabilitationPolicy,
   'gold-price-today': goldPriceTodayPolicy,
   'ancestor-search': ancestorSearchPolicy,
   'pension-savings-irp': pensionSavingsIrpPolicy,
@@ -2330,6 +2408,32 @@ export const PoliciesBySlug: Record<string, any> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesById: Record<string, any[]> = {
+  '818': mortgageApplicationProcessSpokes,
+  '819': mortgageRequiredDocumentsSpokes,
+  '820': mortgageLoanLimitLtvSpokes,
+  '821': mortgageRateCompareSpokes,
+  '822': mortgageFixedVsVariableSpokes,
+  '823': mortgageRefinanceSpokes,
+  '824': mortgagePrepaymentSpokes,
+  '825': mortgageRepaymentMethodSpokes,
+  '826': mortgageFirstTimeBuyerSpokes,
+  '827': mortgagePolicyLoanCompareSpokes,
+  '828': mortgageAdditionalLoanSpokes,
+  '829': mortgageIncomeProofSpokes,
+  '830': mortgageApprovalReviewSpokes,
+  '831': mortgageJointOwnershipSpokes,
+  '832': mortgageMultiHomeRestrictionSpokes,
+  '833': mortgageTenantOccupiedSpokes,
+  '834': mortgageInterestDeductionSpokes,
+  '835': mortgageLienCancellationSpokes,
+  '836': mortgageDebtSuccessionSpokes,
+  '837': mortgageCovenantViolationSpokes,
+  '838': mortgageDefaultProcedureSpokes,
+  '839': mortgageJobChangeReviewSpokes,
+  '840': mortgageBankComparisonSpokes,
+  '841': mortgageDsrCalculationSpokes,
+  '842': mortgageSubscriptionSavingsLoanSpokes,
+  '843': mortgagePersonalRehabilitationSpokes,
   '743': goldPriceTodaySpokes,
   '744': ancestorSearchSpokes,
   '745': pensionSavingsIrpSpokes,
@@ -3037,6 +3141,32 @@ export const SpokesById: Record<string, any[]> = {
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const SpokesBySlug: Record<string, any[]> = {
+  'mortgage-application-process': mortgageApplicationProcessSpokes,
+  'mortgage-required-documents': mortgageRequiredDocumentsSpokes,
+  'mortgage-loan-limit-ltv': mortgageLoanLimitLtvSpokes,
+  'mortgage-rate-compare': mortgageRateCompareSpokes,
+  'mortgage-fixed-vs-variable': mortgageFixedVsVariableSpokes,
+  'mortgage-refinance': mortgageRefinanceSpokes,
+  'mortgage-prepayment': mortgagePrepaymentSpokes,
+  'mortgage-repayment-method': mortgageRepaymentMethodSpokes,
+  'mortgage-first-time-buyer': mortgageFirstTimeBuyerSpokes,
+  'mortgage-policy-loan-compare': mortgagePolicyLoanCompareSpokes,
+  'mortgage-additional-loan': mortgageAdditionalLoanSpokes,
+  'mortgage-income-proof': mortgageIncomeProofSpokes,
+  'mortgage-approval-review': mortgageApprovalReviewSpokes,
+  'mortgage-joint-ownership': mortgageJointOwnershipSpokes,
+  'mortgage-multi-home-restriction': mortgageMultiHomeRestrictionSpokes,
+  'mortgage-tenant-occupied': mortgageTenantOccupiedSpokes,
+  'mortgage-interest-deduction': mortgageInterestDeductionSpokes,
+  'mortgage-lien-cancellation': mortgageLienCancellationSpokes,
+  'mortgage-debt-succession': mortgageDebtSuccessionSpokes,
+  'mortgage-covenant-violation': mortgageCovenantViolationSpokes,
+  'mortgage-default-procedure': mortgageDefaultProcedureSpokes,
+  'mortgage-job-change-review': mortgageJobChangeReviewSpokes,
+  'mortgage-bank-comparison': mortgageBankComparisonSpokes,
+  'mortgage-dsr-calculation': mortgageDsrCalculationSpokes,
+  'mortgage-subscription-savings-loan': mortgageSubscriptionSavingsLoanSpokes,
+  'mortgage-personal-rehabilitation': mortgagePersonalRehabilitationSpokes,
   'gold-price-today': goldPriceTodaySpokes,
   'ancestor-search': ancestorSearchSpokes,
   'pension-savings-irp': pensionSavingsIrpSpokes,

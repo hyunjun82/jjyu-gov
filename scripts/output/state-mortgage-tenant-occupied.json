@@ -1,0 +1,33 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-tenant-occupied",
+  "step": 4,
+  "candidates": [],
+  "title": "전세 낀 집 주택담보대출 신청과 임차인 동의, 전세금 반환 조건은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 16번)",
+  "from": [
+    "전세 낀 집 주택담보대출",
+    "주택담보대출 임차인 동의",
+    "전세금 반환 주택담보대출",
+    "주택담보대출 세입자"
+  ],
+  "subheads": [
+    "전세를 끼고도 주택담보대출이 되나요?",
+    "임차인이 있으면 동의를 받아야 하나요?",
+    "전세금 반환 목적으로도 신청되나요?",
+    "실행일에 세입자가 나가 있어야 하나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.kakaobank.com/products/mortgageLoan",
+      "chars": 0,
+      "file": "scripts/output/sources/www-kakaobank-com-products-mortgageLoan.txt"
+    },
+    {
+      "url": "https://obank.kbstar.com/quics?page=C019482",
+      "chars": 0,
+      "file": "scripts/output/sources/obank-kbstar-com-quics-page-C019482-cc-b030779-3Ab030008-isNew-N-prcode-LN20001160.txt"
+    }
+  ]
+}

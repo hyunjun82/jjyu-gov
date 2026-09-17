@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-income-proof",
+  "keyword": "주택담보대출",
+  "title": "무직자 주택담보대출 신청과 소득 증빙, 주부와 고령자 나이 기준은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 12번)",
+  "subheads": [
+    "무직자도 주택담보대출을 신청할 수 있나요?",
+    "소득은 어떤 서류로 증빙하나요?",
+    "주부는 소득을 어떻게 인정받나요?",
+    "고령자는 몇 살까지 받을 수 있나요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-income-proof.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}

@@ -1,0 +1,38 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-debt-succession",
+  "step": 4,
+  "candidates": [],
+  "title": "주택담보대출 승계 신청과 명의 변경 방법, 자녀 증여와 상속 시 처리는?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 19번)",
+  "from": [
+    "주택담보대출 승계",
+    "주택담보대출 명의 변경",
+    "주택담보대출 증여",
+    "주택담보대출 상속"
+  ],
+  "subheads": [
+    "집을 팔 때 대출을 승계할 수 있나요?",
+    "명의 변경은 은행 동의가 필요한가요?",
+    "대출 낀 집을 자녀에게 증여할 수 있나요?",
+    "상속받은 집의 대출은 누가 갚나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.hf.go.kr/ko/sub01/sub01_08_01.do",
+      "chars": 0,
+      "file": "scripts/output/sources/www-hf-go-kr-ko-sub01-sub01-08-01-do.txt"
+    },
+    {
+      "url": "https://www.hf.go.kr/ko/sub01/sub01_08_02.do",
+      "chars": 0,
+      "file": "scripts/output/sources/www-hf-go-kr-ko-sub01-sub01-08-02-do.txt"
+    },
+    {
+      "url": "https://www.hf.go.kr/ko/sub01/sub01_08_03.do",
+      "chars": 0,
+      "file": "scripts/output/sources/www-hf-go-kr-ko-sub01-sub01-08-03-do.txt"
+    }
+  ]
+}

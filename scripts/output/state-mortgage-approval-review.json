@@ -1,0 +1,151 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-approval-review",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "주택담보대출 비교, 어떤 쪽이 유리할까?",
+      "pattern": "②A vs B",
+      "from": [
+        "주택담보대출 비교"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "주택담보대출 계산기 거치기간부터 금액 계산 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 금액 계산 방법"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "주택담보대출 계산기 거치기간부터 신청 시기까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 신청 시기"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "주택담보대출 계산기 거치기간부터 신청 소요기간까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 신청 소요기간"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "계약직도 주택담보대출 조건?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "계약직도 주택담보대출 조건 무직?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건 무직"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "계약직도 주택담보대출 조건 및 한도?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건 및 한도"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "주택담보대출 계산기, 중도상환수수료면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출계산기",
+        "주택담보대출 중도상환수수료"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "주택담보대출 계산기, 중도상환수수료 면제면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출계산기",
+        "주택담보대출 중도상환수수료 면제"
+      ]
+    },
+    {
+      "n": 10,
+      "title": "주택담보대출 조건 및 한도, 중도상환수수료면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출 중도상환수수료"
+      ]
+    },
+    {
+      "n": 11,
+      "title": "주택담보대출 조건 및 한도, 계산기로 1분이면 끝, 놓치면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출계산기"
+      ]
+    },
+    {
+      "n": 12,
+      "title": "주택담보대출 조건 및 한도, 계산기 한도로 1분이면 끝, 서류 없으면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출 계산기 한도"
+      ]
+    }
+  ],
+  "title": "주택담보대출 심사 기간과 신용점수 조회, 반려 사유와 재신청 방법은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 13번)",
+  "from": [
+    "주택담보대출 심사기간",
+    "주택담보대출 신용점수",
+    "주택담보대출 반려",
+    "주택담보대출 재신청"
+  ],
+  "subheads": [
+    "주택담보대출 심사는 며칠 걸리나요?",
+    "신용점수는 몇 점부터 통과되나요?",
+    "심사에서 반려되는 사유는 무엇인가요?",
+    "부결된 뒤 다시 신청하려면 어떻게 하나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://portal.kfb.or.kr/compare/loan_household_new.php",
+      "chars": 9655,
+      "file": "scripts/output/sources/portal-kfb-or-kr-compare-loan-household-new-php.txt"
+    },
+    {
+      "url": "https://finlife.fss.or.kr/finlife/ldng/houseMrtg/list.do?menuNo=700007",
+      "chars": 19146,
+      "file": "scripts/output/sources/finlife-fss-or-kr-finlife-ldng-houseMrtg-list-do-menuNo-700007.txt"
+    },
+    {
+      "url": "https://www.fsc.go.kr/no010101/81421",
+      "chars": 15294,
+      "file": "scripts/output/sources/www-fsc-go-kr-no010101-81421.txt"
+    },
+    {
+      "url": "https://www.kakaobank.com/products/mortgageLoan",
+      "chars": 15007,
+      "file": "scripts/output/sources/www-kakaobank-com-products-mortgageLoan.txt"
+    }
+  ]
+}

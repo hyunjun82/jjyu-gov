@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-joint-ownership",
+  "keyword": "주택담보대출",
+  "title": "공동명의 주택담보대출 신청과 배우자 동의, 지분 비율과 한도 계산은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 14번)",
+  "subheads": [
+    "부부 공동명의로도 주택담보대출이 되나요?",
+    "배우자 동의 없이 진행되나요?",
+    "지분은 어떤 비율로 잡나요?",
+    "공동명의면 한도가 더 나오나요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-joint-ownership.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}

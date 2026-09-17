@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-multi-home-restriction",
+  "keyword": "주택담보대출",
+  "title": "2주택 주택담보대출 제한과 규제지역 한도, 생활안정자금 신청과 총량제는?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 15번)",
+  "subheads": [
+    "1가구 2주택이면 주택담보대출이 막히나요?",
+    "규제지역에서는 한도가 얼마나 줄어드나요?",
+    "다주택자는 생활안정자금으로 신청하나요?",
+    "총량제 때문에 실행이 밀리기도 하나요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-multi-home-restriction.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}

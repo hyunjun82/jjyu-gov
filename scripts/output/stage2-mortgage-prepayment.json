@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-prepayment",
+  "keyword": "주택담보대출",
+  "title": "주택담보대출 중도상환 신청과 수수료 계산, 면제 기간과 남은 원금 확인은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 7번)",
+  "subheads": [
+    "중도상환은 어디에 어떻게 신청하나요?",
+    "중도상환수수료는 어떻게 계산되나요?",
+    "수수료가 사라지는 기간은 언제부터인가요?",
+    "남은 원금은 어디서 확인하나요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-prepayment.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}

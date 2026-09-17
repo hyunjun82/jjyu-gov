@@ -1,0 +1,38 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-covenant-violation",
+  "step": 4,
+  "candidates": [],
+  "title": "주택담보대출 유지 중 매도와 월세 전환, 전입 신고와 약정 위반, 해지 기준은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 20번)",
+  "from": [
+    "주택담보대출 매도",
+    "주택담보대출 월세 전환",
+    "주택담보대출 전입 신고",
+    "주택담보대출 약정 위반"
+  ],
+  "subheads": [
+    "대출이 남은 집을 팔 수 있나요?",
+    "살지 않고 월세로 내놓아도 되나요?",
+    "동거인이 전입하면 문제가 되나요?",
+    "약정을 어기면 대출금을 바로 갚아야 하나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.kakaobank.com/products/mortgageLoan",
+      "chars": 0,
+      "file": "scripts/output/sources/www-kakaobank-com-products-mortgageLoan.txt"
+    },
+    {
+      "url": "https://www.fsc.go.kr/no010101/84824",
+      "chars": 0,
+      "file": "scripts/output/sources/www-fsc-go-kr-no010101-84824.txt"
+    },
+    {
+      "url": "https://www.myhome.go.kr/hws/portal/cont/selectSteppingStoneLoanView.do",
+      "chars": 0,
+      "file": "scripts/output/sources/www-myhome-go-kr-hws-portal-cont-selectSteppingStoneLoanView-do.txt"
+    }
+  ]
+}

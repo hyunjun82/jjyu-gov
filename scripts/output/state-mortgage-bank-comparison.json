@@ -1,0 +1,33 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-bank-comparison",
+  "step": 4,
+  "candidates": [],
+  "title": "카카오뱅크와 케이뱅크 주택담보대출 신청, 비대면 심사와 한도 조회는?",
+  "pattern": "B. 비교 (사장님 확정, 26편 세트 23번)",
+  "from": [
+    "카카오뱅크 주택담보대출",
+    "케이뱅크 주택담보대출",
+    "비대면 주택담보대출 심사",
+    "주택담보대출 한도 조회"
+  ],
+  "subheads": [
+    "카카오뱅크 주택담보대출은 어떻게 신청하나요?",
+    "케이뱅크와는 무엇이 다른가요?",
+    "비대면 심사는 얼마나 걸리나요?",
+    "조회만 해도 한도가 나오나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.kakaobank.com/products/mortgageLoan",
+      "chars": 0,
+      "file": "scripts/output/sources/www-kakaobank-com-products-mortgageLoan.txt"
+    },
+    {
+      "url": "https://www.kbanknow.com/k/sAySEh8",
+      "chars": 0,
+      "file": "scripts/output/sources/www-kbanknow-com-apt-mortgage.txt"
+    }
+  ]
+}

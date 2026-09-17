@@ -1,0 +1,156 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-policy-loan-compare",
+  "step": 4,
+  "candidates": [
+    {
+      "n": 1,
+      "title": "주택담보대출 비교, 어떤 쪽이 유리할까?",
+      "pattern": "②A vs B",
+      "from": [
+        "주택담보대출 비교"
+      ]
+    },
+    {
+      "n": 2,
+      "title": "주택담보대출 계산기 거치기간부터 금액 계산 방법까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 금액 계산 방법"
+      ]
+    },
+    {
+      "n": 3,
+      "title": "주택담보대출 계산기 거치기간부터 신청 시기까지, 늦으면 손해",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 신청 시기"
+      ]
+    },
+    {
+      "n": 4,
+      "title": "주택담보대출 계산기 거치기간부터 신청 소요기간까지, 놓치면 헛걸음",
+      "pattern": "③절차 묶음",
+      "from": [
+        "주택담보대출 계산기 거치기간",
+        "주택담보대출 신청 소요기간"
+      ]
+    },
+    {
+      "n": 5,
+      "title": "계약직도 주택담보대출 조건?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건"
+      ]
+    },
+    {
+      "n": 6,
+      "title": "계약직도 주택담보대출 조건 무직?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건 무직"
+      ]
+    },
+    {
+      "n": 7,
+      "title": "계약직도 주택담보대출 조건 및 한도?",
+      "pattern": "④자기대입",
+      "from": [
+        "주택담보대출 계약직",
+        "주택담보대출 조건 및 한도"
+      ]
+    },
+    {
+      "n": 8,
+      "title": "주택담보대출 계산기, 중도상환수수료면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출계산기",
+        "주택담보대출 중도상환수수료"
+      ]
+    },
+    {
+      "n": 9,
+      "title": "주택담보대출 계산기, 중도상환수수료 면제면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출계산기",
+        "주택담보대출 중도상환수수료 면제"
+      ]
+    },
+    {
+      "n": 10,
+      "title": "주택담보대출 조건 및 한도, 중도상환수수료면 얼마나 줄어드나",
+      "pattern": "⑤손실 계산",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출 중도상환수수료"
+      ]
+    },
+    {
+      "n": 11,
+      "title": "주택담보대출 조건 및 한도, 계산기로 1분이면 끝, 놓치면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출계산기"
+      ]
+    },
+    {
+      "n": 12,
+      "title": "주택담보대출 조건 및 한도, 계산기 한도로 1분이면 끝, 서류 없으면 헛걸음",
+      "pattern": "⑦도구로 끝",
+      "from": [
+        "주택담보대출 조건 및 한도",
+        "주택담보대출 계산기 한도"
+      ]
+    }
+  ],
+  "title": "주택담보대출 보금자리론과 디딤돌 조건, 신생아 특례와 중복 신청 방법은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 10번)",
+  "from": [
+    "보금자리론 조건",
+    "디딤돌대출 조건",
+    "신생아특례대출",
+    "디딤돌 보금자리론 차이"
+  ],
+  "subheads": [
+    "보금자리론은 어떤 조건에서 신청하나요?",
+    "디딤돌대출과는 무엇이 다른가요?",
+    "신생아 특례로 갈아탈 수 있나요?",
+    "일반 주택담보대출과 같이 쓸 수 있나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://portal.kfb.or.kr/compare/loan_household_new.php",
+      "chars": 9655,
+      "file": "scripts/output/sources/portal-kfb-or-kr-compare-loan-household-new-php.txt"
+    },
+    {
+      "url": "https://www.myhome.go.kr/hws/portal/cont/selectBabySpecialCaseStepStoneLoneView.do",
+      "chars": 15023,
+      "file": "scripts/output/sources/www-myhome-go-kr-hws-portal-cont-selectBabySpecialCaseStepStoneLoneView-do.txt"
+    },
+    {
+      "url": "https://www.hf.go.kr/ko/sub01/sub01_01_01.do",
+      "chars": 26201,
+      "file": "scripts/output/sources/www-hf-go-kr-ko-sub01-sub01-01-01-do.txt"
+    },
+    {
+      "url": "https://www.hf.go.kr/ko/sub01/sub01_01_04.do",
+      "chars": 24497,
+      "file": "scripts/output/sources/www-hf-go-kr-ko-sub01-sub01-01-04-do.txt"
+    },
+    {
+      "url": "https://www.myhome.go.kr/hws/portal/cont/selectSteppingStoneLoanView.do",
+      "chars": 14084,
+      "file": "scripts/output/sources/www-myhome-go-kr-hws-portal-cont-selectSteppingStoneLoanView-do.txt"
+    }
+  ]
+}

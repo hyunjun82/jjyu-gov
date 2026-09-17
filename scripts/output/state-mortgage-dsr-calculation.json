@@ -1,0 +1,33 @@
+{
+  "keyword": "주택담보대출",
+  "slug": "mortgage-dsr-calculation",
+  "step": 4,
+  "candidates": [],
+  "title": "주택담보대출 DSR 계산과 기대출 합산, 부부 소득과 장래소득 적용, 조회 방법은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 24번)",
+  "from": [
+    "주택담보대출 DSR 계산",
+    "주택담보대출 기대출 합산",
+    "주택담보대출 부부 소득",
+    "주택담보대출 장래소득"
+  ],
+  "subheads": [
+    "DSR은 어떻게 계산하나요?",
+    "기존 대출도 DSR에 모두 합산되나요?",
+    "부부 소득을 합치면 한도가 늘어나나요?",
+    "청년 장래소득은 어떻게 적용하나요?"
+  ],
+  "approvedAt": "2026-09-17",
+  "sources": [
+    {
+      "url": "https://www.fsc.go.kr/po020201/27351",
+      "chars": 0,
+      "file": "scripts/output/sources/www-fsc-go-kr-po020201-27351.txt"
+    },
+    {
+      "url": "https://www.law.go.kr/LSW//flDownload.do?flSeq=148447123",
+      "chars": 0,
+      "file": "scripts/output/sources/www-law-go-kr-LSW-flDownload-do-flSeq-148447123-flNm-5B-EB-B3-84-ED-91-9C-9-5D-EC-A3-BC-ED-83-9D-EA-B4-80-EB-A0-A8-EB-8B.txt"
+    }
+  ]
+}

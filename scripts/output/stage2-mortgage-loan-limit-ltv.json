@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-loan-limit-ltv",
+  "keyword": "주택담보대출",
+  "title": "주택담보대출 한도 계산과 LTV 확인, 방공제 금액과 면제 신청은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 3번)",
+  "subheads": [
+    "한도는 계산기로 어떻게 계산하나요?",
+    "LTV 비율은 지역마다 어떻게 다른가요?",
+    "방공제로 얼마가 빠지나요?",
+    "방공제 면제는 어떻게 신청하나요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-loan-limit-ltv.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}

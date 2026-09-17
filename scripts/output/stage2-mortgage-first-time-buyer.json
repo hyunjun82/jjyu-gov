@@ -1,0 +1,15 @@
+{
+  "slug": "mortgage-first-time-buyer",
+  "keyword": "주택담보대출",
+  "title": "생애최초 주택담보대출 조건과 LTV 80%, 신혼부부 혼인신고 시기, 신청 방법은?",
+  "pattern": "C. 신청·절차 (사장님 확정, 26편 세트 9번)",
+  "subheads": [
+    "생애최초 조건은 어떻게 되나요?",
+    "LTV 80%는 어떤 경우에 적용되나요?",
+    "신혼부부는 어떤 혜택을 더 받나요?",
+    "혼인신고를 언제 하느냐로 달라지나요?"
+  ],
+  "outline": "scripts/output/outline-mortgage-first-time-buyer.md",
+  "approved": true,
+  "approvedAt": "2026-09-17"
+}
