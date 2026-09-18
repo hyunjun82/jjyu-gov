@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-lost-reissue",
+  "keyword": "내일배움카드 분실 재발급",
+  "pattern": "사장님 직접 확정(14~26편 세트 22번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "내일배움카드를 잃어버리면 어디에 신고하나요?",
+    "재발급은 어떻게 신청하나요?",
+    "카드사 재전송은 무엇을 말하나요?",
+    "카드 명의가 다르면 쓸 수 있나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-lost-reissue.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트(14~26)를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

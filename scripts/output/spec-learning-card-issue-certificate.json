@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-issue-certificate",
+  "policyDir": "내일배움카드",
+  "fileName": "발급확인서출력",
+  "hubSlug": "learning-card",
+  "role": "howto",
+  "h1": "내일배움카드 발급확인서 발급과 출력 방법, 신청 내역 조회와 제출처",
+  "breadcrumb": "발급확인서·내역 조회",
+  "description": "국민내일배움카드 발급확인서를 고용24에서 발급받고 출력하는 경로와 지난 신청 내역을 조회하는 화면, 발급확인서를 지참해야 하는 곳",
+  "sourceFile": "scripts/output/source-learning-card-certificate-faq.txt",
+  "sourceName": "고용24 — 자주하는 질문(발급확인서·카드 분실)",
+  "sourceUrl": "https://www.work24.go.kr/cm/c/a/0130/selectBbttInfo.do?ntceStno=346&bbsClCd=VJQMx%2Fa2p6AfqLQqwR8sSQ%3D%3D&currentPageNo=1&recordCountPerPage=10&bbsUrl=%2Fc%2Fa%2F0130%2FselectBbttListPost.do",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "내일배움카드 발급확인서는 어디서 뽑나요?",
+    "출력은 어떤 방식으로 하나요?",
+    "지난 신청 내역은 어디서 조회하나요?",
+    "발급확인서는 어디에 제출하나요?"
+  ],
+  "faq": [
+    "발급확인서가 출력이 안 되면 어떻게 하나요?",
+    "카드가 아직 안 왔는데 발급확인서부터 뽑아도 되나요?"
+  ]
+}

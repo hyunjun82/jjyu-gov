@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-after-completion",
+  "policyDir": "내일배움카드",
+  "fileName": "수료후취업연계",
+  "hubSlug": "learning-card",
+  "role": "howto",
+  "h1": "내일배움카드 수료 후 취업 연계와 지원, 취업률 확인과 다음 과정 신청",
+  "breadcrumb": "수료 후 취업·다음 과정",
+  "description": "국민내일배움카드 훈련을 수료한 뒤 훈련기관이 제공해야 하는 취업 지원과 고용센터 연계, 훈련기관 취업률을 확인하는 화면과 다음 과정을 신청할 때 걸리는 조건",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제40조·제41조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "훈련을 수료하면 취업을 연계해 주나요?",
+    "취업 지원은 어떤 방식으로 이뤄지나요?",
+    "훈련기관 취업률은 어디서 확인하나요?",
+    "수료 후 다른 과정을 또 신청할 수 있나요?"
+  ],
+  "faq": [
+    "아르바이트를 해도 취업한 것으로 잡히나요?",
+    "취업률이 해당없음으로 나오는 과정은 왜 그런가요?"
+  ]
+}

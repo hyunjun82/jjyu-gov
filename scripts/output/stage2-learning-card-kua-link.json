@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-kua-link",
+  "keyword": "국민취업지원제도 내일배움카드",
+  "pattern": "사장님 직접 확정(14~26편 세트 20번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "국민취업지원제도와 내일배움카드는 어떻게 연결되나요?",
+    "둘 중 무엇을 먼저 신청하나요?",
+    "1유형은 훈련을 반드시 들어야 하나요?",
+    "국취제 수당과 훈련장려금은 다른 돈인가요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-kua-link.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트(14~26)를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

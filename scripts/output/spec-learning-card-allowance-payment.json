@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-allowance-payment",
+  "policyDir": "내일배움카드",
+  "fileName": "훈련장려금지급일",
+  "hubSlug": "learning-card",
+  "role": "benefit",
+  "h1": "내일배움카드 훈련장려금 신청과 지급 조건, 지급일과 출석 연동",
+  "breadcrumb": "훈련장려금 지급일",
+  "description": "국민내일배움카드 훈련장려금을 따로 신청해야 하는지와 지급 대상 요건, 단위기간 마감부터 입금까지 걸리는 기간, 출석률과 연동되는 방식",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제49조·제50조·제53조·제54조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "훈련장려금은 따로 신청해야 하나요?",
+    "장려금 지급 조건은 어떻게 되나요?",
+    "언제쯤 입금되나요?",
+    "출석률이 모자라면 못 받나요?"
+  ],
+  "faq": [
+    "훈련장려금은 누가 지급하나요?",
+    "장려금에 붙는 끝수는 어떻게 처리되나요?"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-after-completion",
+  "keyword": "내일배움카드 수료 후 취업",
+  "pattern": "사장님 직접 확정(14~26편 세트 26번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "훈련을 수료하면 취업을 연계해 주나요?",
+    "취업 지원은 어떤 방식으로 이뤄지나요?",
+    "훈련기관 취업률은 어디서 확인하나요?",
+    "수료 후 다른 과정을 또 신청할 수 있나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-after-completion.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트(14~26)를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-allowance-payment",
+  "keyword": "내일배움카드 훈련장려금",
+  "pattern": "사장님 직접 확정(14~26편 세트 14번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "훈련장려금은 따로 신청해야 하나요?",
+    "장려금 지급 조건은 어떻게 되나요?",
+    "언제쯤 입금되나요?",
+    "출석률이 모자라면 못 받나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-allowance-payment.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트(14~26)를 채팅으로 직접 확정하고 그대로 작성하라고 지시함. 신청·조회·발급 소제목에는 딥링크 버튼을 달라는 지시 포함"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-after-resignation",
+  "policyDir": "내일배움카드",
+  "fileName": "퇴사후신청상실신고",
+  "hubSlug": "learning-card",
+  "role": "apply",
+  "h1": "퇴사 후 내일배움카드 신청과 상실신고, 퇴직증명서와 유형 변경",
+  "breadcrumb": "퇴사 후 신청·상실신고",
+  "description": "퇴사한 뒤 국민내일배움카드를 신청할 수 있는 시점과 고용보험 상실신고의 관계, 퇴직증명서 제출 여부와 재직자·실업자 유형 구분",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제4조·제6조·제7조·제49조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "퇴사한 뒤에 내일배움카드를 신청해도 되나요?",
+    "고용보험 상실신고가 끝나야 하나요?",
+    "퇴직증명서를 내야 하나요?",
+    "재직자에서 실업자로 유형이 바뀌나요?"
+  ],
+  "faq": [
+    "퇴사 전에 미리 발급받아 두면 어떤가요?",
+    "퇴사하면 훈련장려금 대상이 되나요?"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-part-time-job",
+  "policyDir": "내일배움카드",
+  "fileName": "알바병행훈련중근무",
+  "hubSlug": "learning-card",
+  "role": "overlap",
+  "h1": "내일배움카드 알바 병행과 훈련 중 근무, 단기 알바와 고용보험 가입",
+  "breadcrumb": "알바 병행·훈련 중 근무",
+  "description": "국민내일배움카드 훈련을 들으면서 알바를 해도 되는지와 근무 시간 제한 여부, 개강 전 단기 알바, 고용보험 가입이 훈련장려금과 수강 자격에 미치는 영향",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제4조·제8조·제35조·제49조·제50조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "내일배움카드를 받고 알바를 해도 되나요?",
+    "훈련 중 근무 시간에 제한이 있나요?",
+    "개강 전 단기 알바는 괜찮나요?",
+    "알바로 고용보험에 가입되면 어떻게 되나요?"
+  ],
+  "faq": [
+    "일용직으로 일하면 훈련장려금이 끊기나요?",
+    "알바 소득이 많으면 카드 발급이 막히나요?"
+  ]
+}

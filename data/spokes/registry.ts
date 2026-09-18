@@ -1853,6 +1853,19 @@ import { 내일배움카드자격증과정학원등록SpokeContent } from '@/app
 import { 내일배움카드온라인인강원격과정SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/온라인인강원격과정';
 import { 내일배움카드출석률지각조퇴SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/출석률지각조퇴';
 import { 내일배움카드병결진료확인서SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/병결진료확인서';
+import { 내일배움카드훈련장려금지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/훈련장려금지급일';
+import { 내일배움카드재직자근로시간기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/재직자근로시간기준';
+import { 내일배움카드알바병행훈련중근무SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/알바병행훈련중근무';
+import { 내일배움카드퇴사후신청상실신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/퇴사후신청상실신고';
+import { 내일배움카드대학생수업연한휴학SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/대학생수업연한휴학';
+import { 내일배움카드실업급여중신청구직활동SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/실업급여중신청구직활동';
+import { 내일배움카드국취제연계신청순서SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/국취제연계신청순서';
+import { 내일배움카드유효기간만료갱신SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/유효기간만료갱신';
+import { 내일배움카드분실신고재발급SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/분실신고재발급';
+import { 내일배움카드재수강동일과정SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/재수강동일과정';
+import { 내일배움카드신청오류전산상담SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/신청오류전산상담';
+import { 내일배움카드발급확인서출력SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/발급확인서출력';
+import { 내일배움카드수료후취업연계SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/수료후취업연계';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'four-insurance-workplace-establishment': {
@@ -2347,6 +2360,19 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'learning-card': {
+    'learning-card-after-completion': 내일배움카드수료후취업연계SpokeContent,
+    'learning-card-issue-certificate': 내일배움카드발급확인서출력SpokeContent,
+    'learning-card-apply-error': 내일배움카드신청오류전산상담SpokeContent,
+    'learning-card-retake': 내일배움카드재수강동일과정SpokeContent,
+    'learning-card-lost-reissue': 내일배움카드분실신고재발급SpokeContent,
+    'learning-card-expiry-renewal': 내일배움카드유효기간만료갱신SpokeContent,
+    'learning-card-kua-link': 내일배움카드국취제연계신청순서SpokeContent,
+    'learning-card-unemployment-benefit': 내일배움카드실업급여중신청구직활동SpokeContent,
+    'learning-card-university-student': 내일배움카드대학생수업연한휴학SpokeContent,
+    'learning-card-after-resignation': 내일배움카드퇴사후신청상실신고SpokeContent,
+    'learning-card-part-time-job': 내일배움카드알바병행훈련중근무SpokeContent,
+    'learning-card-employed-worker': 내일배움카드재직자근로시간기준SpokeContent,
+    'learning-card-allowance-payment': 내일배움카드훈련장려금지급일SpokeContent,
     'learning-card-sick-leave': 내일배움카드병결진료확인서SpokeContent,
     'learning-card-attendance-rule': 내일배움카드출석률지각조퇴SpokeContent,
     'learning-card-online-course': 내일배움카드온라인인강원격과정SpokeContent,

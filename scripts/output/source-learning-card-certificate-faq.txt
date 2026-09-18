@@ -1,0 +1,45 @@
+SLUG: learning-card-certificate-faq
+RECEIVED: 2026-09-18
+CAPTURED-BY: playwright (고용24 고객센터 자주하는 질문 상세 2건 + 기관찾기 탭 확인)
+
+===== [1] 자주하는 질문 346번 — [전자지갑] 국민내일배움카드 발급확인서는 어디서 받을 수 있나요? =====
+URL: https://www.work24.go.kr/cm/c/a/0130/selectBbttInfo.do?ntceStno=346&bbsClCd=VJQMx%2Fa2p6AfqLQqwR8sSQ%3D%3D&currentPageNo=1&recordCountPerPage=10&bbsUrl=%2Fc%2Fa%2F0130%2FselectBbttListPost.do
+구분: 공통 / 등록일: 2025-04-25
+
+답변(원문 그대로):
+고용24 웹사이트 또는 모바일 앱에서 다음 경로를 따라 발급받을 수 있습니다.
+※ 로그인 → 고용24 홈페이지 → 전체메뉴 → 마이페이지 → 내 전자지갑 → 고용24 전자지갑
+   → 국민내일배움카드 확인서 발급신청
+
+===== [2] 자주하는 질문 115번 — (국민내일배움카드) 카드를 분실했는데 어떻게 해야하나요? =====
+URL: https://www.work24.go.kr/cm/c/a/0130/selectBbttInfo.do?ntceStno=115&bbsClCd=VJQMx%2Fa2p6AfqLQqwR8sSQ%3D%3D&currentPageNo=1&recordCountPerPage=10&bbsUrl=%2Fc%2Fa%2F0130%2FselectBbttListPost.do
+구분: 국민내일배움카드 / 등록일: 2023-09-25
+
+답변(원문 그대로):
+카드를 분실하신 경우 일반적인 신용/체크카드 분실 시와 동일하게 카드사로부터 재발급 받으시면 됩니다.
+재발급 신청은 해당 카드사 홈페이지/모바일앱 이용하시거나 카드사 고객센터 문의 부탁드립니다.
+ㅇ 농협(☎1644-4000, https://card.nonghyup.com)
+ㅇ 신한(☎1544-7000, https://www.shinhancard.com)
+카드영업점(은행) 방문하여 재발급 하시려는 경우, 아래 메뉴에서 [발급확인서] 출력하시어
+방문하시기 바랍니다.
+ㅇ 마이페이지 > 훈련관리 > 국민내일배움카드 > [발급확인서] 클릭
+   (바로가기 → /hr/h/a/4110/selectCardRequestList.do)
+ㅇ 카드영업점(은행) 검색 : 고용24 > 고객센터 > 기관찾기 > [훈련지원기관] 탭
+   (바로가기 → /cm/c/d/0190/retrieveInstSrchLst.do?tabNo=3)
+※ 발급확인서 출력이 어려우신 경우, 스마트폰 HRD-Net 앱 화면 제시로 대체 가능합니다.
+ㅇ 스마트폰 고용24 앱 로그인 > 마이페이지 > 나의 전자지갑 > [국민내일배움카드 확인서]
+※ 재발급된 카드는 수령을 완료하신 다음 날부터 직업훈련에 사용 가능합니다.
+
+===== [3] 딥링크 실측 (2026-09-18) =====
+
+https://www.work24.go.kr/hr/h/a/4110/selectCardRequestList.do
+  → 비로그인 상태로 열면 "개인회원으로 로그인 후 이용하시기 바랍니다." 알림이 뜬 뒤
+    https://www.work24.go.kr/cm/z/b/0210/openLginPage.do?forwardUrl=/hr/h/a/4110/selectCardRequestList.do
+    로 넘어간다. 즉 로그인 후 해당 화면으로 그대로 이어진다.
+
+https://www.work24.go.kr/cm/c/d/0190/retrieveInstSrchLst.do?tabNo=3
+  → 기관찾기 화면이 열린다. 탭은 세 개다 — 고용센터 / 일자리지원기관 / 훈련지원기관.
+
+===== [4] 고객센터 통합검색 "발급확인서" 실측 (2026-09-18) =====
+URL: https://www.work24.go.kr/cm/c/g/0100/customerSearch.do?keyword=%EB%B0%9C%EA%B8%89%ED%99%95%EC%9D%B8%EC%84%9C
+"발급확인서"(으로) 검색한 결과, 총 2 건의 검색결과가 있습니다. (FAQ 2건 — 위 [1] [2])

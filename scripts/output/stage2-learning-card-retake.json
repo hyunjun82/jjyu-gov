@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-retake",
+  "keyword": "내일배움카드 재수강",
+  "pattern": "사장님 직접 확정(14~26편 세트 23번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "같은 과정을 두 번 들을 수 있나요?",
+    "동일 과정 재참여에는 제한이 있나요?",
+    "수료 이력은 어디에 남나요?",
+    "다시 들으려면 얼마나 기다려야 하나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-retake.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트(14~26)를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

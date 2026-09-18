@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-expiry-renewal",
+  "policyDir": "내일배움카드",
+  "fileName": "유효기간만료갱신",
+  "hubSlug": "learning-card",
+  "role": "period",
+  "h1": "내일배움카드 유효기간과 만료 확인, 남은 금액 소멸과 갱신 신청",
+  "breadcrumb": "유효기간·만료 갱신",
+  "description": "국민내일배움카드 유효기간 5년과 만료일 확인 방법, 만료 시 잔액 소멸 규정과 재발급으로 다시 받는 절차",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제13조·제16조·제18조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "내일배움카드 유효기간은 몇 년인가요?",
+    "만료일은 어디서 확인하나요?",
+    "만료되면 남은 금액은 사라지나요?",
+    "만료된 카드를 다시 살릴 수 있나요?"
+  ],
+  "faq": [
+    "훈련 중에 유효기간이 끝나면 어떻게 되나요?",
+    "K-디지털 크레딧도 유효기간이 5년인가요?"
+  ]
+}

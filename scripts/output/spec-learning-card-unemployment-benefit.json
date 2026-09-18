@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-unemployment-benefit",
+  "policyDir": "내일배움카드",
+  "fileName": "실업급여중신청구직활동",
+  "hubSlug": "learning-card",
+  "role": "overlap",
+  "h1": "실업급여 중 내일배움카드 신청과 구직활동 인정, 장려금과 수급 연장",
+  "breadcrumb": "실업급여 중 신청",
+  "description": "실업급여 수급 중 국민내일배움카드를 신청할 수 있는지와 훈련 수강의 구직활동 인정, 훈련장려금 중복 지급 여부와 수급 기간 연장",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제4조·제10조·제49조·제50조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "실업급여를 받는 중에도 신청할 수 있나요?",
+    "훈련 수강이 구직활동으로 인정되나요?",
+    "훈련장려금도 같이 받을 수 있나요?",
+    "훈련을 들으면 수급 기간이 늘어나나요?"
+  ],
+  "faq": [
+    "고용센터가 훈련을 받으라고 지시하기도 하나요?",
+    "실업급여가 끝난 뒤에는 장려금을 받나요?"
+  ]
+}

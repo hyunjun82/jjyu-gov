@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-after-resignation",
+  "keyword": "퇴사 후 내일배움카드",
+  "pattern": "사장님 직접 확정(14~26편 세트 17번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "퇴사한 뒤에 내일배움카드를 신청해도 되나요?",
+    "고용보험 상실신고가 끝나야 하나요?",
+    "퇴직증명서를 내야 하나요?",
+    "재직자에서 실업자로 유형이 바뀌나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-after-resignation.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트(14~26)를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

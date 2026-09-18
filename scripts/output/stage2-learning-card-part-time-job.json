@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-part-time-job",
+  "keyword": "내일배움카드 알바 병행",
+  "pattern": "사장님 직접 확정(14~26편 세트 16번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "내일배움카드를 받고 알바를 해도 되나요?",
+    "훈련 중 근무 시간에 제한이 있나요?",
+    "개강 전 단기 알바는 괜찮나요?",
+    "알바로 고용보험에 가입되면 어떻게 되나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-part-time-job.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트(14~26)를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

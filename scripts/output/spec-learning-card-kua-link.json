@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-kua-link",
+  "policyDir": "내일배움카드",
+  "fileName": "국취제연계신청순서",
+  "hubSlug": "learning-card",
+  "role": "overlap",
+  "h1": "국민취업지원제도와 내일배움카드 신청 순서, 1유형 훈련과 장려금 차이",
+  "breadcrumb": "국취제 연계·신청 순서",
+  "description": "국민취업지원제도와 국민내일배움카드가 연결되는 지점과 신청 순서, 1유형의 훈련 의무 여부, 구직촉진수당과 훈련장려금의 차이",
+  "sourceFile": "scripts/output/source-learning-card-kua-policy.txt",
+  "sourceName": "고용24 — 국민취업지원제도 제도안내(2026-09-18 확인)",
+  "sourceUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=2&recordCountPerPage=9&upprSystClId=&systClId=SC00000206&systId=SI00000316",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "국민취업지원제도와 내일배움카드는 어떻게 연결되나요?",
+    "둘 중 무엇을 먼저 신청하나요?",
+    "1유형은 훈련을 반드시 들어야 하나요?",
+    "국취제 수당과 훈련장려금은 다른 돈인가요?"
+  ],
+  "faq": [
+    "국취제 참여자는 자기부담금이 정말 없나요?",
+    "국취제 심사에는 얼마나 걸리나요?"
+  ]
+}

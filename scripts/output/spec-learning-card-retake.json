@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-retake",
+  "policyDir": "내일배움카드",
+  "fileName": "재수강동일과정",
+  "hubSlug": "learning-card",
+  "role": "caution",
+  "h1": "내일배움카드 재수강과 동일 과정 재참여, 수료 이력이 있어도 되나요",
+  "breadcrumb": "재수강·동일 과정",
+  "description": "국민내일배움카드로 같은 훈련과정을 다시 들을 수 있는지와 동일 과정 재참여 제한, 수료 이력이 남는 곳과 다시 신청할 수 있는 시점",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제8조제6항·제38조·제39조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "같은 과정을 두 번 들을 수 있나요?",
+    "동일 과정 재참여에는 제한이 있나요?",
+    "수료 이력은 어디에 남나요?",
+    "다시 들으려면 얼마나 기다려야 하나요?"
+  ],
+  "faq": [
+    "다른 학원에서 같은 자격증 과정을 들으면 되나요?",
+    "중도 포기한 과정을 다시 들을 수 있나요?"
+  ]
+}
