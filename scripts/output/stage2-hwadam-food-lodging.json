@@ -1,0 +1,22 @@
+{
+  "slug": "hwadam-food-lodging",
+  "keyword": "화담숲 도시락",
+  "title": "화담숲 도시락 반입과 내부 식당, 돗자리 가져가면 못 들어가나",
+  "pattern": "사장님이 채팅으로 확정한 화담숲 9편 세트 (소제목은 실검색어 질문형 4개)",
+  "subheads": [
+    "화담숲에 도시락을 싸 가도 되나요?",
+    "화담숲 안에 식당이 있나요?",
+    "번지없는 주막은 어디에 있나요?",
+    "근처 맛집과 화담채 숙소는 어디가 좋나요?"
+  ],
+  "source": "https://www.hwadamsup.com/pc/ko/board/faq",
+  "outline": "scripts/output/outline-hwadam-forest.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedBy": "사장님 — 화담숲 9편 타이틀·소제목을 채팅으로 직접 확정 (2026-09-18). 소제목 4개는 사장님 원문 그대로. 타이틀 꼬리만 교체 — 원문 \"번지없는 주막과 근처 맛집 숙소\"가 후킹 축에 걸려, 확인된 사실(돗자리·음식물 반입 규제)로 닫았다. 번지없는 주막·맛집·숙소는 소제목 3·4에 그대로 남아 있다. 사장님 지시 \"이어서 전부 작성해\"(2026-09-18)로 진행.",
+  "buttons": [
+    "hero → /policy/hwadam-forest",
+    "qa3 슬롯 → /policy/hwadam-forest",
+    "qa4 슬롯(마지막) → /policy/hwadam-forest"
+  ]
+}

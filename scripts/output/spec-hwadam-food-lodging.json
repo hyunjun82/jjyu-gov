@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-food-lodging",
+  "fileName": "도시락식당",
+  "role": "caution",
+  "h1": "화담숲 도시락 반입과 내부 식당, 돗자리 가져가면 못 들어가나",
+  "breadcrumb": "도시락·식당",
+  "description": "화담숲은 돗자리와 음식물 반입을 규제합니다. 가져온 음식은 물품보관함에 넣거나 매표소 광장 좌측 지정된 식사장소에서 먹은 뒤 입장해야 합니다. 안에는 번지없는 주막과 카페가 있습니다.",
+  "sourceName": "화담숲 자주하는 질문 관람예절·기타시설 안내",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/board/faq",
+  "qa": [
+    "화담숲에 도시락을 싸 가도 되나요?",
+    "화담숲 안에 식당이 있나요?",
+    "번지없는 주막은 어디에 있나요?",
+    "근처 맛집과 화담채 숙소는 어디가 좋나요?"
+  ],
+  "faq": [
+    "반입이 금지된 물품은 무엇인가요?",
+    "가져온 음식은 어디에 맡기나요?",
+    "화담숲 안에서 술을 마실 수 있나요?",
+    "화담채 안으로 음료를 가져갈 수 있나요?",
+    "곤지암리조트 객실은 어디로 문의하나요?"
+  ]
+}

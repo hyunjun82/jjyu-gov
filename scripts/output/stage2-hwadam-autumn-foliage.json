@@ -1,0 +1,22 @@
+{
+  "slug": "hwadam-autumn-foliage",
+  "keyword": "화담숲 단풍",
+  "title": "화담숲 단풍 절정 놓치지 않는 시기, 11월 축제 기간과 봄 벚꽃 개화",
+  "pattern": "사장님이 채팅으로 확정한 화담숲 9편 세트 (소제목은 실검색어 질문형 4개)",
+  "subheads": [
+    "화담숲 단풍은 언제부터 물드나요?",
+    "절정은 11월 며칠쯤인가요?",
+    "단풍축제는 언제부터 언제까지인가요?",
+    "봄에는 벚꽃이 언제 피나요?"
+  ],
+  "source": "https://www.hwadamsup.com/pc/ko/board/notice-detail?id=2157",
+  "outline": "scripts/output/outline-hwadam-forest.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedBy": "사장님 — 화담숲 9편 타이틀·소제목을 채팅으로 직접 확정 (2026-09-18). 타이틀·소제목 모두 사장님 원문 그대로.",
+  "buttons": [
+    "hero → /policy/hwadam-forest",
+    "qa3 슬롯 → /policy/hwadam-forest",
+    "qa4 슬롯(마지막) → /policy/hwadam-forest"
+  ]
+}

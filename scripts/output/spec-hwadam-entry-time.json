@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-entry-time",
+  "fileName": "입장시간지각",
+  "role": "caution",
+  "h1": "예약 시간에 늦은 화담숲 입장, 조기 입장과 현장 발권은 되나요",
+  "breadcrumb": "입장 시간",
+  "description": "화담숲은 예약 시간 외 입장이 되지 않습니다. 늦어도 일찍 가도 같은 문구가 막고, QR 코드는 입장 30분 전부터 활성화됩니다. 입장권 현장 구매는 권장되지 않습니다.",
+  "sourceName": "화담숲 가을 성수기 예매 오픈 안내·온라인 예매 상세 가이드",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/board/notice-detail?id=2159",
+  "qa": [
+    "예약한 입장 시간을 꼭 지켜야 하나요?",
+    "시간보다 늦게 도착하면 못 들어가나요?",
+    "반대로 일찍 가면 먼저 들어갈 수 있나요?",
+    "예약 없이 현장에서 표를 살 수 있나요?"
+  ],
+  "faq": [
+    "입장 시간이 몇 분까지 여유가 있나요?",
+    "모노레일 시간에 늦으면 다음 차를 타도 되나요?",
+    "QR 코드가 안 열리는데 왜 그런가요?",
+    "입장 마감 시간은 운영 종료 시간과 같나요?",
+    "현장 키오스크에서 살 수 있는 표는 무엇인가요?"
+  ]
+}

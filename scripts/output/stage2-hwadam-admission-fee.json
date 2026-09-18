@@ -1,0 +1,22 @@
+{
+  "slug": "hwadam-admission-fee",
+  "keyword": "화담숲 입장료",
+  "title": "화담숲 입장료에 모노레일이 포함인지, 광주시민 할인과 초대권 적용",
+  "pattern": "사장님이 채팅으로 확정한 화담숲 9편 세트 (소제목은 실검색어 질문형 4개)",
+  "subheads": [
+    "화담숲 입장료는 얼마인가요?",
+    "모노레일 요금은 입장권에 포함되나요?",
+    "광주시민 할인은 어떻게 받나요?",
+    "초대권이나 제휴 할인도 쓸 수 있나요?"
+  ],
+  "source": "https://www.hwadamsup.com/pc/ko/guide/tour",
+  "outline": "scripts/output/outline-hwadam-forest.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedBy": "사장님 — 화담숲 9편 타이틀·소제목을 채팅으로 직접 확정 (2026-09-18). 타이틀·소제목 모두 사장님 원문 그대로.",
+  "buttons": [
+    "hero → /policy/hwadam-forest",
+    "qa3 슬롯 → /policy/hwadam-forest",
+    "qa4 슬롯(마지막) → /policy/hwadam-forest"
+  ]
+}

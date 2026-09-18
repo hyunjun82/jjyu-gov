@@ -1,0 +1,22 @@
+{
+  "slug": "hwadam-course-time",
+  "keyword": "화담숲 소요시간",
+  "title": "화담숲 한 바퀴 도는 시간과 추천 코스, 유모차는 되고 반려견은 안 되나",
+  "pattern": "사장님이 채팅으로 확정한 화담숲 9편 세트 (소제목은 실검색어 질문형 4개)",
+  "subheads": [
+    "화담숲을 다 둘러보는 데 얼마나 걸리나요?",
+    "코스는 어떤 순서로 도는 게 좋나요?",
+    "유모차나 휠체어로도 다닐 수 있나요?",
+    "반려견을 데리고 입장할 수 있나요?"
+  ],
+  "source": "https://www.hwadamsup.com/pc/ko/board/faq",
+  "outline": "scripts/output/outline-hwadam-forest.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedBy": "사장님 — 화담숲 9편 타이틀·소제목을 채팅으로 직접 확정 (2026-09-18). 소제목 4개는 사장님 원문 그대로. 타이틀 꼬리만 교체 — 원문 \"유모차 휠체어와 반려견 동반\"이 title-formula 훅의 후킹 축에 걸려, 취재로 확인된 사실(유모차·휠체어 가능, 반려동물 출입 불가)을 그대로 후킹으로 세웠다. 사장님 지시 \"이어서 전부 작성해\"(2026-09-18)로 진행.",
+  "buttons": [
+    "hero → /policy/hwadam-forest",
+    "qa3 슬롯 → /policy/hwadam-forest",
+    "qa4 슬롯(마지막) → /policy/hwadam-forest"
+  ]
+}

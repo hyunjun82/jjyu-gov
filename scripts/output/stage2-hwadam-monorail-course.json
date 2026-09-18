@@ -1,0 +1,22 @@
+{
+  "slug": "hwadam-monorail-course",
+  "keyword": "화담숲 모노레일",
+  "title": "화담숲 모노레일 꼭 타야 하나요, 예약 방법과 코스 구간 운행 시간",
+  "pattern": "사장님이 채팅으로 확정한 화담숲 9편 세트 (소제목은 실검색어 질문형 4개)",
+  "subheads": [
+    "모노레일을 안 타면 관람이 힘든가요?",
+    "모노레일은 입장권과 따로 예약하나요?",
+    "모노레일은 어느 구간을 도나요?",
+    "운행 시간과 배차 간격은 어떻게 되나요?"
+  ],
+  "source": "https://www.hwadamsup.com/pc/ko/guide/monorail",
+  "outline": "scripts/output/outline-hwadam-forest.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedBy": "사장님 — 화담숲 9편 타이틀·소제목을 채팅으로 직접 확정 (2026-09-18). 타이틀·소제목 모두 사장님 원문 그대로.",
+  "buttons": [
+    "hero → /policy/hwadam-forest",
+    "qa3 슬롯 → /policy/hwadam-forest",
+    "qa4 슬롯(마지막) → /policy/hwadam-forest"
+  ]
+}

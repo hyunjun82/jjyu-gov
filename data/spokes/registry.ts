@@ -1866,8 +1866,28 @@ import { 내일배움카드재수강동일과정SpokeContent } from '@/app/polic
 import { 내일배움카드신청오류전산상담SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/신청오류전산상담';
 import { 내일배움카드발급확인서출력SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/발급확인서출력';
 import { 내일배움카드수료후취업연계SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/수료후취업연계';
+import { 화담숲예약오픈시간SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/예약오픈시간';
+import { 화담숲예약변경취소SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/예약변경취소';
+import { 화담숲입장시간지각SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/입장시간지각';
+import { 화담숲입장료할인SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/입장료할인';
+import { 화담숲모노레일코스SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/모노레일코스';
+import { 화담숲단풍시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/단풍시기';
+import { 화담숲코스소요시간SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/코스소요시간';
+import { 화담숲가는길순환버스SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/가는길순환버스';
+import { 화담숲도시락식당SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/도시락식당';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'hwadam-forest': {
+    'hwadam-food-lodging': 화담숲도시락식당SpokeContent,
+    'hwadam-transport': 화담숲가는길순환버스SpokeContent,
+    'hwadam-course-time': 화담숲코스소요시간SpokeContent,
+    'hwadam-autumn-foliage': 화담숲단풍시기SpokeContent,
+    'hwadam-monorail-course': 화담숲모노레일코스SpokeContent,
+    'hwadam-admission-fee': 화담숲입장료할인SpokeContent,
+    'hwadam-entry-time': 화담숲입장시간지각SpokeContent,
+    'hwadam-reservation-change': 화담숲예약변경취소SpokeContent,
+    'hwadam-reservation-open': 화담숲예약오픈시간SpokeContent,
+  },
   'four-insurance-workplace-establishment': {
     'four-insurance-gig-workers': 개인사업자4대보험쿠팡배달일용직SpokeContent,
     'four-insurance-closure': 개인사업자4대보험휴업폐업전환정산SpokeContent,

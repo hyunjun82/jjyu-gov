@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-transport",
+  "fileName": "가는길순환버스",
+  "role": "howto",
+  "h1": "서울에서 화담숲 가는 법, 대중교통과 곤지암역 셔틀버스로 얼마나 걸리나",
+  "breadcrumb": "가는 길",
+  "description": "서울에서 곤지암까지 광역버스로 1시간 30분, 곤지암역에서 광주9번으로 30분입니다. 곤지암역 직행 셔틀은 공식 안내가 없고, 화담숲이 운영하는 것은 리조트 안을 도는 순환버스입니다.",
+  "sourceName": "화담숲 찾아오시는 길·순환버스 안내",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/board/notice-detail?id=2126",
+  "qa": [
+    "서울에서 화담숲까지 얼마나 걸리나요?",
+    "대중교통만으로 갈 수 있나요?",
+    "곤지암에서 셔틀버스는 몇 시에 있나요?",
+    "주차장은 어디에 대는 게 빠른가요?"
+  ],
+  "faq": [
+    "곤지암역에서 화담숲까지 택시로 얼마나 걸리나요?",
+    "순환버스는 어디에 서나요?",
+    "주차장에서 매표소까지 걸어갈 수 있나요?",
+    "무료리프트는 지금 운행하나요?",
+    "단체버스는 어디에 대나요?"
+  ]
+}

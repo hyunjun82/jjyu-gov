@@ -1,0 +1,27 @@
+{
+  "slug": "hwadam-reservation-open",
+  "policyDir": "화담숲",
+  "fileName": "예약오픈시간",
+  "hubSlug": "hwadam-forest",
+  "role": "apply",
+  "h1": "화담숲 예약 오픈 시간과 티켓팅 방법, 매진돼도 취소표 잡는 법",
+  "breadcrumb": "예약 오픈 시간",
+  "description": "화담숲 가을 성수기 예매는 2026년 9월 16일 13시에 열렸습니다. NOL에서만 살 수 있고 대기 화면을 새로고침하면 순번이 밀립니다. 매진 뒤 남는 길은 잔여·취소 수량 현장 발권입니다.",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "sourceName": "화담숲 가을 성수기 예매 오픈 안내·온라인 예매 상세 가이드",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/board/notice-detail?id=2159",
+  "hubPath": "/policy/hwadam-forest",
+  "qa": [
+    "화담숲 예약은 언제 몇 시에 오픈되나요?",
+    "온라인 예매는 어디서 어떻게 하나요?",
+    "예약 성공 확률을 높이는 방법이 있나요?",
+    "매진된 뒤 취소표는 언제 풀리나요?"
+  ],
+  "faq": [
+    "화담숲 예매 오픈 시간을 놓쳤는데 다음 오픈이 또 있나요?",
+    "성수기 예매는 1인당 몇 장까지 살 수 있나요?",
+    "모노레일도 입장권과 같이 예매해야 하나요?",
+    "예매 화면에서 15분이 지나면 어떻게 되나요?",
+    "예매가 안 될 때 어디로 문의하면 되나요?"
+  ]
+}

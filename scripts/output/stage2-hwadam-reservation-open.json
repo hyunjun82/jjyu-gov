@@ -1,0 +1,22 @@
+{
+  "slug": "hwadam-reservation-open",
+  "keyword": "화담숲 예약",
+  "title": "화담숲 예약 오픈 시간과 티켓팅 방법, 매진돼도 취소표 잡는 법",
+  "pattern": "KB 코퍼스 (3) 절차 처음~끝 묶음형 + (6) 함정 경고형 — 오픈 시각부터 매진 후까지",
+  "subheads": [
+    "화담숲 예약은 언제 몇 시에 오픈되나요?",
+    "온라인 예매는 어디서 어떻게 하나요?",
+    "예약 성공 확률을 높이는 방법이 있나요?",
+    "매진된 뒤 취소표는 언제 풀리나요?"
+  ],
+  "source": "https://www.hwadamsup.com/pc/ko/board/notice-detail?id=2159",
+  "outline": "scripts/output/outline-hwadam-forest.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedBy": "사장님 — 채팅으로 9편 타이틀과 소제목을 직접 확정하고 '내가준 타이틀 소제목 그대로 작성' 지시 (2026-09-18). 1번 편이 이 세트의 1번이며 타이틀·소제목 4개를 한 글자도 바꾸지 않았다.",
+  "buttons": [
+    "hero — 화담숲 예약 조건 보기 → /policy/hwadam-forest",
+    "qa3 — 예약 조건 미리 보기 → /policy/hwadam-forest",
+    "qa4 — 취소 기준 확인하기 → /policy/hwadam-forest"
+  ]
+}

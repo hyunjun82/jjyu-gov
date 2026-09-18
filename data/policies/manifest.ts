@@ -834,6 +834,7 @@ import { moveInReportOnlinePolicy, moveInReportOnlineSpokes } from './move-in-re
 import { leverageEtfInvestorProtectionPolicy, leverageEtfInvestorProtectionSpokes } from './leverage-etf-investor-protection';
 import { isaBankComparisonPolicy, isaBankComparisonSpokes } from './isa-bank-comparison';
 import { kespaCup2026Policy, kespaCup2026Spokes } from './kespa-cup-2026';
+import { hwadamForestPolicy, hwadamForestSpokes } from './hwadam-forest';
 
 /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
 export const PoliciesById: Record<string, any> = {
@@ -1512,6 +1513,7 @@ export const PoliciesById: Record<string, any> = {
   '11': leapLoanPolicy,
   '13': leapSavingsPolicy,
   '5': learningcardPolicy,
+  '844': hwadamForestPolicy,
   '24': localGiftCardPolicy,
   '100': longTermCareElderlyPolicy,
   '35': lowIncomePensionPolicy,
@@ -2284,6 +2286,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'leap-loan': leapLoanPolicy,
   'leap-savings': leapSavingsPolicy,
   'learning-card': learningcardPolicy,
+  'hwadam-forest': hwadamForestPolicy,
   'local-gift-card': localGiftCardPolicy,
   'long-term-care-elderly': longTermCareElderlyPolicy,
   'low-income-pension': lowIncomePensionPolicy,
@@ -3083,6 +3086,7 @@ export const SpokesById: Record<string, any[]> = {
   '11': leapLoanSpokes,
   '13': leapSavingsSpokes,
   '5': learningcardSpokes,
+  '844': hwadamForestSpokes,
   '24': localGiftCardSpokes,
   '100': longTermCareElderlySpokes,
   '35': lowIncomePensionSpokes,
@@ -3846,6 +3850,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'leap-loan': leapLoanSpokes,
   'leap-savings': leapSavingsSpokes,
   'learning-card': learningcardSpokes,
+  'hwadam-forest': hwadamForestSpokes,
   'local-gift-card': localGiftCardSpokes,
   'long-term-care-elderly': longTermCareElderlySpokes,
   'low-income-pension': lowIncomePensionSpokes,

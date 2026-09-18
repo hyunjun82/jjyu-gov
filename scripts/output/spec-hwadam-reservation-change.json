@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-reservation-change",
+  "fileName": "예약변경취소",
+  "role": "caution",
+  "h1": "못 가게 된 화담숲 예약 시간 변경과 부분취소, 기간 지나면 양도도 되나요",
+  "breadcrumb": "예약 변경·취소",
+  "description": "화담숲은 예약 시간 변경 절차가 따로 없어 NOL 주문 내역에서 취소하고 다시 예매해야 합니다. 방문 1일 전까지는 전액 환불, 당일과 미방문은 수수료 30%입니다.",
+  "sourceName": "화담숲 온라인 예매 상세 가이드·중고거래 법적 대응 안내",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/reservation/informationUse",
+  "qa": [
+    "예약한 입장 시간을 바꿀 수 있나요?",
+    "인원 일부만 부분취소가 되나요?",
+    "취소 기간이 지나면 환불이 안 되나요?",
+    "티켓을 다른 사람에게 양도해도 되나요?"
+  ],
+  "faq": [
+    "예약 날짜를 다른 날로 옮길 수 있나요?",
+    "입장권만 취소하면 모노레일도 같이 취소되나요?",
+    "환불은 며칠 뒤에 들어오나요?",
+    "입장한 뒤에 사정이 생기면 환불이 되나요?",
+    "중고거래로 산 티켓으로 입장할 수 있나요?"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-monorail-course",
+  "fileName": "모노레일코스",
+  "role": "usage",
+  "h1": "화담숲 모노레일 꼭 타야 하나요, 예약 방법과 코스 구간 운행 시간",
+  "breadcrumb": "모노레일",
+  "description": "화담숲 모노레일은 필수가 아닙니다. 원내가 완만한 데크길이라 걸어서 전체를 볼 수 있고, 모노레일은 1,213m 순환선을 약 20분에 돕니다. 1승강장 출발만 온라인 예매가 됩니다.",
+  "sourceName": "화담숲 모노레일 안내·10~11월 이용안내",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/guide/monorail",
+  "qa": [
+    "모노레일을 안 타면 관람이 힘든가요?",
+    "모노레일은 입장권과 따로 예약하나요?",
+    "모노레일은 어느 구간을 도나요?",
+    "운행 시간과 배차 간격은 어떻게 되나요?"
+  ],
+  "faq": [
+    "모노레일만 따로 예약할 수 있나요?",
+    "모노레일에 좌석이 있나요? 몇 명까지 타나요?",
+    "유모차를 실을 수 있나요?",
+    "비가 오면 모노레일이 멈추나요?",
+    "중간에 내려서 다시 탈 수 있나요?"
+  ]
+}

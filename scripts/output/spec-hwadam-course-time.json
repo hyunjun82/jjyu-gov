@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-course-time",
+  "fileName": "코스소요시간",
+  "role": "howto",
+  "h1": "화담숲 한 바퀴 도는 시간과 추천 코스, 유모차는 되고 반려견은 안 되나",
+  "breadcrumb": "코스·소요시간",
+  "description": "화담숲 전체 테마원은 걸어서 2시간 내외입니다. 원내가 완만한 데크길이라 유모차와 휠체어로 전 테마원을 볼 수 있지만, 반려동물은 출입이 되지 않습니다.",
+  "sourceName": "화담숲 자주하는 질문·테마원 둘러보기·10~11월 이용안내",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/board/faq",
+  "qa": [
+    "화담숲을 다 둘러보는 데 얼마나 걸리나요?",
+    "코스는 어떤 순서로 도는 게 좋나요?",
+    "유모차나 휠체어로도 다닐 수 있나요?",
+    "반려견을 데리고 입장할 수 있나요?"
+  ],
+  "faq": [
+    "테마원은 몇 개인가요?",
+    "유모차나 휠체어를 대여할 수 있나요?",
+    "원내에 음수대가 있나요?",
+    "화장실은 어디에 있나요?",
+    "스탬프 투어는 무엇인가요?"
+  ]
+}

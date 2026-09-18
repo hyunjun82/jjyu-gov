@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-admission-fee",
+  "fileName": "입장료할인",
+  "role": "cost",
+  "h1": "화담숲 입장료에 모노레일이 포함인지, 광주시민 할인과 초대권 적용",
+  "breadcrumb": "입장료·할인",
+  "description": "화담숲 입장료는 성인 11,000원이고 모노레일은 구간에 따라 5,000원에서 9,000원까지 따로 냅니다. 광주시민 할인은 평일 50%, 주말과 공휴일 30%입니다.",
+  "sourceName": "화담숲 이용시간/요금·광주시민 온라인 예매 안내",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/guide/tour",
+  "qa": [
+    "화담숲 입장료는 얼마인가요?",
+    "모노레일 요금은 입장권에 포함되나요?",
+    "광주시민 할인은 어떻게 받나요?",
+    "초대권이나 제휴 할인도 쓸 수 있나요?"
+  ],
+  "faq": [
+    "24개월 미만 아기도 입장료를 내나요?",
+    "광주시민 할인은 무엇을 가져가야 받나요?",
+    "가을 성수기에도 할인이 되나요?",
+    "신용카드 할인이나 투숙객 할인이 있나요?",
+    "화담채만 따로 볼 수 있나요?"
+  ]
+}

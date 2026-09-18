@@ -1,0 +1,27 @@
+{
+  "policyDir": "화담숲",
+  "hubSlug": "hwadam-forest",
+  "hubPath": "/policy/hwadam-forest",
+  "sourceFile": "scripts/output/source-hwadam-forest.txt",
+  "slug": "hwadam-autumn-foliage",
+  "fileName": "단풍시기",
+  "role": "period",
+  "h1": "화담숲 단풍 절정 놓치지 않는 시기, 11월 축제 기간과 봄 벚꽃 개화",
+  "breadcrumb": "단풍 시기",
+  "description": "화담숲은 단풍 예보나 절정일을 따로 발표하지 않습니다. 기간으로 말하는 것은 가을 성수기 10월 23일부터 11월 15일까지이고, 그 기간에만 8시에 열고 휴원을 없앱니다.",
+  "sourceName": "화담숲 10~11월 이용안내·자주하는 질문 관람동선",
+  "sourceUrl": "https://www.hwadamsup.com/pc/ko/board/notice-detail?id=2157",
+  "qa": [
+    "화담숲 단풍은 언제부터 물드나요?",
+    "절정은 11월 며칠쯤인가요?",
+    "단풍축제는 언제부터 언제까지인가요?",
+    "봄에는 벚꽃이 언제 피나요?"
+  ],
+  "faq": [
+    "화담숲이 단풍 절정일을 알려주나요?",
+    "가을에 어느 테마원을 보면 되나요?",
+    "성수기에는 월요일에도 여나요?",
+    "지금 무슨 꽃이 피었는지 어디서 보나요?",
+    "반딧불이는 언제 볼 수 있나요?"
+  ]
+}

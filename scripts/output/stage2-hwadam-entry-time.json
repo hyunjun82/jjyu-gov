@@ -1,0 +1,22 @@
+{
+  "slug": "hwadam-entry-time",
+  "keyword": "화담숲 입장 시간",
+  "title": "예약 시간에 늦은 화담숲 입장, 조기 입장과 현장 발권은 되나요",
+  "pattern": "사장님이 채팅으로 확정한 화담숲 9편 세트 (소제목은 실검색어 질문형 4개)",
+  "subheads": [
+    "예약한 입장 시간을 꼭 지켜야 하나요?",
+    "시간보다 늦게 도착하면 못 들어가나요?",
+    "반대로 일찍 가면 먼저 들어갈 수 있나요?",
+    "예약 없이 현장에서 표를 살 수 있나요?"
+  ],
+  "source": "https://www.hwadamsup.com/pc/ko/board/notice-detail?id=2159",
+  "outline": "scripts/output/outline-hwadam-forest.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedBy": "사장님 — 화담숲 9편 타이틀·소제목을 채팅으로 직접 확정 (2026-09-18). 타이틀·소제목 모두 사장님 원문 그대로.",
+  "buttons": [
+    "hero → /policy/hwadam-forest",
+    "qa3 슬롯 → /policy/hwadam-forest",
+    "qa4 슬롯(마지막) → /policy/hwadam-forest"
+  ]
+}
