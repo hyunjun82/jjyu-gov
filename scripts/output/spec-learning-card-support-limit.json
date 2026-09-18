@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-support-limit",
+  "policyDir": "내일배움카드",
+  "fileName": "지원한도추가지원금",
+  "hubSlug": "learning-card",
+  "role": "amount",
+  "h1": "내일배움카드 지원 한도와 추가 지원금, 유형별 차이와 사용 내역 조회",
+  "breadcrumb": "지원 한도·추가 지원금",
+  "description": "국민내일배움카드 계좌한도 300만원과 추가지원 200만원 대상 11가지, 실업자·재직자 구분이 없어진 이유와 사용 내역 조회 방법",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제14조·제46조 및 별표 4",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "내일배움카드 지원 한도는 얼마인가요?",
+    "추가 지원금을 더 받을 수 있는 경우는 언제인가요?",
+    "실업자와 재직자는 지원 금액이 다른가요?",
+    "어디에 얼마를 썼는지 어떻게 조회하나요?"
+  ],
+  "faq": [
+    "추가 지원 200만원은 어떻게 신청하나요?",
+    "국기훈련을 들으면 한도가 얼마나 깎이나요?"
+  ]
+}

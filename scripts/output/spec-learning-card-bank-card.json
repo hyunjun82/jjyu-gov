@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-bank-card",
+  "policyDir": "내일배움카드",
+  "fileName": "농협신한카드",
+  "hubSlug": "learning-card",
+  "role": "apply",
+  "h1": "내일배움카드 농협 신한 차이와 은행 방문, 온라인 발급과 카드 수령",
+  "breadcrumb": "농협·신한 카드 수령",
+  "description": "국민내일배움카드 제휴카드사인 농협과 신한의 차이, 은행 방문 시 지참 서류, 온라인·모바일 발급과 실물 카드 수령까지 걸리는 기간",
+  "sourceFile": "scripts/output/source-learning-card-moel-counsel.txt",
+  "sourceName": "고용노동부 고객상담센터(1350) 실시간 상담 — 내일배움카드 카드 발급·수령",
+  "sourceUrl": "https://1350.moel.go.kr/rtmview.do?id=1000220333",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "농협과 신한 카드는 무엇이 다른가요?",
+    "은행에 갈 때 무엇을 챙겨야 하나요?",
+    "은행에 가지 않고 온라인으로 발급되나요?",
+    "카드는 며칠 만에 받아볼 수 있나요?"
+  ],
+  "faq": [
+    "체크카드로 받았는데 신용카드로 바꿀 수 있나요?",
+    "카드를 잃어버리면 재발급은 어떻게 하나요?"
+  ]
+}

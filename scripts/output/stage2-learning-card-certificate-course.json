@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-certificate-course",
+  "keyword": "내일배움카드 자격증",
+  "pattern": "사장님 직접 확정(13편 세트 10번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "내일배움카드로 딸 수 있는 자격증에는 무엇이 있나요?",
+    "학원 등록은 어떤 순서로 하나요?",
+    "지게차운전기능사는 몇 시간 과정인가요?",
+    "요양보호사 자격증 과정도 지원되나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-certificate-course.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

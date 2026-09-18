@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-sick-leave",
+  "keyword": "내일배움카드 병결",
+  "pattern": "사장님 직접 확정(13편 세트 13번·마지막) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "아파서 못 나가면 병결로 인정되나요?",
+    "진료확인서는 언제까지 제출하나요?",
+    "병결도 출석으로 쳐주나요?",
+    "병결이 잦으면 장려금이 줄어드나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-sick-leave.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

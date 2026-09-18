@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-online-course",
+  "keyword": "내일배움카드 온라인 인강",
+  "pattern": "사장님 직접 확정(13편 세트 11번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "내일배움카드로 인강을 들을 수 있나요?",
+    "원격 과정은 출석을 어떻게 인정하나요?",
+    "컴퓨터활용능력 과정도 지원되나요?",
+    "토익 같은 어학 학원도 되나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-online-course.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

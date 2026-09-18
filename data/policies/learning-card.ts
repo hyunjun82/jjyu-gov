@@ -240,6 +240,19 @@ export const learningcardPolicy = {
 };
 
 export const learningcardSpokes = [
+  { slug: 'learning-card-sick-leave', role: 'caution', title: '내일배움카드 병결 처리와 진료확인서 제출, 출결 인정과 장려금' },
+  { slug: 'learning-card-attendance-rule', role: 'caution', title: '내일배움카드 출석률 기준과 지각 조퇴 처리, 결석 시 패널티' },
+  { slug: 'learning-card-online-course', role: 'usage', title: '내일배움카드 온라인 인강과 원격 과정, 컴활과 토익 학원도 되나요' },
+  { slug: 'learning-card-certificate-course', role: 'usage', title: '내일배움카드 자격증 과정과 학원 등록, 지게차와 요양보호사도 되나요' },
+  { slug: 'learning-card-course-choice', role: 'usage', title: '내일배움카드 훈련과정 고르기와 인기 과정, K디지털트레이닝과 국기훈련' },
+  { slug: 'learning-card-course-apply', role: 'apply', title: '내일배움카드 수강 신청과 개강 준비, 승인 문자와 취소도 되나요' },
+  { slug: 'learning-card-refund-dropout', role: 'caution', title: '내일배움카드 환급 조건과 자부담금 환불, 학원 중단과 중도 포기 불이익' },
+  { slug: 'learning-card-self-payment', role: 'cost', title: '내일배움카드 자기부담금 계산과 결제 방법, 학원 결제와 잔액 부족' },
+  { slug: 'learning-card-support-limit', role: 'amount', title: '내일배움카드 지원 한도와 추가 지원금, 유형별 차이와 사용 내역 조회' },
+  { slug: 'learning-card-account-balance', role: 'usage', title: '내일배움카드 훈련계좌 개설과 연결 통장, 이체 방법과 잔액 확인' },
+  { slug: 'learning-card-bank-card', role: 'apply', title: '내일배움카드 농협 신한 차이와 은행 방문, 온라인 발급과 카드 수령' },
+  { slug: 'learning-card-work24-apply', role: 'apply', title: '내일배움카드 고용24 신청 절차와 구직등록, 발급 심사와 승인 기간' },
+  { slug: 'learning-card-issuance-eligibility', role: 'target', title: '내일배움카드 신청 자격과 발급 조건, 제외 대상과 고졸도 되나요' },
   { slug: '지원금액',    role: 'amount',  title: '내일배움카드 300만원에서 500만원까지 | 추가 지원 조건과 자기부담금 15~55%' },
   { slug: '사용처',      role: 'usage',   title: '내일배움카드 사용처 어디까지 되나 | AI·자격증·외국어 가능, 운전면허는 안 돼' },
   { slug: '재직자조건',  role: 'apply',   title: '재직자도 내일배움카드 받을 수 있나 | 공무원 제외 목록과 재직자·실업자 차이' },

@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-certificate-course",
+  "policyDir": "내일배움카드",
+  "fileName": "자격증과정학원등록",
+  "hubSlug": "learning-card",
+  "role": "usage",
+  "h1": "내일배움카드 자격증 과정과 학원 등록, 지게차와 요양보호사도 되나요",
+  "breadcrumb": "자격증 과정·학원 등록",
+  "description": "국민내일배움카드로 딸 수 있는 자격증과 제외되는 시험, 학원 등록 순서, 지게차운전기능사 훈련시간과 요양보호사 과정의 환급 구조",
+  "sourceFile": "scripts/output/source-learning-card-course-forklift.txt",
+  "sourceName": "고용24 훈련 통합검색 — 지게차운전기능사 국민내일배움카드 훈련과정(2026-09-18 전국 조회)",
+  "sourceUrl": "https://www.work24.go.kr/hr/a/a/1100/trnnCrsInf0.do",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "내일배움카드로 딸 수 있는 자격증에는 무엇이 있나요?",
+    "학원 등록은 어떤 순서로 하나요?",
+    "지게차운전기능사는 몇 시간 과정인가요?",
+    "요양보호사 자격증 과정도 지원되나요?"
+  ],
+  "faq": [
+    "공인중개사나 공무원 시험 준비도 되나요?",
+    "요양보호사 과정은 왜 본인부담이 큰가요?"
+  ]
+}

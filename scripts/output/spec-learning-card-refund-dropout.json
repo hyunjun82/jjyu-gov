@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-refund-dropout",
+  "policyDir": "내일배움카드",
+  "fileName": "환급중도포기",
+  "hubSlug": "learning-card",
+  "role": "caution",
+  "h1": "내일배움카드 환급 조건과 자부담금 환불, 학원 중단과 중도 포기 불이익",
+  "breadcrumb": "환급·중도 포기",
+  "description": "국민내일배움카드 자기부담금 환급이 되는 돌봄서비스 훈련 요건과 신청 기한, 중도에 그만둘 때 계좌한도에서 빠지는 금액",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제15조·제46조의3",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "내일배움카드 환급은 어떤 조건에서 되나요?",
+    "낸 자기부담금은 언제 돌려받나요?",
+    "중간에 학원을 그만두면 환불되나요?",
+    "중도 포기하면 다음 신청에 불이익이 있나요?"
+  ],
+  "faq": [
+    "질병이나 사고로 그만두면 차감되나요?",
+    "그만둔 과정을 다시 들을 수 있나요?"
+  ]
+}

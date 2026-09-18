@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-course-apply",
+  "keyword": "내일배움카드 수강 신청",
+  "pattern": "사장님 직접 확정(13편 세트 8번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "훈련과정 수강 신청은 어디서 하나요?",
+    "개강 전에 준비할 것은 무엇인가요?",
+    "신청하면 승인 문자가 따로 오나요?",
+    "신청한 과정을 취소할 수 있나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-course-apply.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

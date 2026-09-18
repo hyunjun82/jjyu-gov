@@ -1840,6 +1840,19 @@ import { 개인사업자4대보험피부양자등록SpokeContent } from '@/app/p
 import { 개인사업자4대보험퇴사자상실신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/퇴사자상실신고';
 import { 개인사업자4대보험휴업폐업전환정산SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/휴업폐업전환정산';
 import { 개인사업자4대보험쿠팡배달일용직SpokeContent } from '@/app/policy/[id]/[spoke]/content/개인사업자4대보험/쿠팡배달일용직';
+import { 내일배움카드발급자격조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/발급자격조건';
+import { 내일배움카드고용24신청절차SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/고용24신청절차';
+import { 내일배움카드농협신한카드SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/농협신한카드';
+import { 내일배움카드훈련계좌연결통장SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/훈련계좌연결통장';
+import { 내일배움카드지원한도추가지원금SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/지원한도추가지원금';
+import { 내일배움카드자기부담금결제SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/자기부담금결제';
+import { 내일배움카드환급중도포기SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/환급중도포기';
+import { 내일배움카드수강신청개강준비SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/수강신청개강준비';
+import { 내일배움카드훈련과정고르기SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/훈련과정고르기';
+import { 내일배움카드자격증과정학원등록SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/자격증과정학원등록';
+import { 내일배움카드온라인인강원격과정SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/온라인인강원격과정';
+import { 내일배움카드출석률지각조퇴SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/출석률지각조퇴';
+import { 내일배움카드병결진료확인서SpokeContent } from '@/app/policy/[id]/[spoke]/content/내일배움카드/병결진료확인서';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'four-insurance-workplace-establishment': {
@@ -2334,6 +2347,19 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'learning-card': {
+    'learning-card-sick-leave': 내일배움카드병결진료확인서SpokeContent,
+    'learning-card-attendance-rule': 내일배움카드출석률지각조퇴SpokeContent,
+    'learning-card-online-course': 내일배움카드온라인인강원격과정SpokeContent,
+    'learning-card-certificate-course': 내일배움카드자격증과정학원등록SpokeContent,
+    'learning-card-course-choice': 내일배움카드훈련과정고르기SpokeContent,
+    'learning-card-course-apply': 내일배움카드수강신청개강준비SpokeContent,
+    'learning-card-refund-dropout': 내일배움카드환급중도포기SpokeContent,
+    'learning-card-self-payment': 내일배움카드자기부담금결제SpokeContent,
+    'learning-card-support-limit': 내일배움카드지원한도추가지원금SpokeContent,
+    'learning-card-account-balance': 내일배움카드훈련계좌연결통장SpokeContent,
+    'learning-card-bank-card': 내일배움카드농협신한카드SpokeContent,
+    'learning-card-work24-apply': 내일배움카드고용24신청절차SpokeContent,
+    'learning-card-issuance-eligibility': 내일배움카드발급자격조건SpokeContent,
     '지원금액':    지원금액SpokeContent,
     '사용처':      사용처SpokeContent,
     '재직자조건':  재직자조건SpokeContent,

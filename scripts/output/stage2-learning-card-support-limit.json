@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-support-limit",
+  "keyword": "내일배움카드 지원 한도",
+  "pattern": "사장님 직접 확정(13편 세트 5번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "내일배움카드 지원 한도는 얼마인가요?",
+    "추가 지원금을 더 받을 수 있는 경우는 언제인가요?",
+    "실업자와 재직자는 지원 금액이 다른가요?",
+    "어디에 얼마를 썼는지 어떻게 조회하나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-support-limit.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

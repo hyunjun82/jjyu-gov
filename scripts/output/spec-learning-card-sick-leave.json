@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-sick-leave",
+  "policyDir": "내일배움카드",
+  "fileName": "병결진료확인서",
+  "hubSlug": "learning-card",
+  "role": "caution",
+  "h1": "내일배움카드 병결 처리와 진료확인서 제출, 출결 인정과 장려금",
+  "breadcrumb": "병결·진료확인서",
+  "description": "국민내일배움카드 훈련 중 아플 때 출석인정을 받는 기준과 상한, 증빙 제출 기한, 병결이 훈련장려금에 미치는 영향",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제34조 및 별표 3(출석인정일수)",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "아파서 못 나가면 병결로 인정되나요?",
+    "진료확인서는 언제까지 제출하나요?",
+    "병결도 출석으로 쳐주나요?",
+    "병결이 잦으면 장려금이 줄어드나요?"
+  ],
+  "faq": [
+    "가족이 아플 때도 출석인정이 되나요?",
+    "훈련 중에 휴가를 쓸 수 있나요?"
+  ]
+}

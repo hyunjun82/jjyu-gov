@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-work24-apply",
+  "policyDir": "내일배움카드",
+  "fileName": "고용24신청절차",
+  "hubSlug": "learning-card",
+  "role": "apply",
+  "h1": "내일배움카드 고용24 신청 절차와 구직등록, 발급 심사와 승인 기간",
+  "breadcrumb": "고용24 신청 절차",
+  "description": "고용24 국민내일배움카드 발급 신청 경로와 제출 서류, 구직등록이 필요한 경우, 발급 심사 기준과 7일 이내 통지 기한",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제5조~제9조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "내일배움카드는 고용24에서 어떻게 신청하나요?",
+    "구직등록을 먼저 해야 하나요?",
+    "발급 심사에서는 무엇을 보나요?",
+    "승인까지 며칠이나 걸리나요?"
+  ],
+  "faq": [
+    "고용센터에 직접 가서 신청해도 되나요?",
+    "신청할 때 서류를 따로 준비해야 하나요?"
+  ]
+}

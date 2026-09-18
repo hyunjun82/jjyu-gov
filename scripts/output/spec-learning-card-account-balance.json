@@ -1,0 +1,24 @@
+{
+  "slug": "learning-card-account-balance",
+  "policyDir": "내일배움카드",
+  "fileName": "훈련계좌연결통장",
+  "hubSlug": "learning-card",
+  "role": "usage",
+  "h1": "내일배움카드 훈련계좌 개설과 연결 통장, 이체 방법과 잔액 확인",
+  "breadcrumb": "훈련계좌·연결 통장",
+  "description": "국민내일배움카드의 직업능력개발계좌가 어떻게 만들어지는지, 연결 통장의 역할과 카드 결제 구조, 남은 한도를 확인하는 방법",
+  "sourceFile": "scripts/output/source-learning-card-operating-rule.txt",
+  "sourceName": "국가법령정보센터 — 국민내일배움카드 운영규정 제12조·제14조~제16조",
+  "sourceUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000279150",
+  "hubPath": "/policy/learning-card",
+  "qa": [
+    "훈련계좌는 어떻게 개설하나요?",
+    "어떤 통장을 연결 계좌로 쓸 수 있나요?",
+    "계좌로 돈을 이체하는 방법은 무엇인가요?",
+    "계좌에 남은 금액은 어디서 확인하나요?"
+  ],
+  "faq": [
+    "연결한 은행 계좌를 해지하면 카드를 못 쓰나요?",
+    "유효기간이 끝나면 남은 금액은 어떻게 되나요?"
+  ]
+}

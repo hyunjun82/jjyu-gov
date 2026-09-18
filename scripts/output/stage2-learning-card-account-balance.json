@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-account-balance",
+  "keyword": "내일배움카드 훈련계좌",
+  "pattern": "사장님 직접 확정(13편 세트 4번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "훈련계좌는 어떻게 개설하나요?",
+    "어떤 통장을 연결 계좌로 쓸 수 있나요?",
+    "계좌로 돈을 이체하는 방법은 무엇인가요?",
+    "계좌에 남은 금액은 어디서 확인하나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-account-balance.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

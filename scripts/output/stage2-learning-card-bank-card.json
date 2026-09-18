@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-bank-card",
+  "keyword": "내일배움카드 농협 신한",
+  "pattern": "사장님 직접 확정(13편 세트 3번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "농협과 신한 카드는 무엇이 다른가요?",
+    "은행에 갈 때 무엇을 챙겨야 하나요?",
+    "은행에 가지 않고 온라인으로 발급되나요?",
+    "카드는 며칠 만에 받아볼 수 있나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-bank-card.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}

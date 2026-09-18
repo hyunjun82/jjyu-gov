@@ -1,0 +1,15 @@
+{
+  "slug": "learning-card-attendance-rule",
+  "keyword": "내일배움카드 출석률",
+  "pattern": "사장님 직접 확정(13편 세트 12번) — 타이틀·소제목은 outline 파일에 있다",
+  "subheads": [
+    "내일배움카드 출석률은 몇 퍼센트를 채워야 하나요?",
+    "지각이나 조퇴도 결석으로 잡히나요?",
+    "결석하면 그날 훈련비는 어떻게 되나요?",
+    "패널티 기록은 얼마 동안 남나요?"
+  ],
+  "outline": "scripts/output/outline-learning-card-attendance-rule.md",
+  "approved": true,
+  "approvedAt": "2026-09-18",
+  "approvedNote": "사장님이 타이틀·소제목 13편 세트를 채팅으로 직접 확정하고 그대로 작성하라고 지시함"
+}
