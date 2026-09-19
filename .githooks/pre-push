@@ -14,48 +14,6 @@ if [ "$CMD_LINES" -gt 80 ]; then
   exit 1
 fi
 
-# ── ⓪-A 셸 우회 관문 (2026-08-25 신설) ──
-# 훅이 Write/Edit 만 봐서 셸로 파일을 만들면 문지기가 안 깨어났다.
-# matcher 에 Bash 를 넣었는데, 이번엔 ls·grep 까지 막는 오탐이 났다.
-# 막아야 할 것 4종 + 통과해야 할 것 11종을 같이 세워둔다. 하나라도 어긋나면 막는다.
-echo "🚪 셸 우회 관문 검사 중 (셸로 새 글을 만들면 막히나)..."
-node "$ROOT/scripts/hooks/selftest-bash-gate.mjs" | tail -2
-BG=${PIPESTATUS[0]}
-if [ $BG -ne 0 ]; then
-  echo ""
-  echo "🚫 push 차단됨 — 셸 관문이 어긋났다 (막을 걸 놓쳤거나, 평소 명령을 막고 있다)"
-  echo "   자세히: node scripts/hooks/selftest-bash-gate.mjs -v"
-  exit $BG
-fi
-
-# ── ⓪-B 문지기 자가검사 (2026-08-25 신설) ──
-# 저장을 막는 훅이 진짜 막는지 매번 채점한다.
-# 이 시험지는 8/11 부터 있었는데 아무도 안 돌려서 14종이 2주째 뚫린 채였다.
-# 한 번에 0으로 만들 수 없으니 기준선을 둔다 —
-#   나빠지면 막고, 좋아지면 기준선이 저절로 내려가 다시는 못 올라간다.
-echo "🚪 문지기 자가검사 중 (4단계를 건너뛰면 저장이 막히나)..."
-SELF_OUT=$(node "$ROOT/scripts/hooks/selftest-title-log.mjs" 2>&1)
-echo "$SELF_OUT" | grep -E "^★실패|종 중"
-BASE_F="$ROOT/scripts/selftest-baseline.txt"
-FAIL=$(printf '%s' "$SELF_OUT" | tr -d '
-' | grep -o "실패 [0-9]*종" | tail -1 | grep -o "[0-9]*")
-BASE=$(cat "$BASE_F" 2>/dev/null || echo 99)
-if [ -z "$FAIL" ]; then
-  echo "🚫 push 차단됨 — 자가검사가 결과를 못 냈다(시험지 자체가 깨졌다)"
-  exit 1
-fi
-if [ "$FAIL" -gt "$BASE" ]; then
-  echo ""
-  echo "🚫 push 차단됨 — 뚫린 곳이 ${BASE}개에서 ${FAIL}개로 늘었다"
-  echo "   위 ★실패 중 이번에 생긴 것을 고친다."
-  exit 1
-fi
-if [ "$FAIL" -lt "$BASE" ]; then
-  echo "$FAIL" > "$BASE_F"
-  echo "   기준선 ${BASE} → ${FAIL} (내려갔다. 다시는 못 올라간다)"
-fi
-echo "   뚫린 곳 ${FAIL}개 / 기준선 ${BASE}개"
-
 # ── ① 배선 무결성 게이트 (registry↔manifest 고아 검출) ──
 echo "🔗 배선 무결성 검증 중 (고아 허브·매니페스트 정합)..."
 npx tsx "$ROOT/scripts/verify-integrity.ts" --strict

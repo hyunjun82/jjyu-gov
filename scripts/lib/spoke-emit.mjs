@@ -170,7 +170,7 @@ export const isWired = (slug) => fs.existsSync(REG) && fs.readFileSync(REG, "utf
 export function stage2Of({ plan, slug, keyword, today }) {
   return {
     slug, keyword,
-    title: plan.title, pattern: plan.pattern,
+    title: plan.title,
     subheads: plan.subheads.map((s) => s.q),
     source: (plan.sources || []).filter((s) => s.ok !== false).map((s) => s.url).join(" , "),
     extract: `scripts/output/source-${slug}.txt`,
@@ -186,10 +186,10 @@ export function outlineMd({ plan, draft, slug, keyword, today }) {
   const sp = draft?.spoke || {};
   const n = plan.subheads.length;
   const slotOf = (i) => (plan.buttons.slots || []).find((s) => Number(s.qaIndex) === i);
-  const L = [`# 구성표 — ${keyword} (${slug})`, "", `**타이틀** ${plan.title}`, `**패턴** ${plan.pattern}`, `**출처 검색어** ${(plan.titleFrom || []).join(" · ")}`, `**참조 캡처** ${plan.refCapture} — "${plan.refTitle}"`, ""];
+  const L = [`# 구성표 — ${keyword} (${slug})`, "", `**타이틀** ${plan.title} (spec 고정 — 사장님이 줌)`, ""];
   L.push("## hero (서론)", "", one(sp.heroHook || plan.heroPlan || ""), "", `**← 상단 버튼: [${plan.buttons.hero.label}]** ${plan.buttons.hero.url}`, "");
-  L.push("## 소제목 — 실검색어 그대로", "", "| # | 소제목 | 출처 검색어 | 버튼 |", "|---|---|---|---|");
-  plan.subheads.forEach((s, i) => L.push(`| qa${i + 1} | ${s.q} | ${s.from || ""} | ${slotOf(i) ? "**슬롯**" : ""} |`));
+  L.push("## 소제목 — spec 그대로", "", "| # | 소제목 | 버튼 |", "|---|---|---|");
+  plan.subheads.forEach((s, i) => L.push(`| qa${i + 1} | ${s.q} | ${slotOf(i) ? "**슬롯**" : ""} |`));
   L.push("", "## 버튼 — 목적지는 Playwright 로 열어 확인했다", "", "| 슬롯 | 앞 문장(cue) | 라벨 | 목적지 | 확인 |", "|---|---|---|---|---|");
   const hc = plan.ctaChecked?.[plan.buttons.hero.url];
   L.push(`| hero | (서론) | ${plan.buttons.hero.label} | ${plan.buttons.hero.url} | ${hc ? (hc.ok ? "✓ " + one(hc.title).slice(0, 40) : "✗ " + hc.why) : "내부"} |`);
@@ -228,8 +228,4 @@ export function factsheetMd({ plan, draft, slug, keyword, today, sourceChars }) 
   if (draft?._droppedCaveats?.length) { L.push("", "### 단서로 적었으나 본문 숫자와 안 맞아 뺀 것", ""); draft._droppedCaveats.forEach((c) => L.push(`- ${one(c)}`)); }
   L.push("", `_${today} scripts/article.mjs_`, "");
   return L.join("\n");
-}
-
-export function titleLogBlock({ plan, slug }) {
-  return `\n## ${slug}\n- 캡처: ${plan.refCapture} — "${plan.refTitle}"\n- 패턴: ${plan.pattern}\n- 타이틀: ${plan.title}\n`;
 }

@@ -152,7 +152,8 @@ reg = reg.replace(mapKey, `${mapKey}\n    '${S.slug}': ${exportName},`);
 
 /* hubVar 는 허브 파일에서 읽는다. spec 에 적게 하면 매번 틀린다(2026-08-25 실제로 틀렸다). */
 if (!S.hubVar) {
-  const m = hub.match(/export const (\w+Spokes)\s*=\s*\[/);
+  // 허브 배열 이름이 한글일 수 있다 (기초연금Spokes) — \w 는 한글을 안 잡는다 (2026-09-19)
+  const m = hub.match(/export const ([\w가-힣]+Spokes)\s*=\s*\[/);
   if (!m) die(`허브 파일에 Spokes 배열이 없다: ${HUBFILE}`);
   S.hubVar = m[1];
   console.log(`   hubVar 자동 인식: ${S.hubVar}`);

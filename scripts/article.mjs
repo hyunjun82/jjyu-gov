@@ -7,14 +7,18 @@
  *   4단계 시스템(타이틀·구성표·사실·대조)과 게이트는 그대로 두고, **돌리는 방식**만 바꾼다 —
  *   판단이 필요한 단계(설계·캡처 읽기·작성·고치기)는 글 한 편마다 `claude -p` 를 새로 불러
  *   대화창에 아무것도 쌓이지 않게 한다. 나머지는 이미 있던 결정적 스크립트다:
- *     write.ts --1(타이틀 후보) · capture-source · fetch-source · new-spoke · check-source-match ·
+ *     capture-source · fetch-source · new-spoke · check-source-match ·
  *     check-source-backing · check-button-variety · check-stage-approval · check-source-links · verify-integrity
  *   구조는 wiki-site scripts/article.mjs 와 같다. 글의 모양은 이 저장소의 정본 스포크(article-prompts.mjs CANON)다.
  *
- *   npm run article -- <slug> --keyword "무해지 보험" --hub term-vs-whole-life-insurance --dir 정기종신보험
- *                     [--title "…"] [--from plan|cta|collect|captures|write|gates] [--max-fix 2] [--model sonnet]
+ *   ★ 타이틀·소제목은 사장님이 준다 (2026-09-19). 기계가 짓지도, 판정하지도, 바꾸자고 하지도 않는다.
+ *   npm run article -- --spec scripts/specs/기초연금.md [--only <slug>]
+ *        spec 머리: hub: <허브slug> / dir: <content 폴더> / keyword: <실검색어 파일 이름, 선택>
+ *        글마다:    **1. 타이틀**  /  - slug: english-slug  /  - 소제목 1: …  (4개)
+ *   npm run article -- <slug> --keyword "기초연금" --hub basic-pension --dir 기초연금 --title "…" --subs "a;b;c;d"
+ *                     [--from plan|cta|collect|captures|write|gates] [--max-fix 2] [--model sonnet]
  *                     [--skip-render] [--skip-captures] [--keep-on-fail] [--commit] [--budget 4] [--example <tsx>]
- *   npm run article -- --batch scripts/batch.txt        # 줄마다: slug | 키워드 | 허브slug | 폴더 | 타이틀(생략 가능)
+ *   npm run article -- --batch scripts/batch.txt        # 옛 형식: slug | 키워드 | 허브slug | 폴더 | 타이틀 | 소제목1;소제목2;… (타이틀·소제목 필수)
  *
  * 산출물 (같은 명령을 다시 돌리면 끝난 단계는 재사용한다)
  *   scripts/output/plan-<slug>.json           설계도 (타이틀·소제목·버튼·출처·버튼 확인 결과·캡처 읽은 것)
@@ -33,7 +37,7 @@ import { ask as askRaw, extractJson, assertSubscriptionOnly, newMeter, addUsage,
 import { checkPlan, checkDraft, slotsFor } from "./lib/article-check.mjs";
 import { planPrompt, capturesPrompt, writePrompt, fixPrompt, evidenceDigest, CANON } from "./lib/article-prompts.mjs";
 import { snapName } from "./lib/snap-name.mjs";
-import { tsxOf, specOf, unwire, isWired, exportNameOf, contentPathOf, stage2Of, outlineMd, factsheetMd, titleLogBlock, CONTENT_DIR, REG } from "./lib/spoke-emit.mjs";
+import { tsxOf, specOf, unwire, isWired, exportNameOf, contentPathOf, stage2Of, outlineMd, factsheetMd, CONTENT_DIR, REG } from "./lib/spoke-emit.mjs";
 
 const STAGES = ["plan", "cta", "collect", "captures", "write", "gates"];
 const PORT = 3111;
@@ -135,6 +139,9 @@ function makeCtx(slug, flags) {
     hubSlug: String(flags.hub || "").trim(),
     policyDir: String(flags.dir || "").trim(),
     fixedTitle: typeof flags.title === "string" ? flags.title.trim() : "",
+    // 소제목도 사장님이 준다 (2026-09-19). 배열(spec) 또는 "a;b;c;d" 문자열
+    fixedSubheads: Array.isArray(flags.subs) ? flags.subs.map((q) => String(q).trim()).filter(Boolean)
+      : typeof flags.subs === "string" ? flags.subs.split(/\s*;\s*/).map((q) => q.trim()).filter(Boolean) : [],
     from: typeof flags.from === "string" ? flags.from : "",
     maxFix: Number(flags["max-fix"] ?? 2),
     // 전 단계 sonnet. 비워 두면 계정 기본 모델을 상속해 큰 모델 한도를 먹는다
@@ -282,47 +289,25 @@ async function guard(ctx) {
   if (!fs.existsSync(ctx.example)) throw new Error(`정본 글이 없습니다: ${ctx.example}`);
   const hubSrc = fs.readFileSync(ctx.hubFile, "utf8");
   ctx.hubTitle = hubSrc.match(/^\s{2}title:\s*'([^']+)'/m)?.[1] || ctx.hubSlug;
-  if (!/export const \w+Spokes\s*=\s*\[/.test(hubSrc)) throw new Error(`허브 파일에 Spokes 배열이 없습니다: ${ctx.hubFile}`);
+  if (!/export const [\w가-힣]+Spokes\s*=\s*\[/.test(hubSrc)) throw new Error(`허브 파일에 Spokes 배열이 없습니다: ${ctx.hubFile}`);
 
-  let kw = loadKeywords(ctx.keyword);
-  if (!kw) {
-    log("keywords", `실검색어 자료가 없어 수집합니다: npx tsx scripts/collect-keywords.ts "${ctx.keyword}" (Playwright)`);
-    const r = await runTsx(path.join("scripts", "collect-keywords.ts"), [ctx.keyword]);
-    kw = loadKeywords(ctx.keyword);
-    if (!kw) throw new Error(`실검색어 수집 실패 (exit ${r.code})\n${r.out.slice(-800)}\n  scripts/output/${ctx.keyword}.txt 에 한 줄에 하나씩 적어 두면 그걸 씁니다`);
-  }
-  if (kw.queries.length < 5) throw new Error(`실검색어가 ${kw.queries.length}개뿐입니다 (${kw.file}) — 타이틀·소제목을 조립할 수 없습니다. 목록을 더 넣습니다`);
+  /* 타이틀·소제목은 사장님이 준다 (2026-09-19). 기계가 짓지 않으므로 실검색어는 있으면 참고, 없으면 그만 (수집하지 않는다) */
+  if (!ctx.fixedTitle || ctx.fixedSubheads.length < 3) throw new Error('타이틀·소제목은 spec 으로 준다: --spec scripts/specs/{허브}.md  (또는 --title "…" --subs "a;b;c;d")');
+  const kw = loadKeywords(ctx.keyword) || { queries: [], byTheme: null, file: "(없음)" };
   ctx.keywords = kw;
   const ex = existingSpokes(ctx);
   ctx.existingTitles = ex.titles; ctx.spokePaths = new Set(ex.paths);
-  ctx.indexTitles = fs.existsSync(path.join("reference", "titles", "INDEX.md"))
-    ? fs.readFileSync(path.join("reference", "titles", "INDEX.md"), "utf8").split("\n").filter((l) => /^-\s+\S/.test(l)).map((l) => l.replace(/^-\s+/, "").trim())
-    : [];
   ctx.registry = sourceRegistry(ctx.keyword);
   ctx.topic = topicTokens(ctx.keyword);
   log("guard", `실검색어 ${kw.queries.length}개 (${path.basename(kw.file)}) · 허브 "${ctx.hubTitle}" 스포크 ${ex.slugs.length}개 · 출처 등록부 ${ctx.registry.length}건`);
 }
 
-/* ── 1. 설계 ── */
-async function titleCandidates(ctx) {
-  if (ctx.fixedTitle) return [];
-  const state = path.join(OUT, `state-${ctx.slug}.json`);
-  const r = await runTsx(path.join("scripts", "write.ts"), [ctx.keyword, "--1", "--slug", ctx.slug]);
-  try {
-    const s = readJson(state);
-    if (s.keyword === ctx.keyword && Array.isArray(s.candidates) && s.candidates.length) return s.candidates;
-  } catch {}
-  ctx.notes.push(`write.ts --1 이 후보를 못 냈다 (exit ${r.code}) — 설계 단계가 실검색어 조각으로 직접 조립`);
-  return [];
-}
-function normalizePlan(p, ctx, candidates) {
-  const pick = Number(p.titlePick);
-  if (!ctx.fixedTitle && pick && candidates.length) {
-    const c = candidates.find((x) => x.n === pick);
-    if (c && (!p.title || norm(p.title) === norm(c.title))) { p.title = c.title; p.pattern = p.pattern || c.pattern; p.titleFrom = [...new Set([...(p.titleFrom || []), ...c.from])]; }
-  }
-  if (ctx.fixedTitle) p.title = ctx.fixedTitle;
-  p.subheads = (Array.isArray(p.subheads) ? p.subheads : []).map((s) => (typeof s === "string" ? { q: one(s), from: "" } : { q: one(s?.q), from: one(s?.from) }));
+/* ── 1. 설계 (타이틀·소제목은 spec 그대로 — 모델은 버튼·출처·서론 계획만 짠다) ── */
+function normalizePlan(p, ctx) {
+  /* 모델이 뭐라 적었든 타이틀·소제목은 spec 으로 덮어쓴다 (2026-09-19) */
+  p.title = ctx.fixedTitle;
+  p.subheads = ctx.fixedSubheads.map((q) => ({ q, from: "" }));
+  for (const k of ["titlePick", "titleFrom", "pattern", "refCapture", "refTitle"]) delete p[k];
   p.buttons = p.buttons || {}; p.buttons.hero = p.buttons.hero || {}; p.buttons.slots = Array.isArray(p.buttons.slots) ? p.buttons.slots : [];
   p.sources = (Array.isArray(p.sources) ? p.sources : []).map((s) => ({ url: one(s?.url), name: one(s?.name), why: one(s?.why) }));
   const rel = (u) => String(u || "").replace(/^https?:\/\/gov\.jjyu\.co\.kr(\/policy\/[^\s"']*)$/, "$1");
@@ -336,10 +321,10 @@ function normalizePlan(p, ctx, candidates) {
 async function stagePlan(ctx, deadCtas = [], extraNote = "") {
   if (fs.existsSync(ctx.planFile) && !ctx.redo("plan") && !deadCtas.length && !extraNote) {
     const p = readJson(ctx.planFile);
-    if (!ctx.fixedTitle || p.title === ctx.fixedTitle) { log("plan", `설계도 재사용 — "${p.title}" (소제목 ${p.subheads.length})`); return p; }
-    log("plan", "저장된 설계도의 타이틀이 고정 타이틀과 달라 다시 세웁니다");
+    const same = p.title === ctx.fixedTitle && JSON.stringify((p.subheads || []).map((x) => x.q)) === JSON.stringify(ctx.fixedSubheads);
+    if (same) { log("plan", `설계도 재사용 — "${p.title}" (소제목 ${p.subheads.length})`); return p; }
+    log("plan", "저장된 설계도의 타이틀·소제목이 spec 과 달라 다시 세웁니다");
   }
-  const candidates = await titleCandidates(ctx);
   ctx.found = ctx.found || await discoverSources(ctx);
   const given = path.join(OUT, `urls-${ctx.slug}.txt`);
   if (fs.existsSync(given)) {
@@ -350,25 +335,25 @@ async function stagePlan(ctx, deadCtas = [], extraNote = "") {
   const base = {
     found: ctx.found, topic: ctx.topic,
     slug: ctx.slug, keyword: ctx.keyword, hubSlug: ctx.hubSlug, hubTitle: ctx.hubTitle, hubPath: ctx.hubPath, policyDir: ctx.policyDir,
-    queries: ctx.keywords.queries, byTheme: ctx.keywords.byTheme, candidates, existingTitles: ctx.existingTitles,
-    spokePaths: [...ctx.spokePaths].filter((p) => p.endsWith("/")), registry: ctx.registry, today: today(), fixedTitle: ctx.fixedTitle,
+    queries: ctx.keywords.queries, byTheme: ctx.keywords.byTheme, existingTitles: ctx.existingTitles,
+    spokePaths: [...ctx.spokePaths].filter((p) => p.endsWith("/")), registry: ctx.registry, today: today(), fixedTitle: ctx.fixedTitle, fixedSubheads: ctx.fixedSubheads,
   };
   let retryNote = [
     deadCtas.length ? `이 버튼 주소들은 Playwright 로 열어 보니 죽어 있었습니다. 다시 고르지 마세요:\n${deadCtas.map((c) => `- ${c.url} — ${c.why}`).join("\n")}\n확실하지 않으면 허브 경로 ${ctx.hubPath} 나 기존 스포크 경로를 씁니다.` : "",
     extraNote,
   ].filter(Boolean).join("\n\n");
-  const cctx = { keyword: ctx.keyword, queries: ctx.keywords.queries, existingTitles: ctx.existingTitles, indexTitles: ctx.indexTitles, hubPath: ctx.hubPath, spokePaths: ctx.spokePaths, fixedTitle: ctx.fixedTitle };
+  const cctx = { keyword: ctx.keyword, queries: ctx.keywords.queries, existingTitles: ctx.existingTitles, hubPath: ctx.hubPath, spokePaths: ctx.spokePaths, fixedTitle: ctx.fixedTitle, fixedSubheads: ctx.fixedSubheads };
   for (let attempt = 1; attempt <= 3; attempt++) {
-    log("plan", `설계도 작성 ${attempt}/3 (claude -p, 후보 ${candidates.length}개)`);
+    log("plan", `설계도 작성 ${attempt}/3 (claude -p)`);
     const { text } = await ask(ctx, planPrompt({ ...base, retryNote }), { label: `plan${attempt}`, expect: "1~2분" });
     let plan;
-    try { plan = normalizePlan(extractJson(text), ctx, candidates); } catch (e) { retryNote = e.message; continue; }
+    try { plan = normalizePlan(extractJson(text), ctx); } catch (e) { retryNote = e.message; continue; }
     const errs = checkPlan(plan, cctx);
     if (!errs.length) {
       plan.plannedAt = today();
       if (deadCtas.length) plan.deadCtas = deadCtas;
       writeJson(ctx.planFile, plan);
-      log("plan", `"${plan.title}" [${plan.pattern}] — 소제목 ${plan.subheads.length} · 버튼 ${1 + plan.buttons.slots.length} · 출처 ${plan.sources.length}`);
+      log("plan", `"${plan.title}" — 소제목 ${plan.subheads.length} · 버튼 ${1 + plan.buttons.slots.length} · 출처 ${plan.sources.length}`);
       return plan;
     }
     retryNote = errs.map((e) => `- ${e}`).join("\n");
@@ -544,6 +529,11 @@ function emit(ctx, plan, draft) {
   }
   fs.writeFileSync(contentPath, tsxOf({ draft, plan, slug: ctx.slug, today: today(), exportName: exportNameOf(ctx.policyDir, plan.fileName) }));
   ctx.contentPath = contentPath; ctx.emitted = true;
+  /* 고치기가 버튼 라벨을 바꿀 수 있다 — 설계도의 라벨을 초안에 맞춘다. 안 맞추면 화면 검사가 옛 라벨을 찾다 실패한다 (2026-09-19 1번 글에서 실제로) */
+  const sp = draft?.spoke || {};
+  if (sp.heroAct?.label) plan.buttons.hero.label = one(sp.heroAct.label);
+  for (const s of plan.buttons.slots) { const l = sp.qa?.[Number(s.qaIndex)]?.act?.label; if (l) s.label = one(l); }
+  writeJson(ctx.planFile, plan);
   writeJson(path.join(OUT, `stage2-${ctx.slug}.json`), stage2Of({ plan, slug: ctx.slug, keyword: ctx.keyword, today: today() }));
   fs.writeFileSync(path.join(OUT, `outline-${ctx.slug}.md`), outlineMd({ plan, draft, slug: ctx.slug, keyword: ctx.keyword, today: today() }));
   fs.writeFileSync(path.join(OUT, `factsheet-${ctx.slug}.md`), factsheetMd({ plan, draft, slug: ctx.slug, keyword: ctx.keyword, today: today(), sourceChars: ctx.sourceText.length }));
@@ -596,7 +586,11 @@ async function gates(ctx, plan) {
   await run("수치 ↔ 출처 (check-source-backing)", "check-source-backing.ts", [rel]);
   log("gate", "버튼 문구 도배 (check-button-variety, 이 글이 새로 만든 문제만)");
   const after = await varietyProblems(ctx);
-  const fresh = after.filter((l) => !ctx.varietyBaseline.includes(l));
+  /* 폴더에 원래 있던 문제는 이 글 책임이 아니다. 줄을 글자로 비교하면 분모(파일 수)만 11→12 로 바뀌어도
+     "새 문제"로 잡힌다 (2026-09-19 1번 글: "내" 7/11 → 7/12). 숫자를 뺀 키로 맞추고, 분자가 늘었을 때만 이 글 탓이다 */
+  const vkey = (l) => l.replace(/\d+\/\d+개\s*\(\d+%\)/g, "").replace(/\s+/g, " ").trim();
+  const vnum = (l) => Number(l.match(/(\d+)\/\d+개/)?.[1] ?? -1);
+  const fresh = after.filter((l) => { const b = ctx.varietyBaseline.find((x) => vkey(x) === vkey(l)); return !b || vnum(l) > vnum(b); });
   results.push({ name: "버튼 도배 (check-button-variety)", ok: fresh.length === 0, out: fresh.join("\n") || `ok (폴더에 원래 있던 지적 ${ctx.varietyBaseline.length}건은 이 글 책임이 아니다)` });
   await run("승인 도장 (check-stage-approval)", "check-stage-approval.ts", []);
   await run("출처 링크 (check-source-links)", "check-source-links.ts", []);
@@ -636,7 +630,7 @@ async function gates(ctx, plan) {
 function writeReport(ctx, { ok, plan, error }) {
   const L = [];
   L.push(`# ${ok ? "✅ 통과" : "❌ 실패"} — ${ctx.slug}`, "");
-  L.push(`- 타이틀: ${plan?.title || "(설계도 없음)"}${plan?.pattern ? ` [${plan.pattern}]` : ""}`);
+  L.push(`- 타이틀: ${plan?.title || "(설계도 없음)"} (spec 고정 — 사장님이 줌)`);
   L.push(`- 키워드: ${ctx.keyword} · 허브: ${ctx.hubTitle || ctx.hubSlug} (${ctx.hubPath}) · 폴더: ${ctx.policyDir}`);
   L.push(`- 실행: ${new Date().toLocaleString("ko-KR")} · 총 ${mins(Date.now() - ctx.t0)} · 고친 횟수 ${ctx.fixRounds} · 모델 ${ctx.model}`);
   if (ctx.contentPath && ok) L.push(`- 글: ${path.relative(ROOT, ctx.contentPath).replace(/\\/g, "/")} → https://gov.jjyu.co.kr${ctx.hubPath}/${ctx.slug}/`);
@@ -652,9 +646,9 @@ function writeReport(ctx, { ok, plan, error }) {
   L.push("> 구독이라 실제 청구는 없습니다. 환산 $ 는 사용 한도를 얼마나 먹었는지의 척도입니다. 호출마다 고정비(시스템 프롬프트) 약 3만 토큰이 붙습니다.", "");
   if (plan) {
     L.push("## 설계도 (구성표)");
-    L.push(`- 타이틀 조각: ${(plan.titleFrom || []).join(" · ")} · 참조 캡처: ${plan.refCapture} — "${plan.refTitle}"`);
+    L.push("- 타이틀·소제목: spec 고정 (글자 그대로)");
     const slots = slotsFor(plan.subheads.length);
-    plan.subheads.forEach((s, i) => L.push(`${i + 1}. ${s.q}${slots.includes(i) ? "  ← 버튼 슬롯" : ""}${s.from ? `  (실검색어: ${s.from})` : ""}`));
+    plan.subheads.forEach((s, i) => L.push(`${i + 1}. ${s.q}${slots.includes(i) ? "  ← 버튼 슬롯" : ""}`));
     L.push(`- 상단 버튼: [${plan.buttons.hero.label}] → ${plan.buttons.hero.url}`);
     for (const s of plan.buttons.slots) L.push(`- qa${Number(s.qaIndex) + 1} 버튼: [${s.label}] → ${s.url}`);
     for (const [u, c] of Object.entries(plan.ctaChecked || {})) L.push(`  - ${c.ok ? "✓" : "✗"} ${u}${c.title ? ` (${one(c.title).slice(0, 50)})` : ""}${c.why ? ` — ${c.why}` : ""}`);
@@ -692,7 +686,7 @@ function writeReport(ctx, { ok, plan, error }) {
   return file;
 }
 function commit(ctx, plan) {
-  const paths = [ctx.contentPath, REG, ctx.hubFile, path.join("public", "search-index.json"), path.join("docs", "title-log.md"),
+  const paths = [ctx.contentPath, REG, ctx.hubFile, path.join("public", "search-index.json"),
     ...["plan", "stage2", "spec"].map((k) => path.join(OUT, `${k}-${ctx.slug}.json`)),
     ...["outline", "factsheet"].map((k) => path.join(OUT, `${k}-${ctx.slug}.md`)),
     ctx.sourceFile, ...capturesOf(ctx).map((f) => path.join(OUT, "captures", f)),
@@ -744,10 +738,7 @@ async function runOne(slug, flags) {
       draft = normalizeDraft(extractJson(text));
       writeJson(ctx.draftFile, draft);
     }
-    if (ok) {
-      fs.appendFileSync(path.join("docs", "title-log.md"), titleLogBlock({ plan, slug }));
-      if (ctx.commit) commit(ctx, plan);
-    }
+    if (ok && ctx.commit) commit(ctx, plan);
   } catch (e) {
     error = e.stack || e.message;
     console.error(`\n✗ ${slug}: ${e.message}`);
@@ -762,23 +753,46 @@ async function runOne(slug, flags) {
 /* ── 묶음 ── */
 function parseBatch(file) {
   return fs.readFileSync(file, "utf8").split(/\r?\n/).map((l) => l.trim()).filter((l) => l && !l.startsWith("#")).map((l) => {
-    const [slug, keyword, hub, dir, title] = l.split("|").map((s) => s.trim());
-    return { slug, keyword, hub, dir, title };
+    const [slug, keyword, hub, dir, title, subs] = l.split("|").map((s) => s.trim());
+    return { slug, keyword, hub, dir, title, subs: subs ? subs.split(/\s*;\s*/).map((q) => q.trim()).filter(Boolean) : [] };
   });
+}
+/* ── spec — 사장님이 준 타이틀·소제목 (2026-09-19). 채팅에 주신 md 를 그대로 붙여 넣으면 된다 ──
+ * 머리:   hub: <허브slug>   dir: <content 폴더>   keyword: <실검색어 파일 이름, 선택 — 없으면 dir>
+ * 글마다: **1. 타이틀**  /  - slug: english-slug  /  - 소제목 1: …  (4개. "qa 1:" 도 된다)
+ */
+function parseSpec(file) {
+  const head = {}; const items = []; let cur = null;
+  for (const raw of fs.readFileSync(file, "utf8").split(/\r?\n/)) {
+    const l = raw.trim();
+    if (!l || l.startsWith("#")) continue;
+    let m;
+    if ((m = l.match(/^\*\*\s*\d+\.\s*(.+?)\s*\*\*$/))) { cur = { title: m[1].trim(), subs: [], slug: "" }; items.push(cur); continue; }
+    if (!cur && (m = l.match(/^(hub|dir|keyword)\s*:\s*(.+)$/))) { head[m[1]] = m[2].trim(); continue; }
+    if (cur && (m = l.match(/^-\s*slug\s*:\s*(\S+)/))) { cur.slug = m[1]; continue; }
+    if (cur && (m = l.match(/^-\s*(?:소제목\s*\d+|qa\s*\d+)\s*[:：]\s*(.+)$/))) { cur.subs.push(m[1].trim()); continue; }
+  }
+  if (!head.hub || !head.dir) throw new Error(`spec 머리에 hub: 와 dir: 가 필요합니다 (${file})`);
+  const bad = items.filter((it) => !it.slug || it.subs.length < 3);
+  if (bad.length) throw new Error(`spec 에 slug 나 소제목(3개 이상)이 빠진 글:\n${bad.map((b) => `- ${b.title} (slug "${b.slug}", 소제목 ${b.subs.length})`).join("\n")}`);
+  const dup = items.map((i) => i.slug).filter((x, i, a) => a.indexOf(x) !== i);
+  if (dup.length) throw new Error(`spec 에 같은 slug 가 두 번: ${[...new Set(dup)].join(", ")}`);
+  return items.map((it) => ({ slug: it.slug, keyword: head.keyword || head.dir, hub: head.hub, dir: head.dir, title: it.title, subs: it.subs }));
 }
 
 const { flags, positional } = parseArgs(process.argv.slice(2));
 if (flags.budget) budget.perArticle = Number(flags.budget);
 if (flags["batch-budget"]) budget.batch = Number(flags["batch-budget"]);
 try {
-  if (flags.batch) {
-    const items = parseBatch(String(flags.batch));
+  if (flags.batch || flags.spec) {
+    let items = flags.spec ? parseSpec(String(flags.spec)) : parseBatch(String(flags.batch));
+    if (flags.only) { items = items.filter((i) => i.slug === String(flags.only)); if (!items.length) throw new Error(`--only ${flags.only} 가 목록에 없습니다`); }
     const t0 = Date.now();
     console.log(`묶음 ${items.length}편 — 한 편씩 차례로 (글마다 claude -p 새 호출, 대화창에 쌓이지 않는다)`);
     const summary = [];
     for (const it of items) {
-      const f = { ...flags, keyword: it.keyword, hub: it.hub, dir: it.dir, title: it.title || "" };
-      delete f.batch;
+      const f = { ...flags, keyword: it.keyword, hub: it.hub, dir: it.dir, title: it.title || "", subs: it.subs || [] };
+      delete f.batch; delete f.spec; delete f.only;
       summary.push(await runOne(it.slug, f));
     }
     if (summary.some((s) => s.ok)) {
@@ -795,7 +809,7 @@ try {
     console.log(`\n══════════ 묶음 끝: ${summary.filter((s) => s.ok).length}/${summary.length} 통과 · ${mins(Date.now() - t0)} · 모델 호출 ${batchMeter.calls}회 · ${fmtUsage(batchMeter)} — ${file}`);
     process.exitCode = summary.every((s) => s.ok) ? 0 : 1;
   } else {
-    if (!positional[0]) throw new Error('사용: npm run article -- <slug> --keyword "키워드" --hub <허브slug> --dir <폴더>  |  npm run article -- --batch scripts/batch.txt');
+    if (!positional[0]) throw new Error('사용: npm run article -- --spec scripts/specs/{허브}.md [--only slug]  |  npm run article -- <slug> --keyword "키워드" --hub <허브slug> --dir <폴더> --title "…" --subs "a;b;c;d"');
     const r = await runOne(positional[0], flags);
     if (r.ok) { log("index", "검색 색인 갱신 (build-search-index.ts)"); await runTsx(path.join("scripts", "build-search-index.ts"), []); }
     process.exitCode = r.ok ? 0 : 1;

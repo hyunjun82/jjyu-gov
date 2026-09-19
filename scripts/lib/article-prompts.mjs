@@ -3,13 +3,12 @@
  *
  * 규칙 문장은 여기 복사해 두지 않는다. 정본 파일을 실행 때 읽어 넣는다 —
  *   docs/button-copy.md · .claude/rules/action-copy.md · docs/hook-patterns.md
- *   docs/title-corpus-kb.md · reference/titles/INDEX.md · scripts/lib/title-rule.mjs
+ *   (타이틀·소제목은 spec 으로 고정 — 2026-09-19 부터 기계가 짓지 않는다. 사장님이 준다)
  * 정본이 바뀌면 지시문도 같이 바뀐다 (CLAUDE.md "정본 색인 — 여기 복사 금지").
  * 글의 모양은 저장소의 기존 보험 스포크 한 편(CANON)을 그대로 보여 주고 그 구조로 쓰게 한다.
  */
 import fs from "node:fs";
 import path from "node:path";
-import { SUB, HOOK } from "./title-rule.mjs";
 import { slotsFor } from "./article-check.mjs";
 
 /** 정본 — 사장님 승인·Playwright 직접 조회·표 2개·버튼 슬롯 정확·"쓰지 않는 것" 명시 (2026-09-07) */
@@ -25,8 +24,6 @@ function docs() {
     buttonCopy: read(path.join("docs", "button-copy.md")).split("\n## 검사")[0],
     actionCopy: stripFront(read(path.join(".claude", "rules", "action-copy.md"))).split("\n## 게이트")[0],
     hookPatterns: hook.split("\n## 어디부터 적용하나")[0],
-    titleKb: read(path.join("docs", "title-corpus-kb.md")),
-    titleIndex: read(path.join("reference", "titles", "INDEX.md")).split(/\n(?=## )/).slice(1).join("\n"),
   };
 }
 
@@ -45,23 +42,13 @@ export function evidenceDigest(sourceText, { maxTotal = 70000 } = {}) {
   return out.join("\n").slice(0, maxTotal + 2000);
 }
 
-export function planPrompt({ slug, keyword, hubSlug, hubTitle, hubPath, policyDir, queries, byTheme, candidates, existingTitles, spokePaths, registry, found = [], topic = [], today, retryNote, fixedTitle }) {
+export function planPrompt({ slug, keyword, hubSlug, hubTitle, hubPath, policyDir, queries = [], byTheme, existingTitles, spokePaths, registry, found = [], topic = [], today, retryNote, fixedTitle, fixedSubheads = [] }) {
   const d = docs();
-  const titleBlock = fixedTitle
-    ? `## ★ 타이틀은 이미 정해졌습니다 (사장님 지시) — 새로 짓지 않습니다\n"${fixedTitle}"\n"title" 에 이 문장을 글자 하나 바꾸지 말고 그대로 적습니다. titleFrom 에는 이 타이틀에 실제로 들어간 실검색어를 적습니다.`
-    : `## 타이틀 — 실검색어 조각으로만 조립합니다 (머리로 지은 낱말 금지)
-${candidates.length ? `기계가 실검색어 조각으로 조립한 후보입니다. **이 중에서 고르는 것이 기본**이고, 고른 번호를 "titlePick" 에 적습니다. 후보를 다듬을 때도 낱말은 실검색어 목록 안의 것만 씁니다.\n${candidates.map((c) => `${String(c.n).padStart(2)} [${c.pattern}] ${c.title}  ← ${c.from.join(" · ")}`).join("\n")}` : "기계 후보가 없습니다. 아래 실검색어 목록의 문자열 2개 이상을 그대로 이어 붙여 짓습니다."}
-
-기계가 이렇게 판정합니다 (scripts/lib/title-rule.mjs — 하나라도 빠지면 거부):
-- 세부키워드 1개 이상: ${SUB.join(" · ")}
-- 후킹 1개 이상 (또는 물음표): ${HOOK.join(" · ")}
-- 종결: 해요체(~나요·~까요·~세요·~죠)·합니다체(~다) 금지. "~법"·"총정리" 종결 금지. 물음형·시나리오형·"…까지" 명사형은 됩니다.
-- 길이 14~56자. 자격 숫자로 모수 좁히기 금지("19년 6개월"). 이득·손실 숫자는 됩니다.
-- 조각 둘을 이을 때 같은 말이 두 번 나오면 하나로 합칩니다. ✗ "무해지 보험료인상, 무해지보험 판매중지되면 얼마나 손해일까?" → ○ "무해지 보험료인상과 판매중지되면 얼마나 손해일까?"
-- 이미 있는 글 제목과 같으면 거부. 아래 목록과 겹치지 않는 각도를 잡습니다.
-
-KB 패턴 ①~⑨ 중 하나를 골라 "pattern" 에 기호부터 적습니다 (예: "⑥ 함정 경고형"). 아래 정본을 그대로 따릅니다:
-${d.titleKb}`;
+  const titleBlock = `## ★ 타이틀·소제목은 사장님이 정했습니다 — 새로 짓지도, 다듬지도, 바꾸자고 하지도 않습니다
+타이틀: "${fixedTitle}"
+소제목 (qa 순서 그대로):
+${fixedSubheads.map((q, i) => `${i + 1}. ${q}`).join("\n")}
+"title" 과 "subheads[].q" 에 이 문장들을 글자 하나 바꾸지 말고 그대로 적습니다.`;
 
   return `당신은 gov.jjyu.co.kr 편집자입니다. 도구를 쓰지 마세요. 필요한 자료는 전부 아래에 있습니다.
 할 일: 보험 스포크(핵심콕콕 형식) 한 편의 설계도(JSON)를 만듭니다. 글은 아직 쓰지 않습니다.
@@ -74,19 +61,11 @@ ${retryNote ? `\n※ 이전 답이 거부된 이유 — 이번엔 반드시 고�
 ${existingTitles.map((t) => `  - ${t}`).join("\n") || "  (없음)"}
 - 버튼 목적지로 쓸 수 있는 내부 경로: ${hubPath} (허브) ${spokePaths.length ? `· 기존 스포크 ${spokePaths.slice(0, 40).join(" , ")}` : ""}
 
-## 실검색어 (사람이 실제로 친 말. 타이틀·소제목은 이 문자열로만 만듭니다)
-${queries.map((q) => `- ${q}`).join("\n")}
-${byTheme ? `\n주제별 분류: ${j(byTheme)}` : ""}
-
 ${titleBlock}
 
-## 참조 캡처 (reference/titles/INDEX.md — 타이틀 기록용. 주제와 가장 가까운 줄 하나를 "refTitle" 에 글자 그대로, 그 파일명을 "refCapture" 에)
-${d.titleIndex}
-
-## 소제목 (qa) — 개수는 타이틀이 정합니다 (3~7개)
-- 소제목 = 실검색어 그대로 + 물음. "40대 실비보험 가격" → "40대 실비보험 가격은 얼마인가요?". 절반 이상은 실검색어를 통째로 품습니다. "from" 에 그 실검색어를 적습니다.
-- 첫 카드(인덱스 0)는 행동(청구·신청·확인 방법)입니다. 최상단에 둡니다 — 클릭은 상단에서 납니다.
-- 타이틀이 약속한 항목마다 소제목 하나. 채우려고 붙이지 않습니다.
+## 참고 어휘 — 실검색어 (있으면. 본문·FAQ 낱말 고를 때 참고만)
+${queries.length ? queries.map((q) => `- ${q}`).join("\n") : "  (없음)"}
+${byTheme ? `\n주제별 분류: ${j(byTheme)}` : ""}
 
 ## 버튼 — 화면은 qa 인덱스 2·4·마지막 에만 버튼을 그립니다
 - hero(상단) 1개 + 슬롯. 라벨은 [구체적 대상] + [행동 종결 …기], hero 16자·슬롯 18자 이내. "확인하기" 만은 금지, "~보기" 금지.
@@ -106,16 +85,11 @@ ${registry.map((r) => `  - ${r.url} | ${r.chars}자 | ${r.hint}`).join("\n") || 
 ## 출력 — JSON 하나만. 설명·마크다운 펜스 없이
 {
   "slug": "${slug}",
-  "titlePick": 0,
-  "title": "${fixedTitle || "…"}",
-  "titleFrom": ["실검색어1", "실검색어2"],
-  "pattern": "⑥ 함정 경고형",
-  "refCapture": "보험타이틀.png",
-  "refTitle": "INDEX 의 한 줄 그대로",
+  "title": "${fixedTitle}",
   "breadcrumb": "12자 이내 명사구",
   "fileName": "한글파일명 (2~16자, 공백·기호 없이. 예: 무해지환급형해지)",
   "role": "eligibility | compare | apply | amount | caution",
-  "subheads": [ { "q": "…인가요?", "from": "실검색어" } ],
+  "subheads": [ ${fixedSubheads.map((q) => `{ "q": ${JSON.stringify(q)} }`).join(", ")} ],
   "buttons": {
     "hero": { "label": "내 … 조회하기", "url": "https://…" },
     "slots": [ { "qaIndex": 2, "label": "…", "url": "…" }, { "qaIndex": 4, "label": "…", "url": "…" } ]
@@ -123,7 +97,7 @@ ${registry.map((r) => `  - ${r.url} | ${r.chars}자 | ${r.hint}`).join("\n") || 
   "sources": [ { "url": "https://…", "name": "기관 — 문서명", "why": "어느 소제목의 근거인지" } ],
   "heroPlan": "서론 6단계(공감→대안이 왜 어려운가→그래서 이게 있다(금액)→다만 다 되는 건 아니다→확인부터→기간) 를 이 글에서 어떻게 채울지 한 줄씩",
   "misconceptions": ["검색자가 자주 틀리는 것 2~3개"],
-  "faq": ["…인가요?", "…", "…", "…", "…"]
+  "faq": ["…인가요?", "…인가요?"]
 }
 slots 의 qaIndex 는 subheads 개수 n 에 대해 정확히 [2, 4, n-1] 의 집합입니다 (n=4 → [2, 3], n=5 → [2, 4], n=6 → [2, 4, 5]).`;
 }
@@ -152,7 +126,7 @@ const RULES = ({ n, hubPath, allowedUrls, sourceUrls }) => {
 - 카드마다 intro(500~900자, 검색한 사람 기준의 답. 결론부터, 근거 문장 인용하며) · highlights 3~5개(40자 이내) · 필요하면 table(headers·rows, 칸 수 일치) 또는 box(원문 인용) · sourceNote("* 출처: 기관 문서명 (${new Date().toISOString().slice(0, 10)} 확인)"). 수치를 담은 카드에는 sourceNote 를 반드시.
 - 버튼(act: {cue, label, url})은 **qa 인덱스 ${slots.join("·")} 에만** 넣습니다. 다른 자리의 act 는 화면에 안 나옵니다. 슬롯은 전부 채웁니다.
 - keyFacts 6~12행 (핵심콕콕 박스 — 키: 값. 값은 추출본의 숫자·문장으로). keyFactsHighlights 는 그 값 안에 실제로 있는 조각만.
-- faqData 5개, 각각 q·a(40자 이상)·source(출처 이름)·sourceUrl(허용 출처). sources 1~4개 {name, url}.
+- faqData 정확히 2개 (소제목 4개가 못 다룬 궁금증만 — 2026-09-19 사장님 확정), 각각 q·a(40자 이상)·source(출처 이름)·sourceUrl(허용 출처). sources 1~4개 {name, url}.
 - description 60~260자(검색결과 문장, 굵은 숫자 하나). breadcrumb 20자 이내.
 문구 (docs/button-copy.md · .claude/rules/action-copy.md 정본)
 - heroHook 2~5문장: 1문단 장면 하나(제도 얘기 안 함, "~하시죠/~되죠" 로 동의) → 2문단 제도와 금액, 그리고 반전("다만 다 되는 건 아닙니다"). 도입 군더더기(알아보겠습니다) 금지. "…하시길 바랍니다" 맺음 금지.

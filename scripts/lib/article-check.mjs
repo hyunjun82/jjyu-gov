@@ -5,12 +5,10 @@
  * 규칙은 이 저장소의 검사기와 훅에서 글자 그대로 옮겼다 — 최종 판정은 언제나 원본이 한다:
  *   · 숫자 ↔ 추출본       scripts/check-source-backing.ts (NUM) · check-source-match.ts (TOKEN·BANNED)
  *   · 버튼 슬롯 2·4·마지막  app/policy/[id]/[spoke]/SpokeClient.tsx 221행 · scripts/new-spoke.ts
- *   · 상단 라벨 16자       scripts/hooks/require-title-log.mjs (D)
- *   · 타이틀 공식          scripts/lib/title-rule.mjs (judgeTitle)
+ *   · 타이틀·소제목        spec 고정 (사장님이 준다 — 심판하지 않는다, 2026-09-19)
  *   · 라벨 구조            docs/hook-patterns.md "게이트 판정 방식" — [구체적 대상] + [행동 종결(…기)]
  * 규칙이 바뀌면 원본 검사기와 함께 바꾼다. 검사기를 새로 늘리지 않는다.
  */
-import { judgeTitle, missingAxes, badEnding } from "./title-rule.mjs";
 
 /* ── check-source-backing.ts 와 같은 수치 규칙 (단위가 붙은 숫자만 수치다) ── */
 const NUM = /(\d[\d,]*(?:\.\d+)?)\s*(세대|만원|억원|천원|원|%|세|회|일|배|개월|년|명|시간|주|건|점)/g;
@@ -78,7 +76,7 @@ export function bannedWords(strings, pool) {
 
 /**
  * @param plan  claude 가 낸 설계도
- * @param ctx   { keyword, queries: string[], existingTitles: string[], indexTitles: string[], hubPath, spokePaths: Set<string>, fixedTitle }
+ * @param ctx   { keyword, queries: string[], existingTitles: string[], hubPath, spokePaths: Set<string>, fixedTitle, fixedSubheads: string[] }
  */
 /** 타이틀 안에서 한글 3자 머리가 두 토큰에 겹치면 그 머리들을 돌려준다 ("무해지" ← "무해지 보험료인상"+"무해지보험 판매중지") */
 export function dupHeads(title) {
@@ -93,65 +91,19 @@ export function checkPlan(plan, ctx) {
   const title = String(plan.title || "").replace(/\s+/g, " ").trim();
   plan.title = title;
 
-  /* 타이틀 — 사장님이 준 타이틀은 심판하지 않는다. 그 외에는 title-rule 공식 + 실검색어 조각 */
+  /* 타이틀 — spec 그대로인지만 본다. 후킹·조각·길이·종결 판정은 2026-09-19 삭제 (사장님이 준다) */
   if (!title) errs.push("title 이 없다");
-  else if (!ctx.fixedTitle) {
-    const miss = missingAxes(title, false);
-    if (miss.length) errs.push(`타이틀 "${title}" — 못 채운 축: ${miss.join("·")} (세부키워드·후킹·종결 규칙은 scripts/lib/title-rule.mjs)`);
-    if (title.length < 14 || title.length > 56) errs.push(`타이틀 길이 ${title.length}자 — 14~56자`);
-    if (/총정리$|정리$|하는 법$|법$/.test(title)) errs.push(`타이틀 종결 "${title.slice(-4)}" — '~법'·'총정리' 종결 금지 (물음형·시나리오형으로)`);
-    /* 같은 머리말 두 번 (2026-09-14 신설). 실검색어 조각 둘을 그대로 이으면
-       "무해지 보험료인상, 무해지보험 판매중지되면…" 처럼 같은 말이 두 번 나온다.
-       사장님 지적: "무해지 보험료인상과 판매중지되면…" 이 자연스럽다. 조각의 머리(한글 3자)가 겹치면 막는다 */
-    const dupHead = dupHeads(title);
-    if (dupHead.length) errs.push(`타이틀에 같은 말이 두 번: "${dupHead.join('", "')}" — 조각을 이을 때 겹치는 머리말은 한 번만 (예: "무해지 보험료인상과 판매중지되면 …")`);
-    const frags = Array.isArray(plan.titleFrom) ? plan.titleFrom.map(String) : [];
-    if (frags.length < 2) errs.push("titleFrom — 타이틀에 쓴 실검색어를 2개 이상 적는다");
-    const qn = new Set(ctx.queries.map(norm));
-    const notReal = frags.filter((f) => !qn.has(norm(f)));
-    if (notReal.length) errs.push(`titleFrom 에 실검색어 목록에 없는 말이 있다: ${notReal.join(" / ")} — 목록에 있는 문자열만`);
-    const notIn = frags.filter((f) => {
-      const toks = String(f).split(/\s+/).filter((t) => t.length >= 2 && !norm(ctx.keyword).includes(norm(t)));
-      return toks.length && !toks.some((t) => title.includes(t));
-    });
-    if (notIn.length) errs.push(`titleFrom 의 조각이 타이틀에 실제로 안 들어갔다: ${notIn.join(" / ")}`);
-  }
+  else if (ctx.fixedTitle && norm(title) !== norm(ctx.fixedTitle)) errs.push(`title 이 spec 과 다르다 — 글자 그대로: "${ctx.fixedTitle}"`);
   for (const t of ctx.existingTitles) if (norm(t) === norm(title)) errs.push(`같은 타이틀의 글이 이미 있다: "${t}"`);
 
-  /* 패턴·참조 캡처 — docs/title-log.md 형식 (title-log-rule.mjs) */
-  if (!/^[①-⑨]/.test(String(plan.pattern || ""))) errs.push(`pattern 은 ①~⑨ 기호로 시작한다 (docs/title-corpus-kb.md): "${plan.pattern}"`);
-  const ref = norm(plan.refTitle || "");
-  if (!ref || !ctx.indexTitles.some((t) => norm(t).includes(ref) || ref.includes(norm(t)))) {
-    errs.push(`refTitle 이 reference/titles/INDEX.md 의 줄과 다르다: "${plan.refTitle}" — 목록의 한 줄을 글자 그대로 옮긴다`);
-  }
-  if (!/^(보험타이틀|대출 타이틀|생활타이틀|세금 타이틀|연금 타이틀)\.png$/.test(String(plan.refCapture || ""))) {
-    errs.push(`refCapture 는 reference/titles/ 의 파일명 하나: "${plan.refCapture}"`);
-  }
-
-  /* 소제목 — 실검색어 그대로 + 질문형. 개수는 타이틀이 정한다 (3~7) */
+  /* 소제목 — spec 순서·글자 그대로. 개수는 spec 이 정한다 (보통 4) */
   const subs = Array.isArray(plan.subheads) ? plan.subheads : [];
   if (subs.length < 3 || subs.length > 7) errs.push(`subheads ${subs.length}개 — 3~7개`);
-  const qnorm = ctx.queries.map(norm);
-  let verbatim = 0;
-  subs.forEach((s, i) => {
-    const q = String(s?.q || "").trim();
-    const from = String(s?.from || "").trim();
-    if (!q) { errs.push(`subheads[${i}] 의 q 가 비었다`); return; }
-    if (!isQuestion(q)) errs.push(`subheads[${i}] "${q}" — 물음표로 끝나는 질문형`);
-    if (q.length > 45) errs.push(`subheads[${i}] 가 ${q.length}자 — 45자 이하`);
-    if (!from || !qnorm.includes(norm(from))) errs.push(`subheads[${i}] 의 from "${from}" 이 실검색어 목록에 없다`);
-    else if (norm(q).includes(norm(from))) verbatim++;
-    else {
-      const toks = from.split(/\s+/).filter((t) => t.length >= 2 && !norm(ctx.keyword).includes(norm(t)));
-      if (toks.length && !toks.some((t) => q.includes(t))) errs.push(`subheads[${i}] "${q}" 에 from "${from}" 의 말이 하나도 없다`);
-    }
-  });
-  if (subs.length >= 3 && verbatim < Math.ceil(subs.length / 2)) {
-    errs.push(`소제목 ${subs.length}개 중 실검색어를 그대로 품은 것이 ${verbatim}개 — 절반 이상은 "실검색어 + 물음" 꼴로 (예: "40대 실비보험 가격" → "40대 실비보험 가격은 얼마인가요?")`);
-  }
-  if (subs[0]?.q && !/(청구|신청|확인|조회|가입|발급|접수|받|해지|환급|방법|하나요|되나요|할까요|가능)/.test(subs[0].q)) {
-    errs.push(`subheads[0] "${subs[0].q}" — 첫 카드는 행동(청구·신청·확인 방법)이다. 최상단에 둔다`);
-  }
+  const want = Array.isArray(ctx.fixedSubheads) ? ctx.fixedSubheads : [];
+  if (want.length) {
+    if (subs.length !== want.length) errs.push(`subheads ${subs.length}개 — spec 은 ${want.length}개`);
+    subs.forEach((s, i) => { if (want[i] && norm(s?.q) !== norm(want[i])) errs.push(`subheads[${i}] 가 spec 과 다르다 — "${want[i]}"`); });
+  } else subs.forEach((s, i) => { if (!String(s?.q || "").trim()) errs.push(`subheads[${i}] 의 q 가 비었다`); });
 
   /* 버튼 — 목적지는 설계 단계에서 정한다 (Playwright 가 다음 단계에서 연다) */
   const n = subs.length;
@@ -203,7 +155,7 @@ export function checkPlan(plan, ctx) {
   });
 
   const faq = Array.isArray(plan.faq) ? plan.faq : [];
-  if (faq.length < 4 || faq.length > 6) errs.push(`faq ${faq.length}개 — 4~6개`);
+  if (faq.length !== 2) errs.push(`faq ${faq.length}개 — 2개 (2026-09-19 사장님 확정)`);
   if (!/^[가-힣A-Za-z][가-힣A-Za-z0-9]{1,15}$/.test(String(plan.fileName || ""))) errs.push(`fileName "${plan.fileName}" — 한글 2~16자, 공백·기호 없이 (파일명이자 export 이름)`);
   if (!String(plan.breadcrumb || "").trim() || String(plan.breadcrumb).length > 20) errs.push("breadcrumb — 20자 이내 명사구");
   return errs;
@@ -224,7 +176,6 @@ export function checkDraft(draft, plan, ctx) {
 
   /* 제목·머리 */
   if (norm(sp.h1) !== norm(plan.title)) errs.push(`h1 이 설계도 타이틀과 다르다.\n   h1:   "${sp.h1}"\n   설계: "${plan.title}" — 글자 그대로 쓴다`);
-  if (badEnding(str(sp.h1))) errs.push(`h1 이 해요체·합니다체로 끝난다: "${sp.h1}"`);
   if (!str(sp.breadcrumb) || str(sp.breadcrumb).length > 20) errs.push("breadcrumb — 20자 이내");
   const desc = str(sp.description);
   if (desc.length < 60 || desc.length > 260) errs.push(`description ${desc.length}자 — 60~260자 (검색결과·서론에 쓰인다)`);
@@ -306,7 +257,7 @@ export function checkDraft(draft, plan, ctx) {
 
   /* FAQ·출처 */
   const faq = Array.isArray(sp.faqData) ? sp.faqData : [];
-  if (faq.length < 4 || faq.length > 6) errs.push(`faqData ${faq.length}개 — 4~6개`);
+  if (faq.length !== 2) errs.push(`faqData ${faq.length}개 — 2개 (2026-09-19 사장님 확정)`);
   faq.forEach((f, i) => {
     if (!str(f?.q) || !str(f?.a)) errs.push(`faqData[${i}] q·a 가 비었다`);
     if (str(f?.a).length < 40) errs.push(`faqData[${i}] a 가 ${str(f?.a).length}자 — 40자 이상`);

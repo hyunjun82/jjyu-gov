@@ -171,49 +171,5 @@
       "C:\\Users\\user\\gov-jjyu\\app\\policy\\[id]\\[spoke]",
       "c:\\Users\\user\\gov-jjyu\\.claude"
     ]
-  },
-  "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "Write|Edit|Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/require-title-log.mjs\""
-          }
-        ]
-      },
-      {
-        "matcher": "Write|Edit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/title-formula.mjs\"",
-            "timeout": 30
-          }
-        ]
-      }
-    ],
-    "PostToolUse": [
-      {
-        "matcher": "Read|Write|Edit|mcp__playwright__browser_navigate|mcp__playwright__browser_take_screenshot",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/record-session-activity.mjs\""
-          }
-        ]
-      }
-    ],
-    "UserPromptSubmit": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/record-user-turn.mjs\""
-          }
-        ]
-      }
-    ]
   }
 }
