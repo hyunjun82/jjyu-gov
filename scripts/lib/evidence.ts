@@ -117,7 +117,7 @@ export function evidenceFor(file: string, slug?: string): Evidence {
    느린 게이트는 사람이 끄게 된다. 한 번의 git log 로 전부 채운다. */
 let dateMap: Map<string, string> | null = null;
 
-function lastCommitDates(): Map<string, string> {
+function firstCommitDates(): Map<string, string> {
   if (dateMap) return dateMap;
   dateMap = new Map();
   try {
@@ -129,15 +129,18 @@ function lastCommitDates(): Map<string, string> {
       const s = line.trim();
       if (!s) continue;
       if (/^\d{4}-\d{2}-\d{2}$/.test(s)) { cur = s; continue; }
-      if (!dateMap.has(s)) dateMap.set(s, cur);   /* 최신 커밋부터 오므로 첫 등장이 마지막 변경 */
+      dateMap.set(s, cur);   /* 최신 커밋부터 오므로 마지막 등장이 첫 커밋 = 태어난 날 (덮어쓴다) */
     }
   } catch { /* git 없음 — 전부 심판 대상으로 본다 */ }
   return dateMap;
 }
 
+/* 태어난 날(첫 커밋)이 게이트보다 뒤면 심판한다. 마지막 커밋으로 보면 안 된다 —
+   허브는 스포크를 붙일 때마다 한 줄이 바뀌어 영원히 "새 글"이 되고, 옛 수치 30개가 통째로 막힌다
+   (2026-09-19 basic-pension.ts 로 push 가 섰다). 새 글은 이력이 없어 그대로 심판 대상이다. */
 export function judgeable(file: string, born: string): boolean {
   const key = file.replace(/\\/g, '/');
-  const last = lastCommitDates().get(key);
-  if (!last) return true;      /* 커밋 이력이 없다 = 새 글 */
-  return last >= born;
+  const first = firstCommitDates().get(key);
+  if (!first) return true;      /* 커밋 이력이 없다 = 새 글 */
+  return first >= born;
 }
