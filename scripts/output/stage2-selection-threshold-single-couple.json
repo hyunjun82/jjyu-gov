@@ -1,0 +1,18 @@
+{
+  "slug": "selection-threshold-single-couple",
+  "keyword": "기초연금",
+  "title": "기초연금 선정기준액과 단독 부부가구 차이, 하위 70% 기준 확인",
+  "subheads": [
+    "선정기준액은 무엇을 기준으로 정해지나요?",
+    "단독가구와 부부가구 기준은 얼마씩 다른가요?",
+    "소득 하위 70%는 어떻게 가려내나요?",
+    "내가 기준 안에 드는지 어디서 확인하나요?"
+  ],
+  "source": "https://law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "extract": "scripts/output/source-selection-threshold-single-couple.txt",
+  "outline": "scripts/output/outline-selection-threshold-single-couple.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/selection-threshold-single-couple.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "private-pension-impact",
+  "policyDir": "기초연금",
+  "fileName": "개인연금영향차이",
+  "hubSlug": "basic-pension",
+  "role": "amount",
+  "h1": "개인연금 받으면 기초연금 깎이나요, 연금저축·즉시연금 반영 차이",
+  "breadcrumb": "개인연금 영향",
+  "description": "개인연금 영향",
+  "sourceFile": "scripts\\output\\source-private-pension-impact.txt",
+  "sourceName": "금융감독원 — [플러스 연금 Cafe] 기초연금 받는다면 국민연금이 줄어들까?",
+  "sourceUrl": "https://www.fss.or.kr/edu/fec/contMng/view.do?menuNo=300017&contentsSlno=636",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "개인연금은 직접 감액인가요, 소득인정액에 더해지는 건가요?",
+    "연금저축·퇴직연금·즉시연금은 각각 어떻게 잡히나요?",
+    "개인연금 월 얼마까지는 기초연금에 영향이 없나요?",
+    "수령 방식을 바꾸면 소득인정액이 달라지나요?"
+  ],
+  "faq": [
+    "연금저축 중도해지하면 기초연금 소득인정액에 영향이 있나요?",
+    "즉시연금 확정형과 종신형은 소득인정액 산정 방식이 다른가요?"
+  ]
+}

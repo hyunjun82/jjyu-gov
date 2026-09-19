@@ -285,7 +285,7 @@ async function guard(ctx) {
   if (!ctx.hubSlug || !fs.existsSync(ctx.hubFile)) throw new Error(`--hub 허브 slug 가 없거나 파일이 없습니다: ${ctx.hubFile}`);
   if (!ctx.policyDir) throw new Error("--dir 폴더(content/{폴더}) 가 필요합니다 (예: 실손보험)");
   if (!/^[가-힣A-Za-z0-9]+$/.test(ctx.policyDir)) throw new Error(`폴더 이름은 한글·영숫자만 (export 이름의 뿌리가 된다): ${ctx.policyDir}`);
-  if (isWired(ctx.slug) && !fs.existsSync(ctx.planFile)) throw new Error(`${ctx.slug} 는 registry 에 이미 있습니다. 다른 slug 를 씁니다`);
+  if (isWired(ctx.slug, ctx.hubSlug) && !fs.existsSync(ctx.planFile)) throw new Error(`${ctx.slug} 는 registry 에 이미 있습니다. 다른 slug 를 씁니다`);
   if (!fs.existsSync(ctx.example)) throw new Error(`정본 글이 없습니다: ${ctx.example}`);
   const hubSrc = fs.readFileSync(ctx.hubFile, "utf8");
   ctx.hubTitle = hubSrc.match(/^\s{2}title:\s*'([^']+)'/m)?.[1] || ctx.hubSlug;
@@ -521,7 +521,7 @@ function emit(ctx, plan, draft) {
   const specPath = path.join(OUT, `spec-${ctx.slug}.json`);
   const spec = specOf({ plan, slug: ctx.slug, sourceFile: ctx.sourceFile, hubSlug: ctx.hubSlug, policyDir: ctx.policyDir });
   writeJson(specPath, spec);
-  if (!isWired(ctx.slug)) {
+  if (!isWired(ctx.slug, ctx.hubSlug)) {
     if (fs.existsSync(contentPath)) throw new Error(`${contentPath} 가 이미 있는데 registry 에는 없다 — 손으로 정리한 뒤 다시`);
     const r = spawnSync(`npx ${["tsx", path.join("scripts", "new-spoke.ts"), "--spec", specPath].map(sq).join(" ")}`, [], { shell: true, encoding: "utf8" });
     if (r.status !== 0 || !fs.existsSync(contentPath)) throw new Error(`new-spoke.ts 실패:\n${(r.stdout || "") + (r.stderr || "")}`);
@@ -604,19 +604,29 @@ async function gates(ctx, plan) {
       const { chromium } = await import("playwright");
       const b = await chromium.launch();
       const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
-      await p.goto(url, { waitUntil: "domcontentloaded", timeout: 240000 });
-      await p.waitForTimeout(2500);
-      const text = one(await p.locator("body").innerText({ timeout: 30000 }).catch(() => ""));
-      const title = await p.title().catch(() => "");
       const shot = path.join(REPORTS, `${ctx.slug}.png`);
+      let problems = [];
+      /* dev 서버는 첫 요청에 그 페이지를 컴파일하고, 오래 띄워 두면 500 을 뱉기도 한다.
+         한 번 비었다고 글을 탓하면 멀쩡한 글이 고치기 두 번 돌다 롤백된다 (2026-09-19 9번에서 실제로).
+         비면 다시 연다 — 세 번 다 비어야 글의 문제로 본다. */
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        const res = await p.goto(url, { waitUntil: "domcontentloaded", timeout: 240000 }).catch(() => null);
+        await p.waitForTimeout(attempt === 1 ? 2500 : 6000);
+        const text = one(await p.locator("body").innerText({ timeout: 30000 }).catch(() => ""));
+        const title = await p.title().catch(() => "");
+        const status = res ? res.status() : 0;
+        problems = [];
+        if (status >= 400) problems.push(`dev 서버가 ${status} 를 돌려줬다 — 글이 아니라 서버 문제일 수 있다 (서버를 다시 띄우고 --from gates)`);
+        if (/404|not found/i.test(title)) problems.push(`페이지 제목이 404: ${title}`);
+        if (!text.includes(one(plan.title).slice(0, 12))) problems.push("h1 이 화면에 없다");
+        const btnN = (text.match(new RegExp(plan.buttons.hero.label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g")) || []).length;
+        if (!btnN) problems.push(`상단 버튼 "${plan.buttons.hero.label}" 이 화면에 없다`);
+        if (!/핵심콕콕/.test(text)) problems.push("핵심콕콕 박스가 화면에 없다");
+        if (!problems.length) break;
+        if (attempt < 3) log("gate", `화면이 비었다 — 다시 연다 (${attempt}/2) · dev 컴파일 대기나 일시 오류`);
+      }
       await p.screenshot({ path: shot, fullPage: true }).catch(async () => p.screenshot({ path: shot }));
       await b.close();
-      const problems = [];
-      if (/404|not found/i.test(title)) problems.push(`페이지 제목이 404: ${title}`);
-      if (!text.includes(one(plan.title).slice(0, 12))) problems.push("h1 이 화면에 없다");
-      const btnN = (text.match(new RegExp(plan.buttons.hero.label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g")) || []).length;
-      if (!btnN) problems.push(`상단 버튼 "${plan.buttons.hero.label}" 이 화면에 없다`);
-      if (!/핵심콕콕/.test(text)) problems.push("핵심콕콕 박스가 화면에 없다");
       results.push({ name: "화면 (dev 렌더)", ok: problems.length === 0, out: problems.join("\n") || `ok — ${url}` });
       ctx.shot = shot;
     } catch (e) {

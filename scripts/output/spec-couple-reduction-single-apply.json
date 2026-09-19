@@ -1,0 +1,24 @@
+{
+  "slug": "couple-reduction-single-apply",
+  "policyDir": "기초연금",
+  "fileName": "부부감액단독신청비교",
+  "hubSlug": "basic-pension",
+  "role": "compare",
+  "h1": "부부 기초연금 감액 기준과 부부합산 소득, 단독 신청 비교와 축소 금액",
+  "breadcrumb": "부부감액 단독신청비교",
+  "description": "부부감액 단독신청비교",
+  "sourceFile": "scripts\\output\\source-couple-reduction-single-apply.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법(전문, 제10조 진입)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "부부가 함께 받으면 얼마나 깎이나요?",
+    "부부합산 소득은 어떻게 잡히나요?",
+    "한 사람만 단독 신청하면 유리한가요?",
+    "감액이 축소되면 얼마나 더 받게 되나요?"
+  ],
+  "faq": [
+    "사실혼 배우자도 부부감액 대상인가요?",
+    "부부 중 한 명만 기초연금 대상이어도 감액되나요?"
+  ]
+}

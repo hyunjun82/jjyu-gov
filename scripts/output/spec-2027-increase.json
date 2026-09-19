@@ -1,0 +1,24 @@
+{
+  "slug": "2027-increase",
+  "policyDir": "기초연금",
+  "fileName": "내년인상시기",
+  "hubSlug": "basic-pension",
+  "role": "amount",
+  "h1": "2027년 기초연금 얼마로 오르나, 확정 시점과 내 수령액 미리 조회",
+  "breadcrumb": "2027년 인상 시점",
+  "description": "2027년 인상 시점",
+  "sourceFile": "scripts\\output\\source-2027-increase.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "2027년 금액은 언제 정해지나요?",
+    "매년 얼마나 오르는지는 무엇으로 정하나요?",
+    "선정기준액도 금액과 같이 바뀌나요?",
+    "확정 전에 내 수령액을 미리 볼 수 있나요?"
+  ],
+  "faq": [
+    "2027년 기초연금 40만원 되나요?",
+    "기초연금 인상률은 국민연금 인상률과 같이 가나요?"
+  ]
+}

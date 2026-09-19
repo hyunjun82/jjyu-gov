@@ -1,0 +1,24 @@
+{
+  "slug": "civil-service-pension-survivor",
+  "policyDir": "기초연금",
+  "fileName": "공무원연금유족연금차이",
+  "hubSlug": "basic-pension",
+  "role": "eligibility",
+  "h1": "공무원연금 수급자 기초연금 신청 여부, 특수직역연금과 유족연금 차이",
+  "breadcrumb": "직역연금 기초연금 차이",
+  "description": "직역연금 기초연금 차이",
+  "sourceFile": "scripts\\output\\source-civil-service-pension-survivor.txt",
+  "sourceName": "법제처 — 기초연금법 (특수직역연금 수급자 제외·예외 조항)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "공무원연금 수급자도 기초연금을 신청할 수 있나요?",
+    "사학연금이나 군인연금도 마찬가지인가요?",
+    "배우자가 공무원연금을 받으면 어떻게 되나요?",
+    "유족연금을 받는 경우는 어떻게 되나요?"
+  ],
+  "faq": [
+    "공무원연금 조기퇴직연금을 받아도 기초연금 신청이 제한되나요?",
+    "국민연금과 공무원연금을 같이 받는 경우에도 기초연금 신청이 가능한가요?"
+  ]
+}

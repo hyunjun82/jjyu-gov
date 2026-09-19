@@ -1,0 +1,18 @@
+{
+  "slug": "review-period-first-payment",
+  "keyword": "기초연금",
+  "title": "기초연금 신청부터 첫 입금까지, 심사 기간과 소급 적용 기준",
+  "subheads": [
+    "신청하면 결과는 언제 통보되나요?",
+    "첫 입금까지 얼마나 걸리나요?",
+    "심사 기간에는 무엇을 확인하나요?",
+    "늦게 신청하면 소급해서 받나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99 , https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 , https://www.korea.kr/briefing/pressReleaseView.do?newsId=156770183",
+  "extract": "scripts/output/source-review-period-first-payment.txt",
+  "outline": "scripts/output/outline-review-period-first-payment.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/review-period-first-payment.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "rejection-reason-reapply",
+  "keyword": "기초연금",
+  "title": "기초연금 탈락 사유 확인과 재신청 시기, 수급희망 이력관리와의 차이",
+  "subheads": [
+    "탈락 통보서에 사유가 적혀 있나요?",
+    "어떤 이유로 많이 떨어지나요?",
+    "재신청은 언제 하면 되나요?",
+    "수급희망 이력관리 신청과는 무엇이 다른가요?"
+  ],
+  "source": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EC%A7%80%EA%B8%89%EB%8C%80%EC%83%81%EC%9E%90%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%EC%95%A1,%EA%B8%B0%EC%A4%80%EC%97%B0%EA%B8%88%EC%95%A1%EB%B0%8F%EC%86%8C%EB%93%9D%EC%9D%B8%EC%A0%95%EC%95%A1%EC%82%B0%EC%A0%95%EC%84%B8%EB%B6%80%EA%B8%B0%EC%A4%80%EC%97%90%EA%B4%80%ED%95%9C%EA%B3%A0%EC%8B%9C , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://www.korea.kr/multi/visualNewsView.do?newsId=148969138 , https://www.korea.kr/briefing/pressReleaseView.do?newsId=156770183",
+  "extract": "scripts/output/source-rejection-reason-reapply.txt",
+  "outline": "scripts/output/outline-rejection-reason-reapply.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/rejection-reason-reapply.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

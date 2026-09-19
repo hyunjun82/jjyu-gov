@@ -173,20 +173,6 @@ import { 실업급여건보연금SpokeContent } from '@/app/policy/[id]/[spoke]/
 import { 실업급여상병급여SpokeContent } from '@/app/policy/[id]/[spoke]/content/실업급여/상병급여';
 
 /* ── 기초연금 (slug: basic-pension) ── */
-import { 수급자격SpokeContent }     from '@/app/policy/[id]/[spoke]/content/기초연금/수급자격';
-import { 기초연금이의신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/이의신청';
-import { 금액SpokeContent }         from '@/app/policy/[id]/[spoke]/content/기초연금/금액';
-import { 소득인정액계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/소득인정액-계산';
-import { 재산기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/재산기준';
-import { 집있으면SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/집-있으면';
-import { 신청방법SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/신청방법';
-import { 국민연금차이SpokeContent }  from '@/app/policy/[id]/[spoke]/content/기초연금/국민연금-차이';
-import { 기초연금노령연금중복신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/노령연금중복신청';
-import { 부부감액SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/부부감액';
-import { 감액기준SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/감액기준';
-import { 금액인상SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/40만원인상';
-import { 자동지급SpokeContent }      from '@/app/policy/[id]/[spoke]/content/기초연금/자동지급';
-import { 개인연금감액SpokeContent }  from '@/app/policy/[id]/[spoke]/content/기초연금/개인연금감액';
 
 /* ── 부모급여 (slug: parent-allowance) ── */
 import { 부모급여지급금액SpokeContent }   from '@/app/policy/[id]/[spoke]/content/부모급여/지급금액';
@@ -992,14 +978,6 @@ import { 폐업소상공인정책자금신청재기SpokeContent } from '@/app/po
 
 /* ── 양육비 선지급제 (slug: child-support-advance) ── */
 import { 양육비선지급소득기준폐지SpokeContent } from '@/app/policy/[id]/[spoke]/content/양육비선지급/소득기준폐지';
-import { 기초연금2027년인상SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/2027년인상';
-import { 기초연금공무원연금중복SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/공무원연금중복';
-import { 기초연금계산공식SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/계산공식';
-import { 기초연금탈락조건SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/탈락조건';
-import { 기초연금준비서류SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/준비서류';
-import { 기초연금지급일SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/지급일';
-import { 기초연금중복수급SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/중복수급';
-import { 기초연금지급정지SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/지급정지';
 import { 주민세납부대상SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/target';
 import { 주민세금액SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/amount';
 import { 주민세납부기간SpokeContent } from '@/app/policy/[id]/[spoke]/content/주민세/period';
@@ -1876,6 +1854,31 @@ import { 화담숲코스소요시간SpokeContent } from '@/app/policy/[id]/[spok
 import { 화담숲가는길순환버스SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/가는길순환버스';
 import { 화담숲도시락식당SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/도시락식당';
 import { 기초연금기초연금생일신청시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/기초연금생일신청시기';
+import { 기초연금소득인정액계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/소득인정액계산';
+import { 기초연금선정기준액단독부부차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/선정기준액단독부부차이';
+import { 기초연금주택재산공제SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/주택재산공제';
+import { 기초연금금융재산잔액기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/금융재산잔액기준';
+import { 기초연금차량가액산정기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/차량가액산정기준';
+import { 기초연금국민연금연계감액계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/국민연금연계감액계산';
+import { 기초연금부부감액단독신청비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/부부감액단독신청비교';
+import { 기초연금복지로주민센터신청비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/복지로주민센터신청비교';
+import { 기초연금자녀대리신청SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/자녀대리신청';
+import { 기초연금신청심사소급기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/신청심사소급기준';
+import { 기초연금탈락사유재신청시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/탈락사유재신청시기';
+import { 기초연금입금일주말지연문의SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/입금일주말지연문의';
+import { 기초연금이사주소계좌변경SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/이사주소계좌변경';
+import { 기초연금노인일자리소득공제차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/노인일자리소득공제차이';
+import { 기초연금생계급여주거급여비교SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/생계급여주거급여비교';
+import { 기초연금통신비감면비과세저축SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/통신비감면비과세저축';
+import { 기초연금인상폐지설연계감액SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/인상폐지설연계감액';
+import { 기초연금공무원연금유족연금차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/공무원연금유족연금차이';
+import { 기초연금개인연금영향차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/개인연금영향차이';
+import { 기초연금지급정지사유SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/지급정지사유';
+import { 기초연금지급액계산공식SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/지급액계산공식';
+import { 기초연금내년인상시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/내년인상시기';
+import { 기초연금소득역전방지감액SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/소득역전방지감액';
+import { 기초연금자동지급통지SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/자동지급통지';
+import { 기초연금이의신청기한행정심판SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/이의신청기한행정심판';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'hwadam-forest': {
@@ -2973,29 +2976,32 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'basic-pension': {
+    'objection-90days': 기초연금이의신청기한행정심판SpokeContent,
+    'auto-payment-notice': 기초연금자동지급통지SpokeContent,
+    'income-reversal-reduction': 기초연금소득역전방지감액SpokeContent,
+    '2027-increase': 기초연금내년인상시기SpokeContent,
+    'calculation-formula': 기초연금지급액계산공식SpokeContent,
+    'payment-suspension': 기초연금지급정지사유SpokeContent,
+    'private-pension-impact': 기초연금개인연금영향차이SpokeContent,
+    'civil-service-pension-survivor': 기초연금공무원연금유족연금차이SpokeContent,
+    'increase-400k-abolition-rumor': 기초연금인상폐지설연계감액SpokeContent,
+    'telecom-discount-tax-free-savings': 기초연금통신비감면비과세저축SpokeContent,
+    'livelihood-recipient-overlap': 기초연금생계급여주거급여비교SpokeContent,
+    'working-income-report-senior-job': 기초연금노인일자리소득공제차이SpokeContent,
+    'move-address-account-change': 기초연금이사주소계좌변경SpokeContent,
+    'payment-date-weekend-delay': 기초연금입금일주말지연문의SpokeContent,
+    'rejection-reason-reapply': 기초연금탈락사유재신청시기SpokeContent,
+    'review-period-first-payment': 기초연금신청심사소급기준SpokeContent,
+    'child-proxy-apply': 기초연금자녀대리신청SpokeContent,
+    'apply-bokjiro-vs-community-center': 기초연금복지로주민센터신청비교SpokeContent,
+    'couple-reduction-single-apply': 기초연금부부감액단독신청비교SpokeContent,
+    'national-pension-linked-reduction': 기초연금국민연금연계감액계산SpokeContent,
+    'vehicle-value-3000cc': 기초연금차량가액산정기준SpokeContent,
+    'financial-assets-bank-balance': 기초연금금융재산잔액기준SpokeContent,
+    'homeowner-official-price-deduction': 기초연금주택재산공제SpokeContent,
+    'selection-threshold-single-couple': 기초연금선정기준액단독부부차이SpokeContent,
+    'income-recognition-calc': 기초연금소득인정액계산SpokeContent,
     'birth-1962-apply-timing': 기초연금기초연금생일신청시기SpokeContent,
-    'old-age-pension-overlap-apply': 기초연금노령연금중복신청SpokeContent,
-    '2027-increase': 기초연금2027년인상SpokeContent,
-    'civil-service-pension-overlap': 기초연금공무원연금중복SpokeContent,
-    'payment-suspension': 기초연금지급정지SpokeContent,
-    'calculation-formula': 기초연금계산공식SpokeContent,
-    'disqualification': 기초연금탈락조건SpokeContent,
-    'required-documents': 기초연금준비서류SpokeContent,
-    'payment-day': 기초연금지급일SpokeContent,
-    'duplicate-benefit': 기초연금중복수급SpokeContent,
-    '수급자격':          수급자격SpokeContent,
-    '이의신청':          기초연금이의신청SpokeContent,
-    '금액':              금액SpokeContent,
-    '소득인정액-계산':   소득인정액계산SpokeContent,
-    '재산기준':          재산기준SpokeContent,
-    '집-있으면':         집있으면SpokeContent,
-    '신청방법':          신청방법SpokeContent,
-    '국민연금-차이':     국민연금차이SpokeContent,
-    '부부감액':          부부감액SpokeContent,
-    '감액기준':          감액기준SpokeContent,
-    '40만원인상':        금액인상SpokeContent,
-    '자동지급':          자동지급SpokeContent,
-    '개인연금감액':      개인연금감액SpokeContent,
   },
 
   'home-childcare-allowance': {

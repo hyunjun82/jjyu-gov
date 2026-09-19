@@ -1,0 +1,24 @@
+{
+  "slug": "payment-suspension",
+  "policyDir": "기초연금",
+  "fileName": "지급정지사유",
+  "hubSlug": "basic-pension",
+  "role": "caution",
+  "h1": "기초연금 지급정지 사유 4가지, 해외 체류 기준과 다시 받는 방법",
+  "breadcrumb": "지급정지 사유",
+  "description": "지급정지 사유",
+  "sourceFile": "scripts\\output\\source-payment-suspension.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 시행령",
+  "sourceUrl": "https://law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "기초연금이 끊기는 경우는 어떤 경우인가요?",
+    "해외에 얼마나 나가 있으면 끊기나요?",
+    "요양원·병원에 오래 있어도 끊기나요?",
+    "끊긴 뒤 다시 받으려면 어떻게 하나요?"
+  ],
+  "faq": [
+    "해외 체류가 며칠 넘어가면 기초연금이 정지되나요?",
+    "지급정지가 풀리면 그동안 못 받은 금액도 소급해서 받을 수 있나요?"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "livelihood-recipient-overlap",
+  "policyDir": "기초연금",
+  "fileName": "생계급여주거급여비교",
+  "hubSlug": "basic-pension",
+  "role": "compare",
+  "h1": "기초수급자 기초연금 신청과 생계급여 삭감 기준, 주거급여 중복 비교",
+  "breadcrumb": "생계급여 중복비교",
+  "description": "생계급여 중복비교",
+  "sourceFile": "scripts\\output\\source-livelihood-recipient-overlap.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제10조",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "기초생활수급자도 기초연금을 신청하나요?",
+    "기초연금을 받으면 생계급여가 얼마나 줄어드나요?",
+    "주거급여와는 함께 받을 수 있나요?",
+    "합쳐서 손에 쥐는 돈은 늘어나나요?"
+  ],
+  "faq": [
+    "기초생활수급자가 기초연금을 신청하지 않으면 생계급여가 더 나오나요?",
+    "주거급여 수급자는 기초연금 신청 서류가 따로 다른가요?"
+  ]
+}

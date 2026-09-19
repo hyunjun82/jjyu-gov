@@ -1,0 +1,24 @@
+{
+  "slug": "payment-date-weekend-delay",
+  "policyDir": "기초연금",
+  "fileName": "입금일주말지연문의",
+  "hubSlug": "basic-pension",
+  "role": "apply",
+  "h1": "기초연금 입금일 확인과 주말 지급, 지연될 때 문의처와 통지서까지",
+  "breadcrumb": "입금일 지연 문의",
+  "description": "입금일 지연 문의",
+  "sourceFile": "scripts\\output\\source-payment-date-weekend-delay.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제10조",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "기초연금은 매달 며칠에 들어오나요?",
+    "입금일이 주말이나 공휴일이면 언제 들어오나요?",
+    "입금이 늦어지면 어디에 문의하나요?",
+    "통지서에 금액이 안 적혀 있으면 어떻게 하나요?"
+  ],
+  "faq": [
+    "기초연금은 매달 며칠에 입금되나요?",
+    "입금일이 토요일이면 언제 들어오나요?"
+  ]
+}

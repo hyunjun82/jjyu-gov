@@ -1,0 +1,24 @@
+{
+  "slug": "review-period-first-payment",
+  "policyDir": "기초연금",
+  "fileName": "신청심사소급기준",
+  "hubSlug": "basic-pension",
+  "role": "apply",
+  "h1": "기초연금 신청부터 첫 입금까지, 심사 기간과 소급 적용 기준",
+  "breadcrumb": "신청·심사·지급",
+  "description": "신청·심사·지급",
+  "sourceFile": "scripts\\output\\source-review-period-first-payment.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제10조",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "신청하면 결과는 언제 통보되나요?",
+    "첫 입금까지 얼마나 걸리나요?",
+    "심사 기간에는 무엇을 확인하나요?",
+    "늦게 신청하면 소급해서 받나요?"
+  ],
+  "faq": [
+    "기초연금 신청 후 결과 통보까지 얼마나 걸리나요?",
+    "심사 중에 서류를 추가로 요청받으면 처리 기간이 더 늘어나나요?"
+  ]
+}

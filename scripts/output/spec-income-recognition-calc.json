@@ -1,0 +1,24 @@
+{
+  "slug": "income-recognition-calc",
+  "policyDir": "기초연금",
+  "fileName": "소득인정액계산",
+  "hubSlug": "basic-pension",
+  "role": "amount",
+  "h1": "기초연금 소득인정액 계산, 소득평가액과 재산 환산액 차이부터 모의계산까지",
+  "breadcrumb": "소득인정액 계산",
+  "description": "소득인정액 계산",
+  "sourceFile": "scripts\\output\\source-income-recognition-calc.txt",
+  "sourceName": "보건복지부 — 기초연금 지급대상자 선정기준액, 기준연금액 및 소득인정액 산정 세부기준 고시",
+  "sourceUrl": "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EC%A7%80%EA%B8%89%EB%8C%80%EC%83%81%EC%9E%90%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80%EC%95%A1,%EA%B8%B0%EC%A4%80%EC%97%B0%EA%B8%88%EC%95%A1%EB%B0%8F%EC%86%8C%EB%93%9D%EC%9D%B8%EC%A0%95%EC%95%A1%EC%82%B0%EC%A0%95%EC%84%B8%EB%B6%80%EA%B8%B0%EC%A4%80%EC%97%90%EA%B4%80%ED%95%9C%EA%B3%A0%EC%8B%9C",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "소득인정액은 어떻게 계산되나요?",
+    "소득평가액에는 무엇이 들어가나요?",
+    "재산 환산액은 소득평가액과 무엇이 다른가요?",
+    "모의계산기로 미리 계산해 볼 수 있나요?"
+  ],
+  "faq": [
+    "소득인정액에 자동차도 포함되나요?",
+    "부부가 각자 계산한 소득인정액을 합산하나요?"
+  ]
+}

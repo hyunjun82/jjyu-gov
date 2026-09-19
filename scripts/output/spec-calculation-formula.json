@@ -1,0 +1,24 @@
+{
+  "slug": "calculation-formula",
+  "policyDir": "기초연금",
+  "fileName": "지급액계산공식",
+  "hubSlug": "basic-pension",
+  "role": "amount",
+  "h1": "기초연금 지급액 계산 공식, 감액 적용 순서와 최저 지급액",
+  "breadcrumb": "지급액 계산공식",
+  "description": "지급액 계산공식",
+  "sourceFile": "scripts\\output\\source-calculation-formula.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제8조(기초연금액의 감액)",
+  "sourceUrl": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030188869",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "기준연금액 34만9700원은 누가 다 받나요?",
+    "국민연금 연계액은 어떤 산식으로 정해지나요?",
+    "감액은 어떤 순서로 적용되나요?",
+    "감액돼도 최소 얼마는 받나요?"
+  ],
+  "faq": [
+    "국민연금을 많이 받으면 기초연금이 아예 안 나오나요?",
+    "감액된 기초연금 금액은 이후에도 똑같이 유지되나요?"
+  ]
+}

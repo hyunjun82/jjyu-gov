@@ -1,0 +1,24 @@
+{
+  "slug": "auto-payment-notice",
+  "policyDir": "기초연금",
+  "fileName": "자동지급통지",
+  "hubSlug": "basic-pension",
+  "role": "eligibility",
+  "h1": "기초연금 자동지급 되나요, 65세 안내 통지와 장애인연금 전환",
+  "breadcrumb": "자동지급 여부",
+  "description": "자동지급 여부",
+  "sourceFile": "scripts\\output\\source-auto-payment-notice.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제10조(신청)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "65세가 되면 신청 없이 자동으로 나오나요?",
+    "신청 안내 통지는 누구에게 언제 오나요?",
+    "장애인연금 받던 분은 어떻게 되나요?",
+    "자동지급 법 개정은 어디까지 왔나요?"
+  ],
+  "faq": [
+    "기초연금은 65세가 되면 신청 없이 자동으로 나오나요?",
+    "장애인연금을 받다가 65세가 되면 기초연금으로 자동전환되나요?"
+  ]
+}

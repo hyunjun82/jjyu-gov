@@ -1,0 +1,24 @@
+{
+  "slug": "income-reversal-reduction",
+  "policyDir": "기초연금",
+  "fileName": "소득역전방지감액",
+  "hubSlug": "basic-pension",
+  "role": "amount",
+  "h1": "기초연금 소득역전방지 감액, 얼마부터 깎이고 얼마까지 남나",
+  "breadcrumb": "소득역전방지감액",
+  "description": "소득역전방지감액",
+  "sourceFile": "scripts\\output\\source-income-reversal-reduction.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제8조(기초연금액의 감액)",
+  "sourceUrl": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030188869",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "소득역전방지 감액은 왜 있나요?",
+    "소득인정액이 얼마일 때부터 깎이나요?",
+    "얼마까지 깎이고 최소 얼마는 남나요?",
+    "부부가구는 어떻게 다르게 적용되나요?"
+  ],
+  "faq": [
+    "소득역전방지 감액과 국민연금 연계감액을 동시에 적용받을 수 있나요?",
+    "소득역전방지 감액 구간은 매년 똑같이 유지되나요?"
+  ]
+}

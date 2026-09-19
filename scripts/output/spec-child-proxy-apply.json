@@ -1,0 +1,24 @@
+{
+  "slug": "child-proxy-apply",
+  "policyDir": "기초연금",
+  "fileName": "자녀대리신청",
+  "hubSlug": "basic-pension",
+  "role": "apply",
+  "h1": "부모님 기초연금 자녀 대리 신청 방법, 위임장과 금융정보 동의서까지",
+  "breadcrumb": "자녀 대리신청",
+  "description": "자녀 대리신청",
+  "sourceFile": "scripts\\output\\source-child-proxy-apply.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제10조(신청)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "자녀가 부모님 기초연금을 대신 신청할 수 있나요?",
+    "대리 신청은 어떤 순서로 진행하나요?",
+    "위임장에는 무엇을 적나요?",
+    "금융정보 제공 동의서는 누가 서명하나요?"
+  ],
+  "faq": [
+    "위임장은 어디서 양식을 구할 수 있나요?",
+    "부모님이 거동이 불편해 서명을 못 하시면 어떻게 하나요?"
+  ]
+}

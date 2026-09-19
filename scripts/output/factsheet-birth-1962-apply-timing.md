@@ -20,15 +20,18 @@
 
 | 항목 | 값 | 1차 출처 | 교차 출처 |
 |---|---|---|---|
-| 신청 근거 조문 | 기초연금법 제10조(기초연금 지급의 신청) | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 신청 가능 시작 | 생일이 있는 달의 1개월 전부터 신청 가능 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 신청 예시 | 생일이 10월이라면 9월 1일부터 신청 가능 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 신청 장소 | 행정복지센터·국민연금공단 지사·복지로 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 지급 개시 기준 | 기초연금의 지급을 신청한 날이 속하는 달부터 매월 정기적으로 지급 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 지급 종료 기준 | 기초연금 수급권을 상실한 날이 속하는 달까지 지급 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 수급권자 나이 기준 | 65세 이상인 사람으로서 소득인정액이 선정기준액 이하인 사람 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 최근 제도 개선 지시 | 국적 취득 시기와 무관하게 지급되는 형평성 문제 지적, 국내 거주기간 요건 설정 등 제도 개선 지시(2026-09-03) | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
-| 근거 | 기초연금법 제3조·제10조·제14조 / 정책브리핑 (2026-09-19 확인) | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 신청 가능 시점 | 생일이 있는 달의 1개월 전부터 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 신청 예시 | 생일이 10월이면 9월 1일부터 신청 가능 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 지급 대상 나이 | 65세 이상 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 지급 개시 기준 | 지급 신청한 날이 속하는 달부터 매월 지급 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 신청 가능한 곳 | 행정복지센터·국민연금공단 지사·복지로 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 신청 주체 | 본인 또는 보건복지부령으로 정하는 대리인 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 관련 제도(이력관리) 조사 주기 | 연 2회(1월, 7월) | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 관련 제도(이력관리) 결정 소요 | 접수 후 30~60일, 8~9월 통보 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 2026.09.03 지시 내용 | 국내 거주기간 요건 설정 등 제도 개선(제45차 수석보좌관회의) | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 법 시행일 | 2025.10.1. 시행, 법률 제21065호 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 70세 상향 여부 | 보도된 바 없음 | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
+| 근거 | 국가법령정보센터 기초연금법·정책브리핑 보건복지부 (2026-09-19 확인) | https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 | https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 |
 
 ## 2. 행동 검증 (버튼이 실제로 되는가)
 
@@ -38,14 +41,15 @@
 
 ## 3. 단서 조항 (긍정문 뒤집는 '다만' — 본문에 반영한 것)
 
-- 생일이 있는 달의 1개월 전부터 신청 가능하다는 사전신청 안내는 2026년 만 65세가 되는 1961년생을 예로 든 것이며, 신청 시점을 만 65세가 되는 달 이전으로 앞당길 수 있다는 일반 원칙으로 1962년생에도 동일하게 적용해 반영했다.
-- 지급은 신청한 날이 속하는 달부터 시작되고 그 이전 달을 소급하지 않는다는 제14조 원칙을 반영해, 이력관리 신청간주 제도의 소급 지급 사례와 구분해 썼다.
-- 수령 나이 상향 관련 공식 출처가 없어, 실제 확인되는 거주기간 요건 개선 지시만 반영하고 나이 상향은 확인되지 않음으로 썼다.
+- 기초연금 지급 연령은 현재도 65세이며, 2026-09-03 지시는 거주기간 요건 신설 논의일 뿐 연령 상향이 아니라는 점을 Q4 본문·표에 명시함
+- 생일이 있는 달의 1개월 전부터 신청 가능하다는 규정은 원문이 1961년생 사례(생일 10월→9월 1일)로 안내했으나, 동일 법령·제도 규정이므로 1962년생에도 그대로 적용됨을 명시함
+- 수급희망 이력관리 신청간주 제도의 30~60일 처리 기간·연 2회(1월,7월) 조사는 최근 5년 이내 탈락자 재조사 트랙임을 Q3에서 밝히고 일반 신규 신청과 구분함
 
 ## 4. 확보하지 못한 것 (본문에 쓰지 않음)
 
-- 수령 나이 상향 자체를 뒷받침하는 1차 출처를 찾지 못해 본문에서 확정 여부를 다루지 않고, 대신 실제 확인된 거주기간 요건 개선 지시(2026-09-03)만 썼다.
-- 생일이 월 중 정확히 어느 날짜인지에 따라 사전신청 첫날 계산이 어떻게 달라지는지는 원문에 10월→9월 1일 예시 하나뿐이라, 다른 날짜 조합은 추정하지 않고 쓰지 않았다.
-- 수급희망 이력관리 신청간주 제도의 지급 개시월(7월분)은 이 제도 고유의 소급 지급 사례이며, 일반 사전신청자에게도 동일하게 적용된다고 일반화하지 않았다.
+- 1962년생이 만 65세가 되는 구체적 연도(예: 2027년)는 추출본에 없어 쓰지 않음
+- 생일이 월말이면 지급이 실제로 며칠 늦어지는지 구체적 일수는 추출본에 없어 쓰지 않음
+- 수령 나이 70세 상향의 구체적 시행 시기나 법안 번호는 추출본에 없어 쓰지 않음 (2026-09-03 지시는 거주기간 요건에 관한 것뿐)
+- 국내 거주기간 요건의 구체적 기간(예: 몇 년)은 추출본 보도에 수치가 없어 쓰지 않음
 
 _2026-09-19 scripts/article.mjs_

@@ -163,7 +163,20 @@ export function unwire({ slug, hubSlug, policyDir, fileName, title }) {
   return n;
 }
 
-export const isWired = (slug) => fs.existsSync(REG) && fs.readFileSync(REG, "utf8").includes(`'${slug}':`);
+/* 허브 블록(  'hub': { … }) 만 잘라 낸다. slug 는 허브별 키라 전체 파일에서 찾으면
+   다른 허브의 같은 slug(실손보험 payment-suspension, 기초생활수급 2027-increase)에 걸린다 (2026-09-19 리라이트에서 실제로). */
+export function hubBlock(reg, hubSlug) {
+  const start = reg.indexOf(`  '${hubSlug}': {`);
+  if (start < 0) return "";
+  const rest = reg.slice(start + 1);
+  const m = rest.search(/\n  '[^']+': \{/);
+  return m < 0 ? reg.slice(start) : reg.slice(start, start + 1 + m);
+}
+export const isWired = (slug, hubSlug) => {
+  if (!fs.existsSync(REG)) return false;
+  const reg = fs.readFileSync(REG, "utf8");
+  return (hubSlug ? hubBlock(reg, hubSlug) : reg).includes(`'${slug}':`);
+};
 
 /* ── 산출물: 승인 도장 · 구성표 · 팩트시트 · 타이틀 기록 ── */
 

@@ -1,0 +1,24 @@
+{
+  "slug": "increase-400k-abolition-rumor",
+  "policyDir": "기초연금",
+  "fileName": "인상폐지설연계감액",
+  "hubSlug": "basic-pension",
+  "role": "amount",
+  "h1": "기초연금 40만원 인상 시기와 폐지설, 연계감액 개편으로 달라지는 금액",
+  "breadcrumb": "40만원 인상·폐지설",
+  "description": "40만원 인상·폐지설",
+  "sourceFile": "scripts\\output\\source-increase-400k-abolition-rumor.txt",
+  "sourceName": "정책브리핑(대통령실) — 기초연금 국내 거주기간 요건 설정 등 제도 개선 지시",
+  "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148971175",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "기초연금 40만원 인상은 언제부터인가요?",
+    "폐지된다는 이야기는 사실인가요?",
+    "국민연금 연계감액은 어떻게 개편되나요?",
+    "개편되면 실제로 얼마가 달라지나요?"
+  ],
+  "faq": [
+    "국민연금과 기초연금을 둘 다 받고 있어야 연계감액 개편의 영향을 받나요?",
+    "연계감액 개편은 이미 기초연금을 받고 있는 사람에게도 적용되나요?"
+  ]
+}

@@ -133,7 +133,15 @@ const HUBFILE = `data/policies/${S.hubSlug}.ts`;
 let reg = fs.readFileSync(REG, 'utf8');
 let hub = fs.readFileSync(HUBFILE, 'utf8');
 
-if (reg.includes(`'${S.slug}':`)) die(`registry 에 이미 있다: ${S.slug}`);
+/* slug 는 허브별 키 — 이 허브 블록 안에서만 겹침을 본다. 전체에서 보면 다른 허브의 같은 slug
+   (실손보험 payment-suspension, 기초생활수급 2027-increase)에 걸려 죽는다 (2026-09-19 리라이트에서 실제로). */
+{
+  const start = reg.indexOf(`  '${S.hubSlug}': {`);
+  const rest = start < 0 ? '' : reg.slice(start + 1);
+  const end = rest.search(/\n  '[^']+': \{/);
+  const block = start < 0 ? '' : end < 0 ? reg.slice(start) : reg.slice(start, start + 1 + end);
+  if (block.includes(`'${S.slug}':`)) die(`registry 에 이미 있다: ${S.hubSlug}/${S.slug}`);
+}
 
 const importLine = `import { ${exportName} } from '@/app/policy/[id]/[spoke]/content/${S.policyDir}/${S.fileName}';`;
 const lastImport = reg.lastIndexOf("\nimport { ");

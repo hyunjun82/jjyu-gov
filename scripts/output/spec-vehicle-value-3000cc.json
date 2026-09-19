@@ -1,0 +1,24 @@
+{
+  "slug": "vehicle-value-3000cc",
+  "policyDir": "기초연금",
+  "fileName": "차량가액산정기준",
+  "hubSlug": "basic-pension",
+  "role": "eligibility",
+  "h1": "기초연금 차량가액 조회와 산정 기준, 3000cc 배기량과 2대 보유 차이",
+  "breadcrumb": "차량가액산정기준",
+  "description": "차량가액산정기준",
+  "sourceFile": "scripts\\output\\source-vehicle-value-3000cc.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 시행령",
+  "sourceUrl": "https://law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "차량가액은 어디서 조회하나요?",
+    "차량가액은 어떤 기준으로 산정되나요?",
+    "3000cc가 넘으면 무조건 탈락인가요?",
+    "차가 두 대면 계산이 어떻게 달라지나요?"
+  ],
+  "faq": [
+    "장애인 보조용 차량도 차량가액 기준에 포함되나요?",
+    "리스나 렌트로 타는 차량도 내 재산으로 잡히나요?"
+  ]
+}

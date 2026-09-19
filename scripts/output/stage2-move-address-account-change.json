@@ -1,0 +1,18 @@
+{
+  "slug": "move-address-account-change",
+  "keyword": "기초연금",
+  "title": "기초연금 이사와 전입 신고, 주소 변경 후 금액 변화와 계좌변경 방법",
+  "subheads": [
+    "다른 시도로 이사하면 기초연금이 끊기나요?",
+    "전입 신고를 하면 따로 알려야 하나요?",
+    "자녀 집으로 주소를 옮기면 금액이 달라지나요?",
+    "연금 받는 계좌는 어떻게 바꾸나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://www.korea.kr/briefing/pressReleaseView.do?newsId=156770183",
+  "extract": "scripts/output/source-move-address-account-change.txt",
+  "outline": "scripts/output/outline-move-address-account-change.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/move-address-account-change.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

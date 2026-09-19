@@ -1,0 +1,18 @@
+{
+  "slug": "auto-payment-notice",
+  "keyword": "기초연금",
+  "title": "기초연금 자동지급 되나요, 65세 안내 통지와 장애인연금 전환",
+  "subheads": [
+    "65세가 되면 신청 없이 자동으로 나오나요?",
+    "신청 안내 통지는 누구에게 언제 오나요?",
+    "장애인연금 받던 분은 어떻게 되나요?",
+    "자동지급 법 개정은 어디까지 왔나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95 , https://www.korea.kr/multi/visualNewsView.do?newsId=148969138 , https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263",
+  "extract": "scripts/output/source-auto-payment-notice.txt",
+  "outline": "scripts/output/outline-auto-payment-notice.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/auto-payment-notice.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

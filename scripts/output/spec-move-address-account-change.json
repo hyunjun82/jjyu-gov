@@ -1,0 +1,24 @@
+{
+  "slug": "move-address-account-change",
+  "policyDir": "기초연금",
+  "fileName": "이사주소계좌변경",
+  "hubSlug": "basic-pension",
+  "role": "caution",
+  "h1": "기초연금 이사와 전입 신고, 주소 변경 후 금액 변화와 계좌변경 방법",
+  "breadcrumb": "이사·계좌변경",
+  "description": "이사·계좌변경",
+  "sourceFile": "scripts\\output\\source-move-address-account-change.txt",
+  "sourceName": "법제처 — 기초연금법 시행령",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "다른 시도로 이사하면 기초연금이 끊기나요?",
+    "전입 신고를 하면 따로 알려야 하나요?",
+    "자녀 집으로 주소를 옮기면 금액이 달라지나요?",
+    "연금 받는 계좌는 어떻게 바꾸나요?"
+  ],
+  "faq": [
+    "기초연금 받는 중에 이사하면 서류를 다시 내야 하나요?",
+    "계좌를 바꾸면 다음 지급일부터 바로 새 계좌로 들어오나요?"
+  ]
+}

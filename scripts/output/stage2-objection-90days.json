@@ -1,0 +1,18 @@
+{
+  "slug": "objection-90days",
+  "keyword": "기초연금",
+  "title": "기초연금 이의신청 방법과 90일 기한, 결과 통지와 행정심판까지",
+  "subheads": [
+    "이의신청은 언제까지 어디에 하나요?",
+    "어떤 서류를 내야 하나요?",
+    "결과는 며칠 안에 알려 주나요?",
+    "이의신청도 안 되면 행정심판으로 가나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%EC%8B%9C%ED%96%89%EA%B7%9C%EC%B9%99",
+  "extract": "scripts/output/source-objection-90days.txt",
+  "outline": "scripts/output/outline-objection-90days.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/objection-90days.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

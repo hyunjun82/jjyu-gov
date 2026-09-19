@@ -1,0 +1,24 @@
+{
+  "slug": "working-income-report-senior-job",
+  "policyDir": "기초연금",
+  "fileName": "노인일자리소득공제차이",
+  "hubSlug": "basic-pension",
+  "role": "compare",
+  "h1": "기초연금 받으며 일할 때 소득 신고, 노인일자리와 근로소득 공제 차이",
+  "breadcrumb": "노인일자리 소득신고",
+  "description": "노인일자리 소득신고",
+  "sourceFile": "scripts\\output\\source-working-income-report-senior-job.txt",
+  "sourceName": "법제처 — 기초연금법 시행령",
+  "sourceUrl": "https://law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "기초연금을 받으면서 일을 해도 되나요?",
+    "새로 생긴 소득은 신고해야 하나요?",
+    "노인일자리 수입도 소득으로 잡히나요?",
+    "노인일자리와 일반 근로소득은 공제가 다른가요?"
+  ],
+  "faq": [
+    "노인일자리 소득을 신고하지 않으면 어떻게 되나요?",
+    "근로소득공제는 매달 새로 적용되나요?"
+  ]
+}

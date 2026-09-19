@@ -1,0 +1,24 @@
+{
+  "slug": "objection-90days",
+  "policyDir": "기초연금",
+  "fileName": "이의신청기한행정심판",
+  "hubSlug": "basic-pension",
+  "role": "apply",
+  "h1": "기초연금 이의신청 방법과 90일 기한, 결과 통지와 행정심판까지",
+  "breadcrumb": "이의신청·기한",
+  "description": "이의신청·기한",
+  "sourceFile": "scripts\\output\\source-objection-90days.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "이의신청은 언제까지 어디에 하나요?",
+    "어떤 서류를 내야 하나요?",
+    "결과는 며칠 안에 알려 주나요?",
+    "이의신청도 안 되면 행정심판으로 가나요?"
+  ],
+  "faq": [
+    "이의신청 기한을 넘기면 다시 신청할 방법이 없나요?",
+    "이의신청 결과에 불복하면 행정심판 비용이 따로 드나요?"
+  ]
+}

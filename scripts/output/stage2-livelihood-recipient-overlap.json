@@ -1,0 +1,18 @@
+{
+  "slug": "livelihood-recipient-overlap",
+  "keyword": "기초연금",
+  "title": "기초수급자 기초연금 신청과 생계급여 삭감 기준, 주거급여 중복 비교",
+  "subheads": [
+    "기초생활수급자도 기초연금을 신청하나요?",
+    "기초연금을 받으면 생계급여가 얼마나 줄어드나요?",
+    "주거급여와는 함께 받을 수 있나요?",
+    "합쳐서 손에 쥐는 돈은 늘어나나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9 , https://www.law.go.kr/법령/국민기초생활보장법 시행령",
+  "extract": "scripts/output/source-livelihood-recipient-overlap.txt",
+  "outline": "scripts/output/outline-livelihood-recipient-overlap.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/livelihood-recipient-overlap.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

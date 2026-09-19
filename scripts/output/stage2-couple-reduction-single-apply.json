@@ -1,0 +1,18 @@
+{
+  "slug": "couple-reduction-single-apply",
+  "keyword": "기초연금",
+  "title": "부부 기초연금 감액 기준과 부부합산 소득, 단독 신청 비교와 축소 금액",
+  "subheads": [
+    "부부가 함께 받으면 얼마나 깎이나요?",
+    "부부합산 소득은 어떻게 잡히나요?",
+    "한 사람만 단독 신청하면 유리한가요?",
+    "감액이 축소되면 얼마나 더 받게 되나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030188869 , https://law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9 , https://www.korea.kr/news/policyNewsView.do?newsId=148971175",
+  "extract": "scripts/output/source-couple-reduction-single-apply.txt",
+  "outline": "scripts/output/outline-couple-reduction-single-apply.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/couple-reduction-single-apply.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

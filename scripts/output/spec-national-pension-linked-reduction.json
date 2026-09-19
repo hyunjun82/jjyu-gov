@@ -1,0 +1,24 @@
+{
+  "slug": "national-pension-linked-reduction",
+  "policyDir": "기초연금",
+  "fileName": "국민연금연계감액계산",
+  "hubSlug": "basic-pension",
+  "role": "amount",
+  "h1": "국민연금 수령액별 기초연금 감액 계산, 연계감액 기준과 폐지 여부",
+  "breadcrumb": "국민연금 연계감액",
+  "description": "국민연금 연계감액",
+  "sourceFile": "scripts\\output\\source-national-pension-linked-reduction.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 제8조(기초연금액의 감액)",
+  "sourceUrl": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030188869",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "국민연금을 받으면 기초연금이 줄어드나요?",
+    "감액되는 금액은 어떻게 계산하나요?",
+    "국민연금이 얼마부터 연계감액에 걸리나요?",
+    "연계감액이 없어진다는 게 사실인가요?"
+  ],
+  "faq": [
+    "국민연금과 기초연금을 동시에 신청하면 자동으로 감액 계산이 되나요?",
+    "연계감액으로 깎인 금액은 나중에 국민연금이 줄어들면 다시 늘어나나요?"
+  ]
+}

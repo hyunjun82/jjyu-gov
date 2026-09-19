@@ -1,0 +1,24 @@
+{
+  "slug": "homeowner-official-price-deduction",
+  "policyDir": "기초연금",
+  "fileName": "주택재산공제",
+  "hubSlug": "basic-pension",
+  "role": "eligibility",
+  "h1": "집 있어도 기초연금 되나요, 공시지가 확인과 대도시 농어촌 공제 차이",
+  "breadcrumb": "주택 재산공제",
+  "description": "주택 재산공제",
+  "sourceFile": "scripts\\output\\source-homeowner-official-price-deduction.txt",
+  "sourceName": "국가법령정보센터 — 기초연금법 시행령",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "집이 있어도 기초연금을 받을 수 있나요?",
+    "아파트 공시지가는 어디서 확인하나요?",
+    "대도시와 농어촌은 공제액이 다른가요?",
+    "농어촌으로 이사하면 유리해지나요?"
+  ],
+  "faq": [
+    "전세나 월세로 살아도 재산 계산이 달라지나요?",
+    "공시가격이 매년 바뀌면 기초연금도 다시 계산되나요?"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "telecom-discount-tax-free-savings",
+  "policyDir": "기초연금",
+  "fileName": "통신비감면비과세저축",
+  "hubSlug": "basic-pension",
+  "role": "apply",
+  "h1": "기초연금 수급자 통신비 감면 신청, 비과세종합저축 가입과 교통비까지",
+  "breadcrumb": "통신비 감면",
+  "description": "통신비 감면",
+  "sourceFile": "scripts\\output\\source-telecom-discount-tax-free-savings.txt",
+  "sourceName": "국가법령정보센터 — 전기통신사업법 시행령 전문",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A0%84%EA%B8%B0%ED%86%B5%EC%8B%A0%EC%82%AC%EC%97%85%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9",
+  "hubPath": "/policy/basic-pension",
+  "qa": [
+    "통신비 감면은 어디에 신청하나요?",
+    "휴대폰 요금이 얼마나 줄어드나요?",
+    "비과세종합저축에 가입할 수 있나요?",
+    "교통비나 에너지바우처도 지원되나요?"
+  ],
+  "faq": [
+    "통신비 감면은 기초생활수급자가 아니어도 받을 수 있나요?",
+    "비과세종합저축은 아무 은행에서나 가입할 수 있나요?"
+  ]
+}

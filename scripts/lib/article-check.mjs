@@ -226,6 +226,9 @@ export function checkDraft(draft, plan, ctx) {
       else for (const r of t.rows) if (!Array.isArray(r) || r.length !== t.headers.length) errs.push(`qa[${i}] table 행의 칸 수가 headers(${t.headers.length})와 다르다`);
     }
     if (c?.box && !str(c.box.content)) errs.push(`qa[${i}] box.content 가 비었다`);
+    const hasList = Array.isArray(c?.list) && c.list.filter((x) => str(x)).length >= 2;
+    if (!c?.table && !c?.box && !c?.box2 && !hasList)
+      errs.push(`qa[${i}] 에 눈으로 보는 것이 없다 — table·box·list 중 하나를 넣는다 (구간·금액 나열이면 table, 조문 한 덩어리면 box, 순서·서류면 list). 글자만 있는 카드는 안 읽힌다`);
     if (c?.act) {
       if (!slots.includes(i)) errs.push(`qa[${i}] 에 act 가 있다 — 버튼은 인덱스 ${slots.join("·")} 에만 그려진다. 다른 자리의 act 는 화면에 안 나온다`);
       const cue = str(c.act.cue), label = str(c.act.label), url = str(c.act.url);
@@ -244,6 +247,8 @@ export function checkDraft(draft, plan, ctx) {
     const sn = str(c?.sourceNote);
     if (sn && !/^\*\s*출처:/.test(sn)) errs.push(`qa[${i}] sourceNote 는 "* 출처: …" 로 시작한다`);
   });
+  const tableN = qa.filter((c) => c?.table).length;
+  if (qa.length >= 3 && tableN < 1) errs.push("글 전체에 표가 하나도 없다 — 기준·금액·가구 유형이 나열된 카드 하나는 table 로 (정본은 표 3개)");
   const noteN = qa.filter((c) => str(c?.sourceNote)).length;
   if (qa.length >= 2 && noteN < Math.ceil(qa.length / 2)) errs.push(`sourceNote ${noteN}/${qa.length} — 절반 이상 (수치를 담은 카드에는 전부)`);
   const dupC = cues.filter((c, i) => c && cues.indexOf(c) !== i);
@@ -276,8 +281,10 @@ export function checkDraft(draft, plan, ctx) {
   })(sp);
   for (const u of urls) if (!ctx.allowedUrls.has(u)) errs.push(`허용되지 않은 주소: ${u} — 설계도의 출처·버튼·${ctx.hubPath} 만`);
 
-  /* 숫자 ↔ 원문 · 근거 없는 말 · TODO */
-  const prose = proseOf(sp);
+  /* 숫자 ↔ 원문 · 근거 없는 말 · TODO
+     타이틀(h1)·소제목(q)은 사장님이 준 문구라 기계가 심판하지 않는다 — push 게이트(check-source-match claimStrings)도 안 본다.
+     2026-09-19 계산공식: 소제목의 "34만9700원" 이 고시의 "34만9천7백원" 과 달라 고치기 2회를 헛돌고 실패했다. */
+  const prose = proseOf({ ...sp, h1: undefined, qa: (Array.isArray(sp.qa) ? sp.qa : []).map((c) => ({ ...c, q: undefined })) });
   const unb = unbackedNumbers(prose, ctx.pool);
   if (unb.length) errs.push(`원문 추출본에 없는 숫자 ${unb.length}개: ${unb.slice(0, 20).join(" · ")}\n   → 추출본에 그 숫자가 글자 그대로(같은 자릿수) 있어야 한다. 없으면 그 숫자가 든 문장을 뺀다. 환산·반올림·합산 금지`);
   const ban = bannedWords(prose, ctx.pool);

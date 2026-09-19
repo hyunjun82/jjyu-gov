@@ -1,0 +1,18 @@
+{
+  "slug": "national-pension-linked-reduction",
+  "keyword": "기초연금",
+  "title": "국민연금 수령액별 기초연금 감액 계산, 연계감액 기준과 폐지 여부",
+  "subheads": [
+    "국민연금을 받으면 기초연금이 줄어드나요?",
+    "감액되는 금액은 어떻게 계산하나요?",
+    "국민연금이 얼마부터 연계감액에 걸리나요?",
+    "연계감액이 없어진다는 게 사실인가요?"
+  ],
+  "source": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1030188869 , https://www.fss.or.kr/edu/fec/contMng/view.do?menuNo=300017&contentsSlno=636 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://www.korea.kr/news/policyNewsView.do?newsId=148971175",
+  "extract": "scripts/output/source-national-pension-linked-reduction.txt",
+  "outline": "scripts/output/outline-national-pension-linked-reduction.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/national-pension-linked-reduction.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}
