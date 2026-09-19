@@ -1,0 +1,18 @@
+{
+  "slug": "birth-1962-apply-timing",
+  "keyword": "기초연금",
+  "title": "1962년생 기초연금 신청 시기부터 생일 기준과 70세 상향 여부까지",
+  "subheads": [
+    "1962년생은 언제부터 기초연금을 신청하나요?",
+    "만 65세가 되는 달에 바로 신청하나요?",
+    "생일이 월말이면 첫 지급이 밀리나요?",
+    "수령 나이가 70세로 올라가는 게 확정인가요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88%EB%B2%95/(20251001,21065,20251001)/%EC%A0%9C10%EC%A1%B0 , https://www.korea.kr/multi/mediaNewsView.do?newsId=148971263 , https://www.korea.kr/multi/visualNewsView.do?newsId=148969138 , https://www.korea.kr/news/policyNewsView.do?newsId=148971175",
+  "extract": "scripts/output/source-birth-1962-apply-timing.txt",
+  "outline": "scripts/output/outline-birth-1962-apply-timing.md",
+  "approved": true,
+  "approvedAt": "2026-09-19",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/birth-1962-apply-timing.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

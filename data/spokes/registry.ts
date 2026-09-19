@@ -1875,6 +1875,7 @@ import { 화담숲단풍시기SpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { 화담숲코스소요시간SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/코스소요시간';
 import { 화담숲가는길순환버스SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/가는길순환버스';
 import { 화담숲도시락식당SpokeContent } from '@/app/policy/[id]/[spoke]/content/화담숲/도시락식당';
+import { 기초연금기초연금생일신청시기SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/기초연금생일신청시기';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'hwadam-forest': {
@@ -2972,6 +2973,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'basic-pension': {
+    'birth-1962-apply-timing': 기초연금기초연금생일신청시기SpokeContent,
     'old-age-pension-overlap-apply': 기초연금노령연금중복신청SpokeContent,
     '2027-increase': 기초연금2027년인상SpokeContent,
     'civil-service-pension-overlap': 기초연금공무원연금중복SpokeContent,

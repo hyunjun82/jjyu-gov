@@ -277,6 +277,7 @@ export const basicPensionPolicy = {
 
 /* ── 기초연금 스포크 목록 ── */
 export const 기초연금Spokes = [
+  { slug: 'birth-1962-apply-timing', role: 'apply', title: '1962년생 기초연금 신청 시기부터 생일 기준과 70세 상향 여부까지' },
   { slug: '수급자격', title: '기초연금 수급자격 2026, 소득 얼마면 신청할 수 있나' },
   { slug: '이의신청', title: '기초연금 탈락·삭감 이의신청, 90일 이내 재심사·재신청' },
   { slug: '금액', title: '기초연금 부부 둘 다 받으면 얼마인가, 감액 계산' },
