@@ -57,10 +57,13 @@ function ratio(n: number, total: number) {
   return total ? Math.round((n / total) * 100) : 0;
 }
 
+/** 문제 하나 = 메시지 + 그 문제에 기여한 파일들. 기여 파일을 알아야 "이번 push 탓인가"를 가릴 수 있다 (2026-09-19) */
+type Problem = { msg: string; files: string[] };
+
 function checkGroup(name: string, labels: Label[], limits: {
   frame: number; head: number; readOnly: number;
-}): string[] {
-  const bad: string[] = [];
+}): Problem[] {
+  const bad: Problem[] = [];
   const total = labels.length;
   if (total < 5) return bad; // 표본이 작으면 판단하지 않는다
 
@@ -69,40 +72,45 @@ function checkGroup(name: string, labels: Label[], limits: {
     for (const l of labels) c.set(fn(l.text), (c.get(fn(l.text)) ?? 0) + 1);
     return [...c.entries()].sort((a, b) => b[1] - a[1]);
   };
+  const filesWhere = (fn: (s: string) => boolean) => labels.filter((l) => fn(l.text)).map((l) => l.file);
 
   const [topFrame, topFrameN] = tally(frameOf)[0];
   if (ratio(topFrameN, total) > limits.frame)
-    bad.push(
-      `${name} — 끝 어절 "${topFrame}" 이 ${topFrameN}/${total}개 (${ratio(topFrameN, total)}%). ` +
+    bad.push({
+      msg: `${name} — 끝 어절 "${topFrame}" 이 ${topFrameN}/${total}개 (${ratio(topFrameN, total)}%). ` +
         `상한 ${limits.frame}%. 같은 틀을 돌려쓰고 있다.`,
-    );
+      files: filesWhere((s) => frameOf(s) === topFrame),
+    });
 
   const [topHead, topHeadN] = tally(headOf)[0];
   if (ratio(topHeadN, total) > limits.head)
-    bad.push(
-      `${name} — 첫 어절 "${topHead}" 이 ${topHeadN}/${total}개 (${ratio(topHeadN, total)}%). ` +
+    bad.push({
+      msg: `${name} — 첫 어절 "${topHead}" 이 ${topHeadN}/${total}개 (${ratio(topHeadN, total)}%). ` +
         `상한 ${limits.head}%. 문장을 같은 말로 열고 있다.`,
-    );
+      files: filesWhere((s) => headOf(s) === topHead),
+    });
 
   if (limits.readOnly >= 0) {
     const ro = labels.filter((l) => READ_ONLY.test(l.text));
     if (ratio(ro.length, total) > limits.readOnly)
-      bad.push(
-        `${name} — 읽는 버튼("~보기")이 ${ro.length}/${total}개 (${ratio(ro.length, total)}%). ` +
+      bad.push({
+        msg: `${name} — 읽는 버튼("~보기")이 ${ro.length}/${total}개 (${ratio(ro.length, total)}%). ` +
           `상한 ${limits.readOnly}%. 버튼은 행동을 시켜야 한다.\n` +
           ro.slice(0, 6).map((l) => `        · ${l.file}: ${l.text}`).join('\n'),
-      );
+        files: ro.map((l) => l.file),
+      });
   }
 
   // 완전히 같은 문장
   const dup = tally((s) => s).filter(([, n]) => n > 1);
   for (const [text, n] of dup)
-    bad.push(`${name} — 같은 문장이 ${n}번: "${text.slice(0, 50)}"`);
+    bad.push({ msg: `${name} — 같은 문장이 ${n}번: "${text.slice(0, 50)}"`, files: filesWhere((s) => s === text) });
 
   return bad;
 }
 
-function changedDirs(): string[] {
+/** 이번 push 가 건드린 글 — "폴더/파일.tsx" 꼴 */
+function changedFiles(): Set<string> {
   let out = '';
   try {
     out = execSync(`git diff --name-only origin/main...HEAD -- "${ROOT}"`, { encoding: 'utf8' });
@@ -110,14 +118,16 @@ function changedDirs(): string[] {
     try { out = execSync(`git diff --name-only HEAD~1 -- "${ROOT}"`, { encoding: 'utf8' }); } catch {}
   }
   try { out += execSync(`git ls-files --others --exclude-standard -- "${ROOT}"`, { encoding: 'utf8' }); } catch {}
-  const dirs = new Set<string>();
+  const files = new Set<string>();
   for (const line of out.split('\n').map((s) => s.trim()).filter(Boolean)) {
     const parts = line.replace(/\\/g, '/').split('/');
     const i = parts.indexOf('content');
-    if (i >= 0 && parts[i + 1]) dirs.add(parts[i + 1]);
+    if (i >= 0 && parts[i + 1] && parts[i + 2]) files.add(`${parts[i + 1]}/${parts[i + 2]}`);
   }
-  return [...dirs];
+  return files;
 }
+const changed = changedFiles();
+const changedDirs = () => [...new Set([...changed].map((f) => f.split('/')[0]))];
 
 const arg = process.argv[2];
 const targets = arg ? [arg] : changedDirs();
@@ -147,12 +157,19 @@ for (const t of targets) {
     ...checkGroup(`[${t}] cue`, cues, { frame: 25, head: 30, readOnly: -1 }),
   ];
 
-  if (problems.length) {
-    fail += problems.length;
-    console.log('');
-    for (const p of problems) console.log(` ❌ ${p}`);
+  /* 소급 차단 금지 (2026-09-19): git 모드(인자 없음)에서는 이번 push 가 건드린 글이 그 문제에
+     기여했을 때만 막는다. 옛 글끼리 만든 도배는 ⚠ 로 보여만 준다 — 새 글 한 편 붙였다고
+     폴더의 옛 문제 3건이 push 를 세웠다(기초연금). 폴더 인자로 부르면(파이프라인) 전부 본다. */
+  const mine = (p: Problem) => Boolean(arg) || p.files.some((f) => changed.has(`${t}/${f}`));
+  const block = problems.filter(mine);
+  const old = problems.filter((p) => !mine(p));
+  if (problems.length) console.log('');
+  for (const p of old) console.log(` ⚠ (옛 글끼리 — 이번 push 탓 아님) ${p.msg}`);
+  if (block.length) {
+    fail += block.length;
+    for (const p of block) console.log(` ❌ ${p.msg}`);
   } else {
-    console.log(` ✅ ${t} — 상단 버튼 ${hero.length}개 · cue ${cues.length}개, 틀 반복 없음`);
+    console.log(` ✅ ${t} — 상단 버튼 ${hero.length}개 · cue ${cues.length}개${old.length ? ` (옛 글 경고 ${old.length}건은 막지 않는다)` : ', 틀 반복 없음'}`);
   }
 }
 
