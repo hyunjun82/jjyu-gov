@@ -18,10 +18,12 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
-import { evidenceFor } from './lib/evidence';
+import { evidenceFor, judgeable } from './lib/evidence';
 
 const DIR = 'data/policies';
 const OUT = 'scripts/output';
+/** 이 대조기가 생긴 날. 이보다 먼저 태어난 허브는 스포크 한 줄 붙였다고 다시 심판하지 않는다 (2026-09-19 basic-pension 으로 push 가 섰다) */
+const BORN = '2026-08-16';
 
 /** 숫자+단위 토큰. 조문 번호(제N조·N항·N호·별표N)는 원문과 표기가 달라 제외 */
 const TOKEN = /\d[\d,]*(?:\.\d+)?\s*(?:만원|억원|천원|원|%|퍼센트|개월|년|일|세|명|회|번|인실|인|시간|배|건|편|쪽)/g;  // '자'(글자수)는 뺐다 — "qa5 자활급여"를 "5 자"로 읽는 오탐
@@ -223,8 +225,13 @@ if (!targets.length && !fileArgs.length) {
   let diff = '';
   try { diff = execSync('git diff --name-only origin/main...HEAD -- data/policies', { encoding: 'utf8' }); }
   catch { try { diff = execSync('git diff --name-only HEAD~1 -- data/policies', { encoding: 'utf8' }); } catch {} }
-  targets = diff.split('\n').map((l) => path.basename(l.trim(), '.ts'))
+  const all = diff.split('\n').map((l) => path.basename(l.trim(), '.ts'))
     .filter((s) => s && s !== 'manifest' && fs.existsSync(path.join(DIR, `${s}.ts`)));
+  /* 소급 차단 금지 — 이 대조기보다 먼저 태어난 허브는 심판하지 않는다 (scripts/lib/evidence.ts judgeable).
+     허브는 스포크를 붙일 때마다 배열 한 줄이 바뀌어 diff 에 잡히는데, 그때마다 옛 수치 30개를 다시 묻던 것. */
+  targets = all.filter((s) => judgeable(path.join(DIR, `${s}.ts`), BORN));
+  const skipped = all.filter((s) => !targets.includes(s));
+  if (skipped.length) console.log(` (${BORN} 이전에 태어난 허브 ${skipped.length}편은 심판하지 않는다 — 소급 차단 금지: ${skipped.join(', ')})`);
 }
 
 /* 스포크 본문도 대조한다 (2026-08-19).
