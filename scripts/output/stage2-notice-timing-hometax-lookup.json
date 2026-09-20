@@ -1,0 +1,18 @@
+{
+  "slug": "notice-timing-hometax-lookup",
+  "keyword": "종합소득세 중간예납",
+  "title": "종합소득세 중간예납 고지서 언제 오나요, 고지세액 조회와 금액이 다를 때",
+  "subheads": [
+    "중간예납 고지서는 언제쯤 오나요?",
+    "고지세액은 홈택스 어디서 조회하나요?",
+    "고지 내역이 안 뜨면 어떻게 하나요?",
+    "고지 금액이 예상과 다르면 왜 그런가요?"
+  ],
+  "source": "https://www.korea.kr/news/policyNewsView.do?newsId=148954110 , https://www.korea.kr/briefing/pressReleaseView.do?newsId=156724560 , https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2237&cntntsId=7774 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95",
+  "extract": "scripts/output/source-notice-timing-hometax-lookup.txt",
+  "outline": "scripts/output/outline-notice-timing-hometax-lookup.md",
+  "approved": true,
+  "approvedAt": "2026-09-20",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/notice-timing-hometax-lookup.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

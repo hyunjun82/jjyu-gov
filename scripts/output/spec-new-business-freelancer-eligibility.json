@@ -1,0 +1,24 @@
+{
+  "slug": "new-business-freelancer-eligibility",
+  "policyDir": "중간예납",
+  "fileName": "신규프리랜서중간예납",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "eligibility",
+  "h1": "신규사업자와 프리랜서 중간예납 대상 여부, 첫해 기준과 근로소득 겸업",
+  "breadcrumb": "신규사업자 중간예납",
+  "description": "신규사업자 중간예납",
+  "sourceFile": "scripts\\output\\source-new-business-freelancer-eligibility.txt",
+  "sourceName": "국가법령정보센터 — 소득세법 제65조(중간예납)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "올해 사업을 시작했는데 중간예납 대상인가요?",
+    "첫해에는 기준이 되는 세금이 없지 않나요?",
+    "프리랜서도 고지서가 오나요?",
+    "직장 다니면서 사업소득이 있으면 어떻게 되나요?"
+  ],
+  "faq": [
+    "신규사업자는 중간예납 대신 무엇을 내나요?",
+    "프리랜서도 나중에 종합소득세 확정신고는 해야 하나요?"
+  ]
+}

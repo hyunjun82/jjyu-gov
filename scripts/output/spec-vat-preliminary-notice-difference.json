@@ -1,0 +1,24 @@
+{
+  "slug": "vat-preliminary-notice-difference",
+  "policyDir": "중간예납",
+  "fileName": "예정고지중간예납차이",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "compare",
+  "h1": "부가세 예정고지와 종합소득세 중간예납 차이, 같이 왔을 때 납부 순서",
+  "breadcrumb": "예정고지·중간예납",
+  "description": "예정고지·중간예납",
+  "sourceFile": "scripts\\output\\source-vat-preliminary-notice-difference.txt",
+  "sourceName": "국가법령정보센터 — 소득세법 제65조(중간예납)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "부가세 예정고지와 중간예납은 어떻게 다른가요?",
+    "두 고지서가 같은 달에 오기도 하나요?",
+    "매출이 없는데 둘 다 내야 하나요?",
+    "둘 중 하나만 먼저 내도 되나요?"
+  ],
+  "faq": [
+    "부가세 예정고지와 중간예납을 둘 다 못 내면 가산세가 각각 붙나요?",
+    "두 고지서 금액이 실제보다 많게 나오면 감액 신청이 가능한가요?"
+  ]
+}

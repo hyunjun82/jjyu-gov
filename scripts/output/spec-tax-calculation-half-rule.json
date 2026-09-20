@@ -1,0 +1,24 @@
+{
+  "slug": "tax-calculation-half-rule",
+  "policyDir": "중간예납",
+  "fileName": "중간예납세액계산",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "amount",
+  "h1": "종합소득세 중간예납 세액 계산, 전년도 납부액 절반이 되는 이유와 기준",
+  "breadcrumb": "중간예납 계산 기준",
+  "description": "중간예납 계산 기준",
+  "sourceFile": "scripts\\output\\source-tax-calculation-half-rule.txt",
+  "sourceName": "국가법령정보센터 — 소득세법(제65조 중간예납 포함 전체 조문)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "중간예납 세액은 어떻게 계산되나요?",
+    "전년도에 낸 세금의 절반이 맞나요?",
+    "왜 절반으로 정해져 있나요?",
+    "올해 소득이 줄었는데도 그대로 나오나요?"
+  ],
+  "faq": [
+    "중간예납 세액이 50만원 미만이면 안 내도 되나요?",
+    "중간예납 기준액을 직접 계산해서 추계신고할 수도 있나요?"
+  ]
+}

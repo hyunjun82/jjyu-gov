@@ -1,0 +1,18 @@
+{
+  "slug": "new-business-freelancer-eligibility",
+  "keyword": "종합소득세 중간예납",
+  "title": "신규사업자와 프리랜서 중간예납 대상 여부, 첫해 기준과 근로소득 겸업",
+  "subheads": [
+    "올해 사업을 시작했는데 중간예납 대상인가요?",
+    "첫해에는 기준이 되는 세금이 없지 않나요?",
+    "프리랜서도 고지서가 오나요?",
+    "직장 다니면서 사업소득이 있으면 어떻게 되나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0 , https://www.law.go.kr/lsInfoP.do?lsiSeq=22305 , https://portal.scourt.go.kr/pgp/main.on?w2xPath=PGP1012M01&&jisCntntsSrno=2026000036690&&prvsNo=64&&prvsBrncNo=0&&jisCntntsKndCd=03&&viewDvsCd=01&c=900 , https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032471989",
+  "extract": "scripts/output/source-new-business-freelancer-eligibility.txt",
+  "outline": "scripts/output/outline-new-business-freelancer-eligibility.md",
+  "approved": true,
+  "approvedAt": "2026-09-20",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/new-business-freelancer-eligibility.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

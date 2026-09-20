@@ -1,0 +1,24 @@
+{
+  "slug": "notice-timing-hometax-lookup",
+  "policyDir": "중간예납",
+  "fileName": "중간예납고지조회",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "amount",
+  "h1": "종합소득세 중간예납 고지서 언제 오나요, 고지세액 조회와 금액이 다를 때",
+  "breadcrumb": "중간예납 고지조회",
+  "description": "중간예납 고지조회",
+  "sourceFile": "scripts\\output\\source-notice-timing-hometax-lookup.txt",
+  "sourceName": "정책브리핑(korea.kr) — 11월은 종합소득세 중간예납의 달",
+  "sourceUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148954110",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "중간예납 고지서는 언제쯤 오나요?",
+    "고지세액은 홈택스 어디서 조회하나요?",
+    "고지 내역이 안 뜨면 어떻게 하나요?",
+    "고지 금액이 예상과 다르면 왜 그런가요?"
+  ],
+  "faq": [
+    "중간예납 고지서를 못 받았는데 세금을 안 내도 되나요?",
+    "중간예납 세액을 한 번에 못 내면 나눠 낼 수 있나요?"
+  ]
+}

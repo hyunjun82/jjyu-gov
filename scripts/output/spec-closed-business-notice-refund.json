@@ -1,0 +1,24 @@
+{
+  "slug": "closed-business-notice-refund",
+  "policyDir": "중간예납",
+  "fileName": "폐업중간예납환급",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "eligibility",
+  "h1": "폐업 후 종합소득세 중간예납 고지서, 납부 의무와 환급 신청 방법",
+  "breadcrumb": "폐업 중간예납 환급",
+  "description": "폐업 중간예납 환급",
+  "sourceFile": "scripts\\output\\source-closed-business-notice-refund.txt",
+  "sourceName": "법제처 국가법령정보센터 — 소득세법 전문",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "폐업했는데도 중간예납 고지서가 오나요?",
+    "폐업했으면 내지 않아도 되나요?",
+    "이미 낸 돈은 돌려받을 수 있나요?",
+    "환급은 어디에 신청하나요?"
+  ],
+  "faq": [
+    "폐업 신고 후에 받은 중간예납 고지서도 무조건 납부해야 하나요?",
+    "중간예납으로 낸 돈은 환급 신청을 언제까지 해야 하나요?"
+  ]
+}

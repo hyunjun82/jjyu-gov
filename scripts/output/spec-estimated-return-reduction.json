@@ -1,0 +1,24 @@
+{
+  "slug": "estimated-return-reduction",
+  "policyDir": "중간예납",
+  "fileName": "중간예납추계신고",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "apply",
+  "h1": "중간예납 추계액 신고로 세액이 줄어드나요, 대상 조건과 신고서 작성법",
+  "breadcrumb": "중간예납 추계신고",
+  "description": "중간예납 추계신고",
+  "sourceFile": "scripts\\output\\source-estimated-return-reduction.txt",
+  "sourceName": "법제처 — 소득세법 제65조(중간예납)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "추계액 신고를 하면 세액이 줄어드나요?",
+    "추계신고는 누가 할 수 있나요?",
+    "신고서는 어떻게 작성하나요?",
+    "결손이 났어도 신고해야 하나요?"
+  ],
+  "faq": [
+    "추계신고를 잘못하면 가산세가 붙나요?",
+    "추계신고와 고지서 납부 중 하나만 골라도 되나요?"
+  ]
+}

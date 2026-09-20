@@ -1,0 +1,18 @@
+{
+  "slug": "installment-split-payment",
+  "keyword": "종합소득세 중간예납",
+  "title": "종합소득세 중간예납 분납 기준과 신청, 분납 고지서와 2차 납부 기한",
+  "subheads": [
+    "중간예납도 나눠 낼 수 있나요?",
+    "얼마를 넘어야 분납이 되나요?",
+    "분납은 어떻게 신청하나요?",
+    "분납 2차분은 언제까지 내나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95 , https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%86%8C%EB%93%9D%EC%84%B8%EC%82%AC%EB%AC%B4%EC%B2%98%EB%A6%AC%EA%B7%9C%EC%A0%95 , https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2237&cntntsId=7774",
+  "extract": "scripts/output/source-installment-split-payment.txt",
+  "outline": "scripts/output/outline-installment-split-payment.md",
+  "approved": true,
+  "approvedAt": "2026-09-20",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/installment-split-payment.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

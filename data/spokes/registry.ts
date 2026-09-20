@@ -1879,8 +1879,30 @@ import { 기초연금내년인상시기SpokeContent } from '@/app/policy/[id]/[s
 import { 기초연금소득역전방지감액SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/소득역전방지감액';
 import { 기초연금자동지급통지SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/자동지급통지';
 import { 기초연금이의신청기한행정심판SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/이의신청기한행정심판';
+import { 중간예납중간예납고지조회SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/중간예납고지조회';
+import { 중간예납중간예납세액계산SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/중간예납세액계산';
+import { 중간예납중간예납추계신고SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/중간예납추계신고';
+import { 중간예납중간예납납부기한11월SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/중간예납납부기한11월';
+import { 중간예납중간예납분납기준SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/중간예납분납기준';
+import { 중간예납기납부세액환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/기납부세액환급';
+import { 중간예납폐업중간예납환급SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/폐업중간예납환급';
+import { 중간예납신규프리랜서중간예납SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/신규프리랜서중간예납';
+import { 중간예납중간예납미납압류SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/중간예납미납압류';
+import { 중간예납예정고지중간예납차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/예정고지중간예납차이';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'income-tax-interim-payment': {
+    'vat-preliminary-notice-difference': 중간예납예정고지중간예납차이SpokeContent,
+    'unpaid-penalty-seizure': 중간예납중간예납미납압류SpokeContent,
+    'new-business-freelancer-eligibility': 중간예납신규프리랜서중간예납SpokeContent,
+    'closed-business-notice-refund': 중간예납폐업중간예납환급SpokeContent,
+    'prepaid-credit-may-refund': 중간예납기납부세액환급SpokeContent,
+    'installment-split-payment': 중간예납중간예납분납기준SpokeContent,
+    'payment-deadline-november': 중간예납중간예납납부기한11월SpokeContent,
+    'estimated-return-reduction': 중간예납중간예납추계신고SpokeContent,
+    'tax-calculation-half-rule': 중간예납중간예납세액계산SpokeContent,
+    'notice-timing-hometax-lookup': 중간예납중간예납고지조회SpokeContent,
+  },
   'hwadam-forest': {
     'hwadam-food-lodging': 화담숲도시락식당SpokeContent,
     'hwadam-transport': 화담숲가는길순환버스SpokeContent,

@@ -1,0 +1,18 @@
+{
+  "slug": "tax-calculation-half-rule",
+  "keyword": "종합소득세 중간예납",
+  "title": "종합소득세 중간예납 세액 계산, 전년도 납부액 절반이 되는 이유와 기준",
+  "subheads": [
+    "중간예납 세액은 어떻게 계산되나요?",
+    "전년도에 낸 세금의 절반이 맞나요?",
+    "왜 절반으로 정해져 있나요?",
+    "올해 소득이 줄었는데도 그대로 나오나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95 , https://www.korea.kr/news/policyNewsView.do?newsId=148954110 , https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2237&cntntsId=7774 , https://www.korea.kr/briefing/pressReleaseView.do?newsId=156724560",
+  "extract": "scripts/output/source-tax-calculation-half-rule.txt",
+  "outline": "scripts/output/outline-tax-calculation-half-rule.md",
+  "approved": true,
+  "approvedAt": "2026-09-20",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/tax-calculation-half-rule.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

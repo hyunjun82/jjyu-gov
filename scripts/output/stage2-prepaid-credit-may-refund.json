@@ -1,0 +1,18 @@
+{
+  "slug": "prepaid-credit-may-refund",
+  "keyword": "종합소득세 중간예납",
+  "title": "중간예납 낸 돈은 내년 5월에 어떻게 되나요, 기납부세액 공제와 환급",
+  "subheads": [
+    "중간예납으로 낸 세금은 어디에 반영되나요?",
+    "5월 신고 때 기납부세액으로 공제되나요?",
+    "중간예납이 실제 세금보다 많으면 환급되나요?",
+    "환급금은 언제 들어오나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0 , https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%86%8C%EB%93%9D%EC%84%B8%EC%82%AC%EB%AC%B4%EC%B2%98%EB%A6%AC%EA%B7%9C%EC%A0%95",
+  "extract": "scripts/output/source-prepaid-credit-may-refund.txt",
+  "outline": "scripts/output/outline-prepaid-credit-may-refund.md",
+  "approved": true,
+  "approvedAt": "2026-09-20",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/prepaid-credit-may-refund.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

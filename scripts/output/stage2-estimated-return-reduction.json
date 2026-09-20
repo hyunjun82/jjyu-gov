@@ -1,0 +1,18 @@
+{
+  "slug": "estimated-return-reduction",
+  "keyword": "종합소득세 중간예납",
+  "title": "중간예납 추계액 신고로 세액이 줄어드나요, 대상 조건과 신고서 작성법",
+  "subheads": [
+    "추계액 신고를 하면 세액이 줄어드나요?",
+    "추계신고는 누가 할 수 있나요?",
+    "신고서는 어떻게 작성하나요?",
+    "결손이 났어도 신고해야 하나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0 , https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032471989 , https://www.korea.kr/briefing/pressReleaseView.do?newsId=156724560",
+  "extract": "scripts/output/source-estimated-return-reduction.txt",
+  "outline": "scripts/output/outline-estimated-return-reduction.md",
+  "approved": true,
+  "approvedAt": "2026-09-20",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/estimated-return-reduction.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

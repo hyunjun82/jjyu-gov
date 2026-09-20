@@ -1,0 +1,24 @@
+{
+  "slug": "unpaid-penalty-seizure",
+  "policyDir": "중간예납",
+  "fileName": "중간예납미납압류",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "caution",
+  "h1": "종합소득세 중간예납 미납하면 어떻게 되나요, 가산세와 독촉장 압류까지",
+  "breadcrumb": "미납 가산세 압류",
+  "description": "미납 가산세 압류",
+  "sourceFile": "scripts\\output\\source-unpaid-penalty-seizure.txt",
+  "sourceName": "국가법령정보센터 — 소득세법 제65조(중간예납)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "중간예납을 안 내면 어떻게 되나요?",
+    "가산세는 얼마나 붙나요?",
+    "독촉장을 받으면 어떻게 하나요?",
+    "계속 밀리면 압류까지 가나요?"
+  ],
+  "faq": [
+    "중간예납 세액이 소액이면 안 내도 되나요?",
+    "가산세가 붙은 상태에서도 분납 신청이 가능한가요?"
+  ]
+}

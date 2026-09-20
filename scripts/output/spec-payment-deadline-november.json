@@ -1,0 +1,24 @@
+{
+  "slug": "payment-deadline-november",
+  "policyDir": "중간예납",
+  "fileName": "중간예납납부기한11월",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "apply",
+  "h1": "종합소득세 중간예납 납부 기한과 11월 일정, 카드 납부와 납기 연장",
+  "breadcrumb": "중간예납 납부기한",
+  "description": "중간예납 납부기한",
+  "sourceFile": "scripts\\output\\source-payment-deadline-november.txt",
+  "sourceName": "법제처 — 소득세법 제65조(중간예납)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "중간예납은 몇 월에 내나요?",
+    "납부 기한은 11월 며칠까지인가요?",
+    "카드로도 납부할 수 있나요?",
+    "납기 연장을 신청할 수 있나요?"
+  ],
+  "faq": [
+    "중간예납 고지서를 못 받았는데 안 내도 되나요?",
+    "카드로 납부하면 수수료는 누가 부담하나요?"
+  ]
+}

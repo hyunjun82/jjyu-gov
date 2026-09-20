@@ -473,6 +473,7 @@ import { inheritanceTaxPolicy, inheritanceTaxSpokes } from './inheritance-tax';
 import { giftTaxPolicy, giftTaxSpokes } from './gift-tax';
 import { capitalGainsTaxPolicy, capitalGainsTaxSpokes } from './capital-gains-tax';
 import { comprehensiveIncomeTaxPolicy, comprehensiveIncomeTaxSpokes } from './comprehensive-income-tax';
+import { incomeTaxInterimPaymentPolicy, incomeTaxInterimPaymentSpokes } from './income-tax-interim-payment';
 import { acquisitionTaxPolicy, acquisitionTaxSpokes } from './acquisition-tax';
 import { comprehensiveRealEstateTaxPolicy, comprehensiveRealEstateTaxSpokes } from './comprehensive-real-estate-tax';
 import { yearEndTaxSettlementPolicy, yearEndTaxSettlementSpokes } from './year-end-tax-settlement';
@@ -1145,6 +1146,7 @@ export const PoliciesById: Record<string, any> = {
   '276': giftTaxPolicy,
   '277': capitalGainsTaxPolicy,
   '278': comprehensiveIncomeTaxPolicy,
+  '845': incomeTaxInterimPaymentPolicy,
   '279': acquisitionTaxPolicy,
   '280': comprehensiveRealEstateTaxPolicy,
   '281': yearEndTaxSettlementPolicy,
@@ -1916,6 +1918,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'gift-tax': giftTaxPolicy,
   'capital-gains-tax': capitalGainsTaxPolicy,
   'comprehensive-income-tax': comprehensiveIncomeTaxPolicy,
+  'income-tax-interim-payment': incomeTaxInterimPaymentPolicy,
   'acquisition-tax': acquisitionTaxPolicy,
   'comprehensive-real-estate-tax': comprehensiveRealEstateTaxPolicy,
   'year-end-tax-settlement': yearEndTaxSettlementPolicy,
@@ -2718,6 +2721,7 @@ export const SpokesById: Record<string, any[]> = {
   '276': giftTaxSpokes,
   '277': capitalGainsTaxSpokes,
   '278': comprehensiveIncomeTaxSpokes,
+  '845': incomeTaxInterimPaymentSpokes,
   '279': acquisitionTaxSpokes,
   '280': comprehensiveRealEstateTaxSpokes,
   '281': yearEndTaxSettlementSpokes,
@@ -3480,6 +3484,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'gift-tax': giftTaxSpokes,
   'capital-gains-tax': capitalGainsTaxSpokes,
   'comprehensive-income-tax': comprehensiveIncomeTaxSpokes,
+  'income-tax-interim-payment': incomeTaxInterimPaymentSpokes,
   'acquisition-tax': acquisitionTaxSpokes,
   'comprehensive-real-estate-tax': comprehensiveRealEstateTaxSpokes,
   'year-end-tax-settlement': yearEndTaxSettlementSpokes,

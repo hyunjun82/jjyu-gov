@@ -111,7 +111,18 @@ const dev = { proc: null, up: false, external: false };
 let devPromise = null;
 const ensureDev = (firstUrl) => { if (dev.up) return Promise.resolve(); if (!devPromise) devPromise = startDev(firstUrl).catch((e) => { devPromise = null; throw e; }); return devPromise; };
 async function startDev(firstUrl) {
-  if (await ping(`http://localhost:${PORT}/`)) { log("dev", `dev 서버가 이미 ${PORT} 에 있음 — 그대로 씁니다`); dev.up = true; dev.external = true; return; }
+  if (await ping(`http://localhost:${PORT}/`)) {
+    /* 이미 떠 있어도 **이번 글 경로를 아는지** 봐야 한다 (2026-09-20).
+       next.config 가 output: "export" 라 dev 서버는 뜰 때의 generateStaticParams 목록만 안다.
+       배선 뒤에 낡은 서버를 그대로 쓰면 새 글이 500("missing param in generateStaticParams")
+       으로 나오고, 화면 게이트가 그걸 "글이 비었다"로 읽어 멀쩡한 글을 두 번 고쳐 쓰다 롤백한다.
+       실제로 중간예납 1·2번이 이렇게 날아갔다 ($2.43 + $1.23). 루트만 ping 하면 항상 200 이라 못 잡는다. */
+    if (await ping(firstUrl)) { log("dev", `dev 서버가 이미 ${PORT} 에 있음 — 이번 글 경로도 알고 있어 그대로 씁니다`); dev.up = true; dev.external = true; return; }
+    log("dev", `${PORT} 에 뜬 서버가 이번 글 경로를 모릅니다 (정적 export) — 내리고 새로 띄웁니다`);
+    if (isWin) spawnSync("cmd", ["/c", `for /f "tokens=5" %a in ('netstat -ano ^| findstr :${PORT} ^| findstr LISTENING') do taskkill /F /PID %a`], { stdio: "ignore" });
+    else spawnSync("sh", ["-c", `lsof -ti:${PORT} | xargs -r kill -9`], { stdio: "ignore" });
+    await new Promise((r) => setTimeout(r, 2000));
+  }
   log("dev", `dev 서버 기동 (포트 ${PORT}) — 첫 컴파일이 몇 분 걸립니다`);
   dev.proc = spawn("npx", ["next", "dev", "-p", String(PORT)], { stdio: ["ignore", "pipe", "pipe"], shell: isWin, env: { ...process.env, NODE_ENV: "development" } });
   dev.proc.stdout.on("data", () => {}); dev.proc.stderr.on("data", () => {});

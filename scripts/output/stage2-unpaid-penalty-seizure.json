@@ -1,0 +1,18 @@
+{
+  "slug": "unpaid-penalty-seizure",
+  "keyword": "종합소득세 중간예납",
+  "title": "종합소득세 중간예납 미납하면 어떻게 되나요, 가산세와 독촉장 압류까지",
+  "subheads": [
+    "중간예납을 안 내면 어떻게 되나요?",
+    "가산세는 얼마나 붙나요?",
+    "독촉장을 받으면 어떻게 하나요?",
+    "계속 밀리면 압류까지 가나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C65%EC%A1%B0 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EA%B8%B0%EB%B3%B8%EB%B2%95 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EC%A7%95%EC%88%98%EB%B2%95 , https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2237&cntntsId=7774",
+  "extract": "scripts/output/source-unpaid-penalty-seizure.txt",
+  "outline": "scripts/output/outline-unpaid-penalty-seizure.md",
+  "approved": true,
+  "approvedAt": "2026-09-20",
+  "approvedBy": "scripts/article.mjs (자동 — 사람 승인은 scripts/reports/unpaid-penalty-seizure.md 를 보고 push 전에 한다)",
+  "note": "대화창 없이 claude -p 로 설계·작성. 구성표는 outline 파일, 판단 근거는 보고서에 있다."
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "prepaid-credit-may-refund",
+  "policyDir": "중간예납",
+  "fileName": "기납부세액환급",
+  "hubSlug": "income-tax-interim-payment",
+  "role": "amount",
+  "h1": "중간예납 낸 돈은 내년 5월에 어떻게 되나요, 기납부세액 공제와 환급",
+  "breadcrumb": "기납부세액 환급",
+  "description": "기납부세액 환급",
+  "sourceFile": "scripts\\output\\source-prepaid-credit-may-refund.txt",
+  "sourceName": "법제처 — 소득세법(전문)",
+  "sourceUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95",
+  "hubPath": "/policy/income-tax-interim-payment",
+  "qa": [
+    "중간예납으로 낸 세금은 어디에 반영되나요?",
+    "5월 신고 때 기납부세액으로 공제되나요?",
+    "중간예납이 실제 세금보다 많으면 환급되나요?",
+    "환급금은 언제 들어오나요?"
+  ],
+  "faq": [
+    "기납부세액 공제는 확정신고서에 따로 기재해야 하나요?",
+    "환급 계좌를 등록하지 않으면 어떻게 되나요?"
+  ]
+}
