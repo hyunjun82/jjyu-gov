@@ -33,7 +33,7 @@ export const 중간예납중간예납분납기준SpokeContent: SpokeData = {
   dateModified: '2026-09-20T09:00:00+09:00',
   heroHook:
     '11월에 중간예납 고지서를 받으면 세액 앞에서 한숨부터 나오시죠. 한 번에 다 내자니 자금 사정이 빠듯해서 손이 잘 안 나가는데요. 그런데 전부 한 번에 내지 않아도 됩니다. 11월 30일까지 낸 나머지 세액은 소득세법 제65조 제2항에 따라 다음 해 1월 1일부터 1월 15일까지 새 고지서로 다시 나옵니다. 다만 제77조가 정한 분할납부 대상이어야만 적용되니, 내 세액이 그 기준에 들어가는지부터 확인해보겠습니다.',
-  heroAct: { label: '1천만원 넘는지 따져보기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
+  heroAct: { label: '내 세액 열람하기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
   keyFacts: {
     '중간예납세액 결정': '직전 과세기간의 종합소득에 대한 소득세로서 납부하였거나 납부하여야 할 세액(중간예납기준액)의 2분의 1에 해당하는 금액',
     '1차 납부기한': '11월 30일까지',

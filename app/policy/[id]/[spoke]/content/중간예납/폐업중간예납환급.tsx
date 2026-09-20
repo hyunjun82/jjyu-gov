@@ -33,7 +33,7 @@ export const 중간예납폐업중간예납환급SpokeContent: SpokeData = {
   dateModified: '2026-09-20T09:00:00+09:00',
   heroHook:
     '사업 정리하느라 정신없는 와중에 세무서에서 중간예납 고지서가 날아오면 당혹스러우시죠. 폐업 신고를 했다고 해서 국세청 전산이 그 즉시 반영되는 게 아니라, 작년 실적을 기준으로 계산된 세액이 그대로 발급되는 구조라 그렇습니다. 다행히 이미 낸 세액이 그냥 사라지는 건 아니고, 중간예납기준액의 100분의 30에 못 미치면 추계액으로 다시 신고할 수 있고 남는 돈은 나중에 정산받을 수 있는 길도 열려 있습니다. 다만 아무 조치 없이 시간만 보내면 고지된 금액 그대로 11월 30일까지 징수됩니다.',
-  heroAct: { label: '폐업 뒤 온 고지서 열어보기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
+  heroAct: { label: '폐업 뒤 고지서 챙기기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
   keyFacts: {
     '중간예납세액 계산': '직전 과세기간 중간예납기준액의 2분의 1',
     '고지서 발급 기간': '11월 1일부터 11월 15일까지',

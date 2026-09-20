@@ -30,7 +30,7 @@ export const 중간예납기납부세액환급SpokeContent: SpokeData = {
   dateModified: '2026-09-20T09:00:00+09:00',
   heroHook:
     '11월에 중간예납 고지서를 받고 나면 그 돈이 그대로 사라지는 건 아닌지 걱정되시죠. 국세청 안내문은 법 조문 그대로라 공제인지 환급인지 한 번에 와닿지 않으시고요. 소득세법 제65조를 보면 중간예납세액은 사라지지 않고 확정신고납부세액, 환급세액과 함께 다음 해 중간예납기준액 계산에 그대로 들어갑니다. 다만 그 계산에 들어가는 항목과 실제 공제·환급 절차를 정한 조문은 서로 다릅니다. 그래서 내가 낸 금액이 어느 조문으로 이어지는지 확인해보겠습니다.',
-  heroAct: { label: '내가 낸 중간예납액 보기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
+  heroAct: { label: '내가 낸 세액 찾기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
   keyFacts: {
     '중간예납기간': '1월 1일부터 6월 30일까지',
     '중간예납세액': '중간예납기준액의 2분의 1에 해당하는 금액(1천원 미만은 버림)',

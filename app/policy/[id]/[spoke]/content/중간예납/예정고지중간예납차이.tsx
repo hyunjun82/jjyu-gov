@@ -27,7 +27,7 @@ export const 중간예납예정고지중간예납차이SpokeContent: SpokeData =
   dateModified: '2026-09-20T09:00:00+09:00',
   heroHook:
     '11월에 사업자등록증 하나로 고지서가 두 장 겹쳐 오면 어느 게 부가세고 어느 게 종합소득세인지 헷갈리시죠. 이름도 비슷하고 시기도 가까워서 하나를 놓치거나 중복으로 낼까 걱정하게 되는데요. 부가세 예정고지는 직전 과세기간 납부세액의 50퍼센트로, 중간예납은 직전 과세기간 종합소득세액의 2분의 1로 각각 계산되는 서로 다른 고지입니다. 다만 징수할 금액이 적거나 신규사업자면 예정고지나 중간예납 대상에서 아예 빠지기도 합니다. 두 고지서를 가르는 기준부터 확인해보겠습니다.',
-  heroAct: { label: '중간예납 고지 시기 짚어보기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
+  heroAct: { label: '두 고지서 날짜 맞추기', href: '/policy/income-tax-interim-payment/notice-timing-hometax-lookup/' },
   keyFacts: {
     '부가세 예정고지 세액': '직전 과세기간 납부세액의 50퍼센트(1천원 미만 단수 버림)',
     '부가세 예정고지 징수': '예정신고기간 종료 후 25일 이내, 50만원 미만은 징수 제외',
