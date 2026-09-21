@@ -1,0 +1,33 @@
+{
+  "slug": "hometax-withholding-filing",
+  "title": "원천세 홈택스로 신고하는 법, 원천징수이행상황신고서 전송까지",
+  "subheads": [
+    "원천세 신고는 언제까지 해야 하나요?",
+    "홈택스 어느 메뉴에서 시작하나요?",
+    "신고서에는 무엇을 적나요?",
+    "전송하고 나면 무엇을 확인하나요?"
+  ],
+  "extract": "scripts/output/source-nts-withholding.txt , scripts/output/source-nts-withholding-deadline.txt , scripts/output/source-income-law-127-129.txt",
+  "outline": "scripts/output/factsheet-hometax-withholding-filing.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "원천세 신고하러 가기",
+      "dest": "HT_WITHHOLDING"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "이번 달 기한 확인하기",
+      "dest": "NTS_DEADLINE"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "접수증·납부서 출력하기",
+      "dest": "HT_RECEIPT"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

@@ -22,6 +22,28 @@ const ROOT = path.join('app', 'policy', '[id]', '[spoke]', 'content');
 /** 읽기만 시키는 꼬리 — 행동이 아니다 */
 const READ_ONLY = /(보기|살펴보기|알아보기|읽어보기)$/;
 
+/* 사장님이 지적한 어색한 버튼·cue 표현 (2026-09-21, 세금 22편).
+   "갈래 잡기 이런 표현을 쓰냐", "뭘 따져", "뽑아두기가 뭐냐" — 한 편씩 짚어 가며 고치느라
+   손이 많이 갔다. 사람이 버튼은 평범한 말(확인하기·신청하기·납부하기·이동)로 쓴다.
+   새로 지적받으면 여기에 추가한다 — 이 목록이 늘어나는 게 시스템이 배우는 방식이다. */
+const AWKWARD: { re: RegExp; say: string; labelOnly?: boolean }[] = [
+  { re: /따지기|따져/, say: '따지기 → 확인하기' },
+  { re: /짚기|짚어|짚으/, say: '짚기 → 확인하기' },
+  { re: /펴기|펴보기|펼쳐보기|들춰/, say: '조문 펴기 → 무엇을 얻는지로 (예: 사유부터 확인하기)' },
+  { re: /훑기|훑어/, say: '훑기 → 보기·확인하기' },
+  { re: /견주/, say: '견주기 → 비교하기' },
+  { re: /뽑아두/, say: '뽑아두기 → 확인하기·출력하기' },
+  { re: /되짚|다시 밟/, say: '되짚기·다시 밟기 → 신고하러 가기 등 행동으로' },
+  { re: /갈래/, say: '갈래 → 가지' },
+  { re: /가려내/, say: '가려내기 → 확인하기' },
+  { re: /요건 맞추|한 줄씩 맞추/, say: '맞추기 → 확인하기' },
+  { re: /대조하기/, say: '대조하기 → 확인하기' },
+  { re: /살피기/, say: '살피기 → 확인하기' },
+  { re: /넘어가기|이어가기|마저 끝내/, say: '넘어가기·이어가기 → 납부하기·신고하기' },
+  { re: /누리집/, say: '누리집 → 홈페이지', labelOnly: true },
+  { re: /조문/, say: '버튼에 "조문"을 쓰지 않는다 — 누르면 얻는 것을 쓴다', labelOnly: true },
+];
+
 type Label = { file: string; text: string; kind: 'heroAct' | 'cue' | 'heroHook' };
 
 function collect(dir: string): Label[] {
@@ -156,6 +178,19 @@ for (const t of targets) {
     ...checkGroup(`[${t}] 상단 버튼`, hero, { frame: 40, head: 40, readOnly: 10 }),
     ...checkGroup(`[${t}] cue`, cues, { frame: 25, head: 30, readOnly: -1 }),
   ];
+
+  /* 어색한 표현 — 버튼 라벨(상단·본문 act)과 cue 를 한 줄씩 본다 */
+  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.tsx'))) {
+    const src = fs.readFileSync(path.join(dir, f), 'utf8');
+    const texts: { text: string; isLabel: boolean }[] = [
+      ...[...src.matchAll(/label:\s*'([^']*)'/g)].map((m) => ({ text: m[1], isLabel: true })),
+      ...[...src.matchAll(/cue:\s*\n?\s*'([^']*)'/g)].map((m) => ({ text: m[1], isLabel: false })),
+    ];
+    for (const { text, isLabel } of texts)
+      for (const a of AWKWARD)
+        if ((isLabel || !a.labelOnly) && a.re.test(text))
+          problems.push({ msg: `[${t}] 어색한 표현 — ${f}: "${text.slice(0, 40)}" (${a.say})`, files: [f] });
+  }
 
   /* 소급 차단 금지 (2026-09-19): git 모드(인자 없음)에서는 이번 push 가 건드린 글이 그 문제에
      기여했을 때만 막는다. 옛 글끼리 만든 도배는 ⚠ 로 보여만 준다 — 새 글 한 편 붙였다고

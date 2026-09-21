@@ -1,0 +1,33 @@
+{
+  "slug": "withholding-statement-form",
+  "title": "원천징수이행상황신고서 작성하는 법, 인원 총지급액 소득세 칸 채우기",
+  "subheads": [
+    "이 신고서는 무엇을 적는 서류인가요?",
+    "인원과 총지급액은 무엇을 기준으로 세나요?",
+    "소득세 칸의 금액은 어떻게 계산하나요?",
+    "다 채우고 나면 어디에 내나요?"
+  ],
+  "extract": "scripts/output/source-nts-withholding-deadline.txt , scripts/output/source-nts-withholding.txt , scripts/output/source-income-law-129.txt , scripts/output/source-income-law-127-129.txt",
+  "outline": "scripts/output/factsheet-withholding-statement-form.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "소득별 세율표 열기",
+      "dest": "LAW129"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "원천징수 대상 확인하기",
+      "dest": "NTS_OVERVIEW"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "신고서 작성하러 가기",
+      "dest": "HT_WITHHOLDING"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

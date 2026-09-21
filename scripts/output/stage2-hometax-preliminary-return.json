@@ -1,0 +1,23 @@
+{
+  "slug": "hometax-preliminary-return",
+  "keyword": "부가가치세 예정신고",
+  "title": "부가세 예정신고 홈택스로 하는 법, 매출 매입 입력부터 전송까지",
+  "subheads": [
+    "예정신고는 누가 직접 해야 하나요?",
+    "홈택스 어느 메뉴에서 시작하나요?",
+    "매출과 매입은 어떤 순서로 입력하나요?",
+    "전송한 신고서가 접수됐는지 어떻게 확인하나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%EB%B2%95/%EC%A0%9C48%EC%A1%B0 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9/%EC%A0%9C90%EC%A1%B0 , https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694 , https://hometax.go.kr",
+  "extract": "scripts/output/source-vat-law-48.txt , scripts/output/source-vat-decree-90.txt , scripts/output/source-nts-vat-deadline.txt",
+  "outline": "scripts/output/factsheet-hometax-preliminary-return.md",
+  "buttons": [
+    { "slot": "heroAct", "label": "부가세 예정신고 시작하기", "dest": "홈택스 세금신고 > 부가가치세 신고 > 부가가치세 과세신고 (로그인 없이 열린다)" },
+    { "slot": "qa3.act", "label": "예정신고 제출 서류 챙기기", "dest": "법제처 부가가치세법 시행령 제90조" },
+    { "slot": "qa4.act", "label": "전자신고 접수증 출력하기", "dest": "홈택스 세금신고 > 신고서 조회/삭제/부속서류 > 전자신고 접수증·납부서 출력" }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님 지시로 채팅 문구 승인 단계를 건너뛰고 작성 (2026-09-21). 승인은 로컬 화면을 보고 push 전에 한다.",
+  "note": "spec: scripts/specs/부가가치세.md 2번. 홈택스 부가가치세 신고 화면은 로그인 없이 열려 화면 문구를 직접 옮겨 적었다. 시행령 제90조 제3항 제출서류 표(9행)는 이미지라 캡처를 팩트시트에 옮겨 적었다."
+}

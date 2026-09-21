@@ -1,0 +1,33 @@
+{
+  "slug": "withholding-amended-return",
+  "title": "원천세 수정신고하는 법, 금액을 잘못 넣었을 때 경정청구까지",
+  "subheads": [
+    "적게 신고했을 때는 어떻게 하나요?",
+    "많이 신고했을 때는 어떻게 하나요?",
+    "청구하면 언제 답이 오나요?",
+    "고치기 전에 가산세부터 걱정해야 하나요?"
+  ],
+  "extract": "scripts/output/source-basic-law-45.txt , scripts/output/source-nts-withholding-penalty.txt , scripts/output/source-nts-withholding-deadline.txt , scripts/output/source-income-decree-185.txt",
+  "outline": "scripts/output/factsheet-withholding-amended-return.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "수정신고인지 경정청구인지 고르기",
+      "dest": "LAW45"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "경정청구 기한 확인하기",
+      "dest": "LAW45_2"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "고친 세액 납부하러 가기",
+      "dest": "HUB"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "daily-worker-withholding",
+  "title": "일용직 원천세 신고하는 법, 일용근로소득 지급명세서까지",
+  "subheads": [
+    "일용직 세율은 정직원과 다른가요?",
+    "원천세는 언제 내나요?",
+    "지급명세서는 언제 내나요?",
+    "빠뜨리면 어떤 불이익이 있나요?"
+  ],
+  "extract": "scripts/output/source-income-law-129.txt , scripts/output/source-nts-withholding-deadline.txt , scripts/output/source-nts-withholding.txt , scripts/output/source-income-law-127-129.txt",
+  "outline": "scripts/output/factsheet-daily-worker-withholding.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "세율부터 확인하기",
+      "dest": "LAW129"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "원천세 기한 보기",
+      "dest": "NTS_DEADLINE"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "일용직 원천세 신고하기",
+      "dest": "HUB"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

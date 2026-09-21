@@ -1,0 +1,33 @@
+{
+  "slug": "hometax-ict-return",
+  "title": "개별소비세 홈택스로 신고하는 법, 과세표준 입력부터 전송까지",
+  "subheads": [
+    "홈택스 어느 메뉴에서 시작하나요?",
+    "과세표준은 무엇을 기준으로 넣나요?",
+    "신고서에는 무엇을 입력하고 무엇을 붙이나요?",
+    "전송한 뒤에는 무엇을 확인하나요?"
+  ],
+  "extract": "scripts/output/source-ict-law-1.txt , scripts/output/source-ict-law-8.txt , scripts/output/source-ict-law-9.txt , scripts/output/source-ict-law-10.txt , scripts/output/source-ict-decree.txt , scripts/output/source-hometax-ict-menu.txt , scripts/output/source-nts-tax-schedule-2026-10.txt",
+  "outline": "scripts/output/factsheet-hometax-ict-return.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "개별소비세 신고하기",
+      "dest": "HT_GOODS"
+    },
+    {
+      "slot": "qa1.act",
+      "label": "과세물품 신고하러 가기",
+      "dest": "HT_GOODS"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "전자신고 접수증 확인하기",
+      "dest": "HT_RECEIPT"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀은 사장님 지정. 소제목 4개는 사장님 미지정이라 원문 확인 후 초안으로 잡았고, 로컬 검토에서 수정 요청 없이 승인됨."
+}

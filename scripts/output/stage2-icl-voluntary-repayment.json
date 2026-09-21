@@ -1,0 +1,33 @@
+{
+  "slug": "icl-voluntary-repayment",
+  "title": "학자금 자발적 상환 납부하는 법, 원천공제와 중복 시 처리",
+  "subheads": [
+    "의무가 없어도 미리 갚을 수 있나요?",
+    "미리 갚으면 의무상환액에서 빼 주나요?",
+    "통지를 받은 뒤에도 직접 낼 수 있나요?",
+    "어디서 납부하나요?"
+  ],
+  "extract": "scripts/output/source-icl-law-18.txt , scripts/output/source-icl-law-23-26.txt",
+  "outline": "scripts/output/factsheet-icl-voluntary-repayment.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "미리 갚을 수 있는지 확인하기",
+      "dest": "LAW18"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "차감 규정 확인하기",
+      "dest": "LAW18"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "자발적 상환 납부하러 가기",
+      "dest": "ICL"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

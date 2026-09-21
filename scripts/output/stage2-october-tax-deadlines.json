@@ -1,0 +1,33 @@
+{
+  "slug": "october-tax-deadlines",
+  "title": "10월에 내는 세금 정리, 국세청 세무일정으로 기한 확인하는 법",
+  "subheads": [
+    "10월에는 어떤 세금을 내나요?",
+    "왜 10일이 아니라 12일, 25일이 아니라 26일인가요?",
+    "국세청 세무일정은 어디서 어떻게 보나요?",
+    "내 세금은 어디서 신고하고 내나요?"
+  ],
+  "extract": "scripts/output/source-nts-tax-schedule-2026-10.txt , scripts/output/source-income-law-127-129.txt , scripts/output/source-vat-law-48.txt , scripts/output/source-nts-vat-deadline.txt , scripts/output/source-vat-decree-90.txt , scripts/output/source-stamp-law.txt , scripts/output/source-ict-law-9.txt",
+  "outline": "scripts/output/factsheet-october-tax-deadlines.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "10월 세무일정 열기",
+      "dest": "SCHEDULE"
+    },
+    {
+      "slot": "qa1.act",
+      "label": "원천세 신고하러 가기",
+      "dest": "WITHHOLDING_HUB"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "부가세 예정 신고하기",
+      "dest": "VAT_RETURN"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀은 사장님 지정. 소제목 4개는 사장님 미지정이라 원문 확인 후 초안으로 잡았고, 로컬 검토에서 수정 요청 없이 승인됨."
+}

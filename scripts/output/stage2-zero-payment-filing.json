@@ -1,0 +1,33 @@
+{
+  "slug": "zero-payment-filing",
+  "title": "지급액이 없는 달 원천세 영 신고하는 법",
+  "subheads": [
+    "조문에는 뭐라고 되어 있나요?",
+    "국세청 가산세 사례는 무엇을 말하나요?",
+    "그럼 실무에서는 어떻게 하나요?",
+    "다음 달에 다시 지급하면 어떻게 되나요?"
+  ],
+  "extract": "scripts/output/source-income-decree-185.txt , scripts/output/source-nts-withholding-penalty.txt , scripts/output/source-nts-withholding-deadline.txt , scripts/output/source-nts-withholding.txt , scripts/output/source-income-law-127-129.txt",
+  "outline": "scripts/output/factsheet-zero-payment-filing.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "가산세 갈리는 지점 열기",
+      "dest": "NTS_PENALTY"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "가산세 계산식 보기",
+      "dest": "NTS_PENALTY"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "원천세 신고하러 가기",
+      "dest": "HUB"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

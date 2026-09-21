@@ -1,0 +1,23 @@
+{
+  "slug": "preliminary-notice-lookup",
+  "keyword": "부가가치세 예정신고",
+  "title": "부가가치세 예정고지서 조회하는 법, 홈택스에서 고지세액 확인하기",
+  "subheads": [
+    "예정고지서는 언제 발송되나요?",
+    "고지세액은 홈택스 어디서 조회하나요?",
+    "조회했는데 고지 내역이 없으면 어떤 경우인가요?",
+    "고지서를 못 받았어도 납부해야 하나요?"
+  ],
+  "source": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%EB%B2%95/%EC%A0%9C48%EC%A1%B0 , https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9/%EC%A0%9C90%EC%A1%B0 , https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2273&cntntsId=7694 , https://hometax.go.kr",
+  "extract": "scripts/output/source-vat-law-48.txt , scripts/output/source-vat-decree-90.txt , scripts/output/source-nts-vat-deadline.txt",
+  "outline": "scripts/output/factsheet-preliminary-notice-lookup.md",
+  "buttons": [
+    { "slot": "heroAct", "label": "내 예정고지 세액 조회하기", "dest": "홈택스 납부·고지·환급 > 고지 > 고지내역" },
+    { "slot": "qa3.act", "label": "예정고지 제외 기준 확인하기", "dest": "국세청 부가가치세 신고납부기한" },
+    { "slot": "qa4.act", "label": "고지분 납부하러 가기", "dest": "홈택스 납부·고지·환급 > 납부 > 납부할 세액 조회/납부" }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님 지시로 채팅 문구 승인 단계를 건너뛰고 작성 (2026-09-21). 승인은 로컬 화면을 보고 push 전에 한다.",
+  "note": "spec: scripts/specs/부가가치세.md 1번. 타이틀·소제목은 승인본 그대로. 수집은 대화창에서 Playwright 로 법·시행령·국세청·홈택스 4곳 실측. 시행령 제90조 제5항 표는 이미지라 캡처를 팩트시트에 옮겨 적었다."
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "entertainment-venue-return",
+  "title": "과세유흥장소 개별소비세 신고하는 법, 매월 제출 서류와 기한",
+  "subheads": [
+    "우리 가게가 과세유흥장소에 해당하나요?",
+    "매월 언제까지 신고하고 내나요?",
+    "신고서에는 무엇을 적고 어떤 서류를 내나요?",
+    "홈택스 어디서 신고하나요?"
+  ],
+  "extract": "scripts/output/source-ict-law-1.txt , scripts/output/source-ict-law-9.txt , scripts/output/source-ict-law-10.txt , scripts/output/source-ict-decree.txt , scripts/output/source-nts-tax-schedule-2026-10.txt , scripts/output/source-hometax-ict-menu.txt",
+  "outline": "scripts/output/factsheet-entertainment-venue-return.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "과세유흥장소 신고하기",
+      "dest": "HT_VENUE"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "10월 세무일정 확인하기",
+      "dest": "SCHEDULE"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "과세유흥장소 신고하러 가기",
+      "dest": "HT_VENUE"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀은 사장님 지정. 소제목 4개는 사장님 미지정이라 원문 확인 후 초안으로 잡았고, 로컬 검토에서 수정 요청 없이 승인됨."
+}

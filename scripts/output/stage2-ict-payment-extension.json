@@ -1,0 +1,33 @@
+{
+  "slug": "ict-payment-extension",
+  "title": "개별소비세 납부기한 연장 신청하는 법",
+  "subheads": [
+    "어떤 사유가 있어야 연장되나요?",
+    "신청은 언제까지 어디서 하나요?",
+    "얼마나 미룰 수 있고 가산세는 어떻게 되나요?",
+    "신고기한도 같이 미뤄지나요?"
+  ],
+  "extract": "scripts/output/source-ict-extension.txt , scripts/output/source-ict-law-10.txt , scripts/output/source-nts-tax-schedule-2026-10.txt",
+  "outline": "scripts/output/factsheet-ict-payment-extension.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "납부기한 연장 신청하기",
+      "dest": "HT_EXTEND"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "연장 신청하러 가기",
+      "dest": "HT_EXTEND"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "신고기한 연장 신청하기",
+      "dest": "HT_EXTEND"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀은 사장님 지정. 소제목 4개는 사장님 미지정이라 원문 확인 후 초안으로 잡았고, 로컬 검토에서 수정 요청 없이 승인됨."
+}

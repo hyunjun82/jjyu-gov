@@ -1,0 +1,33 @@
+{
+  "slug": "icl-deferment-application",
+  "title": "학자금 상환 유예 신청하는 법, 대상 조건과 제출 서류",
+  "subheads": [
+    "유예 대상 조건은 무엇인가요?",
+    "대상이면 조건 없이 되나요?",
+    "신청은 어디서 하고 서류는 무엇을 내나요?",
+    "유예가 안 되면 어떻게 하나요?"
+  ],
+  "extract": "scripts/output/source-icl-law-18.txt , scripts/output/source-icl-law-23-26.txt",
+  "outline": "scripts/output/factsheet-icl-deferment-application.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "상환유예 신청하러 가기",
+      "dest": "ICL"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "유예 조건 확인하기",
+      "dest": "LAW18"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "납부 방법 고르러 가기",
+      "dest": "ICL"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

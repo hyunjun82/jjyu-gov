@@ -1,0 +1,33 @@
+{
+  "slug": "icl-obligation-lookup",
+  "title": "취업 후 학자금 의무상환액 조회하는 법, 통지서와 계산 구조 확인하기",
+  "subheads": [
+    "내 상환액은 어떻게 정해진 건가요?",
+    "상환기준소득은 어디서 확인하나요?",
+    "통지 내역은 어디서 보나요?",
+    "통지가 온 뒤에는 어떻게 진행되나요?"
+  ],
+  "extract": "scripts/output/source-icl-law-18.txt , scripts/output/source-icl-law-23-26.txt",
+  "outline": "scripts/output/factsheet-icl-obligation-lookup.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "통지내역 조회하러 가기",
+      "dest": "ICL"
+    },
+    {
+      "slot": "qa2.act",
+      "label": "상환액 계산 기준 확인하기",
+      "dest": "LAW18"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "고지·체납액 납부하러 가기",
+      "dest": "ICL"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀·소제목은 사장님이 준 목록 그대로."
+}

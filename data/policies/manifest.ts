@@ -474,6 +474,10 @@ import { giftTaxPolicy, giftTaxSpokes } from './gift-tax';
 import { capitalGainsTaxPolicy, capitalGainsTaxSpokes } from './capital-gains-tax';
 import { comprehensiveIncomeTaxPolicy, comprehensiveIncomeTaxSpokes } from './comprehensive-income-tax';
 import { incomeTaxInterimPaymentPolicy, incomeTaxInterimPaymentSpokes } from './income-tax-interim-payment';
+import { withholdingTaxPolicy, withholdingTaxSpokes } from './withholding-tax';
+import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './student-loan-icl-repayment';
+import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
+import { individualConsumptionTaxPolicy, individualConsumptionTaxSpokes } from './individual-consumption-tax';
 import { acquisitionTaxPolicy, acquisitionTaxSpokes } from './acquisition-tax';
 import { comprehensiveRealEstateTaxPolicy, comprehensiveRealEstateTaxSpokes } from './comprehensive-real-estate-tax';
 import { yearEndTaxSettlementPolicy, yearEndTaxSettlementSpokes } from './year-end-tax-settlement';
@@ -1919,6 +1923,10 @@ export const PoliciesBySlug: Record<string, any> = {
   'capital-gains-tax': capitalGainsTaxPolicy,
   'comprehensive-income-tax': comprehensiveIncomeTaxPolicy,
   'income-tax-interim-payment': incomeTaxInterimPaymentPolicy,
+  'withholding-tax': withholdingTaxPolicy,
+  'student-loan-icl-repayment': studentLoanIclRepaymentPolicy,
+  'stamp-tax': stampTaxPolicy,
+  'individual-consumption-tax': individualConsumptionTaxPolicy,
   'acquisition-tax': acquisitionTaxPolicy,
   'comprehensive-real-estate-tax': comprehensiveRealEstateTaxPolicy,
   'year-end-tax-settlement': yearEndTaxSettlementPolicy,
@@ -3485,6 +3493,10 @@ export const SpokesBySlug: Record<string, any[]> = {
   'capital-gains-tax': capitalGainsTaxSpokes,
   'comprehensive-income-tax': comprehensiveIncomeTaxSpokes,
   'income-tax-interim-payment': incomeTaxInterimPaymentSpokes,
+  'withholding-tax': withholdingTaxSpokes,
+  'student-loan-icl-repayment': studentLoanIclRepaymentSpokes,
+  'stamp-tax': stampTaxSpokes,
+  'individual-consumption-tax': individualConsumptionTaxSpokes,
   'acquisition-tax': acquisitionTaxSpokes,
   'comprehensive-real-estate-tax': comprehensiveRealEstateTaxSpokes,
   'year-end-tax-settlement': yearEndTaxSettlementSpokes,

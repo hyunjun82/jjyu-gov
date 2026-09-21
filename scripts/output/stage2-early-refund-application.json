@@ -1,0 +1,16 @@
+{
+  "slug": "early-refund-application",
+  "keyword": "부가가치세 예정신고",
+  "title": "부가세 조기환급 신청하는 법, 대상 기간과 제출 서류",
+  "subheads": [
+    "조기환급은 누가 받을 수 있나요?",
+    "신청 기간은 어떻게 끊나요?",
+    "어떤 서류를 함께 내나요?",
+    "환급금은 언제 들어오나요?"
+  ],
+  "outline": "scripts/output/factsheet-early-refund-application.md",
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님 지시로 채팅 문구 승인 단계를 건너뛰고 작성 (2026-09-21). 승인은 로컬 화면을 보고 push 전에 한다.",
+  "note": "spec: scripts/specs/부가가치세.md 6번. 소제목 2의 '기간을 어떻게 끊나'가 조문에 두 갈래로 나와 있어(신고서에 얹기 / 조기환급기간 매월·매2월 끊기) 그대로 축이 됐다."
+}

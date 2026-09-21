@@ -1,0 +1,28 @@
+{
+  "slug": "passenger-car-ict-refund",
+  "title": "자동차 개별소비세 환급 신청하는 법, 대상과 제출 서류",
+  "subheads": [
+    "누가 자동차 개별소비세를 면제받거나 돌려받을 수 있나요?",
+    "얼마까지 돌려받을 수 있나요?",
+    "환급은 누가 어디에 신청하나요?",
+    "어떤 서류를 내야 하나요?"
+  ],
+  "extract": "scripts/output/source-ict-car-refund.txt",
+  "outline": "scripts/output/factsheet-passenger-car-ict-refund.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "면제세액부터 계산하기",
+      "dest": "HT_CALC"
+    },
+    {
+      "slot": "qa1.act",
+      "label": "면제 대상인지 확인하기",
+      "dest": "LAW18"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀은 사장님 지정. 소제목 4개는 사장님 미지정이라 원문 확인 후 초안으로 잡았고, 로컬 검토에서 수정 요청 없이 승인됨."
+}

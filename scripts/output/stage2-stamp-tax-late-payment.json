@@ -1,0 +1,33 @@
+{
+  "slug": "stamp-tax-late-payment",
+  "title": "인지세 기한 지나서 자진신고 납부하는 법",
+  "subheads": [
+    "기한이 지나면 가산세가 얼마나 붙나요?",
+    "늦게라도 스스로 내면 줄어드나요?",
+    "부동산 매매계약서도 같은 기준인가요?",
+    "지금 내려면 어디서 어떻게 하나요?"
+  ],
+  "extract": "scripts/output/source-basic-law-47-4.txt , scripts/output/source-stamp-law.txt , scripts/output/source-stamp-law-6.txt , scripts/output/source-easylaw-stamp-tax.txt",
+  "outline": "scripts/output/factsheet-stamp-tax-late-payment.md",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "자진신고 납부하기",
+      "dest": "STAMP"
+    },
+    {
+      "slot": "qa3.act",
+      "label": "비과세 문서인지 확인하기",
+      "dest": "LAW6"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "전자수입인지 구매하러 가기",
+      "dest": "STAMP"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-21",
+  "approvedBy": "사장님이 로컬 화면(localhost:3001)을 검토하고 \"푸시하고 마무리\"로 승인 (2026-09-21). 버튼·서론 문구는 검토 중 지적받아 고친 최종본.",
+  "note": "타이틀은 사장님 지정. 소제목 4개는 사장님 미지정이라 원문 확인 후 초안으로 잡았고, 로컬 검토에서 수정 요청 없이 승인됨."
+}

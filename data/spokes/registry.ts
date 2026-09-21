@@ -136,6 +136,31 @@ import { hiddenInsuranceLimitationPeriodSpokeContent } from '@/app/policy/[id]/[
 import { hiddenInsuranceInheritanceCheckSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/inheritance-check';
 import { hiddenInsuranceClaimRefundSpokeContent } from '@/app/policy/[id]/[spoke]/content/hidden-insurance-money/claim-and-refund';
 import { vatRealEstateRentalErrorFixSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/real-estate-rental-error-fix';
+import { vatPreliminaryNoticeLookupSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/preliminary-notice-lookup';
+import { vatHometaxPreliminaryReturnSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/hometax-preliminary-return';
+import { vatNoticeToReturnSwitchSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/notice-to-return-switch';
+import { vatPreliminaryNoticePaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/preliminary-notice-payment';
+import { vatPaymentDeadlineExtensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/payment-deadline-extension';
+import { vatEarlyRefundApplicationSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/early-refund-application';
+import { vatOctoberTaxDeadlinesSpokeContent } from '@/app/policy/[id]/[spoke]/content/value-added-tax/october-tax-deadlines';
+import { withholdingHometaxFilingSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/hometax-withholding-filing';
+import { withholdingSemiannualApprovalSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/semiannual-payment-approval';
+import { withholdingFreelancerSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/freelancer-3-3-withholding';
+import { withholdingDailyWorkerSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/daily-worker-withholding';
+import { withholdingStatementFormSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/withholding-statement-form';
+import { withholdingZeroPaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/zero-payment-filing';
+import { withholdingAmendedReturnSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/withholding-amended-return';
+import { iclObligationLookupSpokeContent } from '@/app/policy/[id]/[spoke]/content/student-loan-icl-repayment/icl-obligation-lookup';
+import { iclDefermentApplicationSpokeContent } from '@/app/policy/[id]/[spoke]/content/student-loan-icl-repayment/icl-deferment-application';
+import { iclVoluntaryRepaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/student-loan-icl-repayment/icl-voluntary-repayment';
+import { iclAfterResignationSpokeContent } from '@/app/policy/[id]/[spoke]/content/student-loan-icl-repayment/icl-after-resignation';
+import { eRevenueStampPurchaseSpokeContent } from '@/app/policy/[id]/[spoke]/content/stamp-tax/e-revenue-stamp-purchase';
+import { stampTaxAmountTableSpokeContent } from '@/app/policy/[id]/[spoke]/content/stamp-tax/stamp-tax-amount-table';
+import { stampTaxLatePaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/stamp-tax/stamp-tax-late-payment';
+import { ictEntertainmentVenueReturnSpokeContent } from '@/app/policy/[id]/[spoke]/content/individual-consumption-tax/entertainment-venue-return';
+import { ictHometaxReturnSpokeContent } from '@/app/policy/[id]/[spoke]/content/individual-consumption-tax/hometax-ict-return';
+import { ictPassengerCarRefundSpokeContent } from '@/app/policy/[id]/[spoke]/content/individual-consumption-tax/passenger-car-ict-refund';
+import { ictPaymentExtensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/individual-consumption-tax/ict-payment-extension';
 import { voicePhishingRefundProcedureSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/refund-procedure';
 import { voicePhishingDecreeChangesSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/decree-changes';
 import { voicePhishingDeadlineMissedSpokeContent } from '@/app/policy/[id]/[spoke]/content/voice-phishing-crypto-refund/deadline-missed';
@@ -4051,6 +4076,43 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'value-added-tax': {
     'real-estate-rental-error-fix': vatRealEstateRentalErrorFixSpokeContent,
+    'preliminary-notice-lookup': vatPreliminaryNoticeLookupSpokeContent,
+    'hometax-preliminary-return': vatHometaxPreliminaryReturnSpokeContent,
+    'notice-to-return-switch': vatNoticeToReturnSwitchSpokeContent,
+    'preliminary-notice-payment': vatPreliminaryNoticePaymentSpokeContent,
+    'payment-deadline-extension': vatPaymentDeadlineExtensionSpokeContent,
+    'early-refund-application': vatEarlyRefundApplicationSpokeContent,
+    'october-tax-deadlines': vatOctoberTaxDeadlinesSpokeContent,
+  },
+
+  'withholding-tax': {
+    'hometax-withholding-filing': withholdingHometaxFilingSpokeContent,
+    'semiannual-payment-approval': withholdingSemiannualApprovalSpokeContent,
+    'freelancer-3-3-withholding': withholdingFreelancerSpokeContent,
+    'daily-worker-withholding': withholdingDailyWorkerSpokeContent,
+    'withholding-statement-form': withholdingStatementFormSpokeContent,
+    'zero-payment-filing': withholdingZeroPaymentSpokeContent,
+    'withholding-amended-return': withholdingAmendedReturnSpokeContent,
+  },
+
+  'student-loan-icl-repayment': {
+    'icl-obligation-lookup': iclObligationLookupSpokeContent,
+    'icl-deferment-application': iclDefermentApplicationSpokeContent,
+    'icl-voluntary-repayment': iclVoluntaryRepaymentSpokeContent,
+    'icl-after-resignation': iclAfterResignationSpokeContent,
+  },
+
+  'stamp-tax': {
+    'e-revenue-stamp-purchase': eRevenueStampPurchaseSpokeContent,
+    'stamp-tax-amount-table': stampTaxAmountTableSpokeContent,
+    'stamp-tax-late-payment': stampTaxLatePaymentSpokeContent,
+  },
+
+  'individual-consumption-tax': {
+    'entertainment-venue-return': ictEntertainmentVenueReturnSpokeContent,
+    'hometax-ict-return': ictHometaxReturnSpokeContent,
+    'passenger-car-ict-refund': ictPassengerCarRefundSpokeContent,
+    'ict-payment-extension': ictPaymentExtensionSpokeContent,
   },
 
   'voice-phishing-crypto-refund': {
