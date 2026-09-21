@@ -1,4 +1,8 @@
-/* 취업 후 학자금 상환(ICL) 원천공제 (2026) - 교육부·국세청 / 취업 후 학자금 상환 특별법 제18조·제24조 */
+/* 취업 후 학자금 상환(ICL) 원천공제 (2026) - 교육부·국세청 / 취업 후 학자금 상환 특별법 제18조·제24조
+ * 추출본: scripts/output/source-icl-law-18.txt
+ * 추출본: scripts/output/source-icl-law-23-26.txt
+ * 추출본: scripts/output/source-nts-tax-schedule-2026-10.txt
+ */
 export const studentLoanIclRepaymentPolicy = {
   id: '847', type: 'tax' as const,
   title: '취업 후 학자금 상환 원천공제 통지서 받고 상환액 확인하는 법',

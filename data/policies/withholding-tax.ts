@@ -1,4 +1,13 @@
-/* 원천세 (2026) - 국세청 / 소득세법 제127조~제129조·시행령 제186조 */
+/* 원천세 (2026) - 국세청 / 소득세법 제127조~제129조·시행령 제186조
+ * 추출본: scripts/output/source-income-law-127-129.txt
+ * 추출본: scripts/output/source-income-law-129.txt
+ * 추출본: scripts/output/source-income-decree-185.txt
+ * 추출본: scripts/output/source-income-decree-186.txt
+ * 추출본: scripts/output/source-nts-withholding-deadline.txt
+ * 추출본: scripts/output/source-nts-withholding.txt
+ * 추출본: scripts/output/source-nts-withholding-penalty.txt
+ * 추출본: scripts/output/source-nts-tax-schedule-2026-10.txt
+ */
 export const withholdingTaxPolicy = {
   id: '846', type: 'tax' as const,
   title: '원천세 신고 납부 기한 확인하고 홈택스로 신고하는 법',
