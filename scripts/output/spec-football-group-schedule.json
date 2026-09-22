@@ -1,0 +1,10 @@
+{
+  "slug": "football-group-schedule", "policyDir": "asian-games-2026", "fileName": "football-group-schedule",
+  "hubSlug": "asian-games-2026", "role": "eligibility",
+  "h1": "나고야 아시안게임 축구 조편성과 일정, 대표팀 명단과 중계 보는 법",
+  "breadcrumb": "아시안게임 축구", "description": "TODO",
+  "sourceFile": "scripts/output/source-ag2026-fbl-schedule.txt", "sourceName": "공식 결과 사이트", "sourceUrl": "https://results.asiangames2026.org",
+  "hubPath": "/policy/asian-games-2026",
+  "qa": ["축구 조편성은 어떻게 되나요?", "한국 축구 경기는 언제 열리나요?", "축구 대표팀 감독과 명단은 어떻게 되나요?", "축구 경기는 어디서 중계하나요?"],
+  "faq": ["a","b"]
+}

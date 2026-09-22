@@ -1,0 +1,74 @@
+# 출처: 공식 결과 사이트 Baseball > ENTRIES > Baseball Men — https://results.asiangames2026.org/#/discipline/BBL/entries/M.TEAM9------------- (2026-09-22 Playwright 확인)
+# 팀별 인원: CHN 24, HKG 24, JPN 23, KOR 24, PHI 22, PLE 24, THA 24, TPE 24 (Total entries: 189)
+# KOR 24명(등번호+이름, 화면 순서):
+8ROHSihwanROHSihwan
+60PARKYeonghyunPARKYeonghyun
+29OHWonseokOHWonseok
+52PARKJunsoonPARKJunsoon
+68CHOIMinseokCHOIMinseok
+7KIMJuwonKIMJuwon
+12KIMGeonheeKIMGeonhee
+19JOByeonghyeonJOByeonghyeon
+58KIMJichanKIMJichan
+91YOONDongheeYOONDonghee
+3JEONGJunjaeJEONGJunjae
+14PARKJaehyunPARKJaehyun
+15KIMJinukKIMJinuk
+65SUNGYeongtakSUNGYeongtak
+2MOONBogyeongMOONBogyeong
+5KIMDoyeongKIMDoyeong
+17KIMYoungwooKIMYoungwoo
+51MOONHyunbinMOONHyunbin
+56CHOIJunyongCHOIJunyong
+55BAEChanseungBAEChanseung
+13LEEJaehyeonLEEJaehyeon
+47GWAKBeenGWAKBeen
+30SOHyeongjunSOHyeongjun
+20CHOHyeongwooCHOHyeongwoo
+
+Disciplines
+
+Schedule
+
+Participants
+
+Medals
+
+Venues
+
+Baseball
+COMPETITION SCHEDULE
+ENTRIES
+COMPETITION
+FINAL RANK
+REPORTS
+MEDALS
+Baseball Men
+BASEBALL MEN
+Total entries: 189
+TEAMS
+CHN
+People's Republic of China
+24 athletes
+HKG
+Hong Kong, China
+24 athletes
+JPN
+Japan
+23 athletes
+KOR
+Republic of Korea
+24 athletes
+PHI
+Philippines
+22 athletes
+PLE
+Palestine
+24 athletes
+THA
+Thailand
+24 athletes
+TPE
+Chinese Taipei
+24 athletes
+

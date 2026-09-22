@@ -1,0 +1,16 @@
+{
+  "slug": "broadcast-channels",
+  "policyDir": "asian-games-2026",
+  "fileName": "broadcast-channels",
+  "hubSlug": "asian-games-2026",
+  "role": "apply",
+  "h1": "나고야 아시안게임 중계 어디서 보나요, 방송사와 티빙 무료 시청 여부",
+  "breadcrumb": "아시안게임 중계",
+  "description": "TODO",
+  "sourceFile": "scripts/output/source-ag2026-broadcast-munhwa.txt",
+  "sourceName": "문화일보 — 아시안게임 지상파3사 등 모두 중계",
+  "sourceUrl": "https://www.munhwa.com/article/11618060",
+  "hubPath": "/policy/asian-games-2026",
+  "qa": ["나고야 아시안게임 중계는 어느 방송사가 하나요?", "지상파 세 곳 다 중계하나요?", "티빙이나 웨이브에서도 볼 수 있나요?", "무료로 보는 방법이 있나요?"],
+  "faq": ["a", "b"]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "baseball-schedule-roster", "policyDir": "asian-games-2026", "fileName": "baseball-schedule-roster",
+  "hubSlug": "asian-games-2026", "role": "eligibility",
+  "h1": "나고야 아시안게임 야구 일정과 대표팀 명단, 중계 채널 확인",
+  "breadcrumb": "아시안게임 야구", "description": "TODO",
+  "sourceFile": "scripts/output/source-ag2026-bbl-entries.txt", "sourceName": "공식 결과 사이트", "sourceUrl": "https://results.asiangames2026.org",
+  "hubPath": "/policy/asian-games-2026",
+  "qa": ["야구 경기 일정은 어떻게 되나요?", "조편성과 대진은 어떻게 짜였나요?", "야구 대표팀 명단에는 누가 뽑혔나요?", "야구 중계는 어디서 보나요?"],
+  "faq": ["a","b"]
+}

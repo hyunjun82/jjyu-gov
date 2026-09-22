@@ -1,0 +1,66 @@
+# 출처: 공식 결과 사이트 Esports > ENTRIES > MOBA [League of Legends] — https://results.asiangames2026.org/#/discipline/ELS/entries/O.LOL--------------- (2026-09-22 Playwright 확인)
+# KOR 엔트리 6명(DOM 순서): CHOI Wooje / LEE Sanghyeok / KIM Geonwoo / RYU Minseok / KIM Gunboo / LEE Minhyung
+# 선수가 등록된 팀 8개: HKG, IND, KOR, KSA, MAS, TPE, UAE, VIE (CHN·JPN 은 LoL 엔트리 목록에 없음)
+
+Disciplines
+
+Schedule
+
+Participants
+
+Medals
+
+Venues
+
+Esports
+COMPETITION SCHEDULE
+ENTRIES
+COMPETITION
+FINAL RANK
+REPORTS
+MEDALS
+MOBA [League of Legends]
+MOBA [LEAGUE OF LEGENDS]
+Total entries: 48
+TEAMS
+BRU
+Brunei Darussalam
+HKG
+Hong Kong, China
+6 athletes
+IND
+India
+6 athletes
+KOR
+Republic of Korea
+6 athletes
+KSA
+Saudi Arabia
+6 athletes
+LAO
+Lao People's Democratic Republic
+MAS
+Malaysia
+6 athletes
+MYA
+Myanmar
+OMA
+Oman
+PLE
+Palestine
+SRI
+Sri Lanka
+SYR
+Syrian Arab Republic
+TJK
+Tajikistan
+TPE
+Chinese Taipei
+6 athletes
+UAE
+United Arab Emirates
+6 athletes
+VIE
+Vietnam
+6 athletes
+

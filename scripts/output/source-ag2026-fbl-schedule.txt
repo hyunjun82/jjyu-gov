@@ -1,0 +1,30 @@
+# 출처: 공식 결과 사이트 Football 일정·결과 (FBL daily, 9/14~10/3) — https://results.asiangames2026.org/#/discipline/FBL/schedule/daily/2026-09-22 (2026-09-22 Playwright 확인)
+# KOR 경기, 남자 D조 전 경기, 8강 이후 전 경기만 추림. 숫자 = 득점. Official = 끝난 경기, Scheduled = 예정
+
+2026-09-14 | 16:00 / Women / Group F / Nagai Stadium / PRK / Democratic People's Republic of Korea / 10 / BAN / Bangladesh / 0 / Official
+2026-09-14 | 19:30 / Women / Group F / Nagai Stadium / KOR / Republic of Korea / 5 / MYA / Myanmar / 0 / Official /
+2026-09-15 | 19:30 / Men / Group D / Nagoya City Mizuho Park Rugby Field / QAT / Qatar / 1 / KOR / Republic of Korea / 4 / Official /
+2026-09-16 | 19:00 / Men / Group B / WAVE STADIUM KARIYA / CHN / People's Republic of China / 2 / PRK / Democratic People's Republic of Korea / 1 / Official
+2026-09-17 | 16:00 / Women / Group F / Nagai Stadium / BAN / Bangladesh / 0 / KOR / Republic of Korea / 6 / Official
+2026-09-17 | 19:30 / Women / Group F / Nagai Stadium / MYA / Myanmar / 0 / PRK / Democratic People's Republic of Korea / 8 / Official /
+2026-09-18 | 19:30 / Men / Group D / Nagoya City Mizuho Park Rugby Field / KSA / Saudi Arabia / 2 / QAT / Qatar / 0 / Official /
+2026-09-20 | 19:00 / Men / Group B / WAVE STADIUM KARIYA / PRK / Democratic People's Republic of Korea / 0 / UAE / United Arab Emirates / 0 / Official
+2026-09-21 | 16:00 / Women / Group F / Shizuoka Stadium Ecopa / KOR / Republic of Korea / 1 / PRK / Democratic People's Republic of Korea / 1 / Official
+2026-09-22 | 19:00 / Men / Group D / Nagoya City Mizuho Park Rugby Field / KOR / Republic of Korea / KSA / Saudi Arabia / Scheduled /
+2026-09-23 | 14:30 / Men / Group B / WAVE STADIUM KARIYA / IRI / Islamic Republic of Iran / PRK / Democratic People's Republic of Korea / Scheduled
+2026-09-25 | 14:00 / Men / Quarter-finals / Nagoya City Mizuho Park Rugby Field / Scheduled
+2026-09-25 | 15:00 / Women / Quarter-finals / Shizuoka Stadium Ecopa / PRK / Democratic People's Republic of Korea / TPE / Chinese Taipei / Scheduled
+2026-09-25 | 15:00 / Women / Quarter-finals / Nagai Stadium / CHN / People's Republic of China / VIE / Vietnam / Scheduled
+2026-09-25 | 19:30 / Men / Quarter-finals / Nagoya City Mizuho Park Rugby Field / Scheduled
+2026-09-25 | 19:30 / Women / Quarter-finals / Shizuoka Stadium Ecopa / JPN / Japan / PHI / Philippines / Scheduled
+2026-09-25 | 19:30 / Women / Quarter-finals / Nagai Stadium / KOR / Republic of Korea / UZB / Uzbekistan / Scheduled /
+2026-09-26 | 15:00 / Men / Quarter-finals / TOYOTA STADIUM / Scheduled
+2026-09-26 | 19:30 / Men / Quarter-finals / TOYOTA STADIUM / Scheduled /
+2026-09-29 | 15:00 / Women / Semi-finals / Shizuoka Stadium Ecopa / Scheduled
+2026-09-29 | 19:30 / Women / Semi-finals / Shizuoka Stadium Ecopa / Scheduled /
+2026-09-30 | 15:00 / Men / Semi-finals / Nagai Stadium / Scheduled
+2026-09-30 | 19:30 / Men / Semi-finals / Nagai Stadium / Scheduled /
+2026-10-02 | 15:00 / Women / Finals / 3rd Place Match / Shizuoka Stadium Ecopa / Medal / Scheduled
+2026-10-02 | 19:30 / Women / Finals / Final / Shizuoka Stadium Ecopa / Medal / Scheduled /
+2026-10-03 | 15:00 / Men / Finals / 3rd Place Match / TOYOTA STADIUM / Medal / Scheduled
+2026-10-03 | 19:30 / Men / Finals / Final / TOYOTA STADIUM / Medal / Scheduled /

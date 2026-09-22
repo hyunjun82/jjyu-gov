@@ -1914,8 +1914,22 @@ import { 중간예납폐업중간예납환급SpokeContent } from '@/app/policy/[
 import { 중간예납신규프리랜서중간예납SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/신규프리랜서중간예납';
 import { 중간예납중간예납미납압류SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/중간예납미납압류';
 import { 중간예납예정고지중간예납차이SpokeContent } from '@/app/policy/[id]/[spoke]/content/중간예납/예정고지중간예납차이';
+import { asianGames2026BroadcastChannelsSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/broadcast-channels';
+import { asianGames2026LolScheduleRosterSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/lol-schedule-roster';
+import { asianGames2026BaseballScheduleRosterSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/baseball-schedule-roster';
+import { asianGames2026FootballGroupScheduleSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/football-group-schedule';
+import { asianGames2026KoreaMatchScheduleSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/korea-match-schedule';
+import { asianGames2026MedalStandingsSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/medal-standings';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
+  'asian-games-2026': {
+    'medal-standings': asianGames2026MedalStandingsSpokeContent,
+    'korea-match-schedule': asianGames2026KoreaMatchScheduleSpokeContent,
+    'football-group-schedule': asianGames2026FootballGroupScheduleSpokeContent,
+    'baseball-schedule-roster': asianGames2026BaseballScheduleRosterSpokeContent,
+    'lol-schedule-roster': asianGames2026LolScheduleRosterSpokeContent,
+    'broadcast-channels': asianGames2026BroadcastChannelsSpokeContent,
+  },
   'income-tax-interim-payment': {
     'vat-preliminary-notice-difference': 중간예납예정고지중간예납차이SpokeContent,
     'unpaid-penalty-seizure': 중간예납중간예납미납압류SpokeContent,

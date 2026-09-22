@@ -1,0 +1,41 @@
+# 출처: AINAGOC 공식 결과 사이트 https://results.asiangames2026.org — 종목별 daily 일정에서 KOR 경기만 추출 (2026-09-22 Playwright 확인)
+# 시간 = 일본 현지 시간 = 한국 시간(둘 다 UTC+9). 토너먼트 대진 미정 경기는 KOR 로 안 잡혀 빠져 있음
+# 형식: 종목코드 날짜 | 시각 / 부별 / 라운드 / 경기 / 경기장 / 팀 / 팀 / 상태
+
+WPO 2026-09-26 | 14:15 / Men / Preliminary Round - Group B / Match 2 / Nagoya City General Gymnasium [Rainbow Pool] / KOR / Republic of Korea / CHN / People's Republic of China / Scheduled
+WPO 2026-09-27 | 14:15 / Men / Preliminary Round - Group B / Match 3 / Nagoya City General Gymnasium [Rainbow Pool] / KOR / Republic of Korea / SGP / Singapore / Scheduled
+WPO 2026-09-28 | 14:15 / Men / Preliminary Round - Group B / Match 6 / Nagoya City General Gymnasium [Rainbow Pool] / IRI / Islamic Republic of Iran / KOR / Republic of Korea / Scheduled
+BDM 2026-09-22 | 15:00 / Men's Team / Quarterfinals / Tie 4 / Ichinomiya City Municipal Gymnasium / Court 3 / KOR / Republic of Korea / CHN / People's Republic of China / Scheduled / COURT 4
+BDM 2026-09-22 | 09:40 / Women's Team / Quarterfinals / Tie 3 / Ichinomiya City Municipal Gymnasium / Court 4 / MAS / Malaysia / KOR / Republic of Korea / Start List
+BBL 2026-09-22 | 18:30 / Baseball Men / Opening Round Group B / Game 8 / Toyohashi Municipal Baseball Stadium / KOR / Republic of Korea / HKG / Hong Kong, China / Scheduled /
+BBL 2026-09-23 | 12:00 / Baseball Men / Opening Round Group B / Game 9 / Okazaki Chuo Sogo Park Baseball Stadium / THA / Thailand / KOR / Republic of Korea / Scheduled
+BKB 2026-09-22 | 16:00 / Women / Group Phase - Group C / Game 5 / Aichi International Arena / KOR / Republic of Korea / TPE / Chinese Taipei / Start List
+BK3 2026-09-22 | 18:55 / Men / Round Robin Pool D / Game 2 / Kinjo Futo Station Square Venue / KOR / Republic of Korea / THA / Thailand / Scheduled
+BK3 2026-09-22 | 20:35 / Men / Round Robin Pool D / Game 3 / Kinjo Futo Station Square Venue / JPN / Japan / KOR / Republic of Korea / Scheduled /
+BK3 2026-09-23 | 12:00 / Women / Round Robin Pool D / Game 5 / Kinjo Futo Station Square Venue / SGP / Singapore / KOR / Republic of Korea / Scheduled
+BK3 2026-09-23 | 20:10 / Men / Round Robin Pool D / Game 6 / Kinjo Futo Station Square Venue / SGP / Singapore / KOR / Republic of Korea / Scheduled
+FBL 2026-09-22 | 19:00 / Men / Group D / Nagoya City Mizuho Park Rugby Field / KOR / Republic of Korea / KSA / Saudi Arabia / Scheduled /
+FBL 2026-09-25 | 19:30 / Women / Quarter-finals / Nagai Stadium / KOR / Republic of Korea / UZB / Uzbekistan / Scheduled /
+HBL 2026-09-22 | 17:30 / Men / Group B / Match 6 / ENTRIO / IRI / Islamic Republic of Iran / KOR / Republic of Korea / Scheduled
+HBL 2026-09-23 | 15:30 / Women / Women's Round / Match 11 / Kasugai City Gymnasium / UZB / Uzbekistan / KOR / Republic of Korea / Scheduled
+HBL 2026-09-23 | 17:30 / Men / Group B / Match 8 / ENTRIO / KOR / Republic of Korea / BRN / Bahrain / Scheduled
+HBL 2026-09-25 | 17:30 / Women / Women's Round / Match 15 / ENTRIO / KOR / Republic of Korea / CHN / People's Republic of China / Scheduled
+HBL 2026-09-25 | 17:30 / Men / Group B / Match 10 / Kasugai City Gymnasium / KAZ / Kazakhstan / KOR / Republic of Korea / Scheduled /
+HBL 2026-09-26 | 17:30 / Women / Women's Round / Match 18 / ENTRIO / KOR / Republic of Korea / VIE / Vietnam / Scheduled
+HBL 2026-09-27 | 18:00 / Women / Women's Round / Match 21 / ENTRIO / JPN / Japan / KOR / Republic of Korea / Scheduled /
+HOC 2026-09-22 | 11:00 / Men / Pool A / Match 4 / Gifu Prefectural Green Stadium(Gifu) / INA / Indonesia / KOR / Republic of Korea / Scheduled
+HOC 2026-09-23 | 09:00 / Women / Pool A / Match 7 / Gifu Prefectural Green Stadium(Gifu) / BAN / Bangladesh / KOR / Republic of Korea / Scheduled
+HOC 2026-09-24 | 15:00 / Men / Pool A / Match 8 / Gifu Prefectural Green Stadium(Gifu) / KOR / Republic of Korea / IND / India / Scheduled
+HOC 2026-09-25 | 13:00 / Women / Pool A / Match 11 / Gifu Prefectural Green Stadium(Gifu) / KOR / Republic of Korea / CHN / People's Republic of China / Scheduled
+HOC 2026-09-26 | 15:00 / Men / Pool A / Match 11 / Gifu Prefectural Green Stadium(Gifu) / SRI / Sri Lanka / KOR / Republic of Korea / Scheduled
+HOC 2026-09-27 | 15:00 / Women / Pool A / Match 15 / Gifu Prefectural Green Stadium(Gifu) / MAS / Malaysia / KOR / Republic of Korea / Scheduled
+HOC 2026-09-28 | 17:00 / Men / Pool A / Match 14 / Gifu Prefectural Green Stadium(Gifu) / KOR / Republic of Korea / JPN / Japan / Scheduled
+RU7 2026-10-01 | 09:50 / Men / Pool B / Match 1 / Nagoya City Mizuho Park Rugby Field / THA / Thailand / KOR / Republic of Korea / Scheduled
+RU7 2026-10-01 | 16:30 / Men / Pool B / Match 4 / Nagoya City Mizuho Park Rugby Field / JPN / Japan / KOR / Republic of Korea / Scheduled
+RU7 2026-10-02 | 09:50 / Men / Pool B / Match 5 / Nagoya City Mizuho Park Rugby Field / KOR / Republic of Korea / KAZ / Kazakhstan / Scheduled
+TTE 2026-09-22 | 12:30 / Men's Team / Round 1 / Match 5 / SKY HALL TOYOTA / Table 2 / KOR / Republic of Korea / IND / India / Scheduled
+TTE 2026-09-22 | 19:20 / Women's Team / Quarterfinals / Match 3 / SKY HALL TOYOTA / TBD / KOR / Republic of Korea / Scheduled
+VVO 2026-09-22 | 16:00 / Women / Finals / Bronze Medal Final - Match 36 / Park Arena Komaki / KOR / Republic of Korea / THA / Thailand / Medal / Start List
+VVO 2026-09-27 | 13:00 / Men / Preliminary Round - Pool D / Match 6 / Park Arena Komaki / KOR / Republic of Korea / PHI / Philippines / Scheduled
+VVO 2026-09-28 | 19:00 / Men / Preliminary Round - Pool D / Match 16 / Park Arena Komaki / TPE / Chinese Taipei / KOR / Republic of Korea / Scheduled
+VVO 2026-09-29 | 19:00 / Men / Preliminary Round - Pool D / Match 24 / Park Arena Komaki / KOR / Republic of Korea / CHN / People's Republic of China / Scheduled
