@@ -1,0 +1,33 @@
+{
+  "slug": "lol-schedule-roster",
+  "title": "나고야 아시안게임 롤 일정과 국가대표 명단, 중계 시청 방법",
+  "subheads": [
+    "롤은 정식 종목으로 열리나요?",
+    "롤 경기 일정은 어떻게 되나요?",
+    "롤 국가대표는 누가 선발됐나요?",
+    "롤 경기 중계는 어디서 보나요?"
+  ],
+  "extract": "scripts/output/source-ag2026-bbl-els.txt , scripts/output/source-ag2026-lol-entries.txt , scripts/output/source-ag2026-lol-roster-xports.txt , scripts/output/source-ag2026-chzzk.txt , scripts/output/source-ag2026-spotvnow.txt , scripts/output/source-ag2026-broadcast-munhwa.txt",
+  "outline": "머리 주석(교차 확인·쓰지 않는 것) — app/policy/[id]/[spoke]/content/asian-games-2026/lol-schedule-roster.tsx",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "롤 경기 일정표 열기",
+      "dest": "SCHEDULE_0930"
+    },
+    {
+      "slot": "qa3.act",
+      "label": "롤 공식 엔트리 명단 보기",
+      "dest": "ENTRIES"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "치지직 아시안게임 중계 보기",
+      "dest": "CHZZK"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-22",
+  "approvedBy": "사장님이 로컬 화면(localhost:3000) URL을 받아 검토 후 \"2편 전부 마무리하고 푸시\"로 승인 (2026-09-22). 버튼은 사장님 지시대로 중계사·공식 사이트 딥링크.",
+  "note": "타이틀·소제목 4개는 사장님 spec(scripts/specs/아시안게임.md) 그대로."
+}

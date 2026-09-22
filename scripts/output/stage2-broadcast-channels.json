@@ -1,0 +1,33 @@
+{
+  "slug": "broadcast-channels",
+  "title": "나고야 아시안게임 중계 어디서 보나요, 방송사와 티빙 무료 시청 여부",
+  "subheads": [
+    "나고야 아시안게임 중계는 어느 방송사가 하나요?",
+    "지상파 세 곳 다 중계하나요?",
+    "티빙이나 웨이브에서도 볼 수 있나요?",
+    "무료로 보는 방법이 있나요?"
+  ],
+  "extract": "scripts/output/source-ag2026-broadcast-munhwa.txt , scripts/output/source-ag2026-olympics-korea-schedule.txt , scripts/output/source-ag2026-kbs.txt , scripts/output/source-ag2026-mbc.txt , scripts/output/source-ag2026-mbc-pr-day3.txt , scripts/output/source-ag2026-kbs-onair.txt , scripts/output/source-ag2026-tvchosun.txt , scripts/output/source-ag2026-spotvnow.txt , scripts/output/source-ag2026-chzzk.txt",
+  "outline": "머리 주석(교차 확인·쓰지 않는 것) — app/policy/[id]/[spoke]/content/asian-games-2026/broadcast-channels.tsx",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "아시안게임 중계 보러 가기",
+      "dest": "CHZZK"
+    },
+    {
+      "slot": "qa3.act",
+      "label": "KBS2 온에어로 바로 보기",
+      "dest": "KBS2_ONAIR"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "SPOTV NOW 무료 중계 보기",
+      "dest": "SPOTV_NOW"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-22",
+  "approvedBy": "사장님이 로컬 화면(localhost:3000) URL을 받아 검토 후 \"2편 전부 마무리하고 푸시\"로 승인 (2026-09-22). 버튼은 사장님 지시대로 중계사·공식 사이트 딥링크.",
+  "note": "타이틀·소제목 4개는 사장님 spec(scripts/specs/아시안게임.md) 그대로."
+}

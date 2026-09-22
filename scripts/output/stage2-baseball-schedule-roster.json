@@ -1,0 +1,33 @@
+{
+  "slug": "baseball-schedule-roster",
+  "title": "나고야 아시안게임 야구 일정과 대표팀 명단, 중계 채널 확인",
+  "subheads": [
+    "야구 경기 일정은 어떻게 되나요?",
+    "조편성과 대진은 어떻게 짜였나요?",
+    "야구 대표팀 명단에는 누가 뽑혔나요?",
+    "야구 중계는 어디서 보나요?"
+  ],
+  "extract": "scripts/output/source-ag2026-bbl-els.txt , scripts/output/source-ag2026-bbl-entries.txt , scripts/output/source-ag2026-bbl-roster-olympics.txt , scripts/output/source-ag2026-mbc-pr-day3.txt , scripts/output/source-ag2026-tvchosun.txt , scripts/output/source-ag2026-spotvnow.txt , scripts/output/source-ag2026-broadcast-munhwa.txt , scripts/output/source-ag2026-kbs.txt",
+  "outline": "머리 주석(교차 확인·쓰지 않는 것) — app/policy/[id]/[spoke]/content/asian-games-2026/baseball-schedule-roster.tsx",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "야구 중계 무료로 시청하기",
+      "dest": "SPOTV_NOW"
+    },
+    {
+      "slot": "qa3.act",
+      "label": "야구 공식 엔트리 보기",
+      "dest": "ENTRIES"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "TV조선 야구 생중계 보기",
+      "dest": "TVCHOSUN"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-22",
+  "approvedBy": "사장님이 로컬 화면(localhost:3000) URL을 받아 검토 후 \"2편 전부 마무리하고 푸시\"로 승인 (2026-09-22). 버튼은 사장님 지시대로 중계사·공식 사이트 딥링크.",
+  "note": "타이틀·소제목 4개는 사장님 spec(scripts/specs/아시안게임.md) 그대로."
+}

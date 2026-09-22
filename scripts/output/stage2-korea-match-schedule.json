@@ -1,0 +1,33 @@
+{
+  "slug": "korea-match-schedule",
+  "title": "나고야 아시안게임 한국 경기 일정 확인, 종목별 시간과 중계 채널",
+  "subheads": [
+    "한국 대표팀은 어떤 종목에 나가나요?",
+    "한국 경기는 며칠 몇 시에 열리나요?",
+    "시차 때문에 한국 시간은 어떻게 되나요?",
+    "종목별 중계 채널은 어디인가요?"
+  ],
+  "extract": "scripts/output/source-ag2026-korea-matches.txt , scripts/output/source-ag2026-olympics-korea-schedule.txt , scripts/output/source-ag2026-bbl-els.txt , scripts/output/source-ag2026-fbl-schedule.txt , scripts/output/source-ag2026-kbs.txt , scripts/output/source-ag2026-mbc-pr-day3.txt , scripts/output/source-ag2026-chzzk.txt , scripts/output/source-ag2026-broadcast-munhwa.txt",
+  "outline": "머리 주석(교차 확인·쓰지 않는 것) — app/policy/[id]/[spoke]/content/asian-games-2026/korea-match-schedule.tsx",
+  "buttons": [
+    {
+      "slot": "heroAct",
+      "label": "치지직에서 한국 경기 틀기",
+      "dest": "CHZZK"
+    },
+    {
+      "slot": "qa3.act",
+      "label": "날짜별 한국 선수 일정 보기",
+      "dest": "OLYMPICS_KOR"
+    },
+    {
+      "slot": "qa4.act",
+      "label": "KBS1 온에어로 보기",
+      "dest": "KBS1_ONAIR"
+    }
+  ],
+  "approved": true,
+  "approvedAt": "2026-09-22",
+  "approvedBy": "사장님 \"2편 전부 마무리하고 푸시\" 지시로 승인 (2026-09-22). 이 글은 로컬 화면 검토 전에 푸시 지시를 받았다 — 라이브 확인 후 지적 시 수정.",
+  "note": "타이틀·소제목 4개는 사장님 spec(scripts/specs/아시안게임.md) 그대로."
+}
