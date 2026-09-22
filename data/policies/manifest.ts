@@ -478,6 +478,7 @@ import { withholdingTaxPolicy, withholdingTaxSpokes } from './withholding-tax';
 import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './student-loan-icl-repayment';
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
+import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
 import { individualConsumptionTaxPolicy, individualConsumptionTaxSpokes } from './individual-consumption-tax';
 import { acquisitionTaxPolicy, acquisitionTaxSpokes } from './acquisition-tax';
 import { comprehensiveRealEstateTaxPolicy, comprehensiveRealEstateTaxSpokes } from './comprehensive-real-estate-tax';
@@ -1928,6 +1929,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'student-loan-icl-repayment': studentLoanIclRepaymentPolicy,
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
+  'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
   'individual-consumption-tax': individualConsumptionTaxPolicy,
   'acquisition-tax': acquisitionTaxPolicy,
   'comprehensive-real-estate-tax': comprehensiveRealEstateTaxPolicy,
@@ -3499,6 +3501,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'student-loan-icl-repayment': studentLoanIclRepaymentSpokes,
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
+  'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
   'individual-consumption-tax': individualConsumptionTaxSpokes,
   'acquisition-tax': acquisitionTaxSpokes,
   'comprehensive-real-estate-tax': comprehensiveRealEstateTaxSpokes,
