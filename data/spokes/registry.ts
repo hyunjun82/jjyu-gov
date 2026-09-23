@@ -1920,6 +1920,7 @@ import { asianGames2026BaseballScheduleRosterSpokeContent } from '@/app/policy/[
 import { asianGames2026FootballGroupScheduleSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/football-group-schedule';
 import { asianGames2026KoreaMatchScheduleSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/korea-match-schedule';
 import { asianGames2026MedalStandingsSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/medal-standings';
+import { 기후동행패스IssueChargePurchaseSpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행패스/IssueChargePurchase';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -4172,6 +4173,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'pet-registration': {
     'seoul-voluntary-report-2026': 동물등록서울자진신고2026SpokeContent,
+  },
+
+  'climate-pass-exchange-registration': {
+    'issue-charge-purchase': 기후동행패스IssueChargePurchaseSpokeContent,
   },
 
 };

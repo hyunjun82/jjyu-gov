@@ -172,4 +172,5 @@ export const climatePassExchangeRegistrationPolicy = {
 } as const;
 
 export const climatePassExchangeRegistrationSpokes = [
+  { slug: 'issue-charge-purchase', role: 'apply', title: '기후동행패스 발급방법과 충전, 선불·후불 차이와 구매처까지' },
 ];
