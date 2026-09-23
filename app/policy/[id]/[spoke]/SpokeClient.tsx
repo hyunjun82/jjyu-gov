@@ -72,6 +72,8 @@ export interface SpokeData {
      description 은 화면 서론으로도 쓰이는데, 서론은 읽히려고 쓰고
      메타는 검색어에 걸리려고 쓴다 — 목적이 달라 나눈다. */
   metaDescription?: string;
+  /* 카드 배치 — 'act-first' 면 소제목 → 버튼 → 표 → 텍스트 (2026-09-23, scripts/gov 파이프라인 글만 켠다) */
+  cardLayout?: 'act-first';
 }
 
 /* ── 텍스트 내 highlights 단어를 형광으로 강조 ── */
@@ -205,6 +207,7 @@ export default function SpokeClient({
   const NEW_RULE_FROM = '2026-08-25';
   const byOwnAct = (spoke.datePublished || '').slice(0, 10) >= NEW_RULE_FROM;
 
+  const actFirst = spoke.cardLayout === 'act-first';
   const hubCtaByIndex: Record<number, string> = (() => {
     const qa = spoke.qa ?? [];
     if (!qa.length) return {};
@@ -364,13 +367,31 @@ export default function SpokeClient({
                     밖으로 밀려나 눈에 안 들어왔다. 워드프레스 매체 대부분이 쓰는 자리로 옮긴다:
                     소제목을 읽고 본문으로 눈이 내려오는 그 지점.
                     버튼(act)은 카드 맨 아래라 광고와 멀어 오클릭 유도에 해당하지 않는다. */}
-                {(i === 1 || i === 3) && i < spoke.qa.length - 1 && (
+                {!actFirst && (i === 1 || i === 3) && i < spoke.qa.length - 1 && (
                   <div className="ad-slot" style={{ margin: '0 0 20px' }}>
                     <AdSense slot="1375998717" />
                   </div>
                 )}
+                {/* act-first (2026-09-23, 허브 PolicyDetailClient 와 같은 배치): 소제목 → 버튼 → 표 → 텍스트.
+                    광고는 버튼과 붙지 않게 표 뒤로(표가 없으면 텍스트 뒤로) — 버튼 옆 광고는 오클릭 유도다 */}
+                {actFirst && item.act?.url && (
+                  <div className="qa-act-top">
+                    <Link href={item.act.url} className="qa-inline-cta" {...(item.act.url.startsWith('http') ? { rel: 'noopener' } : {})}>
+                      {item.act.label} →
+                    </Link>
+                  </div>
+                )}
+                {actFirst && item.table && (
+                  <QATable headers={item.table.headers} rows={item.table.rows} highlights={item.highlights} />
+                )}
+                {actFirst && item.table && (i === 1 || i === 3) && i < spoke.qa.length - 1 && (
+                  <div className="ad-slot" style={{ margin: '20px 0' }}><AdSense slot="1375998717" /></div>
+                )}
                 {item.intro && renderIntro(item.intro, item.highlights)}
-                {item.table && (
+                {actFirst && !item.table && (i === 1 || i === 3) && i < spoke.qa.length - 1 && (
+                  <div className="ad-slot" style={{ margin: '20px 0 0' }}><AdSense slot="1375998717" /></div>
+                )}
+                {!actFirst && item.table && (
                   <QATable
                     headers={item.table.headers}
                     rows={item.table.rows}
@@ -402,7 +423,7 @@ export default function SpokeClient({
                     모든 카드에 달면 같은 목적지 버튼이 7개라 스팸처럼 보인다.
                     상단·브레드크럼·사이드바에 이미 허브 링크가 있으므로
                     읽는 흐름이 끊기는 지점(중간·끝)에만 배치한다. */}
-                {hubCtaByIndex[i] && (
+                {!actFirst && hubCtaByIndex[i] && (
                   <div style={{ marginTop: 20 }}>
                     {/* 누를 이유 한 줄(cue)은 스포크 데이터의 act.cue에서만 읽는다.
                         주제를 모르는 자동 생성 문장은 806개에 같은 말이 반복돼 도배가 되므로 쓰지 않는다. */}

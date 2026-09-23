@@ -19,6 +19,24 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 import { evidenceFor, judgeable } from './lib/evidence';
+// @ts-expect-error — .mjs 모듈(타입 선언 없음)
+import { keyOfFile } from './gov/target.mjs';
+
+/* 새 파이프라인(scripts/gov, 2026-09-23) 글은 facts.json 이 있다 — 새 검사기로 넘긴다.
+   이 대조기는 단위 붙은 숫자만 세고(표·'곳' 누락), 원문 풀에 글 자신의 source.text 가 섞여
+   틀린 숫자를 통과시켰다(추석 글 738→739 시험). 새 검사기는 인용↔원문, 글의 모든 숫자↔facts 를 본다. */
+function delegateNew(key: string, label: string): number {
+  try {
+    execSync(`node scripts/gov/verify-facts.mjs ${key}`, { stdio: 'pipe' });
+    const out = execSync(`node scripts/gov/check-article.mjs ${key}`, { encoding: 'utf8' });
+    console.log(`✅ ${label} — 새 검사기(facts.json) ${out.trim().split('\n').pop()?.replace(/^✅\s*/, '')}`);
+    return 0;
+  } catch (e) {
+    const err = e as { stdout?: Buffer | string };
+    console.log(`\n❌ ${label} — 새 검사기(facts.json)\n${String(err.stdout ?? '').trim()}`);
+    return 1;
+  }
+}
 
 const DIR = 'data/policies';
 const OUT = 'scripts/output';
@@ -114,6 +132,9 @@ function sourcePool(slug: string, _articleSrc: string): { pool: string; parts: s
  *  허브는 slug 로 찾고, 스포크는 파일이 스스로 가리킨다. 가리키는 곳이 없으면 숫자를 쓸 수 없다. */
 function checkSpoke(file: string): number {
   const name = file.replace(/\\/g, '/').split('/').slice(-2).join('/');
+  // 새 파이프라인(scripts/gov) 스포크 — 허브와 같이 새 검사기로 넘긴다
+  const key = keyOfFile(file);
+  if (key) return delegateNew(key, name);
   const src = fs.readFileSync(file, 'utf8');
   const m = src.match(/추출본:\s*(scripts\/output\/source-[\w.-]+\.txt)/);
   const nums = claimStrings(src).flatMap((s) => s.match(TOKEN) ?? []);
@@ -135,21 +156,7 @@ function checkSpoke(file: string): number {
 function check(slug: string): number {
   const file = path.join(DIR, `${slug}.ts`);
   if (!fs.existsSync(file)) { console.log(`  ? ${slug} — 파일 없음`); return 0; }
-  /* 새 파이프라인(scripts/gov, 2026-09-23) 글은 facts.json 이 있다 — 새 검사기로 넘긴다.
-     이 대조기는 단위 붙은 숫자만 세고(표·'곳' 누락), 원문 풀에 글 자신의 source.text 가 섞여
-     틀린 숫자를 통과시켰다(추석 글 738→739 시험). 새 검사기는 인용↔원문, 글의 모든 숫자↔facts 를 본다. */
-  if (fs.existsSync(path.join('scripts', 'output', 'gov', slug, 'facts.json'))) {
-    try {
-      execSync(`node scripts/gov/verify-facts.mjs ${slug}`, { stdio: 'pipe' });
-      const out = execSync(`node scripts/gov/check-article.mjs ${slug}`, { encoding: 'utf8' });
-      console.log(`✅ ${slug} — 새 검사기(facts.json) ${out.trim().split('\n').pop()?.replace(/^✅\s*/, '')}`);
-      return 0;
-    } catch (e) {
-      const err = e as { stdout?: Buffer | string };
-      console.log(`\n❌ ${slug} — 새 검사기(facts.json)\n${String(err.stdout ?? '').trim()}`);
-      return 1;
-    }
-  }
+  if (fs.existsSync(path.join('scripts', 'output', 'gov', slug, 'facts.json'))) return delegateNew(slug, slug);
   const src = fs.readFileSync(file, 'utf8');
   const { pool, parts } = sourcePool(slug, src);
   if (!pool.trim()) {

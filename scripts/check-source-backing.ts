@@ -19,6 +19,8 @@
 import fs from 'fs';
 import path from 'path';
 import { evidenceFor, judgeable } from './lib/evidence';
+// @ts-expect-error — .mjs 모듈(타입 선언 없음)
+import { keyOfFile } from './gov/target.mjs';
 
 const CONTENT = path.join('app', 'policy', '[id]', '[spoke]', 'content');
 
@@ -83,6 +85,8 @@ console.log('='.repeat(64));
 
 let badFiles = 0, badNums = 0, noSnap = 0, realBad = 0, skippedOld = 0;
 for (const f of files) {
+  // 새 파이프라인(scripts/gov) 글은 facts.json 기준 새 검사기가 본다 — 옛 머리 주석 방식으로 다시 심판하지 않는다
+  if (keyOfFile(f)) continue;
   const { pool, urls, missing, broken } = poolFor(f);
   const text = normalize(claimText(fs.readFileSync(f, 'utf8')));
   const unbacked = new Map<string, string>();

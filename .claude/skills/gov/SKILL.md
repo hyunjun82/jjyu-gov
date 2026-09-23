@@ -30,7 +30,7 @@ button: 버튼 목적지 URL (원문 '행동 링크'에 없는 신청 사이트�
 ## 1. 실행
 
 ```bash
-node scripts/gov/run.mjs scripts/specs/{주제}.md                 # 전부 (약 9분)
+npm run gov -- scripts/specs/{주제}.md                          # 전부 (한 편 6~9분)
 node scripts/gov/run.mjs scripts/specs/{주제}.md --from write    # 사실은 두고 다시 쓰기
 node scripts/gov/run.mjs scripts/specs/{주제}.md --to facts      # 사실까지만
 ```
@@ -38,7 +38,23 @@ node scripts/gov/run.mjs scripts/specs/{주제}.md --to facts      # 사실까�
 ## 2. 보고서 → 승인 → push
 
 `scripts/reports/{slug}.md` — 대조 결과, 합격 시험, 사실·원문 인용, **한정 표현 판단(살림/안 살린 이유)**, 🖼 이미지 사실.
-사장님 확인 뒤 커밋·푸시. 자동 푸시 금지. 스포크(허브 확장)는 아직 옛 `npm run article`.
+사장님 확인 뒤 커밋·푸시. 자동 푸시 금지.
+
+## 허브 확장 (스포크 여러 편)
+
+```
+hub: climate-pass-exchange-registration   ← 이미 있는 허브 slug
+dir: 기후동행패스                           ← 그 허브의 스포크 폴더 (없으면 만든다)
+---
+slug: issue-charge-purchase
+role: apply
+title: …
+sub: × 4
+source: …
+---
+(다음 글)
+```
+`npm run gov -- scripts/specs/{주제}.md --only <slug>` 로 한 편만. 스포크 파일(content/<dir>/<File>.tsx), registry, 허브 Spokes 배열 배선까지 코드가 한다.
 
 ## 하지 말 것
 

@@ -71,5 +71,5 @@ for (const p of PROBES) {
 
 console.log('\n' + '='.repeat(64));
 console.log(' 글 한 편을 끝까지 끌고 가려면');
-console.log('   npx tsx scripts/write.ts "{키워드}"');
+console.log('   npm run gov -- scripts/specs/{주제}.md   (scripts/gov 파이프라인)');
 console.log('='.repeat(64));

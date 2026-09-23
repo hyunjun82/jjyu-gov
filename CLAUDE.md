@@ -7,6 +7,7 @@
 
 ```
 spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4줄) source:(1차 출처) button:(버튼 목적지)
+      허브 확장(스포크)은 머리에 hub:·dir: 를 두고 글마다 --- 로 나눈다. registry·허브 배선은 코드가 한다
 ① 수집 collect.mjs   Playwright: 본문·표(행·열)·iframe(법령)·PDF(PDF.js)·이미지 크롭·행동 링크. 시민기자·블로그 자동 제외
 ② 사실 모델 → facts.json(30개 이내) → verify-facts.mjs: 인용=원문 글자 그대로, 값 숫자⊂인용, 이미지 두 번 읽기,
        한정 표현(계획·예정·선착순·필수·불가…)은 keepWord(살림)/keepWhy(안 살리는 이유) 판단 필수
@@ -15,9 +16,9 @@ spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4�
 ⑤ 시험 test-mutations.mjs: 오차 10종을 자동으로 넣어 전부 잡아야 통과 → 보고서 scripts/reports/{slug}.md
 ```
 
-실행: `node scripts/gov/run.mjs scripts/specs/{주제}.md` (약 9분, 중간 개입 없음). 모델 호출은 저장소 밖에서 한다(옛 규칙 차단).
+실행: `npm run gov -- scripts/specs/{주제}.md [--only <slug>]` (한 편 6~9분, 중간 개입 없음). 모델 호출은 저장소 밖에서 한다(옛 규칙 차단).
 - 한 편짜리: 타이틀·소제목은 내가 네이버 자동완성 + 행동 키워드로 짓는다. 허브·스포크 확장: 사장님 spec 글자 그대로.
-- 스포크 쓰기는 아직 옛 `npm run article`(이관 전). 옛 글은 건드리지 않는다.
+- 옛 파이프라인(article.mjs·write.ts·new-spoke.ts·승인 도장 게이트)은 2026-09-23 삭제. 옛 spec 은 `scripts/specs/archive/`(실행 금지). 옛 글은 건드리지 않는다.
 - push는 `.githooks/pre-push`가 막는다. facts.json 이 있는 글은 원문 대조 게이트가 새 검사기로 넘긴다.
 
 ## 절대 규칙 (기계가 못 잡는 것만)
@@ -35,7 +36,7 @@ spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4�
 | 무엇 | 어디 (자동 로드/강제) |
 |---|---|
 | 타이틀·소제목 = spec 그대로 | `.claude/rules/title-workflow.md` (policy 파일 작업 시 자동) |
-| 문구·버튼 6단계 흐름 | `.claude/rules/action-copy.md` (버튼 슬롯은 `scripts/new-spoke.ts` 가 잡는다) |
+| 문구·버튼 6단계 흐름 | `.claude/rules/action-copy.md` (버튼 자리·배선은 `scripts/gov` 가 잡는다) |
 | 데이터 스키마·7유형 | `.claude/rules/policy-data-schema.md` |
 | 디자인·Format A | `.claude/rules/design-system.md` + `scripts/check-type-shape.ts` |
 | 빌드·404 진단 | `.claude/rules/build-deploy.md` |
@@ -43,7 +44,6 @@ spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4�
 | 옛 글 품질 = 원문 대조 | `scripts/check-source-match.ts` (단위 붙은 숫자만 센다 — 새 글에 쓰지 않는다) |
 | **게이트 만들 때 반드시** | `scripts/lib/evidence.ts` — 근거는 `evidenceFor()` 로만 찾고, `judgeable(f, 만든날)` 로 옛 글은 심판하지 않는다 (게이트마다 다르게 찾으면 판정이 갈리고, 소급 차단하면 사람이 게이트를 끈다) |
 | push 게이트 진본 | `.githooks/pre-push` (core.hooksPath) |
-| 파이프라인 사전 검사 | `scripts/lib/article-check.mjs` (설계도·초안을 파일에 쓰기 전에 잡는다) |
 | 후킹 4축 (서론·cue 용) | `docs/hook-patterns.md` |
 | 버튼 문구 정본 | `docs/button-copy.md` |
 | 기준 카드뉴스(작성 전 Read 필수) | `reference/cards/청년미래적금/` · `reference/cards/고유가지원금/` (`docs/reference-card-baseline.md`) |

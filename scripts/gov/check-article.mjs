@@ -12,6 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DIR_OF, loadFacts, norm, nums, numsLoose, ranges, canonMoney, canonDate } from './verify-facts.mjs';
+import { metaOf } from './target.mjs';
 
 /* 짝 검사용 — 숫자 앞뒤 낱말(앞 두 글자로 줄인 것).
    "숫자가 facts 에 있나"만 보면 facts 의 다른 자리 숫자를 가져다 써도 통과한다
@@ -67,7 +68,7 @@ export function readerStrings(src) {
     .replace(/source:\s*\{[^{}]*\}/g, '')
     // highlights 는 본문 문장 안의 형광펜 조각이다 — 따로 읽히는 문장이 아니고, 본문에서 이미 검사된다
     .replace(/highlights:\s*\[[^\]]*\]/g, '')
-    .replace(/\b(sourceNote|source|sourceUrl|url|applyUrl2?|datePublished|dateModified|verifiedAt|slug|catSlug|id|type):\s*(\w+|'(?:[^'\\]|\\.)*')/g, '')
+    .replace(/\b(sourceNote|source|sourceUrl|url|href|applyUrl2?|datePublished|dateModified|verifiedAt|slug|catSlug|id|type):\s*(\w+|'(?:[^'\\]|\\.)*')/g, '')
     .replace(/sources:\s*\[[\s\S]*?\n\s{2}\],/g, '');
   // 한 줄에 있는 문자열은 묶는다 — 표 한 행 ['팩스', '02-…'] 을 칸마다 떼어 보면 '팩스'가 없다고 오탐한다
   return body.split('\n')
@@ -77,13 +78,17 @@ export function readerStrings(src) {
 
 /** spec 에서 타이틀·소제목 줄만 — 출처 URL 숫자가 허용 목록에 섞이면 안 된다. 경로를 안 주면 slug 로 찾는다 */
 export function specNumsText(slug, file) {
+  // 타이틀·소제목은 meta 에 있다 (없으면 옛 방식대로 spec 을 slug 로 찾는다)
+  const meta = metaOf(slug);
+  if (!file && meta.title) return `title: ${meta.title}\n${(meta.subs || []).map((x) => `sub: ${x}`).join('\n')}`;
   const f = file || fs.readdirSync(path.join('scripts', 'specs')).map((n) => path.join('scripts', 'specs', n))
     .find((p) => p.endsWith('.md') && new RegExp(`^slug:\\s*${slug}\\s*$`, 'm').test(fs.readFileSync(p, 'utf8')));
   return f ? fs.readFileSync(f, 'utf8').split('\n').filter((l) => /^(title|sub):/.test(l)).join('\n') : '';
 }
 
 export function checkArticle(slug, specText = specNumsText(slug)) {
-  const file = path.join('data', 'policies', `${slug}.ts`);
+  // 글 파일은 meta 가 가리키는 곳 — 허브(data/policies) 또는 스포크(content/<dir>)
+  const file = metaOf(slug).file;
   const src = fs.readFileSync(file, 'utf8');
   const facts = loadFacts(slug);
   const dir = DIR_OF(slug);
@@ -252,7 +257,7 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
 
   // 구성 고정 — 소제목(qa) 4개, FAQ 2개 (2026-09-23 사장님: FAQ 가 많으면 시간만 먹는다)
   const qaN = (src.match(/\banchor:\s*'/g) || []).length;
-  const faqN = ((src.match(/\bfaq:\s*\[([\s\S]*?)\n\s{2}\],/) || [])[1]?.match(/\bq:\s*'/g) || []).length;
+  const faqN = ((src.match(/\bfaq(?:Data)?:\s*\[([\s\S]*?)\n\s{2}\],/) || [])[1]?.match(/\bq:\s*'/g) || []).length;
   if (qaN !== 4) errors.push(`[구성] 소제목 카드가 ${qaN}개 — 4개여야 한다`);
   if (faqN !== 2) errors.push(`[구성] FAQ 가 ${faqN}개 — 2개여야 한다`);
 
@@ -269,7 +274,7 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   const opened = new Set(JSON.parse(fs.readFileSync(path.join(dir, 'sources.json'), 'utf8'))
     .filter((s) => !s.error).flatMap((s) => [s.url, s.finalUrl]));
   const consts = Object.fromEntries([...src.matchAll(/^const (\w+) = '([^']+)';$/gm)].map((m) => [m[1], m[2]]));
-  for (const m of src.matchAll(/(?:applyUrl2?|url):\s*(\w+|'[^']+')/g)) {
+  for (const m of src.matchAll(/(?:applyUrl2?|url|href):\s*(\w+|'[^']+')/g)) {
     const u = m[1].startsWith("'") ? m[1].slice(1, -1) : consts[m[1]];
     if (u && /^https?:/.test(u) && !opened.has(u)) errors.push(`[버튼] ${u} — 수집 단계에서 열어 본 주소가 아니다`);
   }

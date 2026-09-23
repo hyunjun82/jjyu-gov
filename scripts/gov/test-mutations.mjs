@@ -19,9 +19,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { DIR_OF, verifyFacts, nums, ranges } from './verify-facts.mjs';
 import { checkArticle, readerStrings, MODAL } from './check-article.mjs';
+import { metaOf } from './target.mjs';
 
 const slug = process.argv[2];
-const files = { article: path.join('data', 'policies', `${slug}.ts`), facts: path.join(DIR_OF(slug), 'facts.json') };
+const files = { article: metaOf(slug).file, facts: path.join(DIR_OF(slug), 'facts.json') };
 const orig = Object.fromEntries(Object.entries(files).map(([k, f]) => [k, fs.readFileSync(f, 'utf8')]));
 const A = orig.article;
 const facts = JSON.parse(orig.facts).facts;
