@@ -1,22 +1,24 @@
 # gov-jjyu — 정부지원사업 자동화
 
-> 사장님이 준 타이틀·소제목(spec) → Playwright 출처 수집 → 작성 → 원문 대조·게이트 → 사람 승인 후 푸시.
-> 세부 규칙은 여기 적지 않는다 — 게이트가 강제하고, 이 파일은 색인이다. (상한 80줄, pre-push가 차단)
+> spec(타이틀·소제목·1차 출처 URL) → 수집 → 사실 → 작성 → 코드 대조·합격 시험 → 사람 승인 후 푸시.
+> 세부 규칙은 여기 적지 않는다 — 코드가 강제하고, 이 파일은 색인이다. (상한 80줄, pre-push가 차단)
 
-## 시스템 = 3단계 (2026-09-19 확정 — 타이틀·소제목 조립·판정·캡처 단계는 삭제했다)
+## 시스템 = scripts/gov (2026-09-23 전환 — 판정은 전부 코드, 모델은 사실 뽑기·작성 두 번만)
 
 ```
-0 spec   사장님이 준다: scripts/specs/{허브}.md  (머리 hub:/dir: + 글마다 **N. 타이틀** / - slug: / - 소제목 1~4)
-         ★ 타이틀·소제목은 글자 하나 바꾸지 않는다. 바꾸자고 제안하지 않는다. 후킹·패턴·캡처·실검색어 조립 없음.
-1 사실   spec 의 주제로 1차 출처를 찾아 Playwright 로 열어 추출본 저장 (짧으면 재확보)
-2 작성   서론·버튼 문구·본문 (소제목 4 = qa 4, FAQ 2, 버튼 슬롯 qa 2·4·끝은 스크립트가 잡는다)
-3 마무리 추출본 ↔ 완성글 대조 + 게이트 → 보고서 → 사람 승인 → 커밋
+spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4줄) source:(1차 출처) button:(버튼 목적지)
+① 수집 collect.mjs   Playwright: 본문·표(행·열)·iframe(법령)·PDF(PDF.js)·이미지 크롭·행동 링크. 시민기자·블로그 자동 제외
+② 사실 모델 → facts.json(30개 이내) → verify-facts.mjs: 인용=원문 글자 그대로, 값 숫자⊂인용, 이미지 두 번 읽기,
+       한정 표현(계획·예정·선착순·필수·불가…)은 keepWord(살림)/keepWhy(안 살리는 이유) 판단 필수
+③ 작성 모델 → data/policies/{slug}.ts — 소제목 4·FAQ 2, 카드 = 소제목→버튼→표(3열 이하)→텍스트
+④ 대조 check-article.mjs: 숫자·단위·금액 이름표·범위어·범위 순서·한정 표현·필수·표·구성 → 틀린 곳만 고침(2회)
+⑤ 시험 test-mutations.mjs: 오차 10종을 자동으로 넣어 전부 잡아야 통과 → 보고서 scripts/reports/{slug}.md
 ```
 
-실행: `npm run article -- --spec scripts/specs/{허브}.md [--only <slug>]` ← 글 한 편마다 `claude -p` 새 호출 (대화창에서 쓰지 않는다. 보고서 `scripts/reports/{slug}.md` 를 보고 push 전에 승인)
-
-push는 `.githooks/pre-push`가 막는다.
-⚠ 수집만으로 끝나지 않는다 — **원문에 있는데 글에 없는 항목**(이벤트·단서·고유명)이 최다 실수. 옮겨 적은 뒤 원문과 역방향 대조.
+실행: `node scripts/gov/run.mjs scripts/specs/{주제}.md` (약 9분, 중간 개입 없음). 모델 호출은 저장소 밖에서 한다(옛 규칙 차단).
+- 한 편짜리: 타이틀·소제목은 내가 네이버 자동완성 + 행동 키워드로 짓는다. 허브·스포크 확장: 사장님 spec 글자 그대로.
+- 스포크 쓰기는 아직 옛 `npm run article`(이관 전). 옛 글은 건드리지 않는다.
+- push는 `.githooks/pre-push`가 막는다. facts.json 이 있는 글은 원문 대조 게이트가 새 검사기로 넘긴다.
 
 ## 절대 규칙 (기계가 못 잡는 것만)
 
@@ -26,7 +28,7 @@ push는 `.githooks/pre-push`가 막는다.
 4. **정부 슬로건·로고·캐릭터 금지**, 가짜 후기·임의 통계 금지.
 5. 봇 차단 사이트(nhis 등) 접근 폴백: Claude in Chrome → law.go.kr/easylaw → korea.kr/보도자료 PDF → 그래도 없으면 "공식 채널 확인" 안내. "접근 불가"는 거의 없다.
 6. 검증 못 한 항목은 본문에 쓰지 말고 팩트시트 "쓰지 않는 것"에 사유와 함께 기록.
-7. **타이틀·소제목은 사장님 것** — 어색해 보여도 그대로. 문제는 보고서 메모 한 줄로만.
+7. **사장님이 준 타이틀·소제목은 글자 그대로** — 어색해 보여도 그대로. 문제는 보고서 메모 한 줄로만.
 
 ## 정본 색인 (규칙의 단일 소스 — 여기 복사 금지)
 
@@ -37,7 +39,8 @@ push는 `.githooks/pre-push`가 막는다.
 | 데이터 스키마·7유형 | `.claude/rules/policy-data-schema.md` |
 | 디자인·Format A | `.claude/rules/design-system.md` + `scripts/check-type-shape.ts` |
 | 빌드·404 진단 | `.claude/rules/build-deploy.md` |
-| 품질 = 원문 대조 하나 | `scripts/check-source-match.ts` (2026-08-16 검사 11개를 여기로 합쳤다) |
+| 새 글 품질 = 코드 대조 | `scripts/gov/check-article.mjs` + `verify-facts.mjs` (검사기를 고치면 `test-mutations.mjs` 로 다시 시험) |
+| 옛 글 품질 = 원문 대조 | `scripts/check-source-match.ts` (단위 붙은 숫자만 센다 — 새 글에 쓰지 않는다) |
 | **게이트 만들 때 반드시** | `scripts/lib/evidence.ts` — 근거는 `evidenceFor()` 로만 찾고, `judgeable(f, 만든날)` 로 옛 글은 심판하지 않는다 (게이트마다 다르게 찾으면 판정이 갈리고, 소급 차단하면 사람이 게이트를 끈다) |
 | push 게이트 진본 | `.githooks/pre-push` (core.hooksPath) |
 | 파이프라인 사전 검사 | `scripts/lib/article-check.mjs` (설계도·초안을 파일에 쓰기 전에 잡는다) |

@@ -1,59 +1,47 @@
 ---
 name: gov
-description: 사장님이 준 spec(타이틀+소제목 4)으로 gov-jjyu 글을 끝까지 쓴다. "기초연금 spec 돌려", "/gov 기초연금", "이 타이틀·소제목으로 글 써" 처럼 spec 이나 타이틀·소제목이 주어지면 이 스킬로 시작한다. 타이틀·소제목은 절대 바꾸지 않는다.
+description: gov-jjyu 글 한 편을 새 파이프라인(scripts/gov)으로 끝까지 쓴다. "기초연금 spec 돌려", "/gov 기초연금", "이 타이틀·소제목으로 글 써", 키워드 표나 공식 페이지 URL과 함께 글을 요청하면 이 스킬로 시작한다. 사장님이 준 타이틀·소제목은 절대 바꾸지 않는다.
 ---
 
-# /gov {허브} — spec 그대로, 글만 쓴다 (2026-09-19 확정)
+# /gov — spec 하나 → 명령 한 줄 → 보고서 (2026-09-23 전환)
 
-2026-09-19 이전에는 타이틀 후보 조립(`write.ts --1`)·구성표 승인·캡처 확인·후킹 판정 훅이 있었다.
-사장님이 타이틀·소제목을 직접 주시는데 시스템이 "후킹 넣자"며 매번 바꾸려 들었다 — 원인은
-저장 훅(`title-formula.mjs`)이 사장님 타이틀 16/19 를 차단한 것. 그래서 **조립·판정·캡처를 전부 삭제**했다.
+판정은 전부 코드가 한다. 모델은 사실 뽑기·작성 두 번만 부른다. **돌리는 동안 끼어들어 고치지 않는다** —
+결과가 이상하면 원인은 지시문(`scripts/gov/run.mjs` 의 프롬프트)이나 검사기이고, 고친 뒤 `test-mutations.mjs` 로 다시 시험한다.
 
-사람이 서는 자리는 **spec 주기**와 **push 승인** 두 곳이다.
-
-## 0. spec — 사장님이 준다. 나는 옮겨 적기만 한다
-
-`scripts/specs/{허브}.md` — 채팅에 주신 md 를 그대로 붙이고, 머리와 slug 만 내가 채운다:
+## 0. spec — `scripts/specs/{주제}.md`
 
 ```
-hub: basic-pension
-dir: 기초연금
-keyword: 기초연금          ← scripts/output/{keyword}.txt 실검색어가 있으면 참고 (없어도 된다)
-
-**1. 타이틀 그대로**
-- slug: english-lowercase-hyphen
-- 소제목 1: …
-- 소제목 2: …
-- 소제목 3: …
-- 소제목 4: …
+slug: english-lowercase-hyphen
+cat: 생활            catSlug: life        ← 기존 카테고리만 (새 catSlug 는 CATEGORY_LABELS 등록 필요)
+title: 타이틀
+sub: 소제목 1        ← 정확히 4줄
+sub: 소제목 2
+sub: 소제목 3
+sub: 소제목 4
+source: 1차 출처 URL  ← 공식 페이지·보도자료·법령·PDF. 시민기자·블로그는 넣어도 코드가 제외한다
+button: 버튼 목적지 URL (원문 '행동 링크'에 없는 신청 사이트일 때만)
 ```
 
-- **타이틀·소제목 글자 하나 바꾸지 않는다. 바꾸자고 제안하지 않는다.** 어색해 보여도 그대로.
-  문제가 있으면 보고서 메모에 한 줄 적고 그대로 쓴다.
-- 기존 스포크와 같은 의도면 **먼저 대조표를 올려** 교체/추가를 사장님이 정하게 한다.
-  교체면 옛 파일·registry·Spokes 배열에서 빼고 `public/_redirects` 에 옛 URL → 새 URL 301.
+- **사장님이 타이틀·소제목을 주면 글자 그대로.** 바꾸자고 제안하지 않는다.
+- **한 편짜리를 맡기면** 내가 짓는다: 네이버 자동완성(`ac.search.naver.com`, Playwright)에 뜬 말만 쓰고 행동 키워드(신청·교환·조회·찾기)를 넣는다.
+- **키워드 표를 주면** 의도별로 묶는다. 같은 의도(홈페이지·온라인·인터넷 방법)는 한 소제목. 의도가 4개면 한 편, 그보다 많이 갈리면 허브·스포크를 사장님께 묻는다.
+- source 는 Playwright 로 공식 누리집을 열어 찾는다. 네이버 AI 요약·블로그는 공식 페이지를 찾는 단서로만.
 
-## 1~3. 실행 — 한 줄
+## 1. 실행
 
 ```bash
-npm run article -- --spec scripts/specs/{허브}.md            # 전부
-npm run article -- --spec scripts/specs/{허브}.md --only {slug}  # 한 편
+node scripts/gov/run.mjs scripts/specs/{주제}.md                 # 전부 (약 9분)
+node scripts/gov/run.mjs scripts/specs/{주제}.md --from write    # 사실은 두고 다시 쓰기
+node scripts/gov/run.mjs scripts/specs/{주제}.md --to facts      # 사실까지만
 ```
 
-글 한 편마다 `claude -p` 새 호출로 설계(버튼·출처) → 버튼 목적지 Playwright 확인 → 출처 추출·캡처 → 캡처 읽기 → 작성 → 사전 검사 → 게이트 → 보고서.
-타이틀·소제목은 `normalizePlan` 이 spec 으로 덮어쓰고 `article-check` 가 spec 과 다르면 거부한다.
+## 2. 보고서 → 승인 → push
 
-- 소제목 4 = qa 카드 4, FAQ 2, 버튼 슬롯은 qa 인덱스 2·4·마지막 (스크립트가 잡는다)
-- 추출본 1500자 미만이면 못 받은 것 — Playwright MCP 로 직접 열어 캡처+텍스트 확보
-- 봇 차단 폴백: Claude in Chrome → law.go.kr/easylaw → korea.kr 보도자료 PDF
-- 수치는 2개 이상 출처 교차. 못 채운 항목은 팩트시트 "확보하지 못한 것"에 적고 **본문에 쓰지 않는다**
-
-## 4. 보고 → 승인 → push
-
-`scripts/reports/{slug}.md` + 렌더 캡처를 사장님이 보고 승인. 10~30편 모아 한 번에 커밋·푸시 (자동 푸시 금지).
+`scripts/reports/{slug}.md` — 대조 결과, 합격 시험, 사실·원문 인용, **한정 표현 판단(살림/안 살린 이유)**, 🖼 이미지 사실.
+사장님 확인 뒤 커밋·푸시. 자동 푸시 금지. 스포크(허브 확장)는 아직 옛 `npm run article`.
 
 ## 하지 말 것
 
-- 타이틀·소제목에 후킹·패턴·행동어를 넣자고 하기 — 그 규칙은 삭제됐다. 다시 만들지 않는다
-- 결과가 이상하다고 **새 검사기·새 훅 만들기.** 원인은 대개 지시문(`scripts/lib/article-prompts.mjs`)의 그 줄이다
-- 추정·예시 수치, 블로그·언론을 1차 출처로 인용, 정부 슬로건·로고, 자동 푸시
+- 돌리는 중에 글을 손으로 고치기 — 검사기를 우회하게 된다
+- 검사기를 느슨하게 해서 통과시키기 — 오탐이면 규칙을 고치고 `test-mutations.mjs` 가 전부 잡는지 다시 본다
+- 추정·예시 수치, 블로그·언론을 1차 출처로, 정부 슬로건·로고, 자동 푸시

@@ -35,7 +35,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let mcpPath = "";
 function emptyMcpConfig() {
   if (mcpPath && fs.existsSync(mcpPath)) return mcpPath;
-  mcpPath = path.join("scripts", ".no-mcp.json");
+  // 절대 경로 — 호출을 저장소 밖(cwd 옵션)에서 할 때도 찾을 수 있어야 한다
+  mcpPath = path.resolve("scripts", ".no-mcp.json");
   fs.writeFileSync(mcpPath, JSON.stringify({ mcpServers: {} }));
   return mcpPath;
 }
@@ -79,12 +80,12 @@ export function fmtUsage(u) {
  */
 export async function ask(prompt, opt = {}) {
   assertSubscriptionOnly();
-  const { tools = [], timeoutMs = 25 * 60 * 1000, label = "ask", logDir, expect, tag } = opt;
+  const { tools = [], timeoutMs = 25 * 60 * 1000, label = "ask", logDir, expect, tag, cwd, addDirs = [] } = opt;
   const candidates = [opt.model ?? process.env.ARTICLE_MODEL ?? "sonnet"];
   let lastErr = null;
   for (let i = 0; i < candidates.length; i++) {
     try {
-      return await askOnce(prompt, { tools, model: candidates[i], timeoutMs, label: i ? `${label}-${candidates[i]}` : label, logDir, expect, tag });
+      return await askOnce(prompt, { tools, model: candidates[i], timeoutMs, label: i ? `${label}-${candidates[i]}` : label, logDir, expect, tag, cwd, addDirs });
     } catch (e) {
       lastErr = e;
       const msg = String(e.message);
@@ -108,7 +109,7 @@ export async function ask(prompt, opt = {}) {
   throw lastErr;
 }
 
-function askOnce(prompt, { tools, model, timeoutMs, label, logDir, expect, tag }) {
+function askOnce(prompt, { tools, model, timeoutMs, label, logDir, expect, tag, cwd, addDirs = [] }) {
   return new Promise((resolve, reject) => {
     const env = { ...process.env };
     for (const v of NEST_VARS) delete env[v];
@@ -117,9 +118,12 @@ function askOnce(prompt, { tools, model, timeoutMs, label, logDir, expect, tag }
     const args = ["-p", "--output-format", "json", "--strict-mcp-config", "--mcp-config", emptyMcpConfig()];
     if (model) args.push("--model", model);
     if (tools.length) args.push("--allowedTools", tools.join(","));
+    // cwd: 저장소 밖에서 부르면 이 저장소의 CLAUDE.md·메모리(옛 규칙)가 딸려 오지 않는다 (scripts/gov, 2026-09-23)
+    // addDirs: cwd 밖 폴더(이미지 크롭 등)를 Read 로 열 수 있게 허용
+    for (const d of addDirs) args.push("--add-dir", d);
 
     const t0 = Date.now();
-    const child = spawn("claude", args, { env, shell: process.platform === "win32" });
+    const child = spawn("claude", args, { env, shell: process.platform === "win32", ...(cwd ? { cwd } : {}) });
     let out = "", err = "", finished = false;
 
     // 진행 표시 — 긴 단계(작성 5~8분)가 멈춘 것처럼 보이지 않게

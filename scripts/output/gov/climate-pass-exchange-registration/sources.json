@@ -1,0 +1,111 @@
+[
+  {
+    "n": 1,
+    "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/climatepass-info",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518138",
+    "title": "기후동행패스 출시 안내 < 교통 | 서울특별시",
+    "file": "src-1.txt",
+    "chars": 1762,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/climatepass-promo-booth",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518636",
+    "title": "‘기후동행패스’ 출시 기념, 신규카드 무상 교환 현장 이벤트 실시’ < 교통 | 서울특별시",
+    "file": "src-2.txt",
+    "chars": 2316,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/516868",
+    "title": "고유가 극복, 3만원 페이백으로 무제한 대중교통 이용! < 교통 | 서울특별시",
+    "file": "src-3.txt",
+    "chars": 2715,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/climatecard30-stop-info",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/517737",
+    "title": "기후동행카드 30일권 이용 종료 안내 < 교통 | 서울특별시",
+    "file": "src-4.txt",
+    "chars": 1827,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/faq-climatepass",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518666",
+    "title": "기후동행패스의 서울 특화 혜택은 무엇인가요? < 교통 | 서울특별시",
+    "file": "src-5.txt",
+    "chars": 1363,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://mediahub.seoul.go.kr/archives/2019207",
+    "finalUrl": "https://mediahub.seoul.go.kr/archives/2019207",
+    "title": "9월 기후동행패스 본격 출시! 새 카드 무료 교환하세요 | 서울시 - 내 손안에 서울",
+    "file": "src-6.txt",
+    "chars": 5447,
+    "tables": 1,
+    "images": [
+      {
+        "file": "img-6-1.png",
+        "alt": "기후동행패스 출시 기념 신규카드 무상 교환 이벤트를 진행한다."
+      },
+      {
+        "file": "img-6-2.png",
+        "alt": "모두의카드 기후동행패스 카드디자인"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://mediahub.seoul.go.kr/archives/2019275",
+    "finalUrl": "https://mediahub.seoul.go.kr/archives/2019275",
+    "title": "기후동행카드, '기후동행패스'로 바꾸셨나요? 지하철역 12곳서 무료 교체 | 서울시 - 내 손안에 서울",
+    "file": "src-7.txt",
+    "chars": 4786,
+    "tables": 0,
+    "images": [],
+    "primary": false,
+    "byline": "시민기자 노윤지"
+  },
+  {
+    "n": 8,
+    "url": "https://pay.tmoney.co.kr/indexReal.dev",
+    "finalUrl": "https://pay.tmoney.co.kr/indexReal.dev",
+    "title": "티머니 카드&페이",
+    "file": "src-8.txt",
+    "chars": 1282,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 9,
+    "url": "https://korea-pass.kr/",
+    "finalUrl": "https://korea-pass.kr/",
+    "title": "모두의카드",
+    "file": "src-9.txt",
+    "chars": 575,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

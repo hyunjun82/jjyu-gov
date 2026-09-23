@@ -135,6 +135,21 @@ function checkSpoke(file: string): number {
 function check(slug: string): number {
   const file = path.join(DIR, `${slug}.ts`);
   if (!fs.existsSync(file)) { console.log(`  ? ${slug} — 파일 없음`); return 0; }
+  /* 새 파이프라인(scripts/gov, 2026-09-23) 글은 facts.json 이 있다 — 새 검사기로 넘긴다.
+     이 대조기는 단위 붙은 숫자만 세고(표·'곳' 누락), 원문 풀에 글 자신의 source.text 가 섞여
+     틀린 숫자를 통과시켰다(추석 글 738→739 시험). 새 검사기는 인용↔원문, 글의 모든 숫자↔facts 를 본다. */
+  if (fs.existsSync(path.join('scripts', 'output', 'gov', slug, 'facts.json'))) {
+    try {
+      execSync(`node scripts/gov/verify-facts.mjs ${slug}`, { stdio: 'pipe' });
+      const out = execSync(`node scripts/gov/check-article.mjs ${slug}`, { encoding: 'utf8' });
+      console.log(`✅ ${slug} — 새 검사기(facts.json) ${out.trim().split('\n').pop()?.replace(/^✅\s*/, '')}`);
+      return 0;
+    } catch (e) {
+      const err = e as { stdout?: Buffer | string };
+      console.log(`\n❌ ${slug} — 새 검사기(facts.json)\n${String(err.stdout ?? '').trim()}`);
+      return 1;
+    }
+  }
   const src = fs.readFileSync(file, 'utf8');
   const { pool, parts } = sourcePool(slug, src);
   if (!pool.trim()) {

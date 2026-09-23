@@ -197,6 +197,9 @@ export default function PolicyDetailClient({
 
   // 모든 QA 카드에 공통으로 붙는 행동 버튼의 목적지 (applyUrl 없으면 1차 출처로 폴백)
   const defaultActionHref: string | undefined = d.applyUrl || d.sources?.[0]?.url;
+  // 카드 배치 — 'act-first' 면 소제목 → 버튼 → 표 → 텍스트 (새 파이프라인 글만 켠다, 기존 글은 그대로)
+  const actFirst = d.cardLayout === 'act-first';
+  const isAdCard = (i: number) => (i === 1 || i === 3 || i === 5) && i < (d.qa?.length ?? 0) - 1;
 
   /* 버튼에 붙일 주제어 — "예매하기"가 아니라 "워터밤 즉시 예매하기"가 되도록.
      제목 앞부분에서 연도·군더더기를 떼고 핵심 명사만 남긴다. */
@@ -338,12 +341,29 @@ export default function PolicyDetailClient({
                   {/* 광고 gov2 — 소제목 헤더 바로 아래, 본문 첫 줄 위 (2026-08-10 이전).
                       카드 바깥(카드와 카드 사이)에 두던 걸 옮겼다. 읽는 흐름 밖이라 눈에 안 들어왔다.
                       스포크 SpokeClient.tsx 와 같은 자리 — 두 곳을 다르게 두면 지면이 어긋난다. */}
-                  {(i === 1 || i === 3 || i === 5) && i < (d.qa?.length ?? 0) - 1 && (
+                  {!actFirst && (i === 1 || i === 3 || i === 5) && i < (d.qa?.length ?? 0) - 1 && (
                     <div className="ad-slot" style={{ margin: '0 0 20px' }}>
                       <AdSense slot="1375998717" />
                     </div>
                   )}
+                  {/* act-first (2026-09-23 사장님): 소제목 → 버튼 → 표 → 텍스트.
+                      찾으러 온 사람은 바로 누르고, 확인하러 온 사람은 표를 보고, 필요한 사람만 읽는다.
+                      광고는 버튼과 붙지 않게 표 뒤로(표가 없으면 텍스트 뒤로) — 버튼 옆 광고는 오클릭 유도다 */}
+                  {actFirst && item.act?.url && (
+                    <div className="qa-act-top">
+                      <a href={item.act.url} className="qa-inline-cta" rel="noopener">{item.act.label} →</a>
+                    </div>
+                  )}
+                  {actFirst && item.table && (
+                    <QATable caption={item.table.caption} headers={item.table.headers} rows={item.table.rows} />
+                  )}
+                  {actFirst && item.table && isAdCard(i) && (
+                    <div className="ad-slot" style={{ margin: '20px 0' }}><AdSense slot="1375998717" /></div>
+                  )}
                   {item.intro && renderIntro(item.intro, item.highlights || [])}
+                  {actFirst && !item.table && isAdCard(i) && (
+                    <div className="ad-slot" style={{ margin: '20px 0 0' }}><AdSense slot="1375998717" /></div>
+                  )}
 
                   {/* 자격 체커 (Q2 또는 hasEligibilityChecker = true) */}
                   {item.hasEligibilityChecker && d.eligibility && (
@@ -455,8 +475,8 @@ export default function PolicyDetailClient({
                     </>
                   )}
 
-                  {/* 표 */}
-                  {item.table && (
+                  {/* 표 (act-first 는 위에서 이미 그렸다) */}
+                  {item.table && !actFirst && (
                     <QATable
                       caption={item.table.caption}
                       headers={item.table.headers}
@@ -573,7 +593,7 @@ export default function PolicyDetailClient({
                       2026-08-06 Clarity 실측: 상단 버튼 클릭 50~57% vs 중간 기본(폴백) 버튼 0~1클릭.
                       폴백을 없애 "같은 버튼 도배"(전 카드가 대표 CTA로 수렴)를 차단한다 —
                       중요 행동 2~3개만 작성자가 act로 지정. q-apply·toolCta·ctaBlock은 중복 방지 제외 */}
-                  {item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && item.act?.url && (
+                  {!actFirst && item.anchor !== 'q-apply' && !item.toolCta && !item.ctaBlock && item.act?.url && (
                     <div style={{ marginTop: 20 }}>
                       {item.act?.cue && (
                         <p className="qa-cta-cue">{item.act.cue}</p>
