@@ -47,7 +47,9 @@ export async function generateMetadata({
      나가고 있었다 — 고객센터에 '신청방법 총정리' 는 말이 안 되고, 70자를 넘어 검색 결과에서 잘렸다.
      네이버 상위 경쟁 페이지는 꼬리 없이 검색어만 둔다. 브랜드 꼬리도 뺀다. */
   const isCallCenter = String(p.slug ?? id).endsWith('-call-center');
-  const title = isCallCenter
+  /* titleTail: false — 신청하는 제도가 아닌 안내 글(명절 문 여는 병원 등)도 꼬리를 뺀다 (2026-09-23) */
+  const noTail = (p as { titleTail?: boolean }).titleTail === false;
+  const title = isCallCenter || noTail
     ? p.title
     : `${p.title} 조건·신청방법 총정리 (2026) | 정부지원사업`;
   const description = (p as { metaDescription?: string }).metaDescription

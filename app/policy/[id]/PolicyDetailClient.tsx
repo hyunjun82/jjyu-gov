@@ -164,7 +164,7 @@ export default function PolicyDetailClient({
   const schemas = [
     articleWithGovServiceSchema(
       {
-        title: `${d.title} 조건·신청방법 총정리 (2026)`,
+        title: d.titleTail === false ? d.title : `${d.title} 조건·신청방법 총정리 (2026)`,
         description: d.summary,
         url: policyUrl,
         datePublished: d.datePublished,
@@ -272,17 +272,30 @@ export default function PolicyDetailClient({
             <p className="detail-hero-hook">{d.heroHook}</p>
           )}
 
-          <div className="detail-cta">
-            {!d.hideAmountBox && (
-              <div>
-                <div className="cta-amount-label">{d.amountLabel || '지원 금액'}</div>
-                <div className="cta-amount">{d.amount}</div>
-              </div>
-            )}
-            <a href={d.applyUrl} className="btn-cta" rel="noopener">
-              {simplifyCta(d.ctaLabel, ctaSubject)}
-            </a>
-          </div>
+          {/* 상단 버튼 두 개(applyUrl2·ctaLabel2) — 목적지가 둘로 갈리는 글(응급실 / 문 여는 병원·약국)은
+              위아래로 쌓는다. 금액 박스는 두지 않는다. 없으면 기존 한 개 그대로. (2026-09-23) */}
+          {d.applyUrl2 && d.ctaLabel2 ? (
+            <div className="detail-cta detail-cta--stack">
+              <a href={d.applyUrl} className="btn-cta" rel="noopener">
+                {simplifyCta(d.ctaLabel, ctaSubject)}
+              </a>
+              <a href={d.applyUrl2} className="btn-cta" rel="noopener">
+                {simplifyCta(d.ctaLabel2, ctaSubject)}
+              </a>
+            </div>
+          ) : (
+            <div className="detail-cta">
+              {!d.hideAmountBox && (
+                <div>
+                  <div className="cta-amount-label">{d.amountLabel || '지원 금액'}</div>
+                  <div className="cta-amount">{d.amount}</div>
+                </div>
+              )}
+              <a href={d.applyUrl} className="btn-cta" rel="noopener">
+                {simplifyCta(d.ctaLabel, ctaSubject)}
+              </a>
+            </div>
+          )}
         </header>
 
         {/* 본문 + 사이드바 */}
