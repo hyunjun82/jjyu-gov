@@ -62,6 +62,7 @@ export function verifyFacts(slug) {
   const notPrimary = new Map(srcs.filter((s) => s.primary === false).flatMap((s) => [[s.file, s.byline], ...(s.images || []).map((im) => [im.file, s.byline])]));
   // 1차 출처가 아닌 원문은 교차 확인 수에도 넣지 않는다
   for (const f of notPrimary.keys()) delete texts[f];
+  const canonTexts = Object.fromEntries(Object.entries(texts).map(([f, t]) => [f, canonMoney(canonDate(t))]));
 
   for (const x of facts) {
     const tag = `${x.id} ${x.item}`;
@@ -96,7 +97,8 @@ export function verifyFacts(slug) {
     // 값은 요약된 말이라 통째로는 안 나온다 — 값의 숫자가 전부 (다른 숫자의 일부가 아니게) 나오는 원문을 센다
     const vn = nums(x.value);
     const hasNum = (t, n) => new RegExp(`(^|[^\\d.])${n.replace('.', '\\.')}(?![\\d])`).test(t.replace(/,/g, ''));
-    const seenIn = Object.entries(texts).filter(([, t]) => vn.every((n) => hasNum(t, n))).map(([f]) => f);
+    // 값의 숫자는 표준형(10월 12일 → 10.12, 5만 원 → 50000)이라 원문도 같은 표준형으로 센다 — 안 하면 날짜가 전부 '0곳'으로 나왔다
+    const seenIn = Object.entries(canonTexts).filter(([, t]) => vn.every((n) => hasNum(t, n))).map(([f]) => f);
     if (vn.length && seenIn.length < 2 && !isImg && !/^https?:/.test(x.value)) warns.push(`${tag} — 값 숫자(${vn.join(', ')})가 원문 ${seenIn.length}곳에만 있다`);
     rows.push({ ...x, isImg, seenIn });
   }

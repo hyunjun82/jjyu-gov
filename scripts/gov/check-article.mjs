@@ -64,7 +64,9 @@ export function heroOf(src) {
   const label = src.match(/ctaLabel:\s*'((?:[^'\\]|\\.)*)'/)?.[1] || src.match(/heroAct:\s*\{\s*label:\s*'((?:[^'\\]|\\.)*)'/)?.[1] || '';
   return { hero, label };
 }
-const ACTION = /부터|먼저|하셔야|보셔야|해\s?두|하세요|챙기|확인해|확인하/;
+/* 행동 유도 = 독자에게 권하는 끝맺음. '부터'는 넣지 않는다 — "10월 12일부터 시작" 같은 날짜 문장을
+   행동 유도로 잘못 집어, 진짜 유도 문장을 지워도 검사가 통과했다 (2026-09-23 코로나 글 합격 시험) */
+const ACTION = /하셔야|보셔야|해\s?두|두세요|하세요|보세요|챙기|찾아\s?두|확인해\s?보/;
 /** 행동 유도 문장 — 맺음 문장("…알아보겠습니다")을 뺀 문장 중 행동 표시가 있는 **마지막** 문장.
  *  앞에서부터 찾으면 공감 문장의 "어디서부터 손대야 할지 막막하셨을 텐데요"를 행동 유도로 집는다 */
 export function bridgeOf(hero) {
@@ -86,10 +88,50 @@ export function heroSimilarity(a, b) {
   for (const s of A) if (B.has(s)) x++;
   return A.size + B.size - x ? x / (A.size + B.size - x) : 0;
 }
+/* ── 문장 찾기 기준 — 검사기와 합격 시험(test-mutations)이 **같은 함수**를 쓴다.
+   따로 구현했더니 시험이 검사기가 보지 않는 문장을 건드려 가짜 '놓침'이 났다 (2026-09-23) */
+/** 표 행 문자열 → 열 제목을 붙여 읽는 함수. 표 행의 범위어는 열 제목에 있을 수 있다 */
+export function headerReader(src) {
+  const headerOf = new Map();
+  for (const m of src.matchAll(/headers:\s*\[([^\]]*)\],\s*\n?\s*rows:\s*\[([\s\S]*?)\n\s*\],/g)) {
+    const head = (m[1].match(/'((?:[^'\\]|\\.)*)'/g) || []).map((h) => h.slice(1, -1)).join(' ');
+    for (const line of m[2].split('\n')) {
+      const cells = (line.match(/'((?:[^'\\]|\\.)*)'/g) || []).map((c) => c.slice(1, -1));
+      if (cells.length) headerOf.set(cells.join(' · '), head);
+    }
+  }
+  return (s) => (headerOf.has(s) ? `${s} ${headerOf.get(s)}` : s);
+}
+export const sentencesOf = (strings) => strings.flatMap((s) => s.split(/(?<=[.?!])\s+|(?<=다\.)|\n/));
+const distinctKey = (x) => [...new Set(nums(x.value))].filter((n) => n.includes('.') || n.length >= 2);
+const isDistinct = (key) => key.length >= 2 || key.some((n) => n.replace(/\..*/, '').length >= 3);
+/** 범위어 사실이 쓰인 문장인가 — 값 문구 통째 또는 (숫자가 뚜렷하고 다른 범위 사실과 안 겹치면) 그 숫자들 */
+export function scopeHit(x, facts) {
+  const v = norm(x.value), key = distinctKey(x);
+  // 같은 숫자가 범위가 다른 사실에도 나오면(3만원 = 선불에도 후불에도) 숫자로는 범위를 못 가른다
+  const shared = facts.some((o) => o !== x && o.scopeWord !== x.scopeWord && key.every((n) => nums(o.value).includes(n)));
+  const distinct = !shared && isDistinct(key);
+  return (t) => norm(t).includes(v) || (distinct && key.every((n) => nums(t).includes(n)));
+}
+/** 지킬 말(keepWord) 사실이 쓰인 문장인가. 지킬 말 자체는 기준에서 뺀다 — 빼고 남는 게 없으면 항목 이름으로 */
+export function keepHit(x, facts) {
+  const key = distinctKey(x);
+  // 같은 숫자가 한정 없는 다른 사실에도 있으면 숫자로는 어느 사실 문장인지 못 가른다
+  const shared = isDistinct(key) && facts.some((o) => o !== x && !o.keepWord && key.every((n) => nums(o.value).includes(n)));
+  const strip = (s) => String(s || '').split(/\s+/).map((w) => w.split(x.keepWord).join('')).filter((w) => w.length >= 2);
+  // 핵심어가 지킬 말 자체('필수예방접종')면 빼고 남는 게 없다 → 항목 이름('코로나19 … 전환')으로 찾는다
+  const words = strip(x.key).length ? strip(x.key) : strip(x.item);
+  return (t) => (isDistinct(key) && !shared && key.every((n) => nums(t).includes(n))) || (words.length > 0 && words.every((w) => t.includes(w)));
+}
+export const keepOk = (x) => {
+  const mode = MODAL.find(([q]) => q.test(x.keepWord));
+  return (sen) => sen.includes(x.keepWord) || Boolean(mode && mode[1].test(sen));
+};
+
 const labelWords = (label) => label.replace(/[☞→]/g, ' ').split(/\s+/)
   .map((w) => w.replace(/(확인하기|하기|보기|찾기)$/, '')).filter((w) => w.length >= 2 && !/^(확인|바로가기)$/.test(w));
 
-const BANNED = [[/(?<![가-힣])약\s*\d/, '약 N'], [/대략/, '대략'], [/대부분/, '대부분'], [/대개/, '대개'],
+export const BANNED = [[/(?<![가-힣])약\s*\d/, '약 N'], [/대략/, '대략'], [/대부분/, '대부분'], [/대개/, '대개'],
   [/경우가 많/, '경우가 많'], [/대다수/, '대다수'], [/거의 모든/, '거의 모든'], [/추정/, '추정'], [/아마/, '아마']];
 
 /** 글 파일에서 독자가 읽는 문자열만 — 출처 표기·주소·날짜 메타는 뺀다 */
@@ -202,28 +244,12 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   }
 
   // 표 행은 열 제목과 함께 읽는다 — "다음 신청일 · 10.12 · 10.20" 의 '여권1·여권2'는 열 제목에 있다
-  const headerOf = new Map();
-  for (const m of src.matchAll(/headers:\s*\[([^\]]*)\],\s*\n?\s*rows:\s*\[([\s\S]*?)\n\s*\],/g)) {
-    const head = (m[1].match(/'((?:[^'\\]|\\.)*)'/g) || []).map((h) => h.slice(1, -1)).join(' ');
-    for (const line of m[2].split('\n')) {
-      const cells = (line.match(/'((?:[^'\\]|\\.)*)'/g) || []).map((c) => c.slice(1, -1));
-      if (cells.length) headerOf.set(cells.join(' · '), head);
-    }
-  }
-  const withHead = (s) => (headerOf.has(s) ? `${s} ${headerOf.get(s)}` : s);
+  const withHead = headerReader(src);
 
-  // 범위 — 문장 단위
-  const sentences = strings.flatMap((s) => s.split(/(?<=[.?!])\s+|(?<=다\.)|\n/));
-  //   값 문구가 통째로 있는 문장 + (숫자가 뚜렷한 사실이면) 그 숫자들이 다 나오는 문장.
-  //   숫자가 뚜렷하다 = 두 자리 이상 숫자가 둘 이상이거나 세 자리 이상 숫자가 있다 — "19" 하나로는 청년·서울 문장을 못 가른다
+  // 범위 — 문장 단위 (문장 찾기 기준은 scopeHit — 합격 시험과 같은 함수)
+  const sentences = sentencesOf(strings);
   for (const x of facts.filter((f) => f.scopeWord)) {
-    const v = norm(x.value);
-    // 날짜(M.D)도 뚜렷한 숫자다 — "9.21" 을 "9" 로 잘라 버리면 날짜에 붙은 범위어를 못 본다
-    const key = [...new Set(nums(x.value))].filter((n) => n.includes('.') || n.length >= 2);
-    // 같은 숫자가 범위가 다른 사실에도 나오면(3만원 = 선불에도 후불에도) 숫자로는 범위를 못 가른다
-    const shared = facts.some((o) => o !== x && o.scopeWord !== x.scopeWord && key.every((n) => nums(o.value).includes(n)));
-    const distinct = !shared && (key.length >= 2 || key.some((n) => n.replace(/\..*/, '').length >= 3));
-    const hit = (t) => norm(t).includes(v) || (distinct && key.every((n) => nums(t).includes(n)));
+    const hit = scopeHit(x, facts);
     for (const sen of sentences.filter(hit)) {
       if (!withHead(sen).includes(x.scopeWord)) errors.push(`[범위] ${x.item} "${x.value}" 는 '${x.scopeWord}' 한정인데 그 말 없이 썼다: "${sen.slice(0, 80)}"`);
     }
@@ -233,16 +259,21 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   //   한 자리 숫자(1·2·9 …)는 문장 곳곳에 흔해 오탐만 낸다 — 두 자리 이상만 본다.
   //   판정: 원문 순서의 숫자열이 문장 숫자열의 부분 수열로 한 번이라도 나오면 통과
   const isSubseq = (need, have) => { let i = 0; for (const h of have) if (h === need[i]) i++; return i === need.length; };
+  //   같은 단위끼리만 본다 — "10월 12일부터 70세 이상"을 "70세 이상은 10월 12일"로 쓰는 건 뜻이 같다(날짜와 나이는
+  //   종류가 달라 어느 쪽이 먼저 와도 된다, 2026-09-23 코로나 글 오탐). 뒤바뀌면 안 되는 건 19~34세 → 19~39세 같은 같은 종류 값
   for (const x of facts) {
-    const vn = [...new Set(nums(x.value))].filter((n) => n.replace(/\..*/, '').length >= 2);
-    if (vn.length < 2) continue;
-    for (const sen of sentences) {
-      const sn = nums(sen);
-      if (!vn.every((n) => sn.includes(n))) continue;
-      if (!isSubseq(vn, sn)) {
-        errors.push(`[순서] ${x.item} — 원문은 ${vn.join(' → ')} 순서인데 글은 뒤바뀌었다: "${sen.slice(0, 80)}"`);
-        break;
-      }
+    const byUnit = new Map();
+    for (const tn of typedNums(x.value)) {
+      const [n, u] = tn.split('|');
+      if (n.replace(/\..*/, '').length < 2 && !n.includes('.')) continue;
+      const k = u || '·';
+      if (!byUnit.has(k)) byUnit.set(k, []);
+      if (!byUnit.get(k).includes(n)) byUnit.get(k).push(n);
+    }
+    for (const [u, vn] of byUnit) {
+      if (vn.length < 2) continue;
+      const bad = sentences.find((sen) => { const sn = nums(sen); return vn.every((n) => sn.includes(n)) && !isSubseq(vn, sn); });
+      if (bad) errors.push(`[순서] ${x.item} — 원문은 ${vn.join(' → ')}${u === '·' ? '' : ` (${u})`} 순서인데 글은 뒤바뀌었다: "${bad.slice(0, 80)}"`);
     }
   }
 
@@ -251,15 +282,7 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   //   무엇을 살릴지는 사실 단계에서 모델이 문맥으로 정한다(keepWord). 코드는 그것만 강제한다 — 일괄 규칙은
   //   1월 공지의 "신청 예정"(지금은 시행 중)까지 매 문장 "예정"을 붙이라고 해 틀린 글을 강요했다(2026-09-23)
   for (const x of facts.filter((f) => f.keepWord)) {
-    const mode = MODAL.find(([q]) => q.test(x.keepWord));
-    const ok = (sen) => sen.includes(x.keepWord) || (mode && mode[1].test(sen));
-    const key = [...new Set(nums(x.value))].filter((n) => n.includes('.') || n.length >= 2);
-    const distinct = key.length >= 2 || key.some((n) => n.replace(/\..*/, '').length >= 3);
-    // 같은 숫자가 한정 없는 다른 사실에도 있으면 숫자로는 어느 사실 문장인지 못 가른다
-    const shared = distinct && facts.some((o) => o !== x && !o.keepWord && key.every((n) => nums(o.value).includes(n)));
-    // 문장을 찾는 기준에서 지켜야 할 말 자체는 뺀다 — 핵심어가 "카드등록 필수"면 '필수'를 지운 문장이 검사를 피해 갔다
-    const words = String(x.key || '').split(/\s+/).map((w) => w.split(x.keepWord).join('')).filter((w) => w.length >= 2);
-    const hit = (t) => (distinct && !shared && key.every((n) => nums(t).includes(n))) || (words.length && words.every((w) => t.includes(w)));
+    const ok = keepOk(x), hit = keepHit(x, facts);
     // 어긴 문장을 한꺼번에 전부 — 하나씩 알려 주면 고침 두 번으로 안 끝난다
     for (const sen of sentences.filter(hit).filter((s) => !ok(s))) {
       errors.push(`[단정] ${x.item} — 원문의 '${x.keepWord}' 를 빼고 썼다: "${sen.slice(0, 90)}"`);

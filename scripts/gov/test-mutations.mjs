@@ -18,7 +18,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DIR_OF, verifyFacts, nums, ranges } from './verify-facts.mjs';
-import { checkArticle, readerStrings, MODAL, bridgeOf } from './check-article.mjs';
+import { checkArticle, readerStrings, bridgeOf, headerReader, sentencesOf, scopeHit, keepHit, keepOk, BANNED } from './check-article.mjs';
 import { metaOf } from './target.mjs';
 
 const slug = process.argv[2];
@@ -29,6 +29,12 @@ const facts = JSON.parse(orig.facts).facts;
 const judge = (t) => (t === 'facts' ? verifyFacts(slug).errors : checkArticle(slug).errors);
 const cases = [];
 const add = (name, target, find, replace, all = false) => find && cases.push({ name, target, find, replace, all });
+// 문자열 하나를 바꿀 때 — 따옴표째 찾고(형광펜·주석의 같은 글자를 피한다), 이스케이프 등으로 못 찾으면 글자만으로
+const lit1 = (t, t2) => (A.includes(`'${t}'`) ? [`'${t}'`, `'${t2}'`] : [t, t2]);
+// 그 문장이 든 글자열 — 문장을 통째로 품은 것 먼저, 없으면(표 줄은 칸으로 나뉜다) 문장 안에서 그 말이 든 가장 긴 칸.
+//   짧은 칸('불가')을 고르면 다른 줄의 같은 칸이 바뀌어 가짜 '놓침'이 난다(heritage ⑩)
+const cut = (t, sen, w) => (t.includes(sen) ? t.replace(sen, sen.replace(w, '')) : t.replace(w, ''));
+const litOf = (sen, w) => lit.find((l) => l.includes(sen)) || lit.filter((l) => sen.includes(l) && l.includes(w)).sort((a, b) => b.length - a.length)[0];
 // 독자에게 보이는 문장만 건드린다 — 주석·형광펜 목록을 바꾸면 검사기가 안 잡는 게 맞다 (첫 시험의 가짜 '놓침' 2건)
 const visible = readerStrings(A).flatMap((line) => line.split(' · '));
 const lit = visible.filter((t) => A.includes(t));
@@ -45,16 +51,18 @@ for (const t of lit) {
   if (m && pairs.has(`${m[1]}|${m[2]}`)) { add(`② 범위 뒤집기 (${m[0]} → ${m[2]}~${m[1]})`, 'article', t, t.replace(m[0], `${m[2]}~${m[1]}`)); break; }
 }
 
-// ③ 범위어 지우기 — 검사기가 숫자로 가를 수 있는 사실(뚜렷한 숫자)만, 범위어가 한 번 나오는 문장에서
-for (const x of facts.filter((f) => f.scopeWord)) {
-  const key = [...new Set(nums(x.value))].filter((n) => n.replace(/\..*/, '').length >= 2 || n.includes('.'));
-  if (!(key.length >= 2 || key.some((n) => n.replace(/\..*/, '').length >= 3))) continue;
-  // 검사기와 같은 기준 — 같은 숫자가 범위가 다른 사실에도 있으면 숫자로는 못 가른다(검사 대상 아님)
-  if (facts.some((o) => o !== x && o.scopeWord !== x.scopeWord && key.every((n) => nums(o.value).includes(n)))) continue;
-  // 같은 줄(표 행·핵심콕콕 항목 이름)에 범위어가 또 있으면 지워도 범위가 남는다 — 줄 전체에서 한 번만 나오는 문장만
-  const lineOf = (t) => readerStrings(A).find((l) => l.includes(t)) || t;
-  const s = lit.find((t) => lineOf(t).split(x.scopeWord).length === 2 && key.every((n) => nums(t).includes(n)));
-  if (s) { add(`③ 범위 지우기 (${x.item}: '${x.scopeWord}' 삭제)`, 'article', s, s.replace(x.scopeWord, '')); break; }
+// ③ 범위어 지우기 — 검사기와 같은 함수(scopeHit·headerReader)로 "검사기가 실제로 보는 문장"만 고른다
+const withHead = headerReader(A);
+const sens = sentencesOf(readerStrings(A));
+outer3: for (const x of facts.filter((f) => f.scopeWord)) {
+  const hit = scopeHit(x, facts);
+  for (const sen of sens) {
+    // 열 제목까지 포함해 범위어가 한 번만 있고, 지운 뒤에도 그 사실 문장으로 잡혀야 한다(값 문구가 범위어를 품으면 지우는 순간 안 잡힌다)
+    if (!hit(sen) || withHead(sen).split(x.scopeWord).length !== 2 || !sen.includes(x.scopeWord) || !hit(sen.replace(x.scopeWord, ''))) continue;
+    const t = litOf(sen, x.scopeWord);
+    // 따옴표째 찾는다 — 같은 글자가 형광펜 목록·머리 주석에 먼저 나오면 엉뚱한 곳이 바뀌었다
+    if (t) { add(`③ 범위 지우기 (${x.item}: '${x.scopeWord}' 삭제)`, 'article', ...lit1(t, cut(t, sen, x.scopeWord))); break outer3; }
+  }
 }
 
 // ④ 없는 금액
@@ -70,33 +78,31 @@ if (row) { const n = row.match(/\d{2,}/)[0]; add(`⑤ 표 칸 숫자 바꾸기 (
 const mk = facts.find((f) => f.must && f.key && !nums(f.value).length && A.includes(f.key));
 if (mk) add(`⑥ 필수 단서 빼기 (${mk.item}: '${mk.key}' 전부 삭제)`, 'article', mk.key, '', true);
 
-// ⑩ 한정 표현 지우기 — 원문 인용에 '계획·예정·선착순·필수…'가 있는 사실을 쓴 문장에서 그 말을 지운다 (오해 소지)
-outer: for (const x of facts.filter((f) => f.keepWord)) {
-  const w = x.keepWord;
-  const key = [...new Set(nums(x.value))].filter((n) => n.includes('.') || n.length >= 2);
-  const words = String(x.key || '').split(/\s+/).map((k) => k.split(w).join('')).filter((k) => k.length >= 2);
-  // 지워도 같은 뜻의 말('필수'를 지워도 "~해야"가 남는 문장)은 뜻이 안 바뀐다 — 시험으로 쓰지 않는다
-  const same = MODAL.find(([q]) => q.test(w))?.[1];
-  for (const t of lit) {
-    if (t.split(w).length !== 2) continue;
-    const after = t.replace(w, '');
-    if (same && same.test(after)) continue;
-    const byNum = key.length >= 2 && key.every((n) => nums(t).includes(n));
-    const byKey = words.length && words.every((k) => t.includes(k));
-    if (byNum || byKey) { add(`⑩ 한정 표현 지우기 (${x.item}: '${w}' 삭제)`, 'article', t, after); break outer; }
+// ⑩ 한정 표현 지우기 — 검사기와 같은 함수(keepHit·keepOk)로. 지운 뒤 같은 뜻의 말('~해야')이 남으면 뜻이 안 바뀌니 시험으로 쓰지 않는다
+outer10: for (const x of facts.filter((f) => f.keepWord)) {
+  const hit = keepHit(x, facts), ok = keepOk(x);
+  for (const sen of sens) {
+    if (!hit(sen) || !ok(sen) || sen.split(x.keepWord).length !== 2) continue;
+    const after = sen.replace(x.keepWord, '');
+    if (!hit(after) || ok(after)) continue;
+    const t = litOf(sen, x.keepWord);
+    if (t) { add(`⑩ 한정 표현 지우기 (${x.item}: '${x.keepWord}' 삭제)`, 'article', ...lit1(t, cut(t, sen, x.keepWord))); break outer10; }
   }
 }
 
-// ⑪ 서론 행동 유도 문장 지우기 — 상단 버튼으로 넘어가는 문장이 빠지면 막아야 한다
+// ⑪ 서론 행동 유도 문장 지우기 — 유도 문장을 전부 지운다(하나만 지우고 다른 유도가 남으면 뜻이 안 바뀐다)
 const heroM = A.match(/heroHook:\s*\n?\s*'((?:[^'\\]|\\.)*)'/);
 if (heroM) {
-  const b = bridgeOf(heroM[1]);
-  if (b) add('⑪ 서론 행동 유도 문장 지우기', 'article', heroM[1], heroM[1].replace(b, '').replace(/\s{2,}/g, ' ').trim());
+  let h = heroM[1], b;
+  while ((b = bridgeOf(h))) h = h.replace(b, '').replace(/\s{2,}/g, ' ').trim();
+  if (h !== heroM[1]) add('⑪ 서론 행동 유도 문장 지우기', 'article', heroM[1], h);
 }
 
-// ⑦ 추측어
+// ⑦ 추측어 — 원문에 없는 말로 넣는다(원문이 "대부분"이라 쓴 글은 그 말이 허용된다)
+const srcPool = fs.readdirSync(DIR_OF(slug)).filter((f) => /^src-\d+\.txt$/.test(f)).map((f) => fs.readFileSync(path.join(DIR_OF(slug), f), 'utf8')).join('\n');
+const guess = ['대부분', '대개', '대략', '아마'].find((w) => !srcPool.includes(w) && BANNED.some(([re]) => re.test(w)));
 const qa1 = A.match(/intro:\s*\n?\s*'([^'.]{10,}?\.)/);
-if (qa1) add('⑦ 추측어 넣기 (대부분)', 'article', qa1[1], `대부분 ${qa1[1]}`);
+if (qa1 && guess) add(`⑦ 추측어 넣기 (${guess})`, 'article', qa1[1], `${guess} ${qa1[1]}`);
 
 // ⑧ ⑨ facts
 const fq = facts.find((f) => !/\.png$/.test(f.src));
