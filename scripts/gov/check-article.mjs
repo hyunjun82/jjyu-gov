@@ -12,7 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DIR_OF, loadFacts, norm, nums, numsLoose, ranges, canonMoney, canonDate } from './verify-facts.mjs';
-import { metaOf } from './target.mjs';
+import { metaOf, allArticles } from './target.mjs';
 
 /* 짝 검사용 — 숫자 앞뒤 낱말(앞 두 글자로 줄인 것).
    "숫자가 facts 에 있나"만 보면 facts 의 다른 자리 숫자를 가져다 써도 통과한다
@@ -56,6 +56,38 @@ export const MODAL = [
   [/필수|반드시/, /필수|반드시|꼭|해야/, '필수'],
   [/불가|할\s*수\s*없/, /불가|수\s*없|안\s*됩|되지\s*않|못\s/, '불가'],
 ];
+
+/* ── 서론(heroHook) — 200자 이내, 행동 유도 한 문장, 먼저 쓴 글과 같은 틀 금지 (2026-09-23 사장님)
+   예시 문장("그럼 확인부터 하셔야겠죠")을 지시문에 박아 두자 세 편이 전부 "그럼 ○○부터 확인하셔야겠죠"로 나왔다 */
+export function heroOf(src) {
+  const hero = (src.match(/heroHook:\s*\n?\s*'((?:[^'\\]|\\.)*)'/)?.[1] || '').replace(/\\'/g, "'");
+  const label = src.match(/ctaLabel:\s*'((?:[^'\\]|\\.)*)'/)?.[1] || src.match(/heroAct:\s*\{\s*label:\s*'((?:[^'\\]|\\.)*)'/)?.[1] || '';
+  return { hero, label };
+}
+const ACTION = /부터|먼저|하셔야|보셔야|해\s?두|하세요|챙기|확인해|확인하/;
+/** 행동 유도 문장 — 맺음 문장("…알아보겠습니다")을 뺀 문장 중 행동 표시가 있는 **마지막** 문장.
+ *  앞에서부터 찾으면 공감 문장의 "어디서부터 손대야 할지 막막하셨을 텐데요"를 행동 유도로 집는다 */
+export function bridgeOf(hero) {
+  const s = hero.split(/(?<=[.?!])\s+/).map((x) => x.trim()).filter(Boolean);
+  return s.slice(0, -1).filter((x) => ACTION.test(x) && !/어디서부터|어디부터/.test(x)).pop() || '';
+}
+/** 틀 = 첫마디 … 끝말 */
+export const frameOf = (sen) => {
+  const w = sen.replace(/[.?!,…·]/g, ' ').split(/\s+/).filter(Boolean);
+  return w.length ? `${w[0]} … ${w[w.length - 1]}` : '';
+};
+/** 서론 첫 문장(공감) */
+export const openingOf = (hero) => hero.split(/(?<=[.?!])\s+/)[0]?.trim() || '';
+/** 서론끼리 닮은 정도 — 공백을 뺀 3글자 조각의 겹침(Jaccard).
+ *  실측(2026-09-23): 다른 주제 0.03~0.04, 같은 주제(허브↔스포크) 0.07, 주제어만 바꿔 찍어낸 서론 0.61 → 기준 0.25 */
+export function heroSimilarity(a, b) {
+  const g = (s) => { const t = s.replace(/\s+/g, ''); const set = new Set(); for (let i = 0; i + 3 <= t.length; i++) set.add(t.slice(i, i + 3)); return set; };
+  const A = g(a), B = g(b); let x = 0;
+  for (const s of A) if (B.has(s)) x++;
+  return A.size + B.size - x ? x / (A.size + B.size - x) : 0;
+}
+const labelWords = (label) => label.replace(/[☞→]/g, ' ').split(/\s+/)
+  .map((w) => w.replace(/(확인하기|하기|보기|찾기)$/, '')).filter((w) => w.length >= 2 && !/^(확인|바로가기)$/.test(w));
 
 const BANNED = [[/(?<![가-힣])약\s*\d/, '약 N'], [/대략/, '대략'], [/대부분/, '대부분'], [/대개/, '대개'],
   [/경우가 많/, '경우가 많'], [/대다수/, '대다수'], [/거의 모든/, '거의 모든'], [/추정/, '추정'], [/아마/, '아마']];
@@ -253,6 +285,29 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
     const keyOk = !words.length || nt.includes(norm(x.key)) || sentences.some((s) => words.every((w) => s.includes(w)));
     const ok = vn.length ? vn.every((n) => articleNums.has(n)) : keyOk;
     if (!ok) errors.push(`[누락] ${x.item} — 원문 핵심인데 글에 없다 (${vn.length ? `숫자 ${vn.join(', ')}` : `핵심어 "${x.key}"`})`);
+  }
+
+  // 서론 — 길이·행동 유도·틀 반복
+  const { hero, label } = heroOf(src);
+  if (hero) {
+    const len = [...hero].length;
+    if (len > 200) errors.push(`[서론] ${len}자 — 200자 이내로 줄인다`);
+    const bridge = bridgeOf(hero);
+    if (!bridge) errors.push('[서론] 행동 유도 문장이 없다 — 상단 버튼으로 넘어가는 한 문장(독자가 지금 먼저 할 일)을 맺음 앞에 둔다');
+    const lw = labelWords(label);
+    if (lw.length && !lw.some((w) => hero.includes(w))) errors.push(`[서론] 상단 버튼 '${label}' 의 말(${lw.join('·')})이 서론에 없다 — 버튼은 서론에서 나온 말이어야 이어진다`);
+    // 먼저 쓴 글과만 비교한다 — 같은 주제·같은 키워드라도 서론이 찍어낸 듯 닮으면 막는다 (2026-09-23 사장님)
+    const list = allArticles();
+    const idx = list.findIndex((m) => m.key === slug);
+    const earlier = (idx >= 0 ? list.slice(0, idx) : list.filter((m) => m.key !== slug))
+      .map((o) => ({ key: o.key, hero: heroOf(fs.readFileSync(o.file, 'utf8')).hero })).filter((o) => o.hero);
+    const myOpen = frameOf(openingOf(hero)), myBridge = bridge ? frameOf(bridge) : '';
+    const sameOpen = earlier.find((o) => frameOf(openingOf(o.hero)) === myOpen);
+    if (sameOpen) errors.push(`[틀 반복] 서론 첫 문장이 먼저 쓴 글(${sameOpen.key})과 같은 틀 '${myOpen}' — "${openingOf(sameOpen.hero).slice(0, 50)}"`);
+    const sameBridge = myBridge && earlier.find((o) => frameOf(bridgeOf(o.hero)) === myBridge);
+    if (sameBridge) errors.push(`[틀 반복] 서론 행동 유도가 먼저 쓴 글(${sameBridge.key})과 같은 틀 '${myBridge}' — "${bridgeOf(sameBridge.hero).slice(0, 50)}"`);
+    const twin = earlier.map((o) => ({ ...o, sim: heroSimilarity(hero, o.hero) })).sort((a, b) => b.sim - a.sim)[0];
+    if (twin && twin.sim >= 0.25) errors.push(`[닮음] 서론이 먼저 쓴 글(${twin.key})과 ${Math.round(twin.sim * 100)}% 겹친다 — 주제어만 바꾼 찍어내기처럼 읽힌다. 다른 각도로 새로 쓴다`);
   }
 
   // 구성 고정 — 소제목(qa) 4개, FAQ 2개 (2026-09-23 사장님: FAQ 가 많으면 시간만 먹는다)

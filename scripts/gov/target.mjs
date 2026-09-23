@@ -33,7 +33,21 @@ export function targetOf({ hub, dir, slug }) {
 export function saveMeta(t) {
   const d = path.join(OUT_ROOT, t.key);
   fs.mkdirSync(d, { recursive: true });
-  fs.writeFileSync(path.join(d, 'meta.json'), JSON.stringify(t, null, 2));
+  const f = path.join(d, 'meta.json');
+  // created 는 처음 쓴 시각 — 서론 틀 반복을 "먼저 쓴 글"과만 비교하는 기준이라 다시 돌려도 바꾸지 않는다
+  const created = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')).created : undefined;
+  fs.writeFileSync(f, JSON.stringify({ ...t, created: created || new Date().toISOString() }, null, 2));
+}
+
+/** 새 파이프라인 글 전부 (meta + facts 가 있는 것) — created 순 */
+export function allArticles() {
+  if (!fs.existsSync(OUT_ROOT)) return [];
+  return fs.readdirSync(OUT_ROOT)
+    .filter((k) => fs.existsSync(path.join(OUT_ROOT, k, 'meta.json')) && fs.existsSync(path.join(OUT_ROOT, k, 'facts.json')))
+    .map((k) => JSON.parse(fs.readFileSync(path.join(OUT_ROOT, k, 'meta.json'), 'utf8')))
+    .filter((m) => fs.existsSync(m.file))
+    // 같은 커밋에 올라간 글은 시각이 같다 — 그때는 key 이름순으로 선후를 정한다(판정이 매번 같아야 한다)
+    .sort((a, b) => (Date.parse(a.created) || 0) - (Date.parse(b.created) || 0) || a.key.localeCompare(b.key));
 }
 
 /** key → meta. meta 가 없으면 옛 허브 방식(key = slug, data/policies) 으로 본다 */

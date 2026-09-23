@@ -28,8 +28,8 @@ import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import { ask, extractJson, newMeter, addUsage, fmtUsage } from '../lib/headless.mjs';
 import { DIR_OF, verifyFacts } from './verify-facts.mjs';
-import { checkArticle } from './check-article.mjs';
-import { targetOf, saveMeta, wireSpoke } from './target.mjs';
+import { checkArticle, heroOf, bridgeOf, frameOf, openingOf } from './check-article.mjs';
+import { targetOf, saveMeta, wireSpoke, allArticles } from './target.mjs';
 
 const argv = process.argv.slice(2);
 const specFile = argv.find((a) => !a.startsWith('--') && a.endsWith('.md'));
@@ -64,7 +64,7 @@ for (const a of articles) {
 }
 
 // ── 공통 작성 규칙 (허브·스포크 같다) ──
-const COMMON = (a, facts, urls) => `사실 — 이 facts.json 밖의 숫자·날짜·금액·나이·시간은 한 글자도 쓰지 않는다. 계산해서 새 숫자를 만들지 않는다.
+const COMMON = (a, facts, urls, used) => `사실 — 이 facts.json 밖의 숫자·날짜·금액·나이·시간은 한 글자도 쓰지 않는다. 계산해서 새 숫자를 만들지 않는다.
 ${facts}
 
 - scopeWord 가 있는 사실은 그 값을 쓰는 문장에 scopeWord 를 반드시 같이 쓴다.
@@ -85,8 +85,13 @@ ${urls}
 - facts 의 value 문구를 괄호로 붙여 넣지 않는다. 날짜는 "9월 21일"처럼 풀어 쓴다("9.21~9.23"은 표 안에서만).
 
 문체
-- heroHook: 공감 → 기존 방법이 왜 불편한가 → 그래서 이게 있다(핵심 수치) → 다만(조건·기한) → 그럼 확인부터 하셔야겠죠 → "…알아보겠습니다." 로 끝.
-- 말하듯 잇는다("~인데요", "~입니다"). 단정형으로 뚝뚝 끊지 않는다. 맺음을 매번 똑같이 하지 않는다.
+- heroHook 은 200자 이내, 서너 문장: 공감(독자가 막히는 지점) → 가장 중요한 혜택이나 조건 하나 → 행동 유도 한 문장 → 맺음("…알아보겠습니다" 또는 "…확인해보겠습니다").
+- 행동 유도 문장은 상단 버튼으로 이어지는 말이다. 버튼 라벨의 말을 담아, 이 글의 독자가 지금 먼저 할 일을 이 글의 말로 짚는다.
+- 같은 주제·같은 키워드라도 찍어낸 느낌이 없게: 첫 문장과 행동 유도 문장의 첫마디·끝말을 아래 '이미 쓴 서론'과 겹치지 않게 쓰고,
+  주제어만 바꾼 듯 닮은 서론(글자 조각 25% 이상 겹침)도 코드가 막는다. 이 글의 독자가 막히는 지점에서 새로 시작한다.
+이미 쓴 서론 (이 틀을 피한다):
+${used}
+- 말하듯 잇는다("~인데요", "~입니다"). 단정형으로 뚝뚝 끊지 않는다. 본문 문장 끝(어미)을 연달아 똑같이 하지 않는다 — 서론 맺음 문장만은 위 두 가지 중 하나.
 - 금지: 대부분·대개·약 N·추정·아마, "~다고요." 종결, "서울시는 ~라고 답했다" 같은 메타 서술, 정부 슬로건.
 - 각 qa 에 sourceNote: '* 출처: … (${today} 확인)'.`;
 
@@ -122,6 +127,10 @@ async function runOne(a) {
   const srcBlock = () => primary.map((s) => `===== ${s.file} (${s.title}) =====\n${fs.readFileSync(path.join(DIR, s.file), 'utf8')}`).join('\n\n');
   const imgList = primary.flatMap((s) => (s.images || []).map((im) => `${path.join(ABS_DIR, im.file).replace(/\\/g, '/')}  (alt: ${im.alt})`));
   const factsText = () => fs.readFileSync(path.join(DIR, 'facts.json'), 'utf8');
+  // 다른 글들의 서론 — 첫 문장·행동 유도의 틀을 피하라고 보여 준다 (최근 12편). 같은 주제·같은 키워드라도 찍어낸 느낌이 없게
+  const usedBridges = () => allArticles().filter((m) => m.key !== KEY)
+    .map((m) => heroOf(fs.readFileSync(m.file, 'utf8')).hero).filter(Boolean).slice(-12)
+    .map((h) => `- 첫 문장 [${frameOf(openingOf(h))}] ${openingOf(h)}\n  행동 유도 [${frameOf(bridgeOf(h))}] ${bridgeOf(h)}`).join('\n') || '(아직 없음)';
   const urls = () => primary.map((s) => `- ${s.finalUrl}  (${s.title}) — 추출본 ${DIR.replace(/\\/g, '/')}/${s.file}`).join('\n');
 
   // ② 사실
@@ -242,7 +251,7 @@ ${a.subs.map((s, i) => `  ${i + 1}. ${s}`).join('\n')}
 - faq 정확히 2개: { q, a, source, sourceUrl }. 본문 소제목과 겹치지 않는 질문, 답은 두세 문장
 - 머리 주석: 아래 '버튼' 목록의 추출본 경로, '쓰지 않는 것'(facts.json notUsed)
 
-${COMMON(a, factsText(), urls())}
+${COMMON(a, factsText(), urls(), usedBridges())}
 
 예시 파일 (모양만 참고 — 내용·숫자는 절대 가져오지 않는다. FAQ 개수도 따라 하지 않는다):
 ${fs.readFileSync('data/policies/heritage-visitor-passport-application.ts', 'utf8')}
@@ -265,7 +274,7 @@ ${a.subs.map((s, i) => `  ${i + 1}. ${s}`).join('\n')}
 - sources: [{ name, url }] — 아래 버튼 목록의 1차 출처
 - 머리 주석: 추출본 경로(아래 목록), '쓰지 않는 것'(facts.json notUsed)
 
-${COMMON(a, factsText(), urls())}
+${COMMON(a, factsText(), urls(), usedBridges())}
 
 예시 파일 (모양만 참고 — 내용·숫자는 절대 가져오지 않는다. 옛 글이라 cardLayout·act.url 이 없으니 위 고정값을 따른다):
 ${fs.readFileSync(path.join('app', 'policy', '[id]', '[spoke]', 'content', '기초연금', '부부감액단독신청비교.tsx'), 'utf8')}
@@ -286,6 +295,9 @@ ${fs.readFileSync(path.join('app', 'policy', '[id]', '[spoke]', 'content', '기�
 틀린 숫자는 facts.json 의 값으로 바꾸거나 그 말을 뺀다. 새 숫자를 만들지 않는다.
 빠진 사실·빠진 한정 표현은 가까운 문장에 자연스럽게 녹인다. facts 의 value 문구를 괄호로 붙여 넣지 않는다. 날짜는 "9월 21일"처럼 풀어 쓴다.
 표가 4열 이상이면 그 table 블록을 3열 이하로 바꾼다. FAQ 개수가 틀리면 2개로 맞춘다.
+[서론]·[틀 반복] 이 있으면 heroHook 전체를 새로 쓴다: 200자 이내, 공감 → 핵심 하나 → 행동 유도 한 문장(상단 버튼의 말) → "…알아보겠습니다/…확인해보겠습니다".
+[닮음] 이 있으면 다른 각도로 새로 쓴다. 첫 문장·행동 유도의 첫마디·끝말은 이 목록과 겹치지 않게:
+${usedBridges()}
 검사 결과:
 ${res.errors.join('\n')}
 

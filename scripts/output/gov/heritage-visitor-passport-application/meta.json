@@ -1,0 +1,14 @@
+{
+  "kind": "hub",
+  "key": "heritage-visitor-passport-application",
+  "slug": "heritage-visitor-passport-application",
+  "file": "data\\policies\\heritage-visitor-passport-application.ts",
+  "title": "국가유산청 여권신청 홈페이지·온라인 방법, 1·2 차이와 기념품 수령까지",
+  "subs": [
+    "국가유산청 여권신청 홈페이지·온라인 방법",
+    "국가유산청 여권신청 오프라인 방법",
+    "국가유산청 여권 1·2 차이",
+    "국가유산청 여권 인증하는 방법과 기념품 수령방법"
+  ],
+  "created": "2026-09-23T15:12:56+09:00"
+}

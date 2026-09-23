@@ -18,7 +18,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { DIR_OF, verifyFacts, nums, ranges } from './verify-facts.mjs';
-import { checkArticle, readerStrings, MODAL } from './check-article.mjs';
+import { checkArticle, readerStrings, MODAL, bridgeOf } from './check-article.mjs';
 import { metaOf } from './target.mjs';
 
 const slug = process.argv[2];
@@ -51,7 +51,9 @@ for (const x of facts.filter((f) => f.scopeWord)) {
   if (!(key.length >= 2 || key.some((n) => n.replace(/\..*/, '').length >= 3))) continue;
   // 검사기와 같은 기준 — 같은 숫자가 범위가 다른 사실에도 있으면 숫자로는 못 가른다(검사 대상 아님)
   if (facts.some((o) => o !== x && o.scopeWord !== x.scopeWord && key.every((n) => nums(o.value).includes(n)))) continue;
-  const s = lit.find((t) => t.split(x.scopeWord).length === 2 && key.every((n) => nums(t).includes(n)));
+  // 같은 줄(표 행·핵심콕콕 항목 이름)에 범위어가 또 있으면 지워도 범위가 남는다 — 줄 전체에서 한 번만 나오는 문장만
+  const lineOf = (t) => readerStrings(A).find((l) => l.includes(t)) || t;
+  const s = lit.find((t) => lineOf(t).split(x.scopeWord).length === 2 && key.every((n) => nums(t).includes(n)));
   if (s) { add(`③ 범위 지우기 (${x.item}: '${x.scopeWord}' 삭제)`, 'article', s, s.replace(x.scopeWord, '')); break; }
 }
 
@@ -83,6 +85,13 @@ outer: for (const x of facts.filter((f) => f.keepWord)) {
     const byKey = words.length && words.every((k) => t.includes(k));
     if (byNum || byKey) { add(`⑩ 한정 표현 지우기 (${x.item}: '${w}' 삭제)`, 'article', t, after); break outer; }
   }
+}
+
+// ⑪ 서론 행동 유도 문장 지우기 — 상단 버튼으로 넘어가는 문장이 빠지면 막아야 한다
+const heroM = A.match(/heroHook:\s*\n?\s*'((?:[^'\\]|\\.)*)'/);
+if (heroM) {
+  const b = bridgeOf(heroM[1]);
+  if (b) add('⑪ 서론 행동 유도 문장 지우기', 'article', heroM[1], heroM[1].replace(b, '').replace(/\s{2,}/g, ' ').trim());
 }
 
 // ⑦ 추측어
