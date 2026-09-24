@@ -57,7 +57,24 @@ const EXTRACT = () => {
   const links = [...document.querySelectorAll('a[href^="http"]')]
     .map((a) => ({ t: clean(a.innerText || a.title || a.querySelector('img')?.alt), h: a.href }))
     .filter((l) => l.t && /바로가기|신청|등록|발급|자세히|조회|안내/.test(l.t) && !/login|logout|facebook|twitter|kakao|band|instagram|youtube/i.test(l.h));
-  return { title: document.title, text: clean(document.body?.innerText), tables, imgs, links };
+  // 숨은 탭 — body.innerText 는 display:none 을 건너뛴다. 예방접종도우미 독감 안내는 어르신·어린이·임신부가
+  // 탭이라 어린이 2회 기준·임신부 안전성이 추출본에 0자였다 (2026-09-24). 잠깐 펼쳐 읽고 되돌린다.
+  // 메뉴·팝업은 뺀다: nav/header/footer 안이거나 글자의 절반 이상이 링크면 탭 본문이 아니다
+  const hidden = [...document.querySelectorAll('body *')].filter((el) => {
+    if (el.closest('nav, header, footer, script, style, noscript, template')) return false;
+    if (getComputedStyle(el).display !== 'none') return false;
+    const tx = (el.textContent || '').trim();
+    if (tx.length < 150) return false;
+    const linkTx = [...el.querySelectorAll('a')].reduce((s, a) => s + (a.textContent || '').trim().length, 0);
+    return linkTx / tx.length < 0.5;
+  });
+  const hiddenText = hidden.filter((el) => !hidden.some((o) => o !== el && o.contains(el))).map((el) => {
+    const prev = el.style.display; el.style.display = 'block';
+    const t = clean(el.innerText); el.style.display = prev;
+    return t;
+  }).filter(Boolean);
+  const text = clean(document.body?.innerText) + (hiddenText.length ? `\n\n===== 숨은 탭(펼쳐 읽음) =====\n${hiddenText.join('\n\n')}` : '');
+  return { title: document.title, text, tables, imgs, links };
 };
 
 const browser = await chromium.launch();

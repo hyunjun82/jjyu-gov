@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "flu-vaccination-2026--trivalent-quadrivalent-types",
+  "slug": "trivalent-quadrivalent-types",
+  "hub": "flu-vaccination-2026",
+  "dir": "독감예방접종",
+  "fileName": "TrivalentQuadrivalentTypes",
+  "exportName": "독감예방접종TrivalentQuadrivalentTypesSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\독감예방접종\\TrivalentQuadrivalentTypes.tsx",
+  "title": "독감 백신 3가 4가 차이와 2026 예방접종 종류, 성인은 어디서 맞을까",
+  "subs": [
+    "독감 백신 3가 4가 차이",
+    "2026 독감예방접종 종류",
+    "독감 예방접종 성인 시기",
+    "독감예방접종 성인 보건소"
+  ],
+  "created": "2026-09-24T01:10:51.802Z"
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.korea.kr/common/download.do?fileId=198553818&tblKey=GMN",
+    "finalUrl": "https://www.korea.kr/common/download.do?fileId=198553818&tblKey=GMN",
+    "title": "PDF 9쪽",
+    "file": "src-1.txt",
+    "chars": 4107,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.korea.kr/common/download.do?fileId=198529593&tblKey=GMN",
+    "finalUrl": "https://www.korea.kr/common/download.do?fileId=198529593&tblKey=GMN",
+    "title": "PDF 8쪽",
+    "file": "src-2.txt",
+    "chars": 3056,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 3,
+    "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=134",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=134",
+    "title": "예방접종도우미 > 예방접종 정보 > 국가예방접종 사업 소개 > 인플루엔자 국가예방접종",
+    "file": "src-3.txt",
+    "chars": 3518,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=331",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=331",
+    "title": "예방접종도우미 > 예방접종 관리 > 위탁의료기관 찾기 > 국가예방접종",
+    "file": "src-4.txt",
+    "chars": 2122,
+    "tables": 5,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1920,7 +1920,15 @@ import { asianGames2026BaseballScheduleRosterSpokeContent } from '@/app/policy/[
 import { asianGames2026FootballGroupScheduleSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/football-group-schedule';
 import { asianGames2026KoreaMatchScheduleSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/korea-match-schedule';
 import { asianGames2026MedalStandingsSpokeContent } from '@/app/policy/[id]/[spoke]/content/asian-games-2026/medal-standings';
-import { 기후동행패스IssueChargePurchaseSpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행패스/IssueChargePurchase';
+import { 기후동행패스IssueChargePurchaseSpokeContent } from '@/app/policy/[id]/[spoke]/content/기후동행패스/IssueChargePurchase';
+import { 독감예방접종FreeTargetAgeCheckSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/FreeTargetAgeCheck';
+import { 독감예방접종Senior65ScheduleSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/Senior65Schedule';
+import { 독감예방접종ChildTwoDosesSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/ChildTwoDoses';
+import { 독감예방접종PregnantFreeVaccinationSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/PregnantFreeVaccination';
+import { 독감예방접종HospitalSearchReservationSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/HospitalSearchReservation';
+import { 독감예방접종PriceComparisonSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/PriceComparison';
+import { 독감예방접종CertificateHistorySpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/CertificateHistory';
+import { 독감예방접종TrivalentQuadrivalentTypesSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/TrivalentQuadrivalentTypes';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -4177,6 +4185,17 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
 
   'climate-pass-exchange-registration': {
     'issue-charge-purchase': 기후동행패스IssueChargePurchaseSpokeContent,
+  },
+
+  'flu-vaccination-2026': {
+    'trivalent-quadrivalent-types': 독감예방접종TrivalentQuadrivalentTypesSpokeContent,
+    'certificate-history': 독감예방접종CertificateHistorySpokeContent,
+    'price-comparison': 독감예방접종PriceComparisonSpokeContent,
+    'hospital-search-reservation': 독감예방접종HospitalSearchReservationSpokeContent,
+    'pregnant-free-vaccination': 독감예방접종PregnantFreeVaccinationSpokeContent,
+    'child-two-doses': 독감예방접종ChildTwoDosesSpokeContent,
+    'senior-65-schedule': 독감예방접종Senior65ScheduleSpokeContent,
+    'free-target-age-check': 독감예방접종FreeTargetAgeCheckSpokeContent,
   },
 
 };

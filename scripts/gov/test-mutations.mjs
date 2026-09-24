@@ -30,7 +30,15 @@ const judge = (t) => (t === 'facts' ? verifyFacts(slug).errors : checkArticle(sl
 const cases = [];
 const add = (name, target, find, replace, all = false) => find && cases.push({ name, target, find, replace, all });
 // 문자열 하나를 바꿀 때 — 따옴표째 찾고(형광펜·주석의 같은 글자를 피한다), 이스케이프 등으로 못 찾으면 글자만으로
-const lit1 = (t, t2) => (A.includes(`'${t}'`) ? [`'${t}'`, `'${t2}'`] : [t, t2]);
+const lit1 = (t, t2, sen) => {
+  // 같은 칸('어린이')이 표에 여러 번 있으면 파일의 첫 칸이 바뀐다 — 그 문장의 행 줄 안에서만 바꾼다 (2026-09-24 독감 병원 스포크 ③)
+  if (sen && A.split(`'${t}'`).length > 2) {
+    const cells = sen.split(' · ');
+    const line = A.split('\n').find((L) => L.includes(`'${t}'`) && cells.every((c) => L.includes(c)));
+    if (line) return [line, line.replace(`'${t}'`, `'${t2}'`)];
+  }
+  return A.includes(`'${t}'`) ? [`'${t}'`, `'${t2}'`] : [t, t2];
+};
 // 그 문장이 든 글자열 — 문장을 통째로 품은 것 먼저, 없으면(표 줄은 칸으로 나뉜다) 문장 안에서 그 말이 든 가장 긴 칸.
 //   짧은 칸('불가')을 고르면 다른 줄의 같은 칸이 바뀌어 가짜 '놓침'이 난다(heritage ⑩)
 const cut = (t, sen, w) => (t.includes(sen) ? t.replace(sen, sen.replace(w, '')) : t.replace(w, ''));
@@ -61,7 +69,7 @@ outer3: for (const x of facts.filter((f) => f.scopeWord)) {
     if (!hit(sen) || withHead(sen).split(x.scopeWord).length !== 2 || !sen.includes(x.scopeWord) || !hit(sen.replace(x.scopeWord, ''))) continue;
     const t = litOf(sen, x.scopeWord);
     // 따옴표째 찾는다 — 같은 글자가 형광펜 목록·머리 주석에 먼저 나오면 엉뚱한 곳이 바뀌었다
-    if (t) { add(`③ 범위 지우기 (${x.item}: '${x.scopeWord}' 삭제)`, 'article', ...lit1(t, cut(t, sen, x.scopeWord))); break outer3; }
+    if (t) { add(`③ 범위 지우기 (${x.item}: '${x.scopeWord}' 삭제)`, 'article', ...lit1(t, cut(t, sen, x.scopeWord), sen)); break outer3; }
   }
 }
 
@@ -76,7 +84,10 @@ if (row) { const n = row.match(/\d{2,}/)[0]; add(`⑤ 표 칸 숫자 바꾸기 (
 
 // ⑥ 필수 빼기 — 말로 된 must 의 핵심어를 글 전체에서 지운다
 const mk = facts.find((f) => f.must && f.key && !nums(f.value).length && A.includes(f.key));
-if (mk) add(`⑥ 필수 단서 빼기 (${mk.item}: '${mk.key}' 전부 삭제)`, 'article', mk.key, '', true);
+// 띄어쓴 표기도 같이 지운다 — 검사기는 공백을 빼고 찾으므로 '산모수첩'만 지우면 남은 '산모 수첩'을 보고
+// 통과시키는 게 맞는데, 시험은 그걸 '놓침'으로 셌다 (2026-09-24 독감 스포크)
+const spaced = (k) => new RegExp(k.replace(/\s+/g, '').split('').map((ch) => ch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\s*'), 'g');
+if (mk) add(`⑥ 필수 단서 빼기 (${mk.item}: '${mk.key}' 전부 삭제)`, 'article', spaced(mk.key), '', true);
 
 // ⑩ 한정 표현 지우기 — 검사기와 같은 함수(keepHit·keepOk)로. 지운 뒤 같은 뜻의 말('~해야')이 남으면 뜻이 안 바뀌니 시험으로 쓰지 않는다
 outer10: for (const x of facts.filter((f) => f.keepWord)) {
@@ -86,7 +97,7 @@ outer10: for (const x of facts.filter((f) => f.keepWord)) {
     const after = sen.replace(x.keepWord, '');
     if (!hit(after) || ok(after)) continue;
     const t = litOf(sen, x.keepWord);
-    if (t) { add(`⑩ 한정 표현 지우기 (${x.item}: '${x.keepWord}' 삭제)`, 'article', ...lit1(t, cut(t, sen, x.keepWord))); break outer10; }
+    if (t) { add(`⑩ 한정 표현 지우기 (${x.item}: '${x.keepWord}' 삭제)`, 'article', ...lit1(t, cut(t, sen, x.keepWord), sen)); break outer10; }
   }
 }
 
@@ -118,8 +129,10 @@ let missed = 0;
 try {
   for (const c of cases) {
     const src = orig[c.target];
-    if (!src.includes(c.find)) { console.log(`?  ${c.name} — 바꿀 글자를 못 찾음`); missed++; continue; }
-    fs.writeFileSync(files[c.target], c.all ? src.split(c.find).join(c.replace) : src.replace(c.find, c.replace));
+    const found = c.find instanceof RegExp ? (c.find.lastIndex = 0, c.find.test(src)) : src.includes(c.find);
+    if (!found) { console.log(`?  ${c.name} — 바꿀 글자를 못 찾음`); missed++; continue; }
+    fs.writeFileSync(files[c.target], c.find instanceof RegExp ? src.replace(c.find, c.replace)
+      : c.all ? src.split(c.find).join(c.replace) : src.replace(c.find, c.replace));
     const errs = judge(c.target);
     fs.writeFileSync(files[c.target], src);
     if (errs.length) console.log(`✅ 잡음  ${c.name}\n         → ${errs[0].slice(0, 110)}`);

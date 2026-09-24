@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "flu-vaccination-2026--child-two-doses",
+  "slug": "child-two-doses",
+  "hub": "flu-vaccination-2026",
+  "dir": "독감예방접종",
+  "fileName": "ChildTwoDoses",
+  "exportName": "독감예방접종ChildTwoDosesSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\독감예방접종\\ChildTwoDoses.tsx",
+  "title": "어린이 독감 예방접종 2회 맞는 대상과 간격, 영유아 접종 시기와 병원",
+  "subs": [
+    "어린이 독감 예방접종 2회",
+    "독감예방접종 2회 간격",
+    "영유아 독감 접종 시기",
+    "어린이 독감 예방접종 병원"
+  ],
+  "created": "2026-09-24T00:27:19.411Z"
+}

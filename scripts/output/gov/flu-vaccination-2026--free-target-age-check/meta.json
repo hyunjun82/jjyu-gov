@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "flu-vaccination-2026--free-target-age-check",
+  "slug": "free-target-age-check",
+  "hub": "flu-vaccination-2026",
+  "dir": "독감예방접종",
+  "fileName": "FreeTargetAgeCheck",
+  "exportName": "독감예방접종FreeTargetAgeCheckSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\독감예방접종\\FreeTargetAgeCheck.tsx",
+  "title": "독감 무료접종 대상 나이는? 대상자 조회하는 법과 성인·어린이 무료 기준",
+  "subs": [
+    "독감 무료접종 대상 나이",
+    "독감 무료접종 대상자 조회",
+    "독감 무료접종 대상 성인",
+    "독감 무료접종 대상 어린이"
+  ],
+  "created": "2026-09-24T00:03:13.891Z"
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "flu-vaccination-2026--hospital-search-reservation",
+  "slug": "hospital-search-reservation",
+  "hub": "flu-vaccination-2026",
+  "dir": "독감예방접종",
+  "fileName": "HospitalSearchReservation",
+  "exportName": "독감예방접종HospitalSearchReservationSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\독감예방접종\\HospitalSearchReservation.tsx",
+  "title": "독감 예방접종 병원 조회하고 예약하는 방법, 보건소 접종 기간은 언제?",
+  "subs": [
+    "독감 예방접종 병원 조회",
+    "독감 예방접종 예약 방법",
+    "독감예방접종 보건소 예약",
+    "독감예방접종 보건소 기간"
+  ],
+  "created": "2026-09-24T00:44:49.890Z"
+}

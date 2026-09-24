@@ -1,0 +1,24 @@
+[
+  {
+    "n": 1,
+    "url": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=341",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=341",
+    "title": "예방접종도우미 > 예방접종 관리 > 전자민원 서비스 > 예방접종 증명서",
+    "file": "src-1.txt",
+    "chars": 1943,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://nip.kdca.go.kr/irhp/index.jsp",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/index.jsp",
+    "title": "예방접종도우미",
+    "file": "src-2.txt",
+    "chars": 1834,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

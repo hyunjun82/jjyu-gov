@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "flu-vaccination-2026--certificate-history",
+  "slug": "certificate-history",
+  "hub": "flu-vaccination-2026",
+  "dir": "독감예방접종",
+  "fileName": "CertificateHistory",
+  "exportName": "독감예방접종CertificateHistorySpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\독감예방접종\\CertificateHistory.tsx",
+  "title": "독감예방접종확인서 발급과 예방접종 내역 조회, 증명서 온라인 출력 방법",
+  "subs": [
+    "독감예방접종확인서 발급",
+    "예방접종 내역 조회 방법",
+    "예방접종 증명서 발급 온라인",
+    "예방접종 증명서 출력 방법"
+  ],
+  "created": "2026-09-24T01:02:40.550Z"
+}

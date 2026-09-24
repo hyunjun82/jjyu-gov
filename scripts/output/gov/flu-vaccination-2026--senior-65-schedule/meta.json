@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "flu-vaccination-2026--senior-65-schedule",
+  "slug": "senior-65-schedule",
+  "hub": "flu-vaccination-2026",
+  "dir": "독감예방접종",
+  "fileName": "Senior65Schedule",
+  "exportName": "독감예방접종Senior65ScheduleSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\독감예방접종\\Senior65Schedule.tsx",
+  "title": "65세 독감 무료접종 일정과 노인 독감 예방접종 기간, 보건소 무료 접종",
+  "subs": [
+    "65세 독감 무료접종",
+    "어르신 독감 접종 일정",
+    "노인 독감 예방접종 기간",
+    "독감 예방접종 보건소 무료"
+  ],
+  "created": "2026-09-24T00:13:46.458Z"
+}

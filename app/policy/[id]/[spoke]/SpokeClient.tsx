@@ -319,7 +319,11 @@ export default function SpokeClient({
 
             <header className="detail-header">
               <div className="detail-badges">
-                <span className="badge badge-fund">지원금</span>
+                {/* 허브 분류를 그대로 — 고정 '지원금'이라 의료·세금 스포크에도 지원금이 붙었다 (2026-09-24). 허브(PolicyDetailClient)와 같은 규칙 */}
+                <span className={`badge ${
+                  policy?.catSlug === 'loan'   ? 'badge-loan'   :
+                  policy?.catSlug === 'refund' ? 'badge-refund' : 'badge-fund'
+                }`}>{policy?.cat || '지원금'}</span>
               </div>
               <h1 className="detail-title">{spoke.h1}</h1>
 

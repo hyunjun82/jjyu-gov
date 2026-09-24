@@ -33,7 +33,10 @@ export const typedNums = (text) => {
   for (const m of t.matchAll(/\d+(?:\.\d+)?/g)) {
     if (/[\d.]/.test(t[m.index - 1] ?? '')) continue;
     let rest = t.slice(m.index + m[0].length).trimStart();
-    const rng = rest.match(/^(?:~|부터)\s*(?:만\s*)?\d+(?:\.\d+)?\s*/);
+    // '부터'는 뒤에 '까지'가 올 때만 범위다 — "10월 12일부터 75세 이상"을 10.12~75 범위로 읽어 날짜에 '세'가 붙었고,
+    //   [순서]가 날짜·나이 순서를 따져 멀쩡한 문장을 거꾸로 고치게 했다 (2026-09-24 독감 어르신 스포크)
+    const rng = rest.match(/^~\s*(?:만\s*)?\d+(?:\.\d+)?\s*/)
+      || (/^부터\s*(?:만\s*)?\d+(?:\.\d+)?\s*[가-힣%]{0,3}\s*까지/.test(rest) ? rest.match(/^부터\s*(?:만\s*)?\d+(?:\.\d+)?\s*/) : null);
     if (rng) rest = rest.slice(rng[0].length);
     out.push(`${m[0]}|${rest.match(UNIT)?.[1] ?? ''}`);
   }
@@ -65,8 +68,10 @@ export function heroOf(src) {
   return { hero, label };
 }
 /* 행동 유도 = 독자에게 권하는 끝맺음. '부터'는 넣지 않는다 — "10월 12일부터 시작" 같은 날짜 문장을
-   행동 유도로 잘못 집어, 진짜 유도 문장을 지워도 검사가 통과했다 (2026-09-23 코로나 글 합격 시험) */
-const ACTION = /하셔야|보셔야|해\s?두|두세요|하세요|보세요|챙기|찾아\s?두|확인해\s?보/;
+   행동 유도로 잘못 집어, 진짜 유도 문장을 지워도 검사가 통과했다 (2026-09-23 코로나 글 합격 시험)
+   권하는 말 '~세요'·'~시길'은 동사를 가리지 않는다 — "병원부터 고르세요"를 못 집어 서론이 두 번 고쳐지고도 떨어졌다 (2026-09-24 독감 허브) */
+//   '버튼을 눌러'·'~두시면'도 행동이다 — "버튼을 눌러 … 골라 두시면 됩니다"를 못 집어 두 번 고치고도 떨어졌다 (같은 날 임신부 스포크)
+const ACTION = /하셔야|보셔야|해\s?두|챙기|찾아\s?두|확인해\s?보|[가-힣]세요|시길|눌러|두시면/;
 /** 행동 유도 문장 — 맺음 문장("…알아보겠습니다")을 뺀 문장 중 행동 표시가 있는 **마지막** 문장.
  *  앞에서부터 찾으면 공감 문장의 "어디서부터 손대야 할지 막막하셨을 텐데요"를 행동 유도로 집는다 */
 export function bridgeOf(hero) {
@@ -111,7 +116,11 @@ export function scopeHit(x, facts) {
   // 같은 숫자가 범위가 다른 사실에도 나오면(3만원 = 선불에도 후불에도) 숫자로는 범위를 못 가른다
   const shared = facts.some((o) => o !== x && o.scopeWord !== x.scopeWord && key.every((n) => nums(o.value).includes(n)));
   const distinct = !shared && isDistinct(key);
-  return (t) => norm(t).includes(v) || (distinct && key.every((n) => nums(t).includes(n)));
+  // 같은 숫자를 가진 다른 사실의 범위어만 든 문장은 그 사실의 문장이다 — "고위험군은 … 10월 6일(화)부터"를
+  //   '75세 이상 10월 6일(화)부터' 사실로 집어 범위어 누락이라 했다 (2026-09-24 독감 3가·4가 스포크)
+  const sharers = facts.filter((o) => o !== x && o.scopeWord && o.scopeWord !== x.scopeWord && key.length && key.every((n) => nums(o.value).includes(n)));
+  const others = (t) => !t.includes(x.scopeWord) && sharers.some((o) => t.includes(o.scopeWord));
+  return (t) => !others(t) && (norm(t).includes(v) || (distinct && key.every((n) => nums(t).includes(n))));
 }
 /** 지킬 말(keepWord) 사실이 쓰인 문장인가. 지킬 말 자체는 기준에서 뺀다 — 빼고 남는 게 없으면 항목 이름으로 */
 export function keepHit(x, facts) {
@@ -174,7 +183,10 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   // 숫자
   const allowed = new Set([...facts.flatMap((x) => [...numsLoose(x.value), ...numsLoose(x.quote)]), ...numsLoose(specText)]);
   const bad = new Map();
-  for (const s of strings) for (const n of nums(s)) if (!allowed.has(n) && !bad.has(n)) bad.set(n, s);
+  // 순서 표시("4단계"·"2번째")는 원문 수치가 아니다 — 절차 표의 단계 번호를 없는 숫자로 잡아
+  //   모델이 "처음·둘째·…·마지막"으로 바꿔 쓰게 만들었다 (2026-09-24 독감 증명서 스포크)
+  const ORDINAL = /(?<![\d.,])\d{1,2}\s*(?:단계|번째)/g;
+  for (const s of strings) for (const n of nums(s.replace(ORDINAL, ''))) if (!allowed.has(n) && !bad.has(n)) bad.set(n, s);
   for (const [n, s] of bad) errors.push(`[숫자] ${n} — facts 에 없다: "${s.slice(0, 80)}"`);
 
   // 짝 ① 숫자+단위 — 글의 "19번"은 facts 에도 "19번"이 있어야 한다 ("19세"·"19일"만 있으면 엉뚱한 자리의 숫자다).

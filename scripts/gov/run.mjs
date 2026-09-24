@@ -40,7 +40,8 @@ const ONLY = flag('only', '');
 const MODEL = flag('model', 'opus');
 const STEPS = ['collect', 'facts', 'write', 'check'];
 const run = (s) => STEPS.indexOf(s) >= STEPS.indexOf(FROM) && STEPS.indexOf(s) <= STEPS.indexOf(TO);
-const today = new Date().toISOString().slice(0, 10);
+// 한국 시간 — UTC 로 자르면 오전 9시 전 실행분이 하루 전 날짜로 찍힌다 (2026-09-24 독감 허브가 09-23 으로 나옴)
+const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 const OUTSIDE = path.join(os.tmpdir(), 'gov-pipeline');
 fs.mkdirSync(OUTSIDE, { recursive: true });
 
