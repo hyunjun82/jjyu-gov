@@ -1,0 +1,17 @@
+{
+  "slug": "asiana",
+  "keyword": "아시아나항공 고객센터",
+  "title": "아시아나항공 고객센터 전화번호 및 상담원 연결·문의 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "아시아나항공 고객센터 전화번호 모음",
+    "아시아나항공 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "아시아나항공 고객센터 위치",
+    "아시아나항공 고객센터 지역별로 찾기"
+  ],
+  "source": "https://flyasiana.com/C/KR/KO/customer/notice/detail?id=CM202609070002530342",
+  "outline": "data/call-centers/asiana.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

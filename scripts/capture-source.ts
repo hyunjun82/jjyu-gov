@@ -43,7 +43,12 @@ const SHOTS = path.join(OUT, 'captures');
 fs.mkdirSync(SHOTS, { recursive: true });
 
 (async () => {
-  const browser = await chromium.launch();
+  /* --headed — 헤드리스를 막는 사이트가 있다 (2026-09-26 아시아나 flyasiana.com ERR_HTTP2_PROTOCOL_ERROR).
+     실제 크롬 창으로 연다. 창이 잠깐 떴다 닫힌다. */
+  const headed = args.includes('--headed');
+  const browser = headed
+    ? await chromium.launch({ channel: 'chrome', headless: false, args: ['--disable-blink-features=AutomationControlled'] })
+    : await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1400, height: 1000 } });
   const parts: string[] = [];
   let ok = 0;

@@ -765,7 +765,9 @@ const faqItem = (fq: string, fa: string, fs: string = q(C.sourceName ?? C.name),
   '    },',
 ].join(NL);
 const FAQ_ITEMS = [
-  faqItem(`${q(C.name)} 고객센터 전화번호는 몇 번인가요?`, `대표번호는 ${C.main.tel}입니다. (${C.verifiedAt} 확인 기준)`),
+  /* notice — 번호가 곧 바뀌는 곳(2026-09-26 아시아나 12/17 대한항공 1588-2001 통합)은 서론과 첫 FAQ 에 한 줄을 붙인다.
+     번호 표에만 두면 "대표번호는 1588-8000" 만 읽고 종료된 번호로 건다. */
+  faqItem(`${q(C.name)} 고객센터 전화번호는 몇 번인가요?`, `대표번호는 ${C.main.tel}입니다. (${C.verifiedAt} 확인 기준)${C.notice ? ' ' + q(C.notice) : ''}`),
   ...(HAS_ARS ? [faqItem(`${q(IND.agent)}${josa(IND.agent, '과')} 바로 통화하려면 어떻게 하나요?`, q(ARS_FAQ_A))] : []),
   ...(FAQ_HOURS ? [faqItem('주말이나 공휴일에도 상담이 되나요?', q(FAQ_HOURS))] : []),
   ...(C.callFee ? [faqItem('전화 요금은 어떻게 부과되나요?', q(C.callFee))] : []),
@@ -800,7 +802,7 @@ export const ${exportName}: SpokeData = {
      회사 고객센터 글과 구분이 안 된다 (2026-08-27 사장님 확인). */
   breadcrumb: '${q(C.name)}${IND.hub === 'loan-call-center' ? ' 대출' : ''} 고객센터',
   description:
-    '${q(INTRO_FACT)}. ${q(HERO_TAIL)}',
+    '${q(INTRO_FACT)}. ${C.notice ? q(C.notice) + ' ' : ''}${q(HERO_TAIL)}',
   datePublished: '${C.publishedAt ?? C.verifiedAt}T09:00:00+09:00',
   /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
@@ -810,7 +812,7 @@ export const ${exportName}: SpokeData = {
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:
-    '${q(INTRO_FACT)}. ${q(HERO_TAIL)}',
+    '${q(INTRO_FACT)}. ${C.notice ? q(C.notice) + ' ' : ''}${q(HERO_TAIL)}',
   heroAct: { label: '${q(pick(HERO_LABELS, C.heroSalt ?? ''))}', href: TEL },
 
   keyFacts: {
