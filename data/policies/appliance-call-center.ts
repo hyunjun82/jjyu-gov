@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'lg-ele', role: 'eligibility', title: 'LG전자 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'chungho', role: 'eligibility', title: '청호나이스 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'cuckoo', role: 'eligibility', title: '쿠쿠 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'brams-massage-chair', role: 'eligibility', title: '브람스 고객센터 전화번호 및 AS 접수·출장비 안내' },

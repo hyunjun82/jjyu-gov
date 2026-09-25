@@ -484,7 +484,8 @@ const OFF_OPEN = PH.length > 0 && PH.some(offhourish);
 const OFF_DUP = OFF_OPEN && IND.offhour.split('·').every((w) => OFF_TXT.includes(w));
 
 const dot = (s: string) => (/[.]$/.test(s.trim()) ? s.trim() : s.trim() + '.');
-const SE_TXT = SE.length ? `공식 안내에는 그 밖의 시간을 ${SE.map((s) => s.replace(/[.]$/, '')).join(' / ')} 로 적어 두었습니다.` : '';
+/* 문장을 "그 밖의 시간을 ○○합니다 로 적어 두었습니다" 에 끼우면 비문이 된다 (2026-09-26 LG전자). 원문 문장은 따옴표로 인용한다. */
+const SE_TXT = SE.length ? `그 밖의 시간은 공식 안내에 ${SE.map((s) => `"${s.replace(/[.]$/, '')}"`).join(', ')}라고 적혀 있습니다.` : '';
 
 const OFF_CLAUSE = !OFF_TXT ? ''
   : OFF_DUP ? dot(`${OFF_TXT}${josa(OFF_TXT, '은')} 따로 돌아갑니다`)
