@@ -1,0 +1,17 @@
+{
+  "slug": "cj-logistics",
+  "keyword": "CJ대한통운 고객센터",
+  "title": "CJ대한통운 고객센터 전화번호 및 상담원 연결·문의 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "CJ대한통운 고객센터 전화번호 모음",
+    "CJ대한통운 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "CJ대한통운 고객센터 위치",
+    "CJ대한통운 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.cjlogistics.com/ko/main",
+  "outline": "data/call-centers/cj-logistics.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

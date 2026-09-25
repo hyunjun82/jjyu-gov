@@ -524,9 +524,9 @@ const OFFHOUR_NOTE = NO_HOURS
   ? `공식 안내 기준 ${HW}${jong(HW) ? '이라' : '라'} 밤이나 휴일에도 같은 번호로 받습니다.`
   : OFF.length === 0
   ? (OFF_CLOSED
-    ? `공식 안내 기준으로 ${HW}${josa(HW, '을')} 벗어나면 ${IND.agent} 연결이 안 됩니다. ${IND.dayNote}`
+    ? `공식 안내 기준으로 ${HW}${josa(HW, '을')} 벗어나면 ${IND.agent} 연결이 안 됩니다. ${C.dayNote ?? IND.dayNote}`
     : `공식 안내에 적힌 상담시간은 ${HW}입니다.`)
-  : `${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} ${IND.dayNote}`;
+  : `${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')} ${C.dayNote ?? IND.dayNote}`;
 
 const INTRO_FACT = NO_HOURS
   ? `${C.name} 고객센터 대표번호는 ${C.main.tel}입니다`
@@ -810,7 +810,7 @@ export const ${exportName}: SpokeData = {
 
   heroHook:
     '${q(INTRO_FACT)}. ${q(HERO_TAIL)}',
-  heroAct: { label: '${q(pick(HERO_LABELS))}', href: TEL },
+  heroAct: { label: '${q(pick(HERO_LABELS, C.heroSalt ?? ''))}', href: TEL },
 
   keyFacts: {
     '대표번호': '${C.main.tel} (${q(C.main.label)})',
