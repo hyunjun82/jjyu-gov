@@ -1929,6 +1929,7 @@ import { 독감예방접종HospitalSearchReservationSpokeContent } from '@/app/p
 import { 독감예방접종PriceComparisonSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/PriceComparison';
 import { 독감예방접종CertificateHistorySpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/CertificateHistory';
 import { 독감예방접종TrivalentQuadrivalentTypesSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/TrivalentQuadrivalentTypes';
+import { cuckooCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/cuckoo';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -1977,6 +1978,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'cuckoo': cuckooCallCenterSpokeContent,
     'brams-massage-chair': bramsMassageChairCallCenterSpokeContent,
     'rinnai-boiler': rinnaiBoilerCallCenterSpokeContent,
     'carrier-aircon': carrierAirconCallCenterSpokeContent,

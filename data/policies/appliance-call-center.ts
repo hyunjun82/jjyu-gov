@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'cuckoo', role: 'eligibility', title: '쿠쿠 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'brams-massage-chair', role: 'eligibility', title: '브람스 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'rinnai-boiler', role: 'eligibility', title: '린나이 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'carrier-aircon', role: 'eligibility', title: '오텍캐리어 고객센터 전화번호 및 AS 접수·출장비 안내' },

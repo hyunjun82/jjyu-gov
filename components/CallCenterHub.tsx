@@ -15,7 +15,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { readable, type CallCenterData } from '@/components/CallCenterPage';
+import { readable, isOpenAt, type CallCenterData } from '@/components/CallCenterPage';
 
 /* 브랜드색 한 개로 밝기 조절 — 회사 페이지와 같은 함수 */
 function mix(hex: string, target: number, amt: number) {
@@ -29,15 +29,6 @@ function mix(hex: string, target: number, amt: number) {
 const darken = (hex: string, amt: number) => mix(hex, 0, amt);
 
 const telHref = (t: string) => `tel:${String(t).replace(/[^0-9+]/g, '')}`;
-
-function parseWeekdayHours(s: string): { from: number; to: number } | null {
-  const m = String(s).match(/(\d{1,2})\s*(?::\d{2}|시)/g);
-  if (!m || m.length < 2) return null;
-  const from = parseInt(m[0], 10);
-  const to = parseInt(m[1], 10);
-  if (isNaN(from) || isNaN(to) || to <= from) return null;
-  return { from, to };
-}
 
 const NAVY = '#14395C';
 const BLUE = '#1F4E79';
@@ -101,9 +92,8 @@ export default function CallCenterHub({
   }, []);
 
   const isOpen = (cc: CallCenterData) => {
-    const wh = parseWeekdayHours(cc.hours.weekday);
-    if (!now || !wh) return null;
-    return now.getDay() >= 1 && now.getDay() <= 5 && now.getHours() >= wh.from && now.getHours() < wh.to;
+    if (!now) return null;
+    return isOpenAt(cc.hours, now);
   };
 
   const kw = q.trim().toLowerCase();
@@ -460,7 +450,7 @@ export default function CallCenterHub({
                     {cc.main.tel}
                   </a>
 
-                  <div style={{ fontSize: 13.5, color: '#8D96A6' }}>{cc.hours.weekday}</div>
+                  <div style={{ fontSize: 13.5, color: '#8D96A6' }}>{cc.hours.weekday}{cc.hours.saturday ? ` · ${cc.hours.saturday}` : ''}</div>
 
                   <div style={{ display: 'flex', gap: 8, marginTop: 4, flexWrap: 'wrap' }}>
                     <a

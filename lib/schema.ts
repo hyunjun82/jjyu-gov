@@ -178,7 +178,7 @@ export function callCenterSchema(
     sourceUrl: string;
     verifiedAt: string;
     main: { label: string; tel: string };
-    hours: { weekday: string; night: string; holiday: string };
+    hours: { weekday: string; saturday?: string; night: string; holiday: string };
     numbers: { label: string; tel: string; note?: string; smsOnly?: boolean }[];
     ars: { day: { key: string; what: string }[] };
     hq?: string;
@@ -207,6 +207,7 @@ export function callCenterSchema(
 
   /* 운영시간 "월~금요일 09시 ~ 18시" → OpeningHoursSpecification */
   const hm = cc.hours.weekday.match(/(\d{1,2})\s*(?::\d{2}|시)/g) ?? [];
+  const satHm = String(cc.hours.saturday ?? '').match(/(\d{1,2})\s*(?::\d{2}|시)/g) ?? [];
   const pad = (n: string | undefined) => String(parseInt(n ?? '0', 10)).padStart(2, '0') + ':00';
   const weekdayHours =
     hm.length >= 2
@@ -217,6 +218,10 @@ export function callCenterSchema(
             opens: pad(hm[0]),
             closes: pad(hm[1]),
           },
+          /* 토요일 상담이 있는 곳 (2026-09-26 쿠쿠) */
+          ...(satHm.length >= 2
+            ? [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: pad(satHm[0]), closes: pad(satHm[1]) }]
+            : []),
         ]
       : undefined;
 

@@ -397,7 +397,7 @@ const timeSpan = (v: string) => {
 };
 const HW_RAW = hoursText(C.hours.weekday);
 /* 앞뒤에 말이 붙어 문장이 된 경우에만 시각 구간으로 줄인다 */
-const HW = (() => {
+const HW_WEEK = (() => {
   const span = timeSpan(HW_RAW);
   if (!span) return HW_RAW;
   /* 오전·오후로 끊어 적는 기관이 있다 — LH "월요일 ~ 금요일 오전 09:00~12:00 오후 13:00~18:00" (2026-09-03).
@@ -408,6 +408,12 @@ const HW = (() => {
   const extra = rest.replace(/[()\[\]]/g, '').trim();
   return extra.length > 6 ? span : HW_RAW;
 })();
+/* 토요일에도 상담하는 곳이 있다 (2026-09-26 쿠쿠 '토요일 : 09:00~13:00').
+   칸이 없으니 평일 시간만 쓰고 "이 시간을 벗어나면 연결이 안 됩니다" 가 나가 토요일 상담이 없는 것처럼 읽혔다.
+   hours.saturday 에 원문 그대로 적으면 문장 속 운영시간에 이어 붙인다. */
+/* hoursText 는 "토요일 : " 을 라벨로 보고 벗긴다 — 벗겨지면 요일을 다시 붙인다 */
+const SAT = C.hours.saturday ? ((t: string) => (/토/.test(t) ? t : `토요일 ${t}`))(hoursText(C.hours.saturday)) : '';
+const HW = SAT ? `${HW_WEEK}, ${SAT}` : HW_WEEK;
 /* 상담시간을 아예 안 적는 회사가 있다 (카디프생명·증권사 13곳).
    시각이 하나도 없으면 "이 시간을 벗어나면" 같은 말이 성립하지 않는다.
    경쟁사는 이런 곳에 임의로 09:00-18:00 을 적는다 — 그게 제일 위험하다. */
@@ -419,9 +425,9 @@ const lunchRaw = String(C.hours.lunch ?? '').trim();
    "점심시간 휴무 표기가 없습니다" 라고 답하면 원문을 보고도 틀린 말을 하는 것이다 (2026-09-03 LH).
    원문에 '점심' 이라는 말이 없으니 그 단어를 쓰지 않고, 두 구간을 그대로 보여준다. */
 const SPLIT_SPANS = (() => {
-  const first = timeSpan(HW);
+  const first = timeSpan(HW_WEEK);
   if (!first) return null;
-  const rest = HW.replace(first, '');
+  const rest = HW_WEEK.replace(first, '');
   const second = timeSpan(rest);
   /* 두 번째 시각이 '요일별 시간'이거나 '휴게시간'이면 오전·오후로 끊은 게 아니다 (2026-09-15).
      금융결제원 "평일 09:00 ~ 17:45 (금 09:00 ~ 16:45)" 을 두 구간으로 읽으면
@@ -508,7 +514,7 @@ const META_NIGHT = NO_HOURS
   : OFF_OPEN
     ? `야간·공휴일에는 ${IND.offhour} 중심으로 접수됩니다`
     : '야간·공휴일 운영은 공식 안내 표기 기준';
-const META_HOURS = NO_HOURS ? '' : `상담시간 ${C.hours.weekday}${META_NIGHT ? `, ${META_NIGHT}` : ''}. `;
+const META_HOURS = NO_HOURS ? '' : `상담시간 ${SAT ? HW : C.hours.weekday}${META_NIGHT ? `, ${META_NIGHT}` : ''}. `;
 
 /* 화면 "지금 상담 가능 여부" 박스 문장 — 시간 표기가 없으면 만들지 않는다(화면이 문장을 비운다). */
 const OFFHOUR_NOTE = NO_HOURS
@@ -538,6 +544,7 @@ const CARD_FACTS = [
 /* 방문 접수 시간을 따로 적어 둔 회사가 있다 (2026-09-03 한화생명 대출 — 평일 09:00 ~ 15:30). */
 const VISIT = C.hours.visit ? hoursText(C.hours.visit) : '';
 const NIGHT_FACTS = [
+  ...(C.hours.saturday ? [`    '토요일': '${q(C.hours.saturday)}',`] : []),
   ...(C.hours.night ? [`    '야간': '${q(C.hours.night)}',`] : []),
   ...(C.hours.holiday ? [`    '공휴일': '${q(C.hours.holiday)}',`] : []),
   ...(VISIT ? [`    '방문 접수': '${q(C.hours.visit)}',`] : []),
@@ -599,6 +606,9 @@ const FAQ_HOURS = NO_HOURS
   ? `${IND.agent} 상담은 ${HW}입니다. ${OFF_TXT}에는 ${IND.offhour} 중심의 ARS 가 운영됩니다.`
   : OFF.length > 0
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`
+    : OFF_CLOSED && SAT
+    /* 토요일에 받는 곳에 "아니요" 로 답하면 틀린 말이다 */
+    ? `토요일은 ${timeSpan(SAT) || SAT}에 ${IND.agent} 상담이 됩니다. 그 밖의 휴일은 공식 안내에 ${hoursText(OFF_VALUES)}${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다.`
     : OFF_CLOSED
     ? `아니요. 공식 안내에 ${OFF_VALUES}${josa(OFF_VALUES, '으로')} 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.`
     : '';
@@ -828,7 +838,7 @@ ${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}
         '${ARS_Q2}${Q2_TIME ? ' ' + q(Q2_TIME) : ''}',
       highlights: [${ARS_HL}${NO_HOURS ? '' : `, '${q(C.hours.weekday)}'`}],
       table: {
-        headers: ['번호', '${NO_HOURS ? '평일 주간' : `평일 주간 (${q(C.hours.weekday)})`}'],
+        headers: ['번호', '${NO_HOURS ? '평일 주간' : SAT ? `상담시간 (${q(HW)})` : `평일 주간 (${q(C.hours.weekday)})`}'],
         rows: [${arsRow(day)}],
       },
       box: {
@@ -841,7 +851,7 @@ ${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}
       q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
       intro:
         '${q(Q3_INTRO)}',
-      highlights: [${[C.hours.weekday, C.hours.night, C.hours.holiday].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).map((v) => `'${q(v)}'`).join(', ')}],
+      highlights: [${[C.hours.weekday, C.hours.saturday, C.hours.night, C.hours.holiday].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).map((v) => `'${q(v)}'`).join(', ')}],
       table: {
         headers: ['번호', '${q(NIGHT_HEAD)}'],
         rows: [${arsRow(night)}],

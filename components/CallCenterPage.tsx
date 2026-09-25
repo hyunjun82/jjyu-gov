@@ -32,7 +32,7 @@ export interface CallCenterData {
   sourceName: string;
   verifiedAt: string;
   main: { label: string; tel: string };
-  hours: { weekday: string; night?: string; holiday?: string; lunch?: string; visit?: string };
+  hours: { weekday: string; saturday?: string; night?: string; holiday?: string; lunch?: string; visit?: string };
   /* 야간·공휴일 안내 한 문장 — 회사마다 다르다. 여기 없으면 화면이 지어내게 된다.
      전에는 이 문장이 CallCenterPage 에 박혀 있어서 50곳이 전부 "사고접수·긴급출동" 이었다. */
   offhourNote?: string;
@@ -91,7 +91,19 @@ const telHref = (t: string) => `tel:${String(t).replace(/[^0-9+]/g, '')}`;
 /* 상담 가능 시간 판정.
    "월~금요일 09시 ~ 18시" 같은 한글 문장에서 시각 두 개를 뽑는다.
    못 뽑으면 판정을 포기하고 시간표만 보여준다 — 틀린 판정을 띄우느니 안 띄운다. */
-function parseWeekdayHours(s: string): { from: number; to: number } | null {
+/* 지금 상담시간 안인가 — 상세·허브가 같은 판정을 쓴다.
+   토요일 상담이 있는 곳(2026-09-26 쿠쿠 '토요일 : 09:00~13:00')은 토요일도 그 시간으로 본다. */
+export function isOpenAt(hours: { weekday: string; saturday?: string }, now: Date): boolean | null {
+  const wh = parseWeekdayHours(hours.weekday);
+  if (!wh) return null;
+  const d = now.getDay();
+  const h = now.getHours();
+  if (d >= 1 && d <= 5) return h >= wh.from && h < wh.to;
+  const sat = d === 6 && hours.saturday ? parseWeekdayHours(hours.saturday) : null;
+  return sat ? h >= sat.from && h < sat.to : false;
+}
+
+export function parseWeekdayHours(s: string): { from: number; to: number } | null {
   /* 회사마다 표기가 다르다 — DB "09시 ~ 18시", 삼성화재 "09:00~18:00".
      한 쪽만 읽으면 나머지 회사는 판정이 조용히 죽는다(에러 없이 시간표만 나온다). */
   const m = String(s).match(/(\d{1,2})\s*(?::\d{2}|시)/g);
@@ -172,10 +184,9 @@ export default function CallCenterPage({
   const wh = parseWeekdayHours(cc.hours.weekday);
 
   /* 지금 상담 가능한가 — 서버 렌더 때는 판정하지 않는다(하이드레이션 불일치 방지) */
-  const open =
-    now && wh
-      ? now.getDay() >= 1 && now.getDay() <= 5 && now.getHours() >= wh.from && now.getHours() < wh.to
-      : null;
+  const open = now && wh ? isOpenAt(cc.hours, now) : null;
+  /* 문장에 넣는 상담시간 — 토요일 시간이 있으면 이어 붙인다 */
+  const hoursLine = cc.hours.saturday ? `${cc.hours.weekday}, ${cc.hours.saturday}` : cc.hours.weekday;
   /* 상담시간을 아예 못 읽는 회사가 있다 (공식 안내에 표기가 없다).
      그때 hours.weekday 를 그대로 제목에 넣으면 "공식 안내에서 대출 창구 상담시간을
      확인하지 못함" 같은 한 문장이 배지·제목·표에 세 번 나온다.
@@ -199,14 +210,14 @@ export default function CallCenterPage({
       : open ? '상담 가능 시간' : '상담 시간 종료';
   const statusDetail =
     open === null
-      ? (cc.offhourNote ?? (noHours ? '' : `공식 안내에 적힌 상담시간은 ${cc.hours.weekday}입니다.`))
+      ? (cc.offhourNote ?? (noHours ? '' : `공식 안내에 적힌 상담시간은 ${hoursLine}입니다.`))
       : open
         ? agent
           /* 조사는 받침으로 가른다 — '상담원와' 가 애큐온저축은행 대출 글에 나가 있었다 (2026-09-15) */
           ? `지금 전화하면 ARS 에서 ${agent.key}번을 눌러 ${AGENT}${(AGENT.charCodeAt(AGENT.length - 1) - 0xac00) % 28 ? '과' : '와'} 연결됩니다.`
           /* 상담원 메뉴가 원문에 없으면 "연결이 가능합니다" 라고 단정하지 않는다 (2026-09-15) — 시간 안이라는 것만 말한다 */
           : `지금은 공식 안내 상담시간 안입니다.`
-        : `지금은 공식 안내 상담시간(${cc.hours.weekday})이 아닙니다.`;
+        : `지금은 공식 안내 상담시간(${hoursLine})이 아닙니다.`;
 
   const copy = () => {
     try {
@@ -233,6 +244,7 @@ export default function CallCenterPage({
      검색은 많이 되는 말이라 넣고 싶지만, 없는 걸 지어내면 그 순간 이 글은 못 쓴다. */
   const hourRows = [
     ...(noHours ? [] : [{ k: weekdayWord ? '평일 상담' : '상담시간', v: cc.hours.weekday }]),
+    ...(cc.hours.saturday ? [{ k: '토요일 상담', v: cc.hours.saturday }] : []),
     ...(cc.hours.night ? [{ k: '평일 야간', v: cc.hours.night }] : []),
     ...(cc.hours.holiday ? [{ k: '공휴일', v: cc.hours.holiday }] : []),
     ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
@@ -552,7 +564,7 @@ export default function CallCenterPage({
                 border: '1px solid rgba(255,255,255,.28)',
               }}
             >
-              <div style={eyebrow}>ARS 바로 누르기 · 평일 주간</div>
+              <div style={eyebrow}>ARS 바로 누르기 · {cc.hours.saturday ? '상담시간' : '평일 주간'}</div>
               <div style={{ margin: '12px 0 0', display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                 {cc.ars.day.map((a) => (
                   <a
@@ -722,6 +734,7 @@ export default function CallCenterPage({
                   { k: `${W} 이름`, v: cc.name },
                   { k: cc.main.label, v: cc.main.tel },
                   ...(noHours ? [] : [{ k: `${weekdayWord}상담시간`, v: cc.hours.weekday }]),
+                  ...(cc.hours.saturday ? [{ k: '토요일 상담시간', v: cc.hours.saturday }] : []),
                   /* 점심시간을 적어 둔 회사가 있다 (푸본현대·KB라이프·우체국보험).
                      그 시간에 걸면 연결이 안 되니 표에도 넣는다. */
                   ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
