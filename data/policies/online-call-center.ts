@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'lotte-parcel', role: 'eligibility', title: '롯데택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'asiana', role: 'eligibility', title: '아시아나항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hanjin-parcel', role: 'eligibility', title: '한진택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cj-logistics', role: 'eligibility', title: 'CJ대한통운 고객센터 전화번호 및 상담원 연결·문의 안내' },

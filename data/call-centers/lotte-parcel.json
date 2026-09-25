@@ -1,0 +1,37 @@
+{
+  "slug": "lotte-parcel",
+  "name": "롯데택배",
+  "aliases": [
+    "롯데글로벌로지스",
+    "롯데 택배",
+    "롯데택배 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#D4251F",
+  "official": "https://www.lotteglogis.com",
+  "sourceUrl": "https://www.lotteglogis.com/home/main",
+  "sourceName": "롯데글로벌로지스 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "롯데글로벌로지스",
+  "hq": "서울시 중구 통일로 10(연세 세브란스 빌딩)",
+  "main": {
+    "label": "택배고객센터",
+    "tel": "1588-2121"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-09-26] 롯데글로벌로지스 홈·고객의소리·배송조회·모바일 푸터 모두 '택배고객센터 1588-2121' 뿐이고 상담시간은 어디에도 없다 — 비워 둔다(추정 금지). 1:1 상담은 카카오톡 채널. 택배 틀이 없어 온라인 틀(사장님 2026-09-26 '검색량 순서 그대로'). 로고색은 img_logo_r.png 최빈색.",
+  "idStep": "운송장번호",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "택배고객센터",
+      "tel": "1588-2121"
+    }
+  ]
+}
