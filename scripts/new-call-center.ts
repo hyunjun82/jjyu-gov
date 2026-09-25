@@ -843,7 +843,7 @@ ${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}
       },
       box: {
         label: '대기를 줄이는 법',
-        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, ${q(IND.idStep)}를 미리 꺼내 두는 편이 빠릅니다.',
+        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, ${q(C.idStep ?? IND.idStep)}를 미리 꺼내 두는 편이 빠릅니다.',
       },
       sourceNote: '* 출처: ${q(C.sourceName ?? C.name)} (${C.verifiedAt} 확인)',
     },
@@ -918,7 +918,8 @@ ${FAQ_ITEMS}
       hubWord: IND.hubWord,
       agentWord: IND.agent,
       offhourWord: IND.offhour,
-      idStep: IND.idStep,
+      /* 업종 기본값이 안 맞는 곳은 회사 JSON 의 idStep 으로 바꾼다 (2026-09-26 코레일 — 공공 틀 '사업장 관리번호' 는 철도에 없는 말) */
+      idStep: C.idStep ?? IND.idStep,
       callFee: C.callFee,
       ars: C.ars,
       numbers: C.numbers,

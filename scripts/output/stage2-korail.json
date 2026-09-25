@@ -1,0 +1,17 @@
+{
+  "slug": "korail",
+  "keyword": "코레일 고객센터",
+  "title": "코레일 고객센터 전화번호 및 상담직원 연결·업무시간 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담직원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "코레일 고객센터 전화번호 모음",
+    "코레일 고객센터 상담직원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "코레일 고객센터 위치",
+    "코레일 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.korail.com/ticket/guest/csc/korailcs",
+  "outline": "data/call-centers/korail.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

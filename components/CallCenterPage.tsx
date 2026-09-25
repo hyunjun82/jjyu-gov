@@ -99,6 +99,9 @@ export function isOpenAt(hours: { weekday: string; saturday?: string }, now: Dat
   const d = now.getDay();
   const h = now.getHours();
   if (d >= 1 && d <= 5) return h >= wh.from && h < wh.to;
+  /* 요일 말이 하나도 없는 시간("상담원 : 08:00∼20:00" 코레일)은 주말에 여는지 원문이 말하지 않는다.
+     평일로 가정해 "상담 시간 종료" 라고 단정하지 않는다 — 모르면 판정하지 않는다. */
+  if (!hours.saturday && !/평일|영업일|월|금|토|일|주말|휴무|휴일|제외/.test(hours.weekday)) return null;
   const sat = d === 6 && hours.saturday ? parseWeekdayHours(hours.saturday) : null;
   return sat ? h >= sat.from && h < sat.to : false;
 }
@@ -470,7 +473,8 @@ export default function CallCenterPage({
               {cc.main.tel}
             </a>
             <div style={{ position: 'relative', margin: '12px 0 0', fontSize: 13.5, color: 'rgba(255,255,255,.7)' }}>
-              {cc.main.label} · {cc.callFee ?? '통화료는 발신자 요금제 기준으로 부과됩니다.'}
+              {/* 통화료는 원문에 있을 때만 쓴다 — 없을 때 '발신자 요금제 기준' 을 채우던 문장은 원문에 없는 말이었다 (2026-09-26) */}
+              {cc.main.label}{cc.callFee ? ` · ${cc.callFee}` : ''}
             </div>
 
             <div style={{ position: 'relative', margin: '26px 0 0', display: 'flex', flexWrap: 'wrap', gap: 14 }}>
@@ -661,7 +665,8 @@ export default function CallCenterPage({
                 ) : hasArs ? (
                   <>공식 ARS 안내에 {AGENT} 연결 번호는 따로 적혀 있지 않습니다. 아래 목록에서 용건에 맞는 번호를 고르시면 됩니다.</>
                 ) : (
-                  <>공식 안내에 ARS 단축번호가 공개돼 있지 않습니다.</>
+                  /* 'ARS 단축번호가 공개돼 있지 않다' 로 쓰면 ARS 전용번호를 따로 안내하는 곳(코레일 1544-1188)에 틀린 말이 된다 (2026-09-26) */
+                  <>공식 안내에 {AGENT} 연결 단축번호는 따로 적혀 있지 않습니다.</>
                 )} 문의를 한 문장으로 정리해 두면 부서 이관 횟수를 줄일 수 있습니다.
               </div>
               <a href="#connect" style={{ margin: '16px 0 0', display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 15, fontWeight: 700, color: BLUE }}>

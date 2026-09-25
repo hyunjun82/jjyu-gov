@@ -1930,6 +1930,7 @@ import { 독감예방접종PriceComparisonSpokeContent } from '@/app/policy/[id]
 import { 독감예방접종CertificateHistorySpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/CertificateHistory';
 import { 독감예방접종TrivalentQuadrivalentTypesSpokeContent } from '@/app/policy/[id]/[spoke]/content/독감예방접종/TrivalentQuadrivalentTypes';
 import { cuckooCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/cuckoo';
+import { korailCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korail';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2002,6 +2003,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'korail': korailCallCenterSpokeContent,
     'epost-bank': epostBankCallCenterSpokeContent,
     'mps': mpsCallCenterSpokeContent,
     'newstart-fund': newstartFundCallCenterSpokeContent,
