@@ -611,7 +611,8 @@ const FAQ_HOURS = NO_HOURS
     /* 토요일에 받는 곳에 "아니요" 로 답하면 틀린 말이다 */
     ? `토요일은 ${timeSpan(SAT) || SAT}에 ${IND.agent} 상담이 됩니다. 그 밖의 휴일은 공식 안내에 ${hoursText(OFF_VALUES)}${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다.`
     : OFF_CLOSED
-    ? `아니요. 공식 안내에 ${OFF_VALUES}${josa(OFF_VALUES, '으로')} 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.`
+    /* 값이 문장이면(한진 '주말(토/일) 및 공휴일은 근무하지 않습니다.') 조사를 붙이지 않고 인용한다 */
+    ? (isSentence(OFF_VALUES) ? `아니요. 공식 안내에 "${OFF_VALUES.replace(/[.]$/, '')}"라고 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.` : `아니요. 공식 안내에 ${OFF_VALUES}${josa(OFF_VALUES, '으로')} 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.`)
     : '';
 
 
