@@ -1,0 +1,23 @@
+{
+  "slug": "jinair",
+  "name": "진에어",
+  "aliases": ["JIN AIR", "진에어 고객센터", "진에어 고객서비스센터"],
+  "industry": "online",
+  "brandColor": "#BFD601",
+  "official": "https://www.jinair.com",
+  "sourceUrl": "https://www.jinair.com/qna/faq",
+  "sourceName": "진에어 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)진에어",
+  "hq": "서울특별시 강서구 마곡중앙로 143",
+  "main": { "label": "고객서비스센터 국내지역", "tel": "1600-6200" },
+  "hours": { "weekday": "오전 09:00 ~ 오후 18:00" },
+  "hoursNote": "[2026-09-26] 진에어 고객센터(qna/faq) 푸터: 고객서비스센터 국내지역 : 1600-6200, 02-6099-1200 / 해외지역 : +82-2-6099-1200 / 업무시간 오전 09:00 ~ 오후 18:00. 요일 표기 없음. 헤드리스 차단(Cloudflare)이라 --headed. 항공 틀이 없어 온라인 틀. 브랜드색은 캡처 최빈색(연두).",
+  "idStep": "예약번호",
+  "heroSalt": "d",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객서비스센터 국내지역", "tel": "1600-6200", "note": "02-6099-1200으로도 연결" },
+    { "label": "해외지역", "tel": "+82-2-6099-1200" }
+  ]
+}
