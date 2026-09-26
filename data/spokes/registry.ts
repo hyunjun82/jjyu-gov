@@ -2036,6 +2036,7 @@ import { innisfreeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { wconceptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/wconcept';
 import { nikeKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/nike-kr';
 import { smegKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/smeg-kr';
+import { miraenSeohaeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/miraen-seohae';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2129,6 +2130,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'miraen-seohae': miraenSeohaeCallCenterSpokeContent,
     'jeonbuk-energy': jeonbukEnergyCallCenterSpokeContent,
     'munhwa-nuri': munhwaNuriCallCenterSpokeContent,
     'gov110': gov110CallCenterSpokeContent,
