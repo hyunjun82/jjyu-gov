@@ -2002,6 +2002,7 @@ import { albamonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { megaboxCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/megabox';
 import { deskerCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/desker';
 import { yes24CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/yes24';
+import { daeryunEnsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daeryun-ens';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2086,6 +2087,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'daeryun-ens': daeryunEnsCallCenterSpokeContent,
     'haeyang-energy': haeyangEnergyCallCenterSpokeContent,
     'kituramienergy': kituramienergyCallCenterSpokeContent,
     'kowon-energy': kowonEnergyCallCenterSpokeContent,

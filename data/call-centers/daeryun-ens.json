@@ -1,0 +1,23 @@
+{
+  "slug": "daeryun-ens",
+  "name": "대륜이엔에스",
+  "aliases": ["대륜E&S", "대륜 도시가스", "의정부 도시가스", "(주)대륜이엔에스"],
+  "industry": "public",
+  "brandColor": "#0860A8",
+  "official": "https://www.daeryunens.com",
+  "sourceUrl": "https://www.daeryunens.com/daeryunens/store/list.asp",
+  "sourceName": "대륜이엔에스 지역별 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)대륜이엔에스",
+  "hq": "의정부시 민락로 244-6",
+  "main": { "label": "전화", "tel": "1566-6116" },
+  "hours": { "weekday": "오전 9시 ~ 오후 6시" },
+  "hoursNote": "[2026-09-26] 대륜이엔에스 지역별 고객센터: ※ 고객센터 서비스 시간 : 오전 9시 ~ 오후 6시, 토요일 및 공휴일은 고객센터 상황에 따라 근무시간이 변동될 수 있습니다, 연결민원의 경우 당일 접수건은 예약순서에 따라 익일로 연기될 수 있습니다. 푸터: 회사명: (주)대륜이엔에스 주소: 의정부시 민락로 244-6 전화: 1566-6116. 도시가스 틀이 없어 공공 틀. 로고색은 h_logo.gif 최빈색.",
+  "notice": "토요일과 공휴일에는 고객센터 사정에 따라 근무시간이 바뀔 수 있습니다.",
+  "idStep": "가스 사용 주소와 계약자 이름",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1566-6116", "note": "오전 9시~오후 6시" }
+  ]
+}
