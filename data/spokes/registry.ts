@@ -2014,6 +2014,7 @@ import { gunsanCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { aladinCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/aladin';
 import { gov110CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gov110';
 import { winiaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/winia';
+import { amorepacificCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/amorepacific';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2284,6 +2285,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'amorepacific': amorepacificCallCenterSpokeContent,
     'aladin': aladinCallCenterSpokeContent,
     'lotteworld': lotteworldCallCenterSpokeContent,
     'netmarble': netmarbleCallCenterSpokeContent,

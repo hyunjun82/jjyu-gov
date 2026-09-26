@@ -1,0 +1,24 @@
+{
+  "slug": "amorepacific",
+  "name": "아모레퍼시픽",
+  "aliases": ["아모레몰", "AMOREPACIFIC", "아모레퍼시픽 고객센터", "설화수 고객센터"],
+  "industry": "online",
+  "brandColor": "#090909",
+  "official": "https://www.amoremall.com",
+  "sourceUrl": "https://www.amoremall.com/kr/ko/display/main",
+  "sourceName": "아모레몰 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)아모레퍼시픽",
+  "hq": "서울특별시 용산구 한강대로 100 (한강로2가)",
+  "main": { "label": "쇼핑문의", "tel": "080-030-5454" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 아모레몰 푸터: (주)아모레퍼시픽 서울특별시 용산구 한강대로 100 (한강로2가), 080-030-5454 (쇼핑문의) / 080-023-5454 (제품문의), amorepacificcs@amorepacific.com (주문/배송/쇼핑 문의). 전화 상담시간 표기는 없다 — 비운다. 화장품 틀이 없어 온라인 틀. 로고색은 캡처 헤더(회색 딤 제외) 최빈색.",
+  "notice": "제품 자체에 대한 문의는 제품문의 080-023-5454로 따로 받습니다.",
+  "idStep": "주문번호와 가입 아이디",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "쇼핑문의", "tel": "080-030-5454" },
+    { "label": "제품문의", "tel": "080-023-5454" }
+  ]
+}

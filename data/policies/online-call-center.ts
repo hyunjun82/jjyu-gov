@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'amorepacific', role: 'eligibility', title: '아모레퍼시픽 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'aladin', role: 'eligibility', title: '알라딘 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'lotteworld', role: 'eligibility', title: '롯데월드 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'netmarble', role: 'eligibility', title: '넷마블 고객센터 전화번호 및 상담원 연결·문의 안내' },
