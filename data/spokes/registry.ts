@@ -1980,6 +1980,7 @@ import { ceragemCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { lotteRentacarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotte-rentacar';
 import { daisoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/daiso';
 import { ybtourCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ybtour';
+import { iloomCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/iloom';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2233,6 +2234,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'iloom': iloomCallCenterSpokeContent,
     'ybtour': ybtourCallCenterSpokeContent,
     'daiso': daisoCallCenterSpokeContent,
     'lotte-rentacar': lotteRentacarCallCenterSpokeContent,
