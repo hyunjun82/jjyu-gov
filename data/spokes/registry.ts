@@ -2000,6 +2000,7 @@ import { haeyangEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { kituramiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/kiturami';
 import { albamonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/albamon';
 import { megaboxCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/megabox';
+import { deskerCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/desker';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2261,6 +2262,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'desker': deskerCallCenterSpokeContent,
     'megabox': megaboxCallCenterSpokeContent,
     'albamon': albamonCallCenterSpokeContent,
     '29cm': cc29cmCallCenterSpokeContent,

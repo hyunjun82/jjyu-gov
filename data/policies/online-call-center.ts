@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'desker', role: 'eligibility', title: '데스커 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tving', role: 'eligibility', title: '티빙 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jinair', role: 'eligibility', title: '진에어 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'megabox', role: 'eligibility', title: '메가박스 고객센터 전화번호 및 상담원 연결·문의 안내' },
