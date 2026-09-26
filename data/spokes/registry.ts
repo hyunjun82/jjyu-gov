@@ -1976,6 +1976,7 @@ import { skRentacarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { cuchenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/cuchen';
 import { modetourCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/modetour';
 import { lottemartCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lottemart';
+import { ceragemCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/ceragem';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2024,6 +2025,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'ceragem': ceragemCallCenterSpokeContent,
     'cuchen': cuchenCallCenterSpokeContent,
     'dyson-kr': dysonKrCallCenterSpokeContent,
     'samsung-svc': samsungSvcCallCenterSpokeContent,

@@ -1,0 +1,21 @@
+{
+  "slug": "ceragem",
+  "name": "세라젬",
+  "aliases": ["CERAGEM", "세라젬 AS", "세라젬 AS센터", "세라젬 안마의자"],
+  "industry": "appliance",
+  "brandColor": "#D4072E",
+  "official": "https://www.ceragem.co.kr",
+  "sourceUrl": "https://www.ceragem.co.kr/customer/qna.asp",
+  "sourceName": "세라젬 고객지원",
+  "verifiedAt": "2026-09-26",
+  "corp": "세라젬",
+  "hq": "서울특별시 강남구 테헤란로 231 센터필드 WEST동 10-11층",
+  "main": { "label": "고객센터", "tel": "1577-5570" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 세라젬 고객지원·홈 푸터: 서울 타운 : 서울특별시 강남구 테헤란로 231 센터필드 WEST동 10-11층, 천안 타운 : 충남 천안시 서북구 성거읍 정자1길 10, 고객센터 : 1577-5570, AS센터 : 1577-5570. 상담시간 표기는 없다 — 비운다. 로고색은 logo_ceragem_241002.png 최빈색.",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1577-5570", "note": "AS센터도 같은 번호" }
+  ]
+}
