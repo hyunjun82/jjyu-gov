@@ -126,6 +126,8 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'ikea', role: 'eligibility', title: '이케아 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'abcmart', role: 'eligibility', title: 'ABC마트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'incruit', role: 'eligibility', title: '인크루트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hanatour', role: 'eligibility', title: '하나투어 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'yeogi', role: 'eligibility', title: '여기어때 고객센터 전화번호 및 상담원 연결·문의 안내' },

@@ -2057,6 +2057,8 @@ import { chambitChungbukCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]
 import { jbCorporationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jb-corporation';
 import { youngnamEnergyGumiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/youngnam-energy-gumi';
 import { youngnamEnergyPohangCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/youngnam-energy-pohang';
+import { abcmartCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/abcmart';
+import { ikeaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ikea';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2343,6 +2345,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'ikea': ikeaCallCenterSpokeContent,
+    'abcmart': abcmartCallCenterSpokeContent,
     'incruit': incruitCallCenterSpokeContent,
     'hanatour': hanatourCallCenterSpokeContent,
     'yeogi': yeogiCallCenterSpokeContent,

@@ -1,0 +1,22 @@
+{
+  "slug": "abcmart",
+  "name": "ABC마트",
+  "aliases": ["ABC-MART", "에이비씨마트", "ABC마트 고객센터", "ABC마트 통합고객센터"],
+  "industry": "online",
+  "brandColor": "#E30613",
+  "official": "https://abcmart.a-rt.com",
+  "sourceUrl": "https://abcmart.a-rt.com/",
+  "sourceName": "ABC-MART 공식 온라인몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)에이비씨마트 코리아",
+  "hq": "서울특별시 중구 을지로 100, B동 21층 (을지로 2가, 파인에비뉴)",
+  "main": { "label": "통합고객센터", "tel": "1588-9667" },
+  "hours": { "weekday": "월~금 09:00 ~ 12:00 / 13:00 ~ 18:00 (공휴일 휴무)" },
+  "hoursNote": "[2026-09-26] ABC-MART 공식 온라인몰 하단: 통합고객센터 1588-9667, 월~금 09:00 ~ 12:00 / 13:00 ~ 18:00 (공휴일 휴무), 챗봇 상담. 푸터: (주)에이비씨마트 코리아 주소 : 서울특별시 중구 을지로 100, B동 21층 (을지로 2가, 파인에비뉴), 이메일 : abcmartcs@abcmartkorea.com. 패션 틀이 없어 온라인 틀. 로고색은 헤더 ABC-MART 로고 빨강 최빈색.",
+  "idStep": "주문번호",
+  "heroSalt": "af",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "통합고객센터", "tel": "1588-9667", "note": "월~금 09:00~12:00, 13:00~18:00 (공휴일 휴무)" }
+  ]
+}
