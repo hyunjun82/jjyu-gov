@@ -1,0 +1,20 @@
+{
+  "slug": "winia",
+  "name": "위니아",
+  "aliases": ["위니아딤채", "딤채", "위니아 AS", "딤채 AS", "위니아 서비스"],
+  "industry": "appliance",
+  "brandColor": "#000000",
+  "official": "https://www.winia.com",
+  "sourceUrl": "https://www.winia.com/main",
+  "sourceName": "위니아 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "hq": "광주광역시 광산구 하남산단9번로 110(안청동)",
+  "main": { "label": "서비스 상담 및 접수", "tel": "1588-9588" },
+  "hours": { "weekday": "평일 : 09:00 ~ 18:00", "saturday": "토요일 : 09:00 ~ 13:00", "holiday": "공휴일 / 일요일 휴무" },
+  "hoursNote": "[2026-09-26] 위니아 홈(winia.co.kr → winia.com): 서비스 상담 및 접수 1588-9588, 평일 : 09:00~18:00, 토요일 : 09:00~13:00, 공휴일/일요일 휴무. 푸터 고객지원 1588-9588, 평일 : 09:00 ~ 18:00, 토요일 : 09:00 ~ 13:00, 공휴일 / 일요일 휴무. 본사 : 광주광역시 광산구 하남산단9번로 110(안청동). 로고색은 logo_winiadimchae.svg(검정).",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "서비스 상담 및 접수", "tel": "1588-9588", "note": "평일 09:00~18:00, 토요일 09:00~13:00" }
+  ]
+}

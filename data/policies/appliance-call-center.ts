@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'winia', role: 'eligibility', title: '위니아 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'paseco', role: 'eligibility', title: '파세코 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'kojima', role: 'eligibility', title: '코지마 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'sony-kr', role: 'eligibility', title: '소니코리아 고객센터 전화번호 및 AS 접수·출장비 안내' },

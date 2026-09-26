@@ -2013,6 +2013,7 @@ import { lotteworldCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { gunsanCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gunsan-citygas';
 import { aladinCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/aladin';
 import { gov110CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gov110';
+import { winiaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/winia';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2061,6 +2062,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'winia': winiaCallCenterSpokeContent,
     'paseco': pasecoCallCenterSpokeContent,
     'kojima': kojimaCallCenterSpokeContent,
     'sony-kr': sonyKrCallCenterSpokeContent,
