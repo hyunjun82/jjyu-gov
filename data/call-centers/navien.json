@@ -1,0 +1,18 @@
+{
+  "slug": "navien",
+  "name": "경동나비엔",
+  "aliases": ["나비엔", "경동보일러", "나비엔하우스", "경동나비엔 AS"],
+  "industry": "appliance",
+  "brandColor": "#102F6F",
+  "official": "https://www.navienhouse.com",
+  "sourceUrl": "https://www.navienhouse.com/support",
+  "sourceName": "나비엔하우스 고객지원",
+  "verifiedAt": "2026-09-26",
+  "main": { "label": "고객상담센터", "tel": "1588-1144" },
+  "hours": { "weekday": "365일 24시간" },
+  "hoursNote": "[2026-09-26] kdnavien.co.kr 의 '고객지원' 메뉴가 navienhouse.com/support 로 연결된다. 나비엔 하우스 고객지원: 고객상담센터 1588-1144 (365일 24시간 운영), 푸터도 '고객상담센터 1588-1144 365일 24시간 운영'. A/S 접수·1:1 상담은 웹 메뉴. 두 사이트 모두 헤드리스 403(Azure Gateway)이라 --headed 로 떴다. 로고색은 캡처 헤더 최빈색.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객상담센터", "tel": "1588-1144", "note": "365일 24시간 운영" }
+  ]
+}

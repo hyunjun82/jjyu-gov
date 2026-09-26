@@ -1941,6 +1941,7 @@ import { busanCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/co
 import { tripcomCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tripcom';
 import { boramSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/boram-sangjo';
 import { logenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/logen';
+import { navienCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/navien';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -1989,6 +1990,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'navien': navienCallCenterSpokeContent,
     'lg-ele': lgEleCallCenterSpokeContent,
     'chungho': chunghoCallCenterSpokeContent,
     'cuckoo': cuckooCallCenterSpokeContent,
