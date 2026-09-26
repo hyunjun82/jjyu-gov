@@ -1,0 +1,22 @@
+{
+  "slug": "muji-kr",
+  "name": "무인양품",
+  "aliases": ["MUJI", "무지", "무인양품 고객센터", "무인양품 고객만족센터"],
+  "industry": "online",
+  "brandColor": "#1D1D1F",
+  "official": "https://www.mujikorea.net",
+  "sourceUrl": "https://www.mujikorea.net/",
+  "sourceName": "무인양품 공식 온라인스토어",
+  "verifiedAt": "2026-09-26",
+  "corp": "무인양품(주)",
+  "hq": "서울 중구 서소문로 50 10층(중림동,CENTRALPLACE)",
+  "main": { "label": "고객만족센터", "tel": "1551-3780" },
+  "hours": { "weekday": "평일 09:30 ~ 18:30 (주말, 공휴일 휴무)", "lunch": "점심시간 12:30 ~ 13:30" },
+  "hoursNote": "[2026-09-26] 무인양품 온라인스토어 푸터: 상호명 : 무인양품(주), 주소 : 서울 중구 서소문로 50 10층(중림동,CENTRALPLACE), 고객만족센터 : 1551-3780, 운영시간 : 평일 09:30 ~ 18:30 (주말, 공휴일 휴무), 점심시간 12:30 ~ 13:30. 웹채팅 '무인양품 고객센터' 창이 따로 있다. 생활용품 틀이 없어 온라인 틀. 로고색은 헤더 MUJI 無印良品 워드마크 최빈색 #1D1D1F.",
+  "idStep": "주문번호",
+  "heroSalt": "ak",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객만족센터", "tel": "1551-3780", "note": "평일 09:30~18:30, 점심 12:30~13:30" }
+  ]
+}
