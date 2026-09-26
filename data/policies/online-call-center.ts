@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'tving', role: 'eligibility', title: '티빙 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jinair', role: 'eligibility', title: '진에어 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'twayair', role: 'eligibility', title: '트리니티항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'logen', role: 'eligibility', title: '로젠택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
