@@ -1945,6 +1945,7 @@ import { navienCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { twayairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/twayair';
 import { bodyfriendCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/bodyfriend';
 import { jinairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/jinair';
+import { daesungEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daesung-energy';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2021,6 +2022,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'daesung-energy': daesungEnergyCallCenterSpokeContent,
     'busan-citygas': busanCitygasCallCenterSpokeContent,
     'korail': korailCallCenterSpokeContent,
     'epost-bank': epostBankCallCenterSpokeContent,
