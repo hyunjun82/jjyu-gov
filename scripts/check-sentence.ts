@@ -115,13 +115,24 @@ const DIRS: string[] = (() => {
 const CONTENT = path.join(ROOT, 'app', 'policy', '[id]', '[spoke]', 'content');
 DIRS.map((d) => path.join(CONTENT, d)).filter((d) => fs.existsSync(d)).forEach(walk);
 
-/* 이 게이트보다 오래된 글은 건드리지 않는다 */
+/* 이 게이트보다 오래된 글은 건드리지 않는다
+   2026-09-26: 파일마다 git log 를 따로 돌리니 426편에 272초가 걸렸다 — 한 번에 읽어 표로 만든다.
+   판정은 같다: 그 파일을 추가한 가장 최근 커밋 날짜(git log 는 최신부터 나오니 처음 본 날짜) */
+const ADDED = new Map<string, string>();
+try {
+  const log = execSync('git log --diff-filter=A --format=@%ad --date=short --name-only -- "app/policy/[id]/[spoke]/content"',
+    { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'], maxBuffer: 256 * 1024 * 1024, encoding: 'utf8',
+      env: { ...process.env, GIT_CONFIG_PARAMETERS: "'core.quotepath=false'" } });
+  let day = '';
+  for (const line of log.split('\n')) {
+    if (line.startsWith('@')) { day = line.slice(1).trim(); continue; }
+    const k = line.trim();
+    if (k && !ADDED.has(k)) ADDED.set(k, day);
+  }
+} catch { /* 못 읽으면 전부 새 글로 본다 — 원래와 같다 */ }
 const isOld = (f: string): boolean => {
-  try {
-    const first = execSync(`git log --diff-filter=A --format=%ad --date=short -1 -- "${f.replace(/\\/g, '/')}"`,
-      { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
-    return !!first && first < BORN;
-  } catch { return false; }
+  const first = ADDED.get(path.relative(ROOT, f).replace(/\\/g, '/'));
+  return !!first && first < BORN;
 };
 
 console.log('='.repeat(60));
