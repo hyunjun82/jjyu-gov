@@ -1,0 +1,22 @@
+{
+  "slug": "genesis",
+  "name": "제네시스",
+  "aliases": ["GENESIS", "제네시스 고객센터", "제네시스 서비스"],
+  "industry": "online",
+  "brandColor": "#111111",
+  "official": "https://www.genesis.com",
+  "sourceUrl": "https://www.genesis.com/kr/ko/support/customer-support.html",
+  "sourceName": "제네시스 고객센터 안내",
+  "verifiedAt": "2026-09-26",
+  "main": { "label": "제네시스 고객센터", "tel": "080-700-6000" },
+  "hours": { "weekday": "평일 08:30 ~ 18:00", "holiday": "주말·공휴일 휴무" },
+  "hoursNote": "[2026-09-26] 제네시스 고객센터 안내: 제네시스 고객센터 080-700-6000, 평일 08:30 ~ 18:00, 주말·공휴일 휴무 (긴급출동, 안전 보안 서비스는 365일 24시간 제공). 현대자동차(080-600-6000)와 번호가 다른 별도 고객센터. 본사 주소는 이 페이지에 없다. 자동차 틀이 없어 온라인 틀. 로고색은 캡처 헤더 검정.",
+  "notice": "긴급출동과 안전 보안 서비스는 365일 24시간 제공됩니다.",
+  "idStep": "차량번호와 계약자 이름",
+  "dayNote": "정비 예약 문의는 평일 상담시간 안에 거는 편이 빠릅니다.",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "제네시스 고객센터", "tel": "080-700-6000", "note": "평일 08:30~18:00" }
+  ]
+}
