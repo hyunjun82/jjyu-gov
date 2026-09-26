@@ -1,0 +1,89 @@
+SLUG: hansung-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/hansung-call-center-*.png)
+
+===== [1] https://www.hansungcom.co.kr/support =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/hansung-call-center-1.png
+CHARS: 805
+
+ABOUT
+PRODUCT
+SUPPORT
+KR
+Support
+
+한성컴퓨터는 최상의 서비스를 제공합니다.
+
+AS안내
+AS접수
+다운로드
+자주 묻는 질문
+문의하기
+AS안내
+전국 10개 직영점 전국 100여개의 서비스 지정점에서 편리하게 서비스 받으세요.
+한성컴퓨터는 전국 120여개 판매 및 서비스 센터 를 운영하여 고객님의 편의를 위해 최선의 노력을 다하고 있습니다 전국 10개 직영점 에서는 한성컴퓨터에서 취급하는 모든 제품의 서비스가 진행 됩니다.
+
+당사의 가장 특장점으로 손색이 없는 A/S 체계 및 운영은 고객의 만족도를 극대화 시키고 있으며 원활하게 처리하기 위해 서울, 부산, 대전, 대구, 광주, 전주, 창원, 천안, 분당, 강릉, 직영A/S 망을 구축하고 우수한 기술진이 항시 대기하고 있어 전국 어느 지역에서나 발생하는 SERVICE 업무도 시간 단위로 즉각 처리하고 있으며, 고객의 불편을 ZERO화 하기 위하여 각종 품질보증 체계(QA)를 구축하고 있습니다.
+A/S 전담 콜 : 02-3272-1003
+(주)한성컴퓨터
+인천광역시 서해구 파랑로 536우편번호 : 22770 
+대표이사 : 한동열
+|
+사업자등록번호 : 181-87-01876
+이메일 : oksugod@hansungcom.co.kr
+|
+전화 : 070-7595-7176
+|
+팩스 : 0505-991-2580
+ABOUT
+회사소개
+주요사업
+설치/시공사례
+사회책임경영
+특허/인증
+PRODUCT
+제품소개
+E-Catalog
+SUPPORT
+AS안내
+AS접수
+다운로드
+자주묻는질문
+문의하기
+개인정보처리방침
+|
+이메일무단수집거부
+Shop 조달청
+|
+미디어룸
+|
+E-Catalog
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+KR
+ KR
+ EN
+ ABOUT
+ 회사소개
+ 주요사업
+ 설치/시공사례
+ 사회책임경영
+ 특허/인증
+ PRODUCT
+ 제품소개
+ E-Catalog
+ SUPPORT
+ AS안내
+ AS접수
+ 다운로드
+ 자주묻는질문
+ 문의하기
+
+AS안내
+ AS안내
+ AS접수
+ 다운로드
+ 자주 묻는 질문
+ 문의하기

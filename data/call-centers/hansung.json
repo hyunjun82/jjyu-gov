@@ -1,0 +1,22 @@
+{
+  "slug": "hansung",
+  "name": "한성컴퓨터",
+  "aliases": ["한성 노트북 AS", "한성컴퓨터 AS", "HANSUNG", "한성컴퓨터 서비스센터"],
+  "industry": "appliance",
+  "brandColor": "#696967",
+  "official": "https://www.hansungcom.co.kr",
+  "sourceUrl": "https://www.hansungcom.co.kr/support",
+  "sourceName": "한성컴퓨터 AS안내",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)한성컴퓨터",
+  "hq": "인천광역시 서해구 파랑로 536",
+  "hqZip": "22770",
+  "main": { "label": "A/S 전담 콜", "tel": "02-3272-1003" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 한성컴퓨터 AS안내(hansungcom.co.kr/support): 전국 10개 직영점·100여개 서비스 지정점, A/S 전담 콜 : 02-3272-1003, (주)한성컴퓨터 인천광역시 서해구 파랑로 536 우편번호 : 22770. 이 페이지에 상담시간 표기는 없다 — 비운다(구글 요약의 평일 10:00~17:00 은 다른 도메인 쇼핑몰 값이라 쓰지 않음). hansung.co.kr 은 한성자동차(벤츠)라 다른 회사. 브랜드색은 캡처 헤더의 짙은 회색.",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "A/S 전담 콜", "tel": "02-3272-1003" }
+  ]
+}
