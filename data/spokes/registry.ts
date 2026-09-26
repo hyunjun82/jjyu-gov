@@ -2082,6 +2082,7 @@ import { electroluxKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/co
 import { yedahamCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/yedaham';
 import { bumoSarangCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/bumo-sarang';
 import { thepeoplelifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/thepeoplelife';
+import { theRebornCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/the-reborn';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2372,6 +2373,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'the-reborn': theRebornCallCenterSpokeContent,
     'thepeoplelife': thepeoplelifeCallCenterSpokeContent,
     'bumo-sarang': bumoSarangCallCenterSpokeContent,
     'yedaham': yedahamCallCenterSpokeContent,
