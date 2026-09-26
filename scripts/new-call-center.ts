@@ -364,7 +364,9 @@ for (const k of Object.keys(C.hours)) {
 /* 점심시간 — 원문에 있으면 사람이 JSON 에 원문 그대로 적는다(문장이 회사마다 다르다). */
 /* 점심 뒤에 시각이 붙을 때만 점심시간 안내로 본다 (2026-09-26 알바몬 — 홈의 구인 공고 '점심 간식 음료 제공' 을 잡았다) */
 const lunchInSrc = /(점심|중식)[^0-9]{0,8}\d{1,2}(:\d{2}|시)\s*[~\-]/.test(src);
-if (lunchInSrc && !C.hours.lunch) {
+/* lunchElsewhere — 원문의 점심시간이 대표번호가 아닌 다른 창구 것일 때 그 사유를 적는다 (2026-09-26 하나투어:
+   대표번호 해외여행 문의는 연중무휴인데 점심시간은 해외항공권·국내항공 창구에만 붙어 있다. lunch 에 넣으면 대표번호가 점심에 쉬는 것처럼 나온다) */
+if (lunchInSrc && !C.hours.lunch && !(C as any).lunchElsewhere) {
   die('원문에 점심시간 언급이 있다. data/call-centers/' + C.slug + '.json 의 hours.lunch 에 원문 그대로 적고 다시 돌려라.');
 }
 /* 조사·시간문구 — 값이 회사마다 달라서 문장에 그대로 박으면 반드시 틀어진다. (2026-08-26)
