@@ -1,0 +1,21 @@
+{
+  "slug": "discovery-kr",
+  "name": "디스커버리 익스페디션",
+  "aliases": ["디스커버리", "Discovery Expedition", "디스커버리 고객센터", "디스커버리 익스페디션 고객센터"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.discovery-expedition.com",
+  "sourceUrl": "https://www.discovery-expedition.com/",
+  "sourceName": "디스커버리 익스페디션 공식몰",
+  "verifiedAt": "2026-09-26",
+  "hq": "서울특별시 강남구 테헤란로8길 8",
+  "main": { "label": "고객센터", "tel": "080-820-8802" },
+  "hours": { "weekday": "평일 오전 9시 ~ 오후 6시(토/일/공휴일 휴무)" },
+  "hoursNote": "[2026-09-26] 디스커버리 익스페디션 공식몰 푸터: 대표: 김창수 / 서울특별시 강남구 테헤란로8길 8, 교환・반품 반송처 : 경기도 이천시 대월면 초지리 57 F&F 물류센터 디스커버리 물류부, 고객센터 : 080-820-8802 / 운영시간 : 평일 오전 9시 ~ 오후 6시(토/일/공휴일 휴무). 법인명이 푸터 추출본에 없어 corp 는 비운다. 패션 틀이 없어 온라인 틀. 로고는 사진 위 흰색 워드마크라 색을 쓸 수 없어 헤더 윗띠의 검정을 쓴다.",
+  "idStep": "주문번호",
+  "heroSalt": "ao",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "080-820-8802", "note": "평일 오전 9시~오후 6시(토/일/공휴일 휴무)" }
+  ]
+}
