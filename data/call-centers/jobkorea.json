@@ -1,0 +1,20 @@
+{
+  "slug": "jobkorea",
+  "name": "잡코리아",
+  "aliases": ["JOBKOREA", "잡코리아 고객센터", "잡코리아 상담원"],
+  "industry": "online",
+  "brandColor": "#083CCC",
+  "official": "https://www.jobkorea.co.kr",
+  "sourceUrl": "https://www.jobkorea.co.kr/help/faq/user",
+  "sourceName": "잡코리아 고객센터 FAQ",
+  "verifiedAt": "2026-09-26",
+  "main": { "label": "고객센터", "tel": "1588-9350" },
+  "hours": { "weekday": "평일 09:00 ~ 19:00", "saturday": "토요일 09:00 ~ 15:00" },
+  "hoursNote": "[2026-09-26] 잡코리아 고객센터 FAQ 푸터: 고객센터 1588-9350 (평일 09:00 ~ 19:00 토요일 09:00 ~ 15:00) FAX 02-565-9351 Email helpdesk@jobkorea.co.kr 톡톡상담. 일요일·공휴일 표기는 없다. 알바몬(1588-9351)과 같은 계열이지만 번호가 다른 별도 고객센터. 본사 주소는 이 페이지에 없어 지도 칸은 비운다. 채용 틀이 없어 온라인 틀. 로고색은 캡처 헤더 최빈색.",
+  "idStep": "가입 아이디와 휴대폰 번호",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-9350", "note": "평일 09:00~19:00, 토요일 09:00~15:00" }
+  ]
+}
