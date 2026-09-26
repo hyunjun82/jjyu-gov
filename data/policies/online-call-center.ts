@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'elbeelife', role: 'eligibility', title: '엘비라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'khsangjo', role: 'eligibility', title: '금호라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hanlasangjo', role: 'eligibility', title: '한라상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'apluslife', role: 'eligibility', title: '에이플러스라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
