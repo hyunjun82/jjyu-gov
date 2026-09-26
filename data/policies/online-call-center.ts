@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'yedaham', role: 'eligibility', title: '더케이예다함 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'loccitane-kr', role: 'eligibility', title: '록시땅 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kiehls-kr', role: 'eligibility', title: '키엘 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ahc', role: 'eligibility', title: 'AHC(카버코리아) 고객센터 전화번호 및 상담원 연결·문의 안내' },
