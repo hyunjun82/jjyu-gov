@@ -2074,6 +2074,9 @@ import { asicsKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { pumaKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/puma-kr';
 import { chicorCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/chicor';
 import { thefaceshopCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/thefaceshop';
+import { ahcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ahc';
+import { kiehlsKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kiehls-kr';
+import { loccitaneKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/loccitane-kr';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2362,6 +2365,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'loccitane-kr': loccitaneKrCallCenterSpokeContent,
+    'kiehls-kr': kiehlsKrCallCenterSpokeContent,
+    'ahc': ahcCallCenterSpokeContent,
     'thefaceshop': thefaceshopCallCenterSpokeContent,
     'chicor': chicorCallCenterSpokeContent,
     'puma-kr': pumaKrCallCenterSpokeContent,
