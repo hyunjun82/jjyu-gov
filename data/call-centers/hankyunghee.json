@@ -1,0 +1,21 @@
+{
+  "slug": "hankyunghee",
+  "name": "한경희생활과학",
+  "aliases": ["한경희", "HAAN", "한경희 스팀청소기 AS", "한티앤에스"],
+  "industry": "appliance",
+  "brandColor": "#E11B22",
+  "official": "https://www.haan.com",
+  "sourceUrl": "https://www.haan.com/",
+  "sourceName": "한경희생활과학 공식몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)한티앤에스",
+  "hq": "경기 안산시 단원구 산단로 87",
+  "main": { "label": "고객센터", "tel": "1544-4918" },
+  "hours": { "weekday": "09:00 ~ 17:30", "holiday": "토, 일, 공휴일은 휴무 입니다.", "lunch": "점심시간 : 12:00 ~ 13:00" },
+  "hoursNote": "[2026-09-26] 한경희생활과학 공식몰(haan.com) 푸터: 고객센터 1544-4918, 운영시간 : 09:00 ~ 17:30, 점심시간 : 12:00 ~ 13:00, 토, 일, 공휴일은 휴무 입니다. 법인명(상호) : (주)한티앤에스, 주소 : 경기 안산시 단원구 산단로 87. 구글 결과의 A/S 센터(haanservice.com, 1566-1181)는 이 페이지에 없어 쓰지 않는다. 로고색은 logo_haan.png 최빈색.",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-4918", "note": "09:00~17:30, 점심 12:00~13:00" }
+  ]
+}

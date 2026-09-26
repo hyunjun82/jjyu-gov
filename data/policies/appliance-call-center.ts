@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'hankyunghee', role: 'eligibility', title: '한경희생활과학 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'miele-kr', role: 'eligibility', title: '밀레코리아 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'htech', role: 'eligibility', title: '휴테크 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'hansung', role: 'eligibility', title: '한성컴퓨터 고객센터 전화번호 및 AS 접수·출장비 안내' },

@@ -2028,6 +2028,7 @@ import { jobkoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { jeonbukEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeonbuk-energy';
 import { mieleKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/miele-kr';
 import { sonoImreadyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sono-imready';
+import { hankyungheeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/hankyunghee';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2076,6 +2077,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'hankyunghee': hankyungheeCallCenterSpokeContent,
     'miele-kr': mieleKrCallCenterSpokeContent,
     'htech': htechCallCenterSpokeContent,
     'hansung': hansungCallCenterSpokeContent,
