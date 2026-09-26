@@ -1,0 +1,22 @@
+{
+  "slug": "lotte-dept",
+  "name": "롯데백화점",
+  "aliases": ["롯데쇼핑 백화점", "롯데백화점 고객센터", "롯데백화점 대표전화"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.lotteshopping.com",
+  "sourceUrl": "https://www.lotteshopping.com/main",
+  "sourceName": "롯데백화점 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "롯데쇼핑㈜",
+  "hq": "서울특별시 중구 남대문로 81 (소공동 1)",
+  "main": { "label": "대표전화", "tel": "1577-0001" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 롯데백화점 홈·온라인상담실 푸터: 롯데쇼핑㈜ 서울특별시 중구 남대문로 81 (소공동 1) 대표전화: 1577-0001 L.POINT 콜센터: 1899-8900. 전화 상담시간 표기는 없다 — 비운다. L.POINT(엘포인트)는 CSV 에 별도 키워드가 있어 번호 표에 넣지 않는다(중복 방지). 백화점 틀이 없어 온라인 틀. 로고색은 logo.svg(검정).",
+  "idStep": "구매 영수증과 이용 점포",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1577-0001" }
+  ]
+}

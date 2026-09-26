@@ -1987,6 +1987,7 @@ import { hyundaiDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { kyungdongGasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kyungdong-gas';
 import { jeonbukCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeonbuk-citygas';
 import { kowonEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kowon-energy';
+import { lotteDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotte-dept';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2243,6 +2244,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'lotte-dept': lotteDeptCallCenterSpokeContent,
     'hyundai-dept': hyundaiDeptCallCenterSpokeContent,
     'homeplus': homeplusCallCenterSpokeContent,
     'upbit': upbitCallCenterSpokeContent,

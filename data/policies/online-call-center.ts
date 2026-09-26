@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'lotte-dept', role: 'eligibility', title: '롯데백화점 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hyundai-dept', role: 'eligibility', title: '현대백화점 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'homeplus', role: 'eligibility', title: '홈플러스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'upbit', role: 'eligibility', title: '업비트 고객센터 전화번호 및 상담원 연결·문의 안내' },
