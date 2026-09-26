@@ -1,0 +1,24 @@
+{
+  "slug": "northface-kr",
+  "name": "노스페이스",
+  "aliases": ["The North Face", "노스페이스 코리아", "영원아웃도어", "노스페이스 AS"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.thenorthfacekorea.co.kr",
+  "sourceUrl": "https://www.thenorthfacekorea.co.kr/",
+  "sourceName": "노스페이스 공식 온라인몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "㈜영원아웃도어",
+  "hq": "경기도 성남시 중원구 사기막골로 169",
+  "main": { "label": "온라인몰 고객지원실", "tel": "1661-3512" },
+  "hours": { "weekday": "월~금요일 09:00~18:00", "holiday": "토, 일, 공휴일 휴무" },
+  "hoursNote": "[2026-09-26] 노스페이스 공식 온라인몰 푸터: 온라인몰 고객지원실 1661-3512 월~금요일 09:00~18:00 토, 일, 공휴일 휴무 / 매장고객 및 AS문의 1899-2626 월~금요일 09:00~18:00. ㈜영원아웃도어 주소: 경기도 성남시 중원구 사기막골로 169. 번호 순서는 원문 순서 그대로. 패션 틀이 없어 온라인 틀. 로고색은 TNF_logo_black_3.svg.",
+  "notice": "매장 구매 문의와 A/S는 1899-2626으로 따로 받습니다.",
+  "idStep": "주문번호와 가입 아이디",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "온라인몰 고객지원실", "tel": "1661-3512", "note": "월~금 09:00~18:00" },
+    { "label": "매장고객·AS문의", "tel": "1899-2626", "note": "월~금 09:00~18:00" }
+  ]
+}

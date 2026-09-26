@@ -1,0 +1,1337 @@
+SLUG: northface-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/northface-kr-call-center-*.png)
+
+===== [1] https://www.thenorthfacekorea.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/northface-kr-call-center-1.png
+CHARS: 5913
+
+하루동안 열지 않기	
+	
+추석 연휴 배송 안내
+1 / 1
+액티비티
+랭킹
+화이트라벨
+남성
+여성
+키즈
+가방/용품
+신발
+SALE
+아울렛
+경량 패딩
+검색
+검색 모달 닫기
+검색
+최근 검색어
+
+최근 검색어가 없습니다.
+
+인기 검색어
+1
+벤투스
+2
+눕시
+3
+패딩
+4
+바람막이 자켓
+5
+경량패딩
+6
+플리스
+7
+칼릭스
+8
+모자
+9
+N
+10
+마테호른
+추천 검색어
+경량 패딩
+노벨티 올레마
+퀀텀 눕시
+클리프스니커즈
+가을 자켓
+온라인 전용
+울트라 팩 시리즈
+키즈 인기상품
+스튜디오 에디션
+베스트 랭킹
+
+노스페이스 공식 온라인 스토어
+THE NEW CLASSIC
+절제된 디테일이 만드는 새로운 클래식
+2
+/
+5
+GRAND OPENING
+MYEONGDONG LOUNGE
+2
+/
+5
+2
+/
+5
+2
+/
+5
+2
+/
+5
+THE NEW CLASSIC
+절제된 디테일이 만드는 새로운 클래식
+2
+/
+5
+GRAND OPENING
+MYEONGDONG LOUNGE
+2
+/
+5
+2
+/
+5
+2
+/
+5
+2
+/
+5
+THE NEW CLASSIC
+절제된 디테일이 만드는 새로운 클래식
+2
+/
+5
+GRAND OPENING
+MYEONGDONG LOUNGE
+2
+/
+5
+한가위에 더하는 특별한 혜택
+
+경량 패딩 구매 시 클리프 스니커즈 할인 쿠폰 증정
+
+M'S ALTOR ON JACKET
+
+249,000 원
+
+M'S LIGHT PACK DOWN JACKET
+
+349,000 원
+
+W'S LIGHT PACK DOWN JACKET
+
+339,000 원
+
+M'S CLIMB JACKET
+
+289,000 원
+
+M'S FORT FLEECE ANORAK
+
+139,000 원
+
+M'S DAYCLIMB L/S R/TEE
+
+89,000 원
+
+M'S RIDGEWOOD PANTS
+
+179,000 원
+
+BOREALIS MINI BACKPACK
+
+89,000 원
+
+BONNEY PACK M_PD
+
+129,000 원
+
+M OFFTRAIL HIKE MID GTX
+
+259,000 원
+
+Fall in Style
+
+스타일의 온도를 바꾸는 신상 자켓 컬렉션
+
+NEILTON JACKET
+
+218,000 원
+
+NOVELTY OLEMA EX JACKET
+
+178,600 원
+5%
+
+BROMO JACKET
+
+278,000 원
+
+W'S MAWREN JACKET
+
+248,000 원
+
+M'S STORMEGA JACKET
+
+279,000 원
+
+M'S CRINKAIR JACKET
+
+199,000 원
+
+THERMOVANE FLEECE JACKET
+
+228,000 원
+
+W'S NOVELTY OLEMA EX HOODIE
+
+178,600 원
+5%
+
+M'S STRATA JACKET
+
+349,000 원
+
+VILAN EX HOODIE
+
+169,100 원
+5%
+
+W'S STRATA TRENCH COAT
+
+489,000 원
+
+MAWREN JACKET
+
+258,000 원
+
+New Arrivals
+
+가장 먼저 만나 보는 신상품 컬렉션
+
+M'S ALTOR ON JACKET
+
+249,000 원
+
+DAYDRIVE EX ON JACKET
+
+235,600 원
+5%
+
+W'S WAVE LT ON JACKET
+
+238,000 원
+
+K'S ANI-MATE NUPTSE ON JACKET
+
+228,000 원
+
+STREAM 12
+
+89,000 원
+
+K'S WAVE ON JACKET
+
+198,000 원
+
+M'S DENALI FLEECE JACKET
+
+199,000 원
+
+W'S NOVELTY NUPTSE JACKET (RDS)
+
+388,000 원
+
+M'S YUKON JACKET
+
+199,000 원
+
+UNI FLEECE GLOVE
+
+43,000 원
+
+M'S DENALI FLEECE PANTS
+
+149,000 원
+
+M'S FORT FLEECE ANORAK
+
+139,000 원
+
+TNF LOGO SOFT CAP
+
+45,000 원
+
+GRID TOTE BAG
+
+79,000 원
+
+M'S DENALI WIND FLEECE JACKET
+
+219,000 원
+
+G'S ELLA DOWN JACKET (RDS)
+
+318,000 원
+
+M'S CAMPCOZY FLEECE JACKET
+
+199,000 원
+
+W'S ALTOR ON JACKET
+
+249,000 원
+
+K'S DENALI FLEECE CREWNECK
+
+88,000 원
+
+BREEZE BUCKET BAG_SD
+
+79,000 원
+
+가을의 첫 온기를 입다
+
+가벼운 한 겹으로 따뜻함을 더하는 경량 패딩
+
+M'S TRAIL PACK DOWN JACKET
+
+459,000 원
+
+M'S TRAIL PACK DOWN JACKET
+
+459,000 원
+
+KALIX LT DOWN JACKET (RDS)
+
+348,000 원
+
+KALIX LT DOWN JACKET (RDS)
+
+348,000 원
+
+M'S LIGHT PACK DOWN JACKET
+
+349,000 원
+
+M'S LIGHT PACK DOWN JACKET
+
+349,000 원
+
+CLYFFE LOW SNEAKERS
+
+나만의 스타일을 완성하는 스니커즈
+
+WHITE LABEL CLYFFE LOW SNEAKERS
+
+109,000 원
+
+WHITE LABEL CLYFFE LOW SNEAKERS
+
+109,000 원
+
+WHITE LABEL CLYFFE LOW SNEAKERS
+
+109,000 원
+
+WHITE LABEL CLYFFE LOW SNEAKERS
+
+109,000 원
+
+TNF STUDIO EDITION
+
+절제된 디테일이 만드는 새로운 클래식
+
+W'S STRATA JACKET
+
+349,000 원
+
+W'S STRATA JACKET
+
+349,000 원
+
+W'S STRATA TRENCH COAT
+
+489,000 원
+
+W'S STRATA TRENCH COAT
+
+489,000 원
+
+W'S NOVARA DOWN PARKA (RDS)
+
+479,000 원
+
+Weekly Best Items
+
+이번 주 가장 사랑받은 베스트 아이템
+
+1
+
+NOVELTY OLEMA EX JACKET
+
+178,600 원
+5%
+
+2
+
+M'S SUMMIT MATTERHORN DOWN JACKET (RDS)
+
+459,000 원
+
+3
+
+VENTUS ON JACKET
+
+238,000 원
+
+4
+
+K'S VENTUS ON JACKET
+
+198,000 원
+
+5
+
+W'S NOVELTY OLEMA EX JACKET
+
+169,100 원
+5%
+
+6
+
+KALIX LT DOWN JACKET (RDS)
+
+348,000 원
+
+7
+
+W'S NOVELTY OLEMA HOODIE
+
+188,000 원
+
+8
+
+KALIX LT DOWN JACKET (RDS)
+
+348,000 원
+
+9
+
+W'S KALIX LT DOWN JACKET (RDS)
+
+338,000 원
+
+10
+
+W'S KALIX LT DOWN JACKET (RDS)
+
+338,000 원
+
+경계를 넘어, 더 멀리
+
+새로운 길을 위한 트레일러닝 셀렉션
+
+M'S CRINKAIR JACKET
+
+199,000 원
+
+M'S CRINKAIR JACKET
+
+199,000 원
+
+M VECTIV ENDURIS 4
+
+199,000 원
+
+W VECTIV ENDURIS 4
+
+199,000 원
+
+ULTIMO WIDE_MR
+
+229,000 원
+
+ULTIMO WIDE_MR
+
+229,000 원
+
+TNF SHORTS
+272
+THE NEW CLASSIC
+280
+COMOR FLEECE JACKET
+332
+CLYFFE LOW
+357
+MATTERHORN DOWN JACKET
+241
+바위 끝에서 시작되는 도전
+1.6K
+KALIX LT DOWN JACKET
+1.1K
+KALIX LT DOWN JACKET
+Gear You May Like
+지금 필요한 FW 신상 용품 라인업
+
+VAIDEN CROSSBODY BAG
+
+89,000 원
+
+FLEECE EARFLAP CAP
+
+59,000 원
+
+TNF MID BEANIE
+
+39,000 원
+
+BRUSHED LOGO BEANIE
+
+49,000 원
+
+BREEZE BUCKET BAG_SD
+
+79,000 원
+
+HAZE BACKPACK
+
+145,000 원
+
+HAZE SHOULDER BAG
+
+155,000 원
+
+COTTON BALL CAP
+
+45,000 원
+
+W'S SNUG SOCKS
+
+17,000 원
+
+REVERSIBLE HIGHLINE BEANIE
+
+45,000 원
+
+BIG SHOT
+
+169,000 원
+
+TNF LIGHT BALL CAP
+
+45,000 원
+
+나만의 스타일을 완성할 특별한 선택
+
+STITCH L/S R/TEE
+
+98,000 원
+
+W'S ELLA DOWN JACKET (RDS)
+
+309,000 원
+22%
+
+WAVE LT ON JACKET
+
+238,000 원
+
+W'S NOVELTY OLEMA HOODIE
+
+188,000 원
+
+COMOR FLEECE JACKET
+
+198,000 원
+
+DAYDRIVE EX ON JACKET
+
+235,600 원
+5%
+
+M'S SUMMIT MATTERHORN DOWN JACKET (RDS)
+
+459,000 원
+
+NOVELTY OLEMA EX JACKET
+
+178,600 원
+5%
+
+VENTUS ON JACKET
+
+238,000 원
+
+COMOR FLEECE JACKET
+
+198,000 원
+
+M'S ALTOR ON JACKET
+
+249,000 원
+
+WHITE LABEL CLYFFE LOW SNEAKERS
+
+109,000 원
+
+KALIX LT DOWN JACKET (RDS)
+
+348,000 원
+
+M'S SUMMIT MATTERHORN DOWN JACKET (RDS)
+
+459,000 원
+
+M'S SUMMIT MATTERHORN DOWN JACKET (RDS)
+
+459,000 원
+
+K'S NOVELTY OLEMA JACKET
+
+148,000 원
+
+M'S ALTOR ON JACKET
+
+249,000 원
+
+W'S KALIX LT DOWN JACKET (RDS)
+
+338,000 원
+
+MARTIS JACKET
+
+198,000 원
+
+PROJECT DOWN JACKET (RDS)
+
+458,000 원
+
+A Better Basic
+
+일상의 편안함을 한층 더 감도있게
+
+W'S EDGELINE SWEATPANTS
+
+158,000 원
+
+M'S EASYON L/S R/TEE
+
+89,000 원
+
+WL HOOD ZIP UP
+
+128,000 원
+
+STITCH L/S R/TEE
+
+98,000 원
+
+M'S EVERPEAK L/S SHIRTS
+
+159,000 원
+
+WL SWEATPANTS
+
+98,000 원
+
+VARIX L/S R/TEE
+
+88,000 원
+
+M'S SOFT-ON HOODIE
+
+129,000 원
+
+SOFTLINE SWEATPANTS
+
+108,000 원
+
+NODE L/S R/TEE
+
+138,000 원
+
+M'S SOFTGRID L/S R/TEE
+
+99,000 원
+
+W'S EASYDAY L/S R/TEE
+
+83,000 원
+
+ABOUT US
+브랜드스토리
+VISION
+2025 CSR REPORT
+TECHNOLOGY
+TEAM
+미디어
+TNF 100
+남극대륙횡단
+HELP
+매장개설
+단체 구매 문의
+고객지원실
+FAQ
+문의하기
+A/S안내
+공지사항
+이용약관
+멤버십 혜택
+FAMILY
+영원아웃도어
+화이트라벨
+아웃도어 리서치
+STORE LOCATION
+매장찾기
+FOLLOW SNS
+온라인몰 고객지원실
+
+1661-3512
+
+월~금요일 09:00~18:00
+토, 일, 공휴일 휴무
+매장고객 및 AS문의
+
+1899-2626
+
+월~금요일 09:00~18:00
+㈜영원아웃도어 대표이사 성기학 [개인정보보호책임자] 김은영 사업자등록번호 110-81-27101
+통신판매업 신고번호: 2013-경기성남-0984 사업자정보확인
+주소: 경기도 성남시 중원구 사기막골로 169 반송지 주소 : 경기도 이천시 마장면 프리미엄 아울렛로 33-20
+온라인몰 고객지원실: 1661-3512 매장고객 및 A/S문의: 1899-2626
+개인정보처리방침 이용약관
+
+Youngone Outdoor Co. All Rights Reserved.
+
+[인증범위] 온라인쇼핑몰
+(노스페이스, 영원아웃도어)
+[유효기간] 2025.09.21 ~ 2028.09.20
+
+위시리스트로 이동
+🔥EVERYDAY, DAYDRIVE🔥
+
+가볍게 걸치면 오늘의 스타일 완성
+이번 시즌 경량 패딩의 NEW MOVE
+
+바로가기
+오늘 그만 보기
+닫기
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1 — 구매안전서비스]
+서비스의명칭 | 채무지급보증서비스
+구매안전보증기간 | 케이지이니시스
+구매안전 서비스 범위 | 선불식 전자상거래에 있어 노스페이스스토어가 상품등의 공금의무를 불이행함으로써 발생하는 소비자 피해
+서비스 제공 대상 | 소비자가 전자상거래서 구매의 안전을 위하여 구매안전서비스를 신청하신 경우, 소비자는 단, 다음의 경우에는 구매안전서비스를 이용할 수 없습니다.) 1) 신용카드로 재화 등의 대금을 지급하는 거래 2) 제 3자가 배송을 확인할 수 없는 재화 등을 구매하는 거래 3) 배송이 필요하지 않은 재화 등을 구매하는 거래 (컨텐츠 등) 4) 일정기간에 걸쳐 분할되어 공급되는 재화 등을 구매하는 거래 5) 다른 법률에 따라 소비자의 구매안전이 충분히 갖추어진 경우 또는 공정거래 위원회가 정하여 고시하는 거래
+보증금 한도 | 소비자께서 선불로 지급한 당해 상품의 대금 범위내
+보증금의 지급시기 | 지급사유가 발생한 경우 지체없이 지급. 단, ㈜케이지이니시스는 지급사유를 판단하기 위하여 소비자에게 손해사정과 관련된 제 서류등을 요청하고 그에 대한 심사를 할 수 있습니다.
+
+[표 2]
+법적근거 | 목적 | 항목 | 보유기간
+개인정보 보호법제15조 제1항 제1호(정보주체 동의) | 스태프 겔러리사진 게시 | 소속 매장명, 키, 착용샷을 촬영한 상품의 사이즈, 사진 | 정보 삭제 요청 또는 사진이 접수된 시점으로부터 3년
+
+[표 3]
+수탁자 | 목적
+도아 | 드로우 진행 대행
+㈜에스티컴 | 시스템 데이터 관리
+㈜루나소프트 | 당첨 여부 카카오 알림톡 발송
+
+[표 4]
+법적근거 | 개인정보 보호법 제15조 제1항 제1호(정보주체 동의)
+목적 | 맞춤 상품 추천 등 마케팅 활용
+항목 | 선호 정보
+보유기간 | 정보 삭제 또는 이용정지 요청 및 회원탈퇴 시 즉시 삭제
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+홈
+ 전체보기
+ 다운&패딩
+ 자켓&조끼
+ 상의
+ 하의
+ 백팩
+ 용품
+ 신발
+
+SUMMIT SERIES
+ 다운&패딩
+ 자켓&조끼
+ 상의
+ 하의
+ 백팩
+ 용품
+ 신발
+
+홈
+ 전체보기
+ 신발
+ 등산화
+ 트레일러닝화
+ 러닝슈즈
+ 스니커즈
+ 썸머슈즈
+ 슬라이드
+ 레인부츠
+ 방한화
+ 키즈 신발
+ 운동화
+ 썸머슈즈
+ 레인부츠
+
+UP TO 40%
+ 온라인전용
+ 상의
+ 하의
+ 경량자켓
+ 자켓
+ 용품
+ 신발
+ 키즈
+
+모두 지우기
+ 전체 삭제
+
+홈
+ Search
+ 회원가입
+ 로그인
+ 주문배송조회
+ 랭킹
+ 화이트라벨
+ 남성
+ 여성
+ 키즈
+ 가방/용품
+ 신발
+
+카테고리
+ 검색
+ 홈
+ 장바구니
+ 마이
+
+SUMMIT SERIES
+ 전체보기
+ 다운&패딩
+ 자켓&조끼
+ 상의
+ 하의
+ 백팩
+ 용품
+ 신발
+
+홈
+ 인기상품 보기
+ HIKING
+ 전체보기
+ BEST PICK
+ 다운/패딩
+ 플리스자켓
+ 경량자켓
+ 고어텍스 자켓
+ 드라이벤트 자켓
+ 바람막이
+ 상의
+ 하의
+ 용품
+ 신발
+ 키즈
+ TRAIL RUNNING
+ 전체보기
+ 로드러닝
+ BEST PICK
+ 자켓
+ 고어텍스 자켓
+ 상의
+ 하의
+ 용품
+ 신발
+ CAMPING
+ 전체보기
+ BEST PICK
+ 다운/패딩
+ 자켓
+ 상의
+ 하의
+ 텐트/텐트용품
+ 캠핑용품
+ 신발
+ 키즈
+ CLIMBING
+ 전체보기
+ 상의
+ 하의
+ 용품
+ 신발
+ 키즈
+
+홈
+ 전체보기
+ 여성전용
+ 전체보기
+ 자켓
+ 상의
+ 하의
+ 윈터다운/패딩
+ 경량다운/패딩
+ 다운&패딩
+ 전체보기
+ 다운자켓
+ 패딩자켓
+ 경량다운
+ 경량패딩
+ 롱다운
+ 롱패딩
+ 다운조끼
+ 패딩조끼
+ 자켓&조끼
+ 전체보기
+ 드라이벤트자켓
+ 바람막이자켓
+ 플리스자켓
+ 경량 바람막이자켓
+ 집업자켓
+ 조끼
+ 상의
+ 전체보기
+ 반팔티
+ 냉감 티셔츠
+ 슬리브리스
+ 긴팔티
+ 맨투맨/후디
+ 폴로/셔츠
+ 하의
+ 전체보기
+ 반바지
+ 냉감 바지
+ 와이드팬츠
+ 레깅스
+ 스커트/원피스
+ 세트상품
+ 전체보기
+ 트레이닝세트
+ 워터스포츠
+ 가방
+ 전체보기
+ 데일리백팩
+ 경량 백팩
+ 크로스백
+ 토트백
+ 버킷백
+ 멀티백 & 기타백
+ 가방 액세서리
+ 용품
+ 전체보기
+ CAP
+ HAT
+ 비니
+ 양말
+ 장갑
+ 신발
+ 전체보기
+ 러닝슈즈
+ 스니커즈
+ 썸머슈즈
+ 슬라이드
+ 레인부츠
+
+홈
+ 전체보기
+ 다운&패딩
+ 전체보기
+ 다운자켓
+ 패딩자켓
+ 경량다운
+ 경량패딩
+ 롱다운
+ 롱패딩
+ 다운파카
+ 다운조끼
+ 패딩조끼
+ 자켓&조끼
+ 전체보기
+ 고어텍스자켓
+ 드라이벤트자켓
+ 바람막이자켓
+ 플리스자켓
+ 경량 바람막이자켓
+ 집업자켓
+ 조끼
+ 상의
+ 전체보기
+ 반팔티
+ 냉감 티셔츠
+ 슬리브리스
+ 긴팔티
+ 맨투맨/후디
+ 폴로/셔츠
+ 집티/터틀넥
+ 스웨터
+ 아노락
+ 하의
+ 전체보기
+ 반바지
+ 냉감 바지
+ 등산바지
+ 긴바지
+ 카고/조거팬츠
+ 레깅스
+ 언더웨어
+ 세트상품
+ 전체보기
+ 트레이닝세트
+ 워터스포츠
+ 윈터스포츠
+
+홈
+ 전체보기
+ 다운&패딩
+ 전체보기
+ 다운자켓
+ 패딩자켓
+ 경량다운
+ 경량패딩
+ 롱다운
+ 다운파카
+ 다운조끼
+ 자켓&조끼
+ 전체보기
+ 고어텍스자켓
+ 드라이벤트자켓
+ 바람막이자켓
+ 플리스자켓
+ 경량 바람막이자켓
+ 집업자켓
+ 조끼
+ 상의
+ 전체보기
+ 반팔티
+ 냉감 티셔츠
+ 슬리브리스
+ 긴팔티
+ 맨투맨/후디
+ 폴로/셔츠
+ 집티/터틀넥
+ 스웨터
+ 하의
+ 전체보기
+ 반바지
+ 냉감 바지
+ 등산바지
+ 긴바지
+ 카고/조거팬츠
+ 레깅스
+ 스커트/원피스
+ 언더웨어
+ 세트상품
+ 전체보기
+ 트레이닝세트
+ 워터스포츠
+ 윈터스포츠
+
+홈
+ 전체보기
+ 여아전용
+ 전체보기
+ 자켓
+ 상의
+ 하의
+ 상하세트
+ 윈터다운/패딩
+ 용품
+ 다운&패딩
+ 전체보기
+ 다운자켓
+ 패딩자켓
+ 경량다운
+ 경량패딩
+ 롱다운
+ 롱패딩
+ 다운파카
+ 패딩조끼
+ 자켓&조끼
+ 전체보기
+ 바람막이자켓
+ 플리스자켓
+ 경량 바람막이자켓
+ 조끼
+ 가디건
+ 상의
+ 전체보기
+ 반팔티
+ 긴팔티
+ 맨투맨/후디
+ 하의
+ 전체보기
+ 반바지
+ 긴바지
+ 스커트
+ 언더웨어
+ 세트상품
+ 전체보기
+ 상하세트
+ 워터스포츠
+ 윈터스포츠
+
+홈
+ 전체보기
+ 가방
+ 전체보기
+ 등산백팩
+ 데일리백팩
+ 경량백팩
+ 버킷백
+ 힙색/원웨이백
+ 크로스/토트백
+ 멀티백 & 기타백
+ 더플백
+ 캐리어
+ 가방 액세서리
+ 용품
+ 전체보기
+ 모자
+ 장갑
+ 비니
+ 반다나/스카프
+ 양말
+ 스틱
+ 팔토시
+ 선글라스
+ 기타용품
+ 키즈 용품
+ 전체보기
+ 백팩
+ 액세서리 팩
+ 모자
+ 장갑
+ 양말
+ 액세서리
+ 캠핑
+ 전체보기
+ 텐트/텐트용품
+ 슬리핑백
+ 캠핑용품
+ 텀블러/보틀
+
+홈
+ 전체보기
+ 신발
+ 전체보기
+ 등산화
+ 트레일러닝화
+ 러닝슈즈
+ 스니커즈
+ 썸머슈즈
+ 슬라이드
+ 레인부츠
+ 방한화
+ 키즈 신발
+ 전체보기
+ 운동화
+ 썸머슈즈
+ 레인부츠
+
+UP TO 40%
+ 전체보기
+ 온라인전용
+ 상의
+ 하의
+ 경량자켓
+ 자켓
+ 용품
+ 신발
+ 키즈
+
+THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 2 / 5
+
+GRAND OPENING MYEONGDONG LOUNGE GRAND OPENING MYEONGDONG LOUNGE 2 / 5
+
+COMORFLEECE JACKET 차가운 도시를 감싸는 포근한 한 겹 COMORFLEECE JACKET 차가운 도시를 감싸는 포근한 한 겹 2 / 5
+
+MATTERHORN 경량 설계로 구현한 안정적인 퍼포먼스 MATTERHORN 경량 설계로 구현한 안정적인 퍼포먼스 2 / 5
+
+모아보기 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 GRAND OPENING MYEONGDONG LOUNGE
+
+/*<![CDATA[*/ (function () { var slider = document.querySelector('.main-slider-v2[data-initial-header-theme]'); var header = document.querySelector('.header-v2[data-header-mode="keyvisual"]'); var theme = slider && slider.getAttribute('data-initial-header-theme'); if (header && (theme === 'dark' || theme === 'light')) { header.setAttribute('data-header-theme', theme); } })(); /*]]>*/ THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 GRAND OPENING MYEONGDONG LOUNGE GRAND OPENING MYEONGDONG LOUNGE 2 | 5 GRAND OPENING MYEONGDONG LOUNGE 2 | 5 GRAND OPENING MYEONGDONG LOUNGE 2 | 5 COMORFLEECE JACKET 차가운 도시를 감싸는 포근한 한 겹 2 | 5 COMORFLEECE JACKET 차가운 도시를 감싸는 포근한 한 겹 2 | 5 MATTERHORN 경량 설계로 구현한 안정적인 퍼포먼스 2 | 5 MATTERHORN 경량 설계로 구현한 안정적인 퍼포먼스 2 | 5 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 GRAND OPENING MYEONGDONG LOUNGE GRAND OPENING MYEONGDONG LOUNGE 2 | 5 GRAND OPENING MYEONGDONG LOUNGE 2 | 5 GRAND OPENING MYEONGDONG LOUNGE 2 | 5 COMORFLEECE JACKET 차가운 도시를 감싸는 포근한 한 겹 2 | 5 COMORFLEECE JACKET 차가운 도시를 감싸는 포근한 한 겹 2 | 5 MATTERHORN 경량 설계로 구현한 안정적인 퍼포먼스 2 | 5 MATTERHORN 경량 설계로 구현한 안정적인 퍼포먼스 2 | 5 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 2 | 5 THE NEW CLASSIC 절제된 디테일이 만드는 새로운 클래식 GRAND OPENING MYEONGDONG LOUNGE GRAND OPENING MYEONGDONG LOUNGE 2 | 5 GRAND OPENING MYEONGDONG LOUNGE 2 | 5 GRAND OPENING MYEONGDONG LOUNGE
+
+#로우프로파일슈즈 #스니커즈 #운동화 #로우스니커즈 #데일리슈즈 #캐주얼슈즈
+
+1 NOVELTY OLEMA EX JACKET 188,000 원 178,600 원 5% 위시리스트 추가 위시리스트 삭제 #여행 #일상용 #루즈핏 2 M'S SUMMIT MATTERHORN DOWN JACKET (RDS) 459,000 원 위시리스트 추가 위시리스트 삭제 #고산원정용 #산악용 #등산 #레귤러핏 #경량다운 3 VENTUS ON JACKET 238,000 원 위시리스트 추가 위시리스트 삭제 #여행 #방한용 #루즈핏 #경량패딩 4 K'S VENTUS ON JACKET 198,000 원 위시리스트 추가 위시리스트 삭제 #간절기보온용 #일상용 #아웃도어활동용 #루즈핏 #경량패딩 5 W'S NOVELTY OLEMA EX JACKET 178,000 원 169,100 원 5% 위시리스트 추가 위시리스트 삭제 #여행 #일상용 #루즈핏 6 KALIX LT DOWN JACKET (RDS) 348,000 원 위시리스트 추가 위시리스트 삭제 #여행 #방한용 #세미루즈핏 #경량다운 7 W'S NOVELTY OLEMA HOODIE 188,000 원 위시리스트 추가 위시리스트 삭제 #여행 #일상용 #루즈핏 8 KALIX LT DOWN JACKET (RDS) 348,000 원 위시리스트 추가 위시리스트 삭제 #여행 #방한용 #세미루즈핏 #경량다운 9 W'S KALIX LT DOWN JACKET (RDS) 338,000 원 위시리스트 추가 위시리스트 삭제 #여행 #방한용 #일상용 #세미크롭핏 #경량다운 10 W'S KALIX LT DOWN JACKET (RDS) 338,000 원 위시리스트 추가 위시리스트 삭제 #여행 #방한용 #일상용 #세미크롭핏 #경량다운
+
+VAIDEN CROSSBODY BAG 89,000 원 위시리스트 추가 위시리스트 삭제 #여행 FLEECE EARFLAP CAP 59,000 원 위시리스트 추가 위시리스트 삭제 #캠핑 #아웃도어활동용 #방한용 TNF MID BEANIE 39,000 원 위시리스트 추가 위시리스트 삭제 #야외활동 #캠핑 BRUSHED LOGO BEANIE 49,000 원 위시리스트 추가 위시리스트 삭제 #여행 BREEZE BUCKET BAG_SD 79,000 원 위시리스트 추가 위시리스트 삭제 #캠핑 #여행 HAZE BACKPACK 145,000 원 위시리스트 추가 위시리스트 삭제 #여행 HAZE SHOULDER BAG 155,000 원 위시리스트 추가 위시리스트 삭제 #여행 COTTON BALL CAP 45,000 원 위시리스트 추가 위시리스트 삭제 #여행 #일상용 W'S SNUG SOCKS 17,000 원 위시리스트 추가 위시리스트 삭제 #일상용 REVERSIBLE HIGHLINE BEANIE 45,000 원 위시리스트 추가 위시리스트 삭제 #일상 #윈터스포츠 BIG SHOT 169,000 원 위시리스트 추가 위시리스트 삭제 #등산 #캠핑 #여행 #일상용 TNF LIGHT BALL CAP 45,000 원 위시리스트 추가 위시리스트 삭제 #등산 #캠핑 #아웃도어활동용
+
+ABOUT US
+ 브랜드스토리
+ vision
+ 2025 CSR REPORT
+ TECHNOLOGY
+ team
+ 미디어
+ TNF 100
+ 남극대륙횡단
+ HELP 
+ 매장개설
+ 단체 구매 문의
+ 고객지원실
+ FAQ
+ 문의하기
+ A/S안내
+ 공지사항
+ 이용약관
+ 멤버십 혜택
+ FAMILY 
+ 영원아웃도어
+ 화이트라벨
+ 아웃도어 리서치
+
+앱 다운로드
+ QR 코드 찍고추가 혜택 받아보세요!
+
+본인인증 시스템 점검으로|회원가입 및 회원정보 수정이 일시적으로 제한됩니다.|6/24(수) 07:00 ~ 08:00
+
+구매안전서비스 안내
+ 노스페이스는 소비자의 전자상거래 구매안전을 위하여 다음과 같이 구매안전서비스를 제공합니다.
+ (*법적근거: 전자상거래등에서의 소비자보호에 관한 법률 제 24조 등)
+ 구매안전서비스
+ 서비스의명칭
+ 채무지급보증서비스
+ 구매안전보증기간
+ 케이지이니시스
+ 구매안전 서비스 범위
+ 선불식 전자상거래에 있어 노스페이스스토어가 상품등의 공금의무를 불이행함으로써 발생하는
+ 소비자 피해
+ 서비스 제공 대상
+ 소비자가 전자상거래서 구매의 안전을 위하여 구매안전서비스를 신청하신 경우,
+ 소비자는 단, 다음의 경우에는 구매안전서비스를 이용할 수 없습니다.)
+ 1) 신용카드로 재화 등의 대금을 지급하는 거래
+ 2) 제 3자가 배송을 확인할 수 없는 재화 등을 구매하는 거래
+ 3) 배송이 필요하지 않은 재화 등을 구매하는 거래 (컨텐츠 등)
+ 4) 일정기간에 걸쳐 분할되어 공급되는 재화 등을 구매하는 거래
+ 5) 다른 법률에 따라 소비자의 구매안전이 충분히 갖추어진 경우 또는 공정거래 위원회가
+ 정하여 고시하는 거래
+ 보증금 한도
+ 소비자께서 선불로 지급한 당해 상품의 대금 범위내
+ 보증금의 지급시기
+ 지급사유가 발생한 경우 지체없이 지급. 단, ㈜케이지이니시스는 지급사유를 판단하기 위하여
+ 소비자에게 손해사정과 관련된 제 서류등을 요청하고 그에 대한 심사를 할 수 있습니다.
+ 2018년 1월 29일
+ 채무지급보증기관
+ 상호
+ : (주)케이지이니시스
+ 주소
+ : 경기도 성남시 분당구 대왕판교로 660 유스페이스1 A동 5층
+
+미니 장바구니
+ 장바구니에 담긴 상품이 없습니다.
+ 쇼핑 계속하기
+
+옵션/수량
+ 색상 선택
+ RED
+ 사이즈 선택
+ 사이즈1
+ 취소
+ 옵션 변경
+
+배송 조회
+ 본 주문은 분할 발송되어 상품별 배송일자가 다를 수 있습니다.
+ 반품은 모든 상품이 배송 완료된 후 신청하실 수 있습니다.
+
+스태프 겔러리 사진 게시 동의
+ ■ (필수) 개인정보 수집 및 이용에 대한 동의
+ 법적근거
+ 목적
+ 항목
+ 보유기간
+ 개인정보 보호법제15조 제1항 제1호(정보주체 동의)
+ 스태프 겔러리사진 게시
+ 소속 매장명, 키, 착용샷을 촬영한 상품의 사이즈, 사진
+ 정보 삭제 요청 또는 사진이 접수된 시점으로부터 3년
+※ 고객은 동의를 거부할 권리가 있으며 동의를 거부할 경우, 서비스 이용이 제한됩니다.
+
+스태프 겔러리 이용에 대한 동의
+ LookBook 이용 동의 안내
+1. LookBook 컨텐츠 활용 안내
+① LookBook은 Staff이 상품을 직접 착용한 이미지를 등록하여 고객님께 신뢰성 있는 정보를 제공하기 위한 기능으로, Staff만 등록 가능한 컨텐츠 입니다.
+② 신뢰성 있는 정보 제공을 위하여 등록한 컨텐츠는 온라인몰 담당자가 검수 진행 후 승인된 컨텐츠에 한하여 온라인몰에 게시됩니다. 검수 과정에서 반려된 게시물은 온라인몰에 게시되지 않습니다.
+③ 등록한 컨텐츠는 고객 대상으로 ‘좋아요’ 반응을 수집하며, 이 정보는 내부적으로 마케팅 활용에 이용될 수 있습니다.
+2. LookBook 진행 단계 안내
+3. LookBook 컨텐츠 등록 정보
+① 품번 : 착용샷을 촬영한 상품의 품번 정보로 접속한 상품 상세페이지의 정보가 자동 기입됩니다.(임의 수정 불가)
+② 사이즈 : 착용한 사이즈 옵션을 선택합니다.
+③ 매장명 : 현재 소속된 매장명을 입력해주세요.
+④ 키 : 착용샷을 촬영한 Staff의 키 정보를 입력하세요.(숫자만 입력)
+⑤ 부가정보 : 상품 관련 추가 정보 등을 기입할 수 있습니다.
+⑥ 첨부파일 : 착용샷을 업로드하는 단계로, 이미지파일은 최소 1개 이상 최대 5장까지 업로드 가능합니다.
+이미지 업로드 순서에 따라 사이트에 이미지가 표시됩니다.(가장 먼저 업로드한 이미지가 대표 이미지로 표시됩니다.)
+4. LookBook 컨텐츠 유의사항
+① 상품 및 착용샷과 무관한 정보 입력 시 검수 과정에서 반려될 수 있습니다.
+② 룩북 컨텐츠 등록 시 첨부 이미지 등 등록한 자료는 영원아웃도어에 귀속됩니다.
+③ 승인 이후의 수정 및 삭제는 불가합니다.
+④ 승인 된 컨텐츠의 삭제 문의는 온라인몰 담당자에게 별도 문의 부탁드립니다.
+
+개인정보 수집 및 이용 동의
+ 아래는 드로우 대상 제품 응모(이하 ‘드로우’) 및 고객 안내를 위한 연락을 목적으로 사용되는 개인 정보에 대한 수집/이용 동의 확인 절차로, 노스페이스 공식 스토어는 회원의 개인 정보를 소중하게 생각하고 이를 보호하기 위하여 항상 최선을 다하고 있으며 개인정보 보호 관련 법률 규정을 준수하고 있습니다. ㈜영원아웃도어는 드로우의 원활한 진행을 위해 신청 시 노스페이스 공식 스토어를 통해 아래와 같은 내용을 수집하고 사용합니다.
+ 개인정보의 수집 이용목적
+ 드로우 및 추첨, 이용자 식별, 본인 여부 확인 등 드로우 진행 안내
+ 수집되는 개인정보
+ 노스페이스 공식 스토어 ID(E-mail), 이름, 휴대폰번호, 사이즈, 선택 제품 
+ 보유기간
+ 응모일부터 1개월까지
+동의 거부 권리 및 동의 거부 시 불이익이 생길 수 있습니다. 필수 정보의 수집 / 이용에 관한 동의를 거부하실 수 있으며, 다만 필수 정보는 ‘드로우’ 응모를 위해서 필요한 최소한의 개인정보이므로 동의를 해 주셔야 ‘드로우’ 응모가 가능합니다.
+ 확인
+
+위치기반서비스 이용약관
+ 아래는 드로우 대상 제품 응모(이하 ‘드로우’) 및 고객 안내를 위한 연락을 목적으로 사용되는 개인 정보에 대한 수집/이용 동의 확인 절차로, 노스페이스 공식 스토어는 회원의 개인 정보를 소중하게 생각하고 이를 보호하기 위하여 항상 최선을 다하고 있으며 개인정보 보호 관련 법률 규정을 준수하고 있습니다. ㈜영원아웃도어는 드로우의 원활한 진행을 위해 신청 시 노스페이스 공식 스토어를 통해 아래와 같은 내용을 수집하고 사용합니다.
+ 개인정보의 수집 이용목적
+ 드로우 및 추첨, 이용자 식별, 본인 여부 확인 등 드로우 진행 안내
+ 수집되는 개인정보
+ 노스페이스 공식 스토어 ID(E-mail), 이름, 휴대폰번호, 사이즈, 선택 제품 
+ 보유기간
+ 응모일부터 1개월까지
+동의 거부 권리 및 동의 거부 시 불이익이 생길 수 있습니다. 필수 정보의 수집 / 이용에 관한 동의를 거부하실 수 있으며, 다만 필수 정보는 ‘드로우’ 응모를 위해서 필요한 최소한의 개인정보이므로 동의를 해 주셔야 ‘드로우’ 응모가 가능합니다.
+
+개인정보 수집 및 이용 동의
+ MessagePricvacy_sns_info
+ 확인
+
+개인정보 취급 위탁에 대한 고지
+ ㈜영원아웃도어는 드로우 진행을 위해 응모자의 개인 정보를 외부에 위탁하여 처리하고 있으며, 관계법령에 따라 위탁 계약 시 개인정보가 안전하게 관리될 수 있도록 규정하고 있습니다. 드로우의 개인정보취급 수탁자와 그 업무의 내용은 아래와 같습니다.
+ 수탁자
+ 목적
+ 도아
+ 드로우 진행 대행
+ ㈜에스티컴
+ 시스템 데이터 관리
+ ㈜루나소프트
+ 당첨 여부 카카오 알림톡 발송
+ 확인
+
+선호 정보 수집 및 이용 동의 안내
+ ■ (선택) 선호 정보 수집 및 이용 동의 안내
+ 법적근거
+ 개인정보 보호법 제15조 제1항 제1호(정보주체 동의)
+ 목적
+ 맞춤 상품 추천 등 마케팅 활용
+ 항목
+ 선호 정보
+ 보유기간
+ 정보 삭제 또는 이용정지 요청
+ 및 회원탈퇴 시 즉시 삭제
+ ※ 수집 및 이용에 동의하지 않으실 수 있으며, 동의를 거부하셔도 서비스를 이용하실 수 있습니다.
+ ※ 나의 맞춤정보 페이지에서 언제든지 동의 사항을 수정할 수 있습니다.
+
+노스페이스 앱 신규 다운로드하고
+ 3,000마일리지 받아보세요.
+ 앱으로 보기
+ 괜찮습니다. 모바일 웹으로 볼게요.
+
+----- 이미지 대체텍스트 (img alt) -----
+추석을 위한 추천상품부터 30만원 이상 구매 시 사은품 혜택까지, 노스페이스 공식몰 THANKSGIVING DAY를 만나보세요.

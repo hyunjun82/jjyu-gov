@@ -2022,6 +2022,7 @@ import { modernhouseCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { munhwaNuriCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/munhwa-nuri';
 import { saraminCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/saramin';
 import { renaultKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/renault-korea';
+import { northfaceKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/northface-kr';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2294,6 +2295,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'northface-kr': northfaceKrCallCenterSpokeContent,
     'renault-korea': renaultKoreaCallCenterSpokeContent,
     'saramin': saraminCallCenterSpokeContent,
     'modernhouse': modernhouseCallCenterSpokeContent,
