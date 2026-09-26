@@ -1,0 +1,17 @@
+{
+  "slug": "dyson-kr",
+  "keyword": "다이슨 고객센터",
+  "title": "다이슨 고객센터 전화번호 및 AS 접수·출장비 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "다이슨 고객센터 전화번호 모음",
+    "다이슨 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "다이슨 고객센터 위치",
+    "다이슨 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.dyson.co.kr/support/support-home",
+  "outline": "data/call-centers/dyson-kr.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "dyson-kr",
+  "name": "다이슨",
+  "aliases": [
+    "다이슨 코리아",
+    "Dyson",
+    "다이슨 AS",
+    "다이슨 서비스센터"
+  ],
+  "industry": "appliance",
+  "brandColor": "#000000",
+  "official": "https://www.dyson.co.kr",
+  "sourceUrl": "https://www.dyson.co.kr/support/support-home",
+  "sourceName": "다이슨 고객 지원",
+  "verifiedAt": "2026-09-26",
+  "corp": "다이슨코리아",
+  "hq": "서울특별시 강남구 테헤란로 142, 아크플레이스 17층",
+  "hqZip": "06236",
+  "main": {
+    "label": "고객센터(수신자 부담)",
+    "tel": "080-300-4253"
+  },
+  "hours": {
+    "weekday": "월-금 오전 9시-오후 6시"
+  },
+  "hoursNote": "[2026-09-26] 다이슨 고객 지원 푸터: 서울특별시 강남구 테헤란로 142, 아크플레이스 17층 .06236, 고객센터: 080-300-4253(수신자 부담) /1588-4253 (운영시간: 월-금 오전 9시-오후 6시) 이메일: help@kr.dyson.com. 헤드리스로는 본문이 비어 --headed. 브랜드색은 캡처 헤더 최빈색(검정). 공식 주소는 구글 결과로 찾았다(번호·시간은 공식 페이지 원문).",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터(수신자 부담)",
+      "tel": "080-300-4253",
+      "note": "무료, 월~금 오전 9시~오후 6시"
+    },
+    {
+      "label": "고객센터",
+      "tel": "1588-4253"
+    }
+  ],
+  "heroSalt": "d"
+}

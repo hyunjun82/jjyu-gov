@@ -1967,6 +1967,7 @@ import { costcoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { samsungSvcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/samsung-svc';
 import { kyowonLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kyowon-life';
 import { musinsaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/musinsa';
+import { dysonKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/dyson-kr';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2015,6 +2016,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'dyson-kr': dysonKrCallCenterSpokeContent,
     'samsung-svc': samsungSvcCallCenterSpokeContent,
     'wells': wellsCallCenterSpokeContent,
     'bodyfriend': bodyfriendCallCenterSpokeContent,
