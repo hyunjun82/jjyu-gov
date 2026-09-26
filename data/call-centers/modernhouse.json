@@ -1,0 +1,22 @@
+{
+  "slug": "modernhouse",
+  "name": "모던하우스",
+  "aliases": ["MODERN HOUSE", "모던하우스몰", "엠에이치앤코", "모던하우스 고객센터"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.mhmall.co.kr",
+  "sourceUrl": "https://www.mhmall.co.kr/",
+  "sourceName": "모던하우스 공식몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)엠에이치앤코",
+  "hq": "서울특별시 구로구 경인로 662 (디큐브시티) 14층",
+  "main": { "label": "고객센터", "tel": "1899-0811" },
+  "hours": { "weekday": "평일 09:00 ~ 18:00", "holiday": "주말·공휴일 휴무" },
+  "hoursNote": "[2026-09-26] 모던하우스 공식몰 푸터: 고객센터 1899-0811 09:00 ~ 18:00, (주)엠에이치앤코 주소 : 서울특별시 구로구 경인로 662 (디큐브시티) 14층, 운영시간 : 평일 09:00 ~ 18:00 (주말·공휴일 휴무). 생활용품 틀이 없어 온라인 틀. 로고색은 mh_logo.png(검정).",
+  "idStep": "주문번호와 가입 아이디",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1899-0811", "note": "평일 09:00~18:00" }
+  ]
+}
