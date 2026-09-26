@@ -1,0 +1,23 @@
+{
+  "slug": "logen",
+  "name": "로젠택배",
+  "aliases": ["로젠", "로젠주식회사", "로젠 택배"],
+  "industry": "online",
+  "brandColor": "#FDBF57",
+  "official": "https://www.ilogen.com",
+  "sourceUrl": "https://www.ilogen.com/web",
+  "sourceName": "로젠택배 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "로젠주식회사",
+  "hq": "경기도 성남시 수정구 창업로57번길 7 모다아울렛빌딩 5층",
+  "main": { "label": "대표전화", "tel": "1588-9988" },
+  "hours": { "weekday": "평일 오전 09:00 ~ 오후 06:00" },
+  "hoursNote": "[2026-09-26] 로젠 홈 고객센터: 상담을 원하실 때는! 1588-9988, 상담시간평일 오전 09:00 ~ 오후 06:00. 푸터 대표전화 1588-9988. 주말·공휴일 표기는 없다(닫힌다고 단정하지 않는다). 택배 틀이 없어 온라인 틀(사장님 '검색량 순서 그대로'). 로고색은 img_logo.png 최빈색.",
+  "idStep": "운송장번호",
+  "dayNote": "배송 문의는 평일 상담시간 안에 거는 편이 빠릅니다.",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-9988", "note": "평일 오전 09:00~오후 06:00" }
+  ]
+}

@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'logen', role: 'eligibility', title: '로젠택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'boram-sangjo', role: 'eligibility', title: '보람상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tripcom', role: 'eligibility', title: '트립닷컴 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'lotte-parcel', role: 'eligibility', title: '롯데택배 고객센터 전화번호 및 상담원 연결·문의 안내' },

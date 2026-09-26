@@ -1940,6 +1940,7 @@ import { lotteParcelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { busanCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busan-citygas';
 import { tripcomCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tripcom';
 import { boramSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/boram-sangjo';
+import { logenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/logen';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2182,6 +2183,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'logen': logenCallCenterSpokeContent,
     'boram-sangjo': boramSangjoCallCenterSpokeContent,
     'tripcom': tripcomCallCenterSpokeContent,
     'lotte-parcel': lotteParcelCallCenterSpokeContent,
