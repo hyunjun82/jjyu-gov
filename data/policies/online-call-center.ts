@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'korean-air', role: 'eligibility', title: '대한항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kakao', role: 'eligibility', title: '카카오 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'naver', role: 'eligibility', title: '네이버 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kolonsport', role: 'eligibility', title: '코오롱스포츠 고객센터 전화번호 및 상담원 연결·문의 안내' },
