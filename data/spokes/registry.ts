@@ -1962,6 +1962,7 @@ import { genesisCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { airseoulCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/airseoul';
 import { kyungnamEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kyungnam-energy';
 import { wellsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/wells';
+import { hanssemCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanssem';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2211,6 +2212,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'hanssem': hanssemCallCenterSpokeContent,
     'airseoul': airseoulCallCenterSpokeContent,
     'genesis': genesisCallCenterSpokeContent,
     'yanolja': yanoljaCallCenterSpokeContent,
