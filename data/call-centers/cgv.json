@@ -1,0 +1,23 @@
+{
+  "slug": "cgv",
+  "name": "CGV",
+  "aliases": ["CJ CGV", "씨지브이", "CGV 고객센터", "CGV 상담원"],
+  "industry": "online",
+  "brandColor": "#ED3124",
+  "official": "https://cgv.co.kr",
+  "sourceUrl": "https://cgv.co.kr/csc/customerCenter",
+  "sourceName": "CGV 고객센터 안내",
+  "verifiedAt": "2026-09-26",
+  "corp": "CJ CGV",
+  "hq": "서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)",
+  "hqZip": "04377",
+  "main": { "label": "고객센터", "tel": "1544-1122" },
+  "hours": { "weekday": "월~금 09:00~18:00", "holiday": "주말/공휴일 휴무" },
+  "hoursNote": "[2026-09-26] CGV 고객센터 안내 푸터: (04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동), 고객센터 : 1544-1122, 월~금 09:00~18:00 (주말/공휴일 휴무). 헤드리스 접속 제한이라 --headed. 공식 페이지 주소는 구글 결과로 찾았다. 상담원 연결 단축번호(4→3→0 등)는 블로그 정보라 쓰지 않는다. 로고색은 캡처 헤더 최빈색.",
+  "idStep": "예매번호와 CJ ONE 아이디",
+  "heroSalt": "e",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-1122", "note": "월~금 09:00~18:00" }
+  ]
+}
