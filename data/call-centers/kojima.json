@@ -1,0 +1,22 @@
+{
+  "slug": "kojima",
+  "name": "코지마",
+  "aliases": ["COZYMA", "코지마 안마의자", "코지마 AS", "코지마 고객센터"],
+  "industry": "appliance",
+  "brandColor": "#2C2926",
+  "official": "https://cozyma.com",
+  "sourceUrl": "https://cozyma.com/",
+  "sourceName": "코지마 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "hq": "서울 마포구 새창로4라길 7 (복정빌딩)",
+  "hqZip": "04169",
+  "main": { "label": "고객문의", "tel": "1588-8543" },
+  "hours": { "weekday": "평일 9시~18시", "holiday": "토,일 휴무" },
+  "hoursNote": "[2026-09-26] 코지마 홈 푸터: 주소 : 04169 서울 마포구 새창로4라길 7 (복정빌딩), 고객문의 : 1588-8543 발신자 부담 전화, 평일 9시~18시(토,일 휴무). 공휴일 표기는 없다. 로고색은 캡처 헤더 최빈색.",
+  "callFee": "고객문의 1588-8543은 발신자 부담 전화입니다.",
+  "heroSalt": "e",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객문의", "tel": "1588-8543", "note": "평일 9시~18시" }
+  ]
+}

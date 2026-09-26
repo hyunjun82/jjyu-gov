@@ -2004,6 +2004,7 @@ import { deskerCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { yes24CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/yes24';
 import { daeryunEnsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daeryun-ens';
 import { sonyKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/sony-kr';
+import { kojimaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/kojima';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2052,6 +2053,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'kojima': kojimaCallCenterSpokeContent,
     'sony-kr': sonyKrCallCenterSpokeContent,
     'kiturami': kituramiCallCenterSpokeContent,
     'winix': winixCallCenterSpokeContent,

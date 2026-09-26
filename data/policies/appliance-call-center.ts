@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'kojima', role: 'eligibility', title: '코지마 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'sony-kr', role: 'eligibility', title: '소니코리아 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'kiturami', role: 'eligibility', title: '귀뚜라미보일러 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'winix', role: 'eligibility', title: '위닉스 고객센터 전화번호 및 AS 접수·출장비 안내' },
