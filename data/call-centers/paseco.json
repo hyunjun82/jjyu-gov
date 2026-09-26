@@ -1,0 +1,23 @@
+{
+  "slug": "paseco",
+  "name": "파세코",
+  "aliases": ["PASECO", "파세코 AS", "파세코 창문형 에어컨 AS", "파세코 난로 AS"],
+  "industry": "appliance",
+  "brandColor": "#009782",
+  "official": "https://www.paseco.co.kr",
+  "sourceUrl": "https://www.paseco.co.kr/",
+  "sourceName": "파세코 공식몰 CS CENTER",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)파세코",
+  "hq": "경기도 안산시 단원구 원시로 248",
+  "main": { "label": "A/S접수 콜센터 및 소모품 문의", "tel": "1588-1336" },
+  "hours": { "weekday": "평일 09:00 ~ 17:00", "holiday": "토, 일, 공휴일 휴무", "lunch": "점심시간 12:30 ~ 13:30" },
+  "hoursNote": "[2026-09-26] 파세코 공식몰 CS CENTER: 쇼핑몰 고객 센터 031-599-5800, A/S접수 콜센터 및 소모품 문의 1588-1336, 평일 09:00 ~ 17:00, 점심시간 12:30 ~ 13:30, 토, 일, 공휴일 휴무. 푸터: 회사명 : (주)파세코 주소 : 경기도 안산시 단원구 원시로 248, 대표번호 : 031-492-8341. 로고색은 캡처 헤더의 초록.",
+  "heroSalt": "e",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "A/S접수 콜센터·소모품 문의", "tel": "1588-1336", "note": "평일 09:00~17:00" },
+    { "label": "쇼핑몰 고객 센터", "tel": "031-599-5800" },
+    { "label": "대표번호", "tel": "031-492-8341" }
+  ]
+}
