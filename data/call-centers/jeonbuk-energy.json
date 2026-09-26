@@ -1,0 +1,22 @@
+{
+  "slug": "jeonbuk-energy",
+  "name": "전북에너지서비스",
+  "aliases": ["전북에너지서비스 고객센터", "익산 도시가스", "전북에너지서비스주식회사"],
+  "industry": "public",
+  "brandColor": "#E70128",
+  "official": "https://www.skens.com/jeonbuk",
+  "sourceUrl": "https://www.skens.com/jeonbuk/main/index.do",
+  "sourceName": "전북에너지서비스 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "전북에너지서비스주식회사",
+  "hq": "전북특별자치도 익산시 삼기면 산단도마 4길 87",
+  "main": { "label": "고객센터", "tel": "1599-3833" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 전북에너지서비스(skens.com/jeonbuk — SK이노베이션 E&S 가족 사이트) 푸터: 전북에너지서비스주식회사 : 전북특별자치도 익산시 삼기면 산단도마 4길 87, 고객센터 : 1599-3833. 같은 템플릿이라 전화 상담시간 표기는 없다 — 비운다. 전주의 전북도시가스(1811-7700)와 다른 회사. 도시가스 틀이 없어 공공 틀. 브랜드색은 SK 사이트 빨강.",
+  "idStep": "가스 사용 주소와 계약자 이름",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1599-3833" }
+  ]
+}

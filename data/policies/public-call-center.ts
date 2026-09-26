@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'jeonbuk-energy', role: 'eligibility', title: '전북에너지서비스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'munhwa-nuri', role: 'eligibility', title: '문화누리카드 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gov110', role: 'eligibility', title: '정부민원안내콜센터 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gunsan-citygas', role: 'eligibility', title: '군산도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },

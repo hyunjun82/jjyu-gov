@@ -2025,6 +2025,7 @@ import { renaultKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/co
 import { northfaceKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/northface-kr';
 import { htechCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/htech';
 import { jobkoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/jobkorea';
+import { jeonbukEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeonbuk-energy';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2115,6 +2116,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'jeonbuk-energy': jeonbukEnergyCallCenterSpokeContent,
     'munhwa-nuri': munhwaNuriCallCenterSpokeContent,
     'gov110': gov110CallCenterSpokeContent,
     'gunsan-citygas': gunsanCitygasCallCenterSpokeContent,
