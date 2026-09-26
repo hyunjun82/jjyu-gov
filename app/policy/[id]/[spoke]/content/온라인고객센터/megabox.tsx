@@ -94,7 +94,7 @@ export const megaboxCallCenterSpokeContent: SpokeData = {
         label: '지점 위치 확인하기',
         url: MAP,
       },
-      sourceNote: '* 출처: 메가박스중앙(주) 사업자 정보 (2026-09-26 확인)',
+      sourceNote: '* 출처: 메가박스 사업자 정보 (2026-09-26 확인)',
     },
     {
       q: '다른 서비스 고객센터 번호도 필요한데요', anchor: 'q5',
@@ -120,7 +120,7 @@ export const megaboxCallCenterSpokeContent: SpokeData = {
     {
       q: '본사 주소는 어디인가요?',
       a: '서울특별시 강남구 테헤란로 87길 22 도심공항터미널 건물 408호입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.',
-      source: '메가박스중앙(주) 사업자 정보',
+      source: '메가박스 사업자 정보',
       sourceUrl: 'https://www.megabox.co.kr',
     },
   ],
