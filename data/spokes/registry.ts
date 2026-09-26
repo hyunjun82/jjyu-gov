@@ -1989,6 +1989,7 @@ import { jeonbukCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/
 import { kowonEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kowon-energy';
 import { lotteDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotte-dept';
 import { shinilCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/shinil';
+import { kyoboBookCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kyobo-book';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2246,6 +2247,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'kyobo-book': kyoboBookCallCenterSpokeContent,
     'lotte-dept': lotteDeptCallCenterSpokeContent,
     'hyundai-dept': hyundaiDeptCallCenterSpokeContent,
     'homeplus': homeplusCallCenterSpokeContent,
