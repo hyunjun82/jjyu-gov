@@ -126,6 +126,8 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'costco', role: 'eligibility', title: '코스트코 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'boram-sangjo', role: 'eligibility', title: '보람상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'sono-imready', role: 'eligibility', title: '소노아임레디 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jobkorea', role: 'eligibility', title: '잡코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'northface-kr', role: 'eligibility', title: '노스페이스 고객센터 전화번호 및 상담원 연결·문의 안내' },
@@ -166,7 +168,6 @@ export const onlineCallCenterSpokes = [
   { slug: 'nexon', role: 'eligibility', title: '넥슨 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'musinsa', role: 'eligibility', title: '무신사 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kyowon-life', role: 'eligibility', title: '교원라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'costco', role: 'eligibility', title: '코스트코 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hanssem', role: 'eligibility', title: '한샘 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'airseoul', role: 'eligibility', title: '에어서울 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'genesis', role: 'eligibility', title: '제네시스 고객센터 전화번호 및 상담원 연결·문의 안내' },
@@ -181,7 +182,6 @@ export const onlineCallCenterSpokes = [
   { slug: 'emart', role: 'eligibility', title: '이마트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'twayair', role: 'eligibility', title: '트리니티항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'logen', role: 'eligibility', title: '로젠택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
-  { slug: 'boram-sangjo', role: 'eligibility', title: '보람상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tripcom', role: 'eligibility', title: '트립닷컴 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'lotte-parcel', role: 'eligibility', title: '롯데택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'asiana', role: 'eligibility', title: '아시아나항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
