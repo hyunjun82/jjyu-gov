@@ -1,0 +1,17 @@
+{
+  "slug": "upbit",
+  "keyword": "업비트 고객센터",
+  "title": "업비트 고객센터 전화번호 및 상담원 연결·문의 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "업비트 고객센터 전화번호 모음",
+    "업비트 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "업비트 고객센터 위치",
+    "업비트 고객센터 지역별로 찾기"
+  ],
+  "source": "https://upbit.com/service_center/guide",
+  "outline": "data/call-centers/upbit.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

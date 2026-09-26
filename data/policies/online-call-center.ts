@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'upbit', role: 'eligibility', title: '업비트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'iloom', role: 'eligibility', title: '일룸 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ybtour', role: 'eligibility', title: '노랑풍선 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'daiso', role: 'eligibility', title: '다이소 고객센터 전화번호 및 상담원 연결·문의 안내' },
