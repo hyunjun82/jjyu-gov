@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'incruit', role: 'eligibility', title: '인크루트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hanatour', role: 'eligibility', title: '하나투어 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'yeogi', role: 'eligibility', title: '여기어때 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'korean-air', role: 'eligibility', title: '대한항공 고객센터 전화번호 및 상담원 연결·문의 안내' },

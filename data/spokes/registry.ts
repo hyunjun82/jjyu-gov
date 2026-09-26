@@ -2049,6 +2049,7 @@ import { kakaoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { koreanAirCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/korean-air';
 import { yeogiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/yeogi';
 import { hanatourCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanatour';
+import { incruitCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/incruit';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2328,6 +2329,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'incruit': incruitCallCenterSpokeContent,
     'hanatour': hanatourCallCenterSpokeContent,
     'yeogi': yeogiCallCenterSpokeContent,
     'korean-air': koreanAirCallCenterSpokeContent,

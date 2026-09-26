@@ -1,0 +1,23 @@
+{
+  "slug": "incruit",
+  "name": "인크루트",
+  "aliases": ["인크루트 고객만족센터", "인크루트 고객센터", "Incruit"],
+  "industry": "online",
+  "brandColor": "#FF4C00",
+  "official": "https://www.incruit.com",
+  "sourceUrl": "https://www.incruit.com/",
+  "sourceName": "인크루트 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "인크루트",
+  "hq": "서울특별시 중구 중림로 49",
+  "hqZip": "04507",
+  "main": { "label": "인크루트 고객만족센터", "tel": "1588-6577" },
+  "hours": { "weekday": "월요일~금요일 09:00 ~ 18:00(주말, 공휴일 휴무)" },
+  "hoursNote": "[2026-09-26] 인크루트 홈 푸터: 인크루트 (04507) 서울특별시 중구 중림로 49, 인크루트 고객만족센터 1588-6577 월요일~금요일 09:00 ~ 18:00(주말, 공휴일 휴무), 이메일 : incruit@incruit.com l FAX : 02-567-5450. 채용 틀이 없어 온라인 틀(사람인·잡코리아와 같은 방식). 로고색은 헤더 로고 자리(배너 제외)의 주황 점 최빈색.",
+  "idStep": "가입 아이디와 휴대폰 번호",
+  "heroSalt": "x",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "인크루트 고객만족센터", "tel": "1588-6577", "note": "월요일~금요일 09:00~18:00, 이메일 incruit@incruit.com" }
+  ]
+}
