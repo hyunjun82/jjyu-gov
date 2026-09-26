@@ -1,0 +1,348 @@
+SLUG: yesco-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/yesco-call-center-*.png)
+
+===== [1] https://www.lsyesco.com/CustGuide/companyArea =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/yesco-call-center-1.png
+CHARS: 371
+
+상단메뉴
+본문
+하단내용
+페이지를 찾을 수 없습니다.
+
+이용에 불편을 드려 죄송합니다. 주소를 다시 한 번 확인 부탁드립니다.
+
+예스코 지역 고객센터 안내
+대표번호	1544-3131
+상담시간	월요일~토요일 09:00~18:00 (ARS 자동 안내 업무는 365일 24시간 가능)
+상담시간: 상담원 전화상담 가능 시간 ※ 가스 철거/설치를 위한 토요일 방문은 사전 예약 시에만 가능(사전예약 접수: 방문일 전날 14:00까지)
+점심시간: 12:00~13:00(점심시간 동안 상담업무 중단)
+가스 누출 긴급신고: 24시간 운영(단, 일요일, 공휴일에는 방문요청 접수는 불가)
+상담원 상담 외 조회/납부/기타문의: 24시간 운영. ARS 자동 안내로 이용 가능
+메인 이전
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1 — 예스코 지역 고객센터 안내 : 대표번호, 상담시간으로 구성된 표]
+대표번호 | 1544-3131
+상담시간 | 월요일~토요일 09:00~18:00 (ARS 자동 안내 업무는 365일 24시간 가능)
+
+
+===== [2] https://www.lsyesco.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/yesco-call-center-2.png
+CHARS: 797
+
+상단메뉴
+본문
+하단내용
+
+도시가스 전입·전출 서비스 예약제 시행 및 현장 방문 원칙 안내
+
+자세히보기
+
+제18회 예스코 가스안전 포스터 · 카툰 공모전
+
+자세히보기
+
+추석연휴 가스안전 요령
+
+자세히보기
+
+도시가스 전입·전출 서비스 예약제 시행 및 현장 방문 원칙 안내
+
+자세히보기
+
+제18회 예스코 가스안전 포스터 · 카툰 공모전
+
+자세히보기
+
+추석연휴 가스안전 요령
+
+자세히보기
+
+도시가스 전입·전출 서비스 예약제 시행 및 현장 방문 원칙 안내
+
+자세히보기
+
+오늘하루닫기
+
+닫기
+요금조회/납부
+서비스신청
+안내
+회사소개 로그인 회원가입 검색 전체메뉴
+
+간편요금조회  조회  조회
+1544-3131
+고객센터 찾기
+요금
+조회/납부
+자가
+검침
+알림톡 고지
+신청/변경
+전출입
+서비스
+가스렌지
+연결/철거 신청
+명의
+변경
+고객의 소리
+( 고객 신문고 )
+공지사항
+고객을 위한 아름다운 세상을 함께
+만들어 가겠습니다.
+더보기
+자주 하는 질문
+도시가스 이용 중 궁금해하시는 사항
+을 편리하게 찾으실 수 있습니다.
+더보기
+요금경감제도 안내
+도시가스 요금 할인은 경감대상자가 사용하는
+‘주택용’ 도시가스에 대해 적용합니다.
+더보기
+안내
+더보기
+요금조회
+안내
+요금연체
+안내
+통합고지서
+안내
+공급신청
+절차안내
+가스냉난방
+사용절차안내
+도시가스
+공급규정
+도시가스
+연결비용안내
+채용안내개인정보처리방침이메일무단수집거부오시는 길사이버신문고
+예스코비즈플랫폼 (시공업체 접수서비스 전용)
+고객센터 직원전용임직원 게시판
+고객센터1544-3131
+서울특별시 성동구 자동차시장길 23 (용답동)Copyrights © YESCO. All rights reserved
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+요금조회
+ 요금납부
+ 간편요금조회
+ 자가검침
+ 청구서 관리
+
+전입/전출신청
+ 가스렌지 연결/철거신청
+ 예약신청조회
+ 가스시설 안전관리
+ 이메일/FAX서류신청
+ 체납중지/재공급 안내
+ 채무불이행 등록안내
+ 카드자동이체 신청
+
+공지사항
+ 자주 하는 질문
+ 고객 신문고
+ 지역 고객센터 안내
+ ARS 안내
+ 가스요금
+ 가스사용
+ 가스안전
+ 도시가스 공급규정
+
+reset
+ 검색
+ 전체 (0건)
+ 메뉴 (0건)
+ 자주 하는 질문 (0건)
+ 고객센터 (0건)
+ 메뉴 (0건)
+ 자주 하는 질문 (0건)
+ 고객센터 (0건)
+ 메뉴 (0건)
+ 자주 하는 질문 (0건)
+ 고객센터 (0건)
+
+FAMILY COMPANY
+ 금융, 도시가스, 건설
+ 인류를 위해 더 나은 세상을 만들어 나갑니다.
+ PC건설
+ 더 나은 삶을 건설하다.
+
+0 / 0
+ var swiper = new Swiper(".visualSwiper", {
+ //loop: true,
+ spaceBetween: 0,
+ centeredSlides: true,
+ autoplay: {
+ delay: 4000,
+ disableOnInteraction: false,
+ },
+ scrollbar: {
+ el: ".swiper-scrollbar",
+ },
+ pagination: {
+ el: ".swiper-pagination",
+ type: "fraction",
+ },
+ });
+ 따뜻함과 행복을 드리는 생활 에너지 기업
+ 간편요금조회
+ 조회
+ 조회
+ 1544-3131고객센터 찾기
+
+가스안전사용요령
+ 가스시설점검요령
+ 가스시설철거
+ 이삿날점검사항
+ 안전이용가이드
+ 고객신문고
+ ARS안내
+
+닫기
+ 전체메뉴
+ 요금조회/납부
+ 요금조회
+ 요금조회
+ 월별요금조회
+ 실시간요금조회
+ 미납요금상세조회
+ 통합고지서별지보기
+ 요금납부
+ 요금납부
+ 요금납부내역조회
+ 당일 가상계좌 입금내역 조회
+ 카드납부내역조회
+ 입금전용계좌조회
+ 납부방법변경안내
+ 납부알림문자신청
+ 납부알림문자 변경/해지
+ 간편요금조회
+ 자가검침
+ 자가검침 신청/변경
+ 자가검침 입력
+ 청구서 관리
+ 알림톡 고지 신청/변경
+ 알림톡 고지 재발행 신청
+ 기타전자고지서 안내
+ 세금계산서 재발행 신청
+ 서비스신청
+ 전입/전출신청
+ 전입예약신청(이사오실때)
+ 전출예약신청(이사나갈때)
+ 가스렌지 연결/철거 신청
+ 연결신청
+ 철거신청
+ 예약신청조회
+ 가스시설 안전관리
+ 안전점검 사전안내
+ 신청/변경/해지
+ 개선권고완료 방문신청
+ 고객 자율 안전점검 결과 등록
+ 이메일/FAX신청
+ 안전점검이력
+ 도시가스 사용내역
+ 체납중지/재공급 안내
+ 채무불이행 등록안내
+ 카드자동이체 신청
+ 회원
+ 마이페이지
+ 회원정보조회
+ 주소추가
+ 회원정보변경(개인/기업)
+ 요금납부
+ 고지서 조회
+ 요금상세 조회
+ 월별요금 조회
+ 납부방법 변경안내
+ 나의 신청 및 나의 민원
+ 회원가입/로그인
+ 회원가입
+ 로그인
+ 비밀번호 초기화
+ 회원탈퇴
+ 안내
+ 공지사항
+ 자주 하는 질문
+ 고객 신문고
+ 지역 고객센터 안내
+ ARS 안내
+ 가스요금
+ 요금조회 안내
+ 요금연체 안내
+ 요금경감제도 안내
+ 사회적 배려대상자 요금경감 안내
+ 사회복지시설 요금경감 안내
+ 통합고지안내
+ 가스사용
+ 공급 신청 절차 안내
+ 가스냉난방 사용 절차 안내
+ 도시가스 공급규정
+ 도시가스 연결 비용 안내
+ 가스안전
+ 가스안전 사용요령
+ 안전한 사용법
+ 가스누출시 초동조치방법
+ 가스시설 점검요령
+ 우리집 가스시설 점검
+ 동절기 가스보일러 사용법
+ 가스시설철거
+ 이삿날 점검사항
+ 안전 이용 가이드
+
+시스템 작업에 따른 서비스 이용 불가 안내(3/15)
+×
+시스템 작업으로 인해
+2024년 2025년 3월 15일(토) 21시 ~ 3월 16일(일) 00시(3시간)
+홈페이지를 통한 고객서비스 이용이 불가할 예정이오니 양해 부탁 드립니다.
+감사합니다.
+ⅹ오늘 하루 보지 않기
+ function fnNociceClosePop(){
+ $("#NoticePopup").hide();
+ }
+ function fnNoticeGetCookie( name ) 
+ { 
+ var nameOfCookie = name + "="; 
+ var x = 0; 
+ while ( x <= document.cookie.length ) 
+ { 
+ var y = (x+nameOfCookie.length); 
+ if ( document.cookie.substring( x, y ) == nameOfCookie ) { 
+ if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 ) 
+ endOfCookie = document.cookie.length; 
+ return unescape( document.cookie.substring( y, endOfCookie ) ); 
+ } 
+ x = document.cookie.indexOf( " ", x ) + 1; 
+ if ( x == 0 ) 
+ break; 
+ } 
+ return ""; 
+ }
+ function fnNoticeSetCookie( name, value, expiredays ) { 
+ var todayDate = new Date(); 
+ todayDate.setDate( todayDate.getDate() + expiredays ); 
+ document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+ fnNociceClosePop();
+ } 
+ function fnNoticePopOpen(popupname)
+ { 
+// 오늘 날짜
+ const today = new Date();
+ const year = today.getFullYear();
+ const month = (today.getMonth() + 1).toString().padStart(2, '0');
+ const day = today.getDate().toString().padStart(2, '0');
+ let yyyymmdd = year + "" + month + "" + day;
+ //console.log(yyyymmdd);
+ if (yyyymmdd<"20250315"){
+ if ( fnNoticeGetCookie( popupname ) != "done" ){ 
+ $("#NoticePopup").show();
+ }
+ }
+ }
+ function fnNoticePopTodayClick(popupname){
+ fnNoticeSetCookie( "NoticePopup", "done" ,1); // 1=하룻동안 공지창 열지 않음 
+ }
+ fnNoticePopOpen("NoticePopup")

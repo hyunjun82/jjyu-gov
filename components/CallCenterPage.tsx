@@ -99,6 +99,8 @@ export function isOpenAt(hours: { weekday: string; saturday?: string }, now: Dat
   const d = now.getDay();
   const h = now.getHours();
   if (d >= 1 && d <= 5) return h >= wh.from && h < wh.to;
+  /* "월요일~토요일 09:00~18:00" (2026-09-26 예스코) — 토요일도 같은 시간으로 본다 */
+  if (d === 6 && /월\s*(요일)?\s*~\s*토/.test(hours.weekday)) return h >= wh.from && h < wh.to;
   /* 요일 말이 하나도 없는 시간("상담원 : 08:00∼20:00" 코레일)은 주말에 여는지 원문이 말하지 않는다.
      평일로 가정해 "상담 시간 종료" 라고 단정하지 않는다 — 모르면 판정하지 않는다. */
   if (!hours.saturday && !/평일|영업일|월|금|토|일|주말|휴무|휴일|제외/.test(hours.weekday)) return null;
@@ -198,7 +200,8 @@ export default function CallCenterPage({
   const noHours = !/[0-9]/.test(String(cc.hours.weekday ?? ''));
   /* 원문에 '평일' 이 없는 곳이 있다 (2026-09-15 신협 공제 '상담시간 09:00~18:00'·경찰공제회 '09:00-18:00').
      라벨에 '평일' 을 박으면 주말엔 안 된다고 우리가 단정하는 셈이다 — 값에 요일 말이 있을 때만 붙인다. */
-  const weekdayWord = /평일|영업일|월\s*~\s*금|월요일/.test(String(cc.hours.weekday ?? '')) ? '평일 ' : '';
+  /* '월요일~토요일' 은 평일이 아니다 (2026-09-26 예스코) — 토요일이 들어 있으면 '평일' 을 붙이지 않는다 */
+  const weekdayWord = /평일|영업일|월\s*~\s*금|월요일/.test(String(cc.hours.weekday ?? '')) && !/토/.test(String(cc.hours.weekday ?? '')) ? '평일 ' : '';
   /* 받침에 따라 조사를 고른다 — "교직원공제회과 무관합니다" 가 나왔다 (2026-09-15). 허브(CallCenterHub)와 같은 판별 */
   const jongseong = (w: string) => {
     const code = String(w).trim().slice(-1).charCodeAt(0);

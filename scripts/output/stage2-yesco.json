@@ -1,0 +1,17 @@
+{
+  "slug": "yesco",
+  "keyword": "예스코 고객센터",
+  "title": "예스코 고객센터 전화번호 및 상담직원 연결·업무시간 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담직원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "예스코 고객센터 전화번호 모음",
+    "예스코 고객센터 상담직원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "예스코 고객센터 위치",
+    "예스코 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.lsyesco.com/CustGuide/companyArea",
+  "outline": "data/call-centers/yesco.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

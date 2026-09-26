@@ -406,6 +406,8 @@ const HW_WEEK = (() => {
   const rest = HW_RAW.replace(span, '');
   if (timeSpan(rest)) return HW_RAW;
   const extra = rest.replace(/[()\[\]]/g, '').trim();
+  /* 남은 말이 요일이면(예스코 '월요일~토요일 09:00~18:00') 떼면 무슨 요일인지 사라진다 — 원문을 쓴다 (2026-09-26) */
+  if (/[월화수목금토일]요일|주말|토요일/.test(extra)) return HW_RAW;
   return extra.length > 6 ? span : HW_RAW;
 })();
 /* 토요일에도 상담하는 곳이 있다 (2026-09-26 쿠쿠 '토요일 : 09:00~13:00').
