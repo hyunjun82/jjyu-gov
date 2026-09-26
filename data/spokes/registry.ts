@@ -2034,6 +2034,7 @@ import { kakaogamesCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { kgmCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kgm';
 import { innisfreeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/innisfree';
 import { wconceptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/wconcept';
+import { nikeKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/nike-kr';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2310,6 +2311,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'nike-kr': nikeKrCallCenterSpokeContent,
     'wconcept': wconceptCallCenterSpokeContent,
     'innisfree': innisfreeCallCenterSpokeContent,
     'kgm': kgmCallCenterSpokeContent,

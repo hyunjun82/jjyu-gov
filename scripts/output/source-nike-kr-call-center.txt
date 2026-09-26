@@ -1,0 +1,239 @@
+SLUG: nike-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/nike-kr-call-center-*.png)
+
+===== [1] https://www.nike.com/kr/help =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/nike-kr-call-center-1.png
+CHARS: 4176
+
+나이키는 사용자의 관심사 및 나이키 활동에 기반하여 다른 사이트에서 맞춤형 광고를 제공하기 위해 정보를 수집합니다. 해당 권한을 허용하시면, 서비스 제공업체 및 개인정보처리자 사이트에서 귀하의 관심사와 더욱 관련성 높은 나이키 광고를 받으실 수 있습니다. 권한 상태는 Nike.com 하단의 '개인 정보 설정'에서 언제든지 변경할 수 있습니다.
+
+더 자세한 정보는 개인 정보 처리 방침을 참고하십시오.
+
+로그아웃 상태에서는 선택 사항이 해당 기기의 브라우저에만 적용됩니다. 나이키 멤버십에 로그인하면 선택 사항이 변경될 수 있습니다. 모든 나이키 익스피리언스에서 환경 설정을 적용하려면, 로그인하여 옵션을 선택하십시오.
+
+맞춤형 광고를 위한 데이터 수집 및 사용 동의
+맞춤형 광고 자세히 보기
+제3자와의 데이터 공유 동의
+제3자와의 데이터 공유 자세히 보기
+선택 확인
+모두 허용
+모두 거부
+주요 콘텐츠로 건너뛰기
+
+매장 찾기
+
+고객센터
+
+가입하기
+
+로그인
+
+추석 시즌 혜택
+Men
+Women
+Kids
+Sport
+Sale
+NikeSKIMS
+
+고객센터
+무엇을 도와드릴까요?
+빠른 지원
+
+클릭 한 번으로 자주 묻는 질문에 대한 답변을 확인할 수 있습니다.
+
+반품/교환 및 환불
+나이키의 반품 정책은 어떻게 되나요?
+나이키의 반품 방법은 어떻게 되나요?
+나이키는 교환 서비스를 제공하나요?
+더보기
+출고 및 배송
+나이키에는 어떤 배송 옵션이 있나요?
+주문한 제품 중 왜 일부만 먼저 배송되었나요?
+온라인(나이키 앱, 나이키닷컴)에서 구매한 제품을 매장에서 픽업할 수 있나요?
+더보기
+주문 및 결제
+결제 방법에는 어떤 것이 있나요?
+주문을 취소하거나 주문 내용을 변경할 수 있나요?
+주문 및 배송 상황은 어떻게 조회하나요?
+더보기
+쇼핑하기
+쿠폰은 어떻게 사용하나요? (생일 쿠폰, 웰컴 쿠폰 등)
+나이키의 사이즈 정보는 어떻게 알 수 있나요?
+제품 구매 시, 참고할 수 있는 나이키(제품/ 사이즈) 가이드가 있나요?
+더보기
+나이키 멤버십/ Apps (Nike, SNKRS)
+나이키 멤버가 되면 어떤 혜택을 받나요?
+Draw는 어떻게 응모하나요?
+SNKRS 결제 방법은 어떻게 되나요?
+더보기
+공지 및 기타 정책
+공지사항 및 고객알림
+나이키의 A/S 절차는 어떻게 되나요?
+나이키의 품질 보증 기간은 어떻게 되나요?
+더보기
+문의하기
+
+나이키와 채팅하기
+제품 및 주문 | 9:00 – 20:00
+월요일 – 일요일(설/추석 연휴 제외)
+전화 문의
+080-022-0182
+제품 및 주문 | 9:00 – 20:00, 월요일 – 일요일(설/추석 연휴 제외)
+A/S 서비스 | 9:00 - 12:00, 13:00 - 18:00, 월요일 - 금요일(공휴일 제외)
+매장 찾기
+안내
+
+멤버가입
+
+매장찾기
+
+제품 가이드
+
+러닝화 가이드
+
+멤버 혜택
+
+웰컴 쿠폰
+
+생일 쿠폰
+
+학생 할인 쿠폰
+
+고객센터
+
+주문배송조회
+
+반품 정책
+
+결제 방법
+
+공지사항
+
+문의하기
+
+회사소개
+
+About Nike
+
+소식
+
+채용
+
+투자자
+
+지속가능성
+
+코칭
+
+신고하기
+
+대한민국
+
+© 2026 Nike, Inc. All Rights Reserved
+
+이용약관
+
+개인정보처리방침
+
+위치정보이용약관
+
+영상정보처리기기 운영 방침
+
+(유)나이키코리아 대표 Chase Louis Taylor, 체이스 루이스 테일러 | 서울 강남구 테헤란로 152 강남파이낸스센터 30층 | 통신판매업신고번호 2011-서울강남-03461 | 사업자등록번호 220-88-09068 사업자 정보 확인
+
+고객센터 전화 문의 080-022-0182 FAX 02-6744-5880 | 이메일 Nikekorea@nike.com | 호스팅서비스사업자 (유)나이키코리아
+
+현금 등으로 결제 시 안전 거래를 위해  나이키 쇼핑몰에서 가입하신 한국결제네트웍스 유한회사의 구매안전 서비스(결제대금예치)를 이용하실 수 있습니다.
+
+콘텐츠산업진흥법에 의한 콘텐츠 보호 안내 자세히 보기
+
+----- 프레임 (https://www.nike.com/static/uxf/guest-session-html/index.html) -----
+%ESI_AUDIENCE_SEGMENTATION%
+
+  You need to enable JavaScript to run this app.
+  
+    const allowedOrigins = [
+      `https://www.nike.com`,
+      `https://localhost.nike.com`,
+      `https://gs-checkout.nike.com`,
+      `https://gs.nike.com`,
+      `https://gs-profilemanagement.nike.com`,
+      `https://www.nike.com.cn`,
+      `https://uat.nike.com`,
+      `https://www.232323232323.com`,
+      `https://localhost.232323232323.com`,
+      `https://uat.232323232323.com`
+    ];
+
+    function setVisitData(visitData) {
+      const stringifiedVisitData = JSON.stringify(visitData);
+      window.localStorage.setItem(`visitData`, stringifiedVisitData);
+      window.sessionStorage.setItem(`visitDataProcessed`, `true`);
+    }
+
+    function getVisitData() {
+      const visitData = JSON.parse(window.localStorage.getItem(`visitData`));
+
+      if (!visitData) {
+        parent.postMessage(
+          {
+            type: `generateVisitData`,
+          },
+          `*`
+        );
+        return;
+      }
+
+      const visitDataProcessed =
+        window.sessionStorage.getItem(`visitDataProcessed`);
+      const shouldIncrementVisitIdCount =
+        visitData && visitDataProcessed !== `true`;
+
+      if (shouldIncrementVisitIdCount) {
+        const newVisitData = {
+          visitId: visitData.visitId + 1 || visitData.visit + 1,
+          visitorId: visitData.visitorId || visitData.visitor,
+        };
+        parent.postMessage(
+          {
+            visitData: newVisitData,
+            type: `setVisitData`,
+          },
+          `*`
+        );
+        setVisitData(newVisitData);
+        return;
+      }
+      parent.postMessage(
+        {
+          visitData: visitData,
+          type: `setVisitData`,
+        },
+        `*`
+      );
+    }
+
+    function onMessage(event) {
+      if (!allowedOrigins.includes(event.origin)) return;
+
+      switch (event.data.type) {
+        case `getVisitData`:
+          getVisitData();
+          break;
+        case `setVisitData`: 
+          setVisitData(event.data.visitData);
+          break;
+        default:
+          break;
+      }
+    }
+
+    window.addEventListener(`message`, onMessage, false);
+    parent.postMessage({ type: `gsIframeReady` }, `*`);
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+AfricaEgyptEnglishMoroccoEnglishMarocFrançaisSouth AfricaEnglishAmericasArgentinaEspañolBrasilPortuguêsCanadaEnglishCanadaFrançaisChileEspañolColombiaEspañolMéxicoEspañolPeruEspañolPuerto RicoEspañolUnited StatesEnglishEstados UnidosEspañolUruguayEspañolLatin AmericaEspañolAsia PacificAustraliaEnglish中国大陆简体中文Hong KongEnglish香港繁體中文IndiaEnglishIndonesiaEnglishJapanEnglish日本日本語대한민국한국어MalaysiaEnglishNew ZealandEnglishPhilippinesEnglishSingaporeEnglish台灣繁體中文ไทยภาษาไทยVietnamEnglishEuropeÖsterreichDeutschAustriaEnglishBelgienDeutschBelgiumEnglishBelgiqueFrançaisBelgiëNederlandsBulgariaEnglishCroatiaEnglishČeská republikaČeštinaCzech RepublicEnglishDanmarkDanskDenmarkEnglishFinlandEnglishFranceFrançaisDeutschlandDeutschΕλλάδαελληνικάHungaryEnglishMagyarországMagyarIrelandEnglishIsraelEnglishItaliaItalianoLuxemburgDeutschLuxembourgEnglishLuxembourgFrançaisNetherlandsEnglishNederlandNederlandsNorwayEnglishNorgeNorskPolskaPolskiPortugalEnglishPortugalPortuguêsRomaniaEnglishРоссияРусскийSlovakiaEnglishSloveniaEnglishEspanyaCatalàEspañaEspañolSwedenEnglishSverigeSvenskaSchweizDeutschSwitzerlandEnglishSuisseFrançaisSvizzeraItalianoTürkiyeTürkçeUnited KingdomEnglishMiddle EastSaudi ArabiaEnglishالمملكة العربية السعوديةالعربيةUnited Arab EmiratesEnglishالإمارات العربية المتحدةالعربيةQatarEnglishدولة قطرالعربيةKuwaitEnglishالكويتالعربية
