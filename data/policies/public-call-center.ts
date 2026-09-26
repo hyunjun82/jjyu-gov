@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'kituramienergy', role: 'eligibility', title: '귀뚜라미에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'korail', role: 'eligibility', title: '코레일 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kowon-energy', role: 'eligibility', title: '코원에너지서비스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'jeonbuk-citygas', role: 'eligibility', title: '전북도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },

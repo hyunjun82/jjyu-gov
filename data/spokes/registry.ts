@@ -1994,6 +1994,7 @@ import { shinsegaeDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { everlandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/everland';
 import { winixCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/winix';
 import { uniqloCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/uniqlo';
+import { kituramienergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kituramienergy';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2077,6 +2078,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'kituramienergy': kituramienergyCallCenterSpokeContent,
     'kowon-energy': kowonEnergyCallCenterSpokeContent,
     'jeonbuk-citygas': jeonbukCitygasCallCenterSpokeContent,
     'kyungdong-gas': kyungdongGasCallCenterSpokeContent,
