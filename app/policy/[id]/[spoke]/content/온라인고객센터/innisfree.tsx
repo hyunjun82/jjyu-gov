@@ -142,7 +142,7 @@ export const innisfreeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "innisfree",
     "name": "이니스프리",
-    "brandColor": "#003821",
+    "brandColor": "#000000",
     "official": "https://www.innisfree.com",
     "sourceUrl": "https://www.innisfree.com/kr/ko/",
     "sourceName": "이니스프리 공식몰",

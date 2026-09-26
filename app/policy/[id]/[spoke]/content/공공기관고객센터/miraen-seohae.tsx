@@ -136,7 +136,7 @@ export const miraenSeohaeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "miraen-seohae",
     "name": "미래엔서해에너지",
-    "brandColor": "#0E2568",
+    "brandColor": "#0E2C6A",
     "official": "https://www.shgas.co.kr",
     "sourceUrl": "https://www.shgas.co.kr/",
     "sourceName": "미래엔서해에너지 공식 홈페이지",

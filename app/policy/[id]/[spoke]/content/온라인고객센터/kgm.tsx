@@ -140,7 +140,7 @@ export const kgmCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "kgm",
     "name": "KG모빌리티",
-    "brandColor": "#030303",
+    "brandColor": "#46494B",
     "official": "https://www.kg-mobility.com",
     "sourceUrl": "https://www.kg-mobility.com/sr/kgm-service/service-program?menu=24hour",
     "sourceName": "KGM 24H 긴급 출동 안내",

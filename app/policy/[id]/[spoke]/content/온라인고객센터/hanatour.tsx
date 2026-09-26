@@ -142,7 +142,7 @@ export const hanatourCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "hanatour",
     "name": "하나투어",
-    "brandColor": "#4A1DAC",
+    "brandColor": "#5E2BB8",
     "official": "https://www.hanatour.com",
     "sourceUrl": "https://www.hanatour.com/",
     "sourceName": "하나투어 공식 홈페이지",

@@ -142,7 +142,7 @@ export const youngpoongCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "youngpoong",
     "name": "영풍문고",
-    "brandColor": "#182D8F",
+    "brandColor": "#E1251B",
     "official": "https://www.ypbooks.co.kr",
     "sourceUrl": "https://www.ypbooks.co.kr/",
     "sourceName": "인터넷 영풍문고",

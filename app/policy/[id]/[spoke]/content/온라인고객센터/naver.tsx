@@ -152,7 +152,7 @@ export const naverCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "naver",
     "name": "네이버",
-    "brandColor": "#07A65B",
+    "brandColor": "#03C75A",
     "official": "https://help.naver.com",
     "sourceUrl": "https://help.naver.com/service/30016/contents/24321?lang=ko&osType=COMMONOS",
     "sourceName": "네이버 고객센터(1588-3820) ARS 이용 안내",

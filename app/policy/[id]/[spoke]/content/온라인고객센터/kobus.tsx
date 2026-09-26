@@ -140,7 +140,7 @@ export const kobusCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "kobus",
     "name": "코버스",
-    "brandColor": "#114397",
+    "brandColor": "#F37021",
     "official": "https://www.kobus.co.kr",
     "sourceUrl": "https://www.kobus.co.kr/main.do",
     "sourceName": "고속버스통합예매 KOBUS",
