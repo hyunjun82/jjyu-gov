@@ -1,0 +1,21 @@
+{
+  "slug": "albamon",
+  "name": "알바몬",
+  "aliases": ["albamon", "알바몬 고객센터", "알바몬 상담원"],
+  "industry": "online",
+  "brandColor": "#FE6B27",
+  "official": "https://www.albamon.com",
+  "sourceUrl": "https://www.albamon.com/",
+  "sourceName": "알바몬 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "hq": "서울시 서초구 서초대로 301 동익성봉빌딩 16~18층",
+  "main": { "label": "고객센터", "tel": "1588-9351" },
+  "hours": { "weekday": "월~금 09:00 ~ 19:00", "saturday": "토요일 09:00 ~ 15:00", "holiday": "일요일, 공휴일 휴무" },
+  "hoursNote": "[2026-09-26] 알바몬 홈 푸터: 고객센터 1588-9351, 월~금 09:00 ~ 19:00, 토요일 09:00 ~ 15:00 (일요일, 공휴일 휴무). 주소 서울시 서초구 서초대로 301 동익성봉빌딩 16~18층, 이메일 helpdesk@albamon.com. 채용 틀이 없어 온라인 틀. 로고색은 로고 이미지 최빈색.",
+  "idStep": "가입 아이디와 휴대폰 번호",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-9351", "note": "월~금 09:00~19:00, 토요일 09:00~15:00" }
+  ]
+}

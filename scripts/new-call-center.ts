@@ -362,7 +362,8 @@ for (const k of Object.keys(C.hours)) {
   if (typeof C.hours[k] === 'string' && FILLER.test(C.hours[k])) C.hours[k] = '';
 }
 /* 점심시간 — 원문에 있으면 사람이 JSON 에 원문 그대로 적는다(문장이 회사마다 다르다). */
-const lunchInSrc = /점심|중식/.test(src);
+/* 점심 뒤에 시각이 붙을 때만 점심시간 안내로 본다 (2026-09-26 알바몬 — 홈의 구인 공고 '점심 간식 음료 제공' 을 잡았다) */
+const lunchInSrc = /(점심|중식)[^0-9]{0,8}\d{1,2}(:\d{2}|시)\s*[~\-]/.test(src);
 if (lunchInSrc && !C.hours.lunch) {
   die('원문에 점심시간 언급이 있다. data/call-centers/' + C.slug + '.json 의 hours.lunch 에 원문 그대로 적고 다시 돌려라.');
 }
