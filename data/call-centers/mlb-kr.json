@@ -1,0 +1,21 @@
+{
+  "slug": "mlb-kr",
+  "name": "MLB 코리아",
+  "aliases": ["MLB", "엠엘비", "MLB 고객센터", "MLB 코리아 고객센터"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.mlb-korea.com",
+  "sourceUrl": "https://www.mlb-korea.com/",
+  "sourceName": "MLB 공식몰",
+  "verifiedAt": "2026-09-26",
+  "hq": "서울특별시 강남구 테헤란로8길 8",
+  "main": { "label": "고객센터", "tel": "080-807-0012" },
+  "hours": { "weekday": "평일 오전 9시 ~ 오후 6시(토/일/공휴일 휴무)" },
+  "hoursNote": "[2026-09-26] MLB 공식몰 푸터: 대표: 김창수 / 서울특별시 강남구 테헤란로8길 8, 고객센터 : 080-807-0012 / 운영시간 : 평일 오전 9시 ~ 오후 6시(토/일/공휴일 휴무). 디스커버리 익스페디션과 같은 회사지만 번호가 다른 별도 고객센터. 법인명이 푸터 추출본에 없어 corp 는 비운다. 패션 틀이 없어 온라인 틀. 로고색은 헤더 MLB 로고 검정.",
+  "idStep": "주문번호",
+  "heroSalt": "aq",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "080-807-0012", "note": "평일 오전 9시~오후 6시(토/일/공휴일 휴무)" }
+  ]
+}
