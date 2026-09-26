@@ -1,0 +1,582 @@
+SLUG: puma-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/puma-kr-call-center-*.png)
+
+===== [1] https://kr.puma.com/kr/ko =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/puma-kr-call-center-1.png
+CHARS: 5107
+
+무료배송, 14일내 무료반품
+푸마 홈
+신상품
+온라인 단독
+신발
+의류
+용품
+여성
+신발
+러닝
+라이프스타일
+샌들 & 슬리퍼
+나이트로
+스피드캣
+H-STREET
+의류
+러닝
+축구
+라이프스타일
+아우터
+후디 & 크루넥
+탑 & 티셔츠
+팬츠
+쇼츠
+유니폼
+용품
+가방 & 백팩
+모자
+양말
+기타
+스포츠
+러닝
+축구
+트레이닝 & 짐
+남성
+신발
+러닝
+축구
+라이프스타일
+샌들 & 슬리퍼
+나이트로
+스피드캣
+H-STREET
+의류
+러닝
+축구
+라이프스타일
+아우터
+후디 & 크루넥
+탑 & 티셔츠
+팬츠
+쇼츠
+유니폼
+용품
+가방 & 백팩
+모자
+양말
+기타
+스포츠
+러닝
+축구
+농구
+트레이닝 & 짐
+아동
+스포츠
+러닝
+신발
+의류
+용품
+디비에이트
+레이스데이
+에브리데이
+트레일 러닝
+러닝 컬렉션
+어반 러닝 컬렉션
+세이스카이
+축구
+신발
+의류
+용품
+축구공
+퓨처 | FUTURE
+울트라 | ULTRA
+킹 | KING
+유니폼
+팀 컬렉션
+맨체스터 시티
+AC 밀란
+보루시아 도르트문트
+부산아이파크
+포항스틸러스
+농구
+신발
+라멜로 볼 | LaMelo Ball
+모터스포츠
+맥라렌
+페라리
+멀티 스포츠
+하이록스
+트레이닝 & 짐
+컬렉션
+홍범석 컬렉션
+라이프스타일
+푸마 × 로제
+H-STREET
+스피드캣
+로제 컬렉션
+컬래버레이션
+J.L-A.L
+매드해피
+헬로선라이즈
+A$AP ROCKY
+AHLUWALIA
+포켓몬
+파워퍼프걸
+레프리젠트
+컬렉션
+스피드캣
+H-STREET
+태클
+아반티
+모스트로
+라스트 피스
+러닝화
+신발
+의류
+용품
+아울렛
+신발
+의류
+용품
+이벤트
+🌕추석맞이 룰렛 이벤트
+☃️윈터 다운 얼리버드
+ 
+장바구니에 담은 수량
+
+추석 연휴 인한 출고/반품 지연 안내
+자세히 보기
+OOPS, SOMETHING IS BROKEN
+Sorry for any inconvenience caused
+HOME
+푸마 홈
+뉴스레터 구독하기
+이메일
+구독하기
+입력하신 이메일 주소로 할인코드를 발송해 드립니다.
+Support
+자주 물어보는 질문
+고객센터
+매장위치
+계정정보
+배송관련정보
+환불 정책
+개인정보처리방침
+이용약관
+About PUMA (외부링크연결)
+GO WILD
+Company
+Corporate News
+Press Center
+Investors
+Sustainability
+Careers
+More Inspiration
+facebook
+instagram
+youtube
+naver
+TRAIN WITH THE FASTEST
+한국어
+
+© PUMA Korea Ltd, 2026. All Rights Reserved.
+
+Imprint & Legal Data
+푸마코리아 유한회사 I 서울 특별시 중구 을지로 100, 6층 (을지로2가, 파인에비뉴)
+대표자 : 이나영
+사업자 등록 번호 : 108-81-77705
+대표 번호 : 02-2136-1000 / 이메일 : webmaster.kr@puma.com
+오프라인스토어 문의 : 080-082-0888 (평일 10시~17시, 점심시간 12시~14시 제외), 주말 및 공휴일(임시공휴일 포함) 제외
+온라인스토어 문의 : 080-857-0777 (평일 10시~17시, 점심시간 12시~14시 제외), 주말 및 공휴일(임시공휴일 포함) 제외
+통신판매업신고 : 2017-서울중구-0863
+개인정보 보호 책임자 : 권순완
+ 
+구매이용약관
+개인정보 취급방침
+공정거래위원회
+사업자 신원정보 확인
+매매보호서비스 가입사실확인
+
+----- 프레임 (https://kr.puma.com/tmsmetrics/_/service_worker/69f0/sw_iframe.html?origin=https%3A%2F%2Fkr.puma.com&1p=1&path=%2Ftmsmetrics) -----
+'use strict';var m={};class n{constructor(a){this.l=a;this.h={};this.i={};this.j=0;this.id=String(Math.floor(Number.MAX_SAFE_INTEGER*Math.random()))}}function p(a){return a.performance&&a.performance.now()||Date.now()}
+var q=function(a,b){class d{constructor(c,f,g){this.failureType=c;this.data=f;this.h=g;this.i=new n(p(g))}o(c,f){var g=c.clientId;if(c.type===0){c.isDead=!0;var e=this.i,h=p(this.h);e.h[g]==null&&(e.h[g]=0,e.i[g]=h,e.j++);e.h[g]++;c.stats={targetId:e.id,clientCount:e.j,totalLifeMs:Math.round(h-e.l),heartbeatCount:e.h[g],clientLifeMs:Math.round(h-e.i[g])}}c.failure={failureType:this.failureType,data:this.data};f(c)}}return new d(5,a,b)};/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+let r=globalThis.trustedTypes,t;function u(){var a=null;if(!r)return a;try{let b=d=>d;a=r.createPolicy("goog#html",{createHTML:b,createScript:b,createScriptURL:b})}catch(b){}return a};var v=class{constructor(a){this.h=a}toString(){return this.h+""}};function w(a){var b=a,d;t===void 0&&(t=u());var c=(d=t)?d.createScriptURL(b):b;return new v(c)}function x(a){if(a instanceof v)return a.h;throw Error("");};function y(a,...b){if(b.length===0)return w(a[0]);var d=a[0];for(let c=0;c<b.length;c++)d+=encodeURIComponent(b[c])+a[c+1];return w(d)}function z(a){var b=y`sw.js`,d=x(b).toString(),c=d.split(/[?#]/),f=/[?]/.test(d)?"?"+c[1]:"";return A(c[0],f,/[#]/.test(d)?"#"+(f?c[2]:c[1]):"",a)}
+function A(a,b,d,c){function f(e,h){e!=null&&(Array.isArray(e)?e.forEach(l=>f(l,h)):(b+=g+encodeURIComponent(h)+"="+encodeURIComponent(e),g="&"))}var g=b.length?"&":"?";c.constructor===Object&&(c=Object.entries(c));Array.isArray(c)?c.forEach(e=>f(e[1],e[0])):c.forEach(f);return w(a+b+d)};const B=/Chrome\/(\d+)/;var D=function(a){var b=a.origin;if(b){var d=a.u?"sw.js":"sw_uncompiled.js",c=a.h?y`/static/service_worker/${a.h}/${d}?origin=${b}`:y`/gtm/static/${d}?origin=${b}`,f=new Map([["origin",b]]);a.path&&f.set("path",a.path);var g=a.l?z(f):c,e=()=>{var k=B.exec(a.window.navigator.userAgent);return k&&Number(k[1])<119},h=a.window.document.location.href;a.h&&(a.l?h=`${a.path}/_/service_worker`:e()||(h="/static/service_worker"));var l={scope:h};a.h&&(l.updateViaCache="all");a.window.navigator.serviceWorker.register(x(g),
+l).then(()=>{a.window.navigator.serviceWorker.ready.then(k=>{a.i=k.active;C(a)})},k=>{a.j=q(k==null?void 0:k.toString(),a.window);C(a)});a.window.navigator.serviceWorker.addEventListener("message",k=>{a.window.parent.postMessage(k.data,a.origin)})}},C=function(a){var b=a.m.slice();a.m=[];for(let d of b)a.handleEvent(d)};
+(new class{constructor(a,b=!0){this.window=a;this.u=b;this.origin="";this.l=!1;this.path="";this.j=this.i=null;this.m=[];this.h=""}init(){if((f=>{try{return f!==f.top}catch(g){return!0}})(this.window)){var a=new URL(this.window.document.location.href),b=a.searchParams.get("origin");if(b){this.origin=b;this.l=!!a.searchParams.get("1p");this.path=a.searchParams.get("path")||"";var d=a.pathname.match(RegExp(".*/service_worker/(\\w+)/"));d&&d.length&&(this.h=d[1]);var c=this.window.document.location.ancestorOrigins;
+c&&c[0]!==this.origin||(D(this),this.window.addEventListener("message",f=>{this.handleEvent(f)}))}}}handleEvent(a){a.origin===this.origin&&(this.i?this.i.postMessage(a.data):this.j?this.j.o(a.data,b=>{this.window.parent.postMessage(b,this.origin)}):this.m.push(a))}}(window)).init();
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+최적의 사용을 위해 해당 브라우저를 이용해주세요.
+ Safari
+ Google Chrome
+ Firefox
+ 감사합니다. 나중에 다시할게요.
+
+.ajst0{fill:#1d1d1b}.ascls-1{fill:none;stroke:#1d1d1b;stroke-miterlimit:10;stroke-width:4px}.bvcls-1{fill:#1a1a18}.cocls-1{fill:#41b65b}
+
+메뉴
+ 마이페이지
+ 위시리스트
+ 0
+ 고객지원
+ 언어
+ 한국어
+ 한국어
+ 로그인
+ 회원가입
+
+신상품
+ 전체 상품보기
+ 온라인 단독
+ 신발
+ 의류
+ 용품
+
+여성
+ 전체 상품보기
+ 신발
+ 의류
+ 용품
+ 스포츠
+
+남성
+ 전체 상품보기
+ 신발
+ 의류
+ 용품
+ 스포츠
+
+스포츠
+ 전체 상품보기
+ 러닝
+ 축구
+ 농구
+ 모터스포츠
+ 멀티 스포츠
+
+라이프스타일
+ 전체 상품보기
+ 푸마 × 로제
+ 컬래버레이션
+ 컬렉션
+
+라스트 피스
+ 전체 상품보기
+ 러닝화
+ 신발
+ 의류
+ 용품
+
+아울렛
+ 전체 상품보기
+ 신발
+ 의류
+ 용품
+
+이벤트
+ 전체 상품보기
+ 🌕추석맞이 룰렛 이벤트
+ ☃️윈터 다운 얼리버드
+
+온라인 단독
+ 전체 상품보기
+
+신발
+ 전체 상품보기
+
+의류
+ 전체 상품보기
+
+용품
+ 전체 상품보기
+
+신발
+ 전체 상품보기
+ 러닝
+ 라이프스타일
+ 샌들 & 슬리퍼
+ 나이트로
+ 스피드캣
+ H-STREET
+
+의류
+ 전체 상품보기
+ 러닝
+ 축구
+ 라이프스타일
+ 아우터
+ 후디 & 크루넥
+ 탑 & 티셔츠
+ 팬츠
+ 쇼츠
+ 유니폼
+
+용품
+ 전체 상품보기
+ 가방 & 백팩
+ 모자
+ 양말
+ 기타
+
+스포츠
+ 전체 상품보기
+ 러닝
+ 축구
+ 트레이닝 & 짐
+
+신발
+ 전체 상품보기
+ 러닝
+ 축구
+ 라이프스타일
+ 샌들 & 슬리퍼
+ 나이트로
+ 스피드캣
+ H-STREET
+
+스포츠
+ 전체 상품보기
+ 러닝
+ 축구
+ 농구
+ 트레이닝 & 짐
+
+러닝
+ 전체 상품보기
+ 신발
+ 의류
+ 용품
+ 디비에이트
+ 레이스데이
+ 에브리데이
+ 트레일 러닝
+ 러닝 컬렉션
+ 어반 러닝 컬렉션
+ 세이스카이
+
+축구
+ 전체 상품보기
+ 신발
+ 의류
+ 용품
+ 축구공
+ 퓨처 | FUTURE
+ 울트라 | ULTRA
+ 킹 | KING
+ 유니폼
+ 팀 컬렉션
+ 맨체스터 시티
+ AC 밀란
+ 보루시아 도르트문트
+ 부산아이파크
+ 포항스틸러스
+
+농구
+ 전체 상품보기
+ 신발
+ 라멜로 볼 | LaMelo Ball
+
+모터스포츠
+ 전체 상품보기
+ 맥라렌
+ 페라리
+
+멀티 스포츠
+ 전체 상품보기
+ 하이록스
+ 트레이닝 & 짐
+ 컬렉션
+ 홍범석 컬렉션
+
+푸마 × 로제
+ 전체 상품보기
+ H-STREET
+ 스피드캣
+ 로제 컬렉션
+
+컬래버레이션
+ 전체 상품보기
+ J.L-A.L
+ 매드해피
+ 헬로선라이즈
+ A$AP ROCKY
+ AHLUWALIA
+ 포켓몬
+ 파워퍼프걸
+ 레프리젠트
+
+컬렉션
+ 전체 상품보기
+ 스피드캣
+ H-STREET
+ 태클
+ 아반티
+ 모스트로
+
+러닝화
+ 전체 상품보기
+
+🌕추석맞이 룰렛 이벤트
+ 전체 상품보기
+
+☃️윈터 다운 얼리버드
+ 전체 상품보기
+
+러닝
+ 전체 상품보기
+
+라이프스타일
+ 전체 상품보기
+
+샌들 & 슬리퍼
+ 전체 상품보기
+
+나이트로
+ 전체 상품보기
+
+스피드캣
+ 전체 상품보기
+
+H-STREET
+ 전체 상품보기
+
+축구
+ 전체 상품보기
+
+아우터
+ 전체 상품보기
+
+후디 & 크루넥
+ 전체 상품보기
+
+탑 & 티셔츠
+ 전체 상품보기
+
+팬츠
+ 전체 상품보기
+
+쇼츠
+ 전체 상품보기
+
+유니폼
+ 전체 상품보기
+
+가방 & 백팩
+ 전체 상품보기
+
+모자
+ 전체 상품보기
+
+양말
+ 전체 상품보기
+
+기타
+ 전체 상품보기
+
+트레이닝 & 짐
+ 전체 상품보기
+
+농구
+ 전체 상품보기
+
+디비에이트
+ 전체 상품보기
+
+레이스데이
+ 전체 상품보기
+
+에브리데이
+ 전체 상품보기
+
+트레일 러닝
+ 전체 상품보기
+
+어반 러닝 컬렉션
+ 전체 상품보기
+
+세이스카이
+ 전체 상품보기
+
+축구공
+ 전체 상품보기
+
+퓨처 | FUTURE
+ 전체 상품보기
+
+울트라 | ULTRA
+ 전체 상품보기
+
+킹 | KING
+ 전체 상품보기
+
+맨체스터 시티
+ 전체 상품보기
+
+AC 밀란
+ 전체 상품보기
+
+보루시아 도르트문트
+ 전체 상품보기
+
+부산아이파크
+ 전체 상품보기
+
+포항스틸러스
+ 전체 상품보기
+
+라멜로 볼 | LaMelo Ball
+ 전체 상품보기
+
+맥라렌
+ 전체 상품보기
+
+페라리
+ 전체 상품보기
+
+하이록스
+ 전체 상품보기
+
+홍범석 컬렉션
+ 전체 상품보기
+
+로제 컬렉션
+ 전체 상품보기
+
+J.L-A.L
+ 전체 상품보기
+
+매드해피
+ 전체 상품보기
+
+헬로선라이즈
+ 전체 상품보기
+
+A$AP ROCKY
+ 전체 상품보기
+
+AHLUWALIA
+ 전체 상품보기
+
+포켓몬
+ 전체 상품보기
+
+파워퍼프걸
+ 전체 상품보기
+
+레프리젠트
+ 전체 상품보기
+
+태클
+ 전체 상품보기
+
+아반티
+ 전체 상품보기
+
+모스트로
+ 전체 상품보기

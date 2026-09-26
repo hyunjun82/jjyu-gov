@@ -126,6 +126,9 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'chicor', role: 'eligibility', title: '시코르(CHICOR) 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'thefaceshop', role: 'eligibility', title: '더페이스샵 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'puma-kr', role: 'eligibility', title: '푸마 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'asics-kr', role: 'eligibility', title: '아식스 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'newbalance-kr', role: 'eligibility', title: '뉴발란스 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'mlb-kr', role: 'eligibility', title: 'MLB 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
