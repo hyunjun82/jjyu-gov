@@ -2019,6 +2019,7 @@ import { hansungCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { albaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/alba';
 import { ncsoftCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ncsoft';
 import { modernhouseCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/modernhouse';
+import { munhwaNuriCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/munhwa-nuri';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2108,6 +2109,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'munhwa-nuri': munhwaNuriCallCenterSpokeContent,
     'gov110': gov110CallCenterSpokeContent,
     'gunsan-citygas': gunsanCitygasCallCenterSpokeContent,
     'gangwon-citygas': gangwonCitygasCallCenterSpokeContent,
