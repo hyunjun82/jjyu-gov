@@ -1,0 +1,23 @@
+{
+  "slug": "kyungnam-energy",
+  "name": "경남에너지",
+  "aliases": ["경남에너지 도시가스", "창원 도시가스", "KYUNGNAM ENERGY"],
+  "industry": "public",
+  "brandColor": "#114F90",
+  "official": "https://www.knenergy.co.kr",
+  "sourceUrl": "https://www.knenergy.co.kr/kcc070.do?programId=KCC070",
+  "sourceName": "경남에너지 지역 고객센터 찾기",
+  "verifiedAt": "2026-09-26",
+  "hq": "경상남도 창원시 성산구 연덕로 18(웅남동)",
+  "main": { "label": "콜센터(유료)", "tel": "1661-4000" },
+  "hours": { "weekday": "9시 ~ 18시" },
+  "hoursNote": "[2026-09-26] 경남에너지 지역 고객센터 찾기: 업무 시간 : 9시 ~ 18시(주말/공휴일은 긴급, 예약건에 한하여 운영), 서비스 안내 : 도시가스 연결/철거 검침, 청구, 안전점검 등. 본사·지사·고객센터 전화번호는 모두 1661-4000. 홈: 콜센터 1661-4000, 푸터 Tel 1661-4000(유료) 080-260-4000(무료). 로고가 흰색이라 브랜드색은 홈 캡처 최빈색(남색). 도시가스 틀이 없어 공공 틀.",
+  "notice": "주말과 공휴일에는 긴급·예약 건만 운영합니다.",
+  "idStep": "가스 사용 주소와 계약자 이름",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "콜센터", "tel": "1661-4000", "note": "유료, 지역 고객센터 모두 같은 번호" },
+    { "label": "무료 전화", "tel": "080-260-4000" }
+  ]
+}

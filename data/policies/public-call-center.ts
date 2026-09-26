@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'kyungnam-energy', role: 'eligibility', title: '경남에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'expressway', role: 'eligibility', title: '한국도로공사 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'yesco', role: 'eligibility', title: '예스코 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'daesung-energy', role: 'eligibility', title: '대성에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
