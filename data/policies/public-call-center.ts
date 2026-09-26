@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'jeonbuk-citygas', role: 'eligibility', title: '전북도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kyungdong-gas', role: 'eligibility', title: '경동도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kyungnam-energy', role: 'eligibility', title: '경남에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'expressway', role: 'eligibility', title: '한국도로공사 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
