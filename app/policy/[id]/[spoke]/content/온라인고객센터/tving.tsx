@@ -100,7 +100,7 @@ export const tvingCallCenterSpokeContent: SpokeData = {
         label: '가까운 지점 찾기',
         url: MAP,
       },
-      sourceNote: '* 출처: (주)티빙 사업자 정보 (2026-09-26 확인)',
+      sourceNote: '* 출처: 티빙 사업자 정보 (2026-09-26 확인)',
     },
     {
       q: '다른 서비스 고객센터 번호도 필요한데요', anchor: 'q5',
@@ -144,7 +144,7 @@ export const tvingCallCenterSpokeContent: SpokeData = {
     {
       q: '본사 주소는 어디인가요?',
       a: '서울특별시 마포구 상암산로 34, DMC디지털큐브 15층(상암동)입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.',
-      source: '(주)티빙 사업자 정보',
+      source: '티빙 사업자 정보',
       sourceUrl: 'https://www.tving.com',
     },
   ],
