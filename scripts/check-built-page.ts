@@ -47,8 +47,9 @@ if (!fs.existsSync(CC_DIR)) {
 
 const flat = (s: string) => String(s).replace(/\s+/g, '');
 // 빌드된 HTML 은 & 를 &amp; 로 적는다 — 풀지 않으면 원문 "항공권 & 호텔 예약"(트립닷컴)이 표에 없다고 오판한다
-const strip = (s: string) => s.replace(/<[^>]+>/g, '|')
+const unent = (s: string) => s
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&');
+const strip = (s: string) => unent(s.replace(/<[^>]+>/g, '|'));
 
 type Bad = { name: string; kind: string; detail: string };
 const bad: Bad[] = [];
@@ -99,7 +100,7 @@ for (const f of fs.readdirSync(CC_DIR).filter((x) => x.endsWith('.json'))) {
 
   /* ② 남의 회사가 나오나 */
   const m = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
-  const h1 = m ? m[1].replace(/<[^>]+>/g, '').trim() : '';
+  const h1 = m ? unent(m[1].replace(/<[^>]+>/g, '')).trim() : ''; // 제목도 푼다 — 'H&amp;M' 을 남의 회사로 오판했다 (2026-09-26)
   if (!h1) {
     bad.push({ name: c.name, kind: '본문이 비어 있다 (h1 없음)', detail: c.slug });
     continue;
