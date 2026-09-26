@@ -1,0 +1,22 @@
+{
+  "slug": "kowon-energy",
+  "name": "코원에너지서비스",
+  "aliases": ["코원에너지", "코원에너지서비스 고객센터", "코원 도시가스"],
+  "industry": "public",
+  "brandColor": "#E70128",
+  "official": "https://www.skens.com/koone",
+  "sourceUrl": "https://www.skens.com/koone/main/index.do",
+  "sourceName": "코원에너지서비스 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "코원에너지서비스㈜",
+  "hq": "서울특별시 강남구 남부순환로 3165",
+  "main": { "label": "고객센터", "tel": "1599-3366" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 코원에너지서비스(skens.com/koone — 부산도시가스 푸터 FAMILY SITE 링크 skens.com/?koone 가 넘어가는 곳) 푸터: 코원에너지서비스㈜ : 서울특별시 강남구 남부순환로 3165, TEL : 1599-3366 고객센터 : 1599-3366. 부산도시가스와 같은 SK이노베이션 E&S 템플릿이라 전화 상담시간 표기는 없다 — 비운다. 도시가스 틀이 없어 공공 틀. 브랜드색은 부산도시가스와 같은 SK 사이트 빨강.",
+  "idStep": "가스 사용 주소와 계약자 이름",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1599-3366" }
+  ]
+}

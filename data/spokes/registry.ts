@@ -1986,6 +1986,7 @@ import { homeplusCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { hyundaiDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hyundai-dept';
 import { kyungdongGasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kyungdong-gas';
 import { jeonbukCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeonbuk-citygas';
+import { kowonEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kowon-energy';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2067,6 +2068,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'kowon-energy': kowonEnergyCallCenterSpokeContent,
     'jeonbuk-citygas': jeonbukCitygasCallCenterSpokeContent,
     'kyungdong-gas': kyungdongGasCallCenterSpokeContent,
     'kyungnam-energy': kyungnamEnergyCallCenterSpokeContent,
