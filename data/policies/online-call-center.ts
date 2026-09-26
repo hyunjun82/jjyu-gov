@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'kakaogames', role: 'eligibility', title: '카카오게임즈 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'watcha', role: 'eligibility', title: '왓챠 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'costco', role: 'eligibility', title: '코스트코 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'boram-sangjo', role: 'eligibility', title: '보람상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
