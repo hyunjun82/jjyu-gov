@@ -1,0 +1,24 @@
+{
+  "slug": "twayair",
+  "name": "트리니티항공",
+  "aliases": ["티웨이항공", "티웨이", "T'way", "트리니티항공 예약센터", "티웨이항공 예약센터"],
+  "industry": "online",
+  "brandColor": "#5A4F47",
+  "official": "https://www.trinityairways.com",
+  "sourceUrl": "https://www.trinityairways.com/app/customerCenter",
+  "sourceName": "트리니티항공 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "㈜ 트리니티항공",
+  "hq": "대구광역시 중구 동덕로 167, 10층(동인동2가, KT 대구타워 신관)",
+  "main": { "label": "트리니티항공 예약센터", "tel": "1688-8686" },
+  "hours": { "weekday": "07:00 ~ 19:00 (KST)" },
+  "hoursNote": "[2026-09-26] twayair.com 은 trinityairways.com 으로 넘어간다 — 고객센터 FAQ '[사명변경] 티웨이항공이 트리니티항공으로 사명이 변경되었나요?'. 고객센터 푸터: 트리니티항공 예약센터 1688-8686 07:00 ~ 19:00 (KST), 유럽 발신 전용 +82-2-2656-2899 19:00 ~ 07:00 (KST). 요일 표기 없음. 헤드리스 차단(Access Denied)이라 --headed. 검색 키워드는 '티웨이항공 고객센터' 라 옛 이름은 별칭에 둔다(기존 규칙: 사명 변경은 현재 사명 + aliases). 브랜드색은 사이트 버튼 갈색.",
+  "notice": "티웨이항공은 트리니티항공으로 사명이 바뀌었고, 예약센터 번호는 이 번호입니다.",
+  "idStep": "예약번호",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "트리니티항공 예약센터", "tel": "1688-8686", "note": "07:00~19:00 KST" },
+    { "label": "유럽 발신 전용", "tel": "+82-2-2656-2899", "note": "19:00~07:00 KST" }
+  ]
+}

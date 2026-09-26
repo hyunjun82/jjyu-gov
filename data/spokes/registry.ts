@@ -1942,6 +1942,7 @@ import { tripcomCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { boramSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/boram-sangjo';
 import { logenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/logen';
 import { navienCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/navien';
+import { twayairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/twayair';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2185,6 +2186,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'twayair': twayairCallCenterSpokeContent,
     'logen': logenCallCenterSpokeContent,
     'boram-sangjo': boramSangjoCallCenterSpokeContent,
     'tripcom': tripcomCallCenterSpokeContent,
