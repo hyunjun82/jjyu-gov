@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'dasan120', role: 'eligibility', title: '120다산콜재단 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'miraen-seohae', role: 'eligibility', title: '미래엔서해에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'jeonbuk-energy', role: 'eligibility', title: '전북에너지서비스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'munhwa-nuri', role: 'eligibility', title: '문화누리카드 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
