@@ -1,0 +1,23 @@
+{
+  "slug": "disneyplus",
+  "name": "디즈니플러스",
+  "aliases": ["디즈니+", "Disney+", "디즈니 플러스 고객센터"],
+  "industry": "online",
+  "brandColor": "#00181F",
+  "official": "https://help.disneyplus.com",
+  "sourceUrl": "https://help.disneyplus.com/ko/",
+  "sourceName": "디즈니+ 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "월트디즈니컴퍼니코리아 유한책임회사",
+  "hq": "서울시 강남구 테헤란로 152 7층",
+  "hqZip": "06236",
+  "main": { "label": "전화번호", "tel": "080-822-1416" },
+  "hours": { "weekday": "매일 오전 9시부터 오후 9시까지" },
+  "hoursNote": "[2026-09-26] 디즈니+ 고객센터(help.disneyplus.com/ko): '전화와 채팅 채널 운영 시간은 매일 오전 9시부터 오후 9시까지입니다.' 푸터: 월트디즈니컴퍼니코리아 유한책임회사 | 서울시 강남구 테헤란로 152 7층 06236 | 전화번호: 080-822-1416 | Email: help@disneyplus.kr. 로고색은 캡처 배경 최빈색(짙은 남색).",
+  "idStep": "가입 이메일과 결제 수단",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전화번호", "tel": "080-822-1416", "note": "전화·채팅 매일 오전 9시~오후 9시" }
+  ]
+}

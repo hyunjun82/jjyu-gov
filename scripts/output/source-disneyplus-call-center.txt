@@ -1,0 +1,53 @@
+SLUG: disneyplus-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/disneyplus-call-center-*.png)
+
+===== [1] https://help.disneyplus.com/ko/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/disneyplus-call-center-1.png
+CHARS: 530
+
+고객센터
+KR
+구독하기
+로그인
+도움이 필요하면 언제든지 알려주세요.
+무엇을 도와드릴까요?
+질문이나 주제를 입력하세요
+자주 찾는 도움말
+디즈니+ 소개
+디즈니+를 TV에서 시청하는 방법
+로그인 문제
+결제 업데이트
+타사를 통한 디즈니+ 구독 결제
+모든 주제 보기
+시작하기
+계정 & 결제
+지원되는 기기
+디즈니+ 시청
+문제 해결
+오류 코드
+도움이 더 필요하신가요?
+
+전화와 채팅 채널 운영 시간은 매일 오전 9시부터 오후 9시까지입니다.
+
+문의하기
+
+상담이 필요하신가요? 운영시간중 언제든지 문의하세요.
+
+피드백 공유
+
+디즈니+ 개선을 위한 의견이 있으신가요? 피드백 양식을 사용해 저희에게 알려주세요!
+
+디즈니+ 이용약관개인정보 처리방침개인정보 처리방침 부속서관심 기반 광고고객센터다양한 시청 방법디즈니+ 소개
+©Disney. All Rights Reserved.
+월트디즈니컴퍼니코리아 유한책임회사 | 대표자: 김소연 | 서울시 강남구 테헤란로 152 7층 06236 | 전화번호: 080-822-1416 | Email: help@disneyplus.kr
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+{"siteId":"0DM5f000000IwppGAC","templateDevName":"talon-template-byo"}
+
+{"type":"comm__namedPage","url":"https://help.disneyplus.com/ko/","urlReferrer":"https://help.disneyplus.com/ko/"}
+
+Cookie Preference CentreCookie Preference CentreYour PrivacyEssential CookiesPerformance & Analytics CookiesTargeting & Advertising CookiesYour PrivacyBecause we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and to change your default settings. Please be aware that blocking some types of cookies may adversely impact your experience of our site and the services we are able to offer. Using this tool will set a cookie on your device to remember your preferences, which you can change at any time. To find out more, please read our cookie policy.
+ Cookie PolicyEssential CookiesAlways ActiveThese cookies are necessary for our services to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in, accessing, searching, or discovering content, or filling in forms. You can set your browser to block, or alert you about, these cookies, but some parts of the site will not then work.Cookies DetailsPerformance & Analytics Cookies Performance & Analytics Cookies These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. Please note that even if this category is set as inactive, we may continue to collect and use data through these cookies solely to assist us in performing the service.Cookies DetailsTargeting & Advertising Cookies Targeting & Advertising Cookies These cookies may be set through our site by us and/or by our advertising partners. They may be used to build a profile of your interests and show you relevant advertising on this and on other sites, as well as to measure the effectiveness of our advertising campaigns. They may not store directly personal information, but instead may be based on uniquely identifying your browser and internet device or be associated with your login-based information. You can choose to allow these cookies or to opt out at any time.Cookies DetailsBack ButtonCookie List Filter ButtonConsent Leg.Interest checkbox label label checkbox label label checkbox label labelClear checkbox label labelApply CancelSAVE SETTINGSREJECT ALL ACCEPT ALL
