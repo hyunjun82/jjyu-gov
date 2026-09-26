@@ -1,0 +1,21 @@
+{
+  "slug": "expressway",
+  "name": "한국도로공사",
+  "aliases": ["도로공사", "고속도로 콜센터", "한국도로공사 콜센터", "ex콜센터"],
+  "industry": "public",
+  "brandColor": "#ED1B2F",
+  "official": "https://www.ex.co.kr",
+  "sourceUrl": "https://www.ex.co.kr/",
+  "sourceName": "한국도로공사 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "hq": "경상북도 김천시 혁신8로 77(율곡동, 한국도로공사)",
+  "hqZip": "39660",
+  "main": { "label": "24시간 콜센터", "tel": "1588-2504" },
+  "hours": { "weekday": "24시간" },
+  "hoursNote": "[2026-09-26] 한국도로공사 홈 푸터: (우) 39660 경상북도 김천시 혁신8로 77(율곡동, 한국도로공사), 24시간 콜센터 1588-2504. 콜센터 전용 안내 페이지는 없고 민원·신청 메뉴만 있다. 로고색은 logo_black.png 의 빨강(최빈색은 글자 검정).",
+  "idStep": "차량번호",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "24시간 콜센터", "tel": "1588-2504" }
+  ]
+}

@@ -1949,6 +1949,7 @@ import { daesungEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { tvingCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tving';
 import { yescoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yesco';
 import { emartCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/emart';
+import { expresswayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/expressway';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2025,6 +2026,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'expressway': expresswayCallCenterSpokeContent,
     'yesco': yescoCallCenterSpokeContent,
     'daesung-energy': daesungEnergyCallCenterSpokeContent,
     'busan-citygas': busanCitygasCallCenterSpokeContent,
