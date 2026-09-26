@@ -46,7 +46,9 @@ if (!fs.existsSync(CC_DIR)) {
 }
 
 const flat = (s: string) => String(s).replace(/\s+/g, '');
-const strip = (s: string) => s.replace(/<[^>]+>/g, '|');
+// 빌드된 HTML 은 & 를 &amp; 로 적는다 — 풀지 않으면 원문 "항공권 & 호텔 예약"(트립닷컴)이 표에 없다고 오판한다
+const strip = (s: string) => s.replace(/<[^>]+>/g, '|')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&');
 
 type Bad = { name: string; kind: string; detail: string };
 const bad: Bad[] = [];
