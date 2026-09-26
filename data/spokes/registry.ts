@@ -1997,6 +1997,7 @@ import { uniqloCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { kituramienergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kituramienergy';
 import { cc29cmCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/29cm';
 import { haeyangEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/haeyang-energy';
+import { kituramiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/kiturami';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2045,6 +2046,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'kiturami': kituramiCallCenterSpokeContent,
     'winix': winixCallCenterSpokeContent,
     'shinil': shinilCallCenterSpokeContent,
     'ceragem': ceragemCallCenterSpokeContent,
