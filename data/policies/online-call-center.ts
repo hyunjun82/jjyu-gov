@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'costco', role: 'eligibility', title: '코스트코 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hanssem', role: 'eligibility', title: '한샘 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'airseoul', role: 'eligibility', title: '에어서울 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'genesis', role: 'eligibility', title: '제네시스 고객센터 전화번호 및 상담원 연결·문의 안내' },
