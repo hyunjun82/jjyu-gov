@@ -1,0 +1,23 @@
+{
+  "slug": "chicor",
+  "name": "시코르(CHICOR)",
+  "aliases": ["시코르", "CHICOR", "시코르 고객센터", "시코르 온라인몰"],
+  "industry": "online",
+  "brandColor": "#222222",
+  "official": "https://www.chicor.com",
+  "sourceUrl": "https://www.chicor.com/",
+  "sourceName": "CHICOR 공식몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)신세계",
+  "hq": "서울특별시 중구 소공로63, (충무로 1가)",
+  "main": { "label": "고객센터", "tel": "1600-5932" },
+  "hours": { "weekday": "평일 09:30~18:00", "lunch": "점심시간 : 12:00~13:00" },
+  "callFee": "유료",
+  "hoursNote": "[2026-09-26] CHICOR 공식몰 하단: 고객센터 1600-5932(유료), 운영시간 : 평일 09:30~18:00 (점심시간 : 12:00~13:00), FAQ·1:1문의하기. 푸터: CHICOR Official (주)신세계, 주소 서울특별시 중구 소공로63, (충무로 1가), 대표 전화번호 : 1600-5932. 뷰티 틀이 없어 온라인 틀. 로고색은 헤더 로고 요소 최빈색.",
+  "idStep": "주문번호",
+  "heroSalt": "au",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1600-5932", "note": "유료, 평일 09:30~18:00, 점심 12:00~13:00" }
+  ]
+}
