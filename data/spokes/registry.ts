@@ -1977,6 +1977,7 @@ import { cuchenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { modetourCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/modetour';
 import { lottemartCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lottemart';
 import { ceragemCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/ceragem';
+import { lotteRentacarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotte-rentacar';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2230,6 +2231,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'lotte-rentacar': lotteRentacarCallCenterSpokeContent,
     'lottemart': lottemartCallCenterSpokeContent,
     'modetour': modetourCallCenterSpokeContent,
     'sk-rentacar': skRentacarCallCenterSpokeContent,
