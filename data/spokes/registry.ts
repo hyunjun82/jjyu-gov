@@ -1948,6 +1948,7 @@ import { jinairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { daesungEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daesung-energy';
 import { tvingCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tving';
 import { yescoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yesco';
+import { emartCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/emart';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2194,6 +2195,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'emart': emartCallCenterSpokeContent,
     'tving': tvingCallCenterSpokeContent,
     'jinair': jinairCallCenterSpokeContent,
     'twayair': twayairCallCenterSpokeContent,
