@@ -2047,6 +2047,7 @@ import { kolonsportCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { naverCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/naver';
 import { kakaoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kakao';
 import { koreanAirCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/korean-air';
+import { yeogiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/yeogi';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2326,6 +2327,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'yeogi': yeogiCallCenterSpokeContent,
     'korean-air': koreanAirCallCenterSpokeContent,
     'kakao': kakaoCallCenterSpokeContent,
     'naver': naverCallCenterSpokeContent,
