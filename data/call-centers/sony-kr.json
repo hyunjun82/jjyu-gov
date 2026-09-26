@@ -1,0 +1,21 @@
+{
+  "slug": "sony-kr",
+  "name": "소니코리아",
+  "aliases": ["소니", "SONY", "소니 고객지원센터", "소니 AS"],
+  "industry": "appliance",
+  "brandColor": "#000000",
+  "official": "https://www.sony.co.kr",
+  "sourceUrl": "https://www.sony.co.kr/",
+  "sourceName": "소니코리아 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "소니코리아 (주)",
+  "hq": "서울특별시 영등포구 국제금융로 10 투아이에프씨 28F",
+  "main": { "label": "소니코리아 고객지원센터", "tel": "1588-0911" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 소니코리아 홈 푸터: 사업장주소 :서울특별시 영등포구 국제금융로 10 투아이에프씨 28F, 소니코리아 (주), TEL : 소니코리아 고객지원센터 1588-0911 E-MAIL : cshelp@sony.co.kr. 전화 상담시간 표기는 없다 — 비운다. 헤드리스 차단이라 --headed. 로고색은 캡처 헤더 검정.",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "소니코리아 고객지원센터", "tel": "1588-0911" }
+  ]
+}
