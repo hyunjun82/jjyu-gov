@@ -1,0 +1,23 @@
+{
+  "slug": "adidas-kr",
+  "name": "아디다스 코리아",
+  "aliases": ["아디다스", "아디다스코리아", "아디다스 고객센터", "adidas"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.adidas.co.kr",
+  "sourceUrl": "https://www.adidas.co.kr/help",
+  "sourceName": "아디다스 공식 온라인 스토어 도움말",
+  "verifiedAt": "2026-09-26",
+  "corp": "아디다스코리아(유)",
+  "hq": "서울특별시 서초구 서초대로 74길 4, 삼성생명 서초타워 23층",
+  "hqZip": "06620",
+  "main": { "label": "고객센터", "tel": "1588-8241" },
+  "hours": { "weekday": "평일 : 9시 - 18시", "lunch": "점심시간 12시 - 13시" },
+  "hoursNote": "[2026-09-26] 아디다스 도움말(adidas.co.kr/help, 헤드리스 403 이라 --headed): '문제가 해결되지 않았나요? 고객센터에 문의하세요 평일 : 9시 - 18시, 점심시간 12시 - 13시'. 푸터: 아디다스코리아(유) | 서울특별시 서초구 서초대로 74길 4, 삼성생명 서초타워 23층 (06620) | 고객센터: 1588-8241 | 이메일: service@onlineshop.adidas.co.kr. 패션 틀이 없어 온라인 틀. 로고색은 캡처 헤더 검정(쿠키 창 딤 제외).",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "l",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-8241", "note": "평일 9시~18시, 점심 12시~13시, 이메일 service@onlineshop.adidas.co.kr" }
+  ]
+}

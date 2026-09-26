@@ -1,0 +1,248 @@
+SLUG: adidas-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/adidas-kr-call-center-*.png)
+
+===== [1] https://www.adidas.co.kr/help =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/adidas-kr-call-center-1.png
+CHARS: 2776
+
+쿠키를 통한 아디다스 맞춤형 서비스 제공 관련 안내
+
+하단의 “모두 동의합니다” 버튼을 클릭하시는 경우, 당사는 쿠키, 픽셀, 태그 또는 이와 유사한 기술을 사용하여 단말기 및 브라우저를 통해 귀하의 행태정보를 수집하여 사이트 기능 개선과 맞춤형 광고 제공(선택)을 위해 사용합니다. 당사는 귀하의 행태정보를 광고 전송을 목적으로 제3자(구글, 페이스북 및 인스타그램)에게 제공할 수 있습니다. ※ 주의: 행태정보를 개인식별정보과 결합하여 맞춤형 광고 제공 당사 개인정보 처리방침 (제9조 쿠키의 운영에 관한 내용)을 통해 보다 상세한 정보를 확인하실 수 있고 사이트 운영(예: 보안, 장바구니 기능, 로그인)을 위해 필수적으로 요구되는 쿠키 등을 내용도 확인하실 수 있습니다.
+
+맞춤형 광고 전송에 대한 세부 정보 확인
+
+모두 동의합니다
+맞춤형 광고 설정
+도움말
+주문 및 반품
+멤버로 가입하기
+추석 프로모션
+SHOES
+MEN
+WOMEN
+KIDS
+SPORTS
+LIFESTYLE
+1
+주문 관련 도움 받기
+로그인 후에 최근 주문 내역을 확인하거나 배송 현황을 추적하거나 교환 또는 반품을 신청하세요.
+로그인하기
+FAQ
+배송 시간과 비용은 어떻게 되나요?
+
+배송
+
+제품을 교환할 수 있나요?
+
+반품/환불
+
+제품을 반품하려면 어떻게 해야 하나요?
+
+반품/환불
+
+반품이 불가능한 경우도 있나요?
+
+반품/환불
+
+주문 또는 배송 상태를 확인하려면 어떻게 해야 하나요?
+
+배송
+
+고객센터로 연락할 수 있는 방법이 있나요?
+
+상품문의
+
+주문
+주문한 상품을 취소(부분취소) 하고 싶은데 어떻게 하나요?
+주문한 내역은 어떻게 확인하나요?
+결제하는데 배송지 단계에서 다음단계로 진행되지 않아요
+제 주문이 조회되지 않아요.
+방금 배송 받은 상품에 하자가 있으면 어떻게 하나요?
+모든 주문 기사 불러오기
+반품/환불
+반품 신청 및 환불 절차는 어떻게 되나요?
+반품이 불가능한 경우도 있나요?
+제품을 교환할 수 있나요?
+부분 반품시 에도 무료 반품이 되나요?
+반품은 어느 택배사를 이용하나요? 제가 이용하는 택배로 보내도 되나요?
+모든 반품/환불 기사 불러오기
+프로모션 / 쿠폰
+회원 가입시 WELCOME 쿠폰 및 생일 쿠폰을 못받았어요.
+프로모션 코드는 어떻게 사용하나요?
+상품평 포인트 리워드란?
+상품평 작성 및 수정, 삭제 가능한가요?
+아디다스 파트너를 통해 포인트를 적립 받을 수 있나요?
+모든 프로모션 / 쿠폰 기사 불러오기
+멤버십
+아디클럽은 회원 가입 기준 및 방법은 어떻게 하나요?
+회원 가입시에 실명 인증이 되지 않아요.
+상품주문시 회원가입을 꼭 해야 하나요?
+실명인증서비스란 무엇인가요?
+개명을 했는데 회원명 수정은 어떻게 하나요?
+모든 멤버십 기사 불러오기
+러닝앱
+한국 러닝앱을 어떻게 이용하나요?
+한국 계정으로 로그인 했는데 러닝앱 이용이 불가능합니다.
+러닝앱이 무엇인가요?
+러닝앱 오류인 것 같아요.
+아디다스 러너스
+모든 러닝앱 기사 불러오기
+결제
+결제 방법에는 어떤것이 있나요?
+주문 후 결제 방법 변경 및 할부 변경 하고 싶어요.
+구매한 상품의 현금 영수증은 어떻게 확인하나요?
+신용카드로 결제한 경우 세금계산서를 발급 받을 수 있나요?
+모든 결제 기사 불러오기
+배송
+선물 포장 및 쇼핑백 동봉 되나요?
+제품은 어떻게 발송되나요?
+주문한 상품이 아닌 다른 상품이 배송되었어요
+배송비는 어떻게 되나요?
+상품 배송 기간은 얼마나 걸리나요?
+모든 배송 기사 불러오기
+상품문의
+신발, 의류 사이즈는 어떻게 봐야하나요?
+제품별 세탁법은 어떻게 알수 있을까요?
+상품 이미지가 달라요
+다른 사이트에서 구매한 아디다스 상품의 정품 감별을 받고 싶습니다.
+고객센터로 연락할 수 있는 방법이 있나요?
+모든 상품문의 기사 불러오기
+A/S 수선심의
+아디다스 공식 온라인 스토어 A/S 정책 안내
+어린이(Kids) 제품의 AS정책이 별도로 있나요?
+어린이 제품 안전 친화기업 인증은 무엇인가요?
+어린이 제품 중 안전친화기업으로 인증된 제품은 어떤 것인가요?
+심의 결과는 어떻게 알 수 있나요?
+모든 A/S 수선심의 기사 불러오기
+문제가 해결되지 않았나요?
+
+고객센터에 문의하세요
+
+평일 : 9시 - 18시, 점심시간 12시 - 13시
+
+연락하기
+
+지금 멤버십 가입하고 10% 할인 혜택 받으세요.
+
+* 이메일 수신동의자에 한해 할인쿠폰 발급
+
+더 많은 혜택 보기
+PRODUCTS
+신발
+의류
+용품
+신제품
+신제품 출시 소식
+Trending now
+Best of adidas
+App exclusives
+Members exclusives
+아울렛
+SPORTS
+러닝
+트레이닝
+아웃도어
+축구
+골프
+요가
+테니스
+농구
+스케이트보딩
+수영
+사이클링
+모터스포츠
+복싱
+COLLECTIONS
+오리지널스
+슈퍼스타
+파이어버드
+도쿄
+재팬
+이탈리아 70S
+태권도
+삼바
+스페지알
+팀가이스트
+메가라이드
+COMPANY INFO
+회사 소개
+채용 정보
+아디다스 앱
+컨펌드 앱
+아디다스 러닝 앱
+아디다스 블로그
+아디클럽
+아디다스 러너스
+About Terrex
+SUPPORT
+고객센터
+반품 & 환불
+배송
+주문 조회
+FOLLOW US
+아디다스코리아(유) | 서울특별시 서초구 서초대로 74길 4, 삼성생명 서초타워 23층 (06620) | 대표자: 마커스모렌트 | 사업자 등록번호: 214-81-07412 | 통신판매업신고: 2007-서울서초-10391 | 개인정보관리책임자: 장영태 | 호스팅서비스사업자: 아디다스코리아(유) | 고객센터: 1588-8241 | 이메일: service@onlineshop.adidas.co.kr
+쿠키 설정
+데이터 설정
+구매 이용약관
+개인정보 처리방침
+위치 기반 서비스 이용약관
+아디클럽 이용약관
+사업자정보확인
+채무지급보증안내
+ⓒ adidas Korea, LLC. All Rights Reserved
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+제품 전체보기최대 할인아디다스 추천지금 입기 좋은의류신발용품오리지널스스포츠웨어남성 전체보기의류신발용품자켓팬츠저지후디 / 스웨트 셔츠트랙수트 / 트랙탑여성 전체보기의류신발용품자켓팬츠저지후디 / 스웨트 셔츠트랙수트 / 트랙탑키즈 전체보기의류신발용품유아 (~4세)어린이 (4~8세)청소년 (8~16세)추석, 더 큰 혜택으로추석 명절, 원하던 아이템을 추가 20% 할인 혜택으로 만나보세요.구매하기
+
+신발 전체보기신제품스포츠러닝축구하이킹 & 아웃도어트레이닝워킹골프슈퍼스타전체보기도쿄전체보기재팬전체보기아디스타전체보기10만원 이하 신발아울렛최대 30%최대 40%최대 50%
+
+NEW & TRENDING신제품신제품 출시 소식Seoul Edition앱 단독 아이템Members Exclusives아울렛아디클럽 혜택 보기Shop My Look신발러닝트레이닝아웃도어축구농구슬리퍼 / 샌들테니스골프워킹화10만원 이하 신발의류티셔츠반바지팬츠후디 / 스웨트 셔츠자켓트랙수트 / 트랙탑풋볼 저지수영복용품가방모자양말공장갑벨트스포츠러닝트레이닝축구농구테니스모터스포츠골프하이킹 & 아웃도어수영스케이트보딩웨이트리프팅야구브랜드오리지널스Y-3Terrex스포츠웨어STAY ORIGINAL아이코닉한 스타일로 완성하는 새로운 계절남성 전체보기남성 신발 전체보기남성 의류 전체보기남성 용품 전체보기스포츠 전체보기남성 오리지널스 전체보기구매하기
+
+NEW & TRENDING신제품신제품 출시 소식Seoul Edition앱 단독 아이템Members Exclusives아울렛아디클럽 혜택 보기Shop My Look신발러닝트레이닝아웃도어축구농구슬리퍼 / 샌들테니스골프워킹화10만원 이하 신발의류티셔츠팬츠반바지후디 / 스웨트 셔츠타이츠트랙수트 / 트랙탑자켓스커트스포츠 브라원피스탑수영복용품가방모자양말공장갑벨트스포츠러닝트레이닝축구요가테니스모터스포츠골프하이킹 & 아웃도어수영스케이트보딩웨이트리프팅야구브랜드오리지널스Stella McCartneyY-3Terrex스포츠웨어MICRO PLEATS부드럽게, 섬세하게여성 전체보기여성 신발 전체보기여성 의류 전체보기여성 용품 전체보기스포츠 전체보기여성 오리지널스 전체보기구매하기
+
+NEW & TRENDING신제품슈퍼스타삼바가젤아울렛BOYS 신발신발슬리퍼 & 샌들축구아웃도어BOYS 의류트랙수트 / 트랙탑티셔츠반바지후디 / 스웨트셔츠자켓풋볼 저지GIRLS 신발신발슬리퍼 & 샌들축구아웃도어GIRLS 의류트랙수트 / 트랙탑티셔츠반바지후디 / 스웨트셔츠자켓풋볼 저지연령별 신발👟유아(~4세)어린이(4~8세)청소년(8~16세)연령별 의류👕유아(~4세)어린이(4~8세)청소년(8~16세)용품백팩양말모자색상별 제품 보기🎨🔵파랑🔴빨강🩷핑크⚪흰색⚫검정🟢초록스포츠축구⚽수영🛟러닝💨골프🚩아웃도어☀️컬렉션Disney AllCLIMACOOL🆒Z.N.EESSENTIALS아디다스 | 포켓몬새로운 포켓몬 컬렉션을 만나보세요. 스타일의 진화가 시작됩니다.키즈 전체보기BOYS 전체보기GIRLS 전체보기전체보기구매하기
+
+러닝신제품신발의류용품아디제로하이퍼부스트슈퍼노바레이싱 러닝에브리데이 러닝트레일 러닝 아디다스 러너스 서울아디다스 러닝 앱헬스&트레이닝신제품신발의류스포츠 브라레깅스용품헬스하이브리드 트레이닝요가 & 필라테스ADIDAS X ironsteinDROPSETOPTIMEStella McCartneyORIGINALS SPORT아웃도어신제품신발의류용품하이킹트레일 러닝아그라빅About Terrex축구신제품신발의류용품클럽저지국가대표 저지PredatorF50골프신제품신발의류용품오리지널스 골프코드케이오스아디제로 ZG아디파워기타 스포츠요가테니스농구스케이트보딩수영사이클링모터스포츠클라이밍복싱럭비DOOSAN BEARSAnthony Edwards 3앤서니 에드워즈의 플레이를 위해 탄생한 Anthony Edwards 3 - 이건 진짜야.모든 클럽의 컬러를 한자리에다시, 승부를 향해. 새로운 시즌, 새로운 질주의 시작.러닝 전체보기트레이닝 전체보기아웃도어 전체보기축구 전체보기골프 전체보기스포츠 전체보기구매하기구매하기
+
+TRENDING신제품데님 컬렉션바람막이 컬렉션메리제인 컬렉션그래픽 컬렉션Curated by CreatorsMember Exclusives신제품 출시 소식CONFIRMED아디클럽 혜택 보기제품신발의류용품티셔츠반바지후디 / 스웨트셔츠트랙수트 / 트랙탑콜라보레이션Pharrell WilliamsEdison Chen Tyrrell WinstonSimone RochaBad BunnyArte AntwerpSong For The MuteHermanos KoumoriOasisStella McCartneyY-3컬렉션슈퍼스타도쿄재팬이탈리아 70S태권도삼바스페지알SL72파이어버드팀가이스트메가라이드스포츠웨어소프트 럭스댄스 팩POLKA DOTS스타일에 도트를 더하다.WORKWEAR거친 실루엣 속 섬세한 디테일, 새로운 워크웨어 무드.구매하기구매하기
+
+모두의 의견에 귀를 기울입니다피드백 감사드립니다. 더 나은 서비스를 위해 노력하겠습니다.
+
+배송반품주문조회구매 이용약관도움말채용 정보아디다스코리아(유) | 서울특별시 서초구 서초대로 74길 4, 삼성생명 서초타워 23층 (06620) | 대표자: 마커스모렌트 | 사업자 등록번호: 214-81-07412 | 통신판매업신고: 2007-서울서초-10391 | 개인정보관리책임자: 장영태 | 호스팅서비스사업자: 아디다스코리아(유) | 고객센터: 1588-8241 | 이메일: service@onlineshop.adidas.co.kr
+
+----- 이미지 대체텍스트 (img alt) -----
+Anthony Edwards 3
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: adidas-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/adidas-kr-call-center-*.png)
+
+===== [1] https://www.adidas.co.kr/help =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/adidas-kr-call-center-1.png
+CHARS: 1127
+
+adidas
+
+Reference Error: 18.d7e9fbcb.1790416977.26cc4f06
+UNFORTUNATELY WE ARE UNABLE TO GIVE YOU ACCESS TO OUR SITE AT THIS TIME.
+
+A security issue was automatically identified, when you tried to access the website.
+
+What could have caused this?
+
+During high-traffic product releases we have extra security in place to prevent bots entering our site. We do this to protect customers and to give everyone a fair chance of getting the sneakers. Something in your setup must have triggered our security system, so we cannot allow you onto the site.
+
+How can I resolve this?
+
+Please try refreshing or accessing our website from a different browser or another device. You could also check if there are any scripts, like ad blockers, running in your browser and disable them.
+
+If this does not help, the issue might be caused by malware. If you're on a personal connection you can run an anti-virus scan on your device to make sure it's not affected by malware. If you're on a shared network, you could ask the system administrator to run a scan looking for misconfigured or infected devices across the network.
+
+HTTP 403 - Forbidden
