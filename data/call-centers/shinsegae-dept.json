@@ -1,0 +1,23 @@
+{
+  "slug": "shinsegae-dept",
+  "name": "신세계백화점",
+  "aliases": ["SHINSEGAE", "신세계 백화점", "신세계백화점 고객센터", "신세계백화점 대표전화"],
+  "industry": "online",
+  "brandColor": "#1D1D1B",
+  "official": "https://www.shinsegae.com",
+  "sourceUrl": "https://www.shinsegae.com/service/voc/faq.do",
+  "sourceName": "신세계백화점 고객 의견·FAQ",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)신세계",
+  "hq": "서울특별시 중구 소공로 63(충무로 1가)",
+  "main": { "label": "대표전화", "tel": "1588-1234" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 신세계백화점 고객 의견(FAQ) 푸터: (주)신세계 주소 : 서울특별시 중구 소공로 63(충무로 1가), 대표전화 : 1588-1234 (유료). 전화 상담시간 표기는 없다 — 비운다. 스크립트 안의 1899-4349 는 신세계포인트 번호로 이미 이마트 글에 실려 있어 넣지 않는다(중복 방지). 백화점 틀이 없어 온라인 틀. 로고색은 gnb_logo.png 최빈색.",
+  "callFee": "대표전화 1588-1234는 유료 전화입니다.",
+  "idStep": "구매 영수증과 이용 점포",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1588-1234", "note": "유료" }
+  ]
+}
