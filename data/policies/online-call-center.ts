@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'naver', role: 'eligibility', title: '네이버 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kolonsport', role: 'eligibility', title: '코오롱스포츠 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'simmons', role: 'eligibility', title: '시몬스 침대 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ddocdoc', role: 'eligibility', title: '똑닥 고객센터 전화번호 및 상담원 연결·문의 안내' },
