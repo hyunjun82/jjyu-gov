@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'modetour', role: 'eligibility', title: '모두투어 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'sk-rentacar', role: 'eligibility', title: 'SK렌터카 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cgv', role: 'eligibility', title: 'CGV 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'oliveyoung', role: 'eligibility', title: '올리브영 고객센터 전화번호 및 상담원 연결·문의 안내' },
