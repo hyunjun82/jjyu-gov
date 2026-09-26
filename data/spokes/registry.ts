@@ -1995,6 +1995,7 @@ import { everlandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { winixCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/winix';
 import { uniqloCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/uniqlo';
 import { kituramienergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kituramienergy';
+import { cc29cmCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/29cm';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2254,6 +2255,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    '29cm': cc29cmCallCenterSpokeContent,
     'uniqlo': uniqloCallCenterSpokeContent,
     'everland': everlandCallCenterSpokeContent,
     'shinsegae-dept': shinsegaeDeptCallCenterSpokeContent,
