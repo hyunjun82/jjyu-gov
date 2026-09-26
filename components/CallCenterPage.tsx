@@ -98,6 +98,11 @@ export function isOpenAt(hours: { weekday: string; saturday?: string }, now: Dat
   if (!wh) return null;
   const d = now.getDay();
   const h = now.getHours();
+  /* 두 구간으로 끊어 적은 곳(2026-09-26 엔씨 '평일 10:00 ~ 12:00 / 14:00 ~ 16:00') — 첫 구간만 보면 14~16시를 '종료' 로 보인다 */
+  const spans = Array.from(String(hours.weekday).matchAll(/(\d{1,2})\s*(?::\d{2}|시)\s*[~-]\s*(\d{1,2})\s*(?::\d{2}|시)/g))
+    .map((m) => ({ from: parseInt(m[1], 10), to: parseInt(m[2], 10) }))
+    .filter((r) => r.to > r.from);
+  if (d >= 1 && d <= 5 && spans.length >= 2) return spans.some((r) => h >= r.from && h < r.to);
   if (d >= 1 && d <= 5) return h >= wh.from && h < wh.to;
   /* '연중무휴'·'매일'·'365일' (2026-09-26 에어부산 '09:00~18:00(연중무휴)') — 주말도 같은 시간 */
   if (/연중무휴|매일|365일/.test(hours.weekday)) return h >= wh.from && h < wh.to;
