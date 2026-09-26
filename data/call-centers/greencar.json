@@ -1,0 +1,22 @@
+{
+  "slug": "greencar",
+  "name": "그린카",
+  "aliases": ["GreenCar", "그린카 카셰어링", "그린카 고객센터"],
+  "industry": "online",
+  "brandColor": "#00C88C",
+  "official": "https://www.greencar.co.kr",
+  "sourceUrl": "https://www.greencar.co.kr/",
+  "sourceName": "그린카 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)그린카",
+  "hq": "서울특별시 강남구 테헤란로 70길 16, 6층(대치동)",
+  "main": { "label": "TEL", "tel": "1899-1313" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 그린카 홈 푸터: (주) 서울특별시 강남구 테헤란로 70길 16, 6층(대치동)그린카, TEL 1899-1313, FAX 02-6499-2832. 상담시간 표기는 없다 — 비운다. 카셰어링 틀이 없어 온라인 틀. 브랜드색은 캡처 헤더의 초록(최빈색은 남색 배경).",
+  "idStep": "가입 휴대폰 번호와 예약 차량번호",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1899-1313" }
+  ]
+}
