@@ -1956,6 +1956,7 @@ import { jejuairCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { disneyplusCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/disneyplus';
 import { eastarjetCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/eastarjet';
 import { preedlifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/preedlife';
+import { kiaMotorCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kia-motor';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2203,6 +2204,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'kia-motor': kiaMotorCallCenterSpokeContent,
     'preedlife': preedlifeCallCenterSpokeContent,
     'eastarjet': eastarjetCallCenterSpokeContent,
     'disneyplus': disneyplusCallCenterSpokeContent,
