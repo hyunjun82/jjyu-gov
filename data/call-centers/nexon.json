@@ -1,0 +1,24 @@
+{
+  "slug": "nexon",
+  "name": "넥슨",
+  "aliases": ["넥슨코리아", "NEXON", "넥슨 고객센터", "넥슨 고객상담실"],
+  "industry": "online",
+  "brandColor": "#040812",
+  "official": "https://www.nexon.com",
+  "sourceUrl": "https://www.nexon.com/Home/Game",
+  "sourceName": "넥슨 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "㈜넥슨코리아",
+  "hq": "경기도 성남시 분당구 판교로 256번길 7",
+  "main": { "label": "전화", "tel": "1588-7701" },
+  "hours": { "weekday": "", "visit": "평일(월~금) 오전 09:00 ~ 오후 12:30 오후 01:30 ~ 오후 06:00" },
+  "extraSources": [{ "name": "넥슨 고객센터 문의방법", "url": "https://help.nexon.com/qna/qnaguide" }],
+  "hoursNote": "[2026-09-26] 넥슨 홈 푸터: ㈜넥슨코리아 경기도 성남시 분당구 판교로 256번길 7 전화 : 1588-7701. 넥슨 고객센터 문의방법(help.nexon.com): 고객상담실 위치 및 운영시간 — 경기도 성남시 분당구 판교역로 240(삼평동) 삼환하이펙스 A동 4층 고객상담실, 평일(월~금) 오전 09:00 ~ 오후 12:30 / 오후 01:30 ~ 오후 06:00, 평일 문의접수는 오후 5시에 마감, 공휴일·주말 및 야간에는 운영하지 않습니다. 이 시간은 방문 고객상담실 시간이라 전화 시간 칸(weekday)은 비우고 visit 에 넣는다. 게임 틀이 없어 온라인 틀.",
+  "notice": "방문 고객상담실은 판교역로 240 삼환하이펙스 A동 4층이고, 평일 문의접수는 오후 5시에 마감됩니다.",
+  "idStep": "넥슨ID",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전화", "tel": "1588-7701" }
+  ]
+}

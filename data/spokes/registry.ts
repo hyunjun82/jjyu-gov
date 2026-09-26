@@ -1968,6 +1968,7 @@ import { samsungSvcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { kyowonLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kyowon-life';
 import { musinsaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/musinsa';
 import { dysonKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/dyson-kr';
+import { nexonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/nexon';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2219,6 +2220,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'nexon': nexonCallCenterSpokeContent,
     'musinsa': musinsaCallCenterSpokeContent,
     'kyowon-life': kyowonLifeCallCenterSpokeContent,
     'costco': costcoCallCenterSpokeContent,

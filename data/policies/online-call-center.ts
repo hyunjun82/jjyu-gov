@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'nexon', role: 'eligibility', title: '넥슨 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'musinsa', role: 'eligibility', title: '무신사 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kyowon-life', role: 'eligibility', title: '교원라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'costco', role: 'eligibility', title: '코스트코 고객센터 전화번호 및 상담원 연결·문의 안내' },
