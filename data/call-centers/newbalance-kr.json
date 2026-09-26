@@ -1,0 +1,23 @@
+{
+  "slug": "newbalance-kr",
+  "name": "뉴발란스 코리아",
+  "aliases": ["뉴발란스", "New Balance", "NB 코리아", "뉴발란스 고객센터", "뉴발란스 AS"],
+  "industry": "online",
+  "brandColor": "#CF0A2C",
+  "official": "https://www.nbkorea.com",
+  "sourceUrl": "https://www.nbkorea.com/",
+  "sourceName": "뉴발란스 공식몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "㈜이랜드월드패션사업부",
+  "hq": "서울특별시 강서구 마곡동로 146(마곡동)",
+  "main": { "label": "온라인 고객센터", "tel": "1566-0086" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 뉴발란스 공식몰 푸터: ㈜이랜드월드패션사업부 / 서울특별시 강서구 마곡동로 146(마곡동), 온라인 고객센터 : 1566-0086, AS/오프라인 고객센터 : 080-999-0456, 대표 이메일 : webmaster@nbkorea.com. 상담시간은 홈에 없어 비운다. 이랜드 계열이지만 이랜드몰(1899-9500)과 번호가 다른 별도 고객센터. 패션 틀이 없어 온라인 틀. 로고색은 헤더 NB 로고 요소 최빈색(빨강).",
+  "idStep": "주문번호",
+  "heroSalt": "ar",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "온라인 고객센터", "tel": "1566-0086" },
+    { "label": "AS/오프라인 고객센터", "tel": "080-999-0456" }
+  ]
+}

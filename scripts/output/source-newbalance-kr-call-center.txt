@@ -1,0 +1,547 @@
+SLUG: newbalance-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/newbalance-kr-call-center-*.png)
+
+===== [1] https://www.nbkorea.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/newbalance-kr-call-center-1.png
+CHARS: 3933
+
+오늘 다시보지 않기
+닫기
+ 
+매장찾기
+공지사항
+FAQS
+이벤트
+New Balance
+9월의 530
+Men
+Women
+Kids
+런칭캘린더
+검색
+ 로그인 회원가입
+장바구니
+
+정려원의 House Of 204
+FW 가을 시즌 컬러와 소재를 담은 신제품을 만나보세요.
+
+더 알아보기 구매하기
+1
+2
+3
+4
+Prev
+Next
+NB ICONIC SHOES
+
+편안함과 스타일을 모두 갖춘 뉴발란스 아이코닉 슈즈 라인업
+
+U530JPB
+
+139,000원
+
+M1906RCH
+
+189,000원
+
+M1906RES (PHANTOM BLACK)
+
+189,000원
+
+U880R3TR
+
+159,000원
+모두보기
+NB Best Windbreaker
+
+뉴발란스 베스트 바람막이
+
+UNI NB-ESCAPE 스탠넥 웜업자켓
+
+159,000원
+
+UNI NB-ESCAPE 스탠넥 웜업자켓
+
+159,000원
+
+WOMEN ALLDAY 후드형 바람막이 (OVER FIT)
+
+159,000원
+
+WOMEN ALLDAY 워시드 후드형 바람막이(OVER FIT)
+
+179,000원
+모두보기
+
+1880 V2 추석 선물 프로모션
+소중한 사람과 함께 나누는 걷고 싶은 편안함
+
+더 알아보기 구매하기
+NB ICONIC
+
+Flying77 Goose Down, WINTER
+
+더 깊어진 무드, 은은한 컬러 라인업 윈터가 선보이는 플라잉77 구스다운
+
+구매하기
+
+Comfort Runs The City, 1080v15
+
+도심을 달리는 가장 부드러운 방법
+
+더 알아보기 구매하기
+
+The 740
+
+클래식 러닝무드의 현대적 재해석, 뉴발란스 740을 만나보세요.
+
+구매하기
+
+Escape the ordinary, NB Escape Collection
+
+깊어진 무드, 이스케이프 신상 컬렉션 라인업
+
+구매하기
+
+Special Gift For You
+
+마음을 담아 전하는 특별한 혜택
+
+구매하기
+
+가을 나들이를 완성할 ACC 컬렉션
+
+가벼운 여정을 위한 포인트 아이템
+
+구매하기
+NB SHOES BEST
+
+U530JPB
+
+139,000원
+
+U740BM2 (BLACK SILVER)
+
+149,000원
+
+M1906RES (PHANTOM BLACK)
+
+189,000원
+
+M1906REH
+
+189,000원
+
+U880R3TR
+
+159,000원
+
+U740BSM (DARK SILVER METALLIC)
+
+159,000원
+
+M1906RCH
+
+189,000원
+
+U204LMMA (MUSHROOM)
+
+159,000원
+
+MR530CK
+
+139,000원
+
+MR530CC
+
+139,000원
+
+U740BO2
+
+149,000원
+
+U204L3W2
+
+159,000원
+
+ML2002RC
+
+179,000원
+
+W480SK5 (4E)
+
+99,000원
+
+U204L7WM
+
+159,000원
+
+U7401P5
+
+159,000원
+
+M1906RER
+
+189,000원
+
+MR530LG
+
+129,000원
+
+U509BG (GREY MATTER BLACK)
+
+159,000원
+
+U880R2QR
+
+159,000원
+
+Breeze / SD2203CH
+
+139,000원
+
+Breeze / SD2203BR
+
+139,000원
+
+U880R8EU
+
+159,000원
+
+U2002RAB
+
+189,000원
+
+U7407BO
+
+159,000원
+
+U204LMMC (TIMBERWOLF)
+
+159,000원
+
+U5098Y0
+
+159,000원
+
+MR530KA (STEEL GREY)
+
+129,000원
+
+U74096I
+
+149,000원
+
+CM996GR2
+
+139,000원
+
+U1906980
+
+189,000원
+
+U204L5HK
+
+159,000원
+
+U740WN2 (WHITE NB NAVY)
+
+149,000원
+
+MR530SG
+
+129,000원
+
+ML2002R0
+
+179,000원
+
+U7403FT
+
+149,000원
+
+U50972H
+
+159,000원
+
+U7408PL
+
+149,000원
+
+MT10OAB
+
+169,000원
+APPAREL&ACC BEST
+
+MINIMAL HEART COLLECTION 그래픽 긴팔티 (OVER FIT)
+
+69,900원
+
+MINIMAL HEART COLLECTION 후드 롱슬리브 (SEMI OVER FIT)
+
+79,900원
+
+UNI NB-ESCAPE 스탠넥 웜업자켓
+
+159,000원
+
+UNI NB-ESCAPE 스탠넥 웜업자켓
+
+159,000원
+
+MINIMAL HEART COLLECTION 레이어드 긴팔티 (SEMI OVER FIT)
+
+79,900원
+
+초경량 메쉬캡
+
+59,900원
+
+UNI NB 데님 사이드턱 커브드 팬츠
+
+129,000원
+
+MINIMAL HEART COLLECTION 레이어드 긴팔티 (SEMI OVER FIT)
+
+79,900원
+
+WOMEN ALLDAY 후드형 바람막이 (OVER FIT)
+
+159,000원
+
+MINIMAL HEART COLLECTION 후드 롱슬리브 (SEMI OVER FIT)
+
+79,900원
+
+UNI NB 데님 후드 포켓 자켓
+
+179,000원
+
+MINIMAL HEART COLLECTION 헤리티지 경량 후드집업 (OVER FIT)
+
+109,000원
+
+초경량 메쉬캡
+
+59,900원
+
+MINIMAL HEART COLLECTION 헤리티지 경량 맨투맨 (OVER FIT)
+
+89,900원
+
+WOMEN 데님 커브드 오버와이드 팬츠
+
+129,000원
+
+WOMEN ALLDAY 후드형 바람막이 (OVER FIT)
+
+159,000원
+
+MINIMAL HEART COLLECTION 그래픽 긴팔티 (OVER FIT)
+
+69,900원
+
+MINIMAL HEART COLLECTION 레이어드 긴팔티 (SEMI OVER FIT)
+
+79,900원
+
+UNI NB ESSENTIAL 2PACK 반팔티
+
+59,900원
+
+MINIMAL HEART COLLECTION 그래픽 긴팔티 (OVER FIT)
+
+69,900원
+
+초경량 메쉬캡
+
+59,900원
+
+WOMEN 데님 커브드 오버와이드 팬츠
+
+129,000원
+
+초경량 메쉬캡
+
+59,900원
+
+서울 익스클루시브 패커블 토트백
+
+29,900원
+
+UNI NB-ESCAPE 스탠넥 웜업자켓
+
+159,000원
+
+WOMEN ALLDAY 후드형 바람막이 (OVER FIT)
+
+159,000원
+
+서울 익스클루시브 패커블 토트백
+
+29,900원
+
+노본17 백팩
+
+109,000원
+
+노본17 백팩
+
+109,000원
+
+MINIMAL HEART COLLECTION 헤리티지 경량 맨투맨 (OVER FIT)
+
+89,900원
+
+UNI NB-ESCAPE 스탠넥 웜업자켓
+
+159,000원
+
+서울 익스클루시브 패커블 토트백
+
+29,900원
+
+노본17 백팩
+
+109,000원
+
+UNI NB 데님 사이드턱 커브드 팬츠
+
+129,000원
+
+MINIMAL HEART COLLECTION 헤리티지 경량 후드집업 (OVER FIT)
+
+109,000원
+Shop All
+
+남성
+
+여성
+
+키즈
+FIND A STORE
+매장안내
+TEAM WEAR
+팀 / 단체복 구매
+MEMBER JOIN
+회원가입
+DOWNLOAD APP
+App 다운로드
+NEED HELP
+고객센터
+FAQs
+공지사항
+1:1 문의
+매장 찾기
+App 다운로드
+INFORMATION
+통합 마일리지 안내
+팀/단체복 주문안내
+배송 및 반품 안내
+세탁 및 손질 방법 안내
+이용약관
+SITE MAP
+INSIDE NB
+INSIDE NB
+MADE IN USA ⁄ UK
+NBx GUIDE
+INSTAGRAM
+NBRC
+YOUTUBE
+NB KIDS
+
+개인정보 처리방침 / 이용약관 / ㈜이랜드월드패션사업부 / 서울특별시 강서구 마곡동로 146(마곡동)
+온라인 고객센터 : 1566-0086, AS/오프라인 고객센터 : 080-999-0456
+대표 이메일 : webmaster@nbkorea.com
+호스팅 서비스 제공자 : (주)포비즈코리아
+
+대표이사 : 조동주 사업자등록번호 : 113-85-19030 통신판매업신고 : 2025-서울강서-2203
+개인정보보호책임자 : 김태위사업자정보조회
+온라인디지털콘텐츠산업발전법에 의한 콘텐츠보호안내 자세히보기
+
+	
+	
+[인증범위] 이랜드월드 온라인 서비스 운영
+[유효기간] 2026.05.03~2029.05.02
+
+Copyright 2018. New Balance
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+Featured 
+ New
+ Best
+ 🪽 플라잉 라이트 경량다운
+ 💫 빛과 함께 돌아온 에어글로시
+ 👶 아이의 첫 걸음, 뉴비퍼스트
+ 🌗 1906 트와일라잇팩 신규 런칭
+ ☁️ 새로운 라인 첫 공개, 603
+ 신발
+ 베이비(100-130mm)
+ 토들러(130-160mm)
+ 리틀키즈(170-220mm)
+ 주니어(225-240mm)
+ 740
+ 530
+ 1906
+ 990
+ 2010
+ 2002
+ 러닝
+ 샌들
+ 의류
+ 프리스쿨(3-7세)
+ 스쿨키즈(4-10세)
+ 그레이드(8-12세)
+ 바람막이
+ 상하의 셋업
+ 3PCS 셋업
+ 긴팔 티셔츠
+ 반팔 티셔츠
+ 롱팬츠
+ 숏팬츠
+ 래쉬가드
+ 후드티/맨투맨
+ 다운 자켓/베스트
+ 스커트/레깅스
+ 용품
+ 모자
+ 양말
+ 가방
+ 백팩
+ 사이드 백
+ 미니미가방
+ ACC
+ 컬렉션
+ 👕 매일 입기 좋은 2PACK 
+ 👭Lovely NBgC Moments 
+ 🌀 NK BEST WINDBREAKER
+
+전체
+ MEN
+ WOMEN
+ KIDS
+ 검색
+ 최근 검색어전체 기록 삭제
+ 최근 검색어 내역이 없습니다.
+ 추천 검색어
+ 1. 플라잉77 경량 다운
+ 2. 26FW 브리즈
+ 3. 뉴발란스 베스트 바람막이
+ 4. 트리플블랙 530 & 1906
+ 5. 어디에나 에센셜 가방
+ 플라잉77 경량 다운
+ 26FW 브리즈
+ 뉴발란스 베스트 바람막이
+ 트리플블랙 530 & 1906
+ 어디에나 에센셜 가방
+ KOREA EXCLUSIVE: THE VARSITY
+
+콘텐츠산업진흥법에 의한 표시
+ 1. 콘텐츠의 명칭 : 상품정보 및 이벤트 정보 등
+ 2. 제작연월일 : 개별콘텐츠의 개시일 또는 갱신일
+ 3. 제작자 : ㈜이랜드월드패션사업부
+ 뉴발란스 공식 온라인스토어내의 모든 콘텐츠는 [콘텐츠산업 진흥법]에 따라 제작일 또는 그 갱신일로부터
+ 5년간 보호됩니다. (동의 없는 무단 복제를 금함)
