@@ -1,0 +1,23 @@
+{
+  "slug": "smeg-kr",
+  "name": "스메그 코리아",
+  "aliases": ["스메그", "스메그코리아", "SMEG", "스메그 AS", "제이컬렉션"],
+  "industry": "appliance",
+  "brandColor": "#000000",
+  "official": "https://j-collection.co.kr",
+  "sourceUrl": "https://j-collection.co.kr/service/notice_view.php?bbs_seq=1902",
+  "sourceName": "스메그코리아 고객센터 운영 안내 : 전화 상담 재오픈",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)제이컬렉션",
+  "hq": "서울특별시 성동구 성수이로20길 16, 901,902호",
+  "main": { "label": "스메그 고객 센터", "tel": "1588-2644" },
+  "hours": { "weekday": "09:00~18:00 /주말, 법정공휴일 휴무" },
+  "hoursNote": "[2026-09-26] 스메그코리아 공식몰(j-collection.co.kr, Copyright SMEGKOREA) 공지 '고객센터 운영 안내 : 전화 상담 재오픈'(2024.08.05): 스메그 고객 센터 1588-2644, 온라인 상담은 회원 가입 후 1:1 게시판(영업일 기준 통상 4시간내 답변), AS접수는 제품의 FULL S/N 확인 후 홈페이지 AS신청 메뉴, 제품 구매 후 교환/반품/배송문의는 제품 구매처. 푸터: 1588-2644 (운영시간: 09:00~18:00 /주말, 법정공휴일 휴무), (주)제이컬렉션 서울특별시 성동구 성수이로20길 16, 901,902호. 로고색은 헤더 로고 svg computed fill 실측 rgb(0, 0, 0).",
+  "idStep": "제품의 FULL S/N(시리얼 번호)",
+  "heroSalt": "j",
+  "notice": "A/S는 제품의 FULL S/N을 확인한 뒤 홈페이지 AS신청 메뉴로 접수합니다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "스메그 고객 센터", "tel": "1588-2644", "note": "09:00~18:00, 주말·법정공휴일 휴무" }
+  ]
+}
