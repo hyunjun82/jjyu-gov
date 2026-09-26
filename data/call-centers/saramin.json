@@ -1,0 +1,22 @@
+{
+  "slug": "saramin",
+  "name": "사람인",
+  "aliases": ["saramin", "사람인 고객센터", "㈜사람인"],
+  "industry": "online",
+  "brandColor": "#2D67FF",
+  "official": "https://www.saramin.co.kr",
+  "sourceUrl": "https://www.saramin.co.kr/zf_user/help/help-word/main",
+  "sourceName": "사람인 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "㈜사람인",
+  "hq": "서울특별시 강서구 공항대로 165, 원그로브 C동 11층 (마곡동, 원그로브)",
+  "main": { "label": "사람인 고객센터", "tel": "02-6226-5000" },
+  "hours": { "weekday": "평일 09:00~19:00", "holiday": "주말·공휴일 휴무" },
+  "hoursNote": "[2026-09-26] 사람인 고객센터 푸터: 서울특별시 강서구 공항대로 165, 원그로브 C동 11층 (마곡동, 원그로브), 이메일: help@saramin.co.kr / 사람인 고객센터 02-6226-5000 (평일 09:00~19:00, 주말·공휴일 휴무). 헤드리스 시간 초과라 --headed. 채용 틀이 없어 온라인 틀. 로고색은 캡처 헤더 최빈색.",
+  "idStep": "가입 아이디와 휴대폰 번호",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "사람인 고객센터", "tel": "02-6226-5000", "note": "평일 09:00~19:00" }
+  ]
+}

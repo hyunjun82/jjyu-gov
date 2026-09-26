@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'saramin', role: 'eligibility', title: '사람인 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'modernhouse', role: 'eligibility', title: '모던하우스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ncsoft', role: 'eligibility', title: '엔씨소프트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'alba', role: 'eligibility', title: '알바천국 고객센터 전화번호 및 상담원 연결·문의 안내' },
