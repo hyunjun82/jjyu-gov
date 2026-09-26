@@ -1,0 +1,22 @@
+{
+  "slug": "kiehls-kr",
+  "name": "키엘 코리아",
+  "aliases": ["키엘", "Kiehl's", "키엘 고객센터", "키엘 고객 케어 센터"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.kiehls.co.kr",
+  "sourceUrl": "https://www.kiehls.co.kr/",
+  "sourceName": "키엘 공식몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "엘오케이(유)",
+  "hq": "서울특별시 강남구 영동대로 517 아셈타워 31층",
+  "main": { "label": "고객 케어 센터", "tel": "080-822-3322" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 키엘 공식몰(헤드리스 264자라 --headed) 푸터: 사업자명: 엘오케이(유), 주소: 서울특별시 강남구 영동대로 517 아셈타워 31층, 고객 케어 센터: 구매, 배송, 사이트 이용 문의 080-822-3322. 상담시간은 홈에 없어 비운다. 뷰티 틀이 없어 온라인 틀. 로고는 검정 헤더 위 흰 글자라 헤더 띠 검정을 쓴다.",
+  "idStep": "주문번호",
+  "heroSalt": "ax",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객 케어 센터", "tel": "080-822-3322", "note": "구매, 배송, 사이트 이용 문의" }
+  ]
+}
