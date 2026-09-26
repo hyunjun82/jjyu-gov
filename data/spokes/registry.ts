@@ -2067,6 +2067,10 @@ import { casamiaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { zaraKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/zara-kr';
 import { spaoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/spao';
 import { discoveryKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/discovery-kr';
+import { hnmKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hnm-kr';
+import { mlbKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/mlb-kr';
+import { newbalanceKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/newbalance-kr';
+import { asicsKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/asics-kr';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2355,6 +2359,10 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'asics-kr': asicsKrCallCenterSpokeContent,
+    'newbalance-kr': newbalanceKrCallCenterSpokeContent,
+    'mlb-kr': mlbKrCallCenterSpokeContent,
+    'hnm-kr': hnmKrCallCenterSpokeContent,
     'discovery-kr': discoveryKrCallCenterSpokeContent,
     'spao': spaoCallCenterSpokeContent,
     'zara-kr': zaraKrCallCenterSpokeContent,

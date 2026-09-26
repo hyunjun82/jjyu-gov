@@ -126,6 +126,10 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'asics-kr', role: 'eligibility', title: '아식스 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'newbalance-kr', role: 'eligibility', title: '뉴발란스 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'mlb-kr', role: 'eligibility', title: 'MLB 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'hnm-kr', role: 'eligibility', title: 'H&M 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'discovery-kr', role: 'eligibility', title: '디스커버리 익스페디션 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'spao', role: 'eligibility', title: '스파오(SPAO) 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'zara-kr', role: 'eligibility', title: '자라(ZARA) 고객센터 전화번호 및 상담원 연결·문의 안내' },

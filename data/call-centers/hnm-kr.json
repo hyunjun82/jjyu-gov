@@ -1,0 +1,23 @@
+{
+  "slug": "hnm-kr",
+  "name": "H&M 코리아",
+  "aliases": ["H&M", "에이치앤엠", "H&M 고객센터", "에이치앤엠 고객센터"],
+  "industry": "online",
+  "brandColor": "#EB0010",
+  "official": "https://www2.hm.com",
+  "sourceUrl": "https://www2.hm.com/ko_kr/customer-service/contact.html",
+  "sourceName": "H&M 고객 서비스 연락처",
+  "verifiedAt": "2026-09-26",
+  "corp": "에이치앤엠헤네스 앤 모리츠 주식회사",
+  "hq": "서울특별시 강남구 영동대로 421, 9층 삼탄빌딩 (대치동)",
+  "hqZip": "06182",
+  "main": { "label": "고객 센터 · 무료 전화", "tel": "080-822-0220" },
+  "hours": { "weekday": "월요일 - 금요일 : 10am - 7pm" },
+  "hoursNote": "[2026-09-26] H&M 연락처(www2.hm.com/ko_kr/customer-service/contact, 헤드리스 Access Denied 라 --headed): 고객 센터 운영시간: 월요일 - 금요일 : 10am - 7pm, 토요일 -일요일 : 휴무, 전화 연락: 080-822-0220 (무료 전화), 메일 보내기: customerservice.kr@hm.com, 'H&M 계정에 등록된 이메일로 문의 주세요'. 푸터: 법인명 에이치앤엠헤네스 앤 모리츠 주식회사 | 주소: 서울특별시 강남구 영동대로 421, 9층 삼탄빌딩 (대치동) 06182 | 대표번호 080-822-0220. 패션 틀이 없어 온라인 틀. 로고색은 헤더 H&M 로고 최빈색(빨강).",
+  "idStep": "H&M 계정에 등록된 이메일",
+  "heroSalt": "ap",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객 센터", "tel": "080-822-0220", "note": "무료 전화, 월요일~금요일 10am~7pm, 메일 customerservice.kr@hm.com" }
+  ]
+}
