@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'chungcheong-energy', role: 'eligibility', title: '충청에너지서비스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'daeryun-ens', role: 'eligibility', title: '대륜이엔에스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kituramienergy', role: 'eligibility', title: '귀뚜라미에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'haeyang-energy', role: 'eligibility', title: '해양에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },

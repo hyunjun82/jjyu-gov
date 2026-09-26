@@ -1,0 +1,17 @@
+{
+  "slug": "chungcheong-energy",
+  "keyword": "충청에너지서비스 고객센터",
+  "title": "충청에너지서비스 고객센터 전화번호 및 상담직원 연결·업무시간 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담직원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "충청에너지서비스 고객센터 전화번호 모음",
+    "충청에너지서비스 고객센터 상담직원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "충청에너지서비스 고객센터 위치",
+    "충청에너지서비스 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.skens.com/cheongju/main/index.do",
+  "outline": "data/call-centers/chungcheong-energy.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "chungcheong-energy",
+  "name": "충청에너지서비스",
+  "aliases": ["충청에너지", "청주 도시가스", "충청에너지서비스 고객센터"],
+  "industry": "public",
+  "brandColor": "#E70128",
+  "official": "https://www.skens.com/cheongju",
+  "sourceUrl": "https://www.skens.com/cheongju/main/index.do",
+  "sourceName": "충청에너지서비스 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "충청에너지서비스㈜",
+  "hq": "충청북도 청주시 흥덕구 산단로 244 (송절동)",
+  "main": { "label": "고객센터", "tel": "1599-3131" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 충청에너지서비스(skens.com/cheongju — SK이노베이션 E&S 가족 사이트) 푸터: 충청에너지서비스㈜ : 충청북도 청주시 흥덕구 산단로 244 (송절동), TEL : 043-261-4114, 고객센터 : 1599-3131. 부산도시가스·코원과 같은 템플릿이라 전화 상담시간 표기는 없다 — 비운다. 도시가스 틀이 없어 공공 틀. 브랜드색은 SK 사이트 빨강(부산도시가스와 같음).",
+  "idStep": "가스 사용 주소와 계약자 이름",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1599-3131" },
+    { "label": "대표 전화", "tel": "043-261-4114" }
+  ]
+}
