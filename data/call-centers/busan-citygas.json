@@ -1,0 +1,21 @@
+{
+  "slug": "busan-citygas",
+  "name": "부산도시가스",
+  "aliases": ["부산 도시가스", "부산도시가스 고객센터", "㈜부산도시가스"],
+  "industry": "public",
+  "brandColor": "#E70128",
+  "official": "https://www.skens.com/busan",
+  "sourceUrl": "https://www.skens.com/busan/main/index.do",
+  "sourceName": "부산도시가스 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "㈜부산도시가스",
+  "hq": "부산광역시 해운대구 좌동순환로217번길 24",
+  "main": { "label": "고객센터", "tel": "1544-0009" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] busangas.co.kr → skens.com/busan 으로 넘어간다. 홈·전입신청·사고예방·FAQ 푸터 모두 'TEL : 1544-0009 고객센터 : 1544-0009' 뿐, 전화 상담시간은 어디에도 없다 — 비워 둔다(추정 금지). 전입신청 페이지의 '기사방문 가능한 시간은 오전 10시 부터 오후 5시 까지' 는 방문 기사 시간이라 전화 상담시간으로 쓰지 않는다. 도시가스 틀이 없어 공공 틀(사장님 2026-09-26 '검색량 순서 그대로'). 브랜드색은 사이트 SK 빨강.",
+  "idStep": "가스 사용 주소와 계약자 이름",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-0009" }
+  ]
+}

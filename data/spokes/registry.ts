@@ -1937,6 +1937,7 @@ import { cjLogisticsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/con
 import { hanjinParcelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanjin-parcel';
 import { asianaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/asiana';
 import { lotteParcelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotte-parcel';
+import { busanCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busan-citygas';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2011,6 +2012,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'busan-citygas': busanCitygasCallCenterSpokeContent,
     'korail': korailCallCenterSpokeContent,
     'epost-bank': epostBankCallCenterSpokeContent,
     'mps': mpsCallCenterSpokeContent,

@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'busan-citygas', role: 'eligibility', title: '부산도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'korail', role: 'eligibility', title: '코레일 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'epost-bank', role: 'eligibility', title: '우체국예금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'mps', role: 'eligibility', title: '군인연금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
