@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'aidclub', role: 'eligibility', title: '늘곁애라이프온 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hwsj', role: 'eligibility', title: '효원상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'sjsangjo', role: 'eligibility', title: '산림조합라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'the-reborn', role: 'eligibility', title: '더리본 고객센터 전화번호 및 상담원 연결·문의 안내' },
