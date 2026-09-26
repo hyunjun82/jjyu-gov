@@ -2010,6 +2010,7 @@ import { chungcheongEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spok
 import { pasecoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/paseco';
 import { gangwonCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangwon-citygas';
 import { lotteworldCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotteworld';
+import { gunsanCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gunsan-citygas';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2097,6 +2098,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'gunsan-citygas': gunsanCitygasCallCenterSpokeContent,
     'gangwon-citygas': gangwonCitygasCallCenterSpokeContent,
     'chungcheong-energy': chungcheongEnergyCallCenterSpokeContent,
     'daeryun-ens': daeryunEnsCallCenterSpokeContent,
