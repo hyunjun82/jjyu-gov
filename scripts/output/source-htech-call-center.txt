@@ -1,0 +1,175 @@
+SLUG: htech-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/htech-call-center-*.png)
+
+===== [1] https://www.i-hutech.com/customer/index =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/htech-call-center-1.png
+CHARS: 1393
+
+제품 구매
+전시장 찾기
+고객 센터
+마이페이지
+
+MENU
+
+로그인 회원가입 주문조회 장바구니
+휴식이 그리는 삶의 영감
+휴테크 소개
+휴테크에 왔습니다.
+제품 구매
+전시장 찾기
+체험존
+공휴(休)하다
+스토리
+고객을 향하다
+고객 센터
+브랜드 소개
+브랜드정체성
+브랜드철학
+라이프 테크니션
+휴테크 기술력
+기업 소개
+CI
+CEO 인사말
+연혁
+오시는 길
+채용정보
+제품 구매
+렌탈신청
+큐레이션
+체험전시장 찾기
+프로모션 소식
+HUTECH Story
+사용 후기
+공지사항
+휴테크 영상
+무엇을 도와드릴까요?
+제품검색/매뉴얼
+이용안내
+FAQ
+고객상담
+제휴문의
+사은품 증정 이벤트
+
+무엇을 도와드릴까요?
+
+제품 문제 해결 방법 확인, 상담/서비스 예약 등을
+고객센터 전화연결 없이 24시간 이용 가능합니다.
+
+제품검색
+
+KAI
+
+제품 매뉴얼
+
+차이가 아니다 초월이다.
+
+바로가기
+
+매일매일 현명하게 쉬는 방법
+
+바로가기
+
+일상이 휴식이 되다
+
+바로가기
+
+추가 고객센터 정보
+
+FAQ
+
+자주 묻는 질문들, 간단하게 확인해보세요.
+
+더 보기
+
+고객상담
+
+상세한 상담을 1:1로 직접 답변드립니다.
+
+더 보기
+
+제휴/대리점 문의
+
+기업 관게자분들의 소중한 제안을 기다립니다.
+
+더 보기
+
+추가 문의 정보
+
+전화 문의
+
+대표번호
+1599-7776
+고객상담 / AS상담
+평일 오전 9시 ~ 오후6시
+
+온라인 문의
+
+기업체&특판 문의
+offhutech@i-hutech.com
+마케팅 제휴
+marketing@i-hutech.com
+Overseas Business Dept.
+overseas@i-hutech.com
+
+입금 정보
+
+구매 계좌번호
+NH농협 351-1328-6974-73
+AS / 배송 / 반품 계좌번호
+NH농협 351-1328-6974-73
+예금주
+(주)휴테크산업
+이용약관
+이용안내
+개인정보처리방침
+사업자정보확인
+에스크로 가입확인
+사이트맵
+네이버플레이
+blog
+youtube
+instagram
+
+(주)휴테크산업
+
+경기도 이천시 부발읍 매양로 498 휴테크산업
+
+대표이사주성진 사업자등록번호108-81-81567 통신판매업신고2018-경기김포-1657 개인정보보호 책임자신진섭
+
+대표번호1599-7776 (운영시간 : 평일 09:00 ~ 18:00) FAX031-987-3014
+
+기업체&특판 문의offhutech@i-hutech.com 마케팅 제휴marketing@i-hutech.com Overseas Business Dept.overseas@i-hutech.com
+
+Size Korea
+2019 레드닷
+디자인 어워드 수상
+2017 굿디자인
+골드 미니스터 어워드 수상
+4년 연속 대한민국
+대표브랜드 대상
+10년 연속 소비자가 뽑은
+한국 소비자만족지수 1위
+8년 연속 한국
+소비자선호도 1위
+5년 연속
+착한브랜드 대상
+GDWEB DESIGN AWARDS
+GOLD PRIZE 수상
+대한민국
+신뢰브랜드 대상
+챗봇상담
+top
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+추천검색어
+ #레스툴
+ #안마의자
+ #카카오프렌즈
+
+(function(b,c,d){b.__beusablerumclient__={load:function(e){var a=c.createElement("script");a.src=e;a.async=!0;a.type="text/javascript";c.getElementsByTagName("head")[0].appendChild(a)}};b.__beusablerumclient__.load(d)})(window,document,"//rum.beusable.net/script/b201012e105630u245/2dc90a1735");
+
+var TRS_AIDX=11954,TRS_PROTOCOL=document.location.protocol;document.writeln();var TRS_URL=TRS_PROTOCOL+"//"+("https:"==TRS_PROTOCOL?"analysis.adinsight.co.kr":"adlog.adinsight.co.kr")+"/emnet/trs_esc.js";document.writeln("\x3cscript language\x3d'javascript' src\x3d'"+TRS_URL+"'\x3e\x3c/script\x3e");

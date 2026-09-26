@@ -1,0 +1,21 @@
+{
+  "slug": "htech",
+  "name": "휴테크",
+  "aliases": ["휴식공학 휴테크", "휴테크 안마의자", "휴테크 AS", "휴테크산업"],
+  "industry": "appliance",
+  "brandColor": "#514A4C",
+  "official": "https://www.i-hutech.com",
+  "sourceUrl": "https://www.i-hutech.com/customer/index",
+  "sourceName": "휴테크 고객 센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "휴테크산업",
+  "hq": "경기도 이천시 부발읍 매양로 498",
+  "main": { "label": "대표번호", "tel": "1599-7776" },
+  "hours": { "weekday": "평일 09:00 ~ 18:00" },
+  "hoursNote": "[2026-09-26] 휴테크 고객 센터(i-hutech.com): 전화 문의 대표번호 1599-7776, 고객상담 / AS상담 평일 오전 9시 ~ 오후6시. 푸터: 경기도 이천시 부발읍 매양로 498 휴테크산업, 대표번호1599-7776 (운영시간 : 평일 09:00 ~ 18:00). hutech21.com 은 다른 사이트(점검 화면)라 쓰지 않는다. 주말·공휴일 표기는 없다. 로고색은 캡처 헤더(회색 배경 제외).",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표번호", "tel": "1599-7776", "note": "고객상담·AS상담, 평일 09:00~18:00" }
+  ]
+}
