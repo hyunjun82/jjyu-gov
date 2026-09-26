@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'preedlife', role: 'eligibility', title: '프리드라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'eastarjet', role: 'eligibility', title: '이스타항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'disneyplus', role: 'eligibility', title: '디즈니플러스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jejuair', role: 'eligibility', title: '제주항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
