@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'jb-corporation', role: 'eligibility', title: 'JB주식회사 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'chambit-chungbuk', role: 'eligibility', title: '참빛충북도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'cncity-energy', role: 'eligibility', title: '씨엔씨티에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'seoul-citygas', role: 'eligibility', title: '서울도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },

@@ -1,0 +1,103 @@
+SLUG: jb-corporation-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/jb-corporation-call-center-*.png)
+
+===== [1] https://www.jbcorporation.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/jb-corporation-call-center-1.png
+CHARS: 669
+
+
+
+----- 프레임 (https://www.jbcorporation.com/index/) -----
+로그인
+
+ 
+
+개인고객
+
+ 
+
+기업고객
+
+ 
+
+시공회사
+
+ 
+
+회원가입
+
+ 
+
+아이디및비밀번호찾기
+
+ 
+
+사이트맵
+
+ 
+
+즐겨찾기
+
+검색어 
+
+서비스안내
+
+ 
+
+고객서비스
+
+ 
+
+회사소개
+
+ 
+
+사업소개
+
+ 
+
+ESG
+
+ 
+
+인재채용
+
+home
+
+contents
+
+blank
+
+blank
+
+사용요금조회
+요금납부
+자동이체신청
+세금계산서
+전출입서비스
+자주하는질문
+전기 기본공급약관 개정사항 안내
+2026년 소상공인 고효율기기 지원사업 종료 안내
+2026년 열수송관 집중안전점검 실시 안내
+[전기] 에너지캐시백 한시적 지원확대시행 안내
+[전기] 26년 봄.가을철 주말할인 사용량 고객 유형별 평균 비중 안내
+
+blank
+
+개인정보처리방침
+회원약관
+이메일무단수집거부
+고객게시판
+FOLLOW US
+      
+JB(주)  |  주소 : 충남 아산시 음봉면 산동안길 14 (우)31419  |  대표전화 : 1544-0041  | 팩스 : 041-533-6748  |  E-mail : webmaster@jbcorporation.com
+개인정보/웹사이트 문의 : 1544-0041  |  사업자번호 : 312-81-12621  |  대표자명 : 김영석, 우재화
+
+blank
+
+관련사이트
+중부재단
+JB에너텍

@@ -1,0 +1,22 @@
+{
+  "slug": "jb-corporation",
+  "name": "JB주식회사",
+  "aliases": ["JB(주)", "제이비주식회사", "중부도시가스", "JB 도시가스", "JB주식회사 고객센터"],
+  "industry": "public",
+  "brandColor": "#191F6C",
+  "official": "https://www.jbcorporation.com",
+  "sourceUrl": "https://www.jbcorporation.com/",
+  "sourceName": "JB주식회사 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "JB(주)",
+  "hq": "충남 아산시 음봉면 산동안길 14",
+  "hqZip": "31419",
+  "main": { "label": "대표전화", "tel": "1544-0041" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] JB주식회사 홈(프레임 /index/) 푸터: JB(주) | 주소 : 충남 아산시 음봉면 산동안길 14 (우)31419 | 대표전화 : 1544-0041 | 팩스 : 041-533-6748, 개인정보/웹사이트 문의 : 1544-0041. 상담시간은 홈에 없어 비워 둔다(블로그의 평일 09:00~18:00 은 원문 없음). 중부도시가스는 옛 이름(블로그 '구 중부도시가스 현 JB주식회사')이라 별칭으로만 둔다. 도시가스는 공공 틀. 로고색은 헤더 로고 이미지(logo.png) 최빈 유색.",
+  "heroSalt": "ac",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1544-0041", "note": "개인정보/웹사이트 문의도 같은 번호" }
+  ]
+}
