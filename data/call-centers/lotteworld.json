@@ -1,0 +1,22 @@
+{
+  "slug": "lotteworld",
+  "name": "롯데월드",
+  "aliases": ["롯데월드 어드벤처", "LOTTE WORLD", "롯데월드 고객센터", "롯데월드 전화번호"],
+  "industry": "online",
+  "brandColor": "#472945",
+  "official": "https://adventure.lotteworld.com",
+  "sourceUrl": "https://adventure.lotteworld.com/",
+  "sourceName": "롯데월드 어드벤처 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "호텔롯데 롯데월드",
+  "hq": "서울특별시 송파구 올림픽로 240",
+  "main": { "label": "전화", "tel": "1661-2000" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 롯데월드 어드벤처 홈 푸터: 서울특별시 송파구 올림픽로 240 호텔롯데 롯데월드, 전화 : 1661-2000. '오늘의 운영시간 10:00 ~ 22:00' 은 파크 운영시간이라 전화 상담시간으로 쓰지 않는다 — 비운다. 테마파크 틀이 없어 온라인 틀. 브랜드색은 캡처 헤더 최빈색.",
+  "idStep": "예매번호와 예매자 휴대폰 번호",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전화", "tel": "1661-2000" }
+  ]
+}
