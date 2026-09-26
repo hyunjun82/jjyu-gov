@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'daonplan', role: 'eligibility', title: '다온플랜 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jk', role: 'eligibility', title: 'JK라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kwlife', role: 'eligibility', title: '경우라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'phnuri', role: 'eligibility', title: '평화누리 고객센터 전화번호 및 상담원 연결·문의 안내' },
