@@ -1,0 +1,17 @@
+{
+  "slug": "bodyfriend",
+  "keyword": "바디프랜드 고객센터",
+  "title": "바디프랜드 고객센터 전화번호 및 AS 접수·출장비 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "바디프랜드 고객센터 전화번호 모음",
+    "바디프랜드 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "바디프랜드 고객센터 위치",
+    "바디프랜드 고객센터 지역별로 찾기"
+  ],
+  "source": "https://cs.bodyfriend.co.kr/customer/call_center_info",
+  "outline": "data/call-centers/bodyfriend.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}
