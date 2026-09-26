@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'hanlasangjo', role: 'eligibility', title: '한라상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'apluslife', role: 'eligibility', title: '에이플러스라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hdtourzone', role: 'eligibility', title: 'HD투어존 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hyundaislife', role: 'eligibility', title: '현대에스라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
