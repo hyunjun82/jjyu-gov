@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'sono-imready', role: 'eligibility', title: '소노아임레디 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jobkorea', role: 'eligibility', title: '잡코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'northface-kr', role: 'eligibility', title: '노스페이스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'renault-korea', role: 'eligibility', title: '르노코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
