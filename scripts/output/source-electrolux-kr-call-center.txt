@@ -1,0 +1,743 @@
+SLUG: electrolux-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/electrolux-kr-call-center-*.png)
+
+===== [1] https://www.electrolux.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/electrolux-kr-call-center-1.png
+CHARS: 4416
+
+제품등록
+제품
+서비스
+고객지원
+B2B 비즈니스
+프로모션
+스토리
+Home Page 고객지원
+무료 배송
+무료 반품
+무이자 할부
+무료 설치
+고객지원
+무엇을 도와드릴까요?
+B2B 제품관련문의 / 건설사 및 총판 대리점
+
+고객센터 1566-1238
+
+평일 09:00-18:00 (점심시간 12:00-13:00)
+일렉트로룩스
+소식
+더 알아보기
+B2B 비즈니스상담문의
+
+(일반 고객문의 상담불가)
+
+더 알아보기
+고객상담
+ 
+더 알아보기
+서비스센터
+100% 안전결제
+
+일렉트로룩스의 소식을 받아보세요
+이메일을 공유주시면, 최신 제안과 정보를 전달드려요!
+이름
+성
+메일주소
+ 약관에 동의합니다.
+구독하기
+청소기
+청소기
+액세서리
+액세서리 전체
+바닥
+주방
+공기
+의류케어
+주방가전
+전기레인지
+블렌더
+커피 메이커
+전기포트
+에어 프라이어
+식기세척기
+주방후드
+오븐
+의류관리
+다리미
+공기 청정기
+공기 청정기
+에프터 서비스
+일렉트로룩스 케어서비스
+고객지원
+FAQs
+보증연장 서비스
+제품사용설명서
+B2B 비즈니스
+비즈니스소개
+제품
+고객지원
+카달로그 다운
+ABOUT ELECTROLUX
+회사소개
+디자인 이노베이션
+환경과 지속가능성
+Career
+Global leader
+Electroluxgroup.com
+Copyright 2026 일렉트로룩스 - All Rights Reserved.
+일렉트로룩스코리아(주)ㅣ 대표자 마틴 룬츠케 ㅣ서울시 종로구 청계천로41, 영풍빌딩 22층
+통신판매업신고번호 2022 – 서울종로 – 1755ㅣ 사업자등록번호 220-86-40895
+고객센터 1566-1238 ㅣ제품구매 및 배송문의 1670-1238 ㅣ homecare.krh@electrolux.com ㅣ개인정보보호책임자 이상무
+이용약관 | 개인정보 처리 방침 | 쿠키 가이드라인 | 개인정보수집 및 사용 | 마케팅 정보수집
+피드백
+
+----- 프레임 (https://www.electrolux.co.kr/analytics/_/service_worker/69f0/sw_iframe.html?origin=https%3A%2F%2Fwww.electrolux.co.kr&1p=1&path=%2Fanalytics) -----
+'use strict';var m={};class n{constructor(a){this.l=a;this.h={};this.i={};this.j=0;this.id=String(Math.floor(Number.MAX_SAFE_INTEGER*Math.random()))}}function p(a){return a.performance&&a.performance.now()||Date.now()}
+var q=function(a,b){class d{constructor(c,f,g){this.failureType=c;this.data=f;this.h=g;this.i=new n(p(g))}o(c,f){var g=c.clientId;if(c.type===0){c.isDead=!0;var e=this.i,h=p(this.h);e.h[g]==null&&(e.h[g]=0,e.i[g]=h,e.j++);e.h[g]++;c.stats={targetId:e.id,clientCount:e.j,totalLifeMs:Math.round(h-e.l),heartbeatCount:e.h[g],clientLifeMs:Math.round(h-e.i[g])}}c.failure={failureType:this.failureType,data:this.data};f(c)}}return new d(5,a,b)};/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+let r=globalThis.trustedTypes,t;function u(){var a=null;if(!r)return a;try{let b=d=>d;a=r.createPolicy("goog#html",{createHTML:b,createScript:b,createScriptURL:b})}catch(b){}return a};var v=class{constructor(a){this.h=a}toString(){return this.h+""}};function w(a){var b=a,d;t===void 0&&(t=u());var c=(d=t)?d.createScriptURL(b):b;return new v(c)}function x(a){if(a instanceof v)return a.h;throw Error("");};function y(a,...b){if(b.length===0)return w(a[0]);var d=a[0];for(let c=0;c<b.length;c++)d+=encodeURIComponent(b[c])+a[c+1];return w(d)}function z(a){var b=y`sw.js`,d=x(b).toString(),c=d.split(/[?#]/),f=/[?]/.test(d)?"?"+c[1]:"";return A(c[0],f,/[#]/.test(d)?"#"+(f?c[2]:c[1]):"",a)}
+function A(a,b,d,c){function f(e,h){e!=null&&(Array.isArray(e)?e.forEach(l=>f(l,h)):(b+=g+encodeURIComponent(h)+"="+encodeURIComponent(e),g="&"))}var g=b.length?"&":"?";c.constructor===Object&&(c=Object.entries(c));Array.isArray(c)?c.forEach(e=>f(e[1],e[0])):c.forEach(f);return w(a+b+d)};const B=/Chrome\/(\d+)/;var D=function(a){var b=a.origin;if(b){var d=a.u?"sw.js":"sw_uncompiled.js",c=a.h?y`/static/service_worker/${a.h}/${d}?origin=${b}`:y`/gtm/static/${d}?origin=${b}`,f=new Map([["origin",b]]);a.path&&f.set("path",a.path);var g=a.l?z(f):c,e=()=>{var k=B.exec(a.window.navigator.userAgent);return k&&Number(k[1])<119},h=a.window.document.location.href;a.h&&(a.l?h=`${a.path}/_/service_worker`:e()||(h="/static/service_worker"));var l={scope:h};a.h&&(l.updateViaCache="all");a.window.navigator.serviceWorker.register(x(g),
+l).then(()=>{a.window.navigator.serviceWorker.ready.then(k=>{a.i=k.active;C(a)})},k=>{a.j=q(k==null?void 0:k.toString(),a.window);C(a)});a.window.navigator.serviceWorker.addEventListener("message",k=>{a.window.parent.postMessage(k.data,a.origin)})}},C=function(a){var b=a.m.slice();a.m=[];for(let d of b)a.handleEvent(d)};
+(new class{constructor(a,b=!0){this.window=a;this.u=b;this.origin="";this.l=!1;this.path="";this.j=this.i=null;this.m=[];this.h=""}init(){if((f=>{try{return f!==f.top}catch(g){return!0}})(this.window)){var a=new URL(this.window.document.location.href),b=a.searchParams.get("origin");if(b){this.origin=b;this.l=!!a.searchParams.get("1p");this.path=a.searchParams.get("path")||"";var d=a.pathname.match(RegExp(".*/service_worker/(\\w+)/"));d&&d.length&&(this.h=d[1]);var c=this.window.document.location.ancestorOrigins;
+c&&c[0]!==this.origin||(D(this),this.window.addEventListener("message",f=>{this.handleEvent(f)}))}}}handleEvent(a){a.origin===this.origin&&(this.i?this.i.postMessage(a.data):this.j?this.j.o(a.data,b=>{this.window.parent.postMessage(b,this.origin)}):this.m.push(a))}}(window)).init();
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+제품
+청소기 
+ 무선 청소기
+ 로봇 청소기
+ 핸디 청소기
+ 습건식 청소기
+ 유선 청소기
+  액세서리
+액세서리 
+ 청소기
+ 주방
+ 공기청정기
+ 의류케어
+ 액세서리정기구독
+주방가전 
+ 전기레인지
+ 주방후드
+ 오븐
+ 식기세척기
+ 액세서리
+주방소형가전 
+ 전기포트
+ 블렌더
+ 에어 프라이어
+ 커피 메이커
+의류관리 
+ 다리미
+ 액세서리
+공기 청정기 
+ 공기 청정기
+ 액세서리
+
+청소기
+ 청소기
+ 무선 청소기
+ 로봇 청소기
+ 핸디 청소기
+ 습건식 청소기
+ 유선 청소기
+  액세서리
+
+액세서리
+ 액세서리
+ 청소기
+ 주방
+ 공기청정기
+ 의류케어
+ 액세서리정기구독
+
+주방가전
+ 주방가전
+ 전기레인지
+ 주방후드
+ 오븐
+ 식기세척기
+ 액세서리
+
+주방소형가전
+ 주방소형가전
+ 전기포트
+ 블렌더
+ 에어 프라이어
+ 커피 메이커
+
+의류관리
+ 의류관리
+ 다리미
+ 액세서리
+
+공기 청정기
+ 공기 청정기
+ 공기 청정기
+ 액세서리
+
+서비스
+에프터 서비스 
+ 일렉트로룩스 케어서비스
+보증연장 서비스 
+ 보증연장 서비스
+
+고객지원
+ 문의
+ 제품등록
+ 서비스 예약
+ 제품 기술 지원
+ 보증연장 서비스
+
+B2B 비즈니스
+ 회사 소개
+ B2B 비즈니스 상담문의
+ 상품
+ 고객센터
+ 카탈로그
+
+계정
+ 이메일로그인
+ 이메일 회원가입
+ 카카오계정 로그인
+
+검색 결과 없음
+ 최다검색
+ 베스트셀러
+
+구매 
+ 매장에서 구매하기
+ 매장 찾기
+
+으로 가입된 회원입니다. 카카오톡으로 연결이 되면 간편하게 카카오톡 계정으로 
+로그인 할 수 있습니다. 연결하시겠습니까?취소확인
+
+if(!wcs_add)var wcs_add={};wcs_add.wa="s_4d74d295df42";if(!_nasa)var _nasa={};window.wcs&&(wcs.inflow(),wcs_do(_nasa));
+
+----- 이미지 대체텍스트 (img alt) -----
+B2B 비즈니스 상담문의
+B2B 비즈니스 | 고객 센터
+B2B 비즈니스상담문의 (일반 고객문의 상담불가)
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: electrolux-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/electrolux-kr-call-center-*.png)
+
+===== [1] https://www.electrolux.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/electrolux-kr-call-center-1.png
+CHARS: 6701
+
+제품등록
+제품
+서비스
+고객지원
+B2B 비즈니스
+프로모션
+스토리
+무료 배송
+무료 반품
+무이자 할부
+무료 설치
+Previous
+[NEW] 일렉트로룩스
+독일인증 보안 로봇청소기
+청소는 스마트하게,
+개인정보는 안전하게!
+﻿자세히 보기
+[NEW] 일렉트로룩스
+에르고라피도 플러스 무선청소기
+더 강력해진 흡입력,
+더 가벼워진 청소!
+자세히 보기
+일렉트로룩스
+악세서리 정기구독 서비스
+제품 악세서리 정기구독을 통하여
+고객님의 시간과 비용을 절약해보세요
+자세히 보기
+일렉트로룩스
+보증 연장 서비스
+기본 보증기간 만료 후에도
+무상수리를 보장하는 서비스를 만나보세요
+자세히 보기
+가전 전문가가 제공하는
+일렉트로룩스 토탈 케어 서비스
+번거롭고 귀찮은 가전 관려,
+이제 일렉트로룩스 가전 전문가에게 맡기세요
+자세히 보기
+Next
+0
+1
+2
+3
+4
+
+청소기
+
+식기세척기
+
+전기레인지
+
+블렌더
+
+다리미
+
+커피 메이커
+
+공기 청정기
+
+전기포트
+
+에어 프라이어
+
+오븐
+
+청소기 액세서리
+
+공기청정기 액세서리
+
+주방용 조리기구
+
+의류케어 액세서리
+
+Previous
+신상품
+
+EFR81223
+
+800 로봇 청소기 올인원 스테이션
+(27)
+일렉트로룩스 800 로봇청소기로 손대지 않고 완벽한 청소.
+자동먼지 비움, 급수, 세척, 세제투입 및 건조기능을 갖춘 올인원스테이션.
+HyperSuction 기술을 통해 강력한 흡입력으로 먼지를 제거합니다.
+
+￦ 699,000
+￦ 899,000
+-22%
+
+장바구니 담기
+신상품
+
+EFS32212SH
+
+에르고라피도 플러스 2in1 무선청소기
+(1)
+최대 50% 더 강력해진 흡입력*으로 강력한 2-in-1 청소 성능을 제공합니다.
+Up to 50% stronger suction* for a thorough clean.
+바닥 청소는 물론, 필요할 때는 핸디형으로 간편하게 분리하여 사용할 수 있습니다.
+
+￦ 239,000
+
+장바구니 담기
+
+EFW81713
+
+얼티밋홈 800 진공 & 물걸레 청소기
+(70)
+다양한 표면을 위한 3in1 세척 기능
+완벽한 건식 진공 청소 및 습식 물걸레 청소
+트리액션 노즐로 마른 먼지 최대 99%* 제거
+
+￦ 599,000
+￦ 649,000
+-8%
+
+장바구니 담기
+신상품
+
+EFP52213SW
+
+500 라이트 무선 청소기
+(12)
+강력한 성능, 무선의 자유로움, 가벼운 디자인까지 - 모든 바닥에서 완벽하게
+어떤 바닥에서도 먼지를 완벽하게 제거하는 BLDC 모터
+가벼운 무게로 바닥부터 천장까지 모든 공간을 손쉽게 청소
+
+￦ 239,000
+￦ 319,000
+-25%
+
+장바구니 담기
+신상품
+
+EFP52212DB
+
+500 라이트 무선 청소기
+(54)
+강력한 성능, 무선의 자유로움, 가벼운 디자인까지 - 모든 바닥에서 완벽하게
+어떤 바닥에서도 먼지를 완벽하게 제거하는 BLDC 모터
+가벼운 무게로 바닥부터 천장까지 모든 공간을 손쉽게 청소
+
+￦ 199,000
+￦ 239,000
+-17%
+
+장바구니 담기
+Next
+1
+2
+3
+4
+5
+NEW
+신상품
+500 라이트 무선 청소기
+￦ 199,000 
+￦ 239,000
+-17%
+신상품
+500 라이트 무선 청소기
+￦ 239,000 
+￦ 319,000
+-25%
+신상품
+에르고라피도 플러스 2in1 무선청소기
+￦ 239,000
+신상품
+800 로봇 청소기 올인원 스테이션
+￦ 699,000 
+￦ 899,000
+-22%
+Best
+에르고라피도 18V 무선 청소기
+￦ 229,000 
+￦ 279,000
+-18%
+사은품
+퓨어 C9 유선 청소기
+￦ 299,000 
+￦ 459,000
+-35%
+라피도 무선 핸디 청소기
+￦ 119,000 
+￦ 149,000
+-20%
+얼티밋홈 900 360° 공기청정기
+￦ 399,000 
+￦ 699,000
+-43%
+식기세척기
+프리미엄 식기세척기 500
+￦ 490,000 
+￦ 1,490,000
+-67%
+프리미엄 식기세척기 700
+￦ 590,000 
+￦ 2,090,000
+-72%
+얼티밋케어 700 식기세척기
+￦ 990,000 
+￦ 1,790,000
+-45%
+신상품
+얼티밋케어 900 식기세척기
+￦ 1,690,000
+인덕션
+인덕션 3구 60cm 센스보일 (UltimateTaste 700)
+￦ 749,000
+인덕션 4구 80cm 7.35kW 화력 (UltimateTaste 700)
+￦ 1,790,000
+무선청소기
+무선청소기
+100여년 간의 혁신적인 기술력을 바탕으로
+지속가능한 삶을 선사하는 일렉트로룩스 무선청소기
+더보기
+인덕션
+독보적 불조절 기술로 쉽고 맛있게 요리하다
+일렉트로룩스 인덕션
+더보기
+
+식기세척기
+
+스웨덴 100년의 헤리티지.
+삶의 가치를 더하다.
+일렉트로룩스 식기세척기
+더보기
+정기구독을 시작하세요
+정기구독을 통해 무료배송과 할인된 가격으로 일렉트로룩스의 액세서리 제품을 경험할 수 있습니다.
+
+자세히 보기   구매하기
+100% 안전결제
+
+일렉트로룩스의 소식을 받아보세요
+이메일을 공유주시면, 최신 제안과 정보를 전달드려요!
+이름
+성
+메일주소
+ 약관에 동의합니다.
+구독하기
+청소기
+청소기
+액세서리
+액세서리 전체
+바닥
+주방
+공기
+의류케어
+주방가전
+전기레인지
+블렌더
+커피 메이커
+전기포트
+에어 프라이어
+식기세척기
+주방후드
+오븐
+의류관리
+다리미
+공기 청정기
+공기 청정기
+에프터 서비스
+일렉트로룩스 케어서비스
+고객지원
+FAQs
+보증연장 서비스
+제품사용설명서
+B2B 비즈니스
+비즈니스소개
+제품
+고객지원
+카달로그 다운
+ABOUT ELECTROLUX
+회사소개
+디자인 이노베이션
+환경과 지속가능성
+Career
+Global leader
+Electroluxgroup.com
+Copyright 2026 일렉트로룩스 - All Rights Reserved.
+일렉트로룩스코리아(주)ㅣ 대표자 마틴 룬츠케 ㅣ서울시 종로구 청계천로41, 영풍빌딩 22층
+통신판매업신고번호 2022 – 서울종로 – 1755ㅣ 사업자등록번호 220-86-40895
+고객센터 1566-1238 ㅣ제품구매 및 배송문의 1670-1238 ㅣ homecare.krh@electrolux.com ㅣ개인정보보호책임자 이상무
+이용약관 | 개인정보 처리 방침 | 쿠키 가이드라인 | 개인정보수집 및 사용 | 마케팅 정보수집
+
+----- 프레임 (https://www.youtube.com/embed/xFKciVnXXI8?enablejsapi=1&autoplay=1&mute=1&playsinline=1&rel=0) -----
+3-in-1 습건식 무선청소기 (헤이솔)
+Electrolux Korea
+Electrolux Korea
+구독자 9.73천명
+0:18
+경과 시간 18 seconds
+/0:18
+길이 18 seconds
+
+----- 프레임 (https://www.electrolux.co.kr/analytics/_/service_worker/69f0/sw_iframe.html?origin=https%3A%2F%2Fwww.electrolux.co.kr&1p=1&path=%2Fanalytics) -----
+'use strict';var m={};class n{constructor(a){this.l=a;this.h={};this.i={};this.j=0;this.id=String(Math.floor(Number.MAX_SAFE_INTEGER*Math.random()))}}function p(a){return a.performance&&a.performance.now()||Date.now()}
+var q=function(a,b){class d{constructor(c,f,g){this.failureType=c;this.data=f;this.h=g;this.i=new n(p(g))}o(c,f){var g=c.clientId;if(c.type===0){c.isDead=!0;var e=this.i,h=p(this.h);e.h[g]==null&&(e.h[g]=0,e.i[g]=h,e.j++);e.h[g]++;c.stats={targetId:e.id,clientCount:e.j,totalLifeMs:Math.round(h-e.l),heartbeatCount:e.h[g],clientLifeMs:Math.round(h-e.i[g])}}c.failure={failureType:this.failureType,data:this.data};f(c)}}return new d(5,a,b)};/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+let r=globalThis.trustedTypes,t;function u(){var a=null;if(!r)return a;try{let b=d=>d;a=r.createPolicy("goog#html",{createHTML:b,createScript:b,createScriptURL:b})}catch(b){}return a};var v=class{constructor(a){this.h=a}toString(){return this.h+""}};function w(a){var b=a,d;t===void 0&&(t=u());var c=(d=t)?d.createScriptURL(b):b;return new v(c)}function x(a){if(a instanceof v)return a.h;throw Error("");};function y(a,...b){if(b.length===0)return w(a[0]);var d=a[0];for(let c=0;c<b.length;c++)d+=encodeURIComponent(b[c])+a[c+1];return w(d)}function z(a){var b=y`sw.js`,d=x(b).toString(),c=d.split(/[?#]/),f=/[?]/.test(d)?"?"+c[1]:"";return A(c[0],f,/[#]/.test(d)?"#"+(f?c[2]:c[1]):"",a)}
+function A(a,b,d,c){function f(e,h){e!=null&&(Array.isArray(e)?e.forEach(l=>f(l,h)):(b+=g+encodeURIComponent(h)+"="+encodeURIComponent(e),g="&"))}var g=b.length?"&":"?";c.constructor===Object&&(c=Object.entries(c));Array.isArray(c)?c.forEach(e=>f(e[1],e[0])):c.forEach(f);return w(a+b+d)};const B=/Chrome\/(\d+)/;var D=function(a){var b=a.origin;if(b){var d=a.u?"sw.js":"sw_uncompiled.js",c=a.h?y`/static/service_worker/${a.h}/${d}?origin=${b}`:y`/gtm/static/${d}?origin=${b}`,f=new Map([["origin",b]]);a.path&&f.set("path",a.path);var g=a.l?z(f):c,e=()=>{var k=B.exec(a.window.navigator.userAgent);return k&&Number(k[1])<119},h=a.window.document.location.href;a.h&&(a.l?h=`${a.path}/_/service_worker`:e()||(h="/static/service_worker"));var l={scope:h};a.h&&(l.updateViaCache="all");a.window.navigator.serviceWorker.register(x(g),
+l).then(()=>{a.window.navigator.serviceWorker.ready.then(k=>{a.i=k.active;C(a)})},k=>{a.j=q(k==null?void 0:k.toString(),a.window);C(a)});a.window.navigator.serviceWorker.addEventListener("message",k=>{a.window.parent.postMessage(k.data,a.origin)})}},C=function(a){var b=a.m.slice();a.m=[];for(let d of b)a.handleEvent(d)};
+(new class{constructor(a,b=!0){this.window=a;this.u=b;this.origin="";this.l=!1;this.path="";this.j=this.i=null;this.m=[];this.h=""}init(){if((f=>{try{return f!==f.top}catch(g){return!0}})(this.window)){var a=new URL(this.window.document.location.href),b=a.searchParams.get("origin");if(b){this.origin=b;this.l=!!a.searchParams.get("1p");this.path=a.searchParams.get("path")||"";var d=a.pathname.match(RegExp(".*/service_worker/(\\w+)/"));d&&d.length&&(this.h=d[1]);var c=this.window.document.location.ancestorOrigins;
+c&&c[0]!==this.origin||(D(this),this.window.addEventListener("message",f=>{this.handleEvent(f)}))}}}handleEvent(a){a.origin===this.origin&&(this.i?this.i.postMessage(a.data):this.j?this.j.o(a.data,b=>{this.window.parent.postMessage(b,this.origin)}):this.m.push(a))}}(window)).init();
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+제품
+청소기 
+ 무선 청소기
+ 로봇 청소기
+ 핸디 청소기
+ 습건식 청소기
+ 유선 청소기
+  액세서리
+액세서리 
+ 청소기
+ 주방
+ 공기청정기
+ 의류케어
+ 액세서리정기구독
+주방가전 
+ 전기레인지
+ 주방후드
+ 오븐
+ 식기세척기
+ 액세서리
+주방소형가전 
+ 전기포트
+ 블렌더
+ 에어 프라이어
+ 커피 메이커
+의류관리 
+ 다리미
+ 액세서리
+공기 청정기 
+ 공기 청정기
+ 액세서리
+
+청소기
+ 청소기
+ 무선 청소기
+ 로봇 청소기
+ 핸디 청소기
+ 습건식 청소기
+ 유선 청소기
+  액세서리
+
+액세서리
+ 액세서리
+ 청소기
+ 주방
+ 공기청정기
+ 의류케어
+ 액세서리정기구독
+
+주방가전
+ 주방가전
+ 전기레인지
+ 주방후드
+ 오븐
+ 식기세척기
+ 액세서리
+
+주방소형가전
+ 주방소형가전
+ 전기포트
+ 블렌더
+ 에어 프라이어
+ 커피 메이커
+
+의류관리
+ 의류관리
+ 다리미
+ 액세서리
+
+공기 청정기
+ 공기 청정기
+ 공기 청정기
+ 액세서리
+
+서비스
+에프터 서비스 
+ 일렉트로룩스 케어서비스
+보증연장 서비스 
+ 보증연장 서비스
+
+고객지원
+ 문의
+ 제품등록
+ 서비스 예약
+ 제품 기술 지원
+ 보증연장 서비스
+
+B2B 비즈니스
+ 회사 소개
+ B2B 비즈니스 상담문의
+ 상품
+ 고객센터
+ 카탈로그
+
+계정
+ 이메일로그인
+ 이메일 회원가입
+ 카카오계정 로그인
+
+검색 결과 없음
+ 최다검색
+ 베스트셀러
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 33,167đ/tháng
+
+장바구니 담기
+ 더보기
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 39,833đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 116,500đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 38,167đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 49,833đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 19,833đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 66,500đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 81,667đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 98,333đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 165,000đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 281,667đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 124,833đ/tháng
+
+lãi suất
+ 0%
+ 6 tháng trả góp
+ 298,333đ/tháng
+
+구매 
+ 매장에서 구매하기
+ 매장 찾기
+
+으로 가입된 회원입니다. 카카오톡으로 연결이 되면 간편하게 카카오톡 계정으로 
+로그인 할 수 있습니다. 연결하시겠습니까?취소확인
+
+if(!wcs_add)var wcs_add={};wcs_add.wa="s_4d74d295df42";if(!_nasa)var _nasa={};window.wcs&&(wcs.inflow(),wcs_do(_nasa));
+
+----- 이미지 대체텍스트 (img alt) -----
+B2B 비즈니스 상담문의
+efr81223 Vacuum
+EFS32212SH Vacuum
+800 로봇 청소기 올인원 스테이션
+에르고라피도 플러스 2in1 무선청소기
+얼티밋홈 800 진공 & 물걸레 청소기
+500 라이트 무선 청소기
+에르고라피도 18V 무선 청소기
+퓨어 C9 유선 청소기
+얼티밋홈 900 360° 공기청정기
+프리미엄 식기세척기 500
+프리미엄 식기세척기 700
+얼티밋케어 700 식기세척기
+얼티밋케어 900 식기세척기
+인덕션 3구 60cm 센스보일 (UltimateTaste 700)
+인덕션 4구 80cm 7.35kW 화력 (UltimateTaste 700)

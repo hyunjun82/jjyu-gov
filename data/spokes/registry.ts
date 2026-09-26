@@ -2078,6 +2078,7 @@ import { ahcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온
 import { kiehlsKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kiehls-kr';
 import { loccitaneKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/loccitane-kr';
 import { balmudaKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/balmuda-kr';
+import { electroluxKrCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/electrolux-kr';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2126,6 +2127,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'electrolux-kr': electroluxKrCallCenterSpokeContent,
     'balmuda-kr': balmudaKrCallCenterSpokeContent,
     'daesung-celtic': daesungCelticCallCenterSpokeContent,
     'smeg-kr': smegKrCallCenterSpokeContent,

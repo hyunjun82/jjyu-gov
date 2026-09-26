@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'electrolux-kr', role: 'eligibility', title: '일렉트로룩스 코리아 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'balmuda-kr', role: 'eligibility', title: '발뮤다 코리아 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'daesung-celtic', role: 'eligibility', title: '대성쎌틱 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'smeg-kr', role: 'eligibility', title: '스메그 코리아 고객센터 전화번호 및 AS 접수·출장비 안내' },
