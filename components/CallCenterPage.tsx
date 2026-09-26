@@ -99,6 +99,8 @@ export function isOpenAt(hours: { weekday: string; saturday?: string }, now: Dat
   const d = now.getDay();
   const h = now.getHours();
   if (d >= 1 && d <= 5) return h >= wh.from && h < wh.to;
+  /* '연중무휴'·'매일'·'365일' (2026-09-26 에어부산 '09:00~18:00(연중무휴)') — 주말도 같은 시간 */
+  if (/연중무휴|매일|365일/.test(hours.weekday)) return h >= wh.from && h < wh.to;
   /* "월요일~토요일 09:00~18:00" (2026-09-26 예스코) — 토요일도 같은 시간으로 본다 */
   if (d === 6 && /월\s*(요일)?\s*~\s*토/.test(hours.weekday)) return h >= wh.from && h < wh.to;
   /* 요일 말이 하나도 없는 시간("상담원 : 08:00∼20:00" 코레일)은 주말에 여는지 원문이 말하지 않는다.

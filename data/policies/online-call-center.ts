@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'airbusan', role: 'eligibility', title: '에어부산 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'emart', role: 'eligibility', title: '이마트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tving', role: 'eligibility', title: '티빙 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jinair', role: 'eligibility', title: '진에어 고객센터 전화번호 및 상담원 연결·문의 안내' },

@@ -1,0 +1,25 @@
+{
+  "slug": "airbusan",
+  "name": "에어부산",
+  "aliases": ["AIR BUSAN", "에어부산 예약센터", "에어부산 고객센터"],
+  "industry": "online",
+  "brandColor": "#015FA9",
+  "official": "https://www.airbusan.com",
+  "sourceUrl": "https://www.airbusan.com/content/common/customercenter/",
+  "sourceName": "에어부산 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "에어부산㈜",
+  "hq": "부산광역시 강서구 유통단지1로 57번가길 6(대저2동)",
+  "hqZip": "46721",
+  "main": { "label": "예약센터", "tel": "1666-3060" },
+  "hours": { "weekday": "09:00~18:00(연중무휴)" },
+  "hoursNote": "[2026-09-26] 에어부산 고객센터: 예약센터 1666-3060 09:00~18:00(연중무휴), 단체 문의(국내선 10명 이상) 1666-6265 09:00~17:00(주말, 공휴일 제외). FAQ: 예약센터 : (국내) 1666-3060 / (해외에서 전화 시) +82-70-7997-3060. 헤드리스 보안 확인 때문에 --headed. 항공 틀이 없어 온라인 틀. 로고색은 캡처 헤더 최빈색.",
+  "idStep": "예약번호",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "예약센터", "tel": "1666-3060", "note": "09:00~18:00 연중무휴" },
+    { "label": "단체 문의", "tel": "1666-6265", "note": "국내선 10명 이상, 09:00~17:00 주말·공휴일 제외" },
+    { "label": "해외에서 전화 시", "tel": "+82-70-7997-3060" }
+  ]
+}
