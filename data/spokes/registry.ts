@@ -1951,6 +1951,7 @@ import { yescoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { emartCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/emart';
 import { expresswayCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/expressway';
 import { airbusanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/airbusan';
+import { hyundaiMotorCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hyundai-motor';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2198,6 +2199,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'hyundai-motor': hyundaiMotorCallCenterSpokeContent,
     'airbusan': airbusanCallCenterSpokeContent,
     'emart': emartCallCenterSpokeContent,
     'tving': tvingCallCenterSpokeContent,
