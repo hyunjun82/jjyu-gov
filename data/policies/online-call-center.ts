@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'wconcept', role: 'eligibility', title: 'W컨셉 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'innisfree', role: 'eligibility', title: '이니스프리 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kgm', role: 'eligibility', title: 'KG모빌리티 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kakaogames', role: 'eligibility', title: '카카오게임즈 고객센터 전화번호 및 상담원 연결·문의 안내' },
