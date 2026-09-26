@@ -1,0 +1,23 @@
+{
+  "slug": "gangwon-citygas",
+  "name": "강원도시가스",
+  "aliases": ["강원도시가스 고객센터", "춘천 도시가스", "강원도시가스㈜"],
+  "industry": "public",
+  "brandColor": "#E70128",
+  "official": "https://www.skens.com/gangwon",
+  "sourceUrl": "https://www.skens.com/gangwon/main/index.do",
+  "sourceName": "강원도시가스 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "강원도시가스㈜",
+  "hq": "강원특별자치도 춘천시 삭주로 163 (후평동)",
+  "main": { "label": "고객센터", "tel": "1599-2232" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 강원도시가스(skens.com/gangwon — SK이노베이션 E&S 가족 사이트) 푸터: 강원도시가스㈜ : 강원특별자치도 춘천시 삭주로 163 (후평동), TEL : 033-258-8800, 고객센터 : 1599-2232. 같은 템플릿이라 전화 상담시간 표기는 없다 — 비운다. 도시가스 틀이 없어 공공 틀. 브랜드색은 SK 사이트 빨강.",
+  "idStep": "가스 사용 주소와 계약자 이름",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1599-2232" },
+    { "label": "대표 전화", "tel": "033-258-8800" }
+  ]
+}
