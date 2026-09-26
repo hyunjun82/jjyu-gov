@@ -319,7 +319,29 @@ const INDUSTRY: Record<string, { hub: string; dir: string; word: string; unit: s
     hubWord: '가전 고객센터',
   },
 };
-const IND = INDUSTRY[C.industry ?? 'insurance'];
+/* 같은 업종(허브) 안에서 말만 바꾸는 갈래 (2026-09-27 상조).
+   사장님 결정 — 상조는 보람상조처럼 온라인 고객센터 카테고리에 둔다. 그런데 온라인 틀 문장을 그대로 찍으면
+   "주문·결제 문의, 환불, 계정 문제까지 이 번호 하나로", "쇼핑·배달·구독을 한 곳만 쓰지 않습니다" 가
+   상조회사 글에 나간다(보람상조·프리드라이프·교원라이프·소노아임레디 4편이 이미 그렇다).
+   허브·폴더·게이트 업종은 그대로 두고 업종 문구만 덮는다 — JSON 의 "variant". */
+const VARIANT: Record<string, Partial<typeof INDUSTRY[string]>> = {
+  sangjo: {
+    unit: '회사',
+    word: '상조회사',
+    jobs: '가입 상담, 납입 조회, 해약 문의',
+    remote: '납입 내역 조회나 주소 변경',
+    q5q: '다른 상조회사 고객센터 번호도 필요한데요',
+    q5a: '부모님 이름으로 든 상조와 내 이름으로 든 상조가 다른 회사인 경우가 있습니다. 급할 때 어느 회사에 걸어야 할지부터 헷갈립니다.',
+    /* 원문 표기가 '24시간 장례접수' 라 붙여 쓴다 — 띄우면 OFF_DUP 이 못 알아보고 "장례접수에는 장례 접수 위주로" 가 된다 */
+    offhour: '장례접수',
+    offhourLong: '장례접수를 받습니다',
+    goods: '업무별 번호',
+    dayNote: '해약과 납입 조회는 상담시간 안에 거는 편이 빠릅니다.',
+    idStep: '계약자 이름과 생년월일',
+  },
+};
+if (C.variant && !VARIANT[C.variant]) die(`모르는 variant: ${C.variant} (쓸 수 있는 값: ${Object.keys(VARIANT).join(', ')})`);
+const IND = INDUSTRY[C.industry ?? 'insurance'] && { ...INDUSTRY[C.industry ?? 'insurance'], ...(C.variant ? VARIANT[C.variant] : {}) };
 if (!IND) die(`모르는 industry: ${C.industry} (쓸 수 있는 값: ${Object.keys(INDUSTRY).join(', ')})`);
 
 const HUB_SLUG = IND.hub;
@@ -853,7 +875,7 @@ ${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}
       },
       box: {
         label: '대기를 줄이는 법',
-        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, ${q(C.idStep ?? IND.idStep)}를 미리 꺼내 두는 편이 빠릅니다.',
+        content: '문의를 한 문장으로 정리해 두면 부서 이관 횟수가 줄어듭니다. 본인이 아니면 위임 확인 절차가 더 붙으니, ${q(C.idStep ?? IND.idStep)}${josa(C.idStep ?? IND.idStep, '을')} 미리 꺼내 두는 편이 빠릅니다.',
       },
       sourceNote: '* 출처: ${q(C.sourceName ?? C.name)} (${C.verifiedAt} 확인)',
     },

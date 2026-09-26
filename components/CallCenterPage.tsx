@@ -246,7 +246,8 @@ export default function CallCenterPage({
      상담원 메뉴가 원문 ARS 에 있을 때만 그 번호를 단계로 보여 준다. 없을 때 '0번' 으로 떨어뜨리지 않는다. */
   const steps = [
     { no: '1', title: `${cc.main.tel} 연결`, body: '휴대전화·일반전화 모두 같은 번호로 들어갑니다.' },
-    { no: '2', title: '본인 확인', body: `${IDSTEP}를 미리 꺼내 두면 절차가 짧아집니다.` },
+    /* '계좌번호와 생년월일를' 이 증권·카드·통신·상조 78편에 나가 있었다 (2026-09-27) — 받침으로 가른다 */
+    { no: '2', title: '본인 확인', body: `${IDSTEP}${jongseong(IDSTEP) ? '을' : '를'} 미리 꺼내 두면 절차가 짧아집니다.` },
     ...(agent
       ? [{ no: '3', title: `${agent.key}번 ${AGENT} 연결`, body: `${agent.key}번을 누르면 순번 대기 후 상담이 시작됩니다.` }]
       : []),
