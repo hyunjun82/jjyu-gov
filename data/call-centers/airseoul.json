@@ -1,0 +1,24 @@
+{
+  "slug": "airseoul",
+  "name": "에어서울",
+  "aliases": ["AIR SEOUL", "에어서울 고객센터", "에어서울 예약센터"],
+  "industry": "online",
+  "brandColor": "#23C6A9",
+  "official": "https://flyairseoul.com",
+  "sourceUrl": "https://flyairseoul.com/CW/ko/main.do",
+  "sourceName": "에어서울 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "에어서울",
+  "hq": "서울 강서구 공항대로 205 SH빌딩 6층",
+  "hqZip": "07802",
+  "main": { "label": "에어서울 고객센터", "tel": "1800-8100" },
+  "hours": { "weekday": "매일 09:00 ~ 18:00" },
+  "hoursNote": "[2026-09-26] 에어서울 홈: 에어서울 고객센터 매일 09:00 ~ 18:00 1800-8100. 푸터: 본사 소재지 : (우) 07802 서울 강서구 공항대로 205 SH빌딩 6층, 국내선, 국제선 예약문의 1800-8100 (09:00~18:00), 해외에서 이용 시 +82-1800-8100. 단체문의는 이메일. 헤드리스 보안 확인(Cloudflare) 때문에 --headed. 항공 틀이 없어 온라인 틀. 로고색은 캡처 최빈색(민트).",
+  "idStep": "예약번호",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "에어서울 고객센터", "tel": "1800-8100", "note": "국내선·국제선 예약문의, 매일 09:00~18:00" },
+    { "label": "해외에서 이용 시", "tel": "+82-1800-8100" }
+  ]
+}

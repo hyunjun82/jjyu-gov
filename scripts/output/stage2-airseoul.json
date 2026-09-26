@@ -1,0 +1,17 @@
+{
+  "slug": "airseoul",
+  "keyword": "에어서울 고객센터",
+  "title": "에어서울 고객센터 전화번호 및 상담원 연결·문의 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "에어서울 고객센터 전화번호 모음",
+    "에어서울 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "에어서울 고객센터 위치",
+    "에어서울 고객센터 지역별로 찾기"
+  ],
+  "source": "https://flyairseoul.com/CW/ko/main.do",
+  "outline": "data/call-centers/airseoul.json",
+  "approved": true,
+  "approvedAt": "2026-09-26"
+}

@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'airseoul', role: 'eligibility', title: '에어서울 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'genesis', role: 'eligibility', title: '제네시스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'yanolja', role: 'eligibility', title: 'NOL 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kia-motor', role: 'eligibility', title: '기아 고객센터 전화번호 및 상담원 연결·문의 안내' },
