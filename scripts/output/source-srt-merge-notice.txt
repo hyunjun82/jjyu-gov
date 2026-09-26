@@ -1,0 +1,92 @@
+SLUG: srt-merge-notice
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/srt-merge-notice-*.png)
+
+===== [1] https://etk.srail.kr/cms/article/view.do?postNo=923&pageId=TK0502000000 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/srt-merge-notice-1.png
+CHARS: 866
+
+대메뉴 바로가기
+본문 바로가기
+ 로그인 회사소개 
+언어를 선택하세요.
+Language
+한국어
+English
+中文(简)
+中文(繁)
+日本語
+ Move 
+승차권
+고객안내
+이용안내
+회원서비스
+공지사항
+홈 고객안내 공지사항
+   
+공지사항 게시글 - [기타공지] 고속철도 통합에 따른 고객센터 운영 변경 알림의 등록일, 내용 제공표
+[기타공지] 고속철도 통합에 따른 고객센터 운영 변경 알림
+등록일	2026-08-26
+
+고속철도 통합에 따른 고객센터 운영 변경 알림
+
+고속철도 통합에 따라 2026년 9월 1일, SR고객센터가 철도고객센터(1588-7788)로 통합됩니다.
+계속해서 친절하고 편리한 상담서비스를 제공하기 위해 노력하겠습니다.
+
+고객센터 대표번호 변경
+
+(기존) SR 고객센터 1800-1472 → (변경) 철도고객센터 1588-7788
+
+고객센터 이용 참고사항
+
+8월 31일까지는 현행대로 SR, SRT 관련 안내는 1800-1472에서만 상담할 수 있습니다.
+9월 1일 이후, 모든 고속철도 관련 상담은 철도고객센터(1588-7788)로 일원화됩니다.
+
+8월 31일까지 이용한 SRT 관련 사항도 1588-7788에서 안내 받을 수 있습니다.
+
+SR 카카오톡 채팅 상담은 8월 31일까지 운영 후 종료됩니다.
+
+목 록
+개인정보처리방침 여객운송약관/부속약관
+유관기관 바로가기 선택
+유관기관 바로가기
+국토교통부
+ 이동
+SR
+
+상호: 주식회사 에스알 ㅣ 사업자등록: 305-86-31590 ㅣ 통신판매업신고: 2016-서울강남-03705호
+(우: 06367) 서울특별시 강남구 광평로 56길 12 희림빌딩 | TEL 1588-7788 l FAX) 6484-4093
+Copyright 2018. SR Inc. All rights reserved.
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1 — 공지사항 게시글 - [기타공지] 고속철도 통합에 따른 고객센터 운영 변경 알림의 등록일, 내용 제공표]
+[기타공지] 고속철도 통합에 따른 고객센터 운영 변경 알림
+등록일 | 2026-08-26
+@font-face { font-family: "Pretendard"; src: url("/resources/fonts/Pretendard/Pretendard-Light.woff2") format("woff2"); font-weight: 300; font-style: normal; } @font-face { font-family: "Pretendard"; src: url("/resources/fonts/Pretendard/Pretendard-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; } @font-face { font-family: "Pretendard"; src: url("/resources/fonts/Pretendard/Pretendard-Medium.woff2") format("woff2"); font-weight: 600; font-style: normal; } @font-face { font-family: "Pretendard"; src: url("/resources/fonts/Pretendard/Pretendard-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; } body { font-family: "Pretendard", "맑은 고딕", sans-serif; * { font-family: "Pretendard", "맑은 고딕", sans-serif !important; } } /* 새로운 스타일 ul css */ .m_list_container{ display: flex; justify-content: center; flex-direction: column; margin: 0 250px; } .m_list_bundle{ } .view_wrap.vtb1 .vtb_con .m_list_bundle p.m_list_tit{ position: relative; padding-left: 18px; font-size: 20px; font-weight: 700; margin: 10px 0; } .m_list_bundle .m_list_tit::before{ content: ""; position: absolute; width: 12px; height: 12px; border: 2px solid #6f135e; top: 10px; left: 0px; } .view_wrap.vtb1 .vtb_con .m_list_bundle ul{ margin: 0; padding-left: 12px; } .view_wrap.vtb1 .vtb_con .m_list_bundle ul li{ position: relative; padding-left: 14px; background: none; font-size: 18px; font-weight: 400; color: #333333; margin-bottom: 15px; } .m_list_bundle ul li::before{ content: ""; position: absolute; width: 9px; height: 9px; border-radius: 100%; border: 1px solid #6f135e; top: 9px; left: 0px; } .view_wrap.vtb1 .vtb_con .m_list_bundle ul li span{ font-size: 16px; color: #333333; font-weight: 500; } .view_wrap.vtb1 .vtb_con .m_list_bundle ul li p.m_list_info_txt{ font-size: 15px; color: #777; font-weight: 400; position: relative; margin: 0; margin-top: 6px; padding-left: 9px; } .view_wrap.vtb1 .vtb_con .m_list_bundle ul li p.m_list_info_txt::before{ content: "*"; position: absolute; font-size: 12px; color: #777; top: 4px; left: 0px; } .view_wrap.vtb1 .vtb_con .m_list_container .m_req_txt{ font-size: 15px; font-weight: 400; color: #333; margin: 0; text-align: center; margin-top: 20px; } .view_wrap.vtb1 .vtb_con .m_list_container .m_date_txt{ font-size: 15px; font-weight: 400; color: #333; margin: 0; text-align: center; margin-top: 10px; } /* SR 로고 상단 하단 삭제 */ .view_wrap.vtb1 .vtb_con p.notice-top{ display: none !important; } .view_wrap.vtb1 .vtb_con p.notice-bottom_1{ height: 20px !important; background: none !important; background-color: #4b2d47 !important; } /* //새로운 스타일 ul css */ 고속철도 통합에 따른 고객센터 운영 변경 알림 고속철도 통합에 따라 2026년 9월 1일, SR고객센터가 철도고객센터(1588-7788)로 통합됩니다. 계속해서 친절하고 편리한 상담서비스를 제공하기 위해 노력하겠습니다. 고객센터 대표번호 변경 (기존) SR 고객센터 1800-1472 → (변경) 철도고객센터 1588-7788 고객센터 이용 참고사항 8월 31일까지는 현행대로 SR, SRT 관련 안내는 1800-1472에서만 상담할 수 있습니다. 9월 1일 이후, 모든 고속철도 관련 상담은 철도고객센터(1588-7788)로 일원화됩니다. 8월 31일까지 이용한 SRT 관련 사항도 1588-7788에서 안내 받을 수 있습니다. SR 카카오톡 채팅 상담은 8월 31일까지 운영 후 종료됩니다.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+승차권예약
+ 일반승차권 조회
+ 발권ㆍ취소ㆍ변경
+ 발권/취소
+ 이용내역/영수증
+ 이용내역 내려받기
+
+공지사항
+ 고객의 소리
+ 고객센터
+ 유실물안내
+ 여객운송약관
+
+승차권 이용안내
+ 정차역 이용안내
+ 운행구간
+ 부대사업안내
+
+미등록고객 예매
+ 미등록고객 이용내역
+ 비회원 승차권 영수증
+ 자가발권이용실적
+ 회원탈퇴안내
