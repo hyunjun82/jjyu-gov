@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'daiso', role: 'eligibility', title: '다이소 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'lotte-rentacar', role: 'eligibility', title: '롯데렌터카 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'lottemart', role: 'eligibility', title: '롯데마트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'modetour', role: 'eligibility', title: '모두투어 고객센터 전화번호 및 상담원 연결·문의 안내' },
