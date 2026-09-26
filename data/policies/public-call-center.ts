@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'g2b', role: 'eligibility', title: '조달청 나라장터 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'youngnam-energy-pohang', role: 'eligibility', title: '영남에너지서비스(포항) 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'youngnam-energy-gumi', role: 'eligibility', title: '영남에너지서비스(구미) 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'jb-corporation', role: 'eligibility', title: 'JB주식회사 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
