@@ -1,0 +1,22 @@
+{
+  "slug": "jejuair",
+  "name": "제주항공",
+  "aliases": ["JEJU AIR", "제주항공 고객센터", "제주항공 예약센터"],
+  "industry": "online",
+  "brandColor": "#FF5000",
+  "official": "https://www.jejuair.net",
+  "sourceUrl": "https://www.jejuair.net/ko/customerService/csCenter/faqList.do",
+  "sourceName": "제주항공 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)제주항공",
+  "hq": "제주특별자치도 제주시 신대로 64 (연동, 건설공제회관 3층)",
+  "main": { "label": "고객센터", "tel": "1599-1500" },
+  "hours": { "weekday": "09:00 ~ 19:00" },
+  "hoursNote": "[2026-09-26] 제주항공 고객센터(FAQ) 푸터: 주소 : 제주특별자치도 제주시 신대로 64 (연동, 건설공제회관 3층), 고객센터 : 1599-1500 (09:00 ~ 19:00). 헤드리스 오류 화면에도 '제주항공 고객센터(1599-1500) … (운영 시간: 09:00~19:00)'. 요일 표기 없음. 헤드리스 차단이라 --headed. 항공 틀이 없어 온라인 틀. 로고색은 캡처 헤더 최빈색.",
+  "idStep": "예약번호",
+  "heroSalt": "d",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1599-1500", "note": "09:00~19:00" }
+  ]
+}
