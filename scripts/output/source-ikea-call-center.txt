@@ -1,0 +1,193 @@
+SLUG: ikea-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/ikea-call-center-*.png)
+
+===== [1] https://www.ikea.com/kr/ko/customer-service/contact-us/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/ikea-call-center-1.png
+CHARS: 5333
+
+본문으로 건너뛰기
+KR한국어
+우편 번호 입력
+매장 선택
+모든 제품
+공간별 쇼핑하기
+특별한 혜택
+플래닝 & 아이디어
+서비스
+검색어 삭제
+이미지로 IKEA 제품 검색하기
+검색
+Hej! 로그인 하기
+위시리스트
+장바구니
+고객 서비스
+IKEA 고객지원센터
+고객지원센터
+채팅 문의
+
+운영 시간: 10:00 - 20:00
+* 추석 연휴 기간 (9월 20일 - 10월 10일) 미운영
+
+화면 오른쪽 하단 챗봇 문의 버튼을 통해 문의해주세요.
+
+전화 문의
+
+대표 번호: 1670 - 4532
+운영 시간: 10:00 - 19:00
+* 추석 당일 (9월 25일) 휴무​
+
+연락 전 성함, 연락처, 구매정보(영수증/주문번호)를 준비하시면 더 빠른 상담이 가능합니다.
+
+ARS 단축번호 안내
+고객 지원 서비스
+헤이 전화 주문
+
+전문가와 제품 상담부터 결제까지 간편하게 진행보세요
+
+빠른 상담 신청
+배송 조회 및 고객 접수 케이스 현황 확인
+
+주문 확인/변경/취소는 이곳에서 해결할 수 있어요
+
+자세히 보기
+교환환불
+
+마음에 들지 않는 제품은 교환/환불을 할 수 있어요
+
+자세히 보기
+제품 재고 확인
+
+구매하려는 제품의 재고를 미리 확인해보세요
+
+자세히 보
+부품 신청
+
+필요한 부품이 있다면 간편하게 신청해 보세요
+
+자세히 보기
+분실물 찾기
+
+분실물 목록을 확인하고 소중한 물건을 찾아보세요
+
+자세히 보기
+기프트 카드 잔액 확인
+
+가지고 있는 기프트 카드의 잔액을 확인해보세요
+
+자세히 보
+비밀번호 재설정
+
+비밀번호를 분실했다면 재설정을 해보세요
+
+자세히 보기
+자주 묻는 질문
+
+궁금한 점을 아래 검색창에서 검색해보세요. 이곳에는 배송, 주문 취소, 매장 정보, 쇼핑 방법, IKEA Family 등의 영역에서 가장 자주 묻는 질문에 대한 답을 모아 놓았어요.
+* 제품에 관한 정보는 페이지 상단의 검색창을 이용해보세요.
+
+여러분의 이용 경험을 알려주세요!
+
+의견 작성하기
+푸터
+IKEA Family
+
+지금 IKEA Family에 무료로 가입하고
+다양한 멤버 전용 혜택을 누리세요.
+
+자세히 보기
+
+IKEA Family 가입하기
+IKEA Business Network
+
+여러분의 더 나은 비즈니스 환경을 위한
+다양한 혜택들을 받으세요
+
+자세히 보기
+
+IKEA Business Network 가입하기
+고객문의
+고객 서비스
+자주 묻는 질문
+고객지원센터
+배송조회
+교환환불
+품질보증
+제품리콜
+피드백
+부품 신청
+쇼핑하기
+쇼핑하기
+전화 주문
+IKEA for Business
+셀프 플래닝
+이케아 모바일 앱
+제품 사용 팁 / 가이드
+브로슈어 / 제품 구매 안내
+결제 옵션
+기프트 카드
+서비스
+이케아 서비스
+배송 서비스
+조립 서비스
+설치 서비스
+주방 서비스
+구매 상담 서비스
+공간 스타일링 서비스
+바이백 서비스
+이케아 이야기
+브랜드 소개
+집에서의 생활
+지속가능한 생활
+뉴스룸
+채용정보
+쿠키 설정
+KR한국어
+
+© Inter IKEA Systems B.V 1999-2026
+
+개인정보처리방침
+쿠키 정책
+웹사이트 이용약관
+Responsible disclosure
+
+이케아코리아 유한회사
+주소: (우) 14352 경기도 광명시 일직로 17, 1층(일직동) 이케아 광명점
+사업자 등록번호: 106-86-82871 사업자정보확인
+대표자: 이사벨 푸치 팔렘
+통신판매업 신고: 2018-경기광명-0209
+고객지원센터: 1670-4532
+
+IKEA 웹사이트 이용자는 쿠키 허용 여부를 선택할 수 있습니다.
+
+IKEA.com과 IKEA의 디지털 파트너는 이 사이트에서 쿠키를 사용합니다. 사이트 운영을 위해 필수적으로 사용되는 쿠키도 있고, 다음의 목적을 위해 선택적으로 사용되는 쿠키도 있습니다.
+
+사이트 이용 방식에 대한 통계 수집
+개인의 사이트 맞춤 설정 지원
+마케팅 및 소셜 미디어 광고에 활용
+쿠키에 관해 자세히 알아보기
+모든 쿠키 허용
+쿠키 설정
+
+----- 프레임 (https://sgtm.ikea.com/_/service_worker/69f0/sw_iframe.html?origin=https%3A%2F%2Fwww.ikea.com&1p=1) -----
+'use strict';var m={};class n{constructor(a){this.l=a;this.h={};this.i={};this.j=0;this.id=String(Math.floor(Number.MAX_SAFE_INTEGER*Math.random()))}}function p(a){return a.performance&&a.performance.now()||Date.now()}
+var q=function(a,b){class d{constructor(c,f,g){this.failureType=c;this.data=f;this.h=g;this.i=new n(p(g))}o(c,f){var g=c.clientId;if(c.type===0){c.isDead=!0;var e=this.i,h=p(this.h);e.h[g]==null&&(e.h[g]=0,e.i[g]=h,e.j++);e.h[g]++;c.stats={targetId:e.id,clientCount:e.j,totalLifeMs:Math.round(h-e.l),heartbeatCount:e.h[g],clientLifeMs:Math.round(h-e.i[g])}}c.failure={failureType:this.failureType,data:this.data};f(c)}}return new d(5,a,b)};/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+let r=globalThis.trustedTypes,t;function u(){var a=null;if(!r)return a;try{let b=d=>d;a=r.createPolicy("goog#html",{createHTML:b,createScript:b,createScriptURL:b})}catch(b){}return a};var v=class{constructor(a){this.h=a}toString(){return this.h+""}};function w(a){var b=a,d;t===void 0&&(t=u());var c=(d=t)?d.createScriptURL(b):b;return new v(c)}function x(a){if(a instanceof v)return a.h;throw Error("");};function y(a,...b){if(b.length===0)return w(a[0]);var d=a[0];for(let c=0;c<b.length;c++)d+=encodeURIComponent(b[c])+a[c+1];return w(d)}function z(a){var b=y`sw.js`,d=x(b).toString(),c=d.split(/[?#]/),f=/[?]/.test(d)?"?"+c[1]:"";return A(c[0],f,/[#]/.test(d)?"#"+(f?c[2]:c[1]):"",a)}
+function A(a,b,d,c){function f(e,h){e!=null&&(Array.isArray(e)?e.forEach(l=>f(l,h)):(b+=g+encodeURIComponent(h)+"="+encodeURIComponent(e),g="&"))}var g=b.length?"&":"?";c.constructor===Object&&(c=Object.entries(c));Array.isArray(c)?c.forEach(e=>f(e[1],e[0])):c.forEach(f);return w(a+b+d)};const B=/Chrome\/(\d+)/;var D=function(a){var b=a.origin;if(b){var d=a.u?"sw.js":"sw_uncompiled.js",c=a.h?y`/static/service_worker/${a.h}/${d}?origin=${b}`:y`/gtm/static/${d}?origin=${b}`,f=new Map([["origin",b]]);a.path&&f.set("path",a.path);var g=a.l?z(f):c,e=()=>{var k=B.exec(a.window.navigator.userAgent);return k&&Number(k[1])<119},h=a.window.document.location.href;a.h&&(a.l?h=`${a.path}/_/service_worker`:e()||(h="/static/service_worker"));var l={scope:h};a.h&&(l.updateViaCache="all");a.window.navigator.serviceWorker.register(x(g),
+l).then(()=>{a.window.navigator.serviceWorker.ready.then(k=>{a.i=k.active;C(a)})},k=>{a.j=q(k==null?void 0:k.toString(),a.window);C(a)});a.window.navigator.serviceWorker.addEventListener("message",k=>{a.window.parent.postMessage(k.data,a.origin)})}},C=function(a){var b=a.m.slice();a.m=[];for(let d of b)a.handleEvent(d)};
+(new class{constructor(a,b=!0){this.window=a;this.u=b;this.origin="";this.l=!1;this.path="";this.j=this.i=null;this.m=[];this.h=""}init(){if((f=>{try{return f!==f.top}catch(g){return!0}})(this.window)){var a=new URL(this.window.document.location.href),b=a.searchParams.get("origin");if(b){this.origin=b;this.l=!!a.searchParams.get("1p");this.path=a.searchParams.get("path")||"";var d=a.pathname.match(RegExp(".*/service_worker/(\\w+)/"));d&&d.length&&(this.h=d[1]);var c=this.window.document.location.ancestorOrigins;
+c&&c[0]!==this.origin||(D(this),this.window.addEventListener("message",f=>{this.handleEvent(f)}))}}}handleEvent(a){a.origin===this.origin&&(this.i?this.i.postMessage(a.data):this.j?this.j.o(a.data,b=>{this.window.parent.postMessage(b,this.origin)}):this.m.push(a))}}(window)).init();
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+IKEA 채팅IKEA는 유용한 정보를 제공하기 위해 AI 기술을 사용합니다. 이 채팅은 지원 경험을 개선하기 위해 IKEA 팀과 AI 기술이 검토할 수 있습니다. 요청에 필요한 세부 정보만 제공해 주세요. 자세한 내용은 개인정보보호고지를 참조하세요.
+채팅 서비스를 개선할 수 있도록 채팅 경험 후 피드백을 공유해 주세요.채팅 시작
+
+품질은 그대로, 가격은 아래로. 더 낮은 새로운 가격의 제품을 만나보세요.
+
+1 / 101 / 101 / 10전반적인 쇼핑 경험은 만족스러우셨나요?이케아는 여러분의 이야기에 귀 기울이고 있습니다. 좋았던 점은 물론, 아쉬웠던 점까지 편안하게 이야기해 주세요.이전다음제출하기
