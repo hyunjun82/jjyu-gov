@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'cuchen', role: 'eligibility', title: '쿠첸 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'dyson-kr', role: 'eligibility', title: '다이슨 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'samsung-svc', role: 'eligibility', title: '삼성전자서비스 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'wells', role: 'eligibility', title: '교원 웰스 고객센터 전화번호 및 AS 접수·출장비 안내' },

@@ -1973,6 +1973,7 @@ import { greencarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { oliveyoungCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/oliveyoung';
 import { cgvCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cgv';
 import { skRentacarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sk-rentacar';
+import { cuchenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/cuchen';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2021,6 +2022,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'cuchen': cuchenCallCenterSpokeContent,
     'dyson-kr': dysonKrCallCenterSpokeContent,
     'samsung-svc': samsungSvcCallCenterSpokeContent,
     'wells': wellsCallCenterSpokeContent,

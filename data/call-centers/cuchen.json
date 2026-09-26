@@ -1,0 +1,22 @@
+{
+  "slug": "cuchen",
+  "name": "쿠첸",
+  "aliases": ["CUCHEN", "쿠첸몰", "쿠첸 AS", "쿠첸 밥솥 AS"],
+  "industry": "appliance",
+  "brandColor": "#ED6C00",
+  "official": "https://www.cuchenmall.co.kr",
+  "sourceUrl": "https://www.cuchenmall.co.kr/board/?db=basic_2",
+  "sourceName": "쿠첸몰 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)쿠첸",
+  "hq": "서울 강남구 삼성로 530(부방빌딩) 별관",
+  "main": { "label": "고객센터", "tel": "1577-2797" },
+  "hours": { "weekday": "평일 09:00~18:00", "saturday": "토요일 09:00~13:00", "holiday": "일요일/공휴일 휴무" },
+  "hoursNote": "[2026-09-26] 쿠첸몰 고객센터: 1577-2797 (통화료 발신자 부담), 평일 09:00~18:00 | 토요일 09:00~13:00, 일요일/공휴일 휴무. cuchen.com 의 '고객센터' 메뉴가 cuchenmall.co.kr 로 연결된다. cuchen.com 푸터: (주)쿠첸 서울 강남구 삼성로 530(부방빌딩) 별관, 고객지원 : 1577- 2797. 로고색은 캡처 헤더 최빈색(주황).",
+  "callFee": "통화료는 발신자 부담입니다.",
+  "heroSalt": "e",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1577-2797", "note": "평일 09:00~18:00, 토요일 09:00~13:00" }
+  ]
+}
