@@ -2051,6 +2051,8 @@ import { yeogiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { hanatourCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanatour';
 import { incruitCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/incruit';
 import { dasan120CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dasan120';
+import { seoulCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-citygas';
+import { cncityEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/cncity-energy';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2145,6 +2147,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'cncity-energy': cncityEnergyCallCenterSpokeContent,
+    'seoul-citygas': seoulCitygasCallCenterSpokeContent,
     'dasan120': dasan120CallCenterSpokeContent,
     'miraen-seohae': miraenSeohaeCallCenterSpokeContent,
     'jeonbuk-energy': jeonbukEnergyCallCenterSpokeContent,
