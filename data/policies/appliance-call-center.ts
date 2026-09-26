@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'winix', role: 'eligibility', title: '위닉스 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'shinil', role: 'eligibility', title: '신일전자 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'ceragem', role: 'eligibility', title: '세라젬 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'cuchen', role: 'eligibility', title: '쿠첸 고객센터 전화번호 및 AS 접수·출장비 안내' },

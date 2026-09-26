@@ -1992,6 +1992,7 @@ import { shinilCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { kyoboBookCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kyobo-book';
 import { shinsegaeDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/shinsegae-dept';
 import { everlandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/everland';
+import { winixCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/winix';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2040,6 +2041,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'winix': winixCallCenterSpokeContent,
     'shinil': shinilCallCenterSpokeContent,
     'ceragem': ceragemCallCenterSpokeContent,
     'cuchen': cuchenCallCenterSpokeContent,
