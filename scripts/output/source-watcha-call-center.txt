@@ -1,0 +1,91 @@
+SLUG: watcha-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/watcha-call-center-*.png)
+
+===== [1] https://watcha.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/watcha-call-center-1.png
+CHARS: 426
+
+전체
+영화
+시리즈
+개별 구매
+웹툰
+왓챠파티
+로그인
+왓챠피디아 서비스 이용 약관개인정보 처리 방침왓챠 서비스 이용 약관청소년 보호정책채용정보
+고객센터
+FAQcs@watcha.com02-515-9985 (유료)
+광고 문의
+ad_sales@watcha.com광고 문의
+제휴 및 대외 협력
+https://watcha.team/contact
+B2B 구독권 구매 문의
+b2b-sales@watcha.com
+주식회사 왓챠대표 박태훈서울특별시 서초구 강남대로 343 신덕빌딩 3층
+사업자등록번호 211-88-66013통신판매업 신고번호 제 2019-서울서초-0965호
+호스팅 서비스 제공자 아마존웹서비시즈코리아 유한회사
+Copyright © 2026 by Watcha, Inc. All rights reserved.
+X
+instagram
+facebook
+youtube
+blog
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: watcha-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/watcha-call-center-*.png)
+
+===== [1] https://help.watcha.com/hc/ko =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/watcha-call-center-1.png
+CHARS: 263
+
+help.watcha.com
+Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+Ray ID: a411346dbc3574fd
+Performance and Security by Cloudflare
+Privacy
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+Verification successful. Waiting for help.watcha.com to respond
+
+
+===== [2] https://watcha.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/watcha-call-center-2.png
+CHARS: 426
+
+전체
+영화
+시리즈
+개별 구매
+웹툰
+왓챠파티
+로그인
+왓챠피디아 서비스 이용 약관개인정보 처리 방침왓챠 서비스 이용 약관청소년 보호정책채용정보
+고객센터
+FAQcs@watcha.com02-515-9985 (유료)
+광고 문의
+ad_sales@watcha.com광고 문의
+제휴 및 대외 협력
+https://watcha.team/contact
+B2B 구독권 구매 문의
+b2b-sales@watcha.com
+주식회사 왓챠대표 박태훈서울특별시 서초구 강남대로 343 신덕빌딩 3층
+사업자등록번호 211-88-66013통신판매업 신고번호 제 2019-서울서초-0965호
+호스팅 서비스 제공자 아마존웹서비시즈코리아 유한회사
+Copyright © 2026 by Watcha, Inc. All rights reserved.
+X
+instagram
+facebook
+youtube
+blog

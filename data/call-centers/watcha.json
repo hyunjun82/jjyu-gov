@@ -1,0 +1,23 @@
+{
+  "slug": "watcha",
+  "name": "왓챠",
+  "aliases": ["WATCHA", "왓챠 고객센터", "왓챠 전화번호"],
+  "industry": "online",
+  "brandColor": "#FF0558",
+  "official": "https://watcha.com",
+  "sourceUrl": "https://watcha.com/",
+  "sourceName": "왓챠 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "주식회사 왓챠",
+  "hq": "서울특별시 서초구 강남대로 343 신덕빌딩 3층",
+  "main": { "label": "고객센터", "tel": "02-515-9985" },
+  "hours": { "weekday": "" },
+  "callFee": "유료",
+  "hoursNote": "[2026-09-26] 왓챠 홈 푸터: 고객센터 FAQ cs@watcha.com 02-515-9985 (유료), 주식회사 왓챠 대표 박태훈 서울특별시 서초구 강남대로 343 신덕빌딩 3층. 상담시간은 홈 어디에도 없어 비워 둔다(블로그의 10~18시는 원문 없음, 추정 금지). help.watcha.com 은 Cloudflare 봇 확인에 막힌다. OTT 틀이 없어 온라인 틀(사장님 '검색량 순서 그대로'). 로고색은 캡처 헤더 최빈색.",
+  "idStep": "가입한 이메일 주소",
+  "heroSalt": "d",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "02-515-9985", "note": "유료, 이메일 cs@watcha.com" }
+  ]
+}

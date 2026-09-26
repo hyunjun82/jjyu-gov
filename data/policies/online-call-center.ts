@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'watcha', role: 'eligibility', title: '왓챠 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'costco', role: 'eligibility', title: '코스트코 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'boram-sangjo', role: 'eligibility', title: '보람상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'sono-imready', role: 'eligibility', title: '소노아임레디 고객센터 전화번호 및 상담원 연결·문의 안내' },
