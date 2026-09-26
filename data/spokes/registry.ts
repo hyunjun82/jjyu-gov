@@ -1993,6 +1993,7 @@ import { kyoboBookCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { shinsegaeDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/shinsegae-dept';
 import { everlandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/everland';
 import { winixCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/winix';
+import { uniqloCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/uniqlo';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2251,6 +2252,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'uniqlo': uniqloCallCenterSpokeContent,
     'everland': everlandCallCenterSpokeContent,
     'shinsegae-dept': shinsegaeDeptCallCenterSpokeContent,
     'kyobo-book': kyoboBookCallCenterSpokeContent,

@@ -1,0 +1,22 @@
+{
+  "slug": "uniqlo",
+  "name": "유니클로",
+  "aliases": ["UNIQLO", "유니클로 고객만족센터", "에프알엘코리아"],
+  "industry": "online",
+  "brandColor": "#FF0000",
+  "official": "https://www.uniqlo.com",
+  "sourceUrl": "https://www.uniqlo.com/kr/ko/",
+  "sourceName": "유니클로 온라인스토어",
+  "verifiedAt": "2026-09-26",
+  "corp": "에프알엘코리아(주)",
+  "hq": "서울시 송파구 올림픽로 300(롯데월드타워 24층)",
+  "main": { "label": "고객만족센터", "tel": "1544-3178" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 유니클로 온라인스토어 푸터: 에프알엘코리아(주) 주소 : 서울시 송파구 올림픽로 300(롯데월드타워 24층), 고객만족센터 TEL: 1544-3178 FAX: 02-3213-7960, 1:1 문의. 전화 상담시간 표기는 없다 — 비운다. 헤드리스 차단(Akamai)이라 --headed. 로고색은 캡처 헤더 최빈색.",
+  "idStep": "주문번호",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객만족센터", "tel": "1544-3178" }
+  ]
+}

@@ -49,7 +49,10 @@ fs.mkdirSync(SHOTS, { recursive: true });
   const browser = headed
     ? await chromium.launch({ channel: 'chrome', headless: false, args: ['--disable-blink-features=AutomationControlled'] })
     : await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1400, height: 1000 } });
+  /* 창 모드는 한국어 설정까지 맞춰야 열리는 곳이 있다 (2026-09-26 유니클로 — 설정이 없으면 Access Denied) */
+  const page = headed
+    ? await (await browser.newContext({ viewport: { width: 1400, height: 1000 }, locale: 'ko-KR' })).newPage()
+    : await browser.newPage({ viewport: { width: 1400, height: 1000 } });
   const parts: string[] = [];
   let ok = 0;
 
@@ -69,7 +72,10 @@ fs.mkdirSync(SHOTS, { recursive: true });
       const ctype = String(res?.headers()['content-type'] ?? '');
       if (!/charset/i.test(ctype)) {
         const body = await page.content();
-        if (!/<meta[^>]+charset/i.test(body)) {
+        /* 글자가 실제로 깨졌을 때만 다시 받는다 (2026-09-26 유니클로 — 브라우저 밖 요청은 봇 차단 화면이 와서
+           멀쩡히 열린 페이지를 차단 문구로 덮어썼다). 깨짐 신호: windows-1252 로 읽힌 한글(ì·ë·ê·í + 연속 바이트) */
+        const garbled = ((await page.evaluate(() => document.body?.innerText.slice(0, 3000) ?? '')).match(/[À-ÿ]/g) ?? []).length > 20;
+        if (!/<meta[^>]+charset/i.test(body) && garbled) {
           const raw = await (await page.context().request.get(u)).body();
           await page.setContent(
             `<meta charset="utf-8">` + raw.toString('utf8').replace(/<meta[^>]*>/i, ''),
