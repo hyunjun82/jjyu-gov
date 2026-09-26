@@ -2011,6 +2011,7 @@ import { pasecoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { gangwonCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangwon-citygas';
 import { lotteworldCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotteworld';
 import { gunsanCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gunsan-citygas';
+import { aladinCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/aladin';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2279,6 +2280,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'aladin': aladinCallCenterSpokeContent,
     'lotteworld': lotteworldCallCenterSpokeContent,
     'netmarble': netmarbleCallCenterSpokeContent,
     'yes24': yes24CallCenterSpokeContent,

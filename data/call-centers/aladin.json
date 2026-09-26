@@ -1,0 +1,23 @@
+{
+  "slug": "aladin",
+  "name": "알라딘",
+  "aliases": ["알라딘 서점", "알라딘 고객센터", "알라딘커뮤니케이션", "알라딘 중고서점"],
+  "industry": "online",
+  "brandColor": "#F21C8C",
+  "official": "https://www.aladin.co.kr",
+  "sourceUrl": "https://www.aladin.co.kr/cs_center/wcs_main.aspx?start=we",
+  "sourceName": "알라딘 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "알라딘커뮤니케이션",
+  "hq": "서울시 중구 서소문로 89-31",
+  "main": { "label": "일반문의 (발신자 부담)", "tel": "1544-2514" },
+  "hours": { "weekday": "평일 09:00 ~ 18:00", "holiday": "토,공휴일 휴무", "lunch": "점심시간 12:00 ~ 13:00" },
+  "hoursNote": "[2026-09-26] 알라딘 고객센터: ARS 전화 상담 일반문의 (발신자 부담) 1544-2514, 고객센터 운영시간 평일 09:00 ~ 18:00, 점심시간 12:00 ~ 13:00, 토,공휴일 휴무. 푸터: (본사) 서울시 중구 서소문로 89-31, 고객센터 1544-2514 (발신자 부담), 서울시 마포구 백범로 71 숨도빌딩 7층. 일요일 표기는 없다. 서점 틀이 없어 온라인 틀. 로고색은 aladin_logo.jpg 최빈색.",
+  "callFee": "일반문의 1544-2514는 발신자 부담 전화입니다.",
+  "idStep": "주문번호와 가입 아이디",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "일반문의", "tel": "1544-2514", "note": "발신자 부담, 평일 09:00~18:00" }
+  ]
+}
