@@ -1,0 +1,24 @@
+{
+  "slug": "kepco123",
+  "name": "한국전력공사",
+  "aliases": ["한전", "한전 고객센터", "한국전력 123", "한전 123", "KEPCO", "전기 고장 신고"],
+  "industry": "public",
+  "brandColor": "#0045C9",
+  "official": "https://www.kepco.co.kr",
+  "sourceUrl": "https://www.kepco.co.kr/online/consultation/guide",
+  "sourceName": "한국전력공사 고객상담 안내",
+  "verifiedAt": "2026-09-26",
+  "corp": "한국전력공사",
+  "hq": "전남광주통합특별시 나주시 전력로 55 (빛가람동 120)",
+  "hqZip": "58322",
+  "main": { "label": "24시간 전기상담고객센터 · 국번 없이", "tel": "123" },
+  "hours": { "weekday": "24시간" },
+  "callFee": "유료",
+  "hoursNote": "[2026-09-26] 한국전력공사 고객상담(kepco.co.kr/online/consultation/guide) 푸터: 한국전력공사 (우) 58322 전남광주통합특별시 나주시 전력로 55 (빛가람동 120) 24시간 전기상담고객센터(전기상담/고장 신고) : 국번 없이 123(유료). 본문: '전기사용 관련 고객서비스는 한전ON으로 이동해주세요 (☏123)'. 요일 구분이 없는 24시간 안내라 평일·주말을 가르지 않는다. 로고색은 헤더 로고 요소 최빈 유색(파랑).",
+  "heroSalt": "ai",
+  "notice": "전기상담과 고장 신고를 모두 이 번호에서 받습니다.",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "24시간 전기상담고객센터", "tel": "123", "note": "국번 없이, 전기상담/고장 신고, 유료" }
+  ]
+}

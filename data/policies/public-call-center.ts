@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'kepco123', role: 'eligibility', title: '한국전력공사 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'g2b', role: 'eligibility', title: '조달청 나라장터 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'youngnam-energy-pohang', role: 'eligibility', title: '영남에너지서비스(포항) 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'youngnam-energy-gumi', role: 'eligibility', title: '영남에너지서비스(구미) 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
