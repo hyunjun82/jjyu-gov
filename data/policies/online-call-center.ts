@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'renault-korea', role: 'eligibility', title: '르노코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'saramin', role: 'eligibility', title: '사람인 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'modernhouse', role: 'eligibility', title: '모던하우스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ncsoft', role: 'eligibility', title: '엔씨소프트 고객센터 전화번호 및 상담원 연결·문의 안내' },

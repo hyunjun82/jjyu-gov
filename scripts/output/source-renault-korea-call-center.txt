@@ -1,0 +1,106 @@
+SLUG: renault-korea-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/renault-korea-call-center-*.png)
+
+===== [1] https://www.renault.co.kr/ko/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/renault-korea-call-center-1.png
+CHARS: 865
+
+르노코리아
+메뉴 열기
+메뉴 닫기
+모델
+E-Tech technology
+discover Renault
+구매
+서비스
+로그인 / 회원가입
+차량 비교 하기
+The Originals Renault Store
+카카오 챗봇&상담톡
+신차판매 영업담당 지원하기
+비회원 구매내역 조회
+
+페이지 불러오기에 실패했습니다.
+
+페이지를 찾을 수 없거나 통신에 문제가 있습니다.
+잠시 후에 다시 시도해 보세요
+
+메인으로
+맨 위로 올라가기
+
+내 차 만들기
+
+시승 신청하기
+
+구매상담 신청하기
+
+카카오 상담톡
+
+전시장 찾기
+
+르노
+
+문의하기
+내 차 만들기
+카탈로그& 가격표
+나의르노
+
+르노 서비스
+
+온라인 정비 예약
+connectivity by Renault
+케어 서비스
+The Originals Renault Store
+
+르노 알아보기
+
+discover Renault
+이벤트
+채용공고
+동반성장
+신차판매 영업담당 지원하기
+
+Stay connected
+
+개인정보 보호센터 개인정보 처리방침 이용약관 신차판매 영업담당 지원하기
+회사명 : 르노코리아(주) 사업소재지 : 부산광역시 강서구 르노삼성대로61 사이트·제품·서비스 문의 : 엔젤센터 : 080-300-3000 대표이사 : PARIS NICOLAS FULBERT RENE(니콜라파리) 통신판매업 신고 : 2010-부산강서-0086
+Copyright © RENAULT KOREA. All Rights Reserved.
+
+당사 웹페이지에 포함된 일부 콘텐츠는 AI 기술을 통해 수정 또는 생성될 수 있습니다. 이러한 적용 범위는 주로 배경 요소, 일러스트레이션 및 일부 등장인물에 한정됩니다.
+그러나 당사 차량 라인업에 소개된 차량은 AI 생성물이 아니며, 실제 차량의 특성과 외관을 사실적이고 정확하게 반영하여 표현되었습니다.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+Grand Koleos
+ Filante
+ Arkana
+ function onClick_master()
+ {
+ alert( "MASTER 구매는 가까운 전시장에\n\n문의주시기 바랍니다." );
+ }
+ 시승신청
+ e-카탈로그&가격표
+
+about Renault
+ safety by Renault
+ Renault Seongsu
+ 뉴스
+ 공지사항
+ 이벤트
+
+내 차 만들기
+ 구매 혜택
+ 구매 가이드
+ 즉시 출고 차량
+ 맞춤형 금융계산기
+ 판매 네트워크
+ 구매 상담
+
+멤버십 서비스
+ Renault care service
+ connectivity by Renault
+ 차량관리 가이드
+ 서비스 네트워크
+ 사양 조회
