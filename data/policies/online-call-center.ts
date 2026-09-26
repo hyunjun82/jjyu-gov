@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'sjsangjo', role: 'eligibility', title: '산림조합라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'the-reborn', role: 'eligibility', title: '더리본 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'thepeoplelife', role: 'eligibility', title: '더피플라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'bumo-sarang', role: 'eligibility', title: '부모사랑 고객센터 전화번호 및 상담원 연결·문의 안내' },
