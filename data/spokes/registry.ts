@@ -1983,6 +1983,7 @@ import { ybtourCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { iloomCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/iloom';
 import { upbitCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/upbit';
 import { homeplusCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/homeplus';
+import { hyundaiDeptCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hyundai-dept';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2236,6 +2237,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'hyundai-dept': hyundaiDeptCallCenterSpokeContent,
     'homeplus': homeplusCallCenterSpokeContent,
     'upbit': upbitCallCenterSpokeContent,
     'iloom': iloomCallCenterSpokeContent,

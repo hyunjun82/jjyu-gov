@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'hyundai-dept', role: 'eligibility', title: '현대백화점 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'homeplus', role: 'eligibility', title: '홈플러스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'upbit', role: 'eligibility', title: '업비트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'iloom', role: 'eligibility', title: '일룸 고객센터 전화번호 및 상담원 연결·문의 안내' },
