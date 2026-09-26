@@ -1,0 +1,23 @@
+{
+  "slug": "everland",
+  "name": "에버랜드",
+  "aliases": ["EVERLAND", "에버랜드 리조트", "에버랜드 고객센터", "캐리비안베이 고객센터"],
+  "industry": "online",
+  "brandColor": "#A42FD2",
+  "official": "https://www.everland.com",
+  "sourceUrl": "https://www.everland.com/everland/home/main",
+  "sourceName": "에버랜드 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "삼성물산㈜",
+  "hq": "경기도 용인시 처인구 포곡읍 에버랜드로 199",
+  "main": { "label": "고객센터", "tel": "031-320-5000" },
+  "hours": { "weekday": "09:00~18:00" },
+  "hoursNote": "[2026-09-26] 에버랜드 홈 푸터: 고객센터 : 031-320-5000 (유료, 09:00~18:00), 경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산㈜. 요일 표기 없음. API 메시지 안의 1644-1333·1533-1245·1644-5773 은 화면 문맥이 없어 쓰지 않는다. 테마파크 틀이 없어 온라인 틀. 브랜드색은 캡처 헤더 최빈색.",
+  "callFee": "고객센터 031-320-5000은 유료 전화입니다.",
+  "idStep": "예약번호와 예약자 휴대폰 번호",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "031-320-5000", "note": "유료, 09:00~18:00" }
+  ]
+}

@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'everland', role: 'eligibility', title: '에버랜드 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'shinsegae-dept', role: 'eligibility', title: '신세계백화점 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kyobo-book', role: 'eligibility', title: '교보문고 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'lotte-dept', role: 'eligibility', title: '롯데백화점 고객센터 전화번호 및 상담원 연결·문의 안내' },
