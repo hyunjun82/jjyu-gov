@@ -1,0 +1,457 @@
+SLUG: loccitane-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/loccitane-kr-call-center-*.png)
+
+===== [1] https://kr.loccitane.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/loccitane-kr-call-center-1.png
+CHARS: 6983
+
+주요 콘텐츠로 바로가기 주요 탐색 메뉴로 바로가기
+오직 공식몰에서만 드리는 단독 혜택을 만나보세요
+Close the information banner
+Menu
+닫기
+무엇을 찾고 계신가요?
+검색
+L'Occitane en Provence
+ 
+ 
+ 
+ 
+자세히 보기 
+추석 연휴 배송공지
+
+9월 20일 (일) 주문 건까지는 정상 출고,
+이후 주문 시 9월 28일 (월) 부터 순차 배송
+
+*단 제주도 및 도서산간 지역은 다를 수 있으며,
+연휴 물량 급증으로 배송이 다소 지연될 수 있는 점 양해 바랍니다. 
+ 
+
+공식몰 단독 세트
+[기프트] 아몬드 소프트닝 샤워 오일 500ml 세트(아망드 쉬블리므)(+아몬드 괄사+트래블 파우치)
+
+₩66,000
+
+공식몰 단독
+[기프트][단독] 아몬드 바디 케어 듀오 세트 (아망드 쉬블리므)(+아몬드 괄사)
+
+₩54,000
+
+공식몰 단독
+[기프트] 아몬드 수딩 밀크 컨센트레이트 200ml 세트(아망드 쉬블리므)(+샤워오일 70ml+아몬드 괄사)
+
+₩82,000
+
+공식몰 단독
+트래블 & 미니
+아몬드 수딩 밀크 컨센트레이트 75ml (아망드 쉬블리므)
+
+75 ml
+
+₩34,000
+
+공식몰 단독
+아몬드 서플 스킨 오일 40ml (아망드 쉬블리므)
+
+40 ml
+
+₩33,000
+
+공식몰 단독
+아몬드 소프트닝 샤워 오일 75ml (아망드 쉬블리므)
+
+75 ml
+
+₩14,000
+
+공식몰 단독
+플뢰르 드 세리지에 퍼퓸드 바디 로션 75ml
+
+75 ml
+
+₩17,000
+
+공식몰 단독
+쎄드라 진젬브르 퍼퓸드 샤워 젤 75ml
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+플뢰르 드 세리지에 퍼퓸드 샤워 젤 75ml
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+라방드 퍼퓸드 샤워 젤 75ml
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+라방드 퍼퓸드 바디 로션 75ml
+
+75 ml
+
+₩17,000
+
+공식몰 단독
+라방드 블랑쉬 퍼퓸드 샤워 젤 75ml (화이트 라벤더)
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+라방드 블랑쉬 퍼퓸드 바디 로션 75ml (화이트 라벤더)
+
+75 ml
+
+₩17,000
+
+공식몰 단독
+네롤리 오키데 퍼퓸드 샤워 젤 75ml
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+네롤리 오키데 퍼퓸드 바디 로션 75ml
+
+75 ml
+
+₩17,000
+
+공식몰 단독
+로즈 퍼퓸드 샤워 젤 75ml
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+로즈 퍼퓸드 바디 로션 75ml
+
+75 ml
+
+₩17,000
+
+공식몰 단독
+시어 버터 울트라 리치 바디 크림 75ml (카리테 콩포르)
+
+75 ml
+
+₩29,000
+
+공식몰 단독
+시어 버터 하이드레이팅 샤워 크림 75ml (카리테 콩포르)
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+시어 버터 인텐스 모이스쳐 바디 로션 (카리테 콩포르) 75ml
+
+75 ml
+
+₩18,000
+
+공식몰 단독
+버베인 퍼퓸드 샤워 젤 75ml
+
+75 ml
+
+₩13,000
+
+공식몰 단독
+버베인 퍼퓸드 바디 로션 75ml
+
+75 ml
+
+₩17,000
+
+공식몰 단독
+언제나 사랑받는 기프트
+베스트
+핸드 케어
+바디 케어
+프래그런스
+베스트
+[기프트] 시어 버터 핸드 크림 150ml (카리테 콩포르) 세트 (+ 매직키)
+
+₩42,000
+
+공식몰 단독
+
+기프트
+
+더 알아보기
+시어 버터 핸드 크림 (카리테 콩포르)
+
+75 ml
+
+₩29,000
+
+NEW
+아몬드 소프트닝 샤워 오일 (아망드 쉬블리므)
+
+500 ml
+
+₩66,000
+
+NEW
+[기프트] 시어 & 플뢰르 드 세리지에 핸드 크림 듀오
+
+₩34,000
+
+[기프트] 시어 버터 핸드 크림 듀오
+
+₩34,000
+
+[기프트] 시어 버터 핸드 크림 & 스틱 립밤 듀오 (카리테 콩포르)
+
+₩34,000
+
+[기프트] 시어 버터 핸드 크림 트리오
+
+₩51,000
+
+[기프트] 플뢰르 드 세리지에 & 로즈 핸드 크림 듀오
+
+₩34,000
+
+프래그런스 컬렉션
+[기프트] 시어 & 플로럴 핸드 크림 트리오
+
+₩51,000
+
+핸드 케어
+바디 케어
+프래그런스
+여러분을 위한 완벽한 선물을 찾아보세요.
+
+오뜨-프로방스에서 '선물'은
+
+하나의 아름다운 전통입니다.
+
+몇 가지 힌트만 들려주세요.
+
+당신과 사랑하는 이들을 위한
+
+정성 담긴 선물을 찾아드릴게요.
+
+여정 따라가기
+공식몰 혜택
+선물 추천
+핸드 케어
+바디 케어
+헤어 케어
+스킨 케어
+향수
+리필
+아몬드 홈 스파 리추얼
+아몬드 샤워 오일
+
+새로운 샤워의 시작,
+
+오일 샤워가 선사하는 홈 스파 리추얼
+
+자세히 보기
+
+아몬드 서플 스킨 오일
+
+바디 리추얼의 새로운 기준, 
+
+수분은 잠그고 탄력은 깨우다
+
+자세히 보기
+
+아몬드 수딩 밀크 컨센트레이트
+
+아몬드의 밀키한 텍스쳐로
+
+완성되는 부드럽고 탄력있는 피부
+
+자세히 보기
+
+아몬드 핸드 크림
+
+벨벳처럼 부드러운 손을 위한
+
+아몬드의 포근한 터치
+
+자세히 보기
+
+아몬드 핸드 크림
+
+1
+/
+on
+4
+
+아몬드 서플 스킨 오일
+매장 찾기
+가까운 록시땅 매장을 찾아보세요
+가까운 록시땅 매장에서 프로방스의 아름다움을 경험해보세요
+매장명을 입력하세요
+가까운 매장 찾기
+첫 구매 15% 할인
+
+가입 후 첫 구매 시 15% 할인 혜택을 드립니다. (단품 구매 시 장바구니 자동 적용)
+
+전 제품 상시 5% 할인
+
+모든 제품 구매 시 상시 5% 할인이 적용됩니다. (장바구니 자동 적용)
+
+구매 금액대별 기프트 증정
+
+8/15 만원 이상 구매 시 추가 사은품을 드립니다. (단품 구매 시 자동 적용)
+
+전 구매 무료 배송
+
+모든 구매 고객님께 무료 배송 혜택을 드립니다.
+
+생일 기프트 증정
+
+생일을 맞이하신 고객님께 생일 기프트 쿠폰을 보내 드립니다. (SMS 수신 동의 필수)
+
+공식몰 고객 문의
+
+유선 문의 : (02) 2054-0500 | 이메일 문의 : loccitance@co.kr
+
+MAISON L'OCCITANE EN PROVENCE
+록시땅 소개
+록시땅 멤버십 프로그램
+록시땅의 6가지 약속
+스파 록시땅
+고객 지원
+이용약관
+개인정보처리방침
+영상정보처리기기 운영 및 관리 방침
+온라인 문의
+자주하는 질문
+결제 안내
+교환 & 반품 안내
+기업 구매 문의
+기업 선물 문의
+호텔 어메니티 문의
+보안 정책
+소셜 미디어
+Instagram
+Kakaotalk
+Youtube
+이용약관
+개인정보처리방침
+
+L'OCCITANE EN PROVENCE
+
+매장 찾기
+록시땅 프로방스 국가/도시 변경
+
+상호: 록시땅코리아 유한책임회사 | 사업자 등록 번호 : 211-87-74234(사업자 정보 확인) | 대표자 : 안드레조셉호프만 | 주소 : 서울특별시 강남구 테헤란로 87길 36(삼성동) 도심공항타워 21층(06164)
+| 대표전화 : (02)2054-0500 | 대표메일 : LOCCITANE@LOCCITANE.CO.KR | 결제관련문의 : 1588-4954 | 주문관련문의 : (02)2054-0500 | 통신판매번호 : 2008-서울강남-0844 | 호스팅 서비스 제공 : AWS
+ 
+
+ 
+
+L’OCCITANE EN PROVENCE © COPYRIGHT 2025
+
+회사는 이용자의 정보를 저장하고 찾아내는 쿠키를 사용합니다. 사용자가 이 사이트에 방문하면 당사가 사용자 장치에 쿠키를 설정하는 것에 자동으로 동의하게 됩니다.쿠키 관련 정보 더 보기
+
+모든 쿠키 허용
+
+----- 프레임 (https://sst.loccitane.com/_/service_worker/69f0/sw_iframe.html?origin=https%3A%2F%2Fkr.loccitane.com&1p=1) -----
+'use strict';var m={};class n{constructor(a){this.l=a;this.h={};this.i={};this.j=0;this.id=String(Math.floor(Number.MAX_SAFE_INTEGER*Math.random()))}}function p(a){return a.performance&&a.performance.now()||Date.now()}
+var q=function(a,b){class d{constructor(c,f,g){this.failureType=c;this.data=f;this.h=g;this.i=new n(p(g))}o(c,f){var g=c.clientId;if(c.type===0){c.isDead=!0;var e=this.i,h=p(this.h);e.h[g]==null&&(e.h[g]=0,e.i[g]=h,e.j++);e.h[g]++;c.stats={targetId:e.id,clientCount:e.j,totalLifeMs:Math.round(h-e.l),heartbeatCount:e.h[g],clientLifeMs:Math.round(h-e.i[g])}}c.failure={failureType:this.failureType,data:this.data};f(c)}}return new d(5,a,b)};/*
+
+ Copyright Google LLC
+ SPDX-License-Identifier: Apache-2.0
+*/
+let r=globalThis.trustedTypes,t;function u(){var a=null;if(!r)return a;try{let b=d=>d;a=r.createPolicy("goog#html",{createHTML:b,createScript:b,createScriptURL:b})}catch(b){}return a};var v=class{constructor(a){this.h=a}toString(){return this.h+""}};function w(a){var b=a,d;t===void 0&&(t=u());var c=(d=t)?d.createScriptURL(b):b;return new v(c)}function x(a){if(a instanceof v)return a.h;throw Error("");};function y(a,...b){if(b.length===0)return w(a[0]);var d=a[0];for(let c=0;c<b.length;c++)d+=encodeURIComponent(b[c])+a[c+1];return w(d)}function z(a){var b=y`sw.js`,d=x(b).toString(),c=d.split(/[?#]/),f=/[?]/.test(d)?"?"+c[1]:"";return A(c[0],f,/[#]/.test(d)?"#"+(f?c[2]:c[1]):"",a)}
+function A(a,b,d,c){function f(e,h){e!=null&&(Array.isArray(e)?e.forEach(l=>f(l,h)):(b+=g+encodeURIComponent(h)+"="+encodeURIComponent(e),g="&"))}var g=b.length?"&":"?";c.constructor===Object&&(c=Object.entries(c));Array.isArray(c)?c.forEach(e=>f(e[1],e[0])):c.forEach(f);return w(a+b+d)};const B=/Chrome\/(\d+)/;var D=function(a){var b=a.origin;if(b){var d=a.u?"sw.js":"sw_uncompiled.js",c=a.h?y`/static/service_worker/${a.h}/${d}?origin=${b}`:y`/gtm/static/${d}?origin=${b}`,f=new Map([["origin",b]]);a.path&&f.set("path",a.path);var g=a.l?z(f):c,e=()=>{var k=B.exec(a.window.navigator.userAgent);return k&&Number(k[1])<119},h=a.window.document.location.href;a.h&&(a.l?h=`${a.path}/_/service_worker`:e()||(h="/static/service_worker"));var l={scope:h};a.h&&(l.updateViaCache="all");a.window.navigator.serviceWorker.register(x(g),
+l).then(()=>{a.window.navigator.serviceWorker.ready.then(k=>{a.i=k.active;C(a)})},k=>{a.j=q(k==null?void 0:k.toString(),a.window);C(a)});a.window.navigator.serviceWorker.addEventListener("message",k=>{a.window.parent.postMessage(k.data,a.origin)})}},C=function(a){var b=a.m.slice();a.m=[];for(let d of b)a.handleEvent(d)};
+(new class{constructor(a,b=!0){this.window=a;this.u=b;this.origin="";this.l=!1;this.path="";this.j=this.i=null;this.m=[];this.h=""}init(){if((f=>{try{return f!==f.top}catch(g){return!0}})(this.window)){var a=new URL(this.window.document.location.href),b=a.searchParams.get("origin");if(b){this.origin=b;this.l=!!a.searchParams.get("1p");this.path=a.searchParams.get("path")||"";var d=a.pathname.match(RegExp(".*/service_worker/(\\w+)/"));d&&d.length&&(this.h=d[1]);var c=this.window.document.location.ancestorOrigins;
+c&&c[0]!==this.origin||(D(this),this.window.addEventListener("message",f=>{this.handleEvent(f)}))}}}handleEvent(a){a.origin===this.origin&&(this.i?this.i.postMessage(a.data):this.j?this.j.o(a.data,b=>{this.window.parent.postMessage(b,this.origin)}):this.m.push(a))}}(window)).init();
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+시어 버터 핸드 크림 (카리테 콩포르)
+150 ml
+₩42,000
+NEW
+시어 버베나 리퀴드 핸드 솝 (카리테 콩포르)
+500 ml
+₩49,000
+NEW
+아몬드 소프트닝 샤워 오일 (아망드 쉬블리므)
+500 ml
+₩66,000
+NEW
+리바이탈라이징 포티파잉 스칼프 세럼
+50 ml
+₩58,000
+탄탄 뿌리 세럼
+인텐시브 리페어 샴푸
+500 ml
+₩55,000
+손상모 리페어 케어
+이모르뗄 오버나이트 리셋 오일 인 세럼
+50 ml
+₩145,000
+Most Loved
+이모르뗄 리셋 트리페이스 에센스
+150 ml
+₩105,000
+
+닫기검색선물 추천선물 추천 Menu공식몰 혜택베스트셀러핸드 케어핸드 케어 Menu바디 케어바디 케어 Menu헤어 케어헤어 케어 Menu스킨 케어스킨 케어 Menu프래그런스프래그런스 Menu홈홈 Menu리필리필 Menu컬렉션컬렉션 Menu트래블 & 미니트래블 & 미니 Menu메종 록시땅메종 록시땅 Menu50년의 헤리티지기업 선물 추천 제품가입/정보 수정위시리스트도움말 & 고객센터매장Back to main menu선물 추천선물 추천 보기기프트 세트 전체 보기기프트 세트 전체 보기기프트 세트핸드 케어 기프트바디 케어 기프트헤어 케어 기프트홈 기프트프래그런스 기프트트래블 & 미니 기프트기프트 아이디어3만원대 기프트5만원대 기프트10만원대 기프트Back to main menu공식몰 혜택공식몰 혜택 보기Back to main menu베스트셀러베스트셀러 보기Back to main menu핸드 케어핸드 케어 보기핸드 케어 전체 보기핸드 케어 전체 보기제품 타입핸드 크림핸드 워시 & 솝퍼퓸드 핸드 크림핸드 & 네일 케어핸드 케어 리필핸드 케어 기프트 세트트래블 & 미니Back to main menu바디 케어바디 케어 보기바디 케어 전체 보기바디 케어 전체 보기제품 타입바디 크림 & 로션바디 오일 & 세럼바디 워시 & 스크럽헤어 & 바디 미스트고체 솝기프트 세트리필트래블 & 미니Back to main menu헤어 케어헤어 케어 보기헤어 케어 전체 보기헤어 케어 전체 보기제품 타입샴푸컨디셔너헤어 오일 & 에센스헤어 마스크 / 트리트먼트헤어 케어 리필헤어 케어 기프트 세트헤어 고민손상모 리페어 케어모발 볼륨감 & 탄력 케어두피 딥 클렌징 & 쿨링감 케어두피 진정 & 밸런스 케어Back to main menu스킨 케어스킨 케어 보기스킨 케어 전체 보기스킨 케어 전체 보기제품 타입수분 & 영양 크림세럼 & 오일클렌져토너 / 에센스립 케어트래블 & 미니피부 고민수분 보충 & 보습탄력 / 광채안티에이징피부 진정지성 피부립 / 아이 스페셜 케어라인별 스킨 케어시어 버터이모르뗄Back to main menu프래그런스프래그런스 보기프래그런스 컬렉션 전체보기프래그런스 컬렉션 전체보기향플로럴프루티프레시우디제품 타입오 드 뚜왈렛퍼퓸드 바디 케어모든 향수 제품홈트래블 & 미니컬렉션플뢰르 드 세리지에로즈오르티 블랑쉬쎄드라쎄드라 진젬브르네롤리 오키데라방드 블랑쉬오스만투스 아브리코Back to main menu홈홈 보기홈 컬렉션 전체보기홈 컬렉션 전체보기Back to main menu리필리필 보기리필 전체 보기리필 전체 보기제품 타입바디 케어 리필헤어 케어 리필핸드 케어 리필스킨 케어 리필Back to main menu컬렉션컬렉션 보기라인별 컬렉션네롤리 오키데라방드 블랑쉬로즈시어 버터쎄드라쎄드라 진젬브르아몬드오르티 블랑쉬오스만투스 아브리코이모르뗄 디바인이모르뗄 리셋이모르뗄 프레셔스플뢰르 드 세리지에버베인버베인 아그륌Back to main menu트래블 & 미니트래블 & 미니 보기트래블 & 미니 전체 보기트래블 & 미니 전체보기제품 타입바디 케어프래그런스핸드 케어스킨 케어Back to main menu메종 록시땅메종 록시땅 보기지속가능성 이야기All About L'Occitane록시땅의 6가지 약속B Corp 인증Reducing WasteRespecting Biodiversity록시땅코리아 이야기국내 사회 공헌 활동Back to main menu50년의 헤리티지50년의 헤리티지 보기Back to main menu기업 선물 추천 제품기업 선물 추천 제품 보기
+
+로그인
+계정 생성
+배송 조회
+ SNS 계정으로 로그인
+ KakaoTalkNaverFacebook
+
+닫기
+무엇을 찾고 계신가요?
+검색
+Delete search
+
+개인정보 선호 센터방문하는 모든 웹사이트의 정보가 브라우저에서 쿠키 형태로 저장되거나 수집될 수 있습니다. 본 정보는 귀하와 귀하의 선호도, 기기에 대한 것이며, 귀하의 선호도에 따라 사이트가 동작하도록 하는 데 사용됩니다. 본 정보는 귀하를 직접적으로 식별하지 않으나 보다 개인화된 웹 경험을 제공하기 위해 사용됩니다. 그러나 일부 쿠키를 거부할 수 있습니다. 더 자세한 정보를 확인하고 기본 설정을 변경하려면 해당 카테고리의 제목을 클릭하세요. 그러나 일부 쿠키를 차단하면 귀하의 사이트 경험과 회사에서 제공하는 서비스에 영향을 미칠 수 있습니다.모두 허용동의 선호도 관리성능 관련 쿠키 성능 관련 쿠키 이 쿠키는 방문자 수, 데이터 트래픽 정보를 확인해 회사 사이트의 성능을 측정하고 개선할 수 있도록 합니다. 또한 가장 인기가 많거나 인기가 적은 페이지를 확인하며 방문자가 사이트를 이동하는 방법을 확인할 수 있도록 합니다. 쿠키가 수집하는 모든 정보는 누적되며 익명 처리됩니다. 쿠키를 허용하지 않으면 귀하가 회사 사이트에 방문한 시기를 알 수 없습니다.광고 쿠키 광고 쿠키 이 쿠키는 회사의 광고 협력사가 회사 사이트에 설정한 것입니다. 해당 협력사는 귀하의 관심사에 대한 프로파일을 만들고 다른 사이트에서도 관련 광고를 표시하기 위해 이 쿠키를 사용합니다. 이 쿠키는 귀하의 브라우저와 기기를 식별함으로써 동작합니다. 이 쿠키를 허용하지 않으면 다른 웹사이트에서 회사가 제공하는 맞춤형 광고를 경험할 수 없습니다.필수 쿠키항상 활성화이 쿠키는 웹사이트의 기능을 위해 필수적이며, 회사 시스템 내에서 종료할 수 없습니다. 이 쿠키는 개인정보 선호도, 로그인 또는 양식 작성과 같은 서비스 요청에 해당하는 귀하의 행위에 따라서만 주로 설정됩니다. 귀하의 브라우저에서 이 쿠키를 차단하거나 쿠키에 대해 알림 설정을 할 수 있지만, 이 경우 해당 사이트의 일부 기능이 동작하지 않을 수 있습니다.기능적 쿠키 기능적 쿠키 본 쿠키는 동영상 및 실시간 채팅과 같은 고급 기능과 개인화를 허용합니다. 쿠키는 회사 또는 회사 페이지에 추가된 제3 서비스 사업자가 설정할 수 있습니다. 쿠키를 허용하지 않으면 일부 기능이 정상 작동하지 않을 수 있습니다.Back ButtonPerformance Cookies Search IconFilter IconClear checkbox label labelApply CancelConsent Leg.Interest Switch Label label Switch Label label Switch Label label모두 거부 내 선택 확인
+
+kakaoPixel("7081710694645677853").pageView();
+
+!function(d,e,f,a,b,c){d.twq||(a=d.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],b=e.createElement(f),b.async=!0,b.src="https://static.ads-twitter.com/uwt.js",c=e.getElementsByTagName(f)[0],c.parentNode.insertBefore(b,c))}(window,document,"script");twq("config","o7g62");
+
+var TRS_AIDX=12044,TRS_PROTOCOL=document.location.protocol;document.writeln();var TRS_URL=TRS_PROTOCOL+"//"+("https:"==TRS_PROTOCOL?"analysis.adinsight.co.kr":"adlog.adinsight.co.kr")+"/emnet/trs_esc.js";document.writeln("\x3cscript language\x3d'javascript' src\x3d'"+TRS_URL+"'\x3e\x3c/script\x3e");
+
+----- 이미지 대체텍스트 (img alt) -----
+[기프트] 아몬드 소프트닝 샤워 오일 500ml 세트(아망드 쉬블리므)(+아몬드 괄사+트래블 파우치) | L’Occitane en Provence
+[기프트] 아몬드 수딩 밀크 컨센트레이트 200ml 세트(아망드 쉬블리므)(+샤워오일 70ml+아몬드 괄사) | L’Occitane en Provence
+아몬드 수딩 밀크 컨센트레이트 75ml (아망드 쉬블리므) | L’Occitane en Provence
+아몬드 서플 스킨 오일 40ml (아망드 쉬블리므) | L’Occitane en Provence
+아몬드 소프트닝 샤워 오일 75ml (아망드 쉬블리므) | L’Occitane en Provence
+플뢰르 드 세리지에 퍼퓸드 바디 로션 75ml | L’Occitane en Provence
+쎄드라 진젬브르 퍼퓸드 샤워 젤 75ml | L’Occitane en Provence
+플뢰르 드 세리지에 퍼퓸드 샤워 젤 75ml | L’Occitane en Provence
+라방드 퍼퓸드 샤워 젤 75ml | L’Occitane en Provence
+라방드 퍼퓸드 바디 로션 75ml | L’Occitane en Provence
+라방드 블랑쉬 퍼퓸드 샤워 젤 75ml (화이트 라벤더) | L’Occitane en Provence
+라방드 블랑쉬 퍼퓸드 바디 로션 75ml (화이트 라벤더) | L’Occitane en Provence
+네롤리 오키데 퍼퓸드 샤워 젤 75ml | L’Occitane en Provence
+네롤리 오키데 퍼퓸드 바디 로션 75ml | L’Occitane en Provence
+로즈 퍼퓸드 샤워 젤 75ml | L’Occitane en Provence
+로즈 퍼퓸드 바디 로션 75ml | L’Occitane en Provence
+시어 버터 울트라 리치 바디 크림 75ml (카리테 콩포르) | L’Occitane en Provence
+시어 버터 하이드레이팅 샤워 크림 75ml (카리테 콩포르) | L’Occitane en Provence
+시어 버터 인텐스 모이스쳐 바디 로션 (카리테 콩포르) 75ml | L’Occitane en Provence
+버베인 퍼퓸드 샤워 젤 75ml | L’Occitane en Provence
+버베인 퍼퓸드 바디 로션 75ml | L’Occitane en Provence
+[기프트] 시어 버터 핸드 크림 150ml (카리테 콩포르) 세트 (+ 매직키) | L’Occitane en Provence

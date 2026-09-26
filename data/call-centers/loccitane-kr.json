@@ -1,0 +1,24 @@
+{
+  "slug": "loccitane-kr",
+  "name": "록시땅 코리아",
+  "aliases": ["록시땅", "L'OCCITANE", "록시땅코리아", "록시땅 고객센터"],
+  "industry": "online",
+  "brandColor": "#FDE07B",
+  "official": "https://kr.loccitane.com",
+  "sourceUrl": "https://kr.loccitane.com/",
+  "sourceName": "록시땅 공식몰",
+  "verifiedAt": "2026-09-26",
+  "corp": "록시땅코리아 유한책임회사",
+  "hq": "서울특별시 강남구 테헤란로 87길 36(삼성동) 도심공항타워 21층",
+  "hqZip": "06164",
+  "main": { "label": "대표전화 · 주문관련문의", "tel": "02-2054-0500" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 록시땅 공식몰(헤드리스 822자라 --headed) 푸터: 상호: 록시땅코리아 유한책임회사, 주소 : 서울특별시 강남구 테헤란로 87길 36(삼성동) 도심공항타워 21층(06164), 대표전화 : (02)2054-0500, 대표메일 : LOCCITANE@LOCCITANE.CO.KR, 결제관련문의 : 1588-4954, 주문관련문의 : (02)2054-0500. 상담시간은 홈에 없어 비운다. 뷰티 틀이 없어 온라인 틀. 로고는 사진 위 흰 글자라, 캡처 전체 최빈 유색(록시땅 노랑)을 쓴다.",
+  "idStep": "주문번호",
+  "heroSalt": "ay",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화 · 주문관련문의", "tel": "02-2054-0500" },
+    { "label": "결제관련문의", "tel": "1588-4954" }
+  ]
+}
