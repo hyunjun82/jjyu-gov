@@ -1,0 +1,22 @@
+{
+  "slug": "cncity-energy",
+  "name": "씨엔씨티에너지",
+  "aliases": ["CNCITY", "CNCITY에너지", "씨엔씨티에너지 고객센터", "대전 도시가스"],
+  "industry": "public",
+  "brandColor": "#40C8F4",
+  "official": "https://www.cncityenergy.com",
+  "sourceUrl": "https://www.cncityenergy.com/",
+  "sourceName": "씨엔씨티에너지 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "씨엔씨티에너지주식회사",
+  "hq": "대전광역시 중구 유등천동로 762 (중촌동)",
+  "hqZip": "34800",
+  "main": { "label": "Call Center", "tel": "1666-0009" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 씨엔씨티에너지 홈·고객센터 메뉴 푸터: 씨엔씨티에너지주식회사 우)34800 대전광역시 중구 유등천동로 762 (중촌동), Call Center : 1666-0009. 상담시간은 홈·고객센터 메뉴 어디에도 없어 비워 둔다. 도시가스는 공공 틀. 로고색은 헤더 로고 이미지(logo2.png)의 하늘색 점 최빈색.",
+  "heroSalt": "aa",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "Call Center", "tel": "1666-0009" }
+  ]
+}
