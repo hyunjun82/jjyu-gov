@@ -1,0 +1,23 @@
+{
+  "slug": "gs-shop",
+  "name": "GS SHOP",
+  "aliases": ["GS샵", "GS홈쇼핑", "지에스샵", "GS SHOP 고객센터", "GS홈쇼핑 고객센터"],
+  "industry": "online",
+  "brandColor": "#0088FF",
+  "official": "https://www.gsshop.com",
+  "sourceUrl": "https://www.gsshop.com/",
+  "sourceName": "GS SHOP 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "(주)지에스리테일",
+  "hq": "서울특별시 강남구 논현로 508 (역삼동, GS타워)",
+  "main": { "label": "24시간 콜센터 · 무료", "tel": "080-414-4545" },
+  "hours": { "weekday": "24시간" },
+  "hoursNote": "[2026-09-26] GS SHOP 홈·고객센터(--click '고객센터'): 'GS SHOP 24시간 콜센터 080-414-4545', FAQ 답변마다 '1:1 상담 또는 GS SHOP 고객센터(080-414-4545 무료)'. 푸터: (주)지에스리테일 주소: 서울특별시 강남구 논현로 508 (역삼동, GS타워), 고객센터 : (무료)080-414-4545 / (유료)02-2007-4545 / 팩스 : 02-393-6093 / 이메일문의 : gsshop@gsretail.com. 요일 구분 없는 24시간 안내라 평일·주말을 가르지 않는다. 홈쇼핑 틀이 없어 온라인 틀. 로고색은 헤더 logo_pc.png 최빈 유색.",
+  "idStep": "주문번호",
+  "heroSalt": "aj",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터(무료)", "tel": "080-414-4545", "note": "24시간 콜센터" },
+    { "label": "고객센터(유료)", "tel": "02-2007-4545" }
+  ]
+}

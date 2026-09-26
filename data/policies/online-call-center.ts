@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'gs-shop', role: 'eligibility', title: 'GS SHOP 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ikea', role: 'eligibility', title: '이케아 코리아 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'abcmart', role: 'eligibility', title: 'ABC마트 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'incruit', role: 'eligibility', title: '인크루트 고객센터 전화번호 및 상담원 연결·문의 안내' },
