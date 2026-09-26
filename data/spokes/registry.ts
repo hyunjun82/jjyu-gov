@@ -2055,6 +2055,8 @@ import { seoulCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/co
 import { cncityEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/cncity-energy';
 import { chambitChungbukCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/chambit-chungbuk';
 import { jbCorporationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jb-corporation';
+import { youngnamEnergyGumiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/youngnam-energy-gumi';
+import { youngnamEnergyPohangCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/youngnam-energy-pohang';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2149,6 +2151,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'youngnam-energy-pohang': youngnamEnergyPohangCallCenterSpokeContent,
+    'youngnam-energy-gumi': youngnamEnergyGumiCallCenterSpokeContent,
     'jb-corporation': jbCorporationCallCenterSpokeContent,
     'chambit-chungbuk': chambitChungbukCallCenterSpokeContent,
     'cncity-energy': cncityEnergyCallCenterSpokeContent,
