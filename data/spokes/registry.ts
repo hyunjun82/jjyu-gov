@@ -2042,6 +2042,7 @@ import { daesungCelticCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { kobusCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kobus';
 import { youngpoongCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/youngpoong';
 import { ddocdocCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ddocdoc';
+import { simmonsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/simmons';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2321,6 +2322,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'simmons': simmonsCallCenterSpokeContent,
     'ddocdoc': ddocdocCallCenterSpokeContent,
     'youngpoong': youngpoongCallCenterSpokeContent,
     'kobus': kobusCallCenterSpokeContent,
