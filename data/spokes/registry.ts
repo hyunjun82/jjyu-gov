@@ -2001,6 +2001,7 @@ import { kituramiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { albamonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/albamon';
 import { megaboxCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/megabox';
 import { deskerCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/desker';
+import { yes24CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/yes24';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2262,6 +2263,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'yes24': yes24CallCenterSpokeContent,
     'desker': deskerCallCenterSpokeContent,
     'megabox': megaboxCallCenterSpokeContent,
     'albamon': albamonCallCenterSpokeContent,
