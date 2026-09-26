@@ -1,0 +1,22 @@
+{
+  "slug": "megabox",
+  "name": "메가박스",
+  "aliases": ["MEGABOX", "메가박스 고객센터", "메가박스 Dream center"],
+  "industry": "online",
+  "brandColor": "#352461",
+  "official": "https://www.megabox.co.kr",
+  "sourceUrl": "https://www.megabox.co.kr/support",
+  "sourceName": "메가박스 고객센터 홈",
+  "verifiedAt": "2026-09-26",
+  "corp": "메가박스중앙(주)",
+  "hq": "서울특별시 강남구 테헤란로 87길 22 도심공항터미널 건물 408호",
+  "main": { "label": "ARS", "tel": "1544-0070" },
+  "hours": { "weekday": "10:00~19:00" },
+  "hoursNote": "[2026-09-26] 메가박스 고객센터 홈: 메가박스 고객센터 Dream center 10:00~19:00 (캡처로 위치 확인). 푸터: 서울특별시 강남구 테헤란로 87길 22 도심공항터미널 건물 408호, ARS 1544-0070, 대표이메일 m.dreamcenter@partner.megabox.co.kr. 요일 표기 없음. 영화관 틀이 없어 온라인 틀. 브랜드색은 캡처 헤더 최빈색.",
+  "idStep": "예매번호와 가입 아이디",
+  "heroSalt": "d",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "ARS", "tel": "1544-0070", "note": "고객센터 10:00~19:00" }
+  ]
+}

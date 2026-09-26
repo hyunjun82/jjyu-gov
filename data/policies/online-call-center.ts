@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'megabox', role: 'eligibility', title: '메가박스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'albamon', role: 'eligibility', title: '알바몬 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: '29cm', role: 'eligibility', title: '29CM 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'uniqlo', role: 'eligibility', title: '유니클로 고객센터 전화번호 및 상담원 연결·문의 안내' },
