@@ -1,0 +1,20 @@
+{
+  "slug": "miele-kr",
+  "name": "밀레코리아",
+  "aliases": ["밀레", "Miele", "밀레 AS", "밀레 서비스 접수"],
+  "industry": "appliance",
+  "brandColor": "#8C0014",
+  "official": "https://www.miele.co.kr",
+  "sourceUrl": "https://www.miele.co.kr/c/support-10.htm",
+  "sourceName": "밀레 서비스 안내",
+  "verifiedAt": "2026-09-26",
+  "main": { "label": "고객센터", "tel": "1577-1597" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] 밀레 서비스 안내(miele.co.kr/c/support-10.htm): '서비스 접수는 고객센터(1577-1597) 또는 이메일을 통해 가능합니다'. 홈 배너에도 무상 점검 서비스 '1577-1597 전화 접수'. 구글 결과의 service/contact-11 은 지금 404. 전화 상담시간 표기는 없다 — 비운다. 헤드리스 차단이라 --headed. 로고색은 캡처 헤더 최빈색.",
+  "notice": "서비스 접수는 이메일로도 받습니다.",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1577-1597", "note": "서비스 접수" }
+  ]
+}
