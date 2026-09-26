@@ -1,0 +1,22 @@
+{
+  "slug": "shinil",
+  "name": "신일전자",
+  "aliases": ["신일", "SHINIL", "신일 선풍기 AS", "신일전자 서비스센터"],
+  "industry": "appliance",
+  "brandColor": "#ED1C24",
+  "official": "https://www.shinil.co.kr",
+  "sourceUrl": "https://www.shinil.co.kr/",
+  "sourceName": "신일전자 공식 홈페이지",
+  "verifiedAt": "2026-09-26",
+  "corp": "신일전자주식회사",
+  "hq": "충청남도 천안시 서북구 입장면 연곡길 308",
+  "main": { "label": "대표전화", "tel": "1577-6667" },
+  "hours": { "weekday": "평일 : 오전 09:00 ~ 오후 06:00", "holiday": "토,일요일 · 공휴일 : 휴무" },
+  "hoursNote": "[2026-09-26] 신일전자 홈 '전화번호 및 영업시간안내': Tel. 1577-6667 (통화요금:발신자부담), 평일 : 오전 09:00 ~ 오후 06:00 / 토,일요일 · 공휴일 : 휴무. 푸터: 충청남도 천안시 서북구 입장면 연곡길 308 / TEL : 1577-6667. 로고색은 logo.png 최빈색.",
+  "callFee": "통화요금은 발신자 부담입니다.",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1577-6667", "note": "평일 오전 09:00~오후 06:00" }
+  ]
+}
