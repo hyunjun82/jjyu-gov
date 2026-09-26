@@ -1,0 +1,22 @@
+{
+  "slug": "spao",
+  "name": "스파오(SPAO)",
+  "aliases": ["스파오", "SPAO", "스파오 고객센터", "이랜드몰 고객센터"],
+  "industry": "online",
+  "brandColor": "#C41E20",
+  "official": "https://spao.elandmall.co.kr",
+  "sourceUrl": "https://spao.elandmall.co.kr/",
+  "sourceName": "SPAO 공식몰(이랜드몰)",
+  "verifiedAt": "2026-09-26",
+  "corp": "㈜이랜드월드 온라인플랫폼",
+  "hq": "서울특별시 강서구 마곡동로 146(마곡동)",
+  "main": { "label": "고객센터", "tel": "1899-9500" },
+  "hours": { "weekday": "오전9시~오후5시 30분(주말, 공휴일 휴무)" },
+  "hoursNote": "[2026-09-26] SPAO 공식몰(spao.elandmall.co.kr) 푸터: ㈜이랜드월드 온라인플랫폼 서울특별시 강서구 마곡동로 146(마곡동) 이랜드몰, 고객센터 1899-9500, 상담시간 : 오전9시~오후5시 30분(주말, 공휴일 휴무). '주문 정보가 생각나지 않으시면 고객센터 (1899-9500)로 문의해 주세요.' 이 번호는 이랜드몰 공용 고객센터라 같은 번호를 쓰는 후아유(WHO.A.U, 246위)는 중복이라 따로 쓰지 않는다. 패션 틀이 없어 온라인 틀. 로고색은 헤더 SPAO 로고 요소 최빈색(빨강).",
+  "idStep": "주문번호",
+  "heroSalt": "an",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1899-9500", "note": "오전 9시~오후 5시 30분 (주말, 공휴일 휴무)" }
+  ]
+}

@@ -126,6 +126,8 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'discovery-kr', role: 'eligibility', title: '디스커버리 익스페디션 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'spao', role: 'eligibility', title: '스파오(SPAO) 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'zara-kr', role: 'eligibility', title: '자라(ZARA) 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'casamia', role: 'eligibility', title: '신세계까사(까사미아) 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'muji-kr', role: 'eligibility', title: '무인양품 고객센터 전화번호 및 상담원 연결·문의 안내' },
