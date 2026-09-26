@@ -1,0 +1,242 @@
+SLUG: netmarble-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/netmarble-call-center-*.png)
+
+===== [1] https://helpdesk.netmarble.net/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/netmarble-call-center-1.png
+CHARS: 26797
+
+Netmarble
+PC게임
+모바일게임
+캐쉬충전
+고객센터
+로그인
+
+도움이 필요하신 서비스 유형을 선택해주세요.
+
+회사소개 | 약관보기 | 개인정보처리방침 | 이용자 권익 보호정책 | 저작권정책 | 전자우편 | 사이트맵
+
+상호 : 넷마블(주) | 사업자번호 : 105-87-64746 | 통신판매업신고 : 제 2014-서울구로-1028호 | 대표이사 : 김병규 | 호스팅서비스 사업자 : 넷마블(주)
+주소 : 서울특별시 구로구 디지털로26길 38, G-Tower 넷마블
+PC고객센터:1588-5180 / 모바일고객센터:1588-3995 / 제2의나라 고객센터:1670-0359 / 블레이드&소울 레볼루션 고객센터:1670-1182 / 리니지2 레볼루션 고객센터:1670-8212 | Fax : 02-6375-1790
+
+Copyright ⓒ Netmarble Corp. All Rights Reserved.
+
+----- 프레임 (https://helppc.netmarble.net/ko/faq/main) -----
+도움말검색전체개인정보신고/이용제한결제회원제커뮤니티컨텐츠이벤트부모전용고객의견게임다이렉트|변조|방화벽|p2p|실행|해제|본인인증|스타터서비스별 도움말계정/개인정보가입/탈퇴|아이디/비밀번호|로그인|명의도용|넷마블 MOTP|회원정보|신고/이용제한이용제한|신고|결제결제내역확인|결제도용|결제환불/취소|결제/캐쉬 문의|커뮤니티내친구|쪽지|캐릭챗|컨텐츠아바타/아이템|넷마블PC방|저작권|청소년보호|이벤트이벤트 관련|부모전용만 19세 미만 청소년 가입|만 19세 미만 청소년 결제|자녀사랑 서비스|선택적 셧다운제|기타 문의제안|문의|게임별 도움말보드게임사천성|바둑|윷놀이|장기|오목|캐치마인드|리치마블|파워알까기|상하이|모두의마블|캐주얼게임틀린그림찾기|파워쿵쿵따|어썰트기어|RPG야채부락리|스포츠/FPS게임마구마구|당구/포켓볼|(self.__next_f=self.__next_f||[]).push([0])self.__next_f.push([1,"1:\"$Sreact.fragment\"\n3:I[9766,[],\"\"]\n4:I[8924,[],\"\"]\n6:I[4431,[],\"OutletBoundary\"]\n8:I[5278,[],\"AsyncMetadataOutlet\"]\na:I[4431,[],\"ViewportBoundary\"]\nc:I[4431,[],\"MetadataBoundary\"]\nd:\"$Sreact.suspense\"\nf:I[7150,[],\"\"]\n10:I[2619,[\"619\",\"static/chunks/619-9168df9c2a29b74b.js\",\"345\",\"static/chunks/app/not-found-e247007887c05ca0.js\"],\"\"]\n11:I[622,[],\"IconMark\"]\n:HC[\"/\",\"\"]\n:HL[\"/_next/static/css/981b5815161b3561.css\",\"style\",{\"nonce\":\"ODcwZjhhODgtZDcxZi00MzhiLTgwYjQtNzQ0ZTEzZWZkZmI4\"}]\n:HL[\"/_next/static/css/b9177b77cc8d776b.css\",\"style\",{\"nonce\":\"ODcwZjhhODgtZDcxZi00MzhiLTgwYjQtNzQ0ZTEzZWZkZmI4\"}]\n:HL[\"/_next/static/css/576f2f35550d266a.css\",\"style\",{\"nonce\":\"ODcwZjhhODgtZDcxZi00MzhiLTgwYjQtNzQ0ZTEzZWZkZmI4\"}]\n"])self.__next_f.push([1,"0:{\"P\":null,\"b\":\"DHNE0lfc8d0KClFkXv19v\",\"p\":\"\",\"c\":[\"\",\"ko\",\"faq\",\"main\"],\"i\":false,\"f\":[[[\"\",{\"children\":[[\"locale\",\"ko\",\"d\"],{\"children\":[\"faq\",{\"children\":[\"main\",{\"children\":[\"__PAGE__\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/981b5815161b3561.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"ODcwZjhhODgtZDcxZi00MzhiLTgwYjQtNzQ0ZTEzZWZkZmI4\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/b9177b77cc8d776b.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"ODcwZjhhODgtZDcxZi00MzhiLTgwYjQtNzQ0ZTEzZWZkZmI4\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/576f2f35550d266a.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"ODcwZjhhODgtZDcxZi00MzhiLTgwYjQtNzQ0ZTEzZWZkZmI4\"}]],\"$L2\"]}],{\"children\":[[\"locale\",\"ko\",\"d\"],[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"faq\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"main\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L5\",null,[\"$\",\"$L6\",null,{\"children\":[\"$L7\",[\"$\",\"$L8\",null,{\"promise\":\"$@9\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$La\",null,{\"children\":\"$Lb\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lc\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$d\",null,{\"fallback\":null,\"children\":\"$Le\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$f\",[]],\"s\":false,\"S\":false}\n"])self.__next_f.push([1,"2:[\"$\",\"html\",null,{\"lang\":\"ko\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"type\":\"text/css\",\"href\":\"https://c2.img.netmarble.kr/web/nmb/css/common.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"type\":\"text/css\",\"href\":\"https://c2.img.netmarble.kr/web/nmb/css/help.css\"}],[\"$\",\"link\",null,{\"rel\":\"stylesheet\",\"type\":\"text/css\",\"href\":\"https://c2.img.netmarble.kr/web/nmb/css/help_basic.css\"}]]}],[\"$\",\"body\",null,{\"className\":\"__className_935e52\",\"style\":{\"margin\":\"0px\",\"padding\":\"0px\"},\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"children\":\"Not Found\"}],[\"$\",\"p\",null,{\"children\":\"Could not find requested resource\"}],[\"$\",\"$L10\",null,{\"href\":\"/\",\"children\":\"Return Home\"}]]}],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}]\n"])self.__next_f.push([1,"b:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no\"}],[\"$\",\"meta\",\"2\",{\"name\":\"theme-color\",\"content\":\"#000000\"}]]\n7:null\n"])self.__next_f.push([1,"9:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"넷마블 - 고객센터, 빠르고 친절한 넷마블 고객센터\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"도움이 필요한 내용을 검색해보세요\"}],[\"$\",\"meta\",\"2\",{\"name\":\"naver-site-verification\",\"content\":\"d759d2698716dc5c9e304079e8041841f7624b63\"}],[\"$\",\"meta\",\"3\",{\"name\":\"format-detection\",\"content\":\"telephone=no\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"넷마블 - 고객센터, 빠르고 친절한 넷마블 고객센터\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"도움이 필요한 내용을 검색해보세요\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:url\",\"content\":\"https://helppc.netmarble.net\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:image\",\"content\":\"https://sgimage.netmarble.com/images/netmarble/COMMON/20170406/1491442128033.jpg\"}],[\"$\",\"meta\",\"8\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:title\",\"content\":\"넷마블 - 고객센터, 빠르고 친절한 넷마블 고객센터\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:description\",\"content\":\"도움이 필요한 내용을 검색해보세요\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:image\",\"content\":\"https://sgimage.netmarble.com/images/netmarble/COMMON/20170406/1491442128033.jpg\"}],[\"$\",\"link\",\"12\",{\"rel\":\"shortcut icon\",\"href\":\"https://sgimage.netmarble.com/favicon/netmarble/favicon.ico\"}],[\"$\",\"link\",\"13\",{\"rel\":\"apple-touch-icon\",\"href\":\"https://sgimage.netmarble.com/favicon/netmarble/favicon-120x120.png\"}],[\"$\",\"link\",\"14\",{\"rel\":\"apple-touch-icon\",\"href\":\"https://sgimage.netmarble.com/favicon/netmarble/favicon-180x180.png\",\"sizes\":\"180x180\"}],[\"$\",\"$L11\",\"15\",{}]],\"error\":null,\"digest\":\"$undefined\"}\n"])self.__next_f.push([1,"e:\"$9:metadata\"\n"])self.__next_f.push([1,"12:I[1356,[\"239\",\"static/chunks/239-b14a4fe25ad1a3df.js\",\"898\",\"static/chunks/app/%5Blocale%5D/faq/main/page-c8da0d88dabf733d.js\"],\"Image\"]\n13:I[9505,[\"239\",\"static/chunks/239-b14a4fe25ad1a3df.js\",\"898\",\"static/chunks/app/%5Blocale%5D/faq/main/page-c8da0d88dabf733d.js\"],\"default\"]\n"])self.__next_f.push([1,"5:[\"$\",\"div\",null,{\"className\":\"contents\",\"id\":\"divMain\",\"children\":[[\"$\",\"div\",null,{\"className\":\"main_top fix\",\"style\":{\"paddingLeft\":\"110px\",\"paddingRight\":\"100px\"},\"children\":[[\"$\",\"dl\",null,{\"className\":\"bx1\",\"children\":[[\"$\",\"dt\",null,{\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/i_vm1.gif\",\"width\":131,\"height\":128,\"alt\":\"회원정보\"}]}],[\"$\",\"dd\",null,{\"children\":[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=1\u0026catSeq_2=23\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0101.gif\",\"width\":51,\"height\":11,\"alt\":\"회원가입\"}]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=2\u0026catSeq_2=24\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0102.gif\",\"width\":76,\"height\":11,\"alt\":\"비밀번호 찾기\"}]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=6\u0026catSeq_2=27\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0103.gif\",\"width\":45,\"height\":11,\"alt\":\"내 정보\"}]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=5\u0026catSeq_2=28\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0104.gif\",\"width\":76,\"height\":11,\"alt\":\"넷마블 MOTP\"}]}]}]]}]}]]}],[\"$\",\"dl\",null,{\"className\":\"bx2\",\"children\":[[\"$\",\"dt\",null,{\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/i_vm2.gif\",\"width\":117,\"height\":128,\"alt\":\"게임이용\"}]}],[\"$\",\"dd\",null,{\"children\":[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=6\u0026catSeq_2=19\u0026tabOrder_3=1\u0026catSeq_3=93\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0203.gif\",\"width\":117,\"height\":11,\"alt\":\"마구마구 게임이용문의\"}]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=1\u0026catSeq_2=14\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0204.gif\",\"width\":85,\"height\":11,\"alt\":\"PC사양정보확인\"}]}]}]]}]}]]}],[\"$\",\"dl\",null,{\"className\":\"bx4\",\"children\":[[\"$\",\"dt\",null,{\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/i_vm4.gif\",\"width\":118,\"height\":128,\"alt\":\"결제/구매\"}]}],[\"$\",\"dd\",null,{\"children\":[\"$\",\"ul\",null,{\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=1\u0026catSeq_2=33\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0401.gif\",\"width\":74,\"height\":11,\"alt\":\" 결제내역 확인\"}]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=2\u0026catSeq_2=34\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0402.gif\",\"width\":54,\"height\":11,\"alt\":\"결제 도용\"}]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=3\u0026catSeq_2=35\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0403.gif\",\"width\":79,\"height\":11,\"alt\":\"결제 환불/취소\"}]}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=4\u0026catSeq_2=36\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/txt_m0404.gif\",\"width\":79,\"height\":11,\"alt\":\"결제/캐쉬 문의\"}]}]}]]}]}]]}]]}],[\"$\",\"$L13\",null,{}],[\"$\",\"div\",null,{\"className\":\"main_go main_go1\",\"children\":[[\"$\",\"h4\",null,{\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/stl01.gif\",\"width\":\"137\",\"height\":\"14\",\"alt\":\"서비스별 도움말 바로가기\"}]}],[\"$\",\"div\",null,{\"className\":\"main_go_bx\",\"children\":[\"$\",\"table\",null,{\"summary\":\"각 내용을 클릭하여 상세 내용을 보실 수 있습니다.\",\"children\":[[\"$\",\"caption\",null,{\"children\":\"서비스별 도움말\"}],[\"$\",\"tbody\",null,{\"children\":[[\"$\",\"tr\",\"0\",{\"className\":\"r1\",\"children\":[[\"$\",\"th\",null,{\"children\":\"계정/개인정보\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=1\u0026catSeq_2=23\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"가입/탈퇴\"}],\"$L14\"]}],\"$L15\",\"$L16\",\"$L17\",\"$L18\",\"$L19\"]}]]}],\"$L1a\",\"$L1b\",\"$L1c\",\"$L1d\",\"$L1e\",\"$L1f\",\"$L20\"]}]]}]}]]}],\"$L21\"]}]\n"])self.__next_f.push([1,"14:[\"$\",\"em\",null,{\"children\":\"|\"}]\n15:[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=2\u0026catSeq_2=24\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"아이디/비밀번호\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]\n16:[\"$\",\"$1\",\"2\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=3\u0026catSeq_2=25\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"로그인\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]\n17:[\"$\",\"$1\",\"3\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=4\u0026catSeq_2=26\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"명의도용\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]\n18:[\"$\",\"$1\",\"4\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=5\u0026catSeq_2=28\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"넷마블 MOTP\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]\n19:[\"$\",\"$1\",\"5\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=personalInfo\u0026tabOrder_1=1\u0026tabOrder_2=6\u0026catSeq_2=27\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"회원정보\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]\n1a:[\"$\",\"tr\",\"1\",{\"className\":\"r2\",\"children\":[[\"$\",\"th\",null,{\"children\":\"신고/이용제한\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=notice\u0026tabOrder_1=2\u0026tabOrder_2=1\u0026catSeq_2=32\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"이용제한\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=notice\u0026tabOrder_1=2\u0026tabOrder_2=2\u0026catSeq_2=31\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"신고\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]\n"])self.__next_f.push([1,"1b:[\"$\",\"tr\",\"2\",{\"className\":\"r3\",\"children\":[[\"$\",\"th\",null,{\"children\":\"결제\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=1\u0026catSeq_2=33\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"결제내역확인\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=2\u0026catSeq_2=34\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"결제도용\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"2\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=3\u0026catSeq_2=35\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"결제환불/취소\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"3\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=payment\u0026tabOrder_1=3\u0026tabOrder_2=4\u0026catSeq_2=36\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"결제/캐쉬 문의\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]\n"])self.__next_f.push([1,"1c:[\"$\",\"tr\",\"3\",{\"className\":\"r4\",\"children\":[[\"$\",\"th\",null,{\"children\":\"커뮤니티\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=community\u0026tabOrder_1=4\u0026tabOrder_2=1\u0026catSeq_2=41\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"내친구\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=community\u0026tabOrder_1=4\u0026tabOrder_2=2\u0026catSeq_2=43\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"쪽지\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"2\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=community\u0026tabOrder_1=4\u0026tabOrder_2=3\u0026catSeq_2=44\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"캐릭챗\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]\n"])self.__next_f.push([1,"1d:[\"$\",\"tr\",\"4\",{\"className\":\"r5\",\"children\":[[\"$\",\"th\",null,{\"children\":\"컨텐츠\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=contents\u0026tabOrder_1=5\u0026tabOrder_2=1\u0026catSeq_2=45\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"아바타/아이템\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=contents\u0026tabOrder_1=5\u0026tabOrder_2=2\u0026catSeq_2=48\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"넷마블PC방\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"2\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=contents\u0026tabOrder_1=5\u0026tabOrder_2=3\u0026catSeq_2=50\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"저작권\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"3\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=contents\u0026tabOrder_1=5\u0026tabOrder_2=4\u0026catSeq_2=51\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"청소년보호\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]\n"])self.__next_f.push([1,"1e:[\"$\",\"tr\",\"5\",{\"className\":\"r6\",\"children\":[[\"$\",\"th\",null,{\"children\":\"이벤트\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=event\u0026tabOrder_1=6\u0026tabOrder_2=1\u0026catSeq_2=17611\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"이벤트 관련\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]\n"])self.__next_f.push([1,"1f:[\"$\",\"tr\",\"6\",{\"className\":\"r7\",\"children\":[[\"$\",\"th\",null,{\"children\":\"부모전용\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=parentOnly\u0026tabOrder_1=7\u0026tabOrder_2=1\u0026catSeq_2=57\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"만 19세 미만 청소년 가입\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=parentOnly\u0026tabOrder_1=7\u0026tabOrder_2=2\u0026catSeq_2=58\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"만 19세 미만 청소년 결제\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"2\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=parentOnly\u0026tabOrder_1=7\u0026tabOrder_2=3\u0026catSeq_2=59\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"자녀사랑 서비스\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"3\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=parentOnly\u0026tabOrder_1=7\u0026tabOrder_2=4\u0026catSeq_2=60\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"선택적 셧다운제\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]\n"])self.__next_f.push([1,"20:[\"$\",\"tr\",\"7\",{\"className\":\"r8\",\"children\":[[\"$\",\"th\",null,{\"children\":\"기타 문의\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=custOpinion\u0026tabOrder_1=8\u0026tabOrder_2=1\u0026catSeq_2=61\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"제안\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",null,{\"href\":\"/ko/faq/list?vDomain=custOpinion\u0026tabOrder_1=8\u0026tabOrder_2=2\u0026catSeq_2=62\u0026tabOrder_3=\u0026catSeq_3=\",\"children\":\"문의\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]\n"])self.__next_f.push([1,"21:[\"$\",\"div\",null,{\"className\":\"main_go main_go2\",\"children\":[[\"$\",\"h4\",null,{\"children\":[\"$\",\"$L12\",null,{\"src\":\"https://c2.img.netmarble.kr/web/nmb/img/help/v1/main/stl02.gif\",\"width\":\"124\",\"height\":\"14\",\"alt\":\"게임별 도움말 바로가기\"}]}],[\"$\",\"div\",null,{\"className\":\"main_go_bx\",\"children\":[\"$\",\"table\",null,{\"summary\":\"각 내용을 클릭하여 상세 내용을 보실 수 있습니다.\",\"children\":[[\"$\",\"caption\",null,{\"children\":\"게임별 도움말\"}],[\"$\",\"tbody\",null,{\"id\":\"dvGameList\",\"children\":[[\"$\",\"$1\",\"0\",{\"children\":\"$undefined\"}],[\"$\",\"$1\",\"1\",{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"보드게임\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",\"0\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=1\u0026catSeq_3=63\",\"children\":\"사천성\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",\"1\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=2\u0026catSeq_3=64\",\"children\":\"바둑\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"2\",{\"children\":[[\"$\",\"a\",\"2\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=3\u0026catSeq_3=65\",\"children\":\"윷놀이\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"3\",{\"children\":[[\"$\",\"a\",\"3\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=4\u0026catSeq_3=66\",\"children\":\"장기\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"4\",{\"children\":[[\"$\",\"a\",\"4\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=5\u0026catSeq_3=67\",\"children\":\"오목\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"5\",{\"children\":[[\"$\",\"a\",\"5\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=6\u0026catSeq_3=68\",\"children\":\"캐치마인드\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"6\",{\"children\":[[\"$\",\"a\",\"6\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=7\u0026catSeq_3=69\",\"children\":\"리치마블\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"7\",{\"children\":[[\"$\",\"a\",\"7\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=8\u0026catSeq_3=70\",\"children\":\"파워알까기\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"8\",{\"children\":[[\"$\",\"a\",\"8\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=9\u0026catSeq_3=71\",\"children\":\"상하이\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"9\",{\"children\":[[\"$\",\"a\",\"9\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=2\u0026catSeq_2=15\u0026tabOrder_3=10\u0026catSeq_3=72\",\"children\":\"모두의마블\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]}],[\"$\",\"$1\",\"2\",{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"캐주얼게임\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",\"0\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=3\u0026catSeq_2=16\u0026tabOrder_3=1\u0026catSeq_3=73\",\"children\":\"틀린그림찾기\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",\"1\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=3\u0026catSeq_2=16\u0026tabOrder_3=2\u0026catSeq_3=74\",\"children\":\"파워쿵쿵따\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"2\",{\"children\":[[\"$\",\"a\",\"2\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=3\u0026catSeq_2=16\u0026tabOrder_3=3\u0026catSeq_3=75\",\"children\":\"어썰트기어\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]}],[\"$\",\"$1\",\"3\",{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"RPG\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",\"0\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=4\u0026catSeq_2=17\u0026tabOrder_3=1\u0026catSeq_3=77\",\"children\":\"야채부락리\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]}],[\"$\",\"$1\",\"4\",{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"children\":\"스포츠/FPS게임\"}],[\"$\",\"td\",null,{\"children\":[[\"$\",\"$1\",\"0\",{\"children\":[[\"$\",\"a\",\"0\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=5\u0026catSeq_2=19\u0026tabOrder_3=1\u0026catSeq_3=93\",\"children\":\"마구마구\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}],[\"$\",\"$1\",\"1\",{\"children\":[[\"$\",\"a\",\"1\",{\"href\":\"/ko/faq/list?vDomain=game\u0026tabOrder_1=10\u0026tabOrder_2=5\u0026catSeq_2=19\u0026tabOrder_3=2\u0026catSeq_3=95\",\"children\":\"당구/포켓볼\"}],[\"$\",\"em\",null,{\"children\":\"|\"}]]}]]}]]}]}]]}]]}]}]]}]\n"])
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 2]
+로그인이 필요한 서비스입니다.로그인 하시겠습니까?
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+게임바로가기GOPC게임 닫기RPG대항해시대야채부락리스포츠/FPS마구마구당구/포켓볼포커뉴포커로우바둑이7포커하이로우섯다훌라고스톱대박맞고타짜고스톱플러스맞고보드/캐주얼바둑모두의마블윷놀이사천성장기캐릭챗캐치마인드틀린그림찾기어썰트기어상하이배틀가로세로+리치마블오목아바타파워알까기파워쿵쿵따
+
+모바일게임 전체보기모바일게임 닫기몬길: STAR DIVE몬길: STAR DIVERPG일곱 개의 대죄: Origin일곱 개의 대죄: OriginRPG스톤에이지 키우기스톤에이지 키우기방치형 RPG세븐나이츠 리버스세븐나이츠 리버스RPG뱀피르뱀피르MMORPGKOF AFKKOF AFK방치형 RPGRF 온라인 넥스트RF 온라인 넥스트RPG일곱 개의 대죄 키우기일곱 개의 대죄 키우기방치형 RPG나 혼자만 레벨업:어라이즈나 혼자만 레벨업:어라이즈ARPG레이븐2레이븐2MMORPG신의 탑: 새로운 세계신의 탑: 새로운 세계RPG세븐나이츠 키우기세븐나이츠 키우기방치형 RPG아스달 연대기: 세 개의 세력아스달 연대기: 세 개의 세력MMORPG페이트/그랜드오더페이트/그랜드오더수집형RPG마블퓨처파이트마블퓨처파이트액션RPG리니지2 레볼루션리니지2 레볼루션MMORPG
+
+확인 
+닫기
+ 넷마블 로그인
+ 로그인이 필요한 서비스입니다.로그인 하시겠습니까?
+ 확인
+ 취소
+ function helpNoticeView(no){
+ var url = "https://helpdesk.netmarble.net/popHelpNoticeView.asp?mode=self&n_num="+no;
+ var x = (screen.width - 550)/2;
+ var y = (screen.height - 553)/2;
+ var opt
+ opt = 'resizable=no, scrollbars=no, width=580, height=544, left='+x+', top='+y;
+ window.open(url,'',opt);
+ }
+ 고객센터
+ 고객센터
+ 문의
+ 도움말
+ 1:1 문의
+ 보안센터
+ 2차 비밀번호
+ 안전키
+ 넷마블 MOTP
+ 다운로드
+ 자녀사랑
+ 자녀게임관리
+ 부모님 전용상담
+ 운영정책
+ 이용약관
+ 캐쉬정책
+ 개인정보처리방침
+ 이용자 권익 보호정책
+ 저작권보호
+ 이용제한 규정
+ 컴퓨터프로그램 설치 안내
+ [안내] 추석 연휴(9/24~9/25) 넷마블 고객센터 이용 안내
+ LNB_Set(0,0)
+var __nrd_enabled__ = false;
+var __clickrd_enabled__ = false;
+function nrd(rdcode,elem,target)
+{
+ try
+ {
+ if (__nrd_enabled__)
+ {
+ var frm = document.getElementById("DIRECT_GO_RD");
+ frm.action = "http://nrd.netmarble.net/" + rdcode + ".rd";
+ frm.url.value = (elem != null ? elem.href : "");
+ frm.target = (target == null ? "_self" : target);
+ frm.submit();
+ return false;
+ }
+ }
+ catch(x)
+ {
+ }
+ return true;
+}
+function openWinNrd(rdcode, url, width, height, bScroll, Rtn)
+{
+ try
+ {
+ if (__nrd_enabled__)
+ {
+ openWinW("http://nrd.netmarble.net/" + rdcode + ".rd?url=" + escape(url), '_blank', width, height, '', '', 0, bScroll);
+ return Rtn ? Rtn : false;
+ }
+ }
+ catch(x)
+ {
+ }
+ return true;
+}
+function openWinWNrd(rdcode, url, width, height, bScroll, Rtn,wName)
+{
+ try
+ {
+ if (__nrd_enabled__)
+ {
+ openWinW("http://nrd.netmarble.net/" + rdcode + ".rd?url=" + escape(url), wName, width, height, '', '', 0, bScroll);
+ return Rtn ? Rtn : false;
+ }
+ }
+ catch(x)
+ {
+ }
+ return true;
+}
+function ntr(rdcode,elem,target)
+{
+ try
+ {
+ if (__nrd_enabled__)
+ {
+ var frm = document.getElementById("DIRECT_GO_RD");
+ frm.action = "http://nrd.netmarble.net/" + rdcode + ".tr";
+ frm.url.value = (elem != null ? elem.href : "");
+ frm.target = (target == null ? "_self" : target);
+ frm.submit();
+ return false;
+ }
+ }
+ catch(x)
+ {
+ }
+ return true;
+}
+function clicktr(rdcode)
+{
+ try
+ {
+ if (__clickrd_enabled__)
+ {
+ var clink, ifrm;
+ clink = "http://nrd.netmarble.net/" + rdcode + ".ctr";
+ ifrm = document.getElementById("DIRECT_GO_CLICK_RD");
+ ifrm.src = clink;
+ return true;
+ }
+ }
+ catch(x)
+ {
+ }
+ return true;
+}
+function clickrd(rdcode)
+{
+ try
+ {
+ if (__clickrd_enabled__)
+ {
+ var clink, ifrm;
+ clink = "http://nrd.netmarble.net/" + rdcode + ".cr";
+ ifrm = document.getElementById("DIRECT_GO_CLICK_RD");
+ ifrm.src = clink;
+ return true;
+ }
+ }
+ catch(x)
+ {
+ }
+ return true;
+}
+try {
+document.msCapsLockWarningOff = true;
+}catch(e){}
+ 로그인전
+ 아이디
+ 비밀번호
+ CapsLock이 켜져 있습니다.
+ 로그인
+ 보안접속 ON
+ 회원가입
+ 아이디 찾기
+ 비밀번호 찾기
+ function loginform_clickrd(rd)
+ {
+ if (typeof __clickrd_enabled__ != 'undefined')
+ clickrd(rd + '_helpdesk');
+ }
+ // _clf_do_login overriding
+ var _clf_do_login = (function() {
+ var original_clf_do_login = _clf_do_login;
+ if (typeof __clickrd_enabled__ != 'undefined') {
+ return function() {
+ loginform_clickrd('lg_login')
+ return original_clf_do_login();
+ }
+ }
+ else {
+ return function() { 
+ return original_clf_do_login();
+ }
+ }
+ })();
+ 비회원 문의
+ 공지사항
+[안내] 추석 연휴(9/24~9/25) 넷마블 고객센터 이용 안내
+[안내] 광복절 대체 휴일(8/17) 고객센터 이용 안내
+[점검] 8/6(목) 넷마블 PC 포털 서비스 정기점검 안내
+[안내] 제헌절(7/17) 넷마블 고객센터 이용 안내 
+[안내] PC 포털/게임 고객센터 서비스 점검 안내 
+[안내] 부처님 오신 날 대체 휴일 넷마블 고객센터 이용 안내
+ 더보기
+ 운영안내
+ 방문센터 오시는길
+ 즐겨찾는 서비스
+ 방문상담 예약신청
+ 내캐쉬 
+ 회원정보변경
+ 회원탈퇴
+ 가입현황조회
+ ActiveX안내
+ 넷마블MOTP
+ 안전키
+
+----- 이미지 대체텍스트 (img alt) -----
+리니지2 레볼루션
+전화상담 - 전화:1588-5180/팩스:02-6375-1790/운영시간:월~금(10:00 ~ 12:30,13:30 ~ 19:00)
+전화상담 - 전화:1588-3995/리니지2 레볼루션:1670-8212/블레이드&소울:1670-1182/팩스:02-2271-8803/운영시간:월~금(10:00 ~ 12:30,13:30 ~ 19:00)
+게시판상담 - 365일 / 24시간 (일부 온라인게임 제외)
+방문상담 - 운영시간 :  월 ~ 금 (10시 ~ 19시)
+넷마블 수상내역 - 대한민국 NO.1 게임포털, 넷마블!
