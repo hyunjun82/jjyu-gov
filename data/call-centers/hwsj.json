@@ -1,0 +1,25 @@
+{
+  "slug": "hwsj",
+  "name": "효원상조",
+  "aliases": ["효원 상조", "효원상조 장례접수", "효원 크루즈"],
+  "industry": "online",
+  "variant": "sangjo",
+  "brandColor": "#005AAB",
+  "official": "https://www.hwsj.co.kr",
+  "sourceUrl": "https://www.hwsj.co.kr/",
+  "sourceName": "효원상조 공식 홈페이지",
+  "verifiedAt": "2026-09-27",
+  "corp": "(주)효원상조",
+  "hq": "서울시 강동구 풍성로 38길 9, 바로빌딩 3층",
+  "main": { "label": "고객센터", "tel": "1588-8873" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-27] 효원상조 홈(hwsj.co.kr/2013/) 푸터: '(주)효원상조 … 주소: 서울시 강동구 풍성로 38길 9, 바로빌딩 3층 고객센터: 1588-8873 장례접수(24시) : 1577-8873', '이메일 : hyowon1588@naver.com'(공정위 등록 이메일과 같아 공식 사이트로 확인). 상담시간은 홈·제휴문의·찾아오시는길 어디에도 없어 비운다. 공정위 정보공개 전화번호는 02-475-7444 인데 공식 홈페이지에 없어 쓰지 않는다. 구글 결과의 hyowon-life.com 은 가입 대리점 성격이라 출처로 쓰지 않는다. 상조 갈래(variant sangjo). 로고색은 HWSJ_TOP.png 최빈 구간.",
+  "notice": "장례 접수는 1577-8873으로 24시 받습니다.",
+  "idStep": "계약자 이름과 생년월일",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-8873" },
+    { "label": "장례접수", "tel": "1577-8873", "note": "24시" }
+  ]
+}
