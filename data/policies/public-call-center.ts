@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'korail', role: 'eligibility', title: '코레일 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kowon-energy', role: 'eligibility', title: '코원에너지서비스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'jeonbuk-citygas', role: 'eligibility', title: '전북도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kyungdong-gas', role: 'eligibility', title: '경동도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
@@ -139,7 +140,6 @@ export const publicCallCenterSpokes = [
   { slug: 'yesco', role: 'eligibility', title: '예스코 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'daesung-energy', role: 'eligibility', title: '대성에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'busan-citygas', role: 'eligibility', title: '부산도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
-  { slug: 'korail', role: 'eligibility', title: '코레일 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'epost-bank', role: 'eligibility', title: '우체국예금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'mps', role: 'eligibility', title: '군인연금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'newstart-fund', role: 'eligibility', title: '새출발기금 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
