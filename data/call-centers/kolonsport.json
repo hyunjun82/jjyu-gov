@@ -1,0 +1,23 @@
+{
+  "slug": "kolonsport",
+  "name": "코오롱스포츠",
+  "aliases": ["코오롱 스포츠", "KOLON SPORT", "코오롱스포츠 고객센터", "코오롱스포츠 수선"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.kolonsport.com",
+  "sourceUrl": "https://www.kolonsport.com/",
+  "sourceName": "코오롱스포츠 공식몰 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "코오롱인더스트리(주) FnC부문",
+  "hq": "서울특별시 강남구 삼성로 518",
+  "main": { "label": "고객센터", "tel": "1588-7667" },
+  "hours": { "weekday": "평일 : 09:30~18:00 (토, 일, 공휴일 휴무)" },
+  "callFee": "유료",
+  "hoursNote": "[2026-09-26] 코오롱스포츠 공식몰 고객센터(홈에서 '더 많은 정보가 필요하시다면 문의해주세요' --click): 고객센터 1588-7667 (유료) 평일 : 09:30~18:00 (토, 일, 공휴일 휴무), FAQ·1:1 문의·수선 안내 및 신청/조회. 푸터: 코오롱인더스트리(주) FnC부문 서울특별시 강남구 삼성로 518, 고객센터 1588-7667 (유료) 대표메일 kolonsport@kolon.com. 패션 틀이 없어 온라인 틀. 로고색은 캡처 헤더 워드마크 최빈색.",
+  "idStep": "주문번호",
+  "heroSalt": "r",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-7667", "note": "유료, 평일 09:30~18:00, 대표메일 kolonsport@kolon.com" }
+  ]
+}
