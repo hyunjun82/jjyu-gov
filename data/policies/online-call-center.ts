@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'eastarjet', role: 'eligibility', title: '이스타항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'disneyplus', role: 'eligibility', title: '디즈니플러스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jejuair', role: 'eligibility', title: '제주항공 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hyundai-motor', role: 'eligibility', title: '현대자동차 고객센터 전화번호 및 상담원 연결·문의 안내' },

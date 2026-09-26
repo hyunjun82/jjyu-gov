@@ -1,0 +1,23 @@
+{
+  "slug": "eastarjet",
+  "name": "이스타항공",
+  "aliases": ["EASTAR JET", "이스타항공 예약센터", "이스타항공 고객센터"],
+  "industry": "online",
+  "brandColor": "#D51F29",
+  "official": "https://www.eastarjet.com",
+  "sourceUrl": "https://www.eastarjet.com/newstar/PGWCB00001?cId=14&iId=0",
+  "sourceName": "이스타항공 고객센터",
+  "verifiedAt": "2026-09-26",
+  "corp": "이스타항공(주)",
+  "hq": "서울특별시 강서구 공항대로 236",
+  "main": { "label": "예약문의", "tel": "1544-0080" },
+  "hours": { "weekday": "매일 09:00 - 18:00 연중무휴" },
+  "hoursNote": "[2026-09-26] 이스타항공 고객센터(자주 묻는 질문) 하단 '도움이 필요하세요?': 예약문의 1544.0080 매일 09:00 - 18:00 연중무휴 / 별별배송 구매문의 1533-3458 평일 09:00 - 18:00. 푸터: 서울특별시 강서구 공항대로 236 이스타항공(주). 항공 틀이 없어 온라인 틀. 로고색은 캡처 헤더 최빈색.",
+  "idStep": "예약번호",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "예약문의", "tel": "1544-0080", "note": "매일 09:00~18:00 연중무휴" },
+    { "label": "별별배송 구매문의", "tel": "1533-3458", "note": "평일 09:00~18:00" }
+  ]
+}

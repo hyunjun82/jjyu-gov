@@ -1,0 +1,391 @@
+SLUG: eastarjet-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/eastarjet-call-center-*.png)
+
+===== [1] https://www.eastarjet.com/newstar/PGWCB00001?cId=14&iId=0 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/eastarjet-call-center-1.png
+CHARS: 1705
+
+본문바로가기
+온라인 체크인
+마이페이지
+고객센터
+항공권 예매
+나의 예매
+서비스 안내
+이벤트
+제휴상품
+별별스토어
+|
+기내면세 온라인몰
+로그인
+회원가입
+자주 묻는 질문
+공지사항
+자주 묻는 질문
+고객의 말씀
+제휴 문의
+이용약관
+전체
+결제 시 팝업 차단 기능은 어떻게 해지하나요?
+PC 및 모바일로 온라인체크인이 가능한가요?
+일행과 수하물 무게 합산이 되나요?
+특가운임(수하물 미포함)으로 구매했는데, 기내 휴대 수하물은 가져올 수 있나요?
+이티켓(E-Ticket)은 혹은 영수증(매출전표)는 어떻게 받을 수 있나요?
+예매
+부가서비스
+공항서비스
+기내서비스
+수하물
+기타
+홈페이지/모바일
+언어
+한국어
+English
+汉语
+日本語
+繁體中文
+繁體中文(香港)
+러시아어
+อังกฤษ
+ 
+ 
+선택
+전체
+찾기
+번호	제목
+75	
+
+헤어스프레이를 가지고 탈 수 있나요?
+
+74	
+
+전자 담배를 위탁수하물에 넣어도 되나요?
+
+73	
+
+무료 수하물 허용량을 알려주세요!
+
+72	
+
+키오스크, 모바일, 웹체크인이 안돼요! 이유가 있나요?
+
+71	
+
+탑승 마감 시간 이후에 탑승구에 도착하면 어떻게 되나요?
+
+70	
+
+수속 마감 시간이 지나 도착했는데 어떻게 하나요?
+
+69	
+
+교통약자 우선 수속 및 탑승이 가능한가요?
+
+68	
+
+수하물을 빨리 받고 싶어요! 별도 서비스가 있나요?
+
+67	
+
+부모님이 몸이 불편해요! 대리 수속이 가능한가요?
+
+66	
+
+신분증을 두고 왔어요! 대체 가능한 서류가 있나요?
+
+65	
+
+유소아는 신분증 대신할 수 있는 서류가 있나요?
+
+64	
+
+수속 시 필요한 서류는 어떤 것들이 있나요?
+
+63	
+
+위탁 수하물은 개수 제한이 있나요?
+
+62	
+
+유아도 좌석 점유가 가능한가요?
+
+61	
+
+사전에 구매한 좌석이 탑승 당일 공항에서 다른 좌석으로 변경될 수도 있나요?
+
+12345
+여행사전용 E-AGENCY
+별별스토어
+사이트맵
+기업정보 자세히 보기
+이스타항공(주) 대표이사 조중석
+사업자 등록번호 401-81-32460
+서울특별시 강서구 공항대로 236 이스타항공(주)
+사업장 소재지 전라북도 군산시 옥서면 산동길 2, 1층(군산공항청사 1층)
+FAX 02-2665-7470
+통신판매업 신고번호 2008-전북군산-0073호
+개인정보보호책임자 .이경민
+도움이 필요하세요?
+예약문의
+1544.0080
+매일 09:00 - 18:00 연중무휴
+별별배송 구매문의
+1533-3458
+평일 09:00 - 18:00
+[인증범위]인터넷 항공권 예약 발권 및 고객 서비스 운영
+[유효기간] 2024.06.05 ~ 2027.06.04
+Copyright Eastarjet. All Rights Reserved.
+이스타항공
+회사소개
+이용약관
+개인정보처리방침
+국내여객운송약관
+국제여객운송약관
+국제화물운송약관
+항공교통이용자 서비스 계획
+항공교통이용자 피해구제
+항공안전투자공시
+지속가능경영
+고객센터
+자주 묻는 질문
+공지사항
+고객의 말씀
+제휴 문의
+이용약관
+운항 정보
+노선별 운항 시간표
+실시간 출도착
+운항 노선도
+이벤트 존
+이벤트
+항공권 예매
+항공권 예매
+최저가 항공권
+제휴상품
+여행자보험
+여행 편의 서비스
+골프·숙박 & 레저·체험
+쇼핑 & 문화·혜택
+서비스 안내
+국내선 운임
+국제선 운임
+항공권 예매
+항공권 변경/취소
+온라인 체크인
+탑승수속 서비스
+셀프 체크인
+셀프 백드랍
+수하물 서비스
+분실수하물 찾기
+도움이 필요한 고객
+기내 및 부가서비스
+사전 좌석 구매 안내
+위탁수하물 안내
+부가서비스 취소/환불
+사전주문 기내식
+기내 면세품 예약 주문
+기내 유료상품
+기내 서비스
+위로 가기
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1 — 게시글 리스트]
+번호 | 제목
+75 | 헤어스프레이를 가지고 탈 수 있나요?
+74 | 전자 담배를 위탁수하물에 넣어도 되나요?
+73 | 무료 수하물 허용량을 알려주세요!
+72 | 키오스크, 모바일, 웹체크인이 안돼요! 이유가 있나요?
+71 | 탑승 마감 시간 이후에 탑승구에 도착하면 어떻게 되나요?
+70 | 수속 마감 시간이 지나 도착했는데 어떻게 하나요?
+69 | 교통약자 우선 수속 및 탑승이 가능한가요?
+68 | 수하물을 빨리 받고 싶어요! 별도 서비스가 있나요?
+67 | 부모님이 몸이 불편해요! 대리 수속이 가능한가요?
+66 | 신분증을 두고 왔어요! 대체 가능한 서류가 있나요?
+65 | 유소아는 신분증 대신할 수 있는 서류가 있나요?
+64 | 수속 시 필요한 서류는 어떤 것들이 있나요?
+63 | 위탁 수하물은 개수 제한이 있나요?
+62 | 유아도 좌석 점유가 가능한가요?
+61 | 사전에 구매한 좌석이 탑승 당일 공항에서 다른 좌석으로 변경될 수도 있나요?
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+한국어
+ English
+ 日本語
+ 简体中文
+ 繁體中文(台灣)
+ 繁體中文(香港)
+
+항공권
+ 항공권 예매
+ 최저가 항공권
+ 운항 정보
+ 노선별 운항 시간표
+ 실시간 출도착
+ 운항 노선도
+ 부가서비스 구매
+ 지정좌석 구매
+ 위탁수하물 사전구매
+
+항공권 서비스
+ 국내선 운임
+ 국제선 운임
+ 항공권 예매
+ 항공권 변경/취소
+ 온라인 체크인
+ 자동 체크인
+ 공항 서비스
+ 탑승수속 서비스
+ 셀프 체크인
+ 셀프 백드랍
+ 수하물 서비스
+ 분실수하물 찾기
+ 도움이 필요한 고객
+ 국내선 탑승수속 혼잡도
+ 주차장 혼잡도
+ 기내 서비스
+ 기내 면세품 예약 주문
+ 기내 유료상품
+ 기내 서비스
+ 부가서비스
+ 부가서비스 세트 안내
+ 사전 좌석 구매 안내
+ 위탁수하물 안내
+ 사전주문 기내식
+ 반려동물 동반 탑승
+
+별별스토어
+ 기내면세 온라인몰
+ 항공권 예매 
+ 항공권 예매 
+ 최저가 항공권 예매 
+ 운항 정보 
+ 노선별 운항 시간표 
+ 실시간 출도착 
+ 운항 노선도 
+ 항공권 서비스 
+ 국내선 운임 
+ 국제선 운임 
+ 항공권 예매 
+ 항공권 변경/취소 
+ 온라인 체크인 
+ 자동 체크인 
+ 공항 서비스 
+ 탑승수속 서비스 
+ 셀프 체크인 
+ 셀프 백드랍 
+ 수하물 서비스 
+ 분실수하물 찾기 
+ 도움이 필요한 고객 
+ 국내선 탑승수속 혼잡도 
+ 주차장 혼잡도 
+ 기내 서비스 
+ 기내 면세품 예약 주문 
+ 기내 유료상품 
+ 기내 서비스 
+ 부가서비스 
+ 부가서비스 세트 안내 
+ 사전 좌석 구매 안내 
+ 위탁수하물 안내 
+ 사전주문 기내식 
+ 제휴상품 
+ 여행자보험 
+ 여행 편의 서비스 
+ 골프·숙박 & 레저·체험 
+ 쇼핑 & 문화·혜택 
+ 이벤트 존 
+ 진행중 이벤트 
+ 당첨자 발표 
+ 고객센터 
+ 공지사항 
+ 자주 묻는 질문 
+ 고객의 말씀 
+ 제휴 문의 
+ 예약문의
+ 1544.0080
+ 매일 연중무휴 09:00 - 18:00
+ 채팅상담
+ AI챗봇 상담 연중무휴 24시간 가능
+ 직원 연결은 평일 오전 09시~18시 제공
+ 나의 예매
+ 온라인 체크인
+ 회원정보 관리
+ 나의 이벤트
+ 로그인
+
+로그인 
+ 아이디 저장 
+ 로그인 
+ 아이디 찾기 
+ |
+ 비밀번호 찾기 
+ |
+ 회원가입
+
+비밀번호 변경 
+ 현재 임시 비밀번호가 발행되었습니다.
+ 비밀번호를 변경 후 로그인해주세요.
+ 현재 비밀번호 
+ 현재 비밀번호를 입력하세요. 
+ 새 비밀번호 
+ 새 비밀번호를 입력하세요. 
+ 새 비밀번호 확인 
+ 새 비밀번호 확인을 입력하세요. 
+ 비밀번호 변경
+
+제목 
+ 내용 
+ 제목+내용
+
+Notice of Passenger Protection Regulations for Flights Departing from Vietnam
+
+한국어
+ English
+ 日本語
+ 简体中文
+ 繁體中文(台灣)
+ 繁體中文(香港)
+ 회사소개
+ 항공교통이용자 서비스 계획
+ 이용약관
+ 항공교통이용자 피해구제
+ 개인정보처리방침
+ 항공안전투자공시
+ 국제여객운송약관
+ 국내여객운송약관
+ 국제화물운송약관
+ 지속가능경영
+ Notice of Passenger Protection Regulations for Flights Departing from Vietnam
+ 기업정보 자세히 보기
+ 이스타항공(주) 대표이사 조중석
+ 사업자 등록번호 401-81-32460
+ 서울특별시 강서구 공항대로 236 이스타항공(주)
+ 사업장 소재지 전라북도 군산시 옥서면 산동길 2,
+ 1층(군산공항청사 1층)
+ FAX 02-2665-7470
+ 통신판매업 신고번호 2008-전북군산-0073호
+ 개인정보보호책임자 .이경민
+ [인증범위]인터넷 항공권 예약 발권 및 고객 서비스 운영
+ [유효기간] 2024.06.05 ~ 2027.06.04
+ E-mail : eastarpr@eastarjet.com
+ Copyright © Eastarjet. All Rights Reserved.
+ 홈
+ 예매
+ 나의 예매
+ 체크인
+ 전체 메뉴
+
+베트남 출발 항공편 여객 보호 규정 고지
+ 닫기
+
+Your request is still being processed, pleasewait. Please wait a minute
+
+We’re looking for a flightthat’s perfect for your travel We’re looking for lowest price flight
+
+!function(b,c,f,g,a,d,e){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],d=c.createElement(f),d.async=!0,d.src=g,e=c.getElementsByTagName(f)[0],e.parentNode.insertBefore(d,e))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1279827826570538");fbq("track","PageView");function trackPageView(){typeof fbq==="function"&&fbq("track","PageView")}
+(function(){var b=history.pushState,c=history.replaceState;history.pushState=function(){b.apply(this,arguments);trackPageView()};history.replaceState=function(){c.apply(this,arguments);trackPageView()};window.addEventListener("popstate",trackPageView)})();
+
+(function(){function c(){if(!d){var a=document.createElement("script");a.src="https://t1.daumcdn.net/kas/static/kp.js";a.charset="UTF-8";a.onload=function(){typeof kakaoPixel!=="undefined"&&(kakaoPixel(e).pageView(),d=!0,f())};document.head.appendChild(a)}}function b(){typeof kakaoPixel!=="undefined"&&kakaoPixel(e).pageView()}function f(){var a=history.pushState,g=history.replaceState;history.pushState=function(){a.apply(this,arguments);b()};history.replaceState=function(){g.apply(this,arguments);
+b()};window.addEventListener("popstate",b)}var e="9061769120940342259",d=!1;document.readyState==="complete"?c():window.addEventListener("load",c)})();
