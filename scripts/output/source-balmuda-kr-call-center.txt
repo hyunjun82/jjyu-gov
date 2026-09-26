@@ -1,0 +1,213 @@
+SLUG: balmuda-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/balmuda-kr-call-center-*.png)
+
+===== [1] https://www.balmuda.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/balmuda-kr-call-center-1.png
+CHARS: 1801
+
+기분 좋은 자연바람, GreenFan S
+
+자연의 바람을 재현하는 그린팬 특허 기술과
+두 개의 BLDC 모터로 초절전 • 저소음을 실현한
+프리미엄 선풍기. 이제 기분 좋은 자연의 바람을
+실내에서 느껴보세요.
+
+감각을 깨우는 새로운 주방
+
+모던한 실루엣에 직관적인 다이얼,
+기타 사운드와 정교하게 설계된 소프트 클로징 도어까지.
+매일 손끝에 닿는 오감을 깨우는 전자레인지,
+지금 바로 BALMUDA The Range S를 만나보세요.
+
+MoonKettle의 특별한 디자인
+
+전통적인 주전자를 현대적으로 재해석한
+아이코닉한 전기 주전자, MoonKettle.
+달을 닮은 곡선에 은은한 빛과 사운드로
+평범한 일상을 특별하게 채워보세요.
+
+발뮤다의 특별한 레시피
+
+어디로든 떠나고 싶은 날씨에 어울리는 노릇노릇한
+샌드위치부터 사과를 듬뿍 올린 새콤달콤한
+토스트까지, 발뮤다의 특별한 레시피를 만나보세요.
+
+MY STORY B 웹매거진
+
+사용자들의 이야기가 담긴 발뮤다 웹 매거진.
+발뮤다와 함께하는 삶. 그 평범하고도 특별한
+이야기를 지금 소개합니다.
+
+BALMUDA 고객지원
+
+발뮤다 제품등록을 통해 품질보증을 받고
+수리 상담(A/S), 제품정보, 청소 방법 등
+제품 이용시 필요한 정보를 확인 하실 수 있습니다.
+
+발뮤다 서비스센터
+02 ) 710-4100
+챗봇 상담
+채널톡으로 궁금한 점을 해결해 보세요.
+News
+최신 정보 및 안내
+중요한 안내사항
+
+「The Clock」 스페셜 컬러 샴페인 골드 출시 안내
+
+「BALMUDA The Pot」 리뉴얼 출시 안내 (KPT03KR)
+
+「BALMUDA The Range S」 출시 안내
+
+ 발뮤다, LoveFrom과 공동 개발한 「Sailing Lantern」 발표
+
+ 발뮤다, 새로운 글로벌 브랜드 슬로건 'just because.' 발표
+
+공식 계정
+
+유튜브, 인스타그램, 네이버 블로그, 페이스북 공식 계정 안내
+
+제품등록
+
+구매한 제품을 등록하고 품질 보증을 받으실 수 있습니다.
+
+자세히
+
+발뮤다 스토리, 회원 한정 특별 혜택, 스토어 이벤트 정보 등을 전달합니다.
+구독하기
+
+Products
+모든 제품
+발뮤다 레시피
+Support
+고객지원
+공지사항
+이벤트
+판매 매장
+발뮤다 동영상
+News
+최신 정보 및 안내
+중요 안내사항
+Online Store
+온라인 스토어
+마이페이지
+장바구니
+제품 등록
+About
+발뮤다 소개
+개발 스토리
+수상 경력
+회사 개요
+Other Countries/Regions
+Japan
+United States
+Germany
+Taiwan
+Thailand
+Singapore
+Malaysia
+개인정보처리방침| 이용약관
+
+Copyright © BALMUDA Inc. All rights reserved
+
+회사명: 주식회사 더리모 | 대표이사: 황영철, 최용석 | 주소: 서울특별시 용산구 원효로 138(원효로3가) 청진빌딩 13층
+사업자등록번호: 851-87-00559 | 통신판매업신고: 제2017-서울용산-1196
+대표번호: 02-710-4100 | 팩스: 02-710-4199 | 이메일: evan@balmuda.co.kr | 개인정보책임관리자: 양오영
+본 사이트의 컨텐츠는 저작권법의 보호를 받는 바, 상업적 목적의 무단전재, 복사, 배포 등을 금합니다.
+
+----- 프레임 (https://player.vimeo.com/video/1122716069?background=1) -----
+We couldn't verify the security of your connection.
+Access to this content has been restricted. Contact your internet service provider for help.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+Home
+ Products
+ About
+ Support
+ Store
+
+BALMUDA
+ The
+ Brew 서버 뚜껑 무상 제공 프로그램 안내
+
+BALMUDA The Brew 서버 뚜껑 무상 제공 프로그램 안내
+ BALMUDA The Toaster 무상 제품 교환 프로그램 안내
+ K01C 모델 무상 제품 교환 프로그램 안내
+ EGF-1550 모델 무상 부품 교체 프로그램 안내
+
+발뮤다 서비스센터
+ 제품에 대해 궁금한 점은 무엇이든 물어보세요.
+ 제품 정보, 사용법, A/S, 제품과 소모품 구입 등
+ 제품에 대해 궁금한 점은 무엇이든 물어보세요.
+ 제품 정보, 사용법, A/S, 제품과 소모품 구입 등
+ 02) 710-4100
+ 02) 710-4100
+ ·상담시간 : 평일 9:00 ~ 17:00
+ ·점심시간 : 12:00 ~ 13:30 (주말 및 공휴일 휴무)
+ ·상담시간 : 평일 9:00 ~ 17:00
+ ·점심시간 : 12:00 ~ 13:30 (주말 및 공휴일 휴무)
+
+TODAY VIEW
+ 0/0
+ // DOM 로드
+ $(function () {
+ $('.scroll_right_cont').todayGoods();
+ });
+ // 최근본상품 리스트 페이징 처리 플러그인
+ $.fn.todayGoods = function () {
+ // 기본값 세팅
+ var self = $(this);
+ var setting = {
+ page: 1,
+ total: 0,
+ rowno: 5
+ };
+ var element = {
+ goodsList: self.find('ul > li'),
+ closeButton: self.find('ul > li > button'),
+ prev: self.find('.scr_paging > .bnt_scroll_prev'),
+ next: self.find('.scr_paging > .bnt_scroll_next'),
+ paging: self.find('.scr_paging')
+ };
+ // 페이지 갯수 설정
+ setting.total = Math.ceil(element.goodsList.length / setting.rowno);
+ // 화면 초기화 및 갱신 (페이지 및 갯수 표기)
+ var init = function () {
+ if (setting.total == 0) {
+ setting.page = 0;
+ element.paging.hide();
+ }
+ self.find('ul').hide().eq(setting.page - 1).show();
+ self.find('.scr_paging .js_current').text(setting.page);
+ self.find('.scr_paging .js_total').text(setting.total);
+ }
+ // 삭제버튼 클릭
+ element.closeButton.click(function(e){
+ $.post('../goods/goods_ps.php', {
+ 'mode': 'delete_today_goods',
+ 'goodsNo': $(this).data('goods-no')
+ }, function (data, status) {
+ // 값이 없는 경우 성공
+ if (status == 'success' && data == '') {
+ location.reload(true);
+ }
+ else {
+ console.log('request fail. ajax status (' + status + ')');
+ }
+ });
+ });
+ // 이전버튼 클릭
+ element.prev.click(function (e) {
+ setting.page = 1 == setting.page ? setting.total : setting.page - 1;
+ init();
+ });
+ // 다음버튼 클릭
+ element.next.click(function (e) {
+ setting.page = setting.total == setting.page ? 1 : setting.page + 1;
+ init();
+ });
+ // 화면 초기화
+ init();
+ };
