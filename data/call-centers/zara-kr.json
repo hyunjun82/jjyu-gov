@@ -1,0 +1,22 @@
+{
+  "slug": "zara-kr",
+  "name": "자라(ZARA)",
+  "aliases": ["자라", "ZARA", "자라 코리아", "자라 고객센터", "아이티엑스코리아"],
+  "industry": "online",
+  "brandColor": "#000000",
+  "official": "https://www.zara.com",
+  "sourceUrl": "https://www.zara.com/kr/ko/help-center",
+  "sourceName": "ZARA 도움말",
+  "verifiedAt": "2026-09-26",
+  "corp": "아이티엑스코리아 주식회사",
+  "hq": "서울특별시 강남구 영동대로 511 20층 2002호 (삼성동, 트레이드타워)",
+  "main": { "label": "대표번호", "tel": "080-822-0311" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-26] ZARA 도움말(zara.com/kr/ko/help-center, 헤드리스 차단이라 --headed) 푸터: 아이티엑스코리아 주식회사 ｜ 서울특별시 강남구 영동대로 511 20층 2002호 (삼성동, 트레이드타워) ｜ 대표번호: 080-822-0311. 도움말 첫 화면에 전화 상담시간은 없어 비워 둔다. 패션 틀이 없어 온라인 틀. 로고색은 헤더 로고 svg path 의 computed fill 실측 rgb(0, 0, 0).",
+  "idStep": "주문번호",
+  "heroSalt": "am",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표번호", "tel": "080-822-0311" }
+  ]
+}

@@ -1,0 +1,115 @@
+SLUG: zara-kr-call-center
+RECEIVED: 2026-09-26
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/zara-kr-call-center-*.png)
+
+===== [1] https://www.zara.com/kr/ko/help-center =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/zara-kr-call-center-1.png
+CHARS: 1308
+
+주요 내용으로 건너뛰기
+검색
+바스켓백
+0
+로그인
+도움말
+도움말
+도움말
+자주 하는 문의
+상품 재고 상태
+내 온라인 주문 상태
+가격 정책
+반품 방법
+반품 환불
+모든 도움말 주제
+내 ZARA 계정
+등록 및 로그인
+프로필 관리
+마음에 드는 제품
+내 ZARA QR
+상품 및 사이즈
+상품 재고 상태
+내 사이즈는 무엇입니까?
+커스터마이즈 상품
+혼용률 및 세탁 방법
+ZARA 상품 보증
+가격 정책
+리콜 상품
+선물을 위한 옵션
+기프트 카드
+선물 포장
+배송
+배송 방법, 기한 및 비용
+여러 배송 주문
+배송지
+결제 및 청구서
+결제 방법
+결제 보안
+청구서
+기프트 카드로 결제하기
+내 구매
+온라인 구매
+내 온라인 주문 상태
+온라인 주문 수정 또는 취소
+주문 관련 문제
+매장에서의 내 구매
+매장 기기를 이용한 온라인 구매
+교환, 반품 및 환불
+반품 방법
+교환 방법
+반품 환불
+기프트 카드로 결제한 구매 환불
+특별 반품 조건
+ZARA 경험
+ZARA 중고 의류 기부 프로그램
+뉴스레터
+원하는 상품을 찾지 못하셨나요?
+문의하기
+페이지 아래
+도움말
+내 ZARA 계정
+상품 및 사이즈
+선물을 위한 옵션
+배송
+결제 및 청구서
+내 구매
+교환, 반품 및 환불
+ZARA 경험
+FOLLOW하기
+뉴스레터
+TIKTOK
+INSTAGRAM
+FACEBOOK
+PINTEREST
+KAKAO
+YOUTUBE
+회사
+회사소개
+JOIN LIFE
+사무소
+매장
+자라에서 일하세요
+정책
+개인정보처리방침
+AI 사용
+이용약관
+기프트 카드 안내
+COOKIE SETTINGS
+SOUTH KOREA / 대한민국
+한국어ENGLISH
+© ALL RIGHTS RESERVED
+아이티엑스코리아 주식회사 ｜ 사업자등록번호: 120-88-14733 ｜ 대표자 : ROMAY DE LA COLINA JOSE MANUEL ｜ 서울특별시 강남구 영동대로 511 20층 2002호 (삼성동, 트레이드타워) ｜ 대표번호: 080-822-0311 ｜ 호스팅 서비스 사업자: ITX MERKEN, B.V. ｜ 통신판매업신고 : 제2014-서울강남-02297 (사업자정보확인) ｜ 개인정보처리방침 | 위치기반서비스 이용약관 | 이용약관 | 지급보증안내 | 기프트카드 이용약관
+당사는 자체 쿠키와 제3자 쿠키를 사용해 온라인 스토어 사용을 이해하고 사용자의 선호도와 관련해 콘텐츠를 조정하며 소셜 네트워크에서 광고, 마케팅 및 출판물을 맞춤화하여 당사의 사이트를 개선할 수 있습니다. 사용자는 모든 쿠키를 허용, 차단 또는 해당 버튼만 선택하셔서 설정하실 수 있습니다. 쿠키의 차단은 사용자의 구매 경험에 영향을 미칠 수 있다는 사실에 유의하십시오. 더 자세한 정보를 원하시는 경우, 당사의 쿠키 정책
+쿠키 설정
+일부 쿠키 차단하기
+모두 허용
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+검색바스켓백0로그인도움말여성남성아동ZARA HOME향수TRAVEL MODE01신상품THE NEWTHE ITEMBAISI GUADAGNINO x ZARA NEW페이크 레더 NEW02해피 추석 NEW03컬렉션베스트셀러자켓 | 점퍼트렌치 코트 | 코트블레이저니트웨어팬츠진 | 데님팬츠스웨트셔츠 | 조거 팬츠스커트셔츠탑 | 바디수트티셔츠원피스토탈 룩스웨터 | 가디건쇼츠 | 버뮤다 팬츠레더란제리04슈즈 | 액세서리슈즈베어풋 NEW백주얼리 NEW액세서리05향수향수06SPECIAL EDITION07THE FOLD-ER모두 보기MAUREEN ADIMVERONIKA HEILBRUNNERMARIE VON BEHRENSLILLY SISTOLARISSA MILLS08ZARA HOMETHE NEWBAISI GUADAGNINO | HOME COLLECTIONMARIE LENNOX STUDIOROMANTIC COLLECTIONHOME OFFICEFRAGRANCES | SALTED CARAMELZARA GANGNAM STORETRAVEL MODE기프트 카드매장앱 다운로드지속가능성채용+안내뉴스레터고객 센터매장도움말기프트 카드언론 보도회사소개사무소BAISI GUADAGNINO x ZARATHE NEW니트웨어JEANS주얼리해피 추석01신상품THE NEWBAISI GUADAGNINO x ZARAMARTIN PARR X ZARAAUTUMN WARDROBE02해피 추석모두 보기탑팬츠슈즈 & 백HOME COLLECTION03ZARA ORIGINS04ATHLETICZ / 26 1 18 1RUNNING05컬렉션모두 보기베스트셀러자켓 | 베스트패딩 NEW코트 | 트렌치 코트울 | 캐시미어스웨터 | 가디건맨투맨 | 트레이닝복팬츠데님팬츠티셔츠헨리넥 NEW긴소매 티셔츠셔츠피케 | 카라 티셔츠수트블레이저향수06슈즈 | 액세서리슈즈스니커즈백언더웨어 | 양말액세서리07SUMMERY ITEMS린넨 | WITH 린넨반바지 | 버뮤다팬츠스윔웨어08SPECIAL EDITION09COLLABSFRUIT OF THE LOOM™ x ZARARIDAR® x ATHLETICZ0FR. PARIS and ZARASAYORI TANAKA x ZARAAARON LEVINE x ZARAFIFA ® CLASSICS10ZARA HOMETHE NEWBAISI GUADAGNINO | HOME COLLECTIONMARIE LENNOX STUDIOROMANTIC COLLECTIONHOME OFFICEFRAGRANCES | SALTED CARAMELTRAVEL MODE기프트 카드매장앱 다운로드지속가능성채용+안내뉴스레터고객 센터매장도움말기프트 카드언론 보도회사소개사무소THE NEWBAISI GUADAGNINO X ZARAMARTIN PARR x ZARAAUTUMN WARDROBE자켓 | 점퍼팬츠SWEATERSORIGINS스포츠여아6 - 14세남아6 - 14세여아18개월-6세남아18개월-6세베이비0 - 18개월액세서리 | 슈즈KDPT Goods | 베이직0 - 14 | YEARSZARA HOME KIDS즐거운 새학기!TRAVEL MODE기프트 카드앱 다운로드매장지속가능성커리어+안내뉴스레터고객 센터매장도움말기프트 카드언론 보도회사소개사무소BAISI GUADAGNINO x ZARASTUDIO MARY LENNOXROMANTIC COLLECTIONHOME OFFICE EDIT향수 | 솔티 카라멜가구침구류조명거울러그홈 오피스데코쿠션 | 충전재담요바스켓커튼 | 블라인드다이닝주방욕실GYM세탁 | 청소피팅룸홈웨어홈 슈즈백 | 액세서리홈 프레이그런스반려동물모두 보기SCHOOL DAYS EDITUNICORNIOSDINOSMONSTERS INC. ©Disney/Pixar스페이스 익스플로러SCHOOL DAYS장난감침구가구신생아 용품키즈 바스켓욕실식사 시간러그담요 | 쿠션장식용품옷과 파자마슈즈 | 액세서리MR PÉREZTRAVEL MODE기프트 카드매장채용앱 다운로드지속가능성+안내뉴스레터고객 센터매장도움말기프트 카드언론 보도회사소개사무소리콜 상품01여성향수해피 추석02남성향수03아동향수특가 상품TRAVEL MODE앱 다운로드지속가능성+안내뉴스레터고객 센터매장도움말기프트 카드언론 보도회사소개사무소채용01THE GUIDES스페인영국오스트리아프랑스이탈리아일본멕시코브라질미국02ABOUT
+
+쿠키 설정 센터쿠키 설정 센터일반필수적인 쿠키분석 쿠키기능성 또는 개인화 쿠키맞춤형 광고 쿠키일반쿠키와 다른 유사한 기술은 플랫폼 운영 방식에 영향을 미치는 중요한 요소입니다. 쿠키의 주요 목적은 사용자에게 보다 쉽고 효율적인 브라우징 경험을 제공하고 당사의 서비스와 플랫폼 자체를 개선하는 것입니다. 또한 사용자가 제3자 웹사이트와 앱을 방문할 때 사용자의 관심 분야와 관련된 광고를 제공하기 위해서도 사용됩니다.
+여기에서 당사가 사용하는 쿠키에 관한 모든 정보를 알아보실 수 있습니다. 게다가 플랫폼 운영을 위해 필수적인 쿠키를 제외한 쿠키를 사용자의 기본 설정에 따라 허용 및/또는 차단하실 수 있습니다.
+일부 쿠키의 차단은 플랫폼에서의 사용자 경험 및 플랫폼의 운영에 영향을 미칠 수 있다는 사실에 유의하시기 바랍니다.
+더 자세한 정보를 원하시는 경우, 당사의 쿠키 정책을 참고하시기 바랍니다.
+ 쿠키 정책필수적인 쿠키항상 활성화플랫폼 운영을 위해 필요한 쿠키로 당사의 시스템을 통해서는 차단될 수 없습니다. 일반적으로 개인정보 기본 설정, 웹사이트 세션 로그인 또는 양식 작성과 같은 서비스를 받기 위해 사용자가 수행한 작업에 응답하기 위해 설정됩니다. 사용자는 이용하는 브라우저를 설정하여 이러한 쿠키를 차단하거나 쿠키 사용을 통지받을 수는 있지만, 플랫폼의 일부 기능을 이용할 수 없을 수 있습니다.쿠키 세부 정보분석 쿠키 분석 쿠키 비활성화이러한 쿠키는 방문 및 트래픽 출처를 측정하여 당사 플랫폼의 기능을 평가하고 개선할 수 있게 도와줍니다. 이를 통해 어떤 페이지가 더 인기 있는지 그리고 웹사이트 방문자 수가 얼마인지 알 수 있습니다. 이 쿠키를 허용하지 않으면 언제 당사의 플랫폼을 방문하는지 알 수 없습니다.쿠키 세부 정보기능성 또는 개인화 쿠키 기능성 또는 개인화 쿠키 비활성화플랫폼이 더욱 개선된 기능과 개인화 서비스를 제공할 수 있도록 해주는 쿠키입니다. 당사 또는 당사의 웹사이트에 추가된 서비스를 제공하는 제3자에 의해 설정될 수 있습니다. 이 쿠키를 허용하지 않으면 일부 서비스가 적절하게 제공되지 않을 수 있습니다.쿠키 세부 정보맞춤형 광고 쿠키 맞춤형 광고 쿠키 비활성화당사의 광고 파트너가 설정하는 이러한 쿠키는 플랫폼 전체에 있을 수 있습니다. 제3자가 사용자의 관심 사항을 바탕으로 프로필을 생성하여 다른 웹사이트에서 이에 관련된 광고를 제공하기 위해 사용합니다. 이 쿠키를 허용하지 않으면 사용자가 더 적은 광고를 받을 수 있습니다.쿠키 세부 정보Back Button쿠키 목록 Filter ButtonConsent Leg.Interest checkbox label label checkbox label label checkbox label labelClear checkbox label labelApply Cancel변경사항 저장일부 쿠키 차단하기 모두 허용
