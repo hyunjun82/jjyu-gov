@@ -1964,6 +1964,7 @@ import { kyungnamEnergyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/
 import { wellsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/wells';
 import { hanssemCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanssem';
 import { costcoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/costco';
+import { samsungSvcCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/samsung-svc';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2012,6 +2013,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'samsung-svc': samsungSvcCallCenterSpokeContent,
     'wells': wellsCallCenterSpokeContent,
     'bodyfriend': bodyfriendCallCenterSpokeContent,
     'navien': navienCallCenterSpokeContent,

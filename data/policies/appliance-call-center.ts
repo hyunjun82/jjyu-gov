@@ -156,6 +156,7 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'samsung-svc', role: 'eligibility', title: '삼성전자서비스 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'wells', role: 'eligibility', title: '교원 웰스 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'bodyfriend', role: 'eligibility', title: '바디프랜드 고객센터 전화번호 및 AS 접수·출장비 안내' },
   { slug: 'navien', role: 'eligibility', title: '경동나비엔 고객센터 전화번호 및 AS 접수·출장비 안내' },
