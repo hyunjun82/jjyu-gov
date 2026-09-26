@@ -1,0 +1,43 @@
+{
+  "slug": "sk-rentacar",
+  "name": "SK렌터카",
+  "aliases": [
+    "SK렌트카",
+    "SK렌터카 다이렉트",
+    "SK렌터카 고객센터",
+    "SK렌터카 사고접수"
+  ],
+  "industry": "online",
+  "brandColor": "#1C1C1B",
+  "official": "https://rent.skdirect.co.kr",
+  "sourceUrl": "https://rent.skdirect.co.kr/customer",
+  "sourceName": "SK렌터카 고객센터",
+  "verifiedAt": "2026-09-26",
+  "main": {
+    "label": "일반 상담",
+    "tel": "1599-9111"
+  },
+  "hours": {
+    "weekday": "평일 : 09시 ~ 18시"
+  },
+  "hoursNote": "[2026-09-26] SK렌터카 고객센터(rent.skdirect.co.kr/customer): 일반 상담 — 제주/내륙 예약문의, 평일 : 09시 ~ 18시, 사고/정비/긴급출동 : 24시간 접수 가능, 1599-9111 / 장기렌트 계약상담 — 신차, 중고차 등 계약문의, 평일 : 09시 ~ 20시 상담 가능, 1599-3651 / 채팅상담 챗봇 : 24시간. 대표번호 1599-9111. skrentacar.com 은 접속되지 않아 구글 결과가 가리키는 공식 도메인으로 확인했다. 로고색은 logo.svg 최빈색.",
+  "notice": "사고·정비·긴급출동은 같은 번호로 24시간 접수합니다.",
+  "idStep": "예약번호와 차량번호",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "일반 상담",
+      "tel": "1599-9111",
+      "note": "제주·내륙 예약문의 평일 09시~18시, 사고·정비·긴급출동 24시간"
+    },
+    {
+      "label": "장기렌트 계약상담",
+      "tel": "1599-3651",
+      "note": "신차·중고차 계약문의, 평일 09시~20시"
+    }
+  ],
+  "heroSalt": "d"
+}

@@ -1972,6 +1972,7 @@ import { nexonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/�
 import { greencarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/greencar';
 import { oliveyoungCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/oliveyoung';
 import { cgvCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cgv';
+import { skRentacarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sk-rentacar';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2223,6 +2224,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'sk-rentacar': skRentacarCallCenterSpokeContent,
     'cgv': cgvCallCenterSpokeContent,
     'oliveyoung': oliveyoungCallCenterSpokeContent,
     'greencar': greencarCallCenterSpokeContent,
