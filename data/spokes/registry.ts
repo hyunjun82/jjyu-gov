@@ -2169,6 +2169,7 @@ import { gsPostboxCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { epostParcelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/epost-parcel';
 import { dhlCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/dhl';
 import { upsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ups';
+import { wooriWonMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/woori-won-mobile';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2651,6 +2652,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'youtube': youtubeCallCenterSpokeContent,
   },
   'telecom-call-center': {
+    'woori-won-mobile': wooriWonMobileCallCenterSpokeContent,
     'joytel': joytelCallCenterSpokeContent,
     'ins-mobile': insMobileCallCenterSpokeContent,
     'eg-mobile': egMobileCallCenterSpokeContent,
