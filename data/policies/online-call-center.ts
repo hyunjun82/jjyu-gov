@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'dana-sangjo', role: 'eligibility', title: '다나상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'utopia-future', role: 'eligibility', title: '유토피아퓨처 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'woorijeju-sangjo', role: 'eligibility', title: '우리제주상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'humanlife-sangjo', role: 'eligibility', title: '휴먼라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
