@@ -4,8 +4,7 @@ paths:
   - "app/**/*.tsx"
 ---
 
-> 글 작성 절차(수집·사실·작성·대조)는 CLAUDE.md 의 scripts/gov 파이프라인이 정본이다 (2026-09-23).
-> 옛 4단계(타이틀 캡처 Read·구성표 승인·collect-keywords 실검색어·버튼 슬롯 qa 2·4·끝)는 폐기. 이 파일은 화면·데이터 규칙만 다룬다.
+> 글 작성 절차(수집·사실·작성·대조)는 CLAUDE.md 의 scripts/gov 파이프라인이 정본이다. 이 파일은 화면·데이터 규칙만 다룬다.
 
 # 디자인 시스템
 
@@ -37,7 +36,7 @@ gov.border: #E5E8EB
 8. 사이드바 (스포크 9개)
 
 ## 핵심 컴포넌트
-- `QACard.tsx` — 정부 카드뉴스 Q&A (Format A 필수, `function Content()` 금지 — 상세는 프로젝트 CLAUDE.md 참조)
+- `QACard.tsx` — 정부 카드뉴스 Q&A (Format A 필수, `function Content()` 금지 — 상세는 아래 '스포크 Format A만 허용')
 - `KeyFactsBox.tsx` — 핵심콕콕 박스
 - `CollapsibleTOC.tsx` — 접이식 목차
 - `PolicySidebar.tsx` — 스포크 사이드바
@@ -55,7 +54,7 @@ gov.border: #E5E8EB
 import type { SpokeData } from '../../SpokeClient';
 export const XxxSpokeContent: SpokeData = {
   h1: '...',
-  qa: [ /* { q, anchor, intro, highlights, table?, box? } — 개수는 타이틀이 정한다 */ ],
+  qa: [ /* { q, anchor, intro, highlights, table?, box? } — 새 글은 spec 소제목 4개, 옛 글은 그대로 */ ],
   faqData: [...],  // source·sourceUrl 필수 — check-type-shape.ts 가 검사
   sources: [...],  // 정부 1차 출처
 };

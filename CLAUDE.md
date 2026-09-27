@@ -3,7 +3,7 @@
 > spec(타이틀·소제목·1차 출처 URL) → 수집 → 사실 → 작성 → 코드 대조·합격 시험 → 사람 승인 후 푸시.
 > 세부 규칙은 여기 적지 않는다 — 코드가 강제하고, 이 파일은 색인이다. (상한 80줄, pre-push가 차단)
 
-## 시스템 = scripts/gov (2026-09-23 전환 — 판정은 전부 코드, 모델은 사실 뽑기·작성 두 번만)
+## 시스템 = scripts/gov (판정은 전부 코드, 모델은 사실 뽑기·작성 두 단계에서만 — 검사에 걸린 곳을 고칠 때 호출이 더 붙는다)
 
 ```
 spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4줄) source:(1차 출처) button:(버튼 목적지)
@@ -13,12 +13,12 @@ spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4�
        한정 표현(계획·예정·선착순·필수·불가…)은 keepWord(살림)/keepWhy(안 살리는 이유) 판단 필수
 ③ 작성 모델 → data/policies/{slug}.ts — 소제목 4·FAQ 2, 카드 = 소제목→버튼→표(3열 이하)→텍스트
 ④ 대조 check-article.mjs: 숫자·단위·금액 이름표·범위어·범위 순서·한정 표현·필수·표·구성 → 틀린 곳만 고침(2회)
-⑤ 시험 test-mutations.mjs: 오차 10종을 자동으로 넣어 전부 잡아야 통과 → 보고서 scripts/reports/{slug}.md
+⑤ 시험 test-mutations.mjs: 오차를 종류별로 자동으로 넣어 전부 잡아야 통과 → 보고서 scripts/reports/{slug}.md
 ```
 
 실행: `npm run gov -- scripts/specs/{주제}.md [--only <slug>]` (한 편 6~9분, 중간 개입 없음). 모델 호출은 저장소 밖에서 한다(옛 규칙 차단).
 - 한 편짜리: 타이틀·소제목은 내가 네이버 자동완성 + 행동 키워드로 짓는다. 허브·스포크 확장: 사장님 spec 글자 그대로.
-- 옛 파이프라인(article.mjs·write.ts·new-spoke.ts·승인 도장 게이트)은 2026-09-23 삭제. 옛 spec 은 `scripts/specs/archive/`(실행 금지). 옛 글은 건드리지 않는다.
+- 글 작성 경로는 `npm run gov` 하나뿐이다. 옛 글은 건드리지 않는다.
 - push는 `.githooks/pre-push`가 막는다. facts.json 이 있는 글은 원문 대조 게이트가 새 검사기로 넘긴다.
 
 ## 절대 규칙 (기계가 못 잡는 것만)
@@ -28,7 +28,7 @@ spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4�
 3. **사람 승인 후에만 푸시** — 자동 푸시 금지.
 4. **정부 슬로건·로고·캐릭터 금지**, 가짜 후기·임의 통계 금지.
 5. 봇 차단 사이트(nhis 등) 접근 폴백: Claude in Chrome → law.go.kr/easylaw → korea.kr/보도자료 PDF → 그래도 없으면 "공식 채널 확인" 안내. "접근 불가"는 거의 없다.
-6. 검증 못 한 항목은 본문에 쓰지 말고 팩트시트 "쓰지 않는 것"에 사유와 함께 기록.
+6. 검증 못 한 항목은 본문에 쓰지 말고 facts.json `notUsed`(보고서·머리 주석의 "쓰지 않은 것")에 사유와 함께 남긴다.
 7. **사장님이 준 타이틀·소제목은 글자 그대로** — 어색해 보여도 그대로. 문제는 보고서 메모 한 줄로만.
 
 ## 정본 색인 (규칙의 단일 소스 — 여기 복사 금지)

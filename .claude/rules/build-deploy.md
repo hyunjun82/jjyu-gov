@@ -11,21 +11,16 @@ paths:
 # 빌드/배포 단일 정답
 
 과거 인시던트(2026-05, 한글 URL 404 → 4시간 낭비) 전체 기록: `docs/404-postmortem-2026-05.md`.
-**한 번이라도 이 파일들을 만지면 아래 상태와 정확히 일치해야 함. 어느 하나라도 빠지면 404 폭발.**
+**이 파일들을 만질 때 아래 항목은 하나도 빠지면 안 된다. 빠지면 404 가 난다.**
 
-1. **`next.config.mjs`** — 정확히 이 5개 옵션
+1. **`next.config.mjs`** — 반드시 있어야 하는 것. 실제 파일에는 이 밖에 `outputFileTracingRoot` 와 webpack 청크 분할 설정이 더 있다 — 청크 분할은 26.7MB 청크로 배포가 막혔던 것을 푼 설정이라 지우지 않는다
    ```js
-   const nextConfig = {
-     output: 'export',                    // ← Cloudflare Pages는 SSR 어댑터 없음. 정적 export 필수
-     trailingSlash: true,                 // ← 한글 URL 일관성
-     images: { unoptimized: true },       // ← export 모드 필수
-     eslint: { ignoreDuringBuilds: true },
-     typescript: { ignoreBuildErrors: true },
-     webpack: (config) => {
-       config.resolve.alias = { ...(config.resolve.alias || {}), '@': __dirname };
-       return config;
-     },
-   };
+   output: 'export',                    // ← Cloudflare Pages는 SSR 어댑터 없음. 정적 export 필수
+   trailingSlash: true,
+   images: { unoptimized: true },       // ← export 모드 필수
+   eslint: { ignoreDuringBuilds: true },
+   typescript: { ignoreBuildErrors: true },
+   // webpack: config.resolve.alias 에 '@': __dirname
    ```
 
 2. **`tsconfig.json`** — `baseUrl` 반드시 명시

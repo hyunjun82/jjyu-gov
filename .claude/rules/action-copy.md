@@ -1,6 +1,12 @@
+---
+paths:
+  - "data/policies/**"
+  - "app/policy/**"
+---
+
 # 행동 문구·버튼 (이 규칙이 수익을 만든다)
 
-`data/policies/**` 를 건드리면 이 규칙이 자동 로드된다. 정본 전문: `docs/button-copy.md`
+`data/policies/**`·`app/policy/**` 를 건드리면 이 규칙이 자동 로드된다. 정본 전문: `docs/button-copy.md`
 
 ## 왜 이게 1순위인가
 
@@ -35,16 +41,15 @@
 
 ## 작업 순서 (어기면 사후 수정이 되고, 사후에는 안 고친다)
 
-`npm run gov -- scripts/specs/{주제}.md` 가 순서를 강제한다 (2026-09-23, 옛 슬롯·도장 방식은 폐기):
+`npm run gov -- scripts/specs/{주제}.md` 가 순서를 강제한다:
 1. 수집 — 버튼 목적지도 Playwright 로 실제로 연다 (열리지 않은 주소는 대조기가 막는다)
 2. 사실 → 작성 — 상단 버튼 = 타이틀의 행동어, 카드 버튼 = 행동이 있는 소제목 바로 아래
 3. 대조·합격 시험 → 보고서(scripts/reports/<key>.md) → 사장님 승인 → 푸시
 
 ## 게이트 (pre-push 자동 차단)
 
-A 버튼 2~5개·신청 버튼 필수 · B 중복 · C 목적지 뭉침 · D 딥링크 · E 어미반복
-F 라벨 구조 · H 후킹 재료 · I 사용자 주어 · J 버튼 길이 · K 비문
-L 동사 도배 · M 읽는 버튼뿐 · N 맺음 도배 · O 유도 문장 없음
+`scripts/check-button-variety.ts` — 상단 버튼·cue 의 같은 틀 반복, 읽기만 하는 버튼("~보기"), 어색한 표현.
+새 글의 서론(200자·행동 유도 문장·상단 버튼의 말)은 `scripts/gov/check-article.mjs` 가 막는다.
 
-지적받은 어색한 표현은 `AWKWARD` 배열(K축)에 등록해 재발을 막는다.
+지적받은 어색한 표현은 `check-button-variety.ts` 의 `AWKWARD` 배열에 등록해 재발을 막는다.
 새로 지적받으면 그때마다 추가한다 — 이 목록이 늘어나는 게 시스템이 배우는 방식이다.

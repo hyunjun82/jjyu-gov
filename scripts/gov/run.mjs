@@ -277,8 +277,8 @@ ${a.subs.map((s, i) => `  ${i + 1}. ${s}`).join('\n')}
 
 ${COMMON(a, factsText(), urls(), usedBridges())}
 
-예시 파일 (모양만 참고 — 내용·숫자는 절대 가져오지 않는다. 옛 글이라 cardLayout·act.url 이 없으니 위 고정값을 따른다):
-${fs.readFileSync(path.join('app', 'policy', '[id]', '[spoke]', 'content', '기초연금', '부부감액단독신청비교.tsx'), 'utf8')}
+예시 파일 (모양만 참고 — 내용·숫자는 절대 가져오지 않는다):
+${fs.readFileSync(path.join('app', 'policy', '[id]', '[spoke]', 'content', '독감예방접종', 'HospitalSearchReservation.tsx'), 'utf8')}
 
 출력: TypeScript 파일 전체를 코드블록 하나로.`;
     }
