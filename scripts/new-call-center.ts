@@ -858,12 +858,12 @@ ${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}
       intro:
         ${/* 번호가 하나뿐인데 "전용번호로 거는 편이 빠릅니다 … 아래 1개입니다" 가 186편에 나가 있었다 (2026-09-27 더리본에서 발견) — 없는 전용번호를 권하지 않는다 */ ''}${/* numbersIntro — 추가 번호가 부서 번호가 아닌 곳(2026-09-27 알뜰폰: 통신망별 번호·휴대폰 114 무료)은
            "전용번호는 담당 부서로 바로 연결" 이 틀린 말이다. 원문에 맞는 문장을 JSON 에 적으면 그걸 쓴다 */ ''}${C.numbers.length > 1 && C.numbersIntro
-          ? `'대표번호는 ${C.main.tel}입니다. ${IND.jobs}까지 이 번호 하나로 들어갑니다. ${q(C.numbersIntro)} ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 아래 ${C.numbers.length}개입니다.',
+          ? `'대표번호는 ${C.main.tel}입니다. ${q(C.jobs ?? IND.jobs)}까지 이 번호 하나로 들어갑니다. ${q(C.numbersIntro)} ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 아래 ${C.numbers.length}개입니다.',
       highlights: ['${C.main.tel}', '대표번호'],`
           : C.numbers.length > 1
-          ? `'대표번호는 ${C.main.tel}입니다. ${IND.jobs}까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 아래 ${C.numbers.length}개입니다.',
+          ? `'대표번호는 ${C.main.tel}입니다. ${q(C.jobs ?? IND.jobs)}까지 이 번호 하나로 들어갑니다. 다만 용건이 정해져 있으면 전용번호로 거는 편이 빠릅니다. 대표번호는 ARS 를 거치지만 전용번호는 담당 부서로 바로 연결되기 때문입니다. ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 아래 ${C.numbers.length}개입니다.',
       highlights: ['${C.main.tel}', '대표번호', '전용번호'],`
-          : `'대표번호는 ${C.main.tel}입니다. ${IND.jobs}까지 이 번호 하나로 들어갑니다. ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 이 번호 하나입니다.',
+          : `'대표번호는 ${C.main.tel}입니다. ${q(C.jobs ?? IND.jobs)}까지 이 번호 하나로 들어갑니다. ${C.verifiedAt} 기준 공식 안내에 올라와 있는 번호는 이 번호 하나입니다.',
       highlights: ['${C.main.tel}', '대표번호'],`}
       table: {
         headers: ['구분', '번호', '비고'],
