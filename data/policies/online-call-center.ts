@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'chunhwa-sangjo', role: 'eligibility', title: '천화상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hanaro-cruise', role: 'eligibility', title: '하나로크루즈 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'taeyang-life', role: 'eligibility', title: '태양라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'sejong-life', role: 'eligibility', title: '세종라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
