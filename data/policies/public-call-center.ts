@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'jeonnam-citygas', role: 'eligibility', title: '전남도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'jeonbuk', role: 'eligibility', title: '전북도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gyeongbuk120', role: 'eligibility', title: '경북도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gangwon120', role: 'eligibility', title: '강원도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
