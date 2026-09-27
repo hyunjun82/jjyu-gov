@@ -2129,6 +2129,7 @@ import { gogoMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { sugarMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/sugar-mobile';
 import { pindirectCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/pindirect';
 import { asiaMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/asia-mobile';
+import { eyesMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/eyes-mobile';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2577,6 +2578,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'youtube': youtubeCallCenterSpokeContent,
   },
   'telecom-call-center': {
+    'eyes-mobile': eyesMobileCallCenterSpokeContent,
     'asia-mobile': asiaMobileCallCenterSpokeContent,
     'pindirect': pindirectCallCenterSpokeContent,
     'sugar-mobile': sugarMobileCallCenterSpokeContent,

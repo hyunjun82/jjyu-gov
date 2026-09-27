@@ -126,6 +126,7 @@ export const telecomCallCenterPolicy = {
 };
 
 export const telecomCallCenterSpokes = [
+  { slug: 'eyes-mobile', role: 'eligibility', title: '아이즈모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'asia-mobile', role: 'eligibility', title: '아시아모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'pindirect', role: 'eligibility', title: '핀다이렉트 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'sugar-mobile', role: 'eligibility', title: '슈가모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
