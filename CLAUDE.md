@@ -27,7 +27,7 @@ spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4�
 2. **단일 공식 페이지도 맹신 금지** — 수치는 2개 이상 출처 교차 + 계산 정합성 검산(정부 페이지에도 오타 있다: worklife 350↔400만, 보도자료 "싱씽몰").
 3. **사람 승인 후에만 푸시** — 자동 푸시 금지.
 4. **정부 슬로건·로고·캐릭터 금지**, 가짜 후기·임의 통계 금지.
-5. 봇 차단 사이트(nhis 등) 접근 폴백: Claude in Chrome → law.go.kr/easylaw → korea.kr/보도자료 PDF → 그래도 없으면 "공식 채널 확인" 안내. "접근 불가"는 거의 없다.
+5. 봇 차단 사이트(nhis 등) 접근 폴백: Playwright → 창 띄운 Playwright(`capture-source.ts --headed`) → Claude in Chrome(연결돼 있을 때) → law.go.kr/easylaw → korea.kr/보도자료 PDF → 그래도 없으면 "공식 채널 확인" 안내. "접근 불가"는 거의 없다.
 6. 검증 못 한 항목은 본문에 쓰지 말고 facts.json `notUsed`(보고서·머리 주석의 "쓰지 않은 것")에 사유와 함께 남긴다.
 7. **사장님이 준 타이틀·소제목은 글자 그대로** — 어색해 보여도 그대로. 문제는 보고서 메모 한 줄로만.
 
