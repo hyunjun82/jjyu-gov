@@ -120,7 +120,7 @@ export const sugarMobileCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '아니요. 공식 안내에 토/일요일 법정공휴일 휴무로 적혀 있습니다. 상담사 상담은 평일 09시~18시입니다.',
+      a: '아니요. 공식 안내에 "토/일요일 법정공휴일 휴무"로 적혀 있습니다. 상담사 상담은 평일 09시~18시입니다.',
       source: '슈가모바일 공식 홈페이지 고객센터 안내',
       sourceUrl: 'https://www.sugarmobile.co.kr/',
     },

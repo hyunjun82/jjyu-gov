@@ -120,7 +120,7 @@ export const tincashCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '아니요. 공식 안내에 토요일·일요일·공휴일 휴무로 적혀 있습니다. 상담원 상담은 평일 09:30 ~ 17:30입니다.',
+      a: '아니요. 공식 안내에 "토요일·일요일·공휴일 휴무"로 적혀 있습니다. 상담원 상담은 평일 09:30 ~ 17:30입니다.',
       source: '틴캐시 공식 홈페이지 고객센터 안내',
       sourceUrl: 'https://www.tincash.com/home/main',
     },

@@ -120,7 +120,7 @@ export const tossMobileCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '아니요. 공식 안내에 주말 및 공휴일 미운영으로 적혀 있습니다. 상담사 상담은 평일 오전 09시 ~ 오후 06시입니다.',
+      a: '아니요. 공식 안내에 "주말 및 공휴일 미운영"으로 적혀 있습니다. 상담사 상담은 평일 오전 09시 ~ 오후 06시입니다.',
       source: '토스모바일 고객센터 운영시간 안내',
       sourceUrl: 'https://tossmobile.co.kr/faq/23',
     },

@@ -120,7 +120,7 @@ export const gyeongbuk120CallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '아니요. 공식 안내에 공휴일 제외로 적혀 있습니다. 상담직원 상담은 월~금 9:00~18:00입니다.',
+      a: '아니요. 공식 안내에 "공휴일 제외"로 적혀 있습니다. 상담직원 상담은 월~금 9:00~18:00입니다.',
       source: '경상북도 누리집 행복콜센터·대표전화 안내',
       sourceUrl: 'https://www.gb.go.kr/',
     },

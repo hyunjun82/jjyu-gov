@@ -120,7 +120,7 @@ export const daesungCleanenergyCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '아니요. 공식 안내에 토요일,공휴일 휴무로 적혀 있습니다. 상담직원 상담은 평일 AM 09:00 ~ PM 06:00입니다.',
+      a: '아니요. 공식 안내에 "토요일,공휴일 휴무"로 적혀 있습니다. 상담직원 상담은 평일 AM 09:00 ~ PM 06:00입니다.',
       source: '대성청정에너지 누리집 고객상담전화 안내',
       sourceUrl: 'https://www.daesungcleanenergy.co.kr/',
     },

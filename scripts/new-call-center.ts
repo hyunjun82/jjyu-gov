@@ -442,7 +442,7 @@ const hoursText = (v: unknown): string => String(v ?? '')
    그대로 문장에 넣으면 "상담 운영시간은 상담 직원 연결은 …이용 가능이며" 가 된다.
    JSON 은 원문 그대로 둔다(게이트가 원문을 본다). 문장에 넣을 때만 시각 구간을 뽑는다. */
 const timeSpan = (v: string) => {
-  const m = String(v).match(/(평일|영업일|월~금[요일]*)?\s*(오전\s*)?\d{1,2}\s*[:시]?\s*\d{0,2}\s*분?\s*[~-]\s*(오후\s*)?\d{1,2}\s*[:시]\s*\d{0,2}\s*분?/);
+  const m = String(v).match(/(평일|영업일|월~금[요일]*)?\s*(오전\s*)?\d{1,2}\s*[:시]?\s*\d{0,2}\s*분?\s*[~\-–]\s*(오후\s*)?\d{1,2}\s*[:시]\s*\d{0,2}\s*분?/);
   return m ? m[0].replace(/\s{2,}/g, ' ').trim() : '';
 };
 const HW_RAW = hoursText(C.hours.weekday);
@@ -664,10 +664,10 @@ const FAQ_HOURS = NO_HOURS
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`
     : OFF_CLOSED && SAT
     /* 토요일에 받는 곳에 "아니요" 로 답하면 틀린 말이다 */
-    ? `${(timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일'}${josa((timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일', '은')} ${timeSpan(SAT) || SAT}에 ${IND.agent} 상담이 됩니다. ${isSentence(OFF_VALUES) ? `그 밖의 휴일은 공식 안내에 "${OFF_VALUES.replace(/[.]$/, '')}"라고 적혀 있습니다.` : `그 밖의 휴일은 공식 안내에 ${hoursText(OFF_VALUES)}${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다.`}`
+    ? `${(timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일'}${josa((timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일', '은')} ${timeSpan(SAT) || SAT}에 ${IND.agent} 상담이 됩니다. ${isSentence(OFF_VALUES) ? `그 밖의 휴일은 공식 안내에 "${OFF_VALUES.replace(/[.]$/, '')}"라고 적혀 있습니다.` : `그 밖의 휴일은 공식 안내에 "${hoursText(OFF_VALUES)}"${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다.`}`
     : OFF_CLOSED
     /* 값이 문장이면(한진 '주말(토/일) 및 공휴일은 근무하지 않습니다.') 조사를 붙이지 않고 인용한다 */
-    ? (isSentence(OFF_VALUES) ? `아니요. 공식 안내에 "${OFF_VALUES.replace(/[.]$/, '')}"라고 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.` : `아니요. 공식 안내에 ${hoursText(OFF_VALUES)}${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.`)
+    ? (isSentence(OFF_VALUES) ? `아니요. 공식 안내에 "${OFF_VALUES.replace(/[.]$/, '')}"라고 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.` : `아니요. 공식 안내에 "${hoursText(OFF_VALUES)}"${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.`)
     : '';
 
 

@@ -119,7 +119,7 @@ export const gogoMobileCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '아니요. 공식 안내에 토,일, 공휴일 휴무로 적혀 있습니다. 상담사 상담은 평일 09:30 ~ 18:00입니다.',
+      a: '아니요. 공식 안내에 "토,일, 공휴일 휴무"로 적혀 있습니다. 상담사 상담은 평일 09:30 ~ 18:00입니다.',
       source: '고고모바일 자주하는 질문·고객센터 안내',
       sourceUrl: 'https://gogomobile.co.kr/board/faq',
     },

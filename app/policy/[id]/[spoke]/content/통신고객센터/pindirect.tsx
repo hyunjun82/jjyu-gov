@@ -120,7 +120,7 @@ export const pindirectCallCenterSpokeContent: SpokeData = {
     },
     {
       q: '주말이나 공휴일에도 상담이 되나요?',
-      a: '아니요. 공식 안내에 주말 및 공휴일 제외로 적혀 있습니다. 상담사 상담은 평일 오전 9시 ~ 오후 6시입니다.',
+      a: '아니요. 공식 안내에 "주말 및 공휴일 제외"로 적혀 있습니다. 상담사 상담은 평일 오전 9시 ~ 오후 6시입니다.',
       source: '핀다이렉트 고객센터 FAQ(운영시간·전화상담)',
       sourceUrl: 'https://www.pindirectshop.com/cs/faq/167',
     },
