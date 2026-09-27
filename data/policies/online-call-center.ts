@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'yesarang-life', role: 'eligibility', title: '굿포유 예사랑라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'joeunlife', role: 'eligibility', title: '더좋은라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'travelbank', role: 'eligibility', title: '트래블뱅크 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jh-life', role: 'eligibility', title: 'JH라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
