@@ -351,6 +351,18 @@ const VARIANT: Record<string, Partial<typeof INDUSTRY[string]>> = {
     dayNote: '환불과 충전 오류는 상담시간 안에 거는 편이 빠릅니다.',
     idStep: '상품권 핀번호와 가입 아이디',
   },
+  /* 택배 (2026-09-27 택배 배치). 온라인 틀 그대로면 "주문·결제 문의, 환불, 계정 문제" 가 택배사 글에 나간다.
+     '사고접수'·'분실신고' 는 보험·카드 고유어라 게이트가 막는다 — '파손·분실 문의' 로 쓴다. */
+  parcel: {
+    unit: '회사',
+    word: '택배사',
+    jobs: '배송 조회, 택배 예약, 파손·분실 문의',
+    remote: '배송 조회나 반품 접수',
+    q5q: '다른 택배사 고객센터 번호도 필요한데요',
+    q5a: '쇼핑몰마다 맡기는 택배사가 다르고, 보낼 때와 받을 때 쓰는 택배사도 달라서 한 번에 여러 곳을 확인하게 됩니다.',
+    dayNote: '배송 조회와 파손·분실 문의는 상담시간 안에 거는 편이 빠릅니다.',
+    idStep: '운송장번호',
+  },
 };
 if (C.variant && !VARIANT[C.variant]) die(`모르는 variant: ${C.variant} (쓸 수 있는 값: ${Object.keys(VARIANT).join(', ')})`);
 const IND = INDUSTRY[C.industry ?? 'insurance'] && { ...INDUSTRY[C.industry ?? 'insurance'], ...(C.variant ? VARIANT[C.variant] : {}) };
@@ -444,7 +456,8 @@ const HW_WEEK = (() => {
   if (timeSpan(rest)) return HW_RAW;
   const extra = rest.replace(/[()\[\]]/g, '').trim();
   /* 남은 말이 요일이면(예스코 '월요일~토요일 09:00~18:00') 떼면 무슨 요일인지 사라진다 — 원문을 쓴다 (2026-09-26) */
-  if (/[월화수목금토일]요일|주말|토요일|매일|연중무휴|365일/.test(extra)) return HW_RAW;
+  /* '월~금(공휴일 제외)' 도 요일이다 (2026-09-27 경동택배) — 떼면 주말에도 받는 것처럼 읽힌다 */
+  if (/[월화수목금토일]요일|월\s*~\s*금|주말|토요일|매일|연중무휴|365일/.test(extra)) return HW_RAW;
   return extra.length > 6 ? span : HW_RAW;
 })();
 /* 토요일에도 상담하는 곳이 있다 (2026-09-26 쿠쿠 '토요일 : 09:00~13:00').
