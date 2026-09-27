@@ -126,6 +126,7 @@ export const telecomCallCenterPolicy = {
 };
 
 export const telecomCallCenterSpokes = [
+  { slug: 'pindirect', role: 'eligibility', title: '핀다이렉트 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'sugar-mobile', role: 'eligibility', title: '슈가모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'skylife', role: 'eligibility', title: '스카이라이프 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'smartel', role: 'eligibility', title: '스마텔 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },

@@ -1,0 +1,36 @@
+{
+  "slug": "pindirect",
+  "name": "핀다이렉트",
+  "aliases": ["스테이지파이브", "(주)스테이지파이브", "핀다이렉트샵", "pindirect"],
+  "industry": "telecom",
+  "brandColor": "#0A0A0A",
+  "official": "https://www.pindirectshop.com",
+  "sourceUrl": "https://www.pindirectshop.com/cs/faq/167",
+  "sourceName": "핀다이렉트 고객센터 FAQ(운영시간·전화상담)",
+  "extraSources": [
+    { "name": "핀다이렉트 FAQ(전화 상담 번호)", "url": "https://www.pindirectshop.com/cs/faq/146" },
+    { "name": "핀다이렉트 FAQ(해지는 어떻게 하나요?)", "url": "https://www.pindirectshop.com/cs/faq/121" },
+    { "name": "핀다이렉트 FAQ(일시정지 신청·해제)", "url": "https://www.pindirectshop.com/cs/faq/124" },
+    { "name": "핀다이렉트 FAQ(eSIM 재발급)", "url": "https://www.pindirectshop.com/cs/faq/350" },
+    { "name": "핀다이렉트 사업자 정보", "url": "https://www.pindirectshop.com/business-information" }
+  ],
+  "verifiedAt": "2026-09-27",
+  "corp": "(주)스테이지파이브",
+  "hq": "서울특별시 송파구 올림픽로35길 123, 향군타워 6층(신천동)",
+  "main": { "label": "전화상담", "tel": "1668-5730" },
+  "hours": {
+    "weekday": "평일 오전 9시 ~ 오후 6시",
+    "holiday": "주말 및 공휴일 제외",
+    "lunch": "점심시간 오후 1시 ~ 2시"
+  },
+  "hoursNote": "[2026-09-27] pindirectshop.com 은 홈·고객센터 첫 화면·사업자 정보에 전화번호가 없고 FAQ 답변에만 있다. /cs/faq/167 '핀다이렉트 고객센터 운영시간: 평일 오전 9시 ~ 오후 6시 (점심시간 오후 1시 ~ 2시). 주말 및 공휴일 제외. … 전화상담은 114(가입자무료) 또는 1668-5730(유료)로 가능합니다.' /cs/faq/146 '전화 상담은 고객센터(가입자 무료 114 / 유료 1668-5730)를 통해 가능해요. 상담이 몰려 전화 연결이 잘 안될경우에 채팅 상담으로 문의주시면 더 빠르게 답변' /cs/faq/121 '통신상품(요금제) 해지는 고객센터에서 [채팅상담]을 통해 도와 드려요' / 상담 가능 시간 평일 오전 9시 ~ 오후 6시, 점심시간: 오후 1시 ~ 2시, 주말 및 공휴일 휴무. FAQ 1~420 전수 확인: 343·356·368 도 같은 시간. ⚠ 알뜰폰허브 브랜드 5021 은 '16685730 (운영시간 : 10-18시)' 로 적혀 있어 공식 FAQ 와 갈린다 — 공식 원문 여러 곳이 일치해 공식 값을 썼다. 로고색은 인라인 SVG fill #0A0A0A(검정 단색).",
+  "notice": "요금제 해지는 고객센터 채팅상담으로 진행한다고 안내돼 있습니다.",
+  "numbersIntro": "가입자는 114로 걸면 무료이고, 1668-5730은 유료입니다. 전화 연결이 잘 안 될 때는 채팅 상담이 더 빠르다고 안내돼 있습니다.",
+  "jobs": "일시정지 신청·해제, eSIM 재발급",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "전화상담", "tel": "1668-5730", "note": "유료" },
+    { "label": "가입자 전화상담", "tel": "114", "note": "가입자 무료" }
+  ]
+}
