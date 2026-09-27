@@ -44,6 +44,8 @@ export interface CallCenterData {
   offhourWord?: string; // 사고접수·긴급출동 / 주문접수·야간 데스크 / 분실신고·승인문의
   idStep?: string;      // 본인 확인 단계에 미리 꺼내 둘 것
   callFee?: string;
+  /* 번호 모음 머리말 — 추가 번호가 용건별이 아니라 통신망별·무료 경로인 곳(2026-09-27 알뜰폰) */
+  numbersNote?: string;
   ars: { day: { key: string; what: string }[]; night: { key: string; what: string }[] };
   /* smsOnly: 전화가 안 되는 문자 전용 번호. 여기에 tel: 을 걸면 안 걸린다 */
   numbers: { label: string; tel: string; note?: string; smsOnly?: boolean }[];
@@ -691,7 +693,7 @@ export default function CallCenterPage({
         <section id="numbers" style={{ margin: '56px 0 0', scrollMarginTop: 84 }}>
           <h2 style={h2}>{cc.name} 고객센터 전화번호 모음</h2>
           <p style={{ margin: '8px 0 0', fontSize: 16.5, color: '#5B6474' }}>
-            용건에 맞는 번호로 바로 걸면 상담 연결이 빨라집니다. 카드를 누르면 전화가 걸립니다.
+            {cc.numbersNote ?? '용건에 맞는 번호로 바로 걸면 상담 연결이 빨라집니다.'} 카드를 누르면 전화가 걸립니다.
           </p>
           <div className="cc-grid" style={{ margin: '20px 0 0' }}>
             {cc.numbers.map((n) => {
@@ -883,7 +885,7 @@ export default function CallCenterPage({
                 "대표번호로 걸어도 연결됩니다" 도 원문에서 확인한 말이 아니라 지운다. */}
             {(hasArs || cc.numbers.length > 1) && (
               <p style={{ margin: '8px 0 0', fontSize: 15.5, color: '#5B6474' }}>
-                {hasArs ? `아래 유형은 대표번호(${cc.main.tel}) 연결 후 ARS 안내에 따라 선택하세요.` : '용건별 번호가 따로 있습니다.'}
+                {hasArs ? `아래 유형은 대표번호(${cc.main.tel}) 연결 후 ARS 안내에 따라 선택하세요.` : (cc.numbersNote ?? '용건별 번호가 따로 있습니다.')}
               </p>
             )}
             <div style={{ margin: '18px 0 0', display: 'flex', flexWrap: 'wrap', gap: 9 }}>
