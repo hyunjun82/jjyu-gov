@@ -1,0 +1,17 @@
+{
+  "slug": "taeyang-life",
+  "keyword": "태양라이프 고객센터",
+  "title": "태양라이프 고객센터 전화번호 및 상담원 연결·문의 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "태양라이프 고객센터 전화번호 모음",
+    "태양라이프 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "태양라이프 고객센터 위치",
+    "태양라이프 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.ty-life.co.kr/",
+  "outline": "data/call-centers/taeyang-life.json",
+  "approved": true,
+  "approvedAt": "2026-09-27"
+}
