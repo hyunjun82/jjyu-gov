@@ -126,6 +126,7 @@ export const telecomCallCenterPolicy = {
 };
 
 export const telecomCallCenterSpokes = [
+  { slug: 'eg-mobile', role: 'eligibility', title: '이지모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'mobing', role: 'eligibility', title: '모빙 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'winnerstel', role: 'eligibility', title: '위너스텔 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'eyes-mobile', role: 'eligibility', title: '아이즈모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
