@@ -87,8 +87,12 @@ fs.mkdirSync(SHOTS, { recursive: true });
 
       for (const ct of clickTexts) {
         const hit = await page.evaluate((t) => {
+          /* 버튼이 아니라 div onClick 으로 펼치는 FAQ 가 있다 (2026-09-27 스마텔 — 질문이 <p>, 핸들러는 부모 div).
+             a·button 에 없으면 그 글자를 담은 가장 안쪽 요소를 누른다 — 클릭은 부모 핸들러까지 올라간다. */
           const el = Array.from(document.querySelectorAll('a,button,[role=button]'))
-            .find((x) => (x.textContent || '').replace(/\s+/g, ' ').includes(t));
+            .find((x) => (x.textContent || '').replace(/\s+/g, ' ').includes(t))
+            ?? Array.from(document.querySelectorAll('p,span,div,dt,h3,h4,strong'))
+              .find((x) => x.childElementCount === 0 && (x.textContent || '').replace(/\s+/g, ' ').includes(t));
           if (!el) return false;
           (el as HTMLElement).click();
           return true;
