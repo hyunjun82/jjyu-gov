@@ -126,6 +126,7 @@ export const telecomCallCenterPolicy = {
 };
 
 export const telecomCallCenterSpokes = [
+  { slug: 'dosirak-mobile', role: 'eligibility', title: '도시락모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'hanpass-mobile', role: 'eligibility', title: '한패스모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'woori-won-mobile', role: 'eligibility', title: '우리WON모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'joytel', role: 'eligibility', title: '조이텔 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
