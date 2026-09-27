@@ -1,0 +1,30 @@
+{
+  "slug": "cultureland",
+  "name": "컬쳐랜드",
+  "aliases": ["컬처랜드", "한국문화진흥", "(주)한국문화진흥", "문화상품권", "컬쳐캐쉬"],
+  "industry": "online",
+  "variant": "giftcard",
+  "brandColor": "#FF3838",
+  "official": "https://www.cultureland.co.kr",
+  "sourceUrl": "https://www.cultureland.co.kr/customer/customerMain.do",
+  "sourceName": "컬쳐랜드 고객센터",
+  "extraSources": [
+    { "name": "컬쳐랜드 공식 홈페이지", "url": "https://www.cultureland.co.kr/main.do" }
+  ],
+  "verifiedAt": "2026-09-27",
+  "corp": "(주)한국문화진흥",
+  "hq": "서울시 강남구 영동대로 326(대치동 1008) 컬쳐랜드 타워",
+  "main": { "label": "고객센터", "tel": "1577-2111" },
+  "hours": {
+    "weekday": "평일 08:00 - 17:00",
+    "lunch": "점심시간 12:00 - 13:00"
+  },
+  "hoursNote": "[2026-09-27] cultureland.co.kr 고객센터(customerMain.do)·홈(main.do)·서비스 도움말 모두 '고객센터 1577-2111 / 평일 08:00 - 17:00 / 점심시간 12:00 - 13:00 / help@cultureland.co.kr'. 푸터 '(주)한국문화진흥 … 서울시 강남구 영동대로 326(대치동 1008) 컬쳐랜드 타워'. 고객센터 메뉴: 이용문의·개명문의·로그인 오류·충전/결제 오류·환불신청. 홈 공지 '9월 23일(수) 고객센터 업무시간 임시 변경 안내' 는 하루 한정이라 쓰지 않음. 주말·공휴일 안내는 원문에 없어 쓰지 않았다. 로고색 header_logo.png 단색.",
+  "notice": "컬쳐캐쉬 환불은 홈페이지 고객센터의 환불신청 메뉴로도 접수할 수 있습니다.",
+  "jobs": "로그인 오류, 충전·결제 오류, 환불",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1577-2111", "note": "평일 08:00 - 17:00" }
+  ]
+}
