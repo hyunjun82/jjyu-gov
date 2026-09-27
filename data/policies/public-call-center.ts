@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'gyeongbuk120', role: 'eligibility', title: '경북도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gangwon120', role: 'eligibility', title: '강원도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gyeongnam120', role: 'eligibility', title: '경남도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'chungnam120', role: 'eligibility', title: '충남도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
