@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'hapdong-parcel', role: 'eligibility', title: '합동택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ilyang-parcel', role: 'eligibility', title: '일양로지스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'kyungdong-parcel', role: 'eligibility', title: '경동택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tincash', role: 'eligibility', title: '틴캐시 고객센터 전화번호 및 상담원 연결·문의 안내' },
