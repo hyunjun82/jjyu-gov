@@ -1,0 +1,28 @@
+{
+  "slug": "tincash",
+  "name": "틴캐시",
+  "aliases": ["틴캐쉬", "teencash", "센드페이", "주식회사 센드페이", "TINCASH"],
+  "industry": "online",
+  "variant": "giftcard",
+  "brandColor": "#006AB2",
+  "official": "https://www.tincash.com",
+  "sourceUrl": "https://www.tincash.com/home/main",
+  "sourceName": "틴캐시 공식 홈페이지 고객센터 안내",
+  "verifiedAt": "2026-09-27",
+  "corp": "주식회사 센드페이",
+  "hq": "서울시 강남구 봉은사로 437, 602호",
+  "main": { "label": "고객센터", "tel": "1666-3009" },
+  "hours": {
+    "weekday": "평일 09:30 ~ 17:30",
+    "holiday": "토요일·일요일·공휴일 휴무",
+    "lunch": "점심시간 12시 ~ 13시"
+  },
+  "hoursNote": "[2026-09-27] tincash.com/home/main (teencash.co.kr 가 여기로 넘어감) 고객센터 박스 '고객센터 1666-3009 (평일 09:30 ~ 17:30) / 점심시간 12시 ~ 13시, 토요일·일요일·공휴일 휴무', 회사 정보(주식회사 센드페이 눌러 펼침) '대표이사 : 최상길 … 주소 : 서울시 강남구 봉은사로 437, 602호 ∙ FAX : 02-6008-2087'. 로고색 nav_logo.png 유채색 최빈.",
+  "jobs": "충전·구매, 핀 조회, 전환 문의",
+  "idStep": "틴캐시 핀번호와 가입 아이디",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1666-3009", "note": "평일 09:30 ~ 17:30" }
+  ]
+}

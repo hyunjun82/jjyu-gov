@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'tincash', role: 'eligibility', title: '틴캐시 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cashbee', role: 'eligibility', title: '캐시비 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tmoney', role: 'eligibility', title: '티머니 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'booknlife', role: 'eligibility', title: '북앤라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
