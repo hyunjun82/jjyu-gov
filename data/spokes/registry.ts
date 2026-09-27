@@ -2125,6 +2125,7 @@ import { goiFuneralCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/cont
 import { tossMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/toss-mobile';
 import { skylifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/skylife';
 import { smartelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/smartel';
+import { gogoMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/gogo-mobile';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2573,6 +2574,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'youtube': youtubeCallCenterSpokeContent,
   },
   'telecom-call-center': {
+    'gogo-mobile': gogoMobileCallCenterSpokeContent,
     'smartel': smartelCallCenterSpokeContent,
     'skylife': skylifeCallCenterSpokeContent,
     'toss-mobile': tossMobileCallCenterSpokeContent,
