@@ -1,19 +1,30 @@
 {
   "slug": "eyes-mobile",
   "name": "아이즈모바일",
-  "aliases": ["아이즈비전", "(주)아이즈비전", "아이즈 알뜰폰", "eyes mobile"],
+  "aliases": [
+    "아이즈비전",
+    "(주)아이즈비전",
+    "아이즈 알뜰폰",
+    "eyes mobile"
+  ],
   "industry": "telecom",
   "brandColor": "#4326F2",
   "official": "https://eyes.co.kr",
   "sourceUrl": "https://eyes.co.kr/",
   "sourceName": "아이즈모바일 공식 홈페이지 고객센터 안내",
   "extraSources": [
-    { "name": "아이즈모바일 자주하는 질문(휴대폰 분실)", "url": "https://eyes.co.kr/customer/faq_view/79" }
+    {
+      "name": "아이즈모바일 자주하는 질문(휴대폰 분실)",
+      "url": "https://eyes.co.kr/customer/faq_view/79"
+    }
   ],
   "verifiedAt": "2026-09-27",
   "corp": "(주)아이즈비전",
   "hq": "서울특별시 강남구 강남대로 556 (06044), 17층",
-  "main": { "label": "문의전화", "tel": "1800-6100" },
+  "main": {
+    "label": "문의전화",
+    "tel": "1800-6100"
+  },
   "hours": {
     "weekday": "09:00 ~ 18:00",
     "lunch": "점심시간 12:00~13:00"
@@ -22,12 +33,32 @@
   "notice": "휴대폰을 잃어버렸다면 홈페이지나 채팅상담으로 정지를 먼저 신청하고, 온라인이 어려우면 전화 상담으로 일시정지를 요청하면 되는데 평일 4시 이전 신청분이 보통 당일 처리된다고 안내돼 있습니다.",
   "numbersIntro": "가입한 망에 따라 SKT망 1800-6100, KT망 1800-6200, LGU+망 1800-4100으로 번호가 나뉘고, 국번 없이 114로 걸면 무료입니다.",
   "jobs": "온라인 신청이 어려운 일시정지 요청",
+  "jobsSentence": "온라인으로 신청하기 어려운 일시정지도 고객센터 전화 상담으로 요청할 수 있습니다.",
   "heroSalt": "d",
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "SKT망", "tel": "1800-6100", "note": "유료" },
-    { "label": "KT망", "tel": "1800-6200", "note": "유료" },
-    { "label": "LGU+망", "tel": "1800-4100", "note": "유료" },
-    { "label": "고객센터 국번없이", "tel": "114", "note": "무료" }
+    {
+      "label": "SKT망",
+      "tel": "1800-6100",
+      "note": "유료"
+    },
+    {
+      "label": "KT망",
+      "tel": "1800-6200",
+      "note": "유료"
+    },
+    {
+      "label": "LGU+망",
+      "tel": "1800-4100",
+      "note": "유료"
+    },
+    {
+      "label": "고객센터 국번없이",
+      "tel": "114",
+      "note": "무료"
+    }
   ]
 }
