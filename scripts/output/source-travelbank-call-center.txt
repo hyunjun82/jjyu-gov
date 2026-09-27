@@ -1,0 +1,111 @@
+SLUG: travelbank-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/travelbank-call-center-*.png)
+
+===== [1] http://travelbank.or.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/travelbank-call-center-1.png
+CHARS: 706
+
+HOME
+회사소개
+DY Life Buddy
+	
+	
+	
+트래블뱅크
+HOME
+회사소개
+DY Life Buddy
+상품
+고객센터
+	
+	
+LOGIN
+JOIN
+site search
+
+트래블뱅크 주요상품
+
+크루즈 여행
+VIP골프사랑 헬스케어24
+DY라이프 버디
+패키지여행
+
+상담문의
+
+1566-3318
+
+트래블뱅크의 카카오톡 플러스친구가 되어주세요!
+
+icon
+
+트래블뱅크(주)  ㅣ  대표이사 : 유현숙  ㅣ 사업자등록번호 : 613-81-70994  ㅣ 선불식 할부거래업 등록증 : 서울-2023-제170호 ㅣ관광사업등록번호 : 제2025-000007호   ㅣ  방문판매등록증 : 제2025-서울마포-0009호 
+
+전화권유판매업신고증 : 제 2025-서울마포-0007호 ㅣ  
+
+서울 사무실 : 서울특별시 마포구 만리재로 14, 2305층(공덕동, 한국사회복지회관 르네상스타워)
+
+창원 사무실 : 경상남도 창원시 의창구 우곡로 2-11, 강남프리텔 2층 (도계동)   ㅣ  양산 사무실 : 경상남도 양산시 물금읍 증산역로153 정우프라자 203호
+
+대표전화 : 1566-3318  ㅣ  팩스 : 055-237-9330 
+
+국내외여행업기획여행 보증서  ㅣ  개인정보관리책임 및 청소년보호 책임자 :이해인    ㅣ  중요정보고시사항    ㅣ  외부회계감사보고서
+
+이용약관
+개인정보처리방침
+여행약관
+Copyright ⓒ 2026 트래블뱅크 All rights reserved.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+알림
+ 뒤로
+ 알림 설정
+ 뒤로
+ 더보기 
+ 게시물 알림
+ 내 글 반응 내가 작성한 게시물이나 댓글에 다른 사람이 댓글이나 답글을 작성하면 알려줍니다.
+ 공지사항 사이트에서 보내는 중요한 공지를 실시간으로 알려줍니다.
+
+Alarm
+ 마이페이지
+ 로그아웃
+
+로그인이 필요합니다.
+ 로그인
+ HOME
+ 회사소개
+ DY Life Buddy
+ 상품
+ 크루즈여행
+ 동북아시아 크루즈
+ VIP 골프사랑
+ 펫사랑
+ 패키지여행
+ 고객센터
+ 공지사항
+ 문의 게시판
+
+HOME
+ 회사소개
+ DY Life Buddy
+ 상품
+ 크루즈여행
+ VIP 골프사랑
+ 펫사랑
+ 패키지여행
+ 고객센터
+ 공지사항
+ 문의 게시판
+
+MENU
+ 트래블뱅크 
+ site search
+
+{
+ "@context": "https://schema.org",
+ "@type": "ImageObject",
+ "contentUrl": "https://cdn.imweb.me/thumbnail/20251226/b6ba4ab3cef2c.png"
+}
+ 상담문의1566-3318

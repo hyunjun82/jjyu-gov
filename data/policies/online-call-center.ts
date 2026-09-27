@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'travelbank', role: 'eligibility', title: '트래블뱅크 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jh-life', role: 'eligibility', title: 'JH라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'coway-life-solution', role: 'eligibility', title: '코웨이라이프솔루션 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'nadeurigaza', role: 'eligibility', title: '나드리가자 고객센터 전화번호 및 상담원 연결·문의 안내' },
