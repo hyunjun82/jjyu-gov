@@ -35,7 +35,7 @@ export const sugarMobileCallCenterSpokeContent: SpokeData = {
   heroAct: { label: '1566-1246 로 문의하기', href: TEL },
 
   keyFacts: {
-    '대표번호': '1566-1246 (그 외 전화)',
+    '대표번호': '1566-1246 (대표번호)',
     '상담 가능 시간': '평일 09시~18시',
     '공휴일': '토/일요일 법정공휴일 휴무',
     '본사': '서울 송파구 송파대로 167, 비동 1316,1317호(문정동, 문정역테라타워1)',
@@ -55,7 +55,7 @@ export const sugarMobileCallCenterSpokeContent: SpokeData = {
       highlights: ['1566-1246', '대표번호'],
       table: {
         headers: ['구분', '번호', '비고'],
-        rows: [['그 외 전화', '1566-1246', '유료, 유선 또는 타사 휴대폰'], ['자사 가입 폰에서', '114', '무료'], ['LG유플러스 로밍센터', '02-3416-7010', '로밍 요율·상품 문의']],
+        rows: [['대표번호', '1566-1246', '유료, 유선 또는 타사 휴대폰'], ['자사 가입 폰에서', '114', '무료'], ['LG유플러스 로밍센터', '02-3416-7010', '로밍 요율·상품 문의']],
       },
       sourceNote: '* 출처: 슈가모바일 공식 홈페이지 고객센터 안내 (2026-09-27 확인)',
     },
@@ -156,7 +156,7 @@ export const sugarMobileCallCenterSpokeContent: SpokeData = {
     "sourceName": "슈가모바일 공식 홈페이지 고객센터 안내",
     "verifiedAt": "2026-09-27",
     "main": {
-      "label": "그 외 전화",
+      "label": "대표번호",
       "tel": "1566-1246"
     },
     "hours": {
@@ -177,7 +177,7 @@ export const sugarMobileCallCenterSpokeContent: SpokeData = {
     },
     "numbers": [
       {
-        "label": "그 외 전화",
+        "label": "대표번호",
         "tel": "1566-1246",
         "note": "유료, 유선 또는 타사 휴대폰"
       },
