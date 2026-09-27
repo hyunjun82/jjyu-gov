@@ -464,7 +464,8 @@ const HW_WEEK = (() => {
    칸이 없으니 평일 시간만 쓰고 "이 시간을 벗어나면 연결이 안 됩니다" 가 나가 토요일 상담이 없는 것처럼 읽혔다.
    hours.saturday 에 원문 그대로 적으면 문장 속 운영시간에 이어 붙인다. */
 /* hoursText 는 "토요일 : " 을 라벨로 보고 벗긴다 — 벗겨지면 요일을 다시 붙인다 */
-const SAT = C.hours.saturday ? ((t: string) => (/토|주말/.test(t) ? t : `토요일 ${t}`))(hoursText(C.hours.saturday)) : '';
+/* 원문이 '토 09:00 ~ 13:00' 처럼 한 글자로 적으면 FAQ 에 "토는" 이 나온다 (2026-09-27 일양로지스) */
+const SAT = C.hours.saturday ? ((t: string) => (/토|주말/.test(t) ? t.replace(/^토(?=\s|\()/, '토요일') : `토요일 ${t}`))(hoursText(C.hours.saturday)) : '';
 const HW = SAT ? `${HW_WEEK}, ${SAT}` : HW_WEEK;
 /* 상담시간을 아예 안 적는 회사가 있다 (카디프생명·증권사 13곳).
    시각이 하나도 없으면 "이 시간을 벗어나면" 같은 말이 성립하지 않는다.
@@ -662,7 +663,7 @@ const FAQ_HOURS = NO_HOURS
     ? `${IND.agent} 상담은 ${HW}입니다. ${[OFF_CLAUSE, SE_TXT].filter(Boolean).join(' ')}`
     : OFF_CLOSED && SAT
     /* 토요일에 받는 곳에 "아니요" 로 답하면 틀린 말이다 */
-    ? `${(timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일'}${josa((timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일', '은')} ${timeSpan(SAT) || SAT}에 ${IND.agent} 상담이 됩니다. 그 밖의 휴일은 공식 안내에 ${hoursText(OFF_VALUES)}${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다.`
+    ? `${(timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일'}${josa((timeSpan(SAT) ? SAT.replace(timeSpan(SAT), '').replace(/[\s,]+$/, '').trim() : '') || '토요일', '은')} ${timeSpan(SAT) || SAT}에 ${IND.agent} 상담이 됩니다. ${isSentence(OFF_VALUES) ? `그 밖의 휴일은 공식 안내에 "${OFF_VALUES.replace(/[.]$/, '')}"라고 적혀 있습니다.` : `그 밖의 휴일은 공식 안내에 ${hoursText(OFF_VALUES)}${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다.`}`
     : OFF_CLOSED
     /* 값이 문장이면(한진 '주말(토/일) 및 공휴일은 근무하지 않습니다.') 조사를 붙이지 않고 인용한다 */
     ? (isSentence(OFF_VALUES) ? `아니요. 공식 안내에 "${OFF_VALUES.replace(/[.]$/, '')}"라고 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.` : `아니요. 공식 안내에 ${hoursText(OFF_VALUES)}${josa(hoursText(OFF_VALUES), '으로')} 적혀 있습니다. ${IND.agent} 상담은 ${HW}입니다.`)
@@ -745,7 +746,8 @@ const MAP_LABELS = ['가까운 지점 찾기', '지점 위치 확인하기', '�
 const HUB_TAILS = [
   `다른 ${IND.word}${josa(IND.word, '은')} 몇 시까지인지 함께 확인해 두세요.`,
   '회사마다 갈리니 한자리에서 비교해 보세요.',
-  '가입한 곳이 여럿이면 미리 봐 두는 게 낫습니다.',
+  /* '가입한 곳' 은 택배사·시청 콜센터·도시가스에 안 맞는다 (2026-09-27) */
+  '두 곳 이상 거셔야 하면 미리 봐 두는 게 낫습니다.',
   '급할 때 다시 찾지 않게 목록을 열어 두시죠.',
   '어디가 지금 받는지는 목록에서 바로 갈립니다.',
 ];
