@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'kyungdong-parcel', role: 'eligibility', title: '경동택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tincash', role: 'eligibility', title: '틴캐시 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cashbee', role: 'eligibility', title: '캐시비 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tmoney', role: 'eligibility', title: '티머니 고객센터 전화번호 및 상담원 연결·문의 안내' },

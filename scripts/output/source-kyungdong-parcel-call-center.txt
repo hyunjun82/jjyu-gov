@@ -1,0 +1,867 @@
+SLUG: kyungdong-parcel-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/kyungdong-parcel-call-center-*.png)
+
+===== [1] https://kdexp.com/cs/cs.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/kyungdong-parcel-call-center-1.png
+CHARS: 793
+
+회사소개
+CEO인사말
+비전
+CI소개
+연혁
+조직도
+물류 네트워크
+터미널위치
+영업소위치
+서비스 안내
+표준운임
+표준운임
+표준운임 주요안내
+도서지역 표준운임
+변상규정
+지속가능경영
+ESG경영
+ESG경영
+윤리경영
+안전보건경영
+사회책임경영(CSR)
+사회공헌
+경영활동
+활동 소식지
+안전신문고시스템
+경동신문고시스템
+홍보센터
+보도자료
+수상내역
+홍보영상
+고객지원
+공지사항
+고객센터
+FAQ
+고객지원
+
+화물은 SAFE 시간은 SAVE
+
+공지사항
+고객센터
+FAQ
+고객센터
+작은 의견도 소중히 여기겠습니다.
+문의하기 칭찬하기 제안하기 개선요구 개소문의
+*
+운송장번호		
+*
+이메일	 @  
+직접입력
+*
+문의사항	
+배송문의
+	
+*
+고객유형	
+선택없음
+
+*
+제목	
+
+*
+내용	
+(필수) 개인정보수집 및 이용에 동의합니다.
+자세히
+문의하기
+전화상담1899-5368
+
+월~금(공휴일 제외) 07:00~17:00 / 점심시간: 12:00~13:00
+
+회사소개 이용약관 개인정보 취급방침 이메일 무단수집 거부 택배표준약관
+
+경동물류(주)경기도 수원시 장안구 만석로 229 (송죽동 183-1)
+
+대표: 백문현대표번호: 1899-5368개인정보/웹사이트/고객상담: 1899-5368
+사업자 등록번호: 135-81-29340팩스: 031-910-1629
+
+THIS SITE IS PROTECTED BY RECAPTCHA AND
+THE GOOGLE PRIVACY POLICY AND TERMS OF SERVICE APPLY.
+
+COPYRIGHT(C) 2022 KYUNGDONG EXPRESS R&D CENTER. ALLRIGHT RESERVED
+
+패밀리 사이트
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+*운송장번호 | *전화번호 ('-'제외) | *이메일 | @ 직접입력 직접입력 naver.com daum.net hanmail.net nate.com gmail.com empal.com lycos.co.kr hotmail.com dreamwiz.com yahoo.com
+
+[표 2]
+*문의사항 | 배송문의 배송문의 반품문의 변상문의 불편사항 기타 | *고객유형 | 선택없음 선택없음 보낸분 받는분 판매자 기타
+*제목
+*내용
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+직접입력
+ naver.com
+ daum.net
+ hanmail.net
+ nate.com
+ gmail.com
+ empal.com
+ lycos.co.kr
+ hotmail.com
+ dreamwiz.com
+ yahoo.com
+
+배송문의
+ 반품문의
+ 변상문의
+ 불편사항
+ 기타
+
+선택없음
+ 보낸분
+ 받는분
+ 판매자
+ 기타
+
+접수완료
+ 접수가 성공적으로 완료되었습니다.
+ 고객님의 소중한 의견 진심으로 감사드립니다.문의주신 내용에 대한 답변은 빠른 시일 내에 보내드리겠습니다.
+ 확인
+
+개인정보 수집 및 이용동의
+ 경동택배는 고객의 소리 서비스 이용을 위하여다음과 같이 고객의 정보를 수집, 이용하고 있습니다.
+ < 수집항목 >
+ - 이름, 이메일
+ < 수집 및 이용 목적 >
+ - 고객 민원 접수, 사실 관계 확인을 위한 연락 및 통지, 처리 결과 안내
+ < 보유 기간 >
+ - 상담 및 민원 처리 완료 시까지 다만, 전자상거래 등에서의 소비자 보호에 
+ 관한 법률에 따라 소비자 불만/분쟁 처리 기록은 3년간 보관 고객은 상기의 
+ 개인정보 수집 및 이용에 대해 동의를 거부하실 수 있으나 해당 동의를 
+ 거부하시는 경우 해당 서비스 이용이 불가합니다.
+ 확인
+
+합동택배
+ 경동렌트카
+ 경동컨테이너창고임대
+ 다룸
+
+이메일 무단수집거부
+ 본 웹사이트에 게시된 메일주소의 
+ 무단 수집을 거부합니다.
+ - 본 웹사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나 
+ 그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하며, 
+ 이를 위반 시 정보통신망법에 의하여 형사처벌됨을 유념하시기 바랍니다.
+ 확인
+
+
+===== [2] https://kdexp.com/index.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/kyungdong-parcel-call-center-2.png
+CHARS: 1699
+
+회사소개
+CEO인사말
+비전
+CI소개
+연혁
+조직도
+물류 네트워크
+터미널위치
+영업소위치
+서비스 안내
+표준운임
+표준운임
+표준운임 주요안내
+도서지역 표준운임
+변상규정
+지속가능경영
+ESG경영
+ESG경영
+윤리경영
+안전보건경영
+사회책임경영(CSR)
+사회공헌
+경영활동
+활동 소식지
+안전신문고시스템
+경동신문고시스템
+홍보센터
+보도자료
+수상내역
+홍보영상
+고객지원
+공지사항
+고객센터
+FAQ
+국제특송요금표
+ 
+변상진행
+ 
+표준운임계산
+ 
+영업소조회
+운송장번호
+고객과 함께하는 물류
+물류 브랜드의
+새로운 길을 열다
+
+경동택배는 최상의 서비스로 고객감동을 실현해 가고 있는
+물류 전문 회사로서 끊임없는 진화와 혁신을 이루어 가고 있습니다.
+
+자세히보기
+
+독보적인 물류 네트워크 국내 최대 규모의 터미널 보유
+
+03 / 03
+인재와 기술을 바탕으로
+최적의 물류 서비스를 실현
+
+경동택배는 빠르게 변화하는 물류 산업에 선제적으로 대응하며
+최첨단 물류 회사로서의 도약을 목표로 노력하고 있습니다.
+
+1,200여개
+
+전국 영업소
+독보적인 물류 네트워크
+
+9개
+
+전국 허브 터미널
+최대 단일 터미널 보유
+
+140만개
+
+하루 평균 배송
+익일 오전 배송제
+
+4,550여대
+
+화물차량
+빠른 익일 배송 실현
+
+1,200여개
+
+전국 영업소
+독보적인 물류 네트워크
+
+9개
+
+전국 허브 터미널
+최대 단일 터미널 보유
+
+140만개
+
+하루 평균 배송
+익일 오전 배송제
+
+4,550여대
+
+화물차량
+빠른 익일 배송 실현
+
+1,200여개
+
+전국 영업소
+독보적인 물류 네트워크
+
+9개
+
+전국 허브 터미널
+최대 단일 터미널 보유
+
+140만개
+
+하루 평균 배송
+익일 오전 배송제
+
+4,550여대
+
+화물차량
+빠른 익일 배송 실현
+
+사회 공헌을 위한 지속가능경영
+친환경 녹색 물류 산업
+ESG 경영
+
+경동택배는 친환경 및 사회적 책임경영과
+윤리경영을 통해 지속 가능한 발전들 추구합니다.
+
+바로가기
+사회공헌
+
+경동택배는 친환경 및 사회적 책임경영과
+윤리경영을 통해 지속 가능한 발전을 추구합니다.
+
+경동택배, 지역사회 공헌 ‘깨끗한 환경 만들기’ 캠페인으로 … ESG 경영 본격 실천 나서
+새로운 소식
+혁신을 현실로
+만들어 가는 추진력
+
+대한민국 대표 물류브랜드로서 성장하는 경동물류,
+물류 혁신을 위한 다향한 기회와 가능성을 만들어 가고 있습니다.
+
+공지사항[공지사항] 구 홈페이지 운송장조회url 서비스 중단 및 url 주소변경안내
+2023-04-04
+공지사항[공지사항] 경동택배 홈페이지 개편 안내
+2023-04-03
+자세히보기
+새소식
+경동택배, 디지털 전환 박차… 차세대 물류 시스템 구축 완료
+새소식
+“일반택배는 우체국, 기업택배는 경동·합동이 서비스 품질 1위”
+새소식
+‘기업 택배 강자’ 경동·합동 택배, 최우수 평가 ‘이것’ 때문
+새소식
+국토부 택배서비스 평가...일반 ‘우체국’, 기업 ‘경동·합동택배’ 최고
+경동택배는 최상의 서비스로 고객감동을 실현해 가고 있는
+물류 전문 회사로서 끊임없는 진화와 혁신을 이루어 가고 있습니다.
+
+수상내역 홍보영상
+
+회사소개 이용약관 개인정보 취급방침 이메일 무단수집 거부 택배표준약관
+
+경동물류(주)경기도 수원시 장안구 만석로 229 (송죽동 183-1)
+
+대표: 백문현대표번호: 1899-5368개인정보/웹사이트/고객상담: 1899-5368
+사업자 등록번호: 135-81-29340팩스: 031-910-1629
+
+COPYRIGHT(C) 2022 KYUNGDONG EXPRESS R&D CENTER. ALLRIGHT RESERVED
+
+패밀리 사이트
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+운송장이 등록되지 않았거나보내는 분이 상품을 준비 중입니다. 보내는 분 혹은 해당 발송 업체로 문의 주시기 바랍니다.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+표준운임계산
+ 택배
+ 정기화물
+ 출발권역
+ 수도권
+ 경남권
+ 경북권
+ 전남권
+ 충청권
+ 강원권
+ 전북권
+ 제주권
+ 도착권역
+ 수도권
+ 경남권
+ 경북권
+ 전남권
+ 충청권
+ 강원권
+ 전북권
+ 제주권
+ 가로
+ cm
+ 세로
+ cm
+ 높이
+ cm
+ 중량
+ kg
+ 계산하기
+ 부피운임
+ 원
+ 중량운임
+ 원
+ *IATA(항공운임산출)규정에 의거하여 부피운임과 중량운임 중 더 큰 운임을 적용합니다.
+ 고객님이 지급할 운임
+ 원
+ *고제품가 할증, 도서운임 별도입니다.
+ *고제품가 할증, 도서운임 별도입니다.
+ *백원 보험료는 별도입니다.
+$(document).ready(function(){
+ $("#nonJeju").hide();
+});
+//숫자만 입력 정규식
+function onlyNumber(str){
+ str.value = str.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1'); 
+}
+//콤마 생성
+function comma(str) {
+ str = String(str);
+ return str.replace(/(^0+)/, "").replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,');
+}
+// 택배/정기화물
+ $('input:radio[name="deliveryType"]').change(function (){
+ var delType = $(this).val();
+ //if(delType == "화물"){
+ if(delType == "0003"){
+ $('#resetForm')[0].reset();
+ $('.area').hide();
+ $('#jeju').hide();
+ $('#nonJeju').show();
+ } else {
+ $('#resetForm')[0].reset();
+ $('.area').show();
+ $('#jeju').show();
+ $('#nonJeju').hide();
+ }
+ });
+//계산 함수 (new API 적용)
+function chargeCal() {
+ //필수값 체크
+ if($("#startCityList").val() == ""){
+ alert("출발권역을 선택해주세요.");
+ return false;
+ }
+ if($("#endCityList").val() == ""){
+ alert("도착권역을 선택해주세요.");
+ return false;
+ }
+ if($("#cal_width").val() == ""){
+ alert("가로를 입력해주세요");
+ $("#cal_width").focus();
+ return false;
+ }
+ if($("#cal_vertical").val() == ""){
+ alert("세로를 입력해주세요");
+ $("#cal_vertical").focus();
+ return false;
+ }
+ if($("#cal_height").val() == ""){
+ alert("높이를 입력해주세요");
+ $("#cal_height").focus();
+ return false;
+ }
+ if($("#cal_weight").val() == ""){
+ alert("중량을 입력해주세요");
+ $("#cal_weight").focus();
+ return false;
+ }
+ let kdhdType = "KD"; //영업소 구분 - KD or HD
+ let payType = $("input[name=deliveryType]:checked").val(); //운임 구분 - 0001:택배 or 0003:화물
+ let branSndnSido = $("#startCityList option:selected").val(); //발송 연계권명
+ let branArvlSido = $("#endCityList option:selected").val(); //도착 연계권명
+ let width = Number($("#cal_width").val()); //가로(cm)
+ let vertical = Number($("#cal_vertical").val()); //세로(cm)
+ let height = Number($("#cal_height").val()); //높이(cm)
+ let weight = Number($("#cal_weight").val()); //중량(kg)
+ let pDVolume = Number($("#cal_width").val()) * Number($("#cal_vertical").val()) * Number($("#cal_height").val());
+ //유효성 검사
+ if(parseInt(weight) > 10000){
+ alert("운임을 측정할 수 없습니다. 최대 중량은 10,000kg을 초과할 수 없습니다.");
+ return false;
+ }
+ if(parseInt(pDVolume) > 10000000){
+ alert("운임을 측정할 수 없습니다. 최대 부피(가로*세로*높이) 값은 10,000,000㎤ 초과할 수 없습니다.");
+ return false;
+ }
+ $.ajax({
+ url: '/service/charge/new/ajax_basic.do'
+ ,type: 'POST'
+ ,dataType: 'json'
+ ,data: {
+ 'kdhdType' : kdhdType
+ , 'payType' : payType
+ , 'branSndnSido' : branSndnSido
+ , 'branArvlSido' : branArvlSido
+ , 'width' : width
+ , 'vertical' : vertical
+ , 'height' : height
+ , 'weight' : weight
+ }
+ , success : function(response) {
+ // JSON 파싱 및 사용
+ let resData = JSON.parse(response.resData);
+ let data = resData.data;
+ let pay = data.pay;
+ console.log("[##### pay]\n", pay);
+ $("#volume_charge").val(comma(pay.volumePay)); //부피운임
+ $("#weight_charge").val(comma(pay.weightPay)); //중량운임
+ $("#final_charge").val(comma(pay.pay)); //고객님이 지급할 운임
+ }
+ , error : function() {
+ alert("표준운임 계산을 완료할 수 없습니다. 다시 시도해주세요.");
+ }
+ }); // ajax close
+}
+
+운송장 조회
+ 운송장이 등록되지 않았거나보내는 분이 상품을 준비 중입니다.
+ 보내는 분 혹은 해당 발송 업체로 문의 주시기 바랍니다.
+ let layerYn; //운송장 조회 페이지의 진입 경로에 따라 CSS 분기 처리하기 위한 변수
+ $(document).ready(function(){
+ layerYn = $('input[name=layerYn]').val();
+ //GET 요청으로 진입
+ if(layerYn === "N") {
+ //del_layer_btn 버튼 클릭 없이 ajax 호출
+ deliverySearchNew();
+ }
+ });
+ //운송장 조회 API(신버전)
+ function deliverySearchNew() {
+ layerYn = $('input[name=layerYn]').val();
+ let barcode;
+ //main의 운송장조회 버튼(del_layer_btn) 클릭하여 진입
+ if(layerYn === "Y") {
+ barcode = $('#barcode').val();
+ }
+ //GET 요청으로 진입
+ else if(layerYn === "N") {
+ barcode = $('input[name=barcode]').val();
+ }
+ let content = "";
+ let content2 = "";
+ let content3 = "";
+ $.ajax({
+ type : "GET",
+ url : "/service/delivery/new/ajax_basic.do",
+ data : {
+ "barcode" : barcode
+ },
+ dataType : "json",
+ success : function(response) {
+ let info = response.data; //배송정보
+ let items = null; //배송상태
+ if (info && info.scanList) { //null이 아닐 경우 초기화
+ items = info.scanList;
+ }
+ $('#del_layer_wrap').show();
+ if(response.result === "suc"){
+ console.log("###신버전 호출 성공###");
+ items.reverse();
+ //배송정보
+ content += '<div class="del_info">';
+ content += '<p class="del_info_tit" >배송정보</p>';
+ content += '<div class="del_info_txt"><span class="tit">운송장번호</span>';
+ content += '<span class="txt exBold">'+ cfmt_nullForMarkup(info.prodCode, '-') +'</span></div>';
+ content += '<div class="del_info_txt"><span class="tit">발송영업소</span>';
+ content += '<span class="txt">'+ cfmt_nullForMarkup(info.branSndnNm, '-') +'</span></div>';
+ content += '<div class="del_info_txt"><span class="tit">도착영업소</span>';
+ content += '<span class="txt">'+ cfmt_nullForMarkup(info.branArvlNm, '-') +'</span></div>';
+ content += '<div class="del_info_txt"><span class="tit">보낸 분</span>';
+ content += '<span class="txt">' + cfmt_nullForMarkup(info.snCustNm, '-');
+ content += '<span class="sort">'+ cfmt_nullForMarkup(info.prodName, '-') +'</span>';
+ content += '<span class="num">' + cfmt_nullForMarkup(info.count + info.wrapStatus, '-') + '</span></span></div>';
+ content += '<div class="del_info_txt"><span class="tit">받는 분</span>';
+ content += '<span class="txt">' + cfmt_nullForMarkup(info.rvCustNm, '-') + '</span></div>';
+ content += '</div>';
+ //배송상태
+ content2 += '<div class="del_pro"><p class="del_info_tit" >배송상태</p>'
+ content2 += '<div class="del_pro_con">'
+ for(let i = 0; i < items.length; i++){
+ /* 기존 api response
+ //날짜+시간(초 삭제)
+ let date = items[i].regDt.split(" ", 1);
+ let time = items[i].regDt.split(" ").reverse()[0];
+ let time2 = time.substring(0,5);
+ let regDate = date + " " + time2; //스캔등록시간
+ */
+ //변경된 api response(25.03.04)
+ let date = items[i].scanDt.split(" ", 1);
+ let time = items[i].scanDt.split(" ").reverse()[0];
+ let time2 = time.substring(0,5);
+ let regDate = date + " " + time2; //스캔등록시간
+ //최신 스캔 정보는 파란 이미지로 표시
+ if(i === 0){
+ content2 += '<div class="del_item now">';
+ content2 += '<span class="del_img">'
+ //완료 이미지
+ if(items[i].scanTypeNm === '도착' || items[i].scanTypeNm === '인수확인'){
+ content2 += '<img src="/common/img/delivery/complete_b.png" alt="">'
+ }
+ //영수증 이미지
+ else if(items[i].scanTypeNm === '예약접수' || items[i].scanTypeNm === '접수'){ //현재 차세대 개발중으로 DB 변경 가능성이 있어 둘 다 체크(확정 후 scanTypeNm에 맞추기)
+ content2 += '<img src="/common/img/delivery/receipt_b.png" alt="">'
+ }
+ //트럭 이미지
+ else if(items[i].scanTypeNm === '발송' || items[i].scanTypeNm === '노선상차' || items[i].scanTypeNm === '지연도착' || items[i].scanTypeNm === '배송중'){
+ content2 += '<img src="/common/img/delivery/truck_b.png" alt="">'
+ }
+ //영업소 이미지
+ else if(items[i].scanTypeNm === '터미널'|| items[i].scanTypeNm === '회수'){
+ content2 += '<img src="/common/img/delivery/office_b.png" alt="">'
+ }
+ else{
+ content2 += '<img src="/common/img/delivery/office_b.png" alt="">'
+ }
+ }
+ //최신 이외의 스캔 정보는 회색 이미지로 표시
+ else {
+ content2 += '<div class="del_item">';
+ content2 += '<span class="del_img">'
+ //완료 이미지
+ if(items[i].scanTypeNm === '도착' || items[i].scanTypeNm === '인수확인'){
+ content2 += '<img src="/common/img/delivery/done_g.png" alt="">'
+ }
+ //영수증 이미지
+ else if(items[i].scanTypeNm === '예약접수'|| items[i].scanTypeNm === '접수'){ //현재 차세대 개발중으로 DB 변경 가능성이 있어 둘 다 체크(확정 후 scanTypeNm에 맞추기)
+ content2 += '<img src="/common/img/delivery/receipt_g.png" alt="">'
+ }
+ //트럭 이미지
+ else if(items[i].scanTypeNm === '발송' || items[i].scanTypeNm === '노선상차' || items[i].scanTypeNm === '지연도착' || items[i].scanTypeNm === '배송중'){
+ content2 += '<img src="/common/img/delivery/truck_g.png" alt="">'
+ }
+ //영업소 이미지
+ else if(items[i].scanTypeNm === '터미널'|| items[i].scanTypeNm === '회수'){
+ content2 += '<img src="/common/img/delivery/office_g.png" alt="">'
+ }
+ else{
+ content2 += '<img src="/common/img/delivery/office_g.png" alt="">'
+ }
+ }
+ content2 += '</span>' 
+ content2 += '<div class="del_item_info"><span class="del_state">'
+ content2 += '<span class="del_name">' + cfmt_nullForMarkup(items[i].strtPointNm, '-') + '</span>'
+ content2 += '<span class="del_state_txt">' + cfmt_nullForMarkup(items[i].scanTypeNm, '-') + '</span></span>'
+ content2 += '<span class="del_time"><span>' + cfmt_nullForMarkup(regDate, '-') + '</span></span>'
+ content2 += '</div></div>'
+ } // for문 close
+ if(layerYn === "Y") {
+ content2 += '</div>'
+ content2 += '<a href="javascript:onPrint()" class="del_print_btn">출력하기</a>'
+ content2 += '</div>'
+ }
+ $("#del_info_wrap").html(content);
+ $("#del_info_wrap").append(content2);
+ } else {
+ alert("잘못된 운송장번호이거나 조회하는데 실패했습니다. 다시 시도하여 주시기 바랍니다. \n *4개월 이전 운송장번호는 조회가 불가합니다.");
+ }
+ },error : function(xhr, request, status, error) {
+ alert("잘못된 운송장번호이거나 조회하는데 실패했습니다. 다시 시도하여 주시기 바랍니다. \n *4개월 이전 운송장번호는 조회가 불가합니다.");
+ }
+ }); // ajax close
+ }
+ function onPrint() {
+ const html = document.querySelector('html');
+ const printContents = document.querySelector('#del_layer_wrap').innerHTML;
+ const printDiv = document.createElement("DIV");
+ printDiv.className = "print-div";
+ html.appendChild(printDiv);
+ printDiv.innerHTML = printContents;
+ document.body.style.display = 'none';
+ window.print();
+ setTimeout(function(){
+ document.body.style.display = 'block';
+ printDiv.style.display = 'none';
+ },800);
+ }
+
+운송장번호 조회
+ 변상진행을 확인하시려면 먼저 운송장번호 조회가 필요합니다.
+ 일치하는 운송장번호가 존재하지 않습니다. 다시 입력해 주세요.
+ * 변상완료 후 6개월이 경과 된 자료는 조회되지 않습니다.
+ 변상진행
+ 배송정보
+ 운송장번호
+ 발송영업소
+ 도착영업소
+ 보낸 분
+ 받는 분
+ 변상진행
+ $('#claim_layer_wrap_mobile').hide();
+ $('#claim_layer_wrap_web').hide();
+ // 변상조회 api(신버전)
+ $('#claim_search_btn').on('click', function(){
+ let barcode = $('#claimBarcode').val();
+ if(barcode == null || barcode == ""){
+ alert("운송장번호를 입력해주세요.");
+ $('#claimBarcode').focus();
+ }
+ else {
+ $.ajax({
+ type : "GET",
+ url : "./service/claim_ajax.do",
+ data : {
+ "barcode" : barcode
+ },
+ dataType : "json",
+ success : function(response) {
+ console.log('###변상 진행상태 조회 결과', response);
+ let device = response.device;
+ let info = response.data; //배송정보
+ let historyList; //변상 진행상태 히스토리
+ if (info && info.historyList) { //null이 아닐 경우 초기화
+ historyList = info.historyList;
+ historyList.reverse();
+ }
+ let content = '';
+ if(response.result === "suc"){
+ //[배송정보]
+ $("#prodCode").text(cfmt_nullForMarkup(info.prodCode, '-'));
+ $("#sndnNm").text(cfmt_nullForMarkup(info.sndnNm, '-'));
+ $("#arvlNm").text(cfmt_nullForMarkup(info.arvlNm, '-'));
+ let snCustNmHtml = cfmt_nullForMarkup(info.snCustNm, '-'); //css 구조때문에 문자열 조립하여 html 삽입
+ snCustNmHtml += '<span class="sort" id="prodName">' + cfmt_nullForMarkup(info.prodName, '-') + '</span>';
+ snCustNmHtml += '<span class="num" id="pack">' + cfmt_nullForMarkup(info.count, '-') + cfmt_nullForMarkup(info.wrapStatus, '-') + '</span>';
+ $("#snCustNm").html(snCustNmHtml);
+ $("#rvCustNm").text(cfmt_nullForMarkup(info.rvCustNm, '-'));
+ //[변상진행]
+ //이미지명 접두사 매핑 (기본 이름, 확장자는 추가 안함)
+ let stateImgBase = {
+ "고객접수": "cus",
+ "지사접수": "branch",
+ "지사취소": "cancel",
+ "지사완료": "done",
+ "변상접수": "reimb",
+ "변상취소": "cancel",
+ "법무이관": "move",
+ "소송진행": "move",
+ "조사완료": "done",
+ "승인대기": "suit",
+ "송금대기": "suit",
+ "송금요청": "move",
+ "송금완료": "wire",
+ "변상완료": "done"
+ };
+ let content = "";
+ for (let i = 0; i < historyList.length; i++) {
+ let item = historyList[i];
+ let stateNm = item.exposeProcStateNm;
+ let regDt = item.regDt;
+ let imgBase = stateImgBase[stateNm] || "default";
+ let suffix = i === 0 ? "_b" : "_g"; //최종상태만 파란 이미지
+ let imgSrc = "/common/img/delivery/" + imgBase + suffix + ".png"; let nowClass = i === 0 ? " now" : "";
+ content += 
+ '<div class="del_item2' + nowClass + '">' +
+ '<span class="del_img"><img src="' + imgSrc + '" alt=""></span>' +
+ '<div class="del_item_info">' +
+ '<span class="del_state">' +
+ '<span class="del_state_name">' + stateNm + '</span>' +
+ '<span class="del_state_date">' + regDt + '</span>' +
+ '</span>' +
+ '</div>' +
+ '</div>';
+ }
+ $("#claim_history_wrap .del_pro_con").html(content);
+ $('#claim_layer').hide();
+ $('#claim_layer_wrap_web').show();
+ }
+ else {
+ //result_alert 보여주기
+ $('.result_alert').css('display', 'block');
+ }
+ },error : function(xhr, request, status, error) {
+ alert("잘못된 운송장번호이거나 조회하는데 실패했습니다. 다시 시도하여 주시기 바랍니다.");
+ }
+ }); // ajax close
+ }
+ });
+ // 변상조회 api(구버전)
+ /*
+ $('#claim_search_btn').on('click', function(){
+ var barcode = $('#claimBarcode').val();
+ if(barcode == null || barcode == ""){
+ alert("운송장번호를 입력해주세요.");
+ $('#claimBarcode').focus();
+ } else {
+ $.ajax({
+ type : "GET",
+ url : "./service/claim_ajax.do",
+ data : {
+ "barcode" : barcode
+ },
+ dataType : "json",
+ success : function(data) {
+ var info = data.info;
+ var stat = data.stat;
+ var device = data.device;
+ var result = data.result;
+ var content = '';
+ console.log('###변상 진행상태 조회 결과', data);
+ if(result == "suc"){
+ // 배송정보
+ $("#resultBarcode").text(info.barCode);
+ $("#sendOffice").text(info.sendOffice);
+ $("#receiveOffice").text(info.recvOffice);
+ $("#sender").text(info.sendNm);
+ $("#item").text(info.itemNm);
+ $("#pack").text(info.itemCnt+info.itemPack);
+ $("#receiver").text(info.recvNm);
+ // 변상진행현황
+ for(var i = 0; i < stat.length; i++){
+ if(i == 0){
+ // 이미지
+ if(stat[i].tempVal1 == '접수대기'){
+ $("#cmp1").addClass('now');
+ $("#cmpImg1").attr('src','/common/img/delivery/wait_b.png')
+ } else if(stat[i].tempVal1 == '변상진행'){
+ $("#cmp2").addClass('now');
+ $("#cmpImg2").attr('src','/common/img/delivery/prog_b.png')
+ } else if(stat[i].tempVal1 == '송금진행'){
+ $("#cmp3").addClass('now');
+ $("#cmpImg3").attr('src','/common/img/delivery/send_b.png')
+ } else if(stat[i].tempVal1 == '법무이관'){
+ $("#cmp4").addClass('now');
+ $("#cmpImg4").attr('src','/common/img/delivery/move_b.png')
+ } else {
+ $("#cmp5").addClass('now');
+ $("#cmpImg5").attr('src','/common/img/delivery/done_b.png');
+ }
+ content += '<div class="del_item2 now">'
+ content += '<span class="del_img">'
+ if(stat[i].memoContent != null){
+ content += '<div class="del_item_info"><span class="del_state">'
+ } else {
+ content += '<div class="del_item_info"><span class="del_state">'
+ }
+ content += '<span class="del_state_name">'+stat[i].dtlNm+'</span>'
+ content += '<span class="del_state_date">'+stat[i].regDate+'</span></span>'
+ if(stat[i].memoContent != null){
+ content += '<span class="del_state_info">'+stat[i].memoContent+'</span>'
+ }
+ content += '</div></div>'
+ } else {
+ content += '<div class="del_item2">'
+ if(stat[i].memoContent != null){
+ content += '<div class="del_item_info"><span class="del_state">'
+ } else {
+ content += '<div class="del_item_info"><span class="del_state">'
+ }
+ content += '<span class="del_state_name">'+stat[i].dtlNm+'</span>'
+ content += '<span class="del_state_date">'+stat[i].regDate+'</span></span>'
+ if(stat[i].memoContent != null){
+ content += '<span class="del_state_info">'+stat[i].memoContent+'</span>'
+ //$('.del_item_info').css('margin', '12px 0');
+ } else {
+ //$('.del_item_info').css('margin', '30px 0');
+ }
+ content += '</div></div>'
+ }
+ }
+ $("#del_item_wrap").html(content);
+ $('#claim_layer').hide();
+ if(device == "web"){
+ $('#claim_layer_wrap_web').show();
+ } else {
+ $('#claim_layer_wrap_mobile').show();
+ }
+ } else {
+ // result_alert 보여주기
+ $('.result_alert').css('display', 'block');
+ }
+ },error : function(xhr, request, status, error) {
+ alert("잘못된 운송장번호이거나 조회하는데 실패했습니다. 다시 시도하여 주시기 바랍니다.");
+ }
+ }); // ajax close
+ }
+ });
+ */
+
+기간별 조회
+ 조회하실 기간을 선택해주세요.
+ 24/12/27 이전
+ 24/12/27 이후
+ 조회
+ 기간이 입력되지 않았습니다. 기간을 선택해 주세요.
+
+합동택배
+ 경동렌트카
+ 경동컨테이너창고임대
+ 다룸
+
+이메일 무단수집거부
+ 본 웹사이트에 게시된 메일주소의 
+ 무단 수집을 거부합니다.
+ - 본 웹사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나 
+ 그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하며, 
+ 이를 위반 시 정보통신망법에 의하여 형사처벌됨을 유념하시기 바랍니다.
+ 확인

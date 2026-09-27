@@ -2161,6 +2161,7 @@ import { daesungCleanenergyCallCenterSpokeContent } from '@/app/policy/[id]/[spo
 import { seorabeolCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seorabeol-citygas';
 import { gseCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gse-citygas';
 import { jejuCitygasCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeju-citygas';
+import { kyungdongParcelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kyungdong-parcel';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2472,6 +2473,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'kyungdong-parcel': kyungdongParcelCallCenterSpokeContent,
     'tincash': tincashCallCenterSpokeContent,
     'cashbee': cashbeeCallCenterSpokeContent,
     'tmoney': tmoneyCallCenterSpokeContent,
