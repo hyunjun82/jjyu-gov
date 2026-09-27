@@ -1,0 +1,48 @@
+{
+  "slug": "hanpass-mobile",
+  "name": "한패스모바일",
+  "aliases": [
+    "한패스 모바일",
+    "한패스 알뜰폰",
+    "Hanpass Mobile",
+    "한패스인터내셔널"
+  ],
+  "industry": "telecom",
+  "brandColor": "#1A397C",
+  "official": "https://www.hanpassmobile.co.kr",
+  "sourceUrl": "https://www.hanpassmobile.co.kr/",
+  "sourceName": "한패스모바일 누리집 고객센터 안내",
+  "extraSources": [],
+  "verifiedAt": "2026-09-27",
+  "corp": "주식회사 한패스인터내셔널",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-2567"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "holiday": "토요일, 일요일 및 공휴일 휴무",
+    "lunch": "점심시간 12:00~13:00"
+  },
+  "hoursNote": "[2026-09-27] hanpassmobile.co.kr 첫 화면 '고객센터 1588-2567 운영시간: 평일 09:00~18:00 (점심시간 12:00~13:00) ※ 토요일, 일요일 및 공휴일 휴무 / Foreign Customer Center 1551-0666 Operating hours: Mon–Fri 09:00–18:00 (Lunch break 12:00–13:00) ※ Closed on Saturdays, Sundays, and public holidays', 푸터 '주식회사 한패스인터내셔널 ｜ 대표 성대경 서울시 성동구 성수일로 6길 33, 아연디지털타워 8F'. LG U+ 알닷 파트너사 안내 '업무시간 평일 9시~18시 (점심시간 12시~13시) *공휴일, 주말 휴무 고객센터 1588-2567' 번호·시간 일치. 주소는 알닷이 '서울특별시 성동구 아차산로 67-16, 2층' 으로 누리집과 달라 hq 를 비웠다. 공지 '[공지] 3G 서비스 신규가입, 번호이동, 기기변경 중단 안내'(2026-08-20). 로고색 c.png 유채색 최빈(남색, 빨강이 근소하게 뒤따름).",
+  "notice": "3G 서비스 신규가입·번호이동·기기변경 중단 안내가 공지사항에 올라와 있습니다.",
+  "numbersIntro": "외국인 고객 상담은 Foreign Customer Center 1551-0666이 같은 시간에 받습니다.",
+  "jobsSentence": "한패스모바일 누리집 첫 화면에 고객센터로 안내된 번호입니다.",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-2567",
+      "note": "평일 09:00~18:00"
+    },
+    {
+      "label": "Foreign Customer Center",
+      "tel": "1551-0666",
+      "note": "Mon–Fri 09:00–18:00"
+    }
+  ]
+}
