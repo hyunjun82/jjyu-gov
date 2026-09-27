@@ -1,18 +1,29 @@
 {
   "slug": "gogo-mobile",
   "name": "고고모바일",
-  "aliases": ["고고팩토리", "㈜고고팩토리", "고고 알뜰폰", "gogomobile"],
+  "aliases": [
+    "고고팩토리",
+    "㈜고고팩토리",
+    "고고 알뜰폰",
+    "gogomobile"
+  ],
   "industry": "telecom",
   "brandColor": "#3370FF",
   "official": "https://gogomobile.co.kr",
   "sourceUrl": "https://gogomobile.co.kr/board/faq",
   "sourceName": "고고모바일 자주하는 질문·고객센터 안내",
   "extraSources": [
-    { "name": "고고모바일 공식 홈페이지", "url": "https://gogomobile.co.kr/" }
+    {
+      "name": "고고모바일 공식 홈페이지",
+      "url": "https://gogomobile.co.kr/"
+    }
   ],
   "verifiedAt": "2026-09-27",
   "corp": "㈜고고팩토리",
-  "main": { "label": "KT망 고객센터", "tel": "1533-6723" },
+  "main": {
+    "label": "KT망 고객센터",
+    "tel": "1533-6723"
+  },
   "hours": {
     "weekday": "평일 09:30 ~ 18:00",
     "holiday": "토,일, 공휴일 휴무",
@@ -22,11 +33,27 @@
   "notice": "해지는 해지 신청서를 작성해 신분증과 함께 홈페이지 1:1 문의로 보내는 방식으로 안내돼 있습니다.",
   "numbersIntro": "SKT망 가입자는 1670-9098, KT망 가입자는 1533-6723으로 번호가 나뉘어 있고, 가입한 휴대폰에서는 114가 무료입니다.",
   "jobs": "eSIM 재발급, 홈페이지로 안 되는 일시정지 신청",
+  "jobsSentence": "eSIM 재발급과 홈페이지로 안 되는 일시정지 신청도 고객센터 전화로 받습니다.",
   "heroSalt": "d",
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "KT망 고객센터", "tel": "1533-6723", "note": "유료" },
-    { "label": "SKT망 고객센터", "tel": "1670-9098", "note": "유료" },
-    { "label": "가입한 휴대폰에서", "tel": "114", "note": "무료" }
+    {
+      "label": "KT망 고객센터",
+      "tel": "1533-6723",
+      "note": "유료"
+    },
+    {
+      "label": "SKT망 고객센터",
+      "tel": "1670-9098",
+      "note": "유료"
+    },
+    {
+      "label": "가입한 휴대폰에서",
+      "tel": "114",
+      "note": "무료"
+    }
   ]
 }
