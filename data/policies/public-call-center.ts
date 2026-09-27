@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'daejeon120', role: 'eligibility', title: '대전시청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gwangju-jeonnam120', role: 'eligibility', title: '전남광주통합특별시 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'incheon120', role: 'eligibility', title: '인천시청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'daegu120', role: 'eligibility', title: '대구시청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
