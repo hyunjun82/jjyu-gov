@@ -1,0 +1,23 @@
+{
+  "slug": "sda-leaders-life",
+  "name": "삼육리더스상조",
+  "aliases": ["삼육리더스라이프", "(주)삼육리더스라이프", "삼육 상조", "삼육리더스상조 장례접수"],
+  "industry": "online",
+  "variant": "sangjo",
+  "brandColor": "#0069AA",
+  "official": "https://sda36sj.co.kr",
+  "sourceUrl": "https://sda36sj.co.kr/",
+  "sourceName": "삼육리더스상조 공식 홈페이지",
+  "verifiedAt": "2026-09-27",
+  "corp": "(주)삼육리더스라이프",
+  "main": { "label": "대표전화", "tel": "1800-3636" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-27] 삼육리더스상조 홈: 헤더 '상담문의·긴급장례 1800-3636', 푸터 '상호 : (주)삼육리더스라이프 (대표이사 : 양거승) … 대표전화 : 1800-3636'. 고객센터(FAQ) 페이지에도 다른 번호·상담시간은 없다 — 시간은 비운다. 푸터 글자에 주소가 없어 지도 칸은 비운다. 공정위 정보공개 전화번호 1800-3636 과 일치(옛 이름 삼육리더스상조). 상조 갈래(variant sangjo). 로고색은 front/logo.png 의 파랑(최빈은 회색 글자).",
+  "notice": "상담 문의와 긴급 장례 접수를 같은 번호로 받습니다.",
+  "idStep": "계약자 이름과 생년월일",
+  "heroSalt": "b",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "상담문의·긴급장례", "tel": "1800-3636", "note": "대표전화" }
+  ]
+}
