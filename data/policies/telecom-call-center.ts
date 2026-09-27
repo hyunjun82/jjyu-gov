@@ -126,6 +126,7 @@ export const telecomCallCenterPolicy = {
 };
 
 export const telecomCallCenterSpokes = [
+  { slug: 'joytel', role: 'eligibility', title: '조이텔 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'ins-mobile', role: 'eligibility', title: '인스모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'eg-mobile', role: 'eligibility', title: '이지모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'mobing', role: 'eligibility', title: '모빙 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
