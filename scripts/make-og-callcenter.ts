@@ -96,7 +96,7 @@ let made = 0;
     <text x="80" y="228" font-size="62" font-weight="800">${esc(c.name)}${c.industry === 'loan' ? ' 대출' : ''} 고객센터</text>
     <text x="80" y="382" font-size="112" font-weight="800" letter-spacing="-2">${esc(c.main.tel)}</text>
     <text x="80" y="452" font-size="30" font-weight="600" opacity=".9">${esc(c.main.label)}${hours ? ' · ' + esc(hours) : ''}</text>
-    <text x="80" y="556" font-size="27" font-weight="600" opacity=".78">업무별 번호 ${(c.numbers || []).length}개 · ${hasAgent ? `${agent} 연결 · ` : ''}${esc(c.verifiedAt)} 확인</text>
+    <text x="80" y="556" font-size="27" font-weight="600" opacity=".78">${c.numbersIntro ? '고객센터 번호' : '업무별 번호'} ${(c.numbers || []).length}개 · ${hasAgent ? `${agent} 연결 · ` : ''}${esc(c.verifiedAt)} 확인</text>
   </g>
 </svg>`;
 
