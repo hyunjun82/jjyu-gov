@@ -1,0 +1,129 @@
+SLUG: nadeurigaza-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/nadeurigaza-call-center-*.png)
+
+===== [1] http://nadeurigaza.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/nadeurigaza-call-center-1.png
+CHARS: 2303
+
+
+
+----- 프레임 (https://nadeurigaza.co.kr/2013/index.asp) -----
+회사소개
+멤버쉽상품
+크루즈일정
+크루즈가이드
+상담문의
+고객센터
+오늘은 이창을 띄우지않음 
+
+The most out of every moment at sea onboard
+the world’s best cruise ships Every moment of your life is an opportunity to travel
+
+NADEURI GAZA
+바다위 특급호텔에서 누리는 특별한 여행
+
+The most out of every moment at sea onboard
+the world’s best cruise ships Every moment of your life is an opportunity to travel
+
+NADEURI GAZA
+바다위 특급호텔에서 누리는 특별한 여행
+
+The most out of every moment at sea onboard
+the world’s best cruise ships Every moment of your life is an opportunity to travel
+
+NADEURI GAZA
+바다위 특급호텔에서 누리는 특별한 여행
+
+The most out of every moment at sea onboard
+the world’s best cruise ships Every moment of your life is an opportunity to travel
+
+NADEURI GAZA
+바다위 특급호텔에서 누리는 특별한 여행
+
+The most out of every moment at sea onboard
+the world’s best cruise ships Every moment of your life is an opportunity to travel
+
+NADEURI GAZA
+바다위 특급호텔에서 누리는 특별한 여행
+
+The most out of every moment at sea onboard
+the world’s best cruise ships Every moment of your life is an opportunity to travel
+
+NADEURI GAZA
+바다위 특급호텔에서 누리는 특별한 여행
+
+The most out of every moment at sea onboard
+the world’s best cruise ships Every moment of your life is an opportunity to travel
+
+NADEURI GAZA
+바다위 특급호텔에서 누리는 특별한 여행
+NOTICE +
+
+[공지] 2026년 설 연휴 휴무 및 조기 업무 마감 안내
+
+2026.02.12
+
+(주)나드리가자, 지역경제 활성화 기여 공로 '금천구의회 표창' 수상
+
+2026.01.20
+
+2025 KBS N 브랜드 어워즈 대상 수상 (주)나드리가자
+
+2026.01.06
+크루즈상품안내
+CRUISE PRODUCT
+
+광대한 바다를 가로지르는 쿠르즈에서 누리는 안락한 객실, 세계의 음식, 다양한 공연과 액티비티 시설, 기항지 관광까지 당신이 기대하는 그 이상을 경험 할 수 있습니다.
+
+MORE VIEW
+Customer Center
+ 
+
+상담문의
+
+1833-6167
+평일 09:30 ~ 17:30
+점심시간 12:00 ~ 13:00
+(주말 & 공휴일. 휴무)
+가입조회
+여행신청
+The most beautiful journey of my life
+LIFE THE MOST BEAUTIFUL
+크루즈정보
+
+크루즈의 매력
+크루즈여행시즌
+선상생활엿보기
+알아두면 유용한 팁
+
+MORE VIEW
+크루즈관련 FAQ
+
+크루즈 여행에 관한 궁금증을 모두 풀어드립니다.
+
+MORE VIEW
+상조가입회원긴급
+
+emergency service
+
+1833-2680
+상조가입회원상담
+
+counseling service
+
+1833-2630
+회원약관 개인정보보호정책 중요정보고시사항 사원광장
+(주)나드리가자대표자명 : 박석주서울시 금천구 가산디지털1로 171, 314호
+Tel : 1833-6167Fax : 070-4032-1850사업자등록증 : 612-81-23348E-MAIL : ndrgz@naver.com
+선불식할부거래업등록증 : 서울 2021-제166호관광사업등록증 : 제2025-000007호
+COPYRIGHT ⓒ Nadeurigaza Co. All Rights Reserved.
+
+----- 프레임 (https://www.youtube.com/embed/vpGuWmgEobk) -----
+Royal Caribbean's Mariner of the Seas
+TIRUN Travel Marketing
+TIRUN Travel Marketing
+구독자 2.01천명
+다음에서 보기:
