@@ -1,0 +1,205 @@
+SLUG: mc-energy-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/mc-energy-call-center-*.png)
+
+===== [1] https://www.mokpocitygas.co.kr/?bbsMode=view&bbsId=BBSMSTR_000000000281&nttId=12631&pid=MPP0603 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/mc-energy-call-center-1.png
+CHARS: 1002
+
+본문 바로가기
+로그인
+회원가입
+사이트맵
+about MC Group
+회사소개
+CEO인사말
+찾아오시는길
+회사현황
+품질방침
+참여활동
+about MC Group
+사업소개
+도시가스소개
+용도소개
+사용신청 및 공급절차
+가스냉난방안내
+안전관리정보
+도시가스시설 안전관리
+회사안전관리활동
+굴착공사안전관리
+요금정보
+도시가스 열량제도안내
+용도별 단가안내
+고지서안내
+요금납부방법안내
+요금조회/납부
+경감제도안내
+체납안내
+사용안내
+검침안내
+정기안전점검안내
+전출입안내
+명의변경 안내
+연결(시공)비용안내
+자율안전점검안내
+안전한 가스사용안내
+가스보일러 안전사용안내
+고객서비스
+민원등록
+자주묻는 질문
+고객게시판
+공지사항
+서식자료실
+안전점검SMS사전안내
+안전점검안내
+
+고객서비스
+
+민원등록
+자주묻는 질문
+고객게시판
+공지사항
+서식자료실
+안전점검SMS사전안내
+안전점검안내
+우리 가족 안전은 내가! 자율안전점검안내
+이사갈 때 체크하세요! 전출입안내
+간편하게 납부하세요!
+자동이체신청
+자주묻는 질문
+ 고객서비스  자주묻는 질문
+업무시간이 어떻게 되나요?
+
+작성자	관리자	작성일	2020-03-01
+첨부파일	
+
+도시가스 및 고객센터의 업무시간은 아래와 같습니다.
+평일 : 오전 9시 ~ 오후 6시 (점심시간 12시 ~ 1시)
+주말 및 공휴일 : 오전 8시 ~ 오후 5시 (점심시간 12시 ~ 1시)
+단, 가스누출 관련 민원은 24시간 처리합니다.
+일반적인 민원으로 당일 처리를 원하실 경우
+평일은 오후4시이전, 주말 및 공휴일은 3시 이전에 접수하시면 당일처리가 가능합니다.
+(당일처리민원은 해당일에 접수 및 등록된 민원수량에 따라 달라질 수 있습니다.)
+목록
+TOP
+배너모음
+회사소개 도시가스정보 안전관리정보 고객서비스 개인정보처리방침
+주소 : 전남광주통합특별시 목포시 영산로 121 (명륜동), MC에너지(주) 전화 : 1899-6390 팩스 : 061.282.0017 상호 : MC에너지(주) 사업자등록번호 : 411-81-01998 대표이사 : 정경오
+COPYRIGHT ⓒ MC에너지(주). ALL RIGHTS RESERVED.
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+업무시간이 어떻게 되나요?
+작성자 | 관리자 | 작성일 | 2020-03-01
+첨부파일 | function fn_egov_downFile(atchFileId, fileSn){ window.open("/cmm/fms/FileDown.do?atchFileId="+atchFileId+"&fileSn="+fileSn+""); } function fn_egov_deleteFile(atchFileId, fileSn) { forms = document.getElementsByTagName("form"); for (var i = 0; i < forms.length; i++) { if (typeof(forms[i].atchFileId) != "undefined" && typeof(forms[i].fileSn) != "undefined" && typeof(forms[i].fileListCnt) != "undefined") { form = forms[i]; } } //form = document.forms[0]; form.atchFileId.value = atchFileId; form.fileSn.value = fileSn; form.action = "/cmm/fms/deleteFileInfs.do"; form.submit(); } function fn_egov_check_file(flag) { if (flag=="Y") { document.getElementById('file_upload_posbl').style.display = "block"; document.getElementById('file_upload_imposbl').style.display = "none"; } else { document.getElementById('file_upload_posbl').style.display = "none"; document.getElementById('file_upload_imposbl').style.display = "block"; } }
+도시가스 및 고객센터의 업무시간은 아래와 같습니다. 평일 : 오전 9시 ~ 오후 6시 (점심시간 12시 ~ 1시) 주말 및 공휴일 : 오전 8시 ~ 오후 5시 (점심시간 12시 ~ 1시) 단, 가스누출 관련 민원은 24시간 처리합니다. 일반적인 민원으로 당일 처리를 원하실 경우 평일은 오후4시이전, 주말 및 공휴일은 3시 이전에 접수하시면 당일처리가 가능합니다. (당일처리민원은 해당일에 접수 및 등록된 민원수량에 따라 달라질 수 있습니다.) 이미지파일목록
+
+
+===== [2] https://www.mokpocitygas.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/mc-energy-call-center-2.png
+CHARS: 1107
+
+본문 바로가기
+로그인
+회원가입
+사이트맵
+about MC Group
+회사소개
+CEO인사말
+찾아오시는길
+회사현황
+품질방침
+참여활동
+about MC Group
+사업소개
+도시가스소개
+용도소개
+사용신청 및 공급절차
+가스냉난방안내
+안전관리정보
+도시가스시설 안전관리
+회사안전관리활동
+굴착공사안전관리
+요금정보
+도시가스 열량제도안내
+용도별 단가안내
+고지서안내
+요금납부방법안내
+요금조회/납부
+경감제도안내
+체납안내
+사용안내
+검침안내
+정기안전점검안내
+전출입안내
+명의변경 안내
+연결(시공)비용안내
+자율안전점검안내
+안전한 가스사용안내
+가스보일러 안전사용안내
+고객서비스
+민원등록
+자주묻는 질문
+고객게시판
+공지사항
+서식자료실
+안전점검SMS사전안내
+안전점검안내
+2 / 5
+주요 서비스
+요금조회&납부
+요금납부안내
+전출입안내
+신규설치안내
+자가검침
+경감제도안내
+공지사항
+MC에너지 2026년 09월 용도별 도시가스 단가안내
+2026-08-31
+MC에너지 2026년 08월 용도별 도시가스 단가안내
+2026-08-03
+MC에너지 2026년 07월 용도별 도시가스 단가안내
+2026-07-01
+MC에너지 2026년 06월 용도별 도시가스 단가안내
+2026-07-01
+MC에너지 2026년 05월 용도별 도시가스 단가안내
+2026-07-01
+MC에너지 2026년 04월 용도별 도시가스 단가안내
+2026-07-01
+
+더보기
+
+자주하는질문
+홈페이지 고객번호 변경하는 방법이 어떻게 되나요?
+업무시간이 어떻게 되나요?
+집앞 굴착공사를 하려고 하는데 도시가스 배관이 위험할 것 같은데 어떻게 해야 하나요?
+도시가스를 사용하고 있는 건물인데 새로 신축하려고 합니다. 어떻게 해야 하나요?
+도시가스 안전점검을 받지 못했습니다. 어떻게 해야 하나요?
+
+더보기
+
+고객의소리
+고객센터 1899-6390
+
+연결시공비
+안내
+
+안전점검 안내
+
+안전점검 SMS
+사전 안내
+
+배너모음
+회사소개 도시가스정보 안전관리정보 고객서비스 개인정보처리방침
+주소 : 전남광주통합특별시 목포시 영산로 121 (명륜동), MC에너지(주) 전화 : 1899-6390 팩스 : 061.282.0017 상호 : MC에너지(주) 사업자등록번호 : 411-81-01998 대표이사 : 정경오
+COPYRIGHT ⓒ MC에너지(주). ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+자동이체 해지
+ (비공개) 미납요금 중복납부
+ 오피스텔 전출입 신고의 불편함
+ (비공개) 카드 납부
+ (비공개) 8월 검침내역입니다
