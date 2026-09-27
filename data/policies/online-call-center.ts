@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'onyou-sangjo', role: 'eligibility', title: '온유상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'bohoon-sangjo', role: 'eligibility', title: '보훈상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'christian-sangjo', role: 'eligibility', title: '크리스찬상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ujeonglife', role: 'eligibility', title: '우정라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
