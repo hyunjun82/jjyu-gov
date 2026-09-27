@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'gs-postbox', role: 'eligibility', title: 'GS25편의점택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cupost', role: 'eligibility', title: 'CU편의점택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'hapdong-parcel', role: 'eligibility', title: '합동택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'ilyang-parcel', role: 'eligibility', title: '일양로지스 고객센터 전화번호 및 상담원 연결·문의 안내' },
