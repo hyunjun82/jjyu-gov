@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'jeju-citygas', role: 'eligibility', title: '제주도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gse-citygas', role: 'eligibility', title: '지에스이 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'seorabeol-citygas', role: 'eligibility', title: '서라벌도시가스 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'daesung-cleanenergy', role: 'eligibility', title: '대성청정에너지 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
