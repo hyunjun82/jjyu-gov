@@ -339,6 +339,18 @@ const VARIANT: Record<string, Partial<typeof INDUSTRY[string]>> = {
     dayNote: '해약과 납입 조회는 상담시간 안에 거는 편이 빠릅니다.',
     idStep: '계약자 이름과 생년월일',
   },
+  /* 상품권·선불 (2026-09-27 상품권 배치). 온라인 틀 그대로면 "쇼핑·배달·구독을 한 곳만 쓰지 않습니다" 가
+     컬쳐랜드 글에 나간다. 사람이 상품권 고객센터를 찾는 이유는 잔액·환불·충전 오류다. */
+  giftcard: {
+    unit: '회사',
+    word: '상품권 회사',
+    jobs: '충전·결제 오류, 환불, 로그인 문제',
+    remote: '환불 신청이나 충전 오류 문의',
+    q5q: '다른 상품권 고객센터 번호도 필요한데요',
+    q5a: '문화상품권·도서상품권·교통카드 충전금처럼 선불 상품을 여러 곳에서 받다 보면, 잔액이나 환불을 어느 회사에 물어야 할지부터 헷갈립니다.',
+    dayNote: '환불과 충전 오류는 상담시간 안에 거는 편이 빠릅니다.',
+    idStep: '상품권 핀번호와 가입 아이디',
+  },
 };
 if (C.variant && !VARIANT[C.variant]) die(`모르는 variant: ${C.variant} (쓸 수 있는 값: ${Object.keys(VARIANT).join(', ')})`);
 const IND = INDUSTRY[C.industry ?? 'insurance'] && { ...INDUSTRY[C.industry ?? 'insurance'], ...(C.variant ? VARIANT[C.variant] : {}) };
