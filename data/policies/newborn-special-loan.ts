@@ -1,7 +1,7 @@
 /* 신생아 특례대출 (디딤돌·버팀목, 2026) - 국토교통부·주택도시기금 */
 const NHUF_BUY = 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030801.jsp';
 const NHUF_JEONSE = 'https://nhuf.molit.go.kr/FP/FP02/FP0206/FP02060601.jsp';
-const NHUF_REFI = 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030804.jsp';
+const NHUF_REFI = 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030802.jsp';
 const NHUF_PROC = 'https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030805.jsp';
 export const newbornSpecialLoanPolicy = {
   id: '174', type: 'loan' as const,
@@ -23,7 +23,7 @@ export const newbornSpecialLoanPolicy = {
     순자산: { value: '순자산가액 구입(디딤돌) 5.11억·전세(버팀목) 3.45억원 이하(2026년도 기준)', source: { url: 'https://nhuf.molit.go.kr', text: '순자산 구입 5.11억·전세 3.45억', verifiedAt: '2026-07-01' } },
     디딤돌: { value: '주택구입자금, 한도 최대 4억원, 금리 연 1.8~4.5%(고정)', source: { url: 'https://nhuf.molit.go.kr', text: '디딤돌 한도 4억·금리 1.8~4.5%', verifiedAt: '2026-07-01' } },
     버팀목: { value: '전세자금, 한도 최대 2.4억원(보증금 80% 내), 금리 연 1.3~4.3%', source: { url: 'https://www.myhome.go.kr', text: '버팀목 2.4억·1.3~4.3%', verifiedAt: '2026-06-28' } },
-    우대: { value: '2년 내 추가 출산 자녀 1명당 0.2%p(최장 12년)', source: { url: 'https://www.myhome.go.kr', text: '추가출산 0.2%p', verifiedAt: '2026-06-28' } },
+    우대: { value: '2년 내 추가 출산 자녀 1명당 0.2%p(디딤돌 자녀당 5년·최장 15년, 버팀목 자녀당 4년·최장 12년)', source: { url: 'https://www.myhome.go.kr', text: '추가출산 0.2%p', verifiedAt: '2026-06-28' } },
     대환: { value: '기존 주택담보·전세대출 대환 가능', source: { url: 'https://www.myhome.go.kr', text: '대환 가능', verifiedAt: '2026-06-28' } },
     신청: { value: '기금e든든(nhuf.molit.go.kr)·취급 은행', source: { url: 'https://nhuf.molit.go.kr', text: '기금e든든', verifiedAt: '2026-06-28' } },
   },
@@ -61,9 +61,9 @@ export const newbornSpecialLoanPolicy = {
     {
       q: '금리 우대는 어떻게 받나요?', anchor: 'q-rate',
       act: { cue: '둘째가 태어나면 0.2%p씩 더 내려가는데 자동 적용이 아닌데요. 안 챙기면 그만큼 이자를 더 내는 셈이라, 내가 받을 수 있는 우대 항목부터 찾아보셔야겠죠.', label: '우대금리 항목 찾기', url: NHUF_BUY },
-      intro: '신생아 특례대출은 출산 가구에 대한 낮은 특례금리가 적용되고, 추가 출산 시 우대금리가 더해집니다. 대출접수일 기준 2년 내 추가로 아이를 낳으면 자녀 1명당 연 0.2%p의 우대금리가 적용되며, 적용일로부터 자녀 1명당 최대 4년, 최장 12년까지 적용됩니다. 즉 아이를 더 낳을수록 금리가 더 낮아져 부담이 줄어듭니다. 이 외에도 전자계약 등 다른 우대금리가 더해질 수 있습니다. 다만 우대를 모두 더해도 적용 금리에는 하한이 있을 수 있습니다. 본인이 받을 수 있는 우대금리는 기금e든든·은행에서 확인하세요.',
-      highlights: ['낮은 특례금리', '추가출산 자녀당 0.2%p', '최장 12년', '전자계약 등 추가'],
-      box: { label: '금리 우대', content: '출산 특례금리+추가출산 자녀당 0.2%p(최장 12년)+전자계약 등. 더 낳을수록 금리↓.' },
+      intro: '신생아 특례대출은 출산 가구에 대한 낮은 특례금리가 적용되고, 추가 출산 시 우대금리가 더해집니다. 대출접수일 기준 2년 내 추가로 아이를 낳으면 자녀 1명당 연 0.2%p의 우대금리가 적용되며, 적용일로부터 디딤돌은 자녀 1명당 최대 5년(최장 15년), 버팀목은 최대 4년(최장 12년)까지 적용됩니다. 즉 아이를 더 낳을수록 금리가 더 낮아져 부담이 줄어듭니다. 이 외에도 전자계약 등 다른 우대금리가 더해질 수 있습니다. 다만 우대를 모두 더해도 적용 금리에는 하한이 있을 수 있습니다. 본인이 받을 수 있는 우대금리는 기금e든든·은행에서 확인하세요.',
+      highlights: ['낮은 특례금리', '추가출산 자녀당 0.2%p', '최장 15년', '전자계약 등 추가'],
+      box: { label: '금리 우대', content: '출산 특례금리+추가출산 자녀당 0.2%p(디딤돌 최장 15년·버팀목 최장 12년)+전자계약 등. 더 낳을수록 금리↓.' },
       sourceNote: '* 출처: 주택도시기금',
     },
     {
@@ -108,7 +108,7 @@ export const newbornSpecialLoanSpokes = [
   { slug: '대상조건', role: 'eligibility', title: '신생아 특례대출 대상, 2년 내 출산 소득 1.3억 맞벌이 2억', content: '2년 내 출산 무주택, 소득 1.3억(맞벌이 2억)↓, 순자산 구입5.11억·전세3.45억↓.' },
   { slug: '디딤돌구입', role: 'amount', title: '신생아 특례 디딤돌, 주택구입 금리 1.8~4.5%', content: '주택구입자금, 금리 연 1.8~4.5% 고정, 한도·주택가액 공고.' },
   { slug: '버팀목전세', role: 'amount', title: '신생아 특례 버팀목, 전세 한도 2.4억 금리 1.3~4.3%', content: '전세자금 한도 2.4억(보증금 80%), 금리 연 1.3~4.3%.' },
-  { slug: '금리우대', role: 'usage', title: '신생아 특례대출 우대금리, 추가출산 자녀당 0.2%p', content: '추가출산 자녀 1명당 0.2%p, 최장 12년 + 전자계약 등.' },
+  { slug: '금리우대', role: 'usage', title: '신생아 특례대출 우대금리, 추가출산 자녀당 0.2%p', content: '추가출산 자녀 1명당 0.2%p, 디딤돌 최장 15년·버팀목 최장 12년 + 전자계약 등.' },
   { slug: '신청대환', role: 'apply', title: '신생아 특례대출 신청·대환, 기금e든든 은행', content: '기금e든든·은행 신청, 기존 주택담보·전세대출 대환 가능.' },
   { slug: 'application-timing-first-buyer', role: 'eligibility', title: '신생아 특례대출 등기 전후 신청시기와 생애최초 LTV 80% 받는 법', content: '등기 전 또는 접수일부터 3개월 이내 신청, 생애최초 구입자 LTV 80%.' },
   { slug: 'rate-after-special', role: 'amount', title: '신생아 특례대출 특례금리 끝나면 금리 얼마나 오르나', content: '연소득 8.5천만원 이하는 신혼부부 구입자금 금리 수준, 초과는 시장금리 기준.' },
