@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'humanlife-sangjo', role: 'eligibility', title: '휴먼라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'dh-life', role: 'eligibility', title: '대한라이프보증 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'wooritour', role: 'eligibility', title: '우리관광 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'btn-bulgukto', role: 'eligibility', title: 'BTN불국토상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
