@@ -1,0 +1,32 @@
+{
+  "slug": "ilyang-parcel",
+  "name": "일양로지스",
+  "aliases": ["일양택배", "일양 택배", "일양로지스 택배", "일양로지스 고객센터", "ILYANG Logis"],
+  "industry": "online",
+  "variant": "parcel",
+  "brandColor": "#003C83",
+  "official": "https://www.ilyanglogis.co.kr",
+  "sourceUrl": "https://www.ilyanglogis.co.kr/page/CustomerCenter.do",
+  "sourceName": "일양로지스 고객센터",
+  "extraSources": [
+    { "name": "일양로지스 누리집", "url": "https://www.ilyanglogis.co.kr/" }
+  ],
+  "verifiedAt": "2026-09-27",
+  "corp": "일양로지스",
+  "hq": "서울특별시 마포구 마포대로 25, 9층(마포동, 신한DM빌딩)",
+  "main": { "label": "고객센터", "tel": "1588-0002" },
+  "hours": {
+    "weekday": "월~금 09:00 ~ 18:00",
+    "saturday": "토 09:00 ~ 13:00",
+    "holiday": "일요일 및 공휴일은 근무하지 않습니다.",
+    "lunch": "점심시간 : 12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-09-27] ilyanglogis.co.kr/page/CustomerCenter.do 고객센터 '전국 어디서나 1588-0002 / 이용 시간 월~금 09:00 ~ 18:00 (점심시간 : 12:00 ~ 13:00) / 토 09:00 ~ 13:00 / ※ 일요일 및 공휴일은 근무하지 않습니다. / 이용 요금 유료 / 상담 내용 택배예약, 반품예약, 예약취소, 배송조회, 상담문의, 클레임 접수 등 당사 관련 모든 상담을 한번의 통화로 가능합니다.', 누리집 푸터 'Contact us 1588-0002 월~금 09:00~18:00 / 토 09:00~13:00' 번호·시간 일치. 대신택배(ds3211.co.kr)는 같은 날 DNS 가 풀리지 않아 보류. 온라인 틀에 택배 갈래(variant parcel). 로고색 logo.svg 유채색 최빈(남색).",
+  "notice": "고객센터 전화는 이용 요금이 드는 유료 전화로 안내돼 있습니다.",
+  "jobsSentence": "택배예약, 반품예약, 예약취소, 배송조회, 클레임 접수까지 이 번호 한 통화로 상담할 수 있다고 안내돼 있습니다.",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1588-0002", "note": "월~금 09:00~18:00 / 토 09:00~13:00" }
+  ]
+}
