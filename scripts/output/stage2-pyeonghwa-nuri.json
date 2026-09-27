@@ -1,5 +1,5 @@
 {
-  "slug": "phnuri",
+  "slug": "pyeonghwa-nuri",
   "keyword": "평화누리 고객센터",
   "title": "평화누리 고객센터 전화번호 및 상담원 연결·문의 안내",
   "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
@@ -11,7 +11,7 @@
     "평화누리 고객센터 지역별로 찾기"
   ],
   "source": "http://www.phnuri.co.kr/",
-  "outline": "data/call-centers/phnuri.json",
+  "outline": "data/call-centers/pyeonghwa-nuri.json",
   "approved": true,
   "approvedAt": "2026-09-27"
 }

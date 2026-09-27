@@ -1,10 +1,10 @@
 import type { SpokeData } from '../../SpokeClient';
 
-/* 추출본: scripts/output/source-hwsj-call-center.txt
+/* 추출본: scripts/output/source-hyowon-sangjo-call-center.txt
  * 1차 출처: 효원상조 공식 홈페이지 (https://www.hwsj.co.kr/)
  * 확인일: 2026-09-27
  *
- * 이 파일은 scripts/new-call-center.ts 가 hwsj.json 로 찍어낸다.
+ * 이 파일은 scripts/new-call-center.ts 가 hyowon-sangjo.json 로 찍어낸다.
  * 손으로 고치지 말고 JSON 을 고친 뒤 다시 돌린다 — 손으로 쓰면 ARS 번호가 틀린다.
  *
  * 쓰지 않는 것: 공식 페이지에 없는 번호·시간. 생성기가 추출본과 대조해 막는다.
@@ -15,7 +15,7 @@ const OFFICIAL = 'https://www.hwsj.co.kr';
 const MAP = 'https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EA%B0%95%EB%8F%99%EA%B5%AC%20%ED%92%8D%EC%84%B1%EB%A1%9C%2038%EA%B8%B8%209%2C%20%EB%B0%94%EB%A1%9C%EB%B9%8C%EB%94%A9%203%EC%B8%B5';
 const HUB = '/policy/online-call-center';
 
-export const hwsjCallCenterSpokeContent: SpokeData = {
+export const hyowonSangjoCallCenterSpokeContent: SpokeData = {
   h1: '효원상조 고객센터 전화번호 및 상담원 연결·문의 안내',
   /* 업종어를 넣는다 — 대출 글인데 "웰컴저축은행 고객센터" 로 나가면
      회사 고객센터 글과 구분이 안 된다 (2026-08-27 사장님 확인). */
@@ -32,7 +32,7 @@ export const hwsjCallCenterSpokeContent: SpokeData = {
 
   heroHook:
     '효원상조 고객센터 대표번호는 1588-8873입니다. 장례 접수는 1577-8873으로 24시 받습니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담원 연결 순서·문의 방법·업무별 번호도 함께 확인할 수 있습니다.',
-  heroAct: { label: '1588-8873 연결 요청', href: TEL },
+  heroAct: { label: '1588-8873 눌러서 걸기', href: TEL },
 
   keyFacts: {
     '대표번호': '1588-8873 (고객센터)',
@@ -88,8 +88,8 @@ export const hwsjCallCenterSpokeContent: SpokeData = {
         '본사는 서울시 강동구 풍성로 38길 9, 바로빌딩 3층에 있습니다. 다만 납입 내역 조회나 주소 변경은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사 이름으로 검색하면 가까운 순으로 나옵니다.',
       highlights: ['서울시 강동구 풍성로 38길 9, 바로빌딩 3층'],
       act: {
-        cue: '효원상조 본사는 서울시 강동구 풍성로 쪽입니다. 거기까지 가실 일은 많지 않습니다.',
-        label: '지도에서 위치 보기',
+        cue: '효원상조 본사는 서울시 강동구 풍성로 쪽입니다. 헛걸음하지 않게 위치부터 짚고 나서시죠.',
+        label: '지점 위치 확인하기',
         url: MAP,
       },
       sourceNote: '* 출처: (주)효원상조 사업자 정보 (2026-09-27 확인)',
@@ -100,8 +100,8 @@ export const hwsjCallCenterSpokeContent: SpokeData = {
         '부모님 이름으로 든 상조와 내 이름으로 든 상조가 다른 회사인 경우가 있습니다. 급할 때 어느 회사에 걸어야 할지부터 헷갈립니다. 회사마다 대표번호도 다르고 상담원 연결 번호도 다릅니다. 상조회사별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
       highlights: ['상조회사별', '대표번호'],
       act: {
-        cue: '효원상조 공식 안내에 올라온 번호는 2개입니다. 회사마다 번호 체계가 갈리니 한자리에서 비교하시는 편이 빠릅니다.',
-        label: '온라인 서비스 고객센터 목록',
+        cue: '효원상조 공식 안내에 올라온 번호는 2개입니다. 급할 때 다시 찾지 않게 목록을 열어 두시죠.',
+        label: '다른 서비스 번호 보기',
         url: HUB,
       },
       sourceNote: '* 출처: 각 상조회사 공식 고객센터 안내',
@@ -132,7 +132,7 @@ export const hwsjCallCenterSpokeContent: SpokeData = {
      Downloads/db-customer-center.html 원본의 {{ }} 자리표시자에 그대로 꽂힌다.
      글은 위 qa/faqData 가 그대로 쓰고, 이건 화면 전용이다. */
   callCenter: {
-    "slug": "hwsj",
+    "slug": "hyowon-sangjo",
     "name": "효원상조",
     "brandColor": "#005AAB",
     "official": "https://www.hwsj.co.kr",

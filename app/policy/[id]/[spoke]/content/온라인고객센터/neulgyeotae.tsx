@@ -1,10 +1,10 @@
 import type { SpokeData } from '../../SpokeClient';
 
-/* 추출본: scripts/output/source-aidclub-call-center.txt
+/* 추출본: scripts/output/source-neulgyeotae-call-center.txt
  * 1차 출처: 늘곁애라이프온 고객센터 안내 (https://www.aidclub.com/customer?p=subCustomerWrap01)
  * 확인일: 2026-09-27
  *
- * 이 파일은 scripts/new-call-center.ts 가 aidclub.json 로 찍어낸다.
+ * 이 파일은 scripts/new-call-center.ts 가 neulgyeotae.json 로 찍어낸다.
  * 손으로 고치지 말고 JSON 을 고친 뒤 다시 돌린다 — 손으로 쓰면 ARS 번호가 틀린다.
  *
  * 쓰지 않는 것: 공식 페이지에 없는 번호·시간. 생성기가 추출본과 대조해 막는다.
@@ -15,7 +15,7 @@ const OFFICIAL = 'https://www.aidclub.com';
 const MAP = 'https://map.naver.com/p/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%97%B0%EC%A0%9C%EA%B5%AC%20%EC%A4%91%EC%95%99%EB%8C%80%EB%A1%9C%201066';
 const HUB = '/policy/online-call-center';
 
-export const aidclubCallCenterSpokeContent: SpokeData = {
+export const neulgyeotaeCallCenterSpokeContent: SpokeData = {
   h1: '늘곁애라이프온 고객센터 전화번호 및 상담원 연결·문의 안내',
   /* 업종어를 넣는다 — 대출 글인데 "웰컴저축은행 고객센터" 로 나가면
      회사 고객센터 글과 구분이 안 된다 (2026-08-27 사장님 확인). */
@@ -135,7 +135,7 @@ export const aidclubCallCenterSpokeContent: SpokeData = {
      Downloads/db-customer-center.html 원본의 {{ }} 자리표시자에 그대로 꽂힌다.
      글은 위 qa/faqData 가 그대로 쓰고, 이건 화면 전용이다. */
   callCenter: {
-    "slug": "aidclub",
+    "slug": "neulgyeotae",
     "name": "늘곁애라이프온",
     "brandColor": "#001344",
     "official": "https://www.aidclub.com",

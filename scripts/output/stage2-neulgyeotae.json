@@ -1,5 +1,5 @@
 {
-  "slug": "aidclub",
+  "slug": "neulgyeotae",
   "keyword": "늘곁애라이프온 고객센터",
   "title": "늘곁애라이프온 고객센터 전화번호 및 상담원 연결·문의 안내",
   "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
@@ -11,7 +11,7 @@
     "늘곁애라이프온 고객센터 지역별로 찾기"
   ],
   "source": "https://www.aidclub.com/customer?p=subCustomerWrap01",
-  "outline": "data/call-centers/aidclub.json",
+  "outline": "data/call-centers/neulgyeotae.json",
   "approved": true,
   "approvedAt": "2026-09-27"
 }

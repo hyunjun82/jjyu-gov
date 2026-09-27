@@ -1,4 +1,4 @@
-SLUG: phnuri-call-center
+SLUG: pyeonghwa-nuri-call-center
 RECEIVED: 2026-09-26
 CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
 SHOTS: 1장 (scripts/output/captures/phnuri-call-center-*.png)

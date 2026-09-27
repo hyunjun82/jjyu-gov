@@ -2083,20 +2083,20 @@ import { yedahamCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content
 import { bumoSarangCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/bumo-sarang';
 import { thepeoplelifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/thepeoplelife';
 import { theRebornCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/the-reborn';
-import { sjsangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sjsangjo';
-import { hwsjCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hwsj';
-import { aidclubCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/aidclub';
-import { phnuriCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/phnuri';
 import { kwlifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kwlife';
-import { jkCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/jk';
 import { daonplanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/daonplan';
 import { hyundaislifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hyundaislife';
 import { hdtourzoneCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hdtourzone';
 import { apluslifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/apluslife';
 import { hanlasangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanlasangjo';
-import { khsangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/khsangjo';
 import { elbeelifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/elbeelife';
 import { dslifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/dslife';
+import { hyowonSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hyowon-sangjo';
+import { neulgyeotaeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/neulgyeotae';
+import { kumhoLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kumho-life';
+import { jkLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/jk-life';
+import { sanlimLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sanlim-life';
+import { pyeonghwaNuriCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/pyeonghwa-nuri';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2387,20 +2387,20 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'pyeonghwa-nuri': pyeonghwaNuriCallCenterSpokeContent,
+    'sanlim-life': sanlimLifeCallCenterSpokeContent,
+    'jk-life': jkLifeCallCenterSpokeContent,
+    'kumho-life': kumhoLifeCallCenterSpokeContent,
+    'neulgyeotae': neulgyeotaeCallCenterSpokeContent,
+    'hyowon-sangjo': hyowonSangjoCallCenterSpokeContent,
     'dslife': dslifeCallCenterSpokeContent,
     'elbeelife': elbeelifeCallCenterSpokeContent,
-    'khsangjo': khsangjoCallCenterSpokeContent,
     'hanlasangjo': hanlasangjoCallCenterSpokeContent,
     'apluslife': apluslifeCallCenterSpokeContent,
     'hdtourzone': hdtourzoneCallCenterSpokeContent,
     'hyundaislife': hyundaislifeCallCenterSpokeContent,
     'daonplan': daonplanCallCenterSpokeContent,
-    'jk': jkCallCenterSpokeContent,
     'kwlife': kwlifeCallCenterSpokeContent,
-    'phnuri': phnuriCallCenterSpokeContent,
-    'aidclub': aidclubCallCenterSpokeContent,
-    'hwsj': hwsjCallCenterSpokeContent,
-    'sjsangjo': sjsangjoCallCenterSpokeContent,
     'the-reborn': theRebornCallCenterSpokeContent,
     'thepeoplelife': thepeoplelifeCallCenterSpokeContent,
     'bumo-sarang': bumoSarangCallCenterSpokeContent,

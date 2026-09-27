@@ -1,10 +1,10 @@
 import type { SpokeData } from '../../SpokeClient';
 
-/* 추출본: scripts/output/source-khsangjo-call-center.txt
+/* 추출본: scripts/output/source-kumho-life-call-center.txt
  * 1차 출처: 금호라이프 공식 홈페이지 (https://khsangjo.com/)
  * 확인일: 2026-09-27
  *
- * 이 파일은 scripts/new-call-center.ts 가 khsangjo.json 로 찍어낸다.
+ * 이 파일은 scripts/new-call-center.ts 가 kumho-life.json 로 찍어낸다.
  * 손으로 고치지 말고 JSON 을 고친 뒤 다시 돌린다 — 손으로 쓰면 ARS 번호가 틀린다.
  *
  * 쓰지 않는 것: 공식 페이지에 없는 번호·시간. 생성기가 추출본과 대조해 막는다.
@@ -15,7 +15,7 @@ const OFFICIAL = 'https://khsangjo.com';
 const MAP = 'https://map.naver.com/p/search/%EA%B4%91%EC%A3%BC%20%EB%B6%81%EA%B5%AC%20%EC%A0%9C%EB%B4%89%EB%A1%9C301';
 const HUB = '/policy/online-call-center';
 
-export const khsangjoCallCenterSpokeContent: SpokeData = {
+export const kumhoLifeCallCenterSpokeContent: SpokeData = {
   h1: '금호라이프 고객센터 전화번호 및 상담원 연결·문의 안내',
   /* 업종어를 넣는다 — 대출 글인데 "웰컴저축은행 고객센터" 로 나가면
      회사 고객센터 글과 구분이 안 된다 (2026-08-27 사장님 확인). */
@@ -32,7 +32,7 @@ export const khsangjoCallCenterSpokeContent: SpokeData = {
 
   heroHook:
     '금호라이프 고객센터 대표번호는 1566-4428, 상담 운영시간은 오전 10:00 ~ 오후 5:00이며 이 시간을 벗어나면 상담원 연결이 안 됩니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담원 연결 순서·문의 방법·업무별 번호도 함께 확인할 수 있습니다.',
-  heroAct: { label: '1566-4428 눌러서 걸기', href: TEL },
+  heroAct: { label: '1566-4428 상담 연결', href: TEL },
 
   keyFacts: {
     '대표번호': '1566-4428 (고객상담)',
@@ -91,8 +91,8 @@ export const khsangjoCallCenterSpokeContent: SpokeData = {
         '본사는 광주 북구 제봉로301(중흥동 711-3)에 있습니다. 다만 납입 내역 조회나 주소 변경은 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 회사 이름으로 검색하면 가까운 순으로 나옵니다.',
       highlights: ['광주 북구 제봉로301(중흥동 711-3)'],
       act: {
-        cue: '금호라이프 본사는 광주 북구 쪽입니다. 창구에서만 되는 일이 아니면 안 가셔도 됩니다.',
-        label: '지점 위치 확인하기',
+        cue: '금호라이프 본사는 광주 북구 쪽입니다. 가까운 곳이 어디인지부터 확인하는 편이 빠릅니다.',
+        label: '가까운 창구 찾아보기',
         url: MAP,
       },
       sourceNote: '* 출처: (주)금호라이프 사업자 정보 (2026-09-27 확인)',
@@ -103,8 +103,8 @@ export const khsangjoCallCenterSpokeContent: SpokeData = {
         '부모님 이름으로 든 상조와 내 이름으로 든 상조가 다른 회사인 경우가 있습니다. 급할 때 어느 회사에 걸어야 할지부터 헷갈립니다. 회사마다 대표번호도 다르고 상담원 연결 번호도 다릅니다. 상조회사별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
       highlights: ['상조회사별', '대표번호'],
       act: {
-        cue: '금호라이프 상담은 오전 10:00 ~ 오후 5:00 안에서만 됩니다. 가입한 곳이 여럿이면 미리 봐 두는 게 낫습니다.',
-        label: '다른 서비스 번호 보기',
+        cue: '금호라이프 상담은 오전 10:00 ~ 오후 5:00 안에서만 됩니다. 다른 상조회사는 몇 시까지인지 함께 확인해 두세요.',
+        label: '전체 목록 열기',
         url: HUB,
       },
       sourceNote: '* 출처: 각 상조회사 공식 고객센터 안내',
@@ -141,7 +141,7 @@ export const khsangjoCallCenterSpokeContent: SpokeData = {
      Downloads/db-customer-center.html 원본의 {{ }} 자리표시자에 그대로 꽂힌다.
      글은 위 qa/faqData 가 그대로 쓰고, 이건 화면 전용이다. */
   callCenter: {
-    "slug": "khsangjo",
+    "slug": "kumho-life",
     "name": "금호라이프",
     "brandColor": "#01A651",
     "official": "https://khsangjo.com",
