@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'cashbee', role: 'eligibility', title: '캐시비 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'tmoney', role: 'eligibility', title: '티머니 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'booknlife', role: 'eligibility', title: '북앤라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cultureland', role: 'eligibility', title: '컬쳐랜드 고객센터 전화번호 및 상담원 연결·문의 안내' },

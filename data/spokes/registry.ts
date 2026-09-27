@@ -2138,6 +2138,7 @@ import { joytelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { culturelandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cultureland';
 import { booknlifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/booknlife';
 import { tmoneyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tmoney';
+import { cashbeeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cashbee';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2428,6 +2429,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'cashbee': cashbeeCallCenterSpokeContent,
     'tmoney': tmoneyCallCenterSpokeContent,
     'booknlife': booknlifeCallCenterSpokeContent,
     'cultureland': culturelandCallCenterSpokeContent,
