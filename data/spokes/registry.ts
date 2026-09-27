@@ -2147,6 +2147,7 @@ import { gwangjuJeonnam120CallCenterSpokeContent } from '@/app/policy/[id]/[spok
 import { daejeon120CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daejeon120';
 import { ulsan120CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ulsan120';
 import { gyeonggi120CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gyeonggi120';
+import { jeju120CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeju120';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2243,6 +2244,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'jeju120': jeju120CallCenterSpokeContent,
     'gyeonggi120': gyeonggi120CallCenterSpokeContent,
     'ulsan120': ulsan120CallCenterSpokeContent,
     'daejeon120': daejeon120CallCenterSpokeContent,
