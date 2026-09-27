@@ -1,0 +1,23 @@
+{
+  "slug": "dh-life",
+  "name": "대한라이프보증",
+  "aliases": ["(주)대한라이프보증", "대한라이프보증 상조", "대한라이프 상조"],
+  "industry": "online",
+  "variant": "sangjo",
+  "brandColor": "#338CCD",
+  "official": "http://dh-life.neocle.co.kr",
+  "sourceUrl": "http://dh-life.neocle.co.kr/",
+  "sourceName": "대한라이프보증 공식 홈페이지",
+  "verifiedAt": "2026-09-27",
+  "corp": "(주)대한라이프보증",
+  "hq": "경기도 성남시 분당구 대왕판교로 670 뉴스페이스II B동 702호",
+  "main": { "label": "대표전화", "tel": "1577-2155" },
+  "hours": { "weekday": "" },
+  "hoursNote": "[2026-09-27] 대한라이프보증 홈(dh-life.neocle.co.kr, 로고 '상조법인 (주)대한라이프보증', 2026년 팝업이 떠 있어 운영 중인 사이트로 확인): 푸터 '대한라이프보증 경기도 성남시 분당구 대왕판교로 670 뉴스페이스II B동 702호 TEL.1577-2155.' 번호는 이것 하나이고 상담시간·장례 접수 표기는 없다 — 시간은 비운다. 공정위 정보공개 전화번호 1577-2155 와 일치. 상조 갈래(variant sangjo). 로고색은 images/logo.png 의 파랑(최빈은 글자 검정).",
+  "idStep": "계약자 이름과 생년월일",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "대표전화", "tel": "1577-2155" }
+  ]
+}
