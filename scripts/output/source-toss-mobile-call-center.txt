@@ -1,0 +1,2889 @@
+SLUG: toss-mobile-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 6장 (scripts/output/captures/toss-mobile-call-center-*.png)
+
+===== [1] https://tossmobile.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-1.png
+CHARS: 947
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+모바일 통신,
+이제 토스답게
+시작부터 새로운, 쓸수록 다른
+토스모바일을 만나보세요
+영상 보기
+
+영상에 소개된 데이터 캐시백, 멤버십 혜택 등은 요금제에 따라 제공 범위 및 가능 여부가 상이할 수 있습니다.
+보다 자세한 사항은 토스 앱 하단의 [전체 메뉴 > 토스모바일 휴대폰 요금제]에 들어가서 확인해주세요.
+
+토스모바일이 만든
+새로운 요금제
+데이터 많이 쓸 땐 무제한 마음껏 즐기고
+넉넉한 100GB는 물론 저렴한 7GB까지 모두 무제한
+데이터 적게 썼을 땐 요금 돌려받아요
+데이터를 항상 다 쓰는건 아니니까 요금, 쓴 만큼만 내요
+휴대폰 요금제 쓰면서 결제 혜택까지 누려요
+쇼핑, 결제한 금액의 10% 캐시백
+요금제 가입을
+간편하게
+휴대폰 요금제 바꾸는 게 꼭 어려워야 할까요?
+간편한 가입 과정과 빠른 유심 배송으로 모든 번거로움을 해소했어요
+조회와 관리까지
+토스 앱 하나로
+통신사 앱 설치하고 로그인할 필요 없어요.
+데이터 사용량과 요금 확인, 요금제 변경까지 당연히 토스 앱에서 할 수 있어요.
+불편함은 언제든
+토스모바일 고객센터로
+전화 상담이 어려운 순간에도 찾아주세요.
+챗봇과 전화 상담으로 고객님의 불편함을
+놓치지 않고 해결할 준비가 되어 있어요
+새로운 통신 토스모바일
+지금 경험해 보세요
+요금제 알아보기
+찾으시는 사항이 ‘자주 묻는 질문’에 없는 경우,
+토스모바일팀으로 문의해주세요.
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+----- 이미지 대체텍스트 (img alt) -----
+3d-emojis-hamburger
+3d-emojis-coin
+3d-emojis-icecream
+3d-emojis-shopping-bag
+3d-emojis-drink
+3d-emojis-books
+
+
+===== [2] https://tossmobile.co.kr/faq/9 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-2.png
+CHARS: 538
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+2026년 점심시간 상담업무 휴무 공지
+
+안녕하세요 토스모바일 입니다. 
+
+보다 나은 고객서비스를 제공하기 위해
+
+2026년 1월 2일 부터 점심시간 휴무제를 시행합니다. 
+
+평일 점심시간 (12:00~13:00)에는 분실접수(ARS)를 제외한 모든 민원 상담업무 처리가 중단됩니다. 
+
+이점 양해해 주시기 바라며 더 좋은 품질의 서비스로 보답하겠습니다. 
+
+감사합니다.  
+
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [3] https://tossmobile.co.kr/faq/23 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-3.png
+CHARS: 579
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+토스모바일 채팅 상담 시간 변경 안내
+
+안녕하세요. 토스모바일 주식회사(이하"토스모바일") 입니다.
+
+ 2025년 8월 1일 자로 토스모바일 고객센터 채팅 상담 운영시간이 변경됨을 공지드립니다. 
+
+ 고객센터 운영시간  
+
+전화 09:00~18:00 
+
+채팅 09:00~18:00 
+
+(주말 및 공휴일 미운영)   
+
+기존 채팅 상담 종료 시간 17:30분에서 30분 연장하여
+
+ 18:00 시까지 운영하는 점 참고 부탁드립니다.
+
+ 감사합니다. 
+
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [4] https://tossmobile.co.kr/faq/114 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-4.png
+CHARS: 647
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+부가서비스 신청/해지는 어떻게 하나요?
+
+부가 서비스 신청은 토스앱에서 또는 고객센터에서 신청 가능해요.
+
+토스앱을 통해 가입하신 경우, 토스앱에서 ' 내 토스모바일 요금제 ' 를 검색해 주세요.
+
+▶ 토스 앱 - 전체 - 내 토스모바일 요금제 - 관리 - 로밍 · 부가서비스
+
+토스앱이 아닌 다른 경로로 가입하신 경우에는 토스앱에서 ' 토스모바일 케어 ' 를 검색해 주세요.
+
+▶ 토스 앱 - 전체 - 토스모바일 케어 - 관리 - 로밍 · 부가서비스
+
+토스 모바일 고객센터 1660-1114로 문의해 주세요.
+
+토스모바일 고객센터 : 평일 오전 09시 ~ 오후 06시
+
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [5] https://tossmobile.co.kr/faq/130 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-5.png
+CHARS: 686
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+[LG U+] 건물 옥상 화재로 인한 일부 통신서비스 장애 복구 완료 안내
+
+김해시 무계동 소재 건물 옥상 화재로 인해 일부 LG U+ 유.무선 통신서비스 장애가 발생하였으나 , 긴급 조치를 통해 복구가 완료되었습니다. 
+
+■ 장애일시
+
+-26년 5월 29일 12시 27분~18시 30분 (유선)
+
+-26년 5월 29일 12시 27분~19시 20분 (무선)
+
+■ 장애일시 : 경상남도 김해시 일부지역
+
+■ 장애 관련 영향도 : 유선 / 무선서비스 일부
+
+이용에 불편 드린점 사과드리며, 안정적인 서비스 제공을 위한 최선을 다하겠습니다. 
+
+＊ 이용자 상담 접수 연락처 : 고객센터 [ 휴대폰 114(무료)  , 1660-1114(유료) ]
+
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [6] https://www.mvnohub.kr/brand/plan/5041.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-6.png
+CHARS: 3604
+
+본문 바로가기
+일시정지
+상단배너닫기
+요금제
+휴대폰
+알뜰폰 브랜드
+맞춤형 요금제
+이벤트
+고객지원
+검색
+관심상품
+신청내역조회
+토스모바일 요금제
+요금제 상세
+
+토스모바일
+
+(0.0/5.0)
+
+상담 신청
+홈페이지
+
+토스가 만든 모바일 통신, 시작부터 새로운, 쓸수록 다른 토스모바일을 만나보세요
+
+통신사
+SKT, KT, LGU+
+고객센터
+SKT 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+KT 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+LGU+ 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+요금제
+휴대폰
+일시정지
+
+필터
+
+초기화
+
+상품 유형
+
+상품 유형 선택
+이벤트 상품 🎉
+허브 추천 상품
+
+가격
+
+0원 ~ 100,000원 이상
+
+가격 범위 선택
+
+통신 규격
+
+통신 규격 선택
+5G
+LTE
+3G
+태블릿/스마트기기
+
+데이터 용량
+
+데이터 용량 선택
+1GB 이하
+5GB 이하
+10GB 이하
+30GB 이하
+30GB 초과
+무제한
+
+통화량
+
+0분 ~ 무제한
+
+통화량 범위 선택
+통화량 선택
+전체
+0분~50분
+50분~100분
+100분~200분
+200분~300분
+300분~500분
+500분~무제한
+
+문자량
+
+문자 없음 ~ 문자 무제한
+
+문자량 범위 선택
+문자량 선택
+문자 전체
+문자 무제한
+300~500건
+100~300건
+50~100건
+50건 미만
+문자 없음
+
+할인 기간
+
+1개월 ~ 24개월 이상
+
+할인 기간 범위 선택
+할인 기간 선택
+전체
+1~6개월
+6~12개월
+12~24개월
+24개월 이상
+필터 적용
+상세필터 열기
+전체
+SKT
+KT
+LGU+
+요금제 검색
+
+토스모바일
+
+판매많은순
+
+(4.7/5.0)
+
+토스실속100분10GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속300분5GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 5GB
+통화 300분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속500분6GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 300 원
+
+14,800원 98% 할인
+
+7개월 이후 14,800원/월
+
+데이터 6GB
+통화 500분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속1GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 7,900 원
+
+14,800원 47% 할인
+
+7개월 이후 14,800원/월
+
+데이터 1GB+1Mbps
+통화 무제한
+문자 무제한
+비교하기
+
+(0.0/5.0)
+
+토스실속100분6GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 6GB
+통화 100분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스CU100GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 46,200 원
+
+55,000원 16% 할인
+
+데이터 100GB+5Mbps
+통화 무제한
+문자 무제한
+Npay 2만 + CU 할인(최대 5천원)
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(5.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 5GB
+통화 300분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+토스CU71GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 39,600 원
+
+49,500원 20% 할인
+
+데이터 11GB+3Mbps
+통화 무제한
+문자 무제한
+Npay 2만 + CU 할인(최대 5천원)
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+이전
+1
+2
+다음
+고객리뷰
+전체
+SKT
+KT
+LGU+
+고객 스와이퍼 멈추기
+더보기
+
+(5.0/5.0)
+
+류*윤
+
+친절하게 개통 잘 했어요. 5월 마지막 날에 셀프개통이 되지 않아 걱정 되었는데 6월까지 요금제 실시하게 되어서 좋았습니다!
+
+LGU+
+[LGU+] 실속 데이터 4.5GB+_D_8389
+
+(5.0/5.0)
+
+최*선
+
+같은 요즘제 대비 가격이 저렴하고 이벤트를 하길래 선택하게 되었습니다. 배송되는데 2~3일 걸린다고 하여 여유롭게 기다리던 와중 다음날 바로 배송되었고 영업시간내에 개통이 가능하여 금일 개통하였습니다! 홈페이지에서 [고객센터 - 고객센터개통] 를 통해 셀프개통을 하였고 3시간정도 소요되었습니다. 유심 꽂고 한번 재부팅후 바로 개통되었습니다. 만족스럽습니다.^^
+
+LGU+
+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)
+
+박*진
+
+요금도 싸고 아주좋아요
+
+LGU+
+★GS25 12만원 혜택_D_3979
+
+(5.0/5.0)
+
+정*락
+
+상담사분들도 친절하시고 감사합니다
+
+LGU+
+[LGU+] 실속 100분10GB_D_9128
+
+(5.0/5.0)
+
+장*영
+
+통화품질, 인터넷 속도 모두 만족합니다^^
+
+LGU+
+★유모바일_NPAY 6만원 + 데이터 10GB 혜택_D_0802
+
+알뜰폰 허브 소개 배너
+
+왜 알뜰폰 허브 일까요?
+
+한국정보통신진흥협회에서 운영하는 대한민국 최초 알뜰폰 요금제 비교 사이트입니다.
+
+자세히 보기
+상담문의
+알뜰폰 허브
+사이트소개
+이용약관
+개인정보처리방침
+이메일무단수집거부
+저작권 보호 정책
+서울시 강남구 역삼로 111 9층 (역삼동,한국정보통신진흥협회빌딩)
+Mail : handphone@kait.or.kr Tel : 070-8795-4040
+통신판매업신고번호 : 2010-서울서초-1232
+사업자등록번호 : 211-82-11990 대표자 : 정재헌 호스팅사업자 : (사)한국정보통신진흥협회
+
+Ⓒ2026. Korea Association for AI&ICT Promotion. All Rights Reserved.
+과학기술정보통신부
+KAIT 한국정보통신진흥협회
+
+FAMILY SITE
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+body{font-family:"Open Sans", sans-serif;background-size:cover;}
+ #waitBackground{position:absolute;background-color:rgba(0,0,0,0.4);width:100%;height:100%;}
+ @media (max-width :420px) {
+ body{
+ background-position:50%;
+ }
+ .login-containerT{width:100%!important;
+ }
+ .mobile-size {
+ width:90%!important;
+ margin: 0 auto;
+ }
+ .text-center h3 {
+ margin-top: 52px!important;
+ font-size: 20px!important;
+ }
+ .hpanel {
+ margin-top: 20px!important;
+ padding: 16px 0 16px 0!important; 
+ }
+ .sub_text {
+ font-size:0.8em!important; 
+ }
+ #loading3 {
+ width:70%!important;
+ }
+ .main_logo {
+ right:50%!important;
+ transform: translate(50%)!important; 
+ }
+ .main_logo img {
+ width: 110px!important;
+ height: auto!important;
+ }
+ }
+ .login-containerT{max-width:none;width:560px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99;}
+ .login-containerT, .row, .col-md-12, .hpanel{margin:0;padding:0;}
+ .panel-bodyT{text-align:center;padding:0px 2it_default.jsp0px 10px!important;border-radius:0;}
+ #boxHeadLine{background:#4486d4;width:100%;height:4px;}
+ #wait_value{
+ color:#1e1e1e;
+ font-weight:bold;
+ font-size:1.2em;
+ margin: 0 0 20px 0;
+ }
+ #loading3{display:flex;width:50%;justify-content:space-between;margin:30px auto 49px;}
+ #loading3>div{width:8px;height:40px;margin-right:7px;background-color:#033074;border-radius: 3px;
+ -webkit-animation:strechdelay 1.5s ease-in-out infinite;
+ animation:strechdelay 1.5s ease-in-out infinite;
+ }
+ #loading3 .line2{
+ -webkit-animation-delay:-1.4s;
+ animation-delay:-1.4s;
+ } #loading3 .line3{
+ -webkit-animation-delay:-1.3s;
+ animation-delay:-1.3s;
+ }#loading3 .line4{
+ -webkit-animation-delay:-1.2s;
+ animation-delay:-1.2s;
+ }#loading3 .line5{
+ -webkit-animation-delay:-1.1s;
+ animation-delay:-1.1s;
+ }#loading3 .line6{
+ -webkit-animation-delay:-1.0s;
+ animation-delay:-1.0s;
+ }#loading3 .line7{
+ -webkit-animation-delay:-0.9s;
+ animation-delay:-0.9s;
+ }#loading3 .line8{
+ -webkit-animation-delay:-0.8s;
+ animation-delay:-0.8s;
+ }#loading3 .line9{
+ -webkit-animation-delay:-0.7s;
+ animation-delay:-0.7s;
+ }#loading3 .line10{
+ -webkit-animation-delay:-0.6s;
+ animation-delay:-0.6s;
+ }#loading3 .line11{
+ -webkit-animation-delay:-0.5s;
+ animation-delay:-0.5s;
+ }#loading3 .line12{
+ -webkit-animation-delay:-0.4s;
+ animation-delay:-0.4s;
+ }#loading3 .line13{
+ -webkit-animation-delay:-0.3s;
+ animation-delay:-0.3s;
+ }#loading3 .line14{
+ -webkit-animation-delay:-0.2s;
+ animation-delay:-0.2s;
+ }#loading3 .line15{
+ -webkit-animation-delay:-0.1s;
+ animation-delay:-0.1s;
+ }#loading3 .line16{
+ -webkit-animation-delay:-0.0s;
+ animation-delay:-0.0s;
+ }
+ @keyframes strechdelay{
+ 0%,50%,100%{
+ transform:scaleY(.7);
+ }
+ 20%{
+ transform:scaleY(1);
+ background-color:#2d69c2;
+ }
+ }
+ @-webkit-keyframes strechdelay{
+ 0%,50%,100%{
+ -webkit-transform:scaleY(.7);
+ }
+ 20%{
+ -webkit-transform:scaleY(1);
+ background-color:#72a5f5;
+ }
+ }
+function checkCntData() {
+ var host = this_host;
+ var ip = this_ip;
+ var loginId = this_loginId;
+ var port = this_port;
+ var pageUrl = this_pageUrl;
+ var sendThis = this_sendThis
+ callTracerApiInputData(host, ip, loginId, port, pageUrl, sendThis);
+ var waitCnt = this_waitCnt;
+ if ( waitCnt == "0" || waitCnt == "E") {
+ showRealPage();
+ callBackTracer();
+ } else {
+ var $el = $("#wait_value");
+ var waitCnt = this_waitCnt;
+ if ( $.isNumeric(waitCnt) ) {
+ $el.html("고객님의 대기열은 <span style=\"font-size:22px;color:red;font-weight:bold;\">"+comma(Math.floor(waitCnt))+"</span> 명입니다.");
+ } else {
+ }
+ }
+}
+playAlert = setInterval(function() {
+ if (typeof this_isWait === 'undefined') {
+ return;
+ }
+ if ( this_isWait == "T" ) {
+ checkCntData();
+ }
+}, 1000);
+$(document).ready(function() {
+ var $el = $("#wait_value");
+ $el.html("고객님의 대기열을 확인중입니다.");
+});
+function createCookie() {
+ var now = new Date();
+ var time = now.getTime();
+ var expireTime = time + 1000*36000;
+ now.setTime(expireTime);
+ var tempExp = 'Wed, 31 Oct 2020 08:50:17 GMT';
+ document.cookie = 'SESSIONID=hjpark123;expires='+now.toGMTString()+';path=/';
+}
+/* setInterval(function() {
+ window.location.href='login.do';
+ }, 20000); */
+function comma(num){
+ var len, point, str; 
+ num = num + ""; 
+ point = num.length % 3 ;
+ len = num.length; 
+ str = num.substring(0, point); 
+ while (point < len) { 
+ if (str != "") str += ","; 
+ str += num.substring(point, point + 3); 
+ point += 3; 
+ } 
+ return str;
+}
+ 서비스 접근 대기 중입니다. 
+ 고객님의 대기열을 확인중입니다.
+ 현재 접속 사용자가 많아 대기중이며, 잠시만 기다리시면 자동 접속됩니다. 
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 차단 되었습니다. 
+ 현재 접속하신 아이피에서는 접속이 불가능합니다.
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 불가합니다. 
+ 접속량이 많아 접속이 불가능합니다. 잠시 후 다시 접속해주세요
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+
+1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+통합검색
+ 닫기
+ 검색
+ 추천 요금제
+ 직장인
+ 가성비 청년
+ 해비 유저
+ 공신
+ 어르신 안심
+ 알뜰 사용자
+
+GNB사이드 메뉴
+ home
+ 닫기
+ 관심상품
+ 신청내역조회
+ 1:1문의
+ 검색
+ 요금제
+ 휴대폰
+ 알뜰폰 브랜드
+ 맞춤형 요금제
+ 이벤트
+ 고객지원
+ 1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+닫기
+ 월 할부금 안내
+ · 기기값을 24개월 할부로 결제할 때 청구되는 요금을 기준으로 검색됩니다.
+
+전체
+ 새폰
+ 중고폰
+
+알뜰폰 브랜드
+ 닫기
+
+정렬
+ 닫기
+
+낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+ 낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+
+요금제 비교하기
+ 선택된 요금제 0개
+ 초기화
+ 초기화
+
+첫 리뷰를 남겨주세요. 
+ 소중한 후기가 다른 고객에게 큰 도움이 됩니다.
+
+(4.7/5.0)박*안신규가입이였고 처음이라 버벅거렸지만 쳇상담원을통해 묻고 답하는게 조금 불편하긴했지만 아주 자세히 가르쳐줘서 잘할수있었습니다
+번호도 좋은걸로 주셔서 아이가 외우기 쉽다고 좋아했습니다
+앞으로도 잘쓰겠습니다KT5G 200분/15GB_hub
+
+(5.0/5.0)박*진빠른 개통 완전 만족합니다LGU+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)김*승다좋습니다 가격좋고 통화품질 데이터 다좋습니다LGU+5G 티플 가성비(300분/15GB)_D_5153
+
+(4.7/5.0)오*철빠른 개통 착한가격 너무 맘에 들어요LGU+[Npay5천] A 갓성비 20GB/100분 (기본10GB + 추가 10GB 제공)
+
+(5.0/5.0)임*신개통도 문제없이 했으며 통화품질도 좋습니다SKT티플 가성비(300분/6GB)_평생할인_D_3126
+
+ICT통계조사
+ 방송통신이용자정보포털
+ 핸드폰 분실·도난 및 요금할인 조회
+ 엠세이퍼
+ 중고단말안심거래
+ 핸드폰 찾기 콜센터
+ 알뜰폰 요금제 비교·구매
+ 이동전화 불공정행위 신고센터
+ 방송통신 연체정보 조회
+ 유료방송사 미환급액 정보 조회
+ 정보통신기술자격검정
+ 유·무선 판매점 사전승낙
+ 명의도용방지
+ ICT혁신기술기업 해외진출지원
+ 초고속 정보통신 건물 인증
+ 온라인피해365센터
+ 월드 IT쇼
+ 빅데이터 포럼
+ 한국 IT리더스 포럼
+
+----- 이미지 대체텍스트 (img alt) -----
+9월 한가위도 이지모바일과 함께
+프리텔레콤 SKT | 9월 특가
+과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.03.11 ~ 2027.03.10
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: toss-mobile-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 6장 (scripts/output/captures/toss-mobile-call-center-*.png)
+
+===== [1] https://tossmobile.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-1.png
+CHARS: 947
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+모바일 통신,
+이제 토스답게
+시작부터 새로운, 쓸수록 다른
+토스모바일을 만나보세요
+영상 보기
+
+영상에 소개된 데이터 캐시백, 멤버십 혜택 등은 요금제에 따라 제공 범위 및 가능 여부가 상이할 수 있습니다.
+보다 자세한 사항은 토스 앱 하단의 [전체 메뉴 > 토스모바일 휴대폰 요금제]에 들어가서 확인해주세요.
+
+토스모바일이 만든
+새로운 요금제
+데이터 많이 쓸 땐 무제한 마음껏 즐기고
+넉넉한 100GB는 물론 저렴한 7GB까지 모두 무제한
+데이터 적게 썼을 땐 요금 돌려받아요
+데이터를 항상 다 쓰는건 아니니까 요금, 쓴 만큼만 내요
+휴대폰 요금제 쓰면서 결제 혜택까지 누려요
+쇼핑, 결제한 금액의 10% 캐시백
+요금제 가입을
+간편하게
+휴대폰 요금제 바꾸는 게 꼭 어려워야 할까요?
+간편한 가입 과정과 빠른 유심 배송으로 모든 번거로움을 해소했어요
+조회와 관리까지
+토스 앱 하나로
+통신사 앱 설치하고 로그인할 필요 없어요.
+데이터 사용량과 요금 확인, 요금제 변경까지 당연히 토스 앱에서 할 수 있어요.
+불편함은 언제든
+토스모바일 고객센터로
+전화 상담이 어려운 순간에도 찾아주세요.
+챗봇과 전화 상담으로 고객님의 불편함을
+놓치지 않고 해결할 준비가 되어 있어요
+새로운 통신 토스모바일
+지금 경험해 보세요
+요금제 알아보기
+찾으시는 사항이 ‘자주 묻는 질문’에 없는 경우,
+토스모바일팀으로 문의해주세요.
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+----- 이미지 대체텍스트 (img alt) -----
+3d-emojis-hamburger
+3d-emojis-coin
+3d-emojis-icecream
+3d-emojis-shopping-bag
+3d-emojis-drink
+3d-emojis-books
+
+
+===== [2] https://tossmobile.co.kr/faq/23 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-2.png
+CHARS: 327
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [3] https://tossmobile.co.kr/faq/9 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-3.png
+CHARS: 538
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+2026년 점심시간 상담업무 휴무 공지
+
+안녕하세요 토스모바일 입니다. 
+
+보다 나은 고객서비스를 제공하기 위해
+
+2026년 1월 2일 부터 점심시간 휴무제를 시행합니다. 
+
+평일 점심시간 (12:00~13:00)에는 분실접수(ARS)를 제외한 모든 민원 상담업무 처리가 중단됩니다. 
+
+이점 양해해 주시기 바라며 더 좋은 품질의 서비스로 보답하겠습니다. 
+
+감사합니다.  
+
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [4] https://tossmobile.co.kr/faq/114 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-4.png
+CHARS: 647
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+부가서비스 신청/해지는 어떻게 하나요?
+
+부가 서비스 신청은 토스앱에서 또는 고객센터에서 신청 가능해요.
+
+토스앱을 통해 가입하신 경우, 토스앱에서 ' 내 토스모바일 요금제 ' 를 검색해 주세요.
+
+▶ 토스 앱 - 전체 - 내 토스모바일 요금제 - 관리 - 로밍 · 부가서비스
+
+토스앱이 아닌 다른 경로로 가입하신 경우에는 토스앱에서 ' 토스모바일 케어 ' 를 검색해 주세요.
+
+▶ 토스 앱 - 전체 - 토스모바일 케어 - 관리 - 로밍 · 부가서비스
+
+토스 모바일 고객센터 1660-1114로 문의해 주세요.
+
+토스모바일 고객센터 : 평일 오전 09시 ~ 오후 06시
+
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [5] https://tossmobile.co.kr/faq/130 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-5.png
+CHARS: 686
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+[LG U+] 건물 옥상 화재로 인한 일부 통신서비스 장애 복구 완료 안내
+
+김해시 무계동 소재 건물 옥상 화재로 인해 일부 LG U+ 유.무선 통신서비스 장애가 발생하였으나 , 긴급 조치를 통해 복구가 완료되었습니다. 
+
+■ 장애일시
+
+-26년 5월 29일 12시 27분~18시 30분 (유선)
+
+-26년 5월 29일 12시 27분~19시 20분 (무선)
+
+■ 장애일시 : 경상남도 김해시 일부지역
+
+■ 장애 관련 영향도 : 유선 / 무선서비스 일부
+
+이용에 불편 드린점 사과드리며, 안정적인 서비스 제공을 위한 최선을 다하겠습니다. 
+
+＊ 이용자 상담 접수 연락처 : 고객센터 [ 휴대폰 114(무료)  , 1660-1114(유료) ]
+
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [6] https://www.mvnohub.kr/brand/plan/5041.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-6.png
+CHARS: 3604
+
+본문 바로가기
+일시정지
+상단배너닫기
+요금제
+휴대폰
+알뜰폰 브랜드
+맞춤형 요금제
+이벤트
+고객지원
+검색
+관심상품
+신청내역조회
+토스모바일 요금제
+요금제 상세
+
+토스모바일
+
+(0.0/5.0)
+
+상담 신청
+홈페이지
+
+토스가 만든 모바일 통신, 시작부터 새로운, 쓸수록 다른 토스모바일을 만나보세요
+
+통신사
+SKT, KT, LGU+
+고객센터
+SKT 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+KT 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+LGU+ 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+요금제
+휴대폰
+일시정지
+
+필터
+
+초기화
+
+상품 유형
+
+상품 유형 선택
+이벤트 상품 🎉
+허브 추천 상품
+
+가격
+
+0원 ~ 100,000원 이상
+
+가격 범위 선택
+
+통신 규격
+
+통신 규격 선택
+5G
+LTE
+3G
+태블릿/스마트기기
+
+데이터 용량
+
+데이터 용량 선택
+1GB 이하
+5GB 이하
+10GB 이하
+30GB 이하
+30GB 초과
+무제한
+
+통화량
+
+0분 ~ 무제한
+
+통화량 범위 선택
+통화량 선택
+전체
+0분~50분
+50분~100분
+100분~200분
+200분~300분
+300분~500분
+500분~무제한
+
+문자량
+
+문자 없음 ~ 문자 무제한
+
+문자량 범위 선택
+문자량 선택
+문자 전체
+문자 무제한
+300~500건
+100~300건
+50~100건
+50건 미만
+문자 없음
+
+할인 기간
+
+1개월 ~ 24개월 이상
+
+할인 기간 범위 선택
+할인 기간 선택
+전체
+1~6개월
+6~12개월
+12~24개월
+24개월 이상
+필터 적용
+상세필터 열기
+전체
+SKT
+KT
+LGU+
+요금제 검색
+
+토스모바일
+
+판매많은순
+
+(4.7/5.0)
+
+토스실속100분10GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속300분5GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 5GB
+통화 300분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속500분6GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 300 원
+
+14,800원 98% 할인
+
+7개월 이후 14,800원/월
+
+데이터 6GB
+통화 500분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속1GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 7,900 원
+
+14,800원 47% 할인
+
+7개월 이후 14,800원/월
+
+데이터 1GB+1Mbps
+통화 무제한
+문자 무제한
+비교하기
+
+(0.0/5.0)
+
+토스실속100분6GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 6GB
+통화 100분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스CU100GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 46,200 원
+
+55,000원 16% 할인
+
+데이터 100GB+5Mbps
+통화 무제한
+문자 무제한
+Npay 2만 + CU 할인(최대 5천원)
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(5.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 5GB
+통화 300분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+토스CU71GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 39,600 원
+
+49,500원 20% 할인
+
+데이터 11GB+3Mbps
+통화 무제한
+문자 무제한
+Npay 2만 + CU 할인(최대 5천원)
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+이전
+1
+2
+다음
+고객리뷰
+전체
+SKT
+KT
+LGU+
+고객 스와이퍼 멈추기
+더보기
+
+(5.0/5.0)
+
+류*윤
+
+친절하게 개통 잘 했어요. 5월 마지막 날에 셀프개통이 되지 않아 걱정 되었는데 6월까지 요금제 실시하게 되어서 좋았습니다!
+
+LGU+
+[LGU+] 실속 데이터 4.5GB+_D_8389
+
+(5.0/5.0)
+
+최*선
+
+같은 요즘제 대비 가격이 저렴하고 이벤트를 하길래 선택하게 되었습니다. 배송되는데 2~3일 걸린다고 하여 여유롭게 기다리던 와중 다음날 바로 배송되었고 영업시간내에 개통이 가능하여 금일 개통하였습니다! 홈페이지에서 [고객센터 - 고객센터개통] 를 통해 셀프개통을 하였고 3시간정도 소요되었습니다. 유심 꽂고 한번 재부팅후 바로 개통되었습니다. 만족스럽습니다.^^
+
+LGU+
+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)
+
+박*진
+
+요금도 싸고 아주좋아요
+
+LGU+
+★GS25 12만원 혜택_D_3979
+
+(5.0/5.0)
+
+정*락
+
+상담사분들도 친절하시고 감사합니다
+
+LGU+
+[LGU+] 실속 100분10GB_D_9128
+
+(5.0/5.0)
+
+장*영
+
+통화품질, 인터넷 속도 모두 만족합니다^^
+
+LGU+
+★유모바일_NPAY 6만원 + 데이터 10GB 혜택_D_0802
+
+알뜰폰 허브 소개 배너
+
+왜 알뜰폰 허브 일까요?
+
+한국정보통신진흥협회에서 운영하는 대한민국 최초 알뜰폰 요금제 비교 사이트입니다.
+
+자세히 보기
+상담문의
+알뜰폰 허브
+사이트소개
+이용약관
+개인정보처리방침
+이메일무단수집거부
+저작권 보호 정책
+서울시 강남구 역삼로 111 9층 (역삼동,한국정보통신진흥협회빌딩)
+Mail : handphone@kait.or.kr Tel : 070-8795-4040
+통신판매업신고번호 : 2010-서울서초-1232
+사업자등록번호 : 211-82-11990 대표자 : 정재헌 호스팅사업자 : (사)한국정보통신진흥협회
+
+Ⓒ2026. Korea Association for AI&ICT Promotion. All Rights Reserved.
+과학기술정보통신부
+KAIT 한국정보통신진흥협회
+
+FAMILY SITE
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+body{font-family:"Open Sans", sans-serif;background-size:cover;}
+ #waitBackground{position:absolute;background-color:rgba(0,0,0,0.4);width:100%;height:100%;}
+ @media (max-width :420px) {
+ body{
+ background-position:50%;
+ }
+ .login-containerT{width:100%!important;
+ }
+ .mobile-size {
+ width:90%!important;
+ margin: 0 auto;
+ }
+ .text-center h3 {
+ margin-top: 52px!important;
+ font-size: 20px!important;
+ }
+ .hpanel {
+ margin-top: 20px!important;
+ padding: 16px 0 16px 0!important; 
+ }
+ .sub_text {
+ font-size:0.8em!important; 
+ }
+ #loading3 {
+ width:70%!important;
+ }
+ .main_logo {
+ right:50%!important;
+ transform: translate(50%)!important; 
+ }
+ .main_logo img {
+ width: 110px!important;
+ height: auto!important;
+ }
+ }
+ .login-containerT{max-width:none;width:560px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99;}
+ .login-containerT, .row, .col-md-12, .hpanel{margin:0;padding:0;}
+ .panel-bodyT{text-align:center;padding:0px 2it_default.jsp0px 10px!important;border-radius:0;}
+ #boxHeadLine{background:#4486d4;width:100%;height:4px;}
+ #wait_value{
+ color:#1e1e1e;
+ font-weight:bold;
+ font-size:1.2em;
+ margin: 0 0 20px 0;
+ }
+ #loading3{display:flex;width:50%;justify-content:space-between;margin:30px auto 49px;}
+ #loading3>div{width:8px;height:40px;margin-right:7px;background-color:#033074;border-radius: 3px;
+ -webkit-animation:strechdelay 1.5s ease-in-out infinite;
+ animation:strechdelay 1.5s ease-in-out infinite;
+ }
+ #loading3 .line2{
+ -webkit-animation-delay:-1.4s;
+ animation-delay:-1.4s;
+ } #loading3 .line3{
+ -webkit-animation-delay:-1.3s;
+ animation-delay:-1.3s;
+ }#loading3 .line4{
+ -webkit-animation-delay:-1.2s;
+ animation-delay:-1.2s;
+ }#loading3 .line5{
+ -webkit-animation-delay:-1.1s;
+ animation-delay:-1.1s;
+ }#loading3 .line6{
+ -webkit-animation-delay:-1.0s;
+ animation-delay:-1.0s;
+ }#loading3 .line7{
+ -webkit-animation-delay:-0.9s;
+ animation-delay:-0.9s;
+ }#loading3 .line8{
+ -webkit-animation-delay:-0.8s;
+ animation-delay:-0.8s;
+ }#loading3 .line9{
+ -webkit-animation-delay:-0.7s;
+ animation-delay:-0.7s;
+ }#loading3 .line10{
+ -webkit-animation-delay:-0.6s;
+ animation-delay:-0.6s;
+ }#loading3 .line11{
+ -webkit-animation-delay:-0.5s;
+ animation-delay:-0.5s;
+ }#loading3 .line12{
+ -webkit-animation-delay:-0.4s;
+ animation-delay:-0.4s;
+ }#loading3 .line13{
+ -webkit-animation-delay:-0.3s;
+ animation-delay:-0.3s;
+ }#loading3 .line14{
+ -webkit-animation-delay:-0.2s;
+ animation-delay:-0.2s;
+ }#loading3 .line15{
+ -webkit-animation-delay:-0.1s;
+ animation-delay:-0.1s;
+ }#loading3 .line16{
+ -webkit-animation-delay:-0.0s;
+ animation-delay:-0.0s;
+ }
+ @keyframes strechdelay{
+ 0%,50%,100%{
+ transform:scaleY(.7);
+ }
+ 20%{
+ transform:scaleY(1);
+ background-color:#2d69c2;
+ }
+ }
+ @-webkit-keyframes strechdelay{
+ 0%,50%,100%{
+ -webkit-transform:scaleY(.7);
+ }
+ 20%{
+ -webkit-transform:scaleY(1);
+ background-color:#72a5f5;
+ }
+ }
+function checkCntData() {
+ var host = this_host;
+ var ip = this_ip;
+ var loginId = this_loginId;
+ var port = this_port;
+ var pageUrl = this_pageUrl;
+ var sendThis = this_sendThis
+ callTracerApiInputData(host, ip, loginId, port, pageUrl, sendThis);
+ var waitCnt = this_waitCnt;
+ if ( waitCnt == "0" || waitCnt == "E") {
+ showRealPage();
+ callBackTracer();
+ } else {
+ var $el = $("#wait_value");
+ var waitCnt = this_waitCnt;
+ if ( $.isNumeric(waitCnt) ) {
+ $el.html("고객님의 대기열은 <span style=\"font-size:22px;color:red;font-weight:bold;\">"+comma(Math.floor(waitCnt))+"</span> 명입니다.");
+ } else {
+ }
+ }
+}
+playAlert = setInterval(function() {
+ if (typeof this_isWait === 'undefined') {
+ return;
+ }
+ if ( this_isWait == "T" ) {
+ checkCntData();
+ }
+}, 1000);
+$(document).ready(function() {
+ var $el = $("#wait_value");
+ $el.html("고객님의 대기열을 확인중입니다.");
+});
+function createCookie() {
+ var now = new Date();
+ var time = now.getTime();
+ var expireTime = time + 1000*36000;
+ now.setTime(expireTime);
+ var tempExp = 'Wed, 31 Oct 2020 08:50:17 GMT';
+ document.cookie = 'SESSIONID=hjpark123;expires='+now.toGMTString()+';path=/';
+}
+/* setInterval(function() {
+ window.location.href='login.do';
+ }, 20000); */
+function comma(num){
+ var len, point, str; 
+ num = num + ""; 
+ point = num.length % 3 ;
+ len = num.length; 
+ str = num.substring(0, point); 
+ while (point < len) { 
+ if (str != "") str += ","; 
+ str += num.substring(point, point + 3); 
+ point += 3; 
+ } 
+ return str;
+}
+ 서비스 접근 대기 중입니다. 
+ 고객님의 대기열을 확인중입니다.
+ 현재 접속 사용자가 많아 대기중이며, 잠시만 기다리시면 자동 접속됩니다. 
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 차단 되었습니다. 
+ 현재 접속하신 아이피에서는 접속이 불가능합니다.
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 불가합니다. 
+ 접속량이 많아 접속이 불가능합니다. 잠시 후 다시 접속해주세요
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+
+1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+통합검색
+ 닫기
+ 검색
+ 추천 요금제
+ 직장인
+ 가성비 청년
+ 해비 유저
+ 공신
+ 어르신 안심
+ 알뜰 사용자
+
+GNB사이드 메뉴
+ home
+ 닫기
+ 관심상품
+ 신청내역조회
+ 1:1문의
+ 검색
+ 요금제
+ 휴대폰
+ 알뜰폰 브랜드
+ 맞춤형 요금제
+ 이벤트
+ 고객지원
+ 1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+닫기
+ 월 할부금 안내
+ · 기기값을 24개월 할부로 결제할 때 청구되는 요금을 기준으로 검색됩니다.
+
+전체
+ 새폰
+ 중고폰
+
+알뜰폰 브랜드
+ 닫기
+
+정렬
+ 닫기
+
+낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+ 낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+
+요금제 비교하기
+ 선택된 요금제 0개
+ 초기화
+ 초기화
+
+첫 리뷰를 남겨주세요. 
+ 소중한 후기가 다른 고객에게 큰 도움이 됩니다.
+
+(4.7/5.0)박*안신규가입이였고 처음이라 버벅거렸지만 쳇상담원을통해 묻고 답하는게 조금 불편하긴했지만 아주 자세히 가르쳐줘서 잘할수있었습니다
+번호도 좋은걸로 주셔서 아이가 외우기 쉽다고 좋아했습니다
+앞으로도 잘쓰겠습니다KT5G 200분/15GB_hub
+
+(5.0/5.0)박*진빠른 개통 완전 만족합니다LGU+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)김*승다좋습니다 가격좋고 통화품질 데이터 다좋습니다LGU+5G 티플 가성비(300분/15GB)_D_5153
+
+(4.7/5.0)오*철빠른 개통 착한가격 너무 맘에 들어요LGU+[Npay5천] A 갓성비 20GB/100분 (기본10GB + 추가 10GB 제공)
+
+(5.0/5.0)임*신개통도 문제없이 했으며 통화품질도 좋습니다SKT티플 가성비(300분/6GB)_평생할인_D_3126
+
+ICT통계조사
+ 방송통신이용자정보포털
+ 핸드폰 분실·도난 및 요금할인 조회
+ 엠세이퍼
+ 중고단말안심거래
+ 핸드폰 찾기 콜센터
+ 알뜰폰 요금제 비교·구매
+ 이동전화 불공정행위 신고센터
+ 방송통신 연체정보 조회
+ 유료방송사 미환급액 정보 조회
+ 정보통신기술자격검정
+ 유·무선 판매점 사전승낙
+ 명의도용방지
+ ICT혁신기술기업 해외진출지원
+ 초고속 정보통신 건물 인증
+ 온라인피해365센터
+ 월드 IT쇼
+ 빅데이터 포럼
+ 한국 IT리더스 포럼
+
+----- 이미지 대체텍스트 (img alt) -----
+9월 한가위도 이지모바일과 함께
+프리텔레콤 SKT | 9월 특가
+과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.03.11 ~ 2027.03.10
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: toss-mobile-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 6장 (scripts/output/captures/toss-mobile-call-center-*.png)
+
+===== [1] https://tossmobile.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-1.png
+CHARS: 947
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+모바일 통신,
+이제 토스답게
+시작부터 새로운, 쓸수록 다른
+토스모바일을 만나보세요
+영상 보기
+
+영상에 소개된 데이터 캐시백, 멤버십 혜택 등은 요금제에 따라 제공 범위 및 가능 여부가 상이할 수 있습니다.
+보다 자세한 사항은 토스 앱 하단의 [전체 메뉴 > 토스모바일 휴대폰 요금제]에 들어가서 확인해주세요.
+
+토스모바일이 만든
+새로운 요금제
+데이터 많이 쓸 땐 무제한 마음껏 즐기고
+넉넉한 100GB는 물론 저렴한 7GB까지 모두 무제한
+데이터 적게 썼을 땐 요금 돌려받아요
+데이터를 항상 다 쓰는건 아니니까 요금, 쓴 만큼만 내요
+휴대폰 요금제 쓰면서 결제 혜택까지 누려요
+쇼핑, 결제한 금액의 10% 캐시백
+요금제 가입을
+간편하게
+휴대폰 요금제 바꾸는 게 꼭 어려워야 할까요?
+간편한 가입 과정과 빠른 유심 배송으로 모든 번거로움을 해소했어요
+조회와 관리까지
+토스 앱 하나로
+통신사 앱 설치하고 로그인할 필요 없어요.
+데이터 사용량과 요금 확인, 요금제 변경까지 당연히 토스 앱에서 할 수 있어요.
+불편함은 언제든
+토스모바일 고객센터로
+전화 상담이 어려운 순간에도 찾아주세요.
+챗봇과 전화 상담으로 고객님의 불편함을
+놓치지 않고 해결할 준비가 되어 있어요
+새로운 통신 토스모바일
+지금 경험해 보세요
+요금제 알아보기
+찾으시는 사항이 ‘자주 묻는 질문’에 없는 경우,
+토스모바일팀으로 문의해주세요.
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+----- 이미지 대체텍스트 (img alt) -----
+3d-emojis-hamburger
+3d-emojis-coin
+3d-emojis-icecream
+3d-emojis-shopping-bag
+3d-emojis-drink
+3d-emojis-books
+
+
+===== [2] https://tossmobile.co.kr/faq/23 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-2.png
+CHARS: 327
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [3] https://tossmobile.co.kr/faq/9 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-3.png
+CHARS: 327
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [4] https://tossmobile.co.kr/faq/114 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-4.png
+CHARS: 327
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [5] https://tossmobile.co.kr/faq/130 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-5.png
+CHARS: 327
+
+공지사항
+요금제
+서식 자료실
+자주 묻는 질문
+1:1 문의하기
+← 질문 목록
+찾으시는 사항이 '자주 묻는 질문'에 없는 경우,
+토스모바일팀으로 문의해주세요
+1:1 문의하기
+토스모바일(주)
+대표이사: 이승훈 ㅣ 사업자번호: 106-86-67749 | 통신판매신고: 제2017-서울금천-0164호 (사업자정보확인)
+주소: 서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호 l 고객센터: 1660-1114 l 이메일:support@tossmobile.co.kr
+공지사항
+토스모바일 개인정보 처리방침
+토스모바일 이용약관
+명의도용방지서비스
+불법스팸대응센터
+대리점전용
+
+
+===== [6] https://www.mvnohub.kr/brand/plan/5041.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/toss-mobile-call-center-6.png
+CHARS: 3609
+
+본문 바로가기
+일시정지
+상단배너닫기
+요금제
+휴대폰
+알뜰폰 브랜드
+맞춤형 요금제
+이벤트
+고객지원
+검색
+관심상품
+신청내역조회
+토스모바일 요금제
+요금제 상세
+
+토스모바일
+
+(0.0/5.0)
+
+상담 신청
+홈페이지
+
+토스가 만든 모바일 통신, 시작부터 새로운, 쓸수록 다른 토스모바일을 만나보세요
+
+통신사
+SKT, KT, LGU+
+고객센터
+SKT 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+KT 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+LGU+ 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))
+요금제
+휴대폰
+일시정지
+
+필터
+
+초기화
+
+상품 유형
+
+상품 유형 선택
+이벤트 상품 🎉
+허브 추천 상품
+
+가격
+
+0원 ~ 100,000원 이상
+
+가격 범위 선택
+
+통신 규격
+
+통신 규격 선택
+5G
+LTE
+3G
+태블릿/스마트기기
+
+데이터 용량
+
+데이터 용량 선택
+1GB 이하
+5GB 이하
+10GB 이하
+30GB 이하
+30GB 초과
+무제한
+
+통화량
+
+0분 ~ 무제한
+
+통화량 범위 선택
+통화량 선택
+전체
+0분~50분
+50분~100분
+100분~200분
+200분~300분
+300분~500분
+500분~무제한
+
+문자량
+
+문자 없음 ~ 문자 무제한
+
+문자량 범위 선택
+문자량 선택
+문자 전체
+문자 무제한
+300~500건
+100~300건
+50~100건
+50건 미만
+문자 없음
+
+할인 기간
+
+1개월 ~ 24개월 이상
+
+할인 기간 범위 선택
+할인 기간 선택
+전체
+1~6개월
+6~12개월
+12~24개월
+24개월 이상
+필터 적용
+상세필터 열기
+전체
+SKT
+KT
+LGU+
+요금제 검색
+
+토스모바일
+
+판매많은순
+
+(4.7/5.0)
+
+토스실속100분10GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속300분5GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 5GB
+통화 300분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속500분6GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 300 원
+
+14,800원 98% 할인
+
+7개월 이후 14,800원/월
+
+데이터 6GB
+통화 500분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스실속1GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 7,900 원
+
+14,800원 47% 할인
+
+7개월 이후 14,800원/월
+
+데이터 1GB+1Mbps
+통화 무제한
+문자 무제한
+비교하기
+
+(0.0/5.0)
+
+토스실속100분6GB
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 6GB
+통화 100분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+토스CU100GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 46,200 원
+
+55,000원 16% 할인
+
+데이터 100GB+5Mbps
+통화 무제한
+문자 무제한
+Npay 2만 + CU 할인(최대 5천원)
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(5.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 100 원
+
+11,800원 99% 할인
+
+7개월 이후 11,800원/월
+
+데이터 5GB
+통화 300분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+토스CU71GB+
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 39,600 원
+
+49,500원 20% 할인
+
+데이터 11GB+3Mbps
+통화 무제한
+문자 무제한
+Npay 2만 + CU 할인(최대 5천원)
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+
+(0.0/5.0)
+
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+
+SKT
+토스모바일
+LTE
+이벤트상품
+허브전용
+
+월 500 원
+
+17,800원 97% 할인
+
+7개월 이후 17,800원/월
+
+데이터 10GB
+통화 100분
+문자 100건
+★주토피아 X K리그 랜덤박스 무료증정 이벤트★
+비교하기
+이전
+1
+2
+다음
+고객리뷰
+전체
+SKT
+KT
+LGU+
+고객 스와이퍼 멈추기
+더보기
+
+(5.0/5.0)
+
+류*윤
+
+친절하게 개통 잘 했어요. 5월 마지막 날에 셀프개통이 되지 않아 걱정 되었는데 6월까지 요금제 실시하게 되어서 좋았습니다!
+
+LGU+
+[LGU+] 실속 데이터 4.5GB+_D_8389
+
+(5.0/5.0)
+
+최*선
+
+같은 요즘제 대비 가격이 저렴하고 이벤트를 하길래 선택하게 되었습니다. 배송되는데 2~3일 걸린다고 하여 여유롭게 기다리던 와중 다음날 바로 배송되었고 영업시간내에 개통이 가능하여 금일 개통하였습니다! 홈페이지에서 [고객센터 - 고객센터개통] 를 통해 셀프개통을 하였고 3시간정도 소요되었습니다. 유심 꽂고 한번 재부팅후 바로 개통되었습니다. 만족스럽습니다.^^
+
+LGU+
+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)
+
+박*진
+
+요금도 싸고 아주좋아요
+
+LGU+
+★GS25 12만원 혜택_D_3979
+
+(5.0/5.0)
+
+정*락
+
+상담사분들도 친절하시고 감사합니다
+
+LGU+
+[LGU+] 실속 100분10GB_D_9128
+
+(5.0/5.0)
+
+장*영
+
+통화품질, 인터넷 속도 모두 만족합니다^^
+
+LGU+
+★유모바일_NPAY 6만원 + 데이터 10GB 혜택_D_0802
+
+알뜰폰 허브 소개 배너
+
+왜 알뜰폰 허브 일까요?
+
+한국정보통신진흥협회에서 운영하는 대한민국 최초 알뜰폰 요금제 비교 사이트입니다.
+
+자세히 보기
+상담문의
+상단이동
+알뜰폰 허브
+사이트소개
+이용약관
+개인정보처리방침
+이메일무단수집거부
+저작권 보호 정책
+서울시 강남구 역삼로 111 9층 (역삼동,한국정보통신진흥협회빌딩)
+Mail : handphone@kait.or.kr Tel : 070-8795-4040
+통신판매업신고번호 : 2010-서울서초-1232
+사업자등록번호 : 211-82-11990 대표자 : 정재헌 호스팅사업자 : (사)한국정보통신진흥협회
+
+Ⓒ2026. Korea Association for AI&ICT Promotion. All Rights Reserved.
+과학기술정보통신부
+KAIT 한국정보통신진흥협회
+
+FAMILY SITE
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+body{font-family:"Open Sans", sans-serif;background-size:cover;}
+ #waitBackground{position:absolute;background-color:rgba(0,0,0,0.4);width:100%;height:100%;}
+ @media (max-width :420px) {
+ body{
+ background-position:50%;
+ }
+ .login-containerT{width:100%!important;
+ }
+ .mobile-size {
+ width:90%!important;
+ margin: 0 auto;
+ }
+ .text-center h3 {
+ margin-top: 52px!important;
+ font-size: 20px!important;
+ }
+ .hpanel {
+ margin-top: 20px!important;
+ padding: 16px 0 16px 0!important; 
+ }
+ .sub_text {
+ font-size:0.8em!important; 
+ }
+ #loading3 {
+ width:70%!important;
+ }
+ .main_logo {
+ right:50%!important;
+ transform: translate(50%)!important; 
+ }
+ .main_logo img {
+ width: 110px!important;
+ height: auto!important;
+ }
+ }
+ .login-containerT{max-width:none;width:560px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99;}
+ .login-containerT, .row, .col-md-12, .hpanel{margin:0;padding:0;}
+ .panel-bodyT{text-align:center;padding:0px 2it_default.jsp0px 10px!important;border-radius:0;}
+ #boxHeadLine{background:#4486d4;width:100%;height:4px;}
+ #wait_value{
+ color:#1e1e1e;
+ font-weight:bold;
+ font-size:1.2em;
+ margin: 0 0 20px 0;
+ }
+ #loading3{display:flex;width:50%;justify-content:space-between;margin:30px auto 49px;}
+ #loading3>div{width:8px;height:40px;margin-right:7px;background-color:#033074;border-radius: 3px;
+ -webkit-animation:strechdelay 1.5s ease-in-out infinite;
+ animation:strechdelay 1.5s ease-in-out infinite;
+ }
+ #loading3 .line2{
+ -webkit-animation-delay:-1.4s;
+ animation-delay:-1.4s;
+ } #loading3 .line3{
+ -webkit-animation-delay:-1.3s;
+ animation-delay:-1.3s;
+ }#loading3 .line4{
+ -webkit-animation-delay:-1.2s;
+ animation-delay:-1.2s;
+ }#loading3 .line5{
+ -webkit-animation-delay:-1.1s;
+ animation-delay:-1.1s;
+ }#loading3 .line6{
+ -webkit-animation-delay:-1.0s;
+ animation-delay:-1.0s;
+ }#loading3 .line7{
+ -webkit-animation-delay:-0.9s;
+ animation-delay:-0.9s;
+ }#loading3 .line8{
+ -webkit-animation-delay:-0.8s;
+ animation-delay:-0.8s;
+ }#loading3 .line9{
+ -webkit-animation-delay:-0.7s;
+ animation-delay:-0.7s;
+ }#loading3 .line10{
+ -webkit-animation-delay:-0.6s;
+ animation-delay:-0.6s;
+ }#loading3 .line11{
+ -webkit-animation-delay:-0.5s;
+ animation-delay:-0.5s;
+ }#loading3 .line12{
+ -webkit-animation-delay:-0.4s;
+ animation-delay:-0.4s;
+ }#loading3 .line13{
+ -webkit-animation-delay:-0.3s;
+ animation-delay:-0.3s;
+ }#loading3 .line14{
+ -webkit-animation-delay:-0.2s;
+ animation-delay:-0.2s;
+ }#loading3 .line15{
+ -webkit-animation-delay:-0.1s;
+ animation-delay:-0.1s;
+ }#loading3 .line16{
+ -webkit-animation-delay:-0.0s;
+ animation-delay:-0.0s;
+ }
+ @keyframes strechdelay{
+ 0%,50%,100%{
+ transform:scaleY(.7);
+ }
+ 20%{
+ transform:scaleY(1);
+ background-color:#2d69c2;
+ }
+ }
+ @-webkit-keyframes strechdelay{
+ 0%,50%,100%{
+ -webkit-transform:scaleY(.7);
+ }
+ 20%{
+ -webkit-transform:scaleY(1);
+ background-color:#72a5f5;
+ }
+ }
+function checkCntData() {
+ var host = this_host;
+ var ip = this_ip;
+ var loginId = this_loginId;
+ var port = this_port;
+ var pageUrl = this_pageUrl;
+ var sendThis = this_sendThis
+ callTracerApiInputData(host, ip, loginId, port, pageUrl, sendThis);
+ var waitCnt = this_waitCnt;
+ if ( waitCnt == "0" || waitCnt == "E") {
+ showRealPage();
+ callBackTracer();
+ } else {
+ var $el = $("#wait_value");
+ var waitCnt = this_waitCnt;
+ if ( $.isNumeric(waitCnt) ) {
+ $el.html("고객님의 대기열은 <span style=\"font-size:22px;color:red;font-weight:bold;\">"+comma(Math.floor(waitCnt))+"</span> 명입니다.");
+ } else {
+ }
+ }
+}
+playAlert = setInterval(function() {
+ if (typeof this_isWait === 'undefined') {
+ return;
+ }
+ if ( this_isWait == "T" ) {
+ checkCntData();
+ }
+}, 1000);
+$(document).ready(function() {
+ var $el = $("#wait_value");
+ $el.html("고객님의 대기열을 확인중입니다.");
+});
+function createCookie() {
+ var now = new Date();
+ var time = now.getTime();
+ var expireTime = time + 1000*36000;
+ now.setTime(expireTime);
+ var tempExp = 'Wed, 31 Oct 2020 08:50:17 GMT';
+ document.cookie = 'SESSIONID=hjpark123;expires='+now.toGMTString()+';path=/';
+}
+/* setInterval(function() {
+ window.location.href='login.do';
+ }, 20000); */
+function comma(num){
+ var len, point, str; 
+ num = num + ""; 
+ point = num.length % 3 ;
+ len = num.length; 
+ str = num.substring(0, point); 
+ while (point < len) { 
+ if (str != "") str += ","; 
+ str += num.substring(point, point + 3); 
+ point += 3; 
+ } 
+ return str;
+}
+ 서비스 접근 대기 중입니다. 
+ 고객님의 대기열을 확인중입니다.
+ 현재 접속 사용자가 많아 대기중이며, 잠시만 기다리시면 자동 접속됩니다. 
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 차단 되었습니다. 
+ 현재 접속하신 아이피에서는 접속이 불가능합니다.
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 불가합니다. 
+ 접속량이 많아 접속이 불가능합니다. 잠시 후 다시 접속해주세요
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+
+1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+통합검색
+ 닫기
+ 검색
+ 추천 요금제
+ 직장인
+ 가성비 청년
+ 해비 유저
+ 공신
+ 어르신 안심
+ 알뜰 사용자
+
+GNB사이드 메뉴
+ home
+ 닫기
+ 관심상품
+ 신청내역조회
+ 1:1문의
+ 검색
+ 요금제
+ 휴대폰
+ 알뜰폰 브랜드
+ 맞춤형 요금제
+ 이벤트
+ 고객지원
+ 1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+닫기
+ 월 할부금 안내
+ · 기기값을 24개월 할부로 결제할 때 청구되는 요금을 기준으로 검색됩니다.
+
+전체
+ 새폰
+ 중고폰
+
+알뜰폰 브랜드
+ 닫기
+
+정렬
+ 닫기
+
+낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+ 낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+
+요금제 비교하기
+ 선택된 요금제 0개
+ 초기화
+ 초기화
+
+첫 리뷰를 남겨주세요. 
+ 소중한 후기가 다른 고객에게 큰 도움이 됩니다.
+
+(4.7/5.0)박*안신규가입이였고 처음이라 버벅거렸지만 쳇상담원을통해 묻고 답하는게 조금 불편하긴했지만 아주 자세히 가르쳐줘서 잘할수있었습니다
+번호도 좋은걸로 주셔서 아이가 외우기 쉽다고 좋아했습니다
+앞으로도 잘쓰겠습니다KT5G 200분/15GB_hub
+
+(5.0/5.0)박*진빠른 개통 완전 만족합니다LGU+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)김*승다좋습니다 가격좋고 통화품질 데이터 다좋습니다LGU+5G 티플 가성비(300분/15GB)_D_5153
+
+(4.7/5.0)오*철빠른 개통 착한가격 너무 맘에 들어요LGU+[Npay5천] A 갓성비 20GB/100분 (기본10GB + 추가 10GB 제공)
+
+(5.0/5.0)임*신개통도 문제없이 했으며 통화품질도 좋습니다SKT티플 가성비(300분/6GB)_평생할인_D_3126
+
+ICT통계조사
+ 방송통신이용자정보포털
+ 핸드폰 분실·도난 및 요금할인 조회
+ 엠세이퍼
+ 중고단말안심거래
+ 핸드폰 찾기 콜센터
+ 알뜰폰 요금제 비교·구매
+ 이동전화 불공정행위 신고센터
+ 방송통신 연체정보 조회
+ 유료방송사 미환급액 정보 조회
+ 정보통신기술자격검정
+ 유·무선 판매점 사전승낙
+ 명의도용방지
+ ICT혁신기술기업 해외진출지원
+ 초고속 정보통신 건물 인증
+ 온라인피해365센터
+ 월드 IT쇼
+ 빅데이터 포럼
+ 한국 IT리더스 포럼
+
+----- 이미지 대체텍스트 (img alt) -----
+9월 한가위도 이지모바일과 함께
+프리텔레콤 SKT | 9월 특가
+과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.03.11 ~ 2027.03.10
