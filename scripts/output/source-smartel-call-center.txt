@@ -1,0 +1,3071 @@
+SLUG: smartel-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 3장 (scripts/output/captures/smartel-call-center-*.png)
+
+===== [1] https://www.smartel.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/smartel-call-center-1.png
+CHARS: 4100
+
+신청조회
+로그인
+요금제
+인터넷/TV
+이벤트
+셀프개통
+고객지원
+해외eSIM
+30% off
+휴대폰
+36만원 할인
+
+오늘 하루 보지 않기
+
+닫기
+
+오늘 하루 보지 않기
+
+닫기
+
+오늘 하루 보지 않기
+
+닫기
+
+오늘 하루 보지 않기
+
+닫기
+
+팝업 전체닫기
+
+2
+
+/
+
+23
+
+맞춤 요금제 찾기
+
+나에게 딱 맞는 요금제,
+
+1분 만에 찾아보세요!
+
+당일
+
+배송 신청
+
+유심 당일배송 퀵 서비스
+
+2시간 이내 받아보세요!
+
+SKT
+
+간편유심
+
+당일·퀵배송까지
+
+오늘 주문하면 오늘 도착!
+
+LGU+
+
+원칩
+
+지금 배송하는 바로배송
+
+오늘 주문하면 오늘 도착!
+
+KT
+
+바로유심
+
+기다림 없이, 고민 없이
+
+오늘 주문하면 오늘 도착!
+
+이달의 알뜰폰 요금제 초특가 프로모션
+LGU+
+7개월 할인
+맥스
+67% 할인
+
+5G 스마트 125GB+
+
+125GB+
+소진 후 5Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 52,800원
+월
+17,500
+원
+SKT
+10개월 할인
+라이트
+94% 할인
+
+LTE 음성무제한 5GB
+
+5GB
+ 
+기본제공
+부가통화 30분
+200건
+10개월후 16,500원
+월
+990
+원
+SKT
+12개월 할인
+라이트
+94% 할인
+
+스마일플러스(350분+7GB)
+
+7GB
+ 
+350분
+100건
+12개월후 17,600원
+월
+990
+원
+SKT
+12개월 할인
+밸런스
+95% 할인
+
+USIM 스마일 (500분/10GB)
+
+10GB
+ 
+500분
+100건
+12개월후 20,900원
+월
+990
+원
+SKT
+12개월 할인
+밸런스
+94% 할인
+
+USIM 스마일 (200분/10GB)
+
+10GB
+ 
+200분
+100건
+12개월후 17,600원
+월
+990
+원
+LGU+
+24개월 할인
+맥스
+41% 할인
+
+5G 스마트 125GB+(24개월)
+
+125GB+
+소진 후 5Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+24개월후 52,800원
+월
+31,000
+원
+SKT
+7개월 할인
+라이트
+75% 할인
+
+SMT 7GB+(커피 두 잔)
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 26,400원
+월
+6,500
+원
+KT
+12개월 할인
+맥스
+46% 할인
+
+스위트 11GB+(밀리의서재)
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+12개월후 41,800원
+월
+22,500
+원
+LGU+
+12개월 할인
+라이트
+79% 할인
+
+USIM 스마트 (200분/5GB+)
+
+5GB+
+소진 후 1Mbps 무제한
+200분
+100건
+12개월후 15,400원
+월
+3,300
+원
+KT
+6개월 할인
+밸런스
+99% 할인
+
+USIM 스위트 (100분/10GB)
+
+10GB
+ 
+100분
+100건
+6개월후 15,400원
+월
+90
+원
+LGU+
+10개월 할인
+라이트
+99% 할인
+
+USIM 심플 (200분 + 5GB)
+
+5GB
+ 
+200분
+100건
+10개월후 9,900원
+월
+10
+원
+KT
+7개월 할인
+밸런스
+45% 할인
+
+CU 스위트 무제한 15GB+ (+10GB 24개월간 추가 제공)
+
+15GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 30,800원
+월
+17,000
+원
+LGU+
+10개월 할인
+라이트
+99% 할인
+
+USIM 심플 (100분 + 6GB)
+
+6GB
+ 
+100분
+100건
+10개월후 9,900원
+월
+10
+원
+LGU+
+8개월 할인
+밸런스
+99% 할인
+
+데이터충분히(10G+100분)
+
+10GB
+ 
+100분
+100건
+8개월후 13,200원
+월
+10
+원
+SKT
+5개월 할인
+라이트
+75% 할인
+
+5G 스마일플러스(350분+7GB)
+
+7GB
+ 
+350분
+100건
+5개월후 17,600원
+월
+4,400
+원
+LGU+
+7개월 할인
+맥스
+55% 할인
+
+스마트 매일 5GB+
+
+150GB+
+일5GB+5Mbps 무제한
+기본제공
+기본제공
+7개월후 47,300원
+월
+21,500
+원
+LGU+
+24개월 할인
+맥스
+31% 할인
+
+스마트 11GB+ (24개월)
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+24개월후 40,700원
+월
+28,000
+원
+SKT
+7개월 할인
+맥스
+59% 할인
+
+스마일 100GB+
+
+100GB+
+소진 후 5Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 47,300원
+월
+19,500
+원
+LGU+
+7개월 할인
+맥스
+50% 할인
+
+스마트 11GB+
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 40,700원
+월
+20,500
+원
+SKT
+밸런스
+23% 할인
+
+5G 음성무제한 20GB
+
+20GB
+ 
+기본제공
+부가통화 30분
+200건
+평생할인 프로모션
+월
+19,600
+원
+SKT
+7개월 할인
+밸런스
+65% 할인
+
+LTE 음성무제한 15GB
+
+15GB
+ 
+기본제공
+부가통화 30분
+200건
+7개월후 23,100원
+월
+8,200
+원
+LGU+
+7개월 할인
+라이트
+37% 할인
+
+USIM 스마트 7GB+
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 19,800원
+월
+12,500
+원
+KT
+7개월 할인
+맥스
+48% 할인
+
+CU 스위트 무제한 11GB+
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 40,700원
+월
+21,000
+원
+KT
+6개월 할인
+밸런스
+99% 할인
+
+USIM 스위트 5G망(100분/10GB)
+
+10GB
+ 
+100분
+100건
+6개월후 15,400원
+월
+90
+원
+KT
+7개월 할인
+밸런스
+45% 할인
+
+CU 스위트 100분/15GB+
+
+15GB+
+소진 후 3Mbps 무제한
+100분
+100건
+7개월후 33,000원
+월
+18,000
+원
+KT
+12개월 할인
+라이트
+49% 할인
+
+스위트 7GB+(밀리의서재) (+10GB 24개월간 추가 제공)
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+12개월후 25,300원
+월
+13,000
+원
+SKT
+7개월 할인
+라이트
+77% 할인
+
+스마일 7GB+
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 24,200원
+월
+5,500
+원
+3사 이벤트
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+메뉴 바로가기
+
+사용설명서
+
+신청조회
+
+사용량조회
+
+셀프개통
+
+당일배송
+
+해외eSIM
+
+도움이 필요하신가요?
+
+공지
+
+추석 연휴 고객센터 휴무 안내 (9/24~9/27)
+
+2026.09.23
+
+더보기 →
+
+자주 묻는 질문
+
+선불 서비스
+
+서류 양식 다운로드
+
+APP 다운로드
+
+버튼을 누르면 앱 다운로드 페이지로 이동합니다.
+
+이용약관(본문)
+이용약관(별표)
+개인정보처리방침
+불법스팸대응센터
+명의도용방지서비스
+통신자료제공요청
+
+고객센터 : 유료 1566-0212 | 무료 114 | 평일 : 09:00~18:00(주말,공휴일 휴무)
+
+찾아오시는 길 (우편 수신지) : 경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호
+
+사업자 정보
+
+COPYRIGHT © SMARTEL. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+스마텔 요금제후불 요금제선불 요금제선불요금 충전부가서비스SK브로드밴드LG유플러스KT 닷컴이달의 이벤트요금제프로모션제휴카드SKT망LGU+망KT망공지사항자주 묻는 질문서류양식 다운로드5GX 요금제SKT 혜택 그대로5GX 초특가최대 360,000원 혜택을 확인하세요
+
+이용약관(본문)이용약관(별표)개인정보처리방침불법스팸대응센터명의도용방지서비스통신자료제공요청고객센터유료 1566-0212 ㅣ 무료 114 ㅣ 평일 : 09:00~18:00(주말,공휴일 휴무)찾아오시는 길 (우편 수신지)경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호사업자 정보COPYRIGHT ⓒ SMARTEL.ALL RIGHT RESERVED.
+
+
+===== [2] https://www.smartel.kr/support/faq =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/smartel-call-center-2.png
+CHARS: 1327
+
+신청조회
+로그인
+요금제
+인터넷/TV
+이벤트
+셀프개통
+고객지원
+해외eSIM
+30% off
+휴대폰
+36만원 할인
+고객지원
+공지사항
+자주 묻는 질문
+서류양식 다운
+전체
+가입
+로밍
+변경
+부가서비스
+분실
+서비스
+선불
+셀프개통
+스팸
+약관
+요금
+유심
+정지
+해지
+eSIM
+기타
+Q
+선불
+
+선불폰에서도 eSIM(이심)을 사용할 수 있나요?
+
+Q
+선불
+
+선불폰으로 해외 로밍이 되나요?
+
+Q
+선불
+
+선불폰에서 통화중대기·캐치콜 등 부가서비스 가입이 되나요?
+
+Q
+선불
+
+선불 5G 요금제로 변경하고 싶은데, 어떻게 하나요?
+
+Q
+선불
+
+선불 요금제에서 후불 요금제로 변경하려면 어떻게 해야 하나요?
+
+Q
+선불
+
+요금이 두 번 빠져나간 것 같아요 (이중출금·중복 결제)
+
+Q
+선불
+
+선불 요금에 자동이체(자동납부)를 걸 수 있나요?
+
+Q
+선불
+
+충전 가능 기간이 지나서 충전이 안 돼요 — 번호가 살아있나요?
+
+Q
+선불
+
+가상계좌 번호를 잃어버렸어요 / 계좌 번호가 바뀐 것 같아요.
+
+Q
+선불
+
+여권으로 가입했는데 외국인 등록증으로 변경이 가능할까요?
+
+Q
+유심
+
+온라인 접수 후 취소할 경우 유심비는 어떻게 될까요?
+
+Q
+기타
+
+KT 인터넷 결합
+
+Q
+eSIM
+
+eSIM 개통 후 QR 활성화해야 하는데 카메라 고장으로 QR을 인식할 수 없습니다
+
+Q
+스팸
+
+스마텔 알뜰폰에 불법 스팸(스패머)으로 등록되어 있습니다.
+
+Q
+분실
+
+유심/단말기를 분실한 경우 어떻게 해야 하나요?
+
+A
+
+고객센터(전화상담 또는 홈페이지 내 채널톡 상담)로 업무시간 내에 분실 문의 주시면 정지 혹은 재발급 신청이 가능합니다.
+
+선불 요금제의 경우 분실신고만 가능하며 별도 정지가 진행되지 않습니다.
+
+후불 요금제의 경우 분실신고 및 정지 진행 가능하며, 월 회선 유지비용(SK/KT: 3,850원, LG: 4,400원)이 청구됩니다.
+
+Q
+로밍
+
+개통 후 해외에서도 유심 다운로드가 가능한가요?
+
+Q
+요금
+
+LGU+ 인터넷 결합 가능 요금제 리스트
+
+Q
+변경
+
+번호변경은 어떻게 하나요? (듀얼번호 포함)
+
+Q
+부가서비스
+
+듀얼넘버를 이용할 수 있나요?
+
+Q
+부가서비스
+
+소액결제를 이용할 수 있나요?
+
+더보기
+
+(1/5)
+
+APP 다운로드
+
+버튼을 누르면 앱 다운로드 페이지로 이동합니다.
+
+이용약관(본문)
+이용약관(별표)
+개인정보처리방침
+불법스팸대응센터
+명의도용방지서비스
+통신자료제공요청
+
+고객센터 : 유료 1566-0212 | 무료 114 | 평일 : 09:00~18:00(주말,공휴일 휴무)
+
+찾아오시는 길 (우편 수신지) : 경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호
+
+사업자 정보
+
+COPYRIGHT © SMARTEL. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+스마텔 요금제후불 요금제선불 요금제선불요금 충전부가서비스SK브로드밴드LG유플러스KT 닷컴이달의 이벤트요금제프로모션제휴카드SKT망LGU+망KT망공지사항자주 묻는 질문서류양식 다운로드5GX 요금제SKT 혜택 그대로5GX 초특가최대 360,000원 혜택을 확인하세요
+
+이용약관(본문)이용약관(별표)개인정보처리방침불법스팸대응센터명의도용방지서비스통신자료제공요청고객센터유료 1566-0212 ㅣ 무료 114 ㅣ 평일 : 09:00~18:00(주말,공휴일 휴무)찾아오시는 길 (우편 수신지)경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호사업자 정보COPYRIGHT ⓒ SMARTEL.ALL RIGHT RESERVED.
+
+
+===== [3] https://www.mvnohub.kr/brand/plan/5.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/smartel-call-center-3.png
+CHARS: 2663
+
+본문 바로가기
+일시정지
+상단배너닫기
+요금제
+휴대폰
+알뜰폰 브랜드
+맞춤형 요금제
+이벤트
+고객지원
+검색
+관심상품
+신청내역조회
+스마텔 요금제
+요금제 상세
+
+스마텔
+
+(0.0/5.0)
+
+상담 신청
+홈페이지
+
+합리적이고 스마트한 통신 스마텔입니다.
+
+통신사
+SKT, KT, LGU+
+고객센터
+SKT 1566-0212 (운영시간 : 평일 09:00~18:00 (주말, 공휴일 제외))
+KT 1566-0212 (운영시간 : 평일 09:00~18:00 (주말, 공휴일 제외))
+LGU+ 1566-0212 (운영시간 : 평일 09:00~18:00 (주말, 공휴일 제외))
+요금제
+휴대폰
+일시정지
+
+필터
+
+초기화
+
+상품 유형
+
+상품 유형 선택
+이벤트 상품 🎉
+허브 추천 상품
+
+가격
+
+0원 ~ 100,000원 이상
+
+가격 범위 선택
+
+통신 규격
+
+통신 규격 선택
+5G
+LTE
+3G
+태블릿/스마트기기
+
+데이터 용량
+
+데이터 용량 선택
+1GB 이하
+5GB 이하
+10GB 이하
+30GB 이하
+30GB 초과
+무제한
+
+통화량
+
+0분 ~ 무제한
+
+통화량 범위 선택
+통화량 선택
+전체
+0분~50분
+50분~100분
+100분~200분
+200분~300분
+300분~500분
+500분~무제한
+
+문자량
+
+문자 없음 ~ 문자 무제한
+
+문자량 범위 선택
+문자량 선택
+문자 전체
+문자 무제한
+300~500건
+100~300건
+50~100건
+50건 미만
+문자 없음
+
+할인 기간
+
+1개월 ~ 24개월 이상
+
+할인 기간 범위 선택
+할인 기간 선택
+전체
+1~6개월
+6~12개월
+12~24개월
+24개월 이상
+필터 적용
+상세필터 열기
+전체
+SKT
+KT
+LGU+
+요금제 검색
+
+스마텔
+
+판매많은순
+
+(0.0/5.0)
+
+990원 초특가 이벤트
+
+SKT
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 990 원
+
+20,900원 95% 할인
+
+12개월 이후 20,900원/월
+
+데이터 10GB
+통화 500분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+10원 초특가 이벤트
+
+LGU+
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 10 원
+
+15,400원 100% 할인
+
+8개월 이후 15,400원/월
+
+데이터 10GB
+통화 200분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+월 1만원 미만 초특가 알뜰폰 요금제 (SKT)
+
+SKT
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 2,090 원
+
+3,630원 42% 할인
+
+5개월 이후 3,630원/월
+
+데이터 1.8GB
+통화 50분
+문자 50건
+비교하기
+
+(0.0/5.0)
+
+9월 스마텔 알뜰폰 BEST 요금제 모음 (SKT)
+
+SKT
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 6,500 원
+
+26,400원 75% 할인
+
+7개월 이후 26,400원/월
+
+데이터 7GB+1Mbps
+통화 무제한
+문자 무제한
+비교하기
+
+(0.0/5.0)
+
+월 1만원 미만 초특가 알뜰폰 요금제 (LGU+)
+
+LGU+
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 3,300 원
+
+15,400원 79% 할인
+
+12개월 이후 15,400원/월
+
+데이터 5GB+1Mbps
+통화 200분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+9월 스마텔 알뜰폰 BEST 요금제 모음 (LGU+)
+
+LGU+
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 12,500 원
+
+27,500원 55% 할인
+
+7개월 이후 27,500원/월
+
+데이터 7GB+1Mbps
+통화 무제한
+문자 무제한
+비교하기
+이전
+1
+다음
+고객리뷰
+전체
+SKT
+KT
+LGU+
+고객 스와이퍼 멈추기
+더보기
+
+(5.0/5.0)
+
+류*윤
+
+친절하게 개통 잘 했어요. 5월 마지막 날에 셀프개통이 되지 않아 걱정 되었는데 6월까지 요금제 실시하게 되어서 좋았습니다!
+
+LGU+
+[LGU+] 실속 데이터 4.5GB+_D_8389
+
+(5.0/5.0)
+
+최*선
+
+같은 요즘제 대비 가격이 저렴하고 이벤트를 하길래 선택하게 되었습니다. 배송되는데 2~3일 걸린다고 하여 여유롭게 기다리던 와중 다음날 바로 배송되었고 영업시간내에 개통이 가능하여 금일 개통하였습니다! 홈페이지에서 [고객센터 - 고객센터개통] 를 통해 셀프개통을 하였고 3시간정도 소요되었습니다. 유심 꽂고 한번 재부팅후 바로 개통되었습니다. 만족스럽습니다.^^
+
+LGU+
+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)
+
+박*진
+
+요금도 싸고 아주좋아요
+
+LGU+
+★GS25 12만원 혜택_D_3979
+
+(5.0/5.0)
+
+정*락
+
+상담사분들도 친절하시고 감사합니다
+
+LGU+
+[LGU+] 실속 100분10GB_D_9128
+
+(5.0/5.0)
+
+장*영
+
+통화품질, 인터넷 속도 모두 만족합니다^^
+
+LGU+
+★유모바일_NPAY 6만원 + 데이터 10GB 혜택_D_0802
+
+알뜰폰 허브 소개 배너
+
+왜 알뜰폰 허브 일까요?
+
+한국정보통신진흥협회에서 운영하는 대한민국 최초 알뜰폰 요금제 비교 사이트입니다.
+
+자세히 보기
+상담문의
+상단이동
+알뜰폰 허브
+사이트소개
+이용약관
+개인정보처리방침
+이메일무단수집거부
+저작권 보호 정책
+서울시 강남구 역삼로 111 9층 (역삼동,한국정보통신진흥협회빌딩)
+Mail : handphone@kait.or.kr Tel : 070-8795-4040
+통신판매업신고번호 : 2010-서울서초-1232
+사업자등록번호 : 211-82-11990 대표자 : 정재헌 호스팅사업자 : (사)한국정보통신진흥협회
+
+Ⓒ2026. Korea Association for AI&ICT Promotion. All Rights Reserved.
+과학기술정보통신부
+KAIT 한국정보통신진흥협회
+
+FAMILY SITE
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+body{font-family:"Open Sans", sans-serif;background-size:cover;}
+ #waitBackground{position:absolute;background-color:rgba(0,0,0,0.4);width:100%;height:100%;}
+ @media (max-width :420px) {
+ body{
+ background-position:50%;
+ }
+ .login-containerT{width:100%!important;
+ }
+ .mobile-size {
+ width:90%!important;
+ margin: 0 auto;
+ }
+ .text-center h3 {
+ margin-top: 52px!important;
+ font-size: 20px!important;
+ }
+ .hpanel {
+ margin-top: 20px!important;
+ padding: 16px 0 16px 0!important; 
+ }
+ .sub_text {
+ font-size:0.8em!important; 
+ }
+ #loading3 {
+ width:70%!important;
+ }
+ .main_logo {
+ right:50%!important;
+ transform: translate(50%)!important; 
+ }
+ .main_logo img {
+ width: 110px!important;
+ height: auto!important;
+ }
+ }
+ .login-containerT{max-width:none;width:560px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99;}
+ .login-containerT, .row, .col-md-12, .hpanel{margin:0;padding:0;}
+ .panel-bodyT{text-align:center;padding:0px 2it_default.jsp0px 10px!important;border-radius:0;}
+ #boxHeadLine{background:#4486d4;width:100%;height:4px;}
+ #wait_value{
+ color:#1e1e1e;
+ font-weight:bold;
+ font-size:1.2em;
+ margin: 0 0 20px 0;
+ }
+ #loading3{display:flex;width:50%;justify-content:space-between;margin:30px auto 49px;}
+ #loading3>div{width:8px;height:40px;margin-right:7px;background-color:#033074;border-radius: 3px;
+ -webkit-animation:strechdelay 1.5s ease-in-out infinite;
+ animation:strechdelay 1.5s ease-in-out infinite;
+ }
+ #loading3 .line2{
+ -webkit-animation-delay:-1.4s;
+ animation-delay:-1.4s;
+ } #loading3 .line3{
+ -webkit-animation-delay:-1.3s;
+ animation-delay:-1.3s;
+ }#loading3 .line4{
+ -webkit-animation-delay:-1.2s;
+ animation-delay:-1.2s;
+ }#loading3 .line5{
+ -webkit-animation-delay:-1.1s;
+ animation-delay:-1.1s;
+ }#loading3 .line6{
+ -webkit-animation-delay:-1.0s;
+ animation-delay:-1.0s;
+ }#loading3 .line7{
+ -webkit-animation-delay:-0.9s;
+ animation-delay:-0.9s;
+ }#loading3 .line8{
+ -webkit-animation-delay:-0.8s;
+ animation-delay:-0.8s;
+ }#loading3 .line9{
+ -webkit-animation-delay:-0.7s;
+ animation-delay:-0.7s;
+ }#loading3 .line10{
+ -webkit-animation-delay:-0.6s;
+ animation-delay:-0.6s;
+ }#loading3 .line11{
+ -webkit-animation-delay:-0.5s;
+ animation-delay:-0.5s;
+ }#loading3 .line12{
+ -webkit-animation-delay:-0.4s;
+ animation-delay:-0.4s;
+ }#loading3 .line13{
+ -webkit-animation-delay:-0.3s;
+ animation-delay:-0.3s;
+ }#loading3 .line14{
+ -webkit-animation-delay:-0.2s;
+ animation-delay:-0.2s;
+ }#loading3 .line15{
+ -webkit-animation-delay:-0.1s;
+ animation-delay:-0.1s;
+ }#loading3 .line16{
+ -webkit-animation-delay:-0.0s;
+ animation-delay:-0.0s;
+ }
+ @keyframes strechdelay{
+ 0%,50%,100%{
+ transform:scaleY(.7);
+ }
+ 20%{
+ transform:scaleY(1);
+ background-color:#2d69c2;
+ }
+ }
+ @-webkit-keyframes strechdelay{
+ 0%,50%,100%{
+ -webkit-transform:scaleY(.7);
+ }
+ 20%{
+ -webkit-transform:scaleY(1);
+ background-color:#72a5f5;
+ }
+ }
+function checkCntData() {
+ var host = this_host;
+ var ip = this_ip;
+ var loginId = this_loginId;
+ var port = this_port;
+ var pageUrl = this_pageUrl;
+ var sendThis = this_sendThis
+ callTracerApiInputData(host, ip, loginId, port, pageUrl, sendThis);
+ var waitCnt = this_waitCnt;
+ if ( waitCnt == "0" || waitCnt == "E") {
+ showRealPage();
+ callBackTracer();
+ } else {
+ var $el = $("#wait_value");
+ var waitCnt = this_waitCnt;
+ if ( $.isNumeric(waitCnt) ) {
+ $el.html("고객님의 대기열은 <span style=\"font-size:22px;color:red;font-weight:bold;\">"+comma(Math.floor(waitCnt))+"</span> 명입니다.");
+ } else {
+ }
+ }
+}
+playAlert = setInterval(function() {
+ if (typeof this_isWait === 'undefined') {
+ return;
+ }
+ if ( this_isWait == "T" ) {
+ checkCntData();
+ }
+}, 1000);
+$(document).ready(function() {
+ var $el = $("#wait_value");
+ $el.html("고객님의 대기열을 확인중입니다.");
+});
+function createCookie() {
+ var now = new Date();
+ var time = now.getTime();
+ var expireTime = time + 1000*36000;
+ now.setTime(expireTime);
+ var tempExp = 'Wed, 31 Oct 2020 08:50:17 GMT';
+ document.cookie = 'SESSIONID=hjpark123;expires='+now.toGMTString()+';path=/';
+}
+/* setInterval(function() {
+ window.location.href='login.do';
+ }, 20000); */
+function comma(num){
+ var len, point, str; 
+ num = num + ""; 
+ point = num.length % 3 ;
+ len = num.length; 
+ str = num.substring(0, point); 
+ while (point < len) { 
+ if (str != "") str += ","; 
+ str += num.substring(point, point + 3); 
+ point += 3; 
+ } 
+ return str;
+}
+ 서비스 접근 대기 중입니다. 
+ 고객님의 대기열을 확인중입니다.
+ 현재 접속 사용자가 많아 대기중이며, 잠시만 기다리시면 자동 접속됩니다. 
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 차단 되었습니다. 
+ 현재 접속하신 아이피에서는 접속이 불가능합니다.
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 불가합니다. 
+ 접속량이 많아 접속이 불가능합니다. 잠시 후 다시 접속해주세요
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+
+1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+통합검색
+ 닫기
+ 검색
+ 추천 요금제
+ 직장인
+ 가성비 청년
+ 해비 유저
+ 공신
+ 어르신 안심
+ 알뜰 사용자
+
+GNB사이드 메뉴
+ home
+ 닫기
+ 관심상품
+ 신청내역조회
+ 1:1문의
+ 검색
+ 요금제
+ 휴대폰
+ 알뜰폰 브랜드
+ 맞춤형 요금제
+ 이벤트
+ 고객지원
+ 1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+닫기
+ 월 할부금 안내
+ · 기기값을 24개월 할부로 결제할 때 청구되는 요금을 기준으로 검색됩니다.
+
+전체
+ 새폰
+ 중고폰
+
+알뜰폰 브랜드
+ 닫기
+
+정렬
+ 닫기
+
+낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+ 낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+
+요금제 비교하기
+ 선택된 요금제 0개
+ 초기화
+ 초기화
+
+첫 리뷰를 남겨주세요. 
+ 소중한 후기가 다른 고객에게 큰 도움이 됩니다.
+
+(4.7/5.0)박*안신규가입이였고 처음이라 버벅거렸지만 쳇상담원을통해 묻고 답하는게 조금 불편하긴했지만 아주 자세히 가르쳐줘서 잘할수있었습니다
+번호도 좋은걸로 주셔서 아이가 외우기 쉽다고 좋아했습니다
+앞으로도 잘쓰겠습니다KT5G 200분/15GB_hub
+
+(5.0/5.0)박*진빠른 개통 완전 만족합니다LGU+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)김*승다좋습니다 가격좋고 통화품질 데이터 다좋습니다LGU+5G 티플 가성비(300분/15GB)_D_5153
+
+(4.7/5.0)오*철빠른 개통 착한가격 너무 맘에 들어요LGU+[Npay5천] A 갓성비 20GB/100분 (기본10GB + 추가 10GB 제공)
+
+(5.0/5.0)임*신개통도 문제없이 했으며 통화품질도 좋습니다SKT티플 가성비(300분/6GB)_평생할인_D_3126
+
+ICT통계조사
+ 방송통신이용자정보포털
+ 핸드폰 분실·도난 및 요금할인 조회
+ 엠세이퍼
+ 중고단말안심거래
+ 핸드폰 찾기 콜센터
+ 알뜰폰 요금제 비교·구매
+ 이동전화 불공정행위 신고센터
+ 방송통신 연체정보 조회
+ 유료방송사 미환급액 정보 조회
+ 정보통신기술자격검정
+ 유·무선 판매점 사전승낙
+ 명의도용방지
+ ICT혁신기술기업 해외진출지원
+ 초고속 정보통신 건물 인증
+ 온라인피해365센터
+ 월드 IT쇼
+ 빅데이터 포럼
+ 한국 IT리더스 포럼
+
+----- 이미지 대체텍스트 (img alt) -----
+9월 한가위도 이지모바일과 함께
+프리텔레콤 SKT | 9월 특가
+과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.03.11 ~ 2027.03.10
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: smartel-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 3장 (scripts/output/captures/smartel-call-center-*.png)
+
+===== [1] https://www.smartel.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/smartel-call-center-1.png
+CHARS: 4100
+
+신청조회
+로그인
+요금제
+인터넷/TV
+이벤트
+셀프개통
+고객지원
+해외eSIM
+30% off
+휴대폰
+36만원 할인
+
+오늘 하루 보지 않기
+
+닫기
+
+오늘 하루 보지 않기
+
+닫기
+
+오늘 하루 보지 않기
+
+닫기
+
+오늘 하루 보지 않기
+
+닫기
+
+팝업 전체닫기
+
+2
+
+/
+
+23
+
+맞춤 요금제 찾기
+
+나에게 딱 맞는 요금제,
+
+1분 만에 찾아보세요!
+
+당일
+
+배송 신청
+
+유심 당일배송 퀵 서비스
+
+2시간 이내 받아보세요!
+
+SKT
+
+간편유심
+
+당일·퀵배송까지
+
+오늘 주문하면 오늘 도착!
+
+LGU+
+
+원칩
+
+지금 배송하는 바로배송
+
+오늘 주문하면 오늘 도착!
+
+KT
+
+바로유심
+
+기다림 없이, 고민 없이
+
+오늘 주문하면 오늘 도착!
+
+이달의 알뜰폰 요금제 초특가 프로모션
+LGU+
+7개월 할인
+맥스
+67% 할인
+
+5G 스마트 125GB+
+
+125GB+
+소진 후 5Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 52,800원
+월
+17,500
+원
+SKT
+10개월 할인
+라이트
+94% 할인
+
+LTE 음성무제한 5GB
+
+5GB
+ 
+기본제공
+부가통화 30분
+200건
+10개월후 16,500원
+월
+990
+원
+SKT
+12개월 할인
+라이트
+94% 할인
+
+스마일플러스(350분+7GB)
+
+7GB
+ 
+350분
+100건
+12개월후 17,600원
+월
+990
+원
+SKT
+12개월 할인
+밸런스
+95% 할인
+
+USIM 스마일 (500분/10GB)
+
+10GB
+ 
+500분
+100건
+12개월후 20,900원
+월
+990
+원
+SKT
+12개월 할인
+밸런스
+94% 할인
+
+USIM 스마일 (200분/10GB)
+
+10GB
+ 
+200분
+100건
+12개월후 17,600원
+월
+990
+원
+LGU+
+24개월 할인
+맥스
+41% 할인
+
+5G 스마트 125GB+(24개월)
+
+125GB+
+소진 후 5Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+24개월후 52,800원
+월
+31,000
+원
+SKT
+7개월 할인
+라이트
+75% 할인
+
+SMT 7GB+(커피 두 잔)
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 26,400원
+월
+6,500
+원
+KT
+12개월 할인
+맥스
+46% 할인
+
+스위트 11GB+(밀리의서재)
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+12개월후 41,800원
+월
+22,500
+원
+LGU+
+12개월 할인
+라이트
+79% 할인
+
+USIM 스마트 (200분/5GB+)
+
+5GB+
+소진 후 1Mbps 무제한
+200분
+100건
+12개월후 15,400원
+월
+3,300
+원
+KT
+6개월 할인
+밸런스
+99% 할인
+
+USIM 스위트 (100분/10GB)
+
+10GB
+ 
+100분
+100건
+6개월후 15,400원
+월
+90
+원
+LGU+
+10개월 할인
+라이트
+99% 할인
+
+USIM 심플 (200분 + 5GB)
+
+5GB
+ 
+200분
+100건
+10개월후 9,900원
+월
+10
+원
+KT
+7개월 할인
+밸런스
+45% 할인
+
+CU 스위트 무제한 15GB+ (+10GB 24개월간 추가 제공)
+
+15GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 30,800원
+월
+17,000
+원
+LGU+
+10개월 할인
+라이트
+99% 할인
+
+USIM 심플 (100분 + 6GB)
+
+6GB
+ 
+100분
+100건
+10개월후 9,900원
+월
+10
+원
+LGU+
+8개월 할인
+밸런스
+99% 할인
+
+데이터충분히(10G+100분)
+
+10GB
+ 
+100분
+100건
+8개월후 13,200원
+월
+10
+원
+SKT
+5개월 할인
+라이트
+75% 할인
+
+5G 스마일플러스(350분+7GB)
+
+7GB
+ 
+350분
+100건
+5개월후 17,600원
+월
+4,400
+원
+LGU+
+7개월 할인
+맥스
+55% 할인
+
+스마트 매일 5GB+
+
+150GB+
+일5GB+5Mbps 무제한
+기본제공
+기본제공
+7개월후 47,300원
+월
+21,500
+원
+LGU+
+24개월 할인
+맥스
+31% 할인
+
+스마트 11GB+ (24개월)
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+24개월후 40,700원
+월
+28,000
+원
+SKT
+7개월 할인
+맥스
+59% 할인
+
+스마일 100GB+
+
+100GB+
+소진 후 5Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 47,300원
+월
+19,500
+원
+LGU+
+7개월 할인
+맥스
+50% 할인
+
+스마트 11GB+
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 40,700원
+월
+20,500
+원
+SKT
+밸런스
+23% 할인
+
+5G 음성무제한 20GB
+
+20GB
+ 
+기본제공
+부가통화 30분
+200건
+평생할인 프로모션
+월
+19,600
+원
+SKT
+7개월 할인
+밸런스
+65% 할인
+
+LTE 음성무제한 15GB
+
+15GB
+ 
+기본제공
+부가통화 30분
+200건
+7개월후 23,100원
+월
+8,200
+원
+LGU+
+7개월 할인
+라이트
+37% 할인
+
+USIM 스마트 7GB+
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 19,800원
+월
+12,500
+원
+KT
+7개월 할인
+맥스
+48% 할인
+
+CU 스위트 무제한 11GB+
+
+71GB+
+11GB+일2GB+3Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 40,700원
+월
+21,000
+원
+KT
+6개월 할인
+밸런스
+99% 할인
+
+USIM 스위트 5G망(100분/10GB)
+
+10GB
+ 
+100분
+100건
+6개월후 15,400원
+월
+90
+원
+KT
+7개월 할인
+밸런스
+45% 할인
+
+CU 스위트 100분/15GB+
+
+15GB+
+소진 후 3Mbps 무제한
+100분
+100건
+7개월후 33,000원
+월
+18,000
+원
+KT
+12개월 할인
+라이트
+49% 할인
+
+스위트 7GB+(밀리의서재) (+10GB 24개월간 추가 제공)
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+12개월후 25,300원
+월
+13,000
+원
+SKT
+7개월 할인
+라이트
+77% 할인
+
+스마일 7GB+
+
+7GB+
+소진 후 1Mbps 무제한
+기본제공
+부가통화 300분
+기본제공
+7개월후 24,200원
+월
+5,500
+원
+3사 이벤트
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+SKT 혜택
+
+LGU+ 혜택
+
+KT 혜택
+
+메뉴 바로가기
+
+사용설명서
+
+신청조회
+
+사용량조회
+
+셀프개통
+
+당일배송
+
+해외eSIM
+
+도움이 필요하신가요?
+
+공지
+
+추석 연휴 고객센터 휴무 안내 (9/24~9/27)
+
+2026.09.23
+
+더보기 →
+
+자주 묻는 질문
+
+선불 서비스
+
+서류 양식 다운로드
+
+APP 다운로드
+
+버튼을 누르면 앱 다운로드 페이지로 이동합니다.
+
+이용약관(본문)
+이용약관(별표)
+개인정보처리방침
+불법스팸대응센터
+명의도용방지서비스
+통신자료제공요청
+
+고객센터 : 유료 1566-0212 | 무료 114 | 평일 : 09:00~18:00(주말,공휴일 휴무)
+
+찾아오시는 길 (우편 수신지) : 경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호
+
+사업자 정보
+
+COPYRIGHT © SMARTEL. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+스마텔 요금제후불 요금제선불 요금제선불요금 충전부가서비스SK브로드밴드LG유플러스KT 닷컴이달의 이벤트요금제프로모션제휴카드SKT망LGU+망KT망공지사항자주 묻는 질문서류양식 다운로드5GX 요금제SKT 혜택 그대로5GX 초특가최대 360,000원 혜택을 확인하세요
+
+이용약관(본문)이용약관(별표)개인정보처리방침불법스팸대응센터명의도용방지서비스통신자료제공요청고객센터유료 1566-0212 ㅣ 무료 114 ㅣ 평일 : 09:00~18:00(주말,공휴일 휴무)찾아오시는 길 (우편 수신지)경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호사업자 정보COPYRIGHT ⓒ SMARTEL.ALL RIGHT RESERVED.
+
+
+===== [2] https://www.smartel.kr/support/faq =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/smartel-call-center-2.png
+CHARS: 1138
+
+신청조회
+로그인
+요금제
+인터넷/TV
+이벤트
+셀프개통
+고객지원
+해외eSIM
+30% off
+휴대폰
+36만원 할인
+고객지원
+공지사항
+자주 묻는 질문
+서류양식 다운
+전체
+가입
+로밍
+변경
+부가서비스
+분실
+서비스
+선불
+셀프개통
+스팸
+약관
+요금
+유심
+정지
+해지
+eSIM
+기타
+Q
+선불
+
+선불폰에서도 eSIM(이심)을 사용할 수 있나요?
+
+Q
+선불
+
+선불폰으로 해외 로밍이 되나요?
+
+Q
+선불
+
+선불폰에서 통화중대기·캐치콜 등 부가서비스 가입이 되나요?
+
+Q
+선불
+
+선불 5G 요금제로 변경하고 싶은데, 어떻게 하나요?
+
+Q
+선불
+
+선불 요금제에서 후불 요금제로 변경하려면 어떻게 해야 하나요?
+
+Q
+선불
+
+요금이 두 번 빠져나간 것 같아요 (이중출금·중복 결제)
+
+Q
+선불
+
+선불 요금에 자동이체(자동납부)를 걸 수 있나요?
+
+Q
+선불
+
+충전 가능 기간이 지나서 충전이 안 돼요 — 번호가 살아있나요?
+
+Q
+선불
+
+가상계좌 번호를 잃어버렸어요 / 계좌 번호가 바뀐 것 같아요.
+
+Q
+선불
+
+여권으로 가입했는데 외국인 등록증으로 변경이 가능할까요?
+
+Q
+유심
+
+온라인 접수 후 취소할 경우 유심비는 어떻게 될까요?
+
+Q
+기타
+
+KT 인터넷 결합
+
+Q
+eSIM
+
+eSIM 개통 후 QR 활성화해야 하는데 카메라 고장으로 QR을 인식할 수 없습니다
+
+Q
+스팸
+
+스마텔 알뜰폰에 불법 스팸(스패머)으로 등록되어 있습니다.
+
+Q
+분실
+
+유심/단말기를 분실한 경우 어떻게 해야 하나요?
+
+Q
+로밍
+
+개통 후 해외에서도 유심 다운로드가 가능한가요?
+
+Q
+요금
+
+LGU+ 인터넷 결합 가능 요금제 리스트
+
+Q
+변경
+
+번호변경은 어떻게 하나요? (듀얼번호 포함)
+
+Q
+부가서비스
+
+듀얼넘버를 이용할 수 있나요?
+
+Q
+부가서비스
+
+소액결제를 이용할 수 있나요?
+
+더보기
+
+(1/5)
+
+APP 다운로드
+
+버튼을 누르면 앱 다운로드 페이지로 이동합니다.
+
+이용약관(본문)
+이용약관(별표)
+개인정보처리방침
+불법스팸대응센터
+명의도용방지서비스
+통신자료제공요청
+
+고객센터 : 유료 1566-0212 | 무료 114 | 평일 : 09:00~18:00(주말,공휴일 휴무)
+
+찾아오시는 길 (우편 수신지) : 경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호
+
+사업자 정보
+
+COPYRIGHT © SMARTEL. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+스마텔 요금제후불 요금제선불 요금제선불요금 충전부가서비스SK브로드밴드LG유플러스KT 닷컴이달의 이벤트요금제프로모션제휴카드SKT망LGU+망KT망공지사항자주 묻는 질문서류양식 다운로드5GX 요금제SKT 혜택 그대로5GX 초특가최대 360,000원 혜택을 확인하세요
+
+이용약관(본문)이용약관(별표)개인정보처리방침불법스팸대응센터명의도용방지서비스통신자료제공요청고객센터유료 1566-0212 ㅣ 무료 114 ㅣ 평일 : 09:00~18:00(주말,공휴일 휴무)찾아오시는 길 (우편 수신지)경기도 하남시 미사강변중앙로7번안길 25(풍산동) 미사유테크밸리 D동 1009호사업자 정보COPYRIGHT ⓒ SMARTEL.ALL RIGHT RESERVED.
+
+
+===== [3] https://www.mvnohub.kr/brand/plan/5.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/smartel-call-center-3.png
+CHARS: 2663
+
+본문 바로가기
+일시정지
+상단배너닫기
+요금제
+휴대폰
+알뜰폰 브랜드
+맞춤형 요금제
+이벤트
+고객지원
+검색
+관심상품
+신청내역조회
+스마텔 요금제
+요금제 상세
+
+스마텔
+
+(0.0/5.0)
+
+상담 신청
+홈페이지
+
+합리적이고 스마트한 통신 스마텔입니다.
+
+통신사
+SKT, KT, LGU+
+고객센터
+SKT 1566-0212 (운영시간 : 평일 09:00~18:00 (주말, 공휴일 제외))
+KT 1566-0212 (운영시간 : 평일 09:00~18:00 (주말, 공휴일 제외))
+LGU+ 1566-0212 (운영시간 : 평일 09:00~18:00 (주말, 공휴일 제외))
+요금제
+휴대폰
+일시정지
+
+필터
+
+초기화
+
+상품 유형
+
+상품 유형 선택
+이벤트 상품 🎉
+허브 추천 상품
+
+가격
+
+0원 ~ 100,000원 이상
+
+가격 범위 선택
+
+통신 규격
+
+통신 규격 선택
+5G
+LTE
+3G
+태블릿/스마트기기
+
+데이터 용량
+
+데이터 용량 선택
+1GB 이하
+5GB 이하
+10GB 이하
+30GB 이하
+30GB 초과
+무제한
+
+통화량
+
+0분 ~ 무제한
+
+통화량 범위 선택
+통화량 선택
+전체
+0분~50분
+50분~100분
+100분~200분
+200분~300분
+300분~500분
+500분~무제한
+
+문자량
+
+문자 없음 ~ 문자 무제한
+
+문자량 범위 선택
+문자량 선택
+문자 전체
+문자 무제한
+300~500건
+100~300건
+50~100건
+50건 미만
+문자 없음
+
+할인 기간
+
+1개월 ~ 24개월 이상
+
+할인 기간 범위 선택
+할인 기간 선택
+전체
+1~6개월
+6~12개월
+12~24개월
+24개월 이상
+필터 적용
+상세필터 열기
+전체
+SKT
+KT
+LGU+
+요금제 검색
+
+스마텔
+
+판매많은순
+
+(0.0/5.0)
+
+990원 초특가 이벤트
+
+SKT
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 990 원
+
+20,900원 95% 할인
+
+12개월 이후 20,900원/월
+
+데이터 10GB
+통화 500분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+10원 초특가 이벤트
+
+LGU+
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 10 원
+
+15,400원 100% 할인
+
+8개월 이후 15,400원/월
+
+데이터 10GB
+통화 200분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+월 1만원 미만 초특가 알뜰폰 요금제 (SKT)
+
+SKT
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 2,090 원
+
+3,630원 42% 할인
+
+5개월 이후 3,630원/월
+
+데이터 1.8GB
+통화 50분
+문자 50건
+비교하기
+
+(0.0/5.0)
+
+9월 스마텔 알뜰폰 BEST 요금제 모음 (SKT)
+
+SKT
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 6,500 원
+
+26,400원 75% 할인
+
+7개월 이후 26,400원/월
+
+데이터 7GB+1Mbps
+통화 무제한
+문자 무제한
+비교하기
+
+(0.0/5.0)
+
+월 1만원 미만 초특가 알뜰폰 요금제 (LGU+)
+
+LGU+
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 3,300 원
+
+15,400원 79% 할인
+
+12개월 이후 15,400원/월
+
+데이터 5GB+1Mbps
+통화 200분
+문자 100건
+비교하기
+
+(0.0/5.0)
+
+9월 스마텔 알뜰폰 BEST 요금제 모음 (LGU+)
+
+LGU+
+스마텔
+LTE
+이벤트상품
+허브전용
+
+월 12,500 원
+
+27,500원 55% 할인
+
+7개월 이후 27,500원/월
+
+데이터 7GB+1Mbps
+통화 무제한
+문자 무제한
+비교하기
+이전
+1
+다음
+고객리뷰
+전체
+SKT
+KT
+LGU+
+고객 스와이퍼 멈추기
+더보기
+
+(5.0/5.0)
+
+류*윤
+
+친절하게 개통 잘 했어요. 5월 마지막 날에 셀프개통이 되지 않아 걱정 되었는데 6월까지 요금제 실시하게 되어서 좋았습니다!
+
+LGU+
+[LGU+] 실속 데이터 4.5GB+_D_8389
+
+(5.0/5.0)
+
+최*선
+
+같은 요즘제 대비 가격이 저렴하고 이벤트를 하길래 선택하게 되었습니다. 배송되는데 2~3일 걸린다고 하여 여유롭게 기다리던 와중 다음날 바로 배송되었고 영업시간내에 개통이 가능하여 금일 개통하였습니다! 홈페이지에서 [고객센터 - 고객센터개통] 를 통해 셀프개통을 하였고 3시간정도 소요되었습니다. 유심 꽂고 한번 재부팅후 바로 개통되었습니다. 만족스럽습니다.^^
+
+LGU+
+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)
+
+박*진
+
+요금도 싸고 아주좋아요
+
+LGU+
+★GS25 12만원 혜택_D_3979
+
+(5.0/5.0)
+
+정*락
+
+상담사분들도 친절하시고 감사합니다
+
+LGU+
+[LGU+] 실속 100분10GB_D_9128
+
+(5.0/5.0)
+
+장*영
+
+통화품질, 인터넷 속도 모두 만족합니다^^
+
+LGU+
+★유모바일_NPAY 6만원 + 데이터 10GB 혜택_D_0802
+
+알뜰폰 허브 소개 배너
+
+왜 알뜰폰 허브 일까요?
+
+한국정보통신진흥협회에서 운영하는 대한민국 최초 알뜰폰 요금제 비교 사이트입니다.
+
+자세히 보기
+상담문의
+상단이동
+알뜰폰 허브
+사이트소개
+이용약관
+개인정보처리방침
+이메일무단수집거부
+저작권 보호 정책
+서울시 강남구 역삼로 111 9층 (역삼동,한국정보통신진흥협회빌딩)
+Mail : handphone@kait.or.kr Tel : 070-8795-4040
+통신판매업신고번호 : 2010-서울서초-1232
+사업자등록번호 : 211-82-11990 대표자 : 정재헌 호스팅사업자 : (사)한국정보통신진흥협회
+
+Ⓒ2026. Korea Association for AI&ICT Promotion. All Rights Reserved.
+과학기술정보통신부
+KAIT 한국정보통신진흥협회
+
+FAMILY SITE
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+body{font-family:"Open Sans", sans-serif;background-size:cover;}
+ #waitBackground{position:absolute;background-color:rgba(0,0,0,0.4);width:100%;height:100%;}
+ @media (max-width :420px) {
+ body{
+ background-position:50%;
+ }
+ .login-containerT{width:100%!important;
+ }
+ .mobile-size {
+ width:90%!important;
+ margin: 0 auto;
+ }
+ .text-center h3 {
+ margin-top: 52px!important;
+ font-size: 20px!important;
+ }
+ .hpanel {
+ margin-top: 20px!important;
+ padding: 16px 0 16px 0!important; 
+ }
+ .sub_text {
+ font-size:0.8em!important; 
+ }
+ #loading3 {
+ width:70%!important;
+ }
+ .main_logo {
+ right:50%!important;
+ transform: translate(50%)!important; 
+ }
+ .main_logo img {
+ width: 110px!important;
+ height: auto!important;
+ }
+ }
+ .login-containerT{max-width:none;width:560px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99;}
+ .login-containerT, .row, .col-md-12, .hpanel{margin:0;padding:0;}
+ .panel-bodyT{text-align:center;padding:0px 2it_default.jsp0px 10px!important;border-radius:0;}
+ #boxHeadLine{background:#4486d4;width:100%;height:4px;}
+ #wait_value{
+ color:#1e1e1e;
+ font-weight:bold;
+ font-size:1.2em;
+ margin: 0 0 20px 0;
+ }
+ #loading3{display:flex;width:50%;justify-content:space-between;margin:30px auto 49px;}
+ #loading3>div{width:8px;height:40px;margin-right:7px;background-color:#033074;border-radius: 3px;
+ -webkit-animation:strechdelay 1.5s ease-in-out infinite;
+ animation:strechdelay 1.5s ease-in-out infinite;
+ }
+ #loading3 .line2{
+ -webkit-animation-delay:-1.4s;
+ animation-delay:-1.4s;
+ } #loading3 .line3{
+ -webkit-animation-delay:-1.3s;
+ animation-delay:-1.3s;
+ }#loading3 .line4{
+ -webkit-animation-delay:-1.2s;
+ animation-delay:-1.2s;
+ }#loading3 .line5{
+ -webkit-animation-delay:-1.1s;
+ animation-delay:-1.1s;
+ }#loading3 .line6{
+ -webkit-animation-delay:-1.0s;
+ animation-delay:-1.0s;
+ }#loading3 .line7{
+ -webkit-animation-delay:-0.9s;
+ animation-delay:-0.9s;
+ }#loading3 .line8{
+ -webkit-animation-delay:-0.8s;
+ animation-delay:-0.8s;
+ }#loading3 .line9{
+ -webkit-animation-delay:-0.7s;
+ animation-delay:-0.7s;
+ }#loading3 .line10{
+ -webkit-animation-delay:-0.6s;
+ animation-delay:-0.6s;
+ }#loading3 .line11{
+ -webkit-animation-delay:-0.5s;
+ animation-delay:-0.5s;
+ }#loading3 .line12{
+ -webkit-animation-delay:-0.4s;
+ animation-delay:-0.4s;
+ }#loading3 .line13{
+ -webkit-animation-delay:-0.3s;
+ animation-delay:-0.3s;
+ }#loading3 .line14{
+ -webkit-animation-delay:-0.2s;
+ animation-delay:-0.2s;
+ }#loading3 .line15{
+ -webkit-animation-delay:-0.1s;
+ animation-delay:-0.1s;
+ }#loading3 .line16{
+ -webkit-animation-delay:-0.0s;
+ animation-delay:-0.0s;
+ }
+ @keyframes strechdelay{
+ 0%,50%,100%{
+ transform:scaleY(.7);
+ }
+ 20%{
+ transform:scaleY(1);
+ background-color:#2d69c2;
+ }
+ }
+ @-webkit-keyframes strechdelay{
+ 0%,50%,100%{
+ -webkit-transform:scaleY(.7);
+ }
+ 20%{
+ -webkit-transform:scaleY(1);
+ background-color:#72a5f5;
+ }
+ }
+function checkCntData() {
+ var host = this_host;
+ var ip = this_ip;
+ var loginId = this_loginId;
+ var port = this_port;
+ var pageUrl = this_pageUrl;
+ var sendThis = this_sendThis
+ callTracerApiInputData(host, ip, loginId, port, pageUrl, sendThis);
+ var waitCnt = this_waitCnt;
+ if ( waitCnt == "0" || waitCnt == "E") {
+ showRealPage();
+ callBackTracer();
+ } else {
+ var $el = $("#wait_value");
+ var waitCnt = this_waitCnt;
+ if ( $.isNumeric(waitCnt) ) {
+ $el.html("고객님의 대기열은 <span style=\"font-size:22px;color:red;font-weight:bold;\">"+comma(Math.floor(waitCnt))+"</span> 명입니다.");
+ } else {
+ }
+ }
+}
+playAlert = setInterval(function() {
+ if (typeof this_isWait === 'undefined') {
+ return;
+ }
+ if ( this_isWait == "T" ) {
+ checkCntData();
+ }
+}, 1000);
+$(document).ready(function() {
+ var $el = $("#wait_value");
+ $el.html("고객님의 대기열을 확인중입니다.");
+});
+function createCookie() {
+ var now = new Date();
+ var time = now.getTime();
+ var expireTime = time + 1000*36000;
+ now.setTime(expireTime);
+ var tempExp = 'Wed, 31 Oct 2020 08:50:17 GMT';
+ document.cookie = 'SESSIONID=hjpark123;expires='+now.toGMTString()+';path=/';
+}
+/* setInterval(function() {
+ window.location.href='login.do';
+ }, 20000); */
+function comma(num){
+ var len, point, str; 
+ num = num + ""; 
+ point = num.length % 3 ;
+ len = num.length; 
+ str = num.substring(0, point); 
+ while (point < len) { 
+ if (str != "") str += ","; 
+ str += num.substring(point, point + 3); 
+ point += 3; 
+ } 
+ return str;
+}
+ 서비스 접근 대기 중입니다. 
+ 고객님의 대기열을 확인중입니다.
+ 현재 접속 사용자가 많아 대기중이며, 잠시만 기다리시면 자동 접속됩니다. 
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 차단 되었습니다. 
+ 현재 접속하신 아이피에서는 접속이 불가능합니다.
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 불가합니다. 
+ 접속량이 많아 접속이 불가능합니다. 잠시 후 다시 접속해주세요
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+
+1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+통합검색
+ 닫기
+ 검색
+ 추천 요금제
+ 직장인
+ 가성비 청년
+ 해비 유저
+ 공신
+ 어르신 안심
+ 알뜰 사용자
+
+GNB사이드 메뉴
+ home
+ 닫기
+ 관심상품
+ 신청내역조회
+ 1:1문의
+ 검색
+ 요금제
+ 휴대폰
+ 알뜰폰 브랜드
+ 맞춤형 요금제
+ 이벤트
+ 고객지원
+ 1:1문의
+ 공지사항
+ 자주하는 질문
+ 고객 리뷰
+ 알뜰폰 허브 소개
+
+닫기
+ 월 할부금 안내
+ · 기기값을 24개월 할부로 결제할 때 청구되는 요금을 기준으로 검색됩니다.
+
+전체
+ 새폰
+ 중고폰
+
+알뜰폰 브랜드
+ 닫기
+
+정렬
+ 닫기
+
+낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+ 낮은가격순
+ 높은가격순
+ 리뷰많은순
+ 판매많은순
+ 데이터많은순
+ 신상품순
+ 별점높은순
+
+요금제 비교하기
+ 선택된 요금제 0개
+ 초기화
+ 초기화
+
+첫 리뷰를 남겨주세요. 
+ 소중한 후기가 다른 고객에게 큰 도움이 됩니다.
+
+(4.7/5.0)박*안신규가입이였고 처음이라 버벅거렸지만 쳇상담원을통해 묻고 답하는게 조금 불편하긴했지만 아주 자세히 가르쳐줘서 잘할수있었습니다
+번호도 좋은걸로 주셔서 아이가 외우기 쉽다고 좋아했습니다
+앞으로도 잘쓰겠습니다KT5G 200분/15GB_hub
+
+(5.0/5.0)박*진빠른 개통 완전 만족합니다LGU+[Npay2만] A 스페셜 100GB+
+
+(5.0/5.0)김*승다좋습니다 가격좋고 통화품질 데이터 다좋습니다LGU+5G 티플 가성비(300분/15GB)_D_5153
+
+(4.7/5.0)오*철빠른 개통 착한가격 너무 맘에 들어요LGU+[Npay5천] A 갓성비 20GB/100분 (기본10GB + 추가 10GB 제공)
+
+(5.0/5.0)임*신개통도 문제없이 했으며 통화품질도 좋습니다SKT티플 가성비(300분/6GB)_평생할인_D_3126
+
+ICT통계조사
+ 방송통신이용자정보포털
+ 핸드폰 분실·도난 및 요금할인 조회
+ 엠세이퍼
+ 중고단말안심거래
+ 핸드폰 찾기 콜센터
+ 알뜰폰 요금제 비교·구매
+ 이동전화 불공정행위 신고센터
+ 방송통신 연체정보 조회
+ 유료방송사 미환급액 정보 조회
+ 정보통신기술자격검정
+ 유·무선 판매점 사전승낙
+ 명의도용방지
+ ICT혁신기술기업 해외진출지원
+ 초고속 정보통신 건물 인증
+ 온라인피해365센터
+ 월드 IT쇼
+ 빅데이터 포럼
+ 한국 IT리더스 포럼
+
+----- 이미지 대체텍스트 (img alt) -----
+9월 한가위도 이지모바일과 함께
+프리텔레콤 SKT | 9월 특가
+과학기술정보통신부 WA(WEB접근성) 품질인증 마크, 웹와치(WebWatch) 2026.03.11 ~ 2027.03.10
