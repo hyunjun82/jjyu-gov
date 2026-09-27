@@ -1,0 +1,29 @@
+{
+  "slug": "tmoney",
+  "name": "티머니",
+  "aliases": ["티머니 카드&페이", "모바일티머니", "㈜티머니", "Tmoney", "티머니 교통카드"],
+  "industry": "online",
+  "variant": "giftcard",
+  "brandColor": "#870176",
+  "official": "https://www.tmoney.co.kr",
+  "sourceUrl": "https://pay.tmoney.co.kr/ncs/pct/cuscent/ReadFaqBscList.dev",
+  "sourceName": "티머니 카드&페이 고객센터",
+  "extraSources": [
+    { "name": "티머니 카드&페이 모바일티머니 분실도난 안내", "url": "https://pay.tmoney.co.kr/ncs/pct/tmnyintd/ReadMblTmnyMissStol.dev" },
+    { "name": "티머니 공식 홈페이지", "url": "https://www.tmoney.co.kr/aeb/main/main/readMain.dev" }
+  ],
+  "verifiedAt": "2026-09-27",
+  "corp": "㈜티머니",
+  "hq": "서울시 중구 후암로 110",
+  "main": { "label": "고객센터 대표전화", "tel": "1644-0088" },
+  "hours": { "weekday": "평일 09:00~18:00" },
+  "hoursNote": "[2026-09-27] pay.tmoney.co.kr(티머니 카드&페이) 모든 페이지 푸터 '고객센터 대표전화 1644-0088 | 운영시간 평일 09:00~18:00', '고객센터 전화번호 : 1644-0088ㅣ사업장 소재지 : 서울시 중구 후암로 110'. www.tmoney.co.kr 푸터 '서울특별시 중구 후암로 110 서울시티타워 티머니 고객센터 : 1644-0088'. 모바일티머니 분실도난 안내 '모바일티머니 분실/도난 후 의무: 홈페이지 및 티머니 고객센터 1644-0088를 통해 반드시 신고하셔야 합니다.' ⚠ 대중교통안심카드 분실도난 안내 한 페이지 안에 '고객센터 (1644-0088)' 와 '고객센터(1644-2250)' 가 섞여 있어 1644-2250 은 쓰지 않았다. 푸터 'Foreign Language Service Call Center 120 Press 9' 는 120 이 지역마다 다른 콜센터로 연결돼 쓰지 않았다. 주말·공휴일 안내 없음. 로고색 h1_tmoney.gif 유채색 최빈.",
+  "notice": "모바일티머니가 든 휴대폰을 잃어버렸다면 홈페이지나 고객센터로 분실·도난 신고를 해야 잔액 보호 절차가 시작된다고 안내돼 있습니다.",
+  "jobs": "티머니 카드·모바일티머니 이용 문의와 분실·도난 신고",
+  "idStep": "티머니 카드번호와 가입 아이디",
+  "heroSalt": "d",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터 대표전화", "tel": "1644-0088", "note": "평일 09:00~18:00" }
+  ]
+}

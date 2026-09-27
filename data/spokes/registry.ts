@@ -2137,6 +2137,7 @@ import { insMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { joytelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/joytel';
 import { culturelandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cultureland';
 import { booknlifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/booknlife';
+import { tmoneyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tmoney';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2427,6 +2428,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'tmoney': tmoneyCallCenterSpokeContent,
     'booknlife': booknlifeCallCenterSpokeContent,
     'cultureland': culturelandCallCenterSpokeContent,
     'goi-funeral': goiFuneralCallCenterSpokeContent,
