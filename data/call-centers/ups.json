@@ -1,0 +1,58 @@
+{
+  "slug": "ups",
+  "name": "UPS",
+  "aliases": [
+    "UPS 코리아",
+    "UPS Korea",
+    "유피에스",
+    "UPS 국제특송",
+    "UPS 택배"
+  ],
+  "industry": "online",
+  "variant": "parcel",
+  "brandColor": "#330000",
+  "official": "https://www.ups.com/kr/ko/home",
+  "sourceUrl": "https://www.ups.com/kr/ko/support/contact-us",
+  "sourceName": "UPS에 문의하기 (한국)",
+  "extraSources": [
+    {
+      "name": "UPS Contact Us (Korea, 영문)",
+      "url": "https://www.ups.com/kr/en/support/contact-us"
+    }
+  ],
+  "verifiedAt": "2026-09-27",
+  "corp": "UPS 코리아",
+  "main": {
+    "label": "고객 지원",
+    "tel": "1588-6886"
+  },
+  "hours": {
+    "weekday": "월요일~금요일: 오전 8시 30분~오후 6시"
+  },
+  "hoursNote": "[2026-09-27] ups.com/kr/ko/support/contact-us '필요할 때 지원받을 수 있습니다 아래 전화번호로 연락하여 필요한 내용에 맞는 도움을 받으십시오. 고객 지원 월요일~금요일: 오전 8시 30분~오후 6시 전화번호 1588-6886 / 청구 관련 질문 월요일~금요일: 오전 9시~오후 6시 전화번호 080-687-6886 / 기술 지원 월요일~금요일: 오전 8시 30분~오후 6시 30분 주말 및 공휴일 휴무 전화번호 00798-8521-3669(수신자 부담 전화) / 연락처 정보 국내 UPS 주소 UPS 코리아 서울시 영등포구 문래로 94-3 (07295) 대한민국'. 영문판 'Customer Support Monday - Friday: 8:30 am - 6 pm 1588-6886 / Billing … 080-687-6886 / Technical Support Monday - Friday: 8:30 am - 6:30 pm Closed on Weekends and Public Holidays 00798-8521-3669 (toll-free)' 일치. 화면 캡처로 '주말 및 공휴일 휴무' 는 기술 지원 칸에만 붙은 말임을 확인 — 대표번호(고객 지원)에는 쓰지 않았다. 헤드리스에선 페이지 대신 다운로드로 응답해 --headed 로 떴다. 원문이 싱가포르를 '아시아 본사' 로, 서울 주소를 '국내 UPS 주소' 로 적어 hq(본사)에 넣지 않고 notice 로 옮겼다. 로고색 헤더 logo.svg 요소 캡처 유채색 최빈(짙은 갈색).",
+  "notice": "국내 UPS 주소는 서울시 영등포구 문래로 94-3 (07295)으로 안내돼 있고, 카카오톡 채널에서도 배송물 준비·추적·관리 도움을 받을 수 있습니다.",
+  "numbersIntro": "청구 관련 질문은 080-687-6886(월요일~금요일 오전 9시~오후 6시), 기술 지원은 00798-8521-3669(수신자 부담 전화)로 따로 받습니다.",
+  "jobsSentence": "UPS 한국 누리집 문의하기 페이지에 고객 지원 번호로 안내된 번호입니다.",
+  "heroSalt": "d",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객 지원",
+      "tel": "1588-6886",
+      "note": "월요일~금요일 오전 8시 30분~오후 6시"
+    },
+    {
+      "label": "청구 관련 질문",
+      "tel": "080-687-6886",
+      "note": "월요일~금요일 오전 9시~오후 6시"
+    },
+    {
+      "label": "기술 지원",
+      "tel": "00798-8521-3669",
+      "note": "수신자 부담 전화, 월요일~금요일 오전 8시 30분~오후 6시 30분, 주말 및 공휴일 휴무"
+    }
+  ]
+}

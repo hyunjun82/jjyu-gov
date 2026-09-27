@@ -1,0 +1,472 @@
+SLUG: ups-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/ups-call-center-*.png)
+
+===== [1] https://www.ups.com/kr/ko/support/contact-us =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/ups-call-center-1.png
+CHARS: 2916
+
+기본 콘텐츠로 건너뛰기
+
+IEEPA 관세 환급
+
+센터 위치
+1
+알림
+한국 - 한국어
+
+UPS 소개
+
+발송
+조회
+비즈니스 솔루션
+지원
+로그인
+홈문의하기
+UPS에 문의하기
+
+De Minimis 변경 사항이 요금에 영향을 미칠 수 있음
+
+8월 29일부터 원산지 또는 가격에 관계없이 미국으로 수입되는 모든 화물에 대해 최소허용기준(de-minimis)이 폐지됩니다. 모든 화물은 세관국경보호국(CBP)의 통관을 거쳐야 하며, 관세, 세금 및 중개 수수료가 부과될 수 있습니다. 최신 관세 및 최소허용기준 관련 업데이트를 확인하세요.
+
+온라인 지원 리소스
+
+자주하는 문의에 대한 내용입니다. 아래 내용을 참고하시고, 도움이 필요하시면 언제든 문의주십시오.
+
+제 포장물은 어디에 있나요?
+
+포장물의 위치 또는 배송 변경에 대한 문의가 있으시면 조회 지원 페이지를 방문하십시오.
+
+조회 솔루션 확인
+
+유용한 발송 툴
+
+발송 서비스 결정부터 라벨 생성 및 출력에 이르기까지 발송 솔루션 페이지에서 발송에 필요한 모든 것을 확인할 수 있습니다.
+
+발송 솔루션 탐색
+
+물품에 문제가 있으신가요?
+
+클레임을 접수할 때 도움을 드릴 수 있습니다. 문제에 대한 세부 정보를 보내 주시면 최대한 빨리 문제를 해결할 수 있는 최상의 솔루션을 찾아 드립니다.
+
+클레임 접수
+
+필요할 때 지원받을 수 있습니다
+
+아래 전화번호로 연락하여 필요한 내용에 맞는 도움을 받으십시오.
+
+고객 지원
+
+월요일~금요일: 오전 8시 30분~오후 6시
+
+전화번호
+
+1588-6886
+
+청구 관련 질문
+
+월요일~금요일: 오전 9시~오후 6시
+
+전화번호
+
+080-687-6886
+
+기술 지원
+
+월요일~금요일: 오전 8시 30분~오후 6시 30분
+주말 및 공휴일 휴무
+
+전화번호
+
+00798-8521-3669(수신자 부담 전화)
+
+연락처 정보
+
+국내 UPS 주소
+UPS 코리아
+서울시 영등포구
+문래로 94-3 (07295)
+대한민국
+아시아 본사 UPS 주소
+UPS 하우스
+22 창이 사우스 애비뉴 2
+싱가포르 4860644
+
+UPS 공급망
+
+카카오톡에서 언제든지 도움을 받으세요
+
+카카오톡을 이용해 모바일 기기에서 바로 배송물을 준비하고, 추적하고, 관리하세요.
+
+카카오톡으로 문의하세요
+
+추가 도움이 필요하신가요?
+
+고객 지원에 이메일로 문의할 수도 있습니다. 참고: 요청에 응답하기까지 며칠이 걸릴 수 있습니다.
+
+사이트
+조회
+발송
+도움말 및 지원
+커뮤니케이션 환경설정
+기타 UPS 사이트
+UPS 소개
+UPS Healthcare
+Supply Chain Solutions
+UPS Jobs
+UPS 개발자 포털
+글로벌 홈
+사기 행위 방지
+이용 약관
+웹사이트 이용약관
+개인정보처리방침
+쿠키 설정
+
+Copyright ©1994-2026 United Parcel Service of America, Inc. All rights reserved.
+
+우리는 소셜 미디어 기능의 제공과 데이터 분석 및 본 사이트가 올바로 동작하고 개인화된 콘텐츠와 광고를 제공하기 위해 쿠키를 사용하고 있습니다. 회사 사이트에 대한 귀하의 사용 정보를 회사의 소셜 미디어, 광고 및 분석 협력사와 공유합니다.개인정보처리방침
+쿠키 설정
+×
+
+----- 프레임 (https://insight.adsrvr.org/track/cei?advertiser_id=bhipc3r&cookie_sync=1&upv=3.0.0&upid=3xdvk81,gfhf4d7&ref=https%3A%2F%2Fwww.ups.com%2Fkr%2Fko%2Fsupport%2Fcontact-us) -----
+(function(global) { 
+                var ttdcm = new TTDCM(); 
+                ttdcm.init( [] );
+            })(this);
+
+----- 프레임 (https://6451349.fls.doubleclick.net/activityi;dc_pre=CLCp_6CYjpcDFY0_PQUd63osWA;src=6451349;type=sitev;cat=upsal0;rcb=14;ord=403244367280;npa=0;auiddc=23664411.1790492475;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Google%2520Chrome%3B153.0.8010.53%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.53;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe69n1v9179590599za200zd9179590599xecxf1;gcs=G111;gcd=13t3t3t3t5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118131809~118897920~118897930~119381664~120213116~120385422~120469145~120469153;epver=2;dc_random=1790492474_TdBQQXNKK8a4lHIC3DPRGAY_kTlbnZ-wIg;_dc_test=1;~oref=https%3A%2F%2Fwww.ups.com%2Fkr%2Fko%2Fsupport%2Fcontact-us?) -----
+/* <![CDATA[ */
+var google_conversion_id = 863311277;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/863311277/?guid=ON&amp;script=0"/>
+</div>
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+×IEEPA 관세 환급.....단계적 접근 방식에 따라 미국 세관국경보호국(CBP)은 미국 대법원에 의해 최근 무효화된 관세에 대한 환급 요청을 받고 있습니다. 1단계에서는 2026년 1월 30일부터 납부된 특정 관세와 미납 관세를 포함합니다......UPS는 당사가 수입자 역할을 했던 해당 배송 건에 대해 환급을 처리하고 있습니다. CBP의 후속 단계 시행에 맞춰 저희도 지원 범위를 점차 넓혀 나갈 예정입니다. 환급 절차 전 과정에서 고객 여러분께 최선의 도움을 드리겠습니다......더 자세한 내용은 UPS IEEPA 관세 환급 페이지에서 확인할 수 있습니다.
+
+Korea, South - English
+ 한국 - 한국어
+ 다른 국가 또는 지역 선택
+
+발송물 생성
+ 발송비용 및 시간 계산
+ 픽업 예약
+ 발송 기록 보기
+ 일괄 파일 발송
+ 포장 및 발송 포장재료
+ 계정 열기 및 저장
+ 고객 주문 관리
+ 포장물 발송 안내
+ 국제 발송
+ 포장물 반송 안내
+ 발송 서비스
+ 발송 지원으로 이동
+
+포장물 조회
+ My Choice로 포장물 관리
+ Quantum View로 관리
+ 배송 변경
+ 조회 지원으로 이동
+
+계정 열기 및 저장
+ 소규모 비지니스 솔루션
+ 발송물 보기 및 관리
+ 대량 발송 관리
+ 청구서 이해 및 지불
+ 클레임 제출 또는 보기
+ 픽업 및 방문 발송 옵션
+ 반송 절차 간소화
+
+청구서 이해 및 지불
+ 프로필 관리
+ 클레임 제출 또는 보기
+ 문의하기
+ 조회 지원
+ 발송 지원
+ 국제 발송 도구
+
+발송
+ 발송물 생성
+ 발송비용 및 시간 계산
+ 픽업 예약
+ 발송 기록 보기
+ 일괄 파일 발송
+ 포장 및 발송 포장재료
+ 계정 열기 및 저장
+ 고객 주문 관리
+ 포장물 발송 안내
+ 국제 발송
+ 포장물 반송 안내
+ 발송 서비스
+ 발송 지원으로 이동
+ 조회
+ 포장물 조회
+ My Choice로 포장물 관리
+ Quantum View로 관리
+ 배송 변경
+ 조회 지원으로 이동
+ 비즈니스 솔루션
+ 계정 열기 및 저장
+ 소규모 비지니스 솔루션
+ 발송물 보기 및 관리
+ 대량 발송 관리
+ 청구서 이해 및 지불
+ 클레임 제출 또는 보기
+ 픽업 및 방문 발송 옵션
+ 반송 절차 간소화
+ 지원
+ 청구서 이해 및 지불
+ 프로필 관리
+ 클레임 제출 또는 보기
+ 문의하기
+ 조회 지원
+ 발송 지원
+ 국제 발송 도구
+ UPS 소개한국 - 한국어
+ Korea, South - English
+ 한국 - 한국어
+ 다른 국가 또는 지역 선택
+
+개인정보 선호 센터웹사이트 방문 시 주로 쿠키 형태로 사용자나 기기 정보가 브라우저에 저장되거나 검색될 수 있습니다. 당사는 사용자의 개인정보 보호 권리를 존중하므로, 사용자는 일부 유형의 쿠키를 허용하지 않도록 선택할 수 있습니다. 각 카테고리 제목을 클릭하면 자세한 정보를 확인하고 기본 설정을 변경할 수 있습니다. 그러나 일부 유형의 쿠키를 차단하면 사이트 이용 경험과 당사가 제공하는 서비스에 영향을 미칠 수 있습니다.모두 허용동의 선호도 관리필수 쿠키항상 활성화이러한 쿠키는 웹사이트가 정상적으로 작동하는 데 필요하며, 당사 시스템에서 끌 수 없습니다. 일반적으로 이러한 쿠키는 개인정보 설정, 로그인 또는 양식 작성과 같이 서비스 요청에 해당하는 사용자의 행동에 대한 응답으로만 설정됩니다. 브라우저에서 이러한 쿠키를 차단하거나 알림을 받도록 설정할 수 있지만, 그럴 경우 사이트의 일부 기능이 작동하지 않을 수 있습니다.광고 쿠키 광고 쿠키 이 쿠키는 회사의 광고 협력사가 회사 사이트에 설정한 것입니다. 해당 협력사는 귀하의 관심사에 대한 프로파일을 만들고 다른 사이트에서도 관련 광고를 표시하기 위해 이 쿠키를 사용합니다. 이 쿠키는 귀하의 브라우저와 기기를 식별함으로써 동작합니다. 이 쿠키를 허용하지 않으면 다른 웹사이트에서 회사가 제공하는 맞춤형 광고를 경험할 수 없습니다.소셜 미디어 쿠키 소셜 미디어 쿠키 이 쿠키는 회사의 콘텐츠를 귀하의 친구와 네트워크에서 공유할 수 있도록 사이트에 추가된 일부 소셜 미디어 서비스가 설정한 것입니다. 이 쿠키는 여러 사이트에 걸쳐 귀하의 브라우저를 추적할 수 있으며 귀하의 관심 영역을 프로파일로 만들 수 있습니다. 이는 귀하가 방문하는 다른 웹사이트에서 보는 콘텐츠와 메시지에 영향을 미칠 수 있습니다. 본 쿠키를 허용하지 않으면 본 공유 도구를 사용하지 못하거나 확인하지 못할 수 있습니다.분석 쿠키 분석 쿠키 이러한 쿠키는 웹사이트 사용 현황을 분석하여 귀중한 인사이트를 얻고 성능을 개선하는 데 도움이 됩니다. UPS는 이러한 쿠키를 통해 버튼 클릭, 마우스 이동, 스크롤, 창 크기 조정, 터치(모바일) 키 입력, 페이지 탐색, 페이지 소스, 페이지 ID 및 오류 메시지를 기반으로 사용자의 탐색 경험을 시뮬레이션할 수 있습니다. 이러한 쿠키는 제3자가 제공하며, 문제 해결이나 고객 지원 또는 웹사이트의 성능 및 디자인 개선을 위해 사용될 수 있습니다. 일부 쿠키는 연구 설문조사 및 사용자로부터 인사이트를 얻는 기타 방법을 생성하는 데 사용되며 타겟팅될 수 있습니다. 참여는 선택 사항입니다. 이러한 쿠키를 허용하지 않으면 설문조사 참여가 줄어들고 당사가 사용자 경험을 최적화할 수 있는 능력이 제한됩니다.개인화 쿠키 개인화 쿠키 당사 웹사이트는 개인화된 경험을 제공하기 위해 쿠키를 사용합니다. 이러한 쿠키를 수락하기로 선택하는 경우, 당사(또는 당사의 제3자 파트너)는 사이트 내 사용자 활동에 대한 데이터를 수집하고 공유할 수 있습니다. 자세한 내용을 알아보거나 환경 설정을 업데이트하려면 '쿠키 설정'을 클릭하십시오. 이 설정은 페이지 하단에서 언제든지 변경할 수 있습니다.Back Button쿠키 목록 Search IconFilter IconClear checkbox label labelApply CancelConsent Leg.Interest checkbox label label checkbox label label checkbox label label모두 거부 내 선택 확인
+
+
+===== [2] https://www.ups.com/kr/en/support/contact-us =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/ups-call-center-2.png
+CHARS: 4165
+
+Skip to Main Content
+
+IEEPA Tariff Refunds
+
+Locations
+1
+Alerts
+Korea, South - English
+
+About UPS
+
+Shipping
+Tracking
+Business Solutions
+Support
+Log In
+HomeContact Us
+Contact Us
+
+Changes to De Minimis May Impact Charges
+
+Effective August 29th, de-minimis will be eliminated for all shipments importing into the United States (US) regardless of origin or value. All shipments will require entry to Customs Border Protection (CBP) and may result in duty, tax and brokerage fees owing. Get the latest tariff and de minimis updates.
+
+Online Support Resources
+
+You’ve got questions, we’ve got answers.
+
+Where’s My Parcel?
+
+Visit our tracking support page to answer any questions you have about your shipment’s whereabouts or changing a delivery.
+
+Visit Tracking Solutions
+
+Helpful Shipping Tools
+
+From deciding which shipping service to use for your shipment to creating and printing a label, find out everything you’ll need on our shipping solutions page.
+
+Explore Shipping Solutions
+
+Have a Problem with Your Delivery?
+
+We can help out when you file a claim. Send us the details of your issue and we’ll do the rest to find the best solution to make things right as quickly as possible.
+
+File a Claim
+
+Support When You Need It
+
+Use the phone numbers below to access the help centre that best fits your need.
+
+Customer Support
+
+Monday - Friday: 8:30 am - 6 pm
+
+Tel.
+
+1588-6886
+
+Billing Questions
+
+Monday - Friday: 9 am - 6 pm
+
+Tel.
+
+080-687-6886
+
+Technical Support
+
+Monday - Friday: 8:30 am - 6:30 pm
+Closed on Weekends and Public Holidays
+
+Tel.
+
+00798-8521-3669 (toll-free)
+
+Contact Information
+
+Local UPS Address
+UPS Korea
+94-3, Mullae-ro,
+Yeongdeungpo-gu, Seoul
+Republic of Korea 07295
+Regional UPS Address
+UPS House
+22 Changi South Avenue 2
+Singapore 486064
+
+UPS Supply Chain
+
+Get Help Anytime on KakaoTalk
+
+Use KakaoTalk to arrange, track and manage shipments right from your mobile device.
+
+Contact Us on KakaoTalk
+
+Need Additional Help?
+
+You can email customer support as well. Please note: it may take several days before we're able to respond to your request.
+
+This Site
+Tracking
+Shipping
+Help and Support
+Communication Preferences
+Other UPS Sites
+About UPS
+UPS Healthcare
+Supply Chain Solutions
+UPS Jobs
+UPS Developer Portal
+Global Home
+Protect Against Fraud
+Terms and Conditions
+Website Terms of Use
+Privacy Policy
+Cookie Settings
+
+Copyright ©1994-2026 United Parcel Service of America, Inc. All rights reserved.
+
+×
+This website uses cookies and analytics technologies
+We do this to better understand how visitors use our site and to offer you a more personal experience. By using our website, you consent to the recording, use, and sharing of your website activity by us and our service providers. For more information, please visit our Privacy Notice
+Cookie Settings
+
+----- 프레임 (https://insight.adsrvr.org/track/cei?advertiser_id=bhipc3r&cookie_sync=1&upv=3.0.0&upid=3xdvk81,gfhf4d7&ref=https%3A%2F%2Fwww.ups.com%2Fkr%2Fen%2Fsupport%2Fcontact-us) -----
+(function(global) { 
+                var ttdcm = new TTDCM(); 
+                ttdcm.init( [] );
+            })(this);
+
+----- 프레임 (https://6451349.fls.doubleclick.net/activityi;dc_pre=CKHstqyYjpcDFXlLwwYdjzggRg;src=6451349;type=sitev;cat=upsal0;rcb=14;ord=926780246257;npa=0;auiddc=23664411.1790492475;gdid=dYmQxMT;uaa=x86;uab=64;uafvl=Google%2520Chrome%3B153.0.8010.53%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.53;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe69n1v9179590599za200zd9179590599xecxf1;gcs=G111;gcd=13t3t3t3t5l1;dma=0;dc_fmt=2;tag_exp=115616986~115938466~115938468~118131809~118897920~118897930~119381664~120213116~120385423~120469145~120469153~121280970;epver=2;dc_random=1790492499_2Ndy5FFoDfJZIRKEANjxSU2iha1OXose1w;_dc_test=1;~oref=https%3A%2F%2Fwww.ups.com%2Fkr%2Fen%2Fsupport%2Fcontact-us?) -----
+/* <![CDATA[ */
+var google_conversion_id = 863311277;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/863311277/?guid=ON&amp;script=0"/>
+</div>
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+×IEEPA Tariff Refunds.....Under a phased approach, U.S. Customs and Border Protection (CBP) is now accepting refund requests for tariffs recently invalidated by the U.S. Supreme Court. Phase 1 covers certain tariff payments made starting January 30, 2026, in addition to pending tariff payments......UPS is processing refunds for eligible shipments where we served as the importer. We will expand our efforts as CBP launches future phases. We are committed to supporting our customers during the refund process......For more details, visit the UPS IEEPA Tariff Refund Page.
+
+Middle East Service ImpactsDismiss Service AlertDismiss AllView All Alerts
+
+Korea, South - English
+ 한국 - 한국어
+ Select Another Country or Territory
+
+Create a Shipment
+ Calculate Shipping Cost
+ Schedule a Collection
+ View Shipping History
+ Batch File Shipping
+ Packaging and Shipping Supplies
+ Open an Account and Save
+ Manage Customer Orders
+ How To Ship a Parcel
+ International Shipping
+ How to Return a Parcel
+ Shipping Services
+ Go to Shipping Support
+
+Track a Package
+ View All Shipments
+ Manage with Quantum View
+ Change a Delivery
+ Go to Tracking Support
+
+Open an Account and Save
+ Small Business Solutions
+ View and Control Your Shipments
+ Manage Shipments for Large Enterprises
+ Understand and Pay Bills
+ File or View a Claim
+ Collection and Drop-off Options
+ Simplify Returns
+
+Understand and Pay Bills
+ Manage Your Profile
+ File or View a Claim
+ Contact Us
+ Tracking Support
+ Shipping Support
+ International Shipping Tools
+
+Shipping
+ Create a Shipment
+ Calculate Shipping Cost
+ Schedule a Collection
+ View Shipping History
+ Batch File Shipping
+ Packaging and Shipping Supplies
+ Open an Account and Save
+ Manage Customer Orders
+ How To Ship a Parcel
+ International Shipping
+ How to Return a Parcel
+ Shipping Services
+ Go to Shipping Support
+ Tracking
+ Track a Package
+ View All Shipments
+ Manage with Quantum View
+ Change a Delivery
+ Go to Tracking Support
+ Business Solutions
+ Open an Account and Save
+ Small Business Solutions
+ View and Control Your Shipments
+ Manage Shipments for Large Enterprises
+ Understand and Pay Bills
+ File or View a Claim
+ Collection and Drop-off Options
+ Simplify Returns
+ Support
+ Understand and Pay Bills
+ Manage Your Profile
+ File or View a Claim
+ Contact Us
+ Tracking Support
+ Shipping Support
+ International Shipping Tools
+ About UPSKorea, South - English
+ Korea, South - English
+ 한국 - 한국어
+ Select Another Country or Territory
+
+Privacy Preference CenterWhen you visit any website, it may store or retrieve information on your browser about you or your device, mostly in the form of cookies. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.Allow All Manage Consent PreferencesStrictly Necessary CookiesAlways ActiveThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.Targeting Cookies Targeting Cookies These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.Social Media Cookies Social Media Cookies These cookies are set by a range of social media services that we have added to the site to enable you to share our content with your friends and networks. They are capable of tracking your browser across other sites and building up a profile of your interests. This may impact the content and messages you see on other websites you visit. If you do not allow these cookies you may not be able to use or see these sharing tools.Analytics Cookies Analytics Cookies These cookies allow us to analyze your use of the website to gain valuable insights and make performance improvements. They allow us to view a simulation of your browsing experience based on button clicks, mouse movements, scrolls, window resizing, touches (on mobile) keystrokes, page navigation, page source, page ID and error messages. These cookies are provided by third parties and will be used for troubleshooting purposes, customer support or to improve the performance and design of the website. Some cookies are used to generate research surveys and other methods of gaining insight from you and may be targeted. Participation is optional. If you do not allow these cookies, you will experience less surveys and limit our ability to optimize your experience.Personalization Cookies Personalization Cookies Our website uses cookies to offer you a personalized experience. If you choose to accept these cookies, we (or our 3rd party partners) may collect and share data about your actions on our site. To learn more or update your preferences, click 'Cookie Settings'—also available anytime at the bottom of the page.Back ButtonCookie List Search IconFilter IconClear checkbox label labelApply CancelConsent Leg.Interest checkbox label label checkbox label label checkbox label labelEssential Cookies Only Confirm My Choices
