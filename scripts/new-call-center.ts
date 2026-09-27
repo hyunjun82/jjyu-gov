@@ -451,7 +451,7 @@ const HW_WEEK = (() => {
    칸이 없으니 평일 시간만 쓰고 "이 시간을 벗어나면 연결이 안 됩니다" 가 나가 토요일 상담이 없는 것처럼 읽혔다.
    hours.saturday 에 원문 그대로 적으면 문장 속 운영시간에 이어 붙인다. */
 /* hoursText 는 "토요일 : " 을 라벨로 보고 벗긴다 — 벗겨지면 요일을 다시 붙인다 */
-const SAT = C.hours.saturday ? ((t: string) => (/토/.test(t) ? t : `토요일 ${t}`))(hoursText(C.hours.saturday)) : '';
+const SAT = C.hours.saturday ? ((t: string) => (/토|주말/.test(t) ? t : `토요일 ${t}`))(hoursText(C.hours.saturday)) : '';
 const HW = SAT ? `${HW_WEEK}, ${SAT}` : HW_WEEK;
 /* 상담시간을 아예 안 적는 회사가 있다 (카디프생명·증권사 13곳).
    시각이 하나도 없으면 "이 시간을 벗어나면" 같은 말이 성립하지 않는다.
@@ -585,7 +585,7 @@ const CARD_FACTS = [
 /* 방문 접수 시간을 따로 적어 둔 회사가 있다 (2026-09-03 한화생명 대출 — 평일 09:00 ~ 15:30). */
 const VISIT = C.hours.visit ? hoursText(C.hours.visit) : '';
 const NIGHT_FACTS = [
-  ...(C.hours.saturday ? [`    '토요일': '${q(C.hours.saturday)}',`] : []),
+  ...(C.hours.saturday ? [`    '${/주말/.test(C.hours.saturday) ? '주말' : '토요일'}': '${q(C.hours.saturday)}',`] : []),
   ...(C.hours.night ? [`    '야간': '${q(C.hours.night)}',`] : []),
   ...(C.hours.holiday ? [`    '공휴일': '${q(C.hours.holiday)}',`] : []),
   ...(VISIT ? [`    '방문 접수': '${q(C.hours.visit)}',`] : []),

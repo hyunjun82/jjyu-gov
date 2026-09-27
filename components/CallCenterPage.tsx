@@ -113,7 +113,8 @@ export function isOpenAt(hours: { weekday: string; saturday?: string }, now: Dat
   /* 요일 말이 하나도 없는 시간("상담원 : 08:00∼20:00" 코레일)은 주말에 여는지 원문이 말하지 않는다.
      평일로 가정해 "상담 시간 종료" 라고 단정하지 않는다 — 모르면 판정하지 않는다. */
   if (!hours.saturday && !/평일|영업일|월|금|토|일|주말|휴무|휴일|제외/.test(hours.weekday)) return null;
-  const sat = d === 6 && hours.saturday ? parseWeekdayHours(hours.saturday) : null;
+  /* '주말·공휴일 09시~18시' 처럼 주말로 적힌 곳(2026-09-27 120빛고을콜센터)은 일요일도 그 시간으로 본다 */
+  const sat = (d === 6 || (d === 0 && /주말/.test(hours.saturday ?? ''))) && hours.saturday ? parseWeekdayHours(hours.saturday) : null;
   return sat ? h >= sat.from && h < sat.to : false;
 }
 
@@ -260,7 +261,7 @@ export default function CallCenterPage({
      검색은 많이 되는 말이라 넣고 싶지만, 없는 걸 지어내면 그 순간 이 글은 못 쓴다. */
   const hourRows = [
     ...(noHours ? [] : [{ k: weekdayWord ? '평일 상담' : '상담시간', v: cc.hours.weekday }]),
-    ...(cc.hours.saturday ? [{ k: '토요일 상담', v: cc.hours.saturday }] : []),
+    ...(cc.hours.saturday ? [{ k: /주말/.test(cc.hours.saturday) ? '주말 상담' : '토요일 상담', v: cc.hours.saturday }] : []),
     ...(cc.hours.night ? [{ k: '평일 야간', v: cc.hours.night }] : []),
     ...(cc.hours.holiday ? [{ k: '공휴일', v: cc.hours.holiday }] : []),
     ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
@@ -752,7 +753,7 @@ export default function CallCenterPage({
                   { k: `${W} 이름`, v: cc.name },
                   { k: cc.main.label, v: cc.main.tel },
                   ...(noHours ? [] : [{ k: `${weekdayWord}상담시간`, v: cc.hours.weekday }]),
-                  ...(cc.hours.saturday ? [{ k: '토요일 상담시간', v: cc.hours.saturday }] : []),
+                  ...(cc.hours.saturday ? [{ k: /주말/.test(cc.hours.saturday) ? '주말 상담시간' : '토요일 상담시간', v: cc.hours.saturday }] : []),
                   /* 점심시간을 적어 둔 회사가 있다 (푸본현대·KB라이프·우체국보험).
                      그 시간에 걸면 연결이 안 되니 표에도 넣는다. */
                   ...(cc.hours.lunch ? [{ k: '점심시간', v: cc.hours.lunch }] : []),
