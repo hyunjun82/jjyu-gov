@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'booknlife', role: 'eligibility', title: '북앤라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cultureland', role: 'eligibility', title: '컬쳐랜드 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'goi-funeral', role: 'eligibility', title: '고이장례연구소 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'yesarang-life', role: 'eligibility', title: '굿포유 예사랑라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },

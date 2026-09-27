@@ -1,0 +1,31 @@
+{
+  "slug": "booknlife",
+  "name": "북앤라이프",
+  "aliases": ["도서문화상품권", "페이즈북앤라이프", "(주)페이즈북앤라이프", "북앤라이프 캐시", "booknlife"],
+  "industry": "online",
+  "variant": "giftcard",
+  "brandColor": "#E3007F",
+  "official": "https://www.booknlife.com",
+  "sourceUrl": "https://www.booknlife.com/customerCenter/",
+  "sourceName": "북앤라이프 고객센터",
+  "extraSources": [
+    { "name": "북앤라이프 공식 홈페이지", "url": "https://www.booknlife.com/main/" }
+  ],
+  "verifiedAt": "2026-09-27",
+  "corp": "(주)페이즈북앤라이프",
+  "hq": "서울특별시 성동구 성수이로10길 14, 1304호, 1305호 (성수동2가, 에이스 하이엔드 성수타워)",
+  "main": { "label": "고객센터", "tel": "1544-5111" },
+  "hours": {
+    "weekday": "평일 09:30 ~ 18:00",
+    "holiday": "주말 및 공휴일은 온라인문의를 이용해주세요",
+    "lunch": "점심시간 12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-09-27] booknlife.com/customerCenter/ '고객센터 1544-5111 / 평일 09:30 ~ 18:00 (점심시간 12:00 ~ 13:00) / Fax. 02-461-3443 / 주말 및 공휴일은 온라인문의를 이용해주세요', 이용문의 메뉴: 서비스 이용문의·상품권·캐시 문의·상품권 훼손문의·상품권 사용확인·캐시 환불신청·모바일상품권 재발송. 홈 푸터 같은 번호·시간 + '제휴·가맹, 상품권 구매 문의 booknlife@paysservice.com'. 회사 '(주)페이즈북앤라이프 … 서울특별시 성동구 성수이로10길 14, 1304호, 1305호 (성수동2가, 에이스 하이엔드 성수타워)'. 공지 '[9/23~9/27] 2026년 추석 연휴 휴무 안내' 는 기간 한정이라 쓰지 않음. 로고색 logo svg 유채색 최빈(자홍).",
+  "notice": "주말과 공휴일에는 전화 대신 홈페이지 온라인문의를 이용해 달라고 안내돼 있습니다.",
+  "jobs": "도서문화상품권·북앤라이프 캐시 이용 문의",
+  "heroSalt": "c",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "고객센터", "tel": "1544-5111", "note": "평일 09:30 ~ 18:00" }
+  ]
+}

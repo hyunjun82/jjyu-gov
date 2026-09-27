@@ -1,0 +1,437 @@
+SLUG: booknlife-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/booknlife-call-center-*.png)
+
+===== [1] https://www.booknlife.com/customerCenter/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/booknlife-call-center-1.png
+CHARS: 1260
+
+로그인회원가입법인몰
+캐시충전캐시교환상품권·캐시사용구매e쿠폰이벤트고객센터
+회원님의 접속 IP주소 121.124.185.30
+고객센터
+
+북앤라이프 고객센터입니다. 무엇을 도와드릴까요?
+
+추천검색어계정잠금비밀번호변경로그인오류재발송
+자주하는 질문
+TOP 8	상품권	캐시	사용처	e쿠폰	회원정보	이벤트	장애/오류
+상품권 발송
+
+모바일 도서문화상품권 재발송 받을 수 있나요?
+
+휴면/블랙회원
+
+휴면계정 복구는 어떻게 해야 하나요?
+
+상품권 교환
+
+기프티콘,카카오톡, 기프티쇼,아이넘버 쿠폰은 어디서 교환하나요?
+
+보안설정
+
+캐시 안전잠금은 어떻게 해제할 수 있나요?
+
+상품권 잔액확인
+
+사용된 도서문화상품권인지, 잔액이 얼마인지 알 수 있나요?
+
+상품권 교환
+
+상품권 교환소에서 교환된 북앤라이프 캐시는 어디서 확인할 수 있나요?
+
+상품권 번호확인
+
+지류 도서문화상품권 PIN번호가 잘 보이지 않아요.
+
+e쿠폰 발송
+
+구매한 쿠폰은 재발송이 가능한가요?
+
+이용문의
+온라인상담
+
+서비스 이용문의
+
+나의 문의내역
+
+상품권·캐시 문의
+
+상품권 훼손문의
+
+상품권 사용확인
+
+캐시 환불신청
+
+모바일상품권 재발송
+현대이지웰
+
+고객센터
+1544-5111
+
+평일 09:30 ~ 18:00 (점심시간 12:00 ~ 13:00)
+
+Fax. 02-461-3443
+
+주말 및 공휴일은 온라인문의를 이용해주세요
+도서문화상품권
+활용가이드캐시
+활용가이드상품권
+선물방법
+공지사항
+공지[중요] 특정 특수문자 포함 비밀번호 이용 고객 대상 변경 안내2026.07.31
+공지[필수 조치] 개인정보 보호를 위한 비밀번호 변경 안내2025.12.03
+공지[9/23~9/27] 2026년 추석 연휴 휴무 안내2026.09.15
+서비스점검[9/13] KT 휴대폰 결제 서비스 작업 안내2026.09.09
+서비스점검[9월] 은행사 점검 안내2026.09.07
+회사소개이용약관개인정보처리방침인재채용	
+(주)페이즈북앤라이프
+
+대표이사 : 전우정
+서울특별시 성동구 성수이로10길 14, 1304호, 1305호
+(성수동2가, 에이스 하이엔드 성수타워)
+사업자등록번호 288-86-02320    통신판매업신고번호 제 2021-서울성동-02767호
+개인정보보호 책임자 : 김영환
+
+Copyright © Pay’s booknlife. All rights reserved.
+
+고객센터
+
+1544-5111
+
+온라인문의
+평일 09:30 ~ 18:00 (점심시간 12:00 ~ 13:00)Fax. 02-461-3443
+제휴·가맹, 상품권 구매 문의booknlife@paysservice.com
+계열사 전체보기서비스 전체보기
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+도서문화상품권간편결제;삼성페이4% 추가적립간편충전4% 추가적립휴대폰결제신용카드충전할 상품권을 선택해주세요!지류·온라인·모바일<img alt="상품권 이미지" src="/_next/static/media/charge01.814ad060.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>아이넘버<img alt="아이넘버 바코드" src="/_next/static/media/charge02.f17543ff.svg" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>카카오톡<img alt="카카오톡 바코드" src="/_next/static/media/charge03.3e3f6bd2.svg" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>기프티콘<img alt="기프티콘 바코드" src="/_next/static/media/charge04.f0877305.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>기프티쇼<img alt="기프티쇼 바코드" src="/_next/static/media/charge05.e452505f.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>
+
+상품권을북앤라이프 캐시로 충전아이넘버카카오톡기프티콘기프티쇼포인트를북앤라이프 캐시로 충전교통카드티머니스마터치북앤라이프 캐시를포인트로 교환Npay해피포인트북앤라이프 캐시 ⇄ 포인트 교환OK캐쉬백
+
+사용처 조회사용처를 검색해 보세요사용할 캐시, 상품권의 종류를 선택해주세요.북앤라이프캐시지류도서문화상품권온라인도서문화상품권모바일도서문화상품권<img alt="npay 로고" src="/_next/static/media/logo_npay_new.8d0a7975.png" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>북앤라이프 캐시를Npay 포인트로 사용<img alt="해피포인트 로고" src="/_next/static/media/happy.11035ec7.png" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>북앤라이프 캐시를해피포인트로 사용
+
+모바일 도서문화상품권 구매·선물하기<img alt="" src="/assets/images/topguide_img@2x.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>
+
+공지사항자주하는 질문이용가이드상품권 사용방법캐시 사용방법선물하는 방법문의서비스 이용문의상품권·캐시 문의- 상품권 사용확인- 상품권 훼손문의- 모바일상품권 재발송- 캐시 환불신청고객센터1544-5111평일 09:30 ~ 18:00 (점심시간 12:00 ~ 13:00)Fax. 02-461-3443주말 및 공휴일은온라인문의를 이용해주세요
+
+아이넘버 라이트아이넘버 고객센터패밀리바우처페이즈기프트페이즈 통합교환소북앤라이프 도서문화상품권북앤라이프 법인몰
+
+
+===== [2] https://www.booknlife.com/main/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/booknlife-call-center-2.png
+CHARS: 1784
+
+Previous
+ Next
+2 / 5
+오늘 하루 그만보기	닫기
+로그인회원가입법인몰
+캐시충전캐시교환상품권·캐시사용구매e쿠폰이벤트고객센터
+ Previous
+ Next
+2 / 12
+ Previous
+간편결제_4% 추가적립(9월)
+북앤라이프캐시로 모빌카드 충전하면 충전수수료 7.9%
+코나아이 도서문화상품권 요금제
+티플러스 알뜰폰 가입 이벤트
+ Next
+PIN번호로
+캐시충전
+상품권으로
+캐시충전
+캐시충전
+사용처 조회
+상품권 선물
+상품권 사용확인
+상품권 훼손문의
+ Previous
+도서문화상품권・캐시
+사용가이드
+생일, 축하 선물로
+도서문화상품권 선물하기
+ Next
+e쿠폰
+
+인기 브랜드의
+모바일쿠폰을 만나보세요
+
+전체보기
+카페치킨/피자버거/디저트외식/뷔페생활/문화디지털/게임
+
+메가MGC커피
+
+컴포즈커피
+
+이디야커피
+
+공차
+
+더벤티
+
+디저트39
+
+바나프레소
+
+엔제리너스
+
+매머드익스프레스
+
+하삼동커피
+
+사용처
+전체보기
+캐시
+지류 도서문화상품권
+모바일 도서문화상품권
+온라인 도서문화상품권
+ Previous
+
+아파트아이
+
+영풍문고
+
+현대 Hmall
+
+GS SHOP
+
+롯데홈쇼핑
+
+윈조이게임
+
+마일벌스
+
+모바일팝
+
+Spoon(스푼)
+
+카카오페이지
+
+Pay's APP
+
+모빌카드
+
+마일캐시
+
+넥슨
+
+Npay
+
+댐댐
+
+SOOP
+
+한게임
+
+NC
+
+달콘
+
+기프트밸류
+
+피망
+
+카카오웹툰
+
+SSGPAY
+
+채비
+
+리그오브레전드
+
+넷마블
+
+CGV
+
+L.POINT
+
+블리자드
+
+포인트로페이
+
+해피포인트
+
+메타클럽
+
+발로란트
+
+기프트플레이
+
+모아페이
+
+해피페이카드
+
+팔라고
+
+웰컴페이
+
+핏콜라보(TV포인트)
+
+아파트아이
+
+영풍문고
+
+현대 Hmall
+
+GS SHOP
+
+롯데홈쇼핑
+
+윈조이게임
+
+마일벌스
+
+모바일팝
+
+Spoon(스푼)
+
+카카오페이지
+
+Pay's APP
+
+모빌카드
+
+마일캐시
+
+넥슨
+
+Npay
+
+댐댐
+
+SOOP
+
+한게임
+
+NC
+
+달콘
+
+기프트밸류
+
+피망
+
+카카오웹툰
+
+SSGPAY
+
+채비
+
+리그오브레전드
+
+넷마블
+
+CGV
+
+L.POINT
+
+블리자드
+
+포인트로페이
+
+해피포인트
+
+메타클럽
+
+발로란트
+
+기프트플레이
+
+모아페이
+
+해피페이카드
+
+팔라고
+
+웰컴페이
+
+핏콜라보(TV포인트)
+
+아파트아이
+
+영풍문고
+
+현대 Hmall
+
+GS SHOP
+
+롯데홈쇼핑
+
+윈조이게임
+
+마일벌스
+
+모바일팝
+
+Spoon(스푼)
+
+카카오페이지
+
+ Next
+간편결제 어디서든 캐시 충전 시 4% 추가 적립!
+
+충전하면 즉시 4%추가 적립해 드립니다.
+
+더보기
+공지사항	전체보기
+공지
+
+[중요] 특정 특수문자 포함 비밀번호 이용 고객 대상 변경 안내
+
+공지
+
+[필수 조치] 개인정보 보호를 위한 비밀번호 변경 안내
+
+공지
+
+[9/23~9/27] 2026년 추석 연휴 휴무 안내
+
+서비스점검
+
+[9/13] KT 휴대폰 결제 서비스 작업 안내
+
+서비스점검
+
+[9월] 은행사 점검 안내
+
+북앤라이프 앱에서
+
+더 쉽고 간편하게 다양한 혜택을 만나보세요!
+
+기업전용 상품권 대량발송	북앤라이프 법인몰
+회사소개이용약관개인정보처리방침인재채용	
+(주)페이즈북앤라이프
+
+대표이사 : 전우정
+서울특별시 성동구 성수이로10길 14, 1304호, 1305호
+(성수동2가, 에이스 하이엔드 성수타워)
+사업자등록번호 288-86-02320    통신판매업신고번호 제 2021-서울성동-02767호
+개인정보보호 책임자 : 김영환
+
+Copyright © Pay’s booknlife. All rights reserved.
+
+고객센터
+
+1544-5111
+
+온라인문의
+평일 09:30 ~ 18:00 (점심시간 12:00 ~ 13:00)Fax. 02-461-3443
+제휴·가맹, 상품권 구매 문의booknlife@paysservice.com
+계열사 전체보기서비스 전체보기
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+도서문화상품권간편결제;삼성페이4% 추가적립간편충전4% 추가적립휴대폰결제신용카드충전할 상품권을 선택해주세요!지류·온라인·모바일<img alt="상품권 이미지" src="/_next/static/media/charge01.814ad060.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>아이넘버<img alt="아이넘버 바코드" src="/_next/static/media/charge02.f17543ff.svg" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>카카오톡<img alt="카카오톡 바코드" src="/_next/static/media/charge03.3e3f6bd2.svg" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>기프티콘<img alt="기프티콘 바코드" src="/_next/static/media/charge04.f0877305.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>기프티쇼<img alt="기프티쇼 바코드" src="/_next/static/media/charge05.e452505f.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>
+
+상품권을북앤라이프 캐시로 충전아이넘버카카오톡기프티콘기프티쇼포인트를북앤라이프 캐시로 충전교통카드티머니스마터치북앤라이프 캐시를포인트로 교환Npay해피포인트북앤라이프 캐시 ⇄ 포인트 교환OK캐쉬백
+
+사용처 조회사용처를 검색해 보세요사용할 캐시, 상품권의 종류를 선택해주세요.북앤라이프캐시지류도서문화상품권온라인도서문화상품권모바일도서문화상품권<img alt="npay 로고" src="/_next/static/media/logo_npay_new.8d0a7975.png" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>북앤라이프 캐시를Npay 포인트로 사용<img alt="해피포인트 로고" src="/_next/static/media/happy.11035ec7.png" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>북앤라이프 캐시를해피포인트로 사용
+
+모바일 도서문화상품권 구매·선물하기<img alt="" src="/assets/images/topguide_img@2x.png" decoding="async" data-nimg="fixed" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"/>
+
+공지사항자주하는 질문이용가이드상품권 사용방법캐시 사용방법선물하는 방법문의서비스 이용문의상품권·캐시 문의- 상품권 사용확인- 상품권 훼손문의- 모바일상품권 재발송- 캐시 환불신청고객센터1544-5111평일 09:30 ~ 18:00 (점심시간 12:00 ~ 13:00)Fax. 02-461-3443주말 및 공휴일은온라인문의를 이용해주세요
+
+아이넘버 라이트아이넘버 고객센터패밀리바우처페이즈기프트페이즈 통합교환소북앤라이프 도서문화상품권북앤라이프 법인몰
