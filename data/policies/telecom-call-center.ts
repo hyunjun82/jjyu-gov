@@ -126,6 +126,7 @@ export const telecomCallCenterPolicy = {
 };
 
 export const telecomCallCenterSpokes = [
+  { slug: 'skylife', role: 'eligibility', title: '스카이라이프 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'toss-mobile', role: 'eligibility', title: '토스모바일 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'skt', role: 'eligibility', title: 'SK텔레콤 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
   { slug: 'sk-telink', role: 'eligibility', title: 'SK텔링크 고객센터 전화번호 및 상담원 연결·개통 문의 안내' },
