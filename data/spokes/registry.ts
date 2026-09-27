@@ -2167,6 +2167,7 @@ import { hapdongParcelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { cupostCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cupost';
 import { gsPostboxCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/gs-postbox';
 import { epostParcelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/epost-parcel';
+import { dhlCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/dhl';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2478,6 +2479,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'dhl': dhlCallCenterSpokeContent,
     'epost-parcel': epostParcelCallCenterSpokeContent,
     'gs-postbox': gsPostboxCallCenterSpokeContent,
     'cupost': cupostCallCenterSpokeContent,

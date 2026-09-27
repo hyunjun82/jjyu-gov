@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'dhl', role: 'eligibility', title: 'DHL 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'epost-parcel', role: 'eligibility', title: '우체국택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'gs-postbox', role: 'eligibility', title: 'GS25편의점택배 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'cupost', role: 'eligibility', title: 'CU편의점택배 고객센터 전화번호 및 상담원 연결·문의 안내' },

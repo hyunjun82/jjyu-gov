@@ -1,0 +1,573 @@
+SLUG: dhl-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/dhl-call-center-*.png)
+
+===== [1] https://mydhl.express.dhl/kr/ko/help-and-support.html#/contact_us =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/dhl-call-center-1.png
+CHARS: 1145
+
+English  한국어
+도움말 및 지원
+서비스포인트 찾기
+ 
+홈	발송	조회
+	
+가입하기
+	
+로그인
+ 
+도움말 및 지원
+발송 도움말
+	
+통관 지원 서비스
+	
+FAQ
+	
+고객 서비스
+	이메일로 문의하기
+무엇을 도와드릴까요?
+배송조회
+	
+일반 문의
+다른 부서 이메일주소 확인하기 
+	
+사기 주의
+DHL 브랜드 사칭을 발견하시면 신고해 주세요.
+	
+긴급여권 특급배송 서비스
+	
+	채팅 상담
+DHL 챗봇이 항시 대기 중입니다!
+채팅 시작하기
+	전화로 문의하기
+일반 문의
+1588-0001 (국내에서 거실 때)
++82-2-1588-0001 (해외에서 거실 때)
+
+픽업 예약, 배송 조회 등의 문의를 할 수 있습니다.
+
+일반 배송 문의
+월 – 금  08:30 – 18:30
+토  09:00 – 16:00
+공휴일  제외
+일  휴무
+
+실시간 채팅
+월–금  08:30 – 17:30
+공휴일: 제외
+
+간단한 배송 조회는 DHL 홈페이지 또는 카카오 고객센터 채널에서 24시간 챗봇을 통해 확인하실 수 있습니다.
+
+부서별 연락처 
+	
+	휴무일
+공휴일 안내
+신정
+	
+1월 1
+
+설날
+	
+2월 16-18
+
+삼일절
+	
+3월 1
+
+삼일절 대체공휴일
+	
+3월 2
+
+근로자의 날
+	
+5월 1
+공휴일
+펼치기 
+DHL 본사 
+고객 지원
+도움말 및 지원
+FAQ
+고객 서비스
+서비스포인트 찾기
+	
+법적 고지
+이용약관
+환불보증
+개인정보 처리방침
+	
+알림
+사기 주의
+중요 정보
+	
+DHL 소개
+언론
+채용정보
+법적 고지
+DHL 팔로우하기   	동의 설정	2026 © DHL Group - All rights reserved
+이 웹사이트는 쿠키 및 이와 유사한 기술(이하 "기술")을 사용합니다. 예를 들어, 쿠키를 통해 인터넷 페이지를 방문하는 빈도, 방문자 수를 파악하고, 최대한의 편의성과 효율성을 제공하는 환경을 구축할 수 있습니다. 또한, 이는 당사의 마케팅 활동 지원의 일환입니다. 이 기술은 적정 수준의 데이터 보호가 이루어 지지 않는 국가(예: 미국)에 기반을 둔 제3자 제공업체에 대한 데이터 전송을 통합할 수 있습니다. 제3자 제공업체의 데이터 처리 및 사용자의 동의를 언제든지 철회할 수 있는 내용 등을 담고 있는 추가 정보를 보려면 '동의 기본 설정 관리' 및 다음 링크에서 설정을 확인하십시오. 개인정보 처리 방침법적 고지
+동의 설정
+엄격하게 필요한 경우에만
+모두 수락
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+홈 발송 지금 시작하기 운송장 작성 요금산출 하기 픽업 예약 알아보기 DHL 서비스 부가 서비스 통관 서비스 추가 서비스 요금 배송 솔루션 MyDHL+ 알아보기 MyDHL+ 자세히 보기 MyDHL+ 새로운 기능 조회 간편 조회 운송장이나 임시 ID 번호가 필요합니다 조회 운송장 번호 또는 참조번호로 화물을 조회하고, 배송상태 알림을 받으세요. 발송 이력 조회가 필요하십니까? MyDHL+에 지금 바로 등록하세요! | 홈 | 발송 지금 시작하기 운송장 작성 요금산출 하기 픽업 예약 알아보기 DHL 서비스 부가 서비스 통관 서비스 추가 서비스 요금 배송 솔루션 MyDHL+ 알아보기 MyDHL+ 자세히 보기 MyDHL+ 새로운 기능 | 조회 간편 조회 운송장이나 임시 ID 번호가 필요합니다 조회 운송장 번호 또는 참조번호로 화물을 조회하고, 배송상태 알림을 받으세요. 발송 이력 조회가 필요하십니까? MyDHL+에 지금 바로 등록하세요! | 가입하기 로그인 | 가입하기 | 로그인
+홈 | 발송 지금 시작하기 운송장 작성 요금산출 하기 픽업 예약 알아보기 DHL 서비스 부가 서비스 통관 서비스 추가 서비스 요금 배송 솔루션 MyDHL+ 알아보기 MyDHL+ 자세히 보기 MyDHL+ 새로운 기능 | 조회 간편 조회 운송장이나 임시 ID 번호가 필요합니다 조회 운송장 번호 또는 참조번호로 화물을 조회하고, 배송상태 알림을 받으세요. 발송 이력 조회가 필요하십니까? MyDHL+에 지금 바로 등록하세요!
+가입하기 | 로그인
+
+[표 2]
+홈 | 발송 지금 시작하기 운송장 작성 요금산출 하기 픽업 예약 알아보기 DHL 서비스 부가 서비스 통관 서비스 추가 서비스 요금 배송 솔루션 MyDHL+ 알아보기 MyDHL+ 자세히 보기 MyDHL+ 새로운 기능 | 조회 간편 조회 운송장이나 임시 ID 번호가 필요합니다 조회 운송장 번호 또는 참조번호로 화물을 조회하고, 배송상태 알림을 받으세요. 발송 이력 조회가 필요하십니까? MyDHL+에 지금 바로 등록하세요!
+
+[표 3]
+가입하기 | 로그인
+
+[표 5]
+발송 도움말 | 발송 도움말 | 통관 지원 서비스 | 통관 지원 서비스 | FAQ | FAQ | 고객 서비스 | 고객 서비스
+발송 도움말
+통관 지원 서비스
+FAQ
+고객 서비스
+
+[표 6]
+발송 도움말
+
+[표 7]
+통관 지원 서비스
+
+[표 8]
+FAQ
+
+[표 9]
+고객 서비스
+
+[표 10]
+배송조회 | 일반 문의
+
+[표 11]
+사기 주의 DHL 브랜드 사칭을 발견하시면 신고해 주세요.
+
+[표 12]
+긴급여권 특급배송 서비스
+
+[표 13]
+신정 | 1월 1
+설날 | 2월 16-18
+삼일절 | 3월 1
+삼일절 대체공휴일 | 3월 2
+근로자의 날 | 5월 1
+
+[표 14]
+어린이날 | 5월 5
+석가탄신일 | 5월 24
+석가탄신일 대체공휴일 | 5월 25
+현충일 | 6월 6
+제헌절 | 7월 17
+광복절 | 8월 15
+광복절 대체공휴일 | 8월 17
+추석 | 9월 24-26
+개천절 | 10월 3
+개천절 대체공휴일 | 10월 5
+한글날 | 10월 9
+크리스마스 | 12월 25
+
+[표 15]
+고객 지원 도움말 및 지원 FAQ 고객 서비스 서비스포인트 찾기 법적 고지 이용약관 환불보증 개인정보 처리방침 알림 사기 주의 중요 정보 | DHL 소개 언론 채용정보 법적 고지
+
+[표 16]
+DHL 팔로우하기 | 동의 설정 | 2026 © DHL Group - All rights reserved
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+var isCorpNavDisplayed = window.localStorage.ewfIsCorpNavDisplayed;
+ if (typeof isCorpNavDisplayed === 'undefined' || isCorpNavDisplayed === 'false') {
+ document.getElementById('corp-nav-container').className = 'is-hidden';
+ }
+
+간편링크
+ 요금산출 하기
+ 배송 조회
+ DHL 서비스
+
+https://mydhl.express.dhl/kr/ko/help-and-support.html#/contact_us
+
+발송 품목 가이드
+ 발송 금지 및 제한 품목에 대한 가이드를 확인해보세요.
+ 포장 시 유의사항
+ 안전한 배송을 위해 발송 물품에 가장 적합한 포장 방법과 관련 팁을 알아보세요!
+ 물품의 여정
+ 고객님의 물품이 DHL 네트워크를 통해 어떻게 이동하는지 단계별로 확인해보세요.
+ 통관 서류 가이드
+ 물품 발송 시 필요한 서류를 확인해보세요
+MyDHL+ 가이드 & 팁
+ MyDHL+ 사용가이드
+ 반품 및 환급 절차
+
+통관 절차
+ 복잡한 통관업무, DHL이 신속하고 정확하게 처리할 수 있도록 도와드립니다.
+ 관부가세
+ 국경을 오가는 물품을 운반할 때 발생하는 관부가세에 대해 자세히 알려드립니다.
+ 통관 프로세스
+ 고객님께서 작성한 물품 정보와 DHL의 최적화된 프로세스가 신속한 통관에 얼마나 중요한 역할을 하는지 알아보세요.
+ 무역조건
+ 국제 무역의 표준이 되는 인코텀스® 규정 및 통관 요구조건에 대해 자세히 알려드립니다.
+ 세관 규정 업데이트
+ 최신 세관 규정 업데이트를 놓치지 마세요
+
+온라인 발송
+ 픽업
+ 조회및모니터링
+ 관부가세
+ 반송 운송장
+ 지불 및 청구
+ 고객번호 보호
+
+청구 관련 문의
+온라인 솔루션 기술 지원
+통관 관련 문의 (개인고객)
+통관 관련 문의 (기업고객)
+
+청구 관련 문의
+02-3275-4321
+평일 08:30 – 17:30
+주말/공휴일 휴무
+온라인 솔루션 기술 지원
+평일 09:00 – 18:00
+주말/공휴일 휴무
+통관 관련 문의
+DHL Express 챗봇
+평일 0900 – 1700
+주말/공휴일 휴무
+Apple 운송물 배송 관련 문의
+1588-0132
+평일 9:00 – 18:00, 주말/공휴일 휴무
+
+온라인 배송 솔루션 기술지원
+ 복잡한 전화 상담 대신 온라인으로 기술 지원을 요청하거나 직접 관련 도움말을 찾아볼 수 있습니다
+ ECASE
+
+어린이날
+5월 5
+석가탄신일
+5월 24
+석가탄신일 대체공휴일
+5월 25
+현충일
+6월 6
+제헌절
+7월 17
+광복절
+8월 15
+광복절 대체공휴일
+8월 17
+추석
+9월 24-26
+개천절
+10월 3
+개천절 대체공휴일
+10월 5
+한글날
+10월 9
+크리스마스
+12월 25
+
+주식회사 디에이치엘코리아 대표자 한지헌
+서울특별시 마포구 백범로28길 22 (일양빌딩 신관)  04151
+사업자등록번호: 105-86-19360
+
+개인 정보 환경설정 센터이 웹사이트는 쿠키 및 이와 유사한 기술(이하 "기술")을 사용합니다. 예를 들어, 쿠키를 통해 인터넷 페이지를 방문하는 빈도, 방문자 수를 파악하고, 최대한의 편의성과 효율성을 제공하는 환경을 구축할 수 있습니다. 또한, 이는 당사의 마케팅 활동 지원의 일환입니다. 이 기술은 적정 수준의 데이터 보호가 이루어 지지 않는 국가(예: 미국)에 기반을 둔 제3자 제공업체에 대한 데이터 전송을 통합할 수 있습니다. 제3자 제공업체의 데이터 처리 및 사용자의 동의를 언제든지 철회할 수 있는 내용 등을 담고 있는 추가 정보를 보려면 '동의 기본 설정 관리' 및 다음 링크에서 설정을 확인하십시오. 
+ 개인정보 처리 방침법적 고지모두 수락동의 기본 설정 관리반드시 필요한 기술항상 활성화이 기술은 웹사이트가 올바르게 작동하고 비활성화되지 않도록 하기 위해 사용됩니다.세부사항‎성능 기술 성능 기술 이 기술은 사용된 인터넷 브라우저 및 운영 체제, 당사 사이트에 액세스한 웹사이트의 도메인 이름, 방문 횟수, 사이트에서 보낸 평균 시간 및 조회한 페이지와 같은 당사 웹사이트가 사용되는 방식에 대한 정보를 수집하는 데 사용됩니다.세부사항‎기능적 기술 기능적 기술 이 웹사이트에서는 이 기술을 통해 사용자가 선택한 사항을 기억하여 보다 개인 맞춤화된 기능을 제공하게 됩니다.
+ 예를 들어, 추적 가능한 응용 프로그램을 사용 시, 이 기술을 통해 사용자가 입력한 마지막 추적 번호를 기억하고 저장해 둘 수 있습니다.
+ 이 기술을 통해 수집된 정보는 익명으로 처리될 수 있으며, 타 웹사이트에서는 사용자의 검색 활동을 추적할 수 없습니다.
+세부사항‎분석 정보 기술 분석 정보 기술 웹사이트와 콘텐츠의 품질을 개선하고 파트너사의 삽입된 서비스가 제대로 작동할 수 있도록 분석 정보 기술을 사용합니다.세부사항‎Bing 기술 Bing 기술 위치 찾기에 사용된 Bing 매핑 데이터가 정확하고 완전하게 표시되도록 Bing 기술을 사용합니다. 이 기술을 수락할 경우에만, 위치 찾기의 지도가 표시됩니다.세부사항‎유튜브 기술 유튜브 기술 유튜브 기술은 사용자가 삽입된 유튜브 동영상을 재생하는 웹페이지를 호출할 때 사용됩니다.
+ Youtube.com은 동영상 업로드 및 공유 서비스를 제공하는 구글 소유의 플랫폼입니다.
+ Youtube.com은 웹사이트 방문자에게 타켓 광고를 게시하기 위해 다른 구글 서비스의 데이터와 통합된 삽입된 동영상을 통해 사용자 데이터를 수집합니다.
+세부사항‎Google Maps Google Maps We use Google technologies to ensure that the Google mapping data used in the location finder is displayed correctly and completely. These technologies may incorporate data transfers in countries without an adequate level of data protection. The map in the location finder cannot be displayed unless you accept these technologies.세부사항‎Back Button쿠키 목록 Search IconFilter IconClear checkbox label labelApply CancelConsent Leg.Interest checkbox label label checkbox label label checkbox label label 선택 사항 확인
+
+
+===== [2] https://mydhl.express.dhl/kr/en/help-and-support.html#/contact_us =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/dhl-call-center-2.png
+CHARS: 2319
+
+English  한국어
+Help and Support
+Find a location
+ 
+Home	Ship	Track
+	
+Register
+	
+Login
+ 
+Help and Support
+Shipping Advice
+	
+Customs Clearance Advice
+	
+FAQs
+	
+Contact Us
+	Email Us
+How Can We Help?
+Tracking
+	
+Customer Service
+More Email Options 
+	
+Fraud Awareness
+Recognize and report fraudulent use of the DHL brand.
+	
+Need a passport quickly?
+	
+	Chat With Us
+Our Digital Assistant is available 24/7 to answer your questions.
+Chat Now!
+	Call Us
+Customer Service
+1588-0001 (within Korea)
++82-2-1588-0001 (overseas)
+
+Questions and support for shipment status, delivery and courier pickups.
+
+General Query
+Mon – Fri: 08:30 – 18:30
+Sat: 09:00 – 16:00
+Holiday: Closed
+Sun: Closed
+
+Live Chat
+Mon – Fri 08:30 – 17:30
+Holidays: Closed
+
+Our digital assistant, homepage, DHL Kakao Customer Service channel is available 24/7 to track your shipments.
+
+More Call Options 
+	
+	Holiday Hours
+We're closed on these holidays.
+New Year's Day
+	
+Jan 1
+
+Korean New Year's Day
+	
+Feb 16-18
+
+Independence Movement Day
+	
+Mar 1
+
+Substitute Holiday
+	
+Mar 2
+
+Labor Day
+	
+May 1
+Show More 
+Holidays
+DHL Office 
+CONTACT AND SUPPORT
+Help and Support
+FAQs
+Contact Us
+Find a location
+	
+LEGAL
+Terms and Conditions
+Money-Back Guarantee
+Privacy Policy
+	
+ALERTS
+Fraud Awareness
+Important Information
+	
+About DHL
+Press
+Careers
+Legal Notice
+FOLLOW US   	Consent Settings	2026 © DHL Group - All rights reserved
+Consent to data collection and transfer
+By clicking "Accept all", you agree that this website may use the technologies selected by you and also store and read data on your terminal device. These technologies enable individualised analyses of visits to and the use of our website in order to offer the best possible online experience and to tailor content or functions to respective preferences and interests. This also includes the creation of profiles to enable us to make our services as user-friendly and audience-oriented as possible, as well as improve our marketing activities.  Furthermore, you agree that the aforementioned technologies may transfer data to third-party providers located in countries without an adequate level of data protection. For more information and the option to revoke your consent or change settings at any time, please see "Consent settings". Privacy noticeLegal Notice
+Consent Settings
+Strictly Necessary Only
+Accept All
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+Home Ship Get Started Now Create a Shipment Get a Rate and Time Quote Schedule a Pickup Explore Delivery Services Optional Services Customs Services Surcharges Solutions MyDHL+ Learn About MyDHL+ What’s New with MyDHL+ Track QUICK TRACKING Waybill or Temporary ID number required Track Track shipments by number or reference, get status notifications and obtain proof of delivery. Want to keep track of shipment history? Register for MyDHL+ today! | Home | Ship Get Started Now Create a Shipment Get a Rate and Time Quote Schedule a Pickup Explore Delivery Services Optional Services Customs Services Surcharges Solutions MyDHL+ Learn About MyDHL+ What’s New with MyDHL+ | Track QUICK TRACKING Waybill or Temporary ID number required Track Track shipments by number or reference, get status notifications and obtain proof of delivery. Want to keep track of shipment history? Register for MyDHL+ today! | Register Login | Register | Login
+Home | Ship Get Started Now Create a Shipment Get a Rate and Time Quote Schedule a Pickup Explore Delivery Services Optional Services Customs Services Surcharges Solutions MyDHL+ Learn About MyDHL+ What’s New with MyDHL+ | Track QUICK TRACKING Waybill or Temporary ID number required Track Track shipments by number or reference, get status notifications and obtain proof of delivery. Want to keep track of shipment history? Register for MyDHL+ today!
+Register | Login
+
+[표 2]
+Home | Ship Get Started Now Create a Shipment Get a Rate and Time Quote Schedule a Pickup Explore Delivery Services Optional Services Customs Services Surcharges Solutions MyDHL+ Learn About MyDHL+ What’s New with MyDHL+ | Track QUICK TRACKING Waybill or Temporary ID number required Track Track shipments by number or reference, get status notifications and obtain proof of delivery. Want to keep track of shipment history? Register for MyDHL+ today!
+
+[표 3]
+Register | Login
+
+[표 5]
+Shipping Advice | Shipping Advice | Customs Clearance Advice | Customs Clearance Advice | FAQs | FAQs | Contact Us | Contact Us
+Shipping Advice
+Customs Clearance Advice
+FAQs
+Contact Us
+
+[표 6]
+Shipping Advice
+
+[표 7]
+Customs Clearance Advice
+
+[표 8]
+FAQs
+
+[표 9]
+Contact Us
+
+[표 10]
+Tracking | Customer Service
+
+[표 11]
+Fraud Awareness Recognize and report fraudulent use of the DHL brand.
+
+[표 12]
+Need a passport quickly?
+
+[표 13]
+New Year's Day | Jan 1
+Korean New Year's Day | Feb 16-18
+Independence Movement Day | Mar 1
+Substitute Holiday | Mar 2
+Labor Day | May 1
+
+[표 14]
+Children's Day | May 5
+Buddha's Birthday | May 24
+Substitute Holiday | May 25
+Memorial Day | Jun 6
+Constitution Day | Jul 17
+Liberation Day | Aug 15
+Substitute Holiday | Aug 17
+Korean Thanksgiving Day | Sep 24-26
+National Foundation Day | Oct 3
+Substitute Holiday | Oct 5
+Hangul Proclamation Day | Oct 9
+Christmas | Dec 25
+
+[표 15]
+CONTACT AND SUPPORT Help and Support FAQs Contact Us Find a location LEGAL Terms and Conditions Money-Back Guarantee Privacy Policy ALERTS Fraud Awareness Important Information | About DHL Press Careers Legal Notice
+
+[표 16]
+Follow Us | Consent Settings | 2026 © DHL Group - All rights reserved
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+var isCorpNavDisplayed = window.localStorage.ewfIsCorpNavDisplayed;
+ if (typeof isCorpNavDisplayed === 'undefined' || isCorpNavDisplayed === 'false') {
+ document.getElementById('corp-nav-container').className = 'is-hidden';
+ }
+
+Quick Links
+ Get a Rate and Time Quote
+ Track Your Shipments
+ Delivery Services
+
+https://mydhl.express.dhl/kr/en/help-and-support.html#/contact_us
+
+My VIP Care and Support Center
+ KART
+
+What Can I Ship?
+ View guidelines and restrictions about the items you want to ship to and from various countries.
+ Packing with Care
+ Pack your shipments for the journey. Follow our packing advice and tips and your shipment recipients will thank you!
+ The Journey of a Package
+ Watch how your package travels with DHL and learn how we can help you with each step of the journey.
+ What Documents Do I Need?
+ Get information and advice about the documents needed to accompany your shipment.
+MyDHL+ Guides and Tips
+ Helpful guides and tips for using MyDHL+
+ Return and Refund
+
+The Customs Process
+ Find out how DHL Express fits into the wider picture of the customs clearance process.
+ Duties and Taxes
+ Get tips to understanding duties and taxes when transporting goods across international borders.
+ Customs Clearance
+ Understand how our optimized processes and your shipment details play a critical role in the  speedy clearance process.
+ Terms of Trade
+ Understanding Incoterms® rules – standardized trade terms for international trading.
+ Customs Regulatory Updates
+ Stay up-to-date on important customs regulations.
+
+Shipping Online
+ Courier Pickups
+ Tracking and Monitoring
+ Duties and Taxes
+ Return Shipments
+ Payment and Billing
+ Account Protection
+
+Billing and Invoicing
+Technical Support for Online Shipping Tools
+Custom Clearance (Individual Customer)
+Custom Clearance (Corporate Customer)
+
+Billing and Invoicing
++82 2 3275-4321
+Mon – Fri: 0830 – 1730
+Sat, Sun, PH: Closed
+Technical Support for Online Shipping Tools
+Mon – Fri: 0900 – 1800
+Sat, Sun, PH: Closed
+Custom Clearance
+DHL Express Digital Assistant
+Mon – Fri: 0900 – 1700
+Sat, Sun, PH: Closed
+APPLE Shipment Delivery
++82 1588-0132
+Mon – Fri: 0900 – 1800
+Sat, Sun, PH: Closed
+
+Technical support online shipping solutions
+ No need to call. You can simply raise a request to our technical support team, use online chat or look through our self-help articles.
+ ECASE
+
+Children's Day
+May 5
+Buddha's Birthday
+May 24
+Substitute Holiday
+May 25
+Memorial Day
+Jun 6
+Constitution Day
+Jul 17
+Liberation Day
+Aug 15
+Substitute Holiday
+Aug 17
+Korean Thanksgiving Day
+Sep 24-26
+National Foundation Day
+Oct 3
+Substitute Holiday
+Oct 5
+Hangul Proclamation Day
+Oct 9
+Christmas
+Dec 25
+
+DHL Express Korea, representative JiHun Han
+299 Dongmak-ro, Mapo-gu
+Seoul, Korea
+04151
+Business Registration Number: 105-86-19360
+
+Get Technical Support
+No need to call us. You can easily open a ticket to get technical support. One of our expert agents will respond to your inquiry promptly!
+ CSS
+
+Consent to data collection and transfer By clicking "Accept all", you agree that this website may use the selected Technologies as well as store and read data on your terminal device. The Technologies enable individualized measurement and evaluation to be carried out during visits to and use of our website to offer the best possible online experience and to tailor content or functions to corresponding preferences and interests. This includes the creation of profiles to provide our services as user-friendly and audience oriented as possible, as well as supporting our marketing activities. 
+Furthermore you agree that the Technologies may transfer data to third-party providers located in countries without an adequate level of data protection. For more information, the option to revoke your consent or to change settings at any time, please see "Consent settings". 
+ Privacy NoticeLegal NoticeAccept All Manage Consent PreferencesStrictly Necessary TechnologiesAlways ActiveThese technologies are used to ensure that our website operates correctly and they cannot be deactivated.Details‎Performance Technologies Performance Technologies These technologies collect information about the way our website is used, such as the Internet browser and operating system used, domain name of the website from which you accessed our site, number of visits, average time spent on the site and pages viewed.Details‎Functional Technologies Functional Technologies These technologies allow the website to remember choices you make and provide enhanced, more personal features. For example, these technologies can be used to remember and store the last tracking number that you entered when using a tracking application. Information these technologies collect may be anonymized and they cannot track your browsing activity on other websites.Details‎Analytics Technologies Analytics Technologies We use analytics technologies to improve the quality of our website and its content, and to ensure that our partners’ embedded services work properly. Details‎Bing Technologies Bing Technologies We use Bing technologies to ensure that the Bing mapping data used in the location finder is displayed correctly and completely. The map in the location finder cannot be displayed unless you accept these technologies.Details‎YouTube Technologies YouTube Technologies YouTube technologies are used when users call up web pages that play embedded YouTube videos. Youtube.com is a Google-owned video hosting and sharing platform. Youtube.com collects user data through embedded videos, which is aggregated with data from other Google services in order to display targeted advertising to website visitors.Details‎Google Maps Technologies Google Maps Technologies We use Google technologies to ensure that the Google mapping data used in the location finder is displayed correctly and completely. These technologies may incorporate data transfers in countries without an adequate level of data protection. The map in the location finder cannot be displayed unless you accept these technologies.Details‎Back ButtonCookie List Search IconFilter IconClear checkbox label labelApply CancelConsent Leg.Interest checkbox label label checkbox label label checkbox label label Confirm Selection

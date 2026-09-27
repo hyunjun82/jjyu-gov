@@ -1,0 +1,30 @@
+{
+  "slug": "dhl",
+  "name": "DHL",
+  "aliases": ["DHL 익스프레스", "DHL 코리아", "DHL Express Korea", "디에이치엘", "DHL 국제특송", "MyDHL+"],
+  "industry": "online",
+  "variant": "parcel",
+  "brandColor": "#D40511",
+  "official": "https://mydhl.express.dhl/kr/ko/home.html",
+  "sourceUrl": "https://mydhl.express.dhl/kr/ko/help-and-support.html#/contact_us",
+  "sourceName": "DHL 익스프레스 고객 서비스",
+  "extraSources": [
+    { "name": "DHL Express Korea Contact Us (영문)", "url": "https://mydhl.express.dhl/kr/en/help-and-support.html#/contact_us" }
+  ],
+  "verifiedAt": "2026-09-27",
+  "corp": "DHL 익스프레스",
+  "main": { "label": "일반 문의", "tel": "1588-0001" },
+  "hours": {
+    "weekday": "월 – 금 08:30 – 18:30",
+    "saturday": "토 09:00 – 16:00",
+    "holiday": "공휴일 제외"
+  },
+  "hoursNote": "[2026-09-27] dhl.com 고객 서비스 > 연락처 찾기 > DHL Express 가 mydhl.express.dhl 로 넘어간다. 한국어판 '전화로 문의하기 일반 문의 1588-0001 (국내에서 거실 때) +82-2-1588-0001 (해외에서 거실 때) 픽업 예약, 배송 조회 등의 문의를 할 수 있습니다. 일반 배송 문의 월 – 금 08:30 – 18:30 토 09:00 – 16:00 공휴일 제외 일 휴무 / 실시간 채팅 월–금 08:30 – 17:30 공휴일: 제외 / 간단한 배송 조회는 DHL 홈페이지 또는 카카오 고객센터 채널에서 24시간 챗봇을 통해 확인하실 수 있습니다.' 영문판 'Customer Service 1588-0001 (within Korea) +82-2-1588-0001 (overseas) … General Query Mon – Fri: 08:30 – 18:30 Sat: 09:00 – 16:00 Holiday: Closed Sun: Closed' 번호·시간 일치. 원문 공백은 NBSP(비교 시 공백으로 눌림). '일 휴무' 는 holiday 칸에 넣으면 '일 휴무로 적혀' 가 돼 notice 로 옮겼다. 본사 주소는 원문에 없어 비웠다. 로고색 상단 로고 png 유채색 최빈(빨강).",
+  "notice": "일요일은 휴무이고, 간단한 배송 조회는 DHL 홈페이지나 카카오 고객센터 채널의 24시간 챗봇으로 할 수 있다고 안내돼 있습니다.",
+  "jobsSentence": "픽업 예약, 배송 조회 같은 문의를 받는 번호이고, 해외에서 걸 때는 +82-2-1588-0001로 안내돼 있습니다.",
+  "heroSalt": "a",
+  "ars": { "day": [], "night": [] },
+  "numbers": [
+    { "label": "일반 문의", "tel": "1588-0001", "note": "월–금 08:30–18:30, 토 09:00–16:00" }
+  ]
+}
