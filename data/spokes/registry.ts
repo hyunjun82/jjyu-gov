@@ -2097,6 +2097,7 @@ import { kumhoLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conte
 import { jkLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/jk-life';
 import { sanlimLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sanlim-life';
 import { pyeonghwaNuriCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/pyeonghwa-nuri';
+import { ujeonglifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ujeonglife';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2387,6 +2388,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'ujeonglife': ujeonglifeCallCenterSpokeContent,
     'pyeonghwa-nuri': pyeonghwaNuriCallCenterSpokeContent,
     'sanlim-life': sanlimLifeCallCenterSpokeContent,
     'jk-life': jkLifeCallCenterSpokeContent,

@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'ujeonglife', role: 'eligibility', title: '우정라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'pyeonghwa-nuri', role: 'eligibility', title: '평화누리 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'sanlim-life', role: 'eligibility', title: '산림조합라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'jk-life', role: 'eligibility', title: 'JK라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
