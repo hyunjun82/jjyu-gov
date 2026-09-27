@@ -2102,6 +2102,7 @@ import { christianSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]
 import { bohoonSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/bohoon-sangjo';
 import { onyouSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/onyou-sangjo';
 import { btnBulguktoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/btn-bulgukto';
+import { wooritourCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/wooritour';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2392,6 +2393,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'wooritour': wooritourCallCenterSpokeContent,
     'btn-bulgukto': btnBulguktoCallCenterSpokeContent,
     'onyou-sangjo': onyouSangjoCallCenterSpokeContent,
     'bohoon-sangjo': bohoonSangjoCallCenterSpokeContent,
