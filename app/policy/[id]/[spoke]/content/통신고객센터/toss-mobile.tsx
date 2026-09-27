@@ -51,7 +51,7 @@ export const tossMobileCallCenterSpokeContent: SpokeData = {
     {
       q: '토스모바일 고객센터 전화번호 몇 번인가요?', anchor: 'q1',
       intro:
-        '대표번호는 1660-1114입니다. 개통, 명의변경, 요금 조회, 분실 정지까지 이 번호 하나로 들어갑니다. 가입한 휴대폰에서 114로 걸면 무료이고, 1660-1114로 걸면 유료입니다. 2026-09-27 기준 공식 안내에 올라와 있는 번호는 아래 2개입니다.',
+        '대표번호는 1660-1114입니다. 요금 문의, 부가서비스 신청·해지, 장기 일시정지 신청까지 이 번호 하나로 들어갑니다. 가입한 휴대폰에서 114로 걸면 무료이고, 1660-1114로 걸면 유료입니다. 2026-09-27 기준 공식 안내에 올라와 있는 번호는 아래 2개입니다.',
       highlights: ['1660-1114', '대표번호'],
       table: {
         headers: ['구분', '번호', '비고'],
@@ -143,6 +143,8 @@ export const tossMobileCallCenterSpokeContent: SpokeData = {
     { name: '토스모바일 점심시간 상담업무 휴무 공지', url: 'https://tossmobile.co.kr/faq/9' },
     { name: '토스모바일 자주 묻는 질문(부가서비스 신청)', url: 'https://tossmobile.co.kr/faq/114' },
     { name: '토스모바일 공지(이용자 상담 접수 연락처)', url: 'https://tossmobile.co.kr/faq/130' },
+    { name: '토스모바일 자주 묻는 질문(요금 청구)', url: 'https://tossmobile.co.kr/faq/90' },
+    { name: '토스모바일 자주 묻는 질문(장기 일시정지)', url: 'https://tossmobile.co.kr/faq/98' },
     { name: '토스모바일 공식 홈페이지', url: OFFICIAL },
   ],
 

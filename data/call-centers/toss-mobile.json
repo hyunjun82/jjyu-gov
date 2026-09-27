@@ -1,21 +1,46 @@
 {
   "slug": "toss-mobile",
   "name": "토스모바일",
-  "aliases": ["토스 알뜰폰", "토스모바일(주)", "toss mobile", "구 마이월드"],
+  "aliases": [
+    "토스 알뜰폰",
+    "토스모바일(주)",
+    "toss mobile",
+    "구 마이월드"
+  ],
   "industry": "telecom",
   "brandColor": "#0169FE",
   "official": "https://tossmobile.co.kr",
   "sourceUrl": "https://tossmobile.co.kr/faq/23",
   "sourceName": "토스모바일 고객센터 운영시간 안내",
   "extraSources": [
-    { "name": "토스모바일 점심시간 상담업무 휴무 공지", "url": "https://tossmobile.co.kr/faq/9" },
-    { "name": "토스모바일 자주 묻는 질문(부가서비스 신청)", "url": "https://tossmobile.co.kr/faq/114" },
-    { "name": "토스모바일 공지(이용자 상담 접수 연락처)", "url": "https://tossmobile.co.kr/faq/130" }
+    {
+      "name": "토스모바일 점심시간 상담업무 휴무 공지",
+      "url": "https://tossmobile.co.kr/faq/9"
+    },
+    {
+      "name": "토스모바일 자주 묻는 질문(부가서비스 신청)",
+      "url": "https://tossmobile.co.kr/faq/114"
+    },
+    {
+      "name": "토스모바일 공지(이용자 상담 접수 연락처)",
+      "url": "https://tossmobile.co.kr/faq/130"
+    },
+    {
+      "name": "토스모바일 자주 묻는 질문(요금 청구)",
+      "url": "https://tossmobile.co.kr/faq/90"
+    },
+    {
+      "name": "토스모바일 자주 묻는 질문(장기 일시정지)",
+      "url": "https://tossmobile.co.kr/faq/98"
+    }
   ],
   "verifiedAt": "2026-09-27",
   "corp": "토스모바일(주)",
   "hq": "서울특별시 금천구 가산디지털1로 145 에이스하이엔드타워 3차 19층 1904호",
-  "main": { "label": "고객센터", "tel": "1660-1114" },
+  "main": {
+    "label": "고객센터",
+    "tel": "1660-1114"
+  },
   "hours": {
     "weekday": "평일 오전 09시 ~ 오후 06시",
     "holiday": "주말 및 공휴일 미운영",
@@ -23,10 +48,22 @@
   },
   "hoursNote": "[2026-09-27] tossmobile.co.kr 푸터 '고객센터: 1660-1114'. 공지 /faq/23(2025-08-01 채팅 상담 시간 변경) '고객센터 운영시간 전화 09:00~18:00 채팅 09:00~18:00 (주말 및 공휴일 미운영)'. /faq/114 '토스모바일 고객센터 : 평일 오전 09시 ~ 오후 06시'. /faq/9(2026 점심시간 휴무) '평일 점심시간 (12:00~13:00)에는 분실접수(ARS)를 제외한 모든 민원 상담업무 처리가 중단됩니다.' /faq/130 '고객센터 [ 휴대폰 114(무료) , 1660-1114(유료) ]'. 교차: 알뜰폰허브(KAIT) 브랜드 5041 'SKT·KT·LGU+ 1660-1114 (운영시간 : 평일 09:00~18:00 (점심시간12:00~13:00))' 일치. 토스(toss) 글에는 '모바일·요금제 문의 1660-1114' 로 부가번호로만 있다(대표번호 아님). 로고색은 로고 심볼 파랑 구간 가중평균.",
   "numbersIntro": "가입한 휴대폰에서 114로 걸면 무료이고, 1660-1114로 걸면 유료입니다.",
+  "jobs": "요금 문의, 부가서비스 신청·해지, 장기 일시정지 신청",
   "heroSalt": "a",
-  "ars": { "day": [], "night": [] },
+  "ars": {
+    "day": [],
+    "night": []
+  },
   "numbers": [
-    { "label": "고객센터", "tel": "1660-1114", "note": "유료" },
-    { "label": "가입한 휴대폰에서", "tel": "114", "note": "무료" }
+    {
+      "label": "고객센터",
+      "tel": "1660-1114",
+      "note": "유료"
+    },
+    {
+      "label": "가입한 휴대폰에서",
+      "tel": "114",
+      "note": "무료"
+    }
   ]
 }
