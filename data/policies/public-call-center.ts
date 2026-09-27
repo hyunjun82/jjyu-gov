@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'daegu120', role: 'eligibility', title: '대구시청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'busan120', role: 'eligibility', title: '부산시청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'kepco123', role: 'eligibility', title: '한국전력공사 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'g2b', role: 'eligibility', title: '조달청 나라장터 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
