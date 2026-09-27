@@ -144,7 +144,7 @@ export const smartelCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "smartel",
     "name": "스마텔",
-    "brandColor": "#730108",
+    "brandColor": "#E6000E",
     "official": "https://www.smartel.kr",
     "sourceUrl": "https://www.smartel.kr/",
     "sourceName": "스마텔 공식 홈페이지 고객센터 안내",
