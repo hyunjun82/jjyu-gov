@@ -585,7 +585,7 @@ const CARD_FACTS = [
 /* 방문 접수 시간을 따로 적어 둔 회사가 있다 (2026-09-03 한화생명 대출 — 평일 09:00 ~ 15:30). */
 const VISIT = C.hours.visit ? hoursText(C.hours.visit) : '';
 const NIGHT_FACTS = [
-  ...(C.hours.saturday ? [`    '${/주말/.test(C.hours.saturday) ? '주말' : '토요일'}': '${q(C.hours.saturday)}',`] : []),
+  ...(C.hours.saturday ? [`    '${/주말|토,\s*일|토·일|일요일/.test(C.hours.saturday) ? '주말' : '토요일'}': '${q(C.hours.saturday)}',`] : []),
   ...(C.hours.night ? [`    '야간': '${q(C.hours.night)}',`] : []),
   ...(C.hours.holiday ? [`    '공휴일': '${q(C.hours.holiday)}',`] : []),
   ...(VISIT ? [`    '방문 접수': '${q(C.hours.visit)}',`] : []),
