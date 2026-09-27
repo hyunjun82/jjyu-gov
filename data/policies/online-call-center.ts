@@ -126,6 +126,7 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'sejong-life', role: 'eligibility', title: '세종라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'samwoolife', role: 'eligibility', title: '삼우라이프 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'sda-leaders-life', role: 'eligibility', title: '삼육리더스상조 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'dana-sangjo', role: 'eligibility', title: '다나상조 고객센터 전화번호 및 상담원 연결·문의 안내' },

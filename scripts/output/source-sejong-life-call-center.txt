@@ -1,0 +1,51 @@
+SLUG: sejong-life-call-center
+RECEIVED: 2026-09-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/sejong-life-call-center-*.png)
+
+===== [1] http://www.sjlife.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/sejong-life-call-center-1.png
+CHARS: 510
+
+인트라넷 가기
+처음으로
+로그인
+온라인 가입신청
+사이트맵
+상품소개서비스고객센터회사소개
+대전 서구 둔산중로32번길 25
+확대
+축소
+초기화
+길찾기
+대표 인사말	LIFE 장례
+LIFE 웨딩	LIFE 골프
+LIFE 크루즈	전국지점안내
+오시는 길	
+가입문의 / 기타상담    1588-7969    (평일: 09:00 ~ 17:00)
+회사소개
+인증서
+홈페이지 이용약관
+개인정보취급방침
+이메일무단수집거부
+중요정보고시
+회원약관
+인트라넷
+세종라이프|주|    대표: 이종흥    사업자등록번호: 206-86-03026    대표번호 : 1588-7969    팩스 : 042-622-2829
+본사: 대전광역시 서구 둔산중로 32번길 25, 영광빌딩 4층(둔산동)
+서울: 서울특별시 관악구 인헌길 15, 규남빌딩 2층(봉천동 1644-1)
+이메일 : hasscie@hanmail.net    개인정보책임관리자 : 이종흥
+Copyright (c) 세종라이프(주). All rights reserved.
+
+Hosting by 뮤즈웍스
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+대표 인사말 | LIFE 장례
+LIFE 웨딩 | LIFE 골프
+LIFE 크루즈 | 전국지점안내
+오시는 길
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+LIFE 장례LIFE 웨딩LIFE 크루즈LIFE 골프서비스특징행사진행절차전국지점안내온라인 가입신청가입정보변경신청자료실가입내역조회대표 인사말회사개요브랜드소개연혁인증서조직도오시는 길

@@ -2110,6 +2110,7 @@ import { utopiaFutureCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/co
 import { danaSangjoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/dana-sangjo';
 import { sdaLeadersLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sda-leaders-life';
 import { samwoolifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/samwoolife';
+import { sejongLifeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sejong-life';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2400,6 +2401,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'sejong-life': sejongLifeCallCenterSpokeContent,
     'samwoolife': samwoolifeCallCenterSpokeContent,
     'sda-leaders-life': sdaLeadersLifeCallCenterSpokeContent,
     'dana-sangjo': danaSangjoCallCenterSpokeContent,
