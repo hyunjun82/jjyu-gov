@@ -136,7 +136,7 @@ export const skylifeCallCenterSpokeContent: SpokeData = {
   callCenter: {
     "slug": "skylife",
     "name": "스카이라이프",
-    "brandColor": "#04D25C",
+    "brandColor": "#05D25C",
     "official": "https://www.skylife.co.kr",
     "sourceUrl": "https://www.skylife.co.kr/Main",
     "sourceName": "스카이라이프 공식 온라인샵 고객센터 안내",
