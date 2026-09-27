@@ -131,6 +131,7 @@ export const publicCallCenterPolicy = {
 };
 
 export const publicCallCenterSpokes = [
+  { slug: 'sejong120', role: 'eligibility', title: '세종시청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'jeju120', role: 'eligibility', title: '제주도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'gyeonggi120', role: 'eligibility', title: '경기도청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
   { slug: 'ulsan120', role: 'eligibility', title: '울산시청 고객센터 전화번호 및 상담직원 연결·업무시간 안내' },
