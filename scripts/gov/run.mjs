@@ -37,7 +37,9 @@ const flag = (k, d) => { const i = argv.indexOf(`--${k}`); return i > 0 ? argv[i
 const FROM = flag('from', 'collect');
 const TO = flag('to', 'check');
 const ONLY = flag('only', '');
-const MODEL = flag('model', 'opus');
+// 사장님 지정 (2026-09-28): Opus 5.5 · effort high. 별칭('opus')은 새 모델이 나오면 조용히 바뀌어 정식 이름으로 못박는다
+const MODEL = flag('model', 'claude-opus-5-5');
+const EFFORT = flag('effort', 'high');
 const STEPS = ['collect', 'facts', 'write', 'check'];
 const run = (s) => STEPS.indexOf(s) >= STEPS.indexOf(FROM) && STEPS.indexOf(s) <= STEPS.indexOf(TO);
 // 한국 시간 — UTC 로 자르면 오전 9시 전 실행분이 하루 전 날짜로 찍힌다 (2026-09-24 독감 허브가 09-23 으로 나옴)
@@ -51,7 +53,9 @@ function parseBlock(text) {
   const one = (k) => lines.find((l) => l.startsWith(`${k}:`))?.slice(k.length + 1).trim();
   const many = (k) => lines.filter((l) => l.startsWith(`${k}:`)).map((l) => l.slice(k.length + 1).trim());
   return { hub: one('hub'), dir: one('dir'), slug: one('slug'), cat: one('cat'), catSlug: one('catSlug'), role: one('role'),
-    title: one('title'), subs: many('sub'), sources: many('source'), buttons: many('button') };
+    title: one('title'), subs: many('sub'), sources: many('source'), buttons: many('button'),
+    // 리라이트 — 옛 글의 파일·export 이름(target.mjs), 허브 type
+    fileName: one('file'), exportName: one('export'), type: one('type') };
 }
 const blocks = fs.readFileSync(specFile, 'utf8').split(/^---\s*$/m).map(parseBlock);
 const head = blocks[0];
@@ -111,8 +115,8 @@ async function runOne(a) {
   const t0 = Date.now();
   const log = (s, m) => console.log(`[${((Date.now() - t0) / 60000).toFixed(1)}분] ${s.padEnd(7)} ${m}`);
   const call = async (prompt, label, tools = []) => {
-    log(label, `모델 호출 (${MODEL}, 지시문 ${(prompt.length / 1000).toFixed(0)}k자)`);
-    const r = await ask(prompt, { model: MODEL, tools, label, timeoutMs: 30 * 60 * 1000, cwd: OUTSIDE, addDirs: tools.includes('Read') ? [ABS_DIR] : [] });
+    log(label, `모델 호출 (${MODEL} · ${EFFORT}, 지시문 ${(prompt.length / 1000).toFixed(0)}k자)`);
+    const r = await ask(prompt, { model: MODEL, effort: EFFORT, tools, label, timeoutMs: 30 * 60 * 1000, cwd: OUTSIDE, addDirs: tools.includes('Read') ? [ABS_DIR] : [] });
     addUsage(meter, r.usage, label);
     return r.text;
   };
@@ -218,7 +222,18 @@ ${JSON.stringify(wrong, null, 2)}
   const writeTarget = (code) => {
     const fenced = String(code).match(/```(?:ts|typescript|tsx)?\s*\n([\s\S]*?)```/);
     fs.mkdirSync(path.dirname(t.file), { recursive: true });
-    fs.writeFileSync(t.file, (fenced ? fenced[1] : String(code)).trimEnd() + '\n');
+    let body = (fenced ? fenced[1] : String(code)).trimEnd() + '\n';
+    /* 리라이트(파일이 이미 있음) — 최초 발행일은 그대로, 허브의 스포크 목록은 옛 파일 것을 살린다.
+       지시문이 허브에 빈 Spokes 배열을 쓰게 해서, 그대로 두면 옛 스포크가 허브 목록에서 전부 빠진다 (2026-09-28) */
+    if (fs.existsSync(t.file)) {
+      const old = fs.readFileSync(t.file, 'utf8');
+      const pub = old.match(/datePublished:\s*'([^']+)'/);
+      if (pub) body = body.replace(/datePublished:\s*'[^']+'/, `datePublished: '${pub[1]}'`);
+      const spokesRe = /(export const \w+Spokes[^=]*=\s*\[)([\s\S]*?)(\n?\];)/;
+      const oldSpokes = old.match(spokesRe);
+      if (t.kind === 'hub' && oldSpokes && oldSpokes[2].trim()) body = body.replace(spokesRe, (_, a) => `${a}${oldSpokes[2]}\n];`);
+    }
+    fs.writeFileSync(t.file, body);
     if (t.kind === 'spoke') { wireSpoke(t, { title: a.title, role: a.role || 'guide' }); return; }
     const EXPORT = a.slug.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase()) + 'Policy';
     const mf = 'data/policies/manifest.ts';
@@ -242,7 +257,7 @@ ${JSON.stringify(wrong, null, 2)}
 
 고정값
 - export 이름: ${EXPORT} (그리고 빈 배열 ${EXPORT.replace(/Policy$/, 'Spokes')})
-- id: '${id}', slug: '${a.slug}', cat: '${a.cat}', catSlug: '${a.catSlug}', type: 'service'
+- id: '${id}', slug: '${a.slug}', cat: '${a.cat}', catSlug: '${a.catSlug}', type: '${a.type || 'service'}'
 - title: '${a.title}'  ← 글자 그대로
 - qa 4개의 q = 아래 소제목 글자 그대로, 순서 그대로
 ${a.subs.map((s, i) => `  ${i + 1}. ${s}`).join('\n')}
@@ -337,7 +352,7 @@ ${fs.readFileSync(t.file, 'utf8')}
   const v = verifyFacts(KEY);
   const url = t.kind === 'spoke' ? `https://gov.jjyu.co.kr/policy/${a.hub}/${a.slug}` : `https://gov.jjyu.co.kr/policy/${a.slug}`;
   const rep = [`# ${res.errors.length ? '❌' : '✅'} ${a.title}`, '',
-    `- ${t.kind === 'spoke' ? `스포크 (허브 ${a.hub})` : '허브'} · 파일: ${t.file} · 모델: ${MODEL} · ${((Date.now() - t0) / 60000).toFixed(1)}분 · ${fmtUsage(meter)}`,
+    `- ${t.kind === 'spoke' ? `스포크 (허브 ${a.hub})` : '허브'} · 파일: ${t.file} · 모델: ${MODEL} · effort ${EFFORT} · ${((Date.now() - t0) / 60000).toFixed(1)}분 · ${fmtUsage(meter)}`,
     `- 주소: ${url}`, '',
     `## 글 대조 (코드) — ${res.errors.length ? `❌ ${res.errors.length}건` : `✅ 숫자 ${res.numbers}종 전부 facts 에 있음`}`, ...res.errors.map((e) => `- ${e}`), '',
     '## 합격 시험 (일부러 넣은 오차를 검사기가 잡는가)', '```', selfTest.trim(), '```', '',

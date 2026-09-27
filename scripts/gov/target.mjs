@@ -20,12 +20,15 @@ export const fileNameOf = (slug) => {
   return /^\d/.test(s) ? `N${s}` : s;
 };
 
-export function targetOf({ hub, dir, slug }) {
+/* file:·export: — 옛 글을 리라이트할 때 기존 파일·export 이름을 그대로 쓴다 (2026-09-28 신생아 특례대출).
+   영문 slug 옛 스포크는 파일이 documents.tsx·export 가 …준비서류SpokeContent 처럼 규칙과 달라,
+   규칙대로 만들면 새 파일이 따로 생기거나(중복 글) 대소문자만 다른 이름으로 덮여 빌드가 깨진다. */
+export function targetOf({ hub, dir, slug, fileName: fn, exportName: en }) {
   if (!hub) return { kind: 'hub', key: slug, slug, file: path.join('data', 'policies', `${slug}.ts`) };
-  const fileName = fileNameOf(slug);
+  const fileName = fn || fileNameOf(slug);
   return {
     kind: 'spoke', key: keyOf({ hub, slug }), slug, hub, dir, fileName,
-    exportName: `${dir}${fileName}SpokeContent`,
+    exportName: en || `${dir}${fileName}SpokeContent`,
     file: path.join(CONTENT_DIR, dir, `${fileName}.tsx`),
   };
 }

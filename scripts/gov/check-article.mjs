@@ -152,7 +152,10 @@ export function readerStrings(src) {
     // highlights 는 본문 문장 안의 형광펜 조각이다 — 따로 읽히는 문장이 아니고, 본문에서 이미 검사된다
     .replace(/highlights:\s*\[[^\]]*\]/g, '')
     .replace(/\b(sourceNote|source|sourceUrl|url|href|applyUrl2?|datePublished|dateModified|verifiedAt|slug|catSlug|id|type):\s*(\w+|'(?:[^'\\]|\\.)*')/g, '')
-    .replace(/sources:\s*\[[\s\S]*?\n\s{2}\],/g, '');
+    .replace(/sources:\s*\[[\s\S]*?\n\s{2}\],/g, '')
+    // 허브의 스포크 목록은 다른 글의 제목·요약 색인이다 — 각 스포크가 따로 검사받는다. 여기서 보면 옛 허브 리라이트 때
+    //   고침 단계가 다른 글 제목을 바꿔 검사를 통과하려 했다 (2026-09-28 신생아 특례대출)
+    .replace(/export const \w+Spokes[^=]*=\s*\[[\s\S]*?\n\];/g, '');
   // 한 줄에 있는 문자열은 묶는다 — 표 한 행 ['팩스', '02-…'] 을 칸마다 떼어 보면 '팩스'가 없다고 오탐한다
   return body.split('\n')
     .map((line) => [...line.matchAll(/'((?:[^'\\]|\\.)*)'/g)].map((m) => m[1].replace(/\\'/g, "'")).join(' · '))

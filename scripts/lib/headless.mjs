@@ -80,12 +80,12 @@ export function fmtUsage(u) {
  */
 export async function ask(prompt, opt = {}) {
   assertSubscriptionOnly();
-  const { tools = [], timeoutMs = 25 * 60 * 1000, label = "ask", logDir, expect, tag, cwd, addDirs = [] } = opt;
+  const { tools = [], timeoutMs = 25 * 60 * 1000, label = "ask", logDir, expect, tag, cwd, addDirs = [], effort } = opt;
   const candidates = [opt.model ?? process.env.ARTICLE_MODEL ?? "sonnet"];
   let lastErr = null;
   for (let i = 0; i < candidates.length; i++) {
     try {
-      return await askOnce(prompt, { tools, model: candidates[i], timeoutMs, label: i ? `${label}-${candidates[i]}` : label, logDir, expect, tag, cwd, addDirs });
+      return await askOnce(prompt, { tools, model: candidates[i], effort, timeoutMs, label: i ? `${label}-${candidates[i]}` : label, logDir, expect, tag, cwd, addDirs });
     } catch (e) {
       lastErr = e;
       const msg = String(e.message);
@@ -93,6 +93,8 @@ export async function ask(prompt, opt = {}) {
         throw new Error(`구독 사용 한도에 닿았습니다 (${label}). 창이 풀린 뒤 같은 명령을 다시 실행하세요 — 끝난 단계는 파일로 남아 이어서 돕니다.\n${msg.slice(0, 600)}`);
       }
       if (/does not support this model|is required|unknown model|not found.*model|invalid model/i.test(msg)) {
+        // 모델을 지정했으면 다른 모델로 몰래 바꾸지 않는다 — 실패로 알린다 (2026-09-28 사장님: Opus 5.5 high 고정)
+        if (opt.model) throw new Error(`지정한 모델 '${opt.model}' 로 호출하지 못했습니다 (${label}):\n${msg.slice(0, 600)}`);
         for (const m of ["sonnet", "opus"]) if (!candidates.includes(m)) { candidates.push(m); break; }
         console.log(`  ↻ ${label}: 모델 문제 — ${candidates[i + 1] ? `${candidates[i + 1]} 로 다시 시도` : "대체 모델 없음"}`);
         continue;
@@ -109,7 +111,7 @@ export async function ask(prompt, opt = {}) {
   throw lastErr;
 }
 
-function askOnce(prompt, { tools, model, timeoutMs, label, logDir, expect, tag, cwd, addDirs = [] }) {
+function askOnce(prompt, { tools, model, effort, timeoutMs, label, logDir, expect, tag, cwd, addDirs = [] }) {
   return new Promise((resolve, reject) => {
     const env = { ...process.env };
     for (const v of NEST_VARS) delete env[v];
@@ -117,6 +119,8 @@ function askOnce(prompt, { tools, model, timeoutMs, label, logDir, expect, tag, 
     // JSON 을 인자로 넘기면 Windows 셸이 따옴표를 먹는다 → 빈 설정 파일 경로를 준다
     const args = ["-p", "--output-format", "json", "--strict-mcp-config", "--mcp-config", emptyMcpConfig()];
     if (model) args.push("--model", model);
+    // effort 도 못박는다 — 비우면 Claude Code 기본값(xhigh)을 물려받아 작성 한 번이 10분을 넘었다 (2026-09-28)
+    if (effort) args.push("--effort", effort);
     if (tools.length) args.push("--allowedTools", tools.join(","));
     // cwd: 저장소 밖에서 부르면 이 저장소의 CLAUDE.md·메모리(옛 규칙)가 딸려 오지 않는다 (scripts/gov, 2026-09-23)
     // addDirs: cwd 밖 폴더(이미지 크롭 등)를 Read 로 열 수 있게 허용
