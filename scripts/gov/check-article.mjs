@@ -292,7 +292,10 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   // 같은 숫자를 다른 순서로 가진 사실이 있으면 그 순서도 원문 순서다 — "소득 1.3억(맞벌이 2억)" 과
   //   "맞벌이 합산 2억·각자 1.3억" 이 둘 다 원문이라, 한쪽 순서만 강요하면 멀쩡한 문장을 뒤집게 했다 (2026-09-28 신생아 특례대출)
   const allLists = facts.flatMap((f) => [...unitLists(f)].map(([u, vn]) => ({ u, vn })));
-  const okByOther = (u, vn, sn) => allLists.some((o) => o.u === u && o.vn !== vn && vn.every((n) => o.vn.includes(n)) && isSubseq(o.vn.filter((n) => vn.includes(n)), sn));
+  //   숫자 일부만 가진 다른 사실이 있으면(홑벌이 '1.3억' ⊂ 맞벌이 '합산 2억·각자 1.3억') 문장의 1.3억이 어느 사실 것인지 못 가린다 — 순서를 따지지 않는다
+  const okByOther = (u, vn, sn) => allLists.some((o) => o.u === u && o.vn !== vn && (
+    (vn.every((n) => o.vn.includes(n)) && isSubseq(o.vn.filter((n) => vn.includes(n)), sn))
+    || (o.vn.length < vn.length && o.vn.every((n) => vn.includes(n)))));
   for (const x of facts) {
     const byUnit = unitLists(x);
     for (const [u, vn] of byUnit) {
