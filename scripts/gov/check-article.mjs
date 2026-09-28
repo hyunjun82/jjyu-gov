@@ -184,7 +184,11 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   const errors = [];
 
   // 숫자
-  const allowed = new Set([...facts.flatMap((x) => [...numsLoose(x.value), ...numsLoose(x.quote)]), ...numsLoose(specText)]);
+  // 범위어 속 숫자도 허용한다 — 단, 범위어가 원문에 글자 그대로 있을 때만. 범위어 '5천만원'을 쓰라는 검사와
+  //   '5'가 인용에 없다는 검사가 서로 반대로 요구해 고침이 맴돌았다 (2026-09-28 신생아 특례대출 신청대환)
+  const nsrc = norm(srcPool);
+  const scopeNums = facts.flatMap((x) => (x.scopeWord && nsrc.includes(norm(x.scopeWord)) ? numsLoose(x.scopeWord) : []));
+  const allowed = new Set([...facts.flatMap((x) => [...numsLoose(x.value), ...numsLoose(x.quote)]), ...numsLoose(specText), ...scopeNums]);
   const bad = new Map();
   // 순서 표시("4단계"·"2번째")는 원문 수치가 아니다 — 절차 표의 단계 번호를 없는 숫자로 잡아
   //   모델이 "처음·둘째·…·마지막"으로 바꿔 쓰게 만들었다 (2026-09-24 독감 증명서 스포크)
