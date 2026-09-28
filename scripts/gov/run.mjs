@@ -308,6 +308,7 @@ ${fs.readFileSync(path.join('app', 'policy', '[id]', '[spoke]', 'content', '독�
     log('check', `❌ ${res.errors.length}건 — 고침 ${i + 1}`);
     res.errors.forEach((e) => log('check', `   ${e}`));
     const X = `아래 파일에서 코드 검사가 지적한 곳만 고친다. 파일 전체를 다시 쓰지 않는다.
+타이틀(h1·title)과 소제목(qa 의 q)은 사장님이 준 글자 그대로라 바꾸지 않는다. 허브의 Spokes 배열(다른 글 목록)도 건드리지 않는다.
 틀린 숫자는 facts.json 의 값으로 바꾸거나 그 말을 뺀다. 새 숫자를 만들지 않는다.
 빠진 사실·빠진 한정 표현은 가까운 문장에 자연스럽게 녹인다. facts 의 value 문구를 괄호로 붙여 넣지 않는다. 날짜는 "9월 21일"처럼 풀어 쓴다.
 표가 4열 이상이면 그 table 블록을 3열 이하로 바꾼다. FAQ 개수가 틀리면 2개로 맞춘다.

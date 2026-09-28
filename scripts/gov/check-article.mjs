@@ -262,7 +262,9 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   const withHead = headerReader(src);
 
   // 범위 — 문장 단위 (문장 찾기 기준은 scopeHit — 합격 시험과 같은 함수)
-  const sentences = sentencesOf(strings);
+  // 타이틀·소제목은 spec 글자 그대로다 — 범위어·순서를 따지면 고침 단계가 타이틀을 바꾼다 (2026-09-28 신생아 특례대출 대상조건 h1)
+  const fixedText = new Set(String(specText).split('\n').map((l) => l.replace(/^(title|sub):\s*/, '').trim()).filter(Boolean));
+  const sentences = sentencesOf(strings).filter((sen) => !fixedText.has(sen.trim()));
   for (const x of facts.filter((f) => f.scopeWord)) {
     const hit = scopeHit(x, facts);
     for (const sen of sentences.filter(hit)) {
@@ -276,7 +278,7 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   const isSubseq = (need, have) => { let i = 0; for (const h of have) if (h === need[i]) i++; return i === need.length; };
   //   같은 단위끼리만 본다 — "10월 12일부터 70세 이상"을 "70세 이상은 10월 12일"로 쓰는 건 뜻이 같다(날짜와 나이는
   //   종류가 달라 어느 쪽이 먼저 와도 된다, 2026-09-23 코로나 글 오탐). 뒤바뀌면 안 되는 건 19~34세 → 19~39세 같은 같은 종류 값
-  for (const x of facts) {
+  const unitLists = (x) => {
     const byUnit = new Map();
     for (const tn of typedNums(x.value)) {
       const [n, u] = tn.split('|');
@@ -285,9 +287,17 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
       if (!byUnit.has(k)) byUnit.set(k, []);
       if (!byUnit.get(k).includes(n)) byUnit.get(k).push(n);
     }
+    return byUnit;
+  };
+  // 같은 숫자를 다른 순서로 가진 사실이 있으면 그 순서도 원문 순서다 — "소득 1.3억(맞벌이 2억)" 과
+  //   "맞벌이 합산 2억·각자 1.3억" 이 둘 다 원문이라, 한쪽 순서만 강요하면 멀쩡한 문장을 뒤집게 했다 (2026-09-28 신생아 특례대출)
+  const allLists = facts.flatMap((f) => [...unitLists(f)].map(([u, vn]) => ({ u, vn })));
+  const okByOther = (u, vn, sn) => allLists.some((o) => o.u === u && o.vn !== vn && vn.every((n) => o.vn.includes(n)) && isSubseq(o.vn.filter((n) => vn.includes(n)), sn));
+  for (const x of facts) {
+    const byUnit = unitLists(x);
     for (const [u, vn] of byUnit) {
       if (vn.length < 2) continue;
-      const bad = sentences.find((sen) => { const sn = nums(sen); return vn.every((n) => sn.includes(n)) && !isSubseq(vn, sn); });
+      const bad = sentences.find((sen) => { const sn = nums(sen); return vn.every((n) => sn.includes(n)) && !isSubseq(vn, sn) && !okByOther(u, vn, sn); });
       if (bad) errors.push(`[순서] ${x.item} — 원문은 ${vn.join(' → ')}${u === '·' ? '' : ` (${u})`} 순서인데 글은 뒤바뀌었다: "${bad.slice(0, 80)}"`);
     }
   }
