@@ -87,7 +87,11 @@ const mk = facts.find((f) => f.must && f.key && !nums(f.value).length && A.inclu
 // 띄어쓴 표기도 같이 지운다 — 검사기는 공백을 빼고 찾으므로 '산모수첩'만 지우면 남은 '산모 수첩'을 보고
 // 통과시키는 게 맞는데, 시험은 그걸 '놓침'으로 셌다 (2026-09-24 독감 스포크)
 const spaced = (k) => new RegExp(k.replace(/\s+/g, '').split('').map((ch) => ch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\s*'), 'g');
-if (mk) add(`⑥ 필수 단서 빼기 (${mk.item}: '${mk.key}' 전부 삭제)`, 'article', spaced(mk.key), '', true);
+// 여러 낱말 핵심어는 가장 드문 낱말을 지운다 — '조건변경 신청'만 지우면 "조건변경을 신청하면"이 남아
+//   검사기가 (맞게) 통과시키는데 시험은 그걸 '놓침'으로 셌다 (2026-09-28 신생아 특례대출 금리우대)
+const mkWord = mk && (mk.key.split(/\s+/).filter((w) => w.length >= 2)
+  .sort((a, b) => A.split(a).length - A.split(b).length)[0] || mk.key);
+if (mk) add(`⑥ 필수 단서 빼기 (${mk.item}: '${mkWord}' 전부 삭제)`, 'article', spaced(mkWord), '', true);
 
 // ⑩ 한정 표현 지우기 — 검사기와 같은 함수(keepHit·keepOk)로. 지운 뒤 같은 뜻의 말('~해야')이 남으면 뜻이 안 바뀌니 시험으로 쓰지 않는다
 outer10: for (const x of facts.filter((f) => f.keepWord)) {
