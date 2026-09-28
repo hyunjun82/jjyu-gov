@@ -316,7 +316,8 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   for (const x of facts.filter((f) => f.keepWord)) {
     const ok = keepOk(x), hit = keepHit(x, facts);
     // 어긴 문장을 한꺼번에 전부 — 하나씩 알려 주면 고침 두 번으로 안 끝난다
-    for (const sen of sentences.filter(hit).filter((s) => !ok(s))) {
+    // 질문은 단정이 아니다 — FAQ 질문에 원문의 '불가할 수'를 넣으라 해서 '소득공제가 불가할 수 있나요?' 같은 어색한 질문이 됐다 (2026-09-28)
+    for (const sen of sentences.filter(hit).filter((s) => !ok(s) && !/\?\s*$/.test(s.trim()))) {
       errors.push(`[단정] ${x.item} — 원문의 '${x.keepWord}' 를 빼고 썼다: "${sen.slice(0, 90)}"`);
     }
   }

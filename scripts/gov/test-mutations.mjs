@@ -97,7 +97,8 @@ if (mk) add(`⑥ 필수 단서 빼기 (${mk.item}: '${mkWord}' 전부 삭제)`, 
 outer10: for (const x of facts.filter((f) => f.keepWord)) {
   const hit = keepHit(x, facts), ok = keepOk(x);
   for (const sen of sens) {
-    if (!hit(sen) || !ok(sen) || sen.split(x.keepWord).length !== 2) continue;
+    // 질문 문장은 검사기가 한정 표현을 따지지 않는다(단정이 아니다) — 시험도 고르지 않는다
+    if (!hit(sen) || !ok(sen) || sen.split(x.keepWord).length !== 2 || /\?\s*$/.test(sen.trim())) continue;
     const after = sen.replace(x.keepWord, '');
     if (!hit(after) || ok(after)) continue;
     const t = litOf(sen, x.keepWord);
