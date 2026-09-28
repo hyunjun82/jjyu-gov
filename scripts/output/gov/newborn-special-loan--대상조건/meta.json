@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--대상조건",
+  "slug": "대상조건",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "대상조건",
+  "exportName": "신생아특례대출대상조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\대상조건.tsx",
+  "title": "신생아 특례대출 대상, 2년 내 출산 소득 1.3억 맞벌이 2억",
+  "subs": [
+    "신생아 특례대출 조건 기간",
+    "신생아 특례대출 소득기준",
+    "신생아 특례대출 순자산 기준",
+    "신생아 특례대출 조건 무주택"
+  ],
+  "created": "2026-09-27T23:59:14.793Z"
+}

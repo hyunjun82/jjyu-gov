@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--신청대환",
+  "slug": "신청대환",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "신청대환",
+  "exportName": "신생아특례대출신청대환SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\신청대환.tsx",
+  "title": "신생아 특례대출 대환 조건과 소득기준, 필요 서류 확인하기",
+  "subs": [
+    "신생아 특례대출 1주택자 대환",
+    "신생아 특례대출 대환 소득기준",
+    "신생아 특례대출 대환 서류",
+    "신생아특례대출 버팀목 대환 방법"
+  ],
+  "created": "2026-09-28T00:33:42.570Z"
+}

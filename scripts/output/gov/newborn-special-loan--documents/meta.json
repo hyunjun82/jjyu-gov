@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--documents",
+  "slug": "documents",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "documents",
+  "exportName": "신생아특례대출준비서류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\documents.tsx",
+  "title": "신생아 특례대출 준비서류, 어디서 발급받고 뭘 먼저 떼야 하나",
+  "subs": [
+    "신생아 특례대출 서류 준비",
+    "신생아 특례대출 맞벌이 서류",
+    "신생아 특례대출 소득금액증명원",
+    "신생아 특례대출 서류 제출"
+  ],
+  "created": "2026-09-28T01:00:08.157Z"
+}

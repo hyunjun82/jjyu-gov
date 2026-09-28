@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--application-timing-first-buyer",
+  "slug": "application-timing-first-buyer",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "신청시기생애최초",
+  "exportName": "신생아특례대출신청시기생애최초SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\신청시기생애최초.tsx",
+  "title": "신생아 특례대출 등기 전후 신청시기와 생애최초 LTV 80% 받는 법",
+  "subs": [
+    "신생아 특례대출 신청 시기",
+    "신생아 특례대출 LTV 생애최초",
+    "신생아 특례대출 LTV DTI",
+    "신생아 특례대출 2년 지나면"
+  ],
+  "created": "2026-09-28T00:45:25.891Z"
+}

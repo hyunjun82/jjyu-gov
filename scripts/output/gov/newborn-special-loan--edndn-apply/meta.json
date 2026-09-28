@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--edndn-apply",
+  "slug": "edndn-apply",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "기금e든든신청",
+  "exportName": "신생아특례대출기금e든든신청SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\기금e든든신청.tsx",
+  "title": "기금e든든 신생아 특례 디딤돌 신청, 화면에서 막히면 이것부터 확인",
+  "subs": [
+    "기금e든든 신생아특례 신청",
+    "신생아 특례대출 기금e든든 심사",
+    "기금e든든 신생아 특례 대환",
+    "기금e든든 신생아특례 버팀목"
+  ],
+  "created": "2026-09-28T01:09:06.291Z"
+}

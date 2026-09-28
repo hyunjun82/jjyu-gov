@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--버팀목전세",
+  "slug": "버팀목전세",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "버팀목전세",
+  "exportName": "신생아특례대출버팀목전세SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\버팀목전세.tsx",
+  "title": "신생아 특례 버팀목, 전세 한도 2.4억 금리 1.3~4.3%",
+  "subs": [
+    "신생아 특례대출 전세 조건",
+    "신생아 특례대출 전세 금리",
+    "신생아 특례대출 연장 조건",
+    "신생아특례대출 추가대출 방법"
+  ],
+  "created": "2026-09-28T00:19:21.945Z"
+}

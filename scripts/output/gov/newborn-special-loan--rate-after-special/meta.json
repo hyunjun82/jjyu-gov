@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--rate-after-special",
+  "slug": "rate-after-special",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "rate-after-special",
+  "exportName": "신생아특례대출특례금리종료SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\rate-after-special.tsx",
+  "title": "신생아 특례대출 특례금리 끝나면 금리 얼마나 오르나 확인하기",
+  "subs": [
+    "신생아 특례대출 5년 후 금리",
+    "신생아 특례대출 특례기간 종료후",
+    "신생아 특례대출 원금상환유예",
+    "신생아 특례대출 중도상환 수수료 면제"
+  ],
+  "created": "2026-09-28T00:51:55.311Z"
+}

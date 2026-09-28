@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "newborn-special-loan--금리우대",
+  "slug": "금리우대",
+  "hub": "newborn-special-loan",
+  "dir": "신생아특례대출",
+  "fileName": "금리우대",
+  "exportName": "신생아특례대출금리우대SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\신생아특례대출\\금리우대.tsx",
+  "title": "신생아 특례대출 우대금리, 추가출산 자녀당 0.2%p",
+  "subs": [
+    "신생아 특례대출 둘째 우대금리",
+    "신생아 특례대출 우대금리 청약통장",
+    "신생아 특례대출 우대금리 상한",
+    "신생아 특례대출 우대금리 지방"
+  ],
+  "created": "2026-09-28T00:25:38.166Z"
+}
