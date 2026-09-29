@@ -50,3 +50,10 @@ scripts/output/plan-*.json
 scripts/output/found-*.json
 scripts/drafts/
 scripts/reports/*.png
+
+# 카페 자동 게시 — 로그인 프로필·게시 기록
+scripts/cafe/.profile/
+scripts/cafe/.state.json
+scripts/cafe/debug.json
+scripts/cafe/debug.png
+scripts/cafe/live*.png

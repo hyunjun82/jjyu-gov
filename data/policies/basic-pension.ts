@@ -277,6 +277,7 @@ export const basicPensionPolicy = {
 
 /* ── 기초연금 스포크 목록 ── */
 export const 기초연금Spokes = [
+  { slug: 'check-income-asset-2026h2', role: 'check', title: '기초연금 확인조사 10월부터, 소득·재산 조사 후 수급 중단되는 경우와 소명 방법' },
   { slug: 'objection-90days', role: 'apply', title: '기초연금 이의신청 방법과 90일 기한, 결과 통지와 행정심판까지' },
   { slug: 'auto-payment-notice', role: 'eligibility', title: '기초연금 자동지급 되나요, 65세 안내 통지와 장애인연금 전환' },
   { slug: 'income-reversal-reduction', role: 'amount', title: '기초연금 소득역전방지 감액, 얼마부터 깎이고 얼마까지 남나' },

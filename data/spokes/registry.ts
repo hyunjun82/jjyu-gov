@@ -2181,6 +2181,7 @@ import { 공무원연금GepsContributionRateSpokeContent } from '@/app/policy/[i
 import { 공무원연금GepsPensionLinkageSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsPensionLinkage';
 import { 공무원연금GepsLumpSumSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsLumpSum';
 import { 공무원연금GepsOverseasPensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsOverseasPension';
+import { 기초연금CheckIncomeAsset2026h2SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/CheckIncomeAsset2026h2';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -3541,6 +3542,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'basic-pension': {
+    'check-income-asset-2026h2': 기초연금CheckIncomeAsset2026h2SpokeContent,
     'objection-90days': 기초연금이의신청기한행정심판SpokeContent,
     'auto-payment-notice': 기초연금자동지급통지SpokeContent,
     'income-reversal-reduction': 기초연금소득역전방지감액SpokeContent,

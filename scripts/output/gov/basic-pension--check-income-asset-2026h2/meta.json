@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "basic-pension--check-income-asset-2026h2",
+  "slug": "check-income-asset-2026h2",
+  "hub": "basic-pension",
+  "dir": "기초연금",
+  "fileName": "CheckIncomeAsset2026h2",
+  "exportName": "기초연금CheckIncomeAsset2026h2SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초연금\\CheckIncomeAsset2026h2.tsx",
+  "title": "기초연금 확인조사 10월부터, 소득·재산 조사 후 수급 중단되는 경우와 소명 방법",
+  "subs": [
+    "기초연금 확인조사 2026 하반기 조사 기간과 대상",
+    "기초연금 재산조사 항목, 어떤 소득·재산 자료를 조회하나",
+    "기초연금 소득인정액 초과하면 수급 중단·감액 되나",
+    "기초연금 확인조사 소명과 이의신청 방법"
+  ],
+  "created": "2026-09-29T06:07:15.946Z"
+}

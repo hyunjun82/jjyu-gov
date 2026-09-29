@@ -46,6 +46,7 @@ spec  scripts/specs/{주제}.md — slug: cat: catSlug: title: sub:(정확히 4�
 | push 게이트 진본 | `.githooks/pre-push` (core.hooksPath) |
 | 후킹 4축 (서론·cue 용) | `docs/hook-patterns.md` |
 | 버튼 문구 정본 | `docs/button-copy.md` |
+| **카페 글(푸시 뒤 매일)** | `.claude/skills/cafe/SKILL.md` — "푸시하고 카페 글 작성해서 저장" → 카페 글 파일 → `scripts/cafe/post.mjs --all` 임시등록. 공개 등록은 사장님 |
 | 기준 카드뉴스(작성 전 Read 필수) | `reference/cards/청년미래적금/` · `reference/cards/고유가지원금/` (`docs/reference-card-baseline.md`) |
 
 ## 배포·필수 표기

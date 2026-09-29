@@ -1,0 +1,47 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.korea.kr/common/download.do?fileId=198559603&tblKey=GMN",
+    "finalUrl": "https://www.korea.kr/common/download.do?fileId=198559603&tblKey=GMN",
+    "title": "PDF 5쪽",
+    "file": "src-1.txt",
+    "chars": 4307,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783092",
+    "finalUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783092",
+    "title": "사회보장급여 정기 확인조사 실시, 국민 불편은 줄이고 행정은 효율화 - 보도자료 | 브리핑룸 | 대한민국 정책브리핑",
+    "file": "src-2.txt",
+    "chars": 6358,
+    "tables": 13,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://basicpension.mohw.go.kr/",
+    "finalUrl": "https://basicpension.mohw.go.kr/",
+    "title": "기초연금",
+    "file": "src-3.txt",
+    "chars": 1202,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/index.do",
+    "title": "대한민국 대표 복지포털 '복지로'",
+    "file": "src-4.txt",
+    "chars": 2125,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]
