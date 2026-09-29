@@ -42,7 +42,7 @@ export const 공무원연금GepsOverseasPensionSpokeContent: SpokeData = {
   cardLayout: 'act-first',
   heroHook:
     '짐을 꾸려 외국으로 떠나려는데 국내 통장으로 받던 공무원연금을 어떻게 옮길지부터 막히곤 하죠. 해외에 살아도 해외계좌로 연금을 직접 받을 수 있고, 이민이나 국적 상실 뒤에도 매월 지급돼요. 출국 날짜가 잡혔다면 해외계좌 신청방법부터 미리 확인해 두시는 게 좋아요. 송금 신청부터 국적 상실 때 연금까지 차례로 알아보겠습니다.',
-  heroAct: { label: '해외계좌 신청방법 확인하기', href: SRC1 },
+  heroAct: { label: '해외계좌 신청하기', href: SRC1 },
   keyFacts: {
     '연금 지급일': '매월 25일, 본인명의 은행계좌로 입금',
     '해외거주자 수령': '해외계좌로 직접 연금 수령 가능',
