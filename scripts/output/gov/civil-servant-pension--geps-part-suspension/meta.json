@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "civil-servant-pension--geps-part-suspension",
+  "slug": "geps-part-suspension",
+  "hub": "civil-servant-pension",
+  "dir": "공무원연금",
+  "fileName": "GepsPartSuspension",
+  "exportName": "공무원연금GepsPartSuspensionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\공무원연금\\GepsPartSuspension.tsx",
+  "title": "공무원연금 일부정지 금액 산출방법, 소득 기준과 정지 대상",
+  "subs": [
+    "공무원연금 일부정지 대상",
+    "공무원연금 일부정지금액 산출방법",
+    "연금 정지제도와 일부정지 차이",
+    "일부정지 소득 신고와 확인 방법"
+  ],
+  "created": "2026-09-29T02:12:58.270Z"
+}

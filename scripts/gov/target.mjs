@@ -106,7 +106,7 @@ export function wireSpoke(t, { title, role = 'guide' }) {
 
   const hubFile = path.join('data', 'policies', `${t.hub}.ts`);
   let hub = fs.readFileSync(hubFile, 'utf8');
-  const arr = hub.match(/export const \w+Spokes\s*=\s*\[/);
+  const arr = hub.match(/export const \w+Spokes\s*(?::\s*[\w<>\[\]]+)?\s*=\s*\[/);  // ': any[]' 같은 타입 표기가 붙은 허브도 (2026-09-29 공무원연금 허브)
   if (!arr) throw new Error(`${hubFile} 에 Spokes 배열이 없다`);
   if (!hub.includes(`slug: '${t.slug}'`)) {
     const at = arr.index + arr[0].length;

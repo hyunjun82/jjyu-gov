@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "civil-servant-pension--geps-pension-linkage",
+  "slug": "geps-pension-linkage",
+  "hub": "civil-servant-pension",
+  "dir": "공무원연금",
+  "fileName": "GepsPensionLinkage",
+  "exportName": "공무원연금GepsPensionLinkageSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\공무원연금\\GepsPensionLinkage.tsx",
+  "title": "국민연금 공무원연금 연계, 신청 방법과 연계 수령 조건",
+  "subs": [
+    "국민연금 공무원연금 연계란",
+    "연계 신청 대상과 조건",
+    "연계퇴직연금 수령 시기",
+    "공적연금 연계 신청 방법"
+  ],
+  "created": "2026-09-29T02:35:23.510Z"
+}

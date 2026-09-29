@@ -2172,6 +2172,15 @@ import { upsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온
 import { wooriWonMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/woori-won-mobile';
 import { hanpassMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/hanpass-mobile';
 import { dosirakMobileCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/dosirak-mobile';
+import { 공무원연금GepsPaydayAccountSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsPaydayAccount';
+import { 공무원연금GepsSplitPensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsSplitPension';
+import { 공무원연금GepsSurvivorSuccessionSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsSurvivorSuccession';
+import { 공무원연금GepsPartSuspensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsPartSuspension';
+import { 공무원연금GepsPensionTaxSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsPensionTax';
+import { 공무원연금GepsContributionRateSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsContributionRate';
+import { 공무원연금GepsPensionLinkageSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsPensionLinkage';
+import { 공무원연금GepsLumpSumSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsLumpSum';
+import { 공무원연금GepsOverseasPensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsOverseasPension';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -4682,6 +4691,18 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'child-two-doses': 독감예방접종ChildTwoDosesSpokeContent,
     'senior-65-schedule': 독감예방접종Senior65ScheduleSpokeContent,
     'free-target-age-check': 독감예방접종FreeTargetAgeCheckSpokeContent,
+  },
+
+  'civil-servant-pension': {
+    'geps-overseas-pension': 공무원연금GepsOverseasPensionSpokeContent,
+    'geps-lump-sum': 공무원연금GepsLumpSumSpokeContent,
+    'geps-pension-linkage': 공무원연금GepsPensionLinkageSpokeContent,
+    'geps-contribution-rate': 공무원연금GepsContributionRateSpokeContent,
+    'geps-pension-tax': 공무원연금GepsPensionTaxSpokeContent,
+    'geps-part-suspension': 공무원연금GepsPartSuspensionSpokeContent,
+    'geps-survivor-succession': 공무원연금GepsSurvivorSuccessionSpokeContent,
+    'geps-split-pension': 공무원연금GepsSplitPensionSpokeContent,
+    'geps-payday-account': 공무원연금GepsPaydayAccountSpokeContent,
   },
 
 };

@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "civil-servant-pension--geps-overseas-pension",
+  "slug": "geps-overseas-pension",
+  "hub": "civil-servant-pension",
+  "dir": "공무원연금",
+  "fileName": "GepsOverseasPension",
+  "exportName": "공무원연금GepsOverseasPensionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\공무원연금\\GepsOverseasPension.tsx",
+  "title": "공무원연금 해외거주 수령, 해외계좌 신청과 국적 상실 때 연금",
+  "subs": [
+    "공무원연금 해외거주 연금 수령",
+    "해외계좌 송금 신청방법",
+    "해외이민 국적 상실 때 연금",
+    "해외에서 연금수급 확인 방법"
+  ],
+  "created": "2026-09-29T02:47:02.682Z"
+}

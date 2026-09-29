@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "civil-servant-pension--geps-payday-account",
+  "slug": "geps-payday-account",
+  "hub": "civil-servant-pension",
+  "dir": "공무원연금",
+  "fileName": "GepsPaydayAccount",
+  "exportName": "공무원연금GepsPaydayAccountSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\공무원연금\\GepsPaydayAccount.tsx",
+  "title": "공무원연금 지급일, 계좌변경 방법과 신청 마감일까지",
+  "subs": [
+    "공무원연금 지급일 매월 25일",
+    "지급일이 토요일이거나 공휴일이면",
+    "공무원연금 계좌변경 방법",
+    "연금 압류방지 전용통장 안내"
+  ],
+  "created": "2026-09-29T01:50:50.233Z"
+}

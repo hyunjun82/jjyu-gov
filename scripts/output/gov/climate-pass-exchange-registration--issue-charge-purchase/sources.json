@@ -1,0 +1,84 @@
+[
+  {
+    "n": 1,
+    "url": "https://news.seoul.go.kr/traffic/archives/518150",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518150",
+    "title": "모두의카드(기후동행패스) 발급 방법은 어떻게 되나요? < 교통 | 서울특별시",
+    "file": "src-1.txt",
+    "chars": 1509,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "카드 신청방법"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://news.seoul.go.kr/traffic/archives/518148",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518148",
+    "title": "선불 실물카드인 모두의카드 및 기후동행패스 구매 및 충전 장소는? < 교통 | 서울특별시",
+    "file": "src-2.txt",
+    "chars": 1256,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://news.seoul.go.kr/traffic/archives/518127",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518127",
+    "title": "기후동행패스 교통카드는 현금으로만 구매할 수 있나요? < 교통 | 서울특별시",
+    "file": "src-3.txt",
+    "chars": 1085,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://news.seoul.go.kr/traffic/archives/518152",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518152",
+    "title": "기후동행카드, 모두의카드, K패스, 기후동행패스 너무 복잡해요 < 교통 | 서울특별시",
+    "file": "src-4.txt",
+    "chars": 1367,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://news.seoul.go.kr/traffic/archives/518618",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518618",
+    "title": "모두의카드, 기후동행패스는 무조건 매월 1일부터 이용해야 하나요? < 교통 | 서울특별시",
+    "file": "src-5.txt",
+    "chars": 1356,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://news.seoul.go.kr/traffic/archives/518138",
+    "finalUrl": "https://news.seoul.go.kr/traffic/archives/518138",
+    "title": "기후동행패스 출시 안내 < 교통 | 서울특별시",
+    "file": "src-6.txt",
+    "chars": 1762,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://korea-pass.kr/",
+    "finalUrl": "https://korea-pass.kr/",
+    "title": "모두의카드",
+    "file": "src-7.txt",
+    "chars": 575,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

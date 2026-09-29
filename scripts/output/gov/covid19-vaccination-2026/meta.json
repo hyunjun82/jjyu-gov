@@ -1,0 +1,14 @@
+{
+  "kind": "hub",
+  "key": "covid19-vaccination-2026",
+  "slug": "covid19-vaccination-2026",
+  "file": "data\\policies\\covid19-vaccination-2026.ts",
+  "title": "코로나19 예방접종 대상자와 시기, 접종 기관 찾는 법과 독감 동시접종까지",
+  "subs": [
+    "코로나19 예방접종 대상자",
+    "코로나19 예방접종 시기",
+    "코로나19 예방접종 기관 찾는 법",
+    "독감 코로나 예방접종 동시접종"
+  ],
+  "created": "2026-09-23T07:19:13.953Z"
+}

@@ -312,6 +312,20 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
     }
   }
 
+  // 연도 범위 쌍 — "2023년~2021년"·"2016~2023년" 은 두 연도가 각각 다른 줄의 사실에 있어 [숫자]·[순서]로는 안 잡힌다.
+  //   글에 쓴 4자리 연도 범위는 facts 에도 같은 쌍으로 있어야 한다 (2026-09-29 공무원연금 분할연금 합격 시험 ⑤ 놓침)
+  const YEAR = /^(19|20)\d\d$/;
+  const yearPairs = new Set(factText.flatMap((ft) => ranges(ft).filter(([a, b]) => YEAR.test(a) && YEAR.test(b)).map(([a, b]) => `${a}|${b}`)));
+  // 출생일 범위("1952.1.1.∼1956.12.31")를 "1952~1956년생"으로 줄여 쓰는 건 같은 뜻이다 — 원문에서 두 연도가 이 순서로 바로 붙어 나오면 통과
+  const nearYears = (a, b) => factText.some((ft) => { const i = ft.indexOf(a); return i >= 0 && ft.slice(i + 4, i + 4 + 24).includes(b); });
+  const badPairs = new Set();
+  for (const str of strings) for (const [a, b] of ranges(str)) {
+    if (YEAR.test(a) && YEAR.test(b) && !yearPairs.has(`${a}|${b}`) && !nearYears(a, b) && !badPairs.has(`${a}|${b}`)) {
+      badPairs.add(`${a}|${b}`);
+      errors.push(`[범위쌍] ${a}~${b} — 원문에 이 연도 범위가 없다: "${str.slice(0, 70)}"`);
+    }
+  }
+
   // 한정 표현 — 숫자는 맞는데 뜻이 바뀌는 오해를 막는다 ("관리할 계획" → "운영합니다", "선착순" 누락).
   //   원문 인용에 한정 표현이 있으면, 글에서 그 사실을 쓴 문장(뚜렷한 숫자나 핵심어가 나오는 문장)에도 같은 한정이 있어야 한다
   //   무엇을 살릴지는 사실 단계에서 모델이 문맥으로 정한다(keepWord). 코드는 그것만 강제한다 — 일괄 규칙은
@@ -355,6 +369,13 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
     if (!bridge) errors.push('[서론] 행동 유도 문장이 없다 — 상단 버튼으로 넘어가는 한 문장(독자가 지금 먼저 할 일)을 맺음 앞에 둔다');
     const lw = labelWords(label);
     if (lw.length && !lw.some((w) => hero.includes(w))) errors.push(`[서론] 상단 버튼 '${label}' 의 말(${lw.join('·')})이 서론에 없다 — 버튼은 서론에서 나온 말이어야 이어진다`);
+    // 행동 유도 문장은 버튼 라벨의 낱말을 전부 담아야 한다 — 문장은 '이혼 날짜부터 짚어 보라'는데 버튼은 '신청 조건 확인하기'면
+    //   독자에게는 이어지지 않는다 (2026-09-29 사장님 지적). 서론 어딘가에 낱말이 흩어져 있는 것으로는 부족하다.
+    if (bridge && lw.length >= 2) {
+      const parts = lw.flatMap((w) => w.split('·')).filter((w) => w.length >= 2);
+      const hit = parts.filter((w) => bridge.includes(w));
+      if (hit.length < Math.ceil(parts.length / 2)) errors.push(`[서론] 행동 유도 문장이 버튼 '${label}' 와 이어지지 않는다 — 문장에 버튼의 말(${parts.join('·')}) 절반 이상이 있어야 한다: "${bridge.slice(0, 60)}"`);
+    }
     // 먼저 쓴 글과만 비교한다 — 같은 주제·같은 키워드라도 서론이 찍어낸 듯 닮으면 막는다 (2026-09-23 사장님)
     const list = allArticles();
     const idx = list.findIndex((m) => m.key === slug);

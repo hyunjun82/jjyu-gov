@@ -1,0 +1,192 @@
+- generic [ref=f34e2]:
+  - list:
+    - listitem:
+      - link "본문 바로가기" [ref=f34e3] [cursor=pointer]:
+        - /url: "#container"
+    - listitem:
+      - link "푸터 바로가기" [ref=f34e4] [cursor=pointer]:
+        - /url: "#footer"
+  - generic [ref=f34e5]:
+    - banner [ref=f34e6]:
+      - generic [ref=f34e7]:
+        - heading [level=1] [ref=f34e8]:
+          - link [ref=f34e9] [cursor=pointer]:
+            - /url: "#"
+            - img "예다함" [ref=f34e10]
+        - navigation [ref=f34e11]:
+          - list [ref=f34e14]:
+            - listitem [ref=f34e15]:
+              - link "MY" [ref=f34e16] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f34e17]:
+              - link "상품안내" [ref=f34e18] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f34e19]:
+              - link "간편가입" [ref=f34e20] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f34e21]:
+              - link "혜택/서비스" [ref=f34e22] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f34e23]:
+              - link "고객지원" [ref=f34e24] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f34e25]:
+              - link "장례정보" [ref=f34e26] [cursor=pointer]:
+                - /url: "#"
+        - list [ref=f34e28]:
+          - listitem [ref=f34e29]:
+            - link [ref=f34e30] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f34e32]:
+            - link "법인" [ref=f34e33] [cursor=pointer]:
+              - /url: /ltd
+          - listitem [ref=f34e35]:
+            - link "회사소개" [ref=f34e36] [cursor=pointer]:
+              - /url: /corp
+    - generic [ref=f34e39]:
+      - generic [ref=f34e41]:
+        - heading "예다함 소식" [level=2] [ref=f34e42]
+        - generic [ref=f34e44]:
+          - generic [ref=f34e45]: 검색어 입력
+          - generic [ref=f34e46]:
+            - textbox "검색어 입력" [ref=f34e48]:
+              - /placeholder: 검색어를 입력해주세요
+            - button "검색" [ref=f34e49] [cursor=pointer]
+      - generic [ref=f34e51]:
+        - list [ref=f34e53]:
+          - listitem [ref=f34e54] [cursor=pointer]:
+            - generic [ref=f34e55]:
+              - link "공지 추석 연휴 고객센터 휴무 안내" [ref=f34e56]:
+                - /url: "#"
+                - term [ref=f34e58]:
+                  - generic [ref=f34e59]: 공지
+                  - text: 추석 연휴 고객센터 휴무 안내
+              - paragraph [ref=f34e61]: 2026.09.15조회수 120
+          - listitem [ref=f34e63] [cursor=pointer]:
+            - generic [ref=f34e64]:
+              - link "공지 예다함 홈페이지 리뉴얼 안내 예다함 홈페이지가 새롭게 태어났습니다" [ref=f34e65]:
+                - /url: "#"
+                - generic [ref=f34e66]:
+                  - term [ref=f34e67]:
+                    - generic [ref=f34e68]: 공지
+                    - text: 예다함 홈페이지 리뉴얼 안내
+                  - definition [ref=f34e69]: 예다함 홈페이지가 새롭게 태어났습니다
+              - paragraph [ref=f34e71]: 2025.12.15조회수 11225
+          - listitem [ref=f34e73] [cursor=pointer]:
+            - generic [ref=f34e74]:
+              - link [ref=f34e75]:
+                - /url: "#"
+                - term [ref=f34e77]: "[시스템 작업] 9.19(토)~9.20(일) NICE아이디 시스템 정기 점검으로 인한 서비스 순단 안내"
+              - paragraph [ref=f34e79]: 2026.09.14조회수 10
+          - listitem [ref=f34e81] [cursor=pointer]:
+            - generic [ref=f34e82]:
+              - link [ref=f34e83]:
+                - /url: "#"
+                - term [ref=f34e85]: "[시스템 작업] 9.21(월) NH농협은행 시스템 작업에 따른 서비스 일시 중단 안내"
+              - paragraph [ref=f34e87]: 2026.09.11조회수 0
+          - listitem [ref=f34e89] [cursor=pointer]:
+            - generic [ref=f34e90]:
+              - link [ref=f34e91]:
+                - /url: "#"
+                - term [ref=f34e93]: "[시스템 작업] 9.16(수) OmniOneCX 서버점검 및 패치로 인한 서비스 순단 안내"
+              - paragraph [ref=f34e95]: 2026.09.11조회수 3
+          - listitem [ref=f34e97] [cursor=pointer]:
+            - generic [ref=f34e98]:
+              - link [ref=f34e99]:
+                - /url: "#"
+                - term [ref=f34e101]: "[시스템 작업] 8.22(토)~8.23(일) NICE아이디 시스템 정기 점검으로 인한 서비스 순단 안내"
+              - paragraph [ref=f34e103]: 2026.08.20조회수 13
+          - listitem [ref=f34e105] [cursor=pointer]:
+            - generic [ref=f34e106]:
+              - link [ref=f34e107]:
+                - /url: "#"
+                - term [ref=f34e109]: "[시스템 작업] 8.8(토) 하나인증서 서비스 일시 사용 중단 안내"
+              - paragraph [ref=f34e111]: 2026.07.27조회수 7
+          - listitem [ref=f34e113] [cursor=pointer]:
+            - generic [ref=f34e114]:
+              - link [ref=f34e115]:
+                - /url: "#"
+                - term [ref=f34e117]: "[시스템 작업] 7.18(토)~7.19(일) NICE아이디 시스템 정기 점검으로 인한 서비스 순단 안내"
+              - paragraph [ref=f34e119]: 2026.07.14조회수 2
+          - listitem [ref=f34e121] [cursor=pointer]:
+            - generic [ref=f34e122]:
+              - link [ref=f34e123]:
+                - /url: "#"
+                - term [ref=f34e125]: "[시스템 작업] 7.28(화) 삼성패스 시스템 점검으로 인한 서비스 순단 안내"
+              - paragraph [ref=f34e127]: 2026.07.14조회수 4
+          - listitem [ref=f34e129] [cursor=pointer]:
+            - generic [ref=f34e130]:
+              - link [ref=f34e131]:
+                - /url: "#"
+                - term [ref=f34e133]: "[시스템 작업] 7.19(일) 신한 인증서 서비스 일시 사용 중단 안내"
+              - paragraph [ref=f34e135]: 2026.07.06조회수 10
+        - generic [ref=f34e138]:
+          - button "첫 페이지" [disabled] [ref=f34e139] [cursor=pointer]
+          - button "이전 페이지" [disabled] [ref=f34e140] [cursor=pointer]
+          - generic [ref=f34e141]:
+            - link "1" [ref=f34e142] [cursor=pointer]:
+              - /url: "#"
+            - link "2" [ref=f34e144] [cursor=pointer]:
+              - /url: "#"
+            - link "3" [ref=f34e146] [cursor=pointer]:
+              - /url: "#"
+            - link "4" [ref=f34e148] [cursor=pointer]:
+              - /url: "#"
+            - link "5" [ref=f34e150] [cursor=pointer]:
+              - /url: "#"
+          - button "다음 페이지" [ref=f34e152] [cursor=pointer]
+          - button "마지막 페이지" [ref=f34e153] [cursor=pointer]
+    - contentinfo [ref=f34e154]:
+      - generic [ref=f34e155]:
+        - generic [ref=f34e156]:
+          - generic [ref=f34e157]:
+            - generic [ref=f34e158]: 고객센터 1566-6644
+            - generic [ref=f34e159]: 장례접수 1566-0119
+          - list [ref=f34e161]:
+            - listitem [ref=f34e162]:
+              - link "홈페이지 이용약관" [ref=f34e163] [cursor=pointer]:
+                - /url: /term/privacy
+            - listitem [ref=f34e164]:
+              - link "개인정보처리방침" [ref=f34e165] [cursor=pointer]:
+                - /url: /term/important
+            - listitem [ref=f34e166]:
+              - link "중요정보고시사항" [ref=f34e167] [cursor=pointer]:
+                - /url: /term/consult
+          - generic [ref=f34e168]:
+            - generic [ref=f34e169]: 서울특별시 마포구 마포대로 86, 16층(도화동, 창강빌딩) 더케이예다함㈜
+            - generic [ref=f34e170]: "대표이사 : 김도한"
+            - generic [ref=f34e171]: "사업자등록 번호 : 101-86-49300"
+          - generic [ref=f34e172]:
+            - generic [ref=f34e173]: "통신판매업 신고번호 : 제 2014-서울마포-0712호"
+            - generic [ref=f34e174]: "전화권유판매업 신고번호 : 제 2014-서울마포-0012호"
+          - generic [ref=f34e175]:
+            - generic [ref=f34e176]: Copyright © 2025 The-K Yedaham Co.
+            - generic [ref=f34e177]: All Rights Reserved.
+          - link [ref=f34e179] [cursor=pointer]:
+            - /url: "#"
+            - img "The K 예다함" [ref=f34e180]
+        - generic [ref=f34e181]:
+          - link "패밀리 사이트" [ref=f34e184] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f34e186]:
+            - listitem [ref=f34e187]:
+              - link [ref=f34e188] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f34e189]:
+              - link [ref=f34e190] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f34e191]:
+              - link [ref=f34e192] [cursor=pointer]:
+                - /url: "#"
+          - link [ref=f34e194] [cursor=pointer]:
+            - /url: "#"
+            - img "소비자 중심" [ref=f34e195]
+    - generic [ref=f34e197]:
+      - list [ref=f34e198]:
+        - listitem [ref=f34e199]:
+          - link "간편가입" [ref=f34e200] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f34e201]:
+          - link "상담신청" [ref=f34e202] [cursor=pointer]:
+            - /url: "#"
+      - button "TOP"

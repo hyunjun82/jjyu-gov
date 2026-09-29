@@ -163,4 +163,14 @@ export const civilServantPensionPolicy = {
 } as const;
 
 /* 스포크 후보(유입 확인 후): 지급개시연령표 / 교사 연금 / 기초연금 중복(기존 스포크 연결) */
-export const civilServantPensionSpokes: any[] = [];
+export const civilServantPensionSpokes: any[] = [
+  { slug: 'geps-overseas-pension', role: 'apply', title: '공무원연금 해외거주 수령, 해외계좌 신청과 국적 상실 때 연금' },
+  { slug: 'geps-lump-sum', role: 'check', title: '공무원연금 퇴직일시금, 퇴직연금과 일시금 선택 기준' },
+  { slug: 'geps-pension-linkage', role: 'apply', title: '국민연금 공무원연금 연계, 신청 방법과 연계 수령 조건' },
+  { slug: 'geps-contribution-rate', role: 'check', title: '공무원연금 기여금 요율, 납입기간과 계산방법' },
+  { slug: 'geps-pension-tax', role: 'check', title: '공무원연금 소득세 계산법, 연금소득세율과 원천징수' },
+  { slug: 'geps-part-suspension', role: 'check', title: '공무원연금 일부정지 금액 산출방법, 소득 기준과 정지 대상' },
+  { slug: 'geps-survivor-succession', role: 'apply', title: '공무원연금 유족연금 승계, 대상과 순위 배우자 비율' },
+  { slug: 'geps-split-pension', role: 'apply', title: '공무원연금 분할연금 제도, 이혼배우자 신청 조건과 청구 방법' },
+  { slug: 'geps-payday-account', role: 'apply', title: '공무원연금 지급일, 계좌변경 방법과 신청 마감일까지' },
+];

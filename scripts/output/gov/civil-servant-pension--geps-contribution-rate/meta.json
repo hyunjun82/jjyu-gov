@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "civil-servant-pension--geps-contribution-rate",
+  "slug": "geps-contribution-rate",
+  "hub": "civil-servant-pension",
+  "dir": "공무원연금",
+  "fileName": "GepsContributionRate",
+  "exportName": "공무원연금GepsContributionRateSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\공무원연금\\GepsContributionRate.tsx",
+  "title": "공무원연금 기여금 요율, 납입기간과 계산방법",
+  "subs": [
+    "공무원연금 기여금 요율",
+    "공무원연금 기여금 납입기간",
+    "공무원연금 기여금 계산방법",
+    "휴직자 기여금 납부제도"
+  ],
+  "created": "2026-09-29T02:29:43.753Z"
+}

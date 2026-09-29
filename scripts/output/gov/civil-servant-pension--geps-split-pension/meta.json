@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "civil-servant-pension--geps-split-pension",
+  "slug": "geps-split-pension",
+  "hub": "civil-servant-pension",
+  "dir": "공무원연금",
+  "fileName": "GepsSplitPension",
+  "exportName": "공무원연금GepsSplitPensionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\공무원연금\\GepsSplitPension.tsx",
+  "title": "공무원연금 분할연금 제도, 이혼배우자 신청 조건과 청구 방법",
+  "subs": [
+    "공무원연금 분할연금 제도",
+    "분할연금 받을 수 있는 조건",
+    "분할비율과 분할연금 개시 연령",
+    "분할연금 청구 방법과 구비서류"
+  ],
+  "created": "2026-09-29T01:59:45.176Z"
+}

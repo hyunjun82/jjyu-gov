@@ -1,0 +1,14 @@
+{
+  "kind": "hub",
+  "key": "civil-servant-pension-start-age",
+  "slug": "civil-servant-pension-start-age",
+  "file": "data\\policies\\civil-servant-pension-start-age.ts",
+  "title": "공무원 퇴직연금 언제부터 받나, 개시연령 표 확인하고 내 수령액 조회하기",
+  "subs": [
+    "공무원 연금 개시 연령, 1996년 이후 임용자",
+    "공무원 퇴직연금 수령시기, 60세 미만 정년퇴직",
+    "1995년 이전 임용자 공무원 퇴직연금 언제부터 받나",
+    "공무원 퇴직연금 수령액 조회"
+  ],
+  "created": "2026-09-29T01:28:02.373Z"
+}

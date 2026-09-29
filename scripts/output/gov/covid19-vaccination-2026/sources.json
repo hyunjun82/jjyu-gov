@@ -1,0 +1,57 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.korea.kr/common/download.do?fileId=198555046&tblKey=GMN",
+    "finalUrl": "https://www.korea.kr/common/download.do?fileId=198555046&tblKey=GMN",
+    "title": "PDF 8쪽",
+    "file": "src-1.txt",
+    "chars": 5984,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.korea.kr/common/download.do?fileId=198553818&tblKey=GMN",
+    "finalUrl": "https://www.korea.kr/common/download.do?fileId=198553818&tblKey=GMN",
+    "title": "PDF 9쪽",
+    "file": "src-2.txt",
+    "chars": 4107,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972097",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148972097",
+    "title": "코로나19 예방접종 '필수'로 전환…내달 12일부터 접종 시작 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 3804,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "코로나19 국가예방접종 일정.(자료=질병관리청)"
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": "문의: 질병관리청 의료안전예방국 예방접종관리과(043-719-8365)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://nip.kdca.go.kr/irhp/index.jsp",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/index.jsp",
+    "title": "예방접종도우미",
+    "file": "src-4.txt",
+    "chars": 1616,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

@@ -479,6 +479,7 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { civilServantPensionStartAgePolicy, civilServantPensionStartAgeSpokes } from './civil-servant-pension-start-age';
 import { fluFreeVaccinationHomepagePolicy, fluFreeVaccinationHomepageSpokes } from './flu-free-vaccination-homepage';
 import { seniorVaccinationFree2026Policy, seniorVaccinationFree2026Spokes } from './senior-vaccination-free-2026';
 import { climateActionCitizenPointPolicy, climateActionCitizenPointSpokes } from './climate-action-citizen-point';
@@ -1938,6 +1939,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'civil-servant-pension-start-age': civilServantPensionStartAgePolicy,
   'flu-free-vaccination-homepage': fluFreeVaccinationHomepagePolicy,
   'senior-vaccination-free-2026': seniorVaccinationFree2026Policy,
   'climate-action-citizen-point': climateActionCitizenPointPolicy,
@@ -3518,6 +3520,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'civil-servant-pension-start-age': civilServantPensionStartAgeSpokes,
   'flu-free-vaccination-homepage': fluFreeVaccinationHomepageSpokes,
   'senior-vaccination-free-2026': seniorVaccinationFree2026Spokes,
   'climate-action-citizen-point': climateActionCitizenPointSpokes,

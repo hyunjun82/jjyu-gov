@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "civil-servant-pension--geps-lump-sum",
+  "slug": "geps-lump-sum",
+  "hub": "civil-servant-pension",
+  "dir": "공무원연금",
+  "fileName": "GepsLumpSum",
+  "exportName": "공무원연금GepsLumpSumSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\공무원연금\\GepsLumpSum.tsx",
+  "title": "공무원연금 퇴직일시금, 퇴직연금과 일시금 선택 기준",
+  "subs": [
+    "공무원연금 퇴직일시금 대상",
+    "퇴직연금과 퇴직일시금 차이",
+    "퇴직연금일시금과 공제일시금",
+    "퇴직일시금 청구 방법"
+  ],
+  "created": "2026-09-29T02:42:19.060Z"
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "spoke",
+  "key": "climate-pass-exchange-registration--issue-charge-purchase",
+  "slug": "issue-charge-purchase",
+  "hub": "climate-pass-exchange-registration",
+  "dir": "기후동행패스",
+  "fileName": "IssueChargePurchase",
+  "exportName": "기후동행패스IssueChargePurchaseSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기후동행패스\\IssueChargePurchase.tsx",
+  "title": "기후동행패스 발급방법과 충전, 선불·후불 차이와 구매처까지",
+  "subs": [
+    "기후동행패스 발급방법",
+    "기후동행패스 선불·후불 차이",
+    "기후동행패스 충전 방법",
+    "기후동행패스 구매 가능한 곳"
+  ],
+  "created": "2026-09-23T06:54:40.809Z"
+}
