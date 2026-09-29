@@ -24,6 +24,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { spawnSync } from 'node:child_process';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const CAFE_ID = '31711613', MENU_ID = '2'; // 금융 경제,moneywik — 게시판 menus/2
@@ -47,6 +48,19 @@ if (flag('all')) files = fs.readdirSync(HERE).filter((f) => f.endsWith('.md')).m
 files = files.filter((f) => fs.existsSync(f));
 if (!files.length) { console.log('올릴 글이 없다 (이미 다 임시등록됨 — 다시 하려면 --again)'); process.exit(0); }
 if (publish && files.length !== 1) { console.error('--publish 는 한 편씩만'); process.exit(2); }
+
+// 품질 검사 — docs/cafe-post-baseline.md. 통과 못 한 글은 올리지 않는다(리셋해도 같은 품질이 나오게)
+if (!flag('skip-check')) {
+  const passed = [];
+  for (const f of files) {
+    const r = spawnSync('node', [path.join(HERE, 'check-cafe.mjs'), f], { encoding: 'utf8' });
+    process.stdout.write(r.stdout || '');
+    if (r.status === 0) passed.push(f);
+    else console.error(`✗ ${path.basename(f)} — 검사 미통과, 임시등록하지 않는다. 고친 뒤 다시 실행`);
+  }
+  files = passed;
+  if (!files.length) process.exit(4);
+}
 
 // ── 글 파일 → 제목·편집기용 HTML·태그·이미지 ──
 const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
