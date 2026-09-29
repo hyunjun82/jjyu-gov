@@ -75,7 +75,7 @@ outer3: for (const x of facts.filter((f) => f.scopeWord)) {
 
 // ④ 없는 금액
 const hero = A.match(/heroHook:\s*\n?\s*'((?:[^'\\]|\\.)*)'/);
-if (hero) add('④ 원문에 없는 숫자 넣기 (최대 7만 원 추가)', 'article', hero[1], `${hero[1]} 교환하면 최대 7만 원을 추가로 돌려받습니다.`);
+if (hero) add('④ 원문에 없는 숫자 넣기 (최대 73만 원 추가)', 'article', hero[1], `${hero[1]} 교환하면 최대 73만 원을 추가로 돌려받습니다.`);
 
 // ⑤ 표 칸 — rows: 블록 안의 행에서, 두 자리 이상 숫자 하나를 바꾼다
 const rowsBlock = A.match(/rows:\s*\[([\s\S]*?)\n\s*\],/)?.[1] || '';

@@ -17,3 +17,4 @@ source: https://cpoint.or.kr/netzero/climateCitizen/nv_verify.do?menuId=42
 source: https://cpoint.or.kr/netzero/faq/nv_faqList.do?menuId=14
 button: https://cpoint.or.kr/netzero/climateCitizen/nv_guide.do
 button: https://gihoo.or.kr
+button: https://cpoint.or.kr/netzero/

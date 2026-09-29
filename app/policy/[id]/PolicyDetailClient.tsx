@@ -275,7 +275,7 @@ export default function PolicyDetailClient({
             <p className="detail-hero-hook">{d.heroHook}</p>
           )}
 
-          {/* 상단 버튼 두 개(applyUrl2·ctaLabel2) — 목적지가 둘로 갈리는 글(응급실 / 문 여는 병원·약국)은
+          {/* 상단 버튼 두 개(applyUrl2·ctaLabel2), 대상이 셋으로 갈리면 세 개(applyUrl3·ctaLabel3) — 목적지가 둘로 갈리는 글(응급실 / 문 여는 병원·약국)은
               위아래로 쌓는다. 금액 박스는 두지 않는다. 없으면 기존 한 개 그대로. (2026-09-23) */}
           {d.applyUrl2 && d.ctaLabel2 ? (
             <div className="detail-cta detail-cta--stack">
@@ -285,6 +285,11 @@ export default function PolicyDetailClient({
               <a href={d.applyUrl2} className="btn-cta" rel="noopener">
                 {simplifyCta(d.ctaLabel2, ctaSubject)}
               </a>
+              {d.applyUrl3 && d.ctaLabel3 && (
+                <a href={d.applyUrl3} className="btn-cta" rel="noopener">
+                  {simplifyCta(d.ctaLabel3, ctaSubject)}
+                </a>
+              )}
             </div>
           ) : (
             <div className="detail-cta">

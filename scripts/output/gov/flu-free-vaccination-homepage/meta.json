@@ -1,0 +1,14 @@
+{
+  "kind": "hub",
+  "key": "flu-free-vaccination-homepage",
+  "slug": "flu-free-vaccination-homepage",
+  "file": "data\\policies\\flu-free-vaccination-homepage.ts",
+  "title": "인플루엔자 무료 예방접종 홈페이지 바로가기, 어르신 어린이 임신부 대상과 접종 기간",
+  "subs": [
+    "인플루엔자 무료 예방접종 대상 어르신 어린이 임신부",
+    "인플루엔자 무료 예방접종 기간",
+    "인플루엔자 예방접종 병원 찾기",
+    "어린이 인플루엔자 예방접종 2회 접종 대상"
+  ],
+  "created": "2026-09-29T00:54:53.282Z"
+}

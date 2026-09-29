@@ -86,5 +86,37 @@
     "tables": 0,
     "images": [],
     "primary": true
+  },
+  {
+    "n": 9,
+    "url": "https://cpoint.or.kr/netzero/",
+    "finalUrl": "https://cpoint.or.kr/netzero/",
+    "title": "탄소중립포인트 통합 안내",
+    "file": "src-9.txt",
+    "chars": 315,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-9-1.png",
+        "alt": "탄소중립포인트"
+      },
+      {
+        "file": "img-9-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-9-3.png",
+        "alt": "탄소중립포인트 녹색생활실천"
+      },
+      {
+        "file": "img-9-4.png",
+        "alt": ""
+      },
+      {
+        "file": "img-9-5.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
   }
 ]

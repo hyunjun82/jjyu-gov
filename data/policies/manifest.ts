@@ -479,6 +479,7 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { fluFreeVaccinationHomepagePolicy, fluFreeVaccinationHomepageSpokes } from './flu-free-vaccination-homepage';
 import { seniorVaccinationFree2026Policy, seniorVaccinationFree2026Spokes } from './senior-vaccination-free-2026';
 import { climateActionCitizenPointPolicy, climateActionCitizenPointSpokes } from './climate-action-citizen-point';
 import { fluVaccination2026Policy, fluVaccination2026Spokes } from './flu-vaccination-2026';
@@ -1937,6 +1938,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'flu-free-vaccination-homepage': fluFreeVaccinationHomepagePolicy,
   'senior-vaccination-free-2026': seniorVaccinationFree2026Policy,
   'climate-action-citizen-point': climateActionCitizenPointPolicy,
   'flu-vaccination-2026': fluVaccination2026Policy,
@@ -3516,6 +3518,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'flu-free-vaccination-homepage': fluFreeVaccinationHomepageSpokes,
   'senior-vaccination-free-2026': seniorVaccinationFree2026Spokes,
   'climate-action-citizen-point': climateActionCitizenPointSpokes,
   'flu-vaccination-2026': fluVaccination2026Spokes,

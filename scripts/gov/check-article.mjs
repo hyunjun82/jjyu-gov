@@ -7,7 +7,7 @@
  *   범위     scopeWord 가 있는 사실은, 글에서 그 값이 나오는 문장에 scopeWord 가 같이 있어야 한다 (서울 수치를 전국처럼 쓰기 방지)
  *   필수     must: true 인 사실의 값이 글에 있어야 한다 (원문에 있는데 글에 없는 것 — 최다 실수)
  *   추측어   대부분·대개·약 N 등 — 원문이 그렇게 쓴 말이 아니면 막는다
- *   버튼     applyUrl·applyUrl2·act.url 이 수집 단계에서 실제로 열린 주소여야 한다
+ *   버튼     applyUrl·applyUrl2·applyUrl3·act.url 이 수집 단계에서 실제로 열린 주소여야 한다
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -152,7 +152,7 @@ export function readerStrings(src) {
     .replace(/source:\s*\{[^{}]*\}/g, '')
     // highlights 는 본문 문장 안의 형광펜 조각이다 — 따로 읽히는 문장이 아니고, 본문에서 이미 검사된다
     .replace(/highlights:\s*\[[^\]]*\]/g, '')
-    .replace(/\b(sourceNote|source|sourceUrl|url|href|applyUrl2?|datePublished|dateModified|verifiedAt|slug|catSlug|id|type):\s*(\w+|'(?:[^'\\]|\\.)*')/g, '')
+    .replace(/\b(sourceNote|source|sourceUrl|url|href|applyUrl[23]?|datePublished|dateModified|verifiedAt|slug|catSlug|id|type):\s*(\w+|'(?:[^'\\]|\\.)*')/g, '')
     .replace(/sources:\s*\[[\s\S]*?\n\s{2}\],/g, '')
     // 허브의 스포크 목록은 다른 글의 제목·요약 색인이다 — 각 스포크가 따로 검사받는다. 여기서 보면 옛 허브 리라이트 때
     //   고침 단계가 다른 글 제목을 바꿔 검사를 통과하려 했다 (2026-09-28 신생아 특례대출)
@@ -199,7 +199,9 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
 
   // 짝 ① 숫자+단위 — 글의 "19번"은 facts 에도 "19번"이 있어야 한다 ("19세"·"19일"만 있으면 엉뚱한 자리의 숫자다).
   //   날짜·시각 단위(일·월·년·시·분)는 뺀다 — 범위 쌍·순서 검사가 본다
-  const factText = facts.map((x) => `${x.value} ${x.quote}`);
+  // 범위어('75세 이상')도 원문에 글자 그대로 있을 때만 단위 근거로 친다 — 인용이 "(1951.12.31. 이전 출생)"뿐이면 표에 '75세'를
+  //   못 쓰고 출생일로만 써야 해 [범위]와 [짝]이 서로 반대로 요구했다 (2026-09-29 인플루엔자 어르신·어린이·임신부)
+  const factText = facts.map((x) => `${x.value} ${x.quote} ${x.scopeWord && nsrc.includes(norm(x.scopeWord)) ? x.scopeWord : ''}`);
   const typed = new Set(factText.flatMap((ft) => typedNums(ft)));
   const typedSeen = new Set();
   for (const s of strings) {
@@ -386,7 +388,7 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   const opened = new Set(JSON.parse(fs.readFileSync(path.join(dir, 'sources.json'), 'utf8'))
     .filter((s) => !s.error).flatMap((s) => [s.url, s.finalUrl]));
   const consts = Object.fromEntries([...src.matchAll(/^const (\w+) = '([^']+)';$/gm)].map((m) => [m[1], m[2]]));
-  for (const m of src.matchAll(/(?:applyUrl2?|url|href):\s*(\w+|'[^']+')/g)) {
+  for (const m of src.matchAll(/(?:applyUrl[23]?|url|href):\s*(\w+|'[^']+')/g)) {
     const u = m[1].startsWith("'") ? m[1].slice(1, -1) : consts[m[1]];
     if (u && /^https?:/.test(u) && !opened.has(u)) errors.push(`[버튼] ${u} — 수집 단계에서 열어 본 주소가 아니다`);
   }

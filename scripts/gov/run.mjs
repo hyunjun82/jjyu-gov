@@ -53,7 +53,7 @@ function parseBlock(text) {
   const one = (k) => lines.find((l) => l.startsWith(`${k}:`))?.slice(k.length + 1).trim();
   const many = (k) => lines.filter((l) => l.startsWith(`${k}:`)).map((l) => l.slice(k.length + 1).trim());
   return { hub: one('hub'), dir: one('dir'), slug: one('slug'), cat: one('cat'), catSlug: one('catSlug'), role: one('role'),
-    title: one('title'), subs: many('sub'), sources: many('source'), buttons: many('button'),
+    title: one('title'), subs: many('sub'), sources: many('source'), buttons: many('button'), ctas: many('cta'),
     // 리라이트 — 옛 글의 파일·export 이름(target.mjs), 허브 type
     fileName: one('file'), exportName: one('export'), type: one('type') };
 }
@@ -263,7 +263,8 @@ ${JSON.stringify(wrong, null, 2)}
 - qa 4개의 q = 아래 소제목 글자 그대로, 순서 그대로
 ${a.subs.map((s, i) => `  ${i + 1}. ${s}`).join('\n')}
 - cardLayout: 'act-first', titleTail: false, hideAmountBox: true, datePublished·dateModified: '${today}T10:00:00+09:00', verifiedAt: '${today}'
-- 상단 버튼: applyUrl·ctaLabel(타이틀 첫 행동), 행동이 둘이면 applyUrl2·ctaLabel2
+- 상단 버튼: applyUrl·ctaLabel(타이틀 첫 행동), 행동이 둘이면 applyUrl2·ctaLabel2, 대상이 셋으로 갈리면 applyUrl3·ctaLabel3${a.ctas?.length ? `
+  spec 이 상단 버튼 문구를 정했다 — 순서대로 글자 그대로 쓴다(주소는 버튼 목록의 같은 순서, 같은 주소여도 버튼은 각각): ${a.ctas.map((c, i) => `${i + 1}. ${c}`).join(' / ')}` : ''}
 - keyFacts 6개 안팎: value 와 source.text(=facts 의 quote 그대로), source.url(=그 사실의 원문 URL)
 - faq 정확히 2개: { q, a, source, sourceUrl }. 본문 소제목과 겹치지 않는 질문, 답은 두세 문장
 - 머리 주석: 아래 '버튼' 목록의 추출본 경로, '쓰지 않는 것'(facts.json notUsed)
