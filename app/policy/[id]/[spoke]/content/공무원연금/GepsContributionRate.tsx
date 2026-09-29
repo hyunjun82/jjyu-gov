@@ -43,7 +43,7 @@ export const 공무원연금GepsContributionRateSpokeContent: SpokeData = {
   cardLayout: 'act-first',
   heroHook:
     '월급에서 꼬박꼬박 빠지는 기여금이 대체 몇 퍼센트로 잡힌 건지 궁금하셨죠. 기여금 요율은 기준이 되는 월 소득인 기준소득월액의 9.0%이고, 납부기간이 36년을 넘으면 납부가 종료됩니다. 급여명세서를 곁에 두고 내 기여금 요율과 계산방법부터 확인해 보시길 권합니다. 납입기간 규정까지 차례로 알아보겠습니다.',
-  heroAct: { label: '기여금 요율·계산방법 확인하기', href: SRC1 },
+  heroAct: { label: '기여금 계산하기', href: SRC1 },
   keyFacts: {
     '기여금 요율': '기준소득월액의 9.0%',
     '연금부담금 요율(국가·지자체)': '보수예산의 9.0%',
