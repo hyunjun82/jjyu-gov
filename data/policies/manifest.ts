@@ -479,6 +479,8 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { youthTomorrowSavings2026SelectionPolicy, youthTomorrowSavings2026SelectionSpokes } from './youth-tomorrow-savings-2026-selection';
+import { youthFuturePlusPolicy, youthFuturePlusSpokes } from './youth-future-plus';
 import { civilServantPensionStartAgePolicy, civilServantPensionStartAgeSpokes } from './civil-servant-pension-start-age';
 import { fluFreeVaccinationHomepagePolicy, fluFreeVaccinationHomepageSpokes } from './flu-free-vaccination-homepage';
 import { seniorVaccinationFree2026Policy, seniorVaccinationFree2026Spokes } from './senior-vaccination-free-2026';
@@ -1939,6 +1941,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'youth-tomorrow-savings-2026-selection': youthTomorrowSavings2026SelectionPolicy,
+  'youth-future-plus': youthFuturePlusPolicy,
   'civil-servant-pension-start-age': civilServantPensionStartAgePolicy,
   'flu-free-vaccination-homepage': fluFreeVaccinationHomepagePolicy,
   'senior-vaccination-free-2026': seniorVaccinationFree2026Policy,
@@ -3520,6 +3524,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'youth-tomorrow-savings-2026-selection': youthTomorrowSavings2026SelectionSpokes,
+  'youth-future-plus': youthFuturePlusSpokes,
   'civil-servant-pension-start-age': civilServantPensionStartAgeSpokes,
   'flu-free-vaccination-homepage': fluFreeVaccinationHomepageSpokes,
   'senior-vaccination-free-2026': seniorVaccinationFree2026Spokes,

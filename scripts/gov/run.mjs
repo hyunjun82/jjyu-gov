@@ -269,7 +269,8 @@ ${JSON.stringify(wrong, null, 2)}
 - qa 4개의 q = 아래 소제목 글자 그대로, 순서 그대로
 ${a.subs.map((s, i) => `  ${i + 1}. ${s}`).join('\n')}
 - cardLayout: 'act-first', titleTail: false, hideAmountBox: true, datePublished·dateModified: '${today}T10:00:00+09:00', verifiedAt: '${today}'
-- 상단 버튼: applyUrl·ctaLabel(타이틀 첫 행동), 행동이 둘이면 applyUrl2·ctaLabel2, 대상이 셋으로 갈리면 applyUrl3·ctaLabel3${a.ctas?.length ? `
+- 상단 버튼: applyUrl·ctaLabel(타이틀 첫 행동), 행동이 둘이면 applyUrl2·ctaLabel2, 대상이 셋으로 갈리면 applyUrl3·ctaLabel3
+  applyUrl 은 spec 의 button 주소(${a.buttons.join(' · ')})다. 기사·보도자료·카드뉴스처럼 원문을 읽는 페이지는 버튼 주소로 쓰지 않는다 — 버튼은 독자가 행동하러 가는 곳이다(2026-09-30 청년미래플러스·청년내일저축계좌가 기사 주소를 골랐다)${a.ctas?.length ? `
   spec 이 상단 버튼 문구를 정했다 — 순서대로 글자 그대로 쓴다(주소는 버튼 목록의 같은 순서, 같은 주소여도 버튼은 각각): ${a.ctas.map((c, i) => `${i + 1}. ${c}`).join(' / ')}` : ''}
 - keyFacts 6개 안팎: value 와 source.text(=facts 의 quote 그대로), source.url(=그 사실의 원문 URL)
 - faq 정확히 2개: { q, a, source, sourceUrl }. 본문 소제목과 겹치지 않는 질문, 답은 두세 문장

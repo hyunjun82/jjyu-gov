@@ -271,7 +271,16 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   // 범위 — 문장 단위 (문장 찾기 기준은 scopeHit — 합격 시험과 같은 함수)
   // 타이틀·소제목은 spec 글자 그대로다 — 범위어·순서를 따지면 고침 단계가 타이틀을 바꾼다 (2026-09-28 신생아 특례대출 대상조건 h1)
   const fixedText = new Set(String(specText).split('\n').map((l) => l.replace(/^(title|sub):\s*/, '').trim()).filter(Boolean));
-  const sentences = sentencesOf(strings).filter((sen) => !fixedText.has(sen.trim()));
+  // 글 파일 한 줄의 문자열은 ' · ' 로 이어 읽는다 — `q: '… 2027 신청', anchor: 'q-2027'` 이 "… 2027 신청 · q-2027" 이 되어
+  //   글자가 소제목과 달라졌고, 소제목에 연도가 있으면 범위·단정이 소제목을 고치라고 했다 (2026-09-30 청년내일저축계좌 2027 신청)
+  //   → 타이틀·소제목과 앵커(q-…)만으로 이뤄진 문장은 제외한다. 본문 문장 속에 소제목이 섞인 경우는 그대로 검사한다
+  const onlyFixed = (sen) => {
+    let r = sen;
+    for (const f of [...fixedText].sort((a, b) => b.length - a.length)) r = r.split(f).join('');
+    return !r.replace(/\bq-[\w-]+/g, '').replace(/[·\s]/g, '');
+  };
+  //   titleKeywords 는 검색용 키워드 메타(소제목을 줄여 쓴다)라 문장이 아니다 — 숫자 검사는 위에서 이미 했다
+  const sentences = sentencesOf(readerStrings(src.replace(/titleKeywords:\s*\{[^{}]*\}/g, ''))).filter((sen) => !fixedText.has(sen.trim()) && !onlyFixed(sen));
   for (const x of facts.filter((f) => f.scopeWord)) {
     const hit = scopeHit(x, facts);
     for (const sen of sentences.filter(hit)) {
