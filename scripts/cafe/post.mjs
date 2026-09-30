@@ -71,7 +71,7 @@ function parse(file) {
   const title = m[1].trim();
   const lines = m[2].trim().split('\n');
   const tags = ((lines.find((l) => l.startsWith('태그:')) || '').slice(3)).split(/[,，]/).map((t) => t.replace(/^#/, '').replace(/\s+/g, '').trim()).filter(Boolean).slice(0, 10);
-  const body = lines.filter((l) => !l.startsWith('태그:')).join('\n').trim();
+  const body = lines.filter((l) => !l.startsWith('태그:') && !l.startsWith('근거:') && !l.startsWith('썸네일:')).join('\n').trim();
   if (title.length < 5 || body.length < 200) throw new Error('제목·본문이 너무 짧다');
   const images = [], blocks = [];
   for (const line of body.split('\n')) {
@@ -161,22 +161,44 @@ async function fill(a) {
   await titleBox.click(); await pause();
   await titleBox.fill(a.title); await pause();
 
-  // 본문 — 스마트에디터에 HTML 을 클립보드로 붙여넣는다(글자 크기·링크·인용구·정렬이 그대로 들어간다)
-  const editor = page.locator('.se-content .se-text-paragraph').first();
-  if (!(await editor.count())) await stuck('본문 편집 영역을 못 찾았다');
-  await editor.click(); await pause();
+  // 사진 — 글 맨 위에 넣는다: 썸네일(scripts/cafe/thumbs/{slug}.png, 있으면 자동) + `이미지:` 줄. 사장님이 따로 올릴 필요가 없다
+  const slug = path.basename(a.f, '.md');
+  const thumb = path.join(HERE, 'thumbs', `${slug}.png`);
+  const imgs = [...(fs.existsSync(thumb) ? [thumb] : []), ...a.images].map((x) => path.resolve(x));
+  const body0 = page.locator('.se-content .se-text-paragraph').first();
+  if (!(await body0.count())) await stuck('본문 편집 영역을 못 찾았다');
+  await body0.click(); await pause();
+  for (const img of imgs) {
+    if (!fs.existsSync(img)) { console.error(`  이미지를 못 찾아 건너뜀: ${img}`); continue; }
+    const chooser = page.waitForEvent('filechooser', { timeout: 10000 });
+    await page.locator('.se-image-toolbar-button').first().click();
+    try { (await chooser).setFiles(img); await pause(4000, 6000); console.log(`  🖼 이미지 올림: ${path.basename(img)}`); }
+    catch { console.error('  사진 올리기 실패 — 직접 넣어 주세요'); }
+  }
+
+  // 본문 — 스마트에디터에 HTML 을 클립보드로 붙여넣는다(글자 크기·링크·인용구·정렬이 그대로 들어간다). 사진 뒤 마지막 문단에서 시작
+  // 큰 이미지를 올린 뒤에는 마지막 문단이 화면 가장자리에 걸려 떠 있는 툴바(se-flayer-unified-toolbar)가 클릭을 가로챈다 (2026-09-30 실측 — 3편 모두 30초 대기 후 실패)
+  //   → 문단을 화면 가운데로 스크롤해 누른다. 그래도 막히면 문서 끝에 커서를 직접 둔다
+  const editor = page.locator('.se-content .se-text-paragraph').last();
+  await editor.evaluate((el) => el.scrollIntoView({ block: 'center' })); await pause(300, 600);
+  try { await editor.click({ timeout: 6000 }); }
+  catch {
+    console.error('  본문 끝 클릭이 막혀 커서를 직접 둔다');
+    await page.keyboard.press('Escape').catch(() => {});
+    await editor.evaluate((el) => {
+      const root = el.closest('[contenteditable="true"]') || el;
+      root.focus();
+      const r = document.createRange(); r.selectNodeContents(el); r.collapse(false);
+      const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    });
+  }
+  await pause();
+  await page.keyboard.press('Control+End');
   await page.evaluate(async (h) => {
     await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([h], { type: 'text/html' }), 'text/plain': new Blob([' '], { type: 'text/plain' }) })]);
   }, a.html);
   await page.keyboard.press('Control+v');
   await pause(1500, 2500);
-
-  for (const img of a.images) {   // 사진 — 없으면 건너뜀
-    if (!fs.existsSync(img)) { console.error(`  이미지를 못 찾아 건너뜀: ${img}`); continue; }
-    const chooser = page.waitForEvent('filechooser', { timeout: 10000 });
-    await page.locator('.se-image-toolbar-button').first().click();
-    try { (await chooser).setFiles(img); await pause(3000, 4500); } catch { console.error('  사진 올리기 실패 — 직접 넣어 주세요'); }
-  }
 
   const tagBox = page.locator('input.tag_input').first();   // 태그 — 하단 태그 칸에 하나씩
   if (a.tags.length && (await tagBox.count())) {

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- 시안 B "색 블록": 위는 진한 파랑 블록에 큰 숫자, 아래는 흰 영역에 제목. 슬롯: {{LABEL}} {{BIG}} {{HEAD}} {{SMALL_BLOCK}} {{SOURCE_BLOCK}} -->
+<style>
+  :root{ --navy:#0f2f6b; --blue:#1d5fe0; --yellow:#ffd84d; --text:#131a29; --muted:#5b6577; --faint:#9aa4b5; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{width:1024px;height:1024px;background:#fff;font-family:'Malgun Gothic','맑은 고딕','Noto Sans KR',sans-serif;color:var(--text)}
+  .top{height:560px;background:linear-gradient(135deg,var(--navy),var(--blue));position:relative;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 60px}
+  .label{position:absolute;top:56px;left:64px;background:var(--yellow);color:#1a1a1a;font-size:34px;font-weight:800;padding:10px 26px;border-radius:999px}
+  .big{font-size:{{BIG_SIZE}}px;font-weight:900;color:#fff;line-height:1.08;word-break:keep-all;letter-spacing:-2px;margin-top:40px}
+  .bottom{height:464px;padding:56px 70px 0;text-align:center;position:relative}
+  .head{font-size:62px;font-weight:800;line-height:1.28;word-break:keep-all;letter-spacing:-1px}
+  .small{margin-top:26px;font-size:38px;font-weight:500;color:var(--muted);line-height:1.45;word-break:keep-all}
+  .src{position:absolute;bottom:40px;left:0;right:0;font-size:27px;color:var(--faint)}
+</style>
+</head>
+<body>
+  <div class="top"><div class="label">{{LABEL}}</div><div class="big">{{BIG}}</div></div>
+  <div class="bottom"><div class="head">{{HEAD}}</div>{{SMALL_BLOCK}}{{SOURCE_BLOCK}}</div>
+</body>
+</html>

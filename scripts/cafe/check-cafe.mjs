@@ -69,7 +69,7 @@ for (const f of files) {
     if (numbered < 3) errors.push(`[요약] 번호줄 ${numbered}개 — 3~4개`);
   }
   if (linkLines.length < 2) errors.push(`[링크] ${linkLines.length}개 — 서론 뒤와 맨 아래 2개 이상`);
-  else if (linkLines.some((l) => !/^링크:\s*.+\|\s*https:\/\/gov\.jjyu\.co\.kr\/policy\//.test(l))) errors.push('[링크] 형식은 "링크: 글자 | https://gov.jjyu.co.kr/policy/…"');
+  else if (linkLines.some((l) => !/^링크:\s*.+\|\s*https:\/\/(gov\.jjyu\.co\.kr\/policy\/|www\.jjyu\.co\.kr\/)/.test(l))) errors.push('[링크] 형식은 "링크: 글자 | https://gov.jjyu.co.kr/policy/…" 또는 https://www.jjyu.co.kr/… (사장님 사이트)');
   if (tags.length < 8 || tags.length > 10) errors.push(`[태그] ${tags.length}개 — 8~10개`);
   if (!/예를 들어|예시/.test(text)) errors.push('[예시] "예를 들어" 예시가 없다 — 계산·비교·상황 예시 하나');
   if (!/판단|넘었는지|해당하는지|어느 쪽/.test(text)) errors.push('[판단 기준] 독자가 자기 상황을 대입할 조건 문장이 없다');
@@ -91,8 +91,12 @@ for (const f of files) {
 
   // 사실 — 링크한 gov 글에 있는 숫자만
   const url = (linkLines[0] || '').match(/https:\/\/\S+/)?.[0] || '';
-  const gov = url ? govText(url) : null;
-  if (!gov) errors.push(`[링크] 첫 링크가 열리는 gov 글이 아니다(${url || '없음'}) — 소스 파일을 못 찾았다`);
+  const srcFile = path.join(path.dirname(f), 'source', path.basename(f, '.md') + '.txt');
+  const basis = (lines.find((l) => l.startsWith('근거:')) || '').slice(3).trim();
+  const govBased = url ? govText(url) : null;
+  const gov = govBased || (basis && fs.existsSync(srcFile) ? read(srcFile) : null);   // gov 글이 없으면 1차 출처 본문(scripts/cafe/source)으로 대조
+  if (!govBased && !basis) errors.push('[근거] gov 글 링크가 없으면 "근거: 1차 출처 URL" 줄과 scripts/cafe/source/{slug}.txt(출처 본문)가 필요하다');
+  if (!gov) errors.push(`[근거] 숫자를 대조할 원문이 없다(첫 링크 ${url || '없음'}) — gov 글 링크이거나 근거: + source 파일`);
   else {
     const allowed = new Set(nums(stripCommas(gov)));
     // 가정한 예시(예를 들어…)와 그 계산 결과는 새 숫자여도 된다 — 계산에 쓴 공식·기준값은 위 문단들이 gov 글에서 온 것이어야 한다
@@ -103,7 +107,7 @@ for (const f of files) {
       if (t.startsWith('예를 들어') || /^(합계|근로소득|금융재산|재산|소득)[^:]{0,6}:/.test(t)) para.split(NL).forEach((x) => exemptParas.add(x));
     });
     for (const x of exemptParas) for (const n of nums(stripCommas(x))) allowed.add(n);   // 예시에서 가정한 값을 뒤 문장이 다시 말하는 건 허용
-    const factLines = lines.filter((l) => !/^(링크|태그|인용구|이미지):/.test(l) && !/[=×÷]/.test(l) && !/^\d\.\s/.test(l) && !exemptParas.has(l));
+    const factLines = lines.filter((l) => !/^(링크|태그|인용구|이미지|근거|썸네일):/.test(l) && !/[=×÷]/.test(l) && !/^\d\.\s/.test(l) && !exemptParas.has(l));
     const missing = new Map();
     for (const l of factLines) {
       for (const n of nums(stripCommas(l))) {

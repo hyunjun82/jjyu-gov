@@ -44,3 +44,9 @@
 3. `node scripts/cafe/check-cafe.mjs scripts/cafe/{slug}.md` 통과.
 4. **독립 검수**: 새 Agent 에게 파일을 읽히고 "처음 읽는 독자로서 어색한 곳·풀이 없는 용어·답이 없는 소제목"을 지적하게 한 뒤 고친다(내가 쓴 글은 내가 못 걸러낸다).
 5. `node scripts/cafe/post.mjs {파일}` 임시등록. 공개 등록은 사장님.
+
+## 썸네일 (2026-09-30 사장님 확정: 노랑 고정 틀에 문구만 교체)
+
+- 1024×1024 정사각형(카페 본문에서 800px로 보인다). 노란 바탕·검정 큰 숫자·검정 라벨의 고정 틀 `scripts/cafe/templates/thumb-default.html` 하나만 쓴다. 디자인은 이 파일에서만 바꾼다.
+- 글마다 바뀌는 건 `썸네일:` 한 줄(큰 숫자 | 제목 | 보조 문구 | 출처 | 라벨)뿐. 숫자는 글 핵심 사실 하나(날짜·기간·금액), 본문에 있는 값만.
+- 사진·정부 로고·인물 얼굴은 쓰지 않는다(저작권·정부 발표로 오인). 생성: `node scripts/cafe/thumb.mjs scripts/cafe/{slug}.md` → `scripts/cafe/thumbs/{slug}.png`.
