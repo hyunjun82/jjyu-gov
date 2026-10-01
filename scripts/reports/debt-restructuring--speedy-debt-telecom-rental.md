@@ -1,6 +1,6 @@
 # ✅ 신속채무조정에 통신비 들어가나요? 렌탈료와 차할부 대상까지
 
-- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정통신비렌탈료차할부.tsx · 모델: claude-opus-5-5 · effort high · 5.9분 · 입력 346k·출력 33k 토큰 · 환산 $1.22
+- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정통신비렌탈료차할부.tsx · 모델: claude-opus-5-5 · effort high · 0.3분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/debt-restructuring/speedy-debt-telecom-rental
 
 ## 글 대조 (코드) — ✅ 숫자 16종 전부 facts 에 있음

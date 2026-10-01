@@ -1,6 +1,6 @@
 # ✅ 신속채무조정 납부유예는 어떻게 신청하나요, 유예 기간과 연장 가능 횟수
 
-- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정납부유예기간연장.tsx · 모델: claude-opus-5-5 · effort high · 4.9분 · 입력 325k·출력 30k 토큰 · 환산 $1.15
+- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정납부유예기간연장.tsx · 모델: claude-opus-5-5 · effort high · 0.4분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/debt-restructuring/speedy-debt-payment-deferral
 
 ## 글 대조 (코드) — ✅ 숫자 15종 전부 facts 에 있음

@@ -1,6 +1,6 @@
 # ✅ 신속채무조정 중에 대출 되나요, 담보대출부터 전세대출과 마이너스통장까지
 
-- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정중대출담보전세마이너스.tsx · 모델: claude-opus-5-5 · effort high · 0.5분 · 입력 0·출력 0 토큰
+- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정중대출담보전세마이너스.tsx · 모델: claude-opus-5-5 · effort high · 0.3분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/debt-restructuring/speedy-debt-loan-during
 
 ## 글 대조 (코드) — ✅ 숫자 16종 전부 facts 에 있음

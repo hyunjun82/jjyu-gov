@@ -1,6 +1,6 @@
 # ✅ 신속채무조정 신용점수 얼마나 떨어질까? 공공기록 등재와 회복 시기
 
-- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정신용점수공공기록회복.tsx · 모델: claude-opus-5-5 · effort high · 5.0분 · 입력 103k·출력 28k 토큰 · 환산 $1.11
+- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정신용점수공공기록회복.tsx · 모델: claude-opus-5-5 · effort high · 0.3분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/debt-restructuring/speedy-debt-credit-score
 
 ## 글 대조 (코드) — ✅ 숫자 13종 전부 facts 에 있음

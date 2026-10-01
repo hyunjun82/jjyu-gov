@@ -1,6 +1,6 @@
 # ✅ 신속채무조정 후 개인회생 되나요, 개인워크아웃 전환부터 병행 신청까지
 
-- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정후개인회생전환병행.tsx · 모델: claude-opus-5-5 · effort high · 5.6분 · 입력 215k·출력 30k 토큰 · 환산 $1.51
+- 스포크 (허브 debt-restructuring) · 파일: app\policy\[id]\[spoke]\content\채무조정\신속채무조정후개인회생전환병행.tsx · 모델: claude-opus-5-5 · effort high · 0.3분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/debt-restructuring/speedy-debt-to-rehabilitation
 
 ## 글 대조 (코드) — ✅ 숫자 21종 전부 facts 에 있음
