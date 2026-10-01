@@ -72,7 +72,8 @@ export function heroOf(src) {
    행동 유도로 잘못 집어, 진짜 유도 문장을 지워도 검사가 통과했다 (2026-09-23 코로나 글 합격 시험)
    권하는 말 '~세요'·'~시길'은 동사를 가리지 않는다 — "병원부터 고르세요"를 못 집어 서론이 두 번 고쳐지고도 떨어졌다 (2026-09-24 독감 허브) */
 //   '버튼을 눌러'·'~두시면'도 행동이다 — "버튼을 눌러 … 골라 두시면 됩니다"를 못 집어 두 번 고치고도 떨어졌다 (같은 날 임신부 스포크)
-const ACTION = /하셔야|보셔야|해\s?두|챙기|찾아\s?두|확인해\s?보|[가-힣]세요|시길|눌러|두시면/;
+//   '고르시면 헛걸음이 줄어듭니다'·'살핀 뒤 …'도 권하는 말이다 — 못 집어 납부예외 서론이 두 번 고치고도 떨어졌다 (2026-09-30 국민연금 전자민원 배치)
+const ACTION = /하셔야|보셔야|해\s?두|챙기|찾아\s?두|확인해\s?보|[가-힣]세요|시길|눌러|두시면|[가-힣]시면|살펴|살피|살핀|챙겨|[가-힣]\s?두면|는 편이|짚어 보/;
 /** 행동 유도 문장 — 맺음 문장("…알아보겠습니다")을 뺀 문장 중 행동 표시가 있는 **마지막** 문장.
  *  앞에서부터 찾으면 공감 문장의 "어디서부터 손대야 할지 막막하셨을 텐데요"를 행동 유도로 집는다 */
 export function bridgeOf(hero) {
@@ -111,6 +112,13 @@ export function headerReader(src) {
 export const sentencesOf = (strings) => strings.flatMap((s) => s.split(/(?<=[.?!])\s+|(?<=다\.)|\n/));
 const distinctKey = (x) => [...new Set(nums(x.value))].filter((n) => n.includes('.') || n.length >= 2);
 const isDistinct = (key) => key.length >= 2 || key.some((n) => n.replace(/\..*/, '').length >= 3);
+/** 문장에 범위어가 있는가 — 날짜 범위어("2015.7.29.")는 글에서 "2015년 7월 29일"로 풀어 써도 같은 말로 본다
+ *  (원문과 글의 날짜 표기가 달라 범위어 누락이라 두 번 고치고도 떨어졌다, 2026-10-01 노령연금 소득 있는 업무 신고) */
+export function scopeIn(sen, w) {
+  if (String(sen).includes(w)) return true;
+  const m = String(w).match(/(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})/);
+  return !!m && new RegExp(`${m[1]}\\s*년?\\s*0?${m[2]}\\s*월\\s*0?${m[3]}\\s*일?`).test(sen);
+}
 /** 범위어 사실이 쓰인 문장인가 — 값 문구 통째 또는 (숫자가 뚜렷하고 다른 범위 사실과 안 겹치면) 그 숫자들 */
 export function scopeHit(x, facts) {
   const v = norm(x.value), key = distinctKey(x);
@@ -121,7 +129,10 @@ export function scopeHit(x, facts) {
   //   '75세 이상 10월 6일(화)부터' 사실로 집어 범위어 누락이라 했다 (2026-09-24 독감 3가·4가 스포크)
   const sharers = facts.filter((o) => o !== x && o.scopeWord && o.scopeWord !== x.scopeWord && key.length && key.every((n) => nums(o.value).includes(n)));
   const others = (t) => !t.includes(x.scopeWord) && sharers.some((o) => t.includes(o.scopeWord));
-  return (t) => !others(t) && (norm(t).includes(v) || (distinct && key.every((n) => nums(t).includes(n))));
+  // 값이 '10년'처럼 숫자+단위뿐이고 같은 숫자가 다른 사실에도 있으면, 값 문구 일치만으로 이 사실의 문장이라 할 수 없다 —
+  //   "가입기간 10년" 문장이 '지급연령도달 10년' 사실의 범위어 누락이라 떨어졌다 (2026-10-01 국민연금 가입내역 조회 1번)
+  const bareShared = shared && v.replace(/[\d,.\s]/g, '').length <= 2;
+  return (t) => !others(t) && ((!bareShared && norm(t).includes(v)) || (distinct && key.every((n) => nums(t).includes(n))));
 }
 /** 지킬 말(keepWord) 사실이 쓰인 문장인가. 지킬 말 자체는 기준에서 뺀다 — 빼고 남는 게 없으면 항목 이름으로 */
 export function keepHit(x, facts) {
@@ -284,7 +295,7 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   for (const x of facts.filter((f) => f.scopeWord)) {
     const hit = scopeHit(x, facts);
     for (const sen of sentences.filter(hit)) {
-      if (!withHead(sen).includes(x.scopeWord)) errors.push(`[범위] ${x.item} "${x.value}" 는 '${x.scopeWord}' 한정인데 그 말 없이 썼다: "${sen.slice(0, 80)}"`);
+      if (!scopeIn(withHead(sen), x.scopeWord)) errors.push(`[범위] ${x.item} "${x.value}" 는 '${x.scopeWord}' 한정인데 그 말 없이 썼다: "${sen.slice(0, 80)}"`);
     }
   }
 
@@ -345,6 +356,16 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
     // 질문은 단정이 아니다 — FAQ 질문에 원문의 '불가할 수'를 넣으라 해서 '소득공제가 불가할 수 있나요?' 같은 어색한 질문이 됐다 (2026-09-28)
     for (const sen of sentences.filter(hit).filter((s) => !ok(s) && !/\?\s*$/.test(s.trim()))) {
       errors.push(`[단정] ${x.item} — 원문의 '${x.keepWord}' 를 빼고 썼다: "${sen.slice(0, 90)}"`);
+    }
+  }
+
+  // 떠넘기기 — 독자가 물은 것을 다른 창구로 넘기는 문장 (사장님 지적 2026-10-01 국민연금 A급여액·2026-09-29 신생아 대환).
+  //   답은 facts 로 쓰고, 없으면 문장을 뺀다. 전화번호·방문처는 '신청 경로' 정보라 서술형("~할 수 있습니다")은 놔둔다.
+  //   옛 글은 심판하지 않는다 — run.mjs 가 이 규칙 이후에 돌린 글에만 meta.deflect 를 켠다 (판정이 갑자기 바뀌어 푸시가 막히면 게이트를 끄게 된다)
+  if (metaOf(slug).deflect) {
+    const DEFLECT = /(문의|물어|여쭤)[가-힣 ]{0,10}(세요|십시오|시기 바랍니다|시는 게|보는 게|면 됩니다|해 보면)|(에|로|께)\s?(문의|물어)|가장 정확합니다/;
+    for (const sen of sentences.filter((s) => DEFLECT.test(s) && !/\?\s*$/.test(s.trim()))) {
+      errors.push(`[떠넘기기] 답을 다른 창구로 넘기는 문장 — facts 로 답하거나 이 문장을 뺀다: "${sen.slice(0, 90)}"`);
     }
   }
 

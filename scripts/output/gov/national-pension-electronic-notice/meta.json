@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-electronic-notice",
+  "slug": "national-pension-electronic-notice",
+  "file": "data\\policies\\national-pension-electronic-notice.ts",
+  "title": "국민연금 전자문서 카톡 진짜인가요, 카카오톡 열람과 전자통지 신청 방법",
+  "subs": [
+    "카톡으로 온 국민연금 전자문서는 진짜인가요?",
+    "국민연금 전자통지는 어떻게 신청하나요?",
+    "전자문서를 네이버나 문자로도 받을 수 있나요?",
+    "전자통지를 신청하지 않으면 어떻게 받나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T04:56:51.330Z"
+}

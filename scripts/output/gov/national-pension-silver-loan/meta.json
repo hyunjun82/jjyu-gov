@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-silver-loan",
+  "slug": "national-pension-silver-loan",
+  "file": "data\\policies\\national-pension-silver-loan.ts",
+  "title": "국민연금 실버론 대출 자격과 신청 방법, 생활자금으로 쓸 수 있는 곳까지",
+  "subs": [
+    "국민연금으로 대출을 받을 수 있나요?",
+    "실버론은 누가 빌릴 수 있나요?",
+    "실버론은 어떻게 신청하나요?",
+    "실버론으로 빌린 돈은 어디에 쓸 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T06:09:41.800Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-mydata-apply",
+  "slug": "national-pension-mydata-apply",
+  "file": "data\\policies\\national-pension-mydata-apply.ts",
+  "title": "국민연금 마이데이터 급여청구, 증명서 안 떼고 청구하는 법과 수급권 확인",
+  "subs": [
+    "국민연금 마이데이터 급여청구는 무엇인가요?",
+    "마이데이터가 어떤 증명서를 대신 제출해 주나요?",
+    "마이데이터로 청구하는 방법은 무엇인가요?",
+    "마이데이터로 수급권도 확인할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T06:42:44.240Z"
+}

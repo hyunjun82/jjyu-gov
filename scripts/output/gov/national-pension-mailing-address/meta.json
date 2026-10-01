@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-mailing-address",
+  "slug": "national-pension-mailing-address",
+  "file": "data\\policies\\national-pension-mailing-address.ts",
+  "title": "국민연금 우편물 주소 변경, 우편 안 오게 하는 법과 고지서 예외",
+  "subs": [
+    "국민연금 우편물 받을 주소는 어디서 바꾸나요?",
+    "이사하면 우편물 주소를 따로 바꿔야 하나요?",
+    "국민연금 우편을 아예 안 받으려면 어떻게 하나요?",
+    "보험료 고지서도 바뀐 주소로 가나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T05:05:51.600Z"
+}

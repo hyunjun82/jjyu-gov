@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-certificate-verification",
+  "slug": "national-pension-certificate-verification",
+  "file": "data\\policies\\national-pension-certificate-verification.ts",
+  "title": "국민연금 가입증명서 진위확인, 제출받은 증명서와 PDF 위조 여부 조회",
+  "subs": [
+    "국민연금 증명서 진위확인은 어디서 하나요?",
+    "제출받은 가입증명서는 어떻게 확인하나요?",
+    "PDF로 받은 국민연금 증명서도 진위확인이 되나요?",
+    "진위확인 조회에는 무엇을 입력하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T02:55:38.663Z"
+}

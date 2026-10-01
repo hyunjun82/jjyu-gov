@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-unpaid-certificate",
+  "slug": "national-pension-unpaid-certificate",
+  "file": "data\\policies\\national-pension-unpaid-certificate.ts",
+  "title": "국민연금 미납증명서 발급, 3년 밀리면 생기는 일과 미납금 납부 방법",
+  "subs": [
+    "국민연금 미납증명서는 어디서 발급하나요?",
+    "미납증명서에는 어떤 내용이 나오나요?",
+    "국민연금을 3년 동안 안 내면 어떻게 되나요?",
+    "밀린 국민연금 보험료는 어떻게 내나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T03:15:12.732Z"
+}

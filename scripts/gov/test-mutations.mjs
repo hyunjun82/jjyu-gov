@@ -50,7 +50,13 @@ const lit = visible.filter((t) => A.includes(t));
 // ① 금액 하나 +1,000 (글 전체에서 같은 금액을 모두)
 const moneyLine = lit.find((t) => /\d{1,3}(?:,\d{3})+원/.test(t));
 const money = moneyLine?.match(/\d{1,3}(?:,\d{3})+원/)[0];
-if (money) { const v = Number(money.replace(/[,원]/g, '')) + 1000; add(`① 숫자 바꾸기 (${money} → ${v.toLocaleString()}원)`, 'article', money, `${v.toLocaleString()}원`, true); }
+if (money) {
+  // 바꾼 값이 facts 어딘가의 숫자(연도 2000 등)와 겹치면 오차가 아니라 정상값이 된다 — 겹치지 않는 값을 고른다 (2026-09-30 일시금 지급내역: 1,000원→2,000원이 '2000. 1. 1.' 과 겹침)
+  const have = new Set(facts.flatMap((x) => [...nums(String(x.value)), ...nums(String(x.quote))]));
+  const base = Number(money.replace(/[,원]/g, ''));
+  const v = [1000, 1300, 7000, 13000, 130000].map((d) => base + d).find((n) => !have.has(String(n))) ?? base + 1000;
+  add(`① 숫자 바꾸기 (${money} → ${v.toLocaleString()}원)`, 'article', money, `${v.toLocaleString()}원`, true);
+}
 
 // ② 범위 뒤집기 — 원문 범위 쌍 "A~B" 가 글에 있으면 "B~A" 로
 const pairs = new Set(facts.flatMap((x) => [...ranges(x.value), ...ranges(x.quote)]).map(([a, b]) => `${a}|${b}`));

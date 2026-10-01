@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-notice-lookup",
+  "slug": "national-pension-notice-lookup",
+  "file": "data\\policies\\national-pension-notice-lookup.ts",
+  "title": "국민연금 수급권 변경 통지서 조회, 통지가 오는 경우와 내 수급권 확인",
+  "subs": [
+    "수급권 내용 변경 통지서는 어디서 조회하나요?",
+    "수급권 변경 통지서는 어떤 경우에 오나요?",
+    "변경 통지서에서 바뀐 내용은 어떻게 보나요?",
+    "내 수급권은 어디서 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T05:38:10.793Z"
+}

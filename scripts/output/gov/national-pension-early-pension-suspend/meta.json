@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-early-pension-suspend",
+  "slug": "national-pension-early-pension-suspend",
+  "file": "data\\policies\\national-pension-early-pension-suspend.ts",
+  "title": "조기노령연금 손익분기점과 조기수령 조건, 받다가 멈추는 지급정지와 재지급",
+  "subs": [
+    "조기노령연금의 손익분기점은 몇 살인가요?",
+    "국민연금 조기수령은 어떤 조건에서 되나요?",
+    "받던 조기노령연금을 멈출 수 있나요?",
+    "지급정지한 조기노령연금은 언제 다시 받나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T05:53:59.933Z"
+}

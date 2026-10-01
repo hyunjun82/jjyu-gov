@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-withholding-receipt",
+  "slug": "national-pension-withholding-receipt",
+  "file": "data\\policies\\national-pension-withholding-receipt.ts",
+  "title": "국민연금도 세금 떼나요, 원천징수영수증 발급과 월별 지급내역 공제액 확인",
+  "subs": [
+    "국민연금에서도 세금을 떼나요?",
+    "연금소득 원천징수영수증은 어디서 발급하나요?",
+    "국민연금 월별 지급내역서는 어떻게 뽑나요?",
+    "국민연금에서 매달 뗀 세금은 어떻게 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T03:01:20.787Z"
+}

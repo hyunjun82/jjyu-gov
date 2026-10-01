@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-a-benefit",
+  "slug": "national-pension-a-benefit",
+  "file": "data\\policies\\national-pension-a-benefit.ts",
+  "title": "국민연금 A급여액 뜻과 조회 방법, 기초연금 감액 기준과 A값·B값 차이",
+  "subs": [
+    "국민연금 A급여액은 무엇을 뜻하나요?",
+    "내 A급여액은 어디서 조회하나요?",
+    "A급여액으로 기초연금 감액이 어떻게 정해지나요?",
+    "A값과 B값은 어떻게 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T00:04:07.659Z"
+}

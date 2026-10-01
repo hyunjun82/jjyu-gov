@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-overpayment-refund",
+  "slug": "national-pension-overpayment-refund",
+  "file": "data\\policies\\national-pension-overpayment-refund.ts",
+  "title": "국민연금 과오납금 조회, 더 낸 보험료 환급 신청과 충당 통지 차이",
+  "subs": [
+    "국민연금 과오납금은 어디서 조회하나요?",
+    "국민연금 보험료를 더 내는 일은 왜 생기나요?",
+    "더 낸 보험료는 어떻게 환급 신청하나요?",
+    "과오납금 충당 통지는 환급과 무엇이 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T03:36:44.904Z"
+}

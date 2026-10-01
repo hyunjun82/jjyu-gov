@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-continued-voluntary-apply",
+  "slug": "national-pension-continued-voluntary-apply",
+  "file": "data\\policies\\national-pension-continued-voluntary-apply.ts",
+  "title": "국민연금 임의계속가입 장단점과 조건, 신청 방법과 탈퇴 후 재가입 여부",
+  "subs": [
+    "임의계속가입을 하면 손해인 경우도 있나요?",
+    "임의계속가입 조건은 무엇인가요?",
+    "임의계속가입은 어떻게 신청하나요?",
+    "임의계속가입을 탈퇴한 뒤 다시 가입할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T04:45:07.362Z"
+}

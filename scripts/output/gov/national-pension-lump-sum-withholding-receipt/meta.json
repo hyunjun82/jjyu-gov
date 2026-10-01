@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-lump-sum-withholding-receipt",
+  "slug": "national-pension-lump-sum-withholding-receipt",
+  "file": "data\\policies\\national-pension-lump-sum-withholding-receipt.ts",
+  "title": "반환일시금 퇴직소득 원천징수영수증 발급, 떼인 세금 확인과 홈택스 조회",
+  "subs": [
+    "반환일시금 원천징수영수증은 어디서 발급하나요?",
+    "반환일시금도 퇴직소득으로 세금을 떼나요?",
+    "반환일시금에서 떼인 세금은 어떻게 확인하나요?",
+    "반환일시금 원천징수영수증은 홈택스에서도 조회되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T02:41:11.513Z"
+}

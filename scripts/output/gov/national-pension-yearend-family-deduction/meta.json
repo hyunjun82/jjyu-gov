@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-yearend-family-deduction",
+  "slug": "national-pension-yearend-family-deduction",
+  "file": "data\\policies\\national-pension-yearend-family-deduction.ts",
+  "title": "국민연금 받는 부모님 부양가족 공제 기준과 대상 확인, 기초연금까지",
+  "subs": [
+    "국민연금 받는 부모님도 부양가족으로 올릴 수 있나요?",
+    "부모님 연금소득이 얼마 이하여야 공제되나요?",
+    "부양가족 공제 대상인지는 어디서 확인하나요?",
+    "기초연금만 받는 부모님은 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T04:24:13.526Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-disability-pension-review",
+  "slug": "national-pension-disability-pension-review",
+  "file": "data\\policies\\national-pension-disability-pension-review.ts",
+  "title": "국민연금 장애연금 심사 조회, 결과까지 걸리는 기간과 등급별 수령액",
+  "subs": [
+    "장애연금 심사 진행상태는 어디서 조회하나요?",
+    "장애연금 심사 결과는 얼마나 걸려 나오나요?",
+    "장애연금 등급은 어떤 기준으로 정해지나요?",
+    "장애연금 등급별 수령액은 얼마인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T01:12:14.450Z"
+}

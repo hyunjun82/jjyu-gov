@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-account-change",
+  "slug": "national-pension-account-change",
+  "file": "data\\policies\\national-pension-account-change.ts",
+  "title": "국민연금 수령 계좌변경 신청, 등록 계좌 확인과 자동이체 계좌 차이",
+  "subs": [
+    "국민연금 받는 계좌는 어디서 바꾸나요?",
+    "수령 계좌변경이 안 되는 경우도 있나요?",
+    "지금 등록된 연금 수령 계좌는 어떻게 확인하나요?",
+    "보험료 자동이체 계좌와는 따로 바꿔야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T04:31:52.040Z"
+}

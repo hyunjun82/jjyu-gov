@@ -36,8 +36,9 @@ export const canonMoney = (s) => String(s ?? '')
  *  범위어·순서 검사가 날짜에도 걸린다 (2026-09-23 시험에서 '평일' 삭제를 놓쳤다) */
 export const canonDate = (s) => String(s ?? '')
   // 따옴표 두 자리 연도 — 원문 "’23.1.1."·"‘25.6.27." 을 글의 "2023년 1월 1일"과 같은 날짜로 본다 (2026-09-28 신생아 특례대출)
-  .replace(/[’‘'](\d{2})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?/g, '20$1 $2.$3')
-  .replace(/(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?/g, '$1 $2.$3')
+  // 월·일의 0 채움("10.01")은 글의 "10월 1일"(10.1)과 같은 날짜 — 0 을 뗀다 (2026-10-01 실버론 2013.10.01.)
+  .replace(/[’‘'](\d{2})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?/g, (_m, y, mo, d) => `20${y} ${+mo}.${+d}`)
+  .replace(/(\d{4})\.\s*(\d{1,2})\.\s*(\d{1,2})\.?/g, (_m, y, mo, d) => `${y} ${+mo}.${+d}`)
   .replace(/(?<![\d.])(\d{1,2})\.\s+(\d{1,2})\.(?!\d)/g, '$1.$2')
   .replace(/(?<!\d)(\d{1,2})월\s*(\d{1,2})일/g, '$1.$2');
 export const nums = (s) => (canonMoney(canonDate(s)).match(/\d[\d,]*(?:\.\d+)?/g) ?? []).map((t) => t.replace(/,/g, ''));
@@ -45,7 +46,11 @@ export const nums = (s) => (canonMoney(canonDate(s)).match(/\d[\d,]*(?:\.\d+)?/g
 export const ranges = (s) => [...canonMoney(canonDate(s)).matchAll(/(\d[\d,]*(?:\.\d+)?)\s*(?:\([가-힣]{1,2}\))?\s*[가-힣]{0,2}\s*(?:~|부터)\s*(?:만\s*)?(\d[\d,]*(?:\.\d+)?)/g)]
   .map((m) => [m[1].replace(/,/g, ''), m[2].replace(/,/g, '')]);
 /** 허용 목록용 — "9.21" 같은 날짜 표기는 글에서 "9월 21일"로 풀어 쓰므로 9·21 로도 쪼개 넣는다 */
-export const numsLoose = (s) => nums(s).flatMap((t) => (/^\d{1,2}\.\d{1,2}$/.test(t) ? [t, ...t.split('.')] : [t]));
+export const numsLoose = (s) => [
+  ...nums(s).flatMap((t) => (/^\d{1,2}\.\d{1,2}$/.test(t) ? [t, ...t.split('.')] : [t])),
+  // 원문의 연도 줄임("'97.12월분")은 글에서 "1997년 12월"로 풀어 쓴다 — 허용 목록에 풀이를 넣는다 (2026-10-01 퇴직금 전환금 1993~1999)
+  ...[...String(s).matchAll(/['’](\d{2})(?=[.\s월년])/g)].map((m) => String(+m[1] <= 69 ? 2000 + +m[1] : 1900 + +m[1])),
+];
 
 export function loadFacts(slug) {
   const f = path.join(DIR_OF(slug), 'facts.json');

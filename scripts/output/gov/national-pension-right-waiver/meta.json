@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-right-waiver",
+  "slug": "national-pension-right-waiver",
+  "file": "data\\policies\\national-pension-right-waiver.ts",
+  "title": "국민연금 수급권 포기 신청, 분할연금도 되는지와 포기 후 회복 절차",
+  "subs": [
+    "국민연금 수급권은 포기할 수 있나요?",
+    "수급권 포기는 어떻게 신청하나요?",
+    "이혼 후 받는 분할연금도 포기할 수 있나요?",
+    "포기한 수급권은 되돌릴 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T06:51:00.856Z"
+}

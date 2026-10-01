@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-durunuri-report",
+  "slug": "national-pension-durunuri-report",
+  "file": "data\\policies\\national-pension-durunuri-report.ts",
+  "title": "두루누리 지원금 미지급·누락 신고 방법, 지원 중단 사유와 환수되는 경우",
+  "subs": [
+    "두루누리 지원금 미지급은 어디에 신고하나요?",
+    "두루누리 지원 대상에서 누락됐으면 어떻게 하나요?",
+    "두루누리 지원금이 중단되는 사유는 무엇인가요?",
+    "받은 두루누리 지원금이 환수되는 경우도 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T05:46:19.576Z"
+}

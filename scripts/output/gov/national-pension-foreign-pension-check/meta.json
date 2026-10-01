@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-foreign-pension-check",
+  "slug": "national-pension-foreign-pension-check",
+  "file": "data\\policies\\national-pension-foreign-pension-check.ts",
+  "title": "해외 근무 기간도 연금 받나요, 사회보장협정과 외국연금 수급 가능성 진단",
+  "subs": [
+    "해외에서 일한 기간도 연금을 받을 수 있나요?",
+    "사회보장협정은 왜 필요한가요?",
+    "외국연금 수급 가능성 진단은 어디서 하나요?",
+    "진단 결과로 무엇을 알 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T07:06:40.441Z"
+}

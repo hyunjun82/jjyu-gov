@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-refund-repayment",
+  "slug": "national-pension-refund-repayment",
+  "file": "data\\policies\\national-pension-refund-repayment.ts",
+  "title": "국민연금 반납금 내면 연금 늘어나나요, 반납금 계산과 조회, 인터넷 납부",
+  "subs": [
+    "반납금을 내면 국민연금이 늘어나나요?",
+    "반납금은 어떻게 계산하나요?",
+    "내 반납금은 어디서 조회하나요?",
+    "반납금 인터넷 납부는 어디서 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T03:42:49.545Z"
+}

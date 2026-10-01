@@ -479,6 +479,61 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { nationalPensionAutoPaymentPolicy, nationalPensionAutoPaymentSpokes } from './national-pension-auto-payment';
+import { nationalPensionAccountBlockPolicy, nationalPensionAccountBlockSpokes } from './national-pension-account-block';
+import { nationalPensionSurveyClaimPolicy, nationalPensionSurveyClaimSpokes } from './national-pension-survey-claim';
+import { nationalPensionSilverLoanPolicy, nationalPensionSilverLoanSpokes } from './national-pension-silver-loan';
+import { nationalPensionDurunuriReportPolicy, nationalPensionDurunuriReportSpokes } from './national-pension-durunuri-report';
+import { nationalPensionPensionerTaxDeductionReportPolicy, nationalPensionPensionerTaxDeductionReportSpokes } from './national-pension-pensioner-tax-deduction-report';
+import { nationalPensionDeathLumpSumPolicy, nationalPensionDeathLumpSumSpokes } from './national-pension-death-lump-sum';
+import { nationalPensionMailingAddressPolicy, nationalPensionMailingAddressSpokes } from './national-pension-mailing-address';
+import { nationalPensionCertificateVerificationPolicy, nationalPensionCertificateVerificationSpokes } from './national-pension-certificate-verification';
+import { nationalPensionLumpSumWithholdingReceiptPolicy, nationalPensionLumpSumWithholdingReceiptSpokes } from './national-pension-lump-sum-withholding-receipt';
+import { nationalPensionRehabilitationCertificatePolicy, nationalPensionRehabilitationCertificateSpokes } from './national-pension-rehabilitation-certificate';
+import { nationalPensionYearendSimulationPolicy, nationalPensionYearendSimulationSpokes } from './national-pension-yearend-simulation';
+import { nationalPensionWorkplaceEnrollmentLookupPolicy, nationalPensionWorkplaceEnrollmentLookupSpokes } from './national-pension-workplace-enrollment-lookup';
+import { nationalPensionDisabilityPensionReviewPolicy, nationalPensionDisabilityPensionReviewSpokes } from './national-pension-disability-pension-review';
+import { nationalPensionClaimStatusPolicy, nationalPensionClaimStatusSpokes } from './national-pension-claim-status';
+import { nationalPensionABenefitPolicy, nationalPensionABenefitSpokes } from './national-pension-a-benefit';
+import { nationalPensionSurvivorAmountPolicy, nationalPensionSurvivorAmountSpokes } from './national-pension-survivor-amount';
+import { nationalPensionDeferredPensionLookupPolicy, nationalPensionDeferredPensionLookupSpokes } from './national-pension-deferred-pension-lookup';
+import { nationalPensionMockCalculationPolicy, nationalPensionMockCalculationSpokes } from './national-pension-mock-calculation';
+import { nationalPensionPensionCalcRecordCertificatePolicy, nationalPensionPensionCalcRecordCertificateSpokes } from './national-pension-pension-calc-record-certificate';
+import { nationalPensionForeignPensionCheckPolicy, nationalPensionForeignPensionCheckSpokes } from './national-pension-foreign-pension-check';
+import { nationalPensionLumpSumPaymentRecordPolicy, nationalPensionLumpSumPaymentRecordSpokes } from './national-pension-lump-sum-payment-record';
+import { nationalPensionRightWaiverPolicy, nationalPensionRightWaiverSpokes } from './national-pension-right-waiver';
+import { nationalPensionMydataApplyPolicy, nationalPensionMydataApplySpokes } from './national-pension-mydata-apply';
+import { nationalPensionExpectedPensionLookupPolicy, nationalPensionExpectedPensionLookupSpokes } from './national-pension-expected-pension-lookup';
+import { nationalPensionInsuranceDecisionRecordPolicy, nationalPensionInsuranceDecisionRecordSpokes } from './national-pension-insurance-decision-record';
+import { nationalPensionWorkCapacityStatusPolicy, nationalPensionWorkCapacityStatusSpokes } from './national-pension-work-capacity-status';
+import { nationalPensionSeveranceConversionPolicy, nationalPensionSeveranceConversionSpokes } from './national-pension-severance-conversion';
+import { nationalPensionEarlyPensionSuspendPolicy, nationalPensionEarlyPensionSuspendSpokes } from './national-pension-early-pension-suspend';
+import { nationalPensionCounselBookingPolicy, nationalPensionCounselBookingSpokes } from './national-pension-counsel-booking';
+import { nationalPensionNoticeLookupPolicy, nationalPensionNoticeLookupSpokes } from './national-pension-notice-lookup';
+import { nationalPensionDeceasedInquiryPolicy, nationalPensionDeceasedInquirySpokes } from './national-pension-deceased-inquiry';
+import { nationalPensionQualificationClaimPolicy, nationalPensionQualificationClaimSpokes } from './national-pension-qualification-claim';
+import { nationalPensionDurunuriSupportLookupPolicy, nationalPensionDurunuriSupportLookupSpokes } from './national-pension-durunuri-support-lookup';
+import { nationalPensionEarnedIncomeReportPolicy, nationalPensionEarnedIncomeReportSpokes } from './national-pension-earned-income-report';
+import { nationalPensionElectronicNoticePolicy, nationalPensionElectronicNoticeSpokes } from './national-pension-electronic-notice';
+import { nationalPensionBaseIncomeChangePolicy, nationalPensionBaseIncomeChangeSpokes } from './national-pension-base-income-change';
+import { nationalPensionContinuedVoluntaryApplyPolicy, nationalPensionContinuedVoluntaryApplySpokes } from './national-pension-continued-voluntary-apply';
+import { nationalPensionIncomeReportPolicy, nationalPensionIncomeReportSpokes } from './national-pension-income-report';
+import { nationalPensionAccountChangePolicy, nationalPensionAccountChangeSpokes } from './national-pension-account-change';
+import { nationalPensionYearendFamilyDeductionPolicy, nationalPensionYearendFamilyDeductionSpokes } from './national-pension-yearend-family-deduction';
+import { nationalPensionDisabilityReviewStatusPolicy, nationalPensionDisabilityReviewStatusSpokes } from './national-pension-disability-review-status';
+import { nationalPensionRaiseHistoryPolicy, nationalPensionRaiseHistorySpokes } from './national-pension-raise-history';
+import { nationalPensionDeferredPensionApplyPolicy, nationalPensionDeferredPensionApplySpokes } from './national-pension-deferred-pension-apply';
+import { nationalPensionClawbackPaymentPolicy, nationalPensionClawbackPaymentSpokes } from './national-pension-clawback-payment';
+import { nationalPensionClaimApplyPolicy, nationalPensionClaimApplySpokes } from './national-pension-claim-apply';
+import { nationalPensionUnclaimedPensionPolicy, nationalPensionUnclaimedPensionSpokes } from './national-pension-unclaimed-pension';
+import { nationalPensionOverpaymentRefundPolicy, nationalPensionOverpaymentRefundSpokes } from './national-pension-overpayment-refund';
+import { nationalPensionPaymentResumeReportPolicy, nationalPensionPaymentResumeReportSpokes } from './national-pension-payment-resume-report';
+import { nationalPensionPaymentExceptionApplyPolicy, nationalPensionPaymentExceptionApplySpokes } from './national-pension-payment-exception-apply';
+import { nationalPensionUnpaidCertificatePolicy, nationalPensionUnpaidCertificateSpokes } from './national-pension-unpaid-certificate';
+import { nationalPensionEnrollmentRecordPolicy, nationalPensionEnrollmentRecordSpokes } from './national-pension-enrollment-record';
+import { nationalPensionWithholdingReceiptPolicy, nationalPensionWithholdingReceiptSpokes } from './national-pension-withholding-receipt';
+import { nationalPensionBenefitCertificatePolicy, nationalPensionBenefitCertificateSpokes } from './national-pension-benefit-certificate';
+import { nationalPensionPaymentConfirmationPolicy, nationalPensionPaymentConfirmationSpokes } from './national-pension-payment-confirmation';
 import { youthTomorrowSavings2026SelectionPolicy, youthTomorrowSavings2026SelectionSpokes } from './youth-tomorrow-savings-2026-selection';
 import { youthFuturePlusPolicy, youthFuturePlusSpokes } from './youth-future-plus';
 import { civilServantPensionStartAgePolicy, civilServantPensionStartAgeSpokes } from './civil-servant-pension-start-age';
@@ -1941,6 +1996,61 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'national-pension-auto-payment': nationalPensionAutoPaymentPolicy,
+  'national-pension-account-block': nationalPensionAccountBlockPolicy,
+  'national-pension-survey-claim': nationalPensionSurveyClaimPolicy,
+  'national-pension-silver-loan': nationalPensionSilverLoanPolicy,
+  'national-pension-durunuri-report': nationalPensionDurunuriReportPolicy,
+  'national-pension-pensioner-tax-deduction-report': nationalPensionPensionerTaxDeductionReportPolicy,
+  'national-pension-death-lump-sum': nationalPensionDeathLumpSumPolicy,
+  'national-pension-mailing-address': nationalPensionMailingAddressPolicy,
+  'national-pension-certificate-verification': nationalPensionCertificateVerificationPolicy,
+  'national-pension-lump-sum-withholding-receipt': nationalPensionLumpSumWithholdingReceiptPolicy,
+  'national-pension-rehabilitation-certificate': nationalPensionRehabilitationCertificatePolicy,
+  'national-pension-yearend-simulation': nationalPensionYearendSimulationPolicy,
+  'national-pension-workplace-enrollment-lookup': nationalPensionWorkplaceEnrollmentLookupPolicy,
+  'national-pension-disability-pension-review': nationalPensionDisabilityPensionReviewPolicy,
+  'national-pension-claim-status': nationalPensionClaimStatusPolicy,
+  'national-pension-a-benefit': nationalPensionABenefitPolicy,
+  'national-pension-survivor-amount': nationalPensionSurvivorAmountPolicy,
+  'national-pension-deferred-pension-lookup': nationalPensionDeferredPensionLookupPolicy,
+  'national-pension-mock-calculation': nationalPensionMockCalculationPolicy,
+  'national-pension-pension-calc-record-certificate': nationalPensionPensionCalcRecordCertificatePolicy,
+  'national-pension-foreign-pension-check': nationalPensionForeignPensionCheckPolicy,
+  'national-pension-lump-sum-payment-record': nationalPensionLumpSumPaymentRecordPolicy,
+  'national-pension-right-waiver': nationalPensionRightWaiverPolicy,
+  'national-pension-mydata-apply': nationalPensionMydataApplyPolicy,
+  'national-pension-expected-pension-lookup': nationalPensionExpectedPensionLookupPolicy,
+  'national-pension-insurance-decision-record': nationalPensionInsuranceDecisionRecordPolicy,
+  'national-pension-work-capacity-status': nationalPensionWorkCapacityStatusPolicy,
+  'national-pension-severance-conversion': nationalPensionSeveranceConversionPolicy,
+  'national-pension-early-pension-suspend': nationalPensionEarlyPensionSuspendPolicy,
+  'national-pension-counsel-booking': nationalPensionCounselBookingPolicy,
+  'national-pension-notice-lookup': nationalPensionNoticeLookupPolicy,
+  'national-pension-deceased-inquiry': nationalPensionDeceasedInquiryPolicy,
+  'national-pension-qualification-claim': nationalPensionQualificationClaimPolicy,
+  'national-pension-durunuri-support-lookup': nationalPensionDurunuriSupportLookupPolicy,
+  'national-pension-earned-income-report': nationalPensionEarnedIncomeReportPolicy,
+  'national-pension-electronic-notice': nationalPensionElectronicNoticePolicy,
+  'national-pension-base-income-change': nationalPensionBaseIncomeChangePolicy,
+  'national-pension-continued-voluntary-apply': nationalPensionContinuedVoluntaryApplyPolicy,
+  'national-pension-income-report': nationalPensionIncomeReportPolicy,
+  'national-pension-account-change': nationalPensionAccountChangePolicy,
+  'national-pension-yearend-family-deduction': nationalPensionYearendFamilyDeductionPolicy,
+  'national-pension-disability-review-status': nationalPensionDisabilityReviewStatusPolicy,
+  'national-pension-raise-history': nationalPensionRaiseHistoryPolicy,
+  'national-pension-deferred-pension-apply': nationalPensionDeferredPensionApplyPolicy,
+  'national-pension-clawback-payment': nationalPensionClawbackPaymentPolicy,
+  'national-pension-claim-apply': nationalPensionClaimApplyPolicy,
+  'national-pension-unclaimed-pension': nationalPensionUnclaimedPensionPolicy,
+  'national-pension-overpayment-refund': nationalPensionOverpaymentRefundPolicy,
+  'national-pension-payment-resume-report': nationalPensionPaymentResumeReportPolicy,
+  'national-pension-payment-exception-apply': nationalPensionPaymentExceptionApplyPolicy,
+  'national-pension-unpaid-certificate': nationalPensionUnpaidCertificatePolicy,
+  'national-pension-enrollment-record': nationalPensionEnrollmentRecordPolicy,
+  'national-pension-withholding-receipt': nationalPensionWithholdingReceiptPolicy,
+  'national-pension-benefit-certificate': nationalPensionBenefitCertificatePolicy,
+  'national-pension-payment-confirmation': nationalPensionPaymentConfirmationPolicy,
   'youth-tomorrow-savings-2026-selection': youthTomorrowSavings2026SelectionPolicy,
   'youth-future-plus': youthFuturePlusPolicy,
   'civil-servant-pension-start-age': civilServantPensionStartAgePolicy,
@@ -3524,6 +3634,61 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'national-pension-auto-payment': nationalPensionAutoPaymentSpokes,
+  'national-pension-account-block': nationalPensionAccountBlockSpokes,
+  'national-pension-survey-claim': nationalPensionSurveyClaimSpokes,
+  'national-pension-silver-loan': nationalPensionSilverLoanSpokes,
+  'national-pension-durunuri-report': nationalPensionDurunuriReportSpokes,
+  'national-pension-pensioner-tax-deduction-report': nationalPensionPensionerTaxDeductionReportSpokes,
+  'national-pension-death-lump-sum': nationalPensionDeathLumpSumSpokes,
+  'national-pension-mailing-address': nationalPensionMailingAddressSpokes,
+  'national-pension-certificate-verification': nationalPensionCertificateVerificationSpokes,
+  'national-pension-lump-sum-withholding-receipt': nationalPensionLumpSumWithholdingReceiptSpokes,
+  'national-pension-rehabilitation-certificate': nationalPensionRehabilitationCertificateSpokes,
+  'national-pension-yearend-simulation': nationalPensionYearendSimulationSpokes,
+  'national-pension-workplace-enrollment-lookup': nationalPensionWorkplaceEnrollmentLookupSpokes,
+  'national-pension-disability-pension-review': nationalPensionDisabilityPensionReviewSpokes,
+  'national-pension-claim-status': nationalPensionClaimStatusSpokes,
+  'national-pension-a-benefit': nationalPensionABenefitSpokes,
+  'national-pension-survivor-amount': nationalPensionSurvivorAmountSpokes,
+  'national-pension-deferred-pension-lookup': nationalPensionDeferredPensionLookupSpokes,
+  'national-pension-mock-calculation': nationalPensionMockCalculationSpokes,
+  'national-pension-pension-calc-record-certificate': nationalPensionPensionCalcRecordCertificateSpokes,
+  'national-pension-foreign-pension-check': nationalPensionForeignPensionCheckSpokes,
+  'national-pension-lump-sum-payment-record': nationalPensionLumpSumPaymentRecordSpokes,
+  'national-pension-right-waiver': nationalPensionRightWaiverSpokes,
+  'national-pension-mydata-apply': nationalPensionMydataApplySpokes,
+  'national-pension-expected-pension-lookup': nationalPensionExpectedPensionLookupSpokes,
+  'national-pension-insurance-decision-record': nationalPensionInsuranceDecisionRecordSpokes,
+  'national-pension-work-capacity-status': nationalPensionWorkCapacityStatusSpokes,
+  'national-pension-severance-conversion': nationalPensionSeveranceConversionSpokes,
+  'national-pension-early-pension-suspend': nationalPensionEarlyPensionSuspendSpokes,
+  'national-pension-counsel-booking': nationalPensionCounselBookingSpokes,
+  'national-pension-notice-lookup': nationalPensionNoticeLookupSpokes,
+  'national-pension-deceased-inquiry': nationalPensionDeceasedInquirySpokes,
+  'national-pension-qualification-claim': nationalPensionQualificationClaimSpokes,
+  'national-pension-durunuri-support-lookup': nationalPensionDurunuriSupportLookupSpokes,
+  'national-pension-earned-income-report': nationalPensionEarnedIncomeReportSpokes,
+  'national-pension-electronic-notice': nationalPensionElectronicNoticeSpokes,
+  'national-pension-base-income-change': nationalPensionBaseIncomeChangeSpokes,
+  'national-pension-continued-voluntary-apply': nationalPensionContinuedVoluntaryApplySpokes,
+  'national-pension-income-report': nationalPensionIncomeReportSpokes,
+  'national-pension-account-change': nationalPensionAccountChangeSpokes,
+  'national-pension-yearend-family-deduction': nationalPensionYearendFamilyDeductionSpokes,
+  'national-pension-disability-review-status': nationalPensionDisabilityReviewStatusSpokes,
+  'national-pension-raise-history': nationalPensionRaiseHistorySpokes,
+  'national-pension-deferred-pension-apply': nationalPensionDeferredPensionApplySpokes,
+  'national-pension-clawback-payment': nationalPensionClawbackPaymentSpokes,
+  'national-pension-claim-apply': nationalPensionClaimApplySpokes,
+  'national-pension-unclaimed-pension': nationalPensionUnclaimedPensionSpokes,
+  'national-pension-overpayment-refund': nationalPensionOverpaymentRefundSpokes,
+  'national-pension-payment-resume-report': nationalPensionPaymentResumeReportSpokes,
+  'national-pension-payment-exception-apply': nationalPensionPaymentExceptionApplySpokes,
+  'national-pension-unpaid-certificate': nationalPensionUnpaidCertificateSpokes,
+  'national-pension-enrollment-record': nationalPensionEnrollmentRecordSpokes,
+  'national-pension-withholding-receipt': nationalPensionWithholdingReceiptSpokes,
+  'national-pension-benefit-certificate': nationalPensionBenefitCertificateSpokes,
+  'national-pension-payment-confirmation': nationalPensionPaymentConfirmationSpokes,
   'youth-tomorrow-savings-2026-selection': youthTomorrowSavings2026SelectionSpokes,
   'youth-future-plus': youthFuturePlusSpokes,
   'civil-servant-pension-start-age': civilServantPensionStartAgeSpokes,

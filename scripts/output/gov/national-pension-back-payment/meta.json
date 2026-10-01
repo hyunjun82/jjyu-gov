@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-back-payment",
+  "slug": "national-pension-back-payment",
+  "file": "data\\policies\\national-pension-back-payment.ts",
+  "title": "국민연금 추납 장단점과 계산법, 신청 자격과 인터넷 납부 방법",
+  "subs": [
+    "국민연금 추납은 이득인가요, 손해인가요?",
+    "추납하면 얼마를 더 받는지 어떻게 계산하나요?",
+    "추납 신청 자격은 어떻게 되나요?",
+    "추납 보험료는 인터넷으로 어떻게 내나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T03:34:43.113Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-clawback-payment",
+  "slug": "national-pension-clawback-payment",
+  "file": "data\\policies\\national-pension-clawback-payment.ts",
+  "title": "국민연금 환수금 나오는 이유, 분할납부 조건과 신청, 납부내역 조회 방법",
+  "subs": [
+    "국민연금 환수금은 왜 나오나요?",
+    "환수금 분할납부는 얼마부터 할 수 있나요?",
+    "환수금 분할납부는 어떻게 신청하나요?",
+    "환수금 납부내역은 어디서 조회하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T03:59:54.263Z"
+}

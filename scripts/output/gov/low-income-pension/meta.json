@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "low-income-pension",
+  "slug": "low-income-pension",
+  "file": "data\\policies\\low-income-pension.ts",
+  "title": "지역가입자 연금보험료 지원 조건과 신청, 지원 제외 통지서 오는 이유",
+  "subs": [
+    "지역가입자도 연금보험료를 지원받을 수 있나요?",
+    "지역가입자 보험료 지원 조건은 무엇인가요?",
+    "지역가입자 보험료 지원은 어떻게 신청하나요?",
+    "지원 제외 결정 통지서는 왜 오나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T05:53:26.816Z"
+}

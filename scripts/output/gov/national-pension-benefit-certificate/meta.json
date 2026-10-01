@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-benefit-certificate",
+  "slug": "national-pension-benefit-certificate",
+  "file": "data\\policies\\national-pension-benefit-certificate.ts",
+  "title": "국민연금 수급증명서 발급·재발급, 지급내역 출력과 기초연금 증명서 구별법",
+  "subs": [
+    "국민연금 수급증명서는 어디서 발급하나요?",
+    "수급증명서를 다시 발급받을 수 있나요?",
+    "수급증명서에 월별 지급내역도 나오나요?",
+    "국민연금 수급증명서와 기초연금 수급증명서는 다른 서류인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T02:55:40.699Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-payment-confirmation",
+  "slug": "national-pension-payment-confirmation",
+  "file": "data\\policies\\national-pension-payment-confirmation.ts",
+  "title": "국민연금 납부확인서 발급, 소득공제용 출력과 납입증명서 차이, 영문 발급",
+  "subs": [
+    "국민연금 납부확인서는 어디서 발급하나요?",
+    "연말정산용 납부확인서는 어떻게 출력하나요?",
+    "납부확인서와 납입증명서는 같은 서류인가요?",
+    "납부확인서를 영문으로도 받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T02:49:08.719Z"
+}

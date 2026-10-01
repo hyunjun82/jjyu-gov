@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-payment-exception-apply",
+  "slug": "national-pension-payment-exception-apply",
+  "file": "data\\policies\\national-pension-payment-exception-apply.ts",
+  "title": "국민연금 납부예외 신청 조건과 안내문, 안 하면 생기는 일, 대상자 아님이라고 뜰 때 해결법",
+  "subs": [
+    "납부예외를 신청하지 않으면 어떻게 되나요?",
+    "납부예외는 누가 신청할 수 있나요?",
+    "대상자가 아니라고 뜨는 이유는 무엇인가요?",
+    "홈페이지에서 막히면 어디로 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T03:22:07.209Z"
+}

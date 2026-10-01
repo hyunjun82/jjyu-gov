@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-death-lump-sum",
+  "slug": "national-pension-death-lump-sum",
+  "file": "data\\policies\\national-pension-death-lump-sum.ts",
+  "title": "국민연금 수급자 사망 신고, 사망일시금 받는 조건과 계산, 신청 순서",
+  "subs": [
+    "국민연금 받던 가족이 사망하면 어떻게 신고하나요?",
+    "사망일시금을 받는 조건은 무엇인가요?",
+    "사망일시금은 어떻게 계산하나요?",
+    "사망일시금은 어떤 순서로 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T05:15:27.020Z"
+}

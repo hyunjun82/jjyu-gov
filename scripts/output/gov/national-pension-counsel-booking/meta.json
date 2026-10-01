@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-counsel-booking",
+  "slug": "national-pension-counsel-booking",
+  "file": "data\\policies\\national-pension-counsel-booking.ts",
+  "title": "국민연금 상담 예약 방법, 1355 전화상담 시간과 채팅상담 이용법",
+  "subs": [
+    "국민연금 상담 예약은 어떻게 하나요?",
+    "예약한 국민연금 상담은 어디서 받나요?",
+    "1355 전화상담은 몇 시까지 되나요?",
+    "국민연금 채팅상담은 어떻게 이용하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T05:46:33.617Z"
+}

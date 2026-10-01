@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-deferred-pension-lookup",
+  "slug": "national-pension-deferred-pension-lookup",
+  "file": "data\\policies\\national-pension-deferred-pension-lookup.ts",
+  "title": "국민연금 미루면 얼마 더 받나요, 연기연금 월액 조회와 5년 연기 손익",
+  "subs": [
+    "국민연금을 1년 미루면 얼마를 더 받나요?",
+    "연기연금 예상월액은 어디서 조회하나요?",
+    "국민연금을 5년까지 미루면 월액이 얼마나 늘어나나요?",
+    "연기연금이 오히려 손해인 경우도 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T23:34:28.632Z"
+}

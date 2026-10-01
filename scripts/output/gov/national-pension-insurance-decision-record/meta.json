@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-insurance-decision-record",
+  "slug": "national-pension-insurance-decision-record",
+  "file": "data\\policies\\national-pension-insurance-decision-record.ts",
+  "title": "지역가입자 국민연금 보험료 결정내역 조회, 금액 기준과 통보서 발급",
+  "subs": [
+    "지역가입자 보험료 결정내역은 어디서 조회하나요?",
+    "지역가입자 보험료는 어떤 기준으로 정해지나요?",
+    "결정내역 통보서에는 무엇이 적혀 있나요?",
+    "결정내역서는 어떻게 발급받나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T06:17:24.653Z"
+}

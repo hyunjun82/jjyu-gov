@@ -1,0 +1,316 @@
+{
+  "facts": [
+    {
+      "id": "f1",
+      "item": "수급증명(지급내역) 서비스 내용",
+      "value": "월별·연도별 국민연금 지급내역 확인 및 수급증명(지급내역) 발급",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "월별, 연도별 국민연금 지급내역 확인 및 수급증명(지급내역) 발급",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f2",
+      "item": "수급증명(지급내역) 증명서 언어",
+      "value": "국문·영문",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "국민연금 수급증명(지급내역) (국/영문)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f3",
+      "item": "수급증명(지급내역) 신청자격",
+      "value": "국민연금 수급 이력이 있는 수급자",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "국민연금 수급 이력이 있는 수급자",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f4",
+      "item": "수급증명(지급내역) 신청방법",
+      "value": "방문, 팩스, 우편, 유선, 홈페이지, 모바일앱, 정부24, 디지털ARS, 무인민원발급기(영문 발급은 안 됨)",
+      "scope": "영문 불가는 무인민원발급기에만 해당",
+      "scopeWord": "무인민원발급기",
+      "quote": "방문, 팩스, 우편, 유선, 홈페이지, 모바일앱, 정부24, 디지털ARS, 무인민원발급기(영문불가)",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "영문불가",
+      "keepWord": "영문불가",
+      "keepWhy": ""
+    },
+    {
+      "id": "f5",
+      "item": "수급증명(지급내역) 처리기간",
+      "value": "즉시(3시간 이내) 발급",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "즉시 (3시간이내) 발급",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f6",
+      "item": "지급내역 범위",
+      "value": "현재까지 받은 연금액의 상세내역",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "현재까지 지급 받으신 연금액의 상세내역 입니다.",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f7",
+      "item": "발급되지 않는 경우(일시금)",
+      "value": "반환일시금·사망일시금은 수급증명(지급내역)이 발급되지 않음",
+      "scope": "반환일시금·사망일시금 수령자",
+      "scopeWord": "일시금",
+      "quote": "반환일시금, 사망일시금은 수급증명(지급내역) 증명서가 발급 되지 않습니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "사망일시금",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f8",
+      "item": "연금액 조정",
+      "value": "매년 전국 소비자물가 변동률을 적용해 조정",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "연금액은 매년 전국 소비자물가 변동률을 적용하여 조정합니다.",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f9",
+      "item": "환수(정산)금 반영",
+      "value": "지급 후 환수(정산)된 경우 환수(정산)금은 감액 반영되지 않음",
+      "scope": "연금 지급 후 환수(정산)된 경우",
+      "scopeWord": "환수",
+      "quote": "연금 지급 후 환수(정산)된 경우 환수(정산)금은 감액하여 반영되지 않습니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "환수(정산)금",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f10",
+      "item": "타기관 제출용 출력 방법",
+      "value": "증명서 발급하기 버튼 클릭 후 출력",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "타기관 제출을 위해 증명서를 발급 받으시려면, 증명서 발급하기 버튼을 클릭 후 증명서를 출력하시기 바랍니다.",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f11",
+      "item": "홈페이지 발급본 효력",
+      "value": "공단 지사 발급본과 동일한 효력",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "국민연금 홈페이지에서 발급받은 증명서는 공단 지사에서 발급 받은 증명서와 동일한 효력이 있습니다.",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f12",
+      "item": "팩스 수신 시 바코드",
+      "value": "팩스로 받으면 3차원 바코드가 나타나지 않음",
+      "scope": "팩스로 전송받는 경우",
+      "scopeWord": "팩스",
+      "quote": "증명서를 팩스로 전송받는 경우에는 프린터 출력시 나타나는 3차원 바코드가 나타나지 않습니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "3차원 바코드",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f13",
+      "item": "진위확인 기한",
+      "value": "홈페이지 [증명서 진위확인]에서 발급일로부터 3개월 이내",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "공단에서 발급받은 증명서의 진위 확인은 홈페이지(www.nps.or.kr) [증명서 진위확인]에서 발급일로부터 3개월이내에 확인할 수 있습니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "3개월이내",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f14",
+      "item": "진위확인 원본 확인 조건",
+      "value": "원본 확인은 공인인증 로그인이 필요",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "(단, 원본 확인을 위해서는 개인정보 보호를 위해 공인인증 로그인이 필요합니다.)",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "공인인증",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f15",
+      "item": "홈페이지 발급 시 로그인",
+      "value": "로그인해야 서비스 이용 가능",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "시간이 만료되었거나, 다른 기기에서 로그인되어 현재 로그인이 종료되었습니다. 다시 로그인 하셔야 서비스 이용이 가능합니다.",
+      "src": "src-3.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f16",
+      "item": "재발급 서비스 명칭·내용",
+      "value": "연금 수급증명서 재발급 = 연금 수급증서 발급",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "연금 수급증서 발급",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f17",
+      "item": "재발급 신청자격",
+      "value": "국민연금 수급자",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "국민연금 수급자",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f18",
+      "item": "재발급 신청방법",
+      "value": "방문, 우편, 전화, 팩스, 홈페이지",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "방문,우편,전화,팩스,홈페이지",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f19",
+      "item": "재발급 처리기간",
+      "value": "즉시 발급",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "즉시 발급",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f20",
+      "item": "재발급 안 되는 경우",
+      "value": "반환일시금 수령자는 연금 수급증서가 출력되지 않음",
+      "scope": "반환일시금 수령자",
+      "scopeWord": "반환일시금",
+      "quote": "반환일시금을 수령하신 분의 경우 연금 수급증서가 출력되지 않습니다.",
+      "src": "src-2.txt",
+      "must": true,
+      "key": "반환일시금",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f21",
+      "item": "고객센터 전화",
+      "value": "국번 없이 1355(유료, 평일 09시~18시)",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "국민연금 고객센터: 국번없이 1355(유료, 평일 09시~18시) 고객센터 ARS 구성도",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f22",
+      "item": "해외 문의 전화",
+      "value": "+82-63-713-6900(유료, 평일 09시~18시)",
+      "scope": "해외에서 이용 시",
+      "scopeWord": "해외",
+      "quote": "해외이용: +82-63-713-6900(유료, 평일 09시~18시)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    }
+  ],
+  "notUsed": [
+    {
+      "item": "기초연금 수급증명서 발급처·발급방법·서식",
+      "reason": "원문 3개 모두 국민연금공단 페이지라 기초연금 증명서 정보가 없음. 소제목 4의 기초연금 쪽은 별도 원문(복지로·정부24 등)이 필요함"
+    },
+    {
+      "item": "버튼 목적지 URL",
+      "reason": "원문에 '행동 링크' 줄이 없음"
+    },
+    {
+      "item": "심사청구 대상이 아닌 경우 표 1·2",
+      "reason": "세 페이지 공통 레이아웃 표로, 증명서 발급 주제와 관련 없음"
+    },
+    {
+      "item": "담당 부서(고객지원실 고객서비스부, 연금급여실 연금지급부)",
+      "reason": "독자 행동에 필요 없는 내부 부서명"
+    },
+    {
+      "item": "공단 주소(전주시 덕진구 기지로 180)",
+      "reason": "푸터 정보이고 방문 발급은 가까운 지사에서 하는 것이라 본문에 안 씀"
+    },
+    {
+      "item": "만족도 조사·메뉴·푸터 링크",
+      "reason": "메뉴 글자"
+    }
+  ]
+}

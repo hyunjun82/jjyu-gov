@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-severance-conversion",
+  "slug": "national-pension-severance-conversion",
+  "file": "data\\policies\\national-pension-severance-conversion.ts",
+  "title": "퇴직금 전환금 뜻과 확인, 1993~1999년 납부분과 퇴직소득세 계산",
+  "subs": [
+    "퇴직금 전환금은 무엇인가요?",
+    "퇴직금 전환금 내역은 어디서 확인하나요?",
+    "1993~1999년에 다닌 회사도 해당되나요?",
+    "퇴직소득세를 계산할 때 전환금이 반영되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T06:00:23.355Z"
+}

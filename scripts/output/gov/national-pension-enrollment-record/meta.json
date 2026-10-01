@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-enrollment-record",
+  "slug": "national-pension-enrollment-record",
+  "file": "data\\policies\\national-pension-enrollment-record.ts",
+  "title": "내가 낸 국민연금 가입내역 조회, 가입기간 10년 채웠는지와 미납 확인",
+  "subs": [
+    "내가 낸 국민연금은 모두 얼마인가요?",
+    "가입내역은 어디서 조회하나요?",
+    "가입기간 10년을 못 채우면 어떻게 되나요?",
+    "미납된 기간은 어떻게 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T03:08:28.809Z"
+}

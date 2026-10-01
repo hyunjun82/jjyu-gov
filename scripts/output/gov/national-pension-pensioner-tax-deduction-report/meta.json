@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-pensioner-tax-deduction-report",
+  "slug": "national-pension-pensioner-tax-deduction-report",
+  "file": "data\\policies\\national-pension-pensioner-tax-deduction-report.ts",
+  "title": "국민연금 수급자 소득·세액공제신고, 부양가족 등록과 종합소득세 신고 여부",
+  "subs": [
+    "연금 수급자는 소득·세액공제신고서를 왜 내나요?",
+    "연금 수급자 부양가족은 어떻게 등록하나요?",
+    "부양가족을 등록하면 떼는 세금이 줄어드나요?",
+    "연금만 받으면 종합소득세 신고는 안 해도 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T05:32:46.785Z"
+}

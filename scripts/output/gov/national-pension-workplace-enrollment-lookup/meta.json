@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-workplace-enrollment-lookup",
+  "slug": "national-pension-workplace-enrollment-lookup",
+  "file": "data\\policies\\national-pension-workplace-enrollment-lookup.ts",
+  "title": "국민연금 사업장 가입정보 조회, 회사 직원 수 확인과 사업자번호 검색",
+  "subs": [
+    "국민연금 사업장 가입정보는 어디서 조회하나요?",
+    "국민연금으로 회사 직원 수도 확인할 수 있나요?",
+    "조회되는 가입자 수는 실제 직원 수와 같나요?",
+    "사업장은 사업자번호로 검색할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T01:36:37.745Z"
+}

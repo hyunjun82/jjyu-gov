@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-claim-apply",
+  "slug": "national-pension-claim-apply",
+  "file": "data\\policies\\national-pension-claim-apply.ts",
+  "title": "국민연금 신청 안 하면 안 나오나요, 출생연도별 신청 시기와 필요 서류",
+  "subs": [
+    "국민연금은 신청하지 않으면 안 나오나요?",
+    "출생연도별로 몇 살부터 국민연금을 받나요?",
+    "국민연금 수령 신청은 언제 하나요?",
+    "국민연금 신청에 필요한 서류는 무엇인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T03:50:33.690Z"
+}

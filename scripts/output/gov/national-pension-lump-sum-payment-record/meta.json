@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-lump-sum-payment-record",
+  "slug": "national-pension-lump-sum-payment-record",
+  "file": "data\\policies\\national-pension-lump-sum-payment-record.ts",
+  "title": "반환일시금 뜻과 예전에 받은 금액 확인, 일시금 지급내역 조회와 발급",
+  "subs": [
+    "반환일시금은 무엇인가요?",
+    "예전에 받은 반환일시금이 얼마였는지 알 수 있나요?",
+    "일시금 지급내역은 어디서 조회하나요?",
+    "일시금 지급내역서는 어떻게 발급받나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T06:58:15.356Z"
+}

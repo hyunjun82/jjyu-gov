@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-raise-history",
+  "slug": "national-pension-raise-history",
+  "file": "data\\policies\\national-pension-raise-history.ts",
+  "title": "올해 국민연금 인상률과 적용 시기, 내 연금 인상내역 조회와 연도별 비교",
+  "subs": [
+    "올해 국민연금 인상률은 얼마인가요?",
+    "인상된 국민연금은 몇 월부터 들어오나요?",
+    "내 연금 인상내역은 어디서 조회하나요?",
+    "연도별 인상률은 어떻게 달라졌나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T04:14:08.463Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-auto-payment",
+  "slug": "national-pension-auto-payment",
+  "file": "data\\policies\\national-pension-auto-payment.ts",
+  "title": "노령연금 자동지급 신청, 안내받은 사람만 가능한 대상 확인과 청구 차이",
+  "subs": [
+    "노령연금 자동지급은 무엇인가요?",
+    "노령연금 자동지급 신청 대상은 누구인가요?",
+    "자동지급 안내를 받지 못했으면 어떻게 하나요?",
+    "자동지급은 일반 연금 청구와 무엇이 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T06:54:40.556Z"
+}

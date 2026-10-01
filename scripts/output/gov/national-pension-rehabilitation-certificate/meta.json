@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-rehabilitation-certificate",
+  "slug": "national-pension-rehabilitation-certificate",
+  "file": "data\\policies\\national-pension-rehabilitation-certificate.ts",
+  "title": "개인회생용 국민연금 확인서 발급, 미납내역 증명 방법과 납부확인서 차이",
+  "subs": [
+    "개인회생용 국민연금 확인서는 어디서 발급하나요?",
+    "개인회생용 확인서에는 미납 보험료가 어떻게 나오나요?",
+    "개인회생 법원에는 어떤 형태로 제출하나요?",
+    "개인회생용 확인서는 납부확인서와 무엇이 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T02:26:36.693Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-work-capacity-status",
+  "slug": "national-pension-work-capacity-status",
+  "file": "data\\policies\\national-pension-work-capacity-status.ts",
+  "title": "기초수급자 근로능력평가 조회, 평가 절차와 근로능력 없음 판정 기준",
+  "subs": [
+    "근로능력평가는 누가 받나요?",
+    "근로능력평가 진행상태는 어디서 조회하나요?",
+    "근로능력평가는 어떤 절차로 진행되나요?",
+    "근로능력 없음 판정은 어떤 기준으로 나오나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T06:10:48.803Z"
+}

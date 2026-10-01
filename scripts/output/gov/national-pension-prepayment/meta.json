@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-prepayment",
+  "slug": "national-pension-prepayment",
+  "file": "data\\policies\\national-pension-prepayment.ts",
+  "title": "국민연금 선납제도로 할인되나요, 선납 신청 방법과 소득공제 적용 여부",
+  "subs": [
+    "국민연금 선납제도는 무엇인가요?",
+    "국민연금을 선납하면 얼마나 할인되나요?",
+    "국민연금 선납은 어떻게 신청하나요?",
+    "선납한 보험료도 소득공제를 받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T03:51:33.191Z"
+}

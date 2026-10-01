@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-voluntary-enrollment",
+  "slug": "national-pension-voluntary-enrollment",
+  "file": "data\\policies\\national-pension-voluntary-enrollment.ts",
+  "title": "국민연금 임의가입 장단점, 퇴사 후나 대학생 가입 방법과 중단·탈퇴 절차",
+  "subs": [
+    "국민연금 임의가입은 하는 게 이득인가요?",
+    "퇴사한 뒤에도 임의가입할 수 있나요?",
+    "대학생은 국민연금에 어떻게 임의가입하나요?",
+    "임의가입을 중단하거나 탈퇴하려면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T04:06:54.206Z"
+}

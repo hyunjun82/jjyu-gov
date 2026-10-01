@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-income-report",
+  "slug": "national-pension-income-report",
+  "file": "data\\policies\\national-pension-income-report.ts",
+  "title": "국민연금 지역가입자 소득신고 방법, 미신고 시 보험료와 최저 납부액",
+  "subs": [
+    "지역가입자 소득신고는 어떻게 하나요?",
+    "지역가입자는 어떤 소득을 기준으로 신고하나요?",
+    "소득신고를 하지 않으면 보험료는 어떻게 정해지나요?",
+    "지역가입자 최저 납부액은 얼마인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T04:39:26.400Z"
+}

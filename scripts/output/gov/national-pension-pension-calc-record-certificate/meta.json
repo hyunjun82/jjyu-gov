@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-pension-calc-record-certificate",
+  "slug": "national-pension-pension-calc-record-certificate",
+  "file": "data\\policies\\national-pension-pension-calc-record-certificate.ts",
+  "title": "연금산정용 가입내역 확인서 발급, 가입증명서와 다른 점과 팩스 수령 방법",
+  "subs": [
+    "연금산정용 가입내역 확인서는 어디서 발급하나요?",
+    "사업장 가입자도 확인서를 직접 발급받을 수 있나요?",
+    "연금산정용 확인서는 가입증명서와 무엇이 다른가요?",
+    "가입내역 확인서를 팩스로도 받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T08:48:02.374Z"
+}

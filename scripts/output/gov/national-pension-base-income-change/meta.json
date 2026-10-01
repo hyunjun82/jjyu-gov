@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-base-income-change",
+  "slug": "national-pension-base-income-change",
+  "file": "data\\policies\\national-pension-base-income-change.ts",
+  "title": "국민연금 임의가입 얼마 내야 좋나요, 최소 금액과 기준소득월액 변경",
+  "subs": [
+    "임의가입자는 한 달에 얼마를 내는 게 좋나요?",
+    "임의가입 최소 금액은 얼마인가요?",
+    "기준소득월액은 무엇인가요?",
+    "임의가입 보험료 금액은 어떻게 변경하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T04:50:48.166Z"
+}

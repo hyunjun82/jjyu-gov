@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-mock-calculation",
+  "slug": "national-pension-mock-calculation",
+  "file": "data\\policies\\national-pension-mock-calculation.ts",
+  "title": "국민연금 모의계산, 월급 300만원 기준 내는 돈과 받는 돈, 계산 공식",
+  "subs": [
+    "국민연금 모의계산은 어디서 하나요?",
+    "월급 300만원이면 매달 보험료는 얼마인가요?",
+    "월급 300만원이면 나중에 얼마를 받나요?",
+    "국민연금 수령액 계산 공식은 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T23:26:28.407Z"
+}

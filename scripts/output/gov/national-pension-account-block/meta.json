@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-account-block",
+  "slug": "national-pension-account-block",
+  "file": "data\\policies\\national-pension-account-block.ts",
+  "title": "국민연금 계좌변경 안심차단 신청, 금융사기 막는 원리와 차단 후 변경",
+  "subs": [
+    "계좌변경 안심차단은 어디서 신청하나요?",
+    "안심차단은 어떤 금융사기를 막아주나요?",
+    "안심차단을 하면 계좌변경은 어떻게 막히나요?",
+    "차단 후 내가 계좌를 바꾸려면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T06:48:45.918Z"
+}

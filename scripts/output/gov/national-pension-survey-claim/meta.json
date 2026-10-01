@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-survey-claim",
+  "slug": "national-pension-survey-claim",
+  "file": "data\\policies\\national-pension-survey-claim.ts",
+  "title": "회사가 국민연금 가입을 안 해주나요, 실태조사 청구와 미가입 사업장 신고",
+  "subs": [
+    "회사가 국민연금에 가입시켜 주지 않으면 어떻게 하나요?",
+    "국민연금 실태조사 청구는 무엇인가요?",
+    "근로자가 아닌 제3자도 실태조사를 청구할 수 있나요?",
+    "미가입 사업장은 어떻게 신고하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T06:32:55.466Z"
+}

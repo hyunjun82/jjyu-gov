@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-qualification-claim",
+  "slug": "national-pension-qualification-claim",
+  "file": "data\\policies\\national-pension-qualification-claim.ts",
+  "title": "국민연금 가입 사업장 내역이 실제와 다른가요, 자격확인 청구 대상과 절차",
+  "subs": [
+    "가입했던 사업장 내역은 어디서 확인하나요?",
+    "가입이력이 실제 근무와 다르면 어떻게 하나요?",
+    "자격확인 청구는 누가 할 수 있나요?",
+    "자격확인 청구는 어떻게 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T05:15:14.525Z"
+}

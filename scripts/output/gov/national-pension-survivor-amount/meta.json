@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-survivor-amount",
+  "slug": "national-pension-survivor-amount",
+  "file": "data\\policies\\national-pension-survivor-amount.ts",
+  "title": "국민연금 유족연금 수령액 계산과 조회, 지급 기간과 중복 수령 기준",
+  "subs": [
+    "유족연금 수령액은 어떻게 계산하나요?",
+    "예상 유족연금액은 어디서 조회하나요?",
+    "유족연금은 언제까지 받나요?",
+    "내 국민연금과 유족연금을 둘 다 받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-09-30T23:45:20.475Z"
+}
