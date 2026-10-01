@@ -412,7 +412,7 @@ button: https://www.nps.or.kr/elctcvlcpt/dclraply/getOHAC0081M0.do?menuId=MN2505
 ---
 slug: national-pension-earned-income-report
 type: service
-title: 국민연금 노령연금 중복 수령, 소득 생기면 줄어드나요? 소득기준과 신고 방법
+title: 국민연금과 노령연금 동시 수령 가능한가요? 조건과 신청방법
 sub: 노령연금을 받으면서 소득이 생기면 연금이 줄어드나요?
 sub: 노령연금 수급자는 임대소득이나 사업소득도 신고해야 하나요?
 sub: 소득 있는 업무 신고는 어떻게 하나요?
