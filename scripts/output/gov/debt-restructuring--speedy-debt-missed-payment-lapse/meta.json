@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-missed-payment-lapse",
+  "slug": "speedy-debt-missed-payment-lapse",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정미납실효재조정",
+  "exportName": "채무조정신속채무조정미납실효재조정SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정미납실효재조정.tsx",
+  "title": "신속채무조정 미납 몇 번이면 실효되나요, 연체 처리와 재조정 신청",
+  "subs": [
+    "신속채무조정 납입금을 몇 번 미납하면 실효되나요?",
+    "신속채무조정이 실효되면 연체는 어떻게 처리되나요?",
+    "신속채무조정 재조정은 누가 신청할 수 있나요?",
+    "신속채무조정 재조정은 어떻게 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T10:40:36.523Z"
+}

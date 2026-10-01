@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-rejection-creditor",
+  "slug": "speedy-debt-rejection-creditor",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정부결사유채권자부동의",
+  "exportName": "채무조정신속채무조정부결사유채권자부동의SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정부결사유채권자부동의.tsx",
+  "title": "신속채무조정 부결 사유와 확률, 채권자가 부동의하면 재신청은 언제 될까?",
+  "subs": [
+    "신속채무조정은 왜 부결되나요?",
+    "신속채무조정이 부결될 확률은 얼마나 되나요?",
+    "채권자가 부동의하면 신속채무조정은 어떻게 되나요?",
+    "부결된 신속채무조정은 언제 재신청할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T10:31:57.614Z"
+}

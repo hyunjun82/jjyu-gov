@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-apply-online",
+  "slug": "speedy-debt-apply-online",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정신청방법비대면접수",
+  "exportName": "채무조정신속채무조정신청방법비대면접수SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정신청방법비대면접수.tsx",
+  "title": "신속채무조정 신청방법과 비대면 접수, 상담 예약과 접수통지 시점",
+  "subs": [
+    "신속채무조정은 어떻게 신청하나요?",
+    "신속채무조정은 비대면으로도 접수할 수 있나요?",
+    "신속채무조정 상담 예약은 어디서 하나요?",
+    "신속채무조정 접수통지는 언제 이루어지나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T09:44:30.694Z"
+}

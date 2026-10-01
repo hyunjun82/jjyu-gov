@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-credit-card",
+  "slug": "speedy-debt-credit-card",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정신용카드정지체크카드",
+  "exportName": "채무조정신속채무조정신용카드정지체크카드SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정신용카드정지체크카드.tsx",
+  "title": "신속채무조정 카드 정지될까? 밀린 카드값과 체크카드 사용부터 재발급까지",
+  "subs": [
+    "신속채무조정을 하면 신용카드가 정지되나요?",
+    "밀린 카드값도 신속채무조정에 들어가나요?",
+    "신속채무조정 중에도 체크카드는 쓸 수 있나요?",
+    "신속채무조정 후 신용카드는 언제 다시 발급받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T10:50:13.621Z"
+}

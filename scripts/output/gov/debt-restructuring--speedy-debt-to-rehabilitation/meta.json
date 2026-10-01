@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-to-rehabilitation",
+  "slug": "speedy-debt-to-rehabilitation",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정후개인회생전환병행",
+  "exportName": "채무조정신속채무조정후개인회생전환병행SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정후개인회생전환병행.tsx",
+  "title": "신속채무조정 후 개인회생 되나요, 개인워크아웃 전환부터 병행 신청까지",
+  "subs": [
+    "신속채무조정을 받은 뒤에도 개인회생을 신청할 수 있나요?",
+    "신속채무조정에서 개인워크아웃으로 전환할 수 있나요?",
+    "개인워크아웃 전환은 어떻게 신청하나요?",
+    "신속채무조정과 개인회생을 함께 진행할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T11:45:12.697Z"
+}

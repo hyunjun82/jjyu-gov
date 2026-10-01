@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-payment-deferral",
+  "slug": "speedy-debt-payment-deferral",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정납부유예기간연장",
+  "exportName": "채무조정신속채무조정납부유예기간연장SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정납부유예기간연장.tsx",
+  "title": "신속채무조정 납부유예는 어떻게 신청하나요, 유예 기간과 연장 가능 횟수",
+  "subs": [
+    "신속채무조정 납부유예는 어떤 경우에 신청할 수 있나요?",
+    "신속채무조정 납부유예 신청 방법은 무엇인가요?",
+    "신속채무조정 납부유예 기간은 얼마나 되나요?",
+    "신속채무조정 납부유예는 몇 번까지 연장할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T10:24:49.397Z"
+}

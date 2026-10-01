@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-vs-rehabilitation",
+  "slug": "speedy-debt-vs-rehabilitation",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정개인회생차이감면율단점",
+  "exportName": "채무조정신속채무조정개인회생차이감면율단점SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정개인회생차이감면율단점.tsx",
+  "title": "신속채무조정과 개인회생 차이, 감면율과 단점 따지면 어느 쪽이 유리할까?",
+  "subs": [
+    "신속채무조정과 개인회생은 무엇이 다른가요?",
+    "신속채무조정과 개인회생의 감면율은 얼마나 차이 나나요?",
+    "신속채무조정과 개인회생의 단점은 각각 무엇인가요?",
+    "신속채무조정과 개인회생 중 어느 쪽이 유리한가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T11:34:23.304Z"
+}

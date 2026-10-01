@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-loan-during",
+  "slug": "speedy-debt-loan-during",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정중대출담보전세마이너스",
+  "exportName": "채무조정신속채무조정중대출담보전세마이너스SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정중대출담보전세마이너스.tsx",
+  "title": "신속채무조정 중에 대출 되나요, 담보대출부터 전세대출과 마이너스통장까지",
+  "subs": [
+    "신속채무조정 중에도 새로 대출을 받을 수 있나요?",
+    "신속채무조정 중 담보대출은 가능한가요?",
+    "신속채무조정 중 전세대출은 받을 수 있나요?",
+    "신속채무조정 중 마이너스통장은 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T11:01:10.592Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-documents",
+  "slug": "speedy-debt-documents",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정필요서류발급",
+  "exportName": "채무조정신속채무조정필요서류발급SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정필요서류발급.tsx",
+  "title": "신속채무조정 필요서류는 어디서 떼나요, 서류 목록과 누락 시 보완 방법",
+  "subs": [
+    "신속채무조정 서류는 어디서 발급받나요?",
+    "신속채무조정에 필요한 서류는 무엇인가요?",
+    "서류가 빠지면 신속채무조정 신청은 어떻게 되나요?",
+    "누락된 신속채무조정 서류는 어떻게 보완하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T09:52:53.164Z"
+}

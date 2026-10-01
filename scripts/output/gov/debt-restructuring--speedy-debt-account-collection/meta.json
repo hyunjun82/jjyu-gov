@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-account-collection",
+  "slug": "speedy-debt-account-collection",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정계좌정지추심대위변제",
+  "exportName": "채무조정신속채무조정계좌정지추심대위변제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정계좌정지추심대위변제.tsx",
+  "title": "신속채무조정 계좌정지와 통장 사용, 추심 중단 시점과 대위변제 영향",
+  "subs": [
+    "신속채무조정 중 계좌정지가 되는 경우가 있나요?",
+    "신속채무조정 중 통장은 평소처럼 쓸 수 있나요?",
+    "신속채무조정 신청 후 추심은 언제 멈추나요?",
+    "대위변제되면 신속채무조정은 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T11:27:07.133Z"
+}

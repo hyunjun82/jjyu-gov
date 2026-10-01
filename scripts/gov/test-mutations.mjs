@@ -58,6 +58,17 @@ if (money) {
   add(`① 숫자 바꾸기 (${money} → ${v.toLocaleString()}원)`, 'article', money, `${v.toLocaleString()}원`, true);
 }
 
+// ⑫ 기간·나이·횟수 바꾸기 — 금액이 없는 글(서류·절차 안내)도 숫자 오차 시험이 서도록. 단위 붙은 숫자 하나를 facts 에 없는 값으로 (2026-10-01 신속채무조정 서류 글: 오차 6종뿐이라 시험 기준 7종에 걸렸다)
+{
+  const have = new Set(facts.flatMap((x) => [...nums(String(x.value)), ...nums(String(x.quote))]));
+  for (const t of lit) {
+    const m = [...t.matchAll(/(?<![\d,.~])(\d{1,3})(일|개월|년|세|회)(?![가-힣]*\d)/g)].find((mm) => have.has(mm[1]));
+    if (!m) continue;
+    const to = [7, 9, 11, 13, 17].map((d) => Number(m[1]) + d).find((n) => !have.has(String(n)));
+    if (to) { add(`⑫ 기간·나이 바꾸기 (${m[0]} → ${to}${m[2]})`, 'article', m[0], `${to}${m[2]}`, true); break; }
+  }
+}
+
 // ② 범위 뒤집기 — 원문 범위 쌍 "A~B" 가 글에 있으면 "B~A" 로
 const pairs = new Set(facts.flatMap((x) => [...ranges(x.value), ...ranges(x.quote)]).map(([a, b]) => `${a}|${b}`));
 for (const t of lit) {

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-payment-interest",
+  "slug": "speedy-debt-payment-interest",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정납입금이자예납금중도상환",
+  "exportName": "채무조정신속채무조정납입금이자예납금중도상환SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정납입금이자예납금중도상환.tsx",
+  "title": "신속채무조정 납입금 얼마일까? 이자 감면과 예납금부터 중도상환까지",
+  "subs": [
+    "신속채무조정 납입금은 얼마나 되나요?",
+    "신속채무조정 이자는 얼마나 감면되나요?",
+    "신속채무조정 예납금은 무엇인가요?",
+    "신속채무조정 중도상환은 언제든 가능한가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T10:15:46.681Z"
+}

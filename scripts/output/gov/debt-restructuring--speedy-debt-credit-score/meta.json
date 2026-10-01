@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-credit-score",
+  "slug": "speedy-debt-credit-score",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정신용점수공공기록회복",
+  "exportName": "채무조정신속채무조정신용점수공공기록회복SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정신용점수공공기록회복.tsx",
+  "title": "신속채무조정 신용점수 얼마나 떨어질까? 공공기록 등재와 회복 시기",
+  "subs": [
+    "신속채무조정을 하면 신용점수가 얼마나 떨어지나요?",
+    "신속채무조정은 공공기록에 등재되나요?",
+    "신속채무조정 기록은 언제 해제되나요?",
+    "신속채무조정 후 신용점수는 언제 회복되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T11:19:49.282Z"
+}

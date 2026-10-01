@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-unemployed-homemaker",
+  "slug": "speedy-debt-unemployed-homemaker",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정무직자주부프리랜서",
+  "exportName": "채무조정신속채무조정무직자주부프리랜서SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정무직자주부프리랜서.tsx",
+  "title": "무직자와 주부도 신속채무조정 되나요, 프리랜서 소득 증빙과 무직 서류",
+  "subs": [
+    "무직자도 신속채무조정을 받을 수 있나요?",
+    "전업주부도 신속채무조정 대상이 되나요?",
+    "프리랜서 소득은 어떻게 증빙하나요?",
+    "무직자는 신속채무조정에 어떤 서류를 내야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T09:32:24.548Z"
+}

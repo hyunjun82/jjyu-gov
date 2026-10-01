@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-vs-pre-workout",
+  "slug": "speedy-debt-vs-pre-workout",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정프리워크아웃차이",
+  "exportName": "채무조정신속채무조정프리워크아웃차이SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정프리워크아웃차이.tsx",
+  "title": "신속채무조정과 프리워크아웃 차이, 대상자 기준부터 지원 내용까지 비교",
+  "subs": [
+    "신속채무조정과 프리워크아웃은 무엇이 다른가요?",
+    "신속채무조정과 프리워크아웃의 대상자 기준은 어떻게 다른가요?",
+    "신속채무조정과 프리워크아웃의 지원 내용은 어떻게 다른가요?",
+    "신속채무조정과 프리워크아웃 중 어느 쪽을 신청해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T09:12:01.669Z"
+}

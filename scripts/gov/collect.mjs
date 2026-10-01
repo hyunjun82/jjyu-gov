@@ -83,6 +83,20 @@ const out = [];
 
 for (const [i, url] of urls.entries()) {
   const n = i + 1;
+  // 탭·쪽번호를 눌러야 전부 나오는 페이지(신복위 FAQ·협약기관 조회)는 브라우저로 직접 받아 scripts/output/sources/ 에 CAPTURED-BY 머리말로 저장해 둔다.
+  // 같은 주소의 저장본이 있으면 그걸 쓴다 — 빈 껍데기를 다시 뜨면 원문이 줄어든다 (2026-10-01 신속채무조정 리라이트)
+  const savedName = `${url.replace(/^https?:\/\//, '').replace(/[^a-zA-Z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 120)}.txt`;
+  const savedPath = path.join('scripts', 'output', 'sources', savedName);
+  if (fs.existsSync(savedPath)) {
+    const saved = fs.readFileSync(savedPath, 'utf8');
+    if (/CAPTURED-BY/.test(saved.slice(0, 800))) {
+      const file = `src-${n}.txt`;
+      fs.writeFileSync(path.join(DIR, file), `URL: ${url}\n최종 URL: ${url}\n제목: 직접 캡처 저장본\n수집: ${new Date().toISOString()}\n\n${saved}\n`);
+      out.push({ n, url, finalUrl: url, title: '직접 캡처 저장본', file, chars: saved.length, tables: 0, images: [], primary: true, saved: true });
+      console.log(`✓ ${n} 저장본 ${savedName} — ${saved.length}자`);
+      continue;
+    }
+  }
   // PDF 먼저 — 주소가 PDF 를 내려주면 화면 대신 PDF.js 로 읽는다
   try {
     const r = await ctx.request.get(url, { timeout: 45000 });

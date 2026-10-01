@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-youth-special",
+  "slug": "speedy-debt-youth-special",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정청년특례나이조건서류",
+  "exportName": "채무조정신속채무조정청년특례나이조건서류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정청년특례나이조건서류.tsx",
+  "title": "청년특례 신속채무조정 나이와 조건, 일반과 다른 점과 특례 신청 서류",
+  "subs": [
+    "청년특례 신속채무조정은 몇 살까지 받을 수 있나요?",
+    "청년특례 신속채무조정 조건은 무엇인가요?",
+    "청년특례는 일반 신속채무조정과 무엇이 다른가요?",
+    "청년특례 신청에는 어떤 서류가 필요한가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T11:55:43.577Z"
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.kinfa.or.kr/financialProduct/hessalLoanGeneral.do",
+    "finalUrl": "https://www.kinfa.or.kr/financialProduct/hessalLoanGeneral.do",
+    "title": "햇살론일반 > 생활안정자금 > 금융상품|서민금융진흥원",
+    "file": "src-1.txt",
+    "chars": 2495,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kinfa.or.kr/financialProduct/hessalLoan.do",
+    "finalUrl": "https://www.kinfa.or.kr/financialProduct/hessalLoan.do",
+    "title": "햇살론15 > 고금리대안자금(소액대출) > 금융상품|서민금융진흥원",
+    "file": "src-2.txt",
+    "chars": 2414,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "서민금융진흥원 앱 설치 QR코드(http://m.site.naver.com/12487)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=620",
+    "finalUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=620",
+    "title": "신용회복위원회 상환도우미 | 성실상환 혜택 | 공공정보 조기해제",
+    "file": "src-3.txt",
+    "chars": 2681,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.hf.go.kr/ko/sub01/sub01_02_01.do",
+    "finalUrl": "https://www.hf.go.kr/ko/sub01/sub01_02_01.do",
+    "title": "상품소개 | 디딤돌대출 | 주택담보대출 | 한국주택금융공사",
+    "file": "src-4.txt",
+    "chars": 6707,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.tossbank.com/product-service/loans/emergency-loan",
+    "finalUrl": "https://www.tossbank.com/product-service/loans/emergency-loan",
+    "title": "직접 캡처 저장본",
+    "file": "src-5.txt",
+    "chars": 1956,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.fsc.go.kr/po020201/76149",
+    "finalUrl": "https://www.fsc.go.kr/po020201/76149",
+    "title": "상세화면 - 주요정책문답 - 정책자료 - 정책마당 - 금융위원회",
+    "file": "src-6.txt",
+    "chars": 6248,
+    "tables": 13,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2000",
+    "finalUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2000",
+    "title": "신용회복위원회 금융과 생활 | 소액금융 | 소액대출 | 상품안내 | 일반",
+    "file": "src-7.txt",
+    "chars": 2918,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 8,
+    "url": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+    "finalUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=2500",
+    "title": "직접 캡처 저장본",
+    "file": "src-8.txt",
+    "chars": 22123,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  }
+]

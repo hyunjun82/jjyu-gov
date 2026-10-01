@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--speedy-debt-telecom-rental",
+  "slug": "speedy-debt-telecom-rental",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신속채무조정통신비렌탈료차할부",
+  "exportName": "채무조정신속채무조정통신비렌탈료차할부SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신속채무조정통신비렌탈료차할부.tsx",
+  "title": "신속채무조정에 통신비 들어가나요? 렌탈료와 차할부 대상까지",
+  "subs": [
+    "신속채무조정에 통신비도 포함되나요?",
+    "렌탈료도 신속채무조정 대상인가요?",
+    "자동차 할부금도 신속채무조정에 포함되나요?",
+    "신속채무조정 대상에서 빠지는 채무는 무엇인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-01T12:04:25.289Z"
+}
