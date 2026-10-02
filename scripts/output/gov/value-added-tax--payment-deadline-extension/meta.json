@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "value-added-tax--payment-deadline-extension",
+  "slug": "payment-deadline-extension",
+  "hub": "value-added-tax",
+  "dir": "value-added-tax",
+  "fileName": "payment-deadline-extension",
+  "exportName": "vatPaymentDeadlineExtensionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\value-added-tax\\payment-deadline-extension.tsx",
+  "title": "부가세 납부기한 연장 신청하는 법, 대상 사유와 제출 서류",
+  "subs": [
+    "어떤 사유가 연장 대상인가요?",
+    "신청은 언제까지 해야 하나요?",
+    "어떤 서류를 내야 하나요?",
+    "연장되면 가산세는 안 붙나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T04:33:24.810Z"
+}

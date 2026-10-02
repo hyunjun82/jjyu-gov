@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "value-added-tax--hometax-preliminary-return",
+  "slug": "hometax-preliminary-return",
+  "hub": "value-added-tax",
+  "dir": "value-added-tax",
+  "fileName": "hometax-preliminary-return",
+  "exportName": "vatHometaxPreliminaryReturnSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\value-added-tax\\hometax-preliminary-return.tsx",
+  "title": "부가세 예정신고 홈택스로 하는 법, 매출 매입 입력부터 전송까지",
+  "subs": [
+    "예정신고는 누가 직접 해야 하나요?",
+    "홈택스 어느 메뉴에서 시작하나요?",
+    "매출과 매입은 어떤 순서로 입력하나요?",
+    "전송한 신고서가 접수됐는지 어떻게 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T04:00:04.329Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "value-added-tax--early-refund-application",
+  "slug": "early-refund-application",
+  "hub": "value-added-tax",
+  "dir": "value-added-tax",
+  "fileName": "early-refund-application",
+  "exportName": "vatEarlyRefundApplicationSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\value-added-tax\\early-refund-application.tsx",
+  "title": "부가세 조기환급 신청하는 법, 대상 기간과 제출 서류",
+  "subs": [
+    "조기환급은 누가 받을 수 있나요?",
+    "신청 기간은 어떻게 끊나요?",
+    "어떤 서류를 함께 내나요?",
+    "환급금은 언제 들어오나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T04:44:12.087Z"
+}

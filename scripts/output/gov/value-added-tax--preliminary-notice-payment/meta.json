@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "value-added-tax--preliminary-notice-payment",
+  "slug": "preliminary-notice-payment",
+  "hub": "value-added-tax",
+  "dir": "value-added-tax",
+  "fileName": "preliminary-notice-payment",
+  "exportName": "vatPreliminaryNoticePaymentSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\value-added-tax\\preliminary-notice-payment.tsx",
+  "title": "부가세 예정고지 납부하는 법, 카드 계좌이체 가상계좌 선택하기",
+  "subs": [
+    "납부는 어디서 하나요?",
+    "카드로 내면 수수료가 붙나요?",
+    "가상계좌와 계좌이체는 뭐가 다른가요?",
+    "기한 당일 밤에 내도 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T04:25:47.201Z"
+}

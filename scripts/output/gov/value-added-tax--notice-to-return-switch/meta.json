@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "value-added-tax--notice-to-return-switch",
+  "slug": "notice-to-return-switch",
+  "hub": "value-added-tax",
+  "dir": "value-added-tax",
+  "fileName": "notice-to-return-switch",
+  "exportName": "vatNoticeToReturnSwitchSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\value-added-tax\\notice-to-return-switch.tsx",
+  "title": "예정고지 대신 예정신고로 바꾸는 신청, 실적 감소 시 전환 방법",
+  "subs": [
+    "고지받은 사람도 신고로 바꿀 수 있나요?",
+    "실적이 얼마나 줄어야 전환되나요?",
+    "전환은 따로 신청서를 내야 하나요?",
+    "신고로 바꾸면 받은 고지서는 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T04:17:35.713Z"
+}

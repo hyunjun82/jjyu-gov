@@ -1,0 +1,57 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EC%A7%95%EC%88%98%EB%B2%95/%EC%A0%9C12%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EC%A7%95%EC%88%98%EB%B2%95/%EC%A0%9C12%EC%A1%B0",
+    "title": "국세징수법",
+    "file": "src-1.txt",
+    "chars": 1412,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EC%A7%95%EC%88%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9/%EC%A0%9C9%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EC%A7%95%EC%88%98%EB%B2%95%20%EC%8B%9C%ED%96%89%EB%A0%B9/%EC%A0%9C9%EC%A1%B0",
+    "title": "국세징수법 시행령",
+    "file": "src-2.txt",
+    "chars": 1752,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2364&cntntsId=7741",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2364&cntntsId=7741",
+    "title": "국세청>국세신고안내>개인신고안내>세금납부 안내>국세전자납부 안내",
+    "file": "src-3.txt",
+    "chars": 3288,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2365&cntntsId=7742",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2365&cntntsId=7742",
+    "title": "국세청>국세신고안내>개인신고안내>세금납부 안내>신용카드납부 안내",
+    "file": "src-4.txt",
+    "chars": 1427,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2364&cntntsId=7741",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2364&cntntsId=7741",
+    "title": "국세청>국세신고안내>개인신고안내>세금납부 안내>국세전자납부 안내",
+    "file": "src-5.txt",
+    "chars": 3288,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

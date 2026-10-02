@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "value-added-tax--october-tax-deadlines",
+  "slug": "october-tax-deadlines",
+  "hub": "value-added-tax",
+  "dir": "value-added-tax",
+  "fileName": "october-tax-deadlines",
+  "exportName": "vatOctoberTaxDeadlinesSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\value-added-tax\\october-tax-deadlines.tsx",
+  "title": "10월에 내는 세금 정리, 국세청 세무일정으로 기한 확인하는 법",
+  "subs": [
+    "10월에는 어떤 세금을 내나요?",
+    "왜 10일이 아니라 12일, 25일이 아니라 26일인가요?",
+    "국세청 세무일정은 어디서 어떻게 보나요?",
+    "내 세금은 어디서 신고하고 내나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T04:52:34.912Z"
+}

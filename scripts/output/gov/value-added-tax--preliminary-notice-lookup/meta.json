@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "value-added-tax--preliminary-notice-lookup",
+  "slug": "preliminary-notice-lookup",
+  "hub": "value-added-tax",
+  "dir": "value-added-tax",
+  "fileName": "preliminary-notice-lookup",
+  "exportName": "vatPreliminaryNoticeLookupSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\value-added-tax\\preliminary-notice-lookup.tsx",
+  "title": "부가가치세 예정고지서 조회하는 법, 홈택스에서 고지세액 확인하기",
+  "subs": [
+    "예정고지서는 언제 발송되나요?",
+    "고지세액은 홈택스 어디서 조회하나요?",
+    "조회했는데 고지 내역이 없으면 어떤 경우인가요?",
+    "고지서를 못 받았어도 납부해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T04:07:10.896Z"
+}
