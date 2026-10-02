@@ -1,0 +1,54 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148972747&pWise=sub&pWiseSub=I1",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148972747&pWise=sub&pWiseSub=I1",
+    "title": "저소득 청년 자립 지원…올해 '청년내일저축계좌' 2만 4145명 선정 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-1.txt",
+    "chars": 3413,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "저소득 청년을 대상으로 정부가 저축액의 최대 3배를 추가 적립해주는 '청년내일저축계좌' 신규 가입자 모집이 시작된 1일 서울 동작구 노량진2동 주민센터에서 한 청년이 계좌를 신청하고 있다. 2023.5.1 (사진=저작권자(c) 연합뉴스, 무단 전재-재배포 금지)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000060",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000060",
+    "title": "직접 캡처 저장본",
+    "file": "src-2.txt",
+    "chars": 1965,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 3,
+    "url": "https://hope.welfareinfo.or.kr",
+    "finalUrl": "https://hope.welfareinfo.or.kr",
+    "title": "직접 캡처 저장본",
+    "file": "src-3.txt",
+    "chars": 1728,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 4,
+    "url": "https://hope.welfareinfo.or.kr",
+    "finalUrl": "https://hope.welfareinfo.or.kr",
+    "title": "직접 캡처 저장본",
+    "file": "src-4.txt",
+    "chars": 1728,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  }
+]

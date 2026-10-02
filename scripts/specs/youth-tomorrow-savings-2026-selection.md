@@ -6,7 +6,7 @@ cat: 저축
 catSlug: savings
 title: 청년내일저축계좌 2만 4145명 선정, 통장 개설 방법과 올해 놓쳤다면 2027년 가입 일정
 sub: 청년내일저축계좌 2026 선정 결과
-sub: 청년내일저축계좌 통장 개설
+sub: 청년내일저축계좌 통장 개설 기한
 sub: 청년내일저축계좌 적립 중지
 sub: 청년내일저축계좌 2027 신청
 source: https://www.korea.kr/news/policyNewsView.do?newsId=148972747&pWise=sub&pWiseSub=I1
