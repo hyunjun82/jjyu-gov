@@ -84,6 +84,13 @@ export function verifyFacts(slug) {
     }
     // 2) 값의 숫자가 전부 인용 안에 있나
     const qn = new Set(nums(x.quote));
+    // 세무일정 표처럼 인용이 "10 26 2026.2기 …"(월 일 칸)로 시작하면 값의 "10월 26일"(= 10.26)과 인용의 연도.월("2026.7")에서 나온 연도·월은 인용 안의 숫자다
+    //   — check-article 의 rowDates 와 같은 규칙 (2026-10-02 부가세 예정신고). 인용 첫머리가 월·일일 때만
+    const rd = String(x.quote).match(/^\s*\|?\s*(\d{1,2})\s*[ |]\s*(\d{1,2})\s/);
+    if (rd && Number(rd[1]) <= 12 && Number(rd[2]) <= 31) {
+      qn.add(`${Number(rd[1])}.${Number(rd[2])}`);
+      for (const d of String(x.quote).matchAll(/(?<![\d.])(20\d\d)\.(\d{1,2})(?![\d.])/g)) { qn.add(d[1]); qn.add(String(Number(d[2]))); }
+    }
     const miss = nums(x.value).filter((n) => !qn.has(n));
     if (miss.length) errors.push(`${tag} — 값의 숫자 ${miss.join(', ')} 가 인용에 없다 (값 "${x.value}")`);
     // 2-1) 필수 사실의 핵심어도 원문 인용 안의 말이어야 한다 (글 대조가 이 말로 누락을 본다)

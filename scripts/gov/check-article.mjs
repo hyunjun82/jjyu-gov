@@ -172,7 +172,9 @@ export function readerStrings(src) {
     .replace(/export const \w+Spokes[^=]*=\s*\[[\s\S]*?\n\];/g, '');
   // 한 줄에 있는 문자열은 묶는다 — 표 한 행 ['팩스', '02-…'] 을 칸마다 떼어 보면 '팩스'가 없다고 오탐한다
   return body.split('\n')
-    .map((line) => [...line.matchAll(/'((?:[^'\\]|\\.)*)'/g)].map((m) => m[1].replace(/\\'/g, "'")).join(' · '))
+    // 큰따옴표 문자열도 읽는다 — 문장에 작은따옴표('25일' 같은)가 있으면 모델이 "…" 로 쓰는데, 작은따옴표만 보면
+    //   그 문장은 숫자·추측어 검사를 통째로 건너뛰었다 (2026-10-02 부가세 예정신고 홈택스: 큰따옴표 intro 의 '대부분' 삽입을 못 잡음)
+    .map((line) => [...line.matchAll(/'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"/g)].map((m) => (m[1] ?? m[2]).replace(/\\'/g, "'").replace(/\\"/g, '"')).join(' · '))
     .filter((s) => s.trim());
 }
 
@@ -202,7 +204,16 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   //   '5'가 인용에 없다는 검사가 서로 반대로 요구해 고침이 맴돌았다 (2026-09-28 신생아 특례대출 신청대환)
   const nsrc = norm(srcPool);
   const scopeNums = facts.flatMap((x) => (x.scopeWord && nsrc.includes(norm(x.scopeWord)) ? numsLoose(x.scopeWord) : []));
-  const allowed = new Set([...facts.flatMap((x) => [...numsLoose(x.value), ...numsLoose(x.quote)]), ...numsLoose(specText), ...scopeNums]);
+  // 세무일정 같은 표는 월·일이 칸으로 나뉘어 인용이 "10 26 2026.2기 …" 로 나온다 — 글의 "10월 26일"(= 10.26)과 "2026년"·"7~9월분"을
+  //   막으면 모델이 쓸 수 있는 표기가 없어 고침이 맴돈다. 인용이 "월 일"로 시작하면 그 날짜를, 인용의 "2026.7" 에서 연도·월을 허용한다
+  //   (2026-10-02 부가세 예정신고). 인용 첫머리가 월·일일 때만 — 다른 사실의 숫자 둘을 날짜로 조합해 열어 주지 않는다
+  const rowDates = facts.flatMap((x) => {
+    const q = String(x.quote || '');
+    const m = q.match(/^\s*\|?\s*(\d{1,2})\s*[ |]\s*(\d{1,2})\s/);
+    const dotted = [...q.matchAll(/(?<![\d.])(20\d\d)\.(\d{1,2})(?![\d.])/g)].flatMap((d) => [d[1], String(Number(d[2]))]);
+    return [...(m && Number(m[1]) <= 12 && Number(m[2]) <= 31 ? [`${Number(m[1])}.${Number(m[2])}`] : []), ...(m ? dotted : [])];
+  });
+  const allowed = new Set([...facts.flatMap((x) => [...numsLoose(x.value), ...numsLoose(x.quote)]), ...numsLoose(specText), ...scopeNums, ...rowDates]);
   const bad = new Map();
   // 순서 표시("4단계"·"2번째")는 원문 수치가 아니다 — 절차 표의 단계 번호를 없는 숫자로 잡아
   //   모델이 "처음·둘째·…·마지막"으로 바꿔 쓰게 만들었다 (2026-09-24 독감 증명서 스포크)

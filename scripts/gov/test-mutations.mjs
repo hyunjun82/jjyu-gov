@@ -134,7 +134,8 @@ if (heroM) {
 // ⑦ 추측어 — 원문에 없는 말로 넣는다(원문이 "대부분"이라 쓴 글은 그 말이 허용된다)
 const srcPool = fs.readdirSync(DIR_OF(slug)).filter((f) => /^src-\d+\.txt$/.test(f)).map((f) => fs.readFileSync(path.join(DIR_OF(slug), f), 'utf8')).join('\n');
 const guess = ['대부분', '대개', '대략', '아마'].find((w) => !srcPool.includes(w) && BANNED.some(([re]) => re.test(w)));
-const qa1 = A.match(/intro:\s*\n?\s*'([^'.]{10,}?\.)/);
+// 첫 문장에 '10.25.'·'제1항.' 같은 마침표가 일찍 나오는 글도 시험이 서도록 '다.' 로 끝나는 첫 문장을 잡는다 (2026-10-02 부가세 예정신고 홈택스)
+const qa1 = A.match(/intro:\s*\n?\s*'([^'.]{10,}?\.)/) || A.match(/intro:\s*\n?\s*'([^']{10,}?다\.)/) || A.match(/intro:\s*\n?\s*"([^"]{10,}?다\.)/);
 if (qa1 && guess) add(`⑦ 추측어 넣기 (${guess})`, 'article', qa1[1], `${guess} ${qa1[1]}`);
 
 // ⑧ ⑨ facts
