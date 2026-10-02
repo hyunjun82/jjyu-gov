@@ -43,7 +43,7 @@ export const vatEarlyRefundApplicationSpokeContent: SpokeData = {
   cardLayout: 'act-first',
   heroHook:
     '수출이나 설비 투자로 매입세액이 쌓였는데 확정신고 뒤에야 환급받자니 자금이 빠듯해지는데요. 영세율 사업자나 설비를 새로 들인 사업자라면 매월 또는 매 2월 단위로 앞당겨 환급받을 수 있습니다. 영세율·설비·재무구조개선 중 어디에 드는지 조기환급 신청 대상부터 확인해 두면 신고 방법이 정해집니다. 신청 기간과 서류, 환급 시기까지 알아보겠습니다.',
-  heroAct: { label: '조기환급 신청 대상 확인하기', href: SRC1 },
+  heroAct: { label: '조기환급 신청 대상 찾기', href: SRC1 },
   keyFacts: {
     '조기환급기간': '예정신고기간 중 또는 과세기간 최종 3개월 중 매월 또는 매 2월',
     '월별 조기환급 신고기한': '조기환급기간이 끝난 날부터 25일 이내',
