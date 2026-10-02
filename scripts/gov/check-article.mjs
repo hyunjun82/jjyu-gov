@@ -161,7 +161,8 @@ export const BANNED = [[/(?<![가-힣])약\s*\d/, '약 N'], [/대략/, '대략']
 export function readerStrings(src) {
   const body = src
     .replace(/\/\*[\s\S]*?\*\//g, '')
-    .replace(/^const \w+ = '[^']*';$/gm, '')
+    // 주소 상수는 독자 글이 아니다 — 두 줄에 걸친 `const X =\n  'https://…';` 도 지운다 (옛 파이프라인 글, 2026-10-02)
+    .replace(/^const \w+ =\s*'[^']*';$/gm, '')
     .replace(/source:\s*\{[^{}]*\}/g, '')
     // highlights 는 본문 문장 안의 형광펜 조각이다 — 따로 읽히는 문장이 아니고, 본문에서 이미 검사된다
     .replace(/highlights:\s*\[[^\]]*\]/g, '')
@@ -227,6 +228,9 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   //   못 쓰고 출생일로만 써야 해 [범위]와 [짝]이 서로 반대로 요구했다 (2026-09-29 인플루엔자 어르신·어린이·임신부)
   const factText = facts.map((x) => `${x.value} ${x.quote} ${x.scopeWord && nsrc.includes(norm(x.scopeWord)) ? x.scopeWord : ''}`);
   const typed = new Set(factText.flatMap((ft) => typedNums(ft)));
+  // 사장님이 준 타이틀·소제목은 글자 그대로 쓴다(규칙 7) — 거기 적힌 "3.3%" 같은 숫자+단위는 facts 에 없어도 막지 않는다
+  //   (원문에 근거가 없으면 보고서 메모로만 남긴다). 글 곳곳에 같은 숫자를 쓰는 것도 타이틀 용어이므로 허용한다 (2026-10-02 원천세 프리랜서)
+  for (const tn of typedNums(specText)) typed.add(tn);
   const typedSeen = new Set();
   for (const s of strings) {
     for (const tn of typedNums(s)) {

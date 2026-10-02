@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "student-loan-icl-repayment--icl-after-resignation",
+  "slug": "icl-after-resignation",
+  "hub": "student-loan-icl-repayment",
+  "dir": "student-loan-icl-repayment",
+  "fileName": "icl-after-resignation",
+  "exportName": "iclAfterResignationSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\student-loan-icl-repayment\\icl-after-resignation.tsx",
+  "title": "퇴사 후 학자금 상환액 직접 납부하는 법, 원천공제 중단 뒤 절차",
+  "subs": [
+    "퇴사하면 누가 납부하나요?",
+    "회사가 떼고 안 냈으면 제가 또 내야 하나요?",
+    "퇴직금에서도 떼나요, 그때는 누가 내나요?",
+    "직접 낼 때 어디서 어떻게 납부하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:50:48.112Z"
+}

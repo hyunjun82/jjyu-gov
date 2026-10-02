@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "student-loan-icl-repayment--icl-deferment-application",
+  "slug": "icl-deferment-application",
+  "hub": "student-loan-icl-repayment",
+  "dir": "student-loan-icl-repayment",
+  "fileName": "icl-deferment-application",
+  "exportName": "iclDefermentApplicationSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\student-loan-icl-repayment\\icl-deferment-application.tsx",
+  "title": "학자금 상환 유예 신청하는 법, 대상 조건과 제출 서류",
+  "subs": [
+    "유예 대상 조건은 무엇인가요?",
+    "대상이면 조건 없이 되나요?",
+    "신청은 어디서 하고 서류는 무엇을 내나요?",
+    "유예가 안 되면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:50:48.089Z"
+}

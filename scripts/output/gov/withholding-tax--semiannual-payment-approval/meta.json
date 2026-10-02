@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "withholding-tax--semiannual-payment-approval",
+  "slug": "semiannual-payment-approval",
+  "hub": "withholding-tax",
+  "dir": "withholding-tax",
+  "fileName": "semiannual-payment-approval",
+  "exportName": "withholdingSemiannualApprovalSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\withholding-tax\\semiannual-payment-approval.tsx",
+  "title": "원천세 반기납부 신청하는 법, 신청 기한과 대상 확인",
+  "subs": [
+    "반기납부는 누가 할 수 있나요?",
+    "상시고용인원은 어떻게 세나요?",
+    "신청은 언제 하나요?",
+    "승인받으면 언제 내나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:47:19.832Z"
+}

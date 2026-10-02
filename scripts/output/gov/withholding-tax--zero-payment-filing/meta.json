@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "withholding-tax--zero-payment-filing",
+  "slug": "zero-payment-filing",
+  "hub": "withholding-tax",
+  "dir": "withholding-tax",
+  "fileName": "zero-payment-filing",
+  "exportName": "withholdingZeroPaymentSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\withholding-tax\\zero-payment-filing.tsx",
+  "title": "지급액이 없는 달 원천세 영 신고하는 법",
+  "subs": [
+    "조문에는 뭐라고 되어 있나요?",
+    "국세청 가산세 사례는 무엇을 말하나요?",
+    "그럼 실무에서는 어떻게 하나요?",
+    "다음 달에 다시 지급하면 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:50:48.141Z"
+}

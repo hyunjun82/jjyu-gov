@@ -2183,6 +2183,8 @@ import { 공무원연금GepsLumpSumSpokeContent } from '@/app/policy/[id]/[spoke
 import { 공무원연금GepsOverseasPensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsOverseasPension';
 import { 기초연금CheckIncomeAsset2026h2SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/CheckIncomeAsset2026h2';
 
+import { withholdingTaxFreelancerWithholdingRateCutSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/FreelancerWithholdingRateCut';
+
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
     'medal-standings': asianGames2026MedalStandingsSpokeContent,
@@ -4606,6 +4608,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'withholding-tax': {
+    'freelancer-withholding-rate-cut': withholdingTaxFreelancerWithholdingRateCutSpokeContent,
     'hometax-withholding-filing': withholdingHometaxFilingSpokeContent,
     'semiannual-payment-approval': withholdingSemiannualApprovalSpokeContent,
     'freelancer-3-3-withholding': withholdingFreelancerSpokeContent,

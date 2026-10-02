@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "stamp-tax--stamp-tax-late-payment",
+  "slug": "stamp-tax-late-payment",
+  "hub": "stamp-tax",
+  "dir": "stamp-tax",
+  "fileName": "stamp-tax-late-payment",
+  "exportName": "stampTaxLatePaymentSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\stamp-tax\\stamp-tax-late-payment.tsx",
+  "title": "인지세 기한 지나서 자진신고 납부하는 법",
+  "subs": [
+    "기한이 지나면 가산세가 얼마나 붙나요?",
+    "늦게라도 스스로 내면 줄어드나요?",
+    "부동산 매매계약서도 같은 기준인가요?",
+    "지금 내려면 어디서 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:54:51.275Z"
+}

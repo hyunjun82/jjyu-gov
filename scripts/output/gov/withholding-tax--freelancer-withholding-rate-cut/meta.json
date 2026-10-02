@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "withholding-tax--freelancer-withholding-rate-cut",
+  "slug": "freelancer-withholding-rate-cut",
+  "hub": "withholding-tax",
+  "dir": "withholding-tax",
+  "fileName": "FreelancerWithholdingRateCut",
+  "exportName": "withholding-taxFreelancerWithholdingRateCutSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\withholding-tax\\FreelancerWithholdingRateCut.tsx",
+  "title": "프리랜서 원천징수 3.3%에서 2.2%로 인하 추진, 세제개편안 내용과 달라지는 점",
+  "subs": [
+    "프리랜서 원천징수 2.2%는 확정된 건가요?",
+    "프리랜서 원천징수 3.3%가 2.2%로 줄면 얼마나 달라지나요?",
+    "프리랜서 원천징수 3.3%와 2.2%는 어떻게 계산되나요?",
+    "프리랜서 원천징수 2.2%가 시행되기 전에는 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T08:53:22.436Z"
+}

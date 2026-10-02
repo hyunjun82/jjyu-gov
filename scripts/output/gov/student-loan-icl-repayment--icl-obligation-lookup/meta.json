@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "student-loan-icl-repayment--icl-obligation-lookup",
+  "slug": "icl-obligation-lookup",
+  "hub": "student-loan-icl-repayment",
+  "dir": "student-loan-icl-repayment",
+  "fileName": "icl-obligation-lookup",
+  "exportName": "iclObligationLookupSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\student-loan-icl-repayment\\icl-obligation-lookup.tsx",
+  "title": "취업 후 학자금 의무상환액 조회하는 법, 통지서와 계산 구조 확인하기",
+  "subs": [
+    "내 상환액은 어떻게 정해진 건가요?",
+    "상환기준소득은 어디서 확인하나요?",
+    "통지 내역은 어디서 보나요?",
+    "통지가 온 뒤에는 어떻게 진행되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:50:48.526Z"
+}

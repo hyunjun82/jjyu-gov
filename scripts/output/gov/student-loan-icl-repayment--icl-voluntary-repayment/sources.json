@@ -1,0 +1,57 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B7%A8%EC%97%85%20%ED%9B%84%20%ED%95%99%EC%9E%90%EA%B8%88%20%EC%83%81%ED%99%98%20%ED%8A%B9%EB%B3%84%EB%B2%95/%EC%A0%9C18%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B7%A8%EC%97%85%20%ED%9B%84%20%ED%95%99%EC%9E%90%EA%B8%88%20%EC%83%81%ED%99%98%20%ED%8A%B9%EB%B3%84%EB%B2%95/%EC%A0%9C18%EC%A1%B0",
+    "title": "취업 후 학자금 상환 특별법",
+    "file": "src-1.txt",
+    "chars": 3024,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B7%A8%EC%97%85%20%ED%9B%84%20%ED%95%99%EC%9E%90%EA%B8%88%20%EC%83%81%ED%99%98%20%ED%8A%B9%EB%B3%84%EB%B2%95/%EC%A0%9C24%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B7%A8%EC%97%85%20%ED%9B%84%20%ED%95%99%EC%9E%90%EA%B8%88%20%EC%83%81%ED%99%98%20%ED%8A%B9%EB%B3%84%EB%B2%95/%EC%A0%9C24%EC%A1%B0",
+    "title": "취업 후 학자금 상환 특별법",
+    "file": "src-2.txt",
+    "chars": 2033,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.icl.go.kr",
+    "finalUrl": "https://www.icl.go.kr/websquare/websquare.jsp?w2xPath=/xml/index.xml",
+    "title": "국세청 취업 후 학자금 상환",
+    "file": "src-3.txt",
+    "chars": 1886,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?taxYear=2026&taxMonth=10&mi=135747",
+    "finalUrl": "https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?taxYear=2026&taxMonth=10&mi=135747",
+    "title": "국세청>국세정책/제도>통합자료실>세무일정> 목록형 > 2026년 > 10월",
+    "file": "src-4.txt",
+    "chars": 1421,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B7%A8%EC%97%85%20%ED%9B%84%20%ED%95%99%EC%9E%90%EA%B8%88%20%EC%83%81%ED%99%98%20%ED%8A%B9%EB%B3%84%EB%B2%95/%EC%A0%9C18%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%B7%A8%EC%97%85%20%ED%9B%84%20%ED%95%99%EC%9E%90%EA%B8%88%20%EC%83%81%ED%99%98%20%ED%8A%B9%EB%B3%84%EB%B2%95/%EC%A0%9C18%EC%A1%B0",
+    "title": "취업 후 학자금 상환 특별법",
+    "file": "src-5.txt",
+    "chars": 3024,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

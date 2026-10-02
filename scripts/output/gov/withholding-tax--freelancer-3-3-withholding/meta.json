@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "withholding-tax--freelancer-3-3-withholding",
+  "slug": "freelancer-3-3-withholding",
+  "hub": "withholding-tax",
+  "dir": "withholding-tax",
+  "fileName": "freelancer-3-3-withholding",
+  "exportName": "withholdingFreelancerSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\withholding-tax\\freelancer-3-3-withholding.tsx",
+  "title": "프리랜서 3.3% 원천세 신고하는 법, 사업소득 지급 시 절차",
+  "subs": [
+    "3.3%는 어디서 나온 숫자인가요?",
+    "누가 원천징수를 해야 하나요?",
+    "떼고 나서 무엇을 하나요?",
+    "깜빡하고 안 냈으면 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:47:19.841Z"
+}

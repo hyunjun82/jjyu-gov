@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "student-loan-icl-repayment--icl-voluntary-repayment",
+  "slug": "icl-voluntary-repayment",
+  "hub": "student-loan-icl-repayment",
+  "dir": "student-loan-icl-repayment",
+  "fileName": "icl-voluntary-repayment",
+  "exportName": "iclVoluntaryRepaymentSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\student-loan-icl-repayment\\icl-voluntary-repayment.tsx",
+  "title": "학자금 자발적 상환 납부하는 법, 원천공제와 중복 시 처리",
+  "subs": [
+    "의무가 없어도 미리 갚을 수 있나요?",
+    "미리 갚으면 의무상환액에서 빼 주나요?",
+    "통지를 받은 뒤에도 직접 낼 수 있나요?",
+    "어디서 납부하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:54:50.699Z"
+}

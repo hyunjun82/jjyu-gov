@@ -110,6 +110,7 @@ export const withholdingTaxPolicy = {
 } as const;
 
 export const withholdingTaxSpokes = [
+  { slug: 'freelancer-withholding-rate-cut', role: 'guide', title: '프리랜서 원천징수 3.3%에서 2.2%로 인하 추진, 세제개편안 내용과 달라지는 점' },
   { slug: 'hometax-withholding-filing', role: 'apply', title: '원천세 홈택스로 신고하는 법, 원천징수이행상황신고서 전송까지' },
   { slug: 'withholding-statement-form', role: 'apply', title: '원천징수이행상황신고서 작성하는 법, 인원 총지급액 소득세 칸 채우기' },
   { slug: 'semiannual-payment-approval', role: 'apply', title: '원천세 반기납부 신청하는 법, 신청 기한과 대상 확인' },

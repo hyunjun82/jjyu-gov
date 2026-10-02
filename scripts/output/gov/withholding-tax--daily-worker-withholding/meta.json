@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "withholding-tax--daily-worker-withholding",
+  "slug": "daily-worker-withholding",
+  "hub": "withholding-tax",
+  "dir": "withholding-tax",
+  "fileName": "daily-worker-withholding",
+  "exportName": "withholdingDailyWorkerSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\withholding-tax\\daily-worker-withholding.tsx",
+  "title": "일용직 원천세 신고하는 법, 일용근로소득 지급명세서까지",
+  "subs": [
+    "일용직 세율은 정직원과 다른가요?",
+    "원천세는 언제 내나요?",
+    "지급명세서는 언제 내나요?",
+    "빠뜨리면 어떤 불이익이 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:47:19.859Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "stamp-tax--e-revenue-stamp-purchase",
+  "slug": "e-revenue-stamp-purchase",
+  "hub": "stamp-tax",
+  "dir": "stamp-tax",
+  "fileName": "e-revenue-stamp-purchase",
+  "exportName": "eRevenueStampPurchaseSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\stamp-tax\\e-revenue-stamp-purchase.tsx",
+  "title": "전자수입인지 사는 법, 구매부터 계약서 첨부까지",
+  "subs": [
+    "전자수입인지가 뭔가요?",
+    "꼭 붙여야 하나요?",
+    "얼마짜리를 사야 하나요?",
+    "언제까지 처리해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:54:51.964Z"
+}

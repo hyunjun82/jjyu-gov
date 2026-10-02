@@ -91,6 +91,8 @@ export function verifyFacts(slug) {
       qn.add(`${Number(rd[1])}.${Number(rd[2])}`);
       for (const d of String(x.quote).matchAll(/(?<![\d.])(20\d\d)\.(\d{1,2})(?![\d.])/g)) { qn.add(d[1]); qn.add(String(Number(d[2]))); }
     }
+    // 인용의 "(10/15)" 같은 슬래시 날짜는 10월 15일(= 10.15)과 같다 (2026-10-02 학자금 연정산 고지 기한)
+    for (const d of String(x.quote).matchAll(/(?<![\d/])(\d{1,2})\/(\d{1,2})(?![\d/])/g)) if (Number(d[1]) <= 12 && Number(d[2]) <= 31) qn.add(`${Number(d[1])}.${Number(d[2])}`);
     const miss = nums(x.value).filter((n) => !qn.has(n));
     if (miss.length) errors.push(`${tag} — 값의 숫자 ${miss.join(', ')} 가 인용에 없다 (값 "${x.value}")`);
     // 2-1) 필수 사실의 핵심어도 원문 인용 안의 말이어야 한다 (글 대조가 이 말로 누락을 본다)

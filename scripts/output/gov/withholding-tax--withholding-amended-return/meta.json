@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "withholding-tax--withholding-amended-return",
+  "slug": "withholding-amended-return",
+  "hub": "withholding-tax",
+  "dir": "withholding-tax",
+  "fileName": "withholding-amended-return",
+  "exportName": "withholdingAmendedReturnSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\withholding-tax\\withholding-amended-return.tsx",
+  "title": "원천세 수정신고하는 법, 금액을 잘못 넣었을 때 경정청구까지",
+  "subs": [
+    "적게 신고했을 때는 어떻게 하나요?",
+    "많이 신고했을 때는 어떻게 하나요?",
+    "청구하면 언제 답이 오나요?",
+    "고치기 전에 가산세부터 걱정해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:50:48.187Z"
+}
