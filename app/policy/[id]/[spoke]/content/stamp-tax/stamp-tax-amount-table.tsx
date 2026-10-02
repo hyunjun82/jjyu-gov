@@ -63,7 +63,7 @@ export const stampTaxAmountTableSpokeContent: SpokeData = {
   qa: [
     {
       q: '세액표는 어디에 있나요?', anchor: 'where-is-tax-table',
-      act: { label: '세액표 조문 찾아보기', url: SRC1 },
+      act: { label: '인지세 세액표 구간 확인하기', url: SRC1 },
       table: {
         caption: '세액표 읽는 순서',
         headers: ['단계', '확인할 것'],

@@ -89,7 +89,7 @@ export const iclDefermentApplicationSpokeContent: SpokeData = {
     },
     {
       q: '신청은 어디서 하고 서류는 무엇을 내나요?', anchor: 'how-to-apply-documents',
-      act: { label: 'ICL 누리집에서 유예 신청하기', url: SRC3 },
+      act: { label: 'ICL 홈페이지에서 유예 신청하기', url: SRC3 },
       table: {
         caption: '유예 신청 경로',
         headers: ['단계', '할 일'],
