@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "individual-consumption-tax--ict-payment-extension",
+  "slug": "ict-payment-extension",
+  "hub": "individual-consumption-tax",
+  "dir": "individual-consumption-tax",
+  "fileName": "ict-payment-extension",
+  "exportName": "ictPaymentExtensionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\individual-consumption-tax\\ict-payment-extension.tsx",
+  "title": "개별소비세 납부기한 연장 신청하는 법",
+  "subs": [
+    "어떤 사유가 있어야 연장되나요?",
+    "신청은 언제까지 어디서 하나요?",
+    "얼마나 미룰 수 있고 가산세는 어떻게 되나요?",
+    "신고기한도 같이 미뤄지나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:54:51.918Z"
+}

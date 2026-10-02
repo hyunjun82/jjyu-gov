@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "individual-consumption-tax--hometax-ict-return",
+  "slug": "hometax-ict-return",
+  "hub": "individual-consumption-tax",
+  "dir": "individual-consumption-tax",
+  "fileName": "hometax-ict-return",
+  "exportName": "ictHometaxReturnSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\individual-consumption-tax\\hometax-ict-return.tsx",
+  "title": "개별소비세 홈택스로 신고하는 법, 과세표준 입력부터 전송까지",
+  "subs": [
+    "홈택스 어느 메뉴에서 시작하나요?",
+    "과세표준은 무엇을 기준으로 넣나요?",
+    "신고서에는 무엇을 입력하고 무엇을 붙이나요?",
+    "전송한 뒤에는 무엇을 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:54:51.263Z"
+}

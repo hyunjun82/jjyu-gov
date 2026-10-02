@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "individual-consumption-tax--entertainment-venue-return",
+  "slug": "entertainment-venue-return",
+  "hub": "individual-consumption-tax",
+  "dir": "individual-consumption-tax",
+  "fileName": "entertainment-venue-return",
+  "exportName": "ictEntertainmentVenueReturnSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\individual-consumption-tax\\entertainment-venue-return.tsx",
+  "title": "과세유흥장소 개별소비세 신고하는 법, 매월 제출 서류와 기한",
+  "subs": [
+    "우리 가게가 과세유흥장소에 해당하나요?",
+    "매월 언제까지 신고하고 내나요?",
+    "신고서에는 무엇을 적고 어떤 서류를 내나요?",
+    "홈택스 어디서 신고하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:54:50.802Z"
+}

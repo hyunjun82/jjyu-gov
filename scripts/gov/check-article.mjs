@@ -236,9 +236,12 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
     for (const tn of typedNums(s)) {
       const [n, u] = tn.split('|');
       // 원문에 단위 없이 나온 숫자(표 머리에 단위가 있는 표)는 단위를 가릴 수 없다 — 다른 단위로만 나올 때 막는다
-      if (!u || /^(일|월|년|시|분)$/.test(u) || bad.has(n) || typed.has(tn) || typed.has(`${n}|`) || typedSeen.has(tn)) continue;
-      typedSeen.add(tn);
+      if (!u || bad.has(n) || typed.has(tn) || typed.has(`${n}|`) || typedSeen.has(tn)) continue;
       const has = [...typed].filter((x) => x.startsWith(`${n}|`)).map((x) => x.split('|')[1] || '(단위 없음)');
+      // 날짜·시각 단위(일·월·년·시·분)는 범위 쌍·순서 검사가 보므로 건너뛴다 — 단, 그 숫자가 원문에 다른 단위(조·원·세 …)로만 나오면 엉뚱한 자리의 숫자다
+      //   ("10일 전"을 "17일 전"으로 바꿔도 17 이 '제17조'로 facts 에 있어 통과하던 구멍, 2026-10-02 개별소비세 납부기한 연장)
+      if (/^(일|월|년|시|분)$/.test(u) && !has.some((h) => h !== '(단위 없음)' && !/^(일|월|년|시|분)$/.test(h))) continue;
+      typedSeen.add(tn);
       errors.push(`[짝] ${n}${u} — 원문에서 ${n} 은 ${has.join('·') || '다른 단위'} 로만 나온다: "${s.slice(0, 70)}"`);
     }
   }

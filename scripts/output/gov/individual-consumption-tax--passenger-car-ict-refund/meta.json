@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "individual-consumption-tax--passenger-car-ict-refund",
+  "slug": "passenger-car-ict-refund",
+  "hub": "individual-consumption-tax",
+  "dir": "individual-consumption-tax",
+  "fileName": "passenger-car-ict-refund",
+  "exportName": "ictPassengerCarRefundSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\individual-consumption-tax\\passenger-car-ict-refund.tsx",
+  "title": "자동차 개별소비세 환급 신청하는 법, 대상과 제출 서류",
+  "subs": [
+    "누가 자동차 개별소비세를 면제받거나 돌려받을 수 있나요?",
+    "얼마까지 돌려받을 수 있나요?",
+    "환급은 누가 어디에 신청하나요?",
+    "어떤 서류를 내야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T06:54:52.975Z"
+}
