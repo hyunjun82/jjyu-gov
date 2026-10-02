@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "value-added-tax",
+  "slug": "value-added-tax",
+  "file": "data\\policies\\value-added-tax.ts",
+  "title": "부가가치세 예정신고 확정신고 기간 확인하고 홈택스로 신고하는 법",
+  "subs": [
+    "예정신고 기간은 언제인가요?",
+    "확정신고 기간은 언제인가요?",
+    "홈택스 어느 메뉴에서 신고하나요?",
+    "신고서를 전송한 뒤에는 무엇을 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T22:14:32.315Z"
+}

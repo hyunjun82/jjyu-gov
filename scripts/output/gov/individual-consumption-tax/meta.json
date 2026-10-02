@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "individual-consumption-tax",
+  "slug": "individual-consumption-tax",
+  "file": "data\\policies\\individual-consumption-tax.ts",
+  "title": "개별소비세 신고 납부 대상과 기한 확인하는 법",
+  "subs": [
+    "개별소비세는 누가 내나요?",
+    "신고 납부 기한은 언제까지인가요?",
+    "이번 10월에는 무엇을 언제까지 내나요?",
+    "홈택스 어디서 신고하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T22:13:51.620Z"
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nts.go.kr",
+    "finalUrl": "https://www.nts.go.kr/",
+    "title": "국세청",
+    "file": "src-1.txt",
+    "chars": 4202,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "국세청 전경"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?taxYear=2026&taxMonth=10&mi=135747",
+    "finalUrl": "https://www.nts.go.kr/nts/ad/taxSchdul/selectList.do?taxYear=2026&taxMonth=10&mi=135747",
+    "title": "국세청>국세정책/제도>통합자료실>세무일정> 목록형 > 2026년 > 10월",
+    "file": "src-2.txt",
+    "chars": 1421,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://call.nts.go.kr",
+    "finalUrl": "https://call.nts.go.kr/call/main.do",
+    "title": "국세상담센터",
+    "file": "src-3.txt",
+    "chars": 1711,
+    "tables": 40,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41&tm2lIdx=4102000000&tm3lIdx=4102010000",
+    "finalUrl": "https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&tmIdx=41&tm2lIdx=4102000000&tm3lIdx=4102010000",
+    "title": "국세청 홈택스 - 세금신고 > 부가가치세 신고 > 부가가치세 과세신고(일반·간이·대리납부)",
+    "file": "src-4.txt",
+    "chars": 1612,
+    "tables": 4,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "student-loan-icl-repayment",
+  "slug": "student-loan-icl-repayment",
+  "file": "data\\policies\\student-loan-icl-repayment.ts",
+  "title": "취업 후 학자금 상환 원천공제 통지서 받고 상환액 확인하는 법",
+  "subs": [
+    "원천공제 통지서는 언제 오나요?",
+    "통지된 상환액은 어떻게 계산된 건가요?",
+    "통지 내역은 어디서 확인하나요?",
+    "통지를 받은 뒤 회사는 언제까지 내나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T22:06:06.919Z"
+}

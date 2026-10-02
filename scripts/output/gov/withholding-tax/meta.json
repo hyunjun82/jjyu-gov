@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "withholding-tax",
+  "slug": "withholding-tax",
+  "file": "data\\policies\\withholding-tax.ts",
+  "title": "원천세 신고 납부 기한 확인하고 홈택스로 신고하는 법",
+  "subs": [
+    "원천세 신고 납부 기한은 언제까지인가요?",
+    "반기납부 승인을 받으면 기한이 어떻게 달라지나요?",
+    "홈택스 어느 메뉴에서 신고하나요?",
+    "신고서를 전송한 뒤에는 무엇을 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T22:06:06.915Z"
+}
