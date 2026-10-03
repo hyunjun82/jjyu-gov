@@ -63,7 +63,7 @@ export const 채무조정개인파산자격SpokeContent: SpokeData = {
   qa: [
     {
       q: '개인파산은 누가 신청하나요?', anchor: 'who-can-file',
-      act: { label: '개인파산 신청 절차 살펴보기', url: SRC1 },
+      act: { label: '개인파산 신청 절차 알아보기', url: SRC1 },
       table: {
         caption: '신청 뒤 진행 순서',
         headers: ['단계', '내용'],
