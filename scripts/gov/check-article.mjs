@@ -219,8 +219,20 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   // 순서 표시("4단계"·"2번째")는 원문 수치가 아니다 — 절차 표의 단계 번호를 없는 숫자로 잡아
   //   모델이 "처음·둘째·…·마지막"으로 바꿔 쓰게 만들었다 (2026-09-24 독감 증명서 스포크)
   const ORDINAL = /(?<![\d.,])\d{1,2}\s*(?:단계|번째)/g;
-  for (const s of strings) for (const n of nums(s.replace(ORDINAL, ''))) if (!allowed.has(n) && !bad.has(n)) bad.set(n, s);
+  // 가정 예시 — '가정'과 '예시'가 함께 든 문자열은 사장님이 허용한 계산 예시(숫자를 가정해 계산)다. 그 문자열의 숫자는 막지 않는다.
+  //   (spec 에 example: 가정 예시 허용 이 있는 글에서만 모델이 쓴다. 계산이 맞는지는 보고서 단계에서 사람이 본다) (2026-10-03)
+  const isAssumed = (s) => /가정/.test(s) && /예시/.test(s);
+  for (const s of strings) { if (isAssumed(s)) continue; for (const n of nums(s.replace(ORDINAL, ''))) if (!allowed.has(n) && !bad.has(n)) bad.set(n, s); }
   for (const [n, s] of bad) errors.push(`[숫자] ${n} — facts 에 없다: "${s.slice(0, 80)}"`);
+  // 달력 검사 — 월은 1~12, '월 일' 앞뒤로 붙은 일은 1~31
+  const calSeen = new Set();
+  for (const s of strings) {
+    if (isAssumed(s)) continue;
+    for (const m of s.matchAll(/(?<![\d.])(\d{1,3})\s*월(?!\s*분)\s*(?:(\d{1,3})\s*일)?/g)) {
+      const mon = Number(m[1]), day = m[2] ? Number(m[2]) : 0;
+      if ((mon < 1 || mon > 12 || day > 31) && !calSeen.has(m[0])) { calSeen.add(m[0]); errors.push(`[날짜] "${m[0].trim()}" — 달력에 없는 날짜다: "${s.slice(0, 60)}"`); }
+    }
+  }
 
   // 짝 ① 숫자+단위 — 글의 "19번"은 facts 에도 "19번"이 있어야 한다 ("19세"·"19일"만 있으면 엉뚱한 자리의 숫자다).
   //   날짜·시각 단위(일·월·년·시·분)는 뺀다 — 범위 쌍·순서 검사가 본다
@@ -233,6 +245,7 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   for (const tn of typedNums(specText)) typed.add(tn);
   const typedSeen = new Set();
   for (const s of strings) {
+    if (isAssumed(s)) continue;
     for (const tn of typedNums(s)) {
       const [n, u] = tn.split('|');
       // 원문에 단위 없이 나온 숫자(표 머리에 단위가 있는 표)는 단위를 가릴 수 없다 — 다른 단위로만 나올 때 막는다

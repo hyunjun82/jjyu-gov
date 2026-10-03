@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19411",
+    "finalUrl": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=19411",
+    "title": "〈2025년 우리나라 퇴직연금 투자 백서〉 퇴직연금 적립금 500조 원 돌파, 역대 최고 수익률(6.5%) 달성 | 고용노동부 > 뉴스·소식 > 보도·설명 > 보도자료",
+    "file": "src-1.txt",
+    "chars": 9004,
+    "tables": 19,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://fss.or.kr/fss/lifeplan/rtrmCmpr/list.do?menuNo=200965",
+    "finalUrl": "https://fss.or.kr/fss/lifeplan/rtrmCmpr/list.do?menuNo=200965",
+    "title": "수익률(목록) | 퇴직연금사업자 비교공시 | 퇴직연금 비교공시 | 연금상품 비교공시 | 통합연금포털 | 금융소비자보호 |",
+    "file": "src-2.txt",
+    "chars": 3370,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.fss.or.kr/fss/lifeplan/rtrmGoods/list.do?menuNo=200970",
+    "finalUrl": "https://www.fss.or.kr/fss/lifeplan/rtrmGoods/list.do?menuNo=200970",
+    "title": "원리금보장상품 현황(목록) | 퇴직연금 비교공시 | 연금상품 비교공시 | 통합연금포털 | 금융소비자보호 |",
+    "file": "src-3.txt",
+    "chars": 3608,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://fss.or.kr/fss/lifeplan/rtrmCmpr/list.do?menuNo=200965",
+    "finalUrl": "https://fss.or.kr/fss/lifeplan/rtrmCmpr/list.do?menuNo=200965",
+    "title": "수익률(목록) | 퇴직연금사업자 비교공시 | 퇴직연금 비교공시 | 연금상품 비교공시 | 통합연금포털 | 금융소비자보호 |",
+    "file": "src-4.txt",
+    "chars": 3370,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

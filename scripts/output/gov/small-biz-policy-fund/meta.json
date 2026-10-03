@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "small-biz-policy-fund",
+  "slug": "small-biz-policy-fund",
+  "file": "data\\policies\\small-biz-policy-fund.ts",
+  "title": "소상공인 정책자금 신청 방법, 5차 변경 공고 자금별 한도와 최대 10억",
+  "subs": [
+    "소상공인 정책자금은 어떤 종류가 있나요?",
+    "소상공인 정책자금은 누가 받을 수 있나요?",
+    "소상공인 정책자금은 얼마까지 빌릴 수 있나요?",
+    "소상공인 정책자금은 어디로 언제까지 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T00:16:38.205Z"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://portal.kfb.or.kr/compare/loan_household_new.php",
+    "finalUrl": "https://portal.kfb.or.kr/compare/loan_household_new.php",
+    "title": "은행별 비교공시 > 가계대출금리 > 대출금리비교 > 금리/수수료 > 전국은행연합회 소비자포털",
+    "file": "src-1.txt",
+    "chars": 7653,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://portal.kfb.or.kr/compare/loan_household.php",
+    "finalUrl": "https://portal.kfb.or.kr/compare/loan_household.php",
+    "title": "은행별 비교공시 > 가계대출금리 > 대출금리비교 > 금리/수수료 > 전국은행연합회 소비자포털",
+    "file": "src-2.txt",
+    "chars": 6172,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://fine.fss.or.kr/main/prc/lo/sub/lo009.jsp",
+    "finalUrl": "https://fine.fss.or.kr/cmmn/error.jsp",
+    "title": "금융감독원 통합홈페이지- 에러페이지",
+    "file": "src-3.txt",
+    "chars": 82,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://portal.kfb.or.kr/compare/loan_household_new.php",
+    "finalUrl": "https://portal.kfb.or.kr/compare/loan_household_new.php",
+    "title": "은행별 비교공시 > 가계대출금리 > 대출금리비교 > 금리/수수료 > 전국은행연합회 소비자포털",
+    "file": "src-4.txt",
+    "chars": 7653,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

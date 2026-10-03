@@ -479,6 +479,15 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { medianIncome2027Policy, medianIncome2027Spokes } from './median-income-2027';
+import { shinglesVaccineFreeSupportPolicy, shinglesVaccineFreeSupportSpokes } from './shingles-vaccine-free-support';
+import { youthFutureSavings2ndApplyPolicy, youthFutureSavings2ndApplySpokes } from './youth-future-savings-2nd-apply';
+import { nationalTaxRefundLookupPolicy, nationalTaxRefundLookupSpokes } from './national-tax-refund-lookup';
+import { loanSpreadRateComparePolicy, loanSpreadRateCompareSpokes } from './loan-spread-rate-compare';
+import { irp900TaxCreditRefundPolicy, irp900TaxCreditRefundSpokes } from './irp-900-tax-credit-refund';
+import { retirementPensionReturnCheckPolicy, retirementPensionReturnCheckSpokes } from './retirement-pension-return-check';
+import { nationalPensionMilitaryCreditPolicy, nationalPensionMilitaryCreditSpokes } from './national-pension-military-credit';
+import { nationalPensionFirstPremiumSupportPolicy, nationalPensionFirstPremiumSupportSpokes } from './national-pension-first-premium-support';
 import { nationalPensionAutoPaymentPolicy, nationalPensionAutoPaymentSpokes } from './national-pension-auto-payment';
 import { nationalPensionAccountBlockPolicy, nationalPensionAccountBlockSpokes } from './national-pension-account-block';
 import { nationalPensionSurveyClaimPolicy, nationalPensionSurveyClaimSpokes } from './national-pension-survey-claim';
@@ -1996,6 +2005,15 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'median-income-2027': medianIncome2027Policy,
+  'shingles-vaccine-free-support': shinglesVaccineFreeSupportPolicy,
+  'youth-future-savings-2nd-apply': youthFutureSavings2ndApplyPolicy,
+  'national-tax-refund-lookup': nationalTaxRefundLookupPolicy,
+  'loan-spread-rate-compare': loanSpreadRateComparePolicy,
+  'irp-900-tax-credit-refund': irp900TaxCreditRefundPolicy,
+  'retirement-pension-return-check': retirementPensionReturnCheckPolicy,
+  'national-pension-military-credit': nationalPensionMilitaryCreditPolicy,
+  'national-pension-first-premium-support': nationalPensionFirstPremiumSupportPolicy,
   'national-pension-auto-payment': nationalPensionAutoPaymentPolicy,
   'national-pension-account-block': nationalPensionAccountBlockPolicy,
   'national-pension-survey-claim': nationalPensionSurveyClaimPolicy,
@@ -3634,6 +3652,15 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'median-income-2027': medianIncome2027Spokes,
+  'shingles-vaccine-free-support': shinglesVaccineFreeSupportSpokes,
+  'youth-future-savings-2nd-apply': youthFutureSavings2ndApplySpokes,
+  'national-tax-refund-lookup': nationalTaxRefundLookupSpokes,
+  'loan-spread-rate-compare': loanSpreadRateCompareSpokes,
+  'irp-900-tax-credit-refund': irp900TaxCreditRefundSpokes,
+  'retirement-pension-return-check': retirementPensionReturnCheckSpokes,
+  'national-pension-military-credit': nationalPensionMilitaryCreditSpokes,
+  'national-pension-first-premium-support': nationalPensionFirstPremiumSupportSpokes,
   'national-pension-auto-payment': nationalPensionAutoPaymentSpokes,
   'national-pension-account-block': nationalPensionAccountBlockSpokes,
   'national-pension-survey-claim': nationalPensionSurveyClaimSpokes,

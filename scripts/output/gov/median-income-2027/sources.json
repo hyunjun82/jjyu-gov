@@ -1,0 +1,100 @@
+[
+  {
+    "n": 1,
+    "url": "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=1491453&mid=a10503010100",
+    "finalUrl": "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1491453&mid=a10503010100",
+    "title": "내년 기준 중위소득 6.70% 역대 최대 인상, “가장 어려운 국민 생활 더욱 두텁게 보호” < 전체 < 보도자료 < 알림 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 9315,
+    "tables": 6,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148968971",
+    "finalUrl": "https://www.korea.kr/multi/visualNewsView.do?newsId=148968971",
+    "title": "2027년 기준 중위소득, 이렇게 달라집니다! - 전체 | 카드/한컷 | 멀티미디어 | 대한민국 정책브리핑",
+    "file": "src-2.txt",
+    "chars": 4392,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "기준 중위소득 역대 최대 인상! 하단내용 참조"
+      },
+      {
+        "file": "img-2-2.png",
+        "alt": "기준 중위소득 역대 최대 인상! 하단내용 참조"
+      },
+      {
+        "file": "img-2-3.png",
+        "alt": "기준 중위소득 역대 최대 인상! 하단내용 참조"
+      },
+      {
+        "file": "img-2-4.png",
+        "alt": "기준 중위소득 역대 최대 인상! 하단내용 참조"
+      },
+      {
+        "file": "img-2-5.png",
+        "alt": "기준 중위소득 역대 최대 인상! 하단내용 참조"
+      },
+      {
+        "file": "img-2-6.png",
+        "alt": "기준 중위소득 역대 최대 인상! 하단내용 참조"
+      },
+      {
+        "file": "img-2-7.png",
+        "alt": "2027년 기준 중위소득, 이렇게 달라집니다! 사진 1"
+      },
+      {
+        "file": "img-2-8.png",
+        "alt": "2027년 기준 중위소득, 이렇게 달라집니다! 사진 2"
+      },
+      {
+        "file": "img-2-9.png",
+        "alt": "2027년 기준 중위소득, 이렇게 달라집니다! 사진 3"
+      },
+      {
+        "file": "img-2-10.png",
+        "alt": "2027년 기준 중위소득, 이렇게 달라집니다! 사진 4"
+      },
+      {
+        "file": "img-2-11.png",
+        "alt": "2027년 기준 중위소득, 이렇게 달라집니다! 사진 5"
+      },
+      {
+        "file": "img-2-12.png",
+        "alt": "2027년 기준 중위소득, 이렇게 달라집니다! 사진 6"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "title": "수급자선정기준 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 4431,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "부양의무자 부양능력 판정 도해"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/index.do",
+    "title": "대한민국 대표 복지포털 '복지로'",
+    "file": "src-4.txt",
+    "chars": 1535,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=1117",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/infm/goVcntInfo.do?menuLv=1&menuCd=1117",
+    "title": "예방접종도우미 > 예방접종 정보 > 예방접종 알아보기 > 대상포진",
+    "file": "src-1.txt",
+    "chars": 2277,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kdca.go.kr/kdca/3247/subview.do",
+    "finalUrl": "https://www.kdca.go.kr/kdca/3247/subview.do",
+    "title": "예방접종 대상 감염병",
+    "file": "src-2.txt",
+    "chars": 5589,
+    "tables": 4,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "감염병 신고 및 보고체계 흐름도"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=336",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=336",
+    "title": "예방접종도우미 > 예방접종 관리 > 위탁의료기관 찾기 > 보건소",
+    "file": "src-3.txt",
+    "chars": 967,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=336",
+    "finalUrl": "https://nip.kdca.go.kr/irhp/mngm/goVcntMngm.do?menuLv=3&menuCd=336",
+    "title": "예방접종도우미 > 예방접종 관리 > 위탁의료기관 찾기 > 보건소",
+    "file": "src-4.txt",
+    "chars": 967,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

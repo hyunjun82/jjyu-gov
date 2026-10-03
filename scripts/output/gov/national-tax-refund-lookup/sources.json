@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.law.go.kr/법령/국세기본법/제51조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EA%B8%B0%EB%B3%B8%EB%B2%95/%EC%A0%9C51%EC%A1%B0",
+    "title": "국세기본법",
+    "file": "src-1.txt",
+    "chars": 2994,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/법령/국세기본법/제54조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EC%84%B8%EA%B8%B0%EB%B3%B8%EB%B2%95/%EC%A0%9C54%EC%A1%B0",
+    "title": "국세기본법",
+    "file": "src-2.txt",
+    "chars": 1305,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148951599",
+    "finalUrl": "https://www.korea.kr/multi/visualNewsView.do?newsId=148951599",
+    "title": "간편한 환급 신고 서비스로 조회부터 수령까지 한번에! - 전체 | 카드/한컷 | 멀티미디어 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 3906,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "간편한 홈택스 환급 신고 서비스로 조회부터 수령까지 한번에! 하단내용 참조"
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": "간편한 홈택스 환급 신고 서비스로 조회부터 수령까지 한번에! 하단내용 참조"
+      },
+      {
+        "file": "img-3-3.png",
+        "alt": "간편한 홈택스 환급 신고 서비스로 조회부터 수령까지 한번에! 하단내용 참조"
+      },
+      {
+        "file": "img-3-4.png",
+        "alt": "간편한 홈택스 환급 신고 서비스로 조회부터 수령까지 한번에! 하단내용 참조"
+      },
+      {
+        "file": "img-3-5.png",
+        "alt": "간편한 환급 신고 서비스로 조회부터 수령까지 한번에! 사진 1"
+      },
+      {
+        "file": "img-3-6.png",
+        "alt": "간편한 환급 신고 서비스로 조회부터 수령까지 한번에! 사진 2"
+      },
+      {
+        "file": "img-3-7.png",
+        "alt": "간편한 환급 신고 서비스로 조회부터 수령까지 한번에! 사진 3"
+      },
+      {
+        "file": "img-3-8.png",
+        "alt": "간편한 환급 신고 서비스로 조회부터 수령까지 한번에! 사진 4"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://call.nts.go.kr/call/qna/selectHomeQnaInfo.do?mi=3555&ctgId=CTG11981",
+    "finalUrl": "https://call.nts.go.kr/call/qna/selectHomeQnaInfo.do?mi=3555&ctgId=CTG11981",
+    "title": "자주묻는Q&A",
+    "file": "src-4.txt",
+    "chars": 5978,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&menuCd=index3",
+    "finalUrl": "https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&menuCd=index3",
+    "title": "국세청 홈택스 - 메인",
+    "file": "src-5.txt",
+    "chars": 801,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

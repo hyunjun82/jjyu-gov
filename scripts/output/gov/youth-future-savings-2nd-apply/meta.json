@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "youth-future-savings-2nd-apply",
+  "slug": "youth-future-savings-2nd-apply",
+  "file": "data\\policies\\youth-future-savings-2nd-apply.ts",
+  "title": "청년미래적금 2차 신청기간, 출생연도 홀수·짝수별 신청일과 가입 조건",
+  "subs": [
+    "청년미래적금 2차 신청은 언제부터인가요?",
+    "청년미래적금 2차는 출생연도 홀수·짝수별로 신청일이 다른가요?",
+    "청년미래적금 2차 가입 조건은 무엇인가요?",
+    "청년미래적금 2차 가입하면 청년도약계좌에서 갈아탈 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T23:44:25.474Z"
+}

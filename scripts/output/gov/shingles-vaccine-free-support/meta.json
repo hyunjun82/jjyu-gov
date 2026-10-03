@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "shingles-vaccine-free-support",
+  "slug": "shingles-vaccine-free-support",
+  "file": "data\\policies\\shingles-vaccine-free-support.ts",
+  "title": "대상포진 예방접종 무료 지원 확인하는 법, 접종 나이와 백신 종류",
+  "subs": [
+    "대상포진 예방접종은 국가예방접종에 포함되나요?",
+    "대상포진 백신은 어떤 종류가 있나요?",
+    "대상포진 예방접종은 몇 세부터 맞나요?",
+    "대상포진 예방접종 무료 지원은 어디서 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T00:12:44.705Z"
+}

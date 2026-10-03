@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-tax-refund-lookup",
+  "slug": "national-tax-refund-lookup",
+  "file": "data\\policies\\national-tax-refund-lookup.ts",
+  "title": "국세환급금 조회 방법, 미수령 환급금 찾기와 소멸시효 5년",
+  "subs": [
+    "국세환급금은 어디서 조회하나요?",
+    "미수령 환급금은 어떻게 받나요?",
+    "국세환급금은 언제까지 받아야 하나요?",
+    "국세환급금은 어떤 경우에 생기나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T23:55:44.249Z"
+}

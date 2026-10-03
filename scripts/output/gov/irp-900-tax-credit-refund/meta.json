@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "irp-900-tax-credit-refund",
+  "slug": "irp-900-tax-credit-refund",
+  "file": "data\\policies\\irp-900-tax-credit-refund.ts",
+  "title": "IRP 900만원 세액공제 환급액 계산, 총급여별 공제율과 연금저축 합산 한도",
+  "subs": [
+    "IRP에 900만원을 넣으면 환급액은 얼마인가요?",
+    "IRP 세액공제율은 총급여에 따라 어떻게 다른가요?",
+    "IRP와 연금저축은 합쳐서 900만원까지 공제되나요?",
+    "IRP 세액공제는 연말정산에서 어떻게 받나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T23:41:37.480Z"
+}

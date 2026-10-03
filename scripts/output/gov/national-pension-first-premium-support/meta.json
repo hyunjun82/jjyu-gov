@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-first-premium-support",
+  "slug": "national-pension-first-premium-support",
+  "file": "data\\policies\\national-pension-first-premium-support.ts",
+  "title": "청년 생애 첫 연금보험료 지원 신청, 2009년생 대상과 지원금액",
+  "subs": [
+    "청년 생애 첫 연금보험료 지원은 누가 받나요?",
+    "청년 생애 첫 연금보험료 지원금액은 얼마인가요?",
+    "청년 생애 첫 연금보험료 지원은 언제 어디서 신청하나요?",
+    "청년 생애 첫 연금보험료 지원받으면 군 복무 기간 추후납부도 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T23:14:04.351Z"
+}

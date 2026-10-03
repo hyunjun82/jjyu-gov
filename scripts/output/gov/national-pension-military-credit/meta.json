@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-pension-military-credit",
+  "slug": "national-pension-military-credit",
+  "file": "data\\policies\\national-pension-military-credit.ts",
+  "title": "군복무 크레딧 복무기간 전체 인정, 2027년 대상과 늘어나는 연금액",
+  "subs": [
+    "군복무 크레딧은 복무기간 전체가 인정되나요?",
+    "군복무 크레딧 대상자는 누구인가요?",
+    "군복무 크레딧으로 연금은 얼마나 늘어나나요?",
+    "군복무 크레딧은 이미 제대했어도 소급되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T23:14:50.072Z"
+}

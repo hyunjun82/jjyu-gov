@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "loan-spread-rate-compare",
+  "slug": "loan-spread-rate-compare",
+  "file": "data\\policies\\loan-spread-rate-compare.ts",
+  "title": "대출 가산금리 비교하는 법, 은행별 대출금리 비교공시 보는 방법",
+  "subs": [
+    "대출 가산금리란 무엇인가요?",
+    "은행별 대출금리는 어디서 비교하나요?",
+    "신용점수가 같아도 대출금리가 다른 이유는 무엇인가요?",
+    "대출금리 비교공시 항목은 어떻게 보나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T23:55:44.260Z"
+}

@@ -55,7 +55,7 @@ function parseBlock(text) {
   return { hub: one('hub'), dir: one('dir'), slug: one('slug'), cat: one('cat'), catSlug: one('catSlug'), role: one('role'),
     title: one('title'), subs: many('sub'), sources: many('source'), buttons: many('button'), ctas: many('cta'),
     // 리라이트 — 옛 글의 파일·export 이름(target.mjs), 허브 type
-    fileName: one('file'), exportName: one('export'), type: one('type') };
+    fileName: one('file'), exportName: one('export'), type: one('type'), example: one('example') };
 }
 const blocks = fs.readFileSync(specFile, 'utf8').split(/^---\s*$/m).map(parseBlock);
 const head = blocks[0];
@@ -69,7 +69,8 @@ for (const a of articles) {
 }
 
 // ── 공통 작성 규칙 (허브·스포크 같다) ──
-const COMMON = (a, facts, urls, used) => `사실 — 이 facts.json 밖의 숫자·날짜·금액·나이·시간은 한 글자도 쓰지 않는다. 계산해서 새 숫자를 만들지 않는다.
+const COMMON = (a, facts, urls, used) => `사실 — 이 facts.json 밖의 숫자·날짜·금액·나이·시간은 한 글자도 쓰지 않는다. 계산해서 새 숫자를 만들지 않는다.${a.example ? `
+예외 — 사장님이 허용한 '가정 예시' 한 곳: 사람 이름 없이 가정한 수치로 계산한 예시를 글에 딱 한 번 쓴다. 그 문장(또는 표 행)에 '가정'과 '예시'라는 말을 같이 쓰고, 가정한 값(납입액·기간·수익률 등)을 모두 밝히고, 계산은 정확히 한다. 실제 통계·수수료 숫자는 반드시 facts 에 있는 값만 쓴다. 가정 예시는 '가정한 예시일 뿐 실제와 다를 수 있다'고 맺는다.` : ''}
 ${facts}
 
 - scopeWord 가 있는 사실은 그 값을 쓰는 문장에 scopeWord 를 반드시 같이 쓴다.

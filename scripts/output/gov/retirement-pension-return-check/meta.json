@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "retirement-pension-return-check",
+  "slug": "retirement-pension-return-check",
+  "file": "data\\policies\\retirement-pension-return-check.ts",
+  "title": "퇴직연금 수익률 확인하는 법, 원리금보장형과 실적배당형 수익률 차이",
+  "subs": [
+    "퇴직연금 수익률은 어디서 확인하나요?",
+    "퇴직연금 원리금보장형과 실적배당형은 수익률이 얼마나 다른가요?",
+    "퇴직연금 적립금 가운데 원리금보장형은 얼마나 되나요?",
+    "퇴직연금을 20년 굴리면 수익률 차이가 얼마나 벌어지나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-02T23:38:06.412Z"
+}
