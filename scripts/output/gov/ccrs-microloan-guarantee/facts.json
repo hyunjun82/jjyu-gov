@@ -1,0 +1,221 @@
+{
+  "facts": [
+    {
+      "id": "f1",
+      "item": "대출대상(성실상환 기간)",
+      "value": "채무조정 확정 후 6개월 이상 성실상환자",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "채무조정* 확정 후 6개월 이상 성실상환자(완제일로부터 3년 이내인 자 포함)",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "6개월 이상",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f2",
+      "item": "대출대상(완제자 포함)",
+      "value": "채무를 다 갚은 날(완제일)로부터 3년 이내인 사람도 포함",
+      "scope": "완제자",
+      "scopeWord": "완제일",
+      "quote": "채무조정* 확정 후 6개월 이상 성실상환자(완제일로부터 3년 이내인 자 포함)",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "3년 이내",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f3",
+      "item": "인정되는 채무조정 종류",
+      "value": "신용회복위원회 채무조정, 법원 개인회생, 새출발기금, 「개인채무자보호법」 상 채권금융회사 채무조정",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "신용회복위원회 채무조정, 법원 개인회생, 새출발기금, 「개인채무자보호법」 상 채권금융회사",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "법원 개인회생",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f4",
+      "item": "조건 충족해도 거절 가능",
+      "value": "조건을 갖춰도 내부 신용평가, 상환능력 등에 따라 보증이 거절될 수 있음",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "상기 조건 충족 시에도 내부 신용평가, 상환능력 등에 따라 보증이 거절될 수 있습니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "보증이 거절",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f5",
+      "item": "상품 목적",
+      "value": "신용회복지원과 연계해 생활안정자금 등 소액금융을 지원하는 상품",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "신용회복지원과 연계하여 생활안정자금 등 소액금융을 지원함으로써",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f6",
+      "item": "대출종류",
+      "value": "신용회복위원회 위탁보증",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "신용회복위원회 위탁보증",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f7",
+      "item": "대출한도",
+      "value": "최대 1500만원",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "최대 1500만원",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f8",
+      "item": "대출기간",
+      "value": "최대 5년",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "최대 5년",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f9",
+      "item": "대출금리",
+      "value": "연 4.0% 이내",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "연 4.0% 이내",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f10",
+      "item": "상환방법",
+      "value": "원리금균등분할상환",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "원리금균등분할상환",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f11",
+      "item": "보증료",
+      "value": "신용회복위원회가 부담(연 0.5% 이내)",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "신용회복위원회 부담(연 0.5% 이내)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f12",
+      "item": "취급기관·전화",
+      "value": "신용회복위원회(1600-5500)",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "신용회복위원회(1600-5500)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f13",
+      "item": "신용회복위원회 대표번호",
+      "value": "채무상담 대표번호 1375",
+      "scope": "채무상담 대표번호(소액금융 취급번호 1600-5500과 다름)",
+      "scopeWord": "채무상담",
+      "quote": "채무상담 대표번호 1375",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f14",
+      "item": "콜센터 운영시간",
+      "value": "평일 09시-18시",
+      "scope": "신용회복위원회 대표번호 1375 콜센터",
+      "scopeWord": "1375",
+      "quote": "콜센터 운영시간 : 평일 09시-18시",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f15",
+      "item": "방문·온라인 상담 예약 링크",
+      "value": "https://cyber.ccrs.or.kr/debt/apply/guide.do",
+      "scope": "채무조정 방문·온라인 상담 예약(소액금융 전용 신청 페이지 아님)",
+      "scopeWord": "상담 예약",
+      "quote": "방문·온라인 상담",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    }
+  ],
+  "notUsed": [
+    {
+      "item": "햇살론일반 금융회사별 평균금리·신용평점 표",
+      "reason": "다른 상품(햇살론일반) 정보라 주제와 무관"
+    },
+    {
+      "item": "서민금융진흥원 대표전화 1397",
+      "reason": "이 상품의 취급기관은 신용회복위원회(1600-5500)라서 신청 창구로 쓰면 독자가 헷갈림"
+    },
+    {
+      "item": "채무조정제도 비교표(신속·사전·개인워크아웃·개인회생·파산의 대상·채무액·감면·상환기간·공공정보 등재)",
+      "reason": "소액금융 보증 소제목 4개와 직접 관련이 없고, 표 칸이 여러 줄로 나뉘어 있어 한 줄 그대로 인용하기 어려움"
+    },
+    {
+      "item": "src-3.txt 전체",
+      "reason": "src-1.txt와 같은 URL·같은 본문이라 중복이며 값이 서로 다르지 않음"
+    },
+    {
+      "item": "소액대출 신청방법 상세 절차",
+      "reason": "원문에는 메뉴 이름만 있고 본문이 없어 뽑을 사실이 없음"
+    }
+  ]
+}

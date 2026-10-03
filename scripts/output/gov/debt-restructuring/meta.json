@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "debt-restructuring",
+  "slug": "debt-restructuring",
+  "file": "data\\policies\\debt-restructuring.ts",
+  "title": "채무조정 총정리, 빚이 힘들 때 제도 고르는 순서",
+  "subs": [
+    "어떤 제도가 있나요?",
+    "가장 먼저 무엇을 확인하나요?",
+    "상담은 어디서 무료로 받나요?",
+    "신청 뒤에는 무슨 일이 생기나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:31:22.634Z"
+}

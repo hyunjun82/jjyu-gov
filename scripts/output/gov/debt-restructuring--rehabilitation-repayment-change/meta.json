@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--rehabilitation-repayment-change",
+  "slug": "rehabilitation-repayment-change",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "변제변경",
+  "exportName": "채무조정변제변경SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\변제변경.tsx",
+  "title": "개인회생 변제금 못 낼 때, 변제계획 변경과 폐지",
+  "subs": [
+    "변제금을 한 번 못 내면 어떻게 되나요?",
+    "실직하면 변제금을 줄일 수 있나요?",
+    "폐지되면 다시 신청할 수 있나요?",
+    "변경 신청은 어디에 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:12:13.274Z"
+}

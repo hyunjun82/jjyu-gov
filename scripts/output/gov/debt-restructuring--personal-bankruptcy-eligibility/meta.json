@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--personal-bankruptcy-eligibility",
+  "slug": "personal-bankruptcy-eligibility",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "개인파산자격",
+  "exportName": "채무조정개인파산자격SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\개인파산자격.tsx",
+  "title": "개인파산 신청 자격, 누가 할 수 있고 무엇이 막히나",
+  "subs": [
+    "개인파산은 누가 신청하나요?",
+    "지급불능은 어떻게 판단하나요?",
+    "직업·자격에 제한이 생기나요?",
+    "개인회생보다 불리한 점이 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:22:25.785Z"
+}

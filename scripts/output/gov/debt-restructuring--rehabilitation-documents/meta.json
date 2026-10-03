@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--rehabilitation-documents",
+  "slug": "rehabilitation-documents",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "신청서류",
+  "exportName": "채무조정신청서류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\신청서류.tsx",
+  "title": "개인회생 서류 준비, 발급처와 제출 순서",
+  "subs": [
+    "어떤 서류가 필요한가요?",
+    "서류는 어디서 발급받나요?",
+    "신청 비용은 얼마나 드나요?",
+    "제출하고 나면 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:12:03.919Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--rehabilitation-asset-treatment",
+  "slug": "rehabilitation-asset-treatment",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "재산처리",
+  "exportName": "채무조정재산처리SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\재산처리.tsx",
+  "title": "개인회생 재산 인정 범위, 집·차 지키는 기준",
+  "subs": [
+    "집과 차를 뺏기나요?",
+    "재산은 어디까지 인정되나요?",
+    "압류는 언제 풀리나요?",
+    "재산을 숨기면 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:20:12.049Z"
+}

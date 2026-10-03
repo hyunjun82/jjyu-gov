@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--rehabilitation-discharge",
+  "slug": "rehabilitation-discharge",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "면책",
+  "exportName": "채무조정면책SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\면책.tsx",
+  "title": "개인회생 면책 결정까지, 신청 후 기간과 면책 뒤 신용정보",
+  "subs": [
+    "면책은 언제 신청하나요?",
+    "결정까지 얼마나 걸리나요?",
+    "변제를 다 못 해도 면책되나요?",
+    "면책이 확정되면 신용정보는 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:12:13.598Z"
+}

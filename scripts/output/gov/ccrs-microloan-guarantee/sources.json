@@ -1,0 +1,35 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.kinfa.or.kr/financialProduct/ccrsMicroLoanGuarantee.do",
+    "finalUrl": "https://www.kinfa.or.kr/financialProduct/ccrsMicroLoanGuarantee.do",
+    "title": "신용회복위원회 소액금융 보증 > 생활안정자금 > 금융상품|서민금융진흥원",
+    "file": "src-1.txt",
+    "chars": 1704,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=490",
+    "finalUrl": "https://www.ccrs.or.kr/cms/com/index.do?MENU_ID=490",
+    "title": "신용회복위원회 채무조정 | 채무조정 길잡이 | 채무조정제도 비교",
+    "file": "src-2.txt",
+    "chars": 2607,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.kinfa.or.kr/financialProduct/ccrsMicroLoanGuarantee.do",
+    "finalUrl": "https://www.kinfa.or.kr/financialProduct/ccrsMicroLoanGuarantee.do",
+    "title": "신용회복위원회 소액금융 보증 > 생활안정자금 > 금융상품|서민금융진흥원",
+    "file": "src-3.txt",
+    "chars": 1704,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

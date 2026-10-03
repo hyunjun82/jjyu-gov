@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--debt-relief-comparison",
+  "slug": "debt-relief-comparison",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "차이비교",
+  "exportName": "채무조정차이비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\차이비교.tsx",
+  "title": "개인회생·개인파산 비교, 내 상황엔 어느 쪽이 맞나",
+  "subs": [
+    "두 제도는 무엇이 다른가요?",
+    "소득이 있으면 어느 쪽인가요?",
+    "재산이 있으면 어느 쪽인가요?",
+    "기간과 비용은 어떻게 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:23:48.221Z"
+}

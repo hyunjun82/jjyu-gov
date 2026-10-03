@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--personal-rehabilitation-eligibility",
+  "slug": "personal-rehabilitation-eligibility",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "개인회생자격",
+  "exportName": "채무조정개인회생자격SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\개인회생자격.tsx",
+  "title": "개인회생 자격 조건, 빚 한도와 소득 기준 확인법",
+  "subs": [
+    "개인회생은 누가 신청할 수 있나요?",
+    "빚이 얼마까지 가능한가요?",
+    "월급이 없어도 되나요?",
+    "자격이 안 되면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:12:04.129Z"
+}

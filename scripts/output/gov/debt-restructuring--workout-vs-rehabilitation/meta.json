@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "debt-restructuring--workout-vs-rehabilitation",
+  "slug": "workout-vs-rehabilitation",
+  "hub": "debt-restructuring",
+  "dir": "채무조정",
+  "fileName": "개인워크아웃개인회생차이감면단점",
+  "exportName": "채무조정개인워크아웃개인회생차이감면단점SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\채무조정\\개인워크아웃개인회생차이감면단점.tsx",
+  "title": "개인워크아웃과 개인회생 차이, 감면 폭부터 비교",
+  "subs": [
+    "어디에 신청하는 제도인가요?",
+    "빚을 얼마나 줄여 주나요?",
+    "둘 다 신청할 수 있나요?",
+    "중간에 갈아탈 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T02:30:14.121Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "ccrs-microloan-guarantee",
+  "slug": "ccrs-microloan-guarantee",
+  "file": "data\\policies\\ccrs-microloan-guarantee.ts",
+  "title": "개인회생·워크아웃 중 소액대출, 신용회복위원회 보증",
+  "subs": [
+    "이용 중에도 대출이 가능한가요?",
+    "얼마까지 보증되나요?",
+    "어떤 조건이 필요한가요?",
+    "신청은 어디서 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T04:35:44.614Z"
+}

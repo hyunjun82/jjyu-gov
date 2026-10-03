@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "mortgage-personal-rehabilitation",
+  "slug": "mortgage-personal-rehabilitation",
+  "file": "data\\policies\\mortgage-personal-rehabilitation.ts",
+  "title": "개인회생 중 주택담보대출, 연장과 부모님 집 담보",
+  "subs": [
+    "진행 중에 담보대출을 연장할 수 있나요?",
+    "부모님 집이 담보면 어떻게 되나요?",
+    "공동명의 집은 재산이 어떻게 잡히나요?",
+    "법원 허가는 꼭 필요한가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T04:35:44.589Z"
+}
