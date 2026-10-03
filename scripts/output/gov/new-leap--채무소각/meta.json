@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--채무소각",
+  "slug": "채무소각",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "채무소각",
+  "exportName": "채무소각SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\채무소각.tsx",
+  "title": "새도약기금으로 이자가 전액 면제되는 건가, 원금까지 소각되는 건가",
+  "subs": [
+    "원금도 없어지나요, 이자만 면제되나요?",
+    "5천만원 한도는 원금 기준인가요, 이자 포함인가요?",
+    "소각이 되면 추심도 멈추나요?",
+    "소각 후 신용불량 기록도 없어지나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:47:30.726Z"
+}

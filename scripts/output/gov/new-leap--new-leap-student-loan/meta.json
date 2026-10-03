@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-student-loan",
+  "slug": "new-leap-student-loan",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "학자금대출한국장학재단협약",
+  "exportName": "새도약기금학자금대출한국장학재단협약SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\학자금대출한국장학재단협약.tsx",
+  "title": "학자금대출도 새도약기금 되나요, 한국장학재단 협약부터 소각 대상 범위까지",
+  "subs": [
+    "학자금대출도 새도약기금 대상인가요?",
+    "한국장학재단과 협약이 돼 있나요?",
+    "학자금은 어디까지 소각되나요?",
+    "상환 중인 학자금은 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:37:03.263Z"
+}

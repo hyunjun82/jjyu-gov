@@ -17,7 +17,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { DIR_OF, verifyFacts, nums, ranges } from './verify-facts.mjs';
+import { DIR_OF, verifyFacts, nums, numsLoose, ranges } from './verify-facts.mjs';
 import { checkArticle, readerStrings, bridgeOf, headerReader, sentencesOf, scopeHit, keepHit, keepOk, BANNED } from './check-article.mjs';
 import { metaOf } from './target.mjs';
 
@@ -60,7 +60,8 @@ if (money) {
 
 // ⑫ 기간·나이·횟수 바꾸기 — 금액이 없는 글(서류·절차 안내)도 숫자 오차 시험이 서도록. 단위 붙은 숫자 하나를 facts 에 없는 값으로 (2026-10-01 신속채무조정 서류 글: 오차 6종뿐이라 시험 기준 7종에 걸렸다)
 {
-  const have = new Set(facts.flatMap((x) => [...nums(String(x.value)), ...nums(String(x.quote))]));
+  // 검사기가 허용하는 숫자(날짜 조각 '8.13일' 의 8 도 허용)와 같은 기준으로 — 허용되는 숫자로 바꾸면 못 잡는 게 당연해 시험이 틀린다 (2026-10-03 새도약기금)
+  const have = new Set(facts.flatMap((x) => [...nums(String(x.value)), ...nums(String(x.quote)), ...numsLoose(String(x.value)), ...numsLoose(String(x.quote))]));
   for (const t of lit) {
     const m = [...t.matchAll(/(?<![\d,.~])(\d{1,3})(일|개월|년|세|회)(?![가-힣]*\d)/g)].find((mm) => have.has(mm[1]));
     if (!m) continue;
@@ -97,7 +98,13 @@ if (hero) add('④ 원문에 없는 숫자 넣기 (최대 73만 원 추가)', 'a
 // ⑤ 표 칸 — rows: 블록 안의 행에서, 두 자리 이상 숫자 하나를 바꾼다
 const rowsBlock = A.match(/rows:\s*\[([\s\S]*?)\n\s*\],/)?.[1] || '';
 const row = rowsBlock.split('\n').map((l) => l.trim()).find((l) => /^\[.*\d{2,}.*\],?$/.test(l));
-if (row) { const n = row.match(/\d{2,}/)[0]; add(`⑤ 표 칸 숫자 바꾸기 (${n} → ${Number(n) + 7})`, 'article', row, row.replace(n, String(Number(n) + 7))); }
+if (row) {
+  // 바꾼 숫자가 facts 에 이미 있으면(검사기는 날짜 조각까지 허용한다) 못 잡는 게 당연하다 — 없는 숫자가 나올 때까지 올린다 (2026-10-03 새도약기금 자격조건: '18' → '25' 가 연도 조각으로 통과)
+  const have5 = new Set(facts.flatMap((x) => [...nums(String(x.value)), ...nums(String(x.quote)), ...numsLoose(String(x.value)), ...numsLoose(String(x.quote))]));
+  const n = row.match(/\d{2,}/)[0];
+  const to5 = [7, 9, 11, 13, 17, 19, 23].map((d) => Number(n) + d).find((v) => !have5.has(String(v)));
+  if (to5) add(`⑤ 표 칸 숫자 바꾸기 (${n} → ${to5})`, 'article', row, row.replace(n, String(to5)));
+}
 
 // ⑥ 필수 빼기 — 말로 된 must 의 핵심어를 글 전체에서 지운다
 const mk = facts.find((f) => f.must && f.key && !nums(f.value).length && A.includes(f.key));

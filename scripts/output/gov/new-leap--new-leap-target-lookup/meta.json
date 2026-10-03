@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-target-lookup",
+  "slug": "new-leap-target-lookup",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "대상자조회방법본인인증",
+  "exportName": "새도약기금대상자조회방법본인인증SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\대상자조회방법본인인증.tsx",
+  "title": "새도약기금 대상자 조회 방법, 공식 누리집과 본인인증 안 되면 어떻게 할까?",
+  "subs": [
+    "새도약기금 대상자 조회는 어디서 하나요?",
+    "공식 누리집 주소는 무엇인가요?",
+    "본인인증은 어떻게 하나요?",
+    "조회가 안 되면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:22:32.493Z"
+}

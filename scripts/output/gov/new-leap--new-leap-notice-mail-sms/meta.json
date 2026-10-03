@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-notice-mail-sms",
+  "slug": "new-leap-notice-mail-sms",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "대상자통보우편문자",
+  "exportName": "새도약기금대상자통보우편문자SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\대상자통보우편문자.tsx",
+  "title": "새도약기금 대상자 통보, 우편물 문자 안내와 연락 안 오면 어떻게 할까?",
+  "subs": [
+    "새도약기금 대상자 통보는 어떻게 오나요?",
+    "우편물은 언제 발송되나요?",
+    "문자로도 안내가 오나요?",
+    "연락이 안 오면 대상이 아닌가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:22:04.388Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--자격조건",
+  "slug": "자격조건",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "자격조건",
+  "exportName": "자격조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\자격조건.tsx",
+  "title": "7년 이상 장기 연체 중이면 새도약기금 대상이 될 수 있다 | 자격 조건 확인",
+  "subs": [
+    "새도약기금 자격 조건 3가지는 무엇인가요?",
+    "소각 vs 채무조정, 어떻게 결정되나요?",
+    "연체 7년 미만이면 어떤 대안이 있나요?",
+    "원금이 5천만원을 넘으면 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:43:42.519Z"
+}

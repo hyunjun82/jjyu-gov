@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--신청방법",
+  "slug": "신청방법",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "신청방법",
+  "exportName": "신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\신청방법.tsx",
+  "title": "새도약기금 신청 방법 | 별도 신청 없이 일괄 매입되는 구조",
+  "subs": [
+    "새도약기금은 어떻게 신청하나요?",
+    "통보 이후 절차는 어떻게 진행되나요?",
+    "본인 대상 여부는 어떻게 확인하나요?",
+    "소각과 채무조정 중 어떤 것을 받게 되는지 미리 알 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:41:12.545Z"
+}

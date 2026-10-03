@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-basic-recipient",
+  "slug": "new-leap-basic-recipient",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "기초수급자취약계층소득재산심사",
+  "exportName": "새도약기금기초수급자취약계층소득재산심사SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\기초수급자취약계층소득재산심사.tsx",
+  "title": "기초수급자도 새도약기금 되나요, 취약계층 구분과 소득재산심사 재산 기준",
+  "subs": [
+    "기초생활수급자도 새도약기금 대상인가요?",
+    "취약계층은 어떻게 구분하나요?",
+    "소득재산심사는 어떻게 하나요?",
+    "재산이 있으면 탈락하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:54:32.299Z"
+}

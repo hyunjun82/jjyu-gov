@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-lender-list",
+  "slug": "new-leap-lender-list",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "대부업체채무참여명단내채권확인",
+  "exportName": "새도약기금대부업체채무참여명단내채권확인SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\대부업체채무참여명단내채권확인.tsx",
+  "title": "새도약기금 대부업체 채무도 되나요, 참여 업체 명단과 내 채권 확인 방법",
+  "subs": [
+    "대부업체 채무도 새도약기금 대상인가요?",
+    "참여 대부업체 명단은 어디서 보나요?",
+    "내 채권이 어느 업체에 있는지 어떻게 아나요?",
+    "명단에 없는 업체 채무는 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:58:49.124Z"
+}

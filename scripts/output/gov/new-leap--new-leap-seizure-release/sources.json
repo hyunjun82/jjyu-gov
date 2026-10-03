@@ -1,0 +1,185 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.newleap.or.kr/Board/View.do?idx=57&pageIndex=1&gb=notice",
+    "finalUrl": "https://www.newleap.or.kr/Board/View.do?idx=57&pageIndex=1&gb=notice",
+    "title": "직접 캡처 저장본",
+    "file": "src-1.txt",
+    "chars": 1124,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.newleap.or.kr/Board/View.do?idx=58&pageIndex=1&gb=notice",
+    "finalUrl": "https://www.newleap.or.kr/Board/View.do?idx=58&pageIndex=1&gb=notice",
+    "title": "직접 캡처 저장본",
+    "file": "src-2.txt",
+    "chars": 1417,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.fsc.go.kr/no010101/86334",
+    "finalUrl": "https://www.fsc.go.kr/no010101/86334",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-3.txt",
+    "chars": 3620,
+    "tables": 6,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.fsc.go.kr/no010101/86081",
+    "finalUrl": "https://www.fsc.go.kr/no010101/86081",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-4.txt",
+    "chars": 2586,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "finalUrl": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "title": "PDF 12쪽",
+    "file": "src-5.txt",
+    "chars": 7966,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.fsc.go.kr/no010101/85557",
+    "finalUrl": "https://www.fsc.go.kr/no010101/85557",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-6.txt",
+    "chars": 3066,
+    "tables": 4,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.fsc.go.kr/no010101/87447",
+    "finalUrl": "https://www.fsc.go.kr/no010101/87447",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-7.txt",
+    "chars": 3877,
+    "tables": 6,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 8,
+    "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148950421",
+    "finalUrl": "https://www.korea.kr/multi/visualNewsView.do?newsId=148950421",
+    "title": "취약계층·소상공인 부채 부담 경감 '새도약기금' - 전체 | 카드/한컷 | 멀티미디어 | 대한민국 정책브리핑",
+    "file": "src-8.txt",
+    "chars": 6725,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-8-1.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-2.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-3.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-4.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-5.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-6.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-7.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-8.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-9.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-10.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-8-11.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 1"
+      },
+      {
+        "file": "img-8-12.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 2"
+      },
+      {
+        "file": "img-8-13.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 3"
+      },
+      {
+        "file": "img-8-14.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 4"
+      },
+      {
+        "file": "img-8-15.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 5"
+      },
+      {
+        "file": "img-8-16.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 6"
+      },
+      {
+        "file": "img-8-17.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 7"
+      },
+      {
+        "file": "img-8-18.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 8"
+      },
+      {
+        "file": "img-8-19.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 9"
+      },
+      {
+        "file": "img-8-20.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 10"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 9,
+    "url": "https://www.fsc.go.kr/no010101/85809",
+    "finalUrl": "https://www.fsc.go.kr/no010101/85809",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-9.txt",
+    "chars": 4017,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  }
+]

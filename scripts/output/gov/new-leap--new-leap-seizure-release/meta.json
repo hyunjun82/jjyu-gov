@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-seizure-release",
+  "slug": "new-leap-seizure-release",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "압류통장해제법조치해제",
+  "exportName": "새도약기금압류통장해제법조치해제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\압류통장해제법조치해제.tsx",
+  "title": "새도약기금 압류통장 해제와 법조치 해제, 추심 중단 시점과 해제 신청 방법은?",
+  "subs": [
+    "새도약기금 대상이면 압류가 풀리나요?",
+    "압류통장은 언제 해제되나요?",
+    "추심 연락은 언제 멈추나요?",
+    "법조치 해제 신청 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:56:29.249Z"
+}

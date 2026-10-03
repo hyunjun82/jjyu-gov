@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-operators-kamco",
+  "slug": "new-leap-operators-kamco",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "운영기관캠코서민금융진흥원농협자산관리",
+  "exportName": "새도약기금운영기관캠코서민금융진흥원농협자산관리SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\운영기관캠코서민금융진흥원농협자산관리.tsx",
+  "title": "새도약기금 운영기관, 캠코와 서민금융진흥원 역할 차이부터 농협 자산관리회사 참여는?",
+  "subs": [
+    "새도약기금은 어디서 운영하나요?",
+    "캠코는 어떤 역할을 하나요?",
+    "서민금융진흥원과는 어떻게 다른가요?",
+    "농협 자산관리회사도 참여하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:37:02.765Z"
+}

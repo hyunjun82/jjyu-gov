@@ -1,0 +1,117 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.newleap.or.kr/Board/View.do?idx=59&pageIndex=1&gb=notice",
+    "finalUrl": "https://www.newleap.or.kr/Board/View.do?idx=59&pageIndex=1&gb=notice",
+    "title": "공지사항",
+    "file": "src-1.txt",
+    "chars": 405,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "finalUrl": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "title": "PDF 12쪽",
+    "file": "src-2.txt",
+    "chars": 7966,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.fsc.go.kr/no010101/77862",
+    "finalUrl": "https://www.fsc.go.kr/no010101/77862",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-3.txt",
+    "chars": 2454,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "개별 채무조정 개선"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148895894",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148895894",
+    "title": "학자금대출 원금·연체 이자 감면…최장 20년 분할 상환까지 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-4.txt",
+    "chars": 3941,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "교육부·금융위원회·한국장학재단·신용회복위원회가 22일 한국프레스센터에서 청년 신용회복 지원을 위한 업무협약을 가졌다. (사진=교육부)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition07_02",
+    "finalUrl": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition07_02",
+    "title": "분할상환제도 | 학자금대출 신용회복관리 | 학자금대출 제도 안내 | 학자금대출 | 한국장학재단",
+    "file": "src-5.txt",
+    "chars": 3500,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.newleap.or.kr/about/rules.do",
+    "finalUrl": "https://www.newleap.or.kr/about/rules.do",
+    "title": "제도안내",
+    "file": "src-6.txt",
+    "chars": 1055,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.newleap.or.kr/help/faq.do",
+    "finalUrl": "https://www.newleap.or.kr/help/faq.do",
+    "title": "자주 묻는 질문(FAQ)",
+    "file": "src-7.txt",
+    "chars": 1019,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 8,
+    "url": "https://www.fsc.go.kr/no010101/86081",
+    "finalUrl": "https://www.fsc.go.kr/no010101/86081",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-8.txt",
+    "chars": 2586,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 9,
+    "url": "https://www.fsc.go.kr/no010101/85641",
+    "finalUrl": "https://www.fsc.go.kr/no010101/85641",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-9.txt",
+    "chars": 4552,
+    "tables": 8,
+    "images": [
+      {
+        "file": "img-9-1.png",
+        "alt": "이 이미지는 신용회복위원회, 은행, SGI서울보증, 고객, 장기소액연체자 지원재단 간의 상호작용을 도식화한 다이어그램입니다. 중앙에 ‘신용회복위원회’가 있고, 각 기관과의 주요 상호작용은 다음과 같습니다.• 은행: 신용회복위원회에 대출채권을 대여하고, 상환받음. • SGI서울보증: 신용회복위원회에 보증보험료를 받고, 보험금을 지급함. • 고객: 신용회복위원회로부터 새로약정된 대출(새로약론)을 받고, 새로약정된 대출을 상환함. • 장기소액연체자 지원재단: 신용회복위원회로부터 금융비용 지원."
+      }
+    ],
+    "primary": true
+  }
+]

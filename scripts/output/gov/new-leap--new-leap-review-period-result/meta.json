@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-review-period-result",
+  "slug": "new-leap-review-period-result",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "심사기간진행상황결과",
+  "exportName": "새도약기금심사기간진행상황결과SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\심사기간진행상황결과.tsx",
+  "title": "새도약기금 심사 기간과 진행상황, 결과 통보부터 확정되면 뭐가 달라질까?",
+  "subs": [
+    "심사 기간은 얼마나 걸리나요?",
+    "진행상황은 어디서 확인하나요?",
+    "결과는 어떻게 통보되나요?",
+    "확정되면 무엇이 달라지나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:20:50.242Z"
+}

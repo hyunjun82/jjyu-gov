@@ -1,0 +1,188 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.newleap.or.kr/about/rules.do",
+    "finalUrl": "https://www.newleap.or.kr/about/rules.do",
+    "title": "제도안내",
+    "file": "src-1.txt",
+    "chars": 1055,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.fsc.go.kr/no010102/84803",
+    "finalUrl": "https://www.fsc.go.kr/no010102/84803",
+    "title": "상세화면 - 보도설명자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-2.txt",
+    "chars": 2610,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "finalUrl": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "title": "PDF 12쪽",
+    "file": "src-3.txt",
+    "chars": 7966,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.fsc.go.kr/no010101/85809",
+    "finalUrl": "https://www.fsc.go.kr/no010101/85809",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-4.txt",
+    "chars": 4017,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148960217",
+    "finalUrl": "https://www.korea.kr/briefing/actuallyView.do?newsId=148960217",
+    "title": "금융위 \"새도약기금 이자만 챙겼다는 보도 사실 아냐\" - 사실은 이렇습니다 | 브리핑룸 | 대한민국 정책브리핑",
+    "file": "src-5.txt",
+    "chars": 3351,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.fsc.go.kr/no010101/87447",
+    "finalUrl": "https://www.fsc.go.kr/no010101/87447",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-6.txt",
+    "chars": 3877,
+    "tables": 6,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148950421",
+    "finalUrl": "https://www.korea.kr/multi/visualNewsView.do?newsId=148950421",
+    "title": "취약계층·소상공인 부채 부담 경감 '새도약기금' - 전체 | 카드/한컷 | 멀티미디어 | 대한민국 정책브리핑",
+    "file": "src-7.txt",
+    "chars": 6645,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-7-1.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-2.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-3.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-4.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-5.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-6.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-7.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-8.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-9.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-10.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 새도약기금 하단내용 참조"
+      },
+      {
+        "file": "img-7-11.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 1"
+      },
+      {
+        "file": "img-7-12.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 2"
+      },
+      {
+        "file": "img-7-13.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 3"
+      },
+      {
+        "file": "img-7-14.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 4"
+      },
+      {
+        "file": "img-7-15.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 5"
+      },
+      {
+        "file": "img-7-16.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 6"
+      },
+      {
+        "file": "img-7-17.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 7"
+      },
+      {
+        "file": "img-7-18.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 8"
+      },
+      {
+        "file": "img-7-19.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 9"
+      },
+      {
+        "file": "img-7-20.png",
+        "alt": "취약계층·소상공인 부채 부담 경감 '새도약기금' 사진 10"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 8,
+    "url": "https://www.fsc.go.kr/no010101/85641",
+    "finalUrl": "https://www.fsc.go.kr/no010101/85641",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-8.txt",
+    "chars": 4552,
+    "tables": 8,
+    "images": [
+      {
+        "file": "img-8-1.png",
+        "alt": "이 이미지는 신용회복위원회, 은행, SGI서울보증, 고객, 장기소액연체자 지원재단 간의 상호작용을 도식화한 다이어그램입니다. 중앙에 ‘신용회복위원회’가 있고, 각 기관과의 주요 상호작용은 다음과 같습니다.• 은행: 신용회복위원회에 대출채권을 대여하고, 상환받음. • SGI서울보증: 신용회복위원회에 보증보험료를 받고, 보험금을 지급함. • 고객: 신용회복위원회로부터 새로약정된 대출(새로약론)을 받고, 새로약정된 대출을 상환함. • 장기소액연체자 지원재단: 신용회복위원회로부터 금융비용 지원."
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 9,
+    "url": "https://www.newleap.or.kr/help/faq.do",
+    "finalUrl": "https://www.newleap.or.kr/help/faq.do",
+    "title": "자주 묻는 질문(FAQ)",
+    "file": "src-9.txt",
+    "chars": 1019,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

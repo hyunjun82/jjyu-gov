@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-eligibility-criteria",
+  "slug": "new-leap-eligibility-criteria",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "대상자자격연체기간채무금액",
+  "exportName": "새도약기금대상자자격연체기간채무금액SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\대상자자격연체기간채무금액.tsx",
+  "title": "새도약기금 대상자 자격, 연체 기간과 채무 금액 기준 넘으면 제외될까?",
+  "subs": [
+    "새도약기금 대상자는 누구인가요?",
+    "연체 기간이 얼마나 돼야 하나요?",
+    "채무 금액 기준은 얼마인가요?",
+    "기준을 넘으면 제외되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:34:57.723Z"
+}

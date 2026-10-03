@@ -1,0 +1,102 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.fsc.go.kr/no010101/87213",
+    "finalUrl": "https://www.fsc.go.kr/no010101/87213",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-1.txt",
+    "chars": 3178,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.fsc.go.kr/no010101/86422",
+    "finalUrl": "https://www.fsc.go.kr/no010101/86422",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-2.txt",
+    "chars": 2913,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.fsc.go.kr/no010101/85809",
+    "finalUrl": "https://www.fsc.go.kr/no010101/85809",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-3.txt",
+    "chars": 4017,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148960217",
+    "finalUrl": "https://www.korea.kr/briefing/actuallyView.do?newsId=148960217",
+    "title": "금융위 \"새도약기금 이자만 챙겼다는 보도 사실 아냐\" - 사실은 이렇습니다 | 브리핑룸 | 대한민국 정책브리핑",
+    "file": "src-4.txt",
+    "chars": 3484,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.fsc.go.kr/no010101/87447",
+    "finalUrl": "https://www.fsc.go.kr/no010101/87447",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-5.txt",
+    "chars": 3877,
+    "tables": 6,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "finalUrl": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85424&fileTy=ATTACH&fileNo=7",
+    "title": "PDF 12쪽",
+    "file": "src-6.txt",
+    "chars": 7966,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.newleap.or.kr/check/status.do",
+    "finalUrl": "https://www.newleap.or.kr/check/status.do",
+    "title": "채무현황 조회",
+    "file": "src-7.txt",
+    "chars": 1898,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 8,
+    "url": "https://www.credit4u.or.kr:2443/cnsl/faqList.do",
+    "finalUrl": "https://www.credit4u.or.kr:2443/cnsl/faqList.do",
+    "title": "신용정보상담 > 자주하는 질문",
+    "file": "src-8.txt",
+    "chars": 5861,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 9,
+    "url": "https://www.newleap.or.kr/about/rules.do",
+    "finalUrl": "https://www.newleap.or.kr/about/rules.do",
+    "title": "제도안내",
+    "file": "src-9.txt",
+    "chars": 1055,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--bad-bank-7-year-credit-record",
+  "slug": "bad-bank-7-year-credit-record",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "배드뱅크7년기준신용정보삭제",
+  "exportName": "새도약기금배드뱅크7년기준신용정보삭제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\배드뱅크7년기준신용정보삭제.tsx",
+  "title": "배드뱅크 7년 기준과 장기연체 계산, 신용정보 삭제 시점과 확인 방법은?",
+  "subs": [
+    "배드뱅크 7년은 어떻게 계산하나요?",
+    "장기연체는 몇 년부터인가요?",
+    "연체 기록은 언제 삭제되나요?",
+    "기록 삭제 확인 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:37:03.028Z"
+}

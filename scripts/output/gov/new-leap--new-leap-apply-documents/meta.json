@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-apply-documents",
+  "slug": "new-leap-apply-documents",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "신청절차필요서류접수기간",
+  "exportName": "새도약기금신청절차필요서류접수기간SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\신청절차필요서류접수기간.tsx",
+  "title": "새도약기금 신청 절차와 필요서류, 접수 기간까지 따로 신청해야 할까?",
+  "subs": [
+    "새도약기금은 신청해야 받나요?",
+    "필요서류는 무엇인가요?",
+    "접수 기간은 언제까지인가요?",
+    "새도약기금 신청 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:16:49.983Z"
+}

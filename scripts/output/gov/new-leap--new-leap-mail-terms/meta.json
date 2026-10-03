@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-mail-terms",
+  "slug": "new-leap-mail-terms",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "우편용어심사대상미양도양수채권",
+  "exportName": "새도약기금우편용어심사대상미양도양수채권SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\우편용어심사대상미양도양수채권.tsx",
+  "title": "새도약기금 우편 용어, 심사대상과 심사중부터 미양도 양수채권은 무슨 뜻일까?",
+  "subs": [
+    "심사대상은 무슨 뜻인가요?",
+    "심사중은 무슨 뜻인가요?",
+    "미양도는 무슨 뜻인가요?",
+    "양수채권이란 무엇인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:08:03.094Z"
+}

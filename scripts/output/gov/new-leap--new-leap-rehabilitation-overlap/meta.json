@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-rehabilitation-overlap",
+  "slug": "new-leap-rehabilitation-overlap",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "개인회생워크아웃채무조정중복",
+  "exportName": "새도약기금개인회생워크아웃채무조정중복SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\개인회생워크아웃채무조정중복.tsx",
+  "title": "개인회생 중에도 새도약기금 되나요, 개인워크아웃과 신용회복위원회 채무조정 중복 조건은?",
+  "subs": [
+    "개인회생 중에도 새도약기금 대상인가요?",
+    "개인워크아웃 진행 중이면 어떻게 되나요?",
+    "신용회복위원회 채무조정과 중복되나요?",
+    "개인회생이 폐지되면 대상이 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:49:41.437Z"
+}

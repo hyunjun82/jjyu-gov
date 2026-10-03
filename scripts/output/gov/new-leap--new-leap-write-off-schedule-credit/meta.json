@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-write-off-schedule-credit",
+  "slug": "new-leap-write-off-schedule-credit",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "소각일정확정확인신용회복",
+  "exportName": "새도약기금소각일정확정확인신용회복SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\소각일정확정확인신용회복.tsx",
+  "title": "새도약기금 소각일정과 확정 확인 방법, 소각되면 신용회복될까?",
+  "subs": [
+    "소각일정은 어떻게 되나요?",
+    "소각이 확정됐는지 어떻게 확인하나요?",
+    "소각되면 신용점수가 회복되나요?",
+    "소각되지 않고 남는 채무가 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:10:42.816Z"
+}

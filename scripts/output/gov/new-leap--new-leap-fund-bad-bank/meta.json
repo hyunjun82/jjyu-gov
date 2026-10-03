@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-fund-bad-bank",
+  "slug": "new-leap-fund-bad-bank",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "새도약기금이란배드뱅크재원",
+  "exportName": "새도약기금새도약기금이란배드뱅크재원SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\새도약기금이란배드뱅크재원.tsx",
+  "title": "새도약기금이란 무엇일까, 배드뱅크와 같은지 언제 시행되고 재원은 어디서 나올까?",
+  "subs": [
+    "새도약기금이란 무엇인가요?",
+    "배드뱅크와 같은 건가요?",
+    "언제부터 시행되나요?",
+    "재원은 어디서 나오나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T06:39:26.767Z"
+}

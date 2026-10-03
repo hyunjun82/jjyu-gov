@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-principal-reduction-tax",
+  "slug": "new-leap-principal-reduction-tax",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "빚탕감원금감면한도감면율세금",
+  "exportName": "새도약기금빚탕감원금감면한도감면율세금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\빚탕감원금감면한도감면율세금.tsx",
+  "title": "새도약기금 빚탕감 원금감면 한도, 감면율과 탕감액에 세금 붙을까?",
+  "subs": [
+    "새도약기금은 빚을 전액 탕감해주나요?",
+    "원금감면 한도는 얼마인가요?",
+    "감면율은 어떻게 정해지나요?",
+    "탕감받은 금액에 세금이 붙나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:37:02.953Z"
+}

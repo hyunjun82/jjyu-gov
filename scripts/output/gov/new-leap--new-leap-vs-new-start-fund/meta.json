@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-leap--new-leap-vs-new-start-fund",
+  "slug": "new-leap-vs-new-start-fund",
+  "hub": "new-leap",
+  "dir": "새도약기금",
+  "fileName": "새출발기금차이소상공인부실차주",
+  "exportName": "새도약기금새출발기금차이소상공인부실차주SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새도약기금\\새출발기금차이소상공인부실차주.tsx",
+  "title": "새도약기금과 새출발기금 차이, 소상공인 부실차주 기준과 둘 다 신청될까?",
+  "subs": [
+    "새도약기금과 새출발기금은 어떻게 다른가요?",
+    "새출발기금은 소상공인만 되나요?",
+    "부실차주 기준은 무엇인가요?",
+    "둘 다 신청할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-03T05:45:13.209Z"
+}
