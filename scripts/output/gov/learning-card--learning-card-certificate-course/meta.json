@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-certificate-course",
+  "slug": "learning-card-certificate-course",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "자격증과정학원등록",
+  "exportName": "내일배움카드자격증과정학원등록SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\자격증과정학원등록.tsx",
+  "title": "내일배움카드 자격증 과정, 지게차·요양보호사·컴활도 되나요? 학점은행제 병행 여부",
+  "subs": [
+    "자격증 과정도 지원되나요?",
+    "지게차와 요양보호사 과정도 되나요?",
+    "컴활과 토익 같은 시험 과정은 되나요?",
+    "학점은행제와 같이 쓸 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T03:55:39.770Z"
+}

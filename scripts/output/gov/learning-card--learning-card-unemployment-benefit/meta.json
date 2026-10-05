@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-unemployment-benefit",
+  "slug": "learning-card-unemployment-benefit",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "실업급여중신청구직활동",
+  "exportName": "내일배움카드실업급여중신청구직활동SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\실업급여중신청구직활동.tsx",
+  "title": "실업급여 받는 중 내일배움카드 신청 되나요, 구직활동 인정과 조건부수급자 기준",
+  "subs": [
+    "실업급여를 받는 중에도 신청할 수 있나요?",
+    "수급자와 조건부수급자는 신청 방법이 다른가요?",
+    "훈련을 받으면 구직활동으로 인정되나요?",
+    "훈련 중에도 실업급여가 계속 나오나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T02:18:16.868Z"
+}

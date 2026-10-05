@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-bank-card",
+  "slug": "learning-card-bank-card",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "농협신한카드",
+  "exportName": "내일배움카드농협신한카드SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\농협신한카드.tsx",
+  "title": "내일배움카드 농협 신한 차이, 체크카드·신용카드 선택과 은행 방문 발급",
+  "subs": [
+    "농협과 신한은 무엇이 다른가요?",
+    "체크카드와 신용카드 중 무엇으로 받나요?",
+    "발급 후에 카드사를 바꿀 수 있나요?",
+    "은행에 가서 받으면 바로 쓸 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T00:02:55.413Z"
+}

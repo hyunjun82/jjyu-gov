@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-refund-dropout",
+  "slug": "learning-card-refund-dropout",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "환급중도포기",
+  "exportName": "내일배움카드환급중도포기SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\환급중도포기.tsx",
+  "title": "내일배움카드 환급 조건이 취업인가요, 6개월 기준과 환급 신청 방법",
+  "subs": [
+    "내일배움카드 환급은 무엇을 돌려받는 건가요?",
+    "환급 조건이 취업인가요?",
+    "취업 후 6개월이 지나야 받을 수 있나요?",
+    "환급 신청은 어디에 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T01:02:13.123Z"
+}

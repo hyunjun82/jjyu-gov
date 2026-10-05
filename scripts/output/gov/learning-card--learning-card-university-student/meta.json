@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-university-student",
+  "slug": "learning-card-university-student",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "대학생수업연한휴학",
+  "exportName": "내일배움카드대학생수업연한휴학SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\대학생수업연한휴학.tsx",
+  "title": "대학생 내일배움카드 신청 되나요, 재학생·휴학생·졸업예정자 기준",
+  "subs": [
+    "대학생도 신청할 수 있나요?",
+    "휴학 중에도 신청이 되나요?",
+    "졸업 예정자는 언제부터 신청할 수 있나요?",
+    "고등학교 졸업 직후에도 신청할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T02:29:59.893Z"
+}

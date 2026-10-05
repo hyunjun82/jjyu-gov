@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-course-choice",
+  "slug": "learning-card-course-choice",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "훈련과정고르기",
+  "exportName": "내일배움카드훈련과정고르기SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\훈련과정고르기.tsx",
+  "title": "내일배움카드 훈련과정 고르는 법, 인기 과정과 국기훈련·K디지털트레이닝 차이",
+  "subs": [
+    "어떤 훈련과정이 인기가 많나요?",
+    "국기훈련은 무엇인가요?",
+    "K-디지털 트레이닝은 일반 과정과 무엇이 다른가요?",
+    "훈련과정은 어떤 기준으로 비교해서 고르나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T04:06:05.495Z"
+}

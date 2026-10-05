@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-retake",
+  "slug": "learning-card-retake",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "재수강동일과정",
+  "exportName": "내일배움카드재수강동일과정SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\재수강동일과정.tsx",
+  "title": "내일배움카드 재수강, 같은 과정 또 들어도 되나요? 수료 이력과 제한 기준",
+  "subs": [
+    "같은 과정을 두 번 들을 수 있나요?",
+    "수료한 과정도 다시 신청할 수 있나요?",
+    "중도에 포기한 과정은 재수강이 되나요?",
+    "비슷한 다른 과정은 들어도 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T01:53:01.285Z"
+}

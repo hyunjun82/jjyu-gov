@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-attendance-rule",
+  "slug": "learning-card-attendance-rule",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "출석률지각조퇴",
+  "exportName": "내일배움카드출석률지각조퇴SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\출석률지각조퇴.tsx",
+  "title": "내일배움카드 출석률 80% 기준, 지각·조퇴 처리와 못 채웠을 때 불이익",
+  "subs": [
+    "출석률은 어떻게 계산하나요?",
+    "지각과 조퇴는 결석으로 처리되나요?",
+    "출석률 80%를 못 채우면 어떻게 되나요?",
+    "출석 체크는 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T03:31:40.926Z"
+}

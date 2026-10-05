@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-lost-reissue",
+  "slug": "learning-card-lost-reissue",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "분실신고재발급",
+  "exportName": "내일배움카드분실신고재발급SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\분실신고재발급.tsx",
+  "title": "내일배움카드 분실 신고, 카드사 재전송이 필요한 경우와 훈련 중 분실 대처법",
+  "subs": [
+    "카드를 잃어버리면 가장 먼저 무엇을 하나요?",
+    "카드사 재전송은 무엇이고 언제 필요한가요?",
+    "분실 신고 뒤 새 카드는 언제 받나요?",
+    "훈련 중에 분실해도 수강은 계속되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T02:02:26.042Z"
+}

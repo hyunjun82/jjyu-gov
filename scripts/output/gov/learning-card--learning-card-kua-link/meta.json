@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-kua-link",
+  "slug": "learning-card-kua-link",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "국취제연계신청순서",
+  "exportName": "내일배움카드국취제연계신청순서SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\국취제연계신청순서.tsx",
+  "title": "국민취업지원제도와 내일배움카드, 1유형 참여자의 훈련 신청 순서",
+  "subs": [
+    "국민취업지원제도와 내일배움카드는 같은 건가요?",
+    "국취제 1유형 참여자는 훈련을 어떻게 신청하나요?",
+    "훈련을 신청하기 전에 상담을 먼저 받아야 하나요?",
+    "국취제 참여 중에도 훈련장려금을 받나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T02:09:21.551Z"
+}

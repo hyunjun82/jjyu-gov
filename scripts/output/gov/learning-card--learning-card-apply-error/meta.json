@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-apply-error",
+  "slug": "learning-card-apply-error",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "신청오류전산상담",
+  "exportName": "내일배움카드신청오류전산상담SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\신청오류전산상담.tsx",
+  "title": "내일배움카드 신청 오류, 선처리 작업 실패가 뜰 때 원인과 문의 순서",
+  "subs": [
+    "신청할 때 오류 메시지가 뜨면 어떻게 하나요?",
+    "선처리 작업 실패는 무슨 뜻인가요?",
+    "오류가 계속되면 어디에 문의하나요?",
+    "신청이 반려되면 다시 신청할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T01:43:56.385Z"
+}

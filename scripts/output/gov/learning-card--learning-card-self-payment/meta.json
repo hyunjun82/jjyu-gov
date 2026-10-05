@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-self-payment",
+  "slug": "learning-card-self-payment",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "자기부담금결제",
+  "exportName": "내일배움카드자기부담금결제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\자기부담금결제.tsx",
+  "title": "내일배움카드 사용법, 학원비 결제 방법과 잔액부족 뜰 때 해결법",
+  "subs": [
+    "내일배움카드는 어떻게 쓰나요?",
+    "학원비는 어떻게 결제하나요?",
+    "처음 결제할 때 왜 잔액부족이 뜨나요?",
+    "잔액부족이 뜨면 어떻게 해결하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T00:09:23.683Z"
+}

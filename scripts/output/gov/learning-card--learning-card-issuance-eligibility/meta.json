@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-issuance-eligibility",
+  "slug": "learning-card-issuance-eligibility",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "발급자격조건",
+  "exportName": "내일배움카드발급자격조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\발급자격조건.tsx",
+  "title": "내일배움카드 발급 조건, 무직자도 되나요? 나이 제한과 안 되는 경우",
+  "subs": [
+    "내일배움카드 발급 조건은 무엇인가요?",
+    "무직 상태여도 신청할 수 있나요?",
+    "나이 제한이 있나요?",
+    "신청이 안 되는 경우는 언제인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T00:51:23.151Z"
+}

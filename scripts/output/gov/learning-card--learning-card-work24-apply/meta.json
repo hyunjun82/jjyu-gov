@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-work24-apply",
+  "slug": "learning-card-work24-apply",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "고용24신청절차",
+  "exportName": "내일배움카드고용24신청절차SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\고용24신청절차.tsx",
+  "title": "내일배움카드 신청 방법, 카드 받기까지 걸리는 기간과 안 올 때 확인법",
+  "subs": [
+    "신청 순서는 어떻게 되나요?",
+    "카드 받기까지 얼마나 걸리나요?",
+    "신청했는데 카드가 안 오는 이유는 뭔가요?",
+    "진행 상황은 어디서 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T00:24:13.822Z"
+}

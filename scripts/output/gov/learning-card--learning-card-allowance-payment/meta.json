@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-allowance-payment",
+  "slug": "learning-card-allowance-payment",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "훈련장려금지급일",
+  "exportName": "내일배움카드훈련장려금지급일SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\훈련장려금지급일.tsx",
+  "title": "내일배움카드 훈련장려금 신청 방법, 지급 대상·금액과 지급일 확인법",
+  "subs": [
+    "훈련장려금은 누가 받을 수 있나요?",
+    "훈련장려금은 얼마나 받을 수 있나요?",
+    "훈련장려금은 따로 신청해야 하나요?",
+    "훈련장려금 지급일은 언제인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T03:00:07.970Z"
+}

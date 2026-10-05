@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-expiry-renewal",
+  "slug": "learning-card-expiry-renewal",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "유효기간만료갱신",
+  "exportName": "내일배움카드유효기간만료갱신SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\유효기간만료갱신.tsx",
+  "title": "내일배움카드 재발급 방법, 유효기간 끝났을 때와 카드를 잃어버렸을 때",
+  "subs": [
+    "내일배움카드는 언제 재발급받아야 하나요?",
+    "유효기간이 끝나면 남은 지원금은 사라지나요?",
+    "만료된 뒤 언제 다시 신청할 수 있나요?",
+    "카드를 잃어버리면 어디서 다시 만드나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T01:11:35.598Z"
+}

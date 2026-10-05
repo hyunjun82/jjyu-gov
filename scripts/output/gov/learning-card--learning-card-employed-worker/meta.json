@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-employed-worker",
+  "slug": "learning-card-employed-worker",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "재직자근로시간기준",
+  "exportName": "내일배움카드재직자근로시간기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\재직자근로시간기준.tsx",
+  "title": "직장인 내일배움카드 월급 300만원 넘어도 되나요, 대기업 기준과 신청법",
+  "subs": [
+    "직장인도 내일배움카드를 받을 수 있나요?",
+    "월급이 300만원을 넘으면 못 받나요?",
+    "대기업에 다니면 신청이 안 되나요?",
+    "재직자는 어떻게 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T00:31:44.641Z"
+}

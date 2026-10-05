@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-course-apply",
+  "slug": "learning-card-course-apply",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "수강신청개강준비",
+  "exportName": "내일배움카드수강신청개강준비SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\수강신청개강준비.tsx",
+  "title": "내일배움카드 수강신청 방법, 학원 등록 순서와 승인 안 날 때 대처법",
+  "subs": [
+    "내일배움카드 수강신청은 어디서 하나요?",
+    "학원 등록 순서는 어떻게 되나요?",
+    "수강신청 후 문자가 안 오면 승인이 안 된 건가요?",
+    "개강 전까지 승인이 안 나면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T00:40:42.362Z"
+}

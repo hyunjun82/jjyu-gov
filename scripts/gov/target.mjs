@@ -108,10 +108,16 @@ export function wireSpoke(t, { title, role = 'guide' }) {
   let hub = fs.readFileSync(hubFile, 'utf8');
   const arr = hub.match(/export const [\w가-힣]+Spokes\s*(?::\s*[^=]+?)?\s*=\s*\[/);   // 타입 표기(': { slug: string; … }[]')가 붙은 허브도 (2026-10-02 개별소비세 허브)  // ': any[]' 같은 타입 표기가 붙은 허브도 (2026-09-29 공무원연금 허브)
   if (!arr) throw new Error(`${hubFile} 에 Spokes 배열이 없다`);
+  const esc = title.replace(/'/g, "\\'");
   if (!hub.includes(`slug: '${t.slug}'`)) {
     const at = arr.index + arr[0].length;
     const hnl = hub.includes('\r\n') ? '\r\n' : '\n';
-    hub = hub.slice(0, at) + `${hnl}  { slug: '${t.slug}', role: '${role}', title: '${title.replace(/'/g, "\\'")}' },` + hub.slice(at);
+    hub = hub.slice(0, at) + `${hnl}  { slug: '${t.slug}', role: '${role}', title: '${esc}' },` + hub.slice(at);
     fs.writeFileSync(hubFile, hub);
+  } else {
+    // 옛 글 리라이트로 타이틀이 바뀌면 허브 목록의 타이틀도 따라간다 (2026-10-04 내일배움카드) — role 은 그대로
+    const line = new RegExp(`(\\{ slug: '${t.slug}',[^\\n]*?title: ')((?:[^'\\\\]|\\\\.)*)(')`);
+    const m = hub.match(line);
+    if (m && m[2] !== esc) { hub = hub.replace(line, (_, a, _b, c) => `${a}${esc}${c}`); fs.writeFileSync(hubFile, hub); }
   }
 }

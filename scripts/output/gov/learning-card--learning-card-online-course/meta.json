@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-online-course",
+  "slug": "learning-card-online-course",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "온라인인강원격과정",
+  "exportName": "내일배움카드온라인인강원격과정SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\온라인인강원격과정.tsx",
+  "title": "내일배움카드 인강 가능한가요, 온라인 과정 찾는 법과 출석 인정 기준",
+  "subs": [
+    "인강으로도 수강할 수 있나요?",
+    "온라인 과정은 어디서 찾나요?",
+    "온라인으로 들어도 출석이 인정되나요?",
+    "신청은 오프라인 과정과 똑같이 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T03:41:18.731Z"
+}

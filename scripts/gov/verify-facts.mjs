@@ -46,6 +46,16 @@ export const nums = (s) => (canonMoney(canonDate(s)).match(/\d[\d,]*(?:\.\d+)?/g
 export const ranges = (s) => [...canonMoney(canonDate(s)).matchAll(/(\d[\d,]*(?:\.\d+)?)\s*(?:\([가-힣]{1,2}\))?\s*[가-힣]{0,2}\s*(?:~|부터)\s*(?:만\s*)?(\d[\d,]*(?:\.\d+)?)/g)]
   .map((m) => [m[1].replace(/,/g, ''), m[2].replace(/,/g, '')]);
 /** 허용 목록용 — "9.21" 같은 날짜 표기는 글에서 "9월 21일"로 풀어 쓰므로 9·21 로도 쪼개 넣는다 */
+/** 이미지 두 번 읽기 비교 — 숫자열이 같거나, 한쪽이 다른 쪽 안에 '연속해서' 들어 있으면 같은 읽기다.
+ *  두 번째 읽기가 표 전체를 옮기고 첫 번째는 그중 한 행만 옮긴 경우(내일배움카드 출석 계산식 표, 2026-10-04)를 오탐으로 막지 않는다.
+ *  짧은 쪽 숫자가 1개뿐이면 우연히 맞기 쉬워 예전처럼 완전히 같아야 한다. */
+export const sameReading = (a, b) => {
+  if (a.join('|') === b.join('|')) return true;
+  const [s, l] = a.length <= b.length ? [a, b] : [b, a];
+  if (s.length < 2) return false;
+  for (let i = 0; i + s.length <= l.length; i++) if (s.every((v, j) => l[i + j] === v)) return true;
+  return false;
+};
 export const numsLoose = (s) => [
   ...nums(s).flatMap((t) => (/^\d{1,2}\.\d{1,2}$/.test(t) ? [t, ...t.split('.')] : [t])),
   // 원문의 연도 줄임("'97.12월분")은 글에서 "1997년 12월"로 풀어 쓴다 — 허용 목록에 풀이를 넣는다 (2026-10-01 퇴직금 전환금 1993~1999)
@@ -105,7 +115,7 @@ export function verifyFacts(slug) {
     // 3) 이미지는 두 번 따로 읽어 숫자가 같아야 한다
     if (isImg) {
       if (!x.read2) errors.push(`${tag} — 이미지 사실인데 두 번째 읽기(read2)가 없다`);
-      else if (nums(x.quote).join('|') !== nums(x.read2).join('|')) {
+      else if (!sameReading(nums(x.quote), nums(x.read2))) {
         errors.push(`${tag} — 이미지 두 번 읽기가 다르다: "${x.quote}" ↔ "${x.read2}"`);
       }
     }

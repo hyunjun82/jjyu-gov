@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-issue-certificate",
+  "slug": "learning-card-issue-certificate",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "발급확인서출력",
+  "exportName": "내일배움카드발급확인서출력SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\발급확인서출력.tsx",
+  "title": "내일배움카드 발급확인서 출력 방법, 은행에 가져갈 서류 다시 뽑는 법",
+  "subs": [
+    "발급확인서는 어디서 출력하나요?",
+    "발급확인서는 언제 필요한가요?",
+    "발급확인서 없이 은행에 가도 되나요?",
+    "발급확인서를 잃어버리면 다시 뽑을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T01:35:21.871Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-account-balance",
+  "slug": "learning-card-account-balance",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "훈련계좌연결통장",
+  "exportName": "내일배움카드훈련계좌연결통장SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\훈련계좌연결통장.tsx",
+  "title": "내일배움카드 잔액 확인 방법, 사용 내역 조회와 계좌 연결 통장",
+  "subs": [
+    "내일배움카드 잔액은 어디서 확인하나요?",
+    "사용 내역은 어디서 조회하나요?",
+    "계좌와 통장은 따로 만들어야 하나요?",
+    "잔액을 충전할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T23:51:29.206Z"
+}

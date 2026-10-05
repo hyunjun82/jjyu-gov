@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-support-limit",
+  "slug": "learning-card-support-limit",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "지원한도추가지원금",
+  "exportName": "내일배움카드지원한도추가지원금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\지원한도추가지원금.tsx",
+  "title": "내일배움카드 다 쓰면, 추가지원 받을수 있다는데 대상과 신청 방법",
+  "subs": [
+    "내일배움카드 한도는 얼마까지 지원되나요?",
+    "300만원을 다 쓰면 추가로 받을 수 있나요?",
+    "추가지원 대상은 누구인가요?",
+    "추가지원은 어디에 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T04:14:54.224Z"
+}

@@ -42,7 +42,10 @@ async function pdfText(buf) {
   return { text: text.replace(/[ \t]+/g, ' ').trim(), pages: doc.numPages };
 }
 
-/** 페이지·프레임 공통 추출기 — 법령(law.go.kr)은 본문이 iframe 안에 있어 메인 페이지만 보면 0자다 (2026-09-23 시험) */
+/** 객체 대신 JSON 문자열로 받는다 — 고용24 hr 계열(selectIssuGudn·trnnCrsInf0)은 evaluate 의 객체 반환이 통째로 undefined 가 된다 (2026-10-04 내일배움카드) */
+const extractFrom = async (target) => JSON.parse(await target.evaluate(`JSON.stringify((${EXTRACT})())`));
+
+/** 페이지·프레임 공통 추출기 —법령(law.go.kr)은 본문이 iframe 안에 있어 메인 페이지만 보면 0자다 (2026-09-23 시험) */
 const EXTRACT = () => {
   const clean = (s) => (s || '').replace(/[ \t ]+/g, ' ').replace(/\n\s*\n+/g, '\n').trim();
   const tables = [...document.querySelectorAll('table')].map((t) => ({
@@ -121,10 +124,10 @@ for (const [i, url] of urls.entries()) {
     });
     await page.waitForTimeout(800);
 
-    const data = await page.evaluate(EXTRACT);
+    const data = await extractFrom(page);
     // 프레임 안 본문(법령 등)도 떠서 붙인다 — 이미지는 메인 페이지 것만 찍는다
     for (const fr of page.frames().filter((f) => f !== page.mainFrame())) {
-      const fd = await fr.evaluate(EXTRACT).catch(() => null);
+      const fd = await extractFrom(fr).catch(() => null);
       if (!fd?.text || fd.text.length < 200) continue;
       data.text += `\n\n===== 프레임: ${fr.url()} =====\n${fd.text}`;
       data.tables.push(...fd.tables);

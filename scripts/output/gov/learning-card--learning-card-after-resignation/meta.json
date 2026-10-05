@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--learning-card-after-resignation",
+  "slug": "learning-card-after-resignation",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "퇴사후신청상실신고",
+  "exportName": "내일배움카드퇴사후신청상실신고SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\퇴사후신청상실신고.tsx",
+  "title": "퇴사 후 내일배움카드 신청, 재직자에서 실직자로 바뀌는 시점과 상실신고",
+  "subs": [
+    "퇴사하면 내일배움카드는 어떻게 되나요?",
+    "재직자에서 실직자로 유형이 바뀌나요?",
+    "퇴사 직후에도 학원 등록을 할 수 있나요?",
+    "고용보험 상실신고는 언제 처리되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-04T02:38:33.626Z"
+}
