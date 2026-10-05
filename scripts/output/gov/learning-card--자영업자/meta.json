@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--자영업자",
+  "slug": "자영업자",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "자영업자",
+  "exportName": "내일배움카드자영업자SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\자영업자.tsx",
+  "title": "프리랜서 내일배움카드 신청 되나요, 사업자등록증 없을 때 조건",
+  "subs": [
+    "프리랜서도 신청할 수 있나요?",
+    "사업자등록증이 없으면 어떻게 하나요?",
+    "소득이 많으면 제외되나요?",
+    "자영업자는 신청 조건이 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T01:13:52.611Z"
+}

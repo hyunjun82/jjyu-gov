@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--지원금액",
+  "slug": "지원금액",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "지원금액",
+  "exportName": "내일배움카드지원금액SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\지원금액.tsx",
+  "title": "내일배움카드 돈 얼마 나오나요, 지원 금액과 본인부담금 계산",
+  "subs": [
+    "내일배움카드는 현금으로 받는 건가요?",
+    "지원받는 돈은 얼마인가요?",
+    "본인부담금은 얼마나 내나요?",
+    "남은 돈은 현금으로 바꿀 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T00:25:11.803Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--신청방법",
+  "slug": "신청방법",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "신청방법",
+  "exportName": "내일배움카드신청SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\신청방법.tsx",
+  "title": "내일배움카드 고용센터 방문 신청, 준비물과 당일 발급 가능 여부",
+  "subs": [
+    "고용센터에 가면 당일 발급되나요?",
+    "방문할 때 무엇을 가져가나요?",
+    "방문 신청 후 카드는 언제부터 쓸 수 있나요?",
+    "가까운 고용센터는 어떻게 찾나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T00:56:50.398Z"
+}

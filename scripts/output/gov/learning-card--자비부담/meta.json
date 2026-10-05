@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--자비부담",
+  "slug": "자비부담",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "자비부담",
+  "exportName": "내일배움카드자비부담SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\자비부담.tsx",
+  "title": "내일배움카드 무료 교육 되나요, 본인부담금 없는 과정과 자부담금 환불",
+  "subs": [
+    "무료로 들을 수 있는 과정이 있나요?",
+    "본인부담금이 없는 사람은 누구인가요?",
+    "자부담금은 환불받을 수 있나요?",
+    "무료 과정도 한도가 차감되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T01:56:47.612Z"
+}

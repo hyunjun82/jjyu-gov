@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--재직자조건",
+  "slug": "재직자조건",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "재직자조건",
+  "exportName": "내일배움카드재직자조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\재직자조건.tsx",
+  "title": "재직자 내일배움카드와 근로자 내일배움카드 차이, 실업자 유형과 무엇이 다른가요",
+  "subs": [
+    "재직자 카드와 근로자 카드는 같은 건가요?",
+    "재직자 유형과 실업자 유형은 무엇이 다른가요?",
+    "재직자가 아닌데 재직자로 잡혀 있으면 어떻게 하나요?",
+    "내 유형은 어디서 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T00:45:47.709Z"
+}

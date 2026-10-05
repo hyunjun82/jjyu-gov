@@ -222,7 +222,10 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   // 가정 예시 — '가정'과 '예시'가 함께 든 문자열은 사장님이 허용한 계산 예시(숫자를 가정해 계산)다. 그 문자열의 숫자는 막지 않는다.
   //   (spec 에 example: 가정 예시 허용 이 있는 글에서만 모델이 쓴다. 계산이 맞는지는 보고서 단계에서 사람이 본다) (2026-10-03)
   const isAssumed = (s) => /가정/.test(s) && /예시/.test(s);
-  for (const s of strings) { if (isAssumed(s)) continue; for (const n of nums(s.replace(ORDINAL, ''))) if (!allowed.has(n) && !bad.has(n)) bad.set(n, s); }
+  // 사이트 이름 '고용24' 의 24 는 사실 숫자가 아니다 — facts 에 그 이름이 안 든 글(재직자 유형)에서 버튼 "고용24에서 내 유형 확인하기"가
+  //   고침 두 번으로도 못 풀고 떨어졌다 (2026-10-05 내일배움카드 재직자조건)
+  const SITE_NAME = /고용\s?24/g;
+  for (const s of strings) { if (isAssumed(s)) continue; for (const n of nums(s.replace(ORDINAL, '').replace(SITE_NAME, '고용'))) if (!allowed.has(n) && !bad.has(n)) bad.set(n, s); }
   for (const [n, s] of bad) errors.push(`[숫자] ${n} — facts 에 없다: "${s.slice(0, 80)}"`);
   // 달력 검사 — 월은 1~12, '월 일' 앞뒤로 붙은 일은 1~31
   const calSeen = new Set();

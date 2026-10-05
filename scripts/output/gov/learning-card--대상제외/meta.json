@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--대상제외",
+  "slug": "대상제외",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "대상제외",
+  "exportName": "내일배움카드대상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\대상제외.tsx",
+  "title": "내일배움카드 대상 아닌 사람, 발급 제외 대상과 지원 제한 기간",
+  "subs": [
+    "신청 대상은 누구인가요?",
+    "대상에서 제외되는 사람은 누구인가요?",
+    "지원 제한 기간은 언제까지인가요?",
+    "제외 사유가 없어졌는데도 안 되면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T01:48:27.801Z"
+}

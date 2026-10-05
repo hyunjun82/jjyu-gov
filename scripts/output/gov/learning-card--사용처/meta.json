@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--사용처",
+  "slug": "사용처",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "사용처",
+  "exportName": "내일배움카드사용처SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\사용처.tsx",
+  "title": "내일배움카드 운전면허 되나요, 대형면허와 사용처 구분법",
+  "subs": [
+    "운전면허 학원에도 쓸 수 있나요?",
+    "대형면허도 안 되나요?",
+    "사용처는 어디서 확인하나요?",
+    "안 되는 과정에는 또 어떤 것이 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T00:36:36.633Z"
+}

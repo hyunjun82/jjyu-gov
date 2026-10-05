@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--유효기간",
+  "slug": "유효기간",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "유효기간",
+  "exportName": "내일배움카드유효기간SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\유효기간.tsx",
+  "title": "내일배움카드 연장 되나요, 유효기간 5년 만료 전에 알아둘 것",
+  "subs": [
+    "유효기간은 연장할 수 있나요?",
+    "훈련 중에 만료되면 어떻게 되나요?",
+    "계좌 유효기간은 어디서 확인하나요?",
+    "유효기간 안에 남은 지원금을 쓰려면 언제까지 신청해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T01:03:54.849Z"
+}

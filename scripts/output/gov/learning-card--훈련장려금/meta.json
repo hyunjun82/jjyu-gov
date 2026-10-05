@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--훈련장려금",
+  "slug": "훈련장려금",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "훈련장려금",
+  "exportName": "내일배움카드장려금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\훈련장려금.tsx",
+  "title": "내일배움카드 훈련장려금 조회, 입금 계좌와 사용처 확인",
+  "subs": [
+    "훈련장려금 지급 내역은 어디서 조회하나요?",
+    "입금 계좌는 어디로 정해지나요?",
+    "입금 계좌를 바꿀 수 있나요?",
+    "훈련장려금은 어디에 쓸 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T01:34:35.670Z"
+}

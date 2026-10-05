@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--attendance-penalty",
+  "slug": "attendance-penalty",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "출석률패널티",
+  "exportName": "내일배움카드출석률패널티SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\출석률패널티.tsx",
+  "title": "내일배움카드 결석 몇 번까지 되나요, 결석 패널티와 한도 차감",
+  "subs": [
+    "결석은 몇 번까지 가능한가요?",
+    "결석하면 어떤 불이익이 있나요?",
+    "제적되면 한도에서 얼마가 차감되나요?",
+    "결석 연락은 어디에 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T02:09:21.544Z"
+}

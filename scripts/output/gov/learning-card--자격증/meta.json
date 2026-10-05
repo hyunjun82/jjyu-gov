@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "learning-card--자격증",
+  "slug": "자격증",
+  "hub": "learning-card",
+  "dir": "내일배움카드",
+  "fileName": "자격증",
+  "exportName": "내일배움카드자격증SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\내일배움카드\\자격증.tsx",
+  "title": "내일배움카드 컴활 학원, 컴활 1급 2급 과정과 수강료 본인부담",
+  "subs": [
+    "컴활 1급과 2급 둘 다 되나요?",
+    "컴활 과정은 어디서 검색하나요?",
+    "컴활 학원비 중 내가 내는 돈은 얼마인가요?",
+    "필기와 실기 과정은 따로 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-05T01:23:23.034Z"
+}
