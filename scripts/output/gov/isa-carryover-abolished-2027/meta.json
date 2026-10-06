@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "isa-carryover-abolished-2027",
+  "slug": "isa-carryover-abolished-2027",
+  "file": "data\\policies\\isa-carryover-abolished-2027.ts",
+  "title": "ISA 이월 불가 2027, 일반 ISA 납입한도 이월 폐지와 기존 가입자 적용",
+  "subs": [
+    "ISA 이월 불가",
+    "ISA 이월 한도",
+    "일반 ISA 납입한도",
+    "기존 ISA 가입자 적용"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T02:42:49.824Z"
+}

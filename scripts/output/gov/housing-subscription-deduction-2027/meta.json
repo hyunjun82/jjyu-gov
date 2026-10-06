@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "housing-subscription-deduction-2027",
+  "slug": "housing-subscription-deduction-2027",
+  "file": "data\\policies\\housing-subscription-deduction-2027.ts",
+  "title": "주택청약 소득공제 조건과 한도, 일몰 없애고 계속 적용한다는 상시화 내용",
+  "subs": [
+    "주택청약 소득공제 조건",
+    "청약저축 소득공제 한도",
+    "주택청약 소득공제 세대원",
+    "주택청약 소득공제 상시화"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T02:25:35.416Z"
+}

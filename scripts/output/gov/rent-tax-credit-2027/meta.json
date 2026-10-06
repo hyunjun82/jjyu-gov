@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "rent-tax-credit-2027",
+  "slug": "rent-tax-credit-2027",
+  "file": "data\\policies\\rent-tax-credit-2027.ts",
+  "title": "월세 세액공제 조건과 한도, 2027년부터 달라지는 공제율과 연 월세 한도",
+  "subs": [
+    "월세 세액공제 조건",
+    "월세 세액공제 한도",
+    "청년 월세 세액공제",
+    "월세 세액공제 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T01:09:33.239Z"
+}

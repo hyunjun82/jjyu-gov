@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "eitc-2027-income-limit",
+  "slug": "eitc-2027-income-limit",
+  "file": "data\\policies\\eitc-2027-income-limit.ts",
+  "title": "근로장려금 소득기준 변경, 2027년 단독·홑벌이·맞벌이 총소득 기준과 지급액",
+  "subs": [
+    "근로장려금 소득기준 변경",
+    "근로장려금 소득기준표",
+    "근로장려금 지급액 인상",
+    "근로장려금 2027 조건"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T00:57:39.149Z"
+}

@@ -74,7 +74,8 @@ if (money) {
 const pairs = new Set(facts.flatMap((x) => [...ranges(x.value), ...ranges(x.quote)]).map(([a, b]) => `${a}|${b}`));
 for (const t of lit) {
   const m = t.match(/(\d{2,})\s*~\s*(\d{2,})/);
-  if (m && pairs.has(`${m[1]}|${m[2]}`)) { add(`② 범위 뒤집기 (${m[0]} → ${m[2]}~${m[1]})`, 'article', t, t.replace(m[0], `${m[2]}~${m[1]}`)); break; }
+  // 따옴표째 찾는다 — 표 칸 '400~900' 은 출처 주석(source.text)에도 같은 글자로 있어, 글자만으로 바꾸면 주석이 먼저 바뀌어 가짜 '놓침'이 난다 (2026-10-06 근로장려금)
+  if (m && pairs.has(`${m[1]}|${m[2]}`)) { add(`② 범위 뒤집기 (${m[0]} → ${m[2]}~${m[1]})`, 'article', ...lit1(t, t.replace(m[0], `${m[2]}~${m[1]}`))); break; }
 }
 
 // ③ 범위어 지우기 — 검사기와 같은 함수(scopeHit·headerReader)로 "검사기가 실제로 보는 문장"만 고른다

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "productive-finance-isa",
+  "slug": "productive-finance-isa",
+  "file": "data\\policies\\productive-finance-isa.ts",
+  "title": "생산적 금융 ISA 가입 자격 확인, 한도·비과세 범위와 건보료 부과 여부",
+  "subs": [
+    "생산적 금융 ISA 가입 자격",
+    "생산적 금융 ISA 한도",
+    "생산적 금융 ISA 건보료",
+    "생산적 금융 ISA 출시일"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T00:29:51.456Z"
+}

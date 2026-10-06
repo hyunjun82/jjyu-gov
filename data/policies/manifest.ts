@@ -479,6 +479,17 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { illegalLoanAdPaparazziPolicy, illegalLoanAdPaparazziSpokes } from './illegal-loan-ad-paparazzi';
+import { leaseLoanSpouseDeduction2027Policy, leaseLoanSpouseDeduction2027Spokes } from './lease-loan-spouse-deduction-2027';
+import { isaCarryoverAbolished2027Policy, isaCarryoverAbolished2027Spokes } from './isa-carryover-abolished-2027';
+import { seniorCapitalGainsRelocation2027Policy, seniorCapitalGainsRelocation2027Spokes } from './senior-capital-gains-relocation-2027';
+import { housingSubscriptionDeduction2027Policy, housingSubscriptionDeduction2027Spokes } from './housing-subscription-deduction-2027';
+import { childbirthSupportTaxFree2027Policy, childbirthSupportTaxFree2027Spokes } from './childbirth-support-tax-free-2027';
+import { youthIrpTaxCredit2027Policy, youthIrpTaxCredit2027Spokes } from './youth-irp-tax-credit-2027';
+import { basicDeductionIncome2027Policy, basicDeductionIncome2027Spokes } from './basic-deduction-income-2027';
+import { rentTaxCredit2027Policy, rentTaxCredit2027Spokes } from './rent-tax-credit-2027';
+import { eitc2027IncomeLimitPolicy, eitc2027IncomeLimitSpokes } from './eitc-2027-income-limit';
+import { productiveFinanceIsaPolicy, productiveFinanceIsaSpokes } from './productive-finance-isa';
 import { medianIncome2027Policy, medianIncome2027Spokes } from './median-income-2027';
 import { shinglesVaccineFreeSupportPolicy, shinglesVaccineFreeSupportSpokes } from './shingles-vaccine-free-support';
 import { youthFutureSavings2ndApplyPolicy, youthFutureSavings2ndApplySpokes } from './youth-future-savings-2nd-apply';
@@ -2005,6 +2016,17 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'illegal-loan-ad-paparazzi': illegalLoanAdPaparazziPolicy,
+  'lease-loan-spouse-deduction-2027': leaseLoanSpouseDeduction2027Policy,
+  'isa-carryover-abolished-2027': isaCarryoverAbolished2027Policy,
+  'senior-capital-gains-relocation-2027': seniorCapitalGainsRelocation2027Policy,
+  'housing-subscription-deduction-2027': housingSubscriptionDeduction2027Policy,
+  'childbirth-support-tax-free-2027': childbirthSupportTaxFree2027Policy,
+  'youth-irp-tax-credit-2027': youthIrpTaxCredit2027Policy,
+  'basic-deduction-income-2027': basicDeductionIncome2027Policy,
+  'rent-tax-credit-2027': rentTaxCredit2027Policy,
+  'eitc-2027-income-limit': eitc2027IncomeLimitPolicy,
+  'productive-finance-isa': productiveFinanceIsaPolicy,
   'median-income-2027': medianIncome2027Policy,
   'shingles-vaccine-free-support': shinglesVaccineFreeSupportPolicy,
   'youth-future-savings-2nd-apply': youthFutureSavings2ndApplyPolicy,
@@ -3652,6 +3674,17 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'illegal-loan-ad-paparazzi': illegalLoanAdPaparazziSpokes,
+  'lease-loan-spouse-deduction-2027': leaseLoanSpouseDeduction2027Spokes,
+  'isa-carryover-abolished-2027': isaCarryoverAbolished2027Spokes,
+  'senior-capital-gains-relocation-2027': seniorCapitalGainsRelocation2027Spokes,
+  'housing-subscription-deduction-2027': housingSubscriptionDeduction2027Spokes,
+  'childbirth-support-tax-free-2027': childbirthSupportTaxFree2027Spokes,
+  'youth-irp-tax-credit-2027': youthIrpTaxCredit2027Spokes,
+  'basic-deduction-income-2027': basicDeductionIncome2027Spokes,
+  'rent-tax-credit-2027': rentTaxCredit2027Spokes,
+  'eitc-2027-income-limit': eitc2027IncomeLimitSpokes,
+  'productive-finance-isa': productiveFinanceIsaSpokes,
   'median-income-2027': medianIncome2027Spokes,
   'shingles-vaccine-free-support': shinglesVaccineFreeSupportSpokes,
   'youth-future-savings-2nd-apply': youthFutureSavings2ndApplySpokes,

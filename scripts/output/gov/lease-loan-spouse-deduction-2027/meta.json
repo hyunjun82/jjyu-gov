@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "lease-loan-spouse-deduction-2027",
+  "slug": "lease-loan-spouse-deduction-2027",
+  "file": "data\\policies\\lease-loan-spouse-deduction-2027.ts",
+  "title": "전세대출 소득공제 대상 확대, 주소지가 다른 세대주 배우자도 받을 수 있는 조건",
+  "subs": [
+    "주택임차차입금 원리금 공제",
+    "전세대출 소득공제 세대원",
+    "전세대출 소득공제 소득요건",
+    "전세대출 소득공제 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T02:53:15.170Z"
+}

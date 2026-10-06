@@ -1,0 +1,71 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mofe.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000032335&fileSn=6",
+    "finalUrl": "https://www.mofe.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000032335&fileSn=6",
+    "title": "PDF 250쪽",
+    "file": "src-1.txt",
+    "chars": 137603,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.mofe.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000032335&fileSn=4",
+    "finalUrl": "https://www.mofe.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000032335&fileSn=4",
+    "title": "PDF 42쪽",
+    "file": "src-2.txt",
+    "chars": 36230,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mofe.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000032335&fileSn=8",
+    "finalUrl": "https://www.mofe.go.kr/com/cmm/fms/FileDown.do?atchFileId=ATCH_000000000032335&fileSn=8",
+    "title": "PDF 94쪽",
+    "file": "src-3.txt",
+    "chars": 63570,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40610&cntntsId=239022",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40610&cntntsId=239022",
+    "title": "국세청>국세신고안내>개인신고안내>연말정산>맞춤형 안내> 주택마련저축 소득공제",
+    "file": "src-4.txt",
+    "chars": 1581,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.law.go.kr/법령/대한민국헌법/제59조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%ED%97%8C%EB%B2%95/%EC%A0%9C59%EC%A1%B0",
+    "title": "대한민국헌법",
+    "file": "src-5.txt",
+    "chars": 914,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40610&cntntsId=239022",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40610&cntntsId=239022",
+    "title": "국세청>국세신고안내>개인신고안내>연말정산>맞춤형 안내> 주택마련저축 소득공제",
+    "file": "src-6.txt",
+    "chars": 1581,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]
