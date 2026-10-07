@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "retirement-pension-db-to-dc-switch",
+  "slug": "retirement-pension-db-to-dc-switch",
+  "file": "data\\policies\\retirement-pension-db-to-dc-switch.ts",
+  "title": "퇴직연금 DB형 DC형 전환 방법, 한 번 옮기면 되돌릴 수 있는지 확인",
+  "subs": [
+    "퇴직연금 DB형 DC형 차이",
+    "퇴직연금 DB DC 전환 방법",
+    "퇴직연금 DB형 DC형 변경",
+    "퇴직연금 DB형 DC형 선택 기준"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T23:40:54.375Z"
+}

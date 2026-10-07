@@ -1,0 +1,63 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014004&article.offset=0&articleLimit=10",
+    "finalUrl": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=view&articleNo=11014004&article.offset=0&articleLimit=10",
+    "title": "국민건강보험공단, “찾아가지 않은 환급금 지금 바로 확인하세요!” | 국민건강보험",
+    "file": "src-1.txt",
+    "chars": 2536,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=download&articleNo=11014004&attachNo=369667",
+    "finalUrl": "https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do?mode=download&articleNo=11014004&attachNo=369667",
+    "title": "PDF 2쪽",
+    "file": "src-2.txt",
+    "chars": 1009,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946897&article.offset=12&articleLimit=12",
+    "finalUrl": "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946897&article.offset=12&articleLimit=12",
+    "title": "보험료 환급금 | 국민건강보험",
+    "file": "src-3.txt",
+    "chars": 2770,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nhis.or.kr/nhis/minwon/minwonServiceBoard.do?mode=view&articleNo=10945831&article.offset=0&articleLimit=12",
+    "finalUrl": "https://www.nhis.or.kr/nhis/minwon/minwonServiceBoard.do?mode=view&articleNo=10945831&article.offset=0&articleLimit=12",
+    "title": "보험료 환급금 조회/신청 | 국민건강보험",
+    "file": "src-4.txt",
+    "chars": 1650,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.nhis.or.kr/nhis/minwon/minwonServiceBoard.do?mode=view&articleNo=10945831&article.offset=0&articleLimit=12",
+    "finalUrl": "https://www.nhis.or.kr/nhis/minwon/minwonServiceBoard.do?mode=view&articleNo=10945831&article.offset=0&articleLimit=12",
+    "title": "보험료 환급금 조회/신청 | 국민건강보험",
+    "file": "src-5.txt",
+    "chars": 1650,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

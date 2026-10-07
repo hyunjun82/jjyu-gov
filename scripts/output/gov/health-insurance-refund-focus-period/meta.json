@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "health-insurance-refund-focus-period",
+  "slug": "health-insurance-refund-focus-period",
+  "file": "data\\policies\\health-insurance-refund-focus-period.ts",
+  "title": "건강보험료 환급금 조회와 신청, 11월 말까지 집중 지급 기간",
+  "subs": [
+    "건강보험 환급금 조회",
+    "건강보험 환급금 신청",
+    "건강보험 환급금 기준",
+    "건강보험 환급금 지급 시기"
+  ],
+  "deflect": true,
+  "created": "2026-10-06T23:33:46.043Z"
+}

@@ -1,0 +1,89 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092445",
+    "finalUrl": "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95092445",
+    "title": "보도자료 - 전체 - 상세보기",
+    "file": "src-1.txt",
+    "chars": 983,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260922%28%EC%A1%B0%EA%B0%84%29+%EA%B5%AD%ED%86%A0%EB%B6%80_%EA%B8%B0%ED%9B%84%EB%B6%80_%EB%91%90_%EB%A7%88%EB%A6%AC_%ED%86%A0%EB%81%BC_%EC%9E%A1%EB%8A%94%EB%8B%A4__%EB%AA%A8%EB%91%90%EC%9D%98%EC%B9%B4%EB%93%9C_%EA%B7%B8%EB%A6%B0%EC%B9%B4%EB%93%9C_%EC%97%B0%EA%B3%84%28%28%EA%B4%91%EC%97%AD%EA%B5%90%ED%86%B5%EA%B2%BD%EC%A0%9C%EA%B3%BC%29_.pdf",
+    "finalUrl": "https://www.molit.go.kr/LCMS/DWN.jsp?fold=koreaNews/mobile/file&fileName=260922%28%EC%A1%B0%EA%B0%84%29+%EA%B5%AD%ED%86%A0%EB%B6%80_%EA%B8%B0%ED%9B%84%EB%B6%80_%EB%91%90_%EB%A7%88%EB%A6%AC_%ED%86%A0%EB%81%BC_%EC%9E%A1%EB%8A%94%EB%8B%A4__%EB%AA%A8%EB%91%90%EC%9D%98%EC%B9%B4%EB%93%9C_%EA%B7%B8%EB%A6%B0%EC%B9%B4%EB%93%9C_%EC%97%B0%EA%B3%84%28%28%EA%B4%91%EC%97%AD%EA%B5%90%ED%86%B5%EA%B2%BD%EC%A0%9C%EA%B3%BC%29_.pdf",
+    "title": "PDF 3쪽",
+    "file": "src-2.txt",
+    "chars": 1980,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148960648",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148960648",
+    "title": "대한민국 모두를 위한 '모두의 카드'…전국 어디서나 교통자유 누린다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 5789,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "'모두의 카드' 유형별·지역별 기준 금액 안내(국토교통부)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.green-card.co.kr/app/mainPage.do",
+    "finalUrl": "https://www.green-card.co.kr/app/mainPage.do",
+    "title": "GREEN CARD",
+    "file": "src-4.txt",
+    "chars": 984,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-3.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.green-card.co.kr/app/mainPage.do",
+    "finalUrl": "https://www.green-card.co.kr/app/mainPage.do",
+    "title": "GREEN CARD",
+    "file": "src-5.txt",
+    "chars": 984,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-5-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-5-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-5-3.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  }
+]

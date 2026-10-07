@@ -479,6 +479,9 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { moduGreenCardIssuePolicy, moduGreenCardIssueSpokes } from './modu-green-card-issue';
+import { retirementPensionDbToDcSwitchPolicy, retirementPensionDbToDcSwitchSpokes } from './retirement-pension-db-to-dc-switch';
+import { healthInsuranceRefundFocusPeriodPolicy, healthInsuranceRefundFocusPeriodSpokes } from './health-insurance-refund-focus-period';
 import { illegalLoanAdPaparazziPolicy, illegalLoanAdPaparazziSpokes } from './illegal-loan-ad-paparazzi';
 import { leaseLoanSpouseDeduction2027Policy, leaseLoanSpouseDeduction2027Spokes } from './lease-loan-spouse-deduction-2027';
 import { isaCarryoverAbolished2027Policy, isaCarryoverAbolished2027Spokes } from './isa-carryover-abolished-2027';
@@ -2016,6 +2019,9 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'modu-green-card-issue': moduGreenCardIssuePolicy,
+  'retirement-pension-db-to-dc-switch': retirementPensionDbToDcSwitchPolicy,
+  'health-insurance-refund-focus-period': healthInsuranceRefundFocusPeriodPolicy,
   'illegal-loan-ad-paparazzi': illegalLoanAdPaparazziPolicy,
   'lease-loan-spouse-deduction-2027': leaseLoanSpouseDeduction2027Policy,
   'isa-carryover-abolished-2027': isaCarryoverAbolished2027Policy,
@@ -3674,6 +3680,9 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'modu-green-card-issue': moduGreenCardIssueSpokes,
+  'retirement-pension-db-to-dc-switch': retirementPensionDbToDcSwitchSpokes,
+  'health-insurance-refund-focus-period': healthInsuranceRefundFocusPeriodSpokes,
   'illegal-loan-ad-paparazzi': illegalLoanAdPaparazziSpokes,
   'lease-loan-spouse-deduction-2027': leaseLoanSpouseDeduction2027Spokes,
   'isa-carryover-abolished-2027': isaCarryoverAbolished2027Spokes,

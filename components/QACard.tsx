@@ -166,7 +166,8 @@ export function QATable({
                 style={{
                   padding: '10px 12px',
                   fontSize: '12px',
-                  textAlign: 'center',
+                  // 본문 첫 칸(td)이 왼쪽 정렬이라 머리글도 맞춘다 — 가운데로 두면 "순서"와 "1"이 어긋난다 (2026-10-07)
+                  textAlign: i === 0 ? 'left' : 'center',
                   letterSpacing: '-0.005em',
                 }}
               >
