@@ -479,6 +479,10 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { livelihoodAccountExcessSplitDeposit2027Policy, livelihoodAccountExcessSplitDeposit2027Spokes } from './livelihood-account-excess-split-deposit-2027';
+import { humidifierDisinfectantCompensationApplyPolicy, humidifierDisinfectantCompensationApplySpokes } from './humidifier-disinfectant-compensation-apply';
+import { wageClaimFraudReportReward2027Policy, wageClaimFraudReportReward2027Spokes } from './wage-claim-fraud-report-reward-2027';
+import { nationalPensionIndustrialAccidentReductionPolicy, nationalPensionIndustrialAccidentReductionSpokes } from './national-pension-industrial-accident-reduction';
 import { moduGreenCardIssuePolicy, moduGreenCardIssueSpokes } from './modu-green-card-issue';
 import { retirementPensionDbToDcSwitchPolicy, retirementPensionDbToDcSwitchSpokes } from './retirement-pension-db-to-dc-switch';
 import { healthInsuranceRefundFocusPeriodPolicy, healthInsuranceRefundFocusPeriodSpokes } from './health-insurance-refund-focus-period';
@@ -2019,6 +2023,10 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'livelihood-account-excess-split-deposit-2027': livelihoodAccountExcessSplitDeposit2027Policy,
+  'humidifier-disinfectant-compensation-apply': humidifierDisinfectantCompensationApplyPolicy,
+  'wage-claim-fraud-report-reward-2027': wageClaimFraudReportReward2027Policy,
+  'national-pension-industrial-accident-reduction': nationalPensionIndustrialAccidentReductionPolicy,
   'modu-green-card-issue': moduGreenCardIssuePolicy,
   'retirement-pension-db-to-dc-switch': retirementPensionDbToDcSwitchPolicy,
   'health-insurance-refund-focus-period': healthInsuranceRefundFocusPeriodPolicy,
@@ -3680,6 +3688,10 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'livelihood-account-excess-split-deposit-2027': livelihoodAccountExcessSplitDeposit2027Spokes,
+  'humidifier-disinfectant-compensation-apply': humidifierDisinfectantCompensationApplySpokes,
+  'wage-claim-fraud-report-reward-2027': wageClaimFraudReportReward2027Spokes,
+  'national-pension-industrial-accident-reduction': nationalPensionIndustrialAccidentReductionSpokes,
   'modu-green-card-issue': moduGreenCardIssueSpokes,
   'retirement-pension-db-to-dc-switch': retirementPensionDbToDcSwitchSpokes,
   'health-insurance-refund-focus-period': healthInsuranceRefundFocusPeriodSpokes,
