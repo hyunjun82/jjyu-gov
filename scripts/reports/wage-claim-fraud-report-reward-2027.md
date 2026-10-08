@@ -1,4 +1,4 @@
-# ✅ 대지급금 부정수급 신고 방법과 포상금 최대 2억원
+# ✅ 대지급금 부정수급 신고 방법과 포상금 확대
 
 - 허브 · 파일: data\policies\wage-claim-fraud-report-reward-2027.ts · 모델: claude-opus-5-5 · effort high · 5.1분 · 입력 108k·출력 32k 토큰 · 환산 $1.24
 - 주소: https://gov.jjyu.co.kr/policy/wage-claim-fraud-report-reward-2027
