@@ -479,6 +479,11 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { youthJeonseWolseLoanConditionsPolicy, youthJeonseWolseLoanConditionsSpokes } from './youth-jeonse-wolse-loan-conditions';
+import { policyLoanPrepaymentFeeWaiverPolicy, policyLoanPrepaymentFeeWaiverSpokes } from './policy-loan-prepayment-fee-waiver';
+import { bogeumjariLoanDocumentsPolicy, bogeumjariLoanDocumentsSpokes } from './bogeumjari-loan-documents';
+import { didimdolLoanDocumentsPolicy, didimdolLoanDocumentsSpokes } from './didimdol-loan-documents';
+import { babyWelcomeGrant2027Policy, babyWelcomeGrant2027Spokes } from './baby-welcome-grant-2027';
 import { basicPension2027TieredPaymentPolicy, basicPension2027TieredPaymentSpokes } from './basic-pension-2027-tiered-payment';
 import { temporaryTwoHomeSpecialPeriod2026Policy, temporaryTwoHomeSpecialPeriod2026Spokes } from './temporary-two-home-special-period-2026';
 import { jeonseFraudMinimumGuarantee2026Policy, jeonseFraudMinimumGuarantee2026Spokes } from './jeonse-fraud-minimum-guarantee-2026';
@@ -2026,6 +2031,11 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'youth-jeonse-wolse-loan-conditions': youthJeonseWolseLoanConditionsPolicy,
+  'policy-loan-prepayment-fee-waiver': policyLoanPrepaymentFeeWaiverPolicy,
+  'bogeumjari-loan-documents': bogeumjariLoanDocumentsPolicy,
+  'didimdol-loan-documents': didimdolLoanDocumentsPolicy,
+  'baby-welcome-grant-2027': babyWelcomeGrant2027Policy,
   'basic-pension-2027-tiered-payment': basicPension2027TieredPaymentPolicy,
   'temporary-two-home-special-period-2026': temporaryTwoHomeSpecialPeriod2026Policy,
   'jeonse-fraud-minimum-guarantee-2026': jeonseFraudMinimumGuarantee2026Policy,
@@ -3694,6 +3704,11 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'youth-jeonse-wolse-loan-conditions': youthJeonseWolseLoanConditionsSpokes,
+  'policy-loan-prepayment-fee-waiver': policyLoanPrepaymentFeeWaiverSpokes,
+  'bogeumjari-loan-documents': bogeumjariLoanDocumentsSpokes,
+  'didimdol-loan-documents': didimdolLoanDocumentsSpokes,
+  'baby-welcome-grant-2027': babyWelcomeGrant2027Spokes,
   'basic-pension-2027-tiered-payment': basicPension2027TieredPaymentSpokes,
   'temporary-two-home-special-period-2026': temporaryTwoHomeSpecialPeriod2026Spokes,
   'jeonse-fraud-minimum-guarantee-2026': jeonseFraudMinimumGuarantee2026Spokes,
