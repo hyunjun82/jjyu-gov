@@ -6,7 +6,7 @@ slug: policy-loan-prepayment-fee-waiver
 cat: 대출
 catSlug: loan
 type: loan
-title: 중도상환수수료 면제, 디딤돌·보금자리론 기준
+title: 디딤돌·보금자리론 중도상환수수료, 면제받는 법
 sub: 중도상환수수료 면제 기간
 sub: 디딤돌 중도상환수수료
 sub: 보금자리론 중도상환수수료

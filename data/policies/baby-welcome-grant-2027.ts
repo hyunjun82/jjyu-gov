@@ -1,4 +1,4 @@
-/* 아이맞이지원금 금액과 우대지역, 2027년 7월 이후 출생아 적용 시기와 현행 비교
+/* 아이맞이지원금, 2027년 7월 이후 출생아부터 받나요
  * 추출본: scripts/output/gov/baby-welcome-grant-2027/src-1.txt
  * 추출본: scripts/output/gov/baby-welcome-grant-2027/src-2.txt
  * 추출본: scripts/output/gov/baby-welcome-grant-2027/src-3.txt
@@ -22,7 +22,7 @@ const FIRST_VOUCHER = 'https://www.gov.kr/portal/service/serviceInfo/13520000501
 
 export const babyWelcomeGrant2027Policy = {
   id: '947', type: 'service' as const,
-  title: '아이맞이지원금 금액과 우대지역, 2027년 7월 이후 출생아 적용 시기와 현행 비교',
+  title: '아이맞이지원금, 2027년 7월 이후 출생아부터 받나요',
   titleKeywords: { k1: '아이맞이지원금 금액', k2: '아이맞이지원금 우대지역', k3: '아이맞이지원금 적용 시기', k4: '아이맞이지원금 현행 비교' },
   slug: 'baby-welcome-grant-2027', org: '보건복지부', cat: '복지', catSlug: 'welfare',
   amount: '첫째 1,000만 원 · 둘째 1,200만 원 · 셋째 이상 1,500만 원', hideAmountBox: true,

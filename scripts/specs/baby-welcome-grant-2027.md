@@ -6,7 +6,7 @@ slug: baby-welcome-grant-2027
 cat: 복지
 catSlug: welfare
 type: service
-title: 아이맞이지원금 금액과 우대지역, 2027년 7월 이후 출생아 적용 시기와 현행 비교
+title: 아이맞이지원금, 2027년 7월 이후 출생아부터 받나요
 sub: 아이맞이지원금 금액
 sub: 아이맞이지원금 우대지역
 sub: 아이맞이지원금 소급

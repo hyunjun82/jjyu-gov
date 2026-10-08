@@ -1,6 +1,6 @@
-# ✅ 보금자리론 서류, 제출서류와 신청 순서
+# ✅ 보금자리론 신청 서류, 어디에 어떻게 내나요
 
-- 허브 · 파일: data\policies\bogeumjari-loan-documents.ts · 모델: claude-opus-5-5 · effort high · 7.8분 · 입력 584k·출력 43k 토큰 · 환산 $1.79
+- 허브 · 파일: data\policies\bogeumjari-loan-documents.ts · 모델: claude-opus-5-5 · effort high · 0.9분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/bogeumjari-loan-documents
 
 ## 글 대조 (코드) — ✅ 숫자 11종 전부 facts 에 있음

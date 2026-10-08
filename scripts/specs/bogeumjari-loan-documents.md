@@ -5,7 +5,7 @@ slug: bogeumjari-loan-documents
 cat: 대출
 catSlug: loan
 type: loan
-title: 보금자리론 서류, 제출서류와 신청 순서
+title: 보금자리론 신청 서류, 어디에 어떻게 내나요
 sub: 보금자리론 서류 준비
 sub: 보금자리론 서류 제출 방법
 sub: 아낌e보금자리론 서류

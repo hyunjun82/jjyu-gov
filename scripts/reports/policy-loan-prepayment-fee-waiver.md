@@ -1,4 +1,4 @@
-# ✅ 중도상환수수료 면제, 디딤돌·보금자리론 기준
+# ✅ 디딤돌·보금자리론 중도상환수수료, 면제받는 법
 
 - 허브 · 파일: data\policies\policy-loan-prepayment-fee-waiver.ts · 모델: claude-opus-5-5 · effort high · 5.8분 · 입력 152k·출력 30k 토큰 · 환산 $1.41
 - 주소: https://gov.jjyu.co.kr/policy/policy-loan-prepayment-fee-waiver
