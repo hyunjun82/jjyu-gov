@@ -479,6 +479,7 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { basicPension2027TieredPaymentPolicy, basicPension2027TieredPaymentSpokes } from './basic-pension-2027-tiered-payment';
 import { temporaryTwoHomeSpecialPeriod2026Policy, temporaryTwoHomeSpecialPeriod2026Spokes } from './temporary-two-home-special-period-2026';
 import { jeonseFraudMinimumGuarantee2026Policy, jeonseFraudMinimumGuarantee2026Spokes } from './jeonse-fraud-minimum-guarantee-2026';
 import { livelihoodAccountExcessSplitDeposit2027Policy, livelihoodAccountExcessSplitDeposit2027Spokes } from './livelihood-account-excess-split-deposit-2027';
@@ -2025,6 +2026,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'basic-pension-2027-tiered-payment': basicPension2027TieredPaymentPolicy,
   'temporary-two-home-special-period-2026': temporaryTwoHomeSpecialPeriod2026Policy,
   'jeonse-fraud-minimum-guarantee-2026': jeonseFraudMinimumGuarantee2026Policy,
   'livelihood-account-excess-split-deposit-2027': livelihoodAccountExcessSplitDeposit2027Policy,
@@ -3692,6 +3694,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'basic-pension-2027-tiered-payment': basicPension2027TieredPaymentSpokes,
   'temporary-two-home-special-period-2026': temporaryTwoHomeSpecialPeriod2026Spokes,
   'jeonse-fraud-minimum-guarantee-2026': jeonseFraudMinimumGuarantee2026Spokes,
   'livelihood-account-excess-split-deposit-2027': livelihoodAccountExcessSplitDeposit2027Spokes,
