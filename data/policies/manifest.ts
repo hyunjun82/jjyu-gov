@@ -479,6 +479,8 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { temporaryTwoHomeSpecialPeriod2026Policy, temporaryTwoHomeSpecialPeriod2026Spokes } from './temporary-two-home-special-period-2026';
+import { jeonseFraudMinimumGuarantee2026Policy, jeonseFraudMinimumGuarantee2026Spokes } from './jeonse-fraud-minimum-guarantee-2026';
 import { livelihoodAccountExcessSplitDeposit2027Policy, livelihoodAccountExcessSplitDeposit2027Spokes } from './livelihood-account-excess-split-deposit-2027';
 import { humidifierDisinfectantCompensationApplyPolicy, humidifierDisinfectantCompensationApplySpokes } from './humidifier-disinfectant-compensation-apply';
 import { wageClaimFraudReportReward2027Policy, wageClaimFraudReportReward2027Spokes } from './wage-claim-fraud-report-reward-2027';
@@ -2023,6 +2025,8 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'temporary-two-home-special-period-2026': temporaryTwoHomeSpecialPeriod2026Policy,
+  'jeonse-fraud-minimum-guarantee-2026': jeonseFraudMinimumGuarantee2026Policy,
   'livelihood-account-excess-split-deposit-2027': livelihoodAccountExcessSplitDeposit2027Policy,
   'humidifier-disinfectant-compensation-apply': humidifierDisinfectantCompensationApplyPolicy,
   'wage-claim-fraud-report-reward-2027': wageClaimFraudReportReward2027Policy,
@@ -3688,6 +3692,8 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'temporary-two-home-special-period-2026': temporaryTwoHomeSpecialPeriod2026Spokes,
+  'jeonse-fraud-minimum-guarantee-2026': jeonseFraudMinimumGuarantee2026Spokes,
   'livelihood-account-excess-split-deposit-2027': livelihoodAccountExcessSplitDeposit2027Spokes,
   'humidifier-disinfectant-compensation-apply': humidifierDisinfectantCompensationApplySpokes,
   'wage-claim-fraud-report-reward-2027': wageClaimFraudReportReward2027Spokes,
