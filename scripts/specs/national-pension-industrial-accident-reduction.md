@@ -5,7 +5,7 @@ slug: national-pension-industrial-accident-reduction
 cat: 연금
 catSlug: pension
 type: service
-title: 산재 국민연금 감액, 산재급여 받을 가능성만으로 절반 줄이는 지침 개선 권고 내용
+title: 산재 국민연금 감액, 가능성만으로 절반 줄이나요
 sub: 산재 국민연금 감액 기준
 sub: 산재 국민연금 중복급여 조정 대상
 sub: 산재 국민연금 환수

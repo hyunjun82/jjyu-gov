@@ -21,7 +21,7 @@ const OFFICE = 'https://www.moel.go.kr/minwon/rigion/rigion_C1.do';
 
 export const wageClaimFraudReportReward2027Policy = {
   id: '941', type: 'service' as const,
-  title: '대지급금 부정수급 신고, 2027년부터 신고포상금 최대 2억원 신고 방법과 처벌',
+  title: '대지급금 부정수급 신고 방법과 포상금 최대 2억원',
   titleKeywords: { k1: '대지급금 부정수급 신고', k2: '대지급금 부정수급 신고포상금', k3: '대지급금 부정수급 처벌', k4: '간이대지급금 신청 조건' },
   slug: 'wage-claim-fraud-report-reward-2027', org: '고용노동부', cat: '복지', catSlug: 'welfare',
   amount: '신고포상금 상한 1억원에서 2억원으로(2027년 1월 1일부터)', hideAmountBox: true,

@@ -1,4 +1,4 @@
-# ✅ 생계비계좌 한도 초과 입금, 2027년 1월 1일부터 초과분 관리계좌로 자동 예치 방법
+# ✅ 생계비계좌 한도 초과 입금, 관리계좌로 자동 예치
 
 - 허브 · 파일: data\policies\livelihood-account-excess-split-deposit-2027.ts · 모델: claude-opus-5-5 · effort high · 8.3분 · 입력 633k·출력 43k 토큰 · 환산 $1.80
 - 주소: https://gov.jjyu.co.kr/policy/livelihood-account-excess-split-deposit-2027

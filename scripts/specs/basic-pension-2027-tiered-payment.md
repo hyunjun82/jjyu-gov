@@ -7,7 +7,7 @@ slug: basic-pension-2027-tiered-payment
 cat: 연금
 catSlug: pension
 type: service
-title: 기초연금 차등지급 금액, 2027년 4월 개편안 소득 하위 구간별 인상액과 부부감액 완화
+title: 기초연금 차등지급, 2027년 4월부터 얼마 받나요
 sub: 기초연금 차등지급 금액
 sub: 기초연금 2027 인상
 sub: 기초연금 인상 시기

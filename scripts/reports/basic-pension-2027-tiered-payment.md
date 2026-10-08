@@ -1,4 +1,4 @@
-# ✅ 기초연금 차등지급 금액, 2027년 4월 개편안 소득 하위 구간별 인상액과 부부감액 완화
+# ✅ 기초연금 차등지급, 2027년 4월부터 얼마 받나요
 
 - 허브 · 파일: data\policies\basic-pension-2027-tiered-payment.ts · 모델: claude-opus-5-5 · effort high · 5.0분 · 입력 104k·출력 32k 토큰 · 환산 $0.91
 - 주소: https://gov.jjyu.co.kr/policy/basic-pension-2027-tiered-payment

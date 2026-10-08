@@ -5,7 +5,7 @@ slug: livelihood-account-excess-split-deposit-2027
 cat: 금융
 catSlug: finance
 type: service
-title: 생계비계좌 한도 초과 입금, 2027년 1월 1일부터 초과분 관리계좌로 자동 예치 방법
+title: 생계비계좌 한도 초과 입금, 관리계좌로 자동 예치
 sub: 생계비계좌 입금한도 넘으면
 sub: 생계비계좌 한도 초과시 방법
 sub: 생계비계좌 관리계좌 지정
