@@ -8,9 +8,9 @@ catSlug: loan
 type: loan
 title: 중도상환수수료 면제와 계산, 디딤돌부터 보금자리론까지
 sub: 중도상환수수료 면제 기간
+sub: 중도상환수수료 계산
 sub: 디딤돌 중도상환수수료
 sub: 보금자리론 중도상환수수료
-sub: 중도상환수수료 계산
 source: https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030101.jsp
 source: https://www.hf.go.kr/ko/sub01/sub01_01_01.do
 source: https://nhuf.molit.go.kr/FP/FP05/FP0503/FP05030103.jsp

@@ -7,8 +7,8 @@ catSlug: welfare
 type: service
 title: 가습기살균제 피해 배상 신청 방법과 기간, 항목부터 서류까지
 sub: 가습기살균제 피해 배상 신청 방법
-sub: 가습기살균제 피해 배상금 항목
 sub: 가습기살균제 피해 배상 신청 기간
+sub: 가습기살균제 피해 배상금 항목
 sub: 가습기살균제 기존 피해자 신청 서류
 source: https://www.korea.kr/common/download.do?fileId=198566572&tblKey=GMN
 source: https://www.korea.kr/common/download.do?fileId=198566590&tblKey=GMN

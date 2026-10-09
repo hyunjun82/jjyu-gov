@@ -7,8 +7,8 @@ catSlug: pension
 type: service
 title: 산재 국민연금 감액 기준과 환수, 조정 대상부터 동시 수령까지
 sub: 산재 국민연금 감액 기준
-sub: 산재 국민연금 중복급여 조정 대상
 sub: 산재 국민연금 환수
+sub: 산재 국민연금 중복급여 조정 대상
 sub: 산재 국민연금 동시 수령
 source: https://www.korea.kr/common/download.do?fileId=198564250&tblKey=GMN
 source: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784078
