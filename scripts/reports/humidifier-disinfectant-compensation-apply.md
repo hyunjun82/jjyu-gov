@@ -1,4 +1,4 @@
-# ✅ 가습기살균제 배상 신청, 2027년 4월 7일까지 접수
+# ✅ 가습기살균제 피해 배상 신청 방법과 기간, 항목부터 서류까지
 
 - 허브 · 파일: data\policies\humidifier-disinfectant-compensation-apply.ts · 모델: claude-opus-5-5 · effort high · 5.3분 · 입력 166k·출력 24k 토큰 · 환산 $1.13
 - 주소: https://gov.jjyu.co.kr/policy/humidifier-disinfectant-compensation-apply

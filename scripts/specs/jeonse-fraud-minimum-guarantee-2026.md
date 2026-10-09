@@ -5,7 +5,7 @@ slug: jeonse-fraud-minimum-guarantee-2026
 cat: 주거
 catSlug: housing
 type: service
-title: 전세사기 최소보장제 신청방법, 11월 13일 시행
+title: 전세사기 최소보장제 대상과 금액, 신청방법부터 시행일까지
 sub: 전세사기 최소보장제 대상
 sub: 전세사기 최소보장제 금액
 sub: 전세사기 최소보장제 신청방법

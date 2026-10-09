@@ -5,7 +5,7 @@ slug: national-pension-industrial-accident-reduction
 cat: 연금
 catSlug: pension
 type: service
-title: 산재 국민연금 감액, 가능성만으로 절반 줄이나요
+title: 산재 국민연금 감액 기준과 환수, 조정 대상부터 동시 수령까지
 sub: 산재 국민연금 감액 기준
 sub: 산재 국민연금 중복급여 조정 대상
 sub: 산재 국민연금 환수

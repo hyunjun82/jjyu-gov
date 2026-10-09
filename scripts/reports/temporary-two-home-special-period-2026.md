@@ -1,4 +1,4 @@
-# ✅ 일시적 2주택 기간 2년으로 단축, 비과세 적용은?
+# ✅ 일시적 2주택 기간 2년, 양도세 비과세부터 종부세 특례까지
 
 - 허브 · 파일: data\policies\temporary-two-home-special-period-2026.ts · 모델: claude-opus-5-5 · effort high · 5.1분 · 입력 104k·출력 27k 토큰 · 환산 $1.10
 - 주소: https://gov.jjyu.co.kr/policy/temporary-two-home-special-period-2026

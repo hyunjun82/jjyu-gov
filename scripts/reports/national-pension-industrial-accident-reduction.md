@@ -1,4 +1,4 @@
-# ✅ 산재 국민연금 감액, 가능성만으로 절반 줄이나요
+# ✅ 산재 국민연금 감액 기준과 환수, 조정 대상부터 동시 수령까지
 
 - 허브 · 파일: data\policies\national-pension-industrial-accident-reduction.ts · 모델: claude-opus-5-5 · effort high · 5.9분 · 입력 108k·출력 29k 토큰 · 환산 $1.18
 - 주소: https://gov.jjyu.co.kr/policy/national-pension-industrial-accident-reduction

@@ -1,4 +1,4 @@
-# ✅ 아이맞이지원금, 2027년 7월 이후 출생아부터 받나요
+# ✅ 아이맞이지원금 금액과 우대지역, 소급 여부부터 현행 비교까지
 
 - 허브 · 파일: data\policies\baby-welcome-grant-2027.ts · 모델: claude-opus-5-5 · effort high · 6.2분 · 입력 108k·출력 32k 토큰 · 환산 $1.24
 - 주소: https://gov.jjyu.co.kr/policy/baby-welcome-grant-2027

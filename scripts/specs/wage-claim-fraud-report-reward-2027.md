@@ -5,7 +5,7 @@ slug: wage-claim-fraud-report-reward-2027
 cat: 복지
 catSlug: welfare
 type: service
-title: 대지급금 부정수급 신고 방법과 포상금 확대
+title: 대지급금 부정수급 신고 방법과 포상금, 처벌부터 신청 조건까지
 sub: 대지급금 부정수급 신고 방법
 sub: 대지급금 부정수급 신고포상금
 sub: 대지급금 부정수급 처벌

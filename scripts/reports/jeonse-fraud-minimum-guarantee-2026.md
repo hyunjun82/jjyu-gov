@@ -1,4 +1,4 @@
-# ✅ 전세사기 최소보장제 신청방법, 11월 13일 시행
+# ✅ 전세사기 최소보장제 대상과 금액, 신청방법부터 시행일까지
 
 - 허브 · 파일: data\policies\jeonse-fraud-minimum-guarantee-2026.ts · 모델: claude-opus-5-5 · effort high · 9.0분 · 입력 548k·출력 41k 토큰 · 환산 $1.79
 - 주소: https://gov.jjyu.co.kr/policy/jeonse-fraud-minimum-guarantee-2026

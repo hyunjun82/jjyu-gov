@@ -5,7 +5,7 @@ slug: temporary-two-home-special-period-2026
 cat: 세금
 catSlug: tax
 type: tax
-title: 일시적 2주택 기간 2년으로 단축, 비과세 적용은?
+title: 일시적 2주택 기간 2년, 양도세 비과세부터 종부세 특례까지
 sub: 일시적 2주택 기간 2년
 sub: 일시적 2주택 양도세 비과세
 sub: 조정지역 일시적 2주택 특례

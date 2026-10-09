@@ -5,7 +5,7 @@ slug: humidifier-disinfectant-compensation-apply
 cat: 복지
 catSlug: welfare
 type: service
-title: 가습기살균제 배상 신청, 2027년 4월 7일까지 접수
+title: 가습기살균제 피해 배상 신청 방법과 기간, 항목부터 서류까지
 sub: 가습기살균제 피해 배상 신청 방법
 sub: 가습기살균제 피해 배상금 항목
 sub: 가습기살균제 피해 배상 신청 기간
