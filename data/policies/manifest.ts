@@ -479,6 +479,12 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { cultureNuriCardBalanceExpiryPolicy, cultureNuriCardBalanceExpirySpokes } from './culture-nuri-card-balance-expiry';
+import { temporaryHardshipFundQ4ConditionsPolicy, temporaryHardshipFundQ4ConditionsSpokes } from './temporary-hardship-fund-q4-conditions';
+import { innovationGrowthFundQ4ConditionsPolicy, innovationGrowthFundQ4ConditionsSpokes } from './innovation-growth-fund-q4-conditions';
+import { restartSpecialFundQ4ConditionsPolicy, restartSpecialFundQ4ConditionsSpokes } from './restart-special-fund-q4-conditions';
+import { creditVulnerableSmallBizFundPolicy, creditVulnerableSmallBizFundSpokes } from './credit-vulnerable-small-biz-fund';
+import { homeplusPolicyLoanExtensionPolicy, homeplusPolicyLoanExtensionSpokes } from './homeplus-policy-loan-extension';
 import { youthJeonseWolseLoanConditionsPolicy, youthJeonseWolseLoanConditionsSpokes } from './youth-jeonse-wolse-loan-conditions';
 import { policyLoanPrepaymentFeeWaiverPolicy, policyLoanPrepaymentFeeWaiverSpokes } from './policy-loan-prepayment-fee-waiver';
 import { bogeumjariLoanDocumentsPolicy, bogeumjariLoanDocumentsSpokes } from './bogeumjari-loan-documents';
@@ -2031,6 +2037,12 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'culture-nuri-card-balance-expiry': cultureNuriCardBalanceExpiryPolicy,
+  'temporary-hardship-fund-q4-conditions': temporaryHardshipFundQ4ConditionsPolicy,
+  'innovation-growth-fund-q4-conditions': innovationGrowthFundQ4ConditionsPolicy,
+  'restart-special-fund-q4-conditions': restartSpecialFundQ4ConditionsPolicy,
+  'credit-vulnerable-small-biz-fund': creditVulnerableSmallBizFundPolicy,
+  'homeplus-policy-loan-extension': homeplusPolicyLoanExtensionPolicy,
   'youth-jeonse-wolse-loan-conditions': youthJeonseWolseLoanConditionsPolicy,
   'policy-loan-prepayment-fee-waiver': policyLoanPrepaymentFeeWaiverPolicy,
   'bogeumjari-loan-documents': bogeumjariLoanDocumentsPolicy,
@@ -3704,6 +3716,12 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'culture-nuri-card-balance-expiry': cultureNuriCardBalanceExpirySpokes,
+  'temporary-hardship-fund-q4-conditions': temporaryHardshipFundQ4ConditionsSpokes,
+  'innovation-growth-fund-q4-conditions': innovationGrowthFundQ4ConditionsSpokes,
+  'restart-special-fund-q4-conditions': restartSpecialFundQ4ConditionsSpokes,
+  'credit-vulnerable-small-biz-fund': creditVulnerableSmallBizFundSpokes,
+  'homeplus-policy-loan-extension': homeplusPolicyLoanExtensionSpokes,
   'youth-jeonse-wolse-loan-conditions': youthJeonseWolseLoanConditionsSpokes,
   'policy-loan-prepayment-fee-waiver': policyLoanPrepaymentFeeWaiverSpokes,
   'bogeumjari-loan-documents': bogeumjariLoanDocumentsSpokes,
