@@ -30,6 +30,7 @@ import { ask, extractJson, newMeter, addUsage, fmtUsage } from '../lib/headless.
 import { DIR_OF, verifyFacts } from './verify-facts.mjs';
 import { checkArticle, heroOf, bridgeOf, frameOf, openingOf } from './check-article.mjs';
 import { targetOf, saveMeta, wireSpoke, allArticles } from './target.mjs';
+import { titleDup } from './check-title-dup.mjs';
 
 const argv = process.argv.slice(2);
 const specFile = argv.find((a) => !a.startsWith('--') && a.endsWith('.md'));
@@ -66,6 +67,9 @@ if (!articles.length) throw new Error(ONLY ? `spec 에 slug '${ONLY}' 가 없다
 for (const a of articles) {
   if (!a.slug || !a.title || a.subs.length !== 4 || !a.sources.length) throw new Error(`${a.slug || '(slug 없음)'}: slug·title·sub(정확히 4개)·source 가 필요하다`);
   if (a.hub && !a.dir) throw new Error(`${a.slug}: 스포크는 dir: (허브의 스포크 폴더) 가 필요하다`);
+  // 타이틀 낱말 중복(예: '청구'·'신청' 두 번) — 사장님 규칙. 뜻이 다른 낱말이라 그대로 쓸 때만 spec 에 '# 타이틀중복허용' 줄을 둔다
+  const dup = titleDup(a.title);
+  if (dup.length && !/타이틀중복허용/.test(fs.readFileSync(specFile, 'utf8'))) throw new Error(`${a.slug}: 타이틀에 같은 낱말이 두 번 들어간다(${dup.join('·')}) — "${a.title}". 고치거나, 뜻이 다르면 spec 에 '# 타이틀중복허용' 줄을 둔다`);
 }
 
 // ── 공통 작성 규칙 (허브·스포크 같다) ──

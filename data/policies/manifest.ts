@@ -479,6 +479,35 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { buildingFireInsuranceMandatoryPolicy, buildingFireInsuranceMandatorySpokes } from './building-fire-insurance-mandatory';
+import { landCategoryChangeApplicationPolicy, landCategoryChangeApplicationSpokes } from './land-category-change-application';
+import { temporaryBuildingConstructionReportPolicy, temporaryBuildingConstructionReportSpokes } from './temporary-building-construction-report';
+import { farmlandLeaseConfirmationPolicy, farmlandLeaseConfirmationSpokes } from './farmland-lease-confirmation';
+import { mountainLandConversionPermitPolicy, mountainLandConversionPermitSpokes } from './mountain-land-conversion-permit';
+import { houseExtensionRenovationPermitPolicy, houseExtensionRenovationPermitSpokes } from './house-extension-renovation-permit';
+import { detachedHouseConstructionReportPolicy, detachedHouseConstructionReportSpokes } from './detached-house-construction-report';
+import { randomSubscriptionEligibilityPolicy, randomSubscriptionEligibilitySpokes } from './random-subscription-eligibility';
+import { housingSubscriptionSavingsAccountPolicy, housingSubscriptionSavingsAccountSpokes } from './housing-subscription-savings-account';
+import { reconstructionProjectApprovalPolicy, reconstructionProjectApprovalSpokes } from './reconstruction-project-approval';
+import { redevelopmentAllocationApplicationPolicy, redevelopmentAllocationApplicationSpokes } from './redevelopment-allocation-application';
+import { apartmentManagementFeeReservePolicy, apartmentManagementFeeReserveSpokes } from './apartment-management-fee-reserve';
+import { apartmentPreInspectionDefectRepairPolicy, apartmentPreInspectionDefectRepairSpokes } from './apartment-pre-inspection-defect-repair';
+import { foreignerRealEstateAcquisitionReportPolicy, foreignerRealEstateAcquisitionReportSpokes } from './foreigner-real-estate-acquisition-report';
+import { selfOwnershipTransferRegistrationPolicy, selfOwnershipTransferRegistrationSpokes } from './self-ownership-transfer-registration';
+import { propertySaleContractCancellationPolicy, propertySaleContractCancellationSpokes } from './property-sale-contract-cancellation';
+import { movingCompanyDamageDisputePolicy, movingCompanyDamageDisputeSpokes } from './moving-company-damage-dispute';
+import { brokerageFeeCalculationDisputePolicy, brokerageFeeCalculationDisputeSpokes } from './brokerage-fee-calculation-dispute';
+import { longTermRepairReserveRefundPolicy, longTermRepairReserveRefundSpokes } from './long-term-repair-reserve-refund';
+import { lesseeDeathSuccessionPolicy, lesseeDeathSuccessionSpokes } from './lessee-death-succession';
+import { leaseAssignmentSubleaseLimitPolicy, leaseAssignmentSubleaseLimitSpokes } from './lease-assignment-sublease-limit';
+import { landlordChangeSuccessionPolicy, landlordChangeSuccessionSpokes } from './landlord-change-succession';
+import { lesseeNecessaryExpenseClaimPolicy, lesseeNecessaryExpenseClaimSpokes } from './lessee-necessary-expense-claim';
+import { depositToMonthlyRentConversionPolicy, depositToMonthlyRentConversionSpokes } from './deposit-to-monthly-rent-conversion';
+import { rentIncreaseClaimLimitPolicy, rentIncreaseClaimLimitSpokes } from './rent-increase-claim-limit';
+import { leaseDepositCompulsoryAuctionPolicy, leaseDepositCompulsoryAuctionSpokes } from './lease-deposit-compulsory-auction';
+import { smallDepositPriorityPaymentPolicy, smallDepositPriorityPaymentSpokes } from './small-deposit-priority-payment';
+import { rentalRegistrationOrderApplyPolicy, rentalRegistrationOrderApplySpokes } from './rental-registration-order-apply';
+import { rentalRenewalRightExercisePolicy, rentalRenewalRightExerciseSpokes } from './rental-renewal-right-exercise';
 import { subscriptionPaymentCancelRefundReliefPolicy, subscriptionPaymentCancelRefundReliefSpokes } from './subscription-payment-cancel-refund-relief';
 import { incomeTaxRefundLookupClaimPolicy, incomeTaxRefundLookupClaimSpokes } from './income-tax-refund-lookup-claim';
 import { resignationYearEndTaxSettlementPolicy, resignationYearEndTaxSettlementSpokes } from './resignation-year-end-tax-settlement';
@@ -2044,6 +2073,35 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'building-fire-insurance-mandatory': buildingFireInsuranceMandatoryPolicy,
+  'land-category-change-application': landCategoryChangeApplicationPolicy,
+  'temporary-building-construction-report': temporaryBuildingConstructionReportPolicy,
+  'farmland-lease-confirmation': farmlandLeaseConfirmationPolicy,
+  'mountain-land-conversion-permit': mountainLandConversionPermitPolicy,
+  'house-extension-renovation-permit': houseExtensionRenovationPermitPolicy,
+  'detached-house-construction-report': detachedHouseConstructionReportPolicy,
+  'random-subscription-eligibility': randomSubscriptionEligibilityPolicy,
+  'housing-subscription-savings-account': housingSubscriptionSavingsAccountPolicy,
+  'reconstruction-project-approval': reconstructionProjectApprovalPolicy,
+  'redevelopment-allocation-application': redevelopmentAllocationApplicationPolicy,
+  'apartment-management-fee-reserve': apartmentManagementFeeReservePolicy,
+  'apartment-pre-inspection-defect-repair': apartmentPreInspectionDefectRepairPolicy,
+  'foreigner-real-estate-acquisition-report': foreignerRealEstateAcquisitionReportPolicy,
+  'self-ownership-transfer-registration': selfOwnershipTransferRegistrationPolicy,
+  'property-sale-contract-cancellation': propertySaleContractCancellationPolicy,
+  'moving-company-damage-dispute': movingCompanyDamageDisputePolicy,
+  'brokerage-fee-calculation-dispute': brokerageFeeCalculationDisputePolicy,
+  'long-term-repair-reserve-refund': longTermRepairReserveRefundPolicy,
+  'lessee-death-succession': lesseeDeathSuccessionPolicy,
+  'lease-assignment-sublease-limit': leaseAssignmentSubleaseLimitPolicy,
+  'landlord-change-succession': landlordChangeSuccessionPolicy,
+  'lessee-necessary-expense-claim': lesseeNecessaryExpenseClaimPolicy,
+  'deposit-to-monthly-rent-conversion': depositToMonthlyRentConversionPolicy,
+  'rent-increase-claim-limit': rentIncreaseClaimLimitPolicy,
+  'lease-deposit-compulsory-auction': leaseDepositCompulsoryAuctionPolicy,
+  'small-deposit-priority-payment': smallDepositPriorityPaymentPolicy,
+  'rental-registration-order-apply': rentalRegistrationOrderApplyPolicy,
+  'rental-renewal-right-exercise': rentalRenewalRightExercisePolicy,
   'subscription-payment-cancel-refund-relief': subscriptionPaymentCancelRefundReliefPolicy,
   'income-tax-refund-lookup-claim': incomeTaxRefundLookupClaimPolicy,
   'resignation-year-end-tax-settlement': resignationYearEndTaxSettlementPolicy,
@@ -3730,6 +3788,35 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'building-fire-insurance-mandatory': buildingFireInsuranceMandatorySpokes,
+  'land-category-change-application': landCategoryChangeApplicationSpokes,
+  'temporary-building-construction-report': temporaryBuildingConstructionReportSpokes,
+  'farmland-lease-confirmation': farmlandLeaseConfirmationSpokes,
+  'mountain-land-conversion-permit': mountainLandConversionPermitSpokes,
+  'house-extension-renovation-permit': houseExtensionRenovationPermitSpokes,
+  'detached-house-construction-report': detachedHouseConstructionReportSpokes,
+  'random-subscription-eligibility': randomSubscriptionEligibilitySpokes,
+  'housing-subscription-savings-account': housingSubscriptionSavingsAccountSpokes,
+  'reconstruction-project-approval': reconstructionProjectApprovalSpokes,
+  'redevelopment-allocation-application': redevelopmentAllocationApplicationSpokes,
+  'apartment-management-fee-reserve': apartmentManagementFeeReserveSpokes,
+  'apartment-pre-inspection-defect-repair': apartmentPreInspectionDefectRepairSpokes,
+  'foreigner-real-estate-acquisition-report': foreignerRealEstateAcquisitionReportSpokes,
+  'self-ownership-transfer-registration': selfOwnershipTransferRegistrationSpokes,
+  'property-sale-contract-cancellation': propertySaleContractCancellationSpokes,
+  'moving-company-damage-dispute': movingCompanyDamageDisputeSpokes,
+  'brokerage-fee-calculation-dispute': brokerageFeeCalculationDisputeSpokes,
+  'long-term-repair-reserve-refund': longTermRepairReserveRefundSpokes,
+  'lessee-death-succession': lesseeDeathSuccessionSpokes,
+  'lease-assignment-sublease-limit': leaseAssignmentSubleaseLimitSpokes,
+  'landlord-change-succession': landlordChangeSuccessionSpokes,
+  'lessee-necessary-expense-claim': lesseeNecessaryExpenseClaimSpokes,
+  'deposit-to-monthly-rent-conversion': depositToMonthlyRentConversionSpokes,
+  'rent-increase-claim-limit': rentIncreaseClaimLimitSpokes,
+  'lease-deposit-compulsory-auction': leaseDepositCompulsoryAuctionSpokes,
+  'small-deposit-priority-payment': smallDepositPriorityPaymentSpokes,
+  'rental-registration-order-apply': rentalRegistrationOrderApplySpokes,
+  'rental-renewal-right-exercise': rentalRenewalRightExerciseSpokes,
   'subscription-payment-cancel-refund-relief': subscriptionPaymentCancelRefundReliefSpokes,
   'income-tax-refund-lookup-claim': incomeTaxRefundLookupClaimSpokes,
   'resignation-year-end-tax-settlement': resignationYearEndTaxSettlementSpokes,
