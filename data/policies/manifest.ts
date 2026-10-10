@@ -479,6 +479,13 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { subscriptionPaymentCancelRefundReliefPolicy, subscriptionPaymentCancelRefundReliefSpokes } from './subscription-payment-cancel-refund-relief';
+import { incomeTaxRefundLookupClaimPolicy, incomeTaxRefundLookupClaimSpokes } from './income-tax-refund-lookup-claim';
+import { resignationYearEndTaxSettlementPolicy, resignationYearEndTaxSettlementSpokes } from './resignation-year-end-tax-settlement';
+import { highwayWrongExitTollExemptionPolicy, highwayWrongExitTollExemptionSpokes } from './highway-wrong-exit-toll-exemption';
+import { eitcLateFiling2026Policy, eitcLateFiling2026Spokes } from './eitc-late-filing-2026';
+import { financialDataBreachIdentityTheftPreventionPolicy, financialDataBreachIdentityTheftPreventionSpokes } from './financial-data-breach-identity-theft-prevention';
+import { healthInsurancePremiumAdjustmentPolicy, healthInsurancePremiumAdjustmentSpokes } from './health-insurance-premium-adjustment';
 import { cultureNuriCardBalanceExpiryPolicy, cultureNuriCardBalanceExpirySpokes } from './culture-nuri-card-balance-expiry';
 import { temporaryHardshipFundQ4ConditionsPolicy, temporaryHardshipFundQ4ConditionsSpokes } from './temporary-hardship-fund-q4-conditions';
 import { innovationGrowthFundQ4ConditionsPolicy, innovationGrowthFundQ4ConditionsSpokes } from './innovation-growth-fund-q4-conditions';
@@ -2037,6 +2044,13 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'subscription-payment-cancel-refund-relief': subscriptionPaymentCancelRefundReliefPolicy,
+  'income-tax-refund-lookup-claim': incomeTaxRefundLookupClaimPolicy,
+  'resignation-year-end-tax-settlement': resignationYearEndTaxSettlementPolicy,
+  'highway-wrong-exit-toll-exemption': highwayWrongExitTollExemptionPolicy,
+  'eitc-late-filing-2026': eitcLateFiling2026Policy,
+  'financial-data-breach-identity-theft-prevention': financialDataBreachIdentityTheftPreventionPolicy,
+  'health-insurance-premium-adjustment': healthInsurancePremiumAdjustmentPolicy,
   'culture-nuri-card-balance-expiry': cultureNuriCardBalanceExpiryPolicy,
   'temporary-hardship-fund-q4-conditions': temporaryHardshipFundQ4ConditionsPolicy,
   'innovation-growth-fund-q4-conditions': innovationGrowthFundQ4ConditionsPolicy,
@@ -3716,6 +3730,13 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'subscription-payment-cancel-refund-relief': subscriptionPaymentCancelRefundReliefSpokes,
+  'income-tax-refund-lookup-claim': incomeTaxRefundLookupClaimSpokes,
+  'resignation-year-end-tax-settlement': resignationYearEndTaxSettlementSpokes,
+  'highway-wrong-exit-toll-exemption': highwayWrongExitTollExemptionSpokes,
+  'eitc-late-filing-2026': eitcLateFiling2026Spokes,
+  'financial-data-breach-identity-theft-prevention': financialDataBreachIdentityTheftPreventionSpokes,
+  'health-insurance-premium-adjustment': healthInsurancePremiumAdjustmentSpokes,
   'culture-nuri-card-balance-expiry': cultureNuriCardBalanceExpirySpokes,
   'temporary-hardship-fund-q4-conditions': temporaryHardshipFundQ4ConditionsSpokes,
   'innovation-growth-fund-q4-conditions': innovationGrowthFundQ4ConditionsSpokes,
