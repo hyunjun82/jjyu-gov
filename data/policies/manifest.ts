@@ -479,6 +479,22 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { subscriptionAccountCancellationPolicy, subscriptionAccountCancellationSpokes } from './subscription-account-cancellation';
+import { firstHomeSpecialSupplyApplicationPolicy, firstHomeSpecialSupplyApplicationSpokes } from './first-home-special-supply-application';
+import { newlywedSpecialSupplyApplicationPolicy, newlywedSpecialSupplyApplicationSpokes } from './newlywed-special-supply-application';
+import { presaleRightTransferReportPolicy, presaleRightTransferReportSpokes } from './presale-right-transfer-report';
+import { propertyTaxObjectionApplicationPolicy, propertyTaxObjectionApplicationSpokes } from './property-tax-objection-application';
+import { officialPriceObjectionApplicationPolicy, officialPriceObjectionApplicationSpokes } from './official-price-objection-application';
+import { rentalBusinessRegistrationApplicationPolicy, rentalBusinessRegistrationApplicationSpokes } from './rental-business-registration-application';
+import { realEstateGiftReportPolicy, realEstateGiftReportSpokes } from './real-estate-gift-report';
+import { acquisitionTaxReductionApplicationPolicy, acquisitionTaxReductionApplicationSpokes } from './acquisition-tax-reduction-application';
+import { capitalGainsExemptionApplicationPolicy, capitalGainsExemptionApplicationSpokes } from './capital-gains-exemption-application';
+import { provisionalDispositionApplicationPolicy, provisionalDispositionApplicationSpokes } from './provisional-disposition-application';
+import { provisionalAttachmentApplicationPolicy, provisionalAttachmentApplicationSpokes } from './provisional-attachment-application';
+import { landDivisionApplicationPolicy, landDivisionApplicationSpokes } from './land-division-application';
+import { boundaryRestorationSurveyApplicationPolicy, boundaryRestorationSurveyApplicationSpokes } from './boundary-restoration-survey-application';
+import { cadastralSurveyApplicationPolicy, cadastralSurveyApplicationSpokes } from './cadastral-survey-application';
+import { realEstateComprehensiveCertificateIssuePolicy, realEstateComprehensiveCertificateIssueSpokes } from './real-estate-comprehensive-certificate-issue';
 import { buildingFireInsuranceMandatoryPolicy, buildingFireInsuranceMandatorySpokes } from './building-fire-insurance-mandatory';
 import { landCategoryChangeApplicationPolicy, landCategoryChangeApplicationSpokes } from './land-category-change-application';
 import { temporaryBuildingConstructionReportPolicy, temporaryBuildingConstructionReportSpokes } from './temporary-building-construction-report';
@@ -2073,6 +2089,22 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'subscription-account-cancellation': subscriptionAccountCancellationPolicy,
+  'first-home-special-supply-application': firstHomeSpecialSupplyApplicationPolicy,
+  'newlywed-special-supply-application': newlywedSpecialSupplyApplicationPolicy,
+  'presale-right-transfer-report': presaleRightTransferReportPolicy,
+  'property-tax-objection-application': propertyTaxObjectionApplicationPolicy,
+  'official-price-objection-application': officialPriceObjectionApplicationPolicy,
+  'rental-business-registration-application': rentalBusinessRegistrationApplicationPolicy,
+  'real-estate-gift-report': realEstateGiftReportPolicy,
+  'acquisition-tax-reduction-application': acquisitionTaxReductionApplicationPolicy,
+  'capital-gains-exemption-application': capitalGainsExemptionApplicationPolicy,
+  'provisional-disposition-application': provisionalDispositionApplicationPolicy,
+  'provisional-attachment-application': provisionalAttachmentApplicationPolicy,
+  'land-division-application': landDivisionApplicationPolicy,
+  'boundary-restoration-survey-application': boundaryRestorationSurveyApplicationPolicy,
+  'cadastral-survey-application': cadastralSurveyApplicationPolicy,
+  'real-estate-comprehensive-certificate-issue': realEstateComprehensiveCertificateIssuePolicy,
   'building-fire-insurance-mandatory': buildingFireInsuranceMandatoryPolicy,
   'land-category-change-application': landCategoryChangeApplicationPolicy,
   'temporary-building-construction-report': temporaryBuildingConstructionReportPolicy,
@@ -3788,6 +3820,22 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'subscription-account-cancellation': subscriptionAccountCancellationSpokes,
+  'first-home-special-supply-application': firstHomeSpecialSupplyApplicationSpokes,
+  'newlywed-special-supply-application': newlywedSpecialSupplyApplicationSpokes,
+  'presale-right-transfer-report': presaleRightTransferReportSpokes,
+  'property-tax-objection-application': propertyTaxObjectionApplicationSpokes,
+  'official-price-objection-application': officialPriceObjectionApplicationSpokes,
+  'rental-business-registration-application': rentalBusinessRegistrationApplicationSpokes,
+  'real-estate-gift-report': realEstateGiftReportSpokes,
+  'acquisition-tax-reduction-application': acquisitionTaxReductionApplicationSpokes,
+  'capital-gains-exemption-application': capitalGainsExemptionApplicationSpokes,
+  'provisional-disposition-application': provisionalDispositionApplicationSpokes,
+  'provisional-attachment-application': provisionalAttachmentApplicationSpokes,
+  'land-division-application': landDivisionApplicationSpokes,
+  'boundary-restoration-survey-application': boundaryRestorationSurveyApplicationSpokes,
+  'cadastral-survey-application': cadastralSurveyApplicationSpokes,
+  'real-estate-comprehensive-certificate-issue': realEstateComprehensiveCertificateIssueSpokes,
   'building-fire-insurance-mandatory': buildingFireInsuranceMandatorySpokes,
   'land-category-change-application': landCategoryChangeApplicationSpokes,
   'temporary-building-construction-report': temporaryBuildingConstructionReportSpokes,
