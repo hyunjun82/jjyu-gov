@@ -1,3 +1,4 @@
+CAPTURED-BY: Playwright 법제처 뷰어 텍스트 레이어 재조립 (2026-08-23, 실손 구간)
 URL: https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE
 RECEIVED: 2026-08-23
 NOTE: 뷰어가 이미지라 fetch 로는 237자만 나온다. 페이지별 텍스트 레이어(thumbnailxml)를 좌표로 재조립한 본문을 붙인다.

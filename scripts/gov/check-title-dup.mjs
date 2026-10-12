@@ -8,7 +8,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 export function titleDup(title) {
   const STOP = new Set(['부터', '까지', '에서', '하는', '있는', '하면', '했을', '때']);
-  const words = title.split(/[s,·]+/).filter(Boolean);
+  const words = title.split(/[\s,·]+/).filter(Boolean);
   const hit = new Set();
   for (let i = 0; i < words.length; i++) for (let j = i + 1; j < words.length; j++) {
     const a = words[i], b = words[j];
