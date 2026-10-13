@@ -28,6 +28,7 @@ import type { SpokeData } from '../../SpokeClient';
 
 const SRC1 = 'https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE';
 const SRC2 = 'https://fine.fss.or.kr/main/prc/is/sub/is017.jsp?menuNo=900423';
+const SRC3 = 'https://www.silson24.or.kr/claim/web/';
 
 export const 실손보험입원횟수판단SpokeContent: SpokeData = {
   h1: '실비 입원 횟수 세는 법, 퇴원 뒤 다시 가면 한 번일까?',
@@ -40,8 +41,8 @@ export const 실손보험입원횟수판단SpokeContent: SpokeData = {
   dateModified: '2026-10-13T10:00:00+09:00',
   cardLayout: 'act-first',
   heroHook:
-    '같은 병으로 퇴원했다가 다시 병원에 들어가면 이번 입원이 몇 번째로 잡히는지 헷갈리기 쉽습니다. 비급여 특약 약관은 같은 상해·질병이어도 퇴원 후 재입원하면 퇴원 전과 후를 각각 1회 입원으로 셉니다. 1회당 한도가 걸린 비급여 진료였다면 약관이 입원 횟수를 세는 기준부터 확인해 두는 게 유리합니다. 입원 인정 조건부터 일수와 한도까지 알아보겠습니다.',
-  heroAct: { label: '입원 횟수 세는 기준 확인하기', href: SRC1 },
+    '실비는 퇴원했다가 같은 병으로 다시 입원하면 퇴원 전과 후를 각각 1회 입원으로 셉니다. 퇴원 없이 이어진 입원만 1회라서 1회당 한도가 걸린 비급여 입원은 입원마다 따로 계산돼요. 영수증에서 입원이 몇 번으로 나뉘는지 보고 내 입원 실비를 바로 청구해 보세요. 입원 인정 조건과 한도까지 알아보겠습니다.',
+  heroAct: { label: '내 입원 실비 바로 청구하기', href: SRC3 },
   keyFacts: {
     '입원 인정 조건': '의료기관에 입실해 계속 6시간 이상 머물며 의사의 관찰·관리 아래 치료를 받아야 입원',
     '비급여 특약 재입원 횟수': '같은 상해·질병이어도 퇴원했다가 다시 입원하면 퇴원 전과 후를 각각 1회 입원으로 계산',
