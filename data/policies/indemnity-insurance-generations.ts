@@ -100,6 +100,7 @@ export const indemnityInsuranceGenerationsPolicy = {
 } as const;
 
 export const indemnityInsuranceGenerationsSpokes = [
+  { slug: 'gynecology-claim', role: 'guide', title: '산부인과 실비 청구, 질염·초음파·자궁근종·난임시술 대상일까?' },
   { slug: 'artificial-tears-claim', role: 'guide', title: '인공눈물 실비 청구, 급여 한도와 처방 서류 처리 방법' },
   { slug: 'silson24-claim', role: 'guide', title: '실손보험 간편청구 실패, 원인과 미참여 병원 서류 접수' },
   { slug: 'indemnity-premium-by-age', role: 'compare', title: '40대 실비보험 가격과 50대 평균 47만원, 월 보험료 적정선과 나이별 차이' },
@@ -178,7 +179,7 @@ export const indemnityInsuranceGenerationsSpokes = [
   { slug: 'lapse-revival', role: 'overlap', title: '실비보험 실효, 뜻과 부활 방법을 알려주세요' },
   { slug: 'card-payment', role: 'apply', title: '실비보험 카드결제, 되는 회사 안 되는 회사 있나요?' },
   { slug: 'payment-suspension', role: 'usage', title: '실비보험 해외 체류 시 납입중지, 어떻게 신청하나요?' },
-  { slug: 'health-checkup-claim', role: 'apply', title: '건강검진 받다가 용종 발견되면 실비 청구되나요?' },
+  { slug: 'health-checkup-claim', role: 'apply', title: '건강검진 실비 청구, 수면내시경 초음파 용종제거는 어디까지 되나' },
   { slug: 'first-gen-cancel-check', role: 'eligibility', title: '1세대 실손보험 해지해도 될까요? 5세대 전환 전 체크리스트' },
   { slug: 'second-fourth-gen-conversion', role: 'eligibility', title: '2~4세대 실손보험, 5세대로 전환해도 될까요?' },
   { slug: 'neck-disc-claim', role: 'apply', title: '목디스크 MRI·수술, 실비 보험금 받을 수 있나요?' },
