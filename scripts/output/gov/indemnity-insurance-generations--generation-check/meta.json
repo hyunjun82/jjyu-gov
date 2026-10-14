@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--generation-check",
+  "slug": "generation-check",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "세대확인방법",
+  "exportName": "실손보험세대확인방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\세대확인방법.tsx",
+  "title": "내 실손보험 세대 확인, 가입 시기에 따라 달라지는 점",
+  "subs": [
+    "내 실손 세대 확인",
+    "실손 세대별 차이",
+    "세대 확인 서류",
+    "세대별 보장"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T04:08:28.676Z"
+}

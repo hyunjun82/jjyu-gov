@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--silson24-claim",
+  "slug": "silson24-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "실손24청구",
+  "exportName": "실손보험실손24청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\실손24청구.tsx",
+  "title": "실손보험 간편청구 실패, 원인과 미참여 병원 서류 접수",
+  "subs": [
+    "간편청구 실패 원인",
+    "미참여 병원 청구",
+    "간편청구 시간 기간",
+    "직접 접수 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T09:03:21.620Z"
+}

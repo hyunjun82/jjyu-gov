@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--claim-denied",
+  "slug": "claim-denied",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "청구거절삭감",
+  "exportName": "실손보험청구거절삭감SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\청구거절삭감.tsx",
+  "title": "실비 청구 거절, 삭감·부지급 사유와 대응 절차",
+  "subs": [
+    "실비 청구 거절",
+    "실비 부지급 사유",
+    "실비 삭감 대응",
+    "이의 제기 절차"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T03:04:42.489Z"
+}

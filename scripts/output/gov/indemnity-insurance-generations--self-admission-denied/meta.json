@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--self-admission-denied",
+  "slug": "self-admission-denied",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "자의입원면책",
+  "exportName": "실손보험자의입원면책SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\자의입원면책.tsx",
+  "title": "입원 실비 면책, 인정 조건과 통원 처리 기준",
+  "subs": [
+    "입원 실비 면책",
+    "입원 인정 조건",
+    "통원 처리 기준",
+    "입원 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T01:35:56.134Z"
+}

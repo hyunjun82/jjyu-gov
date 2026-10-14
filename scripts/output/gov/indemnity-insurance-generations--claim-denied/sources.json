@@ -1,0 +1,47 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "finalUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "title": "직접 캡처 저장본",
+    "file": "src-1.txt",
+    "chars": 142934,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 2,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-2.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://fine.fss.or.kr/main/prc/is/sub/is017.jsp?menuNo=900423",
+    "finalUrl": "https://fine.fss.or.kr/main/prc/is/sub/is017.jsp?menuNo=900423",
+    "title": "보험금 청구는 이렇게 하세요 | 금융감독원 금융상품",
+    "file": "src-3.txt",
+    "chars": 3497,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.fss.or.kr/fss/main/contents.do?menuNo=201179",
+    "finalUrl": "https://www.fss.or.kr/fss/main/contents.do?menuNo=201179",
+    "title": "금융민원신청 안내 | 금융·민원·상담 | 민원·상담·정보공개청구 | 민원·신고 |",
+    "file": "src-4.txt",
+    "chars": 3458,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

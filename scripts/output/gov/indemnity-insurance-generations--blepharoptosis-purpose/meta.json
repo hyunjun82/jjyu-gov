@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--blepharoptosis-purpose",
+  "slug": "blepharoptosis-purpose",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "안검하수목적",
+  "exportName": "실손보험안검하수목적SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\안검하수목적.tsx",
+  "title": "안검하수 실비 되나요? 적용 기준과 쌍꺼풀 병행 청구 서류",
+  "subs": [
+    "안검하수 실비 기준",
+    "안검하수 쌍꺼풀 병행",
+    "안검하수 진단서",
+    "안검하수 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T08:05:57.209Z"
+}

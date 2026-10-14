@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--hemorrhoid-surgery-claim",
+  "slug": "hemorrhoid-surgery-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "치질수술",
+  "exportName": "실손보험치질수술SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\치질수술.tsx",
+  "title": "치질 수술 실비 청구, 세대별 적용과 서류까지",
+  "subs": [
+    "치질 수술 실비",
+    "치질 수술 실비 세대별",
+    "치질 수술 실비 청구",
+    "치질 수술 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T04:53:43.210Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--colonoscopy-ultrasound-claim",
+  "slug": "colonoscopy-ultrasound-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "대장내시경초음파실비",
+  "exportName": "실손보험대장내시경초음파실비SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\대장내시경초음파실비.tsx",
+  "title": "대장내시경 초음파 실비 청구, 조건과 방법",
+  "subs": [
+    "대장내시경 실비",
+    "초음파 실비",
+    "검진 추가검사 실비",
+    "내시경 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T23:22:44.070Z"
+}

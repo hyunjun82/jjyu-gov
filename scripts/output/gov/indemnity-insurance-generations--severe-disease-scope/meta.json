@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--severe-disease-scope",
+  "slug": "severe-disease-scope",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "산정특례대상질환",
+  "exportName": "실손보험산정특례대상질환SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\산정특례대상질환.tsx",
+  "title": "실비 중증 기준, 산정특례 질환에 내 병이 들까",
+  "subs": [
+    "실비 중증 기준",
+    "산정특례 질환",
+    "중증 비중증 차이",
+    "중증 실비 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T03:57:40.409Z"
+}

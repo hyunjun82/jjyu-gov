@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--claim-rejected-docs",
+  "slug": "claim-rejected-docs",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "서류반려재청구",
+  "exportName": "실손보험서류반려재청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\서류반려재청구.tsx",
+  "title": "실비 서류 반려, 재청구 방법과 심사 기간",
+  "subs": [
+    "실비 서류 반려",
+    "실비 재청구",
+    "서류 심사 기간",
+    "반려 서류 보완"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T00:52:14.696Z"
+}

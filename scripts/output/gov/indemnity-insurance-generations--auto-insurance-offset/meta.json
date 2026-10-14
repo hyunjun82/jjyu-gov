@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--auto-insurance-offset",
+  "slug": "auto-insurance-offset",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "자동차보험실비중복",
+  "exportName": "실손보험자동차보험실비중복SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\자동차보험실비중복.tsx",
+  "title": "교통사고 실비 청구, 자동차 처리 후 남는 금액과 순서",
+  "subs": [
+    "교통사고 실비",
+    "자동차보험 중복",
+    "중복 보상 순서",
+    "중복 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T01:16:47.489Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--nursing-care-alternative",
+  "slug": "nursing-care-alternative",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "간병비대안",
+  "exportName": "실손보험간병비대안SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\간병비대안.tsx",
+  "title": "간병비 실비 청구, 안 되는 이유와 부모님 장기요양 신청 방법",
+  "subs": [
+    "간병비 실비 청구",
+    "간병인 사용비용",
+    "장기요양 인정신청",
+    "가족 대리 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T05:42:06.184Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--premium-increase",
+  "slug": "premium-increase",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "보험료인상기준",
+  "exportName": "실손보험보험료인상기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\보험료인상기준.tsx",
+  "title": "실비 할증은 언제 붙을까, 기준부터 피하는 법까지",
+  "subs": [
+    "실비 할증",
+    "실비 할증 기준",
+    "실비 할증 단계",
+    "실비 할증 피하는법"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T09:27:37.317Z"
+}

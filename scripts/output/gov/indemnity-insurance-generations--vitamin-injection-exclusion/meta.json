@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--vitamin-injection-exclusion",
+  "slug": "vitamin-injection-exclusion",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "비타민주사면책",
+  "exportName": "실손보험비타민주사면책SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\비타민주사면책.tsx",
+  "title": "영양주사 실비 청구, 치료 목적 인정 조건과 방법",
+  "subs": [
+    "영양주사 실비 청구",
+    "영양주사 실비 조건",
+    "영양주사 실비 청구 방법",
+    "비타민주사 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T05:16:29.342Z"
+}

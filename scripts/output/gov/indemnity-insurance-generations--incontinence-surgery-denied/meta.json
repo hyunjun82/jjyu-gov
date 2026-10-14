@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--incontinence-surgery-denied",
+  "slug": "incontinence-surgery-denied",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "요실금수술",
+  "exportName": "실손보험요실금수술SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\요실금수술.tsx",
+  "title": "요실금 수술 실비 거절, 질병코드 확인과 재청구 방법",
+  "subs": [
+    "요실금 수술 실비",
+    "요실금 수술 실비 거절",
+    "요실금 수술 질병코드",
+    "요실금 수술 재청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T05:03:52.222Z"
+}

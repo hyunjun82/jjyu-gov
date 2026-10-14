@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--acne-claim",
+  "slug": "acne-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "여드름실비청구",
+  "exportName": "실손보험여드름실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\여드름실비청구.tsx",
+  "title": "여드름 치료도 실비가 될까, 청구 방법부터 약값까지",
+  "subs": [
+    "여드름 실비",
+    "여드름 실비 청구 방법",
+    "여드름 실비 코드",
+    "여드름 약값 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T10:34:43.064Z"
+}

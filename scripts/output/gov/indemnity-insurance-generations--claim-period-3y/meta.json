@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--claim-period-3y",
+  "slug": "claim-period-3y",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "청구기간3년",
+  "exportName": "실손보험청구기간3년SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\청구기간3년.tsx",
+  "title": "실비 청구 기간이 지나면 접수될까? 소멸시효와 지급 기한",
+  "subs": [
+    "실비 청구 기간",
+    "실비 청구 기간 지나면",
+    "실비 청구 소멸시효",
+    "실비 지급 기간"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T02:04:35.948Z"
+}

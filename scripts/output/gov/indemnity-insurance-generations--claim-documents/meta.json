@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--claim-documents",
+  "slug": "claim-documents",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "청구방법",
+  "exportName": "실손보험청구방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\청구방법.tsx",
+  "title": "실비 청구 서류, 입원과 통원별 구비 목록과 접수 방법",
+  "subs": [
+    "입원 실비 서류",
+    "통원 실비 서류",
+    "대리 청구 서류",
+    "실비 접수 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T08:51:02.282Z"
+}

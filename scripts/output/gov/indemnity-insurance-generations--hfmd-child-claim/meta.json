@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--hfmd-child-claim",
+  "slug": "hfmd-child-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "수족구실비청구",
+  "exportName": "실손보험수족구실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\수족구실비청구.tsx",
+  "title": "아이 수족구 실비 청구는 어떻게 할까, 서류와 금액부터 진단서가 필요한지까지",
+  "subs": [
+    "수족구 실비 청구",
+    "수족구 실비 서류",
+    "수족구 실비 금액",
+    "수족구 진단서"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T07:29:07.151Z"
+}

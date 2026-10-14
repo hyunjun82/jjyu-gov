@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--mri-reading-fee",
+  "slug": "mri-reading-fee",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "MRI판독비",
+  "exportName": "실손보험MRI판독비SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\MRI판독비.tsx",
+  "title": "MRI 판독비도 실비로 청구되나요? 비용부터 서류까지",
+  "subs": [
+    "MRI 판독비 실비",
+    "MRI 판독비 실비 청구",
+    "MRI 판독 비용",
+    "MRI 판독비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T11:40:37.999Z"
+}

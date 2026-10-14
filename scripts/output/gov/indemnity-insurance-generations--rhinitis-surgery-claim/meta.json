@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--rhinitis-surgery-claim",
+  "slug": "rhinitis-surgery-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "비염수술실비청구",
+  "exportName": "실손보험비염수술실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\비염수술실비청구.tsx",
+  "title": "비염 수술 실비 청구, 코 성형이 섞이면 인정 범위",
+  "subs": [
+    "비염 수술 실비",
+    "비염 수술 청구",
+    "코 성형 구분",
+    "비염 수술 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T00:38:55.418Z"
+}

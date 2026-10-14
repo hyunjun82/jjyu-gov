@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--food-poisoning-claim",
+  "slug": "food-poisoning-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "식중독실비청구",
+  "exportName": "실손보험식중독실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\식중독실비청구.tsx",
+  "title": "식중독으로 수액을 맞으면 실비가 될까, 청구 방법부터 배상 중복까지",
+  "subs": [
+    "식중독 실비",
+    "식중독 실비 청구 방법",
+    "식중독 수액 실비",
+    "식중독 배상 중복"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T22:01:33.643Z"
+}

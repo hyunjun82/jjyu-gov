@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--gynecomastia-liposuction",
+  "slug": "gynecomastia-liposuction",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "여유증지방흡입",
+  "exportName": "실손보험여유증지방흡입SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\여유증지방흡입.tsx",
+  "title": "여유증 실비 되나요? 수술 비용과 지방흡입 거절 기준, 청구 서류",
+  "subs": [
+    "여유증 실비 기준",
+    "여유증 수술 비용",
+    "지방흡입 거절",
+    "여유증 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T09:38:06.510Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--renewal-reenrollment",
+  "slug": "renewal-reenrollment",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "갱신재가입",
+  "exportName": "실손보험갱신재가입SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\갱신재가입.tsx",
+  "title": "실비보험 갱신과 재가입 차이, 세대별로 몇 년마다 바뀌나요?",
+  "subs": [
+    "실손보험 갱신 주기",
+    "실손보험 갱신 재가입 차이",
+    "세대별 재가입 주기",
+    "실손보험 재가입 거절"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T00:35:10.699Z"
+}

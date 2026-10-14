@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--dental-claim",
+  "slug": "dental-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "치과실비청구",
+  "exportName": "실손보험치과실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\치과실비청구.tsx",
+  "title": "치과 실비 청구, 보험 적용 범위와 레진 제외 이유, 서류",
+  "subs": [
+    "치과 실비 청구",
+    "치과 실비 적용 범위",
+    "치과 레진 실비",
+    "치과 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T08:19:51.251Z"
+}

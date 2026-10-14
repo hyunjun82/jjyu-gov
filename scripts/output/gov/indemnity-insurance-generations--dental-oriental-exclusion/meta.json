@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--dental-oriental-exclusion",
+  "slug": "dental-oriental-exclusion",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "치과한방면책",
+  "exportName": "실손보험치과한방면책SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\치과한방면책.tsx",
+  "title": "치과·한방·성장호르몬 진료도 실비가 될까, 보상 제외부터 청구 범위까지",
+  "subs": [
+    "치과 한방 실비",
+    "성장호르몬 실비",
+    "보상 제외 항목",
+    "청구 가능 범위"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T02:01:17.661Z"
+}

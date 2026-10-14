@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--plantar-fasciitis",
+  "slug": "plantar-fasciitis",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "족저근막염",
+  "exportName": "실손보험족저근막염SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\족저근막염.tsx",
+  "title": "족저근막염 실비, 질병코드와 체외충격파 한도, 청구 서류",
+  "subs": [
+    "족저근막염 실비 청구",
+    "족저근막염 질병코드",
+    "족저근막염 체외충격파",
+    "족저근막염 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T07:39:55.519Z"
+}

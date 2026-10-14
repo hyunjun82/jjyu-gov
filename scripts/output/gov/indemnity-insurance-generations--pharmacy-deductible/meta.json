@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--pharmacy-deductible",
+  "slug": "pharmacy-deductible",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "약국공제",
+  "exportName": "실손보험약국공제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\약국공제.tsx",
+  "title": "약국 약값 실비 청구, 얼마부터 돌려받는지 공제와 서류까지",
+  "subs": [
+    "약국 실비 청구",
+    "약값 실비 공제",
+    "약제비 실비 서류",
+    "약국만 갔을 때 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T07:10:29.252Z"
+}

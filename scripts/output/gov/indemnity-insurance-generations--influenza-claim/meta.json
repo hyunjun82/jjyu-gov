@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--influenza-claim",
+  "slug": "influenza-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "독감실비청구",
+  "exportName": "실손보험독감실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\독감실비청구.tsx",
+  "title": "독감 실비 청구는 어떻게 할까, 서류와 기간부터 예방접종까지",
+  "subs": [
+    "독감 실비 청구",
+    "독감 실비 서류",
+    "독감 실비 기간",
+    "독감 예방접종 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T06:45:10.840Z"
+}

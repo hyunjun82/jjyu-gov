@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--icu-claim",
+  "slug": "icu-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "중환자실",
+  "exportName": "실손보험중환자실SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\중환자실.tsx",
+  "title": "중환자실 실비 청구, 적용 여부와 상급병실료 차이 서류",
+  "subs": [
+    "중환자실 실비 적용",
+    "중환자실 실비 청구",
+    "중환자실 상급병실료",
+    "중환자실 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T04:29:09.219Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--seizure",
+  "slug": "seizure",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "압류",
+  "exportName": "실손보험압류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\압류.tsx",
+  "title": "실비 보험금도 압류될까, 금지 범위부터 해제 방법까지",
+  "subs": [
+    "실비 압류",
+    "압류 금지 범위",
+    "압류 해제 방법",
+    "압류 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T02:51:03.538Z"
+}

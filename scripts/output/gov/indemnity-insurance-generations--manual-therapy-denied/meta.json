@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--manual-therapy-denied",
+  "slug": "manual-therapy-denied",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "도수치료거절횟수",
+  "exportName": "실손보험도수치료거절횟수SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\도수치료거절횟수.tsx",
+  "title": "도수치료 실비 거절, 사유와 횟수 제한 확인법",
+  "subs": [
+    "도수치료 실비 거절",
+    "도수치료 실비 횟수",
+    "도수치료 실비 한도",
+    "도수치료 거절 대응"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T23:35:27.490Z"
+}

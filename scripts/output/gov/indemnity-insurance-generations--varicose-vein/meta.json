@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--varicose-vein",
+  "slug": "varicose-vein",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "하지정맥류시술",
+  "exportName": "실손보험하지정맥류시술SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\하지정맥류시술.tsx",
+  "title": "하지정맥류 시술도 실비가 될까, 서류부터 입원까지",
+  "subs": [
+    "하지정맥류 실비",
+    "하지정맥류 실비 서류",
+    "하지정맥류 실비 기준",
+    "하지정맥류 실비 입원"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T08:36:48.648Z"
+}

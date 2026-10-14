@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--flu-heat-emergency-claim",
+  "slug": "flu-heat-emergency-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "독감냉방병열사병실비",
+  "exportName": "실손보험독감냉방병열사병실비SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\독감냉방병열사병실비.tsx",
+  "title": "냉방병·열사병 실비 청구, 응급실 진료비와 서류",
+  "subs": [
+    "냉방병 실비",
+    "열사병 실비",
+    "응급실 진료비 실비",
+    "독감 열사병 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T23:50:39.645Z"
+}

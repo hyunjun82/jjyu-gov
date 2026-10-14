@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--fracture-diagnosis-benefit",
+  "slug": "fracture-diagnosis-benefit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "골절진단비청구",
+  "exportName": "실손보험골절진단비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\골절진단비청구.tsx",
+  "title": "골절 진단비와 실비 중복 청구, 둘 다 받을 수 있을까",
+  "subs": [
+    "골절 실비",
+    "골절 진단비",
+    "골절 중복 청구",
+    "골절 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T23:10:18.075Z"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.fsc.go.kr/no010101/86831",
+    "finalUrl": "https://www.fsc.go.kr/no010101/86831",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-1.txt",
+    "chars": 11643,
+    "tables": 15,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "그림1지속적인 실손보험금 증가그림2가파른 보험료 상승"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-2.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "finalUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "title": "직접 캡처 저장본",
+    "file": "src-3.txt",
+    "chars": 142934,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.fsc.go.kr/no010101/86831",
+    "finalUrl": "https://www.fsc.go.kr/no010101/86831",
+    "title": "상세화면 - 보도자료 - 위원회 소식 - 알림마당 - 금융위원회",
+    "file": "src-4.txt",
+    "chars": 11643,
+    "tables": 15,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "그림1지속적인 실손보험금 증가그림2가파른 보험료 상승"
+      }
+    ],
+    "primary": true
+  }
+]

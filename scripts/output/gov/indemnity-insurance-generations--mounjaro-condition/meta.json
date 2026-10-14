@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--mounjaro-condition",
+  "slug": "mounjaro-condition",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "마운자로실비조건",
+  "exportName": "실손보험마운자로실비조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\마운자로실비조건.tsx",
+  "title": "마운자로 실비 청구 조건, 당뇨 코드 아니면 안 나오나?",
+  "subs": [
+    "마운자로 실비 조건",
+    "마운자로 당뇨 실비",
+    "마운자로 고혈압 실비",
+    "마운자로 실비 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T23:46:28.016Z"
+}

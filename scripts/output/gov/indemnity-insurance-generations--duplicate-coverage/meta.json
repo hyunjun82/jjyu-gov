@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--duplicate-coverage",
+  "slug": "duplicate-coverage",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "중복보상",
+  "exportName": "실손보험중복보상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\중복보상.tsx",
+  "title": "실비 중복 가입, 나눠 받는 방식과 해지 순서",
+  "subs": [
+    "실비 중복 가입",
+    "중복 보험금 분담",
+    "중복 가입 청구",
+    "중복 해지 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T02:38:09.455Z"
+}

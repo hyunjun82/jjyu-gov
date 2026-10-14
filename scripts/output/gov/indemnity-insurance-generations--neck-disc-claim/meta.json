@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--neck-disc-claim",
+  "slug": "neck-disc-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "목디스크청구",
+  "exportName": "실손보험목디스크청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\목디스크청구.tsx",
+  "title": "목디스크 실비 청구, MRI·수술 보상 범위부터 진단비 차이까지",
+  "subs": [
+    "목디스크 MRI 실비",
+    "목디스크 수술 실비",
+    "목디스크 실비 서류",
+    "목디스크 진단비 차이"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T06:34:49.801Z"
+}

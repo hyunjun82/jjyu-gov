@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--oriental-clinic-claim",
+  "slug": "oriental-clinic-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "한의원청구",
+  "exportName": "실손보험한의원청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\한의원청구.tsx",
+  "title": "한의원 실비 청구, 침·추나·한약 보험 적용부터 서류까지",
+  "subs": [
+    "한의원 실비 청구",
+    "한의원 침 추나 실비",
+    "한의원 한약 실비",
+    "한의원 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T01:52:31.635Z"
+}

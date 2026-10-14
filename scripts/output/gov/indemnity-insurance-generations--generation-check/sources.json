@@ -1,0 +1,63 @@
+[
+  {
+    "n": 1,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthMinsInsIntro.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthMinsInsIntro.do",
+    "title": "계약전환제도란? | 손해보험협회",
+    "file": "src-1.txt",
+    "chars": 3916,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthInfo.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthInfo.do",
+    "title": "실손의료보험 안내 | 손해보험협회",
+    "file": "src-2.txt",
+    "chars": 11188,
+    "tables": 10,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-3.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "finalUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "title": "직접 캡처 저장본",
+    "file": "src-4.txt",
+    "chars": 142934,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 5,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthMinsInsIntro.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthMinsInsIntro.do",
+    "title": "계약전환제도란? | 손해보험협회",
+    "file": "src-5.txt",
+    "chars": 3916,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  }
+]

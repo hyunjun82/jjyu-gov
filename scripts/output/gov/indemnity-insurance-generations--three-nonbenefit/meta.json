@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--three-nonbenefit",
+  "slug": "three-nonbenefit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "3대비급여",
+  "exportName": "실손보험3대비급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\3대비급여.tsx",
+  "title": "3대 비급여 실비 가능한가요? 특약부터 한도 서류까지",
+  "subs": [
+    "3대 비급여 종류",
+    "3대 비급여 특약",
+    "3대 비급여 한도",
+    "3대 비급여 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T09:04:28.034Z"
+}

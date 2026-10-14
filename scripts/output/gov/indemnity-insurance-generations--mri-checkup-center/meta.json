@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--mri-checkup-center",
+  "slug": "mri-checkup-center",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "검진센터MRI",
+  "exportName": "실손보험검진센터MRISpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\검진센터MRI.tsx",
+  "title": "검진센터 MRI 실비 청구, 한도와 서류 기준",
+  "subs": [
+    "검진센터 MRI 실비",
+    "검진센터 MRI 한도",
+    "건강검진 MRI 서류",
+    "검진 MRI 청구 가능"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T22:55:42.767Z"
+}

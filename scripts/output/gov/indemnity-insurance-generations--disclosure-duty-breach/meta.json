@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--disclosure-duty-breach",
+  "slug": "disclosure-duty-breach",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "고지의무위반해지",
+  "exportName": "실손보험고지의무위반해지SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\고지의무위반해지.tsx",
+  "title": "실비 고지의무 위반, 해지 기간과 시효가 지나면 달라지는 점",
+  "subs": [
+    "실비 고지의무 위반",
+    "고지의무 해지 기간",
+    "고지의무 시효",
+    "고지의무 대처 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T03:20:19.740Z"
+}

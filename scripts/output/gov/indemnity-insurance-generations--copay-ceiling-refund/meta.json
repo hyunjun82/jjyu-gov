@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--copay-ceiling-refund",
+  "slug": "copay-ceiling-refund",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "본인부담상한제환수",
+  "exportName": "실손보험본인부담상한제환수SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\본인부담상한제환수.tsx",
+  "title": "본인부담상한제 실비 환수, 환급금 반환과 중복 청구 기준",
+  "subs": [
+    "본인부담상한제 실비 환수",
+    "환급금 반환",
+    "실비 중복 청구",
+    "공제 계산"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T09:13:05.373Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--first-gen-cancel-check",
+  "slug": "first-gen-cancel-check",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "1세대해지판단",
+  "exportName": "실손보험1세대해지판단SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\1세대해지판단.tsx",
+  "title": "예전 실손보험 해지 전 확인할 것과 전환 비교",
+  "subs": [
+    "예전 실손 해지",
+    "실손 해지 전 확인",
+    "실손 전환 비교",
+    "실손 해지 후 재가입"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T05:51:05.933Z"
+}

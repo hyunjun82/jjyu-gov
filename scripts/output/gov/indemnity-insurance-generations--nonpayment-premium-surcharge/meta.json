@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--nonpayment-premium-surcharge",
+  "slug": "nonpayment-premium-surcharge",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "비급여할증",
+  "exportName": "실손보험비급여할증SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\비급여할증.tsx",
+  "title": "실손 할증 단계와 기준, 푸는 방법과 갱신 전 줄이는 요령",
+  "subs": [
+    "실손 할증 단계",
+    "실손 할증 기준",
+    "실손 할증 푸는법",
+    "실손 할증 갱신"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T04:43:22.941Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--copay-rate",
+  "slug": "copay-rate",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "자기부담금계산",
+  "exportName": "실손보험자기부담금계산SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\자기부담금계산.tsx",
+  "title": "실손 자기부담금, 세대별 비율과 연간 한도 계산법",
+  "subs": [
+    "실손 자기부담금",
+    "실손 자기부담금 세대별",
+    "실손 자기부담금 한도",
+    "실손 자기부담금 계산"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T03:07:24.009Z"
+}

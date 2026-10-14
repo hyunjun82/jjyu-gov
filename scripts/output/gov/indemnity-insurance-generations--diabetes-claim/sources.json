@@ -1,0 +1,153 @@
+[
+  {
+    "n": 1,
+    "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5305",
+    "finalUrl": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5305",
+    "title": "당뇨병 | 국가건강정보포털 | 질병관리청",
+    "file": "src-1.txt",
+    "chars": 53915,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "s13_R00_023_i02"
+      },
+      {
+        "file": "img-1-2.png",
+        "alt": "s13_R00_023_i03"
+      },
+      {
+        "file": "img-1-3.png",
+        "alt": "s13_R00_023_e10"
+      },
+      {
+        "file": "img-1-4.png",
+        "alt": "s13_R00_023_e06"
+      },
+      {
+        "file": "img-1-5.png",
+        "alt": "s13_R00_023_e02"
+      },
+      {
+        "file": "img-1-6.png",
+        "alt": "s13_R00_023_e01"
+      },
+      {
+        "file": "img-1-7.png",
+        "alt": "s13_R00_023_e05"
+      },
+      {
+        "file": "img-1-8.png",
+        "alt": "s13_R00_023_e07"
+      },
+      {
+        "file": "img-1-9.png",
+        "alt": "s13_R00_023_e04"
+      },
+      {
+        "file": "img-1-10.png",
+        "alt": "s13_R00_023_e08"
+      },
+      {
+        "file": "img-1-11.png",
+        "alt": "s13_R00_023_e09"
+      },
+      {
+        "file": "img-1-12.png",
+        "alt": "s13_R00_023_e03"
+      },
+      {
+        "file": "img-1-13.png",
+        "alt": "s13_R00_023_i04"
+      },
+      {
+        "file": "img-1-14.png",
+        "alt": "s11_R00_013_g01"
+      },
+      {
+        "file": "img-1-15.png",
+        "alt": "s11_R01_013_g02"
+      },
+      {
+        "file": "img-1-16.png",
+        "alt": "s13_R00_023_e12"
+      },
+      {
+        "file": "img-1-17.png",
+        "alt": "s11_R00_013_i01"
+      },
+      {
+        "file": "img-1-18.png",
+        "alt": "s13_R00_023_i01"
+      },
+      {
+        "file": "img-1-19.png",
+        "alt": "s11_R00_013_g03"
+      },
+      {
+        "file": "img-1-20.png",
+        "alt": "s13_R00_023_e11"
+      },
+      {
+        "file": "img-1-21.png",
+        "alt": "s11_R01_013_g02"
+      },
+      {
+        "file": "img-1-22.png",
+        "alt": "s11_R01_013_g04"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthInfo.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthInfo.do",
+    "title": "실손의료보험 안내 | 손해보험협회",
+    "file": "src-2.txt",
+    "chars": 11188,
+    "tables": 10,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-3.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "finalUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "title": "직접 캡처 저장본",
+    "file": "src-4.txt",
+    "chars": 142934,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.silson24.or.kr/claim/web/",
+    "finalUrl": "https://www.silson24.or.kr/claim/web/",
+    "title": "직접 캡처 저장본",
+    "file": "src-5.txt",
+    "chars": 1206,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  }
+]

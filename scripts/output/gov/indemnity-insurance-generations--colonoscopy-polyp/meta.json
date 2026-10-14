@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--colonoscopy-polyp",
+  "slug": "colonoscopy-polyp",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "대장내시경용종",
+  "exportName": "실손보험대장내시경용종SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\대장내시경용종.tsx",
+  "title": "대장내시경에서 용종을 떼면 실비가 될까, 금액부터 서류까지",
+  "subs": [
+    "대장내시경 용종 실비",
+    "용종 제거 실비 서류",
+    "용종 제거 실비 금액",
+    "건강검진 용종 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T08:07:26.771Z"
+}

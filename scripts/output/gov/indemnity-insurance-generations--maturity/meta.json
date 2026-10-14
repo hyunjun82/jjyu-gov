@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--maturity",
+  "slug": "maturity",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "만기",
+  "exportName": "실손보험만기SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\만기.tsx",
+  "title": "실비 만기가 오면 어떻게 될까, 재가입부터 갱신 주기까지",
+  "subs": [
+    "실비 만기",
+    "실비 만기 재가입",
+    "실비 만기 환급금",
+    "실비 갱신 주기"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T06:32:46.334Z"
+}

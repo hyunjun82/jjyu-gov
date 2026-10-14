@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--hearing-aid-benefit",
+  "slug": "hearing-aid-benefit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "보청기급여",
+  "exportName": "실손보험보청기급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\보청기급여.tsx",
+  "title": "보청기 실비 되나요? 청구 방법부터 건강보험 지원까지",
+  "subs": [
+    "보청기 실비",
+    "보청기 실비 청구 방법",
+    "보청기 건강보험 지원",
+    "보청기 지원 조건"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T12:10:24.054Z"
+}

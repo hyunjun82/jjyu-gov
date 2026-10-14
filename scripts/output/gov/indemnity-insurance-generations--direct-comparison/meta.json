@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--direct-comparison",
+  "slug": "direct-comparison",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "다이렉트비교",
+  "exportName": "실손보험다이렉트비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\다이렉트비교.tsx",
+  "title": "다이렉트 실비는 어디서 비교할까, 가입부터 고지의무까지",
+  "subs": [
+    "다이렉트 실비",
+    "다이렉트 실비 비교",
+    "다이렉트 실비 가입",
+    "다이렉트 실비 고지의무"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T09:42:43.041Z"
+}

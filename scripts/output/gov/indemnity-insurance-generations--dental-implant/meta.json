@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--dental-implant",
+  "slug": "dental-implant",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "치과임플란트",
+  "exportName": "실손보험치과임플란트SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\치과임플란트.tsx",
+  "title": "임플란트 실비 되나요? 뼈이식 포함 적용 범위와 청구 방법",
+  "subs": [
+    "임플란트 실비 적용",
+    "임플란트 뼈이식",
+    "임플란트 면책 사유",
+    "임플란트 청구 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T08:31:15.850Z"
+}

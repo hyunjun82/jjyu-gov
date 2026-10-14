@@ -1,0 +1,59 @@
+[
+  {
+    "n": 1,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-1.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.fss.or.kr/fss/bbs/B0000115/view.do?nttId=21943&menuNo=200504",
+    "finalUrl": "https://www.fss.or.kr/fss/bbs/B0000115/view.do?nttId=21943&menuNo=200504",
+    "title": "보험약관(상세) | 금융상품 표준약관 | 금융생활 길라잡이 | 금융소비자보호 |",
+    "file": "src-2.txt",
+    "chars": 1236,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/attachPreview.es?bid=0026&list_no=1483695&seq=4",
+    "finalUrl": "https://www.mohw.go.kr/synap/doc.html?fn=202411221710335744.hwpx&rs=/upload/result/202610/",
+    "title": "문서뷰어",
+    "file": "src-3.txt",
+    "chars": 1912,
+    "tables": 11,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "finalUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "title": "직접 캡처 저장본",
+    "file": "src-4.txt",
+    "chars": 142934,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.silson24.or.kr/claim/web/",
+    "finalUrl": "https://www.silson24.or.kr/claim/web/",
+    "title": "직접 캡처 저장본",
+    "file": "src-5.txt",
+    "chars": 1206,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  }
+]

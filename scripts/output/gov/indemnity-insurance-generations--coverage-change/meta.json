@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--coverage-change",
+  "slug": "coverage-change",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "보장내용변경시점",
+  "exportName": "실손보험보장내용변경시점SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\보장내용변경시점.tsx",
+  "title": "실손보험 보장 변경 시점과 갱신 전 확인할 것",
+  "subs": [
+    "실손 보장 변경",
+    "보장 변경 시점",
+    "갱신 전 확인",
+    "보장 변경 주기"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T03:33:37.447Z"
+}

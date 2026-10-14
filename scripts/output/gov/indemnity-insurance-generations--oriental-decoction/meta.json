@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--oriental-decoction",
+  "slug": "oriental-decoction",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "한의원첩약",
+  "exportName": "실손보험한의원첩약SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\한의원첩약.tsx",
+  "title": "한의원 첩약도 실비가 될까, 비염 치료부터 한방병원까지",
+  "subs": [
+    "한의원 첩약 실비",
+    "첩약 실비 서류",
+    "비염 첩약 실비",
+    "한방병원 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T09:16:56.503Z"
+}

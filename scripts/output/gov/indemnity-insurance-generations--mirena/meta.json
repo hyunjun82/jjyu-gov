@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--mirena",
+  "slug": "mirena",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "미레나",
+  "exportName": "실손보험미레나SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\미레나.tsx",
+  "title": "미레나 실비 적용될까? 질병코드와 가격, 청구 서류",
+  "subs": [
+    "미레나 실비 적용",
+    "미레나 질병코드",
+    "미레나 가격",
+    "미레나 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T07:14:10.441Z"
+}

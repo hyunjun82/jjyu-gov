@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--septal-deviation",
+  "slug": "septal-deviation",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "비중격만곡증",
+  "exportName": "실손보험비중격만곡증SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\비중격만곡증.tsx",
+  "title": "비중격만곡증 실비 비용과 거절 사유, 청구 서류까지",
+  "subs": [
+    "비중격만곡증 수술 비용",
+    "비중격만곡증 실비 적용",
+    "비중격만곡증 실비 거절",
+    "비중격만곡증 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T06:58:22.796Z"
+}

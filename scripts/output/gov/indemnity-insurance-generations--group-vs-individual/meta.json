@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--group-vs-individual",
+  "slug": "group-vs-individual",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "단체개인비교",
+  "exportName": "실손보험단체개인비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\단체개인비교.tsx",
+  "title": "단체실손 있어도 개인 실비 필요할까? 중복 청구와 중지·전환",
+  "subs": [
+    "단체실손 개인실손 비교",
+    "단체실손 중지",
+    "단체실손 개인전환",
+    "단체실손 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T02:55:18.481Z"
+}

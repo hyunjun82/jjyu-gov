@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--admission-count-rule",
+  "slug": "admission-count-rule",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "입원횟수판단",
+  "exportName": "실손보험입원횟수판단SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\입원횟수판단.tsx",
+  "title": "실비 입원 횟수 세는 법, 퇴원 뒤 다시 가면 한 번일까?",
+  "subs": [
+    "실비 입원 횟수",
+    "실비 재입원",
+    "실비 입원 일수",
+    "실비 입원 한도"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T06:13:57.590Z"
+}

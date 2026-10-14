@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--nonbenefit-injection",
+  "slug": "nonbenefit-injection",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "비급여주사",
+  "exportName": "실손보험비급여주사SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\비급여주사.tsx",
+  "title": "비급여 실비 청구, 주사 치료는 어디까지 되고 한도는 얼마일까",
+  "subs": [
+    "비급여 실비 청구",
+    "비급여 주사 실비",
+    "비급여 실비 한도",
+    "비급여 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T07:40:05.109Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--upper-room-charge",
+  "slug": "upper-room-charge",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "상급병실료차액",
+  "exportName": "실손보험상급병실료차액SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\상급병실료차액.tsx",
+  "title": "상급병실 실비, 입원 차액 계산과 청구 서류까지",
+  "subs": [
+    "상급병실 실비",
+    "상급병실 차액 계산",
+    "입원 병실료 청구",
+    "병실 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T08:41:07.586Z"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "finalUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "title": "직접 캡처 저장본",
+    "file": "src-1.txt",
+    "chars": 142934,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 2,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  },
+  {
+    "n": 3,
+    "url": "https://fine.fss.or.kr/main/prc/is/sub/is017.jsp?menuNo=900423",
+    "finalUrl": "https://fine.fss.or.kr/main/prc/is/sub/is017.jsp?menuNo=900423",
+    "title": "보험금 청구는 이렇게 하세요 | 금융감독원 금융상품",
+    "file": "src-3.txt",
+    "chars": 3497,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.silson24.or.kr/claim/web/",
+    "finalUrl": "https://www.silson24.or.kr/claim/web/",
+    "title": "직접 캡처 저장본",
+    "file": "src-4.txt",
+    "chars": 1206,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  }
+]

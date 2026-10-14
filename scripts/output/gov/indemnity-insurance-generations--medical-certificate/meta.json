@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--medical-certificate",
+  "slug": "medical-certificate",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "진단서없이청구",
+  "exportName": "실손보험진단서없이청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\진단서없이청구.tsx",
+  "title": "진단서 없이 실비 청구, 가능한 경우와 발급 비용",
+  "subs": [
+    "진단서 없이 실비",
+    "진단서 필요 경우",
+    "진단서 발급 비용",
+    "대신 낼 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T01:48:42.506Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--lapse-revival",
+  "slug": "lapse-revival",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "실효부활",
+  "exportName": "실손보험실효부활SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\실효부활.tsx",
+  "title": "실비보험 실효, 뜻과 부활 방법을 알려주세요",
+  "subs": [
+    "실비 실효 뜻",
+    "실비 실효 부활 방법",
+    "실비 실효 부활 기간",
+    "실비 실효 후 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T23:26:51.298Z"
+}

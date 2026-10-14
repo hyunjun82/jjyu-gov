@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--dementia-coverage",
+  "slug": "dementia-coverage",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "치매보상",
+  "exportName": "실손보험치매보상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\치매보상.tsx",
+  "title": "치매 실비 되나요? 병명부터 대리 청구까지",
+  "subs": [
+    "치매 실비",
+    "치매 진단서 병명",
+    "치매 실비 대리청구",
+    "치매 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T11:55:15.471Z"
+}

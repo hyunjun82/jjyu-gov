@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--shingles-vaccine",
+  "slug": "shingles-vaccine",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "대상포진예방접종",
+  "exportName": "실손보험대상포진예방접종SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\대상포진예방접종.tsx",
+  "title": "대상포진 치료비는 실비가 될까, 서류부터 예방접종까지",
+  "subs": [
+    "대상포진 실비",
+    "대상포진 실비 서류",
+    "대상포진 예방접종 실비",
+    "대상포진 질병코드"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T07:54:28.252Z"
+}

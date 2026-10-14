@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--emergency-room-fee",
+  "slug": "emergency-room-fee",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "응급실실비면책",
+  "exportName": "실손보험응급실실비면책SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\응급실실비면책.tsx",
+  "title": "응급실 실비 청구, 일반 환자도 되나? 관리료와 서류, 한도까지",
+  "subs": [
+    "응급실 실비 청구",
+    "응급실 관리료 실비",
+    "응급실 실비 서류",
+    "응급실 실비 한도"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T01:39:04.021Z"
+}

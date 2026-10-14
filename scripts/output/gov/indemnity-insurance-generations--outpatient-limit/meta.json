@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--outpatient-limit",
+  "slug": "outpatient-limit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "통원한도",
+  "exportName": "실손보험통원한도SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\통원한도.tsx",
+  "title": "통원 실비 한도가 얼마인가요? 공제금액부터 청구 서류까지",
+  "subs": [
+    "통원 실비 한도",
+    "통원 실비 공제금액",
+    "통원 실비 청구",
+    "통원 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T09:53:20.852Z"
+}

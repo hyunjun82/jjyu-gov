@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--non-covered-benefits",
+  "slug": "non-covered-benefits",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "비급여보장",
+  "exportName": "실손보험비급여보장SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\비급여보장.tsx",
+  "title": "비급여 실비 보장 범위와 자기부담 비율 정리",
+  "subs": [
+    "비급여 실비 보장",
+    "비급여 실비 한도",
+    "비급여 자기부담",
+    "비급여 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T00:23:48.181Z"
+}

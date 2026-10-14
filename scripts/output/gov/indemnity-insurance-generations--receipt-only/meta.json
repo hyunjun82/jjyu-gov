@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--receipt-only",
+  "slug": "receipt-only",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "영수증만청구",
+  "exportName": "실손보험영수증만청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\영수증만청구.tsx",
+  "title": "실비 영수증만으로 청구되나, 필요 서류 정리",
+  "subs": [
+    "실비 영수증 청구",
+    "영수증 청구 한계",
+    "필요 서류 정리",
+    "서류 없이 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T01:05:45.366Z"
+}

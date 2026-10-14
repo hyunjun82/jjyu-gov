@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.e-insmarket.or.kr",
+    "finalUrl": "https://www.e-insmarket.or.kr/",
+    "title": "온라인 보험슈퍼마켓",
+    "file": "src-1.txt",
+    "chars": 3257,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-2.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthDisclosure.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthDisclosure.do",
+    "title": "보험료 비교공시 | 손해보험협회",
+    "file": "src-3.txt",
+    "chars": 4101,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.e-insmarket.or.kr",
+    "finalUrl": "https://www.e-insmarket.or.kr/",
+    "title": "온라인 보험슈퍼마켓",
+    "file": "src-4.txt",
+    "chars": 3257,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

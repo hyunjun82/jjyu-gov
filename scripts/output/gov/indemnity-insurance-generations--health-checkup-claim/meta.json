@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--health-checkup-claim",
+  "slug": "health-checkup-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "건강검진청구",
+  "exportName": "실손보험건강검진청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\건강검진청구.tsx",
+  "title": "건강검진 실비 청구, 수면내시경 초음파 용종제거는 어디까지 되나",
+  "subs": [
+    "건강검진 실비 청구",
+    "수면내시경 실비",
+    "건강검진 초음파 실비",
+    "용종제거 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T23:35:16.126Z"
+}

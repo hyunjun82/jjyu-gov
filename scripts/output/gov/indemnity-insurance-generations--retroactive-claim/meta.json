@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--retroactive-claim",
+  "slug": "retroactive-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "소급청구",
+  "exportName": "실손보험소급청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\소급청구.tsx",
+  "title": "예전 진료비도 실비로 받을 수 있을까? 소급 청구 기간과 방법",
+  "subs": [
+    "실비 소급 청구",
+    "실비 소급 청구 기간",
+    "실비 소급 청구 방법",
+    "실비 소급 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T06:02:40.235Z"
+}

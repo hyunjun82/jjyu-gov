@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--gastroscopy-checkup",
+  "slug": "gastroscopy-checkup",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "위내시경건강검진",
+  "exportName": "실손보험위내시경건강검진SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\위내시경건강검진.tsx",
+  "title": "수면내시경 실비 청구, 건강검진과 위궤양 진료 구분부터 서류까지",
+  "subs": [
+    "수면내시경 실비 청구",
+    "건강검진 수면내시경 실비",
+    "위궤양 수면내시경 실비",
+    "수면내시경 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T01:27:41.711Z"
+}

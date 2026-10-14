@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--thyroid",
+  "slug": "thyroid",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "갑상선",
+  "exportName": "실손보험갑상선SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\갑상선.tsx",
+  "title": "갑상선 실비 청구, 검진 결절부터 수술 서류까지",
+  "subs": [
+    "갑상선 검진 실비",
+    "갑상선 결절 추가검사",
+    "갑상선 수술 실비",
+    "갑상선 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T06:45:02.424Z"
+}

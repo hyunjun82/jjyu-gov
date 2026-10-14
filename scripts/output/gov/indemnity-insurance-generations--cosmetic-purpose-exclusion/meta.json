@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--cosmetic-purpose-exclusion",
+  "slug": "cosmetic-purpose-exclusion",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "미용목적면책",
+  "exportName": "실손보험미용목적면책SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\미용목적면책.tsx",
+  "title": "미용 목적 실비 청구, 면책 항목과 치료로 인정되는 기준",
+  "subs": [
+    "미용 목적 실비",
+    "실비 면책 항목",
+    "치료 목적 인정",
+    "미용 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T00:01:46.075Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--industrial-accident-duplicate",
+  "slug": "industrial-accident-duplicate",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "산재실비중복",
+  "exportName": "실손보험산재실비중복SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\산재실비중복.tsx",
+  "title": "산재 실비 중복 청구, 환수 기준과 보상 순서, 서류까지",
+  "subs": [
+    "산재 실비 중복",
+    "산재 실비 환수",
+    "산재 실비 청구",
+    "산재 실비 보상"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T02:42:21.165Z"
+}

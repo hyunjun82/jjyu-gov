@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--nerve-plasty",
+  "slug": "nerve-plasty",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "신경성형술",
+  "exportName": "실손보험신경성형술SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\신경성형술.tsx",
+  "title": "신경성형술 실비가 거절되는 이유는? 입원부터 적용까지",
+  "subs": [
+    "신경성형술 실비",
+    "신경성형술 실비 거절",
+    "신경성형술 실비 입원",
+    "신경성형술 실비 적용"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T11:24:03.838Z"
+}

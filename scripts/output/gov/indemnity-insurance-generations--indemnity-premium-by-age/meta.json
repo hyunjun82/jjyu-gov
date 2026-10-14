@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--indemnity-premium-by-age",
+  "slug": "indemnity-premium-by-age",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "나이별실비보험료",
+  "exportName": "실손보험나이별실비보험료SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\나이별실비보험료.tsx",
+  "title": "나이별 실비 보험료 비교, 연령대와 회사별 금액 차이",
+  "subs": [
+    "나이별 실비 보험료",
+    "40대 실비 보험료",
+    "50대 실비 보험료",
+    "회사별 실비 보험료 비교"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T05:51:51.961Z"
+}

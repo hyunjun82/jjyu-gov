@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--annual-limit",
+  "slug": "annual-limit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "연간한도",
+  "exportName": "실손보험연간한도SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\연간한도.tsx",
+  "title": "실비 한도는 얼마일까, 통원 하루 금액부터 초과했을 때까지",
+  "subs": [
+    "실비 한도",
+    "실비 통원 한도",
+    "하루 실비 한도",
+    "실비 한도 초과"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T06:20:09.075Z"
+}

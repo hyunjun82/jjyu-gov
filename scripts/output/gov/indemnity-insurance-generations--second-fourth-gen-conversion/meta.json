@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--second-fourth-gen-conversion",
+  "slug": "second-fourth-gen-conversion",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "24세대전환판단",
+  "exportName": "실손보험24세대전환판단SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\24세대전환판단.tsx",
+  "title": "실손 전환, 세대별 계약 차이부터 시기와 신청 방법까지",
+  "subs": [
+    "실손 전환 계약 차이",
+    "실손 전환 시기",
+    "실손 전환 신청 방법",
+    "실손 전환 주기"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T02:30:49.725Z"
+}

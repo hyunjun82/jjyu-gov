@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--cataract-multifocal",
+  "slug": "cataract-multifocal",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "백내장다초점",
+  "exportName": "실손보험백내장다초점SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\백내장다초점.tsx",
+  "title": "백내장 실비 거절, 다초점 렌즈 입원 기준과 청구 서류",
+  "subs": [
+    "백내장 실비 거절",
+    "다초점 렌즈 실비",
+    "백내장 입원 기준",
+    "백내장 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T07:52:54.061Z"
+}

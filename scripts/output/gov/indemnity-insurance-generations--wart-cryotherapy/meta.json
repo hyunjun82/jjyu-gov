@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--wart-cryotherapy",
+  "slug": "wart-cryotherapy",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "사마귀냉동치료",
+  "exportName": "실손보험사마귀냉동치료SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\사마귀냉동치료.tsx",
+  "title": "사마귀 냉동치료 실비, 얼굴·발바닥 적용부터 세대별 청구까지",
+  "subs": [
+    "사마귀 냉동치료 실비",
+    "얼굴 사마귀 실비",
+    "발바닥 사마귀 실비",
+    "세대별 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T08:17:22.452Z"
+}

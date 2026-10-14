@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1003&ccfNo=4&cciNo=2&cnpClsNo=1",
+    "finalUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1003&ccfNo=4&cciNo=2&cnpClsNo=1",
+    "title": "장애인 편의ㆍ건강지원 > 장애인 건강지원 > 보조기기에 대한 지원 > 보조기기에 대한 보험급여 지급 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-1.txt",
+    "chars": 4187,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1003&ccfNo=4&cciNo=2&cnpClsNo=2",
+    "finalUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1003&ccfNo=4&cciNo=2&cnpClsNo=2",
+    "title": "장애인 편의ㆍ건강지원 > 장애인 건강지원 > 보조기기에 대한 지원 > 보조기기에 대한 의료급여 지급 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 3153,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-3.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1003&ccfNo=4&cciNo=2&cnpClsNo=1",
+    "finalUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1003&ccfNo=4&cciNo=2&cnpClsNo=1",
+    "title": "장애인 편의ㆍ건강지원 > 장애인 건강지원 > 보조기기에 대한 지원 > 보조기기에 대한 보험급여 지급 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-4.txt",
+    "chars": 4187,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  }
+]

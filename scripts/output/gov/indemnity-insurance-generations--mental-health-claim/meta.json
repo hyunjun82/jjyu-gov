@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--mental-health-claim",
+  "slug": "mental-health-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "우울증공황장애실비",
+  "exportName": "실손보험우울증공황장애실비SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\우울증공황장애실비.tsx",
+  "title": "정신과 실비를 청구하면 불이익이 있을까, 가입 영향까지",
+  "subs": [
+    "정신과 실비 청구",
+    "우울증 공황장애 실비",
+    "정신과 실비 불이익",
+    "정신과 실비 가입"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T06:57:51.310Z"
+}

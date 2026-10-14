@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--payment-suspension",
+  "slug": "payment-suspension",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "납입중지",
+  "exportName": "실손보험납입중지SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\납입중지.tsx",
+  "title": "실비 납입중지가 가능한가요? 조건부터 방법까지",
+  "subs": [
+    "실비 납입중지",
+    "실비 납입중지 조건",
+    "해외 체류 납입중지",
+    "실비 납입중지 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T10:48:02.638Z"
+}

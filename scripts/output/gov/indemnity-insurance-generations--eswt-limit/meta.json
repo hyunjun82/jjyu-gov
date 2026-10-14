@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--eswt-limit",
+  "slug": "eswt-limit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "체외충격파한도",
+  "exportName": "실손보험체외충격파한도SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\체외충격파한도.tsx",
+  "title": "체외충격파 실비는 몇 번까지 될까, 한도부터 서류까지",
+  "subs": [
+    "체외충격파 실비",
+    "체외충격파 실비 한도",
+    "체외충격파 실비 기준",
+    "체외충격파 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T07:14:00.860Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--oriental-hospital-mri",
+  "slug": "oriental-hospital-mri",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "한방병원MRI",
+  "exportName": "실손보험한방병원MRISpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\한방병원MRI.tsx",
+  "title": "한방병원 MRI 실비, 특약 확인과 청구 방법",
+  "subs": [
+    "한방병원 MRI 실비",
+    "한방병원 특약",
+    "한방 MRI 청구",
+    "MRI 청구 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T02:13:26.576Z"
+}

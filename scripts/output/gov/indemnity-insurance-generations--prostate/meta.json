@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--prostate",
+  "slug": "prostate",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "전립선비대증",
+  "exportName": "실손보험전립선비대증SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\전립선비대증.tsx",
+  "title": "전립선비대증 실비 적용되나요? 조건부터 수술 서류까지",
+  "subs": [
+    "전립선비대증 실비",
+    "전립선비대증 실비 적용",
+    "전립선비대증 실비 조건",
+    "전립선비대증 수술 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T12:22:59.658Z"
+}

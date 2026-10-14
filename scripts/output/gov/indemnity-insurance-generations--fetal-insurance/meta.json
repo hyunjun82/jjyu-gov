@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--fetal-insurance",
+  "slug": "fetal-insurance",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "태아실비",
+  "exportName": "실손보험태아실비SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\태아실비.tsx",
+  "title": "태아 실비보험 언제 가입할까? 시기별 가격과 다이렉트 비교",
+  "subs": [
+    "태아 실비보험 가입 시기",
+    "태아 실비보험 가격",
+    "다이렉트 비교",
+    "태아 특약"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T09:24:58.125Z"
+}

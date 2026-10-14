@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--ureteral-stone",
+  "slug": "ureteral-stone",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "요로결석쇄석술",
+  "exportName": "실손보험요로결석쇄석술SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\요로결석쇄석술.tsx",
+  "title": "요로결석 충격파치료도 실비가 될까, 서류부터 응급실 청구까지",
+  "subs": [
+    "요로결석 실비",
+    "요로결석 실비 서류",
+    "요로결석 충격파 실비",
+    "요로결석 응급실 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T08:23:05.268Z"
+}

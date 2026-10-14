@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--prolotherapy-limit",
+  "slug": "prolotherapy-limit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "프롤로주사한도",
+  "exportName": "실손보험프롤로주사한도SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\프롤로주사한도.tsx",
+  "title": "프롤로주사 실비는 어떻게 될까, 세대별 적용부터 한도까지",
+  "subs": [
+    "프롤로주사 실비",
+    "프롤로주사 실비 세대",
+    "프롤로주사 실비 한도",
+    "프롤로주사 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T12:38:39.644Z"
+}

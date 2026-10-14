@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--bunion-claim",
+  "slug": "bunion-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "무지외반증실비청구",
+  "exportName": "실손보험무지외반증실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\무지외반증실비청구.tsx",
+  "title": "무지외반증 수술도 실비가 될까, 교정 치료부터 서류까지",
+  "subs": [
+    "무지외반증 실비",
+    "무지외반증 수술 실비",
+    "무지외반증 교정 실비",
+    "무지외반증 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T12:52:30.507Z"
+}

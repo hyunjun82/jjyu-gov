@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--benefit-vs-not",
+  "slug": "benefit-vs-not",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "급여비급여차이",
+  "exportName": "실손보험급여비급여차이SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\급여비급여차이.tsx",
+  "title": "실비 급여 비급여 차이가 뭔가요? 공제부터 청구, 자기부담금까지",
+  "subs": [
+    "실비 급여 비급여 차이",
+    "실비 급여 비급여 공제",
+    "실비 급여 비급여 청구",
+    "실비 급여 비급여 자기부담금"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T10:04:43.266Z"
+}

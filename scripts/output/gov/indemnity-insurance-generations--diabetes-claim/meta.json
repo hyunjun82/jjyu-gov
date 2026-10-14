@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--diabetes-claim",
+  "slug": "diabetes-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "당뇨실비청구",
+  "exportName": "실손보험당뇨실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\당뇨실비청구.tsx",
+  "title": "당뇨 실비 청구, 서류와 진단비 차이부터 가입 제한까지",
+  "subs": [
+    "당뇨 실비 청구",
+    "당뇨 실비 서류",
+    "당뇨 진단비",
+    "당뇨 실비 가입"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T02:14:55.664Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--card-payment",
+  "slug": "card-payment",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "카드결제",
+  "exportName": "실손보험카드결제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\카드결제.tsx",
+  "title": "실비 보험료 카드결제, 가능한 회사와 신계약·매월 납입 차이",
+  "subs": [
+    "실비 카드결제",
+    "실비 보험료 카드 납입",
+    "실비 신계약 카드결제",
+    "실비 카드결제 제한"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T08:07:46.431Z"
+}

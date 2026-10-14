@@ -1,0 +1,47 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.law.go.kr/법령/민사집행법",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%AF%BC%EC%82%AC%EC%A7%91%ED%96%89%EB%B2%95",
+    "title": "민사집행법",
+    "file": "src-1.txt",
+    "chars": 88418,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/법령/민사집행법시행령",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%AF%BC%EC%82%AC%EC%A7%91%ED%96%89%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9",
+    "title": "민사집행법시행령",
+    "file": "src-2.txt",
+    "chars": 5794,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-3.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.silson24.or.kr/claim/web/",
+    "finalUrl": "https://www.silson24.or.kr/claim/web/",
+    "title": "직접 캡처 저장본",
+    "file": "src-4.txt",
+    "chars": 1206,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  }
+]

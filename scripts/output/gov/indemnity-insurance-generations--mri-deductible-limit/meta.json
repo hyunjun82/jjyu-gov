@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--mri-deductible-limit",
+  "slug": "mri-deductible-limit",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "MRI공제한도",
+  "exportName": "실손보험MRI공제한도SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\MRI공제한도.tsx",
+  "title": "MRI 실비 한도와 공제금액, 비급여 촬영은 얼마까지 보상되나",
+  "subs": [
+    "MRI 실비 한도",
+    "MRI 실비 공제금액",
+    "비급여 MRI 보상",
+    "MRI 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T22:30:09.149Z"
+}

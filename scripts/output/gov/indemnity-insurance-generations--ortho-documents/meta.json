@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--ortho-documents",
+  "slug": "ortho-documents",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "정형외과서류",
+  "exportName": "실손보험정형외과서류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\정형외과서류.tsx",
+  "title": "정형외과 실비 청구 서류와 방법, 입원·통원별 제출 목록",
+  "subs": [
+    "정형외과 실비 서류",
+    "정형외과 실비 청구 방법",
+    "정형외과 입원 실비 서류",
+    "정형외과 통원 실비 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T03:20:13.986Z"
+}

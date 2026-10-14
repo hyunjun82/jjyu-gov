@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--wegovy-disease-code",
+  "slug": "wegovy-disease-code",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "위고비질병코드",
+  "exportName": "실손보험위고비질병코드SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\위고비질병코드.tsx",
+  "title": "위고비도 실비 가능한가요? 조건부터 질병코드까지",
+  "subs": [
+    "위고비 실비 적용",
+    "위고비 실비 조건",
+    "위고비 질병코드",
+    "위고비 실비 청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T08:50:30.837Z"
+}

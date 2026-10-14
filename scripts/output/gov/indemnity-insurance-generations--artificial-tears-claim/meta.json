@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--artificial-tears-claim",
+  "slug": "artificial-tears-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "인공눈물실비청구",
+  "exportName": "실손보험인공눈물실비청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\인공눈물실비청구.tsx",
+  "title": "인공눈물 실비 청구, 급여 한도와 처방 서류 처리 방법",
+  "subs": [
+    "인공눈물 실비 청구",
+    "인공눈물 급여 한도",
+    "인공눈물 처방 서류",
+    "인공눈물 실비 처리"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T09:52:21.990Z"
+}

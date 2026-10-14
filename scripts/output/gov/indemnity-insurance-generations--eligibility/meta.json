@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--eligibility",
+  "slug": "eligibility",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "가입조건",
+  "exportName": "실손보험가입조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\가입조건.tsx",
+  "title": "실비보험 가입조건과 나이, 몇 살까지 가능한가요?",
+  "subs": [
+    "실비보험 가입조건",
+    "실비보험 가입나이",
+    "실비보험 가입 연령 제한",
+    "실비보험 가입 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T01:02:15.725Z"
+}

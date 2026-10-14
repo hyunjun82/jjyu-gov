@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--lumbar-disc",
+  "slug": "lumbar-disc",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "허리디스크",
+  "exportName": "실손보험허리디스크SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\허리디스크.tsx",
+  "title": "허리디스크 실비, MRI·주사·수술 적용부터 가입 제한까지",
+  "subs": [
+    "허리디스크 MRI 실비",
+    "허리디스크 주사 수술 실비",
+    "허리디스크 청구 서류",
+    "허리디스크 실비 가입"
+  ],
+  "deflect": true,
+  "created": "2026-10-12T07:27:24.471Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--gynecology-claim",
+  "slug": "gynecology-claim",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "산부인과청구",
+  "exportName": "실손보험산부인과청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\산부인과청구.tsx",
+  "title": "산부인과 실비 청구, 질염·초음파·자궁근종·난임시술 대상일까?",
+  "subs": [
+    "산부인과 질염 실비",
+    "산부인과 초음파 실비",
+    "자궁근종 실비",
+    "난임시술 실비"
+  ],
+  "deflect": true,
+  "created": "2026-10-13T00:47:44.133Z"
+}

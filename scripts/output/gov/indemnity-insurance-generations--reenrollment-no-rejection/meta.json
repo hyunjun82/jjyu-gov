@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--reenrollment-no-rejection",
+  "slug": "reenrollment-no-rejection",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "재가입거절불가",
+  "exportName": "실손보험재가입거절불가SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\재가입거절불가.tsx",
+  "title": "실비 재가입 거절, 조건과 심사 기준",
+  "subs": [
+    "실비 재가입 거절",
+    "실비 재가입 조건",
+    "재가입 심사 기준",
+    "재가입 주기"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T04:23:18.202Z"
+}

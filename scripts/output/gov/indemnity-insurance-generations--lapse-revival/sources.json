@@ -1,0 +1,59 @@
+[
+  {
+    "n": 1,
+    "url": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "finalUrl": "https://kpub.knia.or.kr/productDisc/lostHealth/lostHealthFaq.do",
+    "title": "실손의료보험 FAQ | 손해보험협회",
+    "file": "src-1.txt",
+    "chars": 5941,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/법령/상법/제650조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C650%EC%A1%B0",
+    "title": "상법",
+    "file": "src-2.txt",
+    "chars": 1280,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.law.go.kr/법령/상법/제650조의2",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C650%EC%A1%B0%EC%9D%982",
+    "title": "상법",
+    "file": "src-3.txt",
+    "chars": 1082,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "finalUrl": "https://www.law.go.kr/LSW//admRulBylInfoPLinkR.do?admRulSeq=2200000108867&bylSeq=3265643&bylNo=0015&bylBrNo=00&bylClsCd=200201&bylCls=BE",
+    "title": "직접 캡처 저장본",
+    "file": "src-4.txt",
+    "chars": 142934,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.silson24.or.kr/claim/web/",
+    "finalUrl": "https://www.silson24.or.kr/claim/web/",
+    "title": "직접 캡처 저장본",
+    "file": "src-5.txt",
+    "chars": 1206,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "saved": true
+  }
+]

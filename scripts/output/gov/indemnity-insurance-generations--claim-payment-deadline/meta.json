@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--claim-payment-deadline",
+  "slug": "claim-payment-deadline",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "보험금지급기일",
+  "exportName": "실손보험보험금지급기일SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\보험금지급기일.tsx",
+  "title": "실비는 청구 후 며칠 만에 들어올까, 지급 기한과 늦을 때 이자",
+  "subs": [
+    "실비 지급 기간",
+    "실비 지급 기한",
+    "지급 지연 이자",
+    "지급 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T00:14:27.844Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--generation-history",
+  "slug": "generation-history",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "세대변천사",
+  "exportName": "실손보험세대변천사SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\세대변천사.tsx",
+  "title": "실손보험은 세대마다 뭐가 다를까, 보장부터 갈아타기까지",
+  "subs": [
+    "실손 세대 구분",
+    "세대별 보장 차이",
+    "세대별 자기부담금",
+    "실비 갈아타기"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T07:44:08.542Z"
+}

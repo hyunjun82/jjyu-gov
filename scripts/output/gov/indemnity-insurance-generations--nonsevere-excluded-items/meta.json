@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--nonsevere-excluded-items",
+  "slug": "nonsevere-excluded-items",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "비중증제외항목",
+  "exportName": "실손보험비중증제외항목SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\비중증제외항목.tsx",
+  "title": "비중증 실손에서 도수치료와 주사는 왜 빠질까, 제외 항목 정리",
+  "subs": [
+    "비중증 실손 제외",
+    "비중증 도수치료",
+    "비중증 주사",
+    "제외 항목 확인"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T03:45:17.301Z"
+}

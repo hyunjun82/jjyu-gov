@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "indemnity-insurance-generations--company-documents",
+  "slug": "company-documents",
+  "hub": "indemnity-insurance-generations",
+  "dir": "실손보험",
+  "fileName": "회사별신청서류",
+  "exportName": "실손보험회사별신청서류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실손보험\\회사별신청서류.tsx",
+  "title": "실비 신청 서류, 회사별 차이와 공통 항목",
+  "subs": [
+    "실비 신청 서류",
+    "회사별 서류 차이",
+    "공통 서류 목록",
+    "서류 제출 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T02:24:16.721Z"
+}
