@@ -53,7 +53,7 @@ export const 실손보험MRI공제한도SpokeContent: SpokeData = {
   cardLayout: 'act-first',
   heroHook:
     'MRI 실비는 공제금액을 뺀 만큼 돌아오고, 5세대 실손에서 산정특례 질환이면 연간 300만원 이내까지 보상됩니다. 다만 비중증 질환이면 한도와 공제가 달라져서 같은 MRI도 돌아오는 돈이 갈려요. 공제를 뺀 MRI 금액이 영수증에 보인다면 실손24로 청구해 보세요. 한도와 서류까지 알아보겠습니다.',
-  heroAct: { label: 'MRI 실비 청구 바로가기', href: SRC4 },
+  heroAct: { label: 'MRI 실비 청구하기', href: SRC4 },
   keyFacts: {
     '적용 기준': '’26.5월 실손의료보험 개편 이후 판매되는 5세대 실손의료보험 기준',
     '산정특례 질환 비급여 MRI 연간 한도(특약1)': '연간 300만원 이내',
