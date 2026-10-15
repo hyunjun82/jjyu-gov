@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-voucher--신청방법",
+  "slug": "신청방법",
+  "hub": "energy-voucher",
+  "dir": "에너지바우처",
+  "fileName": "신청방법",
+  "exportName": "에너지바우처신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지바우처\\신청방법.tsx",
+  "title": "에너지바우처 신청방법은 무엇인가요? 복지로부터 고객번호까지",
+  "subs": [
+    "에너지바우처 신청방법",
+    "에너지바우처 복지로",
+    "에너지바우처 복지로 온라인 신청",
+    "에너지바우처 신청방법 고객번호"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T01:16:57.406Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--입금일",
+  "slug": "입금일",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "입금일",
+  "exportName": "실업급여입금일SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\입금일.tsx",
+  "title": "실업급여는 언제 들어오나요? 1차 입금일부터 공휴일까지",
+  "subs": [
+    "실업급여 입금일",
+    "실업급여 입금일 1차",
+    "실업급여 입금일 2차",
+    "실업급여 입금일 공휴일"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T03:27:39.776Z"
+}

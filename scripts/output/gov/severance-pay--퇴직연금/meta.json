@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "severance-pay--퇴직연금",
+  "slug": "퇴직연금",
+  "hub": "severance-pay",
+  "dir": "퇴직금",
+  "fileName": "퇴직연금",
+  "exportName": "퇴직금퇴직연금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\퇴직금\\퇴직연금.tsx",
+  "title": "퇴직연금 DB DC IRP는 뭐가 다른가요? 퇴직금과 차이부터 전환까지",
+  "subs": [
+    "퇴직연금 db dc 차이",
+    "퇴직연금 irp 개설",
+    "퇴직금 퇴직연금 차이",
+    "퇴직연금 db dc 전환"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T00:11:24.521Z"
+}

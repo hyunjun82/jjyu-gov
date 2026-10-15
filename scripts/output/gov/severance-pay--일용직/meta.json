@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "severance-pay--일용직",
+  "slug": "일용직",
+  "hub": "severance-pay",
+  "dir": "퇴직금",
+  "fileName": "일용직",
+  "exportName": "퇴직금일용직SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\퇴직금\\일용직.tsx",
+  "title": "일용직도 퇴직금 받나요? 건설 퇴직공제금 조회부터 신청까지",
+  "subs": [
+    "일용직 퇴직금 기준",
+    "건설 일용직 퇴직금 받는법",
+    "건설근로자 퇴직공제금 조회",
+    "건설근로자 퇴직공제금 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T23:59:51.680Z"
+}

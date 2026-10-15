@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-voucher--자동신청",
+  "slug": "자동신청",
+  "hub": "energy-voucher",
+  "dir": "에너지바우처",
+  "fileName": "자동신청",
+  "exportName": "에너지바우처자동신청SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지바우처\\자동신청.tsx",
+  "title": "에너지바우처는 기초수급자도 따로 받아야 하나요? 자동신청부터 대상까지",
+  "subs": [
+    "에너지바우처 자동신청",
+    "에너지바우처 기초수급자",
+    "에너지바우처 대상 조회",
+    "에너지바우처 대상자"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T00:36:27.032Z"
+}

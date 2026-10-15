@@ -1,0 +1,410 @@
+{
+  "facts": [
+    {
+      "id": "f1",
+      "item": "당첨자 명단 메뉴 위치",
+      "value": "LH청약플러스 청약 > 청약결과 확인 > 당첨/낙찰자 명단",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "청약 청약결과 확인 당첨/낙찰자 명단",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f2",
+      "item": "청약결과 확인 하위 메뉴 1",
+      "value": "청약신청 내역조회",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "청약신청 내역조회",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f3",
+      "item": "청약결과 확인 하위 메뉴 2",
+      "value": "당첨/낙찰 결과조회",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "당첨/낙찰 결과조회",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f4",
+      "item": "청약결과 확인 하위 메뉴 3",
+      "value": "서류제출대상자 명단",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "서류제출대상자 명단",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "서류제출대상자",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f5",
+      "item": "명단 검색 조건(공급유형)",
+      "value": "공급유형을 전체·임대주택·분양주택·상가·토지 중에서 고르고, 세부유형·공고명으로 검색",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "공급유형",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f6",
+      "item": "명단 목록에 표시되는 날짜",
+      "value": "공고마다 모집공고일과 당첨자발표일이 함께 표시됨",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "공고명군포시 영구임대주택 예비입주자 모집공고(2026.04.13.)-산본주몽1 모집공고일2026.04.13 당첨자발표일2026.10.14",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f7",
+      "item": "추첨 방식 명단 버튼",
+      "value": "추첨 방식 공고는 당첨자명단 버튼으로 확인",
+      "scope": "토지 추첨 공고 예시",
+      "scopeWord": "추첨",
+      "quote": "당첨자명단",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f8",
+      "item": "입찰 방식 명단 버튼",
+      "value": "입찰 방식 공고(토지·임대상가)는 낙찰자명단 버튼으로 확인",
+      "scope": "토지·상가 입찰",
+      "scopeWord": "입찰",
+      "quote": "낙찰자명단",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f9",
+      "item": "예비입주자 모집 결과 버튼",
+      "value": "예비입주자 모집 공고 결과는 당첨자명단이 아니라 예비자명단 버튼으로 표시됨",
+      "scope": "예비입주자 모집 공고",
+      "scopeWord": "예비입주자",
+      "quote": "예비자명단",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "예비자명단",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f10",
+      "item": "예비자명단이 뜨는 공고 예시(행복주택)",
+      "value": "행복주택 예비입주자 모집, 추첨 방식, 예비자명단으로 발표",
+      "scope": "행복주택",
+      "scopeWord": "행복주택",
+      "quote": "공고명광주효천3,효천7,진월8 행복주택 입주자격완화 예비입주자 모집(2026.06.11. 공고)-광주효천2 A-4BL 모집공고일2026.06.11 당첨자발표일2026.10.14",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f11",
+      "item": "예비자명단이 뜨는 공고 예시(국민임대)",
+      "value": "국민임대 예비입주자 모집도 예비자명단으로 발표",
+      "scope": "국민임대",
+      "scopeWord": "국민임대",
+      "quote": "공고명용인마평 국민임대주택 예비입주자 모집(2026.05,06)-용인마평 모집공고일2026.05.06 당첨자발표일2026.10.14",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f12",
+      "item": "예비입주자 모집은 별도 공고",
+      "value": "예비입주자 모집은 임대주택 공고문 목록에 별도 공고로 올라옴",
+      "scope": "공공임대",
+      "scopeWord": "예비입주자",
+      "quote": "음성금왕1 50년공공임대주택 예비입주자 모집 공고[2026.10.14]",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f13",
+      "item": "예비입주자 순위 조회 메뉴",
+      "value": "고객서비스 > 나의 정보 > 예비입주자 순위",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "예비입주자 순위",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "예비입주자 순위",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f14",
+      "item": "퀵메뉴의 순위 조회 바로가기",
+      "value": "오른쪽 퀵메뉴에 예비입주자 순위 조회 바로가기가 있음",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "순위 조회",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f15",
+      "item": "마이페이지 결과조회 메뉴",
+      "value": "나의 정보 메뉴에 청약신청내역 및 결과조회",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "청약신청내역 및 결과조회",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f16",
+      "item": "예비입주자 동호수 추첨신청",
+      "value": "고객서비스 온라인 신청 메뉴에 예비입주자 동호수 추첨신청이 있음",
+      "scope": "예비입주자",
+      "scopeWord": "예비입주자",
+      "quote": "예비입주자 동호수 추첨신청",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "동호수 추첨신청",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f17",
+      "item": "사전청약 당첨 조회 메뉴",
+      "value": "사전청약 > 당첨자 서비스 > 당첨 조회",
+      "scope": "사전청약",
+      "scopeWord": "사전청약",
+      "quote": "당첨 조회",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f18",
+      "item": "사전청약 당첨자 연락처 변경",
+      "value": "당첨자 연락처 변경 메뉴",
+      "scope": "사전청약",
+      "scopeWord": "사전청약",
+      "quote": "당첨자 연락처 변경",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "연락처 변경",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f19",
+      "item": "공고문 목록 조회 범위",
+      "value": "공고문 목록에는 공고중·정정공고중·접수중 공고가 모두 조회됨",
+      "scope": "임대주택 공고문",
+      "scopeWord": "",
+      "quote": "'공고중', '정정공고중', '접수중'인 공고가 모두 조회됩니다.",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f20",
+      "item": "콜센터 번호",
+      "value": "1600-1004",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "콜센터 1600-1004",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f21",
+      "item": "콜센터 운영시간",
+      "value": "평일 09:00~18:00",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "평일 09:00~18:00",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f22",
+      "item": "콜센터 점심시간",
+      "value": "12:00~13:00",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "점심시간 12:00~13:00",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f23",
+      "item": "콜센터 휴무일",
+      "value": "토요일, 일요일, 공휴일 휴무",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "토, 일, 공휴일 휴무",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "공휴일 휴무",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f24",
+      "item": "자동 로그아웃",
+      "value": "개인정보 보호를 위해 일정 시간이 지나면 자동으로 로그아웃되며 연장할 수 있음",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "고객님의 안전한 개인정보를 위해 자동로그아웃을 합니다.",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f25",
+      "item": "사용 가능한 인증서(공동)",
+      "value": "개인용 공동인증서",
+      "scope": "인터넷 청약신청",
+      "scopeWord": "청약신청",
+      "quote": "개인용 공동인증서 소지",
+      "src": "src-3.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f26",
+      "item": "사용 불가 인증서",
+      "value": "단체명의 등 특수 목적으로 발급된 인증서는 쓸 수 없음",
+      "scope": "인터넷 청약신청",
+      "scopeWord": "청약신청",
+      "quote": "단체명의 등 특수 목적으로 발급된 인증서 사용 불가",
+      "src": "src-3.txt",
+      "must": true,
+      "key": "단체명의",
+      "keepWord": "사용 불가",
+      "keepWhy": ""
+    },
+    {
+      "id": "f27",
+      "item": "사용 가능한 인증서(민간)",
+      "value": "금융인증서, 그 외 간편인증 가능한 인증서",
+      "scope": "인터넷 청약신청",
+      "scopeWord": "청약신청",
+      "quote": "금융인증서, 그 외 간편인증 가능한 인증서 소지",
+      "src": "src-3.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f28",
+      "item": "민간인증서 조건",
+      "value": "인증기관에서 발급받은 개인용 인증서가 있어야 함",
+      "scope": "인터넷 청약신청",
+      "scopeWord": "청약신청",
+      "quote": "인증기관에서 발급받은 개인용 인증서가 있어야 이용 가능",
+      "src": "src-3.txt",
+      "must": true,
+      "key": "개인용 인증서",
+      "keepWord": "",
+      "keepWhy": ""
+    }
+  ],
+  "notUsed": [
+    {
+      "item": "예비자(예비입주자)의 정의",
+      "reason": "원문 4개 어디에도 정의 문장이 없음. 소제목 3은 f9·f12(예비입주자 모집이 별도 공고이고 예비자명단으로 발표됨)까지만 원문으로 뒷받침되고, 뜻 설명은 다른 원문이 필요함"
+    },
+    {
+      "item": "예비입주자 순번이 어떻게 정해지고 언제 바뀌는지",
+      "reason": "원문에는 '예비입주자 순위' 메뉴 이름만 있고 조회 화면이나 순번 기준이 없음"
+    },
+    {
+      "item": "당첨/낙찰 결과조회에 로그인이나 인증서가 필요한지",
+      "reason": "원문에 명시되지 않음. 인증서 사실(f25~f28)은 청약신청 기준이라 scope를 '청약신청'으로 한정함"
+    },
+    {
+      "item": "명단 전체 889건, 페이지 수",
+      "reason": "수집 시점의 목록 건수일 뿐이고 글 내용과 무관함"
+    },
+    {
+      "item": "개별 공고의 모집공고일~발표일 간격",
+      "reason": "계산해야 나오는 값이라 새 숫자를 만들게 됨"
+    },
+    {
+      "item": "양산 삼성파크빌 [조기접수마감] 선착순 모집",
+      "reason": "특정 공고 정보이고 당첨 조회·예비자 순번 주제와 무관함"
+    },
+    {
+      "item": "청약신청 사전준비 서류(등본·초본·소득증빙)",
+      "reason": "신청 단계 정보라 결과 확인·예비자 소제목에 해당하지 않음"
+    },
+    {
+      "item": "인증서 발급안내 행동 링크(네이버·금융·토스·KB)",
+      "reason": "결과 조회 버튼 목적지로 쓸 근거가 없음. 원문 행동 링크에 결과 조회 페이지 URL이 없음"
+    },
+    {
+      "item": "이미지 img-1-1~img-4-2",
+      "reason": "alt 기준으로 슬로건과 웹접근성 인증마크뿐이라 본문 정보가 없음. 파일은 직접 열어보지 않았음"
+    },
+    {
+      "item": "웹접근성·센스리더 안내",
+      "reason": "메뉴/부가 안내라 본문이 아님"
+    }
+  ]
+}

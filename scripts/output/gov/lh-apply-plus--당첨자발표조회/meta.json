@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "lh-apply-plus--당첨자발표조회",
+  "slug": "당첨자발표조회",
+  "hub": "lh-apply-plus",
+  "dir": "LH청약플러스",
+  "fileName": "당첨자발표조회",
+  "exportName": "LH청약플러스당첨자발표조회SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\LH청약플러스\\당첨자발표조회.tsx",
+  "title": "LH 당첨자 발표는 어디서 조회하나요? 결과 확인부터 예비자 순번까지",
+  "subs": [
+    "LH 당첨자 발표 조회",
+    "LH 청약 결과 확인 방법",
+    "LH 예비자 뜻",
+    "LH 예비자 순번 보는법"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T22:38:30.174Z"
+}

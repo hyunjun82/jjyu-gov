@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-voucher--신청기간",
+  "slug": "신청기간",
+  "hub": "energy-voucher",
+  "dir": "에너지바우처",
+  "fileName": "신청기간",
+  "exportName": "에너지바우처신청기간SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지바우처\\신청기간.tsx",
+  "title": "에너지바우처는 동절기에 언제까지 받나요? 신청기간부터 지원금액까지",
+  "subs": [
+    "에너지바우처 신청기간",
+    "에너지바우처 동절기 기간",
+    "에너지바우처 동절기 금액",
+    "에너지바우처 지원금액"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T00:45:12.428Z"
+}

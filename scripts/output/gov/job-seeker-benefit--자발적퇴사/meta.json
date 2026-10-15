@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--자발적퇴사",
+  "slug": "자발적퇴사",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "자발적퇴사",
+  "exportName": "자발적퇴사SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\자발적퇴사.tsx",
+  "title": "자발적으로 퇴사해도 실업급여 받을 수 있나요? 기준부터 받는 법까지",
+  "subs": [
+    "실업급여 자발적퇴사",
+    "실업급여 자발적퇴사 받는법",
+    "실업급여 자발적퇴사 기준",
+    "실업급여 자발적퇴사 청년"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T03:53:15.818Z"
+}

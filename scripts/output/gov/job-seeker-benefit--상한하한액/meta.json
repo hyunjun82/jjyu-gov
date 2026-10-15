@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--상한하한액",
+  "slug": "상한하한액",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "상한하한액",
+  "exportName": "실업급여상한하한SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\상한하한액.tsx",
+  "title": "실업급여 상한액과 하한액은 얼마인가요? 한 달 기준부터 실수령액까지",
+  "subs": [
+    "실업급여 상한액",
+    "실업급여 하한액",
+    "실업급여 상한액 한달",
+    "실업급여 하한액 실수령액"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T02:32:38.319Z"
+}

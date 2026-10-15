@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--모의계산",
+  "slug": "모의계산",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "모의계산",
+  "exportName": "실업급여모의계산SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\모의계산.tsx",
+  "title": "실업급여는 얼마나 받나요? 계산기부터 기간까지",
+  "subs": [
+    "실업급여 계산기",
+    "2026년 실업급여 계산기",
+    "실업급여 계산기 기간",
+    "실업급여 계산법"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T02:53:26.612Z"
+}

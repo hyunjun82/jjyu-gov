@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--이직확인서",
+  "slug": "이직확인서",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "이직확인서",
+  "exportName": "실업급여이직확인서SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\이직확인서.tsx",
+  "title": "실업급여 이직확인서는 어떻게 받나요? 요청부터 코드까지",
+  "subs": [
+    "실업급여 이직확인서",
+    "실업급여 이직확인서 처리중",
+    "실업급여 이직확인서 요청",
+    "실업급여 이직확인서 코드"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T04:01:24.127Z"
+}

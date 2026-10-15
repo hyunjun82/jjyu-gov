@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "electric-welfare-discount--중복비교",
+  "slug": "중복비교",
+  "hub": "electric-welfare-discount",
+  "dir": "전기요금복지할인",
+  "fileName": "중복비교",
+  "exportName": "전기요금복지할인중복비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\전기요금복지할인\\중복비교.tsx",
+  "title": "전기요금 복지할인과 에너지바우처는 같이 받나요? 중복부터 도시가스까지",
+  "subs": [
+    "전기요금 복지할인 중복",
+    "복지할인 에너지바우처",
+    "전기요금 복지할인 도시가스",
+    "전기요금 복지할인 가구"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T02:11:36.685Z"
+}

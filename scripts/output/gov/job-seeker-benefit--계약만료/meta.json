@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--계약만료",
+  "slug": "계약만료",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "계약만료",
+  "exportName": "실업급여계약만료SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\계약만료.tsx",
+  "title": "계약만료도 실업급여 받을 수 있나요? 코드부터 서류까지",
+  "subs": [
+    "실업급여 계약만료",
+    "실업급여 계약만료 코드",
+    "실업급여 계약만료 서류",
+    "실업급여 계약만료 자진퇴사"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T03:44:25.430Z"
+}

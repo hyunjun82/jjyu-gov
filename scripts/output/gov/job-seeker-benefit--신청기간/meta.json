@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--신청기간",
+  "slug": "신청기간",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "신청기간",
+  "exportName": "실업급여신청기간SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\신청기간.tsx",
+  "title": "퇴사 후 실업급여 신청기간은 언제까지인가요? 기한부터 놓쳤을 때까지",
+  "subs": [
+    "퇴사후 실업급여 신청기간",
+    "실업급여 신청기간 놓치면",
+    "실업급여 신청기간 해외",
+    "실업급여 신청기간 14일"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T03:10:49.338Z"
+}

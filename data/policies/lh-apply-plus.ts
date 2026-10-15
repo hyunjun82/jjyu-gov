@@ -200,4 +200,7 @@ export const lhApplyPlusPolicy = {
   related: ['public-housing-asset-test', 'college-student-housing'],
 };
 
-export const lhApplyPlusSpokes: never[] = [];
+export const lhApplyPlusSpokes = [
+  { slug: '서류제출대상자', role: 'guide', title: 'LH 서류제출대상자는 당첨인가요? 뜻부터 확인 방법, 제출까지' },
+  { slug: '당첨자발표조회', role: 'guide', title: 'LH 당첨자 발표는 어디서 조회하나요? 결과 확인부터 예비자 순번까지' },
+];

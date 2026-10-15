@@ -1,0 +1,40 @@
+[
+  {
+    "n": 1,
+    "url": "https://online.kepco.co.kr/MIM021D00",
+    "finalUrl": "https://online.kepco.co.kr/MIM021D00",
+    "title": "한전ON | 복지할인 안내",
+    "file": "src-1.txt",
+    "chars": 2880,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://home.kepco.co.kr",
+    "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  },
+  {
+    "n": 3,
+    "url": "https://www.gov.kr/portal/service/serviceInfo/174100000049",
+    "finalUrl": "https://www.gov.kr/mbuster/Mbuster_T.html",
+    "title": "",
+    "file": "src-3.txt",
+    "chars": 88,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://online.kepco.co.kr/MIM021D00",
+    "finalUrl": "https://online.kepco.co.kr/MIM021D00",
+    "title": "한전ON | 복지할인 안내",
+    "file": "src-4.txt",
+    "chars": 2880,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "lh-apply-plus--서류제출대상자",
+  "slug": "서류제출대상자",
+  "hub": "lh-apply-plus",
+  "dir": "LH청약플러스",
+  "fileName": "서류제출대상자",
+  "exportName": "LH청약플러스서류제출대상자SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\LH청약플러스\\서류제출대상자.tsx",
+  "title": "LH 서류제출대상자는 당첨인가요? 뜻부터 확인 방법, 제출까지",
+  "subs": [
+    "LH 서류제출대상자 뜻",
+    "LH 서류제출대상자 확인",
+    "LH 서류제출대상자 발표",
+    "LH 청약플러스 서류제출 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-14T22:59:52.814Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--unemployment-condition-180days",
+  "slug": "unemployment-condition-180days",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "UnemploymentCondition180days",
+  "exportName": "실업급여UnemploymentCondition180daysSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\UnemploymentCondition180days.tsx",
+  "title": "실업급여 조건 180일, 근무일수 계산과 합산 방법",
+  "subs": [
+    "실업급여 조건은 어떻게 되나요?",
+    "피보험기간 180일은 어떻게 채우나요?",
+    "근무일수는 어떻게 계산하나요?",
+    "여러 직장 합산기간도 인정되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-08T11:12:23.592Z"
+}

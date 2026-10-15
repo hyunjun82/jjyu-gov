@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "electric-welfare-discount--대상자격",
+  "slug": "대상자격",
+  "hub": "electric-welfare-discount",
+  "dir": "전기요금복지할인",
+  "fileName": "대상자격",
+  "exportName": "전기요금복지할인대상자격SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\전기요금복지할인\\대상자격.tsx",
+  "title": "전기요금 복지할인 대상은 누구인가요? 장애인부터 다자녀까지",
+  "subs": [
+    "전기요금 복지할인 대상",
+    "전기요금 복지할인 장애인",
+    "전기요금 감면 대상자",
+    "전기요금 복지할인 다자녀"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T01:37:56.294Z"
+}

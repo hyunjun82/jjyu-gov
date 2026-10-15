@@ -1,0 +1,45 @@
+[
+  {
+    "n": 1,
+    "url": "https://online.kepco.co.kr/MIM021D00",
+    "finalUrl": "https://online.kepco.co.kr/MIM021D00",
+    "title": "한전ON | 복지할인 안내",
+    "file": "src-1.txt",
+    "chars": 2880,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.energyv.or.kr/info/support_info.do",
+    "finalUrl": "https://www.energyv.or.kr/info/support_info.do",
+    "title": "에너지바우처란? > 에너지바우처 안내 > 에너지바우처 | 에너지바우처",
+    "file": "src-2.txt",
+    "chars": 3492,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "과학기술정보통신부 WA(WEB접근성) 품질인증 마크 웹와치(WebWatch) 2026.08.26 ~ 2027.08.25"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://home.kepco.co.kr",
+    "error": "page.waitForLoadState: Timeout 30000ms exceeded."
+  },
+  {
+    "n": 4,
+    "url": "https://online.kepco.co.kr/MIM021D00",
+    "finalUrl": "https://online.kepco.co.kr/MIM021D00",
+    "title": "한전ON | 복지할인 안내",
+    "file": "src-4.txt",
+    "chars": 2880,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

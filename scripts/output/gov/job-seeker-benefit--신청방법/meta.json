@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--신청방법",
+  "slug": "신청방법",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "신청방법",
+  "exportName": "실업급여신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\신청방법.tsx",
+  "title": "실업급여 신청방법은 어떻게 되나요? 준비물부터 절차, 서류까지",
+  "subs": [
+    "실업급여 신청방법",
+    "실업급여 신청 준비물",
+    "실업급여 신청절차",
+    "실업급여 신청서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T03:02:57.786Z"
+}

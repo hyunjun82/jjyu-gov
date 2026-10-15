@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "electric-welfare-discount--할인금액",
+  "slug": "할인금액",
+  "hub": "electric-welfare-discount",
+  "dir": "전기요금복지할인",
+  "fileName": "할인금액",
+  "exportName": "전기요금복지할인할인금액SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\전기요금복지할인\\할인금액.tsx",
+  "title": "전기요금 복지할인은 얼마나 깎아 주나요? 금액부터 기간까지",
+  "subs": [
+    "전기요금 복지할인 금액",
+    "전기요금 복지할인 기간",
+    "전기요금 복지할인 가구",
+    "전기요금 감면 이사"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T01:48:30.279Z"
+}

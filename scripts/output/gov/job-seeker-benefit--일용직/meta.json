@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--일용직",
+  "slug": "일용직",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "일용직",
+  "exportName": "실업급여일용직SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\일용직.tsx",
+  "title": "일용직도 실업급여 받을 수 있나요? 조건부터 금액까지",
+  "subs": [
+    "실업급여 일용직",
+    "실업급여 일용직 조건",
+    "실업급여 일용직 90일",
+    "실업급여 일용직 금액"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T04:07:35.081Z"
+}

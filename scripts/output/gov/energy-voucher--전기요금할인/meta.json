@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-voucher--전기요금할인",
+  "slug": "전기요금할인",
+  "hub": "energy-voucher",
+  "dir": "에너지바우처",
+  "fileName": "전기요금할인",
+  "exportName": "에너지바우처전기할인SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지바우처\\전기요금할인.tsx",
+  "title": "에너지바우처와 전기요금 복지할인은 같이 받나요? 중복부터 차감까지",
+  "subs": [
+    "에너지바우처 전기요금 차감",
+    "에너지바우처 복지할인",
+    "전기요금 복지할인 중복",
+    "에너지바우처 전기요금 내는법"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T01:04:17.593Z"
+}

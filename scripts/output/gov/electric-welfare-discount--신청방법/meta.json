@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "electric-welfare-discount--신청방법",
+  "slug": "신청방법",
+  "hub": "electric-welfare-discount",
+  "dir": "전기요금복지할인",
+  "fileName": "신청방법",
+  "exportName": "전기요금복지할인신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\전기요금복지할인\\신청방법.tsx",
+  "title": "전기요금 감면은 어떻게 받나요? 신청 방법부터 고객번호까지",
+  "subs": [
+    "전기요금 감면 신청 방법",
+    "전기요금 감면 신청 확인방법",
+    "전기요금 감면 고객번호",
+    "전기요금 할인 신청서"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T01:56:58.766Z"
+}

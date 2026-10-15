@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18736",
+    "finalUrl": "https://www.moel.go.kr/news/enews/report/enewsView.do?news_seq=18736",
+    "title": "「고용보험법」 시행령 등 일부개정령안국무회의 심의·의결 | 고용노동부 > 뉴스·소식 > 보도·설명 > 보도자료",
+    "file": "src-1.txt",
+    "chars": 4009,
+    "tables": 4,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000387",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000387",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>",
+    "file": "src-2.txt",
+    "chars": 11061,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.law.go.kr/법령/고용보험법",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95",
+    "title": "고용보험법",
+    "file": "src-3.txt",
+    "chars": 96249,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000387",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000387",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>",
+    "file": "src-4.txt",
+    "chars": 11061,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

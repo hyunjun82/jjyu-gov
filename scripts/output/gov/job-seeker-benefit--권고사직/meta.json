@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--권고사직",
+  "slug": "권고사직",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "권고사직",
+  "exportName": "실업급여권고사직SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\권고사직.tsx",
+  "title": "권고사직도 실업급여 받을 수 있나요? 조건부터 서류까지",
+  "subs": [
+    "실업급여 권고사직 조건",
+    "실업급여 권고사직 코드",
+    "실업급여 권고사직 사유",
+    "실업급여 권고사직 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T03:34:59.796Z"
+}

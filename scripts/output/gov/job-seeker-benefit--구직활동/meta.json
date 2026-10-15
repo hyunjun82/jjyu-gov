@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--구직활동",
+  "slug": "구직활동",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "구직활동",
+  "exportName": "실업급여구직활동SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\구직활동.tsx",
+  "title": "실업급여 구직활동은 어떻게 인정받나요? 방법부터 제출까지",
+  "subs": [
+    "실업급여 구직활동 인정",
+    "실업급여 구직활동 방법",
+    "실업급여 구직활동 제출 방법",
+    "실업급여 구직활동 4차"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T03:18:26.805Z"
+}
