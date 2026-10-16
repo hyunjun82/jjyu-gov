@@ -67,7 +67,7 @@ source: https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&c
 source: https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=1&cnpClsNo=2
 source: https://total.comwel.or.kr/
 button: https://total.comwel.or.kr/
-cta: ☞ 간병급여 청구하기
+cta: ☞ 간병급여 신청하기
 ---
 slug: survivor-benefit-funeral-expense
 file: 유족급여
