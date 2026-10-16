@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--수급자격",
+  "slug": "수급자격",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "수급자격",
+  "exportName": "실업급여수급자격SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\수급자격.tsx",
+  "title": "실업급여 수급자격은 어떻게 확인하나요? 신청서부터 온라인 교육까지",
+  "subs": [
+    "실업급여 수급자격 신청서",
+    "실업급여 수급자격 확인",
+    "실업급여 수급자격 신청",
+    "실업급여 수급자격 온라인 교육"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T09:00:22.860Z"
+}

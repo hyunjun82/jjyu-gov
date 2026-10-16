@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--건보국민연금",
+  "slug": "건보국민연금",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "건보국민연금",
+  "exportName": "실업급여건보연금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\건보국민연금.tsx",
+  "title": "실업급여 받는 동안 건강보험료는 어떻게 되나요? 감면부터 피부양자까지",
+  "subs": [
+    "실업급여 건강보험료 감면",
+    "실업급여 건강보험료 납부",
+    "실업급여 건강보험료 유예",
+    "실업급여 건강보험료 피부양자"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T12:05:15.081Z"
+}

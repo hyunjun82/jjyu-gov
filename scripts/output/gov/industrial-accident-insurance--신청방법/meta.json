@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--신청방법",
+  "slug": "신청방법",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "신청방법",
+  "exportName": "산재신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\신청방법.tsx",
+  "title": "산재보험 신청방법과 서류 온라인 접수까지",
+  "subs": [
+    "산재 신청 방법",
+    "산재 신청 방법 서류",
+    "산재 신청 방법 병원",
+    "산재 신청 방법 온라인"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T05:43:30.252Z"
+}

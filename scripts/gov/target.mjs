@@ -82,7 +82,9 @@ export function wireSpoke(t, { title, role = 'guide' }) {
   let reg = fs.readFileSync(REG, 'utf8');
   const nl = reg.includes('\r\n') ? '\r\n' : '\n';
   const imp = `import { ${t.exportName} } from '@/app/policy/[id]/[spoke]/content/${t.dir}/${t.fileName}';`;
-  if (!reg.includes(imp)) {
+  // 기존 import 는 '{ 이름 }    from' 처럼 공백이 다를 수 있다 — 같은 이름·같은 파일이면 있는 것으로 본다 (2026-10-15 재수급 중복 import 로 dev 500)
+  const impRe = new RegExp(String.raw`^import \{\s*${t.exportName}\s*\}\s+from\s+'@/app/policy/\[id\]/\[spoke\]/content/${t.dir}/${t.fileName}';`, 'm');
+  if (!impRe.test(reg)) {
     const lastImport = [...reg.matchAll(/^import .*;\r?$/gm)].pop();
     if (!lastImport) throw new Error('registry.ts 에 import 줄이 없다');
     const at = lastImport.index + lastImport[0].length;

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--알바단기",
+  "slug": "알바단기",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "알바단기",
+  "exportName": "알바단기SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\알바단기.tsx",
+  "title": "실업급여 받으면서 알바해도 되나요? 조건부터 신고까지",
+  "subs": [
+    "실업급여 알바 조건",
+    "실업급여 알바 현금",
+    "실업급여 알바몬",
+    "실업급여 알바 신고"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T08:52:18.469Z"
+}

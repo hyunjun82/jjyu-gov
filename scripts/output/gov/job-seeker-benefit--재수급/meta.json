@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--재수급",
+  "slug": "재수급",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "재수급",
+  "exportName": "재수급SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\재수급.tsx",
+  "title": "실업급여 재수급은 언제 가능한가요? 기준부터 신청까지",
+  "subs": [
+    "실업급여 재수급 기준",
+    "실업급여 재수급 기간",
+    "실업급여 재수급 3년",
+    "실업급여 재수급 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T08:44:40.390Z"
+}

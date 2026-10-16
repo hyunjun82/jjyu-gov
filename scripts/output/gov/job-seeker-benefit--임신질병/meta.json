@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--임신질병",
+  "slug": "임신질병",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "임신질병",
+  "exportName": "실업급여임신질병SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\임신질병.tsx",
+  "title": "임신하면 실업급여를 받을 수 있나요? 자진퇴사부터 수급 연장까지",
+  "subs": [
+    "실업급여 임신 자진퇴사",
+    "실업급여 임신 퇴사",
+    "실업급여 임신 연기",
+    "실업급여 임신 연장"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T09:26:53.420Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--세금",
+  "slug": "세금",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "세금",
+  "exportName": "실업급여세금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\세금.tsx",
+  "title": "실업급여에도 세금을 떼나요? 공제부터 신고까지",
+  "subs": [
+    "실업급여 세금 공제",
+    "실업급여 세금 떼나요",
+    "실업급여 세금 내나요",
+    "실업급여 세금 신고"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T10:55:25.764Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--소정급여일수",
+  "slug": "소정급여일수",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "소정급여일수",
+  "exportName": "실업급여소정일수SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\소정급여일수.tsx",
+  "title": "실업급여 소정급여일수 계산, 150일·180일 기준과 만료일",
+  "subs": [
+    "실업급여 소정급여일수 계산",
+    "실업급여 소정급여일수 150일",
+    "실업급여 소정급여일수 180일",
+    "실업급여 소정급여일수 만료일"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T09:16:21.290Z"
+}

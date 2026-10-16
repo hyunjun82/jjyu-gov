@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=1&cnpClsNo=2",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=1&cciNo=1&cnpClsNo=2",
+    "title": "산업재해보상보험Ⅱ(보험급여) > 산업재해보상보험 알아보기 > 산업재해보상 보험의 개념 및 종류 등 > 산업재해보상 보험급여의 종류 알아보기 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-1.txt",
+    "chars": 5294,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=2&cnpClsNo=2",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=570&ccfNo=1&cciNo=2&cnpClsNo=2",
+    "title": "산업재해보상보험Ⅰ(업무상 재해) > 산업재해보상보험 알아보기 > 업무상 재해와 산업재해보상 보험급여 > 산업재해보상 보험급여 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 7439,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://total.comwel.or.kr/",
+    "finalUrl": "https://total.comwel.or.kr/",
+    "title": "근로복지공단 고용·산재보험 토탈서비스(WEB)",
+    "file": "src-3.txt",
+    "chars": 977,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://total.comwel.or.kr/",
+    "finalUrl": "https://total.comwel.or.kr/",
+    "title": "근로복지공단 고용·산재보험 토탈서비스(WEB)",
+    "file": "src-4.txt",
+    "chars": 977,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

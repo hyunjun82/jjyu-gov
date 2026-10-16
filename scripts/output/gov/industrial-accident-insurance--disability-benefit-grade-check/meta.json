@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--disability-benefit-grade-check",
+  "slug": "disability-benefit-grade-check",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "장해급여",
+  "exportName": "산재장해급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\장해급여.tsx",
+  "title": "산재 장해급여 등급별 금액과 처리기간, 신청하는 법",
+  "subs": [
+    "산재 장해급여 등급",
+    "산재 장해급여 금액",
+    "산재 장해급여 처리기간",
+    "산재 장해급여 신청하는법"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T05:55:55.981Z"
+}

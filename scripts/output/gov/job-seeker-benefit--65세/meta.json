@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--65세",
+  "slug": "65세",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "65세",
+  "exportName": "실업급여65세SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\65세.tsx",
+  "title": "65세 이상도 실업급여를 받을 수 있나요? 조건부터 구직활동까지",
+  "subs": [
+    "실업급여 65세 조건",
+    "실업급여 65세 이상",
+    "실업급여 65세 이상 신청",
+    "실업급여 65세 구직활동"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T11:37:36.951Z"
+}

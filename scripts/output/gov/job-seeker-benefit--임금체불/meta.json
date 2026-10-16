@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--임금체불",
+  "slug": "임금체불",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "임금체불",
+  "exportName": "실업급여임금체불SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\임금체불.tsx",
+  "title": "임금체불로 퇴사하면 실업급여를 받나요? 조건부터 서류까지",
+  "subs": [
+    "실업급여 임금체불 조건",
+    "실업급여 임금체불 확인서",
+    "실업급여 임금체불 60일",
+    "실업급여 임금체불 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T23:14:42.512Z"
+}

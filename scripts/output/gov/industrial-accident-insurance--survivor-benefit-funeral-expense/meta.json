@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--survivor-benefit-funeral-expense",
+  "slug": "survivor-benefit-funeral-expense",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "유족급여",
+  "exportName": "산재유족급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\유족급여.tsx",
+  "title": "산재 유족급여는 얼마나 나오나요? 금액부터 장례비까지",
+  "subs": [
+    "산재 유족급여 금액",
+    "산재 유족급여 계산",
+    "산재 유족급여 신청",
+    "산재 장례비"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T06:11:47.687Z"
+}

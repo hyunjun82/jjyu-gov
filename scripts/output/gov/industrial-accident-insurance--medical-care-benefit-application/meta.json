@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--medical-care-benefit-application",
+  "slug": "medical-care-benefit-application",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "요양급여",
+  "exportName": "산재요양급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\요양급여.tsx",
+  "title": "산재 요양급여 신청서는 어떻게 쓰나요? 양식부터 승인까지",
+  "subs": [
+    "산재 요양급여 신청서 양식",
+    "산재 요양급여 신청서 쓰는방법",
+    "산재 요양급여 신청서 예시",
+    "산재 요양급여 신청서 승인"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T06:33:08.162Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--상병급여",
+  "slug": "상병급여",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "상병급여",
+  "exportName": "실업급여상병급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\상병급여.tsx",
+  "title": "실업급여 상병급여, 출산 때 금액과 신청 서류",
+  "subs": [
+    "실업급여 상병급여 출산",
+    "실업급여 상병급여 금액",
+    "실업급여 상병급여 신청",
+    "실업급여 상병급여 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T12:14:44.192Z"
+}

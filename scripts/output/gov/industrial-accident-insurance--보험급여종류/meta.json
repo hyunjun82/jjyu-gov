@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--보험급여종류",
+  "slug": "보험급여종류",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "보험급여종류",
+  "exportName": "산재보험급여종류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\보험급여종류.tsx",
+  "title": "산재 보험급여에는 어떤 종류가 있나요? 요양급여부터 유족급여까지",
+  "subs": [
+    "산재 보험급여 종류",
+    "산재 요양급여",
+    "산재 휴업급여",
+    "산재 유족급여"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T06:25:59.845Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--실업크레딧",
+  "slug": "실업크레딧",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "실업크레딧",
+  "exportName": "실업급여실업크레딧SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\실업크레딧.tsx",
+  "title": "실업크레딧이란? 신청부터 보험료 납부까지",
+  "subs": [
+    "실업크레딧 신청",
+    "실업크레딧 해지",
+    "실업크레딧 보험료",
+    "실업크레딧 납부"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T23:29:58.393Z"
+}

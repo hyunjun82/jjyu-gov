@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--자영업자",
+  "slug": "자영업자",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "자영업자",
+  "exportName": "실업급여자영업자SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\자영업자.tsx",
+  "title": "자영업자 실업급여는 폐업하면 받을 수 있나요? 조건부터 신청 서류까지",
+  "subs": [
+    "자영업자 실업급여 조건",
+    "자영업자 실업급여 신청",
+    "자영업자 실업급여 기간",
+    "자영업자 실업급여 신청 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T11:28:18.872Z"
+}

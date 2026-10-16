@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=1",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=1",
+    "title": "산업재해보상보험Ⅱ(보험급여) > 보험급여 결정 등에 대한 불복절차 > 심사 청구 및 재심사 청구 > 심사 청구 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-1.txt",
+    "chars": 5960,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=2",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=2",
+    "title": "심사 청구 및 재심사 청구 < 산업재해보상보험Ⅱ(보험급여)",
+    "file": "src-2.txt",
+    "chars": 4849,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://total.comwel.or.kr/",
+    "finalUrl": "https://total.comwel.or.kr/",
+    "title": "근로복지공단 고용·산재보험 토탈서비스(WEB)",
+    "file": "src-3.txt",
+    "chars": 977,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=1",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=9&cciNo=1&cnpClsNo=1",
+    "title": "산업재해보상보험Ⅱ(보험급여) > 보험급여 결정 등에 대한 불복절차 > 심사 청구 및 재심사 청구 > 심사 청구 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-4.txt",
+    "chars": 5960,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

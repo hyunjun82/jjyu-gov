@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--조기재취업",
+  "slug": "조기재취업",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "조기재취업",
+  "exportName": "실업급여조기재취업SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\조기재취업.tsx",
+  "title": "조기재취업수당 조건과 금액, 서류와 신청",
+  "subs": [
+    "조기재취업수당 조건",
+    "조기재취업수당 금액",
+    "조기재취업수당 서류",
+    "조기재취업수당 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T11:18:57.278Z"
+}

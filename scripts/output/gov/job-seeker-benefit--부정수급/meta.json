@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--부정수급",
+  "slug": "부정수급",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "부정수급",
+  "exportName": "실업급여부정수급SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\부정수급.tsx",
+  "title": "실업급여 부정수급이 적발되면 어떻게 되나요? 조사부터 자진신고까지",
+  "subs": [
+    "실업급여 부정수급 조사",
+    "실업급여 부정수급 신고",
+    "실업급여 부정수급 처벌",
+    "실업급여 부정수급 자진신고"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T09:34:44.402Z"
+}

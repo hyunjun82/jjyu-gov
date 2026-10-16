@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--해외여행",
+  "slug": "해외여행",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "해외여행",
+  "exportName": "실업급여해외여행SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\해외여행.tsx",
+  "title": "실업급여 받는 중 해외여행 가도 되나요? 신고부터 날짜 변경까지",
+  "subs": [
+    "실업급여 해외여행 신고",
+    "실업급여 해외여행 2주",
+    "실업급여 해외여행 한달",
+    "실업급여 해외여행 날짜변경"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T12:22:05.555Z"
+}

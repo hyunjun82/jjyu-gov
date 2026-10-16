@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--예술인특고",
+  "slug": "예술인특고",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "예술인특고",
+  "exportName": "실업급여예술인SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\예술인특고.tsx",
+  "title": "예술인 실업급여 조건과 금액, 신청방법",
+  "subs": [
+    "예술인 실업급여 조건",
+    "예술인 실업급여 금액",
+    "예술인 실업급여 신청방법",
+    "예술인 실업급여 구직활동"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T11:55:23.158Z"
+}

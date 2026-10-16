@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--review-request-procedure",
+  "slug": "review-request-procedure",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "불복절차",
+  "exportName": "산재불복절차SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\불복절차.tsx",
+  "title": "산재 불승인, 이의제기는 재심사와 심사청구 중 뭘 해야 하나요?",
+  "subs": [
+    "산재 불승인 사유",
+    "산재 불승인 이의제기",
+    "산재 불승인 재심사",
+    "산재 불승인 심사청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T06:18:57.663Z"
+}

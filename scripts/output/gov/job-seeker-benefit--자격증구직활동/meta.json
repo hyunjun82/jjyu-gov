@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "job-seeker-benefit--자격증구직활동",
+  "slug": "자격증구직활동",
+  "hub": "job-seeker-benefit",
+  "dir": "실업급여",
+  "fileName": "자격증구직활동",
+  "exportName": "실업급여자격증구직활동SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\실업급여\\자격증구직활동.tsx",
+  "title": "자격증 시험도 실업급여 구직활동으로 인정되나요? 취득부터 응시확인서까지",
+  "subs": [
+    "실업급여 자격증 취득",
+    "실업급여 자격증 인정",
+    "실업급여 자격증 시험 인정",
+    "실업급여 자격증 응시확인서"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T08:33:51.480Z"
+}

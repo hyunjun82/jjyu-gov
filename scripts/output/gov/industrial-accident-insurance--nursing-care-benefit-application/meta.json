@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--nursing-care-benefit-application",
+  "slug": "nursing-care-benefit-application",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "간병급여",
+  "exportName": "산재간병급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\간병급여.tsx",
+  "title": "산재 간병급여는 어떻게 청구하고 금액은 얼마인가요?",
+  "subs": [
+    "산재 간병급여 신청",
+    "산재 간병급여 청구 방법",
+    "산재 간병급여",
+    "산재 간병급여 금액"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T06:03:47.008Z"
+}

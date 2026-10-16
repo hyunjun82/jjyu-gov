@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--휴업급여",
+  "slug": "휴업급여",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "휴업급여",
+  "exportName": "산재휴업급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\휴업급여.tsx",
+  "title": "산재 휴업급여는 언제 받나요? 지급일부터 신청방법까지",
+  "subs": [
+    "산재 휴업급여 지급일",
+    "산재 휴업급여 기간",
+    "산재 휴업급여 계산",
+    "산재 휴업급여 신청방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-15T05:35:22.899Z"
+}
