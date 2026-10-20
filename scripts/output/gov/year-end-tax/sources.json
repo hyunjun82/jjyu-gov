@@ -1,0 +1,73 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6646&cntntsId=7706",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6646&cntntsId=7706",
+    "title": "국세청>국세신고안내>법인신고안내>연말정산>편리한 연말정산 이용방법",
+    "file": "src-1.txt",
+    "chars": 1861,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7870",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7870",
+    "title": "국세청>국세신고안내>법인신고안내>연말정산>편리한 연말정산 이용방법",
+    "file": "src-2.txt",
+    "chars": 1251,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2304&cntntsId=238938",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2304&cntntsId=238938",
+    "title": "국세청>국세신고안내>개인신고안내>연말정산>연말정산 종합 안내",
+    "file": "src-3.txt",
+    "chars": 1359,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2303&cntntsId=7702",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2303&cntntsId=7702",
+    "title": "국세청>국세신고안내>개인신고안내>연말정산",
+    "file": "src-4.txt",
+    "chars": 1320,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.hometax.go.kr/ui/pp/yrs_index.html",
+    "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  },
+  {
+    "n": 6,
+    "url": "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&bbsId=1028&nttSn=1347979",
+    "finalUrl": "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&bbsId=1028&nttSn=1347979",
+    "title": "｢연말정산 간소화 서비스｣, 1월 15일(목) 개통합니다. | 국세청>알림·소식>보도자료",
+    "file": "src-6.txt",
+    "chars": 17853,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6646&cntntsId=7706",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6646&cntntsId=7706",
+    "title": "국세청>국세신고안내>법인신고안내>연말정산>편리한 연말정산 이용방법",
+    "file": "src-7.txt",
+    "chars": 1861,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

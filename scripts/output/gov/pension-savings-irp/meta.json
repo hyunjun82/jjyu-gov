@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "pension-savings-irp",
+  "slug": "pension-savings-irp",
+  "file": "data\\policies\\pension-savings-irp.ts",
+  "title": "연금저축은 연말정산에서 얼마까지 공제되나요? 한도부터 IRP까지",
+  "subs": [
+    "연말정산 연금저축 한도",
+    "연말정산 연금저축 세액공제",
+    "연말정산 연금저축 펀드",
+    "연말정산 연금저축 IRP"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T01:29:19.158Z"
+}

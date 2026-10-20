@@ -16,7 +16,7 @@
     "finalUrl": "https://m.work24.go.kr/cm/main.do",
     "title": "고용24",
     "file": "src-2.txt",
-    "chars": 2401,
+    "chars": 2380,
     "tables": 0,
     "images": [],
     "primary": true
@@ -27,7 +27,7 @@
     "finalUrl": "https://www.moel.go.kr/index.do",
     "title": "고용노동부",
     "file": "src-3.txt",
-    "chars": 10124,
+    "chars": 10177,
     "tables": 0,
     "images": [
       {
@@ -43,46 +43,44 @@
   },
   {
     "n": 4,
-    "url": "https://www.nhis.or.kr",
-    "finalUrl": "https://www.nhis.or.kr/nhis/index.do",
-    "title": "국민건강보험",
+    "url": "https://www.nhis.or.kr/nhis/policy/wbhada05500m01.do",
+    "finalUrl": "https://www.nhis.or.kr/nhis/policy/wbhada05500m01.do",
+    "title": "임의계속가입자 가입안내 < 직장가입자 < 자격취득/가입 < 자격 < 국민건강보험 < 정책센터 | 국민건강보험",
     "file": "src-4.txt",
-    "chars": 4600,
+    "chars": 3686,
     "tables": 0,
     "images": [],
     "primary": true
   },
   {
     "n": 5,
-    "url": "https://www.nps.or.kr",
-    "finalUrl": "https://www.nps.or.kr/gate.do",
-    "title": "국민연금공단",
+    "url": "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946887",
+    "finalUrl": "https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946887",
+    "title": "피부양자 자격취득 | 국민건강보험",
     "file": "src-5.txt",
-    "chars": 375,
-    "tables": 0,
-    "images": [
-      {
-        "file": "img-5-1.png",
-        "alt": ""
-      },
-      {
-        "file": "img-5-2.png",
-        "alt": "국민이 주인인 연금에서"
-      },
-      {
-        "file": "img-5-3.png",
-        "alt": "모두가 누리는 연금으로"
-      }
-    ],
+    "chars": 8888,
+    "tables": 3,
+    "images": [],
     "primary": true
   },
   {
     "n": 6,
-    "url": "https://www.nhis.or.kr",
-    "finalUrl": "https://www.nhis.or.kr/nhis/index.do",
-    "title": "국민건강보험",
+    "url": "https://www.law.go.kr/법령/국민건강보험법",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AD%EB%AF%BC%EA%B1%B4%EA%B0%95%EB%B3%B4%ED%97%98%EB%B2%95",
+    "title": "국민건강보험법",
     "file": "src-6.txt",
-    "chars": 4600,
+    "chars": 106535,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.nhis.or.kr/nhis/policy/wbhada05500m01.do",
+    "finalUrl": "https://www.nhis.or.kr/nhis/policy/wbhada05500m01.do",
+    "title": "임의계속가입자 가입안내 < 직장가입자 < 자격취득/가입 < 자격 < 국민건강보험 < 정책센터 | 국민건강보험",
+    "file": "src-7.txt",
+    "chars": 3686,
     "tables": 0,
     "images": [],
     "primary": true

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--일정절차",
+  "slug": "일정절차",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "일정절차",
+  "exportName": "연말정산일정절차SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\일정절차.tsx",
+  "title": "연말정산은 언제까지 하나요? 1월 일정부터 회사 기간까지",
+  "subs": [
+    "연말정산 기간 1월",
+    "연말정산 기간 2월",
+    "연말정산 기간 놓치면",
+    "연말정산 기간 회사"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T01:29:18.964Z"
+}

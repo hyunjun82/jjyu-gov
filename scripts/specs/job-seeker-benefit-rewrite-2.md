@@ -206,15 +206,16 @@ export: 실업급여건보연금SpokeContent
 title: 실업급여 받는 동안 건강보험료는 어떻게 되나요? 감면부터 피부양자까지
 sub: 실업급여 건강보험료 감면
 sub: 실업급여 건강보험료 납부
-sub: 실업급여 건강보험료 유예
+sub: 실업급여 건강보험 상실
 sub: 실업급여 건강보험료 피부양자
 source: https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000387
 source: https://www.ei.go.kr
 source: https://www.moel.go.kr
-source: https://www.nhis.or.kr
-source: https://www.nps.or.kr
-button: https://www.nhis.or.kr
-cta: ☞ 건강보험료 조회하기
+source: https://www.nhis.or.kr/nhis/policy/wbhada05500m01.do
+source: https://www.nhis.or.kr/nhis/minwon/wbhapa01000m01.do?mode=view&articleNo=10946887
+source: https://www.law.go.kr/법령/국민건강보험법
+button: https://www.nhis.or.kr/nhis/policy/wbhada05500m01.do
+cta: ☞ 임의계속가입 방법 확인하기
 ---
 slug: 상병급여
 file: 상병급여

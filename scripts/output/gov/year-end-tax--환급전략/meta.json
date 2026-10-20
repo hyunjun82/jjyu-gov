@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--환급전략",
+  "slug": "환급전략",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "환급전략",
+  "exportName": "연말정산환급전략SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\환급전략.tsx",
+  "title": "연말정산 몰아주기는 누구에게 하나요? 카드부터 부부합산까지",
+  "subs": [
+    "연말정산 카드 몰아주기",
+    "연말정산 의료비 몰아주기 하는법",
+    "연말정산 맞벌이 절세방법",
+    "연말정산 부부합산 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T01:29:19.058Z"
+}

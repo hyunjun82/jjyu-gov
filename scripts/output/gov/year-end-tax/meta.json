@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "year-end-tax",
+  "slug": "year-end-tax",
+  "file": "data\\policies\\year-end-tax.ts",
+  "title": "연말정산은 어떻게 하나요? 준비부터 서류 제출까지",
+  "subs": [
+    "연말정산 준비 방법",
+    "연말정산 서류 종류",
+    "연말정산 홈택스 로그인 방법",
+    "연말정산 서류 제출 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T01:42:49.820Z"
+}

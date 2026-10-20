@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--간소화서비스",
+  "slug": "간소화서비스",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "간소화서비스",
+  "exportName": "연말정산간소화서비스SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\간소화서비스.tsx",
+  "title": "연말정산 간소화 자료는 어디서 보나요? 조회부터 일괄제공까지",
+  "subs": [
+    "연말정산 간소화 자료 조회",
+    "연말정산 간소화 자료 제공 동의",
+    "연말정산 간소화 조회 기간",
+    "연말정산 간소화 일괄제공"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T01:29:18.984Z"
+}

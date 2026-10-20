@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "year-end-tax-settlement",
+  "slug": "year-end-tax-settlement",
+  "file": "data\\policies\\year-end-tax-settlement.ts",
+  "title": "연말정산 미리보기 기간과 오픈 시기, 홈택스 이용 방법",
+  "subs": [
+    "연말정산 미리보기 기간",
+    "연말정산 미리보기 오픈",
+    "연말정산 미리보기 방법",
+    "홈택스 연말정산 미리보기"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T01:29:19.123Z"
+}

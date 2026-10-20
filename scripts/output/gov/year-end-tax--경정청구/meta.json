@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--경정청구",
+  "slug": "경정청구",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "경정청구",
+  "exportName": "연말정산경정청구SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\경정청구.tsx",
+  "title": "연말정산 경정청구는 어떻게 하나요? 방법부터 처리기간까지",
+  "subs": [
+    "연말정산 경정청구 방법",
+    "연말정산 경정청구 서류",
+    "연말정산 경정청구 조회",
+    "연말정산 경정청구 처리기간"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T01:29:19.094Z"
+}
