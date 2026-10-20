@@ -65,6 +65,9 @@ export interface SpokeData {
      문구는 반드시 이 데이터에서만 받는다 — 코드에 문장을 박으면 전 스포크가 같아진다. */
   heroHook?: string;
   heroAct?: { label: string; href?: string };
+  /* 두 번째 상단 버튼(선택). 허브의 applyUrl2·ctaLabel2 와 같은 자리 — 본론 버튼 하나 뒤에
+     계산기 같은 보조 목적지를 둘 때만 데이터에서 준다. 없으면 아무것도 그리지 않는다. */
+  heroAct2?: { label: string; href: string };
   /* 보험사 고객센터 전용 화면 — 있으면 CallCenterPage 로 그린다.
      글(위 필드들)은 그대로 두고 화면만 갈아끼운다. 게이트는 예전처럼 심판한다. */
   callCenter?: CallCenterData;
@@ -347,6 +350,11 @@ export default function SpokeClient({
                 <Link href={spoke.heroAct.href || `/policy/${policyId}#eligibility`} className="btn-cta">
                   {spoke.heroAct.label}
                 </Link>
+                {spoke.heroAct2 && (
+                  <Link href={spoke.heroAct2.href} className="btn-cta" style={{ marginTop: 10 }}>
+                    {spoke.heroAct2.label}
+                  </Link>
+                )}
               </div>
             )}
 

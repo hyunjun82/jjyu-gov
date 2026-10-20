@@ -1,0 +1,16 @@
+const out = [];
+const M = 1_000_000;
+const row = (id, r) => out.push({ id, salary: 40 * M, medical: [{ general: 10 * M }, r] });
+row('i9-1', { general: 2 * M, special: 2 * M, infertility: 2 * M, premature: 2 * M, insurance: 1 * M });
+row('i9-2', { general: 2 * M, special: 2 * M, infertility: 2 * M, premature: 2 * M, insurance: 3 * M });
+row('i9-3', { general: 2 * M, special: 2 * M, infertility: 2 * M, premature: 2 * M, insurance: 5 * M });
+row('i9-4', { general: 2 * M, special: 2 * M, infertility: 2 * M, premature: 2 * M, insurance: 7 * M });
+row('i9-5', { general: 2 * M, infertility: 2 * M, insurance: 1 * M });
+row('i9-6', { general: 2 * M, special: 2 * M, insurance: 1 * M });
+row('i9-7', { special: 2 * M, infertility: 2 * M, insurance: 1 * M });
+row('i9-8', { special: 2 * M, premature: 2 * M, insurance: 1 * M });
+row('i9-9', { general: 2 * M, premature: 2 * M, insurance: 1 * M });
+row('i9-10', { infertility: 2 * M, premature: 2 * M, insurance: 1 * M });
+row('i9-11', { general: 2 * M, special: 2 * M, insurance: 3 * M });
+row('i9-12', { infertility: 2 * M, special: 2 * M, general: 2 * M, insurance: 3 * M });
+console.log(JSON.stringify(out));

@@ -38,6 +38,8 @@ export const yearEndTaxPolicy = {
   cardLayout: 'act-first' as const,
   applyUrl: GUIDE,
   ctaLabel: '☞ 연말정산 방법 확인하기',
+  applyUrl2: '/calc/year-end-tax/',
+  ctaLabel2: '☞ 연말정산 모의계산하기',
   heroHook:
     '연말정산은 홈택스에서 간소화 자료를 받아 회사에 내는 순서로 진행됩니다. 최종 확정자료는 1월 20일부터 나오는데요, 다만 이 자료를 출력해 낼지 파일로 올릴지는 회사마다 달라요. 내 회사가 받는 연말정산 방법이 어느 쪽인지 확인하러 가세요. 준비부터 서류 제출까지 차례로 알아보겠습니다.',
   datePublished: '2026-06-28T09:00:00+09:00', dateModified: '2026-10-20T10:00:00+09:00',

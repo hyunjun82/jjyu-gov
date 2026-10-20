@@ -1,0 +1,16 @@
+const out = [];
+const M = 100_000;
+const m = (id, rows, salary = 50_000_000) => out.push({ id, salary, medical: rows });
+m('r11-1', [{ premature: 30 * M }]);
+m('r11-2', [{ general: 5 * M, premature: 30 * M }]);
+m('r11-3', [{ general: 10 * M, premature: 30 * M }]);
+m('r11-4', [{}, {}, { premature: 30 * M }]);
+m('r11-5', [{ general: 5 * M }, {}, { premature: 30 * M }]);
+m('r11-6', [{ premature: 30 * M, infertility: 10 * M }]);
+m('r11-7', [{ general: 10 * M, premature: 30 * M, infertility: 10 * M }]);
+m('r11-8', [{ general: 10 * M }, { premature: 30 * M }, { premature: 30 * M }]);
+m('r11-9', [{ general: 50 * M, premature: 30 * M }]);
+m('r11-10', [{ general: 15 * M, premature: 30 * M }]);
+m('r11-11', [{ general: 14 * M, premature: 30 * M }]);
+m('r11-12', [{}, { premature: 30 * M }, { premature: 30 * M }]);
+console.log(JSON.stringify(out));

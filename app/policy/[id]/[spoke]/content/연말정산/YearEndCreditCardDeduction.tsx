@@ -57,6 +57,7 @@ export const 연말정산YearEndCreditCardDeductionSpokeContent: SpokeData = {
   heroHook:
     '카드 공제는 쓴 돈 전부가 아니라 일정 선을 넘긴 몫에만 붙습니다. 그 선이 총급여의 25%인데요, 다만 같은 돈도 어떤 수단으로 냈느냐에 따라 공제율이 갈립니다. 한 해 동안 쓴 내 카드 사용내역이 그 선을 넘었는지 조회해서 바로 가려내세요. 공제율부터 사용내역 조회까지 차례로 알아보겠습니다.',
   heroAct: { label: '카드 사용내역 조회하기', href: HOMETAX_YRS },
+  heroAct2: { label: '연말정산 모의계산하기', href: '/calc/year-end-tax/' },
   keyFacts: {
     '공제 시작 조건': '신용카드 등 사용액이 총급여의 25%를 넘을 때만 공제',
     '신용카드 공제율': '신용카드 15%',

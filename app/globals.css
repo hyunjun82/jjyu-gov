@@ -1861,3 +1861,48 @@ img { max-width: 100%; display: block; }
   color: #003D88; background: #EAF1FB; padding: 2px 8px; border-radius: 999px;
 }
 .search-hub { font-size: 12px; color: #8B95A1; }
+
+/* ── 연말정산 모의계산기 (/calc/year-end-tax) ── */
+.yec-form { display: flex; flex-direction: column; gap: 12px; }
+.yec-sec { background: #fff; border: 1px solid var(--border, #E5E8EB); border-radius: 16px; box-shadow: 0 4px 16px rgba(0, 61, 136, 0.08); }
+.yec-sec > summary { list-style: none; cursor: pointer; padding: 16px 18px; display: flex; flex-direction: column; gap: 2px; }
+.yec-sec > summary::-webkit-details-marker { display: none; }
+.yec-sec > summary b { font-size: 16.5px; font-weight: 800; color: var(--text-main, #191F28); }
+.yec-sec > summary span { font-size: 13px; color: var(--text-muted, #8B95A1); }
+.yec-sec[open] > summary { border-bottom: 1px solid var(--border, #E5E8EB); }
+.yec-sec-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 14px; }
+.yec-field { display: flex; flex-direction: column; gap: 6px; }
+.yec-label { font-size: 14.5px; font-weight: 700; color: var(--text-main, #191F28); }
+.yec-input-wrap { display: flex; align-items: center; gap: 8px; border: 1.5px solid var(--border, #E5E8EB); border-radius: 10px; padding: 11px 14px; }
+.yec-input-wrap:focus-within { border-color: #003D88; }
+.yec-input-wrap input { flex: 1; border: 0; outline: 0; font-size: 17px; font-weight: 700; text-align: right; min-width: 0; background: transparent; }
+.yec-input-wrap b { font-size: 14px; color: var(--text-secondary, #4E5968); flex-shrink: 0; }
+.yec-hint { font-size: 12.5px; color: var(--text-muted, #8B95A1); line-height: 1.5; }
+.yec-seg { display: flex; gap: 6px; }
+.yec-seg button { flex: 1; padding: 11px 6px; border: 1.5px solid var(--border, #E5E8EB); border-radius: 10px; background: #fff; font-size: 14.5px; font-weight: 600; color: var(--text-secondary, #4E5968); cursor: pointer; }
+.yec-seg button.on { border-color: #003D88; background: #003D88; color: #fff; }
+.yec-field select { padding: 11px 12px; border: 1.5px solid var(--border, #E5E8EB); border-radius: 10px; font-size: 15px; background: #fff; }
+.yec-row { border: 1px dashed var(--border, #E5E8EB); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 12px; }
+.yec-row-title { font-size: 14px; font-weight: 800; color: #003D88; }
+.yec-add { padding: 12px; border: 1.5px dashed #003D88; border-radius: 10px; background: #fff; color: #003D88; font-size: 15px; font-weight: 700; cursor: pointer; }
+.yec-mini { align-self: flex-end; padding: 6px 12px; border: 1px solid var(--border, #E5E8EB); border-radius: 8px; background: #fff; font-size: 13px; color: var(--text-secondary, #4E5968); cursor: pointer; }
+.yec-calc { margin-top: 4px; padding: 16px; border: 0; border-radius: 12px; background: #003D88; color: #fff; font-size: 17px; font-weight: 800; cursor: pointer; }
+.yec-calc:disabled { background: #B0B8C1; cursor: not-allowed; }
+.yec-result { margin-top: 18px; border-radius: 16px; padding: 22px 20px; border: 1.5px solid; }
+.yec-result.ok { background: #F0F7FF; border-color: #B3D4FF; }
+.yec-result.no { background: #FFF6F0; border-color: #FFD6B8; }
+.yec-result-line { font-size: 15px; color: var(--text-secondary, #4E5968); display: flex; flex-direction: column; gap: 4px; }
+.yec-result-line b { font-size: 28px; color: var(--text-main, #191F28); }
+.yec-verdict { margin-top: 10px; font-size: 15px; line-height: 1.7; font-weight: 600; }
+.yec-table { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 14.5px; }
+.yec-table th, .yec-table td { padding: 10px 4px; border-bottom: 1px solid rgba(0, 0, 0, 0.08); text-align: left; }
+.yec-table th { font-weight: 600; color: var(--text-secondary, #4E5968); }
+.yec-table th small { display: block; font-size: 12px; font-weight: 400; color: var(--text-muted, #8B95A1); }
+.yec-table td { text-align: right; font-weight: 700; white-space: nowrap; }
+.yec-next { margin-top: 14px; font-size: 15px; line-height: 1.75; }
+.yec-btn { display: block; margin-top: 10px; padding: 16px; border-radius: 12px; background: #003D88; color: #fff !important; font-size: 16.5px; font-weight: 800; text-align: center; text-decoration: none; }
+.yec-btn.sub { background: #fff; color: #003D88 !important; border: 1.5px solid #003D88; }
+.yec-disclaimer { margin-top: 18px; font-size: 12.5px; line-height: 1.65; color: var(--text-muted, #8B95A1); }
+.yec-group { font-size: 13.5px; font-weight: 800; color: #003D88; margin-top: 4px; }
+.yec-field.off { opacity: 0.45; }
+.yec-field.off .yec-seg button, .yec-field.off input { cursor: not-allowed; }

@@ -52,6 +52,7 @@ export const 연말정산YearEndDebitCardDeductionSpokeContent: SpokeData = {
   heroHook:
     '체크카드만 쓴다고 연말정산이 늘 유리해지지는 않습니다. 체크카드 공제율은 30%로 신용카드보다 높은데요, 다만 총급여에 비례한 문턱을 넘어선 뒤에야 공제가 시작돼서 체크카드만 고집해도 돌려받는 돈이 그대로일 수 있어요. 결제수단마다 내 카드 공제율이 얼마나 다른지 국세청 안내에서 비교해 보세요. 한도부터 현금영수증까지 차례로 알아보겠습니다.',
   heroAct: { label: '카드 공제율 비교하기', href: SRC1 },
+  heroAct2: { label: '연말정산 모의계산하기', href: '/calc/year-end-tax/' },
   keyFacts: {
     '공제 시작 조건': '신용카드 등 사용액이 총급여의 25%를 초과해야만 공제된다',
     '결제수단별 공제율':

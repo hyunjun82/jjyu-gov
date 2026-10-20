@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/calc/median-income/',
     '/calc/maternity-leave-pay/',
     '/calc/jongbuse/',
+    '/calc/year-end-tax/',
     '/guide/chuseok-train-ticket/',
     '/guide/median-income-2027/',
     '/guide/income-recognition/',

@@ -37,6 +37,8 @@ export const yearEndTaxSettlementPolicy = {
   cardLayout: 'act-first' as const,
   applyUrl: GUIDE,
   ctaLabel: '☞ 예상세액 확인하기',
+  applyUrl2: '/calc/year-end-tax/',
+  ctaLabel2: '☞ 연말정산 모의계산하기',
   heroHook:
     '올해 세금을 돌려받을지 더 낼지는 국세청 예상세액 계산하기에서 스스로 미리 계산해 볼 수 있어요. 간소화 자료는 매년 1월 20일부터 최종 확정자료로 나오지만, 부양가족 인원 수 등은 직접 넣어야 해서 결과가 갈려요. 간소화 공제자료를 불러와 내 예상세액이 얼마인지 먼저 확인하세요. 기간과 오픈 시기, 홈택스 이용 방법까지 알아보겠습니다.',
   datePublished: '2026-07-17T09:00:00+09:00', dateModified: '2026-10-20T10:00:00+09:00',

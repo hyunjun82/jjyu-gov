@@ -57,6 +57,7 @@ export const 연말정산YearEndHometownDonationSpokeContent: SpokeData = {
   heroHook:
     '고향사랑기부제로 낸 돈은 연말정산에서 세액공제로 돌려받습니다. 10만원까지는 전액 공제되는데요, 다만 이 공제는 기부자 본인만 받을 수 있어서 누구 이름으로 내느냐에 따라 내 몫이 갈립니다. 공제를 받을 내 이름으로 고향사랑e음에서 마음 가는 지역을 골라 바로 기부하세요. 혜택과 한도, 자동 반영, 기부 방법까지 차례로 알아보겠습니다.',
   heroAct: { label: '고향사랑 기부하기', href: GIVE },
+  heroAct2: { label: '연말정산 모의계산하기', href: '/calc/year-end-tax/' },
   keyFacts: {
     '10만원까지': '10만원까지 전액 공제',
     '10만원 초과 20만원 이하': '44% 공제',
