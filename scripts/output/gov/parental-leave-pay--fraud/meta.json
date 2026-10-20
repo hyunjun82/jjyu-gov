@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--fraud",
+  "slug": "fraud",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "부정수급",
+  "exportName": "육아휴직부정수급SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\부정수급.tsx",
+  "title": "육아휴직 급여 부정수급 조사와 처벌, 공소시효와 신고 포상금",
+  "subs": [
+    "육아휴직 급여 부정수급 조사",
+    "육아휴직 급여 부정수급 처벌",
+    "육아휴직 급여 부정수급 공소시효",
+    "육아휴직 급여 부정수급 신고 포상금"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:20:24.849Z"
+}

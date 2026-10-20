@@ -148,7 +148,7 @@ export const parentalLeavePaySpokes = [
   { slug: '12세',     role: 'usage',   title: '육아휴직 12세 확대는 일반 근로자도 되나요? 확대부터 교사까지' },
   { slug: '단기육아휴직', role: 'usage', title: '단기 육아휴직은 누가 쓸 수 있나요? 조건부터 신청 방법까지' },
   { slug: 'civil-servant', role: 'eligibility', title: '공무원 육아휴직 급여는 얼마인가요? 수당부터 6+6까지' },
-  { slug: 'fraud', role: 'overlap', title: '육아휴직급여 부정수급, 걸리면 얼마나 토해내고 처벌받나요?' },
+  { slug: 'fraud', role: 'overlap', title: '육아휴직 급여 부정수급 조사와 처벌, 공소시효와 신고 포상금' },
   { slug: 'eligibility', role: 'eligibility', title: '육아휴직 조건은 어떻게 되나요? 180일 기준부터 12세까지' },
   { slug: '18-months', role: 'usage', title: '육아휴직 1년 6개월 조건과 유급 여부, 소급과 연장 방법' },
   { slug: 'confirmation-letter', role: 'apply', title: '육아휴직 확인서는 어디서 떼나요? 발급부터 등록까지' },
