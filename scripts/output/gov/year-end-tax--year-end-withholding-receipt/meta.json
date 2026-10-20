@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-withholding-receipt",
+  "slug": "year-end-withholding-receipt",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndWithholdingReceipt",
+  "exportName": "연말정산YearEndWithholdingReceiptSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndWithholdingReceipt.tsx",
+  "title": "근로소득 원천징수영수증은 누구에게 받나요? 발급방법부터 보는법까지",
+  "subs": [
+    "원천징수영수증 발급방법",
+    "원천징수영수증 발급처",
+    "손택스 원천징수영수증 발급",
+    "근로소득 원천징수영수증 보는법"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T05:00:29.519Z"
+}

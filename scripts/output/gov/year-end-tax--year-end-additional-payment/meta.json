@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-additional-payment",
+  "slug": "year-end-additional-payment",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndAdditionalPayment",
+  "exportName": "연말정산YearEndAdditionalPaymentSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndAdditionalPayment.tsx",
+  "title": "연말정산 추가납부는 얼마나 내나요? 기준부터 분할까지",
+  "subs": [
+    "연말정산 추가납부",
+    "연말정산 추가납부 기준",
+    "연말정산 추가납부 금액",
+    "연말정산 추가납부 분할"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T05:00:22.332Z"
+}

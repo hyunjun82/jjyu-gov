@@ -2206,6 +2206,9 @@ import { 연말정산YearEndCashReceiptSpokeContent } from '@/app/policy/[id]/[s
 import { 연말정산YearEndPartTimeSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndPartTime';
 import { 연말정산SmeEmployeeIncomeTaxReductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/SmeEmployeeIncomeTaxReduction';
 import { 연말정산YearEndAmendedReturnSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndAmendedReturn';
+import { 연말정산YearEndAdditionalPaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndAdditionalPayment';
+import { 연말정산YearEndTraditionalMarketSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndTraditionalMarket';
+import { 연말정산YearEndWithholdingReceiptSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndWithholdingReceipt';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -3974,6 +3977,9 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'year-end-tax': {
+    'year-end-withholding-receipt': 연말정산YearEndWithholdingReceiptSpokeContent,
+    'year-end-traditional-market': 연말정산YearEndTraditionalMarketSpokeContent,
+    'year-end-additional-payment': 연말정산YearEndAdditionalPaymentSpokeContent,
     'year-end-amended-return': 연말정산YearEndAmendedReturnSpokeContent,
     'sme-employee-income-tax-reduction': 연말정산SmeEmployeeIncomeTaxReductionSpokeContent,
     'year-end-part-time': 연말정산YearEndPartTimeSpokeContent,

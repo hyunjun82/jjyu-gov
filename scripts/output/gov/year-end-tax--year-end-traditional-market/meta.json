@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-traditional-market",
+  "slug": "year-end-traditional-market",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndTraditionalMarket",
+  "exportName": "연말정산YearEndTraditionalMarketSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndTraditionalMarket.tsx",
+  "title": "연말정산 전통시장 지출은 어디까지 인정되나요? 공제율부터 사용처까지",
+  "subs": [
+    "연말정산 전통시장",
+    "연말정산 전통시장 공제율",
+    "연말정산 전통시장 기준",
+    "연말정산 전통시장 사용처"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T05:00:25.679Z"
+}

@@ -118,6 +118,9 @@ export const yearEndTaxPolicy = {
 } as const;
 
 export const yearEndTaxSpokes = [
+  { slug: 'year-end-withholding-receipt', role: 'apply', title: '근로소득 원천징수영수증은 누구에게 받나요? 발급방법부터 보는법까지' },
+  { slug: 'year-end-traditional-market', role: 'amount', title: '연말정산 전통시장 지출은 어디까지 인정되나요? 공제율부터 사용처까지' },
+  { slug: 'year-end-additional-payment', role: 'amount', title: '연말정산 추가납부는 얼마나 내나요? 기준부터 분할까지' },
   { slug: 'year-end-amended-return', role: 'apply', title: '연말정산 수정신고는 어떻게 하나요? 방법부터 경정청구까지' },
   { slug: 'sme-employee-income-tax-reduction', role: 'apply', title: '중소기업 소득세 감면 신청서 작성 예시와 조회, 경정청구와 환급' },
   { slug: 'year-end-part-time', role: 'eligibility', title: '알바도 연말정산을 하나요? 기준부터 종합소득세까지' },
