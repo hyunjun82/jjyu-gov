@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--6+6부모",
+  "slug": "6+6부모",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "6+6부모",
+  "exportName": "부모함께SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\6+6부모.tsx",
+  "title": "육아휴직 6+6 조건과 급여 계산, 소급과 신청 방법",
+  "subs": [
+    "육아휴직 6+6 조건",
+    "육아휴직 6+6 급여 계산",
+    "육아휴직 6+6 급여 소급",
+    "육아휴직 6+6 급여 신청 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T02:04:49.771Z"
+}

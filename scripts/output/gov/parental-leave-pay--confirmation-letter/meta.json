@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--confirmation-letter",
+  "slug": "confirmation-letter",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "확인서발급",
+  "exportName": "육아휴직확인서발급SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\확인서발급.tsx",
+  "title": "육아휴직 확인서는 어디서 떼나요? 발급부터 등록까지",
+  "subs": [
+    "육아휴직 확인서 발급",
+    "육아휴직 확인서 조회",
+    "육아휴직 확인서 제출",
+    "육아휴직 확인서 등록"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:20:25.068Z"
+}

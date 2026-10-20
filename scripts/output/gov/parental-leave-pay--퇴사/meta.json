@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--퇴사",
+  "slug": "퇴사",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "퇴사",
+  "exportName": "육아휴직퇴사SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\퇴사.tsx",
+  "title": "육아휴직 후 퇴사해도 되나요? 퇴직금부터 사후지급금까지",
+  "subs": [
+    "육아휴직 퇴사 퇴직금",
+    "육아휴직 퇴사 연차수당",
+    "육아휴직 퇴사 실업급여",
+    "육아휴직 퇴사 사후지급금"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:09:48.614Z"
+}

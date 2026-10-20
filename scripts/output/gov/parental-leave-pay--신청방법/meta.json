@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--신청방법",
+  "slug": "신청방법",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "신청방법",
+  "exportName": "육아휴직신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\신청방법.tsx",
+  "title": "육아휴직급여는 어떻게 받나요? 신청서류부터 기한까지",
+  "subs": [
+    "육아휴직급여 신청방법",
+    "육아휴직급여 신청서류",
+    "육아휴직급여 신청 확인서",
+    "육아휴직급여 신청 기한"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T02:13:42.965Z"
+}

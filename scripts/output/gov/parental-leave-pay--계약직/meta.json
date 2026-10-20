@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--계약직",
+  "slug": "계약직",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "계약직",
+  "exportName": "육아휴직계약직SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\계약직.tsx",
+  "title": "계약직도 육아휴직을 쓸 수 있나요? 조건부터 계약만료까지",
+  "subs": [
+    "계약직 육아휴직 조건",
+    "계약직 육아휴직 급여",
+    "계약직 육아휴직 거부",
+    "계약직 육아휴직 계약만료"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:09:48.511Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--국민연금",
+  "slug": "국민연금",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "국민연금",
+  "exportName": "육아휴직국민연금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\국민연금.tsx",
+  "title": "육아휴직 국민연금 예외와 유예 차이, 추납 방법",
+  "subs": [
+    "육아휴직 국민연금 납부 예외",
+    "육아휴직 국민연금 납부 유예",
+    "육아휴직 국민연금 유예 차이",
+    "육아휴직 국민연금 추납"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:09:48.663Z"
+}

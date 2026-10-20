@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--회사부담",
+  "slug": "회사부담",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "회사부담",
+  "exportName": "회사부담SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\회사부담.tsx",
+  "title": "육아휴직 급여는 회사가 주나요 정부가 주나요",
+  "subs": [
+    "육아휴직급여 회사 지급분",
+    "육아휴직급여 회사 지급분 제외",
+    "육아휴직급여 회사 기본급",
+    "육아휴직 급여 회사 지원금"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T02:26:40.295Z"
+}

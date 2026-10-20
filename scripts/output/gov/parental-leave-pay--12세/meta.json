@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--12세",
+  "slug": "12세",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "12세",
+  "exportName": "육아휴직12세SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\12세.tsx",
+  "title": "육아휴직 12세 확대는 일반 근로자도 되나요? 확대부터 교사까지",
+  "subs": [
+    "육아휴직 12세 확대",
+    "육아휴직 12세 일반근로자",
+    "육아휴직 12세 공무원",
+    "육아휴직 12세 교사"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:09:48.758Z"
+}

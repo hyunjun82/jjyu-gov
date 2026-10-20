@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--연차",
+  "slug": "연차",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "연차",
+  "exportName": "육아휴직연차SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\연차.tsx",
+  "title": "육아휴직 연차 발생 기준과 수당, 소멸과 이월",
+  "subs": [
+    "육아휴직 연차발생",
+    "육아휴직 연차수당",
+    "육아휴직 연차 소멸",
+    "육아휴직 연차 이월"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T02:59:16.236Z"
+}

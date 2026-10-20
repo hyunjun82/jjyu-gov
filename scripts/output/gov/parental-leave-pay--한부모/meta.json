@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--한부모",
+  "slug": "한부모",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "한부모",
+  "exportName": "육아휴직한부모SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\한부모.tsx",
+  "title": "한부모 육아휴직 급여 조건과 금액, 상한액과 신청방법",
+  "subs": [
+    "한부모 육아휴직 급여 조건",
+    "한부모 육아휴직 급여 금액",
+    "한부모 육아휴직 급여 상한액",
+    "한부모 육아휴직 신청방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T02:33:24.735Z"
+}

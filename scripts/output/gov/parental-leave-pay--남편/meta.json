@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--남편",
+  "slug": "남편",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "남편",
+  "exportName": "육아휴직남편SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\남편.tsx",
+  "title": "남편 육아휴직 급여는 얼마나 받나요? 시기부터 6+6까지",
+  "subs": [
+    "남편 육아휴직 시기",
+    "남편 육아휴직 급여",
+    "남편 육아휴직 서류",
+    "남편 육아휴직 6+6"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T03:14:35.099Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--eligibility",
+  "slug": "eligibility",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "조건",
+  "exportName": "육아휴직조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\조건.tsx",
+  "title": "육아휴직 조건은 어떻게 되나요? 180일 기준부터 12세까지",
+  "subs": [
+    "육아휴직 조건",
+    "육아휴직 조건 180일",
+    "계약직 육아휴직 조건",
+    "육아휴직 조건 12세"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:20:24.937Z"
+}

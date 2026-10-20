@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--퇴직금",
+  "slug": "퇴직금",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "퇴직금",
+  "exportName": "육아휴직퇴직금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\퇴직금.tsx",
+  "title": "육아휴직 기간도 퇴직금에 포함되나요",
+  "subs": [
+    "육아휴직 퇴직금 포함",
+    "육아휴직 퇴직금 계산",
+    "육아휴직 퇴직금 중간정산",
+    "육아휴직 퇴직금 DC형"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T03:07:08.019Z"
+}

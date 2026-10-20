@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--단기육아휴직",
+  "slug": "단기육아휴직",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "단기육아휴직",
+  "exportName": "육아휴직단기SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\단기육아휴직.tsx",
+  "title": "단기 육아휴직은 누가 쓸 수 있나요? 조건부터 신청 방법까지",
+  "subs": [
+    "단기 육아휴직 조건",
+    "단기 육아휴직 급여",
+    "단기 육아휴직 서류",
+    "단기 육아휴직 신청 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:09:49.028Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--급여계산",
+  "slug": "급여계산",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "급여계산",
+  "exportName": "급여계산SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\급여계산.tsx",
+  "title": "육아휴직 급여는 얼마나 받나요? 통상임금부터 상한액까지",
+  "subs": [
+    "육아휴직 급여 통상임금",
+    "육아휴직급여 계산 방법",
+    "육아휴직 급여 계산 6+6",
+    "육아휴직급여 상한액"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T01:57:28.549Z"
+}

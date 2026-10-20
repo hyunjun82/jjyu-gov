@@ -1,0 +1,66 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000402",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000402",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>",
+    "file": "src-1.txt",
+    "chars": 5344,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.moel.go.kr",
+    "finalUrl": "https://www.moel.go.kr/index.do",
+    "title": "고용노동부",
+    "file": "src-2.txt",
+    "chars": 10188,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-2-2.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.law.go.kr/법령/고용보험법",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%B2%95",
+    "title": "고용보험법",
+    "file": "src-3.txt",
+    "chars": 96249,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.law.go.kr/법령/남녀고용평등과일ㆍ가정양립지원에관한법률",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%82%A8%EB%85%80%EA%B3%A0%EC%9A%A9%ED%8F%89%EB%93%B1%EA%B3%BC%EC%9D%BC%E3%86%8D%EA%B0%80%EC%A0%95%EC%96%91%EB%A6%BD%EC%A7%80%EC%9B%90%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0",
+    "title": "남녀고용평등과일ㆍ가정양립지원에관한법률",
+    "file": "src-4.txt",
+    "chars": 52301,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.law.go.kr/법령/남녀고용평등과일ㆍ가정양립지원에관한법률",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%82%A8%EB%85%80%EA%B3%A0%EC%9A%A9%ED%8F%89%EB%93%B1%EA%B3%BC%EC%9D%BC%E3%86%8D%EA%B0%80%EC%A0%95%EC%96%91%EB%A6%BD%EC%A7%80%EC%9B%90%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0",
+    "title": "남녀고용평등과일ㆍ가정양립지원에관한법률",
+    "file": "src-5.txt",
+    "chars": 52301,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

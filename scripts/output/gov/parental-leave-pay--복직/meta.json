@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--복직",
+  "slug": "복직",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "복직",
+  "exportName": "육아휴직복직SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\복직.tsx",
+  "title": "육아휴직이 끝나면 원래 자리로 가나요? 복직 거부부터 급여까지",
+  "subs": [
+    "육아휴직 복직 자리",
+    "육아휴직 복직 거부",
+    "육아휴직 복직 후 연차",
+    "육아휴직 복직 후 급여"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T02:51:31.124Z"
+}

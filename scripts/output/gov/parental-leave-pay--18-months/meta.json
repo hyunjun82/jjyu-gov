@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--18-months",
+  "slug": "18-months",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "1년6개월",
+  "exportName": "육아휴직1년6개월SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\1년6개월.tsx",
+  "title": "육아휴직 1년 6개월 조건과 유급 여부, 소급과 연장 방법",
+  "subs": [
+    "육아휴직 1년 6개월 조건",
+    "육아휴직 1년 6개월 유급",
+    "육아휴직 1년 6개월 소급",
+    "육아휴직 1년 6개월 연장 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-19T23:20:25.013Z"
+}

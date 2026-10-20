@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-leave-pay--분할",
+  "slug": "분할",
+  "hub": "parental-leave-pay",
+  "dir": "육아휴직급여",
+  "fileName": "분할",
+  "exportName": "육아휴직분할SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아휴직급여\\분할.tsx",
+  "title": "육아휴직 분할 사용은 몇 번까지 되나요? 횟수부터 급여까지",
+  "subs": [
+    "육아휴직 분할 사용 횟수",
+    "육아휴직 분할 사용 방법",
+    "육아휴직 분할 사용 기간",
+    "육아휴직 분할사용 급여"
+  ],
+  "deflect": true,
+  "created": "2026-10-16T02:42:03.309Z"
+}
