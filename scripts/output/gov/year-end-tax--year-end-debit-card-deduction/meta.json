@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-debit-card-deduction",
+  "slug": "year-end-debit-card-deduction",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndDebitCardDeduction",
+  "exportName": "연말정산YearEndDebitCardDeductionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndDebitCardDeduction.tsx",
+  "title": "연말정산 체크카드만 쓰면 유리한가요? 한도부터 현금영수증까지",
+  "subs": [
+    "연말정산 체크카드만 쓰면",
+    "연말정산 체크카드 한도",
+    "연말정산 체크카드 신용카드",
+    "연말정산 체크카드 현금영수증"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:42:59.989Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-part-time",
+  "slug": "year-end-part-time",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndPartTime",
+  "exportName": "연말정산YearEndPartTimeSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndPartTime.tsx",
+  "title": "알바도 연말정산을 하나요? 기준부터 종합소득세까지",
+  "subs": [
+    "알바 연말정산 기준",
+    "알바 연말정산 방법",
+    "알바 연말정산 부양가족",
+    "알바 연말정산 종합소득세"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T03:00:13.775Z"
+}

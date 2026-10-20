@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-amended-return",
+  "slug": "year-end-amended-return",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndAmendedReturn",
+  "exportName": "연말정산YearEndAmendedReturnSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndAmendedReturn.tsx",
+  "title": "연말정산 수정신고는 어떻게 하나요? 방법부터 경정청구까지",
+  "subs": [
+    "연말정산 수정신고 방법",
+    "연말정산 수정신고 기한",
+    "연말정산 수정신고 가산세",
+    "연말정산 수정신고 경정청구"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T03:01:42.025Z"
+}

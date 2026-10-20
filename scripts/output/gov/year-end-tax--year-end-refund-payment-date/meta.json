@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-refund-payment-date",
+  "slug": "year-end-refund-payment-date",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndRefundPaymentDate",
+  "exportName": "연말정산YearEndRefundPaymentDateSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndRefundPaymentDate.tsx",
+  "title": "연말정산 환급금은 언제 들어오나요? 조회 기간부터 한도까지",
+  "subs": [
+    "연말정산 환급금 조회 기간",
+    "연말정산 환급금 지급일",
+    "연말정산 환급금 평균",
+    "연말정산 환급금 한도"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:35:41.901Z"
+}

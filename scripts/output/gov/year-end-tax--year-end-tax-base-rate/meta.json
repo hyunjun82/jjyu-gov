@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-tax-base-rate",
+  "slug": "year-end-tax-base-rate",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndTaxBaseRate",
+  "exportName": "연말정산YearEndTaxBaseRateSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndTaxBaseRate.tsx",
+  "title": "연말정산 과세표준 세율과 구간, 누진공제와 계산 방법",
+  "subs": [
+    "연말정산 과세표준 세율",
+    "연말정산 과세표준 구간",
+    "연말정산 과세표준 누진공제",
+    "연말정산 과세표준 계산 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:56:34.750Z"
+}

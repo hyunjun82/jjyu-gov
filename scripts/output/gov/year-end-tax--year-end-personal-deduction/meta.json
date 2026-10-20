@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-personal-deduction",
+  "slug": "year-end-personal-deduction",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndPersonalDeduction",
+  "exportName": "연말정산YearEndPersonalDeductionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndPersonalDeduction.tsx",
+  "title": "연말정산 인적공제는 얼마까지 되나요? 기준부터 자녀까지",
+  "subs": [
+    "연말정산 인적공제 기준",
+    "연말정산 인적공제 금액",
+    "연말정산 인적공제 배우자",
+    "연말정산 인적공제 자녀"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:35:52.886Z"
+}

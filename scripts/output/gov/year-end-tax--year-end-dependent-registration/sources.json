@@ -1,0 +1,79 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7862",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7862",
+    "title": "국세청",
+    "file": "src-1.txt",
+    "chars": 2740,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://call.nts.go.kr/call/qna/selectQnaInfo.do?ctgId=CTG11934&mi=1318",
+    "finalUrl": "https://call.nts.go.kr/call/qna/selectQnaInfo.do?ctgId=CTG11934&mi=1318",
+    "title": "자주묻는Q&A",
+    "file": "src-2.txt",
+    "chars": 9537,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7873",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7873",
+    "title": "국세청",
+    "file": "src-3.txt",
+    "chars": 1345,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6646&cntntsId=7706",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6646&cntntsId=7706",
+    "title": "국세청>국세신고안내>법인신고안내>연말정산>편리한 연말정산 이용방법",
+    "file": "src-4.txt",
+    "chars": 1861,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&bbsId=1028&nttSn=1347979",
+    "finalUrl": "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?mi=2201&bbsId=1028&nttSn=1347979",
+    "title": "｢연말정산 간소화 서비스｣, 1월 15일(목) 개통합니다. | 국세청>알림·소식>보도자료",
+    "file": "src-5.txt",
+    "chars": 17853,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.law.go.kr/법령/소득세법/제50조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C50%EC%A1%B0",
+    "title": "소득세법",
+    "file": "src-6.txt",
+    "chars": 2062,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
+    "url": "https://www.hometax.go.kr/ui/pp/yrs_index.html",
+    "finalUrl": "https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml",
+    "title": "국세청 홈택스",
+    "file": "src-7.txt",
+    "chars": 0,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

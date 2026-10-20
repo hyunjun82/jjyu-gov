@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-education-expense",
+  "slug": "year-end-education-expense",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndEducationExpense",
+  "exportName": "연말정산YearEndEducationExpenseSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndEducationExpense.tsx",
+  "title": "연말정산 교육비는 누가 받나요? 대상부터 예체능까지",
+  "subs": [
+    "연말정산 교육비 공제 대상",
+    "연말정산 교육비 한도",
+    "연말정산 교육비 학원비",
+    "연말정산 교육비 예체능"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:48:12.371Z"
+}

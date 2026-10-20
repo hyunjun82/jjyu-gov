@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--sme-employee-income-tax-reduction",
+  "slug": "sme-employee-income-tax-reduction",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "SmeEmployeeIncomeTaxReduction",
+  "exportName": "연말정산SmeEmployeeIncomeTaxReductionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\SmeEmployeeIncomeTaxReduction.tsx",
+  "title": "중소기업 소득세 감면 신청서 작성 예시와 조회, 경정청구와 환급",
+  "subs": [
+    "중소기업 소득세 감면 신청서 작성 예시",
+    "중소기업 소득세 감면 조회",
+    "중소기업 소득세 감면 경정청구",
+    "중소기업 소득세 감면 환급"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T03:02:16.335Z"
+}

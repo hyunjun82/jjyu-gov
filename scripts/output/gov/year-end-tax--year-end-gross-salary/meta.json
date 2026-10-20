@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-gross-salary",
+  "slug": "year-end-gross-salary",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndGrossSalary",
+  "exportName": "연말정산YearEndGrossSalarySpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndGrossSalary.tsx",
+  "title": "연말정산 총급여는 세전과 세후 중 어느 쪽인가요? 비과세부터 확인까지",
+  "subs": [
+    "연말정산 총급여 세전 세후",
+    "연말정산 총급여 비과세",
+    "연말정산 총급여 퇴직금",
+    "연말정산 총급여 확인"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:49:37.640Z"
+}

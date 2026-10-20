@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-donation-deduction",
+  "slug": "year-end-donation-deduction",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndDonationDeduction",
+  "exportName": "연말정산YearEndDonationDeductionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndDonationDeduction.tsx",
+  "title": "연말정산 기부금 한도와 공제 비율, 10만원 혜택과 이월",
+  "subs": [
+    "연말정산 기부금 한도",
+    "연말정산 기부금 공제 비율",
+    "연말정산 기부금 10만원",
+    "연말정산 기부금 이월"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:48:36.169Z"
+}

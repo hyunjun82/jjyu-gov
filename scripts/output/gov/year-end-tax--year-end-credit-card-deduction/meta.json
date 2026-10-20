@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-credit-card-deduction",
+  "slug": "year-end-credit-card-deduction",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndCreditCardDeduction",
+  "exportName": "연말정산YearEndCreditCardDeductionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndCreditCardDeduction.tsx",
+  "title": "연말정산 신용카드는 얼마까지 인정되나요? 공제율부터 사용내역 조회까지",
+  "subs": [
+    "연말정산 신용카드 공제율",
+    "연말정산 신용카드 한도",
+    "연말정산 신용카드 사용액",
+    "연말정산 카드 사용내역 조회"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:36:08.977Z"
+}

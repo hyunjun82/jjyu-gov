@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-freelancer",
+  "slug": "year-end-freelancer",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndFreelancer",
+  "exportName": "연말정산YearEndFreelancerSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndFreelancer.tsx",
+  "title": "프리랜서도 연말정산을 하나요? 환급부터 종합소득세까지",
+  "subs": [
+    "프리랜서 연말정산",
+    "프리랜서 연말정산 환급",
+    "연말정산 3.3",
+    "연말정산 종합소득세 중복"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:58:01.106Z"
+}

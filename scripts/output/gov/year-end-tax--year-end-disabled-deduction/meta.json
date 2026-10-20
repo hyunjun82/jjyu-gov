@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-disabled-deduction",
+  "slug": "year-end-disabled-deduction",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndDisabledDeduction",
+  "exportName": "연말정산YearEndDisabledDeductionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndDisabledDeduction.tsx",
+  "title": "연말정산 장애인공제 대상과 기간, 증명서부터 등록까지",
+  "subs": [
+    "연말정산 장애인공제 대상",
+    "연말정산 장애인공제 기간",
+    "연말정산 장애인 증명서",
+    "연말정산 장애인 등록"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:36:04.273Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-child-tax-credit",
+  "slug": "year-end-child-tax-credit",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndChildTaxCredit",
+  "exportName": "연말정산YearEndChildTaxCreditSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndChildTaxCredit.tsx",
+  "title": "연말정산 자녀는 성인이어도 되나요? 세액공제부터 등록까지",
+  "subs": [
+    "연말정산 자녀 세액공제",
+    "연말정산 자녀 성인",
+    "연말정산 자녀 카드",
+    "연말정산 자녀 등록"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:36:00.060Z"
+}

@@ -2183,7 +2183,29 @@ import { 공무원연금GepsLumpSumSpokeContent } from '@/app/policy/[id]/[spoke
 import { 공무원연금GepsOverseasPensionSpokeContent } from '@/app/policy/[id]/[spoke]/content/공무원연금/GepsOverseasPension';
 import { 기초연금CheckIncomeAsset2026h2SpokeContent } from '@/app/policy/[id]/[spoke]/content/기초연금/CheckIncomeAsset2026h2';
 
-import { withholdingTaxFreelancerWithholdingRateCutSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/FreelancerWithholdingRateCut';
+import { withholdingTaxFreelancerWithholdingRateCutSpokeContent } from '@/app/policy/[id]/[spoke]/content/withholding-tax/FreelancerWithholdingRateCut';
+import { 연말정산YearEndChildTaxCreditSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndChildTaxCredit';
+import { 연말정산YearEndSpouseDeductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndSpouseDeduction';
+import { 연말정산YearEndRefundPaymentDateSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndRefundPaymentDate';
+import { 연말정산YearEndSkipPenaltySpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndSkipPenalty';
+import { 연말정산YearEndDisabledDeductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndDisabledDeduction';
+import { 연말정산YearEndDependentRegistrationSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndDependentRegistration';
+import { 연말정산YearEndCreditCardDeductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndCreditCardDeduction';
+import { 연말정산YearEndPersonalDeductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndPersonalDeduction';
+import { 연말정산YearEndMedicalExpenseSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndMedicalExpense';
+import { 연말정산YearEndDebitCardDeductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndDebitCardDeduction';
+import { 연말정산YearEndPostpartumCareSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndPostpartumCare';
+import { 연말정산YearEndDonationDeductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndDonationDeduction';
+import { 연말정산YearEndGlassesExpenseSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndGlassesExpense';
+import { 연말정산YearEndHometownDonationSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndHometownDonation';
+import { 연말정산YearEndGrossSalarySpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndGrossSalary';
+import { 연말정산YearEndEducationExpenseSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndEducationExpense';
+import { 연말정산YearEndFreelancerSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndFreelancer';
+import { 연말정산YearEndTaxBaseRateSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndTaxBaseRate';
+import { 연말정산YearEndCashReceiptSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndCashReceipt';
+import { 연말정산YearEndPartTimeSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndPartTime';
+import { 연말정산SmeEmployeeIncomeTaxReductionSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/SmeEmployeeIncomeTaxReduction';
+import { 연말정산YearEndAmendedReturnSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndAmendedReturn';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -3952,6 +3974,28 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'year-end-tax': {
+    'year-end-amended-return': 연말정산YearEndAmendedReturnSpokeContent,
+    'sme-employee-income-tax-reduction': 연말정산SmeEmployeeIncomeTaxReductionSpokeContent,
+    'year-end-part-time': 연말정산YearEndPartTimeSpokeContent,
+    'year-end-cash-receipt': 연말정산YearEndCashReceiptSpokeContent,
+    'year-end-tax-base-rate': 연말정산YearEndTaxBaseRateSpokeContent,
+    'year-end-freelancer': 연말정산YearEndFreelancerSpokeContent,
+    'year-end-education-expense': 연말정산YearEndEducationExpenseSpokeContent,
+    'year-end-gross-salary': 연말정산YearEndGrossSalarySpokeContent,
+    'year-end-hometown-donation': 연말정산YearEndHometownDonationSpokeContent,
+    'year-end-glasses-expense': 연말정산YearEndGlassesExpenseSpokeContent,
+    'year-end-donation-deduction': 연말정산YearEndDonationDeductionSpokeContent,
+    'year-end-postpartum-care': 연말정산YearEndPostpartumCareSpokeContent,
+    'year-end-debit-card-deduction': 연말정산YearEndDebitCardDeductionSpokeContent,
+    'year-end-medical-expense': 연말정산YearEndMedicalExpenseSpokeContent,
+    'year-end-personal-deduction': 연말정산YearEndPersonalDeductionSpokeContent,
+    'year-end-credit-card-deduction': 연말정산YearEndCreditCardDeductionSpokeContent,
+    'year-end-dependent-registration': 연말정산YearEndDependentRegistrationSpokeContent,
+    'year-end-disabled-deduction': 연말정산YearEndDisabledDeductionSpokeContent,
+    'year-end-skip-penalty': 연말정산YearEndSkipPenaltySpokeContent,
+    'year-end-refund-payment-date': 연말정산YearEndRefundPaymentDateSpokeContent,
+    'year-end-spouse-deduction': 연말정산YearEndSpouseDeductionSpokeContent,
+    'year-end-child-tax-credit': 연말정산YearEndChildTaxCreditSpokeContent,
     '일정절차':     연말정산일정절차SpokeContent,
     '간소화서비스': 연말정산간소화서비스SpokeContent,
     '공제종류':     연말정산공제종류SpokeContent,

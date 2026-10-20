@@ -1,0 +1,76 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mois.go.kr/frt/sub/a06/b06/hometownLovedonation/screen.do",
+    "finalUrl": "https://www.mois.go.kr/frt/sub/a06/b06/hometownLovedonation/screen.do",
+    "title": "행정안전부> 업무안내> 자치혁신실> 지방소멸대응> 고향사랑기부제",
+    "file": "src-1.txt",
+    "chars": 8812,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "고향사랑기부제 목적과 흐름도(아래 설명을 참고하세요)"
+      },
+      {
+        "file": "img-1-2.png",
+        "alt": "고향사랑기부제 운영절차(아래 설명을 참고하세요)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148956582",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148956582",
+    "title": "고향사랑기부 1000억 원 돌파…내년엔 세액공제 혜택 더 늘어 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-2.txt",
+    "chars": 3648,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "'2023 귀농귀촌 청년창업 고향사랑 박람회'(Y-FARM EXPO) 고향사랑기부 전북관에서 관계자가 기부 참여 관련 설명을 하고 있다. 2023.4.21 (사진=저작권자(c) 연합뉴스, 무단 전재-재배포 금지)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7874",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7874",
+    "title": "국세청",
+    "file": "src-3.txt",
+    "chars": 2887,
+    "tables": 4,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://ilovegohyang.go.kr",
+    "finalUrl": "https://ilovegohyang.go.kr/main.html",
+    "title": "메인 | 고향사랑e음",
+    "file": "src-4.txt",
+    "chars": 1642,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "[전라남도 무안군] 무안사랑상품권 1만원권"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://ilovegohyang.go.kr",
+    "finalUrl": "https://ilovegohyang.go.kr/main.html",
+    "title": "메인 | 고향사랑e음",
+    "file": "src-5.txt",
+    "chars": 1560,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

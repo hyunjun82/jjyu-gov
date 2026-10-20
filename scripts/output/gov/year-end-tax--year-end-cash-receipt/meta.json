@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-cash-receipt",
+  "slug": "year-end-cash-receipt",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndCashReceipt",
+  "exportName": "연말정산YearEndCashReceiptSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndCashReceipt.tsx",
+  "title": "연말정산 현금영수증 등록방법과 기간, 조회가 안 되는 이유",
+  "subs": [
+    "현금영수증 등록방법",
+    "현금영수증 등록 기간",
+    "현금영수증 조회 안되는이유",
+    "현금영수증 연말정산"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:57:55.984Z"
+}

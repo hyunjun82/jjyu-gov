@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-hometown-donation",
+  "slug": "year-end-hometown-donation",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndHometownDonation",
+  "exportName": "연말정산YearEndHometownDonationSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndHometownDonation.tsx",
+  "title": "고향사랑기부제는 연말정산에서 얼마나 돌려받나요? 혜택부터 방법까지",
+  "subs": [
+    "고향사랑기부제 연말정산 혜택",
+    "고향사랑기부제 연말정산 한도",
+    "고향사랑기부제 연말정산 자동",
+    "고향사랑기부제 연말정산 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:48:58.060Z"
+}

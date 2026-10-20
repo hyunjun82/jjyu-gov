@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-spouse-deduction",
+  "slug": "year-end-spouse-deduction",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndSpouseDeduction",
+  "exportName": "연말정산YearEndSpouseDeductionSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndSpouseDeduction.tsx",
+  "title": "연말정산 배우자공제 소득 기준과 금액, 알바와 카드내역",
+  "subs": [
+    "연말정산 배우자 소득 기준",
+    "연말정산 배우자 공제 금액",
+    "연말정산 배우자 알바",
+    "연말정산 배우자 카드내역"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:35:56.740Z"
+}

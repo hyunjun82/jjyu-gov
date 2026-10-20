@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-postpartum-care",
+  "slug": "year-end-postpartum-care",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndPostpartumCare",
+  "exportName": "연말정산YearEndPostpartumCareSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndPostpartumCare.tsx",
+  "title": "산후조리원 연말정산은 어떻게 하나요? 서류부터 분할결제까지",
+  "subs": [
+    "산후조리원 연말정산 서류",
+    "산후조리원 연말정산 영수증",
+    "산후조리원 연말정산 의료비",
+    "산후조리원 연말정산 분할결제"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:47:32.116Z"
+}

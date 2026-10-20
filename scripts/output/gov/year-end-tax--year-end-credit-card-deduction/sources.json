@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2469&cntntsId=7794",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2469&cntntsId=7794",
+    "title": "국세청>국세정책/제도>전자(세금)계산서/현금영수증/신용카드>현금영수증∙신용카드>발급∙수취시 혜택",
+    "file": "src-1.txt",
+    "chars": 3141,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://call.nts.go.kr/call/qna/selectQnaInfo.do?ctgId=CTG11898&mi=1318",
+    "finalUrl": "https://call.nts.go.kr/call/qna/selectQnaInfo.do?ctgId=CTG11898&mi=1318",
+    "title": "자주묻는Q&A",
+    "file": "src-2.txt",
+    "chars": 16417,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?nttSn=1530&mi=15559",
+    "finalUrl": "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?nttSn=1530&mi=15559",
+    "title": "국세청>국세정책/제도>전자(세금)계산서/현금영수증/신용카드>현금영수증∙신용카드>자주묻는 질문 답변> 소비자 문의",
+    "file": "src-3.txt",
+    "chars": 1735,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.hometax.go.kr/ui/pp/yrs_index.html",
+    "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  },
+  {
+    "n": 5,
+    "url": "https://www.law.go.kr/법령/조세특례제한법/제126조의2",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%A1%B0%EC%84%B8%ED%8A%B9%EB%A1%80%EC%A0%9C%ED%95%9C%EB%B2%95/%EC%A0%9C126%EC%A1%B0%EC%9D%982",
+    "title": "조세특례제한법",
+    "file": "src-5.txt",
+    "chars": 7268,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.hometax.go.kr/ui/pp/yrs_index.html",
+    "finalUrl": "https://hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml&menuCd=index3",
+    "title": "국세청 홈택스 - 메인",
+    "file": "src-6.txt",
+    "chars": 808,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-dependent-registration",
+  "slug": "year-end-dependent-registration",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndDependentRegistration",
+  "exportName": "연말정산YearEndDependentRegistrationSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndDependentRegistration.tsx",
+  "title": "연말정산 부양가족은 어떻게 등록하나요? 방법부터 삭제까지",
+  "subs": [
+    "연말정산 부양가족 등록 방법",
+    "연말정산 부양가족 등록 기준",
+    "연말정산 부양가족 등록 서류",
+    "연말정산 부양가족 삭제"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:35:48.783Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-glasses-expense",
+  "slug": "year-end-glasses-expense",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndGlassesExpense",
+  "exportName": "연말정산YearEndGlassesExpenseSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndGlassesExpense.tsx",
+  "title": "안경 구입비도 연말정산이 되나요? 영수증부터 카드까지",
+  "subs": [
+    "연말정산 안경 영수증",
+    "연말정산 안경구입비 공제",
+    "연말정산 안경 소득공제",
+    "연말정산 안경구입비 카드"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:45:37.730Z"
+}

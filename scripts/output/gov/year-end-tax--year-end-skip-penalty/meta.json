@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-skip-penalty",
+  "slug": "year-end-skip-penalty",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndSkipPenalty",
+  "exportName": "연말정산YearEndSkipPenaltySpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndSkipPenalty.tsx",
+  "title": "연말정산을 안 하면 어떻게 되나요? 불이익부터 5월까지",
+  "subs": [
+    "연말정산 안하면 불이익",
+    "연말정산 안하면 과태료",
+    "연말정산 기간 놓치면",
+    "연말정산 5월"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:35:45.413Z"
+}

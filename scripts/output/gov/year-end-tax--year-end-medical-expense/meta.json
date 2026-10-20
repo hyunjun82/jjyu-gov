@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "year-end-tax--year-end-medical-expense",
+  "slug": "year-end-medical-expense",
+  "hub": "year-end-tax",
+  "dir": "연말정산",
+  "fileName": "YearEndMedicalExpense",
+  "exportName": "연말정산YearEndMedicalExpenseSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\연말정산\\YearEndMedicalExpense.tsx",
+  "title": "연말정산 의료비는 어디까지 공제되나요? 조건부터 조회까지",
+  "subs": [
+    "연말정산 의료비 공제 조건",
+    "연말정산 의료비 한도",
+    "연말정산 의료비 실비",
+    "연말정산 의료비 조회"
+  ],
+  "deflect": true,
+  "created": "2026-10-20T02:44:21.981Z"
+}
