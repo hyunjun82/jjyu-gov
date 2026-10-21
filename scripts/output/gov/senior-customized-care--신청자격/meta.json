@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "senior-customized-care--신청자격",
+  "slug": "신청자격",
+  "hub": "senior-customized-care",
+  "dir": "노인맞춤돌봄",
+  "fileName": "신청자격",
+  "exportName": "노인맞춤돌봄신청자격SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인맞춤돌봄\\신청자격.tsx",
+  "title": "노인맞춤돌봄서비스는 누가 받나요? 대상부터 신청 자격까지",
+  "subs": [
+    "노인맞춤돌봄서비스 대상",
+    "노인맞춤돌봄서비스 대상자",
+    "노인맞춤돌봄서비스란",
+    "노인맞춤돌봄서비스 신청 자격"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:31:50.637Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "emergency-welfare-support--소득재산기준",
+  "slug": "소득재산기준",
+  "hub": "emergency-welfare-support",
+  "dir": "긴급복지",
+  "fileName": "소득재산기준",
+  "exportName": "긴급복지소득재산기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\긴급복지\\소득재산기준.tsx",
+  "title": "긴급복지지원금 조건은 어떻게 되나요? 생계부터 주거까지",
+  "subs": [
+    "긴급복지지원금 조건",
+    "긴급복지 생계지원금 조건",
+    "긴급복지 의료지원 조건",
+    "긴급복지 주거지원 조건"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T01:56:27.109Z"
+}

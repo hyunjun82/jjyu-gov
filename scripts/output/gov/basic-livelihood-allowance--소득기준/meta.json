@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--소득기준",
+  "slug": "소득기준",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "소득기준",
+  "exportName": "기초수급소득기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\소득기준.tsx",
+  "title": "기초생활수급자 조건은 어떻게 되나요? 선정기준부터 계산 방법까지",
+  "subs": [
+    "기초생활수급자 조건",
+    "기초생활수급자 선정기준",
+    "기초생활수급자 소득인정액",
+    "기초생활수급자 소득인정액 계산 방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T01:42:32.190Z"
+}

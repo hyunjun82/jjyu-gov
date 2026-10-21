@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "senior-customized-care--신청방법",
+  "slug": "신청방법",
+  "hub": "senior-customized-care",
+  "dir": "노인맞춤돌봄",
+  "fileName": "신청방법",
+  "exportName": "노인맞춤돌봄신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인맞춤돌봄\\신청방법.tsx",
+  "title": "노인맞춤돌봄서비스 신청은 어디서 하나요? 방법부터 비용까지",
+  "subs": [
+    "노인맞춤돌봄서비스 신청",
+    "노인맞춤돌봄서비스 신청방법",
+    "노인맞춤돌봄서비스 수행기관",
+    "노인맞춤돌봄서비스 비용"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T01:52:19.050Z"
+}

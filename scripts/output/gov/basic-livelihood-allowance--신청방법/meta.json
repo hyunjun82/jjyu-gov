@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--신청방법",
+  "slug": "신청방법",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "신청방법",
+  "exportName": "기초수급신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\신청방법.tsx",
+  "title": "기초생활수급자 신청은 어떻게 하나요? 서류부터 확인방법까지",
+  "subs": [
+    "기초생활수급자 신청서류",
+    "기초생활수급자 신청방법",
+    "기초생활수급자 신청 후 결과 기간",
+    "기초생활수급자 신청확인방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:58:00.281Z"
+}

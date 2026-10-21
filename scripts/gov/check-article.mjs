@@ -418,7 +418,9 @@ export function checkArticle(slug, specText = specNumsText(slug)) {
   const nt = norm(text);
   const articleNums = new Set(strings.flatMap(numsLoose));
   for (const x of facts.filter((f) => f.must)) {
-    const vn = numsLoose(x.value).filter((n) => !/^\d{1,2}\.\d{1,2}$/.test(n));
+    const vAll = numsLoose(x.value);
+    // 원문의 연도 줄임(’26)은 글에서 2026 으로 풀어 쓴다 — 풀이가 함께 있으면 줄임 숫자(26)는 요구하지 않는다 (2026-10-21 연탄전환 긴급복지 동절기)
+    const vn = vAll.filter((n) => !/^\d{1,2}\.\d{1,2}$/.test(n) && !(/^\d{2}$/.test(n) && (vAll.includes(String(2000 + +n)) || vAll.includes(String(1900 + +n)))));
     // 핵심어는 낱말들이 한 문장 안에 다 있으면 된다 — 글자 그대로 요구하면 "환불 이용자로 보아" 같은 억지 문장이 생긴다
     const words = String(x.key || '').split(/\s+/).filter(Boolean);
     const keyOk = !words.length || nt.includes(norm(x.key)) || sentences.some((s) => words.every((w) => s.includes(w)));

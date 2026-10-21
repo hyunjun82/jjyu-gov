@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--65세이상",
+  "slug": "65세이상",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "65세이상",
+  "exportName": "기초수급65세이상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\65세이상.tsx",
+  "title": "어르신은 기초생활수급 조건이 다른가요? 65세부터 노인연금까지",
+  "subs": [
+    "기초생활수급자 65세이상",
+    "기초생활수급자 소득인정액",
+    "기초생활수급자 노인일자리",
+    "기초생활수급자 노인연금"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T03:09:05.851Z"
+}

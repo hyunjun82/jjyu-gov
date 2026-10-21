@@ -1,0 +1,66 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.energyv.or.kr/info/coal_support_info.do",
+    "finalUrl": "https://www.energyv.or.kr/info/coal_support_info.do",
+    "title": "연탄전환 에너지바우처란? > 연탄전환 에너지바우처 안내 > 에너지바우처 | 에너지바우처",
+    "file": "src-1.txt",
+    "chars": 2133,
+    "tables": 1,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "과학기술정보통신부 WA(WEB접근성) 품질인증 마크 웹와치(WebWatch) 2026.08.26 ~ 2027.08.25"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.energyv.or.kr/info/coal_apl_info.do",
+    "finalUrl": "https://www.energyv.or.kr/info/coal_apl_info.do",
+    "title": "연탄전환 에너지바우처 신청안내 > 연탄전환 에너지바우처 안내 > 에너지바우처 | 에너지바우처",
+    "file": "src-2.txt",
+    "chars": 1838,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "과학기술정보통신부 WA(WEB접근성) 품질인증 마크 웹와치(WebWatch) 2026.08.26 ~ 2027.08.25"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.energyv.or.kr/info/coal_use_info.do",
+    "finalUrl": "https://www.energyv.or.kr/info/coal_use_info.do",
+    "title": "연탄전환 에너지바우처 사용안내 > 연탄전환 에너지바우처 안내 > 에너지바우처 | 에너지바우처",
+    "file": "src-3.txt",
+    "chars": 2191,
+    "tables": 2,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "과학기술정보통신부 WA(WEB접근성) 품질인증 마크 웹와치(WebWatch) 2026.08.26 ~ 2027.08.25"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.energyv.or.kr/info/coal_apl_info.do",
+    "finalUrl": "https://www.energyv.or.kr/info/coal_apl_info.do",
+    "title": "연탄전환 에너지바우처 신청안내 > 연탄전환 에너지바우처 안내 > 에너지바우처 | 에너지바우처",
+    "file": "src-4.txt",
+    "chars": 1838,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "과학기술정보통신부 WA(WEB접근성) 품질인증 마크 웹와치(WebWatch) 2026.08.26 ~ 2027.08.25"
+      }
+    ],
+    "primary": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-voucher--연탄전환",
+  "slug": "연탄전환",
+  "hub": "energy-voucher",
+  "dir": "에너지바우처",
+  "fileName": "연탄전환",
+  "exportName": "에너지바우처연탄전환SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지바우처\\연탄전환.tsx",
+  "title": "연탄전환 에너지바우처는 누가 받나요? 대상부터 사용기간까지",
+  "subs": [
+    "연탄전환 에너지바우처 대상",
+    "연탄전환 에너지바우처 신청방법",
+    "연탄전환 에너지바우처 금액",
+    "연탄전환 에너지바우처 사용기간"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T01:18:01.268Z"
+}

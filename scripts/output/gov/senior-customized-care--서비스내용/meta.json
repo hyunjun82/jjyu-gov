@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "senior-customized-care--서비스내용",
+  "slug": "서비스내용",
+  "hub": "senior-customized-care",
+  "dir": "노인맞춤돌봄",
+  "fileName": "서비스내용",
+  "exportName": "노인맞춤돌봄서비스SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인맞춤돌봄\\서비스내용.tsx",
+  "title": "노인맞춤돌봄서비스 내용에는 뭐가 있나요? 안부확인부터 병원동행까지",
+  "subs": [
+    "노인맞춤돌봄서비스 내용",
+    "노인맞춤돌봄서비스 안부확인",
+    "노인맞춤돌봄서비스 가사지원",
+    "노인맞춤돌봄서비스 병원동행"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T01:42:31.814Z"
+}

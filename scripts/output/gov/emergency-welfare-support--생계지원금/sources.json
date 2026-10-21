@@ -1,0 +1,76 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010100",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010100",
+    "title": "긴급복지지원 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 2994,
+    "tables": 2,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "긴급지원 절차"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269954",
+    "finalUrl": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269954",
+    "title": "행정규칙 > 본문 | 국가법령정보센터",
+    "file": "src-2.txt",
+    "chars": 2834,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "img159360315"
+      },
+      {
+        "file": "img-2-2.png",
+        "alt": "img159360319"
+      },
+      {
+        "file": "img-2-3.png",
+        "alt": "img159360323"
+      },
+      {
+        "file": "img-2-4.png",
+        "alt": "img159360325"
+      },
+      {
+        "file": "img-2-5.png",
+        "alt": "img159360333"
+      },
+      {
+        "file": "img-2-6.png",
+        "alt": "img159360335"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-3.txt",
+    "chars": 2274,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-4.txt",
+    "chars": 2274,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "emergency-welfare-support--신청방법",
+  "slug": "신청방법",
+  "hub": "emergency-welfare-support",
+  "dir": "긴급복지",
+  "fileName": "신청방법",
+  "exportName": "긴급복지신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\긴급복지\\신청방법.tsx",
+  "title": "긴급복지지원금 신청은 어떻게 하나요? 서류부터 신고의무까지",
+  "subs": [
+    "긴급복지지원금 신청",
+    "긴급복지 신청 서류",
+    "긴급복지 의료지원 신청",
+    "긴급복지지원 신고의무"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:15:48.812Z"
+}

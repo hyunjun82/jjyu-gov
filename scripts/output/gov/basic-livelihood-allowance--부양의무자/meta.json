@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--부양의무자",
+  "slug": "부양의무자",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "부양의무자",
+  "exportName": "기초수급부양의무자SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\부양의무자.tsx",
+  "title": "기초생활수급자 부양의무자 기준은 아직 있나요? 소득부터 폐지까지",
+  "subs": [
+    "기초생활수급자 부양의무자 소득",
+    "기초생활수급자 부양의무자 재산",
+    "기초생활수급자 부양의무자 기준",
+    "기초생활수급자 부양의무자 폐지"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:22:07.692Z"
+}

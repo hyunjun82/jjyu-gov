@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--근로소득공제",
+  "slug": "근로소득공제",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "근로소득공제",
+  "exportName": "기초수급근로소득공제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\근로소득공제.tsx",
+  "title": "수급자가 일하면 급여는 어떻게 되나요? 근로소득부터 신고방법까지",
+  "subs": [
+    "기초생활수급자 근로소득",
+    "기초생활수급자 근로소득 기준",
+    "기초생활수급자 근로소득 공제 기준",
+    "기초생활수급자 일하면 신고방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:59:03.629Z"
+}

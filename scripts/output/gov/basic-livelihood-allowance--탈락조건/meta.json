@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--탈락조건",
+  "slug": "탈락조건",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "탈락조건",
+  "exportName": "기초수급탈락조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\탈락조건.tsx",
+  "title": "통장 잔액이 많으면 기초생활수급에서 탈락하나요? 조사부터 재신청까지",
+  "subs": [
+    "기초생활수급자 통장 잔액",
+    "기초생활수급자 통장조사",
+    "기초생활수급자 탈락 조건",
+    "기초생활수급자 탈락 재신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:10:23.833Z"
+}

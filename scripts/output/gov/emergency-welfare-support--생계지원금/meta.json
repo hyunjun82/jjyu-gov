@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "emergency-welfare-support--생계지원금",
+  "slug": "생계지원금",
+  "hub": "emergency-welfare-support",
+  "dir": "긴급복지",
+  "fileName": "생계지원금",
+  "exportName": "긴급복지생계지원금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\긴급복지\\생계지원금.tsx",
+  "title": "긴급복지 생계지원금은 얼마 나오나요? 연장부터 2차까지",
+  "subs": [
+    "긴급복지 생계지원금",
+    "긴급복지 생계지원금 연장",
+    "긴급복지 생계지원금 지급일",
+    "긴급복지 생계지원금 2차"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T01:44:37.771Z"
+}

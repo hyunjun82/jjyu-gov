@@ -96,9 +96,9 @@ export const emergencyWelfareSupportPolicy = {
 } as const;
 
 export const emergencyWelfareSupportSpokes = [
-  { slug: '위기사유', role: 'eligibility', title: '긴급복지지원 위기사유, 실직 질병 화재 가정폭력', content: '주소득자 사망·실직, 중한 질병, 화재·재난, 가정폭력 등.' },
-  { slug: '생계지원금', role: 'amount', title: '긴급복지 생계지원금, 2026 4인 월 199만원', content: '1인 783,000·4인 1,994,600원, 의료 최대 300만.' },
-  { slug: '소득재산기준', role: 'eligibility', title: '긴급복지지원 소득 재산 기준, 중위 75% 이하', content: '소득 중위 75%(4인 487만), 재산 대도시 2.41억 이하.' },
-  { slug: '신청방법', role: 'apply', title: '긴급복지지원 신청 방법, 129 24시간 선지원', content: '시군구·읍면동·☎129, 선지원 후심사, 이웃 신고.' },
-  { slug: '지원종류', role: 'usage', title: '긴급복지지원 종류, 생계 의료 주거 연료비', content: '생계·의료·주거·교육·연료·해산·장제비 등.' },
+  { slug: '위기사유', role: 'eligibility', title: '긴급복지 위기사유에는 뭐가 해당하나요? 제도부터 지원법까지', content: '주소득자 사망·실직, 중한 질병, 화재·재난, 가정폭력 등.' },
+  { slug: '생계지원금', role: 'amount', title: '긴급복지 생계지원금은 얼마 나오나요? 연장부터 2차까지', content: '1인 783,000·4인 1,994,600원, 의료 최대 300만.' },
+  { slug: '소득재산기준', role: 'eligibility', title: '긴급복지지원금 조건은 어떻게 되나요? 생계부터 주거까지', content: '소득 중위 75%(4인 487만), 재산 대도시 2.41억 이하.' },
+  { slug: '신청방법', role: 'apply', title: '긴급복지지원금 신청은 어떻게 하나요? 서류부터 신고의무까지', content: '시군구·읍면동·☎129, 선지원 후심사, 이웃 신고.' },
+  { slug: '지원종류', role: 'usage', title: '긴급복지지원은 어떤 종류가 있나요? 생계부터 연료비까지', content: '생계·의료·주거·교육·연료·해산·장제비 등.' },
 ];

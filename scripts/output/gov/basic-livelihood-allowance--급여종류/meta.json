@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--급여종류",
+  "slug": "급여종류",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "급여종류",
+  "exportName": "기초수급급여종류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\급여종류.tsx",
+  "title": "기초생활수급자 급여에는 뭐가 있나요? 종류부터 주거·의료까지",
+  "subs": [
+    "기초생활수급자 급여 종류",
+    "기초생활수급자 급여 지급일",
+    "기초생활수급자 주거급여",
+    "기초생활수급자 의료급여"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:48:59.424Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "emergency-welfare-support--위기사유",
+  "slug": "위기사유",
+  "hub": "emergency-welfare-support",
+  "dir": "긴급복지",
+  "fileName": "위기사유",
+  "exportName": "긴급복지위기사유SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\긴급복지\\위기사유.tsx",
+  "title": "긴급복지 위기사유에는 뭐가 해당하나요? 제도부터 지원법까지",
+  "subs": [
+    "긴급복지 위기사유",
+    "긴급복지지원제도",
+    "긴급복지지원사업",
+    "긴급복지지원법"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:27:52.163Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "senior-customized-care--생활지원사",
+  "slug": "생활지원사",
+  "hub": "senior-customized-care",
+  "dir": "노인맞춤돌봄",
+  "fileName": "생활지원사",
+  "exportName": "노인맞춤돌봄생활지원사SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인맞춤돌봄\\생활지원사.tsx",
+  "title": "노인맞춤돌봄 생활지원사는 어떻게 되나요? 채용부터 자격증까지",
+  "subs": [
+    "노인맞춤돌봄서비스 생활지원사",
+    "노인맞춤돌봄서비스 생활지원사 채용",
+    "노인맞춤돌봄서비스 생활지원사 채용공고",
+    "노인맞춤돌봄서비스 자격증"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T03:11:21.700Z"
+}

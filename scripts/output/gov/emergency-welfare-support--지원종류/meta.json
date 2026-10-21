@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "emergency-welfare-support--지원종류",
+  "slug": "지원종류",
+  "hub": "emergency-welfare-support",
+  "dir": "긴급복지",
+  "fileName": "지원종류",
+  "exportName": "긴급복지지원종류SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\긴급복지\\지원종류.tsx",
+  "title": "긴급복지지원은 어떤 종류가 있나요? 생계부터 연료비까지",
+  "subs": [
+    "긴급복지 생계지원",
+    "긴급복지 의료지원",
+    "긴급복지 주거지원",
+    "긴급복지 연료비"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:45:25.970Z"
+}

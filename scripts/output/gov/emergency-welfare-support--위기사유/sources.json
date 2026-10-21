@@ -1,0 +1,56 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010100",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010100",
+    "title": "긴급복지지원 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 2979,
+    "tables": 2,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "긴급지원 절차"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.easylaw.go.kr",
+    "finalUrl": "https://www.easylaw.go.kr/CSP/Main.laf",
+    "title": "찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 2429,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-3.txt",
+    "chars": 2274,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010100",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010100",
+    "title": "긴급복지지원 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-4.txt",
+    "chars": 2994,
+    "tables": 2,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "긴급지원 절차"
+      }
+    ],
+    "primary": true
+  }
+]

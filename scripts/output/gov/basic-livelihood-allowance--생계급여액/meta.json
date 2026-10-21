@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "basic-livelihood-allowance--생계급여액",
+  "slug": "생계급여액",
+  "hub": "basic-livelihood-allowance",
+  "dir": "기초생활수급",
+  "fileName": "생계급여액",
+  "exportName": "기초수급생계급여액SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\생계급여액.tsx",
+  "title": "기초생활수급자 생계급여는 얼마 받나요? 금액부터 지원금까지",
+  "subs": [
+    "기초생활수급자 생계급여 금액",
+    "기초생활수급자 생계급여 금액 1인",
+    "기초생활수급자 생계급여",
+    "기초생활수급자 지원금"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T02:34:38.537Z"
+}

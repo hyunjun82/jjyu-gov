@@ -1,0 +1,61 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010400",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010400",
+    "title": "조사내용 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 3556,
+    "tables": 4,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "title": "수급자선정기준 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-2.txt",
+    "chars": 4431,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "부양의무자 부양능력 판정 도해"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010200",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010200",
+    "title": "보장절차 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 1697,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "보장절차"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010200",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010200",
+    "title": "보장절차 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-4.txt",
+    "chars": 1697,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "보장절차"
+      }
+    ],
+    "primary": true
+  }
+]
