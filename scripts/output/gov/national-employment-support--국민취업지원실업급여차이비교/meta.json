@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--국민취업지원실업급여차이비교",
+  "slug": "국민취업지원실업급여차이비교",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "국민취업지원실업급여차이비교",
+  "exportName": "국민취업지원제도국민취업지원실업급여차이비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\국민취업지원실업급여차이비교.tsx",
+  "title": "국민취업지원제도와 실업급여는 같이 받나요? 차이부터 중복까지",
+  "subs": [
+    "국민취업지원제도 실업급여 차이",
+    "국민취업지원제도 실업급여 동시",
+    "국민취업지원제도 실업급여 후",
+    "국민취업지원제도 실업급여 중복"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T05:16:40.662Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--1유형2유형자격차이신청방법",
+  "slug": "1유형2유형자격차이신청방법",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "1유형2유형자격차이신청방법",
+  "exportName": "국민취업지원제도1유형2유형자격차이신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\1유형2유형자격차이신청방법.tsx",
+  "title": "국민취업지원제도는 어떻게 나뉘나요? 1유형부터 신청까지",
+  "subs": [
+    "국민취업지원제도 1유형",
+    "국민취업지원제도 2유형",
+    "국민취업지원제도 조건",
+    "국민취업지원제도 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T04:28:07.877Z"
+}

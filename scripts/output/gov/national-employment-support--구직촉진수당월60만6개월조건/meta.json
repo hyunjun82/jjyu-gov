@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--구직촉진수당월60만6개월조건",
+  "slug": "구직촉진수당월60만6개월조건",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "구직촉진수당월60만6개월조건",
+  "exportName": "국민취업지원제도구직촉진수당월60만6개월조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\구직촉진수당월60만6개월조건.tsx",
+  "title": "국민취업지원제도 구직촉진수당은 얼마인가요? 조건부터 지급일까지",
+  "subs": [
+    "국민취업지원제도 구직촉진수당 조건",
+    "국민취업지원제도 구직촉진수당 입금",
+    "국민취업지원제도 구직촉진수당 1회차",
+    "국민취업지원제도 구직촉진수당 지급일"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T04:46:58.218Z"
+}

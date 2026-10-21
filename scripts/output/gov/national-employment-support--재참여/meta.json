@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--재참여",
+  "slug": "재참여",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "재참여",
+  "exportName": "국취재참여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\재참여.tsx",
+  "title": "국민취업지원제도 재참여는 언제 되나요? 조건부터 3년까지",
+  "subs": [
+    "국민취업지원제도 재참여 조건",
+    "국민취업지원제도 재참여 신청",
+    "국민취업지원제도 재참여 기간",
+    "국민취업지원제도 재참여 3년"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T05:05:16.368Z"
+}

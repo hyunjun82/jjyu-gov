@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--구직활동",
+  "slug": "구직활동",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "구직활동",
+  "exportName": "국취구직활동SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\구직활동.tsx",
+  "title": "국민취업지원제도 구직활동은 뭘 해야 하나요? 인정부터 증명까지",
+  "subs": [
+    "국민취업지원제도 구직활동 인정",
+    "국민취업지원제도 구직활동 종류",
+    "국민취업지원제도 구직활동 방법",
+    "국민취업지원제도 구직활동 증명"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T05:04:18.831Z"
+}

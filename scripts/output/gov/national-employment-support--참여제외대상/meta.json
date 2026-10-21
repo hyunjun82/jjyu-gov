@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--참여제외대상",
+  "slug": "참여제외대상",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "참여제외대상",
+  "exportName": "국취참여제외대상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\참여제외대상.tsx",
+  "title": "국민취업지원제도에서 빠지는 사람은 누구인가요? 제외대상부터 재산까지",
+  "subs": [
+    "국민취업지원제도 제외대상",
+    "국민취업지원제도 조건부수급자",
+    "국민취업지원제도 소득기준",
+    "국민취업지원제도 재산"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T04:46:45.996Z"
+}

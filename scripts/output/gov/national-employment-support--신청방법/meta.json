@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--신청방법",
+  "slug": "신청방법",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "신청방법",
+  "exportName": "국취신청SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\신청방법.tsx",
+  "title": "국민취업지원제도 신청은 어떻게 하나요? 서류부터 결과까지",
+  "subs": [
+    "국민취업지원제도 신청 서류",
+    "국민취업지원제도 신청방법",
+    "국민취업지원제도 신청기간",
+    "국민취업지원제도 신청 결과 언제"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T04:49:21.699Z"
+}

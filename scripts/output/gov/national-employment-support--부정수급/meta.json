@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--부정수급",
+  "slug": "부정수급",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "부정수급",
+  "exportName": "국취부정수급SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\부정수급.tsx",
+  "title": "국민취업지원제도 부정수급은 처벌받나요? 기준부터 신고방법까지",
+  "subs": [
+    "국민취업지원제도 부정수급",
+    "국민취업지원제도 부정수급 처벌",
+    "국민취업지원제도 부정수급 신고",
+    "국민취업지원제도 부정수급 신고방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T04:28:07.881Z"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316&systClId=SC00000206",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316&systClId=SC00000206",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>국민취업지원제도",
+    "file": "src-1.txt",
+    "chars": 10818,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/법령/구직자취업촉진및생활안정지원에관한법률",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AC%EC%A7%81%EC%9E%90%EC%B7%A8%EC%97%85%EC%B4%89%EC%A7%84%EB%B0%8F%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EC%A7%80%EC%9B%90%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0",
+    "title": "구직자취업촉진및생활안정지원에관한법률",
+    "file": "src-2.txt",
+    "chars": 21386,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316&systClId=SC00000206",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316&systClId=SC00000206",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>국민취업지원제도",
+    "file": "src-3.txt",
+    "chars": 10818,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

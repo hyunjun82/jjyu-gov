@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--취업성공수당150만원조건",
+  "slug": "취업성공수당150만원조건",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "취업성공수당150만원조건",
+  "exportName": "국민취업지원제도취업성공수당150만원조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\취업성공수당150만원조건.tsx",
+  "title": "취업성공수당은 언제 받나요? 6개월부터 서류까지",
+  "subs": [
+    "국민취업지원제도 취업성공수당 6개월",
+    "국민취업지원제도 취업성공수당 1년",
+    "국민취업지원제도 취업성공수당 조건",
+    "국민취업지원제도 취업성공수당 서류"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T05:05:03.258Z"
+}

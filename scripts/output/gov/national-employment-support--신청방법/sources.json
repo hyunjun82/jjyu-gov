@@ -1,0 +1,53 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do",
+    "finalUrl": "https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do",
+    "title": "취업지원신청 소개 | 국민취업지원제도 | 취업지원",
+    "file": "src-1.txt",
+    "chars": 13327,
+    "tables": 10,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "청년 특화 취업지원 프로그램 -목적 : 청년의 노동시장 진입 촉진과 빈일자리 구인난을 지원하기 위하여 2유형 청년 대상 특화 취업지원 프로그램 운영. -지원대상: 1개월 이상 직업훈련 수료 후 빈일자리 업종＊에 취업한 Ⅱ 유형 청년(25.1.1. 이후 취업자) ＊제조업, 제조업 외 8개** 업종은 범정부 일자리TF 추천기업 2,737개소 (고용센터 확인) **물류ㆍ운송업, 보건ㆍ복지서비스업, 음식점업, 농업, 건설업, 해운업, 수산업, 자원순환업. 지원내용: 1개월 이상 직업훈련수료 후 빈일자리 업종에 취업하여 6개월 근속하는 경우 훈련참여수당(20만원, 최대 120만원)및 취업성공수당(40만원) 지원"
+      },
+      {
+        "file": "img-1-2.png",
+        "alt": "소상공인 특화 취업지원 프로그램으로 상세내용 하단 참고"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316&systClId=SC00000206",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316&systClId=SC00000206",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>국민취업지원제도",
+    "file": "src-2.txt",
+    "chars": 10818,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do",
+    "finalUrl": "https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do",
+    "title": "취업지원신청 소개 | 국민취업지원제도 | 취업지원",
+    "file": "src-3.txt",
+    "chars": 13327,
+    "tables": 10,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "청년 특화 취업지원 프로그램 -목적 : 청년의 노동시장 진입 촉진과 빈일자리 구인난을 지원하기 위하여 2유형 청년 대상 특화 취업지원 프로그램 운영. -지원대상: 1개월 이상 직업훈련 수료 후 빈일자리 업종＊에 취업한 Ⅱ 유형 청년(25.1.1. 이후 취업자) ＊제조업, 제조업 외 8개** 업종은 범정부 일자리TF 추천기업 2,737개소 (고용센터 확인) **물류ㆍ운송업, 보건ㆍ복지서비스업, 음식점업, 농업, 건설업, 해운업, 수산업, 자원순환업. 지원내용: 1개월 이상 직업훈련수료 후 빈일자리 업종에 취업하여 6개월 근속하는 경우 훈련참여수당(20만원, 최대 120만원)및 취업성공수당(40만원) 지원"
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": "소상공인 특화 취업지원 프로그램으로 상세내용 하단 참고"
+      }
+    ],
+    "primary": true
+  }
+]

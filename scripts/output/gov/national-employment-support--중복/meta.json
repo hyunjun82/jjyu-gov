@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-employment-support--중복",
+  "slug": "중복",
+  "hub": "national-employment-support",
+  "dir": "국민취업지원제도",
+  "fileName": "중복",
+  "exportName": "국취중복SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국민취업지원제도\\중복.tsx",
+  "title": "국민취업지원제도는 다른 혜택과 겹쳐도 되나요? 청년수당부터 주거급여까지",
+  "subs": [
+    "국민취업지원제도 청년수당 중복",
+    "국민취업지원제도 긴급복지 중복",
+    "국민취업지원제도 내일배움카드 중복",
+    "국민취업지원제도 주거급여 중복"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T04:28:07.622Z"
+}
