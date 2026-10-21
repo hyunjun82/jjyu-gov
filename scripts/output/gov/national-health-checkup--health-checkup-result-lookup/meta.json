@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-health-checkup--health-checkup-result-lookup",
+  "slug": "health-checkup-result-lookup",
+  "hub": "national-health-checkup",
+  "dir": "국가건강검진",
+  "fileName": "HealthCheckupResultLookup",
+  "exportName": "국가건강검진HealthCheckupResultLookupSpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국가건강검진\\HealthCheckupResultLookup.tsx",
+  "title": "건강검진 결과 조회는 어떻게 하나요? 모바일부터 출력까지",
+  "subs": [
+    "건강검진 결과 조회 모바일",
+    "건강검진 결과 조회 언제",
+    "건강검진 결과 조회 안뜸",
+    "건강검진 결과 출력"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T00:36:10.202Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-health-checkup--health-checkup-unexamined-apply",
+  "slug": "health-checkup-unexamined-apply",
+  "hub": "national-health-checkup",
+  "dir": "국가건강검진",
+  "fileName": "HealthCheckupUnexaminedApply",
+  "exportName": "국가건강검진HealthCheckupUnexaminedApplySpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국가건강검진\\HealthCheckupUnexaminedApply.tsx",
+  "title": "건강검진 미수검자 신청은 어떻게 하나요? 조회부터 기간까지",
+  "subs": [
+    "건강검진 미수검자 조회",
+    "건강검진 미수검자 신청",
+    "건강검진 미수검자 추가검진",
+    "건강검진 미수검자 기간"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T00:06:11.264Z"
+}

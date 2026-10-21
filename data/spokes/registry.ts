@@ -2209,6 +2209,8 @@ import { 연말정산YearEndAmendedReturnSpokeContent } from '@/app/policy/[id]/
 import { 연말정산YearEndAdditionalPaymentSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndAdditionalPayment';
 import { 연말정산YearEndTraditionalMarketSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndTraditionalMarket';
 import { 연말정산YearEndWithholdingReceiptSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndWithholdingReceipt';
+import { 국가건강검진HealthCheckupUnexaminedApplySpokeContent } from '@/app/policy/[id]/[spoke]/content/국가건강검진/HealthCheckupUnexaminedApply';
+import { 국가건강검진HealthCheckupResultLookupSpokeContent } from '@/app/policy/[id]/[spoke]/content/국가건강검진/HealthCheckupResultLookup';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -4158,6 +4160,8 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   },
 
   'national-health-checkup': {
+    'health-checkup-result-lookup': 국가건강검진HealthCheckupResultLookupSpokeContent,
+    'health-checkup-unexamined-apply': 국가건강검진HealthCheckupUnexaminedApplySpokeContent,
     '국가건강검진대상자짝수홀수출생연도': 국가건강검진국가건강검진대상자짝수홀수출생연도SpokeContent,
     '국가건강검진예약방법지정병원':       국가건강검진국가건강검진예약방법지정병원SpokeContent,
     '국가건강검진연령별항목검사목록':     국가건강검진국가건강검진연령별항목검사목록SpokeContent,

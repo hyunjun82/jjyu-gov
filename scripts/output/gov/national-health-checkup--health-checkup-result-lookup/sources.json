@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do",
+    "finalUrl": "https://www.nhis.or.kr/nhis/healthin/wbhaca04500m01.do",
+    "title": "일반건강검진 < 건강검진 실시안내 < 나의 건강 < 건강모아 | 국민건강보험",
+    "file": "src-1.txt",
+    "chars": 5115,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nhis.or.kr/static/html/guide/sub2_010502.html",
+    "finalUrl": "https://www.nhis.or.kr/static/html/guide/sub2_010502.html",
+    "title": "사이버민원센터 이용가이드",
+    "file": "src-2.txt",
+    "chars": 441,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "나의 검진결과 내역 확인에 대한 설명은 본 이미지 하단에 나열 하였습니다."
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nhis.or.kr/nhis/healthin/retrieveMyHealthCareInfo.do",
+    "finalUrl": "https://www.nhis.or.kr/nhis/healthin/retrieveMyHealthCareInfo.do",
+    "title": "일반건강검진 < 건강검진 실시안내 < 나의 건강 < 건강모아 | 국민건강보험",
+    "file": "src-3.txt",
+    "chars": 5115,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nhis.or.kr/nhis/healthin/retrieveHealthinCheckUpTargetResultPerson.do",
+    "finalUrl": "https://www.nhis.or.kr/nhis/etc/personalLoginPage.do",
+    "title": "개인 | 로그인 < 회원서비스 < 로그인ㆍ회원가입 | 국민건강보험",
+    "file": "src-4.txt",
+    "chars": 1936,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

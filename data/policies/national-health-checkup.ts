@@ -259,6 +259,8 @@ export const nationalHealthCheckupPolicy: PolicyData = {
 
 /* slug = SpokesRegistry 한글 키와 1:1 통일 (CLAUDE.md 옵션 A) */
 export const nationalHealthCheckupSpokes: SpokeList = [
+  { slug: 'health-checkup-result-lookup', role: 'check', title: '건강검진 결과 조회는 어떻게 하나요? 모바일부터 출력까지' },
+  { slug: 'health-checkup-unexamined-apply', role: 'apply', title: '건강검진 미수검자 신청은 어떻게 하나요? 조회부터 기간까지' },
   { slug: '국가건강검진대상자짝수홀수출생연도', label: '검진대상(짝수·홀수)' },
   { slug: '국가건강검진연령별항목검사목록',   label: '연령별 검사항목' },
   { slug: '국가건강검진예약방법지정병원',     label: '예약·검진기관' },

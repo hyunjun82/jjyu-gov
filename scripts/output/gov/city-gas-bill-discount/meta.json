@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "city-gas-bill-discount",
+  "slug": "city-gas-bill-discount",
+  "file": "data\\policies\\city-gas-bill-discount.ts",
+  "title": "도시가스 경감은 누가 받나요? 대상자부터 대신신청까지",
+  "subs": [
+    "도시가스 경감 대상자",
+    "도시가스 경감 신청",
+    "도시가스 경감 금액",
+    "도시가스요금경감 대신신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T00:51:30.747Z"
+}

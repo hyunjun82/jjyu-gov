@@ -479,6 +479,7 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { cityGasBillDiscountPolicy, cityGasBillDiscountSpokes } from './city-gas-bill-discount';
 import { nationalPensionEmployerArrearsPolicy, nationalPensionEmployerArrearsSpokes } from './national-pension-employer-arrears';
 import { subscriptionAccountCancellationPolicy, subscriptionAccountCancellationSpokes } from './subscription-account-cancellation';
 import { firstHomeSpecialSupplyApplicationPolicy, firstHomeSpecialSupplyApplicationSpokes } from './first-home-special-supply-application';
@@ -2090,6 +2091,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'city-gas-bill-discount': cityGasBillDiscountPolicy,
   'national-pension-employer-arrears': nationalPensionEmployerArrearsPolicy,
   'subscription-account-cancellation': subscriptionAccountCancellationPolicy,
   'first-home-special-supply-application': firstHomeSpecialSupplyApplicationPolicy,
@@ -3822,6 +3824,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'city-gas-bill-discount': cityGasBillDiscountSpokes,
   'national-pension-employer-arrears': nationalPensionEmployerArrearsSpokes,
   'subscription-account-cancellation': subscriptionAccountCancellationSpokes,
   'first-home-special-supply-application': firstHomeSpecialSupplyApplicationSpokes,

@@ -1,0 +1,35 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.kogas.or.kr/site/koGas/1020408030000",
+    "finalUrl": "https://www.kogas.or.kr/site/koGas/1020408030000",
+    "title": "한국가스공사>국민소통>고객지원제도>에너지복지제도>사회적 배려대상자",
+    "file": "src-1.txt",
+    "chars": 3684,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kogas.or.kr/site/koGas/1020408010000",
+    "finalUrl": "https://www.kogas.or.kr/site/koGas/1020408010000",
+    "title": "한국가스공사>국민소통>고객지원제도>에너지복지제도>도시가스요금경감신청",
+    "file": "src-2.txt",
+    "chars": 2348,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.kogas.or.kr/site/koGas/1020408010000",
+    "finalUrl": "https://www.kogas.or.kr/site/koGas/1020408010000",
+    "title": "한국가스공사>국민소통>고객지원제도>에너지복지제도>도시가스요금경감신청",
+    "file": "src-3.txt",
+    "chars": 2348,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]
