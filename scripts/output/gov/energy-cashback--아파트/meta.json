@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-cashback--아파트",
+  "slug": "아파트",
+  "hub": "energy-cashback",
+  "dir": "에너지캐시백",
+  "fileName": "아파트",
+  "exportName": "에너지캐시백아파트SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지캐시백\\아파트.tsx",
+  "title": "아파트 에너지캐시백은 어떻게 받나요? 관리비부터 단지까지",
+  "subs": [
+    "아파트 에너지 캐시백",
+    "에너지캐시백 관리비",
+    "에너지캐시백 개별세대",
+    "에너지캐시백 단지"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T07:15:18.352Z"
+}

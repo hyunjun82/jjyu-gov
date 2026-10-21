@@ -1,0 +1,35 @@
+[
+  {
+    "n": 1,
+    "url": "https://en-ter.co.kr/ec/board/faq/info.do",
+    "finalUrl": "https://en-ter.co.kr/ec/board/faq/info.do",
+    "title": "에너지캐시백",
+    "file": "src-1.txt",
+    "chars": 7167,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://en-ter.co.kr/ec/apply/info/info.do",
+    "finalUrl": "https://en-ter.co.kr/ec/apply/info/info.do",
+    "title": "에너지캐시백",
+    "file": "src-2.txt",
+    "chars": 3053,
+    "tables": 4,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://en-ter.co.kr/ec/board/faq/info.do",
+    "finalUrl": "https://en-ter.co.kr/ec/board/faq/info.do",
+    "title": "에너지캐시백",
+    "file": "src-3.txt",
+    "chars": 7167,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

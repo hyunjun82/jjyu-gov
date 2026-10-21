@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-cashback--신청대상주민등록주택용기준",
+  "slug": "신청대상주민등록주택용기준",
+  "hub": "energy-cashback",
+  "dir": "에너지캐시백",
+  "fileName": "신청대상주민등록주택용기준",
+  "exportName": "에너지캐시백신청대상주민등록주택용기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지캐시백\\신청대상주민등록주택용기준.tsx",
+  "title": "에너지캐시백 신청 대상은 누구인가요? 주택용부터 제외 고객까지",
+  "subs": [
+    "주택용 에너지 캐시백",
+    "에너지 캐시백 대상",
+    "에너지 캐시백 복지할인",
+    "에너지 캐시백 제외 고객"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T07:31:19.994Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-cashback--조회확인",
+  "slug": "조회확인",
+  "hub": "energy-cashback",
+  "dir": "에너지캐시백",
+  "fileName": "조회확인",
+  "exportName": "에너지캐시백조회SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지캐시백\\조회확인.tsx",
+  "title": "에너지캐시백 얼마나 쌓였나요? 조회부터 환급까지",
+  "subs": [
+    "에너지캐시백 조회",
+    "에너지캐시백 내역",
+    "에너지 캐시백 지급방법",
+    "에너지 캐시백 환급"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T07:40:46.409Z"
+}

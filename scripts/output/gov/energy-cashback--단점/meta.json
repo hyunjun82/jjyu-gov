@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-cashback--단점",
+  "slug": "단점",
+  "hub": "energy-cashback",
+  "dir": "에너지캐시백",
+  "fileName": "단점",
+  "exportName": "에너지캐시백단점SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지캐시백\\단점.tsx",
+  "title": "한전 에너지캐시백 단점은 뭔가요? 불이익부터 이사까지",
+  "subs": [
+    "한전 에너지캐시백 단점",
+    "한전 에너지캐시백 불이익",
+    "한전 에너지캐시백 해지",
+    "한전 에너지캐시백 이사"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T07:15:18.123Z"
+}

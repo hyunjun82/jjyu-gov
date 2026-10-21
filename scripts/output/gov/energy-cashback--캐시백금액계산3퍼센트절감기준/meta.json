@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "energy-cashback--캐시백금액계산3퍼센트절감기준",
+  "slug": "캐시백금액계산3퍼센트절감기준",
+  "hub": "energy-cashback",
+  "dir": "에너지캐시백",
+  "fileName": "캐시백금액계산3퍼센트절감기준",
+  "exportName": "에너지캐시백캐시백금액계산3퍼센트절감기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\에너지캐시백\\캐시백금액계산3퍼센트절감기준.tsx",
+  "title": "에너지캐시백 금액은 어떻게 계산하나요? 절감량부터 단가까지",
+  "subs": [
+    "에너지캐시백 금액",
+    "에너지캐시백 절감량",
+    "에너지캐시백 절감률",
+    "에너지캐시백 단가"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T07:15:18.356Z"
+}
