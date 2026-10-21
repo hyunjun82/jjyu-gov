@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--모의감면계산",
+  "slug": "모의감면계산",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "모의감면계산",
+  "exportName": "새출발기금모의감면계산SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\모의감면계산.tsx",
+  "title": "새출발기금 내 감면율은 얼마인가요? 변제가능률부터 모의계산까지",
+  "subs": [
+    "새출발기금 변제가능률",
+    "새출발기금 모의계산",
+    "새출발기금 소득 재산",
+    "새출발기금 감면 계산"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:29:51.881Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--새출발기금단점주의사항신청전",
+  "slug": "새출발기금단점주의사항신청전",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "새출발기금단점주의사항신청전",
+  "exportName": "새출발기금새출발기금단점주의사항신청전SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\새출발기금단점주의사항신청전.tsx",
+  "title": "새출발기금 단점은 뭔가요? 추심부터 후기까지",
+  "subs": [
+    "새출발기금 단점",
+    "새출발기금 신청 후 추심",
+    "새출발기금 신청 후 대출가능",
+    "새출발기금 후기"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:13:30.103Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--상환유예",
+  "slug": "상환유예",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "상환유예",
+  "exportName": "새출발기금상환유예SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\상환유예.tsx",
+  "title": "새출발기금 상환유예는 어떻게 하나요? 거치기간부터 연장까지",
+  "subs": [
+    "새출발기금 상환유예",
+    "새출발기금 상환유예방법",
+    "새출발기금 거치기간",
+    "새출발기금 거치기간연장"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:02:00.443Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--부실우려차주금리조정",
+  "slug": "부실우려차주금리조정",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "부실우려차주금리조정",
+  "exportName": "새출발기금부실우려차주금리조정SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\부실우려차주금리조정.tsx",
+  "title": "새출발기금 부실우려차주는 이자가 얼마나 줄어드나요? 감면부터 금리인하까지",
+  "subs": [
+    "새출발기금 부실우려차주",
+    "새출발기금 부실우려차주 감면",
+    "새출발기금 부실우려차주 불이익",
+    "새출발기금 금리인하"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:56:39.351Z"
+}

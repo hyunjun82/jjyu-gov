@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--감면율",
+  "slug": "감면율",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "감면율",
+  "exportName": "새출발기금감면율SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\감면율.tsx",
+  "title": "새출발기금 감면율은 왜 줄었나요? 원금부터 차이까지",
+  "subs": [
+    "새출발기금 감면율",
+    "새출발기금 원금 감면",
+    "새출발기금 부실차주 감면율",
+    "새출발기금 감면율 차이"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:14:47.445Z"
+}

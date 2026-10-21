@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.newstartfund.or.kr/Contents/Process_guid.do",
+    "finalUrl": "https://www.newstartfund.or.kr/Contents/Process_guid.do",
+    "title": "새출발기금",
+    "file": "src-1.txt",
+    "chars": 3861,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kamco.or.kr/portal/contents.do?mId=0203030000",
+    "finalUrl": "https://www.kamco.or.kr/portal/contents.do?mId=0203030000",
+    "title": "채무조정 지원내용 | 소상공인·자영업자 새출발기금 | 가계지원 | 홈페이지",
+    "file": "src-2.txt",
+    "chars": 3417,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.newstartfund.or.kr/Contents/Prod.do",
+    "finalUrl": "https://www.newstartfund.or.kr/Contents/Prod.do",
+    "title": "새출발기금",
+    "file": "src-3.txt",
+    "chars": 2777,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.newstartfund.or.kr/Contents/Process_guid.do",
+    "finalUrl": "https://www.newstartfund.or.kr/Contents/Process_guid.do",
+    "title": "새출발기금",
+    "file": "src-4.txt",
+    "chars": 3861,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,367 @@
+{
+  "facts": [
+    {
+      "id": "f1",
+      "item": "부실차주 신용정보 변동",
+      "value": "채무조정이 확정되면 기존 연체정보가 해제되고, 그 뒤 채무조정 정보(공공정보)가 등록됨",
+      "scope": "부실차주",
+      "scopeWord": "부실차주",
+      "quote": "부실차주는 채무조정 확정 시 기존 연체정보 해제 이후 채무조정 정보(공공정보) 등록",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "공공정보",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f2",
+      "item": "공공정보 해제 조건",
+      "value": "1년간 성실상환하면 채무조정 정보(공공정보) 해제",
+      "scope": "부실차주",
+      "scopeWord": "부실차주",
+      "quote": "단, 1년간 성실상환 시 채무조정 정보(공공정보)는 해제",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "성실상환",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f3",
+      "item": "부실차주 신용정보 변동(캠코 표기)",
+      "value": "채무조정 약정 시 채무조정 이용정보(공공정보) 등록",
+      "scope": "부실차주",
+      "scopeWord": "부실차주",
+      "quote": "신용정보 변동 채무조정 약정 시 채무조정 이용정보(공공정보) 등록",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f4",
+      "item": "공공정보 해제 조건(캠코 표기)",
+      "value": "1년간 성실상환 시 공공정보 해제",
+      "scope": "부실차주",
+      "scopeWord": "부실차주",
+      "quote": "(단, 1년간 성실상환 시 공공정보 해제)",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f5",
+      "item": "부실우려차주 신용 불이익",
+      "value": "새출발기금을 이용했다는 이유만으로 불이익이 생기지 않도록 할 계획",
+      "scope": "부실우려차주",
+      "scopeWord": "부실우려차주",
+      "quote": "부실우려차주는 새출발기금 이용만을 이유로 불이익 발생하지 않도록 할 계획",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "계획",
+      "keepWhy": ""
+    },
+    {
+      "id": "f6",
+      "item": "무관한 신용점수 하락 시 제약",
+      "value": "새출발기금과 무관하게 신용점수가 떨어지면 대출 한도 축소, 금리 인상 등 제약이 있을 수 있음",
+      "scope": "부실우려차주 안내 바로 다음 줄에 붙은 단서",
+      "scopeWord": "부실우려차주",
+      "quote": "새출발기금과 무관한 신용점수 하락으로 대출 한도 축소, 금리 인상 등 제약 가능",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "신용점수 하락",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f7",
+      "item": "부실차주 정의",
+      "value": "3개월 이상 대출상환금을 연체한 차주",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "- 부실차주(3개월 이상 대출상환금을 연체한 차주)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f8",
+      "item": "부실차주 정의(캠코 표기)",
+      "value": "90일 이상 연체",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "부실차주(90일 이상 연체)",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f9",
+      "item": "부실우려차주 정의",
+      "value": "근시일 내 장기 연체에 빠질 위험이 큰 차주",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "- 부실우려차주(근시일 내 장기 연체에 빠질 위험이 큰 차주)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f10",
+      "item": "차주 유형별 진행 기관",
+      "value": "부실우려차주는 신용회복위원회, 부실차주는 채무조정 플랫폼(새출발기금.kr) 또는 캠코에서 진행",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "부실우려차주는 신용회복위원회를 통해 채무조정 절차가 진행되며, 부실차주는 채무조정 플랫폼(새출발기금.kr) 또는 캠코를 통해 채무조정 절차가 진행됩니다.",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f11",
+      "item": "부실차주 채무 선택",
+      "value": "전체 채무에 대해 조정이 진행되고 채무를 골라서 할 수 없음",
+      "scope": "부실차주",
+      "scopeWord": "부실차주",
+      "quote": "*전체 채무에 대해 조정이 진행, 채무 선택 불가능",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "불가능",
+      "keepWhy": ""
+    },
+    {
+      "id": "f12",
+      "item": "부실우려차주 채무 선택",
+      "value": "조정을 희망하는 채무를 직접 선택",
+      "scope": "부실우려차주",
+      "scopeWord": "부실우려차주",
+      "quote": "* 조정을 희망하는 채무를 직접 선택",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f13",
+      "item": "신청 횟수 제한",
+      "value": "새출발기금 신청은 1회만 가능",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "차주의 고의적·반복적 채무조정 신청사례를 제한하기 위해 새출발기금 신청은 1회만 가능합니다.",
+      "src": "src-3.txt",
+      "must": true,
+      "key": "1회만",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f14",
+      "item": "부실차주로 재조정",
+      "value": "부실우려차주가 90일 이상 채무조정안을 이행하지 못하면 부실차주 지원으로 재조정 가능",
+      "scope": "부실우려차주",
+      "scopeWord": "부실우려차주",
+      "quote": "다만, 부실우려차주가 90일 이상 채무조정안을 이행하지 못하는 경우 부실차주 지원으로 재조정하는 것은 가능합니다.",
+      "src": "src-3.txt",
+      "must": true,
+      "key": "재조정",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f15",
+      "item": "연체 시 효력 상실",
+      "value": "채무조정 중 3개월 이상 연체 등으로 효력이 상실되면 채권자가 금융회사에서 새출발기금 주식회사로 바뀜",
+      "scope": "부실우려차주",
+      "scopeWord": "부실우려차주",
+      "quote": "부실우려차주가 새출발기금 채무조정 중 3개월 이상 연체 등으로 효력이 상실되는 경우 : 금융회사 → 새출발기금 주식회사",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "효력이 상실",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f16",
+      "item": "신청취소 기한",
+      "value": "신청일 익월 15일까지 신청취소 가능",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "새출발기금 신청 후 신청일 익월 15일 까지 신청취소 기한을 부여하고 있습니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "신청취소",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f17",
+      "item": "취소 후 재신청 제한",
+      "value": "신청취소일로부터 3개월(90일)간 재신청 불가",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "다만 고의·반복적인 채무조정 신청 제한을 위해, 신청취소일로부터 3개월(90일)간 재신청이 불가 합니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "재신청",
+      "keepWord": "불가",
+      "keepWhy": ""
+    },
+    {
+      "id": "f18",
+      "item": "추심·강제집행 중단",
+      "value": "채무조정 신청 즉시(익일부터) 추심중단, 강제집행 중지",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "채무조정 신청 즉시(익일부터) 추심중단, 강제집행 중지",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f19",
+      "item": "상환기간",
+      "value": "거치기간 최대 3년(신용대출 1년), 최장 20년 분할상환(신용대출 10년)",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "상환기간 조정 : 거치기간 최대 3년(신용대출 1년) 부여, 최장 20년 분할상환(신용대출 10년)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f20",
+      "item": "부실차주 원금조정",
+      "value": "보유재산을 반영해 원금 조정(0~80%)",
+      "scope": "부실차주",
+      "scopeWord": "부실차주",
+      "quote": "부실차주 : 보유재산을 반영해 원금 조정(0~80%)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f21",
+      "item": "부실우려차주 원금조정",
+      "value": "원금조정 지원되지 않음",
+      "scope": "부실우려차주",
+      "scopeWord": "부실우려차주",
+      "quote": "원금조정 지원되지 않음",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f22",
+      "item": "신청 대상",
+      "value": "’20. 4월~ ’25. 6월 중 사업을 영위한(휴업·폐업 포함) 개인사업자 또는 법인 소상공인, 폐업 법인은 신청 불가",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "’20. 4월~ ’25. 6월 중 사업을 영위한(휴업 및 폐업 포함) 개인사업자 또는 법인 소상공인 중(단, 폐업 법인 신청 불가)",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "불가",
+      "keepWhy": ""
+    },
+    {
+      "id": "f23",
+      "item": "사칭 보이스피싱 주의",
+      "value": "대표 콜센터(1660-1378) 말고는 전화나 문자를 보내지 않음, 사칭 보이스 피싱 주의",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "새출발기금은 대표 콜센터(1660-1378)를 제외하고는 전화나 문자를 드리지 않으니 새출발기금을 사칭한 보이스 피싱에 각별한 주의를 기울이시기 바랍니다.",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "보이스 피싱",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f24",
+      "item": "버튼 링크: 공시사실 조회",
+      "value": "https://www.newstartfund.or.kr/Pbnc/Pbnc.do",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "공시사실 조회(개인채무) → https://www.newstartfund.or.kr/Pbnc/Pbnc.do",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f25",
+      "item": "버튼 링크: 제도안내",
+      "value": "https://www.newstartfund.or.kr/Contents/Process_guid.do",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "새출발기금 제도안내 → https://www.newstartfund.or.kr/Contents/Process_guid.do",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    }
+  ],
+  "notUsed": [
+    {
+      "item": "신용카드 발급 가능 여부·시점",
+      "reason": "원문 4개 어디에도 신용카드 발급 내용이 없음. 소제목 3은 공공정보 등록·해제(f1, f2, f6)까지만 사실로 쓸 수 있고, 카드 발급 가능 여부는 쓰면 안 됨"
+    },
+    {
+      "item": "신용점수 하락 폭·회복 점수",
+      "reason": "원문에 점수 숫자가 없음"
+    },
+    {
+      "item": "공공정보 등록 시점 표기 차이(확정 시 / 약정 시)",
+      "reason": "src-1은 '확정 시', src-2는 '약정 시'로 적혀 있음. 숫자 차이는 아니라서 conflict로 표시하지 않았고, f1과 f3에 둘 다 남겨 둠"
+    },
+    {
+      "item": "부실우려차주 금리조정(9%, 3.9%~4.7%)",
+      "reason": "신용점수·카드·회복 기간 주제와 관계없음"
+    },
+    {
+      "item": "지원 한도 최대 15억원, 6개월 내 신규대출 제외",
+      "reason": "주제와 관계없음"
+    },
+    {
+      "item": "제외 업종·제외 대출 목록",
+      "reason": "주제와 관계없음"
+    },
+    {
+      "item": "채권금융회사가 지원을 거절할 때 채권자 변동",
+      "reason": "신용 회복과 바로 이어지지 않음. 연체로 효력이 상실되는 경우(f15)만 뽑음"
+    },
+    {
+      "item": "취약계층 90% 감면, 폐업자 10% 추가감면",
+      "reason": "주제와 관계없음"
+    },
+    {
+      "item": "온라인·상담창구 신청 6단계, 법인 소상공인 확인서",
+      "reason": "신청 절차는 이 글의 주제가 아님"
+    }
+  ]
+}

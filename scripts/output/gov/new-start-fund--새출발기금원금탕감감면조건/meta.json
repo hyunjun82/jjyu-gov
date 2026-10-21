@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--새출발기금원금탕감감면조건",
+  "slug": "새출발기금원금탕감감면조건",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "새출발기금원금탕감감면조건",
+  "exportName": "새출발기금새출발기금원금탕감감면조건SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\새출발기금원금탕감감면조건.tsx",
+  "title": "새출발기금 탕감은 어떤 조건인가요? 원금 감면부터 완화까지",
+  "subs": [
+    "새출발기금 탕감",
+    "새출발기금 원금 감면",
+    "새출발기금 조건",
+    "새출발기금 조건 완화"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:40:38.247Z"
+}

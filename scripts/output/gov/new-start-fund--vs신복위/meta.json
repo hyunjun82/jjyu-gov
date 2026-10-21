@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--vs신복위",
+  "slug": "vs신복위",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "vs신복위",
+  "exportName": "새출발기금vs신복위SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\vs신복위.tsx",
+  "title": "새출발기금은 신용회복위원회와 뭐가 다른가요? 연체부터 신청까지",
+  "subs": [
+    "새출발기금 신용회복위원회",
+    "새출발기금 연체",
+    "새출발기금 부실차주",
+    "새출발기금 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:02:00.427Z"
+}

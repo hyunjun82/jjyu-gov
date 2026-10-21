@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "new-start-fund--보이스피싱주의",
+  "slug": "보이스피싱주의",
+  "hub": "new-start-fund",
+  "dir": "새출발기금",
+  "fileName": "보이스피싱주의",
+  "exportName": "새출발기금보이스피싱주의SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\새출발기금\\보이스피싱주의.tsx",
+  "title": "새출발기금 사칭 전화는 믿어도 되나요? 대표번호부터 보이스피싱까지",
+  "subs": [
+    "새출발기금 보이스피싱",
+    "새출발기금 사칭",
+    "새출발기금 대표번호",
+    "새출발기금 콜센터"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T09:43:54.557Z"
+}
