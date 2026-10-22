@@ -1,4 +1,4 @@
-# ✅ 기초생활수급자인데 한부모가족 지원도 같이 받을 수 있나요
+# ✅ 한부모가족은 수급자 지원과 같이 받나요? 소득부터 혜택 정리
 
 - 스포크 (허브 low-income-single-parent) · 파일: app\policy\[id]\[spoke]\content\한부모가족지원\중복수급기초수급동시가능여부.tsx · 모델: claude-opus-5-5 · effort high · 1.0분 · 입력 51k·출력 2k 토큰 · 환산 $0.31
 - 주소: https://gov.jjyu.co.kr/policy/low-income-single-parent/중복수급기초수급동시가능여부

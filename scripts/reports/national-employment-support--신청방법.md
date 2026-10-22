@@ -1,4 +1,4 @@
-# ✅ 국민취업지원제도 신청 서류와 접수 기간, 결과는 언제 나올까
+# ✅ 국민취업지원제도 신청은 어떻게 하나요? 서류부터 결과 총정리
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\신청방법.tsx · 모델: claude-opus-5-5 · effort high · 15.9분 · 입력 424k·출력 45k 토큰 · 환산 $2.27
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/신청방법

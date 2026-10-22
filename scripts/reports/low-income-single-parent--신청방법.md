@@ -1,4 +1,4 @@
-# ✅ 한부모가족 신청에 필요한 서류와 접수 기간
+# ✅ 한부모가족 신청은 어떻게 하나요? 서류부터 기간 정리
 
 - 스포크 (허브 low-income-single-parent) · 파일: app\policy\[id]\[spoke]\content\한부모가족지원\신청방법.tsx · 모델: claude-opus-5-5 · effort high · 10.5분 · 입력 745k·출력 50k 토큰 · 환산 $2.51
 - 주소: https://gov.jjyu.co.kr/policy/low-income-single-parent/신청방법

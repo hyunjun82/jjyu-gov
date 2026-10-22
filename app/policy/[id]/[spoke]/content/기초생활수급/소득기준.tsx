@@ -34,7 +34,7 @@ const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010400';
 const SRC3 = 'https://www.mohw.go.kr/menu.es?mid=a10708010500';
 
 export const 기초수급소득기준SpokeContent: SpokeData = {
-  h1: '기초생활수급자가 되는 조건, 선정기준과 소득인정액 계산 방법',
+  h1: '기초생활수급자 조건은 어떻게 되나요? 선정기준부터 계산 방법 정리',
   breadcrumb: '기초수급 조건·선정기준',
   description:
     '기초생활수급자 조건과 급여별 선정기준, 소득인정액을 구하는 산정식과 기본재산액·소득환산율을 보건복지부 기초생활보장 안내로 확인했습니다.',

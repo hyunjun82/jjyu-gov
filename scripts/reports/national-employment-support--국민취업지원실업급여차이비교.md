@@ -1,4 +1,4 @@
-# ✅ 국민취업지원제도와 실업급여, 차이와 같이 받을 수 있는지
+# ✅ 국민취업지원제도와 실업급여는 같이 받나요? 차이부터 중복 정리
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\국민취업지원실업급여차이비교.tsx · 모델: claude-opus-5-5 · effort high · 3.3분 · 입력 101k·출력 1k 토큰 · 환산 $0.56
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/국민취업지원실업급여차이비교

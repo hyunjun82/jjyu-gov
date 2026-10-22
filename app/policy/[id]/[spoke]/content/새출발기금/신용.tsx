@@ -34,7 +34,7 @@ const SRC2 = 'https://www.kamco.or.kr/portal/contents.do?mId=0203030000';
 const SRC3 = 'https://www.newstartfund.or.kr/Contents/Prod.do';
 
 export const 새출발기금신용SpokeContent: SpokeData = {
-  h1: '새출발기금을 받으면 신용점수와 카드 발급은 어떻게 될까',
+  h1: '새출발기금을 받으면 신용점수는 어떻게 되나요? 카드 발급부터 회복 총정리',
   breadcrumb: '새출발기금 신용점수',
   description:
     '새출발기금 채무조정 뒤 신용정보가 어떻게 바뀌는지, 부실차주와 부실우려차주의 차이와 공공정보 해제 조건을 새출발기금·캠코 안내로 확인했습니다.',

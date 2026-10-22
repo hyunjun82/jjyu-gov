@@ -39,7 +39,7 @@ const SRC2 = 'https://www.energyv.or.kr/info/apl_info.do';
 const SRC3 = 'https://www.energyv.or.kr/info/support_info.do';
 
 export const 에너지바우처동절기신청사용법SpokeContent: SpokeData = {
-  h1: '에너지바우처 동절기에 어디서 쓸 수 있나, 사용기간과 결제 방법',
+  h1: '에너지바우처는 동절기에 어디서 쓰나요? 사용기간부터 신청 방법',
   breadcrumb: '동절기 바우처 사용·신청',
   description:
     '에너지바우처를 동절기에 요금차감과 국민행복카드로 어디서 쓰는지, 사용기간과 전기요금 사용방법, 신청 방법을 에너지바우처 누리집 안내로 확인했습니다.',

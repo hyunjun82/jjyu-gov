@@ -38,7 +38,7 @@ const SRC3 = 'https://www.mogef.go.kr/sp/fam/sp_fam_f008.do';
 const SRC4 = 'https://www.mogef.go.kr/sp/fam/sp_fam_f009.do';
 
 export const 한부모혜택SpokeContent: SpokeData = {
-  h1: '한부모가족 지원법으로 받는 혜택 종류와 절차',
+  h1: '한부모가족 혜택은 어떻게 되나요? 지원금부터 정책 총정리',
   breadcrumb: '한부모가족 혜택',
   description:
     '한부모가족 지원법에 따른 복지급여 종류와 금액, 가구 규모별 소득 기준, 시설 지원과 양육비 이행지원, 신청 창구와 필요서류를 성평등가족부 안내로 확인했습니다.',

@@ -1,4 +1,4 @@
-# ✅ 기초생활수급자 신청, 필요한 서류와 결과가 나오기까지 걸리는 기간
+# ✅ 기초생활수급자 신청은 어떻게 하나요? 서류부터 확인방법 정리
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\신청방법.tsx · 모델: claude-opus-5-5 · effort high · 13.3분 · 입력 877k·출력 44k 토큰 · 환산 $2.53
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/신청방법

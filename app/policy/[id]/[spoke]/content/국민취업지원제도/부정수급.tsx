@@ -35,7 +35,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AC%EC%A7%81%EC%9E%90%EC%B7%A8%EC%97%85%EC%B4%89%EC%A7%84%EB%B0%8F%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EC%A7%80%EC%9B%90%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0';
 
 export const 국취부정수급SpokeContent: SpokeData = {
-  h1: '국민취업지원제도 부정수급 처벌과 신고 방법',
+  h1: '국민취업지원제도 부정수급은 처벌받나요? 기준부터 신고방법 정리',
   breadcrumb: '국민취업지원 부정수급',
   description:
     '국민취업지원제도 부정수급의 뜻과 처벌 기준, 반환·추가징수와 재참여 제한, 수당을 받는 동안 수입·취업을 신고하는 방법을 고용24 안내와 법률로 확인했습니다.',

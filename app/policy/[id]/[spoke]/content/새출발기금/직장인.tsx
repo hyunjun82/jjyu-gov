@@ -33,7 +33,7 @@ const SRC2 = 'https://www.newstartfund.or.kr/Contents/Prod.do';
 const SRC3 = 'https://www.kamco.or.kr/portal/contents.do?mId=0203030000';
 
 export const 새출발기금직장인SpokeContent: SpokeData = {
-  h1: '직장인도 새출발기금을 받을 수 있을까, 대상 조건과 신청 서류',
+  h1: '직장인도 새출발기금을 받을 수 있나요? 조건부터 서류 총정리',
   breadcrumb: '직장인 새출발기금',
   description:
     '직장인도 새출발기금을 받을 수 있는지, 신청 조건과 제외되는 대출·업종, 소상공인 확인서를 발급하지 않은 법인이 신청대상 불가 통보를 받았을 때 낼 대체서류, 상담창구 서류제출 순서를 새출발기금 안내로 확인했습니다.',

@@ -33,7 +33,7 @@ const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010400';
 const SRC3 = 'https://www.mohw.go.kr/menu.es?mid=a10708010500';
 
 export const 기초수급65세이상SpokeContent: SpokeData = {
-  h1: '65세 이상 어르신이 기초생활수급을 받을 때 소득인정액 계산법',
+  h1: '어르신은 기초생활수급 조건이 다른가요? 65세부터 노인연금 정리',
   breadcrumb: '65세 이상 기초수급',
   description:
     '65세 이상 어르신이 기초생활수급을 받을 때 달라지는 근로소득공제와 소득인정액 계산, 의료급여 부양의무자 기준과 기초연금의 관계를 보건복지부 안내로 확인했습니다.',

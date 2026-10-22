@@ -1,4 +1,4 @@
-# ✅ 에너지캐시백 신청 대상, 주택용 전기 고객이면 누구나 될까
+# ✅ 에너지캐시백 신청 대상은 누구인가요? 주택용부터 제외 고객 총정리
 
 - 스포크 (허브 energy-cashback) · 파일: app\policy\[id]\[spoke]\content\에너지캐시백\신청대상주민등록주택용기준.tsx · 모델: claude-opus-5-5 · effort high · 11.2분 · 입력 283k·출력 39k 토큰 · 환산 $1.72
 - 주소: https://gov.jjyu.co.kr/policy/energy-cashback/신청대상주민등록주택용기준

@@ -36,7 +36,7 @@ const SRC2 = 'https://www.mogef.go.kr/sp/fam/sp_fam_f007.do';
 const SRC3 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EB%B6%80%EB%AA%A8%EA%B0%80%EC%A1%B1%EC%A7%80%EC%9B%90%EB%B2%95';
 
 export const 한부모가족지원고등학교학비지원22세연장조건SpokeContent: SpokeData = {
-  h1: '한부모가족 고등학교 학비·입학금 지원과 22세 연장 조건',
+  h1: '한부모가족 고등학생은 학비를 지원받나요? 입학금부터 22세 연장 정리',
   breadcrumb: '한부모 학비·22세 연장',
   description:
     '한부모가족 고등학생 자녀의 학용품비 지원 금액과 가구원 수별 소득 기준, 입학금 지원 여부, 고등학교 재학 시 고3 12월까지 이어지는 22세 연장 조건을 성평등가족부 안내와 한부모가족지원법으로 확인했습니다.',

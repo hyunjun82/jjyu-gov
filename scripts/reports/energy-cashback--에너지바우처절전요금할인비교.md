@@ -1,4 +1,4 @@
-# ✅ 에너지캐시백은 바우처·탄소포인트·에코마일리지와 같이 받을 수 있나
+# ✅ 에너지캐시백은 다른 혜택과 겹쳐도 되나요? 바우처부터 에코마일리지 정리
 
 - 스포크 (허브 energy-cashback) · 파일: app\policy\[id]\[spoke]\content\에너지캐시백\에너지바우처절전요금할인비교.tsx · 모델: claude-opus-5-5 · effort high · 11.0분 · 입력 393k·출력 33k 토큰 · 환산 $1.93
 - 주소: https://gov.jjyu.co.kr/policy/energy-cashback/에너지바우처절전요금할인비교

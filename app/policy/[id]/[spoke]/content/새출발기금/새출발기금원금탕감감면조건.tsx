@@ -35,7 +35,7 @@ const SRC2 = 'https://www.fsc.go.kr/no010101/87188';
 const SRC3 = 'https://www.newstartfund.or.kr/Contents/Process_guid.do';
 
 export const 새출발기금새출발기금원금탕감감면조건SpokeContent: SpokeData = {
-  h1: '새출발기금 탕감 조건, 원금 감면은 어떤 경우에 늘어날까',
+  h1: '새출발기금 탕감은 어떤 조건인가요? 원금 감면부터 완화 정리',
   breadcrumb: '새출발기금 탕감 조건',
   description:
     '새출발기금 원금 탕감을 받는 부실차주 조건, 대상별 원금감면율, 신청에서 빠지는 업종·대출, 저소득층·사회취약계층 지원 확대를 캠코·금융위원회 안내로 확인했습니다.',

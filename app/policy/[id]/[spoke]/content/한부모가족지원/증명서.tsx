@@ -28,7 +28,7 @@ const SRC1 = 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=10601000001';
 const SRC2 = 'https://www.mogef.go.kr/sp/fam/sp_fam_f006.do';
 
 export const 한부모증명서SpokeContent: SpokeData = {
-  h1: '한부모가족 증명서 발급 대상과 정부24 신청 방법',
+  h1: '한부모가족 증명서는 어떻게 발급하나요? 대상자부터 정부24 신청 방법',
   breadcrumb: '한부모가족 증명서',
   description:
     '한부모가족 증명서를 받을 수 있는 가구 조건과 중위소득 65% 기준선, 정부24 인터넷 신청 방법과 제출 서류를 정부24·성평등가족부 안내로 확인했습니다.',

@@ -34,7 +34,7 @@ const SRC2 = 'https://www.mogef.go.kr/sp/fam/sp_fam_f006.do';
 const SRC3 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EB%B6%80%EB%AA%A8%EA%B0%80%EC%A1%B1%EC%A7%80%EC%9B%90%EB%B2%95';
 
 export const 한부모가족지원청소년한부모월37만원24세이하SpokeContent: SpokeData = {
-  h1: '청소년 한부모 지원금 나이 기준과 아동양육비',
+  h1: '청소년 한부모는 지원금을 얼마나 받나요? 나이부터 기준 정리',
   breadcrumb: '청소년 한부모 지원',
   description:
     '청소년 한부모 나이 기준인 24세 이하와 세대주 조건, 청소년 한부모 아동양육비와 자립촉진수당 등 지원금, 가구별 소득 기준을 성평등가족부 안내와 한부모가족지원법으로 확인했습니다.',

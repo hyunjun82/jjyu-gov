@@ -1,4 +1,4 @@
-# ✅ 새출발기금을 사칭한 전화·문자, 공식 대표번호로 확인하세요
+# ✅ 새출발기금 사칭 전화는 믿어도 되나요? 대표번호부터 보이스피싱 총정리
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\보이스피싱주의.tsx · 모델: claude-opus-5-5 · effort high · 12.7분 · 입력 322k·출력 32k 토큰 · 환산 $1.49
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/보이스피싱주의

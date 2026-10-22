@@ -1,4 +1,4 @@
-# ✅ 국민취업지원제도에 참여할 수 없는 사람, 제외대상과 소득·재산 기준
+# ✅ 국민취업지원제도에서 빠지는 사람은 누구인가요? 제외대상부터 재산 기준 정리
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\참여제외대상.tsx · 모델: claude-opus-5-5 · effort high · 18.3분 · 입력 322k·출력 46k 토큰 · 환산 $2.12
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/참여제외대상

@@ -1,4 +1,4 @@
-# ✅ 새출발기금 상환유예와 거치기간, 갚기 어려울 때 신청하는 법
+# ✅ 새출발기금 상환유예는 어떻게 하나요? 거치기간부터 연장 총정리
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\상환유예.tsx · 모델: claude-opus-5-5 · effort high · 11.5분 · 입력 234k·출력 36k 토큰 · 환산 $1.41
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/상환유예

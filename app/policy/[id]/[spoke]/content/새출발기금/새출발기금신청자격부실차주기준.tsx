@@ -33,7 +33,7 @@ const SRC2 = 'https://www.newstartfund.or.kr/Contents/Objc.do';
 const SRC3 = 'https://www.kamco.or.kr/portal/contents.do?mId=0203030000';
 
 export const 새출발기금새출발기금신청자격부실차주기준SpokeContent: SpokeData = {
-  h1: '새출발기금 신청자격, 연체 정도에 따른 차주 구분과 불가 사례',
+  h1: '새출발기금 신청자격은 누구에게 있나요? 부실차주부터 불가 사례 총정리',
   breadcrumb: '새출발기금 신청자격',
   description:
     '새출발기금 신청자격과 부실차주·부실우려차주를 나누는 연체 기준, 신청이 안 되는 업종과 대출을 새출발기금·캠코 안내로 확인했습니다.',

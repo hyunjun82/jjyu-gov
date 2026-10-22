@@ -34,7 +34,7 @@ const SRC2 = 'https://www.mogef.go.kr/sp/fam/sp_fam_f009.do';
 const SRC3 = 'https://www.mogef.go.kr/singleparent/main.do';
 
 export const 한부모지원센터SpokeContent: SpokeData = {
-  h1: '한부모가족지원센터가 하는 일, 상담·교육·양육비 이행',
+  h1: '한부모가족지원센터는 뭘 하나요? 상담부터 양육비 이행 총정리',
   breadcrumb: '한부모가족 지원센터',
   description:
     '한부모가족이 받을 수 있는 복지급여와 가족상담, 자녀 학업 관련 지원, 양육비 이행지원 신청 방법을 성평등가족부 안내로 정리했습니다.',

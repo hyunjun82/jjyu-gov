@@ -1,4 +1,4 @@
-# ❌ 에너지캐시백이 얼마나 쌓였는지 확인하는 법, 내역 조회와 지급 시기
+# ❌ 에너지캐시백 얼마나 쌓였나요? 조회부터 환급 총정리
 
 - 스포크 (허브 energy-cashback) · 파일: app\policy\[id]\[spoke]\content\에너지캐시백\조회확인.tsx · 모델: claude-opus-5-5 · effort high · 3.2분 · 입력 100k·출력 994 토큰 · 환산 $0.55
 - 주소: https://gov.jjyu.co.kr/policy/energy-cashback/조회확인

@@ -35,7 +35,7 @@ const SRC2 = 'https://www.mogef.go.kr/singleparent/main.do';
 const SRC3 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EB%B6%80%EB%AA%A8%EA%B0%80%EC%A1%B1%EC%A7%80%EC%9B%90%EB%B2%95';
 
 export const 한부모신청방법SpokeContent: SpokeData = {
-  h1: '한부모가족 신청에 필요한 서류와 접수 기간',
+  h1: '한부모가족 신청은 어떻게 하나요? 서류부터 기간 정리',
   breadcrumb: '한부모 신청서류·기간',
   description:
     '한부모가족 지원 신청에 필요한 서류와 온라인·방문 신청 방법, 연중 접수되는 신청 기간, 소득과 자녀 나이 조건을 성평등가족부 안내와 한부모가족지원법으로 확인했습니다.',

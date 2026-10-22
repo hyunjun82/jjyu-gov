@@ -28,7 +28,7 @@ const SRC1 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011
 const SRC2 = 'https://www.1661-2129.or.kr/download/2026%EB%85%84%20%EB%85%B8%EC%9D%B8%EB%A7%9E%EC%B6%A4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%82%AC%EC%97%85%EC%95%88%EB%82%B4.pdf';
 
 export const 노인맞춤돌봄생활지원사SpokeContent: SpokeData = {
-  h1: '노인맞춤돌봄 생활지원사가 되려면, 채용 절차와 자격증 필요 여부',
+  h1: '노인맞춤돌봄 생활지원사는 어떻게 되나요? 채용부터 자격증 정리',
   breadcrumb: '생활지원사 채용·자격',
   description:
     '노인맞춤돌봄 생활지원사가 하는 일과 근무 조건, 기간제 고용과 정년, 채용공고가 올라오는 곳, 자격증 우대와 필수 직무교육을 노인맞춤돌봄서비스 사업안내로 확인했습니다.',

@@ -1,4 +1,4 @@
-# ✅ 에너지바우처 잔액 조회, 안 될 때 확인할 곳과 환급
+# ✅ 에너지바우처 잔액은 어디서 보나요? 조회 방법부터 환급 정리
 
 - 스포크 (허브 energy-voucher) · 파일: app\policy\[id]\[spoke]\content\에너지바우처\잔액조회.tsx · 모델: claude-opus-5-5 · effort high · 0.8분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/energy-voucher/잔액조회

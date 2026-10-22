@@ -1,4 +1,4 @@
-# ✅ 에너지바우처 신청 방법, 복지로 온라인으로 접수하고 고객번호 챙기기
+# ✅ 에너지바우처 신청방법은 무엇인가요? 복지로부터 고객번호 총정리
 
 - 스포크 (허브 energy-voucher) · 파일: app\policy\[id]\[spoke]\content\에너지바우처\신청방법.tsx · 모델: claude-opus-5-5 · effort high · 0.7분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/energy-voucher/신청방법

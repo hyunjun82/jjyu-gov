@@ -33,7 +33,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do';
 
 export const 국민취업지원제도국민취업지원실업급여차이비교SpokeContent: SpokeData = {
-  h1: '국민취업지원제도와 실업급여, 차이와 같이 받을 수 있는지',
+  h1: '국민취업지원제도와 실업급여는 같이 받나요? 차이부터 중복 정리',
   breadcrumb: '국취·실업급여 차이',
   description:
     '국민취업지원제도와 실업급여의 차이, 실업급여를 받으면서 동시에 참여할 수 있는지, 실업급여가 끝난 뒤 유형별 참여 시점과 다른 지원과의 중복 여부를 고용24 안내로 확인했습니다.',

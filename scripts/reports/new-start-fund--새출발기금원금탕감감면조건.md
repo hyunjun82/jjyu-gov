@@ -1,4 +1,4 @@
-# ✅ 새출발기금 탕감 조건, 원금 감면은 어떤 경우에 늘어날까
+# ✅ 새출발기금 탕감은 어떤 조건인가요? 원금 감면부터 완화 정리
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\새출발기금원금탕감감면조건.tsx · 모델: claude-opus-5-5 · effort high · 15.8분 · 입력 792k·출력 47k 토큰 · 환산 $2.42
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/새출발기금원금탕감감면조건

@@ -1,4 +1,4 @@
-# ✅ 노인맞춤돌봄서비스는 무엇을 해 줄까, 안부확인·가사지원·병원동행
+# ✅ 노인맞춤돌봄서비스 내용에는 뭐가 있나요? 안부확인부터 병원동행 총정리
 
 - 스포크 (허브 senior-customized-care) · 파일: app\policy\[id]\[spoke]\content\노인맞춤돌봄\서비스내용.tsx · 모델: claude-opus-5-5 · effort high · 19.2분 · 입력 660k·출력 51k 토큰 · 환산 $3.61
 - 주소: https://gov.jjyu.co.kr/policy/senior-customized-care/서비스내용

@@ -1,4 +1,4 @@
-# ✅ 기초생활수급자가 받는 지원 종류, 생계·의료·주거·교육 급여 구분
+# ✅ 기초생활수급자 급여에는 뭐가 있나요? 종류부터 주거·의료 총정리
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\급여종류.tsx · 모델: claude-opus-5-5 · effort high · 3.8분 · 입력 102k·출력 440 토큰 · 환산 $0.55
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/급여종류

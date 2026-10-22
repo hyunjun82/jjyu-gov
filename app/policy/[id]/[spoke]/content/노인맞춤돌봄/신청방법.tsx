@@ -29,7 +29,7 @@ const SRC1 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011
 const SRC2 = 'https://www.1661-2129.or.kr/download/2026%EB%85%84%20%EB%85%B8%EC%9D%B8%EB%A7%9E%EC%B6%A4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%82%AC%EC%97%85%EC%95%88%EB%82%B4.pdf';
 
 export const 노인맞춤돌봄신청방법SpokeContent: SpokeData = {
-  h1: '노인맞춤돌봄서비스 신청 방법, 수행기관과 이용 비용',
+  h1: '노인맞춤돌봄서비스 신청은 어디서 하나요? 방법부터 비용 정리',
   breadcrumb: '노인맞춤돌봄 신청',
   description:
     '노인맞춤돌봄서비스를 어디서 누가 신청하는지, 방문 신청, 부득이한 사유로 직접 가기 어려울 때의 전화·우편·온라인 신청방법과 제출서류, 지역수행기관 배정, 이용자가 따로 내는 비용을 2026년 사업안내와 복지로 안내로 확인했습니다.',

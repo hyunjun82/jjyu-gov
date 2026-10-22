@@ -1,4 +1,4 @@
-# ✅ 에너지캐시백 금액 계산법, 절감률 구간별 단가 한눈에
+# ✅ 에너지캐시백 금액은 어떻게 계산하나요? 절감량부터 단가 정리
 
 - 스포크 (허브 energy-cashback) · 파일: app\policy\[id]\[spoke]\content\에너지캐시백\캐시백금액계산3퍼센트절감기준.tsx · 모델: claude-opus-5-5 · effort high · 6.4분 · 입력 273k·출력 14k 토큰 · 환산 $0.92
 - 주소: https://gov.jjyu.co.kr/policy/energy-cashback/캐시백금액계산3퍼센트절감기준

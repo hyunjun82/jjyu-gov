@@ -1,4 +1,4 @@
-# ✅ 노인맞춤돌봄 생활지원사가 되려면, 채용 절차와 자격증 필요 여부
+# ✅ 노인맞춤돌봄 생활지원사는 어떻게 되나요? 채용부터 자격증 정리
 
 - 스포크 (허브 senior-customized-care) · 파일: app\policy\[id]\[spoke]\content\노인맞춤돌봄\생활지원사.tsx · 모델: claude-opus-5-5 · effort high · 3.9분 · 입력 50k·출력 269 토큰 · 환산 $0.27
 - 주소: https://gov.jjyu.co.kr/policy/senior-customized-care/생활지원사

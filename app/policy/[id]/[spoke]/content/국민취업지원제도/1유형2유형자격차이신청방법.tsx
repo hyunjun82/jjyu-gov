@@ -28,7 +28,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do';
 
 export const 국민취업지원제도1유형2유형자격차이신청방법SpokeContent: SpokeData = {
-  h1: '국민취업지원제도, 나는 어느 유형일까 조건과 신청 정리',
+  h1: '국민취업지원제도는 어떻게 나뉘나요? 1유형부터 신청 방법',
   breadcrumb: '국민취업지원 유형·신청',
   description:
     '국민취업지원제도가 1유형과 2유형으로 어떻게 나뉘는지, 유형별 참여 자격과 수당, 참여 제한 조건, 신청 순서를 고용24 제도안내로 확인했습니다.',

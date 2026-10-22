@@ -1,4 +1,4 @@
-# ✅ 한부모가족 증명서 발급 대상과 정부24 신청 방법
+# ✅ 한부모가족 증명서는 어떻게 발급하나요? 대상자부터 정부24 신청 방법
 
 - 스포크 (허브 low-income-single-parent) · 파일: app\policy\[id]\[spoke]\content\한부모가족지원\증명서.tsx · 모델: claude-opus-5-5 · effort high · 7.8분 · 입력 395k·출력 36k 토큰 · 환산 $1.93
 - 주소: https://gov.jjyu.co.kr/policy/low-income-single-parent/증명서

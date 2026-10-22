@@ -33,7 +33,7 @@ const SRC2 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EB%B6%80%EB%AA%
 const SRC3 = 'https://www.mohw.go.kr/menu.es?mid=a10708010300';
 
 export const 한부모가족지원중복수급기초수급동시가능여부SpokeContent: SpokeData = {
-  h1: '기초생활수급자인데 한부모가족 지원도 같이 받을 수 있나요',
+  h1: '한부모가족은 수급자 지원과 같이 받나요? 소득부터 혜택 정리',
   breadcrumb: '기초수급 한부모 중복',
   description:
     '기초생활수급자가 한부모가족 지원을 함께 받을 때 그대로 받는 급여와 빠지는 급여를 한부모가족지원법과 성평등가족부·보건복지부 안내로 확인했습니다.',

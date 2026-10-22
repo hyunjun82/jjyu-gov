@@ -1,4 +1,4 @@
-# ✅ 국민취업지원제도와 청년수당·긴급복지·주거급여 중복 가능 여부
+# ✅ 국민취업지원제도는 다른 혜택과 겹쳐도 되나요? 청년수당부터 주거급여 총정리
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\중복.tsx · 모델: claude-opus-5-5 · effort high · 3.4분 · 입력 102k·출력 1k 토큰 · 환산 $0.57
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/중복

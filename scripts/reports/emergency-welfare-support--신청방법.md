@@ -1,4 +1,4 @@
-# ✅ 긴급복지 신청은 어디서 어떻게, 준비 서류와 신고 의무
+# ✅ 긴급복지지원금 신청은 어떻게 하나요? 서류부터 신고의무 총정리
 
 - 스포크 (허브 emergency-welfare-support) · 파일: app\policy\[id]\[spoke]\content\긴급복지\신청방법.tsx · 모델: claude-opus-5-5 · effort high · 12.0분 · 입력 473k·출력 37k 토큰 · 환산 $2.22
 - 주소: https://gov.jjyu.co.kr/policy/emergency-welfare-support/신청방법

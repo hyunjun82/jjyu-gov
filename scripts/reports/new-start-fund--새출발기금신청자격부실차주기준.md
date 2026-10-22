@@ -1,4 +1,4 @@
-# ✅ 새출발기금 신청자격, 연체 정도에 따른 차주 구분과 불가 사례
+# ✅ 새출발기금 신청자격은 누구에게 있나요? 부실차주부터 불가 사례 총정리
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\새출발기금신청자격부실차주기준.tsx · 모델: claude-opus-5-5 · effort high · 9.5분 · 입력 268k·출력 34k 토큰 · 환산 $1.86
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/새출발기금신청자격부실차주기준

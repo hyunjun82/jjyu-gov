@@ -1,4 +1,4 @@
-# ✅ 청소년 한부모 지원금 나이 기준과 아동양육비
+# ✅ 청소년 한부모는 지원금을 얼마나 받나요? 나이부터 기준 정리
 
 - 스포크 (허브 low-income-single-parent) · 파일: app\policy\[id]\[spoke]\content\한부모가족지원\청소년한부모월37만원24세이하.tsx · 모델: claude-opus-5-5 · effort high · 6.9분 · 입력 436k·출력 37k 토큰 · 환산 $2.29
 - 주소: https://gov.jjyu.co.kr/policy/low-income-single-parent/청소년한부모월37만원24세이하

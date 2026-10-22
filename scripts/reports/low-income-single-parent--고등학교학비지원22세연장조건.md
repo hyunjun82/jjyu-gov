@@ -1,4 +1,4 @@
-# ✅ 한부모가족 고등학교 학비·입학금 지원과 22세 연장 조건
+# ✅ 한부모가족 고등학생은 학비를 지원받나요? 입학금부터 22세 연장 정리
 
 - 스포크 (허브 low-income-single-parent) · 파일: app\policy\[id]\[spoke]\content\한부모가족지원\고등학교학비지원22세연장조건.tsx · 모델: claude-opus-5-5 · effort high · 7.0분 · 입력 390k·출력 37k 토큰 · 환산 $2.03
 - 주소: https://gov.jjyu.co.kr/policy/low-income-single-parent/고등학교학비지원22세연장조건

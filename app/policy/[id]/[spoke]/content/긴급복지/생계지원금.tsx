@@ -37,7 +37,7 @@ const SRC2 = 'https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269954';
 const SRC3 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180';
 
 export const 긴급복지생계지원금SpokeContent: SpokeData = {
-  h1: '긴급복지 생계지원금 연장과 2차 신청, 지급일은 언제일까',
+  h1: '긴급복지 생계지원금은 얼마 나오나요? 연장부터 2차 총정리',
   breadcrumb: '긴급복지 생계지원금',
   description:
     '긴급복지 생계지원금의 가구원 수별 한 달 금액과 연장이 정해지는 방식, 지급 순서, 2차 지급이 따로 있는지를 보건복지부·복지로·국가법령정보센터 안내로 확인했습니다.',

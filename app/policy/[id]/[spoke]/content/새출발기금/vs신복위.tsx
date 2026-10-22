@@ -35,7 +35,7 @@ const SRC2 = 'https://www.newstartfund.or.kr/Contents/Process_guid.do';
 const SRC3 = 'https://www.newstartfund.or.kr/Contents/Prod.do';
 
 export const 새출발기금vs신복위SpokeContent: SpokeData = {
-  h1: '새출발기금과 신용회복위원회, 연체 기간에 따라 어디로 가야 할까',
+  h1: '새출발기금은 신용회복위원회와 뭐가 다른가요? 연체부터 신청 창구 정리',
   breadcrumb: '새출발기금 vs 신복위',
   description:
     '새출발기금에서 캠코와 신용회복위원회가 맡는 차주가 어떻게 갈리는지, 연체 시점별 금리 조정과 부실차주 원금조정, 신청 절차와 취소 기한을 캠코·새출발기금 안내로 확인했습니다.',

@@ -34,7 +34,7 @@ const FAQ = 'https://en-ter.co.kr/ec/board/faq/info.do';
 const MAIN = 'https://en-ter.co.kr/ec/main/main.do';
 
 export const 에너지캐시백신청방법한전홈페이지절차SpokeContent: SpokeData = {
-  h1: '한전 에너지캐시백 신청 방법, 온라인과 사업소 방문 절차',
+  h1: '한전 에너지캐시백 신청은 어떻게 하나요? 온라인부터 방문 정리',
   breadcrumb: '에너지캐시백 신청방법',
   description:
     '한전 에너지캐시백을 누가 언제 신청하는지, 온라인 신청 경로와 고객번호 직접 입력 방법, 신분증을 챙겨 가는 방문 신청, 인터넷 신청이 불가해 관할지사를 찾아가야 하는 외국인 접수까지 한전 안내로 확인했습니다.',

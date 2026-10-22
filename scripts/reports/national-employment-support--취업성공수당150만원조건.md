@@ -1,4 +1,4 @@
-# ✅ 취업성공수당 최대 150만원, 6개월 근속 후 받는 방법
+# ✅ 취업성공수당은 언제 받나요? 6개월부터 서류 총정리
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\취업성공수당150만원조건.tsx · 모델: claude-opus-5-5 · effort high · 11.8분 · 입력 356k·출력 36k 토큰 · 환산 $1.76
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/취업성공수당150만원조건

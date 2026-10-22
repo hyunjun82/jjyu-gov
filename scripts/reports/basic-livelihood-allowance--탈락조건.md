@@ -1,4 +1,4 @@
-# ✅ 통장 잔액이 많으면 기초생활수급에서 탈락할까, 조사와 재신청
+# ✅ 통장 잔액이 많으면 기초생활수급에서 탈락하나요? 조사부터 재신청 방법
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\탈락조건.tsx · 모델: claude-opus-5-5 · effort high · 11.7분 · 입력 476k·출력 34k 토큰 · 환산 $1.80
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/탈락조건

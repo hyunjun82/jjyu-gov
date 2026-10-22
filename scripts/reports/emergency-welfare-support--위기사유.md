@@ -1,4 +1,4 @@
-# ✅ 긴급복지 위기사유에 해당하는 경우, 제도 내용과 지원법 근거
+# ✅ 긴급복지 위기사유에는 뭐가 해당하나요? 제도부터 지원법 정리
 
 - 스포크 (허브 emergency-welfare-support) · 파일: app\policy\[id]\[spoke]\content\긴급복지\위기사유.tsx · 모델: claude-opus-5-5 · effort high · 17.5분 · 입력 1065k·출력 50k 토큰 · 환산 $2.80
 - 주소: https://gov.jjyu.co.kr/policy/emergency-welfare-support/위기사유

@@ -37,7 +37,7 @@ const SRC2 = 'https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000269954';
 const SRC3 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180';
 
 export const 긴급복지지원종류SpokeContent: SpokeData = {
-  h1: '긴급복지지원으로 받을 수 있는 것들, 생계·의료·주거·연료비',
+  h1: '긴급복지지원은 어떤 종류가 있나요? 생계부터 연료비 총정리',
   breadcrumb: '긴급복지 지원 종류',
   description:
     '긴급복지지원의 생계지원·의료지원·주거지원·연료비가 각각 얼마씩 나오는지, 가구원 수와 지역에 따라 금액이 어떻게 갈리는지 보건복지부 고시와 안내로 확인했습니다.',

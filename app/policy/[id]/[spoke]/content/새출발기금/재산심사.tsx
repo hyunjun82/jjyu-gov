@@ -40,7 +40,7 @@ const SRC2 = 'https://www.newstartfund.or.kr/Contents/Process_guid.do';
 const SRC3 = 'https://www.kamco.or.kr/portal/contents.do?mId=0203030000';
 
 export const 새출발기금재산심사SpokeContent: SpokeData = {
-  h1: '새출발기금 재산심사, 가상자산·비상장주식까지 어디까지 볼까',
+  h1: '새출발기금은 재산을 어디까지 보나요? 조사부터 공제 정리',
   breadcrumb: '새출발기금 재산심사',
   description:
     '새출발기금이 재산을 조사하는 수단과 시작 시점, 재산가액에 들어가는 재산과 빠지는 비상장주식, 재산이 채무보다 많을 때와 순부채 기준 감면율을 금융위원회·캠코 안내로 확인했습니다.',

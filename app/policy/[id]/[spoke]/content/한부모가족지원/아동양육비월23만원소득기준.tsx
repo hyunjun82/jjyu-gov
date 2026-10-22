@@ -34,7 +34,7 @@ const SRC2 = 'https://www.mogef.go.kr/sp/fam/sp_fam_f007.do';
 const SRC3 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EB%B6%80%EB%AA%A8%EA%B0%80%EC%A1%B1%EC%A7%80%EC%9B%90%EB%B2%95';
 
 export const 한부모가족지원아동양육비월23만원소득기준SpokeContent: SpokeData = {
-  h1: '한부모가족 아동양육비 월 23만원, 누가 언제 받나요',
+  h1: '한부모가족 아동양육비는 얼마인가요? 대상부터 지급일 총정리',
   breadcrumb: '아동양육비 월 23만원',
   description:
     '한부모가족 아동양육비 월 23만원을 받을 수 있는 소득 기준과 자녀 나이, 지급 방식, 추가 지원 금액, 신청 창구와 서류를 성평등가족부 안내와 한부모가족지원법으로 확인했습니다.',

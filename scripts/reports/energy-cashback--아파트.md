@@ -1,4 +1,4 @@
-# ❌ 아파트에 살아도 에너지캐시백을 받을 수 있나요, 관리비와 개별세대
+# ❌ 아파트 에너지캐시백은 어떻게 받나요? 관리비부터 단지 총정리
 
 - 스포크 (허브 energy-cashback) · 파일: app\policy\[id]\[spoke]\content\에너지캐시백\아파트.tsx · 모델: claude-opus-5-5 · effort high · 4.1분 · 입력 100k·출력 7k 토큰 · 환산 $0.68
 - 주소: https://gov.jjyu.co.kr/policy/energy-cashback/아파트

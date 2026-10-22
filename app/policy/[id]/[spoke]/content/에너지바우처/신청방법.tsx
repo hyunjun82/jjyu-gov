@@ -36,7 +36,7 @@ const SRC2 = 'https://www.bokjiro.go.kr/ssis-tbu/index.do';
 const SRC3 = 'https://www.energyv.or.kr/info/support_info.do';
 
 export const 에너지바우처신청방법SpokeContent: SpokeData = {
-  h1: '에너지바우처 신청 방법, 복지로 온라인으로 접수하고 고객번호 챙기기',
+  h1: '에너지바우처 신청방법은 무엇인가요? 복지로부터 고객번호 총정리',
   breadcrumb: '에너지바우처 신청방법',
   description:
     '에너지바우처 신청방법을 행정복지센터 방문·대리·직권·복지로 온라인 신청으로 나누고, 신청할 때 내는 서류와 고객번호 변경 가능 기간을 에너지바우처 누리집 안내로 확인했습니다.',

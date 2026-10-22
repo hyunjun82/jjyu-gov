@@ -1,4 +1,4 @@
-# ✅ 한부모가족 아동양육비 월 23만원, 누가 언제 받나요
+# ✅ 한부모가족 아동양육비는 얼마인가요? 대상부터 지급일 총정리
 
 - 스포크 (허브 low-income-single-parent) · 파일: app\policy\[id]\[spoke]\content\한부모가족지원\아동양육비월23만원소득기준.tsx · 모델: claude-opus-5-5 · effort high · 8.0분 · 입력 592k·출력 38k 토큰 · 환산 $2.92
 - 주소: https://gov.jjyu.co.kr/policy/low-income-single-parent/아동양육비월23만원소득기준

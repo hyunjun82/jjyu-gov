@@ -1,4 +1,4 @@
-# ✅ 에너지바우처와 전기요금 복지할인, 중복해서 받으면 차감될까
+# ✅ 에너지바우처와 전기요금 복지할인은 같이 받나요? 중복부터 차감 총정리
 
 - 스포크 (허브 energy-voucher) · 파일: app\policy\[id]\[spoke]\content\에너지바우처\전기요금할인.tsx · 모델: claude-opus-5-5 · effort high · 0.7분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/energy-voucher/전기요금할인

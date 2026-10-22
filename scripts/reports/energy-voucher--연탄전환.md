@@ -1,4 +1,4 @@
-# ✅ 연탄전환 에너지바우처 대상, 보일러를 바꾼 집이 받는 금액과 사용기간
+# ✅ 연탄전환 에너지바우처는 누가 받나요? 대상부터 사용기간 정리
 
 - 스포크 (허브 energy-voucher) · 파일: app\policy\[id]\[spoke]\content\에너지바우처\연탄전환.tsx · 모델: claude-opus-5-5 · effort high · 2.7분 · 입력 50k·출력 2k 토큰 · 환산 $0.30
 - 주소: https://gov.jjyu.co.kr/policy/energy-voucher/연탄전환

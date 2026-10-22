@@ -1,4 +1,4 @@
-# ✅ 한부모가족 지원법으로 받는 혜택 종류와 절차
+# ✅ 한부모가족 혜택은 어떻게 되나요? 지원금부터 정책 총정리
 
 - 스포크 (허브 low-income-single-parent) · 파일: app\policy\[id]\[spoke]\content\한부모가족지원\혜택.tsx · 모델: claude-opus-5-5 · effort high · 7.5분 · 입력 297k·출력 35k 토큰 · 환산 $2.10
 - 주소: https://gov.jjyu.co.kr/policy/low-income-single-parent/혜택

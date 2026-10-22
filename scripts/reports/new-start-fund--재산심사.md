@@ -1,4 +1,4 @@
-# ✅ 새출발기금 재산심사, 가상자산·비상장주식까지 어디까지 볼까
+# ✅ 새출발기금은 재산을 어디까지 보나요? 조사부터 공제 정리
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\재산심사.tsx · 모델: claude-opus-5-5 · effort high · 14.6분 · 입력 696k·출력 57k 토큰 · 환산 $2.45
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/재산심사

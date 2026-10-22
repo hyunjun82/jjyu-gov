@@ -28,7 +28,7 @@ const SRC1 = 'https://www.newstartfund.or.kr/Contents/Prod.do';
 const SRC2 = 'https://www.newstartfund.or.kr/Contents/Process_guid.do';
 
 export const 새출발기금보이스피싱주의SpokeContent: SpokeData = {
-  h1: '새출발기금을 사칭한 전화·문자, 공식 대표번호로 확인하세요',
+  h1: '새출발기금 사칭 전화는 믿어도 되나요? 대표번호부터 보이스피싱 총정리',
   breadcrumb: '새출발기금 사칭 주의',
   description:
     '새출발기금을 사칭한 전화·문자를 가려내는 기준과 대표 콜센터 번호, 공식 채무조정 경로와 상담창구를 새출발기금 누리집 안내로 확인했습니다.',

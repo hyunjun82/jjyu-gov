@@ -1,4 +1,4 @@
-# ✅ 노인맞춤돌봄서비스 대상 자격, 우리 부모님도 받을 수 있을까
+# ✅ 노인맞춤돌봄서비스는 누가 받나요? 대상부터 신청 자격 총정리
 
 - 스포크 (허브 senior-customized-care) · 파일: app\policy\[id]\[spoke]\content\노인맞춤돌봄\신청자격.tsx · 모델: claude-opus-5-5 · effort high · 11.2분 · 입력 368k·출력 39k 토큰 · 환산 $2.89
 - 주소: https://gov.jjyu.co.kr/policy/senior-customized-care/신청자격

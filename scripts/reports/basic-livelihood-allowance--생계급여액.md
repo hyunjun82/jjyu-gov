@@ -1,4 +1,4 @@
-# ✅ 기초생활수급자 생계급여 금액, 소득인정액을 빼고 나오는 돈 계산
+# ✅ 기초생활수급자 생계급여는 얼마 받나요? 금액부터 지원금 총정리
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\생계급여액.tsx · 모델: claude-opus-5-5 · effort high · 14.3분 · 입력 565k·출력 45k 토큰 · 환산 $2.42
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/생계급여액

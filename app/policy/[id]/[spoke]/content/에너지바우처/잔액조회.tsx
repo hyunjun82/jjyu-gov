@@ -37,7 +37,7 @@ const SRC2 = 'https://www.energyv.or.kr/info/support_info.do';
 const SRC3 = 'https://www.energyv.or.kr/';
 
 export const 에너지바우처잔액SpokeContent: SpokeData = {
-  h1: '에너지바우처 잔액 조회, 안 될 때 확인할 곳과 환급',
+  h1: '에너지바우처 잔액은 어디서 보나요? 조회 방법부터 환급 정리',
   breadcrumb: '에너지바우처 잔액조회',
   description:
     '에너지바우처 잔액을 복지로 복지지갑에서 조회하는 순서와 조회·사용이 안 될 때 맞춰 볼 사용기간, 남은 잔액을 쓸 수 있는 기한을 에너지바우처 누리집 안내로 확인했습니다.',

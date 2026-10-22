@@ -1,4 +1,4 @@
-# ✅ 새출발기금 감면율이 줄어든 이유와 달라진 원금 기준
+# ✅ 새출발기금 감면율은 왜 줄었나요? 원금부터 차이 정리
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\감면율.tsx · 모델: claude-opus-5-5 · effort high · 3.5분 · 입력 51k·출력 482 토큰 · 환산 $0.28
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/감면율

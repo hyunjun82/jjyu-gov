@@ -30,7 +30,7 @@ const SRC1 = 'https://en-ter.co.kr/ec/board/faq/info.do';
 const SRC2 = 'https://www.energyv.or.kr/info/support_info.do';
 
 export const 에너지캐시백에너지바우처절전요금할인비교SpokeContent: SpokeData = {
-  h1: '에너지캐시백은 바우처·탄소포인트·에코마일리지와 같이 받을 수 있나',
+  h1: '에너지캐시백은 다른 혜택과 겹쳐도 되나요? 바우처부터 에코마일리지 정리',
   breadcrumb: '캐시백 중복 혜택',
   description:
     '에너지캐시백을 에너지바우처·복지할인·탄소포인트·에코마일리지와 겹쳐 받을 수 있는지, 공식 안내로 확인된 스마트가전 캐시백 중복과 동절기 에너지바우처 중복 지원 불가 대상을 함께 살폈습니다.',

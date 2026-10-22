@@ -1,4 +1,4 @@
-# ✅ 국민취업지원제도를 다시 받으려면, 재참여 조건과 3년 제한
+# ✅ 국민취업지원제도 재참여는 언제 되나요? 조건부터 3년 제한 정리
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\재참여.tsx · 모델: claude-opus-5-5 · effort high · 11.4분 · 입력 348k·출력 40k 토큰 · 환산 $2.25
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/재참여

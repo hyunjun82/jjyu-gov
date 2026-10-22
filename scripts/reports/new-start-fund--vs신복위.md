@@ -1,4 +1,4 @@
-# ✅ 새출발기금과 신용회복위원회, 연체 기간에 따라 어디로 가야 할까
+# ✅ 새출발기금은 신용회복위원회와 뭐가 다른가요? 연체부터 신청 창구 정리
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\vs신복위.tsx · 모델: claude-opus-5-5 · effort high · 12.8분 · 입력 277k·출력 42k 토큰 · 환산 $1.75
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/vs신복위

@@ -1,4 +1,4 @@
-# ✅ 에너지바우처 동절기에 어디서 쓸 수 있나, 사용기간과 결제 방법
+# ✅ 에너지바우처는 동절기에 어디서 쓰나요? 사용기간부터 신청 방법
 
 - 스포크 (허브 energy-voucher) · 파일: app\policy\[id]\[spoke]\content\에너지바우처\동절기신청사용법.tsx · 모델: claude-opus-5-5 · effort high · 0.7분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/energy-voucher/winter-application-usage-guide

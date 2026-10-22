@@ -1,4 +1,4 @@
-# ✅ 긴급복지지원으로 받을 수 있는 것들, 생계·의료·주거·연료비
+# ✅ 긴급복지지원은 어떤 종류가 있나요? 생계부터 연료비 총정리
 
 - 스포크 (허브 emergency-welfare-support) · 파일: app\policy\[id]\[spoke]\content\긴급복지\지원종류.tsx · 모델: claude-opus-5-5 · effort high · 14.1분 · 입력 947k·출력 45k 토큰 · 환산 $2.84
 - 주소: https://gov.jjyu.co.kr/policy/emergency-welfare-support/지원종류

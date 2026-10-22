@@ -37,7 +37,7 @@ const SRC2 = 'https://www.newstartfund.or.kr/Contents/Prod.do';
 const SRC3 = 'https://www.fsc.go.kr/no010101/87188';
 
 export const 새출발기금새출발기금단점주의사항신청전SpokeContent: SpokeData = {
-  h1: '새출발기금 단점과 주의사항, 추심·대출·후기로 본 신청 전 점검',
+  h1: '새출발기금 단점은 뭔가요? 추심부터 후기 정리',
   breadcrumb: '새출발기금 단점',
   description:
     '새출발기금 신청 전에 알아 둘 단점과 신청 후 추심, 대출, 신용정보 변동, 약정 뒤 재산 사후검증을 새출발기금 누리집과 금융위원회 보도자료로 확인했습니다.',

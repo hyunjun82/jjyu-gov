@@ -31,7 +31,7 @@ const SRC2 = 'https://en-ter.co.kr/ec/board/faq/info.do';
 const SRC3 = 'https://en-ter.co.kr/ec/main/main.do';
 
 export const 에너지캐시백조회SpokeContent: SpokeData = {
-  h1: '에너지캐시백이 얼마나 쌓였는지 확인하는 법, 내역 조회와 지급 시기',
+  h1: '에너지캐시백 얼마나 쌓였나요? 조회부터 환급 총정리',
   breadcrumb: '에너지캐시백 조회',
   description:
     '에너지캐시백 홈페이지에서 캐시백 내역을 조회하는 메뉴와 청구서 표기, 다음달 전기요금에 반영되는 지급방법, 이사 등으로 환급에서 빠지는 경우를 한전 에너지캐시백 안내로 확인했습니다.',

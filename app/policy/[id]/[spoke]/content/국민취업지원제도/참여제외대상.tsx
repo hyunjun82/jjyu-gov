@@ -27,7 +27,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do';
 
 export const 국취참여제외대상SpokeContent: SpokeData = {
-  h1: '국민취업지원제도에 참여할 수 없는 사람, 제외대상과 소득·재산 기준',
+  h1: '국민취업지원제도에서 빠지는 사람은 누구인가요? 제외대상부터 재산 기준 정리',
   breadcrumb: '국취 참여 제외대상',
   description:
     '국민취업지원제도 참여 제외대상과 불완전 취업자 예외, 조건부수급자 참여 여부, 유형별 소득기준과 재산 기준을 고용24 안내로 확인했습니다.',

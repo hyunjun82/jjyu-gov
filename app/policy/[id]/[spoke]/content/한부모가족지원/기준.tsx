@@ -37,7 +37,7 @@ const SRC2 = 'https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=10601000001';
 const SRC3 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EB%B6%80%EB%AA%A8%EA%B0%80%EC%A1%B1%EC%A7%80%EC%9B%90%EB%B2%95';
 
 export const 한부모기준SpokeContent: SpokeData = {
-  h1: '한부모가족 기준 중위소득 65%, 우리 집은 해당될까',
+  h1: '한부모가족 기준은 얼마까지인가요? 중위소득부터 조건 총정리',
   breadcrumb: '한부모 소득 기준',
   description:
     '한부모가족 지원을 가르는 기준 중위소득 65% 기준선을 가구 규모별로 정리하고, 소득인정액 기준과 자녀 나이·가족 형태 조건을 성평등가족부 안내와 한부모가족지원법으로 확인했습니다.',

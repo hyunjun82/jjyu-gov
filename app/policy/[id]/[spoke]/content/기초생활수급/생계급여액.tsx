@@ -28,7 +28,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010500';
 const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010300';
 
 export const 기초수급생계급여액SpokeContent: SpokeData = {
-  h1: '기초생활수급자 생계급여 금액, 소득인정액을 빼고 나오는 돈 계산',
+  h1: '기초생활수급자 생계급여는 얼마 받나요? 금액부터 지원금 총정리',
   breadcrumb: '생계급여 금액·지원금',
   description:
     '보건복지부 기초생활보장 안내로 생계급여 금액 계산법과 가구 규모별 지급기준, 1인가구 금액, 받는 조건, 기초생활수급자가 받는 다른 지원금을 확인했습니다.',

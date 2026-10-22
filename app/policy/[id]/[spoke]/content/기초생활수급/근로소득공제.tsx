@@ -27,7 +27,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010400';
 const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010300';
 
 export const 기초수급근로소득공제SpokeContent: SpokeData = {
-  h1: '기초생활수급자가 일하면 급여가 줄어들까, 근로소득 공제와 신고',
+  h1: '수급자가 일하면 급여는 어떻게 되나요? 근로소득부터 신고방법 정리',
   breadcrumb: '수급자 근로소득 공제',
   description:
     '기초생활수급자가 일해서 번 근로소득이 소득인정액에 어떻게 들어가는지, 대상별 근로소득 공제 기준과 확인조사 때 입증자료 제출까지 보건복지부 안내로 확인했습니다.',

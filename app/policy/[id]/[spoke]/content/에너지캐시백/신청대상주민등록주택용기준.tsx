@@ -35,7 +35,7 @@ const SRC1 = 'https://en-ter.co.kr/ec/apply/info/info.do';
 const SRC2 = 'https://en-ter.co.kr/ec/board/faq/info.do';
 
 export const 에너지캐시백신청대상주민등록주택용기준SpokeContent: SpokeData = {
-  h1: '에너지캐시백 신청 대상, 주택용 전기 고객이면 누구나 될까',
+  h1: '에너지캐시백 신청 대상은 누구인가요? 주택용부터 제외 고객 총정리',
   breadcrumb: '에너지캐시백 신청 대상',
   description:
     '에너지캐시백 신청 대상인 주택용 기준과 주민등록 요건, 한시적 확대 기준, 참여 제외 고객을 에너지캐시백 누리집 안내로 확인했습니다.',

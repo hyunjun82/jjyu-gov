@@ -34,7 +34,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010100';
 const SRC2 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180';
 
 export const 긴급복지소득재산기준SpokeContent: SpokeData = {
-  h1: '긴급복지지원금 조건, 생계·의료·주거마다 소득·재산 기준이 다를까',
+  h1: '긴급복지지원금 조건은 어떻게 되나요? 생계부터 주거 정리',
   breadcrumb: '긴급복지 지원 조건',
   description:
     '긴급복지지원금을 받을 수 있는 위기사유와 소득·재산 기준, 생계·의료·주거지원별로 따로 보는 조건을 보건복지부와 복지로 안내로 확인했습니다.',

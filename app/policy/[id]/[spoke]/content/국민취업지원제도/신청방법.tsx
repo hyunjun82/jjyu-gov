@@ -31,7 +31,7 @@ const SRC1 = 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do';
 const SRC2 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316&systClId=SC00000206';
 
 export const 국취신청SpokeContent: SpokeData = {
-  h1: '국민취업지원제도 신청 서류와 접수 기간, 결과는 언제 나올까',
+  h1: '국민취업지원제도 신청은 어떻게 하나요? 서류부터 결과 총정리',
   breadcrumb: '국민취업지원제도 신청',
   description:
     '국민취업지원제도 신청 서류와 온라인·고용센터 신청방법, 상시 신청과 재참여 제한, 심사 결과가 나오는 시점을 고용24 안내로 확인했습니다.',
