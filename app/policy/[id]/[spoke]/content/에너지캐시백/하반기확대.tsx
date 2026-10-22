@@ -27,7 +27,7 @@ const SRC1 = 'https://en-ter.co.kr/ec/apply/info/info.do';
 const SRC2 = 'https://en-ter.co.kr/ec/board/faq/info.do';
 
 export const 에너지캐시백하반기SpokeContent: SpokeData = {
-  h1: '에너지캐시백 확대는 언제까지인가요? 1%부터 12월까지',
+  h1: '에너지캐시백 한시 확대, 1%만 아껴도 받는 단가와 적용 기간',
   breadcrumb: '캐시백 한시 확대',
   description:
     '주택용 에너지캐시백 한시 확대 기간과 1% 절감 구간, 1kWh당 최대 120원 단가, 12월 검침분의 뜻을 한전 에너지캐시백 누리집 안내로 확인했습니다.',

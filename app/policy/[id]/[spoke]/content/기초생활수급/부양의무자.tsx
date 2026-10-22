@@ -30,7 +30,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010300';
 const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010400';
 
 export const 기초수급부양의무자SpokeContent: SpokeData = {
-  h1: '기초생활수급자 부양의무자 기준은 아직 있나요? 소득부터 폐지까지',
+  h1: '기초생활수급자 부양의무자 기준, 지금도 적용되는 급여는 어디까지일까',
   breadcrumb: '부양의무자 기준',
   description:
     '기초생활수급자 부양의무자 기준이 생계급여·의료급여에 아직 남아 있는지, 부양의무자의 소득·재산을 어떻게 보는지와 기준이 적용되지 않는 경우를 보건복지부 안내로 확인했습니다.',

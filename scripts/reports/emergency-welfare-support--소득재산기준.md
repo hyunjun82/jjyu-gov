@@ -1,4 +1,4 @@
-# ✅ 긴급복지지원금 조건은 어떻게 되나요? 생계부터 주거까지
+# ✅ 긴급복지지원금 조건, 생계·의료·주거마다 소득·재산 기준이 다를까
 
 - 스포크 (허브 emergency-welfare-support) · 파일: app\policy\[id]\[spoke]\content\긴급복지\소득재산기준.tsx · 모델: claude-opus-5-5 · effort high · 19.3분 · 입력 505k·출력 42k 토큰 · 환산 $2.10
 - 주소: https://gov.jjyu.co.kr/policy/emergency-welfare-support/소득재산기준

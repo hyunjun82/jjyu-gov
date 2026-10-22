@@ -1,4 +1,4 @@
-# ✅ 한전 에너지캐시백 단점은 뭔가요? 불이익부터 이사까지
+# ✅ 한전 에너지캐시백 단점, 신청 전에 알아둘 불이익과 이사 시 해지
 
 - 스포크 (허브 energy-cashback) · 파일: app\policy\[id]\[spoke]\content\에너지캐시백\단점.tsx · 모델: claude-opus-5-5 · effort high · 16.0분 · 입력 441k·출력 37k 토큰 · 환산 $1.95
 - 주소: https://gov.jjyu.co.kr/policy/energy-cashback/단점

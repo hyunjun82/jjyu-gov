@@ -35,7 +35,7 @@ const SRC2 = 'https://www.newstartfund.or.kr/Contents/Process_guid.do';
 const SRC3 = 'https://www.newstartfund.or.kr/Contents/Prod.do';
 
 export const 새출발기금상환유예SpokeContent: SpokeData = {
-  h1: '새출발기금 상환유예는 어떻게 하나요? 거치기간부터 연장까지',
+  h1: '새출발기금 상환유예와 거치기간, 갚기 어려울 때 신청하는 법',
   breadcrumb: '새출발기금 상환유예',
   description:
     '새출발기금 상환유예를 받는 신청 창구와 온라인 신청 순서, 차주별 거치기간과 연장 가능 여부를 한국자산관리공사와 새출발기금 안내로 확인했습니다.',

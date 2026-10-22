@@ -7,7 +7,7 @@
   "fileName": "재산기준",
   "exportName": "기초수급재산기준SpokeContent",
   "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\재산기준.tsx",
-  "title": "기초생활수급자 재산은 얼마까지 되나요? 기준부터 조사까지",
+  "title": "기초생활수급자 재산 기준, 공제금액과 조사 방법",
   "subs": [
     "기초생활수급자 재산기준",
     "기초생활수급자 재산공제",

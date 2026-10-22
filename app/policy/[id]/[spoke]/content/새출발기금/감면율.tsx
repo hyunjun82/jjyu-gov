@@ -35,7 +35,7 @@ const SRC2 = 'https://www.kamco.or.kr/portal/contents.do?mId=0203030000';
 const SRC3 = 'https://www.newstartfund.or.kr/Contents/Process_guid.do';
 
 export const 새출발기금감면율SpokeContent: SpokeData = {
-  h1: '새출발기금 감면율은 왜 줄었나요? 원금부터 차이까지',
+  h1: '새출발기금 감면율이 줄어든 이유와 달라진 원금 기준',
   breadcrumb: '새출발기금 감면율',
   description:
     '새출발기금 감면율이 낮아진 이유와 원금 감면이 정해지는 방식, 부실차주 감면 폭, 개선 전후와 다른 채무조정제도와의 감면율 차이를 금융위원회·캠코 자료로 확인했습니다.',

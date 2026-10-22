@@ -29,7 +29,7 @@ const SRC1 = 'https://en-ter.co.kr/ec/board/faq/info.do';
 const SRC2 = 'https://en-ter.co.kr/ec/apply/info/info.do';
 
 export const 에너지캐시백아파트SpokeContent: SpokeData = {
-  h1: '아파트 에너지캐시백은 어떻게 받나요? 관리비부터 단지까지',
+  h1: '아파트에 살아도 에너지캐시백을 받을 수 있나요, 관리비와 개별세대',
   breadcrumb: '아파트 에너지캐시백',
   description:
     '아파트 에너지캐시백을 관리비로 전기요금을 내는 세대, 개별세대 신청, 단지 사업으로 나눠 참여 조건과 지급 방식을 한전 에너지캐시백 안내로 확인했습니다.',

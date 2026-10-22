@@ -38,7 +38,7 @@ const SRC2 = 'https://www.kamco.or.kr/portal/contents.do?mId=0203030000';
 const SRC3 = 'https://www.newstartfund.or.kr/Contents/Findmatchprogram.do';
 
 export const 새출발기금모의감면계산SpokeContent: SpokeData = {
-  h1: '새출발기금 내 감면율은 얼마인가요? 변제가능률부터 모의계산까지',
+  h1: '새출발기금 내 감면율은 얼마일까, 변제가능률로 계산해 보기',
   breadcrumb: '새출발기금 감면율',
   description:
     '새출발기금 원금감면율을 정하는 변제가능률 계산식과 바뀐 감면 기준, 재산심사 항목, 대상별 감면 기준을 금융위원회·캠코 안내로 확인했습니다.',

@@ -1,4 +1,4 @@
-# ❌ 에너지캐시백 확대는 언제까지인가요? 1%부터 12월까지
+# ❌ 에너지캐시백 한시 확대, 1%만 아껴도 받는 단가와 적용 기간
 
 - 스포크 (허브 energy-cashback) · 파일: app\policy\[id]\[spoke]\content\에너지캐시백\하반기확대.tsx · 모델: claude-opus-5-5 · effort high · 3.2분 · 입력 99k·출력 1k 토큰 · 환산 $0.54
 - 주소: https://gov.jjyu.co.kr/policy/energy-cashback/하반기확대

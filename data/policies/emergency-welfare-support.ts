@@ -96,9 +96,9 @@ export const emergencyWelfareSupportPolicy = {
 } as const;
 
 export const emergencyWelfareSupportSpokes = [
-  { slug: '위기사유', role: 'eligibility', title: '긴급복지 위기사유에는 뭐가 해당하나요? 제도부터 지원법까지', content: '주소득자 사망·실직, 중한 질병, 화재·재난, 가정폭력 등.' },
-  { slug: '생계지원금', role: 'amount', title: '긴급복지 생계지원금은 얼마 나오나요? 연장부터 2차까지', content: '1인 783,000·4인 1,994,600원, 의료 최대 300만.' },
-  { slug: '소득재산기준', role: 'eligibility', title: '긴급복지지원금 조건은 어떻게 되나요? 생계부터 주거까지', content: '소득 중위 75%(4인 487만), 재산 대도시 2.41억 이하.' },
-  { slug: '신청방법', role: 'apply', title: '긴급복지지원금 신청은 어떻게 하나요? 서류부터 신고의무까지', content: '시군구·읍면동·☎129, 선지원 후심사, 이웃 신고.' },
-  { slug: '지원종류', role: 'usage', title: '긴급복지지원은 어떤 종류가 있나요? 생계부터 연료비까지', content: '생계·의료·주거·교육·연료·해산·장제비 등.' },
+  { slug: '위기사유', role: 'eligibility', title: '긴급복지 위기사유에 해당하는 경우, 제도 내용과 지원법 근거', content: '주소득자 사망·실직, 중한 질병, 화재·재난, 가정폭력 등.' },
+  { slug: '생계지원금', role: 'amount', title: '긴급복지 생계지원금 연장과 2차 신청, 지급일은 언제일까', content: '1인 783,000·4인 1,994,600원, 의료 최대 300만.' },
+  { slug: '소득재산기준', role: 'eligibility', title: '긴급복지지원금 조건, 생계·의료·주거마다 소득·재산 기준이 다를까', content: '소득 중위 75%(4인 487만), 재산 대도시 2.41억 이하.' },
+  { slug: '신청방법', role: 'apply', title: '긴급복지 신청은 어디서 어떻게, 준비 서류와 신고 의무', content: '시군구·읍면동·☎129, 선지원 후심사, 이웃 신고.' },
+  { slug: '지원종류', role: 'usage', title: '긴급복지지원으로 받을 수 있는 것들, 생계·의료·주거·연료비', content: '생계·의료·주거·교육·연료·해산·장제비 등.' },
 ];

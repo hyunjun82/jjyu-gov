@@ -36,7 +36,7 @@ const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010300';
 const SRC3 = 'https://www.mohw.go.kr/menu.es?mid=a10708010200';
 
 export const 기초수급탈락조건SpokeContent: SpokeData = {
-  h1: '통장 잔액이 많으면 기초생활수급에서 탈락하나요? 조사부터 재신청까지',
+  h1: '통장 잔액이 많으면 기초생활수급에서 탈락할까, 조사와 재신청',
   breadcrumb: '수급 통장 잔액·탈락',
   description:
     '통장 잔액이 기초생활수급 심사에서 어떻게 계산되는지, 수급 중 통장조사와 탈락 조건, 급여중지 뒤 이의신청과 재신청 방법을 보건복지부 안내로 확인했습니다.',

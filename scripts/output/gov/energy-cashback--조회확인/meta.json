@@ -7,7 +7,7 @@
   "fileName": "조회확인",
   "exportName": "에너지캐시백조회SpokeContent",
   "file": "app\\policy\\[id]\\[spoke]\\content\\에너지캐시백\\조회확인.tsx",
-  "title": "에너지캐시백 얼마나 쌓였나요? 조회부터 환급까지",
+  "title": "에너지캐시백이 얼마나 쌓였는지 확인하는 법, 내역 조회와 지급 시기",
   "subs": [
     "에너지캐시백 조회",
     "에너지캐시백 내역",

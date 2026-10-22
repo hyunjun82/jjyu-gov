@@ -28,7 +28,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do';
 
 export const 국취구직활동SpokeContent: SpokeData = {
-  h1: '국민취업지원제도 구직활동은 뭘 해야 하나요? 인정부터 증명까지',
+  h1: '국민취업지원제도 구직활동, 무엇이 인정되고 어떻게 증명할까',
   breadcrumb: '구직활동 인정·증명',
   description:
     '국민취업지원제도에서 어떤 구직활동이 인정되는지, 활동 종류와 이행 방법, 수당을 신청할 때 내는 증명 서류를 고용24 안내로 확인했습니다.',

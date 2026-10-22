@@ -36,7 +36,7 @@ const SRC1 = 'https://www.energyv.or.kr/info/support_info.do';
 const SRC2 = 'https://www.energyv.or.kr/info/use_info.do';
 
 export const 에너지바우처전기할인SpokeContent: SpokeData = {
-  h1: '에너지바우처와 전기요금 복지할인은 같이 받나요? 중복부터 차감까지',
+  h1: '에너지바우처와 전기요금 복지할인, 중복해서 받으면 차감될까',
   breadcrumb: '바우처 전기요금 차감',
   description:
     '에너지바우처와 동절기 중복 지원이 불가한 경우, 전기요금에서 바우처를 차감받는 순서, 국민행복카드로 전기요금을 내는 방법을 에너지바우처 누리집 안내로 확인했습니다.',

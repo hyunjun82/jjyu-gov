@@ -26,7 +26,7 @@ const SRC1 = 'https://www.kamco.or.kr/portal/contents.do?mId=0203030000';
 const SRC2 = 'https://www.newstartfund.or.kr/Contents/Process_guid.do';
 
 export const 새출발기금부실우려차주금리조정SpokeContent: SpokeData = {
-  h1: '새출발기금 부실우려차주는 이자가 얼마나 줄어드나요? 감면부터 금리인하까지',
+  h1: '새출발기금 부실우려차주 이자 부담, 금리 인하 폭과 불이익',
   breadcrumb: '부실우려차주 금리조정',
   description:
     '새출발기금 부실우려차주가 받는 원금조정·금리조정·분할상환 지원과 신용상 불이익, 신청취소 기한을 캠코와 새출발기금 안내로 확인했습니다.',

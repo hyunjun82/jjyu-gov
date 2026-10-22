@@ -32,7 +32,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010500';
 const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010300';
 
 export const 기초수급급여종류SpokeContent: SpokeData = {
-  h1: '기초생활수급자 급여에는 뭐가 있나요? 종류부터 주거·의료까지',
+  h1: '기초생활수급자가 받는 지원 종류, 생계·의료·주거·교육 급여 구분',
   breadcrumb: '기초수급 급여 종류',
   description:
     '기초생활수급자가 받는 급여 종류와 급여별 선정기준, 생계급여 금액이 정해지는 방식, 주거급여와 의료급여 조건을 보건복지부 안내로 확인했습니다.',

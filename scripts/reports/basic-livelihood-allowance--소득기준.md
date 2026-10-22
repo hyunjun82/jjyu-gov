@@ -1,4 +1,4 @@
-# ✅ 기초생활수급자 조건은 어떻게 되나요? 선정기준부터 계산 방법까지
+# ✅ 기초생활수급자가 되는 조건, 선정기준과 소득인정액 계산 방법
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\소득기준.tsx · 모델: claude-opus-5-5 · effort high · 3.1분 · 입력 51k·출력 212 토큰 · 환산 $0.28
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/소득기준

@@ -1,4 +1,4 @@
-# ✅ 직장인도 새출발기금을 받을 수 있나요? 조건부터 서류까지
+# ✅ 직장인도 새출발기금을 받을 수 있을까, 대상 조건과 신청 서류
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\직장인.tsx · 모델: claude-opus-5-5 · effort high · 15.1분 · 입력 529k·출력 56k 토큰 · 환산 $2.64
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/직장인

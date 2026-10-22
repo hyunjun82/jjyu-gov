@@ -27,7 +27,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.work24.go.kr/cm/c/b/1100/selectBbttInfo.do?polySvcFomtId=FM00000247';
 
 export const 국민취업지원제도취업성공수당150만원조건SpokeContent: SpokeData = {
-  h1: '취업성공수당은 언제 받나요? 6개월부터 서류까지',
+  h1: '취업성공수당 최대 150만원, 6개월 근속 후 받는 방법',
   breadcrumb: '취업성공수당 조건',
   description:
     '국민취업지원제도 취업성공수당을 언제 얼마씩 받는지, 받는 조건과 취업성공수당 지급신청서 받는 곳을 고용24 안내로 확인했습니다.',

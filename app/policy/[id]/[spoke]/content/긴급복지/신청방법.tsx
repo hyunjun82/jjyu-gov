@@ -31,7 +31,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010100';
 const SRC2 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180';
 
 export const 긴급복지신청방법SpokeContent: SpokeData = {
-  h1: '긴급복지지원금 신청은 어떻게 하나요? 서류부터 신고의무까지',
+  h1: '긴급복지 신청은 어디서 어떻게, 준비 서류와 신고 의무',
   breadcrumb: '긴급복지 신청방법',
   description:
     '긴급복지지원금을 보건복지상담센터 129·읍면동·시군구에 신청하는 순서와 재산 산정 방식, 의료지원 신청, 신고와 환수·이의신청 절차를 보건복지부·복지로 안내로 확인했습니다.',

@@ -27,7 +27,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do';
 
 export const 국취중복SpokeContent: SpokeData = {
-  h1: '국민취업지원제도는 다른 혜택과 겹쳐도 되나요? 청년수당부터 주거급여까지',
+  h1: '국민취업지원제도와 청년수당·긴급복지·주거급여 중복 가능 여부',
   breadcrumb: '국취 중복 참여',
   description:
     '국민취업지원제도를 청년수당·긴급복지·내일배움카드·주거급여와 함께 받을 수 있는지, 유형별 참여 기준과 기다려야 하는 기간을 고용24 안내로 확인했습니다.',

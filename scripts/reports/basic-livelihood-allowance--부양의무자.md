@@ -1,4 +1,4 @@
-# ✅ 기초생활수급자 부양의무자 기준은 아직 있나요? 소득부터 폐지까지
+# ✅ 기초생활수급자 부양의무자 기준, 지금도 적용되는 급여는 어디까지일까
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\부양의무자.tsx · 모델: claude-opus-5-5 · effort high · 12.5분 · 입력 554k·출력 46k 토큰 · 환산 $2.48
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/부양의무자

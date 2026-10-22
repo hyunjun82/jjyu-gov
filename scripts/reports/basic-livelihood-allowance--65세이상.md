@@ -1,4 +1,4 @@
-# ✅ 어르신은 기초생활수급 조건이 다른가요? 65세부터 노인연금까지
+# ✅ 65세 이상 어르신이 기초생활수급을 받을 때 소득인정액 계산법
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\65세이상.tsx · 모델: claude-opus-5-5 · effort high · 13.0분 · 입력 390k·출력 40k 토큰 · 환산 $2.38
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/65세이상

@@ -1,4 +1,4 @@
-# ✅ 긴급복지 생계지원금은 얼마 나오나요? 연장부터 2차까지
+# ✅ 긴급복지 생계지원금 연장과 2차 신청, 지급일은 언제일까
 
 - 스포크 (허브 emergency-welfare-support) · 파일: app\policy\[id]\[spoke]\content\긴급복지\생계지원금.tsx · 모델: claude-opus-5-5 · effort high · 1.9분 · 입력 50k·출력 567 토큰 · 환산 $0.28
 - 주소: https://gov.jjyu.co.kr/policy/emergency-welfare-support/생계지원금

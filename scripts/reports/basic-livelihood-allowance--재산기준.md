@@ -1,4 +1,4 @@
-# ✅ 기초생활수급자 재산은 얼마까지 되나요? 기준부터 조사까지
+# ✅ 기초생활수급자 재산 기준, 공제금액과 조사 방법
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\재산기준.tsx · 모델: claude-opus-5-5 · effort high · 17.1분 · 입력 515k·출력 38k 토큰 · 환산 $2.03
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/재산기준

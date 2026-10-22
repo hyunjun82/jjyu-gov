@@ -32,7 +32,7 @@ const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010400';
 const BOKJIRO = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52005M.do';
 
 export const 기초수급신청방법SpokeContent: SpokeData = {
-  h1: '기초생활수급자 신청은 어떻게 하나요? 서류부터 확인방법까지',
+  h1: '기초생활수급자 신청, 필요한 서류와 결과가 나오기까지 걸리는 기간',
   breadcrumb: '기초수급 신청방법',
   description:
     '기초생활수급자 신청서류와 주민센터 신청방법, 신청 후 조사와 급여결정 순서, 결과 통지와 이의신청까지 보건복지부 보장절차·조사내용 안내로 확인했습니다.',

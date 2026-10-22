@@ -31,7 +31,7 @@ const SRC1 = 'https://www.energyv.or.kr/info/apl_info.do';
 const SRC2 = 'https://www.energyv.or.kr/info/support_info.do';
 
 export const 에너지바우처자동신청SpokeContent: SpokeData = {
-  h1: '에너지바우처는 기초수급자도 따로 받아야 하나요? 자동신청부터 대상까지',
+  h1: '기초수급자는 에너지바우처가 자동으로 나올까, 대상 조회 방법',
   breadcrumb: '에너지바우처 자동신청',
   description:
     '전년도에 받은 에너지바우처가 올해 자동신청되는 조건과 신규 신청이 필요한 경우, 기초수급자 신청대상 기준과 세대원 특성기준을 에너지바우처 누리집 안내로 확인했습니다.',

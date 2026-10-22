@@ -26,7 +26,7 @@ const SRC1 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011
 const SRC2 = 'https://www.1661-2129.or.kr/download/2026%EB%85%84%20%EB%85%B8%EC%9D%B8%EB%A7%9E%EC%B6%A4%EB%8F%8C%EB%B4%84%EC%84%9C%EB%B9%84%EC%8A%A4%20%EC%82%AC%EC%97%85%EC%95%88%EB%82%B4.pdf';
 
 export const 노인맞춤돌봄특화SpokeContent: SpokeData = {
-  h1: '노인맞춤돌봄 특화서비스는 뭔가요? 고독사 예방부터 1대1 케어까지',
+  h1: '노인맞춤돌봄 특화서비스, 고독사 예방과 우울 위험 1대1 케어',
   breadcrumb: '노인맞춤돌봄 특화서비스',
   description:
     '노인맞춤돌봄 특화서비스가 고독사와 우울 위험을 어떻게 살피는지, 특화지원 내용과 신청 자격, 돌봄군별 1대1 케어 시간을 2026년 노인맞춤돌봄서비스 사업안내로 확인했습니다.',

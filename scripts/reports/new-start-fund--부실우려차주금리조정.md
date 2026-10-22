@@ -1,4 +1,4 @@
-# ✅ 새출발기금 부실우려차주는 이자가 얼마나 줄어드나요? 감면부터 금리인하까지
+# ✅ 새출발기금 부실우려차주 이자 부담, 금리 인하 폭과 불이익
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\부실우려차주금리조정.tsx · 모델: claude-opus-5-5 · effort high · 11.1분 · 입력 333k·출력 36k 토큰 · 환산 $1.92
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/부실우려차주금리조정

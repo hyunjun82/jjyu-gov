@@ -28,7 +28,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do';
 
 export const 국민취업지원제도구직촉진수당월60만6개월조건SpokeContent: SpokeData = {
-  h1: '국민취업지원제도 구직촉진수당은 얼마인가요? 조건부터 지급일까지',
+  h1: '국민취업지원제도 구직촉진수당, 월 60만원은 언제 입금될까',
   breadcrumb: '구직촉진수당 조건·지급일',
   description:
     '국민취업지원제도 구직촉진수당의 참여 조건, 입금 방식과 부양가족 추가 금액, 1회차 지급 요건, 2회차 이후 지급일을 고용24 안내로 확인했습니다.',

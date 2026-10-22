@@ -29,7 +29,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010300';
 const SRC2 = 'https://www.mohw.go.kr/menu.es?mid=a10708010400';
 
 export const 기초수급재산기준SpokeContent: SpokeData = {
-  h1: '기초생활수급자 재산은 얼마까지 되나요? 기준부터 조사까지',
+  h1: '기초생활수급자 재산 기준, 공제금액과 조사 방법',
   breadcrumb: '수급자 재산기준',
   description:
     '기초생활수급자 재산기준과 지역별 기본재산액, 재산 종류별 소득환산율, 신청 뒤 재산조사와 매년 확인조사까지 보건복지부 안내로 확인했습니다.',

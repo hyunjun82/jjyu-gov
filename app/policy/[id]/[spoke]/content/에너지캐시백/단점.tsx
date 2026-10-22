@@ -31,7 +31,7 @@ const SRC1 = 'https://en-ter.co.kr/ec/board/faq/info.do';
 const SRC2 = 'https://en-ter.co.kr/ec/apply/info/info.do';
 
 export const 에너지캐시백단점SpokeContent: SpokeData = {
-  h1: '한전 에너지캐시백 단점은 뭔가요? 불이익부터 이사까지',
+  h1: '한전 에너지캐시백 단점, 신청 전에 알아둘 불이익과 이사 시 해지',
   breadcrumb: '에너지캐시백 단점',
   description:
     '한전 에너지캐시백의 단점과 불이익, 해지할 때 지급에서 빠지는 경우, 이사한 달 미지급과 새 집 재신청 적용 시점을 에너지마켓플레이스 안내로 확인했습니다.',

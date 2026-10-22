@@ -1,4 +1,4 @@
-# ✅ 새출발기금 단점은 뭔가요? 추심부터 후기까지
+# ✅ 새출발기금 단점과 주의사항, 추심·대출·후기로 본 신청 전 점검
 
 - 스포크 (허브 new-start-fund) · 파일: app\policy\[id]\[spoke]\content\새출발기금\새출발기금단점주의사항신청전.tsx · 모델: claude-opus-5-5 · effort high · 17.6분 · 입력 277k·출력 43k 토큰 · 환산 $2.10
 - 주소: https://gov.jjyu.co.kr/policy/new-start-fund/새출발기금단점주의사항신청전

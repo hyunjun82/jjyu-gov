@@ -1,4 +1,4 @@
-# ✅ 국민취업지원제도 구직촉진수당은 얼마인가요? 조건부터 지급일까지
+# ✅ 국민취업지원제도 구직촉진수당, 월 60만원은 언제 입금될까
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\구직촉진수당월60만6개월조건.tsx · 모델: claude-opus-5-5 · effort high · 17.3분 · 입력 587k·출력 41k 토큰 · 환산 $1.94
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/구직촉진수당월60만6개월조건

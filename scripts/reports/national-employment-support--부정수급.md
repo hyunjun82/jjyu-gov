@@ -1,4 +1,4 @@
-# ✅ 국민취업지원제도 부정수급은 처벌받나요? 기준부터 신고방법까지
+# ✅ 국민취업지원제도 부정수급 처벌과 신고 방법
 
 - 스포크 (허브 national-employment-support) · 파일: app\policy\[id]\[spoke]\content\국민취업지원제도\부정수급.tsx · 모델: claude-opus-5-5 · effort high · 21.2분 · 입력 826k·출력 50k 토큰 · 환산 $2.93
 - 주소: https://gov.jjyu.co.kr/policy/national-employment-support/부정수급

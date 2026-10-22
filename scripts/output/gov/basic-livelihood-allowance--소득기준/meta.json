@@ -7,7 +7,7 @@
   "fileName": "소득기준",
   "exportName": "기초수급소득기준SpokeContent",
   "file": "app\\policy\\[id]\\[spoke]\\content\\기초생활수급\\소득기준.tsx",
-  "title": "기초생활수급자 조건은 어떻게 되나요? 선정기준부터 계산 방법까지",
+  "title": "기초생활수급자가 되는 조건, 선정기준과 소득인정액 계산 방법",
   "subs": [
     "기초생활수급자 조건",
     "기초생활수급자 선정기준",

@@ -36,7 +36,7 @@ const SRC2 = 'https://www.energyv.or.kr/info/support_info.do';
 const SRC3 = 'https://www.energyv.or.kr/info/use_info.do';
 
 export const 에너지바우처신청기간SpokeContent: SpokeData = {
-  h1: '에너지바우처는 동절기에 언제까지 받나요? 신청기간부터 지원금액까지',
+  h1: '에너지바우처 동절기 신청은 언제까지, 지원금액도 함께 확인',
   breadcrumb: '에너지바우처 신청기간',
   description:
     '에너지바우처 신청기간과 신청 일시 중단기간, 동절기 사용기간, 세대원수별 지원금액을 에너지바우처 공식 안내로 확인했습니다.',

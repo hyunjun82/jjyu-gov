@@ -7,7 +7,7 @@
   "fileName": "지원종류",
   "exportName": "긴급복지지원종류SpokeContent",
   "file": "app\\policy\\[id]\\[spoke]\\content\\긴급복지\\지원종류.tsx",
-  "title": "긴급복지지원은 어떤 종류가 있나요? 생계부터 연료비까지",
+  "title": "긴급복지지원으로 받을 수 있는 것들, 생계·의료·주거·연료비",
   "subs": [
     "긴급복지 생계지원",
     "긴급복지 의료지원",

@@ -31,7 +31,7 @@ const SRC1 = 'https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI000
 const SRC2 = 'https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B5%AC%EC%A7%81%EC%9E%90%EC%B7%A8%EC%97%85%EC%B4%89%EC%A7%84%EB%B0%8F%EC%83%9D%ED%99%9C%EC%95%88%EC%A0%95%EC%A7%80%EC%9B%90%EC%97%90%EA%B4%80%ED%95%9C%EB%B2%95%EB%A5%A0';
 
 export const 국취재참여SpokeContent: SpokeData = {
-  h1: '국민취업지원제도 재참여는 언제 되나요? 조건부터 3년까지',
+  h1: '국민취업지원제도를 다시 받으려면, 재참여 조건과 3년 제한',
   breadcrumb: '국취 재참여 기간',
   description:
     '국민취업지원제도에 다시 참여하려면 갖춰야 할 조건과 신청 순서, 종료 사유별 재참여 제한 기간, 3년을 세는 종료일 기준을 고용24 안내와 법률로 확인했습니다.',

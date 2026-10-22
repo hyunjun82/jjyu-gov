@@ -29,7 +29,7 @@ const SRC1 = 'https://en-ter.co.kr/ec/apply/info/info.do';
 const SRC2 = 'https://en-ter.co.kr/ec/board/faq/info.do';
 
 export const 에너지캐시백캐시백금액계산3퍼센트절감기준SpokeContent: SpokeData = {
-  h1: '에너지캐시백 금액은 어떻게 계산하나요? 절감량부터 단가까지',
+  h1: '에너지캐시백 금액 계산법, 절감률 구간별 단가 한눈에',
   breadcrumb: '캐시백 금액 계산',
   description:
     '에너지캐시백 금액을 절감량·절감률 산식과 절감률 구간별 단가로 계산하는 방법을 정리했습니다. 한시적으로 달라진 구간·단가와 절감률 상한, 지급예시까지 에너지캐시백 누리집 안내로 확인했습니다.',

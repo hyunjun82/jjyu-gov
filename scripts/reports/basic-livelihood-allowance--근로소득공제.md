@@ -1,4 +1,4 @@
-# ✅ 수급자가 일하면 급여는 어떻게 되나요? 근로소득부터 신고방법까지
+# ✅ 기초생활수급자가 일하면 급여가 줄어들까, 근로소득 공제와 신고
 
 - 스포크 (허브 basic-livelihood-allowance) · 파일: app\policy\[id]\[spoke]\content\기초생활수급\근로소득공제.tsx · 모델: claude-opus-5-5 · effort high · 10.0분 · 입력 406k·출력 37k 토큰 · 환산 $1.76
 - 주소: https://gov.jjyu.co.kr/policy/basic-livelihood-allowance/근로소득공제

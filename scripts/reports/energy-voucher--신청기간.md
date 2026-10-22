@@ -1,4 +1,4 @@
-# ✅ 에너지바우처는 동절기에 언제까지 받나요? 신청기간부터 지원금액까지
+# ✅ 에너지바우처 동절기 신청은 언제까지, 지원금액도 함께 확인
 
 - 스포크 (허브 energy-voucher) · 파일: app\policy\[id]\[spoke]\content\에너지바우처\신청기간.tsx · 모델: claude-opus-5-5 · effort high · 0.8분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/energy-voucher/신청기간

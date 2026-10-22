@@ -32,7 +32,7 @@ const SRC1 = 'https://www.mohw.go.kr/menu.es?mid=a10708010100';
 const SRC3 = 'https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003180';
 
 export const 긴급복지위기사유SpokeContent: SpokeData = {
-  h1: '긴급복지 위기사유에는 뭐가 해당하나요? 제도부터 지원법까지',
+  h1: '긴급복지 위기사유에 해당하는 경우, 제도 내용과 지원법 근거',
   breadcrumb: '긴급복지 위기사유',
   description:
     '긴급복지 위기사유에 드는 경우와 긴급복지지원제도의 소득·재산 기준, 지원사업의 상담·심사 절차, 긴급복지지원법이 정한 고시·특별법 사유를 보건복지부와 복지로 안내로 확인했습니다.',

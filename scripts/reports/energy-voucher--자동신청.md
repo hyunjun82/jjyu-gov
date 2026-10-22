@@ -1,4 +1,4 @@
-# ✅ 에너지바우처는 기초수급자도 따로 받아야 하나요? 자동신청부터 대상까지
+# ✅ 기초수급자는 에너지바우처가 자동으로 나올까, 대상 조회 방법
 
 - 스포크 (허브 energy-voucher) · 파일: app\policy\[id]\[spoke]\content\에너지바우처\자동신청.tsx · 모델: claude-opus-5-5 · effort high · 0.7분 · 입력 0·출력 0 토큰
 - 주소: https://gov.jjyu.co.kr/policy/energy-voucher/자동신청

@@ -37,7 +37,7 @@ const SRC2 = 'https://www.energyv.or.kr/info/coal_apl_info.do';
 const SRC3 = 'https://www.energyv.or.kr/info/coal_use_info.do';
 
 export const 에너지바우처연탄전환SpokeContent: SpokeData = {
-  h1: '연탄전환 에너지바우처는 누가 받나요? 대상부터 사용기간까지',
+  h1: '연탄전환 에너지바우처 대상, 보일러를 바꾼 집이 받는 금액과 사용기간',
   breadcrumb: '연탄전환 에너지바우처',
   description:
     '연탄전환 에너지바우처를 받는 세대와 빠지는 세대, 행정복지센터·복지로 신청방법과 서류, 지원금액, 사용기간을 에너지바우처 누리집 안내로 확인했습니다.',
