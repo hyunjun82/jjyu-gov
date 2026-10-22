@@ -137,14 +137,16 @@ cta: ☞ 새출발기금 신청하러 가기
 slug: 새출발기금희망리턴패키지차이
 file: 새출발기금희망리턴패키지차이
 export: 새출발기금새출발기금희망리턴패키지차이SpokeContent
-title: 새출발기금과 희망리턴패키지는 중복되나요? 폐업부터 재기까지
+title: 새출발기금과 희망리턴패키지는 중복되나요? 폐업부터 재기 정리
 sub: 새출발기금 희망리턴패키지
 sub: 새출발기금 중복
 sub: 새출발기금 폐업
 sub: 새출발기금 재기
+source: https://www.sbiz.or.kr/nhrp/cnsl/bsnsArngCnslInfo.do
+source: https://www.sbiz.or.kr/nhrp/edc/edcCgjbAbout.do
+source: https://www.sbiz.or.kr/nhrp/edc/stupAbout.do?pageGubun=1
 source: https://www.newstartfund.or.kr/Contents/Process_guid.do
-source: https://www.soho.or.kr
-button: https://www.newstartfund.or.kr/Contents/Process_guid.do
+button: https://www.sbiz.or.kr/nhrp/cnsl/bsnsArngCnslInfo.do
 cta: ☞ 폐업 지원 제도 선택하기
 ---
 slug: 신용
