@@ -2,9 +2,17 @@ import CalcClient from './CalcClient';
 import Link from 'next/link';
 
 export const metadata = {
-  title: '연말정산 모의계산 (계산기) 2026년 귀속 — 환급액 미리 계산 | 정부지원사업',
+  title: '연말정산 계산기·모의계산 2026년 귀속, 환급액·추가 납부액 | 정부지원사업',
   description:
-    '연말정산 모의계산(계산기)입니다. 총급여와 공제 항목을 넣으면 근로소득공제부터 결정세액까지 단계별로 계산해 예상 환급액·추가 납부액을 알려드립니다. 2026년 귀속(2027년 2월 정산) 기준, 홈택스 자동계산과 대조한 참고용 계산기입니다.',
+    '연말정산 계산기(모의계산)입니다. 총급여와 신용카드·의료비·교육비·기부금·연금저축 등 공제 항목을 넣으면 근로소득공제부터 결정세액까지 단계별로 계산해 예상 환급액과 추가 납부액을 알려드립니다. 2026년 귀속(2027년 2월 정산) 기준이며 홈택스 자동계산과 대조한 참고용 계산기입니다.',
+  alternates: { canonical: '/calc/year-end-tax/' },
+  openGraph: {
+    title: '연말정산 계산기·모의계산 2026년 귀속, 환급액·추가 납부액',
+    description:
+      '총급여와 공제 항목을 넣으면 근로소득공제부터 결정세액까지 단계별로 계산해 예상 환급액과 추가 납부액을 알려드립니다.',
+    url: '/calc/year-end-tax/',
+    type: 'website',
+  },
 };
 
 export default function YearEndTaxCalcPage() {
@@ -14,7 +22,7 @@ export default function YearEndTaxCalcPage() {
         <Link href="/policy/year-end-tax">연말정산</Link> · 모의계산
       </nav>
       <h1 style={{ fontSize: 25, fontWeight: 800, lineHeight: 1.35, marginBottom: 10 }}>
-        연말정산 모의계산(계산기), 환급받을지 더 낼지 미리 알아보세요
+        연말정산 계산기·모의계산, 2026년 귀속
       </h1>
       <p style={{ fontSize: 16, lineHeight: 1.75, color: 'var(--text-secondary, #4E5968)', marginBottom: 20 }}>
         2026년 귀속 연말정산은 올해 쓴 돈으로 정해지는데요. 지금까지 낸 세금과 공제 항목을 아래에 넣으면
