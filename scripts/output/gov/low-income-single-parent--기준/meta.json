@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "low-income-single-parent--기준",
+  "slug": "기준",
+  "hub": "low-income-single-parent",
+  "dir": "한부모가족지원",
+  "fileName": "기준",
+  "exportName": "한부모기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\한부모가족지원\\기준.tsx",
+  "title": "한부모가족 기준 중위소득 65%, 우리 집은 해당될까",
+  "subs": [
+    "한부모가족 기준 중위소득",
+    "한부모가족 기준 중위소득 65%",
+    "한부모가족 기준 소득",
+    "한부모가족 조건"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T22:33:06.473Z"
+}

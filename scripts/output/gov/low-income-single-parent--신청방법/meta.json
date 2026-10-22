@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "low-income-single-parent--신청방법",
+  "slug": "신청방법",
+  "hub": "low-income-single-parent",
+  "dir": "한부모가족지원",
+  "fileName": "신청방법",
+  "exportName": "한부모신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\한부모가족지원\\신청방법.tsx",
+  "title": "한부모가족 신청에 필요한 서류와 접수 기간",
+  "subs": [
+    "한부모가족 신청서류",
+    "한부모가족 신청하는법",
+    "한부모가족 신청 기간",
+    "한부모가족 신청 조건"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T22:40:03.858Z"
+}

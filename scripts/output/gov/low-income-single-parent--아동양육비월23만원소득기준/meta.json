@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "low-income-single-parent--아동양육비월23만원소득기준",
+  "slug": "아동양육비월23만원소득기준",
+  "hub": "low-income-single-parent",
+  "dir": "한부모가족지원",
+  "fileName": "아동양육비월23만원소득기준",
+  "exportName": "한부모가족지원아동양육비월23만원소득기준SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\한부모가족지원\\아동양육비월23만원소득기준.tsx",
+  "title": "한부모가족 아동양육비 월 23만원, 누가 언제 받나요",
+  "subs": [
+    "한부모가족 아동양육비 지원 대상",
+    "한부모가족 아동양육비 지급일",
+    "한부모가족 아동양육비 지원",
+    "한부모가족 아동양육비 지원 신청"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T22:27:12.551Z"
+}

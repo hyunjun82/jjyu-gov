@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mogef.go.kr/sp/fam/sp_fam_f006.do",
+    "finalUrl": "https://www.mogef.go.kr/sp/fam/sp_fam_f006.do",
+    "title": "한부모가족 자녀양육 지원 > 가족 > 정책정보 > 성평등가족부",
+    "file": "src-1.txt",
+    "chars": 3192,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.law.go.kr/법령/한부모가족지원법",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EB%B6%80%EB%AA%A8%EA%B0%80%EC%A1%B1%EC%A7%80%EC%9B%90%EB%B2%95",
+    "title": "한부모가족지원법",
+    "file": "src-2.txt",
+    "chars": 35003,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "title": "수급자선정기준 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 4431,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "부양의무자 부양능력 판정 도해"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.mogef.go.kr/sp/fam/sp_fam_f006.do",
+    "finalUrl": "https://www.mogef.go.kr/sp/fam/sp_fam_f006.do",
+    "title": "한부모가족 자녀양육 지원 > 가족 > 정책정보 > 성평등가족부",
+    "file": "src-4.txt",
+    "chars": 3192,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "low-income-single-parent--증명서",
+  "slug": "증명서",
+  "hub": "low-income-single-parent",
+  "dir": "한부모가족지원",
+  "fileName": "증명서",
+  "exportName": "한부모증명서SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\한부모가족지원\\증명서.tsx",
+  "title": "한부모가족 증명서 발급 대상과 정부24 신청 방법",
+  "subs": [
+    "한부모가족 증명서 발급",
+    "한부모가족 증명서 발급 방법",
+    "한부모가족 증명서 발급 대상자",
+    "한부모가족 증명서 정부 24방법"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T22:41:51.585Z"
+}

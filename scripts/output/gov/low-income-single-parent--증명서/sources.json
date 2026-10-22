@@ -1,0 +1,35 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=10601000001",
+    "finalUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=10601000001",
+    "title": "한부모가족 증명서 발급 | 민원안내 및 신청 | 정부24",
+    "file": "src-1.txt",
+    "chars": 4869,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.mogef.go.kr/sp/fam/sp_fam_f006.do",
+    "finalUrl": "https://www.mogef.go.kr/sp/fam/sp_fam_f006.do",
+    "title": "한부모가족 자녀양육 지원 > 가족 > 정책정보 > 성평등가족부",
+    "file": "src-2.txt",
+    "chars": 3192,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=10601000001",
+    "finalUrl": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=10601000001",
+    "title": "한부모가족 증명서 발급 | 민원안내 및 신청 | 정부24",
+    "file": "src-3.txt",
+    "chars": 4869,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  }
+]

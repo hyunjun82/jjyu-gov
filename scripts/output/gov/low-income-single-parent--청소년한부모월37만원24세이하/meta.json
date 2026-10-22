@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "low-income-single-parent--청소년한부모월37만원24세이하",
+  "slug": "청소년한부모월37만원24세이하",
+  "hub": "low-income-single-parent",
+  "dir": "한부모가족지원",
+  "fileName": "청소년한부모월37만원24세이하",
+  "exportName": "한부모가족지원청소년한부모월37만원24세이하SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\한부모가족지원\\청소년한부모월37만원24세이하.tsx",
+  "title": "청소년 한부모 지원금 나이 기준과 아동양육비",
+  "subs": [
+    "청소년 한부모 나이",
+    "청소년한부모지원금",
+    "청소년 한부모 아동양육비",
+    "청소년 한부모 기준"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T22:35:45.833Z"
+}

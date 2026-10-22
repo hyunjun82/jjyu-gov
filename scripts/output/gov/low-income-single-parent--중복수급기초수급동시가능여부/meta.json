@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "low-income-single-parent--중복수급기초수급동시가능여부",
+  "slug": "중복수급기초수급동시가능여부",
+  "hub": "low-income-single-parent",
+  "dir": "한부모가족지원",
+  "fileName": "중복수급기초수급동시가능여부",
+  "exportName": "한부모가족지원중복수급기초수급동시가능여부SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\한부모가족지원\\중복수급기초수급동시가능여부.tsx",
+  "title": "기초생활수급자인데 한부모가족 지원도 같이 받을 수 있나요",
+  "subs": [
+    "한부모가족 소득",
+    "한부모 가족 소득 인정",
+    "한부모가족 혜택 재산",
+    "한부모가족 혜택"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T22:33:52.980Z"
+}

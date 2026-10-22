@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "low-income-single-parent--혜택",
+  "slug": "혜택",
+  "hub": "low-income-single-parent",
+  "dir": "한부모가족지원",
+  "fileName": "혜택",
+  "exportName": "한부모혜택SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\한부모가족지원\\혜택.tsx",
+  "title": "한부모가족 지원법으로 받는 혜택 종류와 절차",
+  "subs": [
+    "한부모가족 지원금",
+    "한부모가족 지원 내용",
+    "한부모가족지원법",
+    "한부모가족 지원 정책"
+  ],
+  "deflect": true,
+  "created": "2026-10-21T22:58:20.270Z"
+}
