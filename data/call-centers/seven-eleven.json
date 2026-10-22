@@ -1,0 +1,42 @@
+{
+  "slug": "seven-eleven",
+  "name": "세븐일레븐",
+  "aliases": [
+    "세븐일레븐 고객센터",
+    "코리아세븐",
+    "7-ELEVEN",
+    "7eleven",
+    "세븐일레븐 본사"
+  ],
+  "industry": "online",
+  "brandColor": "#147350",
+  "official": "https://www.7-eleven.co.kr",
+  "sourceUrl": "https://www.7-eleven.co.kr/about/customer/cvmsForm.asp",
+  "sourceName": "세븐일레븐 고객의 소리",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)코리아세븐",
+  "hq": "서울특별시 강동구 천호대로 1077 이스트센트럴타워 16~18층",
+  "main": {
+    "label": "세븐일레븐 고객센터",
+    "tel": "1577-0711"
+  },
+  "hours": {
+    "weekday": "평일 9시~18시"
+  },
+  "hoursNote": "[2026-10-22] 세븐일레븐 고객의 소리 페이지(about/customer/cvmsForm.asp): ※ 세븐일레븐 고객센터 1577-0711(상담가능시간 : 평일 9시~18시). 홈 하단: 서울특별시 강동구 천호대로 1077 이스트센트럴타워 16~18층 TEL 1577-0711 / FAX 02-2679-6860, 세븐일레븐 고객센터 : 1577-0711, 롯데택배 고객센터 : 1688-1211. 롯데택배 번호는 다른 회사라 이 글에 넣지 않는다(기존 lotte-parcel 글과 충돌). 2014년 통합콜센터 24시간 기사는 옛 기사라 쓰지 않는다. 로고색은 logo.png 최빈 유채색.",
+  "idStep": "구매 점포명과 구매 일시",
+  "jobs": "상품·점포 이용 문의, 불편 접수, 칭찬·제안",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "세븐일레븐 고객센터",
+      "tel": "1577-0711",
+      "note": "평일 9시~18시"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '세븐일레븐 고객센터'로 적힌 번호입니다."
+}

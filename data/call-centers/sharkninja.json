@@ -1,0 +1,43 @@
+{
+  "slug": "sharkninja",
+  "name": "샤크닌자",
+  "aliases": [
+    "샤크닌자 고객센터",
+    "샤크닌자코리아",
+    "SharkNinja",
+    "샤크 AS",
+    "닌자 AS"
+  ],
+  "industry": "appliance",
+  "brandColor": "#091B35",
+  "official": "https://www.sharkninja.co.kr",
+  "sourceUrl": "https://www.sharkninja.co.kr/",
+  "sourceName": "샤크닌자 코리아 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "샤크닌자코리아유한회사",
+  "hq": "서울특별시 강남구 테헤란로 501 (삼성동) 브이플렉스 9층",
+  "hqZip": "06168",
+  "main": {
+    "label": "대표 번호",
+    "tel": "1644-9245"
+  },
+  "hours": {
+    "weekday": "월-금 09:00~18:00 (공휴일 제외)"
+  },
+  "hoursNote": "[2026-10-22] 샤크닌자 코리아 공식몰(sharkninja.co.kr) 하단: 샤크닌자코리아유한회사, 주소 : 06168 브이플렉스 9층 서울특별시 강남구 테헤란로 501 (삼성동), 대표 번호 : 1644-9245, 이메일 : help@sharkninja-apac.com, CS 운영시간 : 월-금 09:00~18:00 (공휴일 제외). 고객센터 안내문에도 제품 관련 문의는 샤크닌자 고객센터(1644-9245). 브랜드색은 로고 이미지 최빈색(진한 남색).",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표 번호",
+      "tel": "1644-9245",
+      "note": "월-금 09:00~18:00 (공휴일 제외)"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '대표 번호'로 적힌 번호입니다."
+}

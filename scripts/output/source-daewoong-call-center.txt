@@ -1,0 +1,15 @@
+SLUG: daewoong-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: claude-in-chrome (사용자 크롬 실브라우저 — 고객 상담 페이지 본문 중 번호·운영시간·주소 줄 발췌. Playwright 는 이 페이지를 못 연다)
+URL: https://www.daewoong.co.kr/ko/support/counsel
+
+고객센터
+080-550-8308~9 (수신자)
+운영시간
+평일 09:00~17:30 (공휴일 제외)
+주소
+서울시 강남구 봉은사로 114길 12(삼성동)
+대표번호
+02-550-8800
+소비자 상담실
+080-550-8308~9

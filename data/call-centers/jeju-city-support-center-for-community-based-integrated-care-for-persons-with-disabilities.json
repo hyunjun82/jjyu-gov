@@ -1,0 +1,40 @@
+{
+  "slug": "jeju-city-support-center-for-community-based-integrated-care-for-persons-with-disabilities",
+  "name": "제주시장애인지역사회통합돌봄지원센터",
+  "aliases": [
+    "제주시장애인지역사회통합돌봄지원센터 전화번호",
+    "제주시 장애인 통합돌봄 지원센터",
+    "제주 장애인 지역사회통합돌봄",
+    "제주시장애인지역사회통합돌봄센터",
+    "064-722-1370"
+  ],
+  "industry": "public",
+  "brandColor": "#FFA503",
+  "official": "https://www.jejusicc.or.kr",
+  "sourceUrl": "https://www.jejusicc.or.kr/",
+  "sourceName": "제주시장애인지역사회통합돌봄지원센터 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "센터 대표 전화",
+    "tel": "064-722-1370"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 제주시장애인지역사회통합돌봄지원센터 공식 홈페이지(jejusicc.or.kr) 하단: 우) 63325 제주시 도련6길 17-3, A동 5층(도련일동) TEL: 064-722-1370 Fax: 064-723-1370 E-mail: jejucc1370@hanmail.net. 하단에 운영시간 표기가 없어 hours 를 비운다(구글 요약의 평일 09:00~18:00 은 캡처에서 확인되지 않아 쓰지 않는다). 브랜드색은 캡처 헤더 최빈 유채색(주황).",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "센터 대표 전화",
+      "tel": "064-722-1370"
+    }
+  ],
+  "hq": "제주시 도련6길 17-3, A동 5층(도련일동)",
+  "hqZip": "63325",
+  "variant": "facility",
+  "jobs": "센터 이용 문의",
+  "jobsSentence": "공식 안내에 '센터 대표 전화'로 적힌 번호입니다."
+}

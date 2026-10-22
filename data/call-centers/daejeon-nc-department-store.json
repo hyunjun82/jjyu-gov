@@ -1,0 +1,45 @@
+{
+  "slug": "daejeon-nc-department-store",
+  "name": "NC백화점 대전점",
+  "aliases": [
+    "대전 NC백화점",
+    "NC백화점 대전 전화번호",
+    "NC 중앙로역점",
+    "NC 대전유성점",
+    "이랜드리테일 NC 대전"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.elandretail.com",
+  "sourceUrl": "https://www.elandretail.com/m/service/customer_center_08.do?lang=000600KO",
+  "sourceName": "이랜드리테일 고객서비스 주요문의처",
+  "verifiedAt": "2026-10-22",
+  "corp": "이랜드리테일",
+  "main": {
+    "label": "NC 중앙로역점 대표 전화",
+    "tel": "042-718-2400"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 이랜드리테일 고객서비스 주요문의처(elandretail.com/m/service/customer_center_08.do): 문의처 NC 백화점 목록 중 대전 지역 NC 중앙로역점 042-718-2400, NC 대전유성점 042-332-0000. 대전에는 두 지점이 있어 글에서도 두 번호를 지점 이름으로 나눠 적는다. 이 표에는 영업·상담시간과 주소가 없어 hours·hq 를 비운다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "구매 영수증과 구매 일시",
+  "jobs": "매장·주차·구매 문의, 상품 교환·환불",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "NC 중앙로역점 대표 전화",
+      "tel": "042-718-2400"
+    },
+    {
+      "label": "NC 대전유성점 대표 전화",
+      "tel": "042-332-0000"
+    }
+  ],
+  "numbersIntro": "대전에는 NC백화점이 중앙로역점과 대전유성점 두 곳이라 번호도 지점별로 둘입니다.",
+  "jobsSentence": "공식 안내에 'NC 중앙로역점 대표 전화'로 적힌 번호입니다."
+}

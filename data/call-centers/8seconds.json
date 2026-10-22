@@ -1,0 +1,47 @@
+{
+  "slug": "8seconds",
+  "name": "에잇세컨즈",
+  "aliases": [
+    "에잇세컨즈 고객센터",
+    "8seconds",
+    "8SECONDS",
+    "에잇세컨즈 환불",
+    "SSF샵 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.ssfshop.com/8seconds/main",
+  "sourceUrl": "https://www.ssfshop.com/8seconds/main",
+  "sourceName": "에잇세컨즈 공식몰(SSF SHOP)",
+  "verifiedAt": "2026-10-22",
+  "corp": "삼성물산(주) 패션부문",
+  "hq": "서울특별시 강남구 남부순환로 2806(도곡동)",
+  "main": {
+    "label": "SSF SHOP 대표전화 (전국)",
+    "tel": "1599-0007"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 에잇세컨즈 공식몰(ssfshop.com/8seconds) 하단: 주소: 서울특별시 강남구 남부순환로 2806(도곡동) 대표 : 오세철 외 2명, 호스팅서비스: 삼성물산(주)패션부문, 대표전화 1599-0007(전국) 080-700-1472(수신자부담) | 이메일: ssfshop@samsung.com. 이 번호는 에잇세컨즈가 입점한 SSF SHOP 공용 고객센터라 글에서도 그렇게 밝힌다. 하단에 상담시간 표기가 없어 hours 를 비운다. 로고가 검정이라 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "callFee": "080-700-1472는 수신자 부담 번호로 안내되어 있습니다.",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "SSF SHOP 대표전화 (전국)",
+      "tel": "1599-0007"
+    },
+    {
+      "label": "수신자부담",
+      "tel": "080-700-1472",
+      "note": "수신자부담"
+    }
+  ],
+  "numbersIntro": "대표전화와 수신자부담 번호가 함께 안내되어 있습니다. 통화료가 신경 쓰이면 수신자부담 번호를 쓰시면 됩니다.",
+  "jobsSentence": "공식 안내에 'SSF SHOP 대표전화 (전국)'로 적힌 번호입니다."
+}

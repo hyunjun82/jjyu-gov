@@ -1,0 +1,422 @@
+SLUG: 8seconds-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/8seconds-call-center-*.png)
+
+===== [1] https://www.ssfshop.com/8seconds/main =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/8seconds-call-center-1.png
+CHARS: 2805
+
+본문 영역 바로가기
+0
+마이페이지
+로그인
+9999+
+여성
+남성
+백＆슈즈
+LIFE
+아울렛
+신상품
+기획전
+
+All-day
+Cashmere
+
+일상을 채우는 부드러운 감촉
+
+에잇세컨즈
+X MINJUKIM
+
+A Bouquet of Heart
+
+SAMSUNG LIONS
+
+Collaboration
+
+담백하게
+머무는 계절
+
+아틀리에 울 블렌디드 코트 로
+완성하는 가을의 분위기
+
+매일 입고 싶은
+가을의 온도
+
+코트부터 니트까지
+자연스럽게 완성하는 데일리 룩
+
+탄탄함과
+따뜻함을 동시에
+
+실패 없는 올겨울 니트 솔직 보고서
+
+ALL-DAY AIR
+
+가벼움은 AIR, 따뜻함은 ALL DAY
+
+리얼핏 :
+입어봐야 안다
+
+4인의 리뷰어가 먼저 검증한
+에잇세컨즈 팬츠 리포트
+
+Autumn Classic
+& Soft Tailoring
+
+All-day
+Cashmere
+
+일상을 채우는 부드러운 감촉
+
+에잇세컨즈
+X MINJUKIM
+
+A Bouquet of Heart
+
+SAMSUNG LIONS
+
+Collaboration
+
+담백하게
+머무는 계절
+
+아틀리에 울 블렌디드 코트 로
+완성하는 가을의 분위기
+
+에잇세컨즈 X MINJUKIM
+A Bouquet of Heart
+
+8 seconds
+[민주킴] 페이크레더 오버핏 프릴 블루종 아우터 - 블랙
+판매가
+159,900
+원
+8 seconds
+[민주킴] 롱기장 볼륨 샤 원피스 - 블랙
+판매가
+109,900
+원
+8 seconds
+[민주킴] 새틴 리본 가방 - 블랙
+판매가
+69,900
+원
+8 seconds
+[민주킴] 하트 클로버 프린트 긴소매 카디건 - 아이보리
+판매가
+69,900
+원
+8 seconds
+[민주킴] 클로버 비즈 헤어핀 - 스카이 블루
+판매가
+14,900
+원
+8 seconds
+[민주킴] 자수 래글런 반소매 티셔츠 - 라이트 그린
+판매가
+49,900
+원
+8 seconds
+[민주킴] 러플 긴소매 카디건 - 브라운
+판매가
+69,900
+원
+8 seconds
+[민주킴] 자수 래글런 반소매 티셔츠 - 아이보리
+판매가
+49,900
+원
+8 seconds
+[민주킴] 클로버 비즈 헤어핀 - 라이트 그린
+판매가
+14,900
+원
+8 seconds
+[민주킴] 셔링 리본 블라우스 - 아이보리
+판매가
+69,900
+원
+8 seconds
+[민주킴] 프릴 긴소매 칼라 셔츠 - 라이트 핑크
+판매가
+59,900
+원
+8 seconds
+[민주킴] 사이드 리본 롱 스커트 - 블랙
+판매가
+79,900
+원
+클릭 랭킹
+여성
+남성
+백＆슈즈
+1
+8 seconds
+하프 볼 숄더백 - 블랙
+판매가
+59,900
+원
+4.5
+(
+11
+)
+206
+2
+8 seconds
+앤르니 호보 - 브라운
+판매가
+59,900
+원
+4.5
+(
+5
+)
+138
+3
+8 seconds
+스웨이드 육각 입체백 - 브라운
+판매가
+59,900
+원
+40
+4
+8 seconds
+앤르니 호보 - 블랙
+판매가
+59,900
+원
+4.5
+(
+5
+)
+155
+5
+8 seconds
+비스킷 테일 백 - 블랙
+판매가
+54,900
+원
+5.0
+(
+2
+)
+123
+6
+8 seconds
+PU 셔링백 - 블랙
+판매가
+54,900
+원
+5.0
+(
+1
+)
+91
+7
+8 seconds
+[리얼레더] 스웨이드 토트 겸 숄더백 - 브릭
+판매가
+69,900
+원
+95
+8
+8 seconds
+[리얼레더] 스웨이드 토트 겸 숄더백 - 브라운
+판매가
+69,900
+원
+106
+랭킹 바로가기
+신상품
+여성
+남성
+백＆슈즈
+8 seconds
+Warm 니트양면 풀집업 후디 - 애쉬
+판매가
+64,900
+원
+3
+8 seconds
+Warm 니트양면 풀집업 후디 - 블랙
+판매가
+64,900
+원
+4
+8 seconds
+Warm 니트양면 팬츠 - 블랙
+판매가
+59,900
+원
+3
+8 seconds
+Warm 니트양면 팬츠 - 애쉬
+판매가
+59,900
+원
+2
+8 seconds
+페이크 스웨이드 패디드 점퍼 - 브라운
+판매가
+119,900
+원
+3
+8 seconds
+패디드 레더 칼라 집업 블루종 - 블랙
+판매가
+119,900
+원
+10
+8 seconds
+헤어리 솔리드 라운드 니트 - 베이지
+판매가
+49,900
+원
+7
+8 seconds
+하이넥 버튼 풀오버 - 그레이
+판매가
+59,900
+원
+5
+8 seconds
+헤어리 코듀로이 후드 점퍼 - 블랙
+판매가
+129,900
+원
+7
+8 seconds
+헤어리 솔리드 라운드 니트 - 네이비
+판매가
+49,900
+원
+7
+룩북
+26 FALL 2
+Fall Collection October.2026
+8 seconds
+8 seconds
+8 seconds
+8 seconds
+8 seconds
+8 seconds
+8 seconds
+8 seconds
+8 seconds
+1 / 5
+회사소개
+이용약관
+개인정보 처리방침
+이메일무단수집거부
+멤버십안내
+고객센터
+매장찾기
+공지사항
+단체주문
+입점신청
+제휴문의
+삼성물산(주)패션부문
+
+주소: 서울특별시 강남구 남부순환로 2806(도곡동) 대표 : 오세철 외 2명사업자 등록번호: 101-85-43600 사업자정보확인 통신판매업 신고번호: 제 2015-서울강남-02894호스팅서비스: 삼성물산(주)패션부문
+
+주식회사 케이지파이낸셜 구매안전(에스크로)서비스 서비스 가입사실 확인 고객님의 안전거래를 위해 현금 등으로 5만원 이상 결제 시 저희 쇼핑몰에서 가입한 구매안전(에스크로) 서비스를 이용하실 수 있습니다.
+
+대표전화 1599-0007(전국) 080-700-1472(수신자부담) | 이메일: ssfshop@samsung.com
+
+Copyright (C) 2026 Samsung C&T Corporation. All rights reserved
+
+인증범위 : 패션부문 온라인 쇼핑몰 서비스 운영 (SSFSHOP, 토리버치)  |  유효기간 : 2025.08.12 ~ 2028.08.11
+
+구매하기
+옵션선택
+최근 본 상품
+상담하기
+최상단으로 이동
+최근 본 상품
+
+전체삭제
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+전체 상품
+ 아우터
+ 재킷/베스트
+ 니트
+ 티셔츠
+ 셔츠/블라우스
+ 원피스
+ 팬츠
+ 스커트
+ 라운지/언더웨어
+ 패션잡화
+ 비치웨어
+ 쥬얼리/시계
+ Trending Now
+ EDITION 8
+
+전체 상품
+ 아우터
+ 재킷
+ 니트
+ 티셔츠
+ 셔츠
+ 팬츠
+ 패션잡화
+ 쥬얼리/시계
+ Trending Now
+
+전체 상품
+ 여성 가방
+ 여성 슈즈
+ 남성 가방
+
+전체 상품
+ WOMEN
+ MEN
+ 백＆슈즈
+
+[8 seconds] 여성 인플루언서 기획전 플로우윤
+ [8 seconds] 10월 에잇데이 
+ [8 seconds] Autumn Classic & Soft Tailoring
+ [8 seconds] 한 겹 차이로 완성되는 스타일링
+ [8 seconds] ALL-DAY AIR
+ [8 seconds] 11주년
+ [8 seconds] 울니트 다이버 기획전
+ [8 seconds] 가볍게 걸치는 빈티지 무드
+ [8 seconds] 차가운 공기를 마주한 순간
+ [8 seconds] 남성 팬츠 리뷰 기획전
+ 기획전 더보기
+
+최근검색어 전체삭제
+ 최근 검색어가 없습니다.
+ 일치하는 추천 검색어가 없습니다.
+
+통합검색
+ 최근검색어전체삭제 
+ 최근 검색어가 없습니다.
+ 인기검색어
+ 일치하는 추천 검색어가 없습니다.
+
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","664629413679303");fbq("track","PageView");
+
+(new TossPixel(google_tag_manager["rm"]["122677264"](4))).pageView();
+
+if(window.wcs){if(!wcs_add)var wcs_add={};wcs_add.wa="s_125223cd2dda";wcs.inflow("ssfshop.com");wcs_do()};
+
+----- 이미지 대체텍스트 (img alt) -----
+10 CORSO COMO
+8 SECONDS
+8 seconds
+8 seconds[민주킴] 페이크레더 오버핏 프릴 블루종 아우터 - 블랙
+8 seconds[민주킴] 롱기장 볼륨 샤 원피스 - 블랙
+8 seconds[민주킴] 새틴 리본 가방 - 블랙
+8 seconds[민주킴] 하트 클로버 프린트 긴소매 카디건 - 아이보리
+8 seconds[민주킴] 클로버 비즈 헤어핀 - 스카이 블루
+8 seconds[민주킴] 자수 래글런 반소매 티셔츠 - 라이트 그린
+8 seconds[민주킴] 러플 긴소매 카디건 - 브라운
+8 seconds[민주킴] 자수 래글런 반소매 티셔츠 - 아이보리
+8 seconds[민주킴] 클로버 비즈 헤어핀 - 라이트 그린
+8 seconds[민주킴] 셔링 리본 블라우스 - 아이보리
+8 seconds[민주킴] 프릴 긴소매 칼라 셔츠 - 라이트 핑크
+8 seconds[민주킴] 사이드 리본 롱 스커트 - 블랙

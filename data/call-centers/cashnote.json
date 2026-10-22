@@ -1,0 +1,39 @@
+{
+  "slug": "cashnote",
+  "name": "캐시노트",
+  "aliases": [
+    "캐시노트 고객센터",
+    "한국신용데이터",
+    "Cashnote",
+    "캐시노트 전화번호"
+  ],
+  "industry": "online",
+  "brandColor": "#192D82",
+  "official": "https://cashnote.kr",
+  "sourceUrl": "https://cashnote.kr/",
+  "sourceName": "캐시노트 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "주식회사 한국신용데이터",
+  "hq": "서울특별시 강남구 테헤란로 127, 6F (하나금융그룹 강남사옥, 역삼동)",
+  "main": {
+    "label": "고객센터",
+    "tel": "1522-9342"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 캐시노트 공식 홈(cashnote.kr) 하단: 주식회사 한국신용데이터, 서울특별시 강남구 테헤란로 127, 6F (하나금융그룹 강남사옥, 역삼동), 이메일 help@cashnote.kr, 고객센터 1522-9342. 홈과 헬프센터(cashnote.zendesk.com) 첫 화면에 전화 상담시간 표기가 없다. 블로그·구글 개요의 평일 09:00~18:00·점심 시간은 출처끼리 갈려(09:00~12:00 병기 글도 있음) 쓰지 않는다. 컨설턴트 사이트(consultant.cashnote.kr)의 1522-5069 는 컨설턴트 상담 전용이라 쓰지 않는다. 로고색은 cn-cashnote-logo 이미지 최빈색.",
+  "idStep": "가입한 휴대폰 번호와 사업자 정보",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1522-9342"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

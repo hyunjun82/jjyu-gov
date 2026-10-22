@@ -1,0 +1,42 @@
+{
+  "slug": "pn-poongnyun",
+  "name": "PN풍년",
+  "aliases": [
+    "풍년 고객센터",
+    "PN풍년 고객YES센터",
+    "풍년 압력솥 AS",
+    "PN풍년 AS",
+    "주식회사 PN풍년"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.pn.co.kr",
+  "sourceUrl": "https://www.pn.co.kr/yesCenter",
+  "sourceName": "PN풍년 고객YES센터 서비스안내",
+  "verifiedAt": "2026-10-22",
+  "corp": "주식회사 PN풍년",
+  "main": {
+    "label": "고객YES센터 문의전화",
+    "tel": "1588-9717"
+  },
+  "hours": {
+    "weekday": "평일 09:00~17:30",
+    "lunch": "점심시간 12:00~13:00 (본사고객센터 11:40~13:40)"
+  },
+  "hoursNote": "[2026-10-22] PN풍년 고객YES센터 서비스안내(pn.co.kr/yesCenter): 문의전화 1588-9717 상담시간 평일 09:00~17:30 점심시간 12:00~13:00 (본사고객센터 11:40~13:40), ※ 고객 YES센터 외 고객만족센터 및 부품 판매처는 운영 시간이 다를 수 있으니 방문 전 확인하세요. 아래 지점별 서비스센터 전화번호 표는 지점마다 달라 이 글의 번호로 쓰지 않는다. 본사 주소 표기를 이 페이지에서 확인하지 못해 hq 를 비운다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객YES센터 문의전화",
+      "tel": "1588-9717",
+      "note": "평일 09:00~17:30, 점심 12:00~13:00"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객YES센터 문의전화'로 적힌 번호입니다."
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "iriver",
+  "name": "아이리버",
+  "aliases": [
+    "아이리버 고객센터",
+    "IRIVER",
+    "아이리버 AS",
+    "아이리버 서비스센터",
+    "아이리버 MP3 AS"
+  ],
+  "industry": "appliance",
+  "brandColor": "#EE2338",
+  "official": "https://www.iriver.co.kr",
+  "sourceUrl": "https://www.iriver.co.kr/",
+  "sourceName": "아이리버 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "hq": "서울시 서초구 방배로18길 5 (06664)",
+  "main": {
+    "label": "고객센터",
+    "tel": "1577-5557"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 아이리버 공식 홈페이지(iriver.co.kr) 하단: 아이리버 고객센터 1577-5557 | Email. iriver@iriver.com, 서울시 서초구 방배로18길 5 (06664) | 사업자등록번호 364-85-02461 | 대표이사 여환동. 홈 하단에 상담시간 표기가 없고 고객센터 메뉴를 눌러도 같은 하단만 나와 hours 를 비운다. 로고색은 헤더 로고 최빈색.",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1577-5557"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

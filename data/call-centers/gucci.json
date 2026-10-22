@@ -1,0 +1,39 @@
+{
+  "slug": "gucci",
+  "name": "구찌",
+  "aliases": [
+    "구찌 고객센터",
+    "구찌 코리아",
+    "GUCCI",
+    "구찌 클라이언트 서비스",
+    "구찌 환불"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.gucci.com/kr/ko",
+  "sourceUrl": "https://www.gucci.com/kr/ko/contact-us",
+  "sourceName": "구찌 코리아 공식 온라인 사이트",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "클라이언트서비스센터",
+    "tel": "02-3452-1921"
+  },
+  "hours": {
+    "weekday": "월요일 ~ 일요일, 오전 10시 ~ 오후 7시"
+  },
+  "hoursNote": "[2026-10-22] 구찌 코리아 공식 온라인 사이트 문의 페이지(gucci.com/kr/ko/contact-us): 클라이언트서비스센터 02-3452-1921 메일 문의 clientservice.kr@gucci.com, 전화하기 02.3452.1921 월요일 ~ 일요일, 오전 10시 ~ 오후 7시, 카카오톡 상담하기. Playwright 가 gucci.com 을 못 열어 사용자 크롬(claude-in-chrome)으로 본 페이지의 해당 줄을 발췌해 추출본으로 저장. 주소 표기가 없어 hq 를 비운다. 로고가 검정이라 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "클라이언트서비스센터",
+      "tel": "02-3452-1921",
+      "note": "월~일 오전 10시~오후 7시"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '클라이언트서비스센터'로 적힌 번호입니다."
+}

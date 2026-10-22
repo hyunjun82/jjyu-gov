@@ -1,0 +1,393 @@
+SLUG: etude-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/etude-call-center-*.png)
+
+===== [1] https://www.etude.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/etude-call-center-1.png
+CHARS: 1958
+
+PRODUCT
+BRAND
+MAKEUP LOOK
+STORE
+멀멀 리본으로 2중 잠금!
+밀착 벨벳 픽싱과 영롱 코팅 글로스의 듀오 픽싱 틴트
+님프 광채 볼류머
+
+20,000원
+
+진저슈가 오버나이트 립 마스크
+
+11,000원
+
+컬 픽스 마스카라
+
+16,000원
+
+그림자 쉐딩
+
+20,000원
+
+마이 쁘띠 팔레트
+
+26,000원
+
+Makeup Look
+
+지금 나에게 어울리는 메이크업 룩은?
+
+View More
+EYE
+LIP
+SOON JUNG
+
+30년 History, 저자극 검증 System
+
+View More
+#보습크림 #순정
+순정 2x 베리어 보습 크림 60ml
+17,000원
+#순정 #앰플에센스
+순정 시카 카밍 앰플 에센스 50ml
+29,000원
+#순정 #약산성 #폼클렌징
+순정 약산성 5.5 폼 클렌저 150ml
+12,000원
+#수분크림 #순정
+순정 수분 베리어 크림 75ml
+22,000원
+#순정 #약산성
+순정 약산성 6.5 휩 클렌저 150ml
+휩 클렌저 단품 (150ml)휩 클렌저 단품 (250ml)휩 클렌저 리필 (150ml)
+11,000원 –
+#순정 #약산성
+순정 약산성 5.5 진정 토너
+토너 리필 (200ml)토너 본품 (350ml)토너 본품 (500ml)
+12,000원 –
+For Gift
+
+무슨 선물할까 고민하지 말고 에뛰드 카카오톡 선물하기로 바로가기
+
+View More
+톡별
+톡별
+톡별
+톡별
+What’s New
+
+주목! 신상이 궁금해? 설레는 신상으로 채워지는 작은 행복
+
+View More
+NEW
+#또렷컬링 #탱글픽싱
+컬 픽스 스키니 마스카라 3g
+롱래쉬브라운롱래쉬블랙02 브라운01 블랙03 그레이 브라운
+14,000원
+NEW
+#올인원프렙 #쫀득꾸미광
+님프 듀이 젤리 프렙 SPF35 / PA++ 30g
+20,000원
+NEW
+#2중잠금 #멀멀무드
+듀오 픽싱 틴트 3.2ml
+01 살짝핑크02 왠지코랄03 은근베이지04 피치인듯05 슬며시로즈06 괜히 브라운
+13,000원
+NEW
+#붉은기Down #진주알광채
+진주알 맑은 비비크림 SPF30 PA+++ 35ml
+19 포슬린21 아이보리23 미디움
+16,000원
+NEW
+#속광충전 #스폰지팁
+콩콩 블러셔 7g
+11 말랑콩콩01 피치피치 콩콩02 두볼위에 콩콩03 심장이 콩콩04 콩닥콩닥05 심콩방콩
+11,000원
+NEW
+#고밀착고커버 #쫀득밀착
+더블 래스팅 커버 톡 컨실 팟 4g
+01 라이트 아이보리02 내추럴 베이지03 살몬 베이지
+10,000원
+
+ETUDE Official Tiktok
+
+FOLLOW US
+@etude_official
+
+ETUDE Official Instagram
+
+News & Event
+View More
+공병수거 캠페인
+모두를 위한 비건 라이프
+어바웃 에뛰드
+공지
+
+[공지] 에뛰드 개인정보처리방침 일부가 변경됩니다.
+더보기
+Family Site
+Site Map
+공지사항
+이용약관
+전자공고
+개인정보처리방침
+영상정보처리기기 운영·관리 방침
+
+(주)에뛰드 대표이사 : 이수연
+개인정보보호책임자 : 이수연
+사업자등록번호 : 135-81-05033
+주소 : 서울특별시 용산구 한강대로 100 (한강로 2가)
+
+© ETUDE CORPORATION. ALL RIGHTS RESERVED.
+
+CONTACT
+
+제품 문의 : 080-022-2285
+고객 문의 : 1544-5418
+운영 시간 : 평일 13:00 ~ 17:00 (주말 및 공휴일 휴무)
+점심 시간 : 12:00 ~ 13:00
+대표 이메일 : etude_master@etude.co.kr
+SEARCH
+MENU
+CATEGORIES
+Set your categories menu in Theme Settings -> Header -> Menu -> Mobile menu (categories)
+Create your first navigation menu here
+SHOPPING CART
+CLOSE
+
+NO PRODUCTS IN THE CART.
+
+RETURN TO SHOP
+Start typing to see posts you are looking for.
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+제목 | 작성일
+[공지] 에뛰드 개인정보처리방침 일부가 변경됩니다. | 2026-08-07
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+신제품전체보기 
+카테고리
+아이
+전체싱글섀도우아이팔레트마스카라아이라이너아이브라우 
+립
+전체립스틱틴트글로스립펜슬립케어 
+페이스
+전체베이스·프라이머쿠션·파운데이션BB·컨실러팩트·파우더컨투어링·하이라이터블러셔 
+스킨케어
+전체토너·패드에멀전에센스·세럼크림·밤선케어세트기타 
+마스크·팩
+전체시트마스크 
+클렌저
+전체페이셜 클렌징메이크업 클렌징필링·스크럽 
+헤어
+전체컬러·스타일링 
+툴
+전체브러쉬헤어도구
+
+/*! elementor - v3.6.4 - 13-04-2022 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}Search For Products 
+ #립케어 강자! 진저슈가
+ Search
+ TREND #TAG 
+ 신제품 모아보기 
+ 진저슈가 
+ 플레이 컬러 아이즈 
+ 순정 
+ 비건 
+ 픽싱 틴트
+
+#립케어 강자! 진저슈가
+ Search
+
+#립케어 강자! 진저슈가
+ Search
+ MENU
+ CATEGORY
+ BRAND
+About ETUDE뷰티즌지구를 위한 활동
+PRODUCT
+신제품 모아보기 
+카테고리
+전체아이
+전체싱글섀도우아이팔레트마스카라아이라이너아이브라우 
+립
+전체립스틱틴트글로스립펜슬립케어 
+페이스
+전체베이스·프라이머쿠션·파운데이션BB·컨실러팩트·파우더컨투어링·하이라이터블러셔 
+스킨케어
+전체토너·패드에멀전에센스·세럼크림·밤선케어세트기타 
+마스크·팩
+전체시트마스크 
+클렌저
+전체페이셜 클렌징메이크업 클렌징필링·스크럽 
+헤어
+전체컬러·스타일링 
+툴
+전체브러쉬헤어도구 
+신제품카테고리 
+MAKEUP LOOK@etudeofficial
+InstagramTiktok
+STORE
+온라인오프라인
+CONTACT
+공지사항FAQ고객문의
+CONTACT
+공지사항FAQ고객문의
+MEMBERSHIP
+핑크멤버십뷰티포인트
+뽀오얀
+About 뽀오얀제품 보기
+ 네이버 브랜드 스토어
+ 네이버 브랜드 스토어
+ 네이버 브랜드 스토어
+ 올리브영 브랜드관
+ 아모레몰 브랜드관
+ ETUDE GLOBAL MALL
+ 신제품아이
+전체싱글섀도우아이팔레트마스카라아이라이너아이브라우
+립
+전체립스틱틴트글로스립펜슬립케어
+페이스
+전체베이스·프라이머쿠션·파운데이션BB·컨실러팩트·파우더컨투어링·하이라이터블러셔
+스킨케어
+전체토너·패드에멀전에센스·세럼크림·밤선케어세트기타
+마스크·팩
+전체시트마스크
+클렌저
+전체페이셜 클렌징메이크업 클렌징필링·스크럽
+헤어
+전체컬러·스타일링
+툴
+전체브러쉬헤어도구
+
+Add to cart
+ #보습크림 #순정 순정 2x 베리어 보습 크림 60ml 
+ 17,000원
+ Add to cart
+ #순정 #앰플에센스 순정 시카 카밍 앰플 에센스 50ml 
+ 29,000원
+ Add to cart
+ #순정 #약산성 #폼클렌징 순정 약산성 5.5 폼 클렌저 150ml 
+ 12,000원
+ Add to cart
+ #수분크림 #순정 순정 수분 베리어 크림 75ml 
+ 22,000원
+ Select options
+ #순정 #약산성 순정 약산성 6.5 휩 클렌저 150ml 휩 클렌저 단품 (150ml)휩 클렌저 단품 (250ml)휩 클렌저 리필 (150ml) 
+ 11,000원 – 21,000원
+
+What’s New 
+ 신상품 전체보기 
+ NEW 
+ Select options
+ #또렷컬링 #탱글픽싱 컬 픽스 스키니 마스카라 3g 롱래쉬브라운롱래쉬블랙02 브라운01 블랙03 그레이 브라운 
+ 14,000원
+ NEW 
+ Add to cart
+ #올인원프렙 #쫀득꾸미광 님프 듀이 젤리 프렙 SPF35 / PA++ 30g 
+ 20,000원
+ NEW 
+ Select options
+ #2중잠금 #멀멀무드 듀오 픽싱 틴트 3.2ml 01 살짝핑크02 왠지코랄03 은근베이지04 피치인듯05 슬며시로즈06 괜히 브라운 
+ 13,000원
+ NEW 
+ Select options
+ #붉은기Down #진주알광채 진주알 맑은 비비크림 SPF30 PA+++ 35ml 19 포슬린21 아이보리23 미디움 
+ 16,000원
+
+NEW 
+ Select options
+ #24H커버지속 #인생파데 더블 래스팅 파운데이션 SPF35/PA++30g 17C 로지페어19N 포슬린21C 로지아이보리21N 아이보리23N 베이지 
+ 29,000원
+
+Follow us @etude_official 
+ .elementor-slides .swiper-slide-bg{background-size:cover;background-position:50%;background-repeat:no-repeat;min-width:100%;min-height:100%}.elementor-slides .swiper-slide-inner{background-repeat:no-repeat;background-position:50%;position:absolute;top:0;left:0;bottom:0;right:0;padding:50px;margin:auto}.elementor-slides .swiper-slide-inner,.elementor-slides .swiper-slide-inner:hover{color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-slides .swiper-slide-inner .elementor-background-overlay{position:absolute;z-index:0;top:0;bottom:0;left:0;right:0}.elementor-slides .swiper-slide-inner .elementor-slide-content{position:relative;z-index:1;width:100%}.elementor-slides .swiper-slide-inner .elementor-slide-heading{font-size:35px;font-weight:700;line-height:1}.elementor-slides .swiper-slide-inner .elementor-slide-description{font-size:17px;line-height:1.4}.elementor-slides .swiper-slide-inner .elementor-slide-description:not(:last-child),.elementor-slides .swiper-slide-inner .elementor-slide-heading:not(:last-child){margin-bottom:30px}.elementor-slides .swiper-slide-inner .elementor-slide-button{border:2px solid #fff;color:#fff;background:transparent;display:inline-block}.elementor-slides .swiper-slide-inner .elementor-slide-button,.elementor-slides .swiper-slide-inner .elementor-slide-button:hover{background:transparent;color:inherit;text-decoration:none}.elementor--v-position-top .swiper-slide-inner{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.elementor--v-position-bottom .swiper-slide-inner{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}.elementor--v-position-middle .swiper-slide-inner{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor--h-position-left .swiper-slide-inner{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.elementor--h-position-right .swiper-slide-inner{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.elementor--h-position-center .swiper-slide-inner{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}body.rtl .elementor-widget-slides .elementor-swiper-button-next{left:10px;right:auto}body.rtl .elementor-widget-slides .elementor-swiper-button-prev{right:10px;left:auto}.elementor-slides-wrapper div:not(.swiper-slide)>.swiper-slide-inner{display:none}@media (max-width:768px){.elementor-slides .swiper-slide-inner{padding:30px}.elementor-slides .swiper-slide-inner .elementor-slide-heading{font-size:23px;line-height:1;margin-bottom:15px}.elementor-slides .swiper-slide-inner .elementor-slide-description{font-size:13px;line-height:1.4;margin-bottom:15px}}
+
+Family Site
+ ETUDE GLOBAL MALL
+ JAPAN
+
+BRAND
+About ETUDE뷰티즌지구를 위한 활동 
+PRODUCT
+전체보기신제품카테고리
+아이립페이스스킨케어마스크·팩클렌저헤어툴 
+MAKEUP LOOK
+메이크업룩 
+@etudeofficial
+InstagramTiktok 
+STORE
+온라인오프라인 
+CONTACT
+공지사항FAQ고객문의 
+MEMBERSHIP
+핑크멤버십뷰티포인트 
+뽀오얀
+About 뽀오얀제품 보기 
+ 뒤로
+ 사이트맵
+ 닫기
+
+공지사항
+ Site Map
+BRAND
+About ETUDE뷰티즌지구를 위한 활동 
+PRODUCT
+전체보기신제품카테고리
+아이립페이스스킨케어마스크·팩클렌저헤어툴 
+MAKEUP LOOK
+메이크업룩 
+@etudeofficial
+InstagramTiktok 
+STORE
+온라인오프라인 
+CONTACT
+공지사항FAQ고객문의 
+MEMBERSHIP
+핑크멤버십뷰티포인트 
+뽀오얀
+About 뽀오얀제품 보기 
+ 뒤로
+ 사이트맵
+ 닫기
+ 이용약관
+ 전자공고
+ 개인정보처리방침
+ 영상정보처리기기 운영·관리 방침
+
+Site Map
+BRAND
+About ETUDE뷰티즌지구를 위한 활동 
+PRODUCT
+전체보기신제품카테고리
+아이립페이스스킨케어마스크·팩클렌저헤어툴 
+MAKEUP LOOK
+메이크업룩 
+@etudeofficial
+InstagramTiktok 
+STORE
+온라인오프라인 
+CONTACT
+공지사항FAQ고객문의 
+MEMBERSHIP
+핑크멤버십뷰티포인트 
+뽀오얀
+About 뽀오얀제품 보기 
+ 뒤로
+ 사이트맵
+ 닫기
+
+FAMILY SITE
+ INTERNATIONAL
+ JAPAN
+
+고객 문의 : 1544-5418제품 문의 : 080-022-2285
+ 대표 이메일 : etude_master@etude.co.kr
+
+닫기 
+ 닫기
+
+----- 이미지 대체텍스트 (img alt) -----
+img_logo2023-1

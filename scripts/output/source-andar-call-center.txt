@@ -1,0 +1,1337 @@
+SLUG: andar-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/andar-call-center-*.png)
+
+===== [1] https://www.andar.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/andar-call-center-1.png
+CHARS: 12210
+
+[공식몰 단독]ㅤ
+카톡 채널 추가하고 1만 원 할인 받기
+로그인
+회원가입
+고객센터
+신상
+베스트
+우먼즈
+맨즈
+언더웨어
+에어데님
+기모
+러닝
+골프
+전지현 세트
+가방/용품/신발
+키즈
+운동별 추천
+안다르 AI랩
+
+0
+
+한눈에 보는
+안다르 베스트셀러
+
+오래도록 찾게 되는 아이템으로 시작해 보세요
+
+가을 내내 입기 좋은
+기능성 출근복
+
+다림질 없이 하루 종일 단정한 링클프리
+
+다시 돌아온 플리스의 계절,
+하이브리드로 가볍고 포근하게
+
+부드럽고 유연한 기능성 플리스 출시
+
+오직 안다르에서만,
+전지현 화보 속 스타일
+
+화보 속 착장을 그대로 쇼핑해보세요
+
+전국 백화점부터
+프리미엄 아울렛까지
+
+안다르 주요 매장 안내
+
+깊어진 가을, 더 포근하게
+안다르 FW 컬렉션
+
+차가워진 공기 속 온기를 채워줄
+BEST 기모 라인업
+
+한 단계 넘어선 편안함과 촉감,
+올데이핏 모달 시리즈 출시
+
+시그니처 볼륨핏 그대로, 더 부드럽고 편하게
+
+올겨울 가장 부드러운 포근함,
+소프트 플리스 출시
+
+가볍고 유연한 원마일웨어 신상
+
+포근하게 입는 가을
+안다르 기능성 기모웨어
+
+체온은 지켜주고, 움직임은 가벼운
+안다르 기모 테크놀로지를 만나보세요
+
+새롭고 단정하게 일상을 채울
+안다르 맨즈 니트 신상
+
+맨살에도 부드러운 기능성 니트
+
+가을 산행과 라운딩까지
+아웃도어 위크
+
+포근한 온기에도 산뜻한 액티브웨어
+
+전지현의 안다르
+새로운 계절의 시작
+
+2026 FW COLLECTION
+
+26FW NEW ARRIVALS
+
+이번 시즌 안다르 신상
+상품 더보기
+놀랍도록 부드럽고 포근한
+소프트 플리스 시리즈
+
+양면 플리스 본연의 따뜻함을 겨울 내내 함께
+
+  
+
+[전지현 착용] 소프트 플리스 셋업 (후디 & 와이드 팬츠)
+
+139,000원
+
+168,000원
+
+17%
+
+  
+
+[SET] 소프트 플리스 맨즈 셋업 (맨투맨/집업/후디 & 와이드 팬츠)
+
+119,000원
+
+148,000원
+
+19%
+
+  
+
+[SET] 소프트 플리스 셋업 (카라 집업 & 조거팬츠)
+
+129,000원
+
+158,000원
+
+18%
+
+  
+
+소프트 플리스 오버핏 풀오버
+
+89,000원
+
+BEST SELLERS
+
+가장 사랑받는 베스트셀러
+전체
+우먼즈
+맨즈
+언더웨어
+용품 & ACC
+상품 더보기
+  
+
+[전지현 착용] 소프트 플리스 셋업 (후디 & 와이드 팬츠)
+
+139,000원
+
+168,000원
+
+17%
+
+  
+
+[3 SET] NEW 에어리핏 맨즈 폴로 티셔츠
+
+88,000원
+
+147,000원
+
+40%
+
+79,200원 쿠폰가
+  
+
+[5 SET] 올데이핏 브라 & 팬티
+
+179,000원
+
+340,000원
+
+47%
+
+쿠폰가 161,100원 (세트당 32,220원)
+  
+
+[1&1] 어반액티브 맨즈 약기모 슬랙스
+
+149,000원
+
+178,000원
+
+16%
+
+134,100원 쿠폰가
+전국 백화점 및
+프리미엄 아울렛 매장 보기
+자세히 보기
+안다르 AI랩의 시그니처 원단
+
+안다르 AI랩(Athleisure Innovation Lab)에서 개발한
+글로벌 최고급 원사와 혁신적 기술의 기능성 원단
+
+자세히 보기
+
+TRENDING NOW
+
+지금 주목할 아이템
+플리스
+맨즈 니트
+기모 레깅스
+
+SHOP BY ACTIVITY
+
+운동별 추천
+테니스
+
+상품 보러가기
+
+아웃도어
+
+상품 보러가기
+
+스윔웨어
+
+상품 보러가기
+
+골프
+
+상품 보러가기
+
+필라테스/요가
+
+상품 보러가기
+
+운동별 추천 전체보기
+
+페이지 바로가기
+
+러닝
+
+상품 보러가기
+
+GYM
+
+상품 보러가기
+
+테니스
+
+상품 보러가기
+
+아웃도어
+
+상품 보러가기
+
+스윔웨어
+
+상품 보러가기
+
+골프
+
+상품 보러가기
+
+필라테스/요가
+
+상품 보러가기
+
+운동별 추천 전체보기
+
+페이지 바로가기
+
+러닝
+
+상품 보러가기
+
+GYM
+
+상품 보러가기
+
+STYLE EDIT
+
+안다르 제안 스타일
+착용감부터 관리까지,
+일주일이 편한 이지케어 출근복
+도심 속 분주한 움직임에도
+흐트러짐 없이 단정한 실루엣
+  
+
+에어리핏 맨즈 약기모 셔츠
+
+69,000원
+
+72,000원
+
+4%
+
+62,100원 쿠폰가
+  
+
+[풀스택] 에어스트 맨즈 기모 테이퍼드핏 슬랙스
+
+85,000원
+
+76,500원 쿠폰가
+  
+
+NEW 맨즈 스트레치 트윌 셔츠
+
+69,000원
+
+62,100원 쿠폰가
+  
+
+어반액티브 맨즈 약기모 슬림 테이퍼드핏 팬츠
+
+88,000원
+
+92,000원
+
+4%
+
+79,200원 쿠폰가
+브랜드 스토리
+
+자세히 보기
+
+안다르 멤버십
+
+자세히 보기
+
+안다르 애슬릿 리더 멤버십
+
+자세히 보기
+
+K-애슬레저 1위, 5년 연속(2022~2026) 대한민국 패션품질대상 스포츠 애슬레저 부문
+
+고객센터 1566-7318
+채팅 문의하기
+
+운영시간 10:00 ~ 17:30 / 주말, 공휴일 휴무
+
+점심시간 12:00 ~ 13:00
+
+개인정보처리방침
+영상정보처리기기 운영방침
+이용약관
+상품권 이용약관
+공지사항
+전국 매장 안내
+안다르 멤버십
+애슬릿 리더 신청
+대량 구매 안내
+
+주식회사 안다르
+
+대표자 : 공성아
+
+사업자등록번호 : 103-88-00990 사업자 정보 확인
+
+통신판매업신고 : 2024-서울송파-3789
+
+주소 : 05510 서울 송파구 올림픽로35다길 42 한국루터회관 7, 9, 12층
+
+TEL : 1566-7318
+
+호스팅제공자 : 카페24(주)
+
+이용 문의 : help@andar.co.kr
+
+마케팅제휴 문의 : partnership@andar.co.kr
+
+해외수출 문의 : overseas@andar.co.kr
+
+KG이니시스의 이니페이 에스크로 구매안전서비스를 통해 안전한 현금거래를 보장합니다. 서비스 가입 사실 확인
+
+ISMS 인증 획득으로 고객님의 소중한 정보를 안전하게 보호합니다. 정보보호 관리체계 인증서 확인
+
+Copyright by 안다르, all rights reserved.
+
+----- 프레임 (https://widget.recopick.com/1/widget/id/yi94xecr?item_id=&qterm=&site=andar.co.kr&from=https%3A%2F%2Fwww.andar.co.kr%2F&uid=54528735.1792651109114&id=recopick_widget_yi94xecr&width=100%25&height=1&widget_id=yi94xecr) -----
+고객님을 위한 추천 아이템
+
+  
+    
+      
+          
+
+  
+      
+  
+  [1&1] 에어리핏 와이드 팬츠 (기모/사계절)
+  
+    99,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  에어웜 기모 맥시 와이드 레깅스
+  
+    79,000원
+    75,000원
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] NEW 에어리핏 맨즈 티셔츠
+  
+    69,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] NEW 에어리핏 티셔츠 (오버핏/스탠다드핏/슬림핏)
+  
+    65,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [1&1] 어센틱 스탠다드핏 티셔츠
+  
+    49,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [1&1] 어반액티브 맨즈 슬랙스 (기모/사계절)
+  
+    129,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [전지현 착용] 소프트 플리스 셋업 (후디 & 와이드 팬츠)
+  
+    139,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  에어리핏 기모 와이드 팬츠
+  
+    79,000원
+    69,000원
+  
+
+      
+          
+
+  
+      
+  
+  [1&1] 에어쿨링 지니 시그니처 레깅스
+  
+    89,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] [워셔블] 프라임니트 맨즈 롱슬리브 (폴로/하프넥/하이넥)
+  
+    109,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [SET] 에어리핏 기모 셋업 (맨투맨 · 카라 집업 & 와이드 팬츠)
+  
+    99,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [SET] 드림컴포트 셋업 (맨투맨 & 와이드 팬츠)
+  
+    99,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [5 SET] 올데이핏 브라
+  
+    115,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] NEW 에어리핏 맨즈 약기모 폴로 롱슬리브
+  
+    109,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [1&1] 에어웜 기모 지니 시그니처 레깅스
+  
+    84,550원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [전지현 착용] 드림컴포트 셋업 (크롭 집업 & 조거팬츠)
+  
+    109,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [1&1] NEW 에어리핏 롱슬리브 (오버핏/스탠다드핏/슬림핏)
+  
+    49,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] NEW 에어리핏 맨즈 폴로 티셔츠
+  
+    88,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  백 셔링 볼륨 자켓
+  
+    149,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  NEW 올라운드 트윌 와이드 팬츠
+  
+    79,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] NEW 에어리핏 맨즈 약기모 롱슬리브
+  
+    95,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [SET] 마일드무스 셋업 (크롭 후디 집업 & 와이드 팬츠)
+  
+    129,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] 어센틱 스탠다드핏 티셔츠
+  
+    65,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  [5 SET] 올데이핏 브라 & 팬티
+  
+    179,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  마일드무스 플리스 와이드 팬츠
+  
+    95,000원
+    39,000원
+  
+
+      
+          
+
+  
+      
+  
+  NEW 에어쿨링 샤론 부츠컷 레깅스
+  
+    59,000원
+    55,000원
+  
+
+      
+          
+
+  
+      
+  
+  [3 SET] 에어리핏 약기모 롱슬리브 (오버핏/스탠다드핏/슬림핏)
+  
+    88,000원
+     
+  
+
+      
+          
+
+  
+      
+  
+  마일드무스 와이드 팬츠
+  
+    89,000원
+     
+  
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+      
+    
+    
+      
+    
+
+  (function () {
+    simplePostMessage.receiveMessage(function (e) {
+      if (e.data.indexOf('update_height') > -1) {
+        calcHeight();
+      }
+    });
+
+    function calcHeight(tries) {
+      var isVerticalType = Boolean(document.getElementsByClassName('widget--v').length)
+
+      var nameHeight = [];
+      var authorHeight = [];
+      var priceHeight = 0;
+      var origPriceHeight = 0;
+      var salePriceHeight = 0;
+      var pricePadding = 0;
+      var thumbnailWidth = 0;
+
+      var itemList = document.querySelectorAll('.item a');
+      for (var i = 0; i < itemList.length; i++) {
+        // 'name' height
+        if (!isVerticalType) {
+          var rowIdx = i % 1;
+
+          if (itemList[i].getElementsByClassName('name').length > 0) {
+            nameHeight[rowIdx] = Math.max(nameHeight[rowIdx] ? nameHeight[rowIdx] : 0, itemList[i].getElementsByClassName('name')[0].clientHeight);
+            // max-height for .name is 41px
+            nameHeight[rowIdx] = (nameHeight[rowIdx] > 41) ? 41 : nameHeight[rowIdx];
+          }
+          if (itemList[i].getElementsByClassName('author').length > 0) {
+            authorHeight[rowIdx] = Math.max(authorHeight[rowIdx] ? authorHeight[rowIdx] : 0, itemList[i].getElementsByClassName('author')[0].clientHeight);
+          }
+        }
+
+        if (itemList[i].getElementsByClassName('thumbnail').length > 0) {
+          // 'thumbnail' width
+          thumbnailWidth = Math.max(thumbnailWidth, itemList[i].getElementsByClassName('thumbnail')[0].clientWidth);
+        }
+
+        if (itemList[i].getElementsByClassName('price').length > 0) {
+          // 'price' height
+          var priceElement = itemList[i].getElementsByClassName('price')[0];
+          priceHeight = Math.max(priceHeight, priceElement.clientHeight - (parseInt(getComputedStyle(priceElement).paddingTop) + parseInt(getComputedStyle(priceElement).paddingBottom)));
+        }
+
+        if (itemList[i].getElementsByClassName('original_price').length > 0) {
+          // 'original_price' height
+          origPriceHeight = Math.max(origPriceHeight, itemList[i].getElementsByClassName('original_price')[0].clientHeight);
+        }
+
+        if (itemList[i].getElementsByClassName('sale_price').length > 0) {
+          // 'sale_price' height
+          salePriceHeight = Math.max(salePriceHeight, itemList[i].getElementsByClassName('sale_price')[0].clientHeight);
+        }
+      }
+
+      if (salePriceHeight > 0 && origPriceHeight > 0) {
+        pricePadding = Math.floor(Math.min.apply(null, [salePriceHeight, origPriceHeight].filter(Boolean)) * 0.2 * 100) / 100;
+      }
+
+      for (var i = 0; i < itemList.length; i++) {
+        if (!isVerticalType) {
+          if (itemList[i].getElementsByClassName('name').length > 0) {
+            itemList[i].getElementsByClassName('name')[0].style.height = String(nameHeight[i % 1]) + 'px';
+          }
+          if (itemList[i].getElementsByClassName('author').length > 0) {
+            itemList[i].getElementsByClassName('author')[0].style.height = String(authorHeight[i % 1]) + 'px';
+          }
+        }
+
+        if (itemList[i].getElementsByClassName('thumbnail').length > 0) {
+          itemList[i].getElementsByClassName('thumbnail')[0].style.width = String(thumbnailWidth) + 'px';
+        }
+
+        if (itemList[i].getElementsByClassName('price').length > 0) {
+          if (priceHeight > 0) {
+            // 'price' height
+            itemList[i].getElementsByClassName('price')[0].style.height = String(priceHeight) + 'px';
+          }
+
+          if (salePriceHeight > 0 && origPriceHeight > 0) {
+            itemList[i].getElementsByClassName('price')[0].style.paddingTop = String(pricePadding) + 'px';
+          }
+        }
+
+        if (itemList[i].getElementsByClassName('original_price').length > 0 && origPriceHeight > 0) {
+          // 'original_price' height
+          itemList[i].getElementsByClassName('original_price')[0].style.height = String(origPriceHeight) + 'px';
+        }
+
+        if (itemList[i].getElementsByClassName('sale_price').length > 0 && salePriceHeight > 0) {
+          // 'sale_price' height
+          itemList[i].getElementsByClassName('sale_price')[0].style.height = String(salePriceHeight) + 'px';
+        }
+      }
+
+      // image load 안된 시점에 onload가 발생시 정상 높이 계산이 되지 않음
+      // image height가 0인 경우 10번 retry
+      // if ($('img.thumbnail').height() === 0) {
+      var imgThumbnail = document.querySelector('img.thumbnail');
+      if (true && imgThumbnail.clientHeight === 0) {
+        if (tries < 10) {
+          setTimeout(function () { calcHeight(tries + 1); }, 100);
+        }
+      } else {
+        syncHeight(100);
+      }
+    }
+
+    function syncHeight(ms) {
+      setTimeout(function() {
+        var c = window.getComputedStyle(document.body);
+        var margin = parseFloat(c.marginTop) + parseFloat(c.marginBottom)
+        var height = document.body.offsetHeight + margin || 1;
+        var has_recom = height > 1 ? 1 : 0;
+
+        simplePostMessage.postMessage('id=recopick_widget_yi94xecr' + '&if_height=' + height + '&has_recom=' + has_recom, 'https://www.andar.co.kr/');
+      }, ms);
+    }
+
+    window.onload = function () {
+      calcHeight();
+    }
+
+    window.onresize = function () {
+      syncHeight(100);
+    }
+  })();
+  function addClass(element, className) {
+    if(element && element.className.indexOf(className) === -1) {
+      element.className = (element.className + ' ' + className).trim();
+    }
+  }
+  function removeClass(element, className) {
+    if (element && element.className.indexOf(className) !== -1) {
+      element.className = element.className.replace(className, '').trim();
+    }
+  }
+
+  (function () {
+    $('.target').on('init', function (event, slick) {
+      $('.prev').addClass('disabled');
+    });
+
+    $('.target').slick({
+      infinite: false,
+      draggable: false,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      arrows: true,
+      dots: false,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      prevArrow: $('.prev'),
+      nextArrow: $('.next')
+    });
+
+    $('.target').on('afterChange', (event, slick, currentSlide) => {
+      var currentPage = Math.floor((currentSlide) / 4) + 1;
+
+      if (currentPage == 1) {
+        $('.prev').addClass('disabled');
+        $('.next').removeClass('disabled');
+      } else if (currentPage == 7) {
+        $('.prev').removeClass('disabled');
+        $('.next').addClass('disabled');
+      } else {
+        $('.prev').removeClass('disabled');
+        $('.next').removeClass('disabled');
+      }
+    });
+  })();
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+전체
+ 26 FW 신상
+ 기모 라인업
+ 아웃도어 위크
+ 와이드 팬츠 특별전
+ NEW 언더웨어 출시 혜택
+ 우먼즈
+ 맨즈
+ 용품
+
+전체
+ 우먼즈
+ 맨즈
+ 언더웨어
+ 가방/용품/ACC
+ 기모
+ 러닝웨어
+ 비즈니스 애슬레저
+ 기간할인
+
+전체
+ 우먼즈
+ 맨즈
+ 언더웨어
+ 키즈
+ 가방/용품/신발
+
+전체
+ 상의
+ 하의
+ 세트
+ 기모
+ 티셔츠/폴로티
+ 맨투맨/후디
+ 아우터
+ 스포츠 브라탑
+ 와이드팬츠
+ 레깅스
+ 청바지
+ 조거팬츠
+ 스커트/원피스
+ 쇼츠
+ 슬리브리스
+ 스윔웨어
+ 임부복
+
+전체
+ 상의
+ 하의
+ 세트
+ 기모
+ 골프
+ 비즈니스 애슬레저
+ 티셔츠/폴로티
+ 맨투맨/후디
+ 니트
+ 애슬레저 셔츠
+ 아우터
+ 윈드자켓
+ 슬랙스
+ 청바지
+ 조거팬츠
+ 쇼츠
+ 슬리브리스
+ 드로즈/이너
+ 스윔웨어
+
+전체
+ 우먼즈
+ 맨즈
+ 키즈
+
+전체
+ 우먼즈
+ 맨즈
+ 러닝화
+ 러닝용품
+
+전체
+ 가방
+ 용품
+ 양말
+ UV차단
+ 신발
+ 모자/헤어밴드
+ 마스크
+
+전체
+ 상의
+ 하의
+ 세트
+ 양말
+
+전체
+ 러닝
+ 필라테스/요가
+ 골프
+ 스윔웨어
+ GYM
+ 아웃도어
+ 테니스
+
+안다르 26FW 신상 확인하기
+ /product/list.html?cate_no=2027
+ 인기 검색어
+ 2026. 10. 22 업데이트
+ 커버핏
+ 소프트 플리스
+ 마일드무스
+ 임산부
+ 어센틱
+ 드림컴포트
+ 최근 검색어
+ 전체 삭제
+ 검색 내역이 없습니다.
+ 원단별 탐색
+ 베스트셀러 에어쿨링
+ 에어쿨링
+ 차원이 다른 흡한속건, 에어리핏
+ 에어리핏
+ 공기처럼 가벼운 에어엑스퍼트
+ 에어엑스퍼트
+ 부드럽고 유연한 릴레어
+ 릴레어
+
+신상
+ 베스트
+ 우먼즈
+ 맨즈
+ 언더웨어
+ 에어데님
+ 기모
+ 러닝
+ 골프
+ 전지현 세트
+ 가방/용품/신발
+ 키즈
+ 운동별 추천
+ 안다르 AI랩
+ 아울렛
+ 상품권
+ 고객지원
+ 안다르 스토리
+ 성수 팝업 전체보기
+ FW 컬렉션 보러 가기
+ 26FW 모달 언더웨어 룩북 보기
+
+[SET] 소프트 플리스 셋업 (카라 집업 & 조거팬츠)
+ 차원이 다른 포근함과 편안함
+ 129,000원
+ 158,000원
+ 18%
+ NEW 에어데님 약기모 세미 부츠컷 청바지
+ 탄탄하면서 슬림한 데님 실루엣
+ 89,000원
+ [5 SET] 올데이핏 브라 & 팬티
+ 산뜻 · 보송한 시그니처 볼륨핏
+ 179,000원
+ 340,000원
+ 47%
+ 쿠폰가 161,100원 (세트당 32,220원)
+ 에어웜 기모 세미 와이드 레깅스
+ 깔끔한 세미 와이드핏 에어웜
+ 69,000원
+ 62,100원 쿠폰가
+
+[1&1] 어반액티브 맨즈 슬랙스 (기모/사계절)
+ 365일 출근룩 완결, 시그니처 SET
+ 129,000원
+ 158,000원
+ 18%
+ 116,100원 쿠폰가
+ [1&1] 소프트 플리스 맨즈 투웨이 와이드 팬츠
+ 활용도 높은 2WAY 데일리팬츠
+ 122,000원
+ 178,000원
+ 31%
+ 109,800원 쿠폰가
+ [3 SET] [워셔블] 프라임니트 맨즈 롱슬리브 (폴로/하프넥/하이넥)
+ 일주일 책임질 베이직 아이템
+ 109,000원
+ 219,000원
+ 50%
+ 98,100원 쿠폰가
+ 웜모션 맨즈 덕다운 자켓
+ 출근·골프까지 가볍고 포근하게
+ 199,000원
+ 259,000원
+ 23%
+ 179,100원 쿠폰가
+
+[5 SET] 올데이핏 브라 & 팬티
+ 산뜻 · 보송한 시그니처 볼륨핏
+ 179,000원
+ 340,000원
+ 47%
+ 쿠폰가 161,100원 (세트당 32,220원)
+ [3 SET] 안다르 커버핏 원몰드 브라 & 팬티
+ 139,000원
+ 210,000원
+ 33%
+ 쿠폰가 125,100원 (세트당 41,700원)
+ [3 SET] 올데이핏 모달 브라 & 팬티
+ 부드럽고 섬세한 텐셀™ 모달 세트
+ 135,000원
+ 216,000원
+ 37%
+ 쿠폰가 121,500원 (세트당 40,500원)
+ [3 SET] 올데이핏 보이쇼츠
+ 입는 순간 매끈한 아웃핏 완성
+ 65,000원
+ 87,000원
+ 25%
+ 쿠폰가 58,500원 (장당 19,500원)
+
+히트 런 이어플랩 캡 2.0
+ 55,000원
+ 52,200원 회원가 (10/22~10/26)
+ [1&1] 소프트 니트 기모 니삭스 (베이직 & 오버)
+ 도톰한 기모 테리 니삭스 2종
+ 27,900원
+ 31,800원
+ 12%
+ 소프트 플리스 투웨이 넥워머
+ 플리스 워머 + 마스크로 포근
+ 39,000원
+ 소프트 플리스 버킷햇
+ 안정적인 깊이·비율의 윈터 버킷햇
+ 69,000원
+
+본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면
+ 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+
+if (hasCriteoTag() === false) {
+ window.criteo_q = window.criteo_q || [];
+ window.criteo_q.push(
+ { event: "flushEvents"},
+ { event: "setAccount", account: "27662"},
+ { event: "setSiteType", type: "d" },
+ { event: "viewPage"}
+ );
+}
+function hasCriteoTag() {
+ var currentPathRole = getPathRole();
+ if (currentPathRole === '') {
+ return true;
+ }
+ var tagImplementedPathRoles = ['MAIN','PRODUCT_LIST','PRODUCT_SEARCH','PRODUCT_DETAIL','ORDER_BASKET','ORDER_ORDERRESULT'];
+ return tagImplementedPathRoles.includes(currentPathRole);
+}
+function getPathRole() {
+ const metas = document.getElementsByTagName('meta');
+ for (let i = 0; i < metas.length; i++) {
+ if (metas[i].getAttribute('name') === 'path_role') {
+ return metas[i].getAttribute('content');
+ }
+ }
+ return '';
+}
+var email_sha256 = SHA256('');
+function SHA256(s){
+ if (s == '') {
+ return '';
+ }
+ var chrsz = 8;
+ var hexcase = 0;
+ function safe_add (x, y) {
+ var lsw = (x & 0xFFFF) + (y & 0xFFFF);
+ var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
+ return (msw << 16) | (lsw & 0xFFFF);
+ }
+ function S (X, n) { return ( X >>> n ) | (X << (32 - n)); }
+ function R (X, n) { return ( X >>> n ); }
+ function Ch(x, y, z) { return ((x & y) ^ ((~x) & z)); }
+ function Maj(x, y, z) { return ((x & y) ^ (x & z) ^ (y & z)); }
+ function Sigma0256(x) { return (S(x, 2) ^ S(x, 13) ^ S(x, 22)); }
+ function Sigma1256(x) { return (S(x, 6) ^ S(x, 11) ^ S(x, 25)); }
+ function Gamma0256(x) { return (S(x, 7) ^ S(x, 18) ^ R(x, 3)); }
+ function Gamma1256(x) { return (S(x, 17) ^ S(x, 19) ^ R(x, 10)); }
+ function core_sha256 (m, l) {
+ var K = new Array(0x428A2F98, 0x71374491, 0xB5C0FBCF, 0xE9B5DBA5, 0x3956C25B, 0x59F111F1, 
+ 0x923F82A4, 0xAB1C5ED5, 0xD807AA98, 0x12835B01, 0x243185BE, 0x550C7DC3, 
+ 0x72BE5D74, 0x80DEB1FE, 0x9BDC06A7, 0xC19BF174, 0xE49B69C1, 0xEFBE4786, 
+ 0xFC19DC6, 0x240CA1CC, 0x2DE92C6F, 0x4A7484AA, 0x5CB0A9DC, 0x76F988DA, 
+ 0x983E5152, 0xA831C66D, 0xB00327C8, 0xBF597FC7, 0xC6E00BF3, 0xD5A79147, 
+ 0x6CA6351, 0x14292967, 0x27B70A85, 0x2E1B2138, 0x4D2C6DFC, 0x53380D13, 
+ 0x650A7354, 0x766A0ABB, 0x81C2C92E, 0x92722C85, 0xA2BFE8A1, 0xA81A664B, 
+ 0xC24B8B70, 0xC76C51A3, 0xD192E819, 0xD6990624, 0xF40E3585, 0x106AA070, 
+ 0x19A4C116, 0x1E376C08, 0x2748774C, 0x34B0BCB5, 0x391C0CB3, 0x4ED8AA4A, 
+ 0x5B9CCA4F, 0x682E6FF3, 0x748F82EE, 0x78A5636F, 0x84C87814, 0x8CC70208, 
+ 0x90BEFFFA, 0xA4506CEB, 0xBEF9A3F7, 0xC67178F2);
+ var HASH = new Array(0x6A09E667, 0xBB67AE85, 0x3C6EF372, 0xA54FF53A, 0x510E527F, 0x9B05688C, 0x1F83D9AB, 0x5BE0CD19);
+ var W = new Array(64);
+ var a, b, c, d, e, f, g, h, i, j;
+ var T1, T2;
+ m[l >> 5] |= 0x80 << (24 - l % 32);
+ m[((l + 64 >> 9) << 4) + 15] = l;
+ for ( var i = 0; i<m.length; i+=16 ) {
+ a = HASH[0];
+ b = HASH[1];
+ c = HASH[2];
+ d = HASH[3];
+ e = HASH[4];
+ f = HASH[5];
+ g = HASH[6];
+ h = HASH[7];
+ for ( var j = 0; j<64; j++) {
+ if (j < 16) W[j] = m[j + i];
+ else W[j] = safe_add(safe_add(safe_add(Gamma1256(W[j - 2]), W[j - 7]), Gamma0256(W[j - 15])), W[j - 16]);
+ T1 = safe_add(safe_add(safe_add(safe_add(h, Sigma1256(e)), Ch(e, f, g)), K[j]), W[j]);
+ T2 = safe_add(Sigma0256(a), Maj(a, b, c));
+ h = g;
+ g = f;
+ f = e;
+ e = safe_add(d, T1);
+ d = c;
+ c = b;
+ b = a;
+ a = safe_add(T1, T2);
+ }
+ HASH[0] = safe_add(a, HASH[0]);
+ HASH[1] = safe_add(b, HASH[1]);
+ HASH[2] = safe_add(c, HASH[2]);
+ HASH[3] = safe_add(d, HASH[3]);
+ HASH[4] = safe_add(e, HASH[4]);
+ HASH[5] = safe_add(f, HASH[5]);
+ HASH[6] = safe_add(g, HASH[6]);
+ HASH[7] = safe_add(h, HASH[7]);
+ }
+ return HASH;
+ }
+ function str2binb (str) {
+ var bin = Array();
+ var mask = (1 << chrsz) - 1;
+ for(var i = 0; i < str.length * chrsz; i += chrsz) {
+ bin[i>>5] |= (str.charCodeAt(i / chrsz) & mask) << (24 - i%32);
+ }
+ return bin;
+ }
+ function Utf8Encode(string) {
+ string = string.replace(/\r\n/g,"\n");
+ var utftext = "";
+ for (var n = 0; n < string.length; n++) {
+ var c = string.charCodeAt(n);
+ if (c < 128) {
+ utftext += String.fromCharCode(c);
+ }
+ else if((c > 127) && (c < 2048)) {
+ utftext += String.fromCharCode((c >> 6) | 192);
+ utftext += String.fromCharCode((c & 63) | 128);
+ }
+ else {
+ utftext += String.fromCharCode((c >> 12) | 224);
+ utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+ utftext += String.fromCharCode((c & 63) | 128);
+ }
+ }
+ return utftext;
+ }
+ function binb2hex (binarray) {
+ var hex_tab = hexcase ? "0123456789ABCDEF" : "0123456789abcdef";
+ var str = "";
+ for(var i = 0; i < binarray.length * 4; i++) {
+ str += hex_tab.charAt((binarray[i>>2] >> ((3 - i%4)*8+4)) & 0xF) +
+ hex_tab.charAt((binarray[i>>2] >> ((3 - i%4)*8 )) & 0xF);
+ }
+ return str;
+ }
+ s = Utf8Encode(s);
+ return binb2hex(core_sha256(str2binb(s), s.length * chrsz));
+ }
+
+window.criteo_q = window.criteo_q || [];
+window.criteo_q.push(
+ { event: "flushEvents"},
+ { event: "setAccount", account: "27662"},
+ { event: "setEmail", email: email_sha256, hash_method: "sha256" },
+ { event: "setSiteType", type: "d" },
+ { event: "viewHome" }
+);
+
+kakaoPixel.setServiceOrigin('20001');
+ kakaoPixel('5094017493535573581').pageView();
+
+var meta = document.createElement('meta');
+meta.name = "referrer";
+meta.content = "unsafe-url";
+document.getElementsByTagName('head')[0].appendChild(meta);
+
+var wp_conf = 'ti=35113&v=1&device=web';
+
+----- 이미지 대체텍스트 (img alt) -----
+<div class='icon-right'></div><span class='fontB' style='FFE500'>[공식몰 단독]ㅤ</span> <span class='fontB'> 카톡 채널 추가하고 1만 원 할인 받기</span>
+26FW 모달 언더웨어 룩북 보기
+main_pc_1950X836_하이브리드 시리즈
+main_pc_1950X836_소프트 플리스
+main_pc_1950X836_기모
+main_pc_1950X836_맨즈 니트
+main_pc_1950X836_아웃도어위크
+[3 SET] NEW 에어리핏 맨즈 폴로 티셔츠
+[5 SET] 올데이핏 브라 &amp; 팬티
+[1&amp;1] 어반액티브 맨즈 약기모 슬랙스
+[1&amp;1] 어반액티브 맨즈 슬랙스 (기모/사계절)
+[1&amp;1] 소프트 플리스 맨즈 투웨이 와이드 팬츠
+[3 SET] [워셔블] 프라임니트 맨즈 롱슬리브 (폴로/하프넥/하이넥)
+[3 SET] 안다르 커버핏 원몰드 브라 &amp; 팬티
+[3 SET] 올데이핏 모달 브라 &amp; 팬티
+[3 SET] 올데이핏 보이쇼츠
+히트 런 이어플랩 캡 2.0
+[1&amp;1] 소프트 니트 기모 니삭스 (베이직 &amp; 오버)

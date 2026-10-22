@@ -1,0 +1,238 @@
+SLUG: zojirushi-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/zojirushi-call-center-*.png)
+
+===== [1] https://www.zojirushi.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/zojirushi-call-center-1.png
+CHARS: 1406
+
+주방가전
+가습기
+텀블러•도시락
+부품
+브랜드 소개
+고객지원
+   
+
+ZOJIRUSHI
+
+오늘을 소중하게,
+
+100년 전통 기술로 일상을 더욱 따뜻하고 편안하게
+
+Scroll down
+BEST
+EEFAH50K
+조지루시 STAN 가열식 가습기 4L EEFAH50K
+419,000
+ESGWH26K-WA
+조지루시 오븐레인지 에브리노 EVERINO ESGWH26K-WA, 화이트
+799,000
+CKDAH10K-WA
+조지루시 전기주전자 1L CKDAH10K-WA, 화이트
+109,000
+SXMA60H
+심리스리드 캐리 빨대 텀블러 SX-MAH 600ml
+61,900
+SXMA77H
+심리스리드 캐리 빨대 텀블러 SX-MAH 770ml
+63,900
+SDKA100H
+심리스리드 아이스 아웃도어 텀블러 SD-KAH 1L
+53,900
+   
+주방가전
+따뜻한 한끼를 다채롭게 만드는
+조지루시 주방가전을 소개합니다.
+view more
+   
+가습기
+숨쉬는 공간, 건강한 내일을 위한 선택
+조지루시 가습기를 만나보세요.
+view more
+   
+텀블러・도시락
+일상을 담다, 어디서든 이어지는 따뜻한 온기
+조지루시 텀블러와 도시락 제품을 만나보세요.
+view more
+   
+악세서리
+작은 차이의 완성, 일상을 오래 쓰는 방법
+조지루시 정품 악세서리와 소모품을 만나보세요.
+view more
+
+EVERINO
+
+섬세한 기술로 완성하는 맛, 조지루시 오븐레인지 에브리노
+
+자세히 보기
+   
+25dB 저소음으로 침실에서도 편안하게,
+조지루시 가열식 가습기 STAN
+EE-FAH50K-WA
+   
+특별한 일상의 시작,
+조지루시 심리스리드 캐리 텀블러
+SXJS30-GM
+
+제품 개발 스토리
+
+100년 장인 기술을 담은 조지루시의 제품 개발 이야기
+
+자세히 보기
+  
+어떤 공간도 안전하고 촉촉하게
+가열식 가습기 개발 스토리
+누구나 안심하고 사용하는 가열식 가습기
+  
+매일 편리하게 사용하는 오븐레인지
+EVERINO 개발 스토리
+작은 차이가 빚어내는 큰 울림
+  
+뚜껑과 패킹을 하나로!
+'심리스리드' 텀블러 개발 스토리
+매일 편리하게 위생적으로 사용하는 텀블러
+
+조지루시 고객 안심 서비스
+
+100년 장인의 기술로 안심을 더하는 조지루시,
+믿고 사용할 수 있는 품질과 서비스를 제공합니다.
+제품 관련 문의나 도움이 필요하시면
+언제든 안내해드리겠습니다.
+
+문의하기
+이용약관
+ 
+개인정보처리방침
+ 
+WORLD WIDE
+조지루시코리아 주식회사 (Zojirushi Korea Corporation)
+대표KUREMATSU DAISUKE 구레마츠 다이스케
+고객센터1551-2026
+cs@zojirushi.co.kr
+사업자등록번호218-81-26634
+통신판매업신고번호2026-서울마포-0900 [사업자정보확인]
+주소04044 서울 마포구 양화로8길 17-5 3,4층 (서교동)
+Copyright © 조지루시. All Rights Reserved.
+Follow
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+주방가전오븐레인지전기주전자기타
+가습기
+ STAN
+ 가습기
+텀블러•도시락텀블러도시락
+부품텀블러오븐레인지
+ (function () {
+ const topTarget = document.querySelector(
+ '#topMenu .d1[data-param="?cate_no=25"]'
+ );
+ const leftTarget = document.querySelector(
+ '#leftMenu .d1[data-param="?cate_no=25"]'
+ );
+ if (topTarget && !topTarget.querySelector(':scope > .d2Box')) {
+ topTarget.insertAdjacentHTML('beforeend', `
+ <ul class="d2Box">
+ <li class="d2"><a href="https://zojirushi.co.kr/stan/">STAN</a></li>
+ <li class="d2"><a href="/product/list.html?cate_no=25">가습기</a></li>
+ </ul>
+ `);
+ }
+ if (leftTarget) {
+ if (!leftTarget.querySelector(':scope > .d2Box')) {
+ leftTarget.insertAdjacentHTML('beforeend', `
+ <ul class="d2Box">
+ <li class="d2"><a href="https://zojirushi.co.kr/stan/">STAN</a></li>
+ <li class="d2"><a href="/product/list.html?cate_no=25">가습기</a></li>
+ </ul>
+ `);
+ }
+ if (!leftTarget.querySelector(':scope > .arr')) {
+ leftTarget.insertAdjacentHTML('beforeend', `
+ <a class="arr"><i class="fas fa-chevron-down"></i></a>
+ `);
+ }
+ const arr = leftTarget.querySelector(':scope > .arr');
+ if (arr) {
+ arr.addEventListener('click', function (e) {
+ e.preventDefault();
+ leftTarget.classList.toggle('opened');
+ });
+ }
+ }
+ })();
+ 브랜드 소개
+ 조지루시
+ 개발 스토리
+ Blog
+ 고객지원
+ 공지사항
+FAQ
+사용가이드
+제품등록
+문의하기
+ 로그인
+회원가입
+장바구니
+주문조회
+마이페이지
+ Copyright © 조지루시
+
+제품 등록
+ 닫기
+ 조지루시 공식몰
+ 이외 구매처
+ 등록된 제품이 없습니다.
+ 제품정보 입력
+ 제품명
+ 모델명
+ 색상
+ 수량
+ 구매일
+ 선택
+ 로트번호
+ 로트 번호 위치 안내
+ 가습기 / 전기주전자 : 본체 바닥면 스티커
+ 깨갈이 : 본체 후면 스티커
+ 오븐레인지 : 제품 우측 스티커
+ 텀블러,도시락 : 바닥면 스티커 (영문+숫자)
+ (LOT NUMBER)
+ 등록
+ 등록된 제품
+ 수정
+ 삭제
+ 저장
+ 제품명
+ 모델명
+ 색상
+ 로트번호(LOT NUMBER)
+ 수량
+ 구매 채널
+ 구매일
+ 제품정보 입력
+ 등록된 제품
+ 수정
+ 삭제
+ 저장
+ 온라인
+ 오프라인
+ 판매처쿠팡쿠팡네이버 쇼핑G마켓11번가SSG닷컴롯데온옥션인터파크쇼핑기타구매일제품정보 입력카테고리==선택====선택====선택==
+ 로트번호(LOT Number)등록등록된 제품수정삭제저장제품명모델명색상로트번호(LOT NUMBER)수량구매 채널구매일
+ 판매처쿠팡쿠팡네이버 쇼핑G마켓11번가SSG닷컴롯데온옥션인터파크쇼핑기타구매일제품정보 입력등록된 제품수정삭제저장
+ 판매처신세계백화점신세계백화점롯데백화점현대백화점롯데하이마트이마트기타구매일제품정보 입력카테고리==선택====선택====선택==
+ 로트번호(LOT Number)등록등록된 제품수정삭제저장제품명모델명색상로트번호(LOT NUMBER)수량구매 채널구매일
+ 판매처신세계백화점신세계백화점롯데백화점현대백화점롯데하이마트이마트기타구매일제품정보 입력등록된 제품수정삭제저장
+
+현재 결제가 진행중입니다.
+ 본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면
+ 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+
+----- 이미지 대체텍스트 (img alt) -----
+조지루시 STAN 가열식 가습기 4L EEFAH50K
+조지루시 오븐레인지 에브리노 EVERINO ESGWH26K-WA, 화이트
+조지루시 전기주전자 1L CKDAH10K-WA, 화이트
+심리스리드 캐리 빨대 텀블러 SX-MAH 600ml
+심리스리드 캐리 빨대 텀블러 SX-MAH 770ml
+심리스리드 아이스 아웃도어 텀블러 SD-KAH 1L

@@ -1,0 +1,44 @@
+{
+  "slug": "keychron",
+  "name": "키크론",
+  "aliases": [
+    "키크론 고객센터",
+    "Keychron",
+    "키크론 AS",
+    "투비네트웍스글로벌",
+    "키크론 키보드 AS"
+  ],
+  "industry": "appliance",
+  "brandColor": "#05060B",
+  "official": "https://www.keychron.co.kr",
+  "sourceUrl": "https://www.keychron.co.kr/",
+  "sourceName": "키크론 코리아 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "주식회사 투비네트웍스글로벌",
+  "hq": "경기도 용인시 처인구 포곡읍 성산로 434, 3층",
+  "main": {
+    "label": "고객센터",
+    "tel": "1833-4507"
+  },
+  "hours": {
+    "weekday": "평일 10:00~17:00",
+    "holiday": "주말, 공휴일 휴무",
+    "lunch": "점심시간 12:00~13:00"
+  },
+  "hoursNote": "[2026-10-22] 키크론 코리아 공식몰(keychron.co.kr) 하단: 키크론 고객센터 1833-4507 평일 10:00~17:00 / 점심시간 12:00~13:00 주말, 공휴일 휴무 support@keychron.kr b2b@keychron.kr. 주식회사 투비네트웍스글로벌 대표 : 양우호 주소 : 경기도 용인시 처인구 포곡읍 성산로 434, 3층. 로고가 검정이라 캡처 헤더의 어두운 색 평균을 브랜드색으로 쓴다.",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1833-4507",
+      "note": "평일 10:00~17:00, 점심 12:00~13:00, 주말·공휴일 휴무"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

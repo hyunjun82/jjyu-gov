@@ -1,0 +1,41 @@
+{
+  "slug": "hazzys",
+  "name": "헤지스",
+  "aliases": [
+    "헤지스 고객센터",
+    "HAZZYS",
+    "LF 헤지스",
+    "헤지스 환불",
+    "헤지스 교환 반품"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.hazzys.com",
+  "sourceUrl": "https://www.hazzys.com/",
+  "sourceName": "헤지스 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주) LF",
+  "hq": "서울 강남구 언주로 870",
+  "main": {
+    "label": "고객센터 (유료)",
+    "tel": "1544-5114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "callFee": "1544-5114는 유료 전화입니다.",
+  "hoursNote": "[2026-10-22] 헤지스 공식몰(hazzys.com) 하단: (주) LF, 대표이사: 김상균, 주소: 서울 강남구 언주로 870, 1544-5114 (유료), lfcs@lfcorp.com. 홈 하단에 상담시간 표기가 없어 hours 를 비운다. 로고가 흰색이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (유료)",
+      "tel": "1544-5114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터 (유료)'로 적힌 번호입니다."
+}

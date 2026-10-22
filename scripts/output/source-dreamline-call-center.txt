@@ -1,0 +1,167 @@
+SLUG: dreamline-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/dreamline-call-center-*.png)
+
+===== [1] https://www.dreamline.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/dreamline-call-center-1.png
+CHARS: 1331
+
+드림라인
+네트워크
+해저케이블
+솔루션
+커머스
+고객센터
+문의하기
+FAMILY
+KR
+Total ICT Solution
+Platform Company
+더 나은 미래를 위한 연결, 고객과 함께 성장합니다.
+AI Networking Company
+데이터센터, 전국 광케이블망, 국제 해저케이블까지
+초고속 · 초저지연 AI Infra 서비스 제공
+1
+
+AI Network
+
+Hyper scale 데이터센터,
+DCI·Dark Fiber·전용회선망
+
+2
+
+Global Connectivity
+
+JAKO 및 AUG East 해저케이블 보유
+부산·군산에서 전세계 연결
+
+3
+
+Customization
+
+고객 맞춤형 네트워크,
+초고속 · 초저지연 설계
+
+All-Infra
+Network Service
+prev
+해저케이블
+
+글로벌 전용구간
+네트워크 인프라
+
+전용회선
+
+자사망 기반으로 안정성과 보안성을
+제공하는 전용 네트워크 서비스
+
+백홀망
+
+전국 주요도시 및 주요시설간
+대용량 전송 백본 인프라
+
+next
+prev
+DCI
+
+클라우드·AI 트래픽을 위한
+안정적 DCI 전용 네트워크
+
+데이터센터
+
+직접 설계·운영 형식에
+GPU·AI 워크로드 대응형 데이터센터
+
+타워 기반 인프라
+
+전국 무선 커버리지
+확장형 공용화 타워 인프라
+
+next
+모든 구간이
+하나로 연결된
+네트워크
+백본에서 가입자망까지 직접 운영하며,
+무중단 안정성과 확장성을 제공합니다.
+드림라인 전국 광통신망 보유
+0km
+기간망
+0km
+간선망
+0km
+가입자망
+0km
+언제 어디서나
+멈추지 않는
+연결
+전국 운영센터가
+실시간 관제로 안정적이고
+신속한 네트워크 운영
+전국 운영센터/AP
+0개
+항시 출동 및 유지보수 운영
+0시간
+실시간 관제
+0일
+추가로 궁금한점이 있다면,
+지금 바로 문의하세요.
+추가 문의하기
+추가 문의하기
+고객센터
+1877-1817
+평일 09:00 ~ 18:00 (주말, 공휴일 휴무)
+전화부가서비스 장애접수 고객센터
+1877-0606
+24시간 365일 연중무휴
+드림라인
+회사소개
+연혁
+CEO인사말
+CI
+자료실
+오시는길
+윤리경영
+인재채용
+네트워크
+전용회선
+DCI
+인터넷 전용회선
+국내 IP Transit
+국제 IP Transit
+데이터 센터
+구로 DC
+인천 DC
+클라우드 커넥트
+Global PoP
+국가정보통신 서비스
+해저케이블
+해저케이블·Backhaul Infra
+솔루션
+타워 기반 인프라
+한전 스마트그리드
+커머스
+인터넷 전화
+전국대표번호
+080 수신자부담전화
+050 안심전화
+060 전화정보
+기업메시징
+국제문자
+국제전화
+알뜰폰(MVNO)
+고객센터
+보도자료
+공지사항
+입찰공고
+서비스문의
+이용약관
+이용요금
+개인정보처리방침
+영상정보처리기기 운영·관리 방침
+명의도용방지서비스
+All rights reserved ©DREAMLINE
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+문의하기모바일 메뉴열기KR모바일 메뉴 닫기드림라인네트워크해저케이블솔루션커머스고객센터FAMILY

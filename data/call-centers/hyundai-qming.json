@@ -1,0 +1,42 @@
+{
+  "slug": "hyundai-qming",
+  "name": "현대큐밍",
+  "aliases": [
+    "현대큐밍 고객센터",
+    "현대렌탈케어",
+    "현대렌탈케어 고객센터",
+    "현대큐밍 AS",
+    "현대큐밍 정수기 AS"
+  ],
+  "industry": "appliance",
+  "brandColor": "#28C4E2",
+  "official": "https://www.hyundairentalcare.com",
+  "sourceUrl": "https://www.hyundairentalcare.com/",
+  "sourceName": "현대렌탈케어 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)현대렌탈케어",
+  "hq": "서울특별시 강동구 올림픽로 753 우진빌딩",
+  "main": {
+    "label": "고객센터",
+    "tel": "1800-8888"
+  },
+  "hours": {
+    "weekday": "09시 ~ 18시 토요일 13시까지"
+  },
+  "hoursNote": "[2026-10-22] 현대렌탈케어 공식 홈페이지(hyundairentalcare.com) 푸터: (주)현대렌탈케어, 서울특별시 강동구 올림픽로 753 우진빌딩, 고객센터 1800-8888 09시 ~ 18시 토요일 13시까지. 홈 '상담사 연결 1800-8888'. 구글 AI 개요의 수납전용 1800-2280 은 /call 페이지에만 있고 그 페이지가 열리지 않아(오류 안내) 쓰지 않는다. 현대렌탈케어몰(hyundairentalmall.com) 1661-9953 은 판매 접수 쇼핑몰 번호라 쓰지 않는다. 로고가 검정이라 사이트 유일 유채색(#28C4E2)을 브랜드색으로 쓴다.",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1800-8888",
+      "note": "09시 ~ 18시, 토요일 13시까지"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "skechers-korea",
+  "name": "스케쳐스코리아",
+  "aliases": [
+    "스케쳐스 고객센터",
+    "스케쳐스 코리아",
+    "SKECHERS",
+    "스케쳐스 환불",
+    "스케쳐스 교환 반품"
+  ],
+  "industry": "online",
+  "brandColor": "#0063BA",
+  "official": "https://www.skecherskorea.co.kr",
+  "sourceUrl": "https://www.skecherskorea.co.kr/",
+  "sourceName": "스케쳐스 코리아 공식몰",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "고객센터",
+    "tel": "1899-5214"
+  },
+  "hours": {
+    "weekday": "10:00 ~ 17:00",
+    "holiday": "주말·공휴일 휴무",
+    "lunch": "점심시간 12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-10-22] 스케쳐스 코리아 공식몰(skecherskorea.co.kr) 하단: 고객센터 1899-5214 운영시간 10:00 ~ 17:00 (주말·공휴일 휴무) 점심시간 12:00 ~ 13:00. 주소 표기를 이 캡처에서 확인하지 못해 hq 를 비운다. 브랜드색은 사이트 유채색(#0063BA) 측정값.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1899-5214",
+      "note": "10:00~17:00, 점심 12:00~13:00, 주말·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

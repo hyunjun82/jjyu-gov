@@ -1,0 +1,1263 @@
+SLUG: life-work-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/life-work-call-center-*.png)
+
+===== [1] https://lifeworkstore.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/life-work-call-center-1.png
+CHARS: 5802
+
+전체상품목록 바로가기
+
+본문 바로가기
+
+SPECIAL
+NEW
+MEN
+WOMEN
+ACC
+KIDS
+I
+OUTLET
+I
+LIVING
+COMMUNITY
+CATEGORYCOMMUNITY
+SPECIAL
+가을맞이 SWITCH
+F/W 시그니처 아우터
+SET-UP ZONE
+ALL
+반소매 셋업
+긴소매 셋업
+자켓 셋업
+이 달의 셋업
+VINTAGE ESSENTIALS
+카테고리 부스트업
+NOW, LEATHER
+게릴라 특가[Shoes]
+LIGHT&WARM 경량 다운
+NEW
+ALL
+아우터
+상의
+하의
+ACC
+KIDS
+MEN
+ALL
+아우터
+다운
+점퍼
+자켓
+베스트
+상의
+맨투맨
+후드
+후드 집업
+셔츠
+롱 슬리브
+숏 슬리브
+하의
+카고 팬츠
+조거 팬츠
+롱 팬츠
+숏 팬츠
+데님
+자켓
+셔츠
+팬츠
+셋업
+반소매 셋업
+긴소매 셋업
+자켓 셋업
+WOMEN
+ALL
+아우터
+다운
+점퍼
+자켓
+베스트
+원피스
+상의
+맨투맨
+후드
+후드 집업
+셔츠
+롱 슬리브
+숏 슬리브
+하의
+카고 팬츠
+조거 팬츠
+롱 팬츠
+숏 팬츠
+스커트
+데님
+원피스
+셔츠
+팬츠
+셋업
+반소매 셋업
+긴소매 셋업
+자켓 셋업
+ACC
+ALL
+모자
+가방
+신발
+양말
+ETC
+펫
+KIDS
+ALL
+아우터
+다운
+점퍼
+자켓
+베스트
+상의
+맨투맨
+후드
+셔츠
+티셔츠
+하의
+롱 팬츠
+숏 팬츠
+ACC
+모자
+가방
+셋업
+반소매 셋업
+긴소매 셋업
+자켓 셋업
+OUTLET
+ALL
+균일가
+[29,000~49,000]
+[59,000~79,000]
+[89,000~109,000]
+아우터
+상의
+하의
+원피스
+ACC
+KIDS
+ALL
+아우터
+상의
+하의
+원피스
+ACC
+KIDS
+라이프워크 리빙
+COFFEE
+
+고객센터
+
+BRAND
+ABOUT
+LOOKBOOK
+JOURNAL
+STORE INFO
+PARTNERSHIP
+MEMBERSHIP
+라이프워크 APP
+3 / 7
+Weekly Best 남성 여성 키즈 ACC
+여성) 베이직 모크넥 긴팔 티셔츠
+39,000원 59,000원 34%
+ 
+ 4.9 | 리뷰 9건
+공용) Lite 버튼 다운 점퍼
+69,000원 99,000원 31%
+ 
+ 4.9 | 리뷰 78건
+[SETUP] 공용) 코어 후드 맨투맨 + 조거 팬츠
+106,200원 
+이 달의 셋업
+ 5.0 | 리뷰 20건
+넘버링 아플리케 오버핏 맨투맨
+69,000원 119,000원 43%
+ 
+ 5.0 | 리뷰 4건
+공용) 웨이브 퀼팅 라이트다운 점퍼
+69,000원 119,000원 43%
+ 
+ 4.8 | 리뷰 27건
+[SETUP] 공용) 우븐 배색 오버핏 맨투맨 + 조거팬츠
+97,200원 
+이 달의 셋업
+ 4.7 | 리뷰 31건
+실버 로고 레터링 맨투맨
+49,000원 89,000원 45%
+ 
+ 5.0 | 리뷰 10건
+공용) PPC 베이직 항공점퍼
+109,000원 199,000원 46%
+ 
+ 5.0 | 리뷰 10건
+다이아 퀼팅 라이트 다운
+99,000원 179,000원 45%
+ 
+ 4.9 | 리뷰 130건
+웨이브 퀼팅 라이트 다운 점퍼
+69,000원 119,000원 43%
+ 
+ 4.9 | 리뷰 310건
+
+SEASON PICK
+
+LIFEWORK CODIBOOK
+
+여성) 빈티지 코듀로이 워크 자켓
+
+169,000원
+
+여성) 빈티지 윙 크로스 크롭 긴팔 티셔츠
+
+59,000원
+ 5.0 | 리뷰 1건
+
+여성) LW2 본딩 트윌 커브드 팬츠
+
+119,000원
+ 5.0 | 리뷰 1건
+
+가먼트 워싱 빈티지 워크 자켓
+
+159,000원
+
+빈티지 미니멀 플레인 니트
+
+99,000원
+
+L3 빈티지 가먼트 카고 팬츠
+
+99,000원
+
+여성) 뉴 캔톤 데님 오버롤
+
+99,000원
+ 5.0 | 리뷰 5건
+
+여성) 슬림 골지 숏 반팔 티셔츠
+
+49,000원
+ 5.0 | 리뷰 7건
+
+여성) 오프 엑스트라 점프수트
+
+89,000원
+
+여성) 투웨이 언밸런스 슬릿 슬리브리스
+
+29,000원
+ 4.8 | 리뷰 6건
+
+고착사 베이직 니트햇
+
+59,000원
+ 5.0 | 리뷰 1건
+
+여성) 티피컬 베놈 반팔 롱 원피스
+
+99,000원
+ 5.0 | 리뷰 3건
+
+시어서커 라독 로고 볼캡
+
+49,000원
+ 5.0 | 리뷰 3건
+
+뉴 실루엣 라독 에코백
+
+49,000원
+ 4.5 | 리뷰 2건
+
+여성) 린넨 컴피 점프수트
+
+99,000원
+ 5.0 | 리뷰 3건
+
+뉴 모던 솔리드 라독 버킷백
+
+99,000원
+
+여성) 빈티지 무드 힙독 반팔 티셔츠
+
+59,000원
+ 5.0 | 리뷰 3건
+
+여성) LW3 볼륨 스트릿 와이드 카고팬츠
+
+79,000원
+ 4.9 | 리뷰 9건
+
+금속 라독 러플 호보백
+
+69,000원
+ 5.0 | 리뷰 4건
+
+공용) 빈티지 워싱 W로고 반팔 티셔츠
+
+29,000원
+ 5.0 | 리뷰 107건
+
+기획) 투턱 카고 버뮤다 데님 팬츠
+
+79,000원
+ 5.0 | 리뷰 2건
+
+립스탑 스트링 포켓 백팩
+
+89,000원
+ 2.0 | 리뷰 1건
+
+여성) 유틸리티 카고 버뮤다 팬츠
+
+79,000원
+ 5.0 | 리뷰 3건
+
+스페이스런 벤트렉스 V2
+
+119,000원
+ 5.0 | 리뷰 6건
+
+체크 패턴 윈드 브레이커
+
+149,000원
+ 5.0 | 리뷰 1건
+
+공용) 볼택스 후드 집업 베스트
+
+69,000원
+ 5.0 | 리뷰 6건
+
+공용) 볼택스 숏 팬츠
+
+49,000원
+ 5.0 | 리뷰 24건
+
+여성) 우븐 소프트 오픈카라 셔츠
+
+39,000원
+ 4.8 | 리뷰 12건
+
+여성) 우븐 소프트 카고 숏팬츠
+
+39,000원
+ 4.8 | 리뷰 4건
+
+스페이스런 선워커
+
+99,000원
+ 5.0 | 리뷰 23건
+
+여성) 빈티지 후드 체크 셔츠
+
+99,000원
+ 4.9 | 리뷰 9건
+
+여성) 빈티지 캡소매 반팔 티셔츠
+
+29,000원
+ 5.0 | 리뷰 5건
+
+여성) 원형로고 피그먼트 숏팬츠
+
+29,000원
+ 5.0 | 리뷰 7건
+
+빈티지 스프레이 포켓 반팔 티셔츠
+
+39,000원
+ 4.5 | 리뷰 2건
+
+공용) L3 립스탑 턱 크롭 팬츠
+
+89,000원
+ 4.7 | 리뷰 3건
+
+스페이스런 플립
+
+29,000원
+ 4.9 | 리뷰 153건
+
+사선 지퍼 크로스백
+
+49,000원
+ 5.0 | 리뷰 3건
+
+여성) 텐셀 세미 오버핏 셔츠
+
+89,000원
+ 5.0 | 리뷰 1건
+
+여성) LW3 체크 카고 밴딩 팬츠
+
+89,000원
+ 5.0 | 리뷰 2건
+
+매뉴얼 체크 셔츠
+
+79,000원
+
+라독 타겟 하프 팬츠
+
+39,000원
+ 4.9 | 리뷰 14건
+
+공용) 뉴 2PACK 베이직 반팔 티셔츠
+
+49,000원
+ 5.0 | 리뷰 27건
+LITE WEIGHT COLLECTION
+공용) Lite 버튼 다운 점퍼
+69,000원 99,000원 31%
+ 
+ 4.9 | 리뷰 78건
+ 
+여성) Lite 다이아 퀼팅 미드 다운 베스트
+89,000원 129,000원 32%
+ 
+ 4.8 | 리뷰 5건
+ 
+여성) 에어리 리버시블 다운 점퍼
+99,000원 179,000원 45%
+ 
+ 4.9 | 리뷰 32건
+ 
+공용) 에어리 리버시블 반팔 다운 점퍼
+89,000원 129,000원 32%
+ 
+ 5.0 | 리뷰 41건
+ 
+공용) Lite 레이어 패딩 점퍼
+69,000원 89,000원 23%
+ 
+ 5.0 | 리뷰 74건
+ 
+공용) Lite 글로시 후드 다운 점퍼
+99,000원 189,000원 48%
+ 
+ 4.9 | 리뷰 59건
+ 
+여성) Lite 라운드넥 미드 다운 패딩 점퍼
+99,000원 159,000원 38%
+ 
+ 5.0 | 리뷰 4건
+ 
+Lite 라독 와펜 퀼팅 다운 베스트
+99,000원 129,000원 24%
+ 
+ 5.0 | 리뷰 4건
+ 
+공용) Lite 호리즌 퀼팅 다운 베스트
+69,000원 129,000원 47%
+ 
+ 4.7 | 리뷰 3건
+ 
+공용) Lite 호리즌 퀼팅 다운 점퍼
+79,000원 159,000원 51%
+ 
+ 5.0 | 리뷰 3건
+@lifework.official
+1 / 1
+오늘 하루 보지 않기
+닫기
+ABOUT JOURNAL STORE INFO PARTNERSHIP BRAND INFO AGREEMENT PRIVACY POLICY EN 고객센터
+  라이프워크 APP 
+LIFEWORK 정보확인
+
+----- 프레임 (https://www.youtube.com/embed/WMnEj6XVVVM?si=xgdQwbq4-BnBK7wL) -----
+𝗟𝗜𝗙𝗘𝗪𝗢𝗥𝗞 𝟮𝟲𝗙𝗪𝗔𝗜𝗥𝗗𝗢𝗞 𝗖𝗢𝗟𝗟𝗘𝗖𝗧𝗜𝗢𝗡
+LIFEWORK
+LIFEWORK
+구독자 829명
+다음에서 보기:
+
+----- 프레임 (https://review1.cre.ma/v2/lifeworkstore.co.kr/reviews/horizontal_scroll?iframe_id=crema-reviews-1&widget_id=54&widget_style=horizontal_scroll&install_method=smart&locale=ko-KR&app=0&parent_url=https%3A%2F%2Flifeworkstore.co.kr%2F&secure_device_token=V25965180e5a058354be5d95aee235f9a0c486f7209e93a79dd29c2a721ccbd098241bbbfd79a6828a93c29f561297d662&iframe=1) -----
+리뷰 운영방식
+다이아 퀼팅 빗살라독 후드 다운 점퍼
+5.0
+리뷰 2
+[라이프워크 크리에이터]
+2026. 10. 22.
+Lifework
+NEW
+공용) PU 레더 무스탕 점퍼
+5.0
+리뷰 1
+[라이프워크 크리에이터]
+2026. 10. 22.
+Lifework
+NEW
+공용) 울프라독 코인 와펜 퍼 항공 점퍼
+5.0
+리뷰 13
+[라이프워크 크리에이터]
+2026. 10. 22.
+Lifework
+NEW
+PU 레더 코치 점퍼
+5.0
+리뷰 8
+초등6학년 아들 착용했습니다 사이즈 넉넉하며 날씬해보이고 자켓이 너무 멋져요 아들도 넘 마음에 들어합니다 지금부터 잘 입을거 같아요
+2026. 10. 6.
+김****
+키즈) 다이아 퀼팅 경량 다운 자켓
+4.9
+리뷰 15
+딱 좋은 경량패딩이예요 ❤️ 넘 예뻐요 ~ 딸아이도 좋아해요 착한가격에 잘산것 같아요 ~~~♡
+2026. 9. 28.
+이****
+빈티지 스노우 크랙 맨투맨
+5.0
+리뷰 2
+[라독 프렌즈] 빈티지 스노우 크랙 맨투맨 L 사이즈 착용
+2026. 10. 6.
+Lifework
+공용) Lite 버튼 다운 점퍼
+4.9
+리뷰 78
+중학생 딸아이가 너무너무너무 예쁘다고 난리예요~ 씻고 벗고 하라고 블랙이랑 실버색 구입했는데 실버 넘 예뻐요 ♡
+2026. 10. 1.
+이****
+키즈) 소프트 체크 시어서커 긴팔 셔츠
+5.0
+리뷰 1
+[라독 프렌즈] 키즈) 소프트 체크 시어서커 긴팔 셔츠 M 사이즈 착용
+2026. 10. 6.
+Lifework
+여성) LW2 빈티지 내추럴 웨이브 데님 팬츠
+5.0
+리뷰 3
+[라독 프렌즈] 여성) LW2 빈티지 내추럴 웨이브 데님 팬츠 S 사이즈 착용
+2026. 10. 6.
+Lifework
+공용) AIRDOK 파일럿 봄버 후드 항공 점퍼
+5.0
+리뷰 14
+[라독 프렌즈] 공용) AIRDOK 파일럿 봄버 후드 항공 점퍼 L 사이즈 착용
+2026. 10. 6.
+Lifework
+공용) AIRDOK 파일럿 봄버 후드 항공 점퍼
+5.0
+리뷰 14
+[라독 프렌즈] 공용) AIRDOK 파일럿 봄버 후드 항공 점퍼 L 사이즈 착용
+2026. 10. 6.
+Lifework
+공용) AIRDOK 파일럿 봄버 후드 항공 점퍼
+5.0
+리뷰 14
+[라독 프렌즈] 공용) AIRDOK 파일럿 봄버 후드 항공 점퍼 M 사이즈 착용
+2026. 10. 6.
+Lifework
+[SETUP] 키즈)빈티지 라독 와플 티셔츠 + 와이드 팬츠
+5.0
+리뷰 4
+[라독 프렌즈] 키즈) 빈티지 라독 와플 긴팔 티셔츠 셋업 M 사이즈 착용
+2026. 10. 6.
+Lifework
+키즈) 윙 헤드셋 힙독 후드 집업
+5.0
+리뷰 4
+[라독 프렌즈] 키즈) 윙 헤드셋 힙독 후드 집업 S 사이즈 착용
+2026. 10. 6.
+Lifework
+키즈) 붐박스 힙독 아플리케 맨투맨
+5.0
+리뷰 2
+[라독 프렌즈] 키즈) 붐박스 힙독 아플리케 맨투맨 M 사이즈 착용
+2026. 10. 6.
+Lifework
+1/3
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+가을맞이 SWITCH
+ F/W 시그니처 아우터
+ SET-UP ZONE
+ 반소매 셋업
+ 긴소매 셋업
+ 자켓 셋업
+ VINTAGE ESSENTIALS
+ 이 달의 셋업
+ 카테고리 부스트업
+ NOW, LEATHER
+ 게릴라 특가[Shoes]
+ LIGHT&WARM 경량 다운
+
+아우터
+ 상의
+ 하의
+ 원피스
+ ACC
+ KIDS
+ 균일가
+ [29,000~49,000]
+ [59,000~79,000]
+ [89,000~109,000]
+
+COMMUNITY
+ NOTICE
+ CODIBOOK 
+ STYLING 
+ REVIEW
+ Q&A
+ FAQ
+ BRAND
+ ABOUT
+ LOOKBOOK
+ JOURNAL
+ PARTNERSHIP
+ MEMBERSHIP
+ COFFEE
+ 고객센터
+ 아직 회원가입을 안하셨나요? 회원만의 혜택을 놓치지 마세요. click
+ 오프라인 스토어
+ 전국에 있는 라이프워크 매장을 확인하세요.
+ 매장찾기
+
+0
+ KOR
+ ENG
+ 검색
+
+NOTICE
+ CODIBOOK
+ STYLING
+ REVIEW
+ Q&A
+ FAQ
+
+리뷰 : 9 
+ 판매가 : 39,000원 
+ 소비자가 : 59,000원
+
+리뷰 : 73 
+ 판매가 : 69,000원 
+ 소비자가 : 99,000원
+
+리뷰 : 7 
+ 판매가 : 106,200원 
+ 키워드 : 이 달의 셋업
+
+리뷰 : 4 
+ 판매가 : 69,000원 
+ 소비자가 : 119,000원
+
+리뷰 : 27 
+ 판매가 : 69,000원 
+ 소비자가 : 119,000원
+
+리뷰 : 24 
+ 판매가 : 97,200원 
+ 키워드 : 이 달의 셋업
+
+리뷰 : 10 
+ 판매가 : 49,000원 
+ 소비자가 : 89,000원
+
+리뷰 : 9 
+ 판매가 : 109,000원 
+ 소비자가 : 199,000원
+
+리뷰 : 130 
+ 판매가 : 99,000원 
+ 소비자가 : 179,000원
+
+리뷰 : 303 
+ 판매가 : 69,000원 
+ 소비자가 : 119,000원
+
+리뷰 : 11 
+ 판매가 : 229,000원 
+ 소비자가 : 229,000원
+
+리뷰 : 73 
+ 판매가 : 69,000원 
+ 소비자가 : 89,000원
+
+리뷰 : 7 
+ 판매가 : 199,000원 
+ 소비자가 : 199,000원
+
+리뷰 : 3 
+ 판매가 : 69,000원 
+ 소비자가 : 69,000원
+
+리뷰 : 2 
+ 판매가 : 199,000원 
+ 소비자가 : 199,000원
+
+리뷰 : 0 
+ 판매가 : 89,000원 
+ 소비자가 : 89,000원
+
+리뷰 : 0 
+ 판매가 : 142,200원 
+ 키워드 : 10%세트할인
+
+리뷰 : 54 
+ 판매가 : 39,000원 
+ 소비자가 : 69,000원
+
+리뷰 : 53 
+ 판매가 : 119,000원 
+ 소비자가 : 119,000원
+
+리뷰 : 0 
+ 판매가 : 189,000원 
+ 소비자가 : 199,000원
+
+리뷰 : 52 
+ 판매가 : 99,000원 
+ 소비자가 : 189,000원
+
+리뷰 : 99 
+ 판매가 : 29,000원 
+ 소비자가 : 49,000원
+
+리뷰 : 45 
+ 판매가 : 49,000원 
+ 소비자가 : 79,000원 
+ 키워드 : 부스트업
+
+리뷰 : 134 
+ 판매가 : 49,000원 
+ 소비자가 : 49,000원
+
+리뷰 : 3 
+ 판매가 : 79,000원 
+ 소비자가 : 159,000원
+
+리뷰 : 20 
+ 판매가 : 79,000원 
+ 소비자가 : 89,000원
+
+리뷰 : 7 
+ 판매가 : 99,000원 
+ 소비자가 : 129,000원
+
+리뷰 : 1 
+ 판매가 : 229,000원 
+ 소비자가 : 229,000원
+
+리뷰 : 1 
+ 판매가 : 249,000원 
+ 소비자가 : 249,000원
+
+리뷰 : 0 
+ 판매가 : 239,000원 
+ 소비자가 : 239,000원
+
+리뷰 : 2 
+ 판매가 : 99,000원 
+ 소비자가 : 99,000원
+
+리뷰 : 4 
+ 판매가 : 89,000원 
+ 소비자가 : 89,000원
+
+리뷰 : 36 
+ 판매가 : 89,000원 
+ 소비자가 : 89,000원
+
+리뷰 : 1 
+ 판매가 : 142,200원 
+ 키워드 : 10%세트할인
+
+리뷰 : 0 
+ 판매가 : 99,000원 
+ 소비자가 : 99,000원
+
+리뷰 : 0 
+ 판매가 : 159,000원 
+ 소비자가 : 159,000원
+
+리뷰 : 0 
+ 판매가 : 179,000원 
+ 소비자가 : 179,000원
+
+리뷰 : 0 
+ 판매가 : 129,000원 
+ 소비자가 : 129,000원
+
+리뷰 : 0 
+ 판매가 : 119,000원 
+ 소비자가 : 119,000원
+
+리뷰 : 0 
+ 판매가 : 79,000원 
+ 소비자가 : 79,000원
+
+리뷰 : 0 
+ 판매가 : 106,200원 
+ 키워드 : 10%세트할인빈티지셋업
+
+리뷰 : 0 
+ 판매가 : 59,000원 
+ 소비자가 : 59,000원
+
+리뷰 : 0 
+ 판매가 : 199,000원 
+ 소비자가 : 199,000원
+
+리뷰 : 1 
+ 판매가 : 189,000원 
+ 소비자가 : 189,000원
+
+리뷰 : 0 
+ 판매가 : 160,200원 
+ 키워드 : 10%세트할인
+
+리뷰 : 1 
+ 판매가 : 133,200원 
+ 키워드 : 10%세트할인
+
+리뷰 : 0 
+ 판매가 : 69,000원 
+ 소비자가 : 69,000원
+
+리뷰 : 5 
+ 판매가 : 49,000원 
+ 소비자가 : 49,000원
+
+리뷰 : 72 
+ 판매가 : 59,000원 
+ 소비자가 : 109,000원
+
+리뷰 : 49 
+ 판매가 : 59,000원 
+ 소비자가 : 119,000원
+
+리뷰 : 308 
+ 판매가 : 39,000원 
+ 소비자가 : 59,000원
+
+리뷰 : 122 
+ 판매가 : 49,000원 
+ 소비자가 : 69,000원
+
+리뷰 : 153 
+ 판매가 : 29,000원 
+ 소비자가 : 49,000원
+
+리뷰 : 63 
+ 판매가 : 90,300원 
+ 소비자가 : 129,000원
+
+리뷰 : 27 
+ 판매가 : 49,000원 
+ 소비자가 : 69,000원
+
+리뷰 : 2 
+ 판매가 : 79,000원 
+ 소비자가 : 79,000원
+
+리뷰 : 43 
+ 판매가 : 69,000원 
+ 소비자가 : 69,000원
+
+리뷰 : 0 
+ 판매가 : 99,000원 
+ 소비자가 : 119,000원
+
+리뷰 : 33 
+ 판매가 : 49,000원 
+ 소비자가 : 85,000원
+
+리뷰 : 2 
+ 판매가 : 59,000원 
+ 소비자가 : 69,000원
+
+리뷰 : 4 
+ 판매가 : 49,000원 
+ 소비자가 : 49,000원
+
+리뷰 : 1 
+ 판매가 : 79,000원 
+ 소비자가 : 79,000원
+
+리뷰 : 2 
+ 판매가 : 49,000원 
+ 소비자가 : 49,000원 
+ 키워드 : [올오버]
+
+리뷰 : 1 
+ 판매가 : 59,000원 
+ 소비자가 : 59,000원
+
+리뷰 : 70 
+ 판매가 : 59,000원 
+ 소비자가 : 99,000원
+
+8333
+ 8327
+ 8402
+
+LIFEWORK CODIBOOK : VINTAGE WORKWEAR
+코듀로이 카라 디테일의 워크 재킷과 깊이감 있는 딥 버건디 와이드 팬츠. 레오파드 캡으로 위트 있는 포인트를 더한 감각적인 빈티지 스트릿 룩
+https://lifeworkstore.co.kr/cdn/styling/261016/01.jpg
+
+8272
+ 8339
+ 8418
+
+LIFEWORK CODIBOOK : UTILITY WORKWEAR
+빈티지한 카키 톤의 워크 재킷과 와이드 카고 팬츠의 조화. 실용적인 디테일과 묵직한 컬러감으로 완성하는 감각적인 스트릿 셋업 스타일링
+https://lifeworkstore.co.kr/cdn/styling/261016/02.jpg
+
+6961
+ 7983
+ 3945
+
+LIFEWORK CODIBOOK : THE OVERALL
+낙낙한 실루엣과 유틸리티 디테일. 하나만으로도 독보적인 스트릿 무드를 완성하는 오버롤 & 점프수트 컬렉션
+https://lifeworkstore.co.kr/cdn/styling/260820/02.jpg
+
+6952
+ 6850
+ 7884
+ 8238
+
+LIFEWORK CODIBOOK : THE OVERALL
+낙낙한 실루엣과 유틸리티 디테일. 하나만으로도 독보적인 스트릿 무드를 완성하는 오버롤 & 점프수트 컬렉션
+https://lifeworkstore.co.kr/cdn/styling/260820/04.jpg
+
+6813
+ 8113
+ 7705
+ 4978
+
+LIFEWORK CODIBOOK : THE OVERALL
+낙낙한 실루엣과 유틸리티 디테일. 하나만으로도 독보적인 스트릿 무드를 완성하는 오버롤 & 점프수트 컬렉션
+https://lifeworkstore.co.kr/cdn/styling/260820/03.jpg
+
+LIFEWORK CODIBOOK : THE OVERALL
+낙낙한 실루엣과 유틸리티 디테일. 하나만으로도 독보적인 스트릿 무드를 완성하는 오버롤 & 점프수트 컬렉션
+https://lifeworkstore.co.kr/cdn/styling/260820/01.jpg
+
+8171
+ 8108
+ 7746
+ 7614
+ 7258
+
+LIFEWORK CODIBOOK : THE WILD LEOPARD STREET
+과감한 레오파드 패턴과 힙한 롤업 실루엣. 자유롭고 강렬한 라이프워크만의 서머 와일드 스트릿 룩
+https://lifeworkstore.co.kr/cdn/styling/260804/04.jpg
+
+8026
+ 8008
+ 7749
+ 7258
+
+LIFEWORK CODIBOOK : THE RAW CHARCOAL UTILITY
+빈티지한 차콜 피그먼트와 묵직한 데님 카고의 만남. 감각적인 레이어드로 완성하는 거친 유틸리티 무드
+https://lifeworkstore.co.kr/cdn/styling/260804/03.jpg
+
+7873
+ 7866
+ 8145
+
+LIFEWORK CODIBOOK : THE GORPCORE UTILITY
+내추럴한 올리브 카키와 초경량 나일론 셋업. 힙한 크롭 탑과 유틸리티 악세서리가 완성하는 고감도 서머 고프코어 룩
+https://lifeworkstore.co.kr/cdn/styling/260804/02.jpg
+
+7786
+ 6875
+ 6873
+ 8145
+ 5577
+
+LIFEWORK CODIBOOK : THE LIGHT GREY TECH CARGO
+미래지향적인 라이트 그레이 윈드브레이커와 테크니컬 숏츠. 슬링백과 백팩 레이어드로 완성하는 완벽한 서머 고프코어 룩
+https://lifeworkstore.co.kr/cdn/styling/260804/011.jpg
+
+4939
+ 5994
+ 4935
+ 7258
+
+LIFEWORK CODIBOOK : THE LIGHT UTILITY
+우분 소프트 오픈카라 셔츠부터 유틸리티 카고 숏츠로 유틸성을 보여주는 섬머 룩
+https://lifeworkstore.co.kr/cdn/styling/260716/01.jpg
+
+7314
+ 8174
+ 5057
+ 5815
+
+LIFEWORK CODIBOOK : THE SUMMER RAINY STREET
+장마철 폭우 속에서도 포기할 수 없는 완벽한 아웃핏
+https://lifeworkstore.co.kr/cdn/styling/260709/01.jpg
+
+8173
+ 8115
+ 5018
+
+LIFEWORK CODIBOOK : THE DARK DEEP MINIMAL
+여름날의 묵직한 무드. 깊이 있는 버건디와 차콜이 완성하는 시크함
+https://lifeworkstore.co.kr/cdn/styling/260701/01.jpg
+
+7671
+ 6762
+ 7940
+ 6660
+ 7729
+
+LIFEWORK CODIBOOK : THE NATURAL CITY BREEZE
+단정함 속에 스며든 자유로움. 클린 화이트 셔츠와 와이드 체크 카고의 내추럴 매치
+https://lifeworkstore.co.kr/cdn/styling/260701/022.jpg
+
+3945
+ 7834
+ 6151
+ 7761
+ 5881
+
+LIFEWORK CODIBOOK : THE SUMMER CITY BOY
+네이비 체크와 클린 화이트의 조화. 한여름 도심을 채우는 청량한 시티보이 실루엣
+https://lifeworkstore.co.kr/cdn/styling/260701/033.jpg
+
+1/1
+ CODI ITEM
+
+소비자가 : 99,000원 
+ 판매가 : 69,000원
+
+소비자가 : 129,000원 
+ 판매가 : 89,000원
+
+소비자가 : 179,000원 
+ 판매가 : 99,000원
+
+소비자가 : 89,000원 
+ 판매가 : 69,000원
+
+소비자가 : 189,000원 
+ 판매가 : 99,000원
+
+소비자가 : 159,000원 
+ 판매가 : 99,000원
+
+소비자가 : 129,000원 
+ 판매가 : 99,000원
+
+소비자가 : 129,000원 
+ 판매가 : 69,000원
+
+소비자가 : 159,000원 
+ 판매가 : 79,000원
+
+COMPANY
+ 주식회사 하이드어웨이 
+ ADDRESS 
+ 서울 강남구 학동로 229 라이프워크 
+ LOGISTICS
+ 경기도 파주시 탄현면 새오리로 286번길 199 
+ 대표자
+ 김상훈 , 김문환 
+ TEL
+ 1522-9587 
+ BUSINESS LICENCE
+ 684-81-01164[사업자정보확인] 
+ MAIL-ORDER LICENSE
+ 제2018-서울강남-04075호 
+ WEBMASTER
+ 이경언 
+ COPYRIGHT (c) 주식회사 하이드어웨이
+ ALL RIGHTS RESERVED.
+
+if (hasCriteoTag() === false) {
+ window.criteo_q = window.criteo_q || [];
+ window.criteo_q.push(
+ { event: "flushEvents"},
+ { event: "setAccount", account: "102202"},
+ { event: "setSiteType", type: "d" },
+ { event: "viewPage"}
+ );
+}
+function hasCriteoTag() {
+ var currentPathRole = getPathRole();
+ if (currentPathRole === '') {
+ return true;
+ }
+ var tagImplementedPathRoles = ['MAIN','PRODUCT_LIST','PRODUCT_SEARCH','PRODUCT_DETAIL','ORDER_BASKET','ORDER_ORDERRESULT'];
+ return tagImplementedPathRoles.includes(currentPathRole);
+}
+function getPathRole() {
+ const metas = document.getElementsByTagName('meta');
+ for (let i = 0; i < metas.length; i++) {
+ if (metas[i].getAttribute('name') === 'path_role') {
+ return metas[i].getAttribute('content');
+ }
+ }
+ return '';
+}
+var email_sha256 = SHA256('');
+function SHA256(s){
+ if (s == '') {
+ return '';
+ }
+ var chrsz = 8;
+ var hexcase = 0;
+ function safe_add (x, y) {
+ var lsw = (x & 0xFFFF) + (y & 0xFFFF);
+ var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
+ return (msw << 16) | (lsw & 0xFFFF);
+ }
+ function S (X, n) { return ( X >>> n ) | (X << (32 - n)); }
+ function R (X, n) { return ( X >>> n ); }
+ function Ch(x, y, z) { return ((x & y) ^ ((~x) & z)); }
+ function Maj(x, y, z) { return ((x & y) ^ (x & z) ^ (y & z)); }
+ function Sigma0256(x) { return (S(x, 2) ^ S(x, 13) ^ S(x, 22)); }
+ function Sigma1256(x) { return (S(x, 6) ^ S(x, 11) ^ S(x, 25)); }
+ function Gamma0256(x) { return (S(x, 7) ^ S(x, 18) ^ R(x, 3)); }
+ function Gamma1256(x) { return (S(x, 17) ^ S(x, 19) ^ R(x, 10)); }
+ function core_sha256 (m, l) {
+ var K = new Array(0x428A2F98, 0x71374491, 0xB5C0FBCF, 0xE9B5DBA5, 0x3956C25B, 0x59F111F1, 
+ 0x923F82A4, 0xAB1C5ED5, 0xD807AA98, 0x12835B01, 0x243185BE, 0x550C7DC3, 
+ 0x72BE5D74, 0x80DEB1FE, 0x9BDC06A7, 0xC19BF174, 0xE49B69C1, 0xEFBE4786, 
+ 0xFC19DC6, 0x240CA1CC, 0x2DE92C6F, 0x4A7484AA, 0x5CB0A9DC, 0x76F988DA, 
+ 0x983E5152, 0xA831C66D, 0xB00327C8, 0xBF597FC7, 0xC6E00BF3, 0xD5A79147, 
+ 0x6CA6351, 0x14292967, 0x27B70A85, 0x2E1B2138, 0x4D2C6DFC, 0x53380D13, 
+ 0x650A7354, 0x766A0ABB, 0x81C2C92E, 0x92722C85, 0xA2BFE8A1, 0xA81A664B, 
+ 0xC24B8B70, 0xC76C51A3, 0xD192E819, 0xD6990624, 0xF40E3585, 0x106AA070, 
+ 0x19A4C116, 0x1E376C08, 0x2748774C, 0x34B0BCB5, 0x391C0CB3, 0x4ED8AA4A, 
+ 0x5B9CCA4F, 0x682E6FF3, 0x748F82EE, 0x78A5636F, 0x84C87814, 0x8CC70208, 
+ 0x90BEFFFA, 0xA4506CEB, 0xBEF9A3F7, 0xC67178F2);
+ var HASH = new Array(0x6A09E667, 0xBB67AE85, 0x3C6EF372, 0xA54FF53A, 0x510E527F, 0x9B05688C, 0x1F83D9AB, 0x5BE0CD19);
+ var W = new Array(64);
+ var a, b, c, d, e, f, g, h, i, j;
+ var T1, T2;
+ m[l >> 5] |= 0x80 << (24 - l % 32);
+ m[((l + 64 >> 9) << 4) + 15] = l;
+ for ( var i = 0; i<m.length; i+=16 ) {
+ a = HASH[0];
+ b = HASH[1];
+ c = HASH[2];
+ d = HASH[3];
+ e = HASH[4];
+ f = HASH[5];
+ g = HASH[6];
+ h = HASH[7];
+ for ( var j = 0; j<64; j++) {
+ if (j < 16) W[j] = m[j + i];
+ else W[j] = safe_add(safe_add(safe_add(Gamma1256(W[j - 2]), W[j - 7]), Gamma0256(W[j - 15])), W[j - 16]);
+ T1 = safe_add(safe_add(safe_add(safe_add(h, Sigma1256(e)), Ch(e, f, g)), K[j]), W[j]);
+ T2 = safe_add(Sigma0256(a), Maj(a, b, c));
+ h = g;
+ g = f;
+ f = e;
+ e = safe_add(d, T1);
+ d = c;
+ c = b;
+ b = a;
+ a = safe_add(T1, T2);
+ }
+ HASH[0] = safe_add(a, HASH[0]);
+ HASH[1] = safe_add(b, HASH[1]);
+ HASH[2] = safe_add(c, HASH[2]);
+ HASH[3] = safe_add(d, HASH[3]);
+ HASH[4] = safe_add(e, HASH[4]);
+ HASH[5] = safe_add(f, HASH[5]);
+ HASH[6] = safe_add(g, HASH[6]);
+ HASH[7] = safe_add(h, HASH[7]);
+ }
+ return HASH;
+ }
+ function str2binb (str) {
+ var bin = Array();
+ var mask = (1 << chrsz) - 1;
+ for(var i = 0; i < str.length * chrsz; i += chrsz) {
+ bin[i>>5] |= (str.charCodeAt(i / chrsz) & mask) << (24 - i%32);
+ }
+ return bin;
+ }
+ function Utf8Encode(string) {
+ string = string.replace(/\r\n/g,"\n");
+ var utftext = "";
+ for (var n = 0; n < string.length; n++) {
+ var c = string.charCodeAt(n);
+ if (c < 128) {
+ utftext += String.fromCharCode(c);
+ }
+ else if((c > 127) && (c < 2048)) {
+ utftext += String.fromCharCode((c >> 6) | 192);
+ utftext += String.fromCharCode((c & 63) | 128);
+ }
+ else {
+ utftext += String.fromCharCode((c >> 12) | 224);
+ utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+ utftext += String.fromCharCode((c & 63) | 128);
+ }
+ }
+ return utftext;
+ }
+ function binb2hex (binarray) {
+ var hex_tab = hexcase ? "0123456789ABCDEF" : "0123456789abcdef";
+ var str = "";
+ for(var i = 0; i < binarray.length * 4; i++) {
+ str += hex_tab.charAt((binarray[i>>2] >> ((3 - i%4)*8+4)) & 0xF) +
+ hex_tab.charAt((binarray[i>>2] >> ((3 - i%4)*8 )) & 0xF);
+ }
+ return str;
+ }
+ s = Utf8Encode(s);
+ return binb2hex(core_sha256(str2binb(s), s.length * chrsz));
+ }
+
+window.criteo_q = window.criteo_q || [];
+window.criteo_q.push(
+ { event: "flushEvents"},
+ { event: "setAccount", account: "102202"},
+ { event: "setEmail", email: email_sha256, hash_method: "sha256" },
+ { event: "setSiteType", type: "d" },
+ { event: "viewHome" }
+);
+
+kakaoPixel('236056660775582673').pageView();
+ kakaoPixel.setServiceOrigin('20001');
+
+var meta = document.createElement('meta');
+meta.name = "referrer";
+meta.content = "unsafe-url";
+document.getElementsByTagName('head')[0].appendChild(meta);
+
+var wp_conf = 'ti=54547&v=1&device=web';
+
+Instagram에서 보기
+ lifework.official
+ 📌 피드에 태그된 상품
+ 📌 피드에 태그된 상품
+ Instagram에서 보기
+ lifework.official
+ 📌 피드에 태그된 상품
+ 📌 피드에 태그된 상품
+ Instagram에서 보기
+ lifework.official
+ 📌 피드에 태그된 상품
+ 📌 피드에 태그된 상품
+ Instagram에서 보기
+ lifework.official
+ 📌 피드에 태그된 상품
+ 📌 피드에 태그된 상품
+ Instagram에서 보기
+ lifework.official
+ 📌 피드에 태그된 상품
+ 📌 피드에 태그된 상품
+ Instagram에서 보기
+ lifework.official
+ 📌 피드에 태그된 상품
+ 📌 피드에 태그된 상품
+
+----- 이미지 대체텍스트 (img alt) -----
+공용 PU 레더 빈티지 A-2 항공 점퍼 - 빈티지 무드 레더 항공 점퍼 제품 이미지
+기획) 공용) MA-1 힙독 후드 항공점퍼 - 후드가 달린 MA-1 항공점퍼 제품 이미지
+공용) 2PACK 베이직 반팔 티셔츠
+공용) L2 풀밴딩 워시드 데님 팬츠
+여성) LW3 빈티지 밴딩 스트레이트 팬츠
+뉴 다트 2WAY 하프문 크로스 힙색

@@ -1,0 +1,42 @@
+{
+  "slug": "descente",
+  "name": "데쌍트",
+  "aliases": [
+    "데상트 고객센터",
+    "데상트코리아",
+    "DESCENTE",
+    "데쌍트 고객센터",
+    "데상트 환불"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.descentekorea.co.kr",
+  "sourceUrl": "https://www.descentekorea.co.kr/",
+  "sourceName": "데상트코리아 공식 E-SHOP",
+  "verifiedAt": "2026-10-22",
+  "corp": "데상트코리아 주식회사",
+  "hq": "서울시 송파구 올림픽로 300 롯데월드타워 32층",
+  "main": {
+    "label": "고객센터 (대표번호)",
+    "tel": "080-565-5600"
+  },
+  "hours": {
+    "weekday": "평일 10:00 ~ 17:00",
+    "lunch": "Lunch 12:30~13:30"
+  },
+  "hoursNote": "[2026-10-22] 데상트코리아 공식 E-SHOP(descentekorea.co.kr) 하단: 데상트코리아(주) 대표번호: 080-565-5600 주소: 서울시 송파구 올림픽로 300 롯데월드타워 32층, 고객센터 080-565-5600 평일 10:00 ~ 17:00 (Lunch 12:30~13:30), 1:1 채팅문의는 우측 하단 아이콘. 로고가 검정이라 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 (대표번호)",
+      "tel": "080-565-5600",
+      "note": "평일 10:00~17:00, 점심 12:30~13:30"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터 (대표번호)'로 적힌 번호입니다."
+}

@@ -1,0 +1,337 @@
+SLUG: hazzys-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/hazzys-call-center-*.png)
+
+===== [1] https://www.hazzys.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/hazzys-call-center-1.png
+CHARS: 2234
+
+해리와 떠나는 가을 기차 여행
+해리와 떠나는 가을 기차 여행
+해리와 떠나는 가을 기차 여행
+배너 닫기
+EN
+CN
+검색
+매장안내
+로그인
+회원가입
+헤지스블루
+LADIES
+MEN
+ACC
+GOLF
+KIDS
+HIS
+HAZZYS HARRY
+LOOKBOOK
+DISCOVER
+ABOUT ‘H’
+LADIES
+전체보기
+BEST
+MEN
+전체보기
+BEST
+ACC
+전체보기
+BEST
+GOLF
+전체보기
+BEST
+KIDS
+KIDS HOME
+HIS
+HIS HOME
+LOOKBOOK
+여성의류
+전체
+아우터
+니트/스웨터
+셔츠/블라우스
+티셔츠
+원피스
+팬츠
+스커트
+COLLECTION
+NOVA COLLECTION
+데님 핏 가이드
+STAY WARM
+HAZZYS HARRY
+
+인플루언서PICK
+스웨이드 아우터
+
+상세보기
+
+HAZZYS X BASTONG
+클래식 아우터의 정수
+
+상세보기
+남성의류
+전체
+점퍼
+코트
+자켓/베스트
+니트/스웨터
+가디건
+셔츠
+티셔츠
+팬츠
+COLLECTION
+록키마운틴 콜라보
+BARON SUEDE
+HIS HAZZYS
+HAZZYS HARRY
+
+HAZZYS X BASTONG
+클래식 아우터의 정수
+
+상세보기
+
+NOVA COLLECTION
+프리미엄 구스 다운
+
+상세보기
+여성가방/잡화
+전체
+가방
+지갑
+벨트
+스카프/머플러
+모자
+양말
+장갑
+키링/키홀더
+기타ACC
+ 
+남성가방/잡화
+전체
+가방
+지갑
+벨트
+스카프/머플러
+모자
+양말
+장갑
+키링/키홀더
+기타ACC
+ 
+생활
+전체
+반려용품
+프래그런스
+키친
+
+THEIR AUTUMN PICK
+가을 스타일을 완성하는 ACC
+
+상세보기
+
+일본 장인 공방과 완성한
+MAROQUINERIE 컬렉션
+
+상세보기
+남성골프웨어
+전체
+니트/스웨터/가디건
+긴팔티셔츠
+점퍼
+다운/패딩점퍼
+긴바지
+ 
+여성골프웨어
+전체
+니트/스웨터/가디건
+긴팔티셔츠
+원피스
+점퍼
+다운/패딩점퍼
+긴바지
+반바지
+치마
+ 
+골프백
+전체
+캐디백
+보스톤백
+토트/크로스백/숄더백
+파우치
+ 
+골프용품
+전체
+골프양말
+골프모자
+골프장갑
+골프벨트
+방한용품
+ 
+골프화
+전체
+여성골프화
+남성골프화
+
+인플루언서's PICK
+이번 가을, 라운딩을 더 특별하게
+
+상세보기
+
+26FW NEW ARRIVALS
+필드 위, 선선함을 느낄 계절
+
+상세보기
+아동
+전체
+아우터
+니트웨어
+티셔츠
+셔츠
+원피스
+팬츠/스커트
+상하 세트
+모자
+COLLECTION
+Knit Together
+THE GOLDEN LINE
+NOVA COLLECTION
+OUTLET
+
+함께 매치하는 순간
+Knit Together
+
+상세보기
+
+가을부터 겨울까지,
+KIDS OUTER BEST
+
+상세보기
+남성
+전체
+아우터
+니트웨어
+셔츠
+티셔츠
+팬츠
+ 
+여성
+전체
+아우터
+니트웨어
+셔츠
+티셔츠
+팬츠
+스커트
+원피스
+백
+26FW KIDS GOLDEN LINE
+26FW HAZZYS BLUE
+26SS KIDS
+26SS HAZZYS BLUE
+26SS HIS HAZZYS
+26SS SLOANE RANGER
+25FW ICONIC
+25FW HIS HAZZYS LOOKBOOK
+25FW HIS HAZZYS CAMPAIGN
+25SS GUERNSEY
+25SS ICONIC 'PQ T-SHIRTS'
+25SS ICONIC 'SHORT SLEEVE KNIT'
+25SS ICONIC 'SHIRTS'
+25SS ICONIC 'KNITWEAR'
+
+2
+/
+6
+view
+
+NOVA COLLECTION
+
+헤지스 프리미엄 다운 컬렉션
+
+VIEW NOW
+HAZZYS X ROCKY MOUNTAIN
+
+시간이 지나도 변하지 않는 상징적인 디자인
+
+VIEW NOW
+view
+
+26FW HAZZYS BLUE
+
+같은 데님, 다른 태도
+
+VIEW NOW
+WITH HAZZYS
+HAZZYS.COM BENEFIT GUIDE
+헤지스 멤버가 되고 최대 15% 할인 혜택을 받아보세요.
+HAZZYS DENIM GUIDE
+취향과 계절에 따라 나에게 맞는 데님을 찾아보세요.
+HAZZYS HARRY : THE GOLDEN LINE
+헤지스의 마스코트 '해리'와 떠나는 가을, 겨울 영국 기차여행에 함께하세요.
+메인 공지 팝업
+오늘 하루 보지 않기
+닫기
+
+(주) LF
+
+대표이사: 김상균
+주소: 서울 강남구 언주로 870
+1544-5114
+(유료)
+lfcs@lfcorp.com
+통신판매업신고 : 제2010-서울강남-00066호
+사업자등록번호 :
+211-87-87724
+사업자 정보확인
+우리은행 구매안전 서비스
+서비스 가입사실 확인
+
+© 2023 HAZZYS ALL RIGHTS RESERVED.
+
+NOTICE
+공지사항
+이용약관
+개인정보 처리방침
+읽기쉬운 개인정보처리방침
+HELP
+고객센터
+패밀리인증
+APP
+다운로드
+
+인스타그램
+틱톡
+유튜브
+페이스북
+카카오 플러스 친구
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+로그인
+ 회원가입
+ 닫기
+
+카카오톡 고객센터
+ 최근 본 상품
+ 맨 위로 이동
+
+메인 전체보기
+ 팝업 닫기
+
+다른 브라우저를 사용해주세요.
+ 사용하고 계신 브라우저가Internet Explorer인 경우 헤지스닷컴에서의일부 기능 및 결제 서비스가 정상적으로 작동하지 않을 수 있습니다.
+ 헤지스닷컴에서의 원활한 쇼핑을 위해아래 브라우저 사용을 권장드립니다.
+ 크롬(Chrome) 엣지(신버전) 사파리(Safari) 웨일(Whale)
+ 네 다른 브라우저를 사용할게요.
+ 팝업 닫기
+
+검색
+ 삭제
+ 검색
+ 최근 검색어
+ 최근 검색어가 없습니다.
+ 전체 삭제
+ 추천 검색어
+ 추천 검색어가 없습니다.
+ 인기 검색어 2022.05.17 기준
+ 팝업 닫기

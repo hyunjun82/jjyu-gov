@@ -1,0 +1,47 @@
+{
+  "slug": "swarovski-korea",
+  "name": "스와로브스키 코리아",
+  "aliases": [
+    "스와로브스키 고객센터",
+    "Swarovski",
+    "스와로브스키코리아",
+    "스와로브스키 환불",
+    "스와로브스키 AS"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.swarovski.com/ko-KR/",
+  "sourceUrl": "https://www.swarovski.com/ko-KR/contact/",
+  "sourceName": "스와로브스키 코리아 공식 온라인 스토어",
+  "verifiedAt": "2026-10-22",
+  "corp": "㈜ 스와로브스키코리아",
+  "hq": "서울시 강남구 도산대로 456 (청담동 백영빌딩 10-12층)",
+  "hqZip": "06062",
+  "main": {
+    "label": "고객센터",
+    "tel": "1522-9065"
+  },
+  "hours": {
+    "weekday": "월요일 –금요일 10:00 – 18:00"
+  },
+  "hoursNote": "[2026-10-22] 스와로브스키 코리아 공식 온라인 스토어 연락처 페이지(swarovski.com/ko-KR/contact): 전화 영업시간: 월요일 –금요일 10:00 – 18:00, 전화: 1522 9065, 하단 ㈜ 스와로브스키코리아 서울시 강남구 도산대로 456 (청담동 백영빌딩 10-12층) 06062, 대표번호 1661-9060 | 고객센터 1522-9065. Playwright 가 swarovski.com 을 못 열어 사용자 크롬(claude-in-chrome)으로 본 페이지의 해당 줄을 발췌해 추출본으로 저장. 로고가 검정이라 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1522-9065",
+      "note": "월~금 10:00~18:00"
+    },
+    {
+      "label": "대표번호",
+      "tel": "1661-9060"
+    }
+  ],
+  "numbersIntro": "고객센터와 대표번호가 함께 안내되어 있습니다. 주문·상품 문의는 고객센터 번호로 거시면 됩니다.",
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

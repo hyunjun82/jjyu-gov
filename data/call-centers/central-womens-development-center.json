@@ -1,0 +1,39 @@
+{
+  "slug": "central-womens-development-center",
+  "name": "중부여성발전센터",
+  "aliases": [
+    "서울특별시 중부여성발전센터",
+    "중부여성발전센터 전화번호",
+    "중부여성발전센터 고객센터",
+    "서울시여성능력개발원 중부여성발전센터",
+    "중부여성발전센터 교육 문의"
+  ],
+  "industry": "public",
+  "brandColor": "#6FB781",
+  "official": "https://jungbu.seoulcareerup.or.kr",
+  "sourceUrl": "https://jungbu.seoulcareerup.or.kr/",
+  "sourceName": "서울특별시 중부여성발전센터 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "대표 전화",
+    "tel": "02-719-6307"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 서울특별시 중부여성발전센터 공식 홈페이지(jungbu.seoulcareerup.or.kr) 하단: 회사주소 및 정보 서울특별시 마포구 토정로35길 17, 대표 : 조효은, 전화 : 02-719-6307~8, 팩스 : 02-719-6309, 이메일 : jungbu@scup.or.kr. 원문은 6307~8 로 줄여 적어 tel 은 앞 번호만 적는다. 홈 하단에 상담시간 표기가 없어 hours 를 비운다. 브랜드색은 캡처 헤더 최빈 유채색.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표 전화 (원문 6307~8)",
+      "tel": "02-719-6307"
+    }
+  ],
+  "hq": "서울특별시 마포구 토정로35길 17",
+  "variant": "facility",
+  "jobs": "센터 이용 문의",
+  "jobsSentence": "공식 안내에 '대표 전화'로 적힌 번호입니다."
+}

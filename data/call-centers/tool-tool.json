@@ -1,0 +1,43 @@
+{
+  "slug": "tool-tool",
+  "name": "툴앤샵",
+  "aliases": [
+    "툴앤툴 고객센터",
+    "툴앤툴",
+    "toolnshop",
+    "툴앤샵 고객센터",
+    "툴앤샵 전화번호"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.toolnshop.co.kr",
+  "sourceUrl": "https://www.toolnshop.co.kr/Comm/Talk_qna/?B_mode=R&b_num=172&url=%2FComm%2FTalk_qna%2F%3Fpage%3D108",
+  "sourceName": "툴앤샵 공식 쇼핑몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "툴앤샵",
+  "hq": "대구광역시 서구 북비산로81길 1번지 (비산동)",
+  "main": {
+    "label": "고객 만족센터",
+    "tel": "0707-506-0909"
+  },
+  "hours": {
+    "weekday": "오전 9:30 ~ 오후 5시까지",
+    "holiday": "(공휴일 및 토요일 휴무)"
+  },
+  "hoursNote": "[2026-10-22] 툴앤샵 공식 쇼핑몰(toolnshop.co.kr) 하단: [고객 만족센터] 전화 : 0707-506-0909 팩스 : 0707-506-0912 [운영시간] 오전 9:30 ~ 오후 5시까지 (공휴일 및 토요일 휴무), 상호 : 툴앤샵, 사업자번호 : 504-18-11305, 주소 : 대구광역시 서구 북비산로81길 1번지 (비산동), 이메일 : toolnshop@toolnshop.kr. 상호는 '툴앤샵'이라 글 이름은 툴앤샵으로 쓰고 검색어 '툴앤툴'은 별칭에 둔다. 페이지 본문의 견적 Q&A 글은 쓰지 않는다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "jobs": "공구 주문·배송 문의, 견적, 교환·반품",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객 만족센터",
+      "tel": "0707-506-0909",
+      "note": "오전 9:30~오후 5시, 토요일·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객 만족센터'로 적힌 번호입니다."
+}

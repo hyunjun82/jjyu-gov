@@ -1,0 +1,17 @@
+{
+  "slug": "kitchen-art",
+  "keyword": "키친아트 고객센터",
+  "title": "키친아트 고객센터 전화번호 및 상담 연결·운영시간 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "키친아트 고객센터 전화번호 모음",
+    "키친아트 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "키친아트 고객센터 위치",
+    "키친아트 고객센터 지역별로 찾기"
+  ],
+  "source": "http://kitchenart.co.kr/main",
+  "outline": "data/call-centers/kitchen-art.json",
+  "approved": true,
+  "approvedAt": "2026-10-22"
+}

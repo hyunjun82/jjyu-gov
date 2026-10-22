@@ -1,0 +1,17 @@
+{
+  "slug": "yujin-robot",
+  "keyword": "유진로봇 고객센터",
+  "title": "유진로봇 고객센터 전화번호 및 상담 연결·운영시간 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "유진로봇 고객센터 전화번호 모음",
+    "유진로봇 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "유진로봇 고객센터 위치",
+    "유진로봇 고객센터 지역별로 찾기"
+  ],
+  "source": "https://yujinrobotshop.com/m/board.html?code=iclebo_board6&page=11&type=v&board_cate=&num1=999939&num2=00000&number=61&lock=N",
+  "outline": "data/call-centers/yujin-robot.json",
+  "approved": true,
+  "approvedAt": "2026-10-22"
+}

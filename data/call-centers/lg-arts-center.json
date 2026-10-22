@@ -1,0 +1,41 @@
+{
+  "slug": "lg-arts-center",
+  "name": "LG아트센터",
+  "aliases": [
+    "LG아트센터 서울",
+    "LG ARTS CENTER",
+    "엘지아트센터",
+    "LG아트센터 예매 문의"
+  ],
+  "industry": "online",
+  "brandColor": "#C80000",
+  "official": "https://www.lgart.com",
+  "sourceUrl": "https://www.lgart.com/",
+  "sourceName": "LG아트센터 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "LG아트센터",
+  "hq": "서울특별시 강서구 마곡중앙로 136(마곡동, LG아트센터 서울)",
+  "main": {
+    "label": "대표번호",
+    "tel": "1661-0017"
+  },
+  "hours": {
+    "weekday": "평일 화-금, 10:30am-6pm"
+  },
+  "hoursNote": "[2026-10-22] LG아트센터 홈 푸터: 상호: LG아트센터, 대표번호: 1661-0017, 사업장주소: 서울특별시 강서구 마곡중앙로 136(마곡동, LG아트센터 서울). Tel 1661-0017(평일 화-금, 10:30am-6pm). 로고는 검정이라 헤더에서 유일한 유채색인 검색 버튼(#C80000)을 브랜드색으로 쓴다.",
+  "idStep": "예매번호와 회원 아이디",
+  "jobs": "공연 예매 문의, 취소·환불, 회원 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "1661-0017",
+      "note": "평일 화-금, 10:30am-6pm"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

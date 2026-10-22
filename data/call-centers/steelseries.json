@@ -1,0 +1,41 @@
+{
+  "slug": "steelseries",
+  "name": "스틸시리즈",
+  "aliases": [
+    "스틸시리즈 고객센터",
+    "SteelSeries",
+    "스틸시리즈 AS",
+    "엠앤웍스 서비스센터",
+    "스틸시리즈 코리아"
+  ],
+  "industry": "appliance",
+  "brandColor": "#ED6F03",
+  "official": "https://mnworkscs.co.kr",
+  "sourceUrl": "https://mnworkscs.co.kr/faq",
+  "sourceName": "(주)엠앤웍스 공식 서비스센터(스틸시리즈)",
+  "verifiedAt": "2026-10-22",
+  "corp": "주식회사 (주) 엠앤웍스",
+  "hq": "서울특별시 서초구 남부순환로 315길 21 (엠앤케이빌딩) 4층",
+  "main": {
+    "label": "(주)엠앤웍스 공식 서비스센터",
+    "tel": "070-4125-0677"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] (주)엠앤웍스 공식 서비스센터 FAQ(mnworkscs.co.kr/faq): 제품 문제가 해결되지 않으면 온라인 AS 접수, 이메일·전화·실시간 상담, (주)엠앤웍스 공식 서비스센터 070-4125-0677 cs@mnworks.co.kr, 서울특별시 서초구 남부순환로 315길 21 (엠앤케이빌딩) 4층. 이 페이지에 전화 상담시간 표기가 없어 hours 를 비운다('고객 센터 운영 시간이 어떻게 될까요?' 문항은 목록 제목만 보임). 스틸시리즈 한국 서비스는 엠앤웍스가 맡는다. 브랜드색은 캡처 헤더 최빈 유채색(주황).",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "(주)엠앤웍스 공식 서비스센터",
+      "tel": "070-4125-0677"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '(주)엠앤웍스 공식 서비스센터'로 적힌 번호입니다."
+}

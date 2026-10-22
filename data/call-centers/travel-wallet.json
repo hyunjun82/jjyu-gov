@@ -1,0 +1,40 @@
+{
+  "slug": "travel-wallet",
+  "name": "트래블월렛",
+  "aliases": [
+    "트래블월렛 고객센터",
+    "Travel Wallet",
+    "트래블월렛 전화번호",
+    "트래블월렛 카드 분실",
+    "트래블월렛 문의"
+  ],
+  "industry": "online",
+  "brandColor": "#397BC3",
+  "official": "https://www.travel-wallet.com",
+  "sourceUrl": "https://www.travel-wallet.com/ko/docs/safety",
+  "sourceName": "트래블월렛 이용자고충처리방침",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)트래블월렛",
+  "main": {
+    "label": "문의 전화",
+    "tel": "02-522-0400"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 트래블월렛 이용자고충처리방침(travel-wallet.com/ko/docs/safety): 이용방법 이메일(support@travel-wallet.com) 전화(02-522-0400) 카카오톡(@Travel Wallet), 3. 문의 02-522-0400, 분쟁처리 전화: 02-522-0400. 페이지에 상담시간·주소 표기가 없어 hours·hq 를 비운다. 카드 분실·사고 신고 전용 번호는 이 페이지에 없어 글에서도 쓰지 않는다. 브랜드색은 캡처 헤더 유채색 측정값.",
+  "idStep": "가입한 이메일과 카드 뒷자리",
+  "jobs": "서비스 이용 문의, 카드·환전 관련 고충 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "문의 전화",
+      "tel": "02-522-0400"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '문의 전화'로 적힌 번호입니다."
+}

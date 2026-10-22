@@ -1,0 +1,43 @@
+{
+  "slug": "fint",
+  "name": "핀트",
+  "aliases": [
+    "핀트 고객센터",
+    "Fint",
+    "디셈버앤컴퍼니",
+    "핀트 AI 투자",
+    "핀트 로보어드바이저"
+  ],
+  "industry": "online",
+  "brandColor": "#032145",
+  "official": "https://www.fint.co.kr",
+  "sourceUrl": "https://www.fint.co.kr/",
+  "sourceName": "핀트 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "주식회사 디셈버앤컴퍼니",
+  "hq": "서울시 강남구 삼성로 507 JS타워 2층",
+  "hqZip": "06158",
+  "main": {
+    "label": "고객지원",
+    "tel": "1644-8880"
+  },
+  "hours": {
+    "weekday": "평일 09:00 - 17:00"
+  },
+  "hoursNote": "[2026-10-22] 핀트 공식 홈페이지(fint.co.kr) 하단: 주식회사 디셈버앤컴퍼니 서울시 강남구 삼성로 507 JS타워 2층 (우) 06158, 고객지원 1644-8880 (평일 09:00 - 17:00), 카카오톡 채널 @fint, 제휴 문의 inquiry@dco.com. 브랜드색은 캡처 헤더 유채색(진한 남색).",
+  "idStep": "가입한 휴대폰 번호와 이름",
+  "jobs": "서비스 이용 문의, 계정 문제",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원",
+      "tel": "1644-8880",
+      "note": "평일 09:00~17:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객지원'로 적힌 번호입니다."
+}

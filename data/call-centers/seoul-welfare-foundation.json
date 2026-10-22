@@ -1,0 +1,45 @@
+{
+  "slug": "seoul-welfare-foundation",
+  "name": "서울시복지재단",
+  "aliases": [
+    "서울시복지재단 고객센터",
+    "서울시복지재단 전화번호",
+    "Seoul Welfare Foundation",
+    "안심돌봄 120",
+    "서울시복지재단 대표전화"
+  ],
+  "industry": "public",
+  "brandColor": "#035769",
+  "official": "https://www.welfare.seoul.kr",
+  "sourceUrl": "https://www.welfare.seoul.kr/",
+  "sourceName": "서울시복지재단 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "대표 전화",
+    "tel": "02-1670-5755"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 서울시복지재단 공식 홈페이지(welfare.seoul.kr) 하단: 서울시 마포구 백범로 31길 21 (우 04147) TEL : 02-1670-5755 FAX : 02-6020-9680 사업자등록번호 : 101-82-11257. 돌봄전문콜센터 안심돌봄 120: 돌봄이 필요한 서울시민은 혼자 고민하지말고 1688-0120으로 전화하세요. 하단·홈에 상담시간 표기가 없어 hours 를 비운다. 브랜드색은 캡처 헤더 최빈 유채색.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표 전화",
+      "tel": "02-1670-5755"
+    },
+    {
+      "label": "돌봄전문콜센터 안심돌봄 120",
+      "tel": "1688-0120"
+    }
+  ],
+  "hq": "서울시 마포구 백범로 31길 21",
+  "hqZip": "04147",
+  "numbersIntro": "재단 대표 전화와 돌봄전문콜센터 안심돌봄 120 번호가 따로 안내되어 있습니다.",
+  "variant": "facility",
+  "jobs": "재단 업무 문의",
+  "jobsSentence": "공식 안내에 '대표 전화'로 적힌 번호입니다."
+}

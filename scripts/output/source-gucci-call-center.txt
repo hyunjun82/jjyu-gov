@@ -1,0 +1,11 @@
+SLUG: gucci-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: claude-in-chrome (사용자 크롬 실브라우저 — 페이지 본문 중 번호·운영시간·연락 방법 줄만 발췌. Playwright 는 gucci.com 이 차단)
+URL: https://www.gucci.com/kr/ko/contact-us
+
+클라이언트 서비스센터
+클라이언트서비스센터 02-3452-1921 메일 문의
+clientservice.kr@gucci.com
+전화하기 02.3452.1921
+월요일 ~ 일요일, 오전 10시 ~ 오후 7시
+카카오톡 상담하기

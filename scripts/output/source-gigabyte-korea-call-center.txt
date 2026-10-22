@@ -1,0 +1,71 @@
+SLUG: gigabyte-korea-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/gigabyte-korea-call-center-*.png)
+
+===== [1] https://service-laptop.gigabyte.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/gigabyte-korea-call-center-1.png
+CHARS: 389
+
+팝업레이어 알림
+팝업레이어 알림이 없습니다.
+본문 바로가기
+제품
+AERO Series
+AORUS Series
+GIGABYTE Gaming
+고객지원
+서비스안내
+이메일 문의
+전국 서비스센터
+전국 판매점 안내
+커뮤니티
+공지사항
+이벤트
+페이스북
+다운로드
+다운로드
+
+서비스센터 위치 
+다운로드 자료실 
+공지사항 
+이벤트 
+이메일 상담
+  
+GIGABYTE 소개
+연혁
+투자자
+사회적 책임
+ 뉴스
+수상내역
+동영상
+뉴스룸
+    
+서비스 이용약관
+개인정보 처리방침
+이메일무단수집거부
+사이트맵
+서울시 용산구 청파로74 용산전자랜드 신관 5층 503호
+Tel : 1544-8166
+Copyright © 2020 Copylight© GIGABYTE Technology.LLC ALL RIGHTS RESERVED.
+↑
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+메뉴열기
+ 제품
+ AERO Series
+ AORUS Series
+ GIGABYTE Gaming
+ 고객지원
+ 서비스안내
+ 이메일 문의
+ 전국 서비스센터
+ 전국 판매점 안내
+ 커뮤니티
+ 공지사항
+ 이벤트
+ 페이스북
+ 다운로드
+ 다운로드
+ 메뉴닫기

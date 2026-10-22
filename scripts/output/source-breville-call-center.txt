@@ -1,0 +1,9 @@
+SLUG: breville-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: claude-in-chrome (사용자 크롬 실브라우저 — 보증 및 수리 페이지 본문 중 연락처 줄 발췌. Playwright 는 breville.com 을 못 연다)
+URL: https://www.breville.com/ko-kr/support/warranty
+
+보증 및 수리
+브레빌코리아는 당사 및 기존 공식 수입/유통사를 통해 판매한 제품에 대해 수리 및 고객 지원 서비스를 제공합니다(병행 및 해외 직구 제외).
+사용하시는 브레빌 제품과 관련하여 지원을 받거나, 보증을 청구하거나, 본 보증의 인쇄본을 요청하려면 여기에서 지원 페이지를 방문하거나, 브레빌 고객 관리팀(080-822-1691)에 전화로 문의하시기 바랍니다.
+브레빌 고객 관리팀: 080-822-1691 지원 페이지: https://www.breville.com/ko-kr/producthub

@@ -1,0 +1,40 @@
+{
+  "slug": "hanmi-towel",
+  "name": "한미타올",
+  "aliases": [
+    "한미타올 고객센터",
+    "한미타올 온라인전국판매점",
+    "HANMITOWEL",
+    "한미타올 전화번호",
+    "한미타올 환불"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.hanmitowel.net",
+  "sourceUrl": "https://www.hanmitowel.net/notice?page=6",
+  "sourceName": "한미타올 온라인전국판매점 공식 쇼핑몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "한미타올 온라인전국판매점",
+  "hq": "대전광역시 서구 도산로 310 (가장동 49-10)",
+  "main": {
+    "label": "대표번호",
+    "tel": "042-528-8030"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 한미타올 온라인전국판매점 쇼핑몰(hanmitowel.net) 하단: 상호 : 한미타올 온라인전국판매점 주소 : 대전광역시 서구 도산로 310 (가장동 49-10) 대표 : 최준기, 대표번호 : 042-528-8030 팩스번호 : 042-528-2338 이메일 : towel7@naver.com. 하단에 상담시간 표기가 없어 hours 를 비운다. 한미타올 본사·다른 쇼핑몰(hanmitowel.kr 서울본점 02-2275-1232, 대전 본사 042.625.4141~4)은 번호가 달라 이 글에는 쓰지 않는다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "042-528-8030"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

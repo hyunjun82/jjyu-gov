@@ -1,0 +1,42 @@
+{
+  "slug": "nintendo-switch",
+  "name": "닌텐도 스위치",
+  "aliases": [
+    "닌텐도 스위치 고객센터",
+    "한국닌텐도",
+    "닌텐도 AS",
+    "닌텐도 스위치 AS",
+    "Nintendo Switch"
+  ],
+  "industry": "appliance",
+  "brandColor": "#E70315",
+  "official": "https://www.nintendo.co.kr",
+  "sourceUrl": "https://www.nintendo.co.kr/",
+  "sourceName": "한국닌텐도 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "한국닌텐도주식회사",
+  "main": {
+    "label": "고객지원 문의전화",
+    "tel": "1670-9900"
+  },
+  "hours": {
+    "weekday": "평일 오전 9시 30분~오후 5시 30분",
+    "holiday": "토/일/공휴일/회사 정기휴일 및 특별휴일 제외"
+  },
+  "hoursNote": "[2026-10-22] 한국닌텐도 공식 홈페이지(nintendo.co.kr) 하단: 고객지원 문의전화 : 1670-9900 (평일 오전 9시 30분~오후 5시 30분) ※토/일/공휴일/회사 정기휴일 및 특별휴일 제외, 한국닌텐도주식회사. 본사 주소는 하단에 없어 hq 를 비운다. 브랜드색은 캡처 헤더 최빈 유채색(빨강).",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원 문의전화",
+      "tel": "1670-9900",
+      "note": "평일 오전 9시 30분~오후 5시 30분"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객지원 문의전화'로 적힌 번호입니다."
+}

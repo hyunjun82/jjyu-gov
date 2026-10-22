@@ -1,0 +1,40 @@
+{
+  "slug": "life-work",
+  "name": "라이프워크",
+  "aliases": [
+    "라이프워크 고객센터",
+    "LIFEWORK",
+    "하이드어웨이",
+    "라이프워크 환불",
+    "라이프워크 교환 반품"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://lifeworkstore.co.kr",
+  "sourceUrl": "https://lifeworkstore.co.kr/",
+  "sourceName": "라이프워크 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "주식회사 하이드어웨이",
+  "hq": "서울 강남구 학동로 229 라이프워크",
+  "main": {
+    "label": "고객센터",
+    "tel": "1522-9587"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 라이프워크 공식몰(lifeworkstore.co.kr) 하단: COMPANY 주식회사 하이드어웨이, ADDRESS 서울 강남구 학동로 229 라이프워크, LOGISTICS 경기도 파주시 탄현면 새오리로 286번길 199, 대표자 김상훈, 김문환, TEL 1522-9587. 홈 하단에 상담시간 표기가 없고 고객센터 안내 페이지가 열리지 않아(404) hours 를 비운다(구글 요약의 월-금 10:00-17:00 은 확인 못 해 쓰지 않는다). 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1522-9587"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

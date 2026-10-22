@@ -154,6 +154,7 @@ export const insuranceCallCenterPolicy = {
 } as const;
 
 export const insuranceCallCenterSpokes = [
+  { slug: 'construction-workers-mutual-aid-association', role: 'eligibility', title: '건설근로자공제회 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'yellow-umbrella', role: 'eligibility', title: '노란우산공제 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'cgbest', role: 'eligibility', title: '건설공제조합 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },
   { slug: 'mmaa', role: 'eligibility', title: '군인공제회 고객센터 전화번호 및 빠른 상담사 연결·위치 안내' },

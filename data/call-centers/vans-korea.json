@@ -1,0 +1,41 @@
+{
+  "slug": "vans-korea",
+  "name": "반스코리아",
+  "aliases": [
+    "반스 고객센터",
+    "VANS",
+    "반스 코리아",
+    "브이에프코리아",
+    "반스 환불"
+  ],
+  "industry": "online",
+  "brandColor": "#050505",
+  "official": "https://www.vans.co.kr",
+  "sourceUrl": "https://www.vans.co.kr/",
+  "sourceName": "반스 코리아 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "유한책임회사 브이에프코리아",
+  "hq": "서울특별시 강남구 강남대로 652, 14-15층",
+  "main": {
+    "label": "고객센터",
+    "tel": "1522-1882"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00"
+  },
+  "hoursNote": "[2026-10-22] 반스 코리아 공식몰(vans.co.kr) 하단: 유한책임회사 브이에프코리아, 서울특별시 강남구 강남대로 652, 14-15층, 고객센터(평일 09:00 ~ 18:00) 1522-1882, 이메일 Vanskr_online@vfc.com. 로고가 검정이라 캡처 헤더의 어두운 색 평균을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1522-1882",
+      "note": "평일 09:00~18:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

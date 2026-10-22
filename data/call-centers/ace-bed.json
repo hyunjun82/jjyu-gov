@@ -1,0 +1,47 @@
+{
+  "slug": "ace-bed",
+  "name": "에이스침대",
+  "aliases": [
+    "에이스침대 고객센터",
+    "ACE BED",
+    "에이스침대 AS",
+    "에이스침대 A/S센터",
+    "에이스침대몰"
+  ],
+  "industry": "appliance",
+  "brandColor": "#00ACDC",
+  "official": "https://acebedmall.co.kr",
+  "sourceUrl": "https://acebedmall.co.kr/",
+  "sourceName": "에이스침대몰 공식 쇼핑몰",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "고객센터",
+    "tel": "1599-7121"
+  },
+  "hours": {
+    "weekday": "평일 09:30~18:30",
+    "holiday": "(토요일,공휴일 휴무)"
+  },
+  "hoursNote": "[2026-10-22] 에이스침대몰(acebedmall.co.kr) 하단: 고객센터1599-7121, A/S센터080-735-7123, 평일 09:30~18:30 (토요일,공휴일 휴무). 상호명 : (주)에이스침대서울지점 서울 강남구 도산대로 218 — 서울지점 주소라 본사로 쓰지 않아 hq 를 비운다. 에이스침대 홈페이지(acebed.com) 이벤트 안내에도 '고객센터 1599-7121'. 브랜드색은 사이트 유일 유채색(#00ACDC).",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1599-7121",
+      "note": "평일 09:30~18:30, 토요일·공휴일 휴무"
+    },
+    {
+      "label": "A/S센터",
+      "tel": "080-735-7123",
+      "note": "평일 09:30~18:30, 토요일·공휴일 휴무"
+    }
+  ],
+  "numbersIntro": "고객센터와 A/S센터 번호가 따로 안내되어 있습니다. 구매·일반 문의는 고객센터, 수리 접수는 A/S센터 번호를 고르시면 됩니다.",
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

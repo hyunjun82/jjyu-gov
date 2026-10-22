@@ -1,0 +1,40 @@
+{
+  "slug": "gentle-monster",
+  "name": "젠틀몬스터",
+  "aliases": [
+    "젠틀몬스터 고객센터",
+    "Gentle Monster",
+    "젠틀몬스터 AS",
+    "아이아이컴바인드",
+    "젠틀몬스터 서비스팀"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.gentlemonster.com/kr/ko",
+  "sourceUrl": "https://www.gentlemonster.com/kr/ko",
+  "sourceName": "젠틀몬스터 공식 온라인 스토어",
+  "verifiedAt": "2026-10-22",
+  "corp": "주) 아이아이컴바인드",
+  "hq": "서울특별시 성동구 뚝섬로 433",
+  "main": {
+    "label": "대표번호",
+    "tel": "1600-2126"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 젠틀몬스터 공식 온라인 스토어 홈 하단: 주) 아이아이컴바인드, 이메일 문의: service.kr@gentlemonster.com, 주소: 서울특별시 성동구 뚝섬로 433, 대표번호:1600-2126. 하단에 전화 상담시간 표기가 없어 hours 를 비운다(라이브 챗 운영시간 평일 9시 30분~오후 5시는 채팅 창구라 전화 시간으로 쓰지 않는다). Playwright 가 gentlemonster.com 을 못 열어 사용자 크롬(claude-in-chrome)으로 본 페이지의 해당 줄을 발췌해 추출본으로 저장. 로고가 검정이라 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "1600-2126"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

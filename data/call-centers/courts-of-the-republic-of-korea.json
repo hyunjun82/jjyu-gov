@@ -1,0 +1,39 @@
+{
+  "slug": "courts-of-the-republic-of-korea",
+  "name": "대한민국 법원 전자소송",
+  "aliases": [
+    "대한민국 법원 고객센터",
+    "대법원 전자소송",
+    "전자소송 문의",
+    "법원 전자소송 장애 문의",
+    "대한민국 법원"
+  ],
+  "industry": "public",
+  "brandColor": "#212D4B",
+  "official": "https://ecfs.scourt.go.kr",
+  "sourceUrl": "https://ecfs.scourt.go.kr/",
+  "sourceName": "대한민국 법원 전자소송 포털",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "이용 및 장애 문의",
+    "tel": "02-3480-1715"
+  },
+  "hours": {
+    "weekday": "평일 9시~18시"
+  },
+  "hoursNote": "[2026-10-22] 대한민국 법원 전자소송 포털(ecfs.scourt.go.kr) 하단: 이용 및 장애 문의 02) 3480-1715 (평일 9시~18시), COPYRIGHT Ⓒ 2025 SUPREME COURT OF KOREA. 사건 내용·재판 일정 문의는 담당 법원 몫이라 이 번호는 전자소송 사이트 이용·장애 문의에만 쓴다. 하단에 주소 표기가 없어 hq 를 비운다. 브랜드색은 캡처 헤더 최빈 유채색(남색).",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "이용 및 장애 문의",
+      "tel": "02-3480-1715",
+      "note": "평일 9시~18시"
+    }
+  ],
+  "variant": "facility",
+  "jobs": "전자소송 이용 문의, 장애 문의",
+  "jobsSentence": "공식 안내에 '이용 및 장애 문의'로 적힌 번호입니다."
+}

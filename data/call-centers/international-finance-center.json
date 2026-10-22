@@ -1,0 +1,45 @@
+{
+  "slug": "international-finance-center",
+  "name": "국제금융센터",
+  "aliases": [
+    "국제금융센터 전화번호",
+    "KCIF",
+    "Korea Center for International Finance",
+    "국제금융센터 대표번호",
+    "국제금융센터 오시는길"
+  ],
+  "industry": "public",
+  "brandColor": "#1B755D",
+  "official": "https://www.kcif.or.kr",
+  "sourceUrl": "https://www.kcif.or.kr/center/contact",
+  "sourceName": "국제금융센터 연락처",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "대표 번호",
+    "tel": "02-3705-6200"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 국제금융센터 연락처 페이지(kcif.or.kr/center/contact): 대표 번호 : 02-3705-6200 (야간: 02-3705-6236), 팩스 번호 : 02-3705-6221, 이메일 : webmaster@kcif.or.kr, 하단 서울특별시 중구 명동 11길 19 은행회관 3층 국제금융센터 대표전화 02-3705-6200 FAX 02-3705-6159. 주간 상담시간 표기가 없어 hours 를 비운다(야간 번호만 안내). 브랜드색은 캡처 헤더 최빈 유채색.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표 번호",
+      "tel": "02-3705-6200"
+    },
+    {
+      "label": "야간 번호",
+      "tel": "02-3705-6236",
+      "note": "야간"
+    }
+  ],
+  "hq": "서울특별시 중구 명동 11길 19 은행회관 3층",
+  "numbersIntro": "대표 번호와 야간 번호가 따로 안내되어 있습니다.",
+  "variant": "facility",
+  "jobs": "센터 업무 문의",
+  "jobsSentence": "공식 안내에 '대표 번호'로 적힌 번호입니다."
+}

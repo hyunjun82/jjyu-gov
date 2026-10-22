@@ -1,0 +1,40 @@
+{
+  "slug": "tcl-tv",
+  "name": "TCL TV",
+  "aliases": [
+    "TCL 고객센터",
+    "TCL 일렉트로닉스 코리아",
+    "티씨엘 TV",
+    "TCL TV AS",
+    "TCL 서비스센터"
+  ],
+  "industry": "appliance",
+  "brandColor": "#E74B3F",
+  "official": "https://www.tcl.com/kr/ko",
+  "sourceUrl": "https://www.tcl.com/kr/ko/support",
+  "sourceName": "TCL 코리아 공식 고객지원",
+  "verifiedAt": "2026-10-22",
+  "corp": "TCL 일렉트로닉스 코리아",
+  "main": {
+    "label": "TCL 일렉트로닉스 코리아 공식 고객센터",
+    "tel": "1660-1870"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] TCL 코리아 공식 고객지원 페이지(tcl.com/kr/ko/support): TCL 일렉트로닉스 코리아 공식 고객센터: 1660-1870, 쿠팡(Coupang)에서 구매하신 경우 쿠팡 고객센터로 문의(1577-2420). 쿠팡 번호는 쿠팡 몫이라 이 글에 넣지 않는다. 페이지에 상담시간·주소 표기가 없어 hours·hq 를 비운다. 브랜드색은 캡처 헤더 최빈 유채색(빨강).",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TCL 일렉트로닉스 코리아 공식 고객센터",
+      "tel": "1660-1870"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 'TCL 일렉트로닉스 코리아 공식 고객센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,40 @@
+{
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.elandretail.com",
+  "sourceUrl": "https://www.elandretail.com/m/service/customer_center_08.do?lang=000600KO",
+  "sourceName": "이랜드리테일 고객서비스 주요문의처",
+  "verifiedAt": "2026-10-22",
+  "corp": "이랜드리테일",
+  "hours": {
+    "weekday": ""
+  },
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "idStep": "구매 영수증과 구매 일시",
+  "slug": "cheongju-nc-department-store",
+  "name": "NC백화점 청주점",
+  "aliases": [
+    "청주 NC백화점",
+    "NC청주점 전화번호",
+    "NC백화점 청주점 고객센터",
+    "이랜드리테일 NC청주점",
+    "엔씨백화점 청주점"
+  ],
+  "main": {
+    "label": "NC 청주점 대표 전화",
+    "tel": "043-716-6000"
+  },
+  "hoursNote": "[2026-10-22] 이랜드리테일 고객서비스 주요문의처(elandretail.com/m/service/customer_center_08.do): 문의처 NC 백화점 목록 중 NC 청주점 043-716-6000. 이 표에는 영업·상담시간과 주소가 없어 hours·hq 를 비운다. 다른 NC 지점 번호는 지점마다 달라 쓰지 않는다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "jobs": "매장·주차·구매 문의, 상품 교환·환불",
+  "heroSalt": "b",
+  "numbers": [
+    {
+      "label": "NC 청주점 대표 전화",
+      "tel": "043-716-6000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'NC 청주점 대표 전화'로 적힌 번호입니다."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "everybot",
+  "name": "에브리봇",
+  "aliases": [
+    "에브리봇 고객센터",
+    "에브리봇 AS",
+    "에브리봇 물걸레 AS",
+    "에브리봇 로봇청소기 AS",
+    "everybot"
+  ],
+  "industry": "appliance",
+  "brandColor": "#00BFB2",
+  "official": "https://www.everybot.co.kr",
+  "sourceUrl": "https://www.everybot.co.kr/",
+  "sourceName": "에브리봇 기업 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "에브리봇 주식회사",
+  "hq": "경기 과천시 과천대로7나길 60 과천어반허브 A동 6층",
+  "main": {
+    "label": "고객센터",
+    "tel": "070-4938-7920"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 에브리봇 기업 홈페이지(everybot.co.kr) 하단: 상호명 : 에브리봇 주식회사, 주소 : 경기 과천시 과천대로7나길 60 과천어반허브 A동 6층, 고객센터 070-4938-7920. 공식몰(everybotmall.com) 하단에도 고객센터 070-4938-7920. 두 사이트 모두 상담시간 표기가 없어 hours 를 비운다. 고객센터 옆 성남시 분당구 판교로 256번길 25 넥슨 GT B동 지하 1층 102호 주소는 서비스 위치 표기라 본사로 쓰지 않는다. 브랜드색은 사이트 유일 유채색(#00BFB2).",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "070-4938-7920"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

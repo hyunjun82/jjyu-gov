@@ -1,0 +1,910 @@
+SLUG: vans-korea-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/vans-korea-call-center-*.png)
+
+===== [1] https://www.vans.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/vans-korea-call-center-1.png
+CHARS: 11824
+
+VANS NEWS
+ 로그인
+ 장바구니 (0)
+ 위시리스트 (0)
+ 매장찾기
+ 고객센터
+NEW 
+ SHOES 
+ CLOTHING 
+ ACCESSORIES 
+ KIDS 
+ VANS PREMIUM
+ SHOP BY SPORTS 
+ SALE 
+(0)
+5만원 이상 구매 시 무료 배송
+VANS with CORTIS
+코르티스와 함께하는 HO26 캠페인
+구매하기
+VANS X ATIBA
+아티바 제퍼슨과의 협업 컬렉션
+구매하기
+EASY ON, HARBOR MULE
+신고 벗기 편한 가을 뮬
+구매하기
+NEW & TRENDING
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+뮬 플랫폼 라이트 코지
+
+109,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+뮬 플랫폼 라이트 코지
+
+109,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+미드-슬립 플랫폼 라이트 코지
+
+149,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+미드-슬립 플랫폼 라이트 코지
+
+149,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL HOT
+
+반스 프리미엄 올드스쿨 36 아카이브 플레임
+
+145,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL HOT
+
+반스 프리미엄 올드스쿨 36 아카이브 플레임
+
+135,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+반스 프리미엄 어센틱 44 웨더라이즈드
+
+115,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+반스 프리미엄 어센틱 44 웨더라이즈드
+
+115,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+2-아일렛 보트 슈 웨더라이즈드
+
+115,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+2-아일렛 보트 슈 웨더라이즈드
+
+115,000 원
+
+위시리스트 추가
+위시리스트 삭제
+HOT
+
+클래식 슬립온 코지 허그
+
+85,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL HOT
+
+토들러 올드스쿨 벨크로 카
+
+59,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+키즈 올드스쿨 벨크로 컬러 띠어리
+
+59,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+토들러 올드스쿨 벨크로 컬러 띠어리
+
+55,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+쓰로우백 믹서 긴소매 티셔츠
+
+59,000 원
+
+위시리스트 추가
+위시리스트 삭제
+NEW ARRIVAL
+
+프린티드 하이 파일 자켓
+
+195,000 원
+
+1
+2
+3
+4
+베스트 셀러
+가을 아이템
+하버 뮬
+간절기 자켓
+업데이트
+VANS NEWS
+
+반스, 글로벌 R&B 아티스트 시저(SZA)와 함께한 ‘VANSZA’ 첫 번째 컬렉션 공개
+
+COLLABORATION
+
+스트리트 패션 신이 다시 반스에 열광하는 이유
+
+FL / PREMIUM
+
+반스, OTW 바이 반스 X 사토시 나카모토 에라 95 DST 공개
+
+COLLABORATION
+
+반스, 해리스 트위드와 협업 컬렉션 공개
+
+COLLABORATION
+더 알아보기
+ABOUT
+반스에 대하여
+SHOPPING
+회원가입
+주문/배송 조회
+LEGAL
+이용약관
+개인정보처리방침
+청소년 보호정책
+FOLLOW VANS
+facebook instagram kakaoplus
+유한책임회사 브이에프코리아 | 대표 장우진 | 등록번호 220-88-43561 | 통신판매업신고번호 2013-서울강남-02918호 사업자정보확인
+서울특별시 강남구 강남대로 652, 14-15층 | 개인정보 책임자 심재형 | 고객센터(평일 09:00 ~ 18:00) 1522-1882 | 이메일 Vanskr_online@vfc.com
+
+ⓒ유한책임회사 브이에프코리아. All Rights Reserved. California Transparency in Supply Chain Act of 2010
+소비자피해 보증보험 가입확인
+
+안전거래를 위해 현금 거래에 대해
+구매안전서비스를 적용하고 있습니다.
+
+장바구니
+
+장바구니에 담긴 상품이 없습니다.
+
+올드스쿨, 코어클래식, 뮬 등
+지금 반스의 다양한 상품을 만나보세요.
+
+쇼핑 계속하기
+
+----- 프레임 (https://widget.recopick.com/1/widget/id/eT7Xe8i6?item_id=&qterm=&site=vans.co.kr&from=https%3A%2F%2Fwww.vans.co.kr%2F&uid=19299556.1792654440067&id=recopick_widget_eT7Xe8i6&width=100%25&height=1&widget_id=eT7Xe8i6) -----
+JUST FOR YOU
+Vans x SZA 반스 프리미엄 어센틱 44 킥다운
+99,000원
+Vans x SZA 버그 아웃 스웻팬츠
+135,000원
+Vans x SZA 버그 아웃 후디
+155,000원
+Vans x SZA 반스 프리미엄 뉴스쿨 뮬
+115,000원
+Vans x SZA 크루 삭스 2
+19,000원
+어센틱 스웨이드
+75,000원
+반스 프리미엄 슬립온 98 체커보드 사이드월
+109,000원
+클래식 슬립온 코지 허그
+85,000원
+반스 프리미엄 올드스쿨 36 아카이브 플레임
+145,000원
+스케이트 로퍼 스웨이드
+99,000원
+반스 프리미엄 어센틱 이즈 페블
+125,000원
+스케이트 로퍼
+99,000원
+크로스패스 XC
+189,000원
+132,300원
+코어클래식 올드스쿨
+85,000원
+스케이트 올드스쿨 와플컵 아티바
+115,000원
+뮬 플랫폼 라이트 코지
+109,000원
+반스 프리미엄 올드스쿨 36 체커보드 사이드월
+119,000원
+올드스쿨 컬러 띠어리
+85,000원
+뮬 플랫폼 라이트 코지
+109,000원
+프린티드 하이 파일 자켓
+195,000원
+토들러 올드스쿨 벨크로 카
+59,000원
+클래식 슬립온 컬러 띠어리 체커보드
+69,000원
+48,300원
+어센틱 컬러 띠어리
+69,000원
+올드스쿨 인슐레이티드
+135,000원
+81,000원
+
+----- 프레임 (https://widget.recopick.com/1/widget/id/ETbRd9iK?item_id=&qterm=&site=vans.co.kr&from=https%3A%2F%2Fwww.vans.co.kr%2F&uid=19299556.1792654440067&id=recopick_widget_ETbRd9iK&width=100%25&height=1&widget_id=ETbRd9iK) -----
+JUST FOR YOU
+
+  
+    
+        
+
+  
+      
+  
+  Vans x SZA 반스 프리미엄 어센틱 44 킥다운
+  
+    99,000원
+  
+
+        
+
+  
+      
+  
+  Vans x SZA 버그 아웃 스웻팬츠
+  
+    135,000원
+  
+
+    
+        
+
+  
+      
+  
+  Vans x SZA 버그 아웃 후디
+  
+    155,000원
+  
+
+        
+
+  
+      
+  
+  Vans x SZA 반스 프리미엄 뉴스쿨 뮬
+  
+    115,000원
+  
+
+    
+        
+
+  
+      
+  
+  Vans x SZA 크루 삭스 2
+  
+    19,000원
+  
+
+        
+
+  
+      
+  
+  어센틱 스웨이드
+  
+    75,000원
+  
+
+    
+        
+
+  
+      
+  
+  반스 프리미엄 슬립온 98 체커보드 사이드월
+  
+    109,000원
+  
+
+        
+
+  
+      
+  
+  클래식 슬립온 코지 허그
+  
+    85,000원
+  
+
+    
+        
+
+  
+      
+  
+  반스 프리미엄 올드스쿨 36 아카이브 플레임
+  
+    145,000원
+  
+
+        
+
+  
+      
+  
+  스케이트 로퍼 스웨이드
+  
+    99,000원
+  
+
+    
+        
+
+  
+      
+  
+  반스 프리미엄 어센틱 이즈 페블
+  
+    125,000원
+  
+
+        
+
+  
+      
+  
+  스케이트 로퍼
+  
+    99,000원
+  
+
+    
+        
+
+  
+      
+  
+  크로스패스 XC
+  
+    189,000원
+    132,300원
+  
+
+        
+
+  
+      
+  
+  코어클래식 올드스쿨
+  
+    85,000원
+  
+
+    
+        
+
+  
+      
+  
+  스케이트 올드스쿨 와플컵 아티바
+  
+    115,000원
+  
+
+        
+
+  
+      
+  
+  뮬 플랫폼 라이트 코지
+  
+    109,000원
+  
+
+    
+        
+
+  
+      
+  
+  반스 프리미엄 올드스쿨 36 체커보드 사이드월
+  
+    119,000원
+  
+
+        
+
+  
+      
+  
+  올드스쿨 컬러 띠어리
+  
+    85,000원
+  
+
+    
+        
+
+  
+      
+  
+  뮬 플랫폼 라이트 코지
+  
+    109,000원
+  
+
+        
+
+  
+      
+  
+  프린티드 하이 파일 자켓
+  
+    195,000원
+  
+
+    
+        
+
+  
+      
+  
+  토들러 올드스쿨 벨크로 카
+  
+    59,000원
+  
+
+        
+
+  
+      
+  
+  클래식 슬립온 컬러 띠어리 체커보드
+  
+    69,000원
+    48,300원
+  
+
+    
+        
+
+  
+      
+  
+  어센틱 컬러 띠어리
+  
+    69,000원
+  
+
+        
+
+  
+      
+  
+  올드스쿨 인슐레이티드
+  
+    135,000원
+    81,000원
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+      
+        
+      
+      
+          
+          
+          
+          
+          
+          
+      
+      
+        
+      
+    
+
+  (function () {
+    simplePostMessage.receiveMessage(function (e) {
+      if (e.data.indexOf('update_height') > -1) {
+        calcHeight();
+      }
+    });
+
+    function calcHeight(tries) {
+      var isVerticalType = Boolean(document.getElementsByClassName('widget--v').length)
+
+      var nameHeight = [];
+      var authorHeight = [];
+      var priceHeight = 0;
+      var origPriceHeight = 0;
+      var salePriceHeight = 0;
+      var pricePadding = 0;
+      var thumbnailWidth = 0;
+
+      var itemList = document.querySelectorAll('.item a');
+      for (var i = 0; i < itemList.length; i++) {
+        // 'name' height
+        if (!isVerticalType) {
+          var rowIdx = i % 2;
+
+          if (itemList[i].getElementsByClassName('name').length > 0) {
+            nameHeight[rowIdx] = Math.max(nameHeight[rowIdx] ? nameHeight[rowIdx] : 0, itemList[i].getElementsByClassName('name')[0].clientHeight);
+            // max-height for .name is 41px
+            nameHeight[rowIdx] = (nameHeight[rowIdx] > 41) ? 41 : nameHeight[rowIdx];
+          }
+          if (itemList[i].getElementsByClassName('author').length > 0) {
+            authorHeight[rowIdx] = Math.max(authorHeight[rowIdx] ? authorHeight[rowIdx] : 0, itemList[i].getElementsByClassName('author')[0].clientHeight);
+          }
+        }
+
+        if (itemList[i].getElementsByClassName('thumbnail').length > 0) {
+          // 'thumbnail' width
+          thumbnailWidth = Math.max(thumbnailWidth, itemList[i].getElementsByClassName('thumbnail')[0].clientWidth);
+        }
+
+        if (itemList[i].getElementsByClassName('price').length > 0) {
+          // 'price' height
+          var priceElement = itemList[i].getElementsByClassName('price')[0];
+          priceHeight = Math.max(priceHeight, priceElement.clientHeight - (parseInt(getComputedStyle(priceElement).paddingTop) + parseInt(getComputedStyle(priceElement).paddingBottom)));
+        }
+
+        if (itemList[i].getElementsByClassName('original_price').length > 0) {
+          // 'original_price' height
+          origPriceHeight = Math.max(origPriceHeight, itemList[i].getElementsByClassName('original_price')[0].clientHeight);
+        }
+
+        if (itemList[i].getElementsByClassName('sale_price').length > 0) {
+          // 'sale_price' height
+          salePriceHeight = Math.max(salePriceHeight, itemList[i].getElementsByClassName('sale_price')[0].clientHeight);
+        }
+      }
+
+      if (salePriceHeight > 0 && origPriceHeight > 0) {
+        pricePadding = Math.floor(Math.min.apply(null, [salePriceHeight, origPriceHeight].filter(Boolean)) * 0.2 * 100) / 100;
+      }
+
+      for (var i = 0; i < itemList.length; i++) {
+        if (!isVerticalType) {
+          if (itemList[i].getElementsByClassName('name').length > 0) {
+            itemList[i].getElementsByClassName('name')[0].style.height = String(nameHeight[i % 2]) + 'px';
+          }
+          if (itemList[i].getElementsByClassName('author').length > 0) {
+            itemList[i].getElementsByClassName('author')[0].style.height = String(authorHeight[i % 2]) + 'px';
+          }
+        }
+
+        if (itemList[i].getElementsByClassName('thumbnail').length > 0) {
+          itemList[i].getElementsByClassName('thumbnail')[0].style.width = String(thumbnailWidth) + 'px';
+        }
+
+        if (itemList[i].getElementsByClassName('price').length > 0) {
+          if (priceHeight > 0) {
+            // 'price' height
+            itemList[i].getElementsByClassName('price')[0].style.height = String(priceHeight) + 'px';
+          }
+
+          if (salePriceHeight > 0 && origPriceHeight > 0) {
+            itemList[i].getElementsByClassName('price')[0].style.paddingTop = String(pricePadding) + 'px';
+          }
+        }
+
+        if (itemList[i].getElementsByClassName('original_price').length > 0 && origPriceHeight > 0) {
+          // 'original_price' height
+          itemList[i].getElementsByClassName('original_price')[0].style.height = String(origPriceHeight) + 'px';
+        }
+
+        if (itemList[i].getElementsByClassName('sale_price').length > 0 && salePriceHeight > 0) {
+          // 'sale_price' height
+          itemList[i].getElementsByClassName('sale_price')[0].style.height = String(salePriceHeight) + 'px';
+        }
+      }
+
+      // image load 안된 시점에 onload가 발생시 정상 높이 계산이 되지 않음
+      // image height가 0인 경우 10번 retry
+      // if ($('img.thumbnail').height() === 0) {
+      var imgThumbnail = document.querySelector('img.thumbnail');
+      if (true && imgThumbnail.clientHeight === 0) {
+        if (tries < 10) {
+          setTimeout(function () { calcHeight(tries + 1); }, 100);
+        }
+      } else {
+        syncHeight(100);
+      }
+    }
+
+    function syncHeight(ms) {
+      setTimeout(function() {
+        var c = window.getComputedStyle(document.body);
+        var margin = parseFloat(c.marginTop) + parseFloat(c.marginBottom)
+        var height = document.body.offsetHeight + margin || 1;
+        var has_recom = height > 1 ? 1 : 0;
+
+        simplePostMessage.postMessage('id=recopick_widget_ETbRd9iK' + '&if_height=' + height + '&has_recom=' + has_recom, 'https://www.vans.co.kr/');
+      }, ms);
+    }
+
+    window.onload = function () {
+      calcHeight();
+    }
+
+    window.onresize = function () {
+      syncHeight(100);
+    }
+  })();
+  function addClass(element, className) {
+    if(element && element.className.indexOf(className) === -1) {
+      element.className = (element.className + ' ' + className).trim();
+    }
+  }
+  function removeClass(element, className) {
+    if (element && element.className.indexOf(className) !== -1) {
+      element.className = element.className.replace(className, '').trim();
+    }
+  }
+
+  (function () {
+    const itemCount = 2;
+
+    $('.list').slick({
+      infinite: false,
+      slidesToShow: itemCount,
+      slidesToScroll: 2,
+      arrows: false,
+      dots: false,
+      autoplay: false,
+      autoplaySpeed: 3000
+    });
+
+    $('.list').on('afterChange', (event, slick, currentSlide) => {
+      var currentPage = Math.floor((currentSlide) / itemCount) + 1;
+
+      $('.page-position').each(function (idx) {
+        if (currentPage == idx + 1) {
+          $(this).addClass('current');
+        } else {
+          $(this).removeClass('current');
+        }
+      });
+    });
+
+    $('.prev2').click(function (e) {
+      var currentSlide = $('.list').slick('slickCurrentSlide');
+
+      if (currentSlide >= itemCount) {
+        $('.list').slick('slickGoTo', (Math.floor(currentSlide / itemCount) - 1) * itemCount);
+      }
+    });
+
+    $('.next2').click(function (e) {
+      var currentSlide = $('.list').slick('slickCurrentSlide');
+
+      if (currentSlide < itemCount * 6 - itemCount) {
+        $('.list').slick('slickGoTo', (Math.floor(currentSlide / itemCount) + 1) * itemCount);
+      }
+    });
+
+    $('.page-position').click(function (e) {
+      const moveTo = $(this).index() * itemCount
+      $('.list').slick('slickGoTo', moveTo)
+    });
+  })();
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+수탁자 | 목적
+㈜에스티컴 | 드로우 진행 대행 및 시스템 데이터 관리
+㈜루나소프트 | 당첨 여부 카카오 알림톡 발송
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+BACK
+ NEW
+ 신상품 전체보기
+ 베스트 셀러
+ COLLECTION
+ 반스 가을 컬렉션
+ Cortis 컬렉션
+ 올블랙
+ 컬러 띠어리
+ 체커보드
+ COLLABORATIONS
+ Vans x SZA
+ Vans x Costs
+ Vans x Liberaiders
+ Vans x Bape
+ Vans x Rowan
+ Vans x Travis Barker
+ VANS Artist Collection
+
+BACK
+ CLASSICS
+ 클래식 전체보기
+ 어센틱
+ 올드스쿨
+ 슬립온
+ 스케이트-하이
+ 하프캡
+ 에라
+ FEATURED
+ 신발 전체보기
+ 슈퍼 로우 프로
+ 스케이트 로퍼
+ 메리 제인
+ 뮬&슬라이드
+ 컴피쿠시
+ 퍼포먼스 스니커즈
+
+BACK
+ MEN
+ 전체 남성 의류
+ 탑&티셔츠
+ 하의
+ 아우터
+ 플리스
+ WOMEN
+ 전체 여성 의류
+ 아우터
+ 플리스
+ 탑&티셔츠
+ 하의
+ 원피스 & 스커트
+ KIDS
+ 전체 키즈 의류
+ 보이즈&걸즈
+ 키즈
+
+BACK
+ ACCESSORIES
+ 전체 악세서리
+ 모자
+ 양말
+ 가방
+ 기타
+
+BACK
+ SHOES
+ 전체 키즈 신발
+ 토들러 (160mm 이하)
+ 키즈 (165-210mm)
+ CLOTHING
+ 전체 키즈 의류
+ 키즈 (3-7세)
+ 주니어 (7-16세)
+ ACCESSORIES
+ 전체 키즈 액세서리
+ 모자
+ 양말
+
+BACK
+ SKATEBOARDING
+ SNOW
+
+BACK
+ SALE
+ 세일 전체보기
+ 신발
+ 의류
+ 악세서리
+ 키즈
+
+위시리스트
+ 로그인
+ 매장찾기
+ 고객센터
+
+SEARCH
+ "key word" 관련 검색어
+ 관련 상품
+ 인기 검색어
+ 1. 올드스쿨
+ 2. 어센틱
+ 3. 슬립온
+ 4. 스케이트
+ 5. 뮬
+ 6. MTE
+ 7. 스웨이드
+ 8. Otw
+ 9. 슈퍼 로우 프로
+ 10. 하프 캡
+
+고객님의 개인정보를 아래와 같이 처리함을 알려 드립니다.(개인정보보호법 제15조 2항에 의한 수집,이용
+ 동의)
+ 1. 이용목적- 반스 최신소식 정보를 제공하기 위하여 사용 됩니다.
+ 2. 수집항목- 이메일 주소
+ 3. 보유 및 이용기간- 수신 동의 거부 시, 즉시 삭제
+
+공유하기
+ 카카오톡
+ 페이스북
+ 라인
+ SMS
+ 링크복사
+
+개인정보 수집 및 이용 동의
+ 아래는 드로우 대상 제품 응모(이하 ‘드로우’) 및 고객 안내를 위한 연락을 목적으로 사용되는 개인 정보에 대한 수집/이용 동의 확인 절차로, 반스 공식 온라인 스토어는 회원의 개인 정보를 소중하게 생각하고 이를 보호하기 위하여 항상 최선을 다하고 있으며 개인정보 보호 관련 법률 규정을 준수하고 있습니다. (유)브이에프 코리아는 드로우의 원활한 진행을 위해 신청 시 반스 공식 온라인 스토어를 통해 아래와 같은 내용을 수집하고 사용합니다.
+ 개인정보의 수집 이용목적
+ 드로우 및 추첨, 이용자 식별, 본인 여부 확인 등 드로우 진행 안내
+ 수집되는 개인정보
+ 반스 공식 온라인 스토어 ID, 이름, 휴대폰번호, 사이즈, 선택 제품 
+ 보유기간
+ 응모일부터 1개월까지
+동의 거부 권리 및 동의 거부 시 불이익이 생길 수 있습니다. 필수 정보의 수집 / 이용에 관한 동의를 거부하실 수 있으며, 다만 필수 정보는 ‘드로우’ 응모를 위해서 필요한 최소한의 개인정보이므로 동의를 해 주셔야 ‘드로우’ 응모가 가능합니다.
+ 확인
+
+개인정보 수집 및 이용 동의
+ 아래는 드로우 대상 제품 응모(이하 ‘드로우’) 및 고객 안내를 위한 연락을 목적으로 사용되는 개인 정보에 대한 수집/이용 동의 확인 절차로, 반스 공식 온라인 스토어는 회원의 개인 정보를 소중하게 생각하고 이를 보호하기 위하여 항상 최선을 다하고 있으며 개인정보 보호 관련 법률 규정을 준수하고 있습니다. (유)브이에프 코리아는 드로우의 원활한 진행을 위해 신청 시 반스 공식 온라인 스토어를 통해 아래와 같은 내용을 수집하고 사용합니다.
+ 개인정보의 수집 이용목적
+ 드로우 및 추첨, 이용자 식별, 본인 여부 확인 등 드로우 진행 안내
+ 수집되는 개인정보
+ 반스 공식 온라인 스토어 ID, 이름, 휴대폰번호, 인스타그램ID, 사이즈, 선택 제품 
+ 보유기간
+ 응모일부터 1개월까지
+동의 거부 권리 및 동의 거부 시 불이익이 생길 수 있습니다. 필수 정보의 수집 / 이용에 관한 동의를 거부하실 수 있으며, 다만 필수 정보는 ‘드로우’ 응모를 위해서 필요한 최소한의 개인정보이므로 동의를 해 주셔야 ‘드로우’ 응모가 가능합니다.
+ 확인
+
+개인정보 취급 위탁에 대한 고지
+ (유)브이에프코리아는 드로우 진행을 위해 응모자의 개인 정보를 외부에 위탁하여 처리하고 있으며, 관계법령에 따라 위탁 계약 시 개인정보가 안전하게 관리될 수 있도록 규정하고 있습니다. 드로우의 개인정보취급 수탁자와 그 업무의 내용은 아래와 같습니다.
+ 수탁자
+ 목적
+ ㈜에스티컴
+ 드로우 진행 대행 및 시스템 데이터 관리
+ ㈜루나소프트
+ 당첨 여부 카카오 알림톡 발송
+ 확인

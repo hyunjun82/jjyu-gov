@@ -1,0 +1,412 @@
+SLUG: kitchen-art-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/kitchen-art-call-center-*.png)
+
+===== [1] http://kitchenart.co.kr/main =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/kitchen-art-call-center-1.png
+CHARS: 1376
+
+주방속의 예술감각!   네이버에 키친아트를 검색하세요!
+
+로그인
+회원가입
+장바구니0
+마이페이지
+고객센터
+ 
+제품
+냄비
+후라이팬
+압력솥
+압력솥 패킹
+주전자
+그릴류
+가전제품
+기물
+테이블웨어
+신제품
+기획전
+소렐 기획전
+김장용품
+야외용품
+BEST 상품
+회사소개
+고객문의
+1
+2
+3
+ 포르트플러스 통3중 압력솥
+84,480원
+ 소렐 경질 압력솥
+75,350원
+ Easy 압력솥 1.2ℓ
+126,500원
+ Easy 진공쌀통 10kg
+199,000원
+ 갤럭시 5 스테인레스 POT
+103,200원
+냄비
+ 
+후라이팬
+ 
+전기포트
+ 
+압력솥
+렉스 전기 무선주전자 1.6L
+37,200원
+ 
+렉스 전기주전자 1.7L
+32,500원
+ 
+렉스 전기주전자 1.2L
+31,700원
+ 
+쏘렐 전기주전자 1.8L KIA-EK17
+26,800원
+ 
+전기 주전자 KK-G1722
+16,000원
+ 
+전기 주전자 KK-G2217
+19,200원
+ 
+허브 무선 전기포트 KAEP-1819NK
+12,800원
+ 
+허브 전기주전자 1.5L, 1.8L
+15,500원
+비그로우 박관우
+금상첨화 인덕션 궁중전골 냄비24cm
+35,200원
+ 
+복전골 냄비
+12,700원
+ 
+퀸즈 곰솥냄비
+40,100원
+ 
+일품 궁중전골냄비
+24,900원
+뷰티나 후라이팬
+20,200원
+ 
+티타늄 IH 까사 후라이팬
+20,000원
+ 
+금상첨화 IH 인덕션 궁중팬
+21,900원
+ 
+휴브 트리플팬
+16,700원
+금상첨화Ⅱ인덕션 양면팬
+45,700원
+ 
+라팔 다이아몬드 플러스 그릴
+41,700원
+ 
+아르떼 인덕션 로스트팬 사각
+35,900원
+ 
+피쉬 그릴팬
+27,400원
+포르트플러스 통3중 압력솥
+84,480원
+ 
+소렐 경질 압력솥
+75,350원
+ 
+Easy 압력솥 1.2ℓ
+126,500원
+ 
+갤럭시 압력솥
+117,300원
+회사소개
+이용안내
+개인정보취급방침
+이용약관
+광고/제휴 문의
+상호명 : 주식회사 키친아트
+대표 : 채기석
+주소 :인천광역시 서해구 장고개로118번길 5 ((주)키친아트)
+통신판매업신고번호 : 2003-00044
+사업자등록번호 : 137-81-35469 사업자정보확인 >
+개인정보관리자 : 김동준
+대표번호 : 032-577-0077
+팩스번호 : 050-5312-2480
+메일 : kitchenart@kitchenart.co.kr
+
+copyright (c) kitchenart.co.kr all rights reserved.
+
+	
+CS CENTER
+
+고객 상담
+평일 10:00 ~ 17:00
+점심시간 12:00 ~ 13:00
+
+대표 전화
+080-070-7799
+
+월~금 / 주말 및 공휴일 휴무
+
+	
+BANK INFO
+121-097303-04-064
+
+예금주 : (주)키친아트
+
+입금 시 예금주명을 꼭! 확인해 주세요!
+
+ 
+ 
+TODAY VIEW
+
+오늘 하루 보이지 않음
+닫기
+
+오늘 하루 보이지 않음
+닫기
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+주문조회
+ 내정보수정
+ 찜리스트
+ 1:1문의
+
+자주묻는질문
+ 공지사항
+ 이벤트
+
+$(function(){
+ /* 상단 검색 */
+ $('.top_search_cont input[name="keyword"]').on({
+ 'focus':function(){
+ $(this).parents().find('.search_cont').show();
+ },
+ 'blur':function(){
+ $('body').click(function(e){
+ if (!$('.search_cont').has(e.target).length && e.target.name != 'keyword') {
+ $(this).parents().find('.search_cont').hide();
+ }
+ });
+ $('.btn_top_search_close').click(function(){
+ $(this).parents().find('.search_cont').hide();
+ });
+ }
+ });
+ if($("input[name=recentCount]").val() > 0) {
+ $('.js_recom_box').removeClass('recom_box_only').addClass('recom_box');
+ }else{
+ $('.js_recom_box').removeClass('recom_box').addClass('recom_box_only');
+ }
+ });
+ 추천상품
+ 최근검색어
+ 최근 검색어가 없습니다.
+ 닫기
+
+찜하기
+ 장바구니
+ 포르트플러스 통3중 압력솥
+ 84,480원
+
+찜하기
+ 장바구니
+ 소렐 경질 압력솥
+ 75,350원
+
+찜하기
+ 장바구니
+ Easy 진공쌀통 10kg
+ 199,000원
+
+찜하기
+ 장바구니
+ 갤럭시 5 스테인레스 POT
+ 103,200원
+
+장바구니 담기
+ 상품이 장바구니에 담겼습니다.바로 확인하시겠습니까?
+ 취소
+ 확인
+ 닫기
+
+찜 리스트 담기
+ 상품이 찜 리스트에 담겼습니다.바로 확인하시겠습니까?
+ 취소
+ 확인
+ 닫기
+
+낮은 전골냄비
+ 12,100원 
+ 금상첨화 인덕션 궁중전골 냄비24cm
+ 35,200원 
+ 베이직 인덕션 냄비
+ 25,700원 
+ 홈앤 세라믹 인덕션 냄비
+ 31,000원 
+ NEO 스테인레스 통오중 냄비
+ 36,300원 
+ 키친아트 FORT+ IH 직사각전골
+ 36,200원 
+ 헥사 통오중 엠보 냄비
+ 40,100원 
+ 일품 찜냄비
+ 36,500원
+
+낮은 전골냄비
+ 12,100원
+
+베이직 인덕션 냄비
+ 25,700원
+
+홈앤 세라믹 인덕션 냄비
+ 31,000원
+
+NEO 스테인레스 통오중 냄비
+ 36,300원
+
+키친아트 FORT+ IH 직사각전골
+ 36,200원
+
+헥사 통오중 엠보 냄비
+ 40,100원
+
+일품 찜냄비
+ 36,500원
+
+뷰티나 후라이팬
+ 20,200원 
+ 휴브 와플팬
+ 35,900원 
+ 휴브 트리플팬
+ 16,700원 
+ 쿠피아 마블 인덕션 후라이팬
+ 22,500원 
+ 소렐 인덕션 주물 사각팬
+ 21,800원 
+ 티타늄 IH 까사 궁중팬
+ 24,800원 
+ 하우스쿡 콤비팬
+ 20,000원 
+ 미니 인덕션 후라이팬
+ 14,400원
+
+휴브 와플팬
+ 35,900원
+
+쿠피아 마블 인덕션 후라이팬
+ 22,500원
+
+소렐 인덕션 주물 사각팬
+ 21,800원
+
+티타늄 IH 까사 궁중팬
+ 24,800원
+
+하우스쿡 콤비팬
+ 20,000원
+
+미니 인덕션 후라이팬
+ 14,400원
+
+포르트플러스 통3중 압력솥
+ 84,480원 
+ 소렐 경질 압력솥
+ 75,350원 
+ Easy 압력솥 1.2ℓ
+ 126,500원 
+ 뉴EX 압력솥
+ 65,600원 
+ FX 압력솥
+ 65,600원 
+ 미(美) 통오중 압력솥
+ 69,500원 
+ 갤럭시 압력솥
+ 117,300원 
+ 페트라 1·2인용 돌 압력솥
+ 171,600원
+
+뉴EX 압력솥
+ 65,600원
+
+FX 압력솥
+ 65,600원
+
+미(美) 통오중 압력솥
+ 69,500원
+
+페트라 1·2인용 돌 압력솥
+ 171,600원
+
+하단 탭메뉴
+ 기획상품
+ 이벤트상품
+ 베스트상품
+ 이주의 핫딜
+ 상품이 존재하지 않습니다.
+ 상품이 존재하지 않습니다.
+ 상품이 존재하지 않습니다.
+ 상품이 존재하지 않습니다.
+ <!--
+ $(document).ready(function() {
+ $('.tab_goods_11 .goods_tab_tit li').click(function(e){
+ e.preventDefault();
+ $(this).addClass('on').siblings().removeClass('on'); //탭버튼에 on클래스 주기
+// if ($('.tab_goods_11 .goods_tab_cont > .goods_tab_box').eq($(this).index()).length == 0) {
+// $('.tab_goods_11 .goods_tab_cont > .goods_tab_box').removeClass('on');
+// }
+ $('.tab_goods_11 .goods_tab_cont > .goods_tab_box').eq($(this).index()).addClass('on').siblings().removeClass('on'); //해당 탭 내용 열고 나머지 닫기
+ });
+ });
+ //-->
+ <!--
+ var keyValue11 = 'ko' + '11';
+ var key11 = {
+ html: 'html' + keyValue11,
+ page: 'page' + keyValue11
+ };
+ var gdStorage11 = loadSession(key11.html);
+ var page11 = loadSession(key11.page);
+ $(document).ready(function() {
+ if (gdStorage11) {
+ $('.goods_content_11').html(gdStorage11);
+ if (page11) {
+ $('.main_wrap_11 .btn_goods_view_down_more').attr('data-page',page11);
+ }
+ }
+ $('.main_wrap_11 .btn_goods_view_down_more').on('click', function(e){
+ gd_get_list_11($(this).data('page'));
+ });
+ });
+ function gd_get_list_11(page) {
+ $.get('../goods/goods_main.php', {'mode' : 'get_main', 'more' : page, 'sno' : '11', 'groupSno' : ''}, function (data) {
+ $(".goods_content_11").html(data);
+ saveSession(key11.html, data);
+ if (parseInt(page) + 1 > 1) {
+ $('.main_wrap_11 .btn_goods_view_down_more').hide();
+ } else {
+ saveSession(key11.page, parseInt(page)+1);
+ $('.main_wrap_11 .btn_goods_view_down_more').data('page', parseInt(page) + 1);
+ }
+ });
+ }
+ //-->
+
+----- 이미지 대체텍스트 (img alt) -----
+포르트플러스 통3중 압력솥
+Easy 압력솥 1.2ℓ
+Easy 진공쌀통 10kg
+갤럭시 5 스테인레스 POT
+금상첨화 인덕션 궁중전골 냄비24cm
+렉스 전기 무선주전자 1.6L
+렉스 전기주전자 1.7L
+렉스 전기주전자 1.2L
+쏘렐 전기주전자 1.8L KIA-EK17
+전기 주전자 KK-G1722
+전기 주전자 KK-G2217
+허브 무선 전기포트 KAEP-1819NK
+허브  전기주전자 1.5L, 1.8L
+페트라 1·2인용 돌 압력솥

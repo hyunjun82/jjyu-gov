@@ -1,0 +1,49 @@
+{
+  "slug": "beurer-korea",
+  "name": "보이러코리아",
+  "aliases": [
+    "보이러 고객센터",
+    "Beurer",
+    "보이러 AS",
+    "보이러 전기요 AS",
+    "㈜보이러코리아"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1D8DFF",
+  "official": "https://beurer.kr",
+  "sourceUrl": "https://beurer.kr/Service",
+  "sourceName": "보이러코리아 공식 홈페이지 서비스 안내",
+  "verifiedAt": "2026-10-22",
+  "corp": "㈜보이러코리아",
+  "hq": "서울 성동구 연무장5가길 25, 성수역 SK V1 Tower 1603호",
+  "hqZip": "04782",
+  "main": {
+    "label": "상담 안내 (제품 및 AS 상담)",
+    "tel": "02-515-0117"
+  },
+  "hours": {
+    "weekday": "평일: AM 09:00 ~ PM 18:00",
+    "holiday": "휴무: 토, 일, 공휴일"
+  },
+  "hoursNote": "[2026-10-22] 보이러코리아 공식 홈페이지 서비스 안내(beurer.kr/Service): 서비스 센터 안내 상담 안내 02-515-0117 평일: AM 09:00 ~ PM 18:00 ㅣ 휴무: 토, 일, 공휴일, 서비스 센터 도로명: 경기도 광주시 탄벌길 52-14, 하단 제품 및 AS 상담 02-515-0117, 04782 서울 성동구 연무장5가길 25, 성수역 SK V1 Tower 1603호, FAX 02-6956-9108 / TEL 02-6956-9103. 브랜드색은 사이트 유채색(#1D8DFF) 측정값.",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "상담 안내 (제품 및 AS 상담)",
+      "tel": "02-515-0117",
+      "note": "평일 09:00~18:00, 토·일·공휴일 휴무"
+    },
+    {
+      "label": "본사 대표 전화",
+      "tel": "02-6956-9103"
+    }
+  ],
+  "numbersIntro": "제품 및 AS 상담 번호와 회사 전화번호가 따로 적혀 있습니다. 제품이나 AS 문의는 상담 안내 번호로 거시면 됩니다.",
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '상담 안내 (제품 및 AS 상담)'로 적힌 번호입니다."
+}

@@ -1,0 +1,1146 @@
+SLUG: everybot-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 2장 (scripts/output/captures/everybot-call-center-*.png)
+
+===== [1] https://everybotmall.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/everybot-call-center-1.png
+CHARS: 2771
+
+회원가입 시 20,000원 쿠폰 증정
+🚨 카카오톡 채널 피싱사기 주의🚨
+회원가입 시 20,000원 쿠폰 증정
+🚨 카카오톡 채널 피싱사기 주의🚨
+주문조회
+로그인
+회원가입
++20,000
+브랜드
+전체 보기
+로봇청소기
+정품 액세서리
+이벤트
+커뮤니티
+고객지원
+보상판매
+  
+0
+회원가입하고 다양한 혜택 받으세요
+로그인
+주문조회
+브랜드
+전체 보기
+로봇청소기
+정품 액세서리
+이벤트
+커뮤니티
+고객지원
+거침없이 넘어서고, 빈틈없이 커버하는
+세계 최초 문턱 등반 물걸레 로봇청소기
+라이다 센서와 틸트업 기능으로 완성한 쓰리스핀 PRO
+자세히 보기
+[NEW] 신제품
+에브리봇의 최신 제품을 가장 먼저 만나보세요
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q9 PLUS
+799,000원
+19 649,000원
+리뷰 : 25
+ 
+  
+에브리봇 쓰리스핀 PRO 물걸레 로봇청소기 TS800
+699,000원
+7 649,000원
+리뷰 : 24
+ 
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q13
+1,090,000원
+27 799,000원
+리뷰 : 19
+ 
+  
+에브리봇 Q7 PLUS 올인원 로봇청소기 2026년 최신상
+599,000원
+8 549,000원
+리뷰 : 18
+ 
+  
+[공식몰 단독] 26년 NEW 에브리봇 AI 올인원 로봇청소기 Q11 (+먼지봉투3/세정제1)
+990,000원
+24 749,000원
+리뷰 : 23
+ 
+  
+[공식몰단독] 에브리봇 Q3 Turbo Plus 로봇청소기
+498,000원
+4 479,000원
+리뷰 : 2
+상품 더보기 1/2
+[HOT] 이 달의 인기 제품
+이번 달 가장 많은 분들이 구매한 제품을 확인해보세요
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q13
+1,090,000원
+27 799,000원
+리뷰 : 19
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q9 PLUS
+799,000원
+19 649,000원
+리뷰 : 25
+  
+에브리봇 쓰리스핀 PRO 물걸레 로봇청소기 TS800
+699,000원
+7 649,000원
+리뷰 : 24
+  
+[공식몰 단독] 에브리봇 쓰리스핀 슬림 물걸레 로봇청소기 TS450 + 일회용청소포 3팩(90매)
+448,000원
+11 399,000원
+리뷰 : 0
+  
+[공식몰 단독]에브리봇 엣지2 물걸레로봇청소기 RS350+ 분섬사걸레 2+극세사걸레 2 포함
+318,000원
+6 299,000원
+리뷰 : 131
+  
+에브리봇 Q7 PLUS 올인원 로봇청소기 2026년 최신상
+599,000원
+8 549,000원
+리뷰 : 18
+  
+[공식몰 단독] 에브리봇 침구 로봇청소기 X1 + 필터 2 포함
+298,000원
+3 289,000원
+리뷰 : 21
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q13
+1,090,000원
+27 799,000원
+리뷰 : 19
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q9 PLUS
+799,000원
+19 649,000원
+리뷰 : 25
+  
+에브리봇 쓰리스핀 PRO 물걸레 로봇청소기 TS800
+699,000원
+7 649,000원
+리뷰 : 24
+  
+[공식몰 단독] 에브리봇 쓰리스핀 슬림 물걸레 로봇청소기 TS450 + 일회용청소포 3팩(90매)
+448,000원
+11 399,000원
+리뷰 : 0
+  
+[공식몰 단독]에브리봇 엣지2 물걸레로봇청소기 RS350+ 분섬사걸레 2+극세사걸레 2 포함
+318,000원
+6 299,000원
+리뷰 : 131
+  
+에브리봇 Q7 PLUS 올인원 로봇청소기 2026년 최신상
+599,000원
+8 549,000원
+리뷰 : 18
+  
+[공식몰 단독] 에브리봇 침구 로봇청소기 X1 + 필터 2 포함
+298,000원
+3 289,000원
+리뷰 : 21
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q13
+1,090,000원
+27 799,000원
+리뷰 : 19
+  
+NEW 에브리봇 AI 올인원 로봇청소기 Q9 PLUS
+799,000원
+19 649,000원
+리뷰 : 25
+  
+에브리봇 쓰리스핀 PRO 물걸레 로봇청소기 TS800
+699,000원
+7 649,000원
+리뷰 : 24
+  
+[공식몰 단독] 에브리봇 쓰리스핀 슬림 물걸레 로봇청소기 TS450 + 일회용청소포 3팩(90매)
+448,000원
+11 399,000원
+리뷰 : 0
+  
+[공식몰 단독]에브리봇 엣지2 물걸레로봇청소기 RS350+ 분섬사걸레 2+극세사걸레 2 포함
+318,000원
+6 299,000원
+리뷰 : 131
+  
+에브리봇 Q7 PLUS 올인원 로봇청소기 2026년 최신상
+599,000원
+8 549,000원
+리뷰 : 18
+  
+[공식몰 단독] 에브리봇 침구 로봇청소기 X1 + 필터 2 포함
+298,000원
+3 289,000원
+리뷰 : 21
+더보기
+당일 접수, 당일 처리 원칙의
+본사 직영 국내 AS센터
+A/S접수 바로가기
+에브리봇은 한계를 넘어
+더 빠르게 나아갑니다.
+에브리봇은 품질과 기술력이 증명한 대한민국 대표 AI 로봇 전문 기업입니다.
+지속적인 신제품 출시로 청소 로봇 카테고리 라인업을 확장하고,
+혁신적인 로봇 솔루션을 제공합니다.
+브랜드 스토리
+Youtube
+@everybot
+
+상호명 : 에브리봇 주식회사
+대표 : 정우철
+기업홈페이지
+
+주소 : 경기 과천시 과천대로7나길 60 과천어반허브 A동 6층
+
+사업자등록번호 : 129-86-92106
+통신판매업신고 : 제 2017-성남분당-1082호 
+[사업자정보확인]
+
+개인정보보호책임자 : 김영태 (manage@everybot.net)
+E-mail : marketing@everybot.net
+
+© 에브리봇. All rights reserved.
+
+고객센터
+
+070-4938-7920
+
+경기도 성남시 분당구 판교로 256번길 25 넥슨 GT B동 지하 1층 102호
+
+회사소개
+개인정보처리방침
+이용약관
+이용안내
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+에브리봇 소식
+ 제품소개영상
+ 문의하기
+
+자주 묻는 질문
+ A/S 접수
+ 사용설명서
+ 보상할인
+
+마이페이지
+ 주문/배송조회
+ 최근 본 상품
+ 관심상품
+
+검색
+ 최근 검색어전체삭제
+ 최근 검색어가 없습니다.
+ 인기 검색어
+
+고객센터
+ 에브리봇 소식
+상품 리뷰
+문의하기
+제품소개영상
+뉴스/이벤트
+자주 묻는 질문
+올인원 로봇청소기
+ 마이페이지
+ 주문/배송조회
+ 최근 본 상품
+ 관심상품
+
+에브리봇 소식
+ 유튜브 채널
+ 문의하기
+
+국내 최저 높이, 낮은 곳도 거침없이 초슬림 AI 퍼포먼스 초슬림 설계로 완성한 Q9 PLUS자세히 보기black
+
+하이드레이션 롤러가 구현하는 압도적 물걸레 청소 퍼포먼스정밀 AI 센서와 롤러로 완성한 Q13자세히 보기white
+
+올인원 로봇청소기 구매 고객 대상 포토리뷰 작성 시 10만원 상당 사은품 증정!26.10 ~ 소진 시까지 자세히 보기black
+
+글로벌 최고 수준의 경쟁력디자인 어워드 3관왕 수상세계 3대 디자인 어워드를 석권한 독보적 디자인 경쟁력자세히 보기white
+
+개인정보 유출 없이 안심할 수 있는온디바이스 AI 기술영상 촬영과 녹음 없이 암호화 데이터로 안전하게자세히 보기white
+
+사용할수록 느껴지는 차이본사 직영 AS센터도착 당일 처리 원칙!필요한 수리만 합리적으로자세히 보기white
+
+[타이틀]
+국내 최저 높이, 낮은 곳도 거침없이 
+초슬림 AI 퍼포먼스 
+[내용]
+초슬림 설계로 완성한 Q9 PLUS
+[버튼]
+자세히 보기
+ black
+ [타이틀]
+하이드레이션 롤러가 구현하는 
+압도적 물걸레 퍼포먼스
+[내용]
+정밀 AI 센서와 롤러로 완성한 Q13
+[버튼]
+자세히 보기
+ white
+ [타이틀]
+거침없이 넘어서는 
+문턱 등반 물걸레 로봇청소기
+[내용]
+틸트업 기능으로 완성한 쓰리스핀PRO
+[버튼]
+자세히 보기
+ black
+ [타이틀]
+포토리뷰 작성 시, 
+10만원 상당 사은품 증정!
+[내용]
+올인원 로봇청소기 구매 고객 대상
+[버튼]
+자세히 보기
+ black
+ [타이틀]
+글로벌 최고 수준의 경쟁력 
+ 디자인 어워드 3관왕 수상
+[내용]
+세계 3대 디자인 어워드를 석권한 독보적 디자인 경쟁력
+[버튼]
+자세히 보기
+ white
+ [타이틀]
+개인정보 유출없이 안심
+온디바이스 AI 기술
+[내용]
+불필요한 촬영 없이 암호화 데이터로 안전하게
+[버튼]
+자세히 보기
+ white
+ [타이틀]
+본사 직영 AS센터
+[내용]
+도착 당일 처리 원칙
+필요한 수리만 합리적으로
+[버튼]
+자세히 보기
+ white
+
+베스트 리뷰
+ 고객들의 생생한 후기를 통해 더 신뢰할 수 있는 선택을!
+ 리뷰 더보기
+
+리뷰
+ 이 상품의 다른 리뷰
+
+입금 계좌안내
+ 입금 시 주문자 성함 기재
+ 회사소개
+ 개인정보처리방침
+ 이용약관
+ 이용안내
+
+에브리봇 사업자정보
+ 상호명 : 에브리봇 주식회사대표 : 정우철 기업홈페이지
+주소 : 경기 과천시 과천대로7나길 60 과천어반허브 A동 6층
+사업자등록번호 : 129-86-92106통신판매업신고 : 제 2017-성남분당-1082호 [사업자정보확인]
+개인정보보호책임자 : 김영태 (manage@everybot.net)E-mail : marketing@everybot.net
+
+현재 결제가 진행중입니다.
+ 본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면
+ 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+
+WORLD SHIPPING
+ PLEASE SELECT THE DESTINATION COUNTRY AND LANGUAGE :
+ SHIPPING TO : 가나(GHANA)
+SHIPPING TO : 가봉(GABON)
+SHIPPING TO : 가이아나(GUYANA)
+SHIPPING TO : 감비아(GAMBIA)
+SHIPPING TO : 과들루프(GUADELOUPE)
+SHIPPING TO : 과테말라(GUATEMALA)
+SHIPPING TO : 괌(GUAM)
+SHIPPING TO : 그레나다(GRENADA)
+SHIPPING TO : 그리스(GREECE)
+SHIPPING TO : 그린란드(GREENLAND)
+SHIPPING TO : 기니(GUINEA)
+SHIPPING TO : 기니비사우(GUINEA-BISSAU)
+SHIPPING TO : 나미비아(NAMIBIA)
+SHIPPING TO : 나이지리아(NIGERIA)
+SHIPPING TO : 남아프리카 공화국(SOUTH AFRICA)
+SHIPPING TO : 네덜란드(NETHERLANDS)
+SHIPPING TO : 네덜란드령 안틸레스(NETHERLANDS(ANTILLES))
+SHIPPING TO : 네팔(NEPAL)
+SHIPPING TO : 노르웨이(NORWAY)
+SHIPPING TO : 노퍽 섬(NORFOLK ISLAND)
+SHIPPING TO : 누벨칼레도니(NEW CALEDONIA)
+SHIPPING TO : 뉴질랜드(NEW ZEALAND)
+SHIPPING TO : 니제르(NIGER)
+SHIPPING TO : 니카라과(NICARAGUA)
+SHIPPING TO : 대만(TAIWAN)
+SHIPPING TO : 대한민국(KOREA (REP OF,))
+SHIPPING TO : 덴마크(DENMARK)
+SHIPPING TO : 도미니카(DOMINICA)
+SHIPPING TO : 도미니카 공화국(DOMINICAN REPUBLIC)
+SHIPPING TO : 독일(GERMANY)
+SHIPPING TO : 동티모르(TIMOR-LESTE)
+SHIPPING TO : 라오스(LAO PEOPLE'S DEM REP)
+SHIPPING TO : 라이베리아(LIBERIA)
+SHIPPING TO : 라트비아(LATVIA)
+SHIPPING TO : 러시아(RUSSIAN FEDERATION)
+SHIPPING TO : 레바논(LEBANON)
+SHIPPING TO : 레소토(LESOTHO)
+SHIPPING TO : 레위니옹(REUNION)
+SHIPPING TO : 루마니아(ROMANIA)
+SHIPPING TO : 룩셈부르크(LUXEMBOURG)
+SHIPPING TO : 르완다(RWANDA)
+SHIPPING TO : 리비아(LIBYAN ARAB JAMAHIRIYA)
+SHIPPING TO : 리투아니아(LITHUANIA)
+SHIPPING TO : 리히텐슈타인(LIECHTENSTEIN)
+SHIPPING TO : 마다가스카르(MADAGASCAR)
+SHIPPING TO : 마르티니크(MARTINIQUE)
+SHIPPING TO : 마셜 제도(MARSHALL ISLANDS)
+SHIPPING TO : 마카오(MACAU)
+SHIPPING TO : 말라위(MALAWI)
+SHIPPING TO : 말레이시아(MALAYSIA)
+SHIPPING TO : 말리(MALI)
+SHIPPING TO : 멕시코(MEXICO)
+SHIPPING TO : 모나코(MONACO)
+SHIPPING TO : 모로코(MOROCCO)
+SHIPPING TO : 모리셔스(MAURITIUS)
+SHIPPING TO : 모리타니(MAURITANIA)
+SHIPPING TO : 모잠비크(MOZAMBIQUE)
+SHIPPING TO : 몬테네그로(MONTENEGRO)
+SHIPPING TO : 몬트세랫(MONTSERRAT)
+SHIPPING TO : 몰도바(MOLDOVA, REPUBLIC OF)
+SHIPPING TO : 몰디브(MALDIVES)
+SHIPPING TO : 몰타(MALTA)
+SHIPPING TO : 몽골(MONGOLIA)
+SHIPPING TO : 미국(U.S.A)
+SHIPPING TO : 미국령 버진아일랜드(VIRGIN ISLANDS U.S.)
+SHIPPING TO : 미얀마(MYANMAR)
+SHIPPING TO : 미크로네시아 연방(MICRONESIA)
+SHIPPING TO : 바누아투(VANUATU)
+SHIPPING TO : 바레인(BAHRAIN)
+SHIPPING TO : 바베이도스(BARBADOS)
+SHIPPING TO : 바하마(BAHAMAS)
+SHIPPING TO : 방글라데시(BANGLADESH)
+SHIPPING TO : 버뮤다(BERMUDA)
+SHIPPING TO : 베냉(BENIN)
+SHIPPING TO : 베네수엘라(VENEZUELA)
+SHIPPING TO : 베트남(VIET NAM)
+SHIPPING TO : 벨기에(BELGIUM)
+SHIPPING TO : 벨라루스(BELARUS)
+SHIPPING TO : 벨리즈(BELIZE)
+SHIPPING TO : 보스니아 헤르체고비나(Bosnia and Herzegovina)
+SHIPPING TO : 보츠와나(BOTSWANA)
+SHIPPING TO : 볼리비아(BOLIVIA)
+SHIPPING TO : 부룬디(BURUNDI)
+SHIPPING TO : 부르키나파소(BURKINA FASO)
+SHIPPING TO : 부탄(BHUTAN)
+SHIPPING TO : 북마리아나 제도(NORTHERN MARIANA ISLANDS)
+SHIPPING TO : 북마케도니아(MACEDONIA)
+SHIPPING TO : 불가리아(BULGARIA(REP))
+SHIPPING TO : 브라질(BRAZIL)
+SHIPPING TO : 브루나이(BRUNEI DARUSSALAM)
+SHIPPING TO : 사모아(SAMOA)
+SHIPPING TO : 사우디아라비아(SAUDI ARABIA)
+SHIPPING TO : 산마리노(SAN MARINO)
+SHIPPING TO : 세네갈(SENEGAL)
+SHIPPING TO : 세르비아(SERBIA/KOSOVO)
+SHIPPING TO : 세이셸(SEYCHELLES)
+SHIPPING TO : 세인트루시아(SAINT LUCIA)
+SHIPPING TO : 세인트빈센트 그레나딘(SAINT VINCENT AND THE GRENADINES)
+SHIPPING TO : 세인트키츠 네비스(SAINT KITTS AND NEVIS)
+SHIPPING TO : 솔로몬 제도(SOLOMON ISLANDS)
+SHIPPING TO : 수리남(SURINAME)
+SHIPPING TO : 스리랑카(SRI LANKA)
+SHIPPING TO : 스웨덴(SWEDEN)
+SHIPPING TO : 스위스(SWITZERLAND)
+SHIPPING TO : 스페인(SPAIN)
+SHIPPING TO : 슬로바키아(SLOVAKIA)
+SHIPPING TO : 슬로베니아(SLOVENIA)
+SHIPPING TO : 시에라리온(SIERRA LEONE)
+SHIPPING TO : 싱가포르(SINGAPORE)
+SHIPPING TO : 아랍에미리트(UNITED ARAB EMIRATES)
+SHIPPING TO : 아루바(ARUBA)
+SHIPPING TO : 아르메니아(ARMENIA)
+SHIPPING TO : 아르헨티나(ARGENTINA)
+SHIPPING TO : 아메리칸사모아(AMERICAN SAMOA)
+SHIPPING TO : 아이슬란드(ICELAND)
+SHIPPING TO : 아이티(HAITI)
+SHIPPING TO : 아일랜드(IRELAND)
+SHIPPING TO : 아제르바이잔(AZERBAIJAN)
+SHIPPING TO : 아프가니스탄(AFGHANISTAN)
+SHIPPING TO : 안도라(ANDORRA)
+SHIPPING TO : 알바니아(ALBANIA)
+SHIPPING TO : 알제리(ALGERIA)
+SHIPPING TO : 앙골라(ANGOLA)
+SHIPPING TO : 앤티가 바부다(ANTIGUA AND BARBUDA)
+SHIPPING TO : 앵귈라(ANGUILLA)
+SHIPPING TO : 에리트레아(ERITREA)
+SHIPPING TO : 에스와티니(SWAZILAND)
+SHIPPING TO : 에스토니아(ESTONIA)
+SHIPPING TO : 에콰도르(ECUADOR)
+SHIPPING TO : 에티오피아(ETHIOPIA)
+SHIPPING TO : 엘살바도르(EL SALVADOR)
+SHIPPING TO : 영국(UNITED KINGDOM)
+SHIPPING TO : 영국령 버진아일랜드(VIRGIN ISLANDS BRITISH)
+SHIPPING TO : 예멘(YEMEN)
+SHIPPING TO : 오만(OMAN)
+SHIPPING TO : 오스트레일리아(AUSTRALIA)
+SHIPPING TO : 오스트리아(AUSTRIA)
+SHIPPING TO : 온두라스(HONDURAS)
+SHIPPING TO : 요르단(JORDAN)
+SHIPPING TO : 우간다(UGANDA)
+SHIPPING TO : 우루과이(URUGUAY)
+SHIPPING TO : 우즈베키스탄(UZBEKISTAN)
+SHIPPING TO : 우크라이나(UKRAINE)
+SHIPPING TO : 이라크(IRAQ)
+SHIPPING TO : 이란(IRAN(ISLAMIC REP))
+SHIPPING TO : 이스라엘(ISRAEL)
+SHIPPING TO : 이집트(EGYPT)
+SHIPPING TO : 이탈리아(ITALY)
+SHIPPING TO : 인도(INDIA)
+SHIPPING TO : 인도네시아(INDONESIA)
+SHIPPING TO : 일본(JAPAN)
+SHIPPING TO : 자메이카(JAMAICA)
+SHIPPING TO : 잠비아(ZAMBIA)
+SHIPPING TO : 조지아(GEORGIA)
+SHIPPING TO : 중국(CHINA(PEOPLE'S REP))
+SHIPPING TO : 중앙아프리카 공화국(CENTRAL AFRICAN REPUBLIC)
+SHIPPING TO : 지부티(DJIBOUTI)
+SHIPPING TO : 지브롤터(GIBRALTAR)
+SHIPPING TO : 짐바브웨(ZIMBABWE)
+SHIPPING TO : 차드(CHAD)
+SHIPPING TO : 체코(CZECH REP)
+SHIPPING TO : 칠레(CHILE)
+SHIPPING TO : 카메룬(CAMEROON)
+SHIPPING TO : 카보베르데(CAPE VERDE)
+SHIPPING TO : 카자흐스탄(KAZAKHSTAN)
+SHIPPING TO : 카타르(QATAR)
+SHIPPING TO : 캄보디아(CAMBODIA)
+SHIPPING TO : 캐나다(CANADA)
+SHIPPING TO : 케냐(KENYA)
+SHIPPING TO : 케이맨 제도(CAYMAN ISLANDS)
+SHIPPING TO : 코스타리카(COSTA RICA)
+SHIPPING TO : 코트디부아르(COTE D IVOIRE)
+SHIPPING TO : 콜롬비아(COLOMBIA)
+SHIPPING TO : 콩고 공화국(CONGO)
+SHIPPING TO : 쿠바(CUBA)
+SHIPPING TO : 쿠웨이트(KUWAIT)
+SHIPPING TO : 크로아티아(CROATIA)
+SHIPPING TO : 키르기스스탄(KYRGYZSTAN)
+SHIPPING TO : 키리바시(KIRIBATI)
+SHIPPING TO : 키프로스(CYPRUS)
+SHIPPING TO : 타이(THAILAND)
+SHIPPING TO : 타지키스탄(TAJIKISTAN)
+SHIPPING TO : 탄자니아(TANZANIA(UNITED REP))
+SHIPPING TO : 터크스 케이커스 제도(TURKS AND CAICOS ISLANDS)
+SHIPPING TO : 터키(TURKEY)
+SHIPPING TO : 토고(TOGO)
+SHIPPING TO : 통가(TONGA)
+SHIPPING TO : 투르크메니스탄(TURKMENISTAN)
+SHIPPING TO : 투발루(TUVALU)
+SHIPPING TO : 튀니지(TUNISIA)
+SHIPPING TO : 트리니다드 토바고(TRINIDAD AND TOBAGO)
+SHIPPING TO : 파나마(PANAMA(REP))
+SHIPPING TO : 파라과이(PARAGUAY)
+SHIPPING TO : 파키스탄(PAKISTAN)
+SHIPPING TO : 파푸아 뉴기니(PAPUA NEW GUINEA)
+SHIPPING TO : 팔라우(PALAU)
+SHIPPING TO : 페로 제도(FAROE ISLANDS)
+SHIPPING TO : 페루(PERU)
+SHIPPING TO : 포르투갈(PORTUGAL)
+SHIPPING TO : 폴란드(POLAND(REP))
+SHIPPING TO : 푸에르토리코(PUERTO RICO)
+SHIPPING TO : 프랑스(FRANCE)
+SHIPPING TO : 프랑스령 기아나(FRENCH GUIANA)
+SHIPPING TO : 프랑스령 폴리네시아(FRENCH POLYNESIA)
+SHIPPING TO : 피지(FIJI)
+SHIPPING TO : 핀란드(FINLAND)
+SHIPPING TO : 필리핀(PHILIPPINES)
+SHIPPING TO : 헝가리(HUNGARY(REP))
+SHIPPING TO : 홍콩(HONG KONG)
+ LANGUAGE : 한국어
+ GO
+ 닫기
+
+if (hasCriteoTag() === false) {
+ window.criteo_q = window.criteo_q || [];
+ window.criteo_q.push(
+ { event: "flushEvents"},
+ { event: "setAccount", account: "97462"},
+ { event: "setSiteType", type: "d" },
+ { event: "viewPage"}
+ );
+}
+function hasCriteoTag() {
+ var currentPathRole = getPathRole();
+ if (currentPathRole === '') {
+ return true;
+ }
+ var tagImplementedPathRoles = ['MAIN','PRODUCT_LIST','PRODUCT_SEARCH','PRODUCT_DETAIL','ORDER_BASKET','ORDER_ORDERRESULT'];
+ return tagImplementedPathRoles.includes(currentPathRole);
+}
+function getPathRole() {
+ const metas = document.getElementsByTagName('meta');
+ for (let i = 0; i < metas.length; i++) {
+ if (metas[i].getAttribute('name') === 'path_role') {
+ return metas[i].getAttribute('content');
+ }
+ }
+ return '';
+}
+var email_sha256 = SHA256('');
+function SHA256(s){
+ if (s == '') {
+ return '';
+ }
+ var chrsz = 8;
+ var hexcase = 0;
+ function safe_add (x, y) {
+ var lsw = (x & 0xFFFF) + (y & 0xFFFF);
+ var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
+ return (msw << 16) | (lsw & 0xFFFF);
+ }
+ function S (X, n) { return ( X >>> n ) | (X << (32 - n)); }
+ function R (X, n) { return ( X >>> n ); }
+ function Ch(x, y, z) { return ((x & y) ^ ((~x) & z)); }
+ function Maj(x, y, z) { return ((x & y) ^ (x & z) ^ (y & z)); }
+ function Sigma0256(x) { return (S(x, 2) ^ S(x, 13) ^ S(x, 22)); }
+ function Sigma1256(x) { return (S(x, 6) ^ S(x, 11) ^ S(x, 25)); }
+ function Gamma0256(x) { return (S(x, 7) ^ S(x, 18) ^ R(x, 3)); }
+ function Gamma1256(x) { return (S(x, 17) ^ S(x, 19) ^ R(x, 10)); }
+ function core_sha256 (m, l) {
+ var K = new Array(0x428A2F98, 0x71374491, 0xB5C0FBCF, 0xE9B5DBA5, 0x3956C25B, 0x59F111F1, 
+ 0x923F82A4, 0xAB1C5ED5, 0xD807AA98, 0x12835B01, 0x243185BE, 0x550C7DC3, 
+ 0x72BE5D74, 0x80DEB1FE, 0x9BDC06A7, 0xC19BF174, 0xE49B69C1, 0xEFBE4786, 
+ 0xFC19DC6, 0x240CA1CC, 0x2DE92C6F, 0x4A7484AA, 0x5CB0A9DC, 0x76F988DA, 
+ 0x983E5152, 0xA831C66D, 0xB00327C8, 0xBF597FC7, 0xC6E00BF3, 0xD5A79147, 
+ 0x6CA6351, 0x14292967, 0x27B70A85, 0x2E1B2138, 0x4D2C6DFC, 0x53380D13, 
+ 0x650A7354, 0x766A0ABB, 0x81C2C92E, 0x92722C85, 0xA2BFE8A1, 0xA81A664B, 
+ 0xC24B8B70, 0xC76C51A3, 0xD192E819, 0xD6990624, 0xF40E3585, 0x106AA070, 
+ 0x19A4C116, 0x1E376C08, 0x2748774C, 0x34B0BCB5, 0x391C0CB3, 0x4ED8AA4A, 
+ 0x5B9CCA4F, 0x682E6FF3, 0x748F82EE, 0x78A5636F, 0x84C87814, 0x8CC70208, 
+ 0x90BEFFFA, 0xA4506CEB, 0xBEF9A3F7, 0xC67178F2);
+ var HASH = new Array(0x6A09E667, 0xBB67AE85, 0x3C6EF372, 0xA54FF53A, 0x510E527F, 0x9B05688C, 0x1F83D9AB, 0x5BE0CD19);
+ var W = new Array(64);
+ var a, b, c, d, e, f, g, h, i, j;
+ var T1, T2;
+ m[l >> 5] |= 0x80 << (24 - l % 32);
+ m[((l + 64 >> 9) << 4) + 15] = l;
+ for ( var i = 0; i<m.length; i+=16 ) {
+ a = HASH[0];
+ b = HASH[1];
+ c = HASH[2];
+ d = HASH[3];
+ e = HASH[4];
+ f = HASH[5];
+ g = HASH[6];
+ h = HASH[7];
+ for ( var j = 0; j<64; j++) {
+ if (j < 16) W[j] = m[j + i];
+ else W[j] = safe_add(safe_add(safe_add(Gamma1256(W[j - 2]), W[j - 7]), Gamma0256(W[j - 15])), W[j - 16]);
+ T1 = safe_add(safe_add(safe_add(safe_add(h, Sigma1256(e)), Ch(e, f, g)), K[j]), W[j]);
+ T2 = safe_add(Sigma0256(a), Maj(a, b, c));
+ h = g;
+ g = f;
+ f = e;
+ e = safe_add(d, T1);
+ d = c;
+ c = b;
+ b = a;
+ a = safe_add(T1, T2);
+ }
+ HASH[0] = safe_add(a, HASH[0]);
+ HASH[1] = safe_add(b, HASH[1]);
+ HASH[2] = safe_add(c, HASH[2]);
+ HASH[3] = safe_add(d, HASH[3]);
+ HASH[4] = safe_add(e, HASH[4]);
+ HASH[5] = safe_add(f, HASH[5]);
+ HASH[6] = safe_add(g, HASH[6]);
+ HASH[7] = safe_add(h, HASH[7]);
+ }
+ return HASH;
+ }
+ function str2binb (str) {
+ var bin = Array();
+ var mask = (1 << chrsz) - 1;
+ for(var i = 0; i < str.length * chrsz; i += chrsz) {
+ bin[i>>5] |= (str.charCodeAt(i / chrsz) & mask) << (24 - i%32);
+ }
+ return bin;
+ }
+ function Utf8Encode(string) {
+ string = string.replace(/\r\n/g,"\n");
+ var utftext = "";
+ for (var n = 0; n < string.length; n++) {
+ var c = string.charCodeAt(n);
+ if (c < 128) {
+ utftext += String.fromCharCode(c);
+ }
+ else if((c > 127) && (c < 2048)) {
+ utftext += String.fromCharCode((c >> 6) | 192);
+ utftext += String.fromCharCode((c & 63) | 128);
+ }
+ else {
+ utftext += String.fromCharCode((c >> 12) | 224);
+ utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+ utftext += String.fromCharCode((c & 63) | 128);
+ }
+ }
+ return utftext;
+ }
+ function binb2hex (binarray) {
+ var hex_tab = hexcase ? "0123456789ABCDEF" : "0123456789abcdef";
+ var str = "";
+ for(var i = 0; i < binarray.length * 4; i++) {
+ str += hex_tab.charAt((binarray[i>>2] >> ((3 - i%4)*8+4)) & 0xF) +
+ hex_tab.charAt((binarray[i>>2] >> ((3 - i%4)*8 )) & 0xF);
+ }
+ return str;
+ }
+ s = Utf8Encode(s);
+ return binb2hex(core_sha256(str2binb(s), s.length * chrsz));
+ }
+
+window.criteo_q = window.criteo_q || [];
+window.criteo_q.push(
+ { event: "flushEvents"},
+ { event: "setAccount", account: "97462"},
+ { event: "setEmail", email: email_sha256, hash_method: "sha256" },
+ { event: "setSiteType", type: "d" },
+ { event: "viewHome" }
+);
+
+var TRS_AIDX=11839,TRS_PROTOCOL=document.location.protocol;document.writeln();var TRS_URL=TRS_PROTOCOL+"//"+("https:"==TRS_PROTOCOL?"analysis.adinsight.co.kr":"adlog.adinsight.co.kr")+"/emnet/trs_esc.js";document.writeln("\x3cscript language\x3d'javascript' src\x3d'"+TRS_URL+"'\x3e\x3c/script\x3e");
+
+----- 이미지 대체텍스트 (img alt) -----
+NEW 에브리봇 AI 올인원 로봇청소기 Q9 PLUS
+에브리봇 쓰리스핀 PRO 물걸레 로봇청소기 TS800
+NEW 에브리봇 AI 올인원 로봇청소기 Q13
+에브리봇 Q7 PLUS 올인원 로봇청소기 2026년 최신상
+[공식몰 단독] 26년 NEW 에브리봇 AI 올인원 로봇청소기 Q11 (+먼지봉투3/세정제1)
+에브리봇 로봇청소기 Q3 Turbo Plus - 최신 스마트 청소 로봇 이미지
+[공식몰 단독] 에브리봇 쓰리스핀 슬림 물걸레 로봇청소기 TS450 + 일회용청소포 3팩(90매)
+엣지2 물걸레로봇청소기 - 효율적인 바닥 청소를 위한 혁신적 로봇 이미지
+침구 로봇청소기 X1 - 에브리봇 청소기 이미지
+Q7 Plus |  이렇게 더러워도 청소할 수 있을까? 로봇청소기 극한 테스트🔥
+Q7 Plus | 사용설명서 읽기 귀찮다면? 이 영상 하나로 마스터 하기! 😎
+Q9 Plus | 엄마?아빠? 누구 앱에 등록할지까지 정해주는 Q&A 총정리🎯
+로봇청소기 이렇게 사면 됩니다! 에브리봇 신상 Q7 PLUS · Q9 PLUS · Q13 총정리😎
+Q9 Plus l 슬림해졌는데, 청소 성능은 2배로? 비결 전부 알려드림✨
+Q9 Plus | 가장 작은 로봇청소기가 가진 거대한 비밀?🧐
+더 낮게 들어가 더 넓게 닦다 | 에브리봇 Q9 Plus (Official Film)
+Q9 Plus 사용 가이드 | 핵심만 쏙! 쉽고 간단한 사용 방법🤓
+Q11 | 너 머리에 든게 뭐니?🧠 똑똑한 로봇청소기의 비결, AI
+Q11 | 무물타임💬 20,000Pa? AI? 뭐 이런거 까지 답해???  드립니다👍🏻
+
+
+===== [2] https://www.everybot.co.kr/contact =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/everybot-call-center-2.png
+CHARS: 6706
+
+에브리봇 기업홈페이지
+	
+COMPANYTECHNOLOGYIRCONTACT
+	
+BOOK TICKETS
+에브리봇 기업홈페이지
+CompanyTechnologyIRContact
+	
+에브리봇 기업홈페이지
+
+|
+
+KOR
+
+Contact
+
+에브리봇 본사
+
+경기도 과천시 과천대로7나길 60 과천어반허브 A동 6층
+
+60 Gwacheon-daero 7na-gil, Gwacheon-si, Gyeonggi-do,
+Gwacheon Urban Hub, Building A, 6th Floor
+
+Tel. 02-503-8917
+
+공식 A/S 센터
+
+경기도 성남시 분당구 판교로 256번길 25 넥슨 GT B동 지하 1층 102호
+
+Room 102, Basement 1, Building B, Nexon GT, 25 Pangyo-ro 256beon-gil,
+Bundang-gu, Seongnam-si,Gyeonggi-do
+
+Tel. 070-4938-7920
+
+제휴 문의
+
+• 필수항목
+
+제목
+상세내용
+분류
+(선택)
+공공기관
+기업
+개인
+기타
+성함
+연락처
+--
+이메일
+홈페이지 주소
+파일 첨부
+파일 올리기
+file upload button
++ 첨부파일 추가
+(최대 5개)
+개인정보 수집 및 이용 동의 
+회사명(이하 ‘회사’라 한다)는 개인정보 보호법 제30조에 따라 정보 주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립, 공개합니다.
+
+제1조 (개인정보의 처리목적)
+회사는 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 개인정보보호법 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.
+
+1. 홈페이지 회원 가입 및 관리
+회원 가입 의사 확인, 회원제 서비스 제공에 따른 본인 식별․인증, 회원자격 유지․관리, 제한적 본인확인제 시행에 따른 본인확인, 서비스 부정 이용 방지, 만 14세 미만 아동의 개인정보처리 시 법정대리인의 동의 여부 확인, 각종 고지․통지, 고충 처리 등을 목적으로 개인정보를 처리합니다.
+
+2. 재화 또는 서비스 제공
+물품 배송, 서비스 제공, 계약서 및 청구서 발송, 콘텐츠 제공, 맞춤서비스 제공, 본인인증, 연령인증, 요금 결제 및 정산, 채권추심 등을 목적으로 개인정보를 처리합니다.
+
+3. 고충 처리
+민원인의 신원 확인, 민원사항 확인, 사실조사를 위한 연락․통지, 처리 결과 통보 등의 목적으로 개인정보를 처리합니다.
+
+제2조 (개인정보의 처리 및 보유기간)
+① 회사는 법령에 따른 개인정보 보유, 이용 기간 또는 정보주체로부터 개인정보를 수집 시에 동의 받은 개인정보 보유, 이용 기간 내에서 개인정보를 처리, 보유합니다.
+② 각각의 개인정보 처리 및 보유 기간은 다음과 같습니다.
+
+1. 홈페이지 회원 가입 및 관리 : 사업자/단체 홈페이지 탈퇴 시까지
+다만, 다음의 사유에 해당하는 경우에는 해당 사유 종료 시까지
+1) 관계 법령 위반에 따른 수사, 조사 등이 진행 중인 경우에는 해당 수사, 조사 종료 시까지
+2) 홈페이지 이용에 따른 채권 및 채무관계 잔존 시에는 해당 채권, 채무 관계 정산 시까지
+
+2. 재화 또는 서비스 제공 : 재화․서비스 공급완료 및 요금결제․정산 완료 시까지
+다만, 다음의 사유에 해당하는 경우에는 해당 기간 종료 시까지
+1) 「전자상거래 등에서의 소비자 보호에 관한 법률」에 따른 표시․광고, 계약내용 및 이행 등 거래에 관한 기록
+- 표시․광고에 관한 기록 : 6월
+- 계약 또는 청약 철회, 대금결제, 재화 등의 공급기록 : 5년
+- 소비자 불만 또는 분쟁 처리에 관한 기록 : 3년
+2) 「통신비밀보호법」 제41조에 따른 통신사실확인자료 보관
+- 가입자 전기통신일시, 개시․종료 시간, 상대방 가입자 번호, 사용도수, 발신기지국 위치추적자료 : 1년
+- 컴퓨터 통신, 인터넷 로그 기록자료, 접속지 추적자료 : 3개월
+
+제3조 (개인정보의 제3자 제공)
+① 회사는 정보주체의 개인정보를 제1조(개인정보의 처리목적)에서 명시한 범위 내에서만 처리하며, 정보주체의 동의, 법률의 특별한 규정 등 개인정보 보호법 제17조 및 제 18조에 해당하는 경우에만 개인정보를 제3자에게 제공하고 그 외에는 정보주체의 개인정보를 제3자에게 제공하지 않습니다.
+② 회사는 원활한 서비스 제공을 위해 다음의 경우 개인정보보호법 제17조 제1항 제1호에 따라 정보주체의 동의를 얻어 필요 최소한의 범위로만 개인정보를 제3자에게 제공할 수 있습니다.
+- 개인정보를 제공받는 자 : <예) (주) OOO 카드>
+- 제공받는 자의 개인정보 이용목적 : <예) 이벤트 공동개최 등 업무제휴 및 제휴 신용카드 발급>
+- 제공하는 개인정보 항목 : <예) 성명, 주소, 전화번호, 이메일주소, 카드결제계좌정보>
+- 제공받는 자의 보유, 이용기간 : <예) 신용카드 발급계약에 따른 거래기간동안>
+
+제4조(개인정보처리의 위탁)
+① 회사는 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.
+- 위탁업무 내용
+- 위탁받는 자 (수탁자) : (주)아임웹
+- 위탁하는 업무의 내용 : 쇼핑몰 호스팅 서비스의 시스템 제공, 모바일 앱 서비스, 마케팅 서비스 및 부가, 제휴서비스 제공 및 알림톡, 친구톡, 문자메시지 발송대행 서비스, 판매 채널 주문 연동 서비스 등
+- 위탁받는 자 (수탁자) : OOO PG
+- 위탁하는 업무의 내용 : 결제 및 에스크로 업무
+- 위탁받는 자 (수탁자) : OOO 택배
+- 위탁하는 업무의 내용 : 상품 배송 업무
+- 위탁받는 자 (수탁자) : OOO 고객센터
+- 위탁하는 업무의 내용 : 고객상담 업무
+- 위탁받는 자 (수탁자) : OOO
+- 위탁하는 업무의 내용 : 본인확인 업무
+- **재위탁사**
+- **재위탁받는 자(수탁자) : (주)아임웹 → 인포빕(유)**
+- **위탁하는 업무의 내용 : 문자메시지 발송, 카카오톡 알림톡(정보성 메시지) 발송 업무**
+- **재위탁받는 자(수탁자) : (주)아임웹 → (주)루나소프트**
+- **위탁하는 업무의 내용 : 문자메시지 발송, 카카오톡 알림톡(정보성 메시지) 및 친구톡 발송 업무**
+② 회사는 위탁계약 체결 시 개인정보 보호법 제25조에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적․관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리․감독, 손해배상 등 책임에 관한 사항을 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.
+③ 위탁업무의 내용이나 수탁자가 변경될 경우에는 지체없이 본 개인정보 처리방침을 통하여 공개하도록 하겠습니다.
+
+제5조(정보주체 및 법정대리인의 권리와 그 행사 방법)
+
+① 정보주체는 회사에 대해 언제든지 다음 각 호의 개인정보 보호 관련 권리를 행사할 수 있습니다.
+1. 개인정보 열람 요구
+2. 오류 등이 있을 경우 정정 요구
+3. 삭제요구
+4. 처리정지 요구
+② 제1항에 따른 권리 행사는 회사에 대해 서면, 전화, 전자우편, 모사전송(FAX) 등을 통하여 하실 수 있으며 회사는 이에 대해 지체없이 조치하겠습니다.
+③ 정보주체가 개인정보의 오류 등에 대한 정정 또는 삭제를 요구한 경우에는 회사는 정정 또는 삭제를 완료할 때까지 당해 개인정보를 이용하거나 제공하지 않습니다.
+④ 제1항에 따른 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 개인정보 보호법 시행규칙 별지 제11호 서식에 따른 위임장을 제출하셔야 합니다.
+⑤ 정보주체는 개인정보 보호법 등 관계 법령을 위반하여 회사가 처리하고 있는 정보주체 본인이나 타인의 개인정보 및 사생활을 침해하여서는 아니 됩니다.
+
+제6조(처리하는 개인정보 항목)
+회사는 다음의 개인정보 항목을 처리하고 있습니다.
+
+1. 홈페이지 회원 가입 및 관리
+필수항목 : <예) 성명, 생년월일, 아이디, 비밀번호, 주소, 전화번호, 성별, 이메일주소, 아이핀번호>
+선택항목 : <예) 결혼 여부, 관심 분야>
+
+2. 재화 또는 서비스 제공
+필수항목 : <예) 성명, 생년월일, 아이디, 비밀번호, 주소, 전화번호, 이메일주소, 아이핀번호, 신용카드번호, 은행계좌정보 등 결제정보>
+선택항목 : <관심분야, 과거 구매내역>
+
+제7조(개인정보의 파기)
+① 회사는 개인정보 보유 기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.
+② 정보주체로부터 동의받은 개인정보 보유 기간이 경과하거나 처리목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보를 별도의 데이터베이스(DB)로 옮기거나 보관장소를 달리하여 보존합니다.
+③ 개인정보 파기의 절차 및 방법은 다음과 같습니다.
+1. 파기 절차
+회사는 파기 사유가 발생한 개인정보를 선정하고, 회사의 개인정보 보호책임자의 승인을 받아 개인정보를 파기합니다.
+2. 파기 방법
+회사는 전자적 파일 형태로 기록․저장된 개인정보는 기록을 재생할 수 없도록 파기하며, 종이 문서에 기록․저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다.
+
+제8조(개인정보의 안전성 확보조치)
+회사는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 하고 있습니다.
+1. 관리적 조치 : 내부관리계획 수립 및 시행, 정기적 직원 교육 등
+2. 기술적 조치 : 개인정보처리시스템 등의 접근 권한 관리, 접근통제시스템 설치, 고유 식별정보
+등의 암호화, 보안프로그램 설치
+3. 물리적 조치 : 전산실, 자료보관실 등의 접근통제
+
+제9조(개인정보 자동 수집 장치의 설치∙운영 및 거부에 관한 사항)
+① 회사는 이용자에게 개별적인 맞춤 서비스를 제공하기 위해 이용정보를 저장하고 수시로 불러오는 ‘쿠키(cookie)’를 사용합니다.
+② 쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터 브라우저에 보내는 소량의 정보이며 이용자들의 PC 또는 모바일에 저장됩니다.
+③ 정보주체는 웹 브라우저 옵션 설정을 통해 쿠키 허용, 차단 등의 설정을 할 수 있습니다. 다만, 쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다.
+
+▶ 웹 브라우저에서 쿠키 허용/차단
+- 크롬(Chrome) : 웹 브라우저 설정 > 개인정보 보호 및 보안 > 인터넷 사용기록 삭제
+- 엣지(Edge) : 웹 브라우저 설정 > 쿠키 및 사이트 권한 > 쿠키 및 사이트 데이터 관리 및 삭제
+
+▶ 모바일 브라우저에서 쿠키 허용/차단
+- 크롬(Chrome) : 모바일 브라우저 설정 > 개인정보 보호 및 보안 > 인터넷 사용기록 삭제
+- 사파리(Safari) : 모바일 기기 설정 > 사파리(Safari) > 고급 > 모든 쿠키 차단
+- 삼성 인터넷 : 모바일 브라우저 설정 > 인터넷 사용 기록 > 인터넷 사용 기록 삭제
+
+④ 회사는 서비스 이용과정에서 사용자가 방문한 각 서비스와 웹 사이트들에 대한 방문 및 이용형태, 인기 검색어, 보안접속 여부 등을 파악하여 이용자에게 최적화된 정보 제공을 위해 수집・이용하고 있습니다.
+
+제10조(개인정보 보호책임자)
+① 회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만 처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
+
+▶ 개인정보 보호책임자
+성명 : OOO
+직책 : OOO
+연락처 : <전화번호>, <이메일>, <팩스번호>
+※ 개인정보 보호 담당부서로 연결됩니다.
+
+▶ 개인정보 보호 담당부서
+부서명 : OOO 팀
+연락처 : <전화번호>, <이메일>, <팩스번호>
+
+② 정보주체께서는 회사의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만 처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수 있습니다. 회사는 정보주체의 문의에 대해 지체없이 답변 및 처리해드릴 것입니다.
+
+제11조(개인정보 열람청구)
+정보주체는 개인정보 보호법 제35조에 따른 개인정보의 열람 청구를 아래의 부서에 할 수 있습니다. 회사는 정보주체의 개인정보 열람 청구가 신속하게 처리되도록 노력하겠습니다.
+
+▶ 개인정보 열람청구 접수․처리 부서
+부서명 : OOO
+연락처 : <전화번호>, <이메일>, <팩스번호>
+
+제12조(권익침해 구제 방법)
+정보주체는 아래의 기관에 대해 개인정보 침해에 대한 피해구제, 상담 등을 문의하실 수 있습니다.
+1. 개인정보 분쟁조정위원회 : (국번없이) 1833-6972 (www.kopico.go.kr)
+2. 개인정보침해신고센터 : (국번없이) 118 (privacy.kisa.or.kr)
+3. 대검찰청 : (국번없이) 1301 (www.spo.go.kr)
+4. 경찰청 : (국번없이) 182 (ecrm.police.go.kr/minwon/main)
+
+제13조(개인정보 처리방침 시행 및 변경)
+이 개인정보 처리방침은 20XX. X. X. 부터 적용됩니다.
+개인정보 수집 및 이용에 동의합니다.
+작성
+쇼핑몰 바로가기
+Company
+회사 소개
+인재 채용
+Technology
+Overview
+R&D
+Physical AI
+IR
+Contact
+Family Site
+상호명 : 에브리봇 주식회사 
+대표 : 정우철
+주소 : 경기 과천시 과천대로7나길 60 과천어반허브 A동 6층
+사업자등록번호 : 129-86-92106 
+통신판매업신고 : 제 2017-성남분당-1082호
+개인정보보호책임자 : 김영태 (manage@everybot.net) 
+E-mail : marketing@everybot.net
+© 에브리봇. All rights reserved.
+고객센터
+070-4938-7920
+경기도 성남시 분당구 판교로 256번길 25
+넥슨 GT B동 지하 1층 102호
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+알림
+ 뒤로
+ 알림 설정
+ 뒤로
+ 더보기 
+ 게시물 알림
+ 내 글 반응 내가 작성한 게시물이나 댓글에 다른 사람이 댓글이나 답글을 작성하면 알려줍니다.
+ 공지사항 사이트에서 보내는 중요한 공지를 실시간으로 알려줍니다.
+
+Alarm
+ 마이페이지
+ 로그아웃
+
+에브리봇 기업홈페이지 
+ 한국어 
+ MENU
+
+경기도 과천시 과천대로7나길 60 과천어반허브 A동 6층60 Gwacheon-daero 7na-gil, Gwacheon-si, Gyeonggi-do Gwacheon Urban Hub, Building A, 6th FloorTel. 02-503-8917
+
+파일 첨부 파일 올리기file upload button ()file remove button×삭제
+
+작성하신대로 접수하시겠습니까? 
+ 취소
+ 확인
+
+에브리봇 공식몰
+ 에브리봇 공식 온라인 쇼핑몰
+ →
+ 에브리봇모빌리티
+ 공식 스마트스토어
+ →
+ 에브리봇모빌리티 비즈니스몰
+ B2B 전용 쇼핑몰
+ →
+
+에브리봇 모빌리티
+ 에브리봇모빌리티 비즈니스몰
+
+
+===== [앞서 확보한 추출본 — 지우지 않고 남긴다] =====
+SLUG: everybot-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/everybot-call-center-*.png)
+
+===== [1] https://www.everybot.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/everybot-call-center-1.png
+CHARS: 759
+
+에브리봇 기업홈페이지
+	
+COMPANYTECHNOLOGYIRCONTACT
+	
+BOOK TICKETS
+에브리봇 기업홈페이지
+CompanyTechnologyIRContact
+	
+에브리봇 기업홈페이지
+
+|
+
+KOR
+
+The future of autonomous robotics
+
+게시판 썸네일
+	
+에브리봇, 마곡 'VL르웨스트'서 로봇 현장 시연
+	
+게시판 썸네일
+	
+에브리봇, 中 DDT와 국내 B2B 로봇사업 확대…홍콩증시 상장식 참석
+	
+게시판 썸네일
+	
+에브리봇, 강남구립행복요양병원서 케어로봇 실증
+	
+게시판 썸네일
+	
+에브리봇모빌리티, 로봇체어 홈쇼핑 완판 이어 백화점 입점
+	
+게시판 썸네일
+	
+에브리봇, 中 '다이렉트 드라이브테크'와 국내 독점판매 계약
+	
+Previous
+123456
+Next
+쇼핑몰 바로가기
+Company
+회사 소개
+인재 채용
+Technology
+Overview
+R&D
+Physical AI
+IR
+Contact
+Family Site
+상호명 : 에브리봇 주식회사 
+대표 : 정우철
+주소 : 경기 과천시 과천대로7나길 60 과천어반허브 A동 6층
+사업자등록번호 : 129-86-92106 
+통신판매업신고 : 제 2017-성남분당-1082호
+개인정보보호책임자 : 김영태 (manage@everybot.net) 
+E-mail : marketing@everybot.net
+© 에브리봇. All rights reserved.
+고객센터
+070-4938-7920
+경기도 성남시 분당구 판교로 256번길 25
+넥슨 GT B동 지하 1층 102호
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+알림
+ 뒤로
+ 알림 설정
+ 뒤로
+ 더보기 
+ 게시물 알림
+ 내 글 반응 내가 작성한 게시물이나 댓글에 다른 사람이 댓글이나 답글을 작성하면 알려줍니다.
+ 공지사항 사이트에서 보내는 중요한 공지를 실시간으로 알려줍니다.
+
+Alarm
+ 마이페이지
+ 로그아웃
+
+에브리봇 기업홈페이지 
+ 한국어 
+ MENU
+
+대한민국 로봇 산업의 새로운 가능성AI 자율주행 로봇 플랫폼 기업 에브리봇
+
+AI 자율주행 기술과 피지컬 AI 기반 솔루션 확장을 통해사람과 공간, 산업을 연결하는 새로운 로봇 경험을 제공합니다.
+
+대한민국 로봇 산업의새로운 가능성AI 자율주행 로봇 플랫폼 기업에브리봇
+ AI 자율주행 기술과 피지컬 AI 기반솔루션 확장을 통해 사람과 공간, 산업을 연결하는새로운 로봇 경험을 제공합니다.
+
+인지하고 판단하고행동하고 학습합니다
+ Robotics Platform & Humanoid Robot
+ 케어로봇 차세대 서비스 로봇, 휴머노이드까지다양한 로봇 플랫폼 솔루션 보유
+ Autonomous Mobility Expansion
+ 미래형 퍼스널 모빌리티 및 AMR 시장 사업 영역 확대
+ Consumer Robotics Business
+ A I자율주행 기술 기반의 다양한 홈 서비스 로봇 라인을확보 및 글로벌 시작 확장을 강화
+
+케어로봇, 차세대 서비스 로봇, 휴머노이드까지다양한 로봇 플랫폼 솔루션 보유
+
+AI 자율주행 기술 기반의 다양한 홈 서비스 로봇 라인 확보 및글로벌 시장 확장을 강화
+
+AI가 스팸 게시물·댓글을 등록 전에 걸러 드려요
+ · 게시판 AI 스팸가드 알아보기 ›
+ 관리자님께만 보이는 안내
+
+에브리봇 공식몰
+ 에브리봇 공식 온라인 쇼핑몰
+ →
+ 에브리봇모빌리티
+ 공식 스마트스토어
+ →
+ 에브리봇모빌리티 비즈니스몰
+ B2B 전용 쇼핑몰
+ →
+
+에브리봇 모빌리티
+ 에브리봇모빌리티 비즈니스몰

@@ -1,0 +1,41 @@
+{
+  "slug": "dewalt",
+  "name": "디월트",
+  "aliases": [
+    "디월트 고객센터",
+    "DEWALT",
+    "디월트 AS",
+    "디월트 서비스센터",
+    "블랙앤드데커아시아퍼시픽"
+  ],
+  "industry": "appliance",
+  "brandColor": "#FEBD17",
+  "official": "https://www.dewalt.co.kr",
+  "sourceUrl": "https://www.dewalt.co.kr/",
+  "sourceName": "디월트 코리아 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "블랙앤드데커아시아퍼시픽피티이리미티드",
+  "hq": "서울시 강남구 역삼로 218 재승빌딩 1층",
+  "main": {
+    "label": "고객지원센터",
+    "tel": "1577-0933"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 디월트 코리아 공식 홈페이지(dewalt.co.kr) 하단: 법인명 블랙앤드데커아시아퍼시픽피티이리미티드 대표자 : 홍성완, 주소 : 서울시 강남구 역삼로 218 재승빌딩 1층, 고객지원센터 : 1577-0933, A/S : 서비스센터. 홈 캡처에는 상담시간 표기가 없어 hours 를 비운다(구글 요약의 평일 09:00~18:00 은 캡처 원문으로 확인하지 못해 쓰지 않는다). 브랜드색은 사이트 유채색(#FEBD17 노랑).",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원센터",
+      "tel": "1577-0933"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객지원센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,11 @@
+SLUG: 3m-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: claude-in-chrome (사용자 크롬 실브라우저 — 고객센터 페이지 본문 중 전화·상담시간·주소 줄 발췌. Playwright 는 3m.co.kr 을 못 연다)
+URL: https://www.3m.co.kr/3M/ko_KR/company-kr/help-center/
+
+전화상담
+080 033 4114 (한국쓰리엠 주식회사)
+080 822 1374 (쓰리엠헬스케어코리아 주식회사)
+상담시간 : (월~금) 오전 9시 ~ 오후 6시
+주소 : 서울특별시 영등포구 의사당대로 82, 21층
+3M 콜센타(080-033-4114)에 전화한 후 3M 고객 상담실 직원에게 문의할 수 있습니다.

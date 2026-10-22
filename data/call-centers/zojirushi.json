@@ -1,0 +1,42 @@
+{
+  "slug": "zojirushi",
+  "name": "조지루시",
+  "aliases": [
+    "조지루시 고객센터",
+    "조지루시코리아",
+    "Zojirushi",
+    "조지루시 AS",
+    "코끼리 밥솥 AS"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.zojirushi.co.kr",
+  "sourceUrl": "https://www.zojirushi.co.kr/",
+  "sourceName": "조지루시코리아 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "조지루시코리아 주식회사",
+  "hq": "서울 마포구 양화로8길 17-5 3,4층 (서교동)",
+  "main": {
+    "label": "고객센터",
+    "tel": "1551-2026"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 조지루시코리아 공식몰(zojirushi.co.kr) 하단: 조지루시코리아 주식회사 (Zojirushi Korea Corporation), 고객센터1551-2026, cs@zojirushi.co.kr, 주소04044 서울 마포구 양화로8길 17-5 3,4층 (서교동). 하단에 상담시간 표기가 없어 hours 를 비운다. 로고가 흰색이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1551-2026"
+    }
+  ],
+  "hqZip": "04044",
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

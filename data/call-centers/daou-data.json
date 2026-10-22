@@ -1,0 +1,42 @@
+{
+  "slug": "daou-data",
+  "name": "다우데이타",
+  "aliases": [
+    "다우데이타 고객센터",
+    "키움페이",
+    "다우데이타 VAN",
+    "(주)다우데이타",
+    "키움페이 가맹점 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#0F3F69",
+  "official": "https://van.kiwoompay.co.kr",
+  "sourceUrl": "https://van.kiwoompay.co.kr/page/cs_inquiry",
+  "sourceName": "키움페이(다우데이타) VAN 문의하기",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)다우데이타",
+  "hq": "서울시 마포구 독막로 311 재화스퀘어 3층, 5층",
+  "main": {
+    "label": "키움페이 VAN 전화 문의",
+    "tel": "1577-4455"
+  },
+  "hours": {
+    "weekday": "월 ~ 금 AM 8:30 ~ PM 5:30"
+  },
+  "hoursNote": "[2026-10-22] 키움페이(다우데이타) VAN 문의하기(van.kiwoompay.co.kr/page/cs_inquiry): Contact Us Email : kiwoompay_VAN@daoudata.co.kr FAX : 050-4982-4366 전화 : 1577-4455 시간 : 월 ~ 금 AM 8:30 ~ PM 5:30, 상호명 : (주)다우데이타 대표이사 : 김상준 주소 : 서울시 마포구 독막로 311 재화스퀘어 3층, 5층. 지식iN 등에 나오는 1588-5984 는 공식 페이지에서 확인되지 않아 쓰지 않는다. 이 번호는 가맹점 VAN(결제 단말) 서비스 문의용이라 글 설명도 그 범위로 한다. 브랜드색은 캡처 헤더 최빈 유채색.",
+  "idStep": "가맹점 상호와 사업자번호",
+  "jobs": "가맹점 결제 서비스(VAN) 문의, 가입 상담",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "키움페이 VAN 전화 문의",
+      "tel": "1577-4455",
+      "note": "월~금 AM 8:30~PM 5:30"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '키움페이 VAN 전화 문의'로 적힌 번호입니다."
+}

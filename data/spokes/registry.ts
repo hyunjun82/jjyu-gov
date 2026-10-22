@@ -2211,6 +2211,105 @@ import { 연말정산YearEndTraditionalMarketSpokeContent } from '@/app/policy/[
 import { 연말정산YearEndWithholdingReceiptSpokeContent } from '@/app/policy/[id]/[spoke]/content/연말정산/YearEndWithholdingReceipt';
 import { 국가건강검진HealthCheckupUnexaminedApplySpokeContent } from '@/app/policy/[id]/[spoke]/content/국가건강검진/HealthCheckupUnexaminedApply';
 import { 국가건강검진HealthCheckupResultLookupSpokeContent } from '@/app/policy/[id]/[spoke]/content/국가건강검진/HealthCheckupResultLookup';
+import { storefarmSellerCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/storefarm-seller-center';
+import { lgArtsCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lg-arts-center';
+import { incheonAirportLostFoundCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/incheon-airport-lost-found';
+import { hyundaiQmingCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/hyundai-qming';
+import { publicParticipationLegislationCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/public-participation-legislation-center';
+import { haatzCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/haatz';
+import { soomgoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/soomgo';
+import { vietnamAirlinesCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/vietnam-airlines';
+import { sevenElevenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/seven-eleven';
+import { cashnoteCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cashnote';
+import { sharkninjaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/sharkninja';
+import { ilwolCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/ilwol';
+import { everybotCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/everybot';
+import { andarCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/andar';
+import { lumenaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/lumena';
+import { iriverCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/iriver';
+import { eduwillCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/eduwill';
+import { blackyakCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/blackyak';
+import { sabangnetCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sabangnet';
+import { gsCaltexCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/gs-caltex';
+import { nintendoSwitchCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/nintendo-switch';
+import { duobackCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/duoback';
+import { hazzysCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hazzys';
+import { zojirushiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/zojirushi';
+import { etudeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/etude';
+import { koreaMeteorologicalAdministrationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-meteorological-administration';
+import { vansKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/vans-korea';
+import { drMartensCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/dr-martens';
+import { michaelKorsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/michael-kors';
+import { keychronCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/keychron';
+import { keyangElectricMachineryCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/keyang-electric-machinery';
+import { dreamlineCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/통신고객센터/dreamline';
+import { sOilBonusCardCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/s-oil-bonus-card';
+import { descenteCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/descente';
+import { constructionWorkersMutualAidAssociationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/보험고객센터/construction-workers-mutual-aid-association';
+import { aceBedCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/ace-bed';
+import { kitchenArtCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/kitchen-art';
+import { purielCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/puriel';
+import { dewaltCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/dewalt';
+import { sennheiserCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/sennheiser';
+import { makitaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/makita';
+import { gucciCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/gucci';
+import { samsoniteCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/samsonite';
+import { brevilleCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/breville';
+import { gentleMonsterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/gentle-monster';
+import { dreameCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/dreame';
+import { aimsakCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/aimsak';
+import { icleboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/iclebo';
+import { daewoongCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/daewoong';
+import { skechersKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/skechers-korea';
+import { seoulCalltaxiCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-calltaxi';
+import { swarovskiKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/swarovski-korea';
+import { cc3mCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/3m';
+import { lifeWorkCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/life-work';
+import { beurerKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/beurer-korea';
+import { gigabyteKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/gigabyte-korea';
+import { courtsOfTheRepublicOfKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/courts-of-the-republic-of-korea';
+import { myDearCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/my-dear';
+import { fintCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/fint';
+import { pnPoongnyunCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/pn-poongnyun';
+import { tclTvCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/tcl-tv';
+import { amazingCreCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/amazing-cre';
+import { steelseriesCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/steelseries';
+import { vornadoKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/vornado-korea';
+import { daouDataCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/daou-data';
+import { performanceSafetySupportCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/performance-safety-support-center';
+import { nationalEducationAndWelfareCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/national-education-and-welfare-center';
+import { centralWomensDevelopmentCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/central-womens-development-center';
+import { gangdongMunicipalSilverCareCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangdong-municipal-silver-care-center';
+import { koreaNursingAssistantContinuingEducationCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-nursing-assistant-continuing-education-center';
+import { ewhaWomansUniversitySeoulHospitalWellnessCheckUpCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ewha-womans-university-seoul-hospital-wellness-check-up-center';
+import { seoulWelfareFoundationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-welfare-foundation';
+import { seochoCulturalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seocho-cultural-center';
+import { seongdongCulturalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seongdong-cultural-center';
+import { koreaEnergyAgencyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-energy-agency';
+import { kdaStatutoryTrainingCenterForDietitiansCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kda-statutory-training-center-for-dietitians';
+import { cc8secondsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/8seconds';
+import { busanCenterForWomensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busan-center-for-womens-emergency-hotline-1366';
+import { ulsanCenterForWomensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ulsan-center-for-womens-emergency-hotline-1366';
+import { gyeonggiCenterForTheWomensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gyeonggi-center-for-the-womens-emergency-hotline-1366';
+import { seoulCenterForWomensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-center-for-womens-emergency-hotline-1366';
+import { gangwonCenterForWomensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangwon-center-for-womens-emergency-hotline-1366';
+import { gyeongnamCenterForWomensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gyeongnam-center-for-womens-emergency-hotline-1366';
+import { jejuCitySupportCenterForCommunityBasedIntegratedCareForPersonsWithDisabilitiesCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeju-city-support-center-for-community-based-integrated-care-for-persons-with-disabilities';
+import { daejeonAnimalProtectionCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daejeon-animal-protection-center';
+import { internationalFinanceCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/international-finance-center';
+import { gimhaeCarbonNeutralityExperienceCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gimhae-carbon-neutrality-experience-center';
+import { estsoftCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/estsoft';
+import { travelWalletCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/travel-wallet';
+import { songwolTowelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/songwol-towel';
+import { yujinRobotCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/yujin-robot';
+import { hanmiTowelCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanmi-towel';
+import { koreaShippingAssociationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-shipping-association';
+import { ncDepartmentStoreGangseoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/nc-department-store-gangseo';
+import { cheongjuNcDepartmentStoreCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/cheongju-nc-department-store';
+import { toolToolCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tool-tool';
+import { daejeonNcDepartmentStoreCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/daejeon-nc-department-store';
+import { womensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/womens-emergency-hotline-1366';
+import { koreanReinsuranceCompanyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/korean-reinsurance-company';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2259,6 +2358,35 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'yujin-robot': yujinRobotCallCenterSpokeContent,
+    'vornado-korea': vornadoKoreaCallCenterSpokeContent,
+    'steelseries': steelseriesCallCenterSpokeContent,
+    'tcl-tv': tclTvCallCenterSpokeContent,
+    'pn-poongnyun': pnPoongnyunCallCenterSpokeContent,
+    'my-dear': myDearCallCenterSpokeContent,
+    'gigabyte-korea': gigabyteKoreaCallCenterSpokeContent,
+    'beurer-korea': beurerKoreaCallCenterSpokeContent,
+    'iclebo': icleboCallCenterSpokeContent,
+    'aimsak': aimsakCallCenterSpokeContent,
+    'dreame': dreameCallCenterSpokeContent,
+    'breville': brevilleCallCenterSpokeContent,
+    'makita': makitaCallCenterSpokeContent,
+    'sennheiser': sennheiserCallCenterSpokeContent,
+    'dewalt': dewaltCallCenterSpokeContent,
+    'puriel': purielCallCenterSpokeContent,
+    'kitchen-art': kitchenArtCallCenterSpokeContent,
+    'ace-bed': aceBedCallCenterSpokeContent,
+    'keyang-electric-machinery': keyangElectricMachineryCallCenterSpokeContent,
+    'keychron': keychronCallCenterSpokeContent,
+    'zojirushi': zojirushiCallCenterSpokeContent,
+    'nintendo-switch': nintendoSwitchCallCenterSpokeContent,
+    'iriver': iriverCallCenterSpokeContent,
+    'lumena': lumenaCallCenterSpokeContent,
+    'everybot': everybotCallCenterSpokeContent,
+    'ilwol': ilwolCallCenterSpokeContent,
+    'sharkninja': sharkninjaCallCenterSpokeContent,
+    'haatz': haatzCallCenterSpokeContent,
+    'hyundai-qming': hyundaiQmingCallCenterSpokeContent,
     'electrolux-kr': electroluxKrCallCenterSpokeContent,
     'balmuda-kr': balmudaKrCallCenterSpokeContent,
     'daesung-celtic': daesungCelticCallCenterSpokeContent,
@@ -2307,6 +2435,33 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'womens-emergency-hotline-1366': womensEmergencyHotline1366CallCenterSpokeContent,
+    'korea-shipping-association': koreaShippingAssociationCallCenterSpokeContent,
+    'gimhae-carbon-neutrality-experience-center': gimhaeCarbonNeutralityExperienceCenterCallCenterSpokeContent,
+    'international-finance-center': internationalFinanceCenterCallCenterSpokeContent,
+    'daejeon-animal-protection-center': daejeonAnimalProtectionCenterCallCenterSpokeContent,
+    'jeju-city-support-center-for-community-based-integrated-care-for-persons-with-disabilities': jejuCitySupportCenterForCommunityBasedIntegratedCareForPersonsWithDisabilitiesCallCenterSpokeContent,
+    'gyeongnam-center-for-womens-emergency-hotline-1366': gyeongnamCenterForWomensEmergencyHotline1366CallCenterSpokeContent,
+    'gangwon-center-for-womens-emergency-hotline-1366': gangwonCenterForWomensEmergencyHotline1366CallCenterSpokeContent,
+    'seoul-center-for-womens-emergency-hotline-1366': seoulCenterForWomensEmergencyHotline1366CallCenterSpokeContent,
+    'gyeonggi-center-for-the-womens-emergency-hotline-1366': gyeonggiCenterForTheWomensEmergencyHotline1366CallCenterSpokeContent,
+    'ulsan-center-for-womens-emergency-hotline-1366': ulsanCenterForWomensEmergencyHotline1366CallCenterSpokeContent,
+    'busan-center-for-womens-emergency-hotline-1366': busanCenterForWomensEmergencyHotline1366CallCenterSpokeContent,
+    'kda-statutory-training-center-for-dietitians': kdaStatutoryTrainingCenterForDietitiansCallCenterSpokeContent,
+    'korea-energy-agency': koreaEnergyAgencyCallCenterSpokeContent,
+    'seongdong-cultural-center': seongdongCulturalCenterCallCenterSpokeContent,
+    'seocho-cultural-center': seochoCulturalCenterCallCenterSpokeContent,
+    'seoul-welfare-foundation': seoulWelfareFoundationCallCenterSpokeContent,
+    'ewha-womans-university-seoul-hospital-wellness-check-up-center': ewhaWomansUniversitySeoulHospitalWellnessCheckUpCenterCallCenterSpokeContent,
+    'korea-nursing-assistant-continuing-education-center': koreaNursingAssistantContinuingEducationCenterCallCenterSpokeContent,
+    'gangdong-municipal-silver-care-center': gangdongMunicipalSilverCareCenterCallCenterSpokeContent,
+    'central-womens-development-center': centralWomensDevelopmentCenterCallCenterSpokeContent,
+    'performance-safety-support-center': performanceSafetySupportCenterCallCenterSpokeContent,
+    'courts-of-the-republic-of-korea': courtsOfTheRepublicOfKoreaCallCenterSpokeContent,
+    'seoul-calltaxi': seoulCalltaxiCallCenterSpokeContent,
+    'korea-meteorological-administration': koreaMeteorologicalAdministrationCallCenterSpokeContent,
+    'public-participation-legislation-center': publicParticipationLegislationCenterCallCenterSpokeContent,
+    'incheon-airport-lost-found': incheonAirportLostFoundCallCenterSpokeContent,
     'jeju-citygas': jejuCitygasCallCenterSpokeContent,
     'gse-citygas': gseCitygasCallCenterSpokeContent,
     'seorabeol-citygas': seorabeolCitygasCallCenterSpokeContent,
@@ -2522,6 +2677,47 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'korean-reinsurance-company': koreanReinsuranceCompanyCallCenterSpokeContent,
+    'daejeon-nc-department-store': daejeonNcDepartmentStoreCallCenterSpokeContent,
+    'tool-tool': toolToolCallCenterSpokeContent,
+    'cheongju-nc-department-store': cheongjuNcDepartmentStoreCallCenterSpokeContent,
+    'nc-department-store-gangseo': ncDepartmentStoreGangseoCallCenterSpokeContent,
+    'hanmi-towel': hanmiTowelCallCenterSpokeContent,
+    'songwol-towel': songwolTowelCallCenterSpokeContent,
+    'travel-wallet': travelWalletCallCenterSpokeContent,
+    'estsoft': estsoftCallCenterSpokeContent,
+    '8seconds': cc8secondsCallCenterSpokeContent,
+    'national-education-and-welfare-center': nationalEducationAndWelfareCenterCallCenterSpokeContent,
+    'daou-data': daouDataCallCenterSpokeContent,
+    'amazing-cre': amazingCreCallCenterSpokeContent,
+    'fint': fintCallCenterSpokeContent,
+    'life-work': lifeWorkCallCenterSpokeContent,
+    '3m': cc3mCallCenterSpokeContent,
+    'swarovski-korea': swarovskiKoreaCallCenterSpokeContent,
+    'skechers-korea': skechersKoreaCallCenterSpokeContent,
+    'daewoong': daewoongCallCenterSpokeContent,
+    'gentle-monster': gentleMonsterCallCenterSpokeContent,
+    'samsonite': samsoniteCallCenterSpokeContent,
+    'gucci': gucciCallCenterSpokeContent,
+    'descente': descenteCallCenterSpokeContent,
+    's-oil-bonus-card': sOilBonusCardCallCenterSpokeContent,
+    'michael-kors': michaelKorsCallCenterSpokeContent,
+    'dr-martens': drMartensCallCenterSpokeContent,
+    'vans-korea': vansKoreaCallCenterSpokeContent,
+    'etude': etudeCallCenterSpokeContent,
+    'hazzys': hazzysCallCenterSpokeContent,
+    'duoback': duobackCallCenterSpokeContent,
+    'gs-caltex': gsCaltexCallCenterSpokeContent,
+    'sabangnet': sabangnetCallCenterSpokeContent,
+    'blackyak': blackyakCallCenterSpokeContent,
+    'eduwill': eduwillCallCenterSpokeContent,
+    'andar': andarCallCenterSpokeContent,
+    'cashnote': cashnoteCallCenterSpokeContent,
+    'seven-eleven': sevenElevenCallCenterSpokeContent,
+    'vietnam-airlines': vietnamAirlinesCallCenterSpokeContent,
+    'soomgo': soomgoCallCenterSpokeContent,
+    'lg-arts-center': lgArtsCenterCallCenterSpokeContent,
+    'storefarm-seller-center': storefarmSellerCenterCallCenterSpokeContent,
     'ups': upsCallCenterSpokeContent,
     'dhl': dhlCallCenterSpokeContent,
     'epost-parcel': epostParcelCallCenterSpokeContent,
@@ -2693,6 +2889,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'youtube': youtubeCallCenterSpokeContent,
   },
   'telecom-call-center': {
+    'dreamline': dreamlineCallCenterSpokeContent,
     'dosirak-mobile': dosirakMobileCallCenterSpokeContent,
     'hanpass-mobile': hanpassMobileCallCenterSpokeContent,
     'woori-won-mobile': wooriWonMobileCallCenterSpokeContent,
@@ -2789,6 +2986,7 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'kiwoom': kiwoomCallCenterSpokeContent,
   },
   'insurance-call-center': {
+    'construction-workers-mutual-aid-association': constructionWorkersMutualAidAssociationCallCenterSpokeContent,
     'yellow-umbrella': yellowUmbrellaCallCenterSpokeContent,
     'cgbest': cgbestCallCenterSpokeContent,
     'mmaa': mmaaCallCenterSpokeContent,

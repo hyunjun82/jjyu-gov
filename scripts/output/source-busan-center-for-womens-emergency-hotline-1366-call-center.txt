@@ -1,0 +1,231 @@
+SLUG: busan-center-for-womens-emergency-hotline-1366-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/busan-center-for-womens-emergency-hotline-1366-call-center-*.png)
+
+===== [1] https://www.busan1366.or.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/busan-center-for-womens-emergency-hotline-1366-call-center-1.png
+CHARS: 1282
+
+팝업레이어 알림
+팝업레이어 알림이 없습니다.
+1366소개
+상담실
+피해여성가이드
+커뮤니티
+1
+ 
+2
+ 
+3
+24시간 긴급전화 상담,
+보호시설 안내 및 연계,
+ONE-STOP 네트워크 구축,
+현장상담서비스 제공
+
+ 051-1366
+부산1366은 모든 여성에게 열려있습니다
+상담안내
+상담안내
+
+1년 365일 24시간 Hot-Line을 1일 3교대로 상담하고 있습니다.
+
+비공개상담
+
+타인에게 말못할 이야기를 비공개로 상담해 드립니다.
+
+현장상담
+
+몸이 불편하거나 상담소 방문이 어려운 피해여성에게 찾아가 상담합니다.
+
+카카오톡상담
+
+카카오톡으로 빠른 상담이 가능합니다.
+
+공지사항
+[채용공고] 이젠센터 직원 채용 공고(2026…
+[언론] 동명대 인권센터, 교제폭력 등 ‘관계…
+[채용공고] 이젠센터 직원 채용 공고(2026…
+[채용공고] 이젠센터 직원 채용 공고(2026…
+[채용공고] 이젠센터 직원 채용 공고(2026…
+[채용공고] 이젠센터 직원 채용 공고(2026…
+부산1366은 당신과 함께 합니다.
+피해여성 가이드 안내
+위기에 처한 당신에게 즉각적인 서비스를 제공합니다.
+1366 부산센터는 도움이 필요한 여성에게 1년 365일 24시간 열려 있습니다.
+가정폭력
+성폭력
+성매매
+교제폭력
+스토킹
+디지털성범죄
+가정폭력, 성폭력, 성매매등
+위기상황에 처한 여성 및 피해자 가족, 이웃
+여성긴급전화1366 부산센터
+보호시설 연계, 전문상담기관 안내, 직접상담, 정보제공 등
+여성들에게 긴급전화상담, 전화통화에 의한 초기상담, 긴급보호를 실시하며,
+즉각적이고 통합적인 서비스를 제공해 드립니다.
+부산1366 소개
+오시는 길 안내
+자료실
+FAQ
+상담통계
+전국1366
+부산1366의 각종 행사 갤러리
+1366 갤러리
+[협약] 부산경찰청 안보수사과, 부산하나센터
+2026년 9월 내부사례회의
+경계선 지능인의 특성 및 자살문제 전달교육
+2026년 9월 월례회의
+'찾아가는 이동상담소'_동명대학교 인권센터 연대…
+2026년 8월 내부사례회의
+2026년 8월 월례회의
+2026년 제1차 외부사례회의
+케이스 컨퍼런스 및 사이버상담 매뉴얼 교육
+2026년 7월 월례회의
+2026년 '5월 가정폭력 없는 평화의 달' 연…
+제20회 부산가족축제 연대홍보
+부산동래경찰서 연대홍보
+2026년 6월 전문교육_마약류 범죄 이해하기
+2026년 6월 내부사례회의
+﻿
+	
+                    
+                    
+	
+주소 : (47249) 부산광역시 부산진구 중앙대로845
+TEL : 051-1366
+Copyright © 여성긴급전화1366부산센터. All rights reserved.
+관리자
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+ document.getElementById("myDropdown").classList.toggle("show0");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+ if (!event.target.matches('.dropbtn_lang')) {
+ var dropdowns = document.getElementsByClassName("dropdown-content");
+ var i;
+ for (i = 0; i < dropdowns.length; i++) {
+ var openDropdown = dropdowns[i];
+ if (openDropdown.classList.contains('show0')) {
+ openDropdown.classList.remove('show0');
+ }
+ }
+ }
+}
+ 메뉴열기
+ 메뉴 닫기
+ 1366소개
+ 하위분류
+ 부산센터소개
+ 연혁
+ 전국1366
+ 오시는 길 및 개인정보취급방침
+ 상담실
+ 하위분류
+ 상담안내
+ 비공개상담
+ 현장상담
+ 관련법규
+ 피해여성가이드
+ 하위분류
+ 가정폭력
+ 성폭력
+ 성매매
+ 교제폭력
+ 스토킹
+ 디지털성범죄
+ 통합지원단
+ 커뮤니티
+ 하위분류
+ 공지사항
+ 1366 갤러리
+ 자료실
+ FAQ
+ 상담통계
+ $(function () {
+ //폰트 크기 조정 위치 지정
+ var font_resize_class = get_cookie("ck_font_resize_add_class");
+ if( font_resize_class == 'ts_up' ){
+ $("#text_size button").removeClass("select");
+ $("#size_def").addClass("select");
+ } else if (font_resize_class == 'ts_up2') {
+ $("#text_size button").removeClass("select");
+ $("#size_up").addClass("select");
+ }
+ $(".hd_opener").on("click", function() {
+ var $this = $(this);
+ var $hd_layer = $this.next(".hd_div");
+ if($hd_layer.is(":visible")) {
+ $hd_layer.hide();
+ $this.find("span").text("열기");
+ } else {
+ var $hd_layer2 = $(".hd_div:visible");
+ $hd_layer2.prev(".hd_opener").find("span").text("열기");
+ $hd_layer2.hide();
+ $hd_layer.show();
+ $this.find("span").text("닫기");
+ }
+ });
+ $("#container").on("click", function() {
+ $(".hd_div").hide();
+ });
+ $(".btn_gnb_op").click(function(){
+ $(this).toggleClass("btn_gnb_cl").next(".gnb_2dul").slideToggle(300);
+ });
+ $(".gnb_1da").click(function(){
+ $(this).next(".btn_gnb_op").trigger("click");
+ }); 
+ $(".hd_closer").on("click", function() {
+ var idx = $(".hd_closer").index($(this));
+ $(".hd_div:visible").hide();
+ $(".hd_opener:eq("+idx+")").find("span").text("열기");
+ });
+ });
+ 1
+ 2
+ 3
+ 24시간 긴급전화 상담,
+보호시설 안내 및 연계,
+ONE-STOP 네트워크 구축,
+현장상담서비스 제공
+ 051-1366
+
+부산센터소개
+ 연혁 
+ 전국1366 
+ 오시는길
+
+상담안내
+ 비공개상담 
+ 현장상담 
+ 관련법규
+
+가정폭력
+ 성폭력
+ 성매매
+ 교제폭력
+ 스토킹
+ 디지털성범죄
+ 통합지원단
+
+공지사항
+ 1366갤러리
+ 자료실
+ FAQ 
+ 상담통계
+
+----- 이미지 대체텍스트 (img alt) -----
+여성긴급전화1366 부산센터
+11차 내부사례회의 모자이크.jpg
+9월 전달교육 모자이크.jpg
+9월 월례회의.jpg
+9차 내부사례회의.jpg
+8월 월례회의.jpg
+제1차 외부사례회의.jpg
+7월 월례회의(모자이크).jpg

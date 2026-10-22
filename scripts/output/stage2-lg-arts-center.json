@@ -1,0 +1,17 @@
+{
+  "slug": "lg-arts-center",
+  "keyword": "LG아트센터 고객센터",
+  "title": "LG아트센터 고객센터 전화번호 및 상담원 연결·문의 안내",
+  "pattern": "고객센터 — 번호 모음 · 상담원 연결 · 영업시간 · 위치",
+  "subheads": [
+    "LG아트센터 고객센터 전화번호 모음",
+    "LG아트센터 고객센터 상담원 연결 방법",
+    "고객센터 영업시간·운영시간",
+    "LG아트센터 고객센터 위치",
+    "LG아트센터 고객센터 지역별로 찾기"
+  ],
+  "source": "https://www.lgart.com/",
+  "outline": "data/call-centers/lg-arts-center.json",
+  "approved": true,
+  "approvedAt": "2026-10-22"
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "songwol-towel",
+  "name": "송월타올",
+  "aliases": [
+    "송월타올 고객센터",
+    "송월타올앤리빙",
+    "송월 타올",
+    "송월타올 환불",
+    "송월타올 교환 반품"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://songwol-towel.com",
+  "sourceUrl": "https://songwol-towel.com/article/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/1/27/",
+  "sourceName": "송월타올앤리빙 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)송월타올앤리빙",
+  "hq": "서울특별시 영등포구 영등포로 225 (영등포동5가) 제일상가1층",
+  "hqZip": "07250",
+  "main": {
+    "label": "CUSTOMER CENTER",
+    "tel": "1688-2347"
+  },
+  "hours": {
+    "weekday": "평 일 오전 09:00 ~ 오후 06:00",
+    "holiday": "토요일 / 일요일 / 공휴일은 휴무",
+    "lunch": "점심시간 오전 11:50 ~ 오후 01:00"
+  },
+  "hoursNote": "[2026-10-22] 송월타올앤리빙 공식몰(songwol-towel.com) 하단: CUSTOMER CENTER 1688-2347 평 일 오전 09:00 ~ 오후 06:00 점심시간 오전 11:50 ~ 오후 01:00 토요일 / 일요일 / 공휴일은 휴무, 회사명(주)송월타올앤리빙 대표전화1688-2347 팩스02-2631-9448, 주소07250 서울특별시 영등포구 영등포로 225 (영등포동5가) 제일상가1층 / 물류:서울 금천구 가산동448 대륭테크노타운3차505. 한진택배 1588-0011 은 다른 회사라 쓰지 않는다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "CUSTOMER CENTER",
+      "tel": "1688-2347",
+      "note": "평일 09:00~18:00, 점심 11:50~13:00, 토·일·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'CUSTOMER CENTER'로 적힌 번호입니다."
+}

@@ -1,0 +1,41 @@
+SLUG: aimsak-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/aimsak-call-center-*.png)
+
+===== [1] http://asc.aimsak.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/aimsak-call-center-1.png
+CHARS: 295
+
+로그인 아임삭 홈페이지
+A/S센터
+서비스안내 서비스신청 마이페이지 커뮤니티
+
+고객서비스를
+최우선으로 생각하는
+아임삭이 되겠습니다.
+
+아임삭 서비스센터
+
+080-707-7040
+
+운영시간 : 월~금 08:30 ~ 17:30
+(토,일요일 및 공휴일 휴무)
+
+  
+
+회원가입 아이디찾기비밀번호찾기
+
+28118 충청북도 청주시 청원구 오창읍 양청송대길 171 TEL 080-707-7040 FAX 043-217-8450
+
+Copyright © 2017 aimsak power tools. All rights reserved.찾아오시는길
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+A/S보증제도
+ 서비스절차
+ 서비스진행상황조회
+ 서비스만족도 평가
+ 자주하는질문
+ 자가진단
+ 문의하기

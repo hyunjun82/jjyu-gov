@@ -1,0 +1,41 @@
+{
+  "slug": "kda-statutory-training-center-for-dietitians",
+  "name": "KDA 영양사 법정교육센터",
+  "aliases": [
+    "대한영양사협회 법정교육센터",
+    "영양사 보수교육 문의",
+    "KDA 법정교육센터 전화번호",
+    "대한영양사협회 전화번호",
+    "영양사 면허신고 문의"
+  ],
+  "industry": "public",
+  "brandColor": "#035DAB",
+  "official": "https://www.kdaedu.or.kr",
+  "sourceUrl": "https://www.kdaedu.or.kr/contacts",
+  "sourceName": "KDA 영양사 법정교육센터 찾아오시는 길",
+  "verifiedAt": "2026-10-22",
+  "corp": "사단법인 대한영양사협회",
+  "main": {
+    "label": "대한영양사협회 대표 전화",
+    "tel": "02-823-5680"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] KDA 영양사 법정교육센터 찾아오시는 길(kdaedu.or.kr/contacts): 연락처 서울특별시 영등포구 63로 40, 202호(여의도동) (우)07345 TEL : 02-823-5680, 사단법인 대한영양사협회 대표 : 송진선. 구글 요약의 교환번호 510·511·512(교육 문의)·516·514·513(면허신고) 는 원문 페이지에서 확인되지 않아 쓰지 않는다. 하단에 상담시간 표기가 없어 hours 를 비운다. 시도지회 번호는 지회마다 달라 쓰지 않는다. 브랜드색은 캡처 헤더 최빈 유채색.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대한영양사협회 대표 전화",
+      "tel": "02-823-5680"
+    }
+  ],
+  "hq": "서울특별시 영등포구 63로 40, 202호(여의도동)",
+  "hqZip": "07345",
+  "variant": "facility",
+  "jobs": "협회·법정교육센터 업무 문의",
+  "jobsSentence": "공식 안내에 '대한영양사협회 대표 전화'로 적힌 번호입니다."
+}

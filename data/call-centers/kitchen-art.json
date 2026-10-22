@@ -1,0 +1,49 @@
+{
+  "slug": "kitchen-art",
+  "name": "키친아트",
+  "aliases": [
+    "키친아트 고객센터",
+    "Kitchenart",
+    "키친아트 AS",
+    "주식회사 키친아트",
+    "키친아트 서비스센터"
+  ],
+  "industry": "appliance",
+  "brandColor": "#ED5757",
+  "official": "http://kitchenart.co.kr",
+  "sourceUrl": "http://kitchenart.co.kr/main",
+  "sourceName": "키친아트 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "주식회사 키친아트",
+  "hq": "인천광역시 서해구 장고개로118번길 5 ((주)키친아트)",
+  "main": {
+    "label": "CS CENTER 대표 전화",
+    "tel": "080-070-7799"
+  },
+  "hours": {
+    "weekday": "평일 10:00 ~ 17:00",
+    "holiday": "주말 및 공휴일 휴무",
+    "lunch": "점심시간 12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-10-22] 키친아트 공식몰(kitchenart.co.kr) 하단: 주식회사 키친아트, 주소 :인천광역시 서해구 장고개로118번길 5 ((주)키친아트), 대표번호 : 032-577-0077, CS CENTER 고객 상담 평일 10:00 ~ 17:00 점심시간 12:00 ~ 13:00 대표 전화 080-070-7799 월~금 / 주말 및 공휴일 휴무. 브랜드색은 캡처 상단 안내 띠 강조 글자 최빈 유채색(#ED5757).",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "CS CENTER 대표 전화",
+      "tel": "080-070-7799",
+      "note": "평일 10:00~17:00, 점심 12:00~13:00, 주말·공휴일 휴무"
+    },
+    {
+      "label": "회사 대표번호",
+      "tel": "032-577-0077"
+    }
+  ],
+  "numbersIntro": "CS CENTER 번호와 회사 대표번호가 따로 안내되어 있습니다. 고객 상담은 CS CENTER 번호로 거시면 됩니다.",
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 'CS CENTER 대표 전화'로 적힌 번호입니다."
+}

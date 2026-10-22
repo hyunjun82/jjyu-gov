@@ -1,0 +1,44 @@
+{
+  "slug": "puriel",
+  "name": "퓨리얼",
+  "aliases": [
+    "퓨리얼 고객센터",
+    "pureal",
+    "퓨리얼 정수기 AS",
+    "피코그램",
+    "퓨리얼 필터교체"
+  ],
+  "industry": "appliance",
+  "brandColor": "#036FB7",
+  "official": "https://www.pureal.co.kr",
+  "sourceUrl": "https://www.pureal.co.kr/",
+  "sourceName": "퓨리얼 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)피코그램",
+  "hq": "인천광역시 부평구 부평북로 118(청천동) (주)피코그램",
+  "main": {
+    "label": "CUSTOMER 고객상담실",
+    "tel": "1833-8333"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00",
+    "holiday": "(주말 및 공휴일 휴무)",
+    "lunch": "점심 12:00~13:00"
+  },
+  "hoursNote": "[2026-10-22] 퓨리얼 공식몰(pureal.co.kr) 하단: CUSTOMER 1833-8333 평일 09:00~18:00 점심 12:00~13:00 (주말 및 공휴일 휴무), 인천광역시 부평구 부평북로 118(청천동) (주)피코그램 대표이사 : 최석림, TEL : 1833-8333 FAX : 032-678-9222. 브랜드색은 캡처 헤더 로고 최빈 유채색.",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "CUSTOMER 고객상담실",
+      "tel": "1833-8333",
+      "note": "평일 09:00~18:00, 점심 12:00~13:00, 주말·공휴일 휴무"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 'CUSTOMER 고객상담실'로 적힌 번호입니다."
+}

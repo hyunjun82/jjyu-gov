@@ -1,0 +1,42 @@
+{
+  "slug": "dr-martens",
+  "name": "닥터마틴",
+  "aliases": [
+    "닥터마틴 고객센터",
+    "Dr.Martens",
+    "닥터마틴에어웨어코리아",
+    "닥터마틴 AS",
+    "닥터마틴 환불"
+  ],
+  "industry": "online",
+  "brandColor": "#FFE715",
+  "official": "https://www.drmartens.co.kr",
+  "sourceUrl": "https://www.drmartens.co.kr/",
+  "sourceName": "닥터마틴 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "닥터마틴에어웨어코리아(주)",
+  "hq": "서울특별시 강남구 도산대로 318 (SB타워) 14층 1,2호",
+  "main": {
+    "label": "고객센터",
+    "tel": "1544-6486"
+  },
+  "hours": {
+    "weekday": "10AM ~ 5PM",
+    "lunch": "점심시간 12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-10-22] 닥터마틴 공식몰(drmartens.co.kr) 하단: 고객센터 1544-6486 ( 10AM ~ 5PM 점심시간 12:00 ~ 13:00 ), 닥터마틴에어웨어코리아(주), 서울특별시 강남구 도산대로 318 (SB타워) 14층 1,2호. 주말·공휴일 표기는 없다. 브랜드색은 캡처 헤더 최빈 유채색(노랑).",
+  "idStep": "주문번호와 가입 이메일",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1544-6486",
+      "note": "10AM~5PM, 점심 12:00~13:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

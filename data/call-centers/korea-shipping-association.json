@@ -1,0 +1,41 @@
+{
+  "slug": "korea-shipping-association",
+  "name": "한국해운조합",
+  "aliases": [
+    "한국해운조합 고객센터",
+    "한국해운조합 전화번호",
+    "KSA",
+    "한국해운조합 본부",
+    "해운조합 대표전화"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.theksa.or.kr",
+  "sourceUrl": "https://www.theksa.or.kr/site/main/johab/pCustMst?custCode=C001624",
+  "sourceName": "한국해운조합 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "한국해운조합",
+  "main": {
+    "label": "본부 대표전화",
+    "tel": "02-6096-2000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 한국해운조합 공식 홈페이지(theksa.or.kr) 하단: [07590] 서울특별시 강서구 공항대로 379 / TEL : 02-6096-2000 / FAX : 02-6096-2259. 캡처한 본문은 조합원 업체 정보(다른 회사 번호)라 쓰지 않고 하단만 쓴다. 하단에 상담시간 표기가 없어 hours 를 비운다. 여객선 예매(02-6096-2266)·지부 번호는 이 캡처에서 확인되지 않아 쓰지 않는다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "본부 대표전화",
+      "tel": "02-6096-2000"
+    }
+  ],
+  "hq": "서울특별시 강서구 공항대로 379",
+  "hqZip": "07590",
+  "variant": "facility",
+  "jobs": "조합 업무 문의",
+  "jobsSentence": "공식 안내에 '본부 대표전화'로 적힌 번호입니다."
+}

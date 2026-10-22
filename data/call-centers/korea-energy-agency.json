@@ -1,0 +1,40 @@
+{
+  "slug": "korea-energy-agency",
+  "name": "한국에너지공단",
+  "aliases": [
+    "한국에너지공단 고객센터",
+    "에너지공단 전화번호",
+    "한국에너지공단 대표전화",
+    "KEA",
+    "한국에너지공단 문의"
+  ],
+  "industry": "public",
+  "brandColor": "#035DAB",
+  "official": "https://www.energy.or.kr",
+  "sourceUrl": "https://www.energy.or.kr/",
+  "sourceName": "한국에너지공단 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "대표문의전화",
+    "tel": "052-920-0114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 한국에너지공단 공식 홈페이지(energy.or.kr): 대표문의전화 052-920-0114, 하단 44538 울산광역시 중구 종가로 323(우정동528-1) 대표전화 : 052-920-0114. 홈에 상담시간 표기가 없어 hours 를 비운다. 신재생에너지 콜센터 등 사업별 번호는 이 글에 쓰지 않는다. 브랜드색은 캡처 헤더 최빈 유채색.",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표문의전화",
+      "tel": "052-920-0114"
+    }
+  ],
+  "hq": "울산광역시 중구 종가로 323(우정동528-1)",
+  "hqZip": "44538",
+  "variant": "facility",
+  "jobs": "공단 업무 문의",
+  "jobsSentence": "공식 안내에 '대표문의전화'로 적힌 번호입니다."
+}

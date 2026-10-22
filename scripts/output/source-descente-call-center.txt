@@ -1,0 +1,139 @@
+SLUG: descente-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/descente-call-center-*.png)
+
+===== [1] https://www.descentekorea.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/descente-call-center-1.png
+CHARS: 1543
+
+닫기
+SHOP
+BRAND
+DK THEME
+BEST
+NEW
+OUTLET
+EVENT
+EARLY BIRD
+경량 패딩
+아우터 ~15% 
+로그인
+회원가입
+장바구니 
+0
+검색
+DESCENTE KOREA
+
+모든 사람에게 스포츠 하는 즐거움을 주는 기업
+데상트코리아
+
+스포츠 본래의 움직이는 즐거움과
+경쟁하는 즐거움을 제공하여 한 사람 한 사람의
+액티브한 라이프스타일 창조에 공헌합니다.
+
+01. 데상트코리아
+02. 데상트글로벌리테일
+03. DK 로지스틱스
+DESCENTE
+KOREA
+
+데상트코리아는 ‘모든 사람에게 스포츠하는 즐거움을 주는 기업’을 모토로 새로운 스포츠 라이프스타일을 만들어 나가고 있습니다.
+
+대한민국 No.1 스포츠 패션 기업, 대한민국에서 가장 멋진 회사, 세상과 함께 숨 쉬는 따뜻한 기업을 목표로
+지속적인 변화와 혁신을 거듭해온 데상트코리아는 2018년 부산에 신발 R&D센터인 DISC(Descente Innovation Studio Complex)를 설립하여
+‘소비자 개개인에게 최적화된 혁신’을 이뤄낼 수 있는 신발을 개발하고 있습니다.
+
+현재 골프와 스포츠 브랜드로 데상트, 무브스포츠, 르꼬끄 스포르티브, 엄브로, 데상트 영애슬릿, 먼싱웨어, 데상트골프, 르꼬끄골프를 전개하고 있습니다.
+
+DESCENTE
+GLOBAL RETAIL LTD.
+데상트 브랜드의 글로벌 비즈니스를 진행하는 데상트글로벌리테일은 현재 글로벌 홀세일 비즈니스를 전개하고 있습니다.
+DK LOGISTICS LTD.
+데상트코리아의 계열사로 효율적인 물류 시스템을 구축하고 있습니다.
+01
+HUMAN RIGHT POLICY
+데상트그룹 인권 방침
+02
+CORPORATE PARTNERSHIP
+파트너쉽
+03
+REQUEST
+거래희망신청
+04
+DESCENTE SPORTS FOUNDATION
+데상트스포츠재단
+05
+CAREERS
+인재채용
+최상위 화면으로
+공지사항 9월 MVP 댓글 이벤트 당첨자 안내
+멤버십혜택
+데상트 코리아 멤버십 회원만을 위한 특별한 혜택 제공
+데상트코리아
+모바일 APP 바로가기
+데상트코리아(주)
+대표번호: 080-565-5600 주소: 서울시 송파구 올림픽로 300 롯데월드타워 32층 대표이사: SHIMIZU MOTONARI
+FAX: 02-2007-8899 상호명: 데상트코리아 주식회사 사업자등록번호: 220-86-01214 사업자정보확인
+통신판매신고번호: 제2018-서울송파-0206
+Copyright 2025 DESCENTE KOREA LTD., All right reserved
+KG 이니시스 안전결제 시스템 인증
+SGI 서울보증 - 쇼핑몰 보증보험
+ISMS 인증
+ [인증범위] 온라인 쇼핑몰(데상트코리아 공식 E-SHOP), 대외 서비스 운영(협력사포털, 채용사이트)
+[유효기간] 2026.01.21~2029.01.20
+
+회사소개
+개인정보 처리방침
+윤리경영신고
+이메일 무단수집거부
+파트너쉽
+이용약관
+매장안내
+매장개설
+단체주문
+위조제품 신고센터
+고객센터
+080-565-5600
+평일 10:00 ~ 17:00 (Lunch 12:30~13:30)
+1:1 채팅문의는 우측 하단 아이콘 클릭
+
+페이스북으로 바로가기
+인스타그램으로 바로가기
+유튜브 바로가기
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+SHOES 전체
+ 퍼포먼스
+ 러닝화
+ 여성골프화
+ 남성골프화
+ 축구/풋살화
+ 라이프스타일
+ 스니커즈
+ 슬라이드
+ 뮬
+ 샌들
+
+DK THEME 
+ 더보기 +
+ RUNNING
+ RUNNING
+ GOLF
+ GOLF
+ FOOTBALL
+ FOOTBALL
+ WOMENS
+ WOMENS
+ SHOES
+ SHOES
+ 다음
+ 이전
+
+카카오톡으로 공유
+ URL 복사
+ 팝업 닫기
+
+----- 이미지 대체텍스트 (img alt) -----
+로고 수정 (4/8)

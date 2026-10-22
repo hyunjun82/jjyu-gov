@@ -1,0 +1,94 @@
+SLUG: daou-data-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/daou-data-call-center-*.png)
+
+===== [1] https://van.kiwoompay.co.kr/page/cs_inquiry =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/daou-data-call-center-1.png
+CHARS: 775
+
+본문 바로가기
+키움페이 소개
+키움페이란
+고객사례
+회사소개
+POS 솔루션
+POS 솔루션
+POS 부가서비스
+DID 서비스
+KDS 서비스
+부가서비스
+경영관리
+사업지원
+자국통화결제(DCC)
+외국인부가세환급(Tax Refund)
+위챗페이/알리페이
+제품소개
+유선단말기
+무선단말기
+POS
+KIOSK
+서명패드
+부가장비
+고객센터
+문의하기
+FAQ
+다운로드
+파 트 너 지 원
+가 맹 점 지 원
+
+고객센터
+고객센터
+
+키움페이 고객의 목소리를 기다립니다.
+
+01
+E-mail
+kiwoompay_VAN@daoudata.co.kr
+02
+Fax
+050-4982-4366
+03
+Call
+1577-4455
+키움페이 소개
+키움페이란
+고객사례
+회사소개
+POS 솔루션
+POS 솔루션
+POS 부가서비스
+DID 서비스
+KDS 서비스
+부가서비스
+경영관리
+사업지원
+자국통화결제(DCC)
+외국인부가세환급(Tax Refund)
+위챗페이/알리페이
+제품소개
+유선단말기
+무선단말기
+POS
+서명패드
+기타장비
+고객센터
+문의하기
+FAQ
+다운로드
+Contact Us
+Email : kiwoompay_VAN@daoudata.co.kr
+FAX : 050-4982-4366
+전화 : 1577-4455
+시간 : 월 ~ 금 AM 8:30 ~ PM 5:30
+
+개인정보처리방침
+
+개인정보&이메일 무단수집거부
+이용약관
+상호명 : (주)다우데이타 대표이사 : 김상준 사업자등록번호 : 220-81-01733 주소 : 서울시 마포구 독막로 311 재화스퀘어 3층, 5층
+
+Copyright 2018. DAOUDATA. All Rights Reserved.
+
+TOP

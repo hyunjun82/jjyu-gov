@@ -1,0 +1,415 @@
+SLUG: dreamy-robot-vacuum-cleaner-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/dreamy-robot-vacuum-cleaner-call-center-*.png)
+
+===== [1] https://store.kr.dreametech.com/pages/new-contact-us =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/dreamy-robot-vacuum-cleaner-call-center-1.png
+CHARS: 1057
+
+당사는 웹사이트 기능 개선, 사용자 경험 향상, 광고 및 타겟팅 목적을 위해 쿠키를 사용합니다. 언제든지 "기본 설정"을 클릭하여 쿠키 기본 설정을 변경하거나 동의를 철회할 수 있습니다. 당사의 쿠키 정책 및 개인정보 처리방침을 확인하십시오. 개인정보처리방침
+
+기본 설정
+모두 허용
+Decline
+제품 목록
+고객지원
+APP
+로그인
+카트
+검색
+장바구니	
+카트 닫기
+고객센터 연락처
+핫라인
+1566-8134
+
+*X40 ultra,L10s Pro Ultra,L20 ultra,L10s ultra,L10 prime,W10 pro의 연락처는 1544-1201입니다.
+
+운영 시간:
+평일: 9:00~18:00 (월~금)
+점심 시간: 12:00~13:00
+토요일, 법정 공휴일은 휴무
+
+이메일
+
+판매 문의 :
+
+sales@dreame.tech
+
+마케팅 문의 :
+
+Marketing@dreame.tech
+
+A/S 문의 :
+
+support.kr@dreame.tech
+
+카카오톡 채널
+
+영업 시간
+
+10:00 〜 18:00
+
+(토, 일, 공휴일 제외)
+
+ALL DREAMES
+IN ONE DREAME
+고객 서비스 센터
+
+전화：
+1566-8134
+
+이메일：
+support.kr@dreame.tech
+
+전화상담 시간
+: 평일 9:00~18:00(주말, 공휴일 휴무)점심 시간 12:00~13:00
+
+개인 정보 관리
+
+전화：
+010-5844-4679
+
+이메일：
+DreameKoreaCS@gmail.com
+
+회사 정보
+
+회사명：
+드리미테크놀로지코리아 주식회사
+
+대표이사：
+차오리리
+
+회사 주소：
+경기도 김포시 김포한강9로75번길 22, 8층 804호
+
+사업자등록 번호：
+889-88-02506
+
+이메일：
+support.kr@dreame.tech
+
+전화：
+1566-8134
+
+통신판매업신고번호：
+제 2026-경기김포-1623 호
+
+호스팅 서비스 제공：
+Shopify Commerce Singapore Pte. Ltd
+
+이용 약관
+개인정보 보호 정책
+쿠키 정책
+A/S 정책
+드리미 취약점 공개 정책
+교환 및 반품 정책
+배송 정책
+소비자 분쟁 조절 절차
+ KRW
+ South Korean Won
+ Japanese Yen
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+제품 목록
+ 로봇 청소기
+ arrow icon
+ Matrix | 시리즈
+ Matrix 10 Ultra
+ 더 알아보기
+ Aqua | 시리즈
+ Aqua10 Ultra Roller
+ 더 알아보기
+ Aqua10 Ultra Roller
+ Master
+ 더 알아보기
+ X | 시리즈
+ X50s Pro
+ Master
+ 더 알아보기
+ X50s Pro Ultra
+ 더 알아보기
+ X50 Ultra
+ 더 알아보기
+ X50 Master
+ Master
+ 더 알아보기
+ 습건식 청소기
+ H15
+ 더 알아보기
+ H12 Pro FlexReach
+ 더 알아보기
+ 무선 청소기
+ X1 Air
+ 더 알아보기
+ X1 Slim
+ 더 알아보기
+ 미용가전
+ Hair Pocket
+ 더 알아보기
+ 생활가전
+ LIVO
+ 더 알아보기
+
+A/S 상담
+ 직배수 설치가이드
+ 드리미 오프라인 매장
+
+제품 목록
+ 로봇 청소기
+ arrow icon
+ Matrix | 시리즈
+ Aqua | 시리즈
+ X | 시리즈
+ 습건식 청소기
+ 무선 청소기
+ 미용가전
+ 생활가전
+ Matrix 10 Ultra
+ 더 알아보기
+ Aqua10 Ultra Roller
+ 더 알아보기
+ Aqua10 Ultra Roller
+ Master
+ 더 알아보기
+ X50s Pro
+ Master
+ 더 알아보기
+ X50s Pro Ultra
+ 더 알아보기
+ X50 Ultra
+ 더 알아보기
+ X50 Master
+ Master
+ 더 알아보기
+ H15
+ 더 알아보기
+ H12 Pro FlexReach
+ 더 알아보기
+ X1 Air
+ 더 알아보기
+ X1 Slim
+ 더 알아보기
+ Hair Pocket
+ 더 알아보기
+ LIVO
+ 더 알아보기
+
+#to-top{
+ bottom:12vh;left:30px;
+ }
+ @media screen and (max-width: 820px) {
+ #to-top{
+ bottom:14vh;left:15px;
+ }
+ }
+#to-top{
+ display:none;
+ right: 8px;
+ height: 50px;
+ width: 50px;
+ background: #0065b3;
+ text-align: center;
+ color: #fff;
+ border-radius: 50%;
+ font-size: 14px;
+ padding: 2px;
+ position: fixed;
+ cursor: pointer;
+ z-index:10;
+} 
+#to-top svg{
+ width: 20px;
+}
+ #to-top span{
+ display: block;
+ margin-top: -15px;
+ }
+ .to-top-inner{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 100%;
+ height: 100%;
+ }
+
+선택을 누르면 전체 페이지가 새로 고쳐집니다.
+ 스페이스 키를 누른 다음 화살표 키를 눌러 선택하십시오.
+ 왼쪽 / 오른쪽 화살표를 사용하여 슬라이드 쇼를 탐색하거나 모바일 장치를 사용하는 경우 왼쪽 / 오른쪽으로 스와이프합니다.
+
+----- 이미지 대체텍스트 (img alt) -----
+Matrix10 Ultra 로봇청소기
+Aqua 10 Roller Series
+Aqua10 Ultra Roller 로봇청소기
+Aqua10 Ultra Roller Master 로봇청소기
+X50s Pro Master 로봇청소기
+X50s Pro Ultra 로봇청소기
+X50 Ultra 로봇청소기
+X50 Master 로봇청소기
+H15 습건식 청소기
+H12 Pro FlexReach 습건식 청소기
+X1 Air 무선진공청소기
+X1 Slim 무선진공청소기
+SLUG: dreame2-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/dreame2-call-center-*.png)
+
+===== [1] https://kr.dreametech.com/support/service_center =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/dreame2-call-center-1.png
+CHARS: 340
+
+신제품
+이벤트
+로봇 청소기
+습건식 청소기
+무선 청소기
+미용가전
+생활가전
+고객지원
+스토어
+고객지원
+FAQ
+오프라인 매장
+A/S 센터
+제품 가이드
+Dreame Home 가이드
+직배수 키트 가이드
+고객문의 대표전화
+1544-1201
+이용약관
+개인정보처리방침
+법인명
+(주)아이베
+대표
+강필구
+주소
+경기도 남양주시 진접읍 경복대로512번길 7-1
+사업자등록번호
+132-81-63067
+사업자번호조회
+개인정보관리자
+강병현
+통신판매업신고번호
+2013-경기풍양-0157
+메일
+DreameKoreaCS@gmail.com
+
+Copyright © 2024 Dreame. All rights reserved.
+
+신제품
+A/S
+문의
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+이벤트
+ 전체
+ 해킹·유출 걱정 없는 글로벌 로봇청소기 Trust me, Dreame
+ [오프라인] 프로모션 및 매장 안내
+ 목록 보기
+ 이벤트
+ 라이브 방송
+ 프로모션
+ 해킹·유출 걱정 없는 글로벌 로봇청소기 Trust me, Dreame
+ [오프라인] 프로모션 및 매장 안내
+ 목록 보기
+
+로봇 청소기
+ X60 시리즈
+ X60 master
+ X60 Ultra
+ 목록 보기
+ Aqua10 Roller 시리즈
+ Aqua10 Ultra Roller Master
+ Aqua10 Ultra Roller
+ 목록 보기
+ Matrix10 시리즈
+ Matrix10 Ultra
+ 목록 보기
+ X50s Pro 시리즈
+ X50s Pro Matser
+ X50s Pro Ultra
+ 목록 보기
+ X50 시리즈
+ X50 Master
+ X50 Ultra
+ 목록 보기
+ X40 시리즈
+ X40 Ultra
+ X40s Pro Ultra
+ 목록 보기
+ L30 시리즈
+ L30s Pro Ultra
+ 목록 보기
+ L10 시리즈
+ L10s Pro Ultra Heat
+ L10s Ultra Gen3
+ L10s Ultra Gen2
+ L10s Plus
+ 목록 보기
+ D10 시리즈
+ D10 Plus Gen2
+ 목록 보기
+ D9 시리즈
+ D9 Max Gen2
+ 목록 보기
+
+습건식 청소기
+ H15
+ H15
+ 목록 보기
+ H12 Pro FlexReach
+ H12 Pro FlexReach
+ 목록 보기
+ G10
+ G10
+ 목록 보기
+
+무선 청소기
+ X1 시리즈
+ X1 Slim
+ X1 Air
+ 목록 보기
+ Z10 시리즈
+ V10S
+ V10s
+ 목록 보기
+ CleanX U8
+ CleanX U8
+ 목록 보기
+
+미용가전
+ AirStyle Pro
+ AirStyle Pro
+ 목록 보기
+ POCKET
+ POCKET
+ 목록 보기
+ Gleam
+ Gleam mini
+ Gleam
+ 목록 보기
+
+생활가전
+ 음식물 처리기
+ LIVO
+ LIVO
+ 목록 보기
+ 공기 청정기
+ PM10
+ PM10
+ 목록 보기
+
+고객지원
+ Dreame, Nearby
+ 오프라인 매장
+ FAQ
+ A/S 문의하기
+ 제품 가이드
+ Dreame Home
+ 직배수 키트 가이드

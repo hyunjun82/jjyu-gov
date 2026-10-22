@@ -1,0 +1,41 @@
+{
+  "slug": "vornado-korea",
+  "name": "보네이도 코리아",
+  "aliases": [
+    "보네이도 고객센터",
+    "VORNADO",
+    "보네이도 AS",
+    "보네이도 서큘레이터 AS",
+    "벤타코리아 보네이도"
+  ],
+  "industry": "appliance",
+  "brandColor": "#CF2133",
+  "official": "http://vornado.co.kr",
+  "sourceUrl": "http://vornado.co.kr/service",
+  "sourceName": "보네이도 공식 홈페이지 서비스 센터 안내",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "상담안내",
+    "tel": "02-2034-0115"
+  },
+  "hours": {
+    "weekday": "평일: AM 09:00 ~ PM 18:00",
+    "holiday": "휴무: 토, 일, 공휴일"
+  },
+  "hoursNote": "[2026-10-22] 보네이도 공식 홈페이지 서비스 센터 안내(vornado.co.kr/service): 서비스 센터 도로명: 경기도 광주시 탄벌길 52-14, 상담안내 02-2034-0115 평일: AM 09:00 ~ PM 18:00 / 휴무: 토, 일, 공휴일, 개인정보 동의 철회는 대표전화(02-2034-0115). 서비스 센터 주소는 방문용이라 본사 주소로 쓰지 않아 hq 를 비운다. 브랜드색은 캡처 헤더 최빈 유채색.",
+  "heroSalt": "c",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "상담안내",
+      "tel": "02-2034-0115",
+      "note": "평일 AM 09:00~PM 18:00, 토·일·공휴일 휴무"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '상담안내'로 적힌 번호입니다."
+}

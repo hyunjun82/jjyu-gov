@@ -1,0 +1,39 @@
+{
+  "slug": "breville",
+  "name": "브레빌",
+  "aliases": [
+    "브레빌 고객센터",
+    "브레빌 코리아",
+    "Breville",
+    "브레빌 AS",
+    "브레빌 고객 관리팀"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.breville.com/ko-kr",
+  "sourceUrl": "https://www.breville.com/ko-kr/support/warranty",
+  "sourceName": "브레빌 코리아 보증 및 수리 안내",
+  "verifiedAt": "2026-10-22",
+  "main": {
+    "label": "브레빌 고객 관리팀",
+    "tel": "080-822-1691"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 브레빌 코리아 보증 및 수리 안내(breville.com/ko-kr/support/warranty): 지원을 받거나 보증을 청구하려면 브레빌 고객 관리팀(080-822-1691)에 전화로 문의, 지원 페이지 breville.com/ko-kr/producthub. 이 페이지에는 전화 상담시간·주소 표기가 없어 hours·hq 를 비운다(구글 요약의 평일 09:00~17:00 은 이 페이지에서 확인되지 않아 쓰지 않는다). Playwright 가 breville.com 을 못 열어 사용자 크롬(claude-in-chrome)으로 본 페이지의 해당 줄을 발췌해 추출본으로 저장. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "브레빌 고객 관리팀",
+      "tel": "080-822-1691"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '브레빌 고객 관리팀'로 적힌 번호입니다."
+}

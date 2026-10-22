@@ -1,0 +1,42 @@
+{
+  "slug": "s-oil-bonus-card",
+  "name": "S-OIL",
+  "aliases": [
+    "S-OIL 고객센터",
+    "에스오일 고객센터",
+    "S-OIL 보너스카드",
+    "에스오일 보너스카드",
+    "에쓰오일"
+  ],
+  "industry": "online",
+  "brandColor": "#03874B",
+  "official": "https://www.s-oil.com",
+  "sourceUrl": "https://www.s-oil.com/",
+  "sourceName": "S-OIL 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "corp": "S-OIL CORPORATION",
+  "hq": "서울특별시 마포구 백범로 192",
+  "main": {
+    "label": "S-OIL 고객센터",
+    "tel": "1644-5151"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] S-OIL 공식 홈페이지(s-oil.com) 하단: 본사 : (04196) 서울특별시 마포구 백범로 192 | 공장 : (44995) 울산광역시 울주군 온산읍 온산로 68, S-OIL 고객센터 1644-5151. 상담시간 표기가 없어 hours 를 비운다. 하단 안내가 보너스카드 전용인지는 원문에 없어 글 이름은 S-OIL 로 두고 보너스카드는 별칭으로만 둔다. 브랜드색은 로고 최빈 유채색(초록).",
+  "idStep": "보너스카드 번호나 가입 아이디",
+  "jobs": "주유·충전, 멤버십·카드 문의, 서비스 이용 문의",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "S-OIL 고객센터",
+      "tel": "1644-5151"
+    }
+  ],
+  "hqZip": "04196",
+  "jobsSentence": "공식 안내에 'S-OIL 고객센터'로 적힌 번호입니다."
+}

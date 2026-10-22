@@ -1,0 +1,7 @@
+SLUG: gentle-monster-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: claude-in-chrome (사용자 크롬 실브라우저 — 홈 하단 사업자 정보 줄 발췌. Playwright 는 gentlemonster.com 을 못 연다)
+URL: https://www.gentlemonster.com/kr/ko
+
+© 2026 GENTLE MONSTER
+주) 아이아이컴바인드 | 대표자명: 김한국 | 사업자번호: 119-86-38589 | 통신판매신고번호: 제 2026-서울성동-0958호 | 이메일 문의: service.kr@gentlemonster.com | 개인정보보호책임자: 정태호 | 주소: 서울특별시 성동구 뚝섬로 433 | 대표번호:1600-2126

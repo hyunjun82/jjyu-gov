@@ -1,0 +1,51 @@
+SLUG: gyeonggi-center-for-the-womens-emergency-hotline-1366-call-center
+RECEIVED: 2026-10-22
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/gyeonggi-center-for-the-womens-emergency-hotline-1366-call-center-*.png)
+
+===== [1] https://www.ggbb1366.or.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/gyeonggi-center-for-the-womens-emergency-hotline-1366-call-center-1.png
+CHARS: 633
+
+
+
+----- 프레임 (https://www.ggbb1366.or.kr/main/main.php) -----
+팝업레이어 알림
+팝업레이어 알림이 없습니다.
+
+기관소개
+상담실
+피해여성가이드
+자료실
+게시판
+				
+
+	
+2026-4차 직원채용 면접전형 결과 
+	 
+2026-4차 직원채용 서류전형 결과… 
+	 
+2026-4차 직원채용 공고(현장상담… 
+	 
+2026-3차 직원채용(재공고) 서류… 
+	 
+		
+SBS 뉴스토리 이성은 단장 출연 
+	 
+경기북부노인보호전문기관 업무협약체결식 
+	 
+딥페이크 성범죄피해자 상담기관 
+	 
+범죄피해자 원스톱 솔루션센터 
+	 
+		
+	
+
+	
+여성긴급전화 1366 경기북부센터           대표자 : 이현숙            고유번호 : 139-82-75839 
+주소지 : 경기도 의정부시 평화로 457. 3층(송헌빌딩)           연락처 : 031-873-1366          팩스 : 031-873-1398
+본 홈페이지에 게시된 이메일주소가 자동 수집되는 것을 거부하며, 이를 위반 시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
+Copyright (C) 여성긴급전화 1366 경기북부센터. All rights reserved.	개인정보보호정책
+이메일무단수집거부
+오시는길

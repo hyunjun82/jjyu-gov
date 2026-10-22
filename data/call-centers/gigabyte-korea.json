@@ -1,0 +1,40 @@
+{
+  "slug": "gigabyte-korea",
+  "name": "기가바이트 코리아",
+  "aliases": [
+    "기가바이트 고객센터",
+    "GIGABYTE",
+    "기가바이트 AS",
+    "기가바이트 노트북 AS",
+    "기가바이트 서비스센터"
+  ],
+  "industry": "appliance",
+  "brandColor": "#0F2739",
+  "official": "https://service-laptop.gigabyte.kr",
+  "sourceUrl": "https://service-laptop.gigabyte.kr/",
+  "sourceName": "기가바이트 노트북 서비스 공식 홈페이지",
+  "verifiedAt": "2026-10-22",
+  "hq": "서울시 용산구 청파로74 용산전자랜드 신관 5층 503호",
+  "main": {
+    "label": "고객지원",
+    "tel": "1544-8166"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-22] 기가바이트 노트북 서비스 공식 홈페이지(service-laptop.gigabyte.kr) 하단: 서울시 용산구 청파로74 용산전자랜드 신관 5층 503호 Tel : 1544-8166. 하단에 상담시간 표기가 없어 hours 를 비운다. 이 번호는 노트북 서비스 사이트 기준이라 글 설명도 서비스 접수에 한정한다. 브랜드색은 캡처 헤더 최빈 유채색(남색).",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객지원 (노트북 서비스)",
+      "tel": "1544-8166"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객지원'로 적힌 번호입니다."
+}

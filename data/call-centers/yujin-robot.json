@@ -1,0 +1,44 @@
+{
+  "slug": "yujin-robot",
+  "name": "유진로봇",
+  "aliases": [
+    "유진로봇 고객센터",
+    "유진로봇샵",
+    "유진로봇 AS",
+    "아이클레보 유진로봇",
+    "(주)유진로봇"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://yujinrobotshop.com",
+  "sourceUrl": "https://yujinrobotshop.com/m/board.html?code=iclebo_board6&page=11&type=v&board_cate=&num1=999939&num2=00000&number=61&lock=N",
+  "sourceName": "유진로봇샵 공식몰",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)유진로봇",
+  "hq": "인천 연수구 하모니로187번길 33(송도동)",
+  "main": {
+    "label": "고객센터 AS 및 제품문의",
+    "tel": "1566-3292"
+  },
+  "hours": {
+    "weekday": "평일 9:00 - 16:00",
+    "holiday": "주말 및 공휴일 휴무",
+    "lunch": "점심 12:00 - 13:00"
+  },
+  "hoursNote": "[2026-10-22] 유진로봇샵 공식몰(yujinrobotshop.com) 하단: 고객센터 AS 및 제품문의 1566-3292 평일 9:00 - 16:00 / 점심 12:00 - 13:00 주말 및 공휴일 휴무, COMPANY : (주)유진로봇 | CEO : 박성주 | CS CENTER : 1566-3292 | ADDRESS : 인천 연수구 하모니로187번길 33(송도동). 캡처한 페이지 본문은 2014년 옛 이벤트 글이라 쓰지 않고 하단만 쓴다. 아이클레보(iclebo)는 현재 별도 회사(아이클레보(주), 1800-8986)라 번호를 섞지 않는다. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 AS 및 제품문의",
+      "tel": "1566-3292",
+      "note": "평일 9:00~16:00, 점심 12:00~13:00, 주말·공휴일 휴무"
+    }
+  ],
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '고객센터 AS 및 제품문의'로 적힌 번호입니다."
+}

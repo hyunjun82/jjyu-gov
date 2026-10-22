@@ -1,0 +1,50 @@
+{
+  "slug": "dreame",
+  "name": "드리미로봇청소기",
+  "aliases": [
+    "드리미 고객센터",
+    "Dreame",
+    "드리미 AS",
+    "드리미 로봇청소기 AS",
+    "아이베 드리미"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://kr.dreametech.com",
+  "sourceUrl": "https://store.kr.dreametech.com/pages/new-contact-us",
+  "sourceName": "드리미 공식 사이트 고객센터 연락처",
+  "verifiedAt": "2026-10-22",
+  "corp": "(주)아이베",
+  "hq": "경기도 남양주시 진접읍 경복대로512번길 7-1",
+  "main": {
+    "label": "핫라인",
+    "tel": "1566-8134"
+  },
+  "hours": {
+    "weekday": "평일: 9:00~18:00 (월~금)",
+    "holiday": "토요일, 법정 공휴일은 휴무",
+    "lunch": "점심 시간: 12:00~13:00"
+  },
+  "hoursNote": "[2026-10-22] 드리미 공식 스토어(store.kr.dreametech.com/pages/new-contact-us) 고객센터 연락처: 핫라인 1566-8134, *X40 ultra,L10s Pro Ultra,L20 ultra,L10s ultra,L10 prime,W10 pro의 연락처는 1544-1201입니다. 운영 시간: 평일: 9:00~18:00 (월~금), 점심 시간: 12:00~13:00, 토요일, 법정 공휴일은 휴무. 드리미 공식 사이트(kr.dreametech.com/support/service_center) 하단: 고객문의 대표전화 1544-1201, 법인명 (주)아이베, 주소 경기도 남양주시 진접읍 경복대로512번길 7-1. 두 사이트의 추출본을 합쳐 source-dreame 에 저장. 로고 측정이 안 돼 중립 검정을 브랜드색으로 쓴다.",
+  "heroSalt": "a",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "핫라인",
+      "tel": "1566-8134",
+      "note": "평일 9:00~18:00, 점심 12:00~13:00, 토요일·법정 공휴일 휴무"
+    },
+    {
+      "label": "고객문의 대표전화 (일부 모델 포함)",
+      "tel": "1544-1201",
+      "note": "X40 ultra, L10s Pro Ultra, L20 ultra, L10s ultra, L10 prime, W10 pro 는 이 번호"
+    }
+  ],
+  "numbersIntro": "핫라인과 고객문의 대표전화가 따로 안내되어 있습니다. 일부 모델은 1544-1201이 안내 번호로 적혀 있습니다.",
+  "heroItems": "문의 방법·운영시간·연락처",
+  "variant": "brand",
+  "jobsSentence": "공식 안내에 '핫라인'로 적힌 번호입니다."
+}
