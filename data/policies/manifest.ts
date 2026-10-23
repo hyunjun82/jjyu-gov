@@ -479,6 +479,16 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { youthNationalTechExamFeeSupportPolicy, youthNationalTechExamFeeSupportSpokes } from './youth-national-tech-exam-fee-support';
+import { yearEndTaxPreview2026Policy, yearEndTaxPreview2026Spokes } from './year-end-tax-preview-2026';
+import { personalCustomsCodeRenewalPolicy, personalCustomsCodeRenewalSpokes } from './personal-customs-code-renewal';
+import { overseasDirectPurchaseCustomsDutyPolicy, overseasDirectPurchaseCustomsDutySpokes } from './overseas-direct-purchase-customs-duty';
+import { hometownLoveDonationTaxCreditPolicy, hometownLoveDonationTaxCreditSpokes } from './hometown-love-donation-tax-credit';
+import { monthlyRentTaxCreditApplyPolicy, monthlyRentTaxCreditApplySpokes } from './monthly-rent-tax-credit-apply';
+import { comprehensiveRealEstateTaxPaymentPolicy, comprehensiveRealEstateTaxPaymentSpokes } from './comprehensive-real-estate-tax-payment';
+import { jeonseFraudVictimDecisionDocumentPolicy, jeonseFraudVictimDecisionDocumentSpokes } from './jeonse-fraud-victim-decision-document';
+import { localTaxRefundLookupPolicy, localTaxRefundLookupSpokes } from './local-tax-refund-lookup';
+import { vaccineInjuryCompensationApplyPolicy, vaccineInjuryCompensationApplySpokes } from './vaccine-injury-compensation-apply';
 import { cityGasBillDiscountPolicy, cityGasBillDiscountSpokes } from './city-gas-bill-discount';
 import { nationalPensionEmployerArrearsPolicy, nationalPensionEmployerArrearsSpokes } from './national-pension-employer-arrears';
 import { subscriptionAccountCancellationPolicy, subscriptionAccountCancellationSpokes } from './subscription-account-cancellation';
@@ -2091,6 +2101,16 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'youth-national-tech-exam-fee-support': youthNationalTechExamFeeSupportPolicy,
+  'year-end-tax-preview-2026': yearEndTaxPreview2026Policy,
+  'personal-customs-code-renewal': personalCustomsCodeRenewalPolicy,
+  'overseas-direct-purchase-customs-duty': overseasDirectPurchaseCustomsDutyPolicy,
+  'hometown-love-donation-tax-credit': hometownLoveDonationTaxCreditPolicy,
+  'monthly-rent-tax-credit-apply': monthlyRentTaxCreditApplyPolicy,
+  'comprehensive-real-estate-tax-payment': comprehensiveRealEstateTaxPaymentPolicy,
+  'jeonse-fraud-victim-decision-document': jeonseFraudVictimDecisionDocumentPolicy,
+  'local-tax-refund-lookup': localTaxRefundLookupPolicy,
+  'vaccine-injury-compensation-apply': vaccineInjuryCompensationApplyPolicy,
   'city-gas-bill-discount': cityGasBillDiscountPolicy,
   'national-pension-employer-arrears': nationalPensionEmployerArrearsPolicy,
   'subscription-account-cancellation': subscriptionAccountCancellationPolicy,
@@ -3824,6 +3844,16 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'youth-national-tech-exam-fee-support': youthNationalTechExamFeeSupportSpokes,
+  'year-end-tax-preview-2026': yearEndTaxPreview2026Spokes,
+  'personal-customs-code-renewal': personalCustomsCodeRenewalSpokes,
+  'overseas-direct-purchase-customs-duty': overseasDirectPurchaseCustomsDutySpokes,
+  'hometown-love-donation-tax-credit': hometownLoveDonationTaxCreditSpokes,
+  'monthly-rent-tax-credit-apply': monthlyRentTaxCreditApplySpokes,
+  'comprehensive-real-estate-tax-payment': comprehensiveRealEstateTaxPaymentSpokes,
+  'jeonse-fraud-victim-decision-document': jeonseFraudVictimDecisionDocumentSpokes,
+  'local-tax-refund-lookup': localTaxRefundLookupSpokes,
+  'vaccine-injury-compensation-apply': vaccineInjuryCompensationApplySpokes,
   'city-gas-bill-discount': cityGasBillDiscountSpokes,
   'national-pension-employer-arrears': nationalPensionEmployerArrearsSpokes,
   'subscription-account-cancellation': subscriptionAccountCancellationSpokes,
