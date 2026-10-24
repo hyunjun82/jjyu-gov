@@ -3,7 +3,7 @@
   "key": "national-pension-yearend-simulation",
   "slug": "national-pension-yearend-simulation",
   "file": "data\\policies\\national-pension-yearend-simulation.ts",
-  "title": "노령연금 수급자 연말정산 모의계산, 환급 여부와 추가 납부 미리 확인",
+  "title": "노령연금 수급자 연말정산, 모의계산부터 추가 납부까지",
   "subs": [
     "노령연금 수급자도 연말정산을 하나요?",
     "연말정산 모의계산은 어디서 하나요?",

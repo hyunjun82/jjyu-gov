@@ -3,7 +3,7 @@
   "key": "national-pension-durunuri-support-lookup",
   "slug": "national-pension-durunuri-support-lookup",
   "file": "data\\policies\\national-pension-durunuri-support-lookup.ts",
-  "title": "두루누리 지원금 대상 확인과 근로자 조회, 월별 지원내역과 지원 기간",
+  "title": "두루누리 지원금 대상 확인, 근로자 조회부터 받는 기간까지",
   "subs": [
     "두루누리 지원 대상인지 어떻게 확인하나요?",
     "근로자도 두루누리 지원내역을 직접 조회할 수 있나요?",

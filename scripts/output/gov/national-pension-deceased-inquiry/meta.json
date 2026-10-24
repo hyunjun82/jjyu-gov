@@ -3,7 +3,7 @@
   "key": "national-pension-deceased-inquiry",
   "slug": "national-pension-deceased-inquiry",
   "file": "data\\policies\\national-pension-deceased-inquiry.ts",
-  "title": "부모님 국민연금 안심상속 조회, 결과 확인일과 상속 포기 시 수령 여부",
+  "title": "부모님 국민연금 안심상속 조회, 신청부터 포기 시 수령 여부까지",
   "subs": [
     "부모님 국민연금도 안심상속으로 조회되나요?",
     "안심상속 조회는 어디서 신청하나요?",

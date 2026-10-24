@@ -3,7 +3,7 @@
   "key": "national-pension-claim-status",
   "slug": "national-pension-claim-status",
   "file": "data\\policies\\national-pension-claim-status.ts",
-  "title": "청구한 국민연금 언제 나오나요, 청구 처리내역 조회와 지급 결정 확인",
+  "title": "청구한 국민연금은 언제 들어오나요? 처리내역 조회부터 지급 결정까지",
   "subs": [
     "청구한 국민연금은 언제 들어오나요?",
     "청구 처리내역은 어디서 조회하나요?",

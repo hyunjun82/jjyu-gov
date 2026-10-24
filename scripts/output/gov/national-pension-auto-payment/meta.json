@@ -3,7 +3,7 @@
   "key": "national-pension-auto-payment",
   "slug": "national-pension-auto-payment",
   "file": "data\\policies\\national-pension-auto-payment.ts",
-  "title": "노령연금 자동지급 신청, 안내받은 사람만 가능한 대상 확인과 청구 차이",
+  "title": "노령연금 자동지급이란? 대상부터 일반 청구 차이까지",
   "subs": [
     "노령연금 자동지급은 무엇인가요?",
     "노령연금 자동지급 신청 대상은 누구인가요?",

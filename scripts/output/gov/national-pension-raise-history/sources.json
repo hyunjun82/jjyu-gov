@@ -5,7 +5,7 @@
     "finalUrl": "https://www.nps.or.kr/elctcvlcpt/comm/getOHAC0000M5.do?menuId=MN24001594",
     "title": "전자민원 > 개인 > 조회 > 연금 청구/지급 > 연금수령액 인상내역 조회 - 상세보기 - 국민을 튼튼하게 연금을 튼튼하게",
     "file": "src-1.txt",
-    "chars": 1289,
+    "chars": 1286,
     "tables": 2,
     "images": [],
     "primary": true
@@ -16,7 +16,7 @@
     "finalUrl": "https://www.nps.or.kr/elctcvlcpt/comm/getOHAC0000M5.do?menuId=MN24001595",
     "title": "전자민원 > 개인 > 조회 > 연금 청구/지급 > 월별연금지급내역 (세금공제내역) - 상세보기 - 국민을 튼튼하게 연금을 튼튼하게",
     "file": "src-2.txt",
-    "chars": 1193,
+    "chars": 1190,
     "tables": 2,
     "images": [],
     "primary": true
@@ -27,18 +27,51 @@
     "finalUrl": "https://www.nps.or.kr/pnsinfo/ntpsklg/getOHAF0056M0.do?menuId=MN24001118",
     "title": "연금정보 > 알기쉬운 국민연금 > 연금 종류 및 청구 > 노령연금 - 노령연금의 종류 - 국민을 튼튼하게 연금을 튼튼하게",
     "file": "src-3.txt",
-    "chars": 14051,
+    "chars": 14048,
     "tables": 10,
     "images": [],
     "primary": true
   },
   {
     "n": 4,
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156739113",
+    "finalUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156739113",
+    "title": "국민연금 · 기초연금 급여 올해 2.1% 인상 확정 - 보도자료 | 브리핑룸 | 대한민국 정책브리핑",
+    "file": "src-4.txt",
+    "chars": 11352,
+    "tables": 18,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1484263",
+    "finalUrl": "https://www.mohw.go.kr/board.es?mid=a10503000000&bid=0027&act=view&list_no=1484263",
+    "title": "국민연금, 기초연금 올해 2.3% 더 받는다 < 보도자료 < 알림 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-5.txt",
+    "chars": 2593,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 6,
+    "url": "https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202600000000000027&hmpgCd=01&hmpgBbsCd=BS20240137",
+    "finalUrl": "https://www.nps.or.kr/pnsgdnc/newgdnc/getOHAE0001M1.do?menuId=MN24000897&pstId=ZZ202600000000000027&hmpgCd=01&hmpgBbsCd=BS20240137",
+    "title": "연금소식 > 새소식 - 상세 - 국민을 튼튼하게 연금을 튼튼하게",
+    "file": "src-6.txt",
+    "chars": 2801,
+    "tables": 5,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 7,
     "url": "https://www.nps.or.kr/elctcvlcpt/inquiry/getOHAC0075M0.do?menuId=MN24001594",
     "finalUrl": "https://www.nps.or.kr/elctcvlcpt/inquiry/getOHAC0075M0.do?menuId=MN24001594",
     "title": "전자민원 > 개인 > 조회 > 연금 청구/지급 > 연금수령액 인상내역 조회 - 국민을 튼튼하게 연금을 튼튼하게",
-    "file": "src-4.txt",
-    "chars": 1004,
+    "file": "src-7.txt",
+    "chars": 1001,
     "tables": 2,
     "images": [],
     "primary": true

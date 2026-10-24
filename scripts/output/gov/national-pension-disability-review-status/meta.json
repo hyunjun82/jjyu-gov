@@ -3,7 +3,7 @@
   "key": "national-pension-disability-review-status",
   "slug": "national-pension-disability-review-status",
   "file": "data\\policies\\national-pension-disability-review-status.ts",
-  "title": "장애정도심사 조회, 장애인등록 심사 기간과 심사완료 뒤 결과 확인",
+  "title": "장애정도심사 진행상태 조회, 소요 기간과 결과 확인 방법",
   "subs": [
     "장애정도심사 진행상태는 어디서 조회하나요?",
     "장애인등록 심사는 얼마나 걸리나요?",
