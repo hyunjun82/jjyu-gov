@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "disability-child-allowance--중증경증금액확인",
+  "slug": "중증경증금액확인",
+  "hub": "disability-child-allowance",
+  "dir": "장애아동수당",
+  "fileName": "중증경증금액확인",
+  "exportName": "장애아동수당중증경증금액확인SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\장애아동수당\\중증경증금액확인.tsx",
+  "title": "중증과 경증, 장애아동수당은 월 얼마나 차이 나나요?",
+  "subs": [
+    "장애아동수당에서 중증과 경증은 어떻게 나뉘나요?",
+    "중증 장애아동은 월 얼마를 받나요?",
+    "경증 장애아동은 월 얼마를 받나요?",
+    "우리 아이가 받는 금액은 어디서 확인하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-24T09:46:46.915Z"
+}

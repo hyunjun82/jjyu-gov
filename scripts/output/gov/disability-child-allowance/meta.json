@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "disability-child-allowance",
+  "slug": "disability-child-allowance",
+  "file": "data\\policies\\disability-child-allowance.ts",
+  "title": "장애아동수당 대상과 금액, 신청부터 18세 이후까지",
+  "subs": [
+    "장애아동수당은 누가 받을 수 있나요?",
+    "장애아동수당은 월 얼마를 받나요?",
+    "장애아동수당은 어디서 신청하나요?",
+    "아이가 18세가 되면 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-24T10:17:21.571Z"
+}

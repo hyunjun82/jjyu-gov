@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488505",
+    "finalUrl": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488505",
+    "title": "2026년 1월부터 장애인연금 월 최대 43만 9,700원 지급 < 전체 < 보도자료 < 알림 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 2851,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156738107",
+    "finalUrl": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156738107",
+    "title": "2026년 1월부터 장애인연금 월 최대 43만 9,700원 지급 - 보도자료 | 브리핑룸 | 대한민국 정책브리핑",
+    "file": "src-2.txt",
+    "chars": 4968,
+    "tables": 6,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10710030100",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10710030100",
+    "title": "장애인연금 개요 < 장애인자립기반 < 장애인 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 6588,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003249",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003249",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-4.txt",
+    "chars": 2580,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

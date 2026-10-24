@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "disability-child-allowance--아동연금차이",
+  "slug": "아동연금차이",
+  "hub": "disability-child-allowance",
+  "dir": "장애아동수당",
+  "fileName": "아동연금차이",
+  "exportName": "장애아동수당아동연금차이SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\장애아동수당\\아동연금차이.tsx",
+  "title": "장애아동수당과 함께 받는 지원, 중복 여부까지 확인",
+  "subs": [
+    "장애아동수당은 아동수당과 같이 받을 수 있나요?",
+    "장애아동수당과 장애인연금은 무엇이 다른가요?",
+    "기초수급 가구 아동은 어떤 지원을 함께 받나요?",
+    "같이 받을 수 없는 경우도 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-24T10:06:21.169Z"
+}

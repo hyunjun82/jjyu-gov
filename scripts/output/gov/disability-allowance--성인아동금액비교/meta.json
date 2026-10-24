@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "disability-allowance--성인아동금액비교",
+  "slug": "성인아동금액비교",
+  "hub": "disability-allowance",
+  "dir": "장애수당",
+  "fileName": "성인아동금액비교",
+  "exportName": "장애수당성인아동금액비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\장애수당\\성인아동금액비교.tsx",
+  "title": "성인 장애수당은 월 6만원, 아동 지원은 얼마나 더 많나요?",
+  "subs": [
+    "성인 장애수당은 월 얼마인가요?",
+    "장애아동수당은 월 얼마까지 받나요?",
+    "성인과 아동은 지급 기준이 어떻게 다른가요?",
+    "성인이 되면 어디서 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-24T10:36:08.711Z"
+}

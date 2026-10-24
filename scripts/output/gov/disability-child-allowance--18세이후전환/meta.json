@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "disability-child-allowance--18세이후전환",
+  "slug": "18세이후전환",
+  "hub": "disability-child-allowance",
+  "dir": "장애아동수당",
+  "fileName": "18세이후전환",
+  "exportName": "장애아동수당18세이후전환SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\장애아동수당\\18세이후전환.tsx",
+  "title": "18세가 되면 장애아동수당은 끊기나요? 성인 지원 구분까지",
+  "subs": [
+    "18세가 되면 장애아동수당은 끊기나요?",
+    "18세 이후에는 어떤 지원을 받나요?",
+    "중증이면 무엇을 받게 되나요?",
+    "경증이면 무엇을 받게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-24T09:57:22.287Z"
+}

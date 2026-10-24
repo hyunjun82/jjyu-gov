@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "disability-allowance--성인수급자자격",
+  "slug": "성인수급자자격",
+  "hub": "disability-allowance",
+  "dir": "장애수당",
+  "fileName": "성인수급자자격",
+  "exportName": "장애수당성인수급자자격SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\장애수당\\성인수급자자격.tsx",
+  "title": "수급자·차상위 경증이면 장애수당을 받나요? 자격과 금액까지",
+  "subs": [
+    "장애수당은 경증 장애인만 받을 수 있나요?",
+    "기초수급자이면 장애수당을 받을 수 있나요?",
+    "차상위계층도 받을 수 있나요?",
+    "월 지급액은 얼마인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-24T10:27:33.848Z"
+}

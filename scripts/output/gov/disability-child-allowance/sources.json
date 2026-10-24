@@ -1,0 +1,55 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10710030200",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10710030200",
+    "title": "장애수당/장애아동수당 < 장애인자립기반 < 장애인 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 2522,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003198",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003198",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-2.txt",
+    "chars": 1817,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=916&ccfNo=2&cciNo=1&cnpClsNo=2&menuType=cnpcls",
+    "finalUrl": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=916&ccfNo=2&cciNo=1&cnpClsNo=2&menuType=cnpcls",
+    "title": "장애수당 및 장애아동수당 < 장애인 생활안정",
+    "file": "src-3.txt",
+    "chars": 2302,
+    "tables": 2,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003198",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003198",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-4.txt",
+    "chars": 1817,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

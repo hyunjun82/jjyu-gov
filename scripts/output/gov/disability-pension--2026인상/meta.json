@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "disability-pension--2026인상",
+  "slug": "2026인상",
+  "hub": "disability-pension",
+  "dir": "장애인연금",
+  "fileName": "2026인상",
+  "exportName": "장애인연금2026인상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\장애인연금\\2026인상.tsx",
+  "title": "2026년 장애인연금은 얼마나 올랐나요? 인상 금액과 신청까지",
+  "subs": [
+    "2026년 장애인연금 기초급여는 얼마인가요?",
+    "작년보다 얼마나 올랐나요?",
+    "부가급여까지 합치면 최대 얼마인가요?",
+    "인상된 연금은 따로 신청해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-24T10:54:43.981Z"
+}
