@@ -1,0 +1,55 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mogef.go.kr/sp/yth/sp_yth_f009.do",
+    "finalUrl": "https://www.mogef.go.kr/sp/yth/sp_yth_f009.do",
+    "title": "위기청소년 특별지원 > 청소년 > 정책정보 > 성평등가족부",
+    "file": "src-1.txt",
+    "chars": 2713,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.mogef.go.kr/nw/enw/nw_enw_s001d.do?mid=mda700&bbtSn=710343",
+    "finalUrl": "https://www.mogef.go.kr/nw/enw/nw_enw_s001d.do?mid=mda700&bbtSn=710343",
+    "title": "상세내용 > 정책뉴스 > 알림·소식 > 성평등가족부 - 민생안정을 위한 청소년 생활 지원금 확대",
+    "file": "src-2.txt",
+    "chars": 3771,
+    "tables": 4,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-2-2.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=3&cnpClsNo=1",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=3&cnpClsNo=1",
+    "title": "학교 밖 청소년 > 도움을 받고 싶어요. > 위기청소년 보호 > 위기청소년 등의 지원 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-3.txt",
+    "chars": 8309,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/index.do",
+    "title": "대한민국 대표 복지포털 '복지로'",
+    "file": "src-4.txt",
+    "chars": 1570,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

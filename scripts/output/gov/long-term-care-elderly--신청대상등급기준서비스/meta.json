@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "long-term-care-elderly--신청대상등급기준서비스",
+  "slug": "신청대상등급기준서비스",
+  "hub": "long-term-care-elderly",
+  "dir": "노인장기요양보험",
+  "fileName": "신청대상등급기준서비스",
+  "exportName": "노인장기요양보험신청대상등급기준서비스SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인장기요양보험\\신청대상등급기준서비스.tsx",
+  "title": "장기요양 신청 대상은 누구인가요? 집에서 받는 서비스까지",
+  "subs": [
+    "장기요양 신청 대상은 누구인가요?",
+    "65세 미만도 신청할 수 있나요?",
+    "등급 판정은 어떻게 이뤄지나요?",
+    "집에서 받을 수 있는 서비스는 무엇인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T02:31:27.466Z"
+}

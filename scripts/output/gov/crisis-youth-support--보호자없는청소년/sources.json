@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mogef.go.kr/sp/yth/sp_yth_f009.do",
+    "finalUrl": "https://www.mogef.go.kr/sp/yth/sp_yth_f009.do",
+    "title": "위기청소년 특별지원 > 청소년 > 정책정보 > 성평등가족부",
+    "file": "src-1.txt",
+    "chars": 2713,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=3&cnpClsNo=1",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=746&ccfNo=7&cciNo=3&cnpClsNo=1",
+    "title": "학교 밖 청소년 > 도움을 받고 싶어요. > 위기청소년 보호 > 위기청소년 등의 지원 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 8309,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148892905",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148892905",
+    "title": "위기청소년 지원 강화…‘통합지원정보시스템’ 구축한다 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 5957,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "최근 코로나19 등으로 인해 심리·정서적 문제를 호소하거나 자살하는 청소년이 증가하고 있는 가운데 위기청소년 지원체계 강화 방안이 마련됐다."
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.1388.go.kr/",
+    "finalUrl": "https://www.1388.go.kr/ind/YTOSP_SC_IND_01",
+    "title": "청소년1388",
+    "file": "src-4.txt",
+    "chars": 1524,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

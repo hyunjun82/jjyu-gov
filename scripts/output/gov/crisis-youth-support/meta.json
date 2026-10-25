@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "crisis-youth-support",
+  "slug": "crisis-youth-support",
+  "file": "data\\policies\\crisis-youth-support.ts",
+  "title": "위기청소년 특별지원, 대상과 받는 내용부터 심의까지",
+  "subs": [
+    "위기청소년 특별지원은 누가 받을 수 있나요?",
+    "어떤 분야에서 지원을 받을 수 있나요?",
+    "신청은 어디서 어떻게 하나요?",
+    "신청하면 어떻게 심의하고 지원이 시작되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T03:07:22.816Z"
+}

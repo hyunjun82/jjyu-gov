@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "crisis-youth-support--신청자격금액",
+  "slug": "신청자격금액",
+  "hub": "crisis-youth-support",
+  "dir": "위기청소년특별지원",
+  "fileName": "신청자격금액",
+  "exportName": "위기청소년신청자격금액SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\위기청소년특별지원\\신청자격금액.tsx",
+  "title": "위기청소년 지원금은 얼마나 받나요? 소득 기준과 분야별 상한까지",
+  "subs": [
+    "위기청소년 특별지원 대상은 누구인가요?",
+    "소득 기준은 어떻게 되나요?",
+    "분야별로 얼마까지 받을 수 있나요?",
+    "지원 기간은 얼마나 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T02:41:10.463Z"
+}

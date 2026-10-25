@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "crisis-youth-support--보호자없는청소년",
+  "slug": "보호자없는청소년",
+  "hub": "crisis-youth-support",
+  "dir": "위기청소년특별지원",
+  "fileName": "보호자없는청소년",
+  "exportName": "위기청소년보호자없는청소년SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\위기청소년특별지원\\보호자없는청소년.tsx",
+  "title": "보호자가 없거나 집을 나왔다면? 청소년 혼자 신청하는 방법까지",
+  "subs": [
+    "보호자가 없는 청소년도 대상인가요?",
+    "집을 나온 청소년도 신청할 수 있나요?",
+    "청소년이 혼자 신청할 수 있나요?",
+    "어디에 도움을 청하면 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T02:50:33.857Z"
+}

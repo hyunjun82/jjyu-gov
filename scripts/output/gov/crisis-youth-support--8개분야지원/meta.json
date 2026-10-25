@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "crisis-youth-support--8개분야지원",
+  "slug": "8개분야지원",
+  "hub": "crisis-youth-support",
+  "dir": "위기청소년특별지원",
+  "fileName": "8개분야지원",
+  "exportName": "위기청소년8개분야지원SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\위기청소년특별지원\\8개분야지원.tsx",
+  "title": "위기청소년 특별지원 분야는 무엇인가요? 생활부터 법률까지",
+  "subs": [
+    "위기청소년 특별지원에는 어떤 분야가 있나요?",
+    "생활지원은 무엇을 지원하나요?",
+    "건강·학업 지원은 무엇을 지원하나요?",
+    "법률지원은 무엇을 지원하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T02:59:18.821Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "long-term-care-elderly--시설재가본인부담금비교",
+  "slug": "시설재가본인부담금비교",
+  "hub": "long-term-care-elderly",
+  "dir": "노인장기요양보험",
+  "fileName": "시설재가본인부담금비교",
+  "exportName": "노인장기요양보험시설재가본인부담금비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인장기요양보험\\시설재가본인부담금비교.tsx",
+  "title": "장기요양 본인부담금은 얼마인가요? 재가 15%와 시설 20% 차이까지",
+  "subs": [
+    "장기요양 본인부담금은 어떻게 정해지나요?",
+    "재가급여 본인부담률은 얼마인가요?",
+    "시설급여 본인부담률은 얼마인가요?",
+    "본인부담금을 줄여주는 감경 대상도 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T02:22:54.236Z"
+}

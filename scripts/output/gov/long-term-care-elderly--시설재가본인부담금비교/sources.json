@@ -1,0 +1,60 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nhis.or.kr/static/html/wbda/c/wbdac05.html",
+    "finalUrl": "https://www.nhis.or.kr/static/html/wbda/c/wbdac05.html",
+    "title": "국민건강보험",
+    "file": "src-1.txt",
+    "chars": 5182,
+    "tables": 10,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2038&ccfNo=3&cciNo=3&cnpClsNo=1",
+    "finalUrl": "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=2038&ccfNo=3&cciNo=3&cnpClsNo=1",
+    "title": "노인장기요양보험 > 노인장기요양 서비스 이용하기 > 급여 비용의 납부 > 본인부담금 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 5560,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10712030100",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10712030100",
+    "title": "정책의 이해 < 요양보험제도 < 노인 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 3384,
+    "tables": 1,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "노인장기요양보험제도 이용절차"
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": "서비스 전달 및 청구 · 지급 체계"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.longtermcare.or.kr/",
+    "finalUrl": "https://www.longtermcare.or.kr/npbs/indexr.jsp",
+    "title": "국민건강보험공단 장기요양보험",
+    "file": "src-4.txt",
+    "chars": 1474,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]
