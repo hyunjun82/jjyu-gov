@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--small-business-owner-special-provision",
+  "slug": "small-business-owner-special-provision",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "중소기업사업주특례",
+  "exportName": "산재중소기업사업주특례SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\중소기업사업주특례.tsx",
+  "title": "중소기업 사장님도 산재보험에 들 수 있나요? 특례 조건까지",
+  "subs": [
+    "사업주도 산재보험에 가입할 수 있나요?",
+    "중소기업 사업주 특례는 무엇인가요?",
+    "특례 가입 조건은 무엇인가요?",
+    "가입 신청은 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T01:09:15.213Z"
+}

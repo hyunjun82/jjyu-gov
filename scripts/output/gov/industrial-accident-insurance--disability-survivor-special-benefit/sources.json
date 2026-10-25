@@ -1,0 +1,57 @@
+[
+  {
+    "n": 1,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=5",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=4&cciNo=3&cnpClsNo=5",
+    "title": "산업재해보상보험Ⅱ(보험급여) > 장해급여ㆍ간병급여 > 장해급여 > 장해특별급여 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-1.txt",
+    "chars": 3710,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=1&cnpClsNo=4",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=5&cciNo=1&cnpClsNo=4",
+    "title": "산업재해보상보험Ⅱ(보험급여) > 유족급여ㆍ장례비 > 유족급여 > 유족특별급여 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 3472,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=10&cciNo=1&cnpClsNo=1",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=10&cciNo=1&cnpClsNo=1",
+    "title": "산업재해보상보험Ⅱ(보험급여) > 재해보상 및 손해배상과의 관계 > 「근로기준법」에 따른 재해보상과의 관계 > 「근로기준법」에 따른 재해보상과의 관계 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-3.txt",
+    "chars": 4895,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://total.comwel.or.kr/",
+    "finalUrl": "https://total.comwel.or.kr/",
+    "title": "근로복지공단 고용·산재보험 토탈서비스(WEB)",
+    "file": "src-4.txt",
+    "chars": 988,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://total.comwel.or.kr/",
+    "finalUrl": "https://total.comwel.or.kr/",
+    "title": "근로복지공단 고용·산재보험 토탈서비스(WEB)",
+    "file": "src-5.txt",
+    "chars": 988,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

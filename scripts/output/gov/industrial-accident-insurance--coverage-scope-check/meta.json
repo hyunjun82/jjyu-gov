@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--coverage-scope-check",
+  "slug": "coverage-scope-check",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "적용범위",
+  "exportName": "산재적용범위SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\적용범위.tsx",
+  "title": "우리 회사도 산재보험 대상인가요? 당연 적용부터 조회까지",
+  "subs": [
+    "산재보험은 어떤 사업장에 적용되나요?",
+    "당연히 적용되는 사업장은 어디인가요?",
+    "적용이 제외되는 사업장도 있나요?",
+    "우리 회사가 대상인지 어디서 조회하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T00:49:39.929Z"
+}

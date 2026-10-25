@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--회사처리",
+  "slug": "회사처리",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "회사처리",
+  "exportName": "산재회사처리SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\회사처리.tsx",
+  "title": "회사가 산재 처리를 안 해줘도 직접 신청되나요? 공상과 차이까지",
+  "subs": [
+    "회사가 산재 처리를 안 해주면 어떻게 하나요?",
+    "회사 확인 없이 직접 신청할 수 있나요?",
+    "공상으로 처리하면 산재와 무엇이 다른가요?",
+    "신청은 어디에 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T00:30:51.346Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--injury-disease-compensation-pension",
+  "slug": "injury-disease-compensation-pension",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "상병보상연금",
+  "exportName": "산재상병보상연금SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\상병보상연금.tsx",
+  "title": "상병보상연금은 휴업급여에서 언제 바뀌나요? 요건부터 청구까지",
+  "subs": [
+    "상병보상연금은 무엇인가요?",
+    "휴업급여에서 언제 전환되나요?",
+    "지급 요건은 무엇인가요?",
+    "청구는 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T00:42:15.742Z"
+}

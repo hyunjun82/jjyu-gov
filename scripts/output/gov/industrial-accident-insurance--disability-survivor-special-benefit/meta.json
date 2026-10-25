@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--disability-survivor-special-benefit",
+  "slug": "disability-survivor-special-benefit",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "장해유족특별급여",
+  "exportName": "산재장해유족특별급여SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\장해유족특별급여.tsx",
+  "title": "회사 과실로 중상·사망했다면? 특별급여 대상과 청구까지",
+  "subs": [
+    "장해·유족 특별급여는 무엇인가요?",
+    "어떤 경우에 받을 수 있나요?",
+    "누가 어떻게 청구하나요?",
+    "손해배상과는 어떤 관계인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T00:59:11.239Z"
+}

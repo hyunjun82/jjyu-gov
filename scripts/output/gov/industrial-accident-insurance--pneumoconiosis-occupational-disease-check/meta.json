@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "industrial-accident-insurance--pneumoconiosis-occupational-disease-check",
+  "slug": "pneumoconiosis-occupational-disease-check",
+  "hub": "industrial-accident-insurance",
+  "dir": "산재보험",
+  "fileName": "진폐업무상질병인정",
+  "exportName": "산재진폐업무상질병인정SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\산재보험\\진폐업무상질병인정.tsx",
+  "title": "내 일이 진폐 인정 분진작업에 들까요? 확인부터 판정까지",
+  "subs": [
+    "진폐란 무엇인가요?",
+    "진폐 인정 대상 분진작업은 무엇인가요?",
+    "내가 한 작업이 해당하는지 어떻게 확인하나요?",
+    "진폐 인정 여부는 어떻게 판정하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T01:18:13.608Z"
+}
