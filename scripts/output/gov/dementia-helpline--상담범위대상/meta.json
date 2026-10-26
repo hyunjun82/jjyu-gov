@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "dementia-helpline--상담범위대상",
+  "slug": "상담범위대상",
+  "hub": "dementia-helpline",
+  "dir": "치매상담콜센터",
+  "fileName": "상담범위대상",
+  "exportName": "치매상담콜센터상담범위대상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\치매상담콜센터\\상담범위대상.tsx",
+  "title": "치매상담콜센터는 어떤 도움을 주나요? 돌봄·정보 종류와 이용 대상까지",
+  "subs": [
+    "어떤 도움을 받을 수 있나요?",
+    "돌봄 쪽은 어떤 내용을 묻나요?",
+    "정보 쪽은 어떤 내용을 묻나요?",
+    "누가 이용할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T10:26:12.671Z"
+}

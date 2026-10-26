@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "dementia-helpline--가족전화상담",
+  "slug": "가족전화상담",
+  "hub": "dementia-helpline",
+  "dir": "치매상담콜센터",
+  "fileName": "가족전화상담",
+  "exportName": "치매상담콜센터가족전화상담SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\치매상담콜센터\\가족전화상담.tsx",
+  "title": "치매 환자 대신 가족이 전화해도 되나요? 물어볼 수 있는 내용까지",
+  "subs": [
+    "환자 대신 가족이 전화해도 되나요?",
+    "어떤 내용을 물어볼 수 있나요?",
+    "돌봄이 힘들 때는 어떤 도움이 있나요?",
+    "전화는 언제 이용할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T10:32:26.556Z"
+}

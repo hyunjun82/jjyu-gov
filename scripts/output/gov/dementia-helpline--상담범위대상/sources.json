@@ -1,0 +1,35 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nid.or.kr/support/callcenter_use.aspx",
+    "finalUrl": "https://www.nid.or.kr/support/callcenter_use.aspx",
+    "title": "중앙치매센터|지원|치매상담콜센터",
+    "file": "src-1.txt",
+    "chars": 1357,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nid.or.kr/support/callcenter_intro.aspx",
+    "finalUrl": "https://www.nid.or.kr/support/callcenter_intro.aspx",
+    "title": "중앙치매센터|지원|치매상담콜센터",
+    "file": "src-2.txt",
+    "chars": 2590,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nid.or.kr/support/callcenter_use.aspx",
+    "finalUrl": "https://www.nid.or.kr/support/callcenter_use.aspx",
+    "title": "중앙치매센터|지원|치매상담콜센터",
+    "file": "src-3.txt",
+    "chars": 1357,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

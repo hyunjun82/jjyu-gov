@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "dementia-helpline--의심증상전화",
+  "slug": "의심증상전화",
+  "hub": "dementia-helpline",
+  "dir": "치매상담콜센터",
+  "fileName": "의심증상전화",
+  "exportName": "치매상담콜센터의심증상전화SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\치매상담콜센터\\의심증상전화.tsx",
+  "title": "부모님이 치매가 의심되면 어디에 전화하나요? 번호와 이용 방법까지",
+  "subs": [
+    "어디에 전화하면 되나요?",
+    "어떤 걱정이 있을 때 전화하나요?",
+    "전화하면 누가 받나요?",
+    "모바일 앱으로도 연결되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T10:18:46.875Z"
+}

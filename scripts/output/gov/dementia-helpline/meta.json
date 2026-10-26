@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "dementia-helpline",
+  "slug": "dementia-helpline",
+  "file": "data\\policies\\dementia-helpline.ts",
+  "title": "치매상담콜센터 전화번호는? 운영시간과 이용 대상, 받을 수 있는 도움까지",
+  "subs": [
+    "치매상담콜센터 전화번호는 무엇인가요?",
+    "운영시간은 언제인가요?",
+    "누가 이용할 수 있나요?",
+    "어떤 도움을 받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T10:40:34.017Z"
+}
