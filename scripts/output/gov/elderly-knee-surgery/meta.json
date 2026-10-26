@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "elderly-knee-surgery",
+  "slug": "elderly-knee-surgery",
+  "file": "data\\policies\\elderly-knee-surgery.ts",
+  "title": "노인 무릎 인공관절 수술비 지원 대상과 신청처, 제외 비용까지",
+  "subs": [
+    "지원 대상은 누구인가요?",
+    "신청은 어디서 하나요?",
+    "수술은 언제까지 받아야 하나요?",
+    "어떤 비용은 제외되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T06:28:13.188Z"
+}

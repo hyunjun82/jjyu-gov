@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition05_01_01&naviParam=HD,01,03,01,01",
+    "finalUrl": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition05_01_01&naviParam=HD,01,03,01,01",
+    "title": "상환의무 | 취업 후 상환 학자금대출 상환안내 | 취업후 상환 학자금대출 | 학자금대출 상환안내 | 학자금대출 제도 안내 | 학자금대출 | 한국장학재단",
+    "file": "src-1.txt",
+    "chars": 4457,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition05_01_03&naviParam=HD,01,03,01,01",
+    "finalUrl": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition05_01_03&naviParam=HD,01,03,01,01",
+    "title": "의무적상환 | 취업 후 상환 학자금대출 상환안내 | 취업후 상환 학자금대출 | 학자금대출 상환안내 | 학자금대출 제도 안내 | 학자금대출 | 한국장학재단",
+    "file": "src-2.txt",
+    "chars": 3878,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_01_01&naviParam=HD,01,02,02,01",
+    "finalUrl": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition04_01_01&naviParam=HD,01,02,02,01",
+    "title": "소개 | 소개 | 취업후 상환 학자금대출 | 학자금대출안내 | 학자금대출 제도 안내 | 학자금대출 | 한국장학재단",
+    "file": "src-3.txt",
+    "chars": 4612,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition05_01_03&naviParam=HD,01,03,01,01",
+    "finalUrl": "https://www.kosaf.go.kr/ko/tuition.do?pg=tuition05_01_03&naviParam=HD,01,03,01,01",
+    "title": "의무적상환 | 취업 후 상환 학자금대출 상환안내 | 취업후 상환 학자금대출 | 학자금대출 상환안내 | 학자금대출 제도 안내 | 학자금대출 | 한국장학재단",
+    "file": "src-4.txt",
+    "chars": 3878,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  }
+]

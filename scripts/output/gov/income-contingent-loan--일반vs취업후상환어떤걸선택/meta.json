@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "income-contingent-loan--일반vs취업후상환어떤걸선택",
+  "slug": "일반vs취업후상환어떤걸선택",
+  "hub": "income-contingent-loan",
+  "dir": "학자금대출",
+  "fileName": "일반vs취업후상환어떤걸선택",
+  "exportName": "학자금대출일반vs취업후상환어떤걸선택SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\학자금대출\\일반vs취업후상환어떤걸선택.tsx",
+  "title": "학자금대출은 일반과 취업 후 중 뭐가 다를까? 이자와 기간까지",
+  "subs": [
+    "일반 학자금대출은 어떻게 갚나요?",
+    "취업 후 갚는 방식은 무엇이 다른가요?",
+    "이자는 어떻게 다른가요?",
+    "갚는 기간은 어떻게 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T07:40:41.999Z"
+}

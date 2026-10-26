@@ -1,0 +1,40 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+    "finalUrl": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+    "title": "치과임플란트 급여안내",
+    "file": "src-1.txt",
+    "chars": 2139,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html",
+    "finalUrl": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0217.html",
+    "title": "노인틀니 급여안내(국민건강보험법 시행령 제19조 제1항 별표2)",
+    "file": "src-2.txt",
+    "chars": 3902,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "급여절차"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+    "finalUrl": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0221.html",
+    "title": "치과임플란트 급여안내",
+    "file": "src-3.txt",
+    "chars": 2139,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  }
+]

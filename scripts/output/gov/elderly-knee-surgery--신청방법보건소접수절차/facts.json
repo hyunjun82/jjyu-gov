@@ -1,0 +1,316 @@
+{
+  "facts": [
+    {
+      "id": "f1",
+      "item": "신청·접수 장소",
+      "value": "전국 지역 보건소에서 신청·접수",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "전국지역 보건소",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "보건소",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f2",
+      "item": "신청 가능자(공무원·본인)",
+      "value": "사회복지담당공무원과 본인이 신청할 수 있음",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "사회복지담당공무원 및 본인,",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f3",
+      "item": "신청 가능자(가족·관계인)",
+      "value": "가족이나 그 밖의 관계인도 신청할 수 있음",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "가족 또는 그 밖의 관계인",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f4",
+      "item": "진단서 발급처",
+      "value": "진단서는 무릎인공관절 수술을 받을 병원에서 발급",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "수술할 병원",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "수술할 병원",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f5",
+      "item": "선정 심사·통보 주체",
+      "value": "재단이 심사한 뒤 보건소와 병원에 알림",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "재단 → 심사후 보건소, 병원",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f6",
+      "item": "환자 통보",
+      "value": "환자에게 지원대상 선정 통보",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "환자에게 지원대상 선정통보",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f7",
+      "item": "수술 기한",
+      "value": "선정 통보를 받은 뒤 2개월 이내에 수술",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "통보 받은 후 2개월 이내",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "2개월 이내",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f8",
+      "item": "지원금 정산 방식",
+      "value": "지원금은 퇴원할 때 의료기관에서 차감해 정산",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "지원금 → 퇴원시 의료기관 차감 정산",
+      "src": "src-1.txt",
+      "must": true,
+      "key": "차감 정산",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f9",
+      "item": "의료기관 청구 기한",
+      "value": "의료기관이 퇴원 후 10일 이내에 재단에 청구",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "의료기관 → 퇴원 후 10일 이내 재단 청구",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f10",
+      "item": "사업기간",
+      "value": "2026.01.01 ~12.31, 사업비가 소진되면 그때까지",
+      "scope": "2026년 사업",
+      "scopeWord": "올해",
+      "quote": "2026.01.01 ~12.31(사업비 소진 시 까지)",
+      "src": "src-2.txt",
+      "must": true,
+      "key": "사업비 소진",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f11",
+      "item": "연령 기준",
+      "value": "신청일 기준 만 60세 이상",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "신청일 기준 만 60세 이상",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f12",
+      "item": "질환 기준",
+      "value": "건강보험급여 '인공관절치환술(슬관절)'에 해당",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "건강보험급여 ‘인공관절치환술(슬관절)’에 해당",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f13",
+      "item": "대상자(수급자)",
+      "value": "국민기초생활보장법에 따른 수급자(생계, 주거, 의료 등)",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "- 국민기초생활보장법에따른 수급자(생계, 주거, 의료 등)",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f14",
+      "item": "대상자(차상위·한부모)",
+      "value": "차상위계층, 한부모가족지원법에 따른 지원대상자",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "- 차상위계층, 한부모가족지원법에 따른 지원대상자",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f15",
+      "item": "지원 범위",
+      "value": "본인 부담금에 해당하는 검사비, 진료비, 수술비",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "본인 부담금에 해당하는 검사비, 진료비 및 수술비",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f16",
+      "item": "지원 한도",
+      "value": "한쪽 무릎 기준 120만 원, 양측 240만 원 한도 안에서 실비 지원",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "한쪽 무릎 기준 120만 원, 양측 240만 원 한도 실비 지원",
+      "src": "src-2.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f17",
+      "item": "지원 제외 항목",
+      "value": "간병비, 상급병실료, 선택진료비, 보호자 식대, 제 증명료, 수술과 관련 없는 비용, 지원대상자 통보 전에 생긴 검사비·진료비·수술비, 통원치료비는 지원 제외",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "간병비, 상급병실료, 선택진료비, 보호자 식대, 제 증명료, 무릎인공관절수술과 관련이 없는 검사비, 치료비, 입원료 등, 지원대상자 통보 전 발생한 검사비, 진료비 및 수술비, 통원치료비",
+      "src": "src-2.txt",
+      "must": true,
+      "key": "통보 전",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f18",
+      "item": "중복지원 제외",
+      "value": "실손 보험금을 받거나 다른 기관 지원(긴급 복지의료지원 등)을 중복으로 받으면 선정 취소, 이후 참여 제한, 지원금 환수 등 불이익",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "실손 보험금 수령 및 기타 타기관과의 지원 중복 수령(긴급 복지의료지원 등)이 발생할 경우, 지원 선정 취소 및 향후 지원사업 참여 제한, 지원금 환수 조치 등 불이익을 받을 수 있음",
+      "src": "src-2.txt",
+      "must": true,
+      "key": "실손 보험금",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f19",
+      "item": "재단 전화번호",
+      "value": "02-711-6599",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "02-711-6599",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f20",
+      "item": "전화 운영시간",
+      "value": "오전 09:00 ~ 오후 05:00",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "오전 09:00 ~ 오후 05:00",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f21",
+      "item": "휴무일",
+      "value": "토요일, 일요일, 공휴일은 휴무",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "토, 일, 공휴일은 휴무입니다.",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    },
+    {
+      "id": "f22",
+      "item": "수술지원 신청서 다운로드 링크",
+      "value": "https://www.ok6595.or.kr/up_fd/Apply/(%EC%96%91%EC%8B%9D)2024%20%EB%AC%B4%EB%A6%8E%EA%B4%80%EC%A0%88%EC%A6%9D%20%EC%9D%98%EB%A3%8C%EC%A7%80%EC%9B%90%20%EC%8B%A0%EC%B2%AD%EC%84%9C_(%EC%9E%AC)%EB%85%B8%EC%9D%B8%EC%9D%98%EB%A3%8C%EB%82%98%EB%88%94%EC%9E%AC%EB%8B%A8.hwp",
+      "scope": "",
+      "scopeWord": "",
+      "quote": "수술지원 신청서 다운받기 exit_to_app → https://www.ok6595.or.kr/up_fd/Apply/(%EC%96%91%EC%8B%9D)2024%20%EB%AC%B4%EB%A6%8E%EA%B4%80%EC%A0%88%EC%A6%9D%20%EC%9D%98%EB%A3%8C%EC%A7%80%EC%9B%90%20%EC%8B%A0%EC%B2%AD%EC%84%9C_(%EC%9E%AC)%EB%85%B8%EC%9D%B8%EC%9D%98%EB%A3%8C%EB%82%98%EB%88%94%EC%9E%AC%EB%8B%A8.hwp",
+      "src": "src-1.txt",
+      "must": false,
+      "key": "",
+      "keepWord": "",
+      "keepWhy": ""
+    }
+  ],
+  "notUsed": [
+    {
+      "item": "src-3.txt (정부24 서비스 안내)",
+      "reason": "매크로 차단 페이지라 본문이 없음"
+    },
+    {
+      "item": "src-4.txt 전체",
+      "reason": "src-1.txt와 같은 페이지(knee01.asp)를 다시 수집한 것이라 내용이 같음. src-1로 인용함"
+    },
+    {
+      "item": "사업비 약 40억원, 지원인원 약 3,000명/수술건수 약 4,000건",
+      "reason": "소제목 4개와 FAQ에 쓰지 않는 사업 규모 정보"
+    },
+    {
+      "item": "재단 주소·FAX·이메일·고유번호",
+      "reason": "신청은 보건소에서 하므로 글에 필요 없음"
+    },
+    {
+      "item": "사업내용 다운받기 링크",
+      "reason": "행동 링크 줄에 목적지 URL이 없음"
+    },
+    {
+      "item": "신청서 파일명의 '2024' 표기",
+      "reason": "양식 파일 이름이 2024년으로 되어 있지만 페이지 제목은 '2026 무릎인공관절수술 지원 사업'임. 값끼리 부딪히는 사실은 아니고 링크에만 들어 있는 숫자라 따로 뽑지 않음"
+    }
+  ]
+}

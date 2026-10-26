@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "income-contingent-loan",
+  "slug": "income-contingent-loan",
+  "file": "data\\policies\\income-contingent-loan.ts",
+  "title": "취업후상환 학자금대출이란? 금리와 이자, 소득요건까지",
+  "subs": [
+    "취업후상환 학자금대출은 어떤 대출인가요?",
+    "금리는 어떻게 정해지나요?",
+    "이자는 언제부터 붙나요?",
+    "대출 소득요건은 어떻게 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T07:52:33.332Z"
+}

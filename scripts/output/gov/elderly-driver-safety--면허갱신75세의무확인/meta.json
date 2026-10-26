@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "elderly-driver-safety--면허갱신75세의무확인",
+  "slug": "면허갱신75세의무확인",
+  "hub": "elderly-driver-safety",
+  "dir": "고령운전자교통안전교육",
+  "fileName": "면허갱신75세의무확인",
+  "exportName": "고령운전자교통안전교육면허갱신75세의무확인SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\고령운전자교통안전교육\\면허갱신75세의무확인.tsx",
+  "title": "75세 면허 갱신 교육은 필수? 인지선별검사와 전체 절차까지",
+  "subs": [
+    "75세 면허 갱신 교육은 꼭 받아야 하나요?",
+    "인지선별검사는 어디서 받나요?",
+    "교육을 안 받으면 갱신이 진행되나요?",
+    "전체 절차는 어떤 순서로 진행되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T07:03:36.059Z"
+}

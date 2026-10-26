@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "medical-aid-elderly-denture--임플란트평생2개신청방법",
+  "slug": "임플란트평생2개신청방법",
+  "hub": "medical-aid-elderly-denture",
+  "dir": "노인틀니임플란트",
+  "fileName": "임플란트평생2개신청방법",
+  "exportName": "노인틀니임플란트임플란트평생2개신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인틀니임플란트\\임플란트평생2개신청방법.tsx",
+  "title": "의료급여 임플란트 등록은 어떻게? 평생 2개와 대상 조건까지",
+  "subs": [
+    "의료급여 임플란트 등록은 어디서 하나요?",
+    "어떤 사람이 대상인가요?",
+    "평생 2개는 어떻게 세나요?",
+    "어떤 경우에 비급여가 되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T06:40:12.124Z"
+}

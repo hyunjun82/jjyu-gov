@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "medical-aid-elderly-denture--완전틀니부분틀니임플란트종류비교",
+  "slug": "완전틀니부분틀니임플란트종류비교",
+  "hub": "medical-aid-elderly-denture",
+  "dir": "노인틀니임플란트",
+  "fileName": "완전틀니부분틀니임플란트종류비교",
+  "exportName": "노인틀니임플란트완전틀니부분틀니임플란트종류비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노인틀니임플란트\\완전틀니부분틀니임플란트종류비교.tsx",
+  "title": "노인 틀니 종류는? 완전과 부분, 임플란트 선택 기준까지",
+  "subs": [
+    "건강보험이 적용되는 틀니 종류는 무엇인가요?",
+    "완전 틀니는 어떤 경우에 받나요?",
+    "부분 틀니는 어떤 경우에 받나요?",
+    "임플란트와는 어떤 기준으로 갈리나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T06:46:36.550Z"
+}

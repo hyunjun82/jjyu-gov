@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "income-contingent-loan--상환기준소득3037만초과상환방법",
+  "slug": "상환기준소득3037만초과상환방법",
+  "hub": "income-contingent-loan",
+  "dir": "학자금대출",
+  "fileName": "상환기준소득3037만초과상환방법",
+  "exportName": "학자금대출상환기준소득3037만초과상환방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\학자금대출\\상환기준소득3037만초과상환방법.tsx",
+  "title": "학자금대출 상환기준소득은? 초과하면 갚는 방법과 유예까지",
+  "subs": [
+    "상환기준소득은 얼마인가요?",
+    "소득이 초과하면 어떻게 갚나요?",
+    "내 소득이 기준에 못 미치면 어떻게 되나요?",
+    "상환을 미룰 수 있는 경우는 언제인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T07:28:26.522Z"
+}
