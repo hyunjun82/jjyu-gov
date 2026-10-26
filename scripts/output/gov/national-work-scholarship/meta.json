@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "national-work-scholarship",
+  "slug": "national-work-scholarship",
+  "file": "data\\policies\\national-work-scholarship.ts",
+  "title": "국가근로장학금 신청 자격과 기간, 월급 지급일까지",
+  "subs": [
+    "국가근로장학금은 누가 신청할 수 있나요?",
+    "신청기간은 언제인가요?",
+    "월급은 언제 지급되나요?",
+    "교내와 교외 근로는 무엇이 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T04:35:01.690Z"
+}

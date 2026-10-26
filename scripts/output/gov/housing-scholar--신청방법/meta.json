@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "housing-scholar--신청방법",
+  "slug": "신청방법",
+  "hub": "housing-scholar",
+  "dir": "주거안정장학금",
+  "fileName": "신청방법",
+  "exportName": "주거안정장학금신청방법SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\주거안정장학금\\신청방법.tsx",
+  "title": "주거안정장학금 신청 방법과 필요 서류, 서약서·지급요청서까지",
+  "subs": [
+    "주거안정장학금 신청은 어떤 순서로 하나요?",
+    "어떤 서류를 내야 하나요?",
+    "서약서는 언제 내나요?",
+    "지급요청서는 어떻게 내나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T04:58:43.732Z"
+}

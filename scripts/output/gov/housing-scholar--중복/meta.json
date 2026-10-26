@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "housing-scholar--중복",
+  "slug": "중복",
+  "hub": "housing-scholar",
+  "dir": "주거안정장학금",
+  "fileName": "중복",
+  "exportName": "주거안정장학금중복SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\주거안정장학금\\중복.tsx",
+  "title": "주거안정장학금 중복 수혜는 되나요? 청년 월세 사업과 반환까지",
+  "subs": [
+    "주거안정장학금은 어떤 지원과 중복이 안 되나요?",
+    "가구 단위 주거급여는 함께 받을 수 있나요?",
+    "선발된 뒤 다른 지원에 뽑히면 어떻게 되나요?",
+    "중복 수혜로 반환해야 하는 경우는 언제인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T05:11:37.390Z"
+}

@@ -1,0 +1,13 @@
+URL: https://www.kosaf.go.kr/ssoext/portal_gateway.jsp?bsnId=JH&ref=PTJH_SCRSAPLY&hmNavi=JH,09,02,00
+최종 URL: https://www.kosaf.go.kr/ssoext/portal_gateway.jsp?bsnId=JH&ref=PTJH_SCRSAPLY&hmNavi=JH,09,02,00
+제목: 
+수집: 2026-10-26T05:44:22.920Z
+
+x
+서비스 이용자 등록/로그인이 필요한 서비스 입니다.
+한국장학재단 각종 서비스를 이용하기 위해서는 로그인 후 이용이 가능합니다.
+로그인을 원하지 않는 경우 '돌아가기' 버튼을 눌러주세요.
+돌아가기
+로그인하러 가기
+
+

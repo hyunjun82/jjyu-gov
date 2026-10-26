@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "title": "장학금 지원금액 | 국가근로장학금 | 국가근로 및 취업연계 장학금 | 장학금 | 한국장학재단",
+    "file": "src-1.txt",
+    "chars": 3097,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01",
+    "title": "신청대상(지원자격) | 국가근로장학금 | 국가근로 및 취업연계 장학금 | 장학금 | 한국장학재단",
+    "file": "src-2.txt",
+    "chars": 3640,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=18349",
+    "finalUrl": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=18349",
+    "title": "국가근로장학금 | 국가근로 및 취업연계 장학금 | 장학금 | 한국장학재단",
+    "file": "src-3.txt",
+    "chars": 40273,
+    "tables": 2,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "title": "장학금 지원금액 | 국가근로장학금 | 국가근로 및 취업연계 장학금 | 장학금 | 한국장학재단",
+    "file": "src-4.txt",
+    "chars": 3097,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "housing-scholar--지원금액",
+  "slug": "지원금액",
+  "hub": "housing-scholar",
+  "dir": "주거안정장학금",
+  "fileName": "지원금액",
+  "exportName": "주거안정장학금지원금액SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\주거안정장학금\\지원금액.tsx",
+  "title": "주거안정장학금 금액은 월 얼마? 지출처와 보증금 계산까지",
+  "subs": [
+    "주거안정장학금은 월 얼마를 지원하나요?",
+    "방학 중에도 받을 수 있나요?",
+    "어떤 지출처가 인정되나요?",
+    "보증금은 어떻게 계산하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T04:49:32.160Z"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=21163&naviParam=DN,08,01,00",
+    "finalUrl": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=21163&naviParam=DN,08,01,00",
+    "title": "공지사항 | 알림 | 재단소개 | 한국장학재단",
+    "file": "src-1.txt",
+    "chars": 39886,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00&ttab1=0",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00&ttab1=0",
+    "title": "지원대상 | 소개 | 주거안정장학금 | 장학금 | 한국장학재단",
+    "file": "src-2.txt",
+    "chars": 2229,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00&ttab1=4",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_18&naviParam=JH,09,01,00&ttab1=4",
+    "title": "제출서류 | 소개 | 주거안정장학금 | 장학금 | 한국장학재단",
+    "file": "src-3.txt",
+    "chars": 3603,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=21163&naviParam=DN,08,01,00",
+    "finalUrl": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=21163&naviParam=DN,08,01,00",
+    "title": "공지사항 | 알림 | 재단소개 | 한국장학재단",
+    "file": "src-4.txt",
+    "chars": 39886,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  }
+]

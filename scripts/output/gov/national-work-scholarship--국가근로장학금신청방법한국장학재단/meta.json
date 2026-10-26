@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "national-work-scholarship--국가근로장학금신청방법한국장학재단",
+  "slug": "국가근로장학금신청방법한국장학재단",
+  "hub": "national-work-scholarship",
+  "dir": "국가근로장학금",
+  "fileName": "국가근로장학금신청방법한국장학재단",
+  "exportName": "국가근로장학금국가근로장학금신청방법한국장학재단SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\국가근로장학금\\국가근로장학금신청방법한국장학재단.tsx",
+  "title": "국가근로장학금 신청 방법은? 6단계 절차와 2차 모집까지",
+  "subs": [
+    "국가근로장학금은 어디서 신청하나요?",
+    "신청은 어떤 6단계로 진행되나요?",
+    "2차 모집도 있나요?",
+    "신청 뒤에는 근로 기관을 어떻게 정하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T03:54:47.202Z"
+}

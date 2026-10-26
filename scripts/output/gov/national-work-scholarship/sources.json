@@ -1,0 +1,102 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01",
+    "title": "신청대상(지원자격) | 국가근로장학금 | 국가근로 및 취업연계 장학금 | 장학금 | 한국장학재단",
+    "file": "src-1.txt",
+    "chars": 3640,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "title": "장학금 지원금액 | 국가근로장학금 | 국가근로 및 취업연계 장학금 | 장학금 | 한국장학재단",
+    "file": "src-2.txt",
+    "chars": 3097,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.kosaf.go.kr/ko/scholarnf.do?pg=scholarship05_04_09p",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholarnf.do?pg=scholarship05_04_09p",
+    "title": "FAQ | 국가 교육근로장학금 | 한국장학재단",
+    "file": "src-3.txt",
+    "chars": 2698,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://m.korea.kr/news/policyFocusView.do?newsId=148965747&pkgId=49500808",
+    "finalUrl": "https://www.korea.kr/news/policyFocusView.do?newsId=148965747&pkgId=49500808#policyFocus",
+    "title": "'2학기 국가장학금·근로장학금 신청 기간'이 돌아왔다! - 청년정책 | 정책포커스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-4.txt",
+    "chars": 5268,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "첫 제자들과 함께 찍었던 사진. (본인촬영)"
+      },
+      {
+        "file": "img-4-2.png",
+        "alt": "2026학년도 2학기 국가장학금 신청 포스터. (출처: 교육부)"
+      },
+      {
+        "file": "img-4-3.png",
+        "alt": "2026학년도 2학기 소득연계형 국가장학금의 종류는 다음과 같다. (출처: 한국장학재단)"
+      },
+      {
+        "file": "img-4-4.png",
+        "alt": "한국장학재단 홈페이지."
+      },
+      {
+        "file": "img-4-5.png",
+        "alt": "한국장학재단 홈페이지에 접속해 로그인을 한다."
+      },
+      {
+        "file": "img-4-6.png",
+        "alt": "신청자 정보부터 차근차근 입력한다."
+      },
+      {
+        "file": "img-4-7.png",
+        "alt": "학적 구분 칸의 정보를 올바르게 입력해야 한다!"
+      },
+      {
+        "file": "img-4-8.png",
+        "alt": "개인정보도 올바르게 입력한다. 입력한 뒤에는 꼭 확인을 한 번 더 하자."
+      },
+      {
+        "file": "img-4-9.png",
+        "alt": "개인정보 입력 후 핸드폰 번호 인증을 잊지 말자."
+      },
+      {
+        "file": "img-4-10.png",
+        "alt": "소득 및 재산 조사 방법도 선택할 수 있다."
+      },
+      {
+        "file": "img-4-11.png",
+        "alt": "결혼 여부 확인, 장애인 여부, 자립준비 청년 여부 등을 알맞게 입력한다."
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "finalUrl": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01&ttab1=4",
+    "title": "장학금 지원금액 | 국가근로장학금 | 국가근로 및 취업연계 장학금 | 장학금 | 한국장학재단",
+    "file": "src-5.txt",
+    "chars": 3097,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

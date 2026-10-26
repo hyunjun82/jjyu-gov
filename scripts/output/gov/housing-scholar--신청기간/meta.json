@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "housing-scholar--신청기간",
+  "slug": "신청기간",
+  "hub": "housing-scholar",
+  "dir": "주거안정장학금",
+  "fileName": "신청기간",
+  "exportName": "주거안정장학금신청기간SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\주거안정장학금\\신청기간.tsx",
+  "title": "주거안정장학금 신청기간은 언제? 학기별 일정과 서류 마감까지",
+  "subs": [
+    "주거안정장학금 신청기간은 언제인가요?",
+    "학기별로 일정이 어떻게 다른가요?",
+    "신청 기간을 놓치면 어떻게 하나요?",
+    "서류 제출 마감은 언제인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T05:29:26.131Z"
+}
