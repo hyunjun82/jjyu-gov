@@ -1,0 +1,51 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.moel.go.kr/minwon/fastcounsel/fastcounselView.do?inetDcssMngId=202503251114144630368",
+    "finalUrl": "https://www.moel.go.kr/minwon/fastcounsel/fastcounselView.do?inetDcssMngId=202503251114144630368",
+    "title": "고용노동부 > 민원 > 민원신청 > 빠른인터넷상담",
+    "file": "src-1.txt",
+    "chars": 1495,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSimulate13.do?currentPageNo=1&recordCountPerPage=10&upprSystClId=SC00000245&systClId=SC00000252&systId=SI00000397&systCnntId=CI00001582",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSimulate13.do?currentPageNo=1&recordCountPerPage=10&upprSystClId=SC00000245&systClId=SC00000252&systId=SI00000397&systCnntId=CI00001582",
+    "title": "육아기 근로시간 단축 | 지원금 모의계산 | 정책/제도 | 고객센터",
+    "file": "src-2.txt",
+    "chars": 2327,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1380&ccfNo=2&cciNo=2&cnpClsNo=2",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1380&ccfNo=2&cciNo=2&cnpClsNo=2",
+    "title": "일과 가정생활 > 육아휴직 및 육아기 근로시간 단축 > 육아기 근로시간 단축 > 육아기 근로시간 단축 급여 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-3.txt",
+    "chars": 4612,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.work24.go.kr/",
+    "finalUrl": "https://www.work24.go.kr/cm/main.do",
+    "title": "고용24",
+    "file": "src-4.txt",
+    "chars": 2464,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

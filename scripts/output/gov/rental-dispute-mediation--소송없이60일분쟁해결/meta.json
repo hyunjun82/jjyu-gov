@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "rental-dispute-mediation--소송없이60일분쟁해결",
+  "slug": "소송없이60일분쟁해결",
+  "hub": "rental-dispute-mediation",
+  "dir": "임대차분쟁조정위원회",
+  "fileName": "소송없이60일분쟁해결",
+  "exportName": "임대차분쟁조정위원회소송없이60일분쟁해결SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\임대차분쟁조정위원회\\소송없이60일분쟁해결.tsx",
+  "title": "임대차분쟁조정위원회 기간은 얼마나? 소송과 차이와 효력까지",
+  "subs": [
+    "조정은 며칠 안에 끝나나요?",
+    "조정 기간을 연장할 수 있나요?",
+    "조정은 소송과 무엇이 다른가요?",
+    "조정이 성립되면 어떤 효력이 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T07:07:42.004Z"
+}

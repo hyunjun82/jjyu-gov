@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "dementia-center",
+  "slug": "dementia-center",
+  "file": "data\\policies\\dementia-center.ts",
+  "title": "치매안심센터 검사 신청 방법과 비용, 이용 대상까지",
+  "subs": [
+    "치매안심센터 검사는 어떻게 신청하나요?",
+    "검사 비용은 얼마인가요?",
+    "누가 이용할 수 있나요?",
+    "검사 결과는 언제 알 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T00:50:48.336Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "rental-dispute-mediation--보증금반환조정신청",
+  "slug": "보증금반환조정신청",
+  "hub": "rental-dispute-mediation",
+  "dir": "임대차분쟁조정위원회",
+  "fileName": "보증금반환조정신청",
+  "exportName": "임대차분쟁조정위원회보증금반환조정신청SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\임대차분쟁조정위원회\\보증금반환조정신청.tsx",
+  "title": "전세 보증금을 못 받았다면? 조정 신청으로 해결되는지까지",
+  "subs": [
+    "보증금을 못 받으면 조정 신청이 가능한가요?",
+    "신청서는 어떻게 쓰나요?",
+    "조정안을 받으면 어떻게 하나요?",
+    "조정이 안 되면 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T07:16:53.270Z"
+}

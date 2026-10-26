@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "noran-umbrella--대출",
+  "slug": "대출",
+  "hub": "noran-umbrella",
+  "dir": "노란우산공제",
+  "fileName": "대출",
+  "exportName": "노란우산공제대출SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노란우산공제\\대출.tsx",
+  "title": "노란우산 대출이율은 얼마인가요? 한도와 상환 방법까지",
+  "subs": [
+    "공제계약대출은 무엇인가요?",
+    "대출 한도는 어떻게 정해지나요?",
+    "대출 이율은 얼마인가요?",
+    "상환은 어떻게 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T06:19:30.607Z"
+}

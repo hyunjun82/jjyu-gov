@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "url": "https://adrhome.reb.or.kr/adrhome/reb/LO010100/03/10301000000002022101316",
+    "finalUrl": "https://adrhome.reb.or.kr/adrhome/reb/LO010100/03/10301000000002022101316",
+    "title": "조정제도 안내 | 한국부동산원 · LH 임대차분쟁조정위원회",
+    "file": "src-1.txt",
+    "chars": 3229,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://adrhome.reb.or.kr/adrhome/reb/LO010100/03/10306000000002022101717",
+    "finalUrl": "https://adrhome.reb.or.kr/adrhome/reb/LO010100/03/10306000000002022101717",
+    "title": "조정서식 | 한국부동산원 · LH 임대차분쟁조정위원회",
+    "file": "src-2.txt",
+    "chars": 4074,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=3",
+    "finalUrl": "https://m.easylaw.go.kr/MOB/CsmInfoRetrieve.laf?csmSeq=629&ccfNo=5&cciNo=2&cnpClsNo=3",
+    "title": "주택임대차 > 임대차관계 종료 > 보증금의 회수 > 집행권원의 확보 < 책자형 생활법령 : 모바일 생활법령",
+    "file": "src-3.txt",
+    "chars": 12486,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=627&ccfNo=4&cciNo=2&cnpClsNo=3",
+    "title": "상가건물 임대차 > 임대차의 종료 > 보증금의 회수 > 집행권원의 확보 및 분쟁조정 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-4.txt",
+    "chars": 9516,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.hldcc.or.kr/",
+    "finalUrl": "https://www.hldcc.or.kr/",
+    "title": "대한법률구조공단 주택·상가건물 임대차분쟁조정위원회",
+    "file": "src-5.txt",
+    "chars": 1730,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-5-1.png",
+        "alt": "주택임대차 분쟁조정위원회에서 해결하세요."
+      }
+    ],
+    "primary": true
+  }
+]

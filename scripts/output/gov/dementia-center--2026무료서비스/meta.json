@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "dementia-center--2026무료서비스",
+  "slug": "2026무료서비스",
+  "hub": "dementia-center",
+  "dir": "치매안심센터",
+  "fileName": "2026무료서비스",
+  "exportName": "치매안심센터2026무료서비스SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\치매안심센터\\2026무료서비스.tsx",
+  "title": "치매안심센터 무료 서비스, 비용 없이 받는 항목과 신청 방법",
+  "subs": [
+    "치매안심센터에서 무료로 받는 서비스는 무엇인가요?",
+    "비용이 드는 검사도 있나요?",
+    "인지강화교실은 어떻게 이용하나요?",
+    "무료 서비스는 어떻게 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T00:44:08.167Z"
+}

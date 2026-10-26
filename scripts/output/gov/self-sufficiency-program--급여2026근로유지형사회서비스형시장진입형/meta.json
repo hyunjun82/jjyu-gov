@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "self-sufficiency-program--급여2026근로유지형사회서비스형시장진입형",
+  "slug": "급여2026근로유지형사회서비스형시장진입형",
+  "hub": "self-sufficiency-program",
+  "dir": "자활사업",
+  "fileName": "급여2026근로유지형사회서비스형시장진입형",
+  "exportName": "자활사업급여2026근로유지형사회서비스형시장진입형SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\자활사업\\급여2026근로유지형사회서비스형시장진입형.tsx",
+  "title": "자활근로 급여 지급일은 언제? 매달 말일과 계산 기준까지",
+  "subs": [
+    "자활근로 급여는 언제 지급되나요?",
+    "급여 변동이 있으면 언제 받나요?",
+    "급여는 어떻게 계산되나요?",
+    "명절에는 급여를 앞당겨 주나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T01:43:00.472Z"
+}

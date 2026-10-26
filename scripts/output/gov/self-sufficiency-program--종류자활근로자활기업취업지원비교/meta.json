@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "self-sufficiency-program--종류자활근로자활기업취업지원비교",
+  "slug": "종류자활근로자활기업취업지원비교",
+  "hub": "self-sufficiency-program",
+  "dir": "자활사업",
+  "fileName": "종류자활근로자활기업취업지원비교",
+  "exportName": "자활사업종류자활근로자활기업취업지원비교SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\자활사업\\종류자활근로자활기업취업지원비교.tsx",
+  "title": "자활근로 종류별 차이는? 유지형·사회서비스형·시장진입형",
+  "subs": [
+    "자활근로 종류에는 무엇이 있나요?",
+    "근로유지형·사회서비스형·시장진입형은 어떻게 다른가요?",
+    "나에게 맞는 유형은 어떻게 정해지나요?",
+    "자활기업은 무엇이 다른가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T02:02:12.955Z"
+}

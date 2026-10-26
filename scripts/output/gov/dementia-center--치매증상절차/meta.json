@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "dementia-center--치매증상절차",
+  "slug": "치매증상절차",
+  "hub": "dementia-center",
+  "dir": "치매안심센터",
+  "fileName": "치매증상절차",
+  "exportName": "치매안심센터치매증상절차SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\치매안심센터\\치매증상절차.tsx",
+  "title": "치매안심센터 검사 종류와 순서, 증상이 보일 때 먼저 할 일",
+  "subs": [
+    "치매안심센터 검사에는 어떤 종류가 있나요?",
+    "선별검사부터 감별검사까지 어떤 순서로 받나요?",
+    "증상이 보이면 가장 먼저 무엇을 해야 하나요?",
+    "검사받을 때 무엇을 준비해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T00:13:01.712Z"
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.childsupport.or.kr/",
+    "finalUrl": "https://www.childsupport.or.kr/",
+    "title": "양육비이행관리원",
+    "file": "src-1.txt",
+    "chars": 4419,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=3&cnpClsNo=1",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1659&ccfNo=2&cciNo=3&cnpClsNo=1",
+    "title": "양육비 > 양육비 이행확보를 위한 지원 > 양육비 이행 지원 신청을 했지만 당장 자녀양육에 어려움을 겪고 있다면? > 양육비 선지급을 신청하세요. (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 4430,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "그림입니다.\n원본 그림의 이름: CLP00000dc0000a.bmp\n원본 그림의 크기: 가로 756pixel, 세로 254pixel"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148945174",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148945174",
+    "title": "7월부터 '양육비 선지급제' 시행…미성년 자녀에 월 20만 원 지원 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 3340,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "서울 중구 양육비이행관리원. (사진=저작권자(c) 연합뉴스, 무단 전재-재배포 금지)"
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": "양육비 선지급제 안내 (자세한 내용은 본문에 설명 있음)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967360",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148967360",
+    "title": "영화 할인권부터 단기 육아휴직까지…하반기 달라지는 제도 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-4.txt",
+    "chars": 6499,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "'2026년 하반기부터 이렇게 달라집니다' 책자.(자료=재정경제부)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.childsupport.or.kr/",
+    "finalUrl": "https://www.childsupport.or.kr/",
+    "title": "양육비이행관리원",
+    "file": "src-5.txt",
+    "chars": 4419,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

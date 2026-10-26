@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "self-sufficiency-program--참여하면기초생활수급탈락소득인정유지",
+  "slug": "참여하면기초생활수급탈락소득인정유지",
+  "hub": "self-sufficiency-program",
+  "dir": "자활사업",
+  "fileName": "참여하면기초생활수급탈락소득인정유지",
+  "exportName": "자활사업참여하면기초생활수급탈락소득인정유지SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\자활사업\\참여하면기초생활수급탈락소득인정유지.tsx",
+  "title": "기초수급자가 자활근로를 하면 탈락되나요? 소득 인정까지",
+  "subs": [
+    "자활근로를 하면 기초생활수급이 끊기나요?",
+    "자활 소득은 소득 인정에서 어떻게 계산되나요?",
+    "소득이 늘어도 자활급여를 계속 받을 수 있나요?",
+    "청년은 추가 공제가 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T02:10:39.202Z"
+}

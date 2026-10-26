@@ -25,11 +25,11 @@ cta: ☞ 산재 직접 신청하기
 slug: injury-disease-compensation-pension
 file: 상병보상연금
 export: 산재상병보상연금SpokeContent
-title: 상병보상연금은 휴업급여에서 언제 바뀌나요? 요건부터 청구까지
-sub: 상병보상연금은 무엇인가요?
+title: 상병보상연금 신청은 언제? 휴업급여에서 바뀌는 때와 계산까지
+sub: 상병보상연금이란 무엇인가요?
 sub: 휴업급여에서 언제 전환되나요?
-sub: 지급 요건은 무엇인가요?
-sub: 청구는 어떻게 하나요?
+sub: 신청은 언제 어떻게 하나요?
+sub: 연금액은 어떻게 계산하나요?
 source: https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=1
 source: https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=1&cnpClsNo=1
 source: https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=575&ccfNo=3&cciNo=2&cnpClsNo=2

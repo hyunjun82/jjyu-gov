@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "child-support-advance--소득기준폐지",
+  "slug": "소득기준폐지",
+  "hub": "child-support-advance",
+  "dir": "양육비선지급",
+  "fileName": "소득기준폐지",
+  "exportName": "양육비선지급소득기준폐지SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\양육비선지급\\소득기준폐지.tsx",
+  "title": "양육비 선지급제 소득 기준 폐지, 시행일과 소급 여부까지",
+  "subs": [
+    "소득 기준이 폐지되면 무엇이 달라지나요?",
+    "소득 기준 폐지는 언제부터 시행되나요?",
+    "소득 때문에 못 받던 사람도 신청할 수 있나요?",
+    "소급해서 받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T23:21:18.452Z"
+}

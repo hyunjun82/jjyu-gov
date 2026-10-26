@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "noran-umbrella",
+  "slug": "noran-umbrella",
+  "file": "data\\policies\\noran-umbrella.ts",
+  "title": "노란우산공제 가입 조건과 납입한도, 세금 혜택까지",
+  "subs": [
+    "노란우산공제는 무엇인가요?",
+    "누가 가입할 수 있나요?",
+    "납입 한도는 얼마인가요?",
+    "어떤 세금 혜택이 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T06:35:27.291Z"
+}

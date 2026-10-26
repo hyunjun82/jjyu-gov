@@ -1,0 +1,60 @@
+[
+  {
+    "n": 1,
+    "url": "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=1484413&mid=a10503010100&nPage=1",
+    "finalUrl": "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1484413&mid=a10503010100&nPage=1",
+    "title": "자활급여 설 명절 전 조기 지급 < 전체 < 보도자료 < 알림 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 1919,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://kdissw.or.kr/menu.es?mid=a10601010000",
+    "finalUrl": "https://kdissw.or.kr/menu.es?mid=a10601010000",
+    "title": "자활근로사업 소개 | 자활지원사업 개발 및 평가 | 사업소개 : 한국자활복지개발원",
+    "file": "src-2.txt",
+    "chars": 3048,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "1.보건복지부:자활정책·사업 총괄 2.시·도:광역 자활사업 총괄 시행 3.시·군·구:자활사업 총괄 시행 4.읍·면·동:조건부수급자 확인·조사 5.한국자활복지개발원:자활사업 조사·연구 등 6.광역자활센터:광역단위 자활사업 시행 7.지역자활센터:자활근로, 자활사례관리 등 8.고용노동부:취업지원 관리 9.고용센터:취업지원 시행"
+      },
+      {
+        "file": "img-2-2.png",
+        "alt": "하단의 내용을 참고하세요."
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708020200",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708020200",
+    "title": "자활근로사업 < 자활정책 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 1303,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "자활근로사업의 유형"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/index.do",
+    "title": "대한민국 대표 복지포털 '복지로'",
+    "file": "src-4.txt",
+    "chars": 1570,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

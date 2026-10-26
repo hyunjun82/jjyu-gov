@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "catastrophic-medical-expenses",
+  "slug": "catastrophic-medical-expenses",
+  "file": "data\\policies\\catastrophic-medical-expenses.ts",
+  "title": "재난적의료비 지원 대상과 소득 기준, 신청 서류까지",
+  "subs": [
+    "재난적의료비 지원 대상은 누구인가요?",
+    "소득 기준은 어떻게 되나요?",
+    "재산 기준은 얼마인가요?",
+    "신청 서류는 무엇인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T03:07:29.912Z"
+}

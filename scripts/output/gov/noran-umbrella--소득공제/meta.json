@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "noran-umbrella--소득공제",
+  "slug": "소득공제",
+  "hub": "noran-umbrella",
+  "dir": "노란우산공제",
+  "fileName": "소득공제",
+  "exportName": "노란우산공제소득공제SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노란우산공제\\소득공제.tsx",
+  "title": "노란우산 소득공제는 얼마까지 되나요? 구간별 한도와 신청까지",
+  "subs": [
+    "노란우산공제 소득공제는 얼마까지 받나요?",
+    "소득 구간별 공제 한도는 어떻게 되나요?",
+    "법인 대표도 소득공제를 받을 수 있나요?",
+    "소득공제는 어떻게 신청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T05:45:43.622Z"
+}

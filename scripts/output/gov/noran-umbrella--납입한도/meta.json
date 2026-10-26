@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "noran-umbrella--납입한도",
+  "slug": "납입한도",
+  "hub": "noran-umbrella",
+  "dir": "노란우산공제",
+  "fileName": "납입한도",
+  "exportName": "노란우산공제납입한도SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\노란우산공제\\납입한도.tsx",
+  "title": "노란우산공제 한도가 늘었다는데, 월 얼마까지 낼 수 있나요?",
+  "subs": [
+    "노란우산공제 납입 한도는 얼마인가요?",
+    "월 부금은 얼마부터 얼마까지 정할 수 있나요?",
+    "한도는 언제부터 달라졌나요?",
+    "부금은 어떻게 납부하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T05:23:19.974Z"
+}

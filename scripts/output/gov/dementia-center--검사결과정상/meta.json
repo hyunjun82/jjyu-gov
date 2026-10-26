@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "dementia-center--검사결과정상",
+  "slug": "검사결과정상",
+  "hub": "dementia-center",
+  "dir": "치매안심센터",
+  "fileName": "검사결과정상",
+  "exportName": "치매안심센터검사결과정상SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\치매안심센터\\검사결과정상.tsx",
+  "title": "치매안심센터 검사 결과 정상이면 받을 지원은? 다시 받는 시기까지",
+  "subs": [
+    "선별검사 결과가 정상이면 어떻게 되나요?",
+    "정상이어도 받을 수 있는 지원이 있나요?",
+    "검사는 얼마 뒤에 다시 받을 수 있나요?",
+    "인지저하로 나오면 다음 단계는 무엇인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T00:37:10.578Z"
+}

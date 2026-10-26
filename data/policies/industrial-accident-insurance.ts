@@ -100,7 +100,7 @@ export const industrialAccidentInsuranceSpokes = [
   { slug: '신청방법', role: 'apply', title: '산재보험 신청방법과 서류 온라인 접수까지', content: '근로복지공단 요양급여 신청, 본인 직접 가능, ☎1588-0075.' },
   { slug: '회사처리', role: 'overlap', title: '회사가 산재 처리를 안 해줘도 직접 신청되나요? 공상과 차이까지', content: '본인 직접 신청 가능, 공상보다 산재 유리, 불이익 부당.' },
   { slug: 'medical-care-benefit-application', role: 'apply', title: '산재 요양급여 신청서는 어떻게 쓰나요? 양식부터 승인까지', content: '요양급여신청서를 comwel.or.kr·토탈서비스에서 다운로드해 온라인·팩스·방문으로 접수.' },
-  { slug: 'injury-disease-compensation-pension', role: 'amount', title: '상병보상연금은 휴업급여에서 언제 바뀌나요? 요건부터 청구까지', content: '요양 2년 경과+폐질등급 1~3급이면 휴업급여 대신 상병보상연금으로 전환.' },
+  { slug: 'injury-disease-compensation-pension', role: 'amount', title: '상병보상연금 신청은 언제? 휴업급여에서 바뀌는 때와 계산까지', content: '요양 2년 경과+폐질등급 1~3급이면 휴업급여 대신 상병보상연금으로 전환.' },
   { slug: 'disability-benefit-grade-check', role: 'amount', title: '산재 장해급여 등급별 금액과 처리기간, 신청하는 법', content: '장해등급(1~14급) 조회는 토탈서비스, 신청은 장해진단서 첨부해 청구.' },
   { slug: 'nursing-care-benefit-application', role: 'apply', title: '산재 간병급여는 어떻게 청구하고 금액은 얼마인가요?', content: '간병급여청구서를 다운로드해 실제 간병받은 기간에 대해 청구.' },
   { slug: 'survivor-benefit-funeral-expense', role: 'amount', title: '산재 유족급여는 얼마나 나오나요? 금액부터 장례비까지', content: '유족급여청구서와 장의비청구서를 사망진단서와 함께 동시 접수 가능.' },

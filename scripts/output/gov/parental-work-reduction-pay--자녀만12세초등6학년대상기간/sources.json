@@ -1,0 +1,63 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSimulate13.do?currentPageNo=1&recordCountPerPage=10&upprSystClId=SC00000245&systClId=SC00000252&systId=SI00000397&systCnntId=CI00001582",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSimulate13.do?currentPageNo=1&recordCountPerPage=10&upprSystClId=SC00000245&systClId=SC00000252&systId=SI00000397&systCnntId=CI00001582",
+    "title": "육아기 근로시간 단축 | 지원금 모의계산 | 정책/제도 | 고객센터",
+    "file": "src-1.txt",
+    "chars": 2327,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1380&ccfNo=2&cciNo=2&cnpClsNo=2",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=1380&ccfNo=2&cciNo=2&cnpClsNo=2",
+    "title": "일과 가정생활 > 육아휴직 및 육아기 근로시간 단축 > 육아기 근로시간 단축 > 육아기 근로시간 단축 급여 (본문) | 찾기쉬운 생활법령정보",
+    "file": "src-2.txt",
+    "chars": 4612,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148958223",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148958223",
+    "title": "2026 일·가정양립 지원제도 알아보기 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 3211,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "2026 일·가정양립 지원제도 알아보기 하단내용 참조"
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": "2026 일·가정양립 지원제도 알아보기 하단내용 참조"
+      },
+      {
+        "file": "img-3-3.png",
+        "alt": "2026 일·가정양립 지원제도 알아보기 사진 1"
+      },
+      {
+        "file": "img-3-4.png",
+        "alt": "2026 일·가정양립 지원제도 알아보기 사진 2"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.work24.go.kr/",
+    "finalUrl": "https://www.work24.go.kr/cm/main.do",
+    "title": "고용24",
+    "file": "src-4.txt",
+    "chars": 2464,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

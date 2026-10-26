@@ -1,0 +1,67 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708020200",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708020200",
+    "title": "자활근로사업 < 자활정책 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 1303,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "자활근로사업의 유형"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "title": "수급자선정기준 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-2.txt",
+    "chars": 4461,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "부양의무자 부양능력 판정 도해"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488477",
+    "finalUrl": "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1488477",
+    "title": "2026년에도 두텁고 촘촘하게, 국민의 기초생활을 보장한다 < 전체 < 보도자료 < 알림 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 3950,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1491056&mid=a10503010100",
+    "finalUrl": "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1491056&mid=a10503010100",
+    "title": "‘참여자 역량에 맞게, 자활지원 달라진다’ 맞춤형 자활 시범사업 7월 1일 본격 시작 < 전체 < 보도자료 < 알림 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-4.txt",
+    "chars": 4010,
+    "tables": 3,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.bokjiro.go.kr/",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/index.do",
+    "title": "대한민국 대표 복지포털 '복지로'",
+    "file": "src-5.txt",
+    "chars": 1570,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

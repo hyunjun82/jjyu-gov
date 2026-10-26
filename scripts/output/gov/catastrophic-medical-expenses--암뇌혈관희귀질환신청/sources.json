@@ -1,0 +1,46 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0222.html",
+    "finalUrl": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0222.html",
+    "title": "재난적의료비 지원 사업 안내",
+    "file": "src-1.txt",
+    "chars": 2348,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nhis.or.kr/nhis/policy/wbhada14400m01.do",
+    "finalUrl": "https://www.nhis.or.kr/nhis/policy/wbhada14400m01.do",
+    "title": "| 국민건강보험",
+    "file": "src-2.txt",
+    "chars": 5978,
+    "tables": 4,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003247",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003247",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-3.txt",
+    "chars": 1052,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nhis.or.kr/",
+    "finalUrl": "https://www.nhis.or.kr/nhis/index.do",
+    "title": "국민건강보험",
+    "file": "src-4.txt",
+    "chars": 4566,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

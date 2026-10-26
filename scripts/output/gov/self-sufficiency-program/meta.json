@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "self-sufficiency-program",
+  "slug": "self-sufficiency-program",
+  "file": "data\\policies\\self-sufficiency-program.ts",
+  "title": "자활사업 대상자와 참여 방법, 종류와 급여까지",
+  "subs": [
+    "자활사업은 무엇인가요?",
+    "누가 참여할 수 있나요?",
+    "어떻게 참여하나요?",
+    "어떤 종류와 급여가 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T02:37:32.665Z"
+}

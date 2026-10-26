@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "child-support-advance--금액지급일",
+  "slug": "금액지급일",
+  "hub": "child-support-advance",
+  "dir": "양육비선지급",
+  "fileName": "금액지급일",
+  "exportName": "양육비선지급금액지급일SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\양육비선지급\\금액지급일.tsx",
+  "title": "양육비 선지급제 금액은 월 얼마? 기간과 받는 날까지",
+  "subs": [
+    "양육비 선지급 금액은 월 얼마인가요?",
+    "자녀가 여러 명이면 어떻게 되나요?",
+    "지급은 언제까지 받을 수 있나요?",
+    "지급일은 언제인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T23:45:24.306Z"
+}

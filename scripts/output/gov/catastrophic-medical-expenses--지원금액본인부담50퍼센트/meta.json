@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "catastrophic-medical-expenses--지원금액본인부담50퍼센트",
+  "slug": "지원금액본인부담50퍼센트",
+  "hub": "catastrophic-medical-expenses",
+  "dir": "재난적의료비",
+  "fileName": "지원금액본인부담50퍼센트",
+  "exportName": "재난적의료비지원금액본인부담50퍼센트SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\재난적의료비\\지원금액본인부담50퍼센트.tsx",
+  "title": "재난적의료비 지원 금액은? 본인부담 50%와 연간 한도까지",
+  "subs": [
+    "재난적의료비 지원 금액은 얼마인가요?",
+    "소득별 지원 비율은 어떻게 다른가요?",
+    "연간 한도는 얼마인가요?",
+    "어떤 의료비가 지원되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T02:46:36.053Z"
+}

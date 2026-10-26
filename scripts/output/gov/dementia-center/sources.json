@@ -1,0 +1,67 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005004&wlfareInfoReldBztpCd=01",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005004&wlfareInfoReldBztpCd=01",
+    "title": "복지서비스>서비스 찾기>복지서비스 상세(중앙) | 복지로",
+    "file": "src-1.txt",
+    "chars": 1264,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nid.or.kr/info/diagnosis_list.aspx",
+    "finalUrl": "https://www.nid.or.kr/error/error.html?aspxerrorpath=/info/diagnosis_list.aspx",
+    "title": "치매안심센터",
+    "file": "src-2.txt",
+    "chars": 32,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10712010100",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10712010100",
+    "title": "치매조기검진사업 < 노인정책 < 노인 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-3.txt",
+    "chars": 1528,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "사업수행 절차"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?popMenu=ov&csmSeq=854&ccfNo=1&cciNo=2&cnpClsNo=2",
+    "finalUrl": "https://easylaw.go.kr/CSP/CnpClsMainBtr.laf?popMenu=ov&csmSeq=854&ccfNo=1&cciNo=2&cnpClsNo=2",
+    "title": "치매의 예방 < 치매 노인",
+    "file": "src-4.txt",
+    "chars": 2460,
+    "tables": 1,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "치매조기발견"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 5,
+    "url": "https://www.nid.or.kr/info/diagnosis_list.aspx",
+    "finalUrl": "https://www.nid.or.kr/error/error.html?aspxerrorpath=/info/diagnosis_list.aspx",
+    "title": "치매안심센터",
+    "file": "src-5.txt",
+    "chars": 32,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

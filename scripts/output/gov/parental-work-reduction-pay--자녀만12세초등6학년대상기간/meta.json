@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "parental-work-reduction-pay--자녀만12세초등6학년대상기간",
+  "slug": "자녀만12세초등6학년대상기간",
+  "hub": "parental-work-reduction-pay",
+  "dir": "육아기근로시간단축급여",
+  "fileName": "자녀만12세초등6학년대상기간",
+  "exportName": "육아기근로시간단축급여자녀만12세초등6학년대상기간SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\육아기근로시간단축급여\\자녀만12세초등6학년대상기간.tsx",
+  "title": "육아기 근로시간 단축 대상은? 자녀 나이와 사용 기간까지",
+  "subs": [
+    "대상 자녀는 몇 살까지인가요?",
+    "근로자 요건은 무엇인가요?",
+    "단축은 얼마나 쓸 수 있나요?",
+    "단축 후 근로시간은 얼마여야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T01:16:53.568Z"
+}

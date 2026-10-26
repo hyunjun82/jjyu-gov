@@ -1,0 +1,55 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0222.html",
+    "finalUrl": "https://www.nhis.or.kr/static/html/wbma/c/wbmac0222.html",
+    "title": "재난적의료비 지원 사업 안내",
+    "file": "src-1.txt",
+    "chars": 2348,
+    "tables": 2,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.nhis.or.kr/nhis/policy/wbhada14400m01.do",
+    "finalUrl": "https://www.nhis.or.kr/nhis/policy/wbhada14400m01.do",
+    "title": "| 국민건강보험",
+    "file": "src-2.txt",
+    "chars": 5978,
+    "tables": 4,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148942973",
+    "finalUrl": "https://www.korea.kr/multi/visualNewsView.do?newsId=148942973",
+    "title": "[K-희망사다리] 재난적 의료비 지원사업 - 전체 | 카드/한컷 | 멀티미디어 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 2521,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.nhis.or.kr/",
+    "finalUrl": "https://www.nhis.or.kr/nhis/index.do",
+    "title": "국민건강보험",
+    "file": "src-4.txt",
+    "chars": 4566,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

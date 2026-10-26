@@ -1,0 +1,64 @@
+[
+  {
+    "n": 1,
+    "url": "https://adrhome.reb.or.kr/adrhome/reb/LO010100/03/10301000000002022101316",
+    "finalUrl": "https://adrhome.reb.or.kr/adrhome/reb/LO010100/03/10301000000002022101316",
+    "title": "조정제도 안내 | 한국부동산원 · LH 임대차분쟁조정위원회",
+    "file": "src-1.txt",
+    "chars": 3229,
+    "tables": 1,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.hldcc.or.kr/hp/ci/arrEfectDetail.do",
+    "finalUrl": "https://www.hldcc.or.kr/hp/ci/arrEfectDetail.do",
+    "title": "대한법률구조공단 주택·상가건물 임대차분쟁조정위원회",
+    "file": "src-2.txt",
+    "chars": 1344,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148942939",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148942939",
+    "title": "[K-희망사다리] 주택·상가 임대차분쟁조정사업 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 2192,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-3-3.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.hldcc.or.kr/",
+    "finalUrl": "https://www.hldcc.or.kr/",
+    "title": "대한법률구조공단 주택·상가건물 임대차분쟁조정위원회",
+    "file": "src-4.txt",
+    "chars": 1730,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": "주택임대차 분쟁조정위원회에서 해결하세요."
+      }
+    ],
+    "primary": true
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708010300",
+    "title": "수급자선정기준 < 기초생활보장 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-1.txt",
+    "chars": 4461,
+    "tables": 3,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "부양의무자 부양능력 판정 도해"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.mohw.go.kr/menu.es?mid=a10708020200",
+    "finalUrl": "https://www.mohw.go.kr/menu.es?mid=a10708020200",
+    "title": "자활근로사업 < 자활정책 < 복지 < 정책 : 힘이 되는 평생 친구, 보건복지부",
+    "file": "src-2.txt",
+    "chars": 1303,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "자활근로사업의 유형"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148963755",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148963755",
+    "title": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-3.txt",
+    "chars": 4306,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-3.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-4.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-5.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-6.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-7.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-8.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 청년자립도전 자활사업 하단내용 참조"
+      },
+      {
+        "file": "img-3-9.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 1"
+      },
+      {
+        "file": "img-3-10.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 2"
+      },
+      {
+        "file": "img-3-11.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 3"
+      },
+      {
+        "file": "img-3-12.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 4"
+      },
+      {
+        "file": "img-3-13.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 5"
+      },
+      {
+        "file": "img-3-14.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 6"
+      },
+      {
+        "file": "img-3-15.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 7"
+      },
+      {
+        "file": "img-3-16.png",
+        "alt": "자활근로 대상 청년의 자립을 위해 '청년자립도전 자활사업' 사진 8"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.bokjiro.go.kr/",
+    "finalUrl": "https://www.bokjiro.go.kr/ssis-tbu/index.do",
+    "title": "대한민국 대표 복지포털 '복지로'",
+    "file": "src-4.txt",
+    "chars": 1570,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

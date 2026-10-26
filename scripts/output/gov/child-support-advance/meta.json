@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "child-support-advance",
+  "slug": "child-support-advance",
+  "file": "data\\policies\\child-support-advance.ts",
+  "title": "양육비 선지급제란? 소득 기준 폐지와 받는 기간까지",
+  "subs": [
+    "양육비 선지급제는 무엇인가요?",
+    "소득 기준은 어떻게 바뀌었나요?",
+    "받는 기간은 언제까지인가요?",
+    "신청은 어디서 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T00:02:41.408Z"
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "rental-dispute-mediation--신청자격조정절차안내",
+  "slug": "신청자격조정절차안내",
+  "hub": "rental-dispute-mediation",
+  "dir": "임대차분쟁조정위원회",
+  "fileName": "신청자격조정절차안내",
+  "exportName": "임대차분쟁조정위원회신청자격조정절차안내SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\임대차분쟁조정위원회\\신청자격조정절차안내.tsx",
+  "title": "임대차분쟁조정위원회 신청 절차는? 접수부터 성립까지",
+  "subs": [
+    "조정 신청은 어떻게 접수하나요?",
+    "접수 뒤에는 어떤 절차로 진행되나요?",
+    "조정이 각하되는 경우도 있나요?",
+    "조정안은 언제까지 수락해야 하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-25T07:23:48.490Z"
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "parental-work-reduction-pay",
+  "slug": "parental-work-reduction-pay",
+  "file": "data\\policies\\parental-work-reduction-pay.ts",
+  "title": "육아기 근로시간 단축 급여 신청 방법과 서류, 지급 기간까지",
+  "subs": [
+    "단축 급여는 어떻게 신청하나요?",
+    "필요한 서류는 무엇인가요?",
+    "급여는 얼마나 오래 받을 수 있나요?",
+    "신청을 놓치면 언제까지 받을 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T01:27:29.078Z"
+}

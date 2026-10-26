@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "catastrophic-medical-expenses--암뇌혈관희귀질환신청",
+  "slug": "암뇌혈관희귀질환신청",
+  "hub": "catastrophic-medical-expenses",
+  "dir": "재난적의료비",
+  "fileName": "암뇌혈관희귀질환신청",
+  "exportName": "재난적의료비암뇌혈관희귀질환신청SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\재난적의료비\\암뇌혈관희귀질환신청.tsx",
+  "title": "재난적의료비 신청기간은? 외래 지원과 모든 질환 합산까지",
+  "subs": [
+    "신청은 언제까지 할 수 있나요?",
+    "입원 중에도 신청할 수 있나요?",
+    "외래 진료도 지원되나요?",
+    "모든 질환은 어떻게 합산되나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T02:54:08.862Z"
+}

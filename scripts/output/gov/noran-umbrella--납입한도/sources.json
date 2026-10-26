@@ -1,0 +1,84 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967360",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148967360",
+    "title": "영화 할인권부터 단기 육아휴직까지…하반기 달라지는 제도 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-1.txt",
+    "chars": 6538,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": "'2026년 하반기부터 이렇게 달라집니다' 책자.(자료=재정경제부)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://yumam.kbiz.or.kr/yuma/contents/contents/contents.do?mnSeq=37",
+    "finalUrl": "https://yumam.kbiz.or.kr/yuma/contents/contents/contents.do?mnSeq=37",
+    "title": "노란우산",
+    "file": "src-2.txt",
+    "chars": 6978,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.8899.or.kr/cmnsCnts/view?menuId=C070201000",
+    "finalUrl": "https://www.8899.or.kr/cmnsCnts/view?menuId=C070201000",
+    "title": "노란우산",
+    "file": "src-3.txt",
+    "chars": 9815,
+    "tables": 7,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.8899.or.kr/",
+    "finalUrl": "https://www.8899.or.kr/",
+    "title": "노란우산",
+    "file": "src-4.txt",
+    "chars": 11628,
+    "tables": 7,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-3.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-4.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-5.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-6.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-7.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-8.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  }
+]
