@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "spouse-birth-leave-pay",
+  "slug": "spouse-birth-leave-pay",
+  "file": "data\\policies\\spouse-birth-leave-pay.ts",
+  "title": "배우자 출산휴가급여란? 대상과 20일 유급, 사용기한까지",
+  "subs": [
+    "배우자 출산휴가급여는 무엇인가요?",
+    "누가 받을 수 있나요?",
+    "20일은 모두 유급인가요?",
+    "언제까지 사용할 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T09:43:06.224Z"
+}

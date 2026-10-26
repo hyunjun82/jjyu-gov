@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "spouse-birth-leave-pay--120일분할신청기한",
+  "slug": "120일분할신청기한",
+  "hub": "spouse-birth-leave-pay",
+  "dir": "배우자출산휴가급여",
+  "fileName": "120일분할신청기한",
+  "exportName": "배우자출산휴가급여120일분할신청기한SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\배우자출산휴가급여\\120일분할신청기한.tsx",
+  "title": "배우자 출산휴가 분할은 어떻게? 120일 이내 3회와 신청 기한까지",
+  "subs": [
+    "배우자 출산휴가는 나눠 쓸 수 있나요?",
+    "120일은 언제부터 세나요?",
+    "3회로 나눠 쓰면 급여는 어떻게 되나요?",
+    "급여 신청 기한은 언제까지인가요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T09:29:26.742Z"
+}

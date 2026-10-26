@@ -1,0 +1,86 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.moel.go.kr/common/downloadFile.do?file_seq=20260800899&bbs_seq=19768&bbs_id=12&file_ext=pdf",
+    "finalUrl": "https://www.moel.go.kr/common/downloadFile.do?file_seq=20260800899&bbs_seq=19768&bbs_id=12&file_ext=pdf",
+    "title": "PDF 8쪽",
+    "file": "src-1.txt",
+    "chars": 5277,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967360",
+    "finalUrl": "https://www.korea.kr/news/policyNewsView.do?newsId=148967360",
+    "title": "영화 할인권부터 단기 육아휴직까지…하반기 달라지는 제도 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+    "file": "src-2.txt",
+    "chars": 6676,
+    "tables": 0,
+    "images": [
+      {
+        "file": "img-2-1.png",
+        "alt": "'2026년 하반기부터 이렇게 달라집니다' 책자.(자료=재정경제부)"
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.worklife.kr/website_renew/index/workerSupport/paternity_leave.asp",
+    "finalUrl": "https://www.worklife.kr/website_renew/index/workerSupport/paternity_leave.asp",
+    "title": "고용노동부 일생활균형 - 육아휴직, 유연근무, 근로시간 단축 등 지원안내",
+    "file": "src-3.txt",
+    "chars": 3156,
+    "tables": 1,
+    "images": [
+      {
+        "file": "img-3-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-3-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-3-3.png",
+        "alt": ""
+      },
+      {
+        "file": "img-3-4.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.worklife.kr/website_renew/index/workerSupport/paternity_leave.asp",
+    "finalUrl": "https://www.worklife.kr/website_renew/index/workerSupport/paternity_leave.asp",
+    "title": "고용노동부 일생활균형 - 육아휴직, 유연근무, 근로시간 단축 등 지원안내",
+    "file": "src-4.txt",
+    "chars": 3156,
+    "tables": 1,
+    "images": [
+      {
+        "file": "img-4-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-3.png",
+        "alt": ""
+      },
+      {
+        "file": "img-4-4.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  }
+]

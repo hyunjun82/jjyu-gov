@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "spouse-birth-leave-pay--회사지급정부지원구분",
+  "slug": "회사지급정부지원구분",
+  "hub": "spouse-birth-leave-pay",
+  "dir": "배우자출산휴가급여",
+  "fileName": "회사지급정부지원구분",
+  "exportName": "배우자출산휴가급여회사지급정부지원구분SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\배우자출산휴가급여\\회사지급정부지원구분.tsx",
+  "title": "배우자 출산휴가 급여는 누가 주나요? 회사 지급과 정부 지원 구분까지",
+  "subs": [
+    "배우자 출산휴가 급여는 누가 지급하나요?",
+    "우선지원대상기업은 무엇이 다른가요?",
+    "우선지원대상기업이 아니면 어떻게 되나요?",
+    "우리 회사는 어디에 해당하는지 어떻게 아나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T09:21:57.025Z"
+}

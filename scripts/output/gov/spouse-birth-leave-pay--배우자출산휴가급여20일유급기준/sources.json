@@ -1,0 +1,64 @@
+[
+  {
+    "n": 1,
+    "url": "https://www.worklife.kr/website_renew/index/workerSupport/paternity_leave.asp",
+    "finalUrl": "https://www.worklife.kr/website_renew/index/workerSupport/paternity_leave.asp",
+    "title": "고용노동부 일생활균형 - 육아휴직, 유연근무, 근로시간 단축 등 지원안내",
+    "file": "src-1.txt",
+    "chars": 3156,
+    "tables": 1,
+    "images": [
+      {
+        "file": "img-1-1.png",
+        "alt": ""
+      },
+      {
+        "file": "img-1-2.png",
+        "alt": ""
+      },
+      {
+        "file": "img-1-3.png",
+        "alt": ""
+      },
+      {
+        "file": "img-1-4.png",
+        "alt": ""
+      }
+    ],
+    "primary": true
+  },
+  {
+    "n": 2,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000395",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000395",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>",
+    "file": "src-2.txt",
+    "chars": 4374,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  },
+  {
+    "n": 3,
+    "url": "https://www.moel.go.kr/common/downloadFile.do?file_seq=20260800899&bbs_seq=19768&bbs_id=12&file_ext=pdf",
+    "finalUrl": "https://www.moel.go.kr/common/downloadFile.do?file_seq=20260800899&bbs_seq=19768&bbs_id=12&file_ext=pdf",
+    "title": "PDF 8쪽",
+    "file": "src-3.txt",
+    "chars": 5277,
+    "tables": 0,
+    "images": [],
+    "primary": true,
+    "pdf": true
+  },
+  {
+    "n": 4,
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000395",
+    "finalUrl": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000395",
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터>",
+    "file": "src-4.txt",
+    "chars": 4374,
+    "tables": 0,
+    "images": [],
+    "primary": true
+  }
+]

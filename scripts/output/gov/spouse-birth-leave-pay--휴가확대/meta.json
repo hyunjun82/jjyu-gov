@@ -1,0 +1,19 @@
+{
+  "kind": "spoke",
+  "key": "spouse-birth-leave-pay--휴가확대",
+  "slug": "휴가확대",
+  "hub": "spouse-birth-leave-pay",
+  "dir": "배우자출산휴가급여",
+  "fileName": "배우자휴가확대",
+  "exportName": "배우자출산휴가급여확대SpokeContent",
+  "file": "app\\policy\\[id]\\[spoke]\\content\\배우자출산휴가급여\\배우자휴가확대.tsx",
+  "title": "배우자 휴가 9월 18일 뭐가 달라졌나요? 유산·사산과 임신 중 사용까지",
+  "subs": [
+    "9월 18일부터 무엇이 달라졌나요?",
+    "배우자 유산·사산휴가는 며칠인가요?",
+    "유산·사산휴가 급여도 받나요?",
+    "배우자 임신 중에도 쓸 수 있나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-26T09:36:37.381Z"
+}
