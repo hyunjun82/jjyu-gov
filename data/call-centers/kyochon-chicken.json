@@ -1,0 +1,47 @@
+{
+  "slug": "kyochon-chicken",
+  "name": "교촌치킨",
+  "aliases": [
+    "교촌치킨 고객센터",
+    "교촌",
+    "교촌에프앤비",
+    "교촌치킨 전화번호",
+    "교촌치킨 전화주문"
+  ],
+  "industry": "online",
+  "brandColor": "#F8B915",
+  "official": "https://www.kyochon.com",
+  "sourceUrl": "https://www.kyochon.com/main/",
+  "sourceName": "교촌치킨 공식 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "080-320-3000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 교촌치킨(kyochon.com) 하단: 고객센터 080-320-3000, 전화주문 1577-1991, 대표번호 031-371-3500. 상담시간 표기가 없어 hours 를 비운다(같은 줄의 '영업시간 12:00~23:30'은 상담시간이 아니라 쓰지 않음). 로고색은 h1_logo_new2023.png 최빈 유채색.",
+  "variant": "franchise",
+  "jobs": "문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "080-320-3000"
+    },
+    {
+      "label": "전화주문",
+      "tel": "1577-1991"
+    },
+    {
+      "label": "대표번호",
+      "tel": "031-371-3500"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

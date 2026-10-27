@@ -1,0 +1,40 @@
+{
+  "slug": "mega-mgc-coffee",
+  "name": "메가MGC커피",
+  "aliases": [
+    "메가커피",
+    "메가MGC커피 고객센터",
+    "메가커피 고객센터",
+    "메가MGC커피 전화번호",
+    "MEGA COFFEE"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.mega-mgccoffee.com",
+  "sourceUrl": "https://www.mega-mgccoffee.com/news/voc/",
+  "sourceName": "메가MGC커피 고객센터 문의/접수",
+  "verifiedAt": "2026-10-27",
+  "corp": "주식회사 엠지씨글로벌",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-8298"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 메가MGC커피 고객센터 문의/접수(news/voc): 하단 주식회사 엠지씨글로벌 고객센터 1588-8298, 창업상담 1588-0656(가맹 상담이라 쓰지 않음), E-Mail cs@mgcglobal.co.kr. 상담시간 표기가 없어 hours 를 비운다.",
+  "jobs": "매장·서비스·앱 불편사항 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-8298"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다.",
+  "variant": "franchise"
+}

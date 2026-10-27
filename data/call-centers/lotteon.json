@@ -1,0 +1,40 @@
+{
+  "slug": "lotteon",
+  "name": "롯데온",
+  "aliases": [
+    "롯데ON",
+    "롯데온 고객센터",
+    "롯데온 전화번호",
+    "LOTTE ON",
+    "롯데온 1:1 문의"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.lotteon.com",
+  "sourceUrl": "https://www.lotteon.com/p/customer/customerCenter/customerMain",
+  "sourceName": "롯데ON 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "전화 문의 (유료)",
+    "tel": "1899-7000"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00"
+  },
+  "hoursNote": "[2026-10-27] 롯데ON 고객센터(customerCenter/customerMain): 롯데ON 고객센터 운영시간 평일 09:00 ~ 18:00, 전화 문의(유료) 1899-7000, 채팅 문의·1:1 문의·E-mail lotteon@lotte.net. 로고가 검정(LOTTE ON 워드마크)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "jobs": "전화·채팅·1:1 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화 문의 (유료)",
+      "tel": "1899-7000",
+      "note": "평일 09:00~18:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화 문의 (유료)'로 적힌 번호입니다."
+}

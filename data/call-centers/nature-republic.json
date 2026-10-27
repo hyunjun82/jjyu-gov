@@ -1,0 +1,43 @@
+{
+  "slug": "nature-republic",
+  "name": "네이처리퍼블릭",
+  "aliases": [
+    "네이처 리퍼블릭",
+    "네이처리퍼블릭 고객센터",
+    "네이처리퍼블릭 고객상담실",
+    "네이처리퍼블릭 전화번호",
+    "NATURE REPUBLIC"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.naturerepublic.com",
+  "sourceUrl": "https://www.naturerepublic.com/",
+  "sourceName": "네이처리퍼블릭 공식몰",
+  "verifiedAt": "2026-10-27",
+  "corp": "네이처리퍼블릭",
+  "main": {
+    "label": "고객상담실",
+    "tel": "080-890-6000"
+  },
+  "hours": {
+    "weekday": "평일 10:00~16:00",
+    "lunch": "12:00~13:00"
+  },
+  "hoursNote": "[2026-10-27] 네이처리퍼블릭(naturerepublic.com) 하단: 고객상담실 080-890-6000, 운영시간 평일 10:00~16:00 (점심시간 12:00~13:00). 로고가 검정 워드마크라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "주문번호와 가입 이메일",
+  "jobs": "고객 상담",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객상담실",
+      "tel": "080-890-6000",
+      "note": "평일 10:00~16:00, 점심시간 12:00~13:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객상담실'로 적힌 번호입니다."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "korea-environment-corporation",
+  "name": "한국환경공단",
+  "aliases": [
+    "환경공단",
+    "한국환경공단 고객센터",
+    "한국환경공단 전화번호",
+    "한국환경공단 대표전화",
+    "K-eco"
+  ],
+  "industry": "public",
+  "brandColor": "#0075B5",
+  "official": "https://www.keco.or.kr",
+  "sourceUrl": "https://www.keco.or.kr/",
+  "sourceName": "한국환경공단 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "인천광역시 서해구 환경로 42",
+  "hqZip": "22689",
+  "main": {
+    "label": "대표전화",
+    "tel": "032-590-4000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국환경공단(keco.or.kr) 하단: (22689) 인천광역시 서해구 환경로 42(경서동 종합환경연구단지) 대표전화 032-590-4000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 logo.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "032-590-4000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

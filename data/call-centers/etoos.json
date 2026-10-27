@@ -1,0 +1,44 @@
+{
+  "slug": "etoos",
+  "name": "이투스",
+  "aliases": [
+    "이투스 고객센터",
+    "이투스에듀",
+    "이투스 전화번호",
+    "ETOOS",
+    "이투스 고객센터 전화번호"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.etoos.com",
+  "sourceUrl": "https://www.etoos.com/customer/default.asp",
+  "sourceName": "이투스 고객센터",
+  "verifiedAt": "2026-10-27",
+  "corp": "이투스에듀 주식회사",
+  "main": {
+    "label": "고객센터",
+    "tel": "1599-6405"
+  },
+  "hours": {
+    "weekday": "평일 09시 ~ 18시",
+    "lunch": "12시 ~ 13시",
+    "holiday": "주말, 공휴일 상담불가"
+  },
+  "hoursNote": "[2026-10-27] 이투스 고객센터(etoos.com/customer/default.asp): 1599-6405 전화 상담 평일 09시~18시, 점심시간 12시~13시 (주말, 공휴일 상담불가). 게시판 상담 평일 09:00~24:00(주말·공휴일 상담불가)은 온라인 창구라 전화 시간으로 쓰지 않는다. 로고(E 글자 청록, 나머지 짙은 회색) 영역을 배너·팝업 때문에 측정하지 못해 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "가입 아이디와 수강 중인 강좌명",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1599-6405",
+      "note": "평일 09시~18시, 점심시간 12시~13시, 주말·공휴일 상담불가"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

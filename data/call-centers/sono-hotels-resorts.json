@@ -1,0 +1,45 @@
+{
+  "slug": "sono-hotels-resorts",
+  "name": "소노호텔앤리조트",
+  "aliases": [
+    "소노호텔앤리조트 고객센터",
+    "소노 예약센터",
+    "소노호텔앤리조트 전화번호",
+    "대명소노",
+    "소노예약센터",
+    "대명리조트 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.sonohotelsresorts.com",
+  "sourceUrl": "https://www.sonohotelsresorts.com/main/userguide",
+  "sourceName": "소노호텔앤리조트 이용안내",
+  "verifiedAt": "2026-10-27",
+  "corp": "(주)소노인터내셔널",
+  "hq": "강원특별자치도 홍천군 서면 한치골길 262",
+  "main": {
+    "label": "소노예약센터",
+    "tel": "1588-4888"
+  },
+  "hours": {
+    "weekday": "9:00 ~ 18:00",
+    "holiday": "연중무휴"
+  },
+  "hoursNote": "[2026-10-27] 소노호텔앤리조트(sonohotelsresorts.com) 이용안내: 소노예약센터 1588-4888 '소노호텔앤리조트 대표번호입니다', 하단 소노예약센터 +82-1588-4888 운영시간 9:00~18:00(연중무휴), (주)소노인터내셔널, 강원특별자치도 홍천군 서면 한치골길 262. 로고가 흰색(SONO HOTELS & RESORTS 워드마크)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "예약자 이름과 예약번호",
+  "jobs": "예약 및 이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "소노예약센터",
+      "tel": "1588-4888",
+      "note": "운영시간 9:00~18:00, 연중무휴"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '소노예약센터'로 적힌 번호입니다."
+}

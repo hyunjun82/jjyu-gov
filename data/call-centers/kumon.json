@@ -1,0 +1,42 @@
+{
+  "slug": "kumon",
+  "name": "구몬학습",
+  "aliases": [
+    "구몬",
+    "구몬 고객센터",
+    "구몬학습 고객센터",
+    "구몬학습 전화번호",
+    "구몬 상담"
+  ],
+  "industry": "online",
+  "brandColor": "#E60013",
+  "official": "https://www.kumon.co.kr",
+  "sourceUrl": "https://www.kumon.co.kr/Inquiry/Inquiry",
+  "sourceName": "구몬학습 상담 접수",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-5566"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "holiday": "공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 구몬학습(kumon.co.kr/Inquiry/Inquiry) 하단: 고객센터 1588-5566 평일 09:00~18:00(공휴일 제외), 고객센터(콜센터) 이용 시 통신요금이 부과됩니다. 로고색은 logo_sub.svg 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "학습자 이름과 연락처",
+  "jobs": "상담 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-5566",
+      "note": "평일 09:00~18:00(공휴일 제외)"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

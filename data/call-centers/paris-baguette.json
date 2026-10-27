@@ -1,0 +1,41 @@
+{
+  "slug": "paris-baguette",
+  "name": "파리바게뜨",
+  "aliases": [
+    "파리바게뜨 고객센터",
+    "파리바게트",
+    "파리바게트 고객센터",
+    "파리바게뜨 전화번호",
+    "Paris Baguette"
+  ],
+  "industry": "online",
+  "brandColor": "#023586",
+  "official": "https://www.paris.co.kr",
+  "sourceUrl": "https://www.paris.co.kr/cs/praise/",
+  "sourceName": "파리바게뜨 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "080-731-2027"
+  },
+  "hours": {
+    "weekday": "평일 09:00 - 17:00",
+    "lunch": "12:00 - 13:00"
+  },
+  "hoursNote": "[2026-10-27] 파리바게뜨(paris.co.kr) Contact Us 고객센터 080-731-2027, 평일 09:00 - 17:00 (점심 12:00 - 13:00). 로고색은 헤더 바 최빈 유채색.",
+  "variant": "franchise",
+  "jobs": "고객 칭찬·문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "080-731-2027",
+      "note": "평일 09:00~17:00, 점심시간 12:00~13:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "mcdonalds",
+  "name": "맥도날드",
+  "aliases": [
+    "맥도날드 고객센터",
+    "맥도날드 코리아",
+    "McDonald's",
+    "맥도날드 고객문의",
+    "맥딜리버리 전화번호"
+  ],
+  "industry": "online",
+  "brandColor": "#FFBC0D",
+  "official": "https://voc.mcd.co.kr",
+  "sourceUrl": "https://voc.mcd.co.kr/MC/HOM/faqMain.jsp",
+  "sourceName": "맥도날드 고객센터(VOC)",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "080-208-1588"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "lunch": "12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-10-27] 맥도날드 고객센터(voc.mcd.co.kr) 숨은 레이어: 고객센터 080.208.1588 평일 09:00 ~ 18:00 (점심시간 12:00 ~ 13:00). 개인정보 처리 안내에도 콜센터 (080-208-1588). FAQ: 맥딜리버리 주문 콜센터 1600-5252. 로고색은 홈 헤더 로고 최빈 유채색.",
+  "jobs": "문의, 불만·칭찬 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "080-208-1588",
+      "note": "평일 09:00~18:00, 점심시간 12:00~13:00"
+    },
+    {
+      "label": "맥딜리버리 주문 콜센터",
+      "tel": "1600-5252"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다.",
+  "variant": "franchise"
+}

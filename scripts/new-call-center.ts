@@ -99,7 +99,7 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
 /* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
    회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
    여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
-const INDUSTRY: Record<string, { hub: string; dir: string; word: string; unit: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; heroItems: string; cueSalt?: string; dayNote: string; idStep: string; hubWord: string }> = {
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; unit: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; heroItems: string; cueSalt?: string; dayNote: string; idStep: string; hubWord: string; visit?: string; q4?: (hq?: string) => string; q4hl?: string; hqWord?: string; mapLabels?: string[]; faqHqQ?: string; faqVisit?: string }> = {
   /* h1 은 실검색어 세 개(전화번호·상담원 연결·영업시간)를 그대로 박는다 (2026-09-02 사장님 지적).
      네이버 1~3등 경쟁 페이지가 "삼성생명 고객센터 전화번호·상담원 연결·영업시간" 이었고
      우리는 "…빠른 상담사 연결·위치 안내" 였다 — '영업시간' 이 빠지고 검색 의도가 약한 '위치' 가 들어갔다.
@@ -373,6 +373,51 @@ const VARIANT: Record<string, Partial<typeof INDUSTRY[string]>> = {
     heroItems: '문의 방법·운영시간·연락처',
     dayNote: '문의는 상담시간 안에 거는 편이 빠릅니다.',
   },
+  /* 외식·프랜차이즈 (2026-10-27 신규 고객센터 배치). 온라인 틀 그대로면 "환불이나 계정 복구는 방문하지 않아도…",
+     "쇼핑·배달·구독을 한 곳만 쓰지 않습니다" 가 카페·버거 글에 나간다 — 원문에 없는 업무를 단정하는 오해 소지다. */
+  franchise: {
+    unit: '브랜드',
+    word: '외식 브랜드',
+    jobs: '문의, 불만·칭찬 접수',
+    remote: '매장 이용 문의나 불만 접수',
+    q5q: '다른 외식 브랜드 고객센터 번호도 필요한데요',
+    q5a: '카페와 패스트푸드를 한 곳만 이용하지 않습니다. 이용한 매장의 브랜드가 여러 곳이면 어느 번호에 걸어야 할지부터 헷갈립니다.',
+    dayNote: '문의는 상담시간 안에 거는 편이 빠릅니다.',
+    idStep: '이용 매장명과 이용 일시',
+    visit: '매장 직원에게 직접 확인해야 하는 일이 아니라면 전화로 먼저 문의하시는 편이 빠릅니다.',
+    q4: (hq?: string) => `${hq ? `본사는 ${hq}에 있습니다. 다만 ` : ''}문의나 불만 접수는 매장을 찾아가기보다 전화로 먼저 하시는 편이 빠릅니다. 이용하신 매장은 지도에서 브랜드 이름으로 검색하면 가까운 순으로 나옵니다.`,
+    q4hl: '지도에서 브랜드 이름으로 검색',
+    faqVisit: '매장을 찾아가시기 전에 전화로 먼저 문의하시는 편이 빠릅니다.',
+    mapLabels: ['가까운 매장 찾기', '지도에서 매장 보기', '지도에서 위치 보기'],
+  },
+  /* 온라인 쇼핑몰 (2026-10-27 신규 고객센터 배치). 온라인 틀의 "환불, 계정 문제까지" 는 공식 안내에 그 업무가 있을 때만 맞다 —
+     JSON 이 jobs 를 따로 주지 않는 쇼핑몰 글에는 '문의 접수' 만 말한다. */
+  shop: {
+    jobs: '문의 접수',
+    remote: '문의 접수',
+    q5a: '이용하는 서비스가 한두 곳이 아니어서 문의할 일이 생길 때마다 번호부터 찾게 됩니다.',
+    dayNote: '문의는 상담시간 안에 거는 편이 빠릅니다.',
+    visit: '직접 찾아가서 확인해야 하는 일이 아니라면 전화로 먼저 접수하시는 편이 빠릅니다.',
+    q4: (hq?: string) => `${hq ? `본사는 ${hq}에 있습니다. 다만 ` : ''}문의는 직접 찾아가기보다 전화로 먼저 접수하시는 편이 빠릅니다. 위치를 확인하시려면 지도에서 서비스 이름으로 검색해 보세요.`,
+    q4hl: '지도에서 서비스 이름으로 검색',
+    faqVisit: '직접 방문하시기 전에 전화로 먼저 문의하시는 편이 빠릅니다.',
+    mapLabels: ['지도에서 위치 보기', '위치 확인하기'],
+  },
+  /* 기관·병원 (2026-10-27 신규 고객센터 배치). facility 틀은 "본사는 … 에 있습니다", "전화·앱·홈페이지로 끝나는 일이 많습니다",
+     "집에서 가까운 지점을 찾아보세요" 가 병원·공기업 글에 나간다 — 병원에 본사·지점은 틀린 말이고 앱은 원문에 없는 창구다. */
+  institution: {
+    jobs: '이용 문의, 안내 요청',
+    remote: '이용 문의',
+    q5a: '한 가지 일을 마치는데 기관 두 곳에 걸어야 하는 경우입니다. 시설을 운영하는 곳과 접수를 받는 창구가 따로 있으면 어디에 먼저 걸어야 할지부터 헷갈립니다.',
+    dayNote: '상담직원과 이야기하시려면 운영시간 안에 거셔야 합니다.',
+    idStep: '문의하실 내용과 연락받을 번호',
+    q4: (hq?: string) => `${hq ? `소재지는 ${hq}입니다. ` : ''}방문 전에 전화로 먼저 문의하시는 편이 빠릅니다. 위치를 확인하시려면 지도에서 기관 이름으로 검색해 보세요.`,
+    q4hl: '지도에서 기관 이름으로 검색',
+    faqHqQ: '주소는 어디인가요?',
+    faqVisit: '방문하시기 전에 전화로 먼저 문의하시는 편이 빠릅니다.',
+    hqWord: '위치',
+    mapLabels: ['지도에서 위치 보기', '위치 확인하기'],
+  },
   /* 시설·센터 (2026-10-22 filefarm 고객센터 배치). 공공 틀 그대로면 "자격 확인, 증명서 발급, 신고·신청 접수까지 이 번호 하나로",
      "증명서 발급이나 신고 접수는 방문하지 않아도…", 본인확인 "주민등록번호와 사업장 관리번호" 가
      동물보호센터·문화재단·병원 검진센터 같은 시설 글에 나간다 — 원문에 없는 업무를 단정하는 오해 소지다. */
@@ -406,6 +451,7 @@ const IND = INDUSTRY[C.industry ?? 'insurance'] && { ...INDUSTRY[C.industry ?? '
 if (!IND) die(`모르는 industry: ${C.industry} (쓸 수 있는 값: ${Object.keys(INDUSTRY).join(', ')})`);
 
 const HUB_SLUG = IND.hub;
+/* q4(위치) 문단 — 업종 갈래가 q4 를 따로 주면 그걸 쓴다. 틀 기본 문장은 보험·증권처럼 지점이 있는 회사용이다 */
 const DIR = path.join('app', 'policy', '[id]', '[spoke]', 'content', IND.dir);
 const OUT = path.join(DIR, `${C.slug}.tsx`);
 const REG = path.join('data', 'spokes', 'registry.ts');
@@ -777,9 +823,9 @@ const MAP_TAILS = [
   '가까운 곳이 어디인지부터 확인하는 편이 빠릅니다.',
 ];
 const MAP_CUE = C.hq
-  ? `${C.name} 본사는 ${hqShort} 쪽입니다. ${pick(MAP_TAILS, 'map' + (IND.cueSalt ?? ''))}`
+  ? `${C.name} ${IND.hqWord ?? '본사'}${josa(IND.hqWord ?? '본사', '은')} ${hqShort} 쪽입니다. ${pick(MAP_TAILS, 'map' + (IND.cueSalt ?? ''))}`
   : `${C.name} 창구 위치는 지도 검색이 가장 빠릅니다. ${pick(MAP_TAILS, 'map' + (IND.cueSalt ?? ''))}`;
-const MAP_LABELS = ['가까운 지점 찾기', '지점 위치 확인하기', '지도에서 위치 보기', '가까운 창구 찾아보기'];
+const MAP_LABELS = IND.mapLabels ?? ['가까운 지점 찾기', '지점 위치 확인하기', '지도에서 위치 보기', '가까운 창구 찾아보기'];
 
 const HUB_TAILS = [
   `다른 ${IND.word}${josa(IND.word, '은')} 몇 시까지인지 함께 확인해 두세요.`,
@@ -868,7 +914,7 @@ const FAQ_ITEMS = [
   ...(FAQ_HOURS ? [faqItem('주말이나 공휴일에도 상담이 되나요?', q(FAQ_HOURS))] : []),
   ...(C.callFee ? [faqItem('전화 요금은 어떻게 부과되나요?', q(C.callFee))] : []),
   ...(LUNCH_FAQ ? [faqItem('점심시간에도 상담이 되나요?', q(LUNCH_FAQ))] : []),
-  ...(C.hq ? [faqItem('본사 주소는 어디인가요?', `${q(C.hq)}입니다. 방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.`, `${q(C.corp ?? C.name)} 사업자 정보`, C.official)] : []),
+  ...(C.hq ? [faqItem(IND.faqHqQ ?? '본사 주소는 어디인가요?', `${q(C.hq)}입니다. ${IND.faqVisit ?? '방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.'}`, `${q(C.corp ?? C.name)} 사업자 정보`, C.official)] : []),
 ].join(NL);
 /* 핵심콕콕의 본사 행 — 주소가 있을 때만 한 줄 만든다.
    출력 문자열 안에 조건문을 그대로 두면 생성된 파일에 코드가 박힌다. */
@@ -972,8 +1018,8 @@ ${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}
     {
       q: '${q(C.name)} 고객센터 위치는 어디인가요?', anchor: 'q4',
       intro:
-        '${C.hq ? `본사는 ${q(C.hq)}에 있습니다. 다만 ` : ''}${IND.remote}${josa(IND.remote, '은')} 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. 서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다. 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 ${IND.unit} 이름으로 검색하면 가까운 순으로 나옵니다.',
-      highlights: [${C.hq ? `'${q(C.hq)}'` : `'가까운 지점'`}],
+        '${IND.q4 ? q(IND.q4(C.hq)) : `${C.hq ? `본사는 ${q(C.hq)}에 있습니다. 다만 ` : ''}${IND.remote}${josa(IND.remote, '은')} 방문하지 않아도 전화·앱·홈페이지로 끝나는 일이 많습니다. ${IND.visit ?? '서류 원본을 내야 하거나 대면 상담이 필요할 때만 움직이시는 편이 낫습니다.'} 방문하실 거라면 집에서 가까운 지점을 먼저 찾아보세요. 지도에서 ${IND.unit} 이름으로 검색하면 가까운 순으로 나옵니다.`}',
+      highlights: [${C.hq ? `'${q(C.hq)}'` : `'${IND.q4hl ?? '가까운 지점'}'`}],
       act: {
         cue: '${q(MAP_CUE)}',
         label: '${q(pick(MAP_LABELS))}',

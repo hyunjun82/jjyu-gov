@@ -1,0 +1,88 @@
+SLUG: seoul-national-university-hospital-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/seoul-national-university-hospital-call-center-*.png)
+
+===== [1] https://www.snuh.org/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/seoul-national-university-hospital-call-center-1.png
+CHARS: 944
+
+본문으로 바로가기
+서울대학교병원
+서울대학교병원
+어린이병원
+암병원
+분당서울대학교병원
+서울특별시보라매병원
+헬스케어시스템 강남센터
+ENG
+의료의 내일, 국민과 함께
+서울대학교병원이 걸어온 길은 대한민국 의료의 역사가 되고 있습니다.
+서울대학교병원
+Seoul National
+University Hospital
+국가중앙병원으로서
+국민건강을 책임집니다.
+어린이병원
+Children’s Hospital
+체계적인 전문시스템으로,
+소아질환 치료의 표준을
+제시합니다.
+암병원
+Cancer Hospital
+최첨단 진료와 임상연구로,
+암 정복의 새로운 패러다임을
+구축합니다.
+서울대학교병원
+
+분당서울대학교병원
+
+SNUH Bundang
+바로가기
+
+서울특별시 보라매병원
+
+SMG-SNU Boramae Medical Center
+바로가기
+
+헬스케어시스템 강남센터
+
+SNUH Healthcare System Gangnam Center
+바로가기
+
+국립교통재활병원
+
+SNUH National Traffic Injury
+Rehabilitation Hospital
+바로가기
+
+국립소방병원
+
+SNUH National Fire Hospital
+바로가기
+
+왕립셰이크 칼리파 전문병원
+
+Sheikh Khalifa Specialty Hospital
+(consignment management in UAE)
+바로가기
+
+연구부문/의생명연구원
+
+SNUH Biomedical Research Institute
+바로가기
+
+기장중입자치료센터
+
+SNUH Heavy Ion Therapy Gijang Center
+바로가기
+
+개인정보 처리방침
+SNUH 브로슈어 KR ENG
+홍보 동영상 KR ENG
+서울대학교병원 인재원
+
+주소 : 03080 서울특별시 종로구 대학로 101(연건동 28) 대표전화 : 1588-5700
+
+COPYRIGHT 2026 SEOUL NATIONAL UNIVERSITY HOSPITAL. ALL RIGHTS RESERVED

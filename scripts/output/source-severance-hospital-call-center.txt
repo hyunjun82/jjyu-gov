@@ -1,0 +1,1709 @@
+SLUG: severance-hospital-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/severance-hospital-call-center-*.png)
+
+===== [1] https://sev.severance.healthcare/sev/patient-carer/guide/number.do =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/severance-hospital-call-center-1.png
+CHARS: 17994
+
+콘텐츠 바로가기
+주메뉴 바로가기
+푸터 바로가기
+KO
+주메뉴
+환자/보호자
+공감 Story
+건강정보
+통합검색
+전체메뉴 열기
+Home
+환자/보호자
+이용안내
+주요전화번호
+화면확대
+화면축소
+화면인쇄
+주요전화번호
+환자 및 보호자의 전화예약 및 문의에 대하여 효율적으로 안내하고자 아래와 같이 대표전화 ARS 시스템을 도입하여 운영하고 있습니다.
+세브란스병원 대표 및 진료예약 전화번호와 각 진료과 및 센터/클리닉 전화번호를 확인하실 수 있습니다.
+대표전화, 진료예약 안내
+대표전화, 진료예약 안내표이며 전화예약 이용시간, ARS안내 정보 제공
+전화예약 이용시간	ARS안내
+
+예약센터 전화
+
+1599-1004
+
+(평일 08:00~18:00, 토요일 08:00~13:00)
+
+	병원이용 및 전화번호 안내	0번
+진료 및 검사예약일자 확인 및 취소	1번
+진료 및 검사예약상담	2번
+병원위치 및 교통편 안내	3번
+세브란스헬스체크업 예약 및 안내	4번
+English Service	7번
+접수 및 외래 안내
+접수 및 외래 안내표이며 장소, ARS안내 정보 제공
+세브란스헬스체크업	1588-7757	진료예약
+(타 병,의원 의사 전용)	02) 2228 - 7700
+외래수납	
+본관 : 02-2228-7172
+연세암병원 : 02-2228-4500
+재활병원 : 02-2228-3766
+심장혈관병원 : 02-2228-8255
+안과병원 : 02-2228-3421
+어린이병원 : 02-2228-5966
+	입원수속	02) 2228 - 7000
+응급진료센터	02) 2227-7777	My 세브란스
+엡 사용문의	1661 -7551
+
+재활병원
+재활병원 연락처 안내표이며 장소, ARS안내 정보 제공
+외래접수	02) 2228 - 3740, 4	입원수속 및 진료비계산	02) 2228 - 3764, 3766
+응급전화	02) 2228 - 3767	 
+안과병원
+안과병원 연락처 안내표이며 장소, ARS안내 정보 제공
+진료비계산	02) 2228 - 3421	접수	02) 2228 - 3430, 3440
+심장혈관병원
+심장혈관병원 연락처 안내표이며 장소, ARS안내 정보 제공
+현관안내	02) 2227 - 4514	입원안내	02) 2228 - 8252
+입원진료비안내	02) 2228 - 8256	심장내과/심장혈관외과 접수	02) 2228 - 8271, 8272
+소아심장과 접수	02) 2228 - 8280	 
+치과대학병원
+치과대학병원 연락처 안내표이며 장소, ARS안내 정보 제공
+접수 및 진료비계산	02) 2228 - 8634 ~ 7(2층), 8638, 39(4층)	야간응급진료센터	02) 2228 - 8958
+진료안내(상담)	02) 2228 - 8622	 
+각 진료과 접수
+각 진료과 접수 연락처 안내표이며 장소, ARS안내 정보 제공
+보존과	02) 2228 - 8700 ~ 3	보철과	02) 2228 - 8720, 8727, 8730
+구강악안면외과	02) 2228 - 8750 ~ 2, 8755	교정과	02) 2228 - 8780 ~ 1
+소아치과	02) 2228 - 8800 ~ 2	치주과	02) 2228 - 8820 ~ 2
+영상치의학과	02) 2228 - 8840 ~ 2	구강내과	02) 2228 - 8880 ~ 2
+통합진료과	02) 2228 - 8980 ~ 1	 
+특수 클리닉
+특수 클리닉 연락처 안내표이며 장소, ARS안내 정보 제공
+성인교정클리닉	02) 2228 - 8956	악안면교정클리닉	02) 2228 - 8955
+임플란트클리닉	02) 2228 - 8940 ~ 2	제1특수(장애인)클리닉	02) 2228 - 8961 ~ 2
+턱관절 및 안안면 통증클리닉	02) 2228 - 8886	시니어클리닉	02) 2228 - 8930
+
+챗봇
+
+세브란스병원
+치과대학병원
+강남세브란스병원
+용인세브란스병원
+네이버 블로그
+유튜브
+인스타그램
+페이스북
+X
+연세의료원 네트워크
+이용약관
+개인정보처리방침
+고객의 소리
+병원소개
+
+03722 서울특별시 서대문구 연세로 50-1
+
+COPYRIGHT(C) SEVERANCE HOSPITAL. ALL RIGHTS RESERVED.
+
+----- 프레임 (https://member.severance.healthcare/member/login.do?InitechEamNoCacheNonce=U8lhAHh1eKDK928i90Dh4Q%3D%3D%0A) -----
+콘텐츠 바로가기
+				주메뉴 바로가기
+				푸터 바로가기
+			
+		
+
+	
+		
+			
+		
+
+	
+		
+			
+		
+	
+	
+		
+			주메뉴
+			
+			
+				
+				 
+			
+
+	
+	
+		
+		
+			
+			
+			
+			
+			
+				로그인
+			
+			
+			
+		
+	
+		
+		
+			
+			
+			
+			
+			
+				회원가입
+			
+			
+			
+		
+	
+		
+		
+			
+			
+			
+							
+				아이디/비밀번호 찾기
+				
+					
+						
+							
+							
+								
+									아이디 찾기
+								
+							
+								
+									비밀번호 찾기
+								
+							
+						
+						
+							
+							닫기
+						
+					
+				
+			
+			
+			
+			
+		
+	
+		
+		
+			
+			
+			
+			
+			
+				병원등록번호 조회
+			
+			
+			
+		
+	
+		
+		
+			
+			
+			
+							
+				이용정책
+				
+					
+						
+							
+							
+								
+									회원정책
+								
+							
+								
+									이용약관
+								
+							
+								
+									개인정보처리방침
+								
+							
+								
+									환자권리장전
+								
+							
+								
+									환자의 권리와 의무
+								
+							
+								
+									의료정보윤리헌장
+								
+							
+								
+									이메일무단수집거부
+								
+							
+						
+						
+							
+							닫기
+						
+					
+				
+			
+			
+			
+			
+		
+	
+
+		
+		
+			
+			전체메뉴 열기
+		
+	
+
+	
+		
+			
+				
+				전체메뉴 닫기
+			
+			
+		
+		
+			
+			
+				
+				 
+			
+
+	
+	
+	
+	 
+	
+	
+		
+			로그인 
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	 
+	
+	
+		
+			회원가입 
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	 
+	
+	
+		
+			아이디/비밀번호 찾기 
+		
+		
+		
+		
+		
+			
+			
+			
+			
+				
+				
+					아이디 찾기
+				
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				
+				
+					비밀번호 찾기
+				
+				
+				
+				
+			
+			
+			
+			
+		
+		
+	
+	
+	
+	
+	
+	 
+	
+	
+		
+			병원등록번호 조회 
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	 
+	
+	
+		
+			이용정책 
+		
+		
+		
+		
+		
+			
+			
+			
+			
+				
+				
+					회원정책
+				
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				
+				
+					이용약관
+				
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				
+				
+					개인정보처리방침
+				
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				
+				
+					환자권리장전
+				
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				
+				
+					환자의 권리와 의무
+				
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				
+				
+					의료정보윤리헌장
+				
+				
+				
+				
+			
+			
+			
+			
+			
+			
+				
+				
+					이메일무단수집거부
+				
+				
+				
+				
+			
+			
+			
+			
+		
+		
+	
+	
+	
+	
+
+		
+	
+
+	
+	
+		
+	
+		
+			
+		
+
+	로그인
+
+	
+		
+			
+			
+				
+					세브란스 로그인
+					본인인증 로그인
+				
+			
+			
+				세브란스 로그인
+				
+					
+						
+							
+								
+									
+									로그인
+									
+										
+											
+										
+										아이디를 확인해 주세요
+										
+											
+										
+										비밀번호를 확인해 주세요
+									
+									로그인
+									
+										
+										아이디를 기억합니다.
+									
+								
+							
+							
+								
+								
+								
+							
+							
+								아이디 찾기
+								비밀번호 찾기
+							
+						
+						
+							
+								간편본인인증
+								
+									
+										
+											간편인증
+										
+									
+								
+	
+							
+							
+								아직 세브란스 회원이 아니신가요?
+								
+									지금 바로 회원가입을 하고 
+										나에게 딱 맞는 정보를 확인해 보세요!
+								
+								
+									회원가입
+								
+							
+						
+					
+				
+			
+			
+				본인인증 로그인
+				
+					
+						
+							본인인증
+						
+						
+							휴대폰 인증
+						
+						
+							아이핀 인증
+						
+					
+					
+						본인 확인을 위해 간편인증, 휴대폰 인증, 아이핀(I-PIN) 인증을 제공하고 있습니다.
+						만 14세 미만 이용자도 본인명의로 인증 필요합니다.
+						만약 본인명의 휴대전화가 없을 시 아이핀(I-PIN) 인증 가능합니다.
+						만약 인증이 불가하면 전화예약 (1599-1004)를 통해 예약 가능합니다.
+					
+					
+						본인인증에서 가장 많이
+							물어보는 질문은?
+					
+				
+			
+		
+	
+	
+
+	
+	
+		
+		
+			휴면회원 전환 안내
+		
+		
+		
+			
+				홍길동 회원님
+				회원님의 계정이 장기간 연세의료원 통합로그인센터에 
+					로그인이 되지 않아 휴면계정으로 전환되었습니다.
+				
+					휴면회원 전환일자
+					2019년 11월 27일
+				
+				휴면회원 해제를 원하신다면 아래 
+					[해제 신청]버튼을 눌러
+					본인인증 후 해제절차를 진행해주시기 바라겠습니다.
+				
+			
+		
+		
+			
+				해제신청
+				취소
+			
+		
+		닫기
+	
+
+	
+	
+		
+		
+		
+			
+				비밀번호를 5회 이상 잘못 입력하셨습니다.
+				[비밀번호 찾기]를 이용하여 비밀번호를 재 설정해 주시기 바랍니다.
+			
+		
+		
+			
+				
+				확인
+			
+		
+		닫기
+	
+
+	var memberLogin = {
+		_this : {},
+
+		_redirect : '',
+		/*
+		 * 로그인 초기화
+		 */
+		init : function() {
+			_this = this;
+			auth.init();
+			authOmniOne.init();
+		      
+			
+			// 	  사용자 이용로그 수집
+			Yonsei.Util.saveLog('member', '', '통합로그인센터 > 로그인');
+			_this._redirect = '';
+			
+			if(!_this._redirect) {
+				_this._redirect = '';
+			}
+			
+			if(!_this._redirect) {
+				_this._redirect = Yonsei.Util.getSessionItem('redirect');
+				if (_this._redirect) {
+					_this._redirect = encodeURIComponent(_this._redirect.url);
+				} 
+				
+				if (!_this._redirect) {
+					//_this._redirect = encodeURIComponent('/myseverance/index.do');
+					
+					_this._redirect = "/myseverance/index.do";
+				}
+			}
+			
+			$('.loginBtn').off().on("click", function(e) {
+				e.preventDefault();
+
+				_this.login();
+			});
+
+			$('.snsLoginBtn').off().on("click", function(e) {
+				e.preventDefault();
+
+				var snsNm = $(this).data('sns')
+
+				_this[snsNm + 'Login']();
+			});
+
+			$('#pw').on('keypress', function(e) {
+				if (e.which == 13) {
+					e.preventDefault();
+
+					_this.login();
+					$(this).blur();
+				}
+			})
+		},
+
+		/*
+		 * 로그인 이벤트
+		 */
+		login : function() {
+			_this.debug("login");
+// 			if (!_this.validate())
+// 				return false;
+
+			var paramData = {};
+			paramData.id = $("#id").val();
+			paramData.pw = $("#pw").val();
+			paramData.loginType = 'normal';
+			
+			
+			$.ajax({
+				url : '/api/member/checkPassword.do',
+				type : "POST",
+				data : paramData,
+				dataType : "json",
+				success : function(json) {
+					if(json.result.status == 'success') {	
+						
+						
+						_this.getSearchMemberInfo('', '','', $("#id").val(), function(resultData) {
+						    console.log("resultData 반환값:", resultData);
+						   
+						    
+						    if(resultData.result.code=='SUCCESS_00'){
+								
+								Yonsei.Modal.alert({
+									content : '본인인증이 필요합니다.\n인증 페이지로 이동합니다.',
+									callback : {
+										closeBtn : function() {
+											location.href = "/member/auth/user-check.do";
+										}
+									}
+								})
+								return;
+								
+						    }else if(resultData.result.code=='SUCCESS_01'){
+								
+						    	 console.log("휴면11111:", resultData.data);
+								   
+						    	
+						    	//휴면
+								$('#rest-nm').text(resultData.data.nm);
+								if(resultData.data.drmncyMberCnvrsDt){
+									var dateArr = resultData.data.drmncyMberCnvrsDt.split('-');
+									$('#rest-date').text(dateArr[0] + '년 ' +
+											dateArr[1] + '월 ' +
+											dateArr[2] + '일');
+								}
+								
+								$('#releaseBtn').on('click', function() {
+									var data = {
+										id : $("#id").val()
+									}
+									sessionStorage.data = JSON.stringify(data);
+										
+									if(resultData.data.mberSeCode == 'MB010500') location.href = 'release-mail.do';
+									else location.href = 'release.do?selfCrtfcIdntfcNo2Ckeck='+resultData.data.selfCrtfcIdntfcNo2Ckeck;
+								});
+								
+								sessionStorage.data = JSON.stringify(resultData.data);
+								openModal('#release-member');
+						    	
+								
+							}else{
+								
+								if(json.result.code == 'I') {
+									$.ajax({
+										url : '/api/member/login.do',
+										type : "POST",
+										data : paramData,
+										dataType : "json",
+										success : function(json) {
+											var data = {
+												id : $("#id").val(),
+												pw : $("#pw").val(),
+												type : "adminReset"
+											}
+											
+											//console.log(json);
+											if(json.result.code == 'LOGIN.ERROR.006') {
+												Yonsei.Modal.alert({
+													content : '관리자에 의해서 비밀번호가 초기화 상태입니다.<br/>비밀번호 변경 페이지로 이동합니다.',
+													callback : {
+														closeBtn : function() {
+															sessionStorage.data = JSON.stringify(data);
+															location.href = "pw-change.do";
+														}
+													}
+												})
+											} else {
+												Yonsei.Modal.alert({
+													content : '관리자에 의해서 비밀번호가 초기화 상태입니다.<br/>초기화된 비밀번호를 입력해주세요.',
+												})
+											}									
+											
+											return;
+										},
+										error : function() {
+
+										}
+									});
+									
+								} else if(json.result.code == 'S') {
+									
+									
+									//$('#rest-nm').text(json.data.nm);
+									$('#rest-nm').text($("#id").val());
+									
+									
+									if(json.data.drmncyMberCnvrsDt){
+										var dateArr = json.data.drmncyMberCnvrsDt.split('-');
+										$('#rest-date').text(dateArr[0] + '년 ' +
+												dateArr[1] + '월 ' +
+												dateArr[2] + '일');
+									}
+									
+									$('#releaseBtn').on('click', function() {
+										var data = {
+											id : $("#id").val()
+										}
+										sessionStorage.data = JSON.stringify(data);
+										
+										if(json.data.mberSeCode == 'MB010500') location.href = 'release-mail.do';
+										else location.href = 'release.do';
+									});
+									
+									sessionStorage.data = JSON.stringify(json.data);
+									openModal('#release-member');
+									
+								} else {
+									loginFlag = json.result.code;
+									
+									$('#loginForm')[0].submit();
+									
+									
+								}
+								
+							}
+						});
+					
+											
+						
+						
+					} else {
+						Yonsei.Modal.alert({content : json.result.message})
+					}
+					
+				},
+				error : function() {
+
+				}
+			});
+		},
+		
+		authLogin : function(selfCrtfcIdntfcNo,selfCrtfcIdntfcNo2) {
+			_this.debug("authLogin");
+
+			/* if (!_this.validate())
+				return false; */
+			$.ajax({
+				url : '/api/member/authLoginInfo2.do',
+				type : 'POST',
+				data : {
+					'selfCrtfcIdntfcNo' : selfCrtfcIdntfcNo,
+					'selfCrtfcIdntfcNo2':selfCrtfcIdntfcNo2
+				},
+				success : function(resp) {
+					if(resp.result.status == 'success'){
+						
+						
+						
+						_this.getSearchMemberInfo('auth', selfCrtfcIdntfcNo,selfCrtfcIdntfcNo2,'', function(resultData) {
+						   					
+						
+							 
+						    if(resultData.result.code=='SUCCESS_00'){
+								
+								Yonsei.Modal.alert({
+									content : '본인인증이 필요합니다.\n인증 페이지로 이동합니다.',
+									callback : {
+										closeBtn : function() {
+											location.href = "/member/auth/user-check.do";
+										}
+									}
+								})
+								return;
+						    }else if(resultData.result.code=='SUCCESS_01'){
+						    	
+						    	//휴면
+								$('#rest-nm').text(resultData.data.nm);
+								if(resultData.data.drmncyMberCnvrsDt){
+									var dateArr = resultData.data.drmncyMberCnvrsDt.split('-');
+									$('#rest-date').text(dateArr[0] + '년 ' +
+											dateArr[1] + '월 ' +
+											dateArr[2] + '일');
+								}
+								
+								$('#releaseBtn').on('click', function() {
+									var data = {
+										id : $("#id").val()
+									}
+									sessionStorage.data = JSON.stringify(data);
+										
+									if(resultData.data.mberSeCode == 'MB010500') location.href = 'release-mail.do';
+									else location.href = 'release.do?selfCrtfcIdntfcNo2Ckeck='+resultData.data.selfCrtfcIdntfcNo2Ckeck;
+								});
+								
+								sessionStorage.data = JSON.stringify(resultData.data);
+								openModal('#release-member');
+						    	
+						    	
+						    	
+							}else{
+									
+									$('#snsId').val(resp.data.mberId);
+									$('#snsPw').val(resp.data.password);
+									
+									$('#linkLoginForm')[0].submit();
+									
+									
+									
+									
+							}
+						});
+					} else {
+						Yonsei.Modal.alert({content : resp.result.message});
+					}
+				}
+			})
+		},
+		
+
+		getSearchMemberInfo: function(idCheck, selfCrtfcIdntfcNo,selfCrtfcIdntfcNo2, mberId, callback) {
+		    $.ajax({
+		        url: '/api/member/getSearchMemberCkeck.do',
+		        type: 'POST',
+		        data: {
+		            'idCheck': idCheck,
+		            'selfCrtfcIdntfcNo': selfCrtfcIdntfcNo,
+		            'selfCrtfcIdntfcNo2':selfCrtfcIdntfcNo2,
+		            'mberId': mberId
+		        },
+		        success: function(resp) {
+		        	
+		        	 
+		            callback(resp);   // 콜백 호출
+		        }
+		    });
+		},
+
+		loginResult : function(json) {
+			if (json.result.status == "success") {
+				//6개월 이상 비밀번호를 변경안함
+				if (json.data.passwordChange == 'Y') {
+					var data = json.data;
+					data.id = $("#id").val();
+					data.pw = $("#pw").val();
+					data.type = "pwChange";
+					sessionStorage.data = JSON.stringify(data);
+
+					// 사용자 이용로그 수집
+					Yonsei.Util.saveLog('member', '', '통합로그인센터 > 비밀번호 변경');
+					location.href = "pw-change.do?redirectUrl=" + _this._redirect;
+
+					return;
+				}
+				
+				// 사용자 이용로그 수집
+				Yonsei.Util.saveLog('member', '', '통합로그인센터 > 세브란스 로그인 완료');
+
+				location.href = _this._redirect;
+					
+			} else if (json.result.status == "error") {
+				
+				if (json.result.code == "LOGIN.ERROR.005") {
+					// 사용자 이용로그 수집
+					Yonsei.Util.saveLog('member', '', '통합로그인센터 > 휴면회원 전환 안내');
+
+					$('#rest-nm').text(json.data.nm);
+					if(json.data.drmncyMberCnvrsDt){
+						var dateArr = json.data.drmncyMberCnvrsDt.split('-');
+						$('#rest-date').text(dateArr[0] + '년 ' +
+								dateArr[1] + '월 ' +
+								dateArr[2] + '일');
+					}
+					
+					$('#releaseBtn').on('click', function() {
+						var data = {
+							id : $("#id").val()
+						}
+						sessionStorage.data = JSON.stringify(data);
+							
+						if(json.data.mberSeCode == 'MB010500') location.href = 'release-mail.do';
+						else location.href = 'release.do';
+					});
+					
+					sessionStorage.data = JSON.stringify(json.data);
+					openModal('#release-member');
+				}
+				// 관리자에서 비밀번호 초기화  
+				else if (json.result.code == "LOGIN.ERROR.006") {
+					var data = {
+						id : $("#id").val(),
+						pw : $("#pw").val(),
+						type : "adminReset"
+					}
+					sessionStorage.data = JSON.stringify(data);
+
+					location.href = "pw-change.do";
+					return;
+				}
+				//비밀번호 5회 틀림
+				else if (json.result.code == "LOGIN.ERROR.007") {
+					Yonsei.Modal
+							.alert({
+								content : '<p class="text-center">비밀번호를 <span class="color5">5</span>회 이상 잘못 입력하셨습니다. <br>아래 <span class="color1">[비밀번호 찾기]</span>를 이용하여<br>재설정해 주시기 바랍니다.</p>'
+							})
+				} else {
+					if(json.result.code == "LOGIN.ERROR.003"){
+						Yonsei.Modal.alert({
+							content : '<p class="al-center">아이디를 확인해 주세요.</p>'
+						})								
+					}else if(json.result.code == "LOGIN.ERROR.004"){
+						Yonsei.Modal.alert({
+							content : '<p class="al-center">비밀번호를 확인해 주세요.</p>'
+						})						
+					}
+				}
+			}
+		},
+
+		/*
+		 * Validation
+		 */
+		validate : function() {
+			var result = true;
+
+			var $id = $("#id");
+			var $pw = $("#pw");
+
+			if ($id.val() == "") {
+				$id.parent().find('.error-alert').removeClass('hide');
+				$id.focus();
+
+				result = false;
+			} else {
+				$id.parent().find('.error-alert').addClass('hide');
+			}
+
+			if ($pw.val() == "") {
+				$pw.parent().find('.error-alert').removeClass('hide');
+				$pw.focus();
+
+				result = false;
+			} else {
+				$pw.parent().find('.error-alert').addClass('hide');
+			}
+
+			return result;
+		},
+
+		/*
+		 * logging
+		 */
+		debug : function(message) {
+			//console.log("login", message);
+		},
+	};
+
+	$(function() {
+		
+	
+		// 로그인 모듈 사용 초기화
+		memberLogin.init();
+		
+		document.title='통합로그인센터';
+		
+
+	
+	});
+	
+
+	function receiveMessage(data)
+	{
+	  var jsonObj = $.parseJSON(data);
+	   
+	  memberLogin.snsLogin2(jsonObj.enc_id || jsonObj.id, jsonObj.sns.substring(0,1), jsonObj.enc_id !== undefined);
+	  
+	}
+	
+	if(location.href.indexOf('localhost') != -1) {
+		window.receiveMessage2 = function(event)
+		{
+		  var jsonObj = $.parseJSON(event.data);
+		
+		  memberLogin.snsLogin2(jsonObj.enc_id || jsonObj.id, jsonObj.sns.substring(0,1), jsonObj.enc_id !== undefined);
+		  
+		
+		}
+		
+		window.addEventListener("message", receiveMessage2, false);
+	}
+	
+	function authSuccess(certInfo){
+        
+		memberLogin.authLogin($.parseJSON(certInfo).DI,$.parseJSON(certInfo).selfCrtfcIdntfcNo2);
+    }
+
+ 
+
+	
+	
+	
+	
+
+	
+	
+		
+			
+		
+
+	연세의료원 네트워크
+		
+			
+				
+					
+					
+						
+					
+
+	
+		
+		세브란스
+		
+			
+			
+			
+		
+	
+		
+		연세의료원
+		
+			
+			
+				뉴스
+			
+				후원
+			
+				채용
+			
+				입찰
+			
+				의과학연구처
+			
+				디지털헬스센터
+			
+			
+		
+	
+
+	
+		
+		세브란스병원
+		
+			
+			
+				연세암병원
+			
+				심장혈관병원
+			
+				어린이병원
+			
+				안과병원
+			
+				재활병원
+			
+				중입자치료센터
+			
+			
+		
+	
+		
+		치과대학병원
+		
+			
+			
+			
+		
+	
+
+	
+		
+		강남세브란스병원
+		
+			
+			
+				심뇌혈관병원
+			
+				암병원
+			
+				척추병원
+			
+				치과병원
+			
+			
+		
+	
+		
+		용인세브란스병원
+		
+			
+			
+			
+		
+	
+
+	
+		
+		연세대학교
+		
+			
+			
+				의과대학
+			
+				치과대학
+			
+				간호대학
+			
+				보건대학원
+			
+				융합보건의료대학원
+			
+				학술정보원
+			
+				의학도서관
+			
+				장례식장
+			
+			
+		
+	
+
+				
+				닫기
+			
+		
+	
+	
+		
+			이용약관
+			개인정보처리방침
+		
+		03722 서울특별시 서대문구 연세로 50-1
+		COPYRIGHT(C) YONSEI UNIVERSITY HEALTH SYSTEM. ALL RIGHTS RESERVED.
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1 — 대표전화, 진료예약 안내표이며 전화예약 이용시간, ARS안내 정보 제공]
+전화예약 이용시간 | ARS안내
+예약센터 전화1599-1004 (평일 08:00~18:00, 토요일 08:00~13:00) | 병원이용 및 전화번호 안내 | 0번
+진료 및 검사예약일자 확인 및 취소 | 1번
+진료 및 검사예약상담 | 2번
+병원위치 및 교통편 안내 | 3번
+세브란스헬스체크업 예약 및 안내 | 4번
+English Service | 7번
+
+[표 2 — 접수 및 외래 안내표이며 장소, ARS안내 정보 제공]
+세브란스헬스체크업 | 1588-7757 | 진료예약(타 병,의원 의사 전용) | 02) 2228 - 7700
+외래수납 | 본관 : 02-2228-7172 연세암병원 : 02-2228-4500 재활병원 : 02-2228-3766 심장혈관병원 : 02-2228-8255 안과병원 : 02-2228-3421 어린이병원 : 02-2228-5966 | 입원수속 | 02) 2228 - 7000
+응급진료센터 | 02) 2227-7777 | My 세브란스엡 사용문의 | 1661 -7551
+
+[표 3 — 재활병원 연락처 안내표이며 장소, ARS안내 정보 제공]
+외래접수 | 02) 2228 - 3740, 4 | 입원수속 및 진료비계산 | 02) 2228 - 3764, 3766
+응급전화 | 02) 2228 - 3767
+
+[표 4 — 안과병원 연락처 안내표이며 장소, ARS안내 정보 제공]
+진료비계산 | 02) 2228 - 3421 | 접수 | 02) 2228 - 3430, 3440
+
+[표 5 — 심장혈관병원 연락처 안내표이며 장소, ARS안내 정보 제공]
+현관안내 | 02) 2227 - 4514 | 입원안내 | 02) 2228 - 8252
+입원진료비안내 | 02) 2228 - 8256 | 심장내과/심장혈관외과 접수 | 02) 2228 - 8271, 8272
+소아심장과 접수 | 02) 2228 - 8280
+
+[표 6 — 치과대학병원 연락처 안내표이며 장소, ARS안내 정보 제공]
+접수 및 진료비계산 | 02) 2228 - 8634 ~ 7(2층), 8638, 39(4층) | 야간응급진료센터 | 02) 2228 - 8958
+진료안내(상담) | 02) 2228 - 8622
+
+[표 7 — 각 진료과 접수 연락처 안내표이며 장소, ARS안내 정보 제공]
+보존과 | 02) 2228 - 8700 ~ 3 | 보철과 | 02) 2228 - 8720, 8727, 8730
+구강악안면외과 | 02) 2228 - 8750 ~ 2, 8755 | 교정과 | 02) 2228 - 8780 ~ 1
+소아치과 | 02) 2228 - 8800 ~ 2 | 치주과 | 02) 2228 - 8820 ~ 2
+영상치의학과 | 02) 2228 - 8840 ~ 2 | 구강내과 | 02) 2228 - 8880 ~ 2
+통합진료과 | 02) 2228 - 8980 ~ 1
+
+[표 8 — 특수 클리닉 연락처 안내표이며 장소, ARS안내 정보 제공]
+성인교정클리닉 | 02) 2228 - 8956 | 악안면교정클리닉 | 02) 2228 - 8955
+임플란트클리닉 | 02) 2228 - 8940 ~ 2 | 제1특수(장애인)클리닉 | 02) 2228 - 8961 ~ 2
+턱관절 및 안안면 통증클리닉 | 02) 2228 - 8886 | 시니어클리닉 | 02) 2228 - 8930
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+THE FIRST, THE BEST
+ 환자가 만족하는 병원 세브란스입니다.
+ 예약
+ 진료 예약
+ 처음 오신 분 빠른예약
+ 예약 안내
+ 진료 시간표
+ 온라인 예약
+ 건강검진(헬스체크업)
+ 헬스체크업 안내
+ 헬스체크업 자주묻는질문
+ 비자신체검사
+ 비자신체검사 예약
+ 비자신체검사 자주묻는질문
+ 예약 현황
+ 결과
+ 내원일자
+ 약처방정보
+ 검진결과
+ 입퇴원내역
+ 검사결과
+ 증명서 및 의무기록
+ 의무기록사본 및 영상자료 (CD/DVD) 발급
+ 발급 절차
+ 신청자별 구비서류
+ 발급 비용
+ Q & A
+ 제증명서 및 진단서 발급
+ 종류
+ 발급 절차
+ 신청자별 구비서류
+ Q & A
+ 온라인 발급 서비스
+ 서식 다운로드
+ 이용안내
+ 주요전화번호
+ WI-FI접속인증방법
+ 병원시설 안내
+ 층별 시설
+ 편의 시설
+ 병원 내 길찾기
+ 진료안내
+ 외래이용안내
+ 대리처방안내
+ 진료비 수납 및 환불
+ Hi-Pass (진료비 후불서비스)
+ 약처방 방법
+ 비급여진료비
+ 응급진료안내
+ 병원생활 안내
+ 입퇴원절차
+ 입원생활
+ 면회
+ 퇴원환자서비스
+ 중환자실 이용안내
+ 수술실 이용안내
+ 간호간병통합서비스
+ 자주묻는 질문
+ 예배안내
+ 오시는 길
+ 위치 및 오시는 방법
+ 주차안내
+ 레이어닫기
+
+THE FIRST, THE BEST
+ 환자가 만족하는 병원 세브란스입니다.
+ 병원 이야기
+ 의료진 이야기
+ 세브란스 아트투어
+ 고객의 소리
+ 후원
+ 후원안내
+ 후원캠페인
+ 후원하기
+ 후원사례
+ 기부이야기
+ 나눔이야기
+ 자원봉사
+ 자원봉사 안내
+ 자원봉사 신청
+ 레이어닫기
+
+전체메뉴전체메뉴 닫기
+ 의료진 찾기
+ 진료과 찾기
+ 진료과/센터/클리닉
+ 환자/보호자
+ 예약
+ 진료 예약
+ 처음 오신 분 빠른예약
+ 예약 안내
+ 진료 시간표
+ 온라인 예약
+ 건강검진(헬스체크업)
+ 헬스체크업 안내
+ 헬스체크업 자주묻는질문
+ 비자신체검사
+ 비자신체검사 예약
+ 비자신체검사 자주묻는질문
+ 예약 현황
+ 결과
+ 내원일자
+ 약처방정보
+ 검진결과
+ 입퇴원내역
+ 검사결과
+ 증명서 및 의무기록
+ 의무기록사본 및 영상자료 (CD/DVD) 발급
+ 발급 절차
+ 신청자별 구비서류
+ 발급 비용
+ Q & A
+ 제증명서 및 진단서 발급
+ 종류
+ 발급 절차
+ 신청자별 구비서류
+ Q & A
+ 온라인 발급 서비스
+ 서식 다운로드
+ 이용안내
+ 주요전화번호
+ WI-FI접속인증방법
+ 병원시설 안내
+ 층별 시설
+ 편의 시설
+ 병원 내 길찾기
+ 진료안내
+ 외래이용안내
+ 대리처방안내
+ 진료비 수납 및 환불
+ Hi-Pass (진료비 후불서비스)
+ 약처방 방법
+ 비급여진료비
+ 응급진료안내
+ 병원생활 안내
+ 입퇴원절차
+ 입원생활
+ 면회
+ 퇴원환자서비스
+ 중환자실 이용안내
+ 수술실 이용안내
+ 간호간병통합서비스
+ 자주묻는 질문
+ 예배안내
+ 오시는 길
+ 위치 및 오시는 방법
+ 주차안내
+ 의료인
+ 진료협력
+ 진료협력센터
+ 진료의뢰 안내
+ 협력병원 현황
+ 협진병, 의원 현황
+ 교육
+ 국내교육
+ 교육안내
+ 교육프로그램
+ 해외교육
+ 교육/세미나 장소
+ 연구
+ 진료지원부서
+ 공감 Story
+ 병원 이야기
+ 의료진 이야기
+ 세브란스 아트투어
+ 고객의 소리
+ 후원
+ 후원안내
+ 후원캠페인
+ 후원하기
+ 후원사례
+ 기부이야기
+ 나눔이야기
+ 자원봉사
+ 자원봉사 안내
+ 자원봉사 신청
+ 건강정보
+ 병원소개
+ 병원소개
+ 병원개요
+ 병원장 인사말
+ 연혁
+ 오시는 길
+ 위치 및 오시는 방법
+ 주차안내
+ 뉴스
+ 뉴스 홈
+ 공지/소식
+ 공지사항
+ 채용
+ 프레스센터
+ 보도자료
+ 메디컬 리포트
+ 언론보도
+ 건강강좌/세미나
+ 건강강좌/세미나 안내
+ 건강강좌 영상
+ 웹진
+ 웹진
+ 전체메뉴 닫기
+
+전체메뉴 닫기
+ 로그인
+ 회원가입
+  의료진 찾기 
+  진료과 찾기
+ 진료과
+ 센터/클리닉
+ 닫기
+
+예약
+ 진료 예약
+ 처음 오신 분 빠른예약
+ 예약 안내
+ 진료 시간표
+ 온라인 예약
+ 건강검진(헬스체크업)
+ 헬스체크업 안내
+ 헬스체크업 자주묻는질문
+ 비자신체검사
+ 비자신체검사 예약
+ 비자신체검사 자주묻는질문
+ 예약 현황
+ 결과
+ 내원일자
+ 약처방정보
+ 검진결과
+ 입퇴원내역
+ 검사결과
+ 증명서 및 의무기록
+ 의무기록사본 및 영상자료 (CD/DVD) 발급
+ 발급 절차
+ 신청자별 구비서류
+ 발급 비용
+ Q & A
+ 제증명서 및 진단서 발급
+ 종류
+ 발급 절차
+ 신청자별 구비서류
+ Q & A
+ 온라인 발급 서비스
+ 서식 다운로드
+ 이용안내
+ 주요전화번호
+ WI-FI접속인증방법
+ 병원시설 안내
+ 층별 시설
+ 편의 시설
+ 병원 내 길찾기
+ 진료안내
+ 외래이용안내
+ 대리처방안내
+ 진료비 수납 및 환불
+ Hi-Pass (진료비 후불서비스)
+ 약처방 방법
+ 비급여진료비
+ 응급진료안내
+ 병원생활 안내
+ 입퇴원절차
+ 입원생활
+ 면회
+ 퇴원환자서비스
+ 중환자실 이용안내
+ 수술실 이용안내
+ 간호간병통합서비스
+ 자주묻는 질문
+ 예배안내
+ 오시는 길
+ 위치 및 오시는 방법
+ 주차안내
+
+진료협력
+ 진료협력센터
+ 진료의뢰 안내
+ 협력병원 현황
+ 협진병, 의원 현황
+ 교육
+ 국내교육
+ 교육안내
+ 교육프로그램
+ 해외교육
+ 교육/세미나 장소
+ 연구
+ 진료지원부서
+
+병원 이야기
+ 의료진 이야기
+ 세브란스 아트투어
+ 고객의 소리
+ 후원
+ 후원안내
+ 후원캠페인
+ 후원하기
+ 후원사례
+ 기부이야기
+ 나눔이야기
+ 자원봉사
+ 자원봉사 안내
+ 자원봉사 신청
+
+병원소개
+ 병원개요
+ 병원장 인사말
+ 연혁
+ 오시는 길
+ 위치 및 오시는 방법
+ 주차안내
+
+뉴스 홈
+ 공지/소식
+ 공지사항
+ 채용
+ 프레스센터
+ 보도자료
+ 메디컬 리포트
+ 언론보도
+ 건강강좌/세미나
+ 건강강좌/세미나 안내
+ 건강강좌 영상
+ 웹진
+ 웹진
+
+KO
+ EN
+ JP
+ CN
+ RU
+ AR
+
+통합검색
+ 의료진 검색
+ 진료과 검색
+ 검색
+ #코로나#면회제한#오시는 길#비급여진료비#증명서발급#제중원#건강검진#입찰#채용
+ 닫기
+
+예약
+ 결과
+ 증명서 및 의무기록
+ 이용안내
+ 오시는 길
+
+주요전화번호
+ WI-FI접속인증방법
+ 병원시설 안내
+ 진료안내
+ 응급진료안내
+ 병원생활 안내
+ 자주묻는 질문
+ 예배안내
+
+세브란스병원
+ 연세암병원
+ 심장혈관병원
+ 어린이병원
+ 안과병원
+ 재활병원
+ 중입자치료센터
+
+강남세브란스병원
+ 심뇌혈관병원
+ 암병원
+ 척추병원
+ 치과병원
+
+세브란스
+ 연세의료원
+ 뉴스
+ 후원
+ 채용
+ 입찰
+ 의과학연구처
+ 디지털헬스센터
+ 세브란스병원
+ 연세암병원
+ 심장혈관병원
+ 어린이병원
+ 안과병원
+ 재활병원
+ 중입자치료센터
+ 치과대학병원
+ 강남세브란스병원
+ 심뇌혈관병원
+ 암병원
+ 척추병원
+ 치과병원
+ 용인세브란스병원
+ 연세대학교
+ 의과대학
+ 치과대학
+ 간호대학
+ 보건대학원
+ 융합보건의료대학원
+ 학술정보원
+ 의학도서관
+ 장례식장
+ 닫기

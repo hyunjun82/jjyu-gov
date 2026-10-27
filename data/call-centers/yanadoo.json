@@ -1,0 +1,42 @@
+{
+  "slug": "yanadoo",
+  "name": "야나두",
+  "aliases": [
+    "야나두 고객센터",
+    "야나두 전화번호",
+    "yanadoo",
+    "야나두 영어",
+    "야나두 고객센터 전화번호"
+  ],
+  "industry": "online",
+  "brandColor": "#FEB903",
+  "official": "https://www.yanadoo.co.kr",
+  "sourceUrl": "https://www.yanadoo.co.kr/",
+  "sourceName": "야나두 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "야나두 고객센터",
+    "tel": "1600-0563"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "lunch": "12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-10-27] 야나두(yanadoo.co.kr) 하단: 야나두 고객센터 1600-0563 (유료), 평일 09:00~18:00 (12:00~13:00 점심시간), helpya@yanadoocorp.com. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "가입 아이디와 수강 중인 강좌명",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "야나두 고객센터",
+      "tel": "1600-0563",
+      "note": "유료, 평일 09:00~18:00, 점심시간 12:00~13:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '야나두 고객센터'로 적힌 번호입니다."
+}

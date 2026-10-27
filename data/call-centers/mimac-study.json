@@ -1,0 +1,43 @@
+{
+  "slug": "mimac-study",
+  "name": "대성마이맥",
+  "aliases": [
+    "대성마이맥 고객센터",
+    "마이맥",
+    "대성마이맥 전화번호",
+    "MIMAC",
+    "대성마이맥 전화상담"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.mimacstudy.com",
+  "sourceUrl": "https://www.mimacstudy.com/cust/custMain.ds?requestMenuId=MNMN_M013",
+  "sourceName": "대성마이맥 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "전화상담",
+    "tel": "02-5252-110"
+  },
+  "hours": {
+    "weekday": "평일 09:00~24:00",
+    "lunch": "12:30~13:30",
+    "saturday": "주말/공휴일 10:00~22:00"
+  },
+  "hoursNote": "[2026-10-27] 대성마이맥(mimacstudy.com/cust/custMain.ds) 고객센터 전화상담 02.5252.110(화면 캡처로 표기 확인), 평일 09:00~24:00, 점심시간 12:30~13:30, 주말/공휴일 10:00~22:00. 번호 표기는 원문의 묶음(02·5252·110)을 그대로 하이픈으로만 바꿨다. 로고가 검정(대성 MIMAC 워드마크)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "가입 아이디와 수강 중인 강좌명",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화상담",
+      "tel": "02-5252-110",
+      "note": "평일 09:00~24:00, 점심시간 12:30~13:30, 주말/공휴일 10:00~22:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화상담'으로 적힌 번호입니다."
+}

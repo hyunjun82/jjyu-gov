@@ -1,0 +1,41 @@
+{
+  "slug": "korea-rural-community-corporation",
+  "name": "한국농어촌공사",
+  "aliases": [
+    "농어촌공사",
+    "한국농어촌공사 고객센터",
+    "한국농어촌공사 전화번호",
+    "한국농어촌공사 대표전화",
+    "KRC"
+  ],
+  "industry": "public",
+  "brandColor": "#004EA2",
+  "official": "https://www.ekr.or.kr",
+  "sourceUrl": "https://www.ekr.or.kr/",
+  "sourceName": "한국농어촌공사 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "전남광주통합특별시 나주시 그린로 20",
+  "hqZip": "58327",
+  "main": {
+    "label": "TEL",
+    "tel": "061-338-5114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국농어촌공사(ekr.or.kr) 하단: (58327) 전남광주통합특별시 나주시 그린로 20(빛가람동 358) TEL. 061-338-5114 FAX. 061-338-6901~2. 고객의 소리 근무시간(09:00~18:00, 토·일·공휴일 제외)은 고객의 소리 접수 시간이라 전화 시간으로 쓰지 않는다. 로고색은 헤더 로고 글자 영역 최빈 유채색(오버레이 제거 후).",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "061-338-5114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

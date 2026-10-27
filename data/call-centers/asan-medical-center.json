@@ -1,0 +1,49 @@
+{
+  "slug": "asan-medical-center",
+  "name": "서울아산병원",
+  "aliases": [
+    "서울아산병원 대표전화",
+    "서울아산병원 전화번호",
+    "서울아산병원 진료예약",
+    "서울아산병원 고객센터",
+    "아산병원"
+  ],
+  "industry": "public",
+  "brandColor": "#00696D",
+  "official": "https://www.amc.seoul.kr",
+  "sourceUrl": "https://www.amc.seoul.kr/asan/custom/customervoice/customerVoiceInfo.do",
+  "sourceName": "서울아산병원 고객의 소리",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "TEL",
+    "tel": "1688-7575"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 서울아산병원(amc.seoul.kr) 고객의 소리: 진료예약 및 변경, 취소 전화(1688-7575) → ARS 1번, 동관 지하1층 고객상담실 전화 02-3010-5350, 무료전화(핸드폰 불가) 080-203-3355, 하단 TEL 1688-7575. 상담시간 표기가 없어 hours 를 비운다. 로고색은 logo.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "진료 예약·변경·취소, 고객 상담",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "1688-7575",
+      "note": "진료 예약·변경·취소는 ARS 1번"
+    },
+    {
+      "label": "고객상담실",
+      "tel": "02-3010-5350"
+    },
+    {
+      "label": "고객상담실 무료전화",
+      "tel": "080-203-3355",
+      "note": "핸드폰 불가"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

@@ -2310,6 +2310,56 @@ import { toolToolCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/conten
 import { daejeonNcDepartmentStoreCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/daejeon-nc-department-store';
 import { womensEmergencyHotline1366CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/womens-emergency-hotline-1366';
 import { koreanReinsuranceCompanyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/korean-reinsurance-company';
+import { mcdonaldsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/mcdonalds';
+import { ediyaCoffeeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/ediya-coffee';
+import { megaMgcCoffeeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/mega-mgc-coffee';
+import { lotteriaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotteria';
+import { parisBaguetteCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/paris-baguette';
+import { pizzaHutCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/pizza-hut';
+import { bbqCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/bbq';
+import { baskinRobbinsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/baskin-robbins';
+import { kyochonChickenCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kyochon-chicken';
+import { starbucksCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/starbucks';
+import { tousLesJoursCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tous-les-jours';
+import { lotteonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/lotteon';
+import { kurlyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kurly';
+import { koreaAirportsCorporationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-airports-corporation';
+import { kWaterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/k-water';
+import { koreaGasCorporationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-gas-corporation';
+import { koreaDistrictHeatingCorporationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-district-heating-corporation';
+import { seoulMetroCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-metro';
+import { seoulNationalUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-national-university-hospital';
+import { samsungMedicalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/samsung-medical-center';
+import { asanMedicalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/asan-medical-center';
+import { severanceHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/severance-hospital';
+import { seoulStMarysHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-st-marys-hospital';
+import { seoulNationalUniversityBundangHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seoul-national-university-bundang-hospital';
+import { ajouUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ajou-university-hospital';
+import { etoosCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/etoos';
+import { yanadooCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/yanadoo';
+import { woongjinThinkbigCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/woongjin-thinkbig';
+import { megastudyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/megastudy';
+import { sonoHotelsResortsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sono-hotels-resorts';
+import { shillaDutyFreeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/shilla-duty-free';
+import { skMagicCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/sk-magic';
+import { giordanoCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/giordano';
+import { tonymolyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/tonymoly';
+import { koreaConsumerAgencyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-consumer-agency';
+import { koreaRuralCommunityCorporationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-rural-community-corporation';
+import { koreaTourismOrganizationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-tourism-organization';
+import { koreaEnvironmentCorporationCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-environment-corporation';
+import { nationalCancerCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/national-cancer-center';
+import { nationalMedicalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/national-medical-center';
+import { melonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/melon';
+import { genieMusicCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/genie-music';
+import { koreaUniversityAnamHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-university-anam-hospital';
+import { hanwhaResortCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/hanwha-resort';
+import { oasisMarketCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/oasis-market';
+import { millieCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/millie';
+import { kumonCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/kumon';
+import { natureRepublicCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/nature-republic';
+import { skinfoodCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/skinfood';
+import { mimacStudyCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/mimac-study';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2435,6 +2485,25 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'korea-university-anam-hospital': koreaUniversityAnamHospitalCallCenterSpokeContent,
+    'national-medical-center': nationalMedicalCenterCallCenterSpokeContent,
+    'national-cancer-center': nationalCancerCenterCallCenterSpokeContent,
+    'korea-environment-corporation': koreaEnvironmentCorporationCallCenterSpokeContent,
+    'korea-tourism-organization': koreaTourismOrganizationCallCenterSpokeContent,
+    'korea-rural-community-corporation': koreaRuralCommunityCorporationCallCenterSpokeContent,
+    'korea-consumer-agency': koreaConsumerAgencyCallCenterSpokeContent,
+    'ajou-university-hospital': ajouUniversityHospitalCallCenterSpokeContent,
+    'seoul-national-university-bundang-hospital': seoulNationalUniversityBundangHospitalCallCenterSpokeContent,
+    'seoul-st-marys-hospital': seoulStMarysHospitalCallCenterSpokeContent,
+    'severance-hospital': severanceHospitalCallCenterSpokeContent,
+    'asan-medical-center': asanMedicalCenterCallCenterSpokeContent,
+    'samsung-medical-center': samsungMedicalCenterCallCenterSpokeContent,
+    'seoul-national-university-hospital': seoulNationalUniversityHospitalCallCenterSpokeContent,
+    'seoul-metro': seoulMetroCallCenterSpokeContent,
+    'korea-district-heating-corporation': koreaDistrictHeatingCorporationCallCenterSpokeContent,
+    'korea-gas-corporation': koreaGasCorporationCallCenterSpokeContent,
+    'k-water': kWaterCallCenterSpokeContent,
+    'korea-airports-corporation': koreaAirportsCorporationCallCenterSpokeContent,
     'womens-emergency-hotline-1366': womensEmergencyHotline1366CallCenterSpokeContent,
     'korea-shipping-association': koreaShippingAssociationCallCenterSpokeContent,
     'gimhae-carbon-neutrality-experience-center': gimhaeCarbonNeutralityExperienceCenterCallCenterSpokeContent,
@@ -2677,6 +2746,37 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'mimac-study': mimacStudyCallCenterSpokeContent,
+    'skinfood': skinfoodCallCenterSpokeContent,
+    'nature-republic': natureRepublicCallCenterSpokeContent,
+    'kumon': kumonCallCenterSpokeContent,
+    'millie': millieCallCenterSpokeContent,
+    'oasis-market': oasisMarketCallCenterSpokeContent,
+    'hanwha-resort': hanwhaResortCallCenterSpokeContent,
+    'genie-music': genieMusicCallCenterSpokeContent,
+    'melon': melonCallCenterSpokeContent,
+    'tonymoly': tonymolyCallCenterSpokeContent,
+    'giordano': giordanoCallCenterSpokeContent,
+    'sk-magic': skMagicCallCenterSpokeContent,
+    'shilla-duty-free': shillaDutyFreeCallCenterSpokeContent,
+    'sono-hotels-resorts': sonoHotelsResortsCallCenterSpokeContent,
+    'megastudy': megastudyCallCenterSpokeContent,
+    'woongjin-thinkbig': woongjinThinkbigCallCenterSpokeContent,
+    'yanadoo': yanadooCallCenterSpokeContent,
+    'etoos': etoosCallCenterSpokeContent,
+    'kurly': kurlyCallCenterSpokeContent,
+    'lotteon': lotteonCallCenterSpokeContent,
+    'tous-les-jours': tousLesJoursCallCenterSpokeContent,
+    'starbucks': starbucksCallCenterSpokeContent,
+    'kyochon-chicken': kyochonChickenCallCenterSpokeContent,
+    'baskin-robbins': baskinRobbinsCallCenterSpokeContent,
+    'bbq': bbqCallCenterSpokeContent,
+    'pizza-hut': pizzaHutCallCenterSpokeContent,
+    'paris-baguette': parisBaguetteCallCenterSpokeContent,
+    'lotteria': lotteriaCallCenterSpokeContent,
+    'mega-mgc-coffee': megaMgcCoffeeCallCenterSpokeContent,
+    'ediya-coffee': ediyaCoffeeCallCenterSpokeContent,
+    'mcdonalds': mcdonaldsCallCenterSpokeContent,
     'korean-reinsurance-company': koreanReinsuranceCompanyCallCenterSpokeContent,
     'daejeon-nc-department-store': daejeonNcDepartmentStoreCallCenterSpokeContent,
     'tool-tool': toolToolCallCenterSpokeContent,

@@ -1,0 +1,42 @@
+{
+  "slug": "samsung-medical-center",
+  "name": "삼성서울병원",
+  "aliases": [
+    "삼성서울병원 대표전화",
+    "삼성서울병원 전화번호",
+    "삼성서울병원 진료예약",
+    "삼성서울병원 고객센터",
+    "삼성의료원"
+  ],
+  "industry": "public",
+  "brandColor": "#1428A0",
+  "official": "https://www.samsunghospital.com",
+  "sourceUrl": "https://www.samsunghospital.com/",
+  "sourceName": "삼성서울병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 강남구 일원로 81",
+  "hqZip": "06351",
+  "main": {
+    "label": "대표전화",
+    "tel": "1599-3114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 삼성서울병원(samsunghospital.com): 하단 서울특별시 강남구 일원로 81 (06351) 삼성서울병원 / 대표전화 1599-3114, 이미지 대체텍스트 '365일 24시간 진료예약 1599-3114'. 대표전화 상담시간 표기는 따로 없어 hours 를 비우고 진료예약 24시간만 번호 note 에 적는다. 로고색은 헤더 로고 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "진료 예약, 이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1599-3114",
+      "note": "진료예약은 365일 24시간"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

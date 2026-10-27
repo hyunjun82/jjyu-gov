@@ -1,0 +1,48 @@
+{
+  "slug": "national-medical-center",
+  "name": "국립중앙의료원",
+  "aliases": [
+    "국립중앙의료원 대표전화",
+    "국립중앙의료원 전화번호",
+    "국립중앙의료원 진료예약",
+    "NMC",
+    "국립중앙의료원 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#AED0EE",
+  "official": "https://www.nmc.or.kr",
+  "sourceUrl": "https://www.nmc.or.kr/nmc/contents/outpatient_treatment_procedures",
+  "sourceName": "국립중앙의료원 외래진료 안내",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "콜센터",
+    "tel": "02-2260-7114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 국립중앙의료원(nmc.or.kr) 외래진료 안내: 진료예약 ARS 안내 1588-1775 콜센터 02-2260-7114, 전화예약 평일 08:30~17:00 사이에 02-2260-7114로 접수 가능, 검진상담예약 02-2260-7432. 전화예약 시간은 예약 접수 시간이라 번호 note 에만 적고 hours 는 비운다. 로고색은 하위 페이지 logo.svg 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "진료 예약, 이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "콜센터",
+      "tel": "02-2260-7114",
+      "note": "전화예약 평일 08:30~17:00"
+    },
+    {
+      "label": "진료예약 ARS",
+      "tel": "1588-1775"
+    },
+    {
+      "label": "검진상담예약",
+      "tel": "02-2260-7432"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '콜센터'로 적힌 번호입니다."
+}

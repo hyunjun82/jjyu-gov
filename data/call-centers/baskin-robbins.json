@@ -1,0 +1,43 @@
+{
+  "slug": "baskin-robbins",
+  "name": "배스킨라빈스",
+  "aliases": [
+    "배스킨라빈스 고객센터",
+    "배스킨",
+    "비알코리아",
+    "배스킨라빈스 전화번호",
+    "던킨 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#E21683",
+  "official": "https://www.baskinrobbins.co.kr",
+  "sourceUrl": "https://www.baskinrobbins.co.kr/information-center/customer/list.php",
+  "sourceName": "배스킨라빈스 고객센터",
+  "verifiedAt": "2026-10-27",
+  "corp": "비알코리아(주)",
+  "hq": "서울특별시 서초구 남부순환로 2620",
+  "main": {
+    "label": "고객 문의 접수 전화",
+    "tel": "080-555-3131"
+  },
+  "hours": {
+    "weekday": "",
+    "holiday": "주말 · 공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 배스킨라빈스 고객센터(information-center/customer): 고객 문의 접수채널 전화 080-555-3131 (주말 · 공휴일 휴무 / 수신자 부담), 비알코리아(주). 상담시간 숫자 표기가 없어 weekday 를 비운다. 던킨(dunkindonuts.co.kr) 하단에도 같은 번호 080-555-3131 이 있어 던킨은 별도 글로 만들지 않고 aliases 에만 남긴다. 로고색은 홈 로고 요소 최빈 유채색.",
+  "variant": "franchise",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객 문의 접수 전화",
+      "tel": "080-555-3131",
+      "note": "주말·공휴일 휴무, 수신자 부담"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객 문의 접수 전화'로 적힌 번호입니다."
+}

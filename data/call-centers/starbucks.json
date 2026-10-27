@@ -1,0 +1,46 @@
+{
+  "slug": "starbucks",
+  "name": "스타벅스",
+  "aliases": [
+    "스타벅스 고객센터",
+    "스타벅스 코리아",
+    "SCK컴퍼니",
+    "스타벅스 전화번호",
+    "스타벅스 고객의 소리"
+  ],
+  "industry": "online",
+  "brandColor": "#027143",
+  "official": "https://www.starbucks.co.kr",
+  "sourceUrl": "https://www.starbucks.co.kr/customer/suggestionWrite.do",
+  "sourceName": "스타벅스 고객 문의 접수 방법",
+  "verifiedAt": "2026-10-27",
+  "corp": "주식회사 에스씨케이컴퍼니",
+  "main": {
+    "label": "대표번호",
+    "tel": "1522-3232"
+  },
+  "hours": {
+    "weekday": "평일 오전 9:00 ~ 오후 18:00"
+  },
+  "hoursNote": "[2026-10-27] 스타벅스 고객 문의 접수 방법(customer/suggestionWrite.do): 전화 접수 - 대표번호 1522-3232 (상담시간: 평일 오전 9:00 ~ 오후 18:00), 딜리버스 1551-3232 (상담시간: 365일 08:00 ~ 20:00). 고객의 소리는 홈페이지·APP 게시판 24시간 접수. 하단 주식회사 에스씨케이컴퍼니 TEL 1522-3232. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "franchise",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "1522-3232",
+      "note": "평일 오전 9:00~오후 18:00"
+    },
+    {
+      "label": "딜리버스",
+      "tel": "1551-3232",
+      "note": "365일 08:00~20:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

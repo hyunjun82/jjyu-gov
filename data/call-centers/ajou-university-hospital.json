@@ -1,0 +1,41 @@
+{
+  "slug": "ajou-university-hospital",
+  "name": "아주대병원",
+  "aliases": [
+    "아주대학교병원",
+    "아주대병원 대표전화",
+    "아주대병원 전화번호",
+    "아주대학교의료원",
+    "아주대병원 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.ajoumc.or.kr",
+  "sourceUrl": "https://www.ajoumc.or.kr/",
+  "sourceName": "아주대학교의료원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경기도 수원시 영통구 월드컵로 164",
+  "hqZip": "16499",
+  "main": {
+    "label": "대표전화",
+    "tel": "1688-6114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 아주대학교의료원(ajoumc.or.kr) 하단: 주소 16499 경기도 수원시 영통구 월드컵로 164 대표전화 1688-6114. 상담시간 표기가 없어 hours 를 비운다. 로고가 흰색(회색 헤더 위 흰 로고)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1688-6114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

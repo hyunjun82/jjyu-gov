@@ -1,0 +1,40 @@
+{
+  "slug": "korea-gas-corporation",
+  "name": "한국가스공사",
+  "aliases": [
+    "한국가스공사 고객센터",
+    "KOGAS",
+    "가스공사",
+    "한국가스공사 전화번호",
+    "한국가스공사 대표전화"
+  ],
+  "industry": "public",
+  "brandColor": "#01419A",
+  "official": "https://www.kogas.or.kr",
+  "sourceUrl": "https://www.kogas.or.kr/",
+  "sourceName": "한국가스공사 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "053-670-0114"
+  },
+  "hours": {
+    "weekday": "평일 09시 ~ 18시"
+  },
+  "hoursNote": "[2026-10-27] 한국가스공사(kogas.or.kr) 하단: 대표전화 053-670-0114 (유료, 평일 09시~18시). 로고색은 hd_logo.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "053-670-0114",
+      "note": "유료, 평일 09시~18시"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

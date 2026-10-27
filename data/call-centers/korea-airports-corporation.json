@@ -1,0 +1,41 @@
+{
+  "slug": "korea-airports-corporation",
+  "name": "한국공항공사",
+  "aliases": [
+    "한국공항공사 고객센터",
+    "KAC",
+    "KAC 고객만족센터",
+    "한국공항공사 전화번호",
+    "공항공사 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.airport.co.kr",
+  "sourceUrl": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=1170",
+  "sourceName": "한국공항공사 고객만족센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1661-2626"
+  },
+  "hours": {
+    "weekday": "06:00 ~ 23:00",
+    "holiday": "연중무휴"
+  },
+  "hoursNote": "[2026-10-27] 한국공항공사(airport.co.kr) 고객만족센터 안내: 한국공항공사 고객센터 1661-2626 (06:00 ~ 23:00, 연중무휴), 전국공항(인천국제공항 제외) 이용에 대한 전화상담 가능. 인천국제공항·세관·법무부·항공사 관련은 해당 기관 문의. 로고가 흰색(어두운 헤더 위 흰 로고)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "전국 공항(인천국제공항 제외) 이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1661-2626",
+      "note": "06:00~23:00, 연중무휴"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

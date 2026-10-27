@@ -1,0 +1,452 @@
+SLUG: melon-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/melon-call-center-*.png)
+
+===== [1] https://www.melon.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/melon-call-center-1.png
+CHARS: 1755
+
+skip navigation
+메뉴
+본문
+하단 정보
+
+상단 빠른 메뉴
+
+멜론티켓
+이용권구매
+멜론혜택
+이벤트
+공지사항
+Melon
+통합검색영역
+검색
+인기 검색어
+2
+위
+사랑은
+순위 동일
+현재 선택된 메뉴-
+멜론차트
+현재 선택된 메뉴-
+최신음악
+현재 선택된 메뉴-
+장르음악
+현재 선택된 메뉴-
+멜론DJ
+현재 선택된 메뉴-
+멜론TV
+현재 선택된 메뉴-
+스타포스트
+현재 선택된 메뉴-
+매거진
+현재 선택된 메뉴-
+뮤직어워드
+현재 선택된 메뉴-
+뮤직웨이브
+현재 선택된 메뉴-
+마이뮤직
+최신 앨범
+전체
+국내
+해외
+Looks Can Kill
+앨범이미지:
+가수명:
+IVE (아이브)
+BREAK EVEN
+앨범이미지:
+가수명:
+아일릿(ILLIT)
+천번을 더
+앨범이미지:
+가수명:
+전건호
+Home
+앨범이미지:
+가수명:
+유채훈
+Blue Sky
+앨범이미지:
+가수명:
+은혁 (EUNHYUK)
+단 하루라도
+앨범이미지:
+가수명:
+로키드 (Lokid)
+9
+1/
+9
+9 
+이전
+다음
+일시정지
+1번째 이벤트2번째 이벤트3번째 이벤트4번째 이벤트
+
+멜론을 더 안전하게 이용하세요.
+
+회원가입
+로그인
+인기 있어요
+지금 이슈가 되는 아티스트의 인기 컨텐츠입니다.
+잠 못 드는 밤, RIIZE 'Insomnia'와 함께
+매거진 이벤트
+멜론매거진
+훌쩍 변해버린 계절 따라 바뀐 차트 현황🍂📊
+Melon Data Lab
+멜론매거진
+BABYMONSTER Digital Single 'DESERVE' MV 촬영 현장
+매거진 이벤트
+멜론매거진
+아일릿(ILLIT) 미니 5집 [BREAK EVEN]…관계의 손익분기점에서 건넨 당찬 경고
+아티스트는 뭘 듣니
+멜론매거진
+Before, Be, Begin, YUHZ (유어즈) 1st EP [B]
+매거진 이벤트
+멜론매거진
+Zimmer90 EP [Endless Summer] MV 촬영 비하인드
+매거진 이벤트
+멜론매거진
+2
+2/
+2
+2 
+이전
+다음
+멜론차트
+TOP100
+2026.10.27 10:00 기준
+1
+위
+0
+순위 동일
+
+NEON
+
+A2O, A2O LITE
+2
+위
+0
+순위 동일
+
+꿈꾸던 어른이 되었나요?
+
+머무르
+3
+위
+0
+순위 동일
+
+퇴사할게여 (Narr. 기안84)
+
+소연 (SOYEON)
+4
+위
+0
+순위 동일
+
+LOVE ATTACK
+
+RESCENE (리센느)
+5
+위
+0
+순위 동일
+
+Looks Can Kill
+
+IVE (아이브)
+6
+위
+0
+순위 동일
+
+Deja Vu
+
+RESCENE (리센느)
+7
+위
+0
+순위 동일
+
+갑자기
+
+아이오아이 (I.O.I)
+8
+위
+0
+순위 동일
+
+Pretty Girl
+
+RESCENE (리센느)
+9
+위
+0
+순위 동일
+
+생각을 멈추다 보면
+
+최유리
+10
+위
+0
+순위 동일
+
+BAD
+
+ATEEZ(에이티즈)
+셔플듣기
+더보기
+POP
+아티스트
+공지사항
+현대차증권, 다올투자증권 전산 작업에 따른 결제 불가
+2026.10.23
+멜론 스튜디오
+Windows 플레이어
+Mac 플레이어
+iPad
+고객센터
+이용약관
+위치기반서비스 이용약관
+개인정보처리방침
+청소년보호정책
+제휴/프로모션문의
+이메일주소무단수집거부
+파트너센터
+
+(주)카카오엔터테인먼트  경기도 성남시 분당구 판교역로 235, 에이치스퀘어 N동 8, 9, 10층 공동대표이사 : 고정희, 장윤중 사업자등록번호 : 220-88-02594 통신판매업신고번호 : 2018-성남분당B-0004 사업자정보확인
+문의전화 : 1566-7727 (평일 09:00-18:00, 유료) 이메일 : melon_info@kakaoent.com 호스팅서비스사업자 : (주)카카오엔터테인먼트 © Kakao Entertainment Corp.
+
+이벤트 배너
+ 오늘 하루 이 창을 열지 않음
+닫기
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+앨범전체듣기
+ Looks Can Kill
+ 가수명:
+ IVE (아이브)
+
+앨범전체듣기
+ BREAK EVEN
+ 가수명:
+ 아일릿(ILLIT)
+
+앨범전체듣기
+ 천번을 더
+ 가수명:
+ 전건호
+
+앨범전체듣기
+ Home
+ 가수명:
+ 유채훈
+
+앨범전체듣기
+ Blue Sky
+ 가수명:
+ 은혁 (EUNHYUK)
+
+앨범전체듣기
+ 단 하루라도
+ 가수명:
+ 로키드 (Lokid)
+
+희망
+ 앨범이미지:
+ 앨범전체듣기
+ 희망
+ 가수명:
+ MILLENNIUM
+ 가수명:
+ MILLENNIUMMILLENNIUM
+ Lucky Charm
+ 앨범이미지:
+ 앨범전체듣기
+ Lucky Charm
+ 가수명:
+ WE GO-6
+ 가수명:
+ WE GO-6WE GO-6
+ 1만분의 1
+ 앨범이미지:
+ 앨범전체듣기
+ 1만분의 1
+ 가수명:
+ SLAY (슬레이)
+ 가수명:
+ SLAY (슬레이)SLAY (슬레이)
+ Insomnia
+ 앨범이미지:
+ 앨범전체듣기
+ Insomnia
+ 가수명:
+ RIIZE
+ 가수명:
+ RIIZERIIZE
+ Now I’m Never Die
+ 앨범이미지:
+ 앨범전체듣기
+ Now I’m Never Die
+ 가수명:
+ W24
+ 가수명:
+ W24W24
+ 100일의 거짓말 OST Part 2
+ 앨범이미지:
+ 앨범전체듣기
+ 100일의 거짓말 OST Part 2
+ 가수명:
+ 이소라
+ 가수명:
+ 이소라이소라
+
+Whisper Waltz
+ 앨범이미지:
+ 앨범전체듣기
+ Whisper Waltz
+ 가수명:
+ 장수빈
+ 가수명:
+ 장수빈장수빈
+ 705
+ 앨범이미지:
+ 앨범전체듣기
+ 705
+ 가수명:
+ 최기덕 (9duck)
+ 가수명:
+ 최기덕 (9duck)최기덕 (9duck)
+ Beat Shower Vol.7
+ 앨범이미지:
+ 앨범전체듣기
+ Beat Shower Vol.7
+ 가수명:
+ 2soo
+ 가수명:
+ 2soo2soo
+ In My Feelings
+ 앨범이미지:
+ 앨범전체듣기
+ In My Feelings
+ 가수명:
+ Mabinc
+ 가수명:
+ MabincMabinc
+ 신인감독 김연경 2 OST
+ 앨범이미지:
+ 앨범전체듣기
+ 신인감독 김연경 2 OST
+ 가수명:
+ 오마이걸 (OH MY GIRL)
+ 가수명:
+ 오마이걸 (OH MY GIRL)오마이걸 (OH MY GIRL)
+ Talking Book 2 [Deluxe Edition]
+ 앨범이미지:
+ 앨범전체듣기
+ Talking Book 2 [Deluxe Edition]
+ 가수명:
+ jeebanoff
+ 가수명:
+ jeebanoffjeebanoff
+
+Come into my world!
+ WOODZ
+ 멜론TV
+ Insomnia
+ RIIZE
+ 멜론TV
+ All Of My Life
+ 최강창민 (MAX CHANGMIN)
+ 멜론TV
+ 황금기
+ 볼빨간사춘기
+ 멜론TV
+ Only You (Visualizer)
+ Zimmer90
+ 멜론TV
+ Masterpiece
+ LNGSHOT
+ 멜론TV
+
+아티스트명 더보기
+ A2O
+ A2O LITE
+ 닫기
+
+아티스트명 더보기
+ HUNTR/X
+ EJAE
+ AUDREY NUNA
+ REI AMI
+ KPop Demon Hunters Cast
+ 닫기
+
+아티스트명 더보기
+ Lady Gaga
+ Bruno Mars
+ 닫기
+
+아티스트명 더보기
+ The Kid LAROI
+ Justin Bieber
+ 닫기
+
+아티스트명 더보기
+ KPop Demon Hunters Cast
+ Danny Chung
+ Saja Boys
+ Andrew Choi
+ Neckwav
+ Kevin Woo
+ samUIL Lee
+ 닫기
+
+2026.10.25 기준
+ 1위
+ 0순위 동일
+ RESCENE (리센느)
+ 2위
+ 1단계 상승
+ A2O LITE
+ 3위
+ 1단계 상승
+ IVE (아이브)
+ 4위
+ 2단계 하락
+ ATEEZ(에이티즈)
+ 5위
+ 0순위 동일
+ NCT WISH
+ 6위
+ 0순위 동일
+ 임영웅
+ 7위
+ 0순위 동일
+ A2O
+ 8위
+ 2단계 상승
+ 아이유
+ 9위
+ 41단계 상승
+ RIIZE
+ 10위
+ 2단계 상승
+ PLAVE
+ 더보기
+
+접속하신 단말/브라우저에서는 멜론 서비스의 사용이 일부 제한될 수 있습니다. 양해부탁드립니다.
+ 모바일 웹 버전
+
+정보보호 및 개인정보보호 관리체계 인증
+ 정보보호 및 개인정보보호를 위한 일련의 조치와 활동이인증기준에 적합함을 인터넷진흥원 또는 인증기간이 증명하는 제도
+ [인증범위] 인터넷 서비스 운영 (카카오, 다음, 멜론)
+ [유효기간] 2019.12.26 ~ 2022.12.25
+ 닫기
+
+----- 이미지 대체텍스트 (img alt) -----
+2026 aespa FAN MEETING “MY 보고싶다 ae가”

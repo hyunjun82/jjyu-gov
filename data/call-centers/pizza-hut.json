@@ -1,0 +1,40 @@
+{
+  "slug": "pizza-hut",
+  "name": "피자헛",
+  "aliases": [
+    "피자헛 고객센터",
+    "한국피자헛",
+    "피자헛 전화번호",
+    "Pizza Hut Korea"
+  ],
+  "industry": "online",
+  "brandColor": "#FF0000",
+  "official": "https://www.pizzahut.co.kr",
+  "sourceUrl": "https://www.pizzahut.co.kr/",
+  "sourceName": "피자헛 공식 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울시 영등포구 국회대로 74길 4",
+  "main": {
+    "label": "대표번호",
+    "tel": "1588-5588"
+  },
+  "hours": {
+    "weekday": "10:30 ~ 22:00"
+  },
+  "hoursNote": "[2026-10-27] 피자헛(pizzahut.co.kr) 하단: 대표번호 1588-5588(운영시간 10:30 ~ 22:00), 서울시 영등포구 국회대로 74길 4, 9~11층. '평일' 표기가 없어 weekday 에 평일을 붙이지 않는다. 로고색은 헤더 로고(오버레이 제거 후) 최빈 유채색.",
+  "variant": "franchise",
+  "jobs": "문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "1588-5588",
+      "note": "운영시간 10:30~22:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

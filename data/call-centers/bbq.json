@@ -1,0 +1,40 @@
+{
+  "slug": "bbq",
+  "name": "BBQ",
+  "aliases": [
+    "비비큐",
+    "BBQ 고객센터",
+    "BBQ치킨",
+    "제너시스비비큐",
+    "BBQ 전화번호"
+  ],
+  "industry": "online",
+  "brandColor": "#B92C35",
+  "official": "https://bbq.co.kr",
+  "sourceUrl": "https://bbq.co.kr/",
+  "sourceName": "BBQ 공식 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "corp": "주식회사 제너시스비비큐",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-9282"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] BBQ(bbq.co.kr) 하단: 주식회사 제너시스비비큐 주문번호 1588-9282 고객센터 1588-9282 (창업문의 080-383-9000 은 가맹 상담이라 쓰지 않음). 상담시간 표기가 없어 hours 를 비운다. 로고색은 헤더 bb·q 로고 영역 최빈 유채색.",
+  "variant": "franchise",
+  "jobs": "문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-9282"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

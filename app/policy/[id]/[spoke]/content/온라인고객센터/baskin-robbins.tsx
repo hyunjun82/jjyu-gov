@@ -1,0 +1,169 @@
+import type { SpokeData } from '../../SpokeClient';
+
+/* 추출본: scripts/output/source-baskin-robbins-call-center.txt
+ * 1차 출처: 배스킨라빈스 고객센터 (https://www.baskinrobbins.co.kr/information-center/customer/list.php)
+ * 확인일: 2026-10-27
+ *
+ * 이 파일은 scripts/new-call-center.ts 가 baskin-robbins.json 로 찍어낸다.
+ * 손으로 고치지 말고 JSON 을 고친 뒤 다시 돌린다 — 손으로 쓰면 ARS 번호가 틀린다.
+ *
+ * 쓰지 않는 것: 공식 페이지에 없는 번호·시간. 생성기가 추출본과 대조해 막는다.
+ */
+
+const TEL = 'tel:0805553131';
+const OFFICIAL = 'https://www.baskinrobbins.co.kr';
+const MAP = 'https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%9C%EC%B4%88%EA%B5%AC%20%EB%82%A8%EB%B6%80%EC%88%9C%ED%99%98%EB%A1%9C%202620';
+const HUB = '/policy/online-call-center';
+
+export const baskinRobbinsCallCenterSpokeContent: SpokeData = {
+  h1: '배스킨라빈스 고객센터 전화번호 및 상담원 연결·문의 안내',
+  /* 업종어를 넣는다 — 대출 글인데 "웰컴저축은행 고객센터" 로 나가면
+     회사 고객센터 글과 구분이 안 된다 (2026-08-27 사장님 확인). */
+  breadcrumb: '배스킨라빈스 고객센터',
+  description:
+    '배스킨라빈스 고객센터 대표번호는 080-555-3131입니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담원 연결 순서·문의 방법·업무별 번호도 함께 확인할 수 있습니다.',
+  datePublished: '2026-10-27T09:00:00+09:00',
+  /* 검색결과에 뜰 문장 — 앞 150자 안에 사실을 몰아넣는다.
+     서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
+     검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
+  metaDescription:
+    '배스킨라빈스 고객센터 전화번호 080-555-3131. 문의 유형별 번호 1개와 상담원 연결 방법까지 2026-10-27 공식 안내 기준.',
+  dateModified: '2026-10-27T09:00:00+09:00',
+
+  heroHook:
+    '배스킨라빈스 고객센터 대표번호는 080-555-3131입니다. 아래 대표번호 버튼을 누르면 바로 전화가 연결되고, 상담원 연결 순서·문의 방법·업무별 번호도 함께 확인할 수 있습니다.',
+  heroAct: { label: '080-555-3131 지금 문의', href: TEL },
+
+  keyFacts: {
+    '대표번호': '080-555-3131 (고객 문의 접수 전화)',
+    '공휴일': '주말 · 공휴일 휴무',
+    '본사': '서울특별시 서초구 남부순환로 2620',
+  },
+  /* '상담원 연결' 줄은 원문 ARS 에 그 번호가 있을 때만 (2026-09-15 조은저축은행).
+     ARS 표만 있고 상담원 항목이 없는데 "ARS 안내에서 상담원 연결 선택" 이라 적었다 — 원문에 없는 메뉴다. */
+  keyFactsHighlights: {
+    '대표번호': ['080-555-3131'],
+  },
+
+  qa: [
+    {
+      q: '배스킨라빈스 고객센터 전화번호 몇 번인가요?', anchor: 'q1',
+      intro:
+        '대표번호는 080-555-3131입니다. 공식 안내에 \'고객 문의 접수 전화\'로 적힌 번호입니다. 2026-10-27 기준 공식 안내에 올라와 있는 번호는 이 번호 하나입니다.',
+      highlights: ['080-555-3131', '대표번호'],
+      table: {
+        headers: ['구분', '번호', '비고'],
+        rows: [['고객 문의 접수 전화', '080-555-3131', '주말·공휴일 휴무, 수신자 부담']],
+      },
+      sourceNote: '* 출처: 배스킨라빈스 고객센터 (2026-10-27 확인)',
+    },
+    {
+      q: '상담원과 바로 연결하려면 몇 번 누르나요?', anchor: 'q2',
+      intro:
+        '배스킨라빈스 공식 안내에는 상담원에게 바로 넘어가는 단축번호가 공개돼 있지 않습니다.',
+      highlights: ['상담원 연결'],
+      table: {
+        headers: ['번호', '평일 주간'],
+        rows: [],
+      },
+      box: {
+        label: '대기를 줄이는 법',
+        content: '문의를 한 문장으로 정리해 두면 연결 후 설명이 짧아집니다. 이용 매장명과 이용 일시를 미리 꺼내 두면 확인이 빨라집니다.',
+      },
+      sourceNote: '* 출처: 배스킨라빈스 고객센터 (2026-10-27 확인)',
+    },
+    {
+      q: '고객센터 영업시간·운영시간은 어떻게 되나요?', anchor: 'q3',
+      intro:
+        '배스킨라빈스 공식 고객센터 안내에는 상담시간이 따로 적혀 있지 않아, 이 글에도 시간을 적지 않았습니다.',
+      highlights: ['주말 · 공휴일 휴무'],
+      table: {
+        headers: ['번호', '야간·휴일 (주말 · 공휴일 휴무)'],
+        rows: [],
+      },
+      sourceNote: '* 출처: 배스킨라빈스 고객센터 (2026-10-27 확인)',
+    },
+    {
+      q: '배스킨라빈스 고객센터 위치는 어디인가요?', anchor: 'q4',
+      intro:
+        '본사는 서울특별시 서초구 남부순환로 2620에 있습니다. 다만 문의나 불만 접수는 매장을 찾아가기보다 전화로 먼저 하시는 편이 빠릅니다. 이용하신 매장은 지도에서 브랜드 이름으로 검색하면 가까운 순으로 나옵니다.',
+      highlights: ['서울특별시 서초구 남부순환로 2620'],
+      act: {
+        cue: '배스킨라빈스 본사는 서울특별시 서초구 남부순환로 쪽입니다. 헛걸음하지 않게 위치부터 짚고 나서시죠.',
+        label: '지도에서 위치 보기',
+        url: MAP,
+      },
+      sourceNote: '* 출처: 비알코리아(주) 사업자 정보 (2026-10-27 확인)',
+    },
+    {
+      q: '다른 외식 브랜드 고객센터 번호도 필요한데요', anchor: 'q5',
+      intro:
+        '카페와 패스트푸드를 한 곳만 이용하지 않습니다. 이용한 매장의 브랜드가 여러 곳이면 어느 번호에 걸어야 할지부터 헷갈립니다. 브랜드마다 대표번호도 다르고 상담원 연결 번호도 다릅니다. 외식 브랜드별 고객센터 번호를 한자리에 모아 뒀으니 필요한 곳을 바로 찾으시면 됩니다.',
+      highlights: ['외식 브랜드별', '대표번호'],
+      act: {
+        cue: '배스킨라빈스 대표번호는 080-555-3131 하나입니다. 급할 때 다시 찾지 않게 목록을 열어 두시죠.',
+        label: '서비스별 번호 모아보기',
+        url: HUB,
+      },
+      sourceNote: '* 출처: 각 외식 브랜드 공식 고객센터 안내',
+    },
+  ],
+
+  faqData: [
+    {
+      q: '배스킨라빈스 고객센터 전화번호는 몇 번인가요?',
+      a: '대표번호는 080-555-3131입니다. (2026-10-27 확인 기준)',
+      source: '배스킨라빈스 고객센터',
+      sourceUrl: 'https://www.baskinrobbins.co.kr/information-center/customer/list.php',
+    },
+    {
+      q: '본사 주소는 어디인가요?',
+      a: '서울특별시 서초구 남부순환로 2620입니다. 매장을 찾아가시기 전에 전화로 먼저 문의하시는 편이 빠릅니다.',
+      source: '비알코리아(주) 사업자 정보',
+      sourceUrl: 'https://www.baskinrobbins.co.kr',
+    },
+  ],
+
+  sources: [
+    { name: '배스킨라빈스 고객센터', url: 'https://www.baskinrobbins.co.kr/information-center/customer/list.php' },
+    { name: '배스킨라빈스 공식 홈페이지', url: OFFICIAL },
+  ],
+
+  /* 화면(components/CallCenterPage.tsx)이 읽는 회사 데이터.
+     Downloads/db-customer-center.html 원본의 {{ }} 자리표시자에 그대로 꽂힌다.
+     글은 위 qa/faqData 가 그대로 쓰고, 이건 화면 전용이다. */
+  callCenter: {
+    "slug": "baskin-robbins",
+    "name": "배스킨라빈스",
+    "brandColor": "#E21683",
+    "official": "https://www.baskinrobbins.co.kr",
+    "sourceUrl": "https://www.baskinrobbins.co.kr/information-center/customer/list.php",
+    "sourceName": "배스킨라빈스 고객센터",
+    "verifiedAt": "2026-10-27",
+    "main": {
+      "label": "고객 문의 접수 전화",
+      "tel": "080-555-3131"
+    },
+    "hours": {
+      "weekday": "",
+      "holiday": "주말 · 공휴일 휴무"
+    },
+    "word": "외식 브랜드",
+    "hubWord": "온라인 고객센터",
+    "agentWord": "상담원",
+    "offhourWord": "접수·문의",
+    "idStep": "이용 매장명과 이용 일시",
+    "ars": {
+      "day": [],
+      "night": []
+    },
+    "numbers": [
+      {
+        "label": "고객 문의 접수 전화",
+        "tel": "080-555-3131",
+        "note": "주말·공휴일 휴무, 수신자 부담"
+      }
+    ],
+    "hq": "서울특별시 서초구 남부순환로 2620"
+  },
+};

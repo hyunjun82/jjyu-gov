@@ -1,0 +1,44 @@
+{
+  "slug": "shilla-duty-free",
+  "name": "신라면세점",
+  "aliases": [
+    "신라면세점 고객센터",
+    "신라인터넷면세점",
+    "신라면세점 전화번호",
+    "THE SHILLA duty free",
+    "호텔신라 면세점 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#DE3831",
+  "official": "https://www.shilladfs.com",
+  "sourceUrl": "https://www.shilladfs.com/estore/kr/ko/shilladfscustomercenter/main",
+  "sourceName": "신라면세점 고객센터",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 중구 동호로 249",
+  "hqZip": "04605",
+  "main": {
+    "label": "전화상담",
+    "tel": "1688-1110"
+  },
+  "hours": {
+    "weekday": "09:00 ~ 18:00",
+    "holiday": "연중무휴"
+  },
+  "hoursNote": "[2026-10-27] 신라면세점 고객센터(shilladfs.com/estore/kr/ko/shilladfscustomercenter/main): 전화상담 1688-1110, 09:00 ~ 18:00 연중무휴, 1:1 문의. 하단 (04605) 서울특별시 중구 동호로 249. 로고색은 img-logo.svg 최빈 유채색(붉은 duty free 박스).",
+  "variant": "shop",
+  "idStep": "주문번호와 가입 아이디",
+  "jobs": "인터넷 면세점 이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화상담",
+      "tel": "1688-1110",
+      "note": "09:00~18:00, 연중무휴"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화상담'으로 적힌 번호입니다."
+}

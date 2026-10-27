@@ -1,0 +1,41 @@
+{
+  "slug": "seoul-national-university-hospital",
+  "name": "서울대병원",
+  "aliases": [
+    "서울대학교병원",
+    "서울대병원 대표전화",
+    "서울대병원 전화번호",
+    "서울대병원 고객센터",
+    "SNUH"
+  ],
+  "industry": "public",
+  "brandColor": "#3779B3",
+  "official": "https://www.snuh.org",
+  "sourceUrl": "https://www.snuh.org/",
+  "sourceName": "서울대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 종로구 대학로 101",
+  "hqZip": "03080",
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-5700"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 서울대학교병원(snuh.org) 하단: 주소 03080 서울특별시 종로구 대학로 101(연건동 28) 대표전화 1588-5700. 상담시간 표기가 없어 hours 를 비운다. 로고색은 intro 로고 이미지 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1588-5700"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

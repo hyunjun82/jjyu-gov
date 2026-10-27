@@ -1,0 +1,41 @@
+{
+  "slug": "woongjin-thinkbig",
+  "name": "웅진씽크빅",
+  "aliases": [
+    "웅진씽크빅 고객센터",
+    "웅진씽크빅 고객만족센터",
+    "웅진 고객센터",
+    "웅진씽크빅 전화번호",
+    "웅진북클럽 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.wjthinkbig.com",
+  "sourceUrl": "https://www.wjthinkbig.com/customer/counsel.do",
+  "sourceName": "웅진씽크빅 고객상담",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객만족센터",
+    "tel": "1577-1500"
+  },
+  "hours": {
+    "weekday": "월~금(공휴일 제외) 09:00 ~ 18:00"
+  },
+  "hoursNote": "[2026-10-27] 웅진씽크빅(wjthinkbig.com) 고객상담: 고객만족센터 1577-1500, 월~금(공휴일 제외) 09:00 ~ 18:00. 로고가 흰색(logo_wh.svg)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "가입 아이디와 학습 중인 상품명",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객만족센터",
+      "tel": "1577-1500",
+      "note": "월~금(공휴일 제외) 09:00~18:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객만족센터'로 적힌 번호입니다."
+}

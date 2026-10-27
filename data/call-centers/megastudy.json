@@ -1,0 +1,43 @@
+{
+  "slug": "megastudy",
+  "name": "메가스터디",
+  "aliases": [
+    "메가스터디 고객센터",
+    "메가스터디 학습지원센터",
+    "메가스터디 전화번호",
+    "메가스터디 고객센터 전화번호",
+    "megastudy"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.megastudy.net",
+  "sourceUrl": "https://www.megastudy.net/",
+  "sourceName": "메가스터디 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "학습지원센터",
+    "tel": "1599-1010"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 22:00",
+    "saturday": "주말 09:00 ~ 18:00",
+    "lunch": "13:00 ~ 14:00"
+  },
+  "hoursNote": "[2026-10-27] 메가스터디(megastudy.net) 홈 하단 학습지원센터: 1599-1010, 평일 09:00 ~ 22:00, 주말 09:00 ~ 18:00, (점심시간 13:00 ~ 14:00). 로고 영역을 프로모션 배너 때문에 측정하지 못해 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "가입 아이디와 수강 중인 강좌명",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "학습지원센터",
+      "tel": "1599-1010",
+      "note": "평일 09:00~22:00, 주말 09:00~18:00, 점심시간 13:00~14:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '학습지원센터'로 적힌 번호입니다."
+}

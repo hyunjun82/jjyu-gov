@@ -1,0 +1,42 @@
+{
+  "slug": "melon",
+  "name": "멜론",
+  "aliases": [
+    "멜론 고객센터",
+    "Melon",
+    "멜론 전화번호",
+    "멜론 고객센터 전화번호",
+    "멜론 문의전화"
+  ],
+  "industry": "online",
+  "brandColor": "#00CD3C",
+  "official": "https://www.melon.com",
+  "sourceUrl": "https://www.melon.com/",
+  "sourceName": "멜론 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "corp": "(주)카카오엔터테인먼트",
+  "main": {
+    "label": "문의전화",
+    "tel": "1566-7727"
+  },
+  "hours": {
+    "weekday": "평일 09:00-18:00"
+  },
+  "hoursNote": "[2026-10-27] 멜론(melon.com) 하단: 문의전화 1566-7727 (평일 09:00-18:00, 유료), 이메일 melon_info@kakaoent.com, 호스팅서비스사업자 (주)카카오엔터테인먼트. 로고색은 홈 Melon 로고 영역 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "가입 아이디와 결제수단",
+  "jobs": "서비스 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "문의전화",
+      "tel": "1566-7727",
+      "note": "평일 09:00-18:00, 유료"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '문의전화'로 적힌 번호입니다."
+}

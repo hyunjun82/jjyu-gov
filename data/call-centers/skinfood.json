@@ -1,0 +1,43 @@
+{
+  "slug": "skinfood",
+  "name": "스킨푸드",
+  "aliases": [
+    "스킨푸드 고객센터",
+    "SKINFOOD",
+    "스킨푸드 전화번호",
+    "스킨푸드 고객센터 전화번호",
+    "스킨푸드 환불 교환"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.theskinfood.com",
+  "sourceUrl": "https://www.theskinfood.com/",
+  "sourceName": "스킨푸드 공식몰",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "080-012-7878"
+  },
+  "hours": {
+    "weekday": "평일(월~금) 10:00~17:00",
+    "lunch": "11:20~12:20",
+    "holiday": "주말, 공휴일,본사휴무일 제외"
+  },
+  "hoursNote": "[2026-10-27] 스킨푸드(theskinfood.com) 하단 고객센터: 080-012-7878, 평일(월~금) 10:00~17:00 (점심시간 11:20~12:20/ 주말, 공휴일,본사휴무일 제외). 로고가 검정 워드마크라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "주문번호와 가입 이메일",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "080-012-7878",
+      "note": "평일(월~금) 10:00~17:00, 점심시간 11:20~12:20"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

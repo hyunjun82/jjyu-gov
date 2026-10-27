@@ -1,0 +1,39 @@
+{
+  "slug": "seoul-national-university-bundang-hospital",
+  "name": "분당서울대병원",
+  "aliases": [
+    "분당서울대학교병원",
+    "분당서울대병원 대표전화",
+    "분당서울대병원 전화번호",
+    "분당서울대병원 고객센터",
+    "SNUBH"
+  ],
+  "industry": "public",
+  "brandColor": "#01348B",
+  "official": "https://www.snubh.org",
+  "sourceUrl": "https://www.snubh.org/",
+  "sourceName": "분당서울대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-3369"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 분당서울대학교병원(snubh.org) 홈: 대표전화 1588-3369. 고객상담실 운영시간(평일 오전 9시~오후 5시, 토요일 오전 9시~12시)은 고객상담실 방문·전화 시간이라 대표전화 시간으로 쓰지 않는다. 로고색은 tit_logo.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1588-3369"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

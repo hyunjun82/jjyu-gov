@@ -1,0 +1,44 @@
+{
+  "slug": "korea-consumer-agency",
+  "name": "한국소비자원",
+  "aliases": [
+    "한국소비자원 고객센터",
+    "소비자원",
+    "한국소비자원 전화번호",
+    "한국소비자원 대표전화",
+    "KCA"
+  ],
+  "industry": "public",
+  "brandColor": "#91C3E1",
+  "official": "https://www.kca.go.kr",
+  "sourceUrl": "https://www.kca.go.kr/",
+  "sourceName": "한국소비자원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "043-880-5500"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국소비자원(kca.go.kr) 하단: 대표전화 043-880-5500 소비자상담 국번없이 1372(공정거래위원회 소비자 상담센터, 유료, 통화료는 발신자 부담). 상담시간 표기가 없어 hours 를 비운다. 로고색은 헤더 로고(하늘색·주황 심볼) 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "043-880-5500"
+    },
+    {
+      "label": "소비자상담",
+      "tel": "1372",
+      "note": "국번없이, 공정거래위원회 소비자 상담센터, 유료"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

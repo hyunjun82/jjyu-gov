@@ -1,0 +1,630 @@
+SLUG: korea-consumer-agency-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/korea-consumer-agency-call-center-*.png)
+
+===== [1] https://www.kca.go.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/korea-consumer-agency-call-center-1.png
+CHARS: 4968
+
+본문 바로가기
+이 누리집은 대한민국 공식 전자정부 누리집입니다.
+정보공개
+사전정보
+고객참여
+스마트컨슈머
+소비자중심경영
+로그인
+사이트맵
+인기검색어 
+5공기청정기
+6분쟁조정
+7사기의심
+8채용
+9새싹보리
+10마스크
+1환불규정
+2피해구제
+3환불
+4소비자분쟁해결기준
+통합검색 ENG
+클릭
+KCA소개
+서비스 한눈에 보기
+소비자안전
+피해구제 ·
+분쟁조정
+스마트컨슈머
+(교육·정보) ·
+소비자 정책연구
+국제거래(해외직구)
+· 소비자빅데이터
+SNS
+서비스전체보기
+국민참여혁신제안
+바로가기
+소비생활에 가치와 신뢰를 더하여
+국민의 삶의 질 향상에 기여합니다.
+공지사항
+[공모전] 제10회 소비자지향성 개선과제 공모전 개최 안내
+[등재지] 「소비자문제연구」 제57권 제1호 원고모집 공고
+이전
+정지
+다음
+더보기
+보도자료
+[매운맛 냉동 야식 품질비교 결과] 제품별 매운맛 차이 크고 콜레스테롤·나트륨 과다섭취 주의해야
+[피해예방주의보] 학원형 연예기획사 피해 절반이 '아동·청소년' 오디션 합격 상술 주의
+[거래 실태조사 결과] 항공사 여행운송약관, 소비자에게 불리한 조항 개선 필요
+[편의점 김밥 품질비교 결과] 편의점 김밥 영양성분 고려해 우유·달걀 함께 섭취하면 좋아
+이전
+정지
+다음
+더보기
+소비자 안전
+소비자위해
+감시시스템
+(CISS)
+위해정보
+신고
+어린이
+안전넷
+피해 구제
+소비자상담절차안내
+소비자상담 신청
+피해구제 절차안내
+피해구제사례
+분쟁 조정
+분쟁조정안내
+집단분쟁조정신청
+분쟁조정결정사례
+소비자분쟁해결기준
+ 스마트컨슈머(교육 · 정보)
+교육자료
+일반교육신청
+웹진 소비자시대
+소비자24
+KCA보고서
+소비자중심경영(CCM)
+소비자정책연구
+정책연구보고서
+소비자정책동향
+소비자정책지표
+소비자문제연구
+국제거래(해외직구)
+상담사례
+사기의심사이트
+피해예방정보
+소비자 빅데이터
+공공데이터 목록
+공공데이터 국민 제안
+빅데이터 분석
+시스템
+빅데이터 시각화
+알림창
+이전 정지 다음
+카드뉴스
+피해예방주의보
+[2026-08-05]
+휴가철 렌터카 예약 시 환불 약관 꼼꼼히 따져야
+[2026-08-05]
+청소·하수도위생 서비스, 현장 추가 비용 요구 주의해야
+[2026-08-05]
+20·30대, 금전적 보상 있는 ‘리워드형’ 인터넷교육서비스 피해 많아
+[2026-06-22]
+온라인 숙박 예약 시 환불 불가 상품 신중하게 선택해야
+이전
+정지
+다음
+피해예방주의보 더보기
+안전주의보
+[2026-10-01]
+에스컬레이터·무빙워크 이용 시 신발·소지품 등 끼임 사고 주의
+[2026-07-02]
+비만 치료제·예방접종 등 주사제 투여로 인한 복통, 발열 주의
+[2026-05-11]
+삼킴 사고, 영유아는 '이물질', 어르신은 '음식물 걸림' 주의
+[2026-05-06]
+아기 자가 수유 제품, 보호자 없이 사용 시 아기 질식 유발 우려
+이전
+정지
+다음
+안전주의보 더보기
+
+소비자 안전
+
+국내·외 안전정보를 확인하고 소비자 위해정보를 신고할 수 있습니다.
+
+소비자위해감시시스템(CISS)
+소비자 위해정보를 수집하고 분석·평가하여 관련 조치를 취할 수 있도록 구축된 소비자 위해상황 상시 감시 시스템입니다.
+위해정보 처리속보
+리콜 제품에 대한 국내 유통·판매차단 등의 조치 내용을 확인할 수 있습니다.
+알기쉬운 안전이야기
+국내·외 소비자안전 정보를 알기 쉽게 정리하여 제공합니다.
+안전조사보고서
+한국소비자원에서 수행한 안전실태조사 및 위해정보 심층분석 등 보고서를 확인할 수 있습니다.
+위해정보신고
+
+사업자가 제공하는 제품, 시설물, 서비스를
+이용하는 과정에서 소비자안전과 관련된
+사례를 제보 · 신고할 수 있습니다.
+
+위해정보신고 더보기
+어린이안전넷
+
+안전한 환경 속에서 대한민국 어린이 모두가
+마음껏 뛰놀 수 있도록 안전정보와 학습자료를
+제공하는 어린이안전 종합 정보망입니다.
+
+어린이안전넷 더보기
+피해구제
+
+피해구제 사례와 절차 안내를 확인하고 상담 및 구제 신청할 수 있습니다.
+
+피해구제 사례
+품목별 소비자의 피해구제사례를 확인할 수 있습니다.
+피해구제 절차안내
+피해구제 세부 처리과정을 확인할 수 있습니다.
+피해상담 신청
+소비자 피해, 전문상담원에게 물어보세요.
+피해구제 신청
+소비자상담 후 피해구제 신청이 가능합니다.
+분쟁조정
+
+분쟁조정 절차 및 조정결정사례를 확인하고, 집단분쟁조정
+신청 방법을 확인할 수 있습니다.
+
+분쟁조정 결정 사례
+소비자 분쟁사건에 대한 조정결정 사례를 품목별로 확인할 수 있습니다.
+분쟁조정안내
+분쟁조정 절차를 확인할 수 있습니다.
+집단분쟁조정신청
+집단분쟁조정 신청 요건과 방법을확인할 수 있습니다.
+ 스마트컨슈머(교육 · 정보)
+
+한국소비자원의 소비자 교육 및 정보에 대해 확인할 수 있습니다.
+
+교육자료소비자의 합리적이고 능동적인 소비환경 대응을 위한 다양한 소비자정보 콘텐츠를 제공합니다.
+일반교육신청소비환경의 빠른 변화에 소비자들이 능동적으로 대처할 수 있는 교육서비스를 제공합니다.
+소비자 정책연구
+
+소비자정책 분야별 연구보고서 및 국내외 최신 정책동향, 지표데이터분석,
+학술논문 등에 대해 확인할 수 있습니다.
+
+정책연구보고서
+소비자 권익향상을 위한 제도와 정책, 법령의 분석 및 개선에 관한 연구보고서입니다.
+소비자정책동향
+최신 소비자 이슈에 대한 시의성 있는 검토를 통해 시사점을 제시합니다.
+소비자정책지표
+소비자정책지표(소비생활지표, 소비자시장평가지표, 소비자역량지수)의 데이터와 시각화된 통계를 제공합니다.
+소비자문제연구
+한국연구재단 등재학술지인 소비자문제연구에 게재된 논문을 다운받을 수 있으며, 논문을 투고할 수 있습니다.
+국제거래(해외직구)
+
+국제거래 피해예방 및 해결,
+국제거래 소비자포털이 함께 합니다
+
+상담사례
+주요 품목별 상담사례를 확인할 수 있습니다.
+사기의심사이트
+소비자피해 예방을 위해 해외 구매 전에 꼭 확인하세요.
+피해예방정보
+해외직구 관련 피해예방정보를 제공합니다.
+소비자 빅데이터
+
+소비자 상담과 피해구제에 관한 빅데이터를 시각화하여
+조회할 수 있습니다.
+
+소비자원 공공데이터
+한국소비자원에서 보유하고 있는 데이터를 제공합니다.
+소비자 빅데이터 분석 시스템
+소비자상담 및 피해구제 데이터를 한눈에 확인할 수 있습니다.
+빅데이터 시각화
+소비자 빅데이터 분석 결과를 시각화하여 제공합니다.
+빅데이터 이슈
+최근 소비자이슈를 확인할 수 있습니다.
+
+한국소비자원의 SNS 소식을 확인해보세요!
+
+어쩌다분쟁
+설레는 해외여행, 그 뒤에 숨은 함정? 여행·항공 분쟁 사례 TOP 3
+어쩌다분쟁 설레는 해외여행, 그 뒤에 숨은 함정? 여행·항공 분쟁 사례 TOP 3 여행을 떠날 때 여러분은 어떤 스타일인가요? 항공권부터 숙소, 동선까지 빈틈없이 짜두는 계획형도 있고, 발길 닿는 대로 떠나야 진짜 여행이라는 즉흥형 분들도 있을 텐데요. 하지만 계획형도 즉흥형도 당황하게 만드는 여행 중 돌발상황은 언제나 발생하곤 합니다. 이번 달 어쩌다분쟁에서 항공권과 국외여행을 둘러싼 실제 분쟁 사례를 살펴봅니다. 기체 결함으로 13시간 지연 [ 3컷으로 보는 그날 이야기 ] 상기 이미지는 생성형 AI를 통해 제작되었습니다. 여행을 마치고 돌아가는 길, 몸은 이미 지칠 대로 지쳤는데 비행기마저 제시간에 뜨지 않는다면 어떨까....... 
+2026-10-26
+이벤트/설문조사
+2026 한국소비자원 함께 행복한 소비생활 만족도 조사 이벤트
+고령자, 영유아, 이민자에게 크고 작은 꿀팁을 선사하는 계간 소식지 <함께 행복한 소비생활> '함께 행복한 소비생활'을 이용해주시는 독자 여러분께 진심으로 감사드립니다. 우리 원은 앞으로 더 알차고 유익한 콘텐츠를 제공하기 위해 구독 기관 관계자, 독자의 목소리를 담는 만족도 조사를 실시합니다. 본 조사는 향후 서비스 운영 방향을 결정하는 매우 중요한 기초 자료가 됩니다. 바쁘시겠지만 잠시 시간을 내어 소중한 의견을 들려주시기 바랍니다. ★★참여방법★★ ① <함께 행복한 소비생활> 소식지 둘러보기 ② 구글폼 작성하기 ❤️❤️참여기간❤️❤️ 2026.10.14.(수) ~ 10.24.(토) 당첨선물....... 
+2026-10-21
+월간덕력고사
+공간을 채우는 향! 지금은 ‘인센스’ 덕질 중
+월간덕력고사 공간을 채우는 향! 지금은 ‘인센스’ 덕질 중 익숙한 공간에 기분 좋은 향만 살짝 스며들어도 분위기가 달라지곤 하죠. 특히 요즘은 나만의 취향을 담아 향을 즐기는 방법도 참 다양해졌는데요. 그중에서 스틱에 불을 붙이고 천천히 피어오르는 향을 바라보며 마음을 다독이는 사람들도 늘고 있습니다. 이번 월간덕력고사에서 향기에 진심인 인센스 덕후들의 세계를 만나봅니다. 01 요즘은 향기로 공간을 꾸밉니다 향수부터 디퓨저, 룸 스프레이까지. 공간을 채우는 방법도 다양해졌는데요. 그중에서도 작은 스틱에 불을 붙이고, 향이 퍼져 나가는 모습을 특별히 즐기는 사람들이 있습니다. 바로 인센스 덕후들입니다. 과거에는 종....... 
+2026-10-21
+소식N이벤트
+2026 한국소비자원 웹진 소비자시대 만족도 조사 이벤트 당첨자 발표
+2026 한국소비자원 웹진 소비자시대 만족도 조사 이벤트에 참여해주신 모든 여러분께 감사드립니다. 추첨을 통해 선정된 당첨자 40인을 공개합니다. :) 당첨자는 이미지를 통해서 확인 부탁드리며 경품은 이벤트 참여 시 작성해주신 핸드폰 번호로 개별 발송될 예정입니다. - 기프티콘 발송은 1~2주일 가량 소요될 수 있습니다. - 잘못된 개인정보(이름, 연락처) 제공 시 책임은 당첨자에 있습니다. - 수집된 개인정보는 이벤트 운영, 경품 발송 시에만 활용되며 사용 후 즉시 폐기합니다. 한국소비자원 웹진 소비자시대 앞으로도 많이 많이 이용해주세요. :) ▼▼소비자시대 웹진 구경하기▼▼ 
+2026-10-20
+인스타그램
+유튜브
+배너모음
+이전 정지 다음
+						
+						
+						
+						
+개인정보처리방침
+영상정보처리기기 운영 · 관리 방침
+저작권 정책
+이용안내
+원격지원
+한국소비자원 웹사이트
+지자체 유관기관
+(27738) 충청북도 음성군 맹동면 용두로 54 한국소비자원 (원장:윤수현)
+사업자등록번호 : 229-82-01080 대표전화 : 043-880-5500 소비자상담 : 국번없이 1372(공정거래위원회 소비자 상담센터, 유료, 통화료는 발신자 부담)
+COPYRIGHT(C) 2019 KOREA CONSUMER AGENCY, ALL RIGHT RESERVED.
+Top
+
+소망챗
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+body{font-family:"Open Sans", sans-serif;background-size:cover;}
+ #waitBackground{position:absolute;background-color:rgba(0,0,0,0.4);width:100%;height:100%;}
+ @media (max-width :420px) {
+ body{
+ background-position:50%;
+ }
+ .login-containerT{width:100%!important;
+ }
+ .mobile-size {
+ width:90%!important;
+ margin: 0 auto;
+ }
+ .text-center h3 {
+ margin-top: 52px!important;
+ font-size: 20px!important;
+ }
+ .hpanel {
+ margin-top: 20px!important;
+ padding: 16px 0 16px 0!important; 
+ }
+ .sub_text {
+ font-size:0.8em!important; 
+ }
+ #loading3 {
+ width:70%!important;
+ }
+ .main_logo {
+ right:50%!important;
+ transform: translate(50%)!important; 
+ }
+ .main_logo img {
+ width: 110px!important;
+ height: auto!important;
+ }
+ }
+ .login-containerT{max-width:none;width:560px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:99;}
+ .login-containerT, .row, .col-md-12, .hpanel{margin:0;padding:0;}
+ .panel-bodyT{text-align:center;padding:0px 2it_default.jsp0px 10px!important;border-radius:0;}
+ #boxHeadLine{background:#4486d4;width:100%;height:4px;}
+ #wait_value{
+ color:#1e1e1e;
+ font-weight:bold;
+ font-size:1.2em;
+ margin: 0 0 20px 0;
+ }
+ #loading3{display:flex;width:50%;justify-content:space-between;margin:30px auto 49px;}
+ #loading3>div{width:8px;height:40px;margin-right:7px;background-color:#033074;border-radius: 3px;
+ -webkit-animation:strechdelay 1.5s ease-in-out infinite;
+ animation:strechdelay 1.5s ease-in-out infinite;
+ }
+ #loading3 .line2{
+ -webkit-animation-delay:-1.4s;
+ animation-delay:-1.4s;
+ } #loading3 .line3{
+ -webkit-animation-delay:-1.3s;
+ animation-delay:-1.3s;
+ }#loading3 .line4{
+ -webkit-animation-delay:-1.2s;
+ animation-delay:-1.2s;
+ }#loading3 .line5{
+ -webkit-animation-delay:-1.1s;
+ animation-delay:-1.1s;
+ }#loading3 .line6{
+ -webkit-animation-delay:-1.0s;
+ animation-delay:-1.0s;
+ }#loading3 .line7{
+ -webkit-animation-delay:-0.9s;
+ animation-delay:-0.9s;
+ }#loading3 .line8{
+ -webkit-animation-delay:-0.8s;
+ animation-delay:-0.8s;
+ }#loading3 .line9{
+ -webkit-animation-delay:-0.7s;
+ animation-delay:-0.7s;
+ }#loading3 .line10{
+ -webkit-animation-delay:-0.6s;
+ animation-delay:-0.6s;
+ }#loading3 .line11{
+ -webkit-animation-delay:-0.5s;
+ animation-delay:-0.5s;
+ }#loading3 .line12{
+ -webkit-animation-delay:-0.4s;
+ animation-delay:-0.4s;
+ }#loading3 .line13{
+ -webkit-animation-delay:-0.3s;
+ animation-delay:-0.3s;
+ }#loading3 .line14{
+ -webkit-animation-delay:-0.2s;
+ animation-delay:-0.2s;
+ }#loading3 .line15{
+ -webkit-animation-delay:-0.1s;
+ animation-delay:-0.1s;
+ }#loading3 .line16{
+ -webkit-animation-delay:-0.0s;
+ animation-delay:-0.0s;
+ }
+ @keyframes strechdelay{
+ 0%,50%,100%{
+ transform:scaleY(.7);
+ }
+ 20%{
+ transform:scaleY(1);
+ background-color:#2d69c2;
+ }
+ }
+ @-webkit-keyframes strechdelay{
+ 0%,50%,100%{
+ -webkit-transform:scaleY(.7);
+ }
+ 20%{
+ -webkit-transform:scaleY(1);
+ background-color:#72a5f5;
+ }
+ }
+function checkCntData() {
+ var host = this_host;
+ var ip = this_ip;
+ var loginId = this_loginId;
+ var port = this_port;
+ var pageUrl = this_pageUrl;
+ var sendThis = this_sendThis
+ callTracerApiInputData(host, ip, loginId, port, pageUrl, sendThis);
+ var waitCnt = this_waitCnt;
+ if ( waitCnt == "0" || waitCnt == "E") {
+ showRealPage();
+ callBackTracer();
+ } else {
+ var $el = $("#wait_value");
+ var waitCnt = this_waitCnt;
+ if ( $.isNumeric(waitCnt) ) {
+ $el.html("고객님의 대기열은 <span style=\"font-size:22px;color:red;font-weight:bold;\">"+comma(Math.floor(waitCnt))+"</span> 명입니다.");
+ } else {
+ // alert("AAA"+opener.this_waitCnt+"AAA");
+ }
+ }
+}
+playAlert = setInterval(function() {
+ if ( this_isWait == "T" ) {
+ checkCntData();
+ } 
+}, 1000);
+$(document).ready(function() {
+ var $el = $("#wait_value");
+ $el.html("고객님의 대기열을 확인중입니다.");
+ //checkCntData();
+});
+function createCookie() {
+ var now = new Date();
+ var time = now.getTime();
+ var expireTime = time + 1000*36000;
+ now.setTime(expireTime);
+ var tempExp = 'Wed, 31 Oct 2020 08:50:17 GMT';
+ document.cookie = 'SESSIONID=hjpark123;expires='+now.toGMTString()+';path=/';
+ //console.log(document.cookie);
+}
+/* setInterval(function() {
+ window.location.href='login.do';
+ }, 20000); */
+function comma(num){
+ var len, point, str; 
+ num = num + ""; 
+ point = num.length % 3 ;
+ len = num.length; 
+ str = num.substring(0, point); 
+ while (point < len) { 
+ if (str != "") str += ","; 
+ str += num.substring(point, point + 3); 
+ point += 3; 
+ } 
+ return str;
+}
+ 서비스 접근 대기 중입니다. 
+ 고객님의 대기열을 확인중입니다.
+ 현재 접속 사용자가 많아 대기중이며, 잠시만 기다리시면 자동 접속됩니다. 
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 차단 되었습니다. 
+ 현재 접속하신 아이피에서는 접속이 불가능합니다.
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+ 서비스 접속이 불가합니다. 
+ 접속량이 많아 접속이 불가능합니다. 잠시 후 다시 접속해주세요
+ TRACER - Copyright 2018-2020 WELLCONN Corp.
+
+인기검색어
+ 1환불규정 
+ 2피해구제 
+ 3환불 
+ 4소비자분쟁해결기준 
+ 5공기청정기 
+ 6분쟁조정 
+ 7사기의심 
+ 8채용 
+ 9새싹보리 
+ 10마스크
+
+통합검색
+ 통합검색
+ 검색어 입력
+ 검색
+ 검색닫기
+
+소비자뉴스
+ 보도자료
+ 소비자원동향
+ 공지사항
+ 카드뉴스
+ 피해예방주의보
+ 소비자안전주의보
+ 소비자안전
+ 소비자안전
+ 소비자위해감시시스템(CISS)
+ 위해정보신고
+ 어린이안전넷
+ 피해구제·분쟁조정
+ 피해구제·분쟁조정
+ 피해구제
+ 절차안내
+ 상담신청
+ 피해구제신청
+ 분쟁조정
+ 분쟁조정안내
+ 집단분쟁조정
+ 분쟁조정 결정 사례
+ 피해구제정보
+ 품목별 피해구제 사례
+ 섬유제품 심의 사례
+ 소비자분쟁해결기준
+ 내용증명 안내 및 작성
+ 소비자 피해구제 연보 및 사례집
+ 온라인협력사
+ 피해구제조회
+ 상술유형별피해구제건수
+ 청구이유별피해구제건수
+ 처리결과별피해구제건수
+ 판매유형별피해구제건수
+ 나의사건처리
+ 스마트컨슈머(교육·정보)
+ KCA보고서
+ 소비자시대
+ 소비자교육
+ 소비자24
+ 참가격
+ 소비자정책연구
+ 정책연구보고서
+ 소비자정책동향
+ 소비자정책지표
+ 지표소개
+ 통계시각화 자료
+ 데이터신청
+ 소비자문제연구
+ 논문검색
+ 논문투고안내
+ 소비자법령
+ 국제거래
+ 사기의심사이트
+ 피해예방정보
+ 상담사례
+ 해외분쟁 해결가이드
+ 사업자별 분쟁해결 절차
+ 이의제기 템플릿
+ 폴리스리포트(미국)
+ 해외소비자기관
+ 해외직구가이드
+ 해외직구 유형 및 과정
+ 해외직구 유의사항
+ 소비자빅데이터
+ 소비자원 데이터
+ 빅데이터 분석
+ 빅데이터 시각화
+ 소비자이슈 정보
+ 사이트맵
+
+모바일 통합검색
+ 검색어 입력
+ 검색하기
+ 검색닫기
+
+정보공개
+ 고객참여
+ ENG
+ 로그인
+ 주요서비스
+ KCA소개
+ 소비자뉴스
+ 보도자료
+ 소비자원동향
+ 공지사항
+ 카드뉴스
+ 피해예방주의보
+ 소비자안전주의보
+ 소비자안전
+ 소비자안전
+ 소비자위해감시시스템(CISS)
+ 위해정보신고
+ 어린이안전넷
+ 피해구제·분쟁조정
+ 피해구제·분쟁조정
+ 피해구제
+ 절차안내
+ 상담신청
+ 피해구제신청
+ 분쟁조정
+ 분쟁조정안내
+ 집단분쟁조정
+ 분쟁조정 결정 사례
+ 피해구제정보
+ 품목별 피해구제 사례
+ 섬유제품 심의 사례
+ 소비자분쟁해결기준
+ 내용증명 안내 및 작성
+ 소비자 피해구제 연보 및 사례집
+ 온라인협력사
+ 피해구제조회
+ 상술유형별피해구제건수
+ 청구이유별피해구제건수
+ 처리결과별피해구제건수
+ 판매유형별피해구제건수
+ 나의사건처리
+ 스마트컨슈머(교육·정보)
+ KCA보고서
+ 소비자시대
+ 소비자교육
+ 소비자24
+ 참가격
+ 소비자정책연구
+ 정책연구보고서
+ 소비자정책동향
+ 소비자정책지표
+ 지표소개
+ 통계시각화 자료
+ 데이터신청
+ 소비자문제연구
+ 논문검색
+ 논문투고안내
+ 소비자법령
+ 국제거래
+ 사기의심사이트
+ 피해예방정보
+ 상담사례
+ 해외분쟁 해결가이드
+ 사업자별 분쟁해결 절차
+ 이의제기 템플릿
+ 폴리스리포트(미국)
+ 해외소비자기관
+ 해외직구가이드
+ 해외직구 유형 및 과정
+ 해외직구 유의사항
+ 소비자빅데이터
+ 소비자원 데이터
+ 빅데이터 분석
+ 빅데이터 시각화
+ 소비자이슈 정보
+ 메뉴닫기
+
+이전
+ 재생
+ 정지
+ 다음
+ 카드뉴스 더보기
+
+----- 이미지 대체텍스트 (img alt) -----
+정부24 새  창  열림
+소비자24 새  창  열림

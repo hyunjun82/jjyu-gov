@@ -1,0 +1,41 @@
+{
+  "slug": "tous-les-jours",
+  "name": "뚜레쥬르",
+  "aliases": [
+    "뚜레쥬르 고객센터",
+    "CJ푸드빌",
+    "뚜레쥬르 전화번호",
+    "TOUS les JOURS"
+  ],
+  "industry": "online",
+  "brandColor": "#153A25",
+  "official": "https://www.tlj.co.kr",
+  "sourceUrl": "https://www.tlj.co.kr/center/main.asp",
+  "sourceName": "뚜레쥬르 고객상담안내",
+  "verifiedAt": "2026-10-27",
+  "corp": "CJ푸드빌㈜",
+  "main": {
+    "label": "고객센터",
+    "tel": "1577-0700"
+  },
+  "hours": {
+    "weekday": "9시 ~ 12시, 13시 ~ 18시",
+    "holiday": "주말,공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 뚜레쥬르 고객상담안내(center/main.asp): 고객센터 운영 안내 9시 ~ 12시, 13시 ~ 18시 (주말,공휴일 제외). 하단 이미지 대체텍스트: CJ푸드빌㈜ 고객센터:1577-0700. '평일' 표기가 없어 원문 그대로 적는다. 로고색은 헤더 바 최빈색(어두운 초록).",
+  "variant": "franchise",
+  "jobs": "고객 상담",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1577-0700",
+      "note": "9시~12시, 13시~18시 (주말·공휴일 제외)"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "seoul-st-marys-hospital",
+  "name": "서울성모병원",
+  "aliases": [
+    "서울성모병원 대표전화",
+    "서울성모병원 전화번호",
+    "서울성모병원 진료예약",
+    "서울성모병원 고객센터",
+    "가톨릭대학교 서울성모병원"
+  ],
+  "industry": "public",
+  "brandColor": "#00479D",
+  "official": "https://www.cmcseoul.or.kr",
+  "sourceUrl": "https://www.cmcseoul.or.kr/",
+  "sourceName": "서울성모병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-1511"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 서울성모병원(cmcseoul.or.kr) 홈: 대표전화 1588-1511 (해외 연결 시 82-2-2258-1511). 같은 칸의 '운영시간 (평일 8~16시, 토요일 8~11시)' 는 첫 방문 고객 예약상담(전문상담 간호사 회신) 창구 시간이라 대표전화 시간으로 쓰지 않는다. 로고색은 top_logo.svg 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1588-1511"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

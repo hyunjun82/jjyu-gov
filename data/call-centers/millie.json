@@ -1,0 +1,43 @@
+{
+  "slug": "millie",
+  "name": "밀리의서재",
+  "aliases": [
+    "밀리의 서재",
+    "밀리의서재 고객센터",
+    "밀리 고객센터",
+    "밀리의서재 전화번호",
+    "밀리의서재 구독 해지"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.millie.co.kr",
+  "sourceUrl": "https://www.millie.co.kr/v3/customer?nav_hidden=y",
+  "sourceName": "밀리의서재 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "070-7510-5415"
+  },
+  "hours": {
+    "weekday": "평일 10:00 ~ 18:00",
+    "lunch": "13:00 ~ 14:00",
+    "holiday": "토 / 일 / 공휴일 Day off"
+  },
+  "hoursNote": "[2026-10-27] 밀리의서재(millie.co.kr/v3/customer) 고객센터 070-7510-5415, 평일 10:00 ~ 18:00, 점심시간 13:00 ~ 14:00, 토 / 일 / 공휴일 Day off. 같은 페이지에 '※코로나19로 인해 고객센터 운영을 최소화 하고 있습니다. 통화 연결이 어려우니 1:1 문의하기를 이용해주세요.' 안내가 남아 있어 번호 note 에 '통화 연결이 어려우면 1:1 문의'만 옮긴다. 로고가 검정(흑백)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "가입 아이디와 결제수단",
+  "jobs": "서비스 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "070-7510-5415",
+      "note": "평일 10:00~18:00, 점심시간 13:00~14:00, 통화 연결이 어려우면 1:1 문의"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

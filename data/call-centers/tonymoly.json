@@ -1,0 +1,43 @@
+{
+  "slug": "tonymoly",
+  "name": "토니모리",
+  "aliases": [
+    "토니모리 고객센터",
+    "TONYMOLY",
+    "토니모리 전화번호",
+    "토니모리 고객센터 전화상담",
+    "토니모리 환불 교환"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://tonymoly.com",
+  "sourceUrl": "https://tonymoly.com/cstm/cstm_main.do",
+  "sourceName": "토니모리 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "전화상담",
+    "tel": "080-356-2222"
+  },
+  "hours": {
+    "weekday": "평일 10:00~17:00",
+    "lunch": "12:00~14:00",
+    "holiday": "주말, 공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 토니모리(tonymoly.com) 고객센터: 전화상담 080-356-2222, 평일 10:00~17:00 (주말, 공휴일 휴무), 점심 : 12:00~14:00. 로고가 검정 워드마크라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "주문번호와 가입 이메일",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화상담",
+      "tel": "080-356-2222",
+      "note": "평일 10:00~17:00, 점심 12:00~14:00, 주말·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화상담'으로 적힌 번호입니다."
+}

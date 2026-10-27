@@ -1,0 +1,44 @@
+{
+  "slug": "ediya-coffee",
+  "name": "이디야커피",
+  "aliases": [
+    "이디야커피 고객센터",
+    "이디야",
+    "이디야 고객의 소리",
+    "이디야커피 전화번호",
+    "EDIYA COFFEE"
+  ],
+  "industry": "online",
+  "brandColor": "#233D85",
+  "official": "https://www.ediya.com",
+  "sourceUrl": "https://www.ediya.com/contents/customer_intro.html",
+  "sourceName": "이디야커피 고객의 소리",
+  "verifiedAt": "2026-10-27",
+  "corp": "이디야커피",
+  "hq": "서울특별시 강남구 논현로 636 이디야빌딩",
+  "main": {
+    "label": "전화 상담 접수",
+    "tel": "02-543-6467"
+  },
+  "hours": {
+    "weekday": "09:00 ~ 18:00",
+    "holiday": "주말·공휴일 휴무",
+    "lunch": "12:00 ~ 13:00"
+  },
+  "hoursNote": "[2026-10-27] 이디야커피 고객의 소리 접수(ediya.com/contents/customer_intro.html): 전화 상담 접수 02-543-6467, 09:00 ~ 18:00 (주말·공휴일 휴무), 12:00 ~ 13:00 (점심시간). '평일' 표기가 없어 weekday 에 평일을 붙이지 않는다. 대량 쿠폰 문의의 월~금 09:00~17:00 은 다른 창구라 쓰지 않는다. 로고색은 top_logo 최빈 유채색.",
+  "jobs": "고객의 소리 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화 상담 접수",
+      "tel": "02-543-6467",
+      "note": "09:00~18:00, 주말·공휴일 휴무, 점심시간 12:00~13:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화 상담 접수'로 적힌 번호입니다.",
+  "variant": "franchise"
+}

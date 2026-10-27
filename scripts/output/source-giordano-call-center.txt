@@ -1,0 +1,241 @@
+SLUG: giordano-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/giordano-call-center-*.png)
+
+===== [1] https://www.giordano.co.kr/content/content.php?cont=cscenter&brand=main =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/giordano-call-center-1.png
+CHARS: 831
+
+오늘은 그만보기	
+닫기
+남성
+여성
+액티브
+주니어
+컨셉원
+로그인
+회원가입
+고객센터
+0
+Home/고객센터
+고객센터
+공지사항
+FAQ
+1:1 문의
+고객센터
+전체
+ 
+상품문의
+ 
+주문/배송
+ 
+반품/교환
+ 
+쿠폰/적립금
+ 
+기타
+쇼핑가이드 >
+지오다노쇼핑을 더욱 편리하게
+하실 수 있도록 도와드립니다.
+ 
+Q & A >
+궁금하신 사항을 남겨주시면
+상담원이 처리해 드립니다.
+ 
+Call Center
+080-934-3000
+평일 10:00 - 17:00 / 점심시간 12:00 - 13:00
+공휴일,토요일,일요일 휴무
+
+공지사항
+전체보기 >
+
+41	마일리지 적립 기준 변경 안내	2026-08-26
+40	개인정보처리방침 변경 안내 - 2026/07/30 시행	2026-07-22
+39	개인정보처리방침 변경 안내 - 2026/03/03 시행	2026-02-23
+38	2월 설날 연휴 배송 안내	2026-02-13
+37	개인정보처리방침 변경 안내 - 2026/02/19 시행	2026-02-13
+
+NEWS
+
+ 
+마일리지 적립 기준 변경 안내
+ 
+
+EVENT
+
+ 
+[선착순] 변우석 포토카드 이벤트
+TOP
+이용안내
+ 
+이용약관
+ 
+개인정보처리방침
+상호명 : ㈜지오다노 주소 : 서울특별시 서초구 강남대로65길 1(서초동) 효봉빌딩 FAX : 02-534-2994 대표자 : 한준석 개인정보보호책임자 : 윤종규
+사업자등록번호 : 116-81-47798 통신판매업신고 : 2004-서울서초-04585 호스팅서비스제공자 : ㈜지오다노 에스크로서비스 가입 확인
+
+Copyright ⓒ ㈜지오다노. All Rights Reserved.
+
+ 
+ 
+ 
+BRAND
+매장안내
+단체구매
+공지사항
+1:1문의
+FAQ
+이벤트
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1 — 공지사항]
+번호 | 제목 | 날짜
+41 | 마일리지 적립 기준 변경 안내 | 2026-08-26
+40 | 개인정보처리방침 변경 안내 - 2026/07/30 시행 | 2026-07-22
+39 | 개인정보처리방침 변경 안내 - 2026/03/03 시행 | 2026-02-23
+38 | 2월 설날 연휴 배송 안내 | 2026-02-13
+37 | 개인정보처리방침 변경 안내 - 2026/02/19 시행 | 2026-02-13
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+신상품 
+ 랭킹 
+ 아울렛 
+ 신상품 
+ 랭킹 
+ 라스트사이즈 
+ GIO MAGAZINE 
+ EVENT 
+ JUNIOR MAGAZINE 
+ EVENT 
+ # 전 품목 최대 3만원 OFF 
+ # CLOUDLIGHT 패딩 자켓 
+ # 지금 가장 필요한 아우터 
+ # 스타일을 더하는 니트&셔츠 
+ # 매일 필요한 TEE & PANTS 
+ # 변우석 pick 
+ # 문가영 pick 
+ # 전품목 최대 3만원 OFF♥ 
+ # 클라우드 라이트 
+ # 기간한정 특별가격 
+ # 맨투맨 & 스웻팬츠 
+ # 팬츠 특별가격 
+ # 멤버스 PICK! 
+ MEN
+ MD's PICK 
+ ALL 
+ TOP
+긴팔티 
+맨투맨/후드 
+셔츠 
+니트/가디건 
+반팔/민소매 
+ PANTS
+데님 
+슬랙스 
+캐주얼팬츠 
+밴딩팬츠 
+트레이닝/스웻팬츠 
+반바지 
+ OUTER
+경량자켓 
+패딩/다운 
+자켓 
+가디건/집업 
+코트/무스탕 
+블레이저 
+윈드브레이커 
+ INNERWEAR 
+ ACC 
+ WOMEN
+ MD's PICK 
+ ALL 
+ TOP
+긴팔티 
+니트/가디건 
+셔츠 
+맨투맨/후드 
+반팔티 
+민소매 
+ PANTS
+데님 
+슬랙스 
+캐주얼팬츠 
+풀밴딩 
+트레이닝/스웻팬츠 
+반바지 
+ SKIRT 
+ OUTER
+경량자켓 
+패딩/다운 
+캐주얼자켓 
+가디건/집업 
+코트/무스탕 
+블레이저/트위드 
+윈드브레이커 
+ INNERWEAR 
+ ACC 
+ G-MOTION
+ 남성 
+ 여성 
+ JUNIOR
+ MD's PICK 
+ TOP
+맨투맨/후드 
+긴팔티 
+반팔티 
+셔츠/스웨터 
+ PANTS
+트레이닝 
+캐주얼팬츠 
+데님 
+ OUTER
+자켓/윈드브레이커 
+집업/가디건 
+경량/플리스 
+패딩/다운 
+ SET-UP 
+ HOMEWEAR/ACC
+홈/언더웨어 
+액세서리 
+ GIRL 
+ LAST SIZE
+10,11,12SIZE 
+13(130)SIZE 
+14(140)SIZE 
+15(155)SIZE 
+16(165)SIZE 
+17(175)SIZE
+
+검색 닫기
+ 인기검색어
+ 변우석문가영박현지경량패딩니트가디건맨투맨패딩
+ let header_search_keyword = [];
+ let brand = $("input[name='brand']").val();
+ let $dd;
+ let $a;
+ if ("" == "page_junior" && typeof popular_keyword2_gio !== "undefined" && popular_keyword2_gio) {
+ const keywords = popular_keyword2_gio.split(',');
+ $.each(keywords, function(index, value) {
+ header_search_keyword.push($.trim(value));
+ });
+ header_search_keyword.forEach(function (item) {
+ $dd = $("<dd>");
+ $a = $("<a>").attr("href", "/shop/search_result.php?brand=page_junior&search_str=" + encodeURIComponent(item)).text(item);
+ $dd.append($a);
+ $(".recommend_word dl").append($dd);
+ });
+ } else if (typeof popular_keyword_gio !== "undefined" && popular_keyword_gio) {
+ const keywords = popular_keyword_gio.split(',');
+ $.each(keywords, function(index, value) {
+ header_search_keyword.push($.trim(value));
+ });
+ header_search_keyword.forEach(function (item) {
+ $dd = $("<dd>");
+ $a = $("<a>").attr("href", "/shop/search_result.php?search_str=" + encodeURIComponent(item)).text(item);
+ $dd.append($a);
+ $(".recommend_word dl").append($dd);
+ });
+ }

@@ -1,0 +1,1042 @@
+SLUG: genie-music-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/genie-music-call-center-*.png)
+
+===== [1] https://www.genie.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/genie-music-call-center-1.png
+CHARS: 1931
+
+메뉴 바로가기
+본문 바로가기
+하단 정보 바로가기
+이용권 구매 상품권 등록 지니 캐시
+웹플레이어 PC플레이어 지니앱
+genie 홈으로 가기
+검색어
+지니차트
+최신음악
+장르음악
+영상
+추천
+매거진
+뮤직허그
+로그인/회원가입
+3일동안 이 창 열지 않음
+닫기
+최신음악 
+종합
+국내
+국외
+이벤트
+아일릿(ILLIT)
+매거진
+IVE (아이브)
+전건호
+은혁 (EUNHYUK)
+SLAY (슬레이)
+로키드 (Lokid)
+유채훈
+MILLENNIUM
+WE GO-6
+W24
+이소라
+RIIZE
+1 / 5
+이전 앨범 리스트다음 앨범 리스트
+1번째 이벤트일시정지
+실시간 차트
+
+2026.10.27 10:00
+
+더보기 버튼으로 순위변동 한눈에 보기
+순위	순위변동	곡정보	듣기	추가	더보기
+1	
+변동 없음
+	
+NEON
+A2O & A2O LITE
+	듣기	재생목록에 추가	더보기
+2	
+변동 없음
+	
+꿈꾸던 어른이 되었나요?
+머무르
+	듣기	재생목록에 추가	더보기
+3	
+변동 없음
+	
+퇴사할게여 (Narr. 기안84)
+소연 (SOYEON)
+	듣기	재생목록에 추가	더보기
+4	
+변동 없음
+	
+LOVE ATTACK
+RESCENE (리센느)
+	듣기	재생목록에 추가	더보기
+5	
+변동 없음
+	
+마음의 숲
+조선힙합
+	듣기	재생목록에 추가	더보기
+6	
+변동 없음
+	
+갑자기
+아이오아이 (I.O.I)
+	듣기	재생목록에 추가	더보기
+7	
+변동 없음
+	
+BAD
+ATEEZ (에이티즈)
+	듣기	재생목록에 추가	더보기
+8	
+1
+단계 상승
+	
+생각을 멈추다 보면
+최유리
+	듣기	재생목록에 추가	더보기
+9	
+1
+단계 상승
+	
+Drowning
+WOODZ
+	듣기	재생목록에 추가	더보기
+10	
+1
+단계 상승
+	
+REDRED
+CORTIS (코르티스)
+	듣기	재생목록에 추가	더보기
+전체듣기 재생목록에 전체추가
+TOP200 바로가기 >
+HOT & NEW
+1번째 이벤트2번째 이벤트3번째 이벤트4번째 이벤트5번째 이벤트일시정지
+이전 이벤트
+다음 이벤트
+
+NEW ALBUM
+
+Home
+
+유채훈
+
+NEW ALBUM
+
+Now Im Never Die
+
+W24
+
+에디터추천
+추천선곡
+
+디카 플래시 ON, 지금 우리 좀 Y2K 같아📸⚡
+
+ 
+선곡미리보기
+추천선곡
+
+찬바람 불면 듣는 알앤비 🤎
+
+ DJ 솝
+선곡미리보기
+추천선곡
+
+가을 시선으로 듣는 일렁이는 발라드 🍂
+
+ DJ 감또
+선곡미리보기
+추천선곡
+
+그때 우리 MP3에 있던 노래🎵
+
+ DJ 솝
+선곡미리보기
+추천선곡
+
+끝나지 않는 가을밤의 퍼레이드🎆
+
+ DJ 수수
+선곡미리보기
+추천선곡
+
+☁️어젯밤 구름에 기대어 듣던 멜로디☁️
+
+ DJ 자몽
+선곡미리보기
+추천선곡
+
+후드티 꺼내 입고 듣는 가을 R&B🤎
+
+ DJ 삐삐
+선곡미리보기
+추천선곡
+
+이 정도면 비트가 먼저 꼬신 거야😏
+
+ DJ 솝
+선곡미리보기
+컨텐츠 더보기
+영상 
+추천
+HOT
+뮤비
+
+체포하겠어 (Official MV)
+
+아일릿(ILLIT)
+03:09
+뮤비
+
+Talk to me
+
+ALPHA DRIVE ONE (알파드라이브원)
+03:02
+뮤비
+
+SPIN-OFF : CRUMBS FILM
+
+IVE (아이브)
+02:17
+뮤비
+
+천번을 더
+
+전건호
+03:27
+
+공지사항
+[INSIDE : ALPHA DRIVE ONE] 감상 이벤트 당첨자 안내
+이전보기
+다음보기
+이벤트 고객센터 이용안내 서비스 전체보기 >
+회사소개 이용약관 개인정보처리방침 청소년보호정책 위치기반 서비스 이용약관 이메일주소무단수집거부 서비스 이용문의 제휴 문의
+지니SNS
+instagram
+youtube
+x
+(주)케이티지니뮤직
+대표이사 서인욱 
+주소
+서울특별시 강남구 강남대로 456, 4-9층(역삼동, 한석타워) 사업자등록번호 314-81-03453 통신판매업신고 2013-서울강남-01302
+사업자 정보 확인 서비스문의 1577-5337 / help@ktmusic.co.kr 개인정보보호책임자 홍세희 본부장 호스팅제공자 (주)케이티지니뮤직
+카피라이트
+COPYRIGHT ⓒ KT GENIE MUSIC CORP. ALL RIGHTS RESERVED.
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1 — 곡 리스트]
+순위 | 순위변동 | 곡정보 | 듣기 | 추가 | 더보기
+1 | 변동 없음 | NEON A2O & A2O LITE | 듣기 | 재생목록에 추가 | 더보기 1위연속 4시간 째 TOP10연속 4시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 1위 2위 3위 마이앨범에 담기 다운로드 뮤직비디오 보기 닫기
+2 | 변동 없음 | 꿈꾸던 어른이 되었나요? 머무르 | 듣기 | 재생목록에 추가 | 더보기 2위연속 4시간 째 TOP10연속 28시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 1위 2위 3위 마이앨범에 담기 다운로드 닫기
+3 | 변동 없음 | 퇴사할게여 (Narr. 기안84) 소연 (SOYEON) | 듣기 | 재생목록에 추가 | 더보기 3위연속 4시간 째 TOP10연속 4시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 2위 3위 4위 마이앨범에 담기 다운로드 뮤직비디오 보기 닫기
+4 | 변동 없음 | LOVE ATTACK RESCENE (리센느) | 듣기 | 재생목록에 추가 | 더보기 4위연속 3시간 째 TOP10연속 3시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 3위 4위 5위 마이앨범에 담기 다운로드 뮤직비디오 보기 닫기
+5 | 변동 없음 | 마음의 숲 조선힙합 | 듣기 | 재생목록에 추가 | 더보기 5위연속 3시간 째 TOP10연속 3시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 4위 5위 6위 마이앨범에 담기 다운로드 닫기
+6 | 변동 없음 | 갑자기 아이오아이 (I.O.I) | 듣기 | 재생목록에 추가 | 더보기 6위연속 3시간 째 TOP10연속 3시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 5위 6위 7위 마이앨범에 담기 다운로드 뮤직비디오 보기 닫기
+7 | 변동 없음 | BAD ATEEZ (에이티즈) | 듣기 | 재생목록에 추가 | 더보기 7위연속 2시간 째 TOP10연속 3시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 6위 7위 8위 마이앨범에 담기 다운로드 뮤직비디오 보기 닫기
+8 | 1단계 상승 | 생각을 멈추다 보면 최유리 | 듣기 | 재생목록에 추가 | 더보기 8위연속 1시간 째 TOP10연속 3시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 7위 8위 9위 마이앨범에 담기 다운로드 닫기
+9 | 1단계 상승 | Drowning WOODZ | 듣기 | 재생목록에 추가 | 더보기 9위연속 1시간 째 TOP10연속 3시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 8위 9위 10위 마이앨범에 담기 다운로드 닫기
+10 | 1단계 상승 | REDRED CORTIS (코르티스) | 듣기 | 재생목록에 추가 | 더보기 10위연속 1시간 째 TOP10연속 1시간 째 Created with Raphaël 2.1.0 h 230001020304050607080910 8위 9위 10위 마이앨범에 담기 다운로드 뮤직비디오 보기 닫기
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+genie 로그인
+ genie 로그인
+ 로그인
+ 로그인 상태 유지
+ 회원가입아이디/비밀번호 찾기
+ 개인정보 보호를 위해
+ 개인 PC에서만 사용해 주세요.
+ 도움말 보기
+ 닫기
+ (function(){
+ $('#gnb_uxglk').bind('click', function(){
+ if ($(this).is(':checked')) {
+ $('#chk_long_layer').show();
+ } else {
+ $('#chk_long_layer').hide();
+ }
+ });
+ })();
+ 페이스북, 트위터, 카카오 계정으로 genie를 이용 할 수 있습니다.
+ 페이스북로그인
+ 트위터로그인
+ 카카오톡로그인
+ 닫기
+
+TOP200
+ 장르별 차트
+ 시대별 차트
+ 뮤직비디오 차트
+
+가요
+ POP
+ OST
+ 트롯
+ EDM
+ JAZZ
+ CLASSIC
+ JPOP
+ CCM
+
+추천
+ 인기
+ 태그
+ 히스토리
+
+클래식공감
+ 스페셜
+ 지니뮤직 챌린지
+ 방송
+ 뮤직리포트
+ 이주의 앨범
+
+genie로그인
+ 아이디 찾기
+ 비밀번호 찾기
+ 회원가입
+ 네이버 로그인
+ 카카오 로그인
+ 페이스북 로그인
+ 트위터 로그인
+ 애플 로그인
+ 닫기
+
+안내
+ 상품 가입 후에는 원활한 반영을위해 재로그인이 필요합니다.로그아웃 후 가입 페이지로 
+ 예 (로그아웃)
+ 아니오
+ 닫기
+
+호환성 보기 체크 해제해주세요!
+ 접속할 때 속도가 느린경우 호환성 보기 때문에 늦을 수 있어요. 자세한 설명은 아래 FAQ에서 참고해 주세요.
+ FAQ보러가기
+ 다시는 보지 않음
+ 닫기
+
+아일릿(ILLIT)
+ BREAK EVEN
+ 듣기
+ 재생목록에 추가
+
+IVE (아이브)
+ Looks Can Kill
+ 듣기
+ 재생목록에 추가
+
+전건호
+ 천번을 더
+ 듣기
+ 재생목록에 추가
+
+은혁 (EUNHYUK)
+ Blue Sky
+ 듣기
+ 재생목록에 추가
+
+SLAY (슬레이)
+ 1만분의 1
+ 듣기
+ 재생목록에 추가
+
+로키드 (Lokid)
+ 단 하루라도
+ 듣기
+ 재생목록에 추가
+
+유채훈
+ Home
+ 듣기
+ 재생목록에 추가
+
+MILLENNIUM
+ 희망
+ 듣기
+ 재생목록에 추가
+
+WE GO-6
+ Lucky Charm
+ 듣기
+ 재생목록에 추가
+
+W24
+ Now I'm Never Die
+ 듣기
+ 재생목록에 추가
+
+이소라
+ 100일의 거짓말 OST Part 2
+ 듣기
+ 재생목록에 추가
+
+RIIZE
+ Insomnia
+ 듣기
+ 재생목록에 추가
+
+윤한 (Yoonhan)
+ MEL SOMNUS Vol.3 ENFANT
+ 듣기
+ 재생목록에 추가
+
+Meego
+ 나의 유죄인간 OST Part 2
+ 듣기
+ 재생목록에 추가
+
+최기덕 (9duck)
+ 705
+ 듣기
+ 재생목록에 추가
+
+CHAD BURGER
+ 정류장에서
+ 듣기
+ 재생목록에 추가
+
+장수빈
+ Whisper Waltz
+ 듣기
+ 재생목록에 추가
+
+숙희
+ 너는 내가 쉴 수 있는 한 사람
+ 듣기
+ 재생목록에 추가
+
+바닐라 유니티 (Vanilla Unity)
+ Echo Bloom
+ 듣기
+ 재생목록에 추가
+
+Fresh Air
+ Louder
+ 듣기
+ 재생목록에 추가
+
+2soo
+ Beat Shower Vol.7
+ 듣기
+ 재생목록에 추가
+
+홍진영
+ 나는
+ 듣기
+ 재생목록에 추가
+
+Ruby Baek
+ Trigger
+ 듣기
+ 재생목록에 추가
+
+Mabinc
+ In My Feelings
+ 듣기
+ 재생목록에 추가
+
+Steal Saturday
+ 그럼에도, 오늘은
+ 듣기
+ 재생목록에 추가
+
+어반폴리
+ 모르는 사람처럼
+ 듣기
+ 재생목록에 추가
+
+소밍
+ 내가 바란 끝은 아니지만
+ 듣기
+ 재생목록에 추가
+
+꿈의 궁전
+ 수명거래소
+ 듣기
+ 재생목록에 추가
+
+선진
+ 우리 푸르던 날에
+ 듣기
+ 재생목록에 추가
+
+오마이걸 (OH MY GIRL)
+ 신인감독 김연경 2 OST
+ 듣기
+ 재생목록에 추가
+
+jeebanoff
+ Talking Book 2 ［Deluxe Edition］
+ 듣기
+ 재생목록에 추가
+
+신예영
+ 사랑하지 않아서 그랬어
+ 듣기
+ 재생목록에 추가
+
+로코베리
+ 너에게(春喜)
+ 듣기
+ 재생목록에 추가
+
+강산
+ 인연
+ 듣기
+ 재생목록에 추가
+
+소향
+ 미안해 아빠
+ 듣기
+ 재생목록에 추가
+
+경서예지 & 이주단
+ 울고,불고(2026)
+ 듣기
+ 재생목록에 추가
+
+이을 (E.ul)
+ 널 보내고 홀로
+ 듣기
+ 재생목록에 추가
+
+배기성
+ 미치게 그리워서
+ 듣기
+ 재생목록에 추가
+
+차가을
+ 우린 어쩌다 헤어진 걸까
+ 듣기
+ 재생목록에 추가
+
+off the menu (오프더메뉴)
+ 너 말고 다른 연애 OST Part.6
+ 듣기
+ 재생목록에 추가
+
+LIT
+ No no no
+ 듣기
+ 재생목록에 추가
+
+그믐달
+ 다섯째달
+ 듣기
+ 재생목록에 추가
+
+달담
+ 100m
+ 듣기
+ 재생목록에 추가
+
+김시원
+ 첫사랑 (해시태그는 첫사랑 X 김시원)
+ 듣기
+ 재생목록에 추가
+
+수우 (soowoo)
+ Do not rush
+ 듣기
+ 재생목록에 추가
+
+아웃오브캠퍼스
+ ETERNAL
+ 듣기
+ 재생목록에 추가
+
+남궁 원
+ 3040 (부제: 청춘에게)
+ 듣기
+ 재생목록에 추가
+
+더시즌즈 (The Seasons)
+ 네가 없는 가을 (Feat. Daze)
+ 듣기
+ 재생목록에 추가
+
+JUN0
+ 알겠어?
+ 듣기
+ 재생목록에 추가
+
+박나경
+ 강
+ 듣기
+ 재생목록에 추가
+
+마루리
+ All I Need
+ 듣기
+ 재생목록에 추가
+
+NAEWON
+ 우리만의 언어로
+ 듣기
+ 재생목록에 추가
+
+송재혁
+ KEEP IT FINE
+ 듣기
+ 재생목록에 추가
+
+정회영
+ Always You
+ 듣기
+ 재생목록에 추가
+
+코다 브릿지 (CODA BRIDGE)
+ 우리들의 드라마
+ 듣기
+ 재생목록에 추가
+
+사적인 이야기
+ 다시 만나
+ 듣기
+ 재생목록에 추가
+
+Dakshood & 양홍원
+ Plan B
+ 듣기
+ 재생목록에 추가
+
+스트레이 (The Stray)
+ 여정
+ 듣기
+ 재생목록에 추가
+
+CHERRY BOY 17 (체리보이17)
+ Go Get Em 리믹스 (Feat. SINCE, 율음, unofficialboyy, 허클베리피, 딘딘, 스윙스)
+ 듣기
+ 재생목록에 추가
+
+반하나
+ 슬픈 언약식
+ 듣기
+ 재생목록에 추가
+
+1위연속 4시간 째
+ TOP10연속 4시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 1위
+ 2위
+ 3위
+ 마이앨범에 담기
+ 다운로드
+ 뮤직비디오 보기
+ 닫기
+
+2위연속 4시간 째
+ TOP10연속 28시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 1위
+ 2위
+ 3위
+ 마이앨범에 담기
+ 다운로드
+ 닫기
+
+3위연속 4시간 째
+ TOP10연속 4시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 2위
+ 3위
+ 4위
+ 마이앨범에 담기
+ 다운로드
+ 뮤직비디오 보기
+ 닫기
+
+4위연속 3시간 째
+ TOP10연속 3시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 3위
+ 4위
+ 5위
+ 마이앨범에 담기
+ 다운로드
+ 뮤직비디오 보기
+ 닫기
+
+5위연속 3시간 째
+ TOP10연속 3시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 4위
+ 5위
+ 6위
+ 마이앨범에 담기
+ 다운로드
+ 닫기
+
+6위연속 3시간 째
+ TOP10연속 3시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 5위
+ 6위
+ 7위
+ 마이앨범에 담기
+ 다운로드
+ 뮤직비디오 보기
+ 닫기
+
+7위연속 2시간 째
+ TOP10연속 3시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 6위
+ 7위
+ 8위
+ 마이앨범에 담기
+ 다운로드
+ 뮤직비디오 보기
+ 닫기
+
+8위연속 1시간 째
+ TOP10연속 3시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 7위
+ 8위
+ 9위
+ 마이앨범에 담기
+ 다운로드
+ 닫기
+
+9위연속 1시간 째
+ TOP10연속 3시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 8위
+ 9위
+ 10위
+ 마이앨범에 담기
+ 다운로드
+ 닫기
+
+10위연속 1시간 째
+ TOP10연속 1시간 째
+ Created with Raphaël 2.1.0
+ h
+230001020304050607080910
+ 8위
+ 9위
+ 10위
+ 마이앨범에 담기
+ 다운로드
+ 뮤직비디오 보기
+ 닫기
+
+Charli xcx
+ 360
+PinkPantheress
+ Illegal
+Sophie
+ Immaterial
+Kero Kero Bonito
+ Flamingo
+Ariana Grande
+ oh well
+ 선곡 자세히 보기 >
+ 닫기
+
+Victoria Monet
+ Let Me
+Giveon
+ Dancing in the Smoke (From the Netflix Series 'Nobody Wants This' Season 2)
+Ella Mai
+ Luckiest Man
+JayDon & Paradise
+ Lullaby
+Ebube
+ Canary
+ 선곡 자세히 보기 >
+ 닫기
+
+이소라
+ 가을 시선
+변진섭
+ 그대 내게 다시
+최유리
+ 일렁이자
+김동률
+ 잔향
+이적
+ 반대편
+ 선곡 자세히 보기 >
+ 닫기
+
+써니힐
+ Goodbye To Romance
+양정승 (Kiroy Y)
+ 밤하늘의 별을.. (With KCM & No Noo)
+SG워너비
+ 내사람 : Partner For Life
+PK헤만 (PK Heman)
+ Evergreen (Feat.이지혜)
+긱스 (Geeks)
+ Officially Missing You
+ 선곡 자세히 보기 >
+ 닫기
+
+Penthouse (펜트하우스)
+ 一難 / Undertaker
+Mitsuki Takahata
+ Reiwa Lady Romantic Anthem
+AKASAKI
+ Mood (Kibun)
+RETRORIRON
+ One Time Epilogue
+13.3g
+ Unseen Ai
+ 선곡 자세히 보기 >
+ 닫기
+
+Steven Universe
+ Love Like You (feat. Rebecca Sugar) (End Credits)
+Over the Garden Wall & The Blasting Company
+ Send Me a Peach (Feat. Justin Rubenstein)
+Sarah Kang
+ Hopeless Romantic
+moon tang
+ Dear Moon
+Anthony Lazaro & Milena (밀레나)
+ Time Capsule
+ 선곡 자세히 보기 >
+ 닫기
+
+Beyonce
+ MORNING DEW (DONK)
+Adela
+ Nicole Kidman
+Tems
+ What You Need
+Tyla
+ HOT TUBS
+Denise Julia
+ BODY ON ME
+ 선곡 자세히 보기 >
+ 닫기
+
+Adela
+ Nicole Kidman
+Ariana Grande
+ petal
+The Weeknd & 제니 (JENNIE) & Lily Rose Depp
+ One Of The Girls
+Ariana Grande
+ hate that i made you love me
+Victoria Monet
+ See You In My Dreams
+ 선곡 자세히 보기 >
+ 닫기
+
+30곡
+ 추천선곡
+ 코 끝 시린 계절에 찾게되는 나른하고 포근한 팝 ഒ·˚
+ DJ 157
+ 선곡미리보기
+Bruno Major
+ The Most Beautiful Thing
+Johnny Stimson
+ iloveyousomuch
+Johnny Stimson
+ Vacation
+Jesse Barrera & Albert Posis
+ Hold On Tight
+Albert Posis
+ Hello
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(35166);
+ 30곡
+ 추천선곡
+ 기분 가는 대로, chill해져볼ㄲr,,
+ DJ 구쓰
+ 선곡미리보기
+원슈타인
+ Valentine
+백예린 (Yerin Baek)
+ Your Yerin (Feat. Rejjie Snow)
+Jazzyfact (재지팩트)
+ 하루종일
+문수진 (Moon Sujin)
+ Alone Again (Feat. THAMA)
+유라 (youra)
+ 쿵
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(35112);
+ 30곡
+ 추천선곡
+ 가사가 오래 남는 계절에✍🏻🍁
+ DJ 기린
+ 선곡미리보기
+우효
+ 청춘 (DAY)
+AKMU (악뮤)
+ 기쁨, 슬픔, 아름다운 마음
+잔나비
+ 꿈과 책과 힘과 벽
+넬 (NELL)
+ 지구가 태양을 네 번
+델리 스파이스 (Deli Spice)
+ 챠우챠우-아무리 애를 쓰고 막아 보려 해도 너의 목소리가 들려
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(35107);
+ 32곡
+ 추천선곡
+ 🍂 가을에는 바람도 리듬 타나 봐
+ DJ 솝
+ 선곡미리보기
+WIM & Jesse Barrera
+ Right On
+Magnus Ferrell
+ A Little Fun
+Jesse Barrera
+ 143!
+Jesse Barrera
+ Sweet Time
+Jess Josie Lee
+ Honey
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(35063);
+ 30곡
+ 추천선곡
+ 가을밤의 달콤쌉쌀한 낭만 챙기기 ☕
+ DJ 호이
+ 선곡미리보기
+Rachael & Vilray
+ I Can't Go to Sleep
+Laufey
+ I Wait, I Wait, I Wait
+Diana Panton
+ Where Do You Start?/Once Upon A Time
+Lana Del Rey
+ Henry, come on
+ANYA
+ Faith
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(35031);
+ 30곡
+ 추천선곡
+ 가을의 크로아티아를 걸으며...
+ TravelList
+ 선곡미리보기
+Chad Lawson
+ Lawson : Stay
+Ludovico Einaudi
+ Rose Bay
+Alexis Ffrench
+ Bluebird
+Akira Kosemura
+ DNA
+DeLange
+ Carnival Of The Birds
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(35009);
+ 30곡
+ 추천선곡
+ 눈물나게 좋은 가을 발라드 🍂
+ DJ AJDKS
+ 선곡미리보기
+이소라
+ 이제 그만
+김동률
+ Replay
+이수영
+ 휠릴리
+노을
+ 전부 너였다
+브라운 아이드 소울 (Brown Eyed Soul)
+ 비켜줄께
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(34969);
+ 49곡
+ 추천선곡
+ 🧥 후드 꺼낸 날엔 달달한 비트 어때?
+ DJ 솝
+ 선곡미리보기
+한요한
+ 람보르기니
+Skinny Brown
+ 힘 좀 빼
+로꼬
+ 시간이 들겠지 (Feat. Colde)
+Skinny Brown
+ Somebody To Love
+윌콕스
+ 하나면 하나지 (1 is 1)
+ 선곡 자세히 보기 >
+ 닫기
+ fnViewSongList(34971);
+
+인증완료
+ 변경된 010 번호로 인증이 완료되었습니다!
+ 인증 완료 된 휴대폰 번호
+ - - 
+ 다음 결제일부터는 변경된 휴대폰번호로 이용 요금이 청구 됩니다.
+ 추가 문의 사항은 지니 고객센터(1577-5337)로 연락주세요.
+ 확인
+ 지니 고객센터 
+ 문의전화 : 1577 – 5337 (유료) | 운영시간 월~금 09:30 – 18:30
+ 업무시간 외 문의는 고객센터>문의하기에 남겨주시면 빠른 답변 드리겠습니다.
+ 닫기
+
+01X → 010으로 번호 변경하신 회원님!
+ 원활한 서비스 이용을 위해 휴대폰 인증을 다시 해주세요!
+ 현재 01X 번호로 정기결제 상품을 이용중이신 경우
+ 필히 재인증을 받으셔야 원활한 서비스 이용이 가능합니다.
+ 01X 한시적 번호 사용 제도란?
+ 현재 등록된 휴대폰 번호
+ - - 
+ 실제 사용하시는 휴대폰 번호와 정기결제되는 휴대폰 번호가 서로 다른 경우
+ 01X 번호의 새 휴대폰 번호를 인증해주셔야 합니다.
+ 변경된 010 번호로 인증 받기 (010 휴대폰 번호를 입력해주세요)
+ - - 인증번호 발송
+ 휴대폰으로 발송된 인증번호를 입력해주세요 
+ 인증번호를 받지 못하신 경우 [인증번호 발송] 버튼을 다시 클릭 해주세요.
+ 변경된 휴대폰 번호로 결제 되는 것에 동의합니다.
+ 상기 내용을 확인하였습니다.
+ 다시보지않기 인증하기
+ 닫기
+
+배지 발급 알림
+ 아티스트 좋아요 1,000회 달성!배지가 발급 되었습니다.
+ 닫기
+
+----- 이미지 대체텍스트 (img alt) -----
+100일의 거짓말 OST Part 2
+MEL SOMNUS Vol.3 ENFANT
+나의 유죄인간 OST Part 2
+Beat Shower Vol.7
+신인감독 김연경 2 OST
+Talking Book 2 ［Deluxe Edition］
+울고,불고(2026)
+너 말고 다른 연애 OST Part.6
+3040 (부제: 청춘에게)
+디카 플래시 ON, 지금 우리 좀 Y2K 같아📸⚡
+그때 우리 MP3에 있던 노래🎵

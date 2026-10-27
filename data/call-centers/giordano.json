@@ -1,0 +1,45 @@
+{
+  "slug": "giordano",
+  "name": "지오다노",
+  "aliases": [
+    "지오다노 고객센터",
+    "GIORDANO",
+    "지오다노 전화번호",
+    "지오다노 콜센터",
+    "지오다노 환불 교환"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.giordano.co.kr",
+  "sourceUrl": "https://www.giordano.co.kr/content/content.php?cont=cscenter&brand=main",
+  "sourceName": "지오다노 고객센터",
+  "verifiedAt": "2026-10-27",
+  "corp": "㈜지오다노",
+  "hq": "서울특별시 서초구 강남대로65길 1",
+  "main": {
+    "label": "Call Center",
+    "tel": "080-934-3000"
+  },
+  "hours": {
+    "weekday": "평일 10:00 - 17:00",
+    "lunch": "12:00 - 13:00",
+    "holiday": "공휴일,토요일,일요일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 지오다노(giordano.co.kr) 고객센터: Call Center 080-934-3000, 평일 10:00 - 17:00 / 점심시간 12:00 - 13:00, 공휴일,토요일,일요일 휴무. 하단 ㈜지오다노 서울특별시 서초구 강남대로65길 1(서초동) 효봉빌딩. 로고가 검정 워드마크라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "주문번호와 가입 이메일",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "Call Center",
+      "tel": "080-934-3000",
+      "note": "평일 10:00~17:00, 점심시간 12:00~13:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'Call Center'로 적힌 번호입니다."
+}
