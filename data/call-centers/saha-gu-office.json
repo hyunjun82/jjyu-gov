@@ -1,0 +1,41 @@
+{
+  "slug": "saha-gu-office",
+  "name": "사하구청",
+  "aliases": [
+    "사하구청 전화번호",
+    "사하구청 대표전화",
+    "사하구청 민원 전화",
+    "사하구청 당직실",
+    "사하구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.saha.go.kr",
+  "sourceUrl": "https://www.saha.go.kr/",
+  "sourceName": "사하구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "부산광역시 사하구 낙동대로398번길 12",
+  "hqZip": "49328",
+  "main": {
+    "label": "전화",
+    "tel": "051-220-4000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 사하구청(www.saha.go.kr) 하단: 전화 051-220-4000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화",
+      "tel": "051-220-4000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화'로 적힌 번호입니다."
+}

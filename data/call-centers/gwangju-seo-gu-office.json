@@ -1,0 +1,42 @@
+{
+  "slug": "gwangju-seo-gu-office",
+  "name": "광주 서구청",
+  "aliases": [
+    "광주 서구청 전화번호",
+    "광주 서구청 대표전화",
+    "광주 서구청 민원 전화",
+    "광주 서구청 당직실",
+    "광주 서구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.seogu.gwangju.kr",
+  "sourceUrl": "https://www.seogu.gwangju.kr/",
+  "sourceName": "광주 서구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "062-360-7114"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "lunch": "12:00 ~ 13:00",
+    "holiday": "주말, 공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 광주 서구청(seogu.gwangju.kr) 하단: 대표전화 062-360-7114 FAX 062-360-7600 평일 09:00 ~ 18:00 점심시간 12:00 ~ 13:00 주말, 공휴일 휴무 (대표전화 줄 바로 뒤에 붙은 운영시간). 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "062-360-7114",
+      "note": "평일 09:00~18:00, 점심시간 12:00~13:00, 주말·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

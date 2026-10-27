@@ -1,0 +1,45 @@
+{
+  "slug": "yeosu-city-hall",
+  "name": "여수시청",
+  "aliases": [
+    "여수시청 전화번호",
+    "여수시청 대표전화",
+    "여수시청 민원 전화",
+    "여수시청 당직실",
+    "여수시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#006EAE",
+  "official": "https://www.yeosu.go.kr",
+  "sourceUrl": "https://www.yeosu.go.kr/",
+  "sourceName": "여수시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "전남광주통합특별시 여수시 시청로 1",
+  "hqZip": "59675",
+  "main": {
+    "label": "TEL",
+    "tel": "1899-2012"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 여수시청(www.yeosu.go.kr) 하단: TEL 1899-2012. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "1899-2012"
+    },
+    {
+      "label": "TEL",
+      "tel": "061-659-2114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

@@ -1,0 +1,179 @@
+SLUG: royche-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/royche-call-center-*.png)
+
+===== [1] https://www.royche.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/royche-call-center-1.png
+CHARS: 733
+
+로이체 공식 홈페이지
+	
+COMPANYBUSINESSPRODUCTCONTACT
+	
+BOOK TICKETS
+로이체 공식 홈페이지
+COMPANYBUSINESSPRODUCT
+	
+site search
+
+Technology that feels.
+
+ROYCHE
+
+IT 주변기기 생활가전
+
+평범한 IT 주변기기에 재미와 편의
+
+색다른 디자인을 융합시켜 제공하는 브랜드입니다.
+
+ROYCHE FRIENDS
+
+CHARACTER
+
+다양한 캐릭터와의 콜라보를 통해
+평범한 IT 기기에 개성과 즐거움을 더합니다.  
+
+PROJECT R
+
+데스크테리어
+
+취향을 발견하고, 새롭게 느낄 수 있도록
+
+표현하는 활동에 집중하는 브랜드입니다.
+
+컴퓨터 주변기기
+
+키보드, 마우스, 스피커 등 PC 주변기기를 이용하여 더 나은 환경을 구현해 보세요.
+
+생활가전·리빙
+
+감각적이고, 취향 가득한 제품을 출시합니다. 공간을 채워보세요.
+
+캐릭터 라이센스
+
+전 세계적으로 사랑받고 있는 캐릭터 제품을 꾸준히 출시하여 니즈를 충족시켜 드립니다.
+
+OEM·ODM
+
+검증된 제조 업체와 OEM/ODM 협약을 체결하고 완벽한 품질의 상품을 생산합니다.
+
+이용약관
+개인정보처리방침
+
+(주)로이체 ㅣ 대표이사 : 조윤성
+
+사업자등록번호 : 108-86-34535
+
+주소 : 서울특별시 서초구 명달로134, 5층 로이체
+
+TEL : 02-711-0077
+
+Copyright ⓒ 2026 로이체 공식 홈페이지 All rights reserved.
+SNS 바로가기
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+알림
+ 뒤로
+ 알림 설정
+ 뒤로
+ 더보기 
+ 게시물 알림
+ 내 글 반응 내가 작성한 게시물이나 댓글에 다른 사람이 댓글이나 답글을 작성하면 알려줍니다.
+ 공지사항 사이트에서 보내는 중요한 공지를 실시간으로 알려줍니다.
+
+Alarm
+ 마이페이지
+ 로그아웃
+
+COMPANY
+ HISTORY
+ BUSINESS
+ DOMESTIC
+ OEM/ODM
+ 카카오프렌즈
+ 텐바이텐
+ 라인프렌즈, BT21
+ 대한항공
+ 투썸플레이스
+ CJ
+ PRODUCT
+ TECH
+ DIGITAL
+ LIVING
+ CHARACTER
+ 산리오
+ 잔망루피
+ 스누피
+ 미피
+ 듀 가나디
+ 조앤프렌즈
+ 몬치치
+ 틴틴팅클
+ 므메미무
+ 다이노탱
+ 티니핑!X하츠투하츠
+ 빵빵이의 일상
+ 코카콜라
+ 먼작귀
+ 도라에몽
+ PROJECT R
+ CONTACT
+ SHOP
+ ROYCHE 스마트 스토어
+ ROYCHE 카카오 선물하기🎁
+ ROYCHE FRIENDS
+ 다운로드
+
+DOMESTIC
+ OEM/ODM
+ 카카오프렌즈
+ 텐바이텐
+ 라인프렌즈, BT21
+ 대한항공
+ 투썸플레이스
+ CJ
+
+TECH
+ DIGITAL
+ LIVING
+ CHARACTER
+ 산리오
+ 잔망루피
+ 스누피
+ 미피
+ 듀 가나디
+ 조앤프렌즈
+ 몬치치
+ 틴틴팅클
+ 므메미무
+ 다이노탱
+ 티니핑!X하츠투하츠
+ 빵빵이의 일상
+ 코카콜라
+ 먼작귀
+ 도라에몽
+ PROJECT R
+
+SHOP
+ ROYCHE 스마트 스토어
+ ROYCHE 카카오 선물하기🎁
+ ROYCHE FRIENDS
+ 다운로드
+
+CONTACT
+ SHOP
+ ROYCHE 스마트 스토어
+ ROYCHE 카카오 선물하기🎁
+ ROYCHE FRIENDS
+ 다운로드
+
+로이체 공식 홈페이지 
+ MENU
+
+Design meets technology, inspiring joy in everyday life.
+
+디자인과 기술의 조화를 통해 일상 속에서 발견하는작지만 확실한 즐거움을 만듭니다.
+
+평범한 IT 주변기기들에 색다른 디자인을 융합시킨 창의적인 경영.(주)로이체는 1989년 설립된 PC 및 주변기기, 모바일 액세서리를 유통하는 기업으로고객들의 선호도가 높은 브랜드 제품의 수입과 유통을 하며 실용성과 편리성이뛰어난 제품을 브랜드로 개발하여 국내에 유통하고 있습니다.

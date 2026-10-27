@@ -1,0 +1,43 @@
+{
+  "slug": "jeongeup-city-hall",
+  "name": "정읍시청",
+  "aliases": [
+    "정읍시청 전화번호",
+    "정읍시청 대표전화",
+    "정읍시청 민원 전화",
+    "정읍시청 당직실",
+    "정읍시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#EE2E24",
+  "official": "https://www.jeongeup.go.kr",
+  "sourceUrl": "https://www.jeongeup.go.kr/",
+  "sourceName": "정읍시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "063-539-7114"
+  },
+  "hours": {
+    "weekday": "09:00~18:00",
+    "lunch": "12:00~13:00",
+    "holiday": "토·일요일, 공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 정읍시청(jeongeup.go.kr) 하단: 전북특별자치도 정읍시 충정로 234(수성동) | 대표전화 063-539-7114 업무시간: 09:00~18:00 (점심시간 12:00~13:00, 토·일요일, 공휴일 제외). 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "063-539-7114",
+      "note": "업무시간 09:00~18:00, 점심시간 12:00~13:00, 토·일요일·공휴일 제외"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다.",
+  "hq": "전북특별자치도 정읍시 충정로 234"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "trigem",
+  "name": "삼보컴퓨터",
+  "aliases": [
+    "TG삼보",
+    "삼보컴퓨터 고객센터",
+    "삼보컴퓨터 AS",
+    "삼보컴퓨터 전화번호",
+    "TG삼보 고객센터"
+  ],
+  "industry": "appliance",
+  "brandColor": "#06A7E2",
+  "official": "https://www.trigem.co.kr",
+  "sourceUrl": "https://www.trigem.co.kr/",
+  "sourceName": "삼보컴퓨터 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "corp": "삼보컴퓨터",
+  "hq": "경기도 안산시 단원구 능안로 98-12",
+  "main": {
+    "label": "제품 및 서비스 문의",
+    "tel": "1588-3582"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 삼보컴퓨터(trigem.co.kr) 하단: 대표이사 지승현 본사 경기도 안산시 단원구 능안로 98-12(신길동), 제품 및 서비스 문의 1588-3582, 조달제품문의 1666-3510. 상담시간 표기가 없어 hours 를 비운다. 로고색은 gnb logo.png 최빈 유채색.",
+  "variant": "brand",
+  "jobs": "제품 및 서비스 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "제품 및 서비스 문의",
+      "tel": "1588-3582"
+    },
+    {
+      "label": "조달제품문의",
+      "tel": "1666-3510"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '제품 및 서비스 문의'로 적힌 번호입니다."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "busanjin-gu-office",
+  "name": "부산진구청",
+  "aliases": [
+    "부산진구청 전화번호",
+    "부산진구청 대표전화",
+    "부산진구청 민원 전화",
+    "부산진구청 당직실",
+    "부산진구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.busanjin.go.kr",
+  "sourceUrl": "https://www.busanjin.go.kr/",
+  "sourceName": "부산진구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "부산광역시 부산진구 시민공원로 30",
+  "hqZip": "47193",
+  "main": {
+    "label": "Tel",
+    "tel": "051-605-4000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 부산진구청(www.busanjin.go.kr) 하단: Tel 051-605-4000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "Tel",
+      "tel": "051-605-4000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'Tel'로 적힌 번호입니다."
+}

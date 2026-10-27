@@ -1,0 +1,42 @@
+{
+  "slug": "namwon-city-hall",
+  "name": "남원시청",
+  "aliases": [
+    "남원시청 전화번호",
+    "남원시청 대표전화",
+    "남원시청 민원 전화",
+    "남원시청 당직실",
+    "남원시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.namwon.go.kr",
+  "sourceUrl": "https://www.namwon.go.kr/",
+  "sourceName": "남원시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "063-620-6114"
+  },
+  "hours": {
+    "weekday": "평일 09:00 ~ 18:00",
+    "lunch": "12:00 ~ 13:00",
+    "night": "근무시간 외 당직실로 연결"
+  },
+  "hoursNote": "[2026-10-27] 남원시청(namwon.go.kr) 하단: 대표전화 전화번호 063-620-6114 평일 09:00 ~ 18:00 (점심시간 : 12:00 ~ 13:00 / 근무시간 외 당직실로 연결). 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "063-620-6114",
+      "note": "평일 09:00~18:00, 점심시간 12:00~13:00, 근무시간 외 당직실로 연결"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

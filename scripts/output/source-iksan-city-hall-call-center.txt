@@ -1,0 +1,45 @@
+SLUG: iksan-city-hall-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/iksan-city-hall-call-center-*.png)
+
+===== [1] https://www.iksan.go.kr =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/iksan-city-hall-call-center-1.png
+CHARS: 450
+
+시민이 행복한 품격도시 익산시 로고
+익산시 대표 누리집
+바로가기
+
+문화관광
+힐링과 낭만이 함께하는
+GREAT 익산
+바로가기
+통합예약시스템
+익산시의 모든 예약 및 신청을
+한곳에서~!
+바로가기
+주요 서비스
+위대한 도시 Great, Iksan
+익산 일자리통합 플랫폼
+일자리다모아
+취업과 창업의 모든 정보를 한눈에
+바로가기
+익산청년시청
+청년들의 행복한 삶과 사회진입
+바로가기
+익산고향사랑기부제
+내 고향을 위한 기부, 마음도 혜택도 풍성
+바로가기
+소상공인 지원사업
+익산시 소상공인을 위한 지원사업
+바로가기
+주소
+(우)54622 전북특별자치도 익산시 인북로32길 1(남중동)
+대표전화
+1577-0072
+콜센터 운영시간
+평일 08:30~21:30, 토요일 09:00~17:00 (일요일 및 법정공휴일 휴무 / 운영시간 외 당직실 연결)
+
+COPYRIGHT © IKSAN-CITY. ALL RIGHTS RESERVED.

@@ -1,0 +1,44 @@
+{
+  "slug": "daedeok-gu-office",
+  "name": "대덕구청",
+  "aliases": [
+    "대덕구청 전화번호",
+    "대덕구청 대표전화",
+    "대덕구청 민원 전화",
+    "대덕구청 당직실",
+    "대덕구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#485F80",
+  "official": "https://www.daedeok.go.kr",
+  "sourceUrl": "https://www.daedeok.go.kr/",
+  "sourceName": "대덕구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대전광역시 대덕구 대전로1033번길 20",
+  "hqZip": "34443",
+  "main": {
+    "label": "대표전화",
+    "tel": "042-608-6114"
+  },
+  "hours": {
+    "weekday": "월~금 / 09:00~18:00",
+    "holiday": "공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 대덕구청(www.daedeok.go.kr) 하단: 대표전화 042-608-6114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "042-608-6114",
+      "note": "월~금 / 09:00~18:00, 공휴일 제외"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다.",
+  "lunchElsewhere": "홈페이지 공지(법률상담 운영 안내)에 적힌 점심시간이라 대표전화와 무관하다"
+}

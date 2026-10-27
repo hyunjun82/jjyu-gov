@@ -1,0 +1,42 @@
+{
+  "slug": "haeundae-gu-office",
+  "name": "해운대구청",
+  "aliases": [
+    "해운대구청 전화번호",
+    "해운대구청 대표전화",
+    "해운대구청 민원 전화",
+    "해운대구청 당직실",
+    "해운대구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.haeundae.go.kr",
+  "sourceUrl": "https://www.haeundae.go.kr/",
+  "sourceName": "해운대구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "부산광역시 해운대구 중동2로 11",
+  "hqZip": "48095",
+  "main": {
+    "label": "대표전화",
+    "tel": "051-749-4000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 해운대구청(www.haeundae.go.kr) 하단: 대표전화 051-749-4000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "051-749-4000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다.",
+  "lunchElsewhere": "홈페이지 공지·시설 안내에 적힌 점심시간이라 대표전화와 무관하다"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "locknlock",
+  "name": "락앤락",
+  "aliases": [
+    "락앤락 고객센터",
+    "락앤락 전화번호",
+    "LOCK&LOCK",
+    "락앤락 고객센터 전화번호",
+    "락앤락 환불 교환"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.locknlock.com",
+  "sourceUrl": "https://www.locknlock.com/kor/util/customer/",
+  "sourceName": "락앤락 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "TEL",
+    "tel": "1566-9905"
+  },
+  "hours": {
+    "weekday": "평일: 09시~18시",
+    "lunch": "12시~13시",
+    "holiday": "공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 락앤락(locknlock.com/kor/util/customer) 고객센터: TEL 1566-9905, 평일: 09시~18시(점심시간: 12시~13시), 공휴일 휴무, 다량구매 및 B2B 특판 구매문의는 별도 안내. 로고색은 측정값이 불안정해 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "주문번호와 가입 이메일",
+  "jobs": "고객 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "1566-9905",
+      "note": "평일 09시~18시(점심시간 12시~13시), 공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

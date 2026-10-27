@@ -1,0 +1,41 @@
+{
+  "slug": "cheonan-city-hall",
+  "name": "천안시청",
+  "aliases": [
+    "천안시청 전화번호",
+    "천안시청 대표전화",
+    "천안시청 민원 전화",
+    "천안시청 당직실",
+    "천안시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#00A439",
+  "official": "https://www.cheonan.go.kr",
+  "sourceUrl": "https://www.cheonan.go.kr/",
+  "sourceName": "천안시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "충청남도 천안시 서북구 번영로 156",
+  "hqZip": "31162",
+  "main": {
+    "label": "대표번호(시청 콜센터)",
+    "tel": "1422-36"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 천안시청(www.cheonan.go.kr) 하단: 대표번호(시청 콜센터) 1422-36. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호(시청 콜센터)",
+      "tel": "1422-36"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호(시청 콜센터)'로 적힌 번호입니다."
+}

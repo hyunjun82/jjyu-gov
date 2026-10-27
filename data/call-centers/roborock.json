@@ -1,0 +1,40 @@
+{
+  "slug": "roborock",
+  "name": "로보락",
+  "aliases": [
+    "로보락 고객센터",
+    "로보락 코리아",
+    "로보락 AS",
+    "로보락 전화번호",
+    "Roborock"
+  ],
+  "industry": "appliance",
+  "brandColor": "#EA0029",
+  "official": "https://kr.roborock.com",
+  "sourceUrl": "https://kr.roborock.com/pages/contact-us",
+  "sourceName": "로보락 문의하기",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 강남구 테헤란로 410",
+  "main": {
+    "label": "고객 기술지원",
+    "tel": "1566-5534"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 로보락(kr.roborock.com/pages/contact-us) 문의하기: 고객 기술지원 1566-5534 support@roborock.co.kr, 하단 서울특별시 강남구 테헤란로 410, 1502호 (대치동, 금강타워) 전화번호 1566-5534. 홈의 '+86 1080701770(중국)'은 본사 번호라 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 로고 요소 최빈 유채색.",
+  "variant": "brand",
+  "jobs": "기술지원 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객 기술지원",
+      "tel": "1566-5534"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객 기술지원'으로 적힌 번호입니다."
+}

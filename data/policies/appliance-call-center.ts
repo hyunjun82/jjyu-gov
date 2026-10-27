@@ -156,6 +156,18 @@ export const applianceCallCenterPolicy = {
 } as const;
 
 export const applianceCallCenterSpokes = [
+  { slug: 'bissell-korea', role: 'eligibility', title: '비쎌 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'roborock', role: 'eligibility', title: '로보락 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'alphascan', role: 'eligibility', title: '알파스캔 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'fujifilm-business-innovation-korea', role: 'eligibility', title: '한국후지필름비즈니스이노베이션 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'epson-korea', role: 'eligibility', title: '한국엡손 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'sindoh', role: 'eligibility', title: '신도리코 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'royche', role: 'eligibility', title: '로이체 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'leopold', role: 'eligibility', title: '레오폴드 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'micronics', role: 'eligibility', title: '마이크로닉스 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'trigem', role: 'eligibility', title: '삼보컴퓨터 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'asus-korea', role: 'eligibility', title: '에이수스 고객센터 전화번호 및 상담 연결·운영시간 안내' },
+  { slug: 'lenovo-korea', role: 'eligibility', title: '레노버 고객센터 전화번호 및 상담 연결·운영시간 안내' },
   { slug: 'zojirushi', role: 'eligibility', title: '조지루시 고객센터 전화번호 및 상담 연결·운영시간 안내' },
   { slug: 'yujin-robot', role: 'eligibility', title: '유진로봇 고객센터 전화번호 및 상담 연결·운영시간 안내' },
   { slug: 'vornado-korea', role: 'eligibility', title: '보네이도 코리아 고객센터 전화번호 및 상담 연결·운영시간 안내' },

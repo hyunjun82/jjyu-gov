@@ -1,0 +1,46 @@
+{
+  "slug": "yeonsu-gu-office",
+  "name": "연수구청",
+  "aliases": [
+    "연수구청 전화번호",
+    "연수구청 대표전화",
+    "연수구청 민원 전화",
+    "연수구청 당직실",
+    "연수구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#006934",
+  "official": "https://www.yeonsu.go.kr",
+  "sourceUrl": "https://www.yeonsu.go.kr/",
+  "sourceName": "연수구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "인천광역시 연수구 원인재로 115",
+  "hqZip": "21967",
+  "main": {
+    "label": "대표전화",
+    "tel": "032-749-7114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 연수구청(www.yeonsu.go.kr) 하단: 대표전화 032-749-7114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "032-749-7114",
+      "note": "인천콜센터"
+    },
+    {
+      "label": "야간·공휴일 당직실",
+      "tel": "032-749-7110"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

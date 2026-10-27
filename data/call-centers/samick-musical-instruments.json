@@ -1,0 +1,41 @@
+{
+  "slug": "samick-musical-instruments",
+  "name": "삼익악기",
+  "aliases": [
+    "삼익악기 고객센터",
+    "삼익악기 전화번호",
+    "삼익악기 AS",
+    "삼익 피아노 고객센터",
+    "SAMICK"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://samick.co.kr",
+  "sourceUrl": "https://samick.co.kr/kor/main/",
+  "sourceName": "삼익악기 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "corp": "(주)삼익악기",
+  "main": {
+    "label": "고객센터",
+    "tel": "1644-3827"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 삼익악기(samick.co.kr) 하단: 고객센터 1644-3827 (주)삼익악기. 본사 주소 표기에 오타('충정북도')가 있어 주소는 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "제품 모델명과 구매일자",
+  "jobs": "제품 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1644-3827"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

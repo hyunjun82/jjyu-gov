@@ -1,0 +1,44 @@
+{
+  "slug": "alphascan",
+  "name": "알파스캔",
+  "aliases": [
+    "알파스캔 고객센터",
+    "알파스캔 모니터 AS",
+    "알파스캔 전화번호",
+    "알파스캔 AS",
+    "ALPHASCAN"
+  ],
+  "industry": "appliance",
+  "brandColor": "#016AAA",
+  "official": "https://alphascan.co.kr",
+  "sourceUrl": "https://alphascan.co.kr/",
+  "sourceName": "알파스캔 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 강서구 허준로 217",
+  "main": {
+    "label": "고객센터",
+    "tel": "1544-7734"
+  },
+  "hours": {
+    "weekday": "평일 9시-17시30분",
+    "saturday": "토요일 9시-13시",
+    "lunch": "12시-13시",
+    "holiday": "법정공휴일"
+  },
+  "hoursNote": "[2026-10-27] 알파스캔(alphascan.co.kr) 하단: 고객센터 1544-7734 | 콜 상담 서비스 시간 평일 9시-17시30분 | 토요일 9시-13시 점심시간 12시-13시 | 휴무일 법정공휴일. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "brand",
+  "jobs": "제품 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1544-7734",
+      "note": "평일 9시-17시30분, 토요일 9시-13시, 점심시간 12시-13시"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

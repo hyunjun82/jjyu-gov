@@ -1,0 +1,42 @@
+{
+  "slug": "seongbuk-gu-office",
+  "name": "성북구청",
+  "aliases": [
+    "성북구청 전화번호",
+    "성북구청 대표전화",
+    "성북구청 민원 전화",
+    "성북구청 당직실",
+    "성북구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#004E7A",
+  "official": "https://www.sb.go.kr",
+  "sourceUrl": "https://www.sb.go.kr/",
+  "sourceName": "성북구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 성북구 보문로 168",
+  "hqZip": "02848",
+  "main": {
+    "label": "대표전화",
+    "tel": "02-2241-3114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 성북구청(www.sb.go.kr) 하단: 대표전화 : 02-2241-3114 (120 다산콜센터로 연결). 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "02-2241-3114",
+      "note": "120 다산콜센터로 연결"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

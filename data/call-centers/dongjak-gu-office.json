@@ -1,0 +1,45 @@
+{
+  "slug": "dongjak-gu-office",
+  "name": "동작구청",
+  "aliases": [
+    "동작구청 전화번호",
+    "동작구청 대표전화",
+    "동작구청 민원 전화",
+    "동작구청 당직실",
+    "동작구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#00AD5C",
+  "official": "https://www.dongjak.go.kr",
+  "sourceUrl": "https://www.dongjak.go.kr/",
+  "sourceName": "동작구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 동작구 장승배기로 70",
+  "main": {
+    "label": "대표전화",
+    "tel": "02-820-1114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 동작구청(www.dongjak.go.kr) 하단: 대표전화 : 02-820-1114(120 다산콜센터로 연결), 02-820-1119 (야간, 공휴일 당직실) | FAX : 02-817-4143. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "02-820-1114",
+      "note": "120 다산콜센터로 연결"
+    },
+    {
+      "label": "야간·공휴일 당직실",
+      "tel": "02-820-1119"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "asus-korea",
+  "name": "에이수스",
+  "aliases": [
+    "ASUS",
+    "에이수스 고객센터",
+    "에이수스코리아",
+    "ASUS 고객센터",
+    "에이수스 AS 센터"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.asus.com",
+  "sourceUrl": "https://www.asus.com/kr/support/",
+  "sourceName": "ASUS 고객 지원",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "ASUS 고객센터",
+    "tel": "1566-6868"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] ASUS(asus.com/kr/support) 연락처: ASUS 대표번호 1566-6868, ASUS 공식 스토어 1544-9530, 이메일 문의. 상담시간 표기가 없어 hours 를 비운다. 사설 서비스센터 피해 방지 안내(공식 홈페이지에서 공인서비스센터 위치 확인)가 있다. 로고가 검정(ASUS 워드마크)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "brand",
+  "jobs": "제품 문의, 고객 지원",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "ASUS 고객센터",
+      "tel": "1566-6868"
+    },
+    {
+      "label": "ASUS 공식 스토어",
+      "tel": "1544-9530"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'ASUS 고객센터'로 적힌 번호입니다."
+}

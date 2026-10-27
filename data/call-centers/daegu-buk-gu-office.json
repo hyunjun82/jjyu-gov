@@ -1,0 +1,41 @@
+{
+  "slug": "daegu-buk-gu-office",
+  "name": "대구 북구청",
+  "aliases": [
+    "대구 북구청 전화번호",
+    "대구 북구청 대표전화",
+    "대구 북구청 민원 전화",
+    "대구 북구청 당직실",
+    "대구 북구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#00A651",
+  "official": "https://www.buk.daegu.kr",
+  "sourceUrl": "https://www.buk.daegu.kr/",
+  "sourceName": "대구 북구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대구광역시 북구 옥산로 65",
+  "hqZip": "41590",
+  "main": {
+    "label": "전화번호",
+    "tel": "053-665-2000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 대구 북구청(www.buk.daegu.kr) 하단: 전화번호 053-665-2000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화번호",
+      "tel": "053-665-2000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화번호'로 적힌 번호입니다."
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "gumi-city-hall",
+  "name": "구미시청",
+  "aliases": [
+    "구미시청 전화번호",
+    "구미시청 대표전화",
+    "구미시청 민원 전화",
+    "구미시청 당직실",
+    "구미시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.gumi.go.kr",
+  "sourceUrl": "https://www.gumi.go.kr/",
+  "sourceName": "구미시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경북 구미시 송정대로 55",
+  "hqZip": "39281",
+  "main": {
+    "label": "대표전화",
+    "tel": "054-480-6114"
+  },
+  "hours": {
+    "weekday": "평일 09시~18시",
+    "holiday": "공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 구미시청(www.gumi.go.kr) 하단: 대표전화 054-480-6114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "054-480-6114",
+      "note": "평일 09시~18시, 공휴일 제외"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

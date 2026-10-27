@@ -1,0 +1,40 @@
+SLUG: chungju-city-hall-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/chungju-city-hall-call-center-*.png)
+
+===== [1] https://www.chungju.go.kr =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/chungju-city-hall-call-center-1.png
+CHARS: 309
+
+미래 도시, 젊은 충주
+통합검색
+검색어 입력
+검색
+충주시 대표누리집
+
+바로가기
+
+충주시
+통합예약시스템
+
+충주시
+고향사랑 기부제
+
+서명운동·도보대장정
+충북도청 충주 이전 염원
+충주시 유튜브
+충TV
+여유를 만나는
+충주여행
+엄선한 상품모아
+충주씨샵
+미래 도시, 젊은 충주,
+충주톡
+소통하는 충주
+인스타그램
+[27339] 충청북도 충주시 으뜸로 21(금릉동)
+Tel : 043-120(시민행복콜센터) 충주2번
+24시간 민원 상담​(AI) : 043-850-5305
+Copyright (c) 2017 Chungju city. All rights reserved.

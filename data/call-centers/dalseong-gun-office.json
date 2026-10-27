@@ -1,0 +1,44 @@
+{
+  "slug": "dalseong-gun-office",
+  "name": "달성군청",
+  "aliases": [
+    "달성군청 전화번호",
+    "달성군청 대표전화",
+    "달성군청 민원 전화",
+    "달성군청 당직실",
+    "달성군청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#22B24C",
+  "official": "https://www.dalseong.daegu.kr",
+  "sourceUrl": "https://www.dalseong.daegu.kr/",
+  "sourceName": "달성군청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대구광역시 달성군 논공읍 달성군청로 33",
+  "hqZip": "42974",
+  "main": {
+    "label": "대표전화",
+    "tel": "053-668-2000"
+  },
+  "hours": {
+    "weekday": "09:00~18:00",
+    "lunch": "12:00~13:00",
+    "holiday": "토,일 및 공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 달성군청(dalseong.daegu.kr) 하단: 대표전화 053-668-2000 / 팩스 053-668-3030, 대표전화 이용가능시간 : 09:00~18:00 [단, 점심시간(12:00~13:00), 토,일 및 공휴일 제외]. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "053-668-2000",
+      "note": "09:00~18:00, 점심시간 12:00~13:00, 토·일·공휴일 제외"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

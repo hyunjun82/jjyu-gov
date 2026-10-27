@@ -1,0 +1,41 @@
+{
+  "slug": "busan-seo-gu-office",
+  "name": "부산 서구청",
+  "aliases": [
+    "부산 서구청 전화번호",
+    "부산 서구청 대표전화",
+    "부산 서구청 민원 전화",
+    "부산 서구청 당직실",
+    "부산 서구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#0867B3",
+  "official": "https://www.bsseogu.go.kr",
+  "sourceUrl": "https://www.bsseogu.go.kr/",
+  "sourceName": "부산 서구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "부산광역시 서구 구덕로 120",
+  "hqZip": "49247",
+  "main": {
+    "label": "대표전화",
+    "tel": "051-240-4000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 부산 서구청(www.bsseogu.go.kr) 하단: 대표전화 051-240-4000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "051-240-4000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "eunpyeong-gu-office",
+  "name": "은평구청",
+  "aliases": [
+    "은평구청 전화번호",
+    "은평구청 대표전화",
+    "은평구청 민원 전화",
+    "은평구청 당직실",
+    "은평구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.ep.go.kr",
+  "sourceUrl": "https://www.ep.go.kr/",
+  "sourceName": "은평구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울시 은평구 은평로 195",
+  "hqZip": "03384",
+  "main": {
+    "label": "문의전화",
+    "tel": "02-351-6114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 은평구청(www.ep.go.kr) 하단: 문의전화 : 02)351-6114(120 다산콜센터로 연결) / 02)351-8000(야간, 공휴일 / 당직실). 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "문의전화",
+      "tel": "02-351-6114",
+      "note": "120 다산콜센터로 연결"
+    },
+    {
+      "label": "야간·공휴일 당직실",
+      "tel": "02-351-8000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '문의전화'로 적힌 번호입니다.",
+  "lunchElsewhere": "홈페이지 공지·시설 안내(계량기 검사, 센터 운영, 접수 등)에 적힌 점심시간이라 대표전화와 무관하다"
+}

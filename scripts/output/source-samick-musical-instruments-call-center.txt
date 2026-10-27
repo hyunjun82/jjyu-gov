@@ -1,0 +1,165 @@
+SLUG: samick-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/samick-call-center-*.png)
+
+===== [1] https://samick.co.kr/kor/main/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/samick-call-center-1.png
+CHARS: 861
+
+OFF
+온라인 쇼핑몰
+특판문의
+KOR
+PLAY SAMICK WITH LOVE
+국내 최대의 악기 종합 브랜드 삼익악기
+항상 앞선 기술, 좋은 품질로 세계적인 명품악기 생산에 최선을 다하겠습니다.
+PLAY SAMICK WITH LOVE
+국내 최대의 악기 종합 브랜드 삼익악기
+항상 앞선 기술, 좋은 품질로 세계적인 명품악기 생산에 최선을 다하겠습니다.
+You're My next K-POP STAR
+좋아하는 K-POP 스타와 함께 연주하며 배우는 드럼
+지금 가장 트렌디한 악기 경험 삼익악기와 함께하세요
+ALL NEW SOUNDS IN NEWTRO STYLE
+탁월한 소재와 장인의 정밀함
+그리고 삼익 고유의 전통성과 모던함
+PRODUCT
+
+Piano
+
+BRAND
+ALESIS
+
+수많은 연주자들과 뮤지션에게 사랑 받으며 최고수준의 전자드럼 뿐 아니라 신디사이저, 마스터건반, 디지털키보드 등의 디지털 악기군을 개발/생산하고 있습니다.
+
+자세히 보기
+NEWS
+삼익악기의 최근 소식을
+만나보세요.
+04
+2026-09
+보도자료
+부산 도심서 즐기는 ‘원데이 뮤직 스튜디오’…삼익악기, 롯데百서 체험형 팝업 연다
+30
+2026-07
+보도자료
+바다 보고 선율 느끼고, 롯데 광복점, 삼익악기와 운명적 첫 만남
+29
+2026-07
+보도자료
+삼익악기, 충북도장애인체전 성공 200만원 기탁
+Family Site
+KPOP
+Samick(USA)
+Samick(China)
+Seiler(Germany)
+Seiler(China)
+그란디토피아노
+어반빈티지피아노
+삼익스토어
+삼익아트홀
+삼익엠팟홀
+삼송캐스터
+수완에너지
+스페코
+고객센터: 1644-3827
+(주)삼익악기
+[396-872] 충정북도 음성군 소이면 소이로 313
+개인정보 취급방침
+(주)삼익악기 공시정보 관리규정
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+삼익악기에
+ 오신 것을 환영합니다.
+ 삼익이야기
+ 삼익소개
+ 연혁
+ CEO인사말
+ 해외법인/관계사
+ 경영정보
+ 제품이야기
+ All
+ 피아노
+ 디지털 피아노
+ 어쿠스틱&일렉트릭기타
+ 이펙터&앰프
+ 관현악기
+ 전자드럼
+ 디지털 오디오
+ 교육용 악기
+ 브랜드이야기
+ All
+ SAMICK
+ SEILER
+ Gibson
+ Epiphone
+ ALESIS
+ KRK Systems
+ HEADRUSH
+ INFRASONIC
+ BEATMASTER
+ Lag Guitars 
+ MONSTER
+ KRAMER
+ maestro
+ Greg Bennett
+ Kohler&Campbell
+ Darkglass Electronics
+ KNABE
+ DSM Humboldt
+ 아티스트 라운지
+ 고객서비스
+ 서비스 센터
+ 삼익소식
+ 대리점 안내
+ 자료실
+ 다운로드
+
+⨉
+ 특판문의
+ 국내 최대의 악기 종합 브랜드 삼익악기
+ 기업체를 대상으로 특별 판매를 진행하고 있습니다.
+ 맞춤형 상담을 통해 특별 혜택을 제공해 드리고 있으니, 아래에 문의를 남겨 주시면
+ 자세히 안내해 드리겠습니다.
+ 성함 *
+ 연락처*
+ 이메일
+ 견적 요청 제품명
+ 문의내용 *
+ 개인정보취급방침에 동의합니다.
+ 개인정보 수집·이용 안내
+ 개인정보 수집·이용 목적: 문의사항 처리 및 결과 회신
+ 수집 항목: 성명, 이메일, 문의내용, 제품명, 수량
+ 보유 및 이용 기간: 문의 처리 완료 후 1년
+ 동의를 거부할 권리 및 동의 거부에 따른 불이익: 귀하는 개인정보 수집·이용에 대한 동의를 거부할 권리가 있으며, 동의 거부 시 문의사항 처리에 제한이 있을 수 있습니다.
+ 작성완료
+
+----- 이미지 대체텍스트 (img alt) -----
+ms_03_06.webp
+ms_03.webp
+ms_03_07.webp
+1736840721_f14dwr_2.webp
+1736840721_f14dwr_3.webp
+1000004276_detail_03.webp
+1736840721_f14dwr_6.webp
+group57-1.svg
+2-(1)seiler_1.jpeg
+3-(3)gibson_2.jpg
+3-(4)epiphone_2.jpg
+4-(1)alesis_1.jpg
+4-(4)krk_2.jpg
+3-(9)headrush_1.jpg
+4-(3)infrasonic_1.jpg
+1119_samick_studio1107_s.jpg
+3-(7)lagguitar_1.jpg
+4-(5)mosnter_1.jpg
+3-(6)kramer_1.jpg
+3-(5)maestro_2.jpg
+3-(1)gregbennett_2.jpg
+2-(3)kohler&campbell_1.jpg
+3-(8)darkglass_2.jpg
+2-(2)knabe.jpg
+simplifierxproductreleasebrief_1.png
+kakaotalk_photo_2026-09-04-14-55-56.jpeg
+aidrawing_260729_86e8757a-eda7-4168-9c80-5425126f9320_0_miricanvas.jpg

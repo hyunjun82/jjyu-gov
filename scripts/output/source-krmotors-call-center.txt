@@ -1,0 +1,261 @@
+SLUG: krmotors-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/krmotors-call-center-*.png)
+
+===== [1] https://www.krmotors.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/krmotors-call-center-1.png
+CHARS: 1240
+
+KR모터스
+본문 바로가기
+팝업레이어 알림
+팝업레이어 알림이 없습니다.
+PRODUCT
+SERVICE
+NEWS
+LOGIN
+JOINUS
+내 차량등록
+KO ▼
+
+Aquila 300S Supreme
+
+Grand Voyage Supreme
+
+View More >
+
+E-SKO TRI
+
+Aquila 300S
+
+Aquila 300S
+
+For your Grand Voyage
+
+View More >
+
+Aquila 300S Supreme
+
+BEAVER 125V
+
+BEAVER 125V
+
+For your riding
+
+View More >
+
+Aquila 300S
+
+K-WIN 125
+
+K-WIN 125
+
+Flagship ADV scooter
+
+View More >
+
+BEAVER 125V
+
+E-SKO TRI
+
+E-SKO TRI
+
+For your Safety Driving
+
+View More >
+
+E-SKO TRI
+
+Aquila 300S Supreme
+
+PRODUCT
+
+BIKE
+
+아퀼라125B
+
+‹
+›
+
+BIKE
+
+Aquila300BS
+
+‹
+›
+
+SCOOTER
+
+VNEX125
+
+‹
+›
+‹
+›
+‹
+›
+
+EV
+
+E-LuTion
+
+‹
+›
+‹
+›
+ALL
+BIKE
+SCOOTER
+BUSINESS
+EV
+SERVICE
+
+서비스 네트워크
+
+SERVICE NETWORK
+
+부품정보
+
+PARTS INFO
+
+서비스 정보
+
+SERVICE INFO
+
+NEWS
+KR모터스, M&A 통해 ‘종합 모빌리티 기업’ 전환 박차
+2025-12-02
+개인정보처리방침
+이용약관
+사이트맵
+
+대표전화 1588-5552   사업장주소 (51573) 경남 창원시 성산구 완암로 28(성산동 77)   대표이사 정재경   이메일 webmaster@krmotors.com
+
+COPYRIGHT 2019 KR MOTORS CO.,LTD. ALL RIGHTS RESERVED
+
+  
+회사소개
+CEO인사말
+연혁
+연구개발
+채용정보
+오시는길
+윤리경영
+투자정보
+기업정보
+재무정보
+주가정보
+전자공시
+공고
+기타메뉴
+SCM
+PRM
+인트라넷
+그룹웨어
+
+----- 프레임 (https://www.youtube.com/embed/rSLXuIL6skE?rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.krmotors.com&widgetid=1&forigin=https%3A%2F%2Fwww.krmotors.com%2F&aoriginsup=1&vf=1) -----
+비공개 동영상입니다.
+비공개 동영상입니다.
+이 동영상의 소유자가 액세스 권한을 부여했다면 로그인하세요.
+로그인
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+KO ▼ KOR ENG
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+KO ▼
+ KOR
+ ENG
+ $('.s_menu').on('click',function(){
+ $('.s_menu').toggleClass('moves');
+ });
+ $(".lang_lay").click(function (e) {
+ $(this).siblings('.list_20').toggle();
+ });
+
+PRODUCT전체상품BIKESCOOTERBUSINESSEVSERVICE서비스네트워크FAQ부품정보사용설명서서비스정보NEWSNEWS이벤트갤러리공지사항회사소개CEO인사말연혁연구개발채용정보오시는길윤리경영투자정보기업정보재무정보주가정보전자공시공고기타메뉴SCMPRM인트라넷그룹웨어
+
+전체상품
+ BIKE
+ SCOOTER
+ BUSINESS
+ EV
+
+서비스네트워크
+ FAQ
+ 부품정보
+ 사용설명서
+ 서비스정보
+
+NEWS
+ 이벤트
+ 갤러리
+ 공지사항
+
+EV 
+ 이스코 미니
+
+EV 
+ 이스코 트리
+
+BIKE 
+ 아퀼라300B Supreme
+
+SCOOTER 
+ 케이윈125
+
+SCOOTER 
+ 4MICAEP
+
+SCOOTER 
+ 브이넥스125
+
+SCOOTER 
+ 로디125
+
+SCOOTER 
+ 비버125V STD
+
+SCOOTER 
+ 비버125V DLX
+
+SCOOTER 
+ 그란투스125
+
+EV 
+ 이루션
+
+BIKE 
+ 아퀼라300B
+
+BIKE 
+ Aquila125B
+
+SCOOTER 
+ GRANTUS125
+
+SCOOTER 
+ BEAVER125V DLX
+
+SCOOTER 
+ BEAVER125V STD
+
+SCOOTER 
+ Roady125
+
+SCOOTER 
+ K-WIN125
+
+EV 
+ E-SKO Tri
+
+EV 
+ E-SKO mini
+
+----- 이미지 대체텍스트 (img alt) -----
+아퀼라300B Supreme
+비버125V STD
+비버125V DLX

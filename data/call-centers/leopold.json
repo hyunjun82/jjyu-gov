@@ -1,0 +1,42 @@
+{
+  "slug": "leopold",
+  "name": "레오폴드",
+  "aliases": [
+    "레오폴드 키보드",
+    "레오폴드 고객센터",
+    "레오폴드 AS",
+    "레오폴드 전화번호",
+    "Leopold"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.leopold.co.kr",
+  "sourceUrl": "https://www.leopold.co.kr/",
+  "sourceName": "레오폴드 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "TEL",
+    "tel": "050-2020-1030"
+  },
+  "hours": {
+    "weekday": "평일 AM 10:00 - PM 5:00",
+    "lunch": "12:00~13:30",
+    "holiday": "토,일/공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 레오폴드(leopold.co.kr) 하단 고객센터: TEL 050-2020-1030, 운영시간 평일 AM 10:00 - PM 5:00 (토,일/공휴일 휴무), 점심시간 12:00~13:30. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "brand",
+  "jobs": "제품 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "050-2020-1030",
+      "note": "평일 AM 10:00 - PM 5:00, 점심시간 12:00~13:30"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

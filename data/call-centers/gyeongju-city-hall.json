@@ -1,0 +1,43 @@
+{
+  "slug": "gyeongju-city-hall",
+  "name": "경주시청",
+  "aliases": [
+    "경주시청 전화번호",
+    "경주시청 대표전화",
+    "경주시청 민원 전화",
+    "경주시청 당직실",
+    "경주시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.gyeongju.go.kr",
+  "sourceUrl": "https://www.gyeongju.go.kr/",
+  "sourceName": "경주시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경상북도 경주시 양정로 260",
+  "hqZip": "38102",
+  "main": {
+    "label": "대표전화",
+    "tel": "054-779-8585"
+  },
+  "hours": {
+    "weekday": "평일 09:00~18:00"
+  },
+  "hoursNote": "[2026-10-27] 경주시청(www.gyeongju.go.kr) 하단: 대표전화 054-779-8585. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "054-779-8585",
+      "note": "평일 09:00~18:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다.",
+  "lunchElsewhere": "홈페이지 공지(읍면동 시범운영 안내)에 적힌 점심시간이라 대표전화와 무관하다"
+}

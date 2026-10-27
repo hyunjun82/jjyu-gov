@@ -1,0 +1,46 @@
+{
+  "slug": "yangcheon-gu-office",
+  "name": "양천구청",
+  "aliases": [
+    "양천구청 전화번호",
+    "양천구청 대표전화",
+    "양천구청 민원 전화",
+    "양천구청 당직실",
+    "양천구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#01B1ED",
+  "official": "https://www.yangcheon.go.kr",
+  "sourceUrl": "https://www.yangcheon.go.kr/",
+  "sourceName": "양천구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 양천구 목동동로 105",
+  "hqZip": "08095",
+  "main": {
+    "label": "TEL",
+    "tel": "02-2620-3114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 양천구청(www.yangcheon.go.kr) 하단: (08095) 서울특별시 양천구 목동동로 105(신정동) Tel.02-2620-3114(120 다산콜센터로 연결) 02-2620-3000(야간,공휴일/당직실). 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "02-2620-3114",
+      "note": "120 다산콜센터로 연결"
+    },
+    {
+      "label": "야간·공휴일 당직실",
+      "tel": "02-2620-3000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

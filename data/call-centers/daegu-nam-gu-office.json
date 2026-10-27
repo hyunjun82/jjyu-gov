@@ -1,0 +1,41 @@
+{
+  "slug": "daegu-nam-gu-office",
+  "name": "대구 남구청",
+  "aliases": [
+    "대구 남구청 전화번호",
+    "대구 남구청 대표전화",
+    "대구 남구청 민원 전화",
+    "대구 남구청 당직실",
+    "대구 남구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#A7BE38",
+  "official": "https://www.nam.daegu.kr",
+  "sourceUrl": "https://www.nam.daegu.kr/",
+  "sourceName": "대구 남구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대구광역시 남구 이천로 51",
+  "hqZip": "42429",
+  "main": {
+    "label": "대표전화(부서안내)",
+    "tel": "053-664-2000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 대구 남구청(www.nam.daegu.kr) 하단: 대표전화(부서안내) 053-664-2000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화(부서안내)",
+      "tel": "053-664-2000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화(부서안내)'로 적힌 번호입니다."
+}

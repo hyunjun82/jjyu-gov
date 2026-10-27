@@ -1,0 +1,47 @@
+{
+  "slug": "mapo-gu-office",
+  "name": "마포구청",
+  "aliases": [
+    "마포구청 전화번호",
+    "마포구청 대표전화",
+    "마포구청 민원 전화",
+    "마포구청 당직실",
+    "마포구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#00AEEF",
+  "official": "https://www.mapo.go.kr",
+  "sourceUrl": "https://www.mapo.go.kr/",
+  "sourceName": "마포구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 마포구 월드컵로 212",
+  "hqZip": "03937",
+  "main": {
+    "label": "TEL",
+    "tel": "02-3153-8114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 마포구청(www.mapo.go.kr) 하단: TEL. 02-3153-8114(120 다산콜센터로 연결), 야간 및 공휴일/당직실 TEL. 02-3153-8100 FAX. 02-3153-8998~9. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "02-3153-8114",
+      "note": "120 다산콜센터로 연결"
+    },
+    {
+      "label": "야간·공휴일 당직실",
+      "tel": "02-3153-8100"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다.",
+  "lunchElsewhere": "홈페이지 공지·시설 안내(계량기 검사, 센터 운영, 접수 등)에 적힌 점심시간이라 대표전화와 무관하다"
+}

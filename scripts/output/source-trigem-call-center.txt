@@ -1,0 +1,40 @@
+SLUG: trigem-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/trigem-call-center-*.png)
+
+===== [1] https://www.trigem.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/trigem-call-center-1.png
+CHARS: 446
+
+반갑습니다. 삼보컴퓨터 입니다. 어떤 도움이 필요하십니까?
+
+드라이버 다운로드
+드라이버를 다운로드
+하실 수 있습니다.
+
+TG 그린스위치
+TG 그린스위치를
+다운로드 하실 수 있습니다.
+
+A/S센터 위치
+가까운 TG서비스센터를
+찾아 보실 수 있습니다.
+
+우리의 제품들
+TG의 제품을
+보실 수 있습니다.
+
+웹(모바일)카탈로그
+편리하게 제품 소개
+자료를 보실 수 있습니다.
+
+공지사항    삼보컴퓨터 '개인정보 처리방침' 변경에 대한 안내
+ 
+개인정보 처리방침 ㅣ
+이메일무단수집거부 ㅣ
+
+대표이사:지승현 I 본사:경기도 안산시 단원구 능안로 98-12(신길동)I
+제품 및 서비스 문의 : 1588-3582I조달제품문의 : 1666-3510I사업자 등록번호 : 134-87-00681I통신판매신고번호 : 제 2012-경기안산-0766호
+Copyright ⓒ 삼보컴퓨터. All Rights Reserved.

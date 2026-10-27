@@ -1,0 +1,20 @@
+SLUG: busan-nam-gu-office-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/busan-nam-gu-office-call-center-*.png)
+
+===== [1] https://www.bsnamgu.go.kr =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/busan-nam-gu-office-call-center-1.png
+CHARS: 143
+
+남구청
+
+바로가기
+
+재난발생시
+행동요령
+
+바로가기
+(우)48452 부산광역시 남구 못골로 19(대연동) 전화 051-607-4000 팩스 051-607-4444
+Copyright(c) All Rights Reserved. 2016 by Namgu Busan

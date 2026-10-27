@@ -1,0 +1,148 @@
+SLUG: leopold-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/leopold-call-center-*.png)
+
+===== [1] https://www.leopold.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/leopold-call-center-1.png
+CHARS: 1538
+
+고객지원
+ 
+0
+쇼핑
+Contact
+Global
+로그인
+회원가입
+Wired & Wireless Series
+WHITE TWO-TONE
+자세히 보기
+FULL CNC ALUMINUM Series
+ALCHEMIE
+자세히 보기
+Topre Capacitive Switch Keyboard
+REALFORCE R4
+자세히 보기
+The New CHERRY Switch
+MX2A Series
+자세히 보기
+Wired & Wireless Series
+CORAL BLUE
+자세히 보기
+Wired & Wireless Series
+MILK TURQUOISE
+자세히 보기
+Wired & Wireless Series
+GRAY BLUE
+자세히 보기
+Wired & Wireless Series
+WHITE TWO-TONE
+자세히 보기
+FULL CNC ALUMINUM Series
+ALCHEMIE
+자세히 보기
+BEST PRODUCT
+올 한해, 가장 많이 사랑받은 베스트셀러,
+다양한 색상으로 나만의 키보드를 지금 만나보세요.
+  
+RC1 화이트 저소음 APC 영문
+360,000원
+  
+RC1 블랙 저소음 APC 영문
+360,000원
+  
+MKL KEYCAP SET 클래식 블랙
+99,000원
+  
+ALCHEMIE 애쉬 화이트
+218,000원
+  
+FC220TP PD
+55,000원
+  
+SOLD OUT
+R4 BT 그레이 블루 저소음 APC 한글
+395,000원
+  
+R4 TKL BT 그레이 블루 저소음 APC 한글
+390,000원
+  
+RC1 화이트 저소음 APC 영문
+360,000원
+  
+RC1 블랙 저소음 APC 영문
+360,000원
+  
+MKL KEYCAP SET 클래식 블랙
+99,000원
+  
+ALCHEMIE 애쉬 화이트
+218,000원
+  
+FC220TP PD
+55,000원
+  
+SOLD OUT
+R4 BT 그레이 블루 저소음 APC 한글
+395,000원
+Classic is, Leopold
+Classic is, Leopold
+Classic is, Leopold
+SERVICE
+궁금한 점이 있으신가요?
+레오폴드가 키보드 그 이상의 가치를 느끼게 해드립니다.
+1:1 문의
+궁금하신 사항을 문의해 주세요.
+최선을 다해 답변해 드리겠습니다.
+A/S 접수
+도움이 필요하시면 언제든지 문의해주세요.
+최대한 빠르게 도움 드리겠습니다.
+FAQ
+고객님들의 자주 묻는 질문을
+확인 해보세요.
+Leopold 이용약관 개인정보처리방침 이용안내
+회사정보
+회사명레오폴드(주)
+대표자강산
+주소경기 고양시 일산동구 하늘마을로 158 B동 306호 레오폴드(주)
+개인정보관리책임자강산
+사업자등록번호106-86-40380 [사업자정보확인]
+통신판매업신고번호제 2013-고양일산동-0425 호
+고객센터
+TEL050-2020-1030
+FAX031-926-7704
+E-MAILwebmaster@leopold.co.kr
+운영시간평일 AM 10:00 - PM 5:00 (토,일/공휴일 휴무)
+점심시간12:00~13:30
+계좌정보
+입금계좌국민은행 477401-01-100878
+예금주레오폴드(주)
+Copyright(c) 레오폴드(주) all rights reserved. Hosting by cafe24(주)
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+Search
+ 인기 검색어
+
+LEOPOLD
+블루투스 기계식 키보드
+ Bluetooth 5.1
+ 안정적이며 끊김 없는 무선 연결
+ Sound Absorbing Pad
+ 레오폴드 최초 도입 키보드 내부 흡음패드
+ PBT Double-Shot
+ 자체 개발 PBT 이중사출 키캡
+ CHERRY Switch
+ 독일 체리 MX/MX2A 스위치 채용
+ 자세히 보기
+
+본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면
+ 주문이 되지 않으니 결제 완료 될 때 까지 닫지 마시기 바랍니다.
+
+----- 이미지 대체텍스트 (img alt) -----
+RC1 화이트 저소음 APC 영문
+RC1 블랙 저소음 APC 영문
+FC220TP PD
+R4 BT 그레이 블루 저소음 APC 한글
+R4 TKL BT 그레이 블루 저소음 APC 한글

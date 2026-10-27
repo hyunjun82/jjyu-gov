@@ -1,0 +1,45 @@
+{
+  "slug": "sindoh",
+  "name": "신도리코",
+  "aliases": [
+    "신도리코 고객센터",
+    "신도리코 프린터 AS",
+    "신도리코 전화번호",
+    "SINDOH",
+    "신도리코 서비스"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.sindoh.com",
+  "sourceUrl": "https://www.sindoh.com/support/inquiry?hsLang=ko-kr",
+  "sourceName": "신도리코 서비스 문의",
+  "verifiedAt": "2026-10-27",
+  "corp": "(주)신도리코",
+  "hq": "서울 성동구 성수이로24길 3",
+  "main": {
+    "label": "대표번호",
+    "tel": "02-460-1114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 신도리코(sindoh.com/support/inquiry) 서비스 문의: 1588-5850 전화 문의도 가능, 하단 (주)신도리코 서울 성동구 성수이로24길 3 대표번호 02-460-1114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정값이 불안정해 중립 검정을 쓴다.",
+  "variant": "brand",
+  "jobs": "서비스 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "02-460-1114"
+    },
+    {
+      "label": "전화 문의",
+      "tel": "1588-5850"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

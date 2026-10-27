@@ -1,0 +1,45 @@
+{
+  "slug": "jinju-city-hall",
+  "name": "진주시청",
+  "aliases": [
+    "진주시청 전화번호",
+    "진주시청 대표전화",
+    "진주시청 민원 전화",
+    "진주시청 당직실",
+    "진주시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#024099",
+  "official": "https://www.jinju.go.kr",
+  "sourceUrl": "https://www.jinju.go.kr/",
+  "sourceName": "진주시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경상남도 진주시 동진로 155",
+  "hqZip": "52789",
+  "main": {
+    "label": "대표전화",
+    "tel": "055-749-2114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 진주시청(www.jinju.go.kr) 하단: 대표전화 055-749-2114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "055-749-2114"
+    },
+    {
+      "label": "복지콜센터",
+      "tel": "055-754-1001"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

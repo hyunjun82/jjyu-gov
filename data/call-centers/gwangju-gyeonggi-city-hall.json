@@ -1,0 +1,41 @@
+{
+  "slug": "gwangju-gyeonggi-city-hall",
+  "name": "경기 광주시청",
+  "aliases": [
+    "광주시청 경기",
+    "경기 광주시청 전화번호",
+    "경기도 광주시청 대표전화",
+    "광주시청 대표전화번호",
+    "경기 광주시 민원 전화"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.gjcity.go.kr",
+  "sourceUrl": "https://www.gjcity.go.kr/",
+  "sourceName": "경기 광주시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경기도 광주시 행정타운로 50",
+  "hqZip": "12738",
+  "main": {
+    "label": "대표전화번호",
+    "tel": "031-760-2000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 경기 광주시청(gjcity.go.kr) 하단: 경기도 광주시 행정타운로 50 (12738) 대표전화번호 031-760-2000. 광주광역시와 구분하려고 이름을 경기 광주시청으로 쓴다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화번호",
+      "tel": "031-760-2000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화번호'로 적힌 번호입니다."
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "mokpo-city-hall",
+  "name": "목포시청",
+  "aliases": [
+    "목포시청 전화번호",
+    "목포시청 대표전화",
+    "목포시청 민원 전화",
+    "목포시청 당직실",
+    "목포시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1C4A8D",
+  "official": "https://www.mokpo.go.kr",
+  "sourceUrl": "https://www.mokpo.go.kr/",
+  "sourceName": "목포시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "전남광주통합특별시 목포시 양을로 203",
+  "hqZip": "58613",
+  "main": {
+    "label": "대표전화",
+    "tel": "061-272-2171"
+  },
+  "hours": {
+    "weekday": "365일 24시간",
+    "lunch": "12:00~13:00"
+  },
+  "hoursNote": "[2026-10-27] 목포시청(www.mokpo.go.kr) 하단: 대표전화 061-272-2171. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "061-272-2171",
+      "note": "365일 24시간, 평일 점심시간 12:00~13:00 제외"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

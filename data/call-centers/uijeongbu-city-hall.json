@@ -1,0 +1,43 @@
+{
+  "slug": "uijeongbu-city-hall",
+  "name": "의정부시청",
+  "aliases": [
+    "의정부시청 전화번호",
+    "의정부시청 대표전화",
+    "의정부시 민원 전화",
+    "의정부시청 당직",
+    "의정부시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#00AB7B",
+  "official": "https://www.ui4u.go.kr",
+  "sourceUrl": "https://www.ui4u.go.kr/",
+  "sourceName": "의정부시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경기도 의정부시 시민로 1",
+  "hqZip": "11622",
+  "main": {
+    "label": "전화",
+    "tel": "031-828-2114"
+  },
+  "hours": {
+    "weekday": "365일 24시간"
+  },
+  "hoursNote": "[2026-10-27] 의정부시청(ui4u.go.kr) 하단: 경기도 의정부시 시민로 1 (11622) 전화 : 031-828-2114 (365일 24시간). 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화",
+      "tel": "031-828-2114",
+      "note": "365일 24시간"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화'로 적힌 번호입니다.",
+  "lunchElsewhere": "홈페이지 공지(방문접수·건강검진 안내 등)에 적힌 점심시간이라 대표전화와 무관하다"
+}

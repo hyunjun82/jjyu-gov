@@ -126,6 +126,13 @@ export const onlineCallCenterPolicy = {
 };
 
 export const onlineCallCenterSpokes = [
+  { slug: 'electroland', role: 'eligibility', title: '전자랜드 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'commax', role: 'eligibility', title: '코맥스 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'emons', role: 'eligibility', title: '에몬스가구 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'samick-musical-instruments', role: 'eligibility', title: '삼익악기 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'locknlock', role: 'eligibility', title: '락앤락 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'samchuly-bicycle', role: 'eligibility', title: '삼천리자전거 고객센터 전화번호 및 상담원 연결·문의 안내' },
+  { slug: 'krmotors', role: 'eligibility', title: 'KR모터스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'zinus', role: 'eligibility', title: '지누스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'fursys', role: 'eligibility', title: '퍼시스 고객센터 전화번호 및 상담원 연결·문의 안내' },
   { slug: 'com2us', role: 'eligibility', title: '컴투스 고객센터 전화번호 및 상담원 연결·문의 안내' },

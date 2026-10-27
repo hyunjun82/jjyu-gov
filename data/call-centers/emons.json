@@ -1,0 +1,43 @@
+{
+  "slug": "emons",
+  "name": "에몬스가구",
+  "aliases": [
+    "에몬스",
+    "에몬스가구 고객센터",
+    "에몬스 AS",
+    "에몬스가구 전화번호",
+    "에몬스 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#14008C",
+  "official": "https://www.emons.co.kr",
+  "sourceUrl": "https://www.emons.co.kr/cs/question.php",
+  "sourceName": "에몬스가구 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터 안내",
+    "tel": "1800-9977"
+  },
+  "hours": {
+    "weekday": "평일: 오전 08:30 ~ 오후 17:30",
+    "lunch": "오후 12:00 ~ 오후 13:00",
+    "holiday": "토, 일, 공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 에몬스가구(emons.co.kr/cs/question.php) 고객센터 안내 1800-9977, 평일: 오전 08:30 ~ 오후 17:30 ㅣ점심시간: 오후 12:00 ~ 오후 13:00 ㅣ업무휴무: 토, 일, 공휴일 휴무, 전국 어디서나 서비스 접수, 상담 및 기타 문의. 로고색은 logo.svg 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "구입 지점과 구입일자",
+  "jobs": "서비스 접수, 상담, 구입 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터 안내",
+      "tel": "1800-9977",
+      "note": "평일 오전 08:30~오후 17:30, 점심시간 오후 12:00~오후 13:00, 토·일·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터 안내'로 적힌 번호입니다."
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "ulsan-dong-gu-office",
+  "name": "울산 동구청",
+  "aliases": [
+    "울산 동구청 전화번호",
+    "울산 동구청 대표전화",
+    "울산 동구청 민원 전화",
+    "울산 동구청 당직실",
+    "울산 동구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#E4032B",
+  "official": "https://www.donggu.ulsan.kr",
+  "sourceUrl": "https://www.donggu.ulsan.kr/",
+  "sourceName": "울산 동구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "울산광역시 동구 봉수로 155",
+  "hqZip": "44021",
+  "main": {
+    "label": "TEL",
+    "tel": "052-209-3000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 울산 동구청(www.donggu.ulsan.kr) 하단: TEL 052-209-3000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "052-209-3000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다.",
+  "lunchElsewhere": "홈페이지 공지(검사·상담 서비스 안내)에 적힌 점심시간이라 대표전화와 무관하다"
+}

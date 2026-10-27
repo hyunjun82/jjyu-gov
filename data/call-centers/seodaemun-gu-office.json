@@ -1,0 +1,42 @@
+{
+  "slug": "seodaemun-gu-office",
+  "name": "서대문구청",
+  "aliases": [
+    "서대문구청 전화번호",
+    "서대문구청 대표전화",
+    "서대문구청 민원 전화",
+    "서대문구청 당직실",
+    "서대문구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#233391",
+  "official": "https://www.sdm.go.kr",
+  "sourceUrl": "https://www.sdm.go.kr/",
+  "sourceName": "서대문구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 서대문구 연희로 248",
+  "hqZip": "03718",
+  "main": {
+    "label": "전화",
+    "tel": "02-330-1114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 서대문구청(www.sdm.go.kr) 하단: 안내전화 02-330-1114, 1301~2 (120 다산콜센터로 연결). 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화",
+      "tel": "02-330-1114",
+      "note": "120 다산콜센터로 연결"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화'로 적힌 번호입니다."
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "anyang-city-hall",
+  "name": "안양시청",
+  "aliases": [
+    "안양시청 전화번호",
+    "안양시청 열린 콜센터",
+    "안양시 민원 전화",
+    "안양시청 대표전화",
+    "안양시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#005EAE",
+  "official": "https://www.anyang.go.kr",
+  "sourceUrl": "https://www.anyang.go.kr/",
+  "sourceName": "안양시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경기도 안양시 동안구 시민대로 235",
+  "hqZip": "14053",
+  "main": {
+    "label": "전화(열린 콜센터)",
+    "tel": "031-8045-7000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 안양시청(anyang.go.kr) 하단: 전화 031-8045-7000 (열린 콜센터), 팩스 031-8045-6500, 경기도 안양시 동안구 시민대로 235 (14053). 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화(열린 콜센터)",
+      "tel": "031-8045-7000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화(열린 콜센터)'로 적힌 번호입니다."
+}

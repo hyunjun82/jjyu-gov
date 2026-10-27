@@ -1,0 +1,45 @@
+{
+  "slug": "chungju-city-hall",
+  "name": "충주시청",
+  "aliases": [
+    "충주시청 전화번호",
+    "충주시청 대표전화",
+    "충주시청 민원 전화",
+    "충주시청 당직실",
+    "충주시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.chungju.go.kr",
+  "sourceUrl": "https://www.chungju.go.kr/",
+  "sourceName": "충주시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "충청북도 충주시 으뜸로 21",
+  "hqZip": "27339",
+  "main": {
+    "label": "Tel(시민행복콜센터)",
+    "tel": "043-120"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 충주시청(www.chungju.go.kr) 하단: Tel(시민행복콜센터) 043-120. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "Tel(시민행복콜센터)",
+      "tel": "043-120"
+    },
+    {
+      "label": "24시간 민원 상담(AI)",
+      "tel": "043-850-5305"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'Tel(시민행복콜센터)'로 적힌 번호입니다."
+}

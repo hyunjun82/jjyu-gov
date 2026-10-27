@@ -1,0 +1,43 @@
+{
+  "slug": "epson-korea",
+  "name": "한국엡손",
+  "aliases": [
+    "엡손",
+    "엡손 고객센터",
+    "한국엡손 고객지원센터",
+    "엡손 프린터 AS",
+    "Epson Korea"
+  ],
+  "industry": "appliance",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.epson.co.kr",
+  "sourceUrl": "https://www.epson.co.kr/",
+  "sourceName": "한국엡손 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "한국엡손 고객지원센터",
+    "tel": "1551-3515"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국엡손(epson.co.kr) 홈: 한국엡손 고객지원센터 1551-3515 또는 1566-3515, e-mail master@epson.co.kr. 상담시간 표기가 없어 hours 를 비운다. 로고(흰색)를 측정하지 못해 중립 검정을 쓴다.",
+  "variant": "brand",
+  "jobs": "고객지원 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "한국엡손 고객지원센터",
+      "tel": "1551-3515"
+    },
+    {
+      "label": "한국엡손 고객지원센터(다른 번호)",
+      "tel": "1566-3515"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '한국엡손 고객지원센터'로 적힌 번호입니다."
+}

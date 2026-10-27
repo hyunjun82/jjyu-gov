@@ -1,0 +1,29 @@
+SLUG: samcheok-city-hall-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/samcheok-city-hall-call-center-*.png)
+
+===== [1] https://www.samcheok.go.kr =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/samcheok-city-hall-call-center-1.png
+CHARS: 238
+
+청정수소드림시티 H2DREAM!삼척
+
+다시 삼척의 시대
+
+삼척시 누리집 방문을 환영합니다.
+
+삼척시청
+삼척시 대표 누리집
+바로가기
+삼척시 고향사랑 기부제
+삼척에 사랑의 마음을 전해주세요
+바로가기
+답례품 보기
+삼척관광
+여행이 필요한 순간
+바로가기
+(25914) 강원특별자치도 삼척시 중앙로 296 대표전화 : 033-570-3114
+
+Copyright © 2023 Samcheok City. All rights reserved.

@@ -1,0 +1,398 @@
+SLUG: roborock-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/roborock-call-center-*.png)
+
+===== [1] https://kr.roborock.com/pages/contact-us =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/roborock-call-center-1.png
+CHARS: 1105
+
+당사는 웹사이트 기능 개선, 사용자 경험 향상, 광고 및 타겟팅 목적을 위해 쿠키를 사용합니다. 언제든지 "기본 설정"을 클릭하여 쿠키 기본 설정을 변경하거나 동의를 철회할 수 있습니다. 당사의 쿠키 정책 및 개인정보 처리방침을 확인하십시오. 자세히 알아보기
+기본 설정
+모두 허용
+Decline
+✕
+로봇청소기 
+세탁건조기 
+진공 물걸레 청소기 
+무선 진공청소기 
+탐색 
+스토어
+문의하기
+회사 소개
+문의하기
+
+서울 오피스
+
+서울특별시 강남구 테헤란로 410, 1502호 (대치동, 금강타워)
+
+마케팅
+
+media.kr@roborock.com
+
+유통
+
+sales@roborock.com
+
+고객 기술지원
+
+- 1566-5534
+
+- support@roborock.co.kr
+
+- 월요일-금요일 9:00 - 12:00, 13:00 - 18:00
+
+제품
+로봇 청소기
+진공 물걸레 청소기
+무선 진공청소기
+로보락 앱 다운로드
+
+App Store
+
+Google Play
+
+Support
+쿠키 정책
+서비스 및 보증
+Roborock 취약성 공개 정책
+교환 및 반품 안내
+구입처
+매장 찾기
+탐색
+App
+트러스트 센터
+로보락 소개
+회사 소개
+문의하기
+블로그
+AS 카카오톡 문의
+Copyright Roborock. All Rights Reserved.
+개인정보 처리방침 | 이용약관 | 소비자 분쟁 해결 절차 및 기준 | 배송 정책
+South Korea
+
+웹사이트 설명
+
+회사명：베이징 로보락 테크놀로지 주식유한회사
+
+대표이사：창경
+
+회사 등록번호：91110108306467260B
+
+주소：중국 베이징시 창핑구 안쥐로 17호 단지 3동 10층 1001호
+
+전화번호：+86 1080701770(중국)
+
+전자우편주소：sales@roborock.com
+
+호스팅 서비스를 제공하는 자의 상호：Shopify Commerce Singapore Pte. Ltd
+
+회사명: 주식회사 로보락 코리아
+
+대표이사：김청송
+
+사업자등록번호：564-88-02024
+
+주소：서울특별시 강남구 테헤란로 410, 1502호 (대치동, 금강타워)
+
+전화번호：1566-5534
+
+전자우편주소：sales-kr@roborock.com
+
+호스팅 서비스를 제공하는 자의 상호：Shopify Commerce Singapore Pte. Ltd
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+쿠키 기본 설정 관리
+항상 허용
+항상 활성화
+당사는 웹사이트의 기능 개선, 사용자 경험 향상, 광고 및 타겟팅 목적을 위해 쿠키(제3자 쿠키 포함)를 사용합니다. "필수 쿠키만"을 클릭하여 웹사이트가 제대로 작동하도록 하는 데 꼭 필요한 쿠키만 허용하거나 "모두 허용"을 클릭하여 모든 쿠키를 설정할 수 있습니다. 또한, 아래에서 장치에 설정된 쿠키를 관리할 수 있습니다.
+ 필수 쿠키
+ Always allowed
+ 이 쿠키는 웹사이트 운영에 필수적이며, 이를 해제하면 웹사이트의 기능에 문제가 발생할 수 있습니다. 해당 쿠키는 웹사이트 탐색 및 기본 기능 사용 등 사용자가 수행하는 작업에 응답하도록 설정됩니다.
+ Cookies details
+ Namesecure_customer_sigProviderShopifyDomainkr.roborock.comPath/TypeFirst-party (Cookie)Retention1 yearsPurposeUsed in connection with customer login.Name_tracking_consentProviderShopifyDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsPurposeTracking preferences.NamelocalizationProviderShopifyDomainkr.roborock.comPath/TypeFirst-party (Cookie)Retention1 yearsPurposeShopify store localizationName_cmp_aProviderShopifyDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 daysPurposeUsed for managing customer privacy settings.Namekeep_aliveProviderShopifyDomainkr.roborock.comPath/TypeFirst-party (Cookie)Retention30 minutesPurposeUsed in connection with buyer localization.Name_shopify_essentialProviderShopifyDomainkr.roborock.comPath/TypeFirst-party (Cookie)Retention1 yearsPurposeUsed on the accounts page.
+ 기능 쿠키
+ 이 쿠키는 웹사이트에서 향상된 기능 및 개인화된 기능(예: 사용자의 기본 설정 기억)을 제공합니다. 해당 쿠키는 당사 또는 당사 페이지에 서비스를 추가한 제3자 제공업체에서 설정합니다. 이러한 쿠키를 허용하지 않으면 해당 서비스의 일부 또는 전체가 제대로 작동하지 않을 수 있습니다.
+ Cookies details
+ 성능 쿠키
+ 이 쿠키는 집계 및 익명화된 방식으로 웹사이트 방문자 수와 같은 통계 정보를 제공하며, 방문자가 웹사이트를 탐색하는 방식을 보여줍니다. 이는 웹사이트의 성능을 개선하는 데 도움이 됩니다. 당사는 트래픽 및 사용 추세를 측정하고 사용자의 인구 통계를 파악하기 위해 Google Analytics와 같은 제3자 분석 도구를 사용할 수 있습니다.
+ Cookies details
+ Name_gidProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 daysPurposeCookie is placed by Google Analytics to count and track pageviews.Name_clckProviderMicrosoftDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsPurposeUsed by Microsoft Clarity to store a unique user ID.Name_gaProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsPurposeCookie is set by Google Analytics with unknown functionalityName_clskProviderMicrosoftDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 daysPurposeUsed by Microsoft Clarity to store a unique user ID. Name_boomr_clssProviderShopifyDomainhttps://kr.roborock.comPath/TypeFirst-party (Local Storage)Retention1 yearsPurposeUsed to monitor and optimize the performance of Shopify stores.Name_ga_F38JJSG3HHProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsName_ga_Z8R7FPE81MProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsName_gat_gtag_UA_113798511_8ProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 minutesName_ga_KJJ7DEJDQ4ProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsName_gat_UA-113798511-1ProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 minutesName_ga_E2LKTWVDQPProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsNameCLIDProviderMicrosoftDomainwww.clarity.msPath/TypeThird-party (Cookie)Retention1 yearsName_ga_LJXMZJSCZCProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsNameSMProviderMicrosoftDomain.c.clarity.msPath/TypeThird-party (Cookie)RetentionSession
+ 타겟팅 쿠키
+ 이 쿠키는 사용자를 프로파일링하거나 소셜 네트워크에서 광고를 제공합니다. 해당 플랫폼을 통해 친구 및 네트워크와 콘텐츠를 공유할 수 있습니다. 이러한 쿠키는 사용자의 브라우저와 인터넷 장치를 고유하게 식별할 수 있습니다. 해당 쿠키를 허용하지 않으면 당사 사이트에서 이러한 공유 도구를 사용하거나 보지 못할 수 있습니다.
+ Cookies details
+ Name_gcl_auProviderGoogleDomain.roborock.comPath/TypeThird-party (Cookie)Retention3 monthsPurposeCookie is placed by Google Tag Manager to track conversions.Name_fbpProviderFacebookDomain.roborock.comPath/TypeThird-party (Cookie)Retention3 monthsPurposeCookie is placed by Facebook to track visits across websites.Name_uetvidProviderBingDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 yearsPurposeUsed to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.Name_uetsidProviderBingDomain.roborock.comPath/TypeThird-party (Cookie)Retention1 daysPurposeThis cookie is used by Bing to determine what ads should be shown that may be relevant to the end user perusing the site.NameIDEProviderGoogleDomain.doubleclick.netPath/TypeThird-party (Cookie)Retention1 yearsPurposeTo measure the visitors’ actions after they click through from an advert. Expires after 1 year.NameMUIDProviderMicrosoftDomain.bing.comPath/TypeThird-party (Cookie)Retention1 yearsPurposeCookie is placed by Microsoft to track visits across websites.NameMUIDProviderMicrosoftDomain.clarity.msPath/TypeThird-party (Cookie)Retention1 yearsPurposeCookie is placed by Microsoft to track visits across websites.NamelastExternalReferrerProviderFacebookDomainhttps://kr.roborock.comPath/TypeFirst-party (Local Storage)Retention1 yearsPurposeDetects how the user reached the website by registering their last URL-address.NamelastExternalReferrerTimeProviderFacebookDomainhttps://kr.roborock.comPath/TypeFirst-party (Local Storage)Retention1 yearsPurposeContains the timestamp of the last update of the lastExternalReferrer cookie.Namead-idProviderAmazonDomain.amazon-adsystem.comPath/TypeThird-party (Cookie)Retention6 monthsNameMRProviderMicrosoftDomain.c.bing.comPath/TypeThird-party (Cookie)Retention1 SessionNamead-privacyProviderAmazonDomain.amazon-adsystem.comPath/TypeThird-party (Cookie)Retention1 yearsNameMRProviderMicrosoftDomain.c.clarity.msPath/TypeThird-party (Cookie)Retention1 SessionNameNIDProviderGoogleDomain.google.comPath/TypeThird-party (Cookie)Retention6 monthsNameANONCHKProviderMicrosoftDomain.c.clarity.msPath/TypeThird-party (Cookie)Retention10 minutes
+닫기
+기본 설정 저장
+ Powered by Pandectes
+
+언어 및 지역 설정 변경하고 나에게 맞는 컨텐츠 조회 및 온라인 쇼핑하기
+ Korea, South
+ 언어 및 지역 설정 변경
+ 계속
+
+Saros 시리즈
+ 탐색하기
+ Saros Z70
+ 탐색하기
+
+S 시리즈
+ 탐색하기
+ Roborock S10 MaxV Ultra Steam
+ S10 MaxV Ultra
+ S10 MaxV Slim
+ S9 MaxV Ultra
+ S9 MaxV Slim
+ S8 MaxV Ultra
+ S8 Max Ultra
+ Roborock S8 Pro 시리즈
+ S8
+ 탐색하기
+
+Qrevo Curv 시리즈
+ 탐색하기
+ Qrevo Curv 2 Flow
+ Qrevo Curv
+ 탐색하기
+
+Qrevo Edge 시리즈
+ 탐색하기
+ Qrevo Edge 2
+ Qrevo EdgeC
+ 탐색하기
+
+Qrevo 시리즈
+ 탐색하기
+ New
+.product-tag {
+ padding: 2px 6px;
+ border-radius: 4px;
+ color: var(--brand-color);
+ background: #FEF2F4;
+ font-size: 12px;
+ font-weight: 500;
+ line-height: 16px;
+ height: 20px;
+}
+.product-tag.transparent {
+ background: none;
+}
+ Qrevo 2 Pro
+ New
+.product-tag {
+ padding: 2px 6px;
+ border-radius: 4px;
+ color: var(--brand-color);
+ background: #FEF2F4;
+ font-size: 12px;
+ font-weight: 500;
+ line-height: 16px;
+ height: 20px;
+}
+.product-tag.transparent {
+ background: none;
+}
+ Qrevo L Pro
+ Qrevo C Pro
+ Qrevo C
+ Qrevo L
+ 탐색하기
+
+Q 시리즈
+ 탐색하기
+ Roborock Q8 Max Pro+
+ Roborock Q8 시리즈
+ 탐색하기
+
+Zeo 시리즈
+ Roborock Zeo X
+
+H 시리즈
+ Roborock H1
+ Roborock H1 Lite
+
+M 시리즈
+ Roborock M1
+
+Roborock F25 Gen 2 시리즈
+ 탐색하기
+ Roborock F25 Ultra Steam Gen 2
+ Roborock F25 RT Gen 2
+ 탐색하기
+
+Roborock F25 시리즈
+ 탐색하기
+ Roborock F25 Ultra
+ New
+.product-tag {
+ padding: 2px 6px;
+ border-radius: 4px;
+ color: var(--brand-color);
+ background: #FEF2F4;
+ font-size: 12px;
+ font-weight: 500;
+ line-height: 16px;
+ height: 20px;
+}
+.product-tag.transparent {
+ background: none;
+}
+ Roborock F25 Steam
+ Roborock F25 ACE Pro
+ Roborock F25 ACE
+ Roborock F25
+ Roborock F25 RT
+ 탐색하기
+
+Roborock F25 Combo 시리즈
+ 탐색하기
+ Roborock F25 ACE Combo
+ 탐색하기
+
+Roborock H60 Hub 시리즈
+ 탐색하기
+ Roborock H60 Hub Ultra
+ New
+.product-tag {
+ padding: 2px 6px;
+ border-radius: 4px;
+ color: var(--brand-color);
+ background: #FEF2F4;
+ font-size: 12px;
+ font-weight: 500;
+ line-height: 16px;
+ height: 20px;
+}
+.product-tag.transparent {
+ background: none;
+}
+ Roborock H60 Hub Plus
+ 탐색하기
+
+Roborock H60 시리즈
+ 탐색하기
+ Roborock H60 Pro
+ Roborock H60
+ 탐색하기
+
+H 시리즈
+ 탐색하기
+ H5
+ 탐색하기
+
+탐색
+ .nav-sub-panel-header {
+ display: none;
+ align-items: center;
+ justify-content: space-between;
+ box-sizing: border-box;
+ /*
+ * 与 .prod-list-mega-panel 的 padding-inline: var(--margin-x) 对消，顶栏铺满屏缘。
+ * 使用显式 width + margin-inline，避免 width:100% 与双侧负 margin 造成横向溢出/误判。
+ */
+ width: calc(100% + 2 * var(--margin-x, 24px));
+ margin-inline: calc(-1 * var(--margin-x, 24px));
+ margin-block: 0;
+ padding: 0 12px;
+ /* 与主导航 Row 同高（Pad 56 / Mobile 48 等见 vars.css --navbar-height） */
+ min-height: var(--navbar-height);
+ height: var(--navbar-height);
+ border-bottom: 0.5px solid var(--border-color);
+ background: #fff;
+ position: sticky;
+ top: 0;
+ z-index: 20;
+ }
+ @media (max-width: 1183px) {
+ .nav-sub-panel-header {
+ display: flex;
+ min-height: var(--navbar-height);
+ height: var(--navbar-height);
+ }
+ }
+ /* Figma 1:3978–3981：左右触控区 px-10 py-12 */
+ .nav-sub-panel-hit {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ flex-shrink: 0;
+ margin: 0;
+ padding: 12px 10px;
+ border: none;
+ background: none;
+ cursor: pointer;
+ color: var(--main-color);
+ font: inherit;
+ }
+ .nav-sub-panel-back {
+ gap: 4px;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 20px;
+ }
+ .nav-sub-panel-back svg {
+ width: 24px;
+ height: 24px;
+ flex-shrink: 0;
+ }
+ .nav-sub-panel-title {
+ flex: 1;
+ margin: 0;
+ /* Figma 1:3980：16 Medium / 20 */
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 20px;
+ text-align: center;
+ color: var(--main-color);
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ min-width: 0;
+ padding: 0 8px;
+ }
+ .nav-sub-panel-close svg {
+ display: block;
+ width: 24px;
+ height: 24px;
+ flex-shrink: 0;
+ }
+ 트러스트 센터
+ 트러스트 센터
+ 로보락 App
+ App
+ 블로그
+ 블로그
+
+----- 이미지 대체텍스트 (img alt) -----
+Saros Z70
+Roborock S10 MaxV Ultra Steam
+S10 MaxV Ultra
+S10 MaxV Slim
+S9 MaxV Ultra
+S9 MaxV Slim
+S8 MaxV Ultra
+S8 Max Ultra
+Roborock S8 Pro 시리즈
+Qrevo Curv 2 Flow
+Qrevo Edge 2
+Qrevo 2 Pro
+Roborock Q8 Max Pro+
+Roborock Q8 시리즈
+Roborock H1
+Roborock H1 Lite
+Roborock M1
+Roborock F25 Ultra Steam Gen 2
+Roborock F25 RT Gen 2
+Roborock F25 Ultra
+Roborock F25 Steam
+Roborock F25 ACE Pro
+Roborock F25 ACE
+Roborock F25
+Roborock F25 RT
+Roborock F25 ACE Combo
+Roborock H60 Hub Ultra
+Roborock H60 Hub Plus
+Roborock H60 Pro
+Roborock H60
+카카오톡 채널 1:1 채팅 버튼

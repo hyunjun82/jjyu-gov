@@ -1,0 +1,46 @@
+{
+  "slug": "gangdong-gu-office",
+  "name": "강동구청",
+  "aliases": [
+    "강동구청 전화번호",
+    "강동구청 대표전화",
+    "강동구청 민원 전화",
+    "강동구청 당직실",
+    "강동구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#D73435",
+  "official": "https://www.gangdong.go.kr",
+  "sourceUrl": "https://www.gangdong.go.kr/",
+  "sourceName": "강동구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울시 강동구 성내로 25",
+  "hqZip": "05397",
+  "main": {
+    "label": "TEL",
+    "tel": "02-3425-5000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 강동구청(www.gangdong.go.kr) 하단: TEL : 1577-1188(※120다산콜센터로 연결), 02-3425-5000 (야간, 공휴일/당직실) / FAX : 02-3425-7200. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "02-3425-5000",
+      "note": "120 다산콜센터로 연결"
+    },
+    {
+      "label": "야간·공휴일 당직실",
+      "tel": "02-3425-7200"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

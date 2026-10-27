@@ -2406,6 +2406,109 @@ import { fursysCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/
 import { zinusCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/zinus';
 import { chosunIlboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/chosun-ilbo';
 import { joongangIlboCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/joongang-ilbo';
+import { lenovoKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/lenovo-korea';
+import { asusKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/asus-korea';
+import { trigemCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/trigem';
+import { micronicsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/micronics';
+import { leopoldCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/leopold';
+import { roycheCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/royche';
+import { sindohCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/sindoh';
+import { fujifilmBusinessInnovationKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/fujifilm-business-innovation-korea';
+import { alphascanCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/alphascan';
+import { epsonKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/epson-korea';
+import { krmotorsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/krmotors';
+import { samchulyBicycleCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/samchuly-bicycle';
+import { locknlockCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/locknlock';
+import { samickMusicalInstrumentsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/samick-musical-instruments';
+import { emonsCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/emons';
+import { commaxCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/commax';
+import { electrolandCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/온라인고객센터/electroland';
+import { roborockCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/roborock';
+import { bissellKoreaCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/가전고객센터/bissell-korea';
+import { jungGuSeoulOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jung-gu-seoul-office';
+import { yongsanGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yongsan-gu-office';
+import { gwangjinGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gwangjin-gu-office';
+import { dongdaemunGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dongdaemun-gu-office';
+import { seongbukGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seongbuk-gu-office';
+import { gangbukGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangbuk-gu-office';
+import { dobongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dobong-gu-office';
+import { nowonGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/nowon-gu-office';
+import { seodaemunGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seodaemun-gu-office';
+import { yangcheonGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yangcheon-gu-office';
+import { gangseoGuSeoulOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangseo-gu-seoul-office';
+import { geumcheonGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/geumcheon-gu-office';
+import { dongjakGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dongjak-gu-office';
+import { gwanakGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gwanak-gu-office';
+import { seochoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seocho-gu-office';
+import { songpaGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/songpa-gu-office';
+import { gangdongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangdong-gu-office';
+import { yeongdeungpoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yeongdeungpo-gu-office';
+import { gangnamGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangnam-gu-office';
+import { jongnoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jongno-gu-office';
+import { seongdongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/seongdong-gu-office';
+import { jungnangGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jungnang-gu-office';
+import { eunpyeongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/eunpyeong-gu-office';
+import { mapoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/mapo-gu-office';
+import { gimpoCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gimpo-city-hall';
+import { gwangjuGyeonggiCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gwangju-gyeonggi-city-hall';
+import { anyangCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/anyang-city-hall';
+import { pyeongtaekCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/pyeongtaek-city-hall';
+import { uijeongbuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/uijeongbu-city-hall';
+import { busanSeoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busan-seo-gu-office';
+import { busanDongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busan-dong-gu-office';
+import { busanjinGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busanjin-gu-office';
+import { dongnaeGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dongnae-gu-office';
+import { busanNamGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busan-nam-gu-office';
+import { busanBukGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/busan-buk-gu-office';
+import { sahaGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/saha-gu-office';
+import { yeonjeGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yeonje-gu-office';
+import { sasangGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/sasang-gu-office';
+import { yeongdoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yeongdo-gu-office';
+import { haeundaeGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/haeundae-gu-office';
+import { suyeongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/suyeong-gu-office';
+import { daeguSeoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daegu-seo-gu-office';
+import { daeguNamGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daegu-nam-gu-office';
+import { daeguBukGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daegu-buk-gu-office';
+import { dalseoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dalseo-gu-office';
+import { michuholGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/michuhol-gu-office';
+import { yeonsuGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yeonsu-gu-office';
+import { gyeyangGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gyeyang-gu-office';
+import { incheonSeoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/incheon-seo-gu-office';
+import { ganghwaGunOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ganghwa-gun-office';
+import { ongjinGunOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ongjin-gun-office';
+import { dalseongGunOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dalseong-gun-office';
+import { daejeonDongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daejeon-dong-gu-office';
+import { yuseongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yuseong-gu-office';
+import { ulsanJungGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ulsan-jung-gu-office';
+import { ulsanBukGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ulsan-buk-gu-office';
+import { uljuGunOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ulju-gun-office';
+import { daedeokGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daedeok-gu-office';
+import { ulsanDongGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ulsan-dong-gu-office';
+import { gwangjuNamGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gwangju-nam-gu-office';
+import { gwangsanGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gwangsan-gu-office';
+import { gwangjuSeoGuOfficeCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gwangju-seo-gu-office';
+import { gangneungCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gangneung-city-hall';
+import { jeonjuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeonju-city-hall';
+import { mokpoCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/mokpo-city-hall';
+import { suncheonCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/suncheon-city-hall';
+import { yeosuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yeosu-city-hall';
+import { pohangCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/pohang-city-hall';
+import { gumiCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gumi-city-hall';
+import { jinjuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jinju-city-hall';
+import { gyeongjuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gyeongju-city-hall';
+import { chuncheonCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/chuncheon-city-hall';
+import { wonjuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/wonju-city-hall';
+import { cheonanCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/cheonan-city-hall';
+import { chungjuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/chungju-city-hall';
+import { iksanCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/iksan-city-hall';
+import { sokchoCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/sokcho-city-hall';
+import { samcheokCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/samcheok-city-hall';
+import { gongjuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gongju-city-hall';
+import { jecheonCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jecheon-city-hall';
+import { geojeCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/geoje-city-hall';
+import { jeongeupCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeongeup-city-hall';
+import { namwonCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/namwon-city-hall';
+import { najuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/naju-city-hall';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2454,6 +2557,18 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'self-employed-four-insurance-join': 개인사업자4대보험가입방법SpokeContent,
   },
   'appliance-call-center': {
+    'bissell-korea': bissellKoreaCallCenterSpokeContent,
+    'roborock': roborockCallCenterSpokeContent,
+    'epson-korea': epsonKoreaCallCenterSpokeContent,
+    'alphascan': alphascanCallCenterSpokeContent,
+    'fujifilm-business-innovation-korea': fujifilmBusinessInnovationKoreaCallCenterSpokeContent,
+    'sindoh': sindohCallCenterSpokeContent,
+    'royche': roycheCallCenterSpokeContent,
+    'leopold': leopoldCallCenterSpokeContent,
+    'micronics': micronicsCallCenterSpokeContent,
+    'trigem': trigemCallCenterSpokeContent,
+    'asus-korea': asusKoreaCallCenterSpokeContent,
+    'lenovo-korea': lenovoKoreaCallCenterSpokeContent,
     'yujin-robot': yujinRobotCallCenterSpokeContent,
     'vornado-korea': vornadoKoreaCallCenterSpokeContent,
     'steelseries': steelseriesCallCenterSpokeContent,
@@ -2531,6 +2646,90 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'naju-city-hall': najuCityHallCallCenterSpokeContent,
+    'namwon-city-hall': namwonCityHallCallCenterSpokeContent,
+    'jeongeup-city-hall': jeongeupCityHallCallCenterSpokeContent,
+    'geoje-city-hall': geojeCityHallCallCenterSpokeContent,
+    'jecheon-city-hall': jecheonCityHallCallCenterSpokeContent,
+    'gongju-city-hall': gongjuCityHallCallCenterSpokeContent,
+    'samcheok-city-hall': samcheokCityHallCallCenterSpokeContent,
+    'sokcho-city-hall': sokchoCityHallCallCenterSpokeContent,
+    'iksan-city-hall': iksanCityHallCallCenterSpokeContent,
+    'chungju-city-hall': chungjuCityHallCallCenterSpokeContent,
+    'cheonan-city-hall': cheonanCityHallCallCenterSpokeContent,
+    'wonju-city-hall': wonjuCityHallCallCenterSpokeContent,
+    'chuncheon-city-hall': chuncheonCityHallCallCenterSpokeContent,
+    'gyeongju-city-hall': gyeongjuCityHallCallCenterSpokeContent,
+    'jinju-city-hall': jinjuCityHallCallCenterSpokeContent,
+    'gumi-city-hall': gumiCityHallCallCenterSpokeContent,
+    'pohang-city-hall': pohangCityHallCallCenterSpokeContent,
+    'yeosu-city-hall': yeosuCityHallCallCenterSpokeContent,
+    'suncheon-city-hall': suncheonCityHallCallCenterSpokeContent,
+    'mokpo-city-hall': mokpoCityHallCallCenterSpokeContent,
+    'jeonju-city-hall': jeonjuCityHallCallCenterSpokeContent,
+    'gangneung-city-hall': gangneungCityHallCallCenterSpokeContent,
+    'gwangju-seo-gu-office': gwangjuSeoGuOfficeCallCenterSpokeContent,
+    'gwangsan-gu-office': gwangsanGuOfficeCallCenterSpokeContent,
+    'gwangju-nam-gu-office': gwangjuNamGuOfficeCallCenterSpokeContent,
+    'ulsan-dong-gu-office': ulsanDongGuOfficeCallCenterSpokeContent,
+    'daedeok-gu-office': daedeokGuOfficeCallCenterSpokeContent,
+    'ulju-gun-office': uljuGunOfficeCallCenterSpokeContent,
+    'ulsan-buk-gu-office': ulsanBukGuOfficeCallCenterSpokeContent,
+    'ulsan-jung-gu-office': ulsanJungGuOfficeCallCenterSpokeContent,
+    'yuseong-gu-office': yuseongGuOfficeCallCenterSpokeContent,
+    'daejeon-dong-gu-office': daejeonDongGuOfficeCallCenterSpokeContent,
+    'dalseong-gun-office': dalseongGunOfficeCallCenterSpokeContent,
+    'ongjin-gun-office': ongjinGunOfficeCallCenterSpokeContent,
+    'ganghwa-gun-office': ganghwaGunOfficeCallCenterSpokeContent,
+    'incheon-seo-gu-office': incheonSeoGuOfficeCallCenterSpokeContent,
+    'gyeyang-gu-office': gyeyangGuOfficeCallCenterSpokeContent,
+    'yeonsu-gu-office': yeonsuGuOfficeCallCenterSpokeContent,
+    'michuhol-gu-office': michuholGuOfficeCallCenterSpokeContent,
+    'dalseo-gu-office': dalseoGuOfficeCallCenterSpokeContent,
+    'daegu-buk-gu-office': daeguBukGuOfficeCallCenterSpokeContent,
+    'daegu-nam-gu-office': daeguNamGuOfficeCallCenterSpokeContent,
+    'daegu-seo-gu-office': daeguSeoGuOfficeCallCenterSpokeContent,
+    'suyeong-gu-office': suyeongGuOfficeCallCenterSpokeContent,
+    'haeundae-gu-office': haeundaeGuOfficeCallCenterSpokeContent,
+    'yeongdo-gu-office': yeongdoGuOfficeCallCenterSpokeContent,
+    'sasang-gu-office': sasangGuOfficeCallCenterSpokeContent,
+    'yeonje-gu-office': yeonjeGuOfficeCallCenterSpokeContent,
+    'saha-gu-office': sahaGuOfficeCallCenterSpokeContent,
+    'busan-buk-gu-office': busanBukGuOfficeCallCenterSpokeContent,
+    'busan-nam-gu-office': busanNamGuOfficeCallCenterSpokeContent,
+    'dongnae-gu-office': dongnaeGuOfficeCallCenterSpokeContent,
+    'busanjin-gu-office': busanjinGuOfficeCallCenterSpokeContent,
+    'busan-dong-gu-office': busanDongGuOfficeCallCenterSpokeContent,
+    'busan-seo-gu-office': busanSeoGuOfficeCallCenterSpokeContent,
+    'uijeongbu-city-hall': uijeongbuCityHallCallCenterSpokeContent,
+    'pyeongtaek-city-hall': pyeongtaekCityHallCallCenterSpokeContent,
+    'anyang-city-hall': anyangCityHallCallCenterSpokeContent,
+    'gwangju-gyeonggi-city-hall': gwangjuGyeonggiCityHallCallCenterSpokeContent,
+    'gimpo-city-hall': gimpoCityHallCallCenterSpokeContent,
+    'mapo-gu-office': mapoGuOfficeCallCenterSpokeContent,
+    'eunpyeong-gu-office': eunpyeongGuOfficeCallCenterSpokeContent,
+    'jungnang-gu-office': jungnangGuOfficeCallCenterSpokeContent,
+    'seongdong-gu-office': seongdongGuOfficeCallCenterSpokeContent,
+    'jongno-gu-office': jongnoGuOfficeCallCenterSpokeContent,
+    'gangnam-gu-office': gangnamGuOfficeCallCenterSpokeContent,
+    'yeongdeungpo-gu-office': yeongdeungpoGuOfficeCallCenterSpokeContent,
+    'gangdong-gu-office': gangdongGuOfficeCallCenterSpokeContent,
+    'songpa-gu-office': songpaGuOfficeCallCenterSpokeContent,
+    'seocho-gu-office': seochoGuOfficeCallCenterSpokeContent,
+    'gwanak-gu-office': gwanakGuOfficeCallCenterSpokeContent,
+    'dongjak-gu-office': dongjakGuOfficeCallCenterSpokeContent,
+    'geumcheon-gu-office': geumcheonGuOfficeCallCenterSpokeContent,
+    'gangseo-gu-seoul-office': gangseoGuSeoulOfficeCallCenterSpokeContent,
+    'yangcheon-gu-office': yangcheonGuOfficeCallCenterSpokeContent,
+    'seodaemun-gu-office': seodaemunGuOfficeCallCenterSpokeContent,
+    'nowon-gu-office': nowonGuOfficeCallCenterSpokeContent,
+    'dobong-gu-office': dobongGuOfficeCallCenterSpokeContent,
+    'gangbuk-gu-office': gangbukGuOfficeCallCenterSpokeContent,
+    'seongbuk-gu-office': seongbukGuOfficeCallCenterSpokeContent,
+    'dongdaemun-gu-office': dongdaemunGuOfficeCallCenterSpokeContent,
+    'gwangjin-gu-office': gwangjinGuOfficeCallCenterSpokeContent,
+    'yongsan-gu-office': yongsanGuOfficeCallCenterSpokeContent,
+    'jung-gu-seoul-office': jungGuSeoulOfficeCallCenterSpokeContent,
     'joongang-ilbo': joongangIlboCallCenterSpokeContent,
     'chosun-ilbo': chosunIlboCallCenterSpokeContent,
     'korea-rail-network-authority': koreaRailNetworkAuthorityCallCenterSpokeContent,
@@ -2813,6 +3012,13 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'welcome-savings-loan': welcomeSavingsLoanCallCenterSpokeContent,
   },
   'online-call-center': {
+    'electroland': electrolandCallCenterSpokeContent,
+    'commax': commaxCallCenterSpokeContent,
+    'emons': emonsCallCenterSpokeContent,
+    'samick-musical-instruments': samickMusicalInstrumentsCallCenterSpokeContent,
+    'locknlock': locknlockCallCenterSpokeContent,
+    'samchuly-bicycle': samchulyBicycleCallCenterSpokeContent,
+    'krmotors': krmotorsCallCenterSpokeContent,
     'zinus': zinusCallCenterSpokeContent,
     'fursys': fursysCallCenterSpokeContent,
     'com2us': com2usCallCenterSpokeContent,

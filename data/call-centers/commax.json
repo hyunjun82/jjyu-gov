@@ -1,0 +1,40 @@
+{
+  "slug": "commax",
+  "name": "코맥스",
+  "aliases": [
+    "코맥스 고객센터",
+    "코맥스 AS",
+    "코맥스 전화번호",
+    "코맥스 도어락",
+    "COMMAX"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.commax.com",
+  "sourceUrl": "https://www.commax.com/",
+  "sourceName": "코맥스 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터",
+    "tel": "1599-8866"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 코맥스(commax.com) 개인정보 처리 안내: 고객센터 1599-8866. 홈에는 TEL 031-731-8791(본사)과 도어록 전용 고객센터 1899-2333 표기도 있으나 추출본(개인정보 처리 페이지)에 후자가 없어 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "제품 모델명과 설치 주소",
+  "jobs": "제품 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1599-8866"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "daejeon-dong-gu-office",
+  "name": "대전 동구청",
+  "aliases": [
+    "대전 동구청 전화번호",
+    "대전 동구청 대표전화",
+    "대전 동구청 민원 전화",
+    "대전 동구청 당직실",
+    "대전 동구청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.donggu.go.kr",
+  "sourceUrl": "https://www.donggu.go.kr/",
+  "sourceName": "대전 동구청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대전광역시 동구 동구청로 147",
+  "hqZip": "34691",
+  "main": {
+    "label": "대표전화",
+    "tel": "042-251-4114"
+  },
+  "hours": {
+    "weekday": "월~금 / 09:00~18:00"
+  },
+  "hoursNote": "[2026-10-27] 대전 동구청(www.donggu.go.kr) 하단: 대표전화 042-251-4114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "042-251-4114",
+      "note": "월~금 / 09:00~18:00"
+    },
+    {
+      "label": "야간·공휴일 당직실",
+      "tel": "042-251-4222",
+      "note": "주말, 공휴일, 야간 숙직실"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

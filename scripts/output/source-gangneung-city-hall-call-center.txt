@@ -1,0 +1,54 @@
+SLUG: gangneung-city-hall-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/gangneung-city-hall-call-center-*.png)
+
+===== [1] https://www.gn.go.kr =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/gangneung-city-hall-call-center-1.png
+CHARS: 322
+
+통합검색
+통합검색
+검색어 입력
+검색
+강릉시청
+
+강릉시 대표 누리집으로 바로가기
+
+ 
+통합예약
+
+강릉시 모든 예약을 한번에 편리하게!
+
+ 
+강릉관광
+
+강릉여행, 향기로 물들다
+
+ 
+강릉고향사랑기부제
+
+기부는 고향을 응원하는 마음입니다.
+
+ 
+SNS
+
+강릉시와 함께 소통해요.
+
+페이스북 바로가기
+ 
+인스타그램 바로가기
+ 
+유튜브 바로가기
+ 
+블로그 바로가기
+ 
+카카오채널 바로가기
+[25522] 강원특별자치도 강릉시 강릉대로 33 (홍제동) 대표전화(강릉시 민원콜센터) 033-660-2018
+
+Copyright ⓒ Gangneung-si. All Rights Reserved.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+GANGNEUNG ITS World Congress 2026/Beyond Mobility Connected World/10월 19일(월)~23일(금) 강릉 올림픽파크 일원
+ D-0

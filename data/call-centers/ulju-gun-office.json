@@ -1,0 +1,39 @@
+{
+  "slug": "ulju-gun-office",
+  "name": "울주군청",
+  "aliases": [
+    "울주군청 전화번호",
+    "울주군청 대표전화",
+    "울주군청 민원 전화",
+    "울주군청 당직실",
+    "울주군청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.ulju.ulsan.kr",
+  "sourceUrl": "https://www.ulju.ulsan.kr/",
+  "sourceName": "울주군청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "052-204-1000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 울주군청(www.ulju.ulsan.kr) 하단: 대표전화 052-204-1000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "052-204-1000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

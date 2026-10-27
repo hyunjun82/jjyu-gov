@@ -1,0 +1,41 @@
+{
+  "slug": "geoje-city-hall",
+  "name": "거제시청",
+  "aliases": [
+    "거제시청 전화번호",
+    "거제시청 대표전화",
+    "거제시청 민원 전화",
+    "거제시청 당직실",
+    "거제시청 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.geoje.go.kr",
+  "sourceUrl": "https://www.geoje.go.kr/",
+  "sourceName": "거제시청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경상남도 거제시 계룡로 125",
+  "hqZip": "53257",
+  "main": {
+    "label": "대표전화",
+    "tel": "055-639-3000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 거제시청(www.geoje.go.kr) 하단: 대표전화 055-639-3000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않거나 불안정해 중립 검정.",
+  "variant": "institution",
+  "jobs": "대표 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "055-639-3000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}
