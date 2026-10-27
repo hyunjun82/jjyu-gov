@@ -1,0 +1,349 @@
+SLUG: seoulland-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/seoulland-call-center-*.png)
+
+===== [1] https://seoulland.co.kr/?p=22 =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/seoulland-call-center-1.png
+CHARS: 673
+
+본문 바로가기
+이용정보
+요금안내 및 예매
+공연이벤트안내
+시설안내
+고객센터
+단체프로그램
+연간이용센터
+ENG
+CHN
+ 고객센터 
+ 1:1문의 
+서울랜드 1:1문의 안내
+
+궁금하신 점은 1:1문의를 남겨주세요
+
+문의 전 확인해주세요!
+먼저 자주하는 질문을 확인해 주세요. 궁금하신 내용이 이미 등록되어 있을 수 있습니다.
+1:1문의에 대한 답변은 12시간 내 등록하신 이메일로 발송됩니다.
+제휴 및 협업(기업 및 대학 동아리 등), 원내 입점, 행사대관 촬영 관련 문의는 '제휴문의 게시판'을 이용해주세요.
+접수 문의가 많을 경우 시간이 소요될 수 있으니 양해 부탁 드립니다.
+조금 더 빠른 상담을 원하신다면 서울랜드 콜센터로 전화주세요.
+서울랜드 콜센터 : 02-509-6000 (공원 운영 시간 내 연결 가능)
+자주하는질문 확인하기
+ 
+1:1문의 등록하기
+ 
+제휴문의하기
+TOP
+서울랜드
+개인정보처리방침
+이메일 무단 수집 거부
+인재 채용
+서울랜드 스폰서
+제휴문의
+Seoul Land
+패밀리 사이트
+
+13829 경기도 과천시 광명로 181 ㈜ 서울랜드 02-509-6000 138-81-04654   통신판매업 신고번호 : 과천 제 137호
+개인정보 관리책임자 : 마케팅팀 이관철 Webmaster@seoulland.co.kr
+
+Copyright © Seoulland. All rights reserved.
+
+----- 표 (innerText 가 못 읽는 자리) -----
+[표 1]
+파트너사 | 전화번호 | 팩스번호 | 이메일
+국제체험학습여행사 | 02-548-7811 | 02-548-7889 | 7811young@naver.com
+그린투어 | 02-306-8484 | 0508-939-0402 | mode8997@hanmail.net
+설레는 체험세상 | 010-6327-0489 | 031-893-3669 | empiezo@nate.com
+지인이벤트투어 | 010-4319-1050 | - | ljoons@hanmail.net
+제세관광여행사 | 02-419-1305 | 02-3431-2002 | jese1305@daum.net
+충무이벤트 | 02-965-7198 | 02-965-0584 | saraya100@hanmail.net
+크로바관광여행사 | 041-572-9004 | 041-574-9921 | croverhs@hanmail.net
+ENJ WORLD | 1661-1126 | 0504-490-1897 | shinyhyung7@naver.com
+JSP 재승 | 031-233-2148 | 031-233-2158 | jstour6994@hanmail.net
+
+[표 2]
+레스토랑명/이용시간 | 이용가능메뉴
+장터 11:00 ~ 20:00 | 장터 설렁탕 장터 국수
+키즈팔래스 11:00 ~ 20:00 | 자장면
+산타 레스토랑 11:00 ~ 20:00 | 돈가스
+롯데리아 11:00 ~ 20:00 | 불고기버거 + 콜라 사이즈 업 + 치즈스틱 2ea
+캘리포니아피자키친 11:00 ~ 20:00 | 컵파스타 + 캔콜라
+캐루셀 스낵 11:00 ~ 20:00 | 치킨팝콘 + 슬러시
+카페 초이빈&코코호도 11:00 ~ 20:00 | 호도과자(21개)
+모험스낵 11:00 ~ 20:00 | 콜팝 + 소시지
+델리만쥬 11:00 ~ 20:00 | 델리만쥬(22개)
+롤리폴리 11:00 ~ 20:00 | 젤리류 밀쿠폰 가격에 맞는 'g'으로 제공
+다롱이기프트 11:00 ~ 20:00 | 머리띠
+카페리앙 11:00 ~ 20:00 | 플레인/치즈핫도그 + 아이스티/쥬스
+쏘핫(카레원카트) 11:00 ~ 20:00 | 왕닭꼬치 + 슬러쉬 소세지 + 치킨팝콘슬러쉬
+오징어카트 11:00 ~ 20:00 | 조미버터오징어 + 캔콜라
+BHC치킨 11:00 ~ 20:00 | 뿌링클치킨버거세트 (뿌링클치킨버거 + 펩시355ML(캔))
+카페캐럿 11:00 ~ 20:00 | 초코라떼 + 마카롱
+
+[표 3]
+레스토랑명/이용시간 | 이용가능메뉴
+산타 레스토랑 11:00 ~ 20:00 | 돈가스 + 망고쥬스
+캐루셀라멘 11:00 ~ 20:00 | 돈코츠라멘
+포메인 11:00 ~ 20:00 | 포메인쌀국수S
+캘리포니아피자키친 11:00 ~ 20:00 | 볼로네즈파스타
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+이용정보
+ 운영시간
+ 공지사항
+ 오시는길
+ 가이드맵
+
+요금안내 및 예매
+ 요금안내
+ 이용요금할인&이벤트 예매
+ 유료쉼터 예약 안내
+
+공연이벤트안내
+ 연간 공연이벤트
+ 공연이벤트소개
+ 공연이벤트일정
+
+시설안내
+ 어트랙션
+ 음식점/상점
+ 편의시설
+
+고객센터
+ 자주하는 질문
+ 1:1문의
+ 분실물센터
+ 서울랜드APP 안내
+
+단체프로그램
+ 학생단체
+ 기업행사/장소대여
+ 외국인단체
+
+연간이용센터
+ 서울랜드 연간이용권
+ 다모아 연간이용권
+
+ENG
+ CHN
+ ALL MENU
+ 이용정보
+ 운영시간
+ 공지사항
+ 오시는길
+ 가이드맵
+ 요금안내 및 예매
+ 요금안내
+ 이용요금 할인&이벤트 예매
+ 유료쉼터 예약 안내
+ 공연이벤트안내
+ 연간 공연이벤트
+ 공연이벤트소개
+ 공연이벤트일정
+ 시설안내
+ 어트랙션
+ 음식점/상점
+ 편의시설
+ 고객센터
+ 자주하는 질문
+ 1:1문의
+ 분실물센터
+ 서울랜드APP 안내
+ 단체프로그램
+ 학생단체
+ 기업행사/장소대여
+ 외국인단체
+ 연간이용센터
+ 서울랜드 연간이용권
+ 다모아 연간이용권
+
+자주하는 질문
+ 1:1문의
+ 분실물센터
+ 서울랜드APP 안내
+
+서울랜드 저작권정책
+ 서울랜드 홈페이지에서 제공하는 모든 자료는 저작권법 (제2조 17, 18호 및 제6조)에 의하여 보호받는 저작물로 모든 권리는 서울랜드에 있습니다.
+ 서울랜드에서 제공하는 자료에 대한 무단전재 및 재배포를 원칙적으로 금합니다.
+ 서울랜드 홈페이지에서 제공되는 자료를 사용하고자 하는 경우에는 서울랜드와 사전에 별도의 협의를 하거나 허락을 얻어야하며, 허락을 얻어 자료의 내용을 게재하는 경우에도 출처가 서울랜드임을 밝혀야 합니다.
+ 서울랜드 홈페이지의 모든 자료를 사전에 합의없이 무단 도용, 복제 및 배포하는 경우에는 저작권법 제136조에 의거하여 5년이하의 징역 또는 천만원 이하의 벌금에 처해질 수 있으므로 유의하시기 바랍니다.
+ 위와 관련된 사항에 대한 자세한 문의는 아래 서울랜드 관리자 이메일로 문의하여 주시기 바랍니다.
+ 이메일 : webmaster@seoulland.co.kr
+ 영상정보처리기기 운영·관리 방침 보기
+
+이메일 무단 수집 거부
+ 서울랜드는 이메일 무단수집을 거부합니다. 
+ 본 사이트에 게시된 이메일 주소가 전자우편 수집 프로그램이나
+ 그밖의 기술적장치를 이용하여 무단으로 수집되는 것을 거부하며,
+ 이를 위반 시 정보통신망법에 의해 처벌됩니다.
+ 게시일 : 2003년 6월 15일
+
+개인정보처리방침
+ 영상정보처리기기 운영·관리 방침
+
+공식파트너사
+ 파트너사
+ 전화번호
+ 팩스번호
+ 이메일
+ 국제체험학습여행사
+ 02-548-7811
+ 02-548-7889
+ 7811young@naver.com
+ 그린투어
+ 02-306-8484
+ 0508-939-0402
+ mode8997@hanmail.net
+ 설레는 체험세상
+ 010-6327-0489
+ 031-893-3669
+ empiezo@nate.com
+ 지인이벤트투어
+ 010-4319-1050
+ -
+ ljoons@hanmail.net
+ 제세관광여행사
+ 02-419-1305
+ 02-3431-2002
+ jese1305@daum.net
+ 충무이벤트
+ 02-965-7198
+ 02-965-0584
+ saraya100@hanmail.net
+ 크로바관광여행사
+ 041-572-9004
+ 041-574-9921
+ croverhs@hanmail.net
+ ENJ WORLD
+ 1661-1126
+ 0504-490-1897
+ shinyhyung7@naver.com
+ JSP 재승
+ 031-233-2148
+ 031-233-2158
+ jstour6994@hanmail.net
+
+밀쿠폰 이용가능 식당 안내
+ 2026. 10. 27 화
+ [이용 안내]
+ 당일 식당 사정에 따라 예고 없이 메뉴가 변경될 수 있습니다.
+- 안내되는 식당,메뉴,이용시간 이외의 이용은 불가합니다.
+- 밀쿠폰은 개별적으로 이용해주세요 (전원 동일 메뉴 이용 불가)
+- 인솔권(안전지도권) 사용 안내
+* 인솔권은 롯데리아를 제외한 음식점에서만 이용이 가능합니다.
+* 인솔권으로 제공되는 메뉴는 구매하신 밀쿠폰 종류(밀쿠폰, 프리미엄 밀쿠폰)에 따라 구분하여 사용 가능합니다. 
+ [이용안내]
+ #meal_coupon .tblArea .date { padding: 20px 0; text-align: center; background-color: #f8f8f8; font-size: 25px; font-weight: 700; }
+ #meal_coupon .tblArea > .tit { margin-top: 20px; font-weight: 700; }
+ #meal_coupon .tblArea > .tit .text { margin-top: 20px; font-size: 16px; font-weight: 500; line-height: 1.7; }
+ #meal_coupon .tblType { margin-top: 25px; }
+ #meal_coupon .tblType th { font-size: 18px; font-weight: 700; text-align: left !important; }
+ #meal_coupon .modal-header .h5 { line-height: 1.3; }
+ @media screen and (max-width: 1200px) {
+ #meal_coupon .modal-header .h5 { font-size: 16px; }
+ #meal_coupon .tblArea .date { font-size: 19px; padding: 15px 0; }
+ #meal_coupon .tblArea > .tit { font-size: 13px; }
+ #meal_coupon .tblArea > .tit .text { font-size: 12px; }
+ #meal_coupon .partner-type .tblType tr { padding: 0; }
+ #meal_coupon .partner-type .tblType tr td:first-child { position: relative; left: unset; width: 90px; }
+ #meal_coupon .partner-type .tblType tr td { display: table-cell; padding: 15px 10px; }
+ #meal_coupon .partner-type .tblType tr td:before { display: none; }
+ }
+ 레스토랑명/이용시간
+ 이용가능메뉴
+ 장터
+ 11:00 ~ 20:00
+ 장터 설렁탕
+장터 국수
+ 키즈팔래스
+ 11:00 ~ 20:00
+ 자장면
+ 산타 레스토랑
+ 11:00 ~ 20:00
+ 돈가스
+ 롯데리아
+ 11:00 ~ 20:00
+ 불고기버거 + 콜라 사이즈 업 + 치즈스틱 2ea
+ 캘리포니아피자키친
+ 11:00 ~ 20:00
+ 컵파스타 + 캔콜라
+ 캐루셀 스낵
+ 11:00 ~ 20:00
+ 치킨팝콘 + 슬러시
+ 카페 초이빈&코코호도
+ 11:00 ~ 20:00
+ 호도과자(21개)
+ 모험스낵
+ 11:00 ~ 20:00
+ 콜팝 + 소시지
+ 델리만쥬
+ 11:00 ~ 20:00
+ 델리만쥬(22개)
+ 롤리폴리
+ 11:00 ~ 20:00
+ 젤리류 밀쿠폰 가격에 맞는 'g'으로 제공
+ 다롱이기프트
+ 11:00 ~ 20:00
+ 머리띠
+ 카페리앙
+ 11:00 ~ 20:00
+ 플레인/치즈핫도그 + 아이스티/쥬스
+ 쏘핫(카레원카트)
+ 11:00 ~ 20:00
+ 왕닭꼬치 + 슬러쉬
+소세지 + 치킨팝콘슬러쉬
+ 오징어카트
+ 11:00 ~ 20:00
+ 조미버터오징어 + 캔콜라
+ BHC치킨
+ 11:00 ~ 20:00
+ 뿌링클치킨버거세트 (뿌링클치킨버거 + 펩시355ML(캔))
+ 카페캐럿
+ 11:00 ~ 20:00
+ 초코라떼 + 마카롱
+ 식당위치확인하기
+
+프리미엄 밀쿠폰 이용가능 식당 안내
+ 2026. 10. 27 화
+ [이용 안내]
+ 당일 식당 사정에 따라 예고 없이 메뉴가 변경될 수 있습니다.
+- 안내되는 식당,메뉴,이용시간 이외의 이용은 불가합니다.
+- 프리미엄 밀쿠폰은 개별적으로 이용해주세요 (전원 동일 메뉴 이용 불가)
+- 인솔권(안전지도권) 사용 안내
+* 인솔권은 롯데리아를 제외한 음식점에서만 이용이 가능합니다.
+* 인솔권으로 제공되는 메뉴는 구매하신 밀쿠폰 종류(밀쿠폰, 프리미엄 밀쿠폰)에 따라 구분하여 사용 가능합니다. 
+ [이용안내]
+ #p_meal_coupon .tblArea .date { padding: 20px 0; text-align: center; background-color: #f8f8f8; font-size: 25px; font-weight: 700; }
+ #p_meal_coupon .tblArea > .tit { margin-top: 20px; font-weight: 700; }
+ #p_meal_coupon .tblArea > .tit .text { margin-top: 20px; font-size: 16px; font-weight: 500; line-height: 1.7; }
+ #p_meal_coupon .tblType { margin-top: 25px; }
+ #p_meal_coupon .tblType th { font-size: 18px; font-weight: 700; text-align: left !important; }
+ #p_meal_coupon .modal-header .h5 { line-height: 1.3; }
+ @media screen and (max-width: 1200px) {
+ #p_meal_coupon .modal-header .h5 { font-size: 16px; }
+ #p_meal_coupon .tblArea .date { font-size: 19px; padding: 15px 0; }
+ #p_meal_coupon .tblArea > .tit { font-size: 13px; }
+ #p_meal_coupon .tblArea > .tit .text { font-size: 12px; }
+ #p_meal_coupon .partner-type .tblType tr { padding: 0; }
+ #p_meal_coupon .partner-type .tblType tr td:first-child { position: relative; left: unset; width: 90px; }
+ #p_meal_coupon .partner-type .tblType tr td { display: table-cell; padding: 15px 10px; }
+ #p_meal_coupon .partner-type .tblType tr td:before { display: none; }
+ }
+ 레스토랑명/이용시간
+ 이용가능메뉴
+ 산타 레스토랑
+ 11:00 ~ 20:00
+ 돈가스 + 망고쥬스
+ 캐루셀라멘
+ 11:00 ~ 20:00
+ 돈코츠라멘
+ 포메인
+ 11:00 ~ 20:00
+ 포메인쌀국수S
+ 캘리포니아피자키친
+ 11:00 ~ 20:00
+ 볼로네즈파스타
+ 식당위치확인하기

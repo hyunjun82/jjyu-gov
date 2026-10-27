@@ -1,0 +1,42 @@
+{
+  "slug": "chosun-ilbo",
+  "name": "조선일보",
+  "aliases": [
+    "조선일보 독자센터",
+    "조선일보 고객센터",
+    "조선일보 전화번호",
+    "조선일보 구독 문의",
+    "조선일보 배달 문의"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.chosun.com",
+  "sourceUrl": "https://members.chosun.com/membership/support/index.html",
+  "sourceName": "조선일보 고객지원",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "독자센터",
+    "tel": "1577-8585"
+  },
+  "hours": {
+    "weekday": "평일 09:00-18:00",
+    "lunch": "12:00-13:00",
+    "holiday": "주말,공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 조선일보(members.chosun.com/membership/support) 독자센터 1577-8585, 평일 09:00-18:00/점심 12:00-13:00, 주말,공휴일 휴무. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "독자 문의, 구독 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "독자센터",
+      "tel": "1577-8585",
+      "note": "평일 09:00-18:00, 점심 12:00-13:00, 주말·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '독자센터'로 적힌 번호입니다."
+}

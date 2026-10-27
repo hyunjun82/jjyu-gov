@@ -1,0 +1,43 @@
+{
+  "slug": "fursys",
+  "name": "퍼시스",
+  "aliases": [
+    "퍼시스 고객센터",
+    "퍼시스 A/S",
+    "퍼시스 전화번호",
+    "FURSYS",
+    "퍼시스 고객센터 전화번호"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.fursys.com",
+  "sourceUrl": "https://www.fursys.com/contact",
+  "sourceName": "퍼시스 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객센터, A/S",
+    "tel": "1588-1244"
+  },
+  "hours": {
+    "weekday": "매주 월-금 9:30 ~ 17:30",
+    "lunch": "12:30 ~ 13:30",
+    "holiday": "토, 일 공휴일 상담 휴무"
+  },
+  "hoursNote": "[2026-10-27] 퍼시스(fursys.com/contact): 고객센터, A/S 1588-1244, 매주 월-금 9:30 ~ 17:30 (점심시간 12:30 ~ 13:30 / 토, 일 공휴일 상담 휴무). 같은 페이지의 02-443-9999 는 라벨이 없어 쓰지 않는다. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "제품 모델명과 구매일자",
+  "jobs": "고객센터 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터, A/S",
+      "tel": "1588-1244",
+      "note": "월-금 9:30~17:30, 점심시간 12:30~13:30, 토·일·공휴일 상담 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터, A/S'로 적힌 번호입니다."
+}

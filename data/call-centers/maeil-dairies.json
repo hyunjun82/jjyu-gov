@@ -1,0 +1,41 @@
+{
+  "slug": "maeil-dairies",
+  "name": "매일유업",
+  "aliases": [
+    "매일유업 고객센터",
+    "매일유업 대표전화",
+    "매일유업 전화번호",
+    "매일유업 소비자 상담",
+    "Maeil"
+  ],
+  "industry": "online",
+  "brandColor": "#194E91",
+  "official": "https://www.maeil.com",
+  "sourceUrl": "https://www.maeil.com/",
+  "sourceName": "매일유업 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 종로구 종로1길 50",
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-1539"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 매일유업(maeil.com) 하단: 서울특별시 종로구 종로1길 50 케이트윈타워 A동 2층 대표전화 1588-1539. 상담시간 표기가 없어 hours 를 비운다. 로고색은 h_logo.png 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의, 불만 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1588-1539"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

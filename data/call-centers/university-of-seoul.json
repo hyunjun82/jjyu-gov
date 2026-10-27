@@ -1,0 +1,45 @@
+{
+  "slug": "university-of-seoul",
+  "name": "서울시립대학교",
+  "aliases": [
+    "서울시립대",
+    "서울시립대학교 대표전화",
+    "서울시립대 전화번호",
+    "서울시립대학교 전화번호",
+    "UOS"
+  ],
+  "industry": "public",
+  "brandColor": "#0D47A1",
+  "official": "https://www.uos.ac.kr",
+  "sourceUrl": "https://www.uos.ac.kr/",
+  "sourceName": "서울시립대학교 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 동대문구 서울시립대로 163",
+  "hqZip": "02504",
+  "main": {
+    "label": "전화",
+    "tel": "02-6490-6114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 서울시립대학교(uos.ac.kr) 하단: (02504) 서울특별시 동대문구 서울시립대로 163(전농동) 전화 02-6490-6114 / 서울시통합문의 02-120. 상담시간 표기가 없어 hours 를 비운다. 로고색은 좌측 대학 로고 블록(진한 남색) 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화",
+      "tel": "02-6490-6114"
+    },
+    {
+      "label": "서울시통합문의",
+      "tel": "02-120"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화'로 적힌 번호입니다."
+}

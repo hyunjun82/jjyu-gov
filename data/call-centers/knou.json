@@ -1,0 +1,46 @@
+{
+  "slug": "knou",
+  "name": "한국방송통신대학교",
+  "aliases": [
+    "방송통신대",
+    "방통대",
+    "한국방송통신대학교 대표전화",
+    "방송통신대학교 전화번호",
+    "KNOU"
+  ],
+  "industry": "public",
+  "brandColor": "#00428E",
+  "official": "https://www.knou.ac.kr",
+  "sourceUrl": "https://www.knou.ac.kr/",
+  "sourceName": "한국방송통신대학교 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 종로구 대학로 86",
+  "hqZip": "03087",
+  "main": {
+    "label": "대표전화",
+    "tel": "1577-9995"
+  },
+  "hours": {
+    "weekday": "평일 9시~18시"
+  },
+  "hoursNote": "[2026-10-27] 한국방송통신대학교(knou.ac.kr) 하단: (03087) 서울특별시 종로구 대학로 86 (동숭동) 대표전화 1577-9995 (평일 9시~18시) 입학상담 1577-2853. 로고색은 logo-header25.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의, 입학 상담",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1577-9995",
+      "note": "평일 9시~18시"
+    },
+    {
+      "label": "입학상담",
+      "tel": "1577-2853"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

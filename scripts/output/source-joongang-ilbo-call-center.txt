@@ -1,0 +1,385 @@
+SLUG: joongang-ilbo-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/joongang-ilbo-call-center-*.png)
+
+===== [1] https://www.joongang.co.kr/customercenter =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/joongang-ilbo-call-center-1.png
+CHARS: 2158
+
+.
+로그인·회원가입
+고객센터
+공지사항
+자주 찾는 질문
+1:1 문의
+더중앙플러스 문의
+Global Money Club 문의
+신고센터
+공지
+
+[공지] 문화누리카드 혜택이 추가 되었습니다!
+
+자주 찾는 질문 
+서비스
+바로가기 
+회원
+바로가기 
+기타
+바로가기 
+연락처 안내
+일반 문의 및 안내	
+
+02-751-5114(9114)
+
+ 
+
+jservice@joongang.co.kr
+
+운영시간 : 평일 AM 7:00~ PM 18:00, 토요일&신문발행되는 공휴일 AM 7:00~ PM 12:00
+
+기사제보 및 기사 관련	
+
+02-751-9000
+
+ 
+
+080-023-5002
+
+ 
+
+sarangbang@joongang.co.kr
+
+운영시간 : 평일 AM 9:00~ PM 18:00
+
+광고 관련 문의	
+
+02-751-5555, 080-023-5004
+
+ 
+
+(FAX) 02-751-9085
+
+ 
+
+adtech@joongang.co.kr
+
+고객센터	
+
+1588-3600, 080-023-5001
+
+ 
+
+jservice@joongang.co.kr
+
+운영시간 : 평일 AM 6:00 ~ PM 18:00, 토요일&신문발행되는 공휴일 AM 6:00 ~ PM 12:00
+
+1번 : 센터 전화번호 안내 및 배달 문의
+2번 : 구독신청
+3번 : 구독 계약 및 해지
+4번 : 광고 전단 문의
+5번 : 더중앙플러스 문의 및 상담원 연결
+0번 : 기타 문의 및 상담원 연결
+
+영어신문 구독 및 광고	
+
+1577-0510
+
+ 
+
+nyt@joongang.co.kr
+
+중앙선데이 기사 및 광고	
+
+1588-5792
+
+ 
+
+sisa_opinion@joongang.co.kr
+
+기사 검색	
+
+02-751-9538
+
+ 
+
+info_search@joins.com
+
+사진 검색	
+
+02-751-9535
+
+ 
+
+jphoto@joongang.co.kr
+
+인물 정보	
+
+inmul@joongang.co.kr
+
+ 
+
+등록 및 수정 : 02-751-9681
+
+로그인 관련 : 02-751-5114(9114)
+
+ 
+
+이용문의 : 02-751-9752
+
+더중앙플러스 및
+Global Money Club	
+
+02-751-5115
+
+ 
+
+jpservice@joongang.co.kr
+
+운영시간 : 평일 AM 9:00~ PM 18:00
+
+1번 : 더중앙플러스
+2번 : Global Money Club
+
+부음	
+
+문의 : 02-751-5392
+
+운영시간 : 월요일~목요일, 일요일 PM 14:00 ~ PM 20:00
+
+The JoongAng Plus
+콘텐트 탐색
+시리즈별 보기
+큐레이션 발견
+이용권 구매
+서비스 활용 가이드
+브랜드 소개
+이용안내
+오피니언
+사설칼럼
+만평
+Hot Poll
+리셋 코리아
+영상
+정치
+정치일반
+국회정당
+청와대
+외교
+국방
+북한
+경제
+경제일반
+경제정책
+산업
+금융증권
+부동산
+IT・과학
+고용노동
+글로벌경제
+사회
+사회일반
+사건・사고
+법조
+교육
+복지
+보건・질병
+환경
+교통
+전국
+국제
+국제일반
+미국
+중국
+일본
+유럽
+기타
+문화
+문화일반
+책
+미술・전시・문화재
+클래식・공연
+가요
+영화
+방송
+스포츠
+스포츠일반
+야구
+축구
+골프
+농구・배구
+라이프
+패션
+맛
+뷰티
+리빙
+건강
+피플
+사랑방
+인사
+부음
+스페셜
+팩플
+비크닉
+부동산
+COOKING
+디지털 스페셜
+여행레저
+더 북한
+더 차이나
+더,마음
+더 하이엔드
+더,오래
+더 헬스
+AI
+패키지
+구독패키지
+이슈패키지
+연재패키지
+뉴스레터
+멀티미디어
+포토
+영상
+중앙SUNDAY
+뉴스
+심층기획
+스페셜리포트
+비즈니스
+오피니언
+연재
+포토・영상
+호별보기
+트렌드 뉴스
+브랜드뉴스
+날씨
+기자
+제보
+지면보기 이용안내
+신문 구독신청
+중앙멤버십
+고객센터
+AI+ 중앙일보
+중앙일보 정책 및 약관
+고객센터
+윤리경영
+광고 안내
+OOH/디지털 광고문의
+더중앙플러스 제휴
+이용약관
+개인정보 처리방침
+청소년 보호정책
+고충처리
+중앙일보
+
+주소 : 서울특별시 마포구 상암산로 48-6 (우) 03909 전화 : 02-751-5114 등록번호 : 서울 아 01013 등록일자 : 2009.11.2 발행인·편집인 : 박장희 전체 서비스
+
+사업자명 : 중앙일보㈜ 사업자등록번호 : 110-81-00999 대표자명 : 박장희 통신판매업신고번호 : 2020-서울마포-3802
+
+JoongAng Ilbo의 모든 콘텐트(기사)는 저작권법의 보호를 받은바, 무단 전재, 복사, 배포 등을 금합니다.[저작권 정책 및 콘텐트 문의]
+
+Copyright by JoongAng Ilbo Co., Ltd. All Rights Reserved
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+회원에게만 제공되는 편의 기능
+취향저격한 구독 상품을 한눈에 모아보고 알림받는 내구독
+북마크한 콘텐트와 내활동을 아카이빙하는 보관함
+기억하고 싶은 문구를 스크랩하고 기록하는 하이라이트/메모
+중앙일보 회원에게만 제공되는 스페셜 콘텐트
+간편가입
+로그인
+닫기
+
+The JoongAng
+간편 로그인하고 한결 더 편리해진 나만의 중앙일보를 경험해보세요.
+로그인로그인
+마이페이지
+고객센터
+더중앙 이용안내
+The JoongAng
+오피니언
+사설칼럼
+만평
+Hot Poll
+리셋 코리아
+영상
+뉴스
+정치
+경제
+사회
+국제
+문화
+스포츠
+라이프
+피플
+1min
+스페셜
+팩플
+비크닉
+부동산
+COOKING
+디지털 스페셜
+여행레저
+더 북한
+더 차이나
+더,마음
+더 하이엔드
+더,오래
+더 헬스
+AI
+패키지
+구독패키지
+이슈패키지
+연재패키지
+멀티미디어
+포토
+영상
+뉴스레터
+News EspressoPICK
+중앙SUNDAY
+International Edition
+ENG
+中文
+日文
+더 중앙 플러스이용권 구매콘텐트 탐색권력탐사&이슈머니테크&AI삶의 기술사람 이야기아트시리즈별 보기머니랩PICK팩플PICKhello! ParentsPICK큐레이션 발견브랜드 소개새소식・이벤트이용안내기업 제휴
+트렌드 뉴스
+브랜드뉴스
+날씨
+기자
+제보
+지면보기 이용안내
+신문 구독신청
+중앙멤버십
+The JoongAng 브랜드
+고객센터
+더중앙 이용안내
+AI+ 중앙일보
+중앙일보를 만나는 또다른 방법
+트위터
+네이버
+페이스북
+인스타그램
+Close
+
+Close
+삭제
+검색
+자동 검색 기능이 작동 중 입니다.
+검색 가이드
+'자동 검색' 이렇게 작동해요!
+🔍키워드 검색으로 연결
+단어가 2개 이하일 때 (예: 오늘 뉴스)
+🔍AI 검색으로 연결
+단어가 3개 이상일 때 (예: 오늘 뉴스 요약)
+물음표(?)가 포함되어 있을 때 (예: 날씨?)
+동사, 형용사, 조사 등 문장 구성 요소가 포함되어 있을 때 (예: 오늘의 운세 알려줘)
+다른 검색 타입 설정하기
+검색어 저장 기능이 꺼져있습니다.
+검색어 저장 켜기
+기록삭제
+
+검색 타입 설정자동 검색하기검색어를 분석해 최적의 검색 결과로 자동 연결해 드려요.AI 검색 먼저 보기AI 요약과 함께 가장 관련성 높은 뉴스를 먼저 볼 수 있어요.키워드 검색 먼저 보기다양한 검색 카테고리와 함께 최신 뉴스를 먼저 볼 수 있어요.확인
+
+!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","869647367258477");fbq("init","2640666526180462");
+try{var plus_cat_meta_id=google_tag_manager["rm"]["46354240"](27);plus_cat_meta_id!=="-"?(fbq("init",plus_cat_meta_id),fbq("trackSingle",plus_cat_meta_id,"PageView")):google_tag_manager["rm"]["46354240"](28)!=="-"&&fbq("init",google_tag_manager["rm"]["46354240"](29));if(google_tag_manager["rm"]["46354240"](30)=="www.joongang.co.kr"&&!/^\/purchase\//.test(google_tag_manager["rm"]["46354240"](31))){var cookie_str="mkt_cat_meta_pixel\x3d"+google_tag_manager["rm"]["46354240"](34)+"; path\x3d/; SameSite\x3dLax";location.protocol==="https:"&&(cookie_str+="; Secure");document.cookie=cookie_str}fbq("trackSingle","869647367258477",
+"PageView");fbq("trackSingle","2640666526180462","PageView");if(google_tag_manager["rm"]["46354240"](35)==="hello! Parents"){fbq("trackSingleCustom","869647367258477","PageView_hello Parents");var hello_cookie_str="meta_pixel_hello_parents_pv\x3d1; path\x3d/; SameSite\x3dLax";location.protocol==="https:"&&(hello_cookie_str+="; Secure");document.cookie=hello_cookie_str}}catch(b){};

@@ -1,0 +1,42 @@
+{
+  "slug": "binggrae",
+  "name": "빙그레",
+  "aliases": [
+    "빙그레 고객센터",
+    "빙그레 고객문의",
+    "빙그레 전화번호",
+    "빙그레 소비자 상담",
+    "Binggrae"
+  ],
+  "industry": "online",
+  "brandColor": "#E51F19",
+  "official": "https://www.bing.co.kr",
+  "sourceUrl": "https://www.bing.co.kr/center/service",
+  "sourceName": "빙그레 고객센터",
+  "verifiedAt": "2026-10-27",
+  "hq": "경기도 남양주시 다산순환로 45",
+  "main": {
+    "label": "고객 문의",
+    "tel": "080-022-0056"
+  },
+  "hours": {
+    "weekday": "월~금(공휴일 제외) 09:00~17:30"
+  },
+  "hoursNote": "[2026-10-27] 빙그레(bing.co.kr/center/service) 하단: 고객 문의 080.022.0056 / 월~금(공휴일 제외) 09:00~17:30, 경기도 남양주시 다산순환로 45(다산동). 원문의 점 표기를 하이픈으로만 바꿨다. 로고색은 logo-pc.png 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의, 불만 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객 문의",
+      "tel": "080-022-0056",
+      "note": "월~금(공휴일 제외) 09:00~17:30"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객 문의'로 적힌 번호입니다."
+}

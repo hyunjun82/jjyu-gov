@@ -1,0 +1,43 @@
+{
+  "slug": "dongwon-fnb",
+  "name": "동원F&B",
+  "aliases": [
+    "동원에프앤비",
+    "동원F&B 고객센터",
+    "동원 고객상담",
+    "동원F&B 전화번호",
+    "동원참치 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#0170BD",
+  "official": "https://www.dongwonfnb.com",
+  "sourceUrl": "https://www.dongwonfnb.com/services/Customer/Customer",
+  "sourceName": "동원F&B 고객센터",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 서초구 마방로 68",
+  "main": {
+    "label": "무료 상담 전화",
+    "tel": "080-589-3223"
+  },
+  "hours": {
+    "weekday": "월요일~금요일 08:30 ~ 17:00",
+    "holiday": "토요일, 일요일 및 국경일은 휴무"
+  },
+  "hoursNote": "[2026-10-27] 동원F&B(dongwonfnb.com/services/Customer/Customer) 무료 상담 전화 080-589-3223/4(끝자리 축약 표기라 앞 번호만 쓴다), 월요일~금요일 08:30 ~ 17:00 (토요일, 일요일 및 국경일은 휴무), 고객의 소리 온라인 접수. 하단 서울특별시 서초구 마방로 68. 로고색은 logo_header.png 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의, 고객의 소리 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "무료 상담 전화",
+      "tel": "080-589-3223",
+      "note": "월요일~금요일 08:30~17:00"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '무료 상담 전화'로 적힌 번호입니다."
+}

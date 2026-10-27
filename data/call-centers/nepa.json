@@ -1,0 +1,43 @@
+{
+  "slug": "nepa",
+  "name": "네파",
+  "aliases": [
+    "네파 고객센터",
+    "NEPA",
+    "네파 전화번호",
+    "네파 고객센터 전화번호",
+    "네파 환불 교환"
+  ],
+  "industry": "online",
+  "brandColor": "#38897F",
+  "official": "https://www.nepa.co.kr",
+  "sourceUrl": "https://www.nepa.co.kr/",
+  "sourceName": "네파 공식몰",
+  "verifiedAt": "2026-10-27",
+  "corp": "네파(주)",
+  "hq": "서울시 강남구 광평로 281",
+  "main": {
+    "label": "네파 고객센터",
+    "tel": "1666-2096"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 네파(nepa.co.kr) 하단: 네파 고객센터 1666-2096 (유료), 네파(주) 대표 이선효 서울시 강남구 광평로 281 (수서동 715번지) 수서오피스빌딩 6층, 7층. 상담시간 표기가 없어 hours 를 비운다. 로고색은 헤더 N plus 로고의 초록 십자 영역 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "주문번호와 가입 이메일",
+  "jobs": "고객 문의 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "네파 고객센터",
+      "tel": "1666-2096",
+      "note": "유료"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '네파 고객센터'로 적힌 번호입니다."
+}

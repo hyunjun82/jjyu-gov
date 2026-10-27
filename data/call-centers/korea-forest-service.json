@@ -1,0 +1,47 @@
+{
+  "slug": "korea-forest-service",
+  "name": "산림청",
+  "aliases": [
+    "산림청 대표전화",
+    "산림청 전화번호",
+    "산림청 고객센터",
+    "산림청 민원",
+    "Korea Forest Service"
+  ],
+  "industry": "public",
+  "brandColor": "#043763",
+  "official": "https://www.forest.go.kr",
+  "sourceUrl": "https://www.forest.go.kr/",
+  "sourceName": "산림청 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대전광역시 서구 청사로 189",
+  "hqZip": "35208",
+  "main": {
+    "label": "전화(유료) 주간",
+    "tel": "1588-3249"
+  },
+  "hours": {
+    "weekday": "월~금 09:00~18:00",
+    "holiday": "공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 산림청(forest.go.kr) 하단: (우)35208 대전광역시 서구 청사로 189 1동(산림청) 전화(유료) : (주)1588-3249 (월~금 09:00~18:00, 공휴일 제외) (야)042-481-4151, 팩스 042-478-6653. 로고색은 logo.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의, 민원 안내",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화(유료) 주간",
+      "tel": "1588-3249",
+      "note": "월~금 09:00~18:00, 공휴일 제외"
+    },
+    {
+      "label": "전화(유료) 야간",
+      "tel": "042-481-4151"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화(유료) 주간'으로 적힌 번호입니다."
+}

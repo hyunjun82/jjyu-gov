@@ -1,0 +1,45 @@
+{
+  "slug": "khnp",
+  "name": "한국수력원자력",
+  "aliases": [
+    "한수원",
+    "한국수력원자력 고객센터",
+    "한국수력원자력 대표전화",
+    "한수원 전화번호",
+    "KHNP"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.khnp.co.kr",
+  "sourceUrl": "https://www.khnp.co.kr/",
+  "sourceName": "한국수력원자력 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "경상북도 경주시 문무대왕면 불국로 1655",
+  "hqZip": "38120",
+  "main": {
+    "label": "대표전화",
+    "tel": "054-704-2114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국수력원자력(khnp.co.kr) 하단: 본사주소 (우)38120 경상북도 경주시 문무대왕면 불국로 1655 대표전화 054-704-2114 야간(공휴일) 054-704-2203. 상담시간 표기가 없어 hours 를 비운다. 로고(녹색 심볼)가 팝업 딤 때문에 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "054-704-2114"
+    },
+    {
+      "label": "야간(공휴일)",
+      "tel": "054-704-2203"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

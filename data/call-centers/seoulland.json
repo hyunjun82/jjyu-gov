@@ -1,0 +1,43 @@
+{
+  "slug": "seoulland",
+  "name": "서울랜드",
+  "aliases": [
+    "서울랜드 고객센터",
+    "서울랜드 콜센터",
+    "서울랜드 전화번호",
+    "서울랜드 문의",
+    "Seoulland"
+  ],
+  "industry": "online",
+  "brandColor": "#31C1BB",
+  "official": "https://seoulland.co.kr",
+  "sourceUrl": "https://seoulland.co.kr/?p=22",
+  "sourceName": "서울랜드 고객센터",
+  "verifiedAt": "2026-10-27",
+  "corp": "㈜서울랜드",
+  "hq": "경기도 과천시 광명로 181",
+  "hqZip": "13829",
+  "main": {
+    "label": "서울랜드 콜센터",
+    "tel": "02-509-6000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 서울랜드(seoulland.co.kr/?p=22) 고객센터: 서울랜드 콜센터 02-509-6000 (공원 운영 시간 내 연결 가능), 하단 13829 경기도 과천시 광명로 181 ㈜서울랜드 02-509-6000. 공원 운영 시간 시각은 원문에 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "shop",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "서울랜드 콜센터",
+      "tel": "02-509-6000",
+      "note": "공원 운영 시간 내 연결 가능"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '서울랜드 콜센터'로 적힌 번호입니다."
+}

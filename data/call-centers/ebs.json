@@ -1,0 +1,44 @@
+{
+  "slug": "ebs",
+  "name": "EBS",
+  "aliases": [
+    "한국교육방송공사",
+    "EBS 고객센터",
+    "EBS 전화번호",
+    "EBS 대표전화",
+    "EBS 고객센터 전화번호"
+  ],
+  "industry": "public",
+  "brandColor": "#0E305C",
+  "official": "https://www.ebs.co.kr",
+  "sourceUrl": "https://www.ebs.co.kr/customer?mainTop",
+  "sourceName": "EBS 고객센터",
+  "verifiedAt": "2026-10-27",
+  "corp": "한국교육방송공사",
+  "hq": "경기도 고양시 일산동구 한류월드로 281",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-1580"
+  },
+  "hours": {
+    "weekday": "월~금 08시~18시",
+    "lunch": "12시~13시",
+    "holiday": "토·일요일·공휴일 휴무"
+  },
+  "hoursNote": "[2026-10-27] EBS(ebs.co.kr/customer) 고객센터 1588-1580 (발신자 부담 | 월~금 08시~18시, 점심시간 12시~13시, 토·일요일·공휴일 휴무), 고객센터 팩스번호 031-901-2361. 하단 연락처 1588-1580(대표전화/고객센터), 경기도 고양시 일산동구 한류월드로 281 (장항동 한국교육방송공사). 로고색은 EBS 로고 이미지 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의, 결제·환불 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-1580",
+      "note": "발신자 부담, 월~금 08시~18시, 점심시간 12시~13시, 토·일요일·공휴일 휴무"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "korea-national-park-service",
+  "name": "국립공원공단",
+  "aliases": [
+    "국립공원공단 고객센터",
+    "국립공원 예약 고객센터",
+    "국립공원공단 전화번호",
+    "국립공원공단 대표전화",
+    "국립공원 예약문의"
+  ],
+  "industry": "public",
+  "brandColor": "#004EA2",
+  "official": "https://www.knps.or.kr",
+  "sourceUrl": "https://www.knps.or.kr/",
+  "sourceName": "국립공원공단 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화(일반문의)",
+    "tel": "033-769-9300"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 국립공원공단(knps.or.kr) 하단: 대표전화(일반문의) 033-769-9300 고객센터(예약문의) 1670-9201 팩스번호 033-769-9419. 상담시간 표기가 없어 hours 를 비운다. 로고색은 h_logo.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "일반 문의, 예약 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화(일반문의)",
+      "tel": "033-769-9300"
+    },
+    {
+      "label": "고객센터(예약문의)",
+      "tel": "1670-9201"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화(일반문의)'로 적힌 번호입니다."
+}

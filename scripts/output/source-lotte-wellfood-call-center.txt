@@ -1,0 +1,212 @@
+SLUG: lotte-wellfood-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/lotte-wellfood-call-center-*.png)
+
+===== [1] https://www.lottewellfood.com/cscenter/customer/view =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/lotte-wellfood-call-center-1.png
+CHARS: 1453
+
+컨텐츠 바로가기
+고객의 소리 < 고객센터 < 롯데웰푸드
+회사소개
+브랜드 소개
+투자정보
+ESG경영
+홍보센터
+채용
+고객센터
+ENG
+푸드몰
+스위트몰
+언제나 함께하는 롯데웰푸드
+고객의 소리
+ 
+홈
+고객센터
+고객의 소리
+문의접수
+선택됨
+처리결과 확인
+ 제품문의 080-024-6060
+(전화상담 가능시간 : 평일 월~목 오전 9시 ~ 오후 6시 / 평일 금 오전 9시 ~ 오후 5시)
+고객 여러분의 소중한 의견을 귀담아 듣고 재발 방지에 최선을 다하겠습니다. 기타 문의사항이나 제안은 아이디어제안 게시판을 이용해 주시기 바랍니다.
+고객상담 처리절차
+step01 - 고객상담 접수 step02 - 고객지원센터 내용 확인 step03 - 소비자 방문/우편 접수 step04 - 원인규명 및 해명 step05 - 피해구제 step06 - 업무개선
+개인정보 수집 동의 (필수)
+
+1. 수집하는 개인정보의 항목
+
+이름, 이메일주소, 핸드폰번호
+
+2. 개인정보의 이용목적
+
+문의 접수 및 결과 회신
+
+3. 개인정보의 보유 및 이용기간
+
+소비자 불만 또는 분쟁 처리를 위해 3년간 보관
+
+4. 동의를 거부할 권리 및 동의 거부에 따른 불이익 안내
+
+위 필수 항목 수집·이용에 대한 동의를 거부할 권리가 있습니다.
+단, 정보 수집 및 이용을 거부하실 경우, 문의 작성이 되지 않습니다.
+
+동의 
+동의하지 않음
+개인정보 수집 동의 (선택)
+
+1. 수집하는 개인정보의 항목
+
+주소
+
+2. 개인정보의 이용목적
+
+제품 회수, 보상상품발송, 방문, 접수내용의 보완
+
+3. 개인정보의 보유 및 이용기간
+
+소비자 불만 또는 분쟁 처리를 위해 3년간 보관
+
+4. 동의를 거부할 권리 및 동의 거부에 따른 불이익 안내
+
+위 필수 항목 수집·이용에 대한 동의를 거부할 권리가 있습니다.
+정보 수집 및 이용에 대한 동의를 거부하셔도 문의 작성이 가능합니다.
+
+동의 
+동의하지 않음
+문의작성 접수 내용에 대한 신속, 정확한 처리를 위해 필수입력 사항을 반드시 입력하셔야 합니다.
+상담구분*
+과자, 초콜릿, 빵
+아이스크림
+육가공
+HMR
+파스퇴르
+유지, 소재
+식자재
+델리카
+원두커피
+건강식품
+칭찬하기
+제품정보*
+성명*
+주소
+주소검색
+ 
+핸드폰 번호*
+-
+-
+이메일*
+@
+ 
+선택
+naver.com
+gmail.com
+nate.com
+daum.net
+기타
+ 
+제목*
+내용*
+
+0/2,000 Byte
+
+파일첨부
+파일선택
+
+최대 1개, 20MB 이하
+※ 아래의 파일 양식만 등록 가능합니다.
+(png,jpg,jpeg,gif,zip,pdf,xlx,xlsx,doc,docx,ppt,pptx,hwp,hwpx)
+
+보안문자입력
+ 
+새로고침
+등록 취소
+열기
+궁금한 게 있으신가요?
+아이디어제안
+FAQ
+고객의 소리
+롯데웰푸드
+Family site
+롯데윤리강령
+ 
+동반성장
+ 
+개인정보 처리방침
+ 
+영상정보처리기기운영관리방침
+ 
+이메일무단수집거부
+ 
+사이트맵
+COPYRIGHT 2022 LOTTE WELLFOOD CO.,LTD. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+회사개요
+ 연혁
+ 세계속의롯데웰푸드
+ 사업장위치
+ 식품인증규격
+
+제품소개
+ 주요브랜드
+ 캐릭터스토리
+ 과자상식백과
+
+주주정보
+ 주가정보
+ 재무정보
+ 전자공고및공시
+ IR정보
+ Contact IR
+
+ESG경영체계
+ ESG 정책
+ 환경경영(E)
+ 사회공헌(S)
+ 안전경영(S)
+ 지배구조(G)
+ 컴플라이언스
+
+공지사항
+ 뉴스자료실
+ CF스토리
+ LiveSocial
+ 가나초콜릿체
+ 설레임체
+ 닥터자일리톨버스
+ 이벤트
+ 레시피
+
+채용공고
+ 인재DB
+ 채용정보
+
+FAQ
+ 고객의 소리
+ 아이디어제안
+
+Contact Us
+ [Mandatory] Information Mandatorily Collected
+ 1. Information to be Collected 
+ Country. Name, Email Address
+ 2. Purpose of Use
+ To reply to customer inquiries received and their results
+ 3. Retention and Use Period
+ The information the user provided shall be retained for a period of three (3) years in accordance with the internal regulations
+ 4. Information on the right to refuse consent and the disadvantages of refusing consent
+ You have the right to refuse consent to the collection and use of personal information above.
+ However, if you do not consent to the collection and usage of the information, you will not be able to submit any inquiries.
+ I consent
+ I don’t consent
+ Country*
+ Please select a country
+ Brand*
+ Please select a brand
+ Full Name*
+ Email Address*
+ Content*
+ Cancel
+ Submit

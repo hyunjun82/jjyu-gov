@@ -1,0 +1,43 @@
+{
+  "slug": "sidiz",
+  "name": "시디즈",
+  "aliases": [
+    "시디즈 고객센터",
+    "시디즈 컨택센터",
+    "시디즈 전화번호",
+    "SIDIZ",
+    "시디즈 AS"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.sidiz.com",
+  "sourceUrl": "https://www.sidiz.com/",
+  "sourceName": "시디즈 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "컨택센터",
+    "tel": "1577-5674"
+  },
+  "hours": {
+    "weekday": "평일 09:30 ~ 17:30",
+    "lunch": "12:30 ~ 13:30",
+    "saturday": "토요일 09:30 ~ 12:30 AS만 가능"
+  },
+  "hoursNote": "[2026-10-27] 시디즈(sidiz.com) 하단: 컨택센터 1577-5674 평일 09:30 ~ 17:30 점심시간 12:30 ~ 13:30 토요일 09:30 ~ 12:30 AS만 가능, 사업자구매 사업자고객 문의는 전문가와 상담. 로고(검정)를 팝업 블러 때문에 측정하지 못해 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "제품 모델명과 구매일자",
+  "jobs": "컨택센터 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "컨택센터",
+      "tel": "1577-5674",
+      "note": "평일 09:30~17:30, 점심시간 12:30~13:30, 토요일 09:30~12:30 AS만 가능"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '컨택센터'로 적힌 번호입니다."
+}

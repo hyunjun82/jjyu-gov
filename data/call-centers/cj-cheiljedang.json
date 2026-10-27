@@ -1,0 +1,47 @@
+{
+  "slug": "cj-cheiljedang",
+  "name": "CJ제일제당",
+  "aliases": [
+    "씨제이제일제당",
+    "CJ제일제당 고객센터",
+    "CJ제일제당 고객행복센터",
+    "CJ제일제당 전화번호",
+    "제일제당 소비자 상담"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.cj.co.kr",
+  "sourceUrl": "https://www.cj.co.kr/",
+  "sourceName": "CJ제일제당 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "corp": "씨제이제일제당(주)",
+  "hq": "서울특별시 중구 동호로 330",
+  "hqZip": "04560",
+  "main": {
+    "label": "고객행복센터",
+    "tel": "080-850-1200"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] CJ제일제당(cj.co.kr) 하단: 씨제이제일제당(주) 서울특별시 중구 동호로 330 CJ제일제당센터 (우)04560, 대표전화 02-6740-1114, 고객행복센터 080-850-1200. 상담시간 표기가 없어 hours 를 비운다. 로고(다색 심볼)를 사진 배경 때문에 측정하지 못해 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의, 불만 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객행복센터",
+      "tel": "080-850-1200"
+    },
+    {
+      "label": "대표전화",
+      "tel": "02-6740-1114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객행복센터'로 적힌 번호입니다."
+}

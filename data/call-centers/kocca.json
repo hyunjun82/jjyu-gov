@@ -1,0 +1,39 @@
+{
+  "slug": "kocca",
+  "name": "한국콘텐츠진흥원",
+  "aliases": [
+    "콘진원",
+    "한국콘텐츠진흥원 대표전화",
+    "한국콘텐츠진흥원 전화번호",
+    "한국콘텐츠진흥원 고객센터",
+    "KOCCA"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.kocca.kr",
+  "sourceUrl": "https://www.kocca.kr/",
+  "sourceName": "한국콘텐츠진흥원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1566-1114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국콘텐츠진흥원(kocca.kr) 하단: 대표전화 1566-1114 사업자등록번호 105-82-17272. 상담시간 표기가 없어 hours 를 비운다. 로고 영역이 만족도 조사 배너에 가려 측정하지 못해 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1566-1114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

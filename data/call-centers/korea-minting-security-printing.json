@@ -1,0 +1,41 @@
+{
+  "slug": "korea-minting-security-printing",
+  "name": "한국조폐공사",
+  "aliases": [
+    "조폐공사",
+    "한국조폐공사 대표전화",
+    "한국조폐공사 고객센터",
+    "조폐공사 전화번호",
+    "KOMSCO"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.komsco.com",
+  "sourceUrl": "https://www.komsco.com/",
+  "sourceName": "한국조폐공사 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대전광역시 유성구 과학로 80-67",
+  "hqZip": "34132",
+  "main": {
+    "label": "대표전화",
+    "tel": "1577-4321"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국조폐공사(komsco.com) 하단: (34132) 대전광역시 유성구 과학로 80-67(가정동) 대표전화 1577-4321. 상담시간 표기가 없어 hours 를 비운다. 로고가 흰색(어두운 배경 위 KOMSCO 로고)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1577-4321"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

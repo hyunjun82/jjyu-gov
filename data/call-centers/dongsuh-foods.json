@@ -1,0 +1,45 @@
+{
+  "slug": "dongsuh-foods",
+  "name": "동서식품",
+  "aliases": [
+    "동서식품 고객센터",
+    "동서식품 고객상담실",
+    "맥심 고객센터",
+    "동서식품 전화번호",
+    "동서식품 대표번호"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.dongsuh.co.kr",
+  "sourceUrl": "https://www.dongsuh.co.kr/cs/customer",
+  "sourceName": "동서식품 고객센터",
+  "verifiedAt": "2026-10-27",
+  "hq": "인천시 부평구 새벌로 55",
+  "main": {
+    "label": "대표번호",
+    "tel": "1588-2233"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 동서식품(dongsuh.co.kr) 하단: 인천시 부평구 새벌로 55 (청천동) [서울사무소] 서울시 마포구 독막로 324, 대표번호 1588-2233 고객상담실 080-023-9114. 상담시간 표기가 없어 hours 를 비운다. 로고가 흰색(사진 위 흰 워드마크)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "1588-2233"
+    },
+    {
+      "label": "고객상담실",
+      "tel": "080-023-9114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

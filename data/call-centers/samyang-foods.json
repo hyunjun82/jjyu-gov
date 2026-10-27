@@ -1,0 +1,45 @@
+{
+  "slug": "samyang-foods",
+  "name": "삼양식품",
+  "aliases": [
+    "삼양식품 고객센터",
+    "삼양식품 고객만족센터",
+    "삼양 불닭 고객센터",
+    "삼양식품 전화번호",
+    "삼양라면 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#EB6317",
+  "official": "https://www.samyangfoods.com",
+  "sourceUrl": "https://www.samyangfoods.com/kor/community/inquiry/write.do",
+  "sourceName": "삼양식품 고객문의",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객만족센터",
+    "tel": "080-940-3333"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 삼양식품(samyangfoods.com) 하단: 고객만족센터 080-940-3333(무료상담전화) │ 대표전화 02-940-3000. 상담시간 표기가 없어 hours 를 비운다. 로고색은 logo_w186.png 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의, 불만 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객만족센터",
+      "tel": "080-940-3333",
+      "note": "무료상담전화"
+    },
+    {
+      "label": "대표전화",
+      "tel": "02-940-3000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객만족센터'로 적힌 번호입니다."
+}

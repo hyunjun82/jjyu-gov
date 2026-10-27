@@ -1,0 +1,45 @@
+{
+  "slug": "yupdduk",
+  "name": "엽기떡볶이",
+  "aliases": [
+    "동대문엽기떡볶이",
+    "엽떡",
+    "엽기떡볶이 고객센터",
+    "엽기떡볶이 전화번호",
+    "핫시즈너"
+  ],
+  "industry": "online",
+  "brandColor": "#EB1A22",
+  "official": "https://www.yupdduk.com",
+  "sourceUrl": "https://www.yupdduk.com/",
+  "sourceName": "엽기떡볶이 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "corp": "(주)핫시즈너",
+  "hq": "서울특별시 성동구 아차산로11가길 10",
+  "main": {
+    "label": "고객센터",
+    "tel": "1661-8514"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 엽기떡볶이(yupdduk.com) 하단: (주)핫시즈너 대표번호 070-7710-8592 고객센터 1661-8514, 본사 서울특별시 성동구 아차산로11가길 10, 7층(성수동2가, HSF빌딩). 상담시간 표기가 없어 hours 를 비운다. 로고색은 헤더 엽기떡볶이 로고 영역 최빈 유채색(오버레이 제거 후).",
+  "variant": "franchise",
+  "jobs": "문의, 고객의 소리 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1661-8514"
+    },
+    {
+      "label": "대표번호",
+      "tel": "070-7710-8592"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

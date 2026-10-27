@@ -1,0 +1,47 @@
+{
+  "slug": "oriental-brewery",
+  "name": "오비맥주",
+  "aliases": [
+    "오비맥주 고객센터",
+    "OB맥주",
+    "오비맥주 소비자 불만 콜센터",
+    "오비맥주 전화번호",
+    "카스 고객센터"
+  ],
+  "industry": "online",
+  "brandColor": "#102568",
+  "official": "https://www.ob.co.kr",
+  "sourceUrl": "https://www.ob.co.kr/help",
+  "sourceName": "오비맥주 고객센터",
+  "verifiedAt": "2026-10-27",
+  "corp": "오비맥주 주식회사",
+  "main": {
+    "label": "소비자 불만 콜센터",
+    "tel": "080-022-3277"
+  },
+  "hours": {
+    "weekday": "평일 오전 9시 - 오후 6시",
+    "holiday": "토요일/일요일/국경일 휴무"
+  },
+  "hoursNote": "[2026-10-27] 오비맥주(ob.co.kr/help): 소비자 불만 콜센터 080-022-3277 (무료전화), 소비자 콜 센터 이용시간 평일 오전 9시 - 오후 6시 (토요일/일요일/국경일 휴무), 콜센터 비영업시간 전화는 익일 영업일 09시부터 회신, 대표전화 02-2149-5000. 로고색은 ob-beer-logo.svg 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 불만 접수",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "소비자 불만 콜센터",
+      "tel": "080-022-3277",
+      "note": "무료전화, 평일 오전 9시~오후 6시"
+    },
+    {
+      "label": "대표전화",
+      "tel": "02-2149-5000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '소비자 불만 콜센터'로 적힌 번호입니다."
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "hansot",
+  "name": "한솥도시락",
+  "aliases": [
+    "한솥",
+    "한솥도시락 고객센터",
+    "한솥도시락 고객상담실",
+    "한솥도시락 전화번호",
+    "한솥 단체주문"
+  ],
+  "industry": "online",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.hsd.co.kr",
+  "sourceUrl": "https://www.hsd.co.kr/footer/faq_list",
+  "sourceName": "한솥도시락 자주 묻는 질문",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 강남구 압구정로 459",
+  "main": {
+    "label": "한솥도시락 고객상담실",
+    "tel": "02-585-1114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한솥도시락(hsd.co.kr/footer/faq_list): 한솥도시락 고객상담실 02-585-1114 (가까운 점포를 찾기 어렵거나 문의 내용이 있을 때), 단체주문 1644-3288 (가능한 2~3일 전에 예약), 하단 T. 02-585-1114. 같은 번호가 전국 창업설명회 문의로도 안내돼 있다. 상담시간 표기가 없어 hours 를 비운다. 로고가 검정(Hansot 워드마크)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "franchise",
+  "jobs": "점포 문의, 단체주문 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "한솥도시락 고객상담실",
+      "tel": "02-585-1114"
+    },
+    {
+      "label": "단체주문",
+      "tel": "1644-3288",
+      "note": "2~3일 전 예약"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '한솥도시락 고객상담실'로 적힌 번호입니다."
+}

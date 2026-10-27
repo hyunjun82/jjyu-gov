@@ -1,0 +1,724 @@
+SLUG: nepa-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/nepa-call-center-*.png)
+
+===== [1] https://www.nepa.co.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/nepa-call-center-1.png
+CHARS: 4180
+
+NEPA 리버서블 목도리 증정
+close
+search
+account
+에어써밋
+BEST
+MEN
+WOMEN
+SHOES
+ACC
+JUNIOR
+KIDS
+OUTLET
+EVENT
+BRAND
+MEMBERSHIP
+About N
+
+WHAT'S NEW
+
+NEPA
+
+공용 사이폰 롱 다운자켓
+
+339,000원
+
+NEPA
+
+여성 폴라텍 파워 드라이 메쉬 자켓
+
+209,000원
+
+NEPA
+
+남성 파라 패딩 자켓
+
+139,000원
+
+219,000원
+
+NEPA
+
+여성 써모 테크 브리즈 자켓
+
+189,000원
+
+NEPA
+
+남성 파라 패딩 자켓
+
+139,000원
+
+219,000원
+
+NEPA
+
+여성 모션플렉스 하이킹 팬츠
+
+99,000원
+
+149,000원
+
+NEPA
+
+코브 5패널 캠프캡
+
+49,000원
+
+NEPA
+
+여성 페스카 플리스 자켓
+
+79,000원
+
+119,000원
+
+NEPA
+
+여성 아르테 윈드스토퍼 롱 다운자켓
+
+789,000원
+
+NEPA
+
+공용 듀오 리버시블 자켓
+
+109,000원
+
+169,000원
+
+SELECTED FOR YOU
+
+NEPA
+
+공용 플루토 고어텍스 보아
+
+108,000원
+
+279,000원
+
+61%
+
+NEPA
+
+남성 에어써밋 BR 다운 자켓
+
+169,200원
+
+419,000원
+
+60%
+
+NEPA
+
+공용 하이스피릿 고어텍스
+
+72,000원
+
+229,000원
+
+69%
+
+NEPA
+
+남성 3L 원드블럭 웜팬츠
+
+76,500원
+
+209,000원
+
+63%
+
+NEPA
+
+남성 하이브리드 튜브 다운
+
+90,000원
+
+259,000원
+
+65%
+
+NEPA
+
+남성 템프스 3 IN 1 윈드스토퍼 자켓
+
+168,000원
+
+459,000원
+
+63%
+
+NEPA
+
+여성 에어써밋 미들 다운자켓
+
+105,000원
+
+349,000원
+
+70%
+
+NEPA
+
+남성 패스파인더 패턴 플리스자켓
+
+52,500원
+
+139,000원
+
+62%
+
+NEPA
+
+남성 에어써밋 BR 다운 자켓
+
+169,200원
+
+419,000원
+
+60%
+
+NEPA
+
+여성 에어써밋 미들 다운자켓
+
+105,000원
+
+349,000원
+
+70%
+
+N+ STYLE
+
+Ready for winter NEKI DOWN
+
+새롭게 만나는 키즈 신상! 최대 46% 할인
+
+(키즈)공용 윈트릭스 롱다운
+
+139,000원
+
+(키즈)공용 윈트릭스 롱다운
+
+139,000원
+
+(키즈)공용 윈트릭스 롱다운
+
+139,000원
+
+(키즈)여아 스노우 위시 숏 덕 다운자켓
+
+189,000원
+
+(키즈)여아 스노우 위시 숏 덕 다운자켓
+
+189,000원
+
+26FW Influencer's Outfit
+
+엔플러 코디 보고 투표하자!
+투표 참여 시 3천원 쿠폰 발급
+
+오르고 울 비니
+
+45,000원
+
+오르고 울 비니
+
+45,000원
+
+오르고 울 비니
+
+45,000원
+
+여성 폴라텍 오리진플리스 롱슬리브 라운드티셔츠
+
+89,000원
+
+여성 폴라텍 오리진플리스 롱슬리브 라운드티셔츠
+
+89,000원
+
+BEST SELLING ITEM
+
+이번 가을을 완성하는 베스트 셀러
+
+남성 에어써밋 경량 다운자켓
+
+319,000원
+
+남성 에어써밋 경량 다운자켓
+
+319,000원
+
+남성 에어써밋 경량 다운자켓
+
+319,000원
+
+고어텍스 윈드스토퍼 알테라2L
+
+26년 더 강력해진 윈드스토퍼
+
+남성 알테라 2L 윈드스토퍼 방풍 자켓
+
+189,000원
+
+남성 알테라 2L 윈드스토퍼 방풍 자켓
+
+189,000원
+
+남성 알테라 2L 윈드스토퍼 방풍 자켓
+
+189,000원
+
+N+ STORY
+
+26FW AIR SUMMIT
+
+열대우림과 시베리아를 넘나드는 극심한 지하철 온도차 PANIC
+도시라는 야생에서도 자유로운 에어써밋이라면 NEVER PANIC
+
+prev
+next
+How to styling
+with Npluer
+
+@__p0weradex_x
+
+여성 에코 브리즈 오버롤 원피스
+
+@lin_a_young
+
+여성 에어 그리드 방품 자켓
+
+@ddo_chichi
+
+여성 에코 브리즈 베스트
+
+@c_k_0916
+
+남성 뷰파인더 3L 방풍 자켓
+
+@laph.fit
+
+공용 포르테 에보 고어텍스
+
+@lxxsxxaaa
+
+공용 포르테 에보 고어텍스
+
+@laph.fit
+
+공용 리웨이 미드 고어텍스
+
+@183.h.g
+
+남성 패스파인더 고어텍스 2L 방수 자켓
+
+@52gaarimasen
+
+남성 패스파인더 고어텍스 2L 방수 자켓
+
+@yunsanh
+
+남성 패스파인더 고어텍스 2L 방수 자켓
+
+@cocomongs_ju
+
+여성 패스파인더 고어텍스 2L 방수 자켓
+
+@coooxoh
+
+공용 리웨이 미드 고어텍스
+
+@dailybnee
+
+여성 써모퍼프 후디 패딩 자켓
+
+@jieun_sj
+
+여성 써모퍼프 후디 패딩 자켓
+
+@iwon.21
+
+여성 써모퍼프 후디 패딩 자켓
+
+@eryukyung
+
+여성 써모퍼프 스탠드넥 패딩 자켓
+
+@ngyoungjoo
+
+여성 써모퍼프 스탠드넥 패딩 자켓
+
+@yoon_april
+
+여성 써모퍼프 미드 패딩 자켓
+
+@Coooxoh
+
+공용 램블러 미드 다운자켓
+
+@__p0weradex_x
+
+여성 에어 써밋 BR 다운 자켓
+
+@nepaofficial
+@nepacrew.official
+개인정보처리방침
+고객센터
+대리점 개설문의
+매장안내
+공지사항
+이용약관
+|
+인재채용
+
+네파 고객센터 1666-2096 (유료)
+
+네파(주) I 대표 이선효   |    서울시 강남구 광평로 281 (수서동 715번지) 수서오피스빌딩 6층, 7층   |    사업자 번호 204-86-34391  사업자 정보확인
+통신판매업신고 제2015서울강남01 169호   |    개인정보관리책임자 박진형(CRM@nepa.co.kr)
+
+COPYRIGHT NEPA CO,LTD. ALL RIGHTS RESERVED.(1)
+
+facebook
+instagram
+youtube
+2
+/
+2
+오늘그만보기
+닫기
+
+----- 프레임 (https://www.youtube.com/embed/Wc6ldRb1OMs?mute=1&rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.nplus.co.kr&widgetid=1&forigin=https%3A%2F%2Fwww.nplus.co.kr%2Fmain%2Fmain.asp&aoriginsup=1&vf=1) -----
+[NEPA] 26FW AIR SUMMIT
+네파 | NEPA
+네파 | NEPA
+구독자 1.7만명
+다음에서 보기:
+
+----- 프레임 (https://www.youtube.com/embed/utysGFju_vM?mute=1&rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.nplus.co.kr&widgetid=3&forigin=https%3A%2F%2Fwww.nplus.co.kr%2Fmain%2Fmain.asp&aoriginsup=1&vf=1) -----
+[NEPA] 26SS WHISTLIZER MAX
+네파 | NEPA
+네파 | NEPA
+구독자 1.7만명
+다음에서 보기:
+
+----- 프레임 (https://www.youtube.com/embed/dKy9SEXVfz8?mute=1&rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.nplus.co.kr&widgetid=4&forigin=https%3A%2F%2Fwww.nplus.co.kr%2Fmain%2Fmain.asp&aoriginsup=1&vf=1) -----
+[NEPA] 26SS WHISTLIZER MAX - Ep.01 탄생
+네파 | NEPA
+네파 | NEPA
+구독자 1.7만명
+다음에서 보기:
+
+----- 프레임 (https://www.youtube.com/embed/qi519cEy_T4?mute=1&rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.nplus.co.kr&widgetid=5&forigin=https%3A%2F%2Fwww.nplus.co.kr%2Fmain%2Fmain.asp&aoriginsup=1&vf=1) -----
+[NEPA] 26SS WHISTLIZER MAX - Ep.02 항쟁
+네파 | NEPA
+네파 | NEPA
+구독자 1.7만명
+다음에서 보기:
+
+----- 프레임 (https://www.youtube.com/embed/NaLlkteCU-w?mute=1&rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.nplus.co.kr&widgetid=6&forigin=https%3A%2F%2Fwww.nplus.co.kr%2Fmain%2Fmain.asp&aoriginsup=1&vf=1) -----
+[NEPA] 26SS WHISTLIZER MAX - Ep.03 도피
+네파 | NEPA
+네파 | NEPA
+구독자 1.7만명
+다음에서 보기:
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+delete
+ search
+ 최근 검색어
+ 최근 검색어가 없습니다.
+ 전체 삭제
+ function wordRemoveAll2(){
+ jQuery.ajax({
+ type: "POST",
+ url: "/ext/searchRemove.asp",
+ data: "sWord=removeAll",
+ dataType : "JSON",
+ success: function(data) {
+ jQuery("#recent_list").html( '<div style="margin-top:30px;">최근 검색어가 없습니다.</div>' ) ;
+ jQuery("#search_reset_btn").hide();
+ }
+ })
+ }
+ 인기 검색어
+ 에어써밋
+ 폴라텍사은품
+ 키즈신상다운
+ 칸네토
+ 이준호기안장셔츠
+ 바람막이
+ 플리스자켓
+ 등산가방
+ 키즈신상30%
+ 주니어신상30%
+
+MEN 
+ 아우터
+ 방수자켓
+ 일반자켓
+ 플리스자켓
+ 다운/패딩
+ 경량다운
+ 베스트
+ 상의
+ 집업티셔츠
+ 폴로/셔츠
+ 라운드티셔츠
+ 하의
+ 팬츠
+ 조거/카고
+ 데님
+ 하프팬츠
+ 트레이닝웨어
+ 트레이닝웨어
+ 언더웨어
+ 드로즈
+ 베이스레이어
+ 레깅스
+ 브랜드
+ NEPA X apostrofo
+ PYRENEX
+ CUISSE DE GRENOUILLE
+ TEE LIBRARY
+ FLEXTAIL
+ ZUCCHERO
+
+WOMEN 
+ 아우터
+ 방수자켓
+ 일반자켓
+ 플리스자켓
+ 다운/패딩
+ 경량다운
+ 베스트
+ 상의
+ 맨투맨/후디
+ 집업티셔츠
+ 폴로/셔츠
+ 라운드티셔츠
+ 하의
+ 팬츠
+ 조거/카고
+ 데님
+ 원피스/스커트
+ 트레이닝웨어
+ 트레이닝웨어
+ 언더웨어
+ 브라세트
+ 트렁크
+ 이너웨어
+ 브랜드
+ NEPA X apostrofo
+ PYRENEX
+ CUISSE DE GRENOUILLE
+ TEE LIBRARY
+ FLEXTAIL
+ ZUCCHERO
+
+SHOES 
+ MEN
+ 트레킹
+ 하이킹
+ 워킹/러닝
+ 시즌화
+ 방한화
+ WOMEN
+ 트레킹
+ 하이킹
+ 워킹/러닝
+ 시즌화
+ 방한화
+
+ACC 
+ 가방
+ 백팩
+ 슬링백/힙색
+ 크로스/토트백
+ 미니백
+ 모자
+ 햇
+ 캡
+ 비니/고소모
+ 썬바이져
+ 용품
+ 등산스틱
+ 등산용품
+ 장갑
+ 캠핑용품
+ 방한용품
+ UV용품
+ 양말
+
+JUNIOR
+ 여아라인
+ 자켓
+ 다운/패딩
+ 베스트
+ 맨투맨/후디
+ 티셔츠
+ 셋업
+ 원피스/스커트
+ 팬츠
+ 스윔웨어
+ 용품
+ 가방
+ 모자
+ 양말
+
+KIDS
+ 공용/남아
+ 자켓
+ 다운/패딩
+ 맨투맨/후디
+ 티셔츠
+ 셋업
+ 팬츠
+ 스키웨어
+ 스윔웨어
+ 플리스자켓
+ 하프팬츠
+ 여아라인
+ 자켓
+ 다운/패딩
+ 맨투맨/후디
+ 티셔츠
+ 원피스/스커트
+ 셋업
+ 팬츠
+ 스윔웨어
+ 스키웨어
+ 아동화
+ 운동화
+ 시즌화
+ 방한부츠
+ 용품
+ 스쿨백팩/슈즈백
+ 모자
+ 장갑
+ 양말
+ 방한용품
+ 가을신상30%
+ 가을신상30%
+
+OUTLET 
+ 남성
+ 방수자켓
+ 자켓
+ 티셔츠
+ 다운/패딩
+ 팬츠
+ 트레이닝웨어
+ 여성
+ 방수자켓
+ 자켓
+ 티셔츠
+ 다운/패딩
+ 팬츠
+ 트레이닝웨어
+ 용품
+ 신발
+ 가방
+ 모자
+ 장갑
+ 등산스틱
+ 기타
+ 아동
+ 자켓
+ 다운/패딩
+ 티셔츠
+ 원피스/스커트
+ 셋업
+ 팬츠
+ 스윔/스키웨어
+ 용품
+ 아동화
+ 스쿨/피크닉백
+ 크로스/미니백
+
+기획전
+ 이벤트
+
+BRAND 
+ NEPA
+ 브랜드 스토리
+ 연혁
+ CSR
+ NEPA KIDS
+ 브랜드 스토리
+ 콜라보레이션
+ NEPA X apostrofo 
+ iami 
+ CUISSE DE GRENOUILLE 
+ TEE LIBRARY 
+ PYRENEX 
+ FLEXTAIL 
+ ZUCCHERO
+
+26FW AIR SUMMIT
+ 지리산보다 매섭게 불어오는 출근길 빌딩풍 PANIC도시라는 야생에서도 자유로운 에어써밋이라면 NEVER PANIC
+
+----- 이미지 대체텍스트 (img alt) -----
+공용 사이폰 롱 다운자켓 7MF2022C01 BLACK
+여성 폴라텍 파워 드라이 메쉬 자켓 7MB6104K80 MINT ICE
+남성 파라 패딩 자켓 7M50900C01 BLACK
+여성 써모 테크 브리즈 자켓 7M60662J53 DEEP CAMEL
+남성 파라 패딩 자켓 7M50900B63 MID GREY
+여성 모션플렉스 하이킹 팬츠 7M61607M16 DEEP NAVY
+코브 5패널 캠프캡 7ME7423J24 GREYISH BROWN
+여성 페스카 플리스 자켓 7M86100C01 BLACK
+여성 아르테 윈드스토퍼 롱 다운자켓 7M82076E05 IVORY
+공용 듀오 리버시블 자켓 7MF0661D53 CREAM BEIGE
+공용 플루토 고어텍스 보아 7KE7602K01 KHAKI
+남성 에어써밋 BR 다운 자켓 7L72024K01 KHAKI
+공용 하이스피릿 고어텍스 7JE7623J20 BRICK RED
+남성 3L 원드블럭 웜팬츠 7J71605C01 BLACK
+남성 하이브리드 튜브 다운 7J72023J13 LT/COCOA
+남성 템프스 3 IN 1 윈드스토퍼 자켓 7K50602D06 STONE
+여성 에어써밋 미들 다운자켓 7K82029D16 KHAKI BEIGE
+남성 패스파인더 패턴 플리스자켓 7K76103M04 DK/NAVY
+남성 에어써밋 BR 다운 자켓 7L72024B25 LT/GREY
+여성 에어써밋 미들 다운자켓 7K82029C01 BLACK
+○ [네파] 전사 사은품 프로모션(10/2~ ) 배너 이미지
+[키즈] WINTER VACANCE 다운 프리오더 (8/10~9/30) 배너 이미지
+(키즈)공용 윈트릭스 롱다운 KMF2005C01 BLACK
+(키즈)공용 윈트릭스 롱다운 KMF2005N06 GREYISH LAVENDER
+(키즈)공용 윈트릭스 롱다운 KMF2005C04 GLOSSY
+(키즈)여아 스노우 위시 숏 덕 다운자켓 KM82002C01 BLACK
+(키즈)여아 스노우 위시 숏 덕 다운자켓 KM82002H48 PINK FROST
+26FW Influencer's Outfit 이벤트 배너 이미지
+오르고 울 비니 7MF7407K64 BROWN KHAKI
+오르고 울 비니 7MF7407C01 BLACK
+오르고 울 비니 7MF7407KA0 DARK OLIVE
+여성 폴라텍 오리진플리스 롱슬리브 라운드티셔츠 7M85303G08 SOFT YELLOW
+여성 폴라텍 오리진플리스 롱슬리브 라운드티셔츠 7M85303J50 CHOCOLATE BROWN
+남성 에어써밋 경량 다운자켓 7M72013B37 PALE GREY
+남성 에어써밋 경량 다운자켓 7M72013L86 SLATE BLUE
+남성 에어써밋 경량 다운자켓 7M72013KA0 DARK OLIVE
+고어텍스 윈드스토퍼 알테라2L 이벤트 배너 이미지
+남성 알테라 2L 윈드스토퍼 방풍 자켓 7M50603C01 BLACK
+남성 알테라 2L 윈드스토퍼 방풍 자켓 7M50603L73 DEEP BLUE
+남성 알테라 2L 윈드스토퍼 방풍 자켓 7M50603J00 BROWN
+@__p0weradex_x / 여성 에코 브리즈 오버롤 원피스 착장 이미지
+@c_k_0916 / 남성 뷰파인더 3L 방풍 자켓 착장 이미지
+@183.h.g / 남성 패스파인더 고어텍스 2L 방수 자켓 착장 이미지
+@52gaarimasen / 남성 패스파인더 고어텍스 2L 방수 자켓 착장 이미지
+@yunsanh / 남성 패스파인더 고어텍스 2L 방수 자켓 착장 이미지
+@cocomongs_ju / 여성 패스파인더 고어텍스 2L 방수 자켓 착장 이미지
+@iwon.21 / 여성 써모퍼프 후디 패딩 자켓 착장 이미지
+@__p0weradex_x / 여성 에어 써밋 BR 다운 자켓 착장 이미지
+○ [네파] 전사 사은품 프로모션(10/2~ )

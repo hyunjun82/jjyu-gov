@@ -1,0 +1,39 @@
+{
+  "slug": "mbn",
+  "name": "MBN",
+  "aliases": [
+    "매일방송",
+    "MBN 대표전화",
+    "MBN 전화번호",
+    "MBN 고객센터",
+    "엠비엔"
+  ],
+  "industry": "public",
+  "brandColor": "#E65301",
+  "official": "https://www.mbn.co.kr",
+  "sourceUrl": "https://www.mbn.co.kr/",
+  "sourceName": "MBN 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "02-2000-3114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] MBN(mbn.co.kr) 하단: 대표이사 김명수 인터넷신문등록번호 서울 아01043 대표전화 02-2000-3114. 상담시간 표기가 없어 hours 를 비운다(MBN 고객센터 페이지의 평일 8:00~22:00 등은 시청자 센터 시간이라 쓰지 않음). 로고색은 로고 이미지 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "02-2000-3114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

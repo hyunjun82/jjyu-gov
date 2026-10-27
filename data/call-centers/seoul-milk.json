@@ -1,0 +1,40 @@
+{
+  "slug": "seoul-milk",
+  "name": "서울우유",
+  "aliases": [
+    "서울우유 고객센터",
+    "서울우유협동조합",
+    "서울우유 고객상담",
+    "서울우유 전화번호",
+    "서울우유 소비자 상담"
+  ],
+  "industry": "online",
+  "brandColor": "#E60114",
+  "official": "https://www.seoulmilk.co.kr",
+  "sourceUrl": "https://www.seoulmilk.co.kr/",
+  "sourceName": "서울우유 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "고객상담",
+    "tel": "080-021-5656"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 서울우유(seoulmilk.co.kr) 하단: 고객상담 080-021-5656. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객상담",
+      "tel": "080-021-5656"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객상담'으로 적힌 번호입니다."
+}

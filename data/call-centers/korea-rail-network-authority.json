@@ -1,0 +1,43 @@
+{
+  "slug": "korea-rail-network-authority",
+  "name": "국가철도공단",
+  "aliases": [
+    "한국철도시설공단",
+    "철도공단",
+    "국가철도공단 고객센터",
+    "국가철도공단 전화번호",
+    "한국철도시설공단 전화번호"
+  ],
+  "industry": "public",
+  "brandColor": "#083F88",
+  "official": "https://www.kr.or.kr",
+  "sourceUrl": "https://www.kr.or.kr/",
+  "sourceName": "국가철도공단 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대전광역시 동구 중앙로 242",
+  "hqZip": "34618",
+  "main": {
+    "label": "고객센터",
+    "tel": "1588-7270"
+  },
+  "hours": {
+    "weekday": "09:00 ~ 18:00",
+    "holiday": "토요일/공휴일 제외"
+  },
+  "hoursNote": "[2026-10-27] 국가철도공단(kr.or.kr) 하단: 고객센터 1588-7270 상담시간 09:00 ~ 18:00 (토요일/공휴일 제외), 우)34618 대전광역시 동구 중앙로 242 국가철도공단 TEL : 1588-7270(통화료 사용자 부담). 공단 명칭은 한국철도시설공단에서 국가철도공단으로 바뀐 것이라 aliases 에 옛 이름을 남긴다. 로고색은 logo.png 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "고객센터",
+      "tel": "1588-7270",
+      "note": "09:00~18:00, 토요일/공휴일 제외, 통화료 사용자 부담"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '고객센터'로 적힌 번호입니다."
+}

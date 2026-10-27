@@ -1,0 +1,41 @@
+{
+  "slug": "ytn",
+  "name": "YTN",
+  "aliases": [
+    "와이티엔",
+    "YTN 대표전화",
+    "YTN 전화번호",
+    "YTN 고객센터",
+    "YTN 제보"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.ytn.co.kr",
+  "sourceUrl": "https://www.ytn.co.kr/",
+  "sourceName": "YTN 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "corp": "㈜와이티엔",
+  "hq": "서울특별시 마포구 상암산로 76",
+  "main": {
+    "label": "대표전화",
+    "tel": "02-398-8000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] YTN(ytn.co.kr) 하단: ㈜와이티엔 서울특별시 마포구 상암산로 76 (상암동) 대표전화 02-398-8000 팩스 02-398-8129. 상담시간 표기가 없어 hours 를 비운다. 로고가 검정(YTN 워드마크)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "02-398-8000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

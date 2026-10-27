@@ -1,0 +1,484 @@
+SLUG: sidiz-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/sidiz-call-center-*.png)
+
+===== [1] https://www.sidiz.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/sidiz-call-center-1.png
+CHARS: 2173
+
+시디즈는 소셜 미디어 기능의 제공과 데이터 분석 및 본 사이트가 올바로 동작하고 개인화된 콘텐츠와 광고를 제공하기 위해 쿠키를 사용하고 있습니다. 회사 사이트에 대한 귀하의 사용 정보를 회사의 소셜 미디어, 광고 및 분석 협력사와 공유합니다. 기술과 쿠키의 적용에 대한 자세한 정보는 쿠키정책을 참조 하십시오.
+
+쿠키 설정
+모든 쿠키 허용
+수락 하지 않음
+본문으로 건너뛰기
+리퍼럴 추천 제도 소개
+지금 가입하고 첫 구매 혜택 받기
+혜택 더하기 - 최대 15% 할인 쿠폰
+품질보증/정품등록
+사업자구매
+매장찾기
+회원가입
+로그인
+SHOP
+ABOUT SIDIZ
+S-CULTURE
+SPECIAL OFFERS
+SUPPORT
+Re:LIFE
+RENTAL
+카트 열기
+NEW SIZE & RENEWAL
+T60 & T60 LARGE
+
+PERSONAL FIT. TRUE COMFORT.
+
+더 다양한 체형에, 더 꼭 맞는 피팅을 더하다
+
+자세히 보기
+자세히 보기
+2 / 2
+FIND YOUR FIT
+간단한 테스트로 나에게 맞는 의자를 찾아보세요.
+나에게 맞는 의자 찾기
+RECOMMEND
+PROGRESSIVE SITTING을 위한 시디즈의 추천 제품
+T90
+회원 할인가
+4% 1,099,000원~ 1,150,000원
+T80
+회원 할인가
+6% 649,000원~ 689,000원
+T60
+회원 할인가
+6% 459,000원~ 489,000원
+IBLE 아이블
+회원 할인가
+5% 189,000원~ 199,000원
+S-CULTURE
+You sit. And the journey begins.
+SITTING LAB
+의자는 어떻게 일하는 몸을 따라 진화했나
+6월의 SPECIAL CONTENTS
+SITTING LAB
+어떤 럼버서포트가 내 허리에 맞을까?
+[CHAIR NOTE] 럼버서포트 선택 & 사용 가이드
+SITTING LAB
+허리 건강을 지키는 의자의 조건, 무엇일까?
+[CHAIR NOTE] 럼버서포트의 인간공학
+PROGRESSIVE SITTING EXPERIENCE
+BRAND STORY
+EASY REPAIR
+건강한 지구를 위한 새로운 제안
+MORE
+품질 보증
+안심하고 사용하도록
+MORE
+STORE
+의자 위 앉는 경험을 몰입감 있게 체험할 수 있는
+SIDIZ THE PROGRESSIVE에서
+
+열정적이고 발전하는 삶을 위한
+최상의 시팅 솔루션을 경험해보세요.
+가까운 매장 찾기
+NEWS
+리빙·다이닝 학습 의자 ‘트레보’...레드닷 디자인 어워드 본상 수상
+25-04-16
+시디즈 회원에게 주어지는
+쿠폰과 추천인 혜택을 누리세요
+회원가입
+로그인
+SHOP
+WORK | 사무용·컴퓨터 의자
+LIGHT WORK | 홈오피스·책상 의자
+LIVING DINING | 식탁 의자
+GAMING | 게이밍 의자
+STUDY | 학생·공부 의자
+GROWING | 하이체어·유아 의자
+SEAT BOOSTER | 발받침대·스툴·좌식의자
+THE P GOODS | 시디즈 굿즈
+TOTTENHAM HOTSPUR | 토트넘 홋스퍼 콜라보 의자
+EASY REPAIR | 이지리페어 부품 구매
+Re:LIFE | 리라이프 제품 구매
+제품 비교하기
+나에게 맞는 의자 찾기
+ABOUT SIDIZ
+BRAND STORY
+HISTORY
+TECHNOLOGY
+FLAGSHIP STORE
+TOTTENHAM HOTSPUR
+S-CULTURE
+EASY REPAIR
+SUPPORT
+정품 등록
+제품 FAQ
+서비스 FAQ
+제품 가이드
+AS 상담/신청
+1:1 문의
+사업자 고객 구매 문의
+INFORMATION
+SPECIAL OFFERS
+매장 찾기
+NEWS
+STORAGE
+IR 공고
+사이트맵
+컨택센터 1577-5674 평일 09:30 ~ 17:30 점심시간 12:30 ~ 13:30 토요일 09:30 ~ 12:30 AS만 가능
+사업자구매 사업자고객 문의는 전문가와 상담하세요
+Copyright (c) SIDIZ INC. rights reserved.
+이용약관
+개인정보 처리방침
+안전보건 경영방침
+윤리경영 신고센터
+(주)시디즈 대표이사 김태은, 우인환
+경기도 평택시 세교산단로 67-20(세교동)
+sidiz_official@sidiz.com
+사업자등록번호 215-87-48121
+통신판매신고번호 2018-경기평택-0099
+부가통신사업신고필증 - 022094
+FAX 02-3400-4800
+개인정보관리책임자 김태은, 우인환
+10.16 세계 척추의 날
+
+당신의 척추를 위한 가치 있는 선택
+T90, T80 프리미엄 의자 스페셜 오퍼
+
+혜택 바로가기
+오늘 그만 보기
+닫기
+AI 챗봇
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+의자 선택 가이드
+ 제품 비교하기
+ 상황별 의자 추천
+ 나에게 맞는 의자 찾기
+ 의자 한눈에 보기
+
+WORK
+ 사무용·컴퓨터 의자
+ T90PREMIUM
+ T80PREMIUM
+ T60 AIR
+ T60
+ T50 AIR
+ T50
+ GX
+ T20
+
+LIGHT WORK
+ 홈오피스·책상 의자
+ MUUVE 뮤브
+ LINIE 리니에
+ EGA 에가
+ BUTTON 버튼
+
+LIVING DINING
+ 식탁 의자·바스툴
+ PLIT 플릿
+ MANE 마네
+ OUI 위
+
+GAMING
+ 게이밍 의자
+ GC PROPREMIUM
+ GX
+
+STUDY
+ 학생·공부 의자
+ IBLE 아이블
+ RINGO 링고
+ TREVO 트레보
+
+GROWING
+ 하이체어·유아 의자
+ ATTI 아띠
+ MOLTI 몰티
+
+SEAT BOOSTER
+ 발받침대·스툴·좌식의자
+ STEPO 스테포
+ PILLO 필로
+ FUNGUS 펑거스
+ OLLY 올리
+
+THE P GOODS
+ 시디즈 굿즈
+ 멀티 스프레이
+ 더 프로그레시브 백
+
+TOTTENHAM HOTSPUR
+ 토트넘 홋스퍼 콜라보 의자
+ T20
+ OLLY 올리
+ FUNGUS 펑거스
+ T20 팔걸이 패드
+ GX
+
+나에게 맞는 의자 찾기
+ 상황별 의자 추천
+
+ABOUT SIDIZ
+ BRAND STORY
+ HISTORY
+ TECHNOLOGY
+ SUSTAINABILITY
+ FLAGSHIP STORE
+ TO SIT IS TO PROGRESS
+ TOTTENHAM HOTSPER
+ 고쳐서 오래쓰기, 이지리페어
+ 되살려 이어쓰기, 리라이프
+
+품질보증
+ 정품 등록
+ 나의 등록 제품
+ SUPPORT
+ 제품 FAQ
+ 서비스 FAQ
+ 제품 가이드
+ AS 상담/신청
+ 1:1 문의
+ 사업자 고객 구매 문의
+ 15년 품질보증
+ 리퍼럴제도 소개
+
+Re:LIFE
+ 구매하기
+
+전체
+ T90PREMIUM
+ T80PREMIUM
+ T60 AIR
+ T60
+ T50 AIR
+ T50
+ GX
+ T20
+
+전체
+ MUUVE 뮤브
+ LINIE 리니에
+ EGA 에가
+ BUTTON 버튼
+
+전체
+ PLIT 플릿
+ MANE 마네
+ OUI 위
+
+전체
+ GC PROPREMIUM
+ GX
+
+전체
+ IBLE 아이블
+ RINGO 링고
+ TREVO 트레보
+
+전체
+ ATTI 아띠
+ MOLTI 몰티
+
+전체
+ STEPO 스테포
+ PILLO 필로
+ FUNGUS 펑거스
+ OLLY 올리
+
+전체
+ 멀티 스프레이
+ 더 프로그레시브 백
+
+전체
+ T20
+ OLLY 올리
+ FUNGUS 펑거스
+ T20 팔걸이 패드
+ GX
+
+ABOUT SIDIZ
+ BRAND STORY
+ HISTORY
+ TECHNOLOGY
+ SUSTAINABILITY
+ FLAGSHIP STORE
+ TO SIT IS TO PROGRESS
+ TOTTENHAM HOTSPER
+ .sidebar__body .gnb_banner {
+ flex: 1;
+ display: flex;
+ gap: 8px;
+ justify-content: flex-start;
+ align-items: flex-end;
+ margin-top: 24px;
+ padding-bottom: 32px;
+ }
+ .sidebar__body .gnb_banner_item:first-child:last-child {
+ margin: 0 auto;
+ }
+ .sidebar__body .gnb_banner_item {
+ width: 116px !important;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 8px;
+ padding: 0 !important;
+ }
+ .sidebar__body .gnb_banner_item_img {
+ width: inherit;
+ height: 155px;
+ display: flex;
+ overflow: hidden;
+ }
+ .sidebar__body .gnb_banner_item_img > * {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ }
+ .sidebar__body .gnb_banner_item_title {
+ width: inherit;
+ margin: 0;
+ color: #434548;
+ word-break: keep-all;
+ font-size: 13px;
+ line-height: 120%;
+ letter-spacing: -0.26px;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ overflow: hidden;
+ }
+ 고쳐서 오래쓰기, 이지리페어
+ 되살려 이어쓰기, 리라이프
+
+품질보증
+ 정품 등록
+ 나의 등록 제품
+ SUPPORT
+ 제품 FAQ
+ 서비스 FAQ
+ 제품 가이드
+ AS 상담/신청
+ 1:1 문의
+ 사업자 고객 구매 문의
+ .sidebar__body .gnb_banner {
+ flex: 1;
+ display: flex;
+ gap: 8px;
+ justify-content: flex-start;
+ align-items: flex-end;
+ margin-top: 24px;
+ padding-bottom: 32px;
+ }
+ .sidebar__body .gnb_banner_item:first-child:last-child {
+ margin: 0 auto;
+ }
+ .sidebar__body .gnb_banner_item {
+ width: 116px !important;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 8px;
+ padding: 0 !important;
+ }
+ .sidebar__body .gnb_banner_item_img {
+ width: inherit;
+ height: 155px;
+ display: flex;
+ overflow: hidden;
+ }
+ .sidebar__body .gnb_banner_item_img > * {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ }
+ .sidebar__body .gnb_banner_item_title {
+ width: inherit;
+ margin: 0;
+ color: #434548;
+ word-break: keep-all;
+ font-size: 13px;
+ line-height: 120%;
+ letter-spacing: -0.26px;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ overflow: hidden;
+ }
+ 15년 품질보증
+ 리퍼럴제도 소개
+
+Re:LIFE
+ 구매하기
+ .sidebar__body .gnb_banner {
+ flex: 1;
+ display: flex;
+ gap: 8px;
+ justify-content: flex-start;
+ align-items: flex-end;
+ margin-top: 24px;
+ padding-bottom: 32px;
+ }
+ .sidebar__body .gnb_banner_item:first-child:last-child {
+ margin: 0 auto;
+ }
+ .sidebar__body .gnb_banner_item {
+ width: 116px !important;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 8px;
+ padding: 0 !important;
+ }
+ .sidebar__body .gnb_banner_item_img {
+ width: inherit;
+ height: 155px;
+ display: flex;
+ overflow: hidden;
+ }
+ .sidebar__body .gnb_banner_item_img > * {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ }
+ .sidebar__body .gnb_banner_item_title {
+ width: inherit;
+ margin: 0;
+ color: #434548;
+ word-break: keep-all;
+ font-size: 13px;
+ line-height: 120%;
+ letter-spacing: -0.26px;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+ overflow: hidden;
+ }
+
+WORK 
+ LIGHT WORK 
+ LIVING DINING 
+ GAMING 
+ STUDY 
+ GROWING 
+ SEAT BOOSTER 
+ THE P GOODS 
+ TOTTENHAM HOTSPUR 
+ EASY REPAIR 
+ Re:LIFE 
+ 제품 비교하기
+ 나에게 맞는 의자 찾기
+
+1 제품 카트에 추가되었습니다
+ 카트 보기
+
+선택된 제품이 없습니다.
+ 총 주문 금액
+ 0원
+ 주문하기
+
+----- 이미지 대체텍스트 (img alt) -----
+시디즈 T60 인체공학 의자의 핵심 기능인 인피니핏 헤드레스트(Infinifit Headrest), 맞춤형 럼버서포트(Lumbar Support), 3D 조절 팔걸이(3D Armrest)의 올바른 사용법 및 신체 맞춤형 조절 방법을 설명하는 가이드 영상 썸네일. 남성 모델이 몸에 딱 맞게 정밀 세팅된 퍼스널 피팅 시스템(Personal Fitting System) 의자에 편안하게 기댄 채 안정적인 착좌감과 안락함을 경험하는 연출 배너 이미지.
+퍼포먼스공학의자 시디즈 T90 인체공학 사무용 의자 프리미엄 소재와 다기능 팔걸이
+T80 Re:LIFE 워크테크 의자 인체공학적 디자인과 정교한 움직임 반응

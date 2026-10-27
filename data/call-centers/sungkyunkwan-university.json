@@ -1,0 +1,45 @@
+{
+  "slug": "sungkyunkwan-university",
+  "name": "성균관대학교",
+  "aliases": [
+    "성균관대",
+    "성균관대학교 대표전화",
+    "성균관대 전화번호",
+    "성균관대학교 전화번호",
+    "SKKU"
+  ],
+  "industry": "public",
+  "brandColor": "#093C71",
+  "official": "https://www.skku.edu",
+  "sourceUrl": "https://www.skku.edu/",
+  "sourceName": "성균관대학교 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 종로구 성균관로 25-2",
+  "hqZip": "03063",
+  "main": {
+    "label": "인문사회과학캠퍼스 TEL",
+    "tel": "02-760-0114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 성균관대학교(skku.edu) 하단: 인문사회과학캠퍼스 (03063) 서울특별시 종로구 성균관로 25-2 / TEL.02.760.0114, 자연과학캠퍼스 (16419) 경기도 수원시 장안구 서부로 2066 / TEL.031.290.5114. 원문의 점 표기를 하이픈으로만 바꿨다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 로고 심볼 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "인문사회과학캠퍼스 TEL",
+      "tel": "02-760-0114"
+    },
+    {
+      "label": "자연과학캠퍼스 TEL",
+      "tel": "031-290-5114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '인문사회과학캠퍼스 TEL'로 적힌 번호입니다."
+}

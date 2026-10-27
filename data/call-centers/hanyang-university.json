@@ -1,0 +1,45 @@
+{
+  "slug": "hanyang-university",
+  "name": "한양대학교",
+  "aliases": [
+    "한양대",
+    "한양대학교 대표전화",
+    "한양대 전화번호",
+    "한양대학교 전화번호",
+    "HYU"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.hanyang.ac.kr",
+  "sourceUrl": "https://www.hanyang.ac.kr/",
+  "sourceName": "한양대학교 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 성동구 왕십리로 222",
+  "hqZip": "04763",
+  "main": {
+    "label": "서울캠퍼스 TEL",
+    "tel": "02-2220-0114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한양대학교(hanyang.ac.kr) 하단: 서울캠퍼스 (04763) 서울특별시 성동구 왕십리로 222 TEL. 02.2220.0114, ERICA캠퍼스 (15588) 경기도 안산시 상록구 한양대학로 55 TEL. 031.400.5114. 원문의 점 표기를 하이픈으로만 바꿨다. 상담시간 표기가 없어 hours 를 비운다. 로고가 흰색(사진 위 흰 로고)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "서울캠퍼스 TEL",
+      "tel": "02-2220-0114"
+    },
+    {
+      "label": "ERICA캠퍼스 TEL",
+      "tel": "031-400-5114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '서울캠퍼스 TEL'로 적힌 번호입니다."
+}

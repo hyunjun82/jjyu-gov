@@ -1,0 +1,40 @@
+{
+  "slug": "joongang-ilbo",
+  "name": "중앙일보",
+  "aliases": [
+    "중앙일보 고객센터",
+    "중앙일보 전화번호",
+    "중앙일보 대표전화",
+    "중앙일보 문의",
+    "JoongAng"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.joongang.co.kr",
+  "sourceUrl": "https://www.joongang.co.kr/customercenter",
+  "sourceName": "중앙일보 고객센터",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "일반 문의 및 안내",
+    "tel": "02-751-5114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 중앙일보(joongang.co.kr/customercenter) 연락처 안내: 일반 문의 및 안내 02-751-5114(9114), 로그인 관련 02-751-5114(9114), 등록 및 수정 02-751-9681. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "일반 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "일반 문의 및 안내",
+      "tel": "02-751-5114",
+      "note": "내선 9114로도 표기"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '일반 문의 및 안내'로 적힌 번호입니다."
+}

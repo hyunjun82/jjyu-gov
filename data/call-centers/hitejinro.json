@@ -1,0 +1,42 @@
+{
+  "slug": "hitejinro",
+  "name": "하이트진로",
+  "aliases": [
+    "하이트진로 고객센터",
+    "하이트진로 대표전화",
+    "하이트진로 전화번호",
+    "진로 고객센터",
+    "HITEJINRO"
+  ],
+  "industry": "online",
+  "brandColor": "#012C81",
+  "official": "https://www.hitejinro.com",
+  "sourceUrl": "https://www.hitejinro.com/",
+  "sourceName": "하이트진로 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 강남구 영동대로 714",
+  "hqZip": "06075",
+  "main": {
+    "label": "대표전화",
+    "tel": "02-3219-0114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 하이트진로(hitejinro.com) 하단: (06075) 서울특별시 강남구 영동대로 714 하이트진로빌딩, 대표전화 02-3219-0114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 logo_hitejinro.png 최빈 유채색.",
+  "variant": "shop",
+  "idStep": "문의하실 제품명과 구매처",
+  "jobs": "제품 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "02-3219-0114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

@@ -1,0 +1,2127 @@
+SLUG: hanyang-university-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/hanyang-university-call-center-*.png)
+
+===== [1] https://www.hanyang.ac.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/hanyang-university-call-center-1.png
+CHARS: 3755
+
+탐색
+내용으로 건너뛰기
+LANGUAGE
+
+ENG
+
+HY-in
+
+기부
+
+MENU
+한양대
+하늘에서 바라본 한양
+
+What a Wonderful Hanyang 📸
+
+서울캠퍼스 2027년 3월임용
+전임교원 2차 공개채용
+
+서울캠퍼스 63개 학과(부)
+소개 영상 보기
+
+한양사자이빨 초콜릿 공식 출시
+YES24 바로가기 [완판]
+
+HYU NOW
+
+한양대는 지금
+
+전체보기 chevron_right
+한양대, AI중심대학·AX대학원 동시 선정 …최대 565억 지원
+
+한양대학교(총장 이기정)가 정부의 핵심 인공지능(AI) 인재양성 사업인 ‘AI중심대학’과 ‘AX(인공지능 전환)대학원’에 동시 선정됐다. 특히 AX대학원에는 서울캠퍼스와 ERICA캠퍼스가 모두 선정되면서, 한양대는 AI중심대학 최대 240억 원과 양 캠퍼스 AX대학원 최대 325억 원 등 총 최대 565억 원 규모의 지원을 바탕으로 학부부터 석·박사 과정까지 이어지는 AI 인재양성 체계를 강화한다.
+
+Read More chevron_right
+01
+05
+chevron_left
+chevron_right
+
+NOTICE & CALENDAR
+
+공지사항&일정
+
+공지사항
+ 
+add
+학사일정
+ 
+add
+행사
+ 
+add
+주요공지
+학사
+입학
+장학/등록
+취업/창업
+모집/채용
+사회봉사
+산학/연구
+일반
+입학
+2027학년도 한양대학교 수시 신입학 논술고사 안내
+2026.10.23
+학사
+[서울 학부] 2027학년도 1학기 재입학 신청 안내
+2026.10.22
+장학/등록
+[서울] 내장학찾기 신규 서비스 오픈 안내
+2026.07.28
+장학/등록
+2026학년도 2학기 재학생 등록안내
+2026.07.15
+장학/등록
+2026학년도 2학기 학자금대출 신청 및 일정 안내
+2026.07.02
+
+HYU INTERVIEW
+
+인터뷰
+
+구자겸 NVH코리아㈜ 회장(기계공학부 77)
+Global Top 20의 한양 기계공학부를 꿈꾸며
+
+구자겸 회장에게 기부는 산업의 발전과 다음 세대를 위한 최선의 투자다. 그는 기부로써 산업의 내일을 도모하고, 대학과 후학의 역량을 강화하는 길을 지원한다. 우리 사회와 산업이 추구하는 방향에 맞춰 후배들이 대학에서 철저히 준비됐으면 하는 바람. 한양인이 산업의 미래를 이끄는 중추적 역할을 수행하길 바라는 염원이 담겨있다.
+
+Read More chevron_right
+01
+05
+chevron_left
+chevron_right
+최민경(정책학과 4)
+고병화(기계공학과 14)
+미래자동차공학과 조한신 교수
+
+HYU DISCOVER
+
+연구성과
+
+전체보기 chevron_right
+
+한양대 전파연구센터 유형석 교수팀, 배터리 없이 체내 의료기기에 전력·데이터 전송 기술 개발
+
+한양대학교 전파연구센터(센터장 유형석 바이오메디컬공학과 교수) 연구팀이 몸 밖에서 보내는 전파만으로 체내 삽입형 의료기기에 전력을 공급하고, 실시간으로 데이터를 주고받을 수 있는 기술을 개발했다. 연구팀은 인체 조직을 모사한 실험 환경에서 별도의 배터리 없이 무선으로 전달받은 에너지만으로 저전력 블루투스 통신 모듈을 구동하고 데이터를 전송하는 데 성공해, 체내 의료기기의 배터리 의존도를 낮출 수 있는 의료사물인터넷(IoMT) 기술의 가능성을 제시했다. 출처 : 뉴스H(http://www.newshyu.com)
+Read More chevron_right
+chevron_left
+chevron_right
+
+HYU SNS
+
+한양대의 다양한 소식들! 빠르고 쉽게 전해드립니다.
+
+[HY전공안내] 한양대학교 전공을 알아보자(전체 학과)
+
+[오늘뭐한대] 한양대에서 사진 찍는대| EP.01 한양대 중앙사진동아리 하이포(HYPO)
+
+한양사자초콜릿 공식 출시!
+
+내가 학위복을 입고 ◯◯◯을 먹은 이유?🦁
+
+개강 유형 zip.
+
+[HY-Interview] 인류의 지식에 보탬이 되는 연구｜바이오메디컬공학전공 임창환 교수
+
+HYU OVERVIEW
+
+2026
+THE 세계대학 영향력 평가
+6 위
+2025
+중앙일보 대학평가 서울
+3 위
+2025
+중앙일보 대학평가 ERICA
+13 위
+2027
+QS 세계대학평가
+155 위
+2026
+QS 아시아대학평가
+20 위
+한국기업데이터(KED) 2022
+CEO 기업 배출 국내 대학
+1 위
+2026년 1월 기준
+단과대학
+26 대학
+2026년 1월 기준
+학과
+98 학과
+2026년 1월 기준
+대학원
+19 대학원
+2025년 4월 기준
+재학생
+37709 명
+2025년 4월 기준
+교원
+5178 명
+2026년 1월 기준
+총 동문
+401399 명
+2025년 기준
+자매결연 대학
+772 개 대학
+2024학년도 결산
+장학금 총액
+1645 억 원
+2025년 기준
+연구비
+4659 억원
+Psychiatry
+예비한양인
+Book_2
+재학생
+Business_Center
+교직원
+school
+동문
+Family_Group
+학부모
+TOP
+대학 홈페이지
+서울캠퍼스
+공과대학
+의과대학
+간호대학
+인문과학대학
+사회과학대학
+자연과학대학
+정책과학대학
+경제금융대학
+경영대학
+사범대학
+생활과학대학
+음악대학
+예술·체육대학
+국제대학
+기술혁신대학
+한양YK인터칼리지
+ERICA캠퍼스
+공학대학
+소프트웨어융합대학
+약학대학
+첨단융합대학
+글로벌문화통상대학
+커뮤니케이션&컬처대학
+경상대학
+디자인대학
+예체능대학
+LIONS칼리지
+대학원 홈페이지
+대학원
+일반대학원
+전문대학원
+도시대학원
+국제대학원
+경영전문대학원
+법학전문대학원
+의생명공학전문대학원
+기술경영전문대학원
+특수대학원
+공학대학원
+공공정책대학원
+교육대학원
+언론정보대학원
+국제관광대학원
+임상간호대학원
+부동산융합대학원
+보건대학원
+상담심리대학원
+인공지능융합대학원
+창업대학원
+융합산업대학원
+개인정보처리방침
+외부촬영·콘텐츠이용방침
+이메일무단수집거부
+대학정보공시
+예산공고
+결산공고
+전자구매
+전화번호안내
+홈페이지 오류신고
+사학기관행동강령위반신고
+공익신고
+증명발급 서울
+증명발급 ERICA
+
+서울캠퍼스
+
+(04763) 서울특별시 성동구 왕십리로 222
+
+TEL. 02.2220.0114
+
+    
+=== 사이트로 이동 ===
+교원양성지원센터 [서울]
+국제처 [서울]
+국제교육원 [서울]
+창의·융합교육원 [서울]
+백남학술정보관
+비교과 통합관리시스템(HY-LU 서울)
+온라인 통합 플랫폼(HY-MOOC)
+대학평의원회
+미래인재교육원 [서울]
+사회봉사단 [서울]
+수강신청시스템(수강편람)
+산업연계교육자문위원회 IAB
+AI융합교수학습팀
+연구실안전관리시스템
+인권센터 [서울]
+장학안내 [서울]
+재무안내
+학생생활관 [서울]
+총학생회 [서울]
+출판부
+학사안내
+한양대학교 노동조합
+한양대학교 역사관
+현장실습지원센터 [서울]
+표절검색 ithenticate
+표절검색 카피킬러
+표절검색 turnitin
+원격지원
+발전기금 모금사업(기부금)
+소통위원회
+WRITING CENTER [서울]
+GO
+
+ERICA캠퍼스
+
+(15588) 경기도 안산시 상록구 한양대학로 55
+
+TEL. 031.400.5114
+
+   
+=== 사이트로 이동 ===
+국제처 [ERICA]
+국제교육원 [ERICA]
+창의·융합교육원 [ERICA]
+IC-PBL교수학습센터(IC-PBL 관련)
+IC-PBL교수학습센터(교수학습지원 관련)
+ERICA학술정보관
+대학평의원회
+비교과 통합관리시스템(HY-LU ERICA)
+사회교육원 [ERICA]
+사회봉사단 [ERICA]
+수강신청시스템(수강편람)
+산업연계교육자문위원회 IAB
+연구실안전관리시스템
+장학/학생안내 [ERICA]
+재무안내
+창의인재원 생활관 [ERICA]
+출판부
+학사안내 [ERICA]
+한양대학교 노동조합
+한양대학교 역사관
+상담센터 [ERICA]
+현장실습지원센터 [ERICA]
+표절검색 ithenticate
+표절검색 카피킬러
+원격지원
+발전기금 모금사업(기부금)
+학연산클러스터교육팀
+GO
+COPYRIGHT ⓒ 2026 HANYANG UNIVERSITY. ALL RIGHTS RESERVED.
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+한국어中文
+ This provides an unofficial translation by the Google Translate. Information on International Admissions, Research, and Support is available on our English website
+
+검색
+ #ABC
+ #ABC
+ #ABC
+
+한양대는
+ 총장/경영
+ 상징과 UI
+ 설립/역사
+ 대학현황
+ 동문/발전기금
+ 한양대학교는
+ 건학 정신
+ 대학 규정 (학칙)
+ Vision 2030
+ 윤리헌장
+ 조직도
+ 한양학원
+ 브랜드 아카이브
+ 대학평의원회
+ 인사말
+ 약력과 경력
+ 2026 중기발전계획
+ 총장 활동
+ 역대 총장
+ 총장에게 바란다
+ 부총장/처장단
+ 한양의 상징
+ 교가
+ UI
+ UI 활용
+ 색상 및 서체
+ 한양 캐릭터
+ 슬로건
+ 설립자 메시지+연보
+ 한양의 역사
+ 최초/유일
+ 대학 역사관
+ 백서
+ 한눈에 보는 한양
+ 통계 연보
+ 대학 요람
+ 해외 자매결연 대학
+ 자체평가
+ 한양 지속가능경영
+ 한양 SDGs
+ 대학정보공시
+ 대외협력처 바로가기
+ 한양 동문
+ 발전기금 리포트
+ 발전기금 뉴스레터
+
+캠퍼스 소개
+ 학사 안내
+ 행정 지원 안내
+ 기관/단체
+ 대학 생활
+ 서울캠퍼스는
+ 대학/학과 소개
+ 학과(부) 소개 영상
+ 대학원
+ 캠퍼스 지도+찾아오는길
+ 주차안내
+ 한양둘레길(8경)
+ 전화번호 안내
+ 학사일정
+ 수업 안내
+ 온라인 강좌
+ 전공제도
+ 학적변동
+ 성적
+ 졸업
+ 학점인정
+ 계절학기
+ 학점 교류
+ 업무별 담당 부서 안내
+ 등록 안내
+ 장학 안내
+ 증명발급 안내
+ 기숙사 안내
+ 교직이수
+ 교원자격증발급
+ 학생대관
+ 외부대관
+ 통합 양식자료실
+ 행정기관
+ 부속/부설기관
+ 학생 기구
+ 동아리 안내
+ 학생 언론사
+ 2025 캠퍼스 가이드북
+ 오늘의 메뉴
+ IT 서비스
+ 복지 매장 및 혜택
+ 보건 안내
+ 의료혜택
+ 학생 상담
+ 인권센터
+ 학생증/국제학생증
+ 병무 안내
+ 고시반 안내
+
+캠퍼스 소개
+ 학사 안내
+ 행정 지원 안내
+ 기관/단체
+ 대학 생활
+ ERICA캠퍼스는
+ 대학/학과 소개
+ 대학원
+ 연혁
+ 캠퍼스 지도+찾아오는길
+ 통학·셔틀버스
+ 주차안내
+ ERICA 정부재정지원사업
+ 전화번호 안내
+ 학사일정
+ 수업 안내
+ 온라인 강좌
+ 전공제도
+ 학적변동
+ 성적
+ 졸업
+ 학점인정
+ 계절학기
+ 학점 교류
+ 업무별 담당 부서 안내
+ 등록 안내
+ 장학 안내
+ 기숙사 안내
+ 증명발급 안내
+ 교직 이수
+ 대관 안내
+ 통합 양식자료실
+ 행정기관
+ 부속/부설기관
+ 학생 기구
+ 동아리 안내
+ 2025 캠퍼스 가이드북
+ 오늘의 메뉴
+ IT 서비스
+ 복지 매장 및 혜택
+ 보건 안내
+ 의료혜택
+ ERICA 상담센터
+ 인권센터
+ 학생증/국제학생증
+ 병무안내
+ 고시반 안내
+ ERICA 역량 새로배우기
+
+입학총괄
+ 학술정보
+ 글로벌 교육
+ 평생교육
+ 사회봉사
+ 대학/대학원 전체 입학안내
+ 서울 입학처
+ ERICA 입학처
+ 백남학술정보관
+ ERICA학술정보관
+ 국내 E-Book
+ 학위논문 온라인제출
+ 기관 리포지터리
+ 출판부
+ 국제교류(서울)
+ 국제교류(ERICA)
+ 한양국제여름학교(서울)
+ 한양국제여름학교(ERICA)
+ 외국인입학 (서울)
+ 외국인입학 (ERICA)
+ 미래인재교육원
+ 사회교육원(ERICA)
+ 국제교육원(서울)
+ 국제교육원(ERICA)
+ 비학위과정
+ 한국어문화원
+ 원격평생교육원
+ 사랑의 실천
+ SSIR 한국어판
+
+현장실습
+ 산학협력
+ 연구소/센터/사업단
+ 연구성과
+ 창업 지원
+ 소개
+ 현장실습센터(서울)
+ 현장실습센터(ERICA)
+ 산학협력단 소개
+ 서울 산학협력단
+ ERICA 산학협력단
+ 서울 공동기기원
+ ERICA 공동기기원
+ 특성화/집단융합연구원
+ 부설연구소
+ 교책연구센터
+ RISE지산학협력단(서울)
+ 4단계 BK21(서울)
+ 4단계 BK21(ERICA)
+ Scholarworks (서울)
+ Scholarworks (ERICA)
+
+통합 공지
+ 미디어보드
+ 한양캘린더
+ 참여게시판
+ 브랜드 아카이브
+ 공지사항
+ 오늘의 일정
+ 학사캘린더
+ 행사캘린더
+ 캘린더 전체보기
+ 서울캠퍼스 게시판
+ ERICA캠퍼스 게시판
+ 공식 홍보영상
+ 브로슈어&매거진
+ SNS&플랫폼
+ 보도자료&뉴스
+ 사진&영상
+ 홍보 지원
+
+한양대학교는
+ 건학 정신
+ 대학 규정 (학칙)
+ Vision 2030
+ 윤리헌장
+ 조직도
+ 한양학원
+ 브랜드 아카이브
+ 대학평의원회
+
+인사말
+ 약력과 경력
+ 2026 중기발전계획
+ 총장 활동
+ 역대 총장
+ 총장에게 바란다
+ 부총장/처장단
+
+한양의 상징
+ 교가
+ UI
+ UI 활용
+ 색상 및 서체
+ 한양 캐릭터
+ 슬로건
+
+설립자 메시지+연보
+ 한양의 역사
+ 최초/유일
+ 대학 역사관
+ 백서
+
+한눈에 보는 한양
+ 통계 연보
+ 대학 요람
+ 해외 자매결연 대학
+ 자체평가
+ 한양 지속가능경영
+ 한양 SDGs
+ 대학정보공시
+
+대외협력처 바로가기
+ 한양 동문
+ 발전기금 리포트
+ 발전기금 뉴스레터
+
+서울캠퍼스는
+ 대학/학과 소개
+ 학과(부) 소개 영상
+ 대학원
+ 캠퍼스 지도+찾아오는길
+ 주차안내
+ 한양둘레길(8경)
+ 전화번호 안내
+
+학사일정
+ 수업 안내
+ 온라인 강좌
+ 전공제도
+ 학적변동
+ 성적
+ 졸업
+ 학점인정
+ 계절학기
+ 학점 교류
+
+업무별 담당 부서 안내
+ 등록 안내
+ 장학 안내
+ 증명발급 안내
+ 기숙사 안내
+ 교직이수
+ 교원자격증발급
+ 학생대관
+ 외부대관
+ 통합 양식자료실
+
+행정기관
+ 부속/부설기관
+ 학생 기구
+ 동아리 안내
+ 학생 언론사
+
+2025 캠퍼스 가이드북
+ 오늘의 메뉴
+ IT 서비스
+ 복지 매장 및 혜택
+ 보건 안내
+ 의료혜택
+ 학생 상담
+ 인권센터
+ 학생증/국제학생증
+ 병무 안내
+ 고시반 안내
+
+ERICA캠퍼스는
+ 대학/학과 소개
+ 대학원
+ 연혁
+ 캠퍼스 지도+찾아오는길
+ 통학·셔틀버스
+ 주차안내
+ ERICA 정부재정지원사업
+ 전화번호 안내
+
+업무별 담당 부서 안내
+ 등록 안내
+ 장학 안내
+ 기숙사 안내
+ 증명발급 안내
+ 교직 이수
+ 대관 안내
+ 통합 양식자료실
+
+행정기관
+ 부속/부설기관
+ 학생 기구
+ 동아리 안내
+
+2025 캠퍼스 가이드북
+ 오늘의 메뉴
+ IT 서비스
+ 복지 매장 및 혜택
+ 보건 안내
+ 의료혜택
+ ERICA 상담센터
+ 인권센터
+ 학생증/국제학생증
+ 병무안내
+ 고시반 안내
+ ERICA 역량 새로배우기
+
+대학/대학원 전체 입학안내
+ 서울 입학처
+ ERICA 입학처
+
+백남학술정보관
+ ERICA학술정보관
+ 국내 E-Book
+ 학위논문 온라인제출
+ 기관 리포지터리
+ 출판부
+
+국제교류(서울)
+ 국제교류(ERICA)
+ 한양국제여름학교(서울)
+ 한양국제여름학교(ERICA)
+ 외국인입학 (서울)
+ 외국인입학 (ERICA)
+
+미래인재교육원
+ 사회교육원(ERICA)
+ 국제교육원(서울)
+ 국제교육원(ERICA)
+ 비학위과정
+ 한국어문화원
+ 원격평생교육원
+
+사랑의 실천
+ SSIR 한국어판
+
+소개
+ 현장실습센터(서울)
+ 현장실습센터(ERICA)
+
+산학협력단 소개
+ 서울 산학협력단
+ ERICA 산학협력단
+ 서울 공동기기원
+ ERICA 공동기기원
+
+특성화/집단융합연구원
+ 부설연구소
+ 교책연구센터
+ RISE지산학협력단(서울)
+ 4단계 BK21(서울)
+ 4단계 BK21(ERICA)
+
+Scholarworks (서울)
+ Scholarworks (ERICA)
+
+통합 공지
+ 공지사항
+ 미디어보드
+ 한양캘린더
+ 오늘의 일정
+ 학사캘린더
+ 행사캘린더
+ 캘린더 전체보기
+ 참여게시판
+ 서울캠퍼스 게시판
+ ERICA캠퍼스 게시판
+ 브랜드 아카이브
+ 공식 홍보영상
+ 브로슈어&매거진
+ SNS&플랫폼
+ 보도자료&뉴스
+ 사진&영상
+ 홍보 지원
+
+close
+ HYU SEARCH
+ 필요한 내용을 검색할 수 있어요.
+ close
+ search
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 학사 [서울 학부] 2027학년도 1학기 재입학 신청 안내 
+ 2026.10.22
+ 학사 2026-2학기 S/U등급제 시행 및 신청 안내 (서울) 
+ 2026.10.18
+ 학사 [ERICA 학부] 2026학년도 겨울계절학기 수요조사 안내 
+ 2026.09.22
+ 학사 [서울캠퍼스 학부] 2026학년도 겨울계절학기 수요조사 안내 
+ 2026.09.21
+ 학사 [서울] 2026학년도 2학기 중간 강의평가 실시 안내 
+ 2026.09.21
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 입학 2027학년도 한양대학교 수시 신입학 논술고사 안내 
+ 2026.10.23
+ 입학 [기술경영전문대학원] 2027학년도 일반전형 신입생 모집안내 
+ 2026.10.21
+ 입학 [기술경영전문대학원] 2027학년도 특별전형(전일제) 신입생 모집안내 
+ 2026.10.07
+ 입학 2026-2 학부생을 위한 대학원 Fair 
+ 2026.09.23
+ 입학 [ERICA 입학팀] 홍보대사 사랑한대 21기 최종합격자 발표 
+ 2025.12.01
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 장학/등록 2026학년도 2학기 한양리더(HY-Leader) 장학금 신청 안내 
+ 2026.08.12
+ 장학/등록 [서울] 2026-2학기 학부 재학생(신편입생 포함) 교내 가계곤란장학 2차 신청 안내(2026.08.13.(목) ~ 2026.09.30.(수)) 
+ 2026.08.12
+ 장학/등록 [서울] 2026-2학기 국가장학금(2차) 신청 안내 
+ 2026.08.10
+ 장학/등록 [서울] 내장학찾기 신규 서비스 오픈 안내 
+ 2026.07.28
+ 장학/등록 2026학년도 2학기 재학생 등록안내 
+ 2026.07.15
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 취업/창업 [경영대학] LG전자 선배와 함께하는 취업 멘토링 day [접수: 10.26~10.29] 
+ 2026.10.27
+ 취업/창업 [커리어개빌탐] 인문·사회대학 선배 초청 취업 멘토링, 우리만나잡(JOB) 안내 
+ 2026.10.26
+ 취업/창업 [우리 제품은 얼마에 팔아야 할 까?] 가격 결정 방법 교육 
+ 2026.10.23
+ 취업/창업 [커리어개발팀] 2026년 한양대 전문직 선배 초청 취업 성공 멘토링 안내 
+ 2026.10.21
+ 취업/창업 [커리어개발팀] 2026년 하반기 한양대 선배 초청 직무 · 진학 토크 안내 
+ 2026.10.21
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 모집/채용 [서울 교육혁신처 학사운영팀] 계약직원 채용 공고(접수마감:~2026.10.18, 일) 
+ 2026.10.14
+ 모집/채용 한양글로벌라이언즈 18기 서포터즈 모집/ Recruitment for the 18th Hanyang Global Lions Supporters 
+ 2026.10.12
+ 모집/채용 [한양대학교 예비군연대] 한양대학교(서울) 예비군연대에서 같이 일하실분 모십니다. (사무직-계약직) 
+ 2026.10.12
+ 모집/채용 한양대학교ERICA국제교육원 중화권 유학생 담당 계약직원 채용 
+ 2026.10.02
+ 모집/채용 [한양대학교 ERICA]경기도 RISE 프로젝트 계약직원 채용 공고 
+ 2026.09.07
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 사회봉사 [성동문화재단] '2026 크리에이티브X성수' 자원봉사자 모집(~10/7) 
+ 2026.10.01
+ 사회봉사 [한국청소년진흥협회] KYPA 17기 라오스 대학생 해외봉사단 모집(~10/15) (수정) 
+ 2026.09.18
+ 사회봉사 [태평양아시아협회] 2026년 제55기(동계) WFK PAS 청년봉사단 단원 모집(~9/30) 
+ 2026.09.17
+ 사회봉사 [한국대학사회봉사협의회] 제51기 WFK 청년봉사단 단원 모집(~10/12) 
+ 2026.09.17
+ 사회봉사 [한양대X넥슨재단] 게임창작 멘토링 프로그램 '헬로메이트 2기' 멘토 모집(~9/2) 
+ 2026.08.20
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 산학/연구 한양대학교 ERICA 캠퍼스혁신파크 산학연혁신허브 입점자 모집공고 
+ 2026.09.30
+ 산학/연구 [캠퍼스타운] 2026 RISE 테크브릿지(창업기업-연구실 단기 공동연구 과제) 참여 연구실 모집(~7/6(월)) 
+ 2026.06.29
+ 산학/연구 [한양 맞춤의약연구원] 2026년도 G-LAMP 사업 전임교원 선발 공고 
+ 2026.05.15
+ 산학/연구 [ERICA산학협력단] 2024년도 ERICA 3S INNOVATION PROGRAM 모집 공고 
+ 2024.05.21
+ 산학/연구 [LINC 3.0 사업] 2023 산학공동 기술개발과제 시행 공고(접수마감~5/4) 
+ 2023.04.10
+
+.portlet:has(.content-list){
+ margin-bottom:0;
+}
+.portlet-content:has(.content-list){
+ padding:0;
+}
+.content-list.listNotice{
+ margin:0;
+ padding-left:2rem;
+}
+.content-list.listNotice .list-item {
+ display:grid;
+ grid-template-columns: 5.5rem 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.3125rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listNotice .list-item:first-child{
+ margin-top:1rem;
+}
+.content-list.listNotice .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listNotice .list-item + .list-item {
+ margin-top: 1.3125rem;
+}
+.content-list.listNotice .list-item.li-hide + .list-item {
+ margin-top:0.5rem;
+}
+.content-list.listNotice .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+}
+.content-list.listNotice .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+}
+.content-list.listNotice .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+}
+@media(max-width:991px){
+ .content-list.listNotice{
+ padding:0 !important;
+ }
+ .content-list.listNotice .list-item{
+ grid-template-columns:4.8rem 1fr auto;
+ margin-bottom:1.25rem !important;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ font-size:0.875rem;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-category{
+ position:relative;
+ }
+ .content-list.listNotice .list-item .item-category:before{
+ content:'';
+ position:absolute;
+ right:-0.75rem;
+ top:50%;
+ transform:translateY(-50%);
+ width:1px;
+ height:0.9125rem;
+ background-color:#666;
+ }
+ .content-list.listNotice .list-item .item-subject{
+ font-size:1rem;
+ }
+ .content-list.listNotice .list-item .item-date{
+ font-size:0.875rem;
+ }
+}
+ 일반 [상담센터]2026-2 한양인 마음 HOW “온라인 고민상담소” 고민사연 모집 
+ 2026.10.13
+ 일반 [IC-PBL교수학습센터] 2026 애스크톤 예선 결과 발표 
+ 2026.10.08
+ 일반 [한양 행복위크] 긍정심리 기반 집단상담 <행복충전소: 긍정과 자기자비로 회복하기> 
+ 2026.10.08
+ 일반 2026학년도 교원 단체교섭 대표 노동조합 확정 공고 
+ 2026.09.28
+ 일반 [상담센터] 2026-2 한양인 마음 HOW "온라인 고민상담소" 
+ 2026.09.28
+
+2026.10
+ SUN
+ MON
+ TUE
+ WED
+ THU
+ FRI
+ SAT
+ 01020304050607080910111213141516171819202122232425262728293031
+ 10.08 ~ 10.14학사캘린더2026학년도 전기 졸업예정자 졸업논문 제출기간10.20 ~ 10.20학사캘린더휴학자의 학기인정 기준일10.20 ~ 10.22학사캘린더2026학년도 2학기 학점포기 신청기간
+ .lp-new-schedule-display .hyu-calendar-view-header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+ } 
+ .lp-new-schedule-display em {
+ font-style: normal;
+ font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+ }
+ .lp-new-schedule-display .mg-title em{
+ font-weight:bold;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap {
+ display: grid;
+ grid-template-columns: 28rem 1fr;
+ column-gap: 4.5rem;
+ }
+ .lp-new-notice-wrap.type-calendar .lp-new-schedule-display .lp-nsd-wrap{
+ column-gap: 2.5rem;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander {
+ padding: 0.875rem 0;
+ background-color: #fff;
+ }
+ .lp-new-notice-wrap.type-calendar .lp-new-schedule-display .lp-nsd-wrap .nds-calander{
+ padding:1.25rem 2rem;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .mg-title {
+ margin: 0 0 0.625rem;
+ line-height: 2.8125rem;
+ font-size: 1.5625rem;
+ text-align: center;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form {
+ display: grid;
+ grid-template-columns: repeat(7, 1fr);
+ margin: 0;
+ padding: 0.625rem 0;
+ list-style: none;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form.week {
+ border-bottom: 1px solid #000;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form.day {
+ grid-row-gap: 0.75rem;
+ padding: 0.625rem 0;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item {
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+ text-align: center;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item .dayBtn {
+ padding: 0;
+ width: 1.875rem;
+ border-width: 1px;
+ border-radius: 100%;
+ line-height: 1.775rem;
+ font-size: 1rem;
+ font-weight: 600;
+ text-align: center;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item .dayBtn.on {
+ border: 1px dashed #2158b3;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item .dayBtn.off {
+ color: #acacac !important;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item .dayBtn.active {
+ color: #fff;
+ background-color: #2158b3;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item:nth-child(1),
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item:nth-child(7n + 1) .dayBtn {
+ color: #d83f46;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item:nth-child(7),
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander .calendar-form .cf-item:nth-child(7n + 7) .dayBtn {
+ color: #2158b3;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule {
+ position:relative;
+ padding: 0;
+ max-height: 22.125rem;
+ background-color: #fff;
+ }
+ .lp-new-notice-wrap.type-calendar .lp-new-schedule-display .lp-nsd-wrap .nds-schedule{
+ max-height: 23.125rem;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule:before {
+ content: "";
+ position: absolute;
+ left: -1rem;
+ top: 0;
+ width: 1px;
+ height: 100%;
+ background-color: #ededed;
+ }
+ .lp-new-notice-wrap.type-calendar .lp-new-schedule-display .lp-nsd-wrap .nds-schedule:before{
+ display:none;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list {
+ overflow-y:auto;
+ margin: 0;
+ padding: 1rem 2rem;
+ height:100%;
+ list-style: none;
+ }
+ .lp-new-notice-wrap.type-calendar .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list{
+ padding: 1.25rem 2rem;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list::-webkit-scrollbar {
+ width: 6px;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list::-webkit-scrollbar-thumb {
+ height: 10%;
+ border-radius: 10px;
+ background: rgba(255,255,255,0.6);
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list::-webkit-scrollbar-track {
+ background: rgba(255,255,255,0.3);
+ border-radius: 10px;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item {
+ display: grid;
+ grid-template-columns: 10.25rem 1fr;
+ padding-bottom: 1.25rem;
+ margin-bottom: 1.25rem;
+ border-bottom: 1px dashed #d9d9d9;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item:last-child {
+ padding-bottom: 0;
+ margin-bottom: 0;
+ border: 0;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-date {
+ line-height: 2rem;
+ color: #666;
+ font-size: 1rem;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject {
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject .subject-badge {
+ display: inline-block;
+ padding: 0 0.625rem;
+ margin-right: 0.25rem;
+ line-height: 1.5rem !important;
+ color: #fff;
+ font-size: 0.9rem !important;
+ vertical-align: bottom;
+ margin: 2px 5px 2px 0;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject .subject-badge.t1 {
+ background-color: #004b86;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject .subject-badge.t2 {
+ background-color: #f08100;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject .subject-badge:last-of-type {
+ margin-right: 0.625rem;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject .subject-title {
+ display: inline-block;
+ line-height: 2rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 600;
+ }
+ @media(max-width:991px){
+ .lp-new-schedule-display .lp-nsd-wrap{
+ grid-template-columns:1fr;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-calander{
+ padding:1rem;
+ }
+ .lp-new-notice-wrap.type-calendar .lp-calendar-title .title{
+ line-height: 2.375rem;
+ font-size: 2rem;
+ }
+ }
+ @media(max-width:991px){
+ .lp-new-notice-wrap .lp-nnd-schedule{
+ padding:1.25rem;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule{
+ padding:0;
+ max-height:60dvh;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule:before{
+ display:none;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list{
+ padding:0;
+ }
+ .lp-new-schedule-display .nds-calander .mg-calendar{
+ display:none;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item{
+ grid-template-columns: 1fr;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject{
+ min-width:0;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject .subject-title{
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ }
+ .lp-new-schedule-display .lp-nsd-wrap .nds-schedule .schedule-list .list-item .item-subject + .item-date{
+ margin-top:1.25rem;
+ }
+ }
+ 일정 요약
+
+행사
+/* 포틀릿 기본 여백 제거 */
+.portlet:has(.content-list){ margin-bottom:0; }
+.portlet-content:has(.content-list){ padding:0; }
+.content-list.listEvent {
+ margin: 0;
+ padding-left: 0rem;
+ list-style: none;
+}
+.content-list.listEvent .list-item {
+ display: grid;
+ grid-template-columns: 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.4rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listEvent .list-item:first-child{ margin-top:1rem; }
+.content-list.listEvent .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listEvent .list-item + .list-item { margin-top: 1.4rem; }
+.content-list.listEvent .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+ color: #333;
+}
+.content-list.listEvent .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+ text-decoration: none;
+}
+.content-list.listEvent .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+ font-style: normal;
+}
+@media(max-width:991px){
+ .content-list.listEvent{ padding:0; }
+ .content-list.listEvent .list-item{
+ grid-template-columns: 1fr auto;
+ margin-bottom: 1.25rem !important;
+ }
+ .content-list.listEvent .list-item .item-category{
+ position: relative;
+ font-size: 0.875rem;
+ }
+ .content-list.listEvent .list-item .item-category:before{
+ content: '';
+ position: absolute;
+ right: -0.75rem;
+ top: 50%;
+ transform: translateY(-50%);
+ width: 1px;
+ height: 0.9125rem;
+ background-color: #666;
+ }
+ .content-list.listEvent .list-item .item-subject{ font-size: 1rem; }
+ .content-list.listEvent .list-item .item-date{ font-size: 0.875rem; }
+}
+ [IC-PBL교수학습센터] <변화의 시대, 성장을 위한 실패학> 특강 참여자 모집 (~11/16) 
+ 2026.10.27
+ [IC-PBL교수학습센터] 2026 Next Scholar - 대학원생+학부생 전공심화 자율연구 프로젝트 참여팀 모집 
+ 2026.10.21
+ [IC-PBL교수학습센터] 2026-2 신규 온라인 콘텐츠 수강 이벤트 안내 
+ 2026.10.21
+ [IC-PBL교수학습센터] 나만의 기록 저장소, 노션(Notion) 특강 참여자 모집 (~11/9) 
+ 2026.10.20
+ 사회봉사
+/* 포틀릿 기본 여백 제거 */
+.portlet:has(.content-list){ margin-bottom:0; }
+.portlet-content:has(.content-list){ padding:0; }
+.content-list.listEvent {
+ margin: 0;
+ padding-left: 0rem;
+ list-style: none;
+}
+.content-list.listEvent .list-item {
+ display: grid;
+ grid-template-columns: 1fr auto;
+ column-gap: 1.5rem;
+ padding-bottom: 1.4rem;
+ border-bottom: 1px dashed #d9d9d9;
+}
+.content-list.listEvent .list-item:first-child{ margin-top:1rem; }
+.content-list.listEvent .list-item:last-child {
+ margin-bottom: 0;
+ border:0;
+ padding-bottom:0;
+}
+.content-list.listEvent .list-item + .list-item { margin-top: 1.4rem; }
+.content-list.listEvent .list-item .item-category {
+ display: block;
+ line-height: 1.875rem;
+ font-size: 1rem;
+ font-weight: 600;
+ color: #333;
+}
+.content-list.listEvent .list-item .item-subject {
+ display: block;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.875rem;
+ color: #000;
+ font-size: 1.25rem;
+ font-weight: 700;
+ text-decoration: none;
+}
+.content-list.listEvent .list-item .item-date {
+ line-height: 1.875rem;
+ color: #666;
+ font-size: 1rem;
+ font-weight: 400;
+ font-style: normal;
+}
+@media(max-width:991px){
+ .content-list.listEvent{ padding:0; }
+ .content-list.listEvent .list-item{
+ grid-template-columns: 1fr auto;
+ margin-bottom: 1.25rem !important;
+ }
+ .content-list.listEvent .list-item .item-category{
+ position: relative;
+ font-size: 0.875rem;
+ }
+ .content-list.listEvent .list-item .item-category:before{
+ content: '';
+ position: absolute;
+ right: -0.75rem;
+ top: 50%;
+ transform: translateY(-50%);
+ width: 1px;
+ height: 0.9125rem;
+ background-color: #666;
+ }
+ .content-list.listEvent .list-item .item-subject{ font-size: 1rem; }
+ .content-list.listEvent .list-item .item-date{ font-size: 0.875rem; }
+}
+ [성동문화재단] '2026 크리에이티브X성수' 자원봉사자 모집(~10/7) 
+ 2026.10.01
+ [한국청소년진흥협회] KYPA 17기 라오스 대학생 해외봉사단 모집(~10/15) (수정) 
+ 2026.09.18
+ [태평양아시아협회] 2026년 제55기(동계) WFK PAS 청년봉사단 단원 모집(~9/30) 
+ 2026.09.17
+ [한국대학사회봉사협의회] 제51기 WFK 청년봉사단 단원 모집(~10/12) 
+ 2026.09.17
+ .has-control-menu .lp-fh-event-display [data-aos] {
+ opacity: 1 !important;
+ transform: none !important;
+ transition: none !important;
+ pointer-events: auto !important;
+}
+.lp-fh-event-display{
+ display:grid;
+ grid-template-columns:repeat(2, 1fr);
+ gap: 4.5rem;
+ height:354px;
+}
+.lp-fh-event-display .fed-title{
+ margin-bottom:2rem;
+ border-bottom:1px solid #ddd;
+ line-height:3rem;
+ font-size:1.25rem;
+ font-weight:600;
+}
+.lp-fh-event-display em {
+ font-style: normal;
+ font-family: "Montserrat", sans-serif;
+ font-optical-sizing: auto;
+}
+@media (max-width:991px){
+ .lp-fh-event-display{
+ grid-template-columns:1fr;
+ height:auto;
+ }
+}
+
+HYU QUICK SERVICES
+ 사용자별 바로가기 서비스를 제공합니다. close 
+ 대학/대학원 입학 chevron_right
+ 입학정보(서울) open_in_new
+ 입학정보(ERICA) open_in_new
+ 외국인 입학 open_in_new
+ 대학/학과소개(서울) chevron_right
+ 대학/학과소개(ERICA) chevron_right
+ 전문/특수대학원 chevron_right
+ 전공제도 학사안내(서울) open_in_new
+ 전공제도 학사안내(ERICA) open_in_new
+ 평생교육 chevron_right
+ 캠퍼스안내(서울) chevron_right
+ 캠퍼스안내(ERICA) chevron_right
+ 대학정보채널(SNS) chevron_right
+ 대학탐방(서울) open_in_new
+ 캠퍼스투어(ERICA) open_in_new
+ HY-in 한양인포털 open_in_new
+ 오늘의 메뉴(서울) open_in_new
+ 오늘의 메뉴(ERICA) chevron_right
+ 수강신청 open_in_new
+ 장학금안내(서울) chevron_right
+ 장학금안내(ERICA) open_in_new
+ 공지사항 chevron_right
+ 학사안내(서울) open_in_new
+ 학사안내(ERICA) open_in_new
+ 온라인민원 open_in_new
+ 비교과 포털(서울) open_in_new
+ 비교과 포털(ERICA) open_in_new
+ HY-CDP open_in_new
+ 증명발급(서울) open_in_new
+ 증명발급(ERICA) open_in_new
+ HY-in 한양인포털 open_in_new
+ 학사일정 chevron_right
+ 공지사항 chevron_right
+ 한양뉴스포털 open_in_new
+ 대학규정(학칙) open_in_new
+ 교내정보 open_in_new
+ 온라인민원 open_in_new
+ 통합양식자료실 chevron_right
+ 그룹웨어 open_in_new
+ 주차 등록/할인권(서울) open_in_new
+ 공익신고 chevron_right
+ 홍보 지원 open_in_new
+ 종합상황실(서울) open_in_new
+ 칭찬합시다 chevron_right
+ 구글 메일 open_in_new
+ 대외협력처 open_in_new
+ HY-in 한양인포털 open_in_new
+ 브랜드 아카이브 chevron_right
+ 기부하기 open_in_new
+ 캠퍼스안내(서울) chevron_right
+ 언론에 비친 한양 open_in_new
+ 기부자 인터뷰 open_in_new
+ 증명발급(서울) open_in_new
+ 대학 역사관 open_in_new
+ 기부내역조회 open_in_new
+ 캠퍼스안내(ERICA) chevron_right
+ 총동문회 open_in_new
+ 동문정보 업데이트 open_in_new
+ 증명발급(ERICA) open_in_new
+ 한양대학교의료원 open_in_new
+ 등록금 고지서/확인증 open_in_new
+ 학부모/가족 가이드(서울) open_in_new
+ 학부모/가족 가이드(ERICA) open_in_new
+ 교육비납입증명서 open_in_new
+ 신입생 행사(서울) open_in_new
+ 신입생 행사(ERICA) open_in_new
+ 가족포털가입 open_in_new
+ 학사안내(서울) open_in_new
+ 학사안내(ERICA) open_in_new
+ 학사일정 chevron_right
+ 기숙사 신청(서울) open_in_new
+ 기숙사 신청(ERICA) open_in_new
+ 브랜드 아카이브 chevron_right
+ 단과대학별 공지(서울) open_in_new
+ 단과대학별 공지(ERICA) open_in_new
+
+원본 텍스트번역 평가보내주신 의견은 Google 번역을 개선하는 데 사용됩니다.
+
+----- 이미지 대체텍스트 (img alt) -----
+서울캠퍼스 2027년 3월임용 전임교원 2차 공개채용
+서울캠퍼스 63개 학과(부) 소개 영상 보기
+한양사자이빨 초콜릿 공식 출시 YES24 바로가기
+한양대, AI중심대학·AX대학원 동시 선정 …최대 565억 지원
+한양대, 유학생과 함께하는 ‘2026 타임슬립 한가위 대축제’ 개최
+110억 규모 AI반도체 국책사업 수주…한양대, ‘AI반도체 혁신연구소’ 출범
+한양대 ERICA, IC-PBL 10년 넘어 미래교육 새 지평 연다… ‘NEXT HORIZON 2039’선포
+한양대 암병원 개원…16개 전문센터 갖추어 새 출발
+구자겸 NVH코리아㈜ 회장(기계공학부 77)
+고병화(기계공학과 14)
+최민경(정책학과 4)

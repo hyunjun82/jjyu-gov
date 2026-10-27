@@ -1,0 +1,39 @@
+{
+  "slug": "sejong-center",
+  "name": "세종문화회관",
+  "aliases": [
+    "세종문화회관 고객센터",
+    "세종문화회관 전화번호",
+    "세종문화회관 전화예매",
+    "세종문화회관 예매 문의",
+    "세종문화회관 대표전화"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.sejongpac.or.kr",
+  "sourceUrl": "https://www.sejongpac.or.kr/",
+  "sourceName": "세종문화회관 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "전화예매 및 문의",
+    "tel": "02-399-1000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 세종문화회관(sejongpac.or.kr) 하단: 전화예매 및 문의 02.399.1000. 원문의 점 표기를 하이픈으로만 바꿨다. 상담시간 표기가 없어 hours 를 비운다. 로고가 검정(세종문화회관 로고타입)이라 측정 가능한 유채색이 없어 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "전화예매, 이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "전화예매 및 문의",
+      "tel": "02-399-1000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '전화예매 및 문의'로 적힌 번호입니다."
+}
