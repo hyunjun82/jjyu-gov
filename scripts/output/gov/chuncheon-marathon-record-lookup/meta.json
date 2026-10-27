@@ -1,0 +1,15 @@
+{
+  "kind": "hub",
+  "key": "chuncheon-marathon-record-lookup",
+  "slug": "chuncheon-marathon-record-lookup",
+  "file": "data\\policies\\chuncheon-marathon-record-lookup.ts",
+  "title": "2026 춘천마라톤 기록조회 사이트는? 임시 결과부터 확인 요청까지",
+  "subs": [
+    "춘천마라톤 기록조회 사이트는 어디인가요?",
+    "지금 보이는 임시 결과는 확정인가요?",
+    "공식 기록으로 인정되는 시간은 얼마인가요?",
+    "이상한 결과는 어떻게 확인을 요청하나요?"
+  ],
+  "deflect": true,
+  "created": "2026-10-27T00:01:04.718Z"
+}

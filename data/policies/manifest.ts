@@ -479,6 +479,7 @@ import { studentLoanIclRepaymentPolicy, studentLoanIclRepaymentSpokes } from './
 import { stampTaxPolicy, stampTaxSpokes } from './stamp-tax';
 import { asianGames2026Policy, asianGames2026Spokes } from './asian-games-2026';
 import { deliveryMutualInsurancePolicy, deliveryMutualInsuranceSpokes } from './delivery-mutual-insurance';
+import { chuncheonMarathonRecordLookupPolicy, chuncheonMarathonRecordLookupSpokes } from './chuncheon-marathon-record-lookup';
 import { youthNationalTechExamFeeSupportPolicy, youthNationalTechExamFeeSupportSpokes } from './youth-national-tech-exam-fee-support';
 import { yearEndTaxPreview2026Policy, yearEndTaxPreview2026Spokes } from './year-end-tax-preview-2026';
 import { personalCustomsCodeRenewalPolicy, personalCustomsCodeRenewalSpokes } from './personal-customs-code-renewal';
@@ -2101,6 +2102,7 @@ export const PoliciesBySlug: Record<string, any> = {
   'stamp-tax': stampTaxPolicy,
   'asian-games-2026': asianGames2026Policy,
   'delivery-mutual-insurance': deliveryMutualInsurancePolicy,
+  'chuncheon-marathon-record-lookup': chuncheonMarathonRecordLookupPolicy,
   'youth-national-tech-exam-fee-support': youthNationalTechExamFeeSupportPolicy,
   'year-end-tax-preview-2026': yearEndTaxPreview2026Policy,
   'personal-customs-code-renewal': personalCustomsCodeRenewalPolicy,
@@ -3844,6 +3846,7 @@ export const SpokesBySlug: Record<string, any[]> = {
   'stamp-tax': stampTaxSpokes,
   'asian-games-2026': asianGames2026Spokes,
   'delivery-mutual-insurance': deliveryMutualInsuranceSpokes,
+  'chuncheon-marathon-record-lookup': chuncheonMarathonRecordLookupSpokes,
   'youth-national-tech-exam-fee-support': youthNationalTechExamFeeSupportSpokes,
   'year-end-tax-preview-2026': yearEndTaxPreview2026Spokes,
   'personal-customs-code-renewal': personalCustomsCodeRenewalSpokes,
