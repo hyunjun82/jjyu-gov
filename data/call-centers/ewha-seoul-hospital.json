@@ -1,0 +1,39 @@
+{
+  "slug": "ewha-seoul-hospital",
+  "name": "이대서울병원",
+  "aliases": [
+    "이화여대서울병원",
+    "이대서울병원 전화번호",
+    "이대서울병원 대표번호",
+    "이대서울병원 응급실",
+    "이화의료원 서울"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://seoul.eumc.ac.kr",
+  "sourceUrl": "https://seoul.eumc.ac.kr/",
+  "sourceName": "이대서울병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표번호",
+    "tel": "1522-7000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 이대서울병원(seoul.eumc.ac.kr): 대표번호 1522.7000 (원문의 점 표기를 하이픈으로만 바꿨다). 응급 페이지에는 번호 표기가 없어 응급실 번호는 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고 측정값이 불안정해 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "1522-7000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다."
+}

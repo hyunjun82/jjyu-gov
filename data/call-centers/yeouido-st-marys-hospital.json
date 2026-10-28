@@ -1,0 +1,51 @@
+{
+  "slug": "yeouido-st-marys-hospital",
+  "name": "여의도성모병원",
+  "aliases": [
+    "가톨릭대학교 여의도성모병원",
+    "여의도성모병원 전화번호",
+    "여의도성모병원 대표전화",
+    "여의도성모병원 응급실",
+    "여의도성모병원 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#00479D",
+  "official": "https://www.cmcsungmo.or.kr",
+  "sourceUrl": "https://www.cmcsungmo.or.kr/",
+  "sourceName": "여의도성모병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1661-7575"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 여의도성모병원(cmcsungmo.or.kr): 대표전화 1661-7575, 응급진료안내: 문의전화 02-3779-1199 (응급실 간호). 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의, 응급실 문의",
+  "extraSources": [
+    {
+      "name": "여의도성모병원 응급진료안내",
+      "url": "https://www.cmcsungmo.or.kr/hospitalguide.emergency.sp"
+    }
+  ],
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1661-7575"
+    },
+    {
+      "label": "응급실 문의전화",
+      "tel": "02-3779-1199",
+      "note": "응급실 간호"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다.",
+  "heroItems": "응급실 문의 번호·대표전화·병원 위치"
+}

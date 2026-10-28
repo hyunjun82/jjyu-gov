@@ -1,0 +1,41 @@
+{
+  "slug": "daegu-catholic-university-medical-center",
+  "name": "대구가톨릭대병원",
+  "aliases": [
+    "대구가톨릭대학교병원",
+    "대구가톨릭대병원 전화번호",
+    "대구가톨릭대병원 대표전화",
+    "대구가톨릭대병원 응급실",
+    "대구가톨릭병원"
+  ],
+  "industry": "public",
+  "brandColor": "#004097",
+  "official": "https://www.dcmc.co.kr",
+  "sourceUrl": "https://www.dcmc.co.kr/",
+  "sourceName": "대구가톨릭대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "대구광역시 남구 두류공원로 17길 33",
+  "hqZip": "42472",
+  "main": {
+    "label": "예약 및 대표전화",
+    "tel": "1688-0077"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 대구가톨릭대학교병원(dcmc.co.kr) 하단: 대구광역시 남구 두류공원로 17길 33 (우42472) 예약 및 대표전화 : 1688-0077 팩스 : 053-623-7507. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "예약, 이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "예약 및 대표전화",
+      "tel": "1688-0077"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '예약 및 대표전화'로 적힌 번호입니다."
+}

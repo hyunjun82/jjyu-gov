@@ -1,0 +1,39 @@
+{
+  "slug": "hanyang-university-hospital",
+  "name": "한양대병원",
+  "aliases": [
+    "한양대학교병원",
+    "한양대병원 전화번호",
+    "한양대병원 대표전화",
+    "한양대 서울병원",
+    "한양대병원 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://seoul.hyumc.com",
+  "sourceUrl": "https://seoul.hyumc.com/",
+  "sourceName": "한양대학교 서울병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "TEL",
+    "tel": "02-2290-8114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한양대학교 서울병원(seoul.hyumc.com) 하단: TEL.02-2290-8114. 응급 페이지에는 번호 표기가 없어 응급실 번호는 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정값이 불안정해 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "02-2290-8114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

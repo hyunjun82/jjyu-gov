@@ -1,0 +1,39 @@
+{
+  "slug": "keimyung-university-dongsan-hospital",
+  "name": "계명대 동산병원",
+  "aliases": [
+    "계명대학교 동산병원",
+    "동산병원",
+    "동산병원 전화번호",
+    "동산병원 대표전화",
+    "계명대 동산병원 응급실"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://dongsan.dsmc.or.kr",
+  "sourceUrl": "https://dongsan.dsmc.or.kr/",
+  "sourceName": "계명대학교 동산병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1577-6622"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 계명대학교 동산병원(dongsan.dsmc.or.kr) 하단: 대표전화 1577-6622. 같은 홈의 건강증진센터 T.053-258-5000 은 센터 번호라 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1577-6622"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dankook-university-hospital",
+  "name": "단국대병원",
+  "aliases": [
+    "단국대학교병원",
+    "단국대병원 전화번호",
+    "단국대병원 대표전화",
+    "단국대병원 응급실",
+    "단국대학교병원 천안"
+  ],
+  "industry": "public",
+  "brandColor": "#004898",
+  "official": "https://www.dkuh.co.kr",
+  "sourceUrl": "https://www.dkuh.co.kr/",
+  "sourceName": "단국대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-0063"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 단국대학교병원(dkuh.co.kr) 하단: 대표전화 전국어디서나 지역번호 없이 1588-0063 / FAX 041-556-0524. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1588-0063",
+      "note": "전국 어디서나 지역번호 없이"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

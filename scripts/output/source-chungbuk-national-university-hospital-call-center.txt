@@ -1,0 +1,29 @@
+SLUG: chungbuk-national-university-hospital-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/chungbuk-national-university-hospital-call-center-*.png)
+
+===== [1] https://www.cbnuh.or.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/chungbuk-national-university-hospital-call-center-1.png
+CHARS: 245
+
+함께 지키는 필수의료, 책임으로 여는 건강한 미래
+충북대학교병원
+외래진료 예약
+건강검진 예약
+발전후원회
+For Foreigner
+
+오송의생명연구관
+
+오송첨단임상시험센터
+
+교육인재관
+
+암병원
+
+권역호흡기전문질환센터
+
+(28644)충북 청주시 서원구 1순환로 776 (개신동) 대표전화 : 1533-0075
+COPYRIGHT 2022. CHUNGBUK NATIONAL UNIVERSITY HOSPITAL. ALL RIGHTS RESERVED.

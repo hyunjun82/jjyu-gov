@@ -1,0 +1,41 @@
+{
+  "slug": "chonnam-national-university-hospital",
+  "name": "전남대병원",
+  "aliases": [
+    "전남대학교병원",
+    "전남대병원 전화번호",
+    "전남대병원 대표번호",
+    "전남대병원 응급실",
+    "전남대병원 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.cnuh.com",
+  "sourceUrl": "https://www.cnuh.com/",
+  "sourceName": "전남대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "전남광주통합특별시 동구 제봉로 42",
+  "hqZip": "61469",
+  "main": {
+    "label": "TEL",
+    "tel": "1899-0000"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 전남대학교병원(cnuh.com) 하단: 우) 61469 전남광주통합특별시 동구 제봉로 42 TEL 1899-0000. 응급실 번호 표기는 홈에 없어 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정값이 불안정해 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "1899-0000"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

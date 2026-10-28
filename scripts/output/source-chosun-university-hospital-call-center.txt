@@ -1,0 +1,23 @@
+SLUG: chosun-university-hospital-call-center
+RECEIVED: 2026-10-28
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/chosun-university-hospital-call-center-*.png)
+
+===== [1] https://hosp.chosun.ac.kr/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/chosun-university-hospital-call-center-1.png
+CHARS: 192
+
+병원 첫 방문
+간편예약
+(해피콜)
+평일 08:00 ~ 16:30
+온라인
+예약
+건강검진
+간편예약
+(해피콜)
+평일 09:00 ~ 16:00
+조선대학교병원
+61453 전남광주통합특별시 동구 필문대로 365 / 대표전화 1811-7474
+Copyright 2015. Chosun University Hospital all rights reserved.

@@ -1,0 +1,14 @@
+SLUG: hospital-a1700004-call-center
+RECEIVED: 2026-10-28
+CAPTURED-BY: data.go.kr OpenAPI (국립중앙의료원 전국 응급의료기관 정보 조회 서비스 B552657/ErmctInfoInqireService/getEgytListInfoInqire, 응답 원문 발췌)
+SHOTS: 없음 (API 응답)
+
+===== [1] https://www.e-gen.or.kr/egen/search_emergency_room.do =====
+CAPTURED-BY: data.go.kr OpenAPI (키는 저장하지 않는다)
+
+기관명(dutyName) : 학교법인울산공업학원울산대학교병원
+응급의료기관 구분(dutyEmclsName) : 권역응급의료센터
+주소(dutyAddr) : 울산광역시 동구 대학병원로 25, 울산대학교병원 (전하동)
+대표전화1(dutyTel1) : 052-250-7000
+응급실 전화(dutyTel3) : 052-250-7000
+기관ID(hpid) : A1700004

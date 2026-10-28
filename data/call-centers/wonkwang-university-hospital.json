@@ -1,0 +1,43 @@
+{
+  "slug": "wonkwang-university-hospital",
+  "name": "원광대병원",
+  "aliases": [
+    "원광대학교병원",
+    "원광대병원 전화번호",
+    "원광대병원 대표전화",
+    "원광대병원 응급실",
+    "원광대학교 병원 종합안내"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.wkuh.org",
+  "sourceUrl": "https://www.wkuh.org/",
+  "sourceName": "원광대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1577-3773"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 원광대학교병원(wkuh.org) 하단: 대표전화 1577-3773 종합안내 063-859-1115 팩스 063-858-3922. 상담시간 표기가 없어 hours 를 비운다. 로고 측정값이 배경색으로 보여 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1577-3773"
+    },
+    {
+      "label": "종합안내",
+      "tel": "063-859-1115"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

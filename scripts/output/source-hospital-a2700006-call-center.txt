@@ -1,0 +1,14 @@
+SLUG: hospital-a2700006-call-center
+RECEIVED: 2026-10-28
+CAPTURED-BY: data.go.kr OpenAPI (국립중앙의료원 전국 응급의료기관 정보 조회 서비스 B552657/ErmctInfoInqireService/getEgytListInfoInqire, 응답 원문 발췌)
+SHOTS: 없음 (API 응답)
+
+===== [1] https://www.e-gen.or.kr/egen/search_emergency_room.do =====
+CAPTURED-BY: data.go.kr OpenAPI (키는 저장하지 않는다)
+
+기관명(dutyName) : 의료법인동춘의료재단문경제일병원
+응급의료기관 구분(dutyEmclsName) : 지역응급의료센터
+주소(dutyAddr) : 경상북도 문경시 당교3길 25 (모전동)
+대표전화1(dutyTel1) : 054-550-7700
+응급실 전화(dutyTel3) : 054-550-7700
+기관ID(hpid) : A2700006

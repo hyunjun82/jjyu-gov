@@ -1,0 +1,60 @@
+SLUG: chonnam-national-university-hospital-call-center
+RECEIVED: 2026-10-27
+CAPTURED-BY: playwright (실브라우저 — 텍스트 + 화면 캡처)
+SHOTS: 1장 (scripts/output/captures/chonnam-national-university-hospital-call-center-*.png)
+
+===== [1] https://www.cnuh.com/ =====
+CAPTURED-BY: playwright (실브라우저)
+SHOT: scripts/output/captures/chonnam-national-university-hospital-call-center-1.png
+CHARS: 635
+
+HOME 로그인 회원가입
+전남대학교병원
+CHONNAM NATIONAL UNIVERSITY HOSPITAL
+GO >
+ 
+화순전남대학교병원
+CHONNAM NATIONAL UNIVERSITY HWASUN HOSPITAL
+GO >
+ 
+전남대학교 치과병원
+CHONNAM NATIONAL UNIVERSITY DENTAL HOSPITAL
+GO >
+ 
+빛고을 전남대학교병원
+CHONNAM NATIONAL UNIVERSITY BITGOEUL HOSPITAL
+GO >
+ 
+전남대학교 어린이병원
+CHONNAM NATIONAL UNIVERSITY CHILDREN'S HOSPITAL
+GO >
+
+'전남대학교병원 발전후원회'홈페이지 바로가기
+
+병원위치 지도보기
+
+병원위치 지도
+전남대학교 어린이병원
+전남대학교병원
+화순전남대학교병원
+전남대학교 치과병원
+빛고을 전남대학교병원
+2km
+찾아오시는 길 출발   도착 
+전남대학교병원
+화순전남대학교병원
+전남대학교 치과병원
+빛고을 전남대학교병원
+전남대학교 어린이병원
+ 
+개인정보처리방침 영상정보처리기기운영방침 이메일무단수집거부 환자의권리와의무 사전정보공개 국민권익위원회
+우) 61469 전남광주통합특별시 동구 제봉로 42 TEL 1899-0000 COPYRIGHT ⓒ 2018 CNUH. ALL RIGHTS RESERVED
+
+----- 숨은 레이어 (클릭해야 열리는 자리) -----
+병원출입을 신속하게 하고 싶다면 "QR코드 코로나19 문진표를 작성하세요"
+ 코로나 19 문진표
+ 전남대학교병원>
+ 화순전남대학교병원>
+ 전남대학교 치과병원>
+ 빛고을 전남대학교병원>
+ 전남대학교 어린이병원>

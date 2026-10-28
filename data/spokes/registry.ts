@@ -2509,6 +2509,181 @@ import { geojeCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/c
 import { jeongeupCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/jeongeup-city-hall';
 import { namwonCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/namwon-city-hall';
 import { najuCityHallCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/naju-city-hall';
+import { koreaUniversityGuroHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/korea-university-guro-hospital';
+import { kyungHeeUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kyung-hee-university-hospital';
+import { hanyangUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hanyang-university-hospital';
+import { konkukUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/konkuk-university-hospital';
+import { ewhaMokdongHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ewha-mokdong-hospital';
+import { soonchunhyangSeoulHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/soonchunhyang-seoul-hospital';
+import { inhaUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/inha-university-hospital';
+import { gilMedicalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/gil-medical-center';
+import { incheonStMarysHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/incheon-st-marys-hospital';
+import { bucheonStMarysHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/bucheon-st-marys-hospital';
+import { yeouidoStMarysHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/yeouido-st-marys-hospital';
+import { uijeongbuStMarysHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/uijeongbu-st-marys-hospital';
+import { dongAUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dong-a-university-hospital';
+import { chonnamNationalUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/chonnam-national-university-hospital';
+import { keimyungUniversityDongsanHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/keimyung-university-dongsan-hospital';
+import { wonkwangUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/wonkwang-university-hospital';
+import { chungbukNationalUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/chungbuk-national-university-hospital';
+import { dankookUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/dankook-university-hospital';
+import { bundangChaMedicalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/bundang-cha-medical-center';
+import { soonchunhyangBucheonHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/soonchunhyang-bucheon-hospital';
+import { daeguCatholicUniversityMedicalCenterCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/daegu-catholic-university-medical-center';
+import { chosunUniversityHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/chosun-university-hospital';
+import { ewhaSeoulHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/ewha-seoul-hospital';
+import { kiramsHospitalCallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/kirams-hospital';
+import { hospitalA1121013CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1121013';
+import { hospitalA1100043CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100043';
+import { hospitalA1100006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100006';
+import { hospitalA1100048CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100048';
+import { hospitalA1100021CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100021';
+import { hospitalA1100040CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100040';
+import { hospitalA1100035CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100035';
+import { hospitalA1100028CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100028';
+import { hospitalA1100054CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100054';
+import { hospitalA1100015CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100015';
+import { hospitalA1100041CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100041';
+import { hospitalA1100020CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100020';
+import { hospitalA1100016CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100016';
+import { hospitalA1100003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100003';
+import { hospitalA1100053CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100053';
+import { hospitalA1100055CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1100055';
+import { hospitalA1200004CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200004';
+import { hospitalA1200018CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200018';
+import { hospitalA1200002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200002';
+import { hospitalA1200007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200007';
+import { hospitalA1200020CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200020';
+import { hospitalA1200005CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200005';
+import { hospitalA1200022CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200022';
+import { hospitalA1200001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1200001';
+import { hospitalA1300002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1300002';
+import { hospitalA1300009CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1300009';
+import { hospitalA1300001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1300001';
+import { hospitalA1300010CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1300010';
+import { hospitalA1400015CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1400015';
+import { hospitalA1400010CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1400010';
+import { hospitalA1400013CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1400013';
+import { hospitalA1400011CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1400011';
+import { hospitalA1400003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1400003';
+import { hospitalA1400014CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1400014';
+import { hospitalA1400016CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1400016';
+import { hospitalA1403372CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1403372';
+import { hospitalA1600008CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1600008';
+import { hospitalA1600007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1600007';
+import { hospitalA1600001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1600001';
+import { hospitalA1600005CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1600005';
+import { hospitalA1600006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1600006';
+import { hospitalA1600002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1600002';
+import { hospitalA1700003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1700003';
+import { hospitalA1700002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1700002';
+import { hospitalA1700025CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1700025';
+import { hospitalA1700028CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1700028';
+import { hospitalA1700004CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1700004';
+import { hospitalA1800441CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1800441';
+import { hospitalA2100019CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100019';
+import { hospitalA2100012CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100012';
+import { hospitalA2100029CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100029';
+import { hospitalA2100193CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100193';
+import { hospitalA2100035CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100035';
+import { hospitalA2100031CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100031';
+import { hospitalA2100003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100003';
+import { hospitalA2100007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100007';
+import { hospitalA2100033CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100033';
+import { hospitalA2100041CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100041';
+import { hospitalA2100017CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100017';
+import { hospitalA2100025CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100025';
+import { hospitalA2100047CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100047';
+import { hospitalA2100055CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100055';
+import { hospitalA2116806CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2116806';
+import { hospitalA2100020CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100020';
+import { hospitalA2100024CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100024';
+import { hospitalA2100048CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100048';
+import { hospitalA2100008CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100008';
+import { hospitalA2100009CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100009';
+import { hospitalA2117135CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2117135';
+import { hospitalA2100042CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100042';
+import { hospitalA2100028CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100028';
+import { hospitalA2113246CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2113246';
+import { hospitalA2100053CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100053';
+import { hospitalA2100006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100006';
+import { hospitalA2100038CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100038';
+import { hospitalA2118788CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2118788';
+import { hospitalA2100155CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100155';
+import { hospitalA2117994CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2117994';
+import { hospitalA2100046CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100046';
+import { hospitalA2100004CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100004';
+import { hospitalA2100039CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100039';
+import { hospitalA2100037CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100037';
+import { hospitalA2100015CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100015';
+import { hospitalA2100054CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2100054';
+import { hospitalA2200008CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2200008';
+import { hospitalA2200009CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2200009';
+import { hospitalA2200007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2200007';
+import { hospitalA2200012CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2200012';
+import { hospitalA2200001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2200001';
+import { hospitalA2200005CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2200005';
+import { hospitalA2200013CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2200013';
+import { hospitalA2300010CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300010';
+import { hospitalA2300013CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300013';
+import { hospitalA2300009CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300009';
+import { hospitalA2300007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300007';
+import { hospitalA2300005CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300005';
+import { hospitalA2300003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300003';
+import { hospitalA2300002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300002';
+import { hospitalA2300008CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2300008';
+import { hospitalA2400008CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400008';
+import { hospitalA2400003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400003';
+import { hospitalA2402257CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2402257';
+import { hospitalA2400009CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400009';
+import { hospitalA2400012CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400012';
+import { hospitalA2400011CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400011';
+import { hospitalA2400006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400006';
+import { hospitalA2400007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400007';
+import { hospitalA2400001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2400001';
+import { hospitalA2500056CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500056';
+import { hospitalA2500011CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500011';
+import { hospitalA2500005CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500005';
+import { hospitalA2500012CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500012';
+import { hospitalA2500008CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500008';
+import { hospitalA2500006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500006';
+import { hospitalA2500002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500002';
+import { hospitalA2500007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500007';
+import { hospitalA2500004CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2500004';
+import { hospitalA2700003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700003';
+import { hospitalA2700013CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700013';
+import { hospitalA2700004CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700004';
+import { hospitalA2700012CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700012';
+import { hospitalA2700006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700006';
+import { hospitalA2700014CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700014';
+import { hospitalA2700007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700007';
+import { hospitalA2700016CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700016';
+import { hospitalA2700002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2700002';
+import { hospitalA2800001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800001';
+import { hospitalA2800011CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800011';
+import { hospitalA2800006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800006';
+import { hospitalA2800017CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800017';
+import { hospitalA2800010CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800010';
+import { hospitalA2800003CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800003';
+import { hospitalA2803505CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2803505';
+import { hospitalA2800004CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800004';
+import { hospitalA2800007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800007';
+import { hospitalA2800020CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800020';
+import { hospitalA2800043CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2800043';
+import { hospitalA2900006CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2900006';
+import { hospitalA2900007CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2900007';
+import { hospitalA2900002CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2900002';
+import { hospitalA2900001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2900001';
+import { hospitalA2900005CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2900005';
+import { hospitalA1500019CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1500019';
+import { hospitalA1500021CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1500021';
+import { hospitalA2600011CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2600011';
+import { hospitalA1500020CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1500020';
+import { hospitalA2600019CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2600019';
+import { hospitalA2600014CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2600014';
+import { hospitalA2600017CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2600017';
+import { hospitalA1500011CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a1500011';
+import { hospitalA2600001CallCenterSpokeContent } from '@/app/policy/[id]/[spoke]/content/공공기관고객센터/hospital-a2600001';
 
 export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
   'asian-games-2026': {
@@ -2646,6 +2821,181 @@ export const SpokesRegistry: Record<string, Record<string, SpokeData>> = {
     'cervical-bladder-cancer-benefit': 갑상선암진단비자궁경부방광암표적항암SpokeContent,
   },
   'public-call-center': {
+    'hospital-a2600001': hospitalA2600001CallCenterSpokeContent,
+    'hospital-a1500011': hospitalA1500011CallCenterSpokeContent,
+    'hospital-a2600017': hospitalA2600017CallCenterSpokeContent,
+    'hospital-a2600014': hospitalA2600014CallCenterSpokeContent,
+    'hospital-a2600019': hospitalA2600019CallCenterSpokeContent,
+    'hospital-a1500020': hospitalA1500020CallCenterSpokeContent,
+    'hospital-a2600011': hospitalA2600011CallCenterSpokeContent,
+    'hospital-a1500021': hospitalA1500021CallCenterSpokeContent,
+    'hospital-a1500019': hospitalA1500019CallCenterSpokeContent,
+    'hospital-a2900005': hospitalA2900005CallCenterSpokeContent,
+    'hospital-a2900001': hospitalA2900001CallCenterSpokeContent,
+    'hospital-a2900002': hospitalA2900002CallCenterSpokeContent,
+    'hospital-a2900007': hospitalA2900007CallCenterSpokeContent,
+    'hospital-a2900006': hospitalA2900006CallCenterSpokeContent,
+    'hospital-a2800043': hospitalA2800043CallCenterSpokeContent,
+    'hospital-a2800020': hospitalA2800020CallCenterSpokeContent,
+    'hospital-a2800007': hospitalA2800007CallCenterSpokeContent,
+    'hospital-a2800004': hospitalA2800004CallCenterSpokeContent,
+    'hospital-a2803505': hospitalA2803505CallCenterSpokeContent,
+    'hospital-a2800003': hospitalA2800003CallCenterSpokeContent,
+    'hospital-a2800010': hospitalA2800010CallCenterSpokeContent,
+    'hospital-a2800017': hospitalA2800017CallCenterSpokeContent,
+    'hospital-a2800006': hospitalA2800006CallCenterSpokeContent,
+    'hospital-a2800011': hospitalA2800011CallCenterSpokeContent,
+    'hospital-a2800001': hospitalA2800001CallCenterSpokeContent,
+    'hospital-a2700002': hospitalA2700002CallCenterSpokeContent,
+    'hospital-a2700016': hospitalA2700016CallCenterSpokeContent,
+    'hospital-a2700007': hospitalA2700007CallCenterSpokeContent,
+    'hospital-a2700014': hospitalA2700014CallCenterSpokeContent,
+    'hospital-a2700006': hospitalA2700006CallCenterSpokeContent,
+    'hospital-a2700012': hospitalA2700012CallCenterSpokeContent,
+    'hospital-a2700004': hospitalA2700004CallCenterSpokeContent,
+    'hospital-a2700013': hospitalA2700013CallCenterSpokeContent,
+    'hospital-a2700003': hospitalA2700003CallCenterSpokeContent,
+    'hospital-a2500004': hospitalA2500004CallCenterSpokeContent,
+    'hospital-a2500007': hospitalA2500007CallCenterSpokeContent,
+    'hospital-a2500002': hospitalA2500002CallCenterSpokeContent,
+    'hospital-a2500006': hospitalA2500006CallCenterSpokeContent,
+    'hospital-a2500008': hospitalA2500008CallCenterSpokeContent,
+    'hospital-a2500012': hospitalA2500012CallCenterSpokeContent,
+    'hospital-a2500005': hospitalA2500005CallCenterSpokeContent,
+    'hospital-a2500011': hospitalA2500011CallCenterSpokeContent,
+    'hospital-a2500056': hospitalA2500056CallCenterSpokeContent,
+    'hospital-a2400001': hospitalA2400001CallCenterSpokeContent,
+    'hospital-a2400007': hospitalA2400007CallCenterSpokeContent,
+    'hospital-a2400006': hospitalA2400006CallCenterSpokeContent,
+    'hospital-a2400011': hospitalA2400011CallCenterSpokeContent,
+    'hospital-a2400012': hospitalA2400012CallCenterSpokeContent,
+    'hospital-a2400009': hospitalA2400009CallCenterSpokeContent,
+    'hospital-a2402257': hospitalA2402257CallCenterSpokeContent,
+    'hospital-a2400003': hospitalA2400003CallCenterSpokeContent,
+    'hospital-a2400008': hospitalA2400008CallCenterSpokeContent,
+    'hospital-a2300008': hospitalA2300008CallCenterSpokeContent,
+    'hospital-a2300002': hospitalA2300002CallCenterSpokeContent,
+    'hospital-a2300003': hospitalA2300003CallCenterSpokeContent,
+    'hospital-a2300005': hospitalA2300005CallCenterSpokeContent,
+    'hospital-a2300007': hospitalA2300007CallCenterSpokeContent,
+    'hospital-a2300009': hospitalA2300009CallCenterSpokeContent,
+    'hospital-a2300013': hospitalA2300013CallCenterSpokeContent,
+    'hospital-a2300010': hospitalA2300010CallCenterSpokeContent,
+    'hospital-a2200013': hospitalA2200013CallCenterSpokeContent,
+    'hospital-a2200005': hospitalA2200005CallCenterSpokeContent,
+    'hospital-a2200001': hospitalA2200001CallCenterSpokeContent,
+    'hospital-a2200012': hospitalA2200012CallCenterSpokeContent,
+    'hospital-a2200007': hospitalA2200007CallCenterSpokeContent,
+    'hospital-a2200009': hospitalA2200009CallCenterSpokeContent,
+    'hospital-a2200008': hospitalA2200008CallCenterSpokeContent,
+    'hospital-a2100054': hospitalA2100054CallCenterSpokeContent,
+    'hospital-a2100015': hospitalA2100015CallCenterSpokeContent,
+    'hospital-a2100037': hospitalA2100037CallCenterSpokeContent,
+    'hospital-a2100039': hospitalA2100039CallCenterSpokeContent,
+    'hospital-a2100004': hospitalA2100004CallCenterSpokeContent,
+    'hospital-a2100046': hospitalA2100046CallCenterSpokeContent,
+    'hospital-a2117994': hospitalA2117994CallCenterSpokeContent,
+    'hospital-a2100155': hospitalA2100155CallCenterSpokeContent,
+    'hospital-a2118788': hospitalA2118788CallCenterSpokeContent,
+    'hospital-a2100038': hospitalA2100038CallCenterSpokeContent,
+    'hospital-a2100006': hospitalA2100006CallCenterSpokeContent,
+    'hospital-a2100053': hospitalA2100053CallCenterSpokeContent,
+    'hospital-a2113246': hospitalA2113246CallCenterSpokeContent,
+    'hospital-a2100028': hospitalA2100028CallCenterSpokeContent,
+    'hospital-a2100042': hospitalA2100042CallCenterSpokeContent,
+    'hospital-a2117135': hospitalA2117135CallCenterSpokeContent,
+    'hospital-a2100009': hospitalA2100009CallCenterSpokeContent,
+    'hospital-a2100008': hospitalA2100008CallCenterSpokeContent,
+    'hospital-a2100048': hospitalA2100048CallCenterSpokeContent,
+    'hospital-a2100024': hospitalA2100024CallCenterSpokeContent,
+    'hospital-a2100020': hospitalA2100020CallCenterSpokeContent,
+    'hospital-a2116806': hospitalA2116806CallCenterSpokeContent,
+    'hospital-a2100055': hospitalA2100055CallCenterSpokeContent,
+    'hospital-a2100047': hospitalA2100047CallCenterSpokeContent,
+    'hospital-a2100025': hospitalA2100025CallCenterSpokeContent,
+    'hospital-a2100017': hospitalA2100017CallCenterSpokeContent,
+    'hospital-a2100041': hospitalA2100041CallCenterSpokeContent,
+    'hospital-a2100033': hospitalA2100033CallCenterSpokeContent,
+    'hospital-a2100007': hospitalA2100007CallCenterSpokeContent,
+    'hospital-a2100003': hospitalA2100003CallCenterSpokeContent,
+    'hospital-a2100031': hospitalA2100031CallCenterSpokeContent,
+    'hospital-a2100035': hospitalA2100035CallCenterSpokeContent,
+    'hospital-a2100193': hospitalA2100193CallCenterSpokeContent,
+    'hospital-a2100029': hospitalA2100029CallCenterSpokeContent,
+    'hospital-a2100012': hospitalA2100012CallCenterSpokeContent,
+    'hospital-a2100019': hospitalA2100019CallCenterSpokeContent,
+    'hospital-a1800441': hospitalA1800441CallCenterSpokeContent,
+    'hospital-a1700004': hospitalA1700004CallCenterSpokeContent,
+    'hospital-a1700028': hospitalA1700028CallCenterSpokeContent,
+    'hospital-a1700025': hospitalA1700025CallCenterSpokeContent,
+    'hospital-a1700002': hospitalA1700002CallCenterSpokeContent,
+    'hospital-a1700003': hospitalA1700003CallCenterSpokeContent,
+    'hospital-a1600002': hospitalA1600002CallCenterSpokeContent,
+    'hospital-a1600006': hospitalA1600006CallCenterSpokeContent,
+    'hospital-a1600005': hospitalA1600005CallCenterSpokeContent,
+    'hospital-a1600001': hospitalA1600001CallCenterSpokeContent,
+    'hospital-a1600007': hospitalA1600007CallCenterSpokeContent,
+    'hospital-a1600008': hospitalA1600008CallCenterSpokeContent,
+    'hospital-a1403372': hospitalA1403372CallCenterSpokeContent,
+    'hospital-a1400016': hospitalA1400016CallCenterSpokeContent,
+    'hospital-a1400014': hospitalA1400014CallCenterSpokeContent,
+    'hospital-a1400003': hospitalA1400003CallCenterSpokeContent,
+    'hospital-a1400011': hospitalA1400011CallCenterSpokeContent,
+    'hospital-a1400013': hospitalA1400013CallCenterSpokeContent,
+    'hospital-a1400010': hospitalA1400010CallCenterSpokeContent,
+    'hospital-a1400015': hospitalA1400015CallCenterSpokeContent,
+    'hospital-a1300010': hospitalA1300010CallCenterSpokeContent,
+    'hospital-a1300001': hospitalA1300001CallCenterSpokeContent,
+    'hospital-a1300009': hospitalA1300009CallCenterSpokeContent,
+    'hospital-a1300002': hospitalA1300002CallCenterSpokeContent,
+    'hospital-a1200001': hospitalA1200001CallCenterSpokeContent,
+    'hospital-a1200022': hospitalA1200022CallCenterSpokeContent,
+    'hospital-a1200005': hospitalA1200005CallCenterSpokeContent,
+    'hospital-a1200020': hospitalA1200020CallCenterSpokeContent,
+    'hospital-a1200007': hospitalA1200007CallCenterSpokeContent,
+    'hospital-a1200002': hospitalA1200002CallCenterSpokeContent,
+    'hospital-a1200018': hospitalA1200018CallCenterSpokeContent,
+    'hospital-a1200004': hospitalA1200004CallCenterSpokeContent,
+    'hospital-a1100055': hospitalA1100055CallCenterSpokeContent,
+    'hospital-a1100053': hospitalA1100053CallCenterSpokeContent,
+    'hospital-a1100003': hospitalA1100003CallCenterSpokeContent,
+    'hospital-a1100016': hospitalA1100016CallCenterSpokeContent,
+    'hospital-a1100020': hospitalA1100020CallCenterSpokeContent,
+    'hospital-a1100041': hospitalA1100041CallCenterSpokeContent,
+    'hospital-a1100015': hospitalA1100015CallCenterSpokeContent,
+    'hospital-a1100054': hospitalA1100054CallCenterSpokeContent,
+    'hospital-a1100028': hospitalA1100028CallCenterSpokeContent,
+    'hospital-a1100035': hospitalA1100035CallCenterSpokeContent,
+    'hospital-a1100040': hospitalA1100040CallCenterSpokeContent,
+    'hospital-a1100021': hospitalA1100021CallCenterSpokeContent,
+    'hospital-a1100048': hospitalA1100048CallCenterSpokeContent,
+    'hospital-a1100006': hospitalA1100006CallCenterSpokeContent,
+    'hospital-a1100043': hospitalA1100043CallCenterSpokeContent,
+    'hospital-a1121013': hospitalA1121013CallCenterSpokeContent,
+    'kirams-hospital': kiramsHospitalCallCenterSpokeContent,
+    'ewha-seoul-hospital': ewhaSeoulHospitalCallCenterSpokeContent,
+    'chosun-university-hospital': chosunUniversityHospitalCallCenterSpokeContent,
+    'daegu-catholic-university-medical-center': daeguCatholicUniversityMedicalCenterCallCenterSpokeContent,
+    'soonchunhyang-bucheon-hospital': soonchunhyangBucheonHospitalCallCenterSpokeContent,
+    'bundang-cha-medical-center': bundangChaMedicalCenterCallCenterSpokeContent,
+    'dankook-university-hospital': dankookUniversityHospitalCallCenterSpokeContent,
+    'chungbuk-national-university-hospital': chungbukNationalUniversityHospitalCallCenterSpokeContent,
+    'wonkwang-university-hospital': wonkwangUniversityHospitalCallCenterSpokeContent,
+    'keimyung-university-dongsan-hospital': keimyungUniversityDongsanHospitalCallCenterSpokeContent,
+    'chonnam-national-university-hospital': chonnamNationalUniversityHospitalCallCenterSpokeContent,
+    'dong-a-university-hospital': dongAUniversityHospitalCallCenterSpokeContent,
+    'uijeongbu-st-marys-hospital': uijeongbuStMarysHospitalCallCenterSpokeContent,
+    'yeouido-st-marys-hospital': yeouidoStMarysHospitalCallCenterSpokeContent,
+    'bucheon-st-marys-hospital': bucheonStMarysHospitalCallCenterSpokeContent,
+    'incheon-st-marys-hospital': incheonStMarysHospitalCallCenterSpokeContent,
+    'gil-medical-center': gilMedicalCenterCallCenterSpokeContent,
+    'inha-university-hospital': inhaUniversityHospitalCallCenterSpokeContent,
+    'soonchunhyang-seoul-hospital': soonchunhyangSeoulHospitalCallCenterSpokeContent,
+    'ewha-mokdong-hospital': ewhaMokdongHospitalCallCenterSpokeContent,
+    'konkuk-university-hospital': konkukUniversityHospitalCallCenterSpokeContent,
+    'hanyang-university-hospital': hanyangUniversityHospitalCallCenterSpokeContent,
+    'kyung-hee-university-hospital': kyungHeeUniversityHospitalCallCenterSpokeContent,
+    'korea-university-guro-hospital': koreaUniversityGuroHospitalCallCenterSpokeContent,
     'naju-city-hall': najuCityHallCallCenterSpokeContent,
     'namwon-city-hall': namwonCityHallCallCenterSpokeContent,
     'jeongeup-city-hall': jeongeupCityHallCallCenterSpokeContent,

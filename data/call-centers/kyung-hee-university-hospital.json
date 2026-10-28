@@ -1,0 +1,47 @@
+{
+  "slug": "kyung-hee-university-hospital",
+  "name": "경희대병원",
+  "aliases": [
+    "경희대학교병원",
+    "경희대병원 전화번호",
+    "경희대병원 응급실",
+    "경희대병원 응급의료센터",
+    "경희의료원"
+  ],
+  "industry": "public",
+  "brandColor": "#243A72",
+  "official": "https://www.khmc.or.kr",
+  "sourceUrl": "https://www.khmc.or.kr/",
+  "sourceName": "경희대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 동대문구 경희대로 23",
+  "hqZip": "02447",
+  "main": {
+    "label": "대표번호",
+    "tel": "02-958-8114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 경희대학교병원(khmc.or.kr) 하단: 대표번호 02)958-8114 전화예약 02)958-9988 응급의료센터 02)958-8114, 주소 (02447) 서울특별시 동대문구 경희대로 23. 응급의료센터 번호가 대표번호와 같아 번호 note 에 적는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "진료 예약, 응급의료센터 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표번호",
+      "tel": "02-958-8114",
+      "note": "응급의료센터 문의도 같은 번호"
+    },
+    {
+      "label": "전화예약",
+      "tel": "02-958-9988"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표번호'로 적힌 번호입니다.",
+  "heroItems": "응급의료센터 번호·전화예약·병원 위치"
+}

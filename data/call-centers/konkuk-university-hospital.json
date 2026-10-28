@@ -1,0 +1,57 @@
+{
+  "slug": "konkuk-university-hospital",
+  "name": "건국대병원",
+  "aliases": [
+    "건국대학교병원",
+    "건국대병원 전화번호",
+    "건국대병원 응급실",
+    "건국대병원 대표전화",
+    "건대병원 응급실"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.kuh.ac.kr",
+  "sourceUrl": "https://www.kuh.ac.kr/",
+  "sourceName": "건국대학교병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "서울특별시 광진구 능동로 120-1",
+  "hqZip": "05030",
+  "main": {
+    "label": "대표전화",
+    "tel": "1588-1533"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 건국대학교병원(kuh.ac.kr): 하단 주소 05030 서울특별시 광진구 능동로 120-1(화양동) 대표전화 1588-1533, 1800-1533, 응급진료안내: 응급실(02-2030-5555)은 연중 무휴로 24시간 접수하고 진료합니다. 응급실 24시간은 번호 note 에만 적고 대표번호 시간은 hours 를 비운다. 로고색은 측정값이 불안정해 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "진료 문의, 응급실 문의",
+  "extraSources": [
+    {
+      "name": "건국대학교병원 응급진료안내",
+      "url": "https://www.kuh.ac.kr/medical/emergency.do"
+    }
+  ],
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1588-1533"
+    },
+    {
+      "label": "대표전화(다른 번호)",
+      "tel": "1800-1533"
+    },
+    {
+      "label": "응급실",
+      "tel": "02-2030-5555",
+      "note": "연중 무휴 24시간 접수·진료"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다.",
+  "heroItems": "응급실 번호·대표번호·병원 위치"
+}

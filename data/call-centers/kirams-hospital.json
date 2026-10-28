@@ -1,0 +1,39 @@
+{
+  "slug": "kirams-hospital",
+  "name": "한국원자력의학원",
+  "aliases": [
+    "원자력병원",
+    "한국원자력의학원 원자력병원",
+    "원자력병원 전화번호",
+    "한국원자력의학원 대표전화",
+    "KIRAMS"
+  ],
+  "industry": "public",
+  "brandColor": "#125DAB",
+  "official": "https://www.kirams.re.kr",
+  "sourceUrl": "https://www.kirams.re.kr/",
+  "sourceName": "한국원자력의학원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "TEL",
+    "tel": "02-970-2114"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 한국원자력의학원(kirams.re.kr) 하단: TEL. 02-970-2114. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "TEL",
+      "tel": "02-970-2114"
+    }
+  ],
+  "jobsSentence": "공식 안내에 'TEL'로 적힌 번호입니다."
+}

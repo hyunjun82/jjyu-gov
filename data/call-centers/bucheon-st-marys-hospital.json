@@ -1,0 +1,39 @@
+{
+  "slug": "bucheon-st-marys-hospital",
+  "name": "부천성모병원",
+  "aliases": [
+    "가톨릭대학교 부천성모병원",
+    "부천성모병원 전화번호",
+    "부천성모병원 대표전화",
+    "부천성모병원 응급실",
+    "부천성모병원 고객센터"
+  ],
+  "industry": "public",
+  "brandColor": "#00479D",
+  "official": "https://www.cmcbucheon.or.kr",
+  "sourceUrl": "https://www.cmcbucheon.or.kr/",
+  "sourceName": "부천성모병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "main": {
+    "label": "대표전화",
+    "tel": "1577-0675"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 부천성모병원(cmcbucheon.or.kr) 홈: 대표전화 1577-0675. 응급 페이지에는 번호 표기가 없어 응급실 번호는 쓰지 않는다. 상담시간 표기가 없어 hours 를 비운다. 로고색은 홈 로고 영역 최빈 유채색.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1577-0675"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}

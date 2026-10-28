@@ -1,0 +1,14 @@
+SLUG: hospital-a2100006-call-center
+RECEIVED: 2026-10-28
+CAPTURED-BY: data.go.kr OpenAPI (국립중앙의료원 전국 응급의료기관 정보 조회 서비스 B552657/ErmctInfoInqireService/getEgytListInfoInqire, 응답 원문 발췌)
+SHOTS: 없음 (API 응답)
+
+===== [1] https://www.e-gen.or.kr/egen/search_emergency_room.do =====
+CAPTURED-BY: data.go.kr OpenAPI (키는 저장하지 않는다)
+
+기관명(dutyName) : 의료법인인봉의료재단뉴고려병원
+응급의료기관 구분(dutyEmclsName) : 지역응급의료센터
+주소(dutyAddr) : 경기도 김포시 김포한강3로 283, 뉴고려병원 (장기동)
+대표전화1(dutyTel1) : 031-998-8129
+응급실 전화(dutyTel3) : 031-998-8129
+기관ID(hpid) : A2100006

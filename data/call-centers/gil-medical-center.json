@@ -1,0 +1,41 @@
+{
+  "slug": "gil-medical-center",
+  "name": "가천대 길병원",
+  "aliases": [
+    "길병원",
+    "가천대길병원",
+    "가천대 길병원 전화번호",
+    "길병원 응급실",
+    "가천길병원 대표전화"
+  ],
+  "industry": "public",
+  "brandColor": "#1F1F1F",
+  "official": "https://www.gilhospital.com",
+  "sourceUrl": "https://www.gilhospital.com/",
+  "sourceName": "가천대 길병원 홈페이지",
+  "verifiedAt": "2026-10-27",
+  "hq": "인천광역시 남동구 남동대로774번길 21",
+  "hqZip": "21565",
+  "main": {
+    "label": "대표전화",
+    "tel": "1577-2299"
+  },
+  "hours": {
+    "weekday": ""
+  },
+  "hoursNote": "[2026-10-27] 가천대 길병원(gilhospital.com) 하단: 21565 (신) 인천광역시 남동구 남동대로 774번길 21(구월동) 대표전화 1577-2299. 상담시간 표기가 없어 hours 를 비운다. 로고색은 측정되지 않아 중립 검정을 쓴다.",
+  "variant": "institution",
+  "jobs": "이용 문의",
+  "heroSalt": "b",
+  "ars": {
+    "day": [],
+    "night": []
+  },
+  "numbers": [
+    {
+      "label": "대표전화",
+      "tel": "1577-2299"
+    }
+  ],
+  "jobsSentence": "공식 안내에 '대표전화'로 적힌 번호입니다."
+}
