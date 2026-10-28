@@ -1,0 +1,14 @@
+SLUG: hospital-a1300063-call-center
+RECEIVED: 2026-10-28
+CAPTURED-BY: data.go.kr OpenAPI (국립중앙의료원 전국 응급의료기관 정보 조회 서비스 B552657/ErmctInfoInqireService/getEgytListInfoInqire, 응답 원문 발췌)
+SHOTS: 없음 (API 응답)
+
+===== [1] https://www.e-gen.or.kr/egen/search_emergency_room.do =====
+CAPTURED-BY: data.go.kr OpenAPI (키는 저장하지 않는다)
+
+기관명(dutyName) : MS재건병원
+응급의료기관 구분(dutyEmclsName) : 응급실운영신고기관
+주소(dutyAddr) : 대구광역시 중구 동덕로 194 (동인동1가, 동화빌딩)
+대표전화1(dutyTel1) : 053-653-0119
+응급실 전화(dutyTel3) : 053-653-0119
+기관ID(hpid) : A1300063

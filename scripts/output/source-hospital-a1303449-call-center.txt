@@ -1,0 +1,14 @@
+SLUG: hospital-a1303449-call-center
+RECEIVED: 2026-10-28
+CAPTURED-BY: data.go.kr OpenAPI (국립중앙의료원 전국 응급의료기관 정보 조회 서비스 B552657/ErmctInfoInqireService/getEgytListInfoInqire, 응답 원문 발췌)
+SHOTS: 없음 (API 응답)
+
+===== [1] https://www.e-gen.or.kr/egen/search_emergency_room.do =====
+CAPTURED-BY: data.go.kr OpenAPI (키는 저장하지 않는다)
+
+기관명(dutyName) : 행복한병원
+응급의료기관 구분(dutyEmclsName) : 응급실운영신고기관
+주소(dutyAddr) : 대구광역시 달성군 유가읍 테크노순환로12길 4, 1층,4~6층(1층 사우나홀,113~117호,119~120호,405~407호,5층,601~607호
+대표전화1(dutyTel1) : 053-210-8000
+응급실 전화(dutyTel3) : 053-210-8000
+기관ID(hpid) : A1303449

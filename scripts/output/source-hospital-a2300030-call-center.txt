@@ -1,0 +1,14 @@
+SLUG: hospital-a2300030-call-center
+RECEIVED: 2026-10-28
+CAPTURED-BY: data.go.kr OpenAPI (국립중앙의료원 전국 응급의료기관 정보 조회 서비스 B552657/ErmctInfoInqireService/getEgytListInfoInqire, 응답 원문 발췌)
+SHOTS: 없음 (API 응답)
+
+===== [1] https://www.e-gen.or.kr/egen/search_emergency_room.do =====
+CAPTURED-BY: data.go.kr OpenAPI (키는 저장하지 않는다)
+
+기관명(dutyName) : 의료법인조윤의료재단영동병원
+응급의료기관 구분(dutyEmclsName) : 지역응급의료기관
+주소(dutyAddr) : 충청북도 영동군 영동읍 대학로 106
+대표전화1(dutyTel1) : 043-740-9000
+응급실 전화(dutyTel3) : 043-740-9000
+기관ID(hpid) : A2300030
