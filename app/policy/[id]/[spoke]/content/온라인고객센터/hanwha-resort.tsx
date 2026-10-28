@@ -27,7 +27,7 @@ export const hanwhaResortCallCenterSpokeContent: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '한화리조트 고객센터 전화번호 1588-2299. 문의 유형별 번호 1개와 상담원 연결 방법까지 2026-10-27 공식 안내 기준.',
+    '한화리조트 고객센터 전화번호 1588-2299. 2026-10-27 공식 안내 기준.',
   dateModified: '2026-10-27T09:00:00+09:00',
 
   heroHook:

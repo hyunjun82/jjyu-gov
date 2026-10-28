@@ -27,7 +27,7 @@ export const koreaForestServiceCallCenterSpokeContent: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '산림청 고객센터 전화번호 1588-3249. 상담시간 월~금 09:00~18:00, 상담직원 연결은 이 시간 안에서만 됩니다. 업무별 단축번호 2개와 상담원 연결 방법까지 2026-10-27 공식 안내 기준.',
+    '산림청 고객센터 전화번호 1588-3249. 상담시간 월~금 09:00~18:00, 상담직원 연결은 이 시간 안에서만 됩니다. 2026-10-27 공식 안내 기준.',
   dateModified: '2026-10-27T09:00:00+09:00',
 
   heroHook:
@@ -38,7 +38,7 @@ export const koreaForestServiceCallCenterSpokeContent: SpokeData = {
     '대표번호': '1588-3249 (전화(유료) 주간)',
     '상담 가능 시간': '월~금 09:00~18:00',
     '공휴일': '공휴일 제외',
-    '본사': '대전광역시 서구 청사로 189 (우 35208)',
+    '소재지': '대전광역시 서구 청사로 189 (우 35208)',
   },
   /* '상담원 연결' 줄은 원문 ARS 에 그 번호가 있을 때만 (2026-09-15 조은저축은행).
      ARS 표만 있고 상담원 항목이 없는데 "ARS 안내에서 상담원 연결 선택" 이라 적었다 — 원문에 없는 메뉴다. */
@@ -95,7 +95,7 @@ export const koreaForestServiceCallCenterSpokeContent: SpokeData = {
         label: '지도에서 위치 보기',
         url: MAP,
       },
-      sourceNote: '* 출처: 산림청 사업자 정보 (2026-10-27 확인)',
+      sourceNote: '* 출처: 산림청 홈페이지 (2026-10-27 확인)',
     },
     {
       q: '다른 기관 고객센터 번호도 필요한데요', anchor: 'q5',
@@ -127,7 +127,7 @@ export const koreaForestServiceCallCenterSpokeContent: SpokeData = {
     {
       q: '주소는 어디인가요?',
       a: '대전광역시 서구 청사로 189입니다. 방문하시기 전에 전화로 먼저 문의하시는 편이 빠릅니다.',
-      source: '산림청 사업자 정보',
+      source: '산림청 홈페이지',
       sourceUrl: 'https://www.forest.go.kr',
     },
   ],
@@ -160,6 +160,7 @@ export const koreaForestServiceCallCenterSpokeContent: SpokeData = {
     "word": "공공기관",
     "hubWord": "공공기관 고객센터",
     "agentWord": "상담직원",
+    "hqLabel": "소재지",
     "offhourWord": "ARS 자동응답",
     "idStep": "문의하실 내용과 연락받을 번호",
     "ars": {

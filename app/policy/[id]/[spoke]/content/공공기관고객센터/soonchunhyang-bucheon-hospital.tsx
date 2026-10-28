@@ -27,7 +27,7 @@ export const soonchunhyangBucheonHospitalCallCenterSpokeContent: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '순천향대 부천병원 고객센터 전화번호 032-621-5114. 업무별 단축번호 3개와 상담원 연결 방법까지 2026-10-27 공식 안내 기준.',
+    '순천향대 부천병원 고객센터 전화번호 032-621-5114. 2026-10-27 공식 안내 기준.',
   dateModified: '2026-10-27T09:00:00+09:00',
 
   heroHook:
@@ -91,7 +91,7 @@ export const soonchunhyangBucheonHospitalCallCenterSpokeContent: SpokeData = {
         label: '지도에서 위치 보기',
         url: MAP,
       },
-      sourceNote: '* 출처: 순천향대 부천병원 사업자 정보 (2026-10-27 확인)',
+      sourceNote: '* 출처: 순천향대학교 부천병원 홈페이지 (2026-10-27 확인)',
     },
     {
       q: '다른 기관 고객센터 번호도 필요한데요', anchor: 'q5',
@@ -143,6 +143,7 @@ export const soonchunhyangBucheonHospitalCallCenterSpokeContent: SpokeData = {
     "word": "공공기관",
     "hubWord": "공공기관 고객센터",
     "agentWord": "상담직원",
+    "hqLabel": "소재지",
     "offhourWord": "ARS 자동응답",
     "idStep": "문의하실 내용과 연락받을 번호",
     "ars": {

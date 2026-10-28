@@ -99,7 +99,7 @@ for (const [k, v] of Object.entries(C.hours as Record<string, string>)) {
 /* 업종 — 보험사만 있던 걸 증권사·카드사까지 열어 둔다.
    회사 JSON 의 industry 로 고르고, 없으면 지금까지처럼 보험사다.
    여기를 못박아 두면 업종이 늘 때마다 이 파일을 복사하게 된다. */
-const INDUSTRY: Record<string, { hub: string; dir: string; word: string; unit: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; heroItems: string; cueSalt?: string; dayNote: string; idStep: string; hubWord: string; visit?: string; q4?: (hq?: string) => string; q4hl?: string; hqWord?: string; mapLabels?: string[]; faqHqQ?: string; faqVisit?: string }> = {
+const INDUSTRY: Record<string, { hub: string; dir: string; word: string; unit: string; labels: string[]; jobs: string; remote: string; q5q: string; q5a: string; h1: (n: string) => string; night: string; goods: string; offhour: string; offhourLong: string; agent: string; heroLead: string; heroItems: string; cueSalt?: string; dayNote: string; idStep: string; hubWord: string; visit?: string; q4?: (hq?: string) => string; q4hl?: string; hqWord?: string; hqLabel?: string; mapLabels?: string[]; faqHqQ?: string; faqVisit?: string }> = {
   /* h1 은 실검색어 세 개(전화번호·상담원 연결·영업시간)를 그대로 박는다 (2026-09-02 사장님 지적).
      네이버 1~3등 경쟁 페이지가 "삼성생명 고객센터 전화번호·상담원 연결·영업시간" 이었고
      우리는 "…빠른 상담사 연결·위치 안내" 였다 — '영업시간' 이 빠지고 검색 의도가 약한 '위치' 가 들어갔다.
@@ -422,6 +422,7 @@ const VARIANT: Record<string, Partial<typeof INDUSTRY[string]>> = {
     faqHqQ: '주소는 어디인가요?',
     faqVisit: '방문하시기 전에 전화로 먼저 문의하시는 편이 빠릅니다.',
     hqWord: '위치',
+    hqLabel: '소재지',
     mapLabels: ['지도에서 위치 보기', '위치 확인하기'],
   },
   /* 시설·센터 (2026-10-22 filefarm 고객센터 배치). 공공 틀 그대로면 "자격 확인, 증명서 발급, 신고·신청 접수까지 이 번호 하나로",
@@ -876,6 +877,13 @@ const HUB_LABELS = IND.labels;
 const HERO_TAIL = `아래 대표번호 버튼을 누르면 바로 전화가 연결되고, ${C.heroItems ?? IND.heroItems}도 함께 확인할 수 있습니다.`;
 
 const ARS_FACT = KEY_OK ? `ARS 에서 ${AGENT_KEY}번` : (HAS_ARS ? `ARS 안내에서 ${IND.agent} 연결 선택` : '공식 안내에 ARS 단축번호 미공개');
+/* 메타 끝말 — 단축번호·ARS 가 하나도 없는 글(병원·구청·공기업)에 "단축번호 N개와 상담원 연결 방법까지" 라고 쓰면
+   본문(q2 "공개돼 있지 않습니다")과 어긋난다 (2026-10-28 오늘 푸시한 721편 점검). */
+const META_GOODS = (KEY_OK || HAS_ARS || C.arsNote)
+  ? `${q(C.numbersIntro ? '고객센터 번호' : IND.goods)} ${C.numbers.length}개와 상담원 연결 방법까지 `
+  : '';
+/* 주소 출처 이름 — 병원·구청·공기업 글에 "사업자 정보" 라고 쓰면 실제 출처(응급의료포털·기관 홈페이지)와 다르다 (2026-10-28) */
+const HQ_SRC = IND.hqLabel ? q(C.sourceName) : `${q(C.corp ?? C.name)} 사업자 정보`;
 const ARS_HL = KEY_OK ? `'${AGENT_KEY}번'` : `'${IND.agent} 연결'`;
 const ARS_META = KEY_OK
   ? `${IND.agent} 연결은 ARS ${AGENT_KEY}번. `
@@ -920,11 +928,11 @@ const FAQ_ITEMS = [
   ...(FAQ_HOURS ? [faqItem('주말이나 공휴일에도 상담이 되나요?', q(FAQ_HOURS))] : []),
   ...(C.callFee ? [faqItem('전화 요금은 어떻게 부과되나요?', q(C.callFee))] : []),
   ...(LUNCH_FAQ ? [faqItem('점심시간에도 상담이 되나요?', q(LUNCH_FAQ))] : []),
-  ...(C.hq ? [faqItem(IND.faqHqQ ?? '본사 주소는 어디인가요?', `${q(C.hq)}입니다. ${IND.faqVisit ?? '방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.'}`, `${q(C.corp ?? C.name)} 사업자 정보`, C.official)] : []),
+  ...(C.hq ? [faqItem(IND.faqHqQ ?? '본사 주소는 어디인가요?', `${q(C.hq)}입니다. ${IND.faqVisit ?? '방문 상담이 필요하면 가까운 지점을 먼저 확인하세요.'}`, HQ_SRC, C.official)] : []),
 ].join(NL);
 /* 핵심콕콕의 본사 행 — 주소가 있을 때만 한 줄 만든다.
    출력 문자열 안에 조건문을 그대로 두면 생성된 파일에 코드가 박힌다. */
-const HQ_FACT = C.hq ? `    '본사': '${q(C.hq)}${C.hqZip ? ` (우 ${C.hqZip})` : ''}',
+const HQ_FACT = C.hq ? `    '${IND.hqLabel ?? '본사'}': '${q(C.hq)}${C.hqZip ? ` (우 ${C.hqZip})` : ''}',
 ` : '';
 
 const file = `import type { SpokeData } from '../../SpokeClient';
@@ -956,7 +964,7 @@ export const ${exportName}: SpokeData = {
      서론(description)은 읽히려고 쓴 문장이라 앞부분이 인사말로 채워진다.
      검색은 첫 줄에서 갈리므로 번호·시간·ARS 번호를 앞에 세운다. */
   metaDescription:
-    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}. ${ARS_META}${q(META_HOURS)}${q(C.numbersIntro ? '고객센터 번호' : IND.goods)} ${C.numbers.length}개와 상담원 연결 방법까지 ${C.verifiedAt} 공식 안내 기준.',
+    '${q(C.name)} 고객센터 전화번호 ${C.main.tel}. ${ARS_META}${q(META_HOURS)}${META_GOODS}${C.verifiedAt} 공식 안내 기준.',
   dateModified: '${C.verifiedAt}T09:00:00+09:00',
 
   heroHook:
@@ -1031,7 +1039,7 @@ ${NO_HOURS ? '' : `    '상담 가능 시간': ['${q(C.hours.weekday)}'],${NL}`}
         label: '${q(pick(MAP_LABELS))}',
         url: MAP,
       },
-      sourceNote: '* 출처: ${q(C.corp ?? C.name)} 사업자 정보 (${C.verifiedAt} 확인)',
+      sourceNote: '* 출처: ${HQ_SRC} (${C.verifiedAt} 확인)',
     },
     {
       q: '${IND.q5q}', anchor: 'q5',
@@ -1076,6 +1084,7 @@ ${FAQ_ITEMS}
       word: IND.word,
       hubWord: IND.hubWord,
       agentWord: IND.agent,
+      hqLabel: IND.hqLabel,
       offhourWord: IND.offhour,
       /* 업종 기본값이 안 맞는 곳은 회사 JSON 의 idStep 으로 바꾼다 (2026-09-26 코레일 — 공공 틀 '사업장 관리번호' 는 철도에 없는 말) */
       idStep: C.idStep ?? IND.idStep,

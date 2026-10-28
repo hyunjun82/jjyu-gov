@@ -52,6 +52,8 @@ export interface CallCenterData {
   /* 본사 주소 — 없어도 페이지는 성립한다. 없으면 위치 카드가 지도 검색으로 바뀐다 */
   hq?: string;
   hqZip?: string;
+  /* 주소 이름표 — 병원·구청에 "본사" 라고 쓰지 않도록. 없으면 "본사" */
+  hqLabel?: string;
 }
 
 /* ── 브랜드색 한 개로 그라데이션 3단 만들기 ──────────────────
@@ -767,7 +769,7 @@ export default function CallCenterPage({
                   ...cc.numbers
                     .filter((n) => n.tel !== cc.main.tel)
                     .map((n) => ({ k: n.label, v: n.note ? `${n.tel} (${n.note})` : n.tel })),
-                  ...(cc.hq ? [{ k: '본사 주소', v: cc.hq }] : []),
+                  ...(cc.hq ? [{ k: cc.hqLabel ? cc.hqLabel : '본사 주소', v: cc.hq }] : []),
                   { k: '확인일', v: `${reviewed} · ${cc.sourceName}` },
                 ].map((row, i, arr) => (
                   <tr key={row.k + i} style={i < arr.length - 1 ? { borderBottom: '1px solid #EEF1F6' } : undefined}>
@@ -918,7 +920,7 @@ export default function CallCenterPage({
           </p>
           <div className="cc-grid" style={{ margin: '20px 0 0' }}>
             <div style={{ ...card, padding: 24 }}>
-              <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.07em', color: BLUE }}>{cc.hq ? '본사' : '가까운 지점'}</div>
+              <div style={{ fontSize: 12.5, fontWeight: 700, letterSpacing: '0.07em', color: BLUE }}>{cc.hq ? (cc.hqLabel ?? '본사') : '가까운 지점'}</div>
               <div style={{ margin: '10px 0 0', fontSize: 18, fontWeight: 800, letterSpacing: '-0.02em', color: '#101828' }}>{cc.name}</div>
               <div style={{ margin: '6px 0 0', fontSize: 15, lineHeight: 1.6, color: '#5B6474' }}>
                 {cc.hq
