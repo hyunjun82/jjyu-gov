@@ -59,3 +59,6 @@ scripts/cafe/debug.png
 scripts/cafe/live*.png
 scripts/cafe/read.png
 scripts/cafe/.profile-feed/
+
+# 리라이트 후보 원자료(json) — 재생성된다. 보고서 .md 는 남긴다
+scripts/output/rewrite-candidates-*.json
